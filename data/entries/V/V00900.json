@@ -1,0 +1,135 @@
+{
+	"id": "V00900",
+	"slug": "תקן-2",
+	"headword": {
+		"text": "תְּקֵן"
+	},
+	"page": {
+		"number": 1692,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00899\">same</cite>, <i>to be firm, stand</i> (corresp. to b. h. <cite ref=\"K00296\"><he>כּוּן</he></cite>, <cite ref=\"K00859\"><he>כָּנן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 90:17\">Targ. Ps. XC, 17</cite> <he>יִתְקְנַן</he> ed. Ven. (Ms. <he>יְתַקְנַן</he>; ed. Wil. <he>יִתּקְּנוּן</he> <i>Ithpa.</i>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:18\">Targ. Prov. XXII, 18</cite> <he>נִיתְקְנִין</he> (ed. Wil. <he>נִתּקְּנוּן</he> <i>Ithpa.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּקֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to establish</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 9:8\">Targ. Ps. IX, 8</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 74:16\">Ib. LXXIV, 16</cite> Ms. (ed. <i>Af.</i>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 62:7\">Targ. Is. LXII, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 7:12\">Targ. II Sam. VII, 12</cite>; a. fr.—Part. pass. <he>מְתַקַּן</he>. ",
+						"<cite ref=\"Targum Jonathan on Judges 16:26\">Targ. Jud. XVI, 26</cite> (not <cite ref=\"S01506\"><he>קֵן …</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 89:38\">Targ. Ps. LXXXIX, 38</cite> (ed. Lag. <he>מִיתַּקַּן</he> <i>Ithpa.</i>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to prepare, arrange, set in order; to improve, do a thing properly</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 40:13\">Targ. Is. XL, 13</cite> (h. text <cite ref=\"V00549\"><he>תכן</he></cite>). ",
+						"<cite ref=\"Onkelos Exodus 16:5\">Targ. O. Ex. XVI, 5</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 6:8\">Targ. Prov. VI, 8</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 11:2\">Targ. Ps. XI, 2</cite>; a. e.—[<cite ref=\"Onkelos Deuteronomy 22:5\">Targ. O. Deut. XXII, 5</cite>, read with ed. Berl. <he>יִתָּקַן</he>.]—Part. pass. as ab. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 16:13\">Targ. Ez. XVI, 13</cite> (not <cite ref=\"S01506\"><he>קֵן …</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 18:12\">Ib. XVIII, 12</cite>; a. fr.—",
+						"<cite ref=\"Ketubot 112a:18\">Keth. 112ᵃ</cite> bot. <he>מְתַקֵּן מתקליה</he> repaired its offences (dangerous places on the road to Palestine); <cite ref=\"Yalkut Shimoni on Nach 855\">Yalk. Ps. 855</cite>. ",
+						"<cite ref=\"Tamid 27b:39\">Tam. 27ᵇ</cite> <he>תַּקֵּין נפשך</he> put thyself in order (regulate thy bowels). ",
+						"<cite ref=\"Shabbat 33b:10\">Sabb. 33ᵇ</cite> <he>איזיל אֲתַקֵּין מילתא</he> I will go and remedy something (do something to benefit the community). ",
+						"<cite ref=\"Shabbat 33b:10\">Ib.</cite> <he>איכא מילתא דבעי לתַקּוּנֵי</he> is there anything that requires to be remedied? <cite ref=\"Zevachim 15a:1\">Zeb. 15ᵃ</cite> <he>אפשר לתַקּוּנָהּ</he> it can be remedied. ",
+						"<cite ref=\"Zevachim 76b:2\">Ib. 76ᵇ</cite> <he>תַּקּוּנֵי גברא שאני</he> when a person is to be made fit (restored from a disqualification), we make an exception; <cite ref=\"Menachot 105b\">Men. 105ᵇ</cite>. ",
+						"<cite ref=\"Ketubot 85a\">Keth. 85ᵃ</cite>, a. fr. <he>לתקוני שדרתיך</he>, v. <cite ref=\"P00377\"><he>עֲוַת</he></cite>; a. fr.—Esp. <i>to make fit for use by separating the priestly gifts</i>. ",
+						"<cite ref=\"Bereishit Rabbah 60:8\">Gen. R. s. 60</cite> <he>תַּקְּנַת אילין וכ׳</he> hast thou tithed those figs? <cite ref=\"Bereishit Rabbah 60\">Ib.</cite> <he>תַּקַּנְתּוּהוּ</he> have you tithed it (the barley)?; a. fr.—Part. pass. as ab. ",
+						"<cite ref=\"Bereishit Rabbah 60\">Ib.</cite> <he>אפשר … דלא מְתַקְּנַן</he> is it possible that R. Z. should have eaten of them when they were not tithed?; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to introduce, ordain, innovate, reform</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 33b:22\">Ber. 33ᵇ</cite> <he>אי לאו … ותַקְּנִינְהוּ בתפלה וכ׳</he> were it not that Moses had said them (the words, ‘O God, great, mighty and terrible’), and the men of the Great Assembly had come and introduced them in the prayers, we could not dare to say them. ",
+						"<cite ref=\"Berakhot 33b:8\">Ib.</cite> <he>תמני סרי תַּקּוּן וכ׳</he> eighteen benedictions they have ordained, nineteen they have not. ",
+						"<cite ref=\"Berakhot 40b:5\">Ib. 40ᵇ</cite> <he>ברכה דלא תַקִּינוּ רבנן</he> a benediction which the Rabbis have not introduced. ",
+						"<cite ref=\"Bava Batra 90b:2\">B. Bath. 90ᵇ</cite> <he>רב פפא</he> … <he>ת׳ כיילא וכ׳</he> Rab Papa … introduced a measure of three Ḳ’fizas. ",
+						"<cite ref=\"Bava Batra 90b:2\">Ib.</cite> <he>אנא … תַּקִּינִי</he> I have introduced a new measure; a. v. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַתְקֵין"],
+			"senses": [
+				{
+					"gloss": "<i>to establish</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 3:19\">Targ. Prov. III, 19</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 30:33\">Targ. Is. XXX, 33</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to prepare, arrange, set in order</i> &c. (v. <i>Pa.</i>).). ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 10:33\">Targ. Num. X, 33</cite>. ",
+						"<cite ref=\"Onkelos Genesis 43:16\">Targ. Gen. XLIII, 16</cite>. ",
+						"<cite ref=\"Onkelos Exodus 30:7\">Targ. Ex. XXX, 7</cite>; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to introduce, ordain, innovate, reform</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 34a\">R. Hash. 34ᵃ</cite> <he>איתקין ר׳ אבהו וכ׳</he> (read: <cite ref=\"A01651\"><he>אַתְ׳</he></cite>; Ms. M. <cite ref=\"V00899\"><he>הִתְקִין</he></cite> Hebr.) R. A. introduced the custom in Cæsaræa of sounding one T’ḳiʿah, three notes of Sh’barim, and one T’ḳiʿah. ",
+						"<cite ref=\"Rosh Hashanah 34a:22\">Ib.</cite> <he>מאי א׳</he> what has he improved (what has he achieved with his ordinance)? <cite ref=\"Gittin 86a:2\">Gitt. 86ᵃ</cite> <he>א׳ רב יהודה וכ׳</he> Rab Judah introduced the formula for the sale of slaves: ‘this slave &c.’ Y. Ḥag. I, 76ᶜ <he>ר׳ יודה … למַתְקְנָא לון וכ׳</he> (or <he>למְתַקְּנָא</he>, <i>Pa.</i>) R. Judah the Nasi sent out R. Ḥ…, that they should pass the towns … to institute teachers of Bible and of Mishnah for them; <cite ref=\"Midrash Tehillim 127\">Midr. Till. to Ps. CXXVII</cite>; Lam. R. introd., beg. <he>דיפקון ויַתְקְנוּן קרייתא וכ׳</he> (or <he>ויתַקְּנוּן</he>) that they should go and improve (the education of) the towns in Palestine; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתַּקֵּין", "אִיתַּקַּן"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <he>אִיתְּקֵין</he>, <cite ref=\"A03443\"><he>אִיתְ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be established, confirmed; to be prepared, arranged</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 2:46\">Targ. I Kings II, 46</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 12:19\">Targ. Prov. XII, 19</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 19:29\">Ib. XIX, 29</cite> (ed. Wil. <he>מְתַ׳</he>, part. pass. <i>Pa.</i>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be prepared, dressed; to dress, adorn one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 2:15\">Targ. Hos. II, 15</cite>. Targ. II Esth. V, 1; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be instituted, ordained</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 82a:5\">B. Kam. 82ᵃ</cite> <he>עזרא תיקן</he> … <he>מִיתַּקְּנָא</he> Ezra introduced this? was it not introduced before that (by Moses)?; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

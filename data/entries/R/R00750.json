@@ -1,0 +1,33 @@
+{
+	"id": "R00750",
+	"slug": "צרור-2",
+	"headword": {
+		"text": "צְרוֹר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1300,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00808\"><he>צָרַר</he> I)</cite><i>knot</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:4\">Kel. XXVI, 4</cite> (<he>צְרוּרוֹת</he>) <he>צ׳ שעה</he> if they are tied up with a temporary knot; <he>צ׳ עילם</he> with a permanent knot; <cite ref=\"Jerusalem Talmud Kilayim 6:3:4\">Y. Kil. VI, 30ᶜ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 6:3:4\">Ib.</cite> <he>צ׳ עולם צריך חיתיך צ׳ וכ׳</he> a permanent knot requires cutting through (to be opened); a temporary knot does not &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bundle, bag</i>. Kel. l. c. 2 <he>צ׳ המרגלית</he> a piece of leather in which jewels are bound up; <he>צ׳ המעות</he> in which money is bound up; <cite ref=\"Tosefta Keilim Batra 4:3\">Tosef. Kel. B. Bath. IV, 3</cite>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 68a\">Snh. 68ᵃ</cite>. ",
+				"<cite ref=\"Shemot Rabbah 20:9\">Ex. R. s. 20</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

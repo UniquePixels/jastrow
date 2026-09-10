@@ -1,0 +1,59 @@
+{
+	"id": "T01143",
+	"slug": "רתע-1",
+	"headword": {
+		"text": "רָתַע"
+	},
+	"page": {
+		"number": 1504,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"T01148\"><he>רָתַת</he></cite>) <i>to tremble, shake</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְתַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be startled</i>; <he>נ׳ לאחוריו</he> <i>to be startled and move backward, to start back</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 3:3\">Par. III, 3</cite>. Y. R. Hash. II, beg. 57ᵈ <he>ונִרְתַּעְתִּי לאחוריי</he> I started back (was astonished); (Tosef. ib. I, 15 <he>נבעתתי ונפלתי</he>); Bab. ",
+						"<cite ref=\"Rosh Hashanah 22b:8\">R. Hash. 22ᵇ</cite> <he>ונרתעתי ונפלתי</he> (Ms. M. 2 <he>והתרעתי</he>, read: <he>והִרְתַּעְתִּי</he> <i>Hif.</i>); a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִרְתִּיעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01142\">same</cite>. Y. Ber. III, 6ᵈ bot. <he>וה׳ מלפניו כמַרְתִּיעַ וכ׳</he> and he shrank back from it, as one shrinks from a serpent. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12<sup>3</sup></cite> <he>שלשה … וה׳ לאחוריו</he> three things did Moses hear by which he was startled (puzzled); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"T01122\"><he>רָתַח</he></cite>) <i>to be excited</i>; (of a serpent) <i>to hiss</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite> <he>ראה נחש מַרְתִּיעַ ובא</he> saw a serpent coming on in excitement; <cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite>. Y. Ber. V, 9ᵃ bot. <he>אבל היה מרתיע ובא כנגדו</he> but if the serpent comes against him in excitement, opp. <he>כרוך</he>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to frighten away</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 55b:10\">Sabb. 55ᵇ</cite> (play on <he>פ̇ח̇ז̇</he>, <cite ref=\"Genesis 49:4\">Gen. XLIX, 4</cite>) <he>ז̇עזעתה הִירְ֗תַּעְתָּהּ פ̇רח̇ה וכ׳</he> thou didst scare her, thou didst frighten her away, and sin flew from thee."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

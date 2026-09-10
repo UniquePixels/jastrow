@@ -1,0 +1,28 @@
+{
+	"id": "M00381",
+	"slug": "מהר-3",
+	"headword": {
+		"text": "מָהִר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָהִיר"
+		}
+	],
+	"page": {
+		"number": 737,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M00380\">preced. art.</cite>) <i>quick, ready</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:12\">Ab. V, 12</cite> <he>מ׳ לשמוע ומ׳ לאבד</he> quick of perception and quick to forget. ",
+				"<cite ref=\"Shemot Rabbah 11:1\">Ex. R. s. 11</cite>, beg.; a. e."
+			]
+		}
+	]
+}

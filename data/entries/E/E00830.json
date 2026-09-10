@@ -1,0 +1,32 @@
+{
+	"id": "E00830",
+	"slug": "הרדסיאות",
+	"headword": {
+		"text": "הַרְדְּסִיאוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַרְדְּסִיּוֹת"
+		},
+		{
+			"text": "הַדְרְסִ־"
+		}
+	],
+	"page": {
+		"number": 366,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl., <he>יוני ה׳</he> <i>a species of domesticated doves</i> (prob. so named from the manner of their fructification, v. <cite ref=\"E00825\"><he>הִרְדּוּס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 12:1\">Ḥull. XII, 1</cite>; <cite ref=\"Beitzah 25a:6\">Bets. 25ᵃ</cite>; <cite ref=\"Tosefta Beitsah 1:10\">Tosef. ib. I, 10</cite>; <cite ref=\"Tosefta Chullin 10:9\">Tosef. Ḥull. X, 9</cite> <he>הרד׳</he> ed. Zuck. (Var. <he>הדר׳</he>). ",
+				"<cite ref=\"Chullin 139b:13\">Ḥull. 139ᵇ</cite> <he>חד תני הדר׳ וחד תני הרד׳ וכ׳</he> one reads <i>hadr.</i>, and one reads <i>hard.</i>, the one deriving our w. from Herod, the other from the name of a place."
+			]
+		}
+	]
+}

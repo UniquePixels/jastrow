@@ -1,0 +1,31 @@
+{
+	"id": "L00707",
+	"slug": "לשכה",
+	"headword": {
+		"text": "לִשְׁכָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִישְׁ׳"
+		}
+	],
+	"page": {
+		"number": 720,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>cell, chamber, compartment</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 5:4\">Midd. V, 4</cite> <he>לִשְׁכַּת העץ</he> the compartment (in the Temple) for the storage of wood; <he>ל׳ הגולה</he> the compartment containing the pilgrims’ well; <he>ל׳ הגזית</he>, v. <cite ref=\"C00557\"><he>גָּזִית</he></cite>.—Esp. <he>הל׳</he> <i>the Temple treasury</i> for congregational sacrifices. ",
+				"<cite ref=\"Mishnah Shekalim 3:2\">Shek. III, 2</cite> <he>בשלש … תורמין את הל׳</he> the funds in the treasury are arranged in three piles. ",
+				"<cite ref=\"Mishnah Shekalim 3:2\">Ib.</cite> <he>תרומת הל׳</he> the treasure of &c. Ib. IV, 1 <he>נוטלין שכרן מתרומת הל׳</he> receive their wages out of the Temple fund; a. fr.—Pl. <he>לְשָׁכוֹת</he>. ",
+				"<cite ref=\"Mishnah Middot 5:3\">Midd. V, 3</cite>. ",
+				"<cite ref=\"Mishnah Tamid 3:3\">Tam. III, 3</cite>; a. e."
+			]
+		}
+	]
+}

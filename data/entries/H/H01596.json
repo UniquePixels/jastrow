@@ -1,0 +1,23 @@
+{
+	"id": "H01596",
+	"slug": "חרגינין",
+	"headword": {
+		"text": "חַרְגִּינִּין"
+	},
+	"page": {
+		"number": 498,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (comp. of <he>חר</he> a. <cite ref=\"C00756\"><he>גִּינָּה</he></cite>, v. <cite ref=\"H01652\"><he>חַרְחֲבִינָה</he></cite>) <i>garden-ivy</i>, the leaves of which may be used for bitter herbs on the Passover night. ",
+			"units": [
+				"<cite ref=\"Pesachim 39a\">Pes. 39ᵃ</cite> ed. (Ms. M. 1 <cite ref=\"E00198\"><he>הוגנין</he></cite> read with Ms. M. 2: <cite ref=\"E00819\"><he>הַרְגִּנִּין</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "H01086",
+	"slug": "חלמא-1",
+	"headword": {
+		"text": "חֶלְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִילְ׳"
+		}
+	],
+	"page": {
+		"number": 471,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"H00999\"><he>חֲלוֹם</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:6\">Targ. Gen. XXXVII, 6</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 56a:2\">Ber. 56ᵃ</cite> <he>חֶלְמָאִי</he> my dream. ",
+				"<cite ref=\"Berakhot 56a:5\">Ib.</cite> <he>בחֶלְמִין</he> in our dream; a. fr.—Pl. <cite ref=\"H01094\"><he>חֶלְמִין</he></cite>, <he>חֶלְמַיָּא</he>, <cite ref=\"H01086\"><he>חִילְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Joel 3:1\">Targ. Joel III, 1</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Job 6:6\">Targ. Job VI, 6</cite> <he>מרי חלמיא</he>, ed. Lag. <cite ref=\"L00366\"><he>לחמא</he></cite>, ed. Wil. <he>רירא דחלמונא</he>.]"
+			]
+		}
+	]
+}

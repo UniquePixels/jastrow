@@ -1,0 +1,24 @@
+{
+	"id": "O01030",
+	"slug": "סלקונדרי",
+	"headword": {
+		"text": "סַלְקוּנְדְּרֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 997,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (siliginarii or siliquiarii) <i>bakers</i> of wheat flour (v. Sm. Ant.<sup>3</sup> s. v. Pistor). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 39b:8\">Ab. Zar. 39ᵇ</cite> (Ar. <cite ref=\"O00972\"><he>סלוקתי</he></cite>, <he>סלותקי</he>, <cite ref=\"O00967\"><he>סלונדקי</he></cite>), v. <cite ref=\"O01031\">next w.</cite>"
+			]
+		}
+	]
+}

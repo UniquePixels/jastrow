@@ -1,0 +1,27 @@
+{
+	"id": "M01504",
+	"slug": "מלוזמא",
+	"headword": {
+		"text": "מְלוּזְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְלוּזְמָה"
+		}
+	],
+	"page": {
+		"number": 788,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a Babylonian corrupt. of νόμισμα, numisma) <i>stamp</i> of a coin. ",
+			"units": [
+				"<cite ref=\"Berakhot 53b:10\">Ber. 53ᵇ</cite> <he>כדי שיכיר בין מ׳ … למ׳ וכ׳</he> when one can distinguish the stamp of a Tiberian coin from that of a Sepphorian coin."
+			]
+		}
+	]
+}

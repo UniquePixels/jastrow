@@ -1,0 +1,23 @@
+{
+	"id": "H00712",
+	"slug": "חיטין",
+	"headword": {
+		"text": "חִיטִּין"
+	},
+	"page": {
+		"number": 453,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " pl. of <cite ref=\"H00595\"><he>חִטָּה</he></cite> a. of <cite ref=\"H00706\"><he>חִיטָּא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>reed</i>, v. <cite ref=\"A01223\"><he>אִיטָּן</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

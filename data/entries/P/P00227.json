@@ -1,0 +1,35 @@
+{
+	"id": "P00227",
+	"slug": "עוי-3",
+	"headword": {
+		"text": "עֲוֵי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1049,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"P00225\"><he>עַוֵּי</he></cite> (cmp. <cite ref=\"R00185\"><he>צָוַח</he></cite>) <i>to cry</i>; <cite ref=\"Yoma 77a:8\">Yoma 77ᵃ</cite> <he>ע׳ ע׳ וליכא דאשגח ביה</he> (missing in later eds.; v. Rabb. D. S. a. l.) he cried and cried, and none minded him. ",
+					"units": [
+						"<cite ref=\"Yevamot 71b:9\">Yeb. 71ᵇ</cite> <he>היכא דלא מְעַוֵּי</he> if the infant (on putting its head forth the first time) did not cry. ",
+						"<cite ref=\"Shabbat 134a:14\">Sabb. 134ᵃ</cite> <he>האי ינוקא דלא מעוי</he> if an infant does not cry (breathe). ",
+						"<cite ref=\"Sotah 12a:19\">Sot. 12ᵃ</cite> <he>כי היכי … ומעוי בהדייהו</he> in order that it should hear them and cry with them; a. e.—",
+						"<cite ref=\"Chullin 53a:16\">Ḥull. 53ᵃ</cite> <he>איהו קא מְעַוַּאי</he> when he (the lion) roars."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

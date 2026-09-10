@@ -1,0 +1,23 @@
+{
+	"id": "M00659",
+	"slug": "מורן",
+	"headword": {
+		"text": "מוֹרָן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 750,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. contract. of <he>מאורן</he>; <cite ref=\"A00843\"><he>אוּר</he></cite>) <i>moran</i>, name of <i>a compartment</i> of the house (the Greek peristyle?). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 1:6\">B. Bath. I, 6</cite> (<cite ref=\"Bava Batra 11a\">11ᵃ</cite>) <he>המ׳</he> (Ms. M. <he>המרון</he>; Ms. H. <he>המירן</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "B00894",
+	"slug": "בלסם",
+	"headword": {
+		"text": "בַּלְסָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּלְסְמוֹן"
+		}
+	],
+	"page": {
+		"number": 174,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בסם</he>, with inserted <cite ref=\"L00000\"><he>ל</he></cite> = <cite ref=\"T00000\"><he>ר</he></cite>; hence βάλσαμον which was readopted as <cite ref=\"B00894\"><he>בלסמון</he></cite>; cmp. <cite ref=\"B00826\"><he>בְּלוּזְמָא</he></cite>) <i>balsam, aromatic gum</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 91:11\">Gen. R. s. 91</cite> (interpr. <cite ref=\"R00759\"><he>צרי</he></cite>) <he>בלסם קטף</he> the gum of the balsam tree.—",
+				"<cite ref=\"Aramaic Targum to Song of Songs 7:14\">Targ. Cant. VII, 14</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 31\">Lev. R. s. 31</cite>; <cite ref=\"Shir HaShirim Rabbah 1:15\">Cant. R. to I, 15</cite>; a. e. Cmp. <cite ref=\"Q01109\"><he>פַּלְסְמוֹן</he></cite> a. <cite ref=\"A02832\"><he>אַפַּרְסָמוֹן</he></cite>."
+			]
+		}
+	]
+}

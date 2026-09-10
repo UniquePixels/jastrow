@@ -1,0 +1,23 @@
+{
+	"id": "A02008",
+	"slug": "אמוריא",
+	"headword": {
+		"text": "אֲמוּרְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 76,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00603\"><he>מור</he></cite>, <cite ref=\"J00423\"><he>ימר</he></cite>) <i>exchange</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 1\">Esth. R. to I, 1</cite>ᵇ, <he>בני אֲמוּרְיֵיה</he> his hostages; v. <cite ref=\"A00641\"><he>אוּכַּיְיפָא</he></cite> for corr. vers."
+			]
+		}
+	]
+}

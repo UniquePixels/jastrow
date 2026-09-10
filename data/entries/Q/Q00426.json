@@ -1,0 +1,30 @@
+{
+	"id": "Q00426",
+	"slug": "פזיזא",
+	"headword": {
+		"text": "פְּזִיזָא"
+	},
+	"page": {
+		"number": 1150,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q00424\"><he>פָּזַז</he></cite> 3) <i>rash, overhasty, impetuous</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 112a:17\">Keth. 112ᵃ</cite> <he>עמא פ׳ דקדמיתו פומייכו וכ׳</he> rash people that you were when you permitted your mouths to anticipate your ears (promised to obey before you heard, <cite ref=\"Exodus 24:7\">Ex. XXIV, 7</cite>), you still persist in your impetuousness (risk your lives for your religion); <cite ref=\"Shabbat 88a:9\">Sabb. 88ᵃ</cite> (Ms. O. <he>פחיזא</he>, v. Rabb. D. S. a. l. note 400); <cite ref=\"Yalkut Shimoni on Torah 277:1\">Yalk. Ex. 277</cite>.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"Q00421\"><he>פְּזוֹזָא</he></cite>) <i>gilded</i>, or <i>glazed</i>.—Pl. <he>פְּזִיזֵי</he>. ",
+			"units": [
+				"<cite ref=\"Yoma 78b\">Yoma 78ᵇ</cite> <he>מאני פ׳ וכ׳</he> Ms. M. 1 gilded or glazed earthen vessels, v. <cite ref=\"C00538\"><he>גְּזַז</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

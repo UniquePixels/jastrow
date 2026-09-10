@@ -1,0 +1,29 @@
+{
+	"id": "O00300",
+	"slug": "סוכה-2",
+	"headword": {
+		"text": "סוּכָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "סֻכָּה"
+		}
+	],
+	"page": {
+		"number": 963,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"O00903\"><he>סָכַךְ</he></cite>)<i>cover</i> of twigs; <i>booth</i>; esp. <i>Succah, the booth</i> covered with twigs &c. <i>for the seven days of Succoth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 3:7\">Maasr. III, 7</cite> <he>סוּכַּת גינוסר</he> the lodge of Genezareth gardens (inhabited during vintage); <he>ס׳ היוצרים</he> the potter’s hut (the outer compartment serving as a workshop, the inner as a dwelling); <he>סֻכַּת החג</he> the festive booth. ",
+				"<cite ref=\"Bamidbar Rabbah 4:14\">Num. R. s. 4</cite> (ref. to <he>יֻסַּךְ</he>, <cite ref=\"Exodus 25:29\">Ex. XXV, 29</cite>) <he>שהיו מעמידין … כמין ס׳</he> they put the bread up in the shape of a hut; <he>שכל חלה … ס׳ וכ׳</he> each cake forming a roof over that below (tubes being placed between them to allow the air to strike). ",
+				"<cite ref=\"Mishnah Sukkah 1:1\">Succ. I, 1</cite> <he>ס׳ שהיא גבוהה וכ׳</he> a Succah which is higher than twenty cubits is unfit for ritual use. Ib. 2 <he>העושה סוּכָּתוֹ וכ׳</he> he who put up his Succah under a tree; a. v. fr.—Pl. <cite ref=\"O00302\"><he>סוּכּוֹת</he></cite>, <cite ref=\"O00302\"><he>סֻכּוֹת</he></cite>. Ib. 8ᵇ <he>שתי ס׳ של יוצרים</he> the two combined huts of the potters, v. supra; a. fr.—<i>Succah</i>, name of a treatise, of the Order of Moʿed, of the Mishnah, Talmud Babli a. Y’rushalmi, a. Tosefta."
+			]
+		}
+	]
+}

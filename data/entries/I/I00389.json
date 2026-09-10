@@ -1,0 +1,35 @@
+{
+	"id": "I00389",
+	"slug": "טין-2",
+	"headword": {
+		"text": "טִין",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טִינָא"
+		}
+	],
+	"page": {
+		"number": 532,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"I00390\">next w.</cite>) <i>mud, clay</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:11\">Targ. Ez. XIII, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 10:5\">Targ. Zech. X, 5</cite> (ed. Lag. <cite ref=\"O00723\"><he>סִין</he></cite>; h. text <cite ref=\"I00328\"><he>טיט</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 1:14\">Targ. Ex. I, 14</cite> (h. text <he>חֹמֶר</he>); a. fr.—",
+				"<cite ref=\"Avodah Zarah 39a:6\">Ab. Zar. 39ᵃ</cite> <he>דלא מרבי ט׳ וכ׳</he> (not <cite ref=\"M02493\"><he>מרבה</he></cite>) the muddy soil of the river suffers no unclean fish to live in it; <cite ref=\"Sukkah 18a\">Succ. 18ᵃ</cite> Ms. M. 2 (ed. <he>טינייהו</he>, v. Rabb. D. S. a. l. note 40). ",
+				"<cite ref=\"Yoma 29a:2\">Yoma 29ᵃ</cite> <he>ט׳ בר ט׳</he> cement made out of cement (that has before been used, is hard to make). ",
+				"<cite ref=\"Bava Batra 3a\">B. Bath. 3ᵃ</cite> <he>בט׳</he> when clay has been used as cement, contrad. to <cite ref=\"T00641\"><he>ריכסא</he></cite>. ",
+				"<cite ref=\"Bava Batra 73b:4\">Ib. 73ᵇ</cite>, v. <cite ref=\"A01703\"><he>אָכְלָה</he> I</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 67a:8\">Sabb. 67ᵃ</cite>, v. <cite ref=\"I00328\"><he>טִיט</he></cite>."
+			]
+		}
+	]
+}

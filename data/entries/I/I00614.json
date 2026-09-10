@@ -1,0 +1,57 @@
+{
+	"id": "I00614",
+	"slug": "טען-1",
+	"headword": {
+		"text": "טָעַן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 544,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00594\"><he>טָעָה</he></cite>) [<i>to seek, ask</i>, (cmp. <cite ref=\"B01020\"><he>בְּעָא</he></cite>),] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to claim</i> before court, <i>to sue, to plead</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 13:4\">Keth. XIII, 4</cite> <he>הטוֹעֵן את חבירו כדי וכ׳</he> if one claims from his neighbor a certain number of jugs of oil. ",
+				"<cite ref=\"Ketubot 108b\">Ib. 108ᵇ</cite>, a. e. <he>טְעָנוֹ חטין וכ׳</he> if one claims wheat and barley (two different things), and defendant admits barley. ",
+				"<cite ref=\"Shevuot 43a:11\">Shebu. 43ᵃ</cite> <he>עד שיִטְעֲנֶנּוּ בדבר וכ׳</he> until he sues him for something weighable or countable. ",
+				"<cite ref=\"Gittin 58b:5\">Gitt. 58ᵇ</cite> <he>טוֹעֲנִין ליורש וכ׳</he> the court pleads in behalf of the heir &c.; a. v. fr.—Part. pass. <cite ref=\"I00597\"><he>טָעוּן</he></cite>, f. <cite ref=\"I00598\"><he>טְעוּנָה</he></cite> <i>is required for, requires</i>. ",
+				"<cite ref=\"Mishnah Zevachim 5:7\">Zeb. V, 7</cite> <he>דמן ט׳ הזייה</he> their blood is required for sprinkling (must be sprinkled). ",
+				"<cite ref=\"Mishnah Bikkurim 2:1\">Bicc. II, 1</cite> <he>טְעוּנִים רחיצת וכ׳</he> require washing of hands; a. v. fr.—Denom. <cite ref=\"I00619\"><he>טֹעַן</he></cite>, <cite ref=\"I00193\"><he>טוֹעַן</he></cite> <i>requirement, obligation</i>, fr. which <he>טָ׳ טֹעַן</he> <i>to require</i>. Sifra introd. <he>ויצא מן הכלל לִיטְעוֹן ט׳ אחר שהוא וכ׳</he> and is specified for another requirement in keeping with the general subject."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to seek after, to suspect</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִטְעַן"],
+			"senses": [
+				{
+					"gloss": "<i>to be sued, to be respondent, defendant</i>. Y. B. Kam. X, beg. 7ᵇ <he>אפי׳ קטנים נִטְעָנִין להן בב״ד</he> even for minors defense is made in court (prob. to be read: <he>טוֹעֲנִין</he>, cmp. ",
+					"units": [
+						"<cite ref=\"Gittin 58b:4\">Gitt. 58ᵇ</cite>, quoted supra). [In later literature <cite ref=\"I00193\"><he>טוֹעֵן</he></cite> <i>claimant</i>, <cite ref=\"I00614\"><he>נִטְעָן</he></cite> <i>defendant</i>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be inquired after, suspected, to be summoned on suspicion</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yevamot 2:8\">Yeb. II, 8</cite> <he>הנ׳ על א״א וכ׳</he> if one was suspected of intercourse with a married woman, and the court caused her to be sent away from him (her husband) on his account; <cite ref=\"Yevamot 24b\">ib. 24ᵇ</cite>; <cite ref=\"Tosefta Yevamot 4:5\">Tosef. ib. IV, 5</cite> <he>הניט׳ מא״א</he>. Y. ib. II, 4ᵃ bot. <he>בנ׳ בעדים</he> when the suspicion has been corroborated by witnesses."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

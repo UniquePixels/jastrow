@@ -1,0 +1,35 @@
+{
+	"id": "C00292",
+	"slug": "גוברא",
+	"headword": {
+		"text": "גּוּבְרָא"
+	},
+	"page": {
+		"number": 217,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"C00131\"><he>גַּבְרָא</he></cite>, <i>man, husband</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 5:11\">Targ. Koh. V, 11</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:4:6\">Y. Taan. I, 64ᵇ</cite> bot.; a. fr.—Pl. <he>גּוּבְרִין</he>, <he>גּוּבְרַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:13\">Targ. Y. Deut. I, 13</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 65b:11\">Snh. 65ᵇ</cite> <he>מה גבר מגו׳</he> what is the difference between man and men (you and common people). ",
+				"<cite ref=\"Berakhot 31b:17\">Ber. 31ᵇ</cite> <he>גברא בגו׳</he> a man among men (a distinguished man). ",
+				"<cite ref=\"Gittin 45a:21\">Gitt. 45ᵃ</cite> <he>עדי ג׳ וכ׳</he> these (our captors) are men and those (our husbands) in Nehardea are men (Rashi: <i>our</i> masters, husbands), a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>strength, skill</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 25b:37\">Nidd. 25ᵇ</cite>; <cite ref=\"Niddah 64b:63\">64ᵇ</cite> <he>דרב גּוּבְרֵיה</he> because his skill (physiological knowledge) was great."
+			],
+			"label": "2"
+		}
+	]
+}

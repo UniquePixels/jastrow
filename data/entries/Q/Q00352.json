@@ -1,0 +1,24 @@
+{
+	"id": "Q00352",
+	"slug": "פורייתא-2",
+	"headword": {
+		"text": "פּוּרְיְיתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1147,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00351\">preced.</cite>) [<i>frame</i>,] <i>lid with rims, close-fitting cover</i> (corresp. to <cite ref=\"D00316\"><he>דּוֹפֵק</he></cite>, v. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 126\">Sifré Num. 126</cite>, quot. s. v. <cite ref=\"Q02165\"><he>פָּתִיל</he></cite>). ",
+				"<cite ref=\"Targum Jerusalem, Numbers 19:15\">Targ. Y. II, Num. XIX, 15</cite> <he>פ׳ משעא</he> pasted-on lid (h. text <he>צמיד פתיל</he>; Y. I <cite ref=\"M00135\"><he>מגופתא</he></cite>)."
+			]
+		}
+	]
+}

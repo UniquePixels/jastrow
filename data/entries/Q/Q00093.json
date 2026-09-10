@@ -1,0 +1,22 @@
+{
+	"id": "Q00093",
+	"slug": "פגר-4",
+	"headword": {
+		"text": "פַּגָּר"
+	},
+	"page": {
+		"number": 1136,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00090\"><he>פָּגַר</he></cite>; cmp. Syr. <he>בגר</he> repagulum, P. Sm. 448) <i>bit</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 4:7\">Tosef. Kel. B. Mets. IV, 7</cite> (some ed. <cite ref=\"Q01692\"><he>פרומביא</he></cite>)."
+			]
+		}
+	]
+}

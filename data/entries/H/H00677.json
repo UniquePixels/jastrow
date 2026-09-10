@@ -1,0 +1,39 @@
+{
+	"id": "H00677",
+	"slug": "חיוב-2",
+	"headword": {
+		"text": "חִיּוּב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיּוּבָא"
+		},
+		{
+			"text": "חִיּי׳"
+		}
+	],
+	"page": {
+		"number": 452,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00676\">same</cite><i>guilt, wickedness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 35:8\">Targ. Job XXXV, 8</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>obligation, conviction</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 28a:3\">R. Hash. 28ᵃ</cite> <he>בח׳</he> as an obligation; <he>זמן ח׳</he> the time when one is bound to hear the Shofar; <he>מקום ח׳</he> a place where one is bound. ",
+				"<cite ref=\"Sukkah 56a:4\">Succ. 56ᵃ</cite> <he>ח׳ דיומא</he> the obligation of the day (to dwell in booths). ",
+				"<cite ref=\"Bava Kamma 68a:22\">B. Kam. 68ᵃ</cite> <he>חִיּוּבֵיה לאחר יאוש הוא</he> his obligation begins after the object has been despaired of; a. fr.—Pl. <he>חִיּוּבֵי</he>, <cite ref=\"H00726\"><he>חִיּיוּ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 2b:8\">Sabb. 2ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

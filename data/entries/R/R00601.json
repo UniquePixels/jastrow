@@ -1,0 +1,89 @@
+{
+	"id": "R00601",
+	"slug": "צמת-1",
+	"headword": {
+		"text": "צָמַת"
+	},
+	"page": {
+		"number": 1289,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be pressed together</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to meet, join</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 76a:14\">Ḥull. 76ᵃ</cite> <he>צוֹמְתִין</he>, v. <cite ref=\"R00207\"><he>צוֹמֶת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be smashed</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 85b:15\">B. Kam. 85ᵇ</cite> <he>הכהו … וצָמְתָה ידו וכ׳</he> if one struck his neighbor on his hand, and his hand was smashed, but is expected to recover; <cite ref=\"Jerusalem Talmud Nazir 9:5:3\">Y. Naz. IX, end, 58ᵃ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to contract; to reduce a swelling by applications of vinegar, wine</i> &c. ",
+			"units": [
+				"<cite ref=\"Pesachim 40a:5\">Pes. 40ᵃ</cite> <he>שורן … וחומץ צוֹמְתָן</he> he steeps the barley-corns in vinegar, and this binds them (prevents moisture from penetrating and creating fermentation); v. <cite ref=\"R00669\"><he>צָפַד</he></cite>. ",
+				"<cite ref=\"Shabbat 109a:5\">Sabb. 109ᵃ</cite> … <he>מי שנגפה צוֹמְתָהּ ביין</he> (Ar. <he>בחומץ</he>) he whose hand or foot was struck, may apply wine (vinegar) to reduce the swelling (on the Sabbath)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִימֵּת"],
+			"senses": [
+				{
+					"gloss": " [<i>to press together</i>,] ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to heap up, store, save</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 83\">Gen. R. s. 83</cite>, end <he>אבותיך מְצַמְּתִים ואתה מבזבז</he> thy ancestors saved, and thou squanderest; <cite ref=\"Yalkut Shimoni on Torah 140:2\">Yalk. ib. 140</cite> <he>מְצַמְצְמִין</he>; Yalk. Chr. 1074 <he>מצומצמים</he> (read <he>מצמ׳</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to gather together, summon to a meeting</i>. Y’lamd. to Gen. XLVI, 28 quot. in Ar. (play on <he>צמתך</he>, <cite ref=\"Song of Songs 4:1\">Cant. IV, 1</cite>) <he>שהוא מְצַמְּתָן … בצמאה</he> he summons them to the synagogues, and they drink the words of the Law with thirst.—<i>Part. pass.</i> <he>מְצוּמָּת</he>; pl. <he>מְצוּמָּתִים</he>, <he>מְצוּמָּתִין</he> ",
+					"units": [],
+					"label": "2",
+					"senses": [
+						{
+							"gloss": " <i>restrained, abstemious, self-controlled</i>. ",
+							"units": [
+								"<cite ref=\"Shir HaShirim Rabbah 6:7:1\">Cant. R. to VI, 7</cite> (ref. to <he>צמתך</he>, <cite ref=\"Shir HaShirim Rabbah 6:7:1\">ib.</cite>) <he>על הצנועין ועל המצ׳ שבכם</he> of the chaste and self-controlled among you.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>summoned to follow, follower</i>. Pesik. Haʿomer, p. 70ᵇ (ref. to <he>צמים</he>, <cite ref=\"Job 5:5\">Job V, 5</cite>) <he>אברהם וכל המצ׳ לו</he> Abraham and all his followers; <cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite>; <cite ref=\"Pesikta Rabbati 18:1\">Pesik. R. s. 18</cite>; <cite ref=\"Yalkut Shimoni on Nach 898:3\">Yalk. Job 898</cite>.",
+							"units": [],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִצְמַת"],
+			"senses": [
+				{
+					"gloss": "<i>to be quashed</i>; (denom. of <cite ref=\"R00581\"><he>צְמִיתוּת</he></cite>) <i>to be sold for ever, not to be recovered in the jubilee</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 79a:12\">B. Mets. 79ᵃ</cite> (ref. to <he>לצמיתת</he>, <cite ref=\"Leviticus 25:30\">Lev. XXV, 30</cite>) <he>מי שאין שם יובל נִצְמֶתֶת וכ׳</he> that which without the law concerning the jubilee would be sold for ever, is recovered by dint of the jubilee; <he>יצאת זו … אינה נצמתת</he> which excludes a case like this (a sale for sixty years), where the sale would not be perpetual even if the law of jubilee did not exist at all."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

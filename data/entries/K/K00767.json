@@ -1,0 +1,29 @@
+{
+	"id": "K00767",
+	"slug": "כלמתא",
+	"headword": {
+		"text": "כַּלְמְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַלְ׳"
+		}
+	],
+	"page": {
+		"number": 645,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (collect. noun; a dialect. adapt. of h.  [<i>nesting</i>, cmp. <he>כלם</he>,] <i>vermin</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 8:12\">Targ. O. Ex. VIII, 12</cite> sq. <cite ref=\"S00001\"><he>ק׳</he></cite> (cod. 10 <he>כ׳</he>, v. Berl. Targ. O. II, p. 21).—<he>כַּלְמֵי</he>, <cite ref=\"S01557\"><he>קַ׳</he></cite>. Targ. Y. ib. <cite ref=\"S00001\"><he>ק׳</he></cite>.—",
+				"<cite ref=\"Berakhot 51b:7\">Ber. 51ᵇ</cite> <he>ממהדורי … כ׳</he> from peddlers comes gossip, from rags—vermin. ",
+				"<cite ref=\"Niddah 20b\">Nidd. 20ᵇ</cite> <he>כ׳</he> (Ar. s. v. <cite ref=\"O01669\"><he>סרק</he></cite>: <he>קלמי</he>)."
+			]
+		}
+	]
+}

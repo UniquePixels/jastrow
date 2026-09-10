@@ -1,0 +1,32 @@
+{
+	"id": "T01109",
+	"slug": "רשפא",
+	"headword": {
+		"text": "רִשְׁפָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1502,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T01108\">same</cite><i>spark, lightning</i>.—Pl. <cite ref=\"T01070\"><he>רִשְׁפִּין</he></cite>, <cite ref=\"T00053\"><he>רִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:48\">Targ. Ps. LXXVIII, 48</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>רִשְׁפֵּי</he>, <cite ref=\"T00053\"><he>רִי׳</he></cite> name of certain <i>demons</i> (v. <cite ref=\"T01108\">preced.</cite>). ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:4\">Pes. 111ᵇ</cite> <he>דבי איגרי ר׳</he> the name of the demons dwelling on roofs is <i>rishpé</i>; (Ar. <he>דבי נגרי ר׳</he> of the demons dwelling in smithies)."
+			],
+			"label": "2"
+		}
+	]
+}

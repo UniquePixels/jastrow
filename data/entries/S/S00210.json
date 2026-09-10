@@ -1,0 +1,28 @@
+{
+	"id": "S00210",
+	"slug": "קהל-3",
+	"headword": {
+		"text": "קָהָל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַהֲלָא"
+		}
+	],
+	"page": {
+		"number": 1322,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00209\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 16:3\">Targ. Num. XVI, 3</cite>. ",
+				"<cite ref=\"Onkelos Numbers 20:4\">Ib. XX, 4</cite>; a. fr.—",
+				"<cite ref=\"Kiddushin 73a:1\">Kidd. 73ᵃ</cite> <he>מחד קהל נפקו</he> ed. (Rashi <cite ref=\"S00210\"><he>קהלא</he></cite>) the (laws concerning priests and Levites) are derived from one of the verses (<cite ref=\"Deuteronomy 23:3\">Deut. XXIII, 3</cite>; <cite ref=\"Deuteronomy 23:4\">4</cite>; <cite ref=\"Deuteronomy 23:9\">9</cite>) in which <i>ḳahal</i> occurs.—Pl. <he>קַהֲלֵי</he>. ",
+				"<cite ref=\"Deuteronomy 23:9\">Ib.</cite> <he>הנהו נמי תרי ק׳ נינהו</he> these (priests and Levites) are also two communities (requiring two verses with the word <i>ḳahal</i> in them); a. e."
+			]
+		}
+	]
+}

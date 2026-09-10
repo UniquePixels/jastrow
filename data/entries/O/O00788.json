@@ -1,0 +1,41 @@
+{
+	"id": "O00788",
+	"slug": "סיפוק-1",
+	"headword": {
+		"text": "סִיפּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִפּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 985,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סָפַק</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>clapping</i> of the hand on the hip. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:8\">Y. Bets. V, 63ᵃ</cite>, v. <cite ref=\"I00413\"><he>טִיפּוּחַ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>connection, affixed object, attachment</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 6:9\">Kil. VI, 9</cite> <he>תחת הס׳</he> under the place where the rope is attached to the vine. ",
+				"<cite ref=\"Mishnah Orlah 1:5\">Orl. I, 5</cite> <he>ס׳ הגפנים</he> the connection of grape-vines (by training and engrafting); <he>ס׳ על גבי ס׳</he> engrafting on an engrafted branch; Sifra K’dosh. ch. V, Par. 3 <he>ס׳ על ס׳</he>; <cite ref=\"Yalkut Shimoni on Torah 615:2\">Yalk. Lev. 615</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

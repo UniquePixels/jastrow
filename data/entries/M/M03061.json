@@ -1,0 +1,22 @@
+{
+	"id": "M03061",
+	"slug": "מתינתא",
+	"headword": {
+		"text": "מְתִינתָּא"
+	},
+	"page": {
+		"number": 862,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M03080\"><he>מְתַן</he></cite>) <i>that which is waited for, hope</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 17:15\">Targ. Job XVII, 15</cite> <he>מְתִינָתִי</he>."
+			]
+		}
+	]
+}

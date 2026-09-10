@@ -1,0 +1,32 @@
+{
+	"id": "U00680",
+	"slug": "שחף-2",
+	"headword": {
+		"text": "שְׁחַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1549,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00679\"><he>שַׁחֵף</he></cite> same, <i>to scrape, dredge, clean</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 4b:17\">M. Kat. 4ᵇ</cite> <he>לשַׁחוּפֵי נהרא</he> (Ms. M. <he>לסַחוּפֵי</he>) to dredge a canal."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

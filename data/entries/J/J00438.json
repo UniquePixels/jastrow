@@ -1,0 +1,32 @@
+{
+	"id": "J00438",
+	"slug": "יני-3",
+	"headword": {
+		"text": "יְנִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 581,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. b. h. <cite ref=\"N00354\"><he>נוּא</he></cite>, a. <cite ref=\"N00384\"><he>נוּעַ</he></cite>) <i>to be undecided, waver</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹנִי"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to waver, discourage</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 32:7\">Targ. O. Num. XXXII, 7</cite>; <cite ref=\"Onkelos Numbers 32:9\">9</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

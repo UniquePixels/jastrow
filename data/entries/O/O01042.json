@@ -1,0 +1,33 @@
+{
+	"id": "O01042",
+	"slug": "סלת-2",
+	"headword": {
+		"text": "סְלַת"
+	},
+	"page": {
+		"number": 998,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O01001\"><he>סַלֵּית</he></cite> (denom. of <cite ref=\"O00679\"><he>סִילְּתָא</he> II</cite>) <i>to cut chips, trim</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 74b\">Sabb. 74ᵇ</cite>, v. <cite ref=\"O00677\"><he>סִילְתָּא</he></cite>. ",
+						"<cite ref=\"Shabbat 150b:12\">Ib. 150ᵇ</cite> <he>ומְסַלְּתִינָן סילתי</he> Rashi (ed. <he>ומסלתיה</he>, corr. acc.; Ms. M. <he>וסַלְּתִינָן</he>) and we chopped kindling wood. ",
+						"<cite ref=\"Beitzah 19b:7\">Bets. 19ᵇ</cite> <he>השתא סַלּוּתֵי מסלתינן וכ׳</he> since we are permitted to chop kindling wood (during the festive week), can there be a question about offering &c.? <cite ref=\"Bava Kamma 113b:11\">B. Kam. 113ᵇ</cite> <he>זבין דיקלא</he> … <he>לסַלּוּתֵי</he> Ar. (ed. <he>לצלחא</he>) bought a palm-tree … to cut it for fuel."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

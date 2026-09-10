@@ -1,0 +1,26 @@
+{
+	"id": "M01841",
+	"slug": "מסבתא",
+	"headword": {
+		"text": "מְסִבְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסִי׳"
+		}
+	],
+	"page": {
+		"number": 803,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01840\">same</cite>, <i>winding staircase</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 41:7\">Targ. Ez. XLI, 7</cite> (h. text <he>נסבה</he>!).—Pl. <cite ref=\"M01841\"><he>מְסִבָּתָא</he></cite>, <cite ref=\"M01841\"><he>מְסִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 41:7\">Ib.</cite> ",
+				"<cite ref=\"Targum Jonathan on I Kings 6:8\">Targ. I Kings VI, 8</cite> (h. text <he>לולים</he>)."
+			]
+		}
+	]
+}

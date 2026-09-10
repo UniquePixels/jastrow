@@ -1,0 +1,25 @@
+{
+	"id": "M02068",
+	"slug": "מעדר-1",
+	"headword": {
+		"text": "מַעְדֵּר"
+	},
+	"page": {
+		"number": 813,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00163\"><he>עָדַר</he></cite>)<i>mattock</i>, also <i>the share of the plough</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:7\">Kel. XIII, 7</cite>, v. <cite ref=\"M02055\"><he>מַעְבָּר</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 3:14\">Tosef. Kel. B. Mets. III, 14</cite>; <cite ref=\"Tosefta Keilim Metsia 9:3\">IX, 3</cite> <cite ref=\"M02065\"><he>מעדיר</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 1:7\">Tosef. Kel. B. Bath. I, 7</cite>, v. <cite ref=\"M01863\"><he>מַסְוֶה</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 1:8\">Ib. 8</cite> <he>המשיחות … שבמ׳</he> the strings and thongs of the share-beam; a. e."
+			]
+		}
+	]
+}

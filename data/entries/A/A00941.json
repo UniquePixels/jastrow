@@ -1,0 +1,38 @@
+{
+	"id": "A00941",
+	"slug": "אות-3",
+	"headword": {
+		"text": "אוֹת",
+		"homograph": 3
+	},
+	"page": {
+		"number": 36,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., v. <cite ref=\"A03395\"><he>אֵת</he></cite>) only with pronominal suffix ",
+			"units": []
+		},
+		{
+			"gloss": " indicating the objective case, <cite ref=\"J00747\"><he>אוֹתִי</he></cite> <i>me</i>, <he>אוֹתְךָ</he> <i>thee</i>, &c.—2) with pronom., &c.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " with pronom. suffix of third person, for emphasizing the subject, <he>אוֹתוֹ</he> <i>he himself, this one, the same, he who</i> &c. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 2:2\">Gen. R. s. 2</cite>, beg. <he>ישב לו א׳ וכ׳</he> the latter now sat there confounded &c. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 6:1:6\">Y. Git. VI, 47ᵈ</cite> <he>באותו ענין</he> on this very subject (divorce). ",
+				"<cite ref=\"Shabbat 13b:8\">Sabb. 13ᵇ</cite> <he>זכור אותו האיש וכ׳</he> may that man be remembered for good. ",
+				"<cite ref=\"Mishnah Berakhot 5:3\">Ber. V, 3</cite> <he>באוֹתָהּ שעה</he> in that hour; a. fr.—<he>אותו מקום</he> euphem. for <i>pudenda</i>. ",
+				"<cite ref=\"Niddah 47b\">Nidd. 47ᵇ</cite>. ",
+				"<cite ref=\"Gittin 69b\">Git. 69ᵇ</cite>; a. e.—אותו ואת בנו <i>the law concerning the killing of the young with its mother on the same day</i> (<cite ref=\"Leviticus 22:28\">Lev. XXII, 28</cite>). ",
+				"<cite ref=\"Mishnah Chullin 5:1\">Ḥull. V, 1</cite>; a. fr.—Pl. <he>אוֹתָן</he>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:1:4\">Y. Meg. IV, 74ᵈ</cite> top <he>א׳ שבפה</he> those laws delivered orally. ",
+				"<cite ref=\"Ketubot 4a:1\">Keth. 4ᵃ</cite> <he>כל א׳ הימים</he> all those days; a. fr. [In later writings <he>אותו האיש</he> is freq. used for Jesus of Nazareth."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "U01468",
+	"slug": "שמים",
+	"headword": {
+		"text": "שָׁמַיִם"
+	},
+	"page": {
+		"number": 1595,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. m. du. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heaven</i>; trnsf. <i>Heaven, God</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1:15\">Gen. R. s. 1</cite> <he>הש׳ נבראו תחלה</he> the heaven was first created. ",
+				"<cite ref=\"Tamid 32a:1\">Tam. 32ᵃ</cite> top <he>מן הש׳ לארץ וכ׳</he> is it farther from heaven to earth, or from east to west? Lam. R. introd. (R. Joh. 1) <he>מִשְּׁמֵי מרום</he> from the high heavens. ",
+				"<cite ref=\"Mishnah Nedarim 11:12\">Ned. XI, 12</cite> (<cite ref=\"Nedarim 90b:5\">90ᵇ</cite>) <he>ש׳ ביני לביניך</he> heaven is between me and thee (I have an unconquerable aversion to associating with thee, v. Y. ib. 42ᵈ bot., quot. s. v. <cite ref=\"T00508\"><he>רָחִיק</he> II</cite>; differ. in comment.). ",
+				"<cite ref=\"Rosh Hashanah 19a:6\">R. Hash. 19ᵃ</cite> <he>אי ש׳</he> by Heaven! <cite ref=\"Bava Metzia 37a:16\">B. Mets. 37ᵃ</cite> <he>לצאת ידי ש׳</he> to do his duty towards God (v. <cite ref=\"J00515\"><he>יָצָא</he></cite>).—",
+				"<cite ref=\"Kiddushin 40a:17\">Kidd. 40ᵃ</cite>, a. e. <he>רע לש׳</he>, v. <cite ref=\"T00864\"><he>רַע</he></cite>.—",
+				"<cite ref=\"Mishnah Sanhedrin 11:5\">Snh. XI, 5</cite>, a. e. <he>בידי ש׳</he>, v. <cite ref=\"M01326\"><he>מִיתָה</he></cite>.—<he>ירא ש׳</he>, <he>יראת ש׳</he>, <he>מלכות ש׳</he> &c., v. respective determinants."
+			],
+			"label": "1"
+		}
+	]
+}

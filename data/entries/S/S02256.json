@@ -1,0 +1,55 @@
+{
+	"id": "S02256",
+	"slug": "קשקש-1",
+	"headword": {
+		"text": "קִשְׁקֵשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1431,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>קשש</he>; cmp, <cite ref=\"K01310\"><he>כִּשְׁכֵּשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to knock, strike, shake, tingle</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 9b:22\">Sot. 9ᵇ</cite> (ref. to <he>לפעמו</he>, <cite ref=\"Judges 13:25\">Jud. XIII, 25</cite>) <he>שהיתה שכינה מְקַשְׁקֶשֶׁת וכ׳</he> the Divine Presence rang before him as with a bell (v. <he>פַּעֲמוֹן</he>); <cite ref=\"Bereishit Rabbah 18\">Gen. R. s. 18</cite> <he>לקַשְׁקֵשׁ</he> ‘Rashi’, v. <cite ref=\"N01251\"><he>נָקַשׁ</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 862\">Yalk. Ps. 862</cite>, v. <cite ref=\"S02187\"><he>קִרְקִשׁ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:6:11\">Y. Sabb. II, 5ᵇ</cite> bot. <he>כיון … מקשקשת  עיסתה וכ׳</he> when the woman slaps her dough with water &c. (v. <cite ref=\"L00398\"><he>לָטַשׁ</he></cite>, a. <cite ref=\"S00810\"><he>קָטַף</he></cite>); <cite ref=\"Bereishit Rabbah 14\">Gen. R. s. 14</cite>, beg. <he>מְשַׁקְשֶׁקֶת</he>; <cite ref=\"Yalkut Shimoni on Torah 20\">Yalk. ib. 20</cite>; <cite ref=\"Yalkut Shimoni on Torah 32\">32</cite>; Tanḥ. Noah 1 (ed. Bub. <he>נותנת מים בעיסה</he>, incorr.). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:9:9\">Y. Taan. III, 67ᵃ</cite> top <he>כדי … ומקשקש וכ׳</he> when a person may be placed on the summit of ʿofel, and dangle his feet in the brook of Kidron; <cite ref=\"Tosefta Ta'anit 3:1\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Ta'anit 2:1\">II</cite>), 1 <he>מְשַׁקְשֵׁק</he> ed. Zuck. (Var. <he>מְקַשְׁקֵישׁ</he>); Bab. ",
+				"<cite ref=\"Taanit 22b:17\">Taan. 22ᵇ</cite> <he>וִישַׁכְשֵׁךְ</he>. ",
+				"<cite ref=\"Bereishit Rabbah 69\">Gen. R. s. 69</cite> <he>אפי׳ כן … מקשקשין וכ׳</he> yet it is for thy own good that they slap thee and polish (cleanse) thee from thy guilt (v. <cite ref=\"M02760\"><he>מָרַק</he></cite>); <cite ref=\"Bereishit Rabbah 69\">ib.</cite> s. 41 <he>מְשַׁקְשְׁקִין</he>; <cite ref=\"Yalkut Shimoni on Nach 337\">Yalk. Is. 337</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to slap and crush the earth under the olive tree; to hoe</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 89b\">B. Mets. 89ᵇ</cite>, v. <cite ref=\"P00163\"><he>עָדַר</he></cite>. ",
+				"<cite ref=\"Moed Katan 3a:7\">M. Kat. 3ᵃ</cite> <he>יכול לא יְקַשְׁקֵשׁ תחת וכ׳</he> lest you think that one may not hoe under the olive trees &c. (in the Sabbatical year). ",
+				"<cite ref=\"Moed Katan 3a:10\">Ib.</cite> <he>תשמטנה מלְקַשְׁקֵשׁ וכ׳</he> ‘thou shalt let it rest’ (<cite ref=\"Exodus 23:11\">Ex. XXIII, 11</cite>) from hoeing &c.; <cite ref=\"Sukkah 44b\">Succ. 44ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 354\">Yalk. Ex. 354</cite> (corr. acc.); a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְקַשְׁקֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken; to clap, ring</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 74b:17\">Ḥull. 74ᵇ</cite> <he>כאגוז המִתְקַשְׁקֵשׁ וכ׳</he> like a nut that rattles in its shell. ",
+						"<cite ref=\"Chullin 94a:13\">Ib. 94ᵃ</cite> <he>לגין המתקשקש</he> a bottle which gives a sound when shaken (half-filled). ",
+						"<cite ref=\"Chullin 125a:16\">Ib. 125ᵃ</cite> <he>מוח המתק׳</he> brain that shakes in the skull; a. e.—[<cite ref=\"Niddah 47a:53\">Nidd. 47ᵃ</cite> <he>משׁיִתְקַשְׁקְשׁוּ הדדין</he> when the breasts begin to shake (in walking), comment.; v., however, <cite ref=\"S02258\"><he>קִשְׁקֵשׁ</he> II</cite>.]"
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

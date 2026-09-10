@@ -1,0 +1,31 @@
+{
+	"id": "A02546",
+	"slug": "אסקריא",
+	"headword": {
+		"text": "אִסְקַרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 97,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סקר</he> <i>to espy</i> = b. h. <cite ref=\"V01019\"><he>תֹּרֶן</he></cite> fr. <cite ref=\"V00271\"><he>תּוּר</he></cite>) prop. <i>espying place</i>, hence <i>mast</i> or rather <i>yard</i> (where the captain sits for looking out; cmp. <cite ref=\"V00305\"><he>תּוּרְנָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 73a:4\">B. Bath. 73ᵃ</cite>, explain. <i>toren</i>; v. supra. ",
+				"<cite ref=\"Taanit 21a:5\">Taan. 21ᵃ</cite> <he>נפילנא מא׳</he> I would throw myself (into the water) from the sail yard. ",
+				"<cite ref=\"Bava Metzia 69b:11\">B. Mets. 69ᵇ</cite>. ",
+				"<cite ref=\"Ketubot 69b:11\">Keth. 69ᵇ</cite> <he>א׳ דמכותא</he> mast-yard; <cite ref=\"Taanit 21a:5\">Taan. 21ᵃ</cite> (v. Rabb. D. S. a. l. note 300).—",
+				"<cite ref=\"Mishnah Negaim 12:1\">Neg. XII, 1</cite>; <cite ref=\"Nazir 55a\">Naz. 55ᵃ</cite>, v. <cite ref=\"A02449\"><he>אִסְכַּדְיָא</he></cite>."
+			]
+		}
+	]
+}

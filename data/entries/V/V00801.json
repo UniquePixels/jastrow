@@ -1,0 +1,28 @@
+{
+	"id": "V00801",
+	"slug": "תפדאי",
+	"headword": {
+		"text": "תַּפְדַּאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּפְדַּיי"
+		}
+	],
+	"page": {
+		"number": 1685,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Tafday</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 8:11\">Gen. R. s. 8</cite> ed. Theodor (Var. <cite ref=\"V00859\"><he>תַּפְרַאי</he></cite>, <cite ref=\"V00859\"><he>תַּפְרַיי</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 14\">Gen. R. s. 14</cite> (Var. <he>תפר׳</he>; ed. Wil. <he>תפדויי</he>)."
+			]
+		}
+	]
+}

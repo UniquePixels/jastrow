@@ -1,0 +1,33 @@
+{
+	"id": "G00590",
+	"slug": "זעזע-2",
+	"headword": {
+		"text": "זַעְזַע"
+	},
+	"page": {
+		"number": 407,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"G00589\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 60:4\">Targ. Ps. LX, 4</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִזְדַּעְזַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be frightened</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 27:33\">Targ. Y. Gen. XXVII, 33</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

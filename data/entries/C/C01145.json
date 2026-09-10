@@ -1,0 +1,36 @@
+{
+	"id": "C01145",
+	"slug": "גניסא",
+	"headword": {
+		"text": "גְּנִיסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּנִיסְתָּא"
+		},
+		{
+			"text": "גְּנוּ׳"
+		}
+	],
+	"page": {
+		"number": 260,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (adopted fr. γένος) <i>gens, family, gentry</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 12:47\">Targ. Y. Ex. XII, 47</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:17\">Targ. Y. Deut. XXIX, 17</cite>.—",
+				"<cite ref=\"Targum Jonathan on Genesis 6:9\">Targ. Y. Gen. VI, 9</cite> (<cite ref=\"C01155\"><he>גְּנִסַּת</he></cite>) <he>גְּנִיסַת נח</he> of the family of Noah; a. fr.—Pl. <cite ref=\"C01145\"><he>גְּנִיסָן</he></cite>, <he>גְּנִיסָאתָא</he>, <cite ref=\"C01149\"><he>גְּנִיסָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 10:6\">Targ. Y. Deut. X, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 26:7\">Targ. Y. Num. XXVI, 7</cite> (some ed. <cite ref=\"C01149\"><he>גְנִיסְתָּא</he></cite> read … <he>סָתָא</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 31:34\">Targ. Job XXXI, 34</cite>; a. e.—Masc. pl. <cite ref=\"C01146\"><he>גְּנִיסַיָּיא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:41\">Targ. Ps. CVII, 41</cite>, v. <cite ref=\"C01146\">next w.</cite>"
+			]
+		}
+	]
+}

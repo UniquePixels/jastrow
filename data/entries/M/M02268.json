@@ -1,0 +1,31 @@
+{
+	"id": "M02268",
+	"slug": "מצדא-1",
+	"headword": {
+		"text": "מְצָדָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מְצַדְתָּא"
+		}
+	],
+	"page": {
+		"number": 822,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00161\"><he>צוּד</he></cite>) <i>net, trap</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:43\">Targ. Jer. XLVIII, 43</cite>. ",
+				"<cite ref=\"Onkelos Exodus 38:4\">Targ. Ex. XXXVIII, 4</cite> (Y. some ed. <cite ref=\"M02370\"><he>מצרתא</he></cite>, corr. acc.; h. text <cite ref=\"T01114\"><he>רשת</he></cite>); a. fr.—Pl. <he>מְצָדָן</he>, <he>מְצָדָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 19:8\">Targ. Is. XIX, 8</cite>, sq. (ed. Wil. <he>מַצְדָן</he>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 7:26\">Targ. Koh. VII, 26</cite> <he>מְצַדָתָּן</he>.—Y. Sabb. XIII, 14ᵃ bot.; Y. Bets. III, 62ᵃ top <he>מ׳ דשיתאי</he> by <he>מצודות</he> are meant woven nets (not traps).—V. <cite ref=\"M02283\"><he>מְצוּדְתָּא</he></cite>."
+			]
+		}
+	]
+}

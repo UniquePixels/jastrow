@@ -1,0 +1,28 @@
+{
+	"id": "P01175",
+	"slug": "עקידתא",
+	"headword": {
+		"text": "עֲקֵידְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲקֵידְתָּה"
+		},
+		{
+			"text": "עֲקֵדְ׳"
+		}
+	],
+	"page": {
+		"number": 1105,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P01174\">same</cite> <cite ref=\"Targum of I Chronicles 21:15\">Targ. I Chr. XXI, 15</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:13\">Targ. Cant. I, 13</cite> <cite ref=\"P01174\"><he>עֲקֵידַת</he></cite>, constr. ",
+				"<cite ref=\"Targum Jonathan on Micah 7:20\">Targ. Mic. VII, 20</cite>; a. fr."
+			]
+		}
+	]
+}

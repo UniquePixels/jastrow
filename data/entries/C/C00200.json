@@ -1,0 +1,28 @@
+{
+	"id": "C00200",
+	"slug": "גדיה",
+	"headword": {
+		"text": "גְּדִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּדִיָּיה"
+		}
+	],
+	"page": {
+		"number": 212,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>she-kid</i> (v. <cite ref=\"C00192\"><he>גְּדִי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 13:7\">Men. XIII, 7</cite> (<cite ref=\"Menachot 107b:2\">107ᵇ</cite>).—Trnsf. <i>the tender grain in the husks</i>. Pl. <he>גְּדִיּוֹת</he>. ",
+				"<cite ref=\"Pesikta Rabbati 25:1\">Pesik. R. s. 25</cite> <he>הריני מבשל את הג׳ וכ׳</he> I shall make ripe &c., v. <cite ref=\"C00192\"><he>גְּדִי</he></cite>."
+			]
+		}
+	]
+}

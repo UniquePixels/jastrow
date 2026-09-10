@@ -1,0 +1,39 @@
+{
+	"id": "B00249",
+	"slug": "בוכרא-1",
+	"headword": {
+		"text": "בּוּכְרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 145,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בכר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"B00769\"><he>בְּכוֹר</he></cite>, <i>first-born</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:29\">Targ. Ex. XII, 29</cite>; a. fr.—",
+				"<cite ref=\"Chullin 44b:9\">Ḥull. 44ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 126b:10\">B. Bath. 126ᵇ</cite> <he>ב׳ סכלא</he> (h. <he>בכור שוטה</he>) foolish (wild) first-born, i.e. a first-born by his mother but not by his father (having no privileges).—Pl. <cite ref=\"B00251\"><he>בּוּכְרַיָּא</he></cite>, <he>בּוּכְרִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 135:8\">Targ. Ps. CXXXV, 8</cite>; a. e.—Fem. <he>בּוּכְרְתָא</he>. ",
+				"<cite ref=\"Berakhot 6a:6\">Ber. 6ᵃ</cite> <he>ב׳ בת ב׳</he> a first-born cat whose mother is a first-born.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"B00771\"><he>בִּכּוּרָה</he></cite>. Pl. <he>בּוּכְרֵי</he> <i>first fruits</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:14\">Targ. Y. I Deut. XXXIII, 14</cite>. (Targ. Y. II. <cite ref=\"B00796\"><he>בִּכְרָא</he></cite>).]"
+			],
+			"label": "2"
+		}
+	]
+}

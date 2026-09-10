@@ -1,0 +1,37 @@
+{
+	"id": "O00548",
+	"slug": "סיבתא",
+	"headword": {
+		"text": "סֵיבְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סֵבְתָא"
+		}
+	],
+	"page": {
+		"number": 975,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"O00539\"><he>סֵיבוּתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 42:38\">Targ. Gen. XLII, 38</cite> (O. some ed. <cite ref=\"U00761\"><he>שִׂי׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 15:32\">Targ. Job XV, 32</cite> (ed. Wil. <he>סִבְתּ׳</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>eldership, receiving the title of</i> <cite ref=\"O00026\"><he>סָבָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:20\">Y. Bicc. III, 65ᵈ</cite> <he>וכתב ליה מן סֵיבְתֵיה בגוה</he> (not <he>ויהב</he>) and he informed him therein of his (expected) appointment as elder.—Pl. <cite ref=\"O00548\"><he>סֵיבָתָא</he></cite>, <cite ref=\"O00536\"><he>סֵבָ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:20\">Ib.</cite> <he>בגין אילין ס׳ קום וכ׳</he> for the sake of those appointments (which will take place), rise, come to &c."
+			],
+			"label": "2"
+		}
+	]
+}

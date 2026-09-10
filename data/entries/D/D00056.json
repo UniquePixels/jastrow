@@ -1,0 +1,25 @@
+{
+	"id": "D00056",
+	"slug": "דבי",
+	"headword": {
+		"text": "דְּבִי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּבָא"
+		}
+	],
+	"page": {
+		"number": 277,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"D00233\"><he>דְּוָא</he></cite>) <i>to look out, lie in wait</i>.—<i>Pa.</i> <he>דַּבֵּי</he> <i>to lurk for, hunt</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 106b:5\">Sabb. 106ᵇ</cite> <he>הני לא בעי דַּבּוּיֵי</he> Ms. M. (ed. <he>לא עבידי לרבויי</he>) the ones need no hunting; <cite ref=\"Beitzah 24a:15\">Bets. 24ᵃ</cite> <he>בעיין לדַ׳</he> Ms. M. (v. Rabb. D. S. a. l.; ed. <he>עבידי לר׳</he>), v. <cite ref=\"T00083\"><he>רְבִי</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "N00127",
+	"slug": "נגה-2",
+	"headword": {
+		"text": "נְגַהּ"
+	},
+	"page": {
+		"number": 872,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"N00126\">same</cite>, <i>to be bright, shine</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 28b:2\">Yoma 28ᵇ</cite> <he>אי הכי נ׳ ליה טובא</he> (Ms. M. <cite ref=\"N00128\"><he>נַגְהָא</he></cite>, v. Rabb. D. S. a. l. note) if that is so (that it was the time for working men to go to their labors), it must have been bright day-light (sunrise). ",
+				"<cite ref=\"Moed Katan 16b:12\">M. Kat. 16ᵇ</cite> <he>לא נ׳ לך לישרי לי מר בתיגראי</he> (or <he>בתיגרי</he>, not <he>בתיגריה</he>, v. Rabb. D. S. a. l. note; Ms. M. <he>נהגא</he> a. differ. version; ed. Ven. <cite ref=\"N00158\"><he>נגיחא</he></cite>, v. <cite ref=\"N00146\"><he>נְגַח</he></cite>) is it (the case you have been thinking of) not yet clear to you? Attend, sir, now to my case (differ. interpret. in Rashi)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <he>נַגְהֵי</he>) <i>to get dark, to be belated</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 24a:3\">Taan. 24ᵃ</cite> <he>נ׳ להו וכ׳</he> night set in, and no food was brought to them. ",
+				"<cite ref=\"Taanit 24a:3\">Ib.</cite> <he>האי דנְגַהְנָא</he> (differ. in Ms. M.) the reason why I am late. ",
+				"<cite ref=\"Shabbat 10a:3\">Sabb. 10ᵃ</cite> <he>נ׳ לצלויי</he> the time for the evening prayer arrived (Rashi: he <i>delayed</i>).—[<cite ref=\"Jerusalem Talmud Demai 2:1:9\">Y. Dem. II, 22ᶜ</cite> <he>נגיהין</he>, read: <he>נְהִיגִין</he>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַגַּהּ"],
+			"senses": [
+				{
+					"gloss": "<i>to dwell until late</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 65b:31\">Nidd. 65ᵇ</cite> <he>דמַגְּהֵי ביה טפי וכ׳</he> Var. (v. <cite ref=\"C00690\"><he>גִּיחַ</he></cite>) they protract their negotiations before they sign."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

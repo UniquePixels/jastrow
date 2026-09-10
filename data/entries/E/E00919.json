@@ -1,0 +1,23 @@
+{
+	"id": "E00919",
+	"slug": "השיאה",
+	"headword": {
+		"text": "הֶשֵּׂיאָה"
+	},
+	"page": {
+		"number": 369,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01284\"><he>נָשָׂא</he></cite>, Hif.) = <cite ref=\"E00707\"><he>הֶסֵּיעַ</he></cite>, <i>diverting the mind</i> from a question which must not be answered, a <i>Biblical puzzle of interpretation</i> used for diverting the mind.—Pl. <he>הֶשֵּׂיאוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:7:1\">Y. Ab. Zar. II, 41ᶜ</cite> bot. (ref. to <he>השיאו</he>, Mish. ",
+				"<cite ref=\"Mishnah Avodah Zarah 2:8\">Ab. Zar. II, 8</cite>) he ought to have diverted his mind by means of one <he>מחמש ה׳ בתורה</he> of the five puzzles &c., v. <cite ref=\"E00525\"><he>הַכְרָעָה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "H01821",
+	"slug": "חשוך-2",
+	"headword": {
+		"text": "חֲשׁוֹךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשׁוֹכָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 509,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H01820\">same</cite>, <i>dark</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 5:20\">Targ. Am. V, 20</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>חֲשַׁךְ</he> II) <i>lean, reduced, poor</i>. v. <cite ref=\"H01836\"><he>חֲשִׁיךְ</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

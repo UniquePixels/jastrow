@@ -1,0 +1,24 @@
+{
+	"id": "E00193",
+	"slug": "הוגן-1",
+	"headword": {
+		"text": "הוֹגָן"
+	},
+	"page": {
+		"number": 336,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00192\">preced.</cite>) <i>balance;</i> only in <he>כְּהֹ׳</he> (adv.) <i>appropriately, reasonably, correspondingly</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 93:5\">Gen. R. s. 93</cite> <he>כה׳ וכשורה עשה</he> he acted (according to balance and line) exactly right. ",
+				"<cite ref=\"Taanit 4a:4\">Taan. 4ᵃ</cite> <he>שאלו שלא כה׳</he> made an unreasonable demand (making their actions dependent on chance); <he>לשנים השיבו כה׳</he> two of them were answered properly (Providence favoring their ways); <cite ref=\"Bereishit Rabbah 60:1\">Gen. R. s. 60</cite>; <cite ref=\"Vayikra Rabbah 37:1\">Lev. R. s. 37</cite>. ",
+				"<cite ref=\"Yevamot 110a:6\">Yeb. 110ᵃ</cite> <he>הוא עשה שלא כה׳ וכ׳</he> he acted improperly, therefore the court deals with him improperly (more strictly than the law would justify) and declares his marriage invalid; <cite ref=\"Bava Batra 48b\">B. Bath. 48ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

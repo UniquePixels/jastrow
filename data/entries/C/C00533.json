@@ -1,0 +1,23 @@
+{
+	"id": "C00533",
+	"slug": "גזוראה",
+	"headword": {
+		"text": "גְּזוֹרָאָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 229,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <cite ref=\"C00579\"><he>גְּזוֹרָאֵי</he></cite> <i>inhabitants of Gezer</i> (?), prob. = <he>גְּדוֹרָאֵי</he>, v. <cite ref=\"C00188\"><he>גְּדוֹרָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:5:2\">Y. Erub. V, 22ᵈ</cite> bot."
+			]
+		}
+	]
+}

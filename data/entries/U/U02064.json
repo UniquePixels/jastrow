@@ -1,0 +1,24 @@
+{
+	"id": "U02064",
+	"slug": "ששעה",
+	"headword": {
+		"text": "שִׁשְׁעָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1636,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Shishʿah</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:4\">Y. Meg. I, 71ᶜ</cite> bot. (Fr. M’bo, p. 130ᵃ; ed. Krot. <he>שע׳</he>, oth. ed. <he>ישע׳</he>).—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 19:1:6\">Y. Sabb. XIX, 16ᵈ</cite> bot., v. <cite ref=\"U01099\"><he>שִׁישְׁנָא</he></cite>."
+			]
+		}
+	]
+}

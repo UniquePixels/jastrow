@@ -1,0 +1,33 @@
+{
+	"id": "K00239",
+	"slug": "כוחלא",
+	"headword": {
+		"text": "כּוֹחֲלָא"
+	},
+	"page": {
+		"number": 618,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"K00238\">same</cite>. Targ. II Esth. I, 3 (2); <cite ref=\"Berakhot 18b\">Ber. 18ᵇ</cite>, v. <cite ref=\"C00295\"><he>גּוּבְתָא</he></cite>.—",
+			"units": [
+				"<cite ref=\"Chullin 47b\">Ḥull. 47ᵇ</cite> <he>ככ׳</he> as black as stibium. ",
+				"<cite ref=\"Gittin 69a:1\">Gitt. 69ᵃ</cite> top <he>תרתי מנתא כ׳ וכ׳</he> two portions of stibium and one of &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>אבנא דכ׳</he> a species of <i>black marble</i> (b. h. , v. Sm. Ant. s. v. Carbunculus). ",
+			"units": [
+				"<cite ref=\"Kiddushin 12a\">Kidd. 12ᵃ</cite> <he>אקדיש בא׳ דכ׳</he> betrothed a woman by giving her a piece of black marble (of little value). ",
+				"<cite ref=\"Bava Batra 4a:6\">B. Bath. 4ᵃ</cite>; <cite ref=\"Sukkah 51b:5\">Succ. 51ᵇ</cite>, v. <cite ref=\"M02723\"><he>מַרְמָרָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

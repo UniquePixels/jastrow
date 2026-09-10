@@ -1,0 +1,23 @@
+{
+	"id": "S00236",
+	"slug": "קובעא",
+	"headword": {
+		"text": "קוֹבְעָא"
+	},
+	"page": {
+		"number": 1324,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"K00194\"><he>כּוֹבְעָא</he></cite>, <i>helmet, turban.—</i>Pl. <he>קוֹבְעָין</he>, <cite ref=\"S00241\"><he>קוֹבָ׳</he></cite>, <cite ref=\"S00237\"><he>קוֹבְעַיָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 44:18\">Targ. Ez. XLIV, 18</cite> (h. text <cite ref=\"Q00029\"><he>פארי</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 28:40\">Targ. O. Ex. XXVIII, 40</cite>; <cite ref=\"Onkelos Exodus 39:28\">XXXIX, 28</cite> ed. Berl., v. <cite ref=\"K00194\"><he>כּוֹבְעָא</he></cite>."
+			]
+		}
+	]
+}

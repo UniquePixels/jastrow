@@ -1,0 +1,68 @@
+{
+	"id": "O00408",
+	"slug": "סור-1",
+	"headword": {
+		"text": "סוּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 969,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to go around; to turn</i>; with <cite ref=\"L00000\"><he>ל</he></cite> <i>to turn to, follow</i>; with <he>מן</he>, <he>מ־</he>, <i>to turn away</i>; in gen. [<i>to turn from the right path</i>,] <i>to go astray; to degenerate</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 21b:16\">Snh. 21ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 17:17\">Deut. XVII, 17</cite>) <he>אני ארבה ולא אָסוּר</he> I (Solomon) will take many wives and yet not go astray. ",
+				"<cite ref=\"Berakhot 19b\">Ber. 19ᵇ</cite>, a. fr. <he>לאו דלא תָסוּר</he> the prohibition inplied in the words, ‘thou shalt not deviate’ (from the decisions of the courts, the interpretations of the Rabbis, <cite ref=\"Deuteronomy 17:11\">Deut. XVII, 11</cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pass away, cease</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 9:41\">Num. R. s. 9</cite> (ref. to <cite ref=\"Amos 6:7\">Am. VI, 7</cite>) <he>אותה שעה תָסוּר שמחת הסרוחים</he> at that time shall the joy of the (corrupt) banqueters cease; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵסִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to remove, take off</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14:9\">Num. R. s. 14</cite> (play on <cite ref=\"O00827\"><he>סיר</he></cite>, <cite ref=\"Psalms 60:10\">Ps. LX, 10</cite>) <he>והֵסַרְתִּי הצרעת מעליו</he> and I removed the leprosy from him; <he>שהסרתי אותו מן הטביעה</he> whom I removed (saved) from drowning, v. <cite ref=\"I00056\"><he>טְבִיעָה</he> I</cite>; <cite ref=\"Bamidbar Rabbah 12:1\">Num. R. s. 12</cite> <he>הָסֵר הטומאה וכ׳</he> remove the uncleanness out of thy house; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to deviate, to corrupt</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 2:4\">Snh. II, 4</cite> (ref. to <cite ref=\"Deuteronomy 17:17\">Deut. XVII, 17</cite>) <he>ובלבד שלא יהו מְסִירוֹת את לבו</he> provided they (the wives) do not corrupt his heart; <he>אפי׳ אחת ומְסִירָה וכ׳</he> even one wife, if she might corrupt his heart, he must not marry. ",
+						"<cite ref=\"Kiddushin 68b:6\">Kidd. 68ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 7:4\">Deut. VII, 4</cite>) <he>לרבות כל המְסִירִים</he> this is to intimate the extension of the prohibition of intermarriage to all nations that might lead astray; <cite ref=\"Yevamot 23a\">Yeb. 23ᵃ</cite>; <cite ref=\"Avodah Zarah 36b:6\">Ab. Zar. 36ᵇ</cite> <he>המְסִירוֹת</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּסַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be removed</i>. ",
+					"units": [
+						"<cite ref=\"Makkot 5a:9\">Macc. 5ᵃ</cite> (ref. to <cite ref=\"O01542\"><he>סרה</he></cite> <cite ref=\"Deuteronomy 19:16\">Deut. XIX, 16</cite>) <he>עד שתּוּסַר גופה של עדות</he> Ar. s. v. <he>זמם</he> (ed. <he>שתסרה</he>) until the testimony itself has been removed (an alibi has been proved)."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

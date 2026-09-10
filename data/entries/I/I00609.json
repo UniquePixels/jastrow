@@ -1,0 +1,48 @@
+{
+	"id": "I00609",
+	"slug": "טעם-1",
+	"headword": {
+		"text": "טָעַם"
+	},
+	"page": {
+		"number": 543,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be bright, wise</i> (v. ",
+			"units": [
+				"<cite ref=\"Psalms 34:9\">Ps. XXXIV, 9</cite>),] <i>to examine, to taste, test, try, experience</i>. ",
+				"<cite ref=\"Yoma 22b:17\">Yoma 22ᵇ</cite> <he>לא ט׳ טַעַם חטא</he> never tasted the taste of sin (was innocent). ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:2:2\">Y. Succ. V, 55ᵇ</cite> <he>לא היו טוֹעֲמִין טעם וכ׳</he> had not even a taste of sleep. ",
+				"<cite ref=\"Berakhot 35a:2\">Ber. 35ᵃ</cite> <he>אסור … שיִטְעוֹם וכ׳</he> one must not taste food without a blessing. ",
+				"<cite ref=\"Berakhot 14a:7\">Ib. 14ᵃ</cite> <he>מהו שיטעום</he> dare he (who fasts) taste food when cooking? <cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite> <he>כל מי … היה טוֹעֲמוֹ</he> whoever desired to eat meat felt its taste (in the mannah); a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִטְעִים"],
+			"senses": [
+				{
+					"gloss": "<i>to give to taste</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 66b:2\">Ned. 66ᵇ</cite> <he>עד שתַּטְעִימִי … לרב וכ׳</he> until thou makest R. J. taste of thy dish. ",
+						"<cite ref=\"Bava Metzia 75a:10\">B. Mets. 75ᵃ</cite> <he>כדי להַטְעִימָן וכ׳</he> in order to give them a taste of usury (that they might feel its oppressiveness). ",
+						"<cite ref=\"Shir HaShirim Rabbah 7:2\">Cant. R. to VII, 2</cite> <he>תהא … ומטעמני</he> (read <he>ומַטְעִימֵנִי</he> or <he>ומְטַעֲמֵנִי</he> <i>Pi.</i>) thou shalt bring some of them before me and let me taste them; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make tasteful, to explain</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 21b:6\">Sot. 21ᵇ</cite> <he>המַטְעִים דבריו וכ׳</he> who explains his case to the judge (trying to preoccupy him), before his adversary appears; Tanḥ. ",
+						"<cite ref=\"Exodus 6\">Mishp. 6</cite>; a. e.—V. <cite ref=\"M01044\"><he>מַטְעֶמֶת</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

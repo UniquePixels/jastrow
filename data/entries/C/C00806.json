@@ -1,0 +1,57 @@
+{
+	"id": "C00806",
+	"slug": "גיר-4",
+	"headword": {
+		"text": "גִּיר",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּירָא",
+			"homograph": 2
+		},
+		{
+			"text": "גִּירְרָא"
+		}
+	],
+	"page": {
+		"number": 242,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01320\"><he>גרי</he></cite>, <cite ref=\"C01392\"><he>גרר</he></cite>; cmp. b. h. <cite ref=\"U01268\"><he>שֶׁלַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>projectile, arrow</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 37:33\">Targ. Is. XXXVII, 33</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 41:20\">Targ. Job XLI, 20</cite>; a. fr.—",
+				"<cite ref=\"Gittin 56a:6\">Gitt. 56ᵃ</cite> <he>שדא ג׳ וכ׳</he> he shot an arrow eastward. ",
+				"<cite ref=\"Bava Kamma 26b:10\">B. Kam. 26ᵇ</cite> <he>בעידנא דשדייה פסוקי מפסקי גִירֵיה</he> (v. Rabb. D. S. a. l. note) at the time he let his arrow off, its force was broken, i.e. when he threw the vessel down, polsters were there to prevent its breaking. ",
+				"<cite ref=\"Sukkah 38a:1\">Succ. 38ᵃ</cite> <he>דין ג׳ בעיניה וכ׳</he> this is an arrow in the tempter’s eyes, i.e. this enables us to defy him. ",
+				"<cite ref=\"Kiddushin 30a:1\">Kidd. 30ᵃ I</cite> should say to Satan <he>ג׳ בעיניך</he> I defy thee; <cite ref=\"Kiddushin 81a:15\">ib. 81ᵃ</cite>.—",
+				"<cite ref=\"Taanit 25a:14\">Taan. 25ᵃ</cite> <he>אגרי בך גִירַי</he> I shall let my arrow loose against thee (v. Rabb. D. S. a. l. note; oth. vers. v. <cite ref=\"C00474\"><he>גּוּר</he></cite> I ch.). ",
+				"<cite ref=\"Pesachim 28a:5\">Pes. 28ᵃ</cite>, v. <cite ref=\"C00810\"><he>גִּירָאָה</he></cite>; a. fr.—<he>ג׳ דלילתא</he> (Ar. <he>דלוליתא</he>) the arrow of Lilith, supposed to be a wedge-shaped meteoric stone. ",
+				"<cite ref=\"Gittin 69b:2\">Gitt. 69ᵇ</cite> <he>לגירא ליתי ג׳ דל׳</he> as a remedy for <i>gira</i> (v. <cite ref=\"C00805\">preced.</cite>) let one get a <i>gira</i> of &c.—Pl. <he>גִּירִין</he>, <cite ref=\"C00830\"><he>גִּירֵי</he></cite>, <he>גִּירַיָּא</he>; <he>גִּירְרִין</he>, <he>גִּירְרַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 1:22\">Targ. II Sam. I, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 49:23\">Targ. Y. I Gen. XLIX, 23</cite>, <cite ref=\"Targum Jerusalem, Genesis 49:23\">Targ. Y. II, Gen. XLIX, 23</cite> (not <he>גיד׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 120:4\">Targ. Ps. CXX, 4</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 108b:21\">Snh. 108ᵇ</cite> <he>גילי והוו ג׳</he> he threw chaff and it turned into arrows. ",
+				"<cite ref=\"Bava Batra 73a\">B. Bath. 73ᵃ</cite>; v. <he>בְּזַק</he>. Y. ib. II, 13ᵇ bot. <he>מן קל גורי וכ׳</he> (corr. acc.) from the hissing sound of the arrows; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shoot</i> of a plant. Pl. <cite ref=\"C00830\"><he>גִּירֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite> <he>ג׳ דרוביא</he> shoots of fenugreek; (oth. opin. in Ar. <i>flax-seeds</i>, Ms. O. <cite ref=\"C00628\"><he>גידא</he></cite>, v. <cite ref=\"C00628\"><he>גִּידָּא</he> I</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

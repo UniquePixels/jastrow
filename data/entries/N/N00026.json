@@ -1,0 +1,31 @@
+{
+	"id": "N00026",
+	"slug": "נאף-2",
+	"headword": {
+		"text": "נְאַף"
+	},
+	"page": {
+		"number": 866,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"N00025\"><he>נָאֵף</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 57:3\">Targ. Is. LVII, 3</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

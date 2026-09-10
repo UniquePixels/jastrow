@@ -1,0 +1,33 @@
+{
+	"id": "T00773",
+	"slug": "רכס-2",
+	"headword": {
+		"text": "רְכַס"
+	},
+	"page": {
+		"number": 1480,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00772\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִירְכַס"],
+			"senses": [
+				{
+					"gloss": " [<i>to be trodden on</i>,] <i>to be lost</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 14b:9\">B. Bath. 14ᵇ</cite> <he>איידי דזוטר מִירְכִיס</he> because it (the Book of Hosea) is small, it might have been lost (if circulated as a separate book). ",
+						"<cite ref=\"Ketubot 57a\">Keth. 57ᵃ</cite> top <he>א׳ כתובתה</he> (sub. <he>שטר</he>) her marriage deed was lost. ",
+						"<cite ref=\"Yevamot 113b:16\">Yeb. 113ᵇ</cite> <he>אִירְכְּסוּ ליה מפתחי וכ׳</he> (not <he>מפתח</he>) had lost the keys of the college building; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

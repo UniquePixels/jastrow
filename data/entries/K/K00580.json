@@ -1,0 +1,28 @@
+{
+	"id": "K00580",
+	"slug": "כיסוח",
+	"headword": {
+		"text": "כִּיסּוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּסּ׳"
+		}
+	],
+	"page": {
+		"number": 634,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00913\"><he>כָּסַח</he></cite>) <i>cutting down, clearing</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 3a\">M. Kat. 3ᵃ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite>; <cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite>; Koh. R. to II, 12 <he>דרך הכ׳</he> in the path made by clearing the thicket; a. e."
+			]
+		}
+	]
+}

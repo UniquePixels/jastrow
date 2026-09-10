@@ -1,0 +1,60 @@
+{
+	"id": "A00202",
+	"slug": "אבר-4",
+	"headword": {
+		"text": "אֵבֶר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵיבֶר"
+		}
+	],
+	"page": {
+		"number": 9,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <i>wing</i>, v. <cite ref=\"A00200\"><he>אָבַר</he></cite>; cmp. <cite ref=\"K00980\"><he>כַּף</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>limb</i>, <i>part.</i>—<he>א׳ מן החי</he> a part cut off from a living animal. ",
+			"units": ["<cite ref=\"Chullin 101b:12\">Ḥull. 101ᵇ</cite>; a. fr."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>membrum genitale</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 107a:4\">Snh. 107ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:7:3\">Y. Keth. V, 30ᵇ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>town quarter, projecting outskirts</i> (v. <cite ref=\"A00200\"><he>אָבַר</he></cite> <i>Pi.</i> 2).—א׳ א׳ <i>limb by limb; piecemeal</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 40a:2\">Sabb. 40ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 6:6:4\">Y. Yoma VI, 43ᵈ</cite> bot. ",
+				"<cite ref=\"Kohelet Rabbah 10:15:1\">Koh. R. to X, 15</cite>.—Pl. <he>אֵבָרִים</he>, <he>אֵיבָרִים</he>, <he>אֵיבָרִין</he> <i>limbs, parts</i> (of an animal). ",
+				"<cite ref=\"Mishnah Shekalim 7:3\">Shek. VII, 3</cite> meat found <cite ref=\"A02549\"><he>אי׳</he></cite> in entire limbs (opp. <he>חתיכות</he> cut slices). ",
+				"<cite ref=\"Shabbat 82b:3\">Sabb. 82ᵇ</cite> <he>אינה מטמאה לא׳</he> Ms. M. (ed. <he>לא׳ אינה</he>) does not make unclean when dismembered. ",
+				"<cite ref=\"Mishnah Kelim 18:9\">Kel. XVIII, 9</cite> (parts of a bedstead).—<he>א׳ א׳</he> as sing. ",
+				"<cite ref=\"Chullin 11b:2\">Ḥull. 11ᵇ</cite>. ",
+				"<cite ref=\"Tractate Semachot 2:12\">Treat. S’maḥ. II, 12</cite>.—",
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite> the fat <he>וא׳</he> and other pieces of the daily offerings. Ohol. I, 8 <he>רמ״ח א׳</he> 248 limbs (joints)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>balance of a load, ballast</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 154b\">Sabb. 154ᵇ</cite>, v. <cite ref=\"H00110\"><he>חֶבֶר</he></cite>.—Ch. <cite ref=\"A01133\"><he>אֵיבְרָא</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

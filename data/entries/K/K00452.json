@@ -1,0 +1,54 @@
+{
+	"id": "K00452",
+	"slug": "כחד-1",
+	"headword": {
+		"text": "כָּחַד"
+	},
+	"page": {
+		"number": 628,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>כחש</he>)<i>to diminish</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיחֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to withhold, deny</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 13:4\">Num. R. s. 13</cite> <he>לא כ׳ מיעקב</he> did not withhold (the truth) from &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִכְחִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to destroy</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 20:20\">Num. R. s. 20</cite> <he>לקללן ולהַכְחִידָן</he> to curse and destroy them. ",
+						"<cite ref=\"Shemot Rabbah 12\">Ex. R. s. 12</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִכְחָד"],
+			"senses": [
+				{
+					"gloss": "<i>to be destroyed</i>. Ib. <he>היית נ׳ מן וכ׳</he> thou wouldst have been wiped out from the earth.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

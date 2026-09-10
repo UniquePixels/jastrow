@@ -1,0 +1,42 @@
+{
+	"id": "I00439",
+	"slug": "טירוף",
+	"headword": {
+		"text": "טֵירוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "טֵרוּף"
+		}
+	],
+	"page": {
+		"number": 534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00859\"><he>טָרַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (sub. <he>הדעת</he>) <i>confusion, distraction; trouble</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 5:4\">Ber. V, 4</cite> (<cite ref=\"Berakhot 34a\">34ᵃ</cite>) <he>מפני הטי׳</he> because he might become confused (and be unable to resume his prayers); <cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite>, beg.—",
+				"<cite ref=\"Shir HaShirim Rabbah 8:13\">Cant. R. to VIII, 13</cite> <he>בט׳ הדעת</he> in confusion (not in concert).—Tanḥ. Mick. 2 <he>נטרף טרוף אחד</he> had only one trouble (about the interpretation of his dream).—Pl. <cite ref=\"I00432\"><he>טֵירוּפִין</he></cite>, <cite ref=\"I00432\"><he>טֵר׳</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:13\">Ib.</cite> <he>נטרף שני ט׳</he> had two troubles (not knowing even the dream).—",
+				"<cite ref=\"Sifrei Devarim 296:2\">Sifré Deut. 296</cite> (ref. to <he>בדרך</he>, <cite ref=\"Deuteronomy 25:17\">Deut. XXV, 17</cite>) <he>בשעת טֵיוּפֵיכֶם</he> when you were in a state of disorder."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ejection, banishment</i> (cmp. <cite ref=\"I00432\"><he>טֵירוּדִין</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite>; <cite ref=\"Midrash Tehillim 139\">Midr. Till. to Ps. CXXXIX</cite> (omitt. in ed. Bub.); <cite ref=\"Yalkut Shimoni on Nach 887\">Yalk. ib. 887</cite> <he>טֵירוּפִי מתוכה</he> my banishment from Eden."
+			],
+			"label": "2"
+		}
+	]
+}

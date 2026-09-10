@@ -1,0 +1,28 @@
+{
+	"id": "A00904",
+	"slug": "אורלוגין",
+	"headword": {
+		"text": "אוֹרְלוֹגִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹרוֹלוֹגִין"
+		}
+	],
+	"page": {
+		"number": 35,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ὡρολόγιον) <i>horologe, time-piece</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:3:5\">Y. R. Hash. I, 57ᵇ</cite> top. ",
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>; a. e."
+			]
+		}
+	]
+}

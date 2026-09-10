@@ -1,0 +1,44 @@
+{
+	"id": "C00701",
+	"slug": "גייד-1",
+	"headword": {
+		"text": "גִּיֵּיד"
+	},
+	"page": {
+		"number": 237,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "(denom. of <cite ref=\"C00626\"><he>גִּיד</he></cite>) <i>to cut an artery through, to bleed to death</i> (a gentile mode of execution). *<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite> <he>מְגַיֵּיד את הגנבים והורג וכ׳</he> Ar. s. v. <cite ref=\"C00151\"><he>גד</he></cite> 12 (Var. <he>מנגיד</he>, Ar. Compl. ed. Koh. 239<sup>2</sup>) had the thieves bled to death and the receivers of stolen goods decapitated (ed. <he>הורג את הקבלנין ומתיר את הגנבים</he>).—Part. pass. <he>מְגוּיָּיד</he> <i>he who had his arteries opened, bled to death</i>. Ohol. I, 6 <he>אפי׳ מג׳</he> even if his arteries are cut open (and he is dying). ",
+					"units": [
+						"<cite ref=\"Mishnah Yevamot 16:3\">Yeb. XVI, 3</cite> (<cite ref=\"Yevamot 120a\">120ᵃ</cite>). ",
+						"<cite ref=\"Yevamot 120b:6\">Yeb. 120ᵇ</cite> <he>למימרא דמג׳ חי</he> does this intimate that one whose arteries have been severed, may survive?—Y. ib. XVI, 15ᶜ bot. <he>אפי׳ ראוהו מ׳ וכ׳</he> (<cite ref=\"Tosefta Yevamot 14:4\">Tosef. ib. XIV, 4</cite> <cite ref=\"C00701\"><he>נִתְגַּיֵּיד</he></cite>) even if witnesses have seen him bleeding from severed arteries, I say, the operation may have been performed with a glowing knife and he may have recovered. ",
+						"<cite ref=\"Tosefta Gittin 7:1\">Tosef. Gitt. VII</cite> (<cite ref=\"Tosefta Gittin 5:1\">V</cite>), 1; Bab. ",
+						"<cite ref=\"Gittin 70b:9\">ib. 70ᵇ</cite> <he>מְגוּיָּד</he>; Y. ib. VII, 48ᶜ bot."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְגַּיֵּיד"],
+			"senses": [
+				{
+					"gloss": ", v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

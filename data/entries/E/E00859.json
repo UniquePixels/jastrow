@@ -1,0 +1,25 @@
+{
+	"id": "E00859",
+	"slug": "הריגה",
+	"headword": {
+		"text": "הֲרִיגָה"
+	},
+	"page": {
+		"number": 367,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00812\"><he>הָרַג</he></cite>) <i>killing</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 107b:7\">Sabb. 107ᵇ</cite>.—Esp. <i>execution of capital punishment, decapitation</i>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:9:3\">Y. Keth. II, 26ᵈ</cite> <he>נגמר דינה לה׳</he> if she has been sentenced to death. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:1:2\">Y. Snh. VII, 24ᵇ</cite> <he>ה׳</he> decapitation, v. <cite ref=\"E00814\"><he>הֶרֶג</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 1:29\">Ex. R. s. 1</cite>; a. fr."
+			]
+		}
+	]
+}

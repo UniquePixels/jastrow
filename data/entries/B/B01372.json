@@ -1,0 +1,46 @@
+{
+	"id": "B01372",
+	"slug": "בשרא-1",
+	"headword": {
+		"text": "בִּשְׂרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּישְׂרָא",
+			"homograph": 1
+		},
+		{
+			"text": "בִּסְרָא"
+		},
+		{
+			"text": "בְּשַׂר"
+		},
+		{
+			"text": "בְּסַר"
+		}
+	],
+	"page": {
+		"number": 199,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01371\">same</cite><i>body, flesh, meat</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:21\">Targ. Gen. II, 21</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:2\">Targ. Lev. XIII, 2</cite>; a. v. fr.—",
+				"<cite ref=\"Chullin 109b:3\">Ḥull. 109ᵇ</cite> <he>בעינא</he> … <he>בי׳ וכ׳</he> I desire to eat something tasting like meat with milk. ",
+				"<cite ref=\"Shabbat 140b:11\">Sabb. 140ᵇ</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>mortal</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 40:23\">Targ. Y. Gen. XL, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 17:5\">Targ. Jer. XVII, 5</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

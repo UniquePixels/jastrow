@@ -1,0 +1,51 @@
+{
+	"id": "B00740",
+	"slug": "ביש-1",
+	"headword": {
+		"text": "בִּישׁ",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּישָׁא"
+		}
+	],
+	"page": {
+		"number": 167,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00027\"><he>באיש</he></cite>) <i>bad, wrong</i> (of persons and deeds); also <i>ill, sick</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 6:5\">Targ. Gen. VI, 5</cite>; a. v. fr.—",
+				"<cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> (prov.) <he>טב לב׳ וכ׳</he> when thou hast done good to a bad man, thou hast done evil (to thyself). ",
+				"<cite ref=\"Bava Kamma 115a:15\">B. Kam. 115ᵃ</cite> <he>חנן בישא</he> Ḥanan, the bad man.—",
+				"<cite ref=\"Bava Metzia 75b:13\">B. Mets. 75ᵇ</cite> bot. <he>דב׳ ליה וכ׳</he> he who fares badly in one place; a. fr.—Pl. <he>בִּישִׁין</he>, <he>בִּישַׁיָּא</he>, <he>בִּישַׁיָּיא</he>. ",
+				"<cite ref=\"Onkelos Genesis 13:13\">Targ. Gen. XIII, 13</cite>; a. v. fr.—<he>בִּישַׁיָּיא</he> freq. <i>the sick</i>. ",
+				"<cite ref=\"Kohelet Rabbah 4:6\">Koh. R. to IV, 6</cite> <he>ומפלגא לב׳</he> and distributes (the apples) among the sick.—",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:7:3\">Y. Bets. I, 60ᶜ</cite> bot. <he>מבקרא ביש׳</he> (not <he>בייש׳</he>) to visit the sick.—Fem. <cite ref=\"B00740\"><he>בִּישָׁא</he></cite>, <cite ref=\"B00750\"><he>בִּישְׁתָּא</he></cite> "
+			]
+		},
+		{
+			"gloss": " (adj.) <i>bad;</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (noun) <i>evil, wickedness, illness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:20\">Targ. Gen. XXXVII, 20</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Genesis 6:5\">Ib. VI, 5</cite>, a. fr. <he>בִּישַׁת</he> constr.—",
+				"<cite ref=\"Shabbat 129a:19\">Sabb. 129ᵃ</cite> <he>ב׳ מי וכ׳</he> can bad be good? Y. ib. XIV, 14ᶜ bot. <he>טב לבישתא וכ׳</he> (vinegar is) good for a sore, but bad for a sound tooth. ",
+				"<cite ref=\"Vayikra Rabbah 33:1\">Lev. R. s. 33</cite>, beg., from it (the tongue) comes the good <he>ומינה ב׳</he> and from it the evil; a. fr.—Pl. <cite ref=\"B00750\"><he>בִּישָׁתָא</he></cite>, <he>בִּישָׁאתָא</he>, <cite ref=\"B00746\"><he>בִּישָׁן</he></cite>.—",
+				"<cite ref=\"Onkelos Genesis 28:8\">Targ. Gen. XXVIII, 8</cite> (ed. Vien. O. <cite ref=\"B00740\"><he>בישא</he></cite>, corr. acc.); a. fr.—",
+				"<cite ref=\"Sanhedrin 7a:10\">Snh. 7ᵃ</cite> happy is he who hears (himself insulted) and keeps silence <he>חלפוה בישתיה מאה</he> (corr. <he>חלפוהו בישתא</he>, v. Rabb. D. S. a. l. note 7) a hundred evils pass by him (he escapes &c.); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "B00562",
+	"slug": "ביזא-3",
+	"headword": {
+		"text": "בִּיזָּא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00224\"><he>בִּיזְתָא</he></cite> f.) (<cite ref=\"B00429\"><he>בזז</he></cite>, cmp. <cite ref=\"B00446\"><he>בְּזִיזֵי</he></cite>; cmp. <he>שׁד̇</he>, <cite ref=\"U00250\"><he>שַׁד</he></cite>) <i>feeder</i>, whence <i>pap, breast</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 11:8\">Targ. Y. Num. XI, 8</cite> (<i>brisket</i>, v. <cite ref=\"B00567\"><he>ביזיאה</he></cite>; h. text <he>לְשַׁד</he>, cmp. <cite ref=\"U00250\"><he>שַׁד</he></cite>).—Y. Kil. I, 27ᵇ top <he>ליט ב׳ וכ׳</he> cursed be the breast which nursed such a man.—Pl. <cite ref=\"B00566\"><he>בִּיזַּיָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 21:24\">Targ. Job XXI, 24</cite> <he>בִּיזוֹי</he> (Var. <he>תדיוהי</he>).—",
+				"<cite ref=\"Bereishit Rabbah 5:9\">Gen. R. s. 5</cite> <he>לייטין ב׳ וכ׳</he>, v. supra; Pesik. Zakh. p. 23ᵇ (Ar. sing.). ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot."
+			]
+		}
+	]
+}

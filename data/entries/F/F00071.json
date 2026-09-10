@@ -1,0 +1,57 @@
+{
+	"id": "F00071",
+	"slug": "ועד-2",
+	"headword": {
+		"text": "וַעַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "וַו׳"
+		}
+	],
+	"page": {
+		"number": 374,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"F00070\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>meeting, appointment</i>. <cite ref=\"M01502\"><he>בֵּית ו׳</he></cite> <i>meeting place</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:4\">Ab. I, 4</cite> let thy house be <he>בית ו׳ וכ׳</he> a meeting place for scholars.—Esp. <he>בית ו׳</he> "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>scholars’ meeting place</i>, <i>college, Beth-ham-Midrash</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Berakhot 4:1:33\">Y. Ber. IV, 7ᶜ</cite> bot. <he>למחר … לבית הו׳</he> to-morrow, when I come to college &c. Y. Macc. II, 31ᵈ bot. <he>עושים לו בית ו׳</he> you must provide a school-house for him. ",
+						"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (<cite ref=\"Sotah 49b:2\">49ᵇ</cite>) <he>ב׳ ו׳ יהיה וכ׳</he> the school-house will be used for debauchery. ",
+						"<cite ref=\"Bereishit Rabbah 1:10\">Gen. R. s. 1</cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <he>בֵּית הַוַּ׳</he> <i>the Temple</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Nazir 8:1:8\">Y. Naz. VIII, 57ᵃ</cite> bot. <he>שלא תנעול … מבית הו׳</he> so as not to lock out repentance from the Temple."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>fair, public games</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 127a\">Ḥull. 127ᵃ</cite>; cmp. <cite ref=\"A00112\"><he>אֲבֵידָן</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

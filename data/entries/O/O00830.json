@@ -1,0 +1,25 @@
+{
+	"id": "O00830",
+	"slug": "סירא-3",
+	"headword": {
+		"text": "סִירָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 987,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Sira</i>; (<he>בר</he>) <he>בן ס׳</he> Jesus son of Sira (Sirach), author of the Hebrew original of Ecclesiasticus. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 100b:11\">Snh. 100ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 73:12\">Gen. R. s. 73</cite>, end. ",
+				"<cite ref=\"Bereishit Rabbah 8:2\">Gen. R. s. 8</cite>; <cite ref=\"Jerusalem Talmud Chagigah 2:1:11\">Y. Ḥag. II, 77ᶜ</cite> top <he>בר סִירָה</he>; a. fr."
+			]
+		}
+	]
+}

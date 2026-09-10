@@ -1,0 +1,42 @@
+{
+	"id": "K00891",
+	"slug": "כסא-3",
+	"headword": {
+		"text": "כַּסָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּסָא"
+		},
+		{
+			"text": "כָּס"
+		}
+	],
+	"page": {
+		"number": 652,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"K00314\"><he>כּוֹס</he></cite> , <i>cup, calyx</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 40:11\">Targ. Gen. XL, 11</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on I Kings 7:26\">Targ. I Kings VII, 26</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on II Samuel 12:3\">Targ. II Sam. XII, 3</cite> <he>כָּסֵיה</he> ed. Lag. (oth. <he>כּוֹסֵיה</he>).—",
+				"<cite ref=\"Berakhot 28a\">Ber. 28ᵃ</cite>, v. <cite ref=\"J00584\"><he>יְקָרָא</he></cite>. ",
+				"<cite ref=\"Berakhot 51b:7\">Ib. 51ᵇ</cite>, v. <cite ref=\"B01297\"><he>בִּרְכְתָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:3:5\">Y. Ḥag. II, 78ᵃ</cite> bot., v. <cite ref=\"B01374\"><he>בִּשְׂרוּתָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:3:5\">Ib.</cite> <he>כ׳ דקיסא וכ׳</he> out of a cup of sharp-edged glass drink quickly (ere it cut your lip); [Y. Bets. II, 61ᶜ top <cite ref=\"O01050\"><he>סמא</he></cite>; Y. Maas. Sh. V, 56ᶜ top <cite ref=\"O00029\"><he>סבא</he></cite>, Meïri to <cite ref=\"Beitzah 20b\">Bets. 20ᵇ</cite> <cite ref=\"O01271\"><he>ססא</he></cite>]; a. fr.—Pl. <cite ref=\"K00946\"><he>כַּסִּין</he></cite>, <he>כַּסַּיָּיא</he>, <cite ref=\"K00918\"><he>כַּסֵּי</he></cite>, <cite ref=\"K00887\"><he>כָּס׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 35:5\">Targ. Jer. XXXV, 5</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Niddah 2:7:6\">Y. Nidd. II, end, 50ᵇ</cite> <he>כ׳ טיברייאי</he> (not … <he>אה</he>) Tiberian glass cups (transparent). ",
+				"<cite ref=\"Pesachim 110a:5\">Pes. 110ᵃ</cite>; a. fr.—(<cite ref=\"B00752\"><he>בּית</he></cite>) <he>בּי כַּסַּיָּא</he> = h. <he>בית הכוסות</he>, v. <cite ref=\"K00314\"><he>כּוֹס</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite>; [<cite ref=\"Kohelet Rabbah 7:19:3\">Koh. R. to VII, 19</cite> (of the human body) <he>בית כסא</he>, by mistake borrowed from Lev. R. l. c.; v. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 976\">Yalk. Koh. 976</cite>]."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "B00891",
+	"slug": "בלנרין",
+	"headword": {
+		"text": "בַּלְנְרִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּלְרִין"
+		}
+	],
+	"page": {
+		"number": 174,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " constr. (<cite ref=\"B00912\"><he>בַּלְרֵי</he></cite>) <he>בַּלְנְרֵי</he> m. pl. (balnearia) <i>bathing apparel, bathing utensils</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:2:6\">Y. Kil. IX, 32ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Moed Katan 3:2:2\">Y. M. Kat. III, 82ᵃ</cite> <he>ב׳ נשים</he> women’s bathing clothes; <cite ref=\"Shabbat 147b\">Sabb. 147ᵇ</cite> <cite ref=\"B00912\"><he>בלרי</he></cite> (some ed. <cite ref=\"B00839\"><he>בלורי</he></cite>, corr. <he>בלנ׳</he>); <cite ref=\"Tosefta Kilaim 5:16\">Tosef. Kil. V, 16</cite> <cite ref=\"B00812\"><he>בלארי</he></cite> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bath-house</i>, v. <cite ref=\"B00842\"><he>בלורין</he></cite>.—V. <cite ref=\"B00965\"><he>בַּנְּרִיּוֹת</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

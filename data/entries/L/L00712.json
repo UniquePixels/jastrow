@@ -1,0 +1,31 @@
+{
+	"id": "L00712",
+	"slug": "לשן-2",
+	"headword": {
+		"text": "לְשַׁן"
+	},
+	"page": {
+		"number": 720,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַלְשֵׁן</he> ch. same. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 30:10\">Targ. Prov. XXX, 10</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

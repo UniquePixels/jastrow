@@ -1,0 +1,33 @@
+{
+	"id": "N01244",
+	"slug": "נקר-4",
+	"headword": {
+		"text": "נְקַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 935,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01243\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"N01194\"><he>אִתְנַקֵּר</he></cite>, <i>Ithpe.</i> <cite ref=\"N00584\"><he>אִתְנְקִיר</he></cite>, <cite ref=\"N01120\"><he>אִינְּ׳</he></cite> <i>to be cleansed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 16:4\">Targ. Ez. XVI, 4</cite> ed. Lag. <he>לאִתְנַקָּדָא</he> (Var. <he>לאִתְנַקָּרָא</he>; ed. Wil. <he>לאתנקאה</he>; h. text <he>למשעי</he>).—",
+						"<cite ref=\"Bava Metzia 103b:3\">B. Mets. 103ᵇ</cite> <he>בעינא דתִינְּקַּר ארעאי</he> (Ar. <he>דתִינְּקִיד</he>) I desire that my field be clear (of stubble)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

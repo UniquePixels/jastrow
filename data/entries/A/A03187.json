@@ -1,0 +1,22 @@
+{
+	"id": "A03187",
+	"slug": "ארמניוס",
+	"headword": {
+		"text": "אַרְמַנְיוֹס"
+	},
+	"page": {
+		"number": 123,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (represent. a tribe; v. <cite ref=\"A03186\">preced.</cite>) <i>Armanius</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 1:42\">Targ. I Chr. I, 42</cite> (h. text <cite ref=\"P00322\"><he>עוץ</he></cite>)."
+			]
+		}
+	]
+}

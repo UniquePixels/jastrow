@@ -1,0 +1,33 @@
+{
+	"id": "V00098",
+	"slug": "תגרותא",
+	"headword": {
+		"text": "תַּגָּרוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּ׳"
+		},
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1647,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00097\">preced. art.</cite>) <i>business, merchandise</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 3:14\">Targ. Prov. III, 14</cite> (h. text <he>סחר</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:18\">Ib. XXXI, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 17:16\">Ib. XVII, 16</cite> (ed. Wil. <he>תַּגְרוּ׳</he>; h. text <cite ref=\"M00879\"><he>מחיר</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 27:26\">Ib. XXVII, 26</cite> (ed. Wil. <he>תגד׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

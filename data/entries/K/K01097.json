@@ -1,0 +1,34 @@
+{
+	"id": "K01097",
+	"slug": "כרה-3",
+	"headword": {
+		"text": "כְּרַהּ"
+	},
+	"page": {
+		"number": 664,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>כרח</he>) <i>to shrink, be narrow</i>, (with or sub. <he>רוחא</he>) <i>to be ill-tempered</i>.—Part. <cite ref=\"K01153\"><he>כְּרִי</he></cite>, f. <cite ref=\"K01154\"><he>כַּרְיָא</he></cite> (= <he>כריה</he>, <cite ref=\"K01157\"><he>כריהא</he></cite>); pl. <cite ref=\"K01168\"><he>כְּרִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 14:17\">Targ. Prov. XIV, 17</cite>; <cite ref=\"Aramaic Targum to Proverbs 14:29\">29</cite> <he>דכ׳ רוחיה</he> (h. text <he>קצר רוח</he>, <he>קצר אפים</he>).—<he>ענבי דכְרִין</he> grapes which shrunk, undeveloped (blackish) grapes. ",
+				"<cite ref=\"Nazir 34b\">Naz. 34ᵇ</cite>, a. e., v. <cite ref=\"K01123\"><he>כְּרוּם</he></cite> ch."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיכְּרַהּ"],
+			"senses": [
+				{
+					"gloss": "<i>to be ill</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 23:35\">Targ. Prov. XXIII, 35</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

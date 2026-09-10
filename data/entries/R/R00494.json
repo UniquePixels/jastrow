@@ -1,0 +1,27 @@
+{
+	"id": "R00494",
+	"slug": "צלוחית-2",
+	"headword": {
+		"text": "צְלוֹחִית",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צְלוּחִיתָא"
+		}
+	],
+	"page": {
+		"number": 1282,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"R00493\">same</cite> <cite ref=\"Onkelos Exodus 16:33\">Targ. Ex. XVI, 33</cite> (h. text <cite ref=\"R00644\"><he>צנצנת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 2:20\">Targ. II Kings II, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 21:13\">Ib. XXI, 13</cite> (h. text <he>צַלַּחַת</he>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 17:16\">Targ. I Kings XVII, 16</cite> (h. text <cite ref=\"R00690\"><he>צפחת</he></cite>)."
+			]
+		}
+	]
+}

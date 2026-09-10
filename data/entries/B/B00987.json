@@ -1,0 +1,27 @@
+{
+	"id": "B00987",
+	"slug": "בסיליוס",
+	"headword": {
+		"text": "בָּסִילְיוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּסִילְייוֹס"
+		}
+	],
+	"page": {
+		"number": 178,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (βασιλεύς) <i>king</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:10\">Y. Ber. IX, 12ᵈ</cite> bot.; <cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite> (corr. acc.)."
+			]
+		}
+	]
+}

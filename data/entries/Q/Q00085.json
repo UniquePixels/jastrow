@@ -1,0 +1,73 @@
+{
+	"id": "Q00085",
+	"slug": "פגע-1",
+	"headword": {
+		"text": "פָּגַע"
+	},
+	"page": {
+		"number": 1135,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to strike against, come in contact with, meet</i>; (in a hostile sense) <i>to attack, strike</i>. Tanḥ. Vayishl. 4 <he>כיון שפ׳ בעשו</he> when he met Esau. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 75:10\">Gen. R. s. 75</cite> <he>פ׳ בלובשי ברזל</he> he met those clad in iron armor. ",
+				"<cite ref=\"Sukkah 52b:2\">Succ. 52ᵇ</cite>, a. e. <he>אם פ׳ בך מנוול זה</he>, v. <cite ref=\"N00324\"><he>נָוַול</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:12:10\">Y. Kidd. III, 64ᵈ</cite> bot. <he>ולמה לא פָּגַעְתָּה בו</he> (not <cite ref=\"B00537\"><he>ביה</he></cite>) why didst thou not connect thyself with him? <cite ref=\"Bamidbar Rabbah 5:6\">Num. R. s. 5</cite> <he>כדי שלא תִפְגַּע בכולם מדת הדין וכ׳</he> (not <he>יפגע</he>) in order that divine justice might not strike all of them, he took half of his name (the letter <cite ref=\"E00000\"><he>ה</he></cite>) &c. ",
+				"<cite ref=\"Shemot Rabbah 5\">Ex. R. s. 5</cite>, end <he>בקשה … לִפְגּוֹעַ במשה</he> divine justice wanted to strike Moses. ",
+				"<cite ref=\"Kohelet Rabbah 9:11\">Koh. R. to IX, 11</cite> <he>עת היא שפּוֹגַעַת באדם וכ׳</he> (not <he>האדם</he>), v. <cite ref=\"P01420\"><he>עִרְעֵר</he> III</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to beseech, entreat</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite> (ref. to <cite ref=\"Genesis 28:11\">Gen. XXVIII, 11</cite>) <he>וַיִּפְגַּע במקום … מפני מה וכ׳</he> ‘and he entreated the Lord’ … why is the Lord surnamed <i>maḳom</i>? (v. <cite ref=\"M02394\"><he>מָקוֹם</he></cite>). ",
+				"<cite ref=\"Genesis 28:11\">Ib.</cite> <he>מהו ויפגע במקום צלי וכ׳</he> what does <i>vayifgʿa bammaḳom</i> mean? He prayed on the site of the Temple; a. e.—<i>Part. pass.</i> <he>פָּגוּעַ</he>; pl. <he>פְּגוּעִין</he> <i>stricken, afflicted</i> (with insanity). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:16\">Y. Sabb. VI, 8ᵇ</cite> top, v. <cite ref=\"Q00087\"><he>פֶּגַע</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְגַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be stricken; to suffer</i>. Ib. <he>משנ׳</he> after one has been stricken; Y. Erub. X, 26ᶜ bot. ",
+					"units": [
+						"<cite ref=\"Chagigah 14b\">Ḥag. 14ᵇ</cite>; <cite ref=\"Tosefta Chagigah 2:3\">Tosef. ib. II, 3</cite> <he>הציץ ונ׳</he> he looked (into the divine secrets, v. <cite ref=\"Q01590\"><he>פַּרְדֵּס</he></cite>) and became demented; Y. ib. II, 77ᵇ top. ",
+						"<cite ref=\"Shabbat 13b:6\">Sabb. 13ᵇ</cite> <he>אין שוטה נ׳</he> a maniac cannot be stricken with dementia (one overladen with sorrows becomes indifferent to new afflictions); a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִפְגִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause suffering, afflict</i>, v. <cite ref=\"M02192\"><he>מַפְגִּיעַ</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to suffer</i>. Koh. R. l. c. <he>עת … והוא מַפְגִּיעַ</he> time strikes man …, and he suffers, v. <cite ref=\"P01420\"><he>עִרְעֵר</he> III</cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to entreat</i>. Ib. <he>פעמים שאדם מפגיע וכ׳</he> at times man prays and is answered &c.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

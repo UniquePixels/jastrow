@@ -1,0 +1,68 @@
+{
+	"id": "U00490",
+	"slug": "שוף-2",
+	"headword": {
+		"text": "שׁוּף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1539,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to smooth, rub, polish, sharpen; to smear over, plaster</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 14:5\">Kel. XIV, 5</cite> <he>משיְשׁוּפֶינּוּ</he> (Mish. ed. <he>משישׁוּפֶנּוּ</he>; Ar. <he>משיְשַׁפֶּנּוּ</he>, fr. <cite ref=\"U01734\"><he>שָׁפָה</he> I</cite>) a sword becomes susceptible of uncleanness when it is furbished. Ib. XVI, 1 <he>משיְשׁוּפם בעור הדג</he> when he smooths them by rubbing with the skin of a fish; <cite ref=\"Sanhedrin 20b\">Snh. 20ᵇ</cite>; <cite ref=\"Nedarim 56b:3\">Ned. 56ᵇ</cite> <he>משיְשַׁפֵּם</he> (Rashi <he>משישופם</he>). Kel. l. c. <he>גמר שלא לָשׁוּף</he> if he decided not to smooth them. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:8\">Y. Ber. III, 5ᵈ</cite> bot. <he>לאיזה דבר הוא שָׁפָהּ</he> for what purpose should he polish it? <cite ref=\"Chullin 25a\">Ḥull. 25ᵃ</cite>, sq.; <cite ref=\"Tosefta Keilim Metsia 2:10\">Tosef. Kel. B. Mets. II, 10</cite>. ",
+				"<cite ref=\"Tosefta Tahorot 6:12\">Tosef. Toh. VI, 12</cite> <he>ושָׁפָה את רוקו</he> and she rubbed his spittle off (with her foot); <he>שָׁפוֹת וכ׳</he> (<he>להיות</he>) … <he>שכן</he> for it is the habit of Israelitish women during menstruation to rub off &c. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:32\">Y. Sabb. VII, 10ᵇ</cite> top <he>רוקק ושָׁף</he> he spits on the stone pavement and rubs it out (with his foot). ",
+				"<cite ref=\"Mishnah Moed Katan 1:10\">M. Kat. I, 10</cite> <he>שָׁפִין את הסדקין</he> you may plaster over the rifts in the roof (during the festive week). ",
+				"<cite ref=\"Mishnah Shabbat 20:3\">Sabb. XX, 3</cite> <he>ולא שפין אותן</he> nor must you rub them (with the hand to cleanse them). ",
+				"<cite ref=\"Mishnah Eduyot 1:8\">Eduy. I, 8</cite> <he>שורין ושפין וכ׳</he> you must observe levitical cleanness when you soak them and rub (your body) with them. ",
+				"<cite ref=\"Shabbat 75b:3\">Sabb. 75ᵇ</cite> <he>השף בין העמודים</he> he who rubs (smooths skins) between columns; Y. ib. VII, 10ᶜ bot. <he>השף את העור על גבי העמוד</he>. ",
+				"<cite ref=\"Mishnah Kelim 30:1\">Kel. XXX, 1</cite> <he>שָׁפָן בשופין</he> files them with a file. ",
+				"<cite ref=\"Mishnah Pesachim 2:7\">Pes. II, 7</cite> <he>אבל שָׁפָה היא וכ׳</he> but she may rub (the bran) dry over her body (to soften her skin); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to run smoothly, glide</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 6\">Gen. R. s. 6</cite>; Midr. Sam. ch. IX."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (b. h.) <i>to grind, crush, stamp</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 315:6\">Sifré Deut. 315</cite> <he>שיהו חטים שָׁפוֹת זו וכ׳</he> that wheat grains rub against one another and drop &c., v. <cite ref=\"O01044\"><he>סֹלֶת</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 944\">Yalk. ib. 944</cite>.—",
+				"<cite ref=\"Midrash Tehillim 4:13\">Midr. Till. to Ps. IV, 7</cite> <he>וישראל … ואתם באים לָשׁוּף אותה מן העקב</he> and the Israelites say to them (the gentiles asking for a share in the hereafter), in how many troubles … we surrendered our lives for the sanctification of the Lord, and you want to stamp it (all this good) out of your heels (out of the ground)?; (ed. Bub. <he>אותם על העקב</he>, corr. acc.); Yalk. ib. 627 <he>לשוף עצמיכם מן העקב</he> (corr. acc.).—[<cite ref=\"Midrash Tehillim 92:3\">Midr. Till. to Ps. XCII</cite> <he>וישופני עקב</he>, v. <cite ref=\"U00490\"><he>שׁוּף</he> I</cite>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִישּׁוֹף"],
+			"senses": [
+				{
+					"gloss": "<i>to be rubbed off, made smooth, level</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Kamma 10:4\">Tosef. B. Kam. X, 4</cite> <he>מטבע ונ׳</he> if he took by force a coin, and it became rubbed off (effaced)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be ground, crushed</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Metzia 11:8\">Tosef. B. Mets. XI, 8</cite> <he>מוציא אדם זבלו … כדי שיִישּׁוֹף וכ׳</he> a man may take out his material for dung and place it in front of his house, that it may be stamped upon by the feet of man and beast; <cite ref=\"Bava Kamma 30a\">B. Kam. 30ᵃ</cite>; <cite ref=\"Bava Kamma 81b\">81ᵇ</cite>; <cite ref=\"Bava Metzia 118b:4\">B. Mets. 118ᵇ</cite> <he>כדי שיהא נישוף</he>. ",
+						"<cite ref=\"Bava Kamma 28b:13\">B. Kam. 28ᵇ</cite> <he>נשוף באבן</he> (Ms. F. <he>ונושף</he>, read: <cite ref=\"U01792\"><he>נִישָּׁף</he></cite>) was smashed against a stone; (Y. ib. III, 3ᶜ top <cite ref=\"H00040\"><he>נחבט</he></cite>).—V. <cite ref=\"U01792\"><he>שָׁפַף</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

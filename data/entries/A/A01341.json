@@ -1,0 +1,23 @@
+{
+	"id": "A01341",
+	"slug": "אימלא",
+	"headword": {
+		"text": "אִימְלָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 51,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"M02109\"><he>מְעִיל</he></cite>; contr. of <he>אימעלא</he>; cmp. <cite ref=\"M01198\"><he>מִילְתָא</he></cite>) <i>cloak</i>. Pl. <he>אִימְלִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:24\">Targ. Ez. XXVII, 24</cite>."
+			]
+		}
+	]
+}

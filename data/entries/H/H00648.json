@@ -1,0 +1,37 @@
+{
+	"id": "H00648",
+	"slug": "חי-1",
+	"headword": {
+		"text": "חַי"
+	},
+	"page": {
+		"number": 450,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00671\"><he>חָיָה</he></cite>)<i>living, alive; living creature; healthy</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 27b:18\">Ber. 27ᵇ</cite> <he>אלמלא אני חי והוא מת יכול החי וכ׳</he> if I were alive and he dead, the living one might give the lie to the dead. ",
+				"<cite ref=\"Mishnah Berakhot 5:5\">Ib. V, 5</cite> <he>זה חי</he> this one is destined to live (recover). ",
+				"<cite ref=\"Shabbat 94a:2\">Sabb. 94ᵃ</cite>, a. e. <he>החי נושא את עצמו</he> a living being carries itself (the carrying of a living being on the Sabbath is not unlawful). Ib. X, 5 <he>את החי במטה</he> (he who carries) a living person on a couch; a. v. fr.—<he>אבר מן החי</he>, v. <cite ref=\"A00202\"><he>אֵבֶר</he></cite>.—Pl. <cite ref=\"H00736\"><he>חַיִּים</he></cite>, <cite ref=\"H00737\"><he>חַיִּין</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 4:22\">Ab. IV, 22</cite> <he>והח׳ לידון</he> and the living are destined to be judged. ",
+				"<cite ref=\"Shabbat 94a:2\">Sabb. 94ᵃ</cite> <he>בין ח׳ ובין שחוטין</he> whether alive or slaughtered; a. fr.—",
+				"<cite ref=\"Avodah Zarah 5b:10\">Ab. Zar. 5ᵇ</cite> (ref. to <he>החי</he>, <cite ref=\"Genesis 6:19\">Gen. VI, 19</cite>) <he>שחיין ראשי וכ׳</he> the ends of whose limbs live (exist)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>in natural condition, raw</i> (opp. <cite ref=\"B01347\"><he>בשול</he></cite>); <i>unmixed</i> (opp. <he>מָזוּג</he>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 70a:7\">Snh. 70ᵃ</cite> <he>בשר חי</he> raw meat, <he>יין חי</he> unmixed wine. ",
+				"<cite ref=\"Avodah Zarah 38a:2\">Ab. Zar. 38ᵃ</cite>, a. fr. <he>הנאכל כמות שהוא חי</he> what is eatable in its natural state; a. fr.—<i>Fem.</i> <cite ref=\"H00672\"><he>חַיָּה</he></cite>. ",
+				"<cite ref=\"Chullin 42a\">Ḥull. 42ᵃ</cite> (ref. to <cite ref=\"Leviticus 11:2\">Lev. XI, 2</cite>) <he>ח׳ אכול וכ׳</he> what is in a healthy condition (viable), you may eat, v. <cite ref=\"I00811\"><he>טְרֵפָה</he></cite>. [V. <cite ref=\"H00672\"><he>חַיָּה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

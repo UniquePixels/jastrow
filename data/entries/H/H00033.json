@@ -1,0 +1,29 @@
+{
+	"id": "H00033",
+	"slug": "חבורה-1",
+	"headword": {
+		"text": "חֲבוּרָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 416,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00107\"><he>חָבַר</he></cite>) <i>company, association, party;</i> esp. <i>those united for eating the Passover lamb in company</i> (<cite ref=\"Exodus 12:4\">Ex. XII, 4</cite>); <i>the colleagues at school</i> (v. <cite ref=\"H00109\"><he>חָבֵר</he></cite>); <i>the college</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 7:3\">Pes. VII, 3</cite>, a. fr. <he>בני ח׳</he> the members of a Passover party. ",
+				"<cite ref=\"Mishnah Pesachim 7:3\">Ib.</cite> <he>אם חֲבוּרַת כהנים</he> if it is a party consisting of priests only. Y. ib. X, 37ᵈ top <he>שלא יהא עומד מח׳ זו וכ׳</he> that one should not rise from one party and join another; Bab. ib. 119ᵇ, v. <cite ref=\"A02709\"><he>אֶפִּיקוֹמָן</he></cite>; a. fr.—",
+				"<cite ref=\"Berakhot 9b:18\">Ber. 9ᵇ</cite> <he>במעמד כל הח׳</he> in the presence of the whole college. ",
+				"<cite ref=\"Nedarim 81a:2\">Ned. 81ᵃ</cite> <he>הזהרו בח׳</he> beware of disregarding the benefits of collegiate studies. ",
+				"<cite ref=\"Vayikra Rabbah 2\">Lev. R. s. 2</cite>, end <he>חֲבוּרָתוֹ של משה</he> the disciples of Moses; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Demai 2:3:7\">Y. Dem. II, 23ᵃ</cite> top <he>דוחין אותו מחבורתו</he>, v. <cite ref=\"H00121\"><he>חֲבֵירוּת</he></cite>.—Pl. <he>חֲנוּרוֹת</he>. ",
+				"<cite ref=\"Mishnah Pesachim 9:10\">Pes. IX, 10</cite>; a. fr."
+			]
+		}
+	]
+}

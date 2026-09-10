@@ -1,0 +1,26 @@
+{
+	"id": "M02384",
+	"slug": "מקדש-1",
+	"headword": {
+		"text": "מִקְדָּשׁ"
+	},
+	"page": {
+		"number": 829,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S00192\"><he>קָדַשׁ</he></cite>)<i>sanctuary</i>, esp. <cite ref=\"M00316\"><he>מִ׳</he></cite> or <he>בֵּית הַמִּ׳</he> (abbr. <he>בה״מ</he>) the Jerusalem Temple, contrad. to <he>משכן</he> the Tabernacle. ",
+			"units": [
+				"<cite ref=\"Moed Katan 9a:9\">M. Kat. 9ᵃ</cite>. ",
+				"<cite ref=\"Eruvin 2a:13\">Erub. 2ᵃ</cite> <he>אשכחן משכן דאיקרי מ׳ ומ׳ וכ׳</he> we find that the Tabernacle is sometimes called <i>miḳdash</i>, and the Temple <i>mishkan</i>.—<he>מ׳ ראשון</he> the first Temple (the Solomonic Temple); <he>מ׳ שני</he> the second (post-exilic) Temple. ",
+				"<cite ref=\"Yoma 21b:7\">Yoma 21ᵇ</cite>; a. e.—",
+				"<cite ref=\"Yoma 21b:2-13\">Ib.</cite> <he>בשעה … בה״מ</he> when Solomon had built the Temple; a. fr.—Pl. <he>מִקְדָּשִׁים</he>. ",
+				"<cite ref=\"Megillah 16b:2\">Meg. 16ᵇ</cite> <he>שני מ׳</he> two sanctuaries (that of Shiloh and the Jerusalem Temple); <cite ref=\"Yalkut Shimoni on Torah 152:1\">Yalk. Gen. 152</cite>."
+			]
+		}
+	]
+}

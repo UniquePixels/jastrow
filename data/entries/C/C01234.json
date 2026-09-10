@@ -1,0 +1,23 @@
+{
+	"id": "C01234",
+	"slug": "גרב-5",
+	"headword": {
+		"text": "גָּרָב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 264,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C01232\"><he>גרב</he></cite>)<i>itch, scurf</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:12\">Bekh. VI, 12</cite>; classified <cite ref=\"Bekhorot 41a:21\">ib. 41ᵃ</cite>"
+			]
+		}
+	]
+}

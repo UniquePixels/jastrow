@@ -1,0 +1,45 @@
+{
+	"id": "J00470",
+	"slug": "יסר-1",
+	"headword": {
+		"text": "יָסַר"
+	},
+	"page": {
+		"number": 583,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A02550\"><he>אָסַר</he></cite>) [<i>to tie up</i>; cmp. <cite ref=\"H00231\"><he>חוּב</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִסֵּר", "יִיסֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to chastise, chasten, try</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 39a:13\">Snh. 39ᵃ</cite> <he>מְיַיסֵּר … ביסורין</he> he (the king) punishes the prominent among them (the rebellious citizens); <he>כך הקב״ה מי׳ וכ׳</he> so did the Lord visit Ezekiel in order to wash away the sins of Israel. ",
+						"<cite ref=\"Avodah Zarah 4a:10\">Ab. Zar. 4ᵃ</cite> <he>אֲיַסְּרֵם ביסורין וכ׳</he> I would visit them with afflictions in this world, in order that their arms be strengthened &c. ",
+						"<cite ref=\"Shemot Rabbah 3\">Ex. R. s. 3</cite>, end <he>המטה שתְּיַיסְּרֶנּוּ בו</he> the staff wherewith to strike him (Pharaoh); a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְיַסֵּר"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"J00452\"><he>נִתְיַסֵּר</he></cite> <i>to be chastened, tried</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 62\">Gen. R. s. 62</cite> <he>היו מִתְיַיסְּרִין בחולי וכ׳</he> used to be visited with bowel diseases for ten days &c. (prior to their death), to indicate that the disease purifies (from sin); <cite ref=\"Tractate Semachot 3\">Treat. S’maḥ. ch. III</cite>. Y. Snh. X, 27ᵈ <he>נתיי׳ בבנו הבכור</he> he was punished with the death of his first-born son. Tanḥ. Noah 14 <he>נתי׳ בבנו</he> he was visited with trials through his son (being asked to sacrifice him). Ib. Vayigg. 6 <he>נתי׳ בבנו</he> was tried by his son (Joseph being sold); a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

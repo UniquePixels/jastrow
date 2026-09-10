@@ -1,0 +1,24 @@
+{
+	"id": "A01408",
+	"slug": "איסורא-2",
+	"headword": {
+		"text": "אִיסוּרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 54,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יסר</he>) <i>chastisement</i>. Pl. <he>אִיסוּרִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 3:10\">Targ. Koh. III, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 30:11\">Targ. Jer. XXX, 11</cite> (Var. <he>יסורין</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "Q00141",
+	"slug": "פ״ה",
+	"headword": {
+		"text": "פ״ה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פ״א"
+		},
+		{
+			"text": "פ״י"
+		}
+	],
+	"page": {
+		"number": 1138,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " the letter <i>Pé</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 104a:6\">Sabb. 104ᵃ</cite> [read:] <he>פ״ה כפופה פ״ה פשוטה פה פתוח פה סתום</he> the curved Pé and the straight Pé (<cite ref=\"Q00000\"><he>פ</he></cite> and <he>ף</he>) intimate: an open mouth (in due time), a closed mouth (in due time). ",
+				"<cite ref=\"Sanhedrin 104b:11\">Snh. 104ᵇ</cite> <he>מפני מה הקדים פ״ה לע״ין</he> why has Pé been placed before ‘Ayin (<cite ref=\"Lamentations 2:16-17\">Lam. II, 16-17</cite>)? <cite ref=\"Bereishit Rabbah 84:8\">Gen. R. s. 84</cite> (ref. to <he>פ̇ס̇י̇ם̇</he>) <he>פ״א פוטיפר וכ׳</he> Pé intimates Potifar &c.; a. fr.—Pl. <he>פֵּיפִין</he>. ",
+				"<cite ref=\"Shabbat 103b:12\">Sabb. 103ᵇ</cite> <he>טיתין פ׳ פ׳ טיתין</he> one must be careful not to write Teths looking like Pés &c."
+			]
+		}
+	]
+}

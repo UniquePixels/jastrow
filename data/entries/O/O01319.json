@@ -1,0 +1,23 @@
+{
+	"id": "O01319",
+	"slug": "ספדן",
+	"headword": {
+		"text": "סַפְדָּן"
+	},
+	"page": {
+		"number": 1011,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01318\">preced.</cite> wds.) <i>hired mourner, speaker at funerals</i> or <i>memorial services</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 8a:19\">M. Kat. 8ᵃ</cite> <he>בא ס׳ וכ׳</he> a wailer came and placed himself at the door (offering his services).—Pl. <he>סַפְדָּנִים</he>, <he>סַפְדָּנִין</he>. ",
+				"<cite ref=\"Berakhot 62a:16\">Ber. 62ᵃ</cite> <he>כשם … מן הס׳ וכ׳</he> as the dead are called to account (for their deeds), so the wailers and those who respond after them will be made responsible (for their eulogies)."
+			]
+		}
+	]
+}

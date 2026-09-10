@@ -1,0 +1,39 @@
+{
+	"id": "B01053",
+	"slug": "בעל-1",
+	"headword": {
+		"text": "בָּעַל"
+	},
+	"page": {
+		"number": 182,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בע</he> , v. <cite ref=\"B01026\"><he>בָּעָה</he></cite>, <i>to enter into, take possession</i>) [in b. h. <i>to be master, protect;</i>] <i>to have sexual intercourse</i> (both legal or illicit), <i>to embrace a woman</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 9b:20\">Kidd. 9ᵇ</cite> <he>וּבְעָלָהּ מלמד וכ׳</he> ‘and he embraced her’ (<cite ref=\"Deuteronomy 24:1\">Deut. XXIV, 1</cite>), this intimates that woman can be acquired as wife by intercourse, v. <cite ref=\"B00537\"><he>בִּיאָה</he></cite>.—בּוֹעֵל <i>lover, adulterer</i>, contrad. to <cite ref=\"B01055\"><he>בַּעַל</he></cite> <i>husband</i>. ",
+				"<cite ref=\"Mishnah Sotah 5:1\">Sot. V, 1</cite>, a. fr. <he>כשם שאסורה לַבַּעַל … לַבּוֹעֵל</he> as well as the woman suspected of adultery is forbidden to her husband (who must separate himself from her), so is she forbidden to the lover (who cannot marry her after leaving her husband). ",
+				"<cite ref=\"Yevamot 103a:17\">Yeb. 103ᵃ</cite> <he>שבע בעילות ב׳ וכ׳</he> that wicked man had seven sexual connections &c.; a. fr.—Part. pass. f. <cite ref=\"B01383\"><he>בְּעוּלָה</he></cite> <i>one no longer a virgin</i>, opp. to <cite ref=\"B01383\"><he>בתולה</he></cite>; <i>married woman</i>, opp. to <he>ארוסה</he>, v. <cite ref=\"A03210\"><he>אָרַס</he></cite>. ",
+				"<cite ref=\"Ketubot 10b:7\">Keth. 10ᵇ</cite>; a. fr.—Pl. <he>בְּעוּלוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:3\">Y. Kidd. I, 58ᵇ</cite> bot.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְעֲלָה"],
+			"senses": [
+				{
+					"gloss": "<i>she had intercourse</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 5a:6\">Keth. 5ᵃ</cite> <he>נישאת … ונִבְעֶלֶת וכ׳</he> is married on the fourth day and embraced in the night of the fifth day of the week. ",
+						"<cite ref=\"Ketubot 3b\">Ib. 3ᵇ</cite> <he>תִּיבָּעֵל לטפסר וכ׳</he> must first be surrendered to the (Roman) officer (jus primæ noctis); a. fr.—Masc. <he>נִבְעַל</he> (of the hermaphrodite). ",
+						"<cite ref=\"Tosefta Bikkurim 2:5\">Tosef. Bicc. II, 5</cite>; Y. Yeb. VIII, 9ᵈ bot."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "O00074",
+	"slug": "סבלה",
+	"headword": {
+		"text": "סִבְלָה"
+	},
+	"page": {
+		"number": 950,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"O00073\">preced.</cite>) <i>load, burden</i>.—Pl. <he>סִבְלוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 37:2\">Lev. R. s. 37</cite> <he>סִבְלוֹתָם</he>, v. <cite ref=\"J00675\"><he>יָשַׁב</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 1:27\">Ex. R. s. 1</cite> <he>שהיה רואה בסבלותם וכ׳</he> he saw their burdens and wept. ",
+				"<cite ref=\"Shemot Rabbah 1:15\">Ib.</cite> <he>היה הולך ומישב להן סִבְלוֹתֵיהֶן</he> he went and helped them to arrange their burdens; a. e."
+			]
+		}
+	]
+}

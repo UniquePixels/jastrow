@@ -1,0 +1,28 @@
+{
+	"id": "A00443",
+	"slug": "אדר-3",
+	"headword": {
+		"text": "אֲדָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָדָר"
+		}
+	],
+	"page": {
+		"number": 17,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h., Assyr. <i>the cloudy</i>; v. Fred. Delitzsch, The Hebr. Lang. p. 15) <i>Adar</i>, the twelfth month of the Jewish calendar, containing twenty nine days, and varying between the eleventh of February and the twenty eighth of March. In leap years: <he>א׳ רִאשׁוֹן</he> <i>First Adar</i>, of thirty days duration between the thirty first of January and the tenth of March; <he>א׳ שֵׁנִי</he> <i>Second Adar</i>, of twenty nine days, between the second of March and the eighth of April. Targ. II Esth. IX, 29; a. fr.—",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 1:4\">Meg. I, 4</cite>; a. fr.—Pl. <he>אֲדָרִים</he>, <he>אֲדָרִין</he>. ",
+				"<cite ref=\"Rosh Hashanah 19b:15\">R. Hash. 19ᵇ</cite>"
+			]
+		}
+	]
+}

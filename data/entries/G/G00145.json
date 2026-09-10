@@ -1,0 +1,48 @@
+{
+	"id": "G00145",
+	"slug": "זוז-1",
+	"headword": {
+		"text": "זוּז",
+		"homograph": 1
+	},
+	"page": {
+		"number": 385,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", perf. a. part. <he>זָז</he> (reduplic. of <he>זא</he> or <cite ref=\"G00584\"><he>זע</he></cite>, v. <cite ref=\"G00217\"><he>זוּעַ</he></cite>, cmp. <cite ref=\"G00002\"><he>זָאזָא</he></cite>) <i>to move, go away, depart</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 12:3\">Keth. XII, 3</cite> <he>לָזוֹז</he>, v. <cite ref=\"A02841\"><he>אֶפֶשׁ</he></cite>.—",
+				"<cite ref=\"Yevamot 30a\">Yeb. 30ᵃ</cite>, a. fr. <he>ומשנה לא זָזָה ממקומה</he> but the Mishnah was not removed from its place, i.e. it was left in the collection as it was, though afterwards repealed or modified. ",
+				"<cite ref=\"Gittin 58a:10\">Gitt. 58ᵃ</cite> <he>איני זז מכאן וכ׳</he> I shall not leave this spot until &c. Tanḥ. Matt. 6; <cite ref=\"Bamidbar Rabbah 22:8\">Num. R. s. 22</cite>, end, a. e. (play on <he>זוּזִים</he> <i>coins</i>) <he>שזָזִים וכ׳</he> they leave the one and are given to the other; a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵזִיז"],
+			"senses": [
+				{
+					"gloss": "<i>to move, shake; to remove</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 3:17\">Ab. III, 17</cite> <he>אין מְזִיזִין וכ׳</he> they cannot move it (the tree) from its place; <cite ref=\"Taanit 20a:14\">Taan. 20ᵃ</cite> <he>מְזִיזוֹת</he>; <cite ref=\"Sanhedrin 106a\">Snh. 106ᵃ</cite>.—",
+						"<cite ref=\"Shemot Rabbah 45\">Ex. R. s. 45</cite> <he>אין אתה יכול להָזִיז וכ׳</he> thou canst not remove thy love from them. ",
+						"<cite ref=\"Kohelet Rabbah 1:13:1\">Koh. R. to I, 13</cite> <he>אינו מֵזִיז ואינו מזיע וכ׳</he> he will not give up studying &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נ"],
+			"senses": [
+				{
+					"gloss": ") <he>הִזְדַּנְזֵז</he>, <he>הִזְדַּנְדֵּז</he> v. <cite ref=\"G00390\"><he>זִעֲזֵעַ</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Hithpalp."
+		}
+	]
+}

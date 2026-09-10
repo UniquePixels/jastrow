@@ -1,0 +1,27 @@
+{
+	"id": "J00508",
+	"slug": "יפיפי",
+	"headword": {
+		"text": "יְפֵיפִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְפֵיפִיָּה"
+		}
+	],
+	"page": {
+		"number": 586,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>יְפֵה־פִיָּה</he> ; <cite ref=\"J00507\">preced.</cite> wds.) <i>very fine, choice</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 6b:15\">Pes. 6ᵇ</cite> <he>גְּלוּסְקָא י׳</he> Ms. M. a. Ar. (ed. <he>יפה</he>), v. <cite ref=\"C00907\"><he>גְּלוּסְקָא</he></cite>."
+			]
+		}
+	]
+}

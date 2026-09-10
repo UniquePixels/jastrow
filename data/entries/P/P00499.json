@@ -1,0 +1,27 @@
+{
+	"id": "P00499",
+	"slug": "עיגון",
+	"headword": {
+		"text": "עִיגּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִגּ׳"
+		}
+	],
+	"page": {
+		"number": 1067,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00105\"><he>עָגַן</he></cite>) <i>tying, holding fast</i>.—Pl. <he>עִיגּוּנִין</he> [<i>means of tying</i>,] <i>anchor, ballast</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73a\">B. Bath. 73ᵃ</cite> (expl. <cite ref=\"P00194\"><he>עוגין</he></cite> <cite ref=\"Mishnah Bava Batra 5:1\">ib. V, 1</cite>) <he>אלו ע׳ שלה</he> Ms. H. a. F. (ed. <he>עוגינין</he>; Rashb. <cite ref=\"P00500\"><he>עִיגּוּנָא</he></cite>; v. Rabb. D. S. a. l. note 3) that is the means of her (the ship’s) detention (with ref. to <cite ref=\"Ruth 1:13\">Ruth I, 13</cite>); <cite ref=\"Yalkut Shimoni on Nach 367:3\">Yalk. Ez. 367</cite> (not <he>עיגוני</he>).—[In later Hebr. literature: <cite ref=\"P00499\"><he>עיגון</he></cite> <i>status of a deserted wife</i>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "C01241",
+	"slug": "גרבתן",
+	"headword": {
+		"text": "גְּרַבְתָּן"
+	},
+	"page": {
+		"number": 264,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C01240\">preced.</cite>) <i>one having an abnormally long membrum</i> (one of the blemishes unfitting for priestly service). ",
+			"units": [
+				"<cite ref=\"Bekhorot 44b:12\">Bekh. 44ᵇ</cite> <he>הג׳ זה בעל קיק</he> (for Mish. <he>בעל גבר</he>). ",
+				"<cite ref=\"Bekhorot 44b:12\">Ib.</cite> <he>בעל קיק בביצים ג׳ בגיד</he> Ar. <i>baal kik</i> refers to the testicles, <i>g’rabtan</i> to the membrum (ed. <he>קיין … גרבתא וכ׳</he>, v. <cite ref=\"C01240\">preced.</cite>)."
+			]
+		}
+	]
+}

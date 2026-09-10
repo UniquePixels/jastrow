@@ -1,0 +1,24 @@
+{
+	"id": "M00598",
+	"slug": "מוקרא-1",
+	"headword": {
+		"text": "מוֹקְרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 748,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00581\"><he>יְקַר</he></cite>) <i>honor</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 2:20:1\">Koh. R. to II, 20</cite>; <cite ref=\"Vayikra Rabbah 25:5\">Lev. R. s. 25</cite> <he>כל הדין מ׳ תיקריניה וכ׳</he> so much honor do you show to this old Jew?—",
+				"<cite ref=\"Berakhot 28a:1\">Ber. 28ᵃ</cite> <he>כסא דמ׳</he>, v. <cite ref=\"J00584\"><he>יְקָרָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "V00044",
+	"slug": "תביעה",
+	"headword": {
+		"text": "תְּבִיעָה"
+	},
+	"page": {
+		"number": 1643,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00067\"><he>תָּבַע</he></cite>) <i>asking, summons</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 41b:6\">Shebu. 41ᵇ</cite> <he>בשעת ת׳</he> at the time when the creditor asks for payment. ",
+				"<cite ref=\"Ketubot 57b:9\">Keth. 57ᵇ</cite> <he>משעת ת׳</he> from the time he summons her, or she summons him to make ready for the wedding. ",
+				"<cite ref=\"Tosefta Ketubot 5:1\">Tosef. ib. V, 1</cite>, v. <cite ref=\"B00089\"><he>בַּגָּר</he></cite>; Y. ib. V, 29ᵈ <he>בשעה</he> (read: <he>בת׳</he>, or <he>בשעת ת׳</he>)."
+			]
+		}
+	]
+}

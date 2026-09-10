@@ -1,0 +1,24 @@
+{
+	"id": "A03411",
+	"slug": "אתורין",
+	"headword": {
+		"text": "אֲתוּרִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= h. <he>אשורים</he>; <cite ref=\"V00275\"><he>תְּוַר</he></cite> = <cite ref=\"U00533\"><he>שְׁוַר</he></cite>, v. <cite ref=\"A01518\"><he>אִיסְתְּוָורָא</he></cite>) <i>ankles, footsteps</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 40:3\">Targ. Ps. XL, 3</cite> some ed. (oth. <he>איסטוורי</he>)."
+			]
+		}
+	]
+}

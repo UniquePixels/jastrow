@@ -1,0 +1,33 @@
+{
+	"id": "J00610",
+	"slug": "ירוקה",
+	"headword": {
+		"text": "ירָוֹקָה"
+	},
+	"page": {
+		"number": 595,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00609\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " י׳ שעל פני המים <i>grass upon the water</i>, a sort of <i>sea-weed</i> or <i>moss</i> used for wicks. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:1\">Sabb. II, 1</cite>, expl. ",
+				"<cite ref=\"Shabbat 20b:12\">ib. 20ᵇ</cite> <he>אוכמתא דארבא</he>, v. <cite ref=\"A00648\"><he>אוּכָּם</he></cite>.; Y. ib. II beg. 4ᶜ, v. <cite ref=\"K00651\"><he>כִּיתָּן</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>jaundice</i>. Ib. XIV, 3 <he>שהן לי׳</he> they are used as a remedy for jaundice.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

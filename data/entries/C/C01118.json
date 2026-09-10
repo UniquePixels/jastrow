@@ -1,0 +1,23 @@
+{
+	"id": "C01118",
+	"slug": "גנות",
+	"headword": {
+		"text": "גְּנוּת"
+	},
+	"page": {
+		"number": 258,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01131\"><he>גני</he></cite>; v. <cite ref=\"C01104\"><he>גִּנּוּי</he></cite>) <i>blame, disgrace</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 10:4\">Pes. X, 4</cite>. ",
+				"<cite ref=\"Arakhin 16a:15\">Arakh. 16ᵃ</cite> <he>בא לידי גְנוּתוֹ</he> may be induced to speak of his shortcomings; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "S01396",
+	"slug": "קלע-7",
+	"headword": {
+		"text": "קֶלַע",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1380,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <i>pl.</i>; <cite ref=\"S01395\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>curtain, sail</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Kamma 8:17\">Tosef. B. Kam. VIII, 17</cite> <he>ובלבד שלא יפרוס את הק׳ וכ׳</he> provided one does not spread the sail and detain the boat (when fishing in the waters of a neighboring tribe).—Pl. <he>קְלָעִים</he>, <he>קְלָעִין</he>. ",
+				"<cite ref=\"Mishnah Eduyot 8:6\">Eduy. VIII, 6</cite>; <cite ref=\"Zevachim 107b:23\">Zeb. 107ᵇ</cite>; <cite ref=\"Megillah 10a:8\">Meg. 10ᵃ</cite>, a. e. <he>כשהיו … ק׳ להיכל וק׳ לעזרות</he> when they were rebuilding the Temple, they made curtains for the Temple and curtains for the courts.—Esp. <i>the curtains of the Tabernacle</i>; trnsf. <i>the partitions of the Temple corresponding to those of the Tabernacle</i>. ",
+				"<cite ref=\"Mishnah Zevachim 5:3\">Zeb. V, 3</cite> <he>לפנים מן הק׳</he> inside of the enclosures (in the Temple court); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<i>pl.</i>) <i>tents at fairs, shops</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 106a:8\">Snh. 106ᵃ</cite> <he>עֲשֵׂה להן ק׳ וכ׳</he> put up shops for them and place therein prostitutes &c.; <he>עָשָׂה להן ק׳ וכ׳</he> (Ar. <he>קעילין</he>) he put up shops for them &c.; <cite ref=\"Sifrei Bamidbar 131\">Sifré Num. 131</cite> <he>ק׳</he> Var. (ed. <cite ref=\"M02392\"><he>מקולין</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 771:11\">Yalk. ib. 771</cite> <he>קעילין</he>; <cite ref=\"Jerusalem Talmud Sanhedrin 10:2:15\">Y. Snh. X, 28ᵈ</cite> top <he>קנקלין</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

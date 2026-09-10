@@ -1,0 +1,30 @@
+{
+	"id": "M02758",
+	"slug": "מרצעא",
+	"headword": {
+		"text": "מַרְצְעָא"
+	},
+	"page": {
+		"number": 846,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"M02757\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:6\">Targ. O. Ex. XXI, 6</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 5:3:9\">Y. Maas. Sh. V, 56ᵇ</cite> sq. <he>מַרְצְעָה דעקיבא וכ׳</he> the awl (penetrating acumen) of Akiba … has been here."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"T00977\"><he>רְצוּעָה</he></cite>) <i>strap</i>.—Pl. <cite ref=\"M02756\"><he>מַרְצְעַיָּיה</he></cite>, contr. <cite ref=\"M02756\"><he>מַרְצַיָּיה</he></cite>. Y. Sot. I, 16ᵈ bot. [read:] <he>לא הוינן מייתין ספסלייה ומ׳ ומלקין ליה ומרציין וכ׳</he> should we not have brought in benches and straps and smitten him and reconciled him to his wife?",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

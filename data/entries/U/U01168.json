@@ -1,0 +1,29 @@
+{
+	"id": "U01168",
+	"slug": "שכם-1",
+	"headword": {
+		"text": "שָׂכַם"
+	},
+	"page": {
+		"number": 1574,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U01158\"><he>הִשְׂכִּים</he></cite>, v. <cite ref=\"O00918\"><he>סָכַם</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

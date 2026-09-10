@@ -1,0 +1,40 @@
+{
+	"id": "C00568",
+	"slug": "גזם-1",
+	"headword": {
+		"text": "גָּזַם"
+	},
+	"page": {
+		"number": 231,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>גזז</he>) <i>to cut, trim</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּזֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to cut branches off</i> (for letting the sap drip), <i>to tap</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 50b:4\">Ab. Zar. 50ᵇ</cite> <he>אין מְגַזְּמִין</he> you must not tap (in the festive week or in the Sabbath year)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " Trnsf. (cmp. b. h. <cite ref=\"S02142\"><he>קרץ</he></cite> a. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 16:30\">Targ. Prov. XVI, 30</cite>) <i>to threaten mischief</i>. ",
+						"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14</cite> <he>שהיא מְגַזֶּמֶת לעשות לו</he> which she was threatening to do unto him."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

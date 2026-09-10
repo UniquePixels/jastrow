@@ -1,0 +1,31 @@
+{
+	"id": "U01610",
+	"slug": "שנק-1",
+	"headword": {
+		"text": "שָׁנַק"
+	},
+	"page": {
+		"number": 1607,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <cite ref=\"A02285\"><he>אנק</he></cite> or <he>חנק</he>), <i>Pi.</i> <he>שִׁנֵּק</he> <i>to strangle, choke</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 36\">Pesik. R. s. 36</cite>; <cite ref=\"Yalkut Shimoni on Nach 359\">Yalk. Is. 359</cite> <he>ומְשַׁנְּקִין את רוחך בעול</he> and they shall choke thy spirit (curb thy energies) with a yoke."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתַּנֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be strangled</i>. Pesik. Zutr., Ḥuck., p. 244 <he>ולא היינו מִשְׁתַּנְּקִין בצמא</he> and we should not have been choked by thirst.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "N00154",
+	"slug": "נגיד-3",
+	"headword": {
+		"text": "נְגִיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְגִידָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 874,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"N00118\"><he>נְגַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stretched</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite> <he>נ׳ טולא</he> (ed. Amst. a. Vien. <cite ref=\"N00165\"><he>נגיר</he></cite>) stretched for shade, <i>awning</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of metal) <i>beaten, beaten work</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:18\">Targ. Ex. XXV, 18</cite> (h. text <he>מקשה</he>). ",
+				"<cite ref=\"Onkelos Numbers 8:4\">Targ. O. Num. VIII, 4</cite>.—",
+				"<cite ref=\"Targum Jonathan on Jeremiah 10:5\">Targ. Jer. X, 5</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <cite ref=\"T00346\"><he>רוּחָא</he></cite>; interchanging with <cite ref=\"N00165\"><he>נְגִיר</he></cite>) <i>long-suffering, forbearing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 14:29\">Targ. Prov. XIV, 29</cite> (ed. Lag. … <he>רא</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:28\">Ib. XXV, 28</cite> <he>נגירא</he> ed. Lag. (oth. ed. <he>מַצְעַר</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 16:32\">Ib. XVI, 32</cite> <cite ref=\"N00154\"><he>נְגִיד</he></cite> (<cite ref=\"A02666\"><he>אפי</he></cite>) <he>רוחא</he> (ed. Lag. <cite ref=\"N00165\"><he>נְגִיר</he></cite>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>duct</i>, v. <cite ref=\"N00138\"><he>נְגוּדָא</he> II</cite>.—[<cite ref=\"Aramaic Targum to Ruth 1:1\">Targ. Ruth I, 1</cite> <cite ref=\"N00152\"><he>נגיד</he></cite>, inf. of <cite ref=\"N00118\"><he>נְגַד</he></cite>.]",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

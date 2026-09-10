@@ -1,0 +1,24 @@
+{
+	"id": "I00474",
+	"slug": "טלה-1",
+	"headword": {
+		"text": "טָלֶה"
+	},
+	"page": {
+		"number": 535,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"I00470\"><he>טָלָא</he></cite>) [<i>tender</i>,] <i>lamb</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 9b:15\">Ḥag. 9ᵇ</cite> <he>בקרו ט׳</he> examine the lamb, v. <cite ref=\"B01136\"><he>בָּקַר</he></cite>; a. e.—Pl. <he>טְלָאִים</he>, <he>טְלָיִים</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:12\">Y. Ber. IV, 7ᵇ</cite> top <he>ט׳ מבוקרים</he>, v. <cite ref=\"B01136\"><he>בָּקַר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:12\">Ib.</cite>; <cite ref=\"Mishnah Tamid 3:3\">Tam. III, 3</cite> <he>לשכת הט׳</he> the (Temple) store for daily offerings; a. e."
+			]
+		}
+	]
+}

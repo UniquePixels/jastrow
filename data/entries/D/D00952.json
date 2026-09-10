@@ -1,0 +1,28 @@
+{
+	"id": "D00952",
+	"slug": "דף",
+	"headword": {
+		"text": "דַּף"
+	},
+	"page": {
+		"number": 316,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דפף</he>, <i>to hammer, join;</i> cmp. <he>דפן</he>) <i>board, plank;</i> trnsf. <i>a column</i> in the scroll (later Hebr. <i>a leaf</i> of a book). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:2\">Kel. XV, 2</cite> <he>ד׳ של נחתומות וכ׳</he> the (metal) plank of the bakers joined to the wall; <cite ref=\"Bava Batra 66a:5\">B. Bath. 66ᵃ</cite>; <cite ref=\"Bava Batra 66b\">66ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Yadayim 4:8\">Yad. IV, 8</cite> <he>בד׳</he> on the same column. Tosef. Gitt. IX (VII), 10; a. fr.—Pl. <he>דַּפִּים</he>, <he>דַּפִּין</he>. ",
+				"<cite ref=\"Avodah Zarah 75a\">Ab. Zar. 75ᵃ</cite>; <cite ref=\"Niddah 65a\">Nidd. 65ᵃ</cite> <he>הד׳</he> the planks used as frame in the wine press. ",
+				"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14</cite> (ed. Amst. p. 258ᶜ) <he>מקיים הד׳</he> keeps the joined boards (of the door) together. ",
+				"<cite ref=\"Menachot 30a:11\">Men. 30ᵃ</cite> (<cite ref=\"J00638\"><he>יריעה</he></cite>) <he>בת שלש ד׳</he> a sheet of parchment wide enough for three columns. ",
+				"<cite ref=\"Menachot 30b:1\">Ib.ᵇ</cite> <he>לבין הד׳</he> in the space between the columns. ",
+				"<cite ref=\"Mishnah Negaim 11:9\">Neg. XI, 9</cite> <he>דַּפֵּי חלוק</he> the strips (widths) of a shirt; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "T00278",
+	"slug": "רהט-2",
+	"headword": {
+		"text": "רְהַט"
+	},
+	"page": {
+		"number": 1454,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00277\">same</cite>, <i>to run, be swift</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 9:25\">Targ. Job IX, 25</cite> (of a bird). ",
+				"<cite ref=\"Onkelos Genesis 18:7\">Targ. Gen. XVIII, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 18:23\">Targ. II Sam. XVIII, 23</cite>; a. fr.—",
+				"<cite ref=\"Moed Katan 9b:12\">M. Kat. 9ᵇ</cite> <cite ref=\"T00280\"><he>רָהֲטָא</he></cite>, v. <cite ref=\"I00068\"><he>טַבְלָא</he> I</cite>. ",
+				"<cite ref=\"Eruvin 51a:1\">Erub. 51ᵃ</cite> top <he>והוא דכי רָהֵיט וכ׳</he> provided he may reach the root of the tree (before the Sabbath begins) by running. ",
+				"<cite ref=\"Berakhot 6b:9\">Ber. 6ᵇ</cite> <he>מצוה למִרְהַט</he> it is right to run. ",
+				"<cite ref=\"Berakhot 6b:10\">Ib.</cite> <he>אנא נמי רְהִיטְנָא</he> I run likewise. ",
+				"<cite ref=\"Shabbat 94a:4\">Sabb. 94ᵃ</cite> <he>רהיט תלתא וכ׳</he> he ran three parasangs on foot. ",
+				"<cite ref=\"Shabbat 32a:2\">Ib. 32ᵃ</cite> <he>ועיזי רְהִיטָן</he> (not <cite ref=\"T00611\"><he>ריהטן</he></cite>) the goats run, v. <cite ref=\"H00164\"><he>חִגְּרָא</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 31:3\">Yalk. Gen. 31</cite> <he>רְהִיטֵי</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:4:7\">Y. Shek. V, end, 49ᵇ</cite> <he>רגלייא דלא רָהֲטָן וכ׳</he> may the (my) feet that failed to run to give alms, be broken; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְהֵיט"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to run, hasten</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 41:14\">Targ. O. Gen. XLI, 14</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

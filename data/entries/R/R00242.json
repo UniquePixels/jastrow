@@ -1,0 +1,83 @@
+{
+	"id": "R00242",
+	"slug": "צור-3",
+	"headword": {
+		"text": "צוּר"
+	},
+	"page": {
+		"number": 1270,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00241\">same</cite><i>to tie around</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 48a\">Snh. 48ᵃ</cite>; <cite ref=\"Berakhot 23b:18\">Ber. 23ᵇ</cite> <he>דאזמניה למֵיצַר … צָר וכ׳</he> which he designated to wrap T’fillin in; if he did so &c. (v. <cite ref=\"R00809\"><he>צְרַר</he></cite>).—Part. <he>צָאֵיר צָיֵיר</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:24\">Y. Ber. IV, 7ᶜ</cite> top <he>הוה צ׳ גולתיה וכ׳</he> tied Rab’s cloak up &c.; <cite ref=\"Jerusalem Talmud Taanit 4:1:8\">Y. Taan. IV, 67ᶜ</cite>.—Part. pass. <cite ref=\"R00346\"><he>צָיִיר</he></cite>, <he>צָיִר</he>, <cite ref=\"R00009\"><he>צָאִיר</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 41:7\">Targ. Job XLI, 7</cite>.—",
+				"<cite ref=\"Chullin 105b:17\">Ḥull. 105ᵇ</cite> <he>כל מילי דצייר וחתים</he> whatever is tied up or sealed. ",
+				"<cite ref=\"Bava Metzia 24b:5\">B. Mets. 24ᵇ</cite> <he>אשכח … דצָיְירֵי בסדינא</he> found four Zuzin tied up in a sheet. ",
+				"<cite ref=\"Vayikra Rabbah 6:3\">Lev. R. s. 6</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to draw, shape, design</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 4:13\">Targ. Am. IV, 13</cite> <he>דצר</he> ed. Lag. (ed. Wil. <cite ref=\"D00691\"><he>דִּיצַר</he></cite>, v. <cite ref=\"J00549\"><he>יְצַר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:15\">Targ. I Kings VII, 15</cite>; a. fr.—Part. pass. as ab. ",
+				"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <he>על</he>) <i>to besiege</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 2:19\">Targ. Deut. II, 19</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 2:9\">Targ. O. ib. 9</cite> (Y. <he>תעיק</he>; h. text <he>תצר</he>). Targ. O. ib. XX, 12; 19. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 23:8\">Targ. I Sam. XXIII, 8</cite> (ed. Lag. <he>לימצר</he>, read <he>למיצר</he>); a. fr.—",
+				"<cite ref=\"Gittin 56a:8\">Gitt. 56ᵃ</cite> <he>צר עלה וכ׳</he> he besieged it (Jerusalem) three years; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַיֵּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to form, shape, paint, engrave</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 10:8\">Targ. Job X, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 22:14\">Targ. Jer. XXII, 14</cite>; a. e.—Part. pass. <he>מְצַיַּיר</he>, <he>מְצַיַּר</he>. ",
+						"<cite ref=\"Onkelos Exodus 25:33\">Targ. O. Ex. XXV, 33</cite>, sq. (h. text <he>משקד׳</he>). ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 23:14\">Targ. Ez. XXIII, 14</cite> (h. text <he>מחקה</he>). ",
+						"<cite ref=\"Targum Jonathan on Leviticus 26:1\">Targ. Y. I Lev. XXVI, 1</cite> (h. text <he>משכית</he>).—",
+						"<cite ref=\"Gittin 36a\">Gitt. 36ᵃ</cite>; <cite ref=\"Gittin 87b\">87ᵇ</cite>, v. <cite ref=\"K00216\"><he>כַּוְורָא</he></cite>, <cite ref=\"H01643\"><he>חֲרוּתָא</he></cite>, <cite ref=\"M01370\"><he>מָכוּתָא</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to tie up, fold under</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 37b:12\">Men. 37ᵇ</cite> <he>האי מאן דצַיְּירֵּיה לגלימיה</he> Rashi (ed. <he>דצרייה</he>; Ar. <he>דצארי</he>) he who folds his cloak (and puts the show-fringes on the fold)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִצְטַיַּיר", "אִצְטַיַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be embroidered, shaped</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 139:15\">Targ. Ps. CXXXIX, 15</cite> (ed. Wil. <he>אצטיד׳</he>, corr. acc.; h. text <he>רקמ׳</he>).—[<i>Ithpe.</i> <cite ref=\"R00352\"><he>אִתְצִיר</he></cite>, <he>אִתְצַר</he>, v. <cite ref=\"J00549\"><he>יְצַר</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

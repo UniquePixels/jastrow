@@ -1,0 +1,31 @@
+{
+	"id": "H01536",
+	"slug": "חצץ-4",
+	"headword": {
+		"text": "חֲצַץ"
+	},
+	"page": {
+		"number": 496,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01533\"><he>חַצֵּץ</he></cite> (denom. of <cite ref=\"H01487\"><he>חֵץ</he></cite>, v. <cite ref=\"H01533\"><he>חָצַץ</he></cite>) <i>to sharpen</i>, or <i>to shoot an arrow</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 5:8\">Targ. Jud. V, 8</cite>. <he>מְחַצְצֵי גיריא</he> (missing in ed. Lag.)"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

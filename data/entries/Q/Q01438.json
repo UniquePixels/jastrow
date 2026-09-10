@@ -1,0 +1,31 @@
+{
+	"id": "Q01438",
+	"slug": "פצם",
+	"headword": {
+		"text": "פְּצַם"
+	},
+	"page": {
+		"number": 1205,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"Q01438\"><he>פָּצַם</he></cite>; cmp. <cite ref=\"Q01426\"><he>פצי</he></cite> , a. <cite ref=\"Q01437\">preced.</cite>) <i>to split, break</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּצֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to break open, frame an aperture</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 22:14\">Targ. Jer. XXII, 14</cite> (h. text <he>קרע</he>).—V. <cite ref=\"Q01432\"><he>פַּצִּים</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

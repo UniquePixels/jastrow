@@ -1,0 +1,23 @@
+{
+	"id": "E00436",
+	"slug": "הימנית",
+	"headword": {
+		"text": "הֵימָנִית",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 347,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00428\"><he>הֵימַן</he></cite>) <i>reliable, steady;</i> <he>רוח ה׳</he> even-tempered disposition, opp. <he>קפדנית</he> rash. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 776:6\">Yalk. Num. 776</cite> (quoted fr. Sifré Zuta)."
+			]
+		}
+	]
+}

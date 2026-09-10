@@ -1,0 +1,49 @@
+{
+	"id": "J00202",
+	"slug": "יונה-1",
+	"headword": {
+		"text": "יוֹנָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 570,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Jonah</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the prophet. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 10:1:4\">Y. Erub. X, beg. 26ᵃ</cite>; Bab. ",
+				"<cite ref=\"Eruvin 96a:13\">Erub. 96ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 89a:23\">Snh. 89ᵃ</cite>, sq <cite ref=\"Bereishit Rabbah 21:5\">Gen. R. s. 21</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Amoraim. ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " R. J. father of R. Mana. ",
+					"units": [
+						"<cite ref=\"Taanit 23b:10\">Taan. 23ᵇ</cite>. ",
+						"<cite ref=\"Jerusalem Talmud Sheviit 4:1:2\">Y. Shebi. IV, 35ᵃ</cite> bot.; a. v. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " R. J. of Bozra. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Kilayim 9:1:4\">Y. Kil. IX, beg. 31ᵈ</cite>; a. fr.—[<cite ref=\"Chullin 43b:11\">Ḥull. 43ᵇ</cite> <he>י׳ אמר ר׳ זירא</he> Jonah said in behalf of R. Z.; oth. opin.: as to the gullet of a <i>dove</i>, &c., v. next w.]"
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "A00055",
+	"slug": "איבוב",
+	"headword": {
+		"text": "אִיבּוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבּוּב"
+		}
+	],
+	"page": {
+		"number": 3,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>אנב׳</he>, <he>נבב</he> <i>to be hollow;</i> cmp. <he>בִּיב</he> I) <i>reed, flute; pipe, tube</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 2:3\">Arakh. II, 3</cite> <he>א׳ של קנה</he> a reed flute, <he>א׳ של נחושת</he> brass flute. ",
+				"<cite ref=\"Mishnah Kelim 2:3\">Kel. II, 3</cite>; <cite ref=\"Mishnah Menachot 10:4\">Men. X, 4</cite> <he>א׳ של קלאים</he> Ar. (ed. <he>קליות</he>) an iron tube for roasting grain.—<he>א׳ רוֹעֶה</he> (Var. <cite ref=\"A00057\"><he>אבובראה</he></cite>, <cite ref=\"A00057\"><he>אבוברואה</he></cite>) <i>shepherd’s flute</i>, name of a plant (Eupatorium) used for medicinal purposes; v. <cite ref=\"H00378\"><he>חומטריא</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 14:3\">Sabb. XIV, 3</cite>; <cite ref=\"Shabbat 109b\">ib. 109ᵇ</cite>; Y. ib. XIV, 14ᶜ"
+			]
+		}
+	]
+}

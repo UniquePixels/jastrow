@@ -1,0 +1,29 @@
+{
+	"id": "P00608",
+	"slug": "עינוג",
+	"headword": {
+		"text": "עִינּוּג"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִנּ׳"
+		}
+	],
+	"page": {
+		"number": 1072,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00948\"><he>עָנַג</he></cite>) <i>pleasure, sweetness</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:11\">Cant. R. to IV, 11</cite> <he>הקורא מקרא בעִינּוּגוֹ ובניגונו</he> he who reads a Bible verse so as to bring out its sweetness and its melodious sound. ",
+				"<cite ref=\"Kohelet Rabbah 2:8:1\">Koh. R. to II, 8</cite> <he>אלו האגדות שהן ענוגו של מקרא</he> (some ed. <he>ענוגי</he>, read. <he>עִנּוּגִין</he> <i>pl.</i>) that means the <i>ăgadoth</i> (v. <cite ref=\"A00247\"><he>אֲגָדָה</he></cite>) which are the delightful part of Biblical interpretation. ",
+				"<cite ref=\"Kohelet Rabbah 2:8:2\">Ib.</cite> <he>עִנּוּגָן של ישראל</he> the enjoyment of Israel (in the Holy Land; <cite ref=\"Yalkut Shimoni on Nach 968:1\">Yalk. ib. 968</cite> <he>תענוגה של ארץ ישראל</he>).—<i>Pl.</i> <he>עִינּוּגִין</he>, <cite ref=\"P00608\"><he>עִנּ׳</he></cite>, v. supra."
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "D00121",
+	"slug": "דגר-2",
+	"headword": {
+		"text": "דְּגַר",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 280,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>זקר</he>) <i>to leap</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 51a:7\">Ḥull. 51ᵃ</cite> <he>ד׳ נפל מאיגרא</he> (our w. omitted in Ar. s. v. <cite ref=\"A01538\"><he>איפומא</he></cite>) it leaped [and] fell from the roof (Rashi)."
+			]
+		}
+	]
+}

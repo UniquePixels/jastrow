@@ -1,0 +1,34 @@
+{
+	"id": "D00054",
+	"slug": "דבח-1",
+	"headword": {
+		"text": "דְּבַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 277,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"G00030\"><he>זָבַח</he></cite> , <i>to slaughter, to sacrifice, feast</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 54:8\">Targ. Ps. LIV, 8</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּבַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D00053\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 5:8\">Targ. Ex. V, 8</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

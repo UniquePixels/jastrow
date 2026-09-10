@@ -1,0 +1,23 @@
+{
+	"id": "A00064",
+	"slug": "אבוז",
+	"headword": {
+		"text": "אֵבוּז",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 3,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"A00077\"><he>אֵבוּס</he></cite>; <he>אבז</he>, √<cite ref=\"A00013\"><he>אב</he></cite>) Euphem. for <i>buttocks, extremity</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53b\">Erub. 53ᵇ</cite>; v. <cite ref=\"A01672\"><he>אָכוּז</he></cite>."
+			]
+		}
+	]
+}

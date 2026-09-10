@@ -1,0 +1,53 @@
+{
+	"id": "M00873",
+	"slug": "מחיצה-2",
+	"headword": {
+		"text": "מְחִיצָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 760,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חוּץ</he> I or <cite ref=\"H01533\"><he>חָצַץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>division</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 2b:3\">B. Bath. 2ᵇ</cite> <he>אימא מ׳ פלוגתא</he> may I not say, <i>m’ḥitsah</i> (<cite ref=\"Mishnah Bava Batra 1:1\">ib. I, 1</cite>) means a division of property?—Answ. <he>רצו לחצות וכ׳</he> then it ought to have read, ‘they agreed to divide’."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>partition, wall</i>. Ib. 3ᵃ, v. <cite ref=\"C00303\"><he>גּוּדָּא</he></cite>; a. e.—Esp. (in Sabbath law) <i>a partition ten handbreadths high</i>, to mark a space off as private ground <he>(רשות היחיד</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 8:7\">Erub. VIII, 7</cite> <he>אמת … אא״כ עשו לה וכ׳</he> if a canal runs through a (private) court, you must not draw water out of it on the Sabbath, unless you made at its entrance and its exit a partition &c.; <he>כותל … תדון משום מ׳</he> the wall over the channel may serve as a legal partition. Ib. 8. ",
+				"<cite ref=\"Shabbat 101a:5\">Sabb. 101ᵃ</cite>, a. fr. <he>מ׳ תלויה</he> an overhanging <i>m’ḥitsah</i> (not connected with the ground). ",
+				"<cite ref=\"Eruvin 5a:2\">Erub. 5ᵃ</cite> <he>קורה משום מ׳</he> the beam (across an alley) serves as a legal fiction for a <i>m.</i> (as if its broadside were prolonged so as to form a partition), v. <cite ref=\"N00118\"><he>נְגַד</he></cite>; a. v. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>divided off space, compartment</i>; (for sacred law) <i>camp, precinct</i>, cmp. <cite ref=\"M00904\"><he>מַחֲנֶה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> <he>מְחִיצַת הכהנים</he> the camp of the priestly division. ",
+				"<cite ref=\"Makkot 20a:7\">Macc. 20ᵃ</cite>, a. e. <he>מ׳ לאכול</he> the limit (the area of Jerusalem) for consuming (the second tithes); <he>מ׳ לקלוט</he> the limit for protecting it (as having once entered the sacred precinct). ",
+				"<cite ref=\"Vayikra Rabbah 26:7\">Lev. R. s. 26</cite> <he>עמי במְחִיצָתִי</he> ‘with me’ (<cite ref=\"I Samuel 28:19\">I Sam. XXVIII, 19</cite>) in my division (in heaven). ",
+				"<cite ref=\"I Samuel 28:19\">Ib.</cite> <he>אין לי רשות ליכנס למְחִיצָתְךָ</he> I am not permitted to enter thy compartment. ",
+				"<cite ref=\"Bamidbar Rabbah 20:20\">Num. R. s. 20</cite> <he>מְחִיצָתָן</he> their compartment.—",
+				"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> (play on <he>חצים</he>, <cite ref=\"Genesis 49:23\">Gen. XLIX, 23</cite>) <he>בעלי מְחִיצָתוֹ</he> his camp-fellows (brothers); a. fr.—Pl. <he>מְחִיצוֹת</he>. ",
+				"<cite ref=\"Eruvin 89a:15\">Erub. 89ᵃ</cite> <he>במ׳ הניכרות</he> when the partitions (between one house and the other) are distinguishable on the roof. ",
+				"<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite> <he>נתנו חכמים מ׳</he> the scholars fixed camps (for sacred law); <cite ref=\"Sifrei Bamidbar 1:4\">Sifré Num. 1</cite> <he>מנו חכמים למ׳</he> (v. ",
+				"<cite ref=\"Mishnah Kelim 1:9\">Kel. I, 9</cite>); a. fr.—מְחִיצִין <i>laws concerning partitions for Sabbath purposes</i>, v. supra. ",
+				"<cite ref=\"Eruvin 4a\">Erub. 4ᵃ</cite>; <cite ref=\"Sukkah 5b\">Succ. 5ᵇ</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

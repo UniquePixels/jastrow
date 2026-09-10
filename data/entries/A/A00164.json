@@ -1,0 +1,23 @@
+{
+	"id": "A00164",
+	"slug": "אבלוסמוס",
+	"headword": {
+		"text": "אַבְלוּסְמוֹס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 7,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(Ar. ed. Koh. <cite ref=\"A00162\"><he>אבלומוס</he></cite>) (αὔλισμος) <i>night-lodging in open air</i>. <he>כלי א׳</he> <i>camping apparels</i> (leather covers etc.). ",
+			"units": [
+				"<cite ref=\"Zevachim 94a\">Zeb. 94ᵃ</cite> Ar. (ed. <cite ref=\"A01730\"><he>אַכְסִלְגְיָא</he></cite> q. v.)."
+			]
+		}
+	]
+}

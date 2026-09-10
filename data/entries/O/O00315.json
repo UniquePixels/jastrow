@@ -1,0 +1,22 @@
+{
+	"id": "O00315",
+	"slug": "סולאנא",
+	"headword": {
+		"text": "סוּלָאנָא"
+	},
+	"page": {
+		"number": 964,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00978\"><he>סְלֵי</he></cite>) <i>offal, dross</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:4\">Targ. Prov. XXV, 4</cite> (some ed. <cite ref=\"O00315\"><he>סוּלְאָנָא</he></cite>; h. text <cite ref=\"O00560\"><he>סִיגִים</he></cite>; v. <cite ref=\"O00312\"><he>סוּל</he></cite> ch.)."
+			]
+		}
+	]
+}

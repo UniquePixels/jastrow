@@ -1,0 +1,23 @@
+{
+	"id": "O00402",
+	"slug": "סופקנא",
+	"headword": {
+		"text": "סוּפְקָנָא"
+	},
+	"page": {
+		"number": 968,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00401\">preced.</cite>) <i>sufficiency</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:27\">Targ. Prov. XXVII, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:16\">Ib. XXV, 16</cite> <he>סוּפְקָנָךְ</he> (not <he>הופ׳</he>)."
+			]
+		}
+	]
+}

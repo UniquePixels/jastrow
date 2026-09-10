@@ -1,0 +1,41 @@
+{
+	"id": "M02882",
+	"slug": "משיכלא",
+	"headword": {
+		"text": "מְשִׁיכְלָא"
+	},
+	"page": {
+		"number": 852,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01158\"><he>שכל</he></cite>, Shaf. of <cite ref=\"K00259\"><he>כּוּל</he></cite>; cmp. <cite ref=\"M01379\"><he>מְכִילָא</he></cite>, <cite ref=\"M01379\"><he>מְכִילְתָּא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a wash-basin</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 77b:10\">Sabb. 77ᵇ</cite> (phonetic etymol.) <he>מ׳ מאשי כולא</he> ‘washing everybody’, contrad. to <cite ref=\"M02902\"><he>משכילתא</he></cite>: <he>משיא כלתא</he> ‘washing brides’ (distinguished people). ",
+				"<cite ref=\"Kiddushin 52b:2\">Kidd. 52ᵇ</cite>, v. <cite ref=\"M02866\"><he>מְשֵׁי</he></cite>.—Pl. <cite ref=\"M02882\"><he>מְשִׁיכְלֵי</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 39a:10\">Ab. Zar. 39ᵃ</cite> <he>מ׳ חיורי</he> white (glazed) basins. ",
+				"<cite ref=\"Bava Metzia 84b:1\">B. Mets. 84ᵇ</cite> <he>שיתין מ׳ דמא</he> sixty basin-fuls of blood. ",
+				"<cite ref=\"Moed Katan 18b:2\">M. Kat. 18ᵇ</cite> <he>מ׳ דמני וכ׳</he> (Ms. M. sing.) basins filled with linen garments (for rinsing in the lake). ",
+				"<cite ref=\"Gittin 69b:19\">Gitt. 69ᵇ</cite> bot.—Fem. form (<cite ref=\"M02902\"><he>מַשְׁכִּילְתָּא</he></cite>) <cite ref=\"M02882\"><he>מְשִׁיכְלְתָא</he></cite>. Sabb. l. c. <he>משיכ׳</he> Ms. M. (ed. <he>משכיל׳</he>), v. supra. ",
+				"<cite ref=\"Chullin 47b:9\">Ḥull. 47ᵇ</cite> <he>משיכותא דמיא וכ׳</he> (corr. acc.) a basin of tepid water. ",
+				"<cite ref=\"Avodah Zarah 51b:14\">Ab. Zar. 51ᵇ</cite> <he>דסחיפא ליה מ׳ ארישיה</he> (v. Rabb. D. S. a. l. note 8) the idolatrous statuary has an inverted washbasin on its head."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00714\"><he>כֶּלִי</he></cite>, <cite ref=\"M00048\"><he>מָאן</he></cite> as <i>vessel</i> and <i>garment</i>) <i>a sort of cloak</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite> (expl. <cite ref=\"U01467\"><he>שמיכה</he></cite>, <cite ref=\"Judges 4:18\">Jud. IV, 18</cite>) <he>רבנן … ורבנן דתמן אמרי במ׳</he> the rabbis here (in Palestine) say, it means with a <i>sudra</i> (<cite ref=\"O00265\"><he>סוּדְרָא</he></cite>), while the Babylonian rabbis say <i>m’shikhla</i>; <cite ref=\"Yalkut Shimoni on Nach 44:1\">Yalk. Jud. 44</cite>; <cite ref=\"Yalkut Shimoni on Torah 585\">Yalk. Lev. 585</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

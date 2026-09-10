@@ -1,0 +1,24 @@
+{
+	"id": "A01751",
+	"slug": "אכרוב",
+	"headword": {
+		"text": "אַכְרוּב"
+	},
+	"page": {
+		"number": 65,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"K01101\"><he>כְּרוּב</he></cite> q. v.) <i>cabbage</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:1:11\">Y. Sabb. III, 5ᵈ</cite> top. ",
+				"<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:4\">Y. Bets. V, 63ᵃ</cite> <he>קולסי א׳</he> cabbage heads."
+			]
+		}
+	]
+}

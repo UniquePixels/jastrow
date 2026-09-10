@@ -1,0 +1,28 @@
+{
+	"id": "N00364",
+	"slug": "נולו",
+	"headword": {
+		"text": "נְוָלוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְוָלִי"
+		}
+	],
+	"page": {
+		"number": 887,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נְוַול</he> I) <i>offensiveness; dunghill, cesspool</i>. ",
+			"units": [
+				"<cite ref=\"Ezra 6:11\">Ezra VI, 11</cite>. ",
+				"<cite ref=\"Daniel 2:5\">Dan. II, 5</cite>."
+			]
+		}
+	]
+}

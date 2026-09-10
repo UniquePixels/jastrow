@@ -1,0 +1,32 @@
+{
+	"id": "A00877",
+	"slug": "אוריא-2",
+	"headword": {
+		"text": "אוּרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּרְיָה",
+			"homograph": 1
+		},
+		{
+			"text": "אוּרִית"
+		}
+	],
+	"page": {
+		"number": 33,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A00841\"><he>אוֹר</he></cite> a. <cite ref=\"A00913\"><he>אוּרְתָּא</he></cite>) <i>evening horizon, Sun-set, West</i>, v. <cite ref=\"M02168\"><he>מערבא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 25a:11\">B. Bath. 25ᵃ</cite> <he>אוריה מאי</he> ed. (Ar. <he>אוריא</he>) why is it called <i>Urya</i>? <he>אויר יה</he> (Var. <cite ref=\"A00841\"><he>אור</he></cite>) divine air (divine light = Palestine). ",
+				"<cite ref=\"Kiddushin 12b\">Kidd. 12ᵇ</cite> <he>איכא סהדי באוריא הא</he> Ar. (ed. <he>אידית</he>, emend. in Tossaf. <he>אורית</he>), [read with <he>ב״ח</he>: <he>הא אמרי איכא וכ׳</he>] but people say, there are witnesses in the West &c. Cmp. <cite ref=\"A02578\"><he>אֶסְתָּן</he></cite>."
+			]
+		}
+	]
+}

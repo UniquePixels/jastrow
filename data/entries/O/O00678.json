@@ -1,0 +1,25 @@
+{
+	"id": "O00678",
+	"slug": "סילתא-2",
+	"headword": {
+		"text": "סִילְּתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 980,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"O00948\"><he>סַל</he></cite>) <i>bread-basket</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 74a\">B. Bath. 74ᵃ</cite> [read:] <he>שקליתה לסִילְּתָאִי וכ׳</he> I took off my basket with provision &c. ",
+				"<cite ref=\"Avodah Zarah 38a\">Ab. Zar. 38ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 111b:12\">Pes. 111ᵇ</cite> (prov.) <he>תלא סִילְּתֵיה תלא מזוניה</he> (ed. <cite ref=\"O00678\"><he>סילתא</he></cite>, v. Rabb. D. S. a. l. note 90) he who suspends his bread-basket (in the air), suspends his sustenance (brings poverty into the house)."
+			]
+		}
+	]
+}

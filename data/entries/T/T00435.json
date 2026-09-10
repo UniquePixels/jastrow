@@ -1,0 +1,23 @@
+{
+	"id": "T00435",
+	"slug": "רוקבא-1",
+	"headword": {
+		"text": "רוּקְבָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1463,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01008\"><he>רְקב</he></cite>) <i>decay; moth</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 51:8\">Targ. Is. LI, 8</cite> (ed. Wil. <cite ref=\"T00437\"><he>רוּקְבָא</he></cite>; h. text <cite ref=\"O01270\"><he>סס</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "U01619",
+	"slug": "שסי-2",
+	"headword": {
+		"text": "שְׁסֵי"
+	},
+	"page": {
+		"number": 1608,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>שַׁסֵּי</he> <cite ref=\"U01618\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 24b:6\">B. Kam. 24ᵇ</cite> <he>כיין … דמְשַׁסֵּי ליה ומִשְׁתַּסֵּי וכ׳</he> (Ms. R. <he>דמְשַׁסּוּ</he>) since thou knowest of thy dog, that one can set him on and he will bite, thou oughtest not to have kept him."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּסֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be set on, to bite</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

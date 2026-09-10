@@ -1,0 +1,35 @@
+{
+	"id": "N00786",
+	"slug": "ניר-5",
+	"headword": {
+		"text": "נִיר",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "נִירָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 909,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"N00785\">preced.</cite> wds.; Assyr. <i>nîru</i>) <i>yoke; servitude</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 21:3\">Targ. Deut. XXI, 3</cite>. ",
+				"<cite ref=\"Onkelos Numbers 19:2\">Targ. Num. XIX, 2</cite>.—",
+				"<cite ref=\"Targum Jonathan on Jeremiah 27:8\">Targ. Jer. XXVII, 8</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:4:5\">Y. Sabb. V, end, 7ᶜ</cite>; Bab. ",
+				"<cite ref=\"Shabbat 54b:15\">Sabb. 54ᵇ</cite>, v. <cite ref=\"C00739\"><he>גִּימוֹן</he></cite>.—Pl. <he>נִירִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 27:2\">Targ. Jer. XXVII, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 28:13\">Ib. XXVIII, 13</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "P00740",
+	"slug": "עכן-1",
+	"headword": {
+		"text": "עָכַן"
+	},
+	"page": {
+		"number": 1079,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>עכב</he>) <i>to be curved, curled</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִיכֵּן"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"P00571\"><he>עִילָה</he></cite>, <cite ref=\"O00529\"><he>סִיבָּה</he></cite> end) <i>to bring about, to cause</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 44b:9\">Snh. 44ᵇ</cite> (play on <cite ref=\"P00741\"><he>עָכָן</he></cite>, <cite ref=\"Joshua 7:24\">Josh. VII, 24</cite>) <he>זמרי … שעי׳ עוונותיהם וכ׳</he> his name was Zimri (<cite ref=\"I Chronicles 2:6\">I Chr. II, 6</cite>), but he was named ʿAkhan (Circle), because he caused the punishment of Israel’s sins."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

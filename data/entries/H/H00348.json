@@ -1,0 +1,31 @@
+{
+	"id": "H00348",
+	"slug": "חוליא-2",
+	"headword": {
+		"text": "חוּלְיָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּלְיָיא"
+		}
+	],
+	"page": {
+		"number": 434,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"H01030\"><he>חָלֵי</he></cite>) <i>something sweet, sweetness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 14:14\">Targ. Jud. XIV, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 9:11\">Ib. IX, 11</cite>.—",
+				"<cite ref=\"Megillah 7b:3\">Meg. 7ᵇ</cite> <he>אנא שדרי ליה ח׳</he> I sent him something sweet. ",
+				"<cite ref=\"Pesachim 115b:2\">Pes. 115ᵇ</cite> <he>אגב חוּלְיָיהּ</he> Rashb. (ed. <he>חלייה דתבלין</he>, read: <cite ref=\"H00347\"><he>חוליא</he></cite>, v. Rabb. D. S. a. l. note 60) on account of the sweetness in it &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"id": "S01726",
+	"slug": "קפח-2",
+	"headword": {
+		"text": "קְפַח"
+	},
+	"page": {
+		"number": 1399,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01725\">same</cite>, <i>to force, overwhelm; to rob</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 7:1\">Targ. Hos. VII, 1</cite> <he>קָפְחִין</he> (not <he>קַפָּחִין</he>).—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 20:5:2\">Y. Sabb. XX, end, 17ᵈ</cite> <he>קְפוֹחַ קְפִיחָה</he> rob him that has been robbed (v. <cite ref=\"R00623\"><he>צְנִינִים</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַפֵּחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01725\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Yoma 83b:11\">Yoma 83ᵇ</cite> <he>קַפְּחֵיה לרועה וכ׳</he> he overpowered the shepherd and ate his bread. ",
+						"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite>, beg. <he>שרי מְקַפֵּחַ ביה</he> began to rob him. ",
+						"<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite> <he>הא … קום קַפְּחִינָהּ</he> the she-bear is before thee, rise and overpower her, i.e. here is a temptation, conquer it. ",
+						"<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite> <he>לסטין אתאן למְקַפְּחָא יתי</he> robbers are coming to rob me. ",
+						"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite> <he>קַפְּחֵיה ונסב וכ׳</he> he overpowered him and took all he had. ",
+						"<cite ref=\"Vayikra Rabbah 30:6\">Ib.</cite> <he>הב … דקַפַּחְתַּנִי</he> give me back what thou hast robbed me of. ",
+						"<cite ref=\"Vayikra Rabbah 30:6\">Ib.</cite> <he>מן כל מה דקַפְּחִית וכ׳</he> of all I forced (out of thee) and of all I took, this man has (I have) nothing left except this rug. ",
+						"<cite ref=\"Kohelet Rabbah 7:26\">Koh. R. to VII, 26</cite> <he>והוא נפיק ומקפח בליליא</he> and he used to go out by night for robbery; a. fr.—",
+						"<cite ref=\"Gittin 29b:12\">Gitt. 29ᵇ</cite> <he>קַפְּחִינְהוּ רב ספרא וכ׳</he> R. Safra got the better of three ordained rabbis; <he>קפחינהו … בטעותא</he> R. S. got the better of …, by showing them their mistake."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיקְּפַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be overpowered, robbed</i>. Y. Ter. VIII, 46ᵇ bot. [read:] <he>ר׳ יוחנן א׳ בעלי וכ׳</he>, v. <cite ref=\"S01585\"><he>קַנְיָיה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>אִיקַּפְחִית וכ׳</he> (not <he>איקפחת</he>) I have been robbed &c."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

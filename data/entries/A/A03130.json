@@ -1,0 +1,24 @@
+{
+	"id": "A03130",
+	"slug": "ארכא-3",
+	"headword": {
+		"text": "אַרְכָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 121,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <cite ref=\"A03028\"><he>אֲרוּכָה</he></cite>) <i>healing, restoration</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 24:13\">Targ. II Chr. XXIV, 13</cite>.—Pl. (<he>אֲרוּכִין</he>) <he>אַרְכִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 147:3\">Targ. Ps. CXLVII, 3</cite> (ed. Vien. <cite ref=\"A03129\"><he>ארכא</he></cite>)."
+			]
+		}
+	]
+}

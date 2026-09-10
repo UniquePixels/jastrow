@@ -1,0 +1,45 @@
+{
+	"id": "O01263",
+	"slug": "סנקליטוס",
+	"headword": {
+		"text": "סִנְקְלִיטוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִינְ׳"
+		},
+		{
+			"text": "סוּנְ׳"
+		}
+	],
+	"page": {
+		"number": 1008,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (σύγκλητος) ",
+			"units": []
+		},
+		{
+			"gloss": " (= <he>סנקליטיקוס</he>) <i>senator, councilor, counselor</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 46:4\">Ex. R. s. 46</cite>.—Pl. <he>סִנְקְלִיטִים</he>, <cite ref=\"O01262\"><he>סִנְקְלִיטִין</he></cite>. Pesik. Zutr. Haăz. (ed. Bub. p. 113) (ref. to <he>עתודים</he>, <cite ref=\"Deuteronomy 32:14\">Deut. XXXII, 14</cite>) <he>אלו ס׳ שלהם</he> that means their (the Roman) senators (sent to the provinces); (<cite ref=\"Sifrei Devarim 317\">Sifré Deut. 317</cite> <cite ref=\"O01261\"><he>סנקנירקים</he></cite>, Var. <cite ref=\"O01261\"><he>סנקירקים</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 944\">Yalk. ib. 944</cite> <he>סרקני דקין</he>). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:12\">Y. Ber. IX, 13ᵈ</cite> <he>חילף את כל ס׳ שלו</he> he changed all his councilors; <cite ref=\"Jerusalem Talmud Sanhedrin 11:5:7\">Y. Snh. XI, 30ᶜ</cite> top (some ed. <cite ref=\"O01262\"><he>סנקליטון</he></cite>, v. infra). ",
+				"<cite ref=\"Vayikra Rabbah 13:5\">Lev. R. s. 13</cite> <he>גחין ואמר לסִנְקְלִיטָין וכ׳</he> he bent down and said to his assessors, these three things (for which I put to death three persons) did I do in one night; <cite ref=\"Midrash Tehillim 80:6\">Midr. Till. to Ps. LXXX</cite> <he>לסִנְקְלִיט שלו</he> (sing.; ed. Bub. <cite ref=\"O01260\"><he>סנקוטס</he></cite>, oth. ed. <he>טוקלוס</he>, <cite ref=\"O01262\"><he>סנקלוס</he></cite>; corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 8:3\">Gen. R. s. 8</cite> <he>מלך שהיו לו שני ס׳ וכ׳</he> a king that had two counselors, without whose consent he did nothing; <cite ref=\"Yalkut Shimoni on Torah 13:3\">Yalk. ib. 13</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " mostly <cite ref=\"O01262\"><he>סִנְקְלִיטוֹן</he></cite> (ἡ σύγκλητος, accus.) <i>senate</i>, <i>assembly</i>. Y. Snh. l. c.; Y. Ber. l. c., v. supra. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 6\">Deut. R. s. 6</cite> <he>תיקרי אומן של סנקליטור</he> (read: <he>אִימָּן של סנקליטון</he>) let her be called the mother of the senate.—[<cite ref=\"Pirkei DeRabbi Eliezer 48\">Pirké d’R. El. ch. XLVIII</cite>, <he>סנקלטורי פרעה</he>, <he>סנקליט׳</he>, read with <cite ref=\"Yalkut Shimoni on Torah 169:6\">Yalk. Ex. 169</cite> <he>ספקלטורי</he>, v. <cite ref=\"O01411\"><he>סְפִקְלָטוֹר</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

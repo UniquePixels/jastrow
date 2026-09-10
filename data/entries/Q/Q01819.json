@@ -1,0 +1,24 @@
+{
+	"id": "Q01819",
+	"slug": "פריע-2",
+	"headword": {
+		"text": "פְּרִיעַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1227,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פְּרַע</he> II) <i>speed</i>; <he>בפ׳</he> <i>quickly</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite> (transl. <he>סרו מהר</he>, <cite ref=\"Exodus 32:8\">Ex. XXXII, 8</cite>) <he>סטו בפ׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:7\">Y. Kidd. I, 59ᵃ</cite> bot. <he>אינשמת בפ׳</he> you might have recovered quickly. M’norath Hammaor, ed. Stettin, Nr. 9 quot. fr. Kallah, <he>אמאי לא תיתי בפ׳</he> why dost thou not come quickly?"
+			]
+		}
+	]
+}

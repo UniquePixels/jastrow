@@ -1,0 +1,43 @@
+{
+	"id": "V00054",
+	"slug": "תבל-5",
+	"headword": {
+		"text": "תֶּבֶל"
+	},
+	"page": {
+		"number": 1644,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00880\"><he>בָּלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mixture, spice, seasoning</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Orlah 1:3:13\">Y. Orl. I, 61ᵇ</cite> top <he>אין ת׳ ביותר וכ׳</he> spices have no seasoning effect in a mixture larger than two hundred times their quantity. ",
+				"<cite ref=\"Mishnah Arakhin 2:6\">Arakh. II, 6</cite> <he>כדי ליתן ת׳ בנעימה</he> in order to put spice (sweetness) in the melody (to raise the effect of the melody through the accompaniment of young voices). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 943:7\">Yalk. Prov. 943</cite> (ref. to <cite ref=\"V00052\"><he>תֵּבֵל</he></cite>, <cite ref=\"Proverbs 8:31\">Prov. VIII, 31</cite>) Palestine is called <i>tebel</i> <he>על שם ת׳ שבתוכה וכ׳</he> for the spice which is in it, and what is this? The Law; <cite ref=\"Sifrei Devarim 37:7\">Sifré Deut. 37</cite> <he>תבלין</he>, v. infra.—Pl. <he>תְּבָלִין</he>, (tradit. pronunc.) <he>תַּבְלִין</he>. ",
+				"<cite ref=\"Mishnah Orlah 2:10\">Orl. II, 10</cite> <he>ת׳ שנים וכ׳</he> spices of two or three different legal categories, of one kind or of three. ",
+				"<cite ref=\"Mishnah Orlah 2:15\">Ib. 15</cite>, v. <cite ref=\"V00050\"><he>תָּבַל</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 2:7\">Kel. II, 7</cite>, a. e. <he>בית ת׳</he> spice box. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:3:3\">Y. Pes. X, 37ᵈ</cite> top <he>תַּבְלֵי מצוה</he>; Bab. ",
+				"<cite ref=\"Pesachim 116a:13\">Pes. 116ᵃ</cite> <he>תֹבלין למצוה</he> spices for the Passover ceremony (<cite ref=\"H01630\"><he>חֲרוֹסֶת</he></cite>); a. fr.—Also used as sing. ",
+				"<cite ref=\"Shabbat 119a:7\">Sabb. 119ᵃ</cite> <he>ת׳ אחד יש לנו וכ׳</he> we have a certain spice the name of which is Sabbath &c. ",
+				"<cite ref=\"Bava Batra 16a:19\">B. Bath. 16ᵃ</cite> <he>הקב״ה … תורה ת׳</he> the Lord created the evil inclination (in man), and he created the Law with which to season (temper) it; <cite ref=\"Kiddushin 30b:8\">Kidd. 30ᵇ</cite>. ",
+				"<cite ref=\"Sifrei Devarim 37:17\">Sifré Deut. 37</cite>, v. supra; a. e.—",
+				"<cite ref=\"Nedarim 51a:4\">Ned. 51ᵃ</cite> (play on <he>תבל</he>, <cite ref=\"Leviticus 18:23\">Lev. XVIII, 23</cite>) <he>ת׳ הוא ת׳ יש בה וכ׳</he> is it a spice? is there any spice (additional gratification) in it? &c.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b.  h.) <i>confusion, unnatural act, defilement</i>, v. supra, a. <cite ref=\"V00050\"><he>תָּבַל</he></cite>.]—[<cite ref=\"Jerusalem Talmud Shevuot 3:4:2\">Y. Shebu. III, 34ᶜ</cite> top <he>מן התבל</he>, read: <he>הטֶבֶל</he>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

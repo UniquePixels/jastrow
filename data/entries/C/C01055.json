@@ -1,0 +1,40 @@
+{
+	"id": "C01055",
+	"slug": "גמם-2",
+	"headword": {
+		"text": "גְּמַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּם"
+		}
+	],
+	"page": {
+		"number": 254,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01054\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:3:3\">Y. Kil. II, 27ᵈ</cite> <he>גָּם כרמייא</he> razed his vineyards. ",
+				"<cite ref=\"Chullin 50a:5\">Ḥull. 50ᵃ</cite> <he>גּוֹם שדי</he> peel it off and throw it away. ",
+				"<cite ref=\"Chullin 92b:14\">Ib. 92ᵇ</cite> <he>גָּאִים ליה</he> ed. (Ar. <cite ref=\"C00706\"><he>גיים</he></cite>) peeled it off (on the surface, opp. <he>מרטט</he>). Ib. 96ᵃ"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיגּוֹם"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"C01054\">preced.</cite> Nif. Ib. 44ᵃ <he>אִיגּוֹם אִיגּוּמֵי וכ׳</he> the chin was razed, detached without laceration from the neck, opp. <he>איעקור</he> forcibly torn off. ",
+					"units": [
+						"<cite ref=\"Bekhorot 44a:15\">Bekh. 44ᵃ</cite> <he>אִיגּוּם איגומי</he> the horns are levelled (not projecting), opp. <he>איעקור</he> uprooted."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "D00169",
+	"slug": "דואר-3",
+	"headword": {
+		"text": "דַּוָּאר",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 282,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"D00168\">preced.</cite>) <i>davvar</i>, a species of lizard. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15\">Ex. R. s. 15</cite> end [prob. to be read <cite ref=\"P01320\"><he>עָרוֹד</he></cite>, v. ",
+				"<cite ref=\"Chullin 127a\">Ḥull. 127ᵃ</cite>, or <cite ref=\"H00273\"><he>חֲוַורְבָּר</he></cite>, v. Sifra Sh’mini ch. VI, Par. 5]."
+			]
+		}
+	]
+}

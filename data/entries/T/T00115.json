@@ -1,0 +1,23 @@
+{
+	"id": "T00115",
+	"slug": "רביתא-3",
+	"headword": {
+		"text": "רְבִיתָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1443,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רְבֵי</he> II) <i>lying, natural position, overlapping</i>. Ḥall. 46ᵇ bot. <he>היינו רְבִיתַיְיהוּ</he> such is their natural position (and an adhesion is not necessarily the result of a wound, v. Tosaf. a. l.; v. <cite ref=\"T00114\">preced.</cite>).—",
+			"units": [
+				"<cite ref=\"Yevamot 76a:1\">Yeb. 76ᵃ</cite> <he>שלא במקום רבותא</he> Ar. (missing in ed., obviously a gloss ref. to Ḥull. l. c.) not where the lungs overlap."
+			]
+		}
+	]
+}

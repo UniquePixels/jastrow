@@ -1,0 +1,36 @@
+{
+	"id": "B00537",
+	"slug": "ביא",
+	"headword": {
+		"text": "בִּיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיָיא"
+		},
+		{
+			"text": "בִּיָּה"
+		},
+		{
+			"text": "בִּיָיה"
+		},
+		{
+			"text": "בִּיאָה"
+		}
+	],
+	"page": {
+		"number": 158,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (via, late Gr. βία) <i>highway, road</i>. [As regards the import, in the Roman government, of the office of commissioner on highways, v. Sm. Ant. s. v. Via.] <cite ref=\"Jerusalem Talmud Chagigah 2:1:13\">Y. Ḥag. II, 77ᶜ</cite> bot.; <cite ref=\"Midrash Tehillim 114:1\">Midr. Till. to Ps. CXIV</cite>, beg.; <cite ref=\"Yalkut Shimoni on Nach 794:1\">Yalk. ib. 794</cite>; <cite ref=\"Bereishit Rabbah 12:10\">Gen. R. s. 12</cite> (corr. vers. by comparison) <he>אין לך</he> (<he>מקום ומקום</he>) <he>מדינה ומדינה שאין</he> (<he>לו</he>) <cite ref=\"O01410\"><he>לה</he></cite> (<cite ref=\"A01615\"><he>איש</he></cite>) <he>אדם ממונה על ב׳ שלו</he> there is not a district (place) which has not an officer appointed over its highways; v. <cite ref=\"A00251\"><he>אגדיקוס</he></cite> a. <cite ref=\"A02098\"><he>אנגיטוס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12:10\">Ib.</cite> do not read <he>בְּיָהּ  שמו</he> but <he>בִּיָיה שמו</he> (Y. l. c. <he>כי יה</he> corr. acc.) (the overseer of) <i>via</i> (the maintenance of the world’s roads) in His name; cmp. <cite ref=\"M02394\"><he>מָקוֹם</he></cite>. [For βία <i>force</i>, v. <cite ref=\"B00589\"><he>בִּיָיא</he> II</cite>.]"
+			]
+		}
+	]
+}

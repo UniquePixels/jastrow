@@ -1,0 +1,42 @@
+{
+	"id": "M01456",
+	"slug": "מכתש-2",
+	"headword": {
+		"text": "מַכְתַּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַכְתָּשָׁא"
+		}
+	],
+	"page": {
+		"number": 785,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01392\"><he>כְּתַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wound, plague, affliction</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 11:1\">Targ. Ex. XI, 1</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:29\">Targ. Lev. XIII, 29</cite>; a. fr.—[<cite ref=\"Targum Jonathan on Genesis 12:19\">Targ. Y. Gen. XII, 19</cite> <i>fem.</i>]—Pl. <he>מַכְתָּשִׁין</he>, <he>מַכְתְּ׳</he>. ",
+				"<cite ref=\"Onkelos Genesis 12:17\">Targ. Gen. XII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 89:33\">Targ. Ps. LXXXIX, 33</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>pounding</i>.—Pl. <cite ref=\"M01456\"><he>מַכְתָּשֵׁי</he></cite>, <he>מַכְתְּ׳</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:22\">Targ. Prov. XXVII, 22</cite>, combining massoretic vers. with one from which LXX. a. Pesh. are translated, v. <cite ref=\"A00855\"><he>אוּרְדָּךְ</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

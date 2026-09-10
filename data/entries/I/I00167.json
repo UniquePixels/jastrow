@@ -1,0 +1,31 @@
+{
+	"id": "I00167",
+	"slug": "טולמא-1",
+	"headword": {
+		"text": "טוּלְמָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "טוּלְמְתָא"
+		}
+	],
+	"page": {
+		"number": 524,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. (<cite ref=\"I00512\"><he>טְלַם</he></cite>) <he>טוּלְמת</he> [<i>panis aqueus ac mollis</i>, P. Sm. 1477] <i>cake, loaf</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:17\">Targ. Job. XXXI, 17</cite> <he>ט׳ דלחמי</he> Ms. (ed. only <he>טולמי</he>); a. e.—",
+				"<cite ref=\"Aramaic Targum to Esther 3:2\">Targ. Esth. III, 2</cite> <he>ט׳ דלחם</he> ed. Lag.; Yalk. ib. 105ᵇ <he>ט׳ דנהמא</he>.—[Y. Snh. II, 20ᶜ bot. <he>מנהם טלמא</he>, v. <cite ref=\"I00514\"><he>טַלְמָיָא</he></cite>.]—Pl. <he>טוּלְמִין</he>, <he>טוּלְמֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 14:3\">Targ. I Kings XIV, 3</cite>; a. e.—",
+				"<cite ref=\"Megillah 15b\">Meg. 15ᵇ</cite> <he>בטולמי דנהמא</he> Ms. M. 2 (ed. only <he>בטַלְמֵי</he>) for loaves of bread. [Ar. s. v. <cite ref=\"G00392\"><he>זיף</he></cite> quotes, in Hebr. diction, (play on <cite ref=\"Joshua 15:24\">Josh. XV, 24</cite>) <he>כל המוזיף טולמיין וכ׳</he> ed. Koh. (oth. ed. <he>טולמין</he>, <he>טולמון</he>) he who lends bread to the poor, will be raised.]"
+			]
+		}
+	]
+}

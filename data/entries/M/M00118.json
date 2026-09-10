@@ -1,0 +1,28 @@
+{
+	"id": "M00118",
+	"slug": "מגדא-2",
+	"headword": {
+		"text": "מִגְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיגְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 726,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00118\"><he>נְגַד</he></cite>), constr. <cite ref=\"M00126\"><he>מִגְדַּת</he></cite>, <i>guidance, leading string</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 11:4\">Targ. Hos. XI, 4</cite> (ed. Wil. <cite ref=\"M00229\"><he>מגרת</he></cite>); cmp. <cite ref=\"V00415\"><he>תִּיגְדָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "H00447",
+	"slug": "חור-5",
+	"headword": {
+		"text": "חוֹר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּר",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 439,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00446\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hole, cavity</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 8a:7\">Pes. 8ᵃ</cite> <he>ח׳ שבין אדם לחבירו</he> a cave between two residences of neighbors.—",
+				"<cite ref=\"Shabbat 52b:15\">Sabb. 52ᵇ</cite> <he>מחט שניטל חוּרָהּ</he> (Ms. M. <he>חוּדְדָהּ</he>, Ms. O. <cite ref=\"H01775\"><he>חֲרָרָהּ</he></cite>, some ed. <he>חוּדָּהּ</he>) a needle whose eye is broken off; <cite ref=\"Shabbat 123a\">ib. 123ᵃ</cite> <cite ref=\"H01775\"><he>חֲרָרָהּ</he></cite> (Ms. M. <he>חוּדָּהּ</he>); <cite ref=\"Mishnah Kelim 13:5\">Kel. XIII, 5</cite> <he>חֲרִירָהּ</he>; <cite ref=\"Tosefta Keilim Metsia 3:9\">Tosef. Kel. B. Mets. III, 9</cite> <he>חודה</he>.—Pl. <cite ref=\"H01573\"><he>חוֹרִין</he></cite>. Pes. l. c. Ib. <he>חוֹרֵי בית וכ׳</he> the upper and the lower holes in the wall; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ant’s store</i>, v. <cite ref=\"H00481\"><he>חוֹרָר</he></cite>. [Pesik. Shor p. 74ᵇ <he>חורין דדהב</he>, v. <cite ref=\"H00517\"><he>חַזּוּר</he></cite>.] [<cite ref=\"Jerusalem Talmud Maasrot 5:3:7\">Y. Maasr. V, end, 52ᵃ</cite> <he>חור אחד</he>, v. <cite ref=\"G00234\"><he>זוּר</he> II</cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

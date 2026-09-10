@@ -1,0 +1,42 @@
+{
+	"id": "L00413",
+	"slug": "ליבון-1",
+	"headword": {
+		"text": "לִיבּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִבּ׳"
+		}
+	],
+	"page": {
+		"number": 706,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>לָבַן</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>whitening, cleansing</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 93b:10\">B. Kam. 93ᵇ</cite> <he>ול׳ מי הוי שינוי</he> is whitening (the stolen wool) a change (by which the right of paying an indemnity instead of restoring the object is acquired)? Y. ib. IX, beg. 6ᵈ; a. e.—Pl. <he>לִיבּוּנִים</he>, <cite ref=\"L00413\"><he>לִבּ׳</he></cite>; <he>יְמֵי ל׳</he> <i>the days after menstruation during which white garments are worn</i> while marital contact is still prohibited. ",
+				"<cite ref=\"Shabbat 13b:1\">Sabb. 13ᵇ</cite> <he>בימי לִבּוּנַיִךְ וכ׳</he> how did he behave towards thee in thy days of white garments?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>heating, glowing</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 34a:7\">Bets. 34ᵃ</cite> <he>משום ל׳ רעפים</he> because it resembles the act of heating (new) tiles, v. <cite ref=\"L00094\"><he>לָבַן</he></cite>.—",
+				"<cite ref=\"Chullin 8a\">Ḥull. 8ᵃ</cite>, v. <cite ref=\"H00664\"><he>חִידּוּד</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:15:4\">Y. Ab. Zar. V, end, 45ᵇ</cite> <he>צריכה ל׳</he> (not <he>ליבין</he>) requires purification by fire (<cite ref=\"Numbers 31:23\">Num. XXXI, 23</cite>); <he>והל׳ צריך וכ׳</he> and the heating must be such as to make sparks come forth &c.; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

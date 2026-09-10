@@ -1,0 +1,32 @@
+{
+	"id": "T01029",
+	"slug": "רקח-1",
+	"headword": {
+		"text": "רָקַח"
+	},
+	"page": {
+		"number": 1496,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to pound</i> spices; <i>to spice, perfume</i>.—Part. <cite ref=\"T00438\"><he>רוֹקֵחַ</he></cite> <i>druggist, apothecary</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite>, v. <cite ref=\"O01049\"><he>סַם</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 10:1\">Koh. R. to X, 1</cite>, v. <cite ref=\"N00101\"><he>נָבע</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִקֵּחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01028\">same</cite>. Gen. R. l. c. Y. Bets. I, 60ᵈ <he>חייב משם מְרַקֵּהַ</he> (not <cite ref=\"M02771\"><he>מרקיה</he></cite>, <cite ref=\"M02763\"><he>מרקה</he></cite>) is guilty because it comes under the category of doing apothecary’s work.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

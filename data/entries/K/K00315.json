@@ -1,0 +1,22 @@
+{
+	"id": "K00315",
+	"slug": "כוס-2",
+	"headword": {
+		"text": "כּוֹס",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 623,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כסס</he>, v. <cite ref=\"K00578\"><he>כֵּיסָא</he></cite>) <i>thorn</i>.—Pl. <he>כּוֹסִים</he>. Pesik. B’shall. p. 92ᵃ (<cite ref=\"Jerusalem Talmud Maasrot 3:4:5\">Y. Maasr. III, 50ᵈ</cite> bot. <he>קוצין</he>), v. <cite ref=\"K00913\"><he>כָּסַח</he></cite>.",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "U01885",
+	"slug": "שקץ-1",
+	"headword": {
+		"text": "שָׁקַץ"
+	},
+	"page": {
+		"number": 1625,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"S00529\"><he>קוּץ</he></cite>) <i>to loathe</i>.—Denom. <cite ref=\"U01887\"><he>שֶׁקֶץ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיקֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to abominate, detest, make abominable</i>. ",
+					"units": [
+						"<cite ref=\"Makkot 16b\">Macc. 16ᵇ</cite>, a. e. <he>עובר משום לא תְשַׁקְּציּ</he> transgresses the law, ‘ye shall not make yourselves abominable’ (<cite ref=\"Leviticus 20:25\">Lev. XX, 25</cite>).—Part. pass. <cite ref=\"M02840\"><he>מְשׁוּקָּץ</he></cite>. ",
+						"<cite ref=\"Yevamot 63b:9\">Yeb. 63ᵇ</cite> <he>שאין לך מש׳ ומתועב וכ׳</he> for none is more detested and abhorred before the Lord than he that walks naked &c. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:9\">Cant. R. to I, 9</cite> (ref. to <cite ref=\"Psalms 106:20\">Ps. CVI, 20</cite>) <he>אין לך מנוול ומש׳ וכ׳</he> nothing is so repulsive and disgusting as a grass-eating ox; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּקֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to become loathsome, abominable</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>והיו מִשְׁתַּקְּצוֹת וכ׳</he>, v. <cite ref=\"P00393\"><he>עָזַב</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

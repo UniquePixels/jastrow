@@ -1,0 +1,105 @@
+{
+	"id": "N00555",
+	"slug": "נטי-1",
+	"headword": {
+		"text": "נטי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָטָה"
+		}
+	],
+	"page": {
+		"number": 898,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"N00575\"><he>נָטַע</he></cite>) <i>to stretch; to pitch</i> a tent. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 67:1\">Yalk. Gen. 67</cite> <he>בתחלה נ׳ אהלה וכ׳</he> (<cite ref=\"Bereishit Rabbah 39:15\">Gen. R. s. 39</cite> <he>נטע</he>) first he pitched Sarah’s tent &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to hang over, incline; to decline</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 2:7\">Macc. II, 7</cite> <he>ונופו נוֹטֶה</he>, v. <cite ref=\"N00390\"><he>נוֹף</he> II</cite>; <cite ref=\"Kiddushin 40b\">Kidd. 40ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Nedarim 4:5\">Ned. IV, 5</cite>, a. e. <he>הנוֹטוֹת</he> overhanging fruit. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:16\">Y. M. Kat. III, 82ᵃ</cite> <he>בנוֹטוֹת</he> when one’s mustache hangs over the mouth.—",
+				"<cite ref=\"Sanhedrin 6b:12\">Snh. 6ᵇ</cite> <he>להיכן הדין נוטה</he> which way the judgment will incline (in whose favor the verdict will be). ",
+				"<cite ref=\"Sanhedrin 3b:6\">Ib. 3ᵇ</cite> (ref. to <cite ref=\"Exodus 23:2\">Ex. XXIII, 2</cite>) <he>עשה לך בית דין נוטה</he> arrange for thyself a court which can lean towards one side, i.e. of uneven numbers. ",
+				"<cite ref=\"Bereishit Rabbah 96\">Gen. R. s. 96</cite>, a. fr. <he>נ׳ למות</he> one inclines towards dying, feels death approaching; a. v. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to bend, pervert judgment</i>. Mekh. Mishp. s. 20 <he>שמא תאמר … ואיני נוטה את הדין</he> lest you say, I will take a bribe but will not pervert the law.—<i>Part. pass.</i> <he>נָטוּי</he>; f. <cite ref=\"N00545\"><he>נְטוּיָה</he></cite>; pl. <he>נְטוּיִים</he>, <he>נְטוּיִין</he>; <he>נְטוּיוֹת</he> ",
+			"units": [],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>hanging over, threatening, inclining</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 109a:13\">Snh. 109ᵃ</cite> <he>קיר נ׳</he> a threatening wall; <cite ref=\"Rosh Hashanah 16b:5\">R. Hash. 16ᵇ</cite>; a. e.—",
+						"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite> <he>נ׳ למות</he>, v. supra.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>spread; pitched</i>. Ohol. VII, 2. Tosef. ib. VIII, 2; a. e.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִיטָּה"],
+			"senses": [
+				{
+					"gloss": " (neut. verb) <i>to incline</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 59b:3\">B. Mets. 59ᵇ</cite> <he>הִיטּוּ כותלי וכ׳</he> the walls of the school-house bowed (threatening to fall). ",
+						"<cite ref=\"Bava Metzia 59b:3\">Ib.</cite> <he>ועדיין מַטִּין ועומדין</he> and so they still stand bending over. ",
+						"<cite ref=\"Berakhot 11a:15\">Ber. 11ᵃ</cite> <he>הִטֵּתִי</he>, v. <cite ref=\"G00649\"><he>זָקַף</he></cite>. ",
+						"<cite ref=\"Ketubot 84b\">Keth. 84ᵇ</cite>; <cite ref=\"Eruvin 46b:7\">Erub. 46ᵇ</cite> <he>מַטִּין</he> one is inclined (in favor of R. Akiba’s opinion), i.e. the presumption is in his favor, opp. <cite ref=\"E00566\"><he>הלכה</he></cite> definite decision for general practice. Y. Snh. I, 18ᵃ bot. (ref. to <cite ref=\"I Kings 22:19\">I Kings XXII, 19</cite>) <he>אלו מטין לכף זכות וכ׳</he> these argued in favor, and those against. ",
+						"<cite ref=\"Rosh Hashanah 17a:2\">R. Hash. 17ᵃ</cite> <he>ורב חסד מַטֶּה וכ׳</he> and He who is abundant in kindness inclines (the scales) towards the side of kindness; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to decline, move sideways</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 10a\">Keth. 10ᵃ</cite> a man walking in the dark, <he>ה׳ מצאו פתוח</he> if he moves sideways (towards the door), he finds it open, if he does not (but strikes against the door) &c.—Trnsf. <i>to perform coition without violently tearing the hymen</i>. ",
+						"<cite ref=\"Ketubot 10a\">Ib.</cite>"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (act. verb) <i>to bend</i>; <he>ה׳ דין</he> <i>to wrest judgment</i>. Mekh. l. c. <he>שלא תאמר … אַטֶּה עליו את הדין</he> say not, because he is a wicked man, I will turn the verdict against him. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 8:9\">Peah VIII, 9</cite> <he>כל דיין … ומַטֶּה את הדין</he> a judge that takes a bribe and perverts judgment; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "(after <cite ref=\"Exodus 23:2\">Ex. XXIII, 2</cite>) <i>to decide by majority</i> (cmp. <cite ref=\"K01257\"><he>כָּרַע</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 4:1\">Snh. IV, 1</cite> <he>דיני ממונות מטין וכ׳</he> in civil law a majority of one decides in favor or against (the claimant), <he>ודיני נפשות מטין וכ׳</he> in criminal law a majority of one decides in favor of the defendant, but for a verdict against the defendant a majority of two is required, v. <cite ref=\"E00317\"><he>הַטָּיָה</he></cite>. Mekh. l. c. <he>הרוג על פי מטין</he> put to death on a majority vote; <he>מה עדים … אף מטין בשנים</he> as incriminating witnessess must be two, so must the majority be two.—<i>Part. pass.</i> <cite ref=\"M00464\"><he>מוּטֶּה</he></cite>; f. <cite ref=\"M00463\"><he>מוּטָּה</he></cite> <i>reclining, bending over</i>. ",
+						"<cite ref=\"Moed Katan 21a\">M. Kat. 21ᵃ</cite>; <cite ref=\"Yevamot 103a:1\">Yeb. 103ᵃ</cite> <he>בין עומד … בין מ׳</he> standing, sitting or reclining. ",
+						"<cite ref=\"Mishnah Kelim 4:3\">Kel. IV, 3</cite>; <cite ref=\"Tosefta Kelim Kamma 3:10\">Tosef. Kel. B. Kam. III, 10</cite> <he>היתה מ׳ על צדה וכ׳</he> if the vessel was misshaped so as to bend sideways like a sedan chair. ",
+						"<cite ref=\"Tosefta Kelim Kamma 3:10\">Ib.</cite>; <cite ref=\"Tosefta Kelim Kamma 3:5\">ib. 5</cite> <he>מַטָּה על צדה</he>.—V. <cite ref=\"M00463\"><he>מוּטָּה</he></cite>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "U01706",
+	"slug": "שפאים",
+	"headword": {
+		"text": "שְׁפָאִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁפָאִין"
+		}
+	],
+	"page": {
+		"number": 1613,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>שָׁפָה</he> I) <cite ref=\"U01705\">same</cite>, <i>chips</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 49b:10\">Ab. Zar. 49ᵇ</cite> <he>אותן ש׳ מה וכ׳</he> what is the law about those chips? <cite ref=\"Avodah Zarah 49b:10\">Ib.</cite> <he>שְׁפָאֶיהָ</he> (Ms. M. <he>שִׁיפּוּיֶיהָ</he>, v. <cite ref=\"U01013\"><he>שִׁיפּוּי</he> I</cite>).—Trnsf. <he>שְׁפָאֵי עידית</he> (cmp. <cite ref=\"B00570\"><he>בִּיזְלֵי</he></cite>) <i>disconnected strips</i> of a first class field. ",
+				"<cite ref=\"Gittin 50a:13\">Gitt. 50ᵃ</cite> (v. Tosaf. a. l.); [Rashi takes <he>שפאי</he> as verb, fr. <cite ref=\"U01734\"><he>שפי</he></cite> = <cite ref=\"U00488\"><he>שׁוּף</he></cite> <i>to slip</i>]."
+			]
+		}
+	]
+}

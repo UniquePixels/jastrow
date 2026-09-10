@@ -1,0 +1,57 @@
+{
+	"id": "O00123",
+	"slug": "סגי-4",
+	"headword": {
+		"text": "סַגִּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַגִּיא"
+		},
+		{
+			"text": "סַגִּיאָה"
+		}
+	],
+	"page": {
+		"number": 954,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00122\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>spreading</i>, v. <cite ref=\"O00121\"><he>סְגֵי</he> I</cite>. I.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>numerous, large, great</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 26:14\">Targ. Gen. XXVI, 14</cite> (O. ed. Vien. <cite ref=\"O00125\"><he>סַגְיָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 63:7\">Targ. Is. LXIII, 7</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כות׳</he> 1) <he>נהור בנהור ס׳</he> light within a great light (many joys).—<he>ס׳ נהור</he>, v. <cite ref=\"N00255\"><he>נְהוֹר</he></cite>.—Pl. <he>סַגִּיאִין</he>, <he>סַגִּיאֵי</he>, <he>סַגְיֵי</he>; f. <cite ref=\"O00123\"><he>סַגִּיאָן</he></cite>, <cite ref=\"O00132\"><he>סַגִּיָּין</he></cite>, <cite ref=\"O00132\"><he>סַגְיָין</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 3:2\">Targ. Ps. III, 2</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Judges 8:30\">Targ. Jud. VIII, 30</cite> <he>סגיאן</he> (not … <he>אין</he>); a. fr.—",
+				"<cite ref=\"Bava Batra 65a:1\">B. Bath. 65ᵃ</cite>, a. fr. <he>זמנין ס׳</he>, v. <cite ref=\"G00536\"><he>זְמַן</he></cite> ch. ",
+				"<cite ref=\"Bava Metzia 44b:4\">B. Mets. 44ᵇ</cite> <he>באתרא דס׳</he> where money is plentiful, opp. <he>דס׳ פירא</he> where goods are plentiful; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <cite ref=\"O00123\"><he>סַגִּי</he></cite>, <cite ref=\"O00123\"><he>סַגִּיא</he></cite>, also <he>סַגִּין</he> <i>much, enough; greatly</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 16:3\">Targ. Num. XVI, 3</cite>. Targ. II Esth. VI, 10 <he>סַגִּיא באיש</he> (not <cite ref=\"O00125\"><he>סַגְיָא</he></cite>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:20\">Y. Ber. V, 9ᵃ</cite> bot., v. <cite ref=\"E00054\"><he>הֲגָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 7:7:6\">Y. Shebu. VII, end, 38ᵃ</cite> <he>אנן עבדין טבות ס׳ מנכון</he> we will do much better than you did. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:7\">Y. B. Mets. II, 8ᶜ</cite> bot. <he>דהב ס׳</he> much gold. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 4:4:7\">Y. Yoma IV, 41ᵈ</cite> top <he>חסר ס׳</he> it loses much (v. <cite ref=\"B01337\"><he>בְּרָרָא</he></cite>); <cite ref=\"Bamidbar Rabbah 12:21\">Num. R. s. 12</cite> a. fr.—Y. B. Mets. l. c. <he>אתון רחמין … סוּגּוּ</he> you love gold; very much; <cite ref=\"Yoma 2a:8\">ib.</cite> <cite ref=\"O00249\"><he>סוּגּוּן</he></cite>.—[<cite ref=\"Yalkut Shimoni on Nach 935:20\">Yalk. Prov. 935</cite> <he>סגיי סוגייא</he>, read: <he>סייגין סייגא</he>, v. <cite ref=\"O00243\"><he>סוּג</he></cite> I ch.]"
+			],
+			"label": "3"
+		}
+	]
+}

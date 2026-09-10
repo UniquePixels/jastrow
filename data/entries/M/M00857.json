@@ -1,0 +1,104 @@
+{
+	"id": "M00857",
+	"slug": "מחי-1",
+	"headword": {
+		"text": "מחי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָחָה"
+		},
+		{
+			"text": "מָחַח"
+		}
+	],
+	"page": {
+		"number": 759,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"M00346\"><he>מָהָה</he></cite>) <i>to rub, wipe out; to wear out, destroy</i>. [In Talm. mostly <cite ref=\"M00931\"><he>מָחַק</he></cite>.] <cite ref=\"Eruvin 13a\">Erub. 13ᵃ</cite>; <cite ref=\"Mishnah Sotah 2:4\">Sot. II, 4</cite> (<cite ref=\"Sotah 17b:2\">17ᵇ</cite>) (ref. to <he>ומחה</he>, <cite ref=\"Numbers 5:23\">Num. V, 23</cite>) <he>כתב שיכול לִמְחוֹת</he> (Mish. <he>להִמָּחֵק</he>) a writing which one can wash off. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 23:2\">Gen. R. s. 23</cite> (play on <he>מחויאל</he>, <cite ref=\"Genesis 4:18\">Gen. IV, 18</cite>) <he>מוֹחָן אני וכ׳</he> I shall wipe them out of the world; a. e.—V. <cite ref=\"M00823\"><he>מָחוּי</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מִיחָה"],
+			"senses": [
+				{
+					"gloss": " [<i>to strike out, annul</i>,] ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to protest against</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 38b:5\">B. Bath. 38ᵇ</cite> <he>מי׳ בפני שנים</he> if he entered a protest against the illegitimate occupation of his property in the presence of two (v. <cite ref=\"M00793\"><he>מְחָאָה</he></cite>). ",
+						"<cite ref=\"Bava Batra 38b:2\">Ib.</cite> <he>וכי למָחוֹת וכ׳</he> must he protest in the occupant’s presence?—",
+						"<cite ref=\"Ketubot 11a:12\">Keth. 11ᵃ</cite> <he>מִיחֲתָה</he> she protested against her conversion in childhood. ",
+						"<cite ref=\"Pesachim 88a:11\">Pes. 88ᵃ</cite> <he>יכולה למחות</he> she has the privilege of protesting (declaring her preference); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite> or <he>ביד</he> of the person) <i>to forewarn, interfere, try to prevent</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 55b:19\">Sabb. 55ᵇ</cite> bot. <he>מפני שהיה לו … בחפני ולא מי׳</he> (not <he>לחפני</he>, v. Rabb. D. S. a. l. note) it was for Ph. to forewarn Hofni, and he did not. ",
+						"<cite ref=\"Shabbat 55a:8\">Ib.ᵃ</cite> <he>שאם מִיחוּ בהם לא יקבלו מהם</he> (Ms. M. <he>מחו … קבלו</he>) that if they warned them, they would not have heeded them. ",
+						"<cite ref=\"Mishnah Pesachim 4:8\">Pes. IV, 8</cite>, a. e. <he>לא מיחו בידם</he> they did not prohibit their doing so; a. fr.—",
+						"<cite ref=\"Shir HaShirim Rabbah 4:12\">Cant. R. to IV, 12</cite> <he>עמדו הבנות</he> (<cite ref=\"F00000\"><he>ו</he></cite>)<he>מִיחוּ על עצמן וכ׳</he> the daughters (in their father’s absence) entered a protest concerning themselves and gave themselves away to husbands (Pesik. B’shall., p. 82ᵃ, a. e. <he>נתעסקו בעצמן</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִמְחָה"],
+			"senses": [
+				{
+					"gloss": "<i>to dissolve, dilute</i>. Y. Pes. III, beg. 29ᵈ <he>ה׳ את החמץ</he> if (by boiling) he made a mush of the leavened matter (made it unrecognizable). ",
+					"units": [
+						"<cite ref=\"Chullin 120a\">Ḥull. 120ᵃ</cite>; Y. Maas. Sh. II, beg. 53ᵇ, a. e., v. <cite ref=\"C00996\"><he>גָּמָא</he></cite>; a. fr. (interchanging with <cite ref=\"M00346\"><he>הִמְהָה</he></cite>).—",
+						"<cite ref=\"Tosefta Parah 9:8\">Tosef. Par. IX</cite> (<cite ref=\"Tosefta Parah 8:8\">VIII</cite>), 8 <he>הִמְחָן באור</he> (not <he>באויר</he>) if he thawed the frozen water by artificial heat.—[<cite ref=\"Midrash Tehillim 6:7\">Midr. Till. to Ps. VI, 7</cite> <he>וממחה</he>, read <he>וממסה</he>, v. <cite ref=\"M01852\"><he>מָסָה</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to rub off, cleanse, polish</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 5:10\">B. Bath. V, 10</cite> <he>מַמְחֶה משקלותיו</he> cleanses his weights. ",
+						"<cite ref=\"Vayikra Rabbah 7:4\">Lev. R. s. 7</cite> (play on <he>מיחים</he>, <cite ref=\"Psalms 66:15\">Ps. LXVI, 15</cite>) <he>כזה שהוא ממחה בקערה</he> like him who wipes a dish (licks the remnants up); Pesik. Eth Korb., p. 61ᵃ; <cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite>; a. e.—",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 17\">Pirké d’R. El. ch. XVII</cite> <he>מַמְחָה בכפיה</he> she produces a sound by rubbing her hands (in sympathy with the mourners)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"M00520\"><he>מוּמְחֶה</he></cite>) <i>to recognize as an authority;</i> in gen. <i>to authorize; to appoint</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 23a:21-22\">Snh. 23ᵃ</cite> <he>לא כל הימנו … שהִמְחוּהוּ רבים עליהם</he> he cannot reject a judge whom the majority has recognized as an authority over them. ",
+						"<cite ref=\"Mishnah Bava Metzia 9:12\">B. Mets. IX, 12</cite> <he>הִמְחֵהוּ אצל וכ׳</he> if he gave him an order to the storekeeper. Y. Pes. VIII, 35ᵈ top <he>אם במַמְחִין סתם האשה מַמְחָה וכ׳</he> if by <he>מדעתו</he> is meant giving authority (and not merely knowing and tolerating), it is tacitly understood that a woman makes an appointment as if saying, I will dine with my children; if it means merely knowing, then the Mishnah (<cite ref=\"Mishnah Pesachim 8:1\">Pes. VIII, 1</cite>) means appointment.—[Y. Sabb. XIII, beg. 14ᵃ <he>הממחה צדדיו</he> ed. Krot., v. <cite ref=\"M03039\"><he>מָתַח</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִמְחֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be dissolved, washed away; to be wiped out, destroyed</i>. Y. Pes. III, beg. 29ᵈ a cake boiled <he>שלא נ׳</he> without being mashed beyond recognition (v. supra). ",
+					"units": [
+						"<cite ref=\"Mishnah Taanit 3:8\">Taan. III, 8</cite>, a. e. <he>אם נִמְחֵית וכ׳</he>, whether the stone … has been washed away, v. <cite ref=\"A00172\"><he>אֶבֶן</he></cite>. Tosef. Par. l. c. <he>נִימּוֹחוּ</he> (fr. <cite ref=\"M00848\"><he>מָחַח</he></cite>) the water was thawed up. ",
+						"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite>. <he>אפי׳ אסטרובולין … נ׳</he> even the millstone was washed away. ",
+						"<cite ref=\"Bereishit Rabbah 28\">Ib.</cite> <he>וכמה נימוחו מהם</he> and how many of them were destroyed?; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

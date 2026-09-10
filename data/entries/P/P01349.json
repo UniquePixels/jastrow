@@ -1,0 +1,45 @@
+{
+	"id": "P01349",
+	"slug": "עריבה",
+	"headword": {
+		"text": "עֲרֵיבָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲרֵבָה"
+		}
+	],
+	"page": {
+		"number": 1117,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָרַב</he> I; cmp. <cite ref=\"A02974\"><he>אַרְבָּא</he></cite>) [<i>joined</i> or <i>plaited</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>trough, tub, kneading trough</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 3:2\">Pes. III, 2</cite>, v. <cite ref=\"O00195\"><he>סֶדֶק</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 15:1\">Kel. XV, 1</cite> <he>עֲרֵיבַת העבדנין</he> the tanners’ trough; <he>ע׳ בעה״ב</he> the domestic trough (for kneading). Ib. XX, 2 <he>עריבת פיסונות</he> the trough for mixing mortar. ",
+				"<cite ref=\"Mishnah Yadayim 4:1\">Yad. IV, 1</cite> <he>עריבת הרגלים</he> the tub for foot-baths; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>boat, skiff</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:2:9\">Y. Sabb. IV, end, 7ᵃ</cite> <he>עריבת הירדן</he>, v. <cite ref=\"J00599\"><he>יַרְדֵּן</he></cite>; <cite ref=\"Kohelet Rabbah 1:15\">Koh. R. to I, 15</cite>. ",
+				"<cite ref=\"Avodah Zarah 40a:9\">Ab. Zar. 40ᵃ</cite> <he>ע׳ מליאה חביות</he> a boat-load of vessels (containing fish-brine). ",
+				"<cite ref=\"Eruvin 88b\">Erub. 88ᵇ</cite>; Tosef. ib. IX (VI), 18; a. e.—Pl. <he>עֲרֵיבוֹת</he>, <he>עֲרֵב׳</he>. ",
+				"<cite ref=\"Mishnah Kelim 24:3\">Kel. XXIV, 3</cite>. ",
+				"<cite ref=\"Mishnah Kelim 4:1\">Ib. IV, 1</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

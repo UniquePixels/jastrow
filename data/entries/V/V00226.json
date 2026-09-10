@@ -1,0 +1,23 @@
+{
+	"id": "V00226",
+	"slug": "תומא-1",
+	"headword": {
+		"text": "תּוּמָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1654,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>תואמא</he>; cmp. <cite ref=\"V00428\"><he>תְּיוֹמֶת</he></cite>) <i>fringe.—</i>Pl. <he>תּוּמֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 60b:4\">B. Mets. 60ᵇ</cite> <he>למרמי ת׳</he> (Ms. H. <he>למעבר תִּיאָמֵי</he>), v. <cite ref=\"O01518\"><he>סַרְבָּלָא</he></cite>."
+			]
+		}
+	]
+}

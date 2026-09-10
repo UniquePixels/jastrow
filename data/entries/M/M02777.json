@@ -1,0 +1,26 @@
+{
+	"id": "M02777",
+	"slug": "מרריתא",
+	"headword": {
+		"text": "מְרָרִיתָא"
+	},
+	"page": {
+		"number": 848,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch., = h. <cite ref=\"M02605\"><he>מָרוֹר</he></cite>, <i>a bitter herb</i>, prob. <i>succory</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 13a:9\">Succ. 13ᵃ</cite> <he>הני מ׳ דאגמא וכ׳</he> that succory of the marsh. ",
+				"<cite ref=\"Sukkah 13a:9\">Ib.</cite> <he>הני מ׳ סתמא שמייהו וכ׳</he> the name of that plant is plain <i>m’raritha</i>, and the reason why they name it ‘<i>m.</i> of the marsh’ is, because it is frequent in marshes. ",
+				"<cite ref=\"Pesachim 39a:3\">Pes. 39ᵃ</cite> (expl. <cite ref=\"M02605\"><he>מרור</he></cite>) <he>מ׳ דאגמא</he> Ms. M. (ed. only <he>מרירתא</he>, read <he>מררי׳</he>). ",
+				"<cite ref=\"Pesachim 39a:9\">Ib.</cite> <he>הוה מהדר אמררתא</he> ed. (corr. acc., as in Tosaf. to Succ. l. c.; Ms. M. 2 <he>אמְרַרְיָיתָא דדברא</he>) took pains to get <i>m’raritha</i> (of the field). ",
+				"<cite ref=\"Chullin 59a:1\">Ḥull. 59ᵃ</cite> top <he>עיקרא דמרידתא</he> ed. (read as Tosaf. to Succ. l. c. <he>דמרריתא</he>; Ar. <he>דנוריתא</he>) the root of &c."
+			]
+		}
+	]
+}

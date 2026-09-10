@@ -1,0 +1,26 @@
+{
+	"id": "Q01271",
+	"slug": "פסי-3",
+	"headword": {
+		"text": "פְּסֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1194,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>פסע</he>, <cite ref=\"Q01254\"><he>פסח</he></cite>) <i>to step</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86b:6\">B. Mets. 86ᵇ</cite> <he>דלא מציא פַסְיָא קניא</he> (Ms. H. <he>יכלה למיפסע</he>, v. Rabb. D. S. a. l. note 60) which cannot step over a reed (from fatness).—[<he>פסי איית</he>, v. next w.]"
+			]
+		}
+	]
+}

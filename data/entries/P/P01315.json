@@ -1,0 +1,31 @@
+{
+	"id": "P01315",
+	"slug": "ערובתא-3",
+	"headword": {
+		"text": "עֲרוּבְתָּא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲרוּבָא"
+		}
+	],
+	"page": {
+		"number": 1114,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P01251\"><he>עֶרֶב</he></cite>) <i>eve</i>, <he>ע׳ דשבתא</he>, or <he>ע׳</he> <i>eve of the Sabbath, Friday</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23</cite> <he>חדא ע׳ ואית דאמרי ערובא צומא וכ׳</he> (read <he>עֲרוּבַת צומא</he> or <he>ע׳ דצומא</he>) one Sabbath eve, and some say, it was the eve of the Great Fast (Day of Atonement), he went to market &c.; <cite ref=\"Bereishit Rabbah 11:8\">Gen. R. s. 11</cite> <he>עובדא הוי בערובת צומא וכ׳</he> (not <he>בערובות</he>). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:12:5\">Y. Taan. II, 66ᵃ</cite> bot. <he>ציים כל ערובת ריש שתא</he> fasted on the eve of every New Year; <he>כל ע׳ שובא</he> every Friday. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:12\">Y. Ter. VIII, 45ᶜ</cite> bot <he>בערוב׳ צומא רבא</he>, v. supra. ",
+				"<cite ref=\"Ruth Rabbah 2:24\">Ruth R. to I, 17</cite> (sect. 3) <he>ערובת פיסחא</he> the eve of Passover; a. fr."
+			]
+		}
+	]
+}

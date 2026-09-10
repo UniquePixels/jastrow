@@ -1,0 +1,29 @@
+{
+	"id": "N01189",
+	"slug": "נקז-2",
+	"headword": {
+		"text": "נְקַז"
+	},
+	"page": {
+		"number": 932,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַקֵּיז</he> <cite ref=\"N01188\">same</cite>. Y. Ber. III, 5ᶜ bot. [V. <cite ref=\"S00680\"><he>קְזַז</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

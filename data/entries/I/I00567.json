@@ -1,0 +1,20 @@
+{
+	"id": "I00567",
+	"slug": "טנבורא",
+	"headword": {
+		"text": "טַנְבּוּרָא"
+	},
+	"page": {
+		"number": 540,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טבר</he>, v. <cite ref=\"I00303\"><he>טִיבּוּר</he></cite>, cmp. <cite ref=\"I00068\"><he>טַבְלָא</he> I</cite>) <i>tamburine, taborin</i>. ",
+			"units": ["<cite ref=\"Sotah 49b:5\">Sot. 49ᵇ</cite>"]
+		}
+	]
+}

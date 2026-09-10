@@ -1,0 +1,36 @@
+{
+	"id": "T00415",
+	"slug": "רוע-1",
+	"headword": {
+		"text": "רוּעַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1462,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"T00914\"><he>רָעַע</he></cite>)<i>to strike against; to shake</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵרִיעַ"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"V00905\"><he>תָּקַע</he></cite>) <i>to produce a tremulous sound</i>; (b. h. also <i>to shout</i>); <i>to blow the horn</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 42b:1\">Sot. 42ᵇ</cite> <he>מגיפין ומְרִיעִין וכ׳</he> the gentile troops shut their cuirasses with noise, blow their horns, shout and tramp; <cite ref=\"Yalkut Shimoni on Torah 923:7\">Yalk. Deut. 923</cite>; a. e.—Esp. <i>to sound a</i> <cite ref=\"V00967\"><he>תְּרוּעָה</he></cite>, <i>to blow tremolo</i>. ",
+						"<cite ref=\"Mishnah Sukkah 5:4\">Succ. V, 4</cite> <he>תקעו והֵרִיעוּ ותקעו</he> they sounded the plain note (<cite ref=\"V00884\"><he>תקיעה</he></cite>), and the tremolo, and the plain note. ",
+						"<cite ref=\"Mishnah Rosh Hashanah 4:9\">R. Hash. IV, 9</cite> <he>תוקע ומֵרִיעַ וכ׳</he> he sounds a T’ḳiʿa, a Truʿah &c. ",
+						"<cite ref=\"Rosh Hashanah 16a\">Ib. 16ᵃ</cite> sq. <he>למה תוקעין ומריעין וכ׳</he> why do we blow the Shofar in plain notes and tremolo while seated and then again while standing? <cite ref=\"Taanit 16b:5\">Taan. 16ᵇ</cite> (at a public fast) <he>חזן … הָרִיעוּ בני אהרן הֵרִיעוּ</he> the superintendent of the prayer meeting says, sound the Truʿah, sons of Aaron; they do so. ",
+						"<cite ref=\"Rosh Hashanah 16b:2\">R. Hash. 16ᵇ</cite> <he>כל שנה … מריעין לה בסופה</he> if people neglect to sound the Shofar in the beginning of the year (on New Year’s Day), they will sound the Truʿah for it at its end (on public fast days on account of calamities); a. fr.—V. <cite ref=\"V01030\"><he>תָּרע</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"id": "C00590",
+	"slug": "גחך",
+	"headword": {
+		"text": "גְּחַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּחִיךְ"
+		}
+	],
+	"page": {
+		"number": 233,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (corresp. to b. h. <he>צחק</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to laugh, jest</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 18:13\">Targ. Y. Gen. XVIII, 13</cite>; <cite ref=\"Targum Jonathan on Genesis 18:15\">15</cite> (O. <he>חייך</he>, h. text <he>צחק</he>). Y. Naz. VII, 56ᶜ top <he>אתחמי ג׳</he> he appeared to be laughing. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:5:3\">Y. Kidd. III, 64ᵃ</cite> bot. <he>גַּחֲכִין</he> they laughed. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:2:4\">Y. Ber. VI, 10ᶜ</cite> top [read:] <he>גחיך ליה חבריה</he> his colleague laughed at him (Bab. ",
+				"<cite ref=\"Berakhot 39a:4\">ib. 39ᵃ</cite> <he>לגלג … חבירו</he>). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:14\">Y. Kil. IX, 32ᶜ</cite> bot. <he>ג׳ לקבליה</he> he received him with a smile; <cite ref=\"Jerusalem Talmud Ketubot 12:3:14\">Y. Keth. XII, 35ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 30:8\">Gen. R. s. 30</cite> <he>גָּחוּךְ צבורא לקליה</he> the audience laughed at what he said; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to sport, to be obscene</i> (of obscene idolatrous practices). ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 15:16\">Targ. II Chr. XV, 16</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּחֵךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C00589\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to jest</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 19:14\">Targ. Y. Gen. XIX, 14</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be obscene</i>. Targ. Y. ib. XXI, 9. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 32:6\">Targ. Y. Ex. XXXII, 6</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיגְּחַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be made sport of</i>. Y. B. Mets. IV, 9ᵈ it is no honor to me that people should say (of me) <he>פלוני א׳</he> that man was fooled (allowed himself to be taken advantage of).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

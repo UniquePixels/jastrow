@@ -1,0 +1,30 @@
+{
+	"id": "E00695",
+	"slug": "הסב",
+	"headword": {
+		"text": "הֶסֵּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶיסֵּב"
+		}
+	],
+	"page": {
+		"number": 359,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סבב</he>, Hif.) <i>placing the divans around the table;</i> in. gen. <i>banquet, meal in company</i> (v. <cite ref=\"M01839\"><he>מֵסֵב</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 4:1:7\">Y. Maasr. IV, 51ᵇ</cite> top <he>עשה הי׳ בשדה</he> if one arranges a meal in company in the field. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 9:3:3\">Y. B. Bath. IX, 16ᵈ</cite> bot. <he>ועשה לו ה׳ וכ׳</he> and he made the wedding meal for him in the <i>triclinium</i>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:14\">Y. Taan. IV, 68ᵃ</cite> bot. <he>סדר ה׳</he> the position of couches at a banquet. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:14\">Ib.</cite> the patriarchs lie in the grave <he>דרך ה׳</he> in the same position to one another as at meals (distinction between seniors and juniors; v. Sm. Ant. s. v. Triclinium)."
+			]
+		}
+	]
+}

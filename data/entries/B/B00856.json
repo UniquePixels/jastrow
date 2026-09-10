@@ -1,0 +1,25 @@
+{
+	"id": "B00856",
+	"slug": "בלי-4",
+	"headword": {
+		"text": "בְּלֵי",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 172,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. constr. (<cite ref=\"B00855\">preced.</cite>, cmp. <cite ref=\"B00807\"><he>בְּלָאוֹת</he></cite>, <cite ref=\"B00829\"><he>בְּלוֹיִים</he></cite>) <i>rotten pieces of</i> (wood). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 44:19\">Targ. Is. XLIV, 19</cite> (h. text <cite ref=\"B00612\"><he>בּוּל</he></cite>, v. Rashi a. l.; Var. <he>יִבְלֵי</he>)."
+			]
+		}
+	]
+}

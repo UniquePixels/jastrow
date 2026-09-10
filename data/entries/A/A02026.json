@@ -1,0 +1,45 @@
+{
+	"id": "A02026",
+	"slug": "אמירה-1",
+	"headword": {
+		"text": "אֲמִירָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 77,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אמר</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>speaking, speech</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 5:1\">Gen. R. s. 5</cite>, beg. <he>לא א׳ לא דיבור</he> no (power of) speech or word; a. fr.—<he>הא א׳</he> this is speech, i.e. <i>this is right</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 4:5:2\">Y. Snh. IV, 22ᵇ</cite> top; VI, beg. 23ᵇ. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 9:1:4\">Y. B. Kam. IX, beg. 6ᵈ</cite> (contracted) <he>הא׳</he> same."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the word amar</i> (<cite ref=\"A02060\"><he>אמר</he></cite>) <i>in the Scripture text</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:9:6\">Y. Snh. VII, 25ᵇ</cite> bot. <he>נאמר כאן א׳ וכ׳</he> here <i>amar</i> is used &c.; as well as <i>amar</i> here indicates that the word is considered a deed &c.; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>dedication</i> (cmp. <cite ref=\"A01334\"><he>אֵימוּרִים</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:6\">Kidd. I, 6</cite> <he>אֲמִירָתוֹ לגבוה וכ׳</he> dedication to the Lord (by word of mouth) is equal to what delivery is in private transactions.—Pl. <he>אֲמִירוֹת</he> mostly in the sense of 2). ",
+				"<cite ref=\"Bamidbar Rabbah 14:21\">Num. R. s. 14</cite>, end <he>א׳ וציוויים</he> texts in which <i>amar</i> and <i>tsivvah</i> occur; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

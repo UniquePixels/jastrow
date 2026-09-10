@@ -1,0 +1,42 @@
+{
+	"id": "L00228",
+	"slug": "לוז-4",
+	"headword": {
+		"text": "לוּז",
+		"homograph": 3
+	},
+	"page": {
+		"number": 696,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to turn, bend, twist</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נָלוּז"],
+			"senses": [
+				{
+					"gloss": "<i>to be perverse</i>, v. infra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵלִיז"],
+			"senses": [
+				{
+					"gloss": " or <he>הִלִּיז</he> <i>to turn</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kilayim 9:8\">Kil. IX, 8</cite> (play on <he>נ̇ז̇</he> in <cite ref=\"U01650\"><he>שעטנז</he></cite>, v. <cite ref=\"N00336\"><he>נוּז</he></cite>) <he>נָלוֹז ומֵלִיז הוא את אביו שבשמים עליו</he> (or <he>ומַלִּיז</he>) he (who disregards the law of <cite ref=\"U01650\"><he>שַׁעטְנֵז</he></cite>) is perverse and turns his Father in heaven against him; [Comment. ‘and turns away (estranges) his Father … on his account’]."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

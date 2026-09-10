@@ -1,0 +1,39 @@
+{
+	"id": "M00253",
+	"slug": "מדה-2",
+	"headword": {
+		"text": "מִדָּה",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מִידָּה"
+		}
+	],
+	"page": {
+		"number": 733,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"M00252\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 56:5\">Targ. Ps. LVI, 5</cite>; <cite ref=\"Aramaic Targum to Psalms 56:11\">11</cite> <he>מידַּת דינא</he>, <he>מ׳ רחמין</he>, v. <cite ref=\"M00252\">preced.</cite> ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:1\">Targ. Lam. I, 1</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 38b:8\">Snh. 38ᵇ</cite> <he>אידי ואידי חדא מ׳ הוא</he> the two dimensions are alike.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tribute</i>. ",
+			"units": [
+				"<cite ref=\"Ezra 4:20\">Ezra IV, 20</cite>, a. e., v. <cite ref=\"M01712\"><he>מִנְדָּה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

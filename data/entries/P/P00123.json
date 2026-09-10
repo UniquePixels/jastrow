@@ -1,0 +1,24 @@
+{
+	"id": "P00123",
+	"slug": "עדה-1",
+	"headword": {
+		"text": "עֵדָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1043,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00476\"><he>יָעַד</he></cite>) [<i>appointed meeting</i>,] <i>assembly, congregation; court; prayer meeting</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sanhedrin 12:3\">Tosef. Snh. XII, 3</cite> (ref. to <cite ref=\"Exodus 21:18\">Ex. XXI, 18</cite>) <he>מה אגרוף הידוע לע׳ ילעדים וכ׳</he> as the fist (of the slayer) is ascertained before court and witnesses, so must the stone (weapon) be &c.; <cite ref=\"Bava Kamma 90b:9\">B. Kam. 90ᵇ</cite>; <cite ref=\"Bava Kamma 91a:13\">ib. 91ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 1:6\">Snh. I, 6</cite> (ref. to <cite ref=\"Numbers 35:24\">Num. XXXV, 24</cite>, sq.) <he>ע׳ שופטת וע׳ מצלת</he> there must be a possibility of an incriminating assembly (of ten persons), and of a saving assembly, which makes twenty persons; <he>ומנין לע׳ שהיא וכ׳</he> and where do we find an intimation that an <i>‘edah</i> consists of ten?; Y. Ber. IV, 11ᶜ top; a. fr.—Y. Maas. Sh. II, end, 53ᵈ; <cite ref=\"Kohelet Rabbah 9:9:1\">Koh. R. to IX, 9</cite>; <cite ref=\"Yalkut Shimoni on Nach 989:13\">Yalk. ib. 989</cite> <he>ע׳ קדושה</he> the holy brotherhood."
+			]
+		}
+	]
+}

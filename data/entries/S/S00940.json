@@ -1,0 +1,24 @@
+{
+	"id": "S00940",
+	"slug": "קיינא",
+	"headword": {
+		"text": "קַיְינָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1359,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00412\"><he>קון</he></cite> = <cite ref=\"S01566\"><he>קני</he></cite>) <i>possession</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 9:7:1\">Y. Snh. IX, end, 27ᵇ</cite> (expl. <he>המקלל בקסם</he>) <he>כגון … לקַנְיָיךְ קַיְינָךְ קַנְוָוךְ</he> like those Nabatæans who curse, ‘(a curse) on thy owner (Maker), thy possession, on him who gave thee possession’; (Bab. ",
+				"<cite ref=\"Sanhedrin 81b\">ib. 81ᵇ</cite> in Hebr. dict.: <he>לו ולקונו ולמקנו</he>)."
+			]
+		}
+	]
+}

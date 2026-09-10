@@ -1,0 +1,23 @@
+{
+	"id": "M01150",
+	"slug": "מיכולתא",
+	"headword": {
+		"text": "מֵיכוּלְתָּא"
+	},
+	"page": {
+		"number": 773,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אֲכַל</he> I) <i>food, meal</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 23:3\">Targ. Prov. XXIII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 4:17\">Ib. IV, 17</cite> (ed. Lag. a. oth. <cite ref=\"M01157\"><he>מֵיכַלְתּ׳</he></cite>); a. e."
+			]
+		}
+	]
+}

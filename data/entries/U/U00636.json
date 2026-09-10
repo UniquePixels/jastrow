@@ -1,0 +1,44 @@
+{
+	"id": "U00636",
+	"slug": "שחט-2",
+	"headword": {
+		"text": "שָׁחַט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1546,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H00608\"><he>חטט</he></cite>)<i>to cut the throat</i>, esp. <i>to slay an animal by cutting the throat according to ritual laws</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 1:1\">Ḥull. I, 1</cite> <he>הכל שׁוֹחֲטִין וכ׳</he> all persons are fit to do the ritual slaughtering, and their act is legal, except &c.; <he>וכולן ששָׁחֲטוּ וכ׳</he> and all those (mentioned as unfit), if they cut under the supervision of others &c. Ib. II, 3 <he>היה שׁוֹחֵט והתיז וכ׳</he> if he was cutting (drawing the knife across the throat, v. <cite ref=\"U00635\">preced.</cite>) and cut the head off with one movement. Ib. 1 <he>השוחט … ושנים וכ׳</he> if one cuts one organ (windpipe or gullet, v. <cite ref=\"O00710\"><he>סִימָן</he></cite>) of a bird, and two &c.; ib. <he>עד שיִשְׁחוֹט וכ׳</he>, v. <cite ref=\"F00093\"><he>וָרִיד</he></cite>; a. fr.—Part. pass. <he>שָׁחוּט</he>; f. <he>שְׁחוּטָה</he> &c. ",
+				"<cite ref=\"Niddah 15a:33\">Nidd. 15ᵃ</cite> <he>שור ש׳ לפניך</he> the ox lies slaughtered before thee, i.e. the evidence is before you. ",
+				"<cite ref=\"Chullin 95a:7\">Ḥull. 95ᵃ</cite> <he>בְּשַׂר ש׳</he> meat of an animal ritually cut, opp. <he>בשר נבלה</he>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁחַט"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut, killed according to ritual</i>. Ib. 9ᵃ <he>עד … במה נִשְׁחֲטָה</he>, v. <cite ref=\"H00556\"><he>חֲזָקָה</he></cite>. Ib. <he>נשחטה הרי היא וכ׳</he> if it has been properly slaughtered, it is presumed to be permitted until &c.; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשְׁחִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to slaughter</i>. Ib. V, 4 <he>בארבע … מַשְׁחִיטִין את הטבח וכ׳</he> at these four periods we force the butcher to slaughter (provide meat); <cite ref=\"Eruvin 81b\">Erub. 81ᵇ</cite>",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

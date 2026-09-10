@@ -1,0 +1,43 @@
+{
+	"id": "K01378",
+	"slug": "כתף-2",
+	"headword": {
+		"text": "כְּתַף"
+	},
+	"page": {
+		"number": 682,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K01379\"><he>כַּתֵּף</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Shabbat 8a:6\">Sabb. 8ᵃ</cite> <he>ולא כַתּוּפֵי מְכַתְּפֵי עלויה</he> Ms. M. nor do they not use it for rearranging burdens; <he>ודאי מְכַתְּפִין עילויה</he> people surely use it &c. Ib. 119ᵃ <he>מְכַתַּף ועייל וכ׳</he> carried things in and out. Ib. <he>מי לא מְכַתִּיפְנָא קמייהו</he> should I not carry things in and out for their reception?—Esp. <i>to carry a person</i> (<i>in a chair</i>) <i>on shoulders</i>, v. <cite ref=\"A01924\"><he>אֲלַנְקִי</he></cite>. ",
+						"<cite ref=\"Yoma 87a\">Yoma 87ᵃ</cite>; <cite ref=\"Sanhedrin 7b\">Snh. 7ᵇ</cite>. ",
+						"<cite ref=\"Beitzah 25b:15\">Bets. 25ᵇ</cite> <he>הוו מְכַתְּפֵי להו</he> (v. Rabb. D. S. a. l. note 8) they carried them; (ed. <he>מִכַּתְּפוּ להו</he> <i>Ithpa.</i> allowed themselves to be carried)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיכַּתֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be carried on shoulders</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

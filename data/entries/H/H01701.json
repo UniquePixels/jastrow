@@ -1,0 +1,30 @@
+{
+	"id": "H01701",
+	"slug": "חרישה-2",
+	"headword": {
+		"text": "חֲרִישָׁה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 503,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָרַשׁ</he> II, Hif.) <i>silence, acquiescence</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 153:9\">Sifré Num. 153</cite> sq. (with ref. to <cite ref=\"Numbers 30:5\">Num. XXX, 5</cite>; <cite ref=\"Numbers 30:8\">8</cite>; <cite ref=\"Numbers 30:12\">12</cite>) ; v. <cite ref=\"U02110\"><he>שְׁתִיקָה</he></cite>.—2) (<he>חָרַשׁ</he> II <i>Pi.</i>) <i>making deaf, deafening</i>. ",
+				"<cite ref=\"Bava Kamma 86a:3\">B. Kam. 86ᵃ</cite> <he>לפי שא״א לח׳ וכ׳</he> (Ms. M. <he>להַחֲרִישׁ</he>) because it is not possible to cause deafness without afflicting a wound, a drop of blood &c.; <cite ref=\"Bava Kamma 98a\">ib. 98ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>deafness</i>, v. <cite ref=\"H01703\"><he>חֲרִישׁוּת</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

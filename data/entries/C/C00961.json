@@ -1,0 +1,51 @@
+{
+	"id": "C00961",
+	"slug": "גלל-3",
+	"headword": {
+		"text": "גָּלָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלַל"
+		}
+	],
+	"page": {
+		"number": 250,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00960\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rolling along with, appendage</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 15a:11\">Men. 15ᵃ</cite>; <cite ref=\"Pesachim 13b:8\">Pes. 13ᵇ</cite> <he>לחם ג׳ תודה</he> the bread is an appendage of the thank-offering; <cite ref=\"Menachot 80a:13\">Men. 80ᵃ</cite> <he>לִגְלַל תודה</he>.—בִּגְלַל <i>in consequence of, on account of</i>, v. <cite ref=\"C00962\">next w.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>something rolled, rounded, ball, ordure, excrement, dung</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 3:3\">B. Kam. III, 3</cite> <he>ההופך את הג׳</he> he who upturns (throws up) ordure into the street.—Pl. <he>גְּלָלִים</he>, <he>גְּלָלִין</he>. ",
+				"<cite ref=\"Shabbat 153b:8\">Sabb. 153ᵇ</cite> <he>להטיל ג׳</he> to cast excrements (of animals). ",
+				"<cite ref=\"Vayikra Rabbah 16:3\">Lev. R. s. 16</cite>; <cite ref=\"Esther Rabbah 7:1\">Esth. R. to III, 1</cite> <he>מה הג׳ הללו וכ׳</he> as the dung is repulsive."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <cite ref=\"K00716\"><he>כְּלֵי</he></cite>) <i>a material used for vessels</i>, supposed to be <i>baked ordure</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 10:1\">Kel. X, 1</cite>. ",
+				"<cite ref=\"Mishnah Parah 5:5\">Par. V, 5</cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 4:1\">Mikv. IV, 1</cite>; <cite ref=\"Shabbat 16b:7\">Sabb. 16ᵇ</cite>. ",
+				"<cite ref=\"Menachot 69a\">Men. 69ᵃ</cite>; <cite ref=\"Menachot 69b:1\">69ᵇ</cite>; a. fr. [Rashi to Sabb. l. c. expl. <he>ג׳</he> = <he>שייש</he>, <i>marble</i>, to Men. l. c. = <he>צפיעי בקר</he>.]"
+			],
+			"label": "3"
+		}
+	]
+}

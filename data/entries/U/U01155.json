@@ -1,0 +1,23 @@
+{
+	"id": "U01155",
+	"slug": "שכיר",
+	"headword": {
+		"text": "שָׂכִיר"
+	},
+	"page": {
+		"number": 1573,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01182\"><he>שָׂכַר</he></cite>)<i>hired man</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 64a:4\">Erub. 64ᵃ</cite>; <cite ref=\"Shevuot 46b:4\">Shebu. 46ᵇ</cite> <he>שְׂכִירוֹ וכ׳</he>, v. <cite ref=\"L00687\"><he>לָקִיט</he></cite> h. ",
+				"<cite ref=\"Mishnah Bava Metzia 9:11\">B. Mets. IX, 11</cite> <he>שְׂ׳ יום</he> one hired for day work; <he>ש׳ לילה</he> for night work; <he>ש׳ שעות</he> by hours; <he>ש׳ חדש</he> by the month. Ib. 112ᵇ (in Chald. dict.) <he>עקרוה … ושדיוה אַשָּׂ׳</he> the Rabbis took the oath from the employer, and put it on the hired man. Ib. <he>ש׳ נמי … איתגר</he> the hired man, too, hires himself out from necessity; a. fr."
+			]
+		}
+	]
+}

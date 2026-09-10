@@ -1,0 +1,50 @@
+{
+	"id": "A03255",
+	"slug": "אשא-1",
+	"headword": {
+		"text": "אֶשָּׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִישָּׁא"
+		},
+		{
+			"text": "אֶשָּׁתָא"
+		},
+		{
+			"text": "אֶישָּׁתָא"
+		},
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 126,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"A03254\">same</cite>.<i>fire</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:17\">Targ. Gen. XV, 17</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 85b:8\">B. Mets. 85ᵇ</cite> <he>בעורין דאשא</he> <i>torches</i>. ",
+				"<cite ref=\"Menachot 53a:14\">Men. 53ᵃ</cite> <he>אישא וכ׳</he> may fire consume him."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fever</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:15\">Targ. Y. Gen. XXI, 15</cite>.—",
+				"<cite ref=\"Yoma 29a:2\">Yoma 29ᵃ</cite> <he>אישתא וכ׳</he> the fever in winter time. ",
+				"<cite ref=\"Shabbat 66b\">Sabb. 66ᵇ</cite> sq. <he>א׳ תלתא</he> <i>tertian;</i> <he>א׳ צמירתא</he> <i>inflammatory fever</i>, <he>א׳ בת יומא</he> <i>quotidian</i>. ",
+				"<cite ref=\"Yevamot 71b:9\">Yeb. 71ᵇ</cite> <he>דזנתיה אי׳</he> fever fed its vital energies. ",
+				"<cite ref=\"Sanhedrin 108b:20\">Snh. 108ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

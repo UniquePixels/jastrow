@@ -1,0 +1,27 @@
+{
+	"id": "G00733",
+	"slug": "זרפא",
+	"headword": {
+		"text": "זִרְפָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִירְ׳"
+		}
+	],
+	"page": {
+		"number": 415,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00732\">preced.</cite>) <i>inflammation, swelling of a wound</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 67a:12\">Sabb. 67ᵃ</cite> <he>דעבדי ליה לז׳</he> Ms. M. (ed. <he>דעבדי לזי׳</he>) it is applied for healing an inflammation &c."
+			]
+		}
+	]
+}

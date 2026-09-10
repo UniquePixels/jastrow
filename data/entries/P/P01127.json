@@ -1,0 +1,91 @@
+{
+	"id": "P01127",
+	"slug": "עצם-1",
+	"headword": {
+		"text": "עָצַם"
+	},
+	"page": {
+		"number": 1102,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to press; to close</i> (the eyes). ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 304\">Yalk. Is. 304</cite> <he>זה העוֹצֵם עיניו כשעומדות וכ׳</he> he who closes his eyes when (he sees) Israelitish girls stand washing. Sifra K’dosh., Par. 3, ch. VII <he>יַעֲצוֹם</he>, v. infra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to be compressed, hard</i>,] <i>to be strong</i>, v. <cite ref=\"P01106\"><he>עָצוּם</he></cite> a. <cite ref=\"P01128\"><he>עֶצֶם</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"P01128\"><he>עֶצֶם</he></cite>) <i>to acquire, possess</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 64:10\">Gen. R. s. 64</cite> <he>שעָצַמְתָּ</he>, v. <cite ref=\"P01128\"><he>עֶצֶם</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱצִים"],
+			"senses": [
+				{
+					"gloss": "<i>to close</i> (the eyes). ",
+					"units": [
+						"<cite ref=\"Kiddushin 32b:11\">Kidd. 32ᵇ</cite> <he>יכול יַעֲצִים עיניו וכ׳</he> perhaps a man might think, he will close his eyes and pretend not to see him (the old man); <cite ref=\"Yalkut Shimoni on Torah 617\">Yalk. Lev. 617</cite>; Sifra l. c. <he>יעצום</he>. ",
+						"<cite ref=\"Mishnah Shabbat 23:5\">Sabb. XXIII, 5</cite> <he>מַעֲצִים</he>, v. <cite ref=\"P00915\"><he>עָמַץ</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["עִיצֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to close</i> (a dead body’s eyes), v. <cite ref=\"P00915\"><he>עָמַץ</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַצֵּם"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַצֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be closed</i>, v. <cite ref=\"P00915\"><he>עָמַץ</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be headstrong towards one another</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 31b:11\">Snh. 31ᵇ</cite> <he>שנים שנִתְעַצְּמוּ בדין וכ׳</he> if both parties to a law-suit are stubborn, one saying, let us go to law here, and the other saying, let us go to the circuit court."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " v. <cite ref=\"P00645\"><he>עִיצּוּם</he></cite> 3) <i>to fortify each other</i>, i.e. <i>to enter an agreement with the condition of forfeiture</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Metzia 1:16\">Tosef. B. Mets. I, 16</cite> <he>שנים שנתעצמו זה בזה ואמר וכ׳</he> if two made an agreement wherein one said, if I do not come &c."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

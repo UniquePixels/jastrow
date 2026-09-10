@@ -1,0 +1,61 @@
+{
+	"id": "A01023",
+	"slug": "אחי-1",
+	"headword": {
+		"text": "אחי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָחָה"
+		}
+	],
+	"page": {
+		"number": 39,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<cite ref=\"H00228\"><he>חו</he></cite>, cmp. <cite ref=\"H00012\"><he>חבב</he></cite>) <i>to unite</i>. Part. pass. <cite ref=\"H00309\"><he>אָחוּי</he></cite> <i>united</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13:15\">Num. R. s. 13</cite>, beg. <he>שיהיו אֲחוּיִים אצלו</he> they shall be united with him (around his table)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיחָה"],
+			"senses": [
+				{
+					"gloss": "<i>to join; to sew together</i> (with fine stitches); cmp. <cite ref=\"H00295\"><he>חוּט</he></cite>; <he>חוּד</he> I. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite> beg. <he>אברהם שאֹ׳ את וכ׳</he> Abraham who united all mankind into a brotherhood (by the belief in one God), <he>כזה שהוא מְאָחֶה וכ׳</he> like one who sews &c., v. infra. ",
+						"<cite ref=\"Shemot Rabbah 40\">Ex. R. s. 40</cite>, end.—Esp. <i>to mend, by stitching, the rent of the garment torn in mourning</i>. ",
+						"<cite ref=\"Moed Katan 22b\">M. Kat. 22ᵇ</cite>; a. fr. ",
+						"<cite ref=\"Moed Katan 26a:26\">Ib. 26ᵃ</cite> <he>לאַחוֹתָן</he> to stitch them together."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְאָחֶה", "נִתְאָחֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be joined; to be stitched together</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 13:15\">Num. R. s. 13</cite>, beg. (play on <he>אחותי</he> <cite ref=\"Song of Songs 5:1\">Cant. V, 1</cite>) <he>נִתְאָחוּ לי וכ׳</he> they were joined to me (I joined them) in the captivity. ",
+						"<cite ref=\"Bereishit Rabbah 68:11\">Gen. R. s. 68</cite> <he>מִתְאָחוֹת</he>, v. <cite ref=\"A00172\"><he>אֶבֶן</he></cite>. ",
+						"<cite ref=\"Moed Katan 26a\">M. Kat. 26ᵃ</cite> <he>אין מתאחין</he> must not be stitched together."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be joined by grafting, to grow together</i>. Y. Kil. I, 27ᵃ top <he>הן נתא׳ וכ׳</he> they (the two seeds) combine. Y. Shebi. II, end, 34ᵃ bot. Y. Orl. I, 61ᵃ bot.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa. a. Nithpa."
+		}
+	]
+}

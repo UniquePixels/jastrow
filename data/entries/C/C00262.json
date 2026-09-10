@@ -1,0 +1,28 @@
+{
+	"id": "C00262",
+	"slug": "גו-1",
+	"headword": {
+		"text": "גֵּו"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּו"
+		}
+	],
+	"page": {
+		"number": 216,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <he>גב</he>)<i>belly, body;</i> prep. <i>within, among</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 15a\">Keth. 15ᵃ</cite>; <cite ref=\"Bava Kamma 44b\">B. Kam. 44ᵇ</cite>, a. e. <he>זורק אבן לגו</he> one who throws a stone into (a crowd); <cite ref=\"Yalkut Shimoni on Torah 921:1\">Yalk. Deut. 921</cite> <he>לגוי</he> (corr. acc.). ",
+				"<cite ref=\"Ketubot 111a\">Keth. 111ᵃ</cite>; <cite ref=\"Kiddushin 44b:6\">Kidd. 44ᵇ</cite> <he>דברים בגו</he> there is something in it, v. <cite ref=\"C00031\"><he>גַּב</he></cite> end."
+			]
+		}
+	]
+}

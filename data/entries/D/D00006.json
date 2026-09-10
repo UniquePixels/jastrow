@@ -1,0 +1,27 @@
+{
+	"id": "D00006",
+	"slug": "דאב-2",
+	"headword": {
+		"text": "דְּאִב"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּאֵיב"
+		}
+	],
+	"page": {
+		"number": 275,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00005\">preced.</cite>) <i>languor, weariness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 28:65\">Targ. Y. II, Deut. XXVIII, 65</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "U01939",
+	"slug": "שרוול",
+	"headword": {
+		"text": "שַׁרְוָול"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁרְוָל"
+		}
+	],
+	"page": {
+		"number": 1628,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>workingman’s leather sleeve</i>; [oth. opin. in R. S.: <i>chest protector in hot weather</i> (as if derived from <he>שרב</he>)].—Pl. <he>שַׁרְוָולִים</he>, <he>שַׁרְוָולִין</he>, <cite ref=\"U01943\"><he>שַׁרְוָלִ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:3\">Kel. XXVI, 3</cite> <he>שרוו׳</he> Mish. (Talm. ed. <he>שרול׳</he>). [V. Fraenkel, Aram. Fremdw., p. 47.]"
+			]
+		}
+	]
+}

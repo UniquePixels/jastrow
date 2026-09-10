@@ -1,0 +1,29 @@
+{
+	"id": "I00635",
+	"slug": "טפזא",
+	"headword": {
+		"text": "טַפְזָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַוְוזָא"
+		}
+	],
+	"page": {
+		"number": 545,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00634\">preced.</cite>) <i>cony</i> or <i>rabbit</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:5\">Targ. O. Lev. XI, 5</cite> (ed. Berl. <he>טַבְ׳</he>, v. Berl. Massor. p. 86; Y. <cite ref=\"I00156\"><he>טַוְו׳</he></cite>); <cite ref=\"Onkelos Deuteronomy 14:7\">Targ. Deut. XIV, 7</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 12:9\">Gen. R. s. 12</cite> <he>הדין ט׳ מיגין וכ׳</he> the rabbit seeks protection under a projecting rock from the bird of prey &c.; <cite ref=\"Yalkut Shimoni on Nach 862:14\">Yalk. Ps. 862</cite>. —Pl. <cite ref=\"I00742\"><he>טַפְזַיָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:18\">Targ. Ps. CIV, 18</cite>."
+			]
+		}
+	]
+}

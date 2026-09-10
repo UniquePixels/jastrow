@@ -1,0 +1,34 @@
+{
+	"id": "P01418",
+	"slug": "ערער-2",
+	"headword": {
+		"text": "עִרְעֵר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1121,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P01341\"><he>עָרָה</he> I</cite>)<i>to lay bare, strip, denude; to make lonely</i>. Pesik. ʿĂniya, p. 134ᵇ (expl. <cite ref=\"O01303\"><he>סערה</he></cite>, <cite ref=\"Isaiah 54:11\">Is. LIV, 11</cite>) <he>מערערתא שעִרְעֲרוּהָ וכ׳</he> ‘the stripped’ (or lonely) one whom the nations have denuded (with ref. to <he>ערו</he>, <cite ref=\"Psalms 137:7\">Ps. CXXXVII, 7</cite>); Yalk. s. 339 <he>שעיר ערוה</he> (read: <he>שעִירְעֲרוּהָ</he>). ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 708:2\">Yalk. Num. 708</cite> (play on <he>המים המאררים למרים</he>, <cite ref=\"Numbers 5:24\">Num. V, 24</cite>) <he>שממררין את הגוף ומְעַרְעֲרִין את העון</he> (not <he>שממרין</he>) because they make the body bitter (sick), and lay the sin bare; <cite ref=\"Sifrei Bamidbar 11:1\">Sifré Num. 11</cite> <he>ומרעדים את העין</he> (corr. acc.); <cite ref=\"Bamidbar Rabbah 9:16\">Num. R. s. 9</cite> <he>שמאררים את הגוף ומבערין וכ׳</he> (corr. acc.; v., also, <cite ref=\"B01335\"><he>בָּרַר</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְעַרְעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be stripped, bare</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 102:4\">Midr. Till. to Ps. CII, 18</cite> (ref. to <cite ref=\"P01419\"><he>ערער</he></cite>, <cite ref=\"Midrash Tehillim 102:4\">ib.</cite>) <he>זה מנשה שנתע׳ ממעשים טובים</he> (some ed. <he>שערער</he>, corr. acc.; ed. Bub. <he>שחיה ער</he>, read <cite ref=\"P01423\"><he>עַרְעָר</he></cite>) this refers to Manasseh who was bare of good deeds.—V. <cite ref=\"P01423\"><he>עַרְעָר</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpalp."
+		}
+	]
+}

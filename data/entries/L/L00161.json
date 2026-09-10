@@ -1,0 +1,31 @@
+{
+	"id": "L00161",
+	"slug": "להט-2",
+	"headword": {
+		"text": "לְהַט"
+	},
+	"page": {
+		"number": 693,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"L00160\"><he>לַהֵט</he></cite> ch. same, <i>to heat</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 32:22\">Targ. Y. II, Deut. XXXII, 22</cite> <he>ולְהָטַת</he> (prob. to be read: <he>ולַהֲטת</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

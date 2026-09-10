@@ -1,0 +1,34 @@
+{
+	"id": "Q01342",
+	"slug": "פסע-2",
+	"headword": {
+		"text": "פְּסַע"
+	},
+	"page": {
+		"number": 1199,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01341\">same</cite>, <i>to walk with legs wide apart, waddle</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 20:8\">Targ. II Sam. XX, 8</cite> (h. text <he>ותפל</he>!), v. <cite ref=\"Q01304\"><he>פְּסִיעַ</he></cite>.—",
+				"<cite ref=\"Pesachim 111b:1\">Pes. 111ᵇ</cite> <he>האי מאן דפ׳ אדיקלא</he> (Ms. M. <he>דמִיפְּסַע</he> <i>Ithpe.</i>) he who steps over a (young) date palm.—V. <cite ref=\"Q01426\"><he>פְּצֵי</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּסַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to step heavily, pompously</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 105b:6\">Yeb. 105ᵇ</cite> <he>אגב יוקריה הוה מְפַסַּע ואזיל</he> on account of his heavy build he stepped in and walked (through the assembled students, making the impression of haughtiness), v. preced.—Y. Ber. II, 4ᶜ bot. <he>והוה … מְפַסַּע וכ׳</he> and R. J. stepped upon the graves."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "M01051",
+	"slug": "מטר-3",
+	"headword": {
+		"text": "מְטַר"
+	},
+	"page": {
+		"number": 769,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַמְטַר</he> <cite ref=\"M01050\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 2:5\">Targ. Y. Gen. II, 5</cite>. ",
+						"<cite ref=\"Onkelos Genesis 19:24\">Targ. O. ib. XIX, 24</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

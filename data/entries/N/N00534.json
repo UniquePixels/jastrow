@@ -1,0 +1,100 @@
+{
+	"id": "N00534",
+	"slug": "נחת-3",
+	"headword": {
+		"text": "נְחַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְחֵית"
+		}
+	],
+	"page": {
+		"number": 897,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00533\">same</cite>, <i>to go down</i>. Impf. <he>יֵחוֹת</he>, inf. <he>מֵיחָת</he>, <he>מֵיחוּת</he>, imper. <he>חוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 15:5\">Targ. Ex. XV, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 44:26\">Targ. Y. Gen. XLIV, 26</cite>; a. fr.—[<cite ref=\"Targum Jerusalem, Genesis 49:23\">Targ. Y. II, Gen. XLIX, 23</cite> <he>למִנְחֲתָא</he>, some ed. <he>למִנְחַתָּא</he>, read: <he>למְנַחֲתָא</he> <i>Pa.</i>]—",
+				"<cite ref=\"Shabbat 41a:4\">Sabb. 41ᵃ</cite> <he>כי נָחֵית</he> when one is going down (to bathe). ",
+				"<cite ref=\"Shabbat 41a:4\">Ib.</cite> <he>כי קא נָחֲתֵי</he> when they were going down. ",
+				"<cite ref=\"Megillah 25a:5\">Meg. 25ᵃ</cite> <he>ההוא דנ׳ וכ׳</he> a man went down (to the praying desk) in the presence of &c. ",
+				"<cite ref=\"Bava Kamma 39a\">B. Kam. 39ᵃ</cite> <he>נ׳ לעומק וכ׳</he> goes down to the depth of the law; a. fr.—",
+				"<cite ref=\"Bava Batra 133a:2\">B. Bath. 133ᵃ</cite> <he>נַחֲתָא לדיקלא</he> she seizes the palm-tree for her widowhood, v. <cite ref=\"J00597\"><he>יָרַד</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַחֵית"],
+			"senses": [
+				{
+					"gloss": "<i>to put down</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 47a:5\">Yoma 47ᵃ</cite> <he>ונַחֲתֵיה וכ׳</he> and let him put down the pan; v. <he>חֲתֵי</he> I."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lower, remove</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 49:23\">Targ. Y. II, Gen. XLIX, 23</cite> (v. supra; Y. I <he>למַחְתָּא</he> <i>Af.</i>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָחֵית", "אַנְחֵית"],
+			"senses": [
+				{
+					"gloss": "<i>to put down, rest; to let come down</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 28:56\">Targ. O. Deut. XXVIII, 56</cite> (h. text <he>הַצֵּג</he>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 49:23\">Targ. Y. I Gen. XLIX, 23</cite>, v. supra. ",
+						"<cite ref=\"Onkelos Genesis 2:5\">Targ. O. ib. II, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 23:15\">Targ. Ez. XXIII, 15</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"M00948\"><he>מַחַת</he></cite> (<he>מָחֵית</he>); f. <he>מַתֲתָא</he>; pl. <he>מַחֲתִין</he>; <he>מַחֲתָן</he> <i>placed, resting, lying; inlaid</i>. ",
+						"<cite ref=\"Onkelos Genesis 8:11\">Targ. O. Gen. VIII, 11</cite> (ed. Vien. <he>נָחִית</he>; Y. <cite ref=\"M00880\"><he>מְחִית</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 24:1\">Targ. Jer. XXIV, 1</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite>; a. fr.—Pesik. B’shall., p. 91ᵃ <he>והוא מַנְחֵית לכון</he> and he will take bread down out of the oven (cmp. <cite ref=\"T00243\"><he>רָדָה</he> II</cite>). ",
+						"<cite ref=\"Taanit 21b:15\">Taan. 21ᵇ</cite> <he>הוה מָחֵית גברי וכ׳</he> used to place men apart &c. ",
+						"<cite ref=\"Shabbat 101a:3\">Sabb. 101ᵃ</cite> <he>גוד אָחֵית וכ׳</he>, v. <cite ref=\"N00118\"><he>נְגַד</he></cite>. ",
+						"<cite ref=\"Nedarim 91b:4\">Ned. 91ᵇ</cite> <he>הוו מַחֲתָן תחלי וכ׳</he> cress was deposited there. ",
+						"<cite ref=\"Bava Batra 69a:2\">B. Bath. 69ᵃ</cite>, a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְנְחַת"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִיתָּחַת"],
+			"senses": [
+				{
+					"gloss": "<i>to be brought down</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 39:1\">Targ. Gen. XXXIX, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 31:17\">Targ. Ez. XXXI, 17</cite>; a. fr.—Y. Peah XIII, 21ᵃ bot. <he>איתנחת מן ניכסוי</he> became poor, v. <cite ref=\"J00597\"><he>יָרַד</he></cite>; Y. Keth. XI, 34ᵇ bot."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (of an argument) <i>to be settled</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 129a:8\">B. Bath. 129ᵃ</cite> <he>אִנַּחֲתַת לן חדא</he>, v. <cite ref=\"N00340\"><he>נוּחַ</he></cite> <i>Ithpe.</i>"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

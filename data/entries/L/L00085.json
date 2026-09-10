@@ -1,0 +1,35 @@
+{
+	"id": "L00085",
+	"slug": "לבלב-2",
+	"headword": {
+		"text": "לַבְלֵב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 689,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"L00084\">same</cite> <cite ref=\"Aramaic Targum to Psalms 1:3\">Targ. Ps. I, 3</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:19\">Targ. Job. VIII, 19</cite>; a. e.—",
+				"<cite ref=\"Avodah Zarah 38b:9\">Ab. Zar. 38ᵇ</cite> <he>אדנפקו מְלַבְלְבֵי</he> by the time they leave (the bathroom), the seeds blossom."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְלַבְלֵב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00084\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 92:8\">Targ. Ps. XCII, 8</cite>."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

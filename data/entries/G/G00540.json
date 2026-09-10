@@ -1,0 +1,31 @@
+{
+	"id": "G00540",
+	"slug": "זמר-2",
+	"headword": {
+		"text": "זְמַר"
+	},
+	"page": {
+		"number": 405,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"G00514\"><he>אַזְמֵיר</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Sheviit 4:1:6\">Y. Shebi. IV, 35ᵃ</cite> <he>חמא חד אַ׳ וכ׳</he> (not <cite ref=\"A00987\"><he>איז׳</he></cite>) saw one prune &c. (in the Sabbatical year)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

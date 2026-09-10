@@ -1,0 +1,34 @@
+{
+	"id": "M01463",
+	"slug": "מלא-4",
+	"headword": {
+		"text": "מָלֵא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְלֵאָה"
+		},
+		{
+			"text": "מְלֵיאָה"
+		}
+	],
+	"page": {
+		"number": 785,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>full</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:20\">Ab. IV, 20</cite> <he>יש … מ׳ ישן</he> many a new vessel is full of old wine (many a young man is full of wisdom). ",
+				"<cite ref=\"Megillah 6a:7\">Meg. 6ᵃ</cite> (ref. to <cite ref=\"Ezekiel 26:2\">Ez. XXVI, 2</cite>) <he>אם מ׳ זו חרבה זו</he> when one (of the two cities, Jerusalem and Caesarea) is full, the other is waste; a. fr.—Esp. <i>a full month</i>, of thirty days. ",
+				"<cite ref=\"Bekhorot 58a:6\">Bekh. 58ᵃ</cite> <he>זימנין מ׳ וכ׳</he> at times (in some years) it is full, at times defective, v. <cite ref=\"H01413\"><he>חָסֵר</he></cite>; a. fr.—Pl. <he>מְלֵאִים</he>, <he>מְלֵאִין</he>, <cite ref=\"M01543\"><he>מְלֵי׳</he></cite>; f. <he>מְלֵאוֹת</he>, <cite ref=\"M01543\"><he>מְלֵי׳</he></cite>. ",
+				"<cite ref=\"Berakhot 57a:3\">Ber. 57ᵃ</cite>; <cite ref=\"Eruvin 19a:23\">Erub. 19ᵃ</cite>, a. e. <he>מ׳ מצות כרמון</he> are full of good deeds as a pomegranate (is full of seeds); a. fr.—[<cite ref=\"M01465\"><he>מְלֵאָה</he></cite> as a noun, v. <cite ref=\"M01547\"><he>מְלֵיאָה</he></cite>.]"
+			]
+		}
+	]
+}

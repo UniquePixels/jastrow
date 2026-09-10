@@ -1,0 +1,22 @@
+{
+	"id": "D00329",
+	"slug": "דוקיא",
+	"headword": {
+		"text": "דּוּקְיָא"
+	},
+	"page": {
+		"number": 288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דוק</he>) <i>evidence by conclusion, exact meaning</i>. Keth. 31ᵇ <he>בד׳ דהא וכ׳</he> they differ as to the conclusion to be drawn from this Mishnah. ",
+			"units": [
+				"<cite ref=\"Zevachim 31b\">Zeb. 31ᵇ</cite> (Rashi: <cite ref=\"D00533\"><he>דְּיוּקָא</he></cite>)."
+			]
+		}
+	]
+}

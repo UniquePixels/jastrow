@@ -1,0 +1,23 @@
+{
+	"id": "M01842",
+	"slug": "מסבך",
+	"headword": {
+		"text": "מַסְבֵּךְ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 803,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00063\"><he>סָבַךְ</he></cite>) <i>a netted, meshy plant</i>, perh. <i>pine-cone</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 3:3\">Par. III, 3</cite> <he>קושרין מקל ומ׳ וכ׳</he> (Var. <he>או מ׳</he>) they tied (to the top of the rope) a stick with a cone (to which the ashes would adhere)."
+			]
+		}
+	]
+}

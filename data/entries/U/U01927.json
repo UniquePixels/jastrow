@@ -1,0 +1,48 @@
+{
+	"id": "U01927",
+	"slug": "שרגג",
+	"headword": {
+		"text": "שַׁרְגֵּג"
+	},
+	"page": {
+		"number": 1628,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Parel of <cite ref=\"U00210\"><he>שגג</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to go astray</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 5:20\">Targ. Prov. V, 20</cite> (h. text <he>שגה</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lead astray, entice</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 22:15\">Targ. Y. Ex. XXII, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:36\">Targ. Ps. LXXVIII, 36</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּרְגֵּג"],
+			"senses": [
+				{
+					"gloss": "<i>to be led astray, enticed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 24:28\">Targ. Prov. XXIV, 28</cite> ed. Lag. (ed. Wil., a. Ms. <he>ותשרגג</he>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 25:15\">Ib. XXV, 15</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 31:9\">Targ. Job XXXI, 9</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

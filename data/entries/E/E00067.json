@@ -1,0 +1,50 @@
+{
+	"id": "E00067",
+	"slug": "הגי-2",
+	"headword": {
+		"text": "הגי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲגָא"
+		}
+	],
+	"page": {
+		"number": 331,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"E00066\">same</cite>; <i>to reason, speak, study</i>. Part. <he>הָגֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 1:8\">Targ. Josh. I, 8</cite>.—Pl. <he>הַגְיָין</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 6:7\">Targ. Y. Deut. VI, 7</cite>. [<cite ref=\"Targum Jonathan on Numbers 11:1\">Targ. Y. Num. XI, 1</cite>, v. next w.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַהֲגֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"E00066\">same</cite>; Y. Ber. V, 9ᵃ <he>הוא מַהֲגֵי באורייתא סגין</he> ed. Lehm. (ed. <he>מנהגו</he>, <he>מנהגיה</he>) meditated much in the Law.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["הַגֵּי"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"E00066\">preced.</cite> <i>Pi.</i>) <i>to sting, to point at with scorn</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 27:8\">Targ. Is. XXVII, 8</cite> <he>מַגֵּי עליהון וכ׳</he> (ed. Lag. <he>מיגי</he>, Bxt. <cite ref=\"E00067\"><he>הֲגֵי</he></cite>, ed. Wil. <cite ref=\"E00675\"><he>הני</he></cite>, corr. acc.) he pointed at them with words (of scorn)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

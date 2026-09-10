@@ -1,0 +1,35 @@
+{
+	"id": "U01124",
+	"slug": "שכובתא",
+	"headword": {
+		"text": "שְׁכוּבְתָּא"
+	},
+	"page": {
+		"number": 1571,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U01120\"><he>שְׁכֹבֶת</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lying with, sexual connection</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 18:20\">Targ. O. Lev. XVIII, 20</cite>; <cite ref=\"Onkelos Leviticus 18:23\">23</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 20:15\">Ib. XX, 15</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>effusion of semen</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 15:16\">Targ. O. Lev. XV, 16</cite>, sq.; v. <cite ref=\"U01121\"><he>שִׁכְבְּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

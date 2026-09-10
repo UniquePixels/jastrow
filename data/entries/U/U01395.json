@@ -1,0 +1,22 @@
+{
+	"id": "U01395",
+	"slug": "שלשית",
+	"headword": {
+		"text": "שְׁלשִׁית"
+	},
+	"page": {
+		"number": 1589,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01386\"><he>שָׁלשׁ</he></cite>) <i>three years old, in its third year</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 1:1\">Par. I, 1</cite>, v. <cite ref=\"U01337\"><he>שְׁלִישִׁי</he></cite>."
+			]
+		}
+	]
+}

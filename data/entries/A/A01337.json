@@ -1,0 +1,24 @@
+{
+	"id": "A01337",
+	"slug": "אימטין",
+	"headword": {
+		"text": "אִימְּטִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 50,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>איתמ׳</he>, play on <cite ref=\"M01125\"><he>מִיטָּה</he></cite> and <cite ref=\"A02021\"><he>אמיטתא</he></cite>) <i>those who go to bed with the setting in of darkness</i> (a witty expression made up in oppos. to <he>שיחרין</he>, v. <cite ref=\"U00705\"><he>שְׁחַר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 47\">Ex. R. s. 47</cite> <he>למדו תורה דא׳</he> learn the teachings of those who rested well by night (as better fitted to teach)."
+			]
+		}
+	]
+}

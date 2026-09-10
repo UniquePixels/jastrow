@@ -1,0 +1,26 @@
+{
+	"id": "P00133",
+	"slug": "עדי-6",
+	"headword": {
+		"text": "עֲדִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1044,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00128\"><he>עָדָה</he> I)</cite><i>that which is carried</i> or <i>put on, cloak, ornament</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 12b:2\">Meg. 12ᵇ</cite> bot., v. <cite ref=\"K01386\"><he>כָּתַר</he></cite>. ",
+				"<cite ref=\"Esther Rabbah 9:1\">Esth. R. to V, 1</cite> <he>ע׳ תפארתה</he> her cloak of state. ",
+				"<cite ref=\"Esther Rabbah 9:1\">Ib.</cite> <he>סומכת עֶדְיָהּ</he> supporting her cloak (trail); a. e.—Pl. <he>עֲדָיִים</he>. ",
+				"<cite ref=\"Avodah Zarah 24b:17\">Ab. Zar. 24ᵇ</cite> <he>מפוארת בעדי ע׳</he> adorned with the choicest ornaments."
+			]
+		}
+	]
+}

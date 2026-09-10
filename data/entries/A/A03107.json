@@ -1,0 +1,26 @@
+{
+	"id": "A03107",
+	"slug": "אריס-1",
+	"headword": {
+		"text": "אָרִיס",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 120,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ארס</he>) <i>something tied to the body</i> (περίαμμα), whence <i>an emblem set in a ring or chain</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Deuteronomy 6:8\">Deut. VI, 8</cite>; <cite ref=\"Proverbs 6:21\">Prov. VI, 21</cite>, also Sm. Ant. s. v. Amuletum). . ",
+				"<cite ref=\"Devarim Rabbah 3:7\">Deut. R. s. 3</cite> <he>הכניסה לו שנים א׳</he> (read <cite ref=\"U01585\"><he>שני</he></cite>) brought into his house two emblems (of faith); the king, too, <he>זקף לה כנגדן שני א׳</he> had two corresponding emblems set for her. ",
+				"<cite ref=\"Devarim Rabbah 3:7\">Ib.</cite> Abraham delivered to his children <he>שני א׳</he> two emblems (which they should guard, <cite ref=\"Genesis 18:19\">Gen. XVIII, 19</cite>)."
+			]
+		}
+	]
+}

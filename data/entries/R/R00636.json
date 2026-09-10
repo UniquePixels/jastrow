@@ -1,0 +1,43 @@
+{
+	"id": "R00636",
+	"slug": "צנן-2",
+	"headword": {
+		"text": "צְנַן"
+	},
+	"page": {
+		"number": 1292,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00635\">same</cite>, <i>to be cold</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 4:11:5\">Y. Yeb. IV, 6ᵃ</cite> bot. <he>עד דלא תִצְנַן</he> before she cools off (her throes of birth die away); (<cite ref=\"Bereishit Rabbah 20:6\">Gen. R. s. 20</cite> <he>שמא תיצון ותמות</he> lest she get cold and die)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַצֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to make cold</i>. Y. Sabb. IV, 6ᵈ [read:] <he>ההן חלא מרתיח רתחא ומַצֵּין צוננה</he> sand heats a warm object buried in it, and makes a cold object colder.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִצְטַן"],
+			"senses": [
+				{
+					"gloss": "<i>to be cold, have chills</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 129a:9\">Sabb. 129ᵃ</cite> <he>ואִצְטַנִּיאַת</he> (missing in Mss. M. a. O., v. Rabb. D. S. a. l. notes 80, 90) she got chills."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "O00906",
+	"slug": "סכך-4",
+	"headword": {
+		"text": "סְכָךְ"
+	},
+	"page": {
+		"number": 990,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סָכַךְ</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>overhanging boughs</i> or <i>twigs</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:3\">Tosef. Kel. B. Mets. III, 3</cite> <he>חותך בה את הס׳</he> he cuts the twigs (trims the trees) with it. ",
+				"<cite ref=\"Tosefta Niddah 9:13\">Tosef. Nidd. IX, 13</cite> <he>יושב על גבי ס׳</he> sitting on boughs (in which there is a seat of uncleanness), v. <cite ref=\"O00908\"><he>סְכָכָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ceiling of twigs</i> or <i>matting</i>, esp. <i>the cover of the festive booth</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 17a:10\">Succ. 17ᵃ</cite> <he>סְכָכָן ס׳ כשר הוא</he> their cover is a proper one (such as is prescribed for the Succah); <he>סְכָכָהּ ס׳ פסול הוא</he> its cover is an unfit one; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Maasrot 5:2:6\">Y. Maasr. V, 51ᵈ</cite> bot. <he>זרע בבית והעביר הס׳</he> if he planted in a covered space and (after the seed reached a certain stage) removed the ceiling; [strike out the following <he>וסיכך על גביו</he>].—Pl. <he>סְכָכִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:5:4\">Y. Succ. I, 52ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

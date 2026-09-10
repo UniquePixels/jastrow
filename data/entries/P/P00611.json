@@ -1,0 +1,28 @@
+{
+	"id": "P00611",
+	"slug": "עינוי-1",
+	"headword": {
+		"text": "עִינּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִנּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1072,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עָנָה</he> I) <i>chorus of lamentation, dirge</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 3:9\">M. Kat. III, 9</cite> (ref. to <he>מְעַנּוֹת</he> <cite ref=\"Mishnah Moed Katan 3:9\">ib.</cite>) <he>איזהו ע׳ וכ׳</he> when is a lamentation called <i>ʿinnuy?</i> When all begin at once, contrad. to <he>קינה</he>, when one speaks and the chorus responds."
+			]
+		}
+	]
+}

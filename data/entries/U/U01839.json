@@ -1,0 +1,25 @@
+{
+	"id": "U01839",
+	"slug": "שקופא",
+	"headword": {
+		"text": "שְׁקוֹפָא"
+	},
+	"page": {
+		"number": 1621,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01838\">same</cite><i>door posts with arch.—</i>Pl. <he>שְׁקוֹפֵי</he>. ",
+			"units": [
+				"<cite ref=\"Menachot 33b:8\">Men. 33ᵇ</cite> (Ms. R. 1, a. Rashi <he>שקפי</he>; Ms. R. 2 <he>שיקמי</he>, v. Rabb. D. S. a. l. note 9); <cite ref=\"Eruvin 11a:12\">Erub. 11ᵃ</cite> <he>שקפי</he> (Rashi <he>שיקפי</he>), v. <cite ref=\"U00956\"><he>שִׁימָּאָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lintel</i>, v. <cite ref=\"U01883\"><he>שַׁקְפָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

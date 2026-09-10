@@ -1,0 +1,31 @@
+{
+	"id": "V00791",
+	"slug": "תער-1",
+	"headword": {
+		"text": "תָּעַר"
+	},
+	"page": {
+		"number": 1684,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Tafel of <cite ref=\"P00343\"><he>עוּר</he></cite>) <i>to be awake</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תִּיעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to awaken, stir up</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 60:3\">Midr. Till. to Ps. LX, 5</cite> (ref. to <he>יין ת̇ר̇ע̇ל̇ה̇</he>) <he>יין הוא מת̇ע̇ר̇ את העולם שית̇יר̇ ע̇ול̇ה וכ׳</he> wine which stirs the world up to loosen the yoke of the Law."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

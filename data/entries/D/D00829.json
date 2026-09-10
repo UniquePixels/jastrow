@@ -1,0 +1,49 @@
+{
+	"id": "D00829",
+	"slug": "דלי-3",
+	"headword": {
+		"text": "דֳּלִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּלִי"
+		}
+	],
+	"page": {
+		"number": 310,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"D00811\"><he>דָּלָה</he></cite>)<i>bucket</i>, also used as <i>cover</i> of the well. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 51b:15\">B. Kam. 51ᵇ</cite> <he>משימסור לו דָּלְיוֹ</he> from the moment he delivers his bucket (Rashi: cover) to him; <cite ref=\"Jerusalem Talmud Kiddushin 1:4:3\">Y. Kidd. I, 60ᵇ</cite> top; Y. B. Bath. III, beg. 13ᵈ <he>דָּלְייוֹ</he>. ",
+				"<cite ref=\"Tosefta Berakhot 4:16\">Tosef. Ber. IV, 16</cite> <he>ד׳ של צונן</he> a bucket of cold water; a. fr.—Pl. <he>דֳּלָיִים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 45:6\">Gen. R. s. 45</cite>, v. <cite ref=\"B00965\"><he>בַּנְרִיּוֹת</he></cite>. [Y. B. Bath. l. c. (perhaps) <he>דָּלְיָיו</he>]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Aquarius</i>, a sign of the zodiac. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 418:1\">Yalk. Ex. 418</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>בֵּית ד׳</he> pr. n. pl. <i>Beth Doli</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 16:7\">Yeb. XVI, 7</cite>; <cite ref=\"Mishnah Eduyot 8:5\">Eduy. VIII, 5</cite> (Ms. M. <he>מדלי</he>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>tangle</i>, v. <cite ref=\"D00832\"><he>דָּלִיל</he></cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

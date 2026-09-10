@@ -1,0 +1,31 @@
+{
+	"id": "B00009",
+	"slug": "באגא",
+	"headword": {
+		"text": "בָּאגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּגָא"
+		}
+	],
+	"page": {
+		"number": 134,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בוג</he> dial. for <he>בוק</he>, cmp. <he>בקע</he>) <i>valley, plain;</i> (= h. <cite ref=\"B01131\"><he>בִּקְעָה</he></cite>) <i>a group of fields belonging to several owners, rural community</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 29a:11\">B. Bath. 29ᵃ</cite> one single field <he>בכוליה בא׳</he> (Ms. H. a. O. <he>בכולֵה</he>) in the whole plain. ",
+				"<cite ref=\"Bava Metzia 22b:9\">B. Mets. 22ᵇ</cite> <he>ב׳ בארעא וכ׳</he> we need not presume an entire plain to be the property of minors; a. e.—Pl. <he>בָּאגֵי</he>, <he>בָּגֵי</he>. ",
+				"<cite ref=\"Pesachim 8b\">Pes. 8ᵇ</cite> those students <he>דדיירי בב׳</he> that are lodged in the rural districts (and come to town for their studies). ",
+				"<cite ref=\"Bava Kamma 113b:15\">B. Kam. 113ᵇ</cite> (v. Rabb. D. S. a. l. for diff. vers.). ",
+				"<cite ref=\"Bava Metzia 73a:10\">B. Mets. 73ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

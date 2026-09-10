@@ -1,0 +1,22 @@
+{
+	"id": "I00382",
+	"slug": "טימין-1",
+	"headword": {
+		"text": "טִימִין",
+		"homograph": 1
+	},
+	"page": {
+		"number": 532,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl., constr. <cite ref=\"I00378\"><he>טִימֵי</he></cite> (Chaldaism, v. <cite ref=\"I00545\"><he>טַמְיָא</he></cite>) <i>bones</i>. Tanḥ. Mick. 2 (play on <he>חרט̇מ̇ים</he>, <cite ref=\"Daniel 2:2\">Dan. II, 2</cite>) <he>אלו בטִימֵי מתים …</he> those who consult the bones of the dead.",
+			"units": []
+		}
+	]
+}

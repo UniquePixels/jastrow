@@ -1,0 +1,30 @@
+{
+	"id": "B00469",
+	"slug": "בזרנא",
+	"headword": {
+		"text": "בִּזְרָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיזְרָנָא"
+		}
+	],
+	"page": {
+		"number": 154,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (collect. noun, v. <cite ref=\"B00468\">preced.</cite>); pl. <he>בִּזְרָנֵי</he>, <cite ref=\"B00125\"><he>בִּי׳</he></cite> <i>various seeds</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 39a:12\">Kidd. 39ᵃ</cite>. ",
+				"<cite ref=\"Chullin 60b:6\">Ḥull. 60ᵇ</cite>; v. <cite ref=\"B00468\">preced.</cite> ",
+				"<cite ref=\"Beitzah 15a:2\">Bets. 15ᵃ</cite> <he>דב׳</he> (<he>צררי</he>) the folds (pockets) wherein the seeds are carried. ",
+				"<cite ref=\"Gittin 68b:7\">Gitt. 68ᵇ</cite>"
+			]
+		}
+	]
+}

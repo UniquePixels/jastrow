@@ -1,0 +1,42 @@
+{
+	"id": "O00068",
+	"slug": "סבכה",
+	"headword": {
+		"text": "סְבָכָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׂ׳"
+		}
+	],
+	"page": {
+		"number": 950,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"O00068\"><he>שְׂ׳</he></cite>) 1) <cite ref=\"O00067\">same</cite>.) ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"O00067\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 4:11\">Tosef. Sabb. IV</cite> (<cite ref=\"Tosefta Shabbat 5:11\">V</cite>), 11 <he>ס׳ המוזהבת</he> (ed. Lag. <cite ref=\"O00067\"><he>סבכא</he></cite>, Var. <he>ספכא</he>, corr. acc.) a gold-embroidered hair net; <cite ref=\"Shabbat 57b\">Sabb. 57ᵇ</cite>. Y. ib. VI, 8ᵇ bot.; <cite ref=\"Mishnah Negaim 11:11\">Neg. XI, 11</cite>, a. fr. <he>שביס של ס׳</he>, v. <cite ref=\"U00124\"><he>שָׁבִיס</he></cite>; <cite ref=\"Tosefta Keilim Batra 5:15\">Tosef. Kel. B. Bath. V, 15</cite> <he>שביס של ש׳</he>. Sabb. l. c. <he>כל שהוא למטה מן הש׳</he> whatever ornament is worn beneath the net; ib. 65ᵃ <he>הס׳</he>; (Tosef. ib. IV (V), 7 <he>חיפוי שלמטה משערה</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>any net-work, mat</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 28:9\">Kel. XXVIII, 9</cite> <he>ס׳ של זקנה</he> the old woman’s net-work (mat to sit upon, v. Maim. a. l.). ",
+				"<cite ref=\"Mishnah Kelim 28:9\">Ib.</cite> <he>חלוק … העשוי כס׳</he> the public woman’s shirt which is like net-work (gauze, v. <cite ref=\"H00430\"><he>חוּץ</he> II</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:23\">Y. Ter. VIII, 45ᵈ</cite> <he>אירס … עומד כס׳</he> the venom of the serpent remains on top (of liquids) as a net-like film; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:2\">Y. Ab. Zar. II, 41ᵈ</cite> top <he>דומה לש׳</he>; <cite ref=\"Jerusalem Talmud Shabbat 1:4:8\">Y. Sabb. I, 3ᵈ</cite> top <he>עשוי כש׳</he>; a. fr.—Ib. VI, 7ᵈ <cite ref=\"I00034\"><he>טבוסה</he></cite>, read <cite ref=\"U00139\"><he>שבכה</he></cite>, v. <cite ref=\"K00041\"><he>כָּבוּל</he> II</cite>.—Pl. <he>סְבָכוֹת</he>, <cite ref=\"O00068\"><he>שְׂ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 24:16\">Kel. XXIV, 16</cite>; <cite ref=\"Tosefta Keilim Batra 2:10\">Tosef. Kel. B. Bath. II, 10</cite> <he>שלש ס׳ הן וכ׳</he> there are three categories of nets with regard to levitical cleanness; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

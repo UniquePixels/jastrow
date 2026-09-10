@@ -1,0 +1,43 @@
+{
+	"id": "N00849",
+	"slug": "נכש-2",
+	"headword": {
+		"text": "נְכַשׁ"
+	},
+	"page": {
+		"number": 912,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00848\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"N00830\"><he>נַכֵּישׁ</he></cite> <i>to bite</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite> <he>כן … מְנַכְּשָׁא … ואכלה וכ׳</he> so may this woman (I) take a bite of the flesh of this and eat; (<cite ref=\"Yalkut Shimoni on Torah 148\">Yalk. Gen. 148</cite> only <cite ref=\"A01703\"><he>אכלה</he></cite>); v. <cite ref=\"N00852\"><he>נְכַת</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַנְכֵּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to weed</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 105a:6\">B. Mets. 105ᵃ</cite> <he>מַנְכִּישְׁנָא וכ׳</he> I shall weed as much as is required for thy share."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

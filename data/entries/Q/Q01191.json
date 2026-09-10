@@ -1,0 +1,51 @@
+{
+	"id": "Q01191",
+	"slug": "פני-4",
+	"headword": {
+		"text": "פְּנֵי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּנֵי"
+		},
+		{
+			"text": "פַּנְיָא"
+		},
+		{
+			"text": "פַּנְיָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1188,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. = h. <cite ref=\"Q01167\"><he>פָּנוּי</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>free</i> (from service). ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 24:5\">Targ. Deut. XXIV, 5</cite> (O. ed. Berl. <cite ref=\"Q01427\"><he>פְּ׳</he></cite>; h. text <cite ref=\"N01193\"><he>נקי</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>empty</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 65:13\">Gen. R. s. 65</cite>, v. <cite ref=\"O00316\"><he>סוּלְגִּיתָא</he></cite>; <cite ref=\"Kohelet Rabbah 5:10:1\">Koh. R. to V, 10</cite>; <cite ref=\"Yalkut Shimoni on Torah 115\">Yalk. Gen. 115</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>turning around, restless</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 18:9\">Midr. Till. to Ps. XVIII, 5</cite> (expl. <he>אפפוני</he> <cite ref=\"Midrash Tehillim 18:9\">ib.</cite>) <he>פניא אנא מן עקיא</he> (ed. Bub. <he>פנייא מן עקתא אנא</he>) I am restless on account of troubles."
+			],
+			"label": "3"
+		}
+	]
+}

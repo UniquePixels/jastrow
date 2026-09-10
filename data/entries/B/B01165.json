@@ -1,0 +1,34 @@
+{
+	"id": "B01165",
+	"slug": "ברבי",
+	"headword": {
+		"text": "בְּרַבִּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרִיבִּי"
+		}
+	],
+	"page": {
+		"number": 189,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>בי רבי</he>, <i>belonging to a school of an eminent teacher</i>, v. <cite ref=\"B00536\"><he>בֵּי</he></cite> 4) <i>B’rabbi, B’ribbi</i>, title of scholars, most frequently applied to disciples of R. Judah han-Nasi and his contemporaries, but also to some of his predecessors, and sometimes to the first Amoraim, v. <cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 85a:9\">B. Mets. 85ᵃ</cite> <he>אסמכיה ב׳</he> he gave him the title of B’rabbi (a scholar of Rabbi Judah). ",
+				"<cite ref=\"Chullin 137a:21\">Ḥull. 137ᵃ</cite> <he>דברי ברי׳</he> (ref. to R. Yosé). ",
+				"<cite ref=\"Chullin 11b:8\">Ib. 11ᵇ</cite> <cite ref=\"B01165\"><he>ברבי</he></cite>; <cite ref=\"Makkot 5b:10\">Macc. 5ᵇ</cite> <he>בריבי</he> (v. Rabb. D. S. a. l. note 100). ",
+				"<cite ref=\"Shabbat 115a:7\">Sabb. 115ᵃ</cite> <he>רבן גמליאל ברי׳</he> (<cite ref=\"Tosefta Shabbat 13:2\">Tosef. ib. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:2\">XIV</cite>), 2; Mass. Sofrim V, 15 only <he>ר׳ גמ׳</he>) R. Gaml. son of R. Judah han-Nasi. ",
+				"<cite ref=\"Eruvin 53a:18\">Erub. 53ᵃ</cite> <he>רבי אושעיא ברי׳</he> (Ms. M. <he>ברב׳</he>, v. Rabb. D. S. a. l. notes 70; <cite ref=\"Eruvin 80a:8\">80</cite>) R. O. scholar of Rabbi Jud. han-N.—",
+				"<cite ref=\"Sifrei Devarim 1:18\">Sifré Deut. 1</cite>, end <he>יהודה ברב׳</he> (<cite ref=\"Yalkut Shimoni on Torah 792:1\">Yalk. ib. 792</cite> only <he>יהודה</he>). ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:14\">Y. M. Kat. III, 82ᶜ</cite> bot.; <cite ref=\"Bereishit Rabbah 100:7\">Gen. R. s. 100</cite> <he>חד בר׳ אמר</he> a student (Amora) recited &c. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:10:5\">Y. Sot. VIII, end, 23ᵃ</cite> <he>לית רבי ב׳</he> [insert <cite ref=\"A00516\"><he>או</he></cite>] not even a teacher or a student was exempt. [<cite ref=\"Sanhedrin 17b:6\">Snh. 17ᵇ</cite> <he>רמי בר ברבי</he>, read <cite ref=\"B01197\"><he>ברוכי</he></cite>.]"
+			]
+		}
+	]
+}

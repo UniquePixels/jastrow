@@ -1,0 +1,54 @@
+{
+	"id": "G00578",
+	"slug": "זני-1",
+	"headword": {
+		"text": "זני"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָנָה"
+		}
+	],
+	"page": {
+		"number": 406,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>to run to and fro, wander;</i>] (with <he>אחר</he>) <i>to run after</i>, (with <he>מאחרי</he>) <i>to run away from;</i> esp. <i>to run about as a prostitute, to be faithless, be unchaste</i> (cmp. ch. <he>נפקת ברא</he> for <cite ref=\"G00198\"><he>זוֹנָה</he></cite>, a. <cite ref=\"I00601\"><he>טעי</he></cite> for our w.). ",
+			"units": [
+				"<cite ref=\"Shabbat 55b:9\">Sabb. 55ᵇ</cite> (play on <he>פ̇ח̇ז̇</he>, <cite ref=\"Genesis 49:4\">Gen. XLIX, 4</cite>) <he>פ̇סעת … ח̇טאת זָ֗נִיתָ</he> thou hast trespassed upon religion, sinned, been unchaste (v. <cite ref=\"G00174\"><he>זוּל</he></cite>).—",
+				"<cite ref=\"Sanhedrin 100b:5\">Snh. 100ᵇ</cite> <he>שמא תִזְנֶה</he> lest she may go astray (be seduced); a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to commit an offense</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 6b\">Gitt. 6ᵇ</cite> explain. <he>ותזנה עליו</he>, <cite ref=\"Judges 19:2\">Jud. XIX, 2</cite>, cmp. Targ. a. l."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִינָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"G00577\">same</cite>, also <i>to invite faithlessness, to excite the senses</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 88b:2\">Sabb. 88ᵇ</cite> <he>עלובה כלה מְזַנָּה בתוך חופתה</he> (v. Rabb. D. S. a. l.) bold is the bride who thinks of faithlessness while getting married; <cite ref=\"Gittin 36b:11\">Gitt. 36ᵇ</cite> <he>שזִינְּתָה בקרב וכ׳</he>. ",
+						"<cite ref=\"Sotah 10a:7\">Sot. 10ᵃ</cite> <he>כל המְזַנֶּה … מְזַנֶּנֶת עליו</he> if a man is lewd, his wife will think of faithlessness against him; <cite ref=\"Yalkut Shimoni on Nach 918\">Yalk. Job 918</cite> <he>מְזַנָּה תחתיו</he>. ",
+						"<cite ref=\"Megillah 15a:8\">Meg. 15ᵃ</cite> <he>רחב בשמה זִינְּתָה וכ׳</he> Raḥab suggested impure thoughts by her name (<i>Raḥab hazzonah</i>), Jael with her call (<cite ref=\"Judges 4:18\">Jud. IV, 18</cite>) &c., v. <cite ref=\"G00464\"><he>זְכִירָה</he></cite>; a. fr.—Trnsf. (of plants) <i>to degenerate</i>. ",
+						"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite>, end <he>אף הארץ זינתה</he> the earth, too, became degenerated in her produces; v. <cite ref=\"G00201\"><he>זוֹנַיָּיא</he></cite>. Y. Kil. I, beg. 26ᵈ <he>הפירות מְזַנִּין</he> the produces may degenerate (ref. to <cite ref=\"Leviticus 19:29\">Lev. XIX, 29</cite>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

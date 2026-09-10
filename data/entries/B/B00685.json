@@ -1,0 +1,23 @@
+{
+	"id": "B00685",
+	"slug": "ביצירתא",
+	"headword": {
+		"text": "בִּיצִירְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 164,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. of <cite ref=\"B01089\"><he>בְּצִיר</he></cite>, <i>the lowest</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 11:5\">Targ. Y. Ex. XI, 5</cite>."
+			]
+		}
+	]
+}

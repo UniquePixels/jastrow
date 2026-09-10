@@ -1,0 +1,42 @@
+{
+	"id": "S00888",
+	"slug": "קיזאי",
+	"headword": {
+		"text": "קִיזַּאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיזַּי"
+		},
+		{
+			"text": "קִיזַּיי"
+		}
+	],
+	"page": {
+		"number": 1357,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00680\"><he>קְזַז</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>calculator, accountant</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 5:5:4\">Y. Sot. V, 20ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Berakhot 9:5:7\">Y. Ber. IX, 14ᵇ</cite> bot. <he>פרוש ק׳</he> a book-keeping Pharisee, v. <cite ref=\"S00680\"><he>קְזַז</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"N01189\"><he>נְקַז</he></cite>) <i>bleeder</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 22b:2\">Sot. 22ᵇ</cite> <he>פרוש ק׳</he>, expl. <he>הּמקיז דם לכתלים</he>, v. <cite ref=\"N01188\"><he>נָקַז</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

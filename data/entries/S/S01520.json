@@ -1,0 +1,35 @@
+{
+	"id": "S01520",
+	"slug": "קנב-1",
+	"headword": {
+		"text": "קָנב"
+	},
+	"page": {
+		"number": 1388,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>קִינֵּב</he> <i>to strip, trim, make even, clean</i> (<i>vegetable</i>). ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 16:2\">Kel. XVI, 2</cite> <he>משיחסום וִיקַנֵּב</he> when he has peeled them (the wicker baskets) and trimmed them (pinched off the projecting pricks); <cite ref=\"Mishnah Kelim 16:3\">ib. 3</cite>. ",
+						"<cite ref=\"Mishnah Kelim 16:4\">Ib. 4</cite> (of leather implements). ",
+						"<cite ref=\"Tosefta Keilim Metsia 7:11\">Tosef. Kel. B. Mets. VII, 11</cite> (not <he>וינקב</he>); <cite ref=\"Tosefta Keilim Metsia 7:12\">12</cite>. ",
+						"<cite ref=\"Tosefta Demai 4:5\">Tosef. Dem. IV, 5</cite> <he>לְקַנֵּב</he>, v. <cite ref=\"A01489\"><he>אִיסְפַּרְגּוֹס</he></cite>. ",
+						"<cite ref=\"Jerusalem Talmud Pesachim 4:4:4\">Y. Pes. IV, 31ᵃ</cite> bot. <he>מְקַנֵּב</he> he may clean (vegetable); a. e.—Part. pass. <he>מְקוּנָּב</he>. Tosef. Kel. l. c. <he>חתוכין ומְקוּנָּבִין</he> cut and cleansed."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

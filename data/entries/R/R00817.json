@@ -1,0 +1,30 @@
+{
+	"id": "R00817",
+	"slug": "צתרי",
+	"headword": {
+		"text": "צִתְרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1306,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (cmp. <cite ref=\"R00265\"><he>צוּתְרָא</he></cite>) <i>Satureia, savory</i> (v. Löw, Pfl. p. 325, a. Sm. Ant. s. v. Thymbra). ",
+			"units": [
+				"<cite ref=\"Shabbat 128a:15\">Sabb. 128ᵃ</cite> (expl. <cite ref=\"O00516\"><he>סִיאָה</he></cite>, not <cite ref=\"Q00572\"><he>פיאה</he></cite>) <he>צ׳</he> (Ms. M. <cite ref=\"R00816\"><he>צרתי</he></cite>; Ms. O. <cite ref=\"R00666\"><he>צַעְתִּירֵי</he></cite>); <cite ref=\"Jerusalem Talmud Sheviit 7:1:10\">Y. Shebi. VII, 37ᵇ</cite> bot. <cite ref=\"R00816\"><he>צתרה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 10:2:7\">Y. Ter. X, 47ᵇ</cite> top <he>מי צ׳</he> water in which savory (of T’rumah) has been steeped. ",
+				"<cite ref=\"Avodah Zarah 29a\">Ab. Zar. 29ᵃ</cite> <he>צי׳</he> (Ms. M. <he>בתרי</he>, corr. acc.)."
+			]
+		}
+	]
+}

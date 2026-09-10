@@ -1,0 +1,22 @@
+{
+	"id": "A03198",
+	"slug": "ארנון-2",
+	"headword": {
+		"text": "אַרְנוֹן",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 123,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (deriv. of <cite ref=\"A03034\"><he>אָרוֹן</he></cite>) <i>chest with many cases, trader’s chest</i>. Tanḥ. B’midb. 20 <he>לאדם פרגמטיוטיס שהיה לו א׳ של זכוכית</he> Ar. (ed. incorr.) like a trader that had a chest containing (common) glass beads; cmp. Tanḥ. ed. Bub. 23ᵃ. note; <cite ref=\"Yalkut Shimoni on Torah 692:1\">Yalk. Num. 692</cite> (where <he>אבנים</he> must be read <cite ref=\"A03197\"><he>ארנון</he></cite>).",
+			"units": []
+		}
+	]
+}

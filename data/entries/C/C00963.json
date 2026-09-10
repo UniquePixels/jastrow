@@ -1,0 +1,32 @@
+{
+	"id": "C00963",
+	"slug": "גללניתא",
+	"headword": {
+		"text": "גְּלַלְנִיתָא"
+	},
+	"page": {
+		"number": 250,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00962\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ball-shaped, lump</i>. <he>מילח׳ ג׳</he> <i>salt in lumps, rock-salt</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 114a\">Ḥull. 114ᵃ</cite>; <cite ref=\"Kiddushin 62a:1\">Kidd. 62ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>folding</i>, v. <cite ref=\"C00950\"><he>גְּלִילְתָּא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

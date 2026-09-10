@@ -1,0 +1,28 @@
+{
+	"id": "D00349",
+	"slug": "דורא-3",
+	"headword": {
+		"text": "דּוּרָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּוָּרָא"
+		}
+	],
+	"page": {
+		"number": 289,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דּוּר</he> I) a <i>parasite worm</i> in the bowels. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> [read:] <he>שאהיה נותן ד׳ במעיהן</he>; v. <cite ref=\"D01128\"><he>דְּרַרְיָא</he></cite>."
+			]
+		}
+	]
+}

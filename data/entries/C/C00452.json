@@ -1,0 +1,23 @@
+{
+	"id": "C00452",
+	"slug": "גוספנין",
+	"headword": {
+		"text": "גּוּסְפָּנִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 224,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>chariots</i> (?). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:32\">Targ. Is. X, 32</cite> (missing in ed. Lag. I, p. XXVIII<sup>7</sup>; <cite ref=\"Sanhedrin 95b\">Snh. 95ᵇ</cite> has <he>קרנות</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "M00050",
+	"slug": "מאס-2",
+	"headword": {
+		"text": "מְאַס"
+	},
+	"page": {
+		"number": 724,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M00049\">same</cite> <cite ref=\"Targum Jonathan on Leviticus 26:44\">Targ. Y. Lev. XXVI, 44</cite>; a. e.—V. <cite ref=\"M00028\"><he>מְאִיס</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמָאַס"],
+			"senses": [
+				{
+					"gloss": "<i>to melt, faint</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 58:8\">Targ. Ps. LVIII, 8</cite> Ms. (ed. <he>יתמסון</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִמְּאִיס"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"M00028\"><he>מְאִיס</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

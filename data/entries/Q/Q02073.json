@@ -1,0 +1,32 @@
+{
+	"id": "Q02073",
+	"slug": "פשיטה",
+	"headword": {
+		"text": "פְּשִׁיטָה"
+	},
+	"page": {
+		"number": 1246,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02063\"><he>פָּשַׁט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stretching forth</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 5:1:7\">Y. Yoma V, 42ᵇ</cite> bot. <he>פְּשִׁיטַת יד</he> reaching out with the hand."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>undressing</i>. Ib. III, 40ᶜ <he>הקיש פ׳ ללבישה</he> draw an analogy between (the high priest’s) taking off and (his) putting on his garments; Bab. ib. 31ᵇ; a. e.—V. <cite ref=\"L00081\"><he>לְבִישָׁה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

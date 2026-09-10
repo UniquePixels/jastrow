@@ -1,0 +1,36 @@
+{
+	"id": "Q00414",
+	"slug": "פותחת",
+	"headword": {
+		"text": "פּוֹתַחַת"
+	},
+	"page": {
+		"number": 1149,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02213\"><he>פָּתַת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lock</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 6:5\">B. Bath. VI, 5</cite> <he>זה עושה לו פ׳ וכ׳</he> this one (the owner of the well) has the right to put on a lock, and so that one (the owner of the house) has. ",
+				"<cite ref=\"Mishnah Kelim 13:6\">Kel. XIII, 6</cite>, v. <cite ref=\"H01417\"><he>חָף</he></cite>; a. fr.—Pl. <cite ref=\"Q00339\"><he>פּוֹתְחוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Tamid 3:7\">Tam. III, 7</cite>. Mekh. B’shall. s. 1 <he>ועינים היו להם לפ׳</he> and they (the rocky forms) had eyes in place of locks (?)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>פּוֹתְהוֹת</he> <i>hinges, socket and pivot</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12:4\">Num. R. s. 12</cite> (expl. <he>פתות</he>, <cite ref=\"I Kings 7:50\">I Kings VII, 50</cite>) <he>אלו פ׳</he> it means the hinges (sockets and pivots); <cite ref=\"Shir HaShirim Rabbah 3:10\">Cant. R. to III, 10</cite> <cite ref=\"H01449\"><he>חפיפות</he></cite> read: <he>חפי פ׳</he>, v. <cite ref=\"H01417\"><he>חָף</he></cite>; <cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> <he>הבלוטין שבפ׳</he> the pegs (pivots) of the hinges."
+			],
+			"label": "2"
+		}
+	]
+}

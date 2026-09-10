@@ -1,0 +1,22 @@
+{
+	"id": "I00880",
+	"slug": "טרפיתא-2",
+	"headword": {
+		"text": "טַרְפִיתָא"
+	},
+	"page": {
+		"number": 557,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. adj. (<cite ref=\"I00879\">preced.</cite>) <i>tearing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:14\">Targ. Y. Lev. XI, 14</cite> <he>דַּיְּתָא ט׳</he> (not <he>דחיא</he>); cmp. <cite ref=\"D00494\"><he>דַּיָּה</he></cite>."
+			]
+		}
+	]
+}

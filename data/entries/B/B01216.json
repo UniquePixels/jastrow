@@ -1,0 +1,41 @@
+{
+	"id": "B01216",
+	"slug": "ברז",
+	"headword": {
+		"text": "בְּרַז"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרֵיז"
+		}
+	],
+	"page": {
+		"number": 191,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בר</he>, v. <he>ברר</he>) [<i>to get through</i>,] <i>to bore, perforate, transfix</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. Num. XXV, 8</cite>; a. e. [<cite ref=\"Targum Jonathan on Genesis 44:34\">Targ. Y. Gen. XLIV, 34</cite> <he>דתִבְרַז</he>, read <he>דתירן</he> or <he>דתתרן</he> as <cite ref=\"Aramaic Targum to Esther 8:6\">Targ. Esth. VIII, 6</cite>, v. <cite ref=\"A03216\"><he>ארע</he></cite> a. <cite ref=\"P01410\"><he>ערע</he></cite>.]—",
+				"<cite ref=\"Sanhedrin 52b:14\">Snh. 52ᵇ</cite> <he>דבָרֵיז ליה מִיבְרַז</he> that one may put a culprit to death by piercing. ",
+				"<cite ref=\"Shabbat 146a\">Sabb. 146ᵃ</cite>, v. <cite ref=\"B00357\"><he>בּוּרְטְיָא</he></cite>. ",
+				"<cite ref=\"Sanhedrin 56a\">Snh. 56ᵃ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַבְרֵיז"],
+			"senses": [
+				{
+					"gloss": "<i>to sting</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 84a:9\">Gitt. 84ᵃ</cite> <he>אי בעי מַבְרִיז וכ׳</he> if he chooses, he may sting himself with thorns and he will not fall asleep (Ar. <he>מחריז</he>, v. <cite ref=\"H01647\"><he>חֲרַז</he></cite>)."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

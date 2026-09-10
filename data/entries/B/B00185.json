@@ -1,0 +1,31 @@
+{
+	"id": "B00185",
+	"slug": "בהק-2",
+	"headword": {
+		"text": "בְּהַק"
+	},
+	"page": {
+		"number": 143,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00184\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַבְהִיק</he> <i>to shine</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 22:13\">Targ. II Sam. XXII, 13</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

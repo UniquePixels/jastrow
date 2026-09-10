@@ -1,0 +1,23 @@
+{
+	"id": "P00868",
+	"slug": "עמודא",
+	"headword": {
+		"text": "עַמּוּדָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1087,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>ʿAmmuda</i> (<i>Stand</i>), near Cæsaræa. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:9\">Y. Dem. II, 22ᶜ</cite> bot. <he>פונדקא דע׳</he> the inn of ʿAmmuda."
+			]
+		}
+	]
+}

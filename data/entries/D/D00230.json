@@ -1,0 +1,44 @@
+{
+	"id": "D00230",
+	"slug": "דוחק",
+	"headword": {
+		"text": "דּוֹחַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "דֹּחַק"
+		}
+	],
+	"page": {
+		"number": 284,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00435\"><he>דחק</he></cite>) [<i>pressure;</i>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>need, distress</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 5a:17\">Ḥag. 5ᵃ</cite> <he>בשעת דּוֹחֲקוֹ</he> just when he needs it (no sooner); <cite ref=\"Yevamot 63a:1\">Yeb. 63ᵃ</cite> (v. Tosaf. a. l.). ",
+				"<cite ref=\"Pirkei Avot 2:3\">Ab. II, 3</cite> <he>בשעת דָּחְקוֹ</he> when he is in need (of official protection). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:2:6\">Y. Ber. V, 9ᵇ</cite> <he>מד׳</he>, v. <cite ref=\"A00972\"><he>אַזְכָּרָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>crowd</i>, v. <cite ref=\"D00548\"><he>דִּיחוּק</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>emergency</i>, v. <cite ref=\"D00436\"><he>דְּחָק</he></cite>. [In later Hebr. <cite ref=\"D00230\"><he>דּוֹחַק</he></cite> <i>a forced opinion or reply</i>, v. next w.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

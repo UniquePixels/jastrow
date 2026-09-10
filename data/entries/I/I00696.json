@@ -1,0 +1,55 @@
+{
+	"id": "I00696",
+	"slug": "טקס-2",
+	"headword": {
+		"text": "טְקַס"
+	},
+	"page": {
+		"number": 549,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,<i>Pa.</i>, <he>טַקֵּיס</he>, <i>Af.</i> <he>אַטְקֵיס</he> same, ",
+			"units": []
+		},
+		{
+			"gloss": " (corresp. to b. h. <he>אסר</he>) <i>to harness</i> for war, <i>to prepare battle</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 20:14\">Targ. I Kings XX, 14</cite>. ",
+				"<cite ref=\"Onkelos Exodus 14:6\">Targ. Ex. XIV, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 15:5\">Targ. I Sam. XV, 5</cite> <he>וטַ׳ וכ׳</he> he arranged his camp (h. text <he>וירב</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to arrange coins, to count, collect</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 22:4\">Targ. II Kings XXII, 4</cite> (<i>Af.</i>); <cite ref=\"Targum Jonathan on II Kings 22:9\">ib. 9</cite> (ed. Wil. <he>טְקִיסוּ</he> <i>Pe.</i>).—",
+				"<cite ref=\"Targum Jonathan on II Kings 23:35\">Ib. XXIII, 35</cite> (h. text <he>נגש</he>).—Part. pass. <cite ref=\"M01047\"><he>מְטַקַּס</he></cite> <i>arranged, fitted, joined</i>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 12:12\">Ib. XII, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 6:31\">Targ. I Kings VI, 31</cite> (h. text <he>חמשית</he>). Targ. II Esth. V, 1 <he>מט׳</he> <i>trimmed</i>"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיטַּקַּס"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיטְּקַס"],
+			"senses": [
+				{
+					"gloss": "<i>to be equipped, arranged</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 20:6\">Targ. Ps. XX, 6</cite> <he>נִיטְקָס</he> Ms. (ed. Ven. a. Levita <he>נִיטְקֵס</he>; Bxt. a. oth. <he>נְטַקַּס</he>, read <he>נִיטּ׳</he>; h. text <he>נדגל</he>). [<cite ref=\"Targum Jonathan on Isaiah 13:17\">Targ. Is. XIII, 17</cite>, v. <cite ref=\"I00668\"><he>טְפַס</he></cite>.] <cite ref=\"Targum Jonathan on I Kings 6:7\">Targ. I Kings VI, 7</cite> <he>מִטַּ׳</he> Levita, <i>closely fitted</i> stones (ed. <cite ref=\"M01047\"><he>מַטְקַס</he></cite> noun; h. text <cite ref=\"M01983\"><he>מסע</he></cite>); cmp. <cite ref=\"M00996\"><he>מַטְכְּסָא</he></cite>. [Some of the meanings of <he>טקס</he> a. of <he>טכס</he> are influenced by the Greek τάσσω, τάξις.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "D00236",
+	"slug": "דוי-5",
+	"headword": {
+		"text": "דְּוַי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּוַוי"
+		},
+		{
+			"text": "דֵּיוָא"
+		}
+	],
+	"page": {
+		"number": 284,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= h. <cite ref=\"D00236\"><he>דְּוַי</he></cite>, v. <cite ref=\"D00235\">preced.</cite>) <i>grief, affliction</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 35:18\">Targ. Gen. XXXV, 18</cite> (h. text <cite ref=\"A00736\"><he>אוֹנִי</he></cite>, v. <cite ref=\"D00204\"><he>דָּוָה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 42:38\">Targ. Y. ib. XLII, 38</cite> <he>דָּווֹי</he> (O. <he>דוונא</he>)."
+			]
+		}
+	]
+}

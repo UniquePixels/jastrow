@@ -1,0 +1,22 @@
+{
+	"id": "H01709",
+	"slug": "חרך-3",
+	"headword": {
+		"text": "חֵרֶךְ"
+	},
+	"page": {
+		"number": 503,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. [<i>burn</i>, v. preced.] <i>ḥerekh</i>, a verbal substitute or <i>ḥerem</i> (<cite ref=\"H01716\"><he>חֵרֶם</he></cite>), v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 1:2\">Ned. I, 2</cite>.—Pl. <he>חֲרָכִים</he>, v. <cite ref=\"H01713\"><he>חֲרָכַיָּיא</he></cite>."
+			]
+		}
+	]
+}

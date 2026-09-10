@@ -1,0 +1,34 @@
+{
+	"id": "I00043",
+	"slug": "טבח-3",
+	"headword": {
+		"text": "טֶבַח"
+	},
+	"page": {
+		"number": 516,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"I00042\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the meat for a feast</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 4a\">Keth. 4ᵃ</cite>, v. <cite ref=\"I00041\"><he>טָבַח</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>feast</i>, trnsf. <i>onslaught</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 83:3\">Gen. R. s. 83</cite> (ref. to <cite ref=\"Isaiah 34:6\">Is. XXXIV, 6</cite>) <he>אעפ״כ ט׳ גדול וכ׳</he> nevertheless the main onslaught will be in the land of Edom (Rome); <cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite>, end; s. 15; <cite ref=\"Yalkut Shimoni on Torah 759:9\">Yalk. Num. 759</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

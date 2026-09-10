@@ -1,0 +1,131 @@
+{
+	"id": "C01392",
+	"slug": "גרר-1",
+	"headword": {
+		"text": "גָּרַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 272,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"C01286\"><he>גָּרָה</he></cite>) [<i>to produce a grating, scraping sound</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to scratch, scrape, shave</i> (v. <cite ref=\"C01268\"><he>גָּרַד</he></cite>, <cite ref=\"C01379\"><he>גָּרַע</he> I</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:6\">Sabb. VIII, 6</cite> (<cite ref=\"Shabbat 81a:1\">81ᵃ</cite>) <he>כדי לִגְרוֹר וכ׳</he> (Ar. a. Y. ed. <he>לגרוד</he>) large enough to scrape with it the top &c. ",
+				"<cite ref=\"Rosh Hashanah 27b\">R. Hash. 27ᵇ</cite> <he>גְּרָרוֹ</he> Ms. M. (ed. <he>גרדו</he>), v. <cite ref=\"C00879\"><he>גֶּלֶד</he></cite>. ",
+				"<cite ref=\"Ketubot 60a\">Keth. 60ᵃ</cite>; <cite ref=\"Keritot 21b:47\">Kerith. 21ᵇ</cite> <he>גּוֹרְרוֹ וכ׳</he> he must scrape the blood off before eating the bread; a. fr.—Part. pass. <cite ref=\"C01314\"><he>גָּרוּר</he></cite>, v. <cite ref=\"C01293\"><he>גָּרוּד</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to drag, to move without lifting;</i> (also neut. verb) <i>to follow</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 29b:8\">Sabb. 29ᵇ</cite>, a. fr. <he>גורר אדם וכ׳</he> one may, on the Sabbath, pull or push a couch &c. (on the floor). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:9:3\">Y. Kil. I, 27ᵇ</cite> bot. <he>לא יָגוֹר אדם וכ׳</he> one must not pull &c. Tanḥ. Thazr. 8 <he>גְּרָרוּהוּ מקברו</he> they dragged him out of his grave. Tosef. Erub. XI (VIII), 13; <cite ref=\"Tosefta Beitsah 2:19\">Tosef. Bets. II, 19</cite> <he>דלת הגּוֹרֶרֶת … הגּוֹרְרִים</he> (<cite ref=\"Jerusalem Talmud Eruvin 10:8:4\">Y. Erub. X, 26ᵇ</cite> bot. <he>גודרת</he>, corr. acc., v. <cite ref=\"C00244\"><he>גָּדַר</he></cite>) a door which drags along the ground (on opening), a matting which is moved by dragging, or large kegs which &c.; <cite ref=\"Eruvin 101a:2\">Erub. 101ᵃ</cite> <he>דלת הנִגְרֶרֶת … הנִגְרָר</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:15:1\">Cant. R. to II, 15</cite> <he>אני גוֹרְרוֹ למבולו</he> I will drag him to the flood in which to perish; a. fr.—Tanḥ. Thazr. 9 (ref. to <cite ref=\"Psalms 5:5\">Ps. V, 5</cite> <he>יגרך</he>) <he>אין אתה נגרר … ואין הרעה גוֹרֶרֶת אותך וכ׳</he> neither art thou dragged behind (attracted by) evil, nor does evil drag (have power over) thee, nor does it dwell with thee; <cite ref=\"Yalkut Shimoni on Nach 231:1\">Yalk. Kings 231</cite> <he>אין אתה גורר אחר … גוררת אחריך</he>.—Part. pass. <cite ref=\"C01314\"><he>גָּרוּר</he></cite> <i>dragged along, hanging on</i>.—Pl. <he>גְּרוּרִים</he>, <he>גְּרוּרִין</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 18:21\">Num. R. s. 18</cite> <he>ח׳ ג׳</he> eight threads dragged along (as fringes; Tanḥ. Korah 12 <he>ח׳ חוטין</he>). ",
+				"<cite ref=\"Avodah Zarah 3b:4\">Ab. Zar. 3ᵇ</cite>, a. e. <he>גרים ג׳</he> proselytes who have attached themselves but have not been admitted, v. <cite ref=\"C01225\"><he>גֵּר</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to carry with it, to cause; to affect</i> (v. <cite ref=\"C01349\"><he>גָּרַם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 1:6:2\">Y. Hor. I, 46ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Pesachim 7:6:2\">Y. Pes. VII, 34ᶜ</cite> <he>שבט אחד גּוֹרֵר וכ׳</he> (a majority of) one tribe affects the legal status of the entire nation, i.e. the majority of tribes (seven) decides, though it may be a minority of the people as a whole. ",
+				"<cite ref=\"Vayikra Rabbah 13\">Lev. R. s. 13</cite>, end (play on <i>gerah</i>, <cite ref=\"Leviticus 11:4\">Lev. XI, 4</cite> sq.) <he>גָּרְרָה מלכות וכ׳</he> carried another government after it, i.e. was followed by another oppressive government. ",
+				"<cite ref=\"Pirkei Avot 4:2\">Ab. IV, 2</cite> <he>מצוה גוֹרֶרֶת וכ׳</he> a good deed begets a good deed &c. ",
+				"<cite ref=\"Tosefta Shabbat 15:6\">Tosef. Sabb. XV</cite> (<cite ref=\"Tosefta Shabbat 16:6\">XVI</cite>), 6 [read:] <he>אין גּוֹרֵר וכ׳</he> it is not considered a corpse so as to cause uncleanness to man or vessels."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to saw, split</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 17:2\">Sabb. XVII, 2</cite> (<cite ref=\"Shabbat 122b\">122ᵇ</cite>) a saw (may be used on the Sabbath) <he>לָגוֹר בה וכ׳</he> (Ms. M. <he>לִגְרוֹר</he>, Mish. ed. Pes. <he>לגָרֵר</he>, v. Rabb. D. S. a. l. note) to saw cheese with it. Ohol. XV, 8 <he>עתיד לָגוֹר</he> Ar. intended to be sawed apart (ed. <he>לגוד</he>, fr. <cite ref=\"C00166\"><he>גדד</he></cite>, v. Tosef. ib. XV, 8). ",
+				"<cite ref=\"Tosefta Keilim Metsia 2:18\">Tosef. Kel. B. Mets. II, 18</cite> <he>לָגוֹר וכ׳</he> to saw off a part &c."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְרַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be dragged, pulled</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 10:11\">Erub. X, 11</cite> <he>נגר הנג׳</he> a bolt which is dragged along (with the door, i.e. attached and hanging down). ",
+						"<cite ref=\"Eruvin 101a\">Ib. 101ᵃ</cite>, v. supra. Tanḥ. Thazr. 9, v. supra. ",
+						"<cite ref=\"Mishnah Beitzah 2:10\">Bets. II, 10</cite> (<cite ref=\"Beitzah 23b:3\">23ᵇ</cite>) <he>אינה נִגְרֶרֶת</he>; Bets. <he>אין נִגְרָרִין</he> must not be dragged or pulled, a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be scraped, planed</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 119b\">B. Kam. 119ᵇ</cite> <he>הנ׳ במגירה</he> shavings, opp. <he>נפסק במגירה</he> chips.—",
+						"<cite ref=\"Niddah 55b:38\">Nidd. 55ᵇ</cite> <he>נִגְרָרִין דרך הפה</he> (secretions of the nose) scraped (discharged) through the mouth (v. <cite ref=\"C01388\"><he>גָּרַף</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["גֵּירַר", "גֵּרַר"],
+			"senses": [
+				{
+					"gloss": "<i>to drag</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Pesachim 4:9\">Pes. IV, 9</cite> (<cite ref=\"Pesachim 56a:2\">56ᵃ</cite>) <he>ג׳ עצמות וכ׳</he> he had the bones of his father carried out on a bed of ropes. ",
+						"<cite ref=\"Mishnah Pesachim 1:2\">Pes. I, 2</cite> (<cite ref=\"Pesachim 9a\">9ᵃ</cite>); a. fr.—",
+						"<cite ref=\"Tosefta Shabbat 6:1\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:1\">VII</cite>), 1 (a superstitious custom) <he>המְגָרֶרֶת בנה וכ׳</he> Var. (ed. Zuck. <he>המגוררת</he>) one who drags her son among the dead (to the cemetery)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to scrape, plane</i>. Ib. XVI (XVII), 19 <he>מְגָרְרָן</he> he may scrape them (clean his feet of mud). ",
+					"units": [
+						"<cite ref=\"Tosefta Keilim Metsia 2:17\">Tosef. Kel. B. Mets. II, 17</cite>; <cite ref=\"Chullin 25a:13\">Ḥull. 25ᵃ</cite> <he>עתיד … לגָרֵר</he> requiring planing for finish; a. fr.—Part. pass. <he>מְגוֹרָר</he> "
+					],
+					"label": "2",
+					"senses": [
+						{
+							"gloss": " <i>scratched, full of scabs</i>. ",
+							"units": [
+								"<cite ref=\"Bereishit Rabbah 64\">Gen. R. s. 64</cite> (play on <he>מגרר</he>, <cite ref=\"Genesis 26:26\">Gen. XXVI, 26</cite>) <he>ד״א מג׳ וכ׳</he> another explanation is <i>m’gorar</i>, for eruptions grew on him (with ref. to <cite ref=\"Job 2:8\">Job II, 8</cite>); Yalk. ib. 111; v. <cite ref=\"C01394\"><he>גָּרַר</he> II</cite>. "
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>planed</i>. ",
+							"units": [
+								"<cite ref=\"Tosefta Sotah 15:1\">Tosef. Sot. XV, 1</cite> <he>מְגוֹרָרוֹת במגר׳ היו</he> Var. (ed. Zuck. <he>היה מְגָרֵר</he>) the stones were planed with a plane."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְגָּרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be scraped</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 16:8\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:19\">XVII</cite>), 19 <he>אין מִתְגָּרְרִין במגוררת</he> ed. Zuck. (Var. <he>מגרדין במגרדת</he>, <cite ref=\"Shabbat 147b:13\">Sabb. 147ᵇ</cite> <he>גוררין במגררת</he>, Ms. M. <he>גודרין במגדירה</he>, corr. acc.) one must not be scraped with a strigil. Ib. XXII, 6 (147ᵃ) <he>מתגררין</he>, Talm. ed. (Mish. <he>מִתְגָּרְדִין</he>, v. Rabb. D. S. to 147ᵇ, note 70)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

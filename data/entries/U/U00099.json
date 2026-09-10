@@ -1,0 +1,39 @@
+{
+	"id": "U00099",
+	"slug": "שבח-4",
+	"headword": {
+		"text": "שְׁבַח"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁבָחָא"
+		}
+	],
+	"page": {
+		"number": 1512,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00098\">same</cite><i>increase, amelioration, profit</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 15a:22\">B. Mets. 15ᵃ</cite> <he>אמליך וכתוב שופרא ש׳ ופירי</he> (when thou writest a deed of sale of land) ask for the owner’s consent, and write that he guarantees the title with the best of his property, even to indemnity for improvement and for lost usufruct. ",
+				"<cite ref=\"Bava Metzia 15a:22\">Ib.</cite> <he>לוקח מגזלן לית ליה ש׳</he> he that buys land from an unlawful possessor (and has to restore it to the legitimate owner) cannot claim indemnity for improved value. ",
+				"<cite ref=\"Bava Metzia 15b:4\">Ib.ᵇ</cite>; <cite ref=\"Bava Metzia 110b:7\">ib. 110ᵇ</cite>; <cite ref=\"Bava Kamma 96a:2\">B. Kam. 96ᵃ</cite> <he>הב לי … שיעור שְׁבָחָאִי</he> give me a <i>g’riva</i> of land (out of my own land) corresponding to the value of the improvement I put in. ",
+				"<cite ref=\"Bava Batra 124b:12\">B. Bath. 124ᵇ</cite> <he>ש׳ דאיתיה ברשותיה</he> an increase in value which is in his (the heir’s) possession, opp. to <he>מלוה</he> an outstanding loan; a. fr.—Pl. <he>שְׁבָחִין</he>, <he>שְׁבָחֵי</he>. ",
+				"<cite ref=\"Bava Metzia 15a:22\">B. Mets. 15ᵃ</cite> <he>ושְׁבָחֵיהוֹן</he>, v. <cite ref=\"P00900\"><he>עַמְלָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>praise</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 40:4\">Targ. Ps. XL, 4</cite> (ed. Wil. <cite ref=\"U00098\"><he>שֶׁבַח</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 145:21\">Targ. Ps. CXLV, 21</cite> (some ed. <cite ref=\"U00100\"><he>שַׁבָּחָא</he></cite>); a. fr.—",
+				"<cite ref=\"Sotah 42b:10\">Sot. 42ᵇ</cite> <he>לאודועי שְׁבָחֵיה דדוד</he> to make known David’s praise (valor); a. e.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Berakhot 6a:21\">Ber. 6ᵃ</cite> <he>ומי משתבח קוב״ה בשְׁבָחַיְיהוּ דישראל</he> does the Lord pride himself on the praises of Israel? <cite ref=\"Berakhot 33b:22\">Ib. 33ᵇ</cite> <he>סיימתינהו לכולהו ש׳ דמרך</he> hast thou finally counted all the excellencies of thy Master?; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

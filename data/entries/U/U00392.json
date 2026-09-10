@@ -1,0 +1,146 @@
+{
+	"id": "U00392",
+	"slug": "שוי-2",
+	"headword": {
+		"text": "שְׁוֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁוָא"
+		}
+	],
+	"page": {
+		"number": 1532,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00391\">same</cite><i>to be alike</i>.—Part. <cite ref=\"U00392\"><he>שָׁוֵי</he></cite>, <he>שָׁוֵוי</he>; f. <cite ref=\"U00396\"><he>שַׁוְיָא</he></cite>, <cite ref=\"U00399\"><he>שַׁוְו׳</he></cite>; pl. <cite ref=\"U01470\"><he>שָׁוִין</he></cite>; <he>שׁוְיָין</he>, <he>שָׁוָון</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 16:8\">Targ. Y. Lev. XVI, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:16\">Targ. Y. Gen. I, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 139:12\">Targ. Ps. CXXXIX, 12</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be worthy, deserve</i>. Targ. II Esth. II, 1.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to do alike, retaliate</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 16:6\">Targ. Is. XVI, 6</cite> (ed. Wil. <cite ref=\"U00392\"><he>שַׁוֵּי</he></cite>, <i>Pa.</i>). ",
+				"<cite ref=\"Aramaic Targum to Job 33:27\">Targ. Job XXXIII, 27</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to agree</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:3:3\">Y. M. Kat. III, 82ᵃ</cite> bot. <he>לא … לא שָׁוֵינָא ליה</he> I do not like him, I do not agree with him (in age, temper, &c.); <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:40\">Y. Snh. I, 19ᵃ</cite> bot. <he>לא שווייהנא ליה</he> (read: <he>לא שַׁוְויָיה נא</he>)."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>to be appropriate, fitting</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 60b\">B. Kam. 60ᵇ</cite>; <cite ref=\"Sanhedrin 39a\">Snh. 39ᵃ</cite>, v. <he>תְּרֵי</he> III."
+			],
+			"label": "5"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁוֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to level, smooth, spread</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 7:16\">Targ. Prov. VII, 16</cite> (h. text <he>רבד</he>, v. <cite ref=\"V01073\"><he>תַּשְׁוִיתָא</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (corresp. to <cite ref=\"U00433\"><he>שׂוּם</he></cite>, <cite ref=\"U01103\"><he>שִׁית</he></cite>) <i>to place, set; to appoint, make;</i> (with <he>ל־</he> or <he>כ־</he>) <i>to make alike, compare</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 39:9\">Targ. Ps. XXXIX, 9</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 19:14\">Targ. Y. Lev. XIX, 14</cite> (O. <cite ref=\"U00433\"><he>שׂוּם</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Judges 6:19\">Targ. Jud. VI, 19</cite>. ",
+						"<cite ref=\"Onkelos Genesis 21:14\">Targ. Gen. XXI, 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 81:6\">Targ. Ps. LXXXI, 6</cite>; a. fr.—ש׳ לבא על <i>to care for, mind.Targ</i>. ",
+						"<cite ref=\"I Samuel 9:20\">I Sam. IX, 20</cite>; a. e.—Y. Taan. II, beg. 65ᵃ (expl. ",
+						"<cite ref=\"Lamentations 3:41\">Lam. III, 41</cite>) <he>נְשַׁוֵּי … לכף ידינן וכ׳</he> let us make our hearts as even as the palm of our hand (remove all crookedness, cmp. <cite ref=\"Q02063\"><he>פָּשַׁט</he></cite>, <cite ref=\"Q02064\"><he>פְּשַׁט</he></cite>), and then (turn) to God in heaven; Lam. R. to l. c. <he>נְשַׁוֵּוי … לגבי וכ׳</he>. ",
+						"<cite ref=\"Kiddushin 60a:4\">Kidd. 60ᵃ</cite> <he>שַׁוּוּ נפשייהו כי שרגא וכ׳</he> they (the men who betrothed the same woman successively, to take effect after thirty, twenty, or ten days respectively) placed themselves in the same position as a pile of bricks, where each leaves room for the other. ",
+						"<cite ref=\"Ketubot 22a:9\">Keth. 22ᵃ</cite> <he>שַׁוְּויָא לנפשה חתיכה וכ׳</he> she declared herself a piece of forbidden food (she declared herself a married woman; therefore, she cannot be believed when she afterwards says that she is unmarried); <cite ref=\"Ketubot 23b:7\">ib. 23ᵇ</cite> <he>איהי שַׁוֵּיתָא וכ׳</he> she herself made herself &c. (and a witness testifying to the contrary cannot affect her status). ",
+						"<cite ref=\"Ketubot 3a\">Ib. 3ᵃ</cite>, a. fr. <he>שַׁוְּיוּהָ רבנן וכ׳</he>, v. <cite ref=\"B01047\"><he>בְּעִילָה</he></cite>. ",
+						"<cite ref=\"Chullin 97b:14\">Ḥull. 97ᵇ</cite> <he>שויוה רבנן כחתיכה וכ׳</he> the Rabbis declared that it should be considered as if it were a piece of a <i>n’belah</i> (v. <cite ref=\"N00097\"><he>נְבֵלָה</he></cite>); a. v. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to retaliate</i>, v. supra.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַשְׁוֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to compare, consider as</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 30:19\">Targ. Job XXX, 19</cite> (not <he>אֲשַׁוּוּ</he>); a. e.—",
+						"<cite ref=\"Pesachim 78a:7\">Pes. 78ᵃ</cite> <he>מַשְׁוֵי ליה כטהור</he> (or <cite ref=\"M02827\"><he>מְשַׁוֵּי</he></cite>, <i>Pa.</i>) considers it as clean; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to consider, reflect on</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 48:10\">Targ. Ps. XLVIII, 10</cite> (h. text <he>דמינו</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתַּוֵּי", "אִשְׁתַּוָּא"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּוֵי", "אִשְׁתְּוָא"],
+			"senses": [
+				{
+					"gloss": "<i>to be placed, put</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 1:15\">Targ. Ez. I, 15</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be compared, be made like</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 49:13\">Targ. Ps. XLIX, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 89:7\">Ib. LXXXIX, 7</cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " [<i>to place one’s self in position</i>, cmp. <cite ref=\"K00296\"><he>כּוּן</he></cite> <i>Pi.</i> a. <i>Hithpa.</i>,] <i>to be attentive, ready to obey</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 66:2\">Targ. Is. LXVI, 2</cite>; <cite ref=\"Targum Jonathan on Isaiah 66:5\">5</cite> (h. text <cite ref=\"H01598\"><he>חרד</he></cite>).—[<cite ref=\"Targum Jonathan on Isaiah 6:6\">Targ. Is. VI, 6</cite> <he>אשתוי</he> Ar. a. ed. Lag., read: <cite ref=\"U00267\"><he>אשתדי</he></cite>, v. <cite ref=\"U00267\"><he>שְׁדֵי</he></cite>.—",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:34\">Targ. Y. Deut. XXVIII, 34</cite> <he>משתוין</he> some ed., read: <he>משתטין</he>, v. <cite ref=\"U00746\"><he>שְׁטֵי</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

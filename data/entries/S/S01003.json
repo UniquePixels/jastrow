@@ -1,0 +1,23 @@
+{
+	"id": "S01003",
+	"slug": "קימוליא",
+	"headword": {
+		"text": "קִימוֹלְיָא"
+	},
+	"page": {
+		"number": 1362,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Κιμωλία, sub. γῆ) <i>Cimolian earth</i>, a clay used in cleaning clothes and also in medicine (v. Sm. Ant. s. v. Cimolia). ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 9:6\">Nidd. IX, 6</cite> (<cite ref=\"Niddah 62a\">62ᵃ</cite>) <he>קימול׳</he> Ar. (ed. <he>קמוניא</he>); Tosef. ib. VIII, 10 <he>קימילייא</he> (corr. acc.). ",
+				"<cite ref=\"Mishnah Shabbat 9:5\">Sabb. IX, 5</cite> (<cite ref=\"Shabbat 89b:7\">89ᵇ</cite>) <he>קמול׳</he> (Y. ed. <he>קימונ׳</he>, Var. in Bab. ed. <he>קמונ׳</he>; Ms. M. <he>קמומא</he>; Ms. O. <he>קמונ׳</he>). Ib. 90ᵃ <cite ref=\"S01003\"><he>קימוליא</he></cite> (some ed. incorr. <he>קמולי</he>); Y. ib. IX, end 12ᵇ <he>ק׳ קליא</he> (not <cite ref=\"S01004\"><he>קימון</he></cite>) cimolia is <i>ḳalia</i> (an alkaline earth)."
+			]
+		}
+	]
+}

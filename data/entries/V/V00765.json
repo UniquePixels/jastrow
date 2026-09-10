@@ -1,0 +1,34 @@
+{
+	"id": "V00765",
+	"slug": "תסס-1",
+	"headword": {
+		"text": "תָּסַס"
+	},
+	"page": {
+		"number": 1683,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (onomatop.) [<i>to hiss</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to bubble, boil, ferment</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 30b:2\">Ab. Zar. 30ᵇ</cite> <he>יין תּוֹסֵס וכ׳</he> wine in its first stage of fermentation does not come under the law concerning liquids left uncovered (<cite ref=\"C00729\"><he>גִּילּוּי</he></cite>); <cite ref=\"Jerusalem Talmud Terumot 8:3:29\">Y. Ter. VIII, 45ᵈ</cite> sq.; <cite ref=\"Tosefta Terumot 7:15\">Tosef. Ter. VII, 15</cite>. ",
+				"<cite ref=\"Tosefta Terumot 7:15\">Ib.</cite> <he>וכמה תוסס וכ׳</he> and how long is it in that inceptive stage? &c., v. <cite ref=\"V00764\">preced.</cite> ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:17\">Y. Taan. IV, 69ᵃ</cite> bot. <he>ראה … תוסס</he> he saw the blood (of the prophet) boil; Lam. R. introd. (R. Josh. 2); (<cite ref=\"Sanhedrin 96b\">Snh. 96ᵇ</cite>; <cite ref=\"Gittin 57b:2\">Gitt. 57ᵇ</cite> <he>מרתח</he>); a. fr.—2) <i>to spurt</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite> <he>נתן אצבע על הצור התחילה תוֹסֶסֶת אש</he> he put his finger on the rock, and it began to spurt fire; <cite ref=\"Bereishit Rabbah 77\">Gen. R. s. 77</cite> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 132\">Yalk. ib. 132</cite> <he>התחילה האש תוססת</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cause spurting</i> or <i>sparkling</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 6:10\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:10\">VII</cite>), 10 <he>התוסס אוד בכותל וכ׳</he> (not <cite ref=\"A00841\"><he>אור</he></cite>; ed. Zuckerm. <he>האומר חתום אוד</he>, corr. acc.) if one strikes a brand against the wall, and says, ‘here it is’, he is guilty of a superstitious practice (v. <cite ref=\"A02007\"><he>אֱמוֹרִי</he></cite>), but if he does it for the sake of the sparks, it is permissible."
+			],
+			"label": "3"
+		}
+	]
+}

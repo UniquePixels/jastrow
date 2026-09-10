@@ -1,0 +1,27 @@
+{
+	"id": "U01519",
+	"slug": "שמעיא",
+	"headword": {
+		"text": "שְׁמַעְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמַעְיָה"
+		}
+	],
+	"page": {
+		"number": 1600,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Shemaiah</i>, colleague of Abṭalion (v. <cite ref=\"A00105\"><he>אַבְטַלְיוֹן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Pesachim 66a:8\">Pes. 66ᵃ</cite>. ",
+				"<cite ref=\"Pirkei Avot 1:10\">Ab. I, 10</cite>. ",
+				"<cite ref=\"Yoma 71b:3\">Yoma 71ᵇ</cite>. ",
+				"<cite ref=\"Gittin 57b:7\">Gitt. 57ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "H01048",
+	"slug": "חלילה",
+	"headword": {
+		"text": "חָלִילָה"
+	},
+	"page": {
+		"number": 468,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " adv. (v. <cite ref=\"H01047\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>round about, in turn</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 5:6\">Succ. V, 6</cite> <he>חוזרין ח׳</he> they take turns all around. ",
+				"<cite ref=\"Mishnah Ketubot 10:6\">Keth. X, 6</cite>. ",
+				"<cite ref=\"Tosefta Zevahim 1:1\">Tosef. Zeb. I, 1</cite> <he>חזרנו ח׳</he> we are moving in a circle, i.e. this way of arguing will lead to no conclusion; <cite ref=\"Zevachim 10b:6\">Zeb. 10ᵇ</cite> <he>חוזרני ח׳</he> ed. I am moving &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(b. h.; <i>outside, foreign to</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite>; <cite ref=\"Yalkut Shimoni on Torah 83:8\">Yalk. ib. 83</cite> (expl. <he>חללה</he>, <cite ref=\"Genesis 18:25\">Gen. XVIII, 25</cite>), v. <cite ref=\"B01160\"><he>בָּרָאָה</he></cite>, a. <cite ref=\"H00325\"><he>חוֹל</he> III</cite>; Tanḥ. Vayera 8 <he>חֲלָלָה כתיב</he> it may be read <i>ḥălalah</i> (desecration), <he>לא חול הוא לך</he> is it not too profane for thee?"
+			],
+			"label": "2"
+		}
+	]
+}

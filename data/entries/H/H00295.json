@@ -1,0 +1,32 @@
+{
+	"id": "H00295",
+	"slug": "חוט-3",
+	"headword": {
+		"text": "חוּט"
+	},
+	"page": {
+		"number": 431,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H00296\"><he>חַיֵּיט</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 21:6\">Targ. Y. Ex. XXI, 6</cite>.—",
+						"<cite ref=\"Bava Batra 58a\">B. Bath. 58ᵃ</cite>, v. <cite ref=\"H00626\"><he>חַטִּיטָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

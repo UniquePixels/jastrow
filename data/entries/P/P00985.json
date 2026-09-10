@@ -1,0 +1,27 @@
+{
+	"id": "P00985",
+	"slug": "עניות",
+	"headword": {
+		"text": "עֲנִיּוּת"
+	},
+	"page": {
+		"number": 1094,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"P00976\"><he>עָנִי</he></cite>) <i>misery, poverty; stint</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 33a:13\">Sabb. 33ᵃ</cite>; <cite ref=\"Kiddushin 49b:8\">Kidd. 49ᵇ</cite> <he>סימן לגסות</he> (<he>הרוח</he>) <he>ע׳</he> poverty is a symptom of haughtiness (haughtiness will be followed by poverty). ",
+				"<cite ref=\"Kiddushin 49b:8\">Ib.</cite> <he>מאי ע׳ ע׳ דתורה</he> the poverty (of the Babylonians) means poverty of the Law (ignorance). ",
+				"<cite ref=\"Shabbat 102b:3\">Sabb. 102ᵇ</cite>; <cite ref=\"Ketubot 106b:14\">Keth. 106ᵇ</cite>, a. e. <he>אין ע׳ במקום עשירות</he> there must be no stint where there is wealth, i.e. you must not be small in large affairs. ",
+				"<cite ref=\"Shemot Rabbah 31:14\">Ex. R. s. 31</cite> <he>אלו נתקבצו … והע׳ לצד אחר הע׳ וכ׳</he> if all suffering were gathered on one side, and poverty on the other, poverty would outweigh all. ",
+				"<cite ref=\"Shemot Rabbah 31:14\">Ib.</cite> <he>אמר הקב״ה … עֲנִיּוּתוֹ וכ׳</he> the Lord says (to the usurer), is not this man’s poverty enough, that thou &c.?; a. fr.—Esth. R. introd. (play on <he>באניות</he>, <cite ref=\"Deuteronomy 28:68\">Deut. XXVIII, 68</cite>) <he>בע׳ ממעשים טובים</he> in thy want of good deeds.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:5:7\">Y. Kidd. III, 64ᵇ</cite> top <he>בעֲנִיּוּתֵינוּ צריכה וכ׳</he> according to our poverty (of mind), she requires a letter of divorce from him."
+			]
+		}
+	]
+}

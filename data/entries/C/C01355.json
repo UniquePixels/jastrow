@@ -1,0 +1,30 @@
+{
+	"id": "C01355",
+	"slug": "גרמא-2",
+	"headword": {
+		"text": "גְּרָמָא"
+	},
+	"page": {
+		"number": 270,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"C01352\"><he>גָּרָם</he></cite><i>cause</i>.—<he>מ״ע שהזמן ג׳</he> (in Hebr. diction) a positive command the observance of which depends on a certain time of the day or season of the year. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:7\">Kidd. I, 7</cite> (<cite ref=\"Kiddushin 29a:7\">29ᵃ</cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>indirect effect</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 120b:2\">Sabb. 120ᵇ</cite> <he>ג׳ שרי</he> indirect effect (e.g. effacing the Divine Name in consequence of bathing) is permitted, opp. <cite ref=\"P01476\"><he>עשייה</he></cite> the direct act. ",
+				"<cite ref=\"Bava Kamma 60a:7\">B. Kam. 60ᵃ</cite> <he>ג׳ בניזקין פטור</he> damage by indirect action is not actionable. ",
+				"<cite ref=\"Bava Batra 22b:12\">B. Bath. 22ᵇ</cite> <he>ג׳ בניזקין אסור</he> to cause indirect damage is forbidden.—Pl. <cite ref=\"C01358\"><he>גְּרָמֵי</he></cite>. ",
+				"<cite ref=\"Bava Kamma 98b:5\">B. Kam. 98ᵇ</cite> <he>מאן דדאין דינא דג׳</he> he who holds the opinion that one who is the cause of damage to another person is responsible; <cite ref=\"Bava Kamma 100a\">ib. 100ᵃ</cite>; <cite ref=\"Bava Kamma 117b\">117ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

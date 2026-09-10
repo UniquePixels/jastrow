@@ -1,0 +1,38 @@
+{
+	"id": "S01040",
+	"slug": "קיני-1",
+	"headword": {
+		"text": "קֵינַי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֵינַיי"
+		},
+		{
+			"text": "קֵינָאָה"
+		},
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1363,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S00412\"><he>קוּן</he></cite>; cmp. <he>תובל קין</he> <cite ref=\"Genesis 4:2\">Gen. IV, 2</cite>2) <i>artist</i>, esp. <i>metal-worker, silversmith</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 10:9\">Targ. Jer. X, 9</cite> (h. text <cite ref=\"R00260\"><he>צורף</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 66:10\">Targ. Ps. LXVI, 10</cite> <he>קינאה</he> (ed. Wil. <he>קֵנָ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Judges 17:4\">Targ. Jud. XVII, 4</cite>; a. fr.—Y. B. Bath. II, beg. 13ᵇ <he>אין הוה כגון ק׳ וכ׳</he> if a workshop has been there before, e. g. that of a silversmith or a smith &c.—Pl. <he>קֵינָאֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Esther 5:14\">Targ. Esth. V, 14</cite> <he>ית נגרייא וית ק׳</he> the carpenters and the forgers of arms. ",
+				"<cite ref=\"Aramaic Targum to Esther 5:14\">Ib.</cite> <he>קַיְינָאֵי דמתקנין וכ׳</he> ed. Lag. (oth. ed. <he>קייצ׳</he>, corr. acc.) the smiths, that they may make a knife. ",
+				"<cite ref=\"Aramaic Targum to Esther 5:14\">Ib.</cite> <he>ולקיינ׳</he> ed. Lag. (oth. ed. <he>ולקיצ׳</he>, corr. acc.). Targ. II Esth. I, 2 <he>וכל קינאי</he> ed. Lag. (oth. ed. <cite ref=\"S01579\"><he>קניגייא</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

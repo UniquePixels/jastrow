@@ -1,0 +1,34 @@
+{
+	"id": "R00319",
+	"slug": "ציהרא",
+	"headword": {
+		"text": "צִיהֲרָא"
+	},
+	"page": {
+		"number": 1275,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00143\"><he>צְהַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bright appearance</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 14b:3\">Bets. 14ᵇ</cite> <he>חזייה דהוה קליף צִהֲרֵיה</he> he saw that its appearance was that of a recently peeled object (v. <cite ref=\"R00143\"><he>צְהַר</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a clear, translucent liquid</i>, as oil, brine &c. ",
+			"units": [
+				"<cite ref=\"Kiddushin 48b:8\">Kidd. 48ᵇ</cite> <he>הא בחמרא הא בצ׳</he> in the one case, it means a cup filled with dark wine, in the other a cup filled with a translucent liquid (which allows the cup containing it to be examined and valued).—[<cite ref=\"Bekhorot 40a\">Bekh. 40ᵃ</cite> <he>צ׳</he> R. Ḥan.: <i>the red ring surrounding the dark of the eye</i>; ed. <cite ref=\"H00686\"><he>חיורא</he></cite>; <cite ref=\"Niddah 23a\">Nidd. 23ᵃ</cite> <cite ref=\"R00459\"><he>צִירְיָא</he></cite>, q. v.]."
+			],
+			"label": "2"
+		}
+	]
+}

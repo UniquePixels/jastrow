@@ -1,0 +1,35 @@
+{
+	"id": "U01456",
+	"slug": "שמטה",
+	"headword": {
+		"text": "שְׁמִטָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמִיטָּה"
+		}
+	],
+	"page": {
+		"number": 1595,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01455\">preced.</cite>) <i>release, rest</i>, esp. <i>cancellation of debts</i>, and <i>rest of the soil</i>, in the Sabbatical year. ",
+			"units": [
+				"<cite ref=\"Moed Katan 2b:17\">M. Kat. 2ᵇ</cite>; <cite ref=\"Gittin 36a:14\">Gitt. 36ᵃ</cite> <he>שְׁמִיטַּת קרקע</he> the rest of the soil; <he>שמיטת כספים</he> the cancelling of cash debts. ",
+				"<cite ref=\"Sifrei Devarim 111:6\">Sifré Deut. 111</cite> <he>הש׳ שאין נוהג וכ׳</he> (sub. <he>דבר</he>) the law of the Sabbatical year which applies only to Palestine. ",
+				"<cite ref=\"Sifrei Devarim 111:10\">Ib.</cite> <he>בא״י שאת עושה ש׳</he> in Palestine where you observe the Sabbatical year. ",
+				"<cite ref=\"Sifrei Devarim 112:4\">Ib. 112</cite> <he>ש׳ משמטת מלוה וכ׳</he> the Sabbatical year causes cancellation of debts, but the year of the jubilee does not; a. fr.—",
+				"<cite ref=\"Pirkei Avot 5:9\">Ab. V, 9</cite> <he>על שמיטת הארץ וכ׳</he> (Mish. ed. <cite ref=\"E00931\"><he>הַשְׁמָטַת</he></cite>) for the neglect of the laws concerning land in the Sabbatical year and in the year of the jubilee; <cite ref=\"Shabbat 33a:5\">Sabb. 33ᵃ</cite> <he>השמטת שמטין וכ׳</he>.—Pl. <he>שְׁמִטּוֹת</he>, <he>שְׁמִטִּים</he>, <he>שְׁמִטִּין</he>, <cite ref=\"U01459\"><he>שְׁמִיטּ׳</he></cite>. M. Kat. l. c.; Gitt. l. c. <he>בשתי ש׳ וכ׳</he> the text (<cite ref=\"Deuteronomy 15:2\">Deut. XV, 2</cite>) speaks of two releases, the release of the land &c., v. supra. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 1:1\">R. Hash. I, 1</cite> <he>באחד … ר״ה לשנים לש׳ וכ׳</he> the first of Tishri is the New Year for years, for Sabbatical years, and for jubilees. ",
+				"<cite ref=\"Midrash Tehillim 85:1\">Midr. Till. to Ps. LXXXV</cite> <he>אם … ועשו את הש׳ וכ׳</he> if they give forth the tithes, and observe the Sabbatical years &c. ",
+				"<cite ref=\"Shabbat 33a:5\">Sabb. 33ᵃ</cite>, v. supra. ",
+				"<cite ref=\"Avot D'Rabbi Natan 38\">Ab. d’R. N. ch. XXXVIII</cite>, v. <cite ref=\"U01453\"><he>שָׁמַט</he></cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "P01267",
+	"slug": "ערבוב-1",
+	"headword": {
+		"text": "עִרְבּוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1112,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01260\"><he>עִרְבֵּב</he></cite>) <i>mixture, fusion; confusion</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 85b:3\">Sabb. 85ᵇ</cite> <he>בא ע׳ וביטל וכ׳</he> the interlacing (of the plants overgrowing the ditch between them) undoes the ditch (as a separation); <cite ref=\"Shabbat 85b:3\">ib.</cite> <he>אין ע׳ מבטל</he> Ms. M. (ed. <he>עירובו</he>, corr. acc.); <cite ref=\"Bereishit Rabbah 4:6\">Gen. R. s. 4</cite> <he>לעִרְבּוּבוֹ</he>, v. <cite ref=\"M00890\"><he>מַחֲלוֹקֶת</he></cite>; a. e.—Pl. <he>עִרְבּוּבִים</he>, <cite ref=\"P00072\"><he>עִי׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 49:9\">Gen. R. s. 49</cite> (ref. to <cite ref=\"Genesis 18:25\">Gen. XVIII, 25</cite>) <he>עִירְבּוּבֵי שאילות יש כאן</he> there is a fusion of questions in this sentence (an interchange of queries between Abraham and God); Yalk. ib. 83."
+			]
+		}
+	]
+}

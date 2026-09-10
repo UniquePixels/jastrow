@@ -1,0 +1,24 @@
+{
+	"id": "C00497",
+	"slug": "גורל",
+	"headword": {
+		"text": "גּוֹרָל"
+	},
+	"page": {
+		"number": 227,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C01348\"><he>גרל</he></cite>, cmp. <he>גלל</he>) [<i>a little ball</i> or <i>stone</i>,] <i>lot</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 39a:15\">Yoma 39ᵃ</cite>; a. fr.—Pl. <he>גּוֹרָלוֹת</he>. ",
+				"<cite ref=\"Mishnah Yoma 4:1\">Ib. IV, 1</cite>; a. fr.—Denom. <cite ref=\"E00089\"><he>הִגְרִיל</he></cite> <i>to cast lots</i>. ",
+				"<cite ref=\"Yoma 39b:14\">Ib. 39ᵇ</cite>; a. fr. V. <cite ref=\"E00090\"><he>הַגְרָלָה</he></cite>."
+			]
+		}
+	]
+}

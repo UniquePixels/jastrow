@@ -1,0 +1,23 @@
+{
+	"id": "S00506",
+	"slug": "קופינא",
+	"headword": {
+		"text": "קוֹפִינָא"
+	},
+	"page": {
+		"number": 1338,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S00490\"><he>קוֹפָא</he> II</cite>), <he>ק׳ דמרא</he> <i>the handle of a hoe</i>, contrad. to <cite ref=\"Q00102\"><he>פדא</he></cite> blade; [oth. opin.: <cite ref=\"S00506\"><he>קוּפִּינָא</he></cite> (cmp. <cite ref=\"S00491\"><he>קוּפָּא</he> I</cite>, 2) <i>that part of the hoe which contains the hole for the insertion of the handle, the blade</i>, v. <cite ref=\"Q00103\"><he>פַּדָּא</he></cite>]. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 27b\">B. Kam. 27ᵇ</cite>. ",
+				"<cite ref=\"Gittin 32a:1\">Gitt. 32ᵃ</cite>; <cite ref=\"Shabbat 102b:8\">Sabb. 102ᵇ</cite> <he>שופתא בק׳ דמרא</he> the pin which fastens the handle to the blade."
+			]
+		}
+	]
+}

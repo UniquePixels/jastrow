@@ -1,0 +1,39 @@
+{
+	"id": "M01524",
+	"slug": "מלח-5",
+	"headword": {
+		"text": "מֶלַח",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְלַח"
+		},
+		{
+			"text": "מִלְחָא"
+		},
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 788,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01523\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 2:13\">Targ. Lev. II, 13</cite> <cite ref=\"M01521\"><he>מַלַח</he></cite> constr. ed. Berl. (Var. <he>מָ׳</he>, <cite ref=\"M01782\"><he>מְ׳</he></cite>, v. Berl. Targ. O. II, p. 32; Y. <he>מֶ׳</he>). ",
+				"<cite ref=\"Targum of II Chronicles 13:5\">Targ. II Chr. XIII, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 19:26\">Targ. Y. Gen. XIX, 26</cite> (v. ",
+				"<cite ref=\"Bereishit Rabbah 51:9\">Gen. R. s. 51</cite> quot. in <cite ref=\"M01523\">preced.</cite>); a. fr.—",
+				"<cite ref=\"Kiddushin 62a:1\">Kidd. 62ᵃ</cite>; <cite ref=\"Chullin 113a:10\">Ḥull. 113ᵃ</cite>, v. <cite ref=\"C00963\"><he>גְּלַלְנִיתָא</he></cite>. ",
+				"<cite ref=\"Bekhorot 8b:15\">Bekh. 8ᵇ</cite> <he>מ׳ כי סרי וכ׳</he> when salt becomes unsavory, wherewith do they salt it? <cite ref=\"Bava Batra 74b:8\">B. Bath. 74ᵇ</cite> <he>מִלְחָהּ מעלי</he> (differ. vers. in Ms. M., v. Rabb. D. S. a. l. note) as to the female (Behemoth), its brine is more savory. ",
+				"<cite ref=\"Yevamot 63a:8\">Yeb. 63ᵃ</cite>, v. <cite ref=\"H01432\"><he>חֲפוּרָה</he> II</cite>; a. fr.—Pl. <he>מִלְחֵי</he>, <cite ref=\"M01393\"><he>מִי׳</he></cite>. ",
+				"<cite ref=\"Pesachim 8a:14\">Pes. 8ᵃ</cite> <cite ref=\"M02894\"><he>בי מ׳</he></cite> salt-store. ",
+				"<cite ref=\"Avodah Zarah 33a:10\">Ab. Zar. 33ᵃ</cite> <he>שדא חמרא לבי מ׳ דישראל</he> poured wine into a Jew’s salt-store (Rashi: a vessel filled with salt)."
+			]
+		}
+	]
+}

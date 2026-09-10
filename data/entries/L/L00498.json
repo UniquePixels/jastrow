@@ -1,0 +1,44 @@
+{
+	"id": "L00498",
+	"slug": "ליסטיס",
+	"headword": {
+		"text": "לִיסְטֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "לֵיסְטֵס"
+		},
+		{
+			"text": "לִסְ׳"
+		}
+	],
+	"page": {
+		"number": 708,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (frequ. incorr. … <he>טים</he>) m. (λῄστης) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>robber, pirate, freebooter</i>, in gen. <i>rover</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:13\">Targ. Y. Gen. XXI, 13</cite>.—",
+				"<cite ref=\"Bava Kamma 57a:15\">B. Kam. 57ᵃ</cite>, a. fr. <he>ל׳ מזויין</he>, v. <cite ref=\"G00191\"><he>זוּן</he></cite>; <cite ref=\"Bava Metzia 43a\">B. Mets. 43ᵃ</cite>; <cite ref=\"Bava Metzia 58a\">58ᵃ</cite> <cite ref=\"L00586\"><he>לסטין</he></cite> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:20\">Y. Ber. IX, 13ᵇ</cite> top; a. fr.—Pl. <he>לִיסְטִים</he>, <cite ref=\"L00586\"><he>לִיסְטִין</he></cite>, <cite ref=\"L00497\"><he>לִסְ׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 64\">Gen. R. s. 64</cite> (v. <cite ref=\"C01394\"><he>גָּרַר</he> II</cite>) <he>שנכנסו ל׳ וכ׳</he> rovers had come to his house and revelled with him the whole night. ",
+				"<cite ref=\"Shabbat 10a:7\">Sabb. 10ᵃ</cite>; <cite ref=\"Pesachim 12b:13\">Pes. 12ᵇ</cite> <he>מאכל ל׳</he> the meal-time of the lawless (prize-fighters &c., cmp. <cite ref=\"L00199\"><he>לוּדִים</he></cite>); a. v. fr.—Ch. forms: <cite ref=\"L00586\"><he>לִיסְטִין</he></cite>, <he>לִיסְטַיָּיא</he> (v. <cite ref=\"L00493\"><he>לִיסְטָאָה</he></cite>), <cite ref=\"L00499\"><he>לִיסְטֵיסִין</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:5\">Targ. Job V, 5</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m. <i>Lestes</i> (cmp. Roman name Latro). ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:12\">Cant. R. to IV, 12</cite>; <cite ref=\"Vayikra Rabbah 32:5\">Lev. R. s. 32</cite> <he>ולא ליוסף ל׳</he> nor did they change <i>Joseph</i> into <i>Lestes</i>"
+			],
+			"label": "2"
+		}
+	]
+}

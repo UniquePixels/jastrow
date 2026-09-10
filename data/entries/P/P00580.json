@@ -1,0 +1,23 @@
+{
+	"id": "P00580",
+	"slug": "עיליש",
+	"headword": {
+		"text": "עִילִישׁ"
+	},
+	"page": {
+		"number": 1070,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>ʿIlish</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 133b:2\">B. Bath. 133ᵇ</cite>. ",
+				"<cite ref=\"Gittin 45a:20\">Gitt. 45ᵃ</cite>"
+			]
+		}
+	]
+}

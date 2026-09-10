@@ -1,0 +1,34 @@
+{
+	"id": "V01032",
+	"slug": "תרעא-1",
+	"headword": {
+		"text": "תָּרָעָא"
+	},
+	"page": {
+		"number": 1701,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V01031\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gate-keeper, guard</i>.—<he>תָּרָעַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 9:18\">Targ. I Chr. IX, 18</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>locksmith.—</i>Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 24:16\">Targ. II Kings XXIV, 16</cite> (not <cite ref=\"V01035\"><he>תַּרְעֲיָא</he></cite>; h. text <cite ref=\"M01848\"><he>מַסְגֵּר</he></cite>); <cite ref=\"Targum Jonathan on Jeremiah 24:1\">Targ. Jer. XXIV, 1</cite> (not <he>תַּרְעֲ׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

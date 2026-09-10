@@ -1,0 +1,31 @@
+{
+	"id": "V00542",
+	"slug": "תכלא-1",
+	"headword": {
+		"text": "תִּכְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1668,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00541\">preced.</cite>) <i>consumption, ruin, decay</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56a:19\">Ber. 56ᵃ</cite> <he>חזאי דנפל ת׳ בתרתין וכ׳</he> I saw in my dream that decay had seized two of my fingers. ",
+				"<cite ref=\"Berakhot 56a:19\">Ib.</cite> <he>נפל ת׳ בכולהו שיראי</he> decay (through moths, v. <cite ref=\"V00536\"><he>תְּכַךְ</he> II</cite>) has seized all the silk garments (of the royal wardrobe). ",
+				"<cite ref=\"Chullin 64b:3\">Ḥull. 64ᵇ</cite> <he>דשדא ת׳ בכולה</he> for it (the drop of blood on the yolk of an egg) spreads decay over the whole of it.—Pl. <he>תִּכלי</he>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>. ",
+				"<cite ref=\"Bava Kamma 92b:8\">B. Kam. 92ᵇ</cite> <he>שתין ת׳ וכ׳</he> sixty decays (pains) &c., v. <cite ref=\"K00656\"><he>כַּכָּא</he></cite>."
+			]
+		}
+	]
+}

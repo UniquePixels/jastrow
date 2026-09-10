@@ -1,0 +1,23 @@
+{
+	"id": "O01653",
+	"slug": "סרסיא-2",
+	"headword": {
+		"text": "סַרְסָיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1029,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01647\"><he>סְרַס</he></cite>; cmp. <cite ref=\"O00435\"><he>סוּרְסִי</he></cite>) <i>mutilated</i> or <i>reduced coin</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 49b:12\">Bekh. 49ᵇ</cite> <he>אסתירא ס׳ וכ׳</he> (Rashi <cite ref=\"O00376\"><he>סוסריתא</he></cite>, <cite ref=\"O00274\"><he>סווסריתא</he></cite>; Tosaf. <he>ססוירייא</he>, prob. meant for <he>סוּרְסָיָא</he> or <he>סוּרְסִיתָא</he>) a battered or reduced Istira, eight of which sell for a Denar."
+			]
+		}
+	]
+}

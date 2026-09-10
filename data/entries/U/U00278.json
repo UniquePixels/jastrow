@@ -1,0 +1,57 @@
+{
+	"id": "U00278",
+	"slug": "שדל-2",
+	"headword": {
+		"text": "שְׁדַל"
+	},
+	"page": {
+		"number": 1525,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00267\"><he>שַׁדֵּיל</he></cite> same, <i>to persuade, entice</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 1:10\">Targ. Prov. I, 10</cite>. ",
+						"<cite ref=\"Onkelos Exodus 22:15\">Targ. O. Ex. XXII, 15</cite>. ",
+						"<cite ref=\"Targum Jonathan on Judges 14:15\">Targ. Jud. XIV, 15</cite>; a. fr.—",
+						"<cite ref=\"Yalkut Shimoni on Torah 111:15\">Yalk. Gen. 111</cite> <he>וישַׁדֵּל</he>, v. <cite ref=\"U00274\"><he>שְׁדַךְ</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּדֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to insinuate one’s self, win favor</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 2:19\">Targ. Ruth II, 19</cite>.—",
+						"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite> <he>אית כלבין … למִשְׁתַּדְּלָא</he> there are dogs in Rome that know how to insinuate themselves (win the confidence of men); <cite ref=\"Yalkut Shimoni on Torah 36\">Yalk. Gen. 36</cite>; <cite ref=\"Yalkut Shimoni on Nach 840\">Yalk. Ps. 840</cite> <he>למְשַׁדְּלָא</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to strive</i>; <i>to struggle</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 1:17\">Targ. Koh. I, 17</cite>. ",
+						"<cite ref=\"Onkelos Genesis 32:25\">Targ. O. Gen. XXXII, 25</cite>, sq. ",
+						"<cite ref=\"Aramaic Targum to Song of Songs 3:6\">Targ. Cant. III, 6</cite>.—[<cite ref=\"Aramaic Targum to Psalms 119:96\">Targ. Ps. CXIX, 96</cite> ed. Wil., v. <cite ref=\"U01167\"><he>שַׁכְלֵל</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

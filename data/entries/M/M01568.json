@@ -1,0 +1,47 @@
+{
+	"id": "M01568",
+	"slug": "מליתא-2",
+	"headword": {
+		"text": "מַלְיְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִלֵּיתָא"
+		},
+		{
+			"text": "מִי׳"
+		},
+		{
+			"text": "מִלֵּתָא"
+		}
+	],
+	"page": {
+		"number": 790,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01567\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mound, rampart</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 5:9\">Targ. II Sam. V, 9</cite>; <cite ref=\"Targum Jonathan on I Kings 9:24\">Targ. I Kings IX, 24</cite> (ed. Lag. <he>מי׳</he>; h. text <cite ref=\"M01494\"><he>מִלּוֹא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 20:15\">Targ. II Sam. XX, 15</cite> (h. text <he>סללה</he>); a. e.—Pl. <cite ref=\"M01568\"><he>מַלְיָתָא</he></cite>, <he>מִילְיָ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 32:24\">Targ. Jer. XXXII, 24</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stuffing</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 74a\">Pes. 74ᵃ</cite>, v. <cite ref=\"M00505\"><he>מוּלְיְיתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

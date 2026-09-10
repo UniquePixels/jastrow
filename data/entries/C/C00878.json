@@ -1,0 +1,33 @@
+{
+	"id": "C00878",
+	"slug": "גלד-2",
+	"headword": {
+		"text": "גְּלַד"
+	},
+	"page": {
+		"number": 245,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00877\">same</cite>.—<i>Part. pass.</i> <cite ref=\"C00940\"><he>גְּלִיד</he></cite> <i>hoar-covered</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 152a:3\">Sabb. 152ᵃ</cite> <he>טור תלג סחרנוהי גְלִידִין</he> (v. Rabb. D. S. a. l. note) the mountain (my head) is snow-covered, its sides (beard) hoary. [<cite ref=\"Vayikra Rabbah 7:5\">Lev. R. s. 7</cite>, v. next w.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיגְּלִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be flayed</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 46b\">Ḥull. 46ᵇ</cite>, v. <cite ref=\"A00498\"><he>אֲהִינָא</he></cite>; <cite ref=\"Sukkah 35b\">Succ. 35ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "P00330",
+	"slug": "עוקבא-2",
+	"headword": {
+		"text": "עוּקְבָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּקְבָּה"
+		},
+		{
+			"text": "עוּקְבָּן"
+		}
+	],
+	"page": {
+		"number": 1056,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>‘Uḳba, ‘Uḳban</i>, (<i>Mar ‘U</i>.), name of several Amoraim and of one Resh Galutha (or two), commonly named Mar‘U. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 31b:17\">Snh. 31ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 115b:2\">Pes. 115ᵇ</cite> <he>רבנא ע׳</he>. ",
+				"<cite ref=\"Moed Katan 16b:12\">M. Kat. 16ᵇ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:2:5\">Y. Ber. I, 3ᵃ</cite> bot. <he>מר ע׳</he>.—",
+				"<cite ref=\"Shabbat 56b:19\">Sabb. 56ᵇ</cite> <he>עוקבן בר נחמיה וכ׳</he> ‘U. son of N., the Resh Galutha; a. e.—",
+				"<cite ref=\"Eruvin 34b:9\">Erub. 34ᵇ</cite> <he>ע׳ בר חמא</he> Ms. M. (ed. <he>בר אבא</he>, corr. acc.). ",
+				"<cite ref=\"Bava Metzia 65a:11\">B. Mets. 65ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 44a:6\">Ber. 44ᵃ</cite> <he>מר ע׳ בר ח׳</he> (Ms. F. <he>רב ע׳</he>). ",
+				"<cite ref=\"Zevachim 55b:4\">Zeb. 55ᵇ</cite> <he>רב ע׳</he> Ms. M. (ed. <he>מר</he>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:1:26\">Y. Erub. I, 18ᵈ</cite> bot. <he>רבי ע׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:4:5\">Y. Ḥag. II, 78ᵇ</cite> top <he>ר׳ עוקבה</he>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:5:7\">Y. Meg. I, 71ᵃ</cite> top <he>מר ע׳</he>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 28:5\">Lev. R. s. 28</cite>; Pesik. Ha‘omer, p. 70ᵇ <he>רב חמא בר ע׳</he>.—V. Fr. M’bo p. 120ᵇ, a. Koh. Ar. Compl. s. v."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "C01237",
+	"slug": "גרביתא",
+	"headword": {
+		"text": "גַּרְבִּיתָא"
+	},
+	"page": {
+		"number": 264,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01232\"><he>גרב</he></cite>) <i>the scouring</i> or <i>sweeping</i> (wind); <he>רוחא ג׳</he> North-wind. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:23\">Targ. Prov. XXV, 23</cite> (h. text <cite ref=\"R00676\"><he>צפון</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 27:16\">Ib. XXVII, 16</cite> <cite ref=\"C01237\"><he>גַּרְבַּיְתָא</he></cite>, <he>גַּרְבַּיְי׳</he> (h. text <he>צֹפְנֶיהָ צָפַן</he>!)."
+			]
+		}
+	]
+}

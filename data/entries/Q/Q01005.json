@@ -1,0 +1,27 @@
+{
+	"id": "Q01005",
+	"slug": "פלטורא",
+	"headword": {
+		"text": "פָּלָטוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּלְ׳"
+		}
+	],
+	"page": {
+		"number": 1179,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πωλητήρ) <i>market officer</i>.—Pl. <cite ref=\"Q01006\"><he>פָּלָטוֹרִין</he></cite>, <cite ref=\"Q01005\"><he>פַּלְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:40\">Targ. Ez. XXIII, 40</cite>.—V. <cite ref=\"Q01028\"><he>פַּלְטֵרָא</he></cite>."
+			]
+		}
+	]
+}

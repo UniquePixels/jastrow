@@ -1,0 +1,27 @@
+{
+	"id": "D00286",
+	"slug": "דומינקי",
+	"headword": {
+		"text": "דּוֹמִינְקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוֹמְנִיקֵי"
+		}
+	],
+	"page": {
+		"number": 286,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (dominicae, sub aedes, v. Revue des Etudes Juives, 1884, p. 277) <i>churches</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 74b:6\">Snh. 74ᵇ</cite> <he>הני קווקי וד׳ היכי יהבינן להו נורא</he> Ms. M. (ed. omit. <he>נורא</he>; Var. lect., v. Rabb. D. S. a. l.) how dare we give fire to those churches (on Sundays)? [<cite ref=\"S00266\"><he>קווקי</he></cite>, <he>קוואקי</he> &c., misnomer of κυριακή, the name used by the Greek teachers of Christianity, corresp. to the Latin dominica.—For another explan. v. Revue des Etudes Juives 1885, p. 195 sq.]"
+			]
+		}
+	]
+}

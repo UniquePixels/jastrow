@@ -1,0 +1,24 @@
+{
+	"id": "M01443",
+	"slug": "מכשף",
+	"headword": {
+		"text": "מְכַשֵּׁף"
+	},
+	"page": {
+		"number": 785,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01317\"><he>כָּשַׁף</he></cite>)<i>sorcerer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 7:4\">Snh. VII, 4</cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:11\">Ib. 11</cite> <he>המ׳ העושה מעשה</he> a sorcerer, that is, he who performs a real act of sorcery; a. fr.—Pl. <he>מְכַשְּׁפִים</he>. Tanḥ. Vaëra 3. ",
+				"<cite ref=\"Sanhedrin 67b:3\">Snh. 67ᵇ</cite> <he>אוב</he> … <he>בכלל מ׳ היו</he> <i>Ob</i> and <i>Yidʿoni</i> are included in the law against sorcerers; a. fr."
+			]
+		}
+	]
+}

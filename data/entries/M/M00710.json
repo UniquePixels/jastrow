@@ -1,0 +1,30 @@
+{
+	"id": "M00710",
+	"slug": "מזבנא",
+	"headword": {
+		"text": "מְזַבְּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְזַבְּנָה"
+		}
+	],
+	"page": {
+		"number": 752,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00052\"><he>זְבַן</he></cite>) <i>seller</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 24:2\">Targ. Is. XXIV, 2</cite> (some ed. <cite ref=\"M00711\"><he>מזבננא</he></cite>).—",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 5:1:4\">Y. B. Mets. V, beg. 10ᵃ</cite> <he>יותר מיכן וי למ׳</he> if prices rise above that, woe to the seller (on time). ",
+				"<cite ref=\"Esther Rabbah 7:10\">Esth. R. to III, 6</cite> <he>ווי ליה למְזַבְּנֵיה</he> (not <he>למיזב׳</he>) woe to him who sells it (the king’s purple). ",
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite>, v. <cite ref=\"G00040\"><he>זְבִינָא</he> II</cite>."
+			]
+		}
+	]
+}

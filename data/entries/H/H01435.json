@@ -1,0 +1,23 @@
+{
+	"id": "H01435",
+	"slug": "חפושית-1",
+	"headword": {
+		"text": "חֲפוּשִׁית",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 491,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01480\"><he>חָפַשׁ</he></cite>) <i>a grant of emancipation, pardon, liberty</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 53:7\">Gen. R. s. 53</cite>, a gloss expl. <cite ref=\"D00367\"><he>דּוֹרִיָּיה</he></cite> (some ed. <he>חפושיה</he>; <cite ref=\"Yalkut Shimoni on Torah 92:1\">Yalk. Gen. 92</cite> <he>חָפְשִׁיּוּת</he>)."
+			]
+		}
+	]
+}

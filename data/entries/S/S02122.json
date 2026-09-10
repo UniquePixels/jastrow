@@ -1,0 +1,29 @@
+{
+	"id": "S02122",
+	"slug": "קרסי",
+	"headword": {
+		"text": "קִרְסֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1423,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S02112\"><he>קְרס</he></cite>) <i>sour wine</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:13\">Targ. Prov. XIX, 13</cite> (h. text <he>הות</he>)."
+			]
+		}
+	]
+}

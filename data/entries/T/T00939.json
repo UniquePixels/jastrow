@@ -1,0 +1,24 @@
+{
+	"id": "T00939",
+	"slug": "רפח-2",
+	"headword": {
+		"text": "רְפַח",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 1489,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00938\">preced.</cite>, cmp. P. Sm. 3964) <i>blowing up</i> (of cheeks). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 18b\">Snh. 18ᵇ</cite> Ms. M., v. <cite ref=\"J00504\"><he>יַפַּח</he></cite>."
+			]
+		}
+	]
+}

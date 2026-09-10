@@ -1,0 +1,23 @@
+{
+	"id": "I00678",
+	"slug": "טפקא",
+	"headword": {
+		"text": "טַפְקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 548,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>tile;</i> <he>מעשה ט׳</he> <i>cake baked on heated tiles</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 125a:13\">Sabb. 125ᵃ</cite> (Syr. <cite ref=\"I00678\"><he>טפקא</he></cite> panis tenuis in sartagine coctus, P. Sm. 1505)."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "A00507",
+	"slug": "אהליא",
+	"headword": {
+		"text": "אָהֳלַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹהֳלַיָּיא"
+		}
+	],
+	"page": {
+		"number": 20,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Oholaya</i> (tents) <cite ref=\"Mishnah Eduyot 7:4\">Eduy. VII, 4</cite> <he>אה׳</he>. ",
+			"units": ["<cite ref=\"Zevachim 25b\">Zeb. 25ᵇ</cite> <he>אוה׳</he>."]
+		}
+	]
+}

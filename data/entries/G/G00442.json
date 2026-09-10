@@ -1,0 +1,43 @@
+{
+	"id": "G00442",
+	"slug": "זכאי-3",
+	"headword": {
+		"text": "זַכַּאי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 397,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.(b. h. <cite ref=\"G00456\"><he>זַכָּי</he></cite>)<i>Zakkai</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " father of R. Johanan. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 41b:1\">Snh. 41ᵇ</cite> <he>כי הוה למד בן ז׳ וכ׳</he> when he was a student, they called him Ben Z. &c. ",
+				"<cite ref=\"Pirkei Avot 2:8\">Ab. II, 8</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>בר</he>) <he>בן ז׳</he> <i>Ben</i> (<i>Bar</i>) <i>Z.</i> ",
+			"units": ["<cite ref=\"Chullin 52a:11\">Ḥull. 52ᵃ</cite>"],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>R. Z.</i>, also <cite ref=\"G00460\"><he>זַכַּיי</he></cite> name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:8\">Y. Sabb. VII, 9ᶜ</cite> top; <cite ref=\"Sanhedrin 62a:7\">Snh. 62ᵃ</cite> (Ms. M. <he>רב ז׳</he>); <cite ref=\"Jerusalem Talmud Yevamot 8:3:5\">Y. Yeb. VIII, 9ᶜ</cite> <cite ref=\"G00461\"><he>זכייה</he></cite> (corr. acc.); a. e.—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 4:6:3\">Y. Keth. IV, 28ᵈ</cite> top <he>ר׳ ז׳ דאלכסנדריה</he>; <cite ref=\"Jerusalem Talmud Yevamot 7:5:5\">Y. Yeb. VII, 8ᵇ</cite> bot. <he>ז׳ ר׳ אלכס׳</he> (cor. acc); a. e.—",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:5:3\">Y. Meg. IV, 75ᵇ</cite> bot. <he>ר׳ ז׳ דכבול</he>.—Ib. 74ᵈ bot. <he>ז׳ טבחא</he> Z., the butcher."
+			],
+			"label": "3"
+		}
+	]
+}

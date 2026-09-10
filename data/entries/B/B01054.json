@@ -1,0 +1,52 @@
+{
+	"id": "B01054",
+	"slug": "בעל-2",
+	"headword": {
+		"text": "בְּעַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּעֵיל"
+		}
+	],
+	"page": {
+		"number": 182,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01053\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 21:13\">Targ. O. Deut. XXI, 13</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 6b:1\">Keth. 6ᵇ</cite> <he>דבעי למִיבְעַל</he> because he is anxious to perform his marital duty. ",
+				"<cite ref=\"Ketubot 6b:1\">Ib.</cite> <he>דטריד דלא בעיל</he> he is excited because he has not &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּעֵל"],
+			"senses": [
+				{
+					"gloss": ", part. pass. f. <he>מְבַעֲלָא</he> <i>married, having had intercourse</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 1:12\">Targ. Ruth I, 12</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיבְּעֲלָא"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B01053\">preced.</cite> Nif. ",
+					"units": [
+						"<cite ref=\"Yoma 19b:16\">Yoma 19ᵇ</cite> <he>ואִבְּעוּל כמה וכ׳</he>, (Ms. M. <he>ואיבעיל</he>) and how many virgins have been seduced (to-day) in Nahardea!"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

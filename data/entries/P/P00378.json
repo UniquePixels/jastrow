@@ -1,0 +1,41 @@
+{
+	"id": "P00378",
+	"slug": "עותא-1",
+	"headword": {
+		"text": "עַוְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַוְו׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1060,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00226\"><he>עֲוֵי</he></cite>, v. <cite ref=\"P00006\"><he>עָאֲתָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>crookedness, perverseness, wrong</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:24\">Targ. Prov. IV, 24</cite> Ms. (ed. Lag. <he>עתא</he>; ed. Wil. <cite ref=\"P00006\"><he>עאתא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:29\">Ib. X, 29</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. <i>Avtha</i> (<i>Wrong</i>). ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 14:15\">Targ. Y. II, Gen. XIV, 15</cite> (h. text <cite ref=\"H00242\"><he>חוֹבָה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

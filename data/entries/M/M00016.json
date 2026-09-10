@@ -1,0 +1,24 @@
+{
+	"id": "M00016",
+	"slug": "מאורע",
+	"headword": {
+		"text": "מְאוֹרָע"
+	},
+	"page": {
+		"number": 722,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אָרַע</he> I) <i>event, occasion</i>. Sifré Deut. s. 1; Yalk. ib. 792 <he>נקראו על שם המ׳</he> they were named from a certain event which occurred there. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite>, end <he>היו מוציאין שמן לשם המ׳</he> they passed (invented) names referring to events (instead of to genealogy). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:1:11\">Y. Taan. I, 63ᵈ</cite> bot. <he>לפי הזמן … לפי המ׳</he> according to the season, according to the needs of the occasion. ",
+				"<cite ref=\"Shabbat 24a:4\">Sabb. 24ᵃ</cite> <he>ואומר מעין המ׳</he> and insert words (in the prayer) corresponding to the needs of the occasion; (<cite ref=\"Tosefta Berakhot 3:10\">Tosef. Ber. III, 10</cite>, sq. <cite ref=\"M00671\"><he>מוּרָע</he></cite> ed. Zuck., Var. <cite ref=\"M00016\"><he>מאורע</he></cite>); a. fr."
+			]
+		}
+	]
+}

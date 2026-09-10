@@ -1,0 +1,25 @@
+{
+	"id": "O00396",
+	"slug": "סופלי",
+	"headword": {
+		"text": "סוּפְלֵי"
+	},
+	"page": {
+		"number": 968,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"O01381\"><he>ספל</he></cite>, v. <cite ref=\"O01381\"><he>סֵפֶל</he></cite>) <i>scrapings</i>, esp. [<i>scraped</i>] <i>date-stones</i> used as <i>fodder</i> (eventually as fuel). ",
+			"units": [
+				"<cite ref=\"Beitzah 21b:3\">Bets. 21ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 11a:14\">B. Bath. 11ᵃ</cite> <he>פירא דס׳</he> a pit where offal is deposited for fodder. ",
+				"<cite ref=\"Gittin 69b:19\">Gitt. 69ᵇ</cite> bot. <he>מיא דס׳</he> water in which date-stones have been soaked; a. e.—[<cite ref=\"Tosefta Shabbat 15:3\">Tosef. Sabb. XV</cite> (<cite ref=\"Tosefta Shabbat 16:3\">XVI</cite>), 3 <he>סופלי של שמן</he>, v. <cite ref=\"O01381\"><he>סֵפֶל</he></cite>.]"
+			]
+		}
+	]
+}

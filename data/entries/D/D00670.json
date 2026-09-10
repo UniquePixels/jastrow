@@ -1,0 +1,28 @@
+{
+	"id": "D00670",
+	"slug": "דיסתקא-2",
+	"headword": {
+		"text": "דִּיסְתָּקָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּסְ׳"
+		}
+	],
+	"page": {
+		"number": 303,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (dial. for <cite ref=\"D01158\"><he>דשתקא</he></cite>, v. <cite ref=\"D00669\">preced.</cite>; Dithpe. denom. of <cite ref=\"U00524\"><he>שׁוּקָא</he></cite>, <cite ref=\"U01891\"><he>שְׁקָקָא</he></cite>) <i>market-town, settlement</i>. Targ. II Esth. VI, 10 ed. Frf. (ed. Lag. <cite ref=\"T00414\"><he>רוסתקא</he></cite>, oth. ed. <he>ריס׳</he>; <cite ref=\"Megillah 16a\">Meg. 16ᵃ</cite> <cite ref=\"D00664\"><he>דִּיסְקַרְתָּא</he></cite>).—",
+			"units": [
+				"<cite ref=\"Berakhot 54a\">Ber. 54ᵃ</cite> <he>רס׳ דמחוזא</he>; <cite ref=\"Bava Metzia 83a:6\">B. Mets. 83ᵃ</cite>; <cite ref=\"Bava Batra 12b\">B. Bath. 12ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 346:1\">Yalk. Ex. 346</cite> <he>ריס׳</he> the market-town (outside) of M’ḥoza; v. <cite ref=\"T00667\"><he>רִיסְתָּקָא</he></cite>."
+			]
+		}
+	]
+}

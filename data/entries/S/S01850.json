@@ -1,0 +1,31 @@
+{
+	"id": "S01850",
+	"slug": "קצרה",
+	"headword": {
+		"text": "קְצָרָה"
+	},
+	"page": {
+		"number": 1409,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. fem. of <cite ref=\"S01846\"><he>קָצֵר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>short board, the board at the head and at the foot of the bed</i>, opp. <cite ref=\"A03028\"><he>אֲרוּכָה</he></cite>. ",
+			"units": ["<cite ref=\"Mishnah Kelim 18:5\">Kel. XVIII, 5</cite>; a. e."],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>רוח ק׳</he>, v. <cite ref=\"S01851\">next w.</cite>",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

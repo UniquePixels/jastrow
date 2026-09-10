@@ -1,0 +1,63 @@
+{
+	"id": "P00839",
+	"slug": "עלף-2",
+	"headword": {
+		"text": "עָלַף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1085,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>חלף</he>)<i>to turn, change</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְעַלֵּף"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַלֵּף"],
+			"senses": [
+				{
+					"gloss": " (interch. with <he>הִתְעַלְפֶּה</he>, formed fr. a noun <cite ref=\"P00841\"><he>עלפה</he></cite>, v. ",
+					"units": ["<cite ref=\"Ezekiel 31:15\">Ez. XXXI, 15</cite>) "]
+				},
+				{
+					"gloss": "<i>to change off, take turns</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Ta'anit 1:8\">Tosef. Taan. I, 8</cite> <he>ולא היו מִתְעַלְּפִין עליה וכ׳</he> they did not change off (in watching) over it, but one sat &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be overcome, faint, swoon</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 3b\">Ḥull. 3ᵇ</cite> <he>שחט לפנינו … ולא נ׳</he> when he cut in our (the judges’) presence, without being overcome (his hand not trembling); <cite ref=\"Chullin 3b:8\">ib.</cite> <he>שמא יִתְעַלֵּף</he> (Ar. <he>יִתְעַלְפֶּה</he>) lest his hand tremble; <cite ref=\"Chullin 3b:8\">ib.</cite> <he>ברי לי שלא נִתְעַלַּפְתִּי</he> I am sure that my hand did not tremble. ",
+						"<cite ref=\"Shabbat 9b:5\">Sabb. 9ᵇ</cite> <he>שמא יתעלפה</he> he may swoon (in the vapor bath). ",
+						"<cite ref=\"Niddah 69b:28\">Nidd. 69ᵇ</cite> <he>שמא יתעלפה</he> he may be in a swoon (and not really dead). Midr. Sam. ch. XXIII <he>ומִתְעַלְּפִים</he>, v. <cite ref=\"P00311\"><he>עוּף</he> I</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["עוּלָּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00838\">same</cite>. Part. <cite ref=\"M02081\"><he>מְעוּלָּף</he></cite>; f. <he>מְעוּלֶּפֶת</he>; pl. <he>מְעוּלָּפִים</he>, <he>עוּלָּפִין</he>; <he>מְאוּלָּפוֹת</he>. Mekh. B’shall. Shir., s. 6 <he>לא מוציאין ולא מכניסין מע׳ מריח הים</he> neither inhaling nor exhaling, being overcome by the smell of the sea; <cite ref=\"Yalkut Shimoni on Torah 248:3\">Yalk. Ex. 248</cite>; <cite ref=\"Yalkut Shimoni on Nach 927\">Yalk. Job 927</cite>.—",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 5:14\">Cant. R. to V, 14</cite> (ref. to <he>מעלפת</he>, <cite ref=\"Shir HaShirim Rabbah 5:14\">ib.</cite>) <he>מעולפ׳ כחן וכ׳</he> (through the study of the Law) the strength of man is broken, though it had been as hard as sapphires; [prob. to be read: <he>מְעַלֶּפֶת</he> (<i>Pi.</i>) it makes faint &c.]."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

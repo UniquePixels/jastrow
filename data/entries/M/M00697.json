@@ -1,0 +1,33 @@
+{
+	"id": "M00697",
+	"slug": "מותבנא",
+	"headword": {
+		"text": "מוֹתְבָנָא"
+	},
+	"page": {
+		"number": 752,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00696\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>residence</i>.—Pl. <he>מוֹתְבָנִין</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 10:23\">Targ. Ex. X, 23</cite>. ",
+				"<cite ref=\"Onkelos Exodus 35:3\">Ib. XXXV, 3</cite> (Y. II <he>בית מדור׳</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>seat, chair</i>.—<i>Pl.</i> as ab. Targ. II Esth. I, 2.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "P00612",
+	"slug": "עינוי-2",
+	"headword": {
+		"text": "עִינּוּי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִנּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1072,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עָנָה</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>delay, postponement</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:8\">Ab. V, 8</cite> <he>ע׳ הדין</he> delay in executing judgment, contrad. to <he>עוות</he>; <cite ref=\"Avot D'Rabbi Natan 38:3\">Ab. d’R. N. ch. XXXVIII</cite>; <cite ref=\"Shabbat 33a:2\">Sabb. 33ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>affliction, oppression; suffering</i>. Mekh. Mishp. s. 18 (ref. to <he>ענה תענה</he>, <cite ref=\"Exodus 22:22\">Ex. XXII, 22</cite>) <he>אחד ע׳ מרובה וכ׳</he> whether a great oppression (effecting a great loss), or a small oppression; <cite ref=\"Yalkut Shimoni on Torah 349:3\">Yalk. Ex. 349</cite>. ",
+			"units": [
+				"<cite ref=\"Yoma 74b:13\">Yoma 74ᵇ</cite> <he>ע׳ בידי שמים</he> a divine affliction; <he>ע׳ בידי אדם</he> an affliction at the hands of men. ",
+				"<cite ref=\"Sifrei Devarim 130:5\">Sifré Deut. 130</cite> (ref. to <cite ref=\"Deuteronomy 16:3\">Deut. XVI, 3</cite>) it is called ‘bread of misery’ with reference to the affliction which they suffered in Egypt; a. fr.—Esp. (with or without <he>נפש</he>) <i>self-affliction, mortification of the flesh</i>. Yoma l. c. (ref. to <cite ref=\"Leviticus 16:31\">Lev. XVI, 31</cite>) <he>ע׳ שיש בו אבידת נפש</he> an affliction with which a loss of vitality is connected (v. <cite ref=\"A00111\"><he>אֲבֵידָה</he></cite>). ",
+				"<cite ref=\"Leviticus 16:31\">Ib.</cite> (ref. to <cite ref=\"Deuteronomy 8:3\">Deut. VIII, 3</cite>) <he>מה להלן ע׳ רעבון וכ׳</he> as there affliction means suffering through lack of food, so here &c. Ib. 77ᵃ <he>רחיצה דאקרי ע׳</he> that abstention from bathing is called a privation. ",
+				"<cite ref=\"Mishnah Nedarim 11:1\">Ned. XI, 1</cite> <he>נדרי ע׳ נפש</he>, v. <cite ref=\"N00242\"><he>נֶדֶר</he></cite>; a. fr.—Pl. <he>עִינּוּיִים</he>, <he>עִינּוּיִין</he>, <cite ref=\"P00608\"><he>עִנּ׳</he></cite>. ",
+				"<cite ref=\"Yoma 76a:11\">Yoma 76ᵃ</cite> <he>הני חמשה ע׳ וכ׳</he> those five deprivations (on the Day of Atonement)—what do they correspond to? <he>כנגד חמשה ע׳ שבתורה</he> to the five afflictions (fivefold use of <cite ref=\"P00970\"><he>ענה</he></cite>) in the Biblical text; Y. ib. VIII, 44ᵈ top <he>כנגד ששה ע׳ וכ׳</he> corresponding to the six afflictions &c.; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

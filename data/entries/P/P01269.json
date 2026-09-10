@@ -1,0 +1,36 @@
+{
+	"id": "P01269",
+	"slug": "ערבוביא",
+	"headword": {
+		"text": "עַרְבּוּבְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִרְ׳"
+		},
+		{
+			"text": "עִירְ׳"
+		}
+	],
+	"page": {
+		"number": 1112,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01268\">preced.</cite>) <i>mixture, confusion, tumult, motley crowd</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:22\">Targ. Y. Deut. I, 22</cite>.—",
+				"<cite ref=\"Sifrei Devarim 20:1\">Sifré Deut. 20</cite> (ref. to Deut. l. c.) <he>בע׳ ילדים וכ׳</he> in a motley crowd, children pushing old men &c. ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> (ref. to <cite ref=\"Exodus 35:22\">Ex. XXXV, 22</cite>) <he>שהיו … ובאו אנשים ונשים בע׳</he> they pushed one another, and men and women came in a mixed crowd. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:3\">Cant. R. to IV, 4</cite> <he>כל מלחמה … מלחמת עי׳ היא</he> a battle in which more than sixty thousand are engaged is a tumultuous battle. ",
+				"<cite ref=\"Chullin 60a:11\">Ḥull. 60ᵃ</cite> <he>אם רצונו של הקב״ה בע׳ וכ׳</he> if the Lord wanted a motley growth, why did he say, ‘after its kind’ with regard to trees? <cite ref=\"Yalkut Shimoni on Nach 1056:3\">Yalk. Esth. 1056</cite> (ref. to <he>נבוכה</he>, <cite ref=\"Esther 3:15\">Esth. III, 15</cite>) <he>הפיל הקב״ה בכיה וע׳ וכ׳</he> the Lord cast weeping and confusion into Susan; a. e.—(Adv.) <i>irregularly</i>. ",
+				"<cite ref=\"Mishnah Kilayim 5:1\">Kil. V, 1</cite> <he>כרם שהוא נטוע ע׳</he> a vineyard which is planted irregularly. ",
+				"<cite ref=\"Vayikra Rabbah 36:2\">Lev. R. s. 36</cite> (ref. to <cite ref=\"Psalms 80:9\">Ps. LXXX, 9</cite>) <he>מה הגפן הזו אין נוטעין אותה ע׳ וכ׳</he> as vines are not planted at random, but in rows, so Israel &c."
+			]
+		}
+	]
+}

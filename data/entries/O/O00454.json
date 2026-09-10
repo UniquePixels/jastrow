@@ -1,0 +1,52 @@
+{
+	"id": "O00454",
+	"slug": "סחי",
+	"headword": {
+		"text": "סְחֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְחָא"
+		}
+	],
+	"page": {
+		"number": 971,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. (b. h. <cite ref=\"U00613\"><he>שָׂחָה</he></cite>) <i>to swim</i>. Part. <cite ref=\"O00454\"><he>סָחֵי</he></cite>; f. <cite ref=\"O00456\"><he>סַחְיָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 8:18\">Targ. Y. Gen. VIII, 18</cite>.—Y. Sabb. VII, 10ᵃ bot. <he>ההן דסָ׳ וכ׳</he> swimming (on the Sabbath)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <cite ref=\"O00442\"><he>סָחָה</he></cite>, v. ",
+			"units": [
+				"<cite ref=\"Ezekiel 26:4\">Ez. XXVI, 4</cite>) [<i>to scrape, sweep</i>,] <i>to wash, bathe</i>. ",
+				"<cite ref=\"Onkelos Leviticus 14:8\">Targ. Lev. XIV, 8</cite>; a. fr.—Y. l. c. <he>עאל מִיסְחֵי וכ׳</he> went bathing with &c. Bab. ib. 141ᵃ <he>מאן דסָחֵי במיא וכ׳</he> he who bathes in the river &c. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:1:2\">Y. Pes. X, beg. 37ᵇ</cite> <he>סְחָה וצחא</he> had taken a bath and was thirsty. Y. Ter. VII, end, 46ᶜ <he>סְחוּן וכ׳</he> take ye a bath, for your Creator will help you &c. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>עד דאינון סַחְיָין</he> until they shall have taken a bath. ",
+				"<cite ref=\"Ruth Rabbah 5:9\">Ruth R. to II, 19</cite> <he>נחתון מִסְחֵי וכ׳</he> (not <he>מסחו</he>) they went down to bathe &c.; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְחֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to wash, cleanse, bathe</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 9:30\">Targ. Job IX, 30</cite> (Ms. <he>אשתזיג</he>, v. <cite ref=\"U00593\"><he>שְׁזג</he></cite>). ",
+						"<cite ref=\"Onkelos Leviticus 14:9\">Targ. Lev. XIV, 9</cite> (not <he>ויִסְחֵי</he>); a. fr.—Ruth R. l. c. <he>כי קיימין מַסְחֲיָין יתיה</he> (or <he>מַסְחִין</he>) when they were washing his body. ",
+						"<cite ref=\"Vayikra Rabbah 28:6\">Lev. R. s. 28</cite> <he>עאל אַסְחֵיה</he> (not <cite ref=\"O00454\"><he>אסחי</he></cite>) he went in and scoured him (Mordecai); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

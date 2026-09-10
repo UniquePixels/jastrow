@@ -1,0 +1,23 @@
+{
+	"id": "A03085",
+	"slug": "אריגה",
+	"headword": {
+		"text": "אֲרִיגָה"
+	},
+	"page": {
+		"number": 119,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A03084\">preced.</cite>) <i>weaving</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:6:5\">Y. Yoma III, 40ᶜ</cite> bot. <he>אֲרִיגָתָן בקודש</he> their weaving must take place within the sanctuary. ",
+				"<cite ref=\"Sanhedrin 48a\">Snh. 48ᵃ</cite>, v. <cite ref=\"A03084\">preced.</cite>"
+			]
+		}
+	]
+}

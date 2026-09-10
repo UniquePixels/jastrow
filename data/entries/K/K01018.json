@@ -1,0 +1,24 @@
+{
+	"id": "K01018",
+	"slug": "כפיס",
+	"headword": {
+		"text": "כָּפִיס"
+	},
+	"page": {
+		"number": 659,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"K01040\"><he>כְּפַס</he></cite>) <i>girder, bond-lath</i>. [<cite ref=\"Mishnah Middot 3:4\">Midd. III, 4</cite> <he>כ׳ של ברזל</he>, read <he>כפים</he>, v. <cite ref=\"K00980\"><he>כַּף</he></cite>.—Y. Bets. III, 62ᵃ top <he>שבכ׳</he>, read: <he>שבכִּפִּים</he>, v. <cite ref=\"U01030\"><he>שֵׁיץ</he></cite>.]—Pl. <he>כְּפִיסִים</he>, <he>כְּפִיסִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 1:1\">B. Bath. I, 1</cite>, v. <cite ref=\"A03094\"><he>אָרִיחָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 117b:7\">B. Mets. 117ᵇ</cite> <he>תחתון שבא לשנות … בכ׳</he> when the owner of the lower story desires to make an alteration … in the girders. Tosef. Erub. XI (VIII), 2 <he>כפיס׳</he> (Ar. <he>כפיתים</he>). ",
+				"<cite ref=\"Tosefta Keilim Batra 2:3\">Tosef. Kel. B. Bath. II, 3</cite> <he>שני כ׳</he> R. S. to <cite ref=\"Mishnah Kelim 22:9\">Kel. XXII, 9</cite> (ed. <he>כתיפין</he>, <he>כתפין</he>, corr. acc.)."
+			]
+		}
+	]
+}

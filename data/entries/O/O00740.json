@@ -1,0 +1,22 @@
+{
+	"id": "O00740",
+	"slug": "סינפון",
+	"headword": {
+		"text": "סִינְפּוֹן"
+	},
+	"page": {
+		"number": 983,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"O00718\"><he>סִימְפּוֹן</he></cite>, <i>bronchial ramification</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 6:4:6\">Y. Peah VI, 19ᶜ</cite> bot. <he>היו עשויים כמין ס׳</he> if the berries were joined to one another in the way of bronchiae."
+			]
+		}
+	]
+}

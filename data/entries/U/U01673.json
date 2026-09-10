@@ -1,0 +1,23 @@
+{
+	"id": "U01673",
+	"slug": "שעממותא",
+	"headword": {
+		"text": "שַׁעֲמָמוּתָא"
+	},
+	"page": {
+		"number": 1611,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01672\">preced.</cite>) <i>stupefaction</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:28\">Targ. O. Deut. XXVIII, 28</cite> <he>שְׁעַמְמוּת לבא</he> ed. Berl. (ed. Vien. <he>שַׁעֲמָ׳</he>; Ms. <cite ref=\"U01670\"><he>שַׁעֲמִימ׳</he></cite>; some ed. <cite ref=\"M02947\"><he>מִשְׁעֲמָמוּת</he></cite>; Y. <cite ref=\"U00994\"><he>שִׁיעֲמָמוּת</he></cite>; h. text <cite ref=\"V00654\"><he>תמהון</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Zechariah 12:4\">Targ. Zech. XII, 4</cite> <cite ref=\"U00992\"><he>שִׁעֲ׳</he></cite> (h. text <he>שגעון</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "B00228",
+	"slug": "בוטטא",
+	"headword": {
+		"text": "בּוֹטְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹטִיטָא"
+		}
+	],
+	"page": {
+		"number": 144,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00227\">preced.</cite>), <he>ב׳ דנורא</he> <i>spark</i> (blossom of light, cmp. h. <cite ref=\"N00751\"><he>נִיצוֹץ</he></cite>).—Pl. <he>בּוֹטְטֵי</he>, <he>בּוֹטִיטֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 85b:10\">B. Mets. 85ᵇ</cite> <he>בוטטי דנ׳ מחיוה וכ׳</he> … Ms. M. (ed. <he>בוטי׳ … ומחייה</he>, corr. acc.) two sparks came forth and struck the eyes of &c. ",
+				"<cite ref=\"Berakhot 58a\">Ber. 58ᵃ</cite> <he>מילתא אמר ר׳ ששת ונפקו ב׳ דנ׳ וכבינהו לעיניה</he> Ar. ed. Koh. (Ms. M. <he>הב ביה מילתא ונפק בוטיתא דנ׳</he>, omitted in ed., v. Rabb. D. S. a. l. note) R. Sh. spoke a word, and there came forth sparks and blinded him."
+			]
+		}
+	]
+}

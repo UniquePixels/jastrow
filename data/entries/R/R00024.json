@@ -1,0 +1,30 @@
+{
+	"id": "R00024",
+	"slug": "צבו",
+	"headword": {
+		"text": "צְבוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְבוּתָא"
+		}
+	],
+	"page": {
+		"number": 1257,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00034\"><he>צְבֵי</he></cite>) <i>will, desire; willingness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 8:15\">Targ. Y. Lev. VIII, 15</cite> (ed. Vien. <cite ref=\"R00024\"><he>צְבוֹ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 24:5\">Targ. Y. Gen. XXIV, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:16\">Targ. Job XXXI, 16</cite> ed. Lag. (oth. ed. <cite ref=\"R00021\"><he>צַבְאוּת</he></cite>); a. e.—",
+				"<cite ref=\"Yoma 86b:18\">Yoma 86ᵇ</cite> <he>בצ׳ נפשיה לקטלא נפיק וצ׳ ביתיה וכ׳</he> of his own free will he (I, the judge) goes to meet death (divine punishment for wrong judgment), and the desire of his household he does not do (he must neglect his own affairs), and empty-handed he comes to his home again; <cite ref=\"Sanhedrin 7b:10\">Snh. 7ᵇ</cite> <he>ברעות נפשיה … וצבי ביתיה וכ׳</he>."
+			]
+		}
+	]
+}

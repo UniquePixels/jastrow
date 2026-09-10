@@ -1,0 +1,23 @@
+{
+	"id": "Q02134",
+	"slug": "פתוי",
+	"headword": {
+		"text": "פָּתוּי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1250,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02125\"><he>פָּתָה</he></cite>) <i>extended</i>; <he>פְּתוּי הראש</he> <i>a flat-headed person</i>; [Rashi: <i>elf-locked</i>]. ",
+			"units": [
+				"<cite ref=\"Berakhot 58b:11\">Ber. 58ᵇ</cite> Ms. M. (ed. <he>פְּתוּיֵי</he> pl.; Alf. <cite ref=\"Q02151\"><he>פתי</he></cite>)."
+			]
+		}
+	]
+}

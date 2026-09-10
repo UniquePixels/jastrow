@@ -1,0 +1,35 @@
+{
+	"id": "Q01314",
+	"slug": "פסיקה-1",
+	"headword": {
+		"text": "פְּסִיקָה"
+	},
+	"page": {
+		"number": 1196,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01350\"><he>פָּסַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cutting apart</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 11a:13\">Succ. 11ᵃ</cite> <he>פְּסִיקָתָן זו היא עשייתן</he> cutting the threads apart is the making of them (the show fringes)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>separated thread</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 11:8\">Neg. XI, 8</cite> <he>אפי׳ פ׳ אחת וכ׳</he> even if only one separate thread was on the coil, and he knotted it.—Pl. <he>פְּסִיקוֹת</he>. ",
+				"<cite ref=\"Mishnah Negaim 11:8\">Ib.</cite> <he>היתה פ׳</he> if the coil consisted of separate threads."
+			],
+			"label": "2"
+		}
+	]
+}

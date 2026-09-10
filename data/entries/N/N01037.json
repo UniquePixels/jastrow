@@ -1,0 +1,37 @@
+{
+	"id": "N01037",
+	"slug": "נפי-2",
+	"headword": {
+		"text": "נְפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְפָא"
+		}
+	],
+	"page": {
+		"number": 923,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>נַפֵּי</he>, <cite ref=\"N01036\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Shabbat 7:2:25\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>כד מְנַפְּיָיא וכ׳</he> when she fans (blows the chaff out, on the Sabbath), she is guilty of an act coming under the category of winnowing. ",
+						"<cite ref=\"Ruth Rabbah 5:12\">Ruth R. to III, 3</cite> [read:] <he>אזל נַפְּיָיהּ והיא וכ׳</he> go and winnow it (again), and it will yield the remainder; <cite ref=\"Yalkut Shimoni on Nach 604:10\">Yalk. ib. 604</cite> <he>זיל נַפֵּי תיבנא וכ׳</he> (not <cite ref=\"K01007\"><he>כפי</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A00277",
+	"slug": "אגור",
+	"headword": {
+		"text": "אֵגוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵיגוֹר"
+		}
+	],
+	"page": {
+		"number": 12,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אגר</he> I) <i>heap, hill</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 3:3\">Tosef. Shebi. III, 3</cite> <he>ואי׳ יוצא וכ׳</he> ed. Zuck. (Var. <he>ואיגד</he>) and a mound (of arable ground) rises out of it (the rock).—Pl. <cite ref=\"A00282\"><he>אֵגוֹרִים</he></cite>, <he>אֵיג׳</he>; const. <cite ref=\"A01142\"><he>אֵיגוֹרֵי</he></cite>. ",
+				"<cite ref=\"Tosefta Peah 3:8\">Tosef. Peah III, 8</cite> <he>אוגורי השום</he> ed. Zuck. (Var. <he>אגידי</he>, <he>אגודות</he>, ed. <he>אגודי</he>, v. <cite ref=\"A00257\"><he>אֱגוֹד</he></cite>) heaps of garlic on the field, not yet bunched."
+			]
+		}
+	]
+}

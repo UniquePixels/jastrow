@@ -1,0 +1,32 @@
+{
+	"id": "M00469",
+	"slug": "מוי",
+	"headword": {
+		"text": "מוֹי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹיֵי"
+		}
+	],
+	"page": {
+		"number": 741,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. = <cite ref=\"M01139\"><he>מַיִין</he></cite>, <i>water</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 1:3\">Targ. Ps. I, 3</cite>; a. fr.—Targ. II Esth. III, 3 <cite ref=\"M00469\"><he>מויי</he></cite> (ed. Lag. <cite ref=\"M00426\"><he>מוֹהִי</he></cite> <i>its waters</i>); <cite ref=\"Targum Jonathan on Isaiah 58:11\">Targ. Is. LVIII, 11</cite>; <cite ref=\"Targum Jonathan on Jeremiah 15:18\">Targ. Jer. XV, 18</cite>; a. fr.—מוֹהָא <i>her</i> (<i>its</i>) <i>waters</i>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 50:38\">Ib. L, 38</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 19:10\">Targ. Is. XIX, 10</cite> <cite ref=\"M00861\"><he>מחא</he></cite> (Var. ed. Lag. <he>מהא</he>) read <cite ref=\"M00342\"><he>מָהָא</he></cite> = <cite ref=\"M00423\"><he>מוֹהָא</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 10:11:5\">Y. Erub. X, 26ᶜ</cite> <he>דלא יתן מויי</he> that he add no water to it. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:1:2\">Y. Pes. III, beg. 29ᵈ</cite>; a. e."
+			]
+		}
+	]
+}

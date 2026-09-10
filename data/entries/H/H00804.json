@@ -1,0 +1,27 @@
+{
+	"id": "H00804",
+	"slug": "חימוצא",
+	"headword": {
+		"text": "חִימּוּצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִמּ׳"
+		}
+	],
+	"page": {
+		"number": 457,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01212\"><he>חמץ</he></cite>, v. Ges. H. Dict.<sup>10</sup> s. v. <cite ref=\"H01212\"><he>חמץ</he></cite>) <i>shame</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:21\">Targ. Prov. XVII, 21</cite> (h. text <cite ref=\"V00153\"><he>תוגה</he></cite>)."
+			]
+		}
+	]
+}

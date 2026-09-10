@@ -1,0 +1,38 @@
+{
+	"id": "V00878",
+	"slug": "תקוף-2",
+	"headword": {
+		"text": "תְּקוֹף",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1690,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00909\"><he>תְּקף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strength, power; help, protection</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 7:17\">Targ. Deut. VII, 17</cite> (O. ed. Vien. <cite ref=\"V00887\"><he>תְּקֵף</he></cite>). Targ. O. a. Y. I ib. XXXII, 15, v. <cite ref=\"R00501\"><he>צְלַח</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 15:1\">Targ. O. Gen. XV, 1</cite> (h. text <he>מגן</he>). ",
+				"<cite ref=\"Onkelos Exodus 13:16\">Targ. Ex. XIII, 16</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 33:29\">Targ. O. Deut. XXXIII, 29</cite> ed. Berl. (ed. Vien. <cite ref=\"V00888\"><he>תַּקִּיף</he></cite>); Y. I <cite ref=\"Onkelos Deuteronomy 33:29\">ib.</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>attack</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 16:14\">Targ. Job XVI, 14</cite> (h. text <he>פרץ</he>).—V. <cite ref=\"V00267\"><he>תּוּקְפָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

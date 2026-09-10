@@ -1,0 +1,28 @@
+{
+	"id": "A02741",
+	"slug": "אפמיא",
+	"headword": {
+		"text": "אַפַּמְיָא"
+	},
+	"page": {
+		"number": 105,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (= <cite ref=\"Q01138\"><he>פַּמְיָיס</he></cite> q. v.) <i>Paneas</i> in Northern Galilee (Cæsarea). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:16\">Y. Kil. IX, 32ᶜ</cite> bot. <he>ימא דא׳</he> the lake of P.—Y. Ḥall. IV, end, 60ᵇ (?)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Apamæa</i> in Babylon; v. <cite ref=\"A02502\"><he>אִסְפַּמְיָא</he></cite> 2).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

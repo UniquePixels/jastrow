@@ -1,0 +1,27 @@
+{
+	"id": "U01037",
+	"slug": "שיצינא",
+	"headword": {
+		"text": "שִׁיצִינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּ׳"
+		}
+	],
+	"page": {
+		"number": 1567,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U01030\"><he>שֵׁיץ</he></cite>) <i>branch, twig</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 99b\">B. Mets. 99ᵇ</cite> <he>שי׳ דתמרי</he> Ar. (ed. Koh. <he>שו׳</he>; ed. <cite ref=\"H00075\"><he>חביצא</he></cite>) a palm twig with dates on."
+			]
+		}
+	]
+}

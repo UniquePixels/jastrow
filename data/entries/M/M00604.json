@@ -1,0 +1,21 @@
+{
+	"id": "M00604",
+	"slug": "מור-3",
+	"headword": {
+		"text": "מוּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 748,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"A02061\"><he>אֲמַר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:6:4\">Y. Ber. II, 5ᵇ</cite> top <he>נפיק ומור</he> he went out and said. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:6:4\">Ib.</cite> <he>ומוֹר דבתריה</he> (ed. Lehm. <he>ואמור</he>) but say also what follows it."
+			]
+		}
+	]
+}

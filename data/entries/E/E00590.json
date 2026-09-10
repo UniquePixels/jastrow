@@ -1,0 +1,30 @@
+{
+	"id": "E00590",
+	"slug": "המגניא",
+	"headword": {
+		"text": "הַמְגַּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַמְגַּנְיָיה"
+		},
+		{
+			"text": "בֵּית הַמְגַּנְיָא"
+		}
+	],
+	"page": {
+		"number": 354,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Beth-Hamgania</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 6:4\">Kil. VI, 4</cite> (v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "V00685",
+	"slug": "תמך-2",
+	"headword": {
+		"text": "תְּמַךְ"
+	},
+	"page": {
+		"number": 1677,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>תַּמֵּךְ</he> <cite ref=\"V00684\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 5:5\">Targ. Prov. V, 5</cite> <he>מתמכן</he> Ms. (ed. <he>מסמכן</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

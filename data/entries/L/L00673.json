@@ -1,0 +1,43 @@
+{
+	"id": "L00673",
+	"slug": "לקותא",
+	"headword": {
+		"text": "לָקוּתָא"
+	},
+	"page": {
+		"number": 717,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00684\"><he>לְקִי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>punishment</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 32:32\">Targ. O. Deut. XXXII, 32</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>being beaten</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 71b:7\">Yoma 71ᵇ</cite> <he>לָקוּתֵיה</he>, v. <cite ref=\"K00651\"><he>כִּיתַּן</he></cite>; <cite ref=\"Zevachim 18b:17\">Zeb. 18ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 380:2\">Yalk. Ex. 380</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>disorder, disease, defect</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 16b:8\">B. Bath. 16ᵇ</cite> <he>קרנא דקרש ל׳ הוא</he> a complexion like the color of the horn of the unicorn is a defect (and not a perfection). ",
+				"<cite ref=\"Chullin 43a:2\">Ḥull. 43ᵃ</cite> <he>ל׳ דרכיש</he> the disorder of the kidneys mentioned by Rakhish. ",
+				"<cite ref=\"Chullin 55a:10\">Ib. 55ᵃ</cite> bot. <he>דמטאי ל׳ וכ׳</he> when the disorder extends to &c.; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

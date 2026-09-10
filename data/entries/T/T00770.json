@@ -1,0 +1,44 @@
+{
+	"id": "T00770",
+	"slug": "רכן-3",
+	"headword": {
+		"text": "רָכַן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1480,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"T00769\">preced.</cite>) <i>to bend</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְכִּין"],
+			"senses": [
+				{
+					"gloss": "<i>to bend</i> (act. a. neut. verb); <i>to yield</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 5:8\">B. Bath. V, 8</cite>, a. e. <he>הִרְכִּינָהּ וכ׳</he>, v. <cite ref=\"M02271\"><he>מָצָה</he></cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14<sup>7</sup></cite> <he>הוא לא ה׳ צוארו לעבירה וכ׳</he> he (Joseph) bent not his neck (did not yield) to temptation, therefore a golden chain was put on his neck; Tanḥ. ",
+						"<cite ref=\"Genesis 12\">B’resh. 12</cite> <he>צואר שלא ה׳ וכ׳</he> the neck which did not bend &c.; <cite ref=\"Vayikra Rabbah 23:9\">Lev. R. s. 23</cite> <he>שלא הִרִכִּינוֹ</he> which he did not bend. ",
+						"<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10<sup>7</sup></cite> <he>והִרְכַּנְתִּי את ראשי</he> I bent my head (nodding approval); Y. Ned. I, 36ᵈ bot. <he>והרכנתיו בראשי</he> (read <he>והרכנתי</he>); <cite ref=\"Sifrei Bamidbar 22:1\">Sifré Num. 22</cite> (not <he>גלחתי</he>); (<cite ref=\"Tosefta Nazir 4:7\">Tosef. Naz. IV, 7</cite> <he>הֵימַכְתִּי</he>). Y. Ter. I, 40ᵇ top <he>ה׳ בראשו</he> if he nodded consent; <cite ref=\"Yoma 2a\">ib.</cite> <he>עד שיַרְכִּין וכ׳</he> until he nods three times. ",
+						"<cite ref=\"Mishnah Gittin 7:1\">Gitt. VII, 1</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sink, be faint</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 65:20\">Gen. R. s. 65</cite> (ref. to <cite ref=\"Genesis 27:22\">Gen. XXVII, 22</cite>) <he>בשעה שיעקב מַרְכִּין בקולו וכ׳</he> when Jacob is faint with his voice (in prayer), Esau’s hands have power over him, opp. <he>מצפצף</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

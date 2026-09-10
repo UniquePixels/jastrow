@@ -1,0 +1,27 @@
+{
+	"id": "O01431",
+	"slug": "ספרותא",
+	"headword": {
+		"text": "סַפְרוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַפְרוּתָה"
+		}
+	],
+	"page": {
+		"number": 1018,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"O01423\"><he>סַפְרָא</he></cite>) <i>teacher’s office</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 4:5:3\">Y. Meg. IV, 75ᵇ</cite> bot. <he>שרון ליה מן ספְרוּתֵה</he> they discharged him from the teacher’s office."
+			]
+		}
+	]
+}

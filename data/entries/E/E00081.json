@@ -1,0 +1,23 @@
+{
+	"id": "E00081",
+	"slug": "הגפה",
+	"headword": {
+		"text": "הֲגָפָה"
+	},
+	"page": {
+		"number": 332,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00456\"><he>גּוּף</he></cite>) <i>shutting up, closing</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 18a:2\">Yoma 18ᵃ</cite> <he>הֲגָפַת דלתות</he> (some ed. <he>הֲגָפוֹת</he> pl.) locking the Temple doors; <cite ref=\"Arakhin 11b:30\">Arakh. 11ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Sotah 8:1\">Sot. VIII, 1</cite> (<he>קול</he>) <he>הגפת תריסין</he> noise made by fastening the cuirasses (to frighten the enemy); <cite ref=\"Sifrei Devarim 192:3\">Sifré Deut. 192</cite>; a. e.—Mekh. B’shall. 2 <he>אֲגָפַת תריסין</he> (not <he>תריסטין</he>)."
+			]
+		}
+	]
+}

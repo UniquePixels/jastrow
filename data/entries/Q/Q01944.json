@@ -1,0 +1,71 @@
+{
+	"id": "Q01944",
+	"slug": "פרע-2",
+	"headword": {
+		"text": "פְּרַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1235,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01943\">same</cite><i>to disarrange; to tear open, uncover</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 43:16\">Targ. Y. Gen. XLIII, 16</cite> (v. ",
+				"<cite ref=\"Chullin 91a:21\">Ḥull. 91ᵃ</cite> quot. in <cite ref=\"Q01943\">preced.</cite>). ",
+				"<cite ref=\"Onkelos Numbers 5:18\">Targ. Num. V, 18</cite>; a. e.—Part. pass. <cite ref=\"Q01818\"><he>פְּרִיעַ</he></cite>; pl. <cite ref=\"Q01492\"><he>פְּרִיעִין</he></cite>, <cite ref=\"Q01830\"><he>פְּרִיעֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:45\">Targ. O. Lev. XIII, 45</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 32:25\">Targ. Y. Ex. XXXII, 25</cite>; a. e., v. <cite ref=\"Q01818\"><he>פְּרִיעַ</he> I</cite>.—",
+				"<cite ref=\"Chullin 50b:5\">Ḥull. 50ᵇ</cite> <he>היכא דפַרְעֵי טבחי</he> where the butchers tear open, v. <cite ref=\"M02250\"><he>מַפְרַעְתָּא</he></cite>; <cite ref=\"Chullin 76a:13\">ib. 76ᵃ</cite> <he>היכא דפרעי טבחי</he> the place which the butchers strike when they begin to flay; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pay, retribute</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 24:15\">Targ. Y. I Deut. XXIV, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:31\">Targ. Prov. VI, 31</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:27\">Ib. XXII, 27</cite> <he>דתִפְרַע</he> Ms. (ed. <he>דפריע</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 7:5\">Targ. Ps. VII, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 7:9\">Ib. 9</cite>; a. fr.—",
+				"<cite ref=\"Shevuot 41b:9\">Shebu. 41ᵇ</cite> <he>כי פְּרַעְתִּין פַּרְעִין לי באפי וכ׳</he> (Ms. M. <he>כי פַרְעַת לי פַּרְעָן</he>) when you pay it (the money, v. <cite ref=\"Q01802\"><he>פְּרִיטָא</he></cite>), pay me in the presence of &c.; <he>אזל ופַרְעֵיה באפי תרי וכ׳</he> he went and paid him in the presence of two outsiders. ",
+				"<cite ref=\"Shevuot 41b:9\">Ib.</cite> <he>כי פרעת לי פּוֹרְעָן לי וכ׳</he>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפָּרַע", "אִיפָּרַע"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְפְּרַע", "אִיפְּרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be paid; to be paid back</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 12:14\">Targ. Prov. XII, 14</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " = <cite ref=\"Q01943\">preced.</cite> <i>Nif., to collect, call to account; to be revenged, take revenge</i>. Ib. XXII, 23. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 16:28\">Targ. Jud. XVI, 28</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 8:20\">Targ. I Sam. VIII, 20</cite> (h. text <he>ושפט׳</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 2:9\">Targ. Jer. II, 9</cite>; a. fr.—",
+						"<cite ref=\"Sotah 22b:6\">Sot. 22ᵇ</cite> <he>לִיתְפְּרַע</he>, <cite ref=\"C00434\"><he>גּוּנְדָּא</he> II</cite>.—",
+						"<cite ref=\"Bava Metzia 16a:9\">B. Mets. 16ᵃ</cite> <he>זוזי … אִפָּרוּעֵי</he> (Ms. H. <he>אִתְפָּרוּעֵי</he>) all he wants is to collect the money (debt). ",
+						"<cite ref=\"Yoma 22b:13\">Yoma 22ᵇ</cite> <he>אִפַּרְעוּ מיניה</he> (Tosaf. <he>אִיפָּרוּעֵי אִיפָּרְעֵי</he>) they (in heaven) punished him; <cite ref=\"Yoma 22b:13\">ib.</cite> <he>אפרעו מגופיה</he>, v. <cite ref=\"L00016\"><he>לַאי</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 121\">Yalk. Sam. 121</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

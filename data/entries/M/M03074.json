@@ -1,0 +1,50 @@
+{
+	"id": "M03074",
+	"slug": "מתל-2",
+	"headword": {
+		"text": "מְתַל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַתְלָא"
+		}
+	],
+	"page": {
+		"number": 862,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M03073\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"M02913\"><he>מָשָׁל</he></cite>, <i>parable, witty saying, riddle, comparison; by-word</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:6\">Targ. Prov. I, 6</cite> (some ed. <cite ref=\"M03076\"><he>מתלאה</he></cite>, corr. acc.). ",
+				"<cite ref=\"Onkelos Deuteronomy 28:37\">Targ. O. Deut. XXVIII, 37</cite>.—",
+				"<cite ref=\"Targum Jonathan on I Samuel 24:14\">Targ. I Sam. XXIV, 14</cite> (Bxt. <he>מָתְלַיָּא</he>, v. <cite ref=\"M03024\"><he>מָתוֹלָא</he></cite>). ",
+				"<cite ref=\"Onkelos Numbers 23:7\">Targ. Num. XXIII, 7</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Demai 1:1:12\">Y. Dem. I, 21ᵈ</cite> top. ",
+				"<cite ref=\"Pesachim 114a:3\">Pes. 114ᵃ</cite>, v. preced.—",
+				"<cite ref=\"Bereishit Rabbah 48:20\">Gen. R. s. 48</cite>, end <he>מ׳ אמר</he> the proverb says; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>plausible reason</i>, v. <cite ref=\"A02076\"><he>אֲמַתְלָא</he></cite>. Y. Yoma III, end, 41ᵇ <he>מצאו מ׳ לדבריהן</he> offered good reason for their doing so. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:5:4\">Y. Keth. II, 26ᶜ</cite> bot.—Pl. <he>מַתְלִין</he>, <he>מַתְלַיָּא</he>, <he>מַתְלֵי</he>. Targ. Y. Deut. l. c.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:1\">Targ. Prov. I, 1</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 38b:22\">Snh. 38ᵇ</cite> <he>ר׳ מאיר בפירקיה הוה דריש</he> … <he>תילתא מ׳</he> R. M., when holding sessions, used to spend one third of the time on legal subjects, one third on homiletical preaching, and one third on parables (illustrating Biblical verses). ",
+				"<cite ref=\"Vayikra Rabbah 28:2\">Lev. R. s. 28</cite> <he>תלת מאוון דמ׳ וכ׳</he> three hundred parables on the fox; a. fr.—",
+				"<cite ref=\"Targum of II Chronicles 9:1\">Targ. II Chr. IX, 1</cite> <he>מוֹתְלַוָון</he>."
+			],
+			"label": "2"
+		}
+	]
+}

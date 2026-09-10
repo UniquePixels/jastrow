@@ -1,0 +1,38 @@
+{
+	"id": "H01668",
+	"slug": "חרי-3",
+	"headword": {
+		"text": "חרי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָרָה"
+		}
+	],
+	"page": {
+		"number": 501,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be hot, to glow</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 158:1\">Yalk. Sam. 158</cite> <he>ח׳ אפו וכ׳</he> His anger is enkindled &c., v. <cite ref=\"A02688\"><he>אַפִּילוֹן</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חֵרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to ignite, stir</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 18:10\">Midr. Till. to Ps. XVIII, 8</cite> <he>מְחָרֶה אפו</he> He stirs up His anger."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

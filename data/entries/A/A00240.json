@@ -1,0 +1,20 @@
+{
+	"id": "A00240",
+	"slug": "אגד-2",
+	"headword": {
+		"text": "אֲגַד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 10,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00239\">same</cite><i>to tie</i>. Part. pass. <he>אָגִיד</he>. ",
+			"units": [
+				"<cite ref=\"Yevamot 39b:23\">Yeb. 39ᵇ</cite> <he>הא אֲגִידָא ביה</he> is she not tied to him?, hence he <i>must</i> marry her."
+			]
+		}
+	]
+}

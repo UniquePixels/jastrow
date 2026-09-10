@@ -1,0 +1,39 @@
+{
+	"id": "M02083",
+	"slug": "מעון-1",
+	"headword": {
+		"text": "מָעוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 814,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00291\"><he>עוּן</he></cite>) [<i>selection</i>; cmp. <cite ref=\"B00704\"><he>בִּירָה</he></cite>,] <i>residence</i>, esp. <i>the Temple</i>; <he>המ׳</he> by the Temple! <cite ref=\"Tosefta Ketubot 3:2\">Tosef. Keth. III, 2</cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keritot 4:4\">Tosef. Ker. IV, 4</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 12:3\">Num. R. s. 12</cite> <he>שמת מְעוֹנְךָ בעליונים</he> thou hast placed thy residence with the uppermost(angels). ",
+				"<cite ref=\"Kohelet Rabbah 12:7\">Koh. R. to XII, 7</cite> <he>מעוני טהור</he> my residence (in heaven) is pure; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Maʿon</i>, name of one of the heavens. ",
+			"units": ["<cite ref=\"Chagigah 12b:5\">Ḥag. 12ᵇ</cite>"],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>that which is looked for</i>,] <i>sustenance, support</i> (v. ",
+			"units": [
+				"<cite ref=\"I Samuel 2:29\">I Sam. II, 29</cite>; <cite ref=\"I Samuel 2:32\">32</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 68:9\">Gen. R. s. 68</cite>, a. e. <he>הקב״ה מְעוֹנוֹ של עולמו</he> the Lord is the support of his world; cmp. <cite ref=\"M02394\"><he>מָקוֹם</he></cite>.—[<cite ref=\"Shemot Rabbah 24\">Ex. R. s. 24</cite> <he>מעון בתוך גרגרתו</he>, some ed., read: <cite ref=\"M02115\"><he>מַעֲיָן</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

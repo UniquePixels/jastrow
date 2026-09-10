@@ -1,0 +1,31 @@
+{
+	"id": "M00122",
+	"slug": "מגדלאה",
+	"headword": {
+		"text": "מַגְדְּלָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַגְדְּלָיָא"
+		},
+		{
+			"text": "מוּגְ׳"
+		}
+	],
+	"page": {
+		"number": 726,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00121\">preced.</cite>) <i>of Magdala</i>, surname of several scholars. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 25a:9\">B. Mets. 25ᵃ</cite>, a. e., v. <cite ref=\"J00526\"><he>יִצְחָק</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:21\">Y. Ber. IX, 14ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Taanit 1:3:4\">Y. Taan. I, 64ᵇ</cite> top; a. e."
+			]
+		}
+	]
+}

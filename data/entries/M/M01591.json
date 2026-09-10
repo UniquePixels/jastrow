@@ -1,0 +1,51 @@
+{
+	"id": "M01591",
+	"slug": "מלל-3",
+	"headword": {
+		"text": "מָלַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 792,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to crush, squeeze</i>, esp. <i>to rub ears</i> for husking the grain. ",
+			"units": [
+				"<cite ref=\"Taanit 6a:6\">Taan. 6ᵃ</cite> <he>דבר שמָל</he>, v. <cite ref=\"M01616\"><he>מַלְקוֹשׁ</he></cite>. ",
+				"<cite ref=\"Mishnah Maasrot 4:5\">Maasr. IV, 5</cite>, v. <cite ref=\"M01560\"><he>מְלִילָה</he></cite>. ",
+				"<cite ref=\"Beitzah 13a:2\">Bets. 13ᵃ</cite> <he>למוֹלְלָן במלילות</he> with the intention of husking them when parched. ",
+				"<cite ref=\"Tosefta Shabbat 16:22\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:22\">XVII</cite>), 22; <cite ref=\"Shabbat 12a:9\">Sabb. 12ᵃ</cite> <he>מוֹלֵל</he> he rubs it between two fingers; a. fr.—Part. pass. <cite ref=\"M01516\"><he>מָלוּל</he></cite>. ",
+				"<cite ref=\"Tosefta Shabbat 14:17\">Tosef. ib. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:17\">XV</cite>), 17 <he>מוֹלְלִין את המ׳</he> you may husk that which needs husking."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stir a mush, make a pulp</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 40b:6\">Pes. 40ᵇ</cite> <he>אין מוֹלְלִין … והרוצה שיִמְלוֹל וכ׳</he> you must not stir a dish (in the usual way) on Passover, but he who desires to make a mush, must put in the flour and then add vinegar.—Part. pass. as ab. ",
+				"<cite ref=\"Tosefta Ma'asrot 1:7\">Tosef. Maasr. I, 7</cite> <he>מן המלול</he> ed. (ed. Zuck. <he>המאמל</he>, Var. <he>הממל</he>) out of the olive pulp."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְלַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be compressible</i>, (of webs) <i>to be soft and downy</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 59a:16\">Gitt. 59ᵃ</cite> (ref. to <he>מ̇ל̇ת̇ח̇ה</he>, <cite ref=\"II Kings 10:22\">II Kings X, 22</cite>) <he>דבר הנמ̇ל̇ל ונמת̇ח̇</he> a cloth which can be compressed (creased) and stretched (again, showing no creases when unfolded); [Rashi: a stuff the thread of which is twisted between the spinner’s fingers and stretched].—V. <cite ref=\"M01604\"><he>מַלְמֵלָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

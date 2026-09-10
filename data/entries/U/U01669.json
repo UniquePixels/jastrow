@@ -1,0 +1,23 @@
+{
+	"id": "U01669",
+	"slug": "שעמומית",
+	"headword": {
+		"text": "שַׁעֲמוּמִית"
+	},
+	"page": {
+		"number": 1611,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01668\">preced.</cite>) <i>a dull-minded woman, idiot</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ketubot 7:10\">Tosef. Keth. VII, 10</cite> ed. Zuck. (oth. ed. <he>משוממת</he>), v. <cite ref=\"U01491\"><he>שָׁמַם</he></cite>. ",
+				"<cite ref=\"Tosefta Bava Batra 4:5\">Tosef. B. Bath. IV, 5</cite> <he>ש׳ היא</he> (ed. Zuck. <cite ref=\"U01655\"><he>שעייא</he></cite>, corr. acc.) she (the slave) is an idiot; <cite ref=\"Bava Metzia 80a:4\">B. Mets. 80ᵃ</cite> <he>מְשׁוּעֲמֶמֶת</he>."
+			]
+		}
+	]
+}

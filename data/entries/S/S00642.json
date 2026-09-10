@@ -1,0 +1,25 @@
+{
+	"id": "S00642",
+	"slug": "קורקוניא",
+	"headword": {
+		"text": "קוּרְקוּנְיָא"
+	},
+	"page": {
+		"number": 1344,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ḳurḳunia</i> in Babylonia. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 16b:10\">Ab. Zar. 16ᵇ</cite> (Ms. M. <he>אַקְרוֹקוּנְיָא</he>). ",
+				"<cite ref=\"Bava Kamma 7b\">B. Kam. 7ᵇ</cite> <he>אקרוקניא</he> Ms. M. (Ms. H. <he>אקרקוניא</he>; ed. <he>אקרוניא</he>). ",
+				"<cite ref=\"Bava Kamma 88a\">Ib. 88ᵃ</cite> <he>אקרוקניא</he> Ms. M. (Ms. O. <he>ארוקינייא</he>; ed. <cite ref=\"E00088\"><he>הגרוניא</he></cite>). ",
+				"<cite ref=\"Eruvin 60a\">Erub. 60ᵃ</cite> <he>בני קוקוניא</he> Ms. M. (Ms. O. <cite ref=\"S01868\"><he>קקוניא</he></cite>; ed. <cite ref=\"S01868\"><he>קקונאי</he></cite>, corr. acc., v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

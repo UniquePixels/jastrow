@@ -1,0 +1,40 @@
+{
+	"id": "M00015",
+	"slug": "מאור",
+	"headword": {
+		"text": "מָאוֹר"
+	},
+	"page": {
+		"number": 721,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A00843\"><he>אוּר</he></cite>)<i>luminary, light</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 8:5\">Ber. VIII, 5</cite> Beth-Shammai reads <he>שברא מאור האש</he> (Blessed be &c.) who created the light of fire; Beth Hillel <he>בורא מְאוֹרֵי האש</he> the Creator of the lights (colors) of fire. ",
+				"<cite ref=\"Tosefta Berakhot 6:31\">Tosef. ib. VI (V), 6</cite> they differ <he>על המ׳ וכ׳</he> as to the order of the benedictions over light and over spices; <cite ref=\"Berakhot 52b:25\">Ber. 52ᵇ</cite>; <cite ref=\"Pesachim 103a:8\">Pes. 103ᵃ</cite>; a. fr.—מְ׳ עינים <i>eye-sight</i>. ",
+				"<cite ref=\"Pesachim 62b:15\">Ib. 62ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:7\">Y. Taan. IV, 68ᵈ</cite> top.—",
+				"<cite ref=\"Chagigah 5b:17\">Ḥag. 5ᵇ</cite> (euphem.) <he>ומ׳ עינים הוא</he> he is <i>blind</i> (cmp. <cite ref=\"N00255\"><he>נְהוֹרָא</he></cite>).—",
+				"<cite ref=\"Berakhot 17a:12\">Ber. 17ᵃ</cite> <he>עיניך … במְ׳ תורה</he> may thy eyes shine through the light of the Law. ",
+				"<cite ref=\"Midrash Tehillim 119:36\">Midr. Till. to Ps. CXIX, 135</cite> <he>במ׳ פנים</he> with a shining face (benevolence); a. fr.—Pl. <cite ref=\"M01362\"><he>מְאוֹרוֹת</he></cite>; constr. <he>מְאוֹרֵי</he>. ",
+				"<cite ref=\"Berakhot 52b:29\">Ber. 52ᵇ</cite> <he>הרבה מ׳ יש באור</he> there is a combination of lights (colors) in the artificial light. ",
+				"<cite ref=\"Berakhot 52b:29\">Ib.</cite> <he>פליגי מאור ומאורי</he> they differ as to (saying in the benediction) <i>maor</i> or <i>m’oré</i>, v. supra. ",
+				"<cite ref=\"Mishnah Megillah 4:6\">Meg. IV, 6</cite> <he>כל שלא ראה מ׳ מימיו</he> he who has never seen the luminaries (born blind). ",
+				"<cite ref=\"Berakhot 12a:16\">Ber. 12ᵃ</cite> (closing formula of a morning benediction) <he>יוצר המ׳</he> the Creator of the luminaries; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>light-hole, opening, window</i>. Ohol. XIII, 1 <he>העושה מ׳ בתחילה</he> he who leaves an opening (in the wall) from the start (when building). Tosef. ib. XIV, 1 <he>פתח שעשאו למ׳</he> an opening which one made to serve as a window; <he>הגיפו למ׳</he> if he filled the window up. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 24:5\">Sabb. XXIV, 5</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

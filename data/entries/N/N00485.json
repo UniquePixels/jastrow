@@ -1,0 +1,25 @@
+{
+	"id": "N00485",
+	"slug": "נחי",
+	"headword": {
+		"text": "נחי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָחָה"
+		}
+	],
+	"page": {
+		"number": 894,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N00340\"><he>נוּחַ</he></cite>)<i>to bring to rest, to lead</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 20:11\">Ex. R. s. 20</cite> (ref. to <cite ref=\"Exodus 13:17\">Ex. XIII, 17</cite>) <he>לא נָחָם ממצרים וכ׳</he> he did not lead them from Egypt to Palestine by the route of eleven journeys; Tanḥ. ",
+				"<cite ref=\"Exodus 1\">B’shall. 1</cite> <he>נחם נהגם</he> <i>naḥam</i> means, he led them; v. <cite ref=\"N00649\"><he>נִיחוּם</he></cite>."
+			]
+		}
+	]
+}

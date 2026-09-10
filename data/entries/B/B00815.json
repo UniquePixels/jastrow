@@ -1,0 +1,37 @@
+{
+	"id": "B00815",
+	"slug": "בלבל-2",
+	"headword": {
+		"text": "בַּלְבֵּל"
+	},
+	"page": {
+		"number": 171,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00814\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 11:9\">Targ. O. Gen. XI, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:28\">Targ. Is. XXVIII, 28</cite> <he>ומְבַלְבֵּל</he> and mixes up (the grain with the chaff, h. text <cite ref=\"E00622\"><he>המם</he></cite>); a. e.—Part. pass. <he>מְבַלְבַּל</he>. ",
+				"<cite ref=\"Bekhorot 44a:8\">Bekh. 44ᵃ</cite> <he>משום דמְבַלְבְּלָן</he> because they (the white and the black of the eye) are mixed up, v. preced.—Denom. <cite ref=\"M00086\"><he>מְבַלְבְּלִיתָא</he></cite> <i>mixture of white and black</i> (h. <he>תְּבַלֻּל</he>, v. <cite ref=\"B00814\">preced.</cite>). ",
+				"<cite ref=\"Bekhorot 44a\">Ibid.</cite> (Ar. ed. pr. <he>מברב׳</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיבַּלְבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be disturbed, mixed up</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 26b:3\">Ḥull. 26ᵇ</cite> <he>מִיבַּלְבְּלֵי</he> they (water and wine) mix well. ",
+						"<cite ref=\"Moed Katan 9b:4\">M. Kat. 9ᵇ</cite> <he>לִבַּלְבֵּל פתורם</he> thy table (meals) be disturbed (by the noise of children)."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

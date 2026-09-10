@@ -1,0 +1,28 @@
+{
+	"id": "R00504",
+	"slug": "צלחתא",
+	"headword": {
+		"text": "צִלְחֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִילְ׳"
+		}
+	],
+	"page": {
+		"number": 1283,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00503\">preced. art.</cite>) [<i>part</i>, cmp. Lat. hemicranium,] <i>pain on one side of the head, megrim</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 90a\">Sabb. 90ᵃ</cite> (ref. to <cite ref=\"P00482\"><he>עִטְרָן</he></cite>) <he>לצ׳</he> it is good for megrim. ",
+				"<cite ref=\"Gittin 68b\">Gitt. 68ᵇ</cite> <he>לצלח׳</he> Ar. (Rashi <he>לציל׳</he>; ed. <he>לצְלִיחְתָּא</he>)."
+			]
+		}
+	]
+}

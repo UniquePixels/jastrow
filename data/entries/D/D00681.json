@@ -1,0 +1,33 @@
+{
+	"id": "D00681",
+	"slug": "דיפרא",
+	"headword": {
+		"text": "דִּיפְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּוּפְ׳"
+		},
+		{
+			"text": "דִּפְ׳"
+		}
+	],
+	"page": {
+		"number": 304,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (δίφορος) <i>bearing twice a year</i>, a species of <i>figs</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite> <cite ref=\"D00319\"><he>דופרה</he></cite> ed. (Ms. M. <he>דיפיא</he>, read … <he>רא</he>; Ar. <cite ref=\"D00531\"><he>דיופרא</he></cite>). ",
+				"<cite ref=\"Mishnah Sheviit 9:4\">Shebi. IX, 4</cite> <cite ref=\"D00213\"><he>דו׳</he></cite>; <cite ref=\"Tosefta Shevi'it 7:15\">Tosef. ib. VII, 15</cite> <he>די׳</he>.—",
+				"<cite ref=\"Eruvin 18a\">Erub. 18ᵃ</cite> <cite ref=\"D00531\"><he>דיופרא</he></cite>, v. <cite ref=\"D00501\"><he>דְּיוֹ</he> II</cite>.—Pl. <he>דִּיפְרִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:3:3\">Y. Shebi. IX, 39ᵃ</cite> top <he>דפרין</he>, <he>דפרים</he> (corr. acc.).—[<cite ref=\"Bereishit Rabbah 65:17\">Gen. R. s. 65</cite> <he>דיפרא סופא</he>, v. <cite ref=\"Q01541\"><he>פראסופא</he></cite>.]—V. <cite ref=\"D00683\"><he>דִּיפְרִיאוֹת</he></cite>."
+			]
+		}
+	]
+}

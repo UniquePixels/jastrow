@@ -1,0 +1,27 @@
+{
+	"id": "D00268",
+	"slug": "דוללא",
+	"headword": {
+		"text": "דַּוְלָלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּוְולָלָא"
+		}
+	],
+	"page": {
+		"number": 286,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00264\"><he>דּוּל</he></cite>, v. <cite ref=\"D00240\"><he>דְּוִיל</he></cite>) <i>clue, skein</i>.—Pl. <he>דַּוְלָלֵי</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 60a:5\">Ḥull. 60ᵃ</cite> they give the leper a reel <he>וסתר דַּוְלָלֵי</he> ed. (Ar. <he>דווללא</he>) and he must wind up the clues or skeins."
+			]
+		}
+	]
+}

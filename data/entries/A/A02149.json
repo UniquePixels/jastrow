@@ -1,0 +1,24 @@
+{
+	"id": "A02149",
+	"slug": "אנוש-1",
+	"headword": {
+		"text": "אֱנוֹשׁ"
+	},
+	"page": {
+		"number": 82,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"A01394\"><he>אינש</he></cite>) [being], <i>man.—</i>Pl. (of <cite ref=\"A01615\"><he>אִישׁ</he></cite>) <cite ref=\"A02305\"><he>אֲנָשִׁים</he></cite>, const. <cite ref=\"N01301\"><he>אַנְשֵׁי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 25:10\">Ex. R. s. 25</cite>; a. fr.—<he>א׳ כנסת הגדולה</he> (abbr. <he>אכה״ג</he>) <i>the Men. of the Great Assembly, Synagoga Magna</i>, a religious and judicial authority said to have been established by Ezra. ",
+				"<cite ref=\"Pirkei Avot 1:1\">Aboth I, 1</cite>; a. fr.; cmp. <cite ref=\"K00865\"><he>כְּנֶסֶת</he></cite>.—(<he>ות</he>) <he>א׳ בית אב</he> the division on duty of priests having charge of the services of the day; <he>א׳ משמר</he> the division of priests alternately on duty during one week; <he>א׳ מעמד</he> the division (of Israelites) assisting the priests on duty, by prayers &c. on the platform (<cite ref=\"M02143\"><he>מעמד</he></cite>) and divided in parties corresponding to the priestly divisions. ",
+				"<cite ref=\"Mishnah Taanit 2:6\">Taan. II, 6</cite>; <cite ref=\"Mishnah Taanit 2:7\">7</cite>; a. fr."
+			]
+		}
+	]
+}

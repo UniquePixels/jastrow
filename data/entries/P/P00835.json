@@ -1,0 +1,25 @@
+{
+	"id": "P00835",
+	"slug": "עלעל-1",
+	"headword": {
+		"text": "עלְעִל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִילְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1085,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (reduplic. of <cite ref=\"P00815\"><he>עָלַל</he></cite>) <i>to drive about, hurl</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 7:7\">Kil. VII, 7</cite> <he>הרוח שעִלְעֲלָה וכ׳</he> if a wind cast grape vines over standing grain."
+			]
+		}
+	]
+}

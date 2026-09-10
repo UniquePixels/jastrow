@@ -1,0 +1,28 @@
+{
+	"id": "T00983",
+	"slug": "רציא",
+	"headword": {
+		"text": "רָצְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָצְיָיא"
+		}
+	],
+	"page": {
+		"number": 1493,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00982\">preced.</cite>) <i>peace-maker, advocate</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:22\">Targ. Prov. VI, 22</cite> <he>היא תיהוי רָצְיָיךְ</he> ed. Lag. (ed. Wil. <he>רָצְיָךְ</he>) she (the Law) will be thy advocate (in the hereafter, v. ",
+				"<cite ref=\"Bereishit Rabbah 35\">Gen. R. s. 35</cite>, a. Rashi to Prov. l. c.; h. text <he>תשיחך</he>)."
+			]
+		}
+	]
+}

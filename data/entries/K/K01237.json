@@ -1,0 +1,23 @@
+{
+	"id": "K01237",
+	"slug": "כרן",
+	"headword": {
+		"text": "כְּרָן"
+	},
+	"page": {
+		"number": 671,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"K01237\"><he>כְּרַן</he></cite> (v. <cite ref=\"K01151\"><he>כרי</he></cite>, cmp. <cite ref=\"S02101\"><he>קרן</he></cite>) <i>roundness, fullness, essence</i>; <he>כ׳ יומא</he> <i>the very day</i> (h. <he>עצם היום</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:2\">Targ. Ez. XXIV, 2</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 23:28\">Targ. Lev. XXIII, 28</cite>; a. fr. [Naḥm. to Lev. l. c. quotes a version <cite ref=\"S02101\"><he>קְרַן</he></cite>.]"
+			]
+		}
+	]
+}

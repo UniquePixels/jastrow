@@ -1,0 +1,23 @@
+{
+	"id": "M00029",
+	"slug": "מאיסה",
+	"headword": {
+		"text": "מְאִיסָה"
+	},
+	"page": {
+		"number": 722,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00049\"><he>מָאַס</he></cite>) <i>rejection, contempt; use of the verb</i> <cite ref=\"M00049\"><he>מָאַס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 5:22\">Lam. R. to V, 20</cite>; <cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite>; <cite ref=\"Yalkut Shimoni on Nach 332\">Yalk. Is. 332</cite>. ",
+				"<cite ref=\"Eichah Rabbah 5:22\">Lam. R. to V, 22</cite> (ref. to <he>מאס</he> <cite ref=\"Eichah Rabbah 5:22\">ib.</cite>) <he>אם מ׳ לית היא סבר וכ׳</he> if it be a rejection, there is no hope (of a reconciliation), but if it be anger, there is hope."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "T00083",
+	"slug": "רבי-4",
+	"headword": {
+		"text": "רְבֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "רְבָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1441,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"T00082\">preced.</cite>) = b. h. <cite ref=\"T00060\"><he>רבה</he></cite> [<i>to stretch</i> the bow string, cmp. Lat. intendo arcum,] <i>to shoot</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 21:20\">Targ. O. Gen. XXI, 20</cite> <he>והוה רָבֵי קַשְׁתָּא</he> and he became an archer; [ed. Berl. <he>רָבְיָא קַשָּׁתָא</he> an archer-boy]."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַבֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00082\">same</cite>. Targ. Y. ib. <he>והוה יליף רַבֵּי קַשְׁוָותָא</he> and he learned how to shoot with bows.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

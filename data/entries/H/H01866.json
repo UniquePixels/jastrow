@@ -1,0 +1,35 @@
+{
+	"id": "H01866",
+	"slug": "חשר-1",
+	"headword": {
+		"text": "חָשַׁר"
+	},
+	"page": {
+		"number": 511,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [(cmp. <cite ref=\"H01848\"><he>חֲשַׁךְ</he></cite> II a. <cite ref=\"H01857\"><he>חָשַׁל</he></cite>) <i>to peel</i>, whence <he>חֲשָׁרָה</he> <i>an implement for removing peels, sieve</i>, from which <cite ref=\"H01866\"><he>חָשַׁר</he></cite>] <i>to sift, distil drops as if through a sieve</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 18:14\">Midr. Till. to Ps. XVIII, 12</cite>, v. <cite ref=\"H01847\"><he>חָשַׁךְ</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 18:14\">Ib.</cite> <he>אדם נוטל כברה וחוֹשֵׁר … אצבעות וכ׳</he> a man takes a sieve and lets (a liquid) down a height of two or three fingers; before it comes down to the ground, the drops will be mixed up; <cite ref=\"Yalkut Shimoni on Nach 160\">Yalk. Sam. 160</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> <he>וחוֹשְׁרִים אותו כמין כברה</he> and they (the clouds) distil it (the rain) as if from a sieve; <cite ref=\"Yalkut Shimoni on Torah 20:15\">Yalk. Gen. 20</cite>; <cite ref=\"Yalkut Shimoni on Nach 967\">Yalk. Koh. 967</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִישֵּׁר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01865\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Taanit 9b:12\">Taan. 9ᵇ</cite> <he>מנוקבות … ומְחַשְּׁרוֹת</he> they (the clouds) are perforated like a sieve and distil water to the ground."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

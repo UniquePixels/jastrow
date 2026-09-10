@@ -1,0 +1,39 @@
+{
+	"id": "Q01407",
+	"slug": "פפי-2",
+	"headword": {
+		"text": "פַּפִּי"
+	},
+	"page": {
+		"number": 1204,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Pappi</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " name of an Amora, son-in-law of R. Yitsḥaḳ Napp’ḥa. ",
+			"units": ["<cite ref=\"Chullin 110a:5\">Ḥull. 110ᵃ</cite>; a. fr."],
+			"label": "1"
+		},
+		{
+			"gloss": " an otherwise unknown person. ",
+			"units": [
+				"<cite ref=\"Bava Batra 48b\">B. Bath. 48ᵇ</cite> Rashi a. Mss. (ed. <he>פאפי</he>, v. Rabb. D. S. a. l. note 60)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " a fictitious name in an incantation formula. ",
+			"units": [
+				"<cite ref=\"Gittin 69a:4\">Gitt. 69ᵃ</cite>.—V. <cite ref=\"Q00021\"><he>פָּאפִי</he></cite>"
+			],
+			"label": "3"
+		}
+	]
+}

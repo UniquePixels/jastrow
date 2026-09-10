@@ -1,0 +1,41 @@
+{
+	"id": "V00778",
+	"slug": "תעי-1",
+	"headword": {
+		"text": "תעי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תָּעָה"
+		}
+	],
+	"page": {
+		"number": 1683,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"I00594\"><he>טָעָה</he></cite>) [<i>to move to and fro</i>,] <i>to be lost, go astray; to err</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 81b:12\">B. Kam. 81ᵇ</cite> <he>הרואה חבירו תּוֹעֶה וכ׳</he>, v. <cite ref=\"Q01227\"><he>פָּסַג</he></cite>. ",
+				"<cite ref=\"Bava Kamma 81b:12\">Ib.</cite> <he>וכן הוא שתעה וכ׳</he> (not <he>שתועה</he>) and so also he who has himself lost his way may &c.; <cite ref=\"Tosefta Bava Metzia 2:28\">Tosef. B. Mets. II, 28</cite> <he>ת׳</he> (a. <he>טעה</he>). ",
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite> (play on <he>כמ̇ת̇ע̇ת̇ע</he>, <cite ref=\"Genesis 27:12\">Gen. XXVII, 12</cite>) <he>כמ̇ת̇ כת̇וע̇ה וכע̇ובד וכ׳</he> as one dead, as one going astray, and as one worshipping idols; Yalk. ib. 115 <he>כתועה וכעובד וכ׳</he>. ",
+				"<cite ref=\"Nedarim 51a:3\">Ned. 51ᵃ</cite> (play on <he>ת̇ו̇ע̇ב̇ה̇</he>) <he>תו̇ע̇ה אתה ב̇ה̇</he> thou (who committest it) losest thy senses through it; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְעָה"],
+			"senses": [
+				{
+					"gloss": "<i>to lead astray</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 55a:13\">Snh. 55ᵃ</cite> <he>מה אילנות … המַתְעֶה את חבירו מדרך וכ׳</he> if in the case of trees (that have been worshipped) … the Law says, destroy, burn, and exterminate: how much more does this apply to a man who leads his neighbor from the way of life to the way of death!; <cite ref=\"Yalkut Shimoni on Torah 624:1\">Yalk. Lev. 624</cite> <he>וּמַתְעֵהוּ מדרך וכ׳</he> (differ. in Sifra K’dosh. Par. 4, ch. X). Lam. R. introd. (R. Joḥ. 1) <he>ונביאי … שהִתְעוּ אותי וכ׳</he> the false prophets …, who led me astray from the way of life &c.; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

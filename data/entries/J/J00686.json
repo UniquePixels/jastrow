@@ -1,0 +1,34 @@
+{
+	"id": "J00686",
+	"slug": "ישט-1",
+	"headword": {
+		"text": "יָשַׁט",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 600,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U00373\"><he>שׁוּט</he></cite>)<i>to spread, stretch</i>.—V. <cite ref=\"F00096\"><he>וֶשֶׁט</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹשִׁיט"],
+			"senses": [
+				{
+					"gloss": "<i>to stretch forth, to hand, reach</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 140b:3\">Ḥull. 140ᵇ</cite> <he>ה׳ ידו לקן וכ׳</he> if one put his hand forth into a nest and cut there. ",
+						"<cite ref=\"Avodah Zarah 6b:2\">Ab. Zar. 6ᵇ</cite> <he>לא יוֹשִׁיט וכ׳</he> one must not hand a cup of wine to a nazarite &c. ",
+						"<cite ref=\"Avodah Zarah 6b:2\">Ib.</cite> <he>קתני לא יושיט … לא יתן</he> it says, ‘he shall not reach over’ and not ‘he shall not give’ (which means that the object is beyond the reach of the other person). Pesik. S’liḥ. p. 167ᵇ; Yalk. Num. 744 <he>ה׳ הדסים</he> offered myrtles, i.e. <i>asked pardon</i>; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

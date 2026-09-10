@@ -1,0 +1,43 @@
+{
+	"id": "R00151",
+	"slug": "צואר",
+	"headword": {
+		"text": "צַוָּאר"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַוָּואר"
+		}
+	],
+	"page": {
+		"number": 1265,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00240\"><he>צָוַר</he></cite> = <cite ref=\"R00068\"><he>צָבַר</he></cite>, v. <cite ref=\"O00226\"><he>סַוָּאר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pile</i>. Ohol. III, 7, v. <cite ref=\"O00226\"><he>סַוָּאר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>neck</i>, esp. <i>the front of the neck, throat</i>, opp. <cite ref=\"P00360\"><he>עוֹרֶף</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 1:4\">Ḥull. I, 4</cite>. ",
+				"<cite ref=\"Shabbat 58a:2\">Sabb. 58ᵃ</cite> <he>שבצַוָּארוֹ</he>, v. <cite ref=\"H00498\"><he>חוֹתָם</he></cite>; a. fr.—",
+				"<cite ref=\"Avodah Zarah 30a:4\">Ab. Zar. 30ᵃ</cite>, a. e. <he>עלי ועל צַוָּארִי</he> upon me and my throat, i.e. I take the responsibility. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:3:3\">Y. Snh. VI, 23ᵇ</cite> bot. <he>דמו תלוי בצַוַּאר עדים</he> his blood be suspended from the neck of the witnesses, i.e. they will have to answer for the innocent blood; Bab. ",
+				"<cite ref=\"Sanhedrin 44b:11\">Snh. 44ᵇ</cite> <he>ויהא קולר תלוי בצ׳ עדים</he>, v. <cite ref=\"S00366\"><he>קוֹלָר</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:8\">Cant. R. to IV, 4</cite> <he>צַוָּארֵךְ זה בית וכ׳</he> ‘thy neck’ (<cite ref=\"Shir HaShirim Rabbah 4:4:8\">ib.</cite>) means the Temple; <he>שכל הימים … היה צַוָּארָן … פשוט וכ׳</he> for as long as the Temple stood, Israel’s neck was stretched (uplifted) among the nations &c. ",
+				"<cite ref=\"Eichah Rabbah 5:5\">Lam. R. to V, 5</cite> [read:] <he>על שבגדנו בצַוָּארֵנוּ בא יום צרה</he> because we were faithless to our ‘neck’ (the Temple), the day of distress came; a. fr.—[<cite ref=\"Shabbat 90b:3\">Sabb. 90ᵇ</cite> <he>צַוָּארֵי דקל</he> Ms. M., v. <cite ref=\"R00243\"><he>צוּר</he> III</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

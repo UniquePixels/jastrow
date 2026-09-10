@@ -1,0 +1,28 @@
+{
+	"id": "U00385",
+	"slug": "שוטים",
+	"headword": {
+		"text": "שׁוֹטִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוֹטִין"
+		}
+	],
+	"page": {
+		"number": 1532,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. supposed to be the name of <i>a plant, fenugreek</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 9:1\">Shebi. IX, 1</cite>; <cite ref=\"Sukkah 39b\">Succ. 39ᵇ</cite> <he>(השיט׳</he>), v., however, <cite ref=\"J00594\"><he>ירְבּוּז</he></cite>."
+			]
+		}
+	]
+}

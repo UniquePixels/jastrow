@@ -1,0 +1,50 @@
+{
+	"id": "O00283",
+	"slug": "סוט-1",
+	"headword": {
+		"text": "סוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָסַט"
+		}
+	],
+	"page": {
+		"number": 962,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"U00372\"><he>שׂוּט</he></cite>)<i>to move about, be unsteady</i>, v. <cite ref=\"O00480\"><he>סָטָה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵסִיט", "הִסִּיט"],
+			"senses": [
+				{
+					"gloss": "<i>to shake; to swing</i> (v. <cite ref=\"E00471\"><he>הֶיסֵּט</he></cite>), contrad. to <he>נגע</he> to touch directly. ",
+					"units": [
+						"<cite ref=\"Mishnah Zavim 5:1\">Zab. V, 1</cite> <he>המַסִּיט את הזב או שהזב מַסִּיטוֹ</he> he who moves a <i>zab</i> (v. <cite ref=\"G00008\"><he>זָב</he></cite>) (by shaking the board on which he stands) or whom the <i>zab</i> moves. ",
+						"<cite ref=\"Chullin 124b:8\">Ḥull. 124ᵇ</cite> <he>והִסִּיטָן</he> and shook them; a. fr.—[<cite ref=\"Shemot Rabbah 23\">Ex. R. s. 23</cite>; <cite ref=\"Vayikra Rabbah 11\">Lev. R. s. 11</cite>; <cite ref=\"Vayikra Rabbah 11\">ib.</cite> s. 16 <he>הסיטן</he>, read <he>הטיסן</he>, v. <cite ref=\"I00189\"><he>טוּס</he></cite> h.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִיסּוֹט"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken, moved</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Zavim 4:6\">Tosef. Zab. IV, 6</cite> <he>אם היו נִיסּוֹטִין</he> if they moved (on account of his rapping, and did not merely vibrate). ",
+						"<cite ref=\"Tosefta Tahorot 10:8\">Tosef. Toh. X, 8</cite> [read:] <he>ובלבד שלא יהו ניסוטין וכ׳</he> provided they are not shaken up by the vibrations of the partition."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "S01335",
+	"slug": "קליל-2",
+	"headword": {
+		"text": "קַלִּיל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1376,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S01336\">next w.</cite>) <i>a little, a short while</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 24:17\">Targ. Y. Gen. XXIV, 17</cite> (ed. Amst. <cite ref=\"S01356\"><he>קַלֵּיל</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:10\">Targ. Prov. VI, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 15:16\">Ib. XV, 16</cite> (ed. Wil. <cite ref=\"S02203\"><he>קָ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 16:8\">Ib. XVI, 8</cite> (ed. Wil. <cite ref=\"S01335\"><he>קָלֵיל</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:14\">Ib. V, 14</cite> (not <cite ref=\"K00001\"><he>כ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 17:4\">Targ. Y. Ex. XVII, 4</cite>; a. fr.—",
+				"<cite ref=\"Kohelet Rabbah 3:9:1\">Koh. R. to III, 9</cite> <he>עביד עימיה אויר ק׳</he> he spent with him a short moment of rest."
+			]
+		}
+	]
+}

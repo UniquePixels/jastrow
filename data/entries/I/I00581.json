@@ -1,0 +1,43 @@
+{
+	"id": "I00581",
+	"slug": "טנף-1",
+	"headword": {
+		"text": "טָנַף"
+	},
+	"page": {
+		"number": 541,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>טנן</he>)<i>to be soiled</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טִינֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to soil</i> with excrements, secretions &c.; <i>to secrete</i> (blood or mucus from the womb). Pesik. Par., p. 40ᵇ <he>שטי׳ בפלטין וכ׳</he> that made a nuisance in the palace &c. ",
+					"units": [
+						"<cite ref=\"Bekhorot 20a:9\">Bekh. 20ᵃ</cite>, a. e. <he>מְטַנֶּפֶת</he> an animal secreting from the vagina (an evidence of birth or abortion). ",
+						"<cite ref=\"Bava Kamma 3a:14\">B. Kam. 3ᵃ</cite> <he>טִינְּפָה פירות</he> the animal soiled fruits (by rolling in them). Tosef. Joma V (IV), 5 <he>כדי שלא יְטַנְּפוּ וכ׳</he> that his feet may not soil his garments; a. fr.—<i>Part. pass.</i> <he>מְטוּנָּף</he>, f. <he>מְטוּנֶּפֶת</he>; pl. <he>מְטוּנָּפִין</he>, <he>מְטוּנָּפוֹת</he> <i>soiled, filthy, defiled, polluted</i>. Y. Snh. X, 27ᵈ top. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:8\">Cant. R. to II, 8</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִיטַּנֵּף"],
+			"senses": [
+				{
+					"gloss": ", <i>Nif.</i> <he>נִטְנַף</he> <i>to be soiled, defiled</i>. Y. Yoma VIII, 44ᵈ <he>נִיטַּנְּפוּ רגליו</he> (or <he>נִיטְנְפוּ</he>) if his feet became muddy.—*Y. Ber. I, 3ᶜ bot. <he>ראה כפים הללו שלא ניטנפו בבנין וכ׳</he> ed. Lehm. (ed. Ven. <he>נטפו</he>, ed. Krot. <he>חטפו</he>, v. <cite ref=\"H00639\"><he>חָטַף</he></cite>) see these hands which have not been in the least soiled by misappropriating the Temple funds.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

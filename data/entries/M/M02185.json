@@ -1,0 +1,30 @@
+{
+	"id": "M02185",
+	"slug": "מערתא",
+	"headword": {
+		"text": "מְעַרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְעַרְתָּה"
+		}
+	],
+	"page": {
+		"number": 819,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"M02173\"><he>מְעָרָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:30\">Targ. Gen. XIX, 30</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 33b\">Sabb. 33ᵇ</cite>, a. fr.—Esp. <i>burial cave</i>. ",
+				"<cite ref=\"Bava Batra 58a:5\">B. Bath. 58ᵃ</cite> <he>מ׳ דאברהם</he> the cave where Abraham was buried; a. fr.—Pl. <cite ref=\"M02185\"><he>מְעָרָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 13:6\">Targ. I Sam. XIII, 6</cite>.—B. Bath. l. c. <he>הוה מציין מ׳</he> undertook to mark the burial caves."
+			]
+		}
+	]
+}

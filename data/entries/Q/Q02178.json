@@ -1,0 +1,39 @@
+{
+	"id": "Q02178",
+	"slug": "פתכא",
+	"headword": {
+		"text": "פַּתָּכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּתכָּא"
+		}
+	],
+	"page": {
+		"number": 1254,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02177\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mixture</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 2:7\">Targ. Y. Gen. II, 7</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bundle</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 105a:11\">Ḥull. 105ᵃ</cite>, v. <cite ref=\"A00798\"><he>אוּפֵי</he></cite>; <cite ref=\"Bava Metzia 30b:6\">B. Mets. 30ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "H00935",
+	"slug": "חכך-1",
+	"headword": {
+		"text": "חָכַךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 462,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. Fl. to Levy Talm. Dict. II, 204<sup>2</sup>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to restrain, fasten, hook</i>.—Denom. <cite ref=\"H00911\"><he>חַכָּה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to grasp</i> (one another), <i>to wrestle</i>; v. <cite ref=\"H00014\"><he>חָבַב</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

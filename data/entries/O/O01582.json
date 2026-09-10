@@ -1,0 +1,31 @@
+{
+	"id": "O01582",
+	"slug": "סרט-2",
+	"headword": {
+		"text": "סְרַט"
+	},
+	"page": {
+		"number": 1025,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סָרֵיט</he> <cite ref=\"O01581\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 21:14\">Targ. I Sam. XXI, 14</cite> <he>ומְסָרֵיט</he> (Levita <he>יִסְרַט</he>; Kimchi <he>ומְשָׂ׳</he>) making marks (scribbling; h. text <he>ויתו</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

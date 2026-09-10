@@ -1,0 +1,79 @@
+{
+	"id": "H00444",
+	"slug": "חור-2",
+	"headword": {
+		"text": "חֲוַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲוַור"
+		}
+	],
+	"page": {
+		"number": 438,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00443\">same</cite><i>to be white, to shine</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joel 1:7\">Targ. Joel I, 7</cite>. ",
+				"<cite ref=\"Onkelos Genesis 49:12\">Targ. O. Gen. XLIX, 12</cite> <he>יְחִוְּרַן</he> ed. Berl. (ed. Lsb. <he>יַחְוְרָן</he>, oth. ed. <he>יְחַוְּ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 1:18\">Targ. Is. I, 18</cite> (some ed. <i>Pa.</i>); a. e.—",
+				"<cite ref=\"Ketubot 61b:1\">Keth. 61ᵇ</cite> top <he>דחֲוַור אפיה</he> that he looked pale. ",
+				"<cite ref=\"Bava Kamma 69a:6\">B. Kam. 69ᵃ</cite> <he>כי היכי דנִיחֲוַור טפי</he> that it may appear still more white (glistening from a distance). ",
+				"<cite ref=\"Nazir 39a\">Naz. 39ᵃ</cite>, sq. <he>חַוְורִין עיקבי נימהון</he> the lower ends of dyed hair are white (which proves that the growth comes from beneath); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of eyes) <i>to be bright, to look with gratification</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 23:33\">Targ. Prov. XXIII, 33</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 17:24\">Ib. XVII, 24</cite> <he>חָיְירָן</he> Ms. (ed. <he>חדיין</he>, v. <cite ref=\"H00190\"><he>חדי</he></cite>). [<cite ref=\"Aramaic Targum to Proverbs 4:25\">Ib. IV, 25</cite>, emend. by Luzzatto Oheb Ger p. 108, v., however, <cite ref=\"A00841\"><he>אוֹר</he></cite> I ch.]—",
+				"<cite ref=\"Kiddushin 39a:11\">Kidd. 39ᵃ</cite> <he>לא חַוְורִיתוּ</he> you do not see clearly (the law is not clear to you)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַוֵּור"],
+			"senses": [
+				{
+					"gloss": "<i>to whiten, wash, cleanse</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 19:25\">Targ. II Sam. XIX, 25</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 60b:6\">B. Mets. 60ᵇ</cite> <he>חַוְּורֵיה וכ׳</he>, v. <cite ref=\"D01012\"><he>דְּקַן</he></cite>. ",
+						"<cite ref=\"Chullin 95b\">Ḥull. 95ᵇ</cite> top <cite ref=\"M00814\"><he>מְחַוֵּור</he></cite>, v. <cite ref=\"H01075\"><he>חֲלַל</he> II</cite>. [Y. Taan. IV, 69ᵇ bot. <cite ref=\"M02580\"><he>מרוח</he></cite>, read <cite ref=\"M00833\"><he>מְחַוֵּר</he></cite> or <cite ref=\"M00833\"><he>מִחְוַר</he></cite> to wash.]—<i>Part. pass.</i> <cite ref=\"M00814\"><he>מְחַוַּור</he></cite>, f. <he>מְחַוְּוָרא</he> <i>blanched</i>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 4:6\">Targ. Y. Ex. IV, 6</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make evident, to prove</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 27\">Gen. R. s. 27</cite> <he>דמְחַוֵּור וכ׳</he> which will prove it better; <cite ref=\"Yalkut Shimoni on Nach 968\">Yalk. Koh. 968</cite>.—מְחַוַּורְתָּא <i>it is proven, obvious</i>. ",
+						"<cite ref=\"Chullin 117a\">Ḥull. 117ᵃ</cite>. ",
+						"<cite ref=\"Pesachim 55b\">Pes. 55ᵇ</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְוַור"],
+			"senses": [
+				{
+					"gloss": "<i>to make white</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 85b:6\">B. Kam. 85ᵇ</cite> <he>ואַחְוְורֵיה לבשריה</he> and it (the corrodent) made his skin look white (like a leper’s; Var. v. Rabb. D. S. a. l.). ",
+						"<cite ref=\"Bava Metzia 58b:12\">B. Mets. 58ᵇ</cite> <he>באַחְוְורֵי אפי</he> (they guard against) whitening faces (putting persons to shame); <cite ref=\"Yalkut Shimoni on Torah 349\">Yalk. Ex. 349</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

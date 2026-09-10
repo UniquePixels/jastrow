@@ -1,0 +1,45 @@
+{
+	"id": "A00258",
+	"slug": "אגודה",
+	"headword": {
+		"text": "אֲגוּדָּה"
+	},
+	"page": {
+		"number": 11,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"A00248\"><he>אֲגֻדָּה</he></cite> , v. <cite ref=\"A00257\">foreg.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bundle, bunch</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 1:8\">B. Mets. I, 8</cite>. ",
+				"<cite ref=\"Sukkah 33b:13\">Succ. 33ᵇ</cite> <he>כא׳ של וכ׳</he> as a bunch of herbs is tied; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>band, union; faction</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite>; <cite ref=\"Bereishit Rabbah 88\">Gen. R. s. 88</cite> <he>א׳ אחת</he> one brotherhood.—Pl. <he>אֲגוּדּוֹת</he>. ",
+				"<cite ref=\"Mishnah Peah 6:10\">Peah VI, 10</cite>; v. <cite ref=\"A00257\">foreg.</cite> ",
+				"<cite ref=\"Mishnah Makhshirin 6:2\">Makhsh. VI, 2</cite> <he>א׳ של בית וכ׳</he> (herb) bunches which have been lying in the market houses; v. ",
+				"<cite ref=\"Tosefta Makhshirin 3:8\">Tosef. ib. III, 8</cite>.—",
+				"<cite ref=\"Yevamot 13b:17\">Yeb. 13ᵇ</cite> (ref. to <he>תתגדדו</he> <cite ref=\"Deuteronomy 14:1\">Deut. XIV, 1</cite>) <he>לא תעשו א׳ א׳</he> do not form yourselves into religious factions. ",
+				"<cite ref=\"Berakhot 4a:9\">Ber. 4ᵃ</cite> <he>א׳ א׳</he> in companies (amusing themselves)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <cite ref=\"M01502\"><he>בֵּית א׳</he></cite> pr. n. of a family, <i>Beth-Aguddah</i>. Mass. Sof’rim IV, 1 <he>של ב׳ א׳ …</he> the scribes of the family Beth-Ag.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

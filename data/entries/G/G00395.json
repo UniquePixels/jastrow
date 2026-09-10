@@ -1,0 +1,37 @@
+{
+	"id": "G00395",
+	"slug": "זיף-4",
+	"headword": {
+		"text": "זַיִף"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַיִיף"
+		}
+	],
+	"page": {
+		"number": 395,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"G00225\"><he>זוּף</he> II</cite>), pl. <he>זְיָפִים</he>, <he>זְיָפִין</he>, <cite ref=\"G00379\"><he>זְיָי׳</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bristles</i>. Y. Sabb. VII, 11ᵇ <he>זֵיפֵי חזיר</he> bristles of a swine; <cite ref=\"Tosefta Shabbat 9:2\">Tosef. ib. IX</cite> (<cite ref=\"Tosefta Shabbat 10:2\">X</cite>), 2 <he>שני זייפין</he> (Var. <he>זֵפִין</he>).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>eye-brows</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 44a:13\">Bekh. 44ᵃ</cite> <he>שתמו זִיפָיו</he> (ed. <he>זיפין</he>, incorr.) one whose eye-brows are gone."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "P00128",
+	"slug": "עדי-1",
+	"headword": {
+		"text": "עדי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָדָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1043,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P00198\"><he>עוּד</he></cite>) [<i>to turn, pass</i>; cmp. <cite ref=\"O00409\"><he>סוּר</he></cite> and <cite ref=\"H00319\"><he>חוּל</he></cite>,] <i>to pass by; to pass away</i>, v. <cite ref=\"P00129\">next w.</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוּעֲדָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be passed, be caught in passing</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite> (ref. to <cite ref=\"I Samuel 24:11\">I Sam. XXIV, 11</cite>, a. ",
+						"<cite ref=\"I Samuel 26:14\">XXVI, 14</cite>) <he>בכנף אמרת בסירה ה׳ … בסירה הוּעֲדוּ</he> as to the skirt (of Saul’s cloak) thou saidst, it was caught in a bush: have the spear and the cruise also been caught in the bush?; <cite ref=\"Bamidbar Rabbah 19:33\">Num. R. s. 19</cite> <cite ref=\"P00128\"><he>הוּעֲדַת</he></cite> (read the second time <he>הועדו</he>); <cite ref=\"Midrash Tehillim 7:8\">Midr. Till. to Ps. VII</cite>; <cite ref=\"Yalkut Shimoni on Nach 133:2\">Yalk. Sam. 133</cite>, a. e.; (Y. Peah I, 16ᵃ bot.; Y. Sot. I, 17ᵇ <he>הוערת</he>, <he>הוערו</he>, <he>הערת</he>, v. <cite ref=\"P01305\"><he>עָרָה</he></cite>)."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

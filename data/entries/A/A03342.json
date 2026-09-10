@@ -1,0 +1,28 @@
+{
+	"id": "A03342",
+	"slug": "אשפת",
+	"headword": {
+		"text": "אַשְׁפֹּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִישְׁפֹּת"
+		}
+	],
+	"page": {
+		"number": 130,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>אַשְׁ׳</he> , v. <cite ref=\"A03337\"><he>אַשְׁפָּה</he></cite>) <i>heap, pile, dunghill</i>. Pl. <he>אַשְׁפַּתּוֹת</he>, <cite ref=\"A03346\"><he>אִישְׁ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 3:2\">Shebi. III, 2</cite>.—",
+				"<cite ref=\"Sotah 42b:12\">Sot. 42ᵇ</cite> <he>אי׳ אי׳ של וכ׳</he> piles of slain."
+			]
+		}
+	]
+}

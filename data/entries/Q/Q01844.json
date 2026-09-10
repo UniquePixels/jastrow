@@ -1,0 +1,91 @@
+{
+	"id": "Q01844",
+	"slug": "פרך-1",
+	"headword": {
+		"text": "פָּרַךְ"
+	},
+	"page": {
+		"number": 1228,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to split, divide off</i>. Denom. (cmp. <cite ref=\"M00872\"><he>מְחִיצָה</he></cite>) <cite ref=\"Q01688\"><he>פָּרוֹכֶת</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to split</i> (grist &c.); <i>to crush, rub, grind</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 37b:7\">Ber. 37ᵇ</cite> <he>פּוֹרְכָן</he>, v. infra. ",
+				"<cite ref=\"Shemot Rabbah 31\">Ex. R. s. 31</cite> <he>באחרונה אדם פּוֹרְכוֹ בידו וכ׳</he> at last (when silver has been worked over several times) one may crumble it in one’s hand, and it is no longer fit for any work. ",
+				"<cite ref=\"Bava Metzia 89b\">B. Mets. 89ᵇ</cite> <he>יִפְרוֹךְ</he> Ms. R., v. infra; a. e.—Part. pass. <he>פָּרוּךְ</he>; pl. <he>פְּרוּכִים</he>, <he>פְּרוּכִין</he>. ",
+				"<cite ref=\"Midrash Tehillim 109:10\">Midr. Till. to Ps. CXVIII, 10-13</cite> (ref. to <he>אמילם</he> <cite ref=\"Midrash Tehillim 109:10\">ib.</cite>, v. <cite ref=\"M01590\"><he>מָלַל</he></cite>) <he>והמה פ׳</he> and they were (shall be) crushed."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פֵּרֵךְ", "פֵּי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to split, demolish</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 39\">Yalk. Gen. 39</cite>, v. <cite ref=\"Q00923\"><he>פָּכַר</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to crush, grind; to crack; to husk</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 75b:7\">Men. 75ᵇ</cite> <he>מְפָרְכָן עד וכ׳</he> (<cite ref=\"Berakhot 37b:7\">Ber. 37ᵇ</cite> <he>פּוֹרְכָן</he>) he crushes them until he has reduced them to the fineness of the flour of which they had been made. ",
+						"<cite ref=\"Beitzah 12b:14\">Bets. 12ᵇ</cite> <he>מְפָרְכִין קטניות וכ׳</he> you may husk peas on the Holy Day. ",
+						"<cite ref=\"Shabbat 53b:5\">Sabb. 53ᵇ</cite> <he>סכין ומפרכין לאדם וכ׳</he> Ar. a. early eds. (v. Rabb. D. S. a. l. note 70; ed. a. Mss. <he>מפרכסין</he>, v. <cite ref=\"Q01862\"><he>פִּרְכֵּס</he> I</cite>) you may oint a sore and scrape the scab off for a human being (on the Sabbath), but not for a beast; a. e.—[Ib. 155ᵇ <he>מפרכין תבן</he>, v. <cite ref=\"Q01846\"><he>פְּרַךְ</he> II</cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִפְרִיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01843\">same</cite>, <i>to smash, crack</i> &c. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 89b:3\">B. Mets. 89ᵇ</cite> <he>לא יַפְרִיךְ … מַפְרִיךְ וכ׳</he> (Ms. R. <he>יִפְרוֹךְ</he>) the laborer must not smash fruits against a rock and eat them, but he may smash them one by one (with his hand) and eat; a. e.—[<cite ref=\"Yalkut Shimoni on Torah 130\">Yalk. Gen. 130</cite> <he>מפריכין</he>, read: <he>מפרינין</he>, v. <cite ref=\"Q01879\"><he>פָּרַן</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִפְרָךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be crumbled; to be cracked; to be scraped, peeled</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 37b:8\">Bekh. 37ᵇ</cite> <he>יבישה כדי שתהא נִפְרֶכֶת</he> a sore is called dry, when it can be scraped. ",
+						"<cite ref=\"Chullin 46b:8\">Ḥull. 46ᵇ</cite> <he>כדי שתִּיפָּרֵךְ וכ׳</he> that it can be scraped off with the nail. ",
+						"<cite ref=\"Berakhot 25a:20\">Ber. 25ᵃ</cite> <he>כל זמן שזורקה ואינה נפרכת</he> when he throws it down, and it is not crumbled. ",
+						"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>שנִיפְרָךְ</he>, v. <cite ref=\"Q01847\"><he>פֶּרֶךְ</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְפָּרֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be crumbled, threshed</i>. Y. B. Mets. X, end, 12ᶜ <he>כדי שיִתְפָּרֵךְ ברגלו וכ׳</he> in order that it (the dung) be trodden down by the feet of men and beasts; (Bab. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 118b:4\">ib. 118ᵇ</cite> <he>שיהא נישוף</he>; <cite ref=\"Tosefta Bava Metzia 11:8\">Tosef. ib. XI, 8</cite> <he>שיישוף</he>)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

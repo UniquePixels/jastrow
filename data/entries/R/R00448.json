@@ -1,0 +1,25 @@
+{
+	"id": "R00448",
+	"slug": "ציר-2",
+	"headword": {
+		"text": "צִיר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1280,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00242\"><he>צוּר</he></cite>; cmp. <cite ref=\"G00239\"><he>זוּרְיוֹן</he></cite>, <cite ref=\"G00349\"><he>זַיָּירָא</he></cite>) <i>juice, brine</i>. Sifra Sh’mini, ch. IV, Par. 3 (ref. to <cite ref=\"Leviticus 11:12\">Lev. XI, 12</cite>) <he>שקץ לאסור את צִירָן ורוטבן וכ׳</he> ‘abomination’ is used to imply the prohibition of their brine or soup &c. ",
+			"units": [
+				"<cite ref=\"Leviticus 11:12\">Ib.</cite> <he>לאסור צִירָם ורוטבם</he>. ",
+				"<cite ref=\"Mishnah Avodah Zarah 2:6\">Ab. Zar. II, 6</cite> (<cite ref=\"Avodah Zarah 35b:10\">35ᵇ</cite>) <he>צ׳ שאין בה דגה</he> (read <cite ref=\"B00198\"><he>בו</he></cite>) brine in which no fish is distinguishable. Ib. 40ᵃ <he>בצירן</he> in their brine (without the fish), opp. <he>בגופן</he>. ",
+				"<cite ref=\"Chullin 99b:7\">Ḥull. 99ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

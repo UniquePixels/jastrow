@@ -1,0 +1,23 @@
+{
+	"id": "P00783",
+	"slug": "עלולי",
+	"headword": {
+		"text": "עֲלוּלֵי"
+	},
+	"page": {
+		"number": 1081,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"P00816\"><he>עֲלַל</he></cite>; cmp. <cite ref=\"P00804\"><he>עֲלִילָה</he></cite>) <i>pretext, claim</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 86a:2\">Gitt. 86ᵃ</cite>, v. <cite ref=\"P01334\"><he>עֲרוּרֵי</he></cite>."
+			]
+		}
+	]
+}

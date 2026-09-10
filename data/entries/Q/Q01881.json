@@ -1,0 +1,40 @@
+{
+	"id": "Q01881",
+	"slug": "פרן-4",
+	"headword": {
+		"text": "פְּרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְנָא"
+		},
+		{
+			"text": "פּוֹרָן"
+		},
+		{
+			"text": "פּוּרְנָא"
+		},
+		{
+			"text": "פַּרְנוֹן"
+		}
+	],
+	"page": {
+		"number": 1230,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01880\">preced.</cite>) <i>the wife’s settlement, dowry</i> (corresp. to b. h. <cite ref=\"M00380\"><he>מֹהַר</he></cite> a. later <cite ref=\"K01350\"><he>כְּתוּבָּה</he></cite>). [The phonetic coincidence with φερνή gave rise to the forms <cite ref=\"Q01881\"><he>פרנון</he></cite>, <cite ref=\"Q00361\"><he>פורנון</he></cite>, a. to combination with <cite ref=\"Q01527\"><he>פרא</he></cite>, v. <cite ref=\"Q01543\"><he>פָּרָאפוּרְנוֹן</he></cite>.] <cite ref=\"Targum Jerusalem, Genesis 34:12\">Targ. Y. II, Gen. XXXIV, 12</cite> <he>פורן וכתובתא</he> (h. text <he>מהר ומתן</he>).—Y. Keth. VII, 31ᶜ top <he>אתא … תיפוק בפלגית פ׳</he> (not <he>בלא</he>) the case came before R. J., and he decided, let her be sent away with half her dowry; <he>אין שוטה היא בלא פ׳ תיסוב פ׳ שלים …</he> if she is a faithless wife, let her be sent away without any dowry, and if she is not, let her receive her full dowry!; <he>אייתון פַּרְנָהּ וכ׳</he> they produced her deed of endowment (K’thubah) and found &c. Ib. VI, beg., 30ᶜ <cite ref=\"Q00359\"><he>פּוּרְנָהּ</he></cite>, v. <cite ref=\"M02760\"><he>מָרַק</he></cite>. Ib. IX, 33ᶜ top <he>אי אבד פרונא וכ׳</he> (corr. acc.) if the deed of endowment shall ever get lost, you may write another. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 80:7\">Gen. R. s. 80</cite> <cite ref=\"Q01881\"><he>פרנון</he></cite>, v. <he>פָּרָאפוּרְנָא</he>; <cite ref=\"Yalkut Shimoni on Torah 134\">Yalk. ib. 134</cite> <cite ref=\"Q00361\"><he>פּוּרְנוֹן</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 17:3\">Gen. R. s. 17</cite>; <cite ref=\"Vayikra Rabbah 34:14\">Lev. R. s. 34</cite>, a. e. <he>פ׳ רב עלי וכ׳</he> her endowment is too large for me, and I cannot divorce her. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 11:2:4\">Y. Keth. XI, 34ᵇ</cite> <he>תבעת פַּרְנָהּ וכ׳</he> as soon as the widow asks for her dowry, she loses the right of alimentation. Bab. ",
+				"<cite ref=\"Ketubot 67a:9\">Keth. 67ᵃ</cite> (in Hebr. dict.) <he>אשה גובה פ׳ מהם</he> a widow may seize them for her dowry; a. fr.—Trnsf. an <i>endowment, good luck</i>. ",
+				"<cite ref=\"Ketubot 54a:22\">Ib. 54ᵃ</cite> bot. (if outfit articles have become cheaper) <he>פ׳ ליתמי</he> it is the heirs’ good luck (i.e. they furnish the outfit as defined by the deceased, at present prices)."
+			]
+		}
+	]
+}

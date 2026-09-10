@@ -1,0 +1,27 @@
+{
+	"id": "P01039",
+	"slug": "עסות",
+	"headword": {
+		"text": "עָסוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיסוּת"
+		}
+	],
+	"page": {
+		"number": 1097,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"P00629\"><he>עִיסָה</he></cite>), pl. <he>עָסִיּוֹת</he>, <cite ref=\"P00632\"><he>עִיסִיּוֹת</he></cite>, <i>leaven</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 2:4\">Maas. Sh. II, 4</cite> <he>יתחלקו לעסות</he> (Ms. M. <he>לעסיות</he>; Y. ed. <he>לעיסיות</he>) let them be divided into small portions to be used for leaven. Y. Ḥall. I, 57ᵇ <he>עירס ראשי עיסיות</he> if a person worked up (in the trough) morsels of dough for leaven. Ib. bot. <he>חמש עי׳</he> five morsels &c.; a. e."
+			]
+		}
+	]
+}

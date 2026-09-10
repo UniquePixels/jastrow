@@ -1,0 +1,66 @@
+{
+	"id": "H00309",
+	"slug": "חוי-2",
+	"headword": {
+		"text": "חוי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲוָא"
+		}
+	],
+	"page": {
+		"number": 432,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H00310\"><he>חַוֵּי</he></cite> same, <i>to show;to tell</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 34:1\">Targ. Y. II, Deut. XXXIV, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Judges 4:12\">Targ. Jud. IV, 12</cite>; a. fr.—Y. Kil. VII, 31ᵃ top <he>ח׳ סלעא וכ׳</he> (not <he>סלעיה</he>) showed a Sela to R. E. (for examination)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחֲוֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00308\">same</cite>. Targ. Y. Deut. l. c.; a. e.—",
+					"units": [
+						"<cite ref=\"Bava Kamma 100a:2\">B. Kam. 100ᵃ</cite> <he>א׳ ליה דינרא וכ׳</he> showed a Denar to R. E. (v. supra). ",
+						"<cite ref=\"Bava Kamma 116b:20\">Ib. 116ᵇ</cite> <he>דאחוי אַחְיָיֵי</he> (not <cite ref=\"H00309\"><he>אחוי</he></cite>) he pointed the field out (to the officials for confiscation). ",
+						"<cite ref=\"Bava Kamma 116b:20\">Ib.</cite> <he>ואמרי ליה אַחְוִי ארעתיה</he> (not <he>אחויי</he>, v. Rabb. D. S. a. l. note 70) and the officials said to him show (us) his field. ",
+						"<cite ref=\"Sanhedrin 107b\">Snh. 107ᵇ</cite> Mss. a. old eds. (omitted in later ed.) <he>א׳ ליה בידיה</he> he made a sign to him with his hand; a. fr.—Y. Yeb. XII, 12ᶜ top … <he>ר׳ מַחֲוֵי וכ׳</he> R. Z. told R. Ba that &c. [Targ. II Esth. II, 21 <he>מחוי חיויא</he>, read with ed. Lag. <he>ויִמְחֵיה</he>, v. <cite ref=\"M00792\"><he>מְחָא</he> II</cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְחַוֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be announced; to be told</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 27:42\">Targ. Gen. XXVII, 42</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 88:12\">Targ. Ps. LXXXVIII, 12</cite> (not <he>די תחוי</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

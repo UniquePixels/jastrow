@@ -1,0 +1,23 @@
+{
+	"id": "U01457",
+	"slug": "שמטוטין",
+	"headword": {
+		"text": "שַׁמְטוּטִין"
+	},
+	"page": {
+		"number": 1595,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U01453\"><he>שָׁמַט</he></cite>) <i>slips, shoots</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:15\">Cant. R. to I, 15</cite>; <cite ref=\"Shir HaShirim Rabbah 4:1\">IV, 1</cite> <cite ref=\"U01457\"><he>שַׁמְטוּטֵי</he></cite>, v. <cite ref=\"U00108\"><he>שַׁבְטוּטִין</he></cite>."
+			]
+		}
+	]
+}

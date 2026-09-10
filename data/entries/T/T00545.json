@@ -1,0 +1,23 @@
+{
+	"id": "T00545",
+	"slug": "רחת",
+	"headword": {
+		"text": "רַחַת"
+	},
+	"page": {
+		"number": 1470,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00615\"><he>רוּחַ</he></cite>)<i>winnowing shovel</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:5\">Kel. XV, 5</cite> <he>ר׳ של גרוסות</he> the grist-grinders’ shovel. ",
+				"<cite ref=\"Mishnah Shabbat 17:2\">Sabb. XVII, 2</cite>; Y. ib. 16ᵇ top; a. e."
+			]
+		}
+	]
+}

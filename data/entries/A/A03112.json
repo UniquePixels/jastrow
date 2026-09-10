@@ -1,0 +1,23 @@
+{
+	"id": "A03112",
+	"slug": "אריסות",
+	"headword": {
+		"text": "אֲרִיסוּת"
+	},
+	"page": {
+		"number": 120,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אָרִיס</he> II) <i>tenancy, condition of the Aris</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 5:5\">Peah V, 5</cite> <he>בא׳</he> as a tenancy; a. fr.—Pl. <he>אֲרִיסִיּוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:9:1\">Y. Bicc. I, end, 64ᵇ</cite> <he>בעלי א׳</he> owners of tenanted properties, v. <cite ref=\"H00925\"><he>חֲכִירָה</he></cite>."
+			]
+		}
+	]
+}

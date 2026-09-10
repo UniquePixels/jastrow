@@ -1,0 +1,24 @@
+{
+	"id": "M00417",
+	"slug": "מודעא",
+	"headword": {
+		"text": "מוֹדָעָא"
+	},
+	"page": {
+		"number": 739,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(h. form <cite ref=\"M00417\"><he>מוֹדָעָה</he></cite>) (<cite ref=\"J00107\"><he>יְדַע</he></cite>) <i>declaration</i>, esp. <i>protest</i> before witnesses against a forced or unduly influenced action. ",
+			"units": [
+				"<cite ref=\"Bava Batra 40a:6\">B. Bath. 40ᵃ</cite> <he>לא כתבינן מ׳ אלא אמאן וכ׳</he> we write a protest only against a person who does not submit to law. ",
+				"<cite ref=\"Bava Batra 40b:5\">Ib. 40ᵇ</cite> <he>הויא מ׳ לחברתה</he> the order to write a deed of donation in secret is a protest annulling a subsequent disposal by deed. ",
+				"<cite ref=\"Bava Batra 49a:4\">Ib. 49ᵃ</cite> <he>מ׳ היו דברינו</he> if witnesses subscribed to a deed say, We signed after the owner had entered a verbal protest before us against the deed; a. fr."
+			]
+		}
+	]
+}

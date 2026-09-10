@@ -1,0 +1,23 @@
+{
+	"id": "O01147",
+	"slug": "סמרמורות",
+	"headword": {
+		"text": "סְמַרְמוֹרוֹת"
+	},
+	"page": {
+		"number": 1003,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"O01136\"><he>סָמַר</he></cite>) <i>shudder</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 9:8\">Nidd. IX, 8</cite> (<cite ref=\"Niddah 63a\">63ᵃ</cite>) Ar. [Var. in Ar. <cite ref=\"R00597\"><he>צְמַרְמוֹרוֹת</he></cite>; Mish. ed. <cite ref=\"R00599\"><he>צמרמורת</he></cite>; Bab. ed. <cite ref=\"R00597\"><he>צמרמורות</he></cite>)."
+			]
+		}
+	]
+}

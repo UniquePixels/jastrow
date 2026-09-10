@@ -1,0 +1,22 @@
+{
+	"id": "U00086",
+	"slug": "שבוקה",
+	"headword": {
+		"text": "שְׁבוּקָה"
+	},
+	"page": {
+		"number": 1511,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>sh’buḳah</i>, a substitute for <cite ref=\"U00081\"><he>שְׁבוּעָה</he></cite> (v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:2:4\">Y. Ned. I, 37ᵃ</cite> top."
+			]
+		}
+	]
+}

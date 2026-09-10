@@ -1,0 +1,31 @@
+{
+	"id": "I00361",
+	"slug": "טיכסא",
+	"headword": {
+		"text": "טִיכְסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְכְ׳"
+		},
+		{
+			"text": "מַטְכְּסָא"
+		}
+	],
+	"page": {
+		"number": 531,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"I00358\"><he>טִיכּוּס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 63:8\">Gen. R. s. 63</cite> <he>על טי׳ דמדינ׳</he> Ar. (ed. <he>מטכסא</he>) on the rampart of the fortress (in spite of the gates being closed); <cite ref=\"Yalkut Shimoni on Torah 110:24\">Yalk. Gen. 110</cite>.—Pl. <he>טִיסְסַיָּיא</he>, <cite ref=\"I00361\"><he>טִכְ׳</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 5</cite> <he>פליג ד׳ ט׳ וכ׳</he> he assigned the demolition of the four ramparts of the Temple mount to the four generals, and the western gate came under the command of Pangar."
+			]
+		}
+	]
+}

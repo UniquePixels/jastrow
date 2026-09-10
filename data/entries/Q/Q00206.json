@@ -1,0 +1,26 @@
+{
+	"id": "Q00206",
+	"slug": "פול-2",
+	"headword": {
+		"text": "פּוֹל",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1141,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>פלל</he> or <he>פול</he> <i>to split</i>) <i>bean</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:1\">Kil. I, 1</cite> <he>פ׳ הלבן</he> the white bean. ",
+				"<cite ref=\"Mishnah Kilayim 1:2\">Ib. 2</cite> <he>פ׳ מצרי</he> the Egyptian bean (Colocasia); a. fr.—Pl. <cite ref=\"Q00232\"><he>פּוֹלִין</he></cite>. ",
+				"<cite ref=\"Tosefta Kilaim 2:8\">Tosef. ib. II, 8</cite>, v. <cite ref=\"C01047\"><he>גַּמְלוֹן</he></cite>. ",
+				"<cite ref=\"Tosefta Tevul Yom 1:1\">Tosef. T’bul Yom I, 1</cite>; a. fr."
+			]
+		}
+	]
+}

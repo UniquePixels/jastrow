@@ -1,0 +1,60 @@
+{
+	"id": "I00637",
+	"slug": "טפח-2",
+	"headword": {
+		"text": "טְפַח"
+	},
+	"page": {
+		"number": 546,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to close carefully</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 23a:5\">B. Kam. 23ᵃ</cite> <he>לא ט׳ באפיה</he> (Ms. H. <he>טפא</he>, v. <he>טְפֵי</he> IV) he did not carefully close (the stable) before him."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to slap, strike with hand, stamp with foot</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 19:24\">Targ. II Kings XIX, 24</cite>; <cite ref=\"Isaiah 37:25\">Is. XXXVII, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 21:17\">Targ. Ez. XXI, 17</cite>; <cite ref=\"Targum Jonathan on Ezekiel 21:19\">19</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Jonah 4:8\">Targ. Jon. IV, 8</cite> <he>ט׳ שמשא וכ׳</he> the sun beat upon &c.—",
+				"<cite ref=\"Bava Kamma 32b:12\">B. Kam. 32ᵇ</cite> <he>ט׳ ליה רבא בסנדליה</he> Raba struck him upon his (R. Shimi’s) sandal (to silence him); <cite ref=\"Moed Katan 25a:14\">M. Kat. 25ᵃ</cite>; <cite ref=\"Bava Batra 22a:7\">B. Bath. 22ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to clap hands</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:1:3\">Y. Snh. II, beg. 19ᵈ</cite>; <cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite> <he>שרי ט׳ בחדא וכ׳</he> he made the motion of clapping with one hand; <he>ובחדא טַפְחִין</he> do people clap with one hand?; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to strike, forge</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 141:5\">Targ. Ps. CXLI, 5</cite>; <cite ref=\"Targum Jonathan on Isaiah 41:7\">Targ. Is. XLI, 7</cite> (h. text <cite ref=\"E00575\"><he>הלם</he></cite>)."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"I00636\"><he>טַפֵּחַ</he></cite> ch. same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

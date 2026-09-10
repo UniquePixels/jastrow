@@ -1,0 +1,43 @@
+{
+	"id": "R00614",
+	"slug": "צנורא-1",
+	"headword": {
+		"text": "צִנּוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִינּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1291,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00613\">same</cite> צ׳ דדשא <i>door-socket</i> or <i>pivot</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 18b\">Ber. 18ᵇ</cite> <he>מתותי צ׳ דד׳</he> … <he>שקלינהו</he> Ms. M. take the money from under the door-pivot at such and such a place; ed. <he>שקלינהו מתותי בצ׳ דד׳ וכ׳</he> take it from what lies below in the socket &c. ",
+				"<cite ref=\"Ketubot 67b\">Keth. 67ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 119a:3\">Sabb. 119ᵃ</cite> <he>ומשלים להו אצ׳ דד׳</he> and had the money ready to settle with them as soon as the door was turned. ",
+				"<cite ref=\"Pesachim 94b\">Pes. 94ᵇ</cite> <he>כצ׳ דד׳</he> moving around its axis like a door in its socket."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>water-pipe, duct.—</i>Pl. constr. <cite ref=\"R00617\"><he>צִנּוֹרֵי</he></cite>, <cite ref=\"R00030\"><he>צִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:7\">Targ. Koh. I, 7</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>hook.—</i>Pl. <cite ref=\"R00617\"><he>צִנּוֹרִין</he></cite>, <cite ref=\"R00030\"><he>צִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:5:2\">Y. Yeb. XII, 12ᵈ</cite> bot.—V. <cite ref=\"R00616\"><he>צִנּוֹרָה</he> II</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

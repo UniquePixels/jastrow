@@ -1,0 +1,30 @@
+{
+	"id": "O01271",
+	"slug": "ססא",
+	"headword": {
+		"text": "סָסָא"
+	},
+	"page": {
+		"number": 1009,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"O01270\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:20\">Targ. Prov. XXV, 20</cite> (some ed. <cite ref=\"O00686\"><he>סימא</he></cite>, corr. acc.).—",
+				"<cite ref=\"Jerusalem Talmud Beitzah 2:5:4\">Y. Bets. II, 61ᶜ</cite> top; Y. Maas. Sh. V, 56ᶜ top; <cite ref=\"Jerusalem Talmud Chagigah 2:3:5\">Y. Ḥag. II, 78ᵃ</cite> bot. <he>ס׳ דקיסא מיניה וביה</he> (vers. of Meïri to <cite ref=\"Beitzah 20b\">Bets. 20ᵇ</cite>) the worm of the wood comes out of itself (the wood); v. <cite ref=\"K00891\"><he>כַּסָּא</he> I</cite>.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"O00021\"><he>סָאסָא</he></cite> q. v.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

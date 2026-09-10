@@ -1,0 +1,34 @@
+{
+	"id": "U00816",
+	"slug": "שיגוש",
+	"headword": {
+		"text": "שִׁיגּוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁיגּוּשָׁא"
+		},
+		{
+			"text": "שִׁגּ׳"
+		}
+	],
+	"page": {
+		"number": 1557,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00244\"><he>שְׁגַשׁ</he></cite>) <i>confusion, perplexity, excitement</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 7:23\">Targ. O. Deut. VII, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 14:13\">Targ. Zech. XIV, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 19:4\">Targ. Ps. XIX, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 5:9\">Targ. I Sam. V, 9</cite>; a. e.—Pl. <cite ref=\"U00817\"><he>שִׁיגּוּשַׂיָּא</he></cite>, <cite ref=\"U00816\"><he>שִׁגּ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Amos 3:9\">Targ. Am. III, 9</cite> (ed. Wil. <he>שִׁגוֹ׳</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"id": "O01349",
+	"slug": "ספי-2",
+	"headword": {
+		"text": "סְפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְפָא"
+		}
+	],
+	"page": {
+		"number": 1013,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01348\">same</cite><i>to cut, apportion, give to eat</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 11:18\">Targ. Y. Num. XI, 18</cite> (ed. Vien. <he>יַסְפִּי׳</he> <i>Af.</i>).—",
+				"<cite ref=\"Pesachim 3b:11\">Pes. 3ᵇ</cite> <he>מי קא סָפוּ לך מאליה</he> have they given you a piece &c.? v. <cite ref=\"O01348\">preced.</cite> ",
+				"<cite ref=\"Chullin 107b:4\">Ḥull. 107ᵇ</cite> <he>לא סְפִינָא לך</he> I should not have given thee to eat. ",
+				"<cite ref=\"Chullin 107b:13\">Ib.</cite> <he>קא סָפִית לבראי וכ׳</he> thou didst feed my son, and didst not wash thy hands (v. <cite ref=\"M02866\"><he>מְשֵׁי</he></cite>). ",
+				"<cite ref=\"Chullin 95b:6\">Ib. 95ᵇ</cite> <he>איכו השתא סְפִיתוּ וכ׳</he> how near you came giving the sons of B. forbidden food to eat. ",
+				"<cite ref=\"Chullin 95a:1\">Ib.ᵃ</cite> top <he>מי לא סַפְיִי לך וכ׳</he> (Ar. <he>סְפָאִי</he>) should I not have given thee a portion of the fat ox? <cite ref=\"Chullin 95a:1\">Ib.</cite> <he>דזבן … וס׳ לי</he> such and such a gentile bought of it, and he gave me of it. ",
+				"<cite ref=\"Bava Batra 21a:5\">B. Bath. 21ᵃ</cite> <he>עד שית</he> … <he>קביל וסְפִי ליה וכ׳</he> Ar. (ed. <cite ref=\"A02488\"><he>אַסְפִּי</he></cite> <i>Af.</i>) until six years of age take no pupils, from six and upward take (the child) and feed him (with knowledge) as you feed an ox; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to scrape together, collect</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 27:3\">Targ. O. Ex. XXVII, 3</cite>.—",
+				"<cite ref=\"Shir HaShirim Rabbah 1:6:1\">Cant. R. to I, 6</cite> <he>ס׳ חלא וכ׳</he> he grabbed up sand and put it in his mouth. ",
+				"<cite ref=\"Bava Metzia 114b:3\">B. Mets. 114ᵇ</cite> <he>סְפִי שקול וכ׳</he> grab and take of these leaves (of Eden); <he>ספא שקל</he> he grabbed and carried them off."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְפֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01348\">same</cite>, <i>to give to eat</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 11:18\">Targ. Y. Num. XI, 18</cite>, v. supra.—",
+						"<cite ref=\"Bava Batra 21a:1\">B. Bath. 21ᵃ</cite>, v. supra.—[<cite ref=\"Eichah Rabbah 1:34\">Lam. R. to I, 7</cite> <he>כד תספון כלה וכ׳</he>, a corruption, prob. to be read: <he>כד מַסְפִּין כלה</he> ‘when they give a bride to eat’, some words like ‘coarse food’ being omitted.]"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתְּפֵי"],
+			"senses": [
+				{
+					"gloss": " [<i>to be withdrawn</i>, cmp. <i>Nif.</i> of <cite ref=\"A02475\"><he>אָסַף</he></cite> <cite ref=\"II Samuel 17:13\">II Sam. XVII, 13</cite>; <cite ref=\"Jeremiah 4:5\">Jer. IV, 5</cite>, a. e.,] <i>to shrink, be afraid</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 32:6\">Targ. Job XXXII, 6</cite> <he>אִסְתְּפֵיתִי</he> (h. text <he>זחלתי</he>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 21:17\">Targ. Y. Gen. XXI, 17</cite> <he>תִּסְתְּפִין</he> (not <he>תַּסְתִּיפִין</he>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 42:4\">Ib. XLII, 4</cite>; a. fr.—",
+						"<cite ref=\"Berakhot 20a:6\">Ber. 20ᵃ</cite> <he>לא קא מִסְתְּפֵי מר מיה״ר</he> are you not afraid of temptation? <cite ref=\"Berakhot 62a:7\">Ib. 62ᵃ</cite> <he>לא מִסְתְּפִיתוּ</he> are ye not afraid? <cite ref=\"Sanhedrin 94b:19\">Snh. 94ᵇ</cite> bot. <he>מהאי לא תִסְתְּפִי אלא אִיסְתְּפִי וכ׳</he> be not afraid of this one, but be afraid of &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "O00497",
+	"slug": "סטן-1",
+	"headword": {
+		"text": "סָטַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׂ"
+		}
+	],
+	"page": {
+		"number": 973,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"O00498\"><he>שטן</he></cite>; cmp. <he>טנן</he>, <cite ref=\"I00579\"><he>טְנָנָא</he></cite>)<i>to be hostile to; to hinder, accuse</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 13:1\">Pesik. R. s. 13</cite> (<he>על</he>) <he>אותה הברכה אתה שׂוֹטְנֵינִי וכ׳</he> thou art hostile to me on account of that blessing; it is given to you. ",
+				"<cite ref=\"Pesikta Rabbati 12\">Pesik. R. s. 12</cite>; a. e. (interch. with <he>שטם</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְטִין", "הִשְׂ׳"],
+			"senses": [
+				{
+					"gloss": " (with <he>על</he>) <i>to bring charges against, accuse</i>. Ib. s. 36 <he>בואו ונַשְׂטִין על דורו וכ׳</he> come, let us bring charges against the Messianic generation, so that it may not be created. Ib. <he>היאך אתם מַסְטִינִים וכ׳</he> how dare you attack &c.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

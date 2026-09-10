@@ -1,0 +1,27 @@
+{
+	"id": "U01067",
+	"slug": "שירוף",
+	"headword": {
+		"text": "שֵׂירוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׂר׳"
+		}
+	],
+	"page": {
+		"number": 1569,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שָׂרַף</he> I) <i>burning, burn</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:9:1\">Cant. R. to VII, 9</cite>; Tanḥ. Tsav 2; <cite ref=\"Yalkut Shimoni on Nach 161:1\">Yalk. Sam. 161</cite>, v. <cite ref=\"A01332\"><he>אִימּוּס</he></cite>."
+			]
+		}
+	]
+}

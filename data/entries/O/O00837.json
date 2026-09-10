@@ -1,0 +1,25 @@
+{
+	"id": "O00837",
+	"slug": "סירוח",
+	"headword": {
+		"text": "סֵירוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "סֵר׳"
+		}
+	],
+	"page": {
+		"number": 987,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סָרַח</he> III) <i>stench, nauseous substances.—</i>Pl. <he>סֵירוּחִין</he>, <cite ref=\"O00835\"><he>סֵר׳</he></cite>. ",
+			"units": ["<cite ref=\"Vayikra Rabbah 14:4\">Lev. R. s. 14</cite>."]
+		}
+	]
+}

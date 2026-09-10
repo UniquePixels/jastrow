@@ -1,0 +1,51 @@
+{
+	"id": "A02060",
+	"slug": "אמר-1",
+	"headword": {
+		"text": "אָמַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 78,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אם</he>, v. <cite ref=\"A01961\"><he>אֵם</he></cite>; cmp. <he>חמר</he>, <cite ref=\"P00928\"><he>עמר</he></cite>) (a) <i>to join, knot; to be knotted, thick;</i> b) <i>to heap up;</i> c) transf. <i>to join words, compose</i>, cmp. <he>דבר</he>; d) <i>to contract, bargain, exchange</i>. [As to Assyr. <i>to see</i>, cmp. <cite ref=\"H01137\"><he>חמא</he></cite>.]) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to speak, think, say, relate</i> &c. … <he>א׳ ר׳</he> … <he>א׳ ר׳</he> Rabbi … related in the name of R. … <cite ref=\"Berakhot 3b:29\">Ber. 3ᵇ</cite>; a. v. fr.—Part. pass. <he>אָמוּר</he> <i>expression</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 70b\">Yoma 70ᵇ</cite>, a. fr. <he>הוא הא׳ וכ׳</he> it is the same expression (‘<i>one ram</i>’) used here and in the Book of Numbers. Sifré Deut. s. 334, a. fr. <he>אֱמוֹר מעתה</he> say from now, i.e. from this draw the conclusion. ",
+				"<cite ref=\"Bereishit Rabbah 39:1\">Gen. R. s. 39</cite> <he>תאמר שהבירה וכ׳</he> (usu. <he>שמא תאמר</he>) will you say (is it possible), this castle has no commander?—<he>אֲמוּרִים דברים במה</he> (abbr. <he>בד״א</he>) in what case are these words said? i.e. <i>this applies only</i>. ",
+				"<cite ref=\"Chullin 3a:13\">Ḥull. 3ᵃ</cite>; a. fr.—<he>זאת אוֹמֶרֶת</he> this tells, i.e. <i>this proves</i>. ",
+				"<cite ref=\"Berakhot 11b:22\">Ber. 11ᵇ</cite>; a. fr.—<he>אָמְרוּ</he> it is said, told &c.; v. next w.—Inf. <he>לוֹמַר</he> = <he>לֵאמֹר</he>. ",
+				"<cite ref=\"Chagigah 14b:10\">Ḥag. 14ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to vow, devote</i>. <he>אָמוּר</he> (<he>לגבוה</he>) devoted to the Lord. ",
+			"units": [
+				"<cite ref=\"Sukkah 55b:14\">Succ. 55ᵇ</cite>; v. <cite ref=\"A02026\"><he>אֲמִירָה</he> I</cite>, 3, a. <cite ref=\"A01334\"><he>אֵימוּרִים</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱמַר"],
+			"senses": [
+				{
+					"gloss": " (b. h.) <i>to be said, to read</i> … <he>נא׳ כאן … ונ׳ להלן</he> we read <i>here</i> … and we read <i>there</i> … (the same expression is used here and there in the Scriptural text). ",
+					"units": [
+						"<cite ref=\"Berakhot 9a:29\">Ber. 9ᵃ</cite>; a. v. fr.—<he>שֶׁנֶּאֱמַר</he> (abbr. <he>שנ׳</he>, <he>שנא׳</he>) for it is said in the Scriptures (as evidence in favor of an opinion). ",
+						"<cite ref=\"Mishnah Sanhedrin 10:1\">Snh. X, 1</cite>; a. v. fr.; also <he>כמה שנ׳</he> (<cite ref=\"K00792\"><he>כמו</he></cite>) as it is said.—<he>מִשּׁוּם שנ׳</he> because it is said in the Scriptures, i.e. you may possibly be misled by a certain expression to think …, therefore another term is used in its stead in an analogous case, or added to the ambiguous word; v. <cite ref=\"U00436\"><he>שׁוּם</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

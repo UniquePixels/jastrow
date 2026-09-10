@@ -1,0 +1,32 @@
+{
+	"id": "G00097",
+	"slug": "זהיר-1",
+	"headword": {
+		"text": "זָהִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְהִירָה"
+		}
+	],
+	"page": {
+		"number": 381,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זהר</he>) <i>looking out; strictly observant; careful, on one’s guard</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:1\">Ab. II, 1</cite> <he>הוי ז׳ וכ׳</he> be as strict in the observance of minor religious duties &c. ",
+				"<cite ref=\"Pirkei Avot 4:13\">Ib. IV, 13</cite>; <cite ref=\"Bava Metzia 33b:4\">B. Mets. 33ᵇ</cite> <he>הוי ז׳ בתלמזד</he> be careful in teaching the Law, v. <cite ref=\"G00072\"><he>זָדוֹן</he></cite>. ",
+				"<cite ref=\"Sanhedrin 76b:2\">Snh. 76ᵇ</cite> <he>הוי ז׳ במי שיועצך וכ׳</he> Ms. M. (ed. <he>מן היועצך</he>, v. Rabb. D. S. a. l. note) beware of him who advises thee to his own advantage. ",
+				"<cite ref=\"Shabbat 23b:7\">Sabb. 23ᵇ</cite> <he>הז׳ במזוזה</he> he who is strict in the observance &c.; a. fr.—Pl. <cite ref=\"G00714\"><he>זְהִירִין</he></cite>, f. <cite ref=\"G00100\"><he>זְהִירוֹת</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 2:3\">Ab. II, 3</cite> <he>הוו ז׳ ברשות</he> beware of the officials. ",
+				"<cite ref=\"Mishnah Shabbat 2:6\">Sabb. II, 6</cite> <he>על שאינן ז׳ וכ׳</he> because they are not careful in the observance of the laws concerning &c.; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "T00451",
+	"slug": "רושם-2",
+	"headword": {
+		"text": "רוֹשַׁם"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוּשְׁמָא"
+		}
+	],
+	"page": {
+		"number": 1464,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. <cite ref=\"T00450\">same</cite>, <i>mark, cicatrix; characters</i> (of writing); <i>incision</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:10\">Targ. Lev. XIII, 10</cite> (h. text <cite ref=\"M00862\"><he>מחיה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 21:5\">Targ. Y. ib. XXI, 5</cite> (h. text <cite ref=\"S01975\"><he>קרחה</he></cite>; v. <cite ref=\"T01093\"><he>רְשַׁם</he> II</cite>). ",
+				"<cite ref=\"Aramaic Targum to Esther 3:12\">Targ. Esth. III, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 11:8\">Targ. Y. Gen. XI, 8</cite> <he>ורושם כתביה</he> (some ed. <he>ומשם כפתיה</he>, corr. acc.).—[<cite ref=\"Targum Jonathan on Exodus 21:25\">Targ. Y. Ex. XXI, 25</cite>. Ms. Ar., v. <cite ref=\"T01093\"><he>רְשַׁם</he> II</cite>.]—",
+				"<cite ref=\"Gittin 20a:15\">Gitt. 20ᵃ</cite> <he>ר׳ מיחרץ וכ׳</he> the stamp of a coin &c., v. <cite ref=\"H01750\"><he>חֲרַץ</he></cite>. ",
+				"<cite ref=\"Gittin 86a:2\">Ib. 86ᵃ</cite> <he>ורְשׁוּם דאינש וכ׳</he> (Ar. <he>ורָשׁוּ</he>) and no mark of any owner is on him (the slave).—Pl. <he>רוֹשְׁמִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 19:28\">Targ. Y. Lev. XIX, 28</cite> <he>ר׳ חריתין</he> (ed. Vien. <he>רְשַׁם חֹרית</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:24\">Targ. Is. III, 24</cite>.—V. <cite ref=\"T00723\"><he>רִישּׁוּמָא</he></cite>."
+			]
+		}
+	]
+}

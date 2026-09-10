@@ -1,0 +1,56 @@
+{
+	"id": "H00068",
+	"slug": "חבילה",
+	"headword": {
+		"text": "חֲבִילָה"
+	},
+	"page": {
+		"number": 419,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָבַל</he> 2) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>connection, whatever is in a connected state</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 18:9\">Kel. XVIII, 9</cite> <he>המטה מיטמאת ח׳ וכ׳</he> a couch gets unclean only when combined, and can become clean again &c., opp. <he>איברים</he>; <cite ref=\"Sukkah 16a:1\">Succ. 16ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bundle, load, baggage, luggage</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 10:3:3\">Y. Ter. X, 47ᵇ</cite> top, v. <cite ref=\"G00416\"><he>זֵיר</he></cite>. ",
+				"<cite ref=\"Bava Metzia 72b:17\">B. Mets. 72ᵇ</cite> <he>המוליך ח׳ וכ׳</he> if one carries a load (as a messenger) from one place to another (where prices are higher). ",
+				"<cite ref=\"Kiddushin 65b:3\">Kidd. 65ᵇ</cite> <he>וח׳ עמהם</he> and have luggage with them. ",
+				"<cite ref=\"Bava Metzia 78a:6\">B. Mets. 78ᵃ</cite> <he>כשבאת ח׳ לידו</he> when the working man has left a bundle (of tools) with him (as a pledge that he will come to work); a. fr.—Pl. <he>חֲבִילוֹת</he>, <he>חֲבִילִין</he>, constr. (mostly) <he>חֲבִילֵי</he>. ",
+				"<cite ref=\"Mishnah Shabbat 18:2\">Sabb. XVIII, 2</cite> <he>ח׳ קש וכ׳</he> bundles of straw &c.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 7:1:4\">Y. Ber. VII, beg. 11ᵃ</cite> <he>מג׳ ח׳</he> from three different bundles (of hyssop). ",
+				"<cite ref=\"Bava Kamma 10a:20\">B. Kam. 10ᵃ</cite> bot. <he>מרבה בח׳</he> Ms. M. (ed. sing.) one adding bundles (of dry twigs) to the fire.—",
+				"<cite ref=\"Berakhot 49a:14\">Ber. 49ᵃ</cite>, a. e. <he>אין עושין מצות ח׳ ח׳</he> we must not perform religious duties bundle-wise (but pay attention to each singly). ",
+				"<cite ref=\"Eruvin 54b:21\">Erub. 54ᵇ</cite> (ref. to <cite ref=\"Proverbs 13:11\">Prov. XIII, 11</cite>) <he>אם עושה … ח׳ ח׳ מתמעטת</he> Ms. O. (v. Rabb. D. S. a. l. note) if one studies bundle-wise (too many subjects at a time), his learning will decrease (ed. <he>מתמעט</he> he will become poorer in learning). ",
+				"<cite ref=\"Bava Metzia 84b:4\">B. Mets. 84ᵇ</cite> <he>הקפתנו ח׳ תשובות וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note) thou hast surrounded us with bundles of arguments which contain no substance; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>band, bandage</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 10b:3\">Ab. Zar. 10ᵇ</cite>, sq. <he>נתפרדה ח׳</he> the bond (of friendship between the two nations) is severed.—Pl. <he>חֲבִילִין</he>. ",
+				"<cite ref=\"Vayikra Rabbah 14:9\">Lev. R. s. 14</cite>; <cite ref=\"Yalkut Shimoni on Nach 905:5\">Yalk. Job 905</cite> <he>עשוייה … ח׳ ח׳</he> consists of cells, convolutions and bands (muscles)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>pledge</i>, v. <cite ref=\"H00026\"><he>חֲבוֹלָה</he></cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "R00383",
+	"slug": "צימרא",
+	"headword": {
+		"text": "צִימְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִמְ׳"
+		}
+	],
+	"page": {
+		"number": 1277,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00594\"><he>צְמַר</he></cite>) <i>heat, fever</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 55b:7\">Pes. 55ᵇ</cite> <he>פרח צ׳ מינה</he> her heat has left her (the breeding hen’s desire to hatch is gone). ",
+				"<cite ref=\"Chullin 51a:10\">Ḥull. 51ᵃ</cite> <he>צ׳ בעלמא הוא וכ׳</he> it is merely the fever (from the inflicted wound) that has seized them (and we need apprehend no injury to a vital organ). ",
+				"<cite ref=\"Gittin 69b:19\">Gitt. 69ᵇ</cite> <he>צ׳ ברא</he> outside fever (eruption); <he>צ׳ גוונא</he> inner fever; a. e.—Pl. <cite ref=\"R00472\"><he>צִימְרֵי</he></cite>, <cite ref=\"R00383\"><he>צִמְ׳</he></cite>. ",
+				"<cite ref=\"Gittin 69b:19\">Ib.</cite> <he>דמעליא לכולהו צ׳</he> Rashi (ed. <cite ref=\"R00383\"><he>צימרא</he></cite>, corr. acc.) it is good for all kinds of fever."
+			]
+		}
+	]
+}

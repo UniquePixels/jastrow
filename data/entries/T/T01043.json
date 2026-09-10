@@ -1,0 +1,23 @@
+{
+	"id": "T01043",
+	"slug": "רקם-5",
+	"headword": {
+		"text": "רְקָם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1497,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"T01040\"><he>רֶקֶם</he> I</cite>, <i>embroidered garment</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:16\">Targ. Ez. XXVII, 16</cite> (h. text <cite ref=\"T01045\"><he>רקמה</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "N00914",
+	"slug": "נסא-1",
+	"headword": {
+		"text": "נִסָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נִסָּה"
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 915,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Nissa</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:1:9\">Y. Erub. II, 20ᵃ</cite> bot. Y. B. Bath. II, beg. 13ᵇ. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 11:5:13\">Y. Ter. XI, end, 48ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

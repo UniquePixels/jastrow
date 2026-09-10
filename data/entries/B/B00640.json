@@ -1,0 +1,24 @@
+{
+	"id": "B00640",
+	"slug": "בינא-2",
+	"headword": {
+		"text": "בִּינָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 163,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. P. Sm. 519) <i>tamarisk</i>, (comment.: <i>willow</i>). ",
+			"units": [
+				"<cite ref=\"Gittin 68b:21\">Gitt. 68ᵇ</cite> <he>שורבינא וב׳</he> (perh. a tautography of <cite ref=\"U00543\"><he>שורבינא</he></cite>?)."
+			]
+		}
+	]
+}

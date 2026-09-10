@@ -1,0 +1,113 @@
+{
+	"id": "G00105",
+	"slug": "זהר-2",
+	"headword": {
+		"text": "זְהַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְהֵיר"
+		}
+	],
+	"page": {
+		"number": 382,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00104\">same</cite><i>so shine, bloom</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 22:28\">Targ. Job XXII, 28</cite> (ed. Wil. <he>יַזְהַר</he> <i>Af.</i>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 14:6\">Targ. Hos. XIV, 6</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to look out, guard</i>.—Part. pass. <cite ref=\"G00098\"><he>זְהִיר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Chagigah 23a:9\">Ḥag. 23ᵃ</cite> <he>מִיזְהַר זהיר בהו</he> he guards them (from levitical impurity). ",
+				"<cite ref=\"Chullin 107b:5\">Ḥull. 107ᵇ</cite> <he>דזְהִיר</he> he is careful (not to touch), contrad. to <he>זריז</he> taking precaution. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:20\">Y. Ber. V, 9ᵃ</cite> bot. <he>זְהִירָא לה</he> watches it (the cloak). Y. Ab. Zar. III, 41ᵃ bot. <he>לא הוינא ז׳ לך</he> was I not on my guard against thee?; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַהֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to emit light, to glisten</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Zechariah 9:15\">Targ. Zech. IX, 15</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to caution</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 5:2\">Targ. Cant. V, 2</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַזְהַר"],
+			"senses": [
+				{
+					"gloss": "<i>to give light, shine</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 9:1\">Targ. Is. IX, 1</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to explain</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 18:20\">Targ. Ex. XVIII, 20</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to caution</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 3:18\">Targ. Ez. III, 18</cite>; a. e.—",
+						"<cite ref=\"Sanhedrin 66a:26\">Snh. 66ᵃ</cite> bot. <he>דילמא אקודש א׳ וכ׳</he> perhaps in saying ‘thou shalt not curse <i>Elohim</i>’ (<cite ref=\"Exodus 22:27\">Ex. XXII, 27</cite>) the Law gave warning with regard <i>to holy Elohim</i> (God), but not with regard to secular <i>Elohim</i> (authorities)?"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִזְדְּהַר"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִזְדַּהֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to take heed, beware</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 10:28\">Targ. Y. Ex. X, 28</cite>; a. e.—",
+						"<cite ref=\"Avodah Zarah 28a\">Ab. Zar. 28ᵃ</cite>, v. <cite ref=\"G00404\"><he>זִיקָא</he> I</cite>. ",
+						"<cite ref=\"Avodah Zarah 12b\">Ib. 12ᵇ</cite>, v. <cite ref=\"U00184\"><he>שַׁבְרִירִי</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to watch</i>. Y. Ber. V, 9ᵃ bot. <he>מִזְדַּהֲרָא ליה</he> was watching it. ",
+					"units": [
+						"<cite ref=\"Bava Batra 29a:2-6\">B. Bath. 29ᵃ</cite> <he>תרתי … מִזְדְּהַר</he> the first two or three years man takes care of the deed. ",
+						"<cite ref=\"Bava Batra 29a:7\">Ib.</cite> <he>הוה מִזְדַּהַרְנָא וכ׳</he> I should have taken care &c.; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

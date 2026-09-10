@@ -1,0 +1,21 @@
+{
+	"id": "B00250",
+	"slug": "בוכרא-2",
+	"headword": {
+		"text": "בּוּכְרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 145,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B00249\">preced.</cite>) <i>the first</i>, i.e. <i>lowest layer</i> in the clay dam; v. <cite ref=\"A03131\"><he>אַרְכַּבְתָּא</he></cite>. ",
+			"units": ["<cite ref=\"Bava Metzia 103b:10\">B. Mets. 103ᵇ</cite>"]
+		}
+	]
+}

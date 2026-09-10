@@ -1,0 +1,26 @@
+{
+	"id": "O00549",
+	"slug": "סיג-1",
+	"headword": {
+		"text": "סִיג",
+		"homograph": 1
+	},
+	"page": {
+		"number": 975,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"O00243\"><he>סוּג</he></cite>) [<i>that which is to be removed;</i> cmp. <cite ref=\"B00141\"><he>בְּדִיל</he></cite>,] <i>dross, base metal; refuse</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 51a:6\">Bekh. 51ᵃ</cite> <he>שלא יביא ס׳ לעזרה</he> Ar. (ed. <he>סִיגָה</he>) in order that one may not bring base metal to the Temple (therefore stamped silver coins had to be brought along; Rashi: <he>סיגה וכסף סיגים</he> base metal or non-purified silver).—Pl. <cite ref=\"O00560\"><he>סִיגִים</he></cite>, <he>סִגִּים</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 14:2\">Num. R. s. 14</cite> (ref. to <he>סוג לב</he>, <cite ref=\"Proverbs 14:14\">Prov. XIV, 14</cite>) <he>אותו הלב שהוא מלא ס׳ וכ׳</he> the heart full of base things, will get sick of its own ways. ",
+				"<cite ref=\"Proverbs 14:14\">Ib.</cite> s. 13 <he>יחזקאל קורא אותם ס׳</he> Ezekiel calls them base metal (ref. to <cite ref=\"Ezekiel 22:18\">Ez. XXII, 18</cite>). ",
+				"<cite ref=\"Midrash Tehillim 119:29\">Midr. Till. to Ps. CXIX, 119</cite>) <he>אכל הענבים נעשה ס׳</he> ed. Bub. (ed. <he>עושה סוגים</he>, corr. acc.) after he has eaten the grapes, it (the cluster) becomes refuse."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "H00303",
+	"slug": "חוטר",
+	"headword": {
+		"text": "חוֹטֶר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּטְרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 431,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (= b. h. <cite ref=\"H00645\"><he>חֹטֶר</he></cite>, v. <cite ref=\"H00644\"><he>חֲטַר</he></cite>; cmp. <cite ref=\"C00578\"><he>גִּזְרָא</he> I</cite>) <i>staff, scepter</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 17:17\">Targ. Num. XVII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 45:7\">Targ. Ps. XLV, 7</cite>; a. fr. [Also <cite ref=\"H00645\"><he>חֹטֶר</he></cite>, <cite ref=\"H00304\"><he>חֻטְרָא</he></cite>, constr. <cite ref=\"H00644\"><he>חֲטַר</he></cite>.].—",
+				"<cite ref=\"Bereishit Rabbah 53\">Gen. R. s. 53</cite>, v. <cite ref=\"G00735\"><he>זְרַק</he></cite>. ",
+				"<cite ref=\"Yevamot 65b:16\">Yeb. 65ᵇ</cite>; <cite ref=\"Ketubot 64a:6\">Keth. 64ᵃ</cite>, v. <cite ref=\"M02480\"><he>מָרָא</he> II</cite>.—",
+				"<cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite> <he>ח׳ ותרתין וכ׳</he> the (old man’s) staff and two feet. ",
+				"<cite ref=\"Shabbat 109b:8\">Sabb. 109ᵇ</cite> <he>ח׳ דרעיא</he> Ms. M. (ed. <he>יחידאה</he>) the Shepherd’s Staff (the Lonely Staff), name of a plant, v. <cite ref=\"H00378\"><he>חוּמְטַרְיָא</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:4:5\">Y. Kidd. I, 60ᵇ</cite> top, a. e., v. <cite ref=\"M02898\"><he>מַשְׁכּוֹכִית</he></cite>; a. fr.—Pl. <he>חוּטְרִין</he>, <cite ref=\"H00305\"><he>חוּטְרַיָּא</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 30:37\">Targ. Gen. XXX, 37</cite>; a. fr."
+			]
+		}
+	]
+}

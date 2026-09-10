@@ -1,0 +1,37 @@
+{
+	"id": "J00049",
+	"slug": "יבל-2",
+	"headword": {
+		"text": "יְבַל"
+	},
+	"page": {
+		"number": 561,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", Af. <he>אוֹבִיל</he>, <he>אֵיבֵיל</he> (<he>הֵיבֵל</he>), <he>אַיְיבֵל</he> ch. same. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 66:6\">Targ. Ps. LXVI, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:32\">Targ. Is. X, 32</cite> (v. infra); a. fr.—",
+				"<cite ref=\"Eruvin 27b\">Erub. 27ᵇ</cite>, a. e. <he>מוֹבִילְנָא מאניה וכ׳</he> I will carry his clothes after him to the bath-house. ",
+				"<cite ref=\"Sanhedrin 95a:4\">Snh. 95ᵃ</cite> (ref. to <he>ינפף</he>, Is. l. c.) <he>מוֹבִיל ומייתי וכ׳</he> moving his hand to and back (= h. <he>מוליך ומביא</he>, v. <cite ref=\"B00199\"><he>בּוֹא</he></cite>); a. fr.—[<cite ref=\"Ezra 5:14\">Ezra V, 14</cite>; <cite ref=\"Ezra 6:5\">VI, 5</cite>.]—",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:5:6\">Y. Meg. IV, 75ᵇ</cite> bot. <he>כד דאינן תרתייתי מֵיבֵל וכ׳</he> when two scrolls are used, he carries one away and brings another in; <cite ref=\"Jerusalem Talmud Sotah 7:6:3\">Y. Sot. VII, end, 22ᵃ</cite> <he>תרתיי תו מַיְיבֵל</he> (corr. acc.); <cite ref=\"Jerusalem Talmud Yoma 8:7:10\">Y. Yoma VIII, 44ᵇ</cite> top <he>מייכל</he> (corr. acc.). Y. Sot. l. c. <he>מַיְיבְלִין</he>, v. <cite ref=\"A00888\"><he>אוֹרָיָיא</he></cite>. Y. Taan. III, 66ᵈ bot. <he>הוה מַיְיבְלָהּ וכ׳</he> (not <he>מייבללה</he>) brought it thither.—[Y. Ab. Zar. III, 43ᵃ <he>נייבל</he>, v. <cite ref=\"B00612\"><he>בִּיל</he></cite> ch."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתּוֹבִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be carried</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 39:6\">Targ. Is. XXXIX, 6</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

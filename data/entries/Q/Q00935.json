@@ -1,0 +1,164 @@
+{
+	"id": "Q00935",
+	"slug": "פלג-2",
+	"headword": {
+		"text": "פְּלַג",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּלֵיג"
+		}
+	],
+	"page": {
+		"number": 1175,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00934\">same</cite><i>to divide, share</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:35\">Targ. Ex. XXI, 35</cite> (O. ed. Vien. <he>יְפַלְּג׳</he> <i>Pa.</i>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 29:24\">Targ. Prov. XXIX, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 29:23\">Ib. 23</cite> (h. text <he>יתמך</he>); a. fr.—<i>Part. pass.</i> <cite ref=\"Q01042\"><he>פְּלִיג</he></cite>; f. <cite ref=\"Q01043\"><he>פְּלִיגָא</he></cite>; pl. <he>פְּלִיגִין</he>, <he>פְּלִיגֵי</he>; <he>פְּלִיגָן</he> "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>divided</i> (<i>at heart</i>), <i>undecided</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 11:7\">Targ. Hos. XI, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 18:37\">Targ. I Kings XVIII, 37</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 18:21\">Ib. 21</cite>; a. e.—[<cite ref=\"Aramaic Targum to Psalms 44:19\">Targ. Ps. XLIV, 19</cite>, v. infra.]—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (with <he>על</he>) <i>differing in opinion</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 49:1\">Targ. Y. II, Gen. XLIX, 1</cite>.—",
+						"<cite ref=\"Bava Metzia 5a\">B. Mets. 5ᵃ</cite>, a. fr. <he>תנא הוא ופ׳</he> he is a Tannai, and (as such) he differs (from the Mishnah). ",
+						"<cite ref=\"Jerusalem Talmud Kilayim 9:1:9\">Y. Kil. IX, 32ᵃ</cite> top, a. fr. <he>מתניתא פ׳ על וכ׳</he> the Boraitha differs from Rab. ",
+						"<cite ref=\"Chullin 92b:7\">Ḥull. 92ᵇ</cite> <he>הא מִפְלֵיג פליגי ביה</he> are there not differing opinions about it? <cite ref=\"Berakhot 23b:15\">Ber. 23ᵇ</cite> <he>ופליגא דר׳ חייא</he> and R. Ḥia’s opinion differs (from what has just been said). ",
+						"<cite ref=\"Berakhot 33b:7\">Ib. 33ᵇ</cite> <he>מכלל דפליגי</he> this implies that scholars differ about it; <he>ולא פ׳</he> and do they not differ?; a. v. fr.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>distinguished, rare</i>, v. infra.",
+					"units": [],
+					"label": "c"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּלֵּג"],
+			"senses": [
+				{
+					"gloss": "<i>to divide; to distribute, assign a share</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 21:35\">Targ. O. Ex. XXI, 35</cite>, v. supra. ",
+						"<cite ref=\"Onkelos Genesis 15:10\">Targ. O. Gen. XV, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 44:19\">Targ. Ps. XLIV, 19</cite> (not <cite ref=\"Q01042\"><he>פְּלִיג</he></cite>), v. <cite ref=\"G00083\"><he>זְהַהּ</he></cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 39:17\">Targ. Job XXXIX, 17</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 68:14\">Targ. Ps. LXVIII, 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 68:13\">Ib. 13</cite> Ms. (ed. <he>מַפְלְגָא</he> <i>Af.</i>). ",
+						"<cite ref=\"Targum of I Chronicles 26:5\">Targ. I Chr. XXVI, 5</cite>; a. fr.—",
+						"<cite ref=\"Bava Batra 119b:8\">B. Bath. 119ᵇ</cite> <he>דפ׳ ליה רביה יקרא</he> when his teacher did him honor. Y. Shek. II, end, 47ᵃ <he>מה את פַּלֵּיג ליה וכ׳</he> why wilt thou do him (the idol) honor?; Y. Ber. II, 4ᵇ <he>איתפליג</he> (corr. acc.). Y. Sabb. VII, 10ᵃ bot. <he>כד מְפַלֵּג</he> when he divides (the flax stalks). ",
+						"<cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite>, beg. <he>ומְפַלְּגָא לבישיא</he>, v. <cite ref=\"C00456\"><he>גּוּף</he></cite> I ch.; <cite ref=\"Kohelet Rabbah 4:6\">Koh. R. to IV, 6</cite>; a. e.—[Y. Kidd. IV, 65ᶜ top <he>פלגין</he>, v. <cite ref=\"Q00938\"><he>פְּלַג</he> II</cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to divert the mind</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 4:19\">Targ. Y. Deut. IV, 19</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 22:1\">Ib. XXII, 1</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to speak differently from what one thinks, flatter</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 28:23\">Targ. Prov. XXVIII, 23</cite> Ms. (ed. <i>Af.</i>)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְלֵג"],
+			"senses": [
+				{
+					"gloss": "<i>to separate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 49:7\">Targ. Y. Gen. XLIX, 7</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to divert</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 45:26\">Targ. Y. II, Gen. XLV, 26</cite> <he>וְאַ׳ ליביה</he> (Y. I <he>יפַּלֵּיג</he>, ed. Vien. <he>ופְלֵיג</he>) he turned his mind off it (gave up hope, would not believe; h. text <he>ויפג</he>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 14:30\">Targ. Prov. XIV, 30</cite> <he>דמַפְלִיג חמתא וכ׳</he> who diverts the anger of his heart; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפַּלֵּג"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְפְּלֵג", "אִיפְּלִיג"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"A01567\"><he>אִפְּ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be divided, dispersed</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 26:53\">Targ. Num. XXVI, 53</cite>; <cite ref=\"Onkelos Numbers 26:55\">55</cite>. ",
+						"<cite ref=\"Onkelos Genesis 14:15\">Targ. Gen. XIV, 15</cite>; a. fr.—",
+						"<cite ref=\"Bava Batra 121b:12\">B. Bath. 121ᵇ</cite> <he>א״י לשבטים נתחלקה או דילמא קרקף גברא אִיפַּלְּגָא</he> Ms. M. was the land of Israel divided according to tribes (in equal shares for each tribe), or according to the number of heads?; ed. <he>א״י לשבטים אִיפְּלוּג … איפלוג</he> (sub. <he>נחלות</he>) were the shares of the land of Israel divided &c.?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be different from the rest, rare, distinguished</i>. Ib. 120ᵃ <he>דמִפְּלִיג בחכמה</he> (Ms. R. <he>דפליג</he>) of rare wisdom, <he>דמפ׳ בזקנה</he> extremely old. ",
+					"units": [
+						"<cite ref=\"Gittin 28a:9\">Gitt. 28ᵃ</cite> <he>כיון דאיפ׳ אפ׳</he> having reached a rare old age, he may as well be presumed to be more distinguished (and be still alive). ",
+						"<cite ref=\"Eruvin 63a:10-11\">Erub. 63ᵃ</cite> <he>שאני … דמִיפְּלַג</he> (Ar. a. Ms. O. <he>דמוּפְלָג</he> h. form) it is different with R. …, for he was very distinguished (for age and learning); a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (cmp. <he>גזר</he>) <i>to be decreed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 14:7\">Targ. Y. Gen. XIV, 7</cite> (v. <cite ref=\"Q00674\"><he>פִּילּוּגָא</he></cite>)."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to secede; to differ</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 16:1\">Targ. O. Num. XVI, 1</cite> (h. text <he>ויקח</he>). ",
+						"<cite ref=\"Targum Jonathan on II Kings 17:21\">Targ. II Kings XVII, 21</cite>; a. fr.—Y. Taan. IV, 67ᵈ top <he>ואפי׳ עלה לא הוה צריך מִתְפַּלְּגָה</he> even about this it was unnecessary to assume a difference of opinion. ",
+						"<cite ref=\"Bereishit Rabbah 21\">Gen. R. s. 21</cite> <he>אִיתְפַּלְּגוּן ר׳ וכ׳</he> R. A. and R. H. differ (in their interpretations). ",
+						"<cite ref=\"Berakhot 22b:19\">Ber. 22ᵇ</cite> bot. <he>בהא קמִיפַּלְּגֵי</he> (popular pronunciation <he>קמִיפְלְגֵי</he>) on this principle their difference rests. ",
+						"<cite ref=\"Berakhot 23a\">Ib. 23ᵃ</cite>; a. v. fr."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

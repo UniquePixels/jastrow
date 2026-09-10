@@ -1,0 +1,64 @@
+{
+	"id": "M02006",
+	"slug": "מסר-1",
+	"headword": {
+		"text": "מָסַר"
+	},
+	"page": {
+		"number": 810,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <cite ref=\"A02550\"><he>אָסַר</he></cite>, cmp. meanings of b. h. <cite ref=\"O00165\"><he>סָגַר</he></cite>)<i>to seize</i> (v. ",
+			"units": [
+				"<cite ref=\"Numbers 31:5\">Num. XXXI, 5</cite>).—Denom. <cite ref=\"M01934\"><he>מְסִירָה</he></cite> 1."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to hand over; to deliver, transmit</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:1\">Ab. I, 1</cite> <he>ומְסָרָהּ וכ׳</he> and handed it (the Law) over to &c. (in the chain of tradition). ",
+				"<cite ref=\"Bava Metzia 8b:10\">B. Mets. 8ᵇ</cite> (expl. <cite ref=\"M00544\"><he>מוֹסֵירָה</he></cite>) <he>כאדם המוֹסֵר דבר וכ׳</he> like one handing over (giving possession) &c. ",
+				"<cite ref=\"Bava Metzia 111b:17\">Ib. 111ᵇ</cite> bot. (expl. <he>נשא את נפשו</he>, <cite ref=\"Deuteronomy 24:15\">Deut. XXIV, 15</cite>) <he>דבר שמסר את נפשו עליו</he> Ms. M. (ed. <he>המוסר</he>, v. Rabb. D. S. a. l. note) a labor for which he binds (obligates) himself; [oth. explan.] ib. 112ᵃ <he>מ׳ את עצמו למיתה</he> (Ms. M. <he>מ׳ לו נפשו עליו</he>) he delivered himself to death, i.e. risked his life; (Ms. M. for which he surrendered his life to the employer); <cite ref=\"Sifrei Devarim 279:3\">Sifré Deut. 279</cite> <he>מ׳ לך את נפשו</he> he surrendered his life to thee (the employer); a. v. fr.—<he>מ׳ דין על</he> to surrender one’s case against a man (to Providence); v. <cite ref=\"D00634\"><he>דִּין</he></cite>. ",
+				"<cite ref=\"Bava Kamma 93a\">B. Kam. 93ᵃ</cite>; <cite ref=\"Rosh Hashanah 16b\">R. Hash. 16ᵇ</cite>; a. e.—Esp. "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>to surrender a person to the authorities, to inform against</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 7a:5\">Gitt. 7ᵃ</cite> <he>ובידי למָסְרָם למלכות</he> it is in my power to bring them to judgment through the (Roman) government. ",
+						"<cite ref=\"Tosefta Terumot 7:20\">Tosef. Ter. VII, 20</cite> <he>יהרגו כולם ולא יִמְסְרוּ וכ׳</he> let them all suffer death rather than surrender one Israelite &c.; a. fr.—V. <cite ref=\"M01882\"><he>מָסוֹר</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <he>מ׳ עצמו</he> (sub. <he>למיתה</he>) <i>to suffer martyrdom</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 53b:7\">Pes. 53ᵇ</cite> <he>שמָסְרוּ עצמן על קדושת וכ׳</he> who were ready to suffer death for the sanctification of the Name (of the Lord). ",
+						"<cite ref=\"Yalkut Shimoni on Torah 182:3\">Yalk. Ex. 182</cite> <he>אומה המוֹסֶרֶת עצמה וכ׳</he> a people that is ready to die for the unity of my Name; a. fr.—Part. pass. <cite ref=\"M01882\"><he>מָסוּר</he></cite>; f. <he>מְסוּרָה</he>; pl. <he>מְסוּרִים</he>, <he>מְסוּרִין</he>; <he>מְסוּרוֹת</he>. ",
+						"<cite ref=\"Kiddushin 32b\">Kidd. 32ᵇ</cite>; <cite ref=\"Bava Metzia 58b:10\">B. Mets. 58ᵇ</cite> <he>דבר המ׳ ללב וכ׳</he> to an injunction which is entrusted to the heart (over which human authorities have no control), the Text adds, ‘and thou shalt be afraid of thy God.’ Mekh. Ki Thissa (ref. to <he>לכם</he>, <cite ref=\"Exodus 31:14\">Ex. XXXI, 14</cite>) <he>לכם שבת מ׳ ואי אתם מ׳ לשבת</he> the Sabbath is given in your charge, but you are not surrendered to the Sabbath, i.e., there are higher objects for which the Sabbath law must eventually be violated; <cite ref=\"Yoma 85b\">Yoma 85ᵇ</cite>; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְסָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be delivered, transmitted</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> <he>נִמְסְרָה לו בכורה</he> the birth-right (priesthood) was transferred to him. ",
+						"<cite ref=\"Bava Kamma 82b:17\">B. Kam. 82ᵇ</cite> <he>אין נִמְסָרִים בידכם</he> they will not be given into your hands, you will have no power over them; <cite ref=\"Menachot 64b\">Men. 64ᵇ</cite>. Y. Yoma III, 40ᵈ bot. <he>לא היה נִמְסָר וכ׳</he> it (the pronunciation of the Tetragrammaton) was not communicated to any but &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

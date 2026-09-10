@@ -1,0 +1,28 @@
+{
+	"id": "K00202",
+	"slug": "כודא",
+	"headword": {
+		"text": "כּוּדָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּוְדָּא"
+		}
+	],
+	"page": {
+		"number": 617,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"K00035\"><he>כבדא</he></cite>, cmp. Syr. <cite ref=\"K00202\"><he>כודא</he></cite>, <he>כודתא</he>, P. Sm. 1690 sq., a. <cite ref=\"S02219\"><he>קָשָׁה</he></cite>) <i>suffering in child-birth</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 29a:5\">Ab. Zar. 29ᵃ</cite> <he>לכ׳ בשיכרא</he> for a woman in child-birth the mixture is made with beer."
+			]
+		}
+	]
+}

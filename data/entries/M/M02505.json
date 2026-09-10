@@ -1,0 +1,22 @@
+{
+	"id": "M02505",
+	"slug": "מרבך",
+	"headword": {
+		"text": "מִרְבּךְ"
+	},
+	"page": {
+		"number": 835,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רָבַךְ</he>) <i>an irregular pile</i>. Ohol. III, 7 <he>מ׳ של אבנים</he> (Ar. <cite ref=\"M02492\"><he>מרבג</he></cite>, Var. <he>מרבן</he>) a pile of (large) stones; <cite ref=\"Sukkah 20b\">Succ. 20ᵇ</cite> <cite ref=\"M00238\"><he>מדבך</he></cite> ed. (Ms. M. 2 <cite ref=\"N00207\"><he>נדבך</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shabbat 125b\">Sabb. 125ᵇ</cite> <cite ref=\"M02505\"><he>מרבך</he></cite> (<cite ref=\"M02492\"><he>מרבג</he></cite>) Ar. (ed. <cite ref=\"N00207\"><he>נדבך</he></cite>)."
+			]
+		}
+	]
+}

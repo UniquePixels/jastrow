@@ -1,0 +1,23 @@
+{
+	"id": "M00022",
+	"slug": "מאחוי",
+	"headword": {
+		"text": "מָאחוּי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 722,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00999\"><he>אָחָה</he></cite>; cmp. <cite ref=\"M00860\"><he>מָחֵי</he></cite>) = <cite ref=\"A01204\"><he>אִיחוּי</he></cite>, <i>seam</i> made by stitching together the rents of a garment after mourning time. ",
+			"units": [
+				"<cite ref=\"Tractate Semachot 9:16\">Treat. S’maḥ. ch. IX</cite>."
+			]
+		}
+	]
+}

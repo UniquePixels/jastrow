@@ -1,0 +1,32 @@
+{
+	"id": "V00793",
+	"slug": "תער-3",
+	"headword": {
+		"text": "תַּעַר"
+	},
+	"page": {
+		"number": 1684,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01341\"><he>עָרָה</he> I)</cite> (cmp. <he>גלח</he>) <i>razor</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:5\">Macc. III, 5</cite> <he>אינו חייב … בת׳</he> he is not guilty (of violating the law of <cite ref=\"Leviticus 19:27\">Lev. XIX, 27</cite>), unless he takes it off with a razor. Ib. 21ᵃ <he>כיצד גילוח … זה ת׳</he> what cutting is that with which destruction (of the hair-root) is connected? That which is done with the razor. ",
+				"<cite ref=\"Bamidbar Rabbah 10:11\">Num. R. s. 10<sup>10</sup></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sheath</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:15\">Y. M. Kat. III, 83ᶜ</cite> <he>לאחר … חוזרת לתַעֲרָהּ</he> after twelve months it (the sword of death) returns to its sheath; (<cite ref=\"Bereishit Rabbah 100:7\">Gen. R. s. 100</cite> <he>לנְדָנָהּ</he>). ",
+				"<cite ref=\"Bereishit Rabbah 93\">Gen. R. s. 93</cite> <he>אחז</he> … <he>לשולפה מתערה וכ׳</he> Judah seized his sword to draw it out of its sheath, but it would not be drawn; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

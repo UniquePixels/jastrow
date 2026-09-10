@@ -1,0 +1,33 @@
+{
+	"id": "G00664",
+	"slug": "זרב-2",
+	"headword": {
+		"text": "זְרַב"
+	},
+	"page": {
+		"number": 411,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to surround, line, trim</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:4:5\">Y. Kil. IX, 32ᵈ</cite> top (ref. to <he>מנעול של זרב</he>, v. <cite ref=\"G00663\">preced.</cite>) <he>אית אתרין דזַרְבִּין עימרא וכ׳</he> (not <he>עימיה</he>) there are places where they put wool around the shoe from inside."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִזְדְּרִיב"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"G00663\">preced.</cite>) <i>to be made to flow over the rim, to be upset</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 78a:8\">Yoma 78ᵃ</cite> <he>משום דמִזְדְּרִיב</he> ed. (Ar. <he>משום דאתי לאִזְדַּרְבּוּיֵי</he>, Ms. O. <he>דילמא אתי לא׳</he>, v. Rabb. D. S. a. l. note 70) because the silver vessel (being smooth) may be upset and liquid flow over. V. <cite ref=\"G00689\"><he>זִרְזֵיף</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "H00934",
+	"slug": "חכירות",
+	"headword": {
+		"text": "חֲכִירוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲכוּרוּת"
+		}
+	],
+	"page": {
+		"number": 462,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00931\"><he>חָכִיר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tenancy, tenure</i> on rent in kind. ",
+			"units": [
+				"<cite ref=\"Mishnah Bikkurim 1:11\">Bicc. I, 11</cite> <he>בעלי אריסות וח׳</he> <i>landlords</i> of properties held in tenure, on shares, or on fixed rent; or <i>tenants</i> on &c.; expl. Y. ib. 64ᵇ either <he>חכירי בתי אבות</he> (v. <cite ref=\"H00931\"><he>חָכִיר</he></cite>), or <he>בעלי אריסיות וחֲכִירִיּוֹת</he> (not <he>וחכורות</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stipulated rent</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 9:24\">Tosef. B. Mets. IX, 24</cite> <he>ח׳ של שתי שנים</he> Var. (ed. Zuck. only <he>חכורי</he>) the rent for two years in advance.—Pl. <he>חֲכִירִיּוֹת</he>, v. supra."
+			],
+			"label": "2"
+		}
+	]
+}

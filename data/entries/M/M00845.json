@@ -1,0 +1,35 @@
+{
+	"id": "M00845",
+	"slug": "מחזיתא",
+	"headword": {
+		"text": "מַחְזִיתָא"
+	},
+	"page": {
+		"number": 758,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00844\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mirror</i>.—Pl. <he>מַחְזְיָיתָא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:23\">Targ. Is. III, 23</cite> (h. text <he>גלינים</he>). ",
+				"<cite ref=\"Onkelos Exodus 38:8\">Targ. O. Ex. XXXVIII, 8</cite> <cite ref=\"M00844\"><he>מִחְזְיָת</he></cite>. ed. Berl. (oth. ed. <he>מֶחֶזְיָית</he>, <cite ref=\"M00844\"><he>מֶחֶזְיַת</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>show</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:1:2\">Cant. R. to VII, 1</cite> <he>ואתון אינון מַחְזִיתֵיה דעלמא</he> and you shall be the admiration of the world."
+			],
+			"label": "2"
+		}
+	]
+}

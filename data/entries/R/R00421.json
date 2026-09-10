@@ -1,0 +1,23 @@
+{
+	"id": "R00421",
+	"slug": "ציפיא",
+	"headword": {
+		"text": "צִיפְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00672\"><he>צָפָה</he></cite>; cmp. Syr. <he>צפיותא</he>, P. Sm. 3429) <i>clearness, the liquid parts of honey cells</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 48b:16\">Sot. 48ᵇ</cite> <he>דבש הבא מן הצ׳</he> the honey which comes from the inner portions of the cells (= <he>נופת צופים</he>), v. <cite ref=\"N00396\"><he>נוֹפֶת</he></cite>; Y. ib. IX, 24ᵇ bot. <he>דבש הבא בצִפְיָיה</he> honey which comes in a state of clearness."
+			]
+		}
+	]
+}

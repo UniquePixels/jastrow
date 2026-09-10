@@ -1,0 +1,67 @@
+{
+	"id": "U01380",
+	"slug": "שלק-1",
+	"headword": {
+		"text": "שָׁלַק"
+	},
+	"page": {
+		"number": 1588,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <he>חלק</he>, as <he>שנק</he> of <he>חנק</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. Assyr. <he>שלק</he>, Del. Assyr. Handw. 666) <i>to dissect</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45a:17\">Bekh. 45ᵃ</cite> <he>מעשה … שׁשָׁלְקוּ זונה וכ׳</he> it happened that the disciples of R. Yishm. dissected the body of a prostitute that had been condemned to death &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to make smooth,</i>] <i>to boil thoroughly, boil to a pulp, seethe</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 4:1\">Maasr. IV, 1</cite> <he>הכובש חשׁוֹלֵק וכ׳</he> he who presses, boils, or salts (vegetables, olives &c.) … is bound to give tithes. ",
+				"<cite ref=\"Tosefta Beitsah 2:15\">Tosef. Bets. II, 15</cite> <he>ש׳ הימנו וכ׳</he> if he seethed a small portion of the Passover lamb, contrad. to <cite ref=\"B01359\"><he>בישל</he></cite>. ",
+				"<cite ref=\"Mishnah Nazir 6:9\">Naz. VI, 9</cite> (<cite ref=\"Nazir 45b:10\">45ᵇ</cite>) <he>היה מבשל … או שׁוֹלְקָן</he> Y. ed. a. Bab. (Mish. ed. <he>שְׁלָקָן</he>) having cooked or seethed the peace-offering; a. fr.—Part. pass. <cite ref=\"U01260\"><he>שָׁלוּק</he></cite>; f. <he>שְלוּקָה</he>. Y. ib. 55ᶜ top <he>מתני׳ אמרה הש׳ קרוי מבושל</he> this Mishnah indicates that ‘seethed’ is called cooked. ",
+				"<cite ref=\"Mishnah Nedarim 6:1\">Ned. VI, 1</cite> <he>הנודר מן המבושל מותר בצלי ובש׳</he> he who vows abstinence from ‘what is cooked’ is permitted to eat what is roasted or seethed. ",
+				"<cite ref=\"Mishnah Oktzin 2:6\">Ukts. II, 6</cite> <he>ביצה ש׳</he> a hard-boiled egg; <cite ref=\"Tosefta Uktsin 2:15\">Tosef. ib. II, 15</cite>; <he>ביצה ש׳ וביצה טרמיסא</he> (read: <cite ref=\"I00726\"><he>טרומיטא</he></cite>) a hard-boiled egg, or an egg boiled down to a pill, v. <cite ref=\"I00726\"><he>טְרוֹמִיטָא</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁילֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to make smooth</i>, (of melons) <i>to trim and rub</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:5\">Maasr. I, 5</cite> <he>אבטיח משׁיְשַׁלֵּק</he> melons are subject to tithes as soon as the gardener trims them; <he>ואם אינו מְשַׁלֵּק וכ׳</he> and if he does not trim them (before storing) &c.; Tosef. ib. I, 6 <he>תורמין … אע״פ שלא ש׳</he> you must give T’rumah of cucumbers and gourds, even if you do not trim them; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to boil</i>. Tanḥ. Bresh. 7 <he>אין לך … ואתה שוקד לשַׁלְּקוֹ וכ׳</he> there is nothing more bitter than the lupine, but thou takest pains to boil and sweeten it &c. Tanḥ. Vaëra 14 <he>נקבץ ונְשַׁלֵּק מהן</he> we will collect them (the locusts) and boil (and preserve) them in casks.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִשְׁלַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be boiled</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 11:8\">Neg. XI, 8</cite> <he>השתי משׁיִשָּׁלֵק</he> warp is susceptible of uncleanness when it is boiled (Var. <he>משׁיִשָּׁלֶה</he> when it is taken out of the water); Sifra Thazr., Neg., Par. 5, ch. XIII."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "M01036",
+	"slug": "מטעה",
+	"headword": {
+		"text": "מַטָּעָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַטַּעַת"
+		}
+	],
+	"page": {
+		"number": 769,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"M01035\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite>, beg.; <cite ref=\"Midrash Tehillim 118:10\">Midr. Till. to Ps. CIV, 16</cite> <he>ישבעון מַטָּעֲתָן</he> they (the cedars) shall enjoy their transplantation. ",
+				"<cite ref=\"Bereishit Rabbah 30\">Gen. R. s. 30</cite> <he>מַטָּעַת כרמים</he> plantation of vineyards. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:3:3\">Cant. R. to II, 3</cite> <he>כמטעת של כרם</he> (prob. <he>כמַטָּעוֹת</he> pl.) like the rows of plants in a vineyard. Midr. Sam. ch. XXVIII <he>מַטָּעָתָךְ מהיכן היא</he> whence is thy origin?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cultivated state</i>, opp. <cite ref=\"H00457\"><he>חורבן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:6:4\">Y. Kil. IV, end, 29ᶜ</cite> <he>יותר ממַטָּעָתוֹ</he> more than when it is cultivated. Midr. Sam. ch. XXV <he>שהיה רואה מטעת שלו נקצצת וכ׳</he> he saw his (Saul’s) plantation cut down (his descendants put to death, v. ",
+				"<cite ref=\"II Samuel 21\">II Sam. ch. XXI</cite>), and did not worry about it &c.; <cite ref=\"Yalkut Shimoni on Nach 765:3\">Yalk. Ps. 765</cite> <he>מעיל</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

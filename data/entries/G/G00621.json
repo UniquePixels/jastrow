@@ -1,0 +1,24 @@
+{
+	"id": "G00621",
+	"slug": "זפק-1",
+	"headword": {
+		"text": "זֶפֶק"
+	},
+	"page": {
+		"number": 408,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זפק</he>, cmp. <cite ref=\"O01402\"><he>ספק</he></cite>, <cite ref=\"U01796\"><he>שׂפק</he></cite>; cmp. <cite ref=\"A01482\"><he>אִיסְפְּקָא</he></cite>) <i>bird’s crop</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:4\">Ḥull. III, 4</cite>. ",
+				"<cite ref=\"Mishnah Chullin 3:6\">Ib. 6</cite> (one of the signs of clean birds). ",
+				"<cite ref=\"Eichah Rabbah 4:18\">Lam. R. to IV, 15</cite> <he>ז׳ של תרנגולת</he>, v. <cite ref=\"U01375\"><he>שַׁלְפּוּחִית</he></cite>."
+			]
+		}
+	]
+}

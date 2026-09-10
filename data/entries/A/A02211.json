@@ -1,0 +1,28 @@
+{
+	"id": "A02211",
+	"slug": "אנטרדוס",
+	"headword": {
+		"text": "אַנְטַרְדּוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְטַרְדָּס"
+		}
+	],
+	"page": {
+		"number": 84,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Ἀντάραδος) <i>Antaradus</i>, a Syrian town opposite the Isle of Aradus. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 3:2:5\">Y. Bets. III, 62ᵃ</cite> top. Y. Sabb. I, 4ᵃ bot. <cite ref=\"A02180\"><he>אנטייריס</he></cite> (corr. acc.).—Cmp. <cite ref=\"P01028\"><he>עַנְתּוּרְדַּיָּא</he></cite>.—Deriv. <cite ref=\"A02213\"><he>אַנְטְרִידָנָאֵי</he></cite> <i>inhabitants of Ant</i>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 10:18\">Targ. Y. II, Gen. X, 18</cite>."
+			]
+		}
+	]
+}

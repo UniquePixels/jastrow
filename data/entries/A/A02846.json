@@ -1,0 +1,44 @@
+{
+	"id": "A02846",
+	"slug": "אפתא-2",
+	"headword": {
+		"text": "אַפְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 109,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02151\"><he>פתי</he></cite>) <i>extension, width</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": " (archit.) <i>a chamber</i> or <i>wing projecting from a building</i> (with stairs from outside), <i>balcony-chamber</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 61a:2\">B. Bath. 61ᵃ</cite> (explain. <cite ref=\"J00532\"><he>יציע</he></cite>). ",
+				"<cite ref=\"Chullin 92a:20\">Ḥull. 92ᵃ</cite> <he>ב״כ דתותי א׳</he> a synagogue named ‘under the balcony’."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (bot.) <i>stole, tuber</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite>, end <he>כהדא א׳ דקרא וכ׳</he> like that tuber of cabbage, the larger the latter grows, the smaller gets the former."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " pl. <cite ref=\"Q02152\"><he>אַפְתֵּי</he></cite>, only with <cite ref=\"T00838\"><he>רַמְשָׁא</he></cite>, <i>spreading of night, nightfall</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:1:3\">Y. Ab. Zar. I, beg. 39ᵃ</cite>. Y. Bath. II, end, 13ᶜ. ",
+				"<cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite>; <cite ref=\"Kohelet Rabbah 2:20\">Koh. R. to II, 20</cite>.—<he>בפתי רמשא</he> = <he>בא׳ ר׳</he>. Y. Ab. Zar. l. c.; <cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

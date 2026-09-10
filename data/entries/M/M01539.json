@@ -1,0 +1,22 @@
+{
+	"id": "M01539",
+	"slug": "מלטט",
+	"headword": {
+		"text": "מַלְטֵט"
+	},
+	"page": {
+		"number": 789,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"M01535\"><he>מֶלֶט</he></cite>, fr. <cite ref=\"L00236\"><he>לוט</he></cite> or <cite ref=\"L00386\"><he>לטט</he></cite> <i>to wrap, cover</i>; cmp. Syr. <he>מלט</he> P. Sm. 2136) <i>frame</i> or <i>casing</i> around the beam-rest in the wall (corresp. to <cite ref=\"M01482\"><he>מַלְבֵּן</he></cite>).—Pl. <he>מַלְטֵטִין</he>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 67a:1\">B. Kam. 67ᵃ</cite> (expl. <he>צלעות</he>, <cite ref=\"Ezekiel 41:26\">Ez. XLI, 26</cite>) <he>מ׳</he> (Ms. M. <he>מלטוסין</he>; Ms. H. <he>מלוטסין</he>, Ms. R. <he>מִלְטִין</he>), v. <cite ref=\"E00426\"><he>הִימְלְטָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "K00482",
+	"slug": "כיבוד",
+	"headword": {
+		"text": "כִּיבּוּד"
+	},
+	"page": {
+		"number": 630,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00030\"><he>כָּבֵד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>doing honor to; respect, reverence</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 1:1\">Peah I, 1</cite> <he>כ׳ אב ואם</he> filial respect. Sifra K’dosh. beg.; <cite ref=\"Kiddushin 31b:2\">Kidd. 31ᵇ</cite>, a. e. (ref. to <cite ref=\"Leviticus 19:3\">Lev. XIX, 3</cite>, a. ",
+				"<cite ref=\"Exodus 20:12\">Ex. XX, 12</cite>) <he>איזהו מורא ואיזהו כ׳</he> what constitutes filial fear (reverence), and what filial respect?—",
+				"<cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23—24</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 1:7:7\">Y. Kidd. I, 61ᵇ</cite> top <he>אדיין לחצי הכ׳ וכ׳</he> he has not come up yet to half of the filial duties which the Law implies; a. fr.—2) <i>sweeping, cleansing</i>. ",
+				"<cite ref=\"Mishnah Niddah 7:2\">Nidd. VII, 2</cite> (<cite ref=\"Niddah 56a:68\">56ᵃ</cite>) <he>עד שעת כִּבּוּד</he> up to the time of sweeping; <cite ref=\"Niddah 3a:24\">Nidd. 3ᵃ</cite> <he>עד שעת הכי׳</he>. ",
+				"<cite ref=\"Tractate Semachot 11:3\">Treat. S’maḥ. ch. XI</cite>; a. e.—Pl. <he>כִּיבּוּדִים</he>, <he>כִּבּ׳</he>. ",
+				"<cite ref=\"Niddah 56b:14\">Nidd. 56ᵇ</cite> <he>בשעת כִּבּוּדֵיהֶם</he> when they are being swept."
+			],
+			"label": "1"
+		}
+	]
+}

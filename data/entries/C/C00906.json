@@ -1,0 +1,22 @@
+{
+	"id": "C00906",
+	"slug": "גלוסטראה",
+	"headword": {
+		"text": "גְּלוּסְטְרָאָה"
+	},
+	"page": {
+		"number": 246,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00905\">preced.</cite>) <i>locksmith</i> (claustrarius). ",
+			"units": [
+				"<cite ref=\"Berakhot 22a:24\">Ber. 22ᵃ</cite> R. Yehudah <cite ref=\"C00905\"><he>גלוסטרא</he></cite> (corr. acc., Ms. M. <he>קלסתראה</he>, Yoḥăsin Completum p. 148ᵇ <he>קְלוּסְטְרָאָה</he>)."
+			]
+		}
+	]
+}

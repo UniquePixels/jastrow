@@ -1,0 +1,27 @@
+{
+	"id": "U00848",
+	"slug": "שיזוגא",
+	"headword": {
+		"text": "שִׁיזּוּגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁזּ׳"
+		}
+	],
+	"page": {
+		"number": 1559,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00593\"><he>שְׁזַג</he></cite>) <i>washing, rinsing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 60:10\">Targ. Ps. LX, 10</cite> (ed. Wil. <cite ref=\"U00595\"><he>שְׁזוּ׳</he></cite>); <cite ref=\"Aramaic Targum to Psalms 108:10\">CVIII, 10</cite>."
+			]
+		}
+	]
+}

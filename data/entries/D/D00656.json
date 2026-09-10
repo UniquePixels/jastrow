@@ -1,0 +1,42 @@
+{
+	"id": "D00656",
+	"slug": "דיסקא",
+	"headword": {
+		"text": "דִּיסְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּסְקָא"
+		}
+	],
+	"page": {
+		"number": 302,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (δίσκος) <i>disc</i> (always used in the sense of <i>tabula, tabella</i>), ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tablet</i>.—Pl. <he>דִּיסְקֵי</he>. ",
+			"units": [
+				"<cite ref=\"Menachot 40a\">Men. 40ᵃ</cite> <he>ליכתביה אד׳</he> (Rashi <he>אדיסקי׳</he>, Ms. R. 2 a. K. <cite ref=\"A03173\"><he>אר׳</he></cite>) let it be published on public tablets (inscriptions; comment.: in official letters from Palestine to Babylon, v. infra)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>official document, letter</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 112b:7\">B. Kam. 112ᵇ</cite> <he>נקיט ד׳ מב״ד וכ׳</he> (M. M. <cite ref=\"T00664\"><he>ריסקא</he></cite>, v. Rabb. D. S. a. l. note) he held a letter from the Supreme Court (authorizing him to take depositions of witnesses). ",
+				"<cite ref=\"Kiddushin 70a\">Kidd. 70ᵃ</cite> <he>ד׳ דזמינותא</he> Ar. (ed. <he>פיתקא דהזמנא</he>, <cite ref=\"Q00766\"><he>פיסקא</he></cite>) summons to appear before court. Ib.ᵇ, v. <cite ref=\"D00939\"><he>דַּסְקָא</he></cite>.—Pl. <he>דִּיסְקֵי</he>. ",
+				"<cite ref=\"Menachot 40a\">Men. 40ᵃ</cite>, v. supra. ",
+				"<cite ref=\"Gittin 36a\">Gitt. 36ᵃ</cite> their signatures in the shape of figures (as a fish, bough &c.) were known to the public <he>בדסקי</he> (Rashi <he>בדיס׳</he>, Ar. <he>בדייס׳</he>) by the official letters which they issued. Ib. 88ᵃ <he>רב בדי׳ וכ׳</he> (Ar. <he>בדיי׳</he>) Rab put his signature sideways only in official letters.—[<he>דיסקאות</he>, v. <cite ref=\"D00659\"><he>דִּיסַקְיָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

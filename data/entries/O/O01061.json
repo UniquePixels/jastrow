@@ -1,0 +1,22 @@
+{
+	"id": "O01061",
+	"slug": "סמדרקוס",
+	"headword": {
+		"text": "סְמַדְרְקוֹס"
+	},
+	"page": {
+		"number": 998,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transpos. of σαμάρδακος) <i>buffoon, quack</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 46\">Ex. R. s. 46</cite> <he>בן ארכיאטרוס שפגע בס׳ וכ׳</he> the son of a chief physician who met a quack and addressed him Lord, master, father."
+			]
+		}
+	]
+}

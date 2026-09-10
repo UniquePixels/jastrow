@@ -1,0 +1,43 @@
+{
+	"id": "V00578",
+	"slug": "תלוי",
+	"headword": {
+		"text": "תְּלוֹי"
+	},
+	"page": {
+		"number": 1670,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00576\"><he>תָּלָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hanger, handle, cord, chain</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:2\">Sabb. VIII, 2</cite> (<cite ref=\"Shabbat 78a:9\">78ᵃ</cite>) <he>גמי כדי לעשות ת׳ וכ׳</he> Ar. a. Mish. ed. Pes. (v. Rabb. D. S. a. l. note 400; ed. <cite ref=\"V00569\"><he>תְּלָאי</he></cite>) as much reed grass as is required for the making of a hanger for a sieve &c. ",
+				"<cite ref=\"Mishnah Eduyot 3:9\">Eduy. III, 9</cite>; <cite ref=\"Mishnah Kelim 12:6\">Kel. XII, 6</cite>; <cite ref=\"Tosefta Keilim Metsia 2:12\">Tosef. Kel. B. Mets. II, 12</cite> <he>ת׳ המגררות וכ׳</he> the chain on which the strigils in the bathhouse are suspended. ",
+				"<cite ref=\"Mishnah Kelim 15:4\">Kel. XV, 4</cite> <he>ת׳ מקל וכ׳</he> the handle of the constable’s staff. ",
+				"<cite ref=\"Mishnah Kelim 15:4\">Ib.</cite> <he>העשוי לת׳ טהור</he> whatever is made for suspending or handling is not susceptible of uncleanness; a. fr.—Pl. <he>תְּלוֹיִים</he>, <he>תְּלוֹיִין</he>, <he>תְּלוֹיוֹת</he>. ",
+				"<cite ref=\"Mishnah Kelim 15:4\">Ib.</cite> <he>כל התלויים … חוץ מתְּלוֹיֵי וכ׳</he> ed. Dehr. (Bab. ed. <he>התלויות תלוי</he>; Mish. ed. <he>התְּלוֹיִם</he>) all hangers or handles are clean except those of &c.; <cite ref=\"Tosefta Keilim Metsia 5:6\">Tosef. Kel. B. Mets. V, 6</cite> <he>התלויין</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hanging down, letting hang down</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 624\">Yalk. Ps. 624</cite>, v. <cite ref=\"E00876\"><he>הֲרָמָה</he></cite>; [Pesik. Shek., p. 10ᵇ; <cite ref=\"Midrash Tehillim 3:5\">Midr. Till. to Ps. III; Yalk. Ex. 3</cite><cite ref=\"Yalkut Shimoni on Torah 365:1\">Yalk. Ex. 365</cite> <he>ת׳ ראש</he> <i>lifting up</i> the head, <he>הרמת ראש</he> <i>removal</i> of the head]."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>hanging over</i>,] <i>interlinear writing</i>. Tosef. Gitt. IX (VII), 8 <he>שטר … ת׳ מגופו וכ׳</he> a document which has an erasure or an interlinear insertion in its body (essential portion, v. <cite ref=\"V00312\"><he>תּוֹרֵף</he></cite>) is unlawful; Y. ib. IX, 50ᶜ <cite ref=\"V00583\"><he>תלות</he></cite> (corr. acc.).",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

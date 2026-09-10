@@ -1,0 +1,23 @@
+{
+	"id": "A02441",
+	"slug": "אסיסנא",
+	"headword": {
+		"text": "אֲסִיסְנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 93,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (redupl. of <he>אסן</he>) <i>granary, storehouse</i>. Pl. <he>אֲסִיסְנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Pesachim 4a:4\">Pes. 4ᵃ</cite> <he>אכיף ימא א׳ ביראתא</he> on the sea-shore granaries are palaces. [Oth. opin., taking <cite ref=\"A02441\"><he>אסיסנא</he></cite> fr. <cite ref=\"A02473\"><he>אסס</he></cite>, cmp. <he>אשש</he>, <i>I would establish</i> (build) palaces. Oth. opin., reading <he>אסנא</he> or taking our w. to be = <cite ref=\"A02468\"><he>אַסְנָא</he></cite>, at the sea-shore <i>thorn-bushes</i> (a thorn-bush) pass(es) for cypresses (a cypress); v. <he>ברותא</he>.] [<cite ref=\"Gittin 69a\">Gitt. 69ᵃ</cite>, v. <cite ref=\"O00760\"><he>סִיסָנָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M00581",
+	"slug": "מוקד-1",
+	"headword": {
+		"text": "מוֹקֵד"
+	},
+	"page": {
+		"number": 747,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00556\"><he>יָקַד</he></cite>)<i>fire-place, hearth where fire is maintained</i>.—<he>בית המ׳</he> the room (in the Temple) in which fire is perpetually maintained. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 1:1\">Tam. I, 1</cite>; <cite ref=\"Mishnah Middot 1:1\">Midd. I, 1</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Shabbat 1:11\">Sabb. I, 11</cite> (<cite ref=\"Shabbat 19b:6\">19ᵇ</cite>) <he>מדורת בית מ׳</he> the pile in the fire-room (in the Temple or in private houses)."
+			]
+		}
+	]
+}

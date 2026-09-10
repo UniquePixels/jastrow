@@ -1,0 +1,30 @@
+{
+	"id": "S00533",
+	"slug": "קוץ-8",
+	"headword": {
+		"text": "קוּץ",
+		"homograph": 4
+	},
+	"page": {
+		"number": 1339,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הֵקִיץ</he> <i>to awake</i>, v. <cite ref=\"S01115\"><he>קִיץ</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

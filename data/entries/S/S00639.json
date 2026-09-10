@@ -1,0 +1,27 @@
+{
+	"id": "S00639",
+	"slug": "קורקא",
+	"headword": {
+		"text": "קוּרְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְ׳"
+		}
+	],
+	"page": {
+		"number": 1344,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (perh. a corrupt. of <he>קורדקא</he>, v. <cite ref=\"S00583\"><he>קוּרְדְּקִין</he></cite>) a <i>shoe</i> made entirely of goats’ hair or of cloth, <i>slipper</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 102b:7\">Yeb. 102ᵇ</cite> <he>ההוא קו׳ מקרי</he> Rashi (ed. <cite ref=\"S02158\"><he>קרקא</he></cite>) such a shoe has the special name of ḳurḳa (and is not included in <he>נעל</he> or <he>מנעול</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "I00296",
+	"slug": "טיב-3",
+	"headword": {
+		"text": "טִיב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טִיבָּא"
+		},
+		{
+			"text": "טִיבָא"
+		}
+	],
+	"page": {
+		"number": 529,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00028\"><he>טבב</he></cite>, cmp. <cite ref=\"D00038\"><he>דָּבַב</he></cite>, <cite ref=\"D00465\"><he>דִּיבָּה</he></cite>) <i>murmuring, rumor</i>, (<i>evil</i>) <i>report</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:2\">Targ. O. Gen. XXXVII, 2</cite> <he>טִיבְּהוֹן</he> ed. Berl. (oth. ed. <he>דִּבְּ׳</he>; Y. <he>טִיבֵיהוֹן</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:18\">Targ. Prov. X, 18</cite> <he>טיבא</he> ed. Lag. (some ed. <cite ref=\"I00021\"><he>טָבָא</he></cite>, read <cite ref=\"I00300\"><he>טִבָּ׳</he></cite>); a. fr.—[<cite ref=\"Targum Jonathan on Genesis 34:30\">Targ. Y. Gen. XXXIV, 30</cite> <cite ref=\"I00378\"><he>טימי</he></cite>, Var. <he>שׁמי</he>, read <he>טִיבִּי</he>.]"
+			]
+		}
+	]
+}

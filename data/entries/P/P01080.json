@@ -1,0 +1,22 @@
+{
+	"id": "P01080",
+	"slug": "עפרורית",
+	"headword": {
+		"text": "עַפְרוּרִית"
+	},
+	"page": {
+		"number": 1100,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01079\">preced.</cite>) <i>sandy matter</i> in grain. ",
+			"units": [
+				"<cite ref=\"Bava Batra 93b:15\">B. Bath. 93ᵇ</cite> <he>וע׳ לא</he> but sand (as an admixture) need he not accept? <cite ref=\"Bava Batra 94a:3\">Ib. 94ᵃ</cite> <he>עדשים … רובע ע׳ לסאה</he> the purchaser of lentils must accept one fourth of a Kab of sand for each S’ah; a. e."
+			]
+		}
+	]
+}

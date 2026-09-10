@@ -1,0 +1,38 @@
+{
+	"id": "V00639",
+	"slug": "תלתל",
+	"headword": {
+		"text": "תַּלְתַּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּלְתַּלִּים"
+		}
+	],
+	"page": {
+		"number": 1674,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <he>תָּלַל</he>)<i>curls, locks</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 9b:5\">Ned. 9ᵇ</cite>, a. e., v. <cite ref=\"S00265\"><he>קְווּצּוֹת</he></cite>; (<cite ref=\"Bamidbar Rabbah 10:7\">Num. R. s. 10<sup>7</sup></cite> <he>תלים תלים</he>; <cite ref=\"Jerusalem Talmud Nedarim 1:1:14\">Y. Ned. I, 36ᵈ</cite> bot. <he>תילי תילים</he>, v. <cite ref=\"V00563\"><he>תֵּל</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"V00563\"><he>תֵּל</he></cite>) <i>mounds, piles</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19:2\">Lev. R. s. 19</cite>, beg. (ref. to <cite ref=\"Song of Songs 5:11\">Cant. V, 11</cite>) <he>ת׳ במי הן מתקיימות וכ׳</he> (the strokes on the top of letters in the Torah contain) piles (of ideas): by whom are they upheld? By him who studies morning and evening, v. <cite ref=\"P01244\"><he>עָרַב</he> II</cite>. ",
+				"<cite ref=\"Song of Songs 5:11\">Ib.</cite> <he>תַּלְתַּלֵּי ת׳</he>, v. <cite ref=\"S00534\"><he>קוֹץ</he> I</cite>; Midr. Sam. ch. V <he>תל תלתלי תלים</he> (corr. acc.); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>warts</i>, v. <cite ref=\"V00629\"><he>תִּלְתּוּל</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

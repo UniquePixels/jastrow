@@ -1,0 +1,35 @@
+{
+	"id": "A01365",
+	"slug": "אין-6",
+	"headword": {
+		"text": "אִין",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶן"
+		}
+	],
+	"page": {
+		"number": 52,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(h. <cite ref=\"A01960\"><he>אִם</he></cite>)<i>if, whether</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 7:4\">Targ. Ps. VII, 4</cite>; a. e. [Apocopated: <cite ref=\"A01113\"><he>אִי</he></cite> q. v.]—<he>אין תימר</he> (h. <he>אם תאמר</he>) if thou wilt say (argue). Y. Macc. II, 31ᵈ bot.; a. fr.—<he>אין כיני</he> (h. <he>אם כן היא</he>) if this is (be) the case. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 6:1:6\">Y. Naz. VI, 54ᵈ</cite> bot.—Lam. R. introd. end <he>אן את יתיב וכ׳</he> if thou remainest here, or &c. ",
+				"<cite ref=\"Kohelet Rabbah 10:5:1\">Koh. R. to X, 5</cite> <he>אן אתת ענתה וכ׳</he> if the (my dying) time comes first, what of it? and if &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " adv. of interrogation, introducing the alternative, <i>or</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:6\">Targ. Job VI, 6</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

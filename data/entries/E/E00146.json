@@ -1,0 +1,47 @@
+{
+	"id": "E00146",
+	"slug": "הדק-3",
+	"headword": {
+		"text": "הֲדַק"
+	},
+	"page": {
+		"number": 334,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הַדֵּיק</he> <cite ref=\"E00145\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 141a:17\">Sabb. 141ᵃ</cite> <he>לא לִיהֲדוֹק וכ׳</he> one must not squeeze cotton into the mouth of a bottle (as a stopper). ",
+						"<cite ref=\"Shabbat 125b:4\">Ib. 125ᵇ</cite> <he>דהַדְּקָהּ</he>, v. <cite ref=\"H00206\"><he>חֲדַק</he></cite>; a. fr.—",
+						"<cite ref=\"Bava Kamma 85b\">B. Kam. 85ᵇ</cite> <he>דהַדְּקֵיח</he>, v. <cite ref=\"E00850\"><he>הַרְזֵיק</he></cite>.—<i>Part. pass.</i> <he>מְהַדַּק</he>, v. infra."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיהֲדַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be squeezed in, rabbeted</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 65a:6\">Sabb. 65ᵃ</cite> <he>הא דמִיהֲדַק</he> ed. (Ar. <he>מְהַדַּק</he>, v. supra) in the one case it means that it is squeezed into the ear. ",
+						"<cite ref=\"Pesachim 109b\">Pes. 109ᵇ</cite> <he>הַדּוּקֵי חוח מיהדק</he> the parts of the table were rabbeted. ",
+						"<cite ref=\"Avodah Zarah 31a:10\">Ab. Zar. 31ᵃ</cite> <he>דיקולא ומי׳</he> a basket squeezed over the wine casket."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

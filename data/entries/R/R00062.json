@@ -1,0 +1,31 @@
+{
+	"id": "R00062",
+	"slug": "צבעא-3",
+	"headword": {
+		"text": "צִבְעָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1259,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>צְבַע</he> I) <i>finger, toe, fang</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:13\">Targ. Y. Lev. XI, 13</cite> <he>צ׳ יתירא</he> (v. <cite ref=\"A02852\"><he>אֶצְבַּע</he></cite>); <cite ref=\"Deuteronomy 14:11\">Deut. XIV, 11</cite>.—Pl. <he>צִבְעָתָא</he>, <cite ref=\"R00030\"><he>צִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 144:1\">Targ. Ps. CXLIV, 1</cite> Ms. (ed. <he>אצבעת׳</he>, <he>אצבעות׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:3\">Targ. Prov. VII, 3</cite> Ms. (ed. <he>אצב׳</he>)."
+			]
+		}
+	]
+}

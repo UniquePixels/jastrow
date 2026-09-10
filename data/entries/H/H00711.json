@@ -1,0 +1,31 @@
+{
+	"id": "H00711",
+	"slug": "חיטייא",
+	"headword": {
+		"text": "חִיטַּיָּיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפַר חִיטַּיָּיא"
+		}
+	],
+	"page": {
+		"number": 453,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>K’far Ḥittaya</i>, near Tiberias (<i>Ḥattin</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:1:4\">Y. Meg. I, 70ᵃ</cite> (expl. <he>הצדים</he>, <cite ref=\"Joshua 19:35\">Josh. XIX, 35</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite> <he>כ׳ חטיאה</he>. ",
+				"<cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite> <cite ref=\"H00632\"><he>חִטַּיָּיה</he></cite>; Pesik. Eth Korb., p. 61ᵃ <he>חטייא</he>. ",
+				"<cite ref=\"Chagigah 5b:19\">Ḥag. 5ᵇ</cite>"
+			]
+		}
+	]
+}

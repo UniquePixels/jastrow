@@ -1,0 +1,28 @@
+{
+	"id": "D00847",
+	"slug": "דלס",
+	"headword": {
+		"text": "דֶּלֶס"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּלוּס"
+		},
+		{
+			"text": "דָּלִיס"
+		}
+	],
+	"page": {
+		"number": 310,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דלל</he>; cmp. Samaritan <he>דלס דלס</he> <cite ref=\"Genesis 21:23\">Gen. XXI, 23</cite>, Arab. <i>dallasa</i>) <i>adulteration, fraud</i>. V., however, <cite ref=\"D00843\"><he>דֶּלֶם</he></cite>. [V. Fränkel Aram. Fremdw. p. 188.]",
+			"units": []
+		}
+	]
+}

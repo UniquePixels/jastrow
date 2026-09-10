@@ -1,0 +1,23 @@
+{
+	"id": "M02515",
+	"slug": "מרגזייה",
+	"headword": {
+		"text": "מַרְגְּזַיָּיה"
+	},
+	"page": {
+		"number": 835,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (transpos. of <he>מגזר׳</he>; <cite ref=\"C00574\"><he>גְּזַר</he></cite>) <i>mincing knives, meat-chopper</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:28\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>כד מכתת במ׳</he> when he chops (meat &c. for sausages) with the chopper, v. <cite ref=\"B00079\"><he>בגומא</he></cite>."
+			]
+		}
+	]
+}

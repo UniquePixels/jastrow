@@ -1,0 +1,87 @@
+{
+	"id": "N00250",
+	"slug": "נהג-1",
+	"headword": {
+		"text": "נָהַג"
+	},
+	"page": {
+		"number": 880,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to drive</i> an animal,] <i>to lead, conduct; to demean one’s self; to be guided by, be wont to; to apply, be practiced</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 103b:22\">Keth. 103ᵇ</cite> <he>נְהוֹג</he>, v. <cite ref=\"D00897\"><he>דָּמִים</he></cite>. ",
+				"<cite ref=\"Mishnah Chullin 7:1\">Ḥull. VII, 1</cite> <cite ref=\"N00318\"><he>נוֹהֵג</he></cite>, v. <cite ref=\"C00626\"><he>גִּיד</he></cite>. Sifra Tsav, Par. 11, ch. XVIII <he>שיִנְהוֹג הדבר לדורות</he> which intimates that this order should be preserved at all times. ",
+				"<cite ref=\"Mishnah Pesachim 4:1\">Pes. IV, 1</cite> <he>מקום שנָהֲגוּ וכ׳</he> where it is a local usage to &c. ",
+				"<cite ref=\"Megillah 6b:15\">Meg. 6ᵇ</cite> <he>כל מצות שנוֹהֲגוֹת בשני וכ׳</he> all laws that apply to the second (Adar) apply also to the first. ",
+				"<cite ref=\"Megillah 5b:11\">Ib. 5ᵇ</cite>, a. e. <he>דברים … ואחרים נָהֲגוּ בהן איסור</he> things which are permitted, but which some treat as forbidden; a. v. fr.—<he>נ׳ כבוד</he>, v. <cite ref=\"K00037\"><he>כָּבוֹד</he></cite>.—(<he>ראש</he>) <he>נ׳ קלות</he>, v. <cite ref=\"S01300\"><he>קַלּוּת</he></cite>.—",
+				"<cite ref=\"Avodah Zarah 54b:3-14\">Ab. Zar. 54ᵇ</cite> <he>עולם … נוהג</he>, v. <cite ref=\"M01727\"><he>מִנְהָג</he></cite>.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 764:4\">Yalk. Num. 764</cite> <he>נ׳ שמנים וכ׳</he> he applied oils and baths."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִנְהִיג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00249\">same</cite>, esp. ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to drive, direct; to take possession of an animal by driving</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kilayim 8:2\">Kil. VIII, 2</cite> <he>להַנְהִיג</he>, v. <cite ref=\"M02892\"><he>מָשַׁךְ</he></cite>. ",
+						"<cite ref=\"Mishnah Kilayim 8:3\">Ib. 3</cite> <he>המַנְהִיג</he> the driver of heterogeneous animals. ",
+						"<cite ref=\"Mishnah Bava Metzia 1:2\">B. Mets. I, 2</cite> <he>אחד רוכב ואחד מנהיג</he> one rode (the animal that was found), and the other directed it (by leading). ",
+						"<cite ref=\"Bava Metzia 8b:3\">Ib. 8ᵇ</cite> <he>רכוב במקום מנהיג</he> the rights of the driver as against those of the leader. ",
+						"<cite ref=\"Bava Metzia 8b:12\">Ib.</cite> <he>במנהיג ברגליו</he> when the rider drives by means of his heels. ",
+						"<cite ref=\"Bava Metzia 8b:12\">Ib.</cite> <he>תרי גווני מנהיג</he> there are two ways of driving; a. fr.—",
+						"<cite ref=\"Mishnah Bava Batra 5:1\">B. Bath. V, 1</cite> <he>ואת כל המַנְהִיגִין אותה</he> and all the implements needed for directing the ship; a. e., v. <cite ref=\"M01730\"><he>מַנְהִיג</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lead, conduct</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 35b:6\">Ber. 35ᵇ</cite> <he>הַנְהֵג בהן דרך ארץ</he> combine with the study of the Law a secular occupation; <cite ref=\"Yalkut Shimoni on Torah 863\">Yalk. Deut. 863</cite> <he>תּנְהוֹג</he>. ",
+						"<cite ref=\"Sanhedrin 92a:6\">Snh. 92ᵃ</cite> <he>כל פרנס שמנהיג … ומַנְהִיגָם וכ׳</he> a manager that leads a community with gentleness, will be privileged to lead it in the days to come (of resurrection); a. fr.—",
+						"<cite ref=\"Tosefta Beitsah 2:15\">Tosef. Bets. II, 15</cite> <he>ה׳ את בני רומי וכ׳</he> made it a custom among the Jews in Rome &c.—<he>ה׳ עצמו ברבנות</he> to assume airs of superiority. ",
+						"<cite ref=\"Sotah 13b\">Sot. 13ᵇ</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["מִתְנַהֵג"],
+			"senses": [
+				{
+					"gloss": "<i>to conduct one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 323:1\">Sifré Deut. 323</cite> <he>הִתְנַהֲגוּ זה את זה וכ׳</he> conduct yourselves towards one another in charity; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be conducted</i>. Y. B. Kam. VI, 5ᶜ top <he>רוח שהעולם מִתְנַהֵג בו</he> a wind by which the world is maintained, i.e. an ordinary wind, opp. <he>של אונסים</he> a calamitous wind (Bab. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 60a\">ib. 60ᵃ</cite> <he>רוח מצויה</he>, v. <cite ref=\"M02262\"><he>מָצָא</he></cite>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to move</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 66:2\">Gen. R. s. 66</cite> <he>מתנהג בה וכ׳</he> moves with her (Israel) from tent to tent.—V. <cite ref=\"N00318\"><he>נוֹהַג</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

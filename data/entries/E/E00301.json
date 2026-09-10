@@ -1,0 +1,22 @@
+{
+	"id": "E00301",
+	"slug": "הזמנא",
+	"headword": {
+		"text": "הַזְמָנָא"
+	},
+	"page": {
+		"number": 342,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00536\"><he>זמן</he></cite>) <i>summons</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 70a:13\">Kidd. 70ᵃ</cite> (<cite ref=\"Q00766\"><he>פיסקא</he></cite>) <he>פיתקא דה׳</he> (Ar. <he>דיסקא דזמינותא</he>) a document containing a summons (to appear before court)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "E00273",
+	"slug": "הורדה",
+	"headword": {
+		"text": "הוֹרָדָה"
+	},
+	"page": {
+		"number": 340,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00597\"><he>יָרַד</he></cite>) <i>leading down, letting down; descent</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 9:6:5\">Y. Sot. IX, 24ᵃ</cite> top <he>משעת ה׳</he> from the moment the calf is led down (<cite ref=\"Deuteronomy 21:4\">Deut. XXI, 4</cite>). ",
+				"<cite ref=\"Mishnah Middot 4:7\">Midd. IV, 7</cite> <he>בית הוֹרָדַת המים</he> (Talm. ed. <he>הוֹרְדוֹת</he> pl.) an enclosure in the Temple serving as a spout for the rain water."
+			]
+		}
+	]
+}

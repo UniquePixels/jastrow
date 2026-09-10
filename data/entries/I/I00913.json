@@ -1,0 +1,24 @@
+{
+	"id": "I00913",
+	"slug": "טשטקי",
+	"headword": {
+		"text": "טַשְׁטְקֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 558,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. [or <cite ref=\"I00913\"><he>טַשְׁטְקִי</he></cite> f. sing.] (= <he>תַּשְׁתְּ׳</he>, <cite ref=\"U01849\"><he>שקי</he></cite>; cmp. <he>טַצְיְּקָא</he>) <i>troughs</i>, or <i>bucket arrangement</i> for pumping water for the boiler. ",
+			"units": [
+				"<cite ref=\"Niddah 68a:4\">Nidd. 68ᵃ</cite> <he>אטו</he> … <he>ט׳ חסרת וכ׳</he> Ar. (ed. omit <cite ref=\"A01073\"><he>אטו</he></cite>) doest thou want boilers? dost thou want buckets? dost thou want slaves? [Rashi: <i>bathing chairs;</i> Tosaf. to <cite ref=\"Niddah 66b\">Nidd. 66ᵇ</cite>, a. v. <he>אם</he>, identifies our w. with <cite ref=\"I00459\"><he>טכטכא</he></cite>; Saadia: <i>combs</i>.]"
+			]
+		}
+	]
+}

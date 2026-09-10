@@ -1,0 +1,28 @@
+{
+	"id": "V00314",
+	"slug": "תורפא-2",
+	"headword": {
+		"text": "תּוֹרְפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוּ׳"
+		}
+	],
+	"page": {
+		"number": 1658,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"V00315\">next w.</cite>; <he>בית ת׳</he> <i>pudenda</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:57\">Targ. Y. Deut. XXVIII, 57</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. Num. XXV, 8</cite>."
+			]
+		}
+	]
+}

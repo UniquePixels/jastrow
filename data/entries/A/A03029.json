@@ -1,0 +1,23 @@
+{
+	"id": "A03029",
+	"slug": "ארוכה-2",
+	"headword": {
+		"text": "אֲרוּכָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 116,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"A03028\"><he>ארוכה</he></cite>, <he>ארכה</he>; <cite ref=\"A03124\"><he>ארך</he></cite> , v. Ges. H. Dict. s. v.) <i>the web of new flesh or skin on a healing wound, healing</i>. <he>העלה א׳</he> <i>to produce a new cover, be restored</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 77a:10\">Ḥull. 77ᵃ</cite>; <cite ref=\"Chullin 125a:15\">125ᵃ</cite>; <cite ref=\"Bava Kamma 91b:11\">B. Kam. 91ᵇ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "O01496",
+	"slug": "סקר-1",
+	"headword": {
+		"text": "סָקַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1021,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"G00655\"><he>זָקַר</he></cite>) <i>to thrust</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to stagger</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 3:6:6\">Cant. R. to III, 6</cite> <he>נִסְקָרִין וכ׳</he>, v. <cite ref=\"B01378\"><he>בַּת</he> II</cite>.—[<cite ref=\"Rosh Hashanah 18a\">R. Hash. 18ᵃ</cite>, v. next w.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

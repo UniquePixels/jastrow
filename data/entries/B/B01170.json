@@ -1,0 +1,43 @@
+{
+	"id": "B01170",
+	"slug": "ברברי-1",
+	"headword": {
+		"text": "בַּרְבָּרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּרְבַּר"
+		}
+	],
+	"page": {
+		"number": 189,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (βάρβαρος, babbler, Curt. Griech. Etym. p. 290) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>foreigner</i> (in a contemptuous sense), <i>barbarian</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 6:13\">Esth. R. to II, 21</cite> <he>הב׳ הזה</he> this barbarian (Mordecai, contrad. to Cœlesyrians as Greeks); Targ. Esth. ",
+				"<cite ref=\"Esther Rabbah 6:13\">ib.</cite> <cite ref=\"B00787\"><he>בכיין</he></cite>.—Pl. <he>בַּרְבְּרִיִּים</he>, <cite ref=\"B01170\"><he>בַּרְבָּרִים</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 20\">Ex. R. s. 20</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 11:7\">Lev. R. s. 11</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an inhabitant of Barbaria</i> (v. <cite ref=\"B01172\"><he>בַּרְבַּרְיָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 60:2\">Gen. R. s. 60</cite> beg. <he>כושי אחד או ב׳ אחד</he> a Cushite or a Barbar; <cite ref=\"Shir HaShirim Rabbah 2:8:2\">Cant. R. to II, 8</cite> (for <cite ref=\"K00424\"><he>כותי</he></cite> read: <cite ref=\"K00402\"><he>כושי</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:1:4\">Y. Succ. V, 55ᵇ</cite> top, v. <cite ref=\"B01171\">next w.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

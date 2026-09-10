@@ -1,0 +1,27 @@
+{
+	"id": "M01341",
+	"slug": "מכא-1",
+	"headword": {
+		"text": "מָכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָאכָא"
+		}
+	],
+	"page": {
+		"number": 780,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>מעכא</he>; <cite ref=\"M02122\"><he>מְעַךְ</he></cite>) <i>crushed, battered</i>.—<he>זוזא מ׳</he> a battered Zuz (which cannot be passed). ",
+			"units": [
+				"<cite ref=\"Shabbat 129a:18\">Sabb. 129ᵃ</cite>; <cite ref=\"Bava Kamma 37a:3\">B. Kam. 37ᵃ</cite> (Ms. M. <he>מא׳</he>); <cite ref=\"Bekhorot 51a:9\">Bekh. 51ᵃ</cite> <he>מא׳</he>."
+			]
+		}
+	]
+}

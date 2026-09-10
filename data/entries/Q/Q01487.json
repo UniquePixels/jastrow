@@ -1,0 +1,23 @@
+{
+	"id": "Q01487",
+	"slug": "פקיסנא",
+	"headword": {
+		"text": "פְּקִיסְנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1209,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <he>מאני דפ׳</he> <i>vessels made of clay and ordure</i> (Rashi). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 33b\">Ab. Zar. 33ᵇ</cite> (some ed. <cite ref=\"Q01465\"><he>פקוסנא</he></cite>; Ms. M. <cite ref=\"Q00323\"><he>פוקסמין</he></cite>; R. Ḥan., thinking of <cite ref=\"Q00816\"><he>פיקסינון</he></cite>: <i>of box-wood</i>; v. Koh. Ar. Compl. s. v.)."
+			]
+		}
+	]
+}

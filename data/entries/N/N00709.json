@@ -1,0 +1,27 @@
+{
+	"id": "N00709",
+	"slug": "ניסל",
+	"headword": {
+		"text": "נִיסֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נֵסֶל"
+		}
+	],
+	"page": {
+		"number": 906,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A02462\"><he>אַסְלָא</he> II</cite>) <i>easy-chair</i>, (<i>royal</i>) <i>armchair</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sanhedrin 4:2\">Tosef. Snh. IV, 2</cite> <he>על נִיסְלוֹ ספסלו</he> (strike out <he>ספסלו</he>, as a gloss; Var. <he>כסאו</he>); Y. ib. II, 20ᶜ bot. (Var. <he>כסאו</he>)."
+			]
+		}
+	]
+}

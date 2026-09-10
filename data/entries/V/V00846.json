@@ -1,0 +1,31 @@
+{
+	"id": "V00846",
+	"slug": "תפף-1",
+	"headword": {
+		"text": "תָּפַף"
+	},
+	"page": {
+		"number": 1689,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", or <cite ref=\"V00254\"><he>תּוּף</he></cite> (b. h.) <i>to join, strike, knock</i>.—Denom. <cite ref=\"V00256\"><he>תּוֹף</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תּוֹפֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to strike the timbrel; to knock</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 38\">Pirké d’R. El. ch. XXXVIII</cite>, beg. [read:] <he>הביא נערות משחקות חוצה לה מְתוֹפְפוֹת בתופים</he> he brought playing girls outside of her (in front of her house) striking the timbrels; <cite ref=\"Yalkut Shimoni on Torah 134\">Yalk. Gen. 134</cite> (not <he>מתופפת</he>)."
+					]
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

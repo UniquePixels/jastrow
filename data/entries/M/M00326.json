@@ -1,0 +1,22 @@
+{
+	"id": "M00326",
+	"slug": "מדרא-1",
+	"headword": {
+		"text": "מִדְרָא"
+	},
+	"page": {
+		"number": 735,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>מִדְרֵי</he> (transpos. of <cite ref=\"M02535\"><he>מרדא</he></cite>; <cite ref=\"J00597\"><he>יָרַד</he></cite>; cmp. <cite ref=\"M00331\"><he>מַדְרוֹן</he></cite>) <i>water-courses, gutters</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 145b:13\">Sabb. 145ᵇ</cite> <he>הני מ׳ דבבל</he> (Ms. M. <cite ref=\"M02894\"><he>בי מ׳</he></cite>; Ms. O. <he>בי מרדי</he>) the drains of Babylonia; <cite ref=\"Bekhorot 44b:9\">Bekh. 44ᵇ</cite> <he>מדורי</he> (corr. acc.)."
+			]
+		}
+	]
+}

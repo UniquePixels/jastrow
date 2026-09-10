@@ -1,0 +1,66 @@
+{
+	"id": "M02761",
+	"slug": "מרק-2",
+	"headword": {
+		"text": "מְרַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרֵיק"
+		}
+	],
+	"page": {
+		"number": 846,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02760\">same</cite>, <i>to polish; to cleanse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 21:5\">Targ. Is. XXI, 5</cite> (ed. Wil. <cite ref=\"M02654\"><he>מָרִי׳</he></cite> <i>Pa.</i>). ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 26:43\">Targ. Y. II, Lev. XXVI, 43</cite>.—[Y. Bets. I, 60ᵈ <he>שחק הוא מרק קונדיטון</he>, read: <he>שחיק מר קונ׳</he>, v. R. N. to Alf. ",
+				"<cite ref=\"Mishnah Beitzah 1:7\">Bets. I, 7</cite>; v. <cite ref=\"S00417\"><he>קוֹנְדִּיטוֹן</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מָרֵיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M02760\">same</cite>, <i>to cleanse, clear, finish</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 15a:16\">B. Mets. 15ᵃ</cite> (in a deed of sale) <he>ואשפי ואדכי וַאֲמָרֵיק וכ׳</he> (v. Rabb. D. S. a. l. note 6) and I will satisfy (all claimants) and clear and clean the property &c. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 352\">Yalk. Is. 352</cite> <he>מְמָרְקָא לה</he> to pay it, v. <cite ref=\"U00169\"><he>שְׁבַק</he></cite>.—Y. Keth. VI, beg. 30ᶜ, v. preced.—[<cite ref=\"Aramaic Targum to Proverbs 3:11\">Targ. Prov. III, 11</cite> <he>תמריק</he>, read: <he>תְמַיֵּיק</he>; <cite ref=\"Aramaic Targum to Proverbs 19:28\">ib. XIX, 28</cite> <he>ממריק</he> Ms., read: <he>מְמַיֵּיק</he>; v. <cite ref=\"M00578\"><he>מוּק</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְמָרֵיק"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְמְרֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be scoured</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 6:21\">Targ. O. Lev. VI, 21</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <he>תמרוק</he>) <i>to be used for toilet</i>; (of persons) <i>to be perfumed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 30:32\">Targ. Y. Ex. XXX, 32</cite>.—[<he>אתמורק</he>, <cite ref=\"Targum Jonathan on II Kings 4:35\">Targ. II Kings IV, 35</cite>, v. <cite ref=\"M02444\"><he>מְקַק</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

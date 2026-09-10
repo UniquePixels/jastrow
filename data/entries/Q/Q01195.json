@@ -1,0 +1,27 @@
+{
+	"id": "Q01195",
+	"slug": "פניותא",
+	"headword": {
+		"text": "פְּנִיּוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּנוּיַיְתָא"
+		}
+	],
+	"page": {
+		"number": 1189,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01189\"><he>פְּנֵי</he></cite>; cmp. <cite ref=\"Q01148\"><he>פְּנַאי</he></cite>) <i>turning away from everything, special business</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 20:6\">Targ. Y. Lev. XX, 6</cite> (cmp. <cite ref=\"Q01162\"><he>פָּנָה</he></cite>); <cite ref=\"Targum Jonathan on Leviticus 20:3\">ib. 3</cite> <he>(פְּנוּיָי׳</he>); <cite ref=\"Targum Jonathan on Leviticus 20:5\">5</cite>; a. e."
+			]
+		}
+	]
+}

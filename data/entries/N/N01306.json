@@ -1,0 +1,35 @@
+{
+	"id": "N01306",
+	"slug": "נשיאה-2",
+	"headword": {
+		"text": "נְשִׂיאָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 939,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01284\"><he>נָשָׂא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lifting up</i>; <he>נְשִׂיאַת כפים</he> <i>pronouncing the priestly benediction</i>, v. <cite ref=\"N01284\"><he>נָשָׂא</he></cite>, a. <cite ref=\"K00980\"><he>כַּף</he></cite>. ",
+			"units": ["<cite ref=\"Taanit 26b\">Taan. 26ᵇ</cite>; a. fr."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>carrying, loading</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 4:1\">Ex. R. s. 4</cite>, v. <cite ref=\"P00887\"><he>עֲמִיסָה</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 89:4\">Gen. R. s. 89</cite> (ref. to <cite ref=\"Psalms 72:3\">Ps. LXXII, 3</cite>) <he>נשאו הרים נְשִׂיאָתָן וכ׳</he> when the mountains bear their load (of fruits), there is peace for the people.—3) <he>נְשִׂיאַת ראש</he> <i>taking the sum, census</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 6\">Num. R. s. 6</cite> (ref. to <cite ref=\"Numbers 4:2\">Num. IV, 2</cite>, sq.) <he>למה הקדים … לנ׳ ר׳</he> why does the Biblical text give Kehath the first place in taking the census?; v. <cite ref=\"N01307\">next w.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

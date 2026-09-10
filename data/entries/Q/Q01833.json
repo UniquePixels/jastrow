@@ -1,0 +1,24 @@
+{
+	"id": "Q01833",
+	"slug": "פריש-1",
+	"headword": {
+		"text": "פָּרִישׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. name of <i>a fruit, quince</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sukkah 2:9\">Tosef. Succ. II, 9</cite>; <cite ref=\"Sukkah 31a:17\">Succ. 31ᵃ</cite>.—Pl. <he>פְּרִישִׁים</he>, <he>פְּרִישִׁין</he>. ",
+				"<cite ref=\"Mishnah Kilayim 1:4\">Kil. I, 4</cite> (= <he>חֲבוּשִׁין</he> Maim.); Y. ib. I, 27ᵃ, expl. <he>אספרלגין</he>, v. <cite ref=\"A01490\"><he>אִיסְפַּרְגַּל</he></cite>. Ib. <he>ולמה … פ׳ שאין לך מין אילן פריש לקדרה וכ׳</he> why are they called <i>p’rishin</i> (<i>set aside, excellent</i>)? Because there is no species of fruit so well adapted for cooking as this."
+			]
+		}
+	]
+}

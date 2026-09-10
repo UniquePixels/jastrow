@@ -1,0 +1,46 @@
+{
+	"id": "U00050",
+	"slug": "שאר-4",
+	"headword": {
+		"text": "שְׁאֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁאֵיר"
+		}
+	],
+	"page": {
+		"number": 1509,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"U00047\"><he>שָׁאַר</he></cite>) [<i>preservation, existence</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sustenance, alimentation</i>;",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <he>בשר</he>) <i>body, flesh</i>; ",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>bodily contact, intimacy</i>. Mekh. Mishp. s. 3 (ref. to <he>שארה</he>, <cite ref=\"Exodus 21:10\">Ex. XXI, 10</cite>) <he>שְׁאֵרָהּ אלו מזונותיה וכ׳</he> <i>sh’erah</i> means her alimentation &c. (ref. to <cite ref=\"Micah 3:3\">Mic. III, 3</cite>, a. ",
+			"units": [
+				"<cite ref=\"Psalms 78:27\">Ps. LXXVIII, 27</cite>); <cite ref=\"Psalms 78:27\">ib.</cite> (anoth. opin.) <he>שארה כסותה כסות … לשְׁאֵרָהּ וכ׳</he> <i>sh’erah k’suthah</i> means, garments suited to her body (according to age and season) &c.; <cite ref=\"Psalms 78:27\">ib.</cite> (anoth. opin.) <he>שארה זו דרך ארץ</he> <i>sh’erah</i> means (intimacy) marital duty (ref. to <cite ref=\"Leviticus 18:6\">Lev. XVIII, 6</cite>; <cite ref=\"Leviticus 18:12\">12</cite>; <cite ref=\"Leviticus 18:13\">13</cite>, cmp. Targ.); <cite ref=\"Ketubot 47b:10\">Keth. 47ᵇ</cite> <he>לפום שארה תן כסותה וכ׳</he> according to her body (age) give her garments …, according to the season give her &c.; Y. ib. V, 30ᵇ top. ",
+				"<cite ref=\"Shabbat 137b:7\">Sabb. 137ᵇ</cite> <he>חוק בשְׁאֵרוֹ</he>, v. <cite ref=\"H00441\"><he>חוֹק</he></cite>; <cite ref=\"Jerusalem Talmud Berakhot 9:3:5\">Y. Ber. IX, 14ᵃ</cite> bot. <he>בשְׁאֵירוֹ</he>.—Trnsf. [<i>flesh and blood</i>,] <i>relationship, relatives; race</i>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:3:5\">Ib.</cite> <he>שְׁאֵירֵנוּ</he>; Sabb. l. c. <he>שְׁאֵרֵינוּ</he>, v. <cite ref=\"J00103\"><he>יְדִידוּת</he></cite>. Lev. R. v. 34 (expl. <he>עכר שארו</he>, <cite ref=\"Proverbs 11:17\">Prov. XI, 17</cite>) <he>זה שמגעת … את קרוביו וכ׳</he> that is he to whom joy (a festive occasion) happens, and who lets not his nearest relatives join him because they are poor; <cite ref=\"Yalkut Shimoni on Nach 947:17\">Yalk. Prov. 947</cite>. ",
+				"<cite ref=\"Yevamot 90b:12\">Yeb. 90ᵇ</cite> (ref. to <cite ref=\"Leviticus 21:2\">Lev. XXI, 2</cite>) <he>שארו זו אשתו</he> his flesh (<i>sh’er</i>), this means his wife (cmp. ",
+				"<cite ref=\"Genesis 2:24\">Gen. II, 24</cite>); Sifra Emor beg.; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

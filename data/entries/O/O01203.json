@@ -1,0 +1,23 @@
+{
+	"id": "O01203",
+	"slug": "סנונית",
+	"headword": {
+		"text": "סְנוּנִית"
+	},
+	"page": {
+		"number": 1005,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01244\"><he>סָנַן</he></cite>) [<i>the glistening</i>,] <i>swallow</i>. Sifra Sh’mini, Par. 3, ch. V <he>הס׳</he>; <cite ref=\"Chullin 62a:8\">Ḥull. 62ᵃ</cite> <he>ס׳ לבנה</he> the white-bellied swallow. ",
+			"units": [
+				"<cite ref=\"Tosefta Chullin 3:23\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Chullin 4:23\">IV</cite>), 23 <he>אוכלין את ס׳ לבנה וכ׳</he> used to eat the white-bellied swallow, because &c. ",
+				"<cite ref=\"Shabbat 77b:7\">Sabb. 77ᵇ</cite> <he>אימת ס׳ על הנשר</he> the fear which the eagle has of the swallow; a. e."
+			]
+		}
+	]
+}

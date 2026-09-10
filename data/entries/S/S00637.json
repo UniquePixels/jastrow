@@ -1,0 +1,23 @@
+{
+	"id": "S00637",
+	"slug": "קורצין-2",
+	"headword": {
+		"text": "קוּרְצִין"
+	},
+	"page": {
+		"number": 1344,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S02145\"><he>קַרְצָא</he></cite>) <i>destruction</i>. ",
+			"units": [
+				"<cite ref=\"Tractate Derekh Eretz Rabbah 11:12\">Treat. Der. Er. ch. XI</cite> [read:] <he>האוכל ק׳ הרי זה וכ׳</he> the informer belongs to the class of shedders of blood (ref. to <cite ref=\"Leviticus 19:16\">Lev. XIX, 16</cite>).—[<cite ref=\"Tosefta Bava Metzia 9:19\">Tosef. B. Mets. IX, 19</cite>, v. <cite ref=\"S02144\"><he>קֶרֶץ</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "B00940",
+	"slug": "בנויא",
+	"headword": {
+		"text": "בָּנוֹיָא"
+	},
+	"page": {
+		"number": 176,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00942\"><he>בני</he></cite>) <i>builder</i>. . ",
+			"units": [
+				"<cite ref=\"Yoma 10a:11\">Yoma 10ᵃ</cite> <he>ב׳ ביר וכ׳</he> shall the builders (of the Temple, the Persians) be delivered into the hands of the destroyers (the Romans)?"
+			]
+		}
+	]
+}

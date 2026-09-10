@@ -1,0 +1,26 @@
+{
+	"id": "H00946",
+	"slug": "חכמה-2",
+	"headword": {
+		"text": "חָכְמָה"
+	},
+	"page": {
+		"number": 463,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H00939\"><he>חָכַם</he></cite>)<i>wisdom, learning, art</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 17a:11\">Ber. 17ᵃ</cite> <he>תכלית ח׳ וכ׳</he> the perfection of wisdom is repentance and good deeds. ",
+				"<cite ref=\"Berakhot 33a:17\">Ib. 33ᵃ</cite> <he>ברכת ח׳</he> the benediction of wisdom (the fourth of the Prayer of Benedictions). ",
+				"<cite ref=\"Bereishit Rabbah 17:5\">Gen. R. s. 17</cite> <he>חָכְמָתוֹ מרובה וכ׳</he> his (Adam’s) wisdom is greater than yours. ",
+				"<cite ref=\"Rosh Hashanah 29b:9\">R. Hash. 29ᵇ</cite> <he>שהיא ח׳ ואינה מלאכה</he> it is an art and not a labor; a. v. fr.—לשון ח׳ <i>enigmatical speech</i>. ",
+				"<cite ref=\"Eruvin 53b:13\">Erub. 53ᵇ</cite>.—<he>חָכְמַת יונית</he>, v. <cite ref=\"J00206\"><he>יְוָנִי</he></cite>."
+			]
+		}
+	]
+}

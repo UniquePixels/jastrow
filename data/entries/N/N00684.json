@@ -1,0 +1,30 @@
+{
+	"id": "N00684",
+	"slug": "נימוק-2",
+	"headword": {
+		"text": "נִימּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִמּ׳"
+		}
+	],
+	"page": {
+		"number": 905,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>נעמוק</he>; <cite ref=\"P00917\"><he>עָמַק</he></cite>) <i>depth, penetration</i>. ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 18\">Ab. d’R. N. ch. XVIII</cite>; <cite ref=\"Gittin 67a:8\">Gitt. 67ᵃ</cite> <he>ר׳ יוסי נִימּוּקוֹ עמו</he> gave to R. Jose the surname, ‘His depth is with him’, i.e. he has deep reasons for whatever he says. ",
+				"<cite ref=\"Gittin 67a:3\">Ib.</cite> <he>אלמלא ראיתו נ׳ עמו</he> if thou hadst seen him, (thou wouldst have seen) his depth was &c. ",
+				"<cite ref=\"Eruvin 51a:5\">Erub. 51ᵃ</cite>. ",
+				"<cite ref=\"Bekhorot 37a:17\">Bekh. 37ᵃ</cite> <he>מהו דתימא נ׳ עמו</he> you might have thought, we must adopt R. Jose’s opinion because he is known to have deep reasons."
+			]
+		}
+	]
+}

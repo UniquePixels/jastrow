@@ -1,0 +1,29 @@
+{
+	"id": "Q00877",
+	"slug": "פירשא",
+	"headword": {
+		"text": "פִּירְשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּר׳"
+		}
+	],
+	"page": {
+		"number": 1172,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"Q02024\"><he>פֶּרֶשׁ</he></cite>, <i>secretion</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 116b:16\">Ḥull. 116ᵇ</cite> <he>חלב … פ׳ בעלמא הוא</he> the milk in the stomach of a suckling animal is considered a mere secretion (no longer real milk). ",
+				"<cite ref=\"Bekhorot 7b:12\">Bekh. 7ᵇ</cite> <he>פ׳ בעלמא הוא</he> it is a mere secretion (a false membrane, no real skin); a. e.—Pl. <he>פַּירְשַׁיָּיא</he>, <cite ref=\"Q00347\"><he>פִּרְ׳</he></cite>. ",
+				"<cite ref=\"Zevachim 85a:15\">Zeb. 85ᵃ</cite> <he>ניקרבינהו בפִרְשַׁיְיהוּ</he> shall the entrails be offered with the excrements in them?"
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "P01087",
+	"slug": "עפש-2",
+	"headword": {
+		"text": "עֲפַשׁ"
+	},
+	"page": {
+		"number": 1100,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"P01017\"><he>אִיעַפַּשׁ</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Menachot 23b\">Men. 23ᵇ</cite> <he>לכי מִיעַפְּשָׁא</he> when the bread is spoilt."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

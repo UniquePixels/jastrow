@@ -1,0 +1,66 @@
+{
+	"id": "T00266",
+	"slug": "רדף-1",
+	"headword": {
+		"text": "רָדַף"
+	},
+	"page": {
+		"number": 1453,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to run: to pursue</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44:9\">Gen. R. s. 44</cite> <he>רָדַפְתִּי מלכים וכ׳</he> I pursued the kings to Damascus. ",
+				"<cite ref=\"Avodah Zarah 75a:8\">Ab. Zar. 75ᵃ</cite> <he>שמימיו רוֹדְפִין</he> (Ms. M. <he>רדופין</he>), v. infra. ",
+				"<cite ref=\"Mishnah Sanhedrin 8:7\">Snh. VIII, 7</cite> <he>הרוֹדֵף אחר חבירו וכ׳</he> he that runs after his fellowman with murderous intention. ",
+				"<cite ref=\"Sanhedrin 74a:9\">Ib. 74ᵃ</cite> <he>רודף שהיה רודף אחר רודף וכ׳</he> a pursuer who runs after a pursuer in order to save him (prevent him from murder); a. fr.—",
+				"<cite ref=\"Pesachim 114a:2\">Pes. 114ᵃ</cite> <he>אכול בצל</he> … <he>ולבך רודף עליך</he> Ms. M. 1 (ed. <he>ויהא לבך וכ׳</he>, Ms. M. 2 <cite ref=\"T00239\"><he>רדוף</he></cite>) eat onion and sit in the shade (v. <cite ref=\"R00475\"><he>צֵל</he></cite>), rather than eat goose and chicken with thy heart within thee running (being restless and greedy).—<i>Part. pass.</i> <cite ref=\"T00239\"><he>רָדוּף</he></cite>; f. <he>רְדוּפָה</he> &c. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>quick, rapid</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 75a:8\">Ab. Zar. 75ᵃ</cite> <he>מעיין שמימיו רְדוּפִין</he> Ms. M. (ed. <he>רודפין</he>) a spring whose waters run rapidly; (Y. ib. V, end, 45ᵇ <he>נהר שמימיו מהלכין</he>).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>anxious, longing</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Yevamot 6:6\">Tosef. Yeb. VI, 6</cite> <he>הרי שהיתה ר׳ לילך וכ׳</he> if the wife (at the time of her husband’s death) has been following her desire to go on a visit to her parental home; <cite ref=\"Yevamot 42b\">Yeb. 42ᵇ</cite>. ",
+						"<cite ref=\"Ketubot 71b:13\">Keth. 71ᵇ</cite> <he>כאן בר׳ וכ׳</he> in the one case it means when she is anxious to go home (during her first year of married life) &c. ",
+						"<cite ref=\"Ketubot 71b\">Ib.</cite> <he>ככלה … ור׳ לילך וכ׳</he> like a bride that has been found perfect in her husband’s paternal home, and is anxious to go home and tell &c.; <cite ref=\"Pesachim 87a\">Pes. 87ᵃ</cite>.—<he>רגל</he> (<cite ref=\"E00000\"><he>ה</he></cite>)<he>רְדוּפִין</he> <i>the first festival after marriage</i>. Y. ib. VIII, 35ᵈ top <he>איזהו רגל הר׳ … שאביה רוֹדְפָהּ וכ׳</he> which festival is ‘the festival of the anxious’?… The first festival after marriage, when her father urges her to go back to her husband’s house. ",
+						"<cite ref=\"Pesachim 87a\">Ib.</cite> <he>לא הלכה … רגל ר׳</he> if she did not go home for the first festival, may the second festival be considered ‘the festival of the anxious’ (with regard to her partaking of the father’s Passover meal)? <cite ref=\"Shir HaShirim Rabbah 8:9\">Cant. R. to VIII, 9</cite> <he>בת מלכים … ר׳ ר׳</he> a princess that went to observe the first festival at her father’s house; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְדַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be pursued, chased, persecuted</i>. Snh. l. c. <he>בין של רודף בין של נִרְדָּף וכ׳</he> whether he broke the vessels of the pursuer (in his attempt to prevent him from murder) or those of the pursued. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite> (ref. to <cite ref=\"Ecclesiastes 3:15\">Koh. III, 15</cite>) <he>לעולם … הנִרְדָּפִין מן הרודפין</he> at all times the Lord requires the blood of the pursued at the hands of the pursuers; <he>הבל נ׳ מפני קין וכ׳</he> Abel was pursued by Cain, and the Lord chose Abel &c.; <cite ref=\"Ecclesiastes 3:15\">ib.</cite> <he>לא תקריבו … אלא מן הנרדפין</he> bring me no offerings from among the pursuers (beasts of prey), but from among the pursued; Pesik. Shor, p. 76ᵃ, sq.; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["רִדֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to pursue, strive after</i>. Y. Snh. III, beg. 21ᵃ <he>מתוך שביררו מְרַדֵּף זכותו</he> because he has chosen him as arbiter, he will advocate his (client’s) claim.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

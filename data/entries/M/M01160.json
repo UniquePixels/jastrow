@@ -1,0 +1,37 @@
+{
+	"id": "M01160",
+	"slug": "מיל",
+	"headword": {
+		"text": "מִיל"
+	},
+	"page": {
+		"number": 773,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (an adapt. of mille, sub. passuum) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mil</i> (<i>mile</i>) = 2000 cubits. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 6:4\">Yoma VI, 4</cite> <he>שבעה ומחצה לכל מ׳</he> seven and a half Ris for each mile. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 6:1:7\">Y. Shebi. VI, 36ᶜ</cite> top <he>י״ב מ׳ כמחנה ישראל</he> twelve mil, corresponding to the encampment of the Israelites (ref. to <cite ref=\"Numbers 33:8\">Num. XXXIII, 8</cite>); a. fr.—Pl. <he>מִילִין</he>. ",
+				"<cite ref=\"Tosefta Yoma 4:13\">Tosef. Yoma IV</cite> (<cite ref=\"Tosefta Yoma 3:13\">III</cite>), 13. ",
+				"<cite ref=\"Mishnah Yoma 6:8\">Yoma VI, 8</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>milestone</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 907:5\">Yalk. Deut. 907</cite> <he>מסילה שלא היה בה מ׳</he> a road on which there were no milestones."
+			],
+			"label": "2"
+		}
+	]
+}

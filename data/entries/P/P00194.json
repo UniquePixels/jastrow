@@ -1,0 +1,23 @@
+{
+	"id": "P00194",
+	"slug": "עוגין",
+	"headword": {
+		"text": "עוֹגֵין"
+	},
+	"page": {
+		"number": 1047,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00105\"><he>עָגַן</he></cite>) <i>anchor</i>, <i>ballast</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 5:1\">B. Bath. V, 1</cite> (Y. ed. <cite ref=\"E00192\"><he>הוגין</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 367:3\">Yalk. Ez. 367</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 14:16\">Tosef. Sabb. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:1\">XV</cite>), 1, v. <cite ref=\"E00192\"><he>הוֹגֵין</he></cite>. [Pl. <he>עוֹגִינִין</he>, v. <cite ref=\"P00499\"><he>עִיגּוּן</he></cite>.]"
+			]
+		}
+	]
+}

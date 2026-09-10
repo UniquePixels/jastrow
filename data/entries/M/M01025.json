@@ -1,0 +1,34 @@
+{
+	"id": "M01025",
+	"slug": "מטמורא",
+	"headword": {
+		"text": "מַטְמוֹרָא"
+	},
+	"page": {
+		"number": 768,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00561\"><he>טְמַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hiding place</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 32:14\">Targ. Is. XXXII, 14</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hidden object</i>.—<i>Pl.</i> <he>מַטְמוֹרִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Obadiah 1:6\">Targ. Ob. I, 6</cite>; <cite ref=\"Targum Jonathan on Jeremiah 49:10\">Targ. Jer. XLIX, 10</cite> (some ed. <he>מַטְמְר׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

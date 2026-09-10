@@ -1,0 +1,37 @@
+{
+	"id": "D00804",
+	"slug": "דלג-1",
+	"headword": {
+		"text": "דָּלַג"
+	},
+	"page": {
+		"number": 308,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to contract, go back; to leap</i> (cmp. <cite ref=\"S01764\"><he>קָפַץ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Taanit 27b\">Taan. 27ᵇ</cite>; <cite ref=\"Megillah 22a\">Meg. 22ᵃ</cite> <cite ref=\"D00166\"><he>דּוֹלֵג</he></cite> the second reader goes back, i.e. takes up the last verse read by his predecessor. ",
+				"<cite ref=\"Megillah 22a:10\">Ib.</cite> <he>נִדְלוֹג</he> let us take up the last verse."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דִּילֵּג"],
+			"senses": [
+				{
+					"gloss": "<i>to leap, skip</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:9:2\">Cant. R. to II, 9</cite> <he>מְדַלֵּג וכ׳</he> skips from mount &c. ",
+						"<cite ref=\"Mishnah Megillah 4:4\">Meg. IV, 4</cite> <he>מְדַלְּגִין בנביא</he> in reading from the Prophets you may skip (read two portions separated in the text). ",
+						"<cite ref=\"Bamidbar Rabbah 2\">Num. R. s. 2</cite> <he>מד׳ מהלכה וכ׳</he> skips (digresses) from subject to subject. ",
+						"<cite ref=\"Tosefta Demai 3:17\">Tosef. Dem. III, 17</cite> charity collectors <he>מד׳ על פיתחיהן וכ׳</he> must skip the doors of (take no contributions from) those eating the fruits of the Sabbatical year; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

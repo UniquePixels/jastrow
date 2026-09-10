@@ -1,0 +1,30 @@
+{
+	"id": "T00754",
+	"slug": "רכובא-2",
+	"headword": {
+		"text": "רְכוּבָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְכוּבְתָּא"
+		}
+	],
+	"page": {
+		"number": 1479,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"T00755\">next w.</cite>,) <i>knee</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:37\">Targ. Ps. XVIII, 37</cite> (Ms. <he>תָּי …</he> pl.; h. text <he>קרסל־</he>); <cite ref=\"Targum Jonathan on II Samuel 22:37\">Targ. II Sam. XXII, 37</cite> <he>רְכוּבָתִי</he>.—Pl. <he>רְכוּבִין</he>, <he>רְכוּבַיָּא</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:35\">Targ. Deut. XXVIII, 35</cite> (O. ed. Vien. <cite ref=\"T00751\"><he>רְכֻבַ׳</he></cite>; ed. Berl. <he>רְכוּבִּין</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 66:12\">Targ. Is. LXVI, 12</cite>; a. fr."
+			]
+		}
+	]
+}

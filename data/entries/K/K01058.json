@@ -1,0 +1,23 @@
+{
+	"id": "K01058",
+	"slug": "כפרנות",
+	"headword": {
+		"text": "כַּפְרָנוּת"
+	},
+	"page": {
+		"number": 662,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"K01056\"><he>כַּפְרָן</he></cite>) <i>an obligation decreed in court over the defendant’s denial</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 5:1:9\">Y. Gitt. V, 46ᶜ</cite> bot. <he>מלוה שנעשית בו כ׳ אינה נשמטת</he> (strike out <cite ref=\"B00198\"><he>בו</he></cite>) a loan which has been passed in court over the debtor’s denial, does not fall under the law of prescription in the Sabbatical year; <he>כ׳ שנעשית מלוה נשמטת</he> a decreed obligation which has been converted into a loan (the defendant giving his note in settlement) is subject to prescription. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 5:1:9\">Ib.</cite> [read:] <he>מלוה שנעשית כ׳ גובה בעידית כ׳ וכ׳</he> a loan which has been passed &c. is collectible from the best class of landed property; a decreed obligation which has been converted into a loan is collectible from the middle class &c.; <cite ref=\"Jerusalem Talmud Sheviit 10:1:19\">Y. Shebi. X, 39ᶜ</cite> <cite ref=\"K01058\"><he>כַּפְרָנִית</he></cite>; <cite ref=\"Jerusalem Talmud Sheviit 10:1:19\">ib.</cite> <he>מלוה שהיא נעשית מלוה</he> (read: <he>כ׳ שהיא וכ׳</he>)."
+			]
+		}
+	]
+}

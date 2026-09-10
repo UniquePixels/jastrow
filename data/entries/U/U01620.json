@@ -1,0 +1,34 @@
+{
+	"id": "U01620",
+	"slug": "שסע-1",
+	"headword": {
+		"text": "שָׁסַע"
+	},
+	"page": {
+		"number": 1608,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to rend, split.—Part. pass</i>. <cite ref=\"U01616\"><he>שָׁסוּעַ</he></cite>; pl. <he>שְׁסוּעִים</he>, <he>שְׁסוּעִין</he> <i>cloven-footed</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 537:15\">Yalk. Lev. 537</cite> (ref. to <cite ref=\"Leviticus 11:26\">Lev. XI, 26</cite>) <he>לש׳ מנין</he> whence do we learn that the laws of uncleanness apply to the cloven-footed animals?; <he>לשאין ש׳ מנין</he> that it applies to those not cloven-footed?; Sifra Sh’mini, ch. V, Par. 4 <he>שיסועים</he> (corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיסַּע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01619\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 6:5\">Zeb. VI, 5</cite> <he>שי׳ ולא וכ׳</he> he rent (the sacrificial bird), but did not sever it entirely. ",
+						"<cite ref=\"Tosefta Zevahim 7:10\">Tosef. ib. VII, 10</cite> <he>היה מְשַׁסְּעוֹ ביד וכ׳</he> he rent it with his hand, but not with a knife; a. e.—<i>Part. pass.</i> <cite ref=\"M02840\"><he>מְשׁוּסָּע</he></cite> <i>cloven-footed</i>. Sifra l. c. <he>מפריס ומש׳</he>, v. <cite ref=\"Q01908\"><he>פָּרַס</he></cite>; Yalk. l. c. <he>ומשסע</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

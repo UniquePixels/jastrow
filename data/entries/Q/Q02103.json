@@ -1,0 +1,27 @@
+{
+	"id": "Q02103",
+	"slug": "פשרה",
+	"headword": {
+		"text": "פְּשָׁרָה"
+	},
+	"page": {
+		"number": 1249,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02098\"><he>פָּשַׁר</he></cite>) [<i>division</i>, cmp. <cite ref=\"B01100\"><he>בָּצַע</he></cite>,] <i>compromise, settlement</i> (cmp. Samar. <he>פשרונה</he> for <cite ref=\"M02952\"><he>משפט</he></cite>, <cite ref=\"Exodus 21:1\">Ex. XXI, 1</cite>, a. fr.]. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 10:6\">Keth. X, 6</cite> <he>עד שיעשו פ׳ ביניהם</he> until they agree to a division among them. ",
+				"<cite ref=\"Tosefta Sanhedrin 1:2\">Tosef. Snh. I, 2</cite> <he>כשם שהדין … כך הפ׳ בשלשה</he> as three judges are required for legal judgment, so are three required for arbitration; Bab. ",
+				"<cite ref=\"Sanhedrin 5b:14\">ib. 5ᵇ</cite> <he>ופ׳ בשנים</he> a compromise is valid if made before two judges. ",
+				"<cite ref=\"Sanhedrin 5b:14\">Ib.</cite> <he>שנים שעשו פ׳ וכ׳</he> when two judges have arbitrated, the parties cannot retract (v. <cite ref=\"Q02098\"><he>פָּשַׁר</he></cite>). Y. ib. I, 18ᵇ, v. <cite ref=\"E00525\"><he>הַכְרָעָה</he></cite>. ",
+				"<cite ref=\"Berakhot 10a:26\">Ber. 10ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Sifrei Bamidbar 95:1\">Sifré Num. 95</cite> <he>פ׳ היא זו וכ׳</he> this is to be a compromise (between God and ourselves), he cannot give us what we demand."
+			]
+		}
+	]
+}

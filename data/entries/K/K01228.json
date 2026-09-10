@@ -1,0 +1,35 @@
+{
+	"id": "K01228",
+	"slug": "כרם-1",
+	"headword": {
+		"text": "כָּרַם"
+	},
+	"page": {
+		"number": 671,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"K01095\"><he>כָּרָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to surround, cut off</i>. Denom. <cite ref=\"K01229\"><he>כֶּרֶם</he></cite>, <cite ref=\"K01235\"><he>כַּרְמְלִית</he></cite>, <cite ref=\"K01198\"><he>כַּרְכּוֹם</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pile up</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 23:4\">Kel. XXIII, 4</cite> the washer’s chair <he>שהוא כוֹרֵם עליו את הכלים</he> (ed. Dehr. <he>כּוֹרֵס</he>) upon which he piles the clothes (to press them); <cite ref=\"Tosefta Keilim Batra 2:9\">Tosef. Kel. B. Bath. II, 9</cite> <he>שמוכרין</he> ed. Zuck. (oth. ed. <he>שמוכרים</he>, read: <he>שכּוֹרְמִ׳</he>); <cite ref=\"Shabbat 88b:4\">Sabb. 88ᵇ</cite> (play on <he>כרמי עין גדי</he> <cite ref=\"Song of Songs 1:14\">Cant. I, 14</cite>) <he>עון גדי שכָּרַמְתִּי לי וכ׳</he> the guilt of the kid (= golden calf; oth. opin. <cite ref=\"C00191\"><he>גַּדִּי</he></cite> the idol Gad) which I piled (stored up) for me (for future punishment). ",
+				"<cite ref=\"Song of Songs 1:14\">Ib.</cite> <he>מאי … כרמי לישנא דמכניש הוא</he> (Ms. M. <he>כרם … דמכמש</he>, Ms. O. <he>דמכבש</he>, v. Rabb. D. S. a. l. note) what evidence is there that the word <i>Kerem</i> has the meaning of gathering (or of <i>pressing, preserving</i>)?—Answ. (by ref. to Kel. l. c.) <he>שכּוֹרְמִים עליו את הכלים</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to cover, paint</i>, v. <cite ref=\"K01123\"><he>כְּרוּם</he></cite>, <cite ref=\"K01197\"><he>כַּרְכּוֹם</he> I</cite>.—[<cite ref=\"Tosefta Menahot 9:10\">Tosef. Men. IX, 10</cite> <he>וכורמין</he> Var., v. <cite ref=\"K00817\"><he>כָּמַר</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

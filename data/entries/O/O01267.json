@@ -1,0 +1,34 @@
+{
+	"id": "O01267",
+	"slug": "סנקתדרוס",
+	"headword": {
+		"text": "סִנְקַתִּדְרוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִינְ׳"
+		},
+		{
+			"text": "סוּנְ׳"
+		}
+	],
+	"page": {
+		"number": 1009,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (συγκάθεδρος) <i>assessor</i>, <i>associate</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 49:2\">Gen. R. s. 49</cite> <he>מלך שהיה לו ס׳ אחד</he> (not … <he>ים</he>, … <he>יס</he>; Ar. … <he>רון</he>) a king who had an associate; <he>עשיתי … ס׳ שלי</he> I have appointed him my associate. ",
+				"<cite ref=\"Bereishit Rabbah 78:3\">Gen. R. s. 78</cite> <he>רון</he> … <cite ref=\"Shemot Rabbah 43\">Ex. R. s. 43</cite>, beg. <cite ref=\"O00365\"><he>סוּנְקַתִּדְרוֹ</he></cite> his associate regent. Tanḥ. ",
+				"<cite ref=\"Exodus 5\">Mishp. 5</cite> <cite ref=\"O01490\"><he>סקנדרוס</he></cite>; ed. Bub. 3 <cite ref=\"O00361\"><he>סונדוקרוס</he></cite> (corr. acc.); a. fr.—Pl. <cite ref=\"O01266\"><he>סִנְקַתִּדְרִין</he></cite>, <cite ref=\"O01263\"><he>סִינְ׳</he></cite>, <cite ref=\"O00735\"><he>סוּנְ׳</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 13:3\">Yalk. Gen. 13</cite> <he>מלך שהיו לו ס׳ … חוץ מדעתן</he> a king who had associates without whose consent he did nothing; <cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite> <he>סנקתדרון … חוץ מדעתו</he> (some ed. <he>מדעתם</he>, corr. acc.). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 1057:3\">Yalk. Esth. 1057</cite> <cite ref=\"O01259\"><he>סנקדרין</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

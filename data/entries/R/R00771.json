@@ -1,0 +1,23 @@
+{
+	"id": "R00771",
+	"slug": "צרייאתא",
+	"headword": {
+		"text": "צִרְיָיאתָא"
+	},
+	"page": {
+		"number": 1301,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"R00459\"><he>צִירְיָא</he></cite>) <i>full of cracks</i> (?). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 96b\">Snh. 96ᵇ</cite> Ms. F., v. <cite ref=\"R00400\"><he>צִינְּתָא</he> II</cite>."
+			]
+		}
+	]
+}

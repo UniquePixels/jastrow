@@ -1,0 +1,24 @@
+{
+	"id": "M00826",
+	"slug": "מחוך-1",
+	"headword": {
+		"text": "מָחוֹךְ",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 758,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חוּךְ</he> II) <i>laughter; obscenity</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 64a:21\">Sabb. 64ᵃ</cite> Ms. M.; <cite ref=\"Yalkut Shimoni on Torah 786:6\">Yalk. Num. 786</cite>, v. <cite ref=\"C00691\"><he>גִּיחוּךְ</he></cite>."
+			]
+		}
+	]
+}

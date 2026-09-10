@@ -1,0 +1,22 @@
+{
+	"id": "H00480",
+	"slug": "חורפיתא",
+	"headword": {
+		"text": "חוּרְפִיתָא"
+	},
+	"page": {
+		"number": 440,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Ḥurphitha</i> (the quick maid), name of one of Esther’s servants (for Friday). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:9\">Targ. Esth. II, 9</cite>; v. <cite ref=\"C01111\"><he>גְּנוּנִיתָא</he></cite>."
+			]
+		}
+	]
+}

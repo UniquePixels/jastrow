@@ -1,0 +1,45 @@
+{
+	"id": "M02143",
+	"slug": "מעמד",
+	"headword": {
+		"text": "מַעֲמָד"
+	},
+	"page": {
+		"number": 818,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00859\"><he>עָמַד</he></cite>)<i>standing up;</i> <he>מ׳ ומושב</he> <i>standing up and sitting down, halt of the funeral escort on returning from burial for lamentation or consolation</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Pesachim 2:15\">Tosef. Pes. II</cite> (<cite ref=\"Tosefta Pesachim 3:15\">III</cite>), 15 <he>אין מ׳ ומו׳ וכ׳</he> no less than seven halts are made. ",
+				"<cite ref=\"Tosefta Pesachim 3:14\">Ib. 14</cite> <he>מקום שנהגו לעשות מ׳ ומו׳</he> where it is customary to make halts (on the eve of Passover). ",
+				"<cite ref=\"Bava Batra 100b:7\">B. Bath. 100ᵇ</cite> <he>עבד לה מ׳ ומו׳</he> arranged for her sake a <i>maʿămad</i> &c. ",
+				"<cite ref=\"Mishnah Megillah 4:3\">Meg. IV, 3</cite> (<cite ref=\"Megillah 23b:5\">23ᵇ</cite>) <he>אין עושין מ׳ … בפחות מעשרה</he> we arrange no <i>maʿămad</i> &c. with less than ten persons; a. fr.—B. Bath. l. c. <he>המוכר … מקום מַעֲמָדוֹ</he> if one sells his grave, the road to his grave, or his halting place.—Pl. <he>מַעֲמָדוֹת</he>. Ib. <he>אין פוחתין מז׳ מ׳ ומושבות</he> no less than seven &c., v. supra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (law) <i>presence</i> of witnesses, judges &c. Ib. 144ᵃ bot. <he>במַעֲמַד שלשתן</he> in the presence of us three (the owner, the trustee, and the recipient). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:2:3\">Y. Shebu. VI, 37ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Gittin 9:7:4\">Y. Gitt. IX, 50ᶜ</cite> bot., v. <cite ref=\"A03348\"><he>אָשַׁר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 13:5:2\">Y. Keth. XIII, 36ᵃ</cite> bot. <he>בשפסק במַעֲמָדָהּ</he> when her father made the promise in her presence; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>post</i>, a division of popular representatives deputed to accompany the daily services in the Temple with prayers, and also a corresponding division in the country towns, answering to the divisions (guards, v. <cite ref=\"M02930\"><he>מִשְׁמָר</he></cite>) of priests and Levites. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 4:2\">Taan. IV, 2</cite> <he>על כל משמר ומשמר היה מ׳ וכ׳</he> corresponding to every guard was a post of priests, Levites and Israelites stationed in Jerusalem. ",
+				"<cite ref=\"Mishnah Taanit 4:4\">Ib. 4</cite> <he>אין בו מ׳</he> no prayer meeting of the <i>maʿămad</i> took place.—<he>אַנְשֵׁי מ׳</he>, v. <cite ref=\"A02149\"><he>אֱנוֹשׁ</he></cite>; a. fr.—Pl. as ab. ",
+				"<cite ref=\"Mishnah Taanit 4:2\">Ib. 2</cite> <he>אלו הן מ׳</he> this is the origin of the <i>maʿămadoth</i>. ",
+				"<cite ref=\"Taanit 27b:6\">Ib. 27ᵇ</cite>, a. e. <he>אלמלא מ׳</he> but for the prayer meetings of &c. ",
+				"<cite ref=\"Mishnah Megillah 3:6\">Meg. III, 6</cite> <he>במ׳ במעשה בראשית</he> at the prayer meetings the first chapter of Genesis was read (one section each day of the week)."
+			],
+			"label": "3"
+		}
+	]
+}

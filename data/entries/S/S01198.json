@@ -1,0 +1,29 @@
+{
+	"id": "S01198",
+	"slug": "קירצוף",
+	"headword": {
+		"text": "קִירְצוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִרְ׳"
+		}
+	],
+	"page": {
+		"number": 1369,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02154\"><he>קִרְצֵף</he></cite>) <i>scratching, currying with a strigil</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Beitsah 2:17\">Tosef. Bets. II, 17</cite> <he>איזהו ק׳ גדולים וכ׳</he> ed. Zuck. (Var. <cite ref=\"S02118\"><he>קִרְסוּף</he></cite>) what kind of currying is called <i>ḳirtsuf?</i> That which is done with large-toothed combs, which do not wound, opp. <cite ref=\"S01159\"><he>קֵירוּד</he></cite>; Y. ib. II, end, 61ᵈ; Bab. ",
+				"<cite ref=\"Beitzah 23a:12\">ib. 23ᵃ</cite>. ",
+				"<cite ref=\"Beitzah 23a:14\">Ib.</cite> <he>בין ק׳ בין קרוד שרי</he> currying is permitted (on the Holy Day) whether with large or with small strigils; v. <cite ref=\"S01159\"><he>קירוּד</he></cite>."
+			]
+		}
+	]
+}

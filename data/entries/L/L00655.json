@@ -1,0 +1,28 @@
+{
+	"id": "L00655",
+	"slug": "לפתם",
+	"headword": {
+		"text": "לִפְתָּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִפְתָּן",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 716,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"L00652\"><he>לֶפֶת</he></cite>), <i>one whose head is turnip-shaped</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:1\">Bekh. VII, 1</cite> (<cite ref=\"Bekhorot 43a\">43ᵃ</cite>) <cite ref=\"L00656\"><he>לפתן</he></cite> Mish. (Talm. ed. <cite ref=\"L00655\"><he>לפתם</he></cite>), expl. ib. 43ᵇ <he>לפתא דדמי וכ׳</he> (read <he>ם …</he> or … <he>ן</he>), v. <cite ref=\"C01253\"><he>גַּרְגְּלִידָא</he></cite>."
+			]
+		}
+	]
+}

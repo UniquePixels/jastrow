@@ -1,0 +1,23 @@
+{
+	"id": "P01186",
+	"slug": "עקיק",
+	"headword": {
+		"text": "עָקִיק",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>ʿaḳiḳ</i>, name of <i>a jewel</i> in the high priest’s breast-plate. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:14\">Targ. Cant. V, 14</cite> (<cite ref=\"Onkelos Exodus 28:17\">Targ. Ex. XXVIII, 17</cite> <cite ref=\"J00663\"><he>ירקן</he></cite>, <cite ref=\"J00668\"><he>ירקתא</he></cite>)."
+			]
+		}
+	]
+}

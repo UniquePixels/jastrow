@@ -1,0 +1,25 @@
+{
+	"id": "C01232",
+	"slug": "גרב-3",
+	"headword": {
+		"text": "גָּרָב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 263,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01231\">preced.</cite>) <i>the quantity collected on emptying the wine or oil press</i> (v. <cite ref=\"C01233\">next w.</cite>); in gen. <i>bottle, keg</i> as a measure. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 10:8\">Ter. X, 8</cite> <he>וכל ג׳ וכ׳</he> Ms. (ed. <he>כל</he>) and one measured the keg and it contained (as usual) two S’ah.—Pl. <he>גְּרָבִים</he>, constr. <he>גַּרְבֵי</he>. ",
+				"<cite ref=\"Shabbat 13b:9\">Sabb. 13ᵇ</cite>; a. e. three hundred <he>ג׳ שמן</he> <i>garab</i> of oil. ",
+				"<cite ref=\"Beitzah 29a:12\">Bets. 29ᵃ</cite>"
+			]
+		}
+	]
+}

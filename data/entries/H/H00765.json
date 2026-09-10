@@ -1,0 +1,53 @@
+{
+	"id": "H00765",
+	"slug": "חילול",
+	"headword": {
+		"text": "חִילּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִלּ׳"
+		}
+	],
+	"page": {
+		"number": 456,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01073\"><he>חָלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>desecration, defamation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:8:4\">Y. Shebu. VI, end, 37ᵇ</cite> <he>ח׳ שבועה</he> the desecration committed by an unnecessary oath. ",
+				"<cite ref=\"Shabbat 33a:3\">Sabb. 33ᵃ</cite>, a. fr. <he>ח׳ שבת</he> desecration of the Sabbath; <he>ח׳ השם</he> defamation of the Name of the Lord, <i>disgracing the Jewish religion</i>. ",
+				"<cite ref=\"Yoma 86a:9\">Yoma 86ᵃ</cite> <he>ה״ד ח׳ השם</he> what act, for instance, would be a profanation &c.?—",
+				"<cite ref=\"Kiddushin 40a:20\">Kidd. 40ᵃ</cite> <he>אין מקיפין בח׳ וכ׳</he>, v. <cite ref=\"N01233\"><he>נָקַף</he> I</cite>, II. ",
+				"<cite ref=\"Berakhot 19b:2\">Ber. 19ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>redemption of sacred objects, secularization</i>. Ib. 35ᵃ <he>טעון ח׳</he> requires redemption. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 2:1:4\">Y. Naz. II, beg. 51ᵈ</cite> <he>משמשין לשון ח׳</he> mean redemption; a. fr.—Pl. <he>חִילּוּלִים</he>, <cite ref=\"H00764\"><he>חִלּ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 7:5:4\">Y. Peah VII, 20ᵇ</cite> bot. (interpret. <he>הלולים</he>, <cite ref=\"Leviticus 19:24\">Lev. XIX, 24</cite>), v. <cite ref=\"E00004\"><he>ה״א</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the loss of priestly status, becoming a ḥalal</i> (v. <cite ref=\"H01077\"><he>חָלָל</he> II</cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 7:2:3\">Y. Ter. VII, 44ᵈ</cite> bot. <he>את שחִילּוּלָהּ וכ׳</he> whose loss of priesthood was caused by &c.—Pl. <he>חִילּוּלִין</he>, <cite ref=\"H00764\"><he>חִלּ׳</he></cite>. ",
+				"<cite ref=\"Ketubot 29b:9\">Keth. 29ᵇ</cite> <he>ח׳ הוא עושה</he> he causes loss of priesthood (to his offspring). ",
+				"<cite ref=\"Sanhedrin 50b:18\">Snh. 50ᵇ</cite> <he>בחִילּוּלֵי שבזנות וכ׳</he> the text speaks of desecration effected through illicit intercourse (not of Sabbath breaking).—[Sifré Deut. s. 26, v. <cite ref=\"H00764\">preced.</cite> w.]"
+			],
+			"label": "3"
+		}
+	]
+}

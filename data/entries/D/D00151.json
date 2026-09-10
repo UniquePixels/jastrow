@@ -1,0 +1,60 @@
+{
+	"id": "D00151",
+	"slug": "דהין-1",
+	"headword": {
+		"text": "דְּהֵין"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּהַן"
+		}
+	],
+	"page": {
+		"number": 281,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>דוה</he>; interch. dialectically with <cite ref=\"T00289\"><he>רהן</he></cite>, cmp. <he>רוה</he>) <i>to drip, to be fat</i> (corresp. to h. <cite ref=\"D01147\"><he>דָּשַׁן</he></cite> a. <cite ref=\"T00322\"><he>רָוָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:25\">Targ. Prov. XI, 25</cite> <he>תדהן</he> ed. Lag. (Var. <he>תודכן</he>, <he>תורכן</he>, corr. acc.); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּהֵין"],
+			"senses": [
+				{
+					"gloss": "<i>to fatten</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 23:5\">Targ. Ps. XXIII, 5</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 15:30\">Targ. Prov. XV, 30</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to grow fat</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 31:20\">Targ. Y. Deut. XXXI, 20</cite>.—[<cite ref=\"Aramaic Targum to Psalms 20:4\">Targ. Ps. XX, 4</cite>, v. <cite ref=\"D00158\"><he>דַהְנַאן</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִידַּהֵין"],
+			"senses": [
+				{
+					"gloss": "<i>to drip, be fat</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 34:6\">Targ. Is. XXXIV, 6</cite>.—",
+						"<cite ref=\"Shevuot 47b\">Shebu. 47ᵇ</cite>, v. <cite ref=\"D00152\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

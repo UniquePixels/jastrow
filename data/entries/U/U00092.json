@@ -1,0 +1,27 @@
+{
+	"id": "U00092",
+	"slug": "שבותאל",
+	"headword": {
+		"text": "שְׁבוּתְאֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁבוּתִיאֵל"
+		}
+	],
+	"page": {
+		"number": 1511,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>sh’buthel, sh’buthiel</i>, a secondary substitute for <cite ref=\"U00081\"><he>שְׁבוּעָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Nedarim 10b:10\">Ned. 10ᵇ</cite>, v. <cite ref=\"U00071\"><he>שְׁבוּאֵל</he></cite>."
+			]
+		}
+	]
+}

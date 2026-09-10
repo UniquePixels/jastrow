@@ -1,0 +1,78 @@
+{
+	"id": "M02443",
+	"slug": "מקק-1",
+	"headword": {
+		"text": "מָקַק"
+	},
+	"page": {
+		"number": 832,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"M00578\"><he>מוּק</he></cite>)<i>to soften</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמַּק", "נִמּוֹק"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"N00682\"><he>נִימּ׳</he></cite> <i>to be softened; to decay; to be sqashed beyond recognition</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Niddah 10:4\">Nidd. X, 4</cite> <he>עד שיִמּוֹק הבשר</he> until decay has set in. ",
+						"<cite ref=\"Mishnah Bikkurim 1:8\">Bicc. I, 8</cite> <he>נִמַּקּוּ</he> if the first fruits became decayed. Sifra B’ḥuck., Par. 2, ch. VIII (ref. to <cite ref=\"Leviticus 26:39\">Lev. XXVI, 39</cite>) <he>אינו אומר יִמַּקּוּ אלא יִמַּסּוּ</he> it does not merely mean ‘they shall decay’ (when a portion remains sound), but ‘they shall dissolve’ (v. ",
+						"<cite ref=\"Makkot 24a\">Macc. 24ᵃ</cite> bot.). ",
+						"<cite ref=\"Mishnah Niddah 3:4\">Nidd. III, 4</cite> <he>נִימּוֹק הולד וכ׳</he> the embryo may have been mashed (mixed up with the blood) before it was passed. Y. ib. III, end, 51ᵃ <he>נִימּוֹקָּה שלייתו וכ׳</he> the placenta was mashed. Bab. ",
+						"<cite ref=\"Niddah 27a:39\">ib. 27ᵃ</cite> <he>אינו דומה נמוק פעם וכ׳</he> there is no comparison between one presumption that the embryo was mashed and two such suppositions (that the placenta of one embryo and the embryo of another placenta were mashed). ",
+						"<cite ref=\"Mishnah Rosh Hashanah 3:8\">R. Hash. III, 8</cite> <he>היו נִימּוֹקִּים</he> they decayed (from the serpent’s bites), opp. <he>מתרפאין</he>; a. e.—Tanḥ. Noah 10 <he>נמק יסודו</he>; Yalk. Dan. 1060 <he>נימק סידו</he>, v. infra."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵמֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to squash</i>. Y. Ab. Zar. II, 40ᶜ bot. <he>שלא תָמֵיק וכ׳</he> lest she may squash the embryo in her womb.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to enervate, cause consumption</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 7:10\">Keth. VII, 10</cite> <he>מְמַקְּתוֹ</he> she (the intercourse with her) will enervate him (the leper)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּמַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be crumbled, to dissolve</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 92b\">Snh. 92ᵇ</cite> <he>ה׳ סורו</he> (Rashi) his (Nebucadnezzar’s) pride was crumbled (he confessed his wrong), v. <cite ref=\"M02760\"><he>מָרַק</he></cite>; (ed. <he>ה׳ סודו</he> its (the kiln’s) foundation was crumbled (from the heat); [oth. vers. <he>ה׳ סידו</he> the lime in it melted; Tanḥ. Noah 10 <he>נמק יסודו</he>; Yalk. Dan. 1060 <he>נימק סידו</he>]."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְמַקְמֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed, to pine</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 25b:14\">Taan. 25ᵇ</cite> <he>עד שיִתְמַקְמֵק ויצטער</he> until he is made submissive (by starvation) and feels pain."
+					]
+				}
+			],
+			"stem": "Hithpalp."
+		}
+	]
+}

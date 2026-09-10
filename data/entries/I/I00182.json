@@ -1,0 +1,32 @@
+{
+	"id": "I00182",
+	"slug": "טומעא",
+	"headword": {
+		"text": "טוּמְעָא"
+	},
+	"page": {
+		"number": 524,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00560\"><he>טְמַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>secret place</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:13\">Targ. Job. XL, 13</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hidden treasure</i>.—Pl. <he>טוּמְעַיָּא</he>. Ib. III, 20.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

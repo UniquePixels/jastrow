@@ -1,0 +1,41 @@
+{
+	"id": "N00384",
+	"slug": "נוע-1",
+	"headword": {
+		"text": "נוּעַ"
+	},
+	"page": {
+		"number": 888,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to shake, move; to be tender</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִעֲנֵעַ", "נִי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to shake; to stir up, scare</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Beitsah 1:8\">Tosef. Bets. I, 8</cite> <he>עד שיְנַעֲנֵעַ</he> unless he stirred the bird up (the day before, by which act he made it his property and designated it for slaughtering); Y. ib. I, 60ᶜ top. <he>אלא אם כן ני׳ מבעוד יום</he>. ",
+						"<cite ref=\"Mishnah Sukkah 3:1\">Succ. III, 1</cite> <he>כדי לנַעֲנֵעַ בו</he> large enough to (hold it in his hand and) shake. ",
+						"<cite ref=\"Mishnah Sukkah 3:9\">Ib. 9</cite> <he>והיכן היו מְנַעְנְעִים</he> and at what passages of the Hallel did they shake (the Lulab)? <cite ref=\"Mishnah Shabbat 20:5\">Sabb. XX, 5</cite> (<cite ref=\"Shabbat 141a:3-6\">141ᵃ</cite>) <he>הקש … לא יְנַעְנְעוֹ וכ׳</he> (Bab. a. Y. ed. <he>יְנַעְנְעֶנּוּ</he>) must not stir up with his hand the straw &c.; a. fr.—<he>נ׳</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>ראש</he> <i>to</i> (<i>shake</i>) <i>bow the head</i>. ",
+						"<cite ref=\"Berakhot 28b\">Ber. 28ᵇ</cite> <he>כיון שנ׳ ראשו וכ׳</he> if he only bows his head (in prayer), it is sufficient. ",
+						"<cite ref=\"Yevamot 121a:18\">Yeb. 121ᵃ</cite> <he>וכל גל … נִעְנַעְתִּי לו ראשי</he> and as each wave came, I dipped my head under (to let it pass over me). ",
+						"<cite ref=\"Yevamot 121a:19\">Ib.</cite> <he>אם … יְנַעֲנֵעַ לו ראשו</he> if wicked people come over man, let him bow his head. ",
+						"<cite ref=\"Pesikta Rabbati 37:1\">Pesik. R. s. 37</cite> <he>ומנענעים בראשיהם</he> and shook their heads (in derision, ref. to <cite ref=\"Psalms 22:8\">Ps. XXII, 8</cite>).—",
+						"<cite ref=\"Yalkut Shimoni on Nach 953:7\">Yalk. Prov. 953</cite> <he>ומנענע בו בקולו</he> and sings it with a tremulous voice; <cite ref=\"Sanhedrin 101a\">Snh. 101ᵃ</cite> <he>מנענע בקולו</he> Ms. K. (v. Rabb. D. S. a. l. note 2); <cite ref=\"Tosefta Sanhedrin 12:10\">Tosef. ib. XII, 10</cite> <he>מנ׳ קולו</he>.—Part. pass. <he>מְנוּעֲנָע</he>, pl. <he>מְנוּעֲנָעִין</he>. ",
+						"<cite ref=\"Beitzah 25a\">Bets. 25ᵃ</cite> <he>המקושרים והמ׳</he> the birds designated a day before the Holy Day by being tied or by being stirred up; <cite ref=\"Beitzah 25a\">ib.</cite> <he>והמקושרין והמ׳ בכ״מ אסורין</he> birds found anywhere tied or stirred up are forbidden to be taken up (because somebody has taken possession of them); <cite ref=\"Tosefta Beitsah 1:10\">Tosef. ib. I, 10</cite> <he>והמְנוּעָנִין</he> (Var. <he>והמנענין</he>, corr. acc.).—2) <i>to move in different directions, to introduce a surgical instrument</i>. ",
+						"<cite ref=\"Niddah 25b\">Nidd. 25ᵇ</cite>, v. <cite ref=\"O00935\"><he>סִכְסֵךְ</he> I</cite>."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Pilp."
+		}
+	]
+}

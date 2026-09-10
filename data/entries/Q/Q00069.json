@@ -1,0 +1,44 @@
+{
+	"id": "Q00069",
+	"slug": "פגל-2",
+	"headword": {
+		"text": "פְּגַל"
+	},
+	"page": {
+		"number": 1133,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"Q00053\"><he>פַּגֵּל</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Menachot 13b:4\">Men. 13ᵇ</cite> <he>מְפַגְּלֵי אהדדי</he> each may make the other <i>piggul</i>. ",
+						"<cite ref=\"Menachot 16a:16\">Ib. 16ᵃ</cite> <he>מיהדר פַּגּוּלֵי בשלישית ל״ל</he> (not <he>פיגולי</he>) why is the making <i>piggul</i> in the third act again mentioned?; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיפַּגֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be made piggul</i>. Ib. 14ᵃ <he>אילימא לאִיפַּגּוּלֵי דם דם מי מִיפַּגֵּל</he> do you mean that the blood is to become <i>piggul?</i> Can blood become <i>piggul?</i>; <he>לאיפגולי בשר</he> that the flesh is to become <i>piggul</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 58b:12\">Ḥull. 58ᵇ</cite> <he>לענין איפגולי</he> as regards becoming <i>piggul</i>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

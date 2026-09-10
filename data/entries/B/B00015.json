@@ -1,0 +1,23 @@
+{
+	"id": "B00015",
+	"slug": "באושה",
+	"headword": {
+		"text": "בְּאוּשָׁה"
+	},
+	"page": {
+		"number": 135,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>בְּאֻשִׁים</he>) [<i>sour</i>,] <i>an inferior kind of grapes, unripe grapes</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:2:3\">Y. Maasr. I, 48ᵈ</cite> <he>משיקראו באי׳</he> (corr. acc.) when they are called <i>b’ushah;</i> v. <cite ref=\"B00047\"><he>בָּאַשׁ</he></cite> 4).—Pl. <he>בְּאוּשִׁין</he>. ",
+				"<cite ref=\"Mishnah Maasrot 1:2\">Maasr. I, 2</cite> Y. ed., v. <cite ref=\"A00534\"><he>אוּבְשִׁין</he></cite>."
+			]
+		}
+	]
+}

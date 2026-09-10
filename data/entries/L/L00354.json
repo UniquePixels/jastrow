@@ -1,0 +1,36 @@
+{
+	"id": "L00354",
+	"slug": "לחך-1",
+	"headword": {
+		"text": "לָחַךְ"
+	},
+	"page": {
+		"number": 703,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to lick, lap</i> (cmp. <cite ref=\"L00376\"><he>לָחַת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:9\">Y. Meg. I, 71ᶜ</cite> bot. <he>לוֹחֲכָהּ בלשונו והיא וכ׳</he> he licks it (the ink) off with his tongue (from the interspaces of the letters) so that the Divine Name remains intact. ",
+				"<cite ref=\"Chullin 142a:9\">Ḥull. 142ᵃ</cite> <he>פה</he> … <he>יִלְחוֹךְ עפר</he> Oh that the mouth which gave forth pearls must now lick dust!; <cite ref=\"Kiddushin 39b:14\">Kidd. 39ᵇ</cite> <he>יְלַחֵךְ</he> (<i>Pi.</i>). ",
+				"<cite ref=\"Esther Rabbah 8:7\">Esth. R. to IV, 15</cite> <he>כי לוֹחֵךְ הייתי וכ׳</he> for I should have been willing to lick the shoe of his (Haman’s) foot; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִיחֵךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00353\">same</cite>, esp. (of lapping flames) <i>to lick up, dry up, make glowing</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 6a:1\">B. Kam. 6ᵃ</cite> <he>לִחֲכָה נירו</he> (Rashi <cite ref=\"L00031\"><he>לִי׳</he></cite>) it (the fire) lapped his neighbor’s ploughed field. ",
+						"<cite ref=\"Bereishit Rabbah 4\">Gen. R. s. 4</cite>, beg.; <cite ref=\"Yalkut Shimoni on Nach 914\">Yalk. Job 914</cite>. Y. Ḥag. II, 77ᵇ bot. <he>מְלָחֶכֶת</he>, v. <cite ref=\"L00349\"><he>לְחִיכָה</he></cite>. (<cite ref=\"Ruth Rabbah 6:4\">Ruth R. to III, 13</cite> <he>מלהטת</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

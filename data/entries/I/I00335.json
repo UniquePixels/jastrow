@@ -1,0 +1,22 @@
+{
+	"id": "I00335",
+	"slug": "טיטרטון",
+	"headword": {
+		"text": "טִיטַרְטוֹן"
+	},
+	"page": {
+		"number": 530,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τέταρτον) <i>tetarton</i> (<i>quart</i>), a liquid measure, about one quart of a pint. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:1:4\">Y. Sabb. VIII, beg. 11ᵃ</cite>; <cite ref=\"Jerusalem Talmud Shekalim 3:2:4\">Y. Shek. III, 47ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Pesachim 10:1:10\">Y. Pes. X, 37ᶜ</cite> top <he>ט׳ ורביע</he> (not <he>טיטרטין</he>, <he>טט׳</he>) one and one fourth of a <i>t.</i> (is a ritual cup). Ib. III, 30ᵃ top <he>ט׳ דמיי בגו מודייה</he> (not <cite ref=\"I00752\"><he>טרטון</he></cite>) one <i>t.</i> of water for a modius of wheat."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "P00607",
+	"slug": "עינה",
+	"headword": {
+		"text": "עֵינָה"
+	},
+	"page": {
+		"number": 1072,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00601\"><he>עַיִן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>affection of the eye</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>well, flux</i>, v. <cite ref=\"P00296\"><he>עוֹנָה</he> III</cite>, IV.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

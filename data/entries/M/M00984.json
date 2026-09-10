@@ -1,0 +1,26 @@
+{
+	"id": "M00984",
+	"slug": "מטולתא",
+	"headword": {
+		"text": "מְטוּלְתָּא"
+	},
+	"page": {
+		"number": 766,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>booth</i>, v. <cite ref=\"M01012\"><he>מְטַלַלְתָּא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (with suff. of personal pronoun) <i>on account of</i>, v. <cite ref=\"M00979\"><he>מְטוּל</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

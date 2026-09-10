@@ -1,0 +1,42 @@
+{
+	"id": "S01116",
+	"slug": "קיץ-2",
+	"headword": {
+		"text": "קַיִץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַיִיץ"
+		}
+	],
+	"page": {
+		"number": 1366,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S00526\"><he>קָוַץ</he></cite>)<i>heat, midsummer, harvest time for figs, grapes</i> &c., contrad. to <he>קציר</he> harvest time for grains. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 106b:6\">B. Mets. 106ᵇ</cite> (ref. to <cite ref=\"Genesis 8:22\">Gen. VIII, 22</cite> <he>חצי ניסן … אב ק׳ וכ׳</he> half of Nisan, the whole of Iyar, and half of Sivan is <i>ḳatsir</i> (cutting season), half of Sivan to half of Ab is <i>ḳayits</i> (midsummer) &c.; <cite ref=\"Bereishit Rabbah 34:11\">Gen. R. s. 34</cite>. ",
+				"<cite ref=\"Shemot Rabbah 15\">Ex. R. s. 15</cite> <he>עשיר … בשעת הק׳</he> a rich man who went out at harvest time (when grapes were cut). ",
+				"<cite ref=\"Mishnah Nedarim 8:4\">Ned. VIII, 4</cite> <he>עד הק׳ עד שיהא הק׳ וכ׳</he> if one vows abstinence ‘until harvest time’, it means until harvest begins, until people begin to bring fruits home in baskets (v. <cite ref=\"K00757\"><he>כַּלְכָּלָה</he></cite>); <he>עד שיעבור הק׳ וכ׳</he> ‘until harvest is past’, it means &c., v. <cite ref=\"M02441\"><he>מַקְצוּעָה</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>summer fruits, figs, grapes</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 3:1\">B. Bath. III, 1</cite> (<cite ref=\"Bava Batra 28a\">28ᵃ</cite>) <he>כנס</he> (<he>קֵיצוֹ</he>) <he>את קַיְיצוֹ</he> after storing up his fruits. ",
+				"<cite ref=\"Tosefta Nedarim 4:1\">Tosef. Ned. IV, 1</cite> <he>הנודר מן הק׳ אין אסור וכ׳</he> if one vows abstinence from <i>ḳayits</i>, he is forbidden figs only; <cite ref=\"Tosefta Nedarim 4:2\">ib. 2</cite> (anoth. opin.) <he>ענבים בכלל ק׳</he> grapes are included in <i>ḳayits</i>; <cite ref=\"Nedarim 61b:7\">Ned. 61ᵇ</cite> <he>מפירות הק׳</he> from the fruits of midsummer; (<cite ref=\"Nedarim 61b:7\">ib.</cite> <he>ענבים בכלל תאנים</he>). Y. ib. VIII, 41ᵃ top <he>ביכר ק׳ בעמקים</he> if the first summer fruits are ripe in the valleys; (Bab. ib. 62ᵇ; Tosef. ib. IV, 7 <he>הגיע הק׳</he> the harvest has begun). ",
+				"<cite ref=\"Nazir 8b:4\">Naz. 8ᵇ</cite> <he>כהילקטי ק׳</he>, v. <cite ref=\"E00410\"><he>הֶילְקֵט</he></cite>; <cite ref=\"Tosefta Nazir 1:3\">Tosef. ib. I, 3</cite>; Y. ib. I, 51ᵇ bot. (not <he>כמלקטי</he>); a. e.—Trnsf. <he>ק׳ המזבח</he> <i>the altar’s summer time, a time when the altar was unemployed for private offerings, and free-will burnt-offerings had to be supplied from the Temple fund</i>. ",
+				"<cite ref=\"Mishnah Shekalim 4:4\">Shek. IV, 4</cite> <he>מותר הפירות לק׳ המ׳</he> the net income from the sale of fruits (of the Sabbatical year) was applied to the purchase of sacrifices for the altar’s summer time; Y. ib. 48ᵇ top (not <he>למזבח</he>). ",
+				"<cite ref=\"Sukkah 56a:14\">Succ. 56ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Menahot 10:8\">Tosef. Men. X, 8</cite>, v. <cite ref=\"S00530\"><he>קוּץ</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

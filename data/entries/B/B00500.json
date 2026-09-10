@@ -1,0 +1,29 @@
+{
+	"id": "B00500",
+	"slug": "בטח-3",
+	"headword": {
+		"text": "בְּטַח",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבְטַח"
+		},
+		{
+			"text": "אַבְטַי"
+		}
+	],
+	"page": {
+		"number": 156,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00498\"><he>בטח</he></cite>, <cite ref=\"B00504\"><he>בטי</he></cite>, v. Ges. H. Dict. s. v. <cite ref=\"B00498\"><he>בטח</he></cite>; cmp. <cite ref=\"M02388\"><he>מִקְוֶה</he></cite>) <i>a hollow column-like receptacle of rain water near the house</i>. [Maim., <i>a projection in front of the window</i> to stand upon in climbing.] Ohol. XII, 3 <cite ref=\"E00034\"><he>הבטח</he></cite> (Ar. Var. <he>אבטח</he>). Tosef. ib. XIII, 3 <he>אבטי</he> (ed. Zuck. <cite ref=\"A00088\"><he>אבטו</he></cite>, corr. acc.). [Cmp. <cite ref=\"Q00415\"><he>פותי</he></cite> for <cite ref=\"Q00413\"><he>פותח</he></cite>, <cite ref=\"I00645\"><he>טְפֵי</he></cite> IV for <cite ref=\"I00636\"><he>טפח</he></cite>.] V. <cite ref=\"B00495\"><he>בִּטְוַיָּא</he></cite>.",
+			"units": []
+		}
+	]
+}

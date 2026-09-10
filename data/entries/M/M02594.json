@@ -1,0 +1,23 @@
+{
+	"id": "M02594",
+	"slug": "מרון-1",
+	"headword": {
+		"text": "מָרוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 839,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02652\"><he>מָרָה</he></cite>) <i>rebellion</i>; <he>בני מ׳</he> <i>rebels</i> who surrender, v. <cite ref=\"A01353\"><he>אִימְרָנָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 1:2\">R. Hash. I, 2</cite> (<cite ref=\"Rosh Hashanah 16a:1\">16ᵃ</cite>) (differ. in comment.); v. also next w.—[<cite ref=\"Mishnah Bava Batra 1:6\">B. Bath. I, 6</cite> Ms. M., v. <cite ref=\"M00659\"><he>מוֹרָן</he></cite>.]"
+			]
+		}
+	]
+}

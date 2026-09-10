@@ -1,0 +1,50 @@
+{
+	"id": "U01166",
+	"slug": "שכלל-1",
+	"headword": {
+		"text": "שִׁכְלֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁיכְ׳"
+		}
+	],
+	"page": {
+		"number": 1574,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <he>כלל</he>, cmp. <cite ref=\"U01160\"><he>שָׁכַל</he></cite>) <i>to finish, decorate</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 38a:14\">Snh. 38ᵃ</cite> <he>למלך שבנה פלטרין גדולים ושִׁיכְלְלָן וכ׳</he> Ms. M. (v. Rabb. D. S. a. l.) like a king who built great palaces and decorated them, and made arrangements therein for a large banquet &c. ",
+				"<cite ref=\"Pesikta Rabbati 2:1\">Pesik. R. s. 2</cite> <he>אין אתה מְשַׁכְלְלוֹ</he> thou shalt not finish it (the Temple), opp. <he>מיסדו</he> laying the foundation; <cite ref=\"Yalkut Shimoni on Nach 144\">Yalk. Sam. 144</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתַּכְלֵל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּכְלֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to be finished, decorated</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite> (ref. to <he>ויכלו</he>, <cite ref=\"Genesis 2:1\">Gen. II, 1</cite>) <he>נִשְׁתּכְלְלוּ השמים בחמה … ונִשְׁתַּכְלְלָה הארץ וכ׳</he> the heavens were decorated with sun, moon, and stars, and the earth with trees and herbs, and with the garden of Eden; Yalk. ib. 15 <he>נִתְכַּלְּלוּ … ונִתְכַּלְּלָה</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be founded</i>. Tanḥ. K’doshim 10 (ref. to <cite ref=\"M01396\"><he>מכלל</he></cite>, <cite ref=\"Psalms 50:2\">Ps. L, 2</cite>) <he>מציון נש׳ כל וכ׳</he> from Zion was the whole world founded, as we have learned (Y. Yoma V, 42ᶜ), why is it called foundation stone? &c., v. <cite ref=\"U02100\"><he>שְׁתִיָּה</he> II</cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

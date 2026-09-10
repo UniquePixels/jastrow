@@ -1,0 +1,29 @@
+{
+	"id": "A02767",
+	"slug": "אפסתיק",
+	"headword": {
+		"text": "אפסתיק",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אפסתקי"
+		}
+	],
+	"page": {
+		"number": 106,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (supposed to be an adapt. of ὀψοθήκη) <i>wallet</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 70\">Gen. R. s. 70</cite> when Laban could not see <he>אפי׳ אפסתקיתיה</he> (<he>יתי …</he>, <cite ref=\"Yalkut Shimoni on Torah 124:7\">Yalk. Gen. 124</cite> <he>אפסתיק׳</he> without <cite ref=\"A02675\"><he>אפי׳</he></cite>, Ar. omits <cite ref=\"A02675\"><he>אפי׳</he></cite>, Lonz. <he>אפיסטוקתיא</he>, Rashi <he>אפסט׳</he> without <cite ref=\"A02675\"><he>אפי׳</he></cite>) even his (Jacob’s) wallet. [Prob. to be read <he>חמי אַפּוֹתִּיקִי דידיה …</he> or <he>אַפוֹתִּיקַיָּתֵיה</he>, cmp. ",
+				"<cite ref=\"Targum Jonathan on Genesis 24:10\">Targ. Y. Gen. XXIV, 10</cite>.]"
+			]
+		}
+	]
+}

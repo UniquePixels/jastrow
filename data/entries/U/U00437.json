@@ -1,0 +1,75 @@
+{
+	"id": "U00437",
+	"slug": "שום-5",
+	"headword": {
+		"text": "שׁוּם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1535,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00436\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>valuation, estimate</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 1:3\">B. Kam. I, 3</cite> <he>ש׳ כסף</he>, v. <cite ref=\"U00338\"><he>שָׁוֶה</he></cite>. ",
+				"<cite ref=\"Tosefta Bava Metzia 9:9\">Tosef. B. Mets. IX, 9</cite> <he>השם קמתו … את שׁוּמוֹ וכ׳</he> if one prizes (and buys) his neighbor’s standing corn as ten Cors of wheat, and it yields less or more, the seller has to deliver the estimated quantity (no more nor less); Rabbi Judah says, <he>עשה בפחות נותן לו את שומו וכ׳</he> if it yielded less, he has to deliver the estimated quantity, if more, he has to deliver whatever it yielded; a. fr.—Esp. <i>the description and valuation of seized property</i> and its advertisement for public sale. ",
+				"<cite ref=\"Mishnah Arakhin 6:1\">Arakh. VI, 1</cite> <he>ש׳ היתומים שלשים יום</he> the advertisement of orphans’ property must be made thirty days in succession (before the sale); <cite ref=\"Tosefta Arakhin 4:1\">Tosef. ib. IV, 1</cite>. ",
+				"<cite ref=\"Tosefta Ketubot 11:2\">Tosef. Keth. XI, 2</cite>; <cite ref=\"Bava Batra 107a:7\">B. Bath. 107ᵃ</cite> <he>שלשה שירדו לש׳ וכ׳</he> if of three experts called to appraise seized property, one says, it is worth a Maneh &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>appraised goods brought into marriage by the wife</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 6:3\">Keth. VI, 3</cite> (<cite ref=\"Ketubot 66a:9\">66ᵃ</cite>) <he>פסקה … וכנגד הש׳ וכ׳</he> if she promises to bring him a thousand Denars, he must obligate himself for fifteen Maneh (as her jointure); but for appraised goods brought to him, he obligates himself for one fifth less than the appraised value. ",
+				"<cite ref=\"Ketubot 66a:9\">Ib.</cite> <he>ש׳ במנה ושוה מנה וכ׳</he> (Y. ed. <he>ש׳ מנה</he>) if the agreement reads, ‘the goods are charged to the husband for one Maneh and worth a Maneh’, he can claim only one Maneh’s worth of goods; <he>ש׳ במנה היא וכ׳</he> but if it reads merely, ‘the goods are charged for one Maneh’, she must bring in the value of thirty-one Selaim and one Denar (Tosaf.; differ. in Rashi). Tosef. ib. VI, 6 <he>מקום … מן הש׳ וכ׳</he> where the usage is not to charge the husband less than the appraised value &c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (Chaldaism) <i>name, title;</i> <he>לְשׁוּם</he> <i>in the name of, for the sake of, for the purpose of, in the capacity of</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 4:4\">Gitt. IV, 4</cite> <he>עבד … אם לש׳ עבד וכ׳</he> if a slave was taken captive, and some one redeemed him: if he redeemed him as a slave, he may be held as a slave (of his redeemer), if as a freed man &c. ",
+				"<cite ref=\"Mishnah Gittin 3:1\">Ib. III, 1</cite> <he>כל גט שנכתב שלא לש׳ אשה</he> a letter of divorce not written with the intention to be used for a special woman. ",
+				"<cite ref=\"Mishnah Gittin 8:5\">Ib. VIII, 5</cite> <he>כתב לש׳ מלכות אחרת</he> if a letter of divorce is dated in the name of a strange government; (Bab. ed. 79ᵇ <he>שאינה הוגנת</he>, v. <cite ref=\"E00195\"><he>הוּגָּן</he></cite>). ",
+				"<cite ref=\"Yevamot 24b:3\">Yeb. 24ᵇ</cite> <he>איש שנתגייר לש׳ אשה</he> a man that embraced the Jewish religion for the sake of a woman; <he>לש׳ שולחן מלכים</he> for the sake of the royal table (v. <cite ref=\"U00420\"><he>שׁוּלְחָן</he></cite>); <he>לש׳ עבדי שלמה</he> for the sake of being one of Solomon’s servants; a. v. fr.— [Ib. 47ᵇ <he>לשֵׁם שפחות</he> in her capacity as a slave; <he>לשם שחרור</he> with the purpose of making her a freed woman; a. fr.]—<he>מִשּׁוּם</he> "
+			],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>in the name of</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maaser Sheni 3:6\">Maas. Sh. III, 6</cite> <he>ר״ש</he> … <he>מש׳ ר׳ יוסי</he> R. S. ben J. says in behalf of R. José (quoting R. J. as author). ",
+						"<cite ref=\"Mishnah Eduyot 8:5\">Eduy. VIII, 5</cite>; a. v. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>because of, as coming under the category of; for the sake of</i> (<i>preventing</i>). ",
+					"units": [
+						"<cite ref=\"Beitzah 2b\">Bets. 2ᵇ</cite>, a. fr. <he>גזדה מש׳</he>, v. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>. ",
+						"<cite ref=\"Shabbat 17b:5\">Sabb. 17ᵇ</cite> <he>מש׳ שמנן</he>, v. <cite ref=\"C00573\"><he>גָּזַר</he></cite>. ",
+						"<cite ref=\"Avodah Zarah 26a\">Ab. Zar. 26ᵃ</cite>, a. fr. <he>מש׳ איבה</he>, v. <cite ref=\"A01120\"><he>אֵיבָה</he></cite>. ",
+						"<cite ref=\"Shabbat 70b:2\">Sabb. 70ᵇ</cite> <he>כלום פריש … מש׳ מלאכות … מש׳ שבת</he> does any one abstain from doing a thing on the Sabbath for any reason but because of the prohibition of labors, and does one abstain from any labor for any reason, but because of the Sabbath? Ib. 73ᵇ <he>חייב מש׳ נוטע</he> is guilty, because the act comes under the category of planting. ",
+						"<cite ref=\"Mishnah Kilayim 1:9\">Kil. I, 9</cite> <he>אינו חושש לא מש׳ כלאים וכ׳</he> he need not hesitate to use it either on the ground of forbidden mixture, or on the ground of the Sabbatical year (in which planting is forbidden), or because it is subject to tithes. ",
+						"<cite ref=\"Mishnah Kilayim 9:8\">Ib. IX, 8</cite> <he>אין אפור מש׳ וכ׳</he> nothing is forbidden as mixture of wool and linen unless it is spun &c.; a. v. fr.—",
+						"<cite ref=\"Berakhot 5b:14\">Ber. 5ᵇ</cite> <he>מש׳ תורה דלא וכ׳</he> (dost thou weep) on account of the Law, that thou hast not attained much?; <he>או מש׳ מזוני</he> or on account of thy support (that thou art poor)?—<he>משום שֶׁ־</he>, (Chald.) <he>מש׳ דְּ־</he>; <he>על שום שֶׁ־</he>, (Chald.) <he>על ש׳ ד־</he> <i>because</i>. ",
+						"<cite ref=\"Mishnah Pesachim 10:5\">Pes. X, 5</cite> <he>פסח על ש׳ שפסח וכ׳</he> the Passover sacrifice is eaten, because the Lord passed over &c. ",
+						"<cite ref=\"Jerusalem Talmud Nazir 2:1:2\">Y. Naz. II, beg. 51ᵈ</cite> <he>מש׳ שהוציא וכ׳</he> because he uttered the word <i>nazir</i>. ",
+						"<cite ref=\"Ketubot 63b:9\">Keth. 63ᵇ</cite> <he>מש׳ דרב זביד וכ׳</he> because Rab Zebid is a great man &c.; a. v. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

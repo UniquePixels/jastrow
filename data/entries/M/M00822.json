@@ -1,0 +1,23 @@
+{
+	"id": "M00822",
+	"slug": "מחוי-1",
+	"headword": {
+		"text": "מְחַוֵּי"
+	},
+	"page": {
+		"number": 758,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"H00230\"><he>חֲוָא</he></cite>) <i>idolatrous oracles</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 3:4\">Targ. Hos. III, 4</cite> (h. text <cite ref=\"V01050\"><he>תרפים</he></cite>). Cmp. <cite ref=\"M00812\"><he>מַחְוָוא</he></cite>."
+			]
+		}
+	]
+}

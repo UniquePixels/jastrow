@@ -1,0 +1,32 @@
+{
+	"id": "J00109",
+	"slug": "ידעיה",
+	"headword": {
+		"text": "יְדַעְיָה"
+	},
+	"page": {
+		"number": 565,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Jedaiah</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a priestly division, named after its head. ",
+			"units": [
+				"<cite ref=\"Taanit 27a:12\">Taan. 27ᵃ</cite>, sq.; <cite ref=\"Arakhin 12b:21\">Arakh. 12ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:11\">Y. Taan. IV, 68ᵈ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " poetic name of <i>Sepphoris</i> in Galilee whither the division of J. was exiled (v. Y. l. c.). ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 7:11:1\">Koh. R. to VII, 11</cite>; <cite ref=\"Kohelet Rabbah 9:10:3\">IX, 10</cite> <he>בני י׳</he> sons of J. (inhabitants of Sepph.)."
+			],
+			"label": "2"
+		}
+	]
+}

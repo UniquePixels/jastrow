@@ -1,0 +1,23 @@
+{
+	"id": "G00238",
+	"slug": "זוריא",
+	"headword": {
+		"text": "זוּרַיָּא"
+	},
+	"page": {
+		"number": 389,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"G00233\"><he>זור</he></cite>; cmp. <cite ref=\"G00415\"><he>זִיר</he></cite>) <i>bunches</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:1:10\">Y. Maas. Sh. IV, 54ᵈ</cite> bot. <he>מסיק לזוּרַיֵּיה</he> (ed. Zyt. <cite ref=\"G00237\"><he>זוּרְזַיֵּיה</he></cite>, v. <cite ref=\"G00425\"><he>זִירְזָא</he></cite>) when he takes up his bunches (the remnants of his stock), v. <cite ref=\"B00886\"><he>בַּלְנִי</he></cite>."
+			]
+		}
+	]
+}

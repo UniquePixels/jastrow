@@ -1,0 +1,41 @@
+{
+	"id": "H00148",
+	"slug": "חגיגה",
+	"headword": {
+		"text": "חֲגִיגָה"
+	},
+	"page": {
+		"number": 424,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00139\"><he>חָגַג</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>celebration</i>, esp. <i>pilgrimage to Jerusalem for the festivals</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 33b:15\">Ber. 33ᵇ</cite> <he>חֲגִיגַת הרגל</he> the pilgrimage of the festive season. ",
+				"<cite ref=\"Eichah Rabbah 1:52\">Lam. R. to I, 17</cite>, v. <cite ref=\"E00599\"><he>הֲמוֹנוּת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the festive offering of the visitors of the Temple on the festivals</i> (<cite ref=\"Exodus 23:14\">Ex. XXIII, 14</cite>, a. e.). ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 1:2\">Ḥag. I, 2</cite>. Y. ib. 76ᵃ bot. <he>חֲגִיגָתוֹ</he> his festal sacrifice; a. fr.—Pl. <he>חֲגִיגוֹת</he>. ",
+				"<cite ref=\"Mishnah Chagigah 1:8\">Ḥag. I, 8</cite> <i>the laws concerning festive sacrifices;</i> <cite ref=\"Tosefta Chagigah 1:9\">Tosef. Ib. I, 9</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Ḥăgigah</i>, a treatise of the Mishnah, Talmud Babli a. Y’rushalmi, a. Tosefta.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

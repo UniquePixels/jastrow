@@ -1,0 +1,27 @@
+{
+	"id": "C00514",
+	"slug": "גז-2",
+	"headword": {
+		"text": "גַּז"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּס"
+		}
+	],
+	"page": {
+		"number": 228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dialect. = <cite ref=\"P00385\"><he>עַז</he></cite>, cmp. b. h. equivalent <he>עזניה</he>) <i>gaz</i>, name of a bird of prey, supposed to be <i>the falcon</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> <he>הגז</he> Ar. (ed. <cite ref=\"E00078\"><he>הגס</he></cite>). Tosef. ib. III, 3 <cite ref=\"E00078\"><he>הגס</he></cite>. [Alleged name of a species of bees, v. <cite ref=\"E00064\"><he>הִגְזִין</he></cite> or <cite ref=\"H00145\"><he>חִגְזִין</he></cite>.]"
+			]
+		}
+	]
+}

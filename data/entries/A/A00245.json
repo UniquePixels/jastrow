@@ -1,0 +1,25 @@
+{
+	"id": "A00245",
+	"slug": "אגד-7",
+	"headword": {
+		"text": "אֵגֶד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵיגֶד"
+		}
+	],
+	"page": {
+		"number": 10,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00244\">same</cite>.",
+			"units": [
+				"<cite ref=\"Sukkah 33b:14\">Succ. 33ᵇ</cite> <he>אי׳ מעלייתא וכ׳</he> (fem.!) it requires a substantial binding."
+			]
+		}
+	]
+}

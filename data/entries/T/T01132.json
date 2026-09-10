@@ -1,0 +1,23 @@
+{
+	"id": "T01132",
+	"slug": "רתיחה",
+	"headword": {
+		"text": "רְתִיחָה"
+	},
+	"page": {
+		"number": 1503,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T01122\"><he>רָתַח</he></cite>) <i>effervescence, scum, foam</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tevul Yom 1:1\">T’bul Yom I, 1</cite> <he>רְתִיחַת … ראשונה</he> the first scum that comes up in boiling groats of beans. ",
+				"<cite ref=\"Mishnah Tevul Yom 1:1\">Ib.</cite> <he>ר׳ יין חדש</he> the scum of new wine. Ib. 2 <he>ר׳ יין ישן</he> the scum of old wine."
+			]
+		}
+	]
+}

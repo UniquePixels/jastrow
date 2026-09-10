@@ -1,0 +1,24 @@
+{
+	"id": "V00239",
+	"slug": "תונבא",
+	"headword": {
+		"text": "תּוּנְבָּא"
+	},
+	"page": {
+		"number": 1654,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>תנב</he> <i>to become rigid</i>, Brockelm. Lex. Syr.) <i>stupor, loss of sensation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 33:20\">Targ. Job XXXIII, 20</cite>.—",
+				"<cite ref=\"Yoma 83a:3\">Yoma 83ᵃ</cite> <he>ת׳ הוא דנקיט ליה</he> stupor seized him (so that he does not feel the lack of food). ",
+				"<cite ref=\"Niddah 37b:36\">Nidd. 37ᵇ</cite> <he>ת׳ בעלמא … לה</he> it is merely stupor that seized her (so that she feels no pain)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "D00336",
+	"slug": "דוקני",
+	"headword": {
+		"text": "דּוּקְנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיקְנִי"
+		}
+	],
+	"page": {
+		"number": 288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"D01012\"><he>דְּקַן</he></cite>; adopted in Hebr.) <i>trimming shears</i> on a pole. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:4:10\">Y. Maasr. III, end, 51ᵃ</cite> <he>היתה ניטלת בד׳</he> if the fruit is taken off with trimming shears (by a person standing outside the garden). ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:4:10\">Ib.</cite> <he>צור צור דּוּקְנִיתָךְ וכ׳</he> wrap well up (keep well thy question about) the pruner (sophistical as it is), it is better than anything (the Agadists have to say).—",
+				"<cite ref=\"Tosefta Keilim Metsia 3:9\">Tosef. Kel. B. Mets. III, 9</cite> <he>האיזמל של די׳</he> one knife of the shears."
+			]
+		}
+	]
+}

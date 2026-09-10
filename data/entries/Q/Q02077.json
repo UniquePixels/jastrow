@@ -1,0 +1,25 @@
+{
+	"id": "Q02077",
+	"slug": "פשיעה",
+	"headword": {
+		"text": "פְּשִׁיעָה"
+	},
+	"page": {
+		"number": 1247,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02085\"><he>פָּשַׁע</he></cite>) <i>trespass, negligence</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:3:7\">Y. Sabb. XIV, 14ᶜ</cite> bot. <he>תשעים … מתים בפ׳ וכ׳</he> ninety-nine persons die through their own fault against one through the hands of heaven (a natural death); <cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite>.—Esp. <i>negligence in guarding a trust, indictable neglect</i> (<cite ref=\"Exodus 22:8\">Ex. XXII, 8</cite>). ",
+				"<cite ref=\"Bava Metzia 94b:15\">B. Mets. 94ᵇ</cite> <he>אבידה שקרובה לפ׳</he> losing which comes near to wilful neglect, opp. <cite ref=\"A00753\"><he>אונס</he></cite>. ",
+				"<cite ref=\"Bava Metzia 81a:16\">Ib. 81ᵃ</cite>, a. e. <he>פ׳ בבעלים</he> a loss through carelessness that occurred in the presence of the owner (Ex. l. c. 14). ",
+				"<cite ref=\"Bava Kamma 21b\">B. Kam. 21ᵇ</cite>, a. e. <he>תחלתו בפ׳ וסופו באונס</he> if there was neglect in the start, but the final injury came about through an unforeseen accident; a. fr."
+			]
+		}
+	]
+}

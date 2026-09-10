@@ -1,0 +1,31 @@
+{
+	"id": "L00100",
+	"slug": "לבן-7",
+	"headword": {
+		"text": "לְבָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְבַן"
+		},
+		{
+			"text": "לָבָן"
+		}
+	],
+	"page": {
+		"number": 690,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"L00104\"><he>לִבְנֶה</he></cite> , <i>white poplar</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:37\">Targ. O. Gen. XXX, 37</cite> (Y. <he>דפרח לבן</he>, v. <cite ref=\"Q01755\"><he>פְּרַח</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 4:13\">Targ. Hos. IV, 13</cite>."
+			]
+		}
+	]
+}

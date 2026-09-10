@@ -1,0 +1,36 @@
+{
+	"id": "M00877",
+	"slug": "מחיקה",
+	"headword": {
+		"text": "מְחִיקָה"
+	},
+	"page": {
+		"number": 761,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00931\"><he>מָחַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rubbing, blotting out</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 13b:2\">Erub. 13ᵇ</cite> <he>עשייה דידה מ׳ היא</he> its preparation consists in washing (the writing) off (<cite ref=\"Numbers 5:23\">Num. V, 23</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 2:4:2\">Y. Sot. II, 18ᵃ</cite> bot. <he>למ׳ ניתנה</he> is intended to be blotted out. Bab. ",
+				"<cite ref=\"Sotah 18a:4\">Sot. 18ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>scraping</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:54\">Y. Sabb. VII, 10ᶜ</cite> bot. <he>מאי מ׳ היתה וכ׳</he> what scraping was done in the preparation of the Tabernacle?"
+			],
+			"label": "2"
+		}
+	]
+}

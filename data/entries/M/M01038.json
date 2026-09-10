@@ -1,0 +1,23 @@
+{
+	"id": "M01038",
+	"slug": "מטעיא",
+	"headword": {
+		"text": "מַטְעֲיָא"
+	},
+	"page": {
+		"number": 769,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00602\"><he>טְעִי</he></cite>) [<i>leading astray</i>,] <i>prostitute</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:7\">Targ. Lev. XXI, 7</cite> (some ed. <cite ref=\"M01038\"><he>מַטְעַיָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 34:31\">Targ. Y. I Gen. XXXIV, 31</cite> <he>מְטַעֲיָיא</he>.—<i>Pl.</i>, v. <cite ref=\"M01039\">next w.</cite>"
+			]
+		}
+	]
+}

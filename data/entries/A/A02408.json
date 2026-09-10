@@ -1,0 +1,42 @@
+{
+	"id": "A02408",
+	"slug": "אסטרטא",
+	"headword": {
+		"text": "אִסְטְרָטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְטְ׳"
+		},
+		{
+			"text": "אִסְטְרָטָה"
+		}
+	],
+	"page": {
+		"number": 91,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. ",
+			"units": []
+		},
+		{
+			"gloss": " (interchanging with <cite ref=\"A02558\"><he>אִסְרָטָא</he></cite>, <cite ref=\"O01584\"><he>סְרָטָא</he></cite>, trnsp. <he>אסטרא</he>; <i>strata</i>, sub. via, στρᾶτα S.) <i>paved way, public road</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 20:17\">Targ. Y. II, Num. XX, 17</cite> … <he>טה</he>; a. fr.—Y. Gitt. IV, beg. 45ᶜ. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:1:4\">Y. Snh. II, 20ᵃ</cite> top <he>גו א׳ וכ׳</he> on the road he heard &c. ",
+				"<cite ref=\"Tosefta Shabbat 10:14\">Tosef. Sabb. X</cite> (<cite ref=\"Tosefta Shabbat 11:1\">XI</cite>), 1 sq. (<cite ref=\"O01584\"><he>סרטא</he></cite>, <cite ref=\"A02558\"><he>אסרטא</he></cite>, Var. <he>אסתרטא</he> with <cite ref=\"V00000\"><he>ת</he></cite>). ",
+				"<cite ref=\"Avot D'Rabbi Natan 28:10\">Ab. d’R. N. XXVIII</cite> life is like <he>לאיסטרטיא וכ׳</he> (read … <he>טא</he>) a public road running between two paths &c. ",
+				"<cite ref=\"Kohelet Rabbah 7:7:2\">Koh. R. to VII, 7</cite> <he>הוינא עקים אִסְטְרָטִי</he> I was bending my road, went out of my way.—Pl. <cite ref=\"A02412\"><he>אִסְטְרָטַיָּא</he></cite>, (<cite ref=\"A02412\"><he>אִסְטַרְטַיָּא</he></cite>, incorr. <cite ref=\"A02412\"><he>אִסְטְרַטְיָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 20:19\">Targ. Y. Num. XX, 19</cite>.—<he>אִסְטְרָטִין</he> usu. <i>the city walks, promenades</i> (between the colonnades &c.). Y. Sabb. VI, 8ᵃ bot. <he>הוו מטיילין בא׳</he> were promenading &c. Y. Kil. IX, 32ᵈ top; <cite ref=\"Shir HaShirim Rabbah 5:13:1\">Cant. R. to V, 13</cite>; <cite ref=\"Jerusalem Talmud Ketubot 12:3:17\">Y. Keth. XII, 35ᵇ</cite> bot. <he>אסטרין</he>. [<cite ref=\"Devarim Rabbah 3:17\">Deut. R. s. 3</cite> <he>אסטרטין</he>, read <he>אסטרטיגין</he>.] [In Targ. mostly <cite ref=\"A02566\"><he>אִסְרָטִין</he></cite>, <he>אסטרין</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>theatre</i>. Pl. <cite ref=\"A02409\"><he>אִסְטְרָטָאוֹת</he></cite>, v. <cite ref=\"A02422\"><he>אִסְטַרְיָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

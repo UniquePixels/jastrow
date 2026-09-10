@@ -1,0 +1,33 @@
+{
+	"id": "A02415",
+	"slug": "אסטרטיגוס",
+	"headword": {
+		"text": "אִסְטַרְטֵיגוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אסטרטיג"
+		}
+	],
+	"page": {
+		"number": 92,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (στρατηγός) <i>military commander, general</i>; (in later Greek) <i>prefect, city-magistrate</i>; also <i>chief of body guards</i> (στρατηγὸς τῶν πραισενταλίων, D. C.). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 31:17\">Ex. R. s. 31</cite> (cmp. ",
+				"<cite ref=\"Bereishit Rabbah 58\">Gen. R. s. 58</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite>, beg.; a. fr.—",
+				"<cite ref=\"Devarim Rabbah 10:4\">Deut. R. s. 10</cite> <he>לאסטרטיגין וכ׳</he> (read … <he>גוֹס</he>); a. fr.—Pl. <he>אִסְטַרְטֵיגִין</he>, <cite ref=\"A02414\"><he>אִסְטַרְטֵיגֵי</he></cite>.—Targ. II, <cite ref=\"Esther 1:3\">Esth. I, 3</cite> <he>איסתרת׳</he> (corr. acc.) <i>generals</i>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 8:6:9\">Y. Ber. VIII, 12ᶜ</cite> top <he>שני א׳</he> two chiefs of guards; <cite ref=\"Bereishit Rabbah 3\">Gen. R. s. 3</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 143a\">B. Bath. 143ᵃ</cite> <he>בולי ואסטרטיגי</he> Ms. M. (ed. <he>אבולי ואסטרוגי</he>); Y. Yoma I, 39ᵃ top <he>כולי ואסרטיגי</he> (read <he>בולי ואסטרטיגי</he>, v. <cite ref=\"B00265\"><he>בּוּלִי</he> II</cite>). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 969\">Yalk. Koh. 969</cite> <he>אמר לאסטרון שלו</he> (read <he>לאסטרטיגין</he>) he ordered his guard."
+			]
+		}
+	]
+}

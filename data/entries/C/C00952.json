@@ -1,0 +1,44 @@
+{
+	"id": "C00952",
+	"slug": "גלימא",
+	"headword": {
+		"text": "גְּלִימָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּלְמָא"
+		}
+	],
+	"page": {
+		"number": 249,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גְּלַם</he> 2) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>height, hill</i>.—Pl. <he>גְּלִימָתָא</he>, <cite ref=\"C00972\"><he>גַּלְמָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 23:9\">Targ. Y. I Num. XXIII, 9</cite>, <cite ref=\"Targum Jerusalem, Numbers 23:9\">Targ. Y. II, Num. XXIII, 9</cite>; <cite ref=\"Targum Jerusalem, Genesis 49:26\">Targ. Y. II, Gen. XLIX, 26</cite> <cite ref=\"C00395\"><he>גּוֹלַמְתָא</he></cite> (read <cite ref=\"C00399\"><he>גּוֹלְמָ׳</he></cite>). Targ. Y. II ib. 11 sq. <he>גּוֹלְמָתֵיה</he> his hills. ",
+				"<cite ref=\"Aramaic Targum to Psalms 72:3\">Targ. Ps. LXXII, 3</cite> <cite ref=\"C00968\"><he>גַּלְמָ׳</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>valley</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 39:21\">Targ. Job XXXIX, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 18:28\">Targ. Josh. XVIII, 28</cite> Var. (ed. Lag. I, p. VIII<sup>30</sup> <he>גְּלִימַת</he>).—Pl. <he>גְּלִימָתָא</he>, <cite ref=\"C00972\"><he>גַּלְמָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 39:10\">Targ. Job XXXIX, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 21:19\">Targ. Y. Num. XXI, 19</cite>.—<he>גְּלִימִין</he>. Pesik. B’shall. p. 93ᵃ <he>ומחית ליה ג׳</he> (Ar. <cite ref=\"C00972\"><he>גַּלְמָן</he></cite>) and carried him down the valleys."
+			],
+			"label": "2"
+		}
+	]
+}

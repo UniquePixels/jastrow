@@ -1,0 +1,35 @@
+{
+	"id": "G00273",
+	"slug": "זיג-2",
+	"headword": {
+		"text": "זִיג",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 391,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"G00057\"><he>זגג</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be clear, bright, transparent</i>.—Part. <cite ref=\"G00272\"><he>זָיֵג</he></cite>, <cite ref=\"G00333\"><he>זָיֵיג</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesachim 74b:5\">Pes. 74ᵇ</cite> <he>דזיג וכ׳</he> ed. (Ar. <he>דזייג</he>) it was as clear as &c., v. <cite ref=\"G00061\"><he>זְגוּגִיתָא</he></cite>. ",
+				"<cite ref=\"Shabbat 134a:13\">Sabb. 134ᵃ</cite> <he>והיכא דז׳</he> and where there is a transparent spot in the child’s rump. ",
+				"<cite ref=\"Niddah 25a:51\">Nidd. 25ᵃ</cite>. ",
+				"<cite ref=\"Chullin 76b:1\">Ḥull. 76ᵇ</cite> <he>כיון דזִיגֵי וכ׳</he> (Ar. <he>דזייגי</he>) when they are transparent although not white."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Lat. vitrea bilis) <i>to be glass-like</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 61b\">Keth. 61ᵇ</cite> <he>זָג לה</he> she got a greenish bilious complexion (was <i>swollen</i>, Rashi)."
+			],
+			"label": "2"
+		}
+	]
+}

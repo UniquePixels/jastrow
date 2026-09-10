@@ -1,0 +1,51 @@
+{
+	"id": "P00294",
+	"slug": "עונה-1",
+	"headword": {
+		"text": "עוֹנָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1054,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָנָה</he> I) [<i>turn, circle, period</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>moment</i>, esp. <i>‘Onah</i>, <i>the twenty-fourth part of an hour</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 942:33\">Yalk. Deut. 942</cite> <he>ואין להרהר … אפי׳ ע׳ של כלום</he> and you must not criticise God’s dealings with man even for a moment of the least duration; <cite ref=\"Sifrei Devarim 307:6\">Sifré Deut. 307</cite> (some ed. <he>שנה</he>, emended in ed. Fr. <cite ref=\"P00209\"><he>עוולה</he></cite>; corr. acc.). ",
+				"<cite ref=\"Tosefta Berakhot 1:3\">Tosef. Ber. I, 3</cite> <he>הע׳ … בשעה והעת … בע׳</he> an ‘Onah is the twenty-fourth part of an hour, and an ‘Eth the twenty-fourth part of an ‘Onah, and a Reg‘a. the twenty-fourth part of an ‘Eth; Y. ib. I, 2ᵈ top; <cite ref=\"Eichah Rabbah 2:22\">Lam. R. to II, 18</cite> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>‘Onah, a period of twelve astronomical hours, one half of the natural day and of the natural night</i>, or (at solstice) <i>natural day</i>, or <i>natural night</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:14:2\">Y. Ab. Zar. V, end, 45ᵇ</cite>; Bab. ",
+				"<cite ref=\"Avodah Zarah 75a:11\">Ab. Zar. 75ᵃ</cite>; <cite ref=\"Niddah 65b:17\">Nidd. 65ᵇ</cite>. Y. Ab. Zar. l. c. <he>כדי ע׳</he>; <cite ref=\"Tosefta Tahorot 11:16\">Tosef. Toh. XI, 16</cite> <he>מלא ע׳</he> for the term of an ‘Onah; Ab. Zar. l. c. <he>וכמה ע׳</he> how long? An ‘Onah. ",
+				"<cite ref=\"Yevamot 62b:18\">Yeb. 62ᵇ</cite>; <cite ref=\"Niddah 63b:66\">Nidd. 63ᵇ</cite> <he>וכמה … ע׳</he> and how long before?… An ‘Onah. ",
+				"<cite ref=\"Niddah 63b:66\">Ib.</cite> <he>ע׳ אחריתי</he> an additional ‘O. (day or eventually night). ",
+				"<cite ref=\"Niddah 65a:28\">Ib. 65ᵃ</cite> <he>ע׳ שלמה</he> a complete ‘O., expl. ",
+				"<cite ref=\"Niddah 65a:28\">ib.</cite> <he>לילה וחצי יום</he>, expl. ",
+				"<cite ref=\"Niddah 65b:17\">ib.ᵇ</cite> <he>אי לילה וכ׳</he> either the space of one night at solstice, or half a day and half a night &c., in midsummer or midwinter; a. fr.—Pl. <he>עוֹנוֹת</he>. ",
+				"<cite ref=\"Mishnah Mikvaot 8:3\">Mikv. VIII, 3</cite>; <cite ref=\"Tosefta Mikvaot 6:6\">Tosef. ib. VI, 6</cite>; <cite ref=\"Shabbat 86a:4\">Sabb. 86ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 86b:3\">Ib. 86ᵇ</cite>; Y. ib. IX, 12ᵃ top <he>ע׳ שלמות</he> full ‘Onahs (not counting fractions); a. fr.—4) <i>due season, period, stage</i>. ",
+				"<cite ref=\"Mishnah Peah 4:8\">Peah IV, 8</cite> <he>עד שלא באו לעוֹנַת המעשרות</he> before the harvested products have arrived at the stage when they are subject to tithes; <cite ref=\"Mishnah Maasrot 5:5\">Maasr. V, 5</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:27\">Y. M. Kat. III, 83ᵃ</cite> top <he>עוֹנַת קרית שמע</he> the time of the day for reading the Sh’m‘a. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:1:2\">Y. Shek. I, beg. 45ᵈ</cite> <he>כדי שיביאו … בעוֹנָתָן</he> so that the Israelites might deliver their Shekels in due time. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 8:9:4\">Y. Erub. VIII, end, 25ᵇ</cite> <he>אם עונת הגשמים היא</he> if it is during the rainy season; Y. Kil. IX, 32ᵃ. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:5\">Y. Ber. II, 5ᶜ</cite> top <he>בעל התאנה … עוֹנָתָהּ וכ׳</he> the owner of the fig tree knows when it is time for the figs to be picked; <he>כך הקב״ה … עוֹנָתָן של וכ׳</he> so does the Lord know when it is time for the rightheous to be called away; <cite ref=\"Shir HaShirim Rabbah 6:2\">Cant. R. to VI, 2</cite>. Y’lamd. to Num. XXIII, 10, quot. in Ar. <he>עונת אשה</he> marriageable age, v. <cite ref=\"P00320\"><he>עוֹפֶר</he></cite>; a. v. fr.—Esp. (b. h. <cite ref=\"P00970\"><he>עֹנָה</he></cite>) <i>the duty of marital visits at certain intervals, marital duty</i>. ",
+				"<cite ref=\"Mishnah Ketubot 5:6\">Keth. V, 6</cite> <he>הע׳ האמורה בתורה וכ׳</he> the time for marital duties intimated in the Law (<cite ref=\"Exodus 21:10\">Ex. XXI, 10</cite>) is: for men of leisure &c.; <cite ref=\"Bereishit Rabbah 76:7\">Gen. R. s. 76</cite>; <cite ref=\"Yalkut Shimoni on Torah 131\">Yalk. ib. 131</cite>. ",
+				"<cite ref=\"Shabbat 118b:9\">Sabb. 118ᵇ</cite> <he>למימרא … מצות ע׳ לא קיים</he> does this mean that R. J. neglected the regulations concerning the marital duty? <cite ref=\"Ketubot 62b:5\">Keth. 62ᵇ</cite>; a. fr.—Mekh. Mishp., s. 3 (ref. to Ex. l. c.) <he>ועוֹנָתָהּ זו דרך ארץ</he> <i>her ‘onah</i> refers to marital visits; [oth. opin.: <he>ועונתה לא יתן וכ׳</he> <i>her ‘onah</i> means, he must not give her summer apparel in winter &c., but <he>כל אחד ואחד בעונתה</he> each in its due season; anoth. opin.: <he>עונתה זו מזונה</he> <i>her ‘onah</i> means her sustenance (with ref. to <he>ויענך</he> <cite ref=\"Deuteronomy 8:3\">Deut. VIII, 3</cite>; v. <cite ref=\"P00295\">next w.</cite>); <cite ref=\"Ketubot 47b:11\">Keth. 47ᵇ</cite>; Y. ib. V, 30ᵇ top.]"
+			],
+			"label": "2"
+		}
+	]
+}

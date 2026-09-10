@@ -1,0 +1,33 @@
+{
+	"id": "O00352",
+	"slug": "סומקא",
+	"headword": {
+		"text": "סוּמְּקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 966,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00351\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>milt</i>.—Pl. <cite ref=\"O00353\"><he>סוּמְּקֵי</he></cite>. ",
+			"units": ["<cite ref=\"Gittin 69a:4\">Gitt. 69ᵃ</cite>"],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>inflammation of the eye</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:4\">Y. Ab. Zar. II, 40ᵈ</cite> top; Y. Sabb. XIV, 14ᵈ top, v. <cite ref=\"O00926\"><he>סַכָּנָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

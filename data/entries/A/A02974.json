@@ -1,0 +1,28 @@
+{
+	"id": "A02974",
+	"slug": "ארבתא",
+	"headword": {
+		"text": "אֲרַבְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְבָּא"
+		}
+	],
+	"page": {
+		"number": 114,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ארב</he>, h. , b. h. <cite ref=\"P01280\"><he>עֲרָבִים</he></cite> pl.) [<i>the thickly interwoven</i>,] <i>willow</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:2\">Pes. 111ᵇ</cite> <he>טולא דא׳</he> Ms. M., Ar. (v. Rabb. D. S. a. l.; ed. <cite ref=\"P00893\"><he>עֲ׳</he></cite>) the shade of a willow-tree.—Pl. <cite ref=\"A02974\"><he>אַרְבָּתָא</he></cite>. ",
+				"<cite ref=\"Shabbat 20b:11\">Sabb. 20ᵇ</cite> (Ar. <he>אַרְבָּאתָא</he>; Mss. <cite ref=\"P00395\"><he>עַ׳</he></cite>). [<cite ref=\"Gittin 6a:13\">Gitt. 6ᵃ</cite>; <cite ref=\"Kiddushin 72a:2\">Kidd. 72ᵃ</cite> <he>ארבא וכ׳</he> the second willow after crossing the bridge; v., however, <cite ref=\"A02951\"><he>אַרְבָּא</he> I</cite>.] V. <cite ref=\"P01255\"><he>עַרְבָא</he> I</cite>, II a. <cite ref=\"P01290\"><he>עֲרַבְתָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "A01576",
+	"slug": "איצטדיא",
+	"headword": {
+		"text": "אִיצְטַדְיָא"
+	},
+	"page": {
+		"number": 59,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00100\"><he>צדי</he></cite>, v. <cite ref=\"A01577\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>destruction</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cacophem.) <i>theatre;</i> v. <cite ref=\"A02865\"><he>אִצְטַדְיָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

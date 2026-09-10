@@ -1,0 +1,101 @@
+{
+	"id": "I00712",
+	"slug": "טרד-1",
+	"headword": {
+		"text": "טָרַד"
+	},
+	"page": {
+		"number": 550,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00767\"><he>טרי</he></cite>) [<i>to move, shake</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be running, to drip</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 49b:7\">Nidd. 49ᵇ</cite> <he>היה טוֹרֵד וכ׳</he> if the liquid drips drop after drop. ",
+				"<cite ref=\"Bekhorot 44a\">Bekh. 44ᵃ</cite> (<cite ref=\"P00622\"><he>עיניו</he></cite>) <he>טוֹרְדוֹת</he> running eyes (more than <he>דלף</he>); [Ar.: <i>restless, constantly twinkling;</i> oth. opin.: <i>shutting with great trouble</i>, v. infra)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of waves) <i>to carry</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Yevamot 14:5\">Tosef. Yeb. XIV, 5</cite> <he>שמא גל טורד אותו וכ׳</he> (v. ed. Zuck. note) perhaps a wave carries and lands him. ",
+				"<cite ref=\"Tosefta Yevamot 14:5\">Ib.</cite> <he>טְרָדַנִי גל לחבירו</he> one wave carried me to the other; (Y. ib. XVI, 15ᵈ top <he>טרפני</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to make homeless, banish</i> (cmp. <cite ref=\"I00490\"><he>טִלְטֵל</he></cite>). ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 21</cite> <he>טְרָדָהּ חוץ וכ׳</he> he sent her out of the palace. ",
+				"<cite ref=\"Bereishit Rabbah 83\">Gen. R. s. 83</cite> (play on <he>מ̇הי̇טב̇אל בת מט̇ר̇ד̇</he>) <he>שהיו מט̇יב̇ין … ואח״כ טו̇רְדִין וכ׳</he> they dressed her for her husband and then led her away from her husband. ",
+				"<cite ref=\"Kiddushin 31a:14\">Kidd. 31ᵃ</cite> <he>וטוֹרְדוֹ מן העולם</he> and drives him (his father) out of the world (makes him desperate). ",
+				"<cite ref=\"Midrash Tehillim 31\">Midr. Till. to Ps. XXXI</cite>, beg. <he>וט׳ אותם מן העולם</he> and drove them into despair, a. fr.—3) <i>to weary, make unsteady</i>. ",
+				"<cite ref=\"Sanhedrin 22b\">Snh. 22ᵇ</cite>; <cite ref=\"Eruvin 64b:13\">Erub. 64ᵇ</cite> <he>דרך טוֹרְדָתוֹ</he> (<cite ref=\"Taanit 17b:2\">Taan. 17ᵇ</cite> <he>מַטְרִידָתוֹ</he> <i>Hif.</i>, Ms. M. everywhere <he>מַטְרַחְתּוֹ</he>, v. <cite ref=\"I00743\"><he>טָרַח</he></cite>) walking makes him unsteady (feel the wine)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to stir up</i> (dregs), <i>trouble</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 139b\">Sabb. 139ᵇ</cite>. ",
+				"<cite ref=\"Niddah 25a\">Nidd. 25ᵃ</cite>, sq. <he>מים … וטוֹרְדִין וכ׳</he> water is strong (is in commotion) and stirs the mass up, opp. <he>מצחצחו</he> makes it clear.—<i>Part. pass.</i> <cite ref=\"I00720\"><he>טָרוּד</he></cite>, f. <he>טְרוּדָה</he>; pl. <he>טְרוּדִים</he>, <he>דִין …</he>, <he>טְרוּדוֹת</he> "
+			],
+			"label": "4",
+			"senses": [
+				{
+					"gloss": " <i>busily engaged, troubled, anxious</i>. Gen. R. l. c. (play on <he>מטרד</he>, v. supra) <he>ט׳ היו וכ׳</he> they were anxious for a living. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Berakhot 9:2:6\">Y. Ber. IX, 13ᶜ</cite> bot. <he>טרודין</he> Asheri to <cite ref=\"Mishnah Berakhot 9:13\">Ber. IX, 13</cite> (ed. Krot. <he>טורדין</he>) uninterrupted lightnings; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>banished</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite>, v. <cite ref=\"M01002\"><he>מַטְלוֹן</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִטְרַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be troubled, agitated, confused</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>; Tanḥ. Balak 11, end <he>היה נִטְרָד</he> he became confused, opp. <he>שפוי</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be banished</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 2:30\">Deut. R. s. 2</cite> <he>יִטָּרֵד למטלון</he> he shall be sent into exile. ",
+						"<cite ref=\"Devarim Rabbah 6\">Deut. R. s. 6</cite> <he>תִּיטָּרֵד וכ׳</he>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִטְרִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to weary</i>. ",
+					"units": ["<cite ref=\"Taanit 17b\">Taan. 17ᵇ</cite>, v. supra."]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

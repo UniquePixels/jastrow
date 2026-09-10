@@ -1,0 +1,23 @@
+{
+	"id": "G00479",
+	"slug": "זלדקן",
+	"headword": {
+		"text": "זַלְדְּקַן"
+	},
+	"page": {
+		"number": 401,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a comp. of <cite ref=\"G00475\"><he>זל</he></cite>, v. <he>זלל</he>, a. <cite ref=\"D01012\"><he>דְּקַן</he></cite>) <i>thin-bearded, one with a downy beard</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 100b:8\">Snh. 100ᵇ</cite> (a citation fr. Ben Sira) <he>ז׳ קורטמן</he> (Ms. M. <he>דלדקן</he>, Var. <he>דל דקן</he>, <he>זיל ד׳</he> &c., v. Rabb. D. S. a. l. note) a thin-bearded person is sharp-minded. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:1:4\">Y. Taan. IV, beg. 67ᵇ</cite>; <cite ref=\"Jerusalem Talmud Megillah 4:8:2\">Y. Meg. IV, 75ᶜ</cite> top <he>הוה מעבר ז׳</he> removed one with a downy beard (from pronouncing the priestly benediction)."
+			]
+		}
+	]
+}

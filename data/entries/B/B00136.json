@@ -1,0 +1,28 @@
+{
+	"id": "B00136",
+	"slug": "בדיות",
+	"headword": {
+		"text": "בַּדָּיוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּדָּאוּת"
+		}
+	],
+	"page": {
+		"number": 140,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00129\"><he>בדי</he></cite>) <i>fiction, falsehood</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite>, v. <cite ref=\"B00101\"><he>בָּדָא</he></cite>."
+			]
+		}
+	]
+}

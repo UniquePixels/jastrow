@@ -1,0 +1,24 @@
+{
+	"id": "O00609",
+	"slug": "סיטמניא",
+	"headword": {
+		"text": "סִיטְמָנַיָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 978,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"O00495\"><he>סְטַם</he></cite>) <i>sealed-up things, hidden treasures</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 33:19\">Targ. Y. II, Deut. XXXIII, 19</cite> ed. Vien., v. <cite ref=\"O00684\"><he>סִימָא</he> II</cite>."
+			]
+		}
+	]
+}

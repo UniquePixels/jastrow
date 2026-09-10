@@ -1,0 +1,29 @@
+{
+	"id": "O01082",
+	"slug": "סמידא",
+	"headword": {
+		"text": "סְמִידָא"
+	},
+	"page": {
+		"number": 1000,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"O01060\"><he>סְמָדָר</he></cite>, a. σεμίδαλις) <i>finest flour</i> (in Targ. Y. corresp. to <cite ref=\"O01045\"><he>סֹלַת</he></cite> in Targ. O.). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 29:2\">Targ. Y. Ex. XXIX, 2</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Genesis 18:6\">Targ. Y. Gen. XVIII, 6</cite> <he>ס׳ דסולתא</he> (h. text <he>קמח סלת</he>).—",
+				"<cite ref=\"Gittin 56a:11\">Gitt. 56ᵃ</cite> (contrad. to <cite ref=\"H00689\"><he>חִיוָּרִיתָא</he></cite> a. <cite ref=\"C00509\"><he>גּוּשְׁקְרָא</he></cite>).—",
+				"<cite ref=\"Pesachim 74b\">Pes. 74ᵇ</cite> <he>בס׳ דמיפרך</he> Ms. M. (ed. <he>בסְמִידִי דמפריר</he>; Ms. M. 2 <he>בדסִימְדִי</he>) in the case of a paste of the finest flour, which is brittle. ",
+				"<cite ref=\"Pesachim 74b\">Ib.</cite> <he>דס׳</he> a paste of &c. ",
+				"<cite ref=\"Moed Katan 28a:15\">M. Kat. 28ᵃ</cite> <he>לחמא דס׳ לכלבי וכ׳</he> Ms. M. (ed. <he>ס׳</he> only) bread of finest flour was given to the dogs and was not wanted (i.e. there was great affluence). ",
+				"<cite ref=\"Pesachim 42a\">Pes. 42ᵃ</cite> sq. <he>פת נקייה דס׳</he> ‘pure bread’ means bread of fine flour. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 989:54\">Yalk. Koh. 989</cite> <he>אייתי צמידא וכ׳</he> bring me bread of fine flour and good wine &c.; a. fr.—Denom. <he>סְמִידִי</he>, <cite ref=\"O00688\"><he>סִימְדִּי</he></cite>, v. supra."
+			]
+		}
+	]
+}

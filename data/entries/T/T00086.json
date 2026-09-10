@@ -1,0 +1,35 @@
+{
+	"id": "T00086",
+	"slug": "רבי-7",
+	"headword": {
+		"text": "רָבֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָבְיָא"
+		},
+		{
+			"text": "רַ׳"
+		}
+	],
+	"page": {
+		"number": 1442,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רְבֵי</he> I) [<i>growing</i>,] <i>boy; apprentice</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:2\">Targ. O. Gen. XXXVII, 2</cite> ed. Berl. (oth. ed. <cite ref=\"M02583\"><he>מְרַבֵּי</he></cite>). Ib. XXI, 20, v. <he>רְבֵי</he> II. Ib. 8; a. fr.—",
+				"<cite ref=\"Sukkah 5b:5\">Succ. 5ᵇ</cite> (expl. <cite ref=\"K01101\"><he>כרוב</he></cite>), v. <cite ref=\"K01101\"><he>כְּרוּב</he> I</cite>; a. e.—<i>Fem.</i> <he>רְבִיתָא</he> <i>girl</i>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 24:14\">Targ. Y. Gen. XXIV, 14</cite> Ar. (ed. <cite ref=\"T00582\"><he>ריבא</he></cite>). Targ. II Esth. II, 12, sq.; a. e.—",
+				"<cite ref=\"Sanhedrin 109b:9\">Snh. 109ᵇ</cite> <he>הויא ההיא ר׳ וכ׳</he> there was a girl (in Sodom) that carried bread for the poor in a pitcher. ",
+				"<cite ref=\"Sanhedrin 58b:15\">Ib. 58ᵇ</cite> <he>ר׳ דפלניא</he> that slave’s girl (assigned to him as wife by his master). ",
+				"<cite ref=\"Kiddushin 70b:10\">Kidd. 70ᵇ</cite> <he>דלא אשתייר … ר׳ וכ׳</he> for none of them (the Asmonean family) survived except a certain girl &c.; a. e.—V. <cite ref=\"T00582\"><he>רִיבָא</he></cite>."
+			]
+		}
+	]
+}

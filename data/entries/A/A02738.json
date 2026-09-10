@@ -1,0 +1,32 @@
+{
+	"id": "A02738",
+	"slug": "אפליון",
+	"headword": {
+		"text": "אַפַּלְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּלְיוּם"
+		},
+		{
+			"text": "פַּלְיוֹן"
+		}
+	],
+	"page": {
+		"number": 105,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (pallium, παλλίον) <i>pallium, a sheet worn as a cloak and used for bed-cover</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 120a\">Sabb. 120ᵃ</cite> Ar. a. Rashi (ed. <cite ref=\"A02691\"><he>אפיליות</he></cite>, Ms. M. <cite ref=\"Q00679\"><he>פיליון</he></cite>, corr. acc.). Y. ib. XVI, 15ᵈ top <cite ref=\"Q00679\"><he>פיליון</he></cite> (corr. acc.). ",
+				"<cite ref=\"Mishnah Niddah 8:1\">Nidd. VIII, 1</cite> <he>וכן בפליום</he> Mish. (Bab. ed. <cite ref=\"Q00224\"><he>פוליוס</he></cite>, corr. acc., Var. <cite ref=\"Q01046\"><he>פליון</he></cite>). ",
+				"<cite ref=\"Tractate Semachot 12:11\">Treat. S’maḥoth XII</cite> <he>מאפלוני</he>, read <he>מֵאַפַּלְיוֹנִי</he>."
+			]
+		}
+	]
+}

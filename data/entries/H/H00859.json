@@ -1,0 +1,27 @@
+{
+	"id": "H00859",
+	"slug": "חיצא",
+	"headword": {
+		"text": "חִיצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיצַי"
+		}
+	],
+	"page": {
+		"number": 459,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חוּץ</he> I) <i>partition, screen</i>.—Pl. <he>חִיצָאוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>מפקיע בח׳</he> breaking into the screens (of the bridal chamber); <cite ref=\"Yalkut Shimoni on Torah 47:2\">Yalk. ib. 47</cite> <he>בחַיְיצָאוֹת</he>."
+			]
+		}
+	]
+}

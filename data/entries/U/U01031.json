@@ -1,0 +1,31 @@
+{
+	"id": "U01031",
+	"slug": "שיצא",
+	"headword": {
+		"text": "שֵׁיצָא"
+	},
+	"page": {
+		"number": 1567,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. <cite ref=\"U01030\">same</cite><i>prickly twig; stony date.—</i>Pl. <cite ref=\"U01033\"><he>שֵׁיצֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 25b:14\">M. Kat. 25ᵇ</cite> bot. <he>טעון דיקלי ש׳</he> the palms bore stony dates (Rashi: <i>thorns</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fin</i> of a whale &c. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73b:6\">B. Bath. 73ᵇ</cite> <he>וסגאי … בין ש׳ לש׳ וכ׳</he> and the ship went between one fin of the fish and the other for three days, itself swimming upwards (against the wind), and we floating downwards.—Pl. as ab. ",
+				"<cite ref=\"Bava Batra 73b:6\">Ib.</cite> <he>ההיא גילדנא … תרי ש׳</he> Ms. R. a. ed. L (ed. <he>שַׁיְיצֵי</he>) that was a sea <i>gildana</i> (v. <cite ref=\"C00882\"><he>גִּלְדָּנָא</he></cite>), which has two fins (on each side)."
+			],
+			"label": "2"
+		}
+	]
+}

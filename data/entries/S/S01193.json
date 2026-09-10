@@ -1,0 +1,27 @@
+{
+	"id": "S01193",
+	"slug": "קירסום",
+	"headword": {
+		"text": "קִירְסוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִרְ׳"
+		}
+	],
+	"page": {
+		"number": 1369,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02125\"><he>קִרְסֵם</he></cite>) <i>plucking the tops off</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:2:7\">Y. Shebi. II, 33ᵈ</cite> [read:] <he>דר״ש כר׳ יהושע בק׳</he> that R. S. agrees with R. J. concerning the plucking of ears in the Sabbatical year."
+			]
+		}
+	]
+}

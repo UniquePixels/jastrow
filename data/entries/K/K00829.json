@@ -1,0 +1,28 @@
+{
+	"id": "K00829",
+	"slug": "כנא-1",
+	"headword": {
+		"text": "כַּנָּא"
+	},
+	"page": {
+		"number": 648,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00828\">same</cite><i>base, fixed place, line</i>.—Pl. <he>כַּנַּיָּיא</he>. ",
+			"units": [
+				"<cite ref=\"Berakhot 57b:8\">Ber. 57ᵇ</cite> <he>בכַנַּיְיהוּ חזי</he> (Ms. M. <he>בב׳</he>) he saw them (in his dream) in the regular places (as planted in the field). V. <cite ref=\"K00838\"><he>כַּנְהָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>kanna</i>, a small measure (v. <cite ref=\"K00828\">preced.</cite>). ",
+			"units": [
+				"<cite ref=\"Ketubot 99b:3\">Keth. 99ᵇ</cite>; <cite ref=\"Meilah 21b:18\">Meïl. 21ᵇ</cite> <he>כ׳ כ׳ בפרוטה</he> each <i>k.</i> for a P’rutah (no reduction for larger quantities).—Pl. <cite ref=\"K00849\"><he>כַּנֵּי</he></cite>. ",
+				"<cite ref=\"Meilah 21b:18\">Ib.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

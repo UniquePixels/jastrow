@@ -1,0 +1,26 @@
+{
+	"id": "C01008",
+	"slug": "גמול",
+	"headword": {
+		"text": "גְּמוּל"
+	},
+	"page": {
+		"number": 252,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C01037\"><he>גָּמַל</he></cite>)<i>deed, reward, recompense</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 8b:10\">Keth. 8ᵇ</cite> <he>בעל הג׳ … גְּמוּלְכֶם</he> may He who rewards, pay you for your good deed.—Pl. <he>גְּמוּלִים</he>, <he>גְּמוּלִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 13:15\">Gen. R. s. 13</cite> <he>ג׳ טובים וכ׳</he> goodness bestowed on the guilty. ",
+				"<cite ref=\"Tosefta Shevi'it 7:9\">Tosef. Shebi. VII, 9</cite> <he>ואין משלמין מהן ג׳</he> and favors received must not be repaid with them (the fruits of the Sabbath year); <cite ref=\"Tosefta Shevi'it 7:9\">ib.</cite> ",
+				"<cite ref=\"Mishnah Peah 4:16\">Peah IV, 16</cite>.—<he>גְּמוּלוֹת</he>. ",
+				"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite> <he>ג׳ אני פורע</he> (some ed. <he>גמי׳</he> incorr.) I repay according to deeds."
+			]
+		}
+	]
+}

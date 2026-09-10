@@ -1,0 +1,60 @@
+{
+	"id": "S00811",
+	"slug": "קטף-2",
+	"headword": {
+		"text": "קְטַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1352,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00810\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 25:11\">Targ. O. Lev. XXV, 11</cite> (Y. <i>Pa.</i>; h. text <he>בצר</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 23:26\">Targ. Deut. XXIII, 26</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 2:31\">Targ. I Sam. II, 31</cite> (h. text <he>גדע</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 5:11\">Targ. Ez. V, 11</cite> (h. text !<cite ref=\"C01379\"><he>גרע</he></cite>); a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 22</cite> <he>קַטֵּיף … דקְטַפְתְּ וכ׳</he>, v. <cite ref=\"P00262\"><he>עוֹלְלָא</he></cite>. Y. Gitt. III, end, 45ᵇ <he>דאינון קָטְפִין בתר קדימתא וכ׳</he> (not <he>קדמיתא</he>) they cut the grapes after the first east wind after Succoth; a. fr.—Part. pass. <cite ref=\"S00764\"><he>קְטִיף</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 11:9\">Koh. R. to XI, 9</cite> <he>כדון נחירך ק׳ וכ׳</he> now that thy nose is nipped (hanging down like a faded plant), thy ear heavy of hearing &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַטֵּיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00810\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 25:11\">Targ. Y. Lev. XXV, 11</cite>; a. e.—Lam. R. l. c., v. supra.—2) same."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to break off, interrupt</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 72b:4\">Ab. Zar. 72ᵇ</cite> <he>דקא מְקַטֵּיף קַטּוּפֵי</he> (Rashi <he>דמפסוקי פסוקי</he>, read <he>דמפסיק</he>) he breaks off (the connection of the flow, withdraws the pouring vessel before the jet reaches the vessel into which the wine is poured). ",
+						"<cite ref=\"Avodah Zarah 72b:8\">Ib.</cite> <he>קַטְּפוּ קטופי</he> (not <he>קטפי</he>; Ar. ed. Koh. <he>קטיפתו</he>) interrupt you the flow!"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְקְטֵיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken off, lopped, mutilated</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 46:1\">Targ. Is. XLVI, 1</cite>, sq. (h. text <he>קרס</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 48:25\">Targ. Jer. XLVIII, 25</cite> (h. text <cite ref=\"C00235\"><he>נגדע</he></cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

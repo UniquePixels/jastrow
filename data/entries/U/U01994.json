@@ -1,0 +1,42 @@
+{
+	"id": "U01994",
+	"slug": "שרכפא",
+	"headword": {
+		"text": "שַׁרְכָּפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁרְכְּ׳"
+		}
+	],
+	"page": {
+		"number": 1632,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<i>Parel</i> of <cite ref=\"U01180\"><he>שכף</he></cite>, √<he>כף</he>; cmp. <cite ref=\"K01019\"><he>כְּפִיפָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>nest</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 22:6\">Targ. Y. Deut. XXII, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 84:4\">Targ. Ps. LXXXIV, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 29:18\">Targ. Job XXIX, 18</cite>; a. e.—Pl. <he>שַׁרְכְּפִין</he>, <he>שַׁרְכְּפֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:17\">Targ. Ps. CIV, 17</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>coop, basket</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 53b\">Ḥull. 53ᵇ</cite> Ar. (ed. <he>שַׁרְקָפָא</he>; Ms. M. <cite ref=\"U01085\"><he>שִׁירְקָ׳</he></cite>; Ms. H. <he>סרק׳</he>; cmp. <cite ref=\"S01741\"><he>קְפִיפָה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

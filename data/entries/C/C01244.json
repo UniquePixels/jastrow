@@ -1,0 +1,33 @@
+{
+	"id": "C01244",
+	"slug": "גרגותא",
+	"headword": {
+		"text": "גַּרגּוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּרְגִּיתָא"
+		},
+		{
+			"text": "גַּרְגְּרִיתָא"
+		}
+	],
+	"page": {
+		"number": 264,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>גלגליתא</he>, v. <cite ref=\"C00872\"><he>גַּלְגְּלָא</he></cite>, cmp. <cite ref=\"C01257\"><he>גַּרְגַּר</he></cite>) <i>wheel-work, well for irrigating fields</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 58a:16\">Ber. 58ᵃ</cite>; <cite ref=\"Bava Batra 91b:2\">B. Bath. 91ᵇ</cite> (prov.) <he>אפי׳ ריש ג׳ וכ׳</he> (Ber. ed. <he>גרגי׳</he>, Ms. M. <he>גדגיד׳</he>, corr. acc., v. Rabb. D. S. a. l.) even a superintendent of the well (cmp. <cite ref=\"B00600\"><he>בַּיָּיר</he></cite>) is appointed in heaven. ",
+				"<cite ref=\"Bava Kamma 27b:12\">B. Kam. 27ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 103a:9\">B. Mets. 103ᵃ</cite> if one says, ‘Lend me <he>ההיא ג׳</he> the use of <i>this</i> well’, he may restore &c.; <he>בי ג׳</he> ‘a place (in the field) for a well’,—he may go on digging wells until he strikes one that suits him. ",
+				"<cite ref=\"Bava Batra 56a:4\">B. Bath. 56ᵃ</cite>.—Pl. <he>גַּרְגּוּתֵי</he>. B. Mets. l. c."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A00148",
+	"slug": "אבית",
+	"headword": {
+		"text": "אַבְיַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבְיַת ישימון"
+		}
+	],
+	"page": {
+		"number": 6,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " pr. n. pl. <i>Abyath Y’shimon</i>, usu. <cite ref=\"J00481\"><he>בֵּית י׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 21:20\">Targ. Y. II, Num. XXI, 20</cite>."
+			]
+		}
+	]
+}

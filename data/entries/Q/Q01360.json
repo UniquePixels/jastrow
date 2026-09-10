@@ -1,0 +1,23 @@
+{
+	"id": "Q01360",
+	"slug": "פסקיות",
+	"headword": {
+		"text": "פִּסְקָיוֹת"
+	},
+	"page": {
+		"number": 1201,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"Q01350\"><he>פָּסַק</he></cite>) <i>divisions, parties</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 33:6\">Lev. R. s. 33</cite> <he>כשהייתם … נעשים פ׳ פ׳ לע״ז</he> (Ar. <cite ref=\"Q01354\"><he>פִּסְקָאוֹת</he></cite>) when you lived in your own land, you formed parties for the various idols (with play on <he>ותפשקי</he>, <cite ref=\"Ezekiel 16:25\">Ez. XVI, 25</cite>); Yalk. Dan. 1061."
+			]
+		}
+	]
+}

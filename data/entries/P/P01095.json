@@ -1,0 +1,31 @@
+{
+	"id": "P01095",
+	"slug": "עצב-5",
+	"headword": {
+		"text": "עָצֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "עצֵבָה"
+		}
+	],
+	"page": {
+		"number": 1101,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P01094\">preced.</cite>) <i>sad, grief-stricken</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 119a\">Pes. 119ᵃ</cite> <he>מלך בו״ד מנצחין אותו וע׳ וכ׳</he> a human King grieves when he is defeated, but the Lord &c.; (<cite ref=\"Midrash Tehillim 4:4\">Midr. Till. to Ps. IV</cite> <he>כועס</he>), v. <cite ref=\"N01108\"><he>נָצַח</he></cite>. ",
+				"<cite ref=\"Berakhot 5a:8\">Ber. 5ᵃ</cite> <he>מוכר ע׳ ולוקח שמח</he> the seller grieves (because he has to part with a dear possession), and the buyer is glad; a. e.—Pl. <he>עֲצֵבִים</he>, <he>עֲצֵבִין</he>; <cite ref=\"P01099\"><he>עֲצֵבוֹת</he></cite>, <cite ref=\"P01114\"><he>עֲצֵי׳</he></cite>. ",
+				"<cite ref=\"Yoma 21b:10\">Yoma 21ᵇ</cite>. ",
+				"<cite ref=\"Yoma 67a:9\">Ib. 67ᵃ</cite>; a. e.—Trnsf. (of the fingers of the hand) <i>pressed together, narrow</i>, opp. <he>שׂוֹחֵק</he>. ",
+				"<cite ref=\"Eruvin 3b:21\">Erub. 3ᵇ</cite>, a. e., v. <cite ref=\"A01989\"><he>אַמָּה</he></cite>."
+			]
+		}
+	]
+}

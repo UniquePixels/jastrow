@@ -1,0 +1,29 @@
+{
+	"id": "A02458",
+	"slug": "אסכרא",
+	"headword": {
+		"text": "אַסְכְּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַסְכָּרָה"
+		}
+	],
+	"page": {
+		"number": 94,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00941\"><he>סכר</he></cite>; cmp. ",
+			"units": [
+				"<cite ref=\"Psalms 63:12\">Ps. LXIII, 12</cite>) <i>choking, croup</i>. ",
+				"<cite ref=\"Berakhot 8a:13\">Ber. 8ᵃ</cite>. ",
+				"<cite ref=\"Taanit 27b:7\">Taan. 27ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

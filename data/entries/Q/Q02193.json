@@ -1,0 +1,27 @@
+{
+	"id": "Q02193",
+	"slug": "פתפות",
+	"headword": {
+		"text": "פִּתְפּוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1255,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02194\">next w.</cite>) <i>breaking, smashing.—</i>Pl. constr. <cite ref=\"Q02193\"><he>פִּתְפּוּתֵי</he></cite>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>, only in <he>פ׳ בצים</he> mashed eggs, a phrase for <i>confusion</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:5:3\">Cant. R. to II, 5</cite> <he>פ׳ ב׳ יש כאן</he> there is a confusion (of names) here; <cite ref=\"Jerusalem Talmud Sanhedrin 11:5:4\">Y. Snh. XI, 30ᵇ</cite> bot."
+			]
+		}
+	]
+}

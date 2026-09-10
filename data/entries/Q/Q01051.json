@@ -1,0 +1,29 @@
+{
+	"id": "Q01051",
+	"slug": "פליטה-2",
+	"headword": {
+		"text": "פְּלֵיטָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּלֵטָה"
+		}
+	],
+	"page": {
+		"number": 1181,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"Q00997\"><he>פָּלַט</he></cite>)<i>escape, safety; remnant</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 76\">Gen. R. s. 76</cite> [read:] <he>אע״פ שנשארו לפ׳ הֱיוּ מתענין עליהן וכ׳</he> (v. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 131\">Yalk. ib. 131</cite>) although they (in the diaspora) have been allowed to escape (from the persecutions in Palestine), yet fast (and pray) for them &c. ",
+				"<cite ref=\"Bereishit Rabbah 38:6\">Gen. R. s. 38</cite> <he>נשתיירה מהן פ׳</he> a remnant of them was left; a. e."
+			]
+		}
+	]
+}

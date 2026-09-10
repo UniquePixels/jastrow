@@ -1,0 +1,23 @@
+{
+	"id": "H01815",
+	"slug": "חשד-5",
+	"headword": {
+		"text": "חֲשָׁד"
+	},
+	"page": {
+		"number": 509,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01814\">preced.</cite> wds.) <i>suspicion</i>. <he>מפני הח׳</he> <i>to avoid suspicion</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 23b:1\">Sabb. 23ᵇ</cite> <he>מפני הח׳</he> (<cite ref=\"Tosefta Peah 1:6\">Tosef. Peah I, 6</cite> <he>מפני מראית העין</he>) to avoid suspicion (as if he appropriated to himself the poor man’s share). ",
+				"<cite ref=\"Yoma 30a:4\">Yoma 30ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

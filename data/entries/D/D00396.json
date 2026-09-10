@@ -1,0 +1,32 @@
+{
+	"id": "D00396",
+	"slug": "דחד",
+	"headword": {
+		"text": "דְּחַד",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 291,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D00396\"><he>דַּחֵד</he></cite> (= <he>חדחד</he>) <i>to set apart of each kind</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 15:14\">Targ. Y. I Deut. XV, 14</cite> (O. <he>פרש</he>, h. text <cite ref=\"P01008\"><he>ענק</he></cite> Hif.) <he>מְדַחֲדָא תְדַחֲדוּן ליה</he> (ed. Amst. <he>מדחר׳ תדחר׳</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

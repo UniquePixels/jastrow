@@ -1,0 +1,40 @@
+{
+	"id": "U01170",
+	"slug": "שכם-3",
+	"headword": {
+		"text": "שְׁכֶם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1575,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>shoulder</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 53\">Gen. R. s. 53</cite> (ref. to <cite ref=\"Genesis 21:14\">Gen. XXI, 14</cite>) <he>שכן דרך עבדים … על שִׁכְמָם</he> for such is the manner of slaves, to carry their filled pitchers on their shoulder; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>load</i>; trnsf. (cmp. <cite ref=\"M02796\"><he>מַשָּׂא</he></cite>, <cite ref=\"O00075\"><he>סִבָּלוֹן</he></cite>) <i>portion, share</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 97:6\">Gen. R. s. 97</cite>, end (ref. to <cite ref=\"Genesis 48:22\">Gen. XLVIII, 22</cite>) <he>ש׳ זו הבכורה</he> by <i>sh’khem</i> is meant the share of the first-born; <cite ref=\"Bava Batra 123a:9\">B. Bath. 123ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>mountain range</i>, v. <cite ref=\"U01171\">next w.</cite>",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

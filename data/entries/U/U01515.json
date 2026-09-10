@@ -1,0 +1,27 @@
+{
+	"id": "U01515",
+	"slug": "שמע-5",
+	"headword": {
+		"text": "שֵׁמַע",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁמְעָא"
+		}
+	],
+	"page": {
+		"number": 1599,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01514\">same</cite>, <i>report, fame</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 29:13\">Targ. Gen. XXIX, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 18:45\">Targ. Ps. XVIII, 45</cite>; <cite ref=\"II Samuel 22:45\">II Sam. XXII, 45</cite> ed. Lag. (oth. <he>שְׁמוֹעַ</he>, <cite ref=\"U01437\"><he>שְׁמוּעַ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Joshua 6:27\">Targ. Josh. VI, 27</cite> <cite ref=\"U01519\"><he>שִׁמְעֵיה</he></cite> (some ed. <he>שָׁמְ׳</he>); a. e."
+			]
+		}
+	]
+}

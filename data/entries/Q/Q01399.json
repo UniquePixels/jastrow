@@ -1,0 +1,26 @@
+{
+	"id": "Q01399",
+	"slug": "פפא-2",
+	"headword": {
+		"text": "פַּפָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נְהַר פּ׳"
+		}
+	],
+	"page": {
+		"number": 1203,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>N’har Pappa</i>, name of a canal and of a place in Babylonia. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86a:11\">B. Mets. 86ᵃ</cite> <cite ref=\"Yoma 77b:11\">Yoma 77ᵇ</cite> (Ms. O. <he>פקוד</he>; Ar. a. Ms. Alf. <cite ref=\"Q02043\"><he>פרת</he></cite>, v. Rabb. D. S. a. l. note 8).—Denom. f. pl. (<cite ref=\"N00280\"><he>נְהַר</he></cite>) <cite ref=\"Q01415\"><he>פַּפְיָתָא</he></cite> belonging to N. P. ",
+				"<cite ref=\"Eruvin 82b:16\">Erub. 82ᵇ</cite> <he>תרתי ריפתא נ׳ פ׳</he> (Ms. M. <cite ref=\"Q01410\"><he>פַּפְיָאתָא</he></cite>; ed. Sonc. <he>ריפתאה פפיתאה</he>, v. Rabb. D. S. a. l. note) two loaves of the size baked in N. P."
+			]
+		}
+	]
+}

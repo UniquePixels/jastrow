@@ -1,0 +1,22 @@
+{
+	"id": "O01102",
+	"slug": "סמל-1",
+	"headword": {
+		"text": "סֶמֶל"
+	},
+	"page": {
+		"number": 1002,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; Saf. of <cite ref=\"M00483\"><he>מוּל</he> II</cite>; cmp. <cite ref=\"A01200\"><he>אִיזְמֵל</he></cite>) [<i>carving</i>,] <i>carved image</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 68:13\">Gen. R. s. 68</cite> (ref. to <cite ref=\"O01005\"><he>סלם</he></cite>, <cite ref=\"Genesis 28:12\">Gen. XXVIII, 12</cite>) <he>זה צלמו … הוא סלם הוא ס׳ וכ׳</he> that means the image of Nebuchadnezzar, <i>sullam</i> is <i>semel</i>, the letters being the same."
+			]
+		}
+	]
+}

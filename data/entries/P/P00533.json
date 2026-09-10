@@ -1,0 +1,42 @@
+{
+	"id": "P00533",
+	"slug": "עיטור",
+	"headword": {
+		"text": "עִיטּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִפּ׳"
+		}
+	],
+	"page": {
+		"number": 1068,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00475\"><he>עָטַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>crowning, wreathing</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 51a:16\">Ber. 51ᵃ</cite>, v. preced.—[Y. ib. VII, end, 11ᵈ, read: <cite ref=\"P00439\"><he>עָטוּר</he></cite>, v. <cite ref=\"P00475\"><he>עָטַר</he></cite>.] <cite ref=\"Mishnah Bikkurim 3:10\">Bicc. III, 10</cite> <he>ע׳ הבכורים מין וכ׳</he> the basket of first-fruits must be wreathed with plants different from those offered. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:4:6\">Y. Ab. Zar. I, 39ᵈ</cite> <he>משם עיתור</he> (corr. acc.) as a decoration in honor of an idolatrous deity, v. <cite ref=\"Q02015\"><he>פְּרַקְסִיס</he></cite>.—Pl. <cite ref=\"P00534\"><he>עִיטּוּרִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:5\">Y. Succ. I, 51ᵈ</cite> bot. <he>ותולה בה ע׳ וכ׳</he> and he suspended from the ceiling of the Succah wreaths (decorations) of material which may be used for covering. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:1:11\">Y. Bets. I, 60ᵇ</cite> top <he>עִיטּוּרֵי סוכה</he> the decorations of the Succah; <cite ref=\"Jerusalem Talmud Shabbat 3:6:2\">Y. Sabb. III, 6ᵇ</cite> bot."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P00539\"><he>עִיטְרָא</he></cite>) <i>cutting off</i>; <he>ע׳ סופרים</he> <i>separation of words</i> (by omitting the conjunctive Vav) <i>as established by the Scribes</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 37b:8\">Ned. 37ᵇ</cite> (ref. to <he>אחר</he> for <he>ואחר</he>, <cite ref=\"Genesis 18:5\">Gen. XVIII, 5</cite>; <cite ref=\"Genesis 24:55\">ib. XXIV, 55</cite>; <cite ref=\"Numbers 12:14\">Num. XII, 14</cite>; <cite ref=\"Psalms 68:26\">Ps. LXVIII, 26</cite>, a. to <he>משפטיך</he> for <he>ומשפ׳</he>, <cite ref=\"Psalms 36:7\">ib. XXXVI, 7</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

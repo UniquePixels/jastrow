@@ -1,0 +1,23 @@
+{
+	"id": "M01855",
+	"slug": "מסו-1",
+	"headword": {
+		"text": "מְסוֹ"
+	},
+	"page": {
+		"number": 804,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01852\"><he>מָסָה</he></cite>; cmp. <cite ref=\"E00636\"><he>הֶמְסֵס</he></cite>) <i>a liquid substance used for curdling</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 4:7\">Gen. R. s. 4</cite>, end <he>טיפה אחת של מ׳</he> one drop of <i>m’so</i>. ",
+				"<cite ref=\"Bereishit Rabbah 14:5\">Gen. R. s. 14</cite>; <cite ref=\"Vayikra Rabbah 14:9\">Lev. R. s. 14</cite>; <cite ref=\"Yalkut Shimoni on Nach 905:4\">Yalk. Job 905</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "U01739",
+	"slug": "שפי-6",
+	"headword": {
+		"text": "שְׁפֵי",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁפָא"
+		}
+	],
+	"page": {
+		"number": 1615,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01738\">same</cite>, <i>to be quiet, at ease</i>.—V. <cite ref=\"U01740\"><he>שֶׁפִי</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁפֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to quiet, pacify, satisfy</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 73a:11\">Gitt. 73ᵃ</cite> <he>זיל שַׁפֵּי ליה</he> go and pacify (settle with) him. ",
+						"<cite ref=\"Bava Metzia 15a:16\">B. Mets. 15ᵃ</cite> <he>ואֲשׁפֵּי וכ׳</he> (Ms. H. a. R. <he>ואֵישַׁפֵּי</he>), v. <cite ref=\"M02761\"><he>מְרַק</he></cite>.—Part. pass. <he>מְשַׁפֵּי</he>; pl. <he>מְשַׁפָּן</he>. ",
+						"<cite ref=\"Bava Metzia 70a:9\">Ib. 70ᵃ</cite> <he>דמש׳ ניכסיה</he> (not <he>דמשפו</he>) one whose property is at peace (undisputed by any claimants)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "Q01690",
+	"slug": "פרומא",
+	"headword": {
+		"text": "פְּרוּמָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1220,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01869\"><he>פְּרַם</he></cite>) <i>p’ruma</i>, a small liquid measure <cite ref=\"Kiddushin 52b\">Kidd. 52ᵇ</cite>, v. <cite ref=\"Q01747\"><he>פִּרְזוּמָא</he></cite>.",
+			"units": []
+		}
+	]
+}

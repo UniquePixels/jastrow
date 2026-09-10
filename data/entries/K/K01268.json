@@ -1,0 +1,28 @@
+{
+	"id": "K01268",
+	"slug": "כרצא",
+	"headword": {
+		"text": "כִּרְצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּירְצָא"
+		}
+	],
+	"page": {
+		"number": 673,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כרץ</he>, cmp. <cite ref=\"S02142\"><he>קרץ</he></cite>) <i>intestinal worms</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:8\">Gitt. 69ᵇ</cite> <he>לכ׳</he> Ar. (ed. <he>לכי׳</he>) a remedy for &c. ",
+				"<cite ref=\"Gittin 69b:8\">Ib.</cite> <he>לכ׳ חיורא</he> for white worms."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "K00481",
+	"slug": "כיבא-2",
+	"headword": {
+		"text": "כִּיבָּא"
+	},
+	"page": {
+		"number": 630,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00028\"><he>כְּבַב</he></cite>) <i>roast over thorn-fire</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 70a:7\">Snh. 70ᵃ</cite> <he>כבשר כ׳ וכ׳</he> (Ar. <cite ref=\"K00060\"><he>כִּיבֵּי</he></cite> <i>pl.</i>) like the meat roasted over a thorn-fire which thieves eat."
+			]
+		}
+	]
+}

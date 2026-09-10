@@ -1,0 +1,23 @@
+{
+	"id": "A02520",
+	"slug": "אספרון",
+	"headword": {
+		"text": "אַסְפְּרוֹן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 96,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἄσπρος, ον) <i>white</i>, opp. <cite ref=\"M00440\"><he>מוורון</he></cite> (μαυρός) <i>black</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 7:4\">Gen. R. s. 7</cite> <he>מוו׳ וחד א׳</he> Ar. (ed. <he>מיירן</he>) a white fish and a black fish; (<cite ref=\"Yalkut Shimoni on Torah 12\">Yalk. Gen. 12</cite> <cite ref=\"H00681\"><he>חיוור</he></cite> a. <cite ref=\"A00648\"><he>אוכם</he></cite>; Y. Kil. I, 27ᵃ bot. <cite ref=\"L00546\"><he>לכיסא</he></cite> a. <cite ref=\"J00609\"><he>ירוקא</he></cite>)."
+			]
+		}
+	]
+}

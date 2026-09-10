@@ -1,0 +1,24 @@
+{
+	"id": "K00258",
+	"slug": "כוכלת",
+	"headword": {
+		"text": "כּוֹכֶלֶת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 619,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>כלכלת</he>, cmp. <cite ref=\"C00297\"><he>גּוֹגַלְתָּא</he></cite>; <cite ref=\"K00755\"><he>כִּלְכֵּל</he></cite>) [<i>refreshing bottle</i>,] <i>a charm containing a perfume</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:3\">Sabb. VI, 3</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 6:3\">Ib.</cite> v. 62ᵃ, <cite ref=\"H00396\"><he>חוּמַרְתָּא</he></cite>; [Ed. a several Mss. read: (<cite ref=\"K00060\"><he>כָּבַל</he></cite>) <cite ref=\"K00190\"><he>כּוֹבֶלֶת</he></cite> <i>chain</i>, v. Rabb. D. S. a. l., a. Koh. Ar. Compl. s. v.]; Tosef. ib. IV (V), 11."
+			]
+		}
+	]
+}

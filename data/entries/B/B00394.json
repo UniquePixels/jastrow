@@ -1,0 +1,67 @@
+{
+	"id": "B00394",
+	"slug": "בוש",
+	"headword": {
+		"text": "בּוֹשׁ"
+	},
+	"page": {
+		"number": 151,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בה</he> , v. <cite ref=\"B00196\"><he>בְּהַת</he></cite>); (as adj.) m. <i>confounded, abashed, ashamed</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 101a:12\">Zeb. 101ᵃ</cite> <he>הודה ולא ביש וכ׳</he> he confessed and was not ashamed so as to say, ‘I have not learned it’, but he said &c.; <cite ref=\"Zevachim 101b:1\">ib.ᵇ</cite> (v. Rabb. D. S. a. l.).—",
+				"<cite ref=\"Chagigah 22b:3\">Ḥag. 22ᵇ</cite> <he>בּוֹשְׁנִי</he> = <he>בוש אני</he>; <cite ref=\"Tosefta Ohalot 5:11\">Tosef. Ohol. V, 11</cite> <he>בּוֹשְׁתִּי</he>. ",
+				"<cite ref=\"Kiddushin 81b:14\">Kidd. 81ᵇ</cite> <cite ref=\"B00395\"><he>בּוֹשָׁה</he></cite> she is too bashful to &c. ",
+				"<cite ref=\"Mishnah Ketubot 8:1\">Keth. VIII, 1</cite> <he>אנו בוֹשִׁין</he> we are confounded (to find a reason); a. fr.—<he>בוש פנים</he> (not <cite ref=\"B00399\"><he>בושת</he></cite>) <i>bashful, chaste</i>. ",
+				"<cite ref=\"Pirkei Avot 5:20\">Aboth V, 20</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיֵּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to put to shame, insult, disgrace</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite> <he>המְבַיֵּישׁ את הישן</he> he who exposes a sleeping person to shame. ",
+						"<cite ref=\"Mishnah Bava Kamma 8:1\">Ib.</cite> <he>הזיק וב׳</he> he injured and exposed (a person at the same time). ",
+						"<cite ref=\"Mishnah Bava Kamma 8:1\">Ib.</cite> <he>הכל לפי המְבַ׳ והמתבייש</he> all (the fine) according to the social position of the insulter and of the insulted. ",
+						"<cite ref=\"Sukkah 53a\">Succ. 53ᵃ</cite> happy our youth <he>שלא בִּיְּישָׁה וכ׳</he> which casts no reflection on our old age; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הוֹבִישׁ"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"E00186\"><he>הוֹבִיר</he></cite> fr. <he>בור</he>) <i>to trouble, spoil</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Kamma 5:12\">Tosef. B. Kam. V, 12</cite> ed. Zuck. (Var. <cite ref=\"B00047\"><he>הבאיש</he></cite>, v. <cite ref=\"B00047\"><he>בָּאַשׁ</he></cite>, as Mish. ",
+						"<cite ref=\"Mishnah Bava Kamma 5:3\">ib. V, 3</cite>)."
+					]
+				}
+			],
+			"stem": "*."
+		},
+		{
+			"forms": ["הִתְבַּיֵּישׁ", "נִתְבַּיֵּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be put to shame, be exposed, insulted; to be bashful</i>. B. Kam. l. c. ",
+					"units": [
+						"<cite ref=\"Nedarim 20a:12\">Ned. 20ᵃ</cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 15:13\">Num. R. s. 15</cite> <he>התב׳ והטמין</he> he felt ashamed (to offer the king common accommodations) and hid &c. ",
+						"<cite ref=\"Bamidbar Rabbah 15:13\">Ib.</cite> <he>נִתְבַּיַּישְׁתִּי</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa. a. Nithpa."
+		}
+	]
+}

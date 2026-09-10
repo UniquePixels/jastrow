@@ -1,0 +1,30 @@
+{
+	"id": "E00025",
+	"slug": "הבאי",
+	"headword": {
+		"text": "הֲבַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲוַאי"
+		}
+	],
+	"page": {
+		"number": 328,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>הבי</he>, <cite ref=\"E00230\"><he>הוי</he></cite>, cmp. <he>הבל</he>) [<i>breath</i>,] <i>vanity, vain talk; impossibility, exaggeration, rhetorical phrase</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 3:1\">Ned. III, 1</cite> <he>נדרי הב׳</he> vows made dependent on an impossibility, expl. ",
+				"<cite ref=\"Mishnah Nedarim 3:2\">ib. 2</cite> <he>קונם וכ׳</he> I may be forbidden …, if I have not seen &c. (a mere exaggeration not meant literally). ",
+				"<cite ref=\"Nedarim 24b:5\">Ib. 24ᵇ</cite> <he>שבועות ה׳</he> oaths affirming &c. (<cite ref=\"Mishnah Shevuot 3:8\">Shebu. III, 8</cite> <he>שבועת שוא</he>). ",
+				"<cite ref=\"Chullin 90b:13\">Ḥull. 90ᵇ</cite> <he>לשון הב׳</he> Ar. (ed. <he>הו׳</he>) exaggeration in rhetorical speech; <cite ref=\"Tamid 29a:21\">Tam. 29ᵃ</cite>; a. e. V. <cite ref=\"C00350\"><he>גּוּזְמָא</he></cite>."
+			]
+		}
+	]
+}

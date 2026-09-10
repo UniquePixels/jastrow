@@ -1,0 +1,29 @@
+{
+	"id": "A00630",
+	"slug": "אויא-2",
+	"headword": {
+		"text": "אִוְיָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיוְיָא"
+		}
+	],
+	"page": {
+		"number": 24,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (v. <cite ref=\"A00629\">foreg.</cite>) <i>Ivya</i>, a Babyl. Amora. ",
+			"units": [
+				"<cite ref=\"Bava Batra 19a:3\">B. Bath. 19ᵃ</cite> R. Ḥiya son of R. Iv.—",
+				"<cite ref=\"Menachot 78a:8\">Men. 78ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

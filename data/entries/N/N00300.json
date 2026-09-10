@@ -1,0 +1,23 @@
+{
+	"id": "N00300",
+	"slug": "נוגבא",
+	"headword": {
+		"text": "נוּגְבָא"
+	},
+	"page": {
+		"number": 883,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00115\"><he>נְגַב</he></cite>) <i>dryness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:30\">Targ. Job XXX, 30</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 11:37\">Targ. Y. Lev. XI, 37</cite>."
+			]
+		}
+	]
+}

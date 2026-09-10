@@ -1,0 +1,24 @@
+{
+	"id": "P00429",
+	"slug": "עזרה-2",
+	"headword": {
+		"text": "עֶזְרָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1062,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P00424\"><he>עָזַר</he></cite>)<i>help</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 3:7\">Taan. III, 7</cite> (<cite ref=\"Taanit 19a:5\">19ᵃ</cite>) <he>לע׳ ולא לצעקה</he> (you may blow the alarm on the Sabbath to summon people) for help, but not for prayer. ",
+				"<cite ref=\"Kiddushin 6a:3\">Kidd. 6ᵃ</cite> <he>עֶזְרָתִי מהו</he> (if one says to a woman) ‘be my help’, how is it (is she betrothed)?, v. <cite ref=\"P00425\"><he>עֵזֶר</he></cite>."
+			]
+		}
+	]
+}

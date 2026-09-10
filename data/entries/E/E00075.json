@@ -1,0 +1,42 @@
+{
+	"id": "E00075",
+	"slug": "הגמוניא",
+	"headword": {
+		"text": "הֶגְמוֹנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶגְמוֹנְיָה"
+		}
+	],
+	"page": {
+		"number": 331,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἡγεμονία) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>commandership, consulship</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 50:2\">Gen. R. s. 50</cite>, beg.; <cite ref=\"Vayikra Rabbah 26:4\">Lev. R. s. 26</cite> <he>נטל ה׳ וכ׳</he> got an appointment as a consul from the King. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:6:1\">Cant. R. to I, 6</cite>; Lam. R., introd. (R. Yitsḥ. 3) <he>וכולן עשו ישראל ה׳</he> (<he>אחת</he>) <he>וכ׳</he> and Israel declared all these gods one government and worshipped all of them; <cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> <cite ref=\"A00695\"><he>אומוניאה</he></cite> (read: <he>אֶגְמוֹנִיאָה</he>, cmp. <cite ref=\"A00316\"><he>אֶגְמוֹן</he></cite>).—Pl. <he>הֶגְמוֹנִיּוֹת</he> <i>staff of commanding officers</i>. Tanḥ. Yithro 5 <he>לה׳ שעליהם</he> (not <he>להגמונות</he>) to the staff appointed over them (to take them to the exile). ",
+				"<cite ref=\"Midrash Tehillim 109:6\">Midr. Till. to Ps. CXVIII, 6</cite> he will send forth <he>דוגמניות על וכ׳</he> (corr. acc.) staffs to all countries &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. Sm. Ant. s. v. Eisagogeis) <i>court, administration, jurisdiction, district</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 1:1\">Gitt. I, 1</cite> <he>מה׳ לה׳</he> from one jurisdiction to another.—<i>Pl.</i> as above. ",
+				"<cite ref=\"Gittin 4b:14\">Ib. 4ᵇ</cite> there were in one town <he>שתי ה׳ וכ׳</he> two jurisdictions jealous of each other."
+			],
+			"label": "2"
+		}
+	]
+}

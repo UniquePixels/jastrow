@@ -1,0 +1,69 @@
+{
+	"id": "H01714",
+	"slug": "חרם-1",
+	"headword": {
+		"text": "חָרַם"
+	},
+	"page": {
+		"number": 503,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to perforate, break through</i> (cmp. Arab. <i>ḫaram</i>, a. <cite ref=\"H01710\"><he>חֲרָךְ</he> I</cite>),] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to make a net</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 37a:1\">Men. 37ᵃ</cite> top <he>ר׳ יוסי החוֹרֵם</he> R. J. the <i>net-maker</i> (or <i>fisher</i>); [Rashi, reading <he>החָרוּם</he>, (v. Rabb. D. S. a. l., note 100), v. infra]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to perforate</i>. <i>Part. pass.</i> <cite ref=\"H01627\"><he>חָרוּם</he></cite> (b. h. <cite ref=\"H01714\"><he>חָרֻם</he></cite>) <i>one whose nose is so flattened as to show its holes, flat-nosed</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:3\">Bekh. VII, 3</cite> <he>איזהו ח׳ הכוחל וכ׳</he> a <i>ḥarum</i> is he who can paint both of his eyes with one movement. ",
+				"<cite ref=\"Bekhorot 43b:18\">Ib. 43ᵇ</cite> <he>ח׳ שחוטמו שקוע</he> <i>ḥ.</i> is one whose nose is sunk."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to cut off, to set outside</i> (cmp. Arab. <i>ḥaram</i>), v. infra, a. <cite ref=\"H01716\"><he>חֵרֶם</he></cite>.—[",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to burn</i>, cmp. <cite ref=\"H01707\"><he>חָרַךְ</he></cite>, <cite ref=\"H01580\"><he>חָרֵב</he></cite>; v. <cite ref=\"H00473\"><he>חוּרְמַן</he></cite>.]",
+			"units": [],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחֱרִים"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"H01716\"><he>חֵרֶם</he></cite>) [<i>to set outside, apart</i>,] ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to dedicate for priestly or sacred use</i> (<cite ref=\"Leviticus 27:28\">Lev. XXVII, 28</cite>, sq.); <i>to renounce private use</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Arakhin 8:4\">Arakh. VIII, 4</cite> <he>מַחֲרִים אדם וכ׳</he> a man may renounce a portion of his sheep &c.; <he>ואם ה׳ את כולם אינן מוּחֲרָמִין</he> but if he renounces all of them, they are not dedicated (his vow is invalid). ",
+						"<cite ref=\"Mishnah Arakhin 8:4\">Ib.</cite> <he>מה אם לגבוה להַחֲרִים וכ׳</he> since man is not permitted to renounce all his property even for a sacred purpose &c. Ib. 7 <he>מח׳ אדם את קדשיו וכ׳</he> one may declare <i>ḥerem</i> one’s own designated offerings (in which case he has to pay their value to the priest or the sanctuary); a. v. fr.—Part. pass. <he>מוּחֳרָם</he>, pl. <he>מוּחֳרָמִין</he>, <he>מוּחֳרָמִים</he>. Ib. 4, sq., v. supra; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to excommunicate, to pronounce the higher ban</i> (which includes the withdrawal of protection of property). ",
+					"units": [
+						"<cite ref=\"Moed Katan 16a:11\">M. Kat. 16ᵃ</cite> <he>מנדין … ומַחֲרִימִין וכ׳</he> the smaller ban is pronounced (over one disregarding a legal summons) at once …, the great ban after sixty days."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

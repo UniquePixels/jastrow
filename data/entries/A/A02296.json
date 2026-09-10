@@ -1,0 +1,25 @@
+{
+	"id": "A02296",
+	"slug": "אנקלומא",
+	"headword": {
+		"text": "אֶנְקְלוּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אנקלומה",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 88,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (ἐκκαλοῦμαι) <i>I appeal</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 9:3\">Deut. R. s. 9</cite>; <cite ref=\"Kohelet Rabbah 8:8:1\">Koh. R. to VIII, 8</cite> <he>לומר … א׳</he> to say before the Lord, ‘I appeal against thy decision.’ V. <cite ref=\"A02297\">next w.</cite>"
+			]
+		}
+	]
+}

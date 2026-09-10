@@ -1,0 +1,22 @@
+{
+	"id": "U00209",
+	"slug": "שגביון",
+	"headword": {
+		"text": "שְׂגַבְיוֹן"
+	},
+	"page": {
+		"number": 1521,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>S’gabion</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 2:13\">Tosef. Ter. II, 13</cite> <he>ש׳ ראש בית וכ׳</he> ed. Zuck. (Var. <cite ref=\"U00118\"><he>שביון</he></cite>) S. chief of the synagogue of Achzib."
+			]
+		}
+	]
+}

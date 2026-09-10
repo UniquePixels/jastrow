@@ -1,0 +1,24 @@
+{
+	"id": "K01351",
+	"slug": "כתובת",
+	"headword": {
+		"text": "כְּתוֹבֶת"
+	},
+	"page": {
+		"number": 680,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"K01345\"><he>כְּתֹבֶת</he></cite> ; <cite ref=\"K01350\">preced.</cite> wds.) <i>writing, inscription</i>; <he>כ׳ קעקע</he> <i>etched-in inscription</i> on the skin (<cite ref=\"Leviticus 19:28\">Lev. XIX, 28</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:6\">Macc. III, 6</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 19:6\">Lev. R. s. 19</cite> <he>שנמצאת כ׳ ק׳ חקוקה וכ׳</he> an etched-in writing was found on his (Jojakim’s) body. ",
+				"<cite ref=\"Gittin 20b:2\">Gitt. 20ᵇ</cite> <he>בכ׳ ק׳</he> in the case of the slave’s emancipation being etched in on his hand (so as to be indelible)."
+			]
+		}
+	]
+}

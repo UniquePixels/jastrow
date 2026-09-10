@@ -1,0 +1,53 @@
+{
+	"id": "T00328",
+	"slug": "רווח-3",
+	"headword": {
+		"text": "רֶוַוח"
+	},
+	"altHeadwords": [
+		{
+			"text": "רֵוַח"
+		},
+		{
+			"text": "רֵי׳"
+		}
+	],
+	"page": {
+		"number": 1457,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00327\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>extension, wide space; interval</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 74:2\">Gen. R. s. 74</cite> <he>אין … במקום ר׳</he> they (the eastern men) hold council only in an open and level place (where they are safe against spies); <cite ref=\"Yalkut Shimoni on Torah 130:17\">Yalk. ib. 130</cite> <he>בשדה דאית בה ר׳</he>; Koh. R. to VI, 23 <he>במקום מְרוּוָּח</he> (v. <cite ref=\"T00326\"><he>רָוַוח</he></cite>); Pesik. Par., p. 34ᵃ <he>במקום רחוק</he> (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite> (play on <he>לרוּחַ היום</he>, <cite ref=\"Genesis 3:8\">Gen. III, 8</cite>) <he>לרי׳ היום</he> for the extension of the day (in order to extend Adam’s day to God’s day, a thousand years); <cite ref=\"Pesikta Rabbati 40:1\">Pesik. R. s. 40</cite> <he>יום משלי</he> … <he>לר׳ היום וכ׳</he> I will give him one of my days,—‘to the extension of the day’—I will give him &c. ",
+				"<cite ref=\"Mishnah Chullin 5:3\">Ḥull. V, 3</cite> <he>בזמן שאין לו ר׳</he> when there is no interval of time between the sale of the dam for slaughter and that of her young. ",
+				"<cite ref=\"Kohelet Rabbah 1:7:8\">Koh. R. to I, 7</cite> <he>ארבע … ר׳ בין וכ׳</he> there was a space of four cubits between each two. ",
+				"<cite ref=\"Berakhot 15b:27\">Ber. 15ᵇ</cite> <he>שיתן ר׳ בין הדבקים</he> he must allow an interval between words that may easily run into each other; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ease, relief</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 2:3\">Tosef. Sot. II, 3</cite> <he>שאם … בצער יולדת בר׳</he> if (before she was tested) she used to give birth with great pains, she would now do so with ease; <cite ref=\"Bamidbar Rabbah 9:50\">Num. R. s. 9<sup>41</sup></cite>; <cite ref=\"Berakhot 31b:2\">Ber. 31ᵇ</cite>. Tanḥ. Vayishl. 8 <he>כשהיית בצרה … בר׳ וכ׳</he> when thou wast in trouble, thou didst make a vow, but now that thou art relieved, thou forgettest; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>profit, gain</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 92:7\">Midr. Till. to Ps. XCII</cite>; <cite ref=\"Yalkut Shimoni on Nach 843:15\">Yalk. ib. 843</cite> <he>והיו … את הר׳ שהרויח</he> and when the students saw the gain that he had made &c."
+			],
+			"label": "3"
+		}
+	]
+}

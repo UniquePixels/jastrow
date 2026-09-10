@@ -1,0 +1,78 @@
+{
+	"id": "T00538",
+	"slug": "רחק-1",
+	"headword": {
+		"text": "רָחַק"
+	},
+	"page": {
+		"number": 1469,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be distant, far, removed</i>. Y’lamd. to Num. X, 29, quot. in Ar. (ref. to <cite ref=\"Psalms 73:27\">Ps. LXXIII, 27</cite>) <he>מי שרוֹחֵק הק״בה וכ׳</he> (ed. Koh. <he>שׁמִתְרַחֵק</he>) he who keeps away from the Lord, so as not to repent. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 131:1\">Sifré Num. 131</cite> <he>כרְחוֹק מזרח וכ׳</he> as far as the east is removed from the west; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִחֵק", "רִיחֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to remove; to alienate; to reject, expel; to loathe</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 24a:1\">B. Kam. 24ᵃ</cite> top, a. e. <he>ר׳ נגיחותיו</he> if the ox did his gorings in intervals (of three days), opp. <cite ref=\"S01883\"><he>קירב</he></cite>. ",
+						"<cite ref=\"Bava Kamma 24a:1\">Ib.</cite> <he>רִיחֲקָה ראיותיה</he>, v. <cite ref=\"T00015\"><he>רְאִיָּה</he></cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 809:2\">Yalk. Ps. 809</cite> (ref. to Ps. l. c.) <he>זה … שׁרִחֲקוּ את הקץ</he> this alludes to Balaam and his associates, who put far off the end (the day of judgment, <cite ref=\"Numbers 24:17\">Num. XXIV, 17</cite>), opp. <cite ref=\"S01890\"><he>קרבו</he></cite>. ",
+						"<cite ref=\"Berakhot 60b:6\">Ber. 60ᵇ</cite> <he>ורַחֲקֵנִי מאדם רע וכ׳</he> keep me far from a bad man and a bad associate. ",
+						"<cite ref=\"Mishnah Eduyot 5:7\">Eduy. V, 7</cite> <he>מעשיך יקרבוך ומעשיך יְרַחֲקוּךָ</he> thy own doings will bring thee near (win thee friends), and thy own doings will alienate thee. ",
+						"<cite ref=\"Mishnah Eduyot 8:7\">Ib. VIII, 7</cite> <he>לרַחֵק</he>, v. <cite ref=\"S01883\"><he>קָרֵב</he></cite>; a. fr.—Part. pass. <he>מְרוּחָק</he>; pl. <he>מְרוּחָקִים</he>, <he>מְרוּחָקִין</he>. ",
+						"<cite ref=\"Mishnah Eduyot 8:7\">Ib.</cite> <he>המר׳ בזרוע</he>, v. <cite ref=\"S01883\"><he>קָרֵב</he></cite>. ",
+						"<cite ref=\"Berakhot 63b:6\">Ber. 63ᵇ</cite> <he>שלא היה מר׳ וכ׳</he> which was only twelve miles off."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִרְחִיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00537\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 94:1\">Sifré Num. 94</cite> <he>מַרְחִיקִים</he>, v. <cite ref=\"S01883\"><he>קָרֵב</he></cite>. ",
+						"<cite ref=\"Mishnah Bava Batra 2:5\">B. Bath. II, 5</cite> <he>מַרְחִיקִין את הסולם וכ׳</he> (neighbors) must keep a ladder removed from the (neighbor’s) dove-cote four cubits. ",
+						"<cite ref=\"Mishnah Bava Batra 2:4\">Ib. 4</cite> <he>אלא אם כן ה׳ ממנו וכ׳</he> unless he places (the wall) at a distance of four cubits. ",
+						"<cite ref=\"Bava Batra 18b:3\">Ib. 18ᵇ</cite> <he>על המזיק להַרְחִיק את עצמו</he> it is the duty of him who causes the damage to remove himself; (oth. opin.) <he>על הניזק להרחיק וכ׳</he> he who is injured must remove himself. ",
+						"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite> <he>כדי להרחיק וכ׳</he> in order to keep men away (prevent them) from sin. ",
+						"<cite ref=\"Sanhedrin 103b:17\">Snh. 103ᵇ</cite> <he>שהִרְחִיקָה וכ׳</he>, v. <cite ref=\"L00131\"><he>לְגִימָה</he></cite>. ",
+						"<cite ref=\"Sanhedrin 103b:17\">Ib.</cite> <he>מַרְחֶקֶת וכ׳</he> estranges those who are near (related) &c.; a. fr.—2) <i>to keep aloof, stay away</i>. ",
+						"<cite ref=\"Pirkei Avot 1:7\">Ab. I, 7</cite> <he>הַרְחֵק משכן רע</he> keep aloof from a bad neighbor; a. e.—[Y. Ber. I, 2ᵈ bot. <he>והרחיק על פתחו וכ׳</he>, read: <he>והִרְתִּיק</he>, v. <cite ref=\"T01146\"><he>רָתַק</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְרַחֵק"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְרַחֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to remove one’s self; to become a stranger</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 109a:17\">Yeb. 109ᵃ</cite> <he>לעולם ידבק … ויִתְרַחֵק וכ׳</he> man should always cling to three things, and keep aloof from three things. ",
+						"<cite ref=\"Mishnah Sanhedrin 3:4\">Snh. III, 4</cite> <he>קרוב ונ׳</he>, v. <cite ref=\"S01926\"><he>קָרוֹב</he></cite>. ",
+						"<cite ref=\"Berakhot 34b:23\">Ber. 34ᵇ</cite> (ref. to <cite ref=\"Isaiah 57:19\">Is. LVII, 19</cite>) <he>שהיה קרוב … ונ׳ וכ׳</he> who came near committing a sin, and withdrew himself from it. Y’lamd. l. c., v. supra; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

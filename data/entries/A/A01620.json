@@ -1,0 +1,30 @@
+{
+	"id": "A01620",
+	"slug": "אישור",
+	"headword": {
+		"text": "אִישּׁוּר"
+	},
+	"page": {
+		"number": 60,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A03348\"><he>אָשַׁר</he></cite>, <i>Pi.</i> ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>praise, adoration</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 8:11\">Cant. R. to VIII, 11</cite> <he>אישורְךָ היא</he> it is thy praise. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:11:1\">Y. Succ. III, 54ᵃ</cite> top, with ten var. expressions of praise are the psalms headed <he>באי׳</he> with the word <i>ashré</i>, &c.—2) (v. <cite ref=\"A03348\"><he>אָשַׁר</he></cite> <i>Pi.</i> 1) <i>legal attestation</i>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 1:8:2\">Y. B. Mets. I, 8ᵃ</cite> bot; v. <cite ref=\"A03351\"><he>אַשָּׁרָא</he></cite>. [Some ed. <he>אֵישֶׁר</he>.]."
+			],
+			"label": "2"
+		}
+	]
+}

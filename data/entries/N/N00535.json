@@ -1,0 +1,23 @@
+{
+	"id": "N00535",
+	"slug": "נחתא",
+	"headword": {
+		"text": "נַחֲתָא"
+	},
+	"page": {
+		"number": 897,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <he>נַחֲתַת</he> (<cite ref=\"N00534\">preced.</cite>) <i>layer</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:13\">Targ. O. Ex. XVI, 13</cite> (Var. <cite ref=\"N00497\"><he>נְחִיתַת</he></cite>, <he>נְחָתַת</he>; h. text <cite ref=\"U01120\"><he>שכבת</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 110:3\">Targ. Ps. CX, 3</cite> (Bxt. <cite ref=\"N00495\"><he>נְחִיתוּת</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"id": "Q00117",
+	"slug": "פדי-1",
+	"headword": {
+		"text": "פדי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּדָה"
+		}
+	],
+	"page": {
+		"number": 1136,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to cut loose</i>,] <i>to liberate, redeem</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 4a:6\">Ab. Zar. 4ᵃ</cite> <he>אם יש להם זכות אֶפְדֵּם</he> if they have any merits, I will liberate them. ",
+				"<cite ref=\"Avodah Zarah 4a:9\">Ib.</cite> (ref. to <cite ref=\"Hosea 7:13\">Hos. VII, 13</cite>) <he>אני אמרתי אפדם בממונם וכ׳</he> I thought, I will ransom them by taking their money (impoverishing them) in this world, that they be admitted to the world to come. ",
+				"<cite ref=\"Devarim Rabbah 2:5\">Deut. R. s. 2</cite> <he>ופוֹדֶה למי שרוצה</he> he could acquit whomever he wanted to, opp. <cite ref=\"H00125\"><he>חָבַשׁ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 16:3:6\">Y. Yeb. XVI, 15ᶜ</cite> bot. <he>הצלוב … ופְדָאֲתוֹ</he> as regards him whom witnesses have seen impaled, I may say, an influential woman passed by and liberated him. ",
+				"<cite ref=\"Mishnah Gittin 4:4\">Gitt. IV, 4</cite> <he>עבד שנשבה ופְדָאוּהוּ</he> if a slave has been captured, and they (Jews) redeemed him. ",
+				"<cite ref=\"Mishnah Gittin 4:6\">Ib. 6</cite> <he>אין פּוֹדִין את השבויין וכ׳</he> we must not redeem captured persons for more than their value, this is a measure of public benefit (v. <cite ref=\"V00488\"><he>תִּיקּוּן</he></cite>). ",
+				"<cite ref=\"Gittin 58a:10\">Ib. 58ᵃ</cite> <he>עד שאֶפְדֶּנּוּ בכל וכ׳</he> until I redeem him at any price they may ask. ",
+				"<cite ref=\"Mishnah Maaser Sheni 4:7\">Maas. Sh. IV, 7</cite> <he>הפודה מעשר שני</he> he that redeems second tithes (<cite ref=\"Deuteronomy 14:26\">Deut. XIV, 26</cite>). Ib. 1 <he>פּוֹדֵהוּ כשער מקומו</he> he redeems the fruit at the market price of his own place. Ib. V, 4 <he>כיצד פודין נטע רבעי</he> how is fruit of the fourth year (<cite ref=\"Leviticus 19:24\">Lev. XIX, 24</cite>) redeemed? <he>מניח … כמה אדם רוצה לִפְדּוֹת לו בסלע וכ׳</he> he puts the basket down in the presence of three persons and says, how many basketfuls will a person buy for a Selʿa, to collect at his own expense?; a. v. fr.—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>to redeem the first-born</i> (<cite ref=\"Exodus 13:12\">Ex. XIII, 12</cite> sq.). ",
+					"units": [
+						"<cite ref=\"Bekhorot 49b:5\">Bekh. 49ᵇ</cite> <he>הפודה את בנו וכ׳</he> if a man redeems his son before he is thirty days old. ",
+						"<cite ref=\"Mishnah Bekhorot 8:6\">Ib. VIII, 6</cite> <he>הוא לפדות ובנו לפדות וכ׳</he> if he (the father) is to be redeemed (the parents having failed to redeem him), and the son is to be redeemed; <cite ref=\"Kiddushin 29a:3\">Kidd. 29ᵃ</cite>. ",
+						"<cite ref=\"Kiddushin 29a:16\">Ib.</cite> <he>מצווה לפדות את עצמו</he> is bound to redeem himself; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>to redeem an object dedicated to the sanctuary</i> (<cite ref=\"Leviticus 27:13\">Lev. XXVII, 13</cite>; <cite ref=\"Leviticus 27:27\">27</cite>, a. e.). ",
+					"units": [
+						"<cite ref=\"Leviticus 27:27\">Ib.</cite> <he>פְּדָאוֹ במאתים וכ׳</he> if he bought an object back for two hundred Zuz, and before taking possession it went down &c.; a. fr.—Part. pass. <he>פָּדוּי</he>; f. <cite ref=\"Q01167\"><he>פְּדוּיָה</he></cite>; pl. <he>פְּדוּיִים</he>, <he>פְּדוּיִין</he>, <he>פְּדוּיוֹת</he>. ",
+						"<cite ref=\"Leviticus 27:27\">Ib.</cite> <he>מה שפדה פ׳</he> what he bought is bought (his transaction is final). ",
+						"<cite ref=\"Bekhorot 49b:3\">Bekh. 49ᵇ</cite> <he>בנו פ׳</he> his son stands redeemed; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְדֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be redeemed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 8:6\">Bekh. VIII, 6</cite> <he>בחזקת שלא נ׳ שנ׳ …</he> the presumption is that he has not been redeemed, until evidence is offered that he has been. ",
+						"<cite ref=\"Mishnah Bekhorot 8:7\">Ib. 7</cite> <he>וכולם נִפְדִּין בכסף וכ׳</he> and all of them are redeemed with money or money’s worth. ",
+						"<cite ref=\"Kiddushin 29a:16\">Kidd. 29ᵃ</cite> <he>תפדה תִּיפָּדֶה כל שמצווה וכ׳</he> ‘thou shalt redeem’ (<cite ref=\"Numbers 18:15\">Num. XVIII, 15</cite>), thou shalt be redeemed (redeem thyself): whosoever is (eventually) bound to redeem himself, is bound to redeem his son (but the mother is not bound to redeem her first-born son); a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

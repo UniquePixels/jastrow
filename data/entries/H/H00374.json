@@ -1,0 +1,23 @@
+{
+	"id": "H00374",
+	"slug": "חומטא-1",
+	"headword": {
+		"text": "חוּמְטָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 435,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01169\"><he>חמט</he></cite>) <i>darkness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 15:17\">Targ. Y. Gen. XV, 17</cite>; cmp. <cite ref=\"A02021\"><he>אֲמִיטְתָא</he></cite>."
+			]
+		}
+	]
+}

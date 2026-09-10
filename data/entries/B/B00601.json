@@ -1,0 +1,30 @@
+{
+	"id": "B00601",
+	"slug": "בייר-3",
+	"headword": {
+		"text": "בַּיִּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּיָּר"
+		}
+	],
+	"page": {
+		"number": 161,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00329\"><he>בּוּר</he></cite>) <i>untilled, waste ground</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 21:4\">Targ. Deut. XXI, 4</cite> (virgin land, h. text <cite ref=\"A01655\"><he>אֵיתָן</he></cite>).—",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:25\">Targ. Is. XXVIII, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 12:13\">Targ. Jer. XII, 13</cite> <cite ref=\"B00042\"><he>בְּיַר</he></cite>(!).—",
+				"<cite ref=\"Vayikra Rabbah 1\">Lev. R. s. 1</cite>, beg., v. <cite ref=\"B00329\"><he>בּוּר</he></cite> ch."
+			]
+		}
+	]
+}

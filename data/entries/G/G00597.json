@@ -1,0 +1,89 @@
+{
+	"id": "G00597",
+	"slug": "זעיר-1",
+	"headword": {
+		"text": "זְעֵיר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "זְעֵר"
+		},
+		{
+			"text": "זְעַר"
+		}
+	],
+	"page": {
+		"number": 407,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", fut. <he>יִזְעַר</he>, <he>נִזְעַר</he> (cmp. <cite ref=\"G00217\"><he>זוּעַ</he></cite>; b. h. <cite ref=\"G00597\"><he>זְעֵיר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be slender, small; to be reduced, diminished</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:27\">Targ. Prov. X, 27</cite>, v. <cite ref=\"G00593\"><he>זְעִי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 29:6\">Targ. Jer. XXIX, 6</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:1:8\">Y. Sabb. VIII, 11ᵃ</cite> bot. <he>זַעֲרַת ולא ז׳ וכ׳</he> it (the measure) was reduced, but was not made as small as it had been before; v. <i>Ithpe.</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>צער</he>) <i>to get sick</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite> <he>ותִזְעַר נפשיה</he> and he may get sick."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to restrain</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 18:16\">Targ. II Sam. XVIII, 16</cite> ed. Lag. a. Ar. (ed. <he>מנע</he>; h. text <he>חשך</he>)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַזְעֵיר", "אַזְעֵר"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"G00597\"><he>אַזְעַר</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to reduce, do little</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 16:17\">Targ. Ex. XVI, 17</cite>; <cite ref=\"Onkelos Exodus 16:18\">18</cite> (h. text <cite ref=\"M02097\"><he>הִמְעִיט</he></cite>). ",
+						"<cite ref=\"Onkelos Leviticus 25:16\">Targ. Lev. XXV, 16</cite>; a. fr.—",
+						"<cite ref=\"Targum Jonathan on Numbers 22:6\">Targ. Y. Num. XXII, 6</cite> <he>לאַזְעוֹרֵיה</he> to reduce (defeat) him (h. text <he>נכה</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be small</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 12:4\">Targ. O. Ex. XII, 4</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִזְדְּעַר", "אִזְּעַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be made smaller</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 1:16\">Targ. Y. Gen. I, 16</cite>.—Y. Shek. III, 47ᶜ top [read:] <he>אִזְּעִירָא ולא אִזְּעָרַת וכ׳</he> it was reduced, but not made as small &c., v. supra."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

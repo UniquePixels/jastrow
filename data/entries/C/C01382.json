@@ -1,0 +1,23 @@
+{
+	"id": "C01382",
+	"slug": "גרע-4",
+	"headword": {
+		"text": "גָּרָע"
+	},
+	"page": {
+		"number": 271,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גרע</he> I) <i>scraper, barber</i>, in gen. <i>low class surgeon, blood-letter</i> &c. ",
+			"units": [
+				"<cite ref=\"Kiddushin 82a\">Kidd. 82ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Kelim 12:4\">Kel. XII, 4</cite>; <cite ref=\"Tosefta Keilim Metsia 2:11\">Tosef. Kel. B. Mets. II, 11</cite> <cite ref=\"C01309\"><he>גָּרוֹעַ</he></cite>, v. <cite ref=\"M01969\"><he>מַסְמָר</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "V00144",
+	"slug": "תובא",
+	"headword": {
+		"text": "תּוּבָא"
+	},
+	"page": {
+		"number": 1650,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>תּוּב</he> I, <i>Af.</i>",
+			"units": []
+		},
+		{
+			"gloss": "<i>vomit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 19:14\">Targ. Is. XIX, 14</cite> ed. Lag., a. Ar. (ed. <he>תִּיוּב׳</he>; some ed. <cite ref=\"V00526\"><he>תוכ׳</he></cite>, corr. acc.).—V. <cite ref=\"V00146\"><he>תּוּבְיָה</he></cite>."
+			],
+			"label": "1"
+		}
+	]
+}

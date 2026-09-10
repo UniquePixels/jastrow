@@ -1,0 +1,52 @@
+{
+	"id": "N00751",
+	"slug": "ניצוץ",
+	"headword": {
+		"text": "נִיצוֹץ"
+	},
+	"page": {
+		"number": 907,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"N01139\"><he>נָצַץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) <i>spark, sparkling light</i>. Tanḥ. Vayesheb 1 <he>נ׳ אחד וכ׳</he> one spark from thy smithy.—Pl. <he>נִיצוֹצוֹת</he>, <he>נִיצוֹצִים</he>, <he>נִיצוֹצִין</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Yoma 2:3\">Tosef. Yoma II, 3</cite> <he>היו נ׳ יוצאות ממנה</he> sparkling rays proceeded from it (the golden tablet); <cite ref=\"Yoma 37b:2\">Yoma 37ᵇ</cite> <he>נ׳ יוצאין</he>; Y. ib. III, 41ᵃ top <he>הנ׳ מנתזין</he>; Y. Sot. II, 18ᵃ top <he>הניצוצים וכ׳</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 5:1\">Num. R. s. 5</cite>, beg. <he>שני נ׳ של אש וכ׳</he> two sparks of fire &c. ",
+				"<cite ref=\"Bamidbar Rabbah 5:1\">Ib.</cite> <he>שני נצ׳ מקדמין וכ׳</he> two sparks preceded them. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:15:4\">Y. Ab. Zar. V, end, 45ᵇ</cite> (v. <cite ref=\"L00413\"><he>לִיבּוּן</he></cite>) <he>צריך שיהא נ׳ וכ׳</he> it must be so heated that sparks burst forth from it. ",
+				"<cite ref=\"Tosefta Shabbat 6:2\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:2\">VII</cite>), 2 <he>נפלו הימנו נ׳ ואמר וכ׳</he> if snuff falls off the candle, and he says, we shall have guests &c. (v. <cite ref=\"A02007\"><he>אֱמוֹרִי</he></cite>). ",
+				"<cite ref=\"Mishnah Shabbat 3:6\">Sabb. III, 6</cite> <he>לקבל נ׳</he> to receive the snuff; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shivers scattering from the broken sledge-hammer</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 88b:3\">Sabb. 88ᵇ</cite>; <cite ref=\"Sanhedrin 34a:12\">Snh. 34ᵃ</cite> (ref. to <cite ref=\"Jeremiah 23:29\">Jer. XXIII, 29</cite>) <he>מה פטיש זה מתחלק לכמה נ׳</he> as the sledge-hammer (when shattered by the harder rock) is divided into many shivers (differ. in commentaries)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>squirtings</i> (of boiling water &c.). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 76b:1\">Ab. Zar. 76ᵇ</cite> <he>מה בולעו נ׳ וכ׳</he> as the rim of a caldron absorbs forbidden substances through squirtings, so does it emit them again through the squirtings (of the boiling cleansing water, v. <cite ref=\"C00785\"><he>גִּיעוּל</he></cite>). ",
+				"<cite ref=\"Niddah 13a:33\">Nidd. 13ᵃ</cite> <he>נ׳ נתזין וכ׳</he> drippings (of urine) squirt upon his feet. ",
+				"<cite ref=\"Yoma 29b:7\">Yoma 29ᵇ</cite>, sq.; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (cmp. Arab. <i>nuḍâḍah</i>) <i>residue</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 139b:18\">Sabb. 139ᵇ</cite> <he>האיכא נ׳</he> but there is the residue (the last drops percolating through the dregs in emptying liquid from vessel to vessel); <he>נ׳ לבי ר׳ וכ׳</he> that residue was not cared about in the house of &c."
+			],
+			"label": "4"
+		}
+	]
+}

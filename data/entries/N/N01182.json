@@ -1,0 +1,28 @@
+{
+	"id": "N01182",
+	"slug": "נקוסא",
+	"headword": {
+		"text": "נָקוֹסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָקוֹסָה"
+		}
+	],
+	"page": {
+		"number": 931,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Naḳosa</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 81b:10\">B. Kam. 81ᵇ</cite> <he>יהודה בן נ׳</he> Ms. M. (ed. <he>קנוסא</he>); Y. Ber. II, end, 5ᵈ ed. Lehm. (ed. <cite ref=\"Q01404\"><he>פפוס</he></cite>). ",
+				"<cite ref=\"Kohelet Rabbah 1:8:4\">Koh. R. to I, 8</cite>; <cite ref=\"Kohelet Rabbah 7:26:3\">VII, 26</cite> (some ed. <he>נקיסא</he>)."
+			]
+		}
+	]
+}

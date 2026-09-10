@@ -1,0 +1,49 @@
+{
+	"id": "H01205",
+	"slug": "חמס-2",
+	"headword": {
+		"text": "חָמַס"
+	},
+	"page": {
+		"number": 478,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. Ges. H. Dict.<sup>10</sup> s. v.) [<i>to be heated, passionate</i>,] <i>to insult, do violence, to rob</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:10\">Y. Ab. Zar. II, 40ᵈ</cite> bot. <he>לא סוף … אלא חֲמוֹס וכ׳</he> finally one does not say to another man, Kill that man, but, Attack &c. ",
+				"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> (ref. to <he>חמסי</he>, <cite ref=\"Bereishit Rabbah 16:5\">ib. XVI, 5</cite>) <he>חוֹמְסֵנִי את בדברים וכ׳</he> thou provokest me to speak harshly, because thou seest &c. ",
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite>, beg. <he>מלכות … גוזלת וחוֹמֶסֶת</he> the wicked government (Rome) robs and extorts; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite> <he>דור ודור וחוֹמְסָיו</he> each generation with its violent men.—Part. pass. <he>חָמוּס</he>. ",
+				"<cite ref=\"Vayikra Rabbah 26\">Ib.</cite> s. 30 <he>גזול אני ח׳ אני</he> I have been taken by force, by extortion."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְמַס"],
+			"senses": [
+				{
+					"gloss": "<i>to be ruined</i> (cmp. <cite ref=\"H00083\"><he>חָבַל</he></cite>). ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 6</cite> <he>כגנה שנ׳ מעיינה וכ׳</he> like a garden the spring of which has been ruined, so that its vegetables fade."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["חִימֵּס"],
+			"senses": [
+				{
+					"gloss": " (of beasts of prey) <i>to seize with fangs, scratch with nails</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> (play on <he>חמסי</he>, v. supra) <he>חִימְּסָה פניו</he> Ar. (ed. <he>בפניו</he>, some ed. <cite ref=\"H00808\"><he>חימסא</he></cite>, incorr.) she scratched his face; Y’lamd. to Gen. l. c. (quot. in Ar.) <he>חיטטה אותו וחימסה פניו כנמיה</he> she scratched him and marked his face like a marten; Yalk. ib. 79 (not <he>חומסה</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

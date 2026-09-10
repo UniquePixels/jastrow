@@ -1,0 +1,32 @@
+{
+	"id": "A00680",
+	"slug": "אולפן",
+	"headword": {
+		"text": "אוּלְפָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּלְפָנָא"
+		}
+	],
+	"page": {
+		"number": 26,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00397\"><he>ילף</he></cite>, <cite ref=\"A01933\"><he>אלף</he></cite>) <i>custom, training, instruction; the Law</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 33:14\">Targ. Y. Gen. XXXIII, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:6\">Targ. Is. XXXII, 6</cite>; a. fr.—Y. R. Hash. IV, beg. 59ᵇ for it is impossible for one to go through his Bible lesson <he>דלא א׳</he> (read <he>בלא</he>; cmp. ",
+				"<cite ref=\"Chagigah 3a:15\">Ḥag. 3ᵃ</cite> <he>בלא חדוש</he>) without some instructive observation. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:11\">Y. Meg. I, 71ᵈ</cite> top <he>דלא מן א׳</he> not according to the Law. ",
+				"<cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite> <he>וא׳ קבל</he> Mat. Keh. (ed. <he>ואולפין קביל</he>) and has he received traditions from teachers? <cite ref=\"Vayikra Rabbah 19:1\">Lev. R. s. 19</cite> <he>אולפני מה נהיר באפי</he> how my learning shines in my face! <cite ref=\"Jerusalem Talmud Berakhot 6:5:4\">Y. Ber. VI, 10ᶜ</cite> bot. <he>נישבוק אולפנה וכ׳</he> let us drop discussion and return to the Mishnah. [<cite ref=\"Eruvin 67a:14\">Erub. 67ᵃ</cite> bot. <he>משמיה דא׳</he>, read with Ms. M. <he>דאִילְפָא</he>.]—<cite ref=\"A02006\"><he>בר א׳</he></cite> a scholar of traditional law. ",
+				"<cite ref=\"Vayikra Rabbah 3:1\">Lev. R. s. 3</cite>, beg.—Pl. <he>אוּלְפָנַיָּיא</he> <i>instructive narratives, stories</i>. Y. Kidd. 61ᵇ; <cite ref=\"Jerusalem Talmud Peah 1:1:25\">Y. Peah I, 15ᶜ</cite> bot."
+			]
+		}
+	]
+}

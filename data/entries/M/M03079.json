@@ -1,0 +1,56 @@
+{
+	"id": "M03079",
+	"slug": "מתן-1",
+	"headword": {
+		"text": "מָתַן"
+	},
+	"page": {
+		"number": 863,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to stretch</i>,] (cmp. <cite ref=\"A03124\"><he>ארך</he></cite>) <i>to be long, slow; to wait</i>; esp. (of fruits taken off the tree) <i>to lie over for complete ripening</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 9:5\">Toh. IX, 5</cite> <he>שיִמְתּוֹנוּ שיהו וכ׳</he> that they (the olives) may lie over so that they be easy to crush; <cite ref=\"Mishnah Tahorot 9:5\">ib.</cite> <he>שימתונו שימלחם</he> that they may lie over until they be ripe for salting; Tosef. ib. X, 10 <he>שיַמְתִּינֵם ושימלחם</he> (<i>Hif.</i>) to let them lie over &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִמְתִּין"],
+			"senses": [
+				{
+					"gloss": " (neut. verb) <i>to last, remain fresh, keep</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makhshirin 6:2\">Makhsh. VI, 2</cite> <he>בשביל שיַמְתִּינוּ</he> (Maim. in comment. ed. Dehr. <he>שימתונו</he>) that they may remain fresh (Maim.). ",
+						"<cite ref=\"Mishnah Shabbat 23:5\">Sabb. XXIII, 5</cite> (of a corpse) <he>בשביל שיַמְתִּין</he> (Ar. <he>שיִמָּתֵן</he>, <i>Nif.</i>) that it may be preserved."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to keep, to let</i> (<i>fruits</i>) <i>lie over</i>. Tosef. Makhsh. l. c., v. supra.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to wait, tarry, postpone</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 2:4\">Ḥull. II, 4</cite>. ",
+						"<cite ref=\"Chullin 47b:5\">Ib. 47ᵇ</cite> <he>הַמְתִּינִי לו עד וכ׳</he> postpone his circumcision until &c. Y. Pes. X, 37ᵈ <he>אילו נַמְתִּין וכ׳</he> (not <he>ממתין</he>) if we were to wait (with the recital of the exodus) until &c. ",
+						"<cite ref=\"Bereishit Rabbah 18:5\">Gen. R. s. 18</cite> (play on <he>יתבששו</he>, <cite ref=\"Genesis 2:25\">Gen. II, 25</cite>) <he>לא הִמְתִּינוּ בשלותן וכ׳</he> they did not remain in their happiness for six hours; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to be slow, patient</i>. ",
+					"units": [
+						"<cite ref=\"Avot D'Rabbi Natan 1:4\">Ab. d’R. N. ch. I</cite> <he>שיהא אדם מַמְתִּין בדבריו ואל יהא מקפיד על דבריו</he> that man should be slow and patient in giving his opinion, and not angrily insist on his words."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "J00060",
+	"slug": "יבם-3",
+	"headword": {
+		"text": "יַבֵּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַיבֵּם"
+		}
+	],
+	"page": {
+		"number": 561,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00059\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 38:8\">Targ. Gen. XXXVIII, 8</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 25:7\">Targ. Deut. XXV, 7</cite>; a. e.—",
+				"<cite ref=\"Yevamot 39b:9\">Yeb. 39ᵇ</cite> <he>אי בעית יַיבֵּם</he> if thou so desirest, marry her. ",
+				"<cite ref=\"Yevamot 39b:9\">Ib.</cite> <he>אי צבית ליַבֵּם יַבֵּם</he> if thou consentest to marry, marry. ",
+				"<cite ref=\"Yevamot 40a:23\">Ib. 40ᵃ</cite> <he>יַבּוּמֵי מְיַיבְּמֵי</he> they must marry &c.—",
+				"<cite ref=\"Yevamot 31b:15\">Ib. 31ᵇ</cite> <he>ונְיַיבֵּם לחדא וכ׳</he> let him marry one and &c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְיַיבֵּם"],
+			"senses": [
+				{
+					"gloss": ", contr. <he>אִיַּיבֵּם</he> as <cite ref=\"J00059\">preced.</cite> <i>Hithpa.</i> Ib. 30ᵇ <he>לִיַּיבּוּמֵי</he> (= <he>לְאִיַּי׳</he>) to be taken in marriage by the <i>yabam</i>. Ib. 32ᵃ <he>תִּתְיַיבֵּם יַבּוּמֵי</he> let her be taken &c.; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

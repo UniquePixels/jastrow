@@ -1,0 +1,40 @@
+{
+	"id": "C00445",
+	"slug": "גוס-1",
+	"headword": {
+		"text": "גּוּס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 224,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>גאה</he>) <i>to swell, be bold</i> (gen. with <cite ref=\"L00030\"><he>לב</he></cite>). ",
+			"units": [
+				"<cite ref=\"Ketubot 12a:8\">Keth. 12ᵃ</cite> <he>כדי שיהא לבו גָּס בה</he> in order that he may become bold towards her (become intimate). ",
+				"<cite ref=\"Ketubot 28a:5\">Ib. 28ᵃ</cite> <he>שאין לבו גס בה</he> for he is not intimate enough with her (not having been married to her). ",
+				"<cite ref=\"Mishnah Sotah 1:6\">Sot. I, 6</cite> <he>לבו גס בהן</he> she is too proud towards them (their appearance may only harden her heart). ",
+				"<cite ref=\"Mishnah Gittin 7:4\">Gitt. VII, 4</cite> <he>לבה גס בשפחתה</he> she is too proud towards her handmaid (so that her presence has no restraining influence). ",
+				"<cite ref=\"Pirkei Avot 4:7\">Ab. IV, 7</cite> <he>הגס לבו בהוראה</he> he who gives decisions in haughtiness. [<cite ref=\"Pirkei Avot 4:7\">Ib.</cite> <he>גס רוח</he>, v. <cite ref=\"C00514\"><he>גַּס</he></cite>.] <cite ref=\"Tosefta Ma'asrot 3:7\">Tosef. Maasr. III, 7</cite> <he>לא גס לבי וכ׳</he> I did not venture to say &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵגִיס"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"L00030\"><he>לב</he></cite> or <cite ref=\"D00950\"><he>דעת</he></cite>) <i>to embolden one’s heart;</i> (reflexive) <i>to become bold</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 6\">Ex. R. s. 6</cite> <he>מי ה׳ את לבך</he> who made thee so bold i.e. who has encouraged thee to take such liberties? Y. Maasr. II, beg. 49ᶜ <he>להָגֵס את לבו שיאכל</he> to encourage him to eat. Y. Snh. I, 18ᵃ bot. <he>ה׳ דעתו לדון</he> he dared to judge singly. ",
+						"<cite ref=\"Bamidbar Rabbah 2:19\">Num. R. s. 2</cite> <he>הֵגִיסוּ את לבם</he> they became presumptuous; <cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite> <he>גיסו לבם</he> (corr. acc.)—",
+						"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite> <he>היה מֵגִיס בינו וכ׳</he> (sub. <he>לבו</he>) was arrogant (towards the king) in privacy; <he>ה׳ במעמד וכ׳</he> was arrogant in the presence of his legions; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

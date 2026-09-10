@@ -1,0 +1,36 @@
+{
+	"id": "Q02202",
+	"slug": "פתר-3",
+	"headword": {
+		"text": "פְּתַר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּתְרָא"
+		},
+		{
+			"text": "פִּי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1256,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", m. (<cite ref=\"Q02201\">preced.</cite>) <i>solution, interpretation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:30\">Y. Ber. I, 2ᵈ</cite> bot., a. fr. <he>פ׳ לה וכ׳</he> there is an explanation for it (you can meet this difficulty by saying), that it refers &c. ",
+				"<cite ref=\"Tamid 32a:18\">Tam. 32ᵃ</cite> <he>מילתא דא אין לה פ׳</he> this problem is insolvable. ",
+				"<cite ref=\"Yevamot 97b:4\">Yeb. 97ᵇ</cite> [read with Ar.] <he>נישל לכו סתר פ׳</he> we shall ask you something too mysterious for solution. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 1:1:3\">Y. Shebu. I, 32ᶜ</cite> sq. <he>פתר לה פ׳ חורן</he> offered a different solution for it. ",
+				"<cite ref=\"Jerusalem Talmud Demai 7:8:3\">Y. Dem. VII, end, 26ᶜ</cite> <he>אין לך אלא כהדין פי׳ קדמיא</he> there is nothing left to thee but to agree with the first interpretation. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 5:1:7\">Y. Naz. V, 53ᵈ</cite> bot. <he>כפִתְרֵה דר׳ ירמיה</he> as R. J. has explained it; a. fr.—Pl. <cite ref=\"Q02207\"><he>פִּתְרִין</he></cite>, <he>פִּתְרַיָּיא</he>, <he>פִּתְרַיָּיה</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 4:9:2\">Y. Erub. IV, end, 22ᵃ</cite> <he>פתר לה תרין פ׳</he> offered two explanations. ",
+				"<cite ref=\"Jerusalem Talmud Peah 4:2:8\">Y. Peah IV, 18ᵇ</cite> top <he>פתר לה כאילין פ׳</he> he explained it in accordance with those explanations (given above); <cite ref=\"Jerusalem Talmud Gittin 8:3:7\">Y. Gitt. VIII, 49ᶜ</cite> top <he>פתרייתא</he> (corr. acc.)."
+			]
+		}
+	]
+}

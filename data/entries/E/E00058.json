@@ -1,0 +1,42 @@
+{
+	"id": "E00058",
+	"slug": "הגדה",
+	"headword": {
+		"text": "הַגָּדָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲגָדָה"
+		}
+	],
+	"page": {
+		"number": 330,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A01369\"><he>נגד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>telling, communication, evidence</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 30b:5\">Snh. 30ᵇ</cite> (ref. to <cite ref=\"Leviticus 5:1\">Lev. V, 1</cite>) <he>מקשינן ה׳ לראייה</he> the laws regulating the witnessing of the act must also apply to the evidence before court (that the two witnesses must be together)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"A00247\"><he>אֲגָדָה</he></cite>) <i>homiletics, popular lecture</i>, opp. to <cite ref=\"E00566\"><he>הֲלָכָה</he></cite> legal interpretation. ",
+			"units": [
+				"<cite ref=\"Chagigah 14a:6\">Ḥag. 14ᵃ</cite> <he>מה לך אצל ה׳</he> what hast thou to do with homiletics? <cite ref=\"Chagigah 14a:6\">Ib.</cite> <he>בעלי ה׳</he> Ms. M. (ed. <cite ref=\"A00006\"><he>א׳</he></cite>) lecturers. ",
+				"<cite ref=\"Chagigah 3a:16\">Ib. 3ᵃ</cite> <he>במה היתה ה׳ וכ׳</he> what was the subject of to-day’s lecture?; a. fr.—13) <i>Haggadah</i>, the recitations at the home service on Passover nights, v. <cite ref=\"A00253\"><he>אֲגַדְתָּא</he></cite>. ",
+				"<cite ref=\"Pesachim 115b:8\">Pes. 115ᵇ</cite>; <cite ref=\"Pesachim 116b:8\">116ᵇ</cite>.—Pl. <he>הַגָּדוֹת</he>, <he>הֲגָ׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 2:4:2\">Y. Peah II, 17ᵃ</cite> bot. <he>אין למדין מן הה׳</he> we must not derive laws from homiletical interpretations."
+			],
+			"label": "2"
+		}
+	]
+}

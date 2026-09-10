@@ -1,0 +1,25 @@
+{
+	"id": "A02678",
+	"slug": "אפייה",
+	"headword": {
+		"text": "אֲפִיָיה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 102,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A02666\"><he>אפי</he></cite>) <i>baking</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:38\">Y. Sabb. VII, 10ᵇ</cite> bot. <he>א׳ תולדה לבישול</he> baking is a labor forbidden on the Sabbath as a species of cooking; v. <cite ref=\"A00014\"><he>אָב</he> II</cite>. ",
+				"<cite ref=\"Menachot 94a\">Men. 94ᵃ</cite>; a. fr.—Pl. <he>אֲפִיּוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:3:10\">Y. Pes. III, 30ᵇ</cite> top <he>כדי שתי א׳</he> twice the time required for baking. [<cite ref=\"Jerusalem Talmud Nedarim 7:1:6\">Y. Ned. VII, 40ᵇ</cite> bot. <he>הנודר מן הא׳</he>, read <cite ref=\"H01454\"><he>חֲפִירָה</he></cite> as <cite ref=\"Tosefta Nedarim 4:3\">Tosef. Ned. IV, 3</cite>.]"
+			]
+		}
+	]
+}

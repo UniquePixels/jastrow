@@ -1,0 +1,30 @@
+{
+	"id": "R00149",
+	"slug": "צואה-2",
+	"headword": {
+		"text": "צוֹאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "צֹּאָח"
+		}
+	],
+	"page": {
+		"number": 1265,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"R00188\"><he>צְוֵי</he> II</cite>, <i>filthy matter, excrement</i>. Pesik. Dibré, p. 111ᵃ (ref. to <he>צֵא</he>, <cite ref=\"Isaiah 30:22\">Is. XXX, 22</cite>) <he>צ׳ תאמר לו</he> call it (the idol) filth; Yalk. Lam. 998; <cite ref=\"Yalkut Shimoni on Nach 932:1\">Yalk. Prov. 932</cite> (v. <he>צאה</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 3:5\">Ber. III, 5</cite>. ",
+				"<cite ref=\"Berakhot 25a:12\">Ib. 25ᵃ</cite> <he>פי חזיר כצ׳ וכ׳</he> the mouth of a swine is like moving filth (you must not pray in its sight). ",
+				"<cite ref=\"Gittin 57a\">Gitt. 57ᵃ</cite>. ",
+				"<cite ref=\"Bekhorot 29b:9\">Bekh. 29ᵇ</cite> <he>מלובן מצוֹאָתוֹ</he> wool cleansed of its dirt; a. fr."
+			]
+		}
+	]
+}

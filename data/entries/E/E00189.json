@@ -1,0 +1,30 @@
+{
+	"id": "E00189",
+	"slug": "הובריא",
+	"headword": {
+		"text": "הוֹבְרָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹבְרָיָיא"
+		},
+		{
+			"text": "אוֹ׳"
+		}
+	],
+	"page": {
+		"number": 336,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= h. <cite ref=\"E00051\"><he>הַבְרָאָה</he></cite>; <cite ref=\"B01237\"><he>ברי</he></cite>) <i>mourners’ meal on returning from burial</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 49:4\">Gen. R. s. 49</cite> <he>זו ה׳</he> this (<he>צדקה</he> <cite ref=\"Genesis 18:19\">Gen. XVIII, 19</cite>) means the custom of offering mourners the meal &c. Y. M. Kat. III, end, 83ᵈ <he>עבדון ליה איב׳</he> (read <cite ref=\"E00189\"><he>אוֹ׳</he></cite>) they prepared for him &c."
+			]
+		}
+	]
+}

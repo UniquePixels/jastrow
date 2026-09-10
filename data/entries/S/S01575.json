@@ -1,0 +1,27 @@
+{
+	"id": "S01575",
+	"slug": "קניגיא",
+	"headword": {
+		"text": "קְנִיגְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִינִ׳"
+		}
+	],
+	"page": {
+		"number": 1392,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κυνηγία) <i>chase, hunt</i>.—[Targ. II Esth. I, 2 <he>וכל קניגייא</he>, v. <cite ref=\"S01040\"><he>קֵינַי</he></cite>.]—",
+			"units": [
+				"<cite ref=\"Bava Batra 74b\">B. Bath. 74ᵇ</cite> sq. <he>עתיד גבריאל לעשות ק׳ עם וכ׳</he> in the future Gabriel shall arrange a chase of the Leviathan."
+			]
+		}
+	]
+}

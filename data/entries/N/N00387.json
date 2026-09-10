@@ -1,0 +1,72 @@
+{
+	"id": "N00387",
+	"slug": "נוף-1",
+	"headword": {
+		"text": "נוּף"
+	},
+	"page": {
+		"number": 888,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to move in the air, to soar</i>. [<cite ref=\"Yalkut Shimoni on Nach 676:2\">Yalk. Ps. 676</cite> <he>שהוא נפה</he>, read: <he>שהיא צפה</he>, v. <cite ref=\"R00216\"><he>צוּף</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵנִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to swing, wave</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 61b:1\">Men. 61ᵇ</cite> <he>כהן מניח … ומֵנִיף</he> the priest places his hand under those of the owner of the offering and waves. ",
+						"<cite ref=\"Menachot 61b\">Ib.</cite> <he>אין העכ״ום מְנִיפִין</he> gentiles are not permitted to wave their offerings; <he>אין הנשים מְנִיפוֹת</he> women are not permitted &c. Ib.ᵃ <he>וכול יָנִיף ויחזור ויניף</he> I might think that he must wave twice. ",
+						"<cite ref=\"Mishnah Sanhedrin 6:1\">Snh. VI, 1</cite> <he>מֵנִיף בסודרין</he> gave the signal by waving a cloth; <cite ref=\"Sukkah 51b\">Succ. 51ᵇ</cite>. ",
+						"<cite ref=\"Pesikta Rabbati 41:1\">Pesik. R. s. 41</cite> (ref. to <he>יפה נוף</he>, <cite ref=\"Psalms 48:3\">Ps. XLVIII, 3</cite>) <he>היפה שהיא עתידה להָנִיף את וכ׳</he> the beautiful one (Israel) who is destined to swing (rule) the nations; <cite ref=\"Yalkut Shimoni on Nach 755:2\">Yalk. Ps. 755</cite>; <cite ref=\"Yalkut Shimoni on Torah 417:3\">Yalk. Ex. 417</cite> <he>שהיא מְנִיפָה לאו״ה</he> (ref. to <cite ref=\"Isaiah 30:28\">Is. XXX, 28</cite>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to fan</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 86a:12\">B. Mets. 86ᵃ</cite> <he>הָנִיפִי עלי</he>, v. <cite ref=\"M01788\"><he>מְנִיפָא</he></cite>. Y. Yoma I, 38ᶜ <he>ומניפין לרבוניהם</he> and fan their masters. Pesik. R. l. c.; Yalk. Ps. l. c. <he>והכל מניפין עליה</he> and all fan her (are subservient to her); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִפְנֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to swing, fan</i>. Y. Ber. I, 2ᵈ <he>והיתה רוח … ומְנַפְנֶפֶת בו</he> and the northern wind blew and set the harp swinging. Yalk. Ps. l. c. <he>שיוצא ומְנַפְנֵף את דגניה</he> (not <he>רגליה</he>) (the dew) which goes forth and makes her grain in the ear wave (bend with its weight); Pesik. R. l. c. <he>ומְנַפֵּף את הדגנים</he>. Ohol. VIII, 5 <he>טלית המְנַפְנֶפֶת</he> a sheet suspended as a banner (cmp. <cite ref=\"M02195\"><he>מַפָּה</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Pilp."
+		},
+		{
+			"forms": ["הִתְנוֹפֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to be winnowed</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 63a\">Yeb. 63ᵃ</cite> (addressing the ears in the field, in Chald. dict.) <he>אֵי במנפה תִתְנוֹפְפִי</he> Ar., eh! thou desirest to be winnowed with the fan; [oth. vers. in Ar.: <he>כמנפה תתנופפי</he> (not <he>במנ׳</he>) thou swingest thyself like a swing, v. infra]; ed. v. <cite ref=\"N00388\">next w.</cite>"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to swing one’s self; to soar; to be proud</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 24b:17\">Ab. Zar. 24ᵇ</cite> <he>הִתְנוֹפְפִי וכ׳</he> rise (O Ark) in the &c., v. <cite ref=\"E00149\"><he>הָדָר</he></cite>; <cite ref=\"Bereishit Rabbah 54\">Gen. R. s. 54</cite>. Yeb. l. c., v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

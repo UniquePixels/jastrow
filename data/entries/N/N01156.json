@@ -1,0 +1,42 @@
+{
+	"id": "N01156",
+	"slug": "נקב-2",
+	"headword": {
+		"text": "נְקַב"
+	},
+	"page": {
+		"number": 930,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01155\">same</cite>, <i>to perforate</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 12:10\">Targ. II Kings XII, 10</cite>; a. fr.—",
+				"<cite ref=\"Chullin 48a:5\">Ḥull. 48ᵃ</cite> <he>אי האי נְקִיב וכ׳</he> whether this lobe is perforated or the other; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַקֵּיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01155\">same</cite>. Ib.ᵇ <he>נַקּוּבֵי נקיב ואתאי</he> the needle perforated (the entrails) and came into the lungs.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִינְּקִיב", "אִינְּקַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be perforated</i> Ib. Ib. 45ᵃ; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

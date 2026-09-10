@@ -1,0 +1,25 @@
+{
+	"id": "P00728",
+	"slug": "עכוביתא-2",
+	"headword": {
+		"text": "עַכּוֹבִיתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1078,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= b. h. <he>עַכָּבִישׁ</he> a. <cite ref=\"P00753\"><he>עַכְשׁוּב</he></cite>) <i>spider</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 59:5\">Targ. Is. LIX, 5</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Psalms 57:3\">Targ. Ps. LVII, 3</cite> (ed. Lag. <cite ref=\"P00718\"><he>עַכָּבִיתָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 140:4\">Ib. CXL, 4</cite> (h. text <cite ref=\"P00753\"><he>עכשוב</he></cite>).—V. <cite ref=\"P00753\"><he>עַכְשׁוּב</he></cite>."
+			]
+		}
+	]
+}

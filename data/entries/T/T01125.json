@@ -1,0 +1,48 @@
+{
+	"id": "T01125",
+	"slug": "רתחא-2",
+	"headword": {
+		"text": "רִתְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1503,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01124\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heat; anger, excitement</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 19:7\">Targ. Ps. XIX, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:8\">Ib. XXXVII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:38\">Ib. LXXVIII, 38</cite> Ms. (ed. <he>חמת׳</he>); a. fr.—",
+				"<cite ref=\"Berakhot 7a:6\">Ber. 7ᵃ</cite> <he>ומי איכא ר׳ וכ׳</he> is there anger before the Lord, i.e. is the Lord ever angry? <cite ref=\"Sanhedrin 105a:5\">Snh. 105ᵃ</cite> (ref. to <cite ref=\"Ezekiel 20:33\">Ez. XX, 33</cite>) <he>כל כי האי ר׳ לירתח וכ׳</he> let the Merciful have all that anger, if he only redeem us; <cite ref=\"Rosh Hashanah 32b:1\">R. Hash. 32ᵇ</cite>; a. e.—Pl. <he>רִתְחַיָּא</he>, <cite ref=\"T00053\"><he>רִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 76:11\">Targ. Ps. LXXVI, 11</cite> (ed. Wil. <i>sing.</i>; h. text <cite ref=\"H01167\"><he>חמות</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"S01832\"><he>קֶצֶף</he></cite>) <i>pestilence</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 60b:5\">B. Kam. 60ᵇ</cite> <he>בעידן ר׳ הוי וכ׳</he> closed the windows at the time of an epidemic."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>foam</i>, v. <cite ref=\"T00456\"><he>רוּתְחָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

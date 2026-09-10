@@ -1,0 +1,66 @@
+{
+	"id": "C00974",
+	"slug": "גלע",
+	"headword": {
+		"text": "גָּלַע"
+	},
+	"page": {
+		"number": 250,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>גלח</he> a. <cite ref=\"C01379\"><he>גרע</he></cite>)<i>to scratch off, rub; lay open</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְלַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be opened through rubbing or scratching, to bleed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Niddah 8:2\">Nidd. VIII, 2</cite> (<cite ref=\"Niddah 58b:15\">58ᵇ</cite>) <he>והיא יכולה להִגָּלֵעַ וכ׳</he> (Bart. <he>להתגלע</he>) and it (the wound) may have been bruised so as to bleed."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["גִּלֵּע", "גִּילֵּ׳"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite> of person) <i>to detract from, lay bare the ignorance of, attack</i>. Y. Yeb. VIII, end, 9ᵈ <he>משום שלא לגְרוֹעַ בו וכ׳</he> (did they send him off) in order not to see him exposed, or because he was not fit (to argue)? What is the difference? <he>היה דרכו לגַלֵּע א״ת משום שלא לגלע בו וכ׳</he> It was his (Rabbi’s) habit to begin with vehement argument; now, if you were to say, ‘in order not to see him exposed’, his exposure was in his own hand (he being the attacking part) &c. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>מה היה לו לגַ׳ בו</he> what could he have attacked (on that subject of <i>androgynos</i>)?"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְגַּלֵּעַ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְגַּלֵּעַ</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be scratched open</i>, v. supra. ",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be laid bare, be argued</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 6b\">Snh. 6ᵇ</cite>; Y. ib. I, 18ᵇ (ref. to <cite ref=\"Proverbs 17:14\">Prov. XVII, 14</cite>) (<he>עד שלא נתג׳</he>) <he>קודם שנתג׳ הריב נטוש</he> before the case of litigation has been laid open (fully argued), you (the judge) may compromise it &c.; Tanḥ. ",
+						"<cite ref=\"Exodus 6\">Mishp. 6</cite>; <cite ref=\"Yalkut Shimoni on Nach 956\">Yalk. Prov. 956</cite> <cite ref=\"C00926\"><he>נִתְגַּלֶּה</he></cite>, <he>יִתְגַּלֶּה</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

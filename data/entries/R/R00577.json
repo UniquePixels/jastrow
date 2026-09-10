@@ -1,0 +1,27 @@
+{
+	"id": "R00577",
+	"slug": "צמייא",
+	"headword": {
+		"text": "צַמְיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַמְיָיא קַיְיטָא"
+		}
+	],
+	"page": {
+		"number": 1288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00573\"><he>צְמֵי</he></cite>) [<i>shrunk by the summer</i>,?] name of a kind of <i>early figs</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:2:15\">Y. Maasr. I, 49ᵃ</cite> top <he>משיבכר צ׳ ק׳</he> when the first <i>tsamya ḳayṭa</i> ripens; <he>לא ביכר צ׳ ק׳ וכ׳</he> if in that year the <i>ts. k.</i> did not ripen early &c."
+			]
+		}
+	]
+}

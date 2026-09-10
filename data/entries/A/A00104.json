@@ -1,0 +1,23 @@
+{
+	"id": "A00104",
+	"slug": "אבטלה",
+	"headword": {
+		"text": "אַבְטָלָה"
+	},
+	"page": {
+		"number": 5,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"E00035\"><he>הַבְטָלָה</he></cite>; <cite ref=\"B00515\"><he>בטל</he></cite>) <i>idleness, waste</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:16\">Y. Bets. V, 63ᵇ</cite> <he>נר של א׳</he> a light burning to no purpose. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:17\">Y. Shebi. VII, 37ᶜ</cite> top <he>על הא׳</he> for the loss of time."
+			]
+		}
+	]
+}

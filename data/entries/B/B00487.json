@@ -1,0 +1,35 @@
+{
+	"id": "B00487",
+	"slug": "בחש-2",
+	"headword": {
+		"text": "בְּחַשׁ"
+	},
+	"page": {
+		"number": 155,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00486\">same</cite><i>to search, examine</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 39:11\">Targ. Y. Gen. XXXIX, 11</cite> <he>למֵיבְחוּשׁ וכ׳</he> to examine … the accounts.—",
+				"<cite ref=\"Shabbat 152a:3\">Sabb. 152ᵃ</cite> <he>אדלא אבידנא בָחִישְׁנָא</he> I am searching for what I have not lost (of the aged man’s unsteady walk and bent figure). ",
+				"<cite ref=\"Bava Metzia 5b:15\">B. Mets. 5ᵇ</cite> <he>עד דב׳ וכ׳</he> until I may search and find it. ",
+				"<cite ref=\"Bava Metzia 86a:5\">Ib. 86ᵃ</cite> <he>בחוש אבתריה וכ׳</he> (not <he>בחיש</he>, v. Rabb. D. S. a. l. note 90) search for him and find him. ",
+				"<cite ref=\"Bava Kamma 97b:4\">B. Kam. 97ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stir</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:14\">Targ. Esth. I, 14</cite>.—",
+				"<cite ref=\"Shabbat 30b:1\">Sabb. 30ᵇ</cite> <he>קא בחיש באילני</he> Ms. M. (v. Rabb. D. S. a. l. note) he shook the trees. ",
+				"<cite ref=\"Shabbat 140a\">Ib. 140ᵃ</cite>. ",
+				"<cite ref=\"Gittin 45a:22\">Gitt. 45ᵃ</cite> <he>בחשן וכ׳</he> stirred a (hot) pot with their hands. ",
+				"<cite ref=\"Gittin 69b\">Ib. 69ᵇ</cite> top."
+			],
+			"label": "2"
+		}
+	]
+}

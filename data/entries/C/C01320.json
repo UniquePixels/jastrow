@@ -1,0 +1,96 @@
+{
+	"id": "C01320",
+	"slug": "גרי-1",
+	"headword": {
+		"text": "גרי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּרָה"
+		}
+	],
+	"page": {
+		"number": 267,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be rough, grating, scraping;</i> v. <cite ref=\"C01320\"><he>גֵּרָה</he></cite>, <cite ref=\"C01302\"><he>גָּרוֹן</he></cite> &c.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be hot, burn, singe</i> (cmp. <cite ref=\"H01607\"><he>חָרָה</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּירָה", "גֵּרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to incite, stir up, let loose</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 107b\">Snh. 107ᵇ</cite> <he>שגי׳ דובים וכ׳</he> because he let the bears loose against the children. ",
+						"<cite ref=\"Shemot Rabbah 21:5\">Ex. R. s. 21</cite> <he>ג׳ לפרעה</he> He incited Pharaoh &c. ",
+						"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite>, end (interpret. <i>hishshiani</i>, <cite ref=\"Genesis 3:13\">Gen. III, 13</cite>) <he>גִּירַנִי</he>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:4:4\">Cant. R. to I, 4</cite> (play on <he>משכני</he> <cite ref=\"Shir HaShirim Rabbah 1:4:4\">ib.</cite>) <he>ממה שגֵּרִיתָ בי שכני הרעים</he> from my hostile neighbors whom thou hast incited against me.—Trnsf. <he>ג׳ את הדוב ב־</he> <i>to let temptation loose against</i>. ",
+						"<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite> <he>אני מְגָרֶה בך וכ׳</he> I shall lay temptation in thy way; a. fr.—",
+						"<cite ref=\"Vayikra Rabbah 17:2\">Lev. R. s. 17</cite> <he>ביום שיְגָרֶה וכ׳</he> on the day when the Lord shall stir up his anger &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְגָּרֶה"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְגָּרֶה</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be inflamed, jealous; to rival</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 19a:10\">Snh. 19ᵃ</cite> <he>מִתְגָּרוֹת זו בזו</he> jealous of one another."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to engage in battle, to fight</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 7b:10\">Ber. 7ᵇ</cite>; <cite ref=\"Megillah 6b:6\">Meg. 6ᵇ</cite> <he>מותר להִתְגָּרוֹת וכ׳</he> it is permitted to enter into combat with the wicked (with reference to b. h. <he>התחרה</he>).—",
+						"<cite ref=\"Bamidbar Rabbah 19:22\">Num. R. s. 19</cite> <he>נתג׳ בהם</he> he attacked them."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be let loose</i>. Esth. R. introd. <he>נִתְגָּרְתָה אותה הדוב</he> that temptation was aroused (against Joseph), v. supra; <cite ref=\"Bamidbar Rabbah 13:15\">Num. R. s. 13</cite> <he>מִתְגָּרַת</he>.",
+					"units": [],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to have a passion for, to indulge freely in</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 76b\">Yoma 76ᵇ</cite> wine is called <he>תיר̇ש̇</he>, because he <he>המִתְגָּרֶה בו נעשה ר̇ש̇</he> who indulges in it becomes poor. ",
+						"<cite ref=\"Avodah Zarah 18b\">Ab. Zar. 18ᵇ</cite>; <cite ref=\"Avodah Zarah 19b:10\">19ᵇ</cite> <he>אֶתְגָּרֶה בשינה</he> I will freely indulge in sleep (idleness)."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"V00092\"><he>תִּגְרָה</he></cite>) <i>to incite</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite>; Tanḥ. Koraḥ 3 <he>להִתְגָּרוֹת בו את וכֹ׳</he> to incite Israel against him."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

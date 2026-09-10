@@ -1,0 +1,36 @@
+{
+	"id": "S01455",
+	"slug": "קמח-2",
+	"headword": {
+		"text": "קֶמַח"
+	},
+	"page": {
+		"number": 1384,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; Assyr. Wœrterb. p. 586<sup>2</sup>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>flour, first flour</i>, contrad. fr. <cite ref=\"O01044\"><he>סֹלֶת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 7:3:10\">Y. Peah VII, 20ᵃ</cite> bot.; <cite ref=\"Ketubot 112a:11\">Keth. 112ᵃ</cite>, a. e., v. <cite ref=\"S00864\"><he>קִיבָר</he></cite>. ",
+				"<cite ref=\"Mishnah Challah 1:6\">Ḥall. I, 6</cite>, v. <cite ref=\"H01040\"><he>חֲלִיטָה</he> II</cite>; a. fr.—",
+				"<cite ref=\"Pirkei Avot 3:17\">Ab. III, 17</cite> <he>אם אין ק׳ אין … אין ק׳</he> without flour (sustenance) no learning, without learning no flour (enjoyment of life).—Pl. <he>קְמָחִים</he>, <he>קְמָחִין</he>. ",
+				"<cite ref=\"Kiddushin 53a:4\">Kidd. 53ᵃ</cite>; <cite ref=\"Menachot 73a:3\">Men. 73ᵃ</cite> <he>הללו … והללו מיני ק׳</he> these (the animal sacrifices) are blood offerings, those (the cakes &c.) are flour offerings. ",
+				"<cite ref=\"Jerusalem Talmud Challah 1:1:14\">Y. Ḥall. I, 57ᵇ</cite> <he>תבואה ק׳ ובציקות</he> grains, flours, and doughs; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (from its color) <i>mould gathered on wine.—</i>Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 8:7\">Men. VIII, 7</cite> <he>אינו … מפני הק׳</he> one must not take for libation from the top of the cask on account of the mould. ",
+				"<cite ref=\"Mishnah Menachot 8:7\">Ib.</cite> <he>יין … ק׳ פסול</he> wine on which mould is gathered is unfit for the altar."
+			],
+			"label": "2"
+		}
+	]
+}

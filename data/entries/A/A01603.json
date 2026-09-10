@@ -1,0 +1,42 @@
+{
+	"id": "A01603",
+	"slug": "אירונית",
+	"headword": {
+		"text": "אִירוֹנִית",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִרוֹנִית"
+		},
+		{
+			"text": "חִירוֹנִית"
+		},
+		{
+			"text": "חִרוֹנִית"
+		},
+		{
+			"text": "עִירוֹנִית"
+		},
+		{
+			"text": "עִרָנִית"
+		}
+	],
+	"page": {
+		"number": 60,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A01602\">preced.</cite>) <i>made of white clay, unburned and flat clay-dish</i>, a kind of tray extemporized for immediate use in the field.—Pl. <he>אִירוֹנִיּוֹת</he> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 2:5\">Eduy. II, 5</cite> <he>לפסין אי׳</he> ed. (Ms. <he>אלפסין ארנ׳</he>, Mish. Nap. <he>ארו׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 11:2:5\">Y. Sabb. XI, 13ᵃ</cite> <he>ארו׳</he>. ",
+				"<cite ref=\"Beitzah 32a\">Bets. 32ᵃ</cite> <he>חיר׳</he> Ms. M. (ed. <he>חר׳</he>) expl. = <cite ref=\"P01269\"><he>עיר׳</he></cite> Ms. M. (ed. <cite ref=\"P00681\"><he>ער׳</he></cite>) = <he>צעי חקלייתא</he> field-dishes. [Rashi; from <cite ref=\"P00672\"><he>עיר</he></cite> <i>used in country towns</i> (!), hence <i>coarse, unfinished</i>.]."
+			]
+		}
+	]
+}

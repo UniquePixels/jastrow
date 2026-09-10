@@ -1,0 +1,28 @@
+{
+	"id": "M02909",
+	"slug": "משכנותא",
+	"headword": {
+		"text": "מִשְׁכְּנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִישְׁ׳"
+		}
+	],
+	"page": {
+		"number": 855,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"M02910\">next w.</cite>) <i>pledged property, occupancy subject to redemption at the original owner’s will</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:2\">Cant. R. to I, 4</cite> (play on <he>משכני</he>, <cite ref=\"Shir HaShirim Rabbah 1:4:2\">ib.</cite>) <he>לארעא טבתא דאתקריאת מ׳</he> to the good land which is called a tenancy (cmp. ",
+				"<cite ref=\"Leviticus 25:23\">Lev. XXV, 23</cite>); Yalk. ib. 981 <cite ref=\"M02910\"><he>מַשְׁכַּנְתָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "O00746",
+	"slug": "סיסאי",
+	"headword": {
+		"text": "סִיסַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפַר סִיסַאי"
+		}
+	],
+	"page": {
+		"number": 983,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>K’far Sisay</i>, a gentile place in Palestine, belonging to the district of Acco, although near Sepphoris. ",
+			"units": [
+				"<cite ref=\"Gittin 6b:3\">Gitt. 6ᵇ</cite>; <cite ref=\"Tosefta Gittin 1:3\">Tosef. ib. I, 3</cite> <cite ref=\"O00021\"><he>סָאסַאי</he></cite> (Var. <he>סָסַי</he>); Y. ib. I, 43ᶜ top <cite ref=\"O01089\"><he>סמיי</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

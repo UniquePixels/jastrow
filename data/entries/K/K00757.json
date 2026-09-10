@@ -1,0 +1,39 @@
+{
+	"id": "K00757",
+	"slug": "כלכלה",
+	"headword": {
+		"text": "כַּלְכָּלָה"
+	},
+	"page": {
+		"number": 643,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00756\">preced. art.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>support, provision</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 44a:14\">Ber. 44ᵃ</cite> <he>על המחיה ועל הכ׳</he> (be blessed &c.) for sustenance and support."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>supply</i>, esp. <i>basket containing chosen fruits</i> designated for use. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 4:10\">Eduy. IV, 10</cite> (<cite ref=\"Mishnah Eduyot 4:9\">9</cite>); <cite ref=\"Mishnah Maasrot 4:2\">Maasr. IV, 2</cite> <he>כַּלְכָּלַת שבת</he> supply of fruits for the Sabbath (not for sale). ",
+				"<cite ref=\"Mishnah Maasrot 4:2\">Ib.</cite> <he>הלוקט הכ׳ וכ׳</he> he who selects figs to send as a present. Y. ib. IV, 51ᵇ <he>כ׳ שבת אינה וכ׳</he> Sabbath supply must not be sold. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 2:2:4\">Y. Ter. II, end, 41ᵈ</cite> <he>תאינים שבכ׳</he> figs in the provision basket, opp. <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 1:1:10\">Y. Dem. I, 21ᶜ</cite> bot. <he>כ׳ אחת וכ׳</he> there is only one basketful (of the late fruits) which I reserve &c. ",
+				"<cite ref=\"Vayikra Rabbah 33:1\">Lev. R. s. 33</cite>, beg. <he>כ׳ של תאנים</he> a basket of figs for use (subject to tithes even for luncheon, v. <cite ref=\"I00066\"><he>טֶבֶל</he></cite>); a. fr.—Pl. <he>כַּלְכָּלוֹת</he>. ",
+				"<cite ref=\"Mishnah Demai 7:6\">Dem. VII, 6</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

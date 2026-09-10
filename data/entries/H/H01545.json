@@ -1,0 +1,25 @@
+{
+	"id": "H01545",
+	"slug": "חצרא",
+	"headword": {
+		"text": "חַצְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיצְרָא"
+		}
+	],
+	"page": {
+		"number": 496,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", constr. <cite ref=\"H01543\"><he>חֲצַר</he></cite> ch. same.—<he>ח׳ דעל כבדא</he>, <he>ח׳ כבדא</he> = h. <he>חֲצַר הכבד</he>, v. <cite ref=\"H01544\">preced.</cite> ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 29:13\">Targ. Ex. XXIX, 13</cite>; a. e. (h. text <he>יתרת</he>). ",
+				"<cite ref=\"Targum of II Chronicles 18:33\">Targ. II Chr. XVIII, 33</cite>."
+			]
+		}
+	]
+}

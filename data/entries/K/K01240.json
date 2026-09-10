@@ -1,0 +1,23 @@
+{
+	"id": "K01240",
+	"slug": "כרנבי",
+	"headword": {
+		"text": "כְּרַנְבִּי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 672,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κράμβη) <i>cabbage</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 42</cite> (not <cite ref=\"K01242\"><he>כרנכי</he></cite>), v. <cite ref=\"B00991\"><he>בְּסִימָא</he></cite>."
+			]
+		}
+	]
+}

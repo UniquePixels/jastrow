@@ -1,0 +1,26 @@
+{
+	"id": "C00507",
+	"slug": "גושפנקא",
+	"headword": {
+		"text": "גּוּשְׁפַּנְקָא"
+	},
+	"page": {
+		"number": 228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. = <he>גוש פנקא</he> <i>the freeman’s lump</i> or <i>cylinder</i>) <i>signet; seal; signet-ring</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:12\">Targ. Koh. I, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 3:10\">Targ. Esth. III, 10</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 6a:6\">Ber. 6ᵃ</cite> <he>בג׳ דפרזלא</he> with an iron signet. ",
+				"<cite ref=\"Gittin 57a:9\">Gitt. 57ᵃ</cite>; <cite ref=\"Gittin 58a:5\">58ᵃ</cite>, v. <cite ref=\"B00859\"><he>בִּלְיוֹנָא</he></cite>.—Pl. <cite ref=\"C00507\"><he>גּוּשְׁפַּנְקֵי</he></cite>. ",
+				"<cite ref=\"Shabbat 66b:22\">Sabb. 66ᵇ</cite> <he>בשתין ג׳</he> with sixty seals."
+			]
+		}
+	]
+}

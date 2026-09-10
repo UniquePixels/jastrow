@@ -1,0 +1,78 @@
+{
+	"id": "S01566",
+	"slug": "קני-1",
+	"headword": {
+		"text": "קני"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָנָא"
+		},
+		{
+			"text": "קָנָה"
+		}
+	],
+	"page": {
+		"number": 1390,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. Arab. <i>ḳana</i>) <i>to be hot</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִינֵּא", "קִנֵּא"],
+			"senses": [
+				{
+					"gloss": " (b. h.) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be jealous; to envy</i>. Lam. R. introd. (R. Joḥ. 1) <he>לא קִנֵּאתִי בה</he> I was not jealous of her; <he>מפני מה קִנֵּאתָ לע״ז וכ׳</he> why art thou jealous of an idol in which there is no reality?; a. e.—Esp. <he>ק׳ לאשתו</he> <i>to suspect one’s wife of unbecoming conduct; to accuse of faithlessness; to warn one’s wife</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 1:1\">Sot. I, 1</cite> <he>המְקַנֵּא … מקנא לה על פי שנים</he> he who suspects his wife … must bring charges against her based on a warning given in the presence of two witnesses. ",
+						"<cite ref=\"Mishnah Sotah 1:2\">Ib. 2</cite> <he>כיצד מקנא לה אומר לה בפני שנים אל תדברי וכ׳</he> how must he warn her? If he says before two witnesses, do not speak (associate) with that man, and she does so, she is still permitted to him for marital life &c. ",
+						"<cite ref=\"Tosefta Sotah 1:1\">Tosef. ib. I, 1</cite> [read:] <he>המקנא לאשתו מקנא על פי עד אחד וכ׳</he> (ed. Zuck. <he>המְקַנֶּה</he>, Var. <cite ref=\"M02434\"><he>מקנה</he></cite>) he who wants to proceed against his wife, must bring charges based on a statement of warning by one witness or on his own statement; <cite ref=\"Sotah 2b:22\">Sot. 2ᵇ</cite>. ",
+						"<cite ref=\"Sotah 2a:7\">Ib. 2ᵃ</cite> <he>אסור לקַנְּאוֹת</he> it is forbidden to warn one’s wife (in the presence of witnesses). ",
+						"<cite ref=\"Sotah 3a:2\">Ib. 3ᵃ</cite> <he>מותר לק׳</he> it is permitted &c. ",
+						"<cite ref=\"Moed Katan 18b:18\">M. Kat. 18ᵇ</cite> (ref. to <cite ref=\"Psalms 106:16\">Ps. CVI, 16</cite>) <he>שכל … קי׳ לאשתו ממשה</he> every one of them warned his wife in jealousy of Moses. ",
+						"<cite ref=\"Bamidbar Rabbah 9:10\">Num. R. s. 9</cite> <he>ע״י איש הוא מקנה אותה וכ׳</he> he may bring charges on the ground of suspicious conduct towards a man (human being) but not &c. ",
+						"<cite ref=\"Bamidbar Rabbah 9:45\">Ib.</cite> <he>בית רין מְקַנְּאִין להם וכ׳</he> (some ed. <he>מְקַנִּין</he>) the court takes proceedings in their (the husbands’) behalf &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to arouse jealousy; to provoke</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 15b:15\">Meg. 15ᵇ</cite> <he>קִנְּאַתּוּ במלך וכ׳</he> she (by inviting Haman) aroused against him the jealousy of the king and the jealousy of the (other) princes. Num. R. l. c. <he>שהיא מְקַנְּאָה להקב״ה וכ׳</he> for she provokes the Lord and her husband; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְקַנֵּא"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְקַנֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to be jealous; to be incensed</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 109b\">Men. 109ᵇ</cite> <he>נ׳ בו</he> … <he>בשמעי אחיו</he> Onias was jealous of his brother Shimei. ",
+						"<cite ref=\"Sanhedrin 105b:15\">Snh. 105ᵇ</cite> <he>בכל אדם מִתְקַנֵּא וכ׳</he> a man is envious of all except his son and his pupil. ",
+						"<cite ref=\"Megillah 13a:23\">Meg. 13ᵃ</cite> <he>מִתְקַנְּאָה</he>, v. <cite ref=\"J00642\"><he>יָרֵךְ</he></cite>. ",
+						"<cite ref=\"Avodah Zarah 54b:18\">Ab. Zar. 54ᵇ</cite> <he>מפני מה מתקנא בעובדיה וכ׳</he> why is he jealous of (incensed against) those who worship it (the idol), and is not jealous of (takes no revenge on) itself? <cite ref=\"Megillah 19a\">Meg. 19ᵃ</cite> <he>מה … שנ׳ בכל וכ׳</he> what reason had Haman to take revenge on all the Jews?; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

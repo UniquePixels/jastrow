@@ -1,0 +1,29 @@
+{
+	"id": "Q00055",
+	"slug": "פגיון",
+	"headword": {
+		"text": "פִּגְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיגְ׳"
+		}
+	],
+	"page": {
+		"number": 1132,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (corrupt. of pugio) <i>dagger</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:1\">Kel. XIII, 1</cite>; <cite ref=\"Tosefta Keilim Metsia 3:1\">Tosef. Kel. B. Mets. III, 1</cite> <he>הפגש</he> (corr. acc.). ",
+				"<cite ref=\"Bava Metzia 84a\">B. Mets. 84ᵃ</cite> <he>הפיג׳</he>. ",
+				"<cite ref=\"Mishnah Bekhorot 5:3\">Bekh. V, 3</cite> (<cite ref=\"Bekhorot 35a:2\">35ᵃ</cite>) <he>נטל פי׳ וצרם וכ׳</he> (Bab. ed. <cite ref=\"Q00579\"><he>פיגום</he></cite>, corr. acc.) he (the Roman) took a dagger and cut into its ear."
+			]
+		}
+	]
+}

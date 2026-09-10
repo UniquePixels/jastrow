@@ -1,0 +1,33 @@
+{
+	"id": "S00401",
+	"slug": "קומץ",
+	"headword": {
+		"text": "קוֹמֶץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֹמֶץ"
+		}
+	],
+	"page": {
+		"number": 1333,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S01483\"><he>קָמַץ</he></cite>)<i>bending the three middle fingers over the hollow of the hand</i>; (with <cite ref=\"M01461\"><he>מלא</he></cite>, or sub. <cite ref=\"M01461\"><he>מלא</he></cite>) <i>grab, handful</i>, contrad. to <cite ref=\"H00426\"><he>חוֹפֶן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3b:29\">Ber. 3ᵇ</cite> <he>אין הק׳ משביע וכ׳</he> one grab cannot satisfy a lion. ",
+				"<cite ref=\"Bereishit Rabbah 20:10\">Gen. R. s. 20</cite> <he>ק׳ עפר וכ׳</he> is not the handful of dust of the ground of which thou hast been made, booty in thy possession (which thou must give back to the earth)? <cite ref=\"Bereishit Rabbah 90:5\">Gen. R. s. 90</cite> <he>אין בה ק׳ ק׳</he> there would not be a handful for each person; <cite ref=\"Yalkut Shimoni on Torah 148:2\">Yalk. ib. 148</cite> <he>אינן מספיקין מק׳ ק׳</he>; a. e.—Esp. <i>the handful of the meal offering which the priest takes to be put on the altar</i> (<cite ref=\"Leviticus 6:8\">Lev. VI, 8</cite>). ",
+				"<cite ref=\"Mishnah Menachot 3:2\">Men. III, 2</cite> <he>נתערב קוּמְצָהּ בק׳ וכ׳</he> if the handful of one meal offering became mixed up with that of another meal offering. ",
+				"<cite ref=\"Mishnah Menachot 3:3\">Ib. 3</cite> <he>ק׳ שנתערב וכ׳</he> if a <i>ḳomets</i> became mixed up with a meal offering from which no <i>ḳomets</i> was yet taken. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:4:5\">Y. Shek. VI, end, 50ᵇ</cite> <he>בקֻמְצוֹ של כהן</he> measured by the officiating priest’s handful; <he>בק׳ של בעלים</he> by the owner’s handful. ",
+				"<cite ref=\"Kohelet Rabbah 4:6:1\">Koh. R. to IV, 6</cite> <he>חביב עלי מלא קמצו של עני וכ׳</he> the handful of the poor man’s offering is more precious to me than the fistfuls of the high priest’s frankincense; a. fr.—Pl. <he>קְמָצִים</he>, <he>קְמָצִין</he>, <cite ref=\"S00637\"><he>קוּמְצִין</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 5:7\">Gen. R. s. 5</cite> <he>חפנו</he> … <he>שמונה ק׳</he> Moses’ one fistful contained eight ordinary handfuls. Y. Shek. l. c. (ed. Zyt. <he>קומצין</he>); a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M02005",
+	"slug": "מסקתא",
+	"headword": {
+		"text": "מַסְקָתָא"
+	},
+	"page": {
+		"number": 810,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"M02004\">preced.</cite> wds.) <i>going up, procession</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 9:4\">Targ. II Chr. IX, 4</cite>."
+			]
+		}
+	]
+}

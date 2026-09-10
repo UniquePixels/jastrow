@@ -1,0 +1,24 @@
+{
+	"id": "H00135",
+	"slug": "חגא-2",
+	"headword": {
+		"text": "חַגָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 423,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (abbr. of Haggai) <i>Ḥagga</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 68a:5\">Ab. Zar. 68ᵃ</cite>. ",
+				"<cite ref=\"Bava Kamma 42a\">B. Kam. 42ᵃ</cite> Ms. M. (ed. <cite ref=\"H00147\"><he>חַגַּי</he></cite>)."
+			]
+		}
+	]
+}

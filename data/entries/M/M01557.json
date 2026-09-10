@@ -1,0 +1,22 @@
+{
+	"id": "M01557",
+	"slug": "מליכא",
+	"headword": {
+		"text": "מְלִיכָא"
+	},
+	"page": {
+		"number": 790,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01571\"><he>מְלַךְ</he></cite>) <i>counsellor</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 15:12\">Targ. II Sam. XV, 12</cite> (ed. Lag. <cite ref=\"M01514\"><he>מָלוֹכָא</he></cite>; Levita <cite ref=\"M01575\"><he>מַלָּכָא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "U00644",
+	"slug": "שחיא",
+	"headword": {
+		"text": "שִׁחְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1547,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00643\">same</cite><i>bending, bowing the head</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 24a:9\">Bets. 24ᵃ</cite> <he>כל … ומטי לה בחד ש׳</he> (Ar. <he>שהיא</he>) when one running after an animal gets it with one bend (the space being too small to allow an escape). ",
+				"<cite ref=\"Gittin 70b:16\">Gitt. 70ᵇ</cite> (ref. to Mish. ",
+				"<cite ref=\"Mishnah Gittin 7:1\">ib. VII, 1</cite> <he>והרכין</he>) <he>ודילמא ש׳ דלאו לאו נקטיה</he> maybe he was seized by spasms, making him bend his head in the way of one indicating dissent; <he>ש׳ דהן הן</he> making him bend in the way of one bowing the head in assent. ",
+				"<cite ref=\"Mishnah Gittin 7:1\">Ib.</cite> <he>ש׳ דסירוגין</he> alternate spasms of the head accidentally corresponding to assent and dissent respectively."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>arm-pit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 22:5\">Targ. Y. Deut. XXII, 5</cite> (ed. Vien. <cite ref=\"U00868\"><he>שֵׁיחַיָא</he></cite>, corr. acc.).—Y. Ter. VIII, 45ᵈ top <he>אסור למיתן … תחות ש׳</he> (not <he>דלא מיתן</he>) it is forbidden to put coins into the mouth … or a loaf under the arm-pit; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:13\">Y. Ab. Zar. II, 41ᵃ</cite> bot. <cite ref=\"U01971\"><he>בי ש׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> <he>הוה תחות שִׁיחְיֵה וכ׳</he> had a loaf under his arm, and it fell down &c."
+			],
+			"label": "2"
+		}
+	]
+}

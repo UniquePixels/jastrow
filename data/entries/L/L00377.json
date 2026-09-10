@@ -1,0 +1,31 @@
+{
+	"id": "L00377",
+	"slug": "לחת-2",
+	"headword": {
+		"text": "לְחַת"
+	},
+	"page": {
+		"number": 705,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"N00534\"><he>אַלְחֵית</he></cite> same. [<cite ref=\"Targum Jonathan on II Kings 4:34\">Targ. II Kings IV, 34</cite>, sq., v. <cite ref=\"L00169\"><he>לְהַת</he></cite>.]—",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 13\">Lev. R. s. 13</cite> <he>את טעין מַלְחֵית וכ׳</he> when burdened thou pantest, when unburdened thou pantest.—Pesik. B’shall. p. 86ᵇ <he>לפום דהדין כלבא מלחית בלישניה</he> because a dog (habitually) lolls his tongue; <cite ref=\"Yalkut Shimoni on Torah 227\">Yalk. Ex. 227</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

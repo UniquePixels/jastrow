@@ -1,0 +1,24 @@
+{
+	"id": "O01622",
+	"slug": "סריסא-2",
+	"headword": {
+		"text": "סָרִיסָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1027,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Sarisa</i>, surname of one Levi (on account of a simile drawn from a castrate which he used). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:13\">Y. Sabb. III, 6ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Beitzah 2:5:4\">Y. Bets. II, 61ᶜ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 6:5:5\">Y. Gitt. VI, 48ᵃ</cite> bot. <he>לוי פריסא</he> (corr. acc.)."
+			]
+		}
+	]
+}

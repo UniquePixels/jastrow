@@ -1,0 +1,28 @@
+{
+	"id": "P00157",
+	"slug": "עדנה",
+	"headword": {
+		"text": "עֶדְנָה"
+	},
+	"page": {
+		"number": 1045,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P00153\"><he>עָדַן</he></cite>) [<i>rejuvenation</i>,] (in homilet.) ",
+			"units": []
+		},
+		{
+			"gloss": " (v. <cite ref=\"P00133\"><he>עֲדִי</he> II</cite>) <i>ornaments</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 48:17\">Gen. R. s. 48</cite> (ref. to <cite ref=\"Genesis 18:12\">Gen. XVIII, 12</cite>) <he>היתה לי ע׳ תכשיטים נאים וכ׳</he> ‘I should have ‘ednah’ (= <he>עדי נאה</he>), beautiful finery (to make me attractive) (ref. to <cite ref=\"Ezekiel 16:11\">Ez. XVI, 11</cite>).—2) <i>period</i>, <i>menses</i>. ",
+				"<cite ref=\"Ezekiel 16:11\">Ib.</cite>, v. <cite ref=\"P00509\"><he>עִידּוֹן</he></cite>."
+			],
+			"label": "1"
+		}
+	]
+}

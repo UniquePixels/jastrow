@@ -1,0 +1,39 @@
+{
+	"id": "S00161",
+	"slug": "קדמין",
+	"headword": {
+		"text": "קַדְמִין"
+	},
+	"page": {
+		"number": 1317,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S00160\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>beginning, olden days</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:1\">Targ. O. Gen. I, 1</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 33:27\">Targ. O. Deut. XXXIII, 27</cite> <he>מִלְּקַ׳</he> (ed. Berl. <he>מִלְקָ׳</he>); Y. <he>מן לק׳</he> from of old. ",
+				"<cite ref=\"Onkelos Genesis 3:15\">Targ. O. Gen. III, 15</cite>. ",
+				"<cite ref=\"Onkelos Genesis 31:2\">Ib. XXXI, 2</cite> <he>ומִדְּקַדְּמוֹהִי</he> (ed. Berl. <he>מִדְּקָמוֹהִי</he>) and before yesterday (Y. <he>כִדְקָדְמוֹי</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>front; east</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:24\">Targ. O. Gen. III, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 2:6\">Targ. Is. II, 6</cite> <he>כמלקדמין</he> as in the east (or: <i>as in former times?</i>); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"id": "U02093",
+	"slug": "שתי-4",
+	"headword": {
+		"text": "שתי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁתָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1637,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to settle,</i>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to lay the foundation of;</i> v. <cite ref=\"U02141\"><he>שָׁתַת</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fix the warp, start the loom</i>, v. <cite ref=\"U02095\"><he>שְׁתִי</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to found, establish</i>, v. <cite ref=\"U02141\"><he>שָׁתַת</he> II</cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to weave</i>. Midr. Sam. ch. XIX (ref. to <he>נסכתי</he>, <cite ref=\"Psalms 2:6\">Ps. II, 6</cite>) <he>הִשְׁתֵּיתִיו</he> I have woven him (established him, ref. to <cite ref=\"M01955\"><he>מסכת</he></cite>, <cite ref=\"Judges 16:14\">Jud. XVI, 14</cite>); <cite ref=\"Yalkut Shimoni on Nach 338\">Yalk. Is. 338</cite>; <cite ref=\"Yalkut Shimoni on Nach 620:4\">Yalk. Ps. 620</cite> <he>השיתיו</he> (corr. acc.).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּשְׁתָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be established, started</i>. Y. Yoma V, 42ᶜ, v. <cite ref=\"U02100\"><he>שְׁתִיָּה</he> II</cite>; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִשְׁתָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U02092\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Tosefta Yoma 3:8\">Tosef. Yoma III</cite> (<cite ref=\"Tosefta Yoma 2:6\">II</cite>), 6 ed. Zuck. (Var. <cite ref=\"U02141\"><he>נשתת</he></cite>), v. <cite ref=\"U02141\"><he>שָׁתַת</he> II</cite>"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

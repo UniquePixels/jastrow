@@ -1,0 +1,40 @@
+{
+	"id": "A01133",
+	"slug": "איברא-1",
+	"headword": {
+		"text": "אֵיבָרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵבְ׳"
+		}
+	],
+	"page": {
+		"number": 44,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (= <cite ref=\"A01132\">foreg.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>limb</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 2:4\">Targ. Job. II, 4</cite> (Ms. <cite ref=\"A01134\"><he>אֶיבְרָא</he></cite>). ",
+				"<cite ref=\"Yoma 25b:14\">Yoma 25ᵇ</cite>.—Trnsf. <i>arm, wing, pinion</i>. ",
+				"<cite ref=\"Shabbat 90b\">Sabb. 90ᵇ</cite> <he>א׳ דשמאלא</he> left arm.—Pl. <he>אֵיבָרִין</he>, <he>אֵיבָרַיָּא</he>. ",
+				"<cite ref=\"Onkelos Leviticus 1:8\">Targ. Lev. I, 8</cite>, a. e. (<i>pieces</i>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:3\">Targ. Ezek. XVII, 3</cite>; <cite ref=\"Deuteronomy 32:11\">Deut. XXXII, 11</cite> (wings)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>membrum genitale</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 14:2\">Targ. Y. Gen. XIV, 2</cite>; <cite ref=\"Targum Jonathan on Genesis 1:27\">I</cite> <cite ref=\"Targum Jonathan on Genesis 49:24\">ibid. XLIX, 24</cite>.—[<cite ref=\"Bava Metzia 84a:6\">B. Mets. 84ᵃ</cite>, v. <cite ref=\"A01136\"><he>אִיבְרָיָה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

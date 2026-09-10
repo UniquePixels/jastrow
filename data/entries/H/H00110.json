@@ -1,0 +1,43 @@
+{
+	"id": "H00110",
+	"slug": "חבר-4",
+	"headword": {
+		"text": "חֶבֶר"
+	},
+	"page": {
+		"number": 422,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00109\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>association</i>.—חֶבֶר עיר <i>a town organization, congregation</i> (for divine services, study, charities). ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 4:7\">Ber. IV, 7</cite>. ",
+				"<cite ref=\"Rosh Hashanah 34b\">R. Hash. 34ᵇ</cite>. ",
+				"<cite ref=\"Megillah 27b:1\">Meg. 27ᵇ</cite> top (Rashi: <he>חֲבַר עיר</he> a scholar maintained by the town, v. <cite ref=\"H00109\">preced. w.</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>charm</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 65a:21\">Snh. 65ᵃ</cite>; <cite ref=\"Keritot 3b:97\">Ker. 3ᵇ</cite>, v. <cite ref=\"H00107\"><he>חָבַר</he></cite>.—Pl. <he>חֲבָרִים</he>. Lam. R. introd. (R. Josh. 2), v. <cite ref=\"H00107\"><he>חָבַר</he></cite>, <i>Pi.</i>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " ח׳ גואלקי <i>a load of sacks tied across</i> an animal’s back, to unload which you must lift them before untying, contrad. to <he>אֵבֶר גואלקי</he> a load kept in balance by equal weight on both sides, to unload which you need only untie the knot on the animal’s back. ",
+			"units": [
+				"<cite ref=\"Shabbat 154b:10\">Sabb. 154ᵇ</cite> <he>מאי לאו בחבר גוולקי וכ׳</he> ed. (Ms. M. <he>באבר גזול</he> or <he>גדול</he>) do you not think (when it says, <cite ref=\"Mishnah Shabbat 24:1\">ib. XXIV, 1</cite>, ‘he unties the ropes and the sacks drop of themselves’) a <i>ḥeber</i> is meant which must be lifted along the sides of the animal?; <he>לא באבר גואלקי וכ׳</he> Rashi Ms. a. Ar. (ed. <he>בחבר אגלווקי</he>, Ms. M. <he>בגאלקי מפייהו</he>, read: <he>גופייהו</he>, v. Rabb. D. S. a. l. note 7) no, a balanced load is meant &c.; v. Ar. Compl. ed. Koh. s. v. <he>חבר</he>. Cmp. <cite ref=\"A00211\"><he>אַבְרַוְורֵי</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "M03086",
+	"slug": "מתנא-4",
+	"headword": {
+		"text": "מִתְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִי׳"
+		},
+		{
+			"text": "מוֹ׳"
+		}
+	],
+	"page": {
+		"number": 863,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M03080\"><he>מְתַן</he></cite>; cmp. <cite ref=\"M02872\"><he>מְשִׁיחָא</he> II</cite>. fr. <cite ref=\"M02847\"><he>מְשַׁח</he></cite>) <i>cord, strap</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 89a\">B. Bath. 89ᵃ</cite> <he>מיתנא</he> Rashb. (ed. <cite ref=\"M03087\"><he>מִתְנָה</he></cite>, h. form) the cord of the scales. ",
+				"<cite ref=\"Menachot 35b:1\">Men. 35ᵇ</cite> top <he>כל הוכי דכי מיתלי</he> (<cite ref=\"B00537\"><he>ביה</he></cite>) <he>במת׳ וכ׳</he> Rashi (ed. <he>במו׳</he>; Ms. R. 2 <he>במי׳</he>) whenever it is lifted up by its strap and it (the capsule of the T’fillin) follows after it (the strap not breaking). ",
+				"<cite ref=\"Eruvin 34a:6\">Erub. 34ᵃ</cite> <he>לַיְתֵיה בכוותא ומ׳</he> let him bring it down through the window (of the tower) and with a string. ",
+				"<cite ref=\"Shabbat 51b:16\">Sabb. 51ᵇ</cite> <he>סגי לה במי׳ בעלמא</he> (Ms. M. <he>במיתגא</he>, incorr.) a mere string would have been sufficient for controlling the animal. ",
+				"<cite ref=\"Bava Metzia 113b:8\">B. Mets. 113ᵇ</cite> <he>מאן דאסר מי׳ דכיתנא וכ׳</he> he who ties a rope of moist flax around his loins. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 3:1:4\">Y. Ned. III., beg. 37ᵈ</cite> <cite ref=\"M03086\"><he>מו׳</he></cite>, v. <cite ref=\"H00156\"><he>חֲגַר</he> I</cite>; a. e."
+			]
+		}
+	]
+}

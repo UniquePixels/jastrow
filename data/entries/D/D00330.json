@@ -1,0 +1,23 @@
+{
+	"id": "D00330",
+	"slug": "דוקייא",
+	"headword": {
+		"text": "דּוֹקְיָיא"
+	},
+	"page": {
+		"number": 288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (δόκια, pl. of δόκιον) <i>beams of the ceiling</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד בר נש</he>, an oneirocritical interpret. of Kappadokia) <i>Kappa</i> in Greek is <i>twenty</i>, <he>ד׳ בל״י קורות</he> (not <he>דיקיא</he>) <i>dokia</i> in Greek is <i>beams;</i> v. <cite ref=\"D00697\"><he>דִּיקָא</he></cite>."
+			]
+		}
+	]
+}

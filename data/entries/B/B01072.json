@@ -1,0 +1,39 @@
+{
+	"id": "B01072",
+	"slug": "בצא-1",
+	"headword": {
+		"text": "בְּצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּצֵי"
+		}
+	],
+	"page": {
+		"number": 183,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בץ</he> = <he>בק</he>, <he>בע</he>; cmp. <he>בצע</he>) [<i>to split, break through;</i>] (cmp. <cite ref=\"B01037\"><he>בְּעֵי</he> I</cite>) <i>to search, ransack</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 2:4\">Targ. Prov. II, 4</cite> (ed. Wil. <he>תצביה</he>, read <he>תבציה</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:27\">Ib. XXV, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:27\">Ib. XX, 27</cite> (Var. <he>בעיא</he>).—<i>Part.</i> <he>בָּצֵי בָּאצֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:2\">Ib. XXV, 2</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְבְּצֵי"],
+			"senses": [
+				{
+					"gloss": ", contr. <he>אִיבְּצֵי</he> <i>to be searched, found out</i>. Ib. 3. Ib. XXVIII, 12 <he>מִבְּצֵי</he>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

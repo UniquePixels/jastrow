@@ -1,0 +1,25 @@
+{
+	"id": "M01219",
+	"slug": "מינות",
+	"headword": {
+		"text": "מִינוּת"
+	},
+	"page": {
+		"number": 776,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מִין</he> III) <i>heresy, infidelity</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Chullin 2:24\">Tosef. Ḥull. II, 24</cite> <he>נתפס על דברי מ׳</he> was arrested on the charge of heresy (suspicion of being a Jew-Christian). ",
+				"<cite ref=\"Tosefta Chullin 2:24\">Ib.</cite> <he>שמא … דבר של מ׳ וכ׳</he> perhaps one of the Minin told you some interpretation in their style, and it gave thee pleasure?; <cite ref=\"Avodah Zarah 16b:17\">Ab. Zar. 16ᵇ</cite> bot. <he>שמא מ׳ בא לידך</he> (insert <he>דבר</he>); <cite ref=\"Kohelet Rabbah 1:8:3\">Koh. R. to I, 8</cite>. ",
+				"<cite ref=\"Mishnah Megillah 4:8\">Meg. IV, 8</cite> (<cite ref=\"Megillah 24b:17\">24ᵇ</cite>) <he>הרי זו דרך המ׳</he> (Bab. ed. <he>הקראים</he>, Ms. M. <he>המ׳</he>) such is the manner of the Minin; <cite ref=\"Megillah 24b:17\">ib.</cite> <he>דרך החיצנים</he> (Ms. M. <he>המינות</he>, corr. <he>חיצונה</he>, v. Rabb. D. S. a. l. notes 100, sq.). Ib. 9 <he>דרך המ׳</he>; <cite ref=\"Mishnah Berakhot 5:3\">Ber. V, 3</cite> (<cite ref=\"Berakhot 34a:2\">34ᵃ</cite>) <he>דרכי מ׳</he> early eds. (ed. <cite ref=\"I00599\"><he>טעות</he></cite>, missing in Mishn. a. Y. ed.). ",
+				"<cite ref=\"Vayikra Rabbah 28:1\">Lev. R. s. 28</cite>, beg.; <cite ref=\"Kohelet Rabbah 1:3:1\">Koh. R. to I, 3</cite>; <cite ref=\"Kohelet Rabbah 11:9:1\">XI, 9</cite> <he>דברים שהן מטין לצד מ׳</he> words which manifest an inclination towards <i>heresy</i>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"id": "T00767",
+	"slug": "רכך-2",
+	"headword": {
+		"text": "רְכַךְ"
+	},
+	"page": {
+		"number": 1479,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00766\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רכֵּיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to make soft</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 44:19\">Targ. Y. II, Gen. XLIV, 19</cite> <he>מְרַכֵּיךְ במילוי</he> to speak softly."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with, or sub. <he>לבא</he>) <i>to make faint, frighten</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 27:40\">Targ. Y. I Gen. XXVII, 40</cite> (ed. Vien. <he>מַרְכִּיךְ</he> <i>Af.</i>). ",
+						"<cite ref=\"Aramaic Targum to Job 23:16\">Targ. Job XXIII, 16</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרַכֵּיךְ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְרְכִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be softened, become soft; to melt</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 12:12\">Targ. Y. Ex. XII, 12</cite>; <cite ref=\"Numbers 33:4\">Num. XXXIII, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ruth 3:8\">Targ. Ruth III, 8</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "R00279",
+	"slug": "צחנתא",
+	"headword": {
+		"text": "צַחַנְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַחֲנָא"
+		}
+	],
+	"page": {
+		"number": 1273,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00278\">same</cite> (cmp. <cite ref=\"G00134\"><he>זוֹהֲמָא</he></cite>) <i>effusion of semen</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:20\">Targ. Ez. XXIII, 20</cite> (h. text <he>זרמה</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " as <cite ref=\"R00278\">preced.</cite> 2. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 39a:10\">Ab. Zar. 39ᵃ</cite> <he>האי צ׳ דבב וכ׳</he> the <i>tsaḥanta</i> of Bab Nahăra is permitted (because no unclean fish are in that river, v. <cite ref=\"I00388\"><he>טִין</he></cite>); <cite ref=\"Sukkah 18a:14\">Succ. 18ᵃ</cite>. ",
+				"<cite ref=\"Avodah Zarah 40a:6\">Ab. Zar. 40ᵃ</cite> <he>ארבא דצ׳</he> a shipload of <i>ts.</i>—",
+				"<cite ref=\"Sanhedrin 49a\">Snh. 49ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 172\">Yalk. Kings 172</cite>, v. <cite ref=\"M00540\"><he>מוֹנִינֵי</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:3:4\">Y. Ned. VI, 39ᵈ</cite> top <he>צחנא</he>, v. <cite ref=\"I00827\"><he>טָרִיתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "C01165",
+	"slug": "גסה",
+	"headword": {
+		"text": "גָּסָה"
+	},
+	"page": {
+		"number": 260,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"C00514\"><he>גַּס</he></cite>; cmp. <he>אכילה גסה</he>, s. v. <cite ref=\"C00514\"><he>גַּס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to swallow large quantities at a time, to glut</i>. ",
+			"units": [
+				"<cite ref=\"Tractate Derekh Eretz Zuta 5:1\">Der. Er. Zutta ch. V</cite> <he>ולא יִגְסֶה בפני וכ׳</he> must not eat or drink like a glutton in the presence of &c.—Pesik. Vattomer, p. 131ᵃ (ref. to <he>לחם הקלקל</he>, <cite ref=\"Numbers 21:5\">Num. XXI, 5</cite>) I (the Lord) selected for them light food …, <he>שלא יהא אחד מהם גּוֹסֶה ודלריא אחזתו</he> lest one of them should eat too much and be seized with diarrhœa; <cite ref=\"Sifrei Devarim 1:14\">Sifré Deut. 1</cite> Ms. (v. ed. Fr. note 26); <cite ref=\"Yalkut Shimoni on Torah 764\">Yalk. Num. 764</cite> <cite ref=\"C00357\"><he>גוטי</he></cite> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 764\">ib.</cite> Deut. 790 <he>גוסרודליא</he> (read <he>גוס׳ ודולריא</he>); <cite ref=\"Yalkut Shimoni on Torah 764\">ib.</cite> Is. 332 <cite ref=\"C00357\"><he>גוטס</he></cite> (corr. acc.); <cite ref=\"Eichah Rabbah 3:13\">Lam. R. to III, 37</cite> <he>גּוֹסֵא</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to feel inflated, nauseous; to belch</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 63b:5\">Nidd. 63ᵇ</cite> (among the symptoms of approaching menstruation) <he>וגוֹסָה</he>.—V. <cite ref=\"C00449\"><he>גּוֹסִי</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

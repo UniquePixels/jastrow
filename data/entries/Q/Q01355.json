@@ -1,0 +1,35 @@
+{
+	"id": "Q01355",
+	"slug": "פסקה-1",
+	"headword": {
+		"text": "פִּסְקָה"
+	},
+	"page": {
+		"number": 1201,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01350\"><he>פָּסַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>subscription, collection</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 4:8\">Deut. R. s. 4</cite> <he>עשה שם ר״ל פ׳ וכ׳</he> (some ed. <cite ref=\"Q01353\"><he>פסקא</he></cite>) Resh Laḳish arranged there a subscription, and he (Abin) gave as much as the entire assembly."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>division</i>, esp. <i>hemistich, half-verse</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13:16\">Num. R. s. 13</cite> (ref. to <cite ref=\"Psalms 19:8-10\">Ps. XIX, 8-10</cite>) [read:] <he>שלשה פסוקים … והן מן שתים שתים פִּסְקוֹת וכל פ׳ ופ׳ מן וכ׳</he> three verses … each consisting of two hemistichs, and each hemistich containing five words.—Pl. <cite ref=\"Q01357\"><he>פִּסְקוֹת</he></cite>. ",
+				"<cite ref=\"Psalms 19:8-10\">Ib.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "I00548",
+	"slug": "טמיון",
+	"headword": {
+		"text": "טַמְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִימְיוֹן"
+		}
+	],
+	"page": {
+		"number": 539,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ταμεῖον) <i>treasury</i>, esp. <i>Roman aurarium, fiscus</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> <he>מכניס ממונם לט׳</he> confiscated their property for the fiscus. ",
+				"<cite ref=\"Vayikra Rabbah 19\">Ib.</cite> s. 11, a. e. <he>גבאי ט׳</he> tax collector; Ruth R. introd. end <cite ref=\"I00547\"><he>טַמִיאוֹן</he></cite> (insert <he>גבאי</he>). ",
+				"<cite ref=\"Bereishit Rabbah 61:7\">Gen. R. s. 61</cite> <he>עד שנמצאת ארץ מצרים לטי׳</he> until it was found by calculation that the entire land of Egypt would be forfeited to the treasury (for its indebtedness to the Jews); <cite ref=\"Yalkut Shimoni on Torah 110\">Yalk. ib. 110</cite>; (Meg. Taan. ch. III <he>עד שהיתה מצרים שלהם</he>). ",
+				"<cite ref=\"Bereishit Rabbah 51\">Gen. R. s. 51</cite> <he>תשרף מן ט׳</he> shall be set on fire at public expense; a. fr.—",
+				"<cite ref=\"Esther Rabbah 1:10\">Esth. R. to I, 2</cite> <cite ref=\"I00332\"><he>טיטיון</he></cite>, read <he>טימ׳</he>, v. <cite ref=\"I00552\"><he>טַמְיָקוֹן</he></cite>."
+			]
+		}
+	]
+}

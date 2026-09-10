@@ -1,0 +1,24 @@
+{
+	"id": "A02037",
+	"slug": "אמם",
+	"headword": {
+		"text": "אָמַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָמַם"
+		}
+	],
+	"page": {
+		"number": 77,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"P00904\"><he>עמם</he></cite>; √<he>אם</he>, <he>עם</he> to be pressed, dark; cmp. <cite ref=\"A01961\"><he>אֵם</he></cite>; <he>חמם</he> a. deriv.; v. <cite ref=\"A02021\"><he>אמיטתא</he></cite>)<i>to grow dim</i>, (in b. h. also <i>to obscure, excel;</i> v. infra). ",
+			"units": [
+				"<cite ref=\"Shabbat 77b\">Sabb. 77ᵇ</cite>; <cite ref=\"Berakhot 53b\">Ber. 53ᵇ</cite>; <cite ref=\"Pesachim 75b\">Pes. 75ᵇ</cite> <he>גחלים אוֹמְמוֹת</he> (or <cite ref=\"P00279\"><he>עוֹמְמוֹת</he></cite>) dying coals (question as to spelling decided in favor of <cite ref=\"P00000\"><he>ע</he></cite> by reference to <cite ref=\"Ezekiel 31:8\">Ezek. XXXI, 8</cite> ‘the cedars did not <i>obscure</i> him, i.e. excel his beauty)."
+			]
+		}
+	]
+}

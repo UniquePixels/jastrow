@@ -1,0 +1,27 @@
+{
+	"id": "M01231",
+	"slug": "מינקא",
+	"headword": {
+		"text": "מְיַנְּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְיַי׳"
+		}
+	],
+	"page": {
+		"number": 777,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. name of an <i>undergarment</i> (perh. a corrupt. of manica = tunica manicata). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite> (some ed. <cite ref=\"M01231\"><he>מִיַּנְקָא</he></cite>)."
+			]
+		}
+	]
+}

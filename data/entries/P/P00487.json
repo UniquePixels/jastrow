@@ -1,0 +1,31 @@
+{
+	"id": "P00487",
+	"slug": "עיב",
+	"headword": {
+		"text": "עִיב"
+	},
+	"page": {
+		"number": 1065,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"P00007\"><he>עָבָה</he></cite>) <i>to be thick, heavy</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַיֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to press, seize;</i> trnsf. <i>to declare guilty, convict</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 1</cite> (expl. <he>יָעִיב</he>, <cite ref=\"Eichah Rabbah 2:4\">ib.</cite>) <he>איך ע׳ וכ׳</he> Ar. (ed. <he>חייב</he>), v. <cite ref=\"H00231\"><he>חוּב</he></cite> ch.—V. <cite ref=\"P00543\"><he>עַיָּיבָא</he></cite>, <cite ref=\"P00544\"><he>עיְיבָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

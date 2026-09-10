@@ -1,0 +1,27 @@
+{
+	"id": "M00833",
+	"slug": "מחור",
+	"headword": {
+		"text": "מִחְוַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיחְ׳"
+		}
+	],
+	"page": {
+		"number": 758,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00444\"><he>חֲוַר</he></cite>) <i>white, white color</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:3\">Targ. O. Lev. XIII, 3</cite>, sq.; a. e."
+			]
+		}
+	]
+}

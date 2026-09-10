@@ -1,0 +1,45 @@
+{
+	"id": "H00487",
+	"slug": "חוש-2",
+	"headword": {
+		"text": "חוּשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 441,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"H00486\">preced.</cite>) [<i>to feel, press</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to feel pain, be affected</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 54a:7\">Erub. 54ᵃ</cite> <he>חָשׁ בראשו</he> if one has a head-ache; <he>ח׳ בגרונו</he> one whose throat is affected; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to apprehend, consider</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 5:2:6\">Y. Peah V, 18ᵈ</cite> bot. <he>וחש לומר וכ׳</he> but then he reconsidered saying &c.—",
+				"<cite ref=\"Shemot Rabbah 3:15\">Ex. R. s. 3</cite> <he>אל תָּחוּשׁ</he> do not mind it."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be anxious, quick, to hurry</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:3:3\">Y. Yeb. VIII, 9ᶜ</cite> top (play on <he>ח̇וש̇ים … ב̇ע̇ר̇א</he>, <cite ref=\"I Chronicles 8:8\">I Chr. VIII, 8</cite>) <he>ח̇ש̇ כנמר וב̇יא̇ר̇ וכ׳</he> he was quick like a panther and made clear &c."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to think, be silent</i>, v. <cite ref=\"H01817\"><he>חָשָׁה</he></cite>.—V. <cite ref=\"H01868\"><he>חָשַׁשׁ</he></cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

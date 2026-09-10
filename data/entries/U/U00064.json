@@ -1,0 +1,25 @@
+{
+	"id": "U00064",
+	"slug": "שבאי",
+	"headword": {
+		"text": "שַׁבַּאי"
+	},
+	"page": {
+		"number": 1510,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00068\"><he>שָׁבָה</he></cite>) <i>captor</i>, <i>guardsman of captives</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 104a:16\">Snh. 104ᵃ</cite>, sq. ",
+				"<cite ref=\"Gittin 58a:15\">Gitt. 58ᵃ</cite> <he>נתעלל בה ש׳ וכ׳</he> the captor abused her the whole night; <cite ref=\"Yalkut Shimoni on Nach 276:14\">Yalk. Jer. 276</cite>. Tanḥ. ed. Bub. ",
+				"<cite ref=\"Exodus 4\">B’shall. 4</cite> <he>נטל את השַׁבַּאיי וכ׳</he> he took (his son’s) captor and put him on the rack, <cite ref=\"Yalkut Shimoni on Torah 225\">Yalk. Ex. 225</cite>; a. e.—Pl. <he>שַׁבָּאִים</he>, <he>שַׁבְּאִין</he>. ",
+				"<cite ref=\"Midrash Tehillim 18:10\">Midr. Till. to Ps. XVIII, 8</cite> <he>באו ש׳ ושבו וכ׳</he> captors came and led his son away; a. e."
+			]
+		}
+	]
+}

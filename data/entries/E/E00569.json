@@ -1,0 +1,30 @@
+{
+	"id": "E00569",
+	"slug": "הלכשיש",
+	"headword": {
+		"text": "הַלְכְּשִׁישׁ",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "הַלְכְּשׁוּשׁ"
+		}
+	],
+	"page": {
+		"number": 353,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (redupl. of <cite ref=\"L00558\"><he>לכש</he></cite>, cmp. <cite ref=\"L00558\"><he>לֶכֶשׁ</he></cite>) <i>swelling, bruise, sore</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 21:25\">Targ. Y. Ex. XXI, 25</cite> (ed. Amst. <he>הֵלְכְ׳</he>; h. text <cite ref=\"H00034\"><he>חַבּוּרָה</he></cite>).—Pl. <he>הַלְכְּשׁוּשִׁין</he>, constr. <cite ref=\"E00569\"><he>הַלְכְּשׁוּשֵׁי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 22:18\">Targ. Ps. XXII, 18</cite> (ed. <he>הַלְבְּ׳</he>); <cite ref=\"Aramaic Targum to Psalms 38:6\">ib. XXXVIII, 6</cite> (ed. <he>הלב׳</he>, Ms. <he>הלפ׳</he>, h. text <he>חַבּוּרֹת־</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 9:17\">Targ. Job IX, 17</cite> (ed. <he>הלב׳</he>; h. text <he>פְּצָע־</he>)."
+			]
+		}
+	]
+}

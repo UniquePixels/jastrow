@@ -1,0 +1,30 @@
+{
+	"id": "H01128",
+	"slug": "חלש-6",
+	"headword": {
+		"text": "חַלָּשׁ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלָשׁ"
+		},
+		{
+			"text": "חֲלָשָׁא"
+		}
+	],
+	"page": {
+		"number": 474,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01127\">same</cite>, v. <cite ref=\"H01067\"><he>חֲלִישׁ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:44\">Targ. O. Deut. XXVIII, 44</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 9:21\">Targ. I Sam. IX, 21</cite>.—Pl. <he>חַלָּשִׁין</he>, <cite ref=\"H01013\"><he>חֲלָ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 32:18\">Targ. Ex. XXXII, 18</cite>."
+			]
+		}
+	]
+}

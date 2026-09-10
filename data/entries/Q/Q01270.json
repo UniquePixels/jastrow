@@ -1,0 +1,29 @@
+{
+	"id": "Q01270",
+	"slug": "פסי-2",
+	"headword": {
+		"text": "פְּסֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1194,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"Q01269\">same</cite>; denom. <cite ref=\"Q01280\"><he>פִּסְיוֹנָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to split, break; to desecrate</i>, v. <cite ref=\"Q00741\"><he>פִּיס</he></cite> ch.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "M01624",
+	"slug": "מלקט-2",
+	"headword": {
+		"text": "מְלַקֵּט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 793,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"M01627\"><he>מְלַקֶּטֶת</he></cite> f. (<cite ref=\"L00677\"><he>לָקַט</he></cite>) <i>pinchers</i> for picking hair, wool &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:5\">Macc. III, 5</cite>; <cite ref=\"Nazir 40b\">Naz. 40ᵇ</cite>, v. <cite ref=\"L00677\"><he>לָקַט</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 13:8\">Kel. XIII, 8</cite> (ed. Dehr. 10) <he>ועשאן למלקטת</he> and he makes use of them as pinchers; <cite ref=\"Yevamot 43a:3\">Yeb. 43ᵃ</cite> <he>למלקט</he>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 3:14\">Tosef. Kel. B. Mets. III, 14</cite> <he>המְלַקֵּיט של כובסין</he> (ed. Zuck. <he>המלקוט של כובשין</he>) the fullers’ pinchers (with which they remove knots in a web). ",
+				"<cite ref=\"Shabbat 97a\">Sabb. 97ᵃ</cite> <he>אי אפשר … שתילקט במ׳ וכ׳</he> a public road cannot be made even (as skin is made) with pinchers and razors."
+			]
+		}
+	]
+}

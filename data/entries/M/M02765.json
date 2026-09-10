@@ -1,0 +1,23 @@
+{
+	"id": "M02765",
+	"slug": "מרקוע-1",
+	"headword": {
+		"text": "מַרְקוֹעַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 847,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <he>מַרְקוֹעָן</he> (<cite ref=\"T01049\"><he>רְקַע</he></cite>; cmp. <cite ref=\"T01035\"><he>רָקִיק</he></cite>) <i>thin cakes, wafers</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:16\">Y. Taan. IV, 69ᵃ</cite> [read:] <he>טור שמעון הוה מפיק … גריבין דמ׳ ללקיטייא כל וכ׳</he> the town of Tur Simon used to distribute three hundred <i>griva</i> (of flour in) wafers among the poor on every Sabbath eve (v. <cite ref=\"L00688\"><he>לָקִיט</he> I</cite>); <cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite> <he>גרבי דמ׳ בכל ערובה לאילין קיטיא</he> … Ar. Compl. ed. Koh. (defective in eds.)."
+			]
+		}
+	]
+}

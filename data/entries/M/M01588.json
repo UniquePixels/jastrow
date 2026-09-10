@@ -1,0 +1,27 @@
+{
+	"id": "M01588",
+	"slug": "מלכתנותא",
+	"headword": {
+		"text": "מִלְכְּתָנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִילְ׳"
+		}
+	],
+	"page": {
+		"number": 792,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01587\">preced.</cite>) <i>consultation, meeting of councilmen</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:14\">Targ. Prov. XI, 14</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"id": "L00248",
+	"slug": "לוי-2",
+	"headword": {
+		"text": "לְוִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְוָא"
+		}
+	],
+	"page": {
+		"number": 697,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"L00247\">same</cite><i>to join, cling to</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 20:2\">Targ. II Sam. XX, 2</cite> (h. text <he>דבק</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to join a caravan, travel with</i>.—",
+			"units": [
+				"<cite ref=\"Chullin 7a:12\">Ḥull. 7ᵃ</cite> <he>ההוא טייעא דלווה בהדייהו</he> an Arab that had been travelling with them."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to escort</i>, v. infra.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לַוֵּי", "לַוֵּוי"],
+			"senses": [
+				{
+					"gloss": "<i>to escort</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 28:12\">Targ. Y. II, Gen. XXVIII, 12</cite> <he>דִּילַוָּון</he> (Y. I <he>והינון לָוָון</he>).—",
+						"<cite ref=\"Bereishit Rabbah 48:20\">Gen. R. s. 48</cite>, end <cite ref=\"L00248\"><he>לַוֵּי</he></cite>, v. <cite ref=\"A01697\"><he>אֲכַל</he> I</cite>. ",
+						"<cite ref=\"Tosefta Ketubot 7:6\">Tosef. Keth. VII, 6</cite> <he>לַוֵּי דִּילַוּוּנָךְ</he> (ed. Zuck. <cite ref=\"L00248\"><he>לְוִי</he></cite>, Var. <he>דילוין לך</he>, read: <he>דִילַוּוּן</he>) escort (the dead) that people may escort thee; Y. ib. VII, 31ᵇ bot. <he>לווי דילוון</he> (not <cite ref=\"L00217\"><he>לוויי</he></cite>); Bab. ",
+						"<cite ref=\"Ketubot 72a:2\">ib. 72ᵃ</cite> <he>דלַוַּאי יְלַוּוּנֵיח</he> him who escorted, people will escort; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַלְוֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00247\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 12:20\">Targ. Gen. XII, 20</cite>. ",
+						"<cite ref=\"Onkelos Genesis 12:20\">Ib.</cite> O. XVIII, 16 <he>לאַלְווֹאֵיהוֹן</he> ed. Berl. (some ed. <he>לאַלְוָיוּתְהוֹן</he>; Y. <he>לאַלְוָאֵיהוֹן</he>; h. text <he>לשלחם</he>); a. e.—",
+						"<cite ref=\"Sotah 40b\">Sot. 40ᵇ</cite> <he>אַלְוֵיה לר׳ וכ׳</he> walked with R. A. (on dismissing him) from &c.; <cite ref=\"Berakhot 31a:14\">Ber. 31ᵃ</cite> <he>אַלְוְיֵיה</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

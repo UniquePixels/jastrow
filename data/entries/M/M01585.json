@@ -1,0 +1,28 @@
+{
+	"id": "M01585",
+	"slug": "מלכנא",
+	"headword": {
+		"text": "מִלְכָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִילְ׳"
+		}
+	],
+	"page": {
+		"number": 792,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01571\"><he>מְלַךְ</he></cite>) <i>counsel, wisdom</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 8:14\">Targ. Prov. VIII, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:6\">Ib. XXIV, 6</cite> (ed. Lag. <cite ref=\"M00512\"><he>מוֹלְכָנָא</he></cite>); a. e.—V. <cite ref=\"M00512\"><he>מוֹלְכָנָא</he></cite>."
+			]
+		}
+	]
+}

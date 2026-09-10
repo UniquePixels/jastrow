@@ -1,0 +1,27 @@
+{
+	"id": "M00098",
+	"slug": "מברי",
+	"headword": {
+		"text": "מַבְרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָבְ׳"
+		}
+	],
+	"page": {
+		"number": 725,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (inf. <i>Af.</i> of <cite ref=\"B01154\"><he>בְּרָא</he></cite>) <i>strengthening food</i> (v. <cite ref=\"E00051\"><he>הַבְרָאָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 42:4\">Targ. Ps. XLII, 4</cite> (ed. Wil. <cite ref=\"M00316\"><he>מִ׳</he></cite>)."
+			]
+		}
+	]
+}

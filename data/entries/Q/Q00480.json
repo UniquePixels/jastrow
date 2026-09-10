@@ -1,0 +1,34 @@
+{
+	"id": "Q00480",
+	"slug": "פחם-3",
+	"headword": {
+		"text": "פֶּחָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֶּיחָם"
+		}
+	],
+	"page": {
+		"number": 1153,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N01025\"><he>נָפַח</he></cite> or <cite ref=\"Q00174\"><he>פּוּחַ</he></cite>)<i>that which is used for kindling, charcoal</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:5\">Sabb. II, 5</cite> <he>מפני שהוא עושה פ׳</he> because (by extinguishing the light) he makes kindling material, i.e. prepares the wick for easier lighting (v. <cite ref=\"E00029\"><he>הִבְהֵב</he></cite>). ",
+				"<cite ref=\"Shabbat 31b:8\">Ib. 31ᵇ</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 9:8:1\">Koh. R. to IX, 8</cite> <he>נפח לפֶחָמוֹ</he> the smith (the charcoal-burner) turns to his coal. ",
+				"<cite ref=\"Kohelet Rabbah 7:1\">Ib. to VII, 1</cite>; <cite ref=\"Yalkut Shimoni on Nach 35\">Yalk. Josh. 35</cite>, v. <cite ref=\"Q00313\"><he>פּוּצָם</he></cite>; a. fr.—Pl. <cite ref=\"Q00477\"><he>פֶּחָמִין</he></cite>, <cite ref=\"Q00451\"><he>פֶּי׳</he></cite>. ",
+				"<cite ref=\"Tosefta Ma'aser Sheni 5:13\">Tosef. Maas. Sh. V, 13</cite>; Y. ib. V, beg. 55ᵈ, v. <cite ref=\"Q00478\"><he>פָּחַם</he></cite>. ",
+				"<cite ref=\"Tosefta Beitsah 3:14\">Tosef. Bets. III, 14</cite> <he>אין עושין פ׳ וכ׳</he> you must not make charcoal (prepare kindling material) even for immediate use (on the Holy Day). ",
+				"<cite ref=\"Mishnah Mikvaot 9:2\">Mikv. IX, 2</cite> <he>לא יטבול … בפ׳ וכ׳</he> one must not immerse a kettle with remnants of coal in it (which had been put there to be extinguished in water), unless one washes it again, Maim.; [oth. opin.: with the soot on it, but he must scrape it off]. ",
+				"<cite ref=\"Kohelet Rabbah 1:8:4\">Koh. R. to I, 8</cite> <he>לכו … האיש ועל אותה החמת … מלאה פ׳</he> go ye and pray for this man (me), and for this bag formerly filled with precious stones and pearls, and now with pieces of coal; a. e."
+			]
+		}
+	]
+}

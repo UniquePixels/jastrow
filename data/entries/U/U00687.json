@@ -1,0 +1,63 @@
+{
+	"id": "U00687",
+	"slug": "שחץ-1",
+	"headword": {
+		"text": "שָׁחַץ"
+	},
+	"page": {
+		"number": 1549,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"H01534\"><he>חָצַץ</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to divide, tear</i>. Ab. d’R. N., 2ⁿᵈ vers., ch. XLIII (ed. Schechter, p. 122) <he>שחץ שהוא שׁוֹחֵץ בפיו</he> the lion is called <i>shaḥats</i>, because he tears with his mouth; <cite ref=\"Yalkut Shimoni on Nach 959:20\">Yalk. Prov. 959</cite> <he>שהוא מְשַׁחֵץ בשיניו</he> (<i>Pi.</i>).—2) <i>to divide off, separate</i>.—Part. pass. <cite ref=\"U00625\"><he>שָׁחוּץ</he></cite>; pl. <he>שְׁחוּצִים</he>, <he>שְׁחוּצִין</he> ",
+			"units": [],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>separate, proud, aristocratic</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Shabbat 6:1:11\">Y. Sabb. VI, 8ᵃ</cite> top <he>והאיש … ש׳ מותר</he> but a man is allowed (to wear those ornaments which a woman is forbidden to wear on the Sabbath), because he is not ostentatious (and will not take them off to show them), v. <cite ref=\"U00694\"><he>שַׁחֲצָנִית</he></cite>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:8:3\">Cant. R. to IV, 8</cite> (ref. to <he>אריות</he> <cite ref=\"Shir HaShirim Rabbah 4:8:3\">ib.</cite>) <he>מה הארי הזה ש׳ … ש׳ וגבורים וכ׳</he> (strike out <he>וגבורים</he>) as the lion is proud (keeping for himself), so were Sihon and Og proud (selfish) … they did not come to each other’s rescue; <cite ref=\"Yalkut Shimoni on Nach 988:40\">Yalk. ib. 988</cite> <he>מה הארי הזה שחק</he> (corr. acc.).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " [<i>that which is to be kept off</i>, cmp. <he>רחק</he>,] <i>obscene</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 264\">Yalk. Is. 264</cite> <he>אנשי … ש׳ היו</he> the men of Jerusalem were obscene, v. <cite ref=\"U00689\"><he>שַׁחַץ</he> I</cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיחֵץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00686\">same</cite>, v. supra. ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּחֵץ"],
+			"senses": [
+				{
+					"gloss": "<i>to separate one’s self, be exclusive, lofty</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 131:2\">Sifré Num. 131</cite> <he>מלכות זו מתגאה ומִשְׁתַּחַצַת וכ׳</he> this proud and overweening government has only four provinces worthy of an empire &c.; <cite ref=\"Yalkut Shimoni on Torah 771\">Yalk. Num. 771</cite>; <cite ref=\"Yalkut Shimoni on Torah 809\">Yalk. Deut. 809</cite>. Ab. d’R. N. l. c. [read:] <he>שחץ שהוא מִשְׁתַּחֵץ</he> the lion is called <i>shaḥats</i>, because he is proud."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

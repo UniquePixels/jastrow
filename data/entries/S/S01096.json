@@ -1,0 +1,28 @@
+{
+	"id": "S01096",
+	"slug": "קיפוי",
+	"headword": {
+		"text": "קִיפּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִפּ׳"
+		}
+	],
+	"page": {
+		"number": 1365,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01095\">preced. art.</cite>) <i>formation of a coagulated substance, froth, spume</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 56a:5\">Ab. Zar. 56ᵃ</cite> (expl. <he>משיקפה</he>, v. <cite ref=\"S01704\"><he>קָפָה</he></cite>) <he>ק׳ דבור</he> do you mean the formation of froth (fermentation) in the pit, or <he>ק׳ דחבית</he> the fermentation in the cask?—Trnsf. <i>the skimming of the surface, the quantity taken from the top of a pile</i>. ",
+				"<cite ref=\"Mishnah Terumot 4:11\">Ter. IV, 11</cite>; Y. ib. 43ᵃ bot."
+			]
+		}
+	]
+}

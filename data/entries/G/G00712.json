@@ -1,0 +1,35 @@
+{
+	"id": "G00712",
+	"slug": "זריקה",
+	"headword": {
+		"text": "זְרִיקָה"
+	},
+	"page": {
+		"number": 414,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00734\"><he>זָרַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sprinkling</i> the blood on the altar. ",
+			"units": [
+				"<cite ref=\"Zevachim 25b\">Zeb. 25ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:5:2\">Y. Pes. VII, 34ᵇ</cite> bot.; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>thrusting</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 96b:1\">Sabb. 96ᵇ</cite> <he>ז׳ תולדה וכ׳</he> thrusting (on the Sabbath from one area, <cite ref=\"T01079\"><he>רשות</he></cite>, to another) is forbidden as a subspecies of carrying (v. <cite ref=\"E00266\"><he>הוֹצָאָה</he></cite>). Y. Erub. IV, beg. 21ᵈ <he>ע״י ז׳</he> by means of thrusting from place to place; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

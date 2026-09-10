@@ -1,0 +1,22 @@
+{
+	"id": "Q01304",
+	"slug": "פסיע",
+	"headword": {
+		"text": "פְּסִיעַ"
+	},
+	"page": {
+		"number": 1195,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01342\"><he>פְּסַע</he></cite>) <i>bandy-legged, waddling</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 21:18\">Targ. Y. Lev. XXI, 18</cite> Ar. (ed. <he>מישתמיט יריכיה</he>; h. text <he>שרוע</he>)."
+			]
+		}
+	]
+}

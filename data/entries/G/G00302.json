@@ -1,0 +1,23 @@
+{
+	"id": "G00302",
+	"slug": "זיואי",
+	"headword": {
+		"text": "זִיוַאי"
+	},
+	"page": {
+		"number": 392,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Zivay</i>, son-in-law of R. Meïr. ",
+			"units": [
+				"<cite ref=\"Berakhot 53b:32\">Ber. 53ᵇ</cite> (v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 989:11\">Yalk. Koh. 989</cite> <he>ז׳ חתנו של ר׳ מ׳</he> (ed. Lemb. <he>ז׳</he> omitted); <cite ref=\"Shabbat 153a\">Sabb. 153ᵃ</cite> <he>זריזאי</he> Ms. M. (Ms. O. <he>ר׳ זיתאי</he>, ed. omitted, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

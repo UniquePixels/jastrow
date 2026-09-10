@@ -1,0 +1,45 @@
+{
+	"id": "J00494",
+	"slug": "יעץ-2",
+	"headword": {
+		"text": "יְעַץ"
+	},
+	"page": {
+		"number": 585,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00493\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:20\">Targ. Prov. XII, 20</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַיעֵץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00493\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Megillah 15b\">Meg. 15ᵇ</cite> <he>עצה קא מְיַיעֲצֵי עילויה וכ׳</he> Ms. M. (ed. <he>שקלי</he>) they plan against this man (me)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיַיעֵץ"],
+			"senses": [
+				{
+					"gloss": "<i>to take counsel</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 19:30\">Targ. Jud. XIX, 30</cite>.—V. <cite ref=\"P00322\"><he>עוּץ</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

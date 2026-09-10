@@ -1,0 +1,45 @@
+{
+	"id": "H00614",
+	"slug": "חטי-2",
+	"headword": {
+		"text": "חֲטִי"
+	},
+	"page": {
+		"number": 449,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00613\">same</cite>; <i>part.</i> <he>חַטְיָא</he> <i>used to comfort, tender, delicate</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 33:13\">Targ. Y. Gen. XXXIII, 13</cite> <he>טליא חַטְיָין</he> (h. text <he>רכים</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַטֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to be generous, to persuade to leniency</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 9:18:2\">Koh. R. to IX, 18</cite> <he>אנא אזלא ומְחַטָּא ליה</he> I will go to appeal to his generosity (Midr. Sam. ch. XXXII <he>ומפייסה</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִחְטֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be raised in luxury</i>. <i>Part. pass.</i> <cite ref=\"M00854\"><he>מִחְטֵי</he></cite>, fem. <he>מֶחְטָיָא</he>, <he>מֶחְטַיְיתָא</he> <i>delicate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:54\">Targ. Y. I Deut. XXVIII, 54</cite>, <cite ref=\"Targum Jerusalem, Deuteronomy 28:54\">Targ. Y. II, Deut. XXVIII, 54</cite>; <cite ref=\"Targum Jerusalem, Deuteronomy 28:56\">56</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "P00435",
+	"slug": "עט",
+	"headword": {
+		"text": "עֵט"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵיט"
+		}
+	],
+	"page": {
+		"number": 1062,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= b. h. <cite ref=\"P00435\"><he>עֵט</he></cite>; <he>עטט</he>, cmp. <cite ref=\"H00608\"><he>חטט</he></cite>) <i>style, pencil</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 17:1\">Targ. Jer. XVII, 1</cite>."
+			]
+		}
+	]
+}

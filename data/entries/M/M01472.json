@@ -1,0 +1,34 @@
+{
+	"id": "M01472",
+	"slug": "מלאכה",
+	"headword": {
+		"text": "מְלָאכָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְלֶאכֶת"
+		}
+	],
+	"page": {
+		"number": 786,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M01471\">preced.</cite>) <i>work, trade, vocation; task</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:10\">Ab. I, 10</cite> <he>אהוב את המ׳</he> love trade, opp. to <cite ref=\"T00124\"><he>רבנות</he></cite>, office. ",
+				"<cite ref=\"Nedarim 49b:11\">Ned. 49ᵇ</cite>, v. <cite ref=\"C00180\"><he>גָּדוֹל</he></cite>. ",
+				"<cite ref=\"Berakhot 17a:8\">Ber. 17ᵃ</cite> <he>אני מְלַאכְתִּי בעיר</he> my work (study) is done in town, <he>והוא מְלַאכְתּוֹ בשדה וכ׳</he> and his, in the field &c., v. <cite ref=\"C00244\"><he>גָּדַר</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 2:14\">Ab. II, 14</cite> <he>בעל מְלַאכְתְּךָ</he> thy <i>employer</i> (the Lord). ",
+				"<cite ref=\"Pirkei Avot 2:15\">Ib. 15</cite> <he>היום קצר והמ׳ מרובה</he> the day (life) is short, and the task great. ",
+				"<cite ref=\"Avot D'Rabbi Natan 11:1\">Ab. d’R. N. ch. XI</cite> <he>ועשו בו מ׳ בשבת</he> (not <he>ועשה</he>) and they made him work on the Sabbath. ",
+				"<cite ref=\"Mishnah Shabbat 7:1\">Sabb. VII, 1</cite> <he>אב מ׳</he>, v. <cite ref=\"A00017\"><he>אָב</he></cite>; a. v. fr.—Pl. <cite ref=\"M01473\"><he>מְלָאכוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 7:1\">Ib.</cite> <he>עשה מ׳ הרבה וכ׳</he> he did several (forbidden) labors on several successive Sabbaths. Ib. 2, v. <cite ref=\"A00017\"><he>אָב</he></cite>; a. v. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "J00743",
+	"slug": "יתם-1",
+	"headword": {
+		"text": "יָתַם"
+	},
+	"page": {
+		"number": 604,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"J00356\"><he>יִיתֵּם</he></cite> (denom. of <cite ref=\"J00720\"><he>יָתוֹם</he></cite>) <i>to make orphans, to cause bereavement</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 49a:19\">Pes. 49ᵃ</cite> <he>מְיַיתֵּם את בניו</he> Ms. M. (ed. <he>גוזליו</he>) will be forced to leave his children uprovided for; Yalk. Am. 545; v. <cite ref=\"A01919\"><he>אִלְמֵן</he></cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 95\">Yalk. Gen. 95</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְיַיתֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to become an orphan</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 44b:6\">Keth. 44ᵇ</cite> <he>נִתְיַתְּמָה</he> she lost her father."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

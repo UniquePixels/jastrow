@@ -1,0 +1,28 @@
+{
+	"id": "M02086",
+	"slug": "מעוני",
+	"headword": {
+		"text": "מְעוֹנִי"
+	},
+	"page": {
+		"number": 814,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>of Maon</i>, v. <cite ref=\"M02085\">preced.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " סֵפֶר מ׳ <i>the Book M’ʿoni</i>, name of a Pentateuch copy in Jerusalem in which <cite ref=\"M02083\"><he>מָעוֹן</he></cite> was written in place of <he>מְעֹנָה</he> (<cite ref=\"Deuteronomy 33:27\">Deut. XXXIII, 27</cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:12\">Y. Taan. IV, 68ᵃ</cite> bot. <he>ספר מ׳</he>; <cite ref=\"Sifrei Devarim 356:1\">Sifré Deut. 356</cite> <he>של מְעוֹנִים</he>; <cite ref=\"Tractate Soferim 6:4\">Treat. Sof’rim VI, 4</cite> <he>ספר מעונה</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

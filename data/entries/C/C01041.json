@@ -1,0 +1,37 @@
+{
+	"id": "C01041",
+	"slug": "גמלא-1",
+	"headword": {
+		"text": "גֻּמְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּימְ׳"
+		},
+		{
+			"text": "גּוּמְ׳"
+		},
+		{
+			"text": "גַּמְ׳"
+		}
+	],
+	"page": {
+		"number": 253,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"C01008\"><he>גְּמוּל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:11\">Targ. Is. III, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 94:2\">Targ. Ps. XCIV, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 137:8\">Ib. CXXXVII, 8</cite> <he>גַּמְ׳</he> Ms.; a. e.—Pl. <he>גַּמְלַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 35:4\">Targ. Is. XXXV, 4</cite>.—",
+				"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite> <he>גַּמְלַיי טבייה דגמלית עימיך</he> my benefits which I bestowed on thee."
+			]
+		}
+	]
+}

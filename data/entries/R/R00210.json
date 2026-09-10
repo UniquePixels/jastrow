@@ -1,0 +1,31 @@
+{
+	"id": "R00210",
+	"slug": "צונם",
+	"headword": {
+		"text": "צוֹנָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "צוֹנָמָא"
+		}
+	],
+	"page": {
+		"number": 1268,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00633\"><he>צָנַם</he></cite>) <i>rock, flint; granite</i>. Y. B. Bath. II, beg. 13ᵇ <he>בצ׳ מותר</he> against a neighbor’s granite wall it is permitted; <cite ref=\"Tosefta Bava Batra 1:4\">Tosef. ib. I, 4</cite> <he>ובצונן</he> (corr. acc.), contrad. to <he>אבנים</he> ordinary stones. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 16:12\">Num. R. s. 16</cite> <he>הסתכלו … אם של צ׳ וכ׳</he> observe their stones and pebbles, if they are granite-like, the fruits are fat; Tanḥ. Sh’laḥ 6. ",
+				"<cite ref=\"Niddah 8b:56\">Nidd. 8ᵇ</cite> (<he>נמצא בה</he>) <he>צ׳ וכ׳</he> if flint is found in breaking the ground, it is sure to be virgin soil. ",
+				"<cite ref=\"Bava Batra 18a:11\">B. Bath. 18ᵃ</cite> <he>דמפסיק צ׳</he> a granite block intervenes (preventing the roots from spreading over the neighboring ground). ",
+				"<cite ref=\"Pesachim 47b:4\">Pes. 47ᵇ</cite> <he>צ׳ בר זריעה הוא</he> Ms. M. is flinty ground fit for sowing?; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 7:1:5\">Y. Kil. VII, beg. 30ᵈ</cite> <he>בהדין צלמא</he> (corr. acc.) in flinty ground, opp. <he>רכיכה</he>; v. <cite ref=\"Q02194\"><he>פִּתְפֵּת</he></cite>.—[<cite ref=\"Berakhot 39a\">Ber. 39ᵃ</cite> <he>פת צ׳</he> Ar., v. <cite ref=\"R00633\"><he>צָנַם</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M02030",
+	"slug": "מסרת",
+	"headword": {
+		"text": "מַסְרֵת"
+	},
+	"page": {
+		"number": 812,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"M02982\"><he>מַשְׂרֵת</he></cite>; v. <cite ref=\"N00960\"><he>נָסַר</he></cite>)<i>a mould for frying a batter</i> (<cite ref=\"H00994\"><he>חָלוּט</he></cite>), in gen. <i>pan</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 1:4\">Ḥall. I, 4</cite> <he>חלת המ׳</he> Ms. M. (ed. <he>המַשְׂ׳</he>) cake formed in the mould; <cite ref=\"Pesachim 37a\">Pes. 37ᵃ</cite>; expl. ",
+				"<cite ref=\"Pesachim 37a:11\">ib.</cite> <he>חלוט של וכ׳</he> home-made <i>ḥalut</i> (v. <cite ref=\"H01020\"><he>חָלַט</he> I</cite>). Y. Ḥall. I, 57ᵈ, v. <cite ref=\"H01038\"><he>חֲלִיטָא</he> III</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:4:10\">Y. Pes. II, 29ᵇ</cite> bot."
+			]
+		}
+	]
+}

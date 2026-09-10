@@ -1,0 +1,42 @@
+{
+	"id": "N00935",
+	"slug": "נסיון-2",
+	"headword": {
+		"text": "נִסָּיוֹן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נִסְיוֹנָא"
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 916,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"N00934\">same</cite>, <i>sign, test, trial</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 26:10\">Targ. Y. Num. XXVI, 10</cite> (h. text <cite ref=\"N00913\"><he>נֵס</he></cite>). ",
+				"<cite ref=\"Targum Jerusalem, Genesis 22:1\">Targ. Y. II, Gen. XXII, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:25\">Targ. Y. Ex. XV, 25</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Exodus 17:7\">Ib. XVII, 7</cite>, v. <cite ref=\"N00945\"><he>נִסֵּיתָא</he></cite>.—",
+				"<cite ref=\"Berakhot 56b:3\">Ber. 56ᵇ</cite>, v. <cite ref=\"N00914\"><he>נִסָּא</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wonder, providential escape, salvation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:4:15\">Y. Ter. VIII, end, 46ᶜ</cite> <he>לנ׳ הוא מיתחמי</he> he appears as a messenger of salvation; (<cite ref=\"Bereishit Rabbah 63:8\">Gen. R. s. 63</cite> <he>על נסין</he>).—Pl. <he>נִסְיוֹנִין</he>, <he>נִסְיוֹנֵי</he>. Targ. II Esth. V, 1; a. e.—",
+				"<cite ref=\"Avodah Zarah 15a:5\">Ab. Zar. 15ᵃ</cite> <he>משום נ׳</he> on account of the trials (connected with the purchase of animals, and which the Jewish seller may be induced to attend on the Sabbath eve). ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite>, v. <cite ref=\"N00914\"><he>נִסָּא</he> I</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

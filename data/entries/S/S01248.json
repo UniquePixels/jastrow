@@ -1,0 +1,28 @@
+{
+	"id": "S01248",
+	"slug": "קליבינטירין",
+	"headword": {
+		"text": "קְלִיבִּינִטִירִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלִיבִּינְטְרִין"
+		}
+	],
+	"page": {
+		"number": 1372,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a corrupt. of κλινο-βατήριον = βάθριον, corresp. to Lat. scamnum) <i>step placed before the bed</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:7\">Y. Ber. III, 5ᵈ</cite> bot. <he>שומט קלבינטרין וכ׳</he> (ed. Lehm. <cite ref=\"S01894\"><he>קרביטין</he></cite>, corr. acc.; Mus. in Ar. ed. Koh. <he>קלבינטירין</he>, oth. ed. <he>קלבינטר׳</he>; Ar. <he>קליבנטירין</he>) he detaches the footstool from the state-bed (<cite ref=\"D01041\"><he>דרגש</he></cite>), and that is enough (as a sign of mourning); <cite ref=\"Jerusalem Talmud Nedarim 7:5:2\">Y. Ned. VII, end, 40ᶜ</cite> <cite ref=\"S01272\"><he>קלונטרון</he></cite> ed. Krot. (Mus. l. c. <cite ref=\"S01338\"><he>קלינטרין</he></cite>, corr. acc.); <cite ref=\"Jerusalem Talmud Moed Katan 3:5:22\">Y. M. Kat. III, 83ᵃ</cite> top <he>קלמנטרין</he> (corr. acc.)."
+			]
+		}
+	]
+}

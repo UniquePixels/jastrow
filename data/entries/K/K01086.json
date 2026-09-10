@@ -1,0 +1,22 @@
+{
+	"id": "K01086",
+	"slug": "כרבלת",
+	"headword": {
+		"text": "כַּרְבֶּלֶת"
+	},
+	"page": {
+		"number": 664,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"K01084\"><he>כִּרְבֵּל</he></cite>, cmp. <he>הדר</he>), <i>crown, crest</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110b:6\">Sabb. 110ᵇ</cite> <he>יטול כַּרְבַּלְתּו</he> let him cut off his (the cock’s) crest."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "P01026",
+	"slug": "ענתודריא",
+	"headword": {
+		"text": "עֵנְתּוֹדְרָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵנְתּוֹנְדְּ׳"
+		}
+	],
+	"page": {
+		"number": 1097,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>of En-Todros</i> (?). Y. Shek. VI, 49ᵈ top <he>ר׳ יודן ענתונ׳</he> (Bab. ed. Ms. M. <he>יודן אנא תחדויה</he>; ed. <he>אבא היחדויזה</he>, <he>הידחויזה</he>, prob. corrupt. of <he>תיודוזיא</he> Theodosia, equivalent of <he>תודריא</he>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:27\">Y. Ber. IV, 7ᶜ</cite> top <cite ref=\"P01028\"><he>ענתורדיא</he></cite>. Ib. 8ᵃ top <cite ref=\"P01028\"><he>ענתוריא</he></cite>; <cite ref=\"Jerusalem Talmud Taanit 2:2:8\">Y. Taan. II, 65ᶜ</cite> top <cite ref=\"P01026\"><he>ענתונד׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 9:3:7\">Y. Sabb. IX, 12ᵃ</cite> bot. <cite ref=\"P01023\"><he>ענתדריא</he></cite>; a. e."
+			]
+		}
+	]
+}

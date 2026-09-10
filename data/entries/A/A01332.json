@@ -1,0 +1,24 @@
+{
+	"id": "A01332",
+	"slug": "אימוס-2",
+	"headword": {
+		"text": "אִימּוּס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 50,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <cite ref=\"A01966\"><he>אִמְאוּס</he></cite> = <cite ref=\"M01078\"><he>מִיאוּס</he></cite>; <he>מאס</he>) <i>disfiguration</i>. <he>א׳ שירוף</he> <i>one disfigured by burns</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:9:1\">Cant. R. to VII, 9</cite> <he>ונעשה א׳ ש׳</he> and he (Nebucadn.) became &c. [Tanḥ. Tsav. 2 (ed. Buber 3) <he>ונעשה אֵימַת שירוף עליו</he> and the fright (repulsiveness) of a burned face was put upon him. ",
+				"<cite ref=\"Midrash Tehillim 22\">Midr. Till. to Ps. XXII</cite> <cite ref=\"A01977\"><he>אמבירוס</he></cite>, read <he>אֶמְפּוּרוֹס</he>, ἔμπυρος, <i>fire-scathed</i>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A01324",
+	"slug": "אימה-2",
+	"headword": {
+		"text": "אִימָּה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 50,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A02037\"><he>אמם</he></cite>, √<he>אם</he> <i>to gather</i>; cmp. <cite ref=\"A00692\"><he>אוּמָּה</he></cite> a. <cite ref=\"P00904\"><he>עמם</he></cite> I in Ges. H. Dict.) <i>distaff</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:6\">Kel. XI, 6</cite> (Ar. <cite ref=\"A01318\"><he>אימא</he></cite>, Var. <cite ref=\"P00588\"><he>עִימָּא</he></cite>)."
+			]
+		}
+	]
+}

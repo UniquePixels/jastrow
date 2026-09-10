@@ -1,0 +1,128 @@
+{
+	"id": "T00327",
+	"slug": "רווח-2",
+	"headword": {
+		"text": "רְוַוח"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְוַח",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1456,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00326\">same</cite><i>to be wide, extend; to be easy</i>; <he>ר׳ ל־</he> <i>to feel relieved</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 32:20\">Targ. Job XXXII, 20</cite>.—[<cite ref=\"Aramaic Targum to Psalms 23:5\">Targ. Ps. XXIII, 5</cite> <he>רויחא</he> Ms., ed. Lag. <he>רווחא</he>, v. <cite ref=\"T00366\"><he>רְוִיתָא</he></cite>.]—",
+				"<cite ref=\"Sanhedrin 7a:5\">Snh. 7ᵃ</cite> <he>כיון דר׳ ר׳</he>, v. <cite ref=\"B00158\"><he>בִּדְקָא</he></cite>. ",
+				"<cite ref=\"Chullin 8a:1\">Ḥull. 8ᵃ</cite> <he>בית … מִירְוַוח ר׳</he> the cut widens, i.e. the parts cut through go apart, and are not affected by the heat of the knife. ",
+				"<cite ref=\"Bava Batra 90b:6\">B. Bath. 90ᵇ</cite> <he>תרעא דר׳ ר׳</he> when the market becomes easy (prices fall), it remains so (for the rest of the year). ",
+				"<cite ref=\"Taanit 23b:10\">Taan. 23ᵇ</cite> <he>אמינא … ר׳ עלמא וכ׳</he> (Ms. M. <he>דוו</he>, corr. acc.) I thought, as it has been raining, the world is at ease (prices will come down). ",
+				"<cite ref=\"Ketubot 80b:4\">Keth. 80ᵇ</cite>, v. <cite ref=\"T00329\"><he>רַוְוחָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 167a:5\">B. Bath. 167ᵃ</cite> (suspecting an erasure in a document) <he>מ״ט רְוִיחַ ליה עלמא להאי וי״ו</he> why has this Vav so much space?, opp. <cite ref=\"D00405\"><he>דחוק</he></cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 20:5:2\">Y. Sabb. XX, end, 17ᵈ</cite> <he>נפל ביתיה על מאן דרויח עליה</he> his house fell in over him who felt at ease (?), v. <cite ref=\"R00623\"><he>צְנִינִים</he></cite>.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make room</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 49:20\">Targ. Is. XLIX, 20</cite> <he>רְוַח לי</he> (prob. to be read: <cite ref=\"T00327\"><he>רַוַּח</he></cite> <i>Pa.</i>; h. text <he>גְּשָׁה</he>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַוַּוח", "רַוַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to widen, make room; give comfort</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 18:16\">Targ. Prov. XVIII, 16</cite> (h. text <he>ירחיב</he>).—Part. pass. <he>מְרַוַּוח</he>; f. <he>מְרַוְּוחָא</he>; pl. <he>מרַוְּוחִין</he>; <he>מְרַוְּוחָן</he>, <he>מְרַוְּח׳</he>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 22:14\">Targ. Jer. XXII, 14</cite>.— "
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"T00615\"><he>רוּחַ</he></cite>) <i>to inspire</i>.—Part. pass. as ab. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:24\">Targ. Y. Deut. XXXII, 24</cite> [read:] <he>מְרַוְּוחֵי רוּחִין בישין</he> possessed by evil spirits."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַרְוַוח", "אַרְוַח"],
+			"senses": [
+				{
+					"gloss": "<i>to make room, widen; to relieve</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 26:22\">Targ. Y. Gen. XXVI, 22</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 3:56\">Targ. Lam. III, 56</cite> <he>לאַרְוָוחוּתְנִי</he> (verbal noun); a. e.—",
+						"<cite ref=\"Shabbat 151b:16\">Sabb. 151ᵇ</cite> <he>האי כוחלא … מַרְוַוח</he> (or <he>מְרַוַּוח</he> <i>Pa.</i>) stibium widens (improves the eye-sight) up to forty years of age, <he>מכאן … אַרְוָחֵי לא מרווח</he> after that … it preserves the eye-sight, but does not improve it; a. e.—<i>Part. pass.</i> <he>מַרְוַוח</he> <i>open; vacant</i>. ",
+						"<cite ref=\"Targum of II Chronicles 23:15\">Targ. II Chr. XXIII, 15</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 20:25\">Targ. I Sam. XX, 25</cite>; <cite ref=\"Targum Jonathan on I Samuel 20:27\">27</cite> (h. text <he>ויִפָּקֵד</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make profit, gain</i>. Y. Ned. V, end, 39ᵇ <he>חד בר נש נדר דלא מַרְוַוח</he> (not <he>מרווחא</he>) a man made a vow that he would make no profit (in business). Ib. [read:] <he>א״ל מאי אשבעת א״ל דלא מַרְוַוחְנָא</he> he asked him, what didst thou swear (not to do)? Said he, that I will make no profit (v. Asheri to <cite ref=\"Gittin 35b\">Gitt. 35ᵇ</cite>).",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cause to profit</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 73a:12\">B. Mets. 73ᵃ</cite> bot. <he>אנא נטרנא … ומרווחנא להו בכמה</he> I wait for them (give them time to move) until Iyar, and thus I benefit them greatly; a. e.—Part. pass. <he>מַרְוַוח</he>. ",
+						"<cite ref=\"Berakhot 56a\">Ber. 56ᵃ</cite> <he>מ׳ עסקך</he> thy business will be profitable, opp. <cite ref=\"Q01275\"><he>פסיד</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְרַוַּוח"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְרְוַוח"],
+			"senses": [
+				{
+					"gloss": "",
+					"units": [],
+					"senses": [
+						{
+							"gloss": " <he>אתר׳ ל־</he> <i>to be relieved; to be better</i>. ",
+							"units": [
+								"<cite ref=\"Targum Jonathan on I Samuel 6:3\">Targ. I Sam. VI, 3</cite>. ",
+								"<cite ref=\"Targum Jonathan on I Samuel 16:23\">Ib. XVI, 23</cite>; a. e.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>to be blessed</i> (with issue, with increase of wealth). ",
+							"units": [
+								"<cite ref=\"Onkelos Genesis 20:17\">Targ. Gen. XX, 17</cite>. ",
+								"<cite ref=\"Targum Jonathan on Genesis 22:20\">Targ. Y. ib. XXII, 20</cite>. ",
+								"<cite ref=\"Targum Jonathan on Genesis 25:21\">Ib. XXV, 21</cite>. ",
+								"<cite ref=\"Targum Jonathan on Genesis 26:31\">Ib. XXVI, 31</cite>."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

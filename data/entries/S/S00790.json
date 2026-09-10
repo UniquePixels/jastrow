@@ -1,0 +1,28 @@
+{
+	"id": "S00790",
+	"slug": "קטמא",
+	"headword": {
+		"text": "קִטְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1350,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְטַם</he> I, 1) <i>that which is lopped;</i> (euphem.) <he>בית ק׳</he> (cmp. <cite ref=\"C00556\"><he>גְּזֵירְתָא</he></cite>) <i>membrum virile</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 25:11\">Targ. Y. II, Deut. XXV, 11</cite> <he>בית קִיטְמֵיה</he> (not <he>קיטמי</he>; h. text <he>מבשיו</he>)."
+			]
+		}
+	]
+}

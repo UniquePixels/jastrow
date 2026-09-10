@@ -1,0 +1,33 @@
+{
+	"id": "B01246",
+	"slug": "בריה-1",
+	"headword": {
+		"text": "בִּרְיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּירְיָה"
+		},
+		{
+			"text": "בִּירְיָא"
+		}
+	],
+	"page": {
+		"number": 193,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01157\"><he>ברא</he></cite>) <i>creature; human being;</i> (freq. masc.) <i>man</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 1:9\">Tosef. Kil. I, 9</cite> <cite ref=\"B00714\"><he>ביריא</he></cite>. ",
+				"<cite ref=\"Berakhot 17a:8\">Ber. 17ᵃ</cite>; a. fr.—Pl. <cite ref=\"B01251\"><he>בְּרִיּוֹת</he></cite>. ",
+				"<cite ref=\"Chullin 127a:17\">Ḥull. 127ᵃ</cite> <he>ב׳ גְּדֵלוֹת בים</he> creatures living in the Sea.—<he>הַבְּ׳</he> (often m.) <i>people, mankind</i>. ",
+				"<cite ref=\"Yoma 86a\">Yoma 86ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

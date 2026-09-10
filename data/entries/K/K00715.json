@@ -1,0 +1,88 @@
+{
+	"id": "K00715",
+	"slug": "כלי-2",
+	"headword": {
+		"text": "כלי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּלָא"
+		},
+		{
+			"text": "כָּלָה"
+		}
+	],
+	"page": {
+		"number": 641,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"K00758\"><he>כָּלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to enclose; to restrain, keep back</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 113:2\">Midr. Till. to Ps. CXIII</cite> <he>לִכְלוֹת את המכה וכ׳</he> to ward this plague off from thee. ",
+				"<cite ref=\"Mishnah Middot 4:6\">Midd. IV, 6</cite> <he>כֹּלֵה עֹרֵב</he> ‘keeping off the raven’, an arrangement of <i>iron points</i> on the roof of the Temple; <cite ref=\"Shabbat 90a:4\">Sabb. 90ᵃ</cite> <he>כּוֹלֵי עורב</he> (pl.) Ms. M. (ed. <cite ref=\"K00720\"><he>כַּלְיָיא</he></cite> ch.; v. Rabb. D. S. a. l. note); <cite ref=\"Menachot 107a\">Men. 107ᵃ</cite> <he>כולי</he> Ms. M. (ed. <cite ref=\"K00725\"><he>כַּלְיָה</he></cite>); <cite ref=\"Moed Katan 9a:9\">M. Kat. 9ᵃ</cite> <he>כולי</he> Ms. M. (ed. <he>כליא</he>); <cite ref=\"Arakhin 6a:10\">Arakh. 6ᵃ</cite> <he>כליה</he>.—Part. pass. <cite ref=\"K00693\"><he>כָּלוּי</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 2:1:3\">Y. Naz. II, beg. 51ᵈ</cite> <he>כ׳ אני ממנו</he> I will be restrained from it (for ‘I will abstain’)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>שלם</he>) <i>to be full, to be finished, to cease</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 39a:13\">Ber. 39ᵃ</cite> <he>צריך שתִּכְלֶה ברכה וכ׳</he> the benediction must be finished simultaneously with breaking the bread. Tanḥ. Ki Thissa 5 <he>כבר כָּלוּ ישראל וכ׳</he> Israel would have ceased to exist; (Pesik. Shek., p. 13ᵇ <he>חיו … מְכוּלִּין</he>, v. infra). ",
+				"<cite ref=\"Sanhedrin 97b:14\">Snh. 97ᵇ</cite> <he>כלו כל הקצין</he> all the predicted terms of redemption are ended (have passed by); a. fr.—[<cite ref=\"Pesikta Rabbati 12:1\">Pesik. R. s. 12</cite> <he>מת וכלה בקבר</he>, read: <he>ובלה</he>.]—Part. (fr. <cite ref=\"K00259\"><he>כּוּל</he></cite>, cmp. <cite ref=\"H00319\"><he>חוּל</he></cite>, part. <cite ref=\"H00337\"><he>חולות</he></cite> a. <he>חלות</he>) <cite ref=\"K00669\"><he>כָּל</he></cite>. ",
+				"<cite ref=\"Sanhedrin 17a:16\">Snh. 17ᵃ</cite> (ref. to <he>כלאם</he>, <cite ref=\"Numbers 11:28\">Num. XI, 28</cite>) <he>הטל … והן כָּלִין מאליהם</he> throw upon them the care for the public, and they will cease (to prophesy) of themselves; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּלָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to finish, cease</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 60b:4\">Yoma 60ᵇ</cite> (ref to <cite ref=\"Leviticus 16:20\">Lev. XVI, 20</cite>) <he>אם כפר כ׳</he> when he has atoned (for the sanctuary &c.), he has finished (his task). ",
+						"<cite ref=\"Leviticus 16:20\">Ib.</cite> <he>אם כ׳ כפר</he> when he has done all (the prescribed ritual), he has achieved atonement; Sifra Aḥăré ch. IV, Par. 4; a. e.—Tanḥ. Vayetse 2 <he>מְכַלִּין את שדותיהן</he> they reap their fields entirely (leaving no corners for the poor). ",
+						"<cite ref=\"Sanhedrin 67b:21\">Snh. 67ᵇ</cite> <he>כַּלֵּה מִדַּבְּרוֹתֶיךָ ולך וכ׳</he> (some ed. <he>כלך</he>, v. Rab. D. S. a. l. note) cease from thy homiletical interpretations, and turn to &c.; <cite ref=\"Midrash Tehillim 136:3\">Midr. Till. to Ps. CIV, 6</cite>; <cite ref=\"Shemot Rabbah 10:4\">Ex. R. s. 10</cite>, v. <cite ref=\"K00750\"><he>כַּלֵּךְ</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to finish, destroy</i>. Y. Shek. VI, 50ᵇ top (ref. to <he>מכלות</he>, <cite ref=\"II Chronicles 4:21\">II Chr. IV, 21</cite>) <he>הן כִּילּוּ וכ׳</he> they (these vessels) consumed all the gold (of the country); <cite ref=\"Menachot 29a:11\">Men. 29ᵃ</cite> <he>שכִּילַּתּוֹ וכ׳</he> it consumed &c. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 2:1\">Pesik. R. s. 2</cite> <he>שכי׳ אותה וכ׳</he> whom the Lord destroyed. ",
+						"<cite ref=\"Bamidbar Rabbah 3:3\">Num. R. s. 3</cite> <he>היה הארון מְכַלֶּה בבני וכ׳</he> the Ark made havoc among the sons of Kehath (who had charge of it; cmp. ",
+						"<cite ref=\"II Samuel 6:7\">II Sam. VI, 7</cite>). Mekh. B’shall., Amalek, s. 2 <he>לכַלָּן</he> to destroy them. Y. Ḥag. II, 78ᵃ bot. (cited in Tosaf. to <cite ref=\"Chagigah 17b\">Ḥag. 17ᵇ</cite> a. v. <cite ref=\"A01770\"><he>אלא</he></cite>) <he>ובלבד שיְכַלֶּה עיסתו</he> (ed. <he>שיבלים</he>) provided he has used up all his dough for the day; a. fr.—Part. pass. <he>מְכוּלֶּה</he>, pl. <cite ref=\"M01356\"><he>מְכוּלִּין</he></cite>. Pesik. Shek., p. 13ᵇ <he>כבר היו ישראל מ׳ וכ׳</he> Israel would then have been destroyed; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְכַּלֶּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְכַּלֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be destroyed, visited by death</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 5:8\">Num. R. s. 5</cite> <he>היו מִתְכַּלִּין</he> they were diminished. ",
+						"<cite ref=\"Bamidbar Rabbah 5:1\">Ib.</cite> <he>שלא יִתְכַּלּוּ מן וכ׳</he> that they may not be destroyed from the world. ",
+						"<cite ref=\"Bamidbar Rabbah 3:3\">Num. R. s. 3</cite> <he>לא נ׳ וכ׳</he> not one of them was missing on being counted &c.; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "O00573",
+	"slug": "סיגרון-1",
+	"headword": {
+		"text": "סִיגָּרוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 976,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00165\"><he>סָגַר</he></cite>, <i>Pi. to surrender</i>, cmp. ",
+			"units": [
+				"<cite ref=\"I Samuel 26:8\">I Sam. XXVI, 8</cite>) <i>surrender</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 8:4\">Num. R. s. 8</cite> <he>כל מי שכותב את עצמו ס׳ למלך וכ׳</he> he who signs himself (is enlisted) for surrender to the king, must renounce his father &c.; <cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23—24</cite> <he>מכתיב עצמו שרגיון וכ׳ …</he> (corr. acc.)."
+			]
+		}
+	]
+}

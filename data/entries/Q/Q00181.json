@@ -1,0 +1,22 @@
+{
+	"id": "Q00181",
+	"slug": "פוחת",
+	"headword": {
+		"text": "פּוֹחֵת"
+	},
+	"page": {
+		"number": 1140,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00486\"><he>פָּחַת</he></cite>) <i>a scraping tool, chisel</i> (?). ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 7:3\">Tosef. Kel. B. Bath. VII, 3</cite> <he>יד הפ׳ ובן הפ׳</he> quot. in R. S. to <cite ref=\"Mishnah Kelim 29:8\">Kel. XXIX, 8</cite> (ed. Zuck. <he>יד הפחות ובין הפחות</he>) the handle of a large or of a small scraper."
+			]
+		}
+	]
+}

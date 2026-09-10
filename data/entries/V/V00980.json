@@ -1,0 +1,43 @@
+{
+	"id": "V00980",
+	"slug": "תרי-4",
+	"headword": {
+		"text": "תְּרֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּרָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1698,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"U01959\"><he>שָׁרָה</he> I</cite>, <i>to dissolve, soak</i>. ",
+			"units": [
+				"<cite ref=\"Nazir 37a:15\">Naz. 37ᵃ</cite> <he>אי תְרוּ ליה וכ׳</he> if they steep it (meat) in milk for an entire day &c. ",
+				"<cite ref=\"Gittin 27a:8\">Gitt. 27ᵃ</cite> <he>בדוכתא היכא דתרו כיתנא</he> in the place where they steep flax. ",
+				"<cite ref=\"Gittin 69b:8\">Ib. 69ᵇ</cite> <he>ונִיתְרֵיה במיא</he> (not <he>וניתייריה</he>) and let him soak it in water. ",
+				"<cite ref=\"Avodah Zarah 38b:17\">Ab. Zar. 38ᵇ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְּרֵי", "אִיתְ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be soaked</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 6:3\">Targ. Y. Num. VI, 3</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

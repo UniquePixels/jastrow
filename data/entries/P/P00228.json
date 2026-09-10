@@ -1,0 +1,34 @@
+{
+	"id": "P00228",
+	"slug": "עויא-1",
+	"headword": {
+		"text": "עֲוָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲוָיָיא"
+		},
+		{
+			"text": "עֲוָו׳"
+		}
+	],
+	"page": {
+		"number": 1049,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עֲוֵי</he> I) = h. <cite ref=\"P00290\"><he>עָוֹן</he></cite> <i>curve; wrong, iniquity</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 59:5\">Targ. Ps. LIX, 5</cite> Ms. (v. <cite ref=\"P00226\"><he>עֲוֵי</he> I</cite>). ",
+				"<cite ref=\"Onkelos Exodus 28:38\">Targ. Ex. XXVIII 38</cite> (<cite ref=\"P00228\"><he>עֲוָיַית</he></cite>) <he>עֲוָיַת</he> constr. (ed. Berl. <he>עֲוָיָת</he> pl.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 51:7\">Targ. Ps. LI, 7</cite> (ed. Wil. <cite ref=\"P00229\"><he>עַוְיָא</he></cite>); a. fr.—Pl. <cite ref=\"P00228\"><he>עֲוָיָין</he></cite>, <he>עֲוָיָיתָא</he>, <cite ref=\"P00228\"><he>עֲוָו׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 130:3\">Ib. CXXX, 3</cite> (ed. Wil. <cite ref=\"P00232\"><he>עַוְיָן</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 16:21\">Targ. Lev. XVI, 21</cite>; a. fr."
+			]
+		}
+	]
+}

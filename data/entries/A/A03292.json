@@ -1,0 +1,31 @@
+{
+	"id": "A03292",
+	"slug": "אשירה",
+	"headword": {
+		"text": "אֲשֵׁירָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲשֵׁרָה"
+		}
+	],
+	"page": {
+		"number": 127,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>Asherah, tree</i> (grove) <i>devoted to idolatry</i> (v. Mov. Phœn. p. 567; Sm. Bibl. Dict. s. v.). ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 3:5\">Ab. Zar. III, 5</cite>; <cite ref=\"Mishnah Avodah Zarah 3:7\">7</cite>. ",
+				"<cite ref=\"Sukkah 31b:11\">Succ. 31ᵇ</cite> <he>א׳ דמשה</he> an Asherah to which the Mosaic law refers (remnant of anti-Mosaic idolatry). ",
+				"<cite ref=\"Pesachim 27a:3\">Pes. 27ᵃ</cite>; a. fr. Pl. <he>אֲשֵׁירוֹת</he>, <he>אֲשֵׁרוֹת</he>. ",
+				"<cite ref=\"Mishnah Avodah Zarah 3:7\">Ab. Zar. III, 7</cite>; a. fr.—<he>אֲשֵׁרִים</he>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 26:2\">Pirké d’R. El. ch. XXVI</cite>."
+			]
+		}
+	]
+}

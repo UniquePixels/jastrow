@@ -1,0 +1,85 @@
+{
+	"id": "H01848",
+	"slug": "חשך-4",
+	"headword": {
+		"text": "חֲשַׁךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשׁוֹךְ",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 510,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01847\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 18:6\">Targ. Job. XVIII, 6</cite>. ",
+				"<cite ref=\"Onkelos Exodus 10:15\">Targ. Ex. X, 15</cite>; a. fr.—",
+				"<cite ref=\"Taanit 10a:6\">Taan. 10ᵃ</cite> <he>חֲשׁוּךְ ענני וכ׳</he> when the clouds are dark, they contain much water."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַשֵּׁיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to darken, obscure</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 105:28\">Targ. Ps. CV, 28</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to do something at night, to be late</i>. ",
+					"units": [
+						"<cite ref=\"Tamid 27b:39\">Tam. 27ᵇ</cite> <he>חַשֵּׁיךְ תקין נפשך וכ׳</he> at bed-time attend to thy body, and in the morning etc. ",
+						"<cite ref=\"Berakhot 8a:6\">Ber. 8ᵃ</cite> <he>מקדמי ומְחַשְּׁכֵי וכ׳</he> they go to Synagogue early and late. ",
+						"<cite ref=\"Berakhot 8a:7\">Ib.</cite> <he>קדימו וחַשִּׁיכוּ ועיילו וכ׳</he> (Ms. M. <he>ואַחְשִׁיכוּ</he>, <i>Af.</i>, v. Rabb. D. S. a. l.) go ye early and late to etc. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:65\">Targ. Y. Deut. XXVIII, 65</cite>, v. <cite ref=\"M00947\"><he>מַחַשְׁכָן</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְשִׁיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to obscure</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 38:2\">Targ. Job XXXVIII, 2</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to do something late</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 17:16\">Targ. I Sam. XVII, 16</cite>.—Ber. l. c., v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְחֲשַׁךְ", "אַיחֲשַׁךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to grow dark</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 69:24\">Targ. Ps. LXIX, 24</cite>; a. e.—",
+						"<cite ref=\"Sanhedrin 96a:2\">Snh. 96ᵃ</cite> <he>עד דאתא איח׳</he> by the time he came it had grown dark."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

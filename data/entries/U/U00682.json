@@ -1,0 +1,27 @@
+{
+	"id": "U00682",
+	"slug": "שחפא-1",
+	"headword": {
+		"text": "שַׁחְפָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁחְפָא"
+		},
+		{
+			"text": "צִפַּר שַׁחְפָּא"
+		}
+	],
+	"page": {
+		"number": 1549,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= b. h. <cite ref=\"U00679\"><he>שַׁחַף</he></cite>; <cite ref=\"U00680\"><he>שְׁחַף</he> I</cite>) name of an unclean bird, supposed to be <i>sea-mew</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:16\">Targ. Lev. XI, 16</cite>; <cite ref=\"Onkelos Deuteronomy 14:15\">Targ. Deut. XIV, 15</cite>."
+			]
+		}
+	]
+}

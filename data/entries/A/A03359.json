@@ -1,0 +1,20 @@
+{
+	"id": "A03359",
+	"slug": "אשרתא-1",
+	"headword": {
+		"text": "אֲשַׁרְתָּא"
+	},
+	"page": {
+		"number": 130,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A03349\"><he>אֲשַׁר</he></cite>) <i>strength! health!</i>, a greeting extended to laboring men; cmp. <cite ref=\"A01629\"><he>אַיְשַׁר</he></cite>. ",
+			"units": ["<cite ref=\"Gittin 62a:11\">Gitt. 62ᵃ</cite>"]
+		}
+	]
+}

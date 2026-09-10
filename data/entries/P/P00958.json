@@ -1,0 +1,28 @@
+{
+	"id": "P00958",
+	"slug": "ענוה-1",
+	"headword": {
+		"text": "ענָוָה",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עַנָיָה"
+		}
+	],
+	"page": {
+		"number": 1092,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָנָה</he> I) <i>divine response to prayer, yield, fertility</i>; (Maim. refers to <cite ref=\"Hosea 2:23\">Hos. II, 23</cite>, sq.). ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 1:2\">Peah I, 2</cite>; <cite ref=\"Mishnah Peah 6:7\">ib. VI, 7</cite>, v. <cite ref=\"P00944\"><he>עֲנָבָה</he></cite> 2; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "O00816",
+	"slug": "סיקיא",
+	"headword": {
+		"text": "סִיקַיָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 986,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. [prob. to be read: <cite ref=\"U01049\"><he>שִׁיקַיָּא</he></cite> (v. <cite ref=\"U01049\"><he>שִׁיקְיָא</he></cite>)] <i>wooden troughs</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 7:19\">Targ. Y. II, Ex. VII, 19</cite> (h. text <he>עצים</he>)."
+			]
+		}
+	]
+}

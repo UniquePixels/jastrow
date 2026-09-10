@@ -1,0 +1,32 @@
+{
+	"id": "V00139",
+	"slug": "תואנה",
+	"headword": {
+		"text": "תּוֹאֲנָה"
+	},
+	"page": {
+		"number": 1649,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"V00400\"><he>תֹּאֲ׳</he></cite>; <cite ref=\"A02138\"><he>אָנָה</he></cite>) [",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) <i>occasion</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "] <i>grief</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19:6\">Gen. R. s. 19</cite>; <cite ref=\"Yalkut Shimoni on Torah 27:2\">Yalk. ib. 27</cite>, v. <cite ref=\"P00770\"><he>עָלֶה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

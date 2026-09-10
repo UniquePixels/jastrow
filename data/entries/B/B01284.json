@@ -1,0 +1,40 @@
+{
+	"id": "B01284",
+	"slug": "בריתא-1",
+	"headword": {
+		"text": "בִּרְיְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּרְיָא"
+		},
+		{
+			"text": "בי׳"
+		}
+	],
+	"page": {
+		"number": 194,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch.  = h. <cite ref=\"B01246\"><he>בִּרְיָה</he></cite> <i>creature</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 29:16\">Targ. Is. XXIX, 16</cite>; a. fr. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:9\">Targ. Ezek. I, 9</cite>; <cite ref=\"Targum Jonathan on Ezekiel 1:11\">11</cite> <he>בִּרְיָא</he> <i>each</i> (h. text <cite ref=\"A01615\"><he>איש</he></cite>).—Pl. <cite ref=\"B01284\"><he>בִּרְיָתָא</he></cite>, <cite ref=\"B00716\"><he>בִּירְיָאתָא</he></cite>, <he>בִּירְ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:13\">Ib. 13</cite> sq. (h. text <cite ref=\"H00690\"><he>חַיּוֹת</he></cite>); a. fr. ",
+				"<cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite> <he>הדא דב׳ אמרין</he> that is what people say. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כותאי</he> 1) <he>מפליא בב׳</he> makes sport of men (interpreting dreams to suit himself)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>natural state</i>, v. <cite ref=\"B01261\"><he>בְּרִיָּיה</he></cite>. ",
+			"units": ["<cite ref=\"Bava Kamma 93b:13\">B. Kam. 93ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

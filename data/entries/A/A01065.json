@@ -1,0 +1,26 @@
+{
+	"id": "A01065",
+	"slug": "א״ט",
+	"headword": {
+		"text": "א״ט"
+	},
+	"altHeadwords": [
+		{
+			"text": "אטב״ח"
+		}
+	],
+	"page": {
+		"number": 42,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>Atbaḥ</i>, a formula of combination or interchange of two letters the numerical sum of which is either ten (e.g. <cite ref=\"A01065\"><he>א״ט</he></cite> = 1 + 9; <he>ב״ח</he> = 2 + 8) or <i>one hundred</i> (e.g. <he>י״צ</he> = 10 + 90; <he>כ״פ</he> = 20 + 80 = 100), whereby <cite ref=\"E00000\"><he>ה</he></cite> and <cite ref=\"N00001\"><he>נ</he></cite>, remain isolated or substitute each other. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:7\">Ex. R. s. 15</cite> (allusion to <he>ה̇ן̇</he> <cite ref=\"Numbers 23:9\">Num. XXIII, 9</cite>).—",
+				"<cite ref=\"Sukkah 52b\">Succ. 52ᵇ</cite> <he>באטב״ח</he> (<he>של ר׳ חייא</he>) <he>קורין כ׳ לס̇ה̇ד̇ה̇ מ̇נ̇ו̇ן̇</he> in the Atbaḥ (of R. Ḥiya) <i>sahadah</i> finds a substitute in <i>manon</i> (v. ",
+				"<cite ref=\"Proverbs 29:21\">Prov. XXIX, 21</cite>)."
+			]
+		}
+	]
+}

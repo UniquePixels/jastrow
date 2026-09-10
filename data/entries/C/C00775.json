@@ -1,0 +1,27 @@
+{
+	"id": "C00775",
+	"slug": "גיסא-1",
+	"headword": {
+		"text": "גִּיסָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲגִיסָא"
+		}
+	],
+	"page": {
+		"number": 240,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00774\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:6:10\">Y. Snh. III, 21ᵇ</cite> bot. <he>אֲגִיסֵיה דר׳ וכ׳</he> R. H.’s brother-in-law.—Pl. <he>גִּיסֵי</he>. ",
+				"<cite ref=\"Sanhedrin 28b:21\">Snh. 28ᵇ</cite> <he>אחי וג׳</he> brothers and brothers-in-law (two brothers having married two sisters). ",
+				"<cite ref=\"Sanhedrin 28b:19\">Ib.</cite> <he>תרי ג׳</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "S00900",
+	"slug": "קיטונתא",
+	"headword": {
+		"text": "קִיטּוּנְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטּ׳"
+		},
+		{
+			"text": "בֶּן קִיטּוּנְתָּא"
+		}
+	],
+	"page": {
+		"number": 1357,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ben-Ḳiṭṭunta</i>, surname of one José (v. <cite ref=\"S00716\"><he>קִטּוּנִית</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (Y. ed. 17; <cite ref=\"Sotah 49a:15\">Sot. 49ᵃ</cite>) <he>יוסי בן ק׳</he> Y. ed. (Bab. ed. <he>בן קטנתא</he>, Mish. ed. <he>יוסי קטנותא</he>); Y. ib. IX, end, 24ᶜ <he>יוסי קטו׳</he>; Tosef. ib. XV, 5 <he>אַבָּה יוסי … בן קיטנית</he> (Var. <he>איש קטנתא</he>). ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 3:7:2\">Y. B. Kam. III, 3ᵈ</cite> <he>הוא יוסי הבבלי</he> … <he>הוא יוסי קטונתה</he> José the Babylonian, J. b. Judah, and José Ḳiṭṭunta are one and the same person (cmp. ",
+				"<cite ref=\"Pesachim 113b\">Pes. 113ᵇ</cite>)."
+			]
+		}
+	]
+}

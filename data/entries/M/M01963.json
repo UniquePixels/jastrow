@@ -1,0 +1,42 @@
+{
+	"id": "M01963",
+	"slug": "מסמס-2",
+	"headword": {
+		"text": "מַסְמֵס"
+	},
+	"page": {
+		"number": 808,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01962\">same</cite><i>to melt, make faint</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:28\">Targ. Y. Deut. I, 28</cite> <he>מַסְמִיסוּ</he> (not <he>מסמיסן</he>; h. text <he>הֵמַסּוּ</he>).—Y. Shek. V, 48ᵈ <he>היי דין חמר מְמַסְמֵס מעיא</he> Bab. ed. (v. Rabb. D. S. a. l. p. 43; oth. ed. <cite ref=\"O01122\"><he>סמס</he></cite>; Ms. M. <cite ref=\"O01078\"><he>סמי</he></cite>) which wine loosens the bowels."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to soil, make loathsome</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 18a:4\">Ḥull. 18ᵃ</cite> <he>מְמַסְמֵיס ליה בפרתא</he> the authority soils the meat with dung, so that it cannot be sold &c.—Part. pass. <he>מְמַסְמַס</he>. ",
+				"<cite ref=\"Chullin 28a:15\">Ib. 28ᵃ</cite> <he>כי ממ׳ קועיה דמא</he> its throat stained with blood; <cite ref=\"Chullin 53b\">ib. 53ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְמַסְמֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to be dissolved, melt away, perish</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 9:23\">Targ. Job IX, 23</cite> (h. text <cite ref=\"M02033\"><he>מַסַּת</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

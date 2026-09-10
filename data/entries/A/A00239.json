@@ -1,0 +1,62 @@
+{
+	"id": "A00239",
+	"slug": "אגד-1",
+	"headword": {
+		"text": "אָגַד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 10,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>אג</he>, sec. r. of <cite ref=\"A00535\"><he>אוג</he></cite>, v. <cite ref=\"A00542\"><he>אוּגְיָא</he></cite>, cmp. <cite ref=\"A00340\"><he>אגר</he></cite>, <cite ref=\"H00156\"><he>חגר</he></cite>, <he>עקד</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to twine around, tie up; to close, forbid</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 3:1\">Succ. III, 1</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 60a\">Sabb. 60ᵃ</cite> <he>אוֹגֶדֶת בו וכ׳</he> Ar. (ed. <cite ref=\"A00552\"><he>אוגרת</he></cite>, Ms. M. <he>חוגרת</he>) she fastens her hair with it.—",
+				"<cite ref=\"Pesachim 87a:10\">Pes. 87ᵃ</cite> <he>בנות ישראל שאוֹגְדוֹת וכ׳</he> ed. (Ms. M. <he>בחורות … שמגידות</he>, v. Hif.) the maidens in Israel who forbid intimacy to their betrothed. ",
+				"<cite ref=\"Eruvin 21b:4\">Erub. 21ᵇ</cite> <he>ל״א אוגדות</he> ed. (missing in Ms. M.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"A00258\"><he>אֲגוּדָּה</he></cite>) <i>to form a union</i> or <i>faction</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 294\">Sifré Deut. 294</cite>, v. Nif. [<cite ref=\"Bava Batra 14a:13\">B. Bath. 14ᵃ</cite> <he>לוחות אוגדות</he>, v. <cite ref=\"A00335\"><he>אָגַר</he></cite> a. <cite ref=\"A01696\"><he>אָכַל</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱגַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be tied up, united</i> &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:5\">Maasr. I, 5</cite> <he>ירק הנֶ׳ משיֵאָגֵד</he> vegetables ordinarily put up in bunches, are subject to tithes from the time they are tied. Y. Erub. III, 20ᵈ top.—",
+						"<cite ref=\"Sifrei Devarim 296:8\">Sifré Deut. 296</cite> <he>שלא תאגוד עליך אגודה</he> (read <he>תֵּאָגֵד</he>) no alliance (of the surrounding nations) shall be formed against thee."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֶאֱגִיד"],
+			"senses": [
+				{
+					"gloss": ", contr. <he>הֵיגִיד</he>, part. <he>מֵיגִיד</he>, <cite ref=\"M00151\"><he>מֵגִיד</he></cite>, <i>to tie up, fence in, forbid</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 21b:6\">Erub. 21ᵇ</cite>; <cite ref=\"Pesachim 87a\">Pes. 87ᵃ</cite> Ms. M. (play on <he>מגדים</he> <cite ref=\"Song of Songs 7:14\">Cant. VII, 14</cite>) <he>שמֵגִידוֹת וכ׳</he> who forbid &c., v. supra (Rashi: <he>שמַגִּידוֹת</he>, v. <cite ref=\"A01369\"><he>נגד</he></cite>, who announce their menstruation); v. <cite ref=\"A00241\"><he>אָגַד</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

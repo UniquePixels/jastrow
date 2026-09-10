@@ -1,0 +1,34 @@
+{
+	"id": "Q01529",
+	"slug": "פרא-3",
+	"headword": {
+		"text": "פֶּרֶא"
+	},
+	"page": {
+		"number": 1213,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q01528\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wild ass</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 5:8\">Deut. R. s. 5</cite> (ref. to <cite ref=\"Jeremiah 2:24\">Jer. II, 24</cite>) <he>כשם שהפ׳ גדל וכ׳</he> (some ed. <he>שהעָרֹד</he>) as the wild ass is raised in the desert and is without fear of man, so did I intend that no fear of governments should rest upon you; (<cite ref=\"Yalkut Shimoni on Nach 266:6\">Yalk. Jer. 266</cite> <cite ref=\"P01320\"><he>עָרוֹד</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>savage, cruel</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 45:9\">Gen. R. s. 45</cite> (ref. to <cite ref=\"Genesis 16:12\">Gen. XVI, 12</cite>) <he>פ׳ אדם וודאי וכ׳</he> ‘a savage among men’ in its literal sense, for all other plunder goods, but he (Edom-Rome) captures souls."
+			],
+			"label": "2"
+		}
+	]
+}

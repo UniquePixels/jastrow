@@ -1,0 +1,33 @@
+{
+	"id": "V00402",
+	"slug": "תיאה",
+	"headword": {
+		"text": "תִּיאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּיָּיה"
+		},
+		{
+			"text": "תִּיָּה"
+		}
+	],
+	"page": {
+		"number": 1663,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>root of crowfoot</i> (Ranunculus), used as spice, but considered poisonous for beasts. ",
+			"units": [
+				"<cite ref=\"Mishnah Tevul Yom 1:5\">T’bul Yom I, 5</cite> <he>התיאה</he> (ed. Dehr. <he>התייה</he>; Maim.: ‘some say, <i>tiah</i> is the root of asafœtida’). ",
+				"<cite ref=\"Mishnah Oktzin 3:5\">Ukts. III, 5</cite> (ed. Dehr. <he>התיה</he>); Y. Ḥag. III, 79ᶜ (not <he>חת׳</he>). ",
+				"<cite ref=\"Sifrei Devarim 107\">Sifré Deut. 107</cite>. ",
+				"<cite ref=\"Chullin 58b:15\">Ḥull. 58ᵇ</cite> <he>הלעיטה תִּיעָח</he> (Ms. M. <he>היעה</he>; Ms. R. 2 <he>תועה</he>, v. Rabb. D. S. a. l. note) if he made a beast swallow crowfoot; <cite ref=\"Tosefta Chullin 3:6\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Chullin 4:19\">IV</cite>), 19; a. e."
+			]
+		}
+	]
+}

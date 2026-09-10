@@ -1,0 +1,28 @@
+{
+	"id": "M02409",
+	"slug": "מקזתא",
+	"headword": {
+		"text": "מַקַּזְתָּא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "תָּה"
+		}
+	],
+	"page": {
+		"number": 830,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00680\"><he>קְזַז</he></cite>) <i>calculation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 1:5:4\">Y. Shebi. I, 33ᵇ</cite> bot. <he>אף הדא מ׳ וכ׳</he> this calculation has also been adopted (v. <cite ref=\"M02254\"><he>מַפְשׁוּטִיתָא</he></cite>): that ten young plants within an area of a Beth-S’ah are equal to three old trees as regards the Sabbatical year laws; <cite ref=\"Jerusalem Talmud Sukkah 4:1:2\">Y. Succ. IV, beg. 54ᵇ</cite>; <cite ref=\"Jerusalem Talmud Avodah Zarah 4:1:5\">Y. Ab. Zar. IV, 43ᵈ</cite> top."
+			]
+		}
+	]
+}

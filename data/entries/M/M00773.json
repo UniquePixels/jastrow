@@ -1,0 +1,22 @@
+{
+	"id": "M00773",
+	"slug": "מזמנא",
+	"headword": {
+		"text": "מְזַמָּנָא"
+	},
+	"page": {
+		"number": 756,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00536\"><he>זְמַן</he></cite>) <i>he who invites; host</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 24a:8\">Ned. 24ᵃ</cite>.—[<cite ref=\"M00773\"><he>מְזַמְּנָא</he></cite>, pl. constr. <he>מְזַמְּנֵי</he>, v. <cite ref=\"G00536\"><he>זְמַן</he> I</cite>.]"
+			]
+		}
+	]
+}

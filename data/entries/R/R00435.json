@@ -1,0 +1,36 @@
+{
+	"id": "R00435",
+	"slug": "ציצה",
+	"headword": {
+		"text": "צִיצָה"
+	},
+	"page": {
+		"number": 1280,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"R00434\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>flower, knob on the top of the central stem of the palm branch</i> (Lulab). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:1:5\">Y. Succ. III, beg. 53ᶜ</cite> <he>יבשה צִיצָתוֹ</he> (ed. Krot., a. Asheri to <cite ref=\"Sukkah 3a\">Succ. I</cite>II, beg. <he>צִיצִיתוֹ</he>; Asheri quotes a Var. <he>יבשו הוצין</he>) if the top of the branch is withered."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fringes</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 56a:8\">Gitt. 56ᵃ</cite> <he>שהיתה ציצתו נגררת וכ׳</he> the fringes of his cloak were dragged along on cushions. ",
+				"<cite ref=\"Mishnah Moed Katan 3:4\">M. Kat. III, 4</cite> <he>תכלת לציצתו</he> Y. ed. (Mish. a. Bab. ed. 19ᵃ <he>לציציתו</he>; Rabb. D. S. quotes <he>לציצתו</he>) the blue thread for his show-fringes.—",
+				"<cite ref=\"Mishnah Kelim 16:4\">Kel. XVI, 4</cite> <he>סקורטיא … ויעשה את צִיצָתָהּ</he> (Ar. <he>ציציתיה</he>, read: <he>צִיצוֹתֶיהָ</he>) a leather apron is considered finished, when … he attaches its fringes (cords); [Maim.: a leather table cloth …, when he puts on a <i>bright center piece</i>].—Pl. <he>צִיצוֹת</he>, v. supra."
+			],
+			"label": "2"
+		}
+	]
+}

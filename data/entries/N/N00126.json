@@ -1,0 +1,44 @@
+{
+	"id": "N00126",
+	"slug": "נגה-1",
+	"headword": {
+		"text": "נָגַהּ"
+	},
+	"page": {
+		"number": 872,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to burst forth; to be bright, shine</i>. V. <cite ref=\"C00648\"><he>גִּיהַּ</he></cite> a. <cite ref=\"C00690\"><he>גִּיחַ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגִּיהַּ"],
+			"senses": [
+				{
+					"gloss": "<i>to shed light</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 38\">Pirké d’R. El. ch. XXXVIII</cite>; <cite ref=\"Yalkut Shimoni on Nach 18\">Yalk. Josh. 18</cite> [read:] <he>היתה אבנו מַגִּיהָה את אורה</he> its (the tribe’s) jewel shed its light; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <i>Hif.</i> of <cite ref=\"N00065\"><he>נָבַט</he></cite>) <i>to look over; to revise</i> a manuscript, <i>to correct, restore</i> (when faded). ",
+					"units": [
+						"<cite ref=\"Berakhot 13a:24\">Ber. 13ᵃ</cite> <he>בקורא להַגִּיהַּ</he> when he reads for the sake of revising. Y. Sabb. VII, 10ᵇ bot. (in a misplaced passage) <he>אם להגיה כדי להגיה וכ׳</he> (not <he>להגות</he>) if (he carries ink) for the purpose of correcting, (he is guilty when carrying) enough to correct one letter. ",
+						"<cite ref=\"Ketubot 106a:9\">Keth. 106ᵃ</cite> <he>מַגִּיהֵי ספרים וכ׳</he> the official revisers of Biblical manuscripts; Y. Shek. IV, 48ᵃ top <he>מַגִּיהֵי ספר העזרה</he> (Bab. ed. Var. <cite ref=\"P00426\"><he>עזרא</he></cite>, v. Rabb. D. S. a. l. note) the revisers of the Temple manuscript. ",
+						"<cite ref=\"Mishnah Moed Katan 3:4\">M. Kat. III, 4</cite> (<cite ref=\"Moed Katan 18b:24\">18ᵇ</cite>) <he>אין מַגִּיהִין אות אחת אפי׳ בספרי העזרה</he> Ms. M. (ed. <he>בספר עזרא</he>, v. Rabb. D. S. a. l. note) we dare not (during the festive week) correct (restore) one letter even in the Temple books (ed. in the manuscript named after Ezra). ",
+						"<cite ref=\"Mishnah Megillah 2:2\">Meg. II, 2</cite> <he>היה … ומַגִּיהָהּ</he> if he recited the Book of Esther while he was writing or teaching or correcting it; a. fr.—Part. pass. <he>מוּגָּהּ</he> <i>revised, correct</i>. ",
+						"<cite ref=\"Pesachim 112a\">Pes. 112ᵃ</cite> <he>כשאתה … למדהו בספר מ׳</he> when thou teachest thy son, teach him from a corrected book. ",
+						"<cite ref=\"Ketubot 19b:4\">Keth. 19ᵇ</cite> <he>ספר שאינו מ׳</he> an unrevised Bible manuscript."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"id": "H00498",
+	"slug": "חותם",
+	"headword": {
+		"text": "חוֹתָם"
+	},
+	"page": {
+		"number": 441,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01899\"><he>חָתַם</he></cite>)<i>seal, stamp, die; enclosure locked up with a mark</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:5\">Sabb. VIII, 5</cite> <he>כח׳ המרצופין</he> as much sealing clay as required for a seal on bags. ",
+				"<cite ref=\"Mishnah Shabbat 8:5\">Ib.</cite> <he>ח׳ האיגרות</he> seal on letters. ",
+				"<cite ref=\"Mishnah Sanhedrin 4:5\">Snh. IV, 5</cite> <he>אדם טובע … בח׳ אחד</he> a human being prints many coins from one die &c., but the Lord <he>טבע … בחוֹתָמוֹ של וכ׳</he> stamped every human being with the die of Adam, and yet not one is like the other; Y. ib. IV, 22ᵇ bot. <he>מח׳ וכ׳</he>. ",
+				"<cite ref=\"Shabbat 58a:8\">Sabb. 58ᵃ</cite> <he>העבד בח׳ שבצוארו</he> the slave with the mark hanging down from his neck, <he>בח׳ שבכסותו</he> with the mark tied to his garment; a. fr.—Trnsf. <i>sexual innocence; purity</i>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 766\">Yalk. Num. 766</cite>, v. infra.—Pl. <he>חוֹתָמוֹת</he>, <he>חוֹתָמִים</he>. Y. Snh. l. c.—",
+				"<cite ref=\"Beitzah 31b:10\">Bets. 31ᵇ</cite> <he>ח׳ שבקרקע וכ׳</he> knots which serve as marks on doors of subterranean stores, may be untied &c.; a. e.—Tan. d’be El. ch. XX, <he>בחוֹתָמֵיהֶן</he> in their innocence."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>lock</i>,] <i>the oblate side of a berry to which the stalk is attached</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:3:2\">Y. Ab. Zar. V, 44ᵈ</cite> top. ",
+				"<cite ref=\"Mishnah Tahorot 10:5\">Toh. X, 5</cite> <he>גרגר … ח׳</he> a single berry, if its oblate part with the stalk is intact; <cite ref=\"Tosefta Tahorot 11:10\">Tosef. ib. XI, 10</cite>. ",
+				"<cite ref=\"Tosefta Tahorot 11:10\">Ib.</cite> <he>מקום ח׳</he> the place where the stalk (now torn out) was seated (and where now juice is oozing out)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the membraneous enclosure separating the stone of a date from its flesh, pericarp</i> (as far as not eatable). ",
+			"units": [
+				"<cite ref=\"Tosefta Chullin 1:23\">Tosef. Ḥull. I, 23</cite> <he>הח׳ טמא ביבשה</he> quot. by R. S. to <cite ref=\"Mishnah Oktzin 2:2\">Ukts. II, 2</cite> (ed. Zuck. <he>הח׳</he> omitted; oth. ed. <he>הזיתים</he> in place of the preceding <he>העמים</he>) the pericarp is counted in with the unclean matter in dry dates; Ukts. l. c. <he>ח׳ של יבשה</he> R. S. (ed. a. Maim. <cite ref=\"H00496\"><he>חותל</he></cite>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>concluding formula of prayers</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 2:3\">Taan. II, 3</cite> <he>חוֹתָמֵיהֶן</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:23\">Y. Ber. I, 3ᵈ</cite> bot. <he>חוֹתְמוֹתֵיהֶן</he>, v. <cite ref=\"H00902\"><he>חִיתּוּם</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

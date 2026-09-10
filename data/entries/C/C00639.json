@@ -1,0 +1,33 @@
+{
+	"id": "C00639",
+	"slug": "גידוע",
+	"headword": {
+		"text": "גִּידּוּעַ"
+	},
+	"page": {
+		"number": 235,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גדע</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>felling</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:4:11\">Y. Ab. Zar. IV, 44ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 7:5\">Deut. VII, 5</cite>).—Pl. <cite ref=\"C00638\"><he>גִּידּוּעִין</he></cite>, constr. <cite ref=\"C00639\"><he>גִּידּוּעֵי</he></cite>. Bab. ",
+				"<cite ref=\"Avodah Zarah 45b:10\">Ab. Zar. 45ᵇ</cite> <he>ג׳ ע״א</he> the execution of the laws concerning the destruction of objects used for idolatry."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that which grows out of a stump;</i> cmp. <cite ref=\"C00571\"><he>גֶּזַע</he></cite>. Ib. <he>שגִּידּוּעוֹ אסור וכ׳</he> the fresh growth of which is forbidden while the root is permitted; 48ᵃ",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

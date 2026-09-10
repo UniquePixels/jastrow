@@ -1,0 +1,30 @@
+{
+	"id": "I00756",
+	"slug": "טרטימר",
+	"headword": {
+		"text": "טַרְטֵימַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַרְתֵּ׳"
+		},
+		{
+			"text": "תַּרְטֵ׳"
+		}
+	],
+	"page": {
+		"number": 552,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τριτημόριον, S.) <i>triens, one third of an as</i>, a <i>coin</i> and a <i>weight</i> (about three ounces). ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 8:2\">Snh. VIII, 2</cite> <he>ט׳ בשר</he> (Bab. ed. 70ᵃ <cite ref=\"V00001\"><he>ת׳</he></cite>; Ms. F. <he>ט׳</he>, in Gemarah <cite ref=\"I00716\"><he>טרדימר</he></cite>; Y. Mish. <cite ref=\"I00756\"><he>טרת׳</he></cite>, Gemarah 26ᵃ <he>טרט׳</he>) a triens (worth?) of meat. Ib. 70ᵃ (<cite ref=\"V00001\"><he>ת׳</he></cite>) <he>ט׳ זה וכ׳</he> I do not know what this <i>ṭarṭemar</i> means, but judging from R. José doubling the standard for wine, it may be inferred that <i>ṭ</i>. is half a Manah; Y. l. c. <he>ט׳ חצי ליטרא</he> <i>ṭ</i>. is half a Litra. (V. Zuckerm. Talm. Münzen p. 8)."
+			]
+		}
+	]
+}

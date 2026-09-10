@@ -1,0 +1,23 @@
+{
+	"id": "S00543",
+	"slug": "קוצר",
+	"headword": {
+		"text": "קוֹצֶר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1340,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"S00543\"><he>קֹצֶר</he></cite>; <cite ref=\"S01844\"><he>קָצַר</he></cite>)<i>shortness</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 8\">Deut. R. s. 8</cite>, beg. [in a gloss] <he>הרבה … או מק׳ שהיה וכ׳</he> it often happens that one did not take the time to pray, either from shortness(of time), because he was busy with his affairs &c.; [Matt. K. suggests <he>מק׳ או שהיה וכ׳</he> from <i>indisposition</i>, or because &c.; cmp. <cite ref=\"S01826\"><he>קְצִירָא</he></cite>]."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "S00904",
+	"slug": "קיטופא",
+	"headword": {
+		"text": "קִיטּוּפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטּ׳"
+		}
+	],
+	"page": {
+		"number": 1357,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"S00903\">preced.</cite>) <i>plucking, sudden death</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:12\">Targ. Cant. II, 12</cite> <he>קִטּוּף בוכריא</he> death of the firstborn (h. text <he>הזמיר</he>)."
+			]
+		}
+	]
+}

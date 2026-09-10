@@ -1,0 +1,39 @@
+{
+	"id": "N00616",
+	"slug": "ניגון",
+	"headword": {
+		"text": "נִיגּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִגּ׳"
+		}
+	],
+	"page": {
+		"number": 902,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00168\"><he>נָגַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>playing on a musical instrument; use of the root</i> <he>נגן</he>. ",
+			"units": [
+				"<cite ref=\"Pesachim 117a\">Pes. 117ᵃ</cite>; Y. Succ. III, 54ᵃ top; Y. Meg. I, 72ᵃ top; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>musical accent, melodiousness</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:11\">Cant. R. to IV, 11</cite> <he>בעינוגו ובנִיגּוּנוֹ</he>, v. <cite ref=\"P00608\"><he>עִינּוּג</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

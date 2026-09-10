@@ -1,0 +1,22 @@
+{
+	"id": "P01440",
+	"slug": "ערצוביא",
+	"headword": {
+		"text": "עַרְצוּבְיָא"
+	},
+	"page": {
+		"number": 1123,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"A03050\"><he>אַרְזְבוֹנִית</he></cite>) a species of <i>locusts</i> (cmp. ἐρυσίβη, LXX <cite ref=\"Joel 1:4\">Joel I, 4</cite>; <cite ref=\"Joel 2:25\">II, 25</cite> for <he>חסיל</he>; <cite ref=\"Deuteronomy 28:42\">Deut. XXVIII, 42</cite> for <he>צלצל</he>). ",
+			"units": [
+				"<cite ref=\"Chullin 65a\">Ḥull. 65ᵃ</cite>; Sifra Sh’mini, Par. 3, ch. V (differ. from <cite ref=\"A03050\"><he>ארזבונית</he></cite>)."
+			]
+		}
+	]
+}

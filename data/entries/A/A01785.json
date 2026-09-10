@@ -1,0 +1,36 @@
+{
+	"id": "A01785",
+	"slug": "אלה-6",
+	"headword": {
+		"text": "אַלָּה"
+	},
+	"page": {
+		"number": 66,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.  ",
+			"units": [
+				"<cite ref=\"Joshua 24:26\">Josh. XXIV, 26</cite>; v. <cite ref=\"A01956\"><he>אַלָּתָא</he></cite>) [pointed, prominent] "
+			]
+		},
+		{
+			"gloss": "<i>lance, fork</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:8\">Kel. XVI, 8</cite> <he>חפוי הא׳</he>, v. <cite ref=\"H01424\"><he>חִפּוּי</he></cite>. ",
+				"<cite ref=\"Pesachim 57a:8\">Pes. 57ᵃ</cite> <he>אוי לי מֵאַלָּתָן</he> woe to me (I am afraid) of their fork (weapon). ",
+				"<cite ref=\"Mishnah Shabbat 6:3\">Sabb. VI, 3</cite> (<cite ref=\"Shabbat 63a:11\">63ᵃ</cite>) ed. (Ms. <cite ref=\"A01770\"><he>אלא</he></cite>); Y. ibid. 8ᵇ (expl. <he>דייקרן</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sign-pole</i>, used in the barn as a mark. Ib.; <cite ref=\"Jerusalem Talmud Maasrot 1:4:8\">Y. Maasr. I, 49ᵃ</cite> bot.; <cite ref=\"Tosefta Terumot 3:11\">Tosef. Ter. III, 11</cite> <he>משתיעקר הא׳</he> (ed. Zuck. <he>משיתעשר</he>, corr. acc.) as soon as the sign-pole (fork) is removed (indicating that the grain is ready for use and priestly gifts).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

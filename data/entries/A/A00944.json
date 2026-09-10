@@ -1,0 +1,23 @@
+{
+	"id": "A00944",
+	"slug": "אותיא",
+	"headword": {
+		"text": "אוּתְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 36,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>night-bird, owl</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:18\">Targ. Y. Lev. XI, 18</cite> (<cite ref=\"Targum Jonathan on Leviticus 11:18\">Targ. O. ib.</cite> <he>בותא</he> q. v.; <cite ref=\"Targum Jonathan on Deuteronomy 14:16\">Targ. Y. Deut. XIV, 16</cite> <cite ref=\"R00104\"><he>צַדְיָא</he></cite>). [Perh. corrupt. of <cite ref=\"B00402\"><he>בָּאוְתָא</he></cite> v. <cite ref=\"B00016\"><he>בָּאוָת</he></cite>.]"
+			]
+		}
+	]
+}

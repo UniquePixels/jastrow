@@ -1,0 +1,27 @@
+{
+	"id": "E00319",
+	"slug": "הטליס-1",
+	"headword": {
+		"text": "הַטְלֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוּטְלֵס"
+		}
+	],
+	"page": {
+		"number": 342,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00509\"><he>טלל</he></cite>, v. <cite ref=\"A01092\"><he>אַטְלֵיז</he></cite>) <i>bazaar, shop, public place</i> (cmp. <cite ref=\"H01271\"><he>חָנוּת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19:5\">Gen. R. s. 19</cite>; s. 20 I shall die <he>ואתה יושב לך ה׳</he> (some ed. <cite ref=\"E00318\"><he>הטלים</he></cite>, corr. acc.), and thou wilt sit in public places (with none to care for)?—Pl. <he>הֶטְלֵיסִין</he>, <he>הוּטְ׳</he>. Ib. s. 37 <he>היו מעמידין ה׳</he> (some ed. <he>סון …</he>, corr. acc.) they arranged bazaars (with entertainments) where they would exchange their wives. Ib. s. 79 (ref. to <he>ויחן</he>, <cite ref=\"Genesis 33:18\">Gen. XXXIII, 18</cite>; cmp. <cite ref=\"H01271\"><he>חָנוּת</he></cite>) <he>התחיל מעמיד ה׳ וכ׳</he> he was the first to put up bazaars and sell cheap."
+			]
+		}
+	]
+}

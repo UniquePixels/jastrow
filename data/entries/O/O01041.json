@@ -1,0 +1,32 @@
+{
+	"id": "O01041",
+	"slug": "סלת-1",
+	"headword": {
+		"text": "סָלַת"
+	},
+	"page": {
+		"number": 997,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O00676\"><he>סִילֵּת</he></cite> (denom. of <cite ref=\"O01044\"><he>סֹלֶת</he></cite>) <i>to sift, select, produce fine flour</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Terumot 11:5\">Ter. XI, 5</cite> <he>המְסַלֵּת קב וכ׳</he> he who gets one or two Kab out of one S’ah of wheat. Y. ib. 47ᵈ bot. <he>מסלת בחטים וכ׳</he> the priest may sift out of the (flour of) wheat (of T’rumah) as much as he wants (and abandon the rest). Tanḥ. T’tsavveh 5 <he>וסַלֵּית לי מתוכה וכ׳</he> and get me out of it flour for one loaf (v. <cite ref=\"C00907\"><he>גְּלוּסְקָא</he></cite>) fine and well sifted.—Part. pass. <he>מְסוּלָּת</he>, pl. <he>מְסוּלָּתִים</he>. ",
+						"<cite ref=\"Sifrei Devarim 21\">Sifré Deut. 21</cite> <he>מן … מן המס׳ שבכם</he> out of the chosen, out of the select among you, v. <cite ref=\"B01207\"><he>בָּרוּר</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

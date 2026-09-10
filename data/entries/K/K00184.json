@@ -1,0 +1,40 @@
+{
+	"id": "K00184",
+	"slug": "כובד",
+	"headword": {
+		"text": "כּוֹבֶד"
+	},
+	"page": {
+		"number": 616,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"K00032\"><he>כֹּבֶד</he></cite>; <cite ref=\"K00074\"><he>כָּבֵר</he></cite>)<i>weight, heaviness, pressure</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 63b:12\">Snh. 63ᵇ</cite> <he>א״ת כבודו אלא כּוֹבְדוֹ</he> Ms. M., v. <cite ref=\"K00033\"><he>כָּבֵד</he> II</cite>. ",
+				"<cite ref=\"Yoma 41b:16\">Yoma 41ᵇ</cite> <he>בעי כ׳</he> it requires weight (must be heavy so as to sink into the fire). ",
+				"<cite ref=\"Yoma 41b:20\">Ib.</cite> <he>כדי שיהא בהן כ׳</he> (they are tied together) in order that they may be heavy. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:3\">Y. Ḥag. II, 77ᵈ</cite> <he>צריך לכבוש את כּוֹבְדוֹ</he> (in putting his hands on the sacrifice) he must press his weight on it; (Bab. ",
+				"<cite ref=\"Chagigah 16b:14\">ib. 16ᵇ</cite> <he>סמיכה בכל בחו</he>). ",
+				"<cite ref=\"Nazir 5a:11\">Naz. 5ᵃ</cite> <he>כ׳</he> the feeling of heaviness (of the hair).—כ׳ ראש <i>bending down the head; humble, solemn disposition</i>, opp. <he>קלות ראש</he>. ",
+				"<cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite> <he>אין עומדין … כ׳ ראש</he> we must not rise for prayer in any other than a humble &c. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:4:3\">Y. Ab. Zar. I, 39ᵈ</cite> top; <cite ref=\"Tosefta Avodah Zarah 1:2\">Tosef. Ab. Zar. I, 2</cite> <he>שואל בשלומו בכ׳ ר׳</he> greet him with a bent head (without ostentation). ",
+				"<cite ref=\"Moed Katan 21b:10\">M. Kat. 21ᵇ</cite> <he>בשפה רפה ובכ׳ ר׳</he> in an undertone and with solemnity."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>roller</i> or <i>beam of a loom</i>; <he>כ׳ העליון</he> the upper beam from which the warp depends; <he>כ׳ התחתון</he> the lower beam, the roller on which the web is wound as it advances. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 21:1\">Kel. XXI, 1</cite> (Talm. ed. <cite ref=\"K00032\"><he>כֹּבֶד</he></cite>). ",
+				"<cite ref=\"Mishnah Negaim 11:9\">Neg. XI, 9</cite> (<i>fem.</i>). ",
+				"<cite ref=\"Shabbat 113a:10\">Sabb. 113ᵃ</cite>; Y. ib. XVII, 16ᵃ bot."
+			],
+			"label": "2"
+		}
+	]
+}

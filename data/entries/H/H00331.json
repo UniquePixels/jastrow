@@ -1,0 +1,24 @@
+{
+	"id": "H00331",
+	"slug": "חולדה-2",
+	"headword": {
+		"text": "חוּלְדָּה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 433,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00330\">preced.</cite>; cmp. <cite ref=\"H01000\"><he>חַלּוֹן</he></cite>) <i>a back-gate</i>. <he>חוּלְדַּת המולים</he> <i>the mule-drivers’ gate</i>, entrance for loads. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:18\">Y. Yoma I, 38ᶜ</cite>; <cite ref=\"Jerusalem Talmud Megillah 4:12:5\">Y. Meg. IV, end, 75ᶜ</cite>.—",
+				"<cite ref=\"Mishnah Middot 1:3\">Midd. I, 3</cite> <he>שני שערי ח׳</he> two Temple-Mount gates formed like a <i>ḥuldah;</i> <cite ref=\"Shir HaShirim Rabbah 2:9:4\">Cant. R. to II, 9</cite> <he>שער ח׳</he>."
+			]
+		}
+	]
+}

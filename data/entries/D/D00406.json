@@ -1,0 +1,101 @@
+{
+	"id": "D00406",
+	"slug": "דחי-1",
+	"headword": {
+		"text": "דחי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּחָא"
+		},
+		{
+			"text": "דָּחָה"
+		}
+	],
+	"page": {
+		"number": 291,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"D00397\"><he>דָּחָה</he></cite>)<i>to push away, thrust</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Yoma 4\">Tosef. Yoma IV (III), 14</cite> <he>דְּחָאוֹ ולא מת</he>; Y. ib. VI, 43ᵃ bot. <he>דְּחָייוֹ</he> if the man thrust the goat down the precipice, and it did not die. ",
+				"<cite ref=\"Sanhedrin 107b:7\">Snh. 107ᵇ</cite>, a. e. <he>תהא שמאל דּוֹחָה וכ׳</he> let the left hand repel them and the right invite; a. fr.—Transf. <he>ד׳ בקש</he>, or <he>בקנה</he> <i>to dismiss with a vague or paltry reply</i>. ",
+				"<cite ref=\"Chullin 27b\">Ḥull. 27ᵇ</cite>. Tanḥ. Ḥuck. 8; <cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to expel</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 3:4\">Tosef. Dem. III, 4</cite>; <cite ref=\"Bekhorot 31a\">Bekh. 31ᵃ</cite>; <cite ref=\"Jerusalem Talmud Demai 2:3:7\">Y. Dem. II, 23ᵃ</cite> top, v. <cite ref=\"H00121\"><he>חֲבֵירוּת</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to suspend, make inoperative, supersede</i>. Ohol. VII, 6 <he>אין דּוֹחִין נפש מפני וכ׳</he> we dare not set aside the regard due to one human life for the sake of saving another human life; <cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> <he>כך עושין דוחים וכ׳</he> is it thus one must act? dare you sacrifice one life &c.?—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:8:2\">Y. Snh. VIII, 26ᶜ</cite> top <he>ד׳ את הספק</he> to disregard the doubt the benefit of which is to be given to the criminal.—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:1:2\">Y. Shek. IV, 47ᵈ</cite> bot. <he>דָּחִינוּ אותו וכ׳</he> we postponed it (the fast) to the first day of the week; <cite ref=\"Megillah 5b:2\">Meg. 5ᵇ</cite> <he>דְחִינוּהוּ</he>; <cite ref=\"Eruvin 41a\">Erub. 41ᵃ</cite> <he>דְחִינֻהוּ</he>.—",
+				"<cite ref=\"Mishnah Pesachim 6:1\">Pes. VI, 1</cite> <he>אלו דברים … דוחין וכ׳</he> the following performances needed for the Passover offering take precedence of the Sabbath (cause a suspension of the Sabbath laws); a. v. fr.—<i>Part. pass.</i> <cite ref=\"D00402\"><he>דָּחוּי</he></cite> "
+			],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>pushed, hurried</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 28a:6\">M. Kat. 28ᵃ</cite> <he>מיתה דְחוּיָה</he> a hurried death.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>suspended, superseded</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 7b\">Yoma 7ᵇ</cite>, a. fr. <he>טומאה דְּחוּיָה היא וכ׳</he> the law about levitical purity is only suspended for the sake of an entire community (and its suspension requires atonement), opp. <he>טומאה הותרה</he> the law &c. is inoperative. ",
+						"<cite ref=\"Zevachim 12a:10\">Zeb. 12ᵃ</cite> <he>ד׳ מעיקרו</he> unfit from the start, opp. <he>נראה ונדחה</he>, v. infra.—[<cite ref=\"Yevamot 80b\">Yeb. 80ᵇ</cite>; <cite ref=\"Gittin 57a\">Gitt. 57ᵃ</cite> <cite ref=\"D00226\"><he>דוחה</he></cite>, v. <cite ref=\"D00495\"><he>דִּיהַּ</he></cite>.]"
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְחֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be pushed aside, suspended; to give way</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 5b:2\">Meg. 5ᵇ</cite> <he>הואיל ונ׳ יִדָּחֶה</he> the fast being once suspended (on account of the Sabbath), let it remain so (and not be taken up on Sunday). ",
+						"<cite ref=\"Pesachim 66b:11\">Pes. 66ᵇ</cite> <he>איש נ׳ … ואין צבור נִידָּחִין</he> an individual (if unclean on Passover) is suspended (postpones the celebration) until the second Passover (<cite ref=\"Numbers 9:10\">Num. IX, 10</cite> sq.), but not a community. ",
+						"<cite ref=\"Yoma 64a:5\">Yoma 64ᵃ</cite> <he>בעלי חיים אינן נידחין</he> animals (dedicated for sacrifices) cannot be removed forever from sacred use (as long as the obstacle lies not in their physical unfitness). ",
+						"<cite ref=\"Yoma 64a:6\">Ib.</cite> <he>נראה ונ׳</he> once fit and then discarded (on account of a temporary unfitness).—",
+						"<cite ref=\"Berakhot 64a\">Ber. 64ᵃ</cite> <he>כל הנ׳ … שעה נִדֶּחֶת מפניו</he> to him who gives way to time (yielding patiently to circumstances), time will give way, v. <cite ref=\"D00434\"><he>דָּחַק</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִדְחָה"],
+			"senses": [
+				{
+					"gloss": "<i>to remove hurriedly</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 22a:13\">M. Kat. 22ᵃ</cite> <he>מדְחֶה מיטתו</he> he who is anxious to remove the bier of a relative (hurries the burial)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to thrust</i>. ",
+					"units": [
+						"<cite ref=\"Arakhin 30b:46\">Arakh. 30ᵇ</cite> <he>אַדְחֶה אבן אחר וכ׳</he> Rashi (ed. <he>אידחה</he>, corrupt. of <he>אֲיַדֶּה</he>; Ar. <he>דְּחֵה</he> imperat. Kal) I will throw a stone after the fallen man (not give the sinner a chance to return). [<cite ref=\"Nazir 16b\">Naz. 16ᵇ</cite> <he>מדחין בה</he> Ar., read with ed. <he>כדהוינן בה</he>.] [<cite ref=\"Tosefta Tahorot 8:8\">Tosef. Toh. VIII, 8</cite> <he>המדחה</he>, v. <cite ref=\"J00301\"><he>יָּחַס</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

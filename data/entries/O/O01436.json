@@ -1,0 +1,24 @@
+{
+	"id": "O01436",
+	"slug": "ספרקין",
+	"headword": {
+		"text": "סְפַרְקִין"
+	},
+	"page": {
+		"number": 1018,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<i>Saf.</i> of <he>פרק</he>; cmp. <cite ref=\"A00589\"><he>אַוְורַקְסִין</he></cite>) a sort of <i>trousers</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 120a:8\">Sabb. 120ᵃ</cite>; Y. ib. XVI, 15ᵈ <cite ref=\"O00095\"><he>סַבְרִיקִין</he></cite> (<cite ref=\"B01314\"><he>ברק</he></cite> = <he>פרק</he>; cmp. <he>בקר</he> = <he>פקר</he>). ",
+				"<cite ref=\"Mishnah Kelim 29:2\">Kel. XXIX, 2</cite> <cite ref=\"O00240\"><he>סוּבְרִיקִין</he></cite> (Var. <cite ref=\"O00276\"><he>סַוְורִיקִין</he></cite>, <cite ref=\"O01433\"><he>ספְרִיקִין</he></cite>); Sifra M’tsor‘a, Neg., Par. 7, ch. V. <cite ref=\"O00095\"><he>סַבְרִיקִים</he></cite>."
+			]
+		}
+	]
+}

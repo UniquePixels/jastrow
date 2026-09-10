@@ -1,0 +1,37 @@
+{
+	"id": "P01198",
+	"slug": "עקם",
+	"headword": {
+		"text": "עֲקַם"
+	},
+	"page": {
+		"number": 1107,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", ch. <cite ref=\"P01197\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:10\">Y. Taan. IV, 68ᵃ</cite>; <cite ref=\"Kohelet Rabbah 7:7\">Koh. R. to VII, 7</cite> <he>הוינא עָקֵים וכ׳</he>, v. <cite ref=\"A02408\"><he>אִסְטְרָטָא</he></cite>.—Part. pass. <cite ref=\"P01178\"><he>עָקִים</he></cite>, q. v., fr. which <he>עֲקִימִית</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 38:7\">Targ. Ps. XXXVIII, 7</cite> (h. text <he>נעויתי</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַקֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to curve, wind</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 59:8\">Targ. Is. LIX, 8</cite> (ed. Wil. <cite ref=\"P01150\"><he>עֲקִי׳</he></cite> <i>Pe.</i>; h. text <he>עקשו</he>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 10:9\">Targ. Prov. X, 9</cite> <he>דמְעַקֵּם</he> Regia (ed. <he>דמְעַקְּמָן</he>, v. infra; Bxt. <he>דמְעַקֵּל</he>). ",
+						"<cite ref=\"Targum Jonathan on Micah 3:9\">Targ. Mic. III, 9</cite>; a. e.—Part. pass. <he>מְעַקַּם</he>; f. <he>מְעַקְּמָא</he>; pl. <he>מְעַקְּמָן</he> <cite ref=\"Aramaic Targum to Proverbs 2:15\">Targ. Prov. II, 15</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 10:9\">Ib. X, 9</cite> (ed. Ven. <he>דמעק מן</he>, corr. acc.), v. supra."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

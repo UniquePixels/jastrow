@@ -1,0 +1,34 @@
+{
+	"id": "R00196",
+	"slug": "צום-1",
+	"headword": {
+		"text": "צוּם"
+	},
+	"page": {
+		"number": 1267,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = b. h. <cite ref=\"R00196\"><he>צוּם</he></cite> (cmp. <cite ref=\"R00583\"><he>צמם</he></cite>) <i>to restrain one’s self; to fast</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 12:16\">Targ. II Sam. XII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 23:29\">Targ. Y. Lev. XXIII, 29</cite>; a. fr.—Part. <he>צָאֵים</he>, <cite ref=\"R00196\"><he>צָיֵים</he></cite>; f. <he>צָיְימָא</he>, <he>צָיְמָא</he>; pl. <he>צָיְימִין</he>, <he>צָיְמִ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 12:23\">Targ. II Sam. XII, 23</cite>. Targ. Y. II, Lev. l. c.; a. fr.—Y. Ḥall. I, 57ᶜ top <he>צָם תרי יומין</he> fasted two days (observed the Day of Atonement two days). Y. Kil. IX, 32ᵇ bot.—",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot. <he>הוות צָיְימָה ומפרסמה</he> she used to fast and make it public; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַיֵּים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00195\">same</cite>. Targ. Y. Lev. l. c.—Y. Ned. VIII, 40ᵈ bot. <he>צ׳ כל ערובת וכ׳ … ר׳</he> R. J. fasted every New Year’s eve; <cite ref=\"Yoma 2a\">ib.</cite> <he>צ׳ … דצומין</he> observed three hundred voluntary fasts; Y. Meg. I, 70ᵈ top (also <cite ref=\"R00552\"><he>צם</he></cite>). Y. Sot. III, 19ᵃ <he>מְצַיְּימָה</he> (<cite ref=\"F00000\"><he>ו</he></cite>)<he>אובדת וכ׳</he> she fasts and loses her virginity; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"id": "U00279",
+	"slug": "שדף-1",
+	"headword": {
+		"text": "שָׁדַף"
+	},
+	"page": {
+		"number": 1525,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>דפף</he> , s. v. <cite ref=\"D00952\"><he>דַּף</he></cite>) <i>to knock;</i> (of grain) <i>to blast</i>. Pesik. ʿAsser, p. 99ᵇ [read:] <he>רוח אחת … והיא שׁוֹדְפַתָּן</he> I send one east wind, and it blasts them; <cite ref=\"Yalkut Shimoni on Torah 892:1\">Yalk. Deut. 892</cite> <he>שדפתן</he> (corr. acc.); Tanḥ. R’eh 17 <he>ומְשַׁדַּפְתָּן</he>; <cite ref=\"Pesikta Rabbati 25:1\">Pesik. R. s. 25</cite> <he>ושׁוֹדֶפֶת</he>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁדֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00278\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִשְׁדַּף"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִשְׁתַּדֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be blasted</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 9:6\">B. Mets. IX, 6</cite> <he>המקבל … או נִשְׁדְּפָה</he> if one tenanted a field …, and the locust ate it up, or it was blasted. ",
+						"<cite ref=\"Bava Metzia 105b:15\">Ib. 105ᵇ</cite> <he>כגון שנִשְׁתַּדְּפוּ ארבע וכ׳</he> (it is considered a regional calamity,) if for instance four fields on four sides of that in litigation have been struck with blast. ",
+						"<cite ref=\"Bava Metzia 105b:16\">Ib.</cite> <he>נ׳ תלם אחד וכ׳</he> if one furrow over the whole length of it was struck. Y. M. Kat. III, 81ᵈ top <he>כל מקום … היה נִשְׁדָּף</he> every spot on which his eye looked was blasted; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

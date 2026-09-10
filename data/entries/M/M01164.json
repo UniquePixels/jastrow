@@ -1,0 +1,33 @@
+{
+	"id": "M01164",
+	"slug": "מילא-4",
+	"headword": {
+		"text": "מִילָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מִילָּה"
+		},
+		{
+			"text": "מִילַּת"
+		}
+	],
+	"page": {
+		"number": 773,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. a species of <i>oak</i> from which the gall-nut is collected (<i>quercus infectoria</i>), or the acorns of which are used as tanning material (<i>quercus aegilops</i> or <i>Oak of Bashan</i>) [not <i>ash-tree</i>]. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 3:7\">Midd. III, 7</cite> <he>מלתראות של מ׳</he> (some ed. <cite ref=\"M01168\"><he>מילה</he></cite>, Maim. <he>מילת</he>) beams of Milla; <cite ref=\"Eruvin 3a:1\">Erub. 3ᵃ</cite> Ms. M. (ed. <cite ref=\"M01168\"><he>מילה</he></cite>); <cite ref=\"Vayikra Rabbah 17:1\">Lev. R. s. 17</cite>, beg.—[<cite ref=\"Tosefta Shevi'it 5:3\">Tosef. Shebi. V, 3</cite> <he>עלי מילת</he> leaves of the Millath (prob. used for steeping in wine or oil). ",
+				"<cite ref=\"Tosefta Shevi'it 5:3\">Ib.</cite> (missing in ed. Zuck.) <he>עיקר מלת</he> the real Millath-nut(?).]—Pl. <he>מִילִּין</he>. Ib. VII, 11; Y. ib. IX, 38ᵈ bot.; <cite ref=\"Pesachim 53a:8\">Pes. 53ᵃ</cite> <he>סימן להרים מ׳</he> an indication of highlands is the growth of Milla-trees.—מֵי מ׳ <i>a solution of acorns</i>; also <i>a solution of gall-nuts</i>. ",
+				"<cite ref=\"Gittin 19a:15\">Gitt. 19ᵃ</cite> (v. <cite ref=\"A02773\"><he>אֲפַץ</he></cite>) <he>שאין מי מ׳ על גבי מי מ׳</he> (Ar. <he>ע״ג מ׳</he>) for a tanned ink will not take on a tanned hide. Y. ib. II, 44ᵇ top: when one desires to write a secret letter to his friend, <he>הוא כתב במי מ׳ והך דמקבל וכ׳</he> he writes with a solution of gall-nut, and the recipient of the letter pours over it untanned ink which settles on the writing."
+			]
+		}
+	]
+}

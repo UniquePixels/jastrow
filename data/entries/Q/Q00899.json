@@ -1,0 +1,27 @@
+{
+	"id": "Q00899",
+	"slug": "פיתח-1",
+	"headword": {
+		"text": "פִּיתֵּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּתֵּ׳"
+		}
+	],
+	"page": {
+		"number": 1173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02143\"><he>פָּתַח</he></cite>) <i>open-eyed, seeing</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 17b\">Arakh. 17ᵇ</cite>; <cite ref=\"Bava Batra 128a:10\">B. Bath. 128ᵃ</cite>, v. <cite ref=\"O01054\"><he>סָמָא</he></cite>."
+			]
+		}
+	]
+}

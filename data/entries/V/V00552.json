@@ -1,0 +1,23 @@
+{
+	"id": "V00552",
+	"slug": "תכספית",
+	"headword": {
+		"text": "תַּכְסָפִית",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1669,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (transpos. of <he>תסכפית</he>; v. <cite ref=\"O00938\"><he>סָכַף</he></cite>) <i>band of oppressors, band of demons</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 51a:13\">Ber. 51ᵃ</cite> <he>ת׳ … של מלאכי חבלה וכ׳</he> a band of demons, and some say, a ‘cluster’ of angels of destruction, v. <cite ref=\"A01412\"><he>אִיסְטַגְלִילִית</he></cite>; [Var. lect., v. Rabb. D. S. a. l.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M01046",
+	"slug": "מטפייתא",
+	"headword": {
+		"text": "מַטְפְּיָיתָא"
+	},
+	"page": {
+		"number": 769,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>טְפֵי</he> II, cmp. <he>טפטף</he>) <i>drippings</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 7) <he>מן מ׳</he> from the nature of the drippings."
+			]
+		}
+	]
+}

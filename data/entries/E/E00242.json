@@ -1,0 +1,28 @@
+{
+	"id": "E00242",
+	"slug": "הומניא",
+	"headword": {
+		"text": "הוּמַנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִי׳"
+		}
+	],
+	"page": {
+		"number": 339,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Humania</i>, [<i>Hymenia</i>, v. Neub. Géogr. p. 367, below Ctesiphon], a town in Babylonia hostile to Jews. ",
+			"units": [
+				"<cite ref=\"Kiddushin 72a:11\">Kidd. 72ᵃ</cite>. ",
+				"<cite ref=\"Kiddushin 72b:3\">Ib. 72ᵇ</cite>; <cite ref=\"Yevamot 16b:8\">Yeb. 16ᵇ</cite> <he>כגון ה׳ וכ׳</he> as hostile as H. against Pum Nahăra. [Ar. ed. Koh. <cite ref=\"E00418\"><he>הימוניא</he></cite>, Ms. O., quoted in Neub. l. c. <cite ref=\"E00434\"><he>הימניא</he></cite>.] [<cite ref=\"Yalkut Shimoni on Nach 795:2\">Yalk. Ps. 795</cite> <he>הומני׳</he>, v. <cite ref=\"E00075\"><he>הֶגְמוֹנְיָא</he></cite>.]"
+			]
+		}
+	]
+}

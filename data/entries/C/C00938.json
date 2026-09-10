@@ -1,0 +1,28 @@
+{
+	"id": "C00938",
+	"slug": "גליגאס",
+	"headword": {
+		"text": "גַּלִּיגָאס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּלִּיגָס"
+		}
+	],
+	"page": {
+		"number": 248,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (caliga, adopted fr. acc. pl. caligas) <i>nail-studded shoe of the Roman soldier</i>.—Pl. <he>גַּלִּיגָאסִין</he>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 7</cite> [read:] <he>ועשו מסמרות של גליאסין שלהן רושם בארץ</he> and the nails of their shoes left marks in the Temple floor. [Vers. in Ar.: <he>ועושין רושם במסמרות הגלגוסיים בקרקע ביהמ״ק</he>.]"
+			]
+		}
+	]
+}

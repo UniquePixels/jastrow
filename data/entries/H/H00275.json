@@ -1,0 +1,24 @@
+{
+	"id": "H00275",
+	"slug": "חוורולין",
+	"headword": {
+		"text": "חַוְורוּלִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 430,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (cmp. <cite ref=\"H01626\"><he>חָרוּל</he></cite>) <i>thistles</i>, used for bitter herb (<cite ref=\"M02605\"><he>מָרוֹר</he></cite>); cmp. <cite ref=\"H01656\"><he>חַרְחַלִּין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesachim 39a\">Pes. 39ᵃ</cite> Ar. (ed. <he>חזרת יולין</he>, Ms. M. <he>חזרת אלין</he>, Ms. M. 2 <he>היובלין</he>, Ms. O. <he>הארולין</he>, v. Rabb. D. S. a. l. note); Tosef. ib. I (II), 33 <cite ref=\"H00274\"><he>חוורוור</he></cite> ed. Zuck. (Var. <cite ref=\"H01603\"><he>חרדל</he></cite>, prob. corrupt., for <cite ref=\"H01626\"><he>חָרוּל</he></cite>)."
+			]
+		}
+	]
+}

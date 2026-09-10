@@ -1,0 +1,34 @@
+{
+	"id": "T00965",
+	"slug": "רפש-2",
+	"headword": {
+		"text": "רָפַשׂ"
+	},
+	"page": {
+		"number": 1492,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) = <cite ref=\"T00952\"><he>רָפַס</he></cite>, <i>to tread, stamp, press</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15<sup>22</sup></cite> <he>ר׳ הענבים ובעט ראשון ראשון</he> he packed the grapes and stamped one instalment after the other (thus making room for the grapes still in the vineyard).—Trnsf. <i>to conquer, vanquish</i>. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 13</cite> <he>כמה רפשים עשית עד שרְפַשְׂתִּיו בידיך</he> (not <he>עשיתי</he>) how many conquests didst thou attempt, before I brought him within thy power?; Midr. Sam. ch. XXIV <he>כמה רפשים עשיתה … עד שלא רפשתיו בידך</he> (not <cite ref=\"B00553\"><he>בידו</he></cite>). Tanḥ. Vayishl. 4 <he>לשר הגדול ר׳</he> he vanquished the great chief (archangel). Ib. 2 <he>נטל … ורְפָשׂוֹ</he> (not <he>ורפש</he>) he seized the archangel and conquered him. Tanḥ. Vayḥi 6 <he>ידי … שרָפְשָׂה לשר וכ׳</he> dost thou attempt to remove my hand which vanquished the chief of the angels?; <cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> <he>והאיך זו תפשה לשר וכ׳</he>, read: <he>והא ידי זו רפשה וכ׳</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְפִּישׂ"],
+			"senses": [
+				{
+					"gloss": ", with <he>עצמו</he>, <i>to let one’s self be trodden upon, to surrender</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 3:6\">Cant. R. to III, 6</cite> <he>וה׳ עצמו תחתיו</he> he surrendered himself to him; <cite ref=\"Bereishit Rabbah 77\">Gen. R. s. 77</cite> <he>וה׳ עצמו לפניו</he>; <cite ref=\"Yalkut Shimoni on Torah 132:1\">Yalk. ib. 132</cite> <he>והרעיש</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

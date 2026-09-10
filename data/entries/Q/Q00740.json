@@ -1,0 +1,25 @@
+{
+	"id": "Q00740",
+	"slug": "פיס-1",
+	"headword": {
+		"text": "פַּיִס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיס"
+		}
+	],
+	"page": {
+		"number": 1166,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q00655\"><he>פַּיִיס</he></cite>), v. <cite ref=\"Q00753\"><he>פִּיסְטִין</he></cite>.—[Pl. <cite ref=\"Q00760\"><he>פִּיסִּים</he></cite>, <cite ref=\"Q00760\"><he>פִּיסִּין</he></cite> q. v.]",
+			"units": []
+		}
+	]
+}

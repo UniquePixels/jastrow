@@ -1,0 +1,29 @@
+{
+	"id": "S01702",
+	"slug": "קפדן",
+	"headword": {
+		"text": "קַפְדָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹפְדָן"
+		}
+	],
+	"page": {
+		"number": 1398,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01701\">preced.</cite> wds.) <i>hot-tempered, impetuous</i>, opp. <cite ref=\"P00965\"><he>עִנְוְתָן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:5\">Ab. II, 5</cite> <he>לא הק׳ מלמד</he> (Ar. <he>הקו׳</he>) an impatient man cannot be a teacher. ",
+				"<cite ref=\"Shabbat 30b:12\">Sabb. 30ᵇ</cite> bot., v. <cite ref=\"P00965\"><he>עִנְוְתָן</he></cite>; <cite ref=\"Avot D'Rabbi Natan 15:2\">Ab. d’R. N. ch. XV</cite>. ",
+				"<cite ref=\"Sanhedrin 113a\">Snh. 113ᵃ</cite> sq. (in Chal. dict.) <he>אבא אליהו ק׳ הוה</he> father Elijah (the prophet) was hot-tempered (dealing with Ahab too severely); <he>א״ל ק׳ קרית לי … דקא קפיד מר</he> said he (Elijah) to him, thou didst call me hot-tempered! Said he, this very case before us proves it, for thou art resentful; a. e."
+			]
+		}
+	]
+}

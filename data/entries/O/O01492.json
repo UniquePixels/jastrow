@@ -1,0 +1,42 @@
+{
+	"id": "O01492",
+	"slug": "סקף-1",
+	"headword": {
+		"text": "סָקַף"
+	},
+	"page": {
+		"number": 1021,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Saf. of <cite ref=\"N01233\"><he>נ־קף</he></cite>, v. <cite ref=\"N01235\"><he>נָקַף</he> II</cite>) <i>to go around</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְתַּקֵּף"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִסְתַּקֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to come in turn; to be arranged; to happen</i> (cmp. <cite ref=\"O00033\"><he>סִבָּה</he></cite>); ",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (of persons) <i>to turn around;</i> (= <cite ref=\"E00740\"><he>נהפך</he></cite>) <i>to change</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 349\">Sifré Deut. 349</cite> ed. Fr. <he>נִסְתַּקְּפָה</he>, v. <cite ref=\"O01480\"><he>סְקִיפַנְטְיָא</he></cite>; ed. Radwill a. oth. <he>סקפנטיס נִיסְתַּקַּפְתָּ לו</he> (not <he>טום …</he>) thou hast turned informer against him; <cite ref=\"Yalkut Shimoni on Torah 954\">Yalk. Deut. 954</cite> <he>תסקופים ניסתקפת לו</he> (some ed. <he>תשק׳</he>, read <he>נִיסתַּקְּפוּ</he>), v. <cite ref=\"V00770\"><he>תּסְקוּפִים</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

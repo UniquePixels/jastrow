@@ -1,0 +1,35 @@
+{
+	"id": "K00487",
+	"slug": "כיבוש-2",
+	"headword": {
+		"text": "כִּיבּוּשׁ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כֵּבַשׁ"
+		},
+		{
+			"text": "כֵּיבַשׁ"
+		}
+	],
+	"page": {
+		"number": 630,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"K00082\"><he>כְּבַשׁ</he></cite> 3) <i>fastening, connection, hammering in, welding</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:29\">Targ. I Kings VII, 29</cite> <he>עובד כ׳</he> welding work (h. text <cite ref=\"M00620\"><he>מורד</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:30\">Ib. 30</cite> <he>ככְבַשׁ</he> constr. (h. text <cite ref=\"M02055\"><he>מֵעֵבֶר</he></cite>!). ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:36\">Ib. 36</cite> (<cite ref=\"K00151\"><he>כֵּי׳</he></cite>) <he>כֵּבַשׁ חד</he> one connected body (h. text <he>כמער איש</he>).—Pl. <he>כִּיבּוּשִׁין</he>. ",
+				"<cite ref=\"Onkelos Exodus 27:10\">Targ. Ex. XXVII, 10</cite>, a. e. <i>sockets</i> for the hooks (h. text <he>חֲשֻׁק־</he>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:33\">Targ. I Kings VII, 33</cite> <i>naves</i> (h. text <he>חִשֻּׁר־</he>)."
+			]
+		}
+	]
+}

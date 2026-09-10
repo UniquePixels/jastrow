@@ -1,0 +1,24 @@
+{
+	"id": "K00247",
+	"slug": "כוך-1",
+	"headword": {
+		"text": "כּוּךְ"
+	},
+	"page": {
+		"number": 619,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>כוכו</he>, v. <cite ref=\"K00206\"><he>כַּוָּוא</he></cite>) <i>cavity, cave</i>, esp. <i>sepulchral chamber</i>. [<cite ref=\"Taanit 25b:10\">Taan. 25ᵇ</cite> <he>כ׳ המחרישה</he> R. Gersh. (Ms. M. <he>כון</he>, v. Rabb. D. S. a. l. note, ed. <cite ref=\"B01289\"><he>בֶּרֶךְ</he></cite>) the cavity made by the plough.]—Y. B. Bath. III, beg. 13ᵈ <he>חמוכר … בכ׳ חזקה לכל הכ׳</he> if one sells a burial place (<he>קבר</he>) to his neighbor, as soon as the latter has buried one dead in the chamber, he has the possession of the entire chamber; a. e.—Pl. <he>כּוּכִין</he>. ",
+			"units": [
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>קבר … בג׳ כ׳ וכ׳</he> when he buried three dead in three different chambers &c. ",
+				"<cite ref=\"Tosefta Ohalot 17:11\">Tosef. Ohol. XVII, 11</cite> [read:] … <he>שדה … בתוכה היא כשדה כ׳ ואיזו היא שדה כ׳ כל חכ׳ לצדדין</he> a field in which a grave (known to have been there) has disappeared, is like a field of sepulchral chambers. And what is a field &c.? Where you dig out (a square) in the ground, and make chambers in the walls. ",
+				"<cite ref=\"Mishnah Bava Batra 6:8\">B. Bath. VI, 8</cite>; a. e."
+			]
+		}
+	]
+}

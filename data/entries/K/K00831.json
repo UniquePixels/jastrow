@@ -1,0 +1,23 @@
+{
+	"id": "K00831",
+	"slug": "כנגד",
+	"headword": {
+		"text": "כַּנְגַּד",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 648,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. = <cite ref=\"C01089\"><he>גִּנְגִּידִין</he></cite>) a kind of <i>chervil</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite> <he>אניגרון כ׳ וכ׳</he> Ms. M. (ed. <cite ref=\"A00176\"><he>אבנגר</he></cite>, Ar. <he>כנגר</he>; Rashi ed. Sonc. <he>כנגדי</he>, v. Rabb. D. S. a. l.) elaiogaron, <i>kangad</i> and theriacon are good for &c., v. <cite ref=\"C00730\"><he>גִּילּוּיָא</he></cite>. [Ar.: = ḥantal, <i>cucumis colocynthis</i>; Löw Pfl. p. 294: = Κανάρα <i>artichoke</i>.]"
+			]
+		}
+	]
+}

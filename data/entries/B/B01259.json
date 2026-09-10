@@ -1,0 +1,30 @@
+{
+	"id": "B01259",
+	"slug": "ברייא-1",
+	"headword": {
+		"text": "בָּרְיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹרְיָא"
+		}
+	],
+	"page": {
+		"number": 193,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"B00334\"><he>בּוֹרֵא</he></cite> , <i>Creator, God</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:5\">Targ. Prov. XVII, 5</cite> <he>בָּרְיֵהּ</he> his Maker; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:27\">Y. Ber. I, 2ᵈ</cite> <he>איקריה דבָרְיִי</he> the honor of my Maker. ",
+				"<cite ref=\"Bereishit Rabbah 68:2\">Gen. R. s. 68</cite> <he>מה אנא מובד סברי מן בריי</he> why should I give up my hope in my Creator? <cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite> <he>דמי לבָרְיֵיכוֹן</he> is like that of your Maker, v. <cite ref=\"D00190\"><he>דּוּגְמָא</he></cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 2:1:3\">Y. Snh. II, 20ᵃ</cite> top <he>לבירייתכון</he> (corr. acc.). ",
+				"<cite ref=\"Vayikra Rabbah 15\">Lev. R. s. 15</cite> <he>ובוֹרְיָיךְ קאים לך</he> and thy Maker will assist thee; a. fr."
+			]
+		}
+	]
+}

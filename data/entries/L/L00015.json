@@ -1,0 +1,41 @@
+{
+	"id": "L00015",
+	"slug": "לאי-3",
+	"headword": {
+		"text": "לְאִי"
+	},
+	"page": {
+		"number": 686,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"L00014\">same</cite><i>to labor</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 24:13\">Targ. Josh. XXIV, 13</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be tired</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:11\">Targ. O. Gen. XIX, 11</cite> <he>לְאִיוּ</he> ed. Berl. (oth. ed. <he>לְאִיאוּ</he>; Y. <he>אשתלהייו</he>); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִלְּאִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be worn out, to make a vain effort</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 50:8\">Gen. R. s. 50</cite> (ref. to <he>וילאו</he>, Gen. l. c.) <he>אִלְּאוּן</he> they labored in vain (with ref. to <cite ref=\"Isaiah 16:12\">Is. XVI, 12</cite>); <he>אינסון</he> they grew sick (with ref. to <cite ref=\"Isaiah 1:14\">Is. I, 14</cite>); [Yalk. ib. 84 <he>ולעיאו</he> (with ref. to <cite ref=\"Exodus 7:18\">Ex. VII, 18</cite>).—V. <cite ref=\"L00165\"><he>לְהִי</he></cite>, <cite ref=\"L00608\"><he>לְעִי</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

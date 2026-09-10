@@ -1,0 +1,64 @@
+{
+	"id": "P00376",
+	"slug": "עות-4",
+	"headword": {
+		"text": "עָוַת"
+	},
+	"page": {
+		"number": 1059,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"P00206\"><he>עָוָה</he></cite>) <i>to be curved, crooked</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִוֵּת", "עִיֵּות"],
+			"senses": [
+				{
+					"gloss": "<i>to pervert, wrest; to corrupt</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite> <he>מתוך כך … ומְעַוְּותִין את הדין</he> in consequence (of drinking) they cause the Law to be forgotten, and they pervert judgment. ",
+						"<cite ref=\"Niddah 10b\">Nidd. 10ᵇ</cite> <he>אין בודקות … מפני שמְעַוְּותוֹת אותן</he> (not <he>בודקין</he>) they (the women) must not examine them (the young girls) with the fingers, because they may corrupt them (teach them unnatural gratification; Rashi: they may <i>wound</i> them).—",
+						"<cite ref=\"Kohelet Rabbah 1:15:2\">Koh. R. to I, 15</cite> (ref. to <he>מעות</he> <cite ref=\"Kohelet Rabbah 1:15:2\">ib.</cite>) <he>אם אין אדם מְעַוֵּות עצמו מדברי תורה וכ׳</he> as long as a person (though doing wrong) does not pervert himself through wilful misinterpretation of the Law, there is a remedy for him; <he>משאדם מעוות וכ׳</he> but as soon as a person perverts himself &c.; a. fr.—",
+						"<cite ref=\"Niddah 12b:12\">Nidd. 12ᵇ</cite> (adapting Koh. l. c.) <he>הן עִוְּתוּהָ הן תקנוה</he> they make her crooked (the evidence on the cloths will make her unfit for marital intercourse), and they make her straight (if the evidence is favorable)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to offend, excite displeasure; wound the feelings of</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 97a:9\">Snh. 97ᵃ</cite> <he>יְעַיֵּת</he>; <cite ref=\"Tractate Derekh Eretz Zuta 10:1\">Der. Er. Zut. ch. X</cite> <he>יְעַוֵּות</he> shall be offensive, v. <cite ref=\"A02062\"><he>אָמַר</he> II</cite>. ",
+						"<cite ref=\"Midrash Tehillim 119:23\">Midr. Till. to Ps. CXIX, 78</cite> <he>אע״פ … מְעַוְּתִים אותי וכ׳</he> although the wicked insult me, I do not abandon the Law."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to render offensive, loathsome</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 1:18\">Sifré Deut. 1</cite>; <cite ref=\"Yalkut Shimoni on Torah 792:1\">Yalk. ib. 792</cite> <he>למה אתה מְעַוֵּות עלינו וכ׳</he> why dost thou make the Scriptures loathsome to us (by absurd interpretations)?—<i>Part. pass.</i> <he>מְעֻוָּת</he>, <he>מְעוּוָּת</he>; f. <he>מְעוֶּוּתֶת</he>; pl. <he>מְעוּוָּתִים</he>, <he>מְעוּוָּתִין</he>; <he>מְעִוּוָּתוֹת</he>, <he>מְעֻוָּ׳</he> <i>crooked, perverted, perverse</i>. Koh. R. l. c. <he>בעולם הזה מי שהוא מע׳ וכ׳</he> in this world, he who is crooked may be straightened again (a sinner may amend his ways) &c. ",
+						"<cite ref=\"Shemot Rabbah 2\">Ex. R. s. 2</cite>, beg. (ref. to <cite ref=\"P00805\"><he>עלילות</he></cite>, <cite ref=\"Psalms 103:7\">Ps. CIII, 7</cite>, in contrast to <cite ref=\"Deuteronomy 22:14\">Deut. XXII, 14</cite>) [read:] <he>בשר ודם עלילותיו מע׳ וכ׳</he> the <i>ʿăliloth</i> (machinations) of man are perverse …, but the <i>ʿăliloth</i> (dispositions) of the Lord are merciful; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְעַוֵּות"],
+			"senses": [
+				{
+					"gloss": "<i>to be curved, wrested; to be perverted; to deteriorate</i>. Koh. R. l. c. <he>אין קורין מעוות … ונ׳</he> we do not call a thing perverted, unless it was at a time straight (right), and it became curved. Ib. <he>משנִתְעַיְּותוּ המים וכ׳</he> when the waters dating from creation became deteriorated. ",
+					"units": [
+						"<cite ref=\"Sotah 41b:7\">Sot. 41ᵇ</cite> <he>נִתְעַוְּותוּ הדינין</he> (or <he>הדַּיָּנִין</he>, v. Rashi a. l.) the courts became depraved. ",
+						"<cite ref=\"Sotah 47b:17\">Ib. 47ᵇ</cite> <he>נתעוותו הדינין</he> justice became corrupt; (Tosef. ib. XIV, 3 <he>נתקלקל הדין</he>)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

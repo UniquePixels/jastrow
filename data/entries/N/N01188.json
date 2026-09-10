@@ -1,0 +1,37 @@
+{
+	"id": "N01188",
+	"slug": "נקז-1",
+	"headword": {
+		"text": "נָקַז"
+	},
+	"page": {
+		"number": 931,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"S00680\"><he>קְזַז</he></cite> a. <cite ref=\"N01162\"><he>נָקַד</he> I</cite>) <i>to puncture</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקִּיז"],
+			"senses": [
+				{
+					"gloss": " (mostly with <cite ref=\"D00867\"><he>דָּם</he></cite>) <i>to let blood; to be bled</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 5:2\">Bekh. V, 2</cite> <he>אין מַקִּיזִין לו דם</he> you must not bleed it; <he>יַקִּיז</he> one may &c. ",
+						"<cite ref=\"Shabbat 129a:10\">Sabb. 129ᵃ</cite> <he>ה׳ דם ונצטנן</he> if one feels chilly after having been bled. ",
+						"<cite ref=\"Shabbat 129b:2\">Ib. 129ᵇ</cite> <he>ה׳ דם ועמד</he> if one stands up after &c. ",
+						"<cite ref=\"Avodah Zarah 29a\">Ab. Zar. 29ᵃ</cite>. ",
+						"<cite ref=\"Nedarim 54b:5\">Ned. 54ᵇ</cite> <he>אין מקיזין על וכ׳</he> you must not be bled after having eaten &c. ",
+						"<cite ref=\"Sotah 22b:3\">Sot. 22ᵇ</cite> (expl. <he>פרוש קיזאי</he>) <he>המַקִּיז דם לכתלים</he> who bleeds himself by striking against the walls (walking with closed eyes from sanctimoniousness). ",
+						"<cite ref=\"Berakhot 60a:28\">Ber. 60ᵃ</cite> <he>הנכנס להַקִּיז דם</he> he who enters (the surgeon’s office) to be bled; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

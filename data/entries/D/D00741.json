@@ -1,0 +1,29 @@
+{
+	"id": "D00741",
+	"slug": "דישון",
+	"headword": {
+		"text": "דִּישּׁוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּשּׁוּן"
+		}
+	],
+	"page": {
+		"number": 306,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דשן</he>) <i>removal of ashes, cleaning</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 21a:6\">Yoma 21ᵃ</cite> <he>ד׳ מזבח הפנימי</he> the ashes removed from the inner altar, <he>ד׳ המנורה</he> the snuffs of the candlesticks. ",
+				"<cite ref=\"Yoma 33a:2\">Ib. 33ᵃ</cite> <he>ד׳ מזבח וכ׳</he> the cleaning of &c. ",
+				"<cite ref=\"Mishnah Tamid 3:9\">Tam. III, 9</cite>."
+			]
+		}
+	]
+}

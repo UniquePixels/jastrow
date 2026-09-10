@@ -1,0 +1,43 @@
+{
+	"id": "M02870",
+	"slug": "משיח",
+	"headword": {
+		"text": "מָשִׁיחַ"
+	},
+	"page": {
+		"number": 852,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M02846\"><he>מָשַׁח</he> I)</cite><i>anointed</i>, esp. ",
+			"units": []
+		},
+		{
+			"gloss": " <he>כֹּהֵן מ׳</he> or <he>מ׳</he> (v. <cite ref=\"M02822\"><he>מָשׁוּחַ</he></cite>, s. v. <cite ref=\"M02846\"><he>מָשַׁח</he> I</cite>, v. ",
+			"units": [
+				"<cite ref=\"Leviticus 4:3\">Lev. IV, 3</cite>) <i>the high priest installed by anointment</i>. ",
+				"<cite ref=\"Tosefta Megillah 1:18\">Tosef. Meg. I, 18</cite> <he>כ׳ מ׳ משמש</he> the active high priest; <he>כ׳ מ׳ שעבר</he> the unfitted high priest (prevented from officiating on the Day of Atonement). ",
+				"<cite ref=\"Mishnah Horayot 3:4\">Hor. III, 4</cite> <he>ואיזהו המ׳ המשוח וכ׳</he> what high priest is called <i>mashiaḥ?</i> He who has been anointed &c. Sifra Vayikra, Ḥobah, ch. I, Par. 2, a. e. <he>מ׳ יכול זה המלך</he> by <i>mashiaḥ</i> (<cite ref=\"Leviticus 4:3\">Lev. IV, 3</cite>) you might understand the king. ",
+				"<cite ref=\"Leviticus 4:3\">Ib.</cite> <he>המ׳ זה מ׳ וכ׳</he> ‘the anointed’ means an anointed who has no superior anointed; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>מֶלֶךְ הַמָּ׳</he>, or <he>מָ׳</he> <i>the Messiah, the future redeemer of Israel from captivity</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 2:4\">Gen. R. s. 2</cite> (ref. to <cite ref=\"Genesis 1:2\">Gen. I, 2</cite>) <he>זה רוחו של מ׳ המ׳</he> that means the divine spirit of the king Messiah (with ref. to <cite ref=\"Isaiah 11:2\">Is. XI, 2</cite>). ",
+				"<cite ref=\"Sukkah 52a:2\">Succ. 52ᵃ</cite>, a. fr. <he>מ׳ בן דוד</he> the Davidic Messiah, contrad. to <he>מ׳ בן יוסף</he> the M., son of Joseph, who is to precede the former. ",
+				"<cite ref=\"Sanhedrin 98b:12\">Snh. 98ᵇ</cite> <he>אין מ׳ לישראל וכ׳</he> Israel has no Messiah to expect, for it has enjoyed him (the glory which he was predicted to bring) in the days of Hezekiah. ",
+				"<cite ref=\"Sanhedrin 97a:11\">Ib. 97ᵃ</cite>; a. fr.—<he>ימות המ׳</he> the Messianic epoch. ",
+				"<cite ref=\"Sanhedrin 97a:11\">Ib.</cite> bot. ",
+				"<cite ref=\"Mishnah Berakhot 1:5\">Ber. I, 5</cite> <he>להביא לימות מ׳</he> this includes (the duty of remembering the exodus from Egypt) even in the Messianic days; a. fr.—<he>חבלו של מ׳</he>, v. <cite ref=\"H00088\"><he>חֵבֶל</he></cite>.—Pl. <he>מְשִׁיחִים</he>. ",
+				"<cite ref=\"Pesikta Rabbati 8:1\">Pesik. R. s. 8</cite> (ref. to <cite ref=\"Zechariah 4:3\">Zech. IV, 3</cite>) <he>אלו שני המ׳ אחד משוח מלחמה וכ׳</he> these are the two expected Messiahs, one appointed to conduct war (<he>מ׳ בן יוסף</he>) &c.; <cite ref=\"Yalkut Shimoni on Nach 570:4\">Yalk. Zech. 570</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

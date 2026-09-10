@@ -1,0 +1,29 @@
+{
+	"id": "M00708",
+	"slug": "מזבח",
+	"headword": {
+		"text": "מִזְבֵּחַ"
+	},
+	"page": {
+		"number": 752,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00030\"><he>זָבַח</he></cite>)<i>altar</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 5:1\">Zeb. V, 1</cite>, a. fr. <he>מ׳ החיצון</he>, v. <cite ref=\"H00863\"><he>חִיצוֹן</he></cite> <cite ref=\"Mishnah Tamid 3:1\">Tam. III, 1</cite>, a. fr. <he>מ׳ הפנימי</he> the inner altar (in the interior of the Temple).—",
+				"<cite ref=\"Mishnah Gittin 5:5\">Gitt. V, 5</cite> <he>מפני תקון המ׳</he> in order to prevent neglect of the altar. ",
+				"<cite ref=\"Gittin 55b:1\">Ib. 55ᵇ</cite> <he>שלא יאמרו מ׳ אוכל וכ׳</he> lest people say, the altar receives stolen goods. ",
+				"<cite ref=\"Berakhot 55a:3\">Ber. 55ᵃ</cite>, v. <cite ref=\"K01046\"><he>כָּפַר</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 80:1\">Gen. R. s. 80</cite> <he>כמ׳ כן כהניו</he> as the altar, so are its priests; <cite ref=\"Jerusalem Talmud Sanhedrin 2:6:13\">Y. Snh. II, end, 20ᵈ</cite>; a. v. fr.—",
+				"<cite ref=\"Avodah Zarah 53b:18\">Ab. Zar. 53ᵇ</cite>; <cite ref=\"Tosefta Avodah Zarah 5:2\">Tosef. ib. V</cite> (<cite ref=\"Tosefta Avodah Zarah 6:8\">VI</cite>), 8, a. e. (of an idolatrous altar), v. <cite ref=\"B00630\"><he>בִּימוּס</he></cite>.—Pl. <he>מִזְבְּחוֹת</he>. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <he>הרי אמנו בנתה שבעה מ׳ וכ׳</he> behold, our mother built seven altars and offered seven children on one day (as martyrs of their faith). ",
+				"<cite ref=\"Bamidbar Rabbah 20:18\">Num. R. s. 20</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "J00176",
+	"slug": "יוחאי",
+	"headword": {
+		"text": "יוֹחַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוֹחַי"
+		}
+	],
+	"page": {
+		"number": 568,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Yoḥai</i>, esp. known Y. the father of R. Simeon. ",
+			"units": ["<cite ref=\"Shabbat 33b:9\">Sabb. 33ᵇ</cite>; a. v. fr."]
+		}
+	]
+}

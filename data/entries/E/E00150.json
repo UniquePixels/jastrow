@@ -1,0 +1,36 @@
+{
+	"id": "E00150",
+	"slug": "הדרא",
+	"headword": {
+		"text": "הֲדָרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַדְרָא"
+		}
+	],
+	"page": {
+		"number": 335,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"E00149\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 31:25\">Targ. Prov. XXXI, 25</cite> (Ms. <cite ref=\"E00154\"><he>הַדָּרָה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:28\">Ib. XIV, 28</cite>.—",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 33:17\">Targ. Y. II, Deut. XXXIII, 17</cite>, v. <cite ref=\"E00170\"><he>הֲדַרְתָּא</he></cite>. Y. Maas. Sh. IV, end, 55ᶜ (ref. to a dream about <cite ref=\"A00443\"><he>אֲדָר</he></cite>) <he>בה׳ דאורייתא וכ׳</he> through the glory of the Law thou shalt be raised, cmp. <cite ref=\"A00456\"><he>אִדְרוּתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"E00108\"><he>הַדְרָא</he></cite> = <cite ref=\"E00108\"><he>הֲדוּרָא</he></cite> q. v.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "U01322",
+	"slug": "שליל",
+	"headword": {
+		"text": "שָׁלִיל"
+	},
+	"page": {
+		"number": 1583,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שָׁלַל</he> I, cmp. <cite ref=\"U01302\"><he>שִׁלְיָה</he></cite>) <i>embryo</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 7:1\">Ḥull. VII, 1</cite> <he>נוהג בש׳</he> the law applies to an embryo (a live animal found in the body of the mother). ",
+				"<cite ref=\"Mishnah Zevachim 3:5\">Zeb. III, 5</cite>. ",
+				"<cite ref=\"Zevachim 35b:12\">Ib. 35ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "G00295",
+	"slug": "זיהרא-3",
+	"headword": {
+		"text": "זִיהֲרָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 392,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זהר</he>) [<i>that which is guarded</i>, cmp. <cite ref=\"G00289\"><he>זִיהוּרָא</he></cite> a. <cite ref=\"B00884\"><he>בְּלָמָא</he></cite>;] <i>landed estate</i> (comprising fields, gardens &c., to the exclusion of private dwellings, contrad. to <cite ref=\"N00842\"><he>נכסין</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 61b:12\">B. Bath. 61ᵇ</cite> bot. <he>אי א״ל זִיהֲרִי וכ׳</he> Ms. M. a. oth. (ed. … <he>א</he>) if he said (in the agreement), I sell thee my landed estate, the sale includes even orchards &c."
+			]
+		}
+	]
+}

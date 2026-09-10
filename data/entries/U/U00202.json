@@ -1,0 +1,23 @@
+{
+	"id": "U00202",
+	"slug": "שבתא-2",
+	"headword": {
+		"text": "שְׁבָתָא"
+	},
+	"page": {
+		"number": 1520,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00201\">preced.</cite>) <i>rest, solemn observance</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:23\">Targ. O. Ex. XVI, 23</cite> (h. text <he>שבתון</he>), v. <cite ref=\"U00201\">preced.</cite> ",
+				"<cite ref=\"Onkelos Exodus 31:15\">Ib. XXXI, 15</cite> <he>שַׁבָּא שְׁבָתָא</he> ed. Berl. (ed. Vien. <he>שְׁבַת שַׁבָּתָא</he>; Y. <he>שַׁבַּת שַׁבַּתָּא</he>); a. fr."
+			]
+		}
+	]
+}

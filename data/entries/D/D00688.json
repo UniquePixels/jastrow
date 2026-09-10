@@ -1,0 +1,30 @@
+{
+	"id": "D00688",
+	"slug": "דיץ-2",
+	"headword": {
+		"text": "דִּיץ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּיִץ"
+		},
+		{
+			"text": "דִּיצָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 304,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " m (<cite ref=\"D00687\">preced.</cite>) <i>dance, rejoicing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 32:13\">Targ. Is. XXXII, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 3:22\">Targ. Job III, 22</cite> (h. text <cite ref=\"C00715\"><he>גִּיל</he></cite>); a. e."
+			]
+		}
+	]
+}

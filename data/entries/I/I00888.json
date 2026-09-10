@@ -1,0 +1,36 @@
+{
+	"id": "I00888",
+	"slug": "טרק-2",
+	"headword": {
+		"text": "טְרַק",
+		"homograph": 1
+	},
+	"page": {
+		"number": 557,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00887\">same</cite><i>to stir, mix</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110a:4\">Sabb. 110ᵃ</cite> <he>ולטְרוֹקִינְהוּ בהדי הדדי</he> let him mix them together."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stir up</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 25a\">Taan. 25ᵃ</cite>, v. <cite ref=\"A02531\"><he>אִסְקוּטְלָא</he> I</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (prob. only in) <i>Pa.</i> <cite ref=\"I00887\"><he>טָרֵק</he></cite> <i>to sting, bite</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b:11\">Sabb. 109ᵇ</cite> <he>דטָרְקֵיה חיויא</he> whom a serpent has stung. ",
+				"<cite ref=\"Shabbat 110a:1\">Ib. 110ᵃ</cite>, v. <cite ref=\"H00683\"><he>חִיוֵי</he></cite>; a. fr.—[<cite ref=\"Yoma 77a\">Yoma 77ᵃ</cite>, v. <cite ref=\"M01070\"><he>מַטְרְקָא</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

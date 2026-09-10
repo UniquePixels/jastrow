@@ -1,0 +1,27 @@
+{
+	"id": "A02176",
+	"slug": "אנטיוכוס",
+	"headword": {
+		"text": "אַנְטְיוֹכוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְטְיוֹכָס"
+		}
+	],
+	"page": {
+		"number": 83,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Antiochos</i> (III) of Syria. Targ. II Esth. I, 2. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 23:1\">Gen. R. s. 23</cite>; a. e."
+			]
+		}
+	]
+}

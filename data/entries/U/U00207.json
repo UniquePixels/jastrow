@@ -1,0 +1,31 @@
+{
+	"id": "U00207",
+	"slug": "שגב-1",
+	"headword": {
+		"text": "שָׂגַב"
+	},
+	"page": {
+		"number": 1520,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>גבה</he>)<i>to be high, exalted, strong</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׂגֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to overpower</i> (cmp. <cite ref=\"V00908\"><he>תָּקַף</he></cite>). ",
+					"units": [
+						"<cite ref=\"Temurah 16a:63\">Tem. 16ᵃ</cite> (ref. to <he>לבלתי עצבי</he>, <cite ref=\"I Chronicles 4:10\">I Chr. IV, 10</cite>) <he>שלא יְשַׂגְּבֵנִי … מלשנות</he> that the evil inclination may not have power over me so as to prevent me from studying; <cite ref=\"Yalkut Shimoni on Nach 27:1\">Yalk. Josh. 27</cite> <he>יסגפני</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

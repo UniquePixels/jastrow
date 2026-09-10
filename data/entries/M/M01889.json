@@ -1,0 +1,22 @@
+{
+	"id": "M01889",
+	"slug": "מסחותא",
+	"headword": {
+		"text": "מַסְחוּתָא"
+	},
+	"page": {
+		"number": 805,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00454\"><he>סְחֵי</he></cite>) <i>bath; bath-house</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 33a:7\">Kidd. 33ᵃ</cite> <he>הוה יתיב בי מ׳</he> was sitting in the bath-house; v. <cite ref=\"M01887\"><he>מְסוּתָא</he></cite>."
+			]
+		}
+	]
+}

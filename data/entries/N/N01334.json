@@ -1,0 +1,27 @@
+{
+	"id": "N01334",
+	"slug": "נשמה",
+	"headword": {
+		"text": "נְשָׁמָה"
+	},
+	"page": {
+		"number": 941,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N01333\">preced.</cite>) <i>breath, spirit, soul</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 14:10\">Gen. R. s. 14</cite>, end, v. <cite ref=\"N01084\"><he>נֶפֶשׁ</he></cite>. ",
+				"<cite ref=\"Sanhedrin 52a:25\">Snh. 52ᵃ</cite>, a. e. <he>שריפת נ׳ וגוף וכ׳</he> burning of the breath of life while the body remains intact. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 7:1:5\">Y. Gitt. VII, beg. 48ᶜ</cite> <he>בחזקת שהנ׳ תלויה בו</he> under the presumption that he is still alive. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 7:5:2\">Y. B. Kam. VII, end, 6ᵃ</cite> <he>דבר שהנ׳ תלויה בו</he> a part of an animal’s body the removal of which results in death; a. fr.—Pl. <he>נְשָׁמוֹת</he>. ",
+				"<cite ref=\"Yevamot 62a:17\">Yeb. 62ᵃ</cite>, a. e., v. <cite ref=\"C00457\"><he>גּוּף</he> II</cite>. ",
+				"<cite ref=\"Shabbat 152b:7\">Sabb. 152ᵇ</cite> <he>נִשְׁמוֹתָן של צדיקים</he> (not <he>נשמתן</he>) the souls of the righteous; a. fr."
+			]
+		}
+	]
+}

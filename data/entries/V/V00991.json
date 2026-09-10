@@ -1,0 +1,22 @@
+{
+	"id": "V00991",
+	"slug": "תריכותא",
+	"headword": {
+		"text": "תְּרִיכוּתָא"
+	},
+	"page": {
+		"number": 1698,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V01007\"><he>תְּרַךְ</he></cite>) <i>trouble, anger</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:49\">Targ. Ps. LXXVIII, 49</cite> (h. text <cite ref=\"G00605\"><he>זַעַם</he></cite>)."
+			]
+		}
+	]
+}

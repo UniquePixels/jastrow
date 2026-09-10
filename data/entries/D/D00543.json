@@ -1,0 +1,61 @@
+{
+	"id": "D00543",
+	"slug": "דיור-3",
+	"headword": {
+		"text": "דַּיּוֹר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּיּוֹרָא"
+		},
+		{
+			"text": "דַּיָּר"
+		},
+		{
+			"text": "דַּיָּיר"
+		}
+	],
+	"page": {
+		"number": 297,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (not <cite ref=\"D00763\"><he>דִּי׳</he></cite>) ch. 1) same.) ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"D00542\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 44:18\">Targ. Y. II, Gen. XLIV, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 12:45\">Targ. Y. Ex. XII, 45</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 23:8\">Targ. O. Deut. XXIII, 8</cite> (h. text <cite ref=\"C01225\"><he>גֵּר</he></cite>).—",
+				"<cite ref=\"Bereishit Rabbah 58:6\">Gen. R. s. 58</cite> (expl. <cite ref=\"C01225\"><he>גר</he></cite>, <cite ref=\"Genesis 23:4\">Gen. XXIII, 4</cite>).—Pl. <he>דַּיּוֹרִין</he>, <cite ref=\"D00453\"><he>דַּיָּי׳</he></cite> &c. Targ. Y. Deut. l. c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>traveller, pedlar</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 9b:8\">R. Hash. 9ᵇ</cite>, v. <cite ref=\"D00342\"><he>דּוּר</he></cite> <i>Pa</i>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>proselyte</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 54a:6\">Gitt. 54ᵃ</cite>; <cite ref=\"Bekhorot 30a:11\">Bekh. 30ᵃ</cite> <he>ד׳ בר דַּיַּירְתָּא</he> proselyte son of a proselyte."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "pl. <cite ref=\"D00543\"><he>דַּיּוֹרָאֵי</he></cite>, <he>דַּיּוֹרֵי</he> <i>innkeeper</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 21a:11\">Taan. 21ᵃ</cite>; <cite ref=\"Sanhedrin 109a:2\">Snh. 109ᵃ</cite>.—<i>Fem.</i> <cite ref=\"D00092\"><he>דַּיַּירְתָּא</he></cite> <i>proselyte</i>, v. supra. [<cite ref=\"Jerusalem Talmud Sanhedrin 8:4:2\">Y. Snh. VIII, 26ᵇ</cite> top <he>נסבה דיורין</he>, read <he>דינרין</he>, cmp. Bab. ",
+				"<cite ref=\"Sanhedrin 71a\">Snh. 71ᵃ</cite>.]"
+			],
+			"label": "4"
+		}
+	]
+}

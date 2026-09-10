@@ -1,0 +1,28 @@
+{
+	"id": "A01885",
+	"slug": "אליתא-3",
+	"headword": {
+		"text": "אַלְיְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַלִּיתָא"
+		}
+	],
+	"page": {
+		"number": 70,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"A01839\"><he>אַלְיָה</he></cite> , <i>fat-tail</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 29:22\">Targ. Ex. XXIX, 22</cite>; a. e.—",
+				"<cite ref=\"Chullin 127a:14\">Ḥull. 127ᵃ</cite> <he>בשמתא נרש … ואליתיה</he> excommunicated be Narash with its fat, skin and tail, i.e. all its inhabitants."
+			]
+		}
+	]
+}

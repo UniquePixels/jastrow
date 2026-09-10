@@ -1,0 +1,33 @@
+{
+	"id": "L00096",
+	"slug": "לבן-3",
+	"headword": {
+		"text": "לְבַן"
+	},
+	"page": {
+		"number": 690,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (denom. of <cite ref=\"L00102\"><he>לִבְנָא</he></cite>, cmp. <cite ref=\"A03093\"><he>אֲרִיחַ</he></cite>) <i>to have a strong rest; to be well balanced</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 104a:9\">Sabb. 104ᵃ</cite> <he>מ״ט שקר אחידא כרעיה ואמת מִלְבַּן לַבְנֵי</he> Ms. M. why has the word <cite ref=\"U01894\"><he>שקר</he></cite> one single foot (in the letter <cite ref=\"S00000\"><he>ק</he></cite>), while the letters of <cite ref=\"A02072\"><he>אמת</he></cite> have a level foundation?; (ed. <he>שיקרא אחדא כרעא קאי ואמת מְלַבַּן לִבּוּנֵיה</he> <i>falsehood</i> (<cite ref=\"U01894\"><he>שקר</he></cite>) stands on one leg, while the foundation of <i>truth</i> (<cite ref=\"A02072\"><he>אמת</he></cite>) is level)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לַבֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to found, rest</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 14a:2\">Erub. 14ᵃ</cite> <he>מְלַבֵּין ליה בטינא וכ׳</he> you may form a level rest for it by plastering, partly on this, partly on the other side, so that it will be firm.—Part. pass. <cite ref=\"M01482\"><he>מְלַבַּן</he></cite>, v. supra."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

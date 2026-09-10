@@ -1,0 +1,28 @@
+{
+	"id": "N01174",
+	"slug": "נקובה",
+	"headword": {
+		"text": "נְקוּבָה"
+	},
+	"page": {
+		"number": 931,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. v. <cite ref=\"N01155\"><he>נָקַב</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " בֵּית נְ׳ <i>anus, buttock</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 7:1\">Pes. VII, 1</cite> <he>בית נְקוּבָתוֹ</he>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

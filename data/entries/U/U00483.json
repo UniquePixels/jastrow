@@ -1,0 +1,33 @@
+{
+	"id": "U00483",
+	"slug": "שועי-2",
+	"headword": {
+		"text": "שׁוֹעִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּעִיתָא"
+		}
+	],
+	"page": {
+		"number": 1538,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שְׁעֵי</he> <i>Ithpe.</i>) <i>1</i>) <i>conversation, tale, talk</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 18:27\">Targ. I Kings XVIII, 27</cite> (h. text <he>שיח</he>). ",
+				"<cite ref=\"Targum Jonathan on Judges 7:15\">Targ. Jud. VII, 15</cite> (h. text <he>מספר</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:32\">Targ. Prov. III, 32</cite> (h. text <cite ref=\"O00257\"><he>סוֹד</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 9:11\">Targ. II Kings IX, 11</cite>.—2) <i>derisive talk, sneer, by-word</i>. Targ. ",
+				"<cite ref=\"Habakkuk 2:6\">Hab. II, 6</cite> (ed. Wil. <cite ref=\"U00482\"><he>שַׁוְעֵי</he></cite>; h. text <cite ref=\"M01564\"><he>מְלִיצָה</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 28:37\">Targ. O. Deut. XXVIII, 37</cite> (ed. Vien. <cite ref=\"U00482\"><he>שׁוֹעֵי</he></cite>; h. text <he>שנינה</he>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 9:7\">Targ. I Kings IX, 7</cite> (ed. Wil. <cite ref=\"U00482\"><he>שׁוֹעֵי</he></cite>); <cite ref=\"Targum of II Chronicles 7:20\">Targ. II Chr. VII, 20</cite>."
+			]
+		}
+	]
+}

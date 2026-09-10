@@ -1,0 +1,23 @@
+{
+	"id": "B00307",
+	"slug": "בוץ-2",
+	"headword": {
+		"text": "בּוּץ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"B00306\">preced.</cite>) <i>linen, byssus</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 7:1\">Yoma VII, 1</cite> (<cite ref=\"Yoma 68b:17\">68ᵇ</cite> sq.), v. <cite ref=\"B00097\"><he>בַּד</he> IV</cite>; a. e."
+			]
+		}
+	]
+}

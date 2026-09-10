@@ -1,0 +1,29 @@
+{
+	"id": "D01080",
+	"slug": "דרי-3",
+	"headword": {
+		"text": "דָּרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּי דָ׳"
+		}
+	],
+	"page": {
+		"number": 323,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>בֵּי אִדְּרֵי</he>, v. <cite ref=\"A00444\"><he>אִדַּר</he></cite>; v. Fl. to Levy Targ. Dict. I, p. 417ᵇ) <i>barn</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 3b:8\">Taan. 3ᵇ</cite> <he>מיבעי לבי ד׳</he> (v. Rabb. D. S. a. l. note 4) (the strong wind) is needed in the barn (for winnowing). ",
+				"<cite ref=\"Bava Metzia 73a:10\">B. Mets. 73ᵃ</cite> <he>הפוכו בבי ד׳</he> turn around (busy yourselves) in the barn. ",
+				"<cite ref=\"Bava Kamma 113b:17\">B. Kam. 113ᵇ</cite> <he>מאן … בבי ד׳</he> he whose grain is found in the barn.—[<cite ref=\"Avodah Zarah 28a:8\">Ab. Zar. 28ᵃ</cite>, v. <cite ref=\"D01026\"><he>דָּרָא</he> I</cite>.]"
+			]
+		}
+	]
+}

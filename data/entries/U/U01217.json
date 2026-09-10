@@ -1,0 +1,40 @@
+{
+	"id": "U01217",
+	"slug": "שלהב-2",
+	"headword": {
+		"text": "שַׁלְהֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁלְהֵיב"
+		}
+	],
+	"page": {
+		"number": 1578,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01216\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 106:18\">Targ. Ps. CVI, 18</cite> (h. text <he>להט</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 21:10\">Ib. XXI, 10</cite> Ms. (ed. <he>סלעם</he>; h. text <he>בלע</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּלְהַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be burned; to flame</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 32:1\">Targ. Y. Ex. XXXII, 1</cite>. ",
+						"<cite ref=\"Onkelos Exodus 9:24\">Targ. O. ib. IX, 24</cite> (h. text <he>מתלקח׳</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

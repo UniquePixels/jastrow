@@ -1,0 +1,29 @@
+{
+	"id": "J00273",
+	"slug": "יחוס-1",
+	"headword": {
+		"text": "יִחוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "יִי׳"
+		}
+	],
+	"page": {
+		"number": 573,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00301\"><he>יָחַס</he></cite>) <i>genealogy, pedigree</i> (v. <cite ref=\"J00181\"><he>יוֹחָס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13:8\">Num. R. s. 13</cite> <he>לכן הוא מונה שם יִחוּסָם</he> therefore the Scripture records there (<cite ref=\"Exodus 6:14\">Ex. VI, 14</cite> sq.) their genealogy; a. e.—[<cite ref=\"Jerusalem Talmud Gittin 8:8:2\">Y. Gitt. VIII, 49ᶜ</cite> bot. <he>יי׳ כהונה</he>, v. <cite ref=\"G00286\"><he>זִיהוּם</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 2:6:3\">Y. Yeb. II, 4ᵃ</cite> top, v. <cite ref=\"J00303\"><he>יַחַס</he></cite>.]—Pl. <he>יִחוּסִים</he>, <he>יִחוּסִין</he>, <cite ref=\"J00271\"><he>יִי׳</he></cite>. Num. R. l. c. <he>שמרו יִחוּסֵיהֶם</he> they preserved their genealogical records; <cite ref=\"Shir HaShirim Rabbah 4:7:1\">Cant. R. to IV, 7</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 37:3\">Gen. R. s. 37</cite> <he>הראשונים … יִיחוּסֵיהֶם וכ׳</he> as regards former generations whose genealogies were known, their names were published in connection with historical events; <he>אנו יִיחוּסֵינוּ וכ׳ …</he> but with us who do not know our records, our names are defined by those of our fathers; (<cite ref=\"Yalkut Shimoni on Torah 62:4\">Yalk. Gen. 62</cite> <he>יִחוּסֵהֶן</he>, <he>יִחוּסֵנוּ</he> sing.); Yalk. Chr. 1074."
+			]
+		}
+	]
+}

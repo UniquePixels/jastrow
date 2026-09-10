@@ -1,0 +1,40 @@
+{
+	"id": "S00490",
+	"slug": "קופא-1",
+	"headword": {
+		"text": "קוֹפָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1337,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קפף</he>; cmp. Syr. <he>קופא</he> vectis, P. Sm. 3551) 1) <i>lever, carrying pole</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 4:12\">Targ. Y. Num. IV, 12</cite> (h. text <cite ref=\"M00460\"><he>מוֹט</he></cite>). ",
+				"<cite ref=\"Targum Jerusalem, Numbers 13:23\">Targ. Y. II ib. XIII, 23</cite> <cite ref=\"S00501\"><he>קוֹפָה</he></cite>."
+			]
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"C01204\"><he>גֶּפֶן</he></cite>) <i>trunk, vine</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 109b:6\">B. Mets. 109ᵇ</cite> <he>ק׳ סבא פלגא</he> (Ms. H. <cite ref=\"S01695\"><he>קַפָּא</he></cite>, v. Rabb. D. S. a. l. note 6) of the trunk of an old vine (that is cut down) the gardener gets an even share with the tenant. ",
+				"<cite ref=\"Chullin 110a\">Ḥull. 110ᵃ</cite> <he>ק׳ סבא הוה</he> Ar. (Ms. H. <cite ref=\"S02049\"><he>קי׳</he></cite>, v. Rabb. D. S. a. l. note 10; missing in ed.) it was an old trunk.—Pl. <cite ref=\"S00493\"><he>קוֹפָאֵי</he></cite>. ",
+				"<cite ref=\"Bava Batra 24a:14\">B. Bath. 24ᵃ</cite> <cite ref=\"S00493\"><he>בי ק׳</he></cite> (Ms. F. <he>קַפָּאֵי</he>) between the trunks of vines."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>that which hangs on the carrying pole</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 111a:2\">Ḥull. 111ᵃ</cite> <he>קניא בקופיה</he> (Ar. <he>בקַפֵּיה</he>) the windpipe with all that hangs on it (lungs, heart &c.)."
+			],
+			"label": "3"
+		}
+	]
+}

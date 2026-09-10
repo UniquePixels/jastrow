@@ -1,0 +1,56 @@
+{
+	"id": "O00213",
+	"slug": "סהדא",
+	"headword": {
+		"text": "סָהֲדָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סָהֲדָה"
+		},
+		{
+			"text": "סַ׳"
+		},
+		{
+			"text": "שַׂ׳"
+		}
+	],
+	"page": {
+		"number": 959,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00212\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>witness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 19:18\">Targ. O. Deut. XIX, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 12:19\">Targ. Prov. XII, 19</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 33b:2\">B. Bath. 33ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 65b:3\">Sabb. 65ᵇ</cite> <he>מטרא … ס׳ רבה פרת</he> (the rise of) the Euphrates is a weighty witness (indication) that it rained in Palestine; a. fr.—Pl. <he>סַהֲדִין</he>, <he>סַהֲדַיָּא</he>, <he>סַהֲדֵי</he>, <cite ref=\"O00497\"><he>שַׂ</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 22:12\">Targ. Ex. XXII, 12</cite>. ",
+				"<cite ref=\"Onkelos Exodus 22:2\">Targ. O. ib. 2</cite>; a. fr.—B. Bath. l. c. ",
+				"<cite ref=\"Kiddushin 65b:10\">Kidd. 65ᵇ</cite> <he>לא איברו ס׳ אלא לשקרי</he> witnesses are created only for liars, i.e. the institution of witnesses is not intended to legalise an act, but only as a guard against faithless persons who might deny the transaction. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:6:4\">Y. Shebu. VI, end, 37ᵇ</cite> <he>פומהון דש׳</he>, v. <cite ref=\"O00212\">preced. art.</cite> ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:6:4\">Ib.</cite> <he>ייתי עלוי ש׳</he> let him produce witnesses to confirm it. Y. Snh. III, end, 21ᵈ <he>וקבלון לש׳ וכ׳</he> and they received (heard) the witnesses in the absence of &c.; a. fr.—",
+				"<cite ref=\"Berakhot 17b:10\">Ber. 17ᵇ</cite>, a. fr. <he>אנן ס׳</he> we know certainly.—Fem. <cite ref=\"O00213\"><he>סַהֲדָא</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 31:52\">Targ. O. Gen. XXXI, 52</cite>.—V. <cite ref=\"O00216\"><he>סָהִיד</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>סַהֲדִין</he>, constr. <he>סַהֲדֵי</he> <i>testimony</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 20:13\">Targ. Y. Ex. XX, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 19:18\">Targ. Y. Deut. XIX, 18</cite> <he>סהדין שקרא</he>; a. e.; v. <cite ref=\"O00214\">next w.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

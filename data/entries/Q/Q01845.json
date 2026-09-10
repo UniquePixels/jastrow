@@ -1,0 +1,65 @@
+{
+	"id": "Q01845",
+	"slug": "פרך-2",
+	"headword": {
+		"text": "פְּרַךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1228,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01844\">same</cite>, <i>to break, smash, crumble.—Part. pass</i>. <cite ref=\"Q01806\"><he>פְּרִיךְ</he></cite>, <cite ref=\"Q01806\"><he>פְּרִיכָא</he></cite> <i>crushed; peeling, brittle</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 4:8\">Targ. Lam. IV, 8</cite> (h. text <cite ref=\"J00069\"><he>יבש</he></cite>, v. ",
+				"<cite ref=\"Bekhorot 37b\">Bekh. 37ᵇ</cite>, quot. in <cite ref=\"Q01844\">preced.</cite>).—",
+				"<cite ref=\"Vayikra Rabbah 8\">Lev. R. s. 8</cite>, beg., v. <cite ref=\"A02876\"><he>אַצִּיל</he></cite>. ",
+				"<cite ref=\"Pesachim 68b:4\">Pes. 68ᵇ</cite> <he>יבשה מִפְּרִיךְ פ׳</he> a dry wart is scraped off (and not cut). ",
+				"<cite ref=\"Bava Metzia 70a:8\">B. Mets. 70ᵃ</cite> <he>דהבא פ׳</he> broken gold-ware (gold dust); <cite ref=\"Bava Batra 166a\">B. Bath. 166ᵃ</cite>; a. fr.—Trnsf. <i>to refute, raise an objection</i>. ",
+				"<cite ref=\"Bava Kamma 5b\">B. Kam. 5ᵇ</cite>, a. fr. <he>דאיכא למִיפְרַךְ וכ׳</he> it may be objected (against this analogy) &c.; v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פָּרֵךְ", "פָּרֵיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01844\">same</cite>. [<cite ref=\"Aramaic Targum to Ecclesiastes 3:3\">Targ. Koh. III, 3</cite>. v. <cite ref=\"Q00924\"><he>פְּכַר</he></cite>.) <cite ref=\"Targum Jerusalem, Numbers 33:52\">Targ. Y. II, Num. XXXIII, 52</cite> <he>תְּפָרְכוּן</he> (not <he>תתפ׳</he>).—Y. Sabb. VII, 10ᵃ bot. <he>כד מְפָרֵךְ ברישייא</he> when he husks the heads of garlic. ",
+					"units": [
+						"<cite ref=\"Beitzah 12b:14\">Bets. 12ᵇ</cite> <he>מהו לפָרוּכֵי וכ׳</he> dare one husk by rubbing and eat the seeds?; a. e.—Trnsf. <i>to refute, raise an objection</i>. ",
+						"<cite ref=\"Kiddushin 13a:3\">Kidd. 13ᵃ</cite>, a. fr. <he>פ׳ רב אחא וכ׳</he> Rab A. objected &c. ",
+						"<cite ref=\"Nedarim 51a:3\">Ned. 51ᵃ</cite> <he>כל … פָּרְכָהּ וכ׳</he> whatever interpretation of <i>toʿebah</i> Rabbi offered, Bar Ḳ. refuted it. ",
+						"<cite ref=\"Sotah 7a:14\">Sot. 7ᵃ</cite> <he>ופָרְכוּהָ</he> Rashi a. Tosaf. (ed. <he>ופֵירְכוּהָ</he> Hebr. form) and he refuted it. ",
+						"<cite ref=\"Pesachim 69a:9\">Pes. 69ᵃ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְפָּרַךְ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְפְּרַךְ", "אִיפְּרַךְ"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"O01635\"><he>אִיפְּרִיךְ</he></cite> <i>to be crushed</i>; <i>to be dry, parched, easily peeled</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 24:7\">Targ. Is. XXIV, 7</cite> (h. text <he>אמלל׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 90:5\">Targ. Ps. XC, 5</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 80:17\">Ib. LXXX, 17</cite> <he>מִיפַּרְכָא</he> Ms. (ed. <he>מופרכא</he>, corr. acc.; ed. Wil. <he>מְפָרְכָא</he> Part. pass. <i>Pa.</i>; h. text <he>כסוחה</he>).—[<cite ref=\"Targum Jerusalem, Numbers 33:52\">Targ. Y. II, Num. XXXIII, 52</cite>, v. supra.]—",
+						"<cite ref=\"Shabbat 20b:12\">Sabb. 20ᵇ</cite> <he>אִיפָּרוּכֵי מִפָּרְכָן</he> (or <he>מְפָרְכָן</he>) they are brittle (unfit to be twisted into wicks). ",
+						"<cite ref=\"Pesachim 68b\">Pes. 68ᵇ</cite>, v. supra; a. e.—Trnsf. <i>to be refuted</i>. ",
+						"<cite ref=\"Horayot 14a:5\">Hor. 14ᵃ</cite> <he>כל דאמר מילתא ולא מִיפְּרַךְ וכ׳</he> whoever will say something and not be refuted, let him be the chief; <he>דכולהו אִיפְּרִיךְ וכ׳</he> what every one of them said was refuted, what A. said was not; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

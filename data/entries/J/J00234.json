@@ -1,0 +1,32 @@
+{
+	"id": "J00234",
+	"slug": "יוקרא",
+	"headword": {
+		"text": "יוֹקְרָא"
+	},
+	"page": {
+		"number": 571,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00233\">same</cite><i>high price</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 28:17\">Targ. Job XXVIII, 17</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>weight</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 94b:5\">Men. 94ᵇ</cite> <he>אגב י׳ דלחם</he> on account of the heavy pressure of the bread."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>feeling of heaviness;</i> <he>י׳ דְלִבָּא</he> <i>asthma</i>. ",
+			"units": ["<cite ref=\"Shabbat 140a\">Sabb. 140ᵃ</cite>"],
+			"label": "3"
+		}
+	]
+}

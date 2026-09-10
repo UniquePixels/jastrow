@@ -1,0 +1,22 @@
+{
+	"id": "M02140",
+	"slug": "מעלעלא",
+	"headword": {
+		"text": "מְעַלְעֲלָא"
+	},
+	"page": {
+		"number": 817,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. constr. (<cite ref=\"P00836\"><he>עַלְעֵל</he></cite>) <cite ref=\"M02140\"><he>מְעַלְעֲלֵי</he></cite> <i>that which is to be explored, weak points</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 42:9\">Targ. Y. Gen. XLII, 9</cite>; <cite ref=\"Targum Jonathan on Genesis 42:12\">12</cite> Levita (Ar. <he>מַעַלְלֵי</he>; ed. <he>עריית מטעיתא</he>)."
+			]
+		}
+	]
+}

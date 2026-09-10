@@ -1,0 +1,24 @@
+{
+	"id": "R00468",
+	"slug": "צית-2",
+	"headword": {
+		"text": "צֵית"
+	},
+	"page": {
+		"number": 1281,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00467\">preced.</cite>) <i>joint</i>; prep. <i>with, near</i>; <he>לצ׳</he> <i>towards</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 11:4\">Targ. Gen. XI, 4</cite>; <cite ref=\"Onkelos Genesis 28:12\">XXVIII, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:18\">Targ. Y. Ex. XX, 18</cite> (O. <he>לצֵיד</he>, <he>לצַד</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 2:12\">Targ. Job II, 12</cite>. Targ. II Esth. IV, 2 ed. Lag. (oth. ed. <he>לגבר</he>); a. e."
+			]
+		}
+	]
+}

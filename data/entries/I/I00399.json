@@ -1,0 +1,27 @@
+{
+	"id": "I00399",
+	"slug": "טינר-1",
+	"headword": {
+		"text": "טִינָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִנָּר"
+		}
+	],
+	"page": {
+		"number": 533,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Chaldaism, v. <cite ref=\"I00400\">next w.</cite>) <i>rock, flint</i>.—Pl. <he>טִינָּרִין</he>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 23\">Ex. R. s. 23</cite> <he>שני ט׳</he> two pieces of flint (<cite ref=\"Sotah 11b:7\">Sot. 11ᵇ</cite> <he>עגולין</he>)."
+			]
+		}
+	]
+}

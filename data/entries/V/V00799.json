@@ -1,0 +1,31 @@
+{
+	"id": "V00799",
+	"slug": "תפארת",
+	"headword": {
+		"text": "תִּפְאֶרֶת"
+	},
+	"page": {
+		"number": 1684,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"Q00024\"><he>פָּאַר</he></cite>)<i>crown, top</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 131a:16\">Ḥull. 131ᵃ</cite>, sq. <he>שלא תיטול תִּפְאַרְתּוֹ</he>, v. <cite ref=\"Q00024\"><he>פָּאַר</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>glory</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:14\">Y. Ber. I, 3ᵈ</cite> top <he>לך גדולה … לך ת׳</he> thine is the greatness, thine the power, thine the glory. ",
+				"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> <he>בית קדשינו ותִפְאַרְתֵּנוּ</he> the house of our holiness and of our glory. Mekh. B’shall., s. 2 <he>ונותנין שיר ושבח … ות׳ וכ׳</he> and give song, and praise, and greatness, and glory to him &c. Ib. s. 1 <he>תִּפְאַרְתָּם</he> their (the Egyptians’) pride; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

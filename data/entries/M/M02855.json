@@ -1,0 +1,23 @@
+{
+	"id": "M02855",
+	"slug": "משחזת",
+	"headword": {
+		"text": "מִשְׁחֶזֶת"
+	},
+	"page": {
+		"number": 851,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00632\"><he>שָׁחַז</he></cite>) <i>whetting implement</i> of stone or wood. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 17:17\">Kel. XVII, 17</cite>; <cite ref=\"Tosefta Keilim Metsia 7:10\">Tosef. Kel. B. Mets. VII, 10</cite> <he>מ׳ שיש בה בית וכ׳</he> a (wooden) whetter which has a receptacle for oil. ",
+				"<cite ref=\"Beitzah 28a:14\">Bets. 28ᵃ</cite> <he>מ׳ של אבן</he> a whetstone; <he>מ׳ של עץ</he> a wooden whetter; a. fr. [Ar. reads <he>מַשְׁחֵז</he>.]"
+			]
+		}
+	]
+}

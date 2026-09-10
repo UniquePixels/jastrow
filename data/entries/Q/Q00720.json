@@ -1,0 +1,38 @@
+{
+	"id": "Q00720",
+	"slug": "פינה",
+	"headword": {
+		"text": "פִּינָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּנָּה"
+		}
+	],
+	"page": {
+		"number": 1165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"Q01162\"><he>פָּנָה</he></cite>)<i>turn, movement</i>.—Pl. <cite ref=\"Q00605\"><he>פִּינּוֹת</he></cite> (<he>פּוֹנוֹת</he>). ",
+			"units": [
+				"<cite ref=\"Yoma 58b:12\">Yoma 58ᵇ</cite> <he>כל פי׳ שאתה פונה וכ׳</he> (Ms. M. 2 <he>פנות</he>; Ms. O. <cite ref=\"Q02191\"><he>פו׳</he></cite>) all the turns you make (in the Temple) must be towards the right; <cite ref=\"Yoma 15b:4\">ib. 15ᵇ</cite> (Ms. M. <cite ref=\"Q02191\"><he>פו׳</he></cite>); <cite ref=\"Zevachim 62b:8\">Zeb. 62ᵇ</cite> (Ms. M. <cite ref=\"Q02191\"><he>פו׳</he></cite>); <cite ref=\"Sotah 15b:14\">Sot. 15ᵇ</cite> <cite ref=\"Q02191\"><he>פו׳</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 446:3\">Yalk. Lev. 446</cite> <he>פְּנִיּוֹת</he>; a. e.—[With the exception of Sot. l. c. our editions read <he>פינות</he>]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>corner</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 37:1\">Ex. R. s. 37</cite>, beg. (ref. to <cite ref=\"Zechariah 10:4\">Zech. X, 4</cite>) <he>ממנו פ׳ זה וכ׳</he> ‘from him (Israel) the cornerstone is taken’, this refers to King David (with ref. to <cite ref=\"Psalms 18:22\">Ps. XVIII, 22</cite>). ",
+				"<cite ref=\"Avot D'Rabbi Natan 28:9\">Ab. d’R. N. ch. XXVIII</cite> <he>שלש מידות … אבן פ׳ וכ׳</he> there are three qualities of scholars, a hewn stone (seated in the wall), a corner stone &c.; <he>אבן פ׳ שיש לו שתי פיות וכ׳</he> (one versed in Midrash and Halakhah) is a corner stone which has two faces only.—Pl. as ab. ",
+				"<cite ref=\"Mishnah Middot 1:1\">Midd. I, 1</cite> <he>על ארבע</he> (<he>פִּינּוֹתֶיהָ</he>) <he>פִּינּוֹתָיו</he> in its four corners. ",
+				"<cite ref=\"Eruvin 11a:13\">Erub. 11ᵃ</cite>, v. <cite ref=\"Q00006\"><he>פֵּאָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "K00048",
+	"slug": "כבי-2",
+	"headword": {
+		"text": "כְּבִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּבָא"
+		}
+	],
+	"page": {
+		"number": 608,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K00047\">same</cite>.[<cite ref=\"Shabbat 21b\">Sabb. 21ᵇ</cite> <cite ref=\"K00094\"><he>כבתה</he></cite>; <cite ref=\"Shabbat 30a:3\">ib. 30ᵃ</cite> <he>לכבות</he>, h. forms.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּבֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to extinguish</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 58a\">Ber. 58ᵃ</cite> <he>וכַבִּינְהוּ לעיניה</he> Ar. (Ms. M. <he>ונכבינהו</he>, corr. acc.; ed. <he>חברוהי כחלינהו וכ׳</he>) dimmed his eye-sight, v. <cite ref=\"B00228\"><he>בּוֹטְטָא</he></cite>. Ib. 60ᵇ bot. <he>אתא … כַּבְּיֵיה לשרגיה</he> there came a wind and put out his lamp. ",
+						"<cite ref=\"Shabbat 44a:1\">Sabb. 44ᵃ</cite> <he>אתי לכַבּוּיֵי</he> he may be induced to extinguish the fire; <cite ref=\"Yoma 85a\">Yoma 85ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

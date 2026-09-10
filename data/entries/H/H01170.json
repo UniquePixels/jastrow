@@ -1,0 +1,60 @@
+{
+	"id": "H01170",
+	"slug": "חמט-2",
+	"headword": {
+		"text": "חֲמַט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 476,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H00042\"><he>חבט</he></cite>) <i>to knock down</i>.—<i>Part. pass.</i> <cite ref=\"H01170\"><he>חָמֵיט</he></cite>, <cite ref=\"H01170\"><he>חֲמִיט</he></cite> <i>prostrated, kneeling</i>, (as verb) <i>to kneel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 46:1\">Targ. Is. XLVI, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 95:6\">Targ. Ps. XCV, 6</cite> <he>נַחֲמוֹט</he> (some ed. <he>נַחֲמִיט</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:35\">Targ. Y. Deut. XXVIII, 35</cite> <he>חֲמִיטְתּוּן … עבירתא</he> (some ed. <cite ref=\"H01179\"><he>חַמִּי׳</he></cite> incorr.; not <cite ref=\"P00045\"><he>עבידתא</he></cite>); cmp. ",
+				"<cite ref=\"Aramaic Targum to Job 4:4\">Targ. Job IV, 4</cite> <he>דחָמְטָן</he>. [<cite ref=\"Kohelet Rabbah 4:9\">Koh. R. to IV, 9</cite>, end <he>חמטת</he>, some ed., read: <he>דמָטַת</he>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַמֵּיט"],
+			"senses": [
+				{
+					"gloss": "<i>to prostrate, subdue</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 17:13\">Targ. Ps. XVII, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 18:40\">Ib. XVIII, 40</cite> Reg. (ed. <cite ref=\"V00076\"><he>תברתא</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחֲמִיט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01169\">same</cite>. Ib. LXXVIII, 31.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיחֲמַט"],
+			"senses": [
+				{
+					"gloss": "<i>to knock against, be battered</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 54b\">Sabb. 54ᵇ</cite> <he>דלא לִיחַמְטָן אליתייהו</he> Ms. M. (ed. incorr.) that their tails may not knock against (the rocks &c., Rashi; Ar.: ‘may not ulcerate’; v. Syr. <he>חמטא</he> pustula, ulcus, P. Sm. 1303; v. <cite ref=\"H01169\">preced.</cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

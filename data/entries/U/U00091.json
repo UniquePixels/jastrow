@@ -1,0 +1,24 @@
+{
+	"id": "U00091",
+	"slug": "שבות",
+	"headword": {
+		"text": "שְׁבוּת"
+	},
+	"page": {
+		"number": 1511,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00198\"><he>שָׁבַת</he></cite>) <i>rest, abstention from secular occupation</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 89a:1\">Sabb. 89ᵃ</cite> <he>כלום … שאתם צריכים ש׳</he> do you (angels) work, that you needed rest? [Sifra Emor ch. XIII, Par. 11, a. e. <he>ש׳</he> (<cite ref=\"A01770\"><he>אלא</he></cite>) <he>שבתון</he>, read: <cite ref=\"U00091\"><he>שְׁבוֹת</he></cite>, v. <cite ref=\"U00198\"><he>שָׁבַת</he></cite>.]—Esp. <i>sh’buth, an occupation, on the Sabbath and Festivals, forbidden by the Rabbis as being out of harmony with the celebration of the day</i>. ",
+				"<cite ref=\"Mishnah Beitzah 5:2\">Bets. V, 2</cite> <he>כל שחייבין עלין משום ש׳ וכ׳</he> all occupations which are forbidden as <i>sh’buth</i> … on the Sabbath, are also forbidden on the Holy Days; <he>ואלו הן משום ש׳ וכ׳</he> and these are forbidden as <i>sh’buth</i>: you must not climb up a tree &c. Ib. 37ᵃ <he>ש׳ גרידתא</he> a plain act forbidden as <i>sh’buth;</i> <he>ש׳ דרשות</he> an act of exercise of authority; <he>ש׳ דמצוה</he> an act of a religious nature. ",
+				"<cite ref=\"Pesachim 65a:4\">Pes. 65ᵃ</cite> <he>אין ש׳ במקדש</he> the prohibition of acts as <i>sh’buth</i> does not apply to Temple functions; a. v. fr."
+			]
+		}
+	]
+}

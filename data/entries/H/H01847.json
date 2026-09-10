@@ -1,0 +1,57 @@
+{
+	"id": "H01847",
+	"slug": "חשך-3",
+	"headword": {
+		"text": "חָשַׁךְ"
+	},
+	"page": {
+		"number": 510,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>חשש</he>) [<i>to be pressed, thick</i>,] <i>to be dark</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 34a\">Sabb. 34ᵃ</cite>; <cite ref=\"Shabbat 51a:10\">51ᵃ</cite> <he>משחָשְׁכָה</he>; <cite ref=\"Mishnah Shabbat 4:2\">ib. IV, 2</cite> <he>משתֶּחְשַׁךְ</he> when it darkens (at nightfall, v. <cite ref=\"H01837\"><he>חֲשֵׁיכָה</he></cite>). ",
+				"<cite ref=\"Sanhedrin 22a:19\">Snh. 22ᵃ</cite> <he>עולם ח׳ בעדו</he> the world around him is dark; <cite ref=\"Avodah Zarah 8a\">Ab. Zar. 8ᵃ</cite> (some ed. <cite ref=\"H01820\"><he>חָשׁוּךְ</he></cite>). ",
+				"<cite ref=\"Berakhot 16b:21\">Ber. 16ᵇ</cite> <he>אל יֶחְשְׁכוּ וכ׳</he> let not our eyes be obscured; a. fr. V. <cite ref=\"H01820\"><he>חָשׁוּךְ</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחְשִׁיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be overtaken by</i> (<i>the Sabbath</i>) <i>nightfall</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 24:1\">Sabb. XXIV, 1</cite> <he>מי שה׳ בדרך</he> he who is on the road at nightfall (on Friday)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to wait for the nightfall, to make preparations to be ready for work on the exit of the Sabbath</i>, v. <cite ref=\"H01838\"><he>חֲשִׁיכָה</he></cite>. Ib. XXIII, 3 <he>אין מַחְשִׁיכִין על וכ׳</he> you must not, during the day, walk to the extreme end of the Sabbath limit to await the night there for the purpose of hiring workmen etc.; <he>אבל מַחְשִׁיךְ הוא וכ׳</he> but one may do so for the purpose of going at nightfall to watch his field, and then he may also take his fruits home. Ib. <he>להַחְשִׁיךְ עליו</he> to await the night at the Sabbath limit for the purpose of doing it. Ib. 4; a. fr.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to darken, obscure</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:1:3\">Cant. R. to I, 1</cite> (ref. to <he>חשכים</he>, <cite ref=\"Proverbs 22:29\">Prov. XXII, 29</cite>) that is Potifar <he>שה׳ הקב״ה וכ׳</he> whose eyes the Lord darkened etc. ",
+						"<cite ref=\"Shemot Rabbah 51\">Ex. R. s. 51</cite> (ref. to <he>חשכה</he>, <cite ref=\"Genesis 15:12\">Gen. XV, 12</cite>) that is Media <he>שהֶחְשִׁיכָה וכ׳</he> who made Israel’s eyes dim (with tears) by her decrees. ",
+						"<cite ref=\"Pesikta Rabbati 47:1\">Pesik. R. s. 47</cite> (ref. to <cite ref=\"Job 38:2\">Job XXXVIII, 2</cite>) <he>הֶחְשַׁכְתָּ וכ׳</he> (not <he>החשב׳</he>) thou hast obscured the council which I held in heavens (when the Lord vouched for Job’s integrity); a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to become dark</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 18:14\">Midr. Till. to Ps. XVIII, 12</cite> (ref. to the versions <he>חשכת</he>, Ps. l. c., and <he>חשרת</he> <cite ref=\"II Samuel 22:12\">II Sam. XXII, 12</cite>) when the clouds are laden with the waters, <he>הן מַחְשִׁיכִין מן המים וכ׳</he> they receive a dark color from the waters, and afterwards they drop them as through a sieve."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

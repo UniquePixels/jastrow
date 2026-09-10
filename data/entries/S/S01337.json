@@ -1,0 +1,38 @@
+{
+	"id": "S01337",
+	"slug": "קלילו",
+	"headword": {
+		"text": "קַלִּילוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַלִּילוּתָא"
+		}
+	],
+	"page": {
+		"number": 1376,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01336\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lightness, rapidity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 5:7\">Targ. Zech. V, 7</cite>; <cite ref=\"Targum Jonathan on Zechariah 5:9\">9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 29:1\">Targ. Y. Gen. XXIX, 1</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a little</i>. Ib. XLIII, 2, v. <cite ref=\"S01335\"><he>קַלִּיל</he> I</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

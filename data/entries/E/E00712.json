@@ -1,0 +1,23 @@
+{
+	"id": "E00712",
+	"slug": "הסתר",
+	"headword": {
+		"text": "הַסְתֵּר"
+	},
+	"page": {
+		"number": 359,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Infin. Hif. of <cite ref=\"O01711\"><he>סָתַר</he></cite>) <he>ה׳ פנים</he> (from <cite ref=\"Deuteronomy 31:18\">Deut. XXXI, 18</cite>) <i>hiding of face, divine anger, refusal to answer prayer</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 5a:18\">Ḥag. 5ᵃ</cite> <he>כל שאינו בה׳ פ׳ וכ׳</he> he who is not subject to the hiding of face (who does not suffer under general persecution) is none of them (not of Israelitish descent). ",
+				"<cite ref=\"Chagigah 5b:2\">Ib.ᵇ</cite>"
+			]
+		}
+	]
+}

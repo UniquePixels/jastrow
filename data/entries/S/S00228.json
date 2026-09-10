@@ -1,0 +1,26 @@
+{
+	"id": "S00228",
+	"slug": "קוביוסטוס",
+	"headword": {
+		"text": "קוּבְיוּסְטוֹס"
+	},
+	"page": {
+		"number": 1323,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>וס</he> for <he>יס</he>; κυβευστης = κυβιστής, S.) <i>gambler</i>; (= κυβευτικός) <i>crafty person</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 847:1\">Yalk. Deut. 847</cite> <he>זה הוא ק׳ וכ׳</he> this man is a gambler, and he may go and gamble and lose &c. ",
+				"<cite ref=\"Tosefta Bava Batra 4:7\">Tosef. B. Bath. IV, 7</cite> <he>המוכר … ונמצא גנב או ק׳</he> if one sells a slave …, and he turns out to be a thief or a crafty person (swindler), contrad. to <cite ref=\"L00498\"><he>ליסטיס</he></cite>; Y. ib. VII, end, 15ᵈ; Bab. ",
+				"<cite ref=\"Bava Batra 92b:10\">ib. 92ᵇ</cite>. ",
+				"<cite ref=\"Chullin 91b:13\">Ḥull. 91ᵇ</cite> <he>גנב אתה או ק׳ וכ׳</he> art thou a thief or a burglar that thou art afraid of the morning?; <cite ref=\"Yalkut Shimoni on Torah 133:8\">Yalk. Gen. 133</cite>. ",
+				"<cite ref=\"Bekhorot 5a:11\">Bekh. 5ᵃ</cite> <he>משה … או ק׳ וכ׳</he> your teacher Moses was either a thief or a swindler, or else a bad arithmetician."
+			]
+		}
+	]
+}

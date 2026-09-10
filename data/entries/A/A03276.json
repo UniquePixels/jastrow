@@ -1,0 +1,31 @@
+{
+	"id": "A03276",
+	"slug": "אשורי",
+	"headword": {
+		"text": "אַשּׁוּרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַשּׁוּרִית"
+		}
+	],
+	"page": {
+		"number": 127,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>Assyrian</i>, esp. <i>the modern form of Hebrew type</i> (square), supposed to have been brought along by the returning Babylonian captives, and made to supersede the older Hebrew (Syriac or Samaritan, <he>עברי</he>) characters. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:4\">Y. Meg. I, 71ᵇ</cite> <he>א׳ יש לו כתב וכ׳</he> the Assyrian (trans-Euphratic, Chaldaic) language had a (developed) type of writing, but no tongue (cultivated grammar) &c. [See the whole discussion, ibid.] Cmp. ",
+				"<cite ref=\"Sanhedrin 21b:22\">Snh. 21ᵇ</cite>. ",
+				"<cite ref=\"Megillah 8b:22\">Meg. 8ᵇ</cite>. ",
+				"<cite ref=\"Esther Rabbah 4:12\">Esth. R. to I, 22</cite>; a. e.—",
+				"<cite ref=\"Mishnah Megillah 1:8\">Meg. I, 8</cite>; <cite ref=\"Jerusalem Talmud Sotah 7:1:7\">Y. Sot. VII, beg. 21ᵇ</cite> <he>אשורית</he> <i>the Hebrew language</i> in its modern type."
+			]
+		}
+	]
+}

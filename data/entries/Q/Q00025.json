@@ -1,0 +1,22 @@
+{
+	"id": "Q00025",
+	"slug": "פארא",
+	"headword": {
+		"text": "פְּאֵרָא"
+	},
+	"page": {
+		"number": 1131,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <cite ref=\"Q00029\"><he>פְּאֵרֵי</he></cite> (v. <cite ref=\"Q00023\"><he>פְּאֵר</he></cite> <i>pl.</i>) beads, <i>trinkets strung on chains or cords</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 59b:15\">Sabb. 59ᵇ</cite>, v. <cite ref=\"M01813\"><he>מְנַקְטָא</he></cite>."
+			]
+		}
+	]
+}

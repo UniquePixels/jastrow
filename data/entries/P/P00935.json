@@ -1,0 +1,23 @@
+{
+	"id": "P00935",
+	"slug": "עמרניתא",
+	"headword": {
+		"text": "עַמְרָנִיתָא"
+	},
+	"page": {
+		"number": 1091,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00931\"><he>עַמְרָא</he></cite>) <i>woolly, tufty substance</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 20b:11\">Sabb. 20ᵇ</cite> <he>בע׳ דאית ביה</he> it means the woolly substance in it, v. <cite ref=\"U00409\"><he>שׂוּכָּא</he></cite>. ",
+				"<cite ref=\"Shabbat 20b:11\">Ib.</cite> (expl. <cite ref=\"A01166\"><he>אִידָּן</he></cite>, <cite ref=\"Mishnah Shabbat 2:1\">ib. II, 1</cite>) <he>ע׳ דביני ביני</he> the woolly bast between (the bark and the wood of the willow); v. <cite ref=\"P00697\"><he>עִירָנִיתָא</he></cite>"
+			]
+		}
+	]
+}

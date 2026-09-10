@@ -1,0 +1,25 @@
+{
+	"id": "H00845",
+	"slug": "חיפה-4",
+	"headword": {
+		"text": "חֵיפָה",
+		"homograph": 3
+	},
+	"page": {
+		"number": 459,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥefa</i> (= <cite ref=\"P00638\"><he>עֵיפָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 2:3:2\">Y. Ned. II, 37ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Shevuot 3:7:5\">Y. Shebu. III, 34ᵈ</cite> top, (Bab. ",
+				"<cite ref=\"Shevuot 28b\">ib. 28ᵇ</cite> <cite ref=\"P00638\"><he>עֵיפָא</he></cite>, Ms. F. <cite ref=\"A01531\"><he>איפה</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:1:3\">Y. R. Hash. I, 56ᵇ</cite> top."
+			]
+		}
+	]
+}

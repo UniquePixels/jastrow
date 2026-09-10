@@ -1,0 +1,28 @@
+{
+	"id": "C00617",
+	"slug": "גיבנא",
+	"headword": {
+		"text": "גִּיבְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּבְנָא"
+		}
+	],
+	"page": {
+		"number": 234,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גבן</he>) <i>hump</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 68:16\">Targ. Ps. LXVIII, 16</cite> <he>אתעביד להון ג׳</he> (Var. <cite ref=\"C00611\"><he>גיבבא</he></cite>) became hump-backed (unfit for sacred purposes, v. <cite ref=\"C00118\"><he>גַּבְנוּן</he></cite>). *Pl. <he>גִּיבְנַיָּא</he>. ",
+				"<cite ref=\"Sifrei Devarim 51\">Sifré Deut. 51</cite> ed. Fr. <he>גִּבְנַ׳ דאשקלון</he> the heights of A., v. <cite ref=\"C01073\"><he>גַּנָּא</he></cite>."
+			]
+		}
+	]
+}

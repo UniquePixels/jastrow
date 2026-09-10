@@ -1,0 +1,24 @@
+{
+	"id": "P00486",
+	"slug": "עטש-2",
+	"headword": {
+		"text": "עֲטַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲטֵישׁ"
+		}
+	],
+	"page": {
+		"number": 1065,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00485\">same</cite> <cite ref=\"Jerusalem Talmud Berakhot 6:6:5\">Y. Ber. VI, 10ᵈ</cite> top <he>אהן דע׳ גו מיכלא וכ׳</he> he who sneezes at a meal must not say &c., v. <cite ref=\"G00254\"><he>זט</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:7:8\">Y. Yoma III, 40ᵈ</cite> bot.; <cite ref=\"Kohelet Rabbah 3:11\">Koh. R. to III, 11</cite>."
+			]
+		}
+	]
+}

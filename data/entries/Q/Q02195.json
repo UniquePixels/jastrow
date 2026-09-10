@@ -1,0 +1,51 @@
+{
+	"id": "Q02195",
+	"slug": "פתק-1",
+	"headword": {
+		"text": "פָּתַק"
+	},
+	"page": {
+		"number": 1255,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to divide, distribute</i>, esp. <i>to dig</i> or <i>open a channel</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 9:2:2\">Y. Snh. IX, 27ᵃ</cite> <he>פ׳ אמת המים עליו וכ׳</he> if he opened a sluice near a person, and the water came and swept him off. ",
+				"<cite ref=\"Tosefta Shabbat 1:23\">Tosef. Sabb. I, 23</cite> <he>פּוֹתְקִין מים לגינה וכ׳</he> you may conduct water into a garden on the eve of the Sabbath shortly before dark &c.; Bab. ",
+				"<cite ref=\"Sanhedrin 18a\">Snh. 18ᵃ</cite>; Y. ib. I, 3ᵈ bot. ",
+				"<cite ref=\"Tosefta Bava Kamma 2:6\">Tosef. B. Kam. II, 6</cite> <he>אילו הפותקין ביביהן וכ׳</he> those who conduct their gutters … into the public road. ",
+				"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite>, v. <cite ref=\"M00215\"><he>מַגְרוֹפִית</he></cite>. ",
+				"<cite ref=\"Temurah 12a\">Tem. 12ᵃ</cite> [read:] <he>ממלא … ופוֹתְקָן למקוה</he> he may draw a quantity of nineteen S’ah of water and let it run through a gutter into the bath. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 961:10\">Yalk. Prov. 961</cite> <he>כיון שפְּתָקָהּ</he> when he cut its supply off by diverting the channel; <cite ref=\"Yalkut Shimoni on Torah 16\">Yalk. Gen. 16</cite> <he>שפוסקה</he>; <cite ref=\"Bereishit Rabbah 10:2\">Gen. R. s. 10</cite> <he>שפסקה</he>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיתֵּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q02194\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 51\">Gen. R. s. 51</cite>, end (ref. to <cite ref=\"Deuteronomy 2:9\">Deut. II, 9</cite>) <he>אבל אתה מְפַתֵּק הנהרות וכ׳</he> but you may divert their rivers.—Denom. <cite ref=\"Q00904\"><he>פִּיתָּק</he></cite>, <cite ref=\"E00775\"><he>הֶפְתֵּק</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְתָּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut off, divided</i>; esp. <i>to be conducted, diverted</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Mikvaot 3:6\">Tosef. Mikv. III, 6</cite> <he>ונִפְתְּקוּ ובאו לחברו</he> ed. Zuck. (oth. ed. <he>ונפסקו</he>) and the water of one pond was diverted and came into the other pond; <cite ref=\"Tosefta Mikvaot 3:5\">ib. 5</cite> <he>ונפתקו</he> R. S. to <cite ref=\"Mishnah Mikvaot 3:1\">Mikv. III, 1</cite> (ed. <he>ונפסקו</he>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

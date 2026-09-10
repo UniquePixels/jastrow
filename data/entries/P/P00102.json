@@ -1,0 +1,36 @@
+{
+	"id": "P00102",
+	"slug": "עגם-1",
+	"headword": {
+		"text": "עָגַם"
+	},
+	"page": {
+		"number": 1041,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A00309\"><he>אָגַם</he></cite>)<i>to be bent, weighed down</i>. <i>Part. pass.</i> <he>עָגוּם</he>; f. <he>עֲגוּמָה</he>; (cmp. <cite ref=\"K01043\"><he>כָּפַף</he></cite>, <cite ref=\"K01061\"><he>כָּפַת</he></cite>) ",
+			"units": [],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>pressed down, tied</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite> <he>לשונו ע׳</he> his (the drunken man’s) tongue is tied.—Trnsf. (of a woman) <he>עֲגוּמָה</he> <i>tied to an absent husband, prevented from marrying</i> (cmp. <cite ref=\"P00105\"><he>עָגַן</he></cite>). Y. Snh. VI, 23ᶜ <he>עד מתי … ואני יושבת ע׳ בביתי</he> how long yet shall my husband dwell with thee (Alexandria), and I (Jerusalem) sit a living widow in my house; <cite ref=\"Jerusalem Talmud Chagigah 2:2:5\">Y. Ḥag. II, 77ᵈ</cite> <he>ע׳ עליו …</he> tied (lonely) for his sake.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>bent down, grieving</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 1:6\">Lev. R. s. 1</cite> <he>היתה נפשו של משה ע׳ עליו</he> Moses’ soul within him grieved. ",
+						"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>שנפשן ע׳ עליהן</he> who are in grief. ",
+						"<cite ref=\"Berakhot 55b:7\">Ber. 55ᵇ</cite> <he>הרואה חלום ונפשו ע׳</he> he who has had a dream and is worried about it; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

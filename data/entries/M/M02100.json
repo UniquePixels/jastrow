@@ -1,0 +1,31 @@
+{
+	"id": "M02100",
+	"slug": "מעטן",
+	"headword": {
+		"text": "מַעֲטֵן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַעֲטֵין"
+		}
+	],
+	"page": {
+		"number": 815,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00466\"><he>עָטַן</he></cite>) <i>vat</i> or <i>pit</i> where olives are packed until they form a viscid mass. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 9:1\">Toh. IX, 1</cite> <he>זיעת המ׳</he> the (intended) exudation produced by lying in the vat, opp. <he>זיעת הקופה</he> the (unwelcome) exudation originating in the pile or basket, v. <cite ref=\"G00217\"><he>זוּעַ</he></cite> h. ",
+				"<cite ref=\"Mishnah Tahorot 9:9\">Ib. 9</cite>; <cite ref=\"Tosefta Tahorot 11:1\">Tosef. ib. XI, 1</cite>. ",
+				"<cite ref=\"Tosefta Ma'asrot 3:7\">Tosef. Maasr. III, 7</cite> <cite ref=\"M02100\"><he>מעטין</he></cite>. ",
+				"<cite ref=\"Tosefta Ma'asrot 3:13\">Ib. 13</cite>, a. e. <cite ref=\"M02077\"><he>מעוטן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 6:1:2\">Y. Dem. VI, 23ᵈ</cite> top <he>מ׳ של זיתים</he> a mass of olives from the vat; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "C00510",
+	"slug": "גותאי",
+	"headword": {
+		"text": "גּוּתָאִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּתָיָא"
+		}
+	],
+	"page": {
+		"number": 228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"C00444\"><he>גּוּנְתָּאִי</he></cite>) <i>a Goth; servant, body-guard</i>. Pl. <he>גּוּתָיִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 2:1:3\">Y. Snh. II, beg. 19ᵈ</cite> <he>גנתן</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:7:3\">Y. Bets. I, 60ᶜ</cite> bot. was leaning on <he>תרי ג׳</he> two servants (Goths)."
+			]
+		}
+	]
+}

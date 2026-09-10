@@ -1,0 +1,23 @@
+{
+	"id": "M02162",
+	"slug": "מעצרתא-2",
+	"headword": {
+		"text": "מַעֲצַרְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 819,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01131\"><he>עֲצַר</he></cite>; cmp. <cite ref=\"P01136\"><he>עֲצֶרֶת</he></cite>, <cite ref=\"P01137\"><he>עֲצַרְתָּא</he> I</cite>) <i>meeting room, school-house</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 49a:17\">Erub. 49ᵃ</cite>; <cite ref=\"Eruvin 60a:5\">60ᵃ</cite>"
+			]
+		}
+	]
+}

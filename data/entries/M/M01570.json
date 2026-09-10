@@ -1,0 +1,65 @@
+{
+	"id": "M01570",
+	"slug": "מלך-2",
+	"headword": {
+		"text": "מָלַךְ"
+	},
+	"page": {
+		"number": 790,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to lead in council</i>,] <i>to preside</i>; <i>to officiate; to be ruler</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 164b:5\">B. Bath. 164ᵇ</cite> <he>מ׳ שנה מונין לו שתים</he> when he has been in office one year, they date (in documents) ‘the second year’. ",
+				"<cite ref=\"Megillah 11a:24\">Meg. 11ᵃ</cite> (ref. to <he>המֹלֵךְ</he>, <cite ref=\"Esther 1:1\">Esth. I, 1</cite>) <he>מ׳ מעצמו</he> started a dynasty with himself (had no claims of succession). ",
+				"<cite ref=\"Esther 1:1\">Ib.</cite> <he>מָלְכוּ בכיפה</he>, v. <cite ref=\"K00603\"><he>כִּיפָּה</he></cite>. ",
+				"<cite ref=\"Zevachim 118b:18\">Zeb. 118ᵇ</cite> <he>עשרה שנה שמ׳ וכ׳</he> ten years during which Samuel ruled alone, <he>ושנה שמ׳ שאול וכ׳</he> and one year during which Saul and Samuel ruled conjointly; <cite ref=\"Temurah 15a:1\">Tem. 15ᵃ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְלַךְ"],
+			"senses": [
+				{
+					"gloss": " [<i>to be led</i>,] ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to take council, to ask advice</i> or <i>permission</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 3b:30\">Ber. 3ᵇ</cite> <he>נִמְלָכִין בסנהדרין</he> they ask the Sanhedrin for their confirmation. Ib. 4ᵃ <he>כל מה … אני נ׳ במפיבשת וכ׳</he> in whatever I undertake, I consult the opinion of M., my teacher. Ib. 29ᵇ <he>וכשאתה … הִמָּלֵךְ בקונך וצא</he> and when thou art about to go on a journey, take council of thy Maker (pray) and go out. ",
+						"<cite ref=\"Bava Metzia 14a:6\">B. Mets. 14ᵃ</cite> <he>צריך לִימָּלֵךְ</he> the scribe must ask for authorization (to insert in the contract); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " [<i>to take council with one’s self</i>,] <i>to reconsider, change one’s mind</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 3:1\">Gitt. III, 1</cite>. ",
+						"<cite ref=\"Mishnah Demai 3:2\">Dem. III, 2</cite> <he>הלוקח … ונ׳ להחזיר</he> if one buys vegetables …. and then decides to return (the goods). ",
+						"<cite ref=\"Mishnah Demai 3:3\">Ib. 3</cite> <he>נטלן לאוכלן ונ׳ להצניע</he> if he took them up to eat them and changed his mind (deciding) to keep them; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִמְלִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to appoint</i> or <i>elect for rulership, to acknowledge the authority of</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 64a:19\">Snh. 64ᵃ</cite> <he>שהִמְלִיכוּהוּ עליהם</he>, v. <cite ref=\"M00511\"><he>מוֹלֶךְ</he></cite>. Y. Ned. IX, beg. 41ᵇ (ref. to <cite ref=\"Psalms 81:10\">Ps. LXXXI, 10</cite>) <he>זר שבקרבך אל תַּמְלִיכֵהוּ עליך</he> allow not the tyrant within thee (the evil inclination) to rule over thee. ",
+						"<cite ref=\"Avodah Zarah 18a:6\">Ab. Zar. 18ᵃ</cite> <he>אומה זו מן השמים הִמְלִיכוּהָ</he> this (Roman) nation has been given the rulership by divine decree. ",
+						"<cite ref=\"Rosh Hashanah 16a:12\">R. Hash. 16ᵃ</cite> <he>אמרו לפני … מלכיות שתַּמְלִיכוּנִי עליכם</he> recite before me verses of homage (v. <cite ref=\"M01579\"><he>מַלְכוּת</he></cite>), in order that you may declare me your ruler; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

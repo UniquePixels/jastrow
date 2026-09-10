@@ -1,0 +1,24 @@
+{
+	"id": "B00202",
+	"slug": "בוביא-1",
+	"headword": {
+		"text": "בּוּבְיָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 144,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Syr. <i>bubia</i> sartago, P. Sm.; prob. = <he>בי אפיא</he>, <cite ref=\"Q00000\"><he>פ</he></cite> softened through assimilation, cmp. <he>תפייא</he> a. <he>בי תפי</he>) <i>a frying pan</i>, sometimes used as a <i>coal pan</i> containing the coal over which things are roasted. ",
+			"units": [
+				"<cite ref=\"Pesachim 30b\">Pes. 30ᵇ</cite> <he>האי בוב׳</he> (Ms. M. 2, Ms. Oxf. Ar. and old ed., v. Rabb. D. S. a. l. note 10); <cite ref=\"Zevachim 95b\">Zeb. 95ᵇ</cite> (Ms. R. 1 <he>מביא</he>, corr. <cite ref=\"B01083\"><he>בו׳</he></cite>; Ms. K. <cite ref=\"B00244\"><he>בוכיא</he></cite>). ",
+				"<cite ref=\"Shabbat 29a\">Sabb. 29ᵃ</cite> he threw the date stones <he>לבוביא</he> Ms. M. a. Ar. (<cite ref=\"Jerusalem Talmud Beitzah 4:3:5\">Y. Bets. IV, 62ᶜ</cite> <he>לתפייה</he>, v. Rashi to Sabb. l. c.) into the pan. [Editions vary betw. <cite ref=\"K00186\"><he>כוביא</he></cite> a. <cite ref=\"B00244\"><he>בוכיא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "V00531",
+	"slug": "תכיל-2",
+	"headword": {
+		"text": "תְּכִיל",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1668,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00538\"><he>תְּכַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>trust, confidence</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 16:9\">Targ. Ps. XVI, 9</cite> <he>בת׳</he> Ar. (ed. <he>לרוחצן</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " part. of <cite ref=\"V00538\"><he>תְּכַל</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

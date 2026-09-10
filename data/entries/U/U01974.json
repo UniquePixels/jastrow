@@ -1,0 +1,23 @@
+{
+	"id": "U01974",
+	"slug": "שרייה",
+	"headword": {
+		"text": "שְׁרִיָּיה"
+	},
+	"page": {
+		"number": 1631,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שָׁרָה</he> I) <i>soaking, steeping</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 7:1\">Nidd. VII, 1</cite> <he>וכמה היא שְׁרִיָּיתָן וכ׳</he> and how long must they be soaked? Twenty-four hours in tepid water; <cite ref=\"Niddah 22b\">ib. 22ᵇ</cite>; <cite ref=\"Niddah 56a\">56ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Ma'aser Sheni 2:1\">Tosef. Maas. Sh. II, 1</cite> <he>חוץ משִׁירְיָיתָהּ</he> except putting it in water; Y. ib. II, 53ᶜ <he>משליתה</he> (corr. acc.)."
+			]
+		}
+	]
+}

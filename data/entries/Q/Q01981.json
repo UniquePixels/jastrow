@@ -1,0 +1,128 @@
+{
+	"id": "Q01981",
+	"slug": "פרק-2",
+	"headword": {
+		"text": "פְּרַק"
+	},
+	"page": {
+		"number": 1239,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01980\">same</cite><i>to separate, remove, take off</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:2\">Targ. Ex. XXXII, 2</cite> sq. (O. ed. Berl. <i>Pa.</i>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 4:5\">Targ. Y. Num. IV, 5</cite> (O. <i>Pa.</i>); a. fr.—V. <cite ref=\"Q01828\"><he>פְּרִיקָא</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fall apart</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86a:6\">B. Mets. 86ᵃ</cite> <he>פ׳ אשיתא</he> the frame wall fell apart (v., however, infra)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to untie; to redeem, deliver</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:8\">Targ. Ex. XXI, 8</cite> (O. ed. Amst. <he>וְיַפְרְ׳</he>, read: <he>וְיִ׳</he>). ",
+				"<cite ref=\"Onkelos Leviticus 27:13\">Targ. Lev. XXVII, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 34:23\">Targ. Ps. XXXIV, 23</cite> <he>פָּרֵיק</he> Ms. (ed. <cite ref=\"Q01726\"><he>פרוק</he></cite>, corr. acc.); a. fr.—Part. pass. <cite ref=\"Q01827\"><he>פָּרִיק</he></cite>; f. <cite ref=\"Q01827\"><he>פְּרִיקָא</he></cite>; pl. <he>פְּרִיקִין</he>, <he>פְּרִיקַיָּא</he>; <he>פְּרִיקָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 25:42\">Targ. Y. Lev. XXV, 42</cite>; <cite ref=\"Targum Jonathan on Leviticus 25:55\">55</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 35:9\">Targ. Is. XXXV, 9</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Ketubot 4:8\">Keth. IV, 8</cite> (in a marriage contract) <he>אם תשתבאי אֶפְרְקִינָךְ</he> if thou art captured, I shall redeem thee; <cite ref=\"Ketubot 51b\">ib. 51ᵇ</cite>. ",
+				"<cite ref=\"Ketubot 47a:8\">Ib. 47ᵃ</cite> <he>מימנע ולא פָרֵיק</he> he might refuse to redeem her. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:3:8\">Y. Maas. Sh. IV, 55ᵃ</cite> bot. <he>אֶפְרוֹק לך וכ׳</he> I will redeem it for thee with this Sela; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פָּרֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to remove, take off</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 32:2\">Targ. O. Ex. XXXII, 2</cite>; a. fr.; v. supra.—Trnsf. <i>to alienate</i>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 17:9\">Targ. Prov. XVII, 9</cite> (h. text <he>מפריד</he>; <cite ref=\"Aramaic Targum to Proverbs 16:28\">ib. XVI, 28</cite> <he>מעריק</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to divide, split, strip</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 1:17\">Targ. O. Lev. I, 17</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 33:20\">Targ. Y. II, Deut. XXXIII, 20</cite> (some ed. <cite ref=\"M02251\"><he>מַפְרַק</he></cite>, corr. acc.). ",
+						"<cite ref=\"Targum Jonathan on I Kings 19:11\">Targ. I Kings XIX, 11</cite>; a. e.—",
+						"<cite ref=\"Chullin 93a\">Ḥull. 93ᵃ</cite>, v. infra."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " [<i>to break</i>,] <i>to solve a problem; to reply</i>, opp. <cite ref=\"S02236\"><he>אקשי</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 84a\">B. Mets. 84ᵃ</cite> <he>מְפָרִיקְנָא וכ׳</he>, v. <cite ref=\"Q00844\"><he>פֵּירוּקָא</he></cite>. ",
+						"<cite ref=\"Shabbat 145a:1\">Sabb. 145ᵃ</cite> <he>הוא מותיב … מְפָרֵק לה</he> he raise an objection, and himself answered it. ",
+						"<cite ref=\"Avodah Zarah 50b:1\">Ab. Zar. 50ᵇ</cite> <he>דִּיפָרְקִינָהּ</he>, v. <cite ref=\"N00188\"><he>נַגָּרָא</he></cite>; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to redeem</i>. Y. Maas. Sh. IV, 54ᵈ <he>מְפָרֵק על פומיה</he> redeems according to his estimation; a. fr.",
+					"units": [],
+					"label": "4"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְרֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to cause a falling off of limbs</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 69b:1\">Gitt. 69ᵇ</cite> <he>דמַפְרִיק</he> because it causes &c."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפָּרֵיק"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְפְּרִיק", "אִיפְּרִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken, fall apart</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 54a:13\">Ber. 54ᵃ</cite> <he>אִתְפָּרְקָא ליה אשיתא וכ׳</he> (v. supra) the frame wall fell apart before him, and he went in."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be redeemed, released, delivered</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 19:20\">Targ. Lev. XIX, 20</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 33:16\">Targ. Ps. XXXIII, 16</cite>; a. fr.—",
+						"<cite ref=\"Yalkut Shimoni on Nach 1046\">Yalk. Esth. 1046</cite> <he>כיון … ולא אִיפְּרִיקוּ … לא מִיפְּרִיקוּ</he> when he (Ahasver) saw that the seventy years were full, and they were not delivered, he thought, since they are not now delivered, they will never be delivered; <cite ref=\"Megillah 11b:12\">Meg. 11ᵇ</cite> <he>אִיתְפְּרוּק</he> … <he>מִיפָּרְקֵי</he> Ms. M. (v. Rabb. D. S. a. l. note); a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be out of joint, dislocated</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 93a:3\">Ḥull. 93ᵃ</cite> <he>בהמה … פָּרוּקֵי מִפָּרְקָא</he> (or <he>מְפָרְקָא</he> part. pass. <i>Pa.</i>) an animal while alive makes movements by which the limbs are temporarily dislocated."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

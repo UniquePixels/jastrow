@@ -1,0 +1,49 @@
+{
+	"id": "U00372",
+	"slug": "שוט-1",
+	"headword": {
+		"text": "שׁוּט",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1531,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to swing, be light, move to and fro;</i> v. <cite ref=\"U00379\"><he>שׁוֹט</he> II</cite>,] <i>to roam, fly, float, swim</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 14a:12\">M. Kat. 14ᵃ</cite> <he>לָשׁוּט</he> if he goes abroad to roam (for mere pleasure), opp. <he>למזונות</he> for support, <he>להרויחא</he> for profit in business. ",
+				"<cite ref=\"Bava Batra 15b:12\">B. Bath. 15ᵇ</cite> (Satan says) <he>שַׁטְתִּי בכל וכ׳</he> I roamed all over the world, but have found none so faithful as &c. ",
+				"<cite ref=\"Mishnah Beitzah 5:2\">Bets. V, 2</cite> (<cite ref=\"Beitzah 36b:9\">36ᵇ</cite>) <he>לא שָׁטִין על פני המים</he> you must not float on the water (swim on the Sabbath). ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:3\">Y. Shek. VI, 50ᵃ</cite> top (ref. to <cite ref=\"Ezekiel 47:5\">Ez. XLVII, 5</cite>) <he>כי גאו המים מי שחו מִלָּשׁוּט</he> (omit <he>מהו מי שחו</he>, v. Rabb. D. S. a. l., p. 55) the waters were risen … too high for swimming; a. e.—[Y. B. Mets. VIII, end, 11ᵈ <he>בששטן</he>, read: <he>בששטפן</he>, v. <cite ref=\"U00762\"><he>שָׁטַף</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שׁוֹטֵט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00371\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 101:2\">Yalk. Gen. 101</cite> <he>עד שהיתה קומתו מְשׁוֹטֶטֶת בדמעות</he> until his body swam in tears."
+					]
+				}
+			],
+			"stem": "Pol."
+		},
+		{
+			"forms": ["הֵשִׁיט"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to swim, teach swimming</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 30b:12\">Kidd. 30ᵇ</cite> <he>אף לַהֲשִׁיטוֹ בנהר</he> a father is also bound to have his son taught swimming; <cite ref=\"Tosefta Kiddushin 1:11\">Tosef. ib. I, 11</cite>; <cite ref=\"Kohelet Rabbah 9:9:1\">Koh. R. to IX, 9</cite> <he>להושיטו</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

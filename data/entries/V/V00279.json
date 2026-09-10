@@ -1,0 +1,45 @@
+{
+	"id": "V00279",
+	"slug": "תורביינא",
+	"headword": {
+		"text": "תּוּרְבְּיָינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוּרְבְּיָנָא"
+		}
+	],
+	"page": {
+		"number": 1656,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00083\"><he>רְבֵי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>nursing father, educator</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 11:12\">Targ. O. Num. XI, 12</cite> (ed. Vien. <cite ref=\"V00305\"><he>תֻּרְ׳</he></cite>); <cite ref=\"Aramaic Targum to Song of Songs 2:6\">Targ. Cant. II, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:7\">Targ. Esth. II, 7</cite> (ed. Vien. <he>תּוּרְבֵּינ׳</he>).—Pl. <cite ref=\"V00279\"><he>תּוּרְבְּיָינַיָּא</he></cite>, <cite ref=\"V00279\"><he>תּוּרְבְּיָינֵי</he></cite>, <cite ref=\"V00279\"><he>תּוּרְבְּיָנ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 10:1\">Targ. II Kings X, 1</cite> (ed. Wil. <cite ref=\"V00283\"><he>תּוּרְבָּנַ׳</he></cite>); <cite ref=\"Targum Jonathan on Isaiah 49:23\">Targ. Is. XLIX, 23</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>young nobleman.—</i>Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 21:8\">Targ. I Kings XXI, 8</cite>; <cite ref=\"Targum Jonathan on I Kings 21:11\">11</cite> (h. text <cite ref=\"H01715\"><he>חֹרִים</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Esther 6:9\">Targ. Esth. VI, 9</cite>.—<i>Fem.</i> <cite ref=\"V00283\"><he>תּוּרְבִּינְתָּא</he></cite>, (<cite ref=\"V00283\"><he>תּוּרְבַּנְתָּא</he></cite>) <i>nurse, nursing mother</i>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 4:16\">Targ. Ruth IV, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 4:4\">Targ. II Sam. IV, 4</cite> <he>תורבנת׳</he> ed. Wil. (ed. Lag. <he>תורבנות׳</he>, corr. acc.). ",
+				"<cite ref=\"Targum of II Chronicles 22:12\">Targ. II Chr. XXII</cite> <he>תּוּרְבְּיַינְתּ׳</he> ed. Lag. (ed. Beck <he>תוביינ׳</he>, corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

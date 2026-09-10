@@ -1,0 +1,36 @@
+{
+	"id": "J00057",
+	"slug": "יבלת",
+	"headword": {
+		"text": "יַבֶּלֶת"
+	},
+	"page": {
+		"number": 561,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00091\"><he>נָבַל</he></cite>)<i>withered excrescence;</i>",
+			"units": []
+		},
+		{
+			"gloss": "<i>wart</i> on the skin. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 10:13\">Erub. X, 13</cite> (<cite ref=\"Eruvin 103a:6\">103ᵃ</cite>) <he>חותכין י׳ וכ׳</he> (Rashi in ed. Sonc. <cite ref=\"J00040\"><he>יַבּוֹלֶת</he></cite>, v. Rabb. D. S. a. l. note) you may cut off (on the Sabbath) a wart of an animal in the Temple. ",
+				"<cite ref=\"Eruvin 103a:6\">Ib.</cite>; <cite ref=\"Mishnah Pesachim 6:1\">Pes. VI, 1</cite> <he>חתיכת יַבַּלְתּוֹ</he> the cutting of its (the sacrifice’s) warts; <cite ref=\"Pesachim 68b:2\">ib. 68ᵇ</cite> (<he>י׳</he>) <cite ref=\"L00336\"><he>לחה</he></cite> a moist wart, <cite ref=\"J00073\"><he>יבשה</he></cite> whose neck is dried up; a. e.—Pl. <he>יַבָּלוֹת</he>. ",
+				"<cite ref=\"Mishnah Negaim 6:7\">Neg. VI, 7</cite>; <cite ref=\"Tosefta Negaim 2:12\">Tosef. ib. II, 12</cite> <cite ref=\"J00154\"><he>יובלת</he></cite> (corr. acc.); Sifra Thazr., Neg., Par. 1, ch. II <he>יַבּוֹלוֹת</he>, distinguished fr. <he>דלדולים</he> or <cite ref=\"V00639\"><he>תלתלים</he></cite>, v. <cite ref=\"D00806\"><he>דִּלְדּוּל</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>parasitic excrescences on trees</i>, or <i>withered twigs</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:2:2\">Y. Shebi. II, 33ᵈ</cite> top (expl. <he>מיבלין</he>, not <he>מזבלין</he>, Mish.) <he>מעבירין את היַבּוֹלֶת</he> to remove excrescences; v. <cite ref=\"J00050\"><he>יָבַל</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,78 @@
+{
+	"id": "M01911",
+	"slug": "מסי-2",
+	"headword": {
+		"text": "מְסֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסָא"
+		}
+	],
+	"page": {
+		"number": 806,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01910\">same</cite>, <i>to flow, melt away</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 17:10\">Targ. II Sam. XVII, 10</cite> <he>מִמַס יִמְסֵי</he> (ed. Wil. <he>יַמְסֵי</he> <i>Af.</i>), v. <cite ref=\"M01979\"><he>מְסַס</he></cite>.—Part. <cite ref=\"M01911\"><he>מָסֵי</he></cite>, f. <cite ref=\"M01914\"><he>מַסְיָא</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 5:21\">Targ. O. Num. V, 21</cite> (ed. Vienna <cite ref=\"M01914\"><he>מַסְּיָא</he></cite> = <he>מְמַסְּיָא</he>, v. infra)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַסֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to cause melting, falling away</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 39:12\">Targ. Ps. XXXIX, 12</cite> <cite ref=\"M01914\"><he>מַסְּיַת</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 5:22\">Targ. Y. Num. V, 22</cite> <he>למַסְיָא</he> = <he>למְמַסְיָא</he>.—Part. pass. <cite ref=\"M00052\"><he>מְמַסָּא</he></cite>, <he>מְמַסֵּי</he>, f. (<he>מְ</he>)<cite ref=\"M01914\"><he>מַסְּיָא</he></cite>, v. supra. ",
+						"<cite ref=\"Pesachim 28a\">Pes. 28ᵃ</cite> Rashi <he>לא מְמַסָּה</he> is not dissolved in water, v. <cite ref=\"M00028\"><he>מְאִיס</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַמְסֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M01910\">same</cite>. Targ. O. Num. l. c.; a. e.—Targ. II Sam. l. c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְמְסִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be melted, fall away</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 5:27\">Targ. Num. V, 27</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 26:39\">Targ. O. Lev. XXVI, 39</cite> (v. <cite ref=\"J00422\"><he>יְמַס</he></cite>); a. fr.—",
+						"<cite ref=\"Targum Jonathan on Genesis 7:21\">Targ. Y. Gen. VII, 21</cite> <he>אִתְהַמְסִי</he> (not <he>אתח׳</he>; h. text <he>ויגוע</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִיתִּימְסִי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M01910\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:6\">Targ. Ps. LXXVIII, 6</cite> Ms., v. <cite ref=\"M00028\"><he>מְאִיס</he></cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 68:3\">Ib. LXVIII, 3</cite> Ms. (ed. <i>Ithpe.</i>); a. fr. (in Ms.)."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

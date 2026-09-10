@@ -1,0 +1,22 @@
+{
+	"id": "M00067",
+	"slug": "מארע",
+	"headword": {
+		"text": "מְאָרַע"
+	},
+	"page": {
+		"number": 724,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אֲרַע</he> I, v. <cite ref=\"M00016\"><he>מְאוֹרָע</he></cite>) <i>that which is struck against, object of attack, mark</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 7:20\">Targ. Job VII, 20</cite> (h. text <he>מפגע</he>)."
+			]
+		}
+	]
+}

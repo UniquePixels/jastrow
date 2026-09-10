@@ -1,0 +1,47 @@
+{
+	"id": "J00681",
+	"slug": "ישוב",
+	"headword": {
+		"text": "יִשּׁוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "יִישּׁוּב"
+		}
+	],
+	"page": {
+		"number": 599,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00675\"><he>יָשַׁב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>settlement, inhabited land</i>, opp. <he>מדבר</he> or <cite ref=\"J00403\"><he>ים</he></cite>; <i>cultivation, social world, civilization; public welfare</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:15:1\">Koh. R. to I, 15</cite>; Ruth. R. to I, 17 <he>אם אין אדם מתקן ביי׳ וכ׳</he> if man does not prepare provision in the inhabited settlement (this world), what will he have to eat in the desert (the hereafter)?—",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 5:8:3\">Y. B. Kam. V, end, 5ᵃ</cite>, v. <cite ref=\"A00577\"><he>אָוָוז</he></cite>. ",
+				"<cite ref=\"Berakhot 31a\">Ber. 31ᵃ</cite>, v. <cite ref=\"J00675\"><he>יָשַׁב</he></cite>. ",
+				"<cite ref=\"Berakhot 58b:1\">Ib. 58ᵇ</cite> <he>הרואה בתי … ביִשּׁוּבָן</he> he who sees Israelitish places in their inhabitable condition (restoration), opp. <he>בחורבנן</he>. ",
+				"<cite ref=\"Berakhot 58b:4\">Ib.</cite> <he>עתיד הקב״ה להחזירו ליִשּׁוּבוֹ</he> the Lord will restore it again. ",
+				"<cite ref=\"Tamid 29b:27\">Tam. 29ᵇ</cite>; <cite ref=\"Bava Kamma 80b:15\">B. Kam. 80ᵇ</cite> <he>משום י׳ א״י</he> in order to maintain the cultivation of Palestine. Y. B. Bath. II, end, 13ᶜ <he>י׳ עולם בבורות</he> social welfare depends on wells; <he>באילנות</he> on trees. ",
+				"<cite ref=\"Mishnah Kiddushin 1:10\">Kidd. I, 10</cite> <he>אינו מן הי׳</he> does not belong to the civilized world. ",
+				"<cite ref=\"Bereishit Rabbah 35:3\">Gen. R. s. 35</cite> <he>בני אדם של י׳</he> civilized (polite) people; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with or without <cite ref=\"D00950\"><he>דעת</he></cite>) <i>ease of mind, calmness</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19:5\">Gen. R. s. 19</cite> <he>בי׳ הדעת באת עליו</he> she came to him with deliberation (logical arguments). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:1:14\">Y. Ned. I, 36ᵈ</cite> bot.; <cite ref=\"Bamidbar Rabbah 10:7\">Num. R. s. 10</cite> <he>מתיך י׳</he> (<he>הדעת</he>) in a calm state of mind, opp. <cite ref=\"A02935\"><he>אקפדה</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

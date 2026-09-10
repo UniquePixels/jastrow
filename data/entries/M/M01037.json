@@ -1,0 +1,27 @@
+{
+	"id": "M01037",
+	"slug": "מטעומיתא",
+	"headword": {
+		"text": "מַטְעוּמִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תָה"
+		}
+	],
+	"page": {
+		"number": 769,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00610\"><he>טְעַם</he></cite>) <i>exhilarating effect of the wine</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 3:8:5\">Y. Gitt. III, end, 45ᵇ</cite> <he>משום הדא מ׳</he> (the distinction between <cite ref=\"J00699\"><he>יָשָׁן</he></cite> and <cite ref=\"M01105\"><he>מְיוּשָּׁן</he></cite> is made) on account of its effect; Y. B. Bath. VI, end, 15ᶜ <he>מטמוע׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

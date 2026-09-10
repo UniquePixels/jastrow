@@ -1,0 +1,52 @@
+{
+	"id": "N01084",
+	"slug": "נפש-3",
+	"headword": {
+		"text": "נֶפֶשׁ"
+	},
+	"page": {
+		"number": 926,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N01083\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>resting place</i>, esp. <i>a structure next to</i> or <i>over a tomb</i>. Ohol. VII, 1 <he>נ׳ אטומה</he> a solid tomb-structure (to which there is no access). ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 2:5\">Shek. II, 5</cite> <he>מותר המת בונין לו נ׳ וכ׳</he> from what is left over of the appropriation for funeral expenses, we build a monument &c.; (<cite ref=\"Bereishit Rabbah 82:10\">Gen. R. s. 82</cite> <cite ref=\"B00753\"><he>בַּיִת</he></cite>). ",
+				"<cite ref=\"Tosefta Eiruvin 6:4\">Tosef. Erub. VI</cite> (<cite ref=\"Tosefta Eiruvin 5:4\">V</cite>), 4, sq.; <cite ref=\"Eruvin 55b:10\">Erub. 55ᵇ</cite> (contrad. to <he>קבר</he>).—Pl. <he>נְפָשׁוֹת</he>. ",
+				"<cite ref=\"Mishnah Eruvin 5:1\">Ib. V, 1</cite> <he>נ׳</he> sepulchres (containing a place of shelter). ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 2:5:1\">Y. Shek. II, 47ᵃ</cite> top; Gen. R. l. c. <he>אין עושין נ׳ וכ׳</he> no monuments need be put up for the righteous, v. <cite ref=\"G00470\"><he>זִכָּרוֹן</he></cite>. ",
+				"<cite ref=\"Tosefta Ohalot 17:4\">Tosef. Ohol. XVII, 4</cite> <he>חוקת נ׳ שבא״י וכ׳</he> the presumption in the case of sepulchres in Palestine is that they are levitically clean, except those marked."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>soul, life; person; will, desire, disposition</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 4:6\">B. Mets. IV, 6</cite> <he>שאינו אלא נ׳ רעה</he> for it (the refusal of a coin on the ground of a slight abrasion) proves merely a malevolent soul (illiberality in dealing); <cite ref=\"Bava Metzia 52b:10\">ib. 52ᵇ</cite>, v. <cite ref=\"S00204\"><he>קְהֵי</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 14:10\">Gen. R. s. 14</cite> (names of the soul) <he>נ׳ רוח וכ׳</he>. ",
+				"<cite ref=\"Bereishit Rabbah 14:10\">Ib.</cite> <he>נ׳ זו הדם</he> <i>nefesh</i> means blood (life). ",
+				"<cite ref=\"Bereishit Rabbah 14:10\">Ib.</cite> (ref. to <cite ref=\"Genesis 2:7\">Gen. II, 7</cite>, a. ",
+				"<cite ref=\"Genesis 7:22\">VII, 22</cite>) <he>כאן הוא עושה נשמה נ׳ וכ׳</he> here the text calls the soul (<cite ref=\"N01334\"><he>נשמה</he></cite>) <i>nefesh</i>, and there, <i>ruaḥ</i> (spirit); <cite ref=\"Genesis 7:22\">ib.</cite> s. 32.—",
+				"<cite ref=\"Mishnah Sanhedrin 4:5\">Snh. IV, 5</cite> <he>נ׳ אחת</he> one (person’s) life. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:1:2\">Y. Taan. III, beg. 66ᵇ</cite> <he>מכיון שנתנו ב״ד נַפְשָׁן וכ׳</he> as soon as the court has declared its will to do a thing. ",
+				"<cite ref=\"Niddah 65b:62\">Nidd. 65ᵇ</cite>, a. fr. <he>בעל נ׳</he> one who is master over his desire, <i>a conscientious man</i>.—",
+				"<cite ref=\"Berakhot 44b:9\">Ber. 44ᵇ</cite> <he>כל נ׳ משיב את הנ׳</he> all life (animal food) restores life; <he>וכל קרוב לנ׳ וכ׳</he> and what is nearest life (the neck which contains the jugular vein) &c.—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:7:5\">Y. Keth. V, 30ᵇ</cite> top <he>דברים שהן קיום נ׳</he> things required for sustaining life. ",
+				"<cite ref=\"Yoma 74b:10\">Yoma 74ᵇ</cite> <he>אבידת נ׳</he>, v. <cite ref=\"A00131\"><he>אֲבֵירָה</he></cite>; a. v. fr.—<he>דחה נ׳</he>, v. <cite ref=\"D00397\"><he>דָּחָה</he></cite>.—Sifra M’tsorʿa, Zab., Par. 3, ch. VI <he>ואם נַפְשְׁךָ לומר וכ׳</he> (= <he>ואיבעית אימא</he>, v. <cite ref=\"B01037\"><he>בְּעֵי</he></cite>) or if you prefer (another argument); <cite ref=\"Chullin 78b\">Ḥull. 78ᵇ</cite> bot. ",
+				"<cite ref=\"Chullin 78b:12\">Ib.</cite> <he>מה ואם נפשך לומר</he> why should you prefer another argument?, i.e. what objection can there be to the argument offered before?—(<cite ref=\"M00000\"><he>מ</he></cite>)<he>מה נפשך</he>, v. <cite ref=\"M00340\"><he>מָה</he></cite>.—",
+				"<cite ref=\"Mishnah Chullin 4:7\">Ḥull. IV, 7</cite> (<cite ref=\"Chullin 77a:11\">77ᵃ</cite>) <he>נ׳ היפה</he> <i>one not fastidious</i>.—",
+				"<cite ref=\"Bava Batra 89a:9\">B. Bath. 89ᵃ</cite> <he>נ׳ מאזנים</he> <i>the opening in which the tongue of scales rests</i> (agina).—Pl. as ab. <he>דיני נ׳</he>, v. <cite ref=\"D00635\"><he>דִּין</he> II</cite>. Snh. l. c. <he>עדי נ׳</he> witnesses in capital cases.—",
+				"<cite ref=\"Mishnah Yoma 8:6\">Yoma VIII, 6</cite> <he>ספק נ׳</he> the possibility of danger to human life; <cite ref=\"Shabbat 129a:21\">Sabb. 129ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

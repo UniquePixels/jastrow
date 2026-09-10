@@ -1,0 +1,31 @@
+{
+	"id": "H00653",
+	"slug": "חיבובא",
+	"headword": {
+		"text": "חִיבּוּבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיבּוּב"
+		},
+		{
+			"text": "חִבּ׳"
+		}
+	],
+	"page": {
+		"number": 450,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00012\"><he>חבב</he></cite>) <i>love; loved object</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 6:7\">Targ. Mic. VI, 7</cite>; a. e.—",
+				"<cite ref=\"Shabbat 130a\">Sabb. 130ᵃ</cite>, v. <cite ref=\"H00013\"><he>חֲבַב</he></cite>."
+			]
+		}
+	]
+}

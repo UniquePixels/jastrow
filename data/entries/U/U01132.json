@@ -1,0 +1,35 @@
+{
+	"id": "U01132",
+	"slug": "שכונא",
+	"headword": {
+		"text": "שְׁכוּנָא"
+	},
+	"page": {
+		"number": 1571,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01174\"><he>שְׁכַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dwelling, tent; apartment.—</i>Pl. <he>שְׁכוּנִין</he>, <he>שְׁכוּנַיָּא</he>, <he>שְׁכוּנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 8:11\">Targ. Jud. VIII, 11</cite>; <cite ref=\"Targum Jonathan on Jeremiah 3:2\">Targ. Jer. III, 2</cite>; <cite ref=\"Targum Jonathan on Jeremiah 9:25\">IX, 25</cite>; <cite ref=\"Targum Jonathan on Jeremiah 25:24\">XXV, 24</cite>.—",
+				"<cite ref=\"Bava Batra 29b\">B. Bath. 29ᵇ</cite>; <cite ref=\"Bava Batra 159b:12\">159ᵇ</cite> <he>אנא בש׳ גוואי הואי</he> I lived in the interior departments (and had the right to pass the premises which you occupied; therefore you cannot claim undisputed possession)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>group of buildings, neighborhood.—</i>Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 34:16\">Lev. R. s. 34</cite>; <cite ref=\"Yalkut Shimoni on Nach 352:3\">Yalk. Is. 352</cite>, v. <cite ref=\"U01134\"><he>שְׁכוּנְתָּא</he></cite>.—[<cite ref=\"U01132\"><he>שְׁכוּנָא</he></cite> f., v. <cite ref=\"U01134\"><he>שְׁכוּנְתָּא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

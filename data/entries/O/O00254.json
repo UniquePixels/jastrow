@@ -1,0 +1,32 @@
+{
+	"id": "O00254",
+	"slug": "סוגעא",
+	"headword": {
+		"text": "סוּגְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּגְעָה"
+		}
+	],
+	"page": {
+		"number": 961,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00161\"><he>סְגַע</he></cite>) <i>plenty, largeness</i>; (adv.) <i>much, frequently</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:25\">Targ. Job XXXI, 25</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:19\">Targ. Prov. X, 19</cite> (ed. Lag. <cite ref=\"O00247\"><he>סוּגְאָה</he></cite>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 51:4\">Targ. Ps. LI, 4</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 22:8\">Targ. I Chr. XXII, 8</cite>; a. fr.—Pl. <he>סוּגְעֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 33:16\">Targ. Ps. XXXIII, 16</cite> Ms. (ed. <he>סִגְעֵי</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 33:17\">Ib. 17</cite> (ed. <he>סגעי</he>; some ed. <cite ref=\"O00141\"><he>סְגִיעֵי</he></cite>); a. fr."
+			]
+		}
+	]
+}

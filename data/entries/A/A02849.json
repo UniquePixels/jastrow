@@ -1,0 +1,28 @@
+{
+	"id": "A02849",
+	"slug": "אפתקא",
+	"headword": {
+		"text": "אַפְתְּקָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "הַפְתְּקָא"
+		}
+	],
+	"page": {
+		"number": 110,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02196\"><he>פתק</he></cite>, cmp. <cite ref=\"E00775\"><he>הֶפְתֵּק</he></cite>) <i>ladle with which provision is dealt out</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 39a:11\">Snh. 39ᵃ</cite> <he>מחא ביה בא׳</he> (Rashi <he>באפתקיה</he>, Ms. M. <he>מחייה בהפתקיה</he>) he (the servant) warned him (Ms. M. struck him) with his ladle; (Rashi: struck him on his <i>neck</i> (!), v. <cite ref=\"A02777\"><he>אַפְקוֹתָא</he></cite>)."
+			]
+		}
+	]
+}

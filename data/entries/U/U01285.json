@@ -1,0 +1,44 @@
+{
+	"id": "U01285",
+	"slug": "שלטון-1",
+	"headword": {
+		"text": "שִׁלְטוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1581,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01284\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rulership</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 321\">Sifré Deut. 321</cite>; <cite ref=\"Yalkut Shimoni on Torah 945\">Yalk. ib. 945</cite> <cite ref=\"U01286\"><he>שִׁלְטוֹנָן</he></cite>, v. <cite ref=\"P00742\"><he>עֶכֶן</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <he>בעל</he>) <i>ruler, governor</i>. Sifra B’ḥuck. Par. 1, ch. III <he>ש׳ אחד בא … זה שׁוּלְטָן וכ׳</he> one governor comes and subjugates (Israel), and goes away, and another governor comes &c. Tanḥ. Vayera 19 (ref. to <cite ref=\"Ecclesiastes 8:4\">Koh. VIII, 4</cite>) <he>ש׳ הוא ואין וכ׳</he> God is the ruler, and none can protest against him. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 8:1:8\">Y. Ber. VIII, 12ᵃ</cite> top <he>מלך יוצא וש׳ נכנס וכ׳</he> when the king goes out, and the governor comes in, they escort the king first, and then they lead the governor in (the benediction for the exit of the Sabbath must precede that for the entrance of the Holy Day). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:12:4\">Y. Sot. IX, 24ᵇ</cite> top; <cite ref=\"Tosefta Sotah 15:7\">Tosef. ib. XV, 7</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:6:2\">Y. Kidd. III, 64ᵇ</cite> top <he>במה שאדבר עליך לש׳</he> (be betrothed unto me) for the consideration that I shall speak to the governor in thy behalf; a. fr.—<i>Pl.</i> <he>שִׁלְטוֹנִים</he>, <he>שִׁלְטוֹנִין</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 82:14\">Gen. R. s. 82</cite> <he>עד היכן היו מלכיות וש׳ רוצים וכ׳</he> how anxious courts and governors were to be connected with him (v. <cite ref=\"U00425\"><he>שׁוּלְטָנוּת</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 82\">Ib.</cite> <he>הוא היה … הש׳</he> he (Lotan) was one of the governors (ref. to <cite ref=\"A01825\"><he>אלוף</he></cite>, <cite ref=\"Genesis 36:29\">Gen. XXXVI, 29</cite>); a. fr.—[<cite ref=\"Bereishit Rabbah 93\">Gen. R. s. 93</cite> <he>שני שי׳ זולגות דם</he>, read with <cite ref=\"Yalkut Shimoni on Nach 897:5\">Yalk. Job 897</cite>: <he>עינו של ימין זולגת דם</he>.]—<i>Fem.</i> <cite ref=\"U01288\"><he>שִׁלְטוֹנִית</he></cite>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>; pl. <cite ref=\"U01288\"><he>שִׁלְטוֹנִיּוֹת</he></cite>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> <he>שהיו השילטונים והש׳ מחסדים וכ׳</he> (or <he>מחסדות</he>, not <he>מחסר׳</he>) the governors and their wives insulted Sarah &c.—[<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite> <he>שלטוניות</he>, ed. Wil., v. <cite ref=\"U00425\"><he>שׁוּלְטָנוּת</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

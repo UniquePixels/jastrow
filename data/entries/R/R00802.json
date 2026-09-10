@@ -1,0 +1,26 @@
+{
+	"id": "R00802",
+	"slug": "צרפית-2",
+	"headword": {
+		"text": "צָרְפִית",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1304,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"R00803\">next w.</cite>) <i>the woman of Zarephath</i> that entertained Elijah (<cite ref=\"I Kings 17:8\">I Kings XVII, 8</cite> sq.). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:2:3\">Y. Ber. V, 9ᵇ</cite> top. ",
+				"<cite ref=\"Bereishit Rabbah 50:11\">Gen. R. s. 50</cite>; <cite ref=\"Yalkut Shimoni on Torah 84:8\">Yalk. ib. 84</cite>; <cite ref=\"Yalkut Shimoni on Nach 209:5\">Yalk. Kings 209</cite>; <cite ref=\"Pesikta Rabbati 3\">Pesik. R. s. 3</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 4\">Pesik. R. s. 4</cite>, v. <cite ref=\"K00755\"><he>כִּלְכֵּל</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 550\">Yalk. Jon. 550</cite> <he>יונה</he> … <he>בן צ׳ אלמנה היה</he> Jonah … was the son of the widow of Zarephath."
+			]
+		}
+	]
+}

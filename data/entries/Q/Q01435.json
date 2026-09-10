@@ -1,0 +1,36 @@
+{
+	"id": "Q01435",
+	"slug": "פציעה",
+	"headword": {
+		"text": "פְּצִיעָה"
+	},
+	"page": {
+		"number": 1205,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01439\"><he>פָּצַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>splitting, cracking</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 75a:5\">Sabb. 75ᵃ</cite> <he>פ׳ בכלל דישה</he> opening the purple snail (squeezing the fluid out) is an act coming under the category of threshing."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an open wound</i>.—Pl. <he>פְּצִיעוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 37b:10\">Snh. 37ᵇ</cite>; Tanḥ. ",
+				"<cite ref=\"Genesis 9\">B’resh. 9</cite>, a. e. <he>פ׳ פ׳</he> several wounds, contrad. to <he>חבורות</he>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:6:6\">Y. Kil. IX, end, 32ᵈ</cite> <he>היו בראשו פ׳</he> (not <he>בראשי פצעיות</he>) if one has several wounds on his head."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "G00514",
+	"slug": "זמי-1",
+	"headword": {
+		"text": "זְמֵי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "זְמָא"
+		}
+	],
+	"page": {
+		"number": 402,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"G00528\"><he>זָמַם</he> II</cite>) <i>to bind over, to fine</i> (cmp. <he>אסר</he>, <cite ref=\"H00231\"><he>חוב</he></cite> &c.). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 22:19\">Targ. Y. Deut. XXII, 19</cite> (h. text <he>ענש</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַזְמֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"G00513\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> <he>יזמי להון</he>, read <he>מַזְמֵי</he> he (the Roman officer) fines them; <cite ref=\"Yalkut Shimoni on Nach 959:37\">Yalk. Prov. 959</cite> <he>מומי להון</he> (corr. <he>מז׳</he>); Pesik. Shek., p. 11ᵇ <he>ומומיה ליה</he>, Ms. O. <he>ומזמי ליה</he>; <cite ref=\"Yalkut Shimoni on Torah 386\">Yalk. Ex. 386</cite> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִזְדְּמֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be fined; to lose</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>דבני אחתיה מִזְדַּמְיָין ת״ש וכ׳</he> Ar. (ed. <he>מתבעין מן מלכותא</he>) that his sister’s son will be fined (or lose) seven hundred Denars. ",
+						"<cite ref=\"Vayikra Rabbah 34\">Ib.</cite> <he>או אתון מארמאין</he> (read: <he>מִזְדַּמָּאִין</he>, <i>Ithpa.</i>; <cite ref=\"Yalkut Shimoni on Torah 665:8\">Yalk. Lev. 665</cite> <he>מזדמיין</he>) or you will pay &c. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 665:8\">Ib.</cite> <he>דילמא … דאנן מז׳</he> (Yalk. l. c. <he>דאינון</he>, corr. acc.) didst thou know that we are destined to lose &c.? Ib. <he>דאינון מארסוון</he> (Yalk. l. c. <he>דאתון מזדמיין</he>), v. <cite ref=\"A02260\"><he>אֲנַס</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

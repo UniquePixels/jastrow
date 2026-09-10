@@ -1,0 +1,33 @@
+{
+	"id": "A01748",
+	"slug": "אכפת",
+	"headword": {
+		"text": "אִכְפַּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיכְפַּת"
+		},
+		{
+			"text": "אִיכַּפַת"
+		}
+	],
+	"page": {
+		"number": 65,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A01745\"><he>אכף</he></cite>; cmp. b. h. <cite ref=\"A01745\"><he>אֶכֶף</he></cite>) <i>burden, care, solicitude</i>, followed by <he>ל־</he> of the person concerned. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 21:13\">Targ. I Chr. XXI, 13</cite> <cite ref=\"A01748\"><he>אִיכַּפַת</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 5:2:9\">Y. Sot. V, 20ᵇ</cite> top <he>וביתא מאי אכפה ליה</he> what concern is the Temple to him? <cite ref=\"Taanit 25a:5\">Taan. 25ᵃ</cite> <he>מאי אי׳ לך</he> why should that trouble thee? <cite ref=\"Bava Metzia 40a:6\">B. Mets. 40ᵃ</cite> <he>וכי מאי א׳ וכ׳</he> what do the mice care whether &c. ",
+				"<cite ref=\"Kohelet Rabbah 4:1:1\">Koh. R. to IV, 1</cite> <he>זה מה אי׳ ליה</he> what concern is it to this one (if the other sinned), i.e. why should he suffer for it?; a. fr. ",
+				"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite>, beg. <he>אי׳ להם</he> will people care for them (miss them)? <cite ref=\"Gittin 62a:8\">Git. 62ᵃ</cite> <he>מכפת לא אכפת ליה</he> should he not care for it? Cmp. <he>כפת</he>."
+			]
+		}
+	]
+}

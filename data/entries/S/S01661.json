@@ -1,0 +1,27 @@
+{
+	"id": "S01661",
+	"slug": "קסיטרון",
+	"headword": {
+		"text": "קַסִּיטְרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַסִּטְ׳"
+		}
+	],
+	"page": {
+		"number": 1396,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " m. <cite ref=\"S01660\">same</cite>. Y. Snh. VII, 24ᵇ bot. (expl. <he>בעץ</he>) <he>אבר וקסטיטיריון מעורבין</he> (corr. acc., or <cite ref=\"S01661\"><he>קַסִּיטִירוֹן</he></cite>) lead and tin mixed. ",
+			"units": [
+				"<cite ref=\"Tosefta Kelim Kamma 7:7\">Tosef. Kel. B. Kam. VII, 7</cite> <he>אין מקיפין בק׳ וכ׳</he> you must not make a rim of tin, because &c., v. <cite ref=\"Q02165\"><he>פָּתִיל</he></cite>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 3:4\">Ib. III, 4</cite> <he>ועשאה בבעץ ובקנטרין</he> (corr. acc.) and mended it with tin or cassiterum (v. <cite ref=\"B01060\"><he>בַּעַץ</he></cite>); <cite ref=\"Tosefta Kelim Kamma 3:4\">ib.</cite> ",
+				"<cite ref=\"Mishnah Bava Metzia 1:8\">B. Mets. I, 8</cite>. ",
+				"<cite ref=\"Tosefta Bava Batra 5:9\">Tosef. B. Bath. V, 9</cite> <he>של בעץ ושל אבר ושל קסטירון</he> ed. Zuck. (oth. ed. <cite ref=\"S01079\"><he>קיספורון</he></cite>, corr. acc.) weights of tin, or of lead, or of cassiterum; <cite ref=\"Bava Batra 89b:4\">B. Bath. 89ᵇ</cite> <he>גיסטרין</he>, v. <cite ref=\"C01173\"><he>גַּסִּיטְרוֹן</he></cite>."
+			]
+		}
+	]
+}

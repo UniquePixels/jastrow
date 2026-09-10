@@ -1,0 +1,30 @@
+{
+	"id": "U00785",
+	"slug": "שיבבותא",
+	"headword": {
+		"text": "שֵׁיבְבוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁבְ׳"
+		}
+	],
+	"page": {
+		"number": 1556,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00784\">preced.</cite>) <i>neighborhood</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 15:11\">Targ. Y. I Deut. XV, 11</cite>.—",
+				"<cite ref=\"Shabbat 119a:2-5\">Sabb. 119ᵃ</cite> <he>הוה … בשֵׁבְבוּתֵיה</he> there was a gentile in his neighborhood. ",
+				"<cite ref=\"Sotah 22a\">Sot. 22ᵃ</cite> <he>ההיא אלמנה … בשֵׁיבְבוּתָהּ</he> a widow in whose neighborhood was a synagogue; <he>לא … בשֵׁיבְבוּתָךְ</he> is there no synagogue in thy own neighborhood? <cite ref=\"Taanit 23b:7\">Taan. 23ᵇ</cite> <he>הנהו … בשֵׁיבְבוּתָן</he> (it happened on account) of those lawless people that lived in their neighborhood. ",
+				"<cite ref=\"Berakhot 10a\">Ber. 10ᵃ</cite>, v. <cite ref=\"B01250\"><he>בַּרְיוֹנָא</he></cite>; a. fr."
+			]
+		}
+	]
+}

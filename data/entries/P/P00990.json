@@ -1,0 +1,23 @@
+{
+	"id": "P00990",
+	"slug": "ענייתא",
+	"headword": {
+		"text": "עַנְיְיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1095,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עֲנֵי</he> I) <i>turn, chance</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:4:3\">Y. Sot. I, 16ᵈ</cite> bot. <he>הא עַנְיְיתִיךְ תיעלין וכ׳</he> here is thy chance by which thou mayest be enabled to come to thy house again; (<cite ref=\"Bamidbar Rabbah 9:20\">Num. R. s. 9</cite> <he>ענתיך</he>)."
+			]
+		}
+	]
+}

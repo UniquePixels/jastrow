@@ -1,0 +1,31 @@
+{
+	"id": "S00120",
+	"slug": "קדוש-2",
+	"headword": {
+		"text": "קְדוֹשׁ"
+	},
+	"page": {
+		"number": 1314,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (denom. of <cite ref=\"S00119\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to become sanctified, consecrated</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 100a:17\">Men. 100ᵃ</cite> <he>לִיקְדּוֹשׁ</he>, v. <cite ref=\"Q01239\"><he>פְּסוֹל</he></cite>; <cite ref=\"Yoma 29b:6\">Yoma 29ᵇ</cite> <he>תִּקְדּוֹשׁ</he>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be betrothed</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 12b:11\">Kidd. 12ᵇ</cite> <he>תיקדוש וכ׳</he> let her be betrothed by means of the four Zuz which are wrapped up &c."
+			],
+			"label": "2"
+		}
+	]
+}

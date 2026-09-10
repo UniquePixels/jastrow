@@ -1,0 +1,25 @@
+{
+	"id": "R00490",
+	"slug": "צלוב-2",
+	"headword": {
+		"text": "צְלוּב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1282,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00479\"><he>צָלַב</he></cite>) <i>stake, gallows</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 56:3\">Gen. R. s. 56</cite> <he>צְלוּבוֹ</he>, v. <cite ref=\"K01381\"><he>כָּתֵף</he></cite>; <cite ref=\"Pesikta Rabbati 31\">Pesik. R. s. 31</cite>. ",
+				"<cite ref=\"Mishnah Yevamot 16:3\">Yeb. XVI, 3</cite> <he>צָלוּב על הצליב</he> Y. ed. (corr. acc.) nailed to the stake; Y. ib. 15ᶜ bot. ",
+				"<cite ref=\"Mishnah Shabbat 6:10\">Sabb. VI, 10</cite>, v. <cite ref=\"M01969\"><he>מַסְמָר</he></cite>; a. e."
+			]
+		}
+	]
+}

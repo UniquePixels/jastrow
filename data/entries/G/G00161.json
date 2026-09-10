@@ -1,0 +1,35 @@
+{
+	"id": "G00161",
+	"slug": "זוטר-1",
+	"headword": {
+		"text": "זוּטַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 386,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"G00162\">next w.</cite>) <i>to be small, young</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 5a:6\">Ḥag. 5ᵃ</cite> <he>שכיב אַדְּז׳</he> (Ms. M. 2 <he>אדיניק</he>) died young."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְזוּטַר", "אִיזּוּטַר"],
+			"senses": [
+				{
+					"gloss": "<i>to shrink; to appear small</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 50b:6\">Ned. 50ᵇ</cite> <he>עד דמִתְזוּטְרָא כי וכ׳</he> until it is so reduced in size that you can swallow it.—",
+						"<cite ref=\"Sanhedrin 95a\">Snh. 95ᵃ</cite> <he>אי׳ בעיניה</he> (En Yak. <he>אִדְּזוֹטַר</he>) it seemed to him a small enterprise."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

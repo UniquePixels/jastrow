@@ -1,0 +1,27 @@
+{
+	"id": "S01437",
+	"slug": "קמא-1",
+	"headword": {
+		"text": "קָמָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "קָאמָא"
+		}
+	],
+	"page": {
+		"number": 1383,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>קָא אֲמָא</he>) <i>he says</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 3b\">Pes. 3ᵇ</cite> <he>מאי דק׳</he> Ar. what is it he says? (ed. <he>מאי האי דקמן</he>; Ms. M. <he>מאי דקמן</he> what is this before us?). ",
+				"<cite ref=\"Bava Batra 140b\">B. Bath. 140ᵇ</cite> <he>מאי דק׳</he> (Var. <he>דקאמא</he>) Ar. (ed. <he>מאי קאמר</he>). ",
+				"<cite ref=\"Ketubot 67b:7\">Keth. 67ᵇ</cite> <he>אמר מאי דקאמא</he> Ar. (ed. <he>דקמא</he>) he (the beggar) said what he said (as mentioned before); [Rashi: <he>אמר רבא מאי דקַמָּא</he> Raba said, what is this before me?, i.e. what does this mean?]. [<cite ref=\"Sotah 2b\">Sot. 2ᵇ</cite> bot., read as Rashi <he>מאי דקמָּא</he>.]"
+			]
+		}
+	]
+}

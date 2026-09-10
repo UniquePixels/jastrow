@@ -1,0 +1,57 @@
+{
+	"id": "P01401",
+	"slug": "ערס-1",
+	"headword": {
+		"text": "עָרַס"
+	},
+	"page": {
+		"number": 1120,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"A03210\"><he>אָרַס</he></cite>) <i>to connect, intertwine, braid</i> &c.—Denom. <cite ref=\"P01366\"><he>עָרִיס</he></cite>, <cite ref=\"P01369\"><he>עֲרִיסָה</he></cite>, <cite ref=\"P01404\"><he>עֶרֶס</he></cite> &c.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עֵירֵס", "עֵרֵס"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"P01366\"><he>עָרִיס</he></cite>) <i>to form an arbor</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kilayim 4:7\">Kil. IV, 7</cite> <he>אם עֵרְסָן מלמעלה</he> if he connected them (the two rows of vines) above so as to form an arbor."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"P01369\"><he>עֲרִיסָה</he></cite>) <i>to start dough</i>, contrad. to <cite ref=\"L00325\"><he>לוש</he></cite>. Y. Pes. III, 30ᵃ; Y. Bets. I, 60ᵈ top <he>ע׳ לא אמר אלא לש וכ׳</he> the Boraitha does not say, ‘if one started dough’, but, ‘if one kneaded’; but if one started (on the eve of a Holy Day), this prohibition does not apply.—In gen. <i>to knead, work in</i> (cmp. <cite ref=\"P01375\"><he>עָרַךְ</he></cite>). ",
+					"units": [
+						"<cite ref=\"Berakhot 37b:8\">Ber. 37ᵇ</cite> <he>בשעֵרְסָנ</he> when he worked the crumbs again into a compact mass; <cite ref=\"Menachot 75b:9\">Men. 75ᵇ</cite> <he>בשעירסן</he>. Y. Ḥall. I, 57ᵇ, v. <cite ref=\"P01039\"><he>עָסוּת</he></cite>.—Part. pass. <he>מְעוֹרָס</he>. ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>וההן נשוך לאו כמע׳ הוא</he> (not <he>כמעירס</he>) and that lump of dough made by pressing several pieces together (v. <cite ref=\"N01325\"><he>נָשַׁךְ</he></cite>),—is that not the same as if worked together?"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֶעֱרַס"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְעָרֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to become connected, compact</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 110:2\">Sifré Num. 110</cite> (ref. to <he>ערסתכם</he>, <cite ref=\"Numbers 15:20\">Num. XV, 20</cite>, sq.) <he>משיִתְעָרֵס</he> (it is subject to Ḥallah) from the time it has become a compact mass; Yalk. ib. 748 <he>משתֵּעָרֵס</he>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

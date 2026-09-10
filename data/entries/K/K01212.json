@@ -1,0 +1,28 @@
+{
+	"id": "K01212",
+	"slug": "כרכמישא",
+	"headword": {
+		"text": "כַּרְכְּמִישָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְכִּימִ׳"
+		}
+	],
+	"page": {
+		"number": 670,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. a. denomin. of <cite ref=\"K01212\"><he>כַּרְכְּמִישׁ</he></cite>) <i>lead</i> (plumbum). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 19:24\">Targ. Job XIX, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 31:22\">Targ. Y. I Num. XXXI, 22</cite>."
+			]
+		}
+	]
+}

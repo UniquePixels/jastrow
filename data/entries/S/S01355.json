@@ -1,0 +1,75 @@
+{
+	"id": "S01355",
+	"slug": "קלל-3",
+	"headword": {
+		"text": "קָלַל"
+	},
+	"page": {
+		"number": 1377,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to swing</i>] <i>to be light, slender, unimportant</i>.—Part. <cite ref=\"S01229\"><he>קַל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 6:5\">Snh. VI, 5</cite> (ref. to <he>קללת</he>, <cite ref=\"Deuteronomy 21:23\">Deut. XXI, 23</cite>) <he>בזמן … קַלַּנִי מראשי וכ׳</he> when man suffers punishment, what does the Shekhinah say? ‘I am lighter than my head, than my arm’ (euphem. for, I feel my head heavy &c.); Y. ib. 23ᵈ bot. <he>אנן תנינן קַלֵּינִי</he> (= <he>קל איני</he>) we read <i>ḳalleni</i>, I am not lighter; <he>אית תניי תני קל אני</he> some Tannai reads <i>ḳal ăni</i>; <he>מאן דאמר קליני לית הוא אלא קליל</he> according to him that reads <i>ḳalleni</i>, it is a euphemistic expression for ‘light’ (i.e. my head is light, I feel giddy; my arm is light, I feel weak); <he>מאן דאמר קלני … נטיל</he> according to the version <i>ḳallani</i>, it is a euphemistic expression for ‘heavy’ (i.e. my head, my arm is heavy); Bab. ib. 46ᵇ Abbayi says <he>כמאן דאמר קל לית</he> (read <i>ḳalleni</i>) as one says, ‘light (I am) not’ (i.e. I feel heavy, without euphemism)—(which is refuted by Raba, who explains the word in question) <he>קליל לי עלמא</he>, v. <cite ref=\"S01336\"><he>קַלִּיל</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵיקַל", "הֵקַל"],
+			"senses": [
+				{
+					"gloss": ", <he>הֵקיל</he> I) <i>to lighten</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 17b:15\">M. Kat. 17ᵇ</cite> <he>הכביד … מֵיקַל וכ׳</he> if the mourner’s hair is too heavy, he may make it lighter with a razor; Y. ib. III, 82ᵃ top. ",
+						"<cite ref=\"Mishnah Eruvin 4:9\">Erub. IV, 9</cite> <he>להָקֵל על העשיר</he> to make it easy for the rich man; a. fr.—Trnsf. <he>ה׳ ראשו</he> <i>to be irreverent, talk frivolously</i> (v. <cite ref=\"S01300\"><he>קַלּוּת</he></cite>). ",
+						"<cite ref=\"Mishnah Berakhot 9:5\">Ber. IX, 5</cite> <he>לא יָקֵל אדם את ראשו כנגד וכ׳</he> man (a pilgrim coming to Jerusalem) must not behave irreverently in sight of the eastern gate &c. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 24\">Yalk. Gen. 24</cite> <he>מֵיקֶלֶת ראשה</he> she is frivolous (light-minded); <cite ref=\"Yalkut Shimoni on Nach 265\">Yalk. Is. 265</cite> <he>מֵקֶילֶת ראש</he>; (<cite ref=\"Bereishit Rabbah 18:2\">Gen. R. s. 18</cite> <he>מיקרת</he>, v. <cite ref=\"J00580\"><he>יָקַר</he></cite>).—2) <i>to be lenient; to incline towards the less restrictive practice</i>, opp. <cite ref=\"H01218\"><he>החמיר</he></cite>, v. <cite ref=\"H01218\"><he>חָמַר</he> I</cite>. Y. M. Kat. l. c. <he>הלכה כדברי מי שהוא מיקל</he> the adopted practice follows the opinion of him who is more lenient; <cite ref=\"Eruvin 46a\">Erub. 46ᵃ</cite>, a. fr. <he>כדברי המיקל וכ׳</he>. ",
+						"<cite ref=\"Yevamot 88a:10\">Yeb. 88ᵃ</cite> <he>הֵיקַלְתָּ עליה</he>, v. <cite ref=\"H01218\"><he>חָמַר</he> I</cite>. ",
+						"<cite ref=\"Pesachim 52b\">Pes. 52ᵇ</cite>, v. <cite ref=\"M00151\"><he>מַגִּיד</he></cite>. Erub. l. c. wherever you find <he>יחיד מיקל ורבים וכ׳</he> an individual scholar favoring the more lenient practice against several in favor of restriction. ",
+						"<cite ref=\"Shabbat 129a\">Sabb. 129ᵃ</cite>, a. fr. <he>ספק נפשות להָקל</he> where there is a doubt involving the endangering of human life, the more lenient rule is applied; a. fr.—3) <i>to be sparing, beggarly</i>. ",
+						"<cite ref=\"Shabbat 129a\">Ib.</cite> <he>כל המיקל … מְקִילִין לו מזוניתיו וכ׳</he> he that stints himself at the meal taken after blood-letting, to him they in heaven will give his sustenance stintingly; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["קִלֵּל"],
+			"senses": [
+				{
+					"gloss": " [<i>to diminish</i>,] <i>to curse</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 7:6\">Keth. VII, 6</cite> <he>מְקַלֶּלֶת</he>, v. <cite ref=\"J00187\"><he>יִוֹלֵד</he></cite>. ",
+						"<cite ref=\"Shabbat 62b:13\">Sabb. 62ᵇ</cite> <he>שאשתו מְקַלַּלְתּוֹ בפניו</he> whom his wife curses in his presence. ",
+						"<cite ref=\"Pesachim 87b:17\">Pes. 87ᵇ</cite> (ref. to <cite ref=\"Proverbs 30:10\">Prov. XXX, 10</cite> sq.) <he>אפו׳ דור שאביו יְקַלֵּל וכ׳</he> even if it be a generation of men that curse their father …, do not denounce &c. ",
+						"<cite ref=\"Yoma 75a:4\">Yoma 75ᵃ</cite> <he>ק׳ את הנחש וכ׳</he> God cursed the serpent, yet it climbs up the roof and finds its food. ",
+						"<cite ref=\"Sotah 11a:14\">Sot. 11ᵃ</cite> (expl. <he>ועלה</he>, <cite ref=\"Exodus 1:10\">Ex. I, 10</cite>, as euphem. for <he>ועלינו</he>) <he>כאדם שמְקַלֵּל את עצמו וכ׳</he> like a man that wants to curse himself (express an ill omen about himself), and hangs his curse on others. ",
+						"<cite ref=\"Bava Batra 88b:10\">B. Bath. 88ᵇ</cite> <he>הקב״ה בירך … וקִלְּלָן וכ׳</he> the Lord blessed Israel with the twenty-two letters of the alphabet (from <cite ref=\"A00000\"><he>א</he></cite> of <he>אם</he>, <cite ref=\"Leviticus 26:3\">Lev. XXVI, 3</cite>, to <cite ref=\"V00000\"><he>ת</he></cite> of <he>קוממיות</he>, <cite ref=\"Leviticus 26:13\">ib. 13</cite>), and cursed them with eight letters (from <cite ref=\"F00000\"><he>ו</he></cite> of <he>ואם</he>, ib. 14, to <he>ם</he> of <he>נפשם</he>, ib. 43). ",
+						"<cite ref=\"Sanhedrin 70a:19\">Snh. 70ᵃ</cite> <he>מתוך שקלקלו … קִלְּלוֹ ברביעי</he> because Ham injured him by (preventing his begetting) a fourth son, he (Noah) cursed him by his fourth son (Canaan). ",
+						"<cite ref=\"Sanhedrin 91b:18\">Ib. 91ᵇ</cite> <he>כל המונע … שבמעי אמן מְקַלְּלִין אותו</he> (not <he>אמו</he>) he that withholds a tradition from his pupil, even the embryos in their mother’s womb will curse him; <cite ref=\"Yalkut Shimoni on Nach 947:26\">Yalk. Prov. 947</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְקַלֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be cursed</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 61a:10\">Ber. 61ᵃ</cite> <he>בתחלה נ׳ … נִתְקַלְּלָה וכ׳</he> the serpent was cursed first, and then Eve &c.; <cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>; <cite ref=\"Eruvin 18a:18\">Erub. 18ᵃ</cite>. ",
+						"<cite ref=\"Eruvin 18b:18\">Ib. 18ᵇ</cite> <he>נתקללה בבל נִתְקַלְּלוּ וכ׳</he> when Babylon was cursed, her neighbors were cursed. ",
+						"<cite ref=\"Bekhorot 8a:15\">Bekh. 8ᵃ</cite> <he>אם מבהמה נתקללה וכ׳</he> if she (Eve) was cursed (with prolonged pregnancy) more than cattle &c. ",
+						"<cite ref=\"Bekhorot 8a\">Ib.</cite> <he>נ׳ הוא … אחת לשבע</he> it (the serpent) was cursed seven times more than certain cattle. ",
+						"<cite ref=\"Bekhorot 8a:17\">Ib.</cite> <he>נ׳ הוא מחיה</he> (not <cite ref=\"S01415\"><he>נתקלקל</he></cite>); a. fr.—[<cite ref=\"Tosefta Sotah 2:3\">Tosef. Sot. II, 3</cite> <he>ניקללה ניוולה</he>, Var. <he>ניקל</he>, read: <he>ניקתה בניוולה</he>, v. <cite ref=\"N01193\"><he>נָקָה</he></cite> <i>Nif.</i>]"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "K00182",
+	"slug": "כובא-3",
+	"headword": {
+		"text": "כּוּבָּא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 616,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K00028\"><he>כְּבַב</he></cite> <i>Pa.</i>) <i>roasted</i> or <i>charred dough</i>, <he>כ׳ דארעא</he> <i>roasted</i> (<i>over coals</i>) <i>in a cavity of the ground</i>, name of <i>a pastry baked in a cavity made in the stove</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 37b:11\">Ber. 37ᵇ</cite>, expl. <cite ref=\"I00739\"><he>טרוקנין</he></cite>. ",
+				"<cite ref=\"Berakhot 38a:1\">Ib. 38ᵃ</cite>. [Ar. s. v. <cite ref=\"K00656\"><he>ככא</he></cite>, reads <cite ref=\"K00248\"><he>כוכא</he></cite>.] [<cite ref=\"Gittin 68a:13\">Gitt. 68ᵃ</cite> bot., v. <cite ref=\"K00248\"><he>כּוֹכָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "V00214",
+	"slug": "תולדתא",
+	"headword": {
+		"text": "תּוּלְדְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹלְ׳"
+		}
+	],
+	"page": {
+		"number": 1653,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00213\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>she that bore, mother</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 23:25\">Targ. Prov. XXIII, 25</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <cite ref=\"V00214\"><he>תּוּלְדָתָא</he></cite>, <cite ref=\"V00314\"><he>תּוֹ׳</he></cite> <i>generations, history</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:4\">Targ. Gen. II, 4</cite>. ",
+				"<cite ref=\"Onkelos Genesis 5:1\">Ib. V, 1</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>kinship</i>, v. <cite ref=\"V00213\">preced.</cite>",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

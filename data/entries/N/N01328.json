@@ -1,0 +1,65 @@
+{
+	"id": "N01328",
+	"slug": "נשל-1",
+	"headword": {
+		"text": "נָשַׁל"
+	},
+	"page": {
+		"number": 940,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U01214\"><he>שָׁלָה</he></cite>)<i>to strike off, chip</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Makkot 2:6\">Tosef. Macc. II, 6</cite> <he>נ׳ הברזל מן העץ המתבקע</he> if the iron (axe) chipped a piece off the wood which was to be split (and the chip struck a person dead); v. <cite ref=\"N01313\"><he>נְשִׁילָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to slip off, fall off</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite> <he>נָשְׁלוּ איבריו</he> his limbs fell off (by decay; <cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite> <he>נָשְׁרוּ</he>; <cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite> <he>נשרן</he>, <he>נשרין</he>, ch.). ",
+				"<cite ref=\"Makkot 7b:19\">Macc. 7ᵇ</cite> <he>ונָשַׁל קרינן</he>, v. infra."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִישֵּׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to strike off, to cause chips to fly off</i>. Ib. <he>ונִישֵּׁל כתיב</he> <i>v’nashal</i> (<cite ref=\"Deuteronomy 19:5\">Deut. XIX, 5</cite>) may be read <i>v’nishshel</i> (<i>Pi.</i>) and the iron chips off a part of the wood &c., v. supra; <he>ונָשַׁל קרינן</he> the traditional reading is <i>v’nashal</i>, and the iron slips out of the helve (v. <cite ref=\"A01961\"><he>אֵם</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִישָּׁל", "נִישּׁוֹל"],
+			"senses": [
+				{
+					"gloss": "<i>to fall off, decay</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 37\">Lev. R. s. 37</cite>, end <he>שהיה נ׳ ממנו אבר אבר וכ׳</he> limb after limb fell off his body and was buried each in a different place; <cite ref=\"Vayikra Rabbah 37\">ib.</cite> <he>נ׳ אבר אבר</he>; <cite ref=\"Kohelet Rabbah 10:15\">Koh. R. to X, 15</cite>; <cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 9:21\">Num. R. s. 9</cite> <he>יהא בשרה נ׳</he> her flesh (limbs) shall fall off; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשִּׁיל"],
+			"senses": [
+				{
+					"gloss": "<i>to let fall, drop</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Beitzah 5:1\">Bets. V, 1</cite> <he>מַשִּׁילִין פירות וכ׳</he> you may let down fruit (that was spread on the roof) through the aperture &c.; (versions ib. 35ᵇ: <he>משחילין</he>, <he>משירין</he>, <he>מנשירין</he>, <he>משחירין</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

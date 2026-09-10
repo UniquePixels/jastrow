@@ -1,0 +1,47 @@
+{
+	"id": "P00815",
+	"slug": "עלל-1",
+	"headword": {
+		"text": "עָלַל"
+	},
+	"page": {
+		"number": 1083,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.  עוֹלֵל <i>Pol. to bring about</i>) <i>to go about</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"O00409\"><he>סוּר</he></cite> I ch.) <i>to superintend, be busy</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 6:10\">Koh. R. to VI, 10</cite> … <he>מלך ומסרו לאריס לַעֲלוֹל בו</he> a King that had a vineyard and gave it in charge of a tenant to attend to it (ed. Wil. <he>לעֹמול</he>).—<i>Part. pass.</i> <he>עָלוּל</he>; f. <cite ref=\"P00776\"><he>עֲלוּלָה</he></cite>; pl. <he>עֲלוּלִים</he>, <he>עֲלוּלִין</he>; <he>עֲלוּלוֹת</he> [<i>brought about</i>,] <i>liable, likely</i> (cmp. <cite ref=\"T00191\"><he>רָגִיל</he></cite>). ",
+				"<cite ref=\"Niddah 7b:48\">Nidd. 7ᵇ</cite> <he>ע׳ לקבל טומאה</he> likely to catch uncleanness; <cite ref=\"Tosefta Makhshirin 2:11\">Tosef. Makhsh. II, 11</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <he>ל־</he>; cmp. <cite ref=\"O00408\"><he>סוּר</he> I</cite>) <i>to ascend, land, enter</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 6:5:1\">Koh. R. to VI, 5</cite> <he>למה לא עָלַלְתָּה למדינה</he> why didst thou not visit the city?; <he>ואת שירדת ועָלַלְתָּ</he> and thou who didst go down (leave the ship) and visit; (Yalk. ib. 972 <cite ref=\"P00003\"><he>עאל</he></cite>, <cite ref=\"P00845\"><he>עלת</he></cite>, <he>עיילת</he>, v. <cite ref=\"P00241\"><he>עוּל</he></cite>, a. <cite ref=\"P00816\">next w.</cite>). ",
+				"<cite ref=\"Avodah Zarah 71a:4\">Ab. Zar. 71ᵃ</cite> <he>עוֹל תחתי לעוצר</he> go for me to the collector (settle with him)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְעַלֵּל"],
+			"senses": [
+				{
+					"gloss": " (b. h.), <i>Nithpa.</i> <cite ref=\"H01073\"><he>נִתְעַלֵּל</he></cite> [<i>to busy one’s self</i>,] <i>to sport, abuse</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 58a:3\">Gitt. 58ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 276:1\">Yalk. Jer. 276</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

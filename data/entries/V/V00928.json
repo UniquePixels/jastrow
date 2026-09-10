@@ -1,0 +1,26 @@
+{
+	"id": "V00928",
+	"slug": "תרבות-2",
+	"headword": {
+		"text": "תַּרְבּוּת",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּרְבּוּתָא"
+		}
+	],
+	"page": {
+		"number": 1695,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00927\">same</cite>, <i>training, manner</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:12\">Targ. Y. Gen. XXI, 12</cite> <he>נפק מתרבותך</he> has gone out of (abandoned) thy teaching.—",
+				"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>יתמחק … לת׳ בישא</he> be that man’s name blotted out, for he has led my son to a bad life."
+			]
+		}
+	]
+}

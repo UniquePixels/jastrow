@@ -1,0 +1,29 @@
+{
+	"id": "S00088",
+	"slug": "קבע-5",
+	"headword": {
+		"text": "קֶבַע"
+	},
+	"page": {
+		"number": 1311,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00087\">preced.</cite>) <i>appointment, permanency, institution; regular, perfunctory act</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:3:12\">Y. Ber. II, 4ᶜ</cite> bot. <he>אכילת ק׳</he> a regular meal; <he>שינת ק׳</he> a regular sleep, v. <cite ref=\"P01241\"><he>עַרְאַי</he></cite>. ",
+				"<cite ref=\"Yoma 10b:5\">Yoma 10ᵇ</cite>, v. <cite ref=\"D00731\"><he>דִּירָה</he> I</cite>. ",
+				"<cite ref=\"Mishnah Berakhot 4:1\">Ber. IV, 1</cite> <he>תפלת … אין לה ק׳</he> for the evening prayer there is no fixed law, expl. ",
+				"<cite ref=\"Berakhot 27b:13\">ib. 27ᵇ</cite> <cite ref=\"T01079\"><he>רשות</he></cite> it is optional. ",
+				"<cite ref=\"Mishnah Berakhot 4:4\">Ib. IV, 4</cite> <he>העושה … ק׳ וכ׳</he> the prayer of one who treats it as a perfunctory obligation, is not a means of grace. ",
+				"<cite ref=\"Pirkei Avot 2:13\">Ab. II, 13</cite> <he>אל … ק׳ אלא רחמים וכ׳</he> make not thy prayer a perfunctory act, but a means of mercy and grace. ",
+				"<cite ref=\"Pirkei Avot 1:15\">Ib. I, 15</cite> <he>עשה תורתך ק׳</he> make thy study of the Law a regular engagement. ",
+				"<cite ref=\"Bamidbar Rabbah 2:1\">Num. R. s. 2</cite>, beg. <he>משם … ק׳ שמתפללים וכ׳</he> from this the institution of three daily prayers is derived; a. fr."
+			]
+		}
+	]
+}

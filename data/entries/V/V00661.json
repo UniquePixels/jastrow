@@ -1,0 +1,26 @@
+{
+	"id": "V00661",
+	"slug": "תמונה",
+	"headword": {
+		"text": "תְּמוּנָה"
+	},
+	"page": {
+		"number": 1676,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; cmp. <cite ref=\"M01207\"><he>מִין</he> II</cite>)<i>form, shape</i>. Mekh. Yithro, s. 6 (ref. to <cite ref=\"Exodus 20:4\">Ex. XX, 4</cite>) [<cite ref=\"J00357\"><he>יכול</he></cite>] <he>לא יעשה לו גלופה … אטומה ת״ל כל ת׳</he> I may think (from the word <he>פסל</he>) that one must not make for himself a carved figure, but may make a block: therefore the text says, ‘nor any shape.’",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " substitute of <cite ref=\"V00667\"><he>תְּמוּרָה</he></cite>, v. <cite ref=\"V00662\">next art.</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

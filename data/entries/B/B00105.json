@@ -1,0 +1,38 @@
+{
+	"id": "B00105",
+	"slug": "בדאי",
+	"headword": {
+		"text": "בַּדַּאי"
+	},
+	"page": {
+		"number": 138,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בדי</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>liar, misrepresenting</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 89b:13\">Snh. 89ᵇ</cite> (prov.) <he>כך עונשו של ב׳ וכ׳</he> such is the punishment of the liar &c.; Ab. d’R. Nath. ch. XXX; <cite ref=\"Bereishit Rabbah 94:3\">Gen. R. s. 94</cite> <he>מה טיבו של ב׳ הזה</he>; v. <cite ref=\"I00295\"><he>טִיב</he></cite>. ",
+				"<cite ref=\"Kiddushin 49a:11\">Kidd. 49ᵃ</cite> he who translates a Bible verse literally (v. <he>צורה</he>), <he>הרי זה ב׳</he> is a liar (misrepresenting the sense)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>invention, fiction</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 5:15\">Deut. R. s. 5</cite>, a. fr. <he>דברים של ב׳</he> fictitious words (mitigating the original report); <cite ref=\"Devarim Rabbah 5:15\">ib.</cite> <he>דברי ב׳</he>.—Pl. <cite ref=\"B00937\"><he>בַּדָּאִים</he></cite>, <cite ref=\"B00937\"><he>בַּדָּאִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 4:7:2\">Y. Gitt. IV, 46ᵃ</cite> bot. <he>נמצאו הדברים ב׳</he> things turned out to be false. ",
+				"<cite ref=\"Bava Batra 74a:5\">B. Bath. 74ᵃ</cite>; <cite ref=\"Sanhedrin 110a:17\">Snh. 110ᵃ</cite>; <cite ref=\"Sanhedrin 110b:1\">110ᵇ</cite> Moses and his laws are true <he>והן ב׳</he> and they (euphem. for <i>we</i>) are liars. ",
+				"<cite ref=\"Tosefta Ketubot 2:1\">Tosef. Keth. II, 1</cite> <he>ב׳ אנו</he> (ed. Zuck. <he>מבודין</he>) we have been telling a falsehood."
+			],
+			"label": "2"
+		}
+	]
+}

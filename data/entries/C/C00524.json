@@ -1,0 +1,30 @@
+{
+	"id": "C00524",
+	"slug": "גזוזטרא",
+	"headword": {
+		"text": "גְּזוּזְטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּזוּזְטְרָה"
+		}
+	],
+	"page": {
+		"number": 228,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. h. a. ch. (= <he>גְּזוֹזְרָה</he>, reduplic. of <he>גזר</he>; b. h. equival. <cite ref=\"C00580\"><he>גִּזְרָה</he></cite> q. v.; cmp. <cite ref=\"B01080\"><he>בְּצוֹצְרָה</he></cite>) <i>enclosure, balcony</i>. Ohol. XIV, 1 <he>הזיז וכ׳</he> the <i>ziz</i> is a projection the finished side of which faces the ground, <he>והגז׳ וכ׳</he> Ar. s. v. <cite ref=\"G00321\"><he>זיז</he></cite> (ed. <he>והגיזרה</he>) while <i>g’zuztra</i> is one facing upward. ",
+			"units": [
+				"<cite ref=\"Mishnah Zavim 4:1\">Zab. IV, 1</cite> <he>על גז׳</he> Ar. (ed. <he>כצוצרא</he>).—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 41:13\">Targ. Ezek. XLI, 13</cite> <he>גז׳</he> Ar. (ed. Koh. <he>כזוזטרא</he>; Targ. ed. <he>בצורתא</he>). ",
+				"<cite ref=\"Mishnah Middot 2:5\">Midd. II, 5</cite> <he>ג׳</he> Ar. (ed. <he>כצוצרא</he>).—Pl. (… <he>טְרוֹת</he>) <he>גְּזוּזְטְרָאוֹת</he>. ",
+				"<cite ref=\"Tosefta Sukkah 4:1\">Tosef. Succ. IV, 1</cite>; <cite ref=\"Sukkah 51b:10\">Succ. 51ᵇ</cite> Ms. M. (ed. sing.). [Ar. <cite ref=\"C00527\"><he>גְּזוֹזְרִיּוֹת</he></cite>, <cite ref=\"C00525\"><he>גְּזוּזְטְרִיּוֹת</he></cite>, <he>כסוסראות</he>, <he>כסוסטראות</he>, <he>כצוצריות</he>, <he>כצוצטראות</he>.] [Tosef. Erub. IX (VI), 27 <cite ref=\"C00531\"><he>גזוסטרא</he></cite> ed. Zuck., Var. <he>גזוז׳</he>.]"
+			]
+		}
+	]
+}

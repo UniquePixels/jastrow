@@ -1,0 +1,32 @@
+{
+	"id": "O00144",
+	"slug": "סגירה",
+	"headword": {
+		"text": "סְגִירָה"
+	},
+	"page": {
+		"number": 955,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00165\"><he>סָגַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>closing in, use of the root</i> <he>סגר</he>. Mekh. B’shall. s. 1.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>enclosure</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13:19\">Num. R. s. 13</cite> <he>משלימים לסְגִירַת האהל וכ׳</he> completing the enclosure of the Tabernacle on its sides and that of the court from all sides."
+			],
+			"label": "2"
+		}
+	]
+}

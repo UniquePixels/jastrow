@@ -1,0 +1,26 @@
+{
+	"id": "I00826",
+	"slug": "טרית",
+	"headword": {
+		"text": "טָרִית"
+	},
+	"page": {
+		"number": 554,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נטר</he>, cmp. <cite ref=\"A01106\"><he>אִטְּרִי</he></cite>) <i>preserve, pickle</i>, esp. <i>salted</i> or <i>pickled fish</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 6a:8\">Meg. 6ᵃ</cite> <he>טמוני זו ט׳</he> ‘stored things’ (<cite ref=\"Deuteronomy 33:19\">Deut. XXXIII, 19</cite>) refers to <i>tarith</i> (as a valuable article of commerce); <cite ref=\"Sifrei Devarim 354:8\">Sifré Deut. 354</cite>; <cite ref=\"Bamidbar Rabbah 13:17\">Num. R. s. 13</cite>.—",
+				"<cite ref=\"Mishnah Avodah Zarah 2:6\">Ab. Zar. II, 6</cite> <he>ט׳ טרופה</he> brine containing hashed <i>tarith</i> (when you cannot recognize the clean and unclean fish). ",
+				"<cite ref=\"Mishnah Avodah Zarah 2:6\">Ib.</cite> <he>ט׳ שאינה טרופה</he> in which the fish can be recognized. ",
+				"<cite ref=\"Mishnah Nedarim 6:4\">Ned. VI, 4</cite> he who vows abstinence from ‘fish’ <he>מותר בט׳ טרופה</he> is permitted to partake of hashed <i>t.</i> ",
+				"<cite ref=\"Berakhot 44a:5\">Ber. 44ᵃ</cite>"
+			]
+		}
+	]
+}

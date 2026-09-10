@@ -1,0 +1,32 @@
+{
+	"id": "Q00646",
+	"slug": "פייטן",
+	"headword": {
+		"text": "פַּיְיטָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּיְיטָנָא"
+		},
+		{
+			"text": "פַּיְיטָנָה"
+		}
+	],
+	"page": {
+		"number": 1162,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00183\"><he>פוט</he></cite>, v. <cite ref=\"Q00598\"><he>פִּיּוּט</he></cite>) <i>speaker</i>, esp. (by adaptation to ποιήτης) <i>composer of alphabetical acrostics, poet</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite> <he>דהוה … פ׳ ודרשן</he> he was teacher of Bible and of Mishnah, speaker (poet) and preacher; Pesik. U’kaḥ., p. 179ᵃ (Ar. ed. Koh. <cite ref=\"Q00201\"><he>פּוֹיְיטָן</he></cite>, oth. ed. <he>פייטם</he>, <he>פייטס</he>, corr. acc.); <cite ref=\"Shir HaShirim Rabbah 3:6\">Cant. R. to III, 6</cite> <he>פייטויי</he> (corr. acc.). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:7\">Ib. to I, 1</cite> <he>הדין פ׳ כד עביד וכ׳</he> when a poet writes &c., v. <cite ref=\"A01936\"><he>אלפ״א</he></cite>; <cite ref=\"Kohelet Rabbah 1:13\">Koh. R. to I, 13</cite> <cite ref=\"Q00201\"><he>פּוֹיְיטָנָא</he></cite>.—<i>Pl.</i> (h.) <he>פַּיְיטָנִים</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 983\">Yalk. Cant. 983</cite> (ref. to <he>חרוזים</he>, <cite ref=\"Song of Songs 1:10\">Cant. I, 10</cite>) <he>אלו הפ׳</he> this refers to the poets (in Israel)."
+			]
+		}
+	]
+}

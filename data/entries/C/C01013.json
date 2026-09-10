@@ -1,0 +1,28 @@
+{
+	"id": "C01013",
+	"slug": "גמזא",
+	"headword": {
+		"text": "גַּמְזָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר גַּמְזָא"
+		}
+	],
+	"page": {
+		"number": 252,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Bar Gamza</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:44\">Lam. R. to I, 15</cite> (Ar. s. v. <he>סח</he> 3: <he>בורגיא</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "Q01440",
+	"slug": "פצע-2",
+	"headword": {
+		"text": "פְּצַע"
+	},
+	"page": {
+		"number": 1206,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q01439\">same</cite> <cite ref=\"Targum Jonathan on Genesis 22:3\">Targ. Y. Gen. XXII, 3</cite> Ar. (ed. <he>קטע</he>; h. text <he>בקע</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 5:26\">Targ. Jud. V, 26</cite>, v. <cite ref=\"Q01389\"><he>פְּעַע</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 93\">Gen. R. s. 93</cite> (ref. to <he>בי</he>, <cite ref=\"Genesis 44:18\">Gen. XLIV, 18</cite>) <he>בי ולא ביה … אם למִפְצַע קיסין אנא וכ׳</he> take me, not him (Benjamin), if for drawing water, I am (strong enough to do it), if for attendance, I am &c., if for splitting wood, I &c.—Part. pass. <cite ref=\"Q01434\"><he>פָּצִיעַ</he></cite>; f. <cite ref=\"Q01435\"><he>פְּצִיעָא</he></cite>. ",
+				"<cite ref=\"Genesis 44:18\">Ib.</cite> s. 68 <he>דין מוחיה פ׳</he> (some ed. <he>פצועין</he>, corr. acc.) this one had his skull fractured; <cite ref=\"Vayikra Rabbah 8\">Lev. R. s. 8</cite> <cite ref=\"Q01435\"><he>פְּצִיעָה</he></cite>; <cite ref=\"Bamidbar Rabbah 3:6\">Num. R. s. 3</cite> <he>דין רישיה פצוע ודין ידיה פצוע</he> (corr. acc.) the one had his head broken, the other, his arm; Tanḥ. Ki Thissa 5; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּצַּע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01439\">same</cite>. Y. Snh. II, 20ᶜ bot. <he>חמא … מְפַצַּע קיסין</he> he saw R. Ḥ. … split wood.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

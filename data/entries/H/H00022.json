@@ -1,0 +1,22 @@
+{
+	"id": "H00022",
+	"slug": "חבוט-2",
+	"headword": {
+		"text": "חָבוּט"
+	},
+	"page": {
+		"number": 416,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00040\"><he>חָבַט</he></cite>) <i>pressed down</i>, esp. <i>ḥabut</i>, a legal fiction by which an inclined projection is assumed to be like a horizontal plane. ",
+			"units": [
+				"<cite ref=\"Eruvin 9a:5\">Erub. 9ᵃ</cite> <he>או לבוד … או ח׳ אמרינן וכ׳</he> either we assume the fiction of a junction (v. <cite ref=\"L00050\"><he>לָבוּד</he></cite>) or of <i>ḥabut</i>, but both of them we do not assume. [Rashi reads <he>חֲבוֹט</he> or ch. <he>חביט</he>, as imperative: <i>press it down</i>.]"
+			]
+		}
+	]
+}

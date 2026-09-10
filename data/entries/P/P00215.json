@@ -1,0 +1,29 @@
+{
+	"id": "P00215",
+	"slug": "עוז-1",
+	"headword": {
+		"text": "עוּז"
+	},
+	"page": {
+		"number": 1048,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הֵעִיז</he>, v. <cite ref=\"P00403\"><he>עָזַז</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

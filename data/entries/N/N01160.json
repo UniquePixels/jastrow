@@ -1,0 +1,40 @@
+{
+	"id": "N01160",
+	"slug": "נקבות",
+	"headword": {
+		"text": "נְקֵבוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְקֵי׳"
+		}
+	],
+	"page": {
+		"number": 930,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01159\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>female genitals, female sex</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 82b\">Snh. 82ᵇ</cite>; (Y. ib. X, 28ᵈ bot., a. e. <cite ref=\"S00849\"><he>קיבה</he></cite>). ",
+				"<cite ref=\"Yevamot 83b:9\">Yeb. 83ᵇ</cite> <he>בנ׳ שלו</he> at his (the hermaphrodite’s) female organ; (Y. ib. VIII, end, 9ᵈ <he>מקום נְקֵיבָה</he>). Ib. <he>צר נְקֵיבוּתוֹ</he> (ed. Krot. <he>נְקֵיבָתוֹ</he>) inasmuch as he is a female, v. <cite ref=\"G00471\"><he>זַכְרוּת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the broadside of a double tool</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 31b\">Bets. 31ᵇ</cite>, v. <cite ref=\"G00471\"><he>זכְרוּת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

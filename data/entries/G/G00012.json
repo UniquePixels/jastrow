@@ -1,0 +1,37 @@
+{
+	"id": "G00012",
+	"slug": "זבדי",
+	"headword": {
+		"text": "זַבְדַּי"
+	},
+	"page": {
+		"number": 377,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Zabday</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " name of an Amora <i>Z.</i> <i>bar Levi</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 28b:5\">Zeb. 28ᵇ</cite>; (<cite ref=\"Keritot 5a\">Kerith. 5ᵃ</cite> <cite ref=\"G00010\"><he>זַבְדָּא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Demai 7:1:4\">Y. Dem. VII, beg. 26ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:11\">Y. Ab. Zar. III, 42ᶜ</cite> <he>זַבְדַּיי בר ליואי</he>; <cite ref=\"Bereishit Rabbah 62:1\">Gen. R. s. 62</cite> <he>זבדי בן לוי</he>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:5:3\">Y. Ber. III, 6ᶜ</cite> bot. <he>אבא בר זבדא</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:5:3\">Ib.</cite> <he>יעקב בר זבדי</he>."
+			],
+			"label": "2"
+		}
+	]
+}

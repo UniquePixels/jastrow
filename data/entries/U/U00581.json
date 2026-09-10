@@ -1,0 +1,24 @@
+{
+	"id": "U00581",
+	"slug": "שותא-2",
+	"headword": {
+		"text": "שׁוּתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1544,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"U00877\"><he>שיחתא</he></cite>; <cite ref=\"U00724\"><he>שְׁחַת</he></cite>; Assyr. šûtu, Del. Assyr. Handw., p. 648) [<i>destruction</i>,] <i>shutha, a severe south wind;</i> [Ar.: <i>east wind</i>]. ",
+			"units": [
+				"<cite ref=\"Shabbat 32a:4\">Sabb. 32ᵃ</cite> <he>ביומא דש׳</he> on a day when the <i>shutha</i> blew. ",
+				"<cite ref=\"Yevamot 72a:3\">Yeb. 72ᵃ</cite> <he>יומא דעיבא ויימא דש׳ וכ׳</he> on a cloudy day and on a <i>shutha</i> day we do not perform circumcision &c."
+			]
+		}
+	]
+}

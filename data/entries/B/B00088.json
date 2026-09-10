@@ -1,0 +1,25 @@
+{
+	"id": "B00088",
+	"slug": "בגר-3",
+	"headword": {
+		"text": "בֶּגֶר"
+	},
+	"page": {
+		"number": 138,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00087\">preced. ws.</cite>) <i>age of majority</i> (of females). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:13\">Y. Kidd. I, 59ᵇ</cite> <he>ימות הב׳</he> the period of majority. Y. B. Bath. IX, beg. 16ᵈ. ",
+				"<cite ref=\"Kiddushin 4a:18\">Kidd. 4ᵃ</cite> <he>ב׳ דאיילונית</he> majority of a barren (or wombless) woman (who has no signs of maturity and becomes of age at twenty years). ",
+				"<cite ref=\"Ketubot 38b:10\">Keth. 38ᵇ</cite> <he>יש ב׳ בקבר</he> can the legal consequences of becoming of age enter after the woman’s death? [Other form: <cite ref=\"B00210\"><he>בּוֹגֶר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:3:2\">Y. Keth. V, 29ᵈ</cite> <he>לאחר בּוֹגְרָהּ</he> after her becoming of age.] V. <cite ref=\"B00092\"><he>בַּגְרוּת</he></cite>."
+			]
+		}
+	]
+}

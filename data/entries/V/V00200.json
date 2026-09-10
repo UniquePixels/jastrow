@@ -1,0 +1,23 @@
+{
+	"id": "V00200",
+	"slug": "תוכה",
+	"headword": {
+		"text": "תּוֹכָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1652,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"V00196\"><he>תּוֹךְ</he> II</cite>, a. <cite ref=\"V00535\"><he>תְּכַךְ</he></cite>) <i>pressure, emphatic expression</i>; (adv., cmp. <cite ref=\"D00326\"><he>דַּוְקָא</he></cite>) <i>exactly, only</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 1:10:4\">Y. Keth. I, 25ᵈ</cite> <he>ת׳ שבציפורין בעל</he> this is the law only when the seduction took place in Sepphoris itself."
+			]
+		}
+	]
+}

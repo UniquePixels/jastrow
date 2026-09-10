@@ -1,0 +1,22 @@
+{
+	"id": "T00166",
+	"slug": "רגומא-1",
+	"headword": {
+		"text": "רָגוֹמָא"
+	},
+	"page": {
+		"number": 1447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00212\"><he>רְגַם</he></cite>) <i>slinger, archer</i>.—Pl. <he>רָגוֹמַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:18\">Targ. Lam. I, 18</cite>."
+			]
+		}
+	]
+}

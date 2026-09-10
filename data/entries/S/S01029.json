@@ -1,0 +1,29 @@
+{
+	"id": "S01029",
+	"slug": "קינוניא",
+	"headword": {
+		"text": "קִינוֹנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְנוֹ׳"
+		}
+	],
+	"page": {
+		"number": 1363,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κοινωνία) <i>partnership</i>; (used in an evil sense) <i>conspiracy to defraud and divide the profits</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 10:7\">B. Bath. X, 7</cite> (<cite ref=\"Bava Batra 173b:2\">173ᵇ</cite>) <he>הערב … שמא יעשו קינ׳ וכ׳</he> Y. ed. a. Bab. (Mish. ed. <he>קנ׳</he>) if one has become surety to a woman for her jointure, and her husband divorces her, the husband must vow that he will never accept any benefit from her (so that he cannot remarry her), lest they form a conspiracy against the guarantor’s property and (after collecting the jointure) he take his wife back. Y. B. Mets. I, end, 8ᵃ a note of indebtedness found must not he returned <he>מפני ק׳</he> because a conspiracy may be formed (between the creditor and the debtor to collect the debt, already cancelled, from the purchaser of the debtor’s land, v. <cite ref=\"L00664\"><he>לְקוּחוֹת</he></cite>); Bab. ",
+				"<cite ref=\"Bava Metzia 13a:11\">B. Mets. 13ᵃ</cite> <he>חייש לפרעון ולק׳</he> (Abayi forbids the restoration of the note, because) he apprehends that it may have been paid, and a conspiracy may be formed; <he>לא חיישינן … וק׳</he> we do not apprehend &c. ",
+				"<cite ref=\"Tosefta Kiddushin 3:5\">Tosef. Kidd. III, 5</cite> <he>על מנת … שמא עשו ק׳</he> if one says to a woman, be betrothed unto me on the condition that …: she is betrothed, because we apprehend a conspiracy (between them to annul the betrothal without a formal Geṭ); a. e."
+			]
+		}
+	]
+}

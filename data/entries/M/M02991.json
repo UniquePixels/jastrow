@@ -1,0 +1,24 @@
+{
+	"id": "M02991",
+	"slug": "משתוקא",
+	"headword": {
+		"text": "מִשְׁתּוֹקָא"
+	},
+	"page": {
+		"number": 859,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U02134\"><he>שְׁתַק</he></cite>) <i>silence</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 10:3\">Targ. Y. Lev. X, 3</cite>.—",
+				"<cite ref=\"Megillah 18a:11\">Meg. 18ᵃ</cite>, a. e. <he>מלה בסלע מ׳ בתרין</he> a word is worth a Sela, silence is worth two. ",
+				"<cite ref=\"Megillah 18a:11\">Ib.</cite>; <cite ref=\"Jerusalem Talmud Berakhot 9:1:6\">Y. Ber. IX, beg. 12ᵈ</cite> <he>סמא דכולא מ׳</he>, v. <cite ref=\"O01051\"><he>סַמָּא</he> II</cite>."
+			]
+		}
+	]
+}

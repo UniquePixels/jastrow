@@ -1,0 +1,31 @@
+{
+	"id": "U00247",
+	"slug": "שגשג-2",
+	"headword": {
+		"text": "שַׁגְשֵׁג"
+	},
+	"page": {
+		"number": 1523,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Palp.</i> of <cite ref=\"U00210\"><he>שגג</he></cite>) <i>to confuse, perplex</i>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּגְשֵׁג"],
+			"senses": [
+				{
+					"gloss": "<i>to be confused, excited; to rage</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 25:16\">Targ. Jer. XXV, 16</cite> Ms. (ed. <he>ויִשְׁתַּגְּשׁוּן</he>)."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

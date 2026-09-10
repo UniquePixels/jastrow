@@ -1,0 +1,32 @@
+{
+	"id": "M00656",
+	"slug": "מורכיוותא",
+	"headword": {
+		"text": "מוֹרְכִיוָותָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹרְכִיוָאתָא"
+		},
+		{
+			"text": "מוֹרְכִיָיתָא"
+		}
+	],
+	"page": {
+		"number": 750,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"A03126\"><he>אֲרַךְ</he></cite>; cmp. <cite ref=\"A03028\"><he>אֲרוּכָה</he> I</cite>) <i>long boards</i>, esp. <i>the trough at the well</i> (h. <he>רהטים</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 24:20\">Targ. Y. I Gen. XXIV, 20</cite> (ed. Amst. <cite ref=\"M00612\"><he>מוֹרבִּיּוֹת</he></cite>, corr. acc.; Y. II <he>ואחתת מורביה</he>, corr. acc.). Ib. XXX, 38; 41 (Y. II <cite ref=\"M02706\"><he>מָרְכְּיוֹתָא</he></cite>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Exodus 2:16\">Targ. Y. Ex. II, 16</cite> (ed. Amst. <cite ref=\"M00612\"><he>מורביוותא</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

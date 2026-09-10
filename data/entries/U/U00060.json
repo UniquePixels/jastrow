@@ -1,0 +1,51 @@
+{
+	"id": "U00060",
+	"slug": "שב-3",
+	"headword": {
+		"text": "שַׁב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁבָּא"
+		},
+		{
+			"text": "שׁוּבָּא"
+		}
+	],
+	"page": {
+		"number": 1509,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00059\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"U00078\"><he>שָׁבוּעַ</he></cite>. <i>week</i>. Targ. II Esth. III, 7; a. fr.—",
+			"units": [
+				"<cite ref=\"Shabbat 156a:7\">Sabb. 156ᵃ</cite> <he>האי מאן דבחד בש׳</he> a person born on the first day of the week; <he>בתרי בש׳</he> on Monday &c. ",
+				"<cite ref=\"Beitzah 16a:5\">Bets. 16ᵃ</cite> <he>מחד שֵׁבָּיךְ לשבתך</he> from thy first day of the week begin to set aside good things for thy Sabbath; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the seventh day, the Sabbath; day of rest</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 5:14\">Targ. Y. Deut. V, 14</cite> <he>שב ונייח</he> a day of rest and repose; <cite ref=\"Targum Jonathan on Exodus 20:10\">Targ. Y. Ex. XX, 10</cite> <he>שבא ונ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 23:32\">Targ. Y. Lev. XXIII, 32</cite> <he>שבא ונייחא</he>; Targ. O. <he>ש׳ שבתא</he> (h. text <he>שבת שבתון</he>); a. fr.—Y. Taan. I, 64ᵃ <he>בשׁוּבָּה וכ׳</he>, v. <cite ref=\"N00660\"><he>נְיָיח</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:4:3\">Y. Sot. I, 16ᵈ</cite> bot. <he>כל לילי ש׳</he> every Sabbath night. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:4:6\">Y. Ab. Zar. V, 44ᵈ</cite> bot. <he>ערובת ש׳</he> Sabbath eve; <he>בפוקי ש׳</he> at the exit of the Sabbath; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:16\">Y. Taan. IV, 69ᵃ</cite> bot. <he>כל ארובת שובאי</he> (corr. acc.).—Pl. <he>שַׁבִּין</he>, <cite ref=\"U00201\"><he>שַׁבַּיָּא</he></cite>, <cite ref=\"U00113\"><he>שַׁבֵּי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 1:13\">Targ. Is. I, 13</cite> (ed. Wil. <he>שַׁבְּאִין</he>). ",
+				"<cite ref=\"Targum of I Chronicles 23:31\">Targ. I Chr. XXIII, 31</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 119a:5\">Sabb. 119ᵃ</cite> <he>יוסף מוקיר שבי</he> Joseph, the honorer of the Sabbaths; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

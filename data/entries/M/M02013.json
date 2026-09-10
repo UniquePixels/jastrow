@@ -1,0 +1,28 @@
+{
+	"id": "M02013",
+	"slug": "מסרבן",
+	"headword": {
+		"text": "מְסַרְבָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסַרְבָּנָא"
+		}
+	],
+	"page": {
+		"number": 811,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְרַב</he> I) <i>rebellious</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:8\">Targ. Ps. LXXVIII, 8</cite> (ed. Lag. <cite ref=\"M02017\"><he>מסרהבן</he></cite>, Var. <cite ref=\"M01935\"><he>מסירין</he></cite>; ed. Wil. <he>מְסָרְבִין</he> (pl. followed by sing. <he>מרגיז</he>; Ms. <cite ref=\"M02019\"><he>מסרהוון</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 65:2\">Targ. Is. LXV, 2</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "B00321",
+	"slug": "בוקא",
+	"headword": {
+		"text": "בּוּקָא"
+	},
+	"page": {
+		"number": 148,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"A00140\"><he>אָבִיק</he></cite>, b. h. <he>בַּקְבּוּק</he> for which LXX, βύκος, βίκος; cmp. <cite ref=\"B00300\"><he>בועא</he></cite>, <cite ref=\"B00311\"><he>בוצין</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>an earthen vessel, pitcher.—</i>Pl. <he>בּוּקֵי</he>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 37b:11\">Ab. Zar. 37ᵇ</cite>, a. e. <he>לא תתלו ביה ב׳ וכ׳</he> hang not empty pitchers on R. N., i.e. do not pronounce him the author of such an absurdity; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (fr. its shape) <i>hind leg, thigh</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 42b:7\">Ḥull. 42ᵇ</cite>; <cite ref=\"Chullin 54a:16\">54ᵃ</cite>; <cite ref=\"Chullin 54b:3\">54ᵇ</cite>; v. <cite ref=\"A01098\"><he>אַטְמָא</he></cite>. [Ar. s. v. <he>פטם</he> quotes <cite ref=\"B00247\"><he>בוכנא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

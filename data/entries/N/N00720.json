@@ -1,0 +1,37 @@
+{
+	"id": "N00720",
+	"slug": "ניעא",
+	"headword": {
+		"text": "נְיָעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִיעָא"
+		}
+	],
+	"page": {
+		"number": 906,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00384\"><he>נוע</he></cite>) [<i>something hanging</i>, cmp. Syr. <he>נעא</he> <i>lobe of the liver</i>, P. Sm. 2403,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fat-tail, rump</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 3:9\">Targ. Y. II, Lev. III, 9</cite> (h. text <cite ref=\"A01839\"><he>אליה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>breast of an animal</i>. Ib. VII, 30 (h. text <cite ref=\"H00525\"><he>חזה</he></cite>); [Ar. <cite ref=\"N00967\"><he>נָעָא</he></cite>, v. Koh. Ar. Compl. s. v.].—Midr. Sam. ch. XIV <he>שוקה ונִיעָה</he> the shoulder and the breast.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

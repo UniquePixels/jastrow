@@ -1,0 +1,24 @@
+{
+	"id": "M02099",
+	"slug": "מעט-3",
+	"headword": {
+		"text": "מְעַט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 815,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M02098\">preced.</cite>) <i>a little, little</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:15\">Ab. I, 15</cite> <he>אמור מ׳ ועשה הרבה</he> promise little and do much. ",
+				"<cite ref=\"Shabbat 31b:4\">Sabb. 31ᵇ</cite> (ref. to <cite ref=\"Ecclesiastes 7:16\">Koh. VII, 16</cite>) <he>הא מ׳ לירשע</he> but a little wrong one may do?; a. e.—V. <cite ref=\"M00561\"><he>מוּעָט</he></cite>."
+			]
+		}
+	]
+}

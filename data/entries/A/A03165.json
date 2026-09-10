@@ -1,0 +1,31 @@
+{
+	"id": "A03165",
+	"slug": "ארמא-1",
+	"headword": {
+		"text": "אֲרַמָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרַמָּאָה"
+		}
+	],
+	"page": {
+		"number": 122,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"A03174\"><he>אֲרַמִּי</he></cite>) <i>Syrian</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:20\">Targ. Gen. XXV, 20</cite>; a. e.—",
+				"<cite ref=\"Bava Kamma 59a\">B. Kam. 59ᵃ</cite> <he>דיקלא א׳</he> Ms. (ed. <he>דא׳</he> corr. acc.) Syrian palm-tree.—Fem. <he>אֲרַמִּיתָא</he>. ",
+				"<cite ref=\"Targum of I Chronicles 7:14\">Targ. I Chr. VII, 14</cite> (ed. Rahm. <cite ref=\"A03173\"><he>ארמותא</he></cite>).—Pl. m. <cite ref=\"A03169\"><he>אֲרַמָּאֵי</he></cite>. ",
+				"<cite ref=\"Targum of II Chronicles 22:5\">Targ. II Chr. XXII, 5</cite>; f. <cite ref=\"A03175\"><he>אֲרַמְיָאתָא</he></cite>. ",
+				"<cite ref=\"Shabbat 29a\">Sabb. 29ᵃ</cite> Syrian (dates).—Cmp. <cite ref=\"A03169\"><he>אַרְמַאי</he></cite>."
+			]
+		}
+	]
+}

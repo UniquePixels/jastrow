@@ -1,0 +1,29 @@
+{
+	"id": "O01265",
+	"slug": "סנקלרטיקוס",
+	"headword": {
+		"text": "סִנְקְלִרטִיקוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִינְ׳"
+		}
+	],
+	"page": {
+		"number": 1008,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (συγκλητικός) <i>one of senatorial rank, senator</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 28\">Ex. R. s. 28</cite> <he>קרא לפלוני ס׳ וכ׳</he> call such and such a senator that he may come with you. ",
+				"<cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite>.—Pl. <he>סִנְקְלִיטִיקִים</he>, <he>סִנְקְלִיטִיקִין</he>, <cite ref=\"O01206\"><he>סִינִ׳</he></cite>. ",
+				"<cite ref=\"Sifrei Devarim 317\">Sifré Deut. 317</cite>; <cite ref=\"Yalkut Shimoni on Torah 944\">Yalk. ib. 944</cite>, v. preced art."
+			]
+		}
+	]
+}

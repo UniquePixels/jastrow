@@ -1,0 +1,43 @@
+{
+	"id": "A03096",
+	"slug": "אריך-2",
+	"headword": {
+		"text": "אֲרִיךְ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרִיכָא"
+		}
+	],
+	"page": {
+		"number": 119,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A03095\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>long</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:3\">Targ. Ezek. XVII, 3</cite>.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:17\">Targ. Prov. XIV, 17</cite> <he>דא׳ תרעיתיה</he> whose intrigue is long prepared (h. <he>איש מזמות</he>). V. <cite ref=\"A03101\"><he>אֲרִיכָא</he></cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (part. pass. of <cite ref=\"A03126\"><he>אֲרַךְ</he></cite> <i>to arrange</i>) <i>right, befitting</i>. ",
+			"units": [
+				"<cite ref=\"Ezra 4:14\">Ezra IV, 14</cite>.—",
+				"<cite ref=\"Sukkah 4b\">Succ. 4ᵇ</cite> <he>א׳ או לא א׳</he> is it right or not? <cite ref=\"Bava Metzia 75a:9\">B. Mets. 75ᵃ</cite> <he>וא׳</he> and it is proper to do so. ",
+				"<cite ref=\"Psalms 1:2\">Midr. Till. to Ps. I, 2</cite> <he>וא׳ כדין</he> is such a thing right?"
+			],
+			"label": "2"
+		}
+	]
+}

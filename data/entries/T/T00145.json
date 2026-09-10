@@ -1,0 +1,31 @@
+{
+	"id": "T00145",
+	"slug": "רברב-1",
+	"headword": {
+		"text": "רִבְרֵב"
+	},
+	"page": {
+		"number": 1446,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"T00046\"><he>רָבַב</he></cite>) <i>to raise, make great</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְרַבְרֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to assume superiority</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 18:10\">Num. R. s. 18</cite> (ref. to <cite ref=\"Numbers 16:13\">Num. XVI, 13</cite> <cite ref=\"U02029\"><he>השתרר</he></cite>) <he>על מה את מִתְרַבְרֵב עלינו וכ׳</he> on what ground dost thou claim superiority over us? what good hast thou done us?; Tanḥ. Korah 6; <cite ref=\"Yalkut Shimoni on Torah 750:4\">Yalk. Num. 750</cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

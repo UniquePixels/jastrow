@@ -1,0 +1,36 @@
+{
+	"id": "K00244",
+	"slug": "כוי-2",
+	"headword": {
+		"text": "כְּוִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּוָא"
+		}
+	],
+	"page": {
+		"number": 618,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K00243\">same</cite>.Y. Bets. II, 61ᶜ top; Y. Maas. Sh. V, 56ᶜ top, a. e. (<he>כָּוְיָה</he>) <cite ref=\"K00369\"><he>כַּוְיָא</he></cite>, v. <cite ref=\"C00423\"><he>גּוּמְרָא</he></cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְכַּוִּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be burnt</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 6:28\">Targ. Prov. VI, 28</cite> <he>מִתְכַּוְיָן</he> Ms. (ed. <he>כְּוִין …</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

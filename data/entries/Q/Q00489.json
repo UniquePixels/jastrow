@@ -1,0 +1,46 @@
+{
+	"id": "Q00489",
+	"slug": "פחת-4",
+	"headword": {
+		"text": "פַּחַת",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּחֲתָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1154,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00488\">same</cite><i>cavity, pit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 18:20\">Targ. Jer. XVIII, 20</cite>; <cite ref=\"Targum Jonathan on Jeremiah 18:22\">22</cite> (ed. Lag. a. oth. <cite ref=\"Q00473\"><he>פְּחֵית</he></cite>).—Pl. <cite ref=\"Q00493\"><he>פַּחֲתִין</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 14:37\">Targ. O. Lev. XIV, 37</cite> ed. Berl. (oth. ed. <cite ref=\"Q00491\"><he>פַּחֲתָן</he></cite>; h. text <he>שקערורת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>depreciation, decrease, loss</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 70a:3\">B. Mets. 70ᵃ</cite> <he>שקיל אגרא ושקיל פ׳</he> he charged a compensation for the use of the vessel, and an indemnity for the loss (by wear and tear). ",
+				"<cite ref=\"Bava Metzia 70a:3\">Ib.</cite> <he>אי אגרא לא פ׳ ואי פ׳ לא אגרא</he> if you take payment for the use of the vessel, you must not charge for wear and tear &c. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 9:4:4\">Y. Ned. IX, end, 41ᶜ</cite> <he>תהא פַּחֲתָה בה</he> let a decrease come over it (may his wealth be reduced). ",
+				"<cite ref=\"Kohelet Rabbah 11:9\">Koh. R. to XI, 9</cite> <he>איזיל לפ׳</he> go to ruin!"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (trnsf.) <i>degraded person</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite> (ref. to <cite ref=\"Genesis 9:18\">Gen. IX, 18</cite> <he>אבי כנען</he>) <he>אבוי דפ׳</he> the father of the degraded. ",
+				"<cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite> (ref. to <cite ref=\"Genesis 49:5\">Gen. XLIX, 5</cite>) <he>אחים דפ׳ וכ׳</he> ‘brothers’ of the degraded (Dinah, with ref. to <cite ref=\"Genesis 34:25\">Gen. XXXIV, 25</cite>) …, but no brothers to Joseph."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "H00585",
+	"slug": "חטאה-1",
+	"headword": {
+		"text": "חֲטָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַטָּ׳"
+		}
+	],
+	"page": {
+		"number": 447,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00579\"><he>חֲטָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sinner</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 60a:17\">Ber. 60ᵃ</cite> <he>ח׳ את</he> art thou a sinner?—Pl. <he>חַטָּאַיָּא</he>, <he>חַטָּאִין</he>, <he>חַטָּאֵי</he>, <cite ref=\"H00585\"><he>חַטָ׳</he></cite>, <cite ref=\"H00632\"><he>חַטַּיָּיה</he></cite>, <cite ref=\"H00620\"><he>חַטַּיָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:10\">Targ. Prov. I, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:35\">Targ. Ps. CIV, 35</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 12:15\">Gen. R. s. 12</cite>; <cite ref=\"Yalkut Shimoni on Torah 19:2\">Yalk. ib. 19</cite>. Pesik. Naḥ. p. 128ᵇ; <cite ref=\"Yalkut Shimoni on Torah 391:16\">Yalk. Ex. 391</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>searcher of sin, accuser</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 3:1\">Targ. Zech. III, 1</cite> (ed. Lag. <cite ref=\"J00282\"><he>יַחֲטָא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

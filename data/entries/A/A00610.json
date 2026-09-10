@@ -1,0 +1,28 @@
+{
+	"id": "A00610",
+	"slug": "*(אוזפיה)",
+	"headword": {
+		"text": "*(אוזפיה)"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹזְפֵי"
+		}
+	],
+	"page": {
+		"number": 24,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>זיפין</he>, v. <cite ref=\"J00264\"><he>זִיף</he></cite>) <i>a species of bees, wasps</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:20\">Targ. Y. Lev. XI, 20</cite>."
+			]
+		}
+	]
+}

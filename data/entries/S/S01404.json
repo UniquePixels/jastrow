@@ -1,0 +1,25 @@
+{
+	"id": "S01404",
+	"slug": "קלף-3",
+	"headword": {
+		"text": "קֶלֶף"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלָף"
+		}
+	],
+	"page": {
+		"number": 1381,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ") m. (<cite ref=\"S01403\">preced.</cite>) <i>split parchment</i> (of superior quality than <cite ref=\"D00254\"><he>דּוּכְסוּסְטוֹס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Menachot 32a:11\">Men. 32ᵃ</cite>, a. e. <he>ק׳ במקום בשר</he> on <i>ḳ.</i> your writing must be done on the flesh side (inside). ",
+				"<cite ref=\"Menachot 32a:11\">Ib.</cite> (in Chald. dict.) <he>כתבינהו אק׳ במקום וכ׳</he> he wrote them on <i>ḳ.</i>, on the skin side (outside); a. fr."
+			]
+		}
+	]
+}

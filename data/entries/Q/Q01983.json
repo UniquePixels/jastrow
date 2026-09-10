@@ -1,0 +1,64 @@
+{
+	"id": "Q01983",
+	"slug": "פרקא",
+	"headword": {
+		"text": "פִּרְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1240,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01982\">same</cite><i>cross-road</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Obadiah 1:14\">Targ. Ob. I, 14</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>period</i>.—Pl. <he>פִּרְקִין</he>, <cite ref=\"Q00874\"><he>פִּרְקֵי</he></cite>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 19:29\">Targ. Y. Lev. XIX, 29</cite> <he>סמוך לפִירְקֵיהוֹן</he> near their period of puberty. ",
+				"<cite ref=\"Targum Jonathan on Numbers 22:4\">Targ. Y. Num. XXII, 4</cite> <he>לפ׳</he> at periods (alternately)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>joint</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 8:23\">Targ. Y. Lev. VIII, 23</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 14:14\">Ib. XIV, 14</cite>; a. e.—",
+				"<cite ref=\"Tosefta Negaim 4:12\">Tosef. Neg. IV, 12</cite> <i>neck</i>, v. <cite ref=\"Q00797\"><he>פִּיקָא</he> I</cite>.—<i>Pl.</i> as ab. Y. Taan. II, 66ᵃ bot.; <cite ref=\"Jerusalem Talmud Megillah 1:4:13\">Y. Meg. I, 70ᵈ</cite> top <he>יאות סבא ידע פ׳ גרמיה</he> the old scholar knows well the joints of his bone (the vertebrae of his spine), i.e. he knows what he talks about; <cite ref=\"Jerusalem Talmud Yevamot 4:11:6\">Y. Yeb. IV, 6ᵇ</cite> top <he>פ׳ גיטא</he>, <he>פ׳ גיטה</he> (corr. acc.)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>section, chapter, lesson</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 117a:22\">Pes. 117ᵃ</cite>, sq. <he>ריש פ׳</he> the beginning of a chapter (psalm); <he>באמצע פ׳</he> in the middle of a psalm.—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:2:2\">Y. Keth. VII, beg. 31ᵇ</cite> <he>והני ראשה דפ׳</he> (read: <he>רישא</he>) this would be the same case as that treated in the beginning of this chapter (v. R. Nissim to <cite ref=\"Mishnah Ketubot 7:1\">Keth. VII, 1</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 8:1:6\">Y. Ned. VIII, beg. 40ᵈ</cite> <he>עד דאחסל פִּירְקִי</he> (not <he>דחסל</he>) until I have finished my chapter. ",
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite> <he>פ׳ דאמוראי</he> Ms. M. (ed. <he>פרק אמ׳</he>), v. <cite ref=\"A02005\"><he>אֱמוֹרָאָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:1:6\">Y. Kil. I, beg. 26ᵈ</cite> <he>על כל פ׳ אתאמרת</he> does this rule refer to the entire chapter?; a. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>school held at periods, session</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 31b:13\">Kidd. 31ᵇ</cite> <he>כי הוה דריש בפ׳</he> when he lectured at college sessions. ",
+				"<cite ref=\"Kiddushin 71a\">Ib. 71ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 100a:2\">Pes. 100ᵃ</cite> <he>אנא איקלעי לפִירְקֵיה וכ׳</he> I happened to be present at the session of R. &c.; a. fr.—Pl. <cite ref=\"Q00874\"><he>פִּרְקֵי</he></cite>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+				"<cite ref=\"Ketubot 62a:6\">Keth. 62ᵃ</cite> <cite ref=\"Q00326\"><he>בני פ׳</he></cite> students at circuit sessions (who need not leave their homes for the sake of studying). ",
+				"<cite ref=\"Bava Metzia 64a:4\">B. Mets. 64ᵃ</cite> <he>הוה יתיבנא בשלהי פ׳ דרב</he> (Rashi <he>פרקין</he>) I took my seat towards the end of Rab’s sessions (having missed the beginning of the discussion); a. e."
+			],
+			"label": "5"
+		}
+	]
+}

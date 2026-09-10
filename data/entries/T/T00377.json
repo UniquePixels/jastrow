@@ -1,0 +1,39 @@
+{
+	"id": "T00377",
+	"slug": "רום-4",
+	"headword": {
+		"text": "רוּם",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "רוּמָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1460,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00376\">same</cite><i>height</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 11:18\">Targ. Y. Deut. XI, 18</cite> <he>על ר׳ ידכון</he> on the highest point of your arm (v. <cite ref=\"C00278\"><he>גּוֹבַהּ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:12\">Targ. Is. XIV, 12</cite>, sq. ",
+				"<cite ref=\"Onkelos Numbers 23:22\">Targ. O. Num. XXIII, 22</cite>; a. fr.—Y. Snh. X, 29ᵃ <he>הוה ארונא … לר׳ וכ׳</he> the ark carried the priests high up and cast them down to the ground. ",
+				"<cite ref=\"Mishnah Bava Batra 4:2\">B. Bath. IV, 2</cite>; <cite ref=\"Bava Batra 61a\">ib. 61ᵃ</cite>, v. <cite ref=\"P00284\"><he>עוּמְקָא</he> I</cite>. ",
+				"<cite ref=\"Eichah Rabbah 4:25\">Lam. R. to IV, 15</cite> <he>ברוּמְהוֹן</he> (some ed. <he>ברוֹמֵיהֶן</he>, pl.) of their high stature, v. <cite ref=\"U00488\"><he>שׁוּף</he></cite> I ch.; <cite ref=\"Vayikra Rabbah 16:9\">Lev. R. s. 16</cite> <he>ברומחין</he> (corr. acc.); a. e.—Pl. <he>רוֹמִין</he>, <cite ref=\"T00390\"><he>רוֹמֵי</he></cite>. ",
+				"<cite ref=\"Sotah 48b\">Sot. 48ᵇ</cite>, v. <cite ref=\"U00373\"><he>שׁוּט</he></cite> I ch.—V. <cite ref=\"M02591\"><he>מְרוֹמָא</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>haughtiness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 73:8\">Targ. Ps. LXXIII, 8</cite>.—V. <cite ref=\"T00800\"><he>רָמוּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

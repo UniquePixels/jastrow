@@ -1,0 +1,28 @@
+{
+	"id": "D00908",
+	"slug": "דמע-3",
+	"headword": {
+		"text": "דֶּמַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 314,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"D00907\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tear, weeping</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 30a:11\">Men. 30ᵃ</cite>; <cite ref=\"Bava Batra 15a:9\">B. Bath. 15ᵃ</cite> Moses wrote <he>בד׳</he> (Ms. M. <he>בדְמָעוֹת</he>) with tears (so that he could not speak).—Pl., v. <cite ref=\"D00911\"><he>דִּמְעָה</he></cite>"
+			],
+			"label": "1"
+		}
+	]
+}

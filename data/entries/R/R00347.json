@@ -1,0 +1,26 @@
+{
+	"id": "R00347",
+	"slug": "צייר-4",
+	"headword": {
+		"text": "צְיָיר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צְיָירָא"
+		}
+	],
+	"page": {
+		"number": 1276,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>siege</i>, v. <cite ref=\"R00453\"><he>צְיָר</he></cite>.—[<cite ref=\"Targum Jonathan on Leviticus 11:17\">Targ. Y. Lev. XI, 17</cite> <cite ref=\"R00347\"><he>ציירא</he></cite>, v. <cite ref=\"R00105\"><he>צַדְיָא</he> II</cite>.]",
+			"units": []
+		}
+	]
+}

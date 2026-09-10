@@ -1,0 +1,23 @@
+{
+	"id": "P00619",
+	"slug": "עינותא-2",
+	"headword": {
+		"text": "עֵינוּתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1072,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00602\"><he>עֵינָא</he></cite> 3) <i>street-corner</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:8\">Targ. Prov. VII, 8</cite> Var. ed. Lag. a. oth. ed. (ed. Lag. <he>פִּינִּיתָהּ</he>; ed. Wil. <he>פִּנְּתָהּ</he>; h. text <he>פִּנָהּ</he>)."
+			]
+		}
+	]
+}

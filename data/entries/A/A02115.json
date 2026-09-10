@@ -1,0 +1,29 @@
+{
+	"id": "A02115",
+	"slug": "אנדיפי",
+	"headword": {
+		"text": "אַנְדִּיפֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְטִיפֵי"
+		}
+	],
+	"page": {
+		"number": 81,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h. <he>נְטִיפוֹת</he>; <he>נדף</he> or <he>נטף</he>)<i>locks</i> or <i>ringlets falling from the temples</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:4\">Sabb. VIII, 4</cite> <he>כדי לעשות א׳</he> enough toilet material to make side curls (Mish. Pes. <he>אנטיפי</he>, Nap. <he>אנטפי</he>, Talm. <he>אונד׳</he>). Ib. 80ᵇ <he>מאי כלכול ומאי א׳</he> what locks are meant by <i>kilkul</i>, and what by <i>andifé</i>? Answ. the upper and the lower &c. Ib. <he>אמר ר׳ יצהק דבי ר׳ אמי אנדיפה וכ׳</he> Ms. M. (ed. <he>אלא אמר ר׳ … אמר … אאַנְדִּיפָא</he>) R. Isaac of the school of … (in reciting that Mishnah) used the word <i>andifah</i> (in the sing.) upon which R. … asked ‘Will a person waste his money’ (i.e. of what use is the material for one curl so as to make a person guilty of a transgression when carrying it on the Sabbath)? Ib. <he>מאי אנדיפא אפותא</he> by <i>andifa</i> (in the sing.) is meant the lock on the forehead. Ib. <he>מחתיה באַנְדִּיפֵיה וכ׳</he> Ms. M. (ed. incorr. <he>באנדיפי</he>) it stung him on his forehead and he died. [Rashi: = <cite ref=\"D00526\"><he>דיופי</he></cite>!]"
+			]
+		}
+	]
+}

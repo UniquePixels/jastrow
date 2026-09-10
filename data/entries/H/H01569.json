@@ -1,0 +1,24 @@
+{
+	"id": "H01569",
+	"slug": "חקרא",
+	"headword": {
+		"text": "חַקְרָא"
+	},
+	"page": {
+		"number": 497,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"H01568\">preced.</cite> wds.) <i>surrounded place, fortification</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 5:9\">Targ. II Sam. V, 9</cite> (h. text <he>מצדה</he>); a. fr.—",
+				"<cite ref=\"Targum Jonathan on Numbers 32:17\">Targ. Y. Num. XXXII, 17</cite> <he>קִרְוֵי ח׳</he> ed. Amst. (some ed. <he>קרוין</he>, incorr.) fortified cities.—Pl. <he>חַקְרִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 13:20\">Ib. XIII, 20</cite>.—V. <cite ref=\"A02939\"><he>אַקְרָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "I00098",
+	"slug": "טגרוס",
+	"headword": {
+		"text": "טִגְרוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִגְרֵס"
+		}
+	],
+	"page": {
+		"number": 520,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (tigris, v. Sm. Ant. s. v.) <i>tiger</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 59b:8\">Ḥull. 59ᵇ</cite> <he>ט׳ אריה וכ׳</he> the tiger is the lion of Be-Ilai (the mountains of interior Asia), i.e. what the lion is in other regions."
+			]
+		}
+	]
+}

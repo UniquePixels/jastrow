@@ -1,0 +1,31 @@
+{
+	"id": "K00116",
+	"slug": "כדון",
+	"headword": {
+		"text": "כְּדוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּדוֹן"
+		}
+	],
+	"page": {
+		"number": 613,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", (<he>כַּדּוּן</he> Ms.) (contr. of <he>כְּעַידַּן</he>, v. <cite ref=\"K00968\"><he>כְּעַן</he></cite>; cmp. <cite ref=\"E00011\"><he>הָאִידְּנָא</he></cite>) <i>now, at that time</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 22:4\">Targ. Y. Num. XXII, 4</cite>; <cite ref=\"Targum Jonathan on Numbers 22:6\">6</cite> (O. <cite ref=\"K00968\"><he>כְּעַן</he></cite>; h. text <cite ref=\"P01528\"><he>עתה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 13:7\">Targ. Y. Gen. XIII, 7</cite> <he>עד כ׳</he> as yet; a. fr.—Y. Ber. I, 2ᵈ bot. <he>דעד כ׳ וכ׳</he> for up to that time people are awake. ",
+				"<cite ref=\"Jerusalem Talmud Challah 2:1:5\">Y. Ḥall. II, beg. 58ᵇ</cite> <he>עד כ׳ לחה</he> thus far (so much about) fresh flour. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 5:2:11\">Y. Sot. V, 20ᵇ</cite> bot. <he>כ׳</he> right now, opp. <he>בתר זמן</he>. ",
+				"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite>, beg. (ref. to <cite ref=\"Psalms 25:6\">Ps. XXV, 6</cite>) <he>לא מן דכ׳ וכ׳</he> not from this day, but from eternity; <cite ref=\"Yalkut Shimoni on Nach 702:5\">Yalk. Ps. 702</cite> <he>מן הדין</he> (read: <he>מן כ׳</he>).—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:21\">Y. Ber. I, 2ᶜ</cite> <he>מאי כ׳</he> how is it now? (what is the result, the law &c.?); Y. Peah IV, 18ᵇ bot. <he>מיי כ׳</he>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 6:1:10\">Y. Ter. VI, 44ᵃ</cite> bot. <he>ולית אתון אמרין מהָן כ׳ ונתן וכ׳</he> (not <cite ref=\"M00347\"><he>מהו</he></cite>) and you did not say whence it was derived. Now (I will tell you, We read,) ‘and he shall give’ &c.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 6:1:10\">Ib.</cite> <he>ולית אתון מיניהון מהו כ׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

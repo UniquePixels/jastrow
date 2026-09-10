@@ -1,0 +1,45 @@
+{
+	"id": "I00462",
+	"slug": "טכס-2",
+	"headword": {
+		"text": "טְכַס"
+	},
+	"page": {
+		"number": 535,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00461\">same</cite>",
+			"units": []
+		},
+		{
+			"gloss": "<i>to press, squeeze, fit on</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 16:4\">Targ. Y. Lev. XVI, 4</cite> [read:] <he>יְטַכֵּיס</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (corresp. to b. h. <cite ref=\"A02550\"><he>אָסַר</he></cite>) <i>to fasten, to harness and load</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 28:28\">Targ. Y. Ex. XXVIII, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 34:8\">Targ. Y. I Deut. XXXIV, 8</cite> (ed. Amst. <he>טְכִיסוּ</he> <i>Pe.</i>).—Part. pass. <he>מְטַכַּס</he> <i>harnessed, equipped</i>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 49:19\">Targ. Y. II, Gen. XLIX, 19</cite>. Targ. II Esth. VI, 10 (some ed. <cite ref=\"M00994\"><he>מִיטּ׳</he></cite> <i>Ithpa.</i>), v. <cite ref=\"I00696\"><he>טְקַס</he></cite>.—V. <cite ref=\"I00359\"><he>טִיכּוּסָא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>טַכֵּיס</he> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

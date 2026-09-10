@@ -1,0 +1,65 @@
+{
+	"id": "I00642",
+	"slug": "טפי-1",
+	"headword": {
+		"text": "טְפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְפָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 546,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00638\"><he>טָפַח</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to grow faint, to die out, be extinguished</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 3:3\">Targ. I Sam. III, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 18:5\">Targ. Job XVIII, 5</cite>, sq.; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:3:8\">Y. Sabb. I, 3ᵇ</cite> bot. <he>אילין בעיין דיִטְפֵי וכ׳</he> they (the children) desire that the lamp grow dim (so that they need not study, and therefore will not snuff it). ",
+				"<cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite> <he>אשכחא בוצינא טָפֵי</he> she found the lamp gone out; (<cite ref=\"Jerusalem Talmud Sotah 1:4:3\">Y. Sot. I, 16ᵈ</cite> bot. <he>מִיטְּפֵי</he> <i>Ithpe</i>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to put out, extinguish</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 8:7\">Targ. Cant. VIII, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 21:17\">Targ. II Sam. XXI, 17</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 8:5:8\">Y. Yoma VIII, 45ᵇ</cite> <he>בעי מִטְפְתָה</he> wanted to put it out; <cite ref=\"Jerusalem Talmud Nedarim 4:9:2\">Y. Ned. IV, 38ᵈ</cite> <he>מיטפייה</he> (read: <he>מִיטְפִינָהּ</he>). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 4:9:2\">Ib.</cite> <he>אפי׳ ר׳ אימי יִטְפֵי</he> (or <i>Af.</i>) even R. I. would have been permitted to extinguish the fire on the Sabbath."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַטְפֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00641\">same</cite>. Tanḥ. Vayigg. 5 <he>נורא דתמר כלתך אנא מַטְפֵי</he> I will put out the fire intended for Tamar &c. (I will curb thy passion; <cite ref=\"Yalkut Shimoni on Torah 150:2\">Yalk. Gen. 150</cite> <he>אנן מנהרין</he> we shall light for thee).",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְטְפֵי", "אִיטְּפֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be extinguished, grow dim</i>. Y. Sabb. VI, 8ᶜ bot. [read:] <he>איטפי בוצינא אמרה לה לא איתטפי אמרי לא מיטפי בוצינא וכ׳</he> is the light out? Said she, it is not out. Upon which they said (this means) the light of Israel is not extinguished (R. A. is not dead). Y. Sot. I, 16ᵈ bot., v. supra. Y. Ḥag. II, 77ᶜ top <he>ואִיטַּפְיַית</he> and the fire over the grave was extinguished (v. <cite ref=\"D00900\"><he>דְּמַךְ</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

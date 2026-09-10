@@ -1,0 +1,23 @@
+{
+	"id": "A01204",
+	"slug": "איחוי",
+	"headword": {
+		"text": "אִיחוּי"
+	},
+	"page": {
+		"number": 46,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01023\"><he>אחי</he></cite>, Pi.) <i>the act of stitching together seam</i>, esp. with ref. to the rent of garments in mourning. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:3\">Y. M. Kat. III, 83ᵇ</cite> top; a. e.—",
+				"<cite ref=\"Moed Katan 26b\">M. Kat. 26ᵇ</cite> <he>א׳ אלכסנדרי</he> Alexandrian (invisible) seam."
+			]
+		}
+	]
+}

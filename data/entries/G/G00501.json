@@ -1,0 +1,49 @@
+{
+	"id": "G00501",
+	"slug": "זלף-2",
+	"headword": {
+		"text": "זְלַף"
+	},
+	"page": {
+		"number": 402,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00500\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 36:27\">Targ. Job XXXVI, 27</cite> <he>יִזְלְפוּן</he> Ms. (ed. <he>יזַלְּ׳</he> <i>Pa.</i>).—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:11:3\">Y. Ab. Zar. IV, 44ᵇ</cite> bot. Ib. 44ᵃ bot. <he>וזַלְפוּן וכ׳</he> and receive the wine at his hands.—Part. <cite ref=\"G00501\"><he>זָלֵיף</he></cite>. Targ. ",
+				"<cite ref=\"Habakkuk 2:15\">Hab. II, 15</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַלֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to squirt, drip</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 29:6\">Targ. Job XXIX, 6</cite>.—",
+						"<cite ref=\"Ketubot 67b:15\">Keth. 67ᵇ</cite> <he>מְזַלְּפֵי ליה וכ׳</he> they sprinkled old wine before him as a perfume, v. <he>זלח</he>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִזְדְּלַף"],
+			"senses": [
+				{
+					"gloss": "<i>to flow out, to empty itself</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 20:28\">Targ. Job XX, 28</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 28:4\">Ib. XXVIII, 4</cite>, v. <cite ref=\"G00488\"><he>זְלַח</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

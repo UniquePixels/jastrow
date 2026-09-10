@@ -1,0 +1,23 @@
+{
+	"id": "P01334",
+	"slug": "ערורי",
+	"headword": {
+		"text": "עֲרוּרֵי"
+	},
+	"page": {
+		"number": 1115,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"P01455\"><he>עֲרַר</he></cite>) <i>protests, claims</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 86a:2\">Gitt. 86ᵃ</cite> (in a formula of sale of a slave) <he>מן ע׳ מלכא וכ׳</he> Rashi (Tosaf. <cite ref=\"P00783\"><he>עֲלוּלֵי</he></cite>; ed. <he>מן עלולי ומן ע׳</he>) against any claims of king or queen (government), v. <cite ref=\"H01638\"><he>חֲרוּרֵי</he></cite>."
+			]
+		}
+	]
+}

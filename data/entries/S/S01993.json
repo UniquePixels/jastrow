@@ -1,0 +1,23 @@
+{
+	"id": "S01993",
+	"slug": "קרטון-1",
+	"headword": {
+		"text": "קָרְטוֹן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1416,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cors, -tis = cohors) <i>an enclosure</i> for a division in a military camp, <i>square</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 32b:16\">Ber. 32ᵇ</cite>, v. <cite ref=\"C01169\"><he>גַּסְטְרָא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 332\">Yalk. Is. 332</cite> <cite ref=\"S01175\"><he>קירטון</he></cite> (prob. to be read: <cite ref=\"S01202\"><he>קוֹרְ׳</he></cite>)."
+			]
+		}
+	]
+}

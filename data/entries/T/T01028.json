@@ -1,0 +1,36 @@
+{
+	"id": "T01028",
+	"slug": "רקוע",
+	"headword": {
+		"text": "רְקוֹעַ"
+	},
+	"page": {
+		"number": 1496,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01049\"><he>רְקַע</he></cite>) [<i>patched</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>spotted</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:32\">Targ. O. Gen. XXX, 32</cite> (h. text <he>טלוא</he>).—Pl. <he>רְקוֹעִין</he>, <he>רְקוֹעַיָּא</he>. ",
+				"<cite ref=\"Onkelos Genesis 30:35\">Ib. 35</cite>; <cite ref=\"Onkelos Genesis 30:39\">39</cite>.—<i>Fem.</i> <he>רְקוֹעֲתָא</he>. ",
+				"<cite ref=\"Bava Kamma 118b:4\">B. Kam. 118ᵇ</cite> <he>בר׳</he> in the case of the theft of a spotted sheep (the presence of which, if returned, I must be noticed).—Pl. <he>רְקוֹעָתָא</he>. Targ. O. l. c. 35."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (trnsf., v. B. Kam. l. c.) <i>well-known, distinguished</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 28a:18\">M. Kat. 28ᵃ</cite> <he>מאן חשיב</he> … <he>מאן ר׳</he> Ar. (ed. <cite ref=\"T01031\"><he>רַקִּיעַ</he></cite>) who is esteemed, who is I regarded, who is distinguished (before the angel of death)?"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "K00328",
+	"slug": "כוסמים",
+	"headword": {
+		"text": "כּוּסְּמִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּסְּמִין"
+		}
+	],
+	"page": {
+		"number": 623,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h. <cite ref=\"K00328\"><he>כֻּסְּמִים</he></cite>, <cite ref=\"K00945\"><he>כֻּסֶּמֶת</he></cite>; <he>כסם</he>, cmp. <he>כסס</he>; v. <cite ref=\"K00313\"><he>כּוּנְתָּא</he></cite>)<i>spelt</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 1:1\">Ḥall. I, 1</cite>. ",
+				"<cite ref=\"Mishnah Pesachim 2:5\">Pes. II, 5</cite>. ",
+				"<cite ref=\"Pesachim 35a:6\">Ib. 35ᵃ</cite> <he>כ׳ מין חטים הוא</he> <i>Kuss’min</i> is a species of wheat. ",
+				"<cite ref=\"Jerusalem Talmud Challah 1:1:11\">Y. Ḥall. I, 57ᵇ</cite> top (ref. to <cite ref=\"Isaiah 28:25\">Is. XXVIII, 25</cite>) <he>כּוּסֶּמֶת זה הכ׳</he> <i>kussemeth is spelt</i>; a. fr."
+			]
+		}
+	]
+}

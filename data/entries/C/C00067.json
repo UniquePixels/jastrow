@@ -1,0 +1,33 @@
+{
+	"id": "C00067",
+	"slug": "גבח-1",
+	"headword": {
+		"text": "גִּבֵּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיבֵּחַ"
+		},
+		{
+			"text": "גִּבַּחַת"
+		},
+		{
+			"text": "גִּיבַּ׳"
+		}
+	],
+	"page": {
+		"number": 205,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גבח</he> = <he>גבהּ</he>) <i>high, tall and slim</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45b\">Bekh. 45ᵇ</cite> Ar., v. <cite ref=\"C00053\"><he>גָּבוֹהַּ</he></cite> 2. [In b. h.: <i>with high forehead, bald in front</i>.]"
+			]
+		}
+	]
+}

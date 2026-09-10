@@ -1,0 +1,72 @@
+{
+	"id": "N01234",
+	"slug": "נקף-2",
+	"headword": {
+		"text": "נְקַף"
+	},
+	"page": {
+		"number": 934,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01233\">same</cite>, <i>to strike, knock, push down</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 140:5\">Targ. Ps. CXL, 5</cite>. ",
+				"<cite ref=\"Onkelos Exodus 34:20\">Targ. O. Ex. XXXIV, 20</cite> <he>ותִיקְּפֵיה</he> ed. Berl. (oth. ed., a Y. <he>ותִנְקְ׳</he>; ed. Vien. <he>ותַנְקְ׳</he> <i>Af.</i>; h. text <he>וערפתו</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 21:4\">Targ. Deut. XXI, 4</cite> (O. ed. Berl. <he>ויַקְּ׳</he>, <i>Af.</i>); a. e.—Part. pass. <he>נְקִיף</he>; f. <cite ref=\"N01210\"><he>נְקִיפָא</he></cite>. Ib. 6 (O. ed. Vien. <cite ref=\"N01238\"><he>נְקֶפְתָּא</he></cite>).—",
+				"<cite ref=\"Eruvin 53b:9\">Erub. 53ᵇ</cite> (enigmatic speech) <he>עלת נַקְפַת בכד ידאון וכ׳</he> the ladle strikes against the jug, shall the eagles fly to their nests (the wine is gone, shall the students go home)?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַקֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01233\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 140:12\">Targ. Ps. CXL, 12</cite> (Ms. <i>Pe.</i>).—Part. pass. <he>מְנַקַּף</he>. ",
+						"<cite ref=\"Berakhot 6a:5\">Ber. 6ᵃ</cite> <he>כרעי דמְנַקְּפֵי</he> bruised feet; <cite ref=\"Yoma 53a\">Yoma 53ᵃ</cite>, v. <cite ref=\"N00182\"><he>נְגַף</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַנְקֵף", "אַקֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01233\">same</cite>; v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to knock the feet against each other, to mince</i> (v. <cite ref=\"N01233\">preced.</cite> <i>Hif.</i>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 3:16\">Targ. Is. III, 16</cite> (h. text <cite ref=\"I00674\"><he>טפף</he></cite>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to compare defects</i> (v. <cite ref=\"N01233\">preced.</cite> <i>Hif.</i>). ",
+					"units": [
+						"<cite ref=\"Chullin 50a:14\">Ḥull. 50ᵃ</cite> <he>אַקְּפִינְהוּ ולא וכ׳</he> they compared them, and they did not look alike."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְנַקֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to knock against, to stumble</i>. Targ. II Esth. IV, 13.—Yoma l. c. <he>מִינַּקְּפִין</he> Ar. ed. Koh., v. <cite ref=\"N00182\"><he>נְגַף</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

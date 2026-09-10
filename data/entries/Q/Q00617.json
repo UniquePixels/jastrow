@@ -1,0 +1,26 @@
+{
+	"id": "Q00617",
+	"slug": "פיטומא-1",
+	"headword": {
+		"text": "פִּיטּוּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּטּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1160,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00616\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 25:6\">Targ. Y. Ex. XXV, 6</cite>.—Pl. <cite ref=\"Q00623\"><he>פִּיטּוּמִין</he></cite>. ",
+				"<cite ref=\"Keritot 3a:24\">Ker. 3ᵃ</cite> <he>בעי למיתניא פ׳ בהדי הדדי</he> the redactor of the Mishnah wanted to place together the laws concerning the compoundings (of frankincense and of oil)."
+			]
+		}
+	]
+}

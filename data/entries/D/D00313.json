@@ -1,0 +1,57 @@
+{
+	"id": "D00313",
+	"slug": "דופן-2",
+	"headword": {
+		"text": "דּוֹפָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "דֹּפָן"
+		}
+	],
+	"page": {
+		"number": 287,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<he>דפן</he>, v. <cite ref=\"D00952\"><he>דַּף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>board-partition</i>, esp. a wall of the festive booth (<cite ref=\"O00300\"><he>סוּכָּה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Sukkah 4a:14\">Succ. 4ᵃ</cite> <he>ד׳ האמצעי</he> the middle of the three walls. ",
+				"<cite ref=\"Sukkah 4a:14\">Ib.</cite> <he>ד׳ עקומה</he> <i>the curved wall</i>, a legal fiction by which a part of the ceiling may be considered as part of a curved wall.—",
+				"<cite ref=\"Sukkah 6b\">Ib. 6ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (trnsf.) <i>side</i> of a vessel, oppos. to bottom, rim &c. Ohol. IX, 16 <he>תחת דָּפְנָהּ</he> under the belly of its side; Tosef. ib. X, 9 <he>דּוֹפְנָהּ</he>. Ib. VII, 10 side of a cave, opp. to <cite ref=\"U01838\"><he>שקוף</he></cite> &c.; a. fr.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the chest surrounding the lungs, ribs</i>, also <i>a single rib</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 48a:3\">Ḥull. 48ᵃ</cite>, a. fr. <he>ריאה הסמוכה לד׳</he> lungs adhering to the chest. ",
+				"<cite ref=\"Sanhedrin 49a:3\">Snh. 49ᵃ</cite> <he>ד׳ חמישית</he> the fifth rib (counting from the lowest)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>the paries of the abdomen</i>. <he>יוצא ד׳</he> a fetus extracted by means of <i>the cesarean section</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 5:1\">Nidd. V, 1</cite>; a. fr.—Metaph. <he>תלה בד׳</he> to suspend from the wall, i.e. <i>to leave a decision in suspense</i>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 4:1:7\">Y. Kidd. IV, 65ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Sanhedrin 6:7:3\">Y. Snh. VI, 23ᶜ</cite> bot. <he>בריפן</he> (corr. acc.).—Pl. <he>דּוֹפַנִּים</he>, constr. <cite ref=\"D00315\"><he>דּוֹפַנֵּי</he></cite>; mostly <cite ref=\"D00970\"><he>דְּפַנּוֹת</he></cite>. ",
+				"<cite ref=\"Chullin 45b:6\">Ḥull. 45ᵇ</cite> <he>דופני ריאה</he> <i>the grooves between the lungs</i>, <cite ref=\"D00970\"><he>דפנות</he></cite> <i>ribs</i>. ",
+				"<cite ref=\"Chullin 45a\">Ib. 45ᵃ</cite> <he>שתי ד׳</he> two sides of the chest.—",
+				"<cite ref=\"Mishnah Sukkah 1:1\">Succ. I, 1</cite>; a. fr.—",
+				"<cite ref=\"Tosefta Ohalot 6:2\">Tosef. Ohol. VI, 2</cite> <he>בצד דּוֹפְנִי וכ׳</he> ed. Zuck. on the <i>wall-like</i> side of the tent. ",
+				"<cite ref=\"Tosefta Ohalot 6:2\">Ib.</cite> <he>עם דופני של אוהל</he>, ed. Zuck., read (with R. S. to Ohol. V, 7) <he>רפנות</he> or (with ed.) <he>דּוֹפְנוֹ</he>."
+			],
+			"label": "4"
+		}
+	]
+}

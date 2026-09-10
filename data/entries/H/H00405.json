@@ -1,0 +1,31 @@
+{
+	"id": "H00405",
+	"slug": "חוניא",
+	"headword": {
+		"text": "חוּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּנְיָה"
+		},
+		{
+			"text": "חוּנְיָי׳"
+		}
+	],
+	"page": {
+		"number": 436,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (<cite ref=\"H00404\">preced.</cite>) <i>Ḥonia</i>, name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:3:8\">Y. Sabb. XIV, 14ᶜ</cite> bot. R. H. Jacob of Ephrataim. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:1:14\">Y. Shek. I, 46ᵃ</cite>; <cite ref=\"Jerusalem Talmud Moed Katan 1:2:3\">Y. M. Kat. I, 80ᵇ</cite> bot.; a. e. v. <cite ref=\"H00278\"><he>חַוְורָן</he></cite>.—V. <cite ref=\"N00477\"><he>נְחוּנְיָא</he></cite>."
+			]
+		}
+	]
+}

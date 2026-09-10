@@ -1,0 +1,28 @@
+{
+	"id": "H00923",
+	"slug": "חכינאי",
+	"headword": {
+		"text": "חֲכִינַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲכִינַיי"
+		}
+	],
+	"page": {
+		"number": 461,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥăkhinai</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 62b:11\">Keth. 62ᵇ</cite>, a. fr. R. Ḥănania, son of Ḥ.—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:7\">Y. M. Kat. III, 81ᵈ</cite> top."
+			]
+		}
+	]
+}

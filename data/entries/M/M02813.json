@@ -1,0 +1,37 @@
+{
+	"id": "M02813",
+	"slug": "משה",
+	"headword": {
+		"text": "משֶׁה"
+	},
+	"page": {
+		"number": 849,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Moses</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the law-giver, often <he>מ׳ רַבֵּינוּ</he> M. our teacher. ",
+			"units": [
+				"<cite ref=\"Berakhot 3b:27\">Ber. 3ᵇ</cite>. ",
+				"<cite ref=\"Sotah 12a:17\">Sot. 12ᵃ</cite>; a. v. fr.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:1:4\">Y. Taan. IV, beg. 67ᵇ</cite>, a. e. <he>מ׳ דאנא וכ׳</he> by Moses, I will look (at the priests) and not be diverted. ",
+				"<cite ref=\"Jerusalem Talmud Demai 4:1:9\">Y. Dem. IV, 24ᵃ</cite> top <he>בדֵין הוא מימר מ׳ דאנא וכ׳</he> will he (R. Ḥaggai) in this case, too, say, by Moses, I know the reason? Said he, by M. &c.; a. fr.—",
+				"<cite ref=\"Beitzah 38b:3\">Bets. 38ᵇ</cite> <he>מ׳ שפיר קאמרית</he> by Moses, art thou right? (Rashi).—Trnsf. <i>great scholar</i> (<i>that thou art</i>)!, (mostly ironically). ",
+				"<cite ref=\"Chullin 93a:5\">Ḥull. 93ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 101b:3\">Sabb. 101ᵇ</cite> <he>מ׳ שפיר קאמרת</he> great scholar, art thou really right?; Bets. l. c. (v. supra); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>M.</i> <i>Bar ‘Atsri</i>, father of R. Huna. ",
+			"units": [
+				"<cite ref=\"Bava Batra 174b:9\">B. Bath. 174ᵇ</cite> <he>מ׳ בר עצרי</he> (Ms. M. <cite ref=\"P01112\"><he>עצורי</he></cite>); <cite ref=\"Arakhin 23a:36\">Arakh. 23ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

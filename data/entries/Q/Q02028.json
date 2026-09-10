@@ -1,0 +1,24 @@
+{
+	"id": "Q02028",
+	"slug": "פרשא-2",
+	"headword": {
+		"text": "פְּרָשָׁא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1243,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02022\"><he>פְּרַשׁ</he></cite>, cmp. <cite ref=\"Q02043\"><he>פְּרַת</he></cite>) [<i>breaker, crusher</i>,] <i>ploughshare</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 13:20\">Targ. I Sam. XIII, 20</cite> (ed. Wil. <cite ref=\"Q00994\"><he>פָּ׳</he></cite>; h. text <cite ref=\"M00941\"><he>מחרשת</he></cite>).—",
+				"<cite ref=\"Bava Metzia 80a:2\">B. Mets. 80ᵃ</cite> <he>דנקיט פ׳ משלם</he> he that handles the share is responsible for the damage, contrad. to <he>מנא</he>, coulter."
+			]
+		}
+	]
+}

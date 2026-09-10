@@ -1,0 +1,44 @@
+{
+	"id": "H01690",
+	"slug": "חריץ",
+	"headword": {
+		"text": "חָרִיץ"
+	},
+	"page": {
+		"number": 502,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01749\"><he>חָרַץ</he></cite>)<i>incision, furrow, trench</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 5:3\">Kil. V, 3</cite>. ",
+				"<cite ref=\"Mishnah Kilayim 2:8\">Ib. II, 8</cite>. ",
+				"<cite ref=\"Megillah 14a:2\">Meg. 14ᵃ</cite> top.—",
+				"<cite ref=\"Shabbat 22a:6\">Sabb. 22ᵃ</cite> <he>לעשות ח׳</he> to make a rut in the floor; Y. ib. III, 6ᵃ top; <cite ref=\"Jerusalem Talmud Beitzah 2:10:2\">Y. Bets. II, end, 61ᵈ</cite> <cite ref=\"H01751\"><he>חֶרֶץ</he></cite>.—",
+				"<cite ref=\"Chullin 55b:1\">Ḥull. 55ᵇ</cite> top <he>מקום ח׳</he> (Ar. <he>חרץ</he>) at the indentation in the kidneys. ",
+				"<cite ref=\"Menachot 34b:4\">Men. 34ᵇ</cite> <he>אם אין חֲרִיצָן ניכר</he> (Ar. <cite ref=\"H01756\"><he>חַרְצָן</he></cite>; Ms. M. <cite ref=\"H00607\"><he>חוט</he></cite>, v. Rabb. D. S. a. l. note) if the grooves marking the partitions in the T’fillin are not distinguishable; a. fr.—Pl. <he>חָרִיצִים</he>, <he>חָרִיצִין</he>. ",
+				"<cite ref=\"Mishnah Bava Kamma 5:5\">B. Kam. V, 5</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (from the shape) <i>eye-lids with eye-lashes</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:2\">Bekh. VI, 2</cite> (<cite ref=\"Bekhorot 38a:21\">38ᵃ</cite>) <he>ח׳ של עין</he> Ar. (Mish. <cite ref=\"T00654\"><he>רִיס</he></cite>, Talm. ed. <cite ref=\"E00864\"><he>הרִיס</he></cite>). ",
+				"<cite ref=\"Gittin 56a\">Gitt. 56ᵃ</cite> <he>בח׳ של עין</he> Ar. (ed. <he>בדוֹקִין</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>an abnormal depression or cavity in the body</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 41a:20\">Bekh. 41ᵃ</cite> bot. <he>ח׳ במקום בשר</he>, v. <cite ref=\"H01634\"><he>חָרוּץ</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

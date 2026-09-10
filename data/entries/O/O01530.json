@@ -1,0 +1,22 @@
+{
+	"id": "O01530",
+	"slug": "סרגיד",
+	"headword": {
+		"text": "סַרְגִּיד"
+	},
+	"page": {
+		"number": 1023,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סרג</he>, with format. <cite ref=\"D00000\"><he>ד</he></cite>) [<i>formed in zig-zag</i>,] <i>key-ward</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:6:2\">Y. Sabb. VIII, 11ᵇ</cite> bot., v. <cite ref=\"H01417\"><he>חָף</he></cite>."
+			]
+		}
+	]
+}

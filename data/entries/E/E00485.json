@@ -1,0 +1,27 @@
+{
+	"id": "E00485",
+	"slug": "היקפא",
+	"headword": {
+		"text": "הֶיקֵּפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶיקֵּיפָא"
+		}
+	],
+	"page": {
+		"number": 349,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"E00484\">preced.</cite>) <i>enclosure, fence</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 20b:6\">B. Kam. 20ᵇ</cite> <he>את גרמת לי ה׳ יתירא</he> thou (on account of the situation of thy field) hast put me to the trouble of erecting an additional (or larger) fence."
+			]
+		}
+	]
+}

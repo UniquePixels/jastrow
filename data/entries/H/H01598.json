@@ -1,0 +1,40 @@
+{
+	"id": "H01598",
+	"slug": "חרד",
+	"headword": {
+		"text": "חָרֵד"
+	},
+	"page": {
+		"number": 498,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be excited, to tremble</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 67:2\">Gen. R. s. 67</cite> (ref. to <cite ref=\"M00005\"><he>מאד</he></cite>, <cite ref=\"Genesis 27:33\">Gen. XXVII, 33</cite>) <he>מחרדה שח׳ וכ׳</he> more than the trembling which he felt on the altar; (Yalk. ib. 115 <he>שהֶחֱרִיד</he>). Tanḥ. Tol’d 13 <he>שתי חרדות ח׳ וכ׳</he> twice did Isaac tremble. Gen. R. l. c. <cite ref=\"H01673\"><he>חָרֵיד</he></cite> is he frightened?; Yalk. l. c. <cite ref=\"H01598\"><he>חָרֵד</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחֱרִיד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01597\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to frighten</i>. Gen. R. l. c. <he>חרדה שה׳ יעקב וכ׳</he> the fright which Jacob caused to Isaac; Tanḥ. l. c.; <cite ref=\"Ruth Rabbah 6:1\">Ruth R. to III, 8</cite>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah 6:1\">Ib.</cite> <he>חרדה שהֶחֱרִידָה וכ׳</he> the alarm which Ruth caused &c. ",
+						"<cite ref=\"Ruth Rabbah 6:1\">Ib.</cite> <he>שהן מַחְרִידוֹת וכ׳</he> they (the fowl) excite the man (who tries to catch them); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

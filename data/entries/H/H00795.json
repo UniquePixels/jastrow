@@ -1,0 +1,32 @@
+{
+	"id": "H00795",
+	"slug": "חילתא",
+	"headword": {
+		"text": "חֵילְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִילְתָּא"
+		},
+		{
+			"text": "חֵילָא"
+		}
+	],
+	"page": {
+		"number": 457,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01073\"><he>חלל</he></cite>) <i>hollow, glen, valley</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 3:29\">Targ. Deut. III, 29</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:1\">Targ. Is. XXVIII, 1</cite>; a. e.—<i>Pl.</i> (m.) <cite ref=\"H00776\"><he>חֵילַיָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 40:4\">Ib. XL, 4</cite>; a. e.—[<cite ref=\"Bava Batra 74b:12\">B. Bath. 74ᵇ</cite>, v. <cite ref=\"H00367\"><he>חוּלְתָּא</he></cite>.]"
+			]
+		}
+	]
+}

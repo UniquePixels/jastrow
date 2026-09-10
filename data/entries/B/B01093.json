@@ -1,0 +1,31 @@
+{
+	"id": "B01093",
+	"slug": "בצל-1",
+	"headword": {
+		"text": "בְּצַל"
+	},
+	"page": {
+		"number": 184,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בץ</he>, cmp. <he>פצל</he>) <i>to peel; to split, branch off</i>. Lam. R. introd.; <cite ref=\"Kohelet Rabbah 12:7\">Koh. R. to XII, 7</cite> (interpret. <he>אם הדרך</he> <cite ref=\"Ezekiel 21:26\">Ezek. XXI, 26</cite>) (<he>אם</he>) <he>אמה דבצלית</he> an arm which branches off (direction post on the cross-road).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיבְּצִיל"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"B01095\"><he>בָּצְלָא</he></cite>) <i>to grow bulbous</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 29b:3\">Erub. 29ᵇ</cite> top <he>אי׳ זירתא</he> (ed. Pesaro a. Ar. <he>אפציל</he>, Var. <he>אבציל</he>) the bulb has grown to the length of a span."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "K00031",
+	"slug": "כבד-2",
+	"headword": {
+		"text": "כְּבַד"
+	},
+	"page": {
+		"number": 607,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00030\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K00049\"><he>כַּבֵּיד</he></cite> <i>to clean, sweep</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 56a:75\">Nidd. 56ᵃ</cite> bot. <he>כַּבִּיד ולא בדיק</he> (= <he>כַּבְּדִי</he>) I swept (the alley) but did not search (for unclean objects)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְכַּבֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be swept</i>. Ib. 56ᵇ <he>גומה לא מתכבדא</he> a cavity is not swept (the broom does not strike it).",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אַכְבֵּיד"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"K00034\"><he>כָּבֵד</he> III</cite>) <i>to irritate, grieve</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 17:25\">Targ. Prov. XVII, 25</cite> ed. Lag. (ed. Ven. <he>מכביר</he>, Ms. <he>מככיר</he>, h. text <he>כעס</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S02076",
+	"slug": "קריצה",
+	"headword": {
+		"text": "קְרִיצָה"
+	},
+	"page": {
+		"number": 1421,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S02141\"><he>קָרַץ</he></cite>) <i>compressing the lips, gesture</i> of anger, scorn &c.—Pl. <he>קְרִיצוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Yevamot 108b:6\">Yeb. 108ᵇ</cite> <he>מכרת ברמיזותיו וקְרִיצוֹתָיו</he> she is familiar with his hints and gestures (by which she may be influenced). ",
+				"<cite ref=\"Yevamot 108b:18\">Ib.</cite> <he>קְרִיצוֹתֵיהֶם ורמיזותיהם</he> their gestures and hints."
+			]
+		}
+	]
+}

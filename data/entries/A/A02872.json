@@ -1,0 +1,33 @@
+{
+	"id": "A02872",
+	"slug": "אצטרין",
+	"headword": {
+		"text": "אִצְטָרִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְטָרִין"
+		},
+		{
+			"text": "אִיצְ׳"
+		},
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 110,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<cite ref=\"A01577\"><he>אִיצְטַדִּין</he></cite>, v. <cite ref=\"A02871\">preced.</cite> end] f. (prop. pl. of <cite ref=\"A02869\"><he>אצטרא</he></cite>, <he>אסטרא</he>, v. <cite ref=\"A02871\">preced.</cite>, used as sing.)same. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 4:4\">B. Kam. IV, 4</cite> (<cite ref=\"Bava Kamma 39a:6\">39ᵃ</cite>) <he>שור האיצטרין</he> Ms. M. (ed. <cite ref=\"A02866\"><he>אצטדין</he></cite>, Ms. H. a. R. a. Mish. Nap. <he>אסטדין</he>, Y. ed. <cite ref=\"A01416\"><he>איסטדין</he></cite>) an ox of the arena (that killed a person). ",
+				"<cite ref=\"Tosefta Avodah Zarah 2:7\">Tosef. Ab. Zar. II, 7</cite> <he>היושב באסטרין וכ׳</he> Var. (ed. Zuck. <he>איסטרטון</he>, ed. <he>איסטרין</he>) he who attends the arena as a spectator is like a murderer (countenancing bloodshed); Y. ib. I, 40ᵃ <he>היושב באיצטדין</he> (interchanging with <cite ref=\"V00404\"><he>תיאטרון</he></cite> theatrum). <i>Pl.</i> <he>אִצְטְרִינִין</he> &c. ",
+				"<cite ref=\"Avodah Zarah 18b:8\">Ab. Zar. 18ᵇ</cite> <he>אין הולכין לא׳ מפני ש״ד</he> Ms. M. (ed. <he>לאצטדינין מפני מושב לצים …</he>, v. Rabb. D. S. a. l. note) you must not go to the arenas on account of bloodshed (ed. to theatres on account of ‘scorners’ seat’, <cite ref=\"Psalms 1:1\">Ps. I, 1</cite>). ",
+				"<cite ref=\"Psalms 1:1\">Ib.</cite> Ms. M. repeat. <cite ref=\"A02872\"><he>אִצְטָרִינָן</he></cite>, cmp. <cite ref=\"A00112\"><he>אֲבֵידָן</he></cite>. Tosef. l. c. 6 <he>לאיצרטיונין</he> (Var. <he>לצטרדיונין</he>, <he>לצטריונין</he>); 7 <he>לאיצטריונין</he> (Var. <he>לטריונין</he>, <he>לצטריונין</he>), cmp. <cite ref=\"I00754\"><he>טַרְטְיָאוֹת</he></cite>."
+			]
+		}
+	]
+}

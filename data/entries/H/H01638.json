@@ -1,0 +1,23 @@
+{
+	"id": "H01638",
+	"slug": "חרורי-2",
+	"headword": {
+		"text": "חֲרוּרֵי"
+	},
+	"page": {
+		"number": 500,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"H01637\">preced.</cite>) <i>claims of liberation from slavery</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 86a:2\">Gitt. 86ᵃ</cite> (in a formula of sale of a slave) <he>ופטיר ועטיר מן ח׳ וכ׳</he> and is free and guarded from any claims of liberation."
+			]
+		}
+	]
+}

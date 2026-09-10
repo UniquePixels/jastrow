@@ -1,0 +1,25 @@
+{
+	"id": "C01076",
+	"slug": "גנאי-1",
+	"headword": {
+		"text": "גְּנַאי"
+	},
+	"page": {
+		"number": 256,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01131\"><he>גני</he></cite>) <i>disgrace, shame, blame; obscenity</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 46a\">Ab. Zar. 46ᵃ</cite> a byname <he>לג׳</he> of reproach, (cacophemistic, opp. <he>לשבח</he>). ",
+				"<cite ref=\"Kiddushin 33b\">Kidd. 33ᵇ</cite>; <cite ref=\"Jerusalem Talmud Shekalim 5:2:6\">Y. Shek. V, 49ᵃ</cite> bot. <he>חד אמר לג׳</he> one says ‘they looked after Moses’ (<cite ref=\"Exodus 33:8\">Ex. XXXIII, 8</cite>) with the purpose of fault-finding; Tanḥ. Ki Thissa 27. ",
+				"<cite ref=\"Megillah 25b:16\">Meg. 25ᵇ</cite> <he>כל המקראות … לג׳ וכ׳</he> words in the Torah which, as they are written (v. <cite ref=\"K01357\"><he>כתיב</he></cite>), have become obscene, are in reading changed &c. (<cite ref=\"U00229\"><he>שגל</he></cite> changed into <he>שכב</he> &c.). ",
+				"<cite ref=\"Berakhot 33b:22\">Ber. 33ᵇ</cite> <he>ג׳ הוא לו</he> it would be offering an insult to him; a. fr."
+			]
+		}
+	]
+}

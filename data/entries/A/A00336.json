@@ -1,0 +1,32 @@
+{
+	"id": "A00336",
+	"slug": "אגר-2",
+	"headword": {
+		"text": "אֲגַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 14,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00335\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A00340\"><he>אַגַּר</he></cite> <i>to heap up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 1:16\">Targ. Y. Deut. I, 16</cite> <he>דמְאַגַּר וכ׳</he> (ed. Vien. <he>מֶאֱגַר</he>—) who heaps up litigations, v. <cite ref=\"A00335\">foreg.</cite> [<cite ref=\"Aramaic Targum to Psalms 104:7\">Targ. Ps. CIV, 7</cite> <he>למיגר</he> Ms., v. <cite ref=\"N00118\"><he>נְגַד</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

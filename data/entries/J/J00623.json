@@ -1,0 +1,32 @@
+{
+	"id": "J00623",
+	"slug": "ירח-2",
+	"headword": {
+		"text": "יֶרַח"
+	},
+	"page": {
+		"number": 595,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00622\">preced.</cite>; Assyr. <i>arḥu</i>) <i>month</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 11a:7\">R. Hash. 11ᵃ</cite>, v. <cite ref=\"G00319\"><he>זֵיוְתָן</he></cite>. Tanḥ. Noah 11, v. <cite ref=\"B00254\"><he>בּוּל</he> III</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. <i>Yeraḥ</i>, at the southernmost point of Lake Tiberias; <he>בית י׳</he> <i>Beth-Yeraḥ</i>, near Yeraḥ, a twin-town of Sennabris (v. <cite ref=\"O01168\"><he>סִנְבְּרַאי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:17\">Gen. R. s. 98</cite> (expl. <he>כנות</he>, <cite ref=\"Deuteronomy 3:17\">Deut. III, 17</cite>) R. El. says <he>י׳</he>; R. Samuel … <he>בית י׳</he>; R. Judah … Sennabris <i>and</i> Beth Yeraḥ. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:1:4\">Y. Meg. I, 70ᵃ</cite> two autonomies <he>כגון בית י׳ וכ׳</he> like B. Y. and Sennabris. Midr. Sam. ch. XXX, XXXII, expl. <he>חרשי</he>, <cite ref=\"II Samuel 24:6\">II Sam. XXIV, 6</cite> <he>בית י׳</he>.—",
+				"<cite ref=\"Tosefta Bekhorot 7:4\">Tosef. Bekh. VII, 4</cite> <he>איזהו ירדן מבית יְרֵחוֹ ולמטה</he> (ed. Zuck. <he>יריחו</he>) the real Jordan is from B. Y’reḥo and down; <cite ref=\"Bekhorot 55a:15\">Bekh. 55ᵃ</cite> <he>אין ירדן אלא מבית יריחו וכ׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "H01898",
+	"slug": "חתך-3",
+	"headword": {
+		"text": "חֲתָךְ"
+	},
+	"page": {
+		"number": 513,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01897\">preced.</cite>) <i>cut, wound</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Mikvaot 7:3\">Tosef. Mikv. VII</cite> (<cite ref=\"Tosefta Mikvaot 8:3\">VIII</cite>), 3 <he>מפני הח׳</he> on account of the place where the handle is intended to be lopped off (v. ",
+				"<cite ref=\"Mishnah Mikvaot 10:5\">Mikv. X, 5</cite>).—",
+				"<cite ref=\"Eruvin 18a:25\">Erub. 18ᵃ</cite>. ",
+				"<cite ref=\"Chullin 32b:9\">Ḥull. 32ᵇ</cite> <he>שחט במקום ח׳</he> he slaughtered by setting the knife into the wound (and continued the cut)."
+			]
+		}
+	]
+}

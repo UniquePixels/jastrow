@@ -1,0 +1,23 @@
+{
+	"id": "M02337",
+	"slug": "מצנפת",
+	"headword": {
+		"text": "מִצְנֶפֶת"
+	},
+	"page": {
+		"number": 827,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <he>צנף</he> a. derivatives) [<i>the bright headdress,</i>] <i>turban</i> esp. <i>the priest’s turban</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Yoma 1:10\">Tosef. Yoma I, 10</cite> <he>נוטל מִצְנַפְתּוֹ של וכ׳</he> he took the turban from the head of one of them, and they knew that the count for the lot was to begin with him; <cite ref=\"Yoma 25a:4\">Yoma 25ᵃ</cite>. ",
+				"<cite ref=\"Yoma 25a:4\">Ib.</cite> <he>מ׳ בבגדי חול וכ׳</he> is there a turban (<i>mitsnefeth</i>) among common dresses (not used at the priestly service)? <cite ref=\"Mishnah Yoma 7:5\">Ib. VII, 5</cite>; a. fr."
+			]
+		}
+	]
+}

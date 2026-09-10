@@ -1,0 +1,69 @@
+{
+	"id": "G00174",
+	"slug": "זול-2",
+	"headword": {
+		"text": "זוּל"
+	},
+	"page": {
+		"number": 386,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00173\">same</cite>; perf. <cite ref=\"G00475\"><he>זָל</he></cite>, Part. <cite ref=\"G00352\"><he>זִיל</he></cite>, <cite ref=\"G00176\"><he>זוֹל</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to disregard</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 16:5\">Targ. Y. II, Gen. XVI, 5</cite> (perh. fr. <cite ref=\"G00499\"><he>זְלַל</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be worthless, cheap</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:68\">Targ. Y. Deut. XXVIII, 68</cite> <he>בדמין זוֹלִין</he> for a low price.—",
+				"<cite ref=\"Bava Metzia 77a:12\">B. Mets. 77ᵃ</cite> <he>זל עבידתא</he> (sub <he>שכר</he>) labor has become cheaper. ",
+				"<cite ref=\"Bava Metzia 77a:8\">Ib.</cite> <he>זל עביד׳ מעיקרא</he> labor was originally cheap. ",
+				"<cite ref=\"Bava Metzia 77a\">Ib.</cite> <he>זיל עביד׳</he> Ms. M. (v. Rabb. D. S. a. l. note 40). ",
+				"<cite ref=\"Berakhot 63a\">Ber. 63ᵃ</cite> (prov.) <he>זָלָא קמץ קניה</he> Ms. M. (ed. <he>זָלַת קבוץ קנה מינה</he>, Ar. <cite ref=\"S01721\"><he>קפוץ</he></cite>) if a thing is cheap, be quick and buy it. ",
+				"<cite ref=\"Bava Metzia 64a:11\">B. Mets. 64ᵃ</cite> bot. <he>אי יקרא אי זילא וכ׳</he> whether it will rise or fall, it shall be in my possession (gain or loss shall be mine). ",
+				"<cite ref=\"Avodah Zarah 70a:1\">Ab. Zar. 70ᵃ</cite> <he>זִילָה עלייהו</he> she is contemptible in their sight. ",
+				"<cite ref=\"Bava Batra 110a:5\">B. Bath. 110ᵃ</cite> <he>זִילָא בי מילתא</he> such occupation is beneath my dignity. ",
+				"<cite ref=\"Yevamot 63a:9\">Yeb. 63ᵃ</cite> <he>זַבֵּין ולא תֵיזוּל</he> sell (part of thy clothes to start a business) in order not to be disgraced by poverty; (oth. explan., v. <cite ref=\"G00175\">next w.</cite>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹזִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to sell cheap, make easy terms</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 77a:12\">B. Mets. 77ᵃ</cite> <he>אוֹזִילו אינהו גביה זוזא וכ׳</he> at the start they had agreed to work for one <i>zuz</i> less (than the market price of labor), and wages were generally reduced afterwards. ",
+						"<cite ref=\"Bava Metzia 77b:11\">Ib.ᵇ</cite> <he>אוֹזְלֵי מוֹזִיל וכ׳</he> he will lower the price and sell (some of his movable goods in order to raise money). ",
+						"<cite ref=\"Bava Metzia 73a:10\">Ib. 73ᵃ</cite> top <he>מוֹזְלֵי גבייהו</he> they will be easier in selling them. ",
+						"<cite ref=\"Bava Metzia 73a:10\">Ib.</cite> bot. <he>אוזולי דקא מוזלי גבייכו</he> (better <he>אחולי … מחלי</he>, v. Rabb. D. S. a. l. note 1) they are liberal towards you (paying more than the ordinary wages). ",
+						"<cite ref=\"Bereishit Rabbah 39:11\">Gen. R. s. 39</cite> <he>חלא מֵזִיל חמרא</he> vinegar cheapens wine, i.e. where bad wine is plentiful in the market, good wine sells cheaper; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְּזִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be degraded, disgraced</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 53b:5\">Keth. 53ᵇ</cite> <he>לא ניחא ליה דתִיתְּזִיל</he> he does not want her to be disgraced (by dependence on public charity)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

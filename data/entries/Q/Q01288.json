@@ -1,0 +1,22 @@
+{
+	"id": "Q01288",
+	"slug": "פסילה",
+	"headword": {
+		"text": "פְּסִילָה"
+	},
+	"page": {
+		"number": 1195,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01325\"><he>פָּסַל</he></cite>) <i>chisel</i> or <i>gimlet</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:30\">Y. Kidd. I, 59ᵈ</cite> (expl. <cite ref=\"M02757\"><he>מרצע</he></cite>, <cite ref=\"Exodus 21:6\">Ex. XXI, 6</cite>) <he>זה הפ׳</he> (some ed. <cite ref=\"Q01325\"><he>הפָּסִיל</he></cite>), contrad. to <cite ref=\"M02381\"><he>מקדח</he></cite>.—[<cite ref=\"Kohelet Rabbah 9:11\">Koh. R. to IX, 11</cite>; <cite ref=\"Kohelet Rabbah 10:20:1\">X, 20</cite> <he>פסילתן</he>, some ed., v. <cite ref=\"Q01247\"><he>פְּסוֹלֶת</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"id": "K00917",
+	"slug": "כסי-3",
+	"headword": {
+		"text": "כסי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּסָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 653,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to cover</i>.—Part. pass. <cite ref=\"K00904\"><he>כָּסוּי</he></cite>, f. <he>כְּסוּיָה</he>; pl. <he>כְּסוּיִים</he>, <he>כְּסוּיִין</he>; <he>כְּסוּיוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 52\">Gen. R. s. 52</cite> <he>אתם כִּסִּיתֶם … כְּסוּי עינים</he> you have concealed from me the sight (of truth), therefore the son that you will raise will be of covered eyes (blind); <cite ref=\"Yalkut Shimoni on Torah 91:3\">Yalk. Gen. 91</cite> <cite ref=\"K00911\"><he>כסות</he></cite> (corr. acc.); <cite ref=\"Bava Kamma 93a:5\">B. Kam. 93ᵃ</cite> <he>הואיל וכִיסִּית … בנים כְּסוּיֵי עיניים</he> (v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:21\">Y. Ter. VIII, 45ᵈ</cite> <he>הכְּסוּיִין</he> (not <he>הכיסוין</he>) the covered liquids."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיסָּה", "כִּסָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to cover, hide</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 6:4\">Ḥull. VI, 4</cite> … <he>שחט ולא כ׳ לכַסּוֹת</he> if one slaughters and fails to cover the blood, and another person sees it, he is bound to cover it. ",
+						"<cite ref=\"Pesachim 119a:2\">Pes. 119ᵃ</cite> (ref. to <cite ref=\"Isaiah 23:18\">Is. XXIII, 18</cite>) <he>זהו המְכַסֶּה דברים וכ׳</he> he who keeps secret the things which the Old of Days has covered (mysteries). B. Kam. l. c.; Gen. R. l. c., v. supra. ",
+						"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>מְכַסָּה אני ממך</he> shall I conceal it from thee?—",
+						"<cite ref=\"Bereishit Rabbah 87:5\">Gen. R. s. 87</cite> <he>כִּסְּתָה פניה</he> she covered her (the idol’s) face. ",
+						"<cite ref=\"Bereishit Rabbah 87:5\">Ib.</cite> <he>לא כ׳ עליהם הכתוב</he> the Bible did not cover their guilt (v. <cite ref=\"H01423\"><he>חָפָה</he></cite>); a. fr.—Part. pass. <he>מְכוּסֶּה</he>, f. <he>מְכוּסָּה</he>; pl. <he>מְכוּסִּים</he>, <he>מְכוּסִּין</he>; <he>מְכוּסּוֹת</he>. ",
+						"<cite ref=\"Bereishit Rabbah 87:5\">Ib.</cite> s. 52 (ref. to <cite ref=\"Genesis 20:16\">Gen. XX, 16</cite> [read:] <he>עשאה מטרונה כסות עינים שהיא מכ׳ מן העין</he> he (Abimelech) made a matron of her (Sarah) (giving her) ‘a cover of the eyes’, by which she was protected from the gaze (of men). ",
+						"<cite ref=\"Pesachim 54b:2\">Pes. 54ᵇ</cite> <he>שבעה … מכ׳ וכ׳</he> seven things are hidden from man; a. fr.—[<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite>, end <he>מה את מכסה בי</he>, read: <he>מב׳</he>, v. <cite ref=\"B00971\"><he>בְּסָא</he></cite>.—Sifra B’ḥuck., Par. 2, ch. V <cite ref=\"K00917\"><he>כיסה</he></cite>, v. <cite ref=\"K00913\"><he>כָּסַח</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִכְסָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered, hidden</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 2:1\">Snh. II, 1</cite> (<cite ref=\"Sanhedrin 18a\">18ᵃ</cite>; <cite ref=\"Sanhedrin 19a:4\">19ᵃ</cite>) <he>הן נִכְסִין … והוא נ׳</he> when they (who form the funeral cortege) are hidden from his view (when entering an alley), he (the high priest) appears; when they emerge, he disappears (in the alley). ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:9\">Cant. R. to II, 9</cite> <he>נראה וחוזר ונ׳</he> is visible and disappears again; Ruth. R. to II, 14; Pesik. Haḥod., p. 49ᵇ. ",
+						"<cite ref=\"Bamidbar Rabbah 22\">Num. R. s. 22</cite> (play on <cite ref=\"N00841\"><he>נְכָסִים</he></cite>) <he>נ׳ מזה וכ׳</he> they disappear from one and appear to the other; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְכַּסֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered, clothed</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 16a:2\">Bets. 16ᵃ</cite> (ref. to <he>בַּכֶּסֶה</he>, <cite ref=\"Psalms 81:4\">Ps. LXXXI, 4</cite>) <he>איזהו חג שהחדש מִתְכַּסֶּה בו</he> what festival is that on which the new moon is hidden (seen only by a few)?; <cite ref=\"Pirkei DeRabbi Eliezer 7\">Pirké d’R. El. ch. VII</cite>, end <he>ביום שמ׳ כולו</he> on the day when the moon is entirely covered. ",
+						"<cite ref=\"Devarim Rabbah 3\">Deut. R. s. 3</cite> <he>מתכ׳ משלו</he> clothed himself at his (the fosterfather’s) expense. ",
+						"<cite ref=\"Devarim Rabbah 3\">Ib.</cite> <he>כל … אוכל ומתכ׳ וכ׳</he> all that is spent on you for eating and clothing &c. ",
+						"<cite ref=\"Mishnah Ketubot 5:8\">Keth. V, 8</cite> <he>מִתְכַּסָּה</he>, v. <cite ref=\"B00807\"><he>בְּלָאוֹת</he></cite>. ",
+						"<cite ref=\"Mishnah Tamid 1:1\">Tam. I, 1</cite> <he>מִתְכַּסִּין</he>, v. <cite ref=\"K00911\"><he>כְּסוּת</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

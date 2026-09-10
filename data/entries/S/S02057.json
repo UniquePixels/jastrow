@@ -1,0 +1,40 @@
+{
+	"id": "S02057",
+	"slug": "קריינא",
+	"headword": {
+		"text": "קַרְיָינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְיָנָא"
+		}
+	],
+	"page": {
+		"number": 1420,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְרֵי</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>one able to read in the Bible</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 49a:11\">Kidd. 49ᵃ</cite> <he>על מנת שאני ק׳ כיון וכ׳</he> if one betrothes a woman with the condition ‘that I am a <i>ḳaryana’</i>, she is betrothed as soon as he can read three verses in the synagogue. ",
+				"<cite ref=\"Kiddushin 49a:12\">Ib.</cite> <he>והני מילי דאמר ק׳ וכ׳</he> this is the case only when he says <i>ḳaryana</i>, but if he says <i>ḳara</i> &c., v. <cite ref=\"S01877\"><he>קַרָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>one who dictates a letter</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 82a:13\">Snh. 82ᵃ</cite>, a. fr., v. <cite ref=\"Q01637\"><he>פַּרְוַונְקָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

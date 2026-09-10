@@ -1,0 +1,23 @@
+{
+	"id": "H01142",
+	"slug": "חמאה",
+	"headword": {
+		"text": "חֶמְאָה"
+	},
+	"page": {
+		"number": 475,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"H01172\"><he>חמי</he></cite>) [<i>pressed, thick</i>,] <i>cream</i> or <i>butter</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 63b:17\">Ber. 63ᵇ</cite> (ref. to <cite ref=\"Proverbs 30:33\">Prov. XXX, 33</cite>) <he>ח׳ של תורה</he> the cream of the Law (sound knowledge). ",
+				"<cite ref=\"Bava Metzia 86b:15\">B. Mets. 86ᵇ</cite> <he>בשכר ח׳ וכ׳</he> as a reward for the offer of cream and milk (<cite ref=\"Genesis 18:8\">Gen. XVIII, 8</cite>)."
+			]
+		}
+	]
+}

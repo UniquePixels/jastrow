@@ -1,0 +1,88 @@
+{
+	"id": "Q01755",
+	"slug": "פרח-2",
+	"headword": {
+		"text": "פְּרַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1223,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01754\">same</cite><i>to bloom</i>. [<cite ref=\"Targum Jonathan on Genesis 30:37\">Targ. Y. Gen. XXX, 37</cite> <he>דפָרַח לבן</he>, prob. name of a tree; h. text <he>לבנה</he>; cmp. <cite ref=\"Q01756\"><he>פֶּרַח</he></cite>.]",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to move swiftly, fly, swim, run</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:21\">Targ. O. Gen. I, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:9\">Targ. Y. Deut. XIV, 9</cite> (ed. Amst. <he>למַפְ׳</he>, <i>Af.</i>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:19\">Ib. 19</cite>; a. fr.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 938:32\">Yalk. Deut. 938</cite>, a. e., v. <cite ref=\"G00250\"><he>זַחֲלָא</he></cite>. ",
+				"<cite ref=\"Ketubot 105b:10\">Keth. 105ᵇ</cite>, v. <cite ref=\"C00239\"><he>גַּדְפָא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 22:7\">Gen. R. s. 22</cite> <he>דין אמר חלוץ ודין אמר פרח</he> the one (Abel) said, take thy dress off (the wool is mine), and the other (Cain) said, fly in the air (the earth is mine). ",
+				"<cite ref=\"Kohelet Rabbah 1:8:4\">Koh. R. to I, 8</cite> <he>והיה פ׳ ואינון פָּרְחִין בתריה</he> he ran, and they ran after him; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to palpitate</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:4\">Gitt. 69ᵇ</cite> <he>כל שכן דפ׳ ליביה</he> his heart will palpitate still more."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to cause to flee, keep off</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:3\">Pes. 111ᵇ</cite> <he>פִּירְחִי נפשיך וכ׳</he> keep thyself off the service-tree."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פָּרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to fly, carry off</i>. Ib. 110ᵇ top (in an incantation) <he>פָּרְחֵיה זיקא וכ׳</he> Ms. M. a. Rashi (ed. <cite ref=\"Q01602\"><he>פרח׳</he></cite>) let the wind carry off &c.; ib.ᵃ bot. <he>פ׳ פרחייכי</he>, v. <cite ref=\"Q01757\"><he>פִּרְחָא</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to produce blossoms, to bloom</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 40:10\">Targ. Gen. XL, 10</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Numbers 17:23\">Targ. Y. II, Num. XVII, 23</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to fly</i>, v. supra.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cause to fly, carry; to chase off</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 15:11\">Targ. O. Gen. XV, 11</cite> (ed. Berl. <he>ואָתֵיב</he>, v. Berl. Targ. O. II, p. 6). ",
+						"<cite ref=\"Onkelos Numbers 11:31\">Targ. Num. XI, 31</cite> (not <he>וְאֶפְ׳</he>; h. text <he>ויגז</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 28:28\">Targ. Is. XXVIII, 28</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 7:23\">Targ. Prov. VII, 23</cite> (h. text <he>יפלח</he>); a. fr.—Midr. Sam. ch. XXIII (expl. <he>ויעט</he>, <cite ref=\"I Samuel 25:14\">I Sam. XXV, 14</cite>) <he>אַפְרְחִין במילין</he> he chased them off with (harsh) words; Y. Snh. II, 20ᵇ top <he>אפחין</he> (corr. acc.). ",
+						"<cite ref=\"Shevuot 30b:4\">Shebu. 30ᵇ</cite> <he>אַפְרַח עלי בר וכ׳</he> let a duck fly over me; a. e.—Y. Sot. III, beg. 18ᶜ [read:] <he>חמי היך אַפְרְחִית הדין דידך</he> see how I make this thy argument fly off (I refute it)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

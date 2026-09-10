@@ -1,0 +1,23 @@
+{
+	"id": "P00545",
+	"slug": "עייט",
+	"headword": {
+		"text": "עַיִיט",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1069,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עיט</he> <i>to twist</i>, cmp. <cite ref=\"P00441\"><he>עטי</he></cite>) <i>tassel, fringe</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 5:20\">Tosef. Kil. V, 20</cite> <he>ע׳ של צמר … מותר</he> (Var. <cite ref=\"P00527\"><he>עַיִט</he></cite>; <he>עיפו</he>) a woolen tassel attached to a linen garment is permitted (<cite ref=\"Mishnah Kilayim 9:9\">Kil. IX, 9</cite> <he>פיף … אסור</he>)."
+			]
+		}
+	]
+}

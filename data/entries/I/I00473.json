@@ -1,0 +1,25 @@
+{
+	"id": "I00473",
+	"slug": "טלאי-3",
+	"headword": {
+		"text": "טְלָאֵי",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 535,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>inhabitants</i> or <i>descendants of Tela</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 70b:10\">Kidd. 70ᵇ</cite> (prob. a nickname, v. <cite ref=\"B00809\"><he>בְּלָאֵי</he></cite>)."
+			]
+		}
+	]
+}

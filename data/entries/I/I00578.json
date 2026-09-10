@@ -1,0 +1,59 @@
+{
+	"id": "I00578",
+	"slug": "טנן-2",
+	"headword": {
+		"text": "טְנַן"
+	},
+	"page": {
+		"number": 541,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00577\">same</cite><i>to moisten</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:5\">Targ. Job III, 5</cite> (h. text <he>גאל</he>, Regia <he>יטנפ׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. our <i>to drivel</i>, Germ, <i>geifern</i>) <i>to be jealous, zealous, agitated</i> (corresp. to h. <cite ref=\"S01567\"><he>קנא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 73:3\">Targ. Ps. LXXIII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:31\">Targ. Prov. III, 31</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַנֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to moisten</i>. Y. Pes. VII, 30ᵃ top <he>מְטַנְּנָה אסור</he> to mix the wheat with moist sand is forbidden, v. <cite ref=\"I00577\">preced.</cite>",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be jealous</i> &c. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 37:1\">Targ. Ps. XXXVII, 1</cite> <he>תְטַנֵּין</he> Ms. (ed. <he>תִטְנֵין</he>. <i>Pe.</i>, <he>תַטְנֵין</he> <i>Af.</i>). ",
+						"<cite ref=\"Aramaic Targum to Job 36:33\">Targ. Job XXXVI, 33</cite> <he>מְטַנְנִין וכ׳</he> (Ms. <he>מְטַנִּין</he>) attacking each other in the heat of discussion (cmp. <he>קנאת סופרים</he>, s. v. <cite ref=\"S01511\"><he>קִנְאָה</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַטְנֵין"],
+			"senses": [
+				{
+					"gloss": ", v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

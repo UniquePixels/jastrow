@@ -1,0 +1,44 @@
+{
+	"id": "S01748",
+	"slug": "קפל-3",
+	"headword": {
+		"text": "קָפַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1402,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (transpos. of <he>קלף</he>; cmp. Syr. <cite ref=\"S01746\"><he>קפל</he></cite>, P. Sm. 3691, sq.) <i>to scrape, eat away</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 85\">Sifré Num. 85</cite> [read:] <he>ירדה … קוֹפֶלֶת ומחתה בהם מתחתיהם</he> fire came down from heaven, and it was eating away and digging among them from under them; <cite ref=\"Yalkut Shimoni on Torah 732\">Yalk. ib. 732</cite> [read:] <he>קופלת ומחתה בהם</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִיפּל"],
+			"senses": [
+				{
+					"gloss": "<i>to scrape off</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 9b:13\">M. Kat. 9ᵇ</cite> <he>בסיד … לקַפְּלוֹ במועד</he> a lime paste which you may scrape off during the festive week.—[<cite ref=\"Sotah 35b\">Sot. 35ᵇ</cite>, Rashi to <cite ref=\"Chullin 44a\">Ḥull. 44ᵃ</cite> <he>וקפלו את האבנים</he>, ‘they scraped the stones’ by confounding with <cite ref=\"Chullin 36a\">ib. 36ᵃ</cite> <he>וקילפו את הסיד</he>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְקַפֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be scraped</i>; (of glassware) <i>to be cut</i> or <i>engraven</i>. Y. Succ. IV, 54ᵈ top <he>מהו … שהיתה מִתְקַפֶּלֶת</he> what kind of white glass is meant? Cut (or engraved) glass.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "H00968",
+	"slug": "חלב-3",
+	"headword": {
+		"text": "חָלַב"
+	},
+	"page": {
+		"number": 464,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"H00966\"><he>חָלָב</he></cite>) <i>to milk; to yield milk</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 2:6\">Ab. Zar. II, 6</cite>, v. <cite ref=\"H00966\"><he>חָלָב</he></cite>. ",
+				"<cite ref=\"Bekhorot 20b:7\">Bekh. 20ᵇ</cite> <he>רוב … חוֹלְבוֹת וכ׳</he> the majority of animals secrete no milk unless they have given birth; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחֱלַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be milked</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 53b:14\">Sabb. 53ᵇ</cite> <he>לֵיחָלֵב</he> when the bag is tied on for milking purposes (to support the udders), opp. <he>ליבש</he> for drying up."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

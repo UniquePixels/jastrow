@@ -1,0 +1,41 @@
+{
+	"id": "M02644",
+	"slug": "מרט-3",
+	"headword": {
+		"text": "מְרַט",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרָטָא"
+		}
+	],
+	"page": {
+		"number": 841,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02643\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>baldness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 14:1\">Targ. O. Deut. XIV, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 15:2\">Targ. Is. XV, 2</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>plucked wool, tuft</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 49a:3\">Sabb. 49ᵃ</cite> <he>ממ׳ דביני אטמי</he> of wool plucked from between the flanks (of a living animal, which contains moisture)."
+			],
+			"label": "2"
+		}
+	]
+}

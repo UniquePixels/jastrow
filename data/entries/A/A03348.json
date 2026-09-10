@@ -1,0 +1,75 @@
+{
+	"id": "A03348",
+	"slug": "אשר-2",
+	"headword": {
+		"text": "אָשַׁר"
+	},
+	"page": {
+		"number": 130,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., √<cite ref=\"A03254\"><he>אש</he></cite> , v. <he>אשש</he>) <i>to exist, be strong, happy;</i> v. <cite ref=\"J00703\"><he>יָשַׁר</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִישֵּׁר", "אִשֵּׁר"],
+			"senses": [
+				{
+					"gloss": " (b. h.) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to exalt, praise, declare happy</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 45:1\">Pesik. R. s. 45</cite> <he>התחיל מְאַשְּׁרֵם</he> he commenced by declaring them happy; v. <cite ref=\"U01961\"><he>אַשְׁרֵי</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to substantiate; to verify, attest to</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14:22\">Num. R. s. 14</cite> <he>לאַשֵּׁר את הדין</he> to give strength to the legal decision Y. Gitt. IX, 50ᶜ bot. (<he>אישרניהי</he>) <he>אִישַּׁרְנוּהוּ</he> we have verified it in the presence of &c."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "—Part. pass. <he>מְאוּשָּׁר</he> ",
+					"units": [],
+					"senses": [
+						{
+							"gloss": " <i>firm, strong</i>. ",
+							"units": [
+								"<cite ref=\"Bereishit Rabbah 15:7\">Gen. R. s. 15</cite>, beg. the bux-tree is called <he>תְּאַשּׁוּר</he> because it is <he>מא׳ וכ׳</he> the strongest of all (cmp. <cite ref=\"A03314\"><he>אֵשֶׁל</he></cite>). Y. Succ. III, 54ᵃ top; Y. Meg. I, 72ᵃ top <he>המא׳ שבכלן וכ׳</he> the strongest (expression) of all, is Hallelujah.—"
+							],
+							"label": "1"
+						},
+						{
+							"gloss": " <i>substantial, good, rich</i>. ",
+							"units": [
+								"<cite ref=\"Bereishit Rabbah 90:6\">Gen. R. s. 90</cite>, end (ref. to <he>את כל אֲשֶׁר</he> <cite ref=\"Genesis 41:56\">Gen. XLI, 56</cite>) <he>המְאוּשָּׁרִין שבהם</he> the best stores of all. ",
+								"<cite ref=\"Bereishit Rabbah 28:9\">Gen. R. s. 28</cite>.—",
+								"<cite ref=\"Sanhedrin 22a:16\">Snh. 22ᵃ</cite> is called Ashurith <he>שמְאוּשֶּׁרֶת בכתב</he> because its characters are substantial (Ar. <he>שמאושר</he>); Y. Meg. I, 71ᵇ bot.; Y. Sot. VII, 21ᶜ top."
+							],
+							"label": "2"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְאַשֵּׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to be set up, be erected</i>. Sifra K’dosh. beg. (play on <he>אֲשֵׁרִים</he>) <he>על שם שהם מִתְאַשְּׁרִים מאחרים</he> because they are put up by others.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

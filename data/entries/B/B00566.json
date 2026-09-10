@@ -1,0 +1,28 @@
+{
+	"id": "B00566",
+	"slug": "ביזיא",
+	"headword": {
+		"text": "בִּיזְיָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּזְיָא"
+		}
+	],
+	"page": {
+		"number": 160,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בזי</he> II) <i>rag, wreck</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 30:7\">Gen. R. s. 30</cite> <he>ב׳ סבא</he> old rag (contemptuous designation of an old man)."
+			]
+		}
+	]
+}

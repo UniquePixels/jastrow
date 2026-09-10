@@ -1,0 +1,24 @@
+{
+	"id": "M00572",
+	"slug": "מוצא-1",
+	"headword": {
+		"text": "מוֹצָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 746,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Motsa</i>, near Jerusalem (also named <i>Colonia</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 4:5\">Succ. IV, 5</cite>. Y. ib. 54ᵇ bot. <he>מהו מ׳ ממצייא וכ׳</he> what is Motsa? <i>Mamtsia</i> … named Colonia; Bab. ",
+				"<cite ref=\"Sukkah 45a:4\">ib. 45ᵃ</cite> <he>מקום קלניא … קרי ליה מ׳ וכ׳</he> the place was named Colonia, but why does our Tanna call it Motsa? (Answ.: as if <he>מוֹצִיא</he>) <he>איידי דמיפק וכ׳</he> because its inhabitants are exempt from royal taxes, he calls it <i>M.</i> (v. Sm. Ant. s. v. Colonia)."
+			]
+		}
+	]
+}

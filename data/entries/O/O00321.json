@@ -1,0 +1,36 @@
+{
+	"id": "O00321",
+	"slug": "סולם",
+	"headword": {
+		"text": "סוּלָּם"
+	},
+	"page": {
+		"number": 964,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"O01005\"><he>סֻלָּם</he></cite>; <cite ref=\"O01004\"><he>סָלַל</he> II</cite>)<i>ascent, ladder</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 3:6\">B. Bath. III, 6</cite>, v. <cite ref=\"M02364\"><he>מִצְרִי</he> II</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite> <he>בו עולים ויורדים בס׳</he> <i>bo</i> (<cite ref=\"Genesis 28:12\">Gen. XXVIII, 12</cite>) , that is, they went up and down the ladder. ",
+				"<cite ref=\"Genesis 28:12\">Ib.</cite> <he>סֻלָּם זה סיני</he> <i>sullam</i> (whose numerical value is 110) is Sinai; a. fr.—סוּלָּמָהּ של צור <i>the Ladder of Tyre</i> (Scala Tyriorum), a promontory south of Tyre. Y. Ab. Zar. I, 40ᵃ bot.; a. e.—Pl. <he>סוּלָּמוֹת</he>. Gen. R. l. c. <he>הקב״ה יושב ועושה ס׳ וכ׳</he> the Lord makes ladders, causing one to go down, the other to rise (on the social scale). ",
+				"<cite ref=\"Shabbat 26a:3\">Sabb. 26ᵃ</cite> <he>מס׳ של צור וכ׳</he> from the Promontory of Tyre (along the sea-coast) to Haifa. ",
+				"<cite ref=\"Ruth Rabbah 4\">Ruth R. to IV, 21</cite> (play on <he>שַׂלְמוֹן</he>) <he>עד כאן עשו ס׳ לנשיאים וכ׳</he> thus far they made ladders for princes (the genealogical tree of chiefs), from now (Salmon) they made ladders for kings; a. fr.—2) <i>a yoke</i> in the shape of a ladder, put on the ass to prevent him from scratching a sore. ",
+				"<cite ref=\"Mishnah Shabbat 5:4\">Sabb. V, 4</cite> (<cite ref=\"Shabbat 54b\">54ᵇ</cite>), v. <cite ref=\"L00299\"><he>לוֹעָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a sort of <i>hem, chain-stitch</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:8:4\">Y. M. Kat. III, 83ᵈ</cite>, v. <cite ref=\"S01775\"><he>קֶפֶשׂ</he></cite>.—<i>Pl.</i> as ab. Bab. ",
+				"<cite ref=\"Moed Katan 26b:2\">M. Kat. 26ᵇ</cite> <he>הקורע … מתוך הס׳</he> he who rends his garment (in mourning) where it has been mended with chain-stitches after a previous rent."
+			],
+			"label": "3"
+		}
+	]
+}

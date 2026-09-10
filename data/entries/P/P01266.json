@@ -1,0 +1,23 @@
+{
+	"id": "P01266",
+	"slug": "ערבו",
+	"headword": {
+		"text": "עַרְבוּ"
+	},
+	"page": {
+		"number": 1112,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>ʿArbu</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> (ref. to <he>הערבים</he> <cite ref=\"I Kings 17:6\">I Kings XVII, 6</cite>) <he>עיר היא … ושמה ע׳</he> (ed. Wil. <cite ref=\"P01279\"><he>עַרְבִי</he></cite>) there is a town in the district of Bethshean whose (Chaldaic) name is ʿArbu (ʿArbi, so that <i>ʿor’bim</i> may refer to the inhabitants of that place, v. ",
+				"<cite ref=\"Chullin 5a\">Ḥull. 5ᵃ</cite>)."
+			]
+		}
+	]
+}

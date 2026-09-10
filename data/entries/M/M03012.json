@@ -1,0 +1,22 @@
+{
+	"id": "M03012",
+	"slug": "מתברא-2",
+	"headword": {
+		"text": "מִתְבְּרָא"
+	},
+	"page": {
+		"number": 860,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. (<cite ref=\"V00071\"><he>תְּבַר</he></cite>) <he>מִתְבְּרִין</he> = b. h. <he>מִשְׁבָּרִים</he>, <i>breakers, waves</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 42:8\">Targ. Ps. XLII, 8</cite>."
+			]
+		}
+	]
+}

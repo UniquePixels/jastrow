@@ -1,0 +1,33 @@
+{
+	"id": "A03409",
+	"slug": "אתונא-3",
+	"headword": {
+		"text": "אֱתוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָתוּנָא"
+		},
+		{
+			"text": "אִתּוּנָא"
+		},
+		{
+			"text": "אַתּוּנָא"
+		}
+	],
+	"page": {
+		"number": 133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A03408\">preced.</cite>, = h. <cite ref=\"A01619\"><he>אישון</he></cite>) <i>density, intensiveness, essence</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 20:20\">Targ. Prov. XX, 20</cite> <he>איך א׳ דחשוכא</he> as darkness itself (h. text <he>באישון</he> with <cite ref=\"B00000\"><he>ב</he></cite>). Cmp. <cite ref=\"A01655\"><he>אֵיתָן</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,129 @@
+{
+	"id": "L00677",
+	"slug": "לקט-1",
+	"headword": {
+		"text": "לָקַט"
+	},
+	"page": {
+		"number": 717,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to seize</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to gather, glean</i>; <i>to pick</i>, v. <i>Pi.</i>—Part. <cite ref=\"L00666\"><he>לוֹקֵט</he></cite> <i>gleaner, huckster</i>, v. <cite ref=\"L00666\"><he>לָקוֹט</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (in sewing) <i>to gather</i>, <i>pucker</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 26a:26\">M. Kat. 26ᵃ</cite> bot. <he>ללוֹקְטָן ולעשותן כמין סולמות</he> to mend (the rents for the dead) by gathering or making a sort of stairs (chain-stitches), v. <cite ref=\"O00321\"><he>סוּלָּם</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִיקֵּט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00676\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to pick, harvest; to pick up, collect</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shevi'it 4:21\">Tosef. Shebi. IV, 21</cite> <he>לי׳ אתרוג באחד וכ׳</he> he harvested Ethrogs on the first of Sh’bat; <cite ref=\"Rosh Hashanah 14a\">R. Hash. 14ᵃ</cite>; <cite ref=\"Eruvin 7a\">Erub. 7ᵃ</cite>; <cite ref=\"Yevamot 15a\">Yeb. 15ᵃ</cite>. Tosef. ",
+						"<cite ref=\"Mishnah Rosh Hashanah 1:9\">R. Hash. I, 9</cite> <he>לי׳ ירק</he> if one picked vegetables; a. v. fr.—",
+						"<cite ref=\"Mishnah Maaser Sheni 2:5\">Maas. Sh. II, 5</cite> <he>מה שלי׳ לי׳ וכ׳</he> Y. ed. (Mish. a. Bab. ed. <he>מה שלקט לקט</he>) what coins he picked up singly belong to the second-tithe fund. Y. ib. 53ᶜ <he>והוא שלי׳ מיכן ומיכן אבל לי׳ על אומד וכ׳</he> (not <he>אומן</he>) provided he picked up here and there (deliberately selecting), but if he did so at random &c. ",
+						"<cite ref=\"Bekhorot 7b:20\">Bekh. 7ᵇ</cite> <he>כל המטיל בצים מְלַקֵּט וכ׳</he> every animal that lays eggs supports its brood by picking up food for it, except the bat … which gives suck.—",
+						"<cite ref=\"Mishnah Moed Katan 1:5\">M. Kat. I, 5</cite> <he>מלקט אדם וכ׳</he> one may (during the festive week) collect for final burial the bones of &c., v. <cite ref=\"L00520\"><he>לִיקּוּט</he></cite>. ",
+						"<cite ref=\"Mishnah Sanhedrin 6:6\">Snh. VI, 6</cite> <he>מְלַקְּטִין את העצמות וכ׳</he> the bones (of the convict) may be collected and buried in their family tomb; a. fr.—Esp. <i>to glean, to take the poor man’s share in the crop</i>. ",
+						"<cite ref=\"Mishnah Peah 4:9\">Peah IV, 9</cite> <he>מי שלקט וכ׳</he> (Y. ed. <he>שלי׳</he>) if one gleaned the corner of the field and said, this is to belong to &c.; <cite ref=\"Gittin 11b\">Gitt. 11ᵇ</cite>; <cite ref=\"Bava Metzia 9b\">B. Mets. 9ᵇ</cite>.—",
+						"<cite ref=\"Mishnah Peah 5:6\">Peah V, 6</cite> <he>לִלְקוֹט</he> (Y. ed. <he>ללַקֵּט</he>). Y. ib. IV, 18ᵇ <he>ילכו וִילַקְּטוּ וכ׳</he> let them have an opportunity to go and glean in another field &c., v. <cite ref=\"K00538\"><he>כִּילּוּי</he></cite>, a. v. fr.—[<cite ref=\"Mishnah Peah 4:5\">Peah IV, 5</cite>, v. Hif.].—[<cite ref=\"Sotah 11b:7\">Sot. 11ᵇ</cite> <he>ומלקט להן וכ׳</he>, v. <cite ref=\"N01190\"><he>נָקַט</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to pluck</i> (<i>hair</i>) <i>out singly</i>. ",
+					"units": [
+						"<cite ref=\"Nazir 40b:7\">Naz. 40ᵇ</cite> <he>לִיקְּטוֹ במלקט</he> if he plucked it singly with pinchers; <cite ref=\"Mishnah Makkot 3:5\">Macc. III, 5</cite> <he>לְקָטוֹ</he>. ",
+						"<cite ref=\"Makkot 20b:5\">Ib. 20ᵇ</cite> <he>במְלַקֵּט לבנות וכ׳</he> when one plucks out the white hair among the black; <cite ref=\"Shabbat 94b\">Sabb. 94ᵇ</cite>; a. e.—[Naz. l. c. <he>עד שילקטנו בתער</he>, read <he>שיטלנו</he> as <cite ref=\"Mishnah Makkot 3:5\">Macc. III, 5</cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִלְקַט"],
+			"senses": [
+				{
+					"gloss": "<i>to be collected, harvested</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shevi'it 4:21\">Tosef. Shebi. IV, 21</cite> <he>שגדל בחובה ונ׳ בחובה</he> what has been growing under obligation (as eventually subject to tithes) and been harvested under obligation; <he>שגדל בשביעית ונ׳ בשביעית</he> what has been growing in the Sabbatical year and collected in &c.; <cite ref=\"Rosh Hashanah 15a\">R. Hash. 15ᵃ</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be made smooth by plucking</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 97a\">Sabb. 97ᵃ</cite>, v. <cite ref=\"M01623\"><he>מַלְקֵט</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["לוּקָּט"],
+			"senses": [
+				{
+					"gloss": "<i>to be gleaned</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 5:1\">Peah V, 1</cite> <he>גדיש שלא ל׳ תחתיו</he> a stack of grain under which the gleaning for the poor has been left."
+					]
+				}
+			],
+			"stem": "Pu."
+		},
+		{
+			"forms": ["הִלְקִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to cause picking, to strew feed for birds</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 18:4\">Tosef. Sabb. XVIII, 4</cite> <he>מַלְקִיטִין</he>, contrad. to <he>מהלקטין</he> (v. <cite ref=\"E00411\"><he>הִילְקט</he></cite>); <cite ref=\"Shabbat 155b\">Sabb. 155ᵇ</cite>"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to arrange the gleaning by the poor</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 4:5\">Peah IV, 5</cite> (<cite ref=\"Mishnah Peah 4:3\">3</cite>) <he>היו מַלְקִיטִין על החבל</he> Y. ed. (Bab. ed. a. Mish. <he>מלקטין</he>) arranged the gleaning by the line, leaving a corner at the end of each furrow."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְלַקֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to be collected</i>; <i>to require collection</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maaser Sheni 2:5\">Maas. Sh. II, 5</cite> <he>המִתְלַקְּטִים</he> those coins which have been picked up singly, opp. <he>הנבללין</he>.—",
+						"<cite ref=\"Chullin 46a:10\">Ḥull. 46ᵃ</cite> <he>מִתְלַקֵּט מהו</he> if the required size of sound flesh can be obtained only by collecting (it not being in one place), how is it?—",
+						"<cite ref=\"Chullin 77a:7\">Ib. 77ᵃ</cite> <he>מתל׳ מהו</he> how is it, if the quantity of flesh required to cover the broken bone is scattered?"
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

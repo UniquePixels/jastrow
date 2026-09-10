@@ -1,0 +1,23 @@
+{
+	"id": "G00129",
+	"slug": "זוגה-2",
+	"headword": {
+		"text": "זוּגָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 384,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00272\"><he>זָיַג</he></cite>) <i>intended, beloved</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 63a\">Keth. 63ᵃ</cite> <he>זוּגָתְךָ נזכרת</he> didst thou think of thy girl (that thou camest home before thy time was up)?"
+			]
+		}
+	]
+}

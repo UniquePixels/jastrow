@@ -1,0 +1,27 @@
+{
+	"id": "V00956",
+	"slug": "תרוג",
+	"headword": {
+		"text": "תְּרוֹג"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּרוֹגָא"
+		}
+	],
+	"page": {
+		"number": 1696,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"A03447\"><he>אֶתְרוֹג</he></cite>.—Pl. <he>תְּרוֹגִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 23:40\">Targ. Y. Lev. XXIII, 40</cite> (ed. Vien. <cite ref=\"V00427\"><he>תְּרוּ׳</he></cite>)."
+			]
+		}
+	]
+}

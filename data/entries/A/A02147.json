@@ -1,0 +1,32 @@
+{
+	"id": "A02147",
+	"slug": "אניסא-1",
+	"headword": {
+		"text": "אָנִיסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָנוֹסָא"
+		},
+		{
+			"text": "אוֹנָסָא"
+		}
+	],
+	"page": {
+		"number": 82,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אנס</he>) <i>violent man, oppressor</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 7:7\">Targ. Koh. VII, 7</cite> (h. text <cite ref=\"P00370\"><he>עוֹשֶׁק</he></cite>).—Pl. <he>אָנוֹסִין</he>, <he>אֲנוֹסַיָּא</he> (<he>אני׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 6:6\">Targ. Jer. VI, 6</cite> ed. Ven. I <he>אני׳</he> (ed. Vien. <cite ref=\"A00757\"><he>אוֹנְסִין</he></cite>, oth. ed. <he>אנו׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:2\">Targ. Is. XXI, 2</cite>; <cite ref=\"Targum Jonathan on Isaiah 5:7\">V, 7</cite>, a. e. Cmp. <cite ref=\"A02261\"><he>אַנָּס</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "U00135",
+	"slug": "שבירה",
+	"headword": {
+		"text": "שְׁבִירָה"
+	},
+	"page": {
+		"number": 1514,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00174\"><he>שָׁבַר</he></cite>) <i>breaking</i>. Y. Orl. I, 60 bot. (not <cite ref=\"U00089\"><he>שבורה</he></cite>), v. <cite ref=\"N01045\"><he>נְפִיצָה</he></cite>.—<he>שְׁבִירַת עצם</he> breaking a bone of the Passover sacrifice. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 7:12\">Pes. VII, 12</cite>; <cite ref=\"Pesachim 70a\">ib. 70ᵃ</cite>; a. fr., v. <cite ref=\"P01128\"><he>עֶצֶם</he></cite>."
+			]
+		}
+	]
+}

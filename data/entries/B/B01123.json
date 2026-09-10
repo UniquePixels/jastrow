@@ -1,0 +1,35 @@
+{
+	"id": "B01123",
+	"slug": "בקיעה",
+	"headword": {
+		"text": "בְּקִיעָה"
+	},
+	"page": {
+		"number": 186,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בקע</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cleaving, cleft; that which is cloven, a log</i>. Pl. <he>בְּקִיעוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 2:23:1\">Koh. R. to II, 23</cite> <he>בקע לי שתי ב׳</he> chop for me two logs; (<cite ref=\"Bereishit Rabbah 27:2\">Gen. R. s. 27</cite> <he>בקעיות</he>, v. <cite ref=\"B01133\"><he>בְּקַעַת</he></cite>). ",
+				"<cite ref=\"Kohelet Rabbah 10:9:1\">Koh. R. to X, 9</cite>; <cite ref=\"Bereishit Rabbah 55:8\">Gen. R. s. 55</cite>, end <he>בשכר שתי ב׳ שבקע וכ׳</he> as a reward for the two pieces of wood which Abraham chopped (<cite ref=\"Genesis 22:3\">Gen. XXII, 3</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>crossing, passing over</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 101a:5\">Sabb. 101ᵃ</cite> <he>בְּקִיעַת דגים</he> the crossing of fish under the ship."
+			],
+			"label": "2"
+		}
+	]
+}

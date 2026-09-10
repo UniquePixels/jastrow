@@ -1,0 +1,29 @@
+{
+	"id": "M02574",
+	"slug": "מרוד-4",
+	"headword": {
+		"text": "מָרוֹד",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "מָרוֹדָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 838,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (or <cite ref=\"M01782\"><he>מְ׳</he></cite>) m. (<cite ref=\"M02530\"><he>מְרַד</he></cite>; cmp. <cite ref=\"J00606\"><he>יָרוֹד</he></cite> a. b. h. <cite ref=\"M02571\"><he>מָרוּד</he></cite>, pl. <he>מְרוּדִים</he>) <i>running wild</i>, esp. <i>the wild ass</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 16:12\">Targ. O. Gen. XVI, 12</cite> (h. text <cite ref=\"Q01527\"><he>פרא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 6:5\">Targ. Job. VI, 5</cite> (Var. <he>ערודאה</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 39:5\">Ib. XXXIX, 5</cite>; a. e.—Pl. <he>מְרוֹדַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 24:5\">Ib. XXIV, 5</cite>."
+			]
+		}
+	]
+}

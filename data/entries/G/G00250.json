@@ -1,0 +1,39 @@
+{
+	"id": "G00250",
+	"slug": "זחלא",
+	"headword": {
+		"text": "זַחֲלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַחְלָא"
+		}
+	],
+	"page": {
+		"number": 390,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"G00249\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 4:9\">Targ. Am. IV, 9</cite>; a. fr.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 938:32\">Yalk. Deut. 938</cite> (play on <he>עמלק</he>) <he>עם ילק פרח כהדין ז׳</he> a people of locusts, quick like the <i>zaḥla;</i> <cite ref=\"Yalkut Shimoni on Torah 938:32\">ib.</cite> Ex. 262; Pesik. Zakh., p. 26ᵇ <cite ref=\"D00424\"><he>דחלא</he></cite> (corr. acc.); Tanḥ. Ki Thetse 9 <he>פרח כזוחל</he> (corr. acc.).—Pl. <he>זַחֲלַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 33:4\">Targ. Is. XXXIII, 4</cite> Ar. (ed. sing.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>זְחַל</he> I) = <cite ref=\"G00155\"><he>זוֹחֲלָא</he></cite> <i>worm, moth</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 4:19\">Targ. Job IV, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:39\">Targ. Y. Deut. XXVIII, 39</cite>. [<cite ref=\"Targum Jerusalem, Deuteronomy 32:24\">Targ. Y. II, Deut. XXXII, 24</cite> <he>זחלל עפרא</he>, read: <he>זַחֲלֵי</he> creeping in the dust."
+			],
+			"label": "2"
+		}
+	]
+}

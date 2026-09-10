@@ -1,0 +1,32 @@
+{
+	"id": "I00884",
+	"slug": "טרפעיק",
+	"headword": {
+		"text": "טַרְפְּעִיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַרְפְּעִיקָא"
+		},
+		{
+			"text": "טרעפ׳"
+		}
+	],
+	"page": {
+		"number": 557,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (corresp. to τροπαϊκος = Victoriatus) <i>Victoriatus</i> = Quinarius, half a denar (v. Zuck. Talm. Münz. p. 30). ",
+			"units": [
+				"<cite ref=\"Yoma 35b:7\">Yoma 35ᵇ</cite>. ",
+				"<cite ref=\"Gittin 45b:11\">Gitt. 45ᵇ</cite>; <cite ref=\"Ketubot 64a:12\">Keth. 64ᵃ</cite> <he>מאי ט׳</he> (not <he>טרפעיקין</he>) how much is a <i>T.?</i> <cite ref=\"Sifrei Devarim 294\">Sifré Deut. 294</cite>; <cite ref=\"Yalkut Shimoni on Torah 938\">Yalk. ib. 938</cite>.—Pl. <he>טַרְפְּעִיקִין</he>. ",
+				"<cite ref=\"Mishnah Ketubot 5:7\">Keth. V, 7</cite>; <cite ref=\"Tosefta Ketubot 5:7\">Tosef. ib. V, 7</cite> (missing in ed. Zuck., Var. <cite ref=\"I00885\"><he>טרפקעי</he></cite>; oth. ed. <he>טַרְפְּעִיקִים</he>)."
+			]
+		}
+	]
+}

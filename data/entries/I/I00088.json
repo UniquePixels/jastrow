@@ -1,0 +1,40 @@
+{
+	"id": "I00088",
+	"slug": "טבריא",
+	"headword": {
+		"text": "טְבַרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְבַרְיָה"
+		},
+		{
+			"text": "טִיבַ׳"
+		},
+		{
+			"text": "טְבִירְיָא"
+		}
+	],
+	"page": {
+		"number": 519,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Tiberias</i> in Galilee. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 34:8\">Targ. Y. I Num. XXXIV, 8</cite>, v. <cite ref=\"H01240\"><he>חֲמָת</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 3:17\">Targ. Y. I Deut. III, 17</cite> (?). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:23\">Ib. XXXIII, 23</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 23:1\">Gen. R. s. 23</cite>, beg. <he>ט׳ ע״ש טיביריאוס</he> Tiberias is named after Tiberius; <cite ref=\"Yalkut Shimoni on Nach 758:3\">Yalk. Ps. 758</cite> (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 31:13\">Gen. R. s. 31</cite>, v. <cite ref=\"B00507\"><he>בְּטִיטָא</he></cite>. ",
+				"<cite ref=\"Megillah 6a:4\">Meg. 6ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:17\">Y. Taan. IV, 69ᵇ</cite> bot. <he>טיברי</he> (corr. acc.).—Denom. <cite ref=\"I00309\"><he>טִיבְרָנִי</he></cite>, f. <cite ref=\"I00309\"><he>טִיבְרָנִית</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Challah 2:3:3\">Y. Ḥall. II, 58ᶜ</cite> bot. Y. Pes. X, 37ᶜ bot. <he>ט׳ ישנה</he> old Tiberian measure.—Pl. <he>טִיבְרָנִיּוֹת</he>. Y. Keth. I, 25ᵇ top <cite ref=\"O00061\"><he>סביריניות</he></cite> (corr. acc.), v. <cite ref=\"E00076\"><he>הָגַן</he></cite>.—<i>Ch</i>. <cite ref=\"I00308\"><he>טִיבַרְיָאָה</he></cite>, pl. <cite ref=\"I00308\"><he>טִיבַרְיָאֵי</he></cite>. Y. Taan. l. c. Y. Bets. II, 61ᵇ top <he>טיבראי</he> (corr. acc.)"
+			]
+		}
+	]
+}

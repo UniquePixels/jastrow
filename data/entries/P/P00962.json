@@ -1,0 +1,34 @@
+{
+	"id": "P00962",
+	"slug": "ענון",
+	"headword": {
+		"text": "עֶנְוָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֶנְוָנָא"
+		},
+		{
+			"text": "עִינְוָ׳"
+		}
+	],
+	"page": {
+		"number": 1092,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P00984\"><he>עָנָיו</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 15:33\">Targ. Prov. XV, 33</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 16:19\">Ib. XVI, 19</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:8\">Y. Kil. IX, 32ᵇ</cite> <he>ר׳ הוה ע׳ סגין</he> Rabbi was extremely meek; <cite ref=\"Jerusalem Talmud Ketubot 12:3:8\">Y. Keth. XII, 35ᵃ</cite> <cite ref=\"P00610\"><he>עינוון</he></cite>; (<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> <cite ref=\"P00965\"><he>ענותן</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> bot. <he>ע׳ הוא סגי וכ׳</he> he is very kind and will believe thee; ib. X, 28ᶜ; a. fr.—Pl. <he>עֶנְוָנֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:34\">Targ. Prov. III, 34</cite>."
+			]
+		}
+	]
+}

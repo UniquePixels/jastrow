@@ -1,0 +1,34 @@
+{
+	"id": "P01040",
+	"slug": "עסי-1",
+	"headword": {
+		"text": "עסי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָסָה"
+		}
+	],
+	"page": {
+		"number": 1097,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"P00629\"><he>עִיסָּה</he></cite>, v. <cite ref=\"P01466\"><he>עָשָׂה</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

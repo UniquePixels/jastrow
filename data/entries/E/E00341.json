@@ -1,0 +1,43 @@
+{
+	"id": "E00341",
+	"slug": "הידא",
+	"headword": {
+		"text": "הֵידָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵידָה"
+		},
+		{
+			"text": "הֵידִי"
+		}
+	],
+	"page": {
+		"number": 343,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"E00341\"><he>הֵי דָא</he></cite>, <he>הֵי דָא הִי</he>, v. <cite ref=\"A01161\"><he>אֵידֵין</he></cite> a. <cite ref=\"E00363\"><he>הַיְידָּא</he></cite>)",
+			"units": []
+		},
+		{
+			"gloss": "<i>what now?, who now?, where now?</i> <cite ref=\"Targum Jonathan on Deuteronomy 4:7\">Targ. Y. I Deut. IV, 7</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 4:8\">8</cite> (<cite ref=\"Targum Jonathan on Deuteronomy 2\">II</cite> <cite ref=\"E00363\"><he>הַיְידָּא</he></cite>).). Targ. II Esth. VIII, 7.—",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 9:18:3\">Koh. R. to IX, 18</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (ellipt.) <he>ה׳ ל־</he>, <he>ה׳ לי־</he> <i>what is this here in reference to? what hast thou to do with—?</i> <cite ref=\"Bereishit Rabbah 87:5\">Gen. R. s. 87</cite> <he>הן אדני הי׳ לדקמך</he> (<cite ref=\"Yalkut Shimoni on Torah 145:4\">Yalk. ib. 145</cite> <he>הידה לקומך</he>) ‘here is my lord’ (thy husband), what hast thou to do with the one before thee (me)?—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 5:1:3\">Y. B. Kam. V, beg. 4ᵈ</cite> <he>איידי ליקימיך</he> what claim hast thou against me?—",
+				"<cite ref=\"Vayikra Rabbah 26:1\">Lev. R. s. 26</cite> <he>הידא לִיגַבֵּי שנאך וכ׳</he> (not <he>לי גבי</he>) why dost thou call on thy enemy &c.?—[<he>הַיְרָּא</he>, v. <cite ref=\"E00363\"><he>הַיְידָּא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

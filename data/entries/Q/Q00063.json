@@ -1,0 +1,28 @@
+{
+	"id": "Q00063",
+	"slug": "פגינותא",
+	"headword": {
+		"text": "פְּגִינוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּגִינְתָּא"
+		}
+	],
+	"page": {
+		"number": 1133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00080\"><he>פְּגַן</he></cite>) <i>cry for help, prayer</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 17:1\">Targ. Ps. XVII, 1</cite> <he>פְּגִינְתִּי</he> Ms. (ed. <he>פְּגִיעִי</he>; ed. Lag. <cite ref=\"Q00067\"><he>פְּגִיעֲתִי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 102:2\">Ib. CII, 2</cite> <he>פגינתי</he> ed. Lag. (oth. ed. <cite ref=\"Q00063\"><he>פְּגִינוּתִי</he></cite>)."
+			]
+		}
+	]
+}

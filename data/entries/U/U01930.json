@@ -1,0 +1,23 @@
+{
+	"id": "U01930",
+	"slug": "שרגיגא",
+	"headword": {
+		"text": "שַׁרְגִּיגָא"
+	},
+	"page": {
+		"number": 1628,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01927\"><he>שַׁרְגֵּג</he></cite>) <i>one easily enticed, simple</i> (corresp. to h. <cite ref=\"Q02154\"><he>פֶּתִי</he></cite>).—Pl. <cite ref=\"U01930\"><he>שַׁרְגִּיגַיָּא</he></cite>, <cite ref=\"U01930\"><he>שַׁרְגִּיגֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 116:6\">Targ. Ps. CXVI, 6</cite> (ed. Lag. <he>שַׁרְגּוּ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:130\">Ib. CXIX, 130</cite>."
+			]
+		}
+	]
+}

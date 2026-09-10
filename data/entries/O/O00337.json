@@ -1,0 +1,24 @@
+{
+	"id": "O00337",
+	"slug": "סומא-2",
+	"headword": {
+		"text": "סוּמָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 966,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (<he>סוּם</he> I, cmp. <cite ref=\"U00440\"><he>שׁוּמָא</he></cite>) <i>mark, spot</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 13:10\">Targ. Y. Lev. XIII, 10</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 13:2\">Targ. Y. II ib. 2</cite> some ed. (oth. <cite ref=\"U00440\"><he>שׁוּמָא</he></cite>). [<cite ref=\"Onkelos Numbers 32:3\">Targ. O. Num. XXXII, 3</cite> quot. as. Var. by Levita: <he>ס׳ דבית קבורתא וכ׳</he> (or <cite ref=\"O00683\"><he>סִימָא</he></cite>) the mark of the burial place of Moses, h. text <he>שבם ונבו</he>; ed. Amst. and oth. <he>סיעת בית וכ׳</he>; Y. I <he>שירן ובית וכ׳</he>. The entire passage came into Targ. O. by mistake; v. Berl. Mass. p. 60.]"
+			]
+		}
+	]
+}

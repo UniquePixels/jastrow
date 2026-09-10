@@ -1,0 +1,23 @@
+{
+	"id": "S00492",
+	"slug": "קופא-3",
+	"headword": {
+		"text": "קוּפָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1337,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"K00603\"><he>כִּיפָּה</he></cite>, <i>arch, doorway</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Eiruvin 7:2\">Tosef. Erub. VII</cite> (<cite ref=\"Tosefta Eiruvin 5:2\">V</cite>), 2, v. <cite ref=\"K00603\"><he>כִּיפָּה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "K00259",
+	"slug": "כול-1",
+	"headword": {
+		"text": "כּוּל"
+	},
+	"page": {
+		"number": 619,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to enclose</i>,] <i>to measure</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 10:8\">Ter. X, 8</cite> <he>וכָל גרב</he> Ms. (ed. <he>כל</he>), v. <cite ref=\"C01232\"><he>גָּרָב</he> I</cite>.—"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּלְכֵּל"],
+			"senses": [
+				{
+					"gloss": " q. v.",
+					"units": []
+				}
+			],
+			"stem": "Pilp."
+		}
+	]
+}

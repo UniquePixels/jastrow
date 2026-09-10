@@ -1,0 +1,23 @@
+{
+	"id": "S01678",
+	"slug": "קסקסאה",
+	"headword": {
+		"text": "קַסְקְסָאָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1397,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Ḳasḳ’saah</i>, surname of one R. Isaac. ",
+			"units": [
+				"<cite ref=\"Berakhot 51a:1\">Ber. 51ᵃ</cite> (Ms. M. <cite ref=\"O01442\"><he>סַקָּאָה</he></cite> <i>sack-maker</i> (?); Beth N. <cite ref=\"S00718\"><he>קטוספאה</he></cite>, <i>of Ctesiphon</i>; oth. Var. <he>קרקוסאה</he> <i>of Circesium</i>; v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

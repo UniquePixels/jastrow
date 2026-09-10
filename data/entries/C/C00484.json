@@ -1,0 +1,24 @@
+{
+	"id": "C00484",
+	"slug": "גורגנא",
+	"headword": {
+		"text": "גּוּרְגָּנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 226,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C01244\"><he>גַּרְגּוּתָא</he></cite>) <i>connected with a wheel work</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 10b:61\">Arakh. 10ᵇ</cite> (expl. <cite ref=\"E00824\"><he>הרדוליס</he></cite> hydraulis) <he>טבלא ג׳</he> Ar. (ed. <cite ref=\"C00480\"><he>גורגדנא</he></cite>, read <cite ref=\"C00485\"><he>גּוּרְגְּרָנָא</he></cite>) a musical instrument (of pipes) worked by the pressure of water, v. <cite ref=\"I00068\"><he>טַבְלָא</he></cite> I (Rashi: <i>bell</i>,—which, however, does not correspond to the context in which <cite ref=\"E00824\"><he>הרדוליס</he></cite> is used; v. esp. ",
+				"<cite ref=\"Tosefta Arakhin 1:13\">Tosef. Arakh. I, 13</cite>)."
+			]
+		}
+	]
+}

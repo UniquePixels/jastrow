@@ -1,0 +1,29 @@
+{
+	"id": "E00911",
+	"slug": "השבון",
+	"headword": {
+		"text": "הֵשָׁבוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵישָׁ׳"
+		}
+	],
+	"page": {
+		"number": 369,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00910\">preced.</cite>) <i>making amends for robbery, fraud</i> &c. (according to <cite ref=\"Leviticus 5:20-26\">Lev. V, 20—26</cite>). ",
+			"units": [
+				"<cite ref=\"Yevamot 47b:6\">Yeb. 47ᵇ</cite> <he>לא ניתן לה׳</he> has not the privilege of making amends (and being atoned for); <cite ref=\"Avodah Zarah 71b\">Ab. Zar. 71ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 35b:3\">B. Bath. 35ᵇ</cite> <he>לא ניתן לה׳</he> has no opportunity of &c.—",
+				"<cite ref=\"Bava Metzia 48a\">B. Mets. 48ᵃ</cite> <he>להי׳</he> as amenable to the law &c."
+			]
+		}
+	]
+}

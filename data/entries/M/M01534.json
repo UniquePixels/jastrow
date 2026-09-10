@@ -1,0 +1,31 @@
+{
+	"id": "M01534",
+	"slug": "מלט-2",
+	"headword": {
+		"text": "מְלַט"
+	},
+	"page": {
+		"number": 789,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01533\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְמְלִיט</he> <i>to be saved</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 19:5\">Targ. Prov. XIX, 5</cite> <he>נִתְמְלִיט</he> (ed. Wil. <cite ref=\"M02097\"><he>נִתְמַלֵט</he></cite>; Ms. <he>נתפליט</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

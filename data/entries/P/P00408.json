@@ -1,0 +1,43 @@
+{
+	"id": "P00408",
+	"slug": "עזיבה",
+	"headword": {
+		"text": "עֲזִיבָה"
+	},
+	"page": {
+		"number": 1061,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00393\"><he>עָזַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>abandoning, giving up, renouncing</i> (in favor of the poor, <cite ref=\"Leviticus 19:10\">Lev. XIX, 10</cite>). ",
+			"units": [
+				"<cite ref=\"Chullin 131b:3\">Ḥull. 131ᵇ</cite> <he>וכולן … מ״ט ע׳ כתיב בהו</he> and from all of them the owner must not derive the benefit of putting a person under obligation (v. <cite ref=\"I00112\"><he>טוֹבָה</he></cite>), because ‘abandoning’ (<he>עזב</he>) is written about them (Lev. l. c.). Y. Peah IV, end, 19ᵃ <he>שהן בע׳</he> they must be abandoned. Ib. V, beg. 19ᵇ (ref. to <he>תעזב אתם</he>, Lev. l. c.) <he>יש לך ע׳ אחרת כזו</he> (it intimates that) there is another abandonment like this (renouncing one’s property in favor of the poor, v. <cite ref=\"E00759\"><he>הֶפְקֵר</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 11:3:2\">Y. Ned. XI, 42ᶜ</cite> bot. <he>מעשר עני ניתן בזכייה ואלו בע׳</he> the tithe of the poor is given to the poor by way of a transfer (to a certain person), but these (gifts) are abandoned (the owner having no right of disposal)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>forsaking</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 5:20\">Lam. R. to V, 20</cite> <he>ארבעה דברים</he> … <he>מאיסה וגעילה ע׳ ושכיחה</he> Jeremiah used four expressions: rejection, loathing, forsaking, and forgetting. ",
+				"<cite ref=\"Bereishit Rabbah 69:6\">Gen. R. s. 69</cite> (ref. to <cite ref=\"Genesis 28:15\">Gen. XXVIII, 15</cite>) <he>אין ע׳ אלא פרנסה</he> forsaking refers to sustenance (with ref. to <cite ref=\"Psalms 37:25\">Ps. XXXVII, 25</cite>); <cite ref=\"Vayikra Rabbah 35:2\">Lev. R. s. 35</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>shunning, unworthiness</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 22a:1\">Ned. 22ᵃ</cite> (in Chald. dict.) <he>מלין דע׳</he> things which must be shunned (indecencies); (Ar. <he>מלין דעֲזוּבָה</he> things worthy of an abandoned woman)."
+			],
+			"label": "3"
+		}
+	]
+}

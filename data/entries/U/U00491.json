@@ -1,0 +1,61 @@
+{
+	"id": "U00491",
+	"slug": "שוף-3",
+	"headword": {
+		"text": "שׁוּף",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1539,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00490\">same</cite><i>to rub</i> (<i>with oil</i>), <i>anoint; to rub off</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 12:20\">Targ. II Sam. XII, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 14:2\">Ib. XIV, 2</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:40\">Targ. O. Deut. XXVIII, 40</cite> ed. Berl. (oth. ed. <he>סוך</he>); a. e.—",
+				"<cite ref=\"Pesachim 25b:5\">Pes. 25ᵇ</cite> <he>דשָׁיֵיף לה וכ׳</he> as he was rubbing his (sick) daughter’s skin with undeveloped grapes of <i>ʿOrlah</i>. ",
+				"<cite ref=\"Bava Kamma 23b:5\">B. Kam. 23ᵇ</cite> <he>דשָׁף צלמי</he> when the animal in scratching itself rubbed figures off (which were on the wall).—Part. pass. <cite ref=\"U01000\"><he>שִׁיף</he></cite>, <cite ref=\"U01004\"><he>שִׁיפָא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 52b\">Ab. Zar. 52ᵇ</cite>, v. <cite ref=\"D00650\"><he>דִּינָרָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to grind, crush, file</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 9:21\">Targ. O. Deut. IX, 21</cite> (Y. <he>שפיית</he>, fr. <cite ref=\"U01735\"><he>שְׁפֵי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 94:5\">Targ. Ps. XCIV, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 14:19\">Targ. Job XIV, 19</cite>; a. e.—[<cite ref=\"Sanhedrin 64a:7\">Snh. 64ᵃ</cite> <he>דשייף קליה</he>, v. <cite ref=\"U00004\"><he>שְׁאֵב</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁיֵּיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00490\">same</cite>, <i>to rub, grind, file</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 98a:5\">B. Kam. 98ᵃ</cite> <he>שייפא בשופינא</he> (read: <he>שַׁיְּיפֵיה</he>; Ms. M. <he>שפייה</he>, fr. <cite ref=\"U01735\"><he>שְׁפֵי</he></cite>) if he rubbed the stamp off with a file."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתּוֹפַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 30:8\">Targ. Job XXX, 8</cite> <he>אִשְׁתּוֹפְפוּן</he> Ms. (ed. <he>ישתפפון</he>, v. <cite ref=\"U01793\"><he>שְׁפַף</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpol."
+		}
+	]
+}

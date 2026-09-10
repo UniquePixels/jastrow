@@ -1,0 +1,23 @@
+{
+	"id": "I00872",
+	"slug": "טרפחת",
+	"headword": {
+		"text": "טַרְפַּחַת"
+	},
+	"page": {
+		"number": 557,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00636\"><he>טפח</he></cite>, with <cite ref=\"T00000\"><he>ר</he></cite> inserted; cmp. <cite ref=\"I00648\"><he>טְפִיחַ</he> I</cite>) [<i>pitcher</i>, cmp. <cite ref=\"A01672\"><he>אָכוּז</he></cite>,] <i>mouth of the womb</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 55b:8\">Ḥull. 55ᵇ</cite> = <cite ref=\"A01961\"><he>אֵם</he></cite> = <cite ref=\"U01375\"><he>שַׁלְפּוּחִית</he></cite>. ",
+				"<cite ref=\"Chullin 56b\">Ib. 56ᵇ</cite>"
+			]
+		}
+	]
+}

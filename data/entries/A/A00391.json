@@ -1,0 +1,28 @@
+{
+	"id": "A00391",
+	"slug": "אדורי",
+	"headword": {
+		"text": "אֲדוּרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַהֲדוּרֵי"
+		}
+	],
+	"page": {
+		"number": 16,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>הדר</he>) <i>procession</i>. <he>א׳ צלמא</he> a procession in which an idol is carried. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:11:4\">Y. Ab. Zar. III, 43ᵇ</cite> bot.; Y. Ber. II, 4ᵇ <he>אה׳ צילמי׳</he>; Y. Shek. II, end, 47ᵃ <he>דארורא צילמא</he> (read <he>אדורי דצ׳</he>); Midr. Sam. ch. XIX <he>צלמא הורדוסיס</he>(?)."
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "J00453",
+	"slug": "יסד-2",
+	"headword": {
+		"text": "יְסַד"
+	},
+	"page": {
+		"number": 582,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00452\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:69\">Targ. Ps. LXXVIII, 69</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַסֵּד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00452\">same</cite>. Ib. CIV, 5.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיַיסַּד"],
+			"senses": [
+				{
+					"gloss": ", <i>Ittof.</i> <he>אִתּוֹסָד</he> <i>to be fastened, supported, founded</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 41:15\">Targ. Job. XLI, 15</cite>, sq.—",
+						"<cite ref=\"Aramaic Targum to Psalms 87:1\">Targ. Ps. LXXXVII, 1</cite>.—",
+						"<cite ref=\"Targum of II Chronicles 31:7\">Targ. II Chr. XXXI, 7</cite> <he>לאִתּוֹסָדָא</he> (ed. Lag. <he>לאִתְיַסְּרָא</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

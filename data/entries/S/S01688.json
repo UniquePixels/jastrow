@@ -1,0 +1,23 @@
+{
+	"id": "S01688",
+	"slug": "קעילית",
+	"headword": {
+		"text": "קְעִילִית"
+	},
+	"page": {
+		"number": 1397,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"S01687\"><he>קעילה</he></cite>) <i>of Keilah</i>, a town in the lowland district of Judæa. ",
+			"units": [
+				"<cite ref=\"Yoma 76a:15\">Yoma 76ᵃ</cite>, a. e. <he>דבילה ק׳</he>, v. <cite ref=\"D00059\"><he>דְּבֵילָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:2\">Y. Bicc. III, beg. 65ᶜ</cite> <he>בקש … נאמר אם היתה ק׳ וכ׳</he> if one wants to bring (as first fruits) pressed figs, shall we say, if they are from Keilah, he may, if from Bozrah, he dare not?"
+			]
+		}
+	]
+}

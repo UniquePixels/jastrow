@@ -1,0 +1,36 @@
+{
+	"id": "T00467",
+	"slug": "רזיא",
+	"headword": {
+		"text": "רַזְיָא"
+	},
+	"page": {
+		"number": 1465,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00466\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strong, vehement, gushing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:13\">Targ. Job XXXVII, 13</cite>.—[<cite ref=\"Aramaic Targum to Proverbs 26:10\">Targ. Prov. XXVI, 10</cite> some ed. <he>ורזיא</he>, read: <he>ורַוְיָא</he>.]—",
+				"<cite ref=\"Taanit 3b:13\">Taan. 3ᵇ</cite> <he>דאתא ר׳</he> when the rain comes with vehemence, opp. <cite ref=\"N00660\"><he>ניחא</he></cite>. ",
+				"<cite ref=\"Taanit 3b:13\">Ib.</cite> (ref. to Job l. c.) <he>מיטרא ר׳ לאילני</he> a vehement rain is good for the trees; <cite ref=\"Yalkut Shimoni on Nach 921:5\">Yalk. Job 921</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>force</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 45b\">Snh. 45ᵇ</cite> <he>בר׳</he> ed. Sonc., v. <cite ref=\"T00466\">preced.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "B00477",
+	"slug": "בחירה",
+	"headword": {
+		"text": "בְּחִירָה"
+	},
+	"page": {
+		"number": 155,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בחר</he>) <i>selection, being chosen</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:12:4\">Y. Meg. I, 72ᵈ</cite> top <he>מה ב׳ שנ׳ וכ׳</he> as the selection (expression <he>בחר</he>) used there &c.—<he>בֵּית הַבְּ׳</he> (also with omission of <he>בית</he>) <i>the Temple of Jerusalem</i>. ",
+				"<cite ref=\"Sanhedrin 20b\">Snh. 20ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:20\">Y. Yoma I, 38ᶜ</cite> bot. <he>עידיכם הב׳ וכ׳</he> your witness, the Temple, shall prove it (Bab. ",
+				"<cite ref=\"Yoma 9b\">ib. 9ᵇ</cite> <cite ref=\"B00704\"><he>בִּירָה</he></cite>)."
+			]
+		}
+	]
+}

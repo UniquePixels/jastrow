@@ -1,0 +1,24 @@
+{
+	"id": "A01514",
+	"slug": "איסרטין",
+	"headword": {
+		"text": "אִיסְרָטִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 57,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>אסטרטין</he>, pl. of στρατός) <i>band</i> or <i>body of men</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite> <he>א׳ של נואפים</he> (Ar. <cite ref=\"A02564\"><he>אסרטיון</he></cite>) bands of adulterers; <he>א׳ של רוצחים</he> bands of murderers; (<cite ref=\"Yalkut Shimoni on Torah 145:16\">Yalk. Gen. 145</cite> <he>איסטר׳</he>)."
+			]
+		}
+	]
+}

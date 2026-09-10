@@ -1,0 +1,23 @@
+{
+	"id": "G00489",
+	"slug": "זלח-3",
+	"headword": {
+		"text": "זֶלַח"
+	},
+	"page": {
+		"number": 401,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00488\">preced.</cite> wds.) <i>sprinkling fluid, perfume</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shekalim 1:12\">Tosef. Shek. I, 12</cite>, v. <cite ref=\"G00487\"><he>זָלַח</he></cite>.—Pl. <he>זְלָחִין</he>. Sifra B’har, Par. 1, ch. I <he>ולא לעשות … ז׳</he> but not for preparing perfumes, v. <cite ref=\"G00356\"><he>זִילּוּף</he></cite>. ",
+				"<cite ref=\"Tosefta Shabbat 16:4\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:3\">XVII</cite>), 3, v. <cite ref=\"G00487\"><he>זָלַח</he></cite>."
+			]
+		}
+	]
+}

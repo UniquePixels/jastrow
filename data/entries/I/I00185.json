@@ -1,0 +1,36 @@
+{
+	"id": "I00185",
+	"slug": "טונא-1",
+	"headword": {
+		"text": "טוּנָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 524,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"I00598\"><he>טְעוּנָא</he></cite>; <cite ref=\"I00615\"><he>טְעַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>burden, load; bag</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 44:1\">Targ. Y. Gen. XLIV, 1</cite>, sq. (h. text <he>אמתחת</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 23:5\">Targ. Y. Ex. XXIII, 5</cite>; a. e.—",
+				"<cite ref=\"Berakhot 61a:26\">Ber. 61ᵃ</cite> <he>דלא דרי ט׳</he> Ms. M. (ed. <he>טידי</he>) when he is not carrying a load. ",
+				"<cite ref=\"Shabbat 92a:8\">Sabb. 92ᵃ</cite> <he>דכל ט׳ דמידלי וכ׳</he> every load which is lifted on poles &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"I00620\"><he>טַעֲנָה</he></cite>) <i>argument</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 32b:8\">Zeb. 32ᵇ</cite> <he>מטוּנָךְ</he> I borrow thine own argument; <cite ref=\"Rosh Hashanah 4a\">R. Hash. 4ᵃ</cite>; <cite ref=\"Chullin 132a\">Ḥull. 132ᵃ</cite> top (Rashi derives fr. <cite ref=\"M00995\"><he>מְטֵי</he></cite>: ‘we have reached thee’).—Pl. <he>טוּנִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 43:23\">Targ. Y. Gen. XLIII, 23</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

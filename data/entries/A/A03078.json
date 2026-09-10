@@ -1,0 +1,43 @@
+{
+	"id": "A03078",
+	"slug": "ארי-2",
+	"headword": {
+		"text": "אֲרִי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרָא"
+		}
+	],
+	"page": {
+		"number": 118,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>אר</he>, cmp. <cite ref=\"J00627\"><he>ירי</he></cite>) prop. <i>to point, throw</i>, hence (in a logical sense) <i>to argue, question, discuss, treat</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 30b:12\">B. Kam. 30ᵇ</cite> <he>מדקא ארינן גלל</he> Ar. (ed. <he>איירינן</he>, v. infra) since we pointed out the law about the dung placed in the street as an argument against Rab. ",
+				"<cite ref=\"Ketubot 16a\">Keth. 16ᵃ</cite>, a. fr. <he>ודקארי לה מאי קארי לה</he> and he who raised the question, how could he raise it at all, i.e. the answer being so obvious, what must have been the impression he labored under, that he could ask such a question, or raise such an argument?—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 6:6:4\">Y. Keth. VI, 30ᵈ</cite> bot. <he>ואין קמו יתמי ואָרוּן</he> if the heirs should rise and raise objections (go to law)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַיְירִי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"A03077\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Nedarim 2b:5\">Ned. 2ᵇ</cite> <he>איירי בהון</he> he does treat thereof.—",
+						"<cite ref=\"Pesachim 6b\">Pes. 6ᵇ</cite>, a. fr. <he>איידי דאיירי ב־</he> incidentally of treating the question of … <cite ref=\"Keritot 14a\">Kerith. 14ᵃ</cite>, a. fr. (<he>באבר אחד</he>) <he>קא מַיְירֵי</he> the argument is up (about one limb). ",
+						"<cite ref=\"Bava Kamma 30b:12\">B. Kam. 30ᵇ</cite> <he>כי איירינן</he> when we raised the objection (taking our argument from ‘the dung’, v. supra), it was before R. N. had given his opinion; a. fr.—Deriv. <cite ref=\"A03082\"><he>אִרְיָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

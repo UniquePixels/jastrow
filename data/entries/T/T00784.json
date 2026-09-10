@@ -1,0 +1,27 @@
+{
+	"id": "T00784",
+	"slug": "רמא-1",
+	"headword": {
+		"text": "רָמָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1481,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00783\">preced.</cite>) <i>height</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:25\">Targ. Is. XXX, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 6:13\">Targ. Ez. VI, 13</cite>; a. fr.—Pl. <he>רָמָן</he>, <cite ref=\"T00841\"><he>רָמָתָא</he></cite>, <cite ref=\"T00790\"><he>רָמָאתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:24\">Ib. XVI, 24</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:2\">Targ. Prov. VIII, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 9:3\">Ib. IX, 3</cite>; a. fr."
+			]
+		}
+	]
+}

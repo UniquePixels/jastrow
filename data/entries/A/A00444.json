@@ -1,0 +1,41 @@
+{
+	"id": "A00444",
+	"slug": "אדר-4",
+	"headword": {
+		"text": "אִדַּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִידַּר"
+		},
+		{
+			"text": "אִדְּרָא"
+		},
+		{
+			"text": "אִידְּרָא"
+		}
+	],
+	"page": {
+		"number": 18,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00445\"><he>אדר</he></cite>, <cite ref=\"N00240\"><he>נדר</he></cite> v. <cite ref=\"A00441\"><he>אָדַר</he></cite>) <i>a place cut off, circle</i> (cmp. <cite ref=\"G00420\"><he>זִירָה</he></cite>), whence <i>threshing place, barn;</i> also <i>the grain piled up in the barn for threshing;</i> cmp. <cite ref=\"C00498\"><he>גּוֹרֶן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 2:11\">Targ. Hos. II, 11</cite> <he>בעידן א׳</he> at the season of its being piled up; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 63:5\">Gen. R. s. 63</cite> the shovel <he>דאפיך אי׳</he> which upturns the grain in the barn (= prayer averting evil decrees). ",
+				"<cite ref=\"Bereishit Rabbah 63:5\">Ib.</cite> (play on <cite ref=\"A00479\"><he>אדרת</he></cite> <cite ref=\"Genesis 25:25\">Gen. XXV, 25</cite>) <he>כקש מא׳</he> like chaff from the barn. ",
+				"<cite ref=\"Ruth Rabbah 5:12\">Ruth R. to III, 3</cite> <he>להיכן אקימתא א׳</he> where didst thou put up the barn?—Pl. <he>אִידְּרַיָּא</he>, <he>אִדְּרֵי</he> &c. ",
+				"<cite ref=\"Daniel 2:35\">Dan. II, 35</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 23:1\">Targ. I Sam. XXIII, 1</cite>; a. e. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:3:1\">Cant. R. to VII, 3</cite> (homilet. rendition of <he>הסהר אגן</he> Cant. l. c.) <he>א׳ דאזהרה</he> a rounded place (cmp. <cite ref=\"C00498\"><he>גורן</he></cite>, <he>זירה</he>) of enlightenment, i.e. hall of the Sanhedrin. [With <cite ref=\"A00000\"><he>א</he></cite> or <cite ref=\"N00001\"><he>נ</he></cite> rejected: <he>בי דרי</he>. ",
+				"<cite ref=\"Taanit 3b\">Taan. 3ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 73a\">B. Mets. 73ᵃ</cite>.]"
+			]
+		}
+	]
+}

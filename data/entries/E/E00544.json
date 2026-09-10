@@ -1,0 +1,26 @@
+{
+	"id": "E00544",
+	"slug": "הלז",
+	"headword": {
+		"text": "הַלָּז"
+	},
+	"page": {
+		"number": 352,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"E00530\"><he>הַלּ־</he></cite> a. <i>this here, that there</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 11b:2\">Snh. 11ᵇ</cite> <he>סופר ה׳</he> ed. (missing in Ms. M.; <cite ref=\"Tosefta Sanhedrin 2:6\">Tosef. ib. II, 6</cite> <cite ref=\"E00536\"><he>הלה</he></cite>, Var. <he>הלך</he>); Y. ib. I, 18ᵈ top; <cite ref=\"Jerusalem Talmud Maaser Sheni 5:4:3\">Y. Maas. Sh. V, 56ᶜ</cite> top <he>הסופר ה׳</he> the, then, scribe; v. <he>נָזוּף</he>.—",
+				"<cite ref=\"Ketubot 36b:8\">Keth. 36ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:1:11\">Y. Erub. I, 18ᶜ</cite> bot. <he>פירצה של ה׳</he> the breach on the other side.—<i>Fem.</i> <cite ref=\"E00546\"><he>הַלֵּזוּ</he></cite>. ",
+				"<cite ref=\"Mishnah Yevamot 13:7\">Yeb. XIII, 7</cite> (<cite ref=\"Yevamot 109a:13\">109ᵃ</cite>) <he>ה׳ תצא</he> (missing in Mish. ed.) the other sister is free. ",
+				"<cite ref=\"Yevamot 109a:13\">Ib.</cite> <he>ותצא ה׳</he>. Ib. 51ᵇ; (<cite ref=\"Mishnah Eduyot 4:9\">Eduy. IV, 9</cite> <cite ref=\"E00536\"><he>הלה</he></cite>)."
+			]
+		}
+	]
+}

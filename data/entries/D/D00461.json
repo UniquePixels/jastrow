@@ -1,0 +1,24 @@
+{
+	"id": "D00461",
+	"slug": "דיבא-1",
+	"headword": {
+		"text": "דֵּיבָא"
+	},
+	"page": {
+		"number": 294,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"G00001\"><he>זְאֵב</he></cite>), <i>wolf</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 49:27\">Targ. Y. I Gen. XLIX, 27</cite> (<cite ref=\"Targum Jonathan on Genesis 2\">II</cite> <cite ref=\"D00171\"><he>דּוֹב</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 11:6\">Targ. Is. XI, 6</cite> (Regia <cite ref=\"D00172\"><he>דּוּבָא</he></cite>); <cite ref=\"Targum Jonathan on Isaiah 65:25\">LXV, 25</cite>.—Pl. <he>דֵּיבִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Zephaniah 3:3\">Targ. Zeph. III, 3</cite>.—[<cite ref=\"Targum Jonathan on Isaiah 11:7\">Targ. Is. XI, 7</cite> <he>דיבא</he> <i>bear</i>, v. <cite ref=\"D00172\"><he>דּוּבָּא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "N00899",
+	"slug": "ננאי-2",
+	"headword": {
+		"text": "נַנַּאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַנַּי"
+		}
+	],
+	"page": {
+		"number": 914,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (prob. abbrev. of <cite ref=\"H01316\"><he>חנניה</he></cite>) <i>Nannai</i>, a name frequent in Maḥoza. ",
+			"units": [
+				"<cite ref=\"Yevamot 115b:11\">Yeb. 115ᵇ</cite> bot., v. <cite ref=\"H00049\"><he>חֲבַי</he></cite>."
+			]
+		}
+	]
+}

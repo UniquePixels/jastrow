@@ -1,0 +1,34 @@
+{
+	"id": "I00156",
+	"slug": "טוי-5",
+	"headword": {
+		"text": "טָוִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טָיִוי"
+		},
+		{
+			"text": "טַוְיָא"
+		},
+		{
+			"text": "טַוְו׳"
+		}
+	],
+	"page": {
+		"number": 523,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טְוִי</he> II) <i>roast, roasted meat</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 19a\">B. Kam. 19ᵃ</cite> Ar. (v. <cite ref=\"I00154\"><he>טְוִי</he> II</cite>).—",
+				"<cite ref=\"Shabbat 109a:3\">Sabb. 109ᵃ</cite> <he>שריקא ט׳</he> a roast glaired, Rashi (differ. in Tosaf.) Y. Ter. X, 47ᵇ top <cite ref=\"I00132\"><he>טַוְויָה</he></cite>."
+			]
+		}
+	]
+}

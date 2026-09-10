@@ -1,0 +1,29 @@
+{
+	"id": "I00394",
+	"slug": "טינוף",
+	"headword": {
+		"text": "טִינּוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִנּ׳"
+		}
+	],
+	"page": {
+		"number": 532,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00581\"><he>טָנַף</he></cite>) <i>filth, impurity, defilement</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 5:3\">Cant. R. to V, 3</cite>. ",
+				"<cite ref=\"Shemot Rabbah 5\">Ex. R. s. 5</cite> <he>לשון ט׳</he> <i>nirpim</i> (<cite ref=\"Exodus 5:8\">Ex. V, 8</cite>) has the meaning of uncleanliness (in secretory functions, v. <cite ref=\"T00943\"><he>רפי</he></cite>), opp. <he>קדושים</he>. ",
+				"<cite ref=\"Mishnah Bekhorot 3:1\">Bekh. III, 1</cite> <he>ט׳</he> <i>a discharge from the womb</i> indicating abortion; <cite ref=\"Niddah 25a:30\">Nidd. 25ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

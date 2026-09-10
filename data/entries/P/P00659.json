@@ -1,0 +1,25 @@
+{
+	"id": "P00659",
+	"slug": "עיקומא",
+	"headword": {
+		"text": "עִיקּוּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִקּ׳"
+		}
+	],
+	"page": {
+		"number": 1074,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00658\">same</cite>, <i>crookedness, perverseness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:24\">Targ. Prov. IV, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:8\">Ib. VIII, 8</cite>."
+			]
+		}
+	]
+}

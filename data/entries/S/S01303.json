@@ -1,0 +1,31 @@
+{
+	"id": "S01303",
+	"slug": "קלח-2",
+	"headword": {
+		"text": "קְלַח"
+	},
+	"page": {
+		"number": 1374,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S01302\"><he>קַלַּח</he></cite> ch. same, <i>to cast with force</i>, (of trees) <i>to shed fruit prematurely</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 26:20\">Targ. Y. Lev. XXVI, 20</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

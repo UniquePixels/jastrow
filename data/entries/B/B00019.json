@@ -1,0 +1,23 @@
+{
+	"id": "B00019",
+	"slug": "באזיארן",
+	"headword": {
+		"text": "בָּאזְיָארָן"
+	},
+	"page": {
+		"number": 135,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Pers. bâzyâran, Fl., R. Hai Gaon) <i>falconers</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 94a:3\">Sabb. 94ᵃ</cite> <he>דב׳</he> (<cite ref=\"O00368\"><he>סוסא</he></cite>) Ar. (some ed. <cite ref=\"D00000\"><he>ד</he></cite> for <cite ref=\"T00000\"><he>ר</he></cite>; ed. <he>בי וייאדן</he>, Ms. <he>בי זירין</he>, <he>בי זייארין</he>, corr. acc.) the falconers’ horse (used for carrying falcons, hawks &c. on his back)."
+			]
+		}
+	]
+}

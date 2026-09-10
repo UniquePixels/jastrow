@@ -1,0 +1,49 @@
+{
+	"id": "T00586",
+	"slug": "ריבוי",
+	"headword": {
+		"text": "רִיבּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִבּ׳"
+		}
+	],
+	"page": {
+		"number": 1472,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00058\"><he>רָבָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>increase, plenty</i>. Esth. R. end <he>מדות … בשפע בפירוי ובר׳</he> the good dispensations of the Lord come with liberality, fruitfulness, and plenty.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <he>בגדים</he>) <i>larger number of garments, investment of the high priest with the eight official garments</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 5a:12\">Yoma 5ᵃ</cite> (ref. to <cite ref=\"Exodus 29:29\">Ex. XXIX, 29</cite> sq.) <he>איתקש משיחה לר׳ מה ר׳ וכ׳</he> the anointing is put on a level with the investment, as the investment is continued for seven days, so is the anointing &c. ",
+				"<cite ref=\"Exodus 29:29\">Ib.</cite> <he>ר׳ שבעה … איכא בינייהו</he> they differ as to the seven days of investment and the seven days of anointment; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>extension of scope, widening qualification, amplification</i>, opp. <cite ref=\"M01259\"><he>מִיעוּט</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 3:5\">Shebu. III, 5</cite> (<cite ref=\"Shevuot 25a:20\">25ᵃ</cite>) <he>מר׳ הכתוב</he> I derive it from the amplification of the text (the addition of a general rule <he>לכל אשר וכ׳</he>, <cite ref=\"Leviticus 5:4\">Lev. V, 4</cite>); ib. 26ᵃ. ",
+				"<cite ref=\"Menachot 89a:3\">Men. 89ᵃ</cite> <he>אין ר׳ אחר ר׳ אלא למעט</he> an amplification following an amplification (as <he>בשמן</he> in <cite ref=\"Leviticus 2:4\">Lev. II, 4</cite>) intimates a restriction; a. fr.—Pl. <he>רִיבּוּיִין</he>, <cite ref=\"T00586\"><he>רִבּ׳</he></cite>. ",
+				"<cite ref=\"Tosefta Shevuot 1:7\">Tosef. Shebu. I, 7</cite>, v. <cite ref=\"M01259\"><he>מִיעוּט</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 1:4\">Gen. R. s. 1</cite>, a. e. <he>אתין וגמין ר׳</he>, v. <cite ref=\"C00993\"><he>גַּם</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 19:1:7\">Y. Sabb. XIX, 17ᵃ</cite>, v. <cite ref=\"L00705\"><he>לָשׁוֹן</he></cite>; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

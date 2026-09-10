@@ -1,0 +1,30 @@
+{
+	"id": "H00341",
+	"slug": "חולחולתא",
+	"headword": {
+		"text": "חוּלְחוּלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּלְחַלְתָּא"
+		},
+		{
+			"text": "חַלְחוּלְ׳"
+		}
+	],
+	"page": {
+		"number": 434,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"H01016\"><he>חַלְחוֹלִית</he></cite> , <i>intrigues, trickery</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:12\">Targ. Koh. II, 12</cite> <he>חל׳</he> ed. Lag. (Var. <he>הַלְהיּלְ׳</he>, v. <cite ref=\"E00238\"><he>הוֹלֵלָה</he></cite>); <cite ref=\"Aramaic Targum to Ecclesiastes 7:25\">VII, 25</cite>; <cite ref=\"Aramaic Targum to Ecclesiastes 10:13\">X, 13</cite>."
+			]
+		}
+	]
+}

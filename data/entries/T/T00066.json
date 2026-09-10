@@ -1,0 +1,24 @@
+{
+	"id": "T00066",
+	"slug": "רבובה-1",
+	"headword": {
+		"text": "רְבוּבָה",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 1440,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00046\"><he>רָבַב</he></cite>) [<i>pile, deposit</i>,] <i>cavity</i> in the ascent to the altar for the deposit of fowls ritually disqualified. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 3:3\">Midd. III, 3</cite>; v., however, <cite ref=\"T00070\"><he>רְבוּכָה</he></cite>."
+			]
+		}
+	]
+}

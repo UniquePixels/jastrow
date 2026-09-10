@@ -1,0 +1,22 @@
+{
+	"id": "M00313",
+	"slug": "מדנא-2",
+	"headword": {
+		"text": "מְדָנָא"
+	},
+	"page": {
+		"number": 734,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00634\"><he>דִּין</he></cite>) <i>object of strife</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 80:7\">Targ. Ps. LXXX, 7</cite> (Ms. a. Regia <cite ref=\"M00288\"><he>מִדְיָינָא</he></cite>)."
+			]
+		}
+	]
+}

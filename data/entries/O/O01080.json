@@ -1,0 +1,33 @@
+{
+	"id": "O01080",
+	"slug": "סמי-3",
+	"headword": {
+		"text": "סָמֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַמְיָא"
+		}
+	],
+	"page": {
+		"number": 999,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01079\">preced.</cite>) <i>blind</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 21:18\">Targ. Y. Lev. XXI, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 19:14\">Ib. XIX, 14</cite> (ed. Vien. <cite ref=\"O00703\"><he>סִימַיָּא</he></cite>, corr. acc.); a. fr.—",
+				"<cite ref=\"Gittin 68b:9\">Gitt. 68ᵇ</cite> top <he>חזא ס׳ וכ׳</he> (not <cite ref=\"H00527\"><he>חזיא</he></cite>) he saw a blind man that had lost his way, and led him back &c. Lev. R. l. c.; a. fr.—Pl. <cite ref=\"O01115\"><he>סָמָן</he></cite>, <he>סַמְיָין</he>; <he>סָמַיָּיא</he>. ",
+				"<cite ref=\"Targum Jonathan on Zephaniah 1:17\">Targ. Zeph. I, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 29:18\">Targ. Is. XXIX, 18</cite> (some ed. <he>סוֹמָן</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 35:5\">Ib. XXXV, 5</cite> (some ed. <he>סוֹמִין</he>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 30:9\">Gen. R. s. 30</cite> <he>בשוק ס׳ צווחין לעווירא וכ׳</he> in the market place of those whose eyes are closed, they call a blind man rich of light. Y. Peah IV, end, 19ᵃ, v. <cite ref=\"N00255\"><he>נְהוֹרָא</he></cite>; a. fr."
+			]
+		}
+	]
+}

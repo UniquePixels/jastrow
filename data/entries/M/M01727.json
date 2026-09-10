@@ -1,0 +1,27 @@
+{
+	"id": "M01727",
+	"slug": "מנהג",
+	"headword": {
+		"text": "מִנְהָג"
+	},
+	"page": {
+		"number": 798,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00250\"><he>נָהַג</he></cite>)<i>conduct, manner, usage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 7:1\">B. Mets. VII, 1</cite> <he>מִנְהַג המדינה</he> the usage of the country. ",
+				"<cite ref=\"Tosefta Bava Metzia 7:13\">Tosef. ib. VII, 13</cite> <he>מ׳ הולכי שיירא</he> the usage among members of a caravan; <cite ref=\"Tosefta Bava Metzia 7:14\">ib. 14</cite> <he>מ׳ הספנין</he> the usage of shippers (in cases of jetsam). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:1:7\">Y. Pes. IV, 30ᵈ</cite> top <he>אינו מ׳</he> this is no religious usage (deserving recognition); <he>מ׳</he> it is &c. ",
+				"<cite ref=\"Chullin 13b:4\">Ḥull. 13ᵇ</cite> <he>נכרים … אלא מ׳ אבותיהן בידיהן</he> the gentiles outside of Palestine are not to be considered as idolaters, they only continue the usages of their ancestors. ",
+				"<cite ref=\"Avodah Zarah 54b:14\">Ab. Zar. 54ᵇ</cite> <he>עולם כמִנְהָגוֹ נוהג</he> the world (nature) follows its laws. Pesik. Aḥăré, p. 168ᵃ, v. <cite ref=\"M01711\"><he>מַנְגָּנוֹן</he></cite>: a. fr.—Pl. <he>מִנְהָגִים</he>. ",
+				"<cite ref=\"Vayikra Rabbah 20:1\">Lev. R. s. 20</cite>, beg. <he>מִנְהָגָיו</he> its arrangements, v. <cite ref=\"M01711\"><he>מַנְגָּנוֹן</he></cite>."
+			]
+		}
+	]
+}

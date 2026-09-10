@@ -1,0 +1,36 @@
+{
+	"id": "R00093",
+	"slug": "צדוק-2",
+	"headword": {
+		"text": "צָדוֹק"
+	},
+	"page": {
+		"number": 1261,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Zadok</i>, 1) the high priest under David and Solomon.",
+			"units": []
+		},
+		{
+			"gloss": " the high priest under David and Solomon. ",
+			"units": [
+				"<cite ref=\"Yoma 73b:9\">Yoma 73ᵇ</cite>; <cite ref=\"Sotah 48b:2\">Sot. 48ᵇ</cite>. ",
+				"<cite ref=\"Sanhedrin 21a:1\">Snh. 21ᵃ</cite> <he>מה צ׳ מחצה וכ׳</he> as Z. (the high priest) takes one half of the show-bread &c. ",
+				"<cite ref=\"Kohelet Rabbah 1:4:4\">Koh. R. to I, 4</cite> (ref. to <cite ref=\"I Chronicles 6:34\">I Chr. VI, 34</cite>) <he>ללמדך אילו היה אהרן … צ׳ היה וכ׳</he> to teach thee that if Aaron and his sons had been alive (in David’s days), Z. would have been their superior in his time; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " Z., an alleged disciple of Antigonos of Sokho, and founder of the sect of the Sadducees. ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 5:2\">Ab. d’R. N. ch. V</cite>.—3) R. Z., a Tannai, contemporary with the destruction of the Temple. ",
+				"<cite ref=\"Gittin 56a:13\">Gitt. 56ᵃ</cite>, sq. ",
+				"<cite ref=\"Yoma 23a:16\">Yoma 23ᵃ</cite>. ",
+				"<cite ref=\"Pirkei Avot 4:5\">Ab. IV, 5</cite>; a. fr.—V. Fr. Darkhé, p. 70 sq."
+			],
+			"label": "2"
+		}
+	]
+}

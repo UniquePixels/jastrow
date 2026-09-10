@@ -1,0 +1,22 @@
+{
+	"id": "G00496",
+	"slug": "זליפה",
+	"headword": {
+		"text": "זְלִיפָה"
+	},
+	"page": {
+		"number": 401,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00500\"><he>זָלַף</he></cite>) <i>emptying</i> from vessel to vessel. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 36a:1\">Ab. Zar. 36ᵃ</cite> <he>זְלִיפָתָן של … אוסרתן</he> the fact that they pour (into their oil vessels) residues of unclean (of forbidden) vessels makes their oil forbidden."
+			]
+		}
+	]
+}

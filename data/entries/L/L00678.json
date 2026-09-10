@@ -1,0 +1,57 @@
+{
+	"id": "L00678",
+	"slug": "לקט-2",
+	"headword": {
+		"text": "לְקַט"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְקֵיט"
+		}
+	],
+	"page": {
+		"number": 718,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", ch. <cite ref=\"L00677\">same</cite>, <i>to pick up; to gather</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:46\">Targ. Gen. XXXI, 46</cite>. ",
+				"<cite ref=\"Onkelos Genesis 47:14\">Ib. XLVII, 14</cite> (ed. Berl. <cite ref=\"L00678\"><he>לַקֵּיט</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 16:26\">Targ. Ex. XVI, 26</cite>; a. e.—Part. <cite ref=\"L00686\"><he>לָקֵיט</he></cite>, <cite ref=\"L00686\"><he>לָקֵט</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 29:10\">Targ. O. Deut. XXIX, 10</cite> <cite ref=\"L00686\"><he>לָקֵיט</he></cite> ed. Berl. (ed. Amst. <cite ref=\"L00678\"><he>לַקֵּט</he></cite>, corr. acc.; h. text <cite ref=\"H00591\"><he>חטב</he></cite>); <cite ref=\"Targum Jonathan on Joshua 9:21\">Targ. Josh. IX, 21</cite> <he>לַקְטֵי</he> Bxt. (ed. <cite ref=\"M01625\"><he>מְלַקְּטֵי</he></cite>).—",
+				"<cite ref=\"Shabbat 156a:3\">Sabb. 156ᵃ</cite> <he>דלא לָקֵיט בלישניה</he> (a calf) that does not take up with its tongue (the fodder placed before it), v. infra; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לַקֵּיט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00677\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 47:14\">Targ. Gen. XLVII, 14</cite>, v. supra. ",
+						"<cite ref=\"Onkelos Leviticus 19:9\">Targ. Lev. XIX, 9</cite> (Y. II <i>Pe.</i>); a. fr.—Targ. II Esth. III, 8 <he>ומְלַקְּטִין</he> (not <he>ומְלָקְטִין</he>), v. <cite ref=\"H01496\"><he>חַצְבָּא</he></cite>.—",
+						"<cite ref=\"Vayikra Rabbah 6:3\">Lev. R. s. 6</cite> <he>שרי ההוא מְלַקֵּט א״ל לַקֵּט לַקֵּט … את מלקט</he> he began to pick up (the scattered Denars); said he to him, pick up, pick up, for it is thine own thou art picking up.—Y. Sabb. VII, 10ᵃ bot. <he>ומְלַקְּטָן</he> (not <he>וולקטה</he>) and gathers them (the sun-dried fruits in cakes or strings; v. Maim. ",
+						"<cite ref=\"Mishnah Shabbat 8:6\">Sabb. VIII, 6</cite>); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַלְקֵיט"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to take up, to put the mouth to</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 156a:3\">Sabb. 156ᵃ</cite> <he>מַלְקִיטִין יתיה</he> Ms. O. (Ms. M. <he>מַלְקְטִין ליה</he>, ed. <he>מהלקיטין</he>, v. Rabb. D. S. a. l. note) we may make it take up (taste the fodder)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

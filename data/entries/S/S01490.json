@@ -1,0 +1,29 @@
+{
+	"id": "S01490",
+	"slug": "קמצוץ",
+	"headword": {
+		"text": "קַמְצוּץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַמְצִיץ"
+		}
+	],
+	"page": {
+		"number": 1386,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01483\"><he>קָמַץ</he></cite>) <i>compressed condition, bent up, doubled</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 9:3:2\">Y. Naz. IX, 57ᵈ</cite> <he>אם מצאו ק׳ וכ׳</he> if one finds a corpse, in the ground, doubled, we say, debris fell upon him, opp. <he>פשוט</he>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 9:3:2\">Ib.</cite> [read:] <he>סברין מימר ראשיהם בצד מרגלותיהם זהו ק׳</he> they thought ‘their head beside their feet’ (of corpses found in the ground) meant <i>ḳamtsuts</i> (that each body’s head was lying by its feet). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:7:6\">Y. Pes. VII, 34ᵈ</cite> <cite ref=\"S01490\"><he>קַמְצִיץ</he></cite>. Y. Maas. Sh. V, beg. 55ᵈ <he>מת ק׳ היה נתון וכ׳</he> (not <cite ref=\"S01489\"><he>קמצון</he></cite>) a doubled (mangled) body is under it (i.e. a mangled body was found there, and a mark was put over it); <cite ref=\"Jerusalem Talmud Sotah 9:1:7\">Y. Sot. IX, 23ᶜ</cite> top <cite ref=\"S01490\"><he>קמציץ</he></cite>."
+			]
+		}
+	]
+}

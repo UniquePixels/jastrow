@@ -1,0 +1,41 @@
+{
+	"id": "Q00938",
+	"slug": "פלג-5",
+	"headword": {
+		"text": "פְּלַג",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּלְגָּא"
+		}
+	],
+	"page": {
+		"number": 1176,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00937\">same</cite><i>part, half</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:10\">Targ. O. Gen. XV, 10</cite> (ed. Berl. <cite ref=\"Q00935\"><he>פַּלַג</he></cite>; ed. Vien. <cite ref=\"Q00962\"><he>פִּלּוּג</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 25:10\">Targ. Ex. XXV, 10</cite> (Y. also <cite ref=\"Q00210\"><he>פּוּלְגָּא</he></cite>); a. fr.—[<cite ref=\"Targum of I Chronicles 16:3\">Targ. I Chr. XVI, 3</cite>, v. <cite ref=\"Q00961\"><he>פְּלוּג</he></cite>.]—",
+				"<cite ref=\"Bava Batra 62b:10\">B. Bath. 62ᵇ</cite> <he>פ׳ דאית לי בארעא פ׳</he> if the deed reads, ‘the half share which is mine in that field’, he has sold half the field (his entire share); <he>פ׳ בארעא דאית לי ריבעא</he> but if it reads, ‘half of that field which is mine’, he has sold him one fourth of the field (or half his share). ",
+				"<cite ref=\"Bava Batra 62b:10\">Ib.</cite> <he>מצר ארעא דמינה פ׳ פ׳</he> (Ms. M. <cite ref=\"Q01043\"><he>פְּלִיגָא</he></cite>) if he writes, ‘these are the borders of the field of which I sell a portion’, it means <i>half</i>, contrad. to <cite ref=\"Q01312\"><he>פְּסִיקָא</he></cite>; ib. 63ᵃ. ",
+				"<cite ref=\"Shabbat 89b:5\">Sabb. 89ᵇ</cite> <he>דל תרתי סרי ופ׳ וכ׳</he> deduct (from the years of life) twelve years and a half for prayer, eating &c. ",
+				"<cite ref=\"Shabbat 89b:5\">Ib.</cite> <he>פ׳ עלי ופ׳ עלך</he> let me bear the failings of half the remaining years, and bear thou the other half. ",
+				"<cite ref=\"Pesachim 79b:2\">Pes. 79ᵇ</cite> <he>פ׳ ופ׳</he> equal numbers on both sides. Y. Kidd. IV, 65ᶜ top <he>דבהתין פַּלְגּוֹן מן פלגון</he> (not <he>מן פלג</he>) one half of them is afraid of the other half of them; <cite ref=\"Bamidbar Rabbah 8\">Num. R. s. 8</cite> <he>פלגין מן פלגין</he> (corr. acc.); a. v. fr.—Pl. <he>פַּלְגַּיָּא</he>, <cite ref=\"Q00946\"><he>פַּלְגֵּי</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 15:10\">Targ. O. Gen. XV, 10</cite>. ",
+				"<cite ref=\"Onkelos Genesis 15:17\">Ib. 17</cite> (h. text <he>הגזרים</he>). ",
+				"<cite ref=\"Onkelos Genesis 15:11\">Ib. 11</cite> ed. Berl. (v. <cite ref=\"Q00095\"><he>פִּגְרָא</he></cite>); a. e.—",
+				"<cite ref=\"Yoma 83b\">Yoma 83ᵇ</cite>, v. <cite ref=\"Q00961\"><he>פְּלוּג</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " רוח פלגא <i>the demon Palga, a disease</i> (paralysis?). ",
+			"units": ["<cite ref=\"Pesachim 111a\">Pes. 111ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

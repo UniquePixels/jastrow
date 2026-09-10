@@ -1,0 +1,39 @@
+{
+	"id": "M01597",
+	"slug": "מללא-2",
+	"headword": {
+		"text": "מִלְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 792,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>מְלַל</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": " only in <he>מ׳ דנורא</he> <i>embers</i>. [Comm. identify our w. with <cite ref=\"M01596\">preced.</cite>, referring to the double meaning of <he>לָהַשׁ</he>.] <cite ref=\"Avodah Zarah 28b\">Ab. Zar. 28ᵇ</cite> (Var. <cite ref=\"M00513\"><he>מוֹלְלָא</he></cite>, v. Rabb. D. S. a. l. note 400).—Pl. <he>מִלְלֵי</he>, <cite ref=\"M01393\"><he>מִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b:10\">Sabb. 109ᵇ</cite> <he>בי מיללי דנ׳</he> (Ms. M. <he>במל׳</he>) between the embers."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>gold ore</i> as broken in the mine. ",
+			"units": [
+				"<cite ref=\"Ketubot 67a\">Keth. 67ᵃ</cite> <he>במ׳</he> Ar. (ed. <he>במַמְלָא</he>) it means ore (Rashi: <i>gold leaf</i>)."
+			],
+			"label": "2"
+		}
+	]
+}

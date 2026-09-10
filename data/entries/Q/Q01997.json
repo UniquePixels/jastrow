@@ -1,0 +1,22 @@
+{
+	"id": "Q01997",
+	"slug": "פרקותא",
+	"headword": {
+		"text": "פַּרְקוּתָא"
+	},
+	"page": {
+		"number": 1240,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01981\"><he>פְּרַק</he></cite>) [<i>joint</i>,] <i>neck</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 4:18\">Targ. I Sam. IV, 18</cite> (Ar. <cite ref=\"A02777\"><he>אַפְקוֹתָא</he></cite>, q. v.)."
+			]
+		}
+	]
+}

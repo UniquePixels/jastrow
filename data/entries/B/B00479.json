@@ -1,0 +1,41 @@
+{
+	"id": "B00479",
+	"slug": "בחל-1",
+	"headword": {
+		"text": "בָּחַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 155,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בח</he>, cmp. √<he>בה</he> s. v. <cite ref=\"B00170\"><he>בהי</he></cite>) [1) <i>to be disordered, sick;</i> whence <cite ref=\"B00225\"><he>בּוֹחַל</he></cite> q. v.].—2) (denomin. of <cite ref=\"B00225\"><he>בּוֹחַל</he></cite>) <i>to be in that stage of ripening when the fig is called boḥal;</i> cmp. <cite ref=\"B00047\"><he>בָּאַשׁ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Niddah 47a:31-32\">Nidd. 47ᵃ</cite> (quot. fr. ",
+				"<cite ref=\"Mishnah Maasrot 1:2\">Maasr. I, 2</cite>) <he>התאנים משיִבְחֲלוּ … משילבינו וכ׳</he> figs are subject to tithes from the time they are called boḥal, which R. … defines, from the time their heads grow white."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["(בִּיחֵיל) בִּיחֵל"],
+			"senses": [],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִבְחִיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00478\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:7\">Shebi. IV, 7</cite> <he>בִּיחֲלוּ וכ׳</he> (Y. ed. <he>בִּיחֵילוּ</he>). Y. ib. 35ᵇ bot.; Y. Maasr. I, 48ᵈ (<cite ref=\"H00899\"><he>חִיְּתָה</he></cite>) <he>מאי ביחילו חִיְּיתָה וכ׳</he> what is biḥ.? It (the fig) creates aversion (v. <cite ref=\"H00495\"><he>חוּת</he></cite>), as we read (<cite ref=\"Zechariah 11:8\">Zech. XI, 8</cite>) &c. ",
+						"<cite ref=\"Mishnah Maasrot 1:2\">Maasr. I, 2</cite> <he>משיַבְחִילוּ</he> (Y. ed. <he>שביחילו</he>), v. supra. [Cmp. <cite ref=\"B00794\"><he>בָּכַר</he></cite> as to spelling in Talm. Y.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

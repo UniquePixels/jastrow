@@ -1,0 +1,25 @@
+{
+	"id": "G00322",
+	"slug": "זיז-2",
+	"headword": {
+		"text": "זִיז",
+		"homograph": 2
+	},
+	"page": {
+		"number": 393,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>זוזו</he>, v. <cite ref=\"G00167\"><he>זְוִי</he></cite>, <cite ref=\"G00171\"><he>זָוִית</he></cite>) <i>an attachment, a projection</i> from the door frame serving as <i>a shed</i> over the entrance, or <i>a moulding</i> projecting from a window-sill serving as <i>a bracket</i>. Ohol. XIV, 1 (difference betw. our w. a. <he>גיזרה</he>, v. <cite ref=\"C00524\"><he>גְּזוּזְטְרָא</he></cite>). Ib. 4 <he>ז׳ שהוא סובב וכ׳</he> a moulding which runs around the entire building (or room) and forms a part of the door frame. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 10:4\">Erub. X, 4</cite> <he>ז׳ שלפני חלון וכ׳</he> a bracket in front of a window. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 898:5\">Yalk. Deut. 898</cite> <he>והז׳ עליו אכילה וכ׳</he> and on the bracket (in front of the palace) are spread eatables, drinks &c.; a. v. fr.—Pl. <he>זִיזִים</he>, <cite ref=\"G00326\"><he>זִיזִין</he></cite>. Ohol. VIII, 2. ",
+				"<cite ref=\"Mishnah Bava Batra 3:8\">B. Bath. III, 8</cite>; a. fr."
+			]
+		}
+	]
+}

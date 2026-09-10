@@ -1,0 +1,33 @@
+{
+	"id": "V01012",
+	"slug": "תרם-2",
+	"headword": {
+		"text": "תְּרַם"
+	},
+	"page": {
+		"number": 1699,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V01011\">same</cite>.",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 4:4:3\">Y. Ter. IV, 42ᵈ</cite> bot. <he>הוה יליף תָּרֵים חד וכ׳</he> if he was used to give as T’rumah one-fiftieth &c.; <he>כד הוא תרים חד וכ׳</he> when he gives one-fortieth, he deprives himself of six quarters (of a Kab); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תָּרֵם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V01011\">same</cite>, <i>to lift, remove</i>.—Part. pass. <he>מְתָרַם</he>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 7:10\">Esth. R. to III, 6</cite> <he>רישיך מְתוּרָם חלף וכ׳</he> (Hebr. form) thy head shall be lifted (removed) in place of their heads."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

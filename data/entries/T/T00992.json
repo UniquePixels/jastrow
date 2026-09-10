@@ -1,0 +1,31 @@
+{
+	"id": "T00992",
+	"slug": "רצע-2",
+	"headword": {
+		"text": "רְצַע"
+	},
+	"page": {
+		"number": 1494,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַרְצַע</he> <cite ref=\"T00991\">same</cite>, <i>to bore through</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 21:6\">Targ. O. Ex. XXI, 6</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

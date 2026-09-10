@@ -1,0 +1,23 @@
+{
+	"id": "S00966",
+	"slug": "קילוס-1",
+	"headword": {
+		"text": "קִילּוּס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1360,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (v. <cite ref=\"S00967\">next w.</cite>) <i>Ḳillus</i> (<i>Praise</i>), name of a general under Vespasian. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:31\">Lam. R. to I, 5</cite>, v. <cite ref=\"Q01153\"><he>פַּנְגַּר</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "O01105",
+	"slug": "סמלון",
+	"headword": {
+		"text": "סִמְלוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 1002,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>סִמְלוֹנִים</he>, <he>סִמְלוֹנִין</he>, <cite ref=\"O00067\"><he>סִי׳</he></cite> (v. <cite ref=\"O01102\"><he>סֶמֶל</he></cite>; cmp. γλυφαί, Sm. Ant. s. v. Jugum) <i>the carved ends of a yoke</i>. Sifra B’ḥuck., Par. 1, ch. III <he>קצץ את הס׳</he> Rabad a. Ar. (ed. <he>סִמְיוֹנִין</he>, <cite ref=\"O01126\"><he>סִימְי׳</he></cite>, v. <cite ref=\"O01084\"><he>סִמְיוֹן</he></cite>) he cut off the carved ends. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:13\">Tosef. Kel. B. Mets. III, 13</cite> [read as:] <cite ref=\"Shabbat 59b:19\">Sabb. 59ᵇ</cite> bot. <he>בעול הלך אחר סִמְלוֹנָיו</he> as regards the susceptibility of a yoke to levitical uncleanness, go by its carved ends (if they are broken off, the susceptibility ceases); Y. ib. VI, 8ᵇ <he>ונעול אחר סמנייריו</he> (corr. acc.)."
+			]
+		}
+	]
+}

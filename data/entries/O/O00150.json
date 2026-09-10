@@ -1,0 +1,28 @@
+{
+	"id": "O00150",
+	"slug": "סגלגל-2",
+	"headword": {
+		"text": "סְגַלְגַּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגַלְגַּלָּה"
+		}
+	],
+	"page": {
+		"number": 955,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00149\">preced. art.</cite>) <i>round</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 66b:6\">Ned. 66ᵇ</cite> <he>אמרו לו ס׳</he> they said to him, (her head is) round.—Pl. <he>סְגַלְגּלִּים</he>, <he>סְגַלְגַלִּין</he>; <he>סְגַלְגַּלּוֹת</he>. ",
+				"<cite ref=\"Shabbat 31a:1\">Sabb. 31ᵃ</cite> <he>מפני מה ראשיהן … ס׳</he> (Ms. M. <he>ראשם … סגלגל</he>, v. Rabb. D. S. a. l. note) why are the heads of the Babylonians round?"
+			]
+		}
+	]
+}

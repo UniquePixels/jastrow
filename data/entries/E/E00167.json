@@ -1,0 +1,25 @@
+{
+	"id": "E00167",
+	"slug": "הדרס",
+	"headword": {
+		"text": "הַדְּרֵס"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַדְּרֵיס"
+		}
+	],
+	"page": {
+		"number": 335,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. a popular contraction of <he>הַדּוֹרס</he>, <i>pl.</i> (by false analogy) <he>הַדְּרֵסִין</he>, <he>הַדְּרֵיסִין</he>, v. <cite ref=\"D01067\"><he>דָּרוֹסָה</he></cite>.",
+			"units": []
+		}
+	]
+}

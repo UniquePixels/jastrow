@@ -1,0 +1,31 @@
+{
+	"id": "R00819",
+	"slug": "צתת-2",
+	"headword": {
+		"text": "צְתַת"
+	},
+	"page": {
+		"number": 1306,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>צַתֵּית</he> (v. <cite ref=\"J00552\"><he>יָצַת</he></cite>) <i>to kindle</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 119a:4\">Sabb. 119ᵃ</cite> <he>מְצַתֵּת צַתּוּתֵי</he> used to kindle the fire himself (to cook for the Sabbath)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

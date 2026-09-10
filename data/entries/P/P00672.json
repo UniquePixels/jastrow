@@ -1,0 +1,24 @@
+{
+	"id": "P00672",
+	"slug": "עיר-1",
+	"headword": {
+		"text": "עַיִר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1075,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= h. <cite ref=\"P00672\"><he>עַיִר</he></cite>; v. <cite ref=\"P00343\"><he>עוּר</he></cite>; cmp. <cite ref=\"N01009\"><he>נַעַר</he></cite>) <i>foal</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 9:9\">Targ. Zech. IX, 9</cite>.—Pl. <he>עַיְרִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 10:4\">Targ. Jud. X, 4</cite>; v. <cite ref=\"P00566\"><he>עִיל</he></cite>."
+			]
+		}
+	]
+}

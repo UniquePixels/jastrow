@@ -1,0 +1,54 @@
+{
+	"id": "C00889",
+	"slug": "גלוגדקא",
+	"headword": {
+		"text": "גְּלוּגְדְּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גלוגדק"
+		},
+		{
+			"text": "גְּלֶקְטִיקָא"
+		}
+	],
+	"page": {
+		"number": 246,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (popular corruption of <i>lectica;</i> for the prefixed guttural cmp. laena and χλαῖνα, lectum and κλίνη; v. Liddell & Scott’s Greek Dict. s. lit. Γ) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>litter, sedan-chair</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 25b\">Bets. 25ᵇ</cite> Ar. (ed. <cite ref=\"C00893\"><he>גלודקי</he></cite>, Ms. M. <he>גלנדקי</he>). ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:5\">Cant. R. to V, 5</cite>; <cite ref=\"Kohelet Rabbah 9:11\">Koh. R. to IX, 11</cite> <he>אפי׳ בגלק׳ לא וכ׳</he> could not even be carried in a <i>lectica</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:8\">Cant. R. to IV, 8</cite> <he>בכל קדיקה</he>; <cite ref=\"Yalkut Shimoni on Nach 838:1\">Yalk. Ps. 838</cite> <he>כל קרקיא</he> (read <he>בִּכְלֶקְדִּיקָא</he>). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 838:1\">Ib.</cite> Lev. 666 <he>שלא יטייל אחריך בגלטק׳</he>; Sifra B’har Par. 5, ch. VII … <he>יטול … בלנטיא</he>) he (the Hebrew servant) shall not walk behind thee when thou art carried in the lectica, v. <cite ref=\"L00682\"><he>לֶקְטִיקָא</he></cite>. ",
+				"<cite ref=\"Sifrei Devarim 37:12\">Sifré Deut. 37</cite> <cite ref=\"C00863\"><he>גלגוטיקא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 238\">Yalk. Kings 238</cite> <cite ref=\"C00891\"><he>גלוגיקא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= lecticula) <i>bier</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 15:24\">Targ. Job XV, 24</cite> <he>איטימוס לגלוגדיקא</he> Ar. ed. Koh. (ed. <he>לגלוגדק</he>) ready for the bier (for death, cmp. LXX)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " *<i>foot-stool</i> to the throne. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 24:10\">Targ. Y. Ex. XXIV, 10</cite> <he>אתקניה גְּלוּגְדַּק וכ׳</he> (<cite ref=\"C00941\"><he>גִּיל׳</he></cite> some ed.) made the sapphire brick a foot-stool in place of the <i>hypopodion</i> &c.—",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:1\">Targ. Lam. II, 1</cite> <he>גלוגדקא דרגלוהי</he> (h. text <he>הדום רגליו</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

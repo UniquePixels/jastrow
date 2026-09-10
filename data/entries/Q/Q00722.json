@@ -1,0 +1,27 @@
+{
+	"id": "Q00722",
+	"slug": "פינוכא",
+	"headword": {
+		"text": "פִּינּוּכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּנּ׳"
+		}
+	],
+	"page": {
+		"number": 1165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01205\"><he>פְּנַךְ</he></cite>) <i>driving, speeding</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 5:22\">Targ. Jud. V, 22</cite>."
+			]
+		}
+	]
+}

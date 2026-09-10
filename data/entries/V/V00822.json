@@ -1,0 +1,25 @@
+{
+	"id": "V00822",
+	"slug": "תפירה",
+	"headword": {
+		"text": "תְּפִירָה"
+	},
+	"page": {
+		"number": 1686,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00854\"><he>תָּפַר</he></cite>) <i>sewing, seam</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 2:2:6\">Y. Meg. II, 73ᵃ</cite> bot. <he>קל הקילו בתְפִירָתָהּ</he> they introduced a lenient practice with regard to sewing it (the scroll of Esther). ",
+				"<cite ref=\"Shabbat 75a:2\">Sabb. 75ᵃ</cite> <he>חוט של ת׳</he>, v. <cite ref=\"M03039\"><he>מָתַח</he></cite>; a. e.—",
+				"<cite ref=\"Menachot 35b\">Men. 35ᵇ</cite>, v. <cite ref=\"V00857\"><he>תַּפְרָא</he></cite>.—Pl. <cite ref=\"V00683\"><he>תְּפִירוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 13:2\">Sabb. XIII, 2</cite> <he>התופר שתי ת׳</he> he that sews two stitches; <he>הקורע … שתי ת׳</he> he that tears with the intention of sewing the pieces together to the length of two stitches; a. e."
+			]
+		}
+	]
+}

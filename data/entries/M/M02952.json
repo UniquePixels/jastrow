@@ -1,0 +1,27 @@
+{
+	"id": "M02952",
+	"slug": "משפט",
+	"headword": {
+		"text": "מִשְׁפָּט"
+	},
+	"page": {
+		"number": 857,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01730\"><he>שָׁפַט</he></cite>)<i>sentence, judgment; justice, law</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 21a:1\">Meg. 21ᵃ</cite> top; <cite ref=\"Sanhedrin 11b:9\">Snh. 11ᵇ</cite> <he>מה מ׳ ביום וכ׳</he> as sentence can be passed in day-time only &c. ",
+				"<cite ref=\"Mishnah Eduyot 2:10\">Eduy. II, 10</cite> <he>מִשְׁפַּט רשעים וכ׳</he> the judgment (punishment) of the wicked in Gehenna lasts twelve months. Tanḥ. ",
+				"<cite ref=\"Exodus 1\">Mishp. 1</cite> <he>בעל זרוע אינו רוצה לעשות דבריו במ׳ אלא מעביר על המ׳</he> a man of might does not care to act according to law, but ignores the law; a. fr.—Pl. <he>מִשְׁפָּטִים</he>. ",
+				"<cite ref=\"Shemot Rabbah 30:1\">Ex. R. s. 30</cite> <he>על ידי המ׳ שנתת להם וכ׳</he> through the laws which thou hast given to them, they, having a dispute with one another, go to law and make peace. ",
+				"<cite ref=\"Shemot Rabbah 30:15\">Ib.</cite> <he>בבקר ניתנה התורה … נתנו המ׳</he> in the morning the Law (religious principles) was given, and in the evening the civil law (<cite ref=\"Exodus 21\">Ex. XXI</cite>, sq.). ",
+				"<cite ref=\"Midrash Tehillim 36:3\">Midr. Till. to Ps. XXXVI</cite> <he>אין קצבה למ׳ וכ׳</he> there is no limit to the judgments for the wicked; a. fr.—<i>Mishpatim</i>, name of a Scriptural lesson of a week (<cite ref=\"Exodus 21:1\">Ex. XXI, 1</cite> to XXIV, 18)."
+			]
+		}
+	]
+}

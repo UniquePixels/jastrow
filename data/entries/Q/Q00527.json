@@ -1,0 +1,22 @@
+{
+	"id": "Q00527",
+	"slug": "פטירתא-2",
+	"headword": {
+		"text": "פְּטִירְתָּא"
+	},
+	"page": {
+		"number": 1155,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00548\"><he>פְּטַר</he></cite>) <i>belonging to a first-born animal</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69a:10\">Gitt. 69ᵃ</cite>, v. <cite ref=\"K00884\"><he>כַּנְתָא</he></cite>."
+			]
+		}
+	]
+}

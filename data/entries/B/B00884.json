@@ -1,0 +1,23 @@
+{
+	"id": "B00884",
+	"slug": "בלמא",
+	"headword": {
+		"text": "בְּלָמָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 174,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00883\">preced.</cite>; v. <cite ref=\"B00881\"><he>בָּלַם</he></cite>) <i>halter</i>, trnsf. <i>guard, protection of the borders of a field</i>, as fences &c.; cmp. <cite ref=\"A02766\"><he>אַפְסָרָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 103b:10\">B. Mets. 103ᵇ</cite> <he>כל עיקר ב׳ וכ׳</he> whatever is essential for guarding the limits, the landlord must provide. [Ms. M. <he>כלומ׳</he>, Ar. <he>כלמי</he>, v. <cite ref=\"K00764\"><he>כְּלָמָא</he></cite>.]"
+			]
+		}
+	]
+}

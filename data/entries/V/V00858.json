@@ -1,0 +1,23 @@
+{
+	"id": "V00858",
+	"slug": "תפראות",
+	"headword": {
+		"text": "תִּפְרָאוֹת"
+	},
+	"page": {
+		"number": 1689,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"V00857\">preced.</cite> wds.) <i>seams, borders</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 3:1\">Tosef. Kel. B. Bath. III, 1</cite>, v. <cite ref=\"V00152\"><he>תּוֹבְרוֹת</he></cite>."
+			]
+		}
+	]
+}

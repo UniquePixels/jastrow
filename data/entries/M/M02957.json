@@ -1,0 +1,24 @@
+{
+	"id": "M02957",
+	"slug": "משקה",
+	"headword": {
+		"text": "מַשְׁקֶה"
+	},
+	"page": {
+		"number": 858,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01832\"><he>שָׁקָה</he></cite>)<i>drink, liquid</i>. Sifra Sh’mini ch. IX, Par. 8 <he>מ׳ זה היין</he> ‘drink’ (<cite ref=\"Leviticus 11:34\">Lev. XI, 34</cite>) means wine. ",
+			"units": [
+				"<cite ref=\"Leviticus 11:34\">Ib.</cite> <he>מ׳ סרוח</he> spoiled liquid; <cite ref=\"Pesachim 18a:12\">Pes. 18ᵃ</cite>; a. fr.—Pl. <he>מַשְׁקִים</he>, <he>מַשְׁקִין</he>. ",
+				"<cite ref=\"Pesachim 17b:12\">Ib. 17ᵇ</cite> <he>מ׳ הבאין מחמת ידים</he> liquids which have become unclean through contact with unclean hands. ",
+				"<cite ref=\"Pesachim 17b:10\">Ib.</cite> <he>שנטמאו מחמת מ׳</he> vessels which have become unclean through the liquids put into them; a. fr.—<he>מַשְׁקֵי בית מטבחיא</he>, v. <cite ref=\"M00963\"><he>מַטְבָּחַיָּיא</he></cite> a. <cite ref=\"M00963\"><he>מַדְבָּחַיָּיא</he></cite>."
+			]
+		}
+	]
+}

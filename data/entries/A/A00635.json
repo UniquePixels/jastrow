@@ -1,0 +1,46 @@
+{
+	"id": "A00635",
+	"slug": "אוירא-1",
+	"headword": {
+		"text": "אָוֵירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲוִירָא"
+		},
+		{
+			"text": "אַוֵּיר"
+		},
+		{
+			"text": "אַוֵּירָא"
+		}
+	],
+	"page": {
+		"number": 24,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00634\">same</cite>.<i>empty space, air</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 19:17\">Targ. Y. Ex. XIX, 17</cite>; a. fr.—",
+				"<cite ref=\"Gittin 20b:6\">Git. 20ᵇ</cite> <he>א׳ דמגילתא</he> the blank in a scroll (margin &c.). ",
+				"<cite ref=\"Menachot 35a:2\">Men. 35ᵃ</cite> <he>חזי א׳</he> to face the inside of the T’fillin."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>air, weather</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 30b:11\">Pes. 30ᵇ</cite> <he>שליט בהו א׳</he> the air strikes them. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:4:4\">Y. R. Hash. II, 58ᵃ</cite> bot. <he>א׳ מעונן</he> cloudy weather; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>pile of bricks with openings between</i>, v. <cite ref=\"A00520\"><he>אַוָּארָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

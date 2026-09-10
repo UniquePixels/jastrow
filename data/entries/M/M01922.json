@@ -1,0 +1,30 @@
+{
+	"id": "M01922",
+	"slug": "מסימיס",
+	"headword": {
+		"text": "מְסִימִיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיסְמֵס"
+		},
+		{
+			"text": "מוּסְ׳"
+		}
+	],
+	"page": {
+		"number": 806,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a popular corruption of semissis) <i>semissis</i>, a Roman value, equal to half an as or six ounces. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 5:12\">Tosef. B. Bath. V, 12</cite> <he>מי׳ שני קונטרונין</he> a semissis is equal to two quadrantes; <cite ref=\"Kiddushin 12a:9\">Kidd. 12ᵃ</cite> <he>מסמס שני קוטרונקין</he>; Y. ib. I, 58ᵈ <he>שני קרדיונטס מסי׳</he>.—Pl. <he>מְסִימִיסִין</he>, <he>מִיסְמְסִין</he>, <he>מוּסְמִיסִין</he>. Tosef. l. c. <he>איסר שני מיס׳</he> an as has two semisses; Kidd. l. c. <he>מוסמי׳</he>; Y. l. c. <he>מסומיסין</he>."
+			]
+		}
+	]
+}

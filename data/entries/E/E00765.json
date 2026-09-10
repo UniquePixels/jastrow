@@ -1,0 +1,31 @@
+{
+	"id": "E00765",
+	"slug": "הפרכיא",
+	"headword": {
+		"text": "הִפַּרְכְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִפַּרְכְיָה"
+		},
+		{
+			"text": "הִי׳"
+		}
+	],
+	"page": {
+		"number": 363,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ὑπαρχία) <i>lieutenancy, provincial government, province</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 330:2\">Sifré Deut. 330</cite>; <cite ref=\"Yalkut Shimoni on Torah 946:9\">Yalk. ib. 946</cite> [read:] <he>היפטיקוס נכנס לתוך ה׳ שלו אם יכול ליפרע מכל הוא נפרע ואם לאו וכ׳</he> a consul enters his province; if he is able to collect (taxes) from all &c. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 875:1\">Yalk. Ps. 875</cite> <he>הפרכוס אחרת</he> (corr. acc.; v. <cite ref=\"E00764\">preced.</cite>)—Pl. <he>הִפַּרְכִיּוֹת</he>, <cite ref=\"E00147\"><he>הִי׳</he></cite>. Tosef. Gitt. VIII (VI), 3 ed. Zuck. (v. <cite ref=\"E00278\"><he>הורכיינוס</he></cite>)."
+			]
+		}
+	]
+}

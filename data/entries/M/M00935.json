@@ -1,0 +1,27 @@
+{
+	"id": "M00935",
+	"slug": "מחר-1",
+	"headword": {
+		"text": "מָחָר"
+	},
+	"page": {
+		"number": 764,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <he>מאחר</he>; <cite ref=\"A01044\"><he>אָחַר</he></cite>) <i>next day, future day</i>. Mekh. Bo. 18 <he>יש מ׳ עכשיו וכ׳</he> there is a <i>maḥar</i> which means <i>now</i> (the next day), and there is a <i>maḥar</i> which means some future time; <cite ref=\"Yalkut Shimoni on Torah 225:3\">Yalk. Ex. 225</cite>.—",
+			"units": [
+				"<cite ref=\"Berakhot 28a:12\">Ber. 28ᵃ</cite> <he>למ׳ אני ואתה וכ׳</he> to-morrow I and you &c. ",
+				"<cite ref=\"Sotah 48b:19\">Sot. 48ᵇ</cite> <he>כל מי … מה אוכל למ׳ וכ׳</he> he who has bread in his basket and says, what shall I have to eat to-morrow? &c.—",
+				"<cite ref=\"Jerusalem Talmud Gittin 2:1:7\">Y. Gitt. II, 44ᵃ</cite> bot. <he>הוא לילה הוא למ׳ וכ׳</he> it makes no difference whether the same night or the next day or after some time; a. fr.—<cite ref=\"M00942\"><he>מָחֳרָת</he></cite> f., constr. <cite ref=\"M00942\"><he>מָחֲרַת</he></cite>. ",
+				"<cite ref=\"Menachot 65b:5\">Men. 65ᵇ</cite> <he>ממ׳ השבת מ׳ יו״ט</he> ‘the morrow of the Sabbath’ (<cite ref=\"Leviticus 23:11\">Lev. XXIII, 11</cite>) means the day after the first day of the Festival (Passover). ",
+				"<cite ref=\"Leviticus 23:11\">Ib.</cite> <he>או אינו אלא למ׳ שבת בראשית</he> may it not mean the morrow after the regular weekly Sabbath?; a. e.—מָחֳרָתַיִם <i>day after to-morrow</i>. ",
+				"<cite ref=\"Midrash Tehillim 12\">Midr. Till. to Ps. XII</cite> <he>ולמ׳ נלך וכ׳</he> and the day after to-morrow we shall go &c."
+			]
+		}
+	]
+}

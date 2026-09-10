@@ -1,0 +1,27 @@
+{
+	"id": "K00279",
+	"slug": "כולניתא",
+	"headword": {
+		"text": "כּוּלְנִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּלְנִיתָא"
+		}
+	],
+	"page": {
+		"number": 620,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. Löw Pfl. p. 200 sq.) [<i>Little Bride</i>,] <i>Papaver Spinosum</i>.—Pl. <he>כּוּלְנְיָיתָא</he>. ",
+			"units": [
+				"<cite ref=\"Pesachim 35a:11\">Pes. 35ᵃ</cite> Ar. (ed. <cite ref=\"K00772\"><he>כַּלְנְיָתָא</he></cite>; Ms. O. <he>כַּלְנְיָיתָא</he>; Ms. M. 1 <cite ref=\"K00278\"><he>כולמתא</he></cite>; Ms. M. 2 <he>כיליניתא</he>); v. <cite ref=\"S02097\"><he>קַרְמִית</he></cite>."
+			]
+		}
+	]
+}

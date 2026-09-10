@@ -1,0 +1,28 @@
+{
+	"id": "M02927",
+	"slug": "משמעא",
+	"headword": {
+		"text": "מִשְׁמְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִשְׁמָעְיָא"
+		}
+	],
+	"page": {
+		"number": 856,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שְׁמַע</he> I) <i>hearing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 42:5\">Targ. Job XLII, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 44:18\">Targ. Y. I Gen. XLIV, 18</cite> (Y. II some ed. <he>מִשְׁמָעְייה</he>); a. fr."
+			]
+		}
+	]
+}

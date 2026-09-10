@@ -1,0 +1,23 @@
+{
+	"id": "O00065",
+	"slug": "סבך-3",
+	"headword": {
+		"text": "סֶבֶךְ"
+	},
+	"page": {
+		"number": 950,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00064\">preced.</cite>) <i>net-work, web</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 7:1\">Tosef. Kel. B. Bath. VII, 1</cite> <he>אם יש להן ס׳</he> (ed. Zuck. a. oth. <cite ref=\"O00903\"><he>סכך</he></cite>) if the fringes form a web. ",
+				"<cite ref=\"Tosefta Keilim Batra 7:1\">Ib.</cite> <he>ס׳ עולה וכ׳</he> a web of fringes is partly subject and partly not subject to the standard measure of &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A01292",
+	"slug": "אילימא-1",
+	"headword": {
+		"text": "אִילֵימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִלֵּ׳"
+		}
+	],
+	"page": {
+		"number": 49,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"A01113\"><he>אִי</he></cite> <i>if</i>, and <cite ref=\"L00478\"><he>לֵימָא</he></cite> = <he>לֵימַר</he>) prop. <i>if to say</i>, hence a dialectic term in debate, <i>you do not mean to say</i>, or <i>shall I say</i>? <cite ref=\"Bava Metzia 12b:18\">B. Mets. 12ᵇ</cite> <he>א׳ כשחייב מודה</he> shall I say (it means) when the debtor concedes (his indebtedness)? <cite ref=\"Kiddushin 74a:13\">Kidd. 74ᵃ</cite> <he>אהייא א׳ וכ׳</he> what does it refer to? You cannot say it refers to … <cite ref=\"Shabbat 150b:13\">Sabb. 150ᵇ</cite> (some ed. <he>אל׳</he>). ",
+			"units": ["<cite ref=\"Yoma 52b:10\">Yoma 52ᵇ</cite>; a. v. fr."]
+		}
+	]
+}

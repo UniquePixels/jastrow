@@ -1,0 +1,53 @@
+{
+	"id": "O01511",
+	"slug": "סרב-1",
+	"headword": {
+		"text": "סָרַב"
+	},
+	"page": {
+		"number": 1021,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to assume importance, to allow one’s self to be coaxed; to decline an office</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 86b:9\">Pes. 86ᵇ</cite> <he>מְסָרְבִין לקטן וכ׳</he> you may decline an offer from an inferior person than yourself, but not &c. ",
+				"<cite ref=\"Berakhot 34a:4\">Ber. 34ᵃ</cite> … <he>העובר צריך לסָרֵב</he> he who is asked to say the prayers, must first decline (wait to be asked again); <he>ואם אינו מְסָרֵב וכ׳</he> and if he does not decline, he is like a dish without salt; <he>ואם מסרב יותר מדאי וכ׳</he> but if he allows himself to be coaxed more than proper &c. ",
+				"<cite ref=\"Berakhot 34a:4\">Ib.</cite> <he>פעם ראשונה יְסָרֵב וכ׳</he> when asked for the first time, he must decline, the second time &c., v. <cite ref=\"E00029\"><he>הִבְהֵב</he></cite>; Y. ib. V, 9ᶜ bot. <he>בתחלה מסרב וכ׳</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>; v. <cite ref=\"O01545\"><he>סִרְהֵב</he></cite>) [<i>to be imperious</i>,] <i>to press, urge</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 4:3:6\">Y. Dem. IV, 24ᵃ</cite> bot. <he>לא יְסָרֵב וכ׳</he> one must not urge his neighbor to be his guest, when he knows that he will not accept; <cite ref=\"Tosefta Bava Kamma 7:8\">Tosef. B. Kam. VII, 8</cite> <he>המְסָרֵב בחבירו וכ׳</he> he who urges his neighbor to be his guest, when in his heart he does not mean to invite him; <cite ref=\"Jerusalem Talmud Avodah Zarah 1:3:3\">Y. Ab. Zar. I, 39ᶜ</cite> bot.; <cite ref=\"Tosefta Bava Batra 6:14\">Tosef. B. Bath. VI, 14</cite>; <cite ref=\"Tractate Derekh Eretz Rabbah 8:4\">Treat. Der. Er. ch. VIII</cite>; (<cite ref=\"Chullin 94a:10\">Ḥull. 94ᵃ</cite> <he>יסרהב</he>). ",
+				"<cite ref=\"Tosefta Nedarim 4\">Tosef. Ned. IV</cite>, 8ᵃ; <cite ref=\"Nedarim 21a\">Ned. 21</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (= <cite ref=\"M02652\"><he>מָרָה</he></cite>) <i>to rebel</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:16:1\">Koh. R. to I, 16</cite> <he>הלב מסרב וכ׳</he> the heart is rebellious, as we read (<cite ref=\"Jeremiah 5:23\">Jer. V, 23</cite>). Midr, Till. to <cite ref=\"Psalms 5:11\">Ps. V, 11</cite> (expl. <he>מרו</he>, <cite ref=\"Psalms 5:11\">ib.</cite>) <he>שסֵרְבוּ כנגדך</he> ed. Bub. (oth. ed. <he>שרבו</he>, corr. acc.) they rebelled against thee; <cite ref=\"Yalkut Shimoni on Nach 632\">Yalk. ib. 632</cite>; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סֵירֵב</he> (<i>Saf.</i> of <cite ref=\"T00042\"><he>רָב</he></cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

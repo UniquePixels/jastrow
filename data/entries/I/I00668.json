@@ -1,0 +1,35 @@
+{
+	"id": "I00668",
+	"slug": "טפס-2",
+	"headword": {
+		"text": "טְפַס"
+	},
+	"page": {
+		"number": 548,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (v. <cite ref=\"I00667\">preced.</cite>) [<i>to join hands</i>,] <i>to agree, make a covenant</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:15\">Targ. O. Gen. XXXIV, 15</cite>; <cite ref=\"Onkelos Genesis 34:22\">22</cite>; <cite ref=\"Onkelos Genesis 34:23\">23</cite> (Y. <cite ref=\"Q00742\"><he>אתפייס</he></cite>, h. text <cite ref=\"N00016\"><he>נֵאוֹת</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:10\">Targ. Prov. I, 10</cite> ed. Lag. <he>תטפיס</he> (ed. <he>תתפייס</he>); [prob. everywhere <i>Ithpe.</i>]."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיטְּפֵס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00667\">same</cite>, <i>to be won, bribed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 12:9\">Targ. II Kings XII, 9</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 13:17\">Targ. Is. XIII, 17</cite>, ed. Lag. (ed. <he>מטקסין</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

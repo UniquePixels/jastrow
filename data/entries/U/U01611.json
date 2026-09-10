@@ -1,0 +1,83 @@
+{
+	"id": "U01611",
+	"slug": "שנק-2",
+	"headword": {
+		"text": "שְׁנַק"
+	},
+	"page": {
+		"number": 1607,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"U01610\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 14:27\">Targ. O. Ex. XIV, 27</cite> (h. text <cite ref=\"N01006\"><he>נער</he></cite>); <cite ref=\"Aramaic Targum to Psalms 136:15\">Targ. Ps. CXXXVI, 15</cite> (Ms. <cite ref=\"U01997\"><he>שַׁרְנֵיק</he></cite>).). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:9\">Targ. Cant. I, 9</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to trouble, confound</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Malachi 1:13\">Targ. Mal. I, 13</cite> (h. text <he>והפחתם</he>; some ed. <he>ושביק׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 10:2\">Targ. Y. Ex. X, 2</cite> <he>ית מה דשַׁנִּיקִית</he> Ar. (ed. <he>ית ניסין דעבדית</he>; h. text <he>התעללתי</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>שַׁנֵּיק</he>, <he>שַׁנֵּק</he> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַשְׁנֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be narrow</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 4:12\">Targ. Prov. IV, 12</cite> Ar. (ed., v. <cite ref=\"I00622\"><he>טְעַק</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתַּנֵּיק"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּנִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be strangled, suffocated</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 7:12\">Targ. Job VII, 12</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 14:13\">Targ. Y. Num. XIV, 13</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be distressed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 22:20\">Targ. Y. Gen. XXII, 20</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

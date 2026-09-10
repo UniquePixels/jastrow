@@ -1,0 +1,23 @@
+{
+	"id": "A01087",
+	"slug": "אטיפא",
+	"headword": {
+		"text": "אַטִּיפָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 42,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נטף</he>, cmp. <cite ref=\"I00407\"><he>טִיף</he></cite>) <i>drop-like cavity in the cheese</i>. . ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 35b:14\">Ab. Zar. 35ᵇ</cite> <he>ביני א׳</he>. Ar. (ed. <cite ref=\"I00642\"><he>אַטְּפֵי</he></cite>) between the holes."
+			]
+		}
+	]
+}

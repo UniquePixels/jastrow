@@ -1,0 +1,22 @@
+{
+	"id": "C00065",
+	"slug": "גבוש",
+	"headword": {
+		"text": "גָּבוּשׁ"
+	},
+	"page": {
+		"number": 205,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גבש</he>) <i>pile of stones</i>. Pl. <he>גְּבוּשִׁים</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 17:9\">Tosef. Ohol. XVII, 9</cite>, v. <cite ref=\"C00141\"><he>גָּבַשׁ</he></cite>."
+			]
+		}
+	]
+}

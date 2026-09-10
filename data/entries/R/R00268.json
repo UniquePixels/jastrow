@@ -1,0 +1,30 @@
+{
+	"id": "R00268",
+	"slug": "צחוונא",
+	"headword": {
+		"text": "צַחֲוָונָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַחֲוָנָא"
+		}
+	],
+	"page": {
+		"number": 1272,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00267\">preced.</cite>) <i>drought</i>, (with <he>בית</he>, or sub. <he>בית</he>) <i>parched ground</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 24:19\">Targ. Job XXIV, 19</cite> second vers. Ms. (ed. <cite ref=\"R00136\"><he>צהותא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:33\">Targ. Ps. CVII, 33</cite> Ms. (ed. <cite ref=\"R00271\"><he>צחותא</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 8:15\">Targ. O. Deut. VIII, 15</cite> (Y. <cite ref=\"R00473\"><he>צכוונא</he></cite>, corr. acc.). Ib. XXXII, 10 (Y. <cite ref=\"R00271\"><he>צחותא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 35:7\">Targ. Is. XXXV, 7</cite>; a. e. (ed. Lag. <cite ref=\"R00134\"><he>צהוונא</he></cite>)."
+			]
+		}
+	]
+}

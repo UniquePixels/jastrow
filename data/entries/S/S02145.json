@@ -1,0 +1,34 @@
+{
+	"id": "S02145",
+	"slug": "קרץ-5",
+	"headword": {
+		"text": "קְרַץ",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְצָא"
+		},
+		{
+			"text": "קוּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1425,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְרַץ</he> I) <i>biting, cutting, destruction</i>; only in <he>אכל ק׳</he> (mostly pl. <he>קַרְצִין</he>, <cite ref=\"S01202\"><he>קוּרְ׳</he></cite>) (v. <cite ref=\"A01697\"><he>אֲכַל</he> I</cite>) <i>to inform against</i>. [<cite ref=\"Targum Jonathan on Isaiah 58:1\">Targ. Is. LVIII, 1</cite> <he>אכלי ק׳</he> Ar., read with ed. Koh. only <he>אכלי</he>, quoted to prove the meaning of <cite ref=\"A01697\"><he>אכל</he></cite> = <he>קרא</he>, v. <he>כְּלֵי</he> II.] <cite ref=\"Aramaic Targum to Proverbs 11:13\">Targ. Prov. XI, 13</cite> <cite ref=\"S02145\"><he>קֻרְצָא</he></cite> ed. Wil. (Ms. <cite ref=\"S00638\"><he>קורצין</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 20:19\">Ib. XX, 19</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:16\">Targ. Lev. XIII, 16</cite> (O. ed. Berl. <he>קִירְצִין</he>); a. fr.—",
+				"<cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite> <he>קַרְצְהוֹן</he>, v. <cite ref=\"A01697\"><he>אֲכַל</he> I</cite>; <cite ref=\"Gittin 56a\">Gitt. 56ᵃ</cite> <cite ref=\"S00634\"><he>קורצא</he></cite>; a. fr.—",
+				"<cite ref=\"Avot D'Rabbi Natan 16:2\">Ab. d’R. N. ch. XVI</cite> (in Hebr. dict.) <he>אוכילו קורצא אצל וכ׳</he> (?)."
+			]
+		}
+	]
+}

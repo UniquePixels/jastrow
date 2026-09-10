@@ -1,0 +1,89 @@
+{
+	"id": "T00945",
+	"slug": "רפי-3",
+	"headword": {
+		"text": "רְפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְפָא"
+		}
+	],
+	"page": {
+		"number": 1490,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00944\">same</cite>, <i>to be lax, weak, unsteady</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 64b:19\">Yeb. 64ᵇ</cite> <he>דרָפי דמא</he>, v. <cite ref=\"S01461\"><he>קְמַט</he></cite>. ",
+				"<cite ref=\"Kiddushin 65a:18\">Kidd. 65ᵃ</cite> <he>אין ולא ורַפְיָא בידיה</he> (he said) yes and no, and it was undecided in his hand; <cite ref=\"Shabbat 113a\">Sabb. 113ᵃ</cite>; <cite ref=\"Shabbat 116a\">116ᵃ</cite>; <cite ref=\"Bava Metzia 14b\">B. Mets. 14ᵇ</cite>. ",
+				"<cite ref=\"Gittin 32a:1\">Gitt. 32ᵃ</cite> <he>שופתא … רפיא</he> the pin of the hoe gets loose (from the heat); <he>סיכתא בדפנא ר׳</he> the pin in the wall gets loose; <he>קניא … ר׳</he> the reed in the basket becomes soft again (as if sprouting). ",
+				"<cite ref=\"Pesachim 42b:13\">Pes. 42ᵇ</cite> <he>דרְפָא מקמיט ליה</he> (Ms. M. <he>דרָפֵי</he>; Rashi <he>דרפו</he>, corr. acc.), v. <cite ref=\"S01461\"><he>קְמַט</he></cite>; <cite ref=\"Shabbat 110a\">Sabb. 110ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:11\">Y. Ber. II, 5ᶜ</cite> bot., v. <cite ref=\"P00306\"><he>עוּנְקְתָא</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַפֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to loosen, break the soil</i> (cmp. <cite ref=\"T00961\"><he>רְפַק</he></cite>). ",
+					"units": [
+						"<cite ref=\"Nedarim 41b:9\">Ned. 41ᵇ</cite> <he>דקא מְרַפֵּי וכ׳</he> he loosens the soil for him (by ploughing near him whom he has vowed not to benefit). ",
+						"<cite ref=\"Bava Metzia 95b:8\">B. Mets. 95ᵇ</cite> <he>מרפי ואזיל קמה</he> (Ms. F. <he>קמא קמא</he>, v. Rabb. D. S. a. l. note 8; Ar. <he>מְרַפֵּישׂ</he>, <he>מְרַפֵּשׂ</he>) he breaks the ground as he goes before him (that ploughs with his cow)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַרְפֵּא", "אַרְפֶּי"],
+			"senses": [
+				{
+					"gloss": "<i>to let loose, let go, let alone</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Exodus 4:26\">Targ. Y. II, Ex. IV, 26</cite> (h. text <he>וירף</he>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 4:13\">Targ. Prov. IV, 13</cite> (ed. Wil. <cite ref=\"V01045\"><he>תִרְפֵּא</he></cite>, read: <he>תַ׳</he>).—Y. Ber. VII, 11ᶜ <he>אַרְפּוּנֵיה</he> let him alone. Y. Kil. IX, 32ᵇ <he>אַרְפּוּנוּן ורחמיו וכ׳</he> let them (the mice in their nest) undisturbed, it is written, ‘and his mercies are over all his creatures’ (<cite ref=\"Psalms 145:9\">Ps. CXLV, 9</cite>); Y. Keth. XII, 35ᵃ. ",
+						"<cite ref=\"Vayikra Rabbah 5:6\">Lev. R. s. 5</cite> <he>אַרְפּוּן להון</he> leave them (the dogs) alone; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to act as a laxative</i>. Pes. l. c. <he>מַרְפֵּא ליה</he> (not <he>להו</he>; Ms. M. <cite ref=\"M02744\"><he>מַרְפֵּי</he></cite>; Rashi <he>מרפו</he>, corr. acc.); Sabb. l. c. <he>מרפי</he>, v. <cite ref=\"S01461\"><he>קְמַט</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְרַפֵּי", "אִתְרַפֵּא"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <cite ref=\"T00945\"><he>אִתְרְפֵי</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be lax, slack</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 18:9\">Targ. Prov. XVIII, 9</cite> (ed. Wil. <he>מִתְרַפֵּה</he>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 24:10\">Ib. XXIV, 10</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to relax, to let one’s hands drop</i> (in astonishment). Targ. ",
+					"units": [
+						"<cite ref=\"Habakkuk 1:5\">Hab. I, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 29:9\">Targ. Is. XXIX, 9</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

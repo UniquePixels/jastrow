@@ -1,0 +1,28 @@
+{
+	"id": "U01391",
+	"slug": "שלשול-1",
+	"headword": {
+		"text": "שִׁלְשׁוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1589,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שִׁלְשֵׁל</he> I) <i>letting down on a rope</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 83b:8\">Erub. 83ᵇ</cite> <he>לזה בש׳ ולזה בש׳</he> if both neighbors can use the wall by letting things down; Y. ib. VIII, beg. 25ᵃ; a. e."
+			]
+		}
+	]
+}

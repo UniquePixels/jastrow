@@ -1,0 +1,32 @@
+{
+	"id": "D00491",
+	"slug": "דידבא",
+	"headword": {
+		"text": "דִּידְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּדְבָא"
+		},
+		{
+			"text": "דִּדְבָא"
+		}
+	],
+	"page": {
+		"number": 295,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>דנדבא</he>, v. <cite ref=\"D00464\"><he>דִּיבבָא</he></cite>) <i>fly</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 58b:2\">Ḥull. 58ᵇ</cite> <he>לית די׳ בת שתא</he> (Ar. <he>דד׳</he>) no fly lives a whole year. ",
+				"<cite ref=\"Berakhot 44a:4\">Ber. 44ᵃ</cite> <he>עד דהוה שריק ליה דו׳ וכ׳</he> (Ms. M. <he>דשריא … דור׳</he>; v. Rabb. D. S. a. l. note) so that a fly would glide down his (fat and smooth) face.—",
+				"<cite ref=\"Gittin 86b:15\">Gitt. 86ᵇ</cite> <he>דִּידְבְתָא דביני כיפי</he> a large fly found among sheaves."
+			]
+		}
+	]
+}

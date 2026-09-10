@@ -1,0 +1,37 @@
+{
+	"id": "J00540",
+	"slug": "יצע-1",
+	"headword": {
+		"text": "יָצַע"
+	},
+	"page": {
+		"number": 589,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"J00515\"><he>יָצָא</he></cite>)<i>to spread, unfold</i>. Denom. <cite ref=\"J00523\"><he>יָצוּעַ</he></cite>, <cite ref=\"J00532\"><he>יָצִיעַ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to spread, to prepare the</i> <cite ref=\"J00523\"><he>יָצוּעַ</he></cite>, <i>lay out the mattresses</i> &c.; <i>to unfold, to arrange</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 15:3\">Sabb. XV, 3</cite> <he>ומַצִּיעִין את המטות וכ׳</he> and one is permitted to rearrange the couches, after being used on the Sabbath night, for use during the Sabbath day. ",
+						"<cite ref=\"Ketubot 67b:2\">Keth. 67ᵇ</cite> <he>מציעין לו מטה</he> they (the guardians of the poor) procure for him the requirements for a couch. ",
+						"<cite ref=\"Menachot 44a:5\">Men. 44ᵃ</cite> <he>הִצִּיעָה לו ז׳ וכ׳</he> she arranged for him seven couches. ",
+						"<cite ref=\"Gittin 56b\">Gitt. 56ᵇ</cite> <he>ה׳ ס״ת</he> he spread a scroll of the Law (to lie upon it); <cite ref=\"Bamidbar Rabbah 18:21\">Num. R. s. 18</cite>, end; Tanḥ. Ḥuck. 1; a. fr.—Mekh. B’shall., Vayhi, s. 1 <he>ומציעין בהמתם לצאת</he> and putting spreadings upon (saddling) their animals &c.—",
+						"<cite ref=\"Tosefta Berakhot 2:12\">Tosef. Ber. II, 12</cite> <he>ובלבד שלא יַצִּיעַ את המשנה</he> but he must not arrange (lay before them the full text of) the Mishnah; Y. ib. III, 6ᶜ bot.; Bab. ",
+						"<cite ref=\"Berakhot 22a:6\">ib. 22ᵃ</cite>.—Part. pass. <he>מוּצָע</he>, f. <he>מוּצַעַת</he>. Y. Ḥag. II, 77ᵃ bot., v. <cite ref=\"I00822\"><he>טְרִיקְלִין</he></cite>. ",
+						"<cite ref=\"Mishnah Arakhin 6:3\">Arakh. VI, 3</cite> <he>מטה מו׳</he> a spread couch (supplied with all necessaries). Pesik. Ekhah, p. 122ᵇ <he>ומצאה מוצעת וכ׳</he> and found it (the garment) spread over his couch; <cite ref=\"Yalkut Shimoni on Nach 258\">Yalk. Is. 258</cite> <he>ומצאו מוצע</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

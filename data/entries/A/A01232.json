@@ -1,0 +1,30 @@
+{
+	"id": "A01232",
+	"slug": "איידי",
+	"headword": {
+		"text": "אַיְידֵי"
+	},
+	"page": {
+		"number": 47,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (contr. of <he>על ידי</he>; v. <cite ref=\"A00008\"><he>אַ־</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>by the way of, through</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b:7\">Sabb. 109ᵇ</cite> <he>א׳ פומיה</he> through his mouth.—",
+				"<cite ref=\"Nazir 2a:14\">Naz. 2ᵃ</cite> <he>א׳ בהמה</he> through the instrumentality of the animal; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (conj.) <i>because, since as</i>. <he>א׳ דתני … תני נמי</he> as the compiler had to state this, he incidentally mentions also the other. ",
+			"units": ["<cite ref=\"Kiddushin 65a:13\">Kidd. 65ᵃ</cite>; a. fr."],
+			"label": "2"
+		}
+	]
+}

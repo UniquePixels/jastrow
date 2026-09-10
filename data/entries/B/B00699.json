@@ -1,0 +1,24 @@
+{
+	"id": "B00699",
+	"slug": "ביר-1",
+	"headword": {
+		"text": "בִּיר"
+	},
+	"page": {
+		"number": 165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"B01153\"><he>בַּר</he></cite>) <i>son</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 1:15\">Targ. Y. Ex. I, 15</cite>; a. e—",
+				"<cite ref=\"Berakhot 5b:9\">Ber. 5ᵇ</cite>; <cite ref=\"Bava Batra 116a:6\">B. Bath. 116ᵃ</cite> this is the bone (tooth) <he>דעשיראה ב׳</he> of the tenth son (that died).—Pl. constr. <he>בִּירֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 33:31\">Targ. Y. Num. XXXIII, 31</cite> sq. <he>ב׳ עקתא</he> (h. text. <he>בני יעקן</he>!)."
+			]
+		}
+	]
+}

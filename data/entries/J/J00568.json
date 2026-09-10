@@ -1,0 +1,32 @@
+{
+	"id": "J00568",
+	"slug": "יקידא",
+	"headword": {
+		"text": "יְקֵידָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְקֵידְתָּא"
+		},
+		{
+			"text": "יְקֵדְ׳"
+		}
+	],
+	"page": {
+		"number": 591,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00557\"><he>יְקַד</he></cite>) <i>fireplace, fire; conflagration</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 4:11\">Targ. Am. IV, 11</cite> (ed. Lag. <cite ref=\"J00569\"><he>יקידה</he></cite>; some ed. <cite ref=\"S00868\"><he>קידא</he></cite>, incorr.). ",
+				"<cite ref=\"Targum Jonathan on Amos 6:10\">Ib. VI, 10</cite> (h. text <he>מסרפו</he>). ",
+				"<cite ref=\"Onkelos Leviticus 10:6\">Targ. Lev. X, 6</cite> (O. ed. Amst. <cite ref=\"J00230\"><he>יוֹקֵידְתָּא</he></cite>); a. fr."
+			]
+		}
+	]
+}

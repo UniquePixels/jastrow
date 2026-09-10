@@ -1,0 +1,41 @@
+{
+	"id": "J00460",
+	"slug": "יסורא",
+	"headword": {
+		"text": "יִסּוּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְסוּ׳"
+		},
+		{
+			"text": "יִיסּוּ׳"
+		}
+	],
+	"page": {
+		"number": 582,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  (v. <cite ref=\"A01407\"><he>אִיסוּרָא</he></cite>) <i>chain; prison</i>. Targ. II Esth. I, 2 end <he>לבושי יִיסּוּרֵיה</he> his prison clothes; (<cite ref=\"Targum Jonathan on Jeremiah 52:33\">Targ. Jer. LII, 33</cite> <he>איסוריה</he>).—Pl. <he>יִסּוּרִין</he>, <he>יִיסּ׳</he>, <he>יִיסּוּרֵי</he>, <cite ref=\"J00460\"><he>יְסוּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:6\">Targ. Lam. III, 6</cite>.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:22\">Targ. Is. XXVIII, 22</cite> (ed. Wil. <cite ref=\"J00460\"><he>יְסיּ׳</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>chastisement, suffering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 30:14\">Targ. Jer. XXX, 14</cite>.—Pl. as ab. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 30:11\">Ib. 11</cite> (v. <cite ref=\"A01408\"><he>אִיסוּרָא</he> II</cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 20:5\">Targ. Y. Lev. XX, 5</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 60a\">Ber. 60ᵃ</cite> <he>י׳ בעי וכ׳</he> Ms. M. (ed. <he>יסורים</he> h. form) that man desires to bring suffering upon himself. ",
+				"<cite ref=\"Bava Metzia 84b:1\">B. Mets. 84ᵇ</cite> <he>קביל עליה י׳</he> he submitted patiently to sufferings. ",
+				"<cite ref=\"Bava Metzia 85a:3\">Ib. 85ᵃ</cite>; a. fr. Lam. R. introd. end <he>למימר לית יִיסּוּרַיָּא חשיבין וכ׳</he> as if saying, sufferings count to me for nothing."
+			],
+			"label": "2"
+		}
+	]
+}

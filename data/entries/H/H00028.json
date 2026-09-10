@@ -1,0 +1,32 @@
+{
+	"id": "H00028",
+	"slug": "חבוליא",
+	"headword": {
+		"text": "חֲבוּלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִבּוּ׳"
+		},
+		{
+			"text": "חִיבּ׳"
+		}
+	],
+	"page": {
+		"number": 416,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00084\"><he>חבל</he></cite>; v. Nöld. Mand. Gr. p. 146, sq.) <i>interest, usury</i> (h. <cite ref=\"N01326\"><he>נֶשֶׁךְ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 22:24\">Targ. O. Ex. XXII, 24</cite> <cite ref=\"H00051\"><he>חֲ׳</he></cite> ed. Berl. (oth. ed. <cite ref=\"H01406\"><he>חִ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 15:5\">Targ. Ps. XV, 5</cite>; a. e.—",
+				"<cite ref=\"Moed Katan 28b:8\">M. Kat. 28ᵇ</cite> (in a funeral dirge) <he>מותא כי מותא ומרעין חי׳</he> death is death (paying a debt), but sufferings are the interests."
+			]
+		}
+	]
+}

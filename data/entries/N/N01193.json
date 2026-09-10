@@ -1,0 +1,81 @@
+{
+	"id": "N01193",
+	"slug": "נקי-1",
+	"headword": {
+		"text": "נקי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָקָה"
+		}
+	],
+	"page": {
+		"number": 932,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be rubbed off, be white</i>,] <i>to be clean, clear</i> (cmp. <cite ref=\"G00443\"><he>זָכָה</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיקָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to cleanse</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1:12\">Ex. R. s. 1</cite> <he>ומְנַקֶּה אותם</he> and cleansed them (the new-born); <cite ref=\"Yalkut Shimoni on Torah 164\">Yalk. ib. 164</cite>; <cite ref=\"Yalkut Shimoni on Nach 354\">Yalk. Ez. 354</cite>; (<cite ref=\"Sotah 11b\">Sot. 11ᵇ</cite> <he>מנקיר</he>). ",
+						"<cite ref=\"Bava Kamma 93b:5\">B. Kam. 93ᵇ</cite> <he>פשתן ונִיקָּהוּ</he> if he stole flax and cleansed (bleached) it; <cite ref=\"Tosefta Bava Kamma 10:2\">Tosef. ib. X, 2</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to clear, let go unpunished</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 86a:5\">Yoma 86ᵃ</cite> (ref. to <cite ref=\"Exodus 34:7\">Ex. XXXIV, 7</cite>) <he>מנקה הוא וכ׳</he> he clears the repentant sinners &c. ",
+						"<cite ref=\"Temurah 3b:1\">Tem. 3ᵇ</cite>. ",
+						"<cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> <he>כדי לנַקּוֹת את שרה</he> in order to clear Sarah (from suspicion); a. fr.—Part. pass. <he>מְנוּקֶּה</he>, pl. <he>מְנוּקִּין</he> <i>clear, clean, bare</i>. ",
+						"<cite ref=\"Sanhedrin 49a\">Snh. 49ᵃ</cite> <he>מנ׳ מגזל</he> innocent of robbery. ",
+						"<cite ref=\"Sotah 28a\">Sot. 28ᵃ</cite>. ",
+						"<cite ref=\"Sanhedrin 36b:9\">Snh. 36ᵇ</cite>, a. e. <he>כשם שב״ד מנ׳ בצדק … מנ׳ מכל מום</he> as the judges must be clear (from suspicion) as to righteousness, so must they be clear of every blemish (of descent). ",
+						"<cite ref=\"Gittin 86a:2\">Gitt. 86ᵃ</cite> <he>מ׳ מכל מום</he> free from all objectionable qualities; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִקָּה", "נִיקָּה"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְנַקֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be cleared, vindicated</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 2:3\">Tosef. Sot. II, 3</cite> <he>שנ׳ ונקתה נִקְּתָה מכל פורעניות וכ׳</he> (v. ed. Zuck. note) the text says (<cite ref=\"Numbers 5:28\">Num. V, 28</cite>) ‘and she shall be cleared’, she shall be cleared (released) from all the evils which might come upon her deservedly (because she gave rise to suspicion through her conduct). ",
+						"<cite ref=\"Numbers 5:28\">Ib.</cite> <he>שניקללה ניוולה</he> (Var. <he>שניקל</he>) read: <he>שניקתה בניוולה</he> she is released from further visitation (being sufficiently punished) by her exposure to disgrace. Pesik. R. l. c. <he>היאך … מִתְנַקֵּת</he> by what severe means has Sarah been vindicated!"
+					]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["הִנְקָה"],
+			"senses": [
+				{
+					"gloss": "<i>to clear, remove</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 62a:2\">Kidd. 62ᵃ</cite> (ref. to <he>הִנָּקִי</he>, <cite ref=\"Numbers 5:19\">Num. V, 19</cite>) <he>הַנְקִי כתיב</he> it may be read <i>hanḳi</i>, clear thy life out of thy body (die, if thou art guilty); v. <cite ref=\"H01324\"><he>חָנַק</he></cite>."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

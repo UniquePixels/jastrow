@@ -1,0 +1,28 @@
+{
+	"id": "A01497",
+	"slug": "איסקוזות",
+	"headword": {
+		"text": "אִיסְקוֹזוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסקוֹזִית",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 56,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Isp. of <he>קוז</he> = <he>קוץ</he>; cmp. <he>קְזוֹזוֹת</he>) <i>cutting</i>, trnsf. <i>fate, doom;</i> cmp. <cite ref=\"C00553\"><he>גְּזֵירָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 4:2\">Esth. R. to I, 14</cite> (Ar. ed. Koh. <he>ית …</he>). [Levy Talm. Dict. s. v. <cite ref=\"A01497\"><he>אִסְקוֹזוֹת</he></cite>, quotes <he>היו א׳ … מתוקנות</he>, pl.]"
+			]
+		}
+	]
+}

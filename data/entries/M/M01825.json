@@ -1,0 +1,23 @@
+{
+	"id": "M01825",
+	"slug": "מסא-2",
+	"headword": {
+		"text": "מַסָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 803,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = <cite ref=\"M01822\"><he>מַס</he></cite> I, <i>melting</i>; <he>מ׳ דליבא</he> <i>faint heartedness</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>שרתי</he>, v. <cite ref=\"L00579\"><he>לָמַס</he></cite>."
+			]
+		}
+	]
+}

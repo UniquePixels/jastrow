@@ -1,0 +1,34 @@
+{
+	"id": "O00974",
+	"slug": "סלח-1",
+	"headword": {
+		"text": "סָלַח"
+	},
+	"page": {
+		"number": 994,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O01003\"><he>סָלַל</he></cite>) [Assyr. <i>to sprinkle</i>,] <i>to forgive</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 8:7:8\">Y. Yoma VIII, end, 45ᶜ</cite> <he>ותִסְלַח לי על וכ׳</he> and forgive me all my sins. ",
+				"<cite ref=\"Bamidbar Rabbah 16:28\">Num. R. s. 16</cite>, end <he>בשבילך אֶסְלַח להם</he> for thy sake I will pardon them. Tanḥ. Ki Thissa 27 <he>וסָלַחְתִּי כדבריך</he> and I pardoned (Israel) according to thy word; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סְלַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be forgiven</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 755\">Yalk. Ps. 755</cite> <he>ונ׳ לו</he> (<cite ref=\"Midrash Tehillim 48:2\">Midr. Till. to Ps. XLVIII</cite> <he>ומתכפר</he>) and he is forgiven."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

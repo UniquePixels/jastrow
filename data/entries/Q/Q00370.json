@@ -1,0 +1,27 @@
+{
+	"id": "Q00370",
+	"slug": "(פורסישמנג",
+	"headword": {
+		"text": "(פורסישמנג"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוֹרְסִישְׁנָמַג"
+		}
+	],
+	"page": {
+		"number": 1147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. pursiš nâmeh, Perl. Et. St., p. 36) <i>investigation paper, verdict</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 28b:10\">Gitt. 28ᵇ</cite> <he>מקמי דלחתום פ׳</he> (ed. <he>פורסי שנמג</he>, read: <he>פורסיש נמג</he>) before the verdict is signed."
+			]
+		}
+	]
+}

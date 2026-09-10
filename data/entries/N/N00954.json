@@ -1,0 +1,53 @@
+{
+	"id": "N00954",
+	"slug": "נסע-1",
+	"headword": {
+		"text": "נָסַע"
+	},
+	"page": {
+		"number": 917,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to move, march</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 8:1\">Tosef. Sot. VIII, 1</cite> <he>בכל יום … נוֹסֵעַ אחר וכ׳</he> every day the ark moved behind two standards (divisions), …, but on that day it moved in front; <cite ref=\"Sotah 33b:11\">Sot. 33ᵇ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 2:10\">Num. R. s. 2</cite> <he>לאחר שהיו נוֹסְעִים … נוסעים את המשכן</he> after these two standards had moved, the Levites marched (carrying) the Tabernacle. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 686:1\">Yalk. ib. 686</cite> <he>מתקרבים לִיסַּע</he> came together to make ready for the march. Mekh. B’shall., Vayass’a, s. 1 <he>זו נסיעה לא נָסְעוּ וכ׳</he> this march they undertook by the order of Moses, but all other marches they made at the order of the Deity, a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to remove, cause to depart, to separate, take apart</i>. Mekh. l. c. <he>הִסִּיעָן בעל כרחן במקל</he> he forced them to march, against their will, with the staff. Ib. <he>ע״ז עברה … והִסִּיעָהּ משה וכ׳</he> an idol went with the Israelites across the sea, and Moses removed it &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 5:7\">Kel. V, 7</cite> <he>צריך להַסִּיעוֹ</he> he must (not only divide, but) separate the parts of the stove entirely. ",
+						"<cite ref=\"Sotah 8a:1\">Sot. 8ᵃ</cite> <he>בית דין מַסִּיעִין את העדים וכ׳</he> the court orders the witnesses to change their places; <cite ref=\"Tosefta Sanhedrin 9:1\">Tosef. Snh. IX, 1</cite> (ed. Zuck. <he>מַשִּׂיאִין</he>). ",
+						"<cite ref=\"Bereishit Rabbah 38:7\">Gen. R. s. 38</cite> (ref. to <cite ref=\"Genesis 11:2\">Gen. XI, 2</cite>) <he>הִסִּיעוּ עצמן מקדמונו וכ׳</he> they removed themselves from the Originator of the world; <cite ref=\"Genesis 11:2\">ib.</cite> s. 41 <he>ה׳ עצמו וכ׳</he> he removed himself &c. Mekh. B’shall., Shir., s. 10 <he>גפן שהִסַּעְתָּה ממצרים</he> the vine (Israel) which thou didst transfer from Egypt (<cite ref=\"Psalms 80:9\">Ps. LXXX, 9</cite>); a. fr.—",
+						"<cite ref=\"Bava Batra 8b:8\">B. Bath. 8ᵇ</cite> <he>להַסִּיעַ על קיצתן</he> to remove (place outside of the protection of the law, Rashi) those who disregard the terms fixed by the authorities.—",
+						"<cite ref=\"Mishnah Eruvin 8:5\">Erub. VIII, 5</cite> (<cite ref=\"Eruvin 86a\">86ᵃ</cite>) <he>הסעי מלבו</he> (Ms. M. <he>הסירה</he>; ed. Sonc. <he>הסיחה מדעתו</he>, v. Rabb. D. S. a. l. note) he has removed from his mind (the thought of returning to his residence). Mekh. B’shall. s. 3 (ref. to <he>ויסעו</he>, <cite ref=\"Exodus 14:15\">Ex. XIV, 15</cite>) <he>יַסִּיעוּ דברים</he> (<he>שהיו דוברים</he>) <cite ref=\"M01482\"><he>מלבן</he></cite> let them remove from their hearts the (evil) words which &c.; <cite ref=\"Shemot Rabbah 21:5\">Ex. R. s. 21</cite>.—<he>ה׳ דעת</he> = <he>הסיח דעת</he>, v. <cite ref=\"N00923\"><he>נָסַח</he></cite>. Y. Ber. V, 9ᶜ bot.; a. fr.—[Y. Taan. IV, beg. 67ᵇ <he>מפני מסיע</he>, read: <cite ref=\"E00707\"><he>הֶסֵּיעַ</he></cite>.—",
+						"<cite ref=\"Tosefta Shevi'it 2:20\">Tosef. Shebi. II, 20</cite> <he>מסיעין</he>, read <he>מְסַיְּיעִין</he>.]—2) <i>to signalize</i>, v. <cite ref=\"N01284\"><he>נָשָׂא</he></cite>."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּסַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be removed</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Yoma 1:4\">Tosef. Yoma I, 4</cite> <he>ה׳ מן הכהונה</he> was removed (deposed) from the high priesthood; Y. Hor. III, 47ᵈ top."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "B00963",
+	"slug": "בנסא",
+	"headword": {
+		"text": "בְּנָסָא"
+	},
+	"page": {
+		"number": 177,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00962\">preced.</cite>) <i>anger, ill-humor</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 16:10\">Targ. Job XVI, 10</cite> (Ms. <cite ref=\"K00862\"><he>כנסא</he></cite>, some ed. <cite ref=\"B00963\"><he>בַּנָּסָא</he></cite>)."
+			]
+		}
+	]
+}

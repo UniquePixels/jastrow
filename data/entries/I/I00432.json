@@ -1,0 +1,29 @@
+{
+	"id": "I00432",
+	"slug": "טירודין",
+	"headword": {
+		"text": "טֵירוּדִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "טֵר׳"
+		}
+	],
+	"page": {
+		"number": 534,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"I00712\"><he>טָרַד</he></cite>) <i>banishment</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite>, end <he>בו״ד גוזר ט׳ וכ׳</he> (not <cite ref=\"I00431\"><he>טירודא</he></cite>) a human authority decrees banishment, so does the Lord (to the leper). ",
+				"<cite ref=\"Bereishit Rabbah 2:2\">Gen. R. s. 2</cite>, beg.; <cite ref=\"Yalkut Shimoni on Torah 4:9\">Yalk. ib. 4</cite>. [<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite>, v. <cite ref=\"I00712\"><he>טָרַד</he></cite>.]"
+			]
+		}
+	]
+}

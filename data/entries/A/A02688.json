@@ -1,0 +1,29 @@
+{
+	"id": "A02688",
+	"slug": "אפילון-1",
+	"headword": {
+		"text": "אַפִּילוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפִּילְיוֹן",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 103,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀπειλῶν, ἀπειλέων, part. pres. of ἀπειλέω, prob. borrowed fr. Aquila to <cite ref=\"Psalms 104:32\">Ps. CIV, 32</cite>) <i>threatening</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:4\">Y. Ber. IX, 13ᶜ</cite> bot. <he>הוא א׳ לעולמו להחריבו</he> He looks upon his world threatening to destroy it. Cant. R. end, that time <he>חושב הקב״ה אפילו להחריבו וכ׳</he> (read <he>אפילון לעולמו להח׳</he>) the Lord plans threatening &c. Y’lamd. beg. (quot. in Ar. with ref. to Ps. l. c.) <he>מסתכל אפיליון של עולם</he> (read <he>על עולמו</he>) He looks threatening upon His world; cmp. ",
+				"<cite ref=\"Midrash Tehillim 18:10\">Midr. Till. to Ps. XVIII, 8</cite>; Yalk.Sam. 158."
+			]
+		}
+	]
+}

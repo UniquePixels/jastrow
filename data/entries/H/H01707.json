@@ -1,0 +1,49 @@
+{
+	"id": "H01707",
+	"slug": "חרך-1",
+	"headword": {
+		"text": "חָרַךְ"
+	},
+	"page": {
+		"number": 503,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01607\"><he>חָרָה</he></cite>)<i>to roast, parch</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חֵירֵךְ", "חֵרֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to char, burn bread</i> so as to make it uneatable; <i>to prepare a wick by charring</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 21b:2\">Pes. 21ᵇ</cite> <he>חֵירְכוֹ קודם וכ׳</he> he charred the leavened bread before the time appointed for the removal of leavened matter. Y. Sabb. II, 5ᵃ top <he>מְחָרְכִין</he> (<cite ref=\"L00487\"><he>לין</he></cite>) <he>לן</he> they char them (the wicks).—Part. pass. <he>מְחוֹרָךְ</he>, fem. <he>מְחוֹרֶכֶת</he>, pl. <he>מְחוֹרָכִין</he>, <he>מְחוֹרָכוֹת</he>. ",
+						"<cite ref=\"Tosefta Shabbat 2:1\">Tosef. Sabb. II, 1</cite> (v. Var. ed. Zuck.); <cite ref=\"Shabbat 29a\">Sabb. 29ᵃ</cite> (v. Tosaf. a. l.)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחָרֵךְ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחָרֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be singed, burnt</i>. Tanḥ. Noah 13 <he>נ׳ שער וכ׳</he> the hair of his head and beard was singed. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 33\">Pirké d’R. El. ch. XXXIII</cite> <he>נִתְחָרְכוּ וכ׳</he> (not <cite ref=\"B00000\"><he>ב</he></cite>) his hair was singed. Y. Sabb. XVI, 15ᶜ <he>הדורשה מִתְחָרֵךְ</he> he who preaches it (the Agadah) will burn himself (at the fire of the Law); (<cite ref=\"Tractate Soferim 16:2\">Treat. Sof’rim XVI, 2</cite> <he>מתברך</he>, corr. acc.)"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

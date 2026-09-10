@@ -1,0 +1,42 @@
+{
+	"id": "J00584",
+	"slug": "יקר-5",
+	"headword": {
+		"text": "יְקָר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "יְקָרָא"
+		}
+	],
+	"page": {
+		"number": 593,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00583\">same</cite><i>honor, dignity</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:7\">Targ. Ex. XVI, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 87:3\">Targ. Ps. LXXXVII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 8:6\">Ib. VIII, 6</cite> Ms. (ed. <cite ref=\"A01601\"><he>אַיְקָרָא</he></cite>, v. <cite ref=\"A01601\"><he>אִיקָר</he></cite>); a. fr.—",
+				"<cite ref=\"Berakhot 28a\">Ber. 28ᵃ</cite> top <he>מַן י׳</he> Ms. M. (ed. <he>כסא דמוקרא</he>, Ms. F. <cite ref=\"D00650\"><he>דִּיקָרָא</he></cite>) a vessel of honor (precious vessel). ",
+				"<cite ref=\"Sanhedrin 46b:20\">Snh. 46ᵇ</cite> <he>הספידא י׳ וכ׳</he> are funeral ceremonies (eulogies, wailings &c.) for the honor of the deceased or of the survivors? <cite ref=\"Sanhedrin 46b:20\">Ib.</cite> <he>הנהו בני י׳ נינהו</he> were those (the survivors of the house of Jeroboam) worthy of honors?—",
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>לית היא עבדא לִיקָרָךְ</he> she acts (treats thee) not according to thy dignity; <cite ref=\"Bereishit Rabbah 17:3\">Gen. R. s. 17</cite> <he>לִיקַרְתָּךְ</he>. ",
+				"<cite ref=\"Bereishit Rabbah 17\">Ib.</cite> <he>דליתה מִיְּקָרָךְ</he> for she is not (part) of thy dignity, i.e. not worthy of thee; <cite ref=\"Yalkut Shimoni on Torah 665:10\">Yalk. Lev. 665</cite> <he>דלית היא יקרך</he>, a. <he>דיקרך</he>; <cite ref=\"Yalkut Shimoni on Nach 352\">Yalk. Is. 352</cite> <he>דיק׳</he>; <cite ref=\"Jerusalem Talmud Ketubot 11:3:3\">Y. Keth. XI, 34ᵇ</cite> bot. <he>דאִיקְרָךְ</he>.—",
+				"<cite ref=\"Berakhot 19a:4\">Ber. 19ᵃ</cite> <he>הקב״ה תבע בִּיקָרֵיה</he> the Lord takes up the cause of his offended dignity; a. fr.—Pl. <he>יִקְרַיָּא</he>. ",
+				"<cite ref=\"Bava Kamma 102b:19\">B. Kam. 102ᵇ</cite> bot. <he>יִקְרַיְיכוּ</he>, v. <cite ref=\"G00357\"><he>זִילוּתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>value, price</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 49:9\">Targ. Ps. XLIX, 9</cite> <he>אילו יהיב יקר וכ׳</he> Ms. (ed. Lag. <he>ויהיב יקר</he>; ed. <he>ויהי יקיר</he>) were he to pay the price for their redemption.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:8\">Y. Sabb. VI, 8ᵃ</cite> bot. (in a prob. corrupted sentence) <he>וי׳ אוף ציבחר הוה סידרה יקיר</he> though the value (of the sandal) was but a trifle, yet order (consistency in decisions) is precious; <cite ref=\"Jerusalem Talmud Yevamot 12:2:5\">Y. Yeb. XII, 12ᵈ</cite> top (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

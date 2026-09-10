@@ -1,0 +1,23 @@
+{
+	"id": "S00754",
+	"slug": "קטינאי",
+	"headword": {
+		"text": "קַטִּינָאֵי"
+	},
+	"page": {
+		"number": 1348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S00751\"><he>קַטִּינָא</he> I</cite>) <i>slender onions</i> (with small heads and long stems, v. <cite ref=\"Q01077\"><he>פְּלַלְגּוּלָא</he></cite>, a. Sm. Dict. Ant. s. v. Caepa). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:2:10\">Y. Shebi. V, 36ᵃ</cite> top (expl. <cite ref=\"S01128\"><he>קיצונים</he></cite>); [R. S. to <cite ref=\"Mishnah Sheviit 5:4\">Shebi. V, 4</cite> reads: <cite ref=\"S00931\"><he>קַיְיטְנָאֵי</he></cite> (denom. of <cite ref=\"S00928\"><he>קַיְיטָא</he></cite>) <i>summer-onions</i>.]"
+			]
+		}
+	]
+}

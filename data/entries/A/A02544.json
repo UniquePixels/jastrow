@@ -1,0 +1,30 @@
+{
+	"id": "A02544",
+	"slug": "אסקפסטי",
+	"headword": {
+		"text": "אִסְקְפַסְטִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְקִיפַּסְטִי"
+		}
+	],
+	"page": {
+		"number": 97,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (σκεπαστή, sub. ἅμαξα, σκεπαστόν = καμάρα; v. Poll. X, 52, Sachs Beitr. I, 171) <i>tilted wagon, litter with canopy</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 3:3\">Midr. Till. to Ps. 3</cite> <he>אוסקופי</he>, <cite ref=\"A02543\"><he>אסקפי</he></cite> (corr. acc.; read <he>מהלכת</he>). Pesik. Baḥod. p. 103ᵃ <he>סקיפס׳</he> Ar. (ed. <cite ref=\"O01461\"><he>סקופוטי</he></cite>, corr. acc.). Koh. R. beg. <he>איסקרפסטי</he> (corr. acc.).—Pl. <he>אִסְקְפַסְטִיאוֹת</he>, <he>סְקִיפַּסְטִיּוֹת</he> &c. ",
+				"<cite ref=\"Ruth Rabbah 1\">Ruth R. to I, 19</cite>; <cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 3</cite> <he>אסקפטיות</he> ed. (Ar. <cite ref=\"O01478\"><he>סקיפטיות</he></cite>, corr. acc.). ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>כמנסקי פסקאות</he>, read <he>כמין סקיפסט׳</he>; <cite ref=\"Yalkut Shimoni on Torah 713\">Yalk. Num. 713</cite> (corr. acc.). [<cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite> <he>בתוך מעיה כמין סקיפסטי</he> Ar., ed. only <he>בתוך מעיה</he>, v. ",
+				"<cite ref=\"Midrash Tehillim 103\">Midr. Till. to Ps. CIII</cite>, s. v. <cite ref=\"A02537\"><he>אִסְקוּפָה</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "S02242",
+	"slug": "קשיות",
+	"headword": {
+		"text": "קַשְׁיוּת"
+	},
+	"page": {
+		"number": 1431,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S02241\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": " (sub. <cite ref=\"P00360\"><he>עורף</he></cite>) <i>stiffneckedness</i>; (sub. <cite ref=\"L00030\"><he>לב</he></cite>) <i>hard-heartedness</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 6a:6\">Taan. 6ᵃ</cite>, v. <cite ref=\"M01616\"><he>מַלְקוֹשׁ</he></cite>. Lam. R. introd. (R. Joḥ. 1) (play on <he>מקשת אסרו</he>, <cite ref=\"Isaiah 22:3\">Is. XXII, 3</cite>) <he>מקַשְׁיוּתָם נמסרו וכ׳</he> for their stubbornness they were given over to the governments. ",
+				"<cite ref=\"Bereishit Rabbah 53:15\">Gen. R. s. 53</cite> (ref. to <he>רבה קשת</he>, <cite ref=\"Genesis 21:20\">Gen. XXI, 20</cite>) <he>רָבָה וקַשְׁיוּתוֹ עמו</he> he (Ishmael) grew, and his stubbornness with him; [anoth. vers.] <he>רבה וקשיותו אמו</he> he grew, and the cause of his renitence was his mother (who encouraged him in his sinful ways); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>erection, sensual desire</i>. Ib. s. 98 (play on <he>קשתו</he>, <cite ref=\"Genesis 49:24\">Gen. XLIX, 24</cite>) <he>ק׳ שנִתְקַשֵּׁיתָה וכ׳</he> the sensual desire which seized thee when thou wast with thy mistress.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

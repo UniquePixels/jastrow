@@ -1,0 +1,29 @@
+{
+	"id": "C01427",
+	"slug": "גשתא-1",
+	"headword": {
+		"text": "גִּשְׁתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּישְׁ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 274,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01426\">preced.</cite>) <i>feeling, touch</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 47b\">Ḥull. 47ᵇ</cite> resembling wood <he>בג׳</he> in touch. ",
+				"<cite ref=\"Chullin 122b:15\">Ib. 122ᵇ</cite>; <cite ref=\"Shabbat 107b:3\">Sabb. 107ᵇ</cite>"
+			]
+		}
+	]
+}

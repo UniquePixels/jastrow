@@ -1,0 +1,30 @@
+{
+	"id": "A02521",
+	"slug": "אספריטין",
+	"headword": {
+		"text": "אִסְפְּרִיטִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְפְּלִיטִין"
+		}
+	],
+	"page": {
+		"number": 96,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Ispe. noun of <he>פרט</he> or <he>פלט</he>, v. H. Dict. s. vv.) <i>separate threads, hangings, fine fringes</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 17\">Lev. R. s. 17</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 808\">Yalk. Ps. 808</cite> <cite ref=\"A01478\"><he>איספיטין</he></cite>."
+			]
+		}
+	]
+}

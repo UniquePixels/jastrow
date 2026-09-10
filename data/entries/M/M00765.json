@@ -1,0 +1,28 @@
+{
+	"id": "M00765",
+	"slug": "מזלג",
+	"headword": {
+		"text": "מַזְלֵג"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִזְלָג"
+		}
+	],
+	"page": {
+		"number": 755,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00477\"><he>זָלַג</he></cite>) [<i>dripper</i>,] <i>fork for taking meat out of the caldron</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:2\">Kel. XIII, 2</cite> <he>ניטל המ׳</he> (not <he>ניטלה</he>) if the forked head of the soup-ladle is broken off, v. <cite ref=\"G00186\"><he>זוֹמִילִיסְטְרוֹן</he></cite>; <cite ref=\"Tosefta Keilim Metsia 3:6\">Tosef. Kel. B. Mets. III, 6</cite>.—",
+				"<cite ref=\"Mishnah Shabbat 17:2\">Sabb. XVII, 2</cite> (<cite ref=\"Shabbat 122b\">122ᵇ</cite>), v. <cite ref=\"M01488\"><he>מַלְגֵּז</he></cite>."
+			]
+		}
+	]
+}

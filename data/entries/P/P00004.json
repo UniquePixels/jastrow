@@ -1,0 +1,24 @@
+{
+	"id": "P00004",
+	"slug": "עאן",
+	"headword": {
+		"text": "עָאן"
+	},
+	"page": {
+		"number": 1034,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00010\"><he>צֹאן</he></cite>, <i>small cattle, sheep</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 1:3\">Targ. Job I, 3</cite> (ed. Wil. <cite ref=\"P00938\"><he>עָן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 42:12\">Ib. XLII, 12</cite>; a. fr.—V. <cite ref=\"P00938\"><he>עָן</he></cite>.—",
+				"<cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite> <he>ע׳ אוחרי</he> more sheep; v. <cite ref=\"P00938\"><he>עָן</he></cite>."
+			]
+		}
+	]
+}

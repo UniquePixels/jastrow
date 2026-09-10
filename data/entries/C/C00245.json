@@ -1,0 +1,28 @@
+{
+	"id": "C00245",
+	"slug": "גדר-3",
+	"headword": {
+		"text": "גְּדַר"
+	},
+	"page": {
+		"number": 214,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00244\">same</cite><i>to fence in; to check</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 23b:14\">B. Kam. 23ᵇ</cite>, v. <cite ref=\"C00214\"><he>גְּדֵירָא</he></cite>. ",
+				"<cite ref=\"Yevamot 90b:6\">Yeb. 90ᵇ</cite> <he>מִיגְדַּר מילתא שאני</he> a measure to check something (an extraordinary measure for checking lawlessnes) is something different, allows of no analogies."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cut off, deduct</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite> <he>גַּדְרָאנֵיה מן פורני</he> I will deduct it from my dowry. [<cite ref=\"Esther Rabbah 1:9\">Ib. to I, 9</cite> <he>אנא מגדיר</he>, v. <cite ref=\"C01393\"><he>גְּרַר</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

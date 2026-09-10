@@ -1,0 +1,29 @@
+{
+	"id": "U01911",
+	"slug": "שרב-1",
+	"headword": {
+		"text": "שָׁרַב"
+	},
+	"page": {
+		"number": 1627,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <cite ref=\"H01577\"><he>חרב</he></cite>) <i>to glow, be dry</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתָּרֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to be overcome by the heat</i>. Sifra K’dosh. ch. III, Par. 2 (ref. to <cite ref=\"Leviticus 19:14\">Lev. XIX, 14</cite>) <he>אל תאמר … שׁיִשְׁתָּרֵב</he> do not advise him … ‘go on the road at noon-time’, that he may be overcome by the heat; <cite ref=\"Yalkut Shimoni on Torah 609\">Yalk. Lev. 609</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

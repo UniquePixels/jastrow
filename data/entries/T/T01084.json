@@ -1,0 +1,28 @@
+{
+	"id": "T01084",
+	"slug": "רשיא-1",
+	"headword": {
+		"text": "רַשְׁיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָ׳"
+		}
+	],
+	"page": {
+		"number": 1500,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01083\">preced.</cite>) <i>money-lender, pressing creditor</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 22:24\">Targ. Ex. XXII, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 4:1\">Targ. II Kings IV, 1</cite>."
+			]
+		}
+	]
+}

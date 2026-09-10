@@ -1,0 +1,23 @@
+{
+	"id": "Q00339",
+	"slug": "פורחות",
+	"headword": {
+		"text": "פּוֹרְחוֹת"
+	},
+	"page": {
+		"number": 1146,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"Q01754\"><he>פָּרַח</he></cite>) <i>eruptions</i>, name of a certain form of clouds. ",
+			"units": [
+				"<cite ref=\"Taanit 9b:8\">Taan. 9ᵇ</cite>, v. <cite ref=\"H00533\"><he>חָזִיז</he></cite>."
+			]
+		}
+	]
+}

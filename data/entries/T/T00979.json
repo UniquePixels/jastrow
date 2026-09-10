@@ -1,0 +1,50 @@
+{
+	"id": "T00979",
+	"slug": "רצח",
+	"headword": {
+		"text": "רָצַח"
+	},
+	"page": {
+		"number": 1493,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"T00991\"><he>רָצַע</he></cite>) [<i>to perforate</i>, cmp. <he>הרג</he>; <cite ref=\"H01076\"><he>חָלָל</he></cite>,] <i>to slay, murder</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 3:3\">Midr. Till. to Ps. III</cite> (ref. to <he>ארבעתים</he>, <cite ref=\"II Samuel 12:6\">II Sam. XII, 6</cite>) <he>אתה רָצַחְתָּ אחד שש עשרה נִרְצָחִים יהיו לך</he> thou hast murdered one: there shall be sixteen of thine murdered; <cite ref=\"Yalkut Shimoni on Nach 148:4\">Yalk. Sam. 148</cite>. ",
+				"<cite ref=\"Makkot 12a:9\">Macc. 12ᵃ</cite> <he>מי כתיב אם ר׳</he> it reads not (<cite ref=\"Numbers 35:27\">Num. XXXV, 27</cite>), ‘if he slew’ (but, ‘he shall slay’); <cite ref=\"Numbers 35:27\">ib.</cite> <he>מי כתיב יִרְצַח</he> it reads not, ‘he shall slay’ (but, if he slays he is not punished); a. e.—Part. <cite ref=\"T00428\"><he>רוֹצֵחַ</he></cite> <i>manslayer, murderer</i>. ",
+				"<cite ref=\"Mishnah Sheviit 10:8\">Shebi. X, 8</cite>; <cite ref=\"Mishnah Makkot 2:8\">Macc. II, 8</cite> <he>ר׳ שגלה … ר׳ אני</he> when an involuntary manslayer comes to his place of refuge, and the citizens desire to honor him, he must say, I am a manslayer. ",
+				"<cite ref=\"Sanhedrin 73a:5\">Snh. 73ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 22:26\">Deut. XXII, 26</cite>) <he>מקיש ר׳ … אף ר׳ ניתן להצילו בנפשו</he> the text draws an analogy between the case of one pursued by a murderer and that of the betrothed woman threatened with assault: as it is permitted to save the woman at the cost of the assailant’s life, so it is permitted to save the pursued at the cost of the would-be murderer’s life; <cite ref=\"Pesachim 25b:2\">Pes. 25ᵇ</cite>; a. fr.—[<cite ref=\"Tosefta Sotah 15:7\">Tosef. Sot. XV, 7</cite>, read: <cite ref=\"T00429\"><he>רוֹצְעָן</he></cite>.]—Pl. <he>רוֹצְחִים</he>, <he>רוֹצְחִין</he>. ",
+				"<cite ref=\"Makkot 10a:3\">Macc. 10ᵃ</cite>, v. <cite ref=\"G00695\"><he>זָרַח</he></cite>. ",
+				"<cite ref=\"Makkot 9b:19\">Ib. 9ᵇ</cite> <he>בגלעד שכיחי ר׳</he> in Gilead cases of manslaughter are frequent; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְצַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be slain, murdered</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 3:3\">Midr. Till. to Ps. III</cite>; v. supra; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְרַצֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to commit suicide</i> (?). ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 24:1\">Pesik. R. s. 24</cite> (ref. to <he>לא תרצח</he> <cite ref=\"Exodus 20:13\">Ex. XX, 13</cite>) <he>לא תִתְרַצֵּחַ</he> thou shalt not murder thyself; [prob. to be read: <he>לא תִצָּרֵחַ לא תעשה הדם צוֹרֵחַ עליך</he> thou shalt not be cried about, make no blood cry out against thee]."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

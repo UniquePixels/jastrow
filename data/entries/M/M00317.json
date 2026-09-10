@@ -1,0 +1,32 @@
+{
+	"id": "M00317",
+	"slug": "מדעם",
+	"headword": {
+		"text": "מִדַּעַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִידַּ׳"
+		}
+	],
+	"page": {
+		"number": 734,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <he>מדע</he>, v. <cite ref=\"M00316\">preced.</cite>, a. enclitic <cite ref=\"M00000\"><he>מ</he></cite> for <cite ref=\"M00003\"><he>מא</he></cite>) [<i>noticeable</i>,] <i>something; anything</i> (corresp. to h. <cite ref=\"M00011\"><he>מְאוּם</he></cite>, <cite ref=\"M00355\"><he>מְאוּמָה</he></cite> or <cite ref=\"D00077\"><he>דָּבָר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:7\">Targ. Job XXXI, 7</cite>. ",
+				"<cite ref=\"Onkelos Genesis 22:12\">Targ. Gen. XXII, 12</cite> (Y. Levita <cite ref=\"M01720\"><he>מִנְדַּעַם</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 17:1\">Targ. Deut. XVII, 1</cite>; a. fr.—",
+				"<cite ref=\"Bekhorot 51b:6\">Bekh. 51ᵇ</cite> <he>מי׳ ביש עבדת</he> (Rashi a. Tosaf.) thou didst something wrong (in giving the redemption money with the expectation of getting it refunded). ",
+				"<cite ref=\"Sanhedrin 55a:14\">Snh. 55ᵃ</cite> <he>אמי׳ אחרינא וכ׳</he> for doing something else (unnatural gratification) he ought not to be punished. Tanḥ. Ḥuck. 2 <he>מן מ׳ מסאבא</he> from anything unclean. ",
+				"<cite ref=\"Bava Batra 123a:12\">B. Bath. 123ᵃ</cite> <he>לא מהניא … ולא מ׳</he> (Ms. M. <cite ref=\"M01094\"><he>מידי</he></cite>) would Joseph have been given no preference whatever?; a. e.—V. <cite ref=\"M01094\"><he>מִידֵּי</he></cite>, <cite ref=\"M01096\"><he>מֵידַם</he></cite>."
+			]
+		}
+	]
+}

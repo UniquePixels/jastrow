@@ -1,0 +1,51 @@
+{
+	"id": "K00763",
+	"slug": "כלם-2",
+	"headword": {
+		"text": "כְּלַם"
+	},
+	"page": {
+		"number": 644,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K00762\">same</cite>.[<cite ref=\"Targum Jonathan on Deuteronomy 29:4\">Targ. Y. Deut. XXIX, 4</cite> <he>כלמו</he>, Var. <he>בלמו</he>, read: <he>בָּלַת</he> or <he>בְּלִיאוּ</he>, v. <cite ref=\"B00855\"><he>בְּלֵי</he> I.</cite>]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַכְלֵם"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"K00762\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 20:34\">Targ. I Sam. XX, 34</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 1:16\">Ib. I, 16</cite>; a. e.—",
+						"<cite ref=\"Bava Kamma 86a:20\">B. Kam. 86ᵃ</cite> bot. <he>דמַכְלְמוּ ליה ומִיכְּלֵם</he> when you rebuke the child and he shrinks back in shame; <cite ref=\"Bava Kamma 86b\">ib. 86ᵇ</cite> (not <he>דמיכלמו</he>).—Part. pass. <he>מַכְלַם</he>. Y. Yeb. XII, 12ᵈ bot. <he>והיא מַכְלְמָה עלך</he> and she (the young woman) will be put to shame on account of thee (the old man); <cite ref=\"Yoma 2a:7\">ib.</cite> <he>והוא מכלמה וכ׳</he> (read: <he>מַכְלַם</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְכַּלֵּם"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְכְּלַם", "אִיכְּלַם"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"K00762\">preced.</cite> <i>Nif.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 12:14\">Targ. O. Num. XII, 14</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 10:5\">Targ. II Sam. X, 5</cite>; a. e.—B. Kam. l. c., v. supra."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "R00131",
+	"slug": "צהב-2",
+	"headword": {
+		"text": "צְהַב"
+	},
+	"page": {
+		"number": 1264,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00130\">same</cite>; <i>part. pass</i>. <he>צְהִיב</he> <i>grieved</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 9\">Lev. R. s. 9</cite> [read:] <he>כדו דאפיך צְהִיבִין וכ׳</he> now that you grieve so much, we will go with you &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַהֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to grieve, provoke</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 1:6\">Targ. I Sam. I, 6</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַצְהֵיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be angry</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 3:6:1\">Koh. R. to III, 6</cite> <he>עבד גרמיה מַצְהִיב עם בריה</he> he pretended to be angry with his son."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

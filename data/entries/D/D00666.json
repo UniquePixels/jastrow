@@ -1,0 +1,32 @@
+{
+	"id": "D00666",
+	"slug": "דיסתורא",
+	"headword": {
+		"text": "דִּיסְתּוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיסְתּוֹרָן"
+		},
+		{
+			"text": "דִּיסְטוֹרִין"
+		},
+		{
+			"text": "דִּסְ׳"
+		}
+	],
+	"page": {
+		"number": 303,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " pl. m. (Dithpe. or Dispe. of <he>אסר</he>; v. <cite ref=\"D00665\">preced.</cite>) <i>a binding relation, the relation of a serf or peasant, a sort of tenancy</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 28a:19\">Arakh. 28ᵃ</cite> <he>סגיא ליה בדיסתורן</he> ed. (Ar. a. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 678\">Yalk. Lev. 678</cite> <he>דיסטורין</he>) (when consecrating all of his fields) he may still make a living by working as a serf. ",
+				"<cite ref=\"Kiddushin 60b:21\">Kidd. 60ᵇ</cite> <he>דנקיט בדיסתורא</he> ed. (Ar. <he>דסטורין</he>) when he holds the land shown to her as a peasant (but owns it not)."
+			]
+		}
+	]
+}

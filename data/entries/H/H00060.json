@@ -1,0 +1,22 @@
+{
+	"id": "H00060",
+	"slug": "חביונה",
+	"headword": {
+		"text": "חֶבְיוֹנָה"
+	},
+	"page": {
+		"number": 418,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (dimin. of <cite ref=\"H00080\"><he>חָבִית</he></cite>) <i>a small vessel, flask</i> with flat sides.—Pl. <he>חֶבְיוֹנוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:2\">Kel. II, 2</cite>; <cite ref=\"Tosefta Kelim Kamma 2:2\">Tosef. Kel. B. Kam. II, 2</cite> <cite ref=\"A00120\"><he>אֶבְיוֹנוֹת</he></cite> (ed. Zuck. <cite ref=\"A00525\"><he>אובינות</he></cite>)."
+			]
+		}
+	]
+}

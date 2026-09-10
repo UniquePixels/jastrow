@@ -1,0 +1,24 @@
+{
+	"id": "G00438",
+	"slug": "זכאה-2",
+	"headword": {
+		"text": "זַכָּאָה",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 397,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. a. f. ch. (<cite ref=\"G00437\">preced.</cite>, v. <cite ref=\"G00441\"><he>זַכַּאי</he></cite>) <i>clear, innocent</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 2:7\">Targ. Ps. II, 7</cite>. ",
+				"<cite ref=\"Onkelos Numbers 5:19\">Targ. Num. V, 19</cite>; a. e.—Pl. <he>זַכָּאִין</he>, v. <cite ref=\"G00441\"><he>זַכַּאי</he></cite> ch."
+			]
+		}
+	]
+}

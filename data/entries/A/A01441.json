@@ -1,0 +1,32 @@
+{
+	"id": "A01441",
+	"slug": "איסטיס-2",
+	"headword": {
+		"text": "אִיסָטִיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסָּטִיס"
+		},
+		{
+			"text": "סָטִיס"
+		}
+	],
+	"page": {
+		"number": 55,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἰσάτις, isatis tinctoria) <i>a plant producing a deep blue dye, woad</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:1\">Shebi. VII, 1</cite>. Y. ib. 37ᵇ <cite ref=\"A02370\"><he>אסטים</he></cite> (corr. acc.). ",
+				"<cite ref=\"Bava Kamma 101b\">B. Kam. 101ᵇ</cite> <he>אס׳</he> Ar. (ed. <he>סטיס</he>, <cite ref=\"O00489\"><he>סטים</he></cite>; corr. acc.). ",
+				"<cite ref=\"Mishnah Megillah 4:7\">Meg. IV, 7</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "H01319",
+	"slug": "חנף-1",
+	"headword": {
+		"text": "חָנַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָנֵף"
+		}
+	],
+	"page": {
+		"number": 484,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to bend, decline</i> from the right path,] <i>to be insincere, to flatter; to show favor in court; to deceive</i>. ",
+			"units": [
+				"<cite ref=\"Tractate Derekh Eretz Zuta 2:8\">Der. Er. Zuta ch. II</cite> <he>אֶחְנוֹף לזה וכ׳</he> I will flatter (lower myself before) this one that he may give me to eat &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחְנִיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01318\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sotah 41b:6\">Sot. 41ᵇ</cite> <he>הִחְנִיפוּ לו וכ׳</he> thy flattered Agrippa (saying to him, ‘Thou art our brother’). ",
+						"<cite ref=\"Sotah 41b:8\">Ib.</cite> <he>מותר להַחְנִיף וכ׳</he> it is permissible to flatter (submit to the power of) the wicked &c. Y. Ber. VII, 11ᶜ. ",
+						"<cite ref=\"Pesikta Rabbati 25:1\">Pesik. R. s. 25</cite> (ref. to <cite ref=\"Isaiah 24:5\">Is. XXIV, 5</cite>) <he>הבריות מַהֲנִיפִים זה לזה</he> men deal insincerely with one another; <he>והוא מַחֲנִיפוֹ וכ׳</he> and he puts him (the priest or Levite) off with deceptive intent, and says &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

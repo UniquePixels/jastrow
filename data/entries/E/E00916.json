@@ -1,0 +1,22 @@
+{
+	"id": "E00916",
+	"slug": "השחרה",
+	"headword": {
+		"text": "הַשְׁחָרָה"
+	},
+	"page": {
+		"number": 369,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"U00711\"><he>שַׁחַר</he></cite>) <i>getting up early; early work, study</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19:1\">Lev. R. s. 19</cite>, beg., v. <cite ref=\"E00723\"><he>הַעֲרָבָה</he></cite>."
+			]
+		}
+	]
+}

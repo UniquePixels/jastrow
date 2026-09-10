@@ -1,0 +1,71 @@
+{
+	"id": "G00173",
+	"slug": "זול-1",
+	"headword": {
+		"text": "זוּל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 386,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., v. <cite ref=\"G00498\"><he>זָלַל</he></cite>) <i>to be of slight value, to be cheap; to be despicable, mean</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 55b:9\">Sabb. 55ᵇ</cite> (play on <he>פ̇ח̇ז̇</he>, <cite ref=\"Genesis 49:4\">Gen. XLIX, 4</cite>) <he>פ̇זתה ח̇בתה זַֹלְתָּה</he> (not <cite ref=\"G00503\"><he>זלתא</he></cite>, v. Rabb. D. S. a. l. note 300) thou wast rash, becamest guilty, degradedst thyself. ",
+				"<cite ref=\"Sanhedrin 98a:6\">Snh. 98ᵃ</cite> <he>מלכות הַזָּלָה</he> the despicable (Roman) government (Rashi: ‘the slightest trace of tyranny’).—2) (cmp. <cite ref=\"B00220\"><he>בּוּז</he></cite>) <i>to squander, be excessive in sensual enjoyments, be dissolute</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 10:1\">Num. R. s. 10</cite> (ed. Amst. p. 240ᵃ) <he>חבורה של זָלִין</he> a company of dissolute men.—<i>Polel</i> <cite ref=\"G00179\"><he>זוֹלֵל</he></cite>, only as part. "
+			]
+		},
+		{
+			"gloss": "<i>low, mean</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Mishlei 2:1-2\">Midr. Prov. to II, 4</cite> (ref. to <cite ref=\"Jeremiah 15:19\">Jer. XV, 19</cite>) <he>כל … להוציא ד״ת מז׳</he> he who succeeds in making the words of the Law come forth from a low man (who educates an abandoned person).—",
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>נעשה העולם זוֹלֵלָה</he> the world became an object reduced in value."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>spendthrift, glutton</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 219:4\">Sifré Deut. 219</cite> <he>ז׳ בבשר</he> <i>zolel</i> (<cite ref=\"Deuteronomy 21:20\">Deut. XXI, 20</cite>) refers to excesses in eating meat (v. ",
+				"<cite ref=\"Mishnah Sanhedrin 8:2\">Snh. VIII, 2</cite>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵזִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to become cheap, fall in price</i>. Y. Keth. XII, beg. 34ᵈ <he>היו ביוקר והֵזִילוּ</he> if provisions were dear and fell in price.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to treat with contempt</i>. ",
+					"units": [
+						"<cite ref=\"Tractate Derekh Eretz Rabbah 2:4\">Treat. Der. Er. ch. II</cite> <he>מְזִילֵי הרבים</he> those who treat the public &c. [<cite ref=\"Bava Batra 25a\">B. Bath. 25ᵃ</cite>, v. <cite ref=\"N00454\"><he>נָזַל</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּזָל"],
+			"senses": [
+				{
+					"gloss": "<i>to fall in price</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 5:8\">B. Mets. V, 8</cite> <he>והוּזְלוּ</he> and (the wheat) fell. ",
+						"<cite ref=\"Bava Metzia 75a\">Ib. 75ᵃ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

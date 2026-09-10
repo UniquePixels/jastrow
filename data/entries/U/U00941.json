@@ -1,0 +1,28 @@
+{
+	"id": "U00941",
+	"slug": "שילוח-3",
+	"headword": {
+		"text": "שִׁילוֹחַ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁילוֹחָא"
+		}
+	],
+	"page": {
+		"number": 1563,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00940\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:5\">Targ. Koh. II, 5</cite> (ed. Vien. <cite ref=\"U00939\"><he>שִׁילוּח</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 8:6\">Targ. Is. VIII, 6</cite> (ed. Wil. <he>שִׁלוֹ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 1:33\">Targ. I Kings I, 33</cite>; <cite ref=\"Targum Jonathan on I Kings 1:38\">38</cite> (h. text <cite ref=\"C00693\"><he>גיחון</he></cite>).—",
+				"<cite ref=\"Sanhedrin 94b:5\">Snh. 94ᵇ</cite> (fr. Targ. Is. l. c.)."
+			]
+		}
+	]
+}

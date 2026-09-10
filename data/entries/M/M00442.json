@@ -1,0 +1,34 @@
+{
+	"id": "M00442",
+	"slug": "מוזא",
+	"headword": {
+		"text": "מוֹזָא"
+	},
+	"page": {
+		"number": 740,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זא</he>; cmp. <cite ref=\"G00002\"><he>זָאזָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>chaff</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 1:4\">Targ. Ps. I, 4</cite>; a. e., v. <cite ref=\"M00571\"><he>מוֹצָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " *<he>מ׳ דשמכי</he> <i>leaves of onions, leek</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 52b\">Kidd. 52ᵇ</cite> <he>מ׳ דש׳</he> (Ar. <he>מ׳ דירקא</he>, a gloss to <he>מ׳ דש׳</he>; Rashi: <i>a handful</i> of onions)."
+			],
+			"label": "2"
+		}
+	]
+}

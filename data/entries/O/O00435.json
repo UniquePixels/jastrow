@@ -1,0 +1,36 @@
+{
+	"id": "O00435",
+	"slug": "סורסי",
+	"headword": {
+		"text": "סוּרְסִי"
+	},
+	"page": {
+		"number": 970,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01646\"><he>סָרַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. meanings of ἀπόκοπος a. ἀποκοπή) [<i>castrated</i>,] <he>לשון ס׳</he> <i>aphæresis, dropping of a radical letter</i>. Mekh. Bo, s. 3; <cite ref=\"Pesachim 61a:10\">Pes. 61ᵃ</cite>; Y. ib. V, 32ᵃ bot. expl. <he>תכסו</he> (<cite ref=\"Exodus 12:4\">Ex. XII, 4</cite>) = <he>תנכסו</he>, v. <cite ref=\"N00836\"><he>נָכַס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 42:8\">Ex. R. s. 42</cite>, end <he>לשון סרדיוטין</he> (corr. acc.), v. <cite ref=\"M01945\"><he>מַסֵּכָה</he> III</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (a contemptuous perversion of <he>סוּרְיִי</he>) <he>לשון ס׳</he> <i>Syrian</i>, in gen. <i>Aramæan language</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 49b:11\">Sot. 49ᵇ</cite>; <cite ref=\"Bava Kamma 82b\">B. Kam. 82ᵇ</cite> sq. <he>בא״י ל׳ ס׳ למה וכ׳</he> what has the Syrian tongue to do in Palestine? Speak either Hebrew or Greek. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:2:3\">Y. Sot. VII, 21ᶜ</cite> top <he>לא יהא ל׳ ס׳ קל וכ׳</he> do not despise the Syrian language, for it is employed in the Torah (<cite ref=\"Genesis 31:47\">Gen. XXXI, 47</cite>) &c.; <cite ref=\"Bereishit Rabbah 74:17\">Gen. R. s. 74</cite> <he>פרסי</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 130:15\">Yalk. Gen. 130</cite> <he>פרסי</he> (corr. acc.); (<cite ref=\"Yalkut Shimoni on Nach 286\">Yalk. Jer. 286</cite>; Yalk. Dan. 1060 <he>ארמי</he>). Y. Sot. l. c.; Y. Meg. I, 71ᵇ bot., v. <cite ref=\"A01288\"><he>אִילְיָא</he></cite>; <cite ref=\"Esther Rabbah 4:12\">Esth. R. to I, 22</cite> <he>פרסי</he> (corr. acc.).—Pl. <cite ref=\"O00435\"><he>סוּרְסִין</he></cite> <i>Syrian cakes</i>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:4:10\">Y. Pes. II, 29ᵇ</cite> bot.; v. <cite ref=\"O01632\"><he>סְרִיקִין</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

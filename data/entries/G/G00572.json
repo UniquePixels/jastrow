@@ -1,0 +1,29 @@
+{
+	"id": "G00572",
+	"slug": "זנונים",
+	"headword": {
+		"text": "זְנוּנִים"
+	},
+	"page": {
+		"number": 406,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; <cite ref=\"G00569\"><he>זָנָה</he></cite>)<i>prostitution;</i> <he>בני ז׳</he> <i>children begotten in prostitution</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 87a:14\">Pes. 87ᵃ</cite> bot. <he>בני ז׳</he>; <cite ref=\"Pesachim 87b:5\">ib. 87ᵇ</cite> <he>ובניך בני ז׳</he> Ms. M. (ed. <he>בנים ז׳</he>, <he>ובניך ז׳</he>, v. <cite ref=\"G00582\"><he>זָנַן</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sensuality</i>. Ib. 111ᵃ <he>אחדא … רוח ז׳</he> sexual passion will seize him (her).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

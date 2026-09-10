@@ -1,0 +1,128 @@
+{
+	"id": "Q00934",
+	"slug": "פלג-1",
+	"headword": {
+		"text": "פָּלַג"
+	},
+	"page": {
+		"number": 1175,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to separate, split</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְלִיג"],
+			"senses": [
+				{
+					"gloss": "<i>to part, go away</i>. Y. Ber. I, 2ᵈ bot. <he>ומצאו שה׳ אף הוא ה׳</he> (not <he>עוד</he>) and finding that he (the friend that had knocked at the door) had withdrawn, he withdrew likewise.—Esp. <i>to go to sea</i> (cmp. <cite ref=\"Q00669\"><he>פִּילָגוֹס</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 4:1\">Erub. IV, 1</cite> <he>הִפְלִיגָה ספינתם בים</he> their ship went out on the open sea. ",
+						"<cite ref=\"Shabbat 19a:8\">Sabb. 19ᵃ</cite> <he>אין מַפְלִיגִין בספינה וכ׳</he> you must not start on a sea-voyage less than three days before the Sabbath; <cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16</cite>, beg. <he>אין מפליגין בספינה בים הגדול</he> (contrad. to <cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite> along the sea coast)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <he>ה׳ ממלאכה</he> (or sub. <he>ממלאכה</he>) <i>to rest from work; to pause</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 30:3\">Lev. R. s. 30</cite> <he>לכשיַפְלִיג</he>, v. <cite ref=\"L00700\"><he>לָקַשׁ</he></cite>. ",
+						"<cite ref=\"Tosefta Berakhot 4:21\">Tosef. Ber. IV, 21</cite> <he>הִפְלִיגוּ צריכין וכ׳</he> (not <cite ref=\"R00773\"><he>צריך</he></cite>) when the laborers take a recess, they must say the benediction for what they have been eating while at work. Y. Yoma III, 40ᵇ bot. <he>להפליג</he>, v. <cite ref=\"E00749\"><he>הֶפְלֵג</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to divert, put off; to discard</i>. Bab. ib. 66ᵇ <he>לא מפני שהִפְלִיגָן בדברים וכ׳</he> (he made an evasive reply) not because he desired to divert their minds with words (counterquestions), but because he never said anything that he had not heard from his teacher; <cite ref=\"Tosefta Yevamot 3:4\">Tosef. Yeb. III, 4</cite>; <cite ref=\"Sukkah 27b\">Succ. 27ᵇ</cite>. Y. Ab. Zar. II, 40ᶜ bot. <he>אם שאלו … יַפְלִיגֶינּוּ כשם שה׳ וכ׳</he> if he asks him whither he is going, let him put him off (state a distant destination), as did Jacob to Esau; <cite ref=\"Tosefta Avodah Zarah 3:4\">Tosef. Ab. Zar. III, 4</cite> <he>מַפְלִיגוֹ</he>. ",
+					"units": [
+						"<cite ref=\"Tosefta Gittin 7:8\">Tosef. Gitt. VII</cite> (<cite ref=\"Tosefta Gittin 5:8\">V</cite>), 8 <he>כל תנאי שאי אפשר … לא נתכוון זה אלא להַפְלִיגָהּ</he> whenever an impossibility is made the condition of a letter of divorce, he (the husband) has had only the intention to divert her mind; Y. B. Mets. VII, end, 11ᶜ (corr. acc.). Y. Ber. IX, end, 14ᵈ <he>כיון שה׳ דעתו ממנה</he> when he turns his attentions from her (makes her feel that he does not intend to marry her). ",
+						"<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite> <he>ראה … והִפְלִיגָהּ ממנו</he> when he saw her full mucus and blood, he kept her away from him; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to reject, disregard, discard</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>היתה פושעת … ומַפְלֶגֶת את גזירותיו</he> she was careless about his honor and disregarded his decrees. ",
+						"<cite ref=\"Pesikta Rabbati 3\">Ib. s. 3</cite> [read:] <he>כל זמן … הוא מַפְלִיג וכ׳</he> as long as his teacher is alive, he (the pupil) is careless, (saying) whenever it be needed, here is my teacher &c. ",
+						"<cite ref=\"Pirkei Avot 4:3\">Ab. IV, 3</cite> <he>אל תהי מפליג לכל דבר</he> discard nothing (saying, this will never happen). ",
+						"<cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite> <he>ה׳ דרכן של רשעים וכ׳</he> he removed the way of the wicked out of his sight (disregarded the evil doings of the future man); <cite ref=\"Midrash Tehillim 1:11\">Midr. Till. to Ps. I</cite> ed. Bub. (oth. ed. <cite ref=\"Q00934\"><he>פִּילֵּג</he></cite> <i>Pi.</i>); a. e."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to decline from the road</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 48:9\">Gen. R. s. 48</cite> <he>אם אני רואה אותן שהִפְלִיגוּ את דרכם וכ׳</he> when I see that they wend their way hither &c.; <he>וכיון שראה אותם שהפליגו</he> and when he saw that they were declining; Yalk. ib. 82.—Trnsf. <i>to be mistaken</i>. ",
+						"<cite ref=\"Bekhorot 43b:18\">Bekh. 43ᵇ</cite> bot. <he>הִיפְלַגְתָּ</he> thou art mistaken (Rashi: thou hast gone too far, v. infra); Sifra Emor, ch. II, Par. 3 <he>הִפְלַגְתָּה</he>.—",
+						"<cite ref=\"Kohelet Rabbah 11:9:1\">Koh. R. to XI, 9</cite> <he>אל תַּפְלִיג עצמך בדברי תורה</he> do not go thy own way in the interpretation of the Law (cling to tradition)."
+					],
+					"label": "5"
+				},
+				{
+					"gloss": " <he>ה׳ עצמו</he> [<i>to withdraw one’s self</i>,] <i>to be reserved, speak in indefinite and general terms</i>, opp. <he>פרסם עצמו</he> to reveal one’s self, speak in definite terms. Midr. Sam. ch. XIV (ref. to <cite ref=\"I Samuel 9:15\">I Sam. IX, 15</cite>, sq.) <he>לשעבר לא אלא עד שלא הגיע הקץ הקב״ה מפליג עצמו … מפרסם עצמו</he> did the Lord never before reveal anything to Samuel? But before the proper time has come, the Lord speaks reservedly, when the time has come, he reveals himself clearly (‘to-morrow’ &c.)",
+					"units": [],
+					"label": "6"
+				},
+				{
+					"gloss": "<i>to differ</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 320:1\">Yalk. Jer. 320</cite> <he>מי שמפליג על דבריו של אל</he> who opposes the words of God. Y. Pes. V, 32ᶜ bot. <he>ומה מַפְלִיגִין</he> and wherein do they differ?; a. e."
+					],
+					"label": "7"
+				},
+				{
+					"gloss": "<i>to go too far</i>. Y. Nidd. I, beg. 48ᵈ, v. <cite ref=\"Q01744\"><he>פָּרַז</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 43b\">Bekh. 43ᵇ</cite> bot.; Sifra Emor l. c., v. supra.—<i>Part. pass.</i> <he>מוּפְלָג</he> "
+					],
+					"label": "8",
+					"senses": [
+						{
+							"gloss": " <i>removed; far</i>. Sifra M’tsorʿa, Zab., Par. 5, ch. VIII <he>מ׳ מנידתה</he> some time after her menstruation, opp. <cite ref=\"O01067\"><he>סמוך</he></cite>; <cite ref=\"Niddah 73a\">Nidd. 73ᵃ</cite> <he>מ׳ לנדתה</he>. ",
+							"units": [
+								"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite>, v. <cite ref=\"A01044\"><he>אחַר</he></cite>; a. e.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>distinguished, special expert</i>. ",
+							"units": [
+								"<cite ref=\"Tosefta Chagigah 2:9\">Tosef. Ḥag. II, 9</cite>, v. <cite ref=\"M00564\"><he>מוּפְלָא</he></cite>.—",
+								"<cite ref=\"Eruvin 63a:11\">Erub. 63ᵃ</cite> <he>דמופלג</he>, v. <cite ref=\"Q00935\">next w.</cite>"
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["פִּלֵּג"],
+			"senses": [
+				{
+					"gloss": "<i>to remove, disregard</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 1:11\">Midr. Till. to Ps. I</cite>, v. supra."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְפַּלֵּג"],
+			"senses": [
+				{
+					"gloss": "<i>to be divided, go apart</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 15:6\">Gen. R. s. 15</cite> <he>וכל מימי בראשית מִתְפַּלְּגִין מתחתיו</he> and all the waters of creation started from under it; <cite ref=\"Midrash Tehillim 1:11\">Midr. Till. to Ps. I</cite>; Y. Ber. I, 2ᶜ bot., v. <cite ref=\"Q00673\"><he>פִּילּוּג</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

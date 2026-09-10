@@ -1,0 +1,22 @@
+{
+	"id": "U01841",
+	"slug": "שקורה",
+	"headword": {
+		"text": "שְׁקוּרָה"
+	},
+	"page": {
+		"number": 1621,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>sh’ḳurah</i>, a substitute for <cite ref=\"U00081\"><he>שְׁבוּעָה</he></cite>, v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:2:3\">Y. Ned. I, 37ᵃ</cite> top."
+			]
+		}
+	]
+}

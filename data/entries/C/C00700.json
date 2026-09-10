@@ -1,0 +1,32 @@
+{
+	"id": "C00700",
+	"slug": "גיי",
+	"headword": {
+		"text": "גְּיֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 237,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C00700\"><he>גַּיֵּי</he></cite> (cmp. <cite ref=\"C00015\"><he>גאי</he></cite>) <i>to manifest power, treat with rigor</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite> <he>הן דמחיית גַּיַּית</he> where Thou strikest, Thou showest Thy power (crushest; Rashi a. l. <cite ref=\"C00557\"><he>גַּזְיַת</he></cite> thou cuttest; <cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite>; Pesik. Shor 74ᵃ; Tanḥ. Emor 6 <he>את מדקדק</he>). V. <cite ref=\"C00847\"><he>גֵּיתִי</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

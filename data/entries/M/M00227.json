@@ -1,0 +1,23 @@
+{
+	"id": "M00227",
+	"slug": "מגרש",
+	"headword": {
+		"text": "מִגְרָשׁ"
+	},
+	"page": {
+		"number": 730,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C01403\"><he>גָּרַשׁ</he></cite>)<i>open space outside of a place</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 21:8\">Gen. R. s. 21</cite>, end (ref. to <cite ref=\"Genesis 3:24\">Gen. III, 24</cite>) <he>למִגְרָשָׁהּ של עדן וכ׳</he> he drove him out to the open outskirts of the garden of Eden. ",
+				"<cite ref=\"Makkot 12a:7\">Macc. 12ᵃ</cite>, a. e. <he>אין עושין שדה מ׳ וכ׳</he> you must not change a cultivated field (outside of a town of refuge into an open space &c."
+			]
+		}
+	]
+}

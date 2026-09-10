@@ -1,0 +1,29 @@
+{
+	"id": "H00906",
+	"slug": "חיתית",
+	"headword": {
+		"text": "חִיתִּית"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִתִּ׳"
+		}
+	],
+	"page": {
+		"number": 461,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. = <he>חתתית</he>; <cite ref=\"H01913\"><he>חָתַת</he></cite>)<i>being broken, subdued;</i> esp. <i>dread inspired by superiors, fear</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite> (ref. to <cite ref=\"Genesis 9:2\">Gen. IX, 2</cite>, compared with I, 28) <he>מורא וח׳ חזרו</he> (not <he>וחתות</he>) the fear and dread (of man) were restored (after the deluge), but subjection was not. ",
+				"<cite ref=\"Rosh Hashanah 17a:4\">R. Hash. 17ᵃ</cite> (applying <cite ref=\"Ezekiel 32:24\">Ez. XXXII, 24</cite> sq.) <he>שנתנו חִיתִּיתָם וכ׳</he> those (leaders) who tyrannize the land of the living.—",
+				"<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite>; <cite ref=\"Kohelet Rabbah 12:5\">Koh. R. to XII, 5</cite> (ref. to <he>חתחתים</he>, <cite ref=\"Kohelet Rabbah 12:5\">ib.</cite>) [read:] <he>חִיתִּיתָהּ של דרך וכ׳</he> the dread of travelling befalls him."
+			]
+		}
+	]
+}

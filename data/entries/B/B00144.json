@@ -1,0 +1,29 @@
+{
+	"id": "B00144",
+	"slug": "בדין-2",
+	"headword": {
+		"text": "בִּדִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּידִּין"
+		}
+	],
+	"page": {
+		"number": 140,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(h. <he>בַּדִּים</he>; v. <he>בדד</he>, <cite ref=\"B00129\"><he>בדי</he></cite>)<i>fictions</i>, whence <i>lying oracles;</i> trnsf. <i>conjurers</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 44:25\">Targ. Is. XLIV, 25</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 20:27\">Targ. Lev. XX, 27</cite>; a. fr."
+			]
+		}
+	]
+}

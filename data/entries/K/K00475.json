@@ -1,0 +1,54 @@
+{
+	"id": "K00475",
+	"slug": "כי-3",
+	"headword": {
+		"text": "כִּי"
+	},
+	"page": {
+		"number": 630,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <he>כּ־</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>like</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 35b:12\">Sot. 35ᵇ</cite> <he>כי סיד</he> like lime. Y. Yeb. XVI, end, 16ᵃ <he>כי חיה</he> like a lying-in woman; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>when</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 9:9\">Ex. R. s. 9</cite>, beg. (ref. to <cite ref=\"Exodus 7:9\">Ex. VII, 9</cite>) … <he>אם ידבר אלא כי וכ׳</he> it does not read, ‘<i>if</i> Pharaoh …, but <i>when</i> …; he <i>will</i> say so. ",
+				"<cite ref=\"Rosh Hashanah 3a:12\">R. Hash. 3ᵃ</cite>, v. <cite ref=\"A01111\"><he>אִי</he> II</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " so, <i>thus</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 3:1:2\">Y. Ḥag. III, 77ᵇ</cite> <he>וכי היה המעשה</he> and thus it came to pass. ",
+				"<cite ref=\"Mishnah Yevamot 8:3\">Yeb. VIII, 3</cite> <he>לא כי הלכה וכ׳</he> (some ed. <he>לא כי אלא וכ׳</he>) it is not so; I am reciting a Halakhah. ",
+				"<cite ref=\"Mishnah Shekalim 1:4\">Shek. I, 4</cite> <he>לא כי אלא וכ׳</he> it is not so, but &c. ",
+				"<cite ref=\"Bava Kamma 25b\">B. Kam. 25ᵇ</cite>; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>for</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 87b:6\">Yoma 87ᵇ</cite> (quoting from a prayer) <he>כי עונותינו וכ׳</he> for our iniquities are &c."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " <he>וְכִי</he> (introducing a question to which a negative answer is expected) <i>is it really so that?</i> <cite ref=\"Rosh Hashanah 9a:8\">R. Hash. 9ᵃ</cite> <he>וכי בתשעה … והלא וכ׳</he> do we fast on the ninth? Is it not the tenth &c.? <cite ref=\"Shabbat 4a:8\">Sabb. 4ᵃ</cite> <he>וכי אומרים וכ׳</he> dare we say to a man &c.?; <cite ref=\"Menachot 48a\">Men. 48ᵃ</cite>. ",
+			"units": ["<cite ref=\"Yoma 7a:9\">Yoma 7ᵃ</cite>; a. v. fr."],
+			"label": "5"
+		}
+	]
+}

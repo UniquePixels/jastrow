@@ -1,0 +1,40 @@
+{
+	"id": "E00549",
+	"slug": "הלי",
+	"headword": {
+		"text": "הֲלִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲלָא"
+		}
+	],
+	"page": {
+		"number": 352,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (synon. with <cite ref=\"L00014\"><he>לאי</he></cite>, <cite ref=\"L00165\"><he>להי</he></cite>) <i>to be faint, to labor</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 42:4\">Targ. Is. XLII, 4</cite> ed. Lag. (ed. <he>ילהי</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 65:23\">Ib. LXV, 23</cite> <he>יהלון</he> (some ed. <he>יח׳</he>; ed. Lag. <he>ילהון</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:58\">Targ. Jer. LI, 58</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַהֲלֵי"],
+			"senses": [
+				{
+					"gloss": ", <i>Pa.</i> <cite ref=\"E00549\"><he>הַלֵּי</he></cite> <i>to fatigue</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 7:13\">Targ. Is. VII, 13</cite> <he>מַהֲלָן</he> (Buxt. <he>מְהַלָּן</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

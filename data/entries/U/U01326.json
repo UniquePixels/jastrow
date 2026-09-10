@@ -1,0 +1,57 @@
+{
+	"id": "U01326",
+	"slug": "שלים-2",
+	"headword": {
+		"text": "שְׁלִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלִימָא"
+		},
+		{
+			"text": "שְׁלֵי׳"
+		}
+	],
+	"page": {
+		"number": 1584,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01325\"><he>שְׁלֵם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>complete, perfect; whole, unimpaired</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:5\">Targ. Ex. XII, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 2:12\">Targ. Ruth II, 12</cite>. ",
+				"<cite ref=\"Onkelos Genesis 17:1\">Targ. Gen. XVII, 1</cite>. ",
+				"<cite ref=\"Onkelos Genesis 33:18\">Targ. O. ib. XXXIII, 18</cite> (Y. <cite ref=\"U01348\"><he>שָׁלֵם</he></cite>; h. text <cite ref=\"U01348\"><he>שָׁלֵם</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 22:27\">Targ. Y. Lev. XXII, 27</cite> <cite ref=\"U01326\"><he>שלימא</he></cite> the perfect (Jacob); a. fr.—Pl. <cite ref=\"U01327\"><he>שְׁלֵימִין</he></cite>, <he>שְׁלֵימֵי</he>, <he>שַׁלְמִין</he>, <cite ref=\"U01853\"><he>שָׁ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 25:15\">Targ. Deut. XXV, 15</cite>. ",
+				"<cite ref=\"Onkelos Exodus 29:1\">Targ. Ex. XXIX, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:1\">Targ. Ps. CXIX, 1</cite> <he>שְׁלִימֵי אורחא</he> (not <he>אורח־ה</he>; ed. Wil. <he>שְׁלִימֵּי</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 28:10\">Targ. Prov. XXVIII, 10</cite>; a. fr.—<i>Fem.</i> <cite ref=\"U01326\"><he>שְׁלִימָא</he></cite>, <cite ref=\"U01326\"><he>שְׁלֵי׳</he></cite>, <he>שַׁלְמָא</he>, <cite ref=\"U01334\"><he>שְׁלִימְתָּא</he></cite>, <he>שְׁלִמְ׳</he>, <cite ref=\"U01363\"><he>שְׁלֵימְתָּא</he></cite>, <he>שְׁלֵמְ׳</he>. ",
+				"<cite ref=\"Onkelos Leviticus 4:28\">Targ. Lev. IV, 28</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 3:9\">Ib. III, 9</cite> (Y. II <cite ref=\"U01327\"><he>שְׁלֵימָה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Amos 1:6\">Targ. Am. I, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 19:8\">Targ. Ps. XIX, 8</cite>; a. fr.—Pl. <he>שַׁלְמַן</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 27:6\">Targ. Deut. XXVII, 6</cite> (not <he>שלמין</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 25:15\">Ib. XXV, 15</cite> <he>מכילן ש׳</he> (not <he>שלמין</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>peaceful, sincere, friendly.—</i>Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:21\">Targ. Gen. XXXIV, 21</cite> (O. Ms. Vat. 13 <cite ref=\"U01327\"><he>שְׁלֵמִין</he></cite>; ed. Berl. <cite ref=\"U01351\"><he>שְׁלָם</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 20:19\">Targ. II Sam. XX, 19</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

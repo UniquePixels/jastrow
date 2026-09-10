@@ -1,0 +1,23 @@
+{
+	"id": "M00151",
+	"slug": "מגיד",
+	"headword": {
+		"text": "מַגִּיד"
+	},
+	"page": {
+		"number": 727,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00117\"><he>נָגַד</he></cite>) <i>speaker, preacher</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 52b:8\">Pes. 52ᵇ</cite> (play on <cite ref=\"Hosea 4:12\">Hos. IV, 12</cite> <he>ומקלו יגיד לו</he>) <he>כל המיקל לו מ׳ לו</he> whoever makes it easy for him, is his preacher.—Pl. <he>מַגִּידִים</he>, constr. <he>מַגִּידֵי</he>. ",
+				"<cite ref=\"Eruvin 53b:17\">Erub. 53ᵇ</cite>, v. <cite ref=\"P00789\"><he>עֲלָטָה</he></cite>."
+			]
+		}
+	]
+}

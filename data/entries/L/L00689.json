@@ -1,0 +1,24 @@
+{
+	"id": "L00689",
+	"slug": "לקיט-4",
+	"headword": {
+		"text": "לָקִיט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 719,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. pass. of <cite ref=\"L00678\"><he>לְקַט</he></cite>) <i>pinched out, chiselled, in bass-relief</i> (cmp. Syr. <cite ref=\"L00680\"><he>לקטא</he></cite> <i>embroidery</i>, P. Sm. 1970). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:19\">Targ. I Kings VII, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:26\">Ib. 26</cite>; <cite ref=\"Targum of II Chronicles 4:5\">Targ. II Chr. IV, 5</cite> <he>ל׳ כשושנתא</he> chiselled in the shape of a rose."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "U01099",
+	"slug": "שישנא",
+	"headword": {
+		"text": "שִׁישְׁנָא"
+	},
+	"page": {
+		"number": 1570,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Shishna</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 19:1:7\">Y. Sabb. XIX, 16ᵈ</cite> bot. <he>רב ש׳</he> quot. in Alf. (ed. <cite ref=\"U02064\"><he>שׁשעה</he></cite>). ",
+				"<cite ref=\"Gittin 62a:11\">Gitt. 62ᵃ</cite>; <cite ref=\"Menachot 90a:13\">Men. 90ᵃ</cite> <he>רב דימי בר ש׳</he>."
+			]
+		}
+	]
+}

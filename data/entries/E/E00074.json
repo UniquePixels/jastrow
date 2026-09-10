@@ -1,0 +1,32 @@
+{
+	"id": "E00074",
+	"slug": "הגמון",
+	"headword": {
+		"text": "הֶגְמוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶגְמוֹן"
+		}
+	],
+	"page": {
+		"number": 331,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἡγεμών) <i>general</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 9:13\">Targ. Is. IX, 13</cite>; <cite ref=\"Targum Jonathan on Isaiah 19:15\">XIX, 15</cite> (ed. Lag. <he>הֶיגְ׳</he>; h. text <he>זנב</he>).—",
+				"<cite ref=\"Shabbat 145b:14\">Sabb. 145ᵇ</cite> <he>א׳ וקמטון</he> ed. (Ms. O. <he>ה׳</he>; Ms. M. <he>א׳ וקמוטרי</he>, Ar. <he>ה׳ וקומין</he>, read <he>וקמיטיו</he>) a general with his suite (comites). ",
+				"<cite ref=\"Taanit 29a:15\">Taan. 29ᵃ</cite> Ms. M. (ed. <cite ref=\"A00385\"><he>אָדוֹן</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:47\">Y. Snh. I, 19ᵇ</cite> top; a. fr.—Pl. <he>הֶגְמוֹנִים</he>, <he>הֶגְמוֹנִין</he>. Targ. II Esth. VIII, 7.—",
+				"<cite ref=\"Shemot Rabbah 31:3\">Ex. R. s. 31</cite>, end. [Tanḥ. Yithro 5 <he>הגמונות</he>, v <cite ref=\"E00075\"><he>הֶגְמוֹנְיָא</he></cite>.]—Ch. form <cite ref=\"E00070\"><he>הֶגְמוֹנָא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 11a:5\">Ab. Zar. 11ᵃ</cite>"
+			]
+		}
+	]
+}

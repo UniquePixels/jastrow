@@ -1,0 +1,24 @@
+{
+	"id": "P00678",
+	"slug": "עירה",
+	"headword": {
+		"text": "עִירָה"
+	},
+	"page": {
+		"number": 1075,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָרָה</he> II) <i>thread on the shuttle used for the woof, bobbin</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 21:1\">Kel. XXI, 1</cite> <he>ע׳ שאינו עתיד וכ׳</he> a bobbin which the weaver does not intend to shoot back again. ",
+				"<cite ref=\"Tosefta Keilim Batra 1:4\">Tosef. Kel. B. Bath. I, 4</cite> <he>אִירָה</he>.—Pl. <he>עִירִין</he>. ",
+				"<cite ref=\"Bava Kamma 119b\">B. Kam. 119ᵇ</cite> Ar. (ed. <he>אִירִין</he>, v. Rashi a. l.).—V. <cite ref=\"A01602\"><he>אִירָא</he></cite>."
+			]
+		}
+	]
+}

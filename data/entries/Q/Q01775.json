@@ -1,0 +1,30 @@
+{
+	"id": "Q01775",
+	"slug": "פרטטא",
+	"headword": {
+		"text": "פְּרָטָטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרָטָאטָא"
+		},
+		{
+			"text": "פְּרָאטָאטָא"
+		}
+	],
+	"page": {
+		"number": 1225,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (an abbrev.: Pr. T. T.) <i>pro titulo</i> or <i>titulis, whatever be the title</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1:12\">Gen. R. s. 1</cite>; <cite ref=\"Yalkut Shimoni on Torah 2:7\">Yalk. ib. 2</cite> <he>פלן פ׳</he> such and such a name followed by the title."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "D00170",
+	"slug": "דוב-1",
+	"headword": {
+		"text": "דּוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיב"
+		}
+	],
+	"page": {
+		"number": 282,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"G00114\"><he>זוּב</he></cite> , <i>to flow, drip</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:20\">Targ. Ps. LXXVIII, 20</cite> (Var. <he>ודָיְיבַן</he>). ",
+				"<cite ref=\"Onkelos Leviticus 15:25\">Targ. Lev. XV, 25</cite> <he>יִדּוֹב</he>.—Part. <cite ref=\"D00018\"><he>דָּאִיב</he></cite>, <cite ref=\"D00006\"><he>דָּיֵיב</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 15:33\">Ib. 33</cite>.—",
+				"<cite ref=\"Chullin 8b\">Ḥull. 8ᵇ</cite> bot.—",
+				"<cite ref=\"Pesachim 74b:9\">Pes. 74ᵇ</cite> <he>מֵרַב דָּיֵיב</he> it drips. ",
+				"<cite ref=\"Niddah 22a:28\">Nidd. 22ᵃ</cite> <he>עד דמידב ד׳</he> it must be fluid. ",
+				"<cite ref=\"Chullin 133a\">Ḥull. 133ᵃ</cite>"
+			]
+		}
+	]
+}

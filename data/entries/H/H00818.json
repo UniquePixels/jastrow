@@ -1,0 +1,23 @@
+{
+	"id": "H00818",
+	"slug": "חינוגא",
+	"headword": {
+		"text": "חִינּוּגָא"
+	},
+	"page": {
+		"number": 458,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01252\"><he>חַנֵּג</he></cite>, a denom. of <cite ref=\"H01253\"><he>חִנְגָּא</he></cite>) <i>festivity</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 5:15\">Targ. Lam. V, 15</cite>.—Pl. <he>חִינּוּגִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:4\">Ib. I, 4</cite>."
+			]
+		}
+	]
+}

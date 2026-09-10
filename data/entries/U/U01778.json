@@ -1,0 +1,33 @@
+{
+	"id": "U01778",
+	"slug": "שפלות",
+	"headword": {
+		"text": "שִׁפְלוּת"
+	},
+	"page": {
+		"number": 1618,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01777\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": " (b.  h.) <he>ידים</he> <i>lassitude</i>, v. <cite ref=\"U01771\"><he>שָׁפֵל</he> I</cite>. I.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>humility, humiliation</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4<sup>20</sup></cite> <he>אם לפני … צריך אדם לנהוג ש׳ בעצמו וכ׳</he> if a man must conduct himself humbly before a king of flesh and blood, how much more must he do so before the Lord? <cite ref=\"Bamidbar Rabbah 4:20\">Ib.</cite> end <he>היה נוהג בש׳ וכ׳</he> he lived humbly before the Lord. ",
+				"<cite ref=\"Sotah 48a:21\">Sot. 48ᵃ</cite> bot. (ref. to <cite ref=\"Isaiah 5:15\">Is. V, 15</cite>) <he>שגורמין ש׳ לשונאיו של הקב״ה</he> (not <he>לשונאי</he>) they cause humiliation to the enemies of the Lord (euphem. for: to God); <he>ש׳ של ישראל</he> the humiliation of Israel; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

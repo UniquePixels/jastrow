@@ -1,0 +1,27 @@
+{
+	"id": "O01481",
+	"slug": "סקיפס",
+	"headword": {
+		"text": "סְקִיפַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁקִי׳"
+		}
+	],
+	"page": {
+		"number": 1020,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"O01476\"><he>סְקִיף</he></cite> or <cite ref=\"U01838\"><he>שְׁקוֹף</he></cite>) <i>one whose occiput has the shape of a lintel</i> (having an angular projection). ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:1\">Bekh. VII, 1</cite> (<cite ref=\"Bekhorot 43a\">43ᵃ</cite>) (Mish. a. Ar. <cite ref=\"U00001\"><he>ש׳</he></cite>). Ib. 43ᵇ <he>ס׳ מאחוריו וכ׳</he> <i>s’ḳifas</i> refers to the hinder part of the head, as people say <he>ש̇ק̇יל פ̇יס̇א</he>, a piece is taken off."
+			]
+		}
+	]
+}

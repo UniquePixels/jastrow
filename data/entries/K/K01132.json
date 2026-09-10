@@ -1,0 +1,22 @@
+{
+	"id": "K01132",
+	"slug": "כרושתינא",
+	"headword": {
+		"text": "כְּרוּשְׁתֵּינָא"
+	},
+	"page": {
+		"number": 665,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>כרושת עינא</he>; v. <cite ref=\"K01131\">preced.</cite>) [<i>with large eye-balls</i>,] name of a species of <i>bats</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 78a\">Sabb. 78ᵃ</cite> ed. (Ms. M. <he>כרושתנא</he>, Ms. O. <he>ברושטינא</he>; Ar. ed. Koh. <cite ref=\"K01278\"><he>כרשתינא</he></cite>)."
+			]
+		}
+	]
+}

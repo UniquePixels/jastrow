@@ -1,0 +1,71 @@
+{
+	"id": "U01882",
+	"slug": "שקף-3",
+	"headword": {
+		"text": "שְׁקַף"
+	},
+	"page": {
+		"number": 1625,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01881\">same</cite><i>to knock, smite together, strike</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 24:10\">Targ. O. Num. XXIV, 10</cite>, v. <cite ref=\"O01494\"><he>סְקַף</he> II</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 25:4\">Targ. Is. XXV, 4</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of the wind) <i>to knock about, blast, drive about</i> (corresp. to h. <he>שדף</he> a. <he>נדף</he>).—Part. pass. <cite ref=\"U01866\"><he>שָׁקִיף</he></cite>, <cite ref=\"U01866\"><he>שְׁקִיף</he></cite>; f. <cite ref=\"U01867\"><he>שְׁקִיפָא</he></cite>; pl. <cite ref=\"U01865\"><he>שְׁקִיפִין</he></cite>; <cite ref=\"U01867\"><he>שְׁקִיפַן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 26:36\">Targ. O. Lev. XXVI, 36</cite>. ",
+				"<cite ref=\"Onkelos Genesis 41:6\">Targ. Gen. XLI, 6</cite>; <cite ref=\"Onkelos Genesis 41:23\">23</cite>; <cite ref=\"Onkelos Genesis 41:27\">27</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁקֵּיף"],
+			"senses": [
+				{
+					"gloss": ", <i>Af.</i> <he>אַשְׁקֵיף</he> ",
+					"units": []
+				},
+				{
+					"gloss": " <cite ref=\"U01881\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 2:10\">Targ. I Sam. II, 10</cite> (h. text <he>ירעם</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 32:13\">Targ. Job XXXII, 13</cite> (h. text <he>ידפנו</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 1:4\">Targ. Ps. I, 4</cite>; a. e.—Part. pass. <he>מְשַׁקַּף</he> or <he>מַשְׁקַף</he>. ",
+						"<cite ref=\"Avodah Zarah 28b:7\">Ab. Zar. 28ᵇ</cite> <he>דלא מ׳</he> Ms. M. (ed. <he>מִשְּׁקִיף</he>, <i>Ithpe.</i>) (wool) that has not been beaten (hatchelled)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"U01881\">preced.</cite> <i>Hif.</i>) <i>to shut</i>.—Part. pass. as ab. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> <he>תרעא מ׳ וכ׳</he> (some ed. <he>משקיף</he>) she finds the door shut, and she opens it."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּקַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be knocked about, driven off</i> (by the wind). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 68:3\">Targ. Ps. LXVIII, 3</cite> <he>היכמא די שְׁקִיף … יִשְׁתּקְּפוּן</he> (not <he>ישקפון</he>) as the smoke is driven, so shall they be driven."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

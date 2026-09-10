@@ -1,0 +1,34 @@
+{
+	"id": "M02437",
+	"slug": "מקפנא",
+	"headword": {
+		"text": "מַקְּפָנָא"
+	},
+	"page": {
+		"number": 831,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נְקַף</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>surrounding, circumvallation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 2:8\">Targ. Lam. II, 8</cite> (h. text <cite ref=\"H00756\"><he>חֵל</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>going around</i>; <he>משיריין מ׳</he> <i>nomadic camps, freebooters</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 33:55\">Targ. O. Num. XXXIII, 55</cite> <he>מש׳ מקפנכין</he> freebooters surrounding you."
+			],
+			"label": "2"
+		}
+	]
+}

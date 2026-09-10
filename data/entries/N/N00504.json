@@ -1,0 +1,53 @@
+{
+	"id": "N00504",
+	"slug": "נחם-2",
+	"headword": {
+		"text": "נְחַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְחֵים"
+		}
+	],
+	"page": {
+		"number": 895,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00503\">same</cite>. [<cite ref=\"Targum Jerusalem, Genesis 35:9\">Targ. Y. II, Gen. XXXV, 9</cite> <cite ref=\"N00497\"><he>נְחִימַת</he></cite> some ed., read: <he>נַחֵימַת</he> <i>Pa.</i>; v. <cite ref=\"C01351\"><he>גְּרַם</he> II</cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַחֵים", "נַחֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to comfort</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 50:21\">Targ. Gen. L, 21</cite> <cite ref=\"N00503\"><he>נָחַם</he></cite> ed. Berl. (v. Berl. Targ. O. II, p. 18). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 61:2\">Targ. Is. LXI, 2</cite>; a. fr.—",
+						"<cite ref=\"Aramaic Targum to Job 2:11\">Targ. Job II, 11</cite> <he>לנַחֲמוּתֵיה</he> to comfort him.—Part. <cite ref=\"M01760\"><he>מְנַחֵם</he></cite>, pl. <he>מְנַחֲמִין</he>, v. <cite ref=\"N00503\">preced.</cite> ",
+						"<cite ref=\"Targum Jonathan on II Samuel 10:3\">Targ. II Sam. X, 3</cite>.—",
+						"<cite ref=\"Ketubot 8b:6\">Keth. 8ᵇ</cite> <he>אתא לנַחוּמֵי צעורי וכ׳</he> he came to console, and he grieved him? Y. Shek. V, 48ᵈ bot., a. e. <he>בעי מְנַחַמְתֵּיה</he> desired to comfort him. ",
+						"<cite ref=\"Sanhedrin 19a:14\">Snh. 19ᵃ</cite> <he>כי מְנַחֲמֵי אחריני וכ׳</he> when others comfort him; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְנַחֵם"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"N00503\">preced.</cite> <i>Nif.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 42:6\">Targ. Job XLII, 6</cite>; a. fr.—Y. l. c. <he>ולא קביל עלוי מִתְנַחֲמָה</he> and would not allow himself to be comforted; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

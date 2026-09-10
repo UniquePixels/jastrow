@@ -1,0 +1,30 @@
+{
+	"id": "R00708",
+	"slug": "צפצף-3",
+	"headword": {
+		"text": "צִפְצֵף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1298,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " * (v. <cite ref=\"R00216\"><he>צוּף</he></cite>) <i>to shine, be bright</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 6:10\">Cant. R. to VI, 10</cite> <he>ראו … שבקעה אורה … כך גאולתן … מְצַפְצֶפֶת</he> they saw the first dawn (v. <cite ref=\"A01272\"><he>אַיָּלָה</he></cite>) whose light burst forth, when R. H. said …, so will the redemption of Israel break forth in brightness; [in parallels, Y. Ber. I, 2ᶜ; <cite ref=\"Midrash Tehillim 22\">Midr. Till. to Ps. XXII</cite>, a. e. our w. is omitted; perh. it ought to read: <he>מְפוֹצֶצֶת</he>, v. <cite ref=\"Q00311\"><he>פּוּץ</he></cite>]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) [of voice, cmp. <he>צנף</he>, <i>to be shrill</i>,] <i>to scream; to chirp</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 16b\">R. Hash. 16ᵇ</cite> sq. <he>יורדין לגיהנם ומְצַפְצְפִין ועולין וכ׳</he> they (the half-wicked) will go down to Gehenna, but when they scream (in prayer), they will be permitted to come up again, as it is written (<cite ref=\"Zechariah 13:9\">Zech. XIII, 9</cite>); (<cite ref=\"Yalkut Shimoni on Nach 582\">Yalk. Zech. 582</cite> Ms. <he>ומצפצפין כמו שעה אחת ועולין</he>, v. Rabb. D. S. a. l. note 9); <cite ref=\"Tosefta Sanhedrin 13:3\">Tosef. Snh. XIII, 3</cite> <he>ומצטפצפין</he> ed. Zuck. (corr. acc.). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 175:2\">Yalk. Kings 175</cite> <he>מְצַפְצֵף</he>; <cite ref=\"Bereishit Rabbah 65:20\">Gen. R. s. 65</cite> <he>מצפצפין</he>, v. <cite ref=\"R00222\"><he>צָוַץ</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 7:8\">Koh. R. to VII, 8</cite> <he>שמעתי בת קול מְצַפְצֶפֶת וכ׳</he> I heard a divine voice shrieking and saying, return &c.; <cite ref=\"Kohelet Rabbah 12:7\">ib. XII, 7</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

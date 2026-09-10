@@ -1,0 +1,23 @@
+{
+	"id": "U00548",
+	"slug": "שורייני",
+	"headword": {
+		"text": "שׁוּרְיָינֵי"
+	},
+	"page": {
+		"number": 1542,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (cmp. <cite ref=\"U01975\"><he>שִׁרְיָינָא</he></cite>) <i>bands;</i> <he>ש׳ דעינא</he> the muscles of the eye. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28b\">Ab. Zar. 28ᵇ</cite> <he>ש׳ דע׳ וכ׳</he> (Var. in Tosaf. <cite ref=\"O00001\"><he>ס׳</he></cite>, cmp. <cite ref=\"O01613\"><he>סִרְיָינָא</he></cite>) the muscles of the eye are connected with (an affection of them has influence on) &c., v. <cite ref=\"A00180\"><he>אֲבַנְתָּא</he></cite>."
+			]
+		}
+	]
+}

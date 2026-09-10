@@ -1,0 +1,26 @@
+{
+	"id": "A00131",
+	"slug": "אבילה",
+	"headword": {
+		"text": "אֲבֵילָה"
+	},
+	"page": {
+		"number": 6,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"A00157\"><he>אֵבֶל</he></cite> <i>mourning</i>. Lam. R. introd., (R. Abbahu 4); v. <cite ref=\"A02229\"><he>אֲנִינָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " fem. of <cite ref=\"A00154\"><he>אָבֵל</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

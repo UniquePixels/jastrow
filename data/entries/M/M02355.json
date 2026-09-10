@@ -1,0 +1,33 @@
+{
+	"id": "M02355",
+	"slug": "מצר-4",
+	"headword": {
+		"text": "מְצַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 827,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M02354\">same</cite> <cite ref=\"Bava Batra 61b:1\">B. Bath. 61ᵇ</cite> top <he>אע״ג דמ׳ ליה מצרי וכ׳</he> although he mentioned in the agreement the outer boundaries of the land. ",
+			"units": [
+				"<cite ref=\"Bava Batra 61b:9\">Ib.</cite> <he>הוה ליה למִימְצַר ליה ולא מ׳</he> he ought to have defined (the parts of the house which he sold), but did not do so. ",
+				"<cite ref=\"Avodah Zarah 70b:10\">Ab. Zar. 70ᵇ</cite> <he>מימר אמר אַמִּצְרֵי דגג קמְצַרְנָא</he> Ms. M. (v. Rashi a. l.) he may say (I stretched my hand over to the neighbor’s roof, because) I wanted to measure the boundary lines on the roof; v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִימְּצַר"],
+			"senses": [
+				{
+					"gloss": " <i>to stretch one’s self</i>. Ib. ed. <he>אִימְּצוּרֵי קא מִמְּצַּרְנָא</he> (not <he>ממצרא</he>; v. Rashi a. l., a. Koh. Ar. Compl. s. v. <cite ref=\"M02352\"><he>מצר</he></cite>; Rashi Var. <he>אומצודי קא ממצדנא</he>, corr. acc.) I stretched myself, v. <cite ref=\"M00395\"><he>מוּג</he></cite> ch.—[<cite ref=\"Bava Batra 6b:9\">B. Bath. 6ᵇ</cite> <he>מִמְּצוּרֵי קא מִמְּצִירְנָא</he>, a gloss borrowed fr. Ab. Zar. l. c.; v. Rabb. D. S. a. l. note 300.]",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

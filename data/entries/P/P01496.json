@@ -1,0 +1,35 @@
+{
+	"id": "P01496",
+	"slug": "עשק-2",
+	"headword": {
+		"text": "עֲשַׁק"
+	},
+	"page": {
+		"number": 1126,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"P01495\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 5:21\">Targ. O. Lev. V, 21</cite> <he>עשק</he> ed. Berl. (oth. ed. <he>אנס</he>). Ib. 23. ",
+				"<cite ref=\"Targum Jonathan on Amos 4:1\">Targ. Am. IV, 1</cite>; a. fr.—Part. pass. <cite ref=\"P01481\"><he>עָשִׁיק</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pervert</i>, v. <he>עָשִׁיק</he> I. I.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <he>יקר</he>) <i>to be outrageously dear</i>, v. <he>עָשִׁיק</he> II.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

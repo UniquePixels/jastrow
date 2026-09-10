@@ -1,0 +1,23 @@
+{
+	"id": "C00100",
+	"slug": "גביעה",
+	"headword": {
+		"text": "גְּבִיעָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 207,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גבע</he>) <i>hump</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 61:7\">Gen. R. s. 61</cite> (Alexander the Great to G’biah, v. <cite ref=\"C00099\">preced.</cite>) <he>אני משוה לך גְּביעָתְךָ</he> Var. (ed. <he>פדחתך</he>) I will level thy hump."
+			]
+		}
+	]
+}

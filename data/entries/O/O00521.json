@@ -1,0 +1,23 @@
+{
+	"id": "O00521",
+	"slug": "סיאנקי",
+	"headword": {
+		"text": "סִיאַנְקֵי"
+	},
+	"page": {
+		"number": 974,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>of Siân</i>, a Persian town. ",
+			"units": [
+				"<cite ref=\"Ketubot 67b:16\">Keth. 67ᵇ</cite> <he>דינרי ס׳</he> (Ar. <he>סְיָינְקֵי</he>, <cite ref=\"G00341\"><he>זְיָינְקֵי</he></cite> Sian (gold) Denars (v. Zuckerm. Talm. Münz., p. 33 note)."
+			]
+		}
+	]
+}

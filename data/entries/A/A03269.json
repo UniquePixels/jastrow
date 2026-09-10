@@ -1,0 +1,23 @@
+{
+	"id": "A03269",
+	"slug": "אשוחי",
+	"headword": {
+		"text": "אֲשׁוּחֵי"
+	},
+	"page": {
+		"number": 127,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Syr. <i>ashuḥa</i> P. Sm. 406, <cite ref=\"U00361\"><he>שוח</he></cite>) prop. <i>the bending, a genus of weak</i> (<i>female</i>) <i>cedar</i>, disting. fr. <cite ref=\"A03047\"><he>ארז</he></cite> male cedar. ",
+			"units": [
+				"<cite ref=\"Shabbat 157a\">Sabb. 157ᵃ</cite> (Ms. M. <he>שִׁיחֵי</he>). [Opin. in Ar. <i>cypresses</i>.]"
+			]
+		}
+	]
+}

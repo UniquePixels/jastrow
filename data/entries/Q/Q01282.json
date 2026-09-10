@@ -1,0 +1,26 @@
+{
+	"id": "Q01282",
+	"slug": "פסיוני-2",
+	"headword": {
+		"text": "פִּסְיוֹנִי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1195,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q01281\">same</cite> <cite ref=\"Jerusalem Talmud Avodah Zarah 3:2:3\">Y. Ab. Zar. III, 42ᵈ</cite> top, v. <cite ref=\"I00134\"><he>טַוָּוסָא</he></cite>.—Pl. <cite ref=\"Q01281\"><he>פִּסְיוֹנִין</he></cite>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 70:5\">Gen. R. s. 70</cite> <he>כמה טווסין … כמה פ׳ אית לי</he> (some ed. <cite ref=\"Q00290\"><he>פּוּסְיָינֵי</he></cite>) how many peacocks, how many pheasants have I!; <cite ref=\"Kohelet Rabbah 7:8\">Koh. R. to VII, 8</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 2:8\">Ib. to II, 8</cite> <cite ref=\"Q00290\"><he>פּוּסְיָאנִין</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"id": "O01573",
+	"slug": "סרח-5",
+	"headword": {
+		"text": "סָרַח",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1024,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. precd.; cmp. <cite ref=\"T00615\"><he>רִיחַ</he></cite>) <i>to evaporate, be decomposed; to decay; to smell badly</i>.—Part. pass. <cite ref=\"O01553\"><he>סָרוּחַ</he></cite>; f. <cite ref=\"O01554\"><he>סְרוּחָה</he></cite>; pl. <he>סְרוּחִים</he>, <he>סְרוּחִין</he>; <cite ref=\"O01552\"><he>סְרוּחוֹת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 3:1\">Ter. III, 1</cite>; a. fr.—Trnsf. "
+			],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"H01211\"><he>חָמַץ</he></cite>) <i>to sin, offend</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 71b:19\">Snh. 71ᵇ</cite>; <cite ref=\"Ketubot 45a:1\">Keth. 45ᵃ</cite> <he>סָרְחָה ולבסוף בגרה</he> if she sinned (had intercourse) and afterwards became of age. ",
+						"<cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13</cite> <he>אם אינה סוֹרַחַת … ואם סורחת מלקה</he> (not <he>סוחרת</he>) is she (the ass whom he rides) is not mischievous, he does not strike her, but if she is, he strikes her; <cite ref=\"Yalkut Shimoni on Torah 554\">Yalk. Lev. 554</cite>; <cite ref=\"Yalkut Shimoni on Nach 959:16\">Yalk. Prov. 959</cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 959:16\">Ib.</cite> <he>שאם יִסְרַח יהא וכ׳</he> to chastise him with them in case he should offend. ",
+						"<cite ref=\"Yoma 75a:15\">Yoma 75ᵃ</cite> <he>הוא ס׳ עלי</he> he (my husband) acted offensively towards me; <he>היא סרחה וכ׳</he> she acted offensively &c. Ib. 77ᵃ <he>סרחה אומתך</he> thy people has degenerated. ",
+						"<cite ref=\"Midrash Tehillim 6:2\">Midr. Till. to Ps. VI</cite> <he>סרחה עליו מדינתו</he> one of his provinces rebelled against him. ",
+						"<cite ref=\"Shemot Rabbah 43:8\">Ex. R. s. 43</cite> <he>סָרַחְתָּ כל הסרחון הזה וכ׳</he> thou hast done all that mischief, and thou criest? <cite ref=\"Shemot Rabbah 42:8\">Ex. R. s. 42</cite> <he>לא היה לכם לִסְרוֹחַ וכ׳</he> you ought not to have sinned either on the second or the third day, but must you sin on the very first day?; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>to become senseless</i> (cmp. <cite ref=\"I00611\"><he>טַעַם</he></cite>); <i>to be stupid</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (<cite ref=\"Sotah 49b:3\">49ᵇ</cite>) <he>והכמות סופרים תִּסְרַח</he> (or <he>תִּסָּרֵחַ</he> <i>Nif.</i>) and the wisdom of the scholars shall become vapid (v. ",
+						"<cite ref=\"Jeremiah 49:7\">Jer. XLIX, 7</cite>); <cite ref=\"Sanhedrin 97a\">Snh. 97ᵃ</cite>; <cite ref=\"Shir HaShirim Rabbah 2:13\">Cant. R. to II, 13</cite>; Yalk. Am. 549.—Part. pass. as ab. ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:8\">Cant. R. to IV, 8</cite> <he>דיעה ס׳ וכ׳</he> that senseless fool &c., v. <cite ref=\"D00943\"><he>דֵּעָה</he></cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>; Tanḥ. Bal. 9 (ref. to the peculiar expression in<cite ref=\"Numbers 22:29\">Num. XXII, 29</cite>) <he>אע״פ … לשונו ס׳</he> even when speaking the sacred tongue, the gentile’s speech is tasteless (or obscene)."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to become vapid, be stupid</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 5b:5\">Ḥag. 5ᵇ</cite> (ref. to Jer. l. c.) <he>כיון שאבדה … נִסְרַחַת וכ׳</he> when counsel was gone from the children (of Israel), the wisdom of the nations became vapid."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִסְרִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to make offensive</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 62b:12\">Sabb. 62ᵇ</cite> (ref. to <he>סרחים</he>, <cite ref=\"Amos 6:4\">Am. VI, 4</cite>) <he>מַסְרִיחִין וכ׳</he> make their beds offensive with effusion &c.; <cite ref=\"Kiddushin 71b\">Kidd. 71ᵇ</cite>. Tanḥ. Vaëra 14 <he>הִסְרִיחוּ מצרים</he> they made Egypt stink; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become vapid, putrid; to smell badly</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:13\">Cant. R. to II, 13</cite> <he>היין יַסְרִיחַ</he> the wine will become vapid (Sot. l. c., a. e. <he>היין ביוקר</he>). ",
+						"<cite ref=\"Bereishit Rabbah 34:10\">Gen. R. s. 34</cite> <he>הוא מַסְרִיחַ</he> it becomes putrid; <he>ואינה מַסְרַחַת</he> without decaying. Tanḥ. l. c. <he>ויַסְרִיחוּ במצרים</he> and spread stench in Egypt. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 391:14\">Yalk. Ex. 391</cite> <he>חלבנה … מסרחת</he> galbanum gives only an offensive smell; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

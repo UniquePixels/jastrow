@@ -1,0 +1,32 @@
+{
+	"id": "G00439",
+	"slug": "זכאותא",
+	"headword": {
+		"text": "זַכָּאוּתָא"
+	},
+	"page": {
+		"number": 397,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00438\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>innocence</i>. ",
+			"units": ["<cite ref=\"Onkelos Genesis 20:5\">Targ. Gen. XX, 5</cite>."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>justifying</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 32:2\">Targ. Job XXXII, 2</cite> <he>מטול זַכָּאוּתֵיה וכ׳</he> because he justified himself more &c."
+			],
+			"label": "2"
+		}
+	]
+}

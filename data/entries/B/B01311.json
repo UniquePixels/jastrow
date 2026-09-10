@@ -1,0 +1,22 @@
+{
+	"id": "B01311",
+	"slug": "ברצוץ",
+	"headword": {
+		"text": "בַּרְצוּץ"
+	},
+	"page": {
+		"number": 196,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01310\">preced.</cite>, cmp. P. Sm. 618 s. v. <he>ברץ</he>, a. Ges. H. Dict. s. v. <he>פאר</he>) <i>the crown of the turban</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 39:28\">Targ. Y. Ex. XXXIX, 28</cite> (h. text <cite ref=\"Q00029\"><he>פארי</he></cite>)."
+			]
+		}
+	]
+}

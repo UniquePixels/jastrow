@@ -1,0 +1,23 @@
+{
+	"id": "I00632",
+	"slug": "טפויין",
+	"headword": {
+		"text": "טִפּוּיִין"
+	},
+	"page": {
+		"number": 545,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>tippuyin</i>, name of certain small insects. ",
+			"units": [
+				"<cite ref=\"Shabbat 107b:7\">Sabb. 107ᵇ</cite> <he>הט׳</he> Ms. M. a. Rashi (ed. <he>טִפּוּיֵי</he>; Ms. O. <cite ref=\"I00632\"><he>טִיפּוּיִין</he></cite>); cmp. <cite ref=\"I00412\"><he>טִיפָּה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,128 @@
+{
+	"id": "B00515",
+	"slug": "בטל-1",
+	"headword": {
+		"text": "בָּטֵל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 157,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"B00504\"><he>בטי</he></cite>) [<i>to be hollow</i>]; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be void, abolished, suspended; to cease to exist</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 103b:14\">Keth. 103ᵇ</cite> <he>בָּטְלָה קדושה</he> sanctity of life ceased; [oth. opin.: the levitical law concerning the contact with a corpse was suspended in favor of Rabbi; v. Tosaf. a. l.]. ",
+				"<cite ref=\"Pirkei Avot 5:16\">Ab. V, 16</cite> <he>ב׳ דבר בְּטֵלָה וכ׳</he> as soon as the (sensual) attraction disappears, love will disappear. ",
+				"<cite ref=\"Pirkei Avot 5:21\">Ib. 21</cite> as if dead <he>ועבר וב׳ מן העולם</he> and passed away and disappeared from this world. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:4:11\">Y. Meg. I, 70ᵈ</cite> top, a. e. <he>בטלה מגלת תענית</he> the <i>Scroll of Fasts</i> has been abolished (the festive commemorations enumerated therein are no more observed). ",
+				"<cite ref=\"Mishnah Sotah 9:9\">Sot. IX, 9</cite> (<cite ref=\"Sotah 47a:20\">47ᵃ</cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to rest from labor, be at ease, be idle</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:10\">Ab. IV, 10</cite> <he>אם בָּטַלְתָּ מן וכ׳</he> if thou choosest not to study the law, there will be many disturbances (excuses) to assist thee. ",
+				"<cite ref=\"Pirkei Avot 1:5\">Ib. I, 5</cite> <he>בּוֹטֵל מד״ת</he> he neglects the study of the Law; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְטַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be abolished, suspended</i>. Y. Meg. I, 70ᵈ bot. <he>עתידין לִיבָּטֵל</he> (= <he>לְהִיבָּטֵל</he>) shall in future be abolished (neglected). ",
+					"units": ["<cite ref=\"Gittin 32a:11\">Gitt. 32ᵃ</cite>, v. infra."],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be excused, be exempt</i>. Ib. II, 16 thou art not a free man <he>להִבָּטֵל ממנה</he> so as to be exempt from life’s duties.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to remain single</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 4:5\">Gitt. IV, 5</cite> (<cite ref=\"Gittin 41b:1\">41ᵇ</cite>) <he>יִבָּטֵל</he> shall he never marry?"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["בִּיטֵּל", "בִּטֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to abolish, suspend, cancel, undo, neglect</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 2:4\">Ab. II, 4</cite> <he>בַּטֵּל רצונך וכ׳</he> set aside thy will for the sake of the Lord’s will, in order that He may set aside the will of others (euphem. for <i>His will</i>) for the sake of thy will (withdraw evil decrees at thy prayer). ",
+						"<cite ref=\"Pirkei Avot 4:9\">Ib. IV, 9</cite> <he>המְבַטֵּל וכ׳</he> he who neglects the study of the Law on account of his wealth. ",
+						"<cite ref=\"Mishnah Sotah 9:10\">Sot. IX, 10</cite> (<cite ref=\"Sotah 47a:20\">47ᵃ</cite>) <he>אף הוא בִּטֵּל את המעוררין</he> he also abolished (the custom of) the wakers, v. <cite ref=\"P01454\"><he>עָרַר</he></cite>. ",
+						"<cite ref=\"Shabbat 63a:22\">Sabb. 63ᵃ</cite> <he>מְבַטְּלָהּ</he> he (the observer of the Law) will cancel it (avert God’s evil decree). Mekh. B’shall., Amalek, 2, v. <cite ref=\"A01551\"><he>אִיפָּטִיקוֹס</he></cite>. ",
+						"<cite ref=\"Makkot 24a\">Macc. 24ᵃ</cite>. ",
+						"<cite ref=\"Mishnah Avodah Zarah 4:7\">Ab. Zar. IV, 7</cite> <he>למה אינו מְבַטְּלָהּ</he> why does He not destroy it (the objects of idol worship)?—",
+						"<cite ref=\"Mishnah Gittin 4:1\">Gitt. IV, 1</cite> <he>שוב אינו יכול לבַטְּלוֹ</he> he can no longer annul it (his letter of divorce). ",
+						"<cite ref=\"Mishnah Gittin 4:2\">Ib. 2</cite> in former times a man could summon a court in a strange place <he>ובִּטְּלוֹ</he> and declare it (the letter of divorce which he had sent off) void. ",
+						"<cite ref=\"Gittin 32b:3\">Ib. 32ᵇ</cite> <he>אתי דיבור ומבטל דיבור</he> a word (declaration) comes and cancels a word.—",
+						"<cite ref=\"Mishnah Avodah Zarah 4:4\">Ab. Zar. IV, 4</cite> (<cite ref=\"Avodah Zarah 42b:2\">42ᵇ</cite>) an idolator (gentile) <he>מבטל אליל שלו וכ׳</he> may (by mutilation &c.) cancel his own or his neigbor’s idol (so that it is no longer subject to the law forbidding Jews to derive any benefits from idolatrous paraphernalia), but an Israelite cannot &c. ",
+						"<cite ref=\"Avodah Zarah 42b:2\">Ib.</cite> <he>המב׳ אליל ב׳ וכ׳</he> in cancelling an idol, one has at the same time cancelled its attachments; a. fr.—ב׳ רשות <i>to resign possession</i>, a legal fiction by which the carrying of objects on the Sabbath from one’s own place to one common to several persons, may be permitted. ",
+						"<cite ref=\"Mishnah Eruvin 6:7\">Erub. VI, 7</cite> <he>מְבַטֵּל את רשותו</he> he (the brother who forgot to lay the Erub, v. <cite ref=\"P00680\"><he>עֵירוּב</he></cite>) must resign his share in the common property. ",
+						"<cite ref=\"Eruvin 68b:1\">Ib. 68ᵇ</cite> <he>מבטלין וחוזרין ומב׳</he> you may resign your share to your neighbor, and then he may resign to you; a. fr.—<he>ב׳ חמץ</he> to renounce (by declaration) the possession of anything leavened that may have remained undiscovered in one’s possession. ",
+						"<cite ref=\"Pesachim 6b:12\">Pes. 6ᵇ</cite> <he>הבודק צריך שיְבַטֵּל</he> after one has searched the house for leavened things, he must renounce (whatever he may have failed to find); a. fr.—<i>Part. pass.</i> <he>מְבוּטָּל</he>, f. <he>מְבוּטֶּלֶת</he>. ",
+						"<cite ref=\"Eruvin 69b:14\">Erub. 69ᵇ</cite> <he>רשותי מב׳ לך</he> my possession be resigned to thee (for Sabbath purposes). ",
+						"<cite ref=\"Gittin 32a:11\">Gitt. 32ᵃ</cite> if a recipient says, <he>מתנה זו מב׳</he> ‘this donation be void’, <he>תִּיבָּטֵל</he> ‘shall be void’, opp. to <he>בְּטֵלָה היא</he> ‘is a void one’, i.e. has been annulled.—",
+						"<cite ref=\"Mishnah Eduyot 1:5\">Eduy. I, 5</cite>; <cite ref=\"Gittin 36b\">Gitt. 36ᵇ</cite>, a. fr. <he>אין ב״ד יכול לבַ׳ וכ׳</he> no court can repeal (overrule) the decisions of another court, unless &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to neutralize</i> an admixture of forbidden food &c. in a certain quantity. ",
+					"units": [
+						"<cite ref=\"Chullin 108a:8\">Ḥull. 108ᵃ</cite> <he>ושאינו מינו … ומבטלו</he> and the portion of the mixture which is not its kind is prevailing and neutralizes the forbidden portion (as if did not exist at all); a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to disturb, cause suspense, interfere with</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 63b\">Erub. 63ᵇ</cite>; <cite ref=\"Megillah 3a:21\">Meg. 3ᵃ</cite> <he>בִּיטַּלְתֶּם וכ׳</he> ye interfered with the daily offering; a. fr.—",
+						"<cite ref=\"Mishnah Berakhot 2:5\">Ber. II, 5</cite> <he>לבטל ממני וכ׳</he> to suspend (shake off) the yoke of heavenly government even one minute."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִבְטִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to cause interruption, to order suspension</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sukkah 5:5\">Succ. V, 5</cite> <he>להַבְטִיל את העם וכ׳</he> to cause the people to cease working."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְבַּטֵּל", "נִתְבַּטֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be interrupted</i> &c., v. Nif.—Tan. d’be El. I, 5; II, 3.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa. a. Nithpa."
+		}
+	]
+}

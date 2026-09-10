@@ -1,0 +1,32 @@
+{
+	"id": "H01222",
+	"slug": "חמר-5",
+	"headword": {
+		"text": "חֲמַר",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "חַמְרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 480,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"H01221\">preced.</cite>) <i>wine</i> (b. h. . ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 6:3\">Targ. Num. VI, 3</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Hosea 3:1\">Targ. Hos. III, 1</cite> <he>בחַמְרֵיה</he> ed. Lag. (ed. <he>בחבריה</he>, corr. acc.) in his wine (intoxication).—",
+				"<cite ref=\"Shabbat 77a:1\">Sabb. 77ᵃ</cite>, a. e., v. <cite ref=\"D01079\"><he>דְּרֵי</he> II</cite>. ",
+				"<cite ref=\"Chullin 112a:8\">Ḥull. 112ᵃ</cite> <he>קרי ליה חמר בשר</he> (Ar. <he>המר</he>) called it (that juice) meat-wine.—",
+				"<cite ref=\"Bereishit Rabbah 91:11\">Gen. R. s. 91</cite> end <he>ח׳ קטף</he> wine mixed with resin.—",
+				"<cite ref=\"Eruvin 53b:6\">Erub. 53ᵇ</cite>, v. <cite ref=\"A01350\"><he>אִימַּר</he></cite>; a. fr.—Pl. <he>חַמְרִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 50:1\">Targ. Y. Gen. L, 1</cite>."
+			]
+		}
+	]
+}

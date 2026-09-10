@@ -1,0 +1,28 @@
+{
+	"id": "Q01711",
+	"slug": "פרוסה",
+	"headword": {
+		"text": "פְּרוּסָה"
+	},
+	"page": {
+		"number": 1221,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01908\"><he>פָּרַס</he></cite>) <i>piece</i>, esp. <i>piece of bread, bread</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 29b:3\">R. Hash. 29ᵇ</cite>, v. <cite ref=\"Q01908\"><he>פָּרַס</he></cite>. ",
+				"<cite ref=\"Tosefta Peah 4:10\">Tosef. Peah IV, 10</cite> <he>עני שנותן פרוטה לקופה ופ׳ לתמחוי</he> (ed. Zuck. <he>פרוטה לתמחוי ופרוטה לקופה</he>, corr. acc.) a poor man that contributes a P’ruṭah to the charity fund or a piece of bread to the public crib. ",
+				"<cite ref=\"Chullin 7b:16\">Ḥull. 7ᵇ</cite>, v. <cite ref=\"B01100\"><he>בָּצַע</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> <he>הפ׳</he> the bread (livelihood, v. <cite ref=\"Q01901\"><he>פַּרְנָסָה</he></cite>); a. fr.—Pl. <he>פְּרוּסוֹת</he>. ",
+				"<cite ref=\"Mishnah Demai 5:5\">Dem. V, 5</cite> <he>פ׳ פת</he> pieces of bread. ",
+				"<cite ref=\"Tosefta Terumot 5:14\">Tosef. Ter. V, 14</cite>; a. e.—",
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite> (play on <cite ref=\"Q01913\"><he>פָּרָס</he></cite>) <he>שקיבלה את המלכות פ׳ וכ׳</he> she (Persia) obtained rulership piecewise, once in the days of T’radah (Xerxes?), and once in the days of Artaban (the Parthian empire)."
+			]
+		}
+	]
+}

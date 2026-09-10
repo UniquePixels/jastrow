@@ -1,0 +1,30 @@
+{
+	"id": "T01140",
+	"slug": "רתכא",
+	"headword": {
+		"text": "רְתִכָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְתִיכָּא"
+		},
+		{
+			"text": "רְתִיכָא"
+		}
+	],
+	"page": {
+		"number": 1503,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"T01139\">preced.</cite>) <i>chariot with horses</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 41:43\">Targ. Gen. XLI, 43</cite> <he>ר׳ תנייתא</he> (Var. <cite ref=\"V00745\"><he>תניינא</he></cite> masc.). ",
+				"<cite ref=\"Onkelos Genesis 46:29\">Targ. O. ib. XLVI, 29</cite> <he>רְתִיכֵּיה</he> ed. Berl. (oth. ed. <he>רְתִכּוֹהִי</he> pl.; Y. <he>אַרְתִּיכֵיה</he>); a. fr.—Pl. <he>רְתִכִּין</he>, <he>רְתִכַּיָא</he>, <he>רְתִיכ׳</he>. ",
+				"<cite ref=\"Onkelos Exodus 14:7\">Targ. Ex. XIV, 7</cite>. ",
+				"<cite ref=\"Onkelos Exodus 14:28\">Ib. 28</cite>; a. fr."
+			]
+		}
+	]
+}

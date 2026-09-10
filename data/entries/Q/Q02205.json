@@ -1,0 +1,24 @@
+{
+	"id": "Q02205",
+	"slug": "פתרון-2",
+	"headword": {
+		"text": "פִּתְרוֹן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1256,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q02200\"><he>פָּתַר</he></cite>)<i>interpretation</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 55b:16\">Ber. 55ᵇ</cite> <he>כל אחד … ופ׳ חלומו וכ׳</he> each was shown his own dream and the interpretation of the other man’s dream. ",
+				"<cite ref=\"Bereishit Rabbah 89\">Gen. R. s. 89</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"id": "T00033",
+	"slug": "ראשון",
+	"headword": {
+		"text": "רִאשׁוֹן"
+	},
+	"page": {
+		"number": 1437,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00032\">preced.</cite>) <i>first</i>. <he>ר׳ ר׳</he> <i>one after the other</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 17a:13\">R. Hash. 17ᵃ</cite>, v. <cite ref=\"P00059\"><he>עָבַר</he></cite>; a. fr.—",
+				"<cite ref=\"Mishnah Gittin 5:8\">Gitt. V, 8</cite> <he>כהן קורא ר׳ וכ׳</he> a priest reads (from the Torah) the first, and after him &c. ",
+				"<cite ref=\"Gittin 59b:9\">Ib. 59ᵇ</cite> <he>לפתוח ר׳ ולברך ר׳ וליטול … ר׳</he> to be the first in opening a meeting, the first in saying the blessing &c., v. <cite ref=\"M01725\"><he>מָנָה</he> I</cite>; a. v. fr.—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " <he>ר׳</he> (or <he>ר׳ לטומאה</he>) <i>first degree of uncleanness, original cause of uncleanness</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Tahorot 2:2\">Toh. II, 2</cite> <he>האוכל אוכל ר׳ ר׳</he> he who eats food of the first degree of uncleanness becomes himself unclean in the first degree. ",
+						"<cite ref=\"Mishnah Tahorot 2:3\">Ib. 3</cite> <he>הר׳ שבחולין טמא ומטמא</he> secular food of the first degree of uncleanness is unclean and makes unclean. ",
+						"<cite ref=\"Mishnah Tahorot 2:4\">Ib. 4</cite>; a. v. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <he>ר׳</he> <i>the person with whom a relationship begins, direct relative</i> (brothers with reference to their respective issues). ",
+					"units": [
+						"<cite ref=\"Sanhedrin 28a\">Snh. 28ᵃ</cite>, a. e., v. <cite ref=\"U01589\"><he>שֵׁנִי</he></cite>.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <he>ר׳</he> (<cite ref=\"K00715\"><he>כלי</he></cite>) <i>a vessel direct from the fire</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 104b:5\">Ḥull. 104ᵇ</cite>; a. fr.—Pl. <cite ref=\"T00034\"><he>רִאשׁוֹנִים</he></cite>. ",
+						"<cite ref=\"Mishnah Yoma 3:11\">Yoma III, 11</cite> <he>על הר׳ נאמר וכ׳</he> to the former was applied the verse &c. ",
+						"<cite ref=\"Shabbat 112b:8\">Sabb. 112ᵇ</cite> <he>אם ר׳ בני וכ׳</he> if those before us were sons of angels, we are sons of men, and if those before us were sons of men, we are &c. ",
+						"<cite ref=\"Shabbat 56b:10\">Ib. 56ᵇ</cite> <he>מקיש ר׳ לאחרונים</he> the Scriptural text compares the predecessors to the successors. ",
+						"<cite ref=\"Eruvin 64b:19\">Erub. 64ᵇ</cite> <he>דורות הר׳</he> the earlier generations; a. fr.—<i>Fem.</i> <he>רִאשׁוֹנָה</he>. ",
+						"<cite ref=\"Nedarim 91a\">Ned. 91ᵃ</cite>, v. <cite ref=\"M02941\"><he>מִשְׁנָה</he></cite>. ",
+						"<cite ref=\"Ketubot 82b:10\">Keth. 82ᵇ</cite> <he>בר׳</he> in former days, originally. ",
+						"<cite ref=\"Mishnah Nedarim 11:12\">Ned. XI, 12</cite> <he>בר׳ היו אומרים וכ׳</he> originally the law was that &c.; a. fr.—[Y. Taan. II, 65ᵃ top <he>בדִאשׁוֹנָהּ</he> on its (the year’s) first day (<cite ref=\"Rosh Hashanah 16b:2\">R. Hash. 16ᵇ</cite> <he>בתחילתה</he>).]—Pl. <cite ref=\"T00034\"><he>רִאשׁוֹנוֹת</he></cite>. ",
+						"<cite ref=\"Berakhot 13a:3\">Ber. 13ᵃ</cite> <he>משכחות את הר׳</he>, v. <cite ref=\"R00744\"><he>צָרָה</he> II</cite>. ",
+						"<cite ref=\"Berakhot 34a:10\">Ib. 34ᵃ</cite> <he>ר׳</he> (<cite ref=\"U01387\"><he>שלש</he></cite>) the first three sections of the Prayer of Benedictions. ",
+						"<cite ref=\"Bava Kamma 54b:13\">B. Kam. 54ᵇ</cite>, v. <cite ref=\"D00478\"><he>דִּיבַּר</he></cite>; a. v. fr."
+					],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "N01108",
+	"slug": "נצח-1",
+	"headword": {
+		"text": "נָצַח"
+	},
+	"page": {
+		"number": 927,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"R00266\"><he>צַח</he></cite>) [<i>to be bright, pure</i>,] (cmp. <cite ref=\"G00443\"><he>זָכָה</he></cite>) <i>to be victorious, win, prevail</i>. Y. Sabb. VII, 5ᵇ top <he>אם לִנְצוֹחַ אם להִינָּצֵחַ</he> whether to conquer or to be conquered. ",
+			"units": [
+				"<cite ref=\"Pesachim 119a:3\">Pes. 119ᵃ</cite> (play on <he>לַמְנַצֵּחַ</he>) <he>זמרו למי שנוֹצְחִין אותו ושמח</he> sing to him who rejoices when they conquer him (prevail over him to change his evil decrees); <cite ref=\"Midrash Tehillim 4:4\">Midr. Till. to Ps. IV. Pesik. R. s. 40</cite> <he>נָצַחְתִּי לדור וכ׳</he> I conquered the generation of the flood and was the loser by it, because I destroyed &c. ",
+				"<cite ref=\"Midrash Tehillim 4:4\">Ib.</cite> <he>נְצָחַנִי משה וכ׳</he> Moses conquered me …, and I gained all those masses; a. fr.—Part. pass. <cite ref=\"N01101\"><he>נָצוּחַ</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 4:4\">Ib.</cite>",
+				"<cite ref=\"Pesikta Rabbati 40:1\">Pesik. R. s. 40</cite> <he>נָצַחְתִּי לדור וכ׳</he> I conquered the generation of the flood and was the loser by it, because I destroyed &c. ",
+				"<cite ref=\"Pesikta Rabbati 40:1\">Ib.</cite> <he>נְצָחַנִי משה וכ׳</he> Moses conquered me …, and I gained all those masses; a. fr.—Part. pass. <cite ref=\"N01101\"><he>נָצוּחַ</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 40:1\">Ib.</cite> <he>בשעה שאני נוצח … ובשעה שאני נ׳ וכ׳</he> when I prevail, I lose, but when I am prevailed over, I gain; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to make illustrious, to glorify</i>. Midr. Till. l. c. (expl. <he>למנצח</he>) <he>למי שהוא נאה לנַצֵּחַ</he> to him whom it is befitting to glorify.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to conquer, prevail over</i>. Ib. <he>מלך ב״וד מְנַצְּחִים אותו וכ׳</he> a human king is angry when people defeat him (in argument; cmp. <cite ref=\"G00456\"><he>זְכֵי</he></cite> <i>Pa.</i>); Pes. l. c.—",
+					"units": [
+						"<cite ref=\"Bava Metzia 59b:5\">B. Mets. 59ᵇ</cite> <he>נִצְּחוּנִי בני</he> (or <he>נְצָחוּנִי</he>) my children have won over me. ",
+						"<cite ref=\"Bava Metzia 59b:3\">Ib.</cite> <he>תלמידי חכמים שמנצחים וכ׳</he> scholars who defeat one another in discussion. ",
+						"<cite ref=\"Sanhedrin 91a:7\">Snh. 91ᵃ</cite> <he>אם יְנַּצְּחוּנִי … נַצַּחְתֶּם</he> if they defeat me, say to them, you have defeated an ignoramus among us; <he>ואם אני אֲנַצֵּחַ … תורת משה נִצְּחַתְכֶם</he> and if I defeat them, say to them, the law of Moses has defeated you; a. fr.—Part. pass. <he>מְנוּצָּח</he>. Midr. Till. l. c. <he>למי שמנ׳ וכ׳</he> to him who allows himself to be won over by his creatures (v. supra); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִיצַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to be defeated</i>. Y. Sabb. II, 5ᵇ top v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

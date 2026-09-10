@@ -1,0 +1,42 @@
+{
+	"id": "S01973",
+	"slug": "קרח-8",
+	"headword": {
+		"text": "קְרַח",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְחָא",
+			"homograph": 1
+		},
+		{
+			"text": "קָרָחָא"
+		}
+	],
+	"page": {
+		"number": 1415,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"S01966\"><he>קֵרֵחַ</he></cite>, v. <cite ref=\"S01966\"><he>קֵרֵחַ</he></cite> ch.—",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 2:23\">Targ. II Kings II, 23</cite> <cite ref=\"S00639\"><he>קרְ׳</he></cite> (ed. Ven. <cite ref=\"S00640\"><he>קָרָ׳</he></cite>).—",
+				"<cite ref=\"Sanhedrin 63b:16\">Snh. 63ᵇ</cite> <he>ברחא ק׳</he>, v. <cite ref=\"A03288\"><he>אֲשִׁימָא</he></cite>. ",
+				"<cite ref=\"Shabbat 152a:5\">Sabb. 152ᵃ</cite>, v. <cite ref=\"B01232\"><he>בַּרְחָא</he></cite>, a. <cite ref=\"M02288\"><he>מַצּוּיָינָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"C00374\"><he>גולבינא</he></cite> a. <he>גלב</he>) a species of <i>peas</i> (P. Sm. s. v. <cite ref=\"S01973\"><he>קרחא</he></cite>, 3740 ‘peanuts’).—Pl. <cite ref=\"S01981\"><he>קַרְחִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 4:4:5\">Y. Ned. IV, 38ᵈ</cite> top <he>מי סורס וק׳</he> an infusion of <i>sores</i> and <i>ḳarḥim</i>"
+			],
+			"label": "2"
+		}
+	]
+}

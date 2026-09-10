@@ -1,0 +1,23 @@
+{
+	"id": "Q01605",
+	"slug": "פרהנגריא",
+	"headword": {
+		"text": "פַּרְהַנְגַּרְיָא"
+	},
+	"page": {
+		"number": 1217,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (parangaria, v. <cite ref=\"A02108\"><he>אַנְגַּרְיָא</he></cite>) <i>a public service over and above that which one is bound to render, extra service</i> (which is paid for). ",
+			"units": [
+				"<cite ref=\"Gittin 44a:7\">Gitt. 44ᵃ</cite> <he>המוכר עבדו לפרהנג גוי וכ׳</he> Ar. (ed. <cite ref=\"N00847\"><he>נכרי</he></cite>, read: <he>לפרהנגריא</he>) if a man sells (rents out) his slave for extra service, he becomes a freedman (after he is dismissed from the service). ",
+				"<cite ref=\"Gittin 44a:7\">Ib.</cite> <he>בפ׳ שאינה חוזרת</he> it means the service in an expedition that does not come back to the same place (so that the owner lets the slave go out of his control)."
+			]
+		}
+	]
+}

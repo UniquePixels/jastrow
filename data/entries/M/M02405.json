@@ -1,0 +1,28 @@
+{
+	"id": "M02405",
+	"slug": "מקושש-2",
+	"headword": {
+		"text": "מְקוֹשֵׁשׁ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בֶּן מְקוֹשֵׁשׁ"
+		}
+	],
+	"page": {
+		"number": 830,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (?) <i>Ben M’ḳoshesh</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 15b:7\">Yeb. 15ᵇ</cite>; Y. ib. I, 3ᵃ bot. <he>בֵּית קוֹשֵׁשׁ</he>."
+			]
+		}
+	]
+}

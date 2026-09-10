@@ -1,0 +1,22 @@
+{
+	"id": "O00417",
+	"slug": "סורג",
+	"headword": {
+		"text": "סוֹרֶג"
+	},
+	"page": {
+		"number": 969,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01526\"><he>סָרַג</he></cite>) <i>lattice-work, Soreg</i>, name of one of the approaches of the Temple fortification. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 2:3\">Midd. II, 3</cite>; <cite ref=\"Yoma 16a:5\">Yoma 16ᵃ</cite>"
+			]
+		}
+	]
+}

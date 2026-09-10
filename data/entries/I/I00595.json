@@ -1,0 +1,41 @@
+{
+	"id": "I00595",
+	"slug": "טעו",
+	"headword": {
+		"text": "טָעוּ"
+	},
+	"page": {
+		"number": 542,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00594\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>going astray</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 3:8\">Targ. Jer. III, 8</cite> (ed. Wil. <cite ref=\"I00595\"><he>טְעוֹ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 19:14\">Targ. Is. XIX, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 139:24\">Targ. Ps. CXXXIX, 24</cite> <he>אורח דט׳</he> Regia (ed. <he>דטָעִין</he>; h. text <he>עצב</he>); a. fr.—Pl. <cite ref=\"I00600\"><he>טַעֲוָותָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Nahum 3:4\">Targ. Nah. III, 4</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cacophem.), also <cite ref=\"I00612\"><he>טַעֲוָא</he></cite>, <he>טַעֲוָוא</he> m. <i>idol</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:16\">Targ. Y. Deut. IV, 16</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 32:15\">Targ. II Chr. XXXII, 15</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 35:21\">Ib. XXXV, 21</cite> <he>טָעוּתִי</he> (or <he>טַעֲוָתִי</he>) my deity.—Pl. <he>טַעֲוָן</he>, <he>טַעֲוַון</he>, <cite ref=\"I00600\"><he>טַעֲוָתָא</he></cite>, <he>טַעֲוָו׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 1:29\">Targ. Is. I, 29</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:36\">Targ. Deut. XXVIII, 36</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

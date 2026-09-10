@@ -1,0 +1,23 @@
+{
+	"id": "I00334",
+	"slug": "טיטרוס",
+	"headword": {
+		"text": "טִיטְרוֹס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 530,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>טרטרוס</he>, <he>טרטר׳</he>, v. <cite ref=\"I00765\"><he>טְרִי</he></cite>, with format. <cite ref=\"O00000\"><he>ס</he></cite>; cmp. <cite ref=\"A01092\"><he>אַטְלֵס</he></cite>) <i>a perforated vessel, sprinkler, strainer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:6\">Kel. II, 6</cite> (Var. <he>סיטרוס</he>)."
+			]
+		}
+	]
+}

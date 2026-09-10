@@ -1,0 +1,36 @@
+{
+	"id": "K00676",
+	"slug": "כלב-1",
+	"headword": {
+		"text": "כָּלַב"
+	},
+	"page": {
+		"number": 639,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00758\"><he>כָּלַל</he></cite>) <i>to seize</i>.—Denom. <cite ref=\"K00677\"><he>כֶּלֶב</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּלֵּב"],
+			"senses": [],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִכְלִיב"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"K00677\"><he>כֶּלֶב</he></cite>) [<i>to make stitches resembling dog-bites</i> (cmp. our ‘cat-stitching’),] <i>to stitch</i>, opp. to <cite ref=\"V00854\"><he>תָּפַר</he></cite> to sew in a workmanlike manner. ",
+					"units": [
+						"<cite ref=\"Mishnah Moed Katan 1:8\">M. Kat. I, 8</cite> (<cite ref=\"Moed Katan 8b\">8ᵇ</cite>) <he>האומן מְכַלֵּב</he> Ms. M. a. Y. ed. (Mish. a. Babli <he>מַכְלִיב</he>) the professional tailor is permitted (during the festive week) to stitch (but not to sew); expl. ib. 10ᵃ <he>מפסיע</he> he makes wide steps (cross-stitches); (another opin.) <he>שיני כלבתא</he> (Ms. M. only <cite ref=\"K00687\"><he>כַּלְבְּתָא</he></cite> q. v.) dog’s teeth, i.e. irregular stitches; Y. ib. 80ᵈ bot. <he>מפסיע</he>; (oth. opin.) <he>אחת אחת</he> each stitch singly. Ib. <he>הרוצענין מְכַלְּבִין</he> the saddlers are permitted to do dog-stitching."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

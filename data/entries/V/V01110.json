@@ -1,0 +1,39 @@
+{
+	"id": "V01110",
+	"slug": "תשש-1",
+	"headword": {
+		"text": "תָּשַׁשׁ"
+	},
+	"page": {
+		"number": 1705,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (privative of <cite ref=\"J00674\"><he>יש</he></cite>; cmp. <cite ref=\"J00693\"><he>יָשִׁישׁ</he></cite>) <i>to be weak, slender, old</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 32a:18-28\">Ber. 32ᵃ</cite> <he>עכשיו … ת׳ כחו כנקבה</he> now the nations will say, his (God’s) power has grown weak as that of a woman. ",
+				"<cite ref=\"Pesachim 62b:15\">Pes. 62ᵇ</cite> <he>מיום … ת׳ כחן וכ׳</he> from the day that the Book of Genealogy was suppressed, the strength of the wise has failed, and the light of their eyes has grown dim. ",
+				"<cite ref=\"Esther Rabbah 1:1\">Esth. R. to I, 1</cite> <he>ותַשׁ</he>, v. <cite ref=\"T01122\"><he>רָתַח</he></cite>. ",
+				"<cite ref=\"Menachot 29b:4\">Men. 29ᵇ</cite>; a. fr.—Part. pass. <cite ref=\"V01079\"><he>תָּשׁוּשׁ</he></cite>; pl. <he>תְּשׁוּשִׁים</he>, <he>תְּשׁוּשִׁין</he>. ",
+				"<cite ref=\"Midrash Tehillim 18:18\">Midr. Till. to Ps. XVIII, 17</cite> <he>מה … הת׳ וכ׳</he> what did the feeble (old) among them (that crossed the Red Sea) do?; <cite ref=\"Yalkut Shimoni on Nach 161:3\">Yalk. Sam. 161</cite> <he>הת׳ והפודגרין</he> the feeble and the lame. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:16\">Cant. R. to V, 16</cite> (ref. to <cite ref=\"Psalms 29:4\">Ps. XXIX, 4</cite>) <he>קול ה׳ בכח לבחורים … לת׳</he> (not <he>לתשי׳</he>) ‘the voice of the Lord with strength’—for the youths; ‘the voice of the Lord with majesty’—for the feeble; (<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10<sup>1</sup></cite> <he>לַתַּשִּׁים</he>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵתֵישׁ"],
+			"senses": [
+				{
+					"gloss": " or <cite ref=\"N01398\"><he>הִתִּישׁ</he></cite> <i>to weaken</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 26b:8\">Snh. 26ᵇ</cite> (play on <cite ref=\"V00329\"><he>תושיה</he></cite>, <cite ref=\"Isaiah 28:29\">Is. XXVIII, 29</cite>) <he>למה נקרא … שמַתֶּשֶׁת כחו וכ׳</he> why is the law called <i>tushiyah</i>? Because the study of it weakens the strength of man (v. <cite ref=\"V01082\"><he>תַּשְׁיוּתָא</he></cite>). ",
+						"<cite ref=\"Gittin 70a:20\">Gitt. 70ᵃ</cite> <he>שלשה דברים מַתִּישִׁין וכ׳</he> Ar. (ed. <he>מתיזין</he>) three things weaken man’s strength; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

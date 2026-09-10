@@ -1,0 +1,23 @@
+{
+	"id": "M00628",
+	"slug": "מורה-3",
+	"headword": {
+		"text": "מוֹרָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 749,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"M02612\"><he>מָרוּת</he></cite>) <i>authority</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 9:5\">Naz. IX, 5</cite> <he>והלא אין מ׳ אלא של בו״ד</he> does not this <i>morah</i> (<cite ref=\"I Samuel 1:11\">I Sam. I, 11</cite>, v. Targ.) mean, ‘the authority of man (shall not come upon his head)’? <he>שכבר היה עליו מ׳ של בו״ד</he> (Var. <cite ref=\"M00606\"><he>מורא</he></cite>) the authority of man was obviously upon him (<cite ref=\"I Samuel 16:2\">I Sam. XVI, 2</cite>); Midr. Sam. ch. II (corr. acc.)."
+			]
+		}
+	]
+}

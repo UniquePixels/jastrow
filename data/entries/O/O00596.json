@@ -1,0 +1,35 @@
+{
+	"id": "O00596",
+	"slug": "סיופא",
+	"headword": {
+		"text": "סִיּוּפָא"
+	},
+	"page": {
+		"number": 977,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סוּף</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ending, failing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 28:65\">Targ. Y. II, Deut. XXVIII, 65</cite> <he>סִיּוּף עיינין</he> (not <cite ref=\"J00458\"><he>יסוף</he></cite>) failing of eye-sight."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. constr. <he>סִיּוּפֵי</he> the <i>fruit left to the end, late fruit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 8:1\">Targ. Am. VIII, 1</cite>, sq. (ed. Lag. <cite ref=\"O00635\"><he>סְיָיפֵי</he></cite>, <he>סְיָפֵי</he>). ",
+				"<cite ref=\"Targum Jonathan on Micah 7:1\">Targ. Mic. VII, 1</cite> (h. text <he>אספי</he>); v. <cite ref=\"O00388\"><he>סוֹף</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

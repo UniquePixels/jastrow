@@ -1,0 +1,52 @@
+{
+	"id": "T00944",
+	"slug": "רפי-2",
+	"headword": {
+		"text": "רפי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רָפָה"
+		}
+	],
+	"page": {
+		"number": 1490,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"T00943\">preced.</cite>) <i>to be</i> or <i>make lax</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19:5\">Lev. R. s. 19</cite> <he>רָפוּ ידיהן</he> their hands became lax (they lost their energy).—Part. pass. <cite ref=\"T00934\"><he>רָפוּי</he></cite>; f. <cite ref=\"T00933\"><he>רְפוּיָה</he></cite>. ",
+				"<cite ref=\"Shabbat 141b:9\">Sabb. 141ᵇ</cite> <he>בר׳</he> when the shoe on the block is loose (can be taken off without moving the block). ",
+				"<cite ref=\"Shabbat 130a\">Ib. 130ᵃ</cite>, v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיפָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to loosen, let go</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 8:5\">Mikv. VIII, 5</cite> <he>יְרַפֶּה כדי וכ׳</he> he must loosen his hold of the objects, so that the water can come in contact with them; Y. Ḥag. III, beg. 78ᵈ <he>יְרַפֵּם עד וכ׳</he> he must let them go until &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to let hang down; to make lax, weaken</i>. Tanḥ. K’dosh. 6 <he>מְרַפִּין כנפיהם</he> they let their wings hang down. Lev. R. l. c. (ref. to <cite ref=\"Isaiah 35:3\">Is. XXXV, 3</cite>) <he>שרִפִּיתֶם עצמיכם וכ׳</he> you weakened yourselves through your evil doings. ",
+					"units": [
+						"<cite ref=\"Bekhorot 5b\">Bekh. 5ᵇ</cite>; <cite ref=\"Sanhedrin 106a\">Snh. 106ᵃ</cite> (play on <he>ר̇פ̇י̇ד̇י̇ם̇</he>) <he>שרִֹיפּ֗וּ י̇ד̇יהן מדברי תורה</he> (not <he>עצמן</he>) they let their hands drop from (holding) the words of the Law; Tanḥ. ",
+						"<cite ref=\"Exodus 25\">B’shall. 25</cite> <he>שרִפּוּ ידיהן מן התורה</he> (or <he>שרָפוּ</he>, v. supra); a. e.—Part. pass. <he>מְרוּפּה</he>; f. <cite ref=\"M02569\"><he>מְרוּפָּה</he></cite>. ",
+						"<cite ref=\"Shabbat 130a:14\">Sabb. 130ᵃ</cite> <he>עדיין היא מר׳ בידם</he> (not <he>הוא</he>; Ms. O. <cite ref=\"T00933\"><he>רְפוּיָה</he></cite>) it is still lax in their hands (they treat the ceremony with laxity), opp. <he>מוחזקת</he> held fast.—3) <i>to soften, teach good manners</i>. ",
+						"<cite ref=\"Ruth Rabbah 4:6\">Ruth R. to II, 5</cite> <he>רבתה רִפְּתָה לה</he> (or <he>רָפְתָה</he>) her mistress (Naomi) had taught her good manners; <cite ref=\"Yalkut Shimoni on Nach 601:20\">Yalk. ib. 601</cite> <he>חמותה מאלפא לה</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "P00477",
+	"slug": "עטר-3",
+	"headword": {
+		"text": "עַטַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1064,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"P00476\">preced.</cite>; cmp. <cite ref=\"K00692\"><he>כָּלָה</he></cite> a. <cite ref=\"K00734\"><he>כְּלִילָא</he></cite>) <i>to be gone; tocease entirely</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 9:7\">Targ. I Sam. IX, 7</cite> <he>עַטְרוּ ממננא</he> (h. text <he>אזל מכלינו</he>); (ed. Wil. <he>עֲדַן עֲטָרוּ מננא</he>, corr. acc.; v. <cite ref=\"P00131\"><he>עֲדֵי</he> I</cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 15:14\">Targ. I Kings XV, 14</cite> (h. text <cite ref=\"O00408\"><he>סור</he></cite>); a. fr.—<i>Part. pass.</i> <he>עָטִיר</he> <i>removed</i>. ",
+				"<cite ref=\"Gittin 86a\">Gitt. 86ᵃ</cite> Rashi (v. <cite ref=\"P00476\">preced.</cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַטֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to abolish entirely</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 30:14\">Targ. II Chr. XXX, 14</cite> (h. text <cite ref=\"O00408\"><he>הסיר</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 35:2\">Targ. Y. Gen. XXXV, 2</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

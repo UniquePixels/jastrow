@@ -1,0 +1,29 @@
+{
+	"id": "Q01638",
+	"slug": "פרוור",
+	"headword": {
+		"text": "פַּרְוָור"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְוָר"
+		}
+	],
+	"page": {
+		"number": 1218,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. Ges. H. Dict.<sup>10</sup> s. v. <cite ref=\"Q01545\"><he>פַּרְבָּר</he></cite>; cmp., however,  [<i>open place</i>,] <i>outwork, court, market</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 4:11\">Ḥall. IV, 11</cite> <he>הקונה בסוריא כקונה בפ׳ שבירושלים</he> Mish. ed. (Bab. ed. <he>בפַרְוָוד</he>; Y. ed. <he>בפַרְוַוד ירוש׳</he>; Ms. M. <he>בפַרְוָורֵי</he>) he who owns land in Syria is under the same obligations as if he owned land in the outskirts of Jerusalem; <cite ref=\"Gittin 8b:1\">Gitt. 8ᵇ</cite> <he>בפַרְוָארֵי</he>); <cite ref=\"Tosefta Terumot 2:10\">Tosef. Ter. II, 10</cite> <cite ref=\"Q01610\"><he>פרואר</he></cite> ed. Zuck. (Var. <he>פרוארי</he>, <cite ref=\"Q01623\"><he>פרוד</he></cite>; <he>פרוזדר</he>, corr. acc.). ",
+				"<cite ref=\"Tosefta Avodah Zarah 7:6\">Tosef. Ab. Zar. VII</cite> (<cite ref=\"Tosefta Avodah Zarah 8:10\">VIII</cite>), 10 <he>פרואר שישראל וכ׳</he> ed. Zuck. (Var. <he>פרזר</he>, <he>פרזא</he>, corr. acc.) a market to which an Israelite and a gentile bring wine; Y. ib. IV, end, 44ᵇ <he>פרכיי׳ של עיר</he> (read: <he>פּרְבָּרָהּ</he>, or <cite ref=\"Q01639\"><he>פַּרְוָורָהּ</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 68:14\">Gen. R. s. 68</cite> <he>עולים … יושב ודן ויוצאין בפרווד ומוצאים אותו ישן</he> (some ed. <he>בפַרְוָד</he>; Ar. <he>בפרוור</he> a. with differ. version) they go up to the forum and find him (the king) sitting in judgment; they come out to the outskirts (his country seat) and find him asleep; a. e.—Pl. <he>פַּרְוָורִים</he>, constr. <cite ref=\"Q01638\"><he>פַּרְוָורֵי</he></cite>, <cite ref=\"Q01610\"><he>פַּרְוָארֵי</he></cite>, v. supra."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "T00719",
+	"slug": "ריש-3",
+	"headword": {
+		"text": "רֵישׁ",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "רֵישָׁא"
+		}
+	],
+	"page": {
+		"number": 1478,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = b. h. <cite ref=\"T00031\"><he>רֹאשׁ</he></cite> (cmp. <cite ref=\"T00654\"><he>רִיס</he> I</cite>) [<i>drop</i>,] <i>poison</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 32:33\">Targ. O. Deut. XXXII, 33</cite> (some ed. <i>pl.</i>).—<i>Pl.</i> <he>רֵישֵׁי</he> constr. Targ. Y. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:33\">ib.</cite> Targ. ib. 32. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:22\">Targ. Ps. LXIX, 22</cite>; a. e."
+			]
+		}
+	]
+}

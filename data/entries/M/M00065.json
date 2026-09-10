@@ -1,0 +1,22 @@
+{
+	"id": "M00065",
+	"slug": "מאריסא",
+	"headword": {
+		"text": "מַאֲרִיסָא"
+	},
+	"page": {
+		"number": 724,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A03211\"><he>אֲרַס</he></cite>) = <cite ref=\"A03109\"><he>אֲרִיסָא</he></cite>, <i>tenant</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:8\">Lev. R. s. 5</cite>, end <he>דוד מ׳ טבא הוה</he> David was a smart tenant (that knows how to persuade the landlord to reduce the rent)."
+			]
+		}
+	]
+}

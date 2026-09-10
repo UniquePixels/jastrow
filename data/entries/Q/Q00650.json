@@ -1,0 +1,28 @@
+{
+	"id": "Q00650",
+	"slug": "פיילי-2",
+	"headword": {
+		"text": "פְּיָילִי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר פְּיָילִי"
+		}
+	],
+	"page": {
+		"number": 1162,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar-Piali</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 96a\">Ḥull. 96ᵃ</cite> Ar. (ed. <cite ref=\"Q00600\"><he>פְּיוֹלִי</he></cite>)."
+			]
+		}
+	]
+}

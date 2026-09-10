@@ -1,0 +1,41 @@
+{
+	"id": "A01046",
+	"slug": "אחר-3",
+	"headword": {
+		"text": "אַחַר"
+	},
+	"page": {
+		"number": 40,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"A01045\">foreg.</cite>), pl. constr. <cite ref=\"A01051\"><he>אַחֲרֵי</he></cite> <i>after, behind</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44:20\">Gen. R. s. 44</cite> wherever the Bible uses the preposition <i>aḥaré</i> <cite ref=\"O01067\"><he>סמוך</he></cite>, it means <i>in connection with</i>, <he>אחר מופלג</he> while <i>aḥar</i> means without connection (<i>later on</i>). ",
+				"<cite ref=\"Yoma 6a:8\">Yoma 6ᵃ</cite> <he>אחר א׳</he> after ‘after’, i.e. some time after the act, opp. <he>חד אחר</he> one ‘after’, immediately, v. <cite ref=\"A00593\"><he>אֶוְתִּיוֹס</he></cite>.—<he>לְאַחֲרָיו</he>, <he>לְאַחֲרֶיהָ</he>, <he>מֵאַחֲרָיו</he>, <he>מֵאַחֲרֶיהָ</he> after it, as concluding, opp. <he>לפניה</he>, <he>לפניו</he> introductory (prayer).—",
+				"<cite ref=\"Mishnah Berakhot 1:4\">Ber. I, 4</cite> <he>אחת לא׳</he> one benediction after the Sh’ma. ",
+				"<cite ref=\"Mishnah Berakhot 3:4\">Ib. III, 4</cite> <he>לאחריו</he> (prayer) after meal; a. fr.—<he>כִּלְאַחַר יד</he> as if doing a thing with the back of the hand, i.e. in a manner different from the usual way of doing it. ",
+				"<cite ref=\"Shabbat 153b:12\">Sabb. 153ᵇ</cite>; a. fr.—<he>מֵאַחַר</he> "
+			]
+		},
+		{
+			"gloss": " (conj. followed by <he>ש־</he> or <he>ד־</he>) <i>after, since, whereas, because</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 29a:22\">Ḥull. 29ᵃ</cite> <he>מא׳ ששנינו</he> after it has once been stated in the Mishnah … why was it necessary (?) &c. ",
+				"<cite ref=\"Chullin 29b:2\">Ib.ᵇ</cite> <he>ומאחר דאפי׳ וכ׳</he> and since it is not even rabbinically unfit, why &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a legal term, <i>meaḥar</i>, the presumption of the truth of one’s statement, <i>because</i> he might have pleaded more profitably, if he had been inclined to lie. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:1:7\">Y. Shebu. VI, 36ᵈ</cite> bot. <he>אין אומרים בממון מא׳ מאחר וכ׳</he> in money matters we do not apply the principle of <i>meaḥer</i>, so as to say that because he might have said ‘thou hast not lent me anything’, he may say, ‘thou didst lend me, but I paid half of it’ (and his plea must be accepted without an oath); v. <cite ref=\"M01085\"><he>מִיגּוֹ</he></cite> s. v. <cite ref=\"C00263\"><he>גּוֹ</he></cite>.—אַחֲרֶיךָ <i>thy successor</i>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:10\">Y. Kil. IX, 32ᶜ</cite> top <he>יהודה בני א׳ וכ׳</he> my son Judah shall succeed thee, none else (is worthy). ",
+				"<cite ref=\"Ketubot 95b\">Keth. 95ᵇ</cite> my property I bequeath to thee <he>ואַחֲרַיִיךְ לפ׳</he> and after thee it shall go over to …—<he>אַחַר כָּךְ</he> (abbrev. <he>אח״כ</he>) <i>afterwards, subsequently</i>. ",
+				"<cite ref=\"Mishnah Pesachim 10:2\">Pes. X, 2</cite>; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

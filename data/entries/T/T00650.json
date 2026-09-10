@@ -1,0 +1,29 @@
+{
+	"id": "T00650",
+	"slug": "רינון",
+	"headword": {
+		"text": "רִינּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִנּ׳"
+		}
+	],
+	"page": {
+		"number": 1475,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00847\"><he>רָנַן</he></cite>) <i>singing, chanting, rejoicing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 4:8:3\">Y. R. Hash. IV, 59ᶜ</cite> bot. (ref. to <he>רנתי</he>, <cite ref=\"Psalms 17:1\">Ps. XVII, 1</cite>) <he>זו ר׳ תורה</he> that is the chanting at studying the Law; Midr. Till. to Ps. l. c. <he>רִינּוּנָהּ של תורה</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 841:2\">Yalk. Ps. 841</cite> <he>שהוא עוסק ברינונה של תורה</he> he is engaged in the study of the Law. ",
+				"<cite ref=\"Midrash Tehillim 33:1\">Midr. Till. to Ps. XXXIII</cite> <he>ר׳ של צדיקים</he> the singing (praise) of the righteous; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "B00774",
+	"slug": "בכושא",
+	"headword": {
+		"text": "בּכּוּשָׁא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 169,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>בר כושא</he>, v. <he>כשכש</he>; for Syr. <he>בכשא</he> = <he>בר כשא</he>, cmp. <cite ref=\"D00316\"><he>דּוֹפֵק</he></cite>) <i>knocker</i> for giving signals for worship. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 3:1:7\">Y. Meg. III, 73ᵈ</cite> bot. (Var. <cite ref=\"M01367\"><he>מַכּוֹשָׁא</he></cite>)."
+			]
+		}
+	]
+}

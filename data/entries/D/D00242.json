@@ -1,0 +1,46 @@
+{
+	"id": "D00242",
+	"slug": "דוך-2",
+	"headword": {
+		"text": "דּוּךְ"
+	},
+	"page": {
+		"number": 285,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00241\">same</cite>.Part. <cite ref=\"D00019\"><he>דָּאִיךְ</he></cite>, <cite ref=\"D00019\"><he>דָּאֵיךְ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 11:8\">Targ. O. Num. XI, 8</cite>. ",
+				"<cite ref=\"Beitzah 14a\">Bets. 14ᵃ</cite> <cite ref=\"D00242\"><he>דּוֹךְ</he></cite>, v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּיֵּיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D00241\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Beitzah 14a:9\">Bets. 14ᵃ</cite> <he>כי דַיְיכַת וכ׳</he> ed. (Ms. M. <he>דייקת … דוק</he>) when thou poundest (on a Holy Day), bend the mortar sideways and pound."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָדֵיךְ"],
+			"senses": [
+				{
+					"gloss": " (cmp. <he>דעך</he>) <i>to extinguish</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 81a\">Kidd. 81ᵃ</cite> <he>אתו כ״ע לַאֲדוּכֵיה</he> Ar. s. v. <he>אדך</he> (missing in ed.) people came to put the fire out."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

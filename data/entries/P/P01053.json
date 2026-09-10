@@ -1,0 +1,63 @@
+{
+	"id": "P01053",
+	"slug": "עסק-2",
+	"headword": {
+		"text": "עֲסֵק"
+	},
+	"page": {
+		"number": 1099,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01052\">same</cite><i>to take pains, take trouble</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 4:13\">Targ. II Kings IV, 13</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 12:34\">Targ. I Chr. XII, 34</cite> (<cite ref=\"Targum of I Chronicles 12:33\">33</cite>; h. text <he>לעדר</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to be occupied with</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 20:3\">Targ. Y. Lev. XX, 3</cite>; <cite ref=\"Targum Jonathan on Leviticus 20:5\">5</cite> (v. Sifra K’dosh., ch. VIII, Par. 4, s. v. <cite ref=\"P01055\"><he>עֵסֶק</he> II</cite>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 6:8\">Targ. Koh. VI, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:18\">Targ. Prov. VII, 18</cite> <he>ונֶעְסַק חד לחד וכ׳</he> and let us be engaged in dalliances in private (h. text <he>נתעלסה וכ׳</he>); a. fr.—Part. pass. <he>עֲסִיק</he>; f. <he>עָסִיקָא</he>; pl. <cite ref=\"P01047\"><he>עֲסִיקִין</he></cite>; <he>עֲסִיקָן</he>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 32:4\">Targ. Y. II, Deut. XXXII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:15\">Targ. Cant. I, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:15\">Ib. IV, 15</cite>; a. fr.—Y. Ḥag. II, 77ᵇ <he>עד דאינון עסיקין בדידון נַעְסוֹק וכ׳</he> (not <he>עסוקין</he>) while they are occupied with their doings (songs &c.), let us be occupied with our business (study); so they sat down and engaged in discussing words of the Law. ",
+				"<cite ref=\"Sotah 21a:11\">Sot. 21ᵃ</cite> <he>בעידנא דעָסֵיק בה</he> while he is engaged in it. ",
+				"<cite ref=\"Bava Metzia 12b\">B. Mets. 12ᵇ</cite>, a. fr. (<he>במאי עֲסִיקִינָן</he>) <he>במאי עַסְקִינָן אילימא וכ׳</he> what are we engaged in?, i.e. what is the case before us? Is it that the debtor admits &c. ",
+				"<cite ref=\"Bava Metzia 12b\">Ib.</cite>, a. fr. <he>הכא במאי עסקינן במגורשת וכ׳</he> (abbr. <he>הב״ע</he>) what is treated of here (in the Mishnah) is the case of a doubtful divorce. ",
+				"<cite ref=\"Bava Metzia 12b\">Ib.</cite> <he>הכא בעבד עסקינן …</he> the slave meant in this connection is one who perforates pearls (a skillful laborer); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעַסֵּק", "אִיעַסֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to occupy one’s self, be busy</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 50:5\">Targ. Ps. L, 5</cite>. ",
+						"<cite ref=\"Onkelos Exodus 5:9\">Targ. Ex. V, 9</cite>. ",
+						"<cite ref=\"Targum of II Chronicles 35:14\">Targ. II Chr. XXXV, 14</cite>; a. fr.—",
+						"<cite ref=\"Berakhot 25b:24\">Ber. 25ᵇ</cite> <he>רב אחאי איע׳ ליה לבריה</he> Rab A. busied himself with preparations for his son’s wedding. ",
+						"<cite ref=\"Bava Metzia 104b:15\">B. Mets. 104ᵇ</cite> <he>יהיבנא לך לאִיעַסּוּקֵי ביה</he> (Ms. M. <he>לעַסּוּקֵי</he> <i>Pa.</i>) I gave it to thee to do business with (but not to spend thy share for personal use); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to dispute, quarrel</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 26:20\">Targ. Gen. XXVI, 20</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

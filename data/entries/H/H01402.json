@@ -1,0 +1,40 @@
+{
+	"id": "H01402",
+	"slug": "חסן-2",
+	"headword": {
+		"text": "חֲסַן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 489,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>חֲסַל</he> I), <i>Af.</i> <he>אַחְסֵין</he> <i>to wean</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:8\">Targ. Y. Gen. XXI, 8</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַסַּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be weaned</i>. Ib.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be fully compensated</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 11:31\">Targ. Prov. XI, 31</cite> (h. text <he>יְשֻׁלָּם</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

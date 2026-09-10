@@ -1,0 +1,24 @@
+{
+	"id": "E00470",
+	"slug": "היסח",
+	"headword": {
+		"text": "הֶיסֵּחַ"
+	},
+	"page": {
+		"number": 348,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נסח</he>) <i>removal</i>, only in <he>ה׳ הדעת</he> <i>discarding from the mind, being given up, diverted attention</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:4:6\">Y. Ter. VIII, 46ᵇ</cite> top <he>לא נפסלה בה׳ הד׳</he> it (the T’rumah) has not become degraded by your giving up the hope of using it. ",
+				"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>ה׳ הד׳ דבר תורה</he> the law declaring T’rumah degraded by being given up is Biblical. ",
+				"<cite ref=\"Sanhedrin 97a:4\">Snh. 97ᵃ</cite> three things happen <he>בה׳ הד׳</he> when least thought of. V. <cite ref=\"E00707\"><he>הֶסּיעַ</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "N00942",
+	"slug": "נסיס-2",
+	"headword": {
+		"text": "נְסִיס"
+	},
+	"page": {
+		"number": 917,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"N00941\">same</cite>, <i>evil, trouble</i>. Targ. II Esth. I, 3 <he>נ׳ לנונין</he> a trouble to the fish. [<cite ref=\"Aramaic Targum to Ecclesiastes 5:16\">Targ. Koh. V, 16</cite> <he>בִּנְסִיס</he>, <cite ref=\"B00000\"><he>ב</he></cite> radical, v. <cite ref=\"B00962\"><he>בְּנַס</he></cite>; perh. to be read: <cite ref=\"B00963\"><he>בִּנְסָא</he></cite>.]—Pl. <he>נְסִיסִין</he>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 2:17\">Koh. R. to II, 17</cite> <he>תלת נ׳ בישין</he> three great evils."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " adj. constr. <i>suffering, weak</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 22:22\">Targ. Y. Lev. XXII, 22</cite> <he>נ׳ עיני</he> Ar. (ed. <he>עינוי לקיין</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "H00740",
+	"slug": "חייס-2",
+	"headword": {
+		"text": "חַיִיס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 455,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>חוּס</he> 2) <i>connection, relationship, legally recognized ancestry or descent</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 69a:5\">Kidd. 69ᵃ</cite> <he>עבד אין לו ח׳</he> a slave has no legal relations (paternity); <cite ref=\"Yevamot 23a:8\">Yeb. 23ᵃ</cite>. ",
+				"<cite ref=\"Bava Kamma 88a:20\">B. Kam. 88ᵃ</cite> <he>שאין להם ח׳ בנים</he> who have no legitimate sons (i.e. slaves); <he>שאין להם ח׳ אבות</he> who have no legitimate parentage. ",
+				"<cite ref=\"Bava Kamma 88a:20\">Ib.</cite> <he>גר נהי דאין לו ח׳ למעלה וכ׳</he> the proselyte, though he has no relationship upwards (with his relations before his conversion), has relations downwards (with his children born in Judaism); a. e."
+			]
+		}
+	]
+}

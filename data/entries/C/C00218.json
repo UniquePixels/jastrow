@@ -1,0 +1,27 @@
+{
+	"id": "C00218",
+	"slug": "גדיש-2",
+	"headword": {
+		"text": "גָּדִישׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 212,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00253\"><he>גדש</he></cite>)<i>a heap</i>, esp. of sheaves, <i>shock</i> or <i>stack of grain;</i> [in b. h. also <i>mound</i>]. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 5:7\">B. Mets. V, 7</cite> <he>פוסק עמו על הג׳</he> he may conclude a bargain with him (the early harvester) for the grain in the stack (though no price has been published as yet). ",
+				"<cite ref=\"Mishnah Peah 6:2\">Peah VI, 2</cite>. ",
+				"<cite ref=\"Mishnah Yadayim 4:7\">Yad. IV, 7</cite>.—Pl. <he>גְּדִישִׁים</he>, <he>גְּדִישִׁין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 51:11\">Gen. R. s. 51</cite> end. ",
+				"<cite ref=\"Bava Kamma 60b:23\">B. Kam. 60ᵇ</cite>. Pesik. Shubah p. 164ᵃ <he>ג׳ ג׳ של עבירות</he> heaps of sins; a. e. [V. <cite ref=\"C00190\"><he>גָּדוּשׁ</he></cite>.]"
+			]
+		}
+	]
+}

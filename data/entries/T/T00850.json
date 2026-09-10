@@ -1,0 +1,35 @@
+{
+	"id": "T00850",
+	"slug": "רננה",
+	"headword": {
+		"text": "רְנָנָה"
+	},
+	"page": {
+		"number": 1484,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <cite ref=\"T00849\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>evil talk</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 26a:1\">Yeb. 26ᵃ</cite> top (in Chald. dict.) <he>בר׳ לא מפקינן</he> on mere talk we do not require a husband to divorce his wife."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>meditation; prayer; song</i>.—Pl. <he>רְנָנוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Berakhot 17a:15\">Ber. 17ᵃ</cite> <he>לשונך ירחיש ר׳</he> may thy tongue be abundant in reflections. ",
+				"<cite ref=\"Berakhot 29a:12\">Ib. 29ᵃ</cite> <he>כנגד כ״ד ר׳ וכ׳</he> corresponding to the twenty-four expressions for prayer which Solomon used (<cite ref=\"I Kings 8:23-53\">I Kings VIII, 23-53</cite>); <cite ref=\"Shabbat 30a:7\">Sabb. 30ᵃ</cite> (v. Rashi); <cite ref=\"Bamidbar Rabbah 14:3\">Num. R. s. 14<sup>3</sup></cite> (expl. in a gloss by ref. to <cite ref=\"II Chronicles 6:18-41\">II Chr. VI, 18-41</cite>); <cite ref=\"Midrash Tehillim 24:8\">Midr. Till. to Ps. XXIV</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

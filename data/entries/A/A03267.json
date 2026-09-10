@@ -1,0 +1,34 @@
+{
+	"id": "A03267",
+	"slug": "אשוה",
+	"headword": {
+		"text": "אַשְׁוָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַשְׁוָוה"
+		},
+		{
+			"text": "אַשְׁיָיָא"
+		},
+		{
+			"text": "אַשְׁוָו׳"
+		}
+	],
+	"page": {
+		"number": 127,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00391\"><he>שוי</he></cite>, cmp. <cite ref=\"A03300\"><he>אַשְׁיְתָא</he></cite> a. <cite ref=\"A03279\"><he>אַשְׁוָתָא</he></cite>) <i>skein, reel, clue</i>, esp. <i>staff around which the wool is put, spool</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 21:1\">Kel. XXI, 1</cite> the wool which is on the distaff <he>ובא׳</he> Ar. (ed. <he>בא׳</he> corr. acc.) or on the spool. ",
+				"<cite ref=\"Tosefta Keilim Batra 1:6\">Tosef. Kel. B. Bath. I, 6</cite> <he>צמר שעל גבי האַשְׁוָוה</he> ed. Zuck. (Var. <he>אשה</he>, cler. err.)."
+			]
+		}
+	]
+}

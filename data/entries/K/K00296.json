@@ -1,0 +1,138 @@
+{
+	"id": "K00296",
+	"slug": "כון-1",
+	"headword": {
+		"text": "כּוּן"
+	},
+	"page": {
+		"number": 621,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to stand, exist, be firm</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיוֵּון"],
+			"senses": [
+				{
+					"gloss": "<i>to straighten</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 308:3\">Sifré Deut. 308</cite> <he>מְכַוְּונוֹ במעגילה</he> he tries to straighten the wood in a press; <cite ref=\"Yalkut Shimoni on Torah 942:11\">Yalk. Deut. 942</cite> (not <he>מכינן</he>); Pesik. Zutr. Haăz. (ed. Bub. V, p. 111) <he>נתנו לאומן שיְכַוְּונוֹ</he> he gave it to a mechanic to straighten it."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to place in a line, direct</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makkot 2:5\">Macc. II, 5</cite> (<cite ref=\"Makkot 9b:9\">9ᵇ</cite>) <he>מְכַוְּונִין להן דרך וכ׳</he> Ms. M. (ed. <he>ומְכוּוָּנוֹת להן דרכים</he>, v. infra) we make for them direct roads from one place of refuge to the other."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to determine exactly</i> (place, time &c.). Y. Erub. V, 22ᶜ <he>לְכַוֵּין את הרוחות</he> how to determine exactly the four cardinal points (v. <cite ref=\"T00128\"><he>רָבַע</he></cite>). Ib. bot. <he>הארון היה מְכַוֵּין וכ׳</he> the Ark indicated for them the points of the compass. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite>, beg., v. <cite ref=\"K00211\"><he>כִּוּוּן</he></cite>. ",
+						"<cite ref=\"Moed Katan 10a:1\">M. Kat. 10ᵃ</cite> <he>אין יכול לכַוֵּין אימרא וכ׳</he> is unable to sew the fringe accurately on the bosom of the shirt. ",
+						"<cite ref=\"Berakhot 7a:8\">Ber. 7ᵃ</cite> <he>לכַוֵּין אותה שעה</he> to seize the opportunity of just that moment; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (with <cite ref=\"L00030\"><he>לב</he></cite> or sub. <cite ref=\"L00030\"><he>לב</he></cite>) <i>to direct</i> or <i>prepare one’s mind, to pay attention, to do a thing with an intention</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 2:1\">Ber. II, 1</cite> <he>אם כ׳ לבו</he> if he (while reading in the Law) had his mind directed (to the Sh’ma); <cite ref=\"Berakhot 13a:23\">ib. 13ᵃ</cite> <he>אם כ׳ לבו לקרות</he> it means, he read with attention (to the sense, not merely like one going over the text for correction). ",
+						"<cite ref=\"Rosh Hashanah 28b:2\">R. Hash. 28ᵇ</cite> <he>כ׳ לבו לצאת</he> he had the intention of complying with the law (v. <cite ref=\"J00515\"><he>יָצָא</he></cite>); opp. (<he>כ׳</he>) <he>לשמוע</he> he directed his attention to listening, i.e. heard the sound with consciousness (but without devotion); v. <cite ref=\"K00213\"><he>כַּוָּונָה</he></cite>. ",
+						"<cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite> <he>היו שוהין … כדי שיְכַוְּונוּ לבם וכ׳</he> tarried a while before prayer, in order to direct their hearts to their Father in heaven. Y. ib. II, 5ᵃ <he>חזקה כִּוֵּין</he> the presumption is that he read with attention; a. fr.—<i>Part. pass.</i> <cite ref=\"M01354\"><he>מְכוּוָּן</he></cite>, f. <he>מְכוּוָּנָה</he>, <he>מְכוּוֶּנֶת</he>; pl. <he>מְכוּוָּנִים</he>, … <he>נִין</he>; <he>מְכוּוָּנוֹת</he> "
+					],
+					"label": "4",
+					"senses": [
+						{
+							"gloss": " <i>in a line, corresponding</i>. Y. Kil. V, beg. 30ᵇ <he>עריס המכ׳</he> a straight bed of vines, opp. <he>מעוקם</he>. ",
+							"units": [
+								"<cite ref=\"Yoma 2a:4\">Ib.</cite> <he>מכ׳ הן</he> they (the vines) are in a straight line. Y. Ber. IV, 8ᶜ top <he>בית … מ׳ כנגד … של מעלן</he> the situation of the earthly Holy of Holies corresponds with that of the heavenly &c. ",
+								"<cite ref=\"Mishnah Makkot 2:5\">Macc. II, 5</cite> <he>ומכוונות להן דרכים</he> (not … <he>נת</he>), v. supra. ",
+								"<cite ref=\"Makkot 9b:18\">Ib. 9ᵇ</cite> <he>ומכוונות היו כמין וכ׳</he> (Ms. M. <he>ומכוונין הן</he>) and they (the three towns on this side and those on the other side of the Jordan respectively) were in straight parallel lines like two rows in a vineyard; a. fr.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>exact, precise</i>. ",
+							"units": [
+								"<cite ref=\"Mishnah Tahorot 3:1\">Toh. III, 1</cite> sq. <he>כביצה מ׳</he> exactly the quantity of an egg. ",
+								"<cite ref=\"Mishnah Mikvaot 7:6\">Mikv. VII, 6</cite>; <cite ref=\"Chagigah 19a\">Ḥag. 19ᵃ</cite>; <cite ref=\"Gittin 16a:8\">Gitt. 16ᵃ</cite>"
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵכִין"],
+			"senses": [
+				{
+					"gloss": "<i>to put in proper position, to prepare; to hold ready, to designate</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 2b:10\">Bets. 2ᵇ</cite> (ref. to <cite ref=\"Exodus 16:5\">Ex. XVI, 5</cite>) <he>חול מֵכִין לשבתוכ׳</he> a week day prepares for the Sabbath (that which has become ready for use on a week day may be used on the Sabbath), but a Holy Day does not prepare for the succeeding Sabbath, <he>ואין שבת מֵכִינָה ליו״ט</he> nor can the Sabbath prepare for a succeeding Holy Day, v. <cite ref=\"E00517\"><he>הֲכָנָה</he></cite>.—",
+						"<cite ref=\"Megillah 12b:10\">Meg. 12ᵇ</cite> (play on <cite ref=\"M01648\"><he>ממוכן</he></cite>, <cite ref=\"Esther 1:14\">Esth. I, 14</cite>) <he>כלום הֵכִינוּ וכ׳</he> have they (the Persians) arranged a table before thee?; Esth. R. to l. c. <he>מי מֵכִין וכ׳</he> who arranges an altar &c.?; a. fr.—[<cite ref=\"Tosefta Ma'asrot 1:4\">Tosef. Maasr. I, 4</cite> <he>משיכינו</he> ed. Zuck., Var. <he>משייבינו</he>, read: <he>משיניצו</he>.]—<i>Part. pass.</i> <cite ref=\"M00475\"><he>מוּכָן</he></cite> <i>prepared, designated, ready</i>. ",
+						"<cite ref=\"Mishnah Beitzah 1:2\">Bets. I, 2</cite> <he>עפר מ׳ מבעוד יום</he> dust (for covering the blood) made ready a day before. ",
+						"<cite ref=\"Mishnah Beitzah 1:2\">Ib.</cite> <he>אפר כירה מ׳ הוא</he> ashes of the stove are considered ready (destined to be used for the purpose). Ib. III, 4 <he>אין זה מן המ׳</he> this is not among the things designated for use on the Holy Day. Ib. IV, 6.—Meg. l. c. (play on <cite ref=\"M01648\"><he>ממוכן</he></cite>, v. supra) <he>שמ׳ לפורענות</he> he was ready for evil; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְכַּיֵּון", "הִתְכַּוֵּון"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְכַּוֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to be made straight, to be remedied</i> (cmp. <cite ref=\"V00549\"><he>תכן</he></cite>). Pesik. Zutr. l. c. <he>אין אתם מִתְכַּוְּונִים אלא באור</he> you (your crookedness) can be remedied only through fire; Sifré Deut. l. c. <he>אין אתם הולכים אלא לאור</he>; Yalk. Deut. l. c. <he>הולכין אלא לאחור</he> (corr. acc.).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to prepare one’s self</i>. Y. Meg. I, 71ᶜ (ref. to <he>הִכּוֹן</he>, <cite ref=\"Amos 4:12\">Am. IV, 12</cite>) <he>הִתְכַּוֵּון לקראת וכ׳</he> put thyself in proper condition to meet thy God.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to intend, propose</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite> <he>עד שיהא מִתְכַּ יֵן</he> unless he did it with malicious intent. ",
+						"<cite ref=\"Tosefta Nazir 3:10\">Tosef. Naz. III, 10</cite> <he>לא נִתְכַּוַּונְתִּי אלא כמותה</he> my intention was to be exactly like her (as to her vow). ",
+						"<cite ref=\"Tosefta Nazir 3:14\">Ib. 14</cite> <he>מי שנ׳ לעלות וכ׳</he> if he who had the intention to eat the flesh of swine &c.; v. <cite ref=\"P00772\"><he>עָלָה</he></cite>. ",
+						"<cite ref=\"Shabbat 22a:6\">Sabb. 22ᵃ</cite> <he>ובלבד שלא יִתְכַּוֵּין וכ׳</he> provided he has not the intention of making a groove.—",
+						"<cite ref=\"Beitzah 23a\">Bets. 23ᵃ</cite>, a. fr. <he>דבר שאינו מִתְכַּ׳</he> a forbidden act which was produced without intent, i.e. an unintended but unavoidable effect of a permitted act. ",
+						"<cite ref=\"Rosh Hashanah 28b:10\">R. Hash. 28ᵇ</cite>. ",
+						"<cite ref=\"Pesachim 53b\">Pes. 53ᵇ</cite>, a. fr. <he>שניהם … נִתְכַּוְּונוּ</he> both meant the same thing; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["כּוֹנֵן"],
+			"senses": [
+				{
+					"gloss": "<i>to establish, base firmly</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 15:7\">Ex. R. s. 15</cite> <he>מבקש לְכוֹנֵן עולמים</he> wanted to establish worlds. ",
+						"<cite ref=\"Shemot Rabbah 15:7\">Ib.</cite> <he>על אלו אני מְכוֹנֵן וכ׳</he> upon those (the patriarchs) I will establish the world.—Part. pass. <cite ref=\"M01358\"><he>מְכוֹנָן</he></cite>, f. <he>מְבוֹנֶנֶת</he>. Midr. Sam. ch. XVI (ref. to <he>הכינני</he>, <cite ref=\"I Kings 2:24\">I Kings II, 24</cite>) <he>בזכות התורה המ׳ בארון</he> (the world exists) for the sake of the Law that is put up straight in the holy Ark."
+					]
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

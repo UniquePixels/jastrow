@@ -1,0 +1,30 @@
+{
+	"id": "M01562",
+	"slug": "מליף",
+	"headword": {
+		"text": "מַלֵּיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַלֵּף"
+		}
+	],
+	"page": {
+		"number": 790,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>מְאַלֵּף</he>; <cite ref=\"A01933\"><he>אֲלַף</he></cite>) <i>teacher</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 19:20\">Targ. I Sam. XIX, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 3:17\">Targ. Ez. III, 17</cite>.—Pl. <cite ref=\"M01610\"><he>מַלְּפִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 6:17\">Targ. Jer. VI, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 50:4\">Targ. Is. L, 4</cite>; a. e."
+			]
+		}
+	]
+}

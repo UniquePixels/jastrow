@@ -1,0 +1,30 @@
+{
+	"id": "S00080",
+	"slug": "קבלתא",
+	"headword": {
+		"text": "קְבֵלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְבֵילְ׳"
+		}
+	],
+	"page": {
+		"number": 1310,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קְבַל</he> II) <i>outcry, plaint</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:20\">Targ. Gen. XVIII, 20</cite> (Y. ed. Amst. <he>קבילית</he>, read <he>קְבֵילַת</he>). Targ. O. ib. 21 (ed. Vien. <he>קְבִלְ׳</he>; Y. I <cite ref=\"S00859\"><he>קִיבֵּילְתָּא</he></cite>; Y. II <he>קְכָלַתְ׳</he>). ",
+				"<cite ref=\"Onkelos Exodus 22:22\">Targ. O. Ex. XXII, 22</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 34:28\">Targ. Job XXXIV, 28</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 7:6\">Targ. Koh. VII, 6</cite> <he>קִיבְלַת כובין</he> the plaintive sound of crackling thorns."
+			]
+		}
+	]
+}

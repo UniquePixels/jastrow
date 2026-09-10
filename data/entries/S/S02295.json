@@ -1,0 +1,22 @@
+{
+	"id": "S02295",
+	"slug": "קתרא",
+	"headword": {
+		"text": "קְתָרָא"
+	},
+	"page": {
+		"number": 1434,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02294\">preced.</cite>, cmp. also <cite ref=\"S02292\"><he>קתלא</he></cite> a. <he>כתלא</he>; v. P. Sm. 3777) <i>rocky cleft</i>.—Pl. <he>קְתָרִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:26\">Targ. Prov. XXX, 26</cite> (ed. Lag. <he>קְתָארִי</he>; h. text <cite ref=\"O01015\"><he>סלע</he></cite>)."
+			]
+		}
+	]
+}

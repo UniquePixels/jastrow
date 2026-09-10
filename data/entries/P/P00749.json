@@ -1,0 +1,42 @@
+{
+	"id": "P00749",
+	"slug": "עכר-1",
+	"headword": {
+		"text": "עָכַר"
+	},
+	"page": {
+		"number": 1079,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to stir up, disturb; to trouble, make turbid; to sadden</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 5a:4-15\">Sot. 5ᵃ</cite> <he>כל אדם … עוֹכַרְתּוֹ</he> if a man has swelling of wind (haughtiness) in him, the slightest breeze will trouble him (the slightest adversity will upset him); <he>מה ים … עוכרתו וכ׳</he> if the sea … is stirred up by the slightest breeze &c. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 1:2:7\">Y. Keth. I, 25ᵇ</cite> bot. <he>לעוֹכֵר את העין וכ׳</he> (not <he>לעובר</he>) like one troubling the eye, which becomes clear again. ",
+				"<cite ref=\"Berakhot 25b:6\">Ber. 25ᵇ</cite> <he>עוֹכְרָן ברגלו</he> he must stir them up with his foot. ",
+				"<cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite>, end (ref. to <he>עכרתם</he>, <cite ref=\"Genesis 34:30\">Gen. XXXIV, 30</cite>) <he>צלולה היתה החבית ועֲכַרְתֶּם אותה</he> the wine in the cask was clear, and you have troubled it; Yalk. ib. 135 <he>ועֲכַרְתּוּהָ</he>. ",
+				"<cite ref=\"Niddah 20a:92\">Nidd. 20ᵃ</cite> <he>צללו חוזר ועוכרן</he> if the mixture became clear (the earth settled), he must stir it again; a. fr.—Part. pass. <cite ref=\"P00732\"><he>עָכוּר</he></cite>; f. <he>עֲכוּרָה</he>; pl. <he>עֲכוּרִים</he>, <he>עֲכוּרִין</he>; <he>עֲכוּרוֹת</he>. ",
+				"<cite ref=\"Niddah 20a:92\">Ib.</cite> <he>אין … צלולין אלא ע׳</he> you must not examine the mixture when it is clear, but when it is turbid; Tosef. ib. III, 11. Gen. R. l. c. <he>ע׳ היתה … וצללנו אותה</he> the wine was turbid, and we cleared it (we redeemed our honor). ",
+				"<cite ref=\"Sanhedrin 44b:8\">Snh. 44ᵇ</cite>; <cite ref=\"Vayikra Rabbah 9:1\">Lev. R. s. 9</cite> (ref. to <cite ref=\"Joshua 7:25\">Josh. VII, 25</cite>) <he>היום הזה אתה ע׳ ואי אתה ע׳ וכ׳</he> thou art troubled (punished) this day, but thou shalt not be troubled in the hereafter. ",
+				"<cite ref=\"Sifrei Devarim 48:5\">Sifré Deut. 48</cite> <he>שתה ממים של בוראך … מים ע׳ וכ׳</he> drink of the water of thy Creator’s well, and drink not muddy water, nor be attracted by the words of the heretics; <cite ref=\"Yalkut Shimoni on Nach 937:15\">Yalk. Prov. 937</cite>; a. fr.—",
+				"<cite ref=\"Shemot Rabbah 22\">Ex. R. s. 22</cite> (ref. to <cite ref=\"Job 16:17\">Job XVI, 17</cite>) <he>וכי יש תפלה ע׳</he> is there also a turbid prayer? <cite ref=\"Job 16:17\">Ib.</cite> <he>מנין … שתפלתו ע׳</he> where is it intimated that the prayer of him in whose hand is robbery, is turbid (rejected)?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶעְכָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be stirred up; to become turbid, dreggy, foul</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 9a\">Nidd. 9ᵃ</cite> <he>דם נ׳ ונעשה חלב</he> the blood (of a pregnant animal) is disturbed (decomposed), and turns into milk. Y. Sot. IV, 19ᶜ bot. <he>אין החלב נ׳ וכ׳</he> the milk (of a nursing woman) becomes turbid only after three months (after conception). Y. Nidd. II, end, 50ᵇ <he>יצללו ולא יֵעָכְרוּ</he> the water mixed with earth must settle and not be stirred up again; a. fr.—",
+						"<cite ref=\"Mishnah Menachot 9:5\">Men. IX, 5</cite> (<cite ref=\"Menachot 90a\">90ᵃ</cite>) <he>הלח נ׳ היבש אינו נ׳</he> (Bab. ed. <cite ref=\"P01213\"><he>נעקר</he></cite>; Ms. M. <cite ref=\"P00059\"><he>נעבר</he></cite>, corr. acc.; v. Rabb. D. S. a. l. note) liquid emptied from a large measure into a smaller one is stirred up (and what remains in the large measure partakes of the sacred character of the liquid in the smaller, sacred vessels), whereas dry objects are not stirred up."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

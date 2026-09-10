@@ -1,0 +1,23 @@
+{
+	"id": "H00957",
+	"slug": "חל-4",
+	"headword": {
+		"text": "חַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 463,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01073\"><he>חלל</he></cite>, cmp. <cite ref=\"H01030\"><he>חָלֵי</he></cite>) <i>weak, mild</i> (wine). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 8:8\">Targ. Y. Deut. VIII, 8</cite>, opp. <cite ref=\"H01686\"><he>חָרִיף</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M01944",
+	"slug": "מסכה-2",
+	"headword": {
+		"text": "מַסֵּכָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 807,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"O00903\"><he>סָכַךְ</he> I)</cite><i>web, garment</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 42:8\">Ex. R. s. 42</cite>, end (ref. to <cite ref=\"Exodus 32:8\">Ex. XXXII, 8</cite>) <he>מ׳ רעה הֵסַכְתֶּן לדורות משתי וכ׳</he> a bad web have you woven for future generations (follows the Chaldaic translation).—V. <cite ref=\"M01955\"><he>מַסֶּכֶת</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"id": "P01128",
+	"slug": "עצם-2",
+	"headword": {
+		"text": "עֶצֶם"
+	},
+	"page": {
+		"number": 1103,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01127\">preced.</cite>) [<i>strength</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bone</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 7:21\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:21\">VIII</cite>), 21 <he>עמד ע׳ בגרונו</he> if a bone sticks in one’s throat; <cite ref=\"Shabbat 67a:17\">Sabb. 67ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Pesachim 7:11\">Pes. VII, 11</cite> <he>השובר את הע׳ וכ׳</he> he who breaks a bone of the Passover sacrifice. ",
+				"<cite ref=\"Mishnah Pesachim 7:12\">Ib. 12</cite> <he>שאין בו משום שבירת הע׳</he> because the prohibition to break a bone does not apply to it; a. v. fr.—Pl. <he>עֲצָמוֹת</he>. ",
+				"<cite ref=\"Mishnah Pesachim 7:10\">Ib. 10</cite>. ",
+				"<cite ref=\"Mishnah Pesachim 8:8\">Ib. VIII, 8</cite> <he>והמלקט לו ע׳</he> he who has the bones (of a parent) collected, v. <cite ref=\"L00677\"><he>לָקַט</he></cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>substance, essence, self</i> (v. <cite ref=\"P00645\"><he>עִיצּוּם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:14\">Ab. I, 14</cite> <he>וכשאני לעַצְמִי וכ׳</he> and if I am (I care) for myself only, what am I? <cite ref=\"Pirkei Avot 2:13\">Ib. II, 13</cite> <he>אל תהי רשע בפני עַצְמֶךָ</he> be not a wicked man in thine own sight (despair not of thyself). ",
+				"<cite ref=\"Berakhot 43a\">Ber. 43ᵃ</cite>; <cite ref=\"Tosefta Berakhot 4:8\">Tosef. ib. IV, 8</cite> <he>כל אחד ואחד מברך לעַצְמוֹ</he> each says the blessing for himself. ",
+				"<cite ref=\"Mishnah Zevachim 8:10\">Zeb. VIII, 10</cite> <he>כשהוא בעצמו</he> when it (the addition to, or the diminution from the prescribed action) stands by itself (is clearly visible); <cite ref=\"Rosh Hashanah 28b\">R. Hash. 28ᵇ</cite>; <cite ref=\"Eruvin 100a\">Erub. 100ᵃ</cite>. ",
+				"<cite ref=\"Sifrei Devarim 19:1\">Sifré Deut. 19</cite> <he>לא מעַצְמִי אני וכ׳</he> I did not say that of my own accord (as my idea), but at the command of God. ",
+				"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>; Tanḥ. Bal. 13 <he>בקש לילך לעצמו וכ׳</he> he wanted to go to himself (go home); a. v. fr.—Pl. constr. <he>עַצְמֵי</he>. ",
+				"<cite ref=\"Sifrei Devarim 16:2\">Sifré Deut. 16</cite> <he>לשעבר … עַצְמֵיכֶם וכ׳</he> in the past you were your own masters, now you are servants and subjects of the community; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>substance, wealth</i>, esp. <i>live stock</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 111:15\">Yalk. Gen. 111</cite> (ref. to <he>וַעֲבֻדָּה</he>, <cite ref=\"Genesis 26:14\">Gen. XXVI, 14</cite>) <he>וַעֲבָדָהּ כתיב אם אין אדם נעשה כעבד לעַצְמוֹ וכ׳</he> it may be read ‘and he shall serve it’, unless a man become like a slave to his stock, he does not own it; <cite ref=\"Bereishit Rabbah 64:10\">Gen. R. s. 64</cite> <he>כמו עבד לעבדו</he> (read <he>לעצמו</he>; cmp. ",
+				"<cite ref=\"Sanhedrin 58b:24\">Snh. 58ᵇ</cite>).—Pl. as ab. Gen. R. l. c. (ref. to <he>עצמת ממנו</he>, <cite ref=\"Genesis 26:16\">Gen. XXVI, 16</cite>) <he>כל אותן ע׳ שעצמת ממני היה לך</he> all these possessions (herds and flocks) which thou hast obtained, are they not from us?; Yalk. l. c. <he>עֲצוּמוֹת</he>."
+			],
+			"label": "3"
+		}
+	]
+}

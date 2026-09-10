@@ -1,0 +1,28 @@
+{
+	"id": "Q00721",
+	"slug": "פינוי",
+	"headword": {
+		"text": "פִּינּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּנּ׳"
+		}
+	],
+	"page": {
+		"number": 1165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01162\"><he>פָּנָה</he></cite>) <i>emptying, clearing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 12:5\">Neg. XII, 5</cite>; Sifra M’tsorʿa, <cite ref=\"Mishnah Negaim 3\">Neg., ch. III</cite>, Par. 5 (ref. to <cite ref=\"Leviticus 14:36\">Lev. XIV, 36</cite>) <he>עסק הוא לפ׳</he> is the clearing of the house such important business?; <cite ref=\"Yalkut Shimoni on Torah 566:2\">Yalk. Lev. 566</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 566:1\">Ib.</cite> <he>בכהן הצווי ופ׳ בכל אדם</he> the order must be issued by the priest, but the clearing may be done by anybody; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "U01296",
+	"slug": "שליא-3",
+	"headword": {
+		"text": "שִׁלְיָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1582,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שָׁלָה</he> II, <cite ref=\"U01230\"><he>שָׁלֵו</he></cite>; cmp. ",
+			"units": [
+				"<cite ref=\"Zephaniah 1:12\">Zeph. I, 12</cite>; <cite ref=\"Jeremiah 48:11\">Jer. XLVIII, 11</cite>) <i>sediment, dregs</i>. ",
+				"<cite ref=\"Tosefta Bava Batra 5:7\">Tosef. B. Bath. V, 7</cite> <he>של יין משתיעשה ש׳</he> (Var. <he>משעשה</he>) the merchant’s wine measures must be cleaned as soon as sediment is formed (which diminishes their capacity)."
+			]
+		}
+	]
+}

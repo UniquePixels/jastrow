@@ -1,0 +1,36 @@
+{
+	"id": "K00263",
+	"slug": "כולב",
+	"headword": {
+		"text": "כּוּלָב"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּלְבָא"
+		},
+		{
+			"text": "כּוּלְבָה"
+		}
+	],
+	"page": {
+		"number": 620,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K00676\"><he>כָּלַב</he></cite>; cmp. <cite ref=\"Q00140\"><he>פֶּה</he></cite>, στόμα for <i>edge</i>) <i>a sharp instrument</i>, <i>axe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 13:20\">Targ. I Sam. XIII, 20</cite> (some ed. <he>כלוב׳</he>, Ar. <cite ref=\"K00275\"><he>כולכא</he></cite>; h. text <cite ref=\"S01915\"><he>קרדם</he></cite>).—",
+				"<cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite> <he>אייטו לי כולב</he> Ar. (ed. <he>אייתי לי קולב</he>), v. <cite ref=\"J00316\"><he>יְטִי</he></cite>.—",
+				"<cite ref=\"Vayikra Rabbah 4:1\">Lev. R. s. 4</cite> <he>הן די … זיינא כּוּלְבֵיה וכ׳</he> (not <he>זייניה כולבא</he>) where the owner of arms (warrior) hangs up his battle axe, the shepherd hangs up his bag, i.e. in the place of justice sits wickedness; <cite ref=\"Kohelet Rabbah 3:16\">Koh. R. to III, 16</cite> <he>קולביה</he>; (<cite ref=\"Yalkut Shimoni on Nach 969\">Yalk. Koh. 969</cite> <he>באתרא … זייניה</he> where the lord hangs up his armor). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 1:2:2\">Y. Naz. I, 51ᵇ</cite> <cite ref=\"K00263\"><he>כולבה</he></cite> a. <cite ref=\"K00263\"><he>כולבא</he></cite>; <cite ref=\"Jerusalem Talmud Nedarim 1:1:10\">Y. Ned. I, 36ᵈ</cite> top <he>כולכה</he>, v. <cite ref=\"S01621\"><he>קַנְתָּא</he></cite>.—Pl. <he>כּוּלְבַיָּיא</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 13:21\">Targ. I Sam. XIII, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 9:48\">Targ. Jud. IX, 48</cite> (Ar. <cite ref=\"K00265\"><he>כולכ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 74:5\">Targ. Ps. LXXIV, 5</cite>.—V. <cite ref=\"K00695\"><he>כָּלוּב</he></cite>."
+			]
+		}
+	]
+}

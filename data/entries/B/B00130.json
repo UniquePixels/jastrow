@@ -1,0 +1,37 @@
+{
+	"id": "B00130",
+	"slug": "בדי-2",
+	"headword": {
+		"text": "בְּדִי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּדָא"
+		}
+	],
+	"page": {
+		"number": 140,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00129\">same</cite>, <i>to invent</i>. Targ. Y. II. ",
+			"units": [
+				"<cite ref=\"Numbers 16:28\">Num. XVI, 28</cite> <he>בְּדֵית</he> (Var. <he>בָּדִית</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְבַּדִּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be declared wrong, to be mistaken</i>. Y. Yeb. VIII, 9ᶜ <he>עברת בִּידָּךְ תלתא נהרין ואִיתְבַּדַּת</he> thy story crossed three rivers (coming from Babylonia) and is found to be a mistake; Y. Sabb. II, 9ᵃ top <he>ואיתבר׳</he> (corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

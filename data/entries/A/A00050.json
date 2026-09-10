@@ -1,0 +1,26 @@
+{
+	"id": "A00050",
+	"slug": "אבהו",
+	"headword": {
+		"text": "אַבָּהוּ"
+	},
+	"page": {
+		"number": 3,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Abbahu</i>, name of two Palestine <i>Amoraim</i>, one prob. of the first gener. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:5\">Y. Ber. V, 8ᵈ</cite> bot; <cite ref=\"Jerusalem Talmud Bikkurim 2:1:9\">Y. Bicc. II, 64ᵈ</cite> top; the second a celebrated disciple of R. Yoḥannan, residing in Cæsarea. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:1:13\">Y. Ber. II, 4ᵇ</cite> top. ",
+				"<cite ref=\"Sukkah 48b:6\">Succ. 48ᵇ</cite>; a. fr.—Babylonian <i>Amoraim</i> by that name. ",
+				"<cite ref=\"Shabbat 119b:7\">Sabb. 119ᵇ</cite>; <cite ref=\"Kiddushin 33b:16\">Kidd. 33ᵇ</cite>, father of Rabbah, v. <cite ref=\"T00060\"><he>רַבָּה</he></cite>. ",
+				"<cite ref=\"Bava Kamma 117b:4\">B. Kam. 117ᵇ</cite>, contemp. of R. Ashé, v. <cite ref=\"A03283\"><he>אַשֵׁי</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "T01070",
+	"slug": "רשבין",
+	"headword": {
+		"text": "רִשְׁבִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִישְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1498,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. h. (<cite ref=\"T01069\">preced.</cite>) <i>traps</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 7:7\">B. Kam. VII, 7</cite> (<cite ref=\"Bava Kamma 79b\">79ᵇ</cite>), quot. in Rashi to <cite ref=\"Chullin 116a:15\">Ḥull. 116ᵃ</cite> (Mish. ed. <cite ref=\"N00793\"><he>נישבים</he></cite>; Bab. ed. <he>נישובין</he>, v. <cite ref=\"N00793\"><he>נִישְׁבִּים</he></cite>)."
+			]
+		}
+	]
+}

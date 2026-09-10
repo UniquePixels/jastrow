@@ -1,0 +1,29 @@
+{
+	"id": "P01131",
+	"slug": "עצר-2",
+	"headword": {
+		"text": "עֲצַר"
+	},
+	"page": {
+		"number": 1103,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <i>to press, squeeze</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:38\">Targ. Jud. VI, 38</cite>. ",
+				"<cite ref=\"Onkelos Genesis 40:11\">Targ. Gen. XL, 11</cite> (O. ed. Vien. <he>עַצָּרִית</he>, <i>Pa.</i>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 17:2:3\">Y. Sabb. XVII, 16ᵇ</cite> top; Y. Bets. I, 60ᵇ bot., v. <cite ref=\"G00349\"><he>זַיָּירָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to keep back, save</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 3:4:7\">Y. Taan. III, 66ᵈ</cite> top <he>עֲצוֹר וכ׳</he>, v. <cite ref=\"C00408\"><he>גּוֹלְתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

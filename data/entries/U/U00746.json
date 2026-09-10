@@ -1,0 +1,43 @@
+{
+	"id": "U00746",
+	"slug": "שטי-4",
+	"headword": {
+		"text": "שְׁטֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁטָא"
+		}
+	],
+	"page": {
+		"number": 1553,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00745\">same</cite>.—Part. <cite ref=\"U00747\"><he>שָׁטֵי</he></cite>, q. v.—[<cite ref=\"Targum Jonathan on I Samuel 17:42\">Targ. I Sam. XVII, 42</cite> <he>שַׁטְיֵה</he>, v. <cite ref=\"U00373\"><he>שׁוּט</he></cite> II ch.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּטֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to become</i> or <i>be demented, to rage; to be engaged in ecstatic exercises</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 18:10\">Targ. I Sam. XVIII, 10</cite> (h. text <he>ויתנבא</he>). ",
+						"<cite ref=\"Targum Jonathan on I Kings 18:29\">Targ. I Kings XVIII, 29</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 28:34\">Targ. Deut. XXVIII, 34</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 23:9\">Targ. Jer. XXIII, 9</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 20:29\">Targ. Ez. XX, 29</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 1:14\">Targ. I Sam. I, 14</cite> (h. text <he>תשתכרין</he>); a. e.—",
+						"<cite ref=\"Megillah 12b\">Meg. 12ᵇ</cite> <he>וההוא גברא א׳ בחמריה</he> and this man (thou, Ahasver) is demented from the small quantity of wine he drank. ",
+						"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite> (expl. <he>וילאו</he>, <cite ref=\"Genesis 19:11\">Gen. XIX, 11</cite>) <he>אִישְׁתַּטּוּן</he> they became demented (with ref. to <he>אויל</he>, <cite ref=\"Jeremiah 4:22\">Jer. IV, 22</cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

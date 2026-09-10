@@ -1,0 +1,23 @@
+{
+	"id": "M00247",
+	"slug": "מדברנא",
+	"headword": {
+		"text": "מְדַבְּרָנָא"
+	},
+	"page": {
+		"number": 731,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"M00243\"><he>מְדַבְּרָא</he></cite>, <i>leader</i>. Targ. II Esth. IV, 1. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:14\">Targ. Prov. XI, 14</cite>, v. <cite ref=\"M00243\"><he>מְדַבְּרָא</he></cite>.—",
+				"<cite ref=\"Sanhedrin 14a:12\">Snh. 14ᵃ</cite> <he>מ׳ דאומתיה</he> (Ms. K. <cite ref=\"D00087\"><he>דַּבְּרָנָא</he></cite>, v. <cite ref=\"D00087\"><he>דַּבְּרָן</he></cite>) leader of his people; <cite ref=\"Ketubot 17a:4\">Keth. 17ᵃ</cite>"
+			]
+		}
+	]
+}

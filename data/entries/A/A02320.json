@@ -1,0 +1,28 @@
+{
+	"id": "A02320",
+	"slug": "אסא-2",
+	"headword": {
+		"text": "אַסָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָסָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 88,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(?) (infin. of <he>אסי</he>, as noun) <i>healing, remedy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:19\">Targ. Jer. XIV, 19</cite> (Regia <cite ref=\"A02328\"><he>אַסּוּ</he></cite>). Targ. II. Chr. XXI, 18 <he>דְּלֵית א׳</he> <i>incurable</i>"
+			]
+		}
+	]
+}

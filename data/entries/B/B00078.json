@@ -1,0 +1,23 @@
+{
+	"id": "B00078",
+	"slug": "בגדתאה",
+	"headword": {
+		"text": "בַּגְדַתָּאָה"
+	},
+	"page": {
+		"number": 137,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>of Bagdath</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 67a:11\">Yeb. 67ᵃ</cite>; a. e.—",
+				"<cite ref=\"Sukkah 52b\">Succ. 52ᵇ</cite> Ms. M. (ed. <cite ref=\"B00010\"><he>באגדתא</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

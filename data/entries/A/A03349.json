@@ -1,0 +1,42 @@
+{
+	"id": "A03349",
+	"slug": "אשר-3",
+	"headword": {
+		"text": "אֲשַׁר"
+	},
+	"page": {
+		"number": 130,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A03348\">same</cite>. [<i>Ithpe.</i> <he>אִיתְּשַׁר</he> <i>to be strengthened</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 10:2\">Targ. Y. Deut. X, 2</cite> <he>יַיתְשַׁר</he>, prob. to be read <he>יִתְיַשַּׁר</he>, v. <he>ישר</he>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשַּׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to make strong</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 10b\">Keth. 10ᵇ</cite>; <cite ref=\"Gittin 70a\">Gitt. 70ᵃ</cite> (dates) <he>מְאַשְּׁרָן</he> give strength."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to confirm, verify;</i> also <i>to credit</i>, (<i>consider true</i>). ",
+					"units": [
+						"<cite ref=\"Ketubot 21a:11\">Keth. 21ᵃ</cite> <he>אַשַּׁרְנוּהִי וכ׳</he> we verified it &c., v. preced.—",
+						"<cite ref=\"Gittin 30b:3\">Gitt. 30ᵇ</cite> (prov.) <he>חברך מית א׳ וכ׳</he> if you are told, ‘your friend is dead’, believe it; ‘your friend has grown rich’ <he>לא תְאַשַּׁר</he> don’t trust."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

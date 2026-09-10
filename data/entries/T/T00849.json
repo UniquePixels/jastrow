@@ -1,0 +1,48 @@
+{
+	"id": "T00849",
+	"slug": "רננא",
+	"headword": {
+		"text": "רְנָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִנְנָא"
+		},
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1484,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"T00848\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>meditation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 39:4\">Targ. Ps. XXXIX, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 19:15\">Ib. XIX, 15</cite> <he>רִנְנַת</he> constr. (not <he>רגגת</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>murmuring, evil talk</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 36:3\">Targ. Ez. XXXVI, 3</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>song, joy, music</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:6\">Targ. Job III, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 92:4\">Targ. Ps. XCII, 4</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

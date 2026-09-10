@@ -1,0 +1,30 @@
+{
+	"id": "M00716",
+	"slug": "מזגא-1",
+	"headword": {
+		"text": "מִזְגָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיזְ׳"
+		},
+		{
+			"text": "מְזִיגָא"
+		}
+	],
+	"page": {
+		"number": 753,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00715\">same</cite>, <i>mixed wine, drink</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 23:30\">Targ. Prov. XXIII, 30</cite> <he>בית מ׳</he> drinking house (h. text <cite ref=\"M01674\"><he>ממִסך</he></cite>).—",
+				"<cite ref=\"Nedarim 55a:2\">Ned. 55ᵃ</cite> <he>הדין מי׳ דמי וכ׳</he> this prepared wine tastes like that prepared by &c.; <cite ref=\"Eruvin 54a:19\">Erub. 54ᵃ</cite> <he>דמי האי מזיגא וכ׳</he>. ",
+				"<cite ref=\"Bava Metzia 60a:11\">B. Mets. 60ᵃ</cite> <he>מ׳ דידי מידע ידיע</he> wine which I mixed is easily distinguished (because I make it very weak).—Trnsf. <he>מ׳ דעלמא</he> the banquet of the world, <i>the needs of life</i>. Cant. R. to VII, 4; [Matt. K.: <cite ref=\"M00719\"><he>מָזְגָּא</he></cite> the <i>butler of the world</i> (the Lord)].—Pl. <he>מִזְגֵּי</he>, v. <cite ref=\"M00717\">next w.</cite>"
+			]
+		}
+	]
+}

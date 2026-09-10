@@ -1,0 +1,26 @@
+{
+	"id": "M00599",
+	"slug": "מוקרא-2",
+	"headword": {
+		"text": "מוֹקְרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 748,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נְקַר</he> I, cmp. <cite ref=\"S00559\"><he>קוֹר</he> I</cite>) [<i>pickings</i>,] <i>marrow, brain</i> (v. <cite ref=\"M00454\"><he>מוֹחָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 21:24\">Targ. Job XXI, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:28\">Targ. Y. Deut. XXVIII, 28</cite> <he>דמטפשא מ׳</he> (not <cite ref=\"M00582\"><he>מוקדא</he></cite>) which makes the brain fat (dulls man’s reason, v. <cite ref=\"I00681\"><he>טְפַשׁ</he></cite>).—",
+				"<cite ref=\"Chullin 93a:10\">Ḥull. 93ᵃ</cite> <he>דביעי ודמ׳</he> the membrane covering the testicles and that covering the brain.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 111\">Yalk. Gen. 111</cite>, end; <cite ref=\"Bereishit Rabbah 64\">Gen. R. s. 64</cite>, end <he>מוקריה</he> some ed., v. <cite ref=\"M02400\"><he>מַקּוֹרָא</he></cite>.]—V. <cite ref=\"M00583\"><he>מוֹקְדָא</he> II</cite>."
+			]
+		}
+	]
+}

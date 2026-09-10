@@ -1,0 +1,40 @@
+{
+	"id": "V00642",
+	"slug": "תם-1",
+	"headword": {
+		"text": "תָּם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1674,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"V00692\"><he>תָּמַם</he></cite>)<i>perfect, unblemished</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 7b:64\">Tem. 7ᵇ</cite> (opp. <he>בעל מום</he>); <cite ref=\"Bava Kamma 12b:10\">B. Kam. 12ᵇ</cite>; (<cite ref=\"Mishnah Maaser Sheni 1:2\">Maas. Sh. I, 2</cite> <cite ref=\"V00677\"><he>תָּמִים</he></cite>); a. fr.—<i>Fem.</i> <he>תַּמָּה</he>. ",
+				"<cite ref=\"Shabbat 103b\">Sabb. 103ᵇ</cite>, v. <cite ref=\"K01358\"><he>כְּתִיבָה</he></cite>. ",
+				"<cite ref=\"Sukkah 37a\">Succ. 37ᵃ</cite>, v. <cite ref=\"L00685\"><he>לְקִיחָה</he></cite>. Tanḥ. Emor 18 (ref. to <he>ול̇ק̇ח̇ת̇ם̇</he>, <cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>) <he>בל̇ק̇יח̇ה ת̇מ̇ה וכ׳</he> by a real (honest) purchase: thou darest not steal (a Lulab), and stand with it (before God) &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>simple, innocent, artless</i>. Mekh. Bo, s. 18 <he>ארבעה … ואחד תם וכ׳</he> there are four characters in children (as regards their attitude towards religious ceremonies): one is wise, and one is simple &c.; (<cite ref=\"Yalkut Shimoni on Torah 225:3\">Yalk. Ex. 225</cite> <he>טיפש</he>); a. e.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (law) <i>an innocuous animal, one that did injury for the first time</i>, or <i>before warning had been given</i>, opp. <cite ref=\"M00556\"><he>מוּעָד</he></cite> (v. ",
+			"units": [
+				"<cite ref=\"Exodus 21:28-36\">Ex. XXI, 28-36</cite>). ",
+				"<cite ref=\"Mishnah Bava Kamma 1:4\">B. Kam. I, 4</cite> <he>התם משלם וכ׳</he> the <i>tam</i> pays half-damage from the sale of its own body. ",
+				"<cite ref=\"Mishnah Bava Kamma 2:4\">Ib. II, 4</cite> <he>איזה הוא תם … משיחזור וכ׳</he> when is an animal called <i>tam</i>?… When it shows its regret for three days, i.e. when it has done an injury and does not repeat it for three days afterwards; <cite ref=\"Mishnah Bava Kamma 2:4\">ib.</cite> (another opin.) <he>ותם כל שיהו וכ׳</he> <i>tam</i> is one which does not gore when children touch it; a. v. fr.—Pl. <cite ref=\"V00677\"><he>תַּמִּים</he></cite>, <cite ref=\"V00749\"><he>תַּמִּין</he></cite>. Ib. I, 4 <he>חמשה ת׳ וכ׳</he> there are five classes of <i>tammin</i>, i.e. an animal is considered a <i>tam</i> with regard to five classes of damages (so as to require legal warning): with regard to goring, striking &c.; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "U00157",
+	"slug": "שבע-3",
+	"headword": {
+		"text": "שָׁבַע"
+	},
+	"page": {
+		"number": 1515,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"N01288\"><he>נִשְׁבַּע</he></cite> (b. h.) <i>to be sworn, to swear</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shevuot 3:6\">Shebu. III, 6</cite> <he>נ׳ לבטל וכ׳</he> if a person swears that he will omit to perform a commandment. ",
+						"<cite ref=\"Mishnah Shevuot 6:4\">Ib. VI, 4</cite> <he>אין נִשְׁבָּעִין על וכ׳</he> no oath is imposed in refutation of a claim of a deaf and mute, or of an insane person, or of a minor, nor do we administer an oath to a (claimant) minor, <he>אבל נשבעין לקטן וכ׳</he> but you must make oath when suing a minor or the sacred treasury. ",
+						"<cite ref=\"Mishnah Shevuot 6:7\">Ib. 7</cite> <he>ומי נ׳ מי … שמא יִשָּׁבַע זה וכ׳</he> which of them is first admitted to an oath? He with whom the (lost) pledge was deposited, lest this one (the debtor) swear (to the value of the pledge), and the other produce the pledge (and prove him a perjurer). ",
+						"<cite ref=\"Mishnah Shevuot 7:1\">Ib. VII, 1</cite> <he>כל הנשבעין שבתורה נשבעין וכ׳</he> all those bound to swear according to Biblical law swear and are free from payment, but the following swear and receive (are awarded their claim). ",
+						"<cite ref=\"Shevuot 32b:6\">Ib. 32ᵇ</cite> <he>ואינו יכול לִישָּׁבֵעַ</he>, v. <cite ref=\"U00081\"><he>שְׁבוּעָה</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשְׁבִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to adjure; to impose, administer an oath</i>. Ib. IV, 3 <he>אמרו אין אנו … מַשְׁבִּיעַ אני עליכם וכ׳</he> if they say, we know no testimony in thy case, (and he says,) I adjure you, and they say, Amen: they are guilty (if they could testify). Ib. <he>ה׳ עליהן … חוץ וכ׳</he> if he adjured them five times out of court, and coming before court they confess (that they know testimony), they are acquitted. Ib. VIII, 2 <he>מַשְׁבִּיעֲךָ אני וכ׳</he> I adjure thee, and he says, Amen. Ib. 29ᵃ; 39ᵃ, a. e. <he>וכשמַשְׁבִּיעִין אותו … אנו משביעין אותך וכ׳</he> and when the court administers an oath to him, they say to him, know that we cause thee to swear not in thy sense, but in the sense of God and in the sense of the court; a. fr.—Part. pass. <he>מוּשְׁבָּע</he>; pl. <he>מוּשְׁבָּעִין</he>. Ib. 31ᵃ <he>מ׳ מפי עצמו</he> one who is sworn on his own demand (in his own case); <he>מ׳ מפי אחרים</he> one who is sworn on other people’s demands (as a supposed witness that claims ignorance). Ib. III, 6 <he>הרשות שאינו מ׳ עליה מהר סיני</he> a religiously indifferent act, on which he is not sworn from Mount Sinai; <he>מצוה שהוא מ׳ וכ׳</he> a religious act on which he is sworn &c. Ib. 21ᵇ; 22ᵇ, v. <cite ref=\"O00737\"><he>סִינַי</he></cite>; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

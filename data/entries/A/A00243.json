@@ -1,0 +1,41 @@
+{
+	"id": "A00243",
+	"slug": "אגד-5",
+	"headword": {
+		"text": "אֲגַד",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "אַגְדָא"
+		}
+	],
+	"page": {
+		"number": 10,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00242\">foreg.</cite>) <i>long staff</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>crutch</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 3:29\">Targ. II Sam. III, 29</cite> (some ed. <cite ref=\"A00340\"><he>אגר</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pole</i> used as a yoke to carry burdens on the shoulder. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 83a:9\">B. Mets. 83ᵃ</cite> <he>דדרו בא׳</he> Ar., Ms. H., Oxf. &c. (Ms. M. <he>איגרא</he>, ed. <cite ref=\"A00339\"><he>אגרא</he></cite>, v. Rabb. D. S. a. l. note) who carry a burden on a yoke. ",
+				"<cite ref=\"Beitzah 30a\">Bets. 30ᵃ</cite> (v. Rabb. D. S. a. l. note 3); <cite ref=\"Shabbat 148a\">Sabb. 148ᵃ</cite> Ms. M. marg. <cite ref=\"A00365\"><he>אגרתא</he></cite>! (v. Rabb. D. S. a. l. note 6). V. <cite ref=\"V00083\"><he>תִּגְדָּא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"id": "O00387",
+	"slug": "סוף-4",
+	"headword": {
+		"text": "סוּף",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 967,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00386\">same</cite><i>to finish; to destroy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 33:52\">Targ. Y. II, Num. XXXIII, 52</cite> <he>תְּסוּפוּן</he> (Y. I <he>תִּסְפּוּן</he> a. <he>תְּסַיְּיפוּן</he>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:11\">Targ. Lam. IV, 11</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cease</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 14:4\">Targ. Is. XIV, 4</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 26:20\">Targ. Lev. XXVI, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 2:22\">Targ. Prov. II, 22</cite>; a. fr.—Part. <he>סָיֵיף</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:31\">Ib. XI, 31</cite>; a. e.—",
+				"<cite ref=\"Kohelet Rabbah 10:15\">Koh. R. to X, 15</cite> <he>מביני … סָפַת וכ׳</he> between the two (disputing) that unfortunate woman (Jephthah’s daughter) perished; <cite ref=\"Vayikra Rabbah 37:1\">Lev. R. s. 37</cite>, end <he>בין דין לדין ספת וכ׳</he> (some ed. <he>נספת</he>, corr. acc.)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַיֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to finish; to consume, ruin</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 44:12\">Targ. Y. Gen. XLIV, 12</cite> Ar. (ed. <he>פסק</he>). ",
+						"<cite ref=\"Targum Jonathan on Leviticus 19:9\">Targ. Y. Lev. XIX, 9</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 26:16\">Ib. XXVI, 16</cite>; a. e.—Part. pass. <he>מְסַיַּיף</he>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 14:10\">Targ. I Kings XIV, 10</cite>.—",
+						"<cite ref=\"Yalkut Shimoni on Torah 133:2\">Yalk. Gen. 133</cite> <he>סַיְּיפַת</he>, v. <cite ref=\"O00227\"><he>סוּב</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָסֵיף", "אַסֵּיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00386\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 32:22\">Targ. O. Deut. XXXII, 22</cite> (ed. Berl. <he>אַסֵּ׳</he>; ed. Vien. <he>אָסֵ׳</he>; h. text <cite ref=\"A01703\"><he>אכלה</he></cite>). Ib. 23 (h. text <he>אספה</he>). ",
+						"<cite ref=\"Targum Jonathan on Zephaniah 1:3\">Targ. Zeph. I, 3</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

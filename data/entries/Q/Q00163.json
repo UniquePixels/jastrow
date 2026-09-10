@@ -1,0 +1,24 @@
+{
+	"id": "Q00163",
+	"slug": "פודופסילא",
+	"headword": {
+		"text": "פּוֹדוֹפְסִילָא"
+	},
+	"page": {
+		"number": 1139,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (ποδόψελλα) <i>anklets</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:4:3\">Y. Sabb. VI, 8ᵇ</cite> bot. (expl. <cite ref=\"A02885\"><he>אצעדה</he></cite>, <cite ref=\"Numbers 31:50\">Num. XXXI, 50</cite>) <he>פד׳</he> Ar. (ed. <cite ref=\"K00117\"><he>כדופסלא</he></cite>, <cite ref=\"K01105\"><he>כרו׳</he></cite>, corr. acc., or <he>כֵּירוֹפ׳</he>, χειροψελλα(?); LXX ψέλλιον). ",
+				"<cite ref=\"Numbers 31:50\">Ib.</cite> (expl. <he>צעדות</he>, <cite ref=\"Isaiah 3:20\">Is. III, 20</cite>) <he>פדופסלה</he>, <cite ref=\"Q00837\"><he>פר׳</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

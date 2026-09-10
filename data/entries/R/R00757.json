@@ -1,0 +1,35 @@
+{
+	"id": "R00757",
+	"slug": "צרח-3",
+	"headword": {
+		"text": "צְרַח",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1301,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (interch. with <cite ref=\"R00759\"><he>צְרֵי</he></cite>, <cite ref=\"R00742\"><he>צְרַהּ</he></cite>) <i>to be narrow</i>; <he>צ׳ ל־</he> <i>to worry; to be sorry, be afraid</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 91:3\">Gen. R. s. 91</cite> <he>צ׳ ליה וערק</he> (not <he>צרת</he>) he was afraid, and fled. ",
+				"<cite ref=\"Bereishit Rabbah 91:3\">Ib.</cite> <he>וצ׳ לי מינך וכ׳</he> and I was afraid of thee, lest thou kill me. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:2\">Y. Ber. I, beg. 2ᵃ</cite> <he>דצרי לון מקמי וכ׳</he> (ed. <he>דצדי</he>, corr. acc.) they are afraid of wild beasts. ",
+				"<cite ref=\"Esther Rabbah 4:12\">Esth. R. to I, 22</cite>; <cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite> <he>דצ׳ לי וכ׳</he> (not <he>דצדי</he>), v. <cite ref=\"N00552\"><he>נָטוֹרָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיצְּרַח"],
+			"senses": [
+				{
+					"gloss": " (<cite ref=\"K01097\"><he>אִיצְּרַהּ</he></cite>), <he>אִיצְּרֵי</he> same. Gen. R. l. c. <he>ומִיצְּרַח לי מינה דלא שאלתיו</he> (some ed. <he>ומִיצְּרַהּ</he>) and I am sorry that I did not ask it; Y. Ber. VII, 11ᵇ <he>ומִיצְּרֵי לי מינך לא שלתיה</he> (read: <he>מינה דלא וכ׳</he>); <cite ref=\"Yalkut Shimoni on Torah 148:7\">Yalk. Gen. 148</cite> <he>וצרו לי מינך לאו וכ׳</he> (read: <he>וצרי</he>, a. corr. acc.; v. Rashi to <cite ref=\"Berakhot 48a\">Ber. 48ᵃ</cite>).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

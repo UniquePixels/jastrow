@@ -1,0 +1,57 @@
+{
+	"id": "U00233",
+	"slug": "שגר-1",
+	"headword": {
+		"text": "שָׁגַר"
+	},
+	"page": {
+		"number": 1522,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Shaf.</i> of <cite ref=\"C01392\"><he>גרר</he></cite>; cmp. <he>נגר</he>) <i>to run, flow</i>.—<i>Part. pass.</i> <he>שָׁגוּר</he>; f. <he>שְׁגוּרָה</he> <i>fluent, spoken without hesitation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 5:5\">Ber. V, 5</cite> <he>אם ש׳ תפלתי וכ׳</he> if my prayer is fluent in my mouth, I know &c., v. <cite ref=\"I00859\"><he>טָרַף</he></cite>; <cite ref=\"Tosefta Berakhot 3:3\">Tosef. ib. III, 3</cite> <he>שָׁגְרָה</he> ed. Zuck. (Var. <he>שגורה</he>).—[<cite ref=\"Shir HaShirim Rabbah 1:15:2\">Cant. R. to I, 15</cite> <he>שוגרת</he>, v. infra.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיגֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to speak with fluency</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 9\">Ex. R. s. 9</cite> <he>כיון ששִׁיגְּרוּ … בפיהם וכ׳</he> when they recited (these verses) the whole night with fluency, they considered it a good sign &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make run, to send</i>. Tanḥ. Mick. 8 <he>תפוש … ושַׁגֵּר אותם לפני</he> arrest them and send them up before me; <cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 91:6\">Ib.</cite> <he>וש׳ בשבילם וכ׳</he> and sent (messengers) out for them to hunt them up &c. ",
+						"<cite ref=\"Tosefta Shabbat 13:9\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:9\">XIV</cite>), 9 <he>ולהיפרכוס שלהן ש׳ לו וכ׳</he> and to their commander he sent a present of fifty denars. ",
+						"<cite ref=\"Berakhot 51a\">Ber. 51ᵃ</cite>, sq. <he>מְשַׁגְּרוֹ לאנשי וכ׳</he> he sends it as a gift to his household. ",
+						"<cite ref=\"Sanhedrin 59b:21\">Snh. 59ᵇ</cite> <he>אחד משגרו וכ׳</he> he sent out one (serpent) to the south &c. ",
+						"<cite ref=\"Bava Batra 146a:5\">B. Bath. 146ᵃ</cite>. ",
+						"<cite ref=\"Sotah 35b\">Sot. 35ᵇ</cite> <he>שִׁגְּרוּ וכ׳</he>, v. <cite ref=\"N00350\"><he>נוֹטָרִין</he></cite> a. fr.—Part. pass. <he>מְשׁוּגָּר</he>; f. <he>מְשׁוּגֶּרֶת</he>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:1\">Cant. R. to IV, 1</cite>, v. <cite ref=\"T00317\"><he>רוֹגְלִית</he></cite>; <cite ref=\"Shir HaShirim Rabbah 1:15:2\">ib. to I, 15</cite> <he>שוגרת</he> corr. acc.)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁגִּיר"],
+			"senses": [
+				{
+					"gloss": " [<i>to speak fluently</i>,] <i>to improvise a prayer, change the established form</i>. Y. Ber. V, 9ᶜ <he>שליח צבור שה׳ שתים וכ׳</he> if a reader improvises two or three sections (of the Prayer of Benedictions), we do not make him go back and recite the established form.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "T00879",
+	"slug": "רעדה",
+	"headword": {
+		"text": "רְעָדָה"
+	},
+	"page": {
+		"number": 1486,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00878\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>trembling, shaking</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 116a:10-22\">Zeb. 116ᵃ</cite> <he>כל … אחזתן ר׳ וכ׳</he> trembling seized all the kings of the nations in their palaces. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:7\">Y. Ber. V, 8ᵈ</cite> bot. (ref. to <cite ref=\"Psalms 2:11\">Ps. II, 11</cite>) <he>לכשיבוא יום ר׳ תגילו</he> when the day of trembling (of the wicked) comes, you will rejoice; Bab. ",
+				"<cite ref=\"Berakhot 30b:20\">Ber. 30ᵇ</cite>, v. <cite ref=\"C00724\"><he>גִּילָה</he></cite>; <cite ref=\"Yoma 4b:2\">Yoma 4ᵇ</cite>. Tanḥ. Noah 19; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>vibration</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Zavim 4:6\">Tosef. Zab. IV, 6</cite> <he>כל שבא … מכח ר׳ וכ׳</he> whatever indirect contact is produced by vibration is clean, opp. <he>הסטה</he>, v. <cite ref=\"E00471\"><he>הֶיסֵּט</he></cite>.—Pl. <he>רְעָדוֹת</he> <i>questions of levitical cleanness based on indirect contact through vibration</i>. ",
+				"<cite ref=\"Mishnah Parah 11:2\">Par. XI, 2</cite> (v. R. S. a. l.; differ. interpret. in Maim. a. Ar.). Y. Ab. Zar. II, end, 42ᵃ <he>הן רפפות הן רְעָלוֹת</he> <i>r’fafoth</i> (Par. l. c.) is the same as <i>r’ʿaloth</i>"
+			],
+			"label": "2"
+		}
+	]
+}

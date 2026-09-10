@@ -1,0 +1,33 @@
+{
+	"id": "M01584",
+	"slug": "מלכיו",
+	"headword": {
+		"text": "מְלַכְיוּ"
+	},
+	"page": {
+		"number": 792,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>M’lakhiu</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " father of R. Kahăna. ",
+			"units": ["<cite ref=\"Eruvin 8b:7\">Erub. 8ᵇ</cite>"],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>רב מ׳</he> Rab M., an Amora. ",
+			"units": [
+				"<cite ref=\"Ketubot 61b:7\">Keth. 61ᵇ</cite>; <cite ref=\"Makkot 21a:13\">Macc. 21ᵃ</cite>; <cite ref=\"Niddah 52b:5\">Nidd. 52ᵇ</cite>. <he>אמר ר׳ מ׳ אמר ר׳ וכ׳</he> Rab M. reports in the name of R. Ada &c.; <cite ref=\"Beitzah 28b:14\">Bets. 28ᵇ</cite> Ms. M. (v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Beitzah 28b:14\">Ib.</cite> (mnemonical rules by which to distinguish between the subjects reported by R. Malkia and those by R. M’lakhiu); <cite ref=\"Beitzah 28b:14\">ib.</cite> <he>וסימנך מתניתן מַלְכִּתָא</he> and the mnemotechnical mark is: the Mishnah is queen, i.e. all opinions referring to Mishnah (and Boraitha) belong to Rab Malkiya (<i>God is King</i>)."
+			],
+			"label": "2"
+		}
+	]
+}

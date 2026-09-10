@@ -1,0 +1,22 @@
+{
+	"id": "U00469",
+	"slug": "שונית",
+	"headword": {
+		"text": "שׁוּנִּית"
+	},
+	"page": {
+		"number": 1537,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"U01556\"><he>שֵׁן</he></cite>; v. <cite ref=\"M02837\"><he>מְשׁוּנִּיתָא</he></cite>) <i>cliff, rocky bluffs</i>. Ohol. XVIII, 6 <he>ואיזה הש׳ וכ׳</he> how far is it called <i>shunnith</i> (for ritual purposes)? As far as the sea comes up when it is rough. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:10\">Y. Shek. VII, 50ᶜ</cite> bot. <he>שׁוּנַּת הים</he>, <he>שונת הנהר</he>; <cite ref=\"Tosefta Bava Metzia 2:2\">Tosef. B. Mets. II, 2</cite> Var. <he>שֻׁנִּית</he>, v. <cite ref=\"U01580\"><he>שְׁנוּנִית</he></cite>."
+			]
+		}
+	]
+}

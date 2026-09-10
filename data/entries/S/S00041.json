@@ -1,0 +1,21 @@
+{
+	"id": "S00041",
+	"slug": "קבוראי",
+	"headword": {
+		"text": "קַבּוֹרָאֵי"
+	},
+	"page": {
+		"number": 1307,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S00096\"><he>קְבַר</he></cite>) <i>grave-diggers</i>. ",
+			"units": ["<cite ref=\"Sanhedrin 26b:27\">Snh. 26ᵇ</cite>"]
+		}
+	]
+}

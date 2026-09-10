@@ -1,0 +1,22 @@
+{
+	"id": "M01096",
+	"slug": "מידם",
+	"headword": {
+		"text": "מֵידַם"
+	},
+	"page": {
+		"number": 771,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"M01094\"><he>מִידֵי</he></cite>, with enclitic <cite ref=\"M00000\"><he>מ</he></cite> for <cite ref=\"M00003\"><he>מא</he></cite>) <i>anything</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:7\">Targ. Prov. XXVII, 7</cite> <he>כל מ׳ דמריר</he> (ed. Lag. <he>דמרירותא</he>; Ms. <cite ref=\"M01301\"><he>מירם</he></cite>, corr. acc.) anything however bitter."
+			]
+		}
+	]
+}

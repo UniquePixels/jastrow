@@ -1,0 +1,38 @@
+{
+	"id": "U00698",
+	"slug": "שחק-4",
+	"headword": {
+		"text": "שְׁחַק"
+	},
+	"page": {
+		"number": 1550,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00697\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 30:36\">Targ. O. Ex. XXX, 36</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:27\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>ההן דש׳ תומא</he> he that grinds garlic. Ib. 10ᵇ bot. ",
+				"<cite ref=\"Bava Batra 146a:8\">B. Bath. 146ᵃ</cite> <he>שַׁחְקֵי</he>, v. <cite ref=\"M02526\"><he>מַרְגְּנִיתָא</he></cite>; a. fr.—Midr. Sam. ch. I, v. infra.—Part. pass. <he>שְׁחִיק</he>.—<he>ש׳ טמיא</he>, v. <cite ref=\"I00545\"><he>טַמְיָא</he></cite>; (in Hebr. dict.) <he>ש׳ עצמות</he>. ",
+				"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite>, beg.; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:2\">Y. Sabb. VI, 8ᵃ</cite> top <he>הוות רגליה שחקה</he> (read: <cite ref=\"U00655\"><he>שְׁחִיקָא</he></cite>) his foot was sore from rubbing.—",
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:2\">Y. Dem. II, beg. 22ᵇ</cite> <he>שחיקא</he> (R. S. to <cite ref=\"Mishnah Demai 2:1\">Dem. II, 1</cite>), v. <cite ref=\"U00697\"><he>שָׁחַק</he></cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁחֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to mention the name of a dead person with the imprecation</i> <he>שחיק טמיא</he> (his bones be ground), <i>to curse</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite>, end <he>מדכרין ומְשַׁחְקִין</he> there are those whose names are mentioned with a curse, opp. <he>ומניחין</he>, v. <cite ref=\"N00340\"><he>נוּחַ</he></cite> h.; <cite ref=\"Yalkut Shimoni on Torah 411:1\">Yalk. Ex. 411</cite> (Hebr.) <he>מזכירין ומְשַׁחֲקִים</he>; Tanḥ. Vayaḳhel 4; <cite ref=\"Shemot Rabbah 48:2\">Ex. R. s. 48</cite> (mixed dict.) <he>מדכרין ומשחקים</he>; Midr. Sam. ch. I <he>ושָׁחְקִין</he> (<i>Pe.</i>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

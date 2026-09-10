@@ -1,0 +1,37 @@
+{
+	"id": "C01381",
+	"slug": "גרע-3",
+	"headword": {
+		"text": "גָּרַע",
+		"homograph": 2
+	},
+	"page": {
+		"number": 271,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"C01257\"><he>גַּרְגַּר</he></cite>)<i>to form globules, to drop</i>. Denom. <cite ref=\"C01384\"><he>גַּרְעִין</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גֵּרַע"],
+			"senses": [],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִגְרִיעַ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"C01384\"><he>גרעין</he></cite>) <i>to form globules</i> (one of the early stages of development of the grape). ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:10\">Shebi. IV, 10</cite> <he>גפנים מִשֶּׁיְּגָרְעוּ</he> grape vines (must not be cut down in the Sabbath year) from the moment they form stones, Maim.; oth. opin. ovules containing moisture; Y. ib. IV, end 35ᶜ <he>משיַגְרִיעוּ</he> (Hif.), defined <he>משיזחלו מים</he>, with ref. to <cite ref=\"Job 36:27\">Job XXXVI, 27</cite>; <cite ref=\"Berakhot 63b\">Ber. 63ᵇ</cite>; <cite ref=\"Pesachim 52b\">Pes. 52ᵇ</cite> sq. <he>משיגריעו</he> (Ms. M. 2 <he>משיגרעו</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "A00364",
+	"slug": "אגרת-2",
+	"headword": {
+		"text": "אִגֶּרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיגֶּרֶת"
+		}
+	],
+	"page": {
+		"number": 15,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"A01150\"><he>אִגֶּ׳</he></cite>; <he>נגר</he> , <i>to join</i>, v. esp. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 11b:2\">Snh. 11ᵇ</cite>; <he>ושלש איגרות וכ׳</he>) <i>tablet, letter, brief, document</i>. ",
+				"<cite ref=\"Mishnah Gittin 9:3\">Git. IX, 3</cite> (formula of a letter of divorce) <he>ספר … וא׳ … וגט וכ׳</he>. ",
+				"<cite ref=\"Gittin 85b:2-11\">Ib. 85ᵇ</cite> <he>ולא … איגרת … אלא אגרת</he> one must not write (in the letter of divorce) <i>egereth</i> with <cite ref=\"A02549\"><he>אי׳</he></cite> which might mean <i>roof</i> (v. <cite ref=\"A01145\"><he>אִיגָר</he></cite>), but &c. ",
+				"<cite ref=\"Ketubot 64a:3\">Keth. 64ᵃ</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 1:2:7\">Y. Kidd. I, 59ᵃ</cite> bot. <he>א׳ מרד</he> a document stating a wife’s disobedience. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:4:8\">Y. Meg. IV, 75ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:45\">Y. Snh. I, 19ᵇ</cite> top <he>א׳ ביקורת</he> a document fixing the value of a property, v. <cite ref=\"A01754\"><he>אַכְרָזָה</he></cite>.—Pl. <he>אִגָּרוֹת</he>, <he>אִיגָּרוֹת</he>. ",
+				"<cite ref=\"Mishnah Moed Katan 3:3\">M. Kat. III, 3</cite> <he>א׳ שׁל רשות</he> secular, social correspondence, opp. religious correspondence; cmp. Y. ib. 82ᵃ bot.; [commentaries: <i>documents of secular government</i>, v. <cite ref=\"T01079\"><he>רָשׁוּת</he></cite>]. Ib.; <cite ref=\"Mishnah Bava Metzia 1:8\">B. Mets. I, 8</cite> <he>א׳ שׁום א׳ מזון</he> documents relating to legal assessment and to alimony."
+			]
+		}
+	]
+}

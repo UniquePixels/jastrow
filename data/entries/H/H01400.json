@@ -1,0 +1,57 @@
+{
+	"id": "H01400",
+	"slug": "חסם-4",
+	"headword": {
+		"text": "חֲסַם",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 488,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01399\">same</cite>.<i>Part. pass.</i> <cite ref=\"H01379\"><he>חֲסִים</he></cite> <i>bright and hard, flinty</i>.—Pl. <he>חֲסִימִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 8:9\">Targ. Y. II, Deut. VIII, 9</cite>; (Y. I <he>שאילן מסימן</he>, read: <he>הֲסִימַן</he> fem. pl.). Targ. Y. ib. XXXIII, 25."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַסֵּם"],
+			"senses": [
+				{
+					"gloss": " [<i>to scrape</i>, cmp. <he>גמגם</he>, <cite ref=\"H00936\"><he>חָכַךְ</he> II</cite>] <i>to hesitate, be uncertain what to do</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 147a:3\">Sabb. 147ᵃ</cite> <he>הוה קא מְחַסֵּם וכ׳</he> he hesitated to hand it to him. ",
+						"<cite ref=\"Ketubot 20b\">Keth. 20ᵇ</cite>. ",
+						"<cite ref=\"Bava Metzia 23b\">B. Mets. 23ᵇ</cite>. ",
+						"<cite ref=\"Chullin 50a\">Ḥull. 50ᵃ</cite>. [Ar. a. some Mss. have <cite ref=\"E00708\"><he>הסם</he></cite>; v. Koh. Ar. Compl. s. v. <cite ref=\"E00708\"><he>הסם</he></cite> a. Rabb. D. S. to B. Mets. l. c.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַסֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to receive a steel edge</i>; trnsf. (of the mouth) <i>to become able to speak</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>; <cite ref=\"Shir HaShirim Rabbah 2:2:4\">Cant. R. to II, 2</cite> <he>אתח׳ ר׳ וכ׳</he> R. E. (who on a former occasion was unable to pronounce a blessing) has received a steel edge, and they named him R. E. Ḥisma; [Ar.: <he>הא חֲסִים אלעזר</he>, v. supra]."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to rub against</i>, trnsf. (cmp. <cite ref=\"C01392\"><he>גָּרַר</he></cite>) <i>to seek a quarrel, to vie with</i> (v. P. Sm. 1333). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 24:19\">Targ. Prov. XXIV, 19</cite> (h. text <he>תתחר</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

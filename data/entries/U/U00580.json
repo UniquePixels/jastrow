@@ -1,0 +1,26 @@
+{
+	"id": "U00580",
+	"slug": "שותא-1",
+	"headword": {
+		"text": "שׁוּתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1544,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"U00371\"><he>שׁוּעֲתָא</he></cite>; cmp. <cite ref=\"I00185\"><he>טוּנָא</he></cite> = <cite ref=\"I00194\"><he>טוּעֲנָא</he></cite>; <cite ref=\"U01653\"><he>שְׁעֵי</he></cite>) <i>talk</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 70b:2\">Kidd. 70ᵇ</cite> <he>השתא ש׳ דמר וכ׳</he> now I do not understand your talk at all. ",
+				"<cite ref=\"Megillah 14b:4\">Meg. 14ᵇ</cite>, v. <cite ref=\"Q01073\"><he>פִּלְכָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 39a:4\">B. Bath. 39ᵃ</cite> <he>לא תיפוק לכו ש׳</he> let no talk come from you, do not talk about it; <he>לא מפקינן ש׳</he> we shall not talk about it. ",
+				"<cite ref=\"Sukkah 56b:7\">Succ. 56ᵇ</cite>, v. <cite ref=\"J00431\"><he>יָנוּקָא</he> I</cite>; a. e."
+			]
+		}
+	]
+}

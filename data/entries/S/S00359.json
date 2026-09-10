@@ -1,0 +1,43 @@
+{
+	"id": "S00359",
+	"slug": "קולפא",
+	"headword": {
+		"text": "קוּלְפָא"
+	},
+	"page": {
+		"number": 1329,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01403\"><he>קְלַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a peeled pole, lance</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 63a:8\">Sabb. 63ᵃ</cite> (expl. <cite ref=\"A01785\"><he>אַלָּה</he></cite>) <he>ק׳</he> (Ar. a. Ms. O. <cite ref=\"S00509\"><he>קופל</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>peeled or scraped leather,</i>] <i>strap</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 58a:14\">Ber. 58ᵃ</cite> <he>יהבו ליה ק׳</he> (v. Rabb. D. S. a. l. note 5) they gave him the strap, i.e. gave him the privilege of inflicting punishment; <cite ref=\"Yalkut Shimoni on Nach 362\">Yalk. Ez. 362</cite> <he>קיל׳</he>. Ber. l. c. <he>מחייא ליה בקוּלְפֵיה דפרזלא וכ׳</he> Ms. M. (ed. <he>בקולפא</he> only) he struck him with his iron-pointed whip and killed him; Yalk. l. c. <he>בקיל׳</he>. ",
+				"<cite ref=\"Ketubot 65a:10\">Keth. 65ᵃ</cite> <he>מחתה לה בק׳ דשידא</he> she struck her with the strap of a chest (Ar. <he>בק׳ דשיראי</he> with a silken strap).—Pl. <he>קוּלְפֵי</he>. ",
+				"<cite ref=\"Berakhot 56a:15\">Ber. 56ᵃ</cite> <he>תרין ק׳ בלעת</he> thou shalt receive two lashes. ",
+				"<cite ref=\"Menachot 7a:8\">Men. 7ᵃ</cite>; <cite ref=\"Arakhin 22a:22\">Arakh. 22ᵃ</cite>, v. <cite ref=\"B00899\"><he>בְּלַע</he></cite>. ",
+				"<cite ref=\"Sanhedrin 110a\">Snh. 110ᵃ</cite>; <cite ref=\"Pesachim 119a\">Pes. 119ᵃ</cite>, v. <cite ref=\"S00510\"><he>קוּפְלָא</he> I</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>parchment</i>, v. <cite ref=\"S01405\"><he>קִלְפָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

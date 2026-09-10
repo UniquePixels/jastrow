@@ -1,0 +1,24 @@
+{
+	"id": "M02600",
+	"slug": "מרועא",
+	"headword": {
+		"text": "מְרוֹעָא"
+	},
+	"page": {
+		"number": 839,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00915\"><he>רְעַע</he></cite>) (<i>evil</i>) <i>occurrence, visitation</i> (cmp. <cite ref=\"A03216\"><he>אֲרַע</he> I</cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 11:7\">Targ. Hos. XI, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Micah 6:3\">Targ. Mic. VI, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 47:2\">Targ. Is. XLVII, 2</cite> (v. <he>מַרְוָא</he> II)."
+			]
+		}
+	]
+}

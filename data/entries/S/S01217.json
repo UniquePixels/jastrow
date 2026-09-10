@@ -1,0 +1,27 @@
+{
+	"id": "S01217",
+	"slug": "קישות-1",
+	"headword": {
+		"text": "קִישׁוּת",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1370,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"K01302\"><he>כָּשׁוּת</he></cite>) [<i>tufted fruit</i>,] <i>cucumber</i> (<i>sing</i>, a. <i>pl.</i>). ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 5:10\">Tosef. Dem. V, 10</cite> <he>ניטל מכל ק׳ וק׳</he> he takes tithe from each bunch of cucumbers. ",
+				"<cite ref=\"Mishnah Terumot 3:1\">Ter. III, 1</cite> <he>התורם ק׳ ונמצאת וכ׳</he> if one separates a cucumber for T’rumah, and it is found to be bitter. ",
+				"<cite ref=\"Tosefta Terumot 4:5\">Tosef. ib. IV, 5</cite> <he>אין לך מר בק׳ וכ׳</he> there is nothing bitter in the cucumber except the central part (the central cucumber in the bunch (?)); a. e.—<i>Pl.</i> (v. supra). ",
+				"<cite ref=\"Tosefta Terumot 5:14\">Ib. V, 14</cite>. ",
+				"<cite ref=\"Shabbat 109a\">Sabb. 109ᵃ</cite> Ar. s. v. <cite ref=\"I00741\"><he>טרז</he></cite>; v. <cite ref=\"K01302\"><he>כָּשׁוּת</he></cite>.—V. <cite ref=\"S02223\"><he>קִשּׁוּאִים</he></cite>."
+			]
+		}
+	]
+}

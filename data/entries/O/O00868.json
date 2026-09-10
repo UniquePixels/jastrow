@@ -1,0 +1,22 @@
+{
+	"id": "O00868",
+	"slug": "סיתקתא",
+	"headword": {
+		"text": "סִיתְקְתָא"
+	},
+	"page": {
+		"number": 988,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01709\"><he>סְתַק</he></cite>) <i>split</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:6\">Targ. Y. Deut. XIV, 6</cite> Ar. (ed. <cite ref=\"O00196\"><he>סִדְקָא</he></cite>); <cite ref=\"Targum Jonathan on Leviticus 11:3\">Targ. Y. Lev. XI, 3</cite> Ar."
+			]
+		}
+	]
+}

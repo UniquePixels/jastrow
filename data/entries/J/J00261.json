@@ -1,0 +1,31 @@
+{
+	"id": "J00261",
+	"slug": "יזן",
+	"headword": {
+		"text": "יָזַן"
+	},
+	"page": {
+		"number": 572,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>יִוֵּן</he> (denom. of <cite ref=\"G00558\"><he>זַן</he></cite>) <i>to supply with all kinds and assort</i>.—Part. pass. f. <he>מְיוּזֵּנֶת</he> <i>well supplied and assorted</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 67a\">Gitt. 67ᵃ</cite>, v. <cite ref=\"H01271\"><he>חָנוּת</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

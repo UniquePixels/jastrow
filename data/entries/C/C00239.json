@@ -1,0 +1,43 @@
+{
+	"id": "C00239",
+	"slug": "גדפא",
+	"headword": {
+		"text": "גַּדְפָא"
+	},
+	"page": {
+		"number": 214,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00237\"><he>גָּדַף</he></cite>) Pi. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hollowed out</i>, whence <i>rim, border</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 20b\">Succ. 20ᵇ</cite>; <cite ref=\"Avodah Zarah 76a\">Ab. Zar. 76ᵃ</cite>; <cite ref=\"Avodah Zarah 76b\">76ᵇ</cite> Ar., v. <cite ref=\"C00234\"><he>גְּדָנְפָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00873\"><he>כָּנָף</he></cite>) <i>wing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 39:13\">Targ. Job XXXIX, 13</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 4:17\">Targ. O. Deut. IV, 17</cite> (ed. Berl. <cite ref=\"C01197\"><he>גַּפָּא</he></cite>, v. Berl. Targ. O. II, p. 50); a. e.—",
+				"<cite ref=\"Bava Batra 73b:8\">B. Bath. 73ᵇ</cite> <he>דלי ג׳</he> (Rashbam <he>דליא לי גדנפא</he>, Ms. O. <cite ref=\"C01197\"><he>גפא</he></cite>, v. Rabb. D. S. a. l. note 40) lifted (towards me) a wing.—Trnsf. <i>bird; feather, plumage</i>. ",
+				"<cite ref=\"Ketubot 105b:10\">Keth. 105ᵇ</cite> <he>פרח ג׳ וכ׳</he> a bird flew on his head. ",
+				"<cite ref=\"Gittin 86a:3\">Gitt. 86ᵃ</cite> <he>בג׳ דאווזא</he> with a goose feather; <cite ref=\"Avodah Zarah 28a\">Ab. Zar. 28ᵃ</cite>. ",
+				"<cite ref=\"Chullin 46b:2\">Ḥull. 46ᵇ</cite> we put on it <he>ג׳ או רוקא</he> a feather or some spittle.—Pl. <cite ref=\"C00241\"><he>גַּדְפִין</he></cite>, <cite ref=\"C00241\"><he>גַּדְפֵי</he></cite> (<he>גִּי׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 38:13\">Targ. Job XXXVIII, 13</cite> borders of the earth. ",
+				"<cite ref=\"Onkelos Exodus 37:9\">Targ. Ex. XXXVII, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:21\">Targ. Y. Gen. I, 21</cite>; a. e.—B. Bath. l. c. <he>דשמטי גַדְפַיְיהוּ וכ׳</he> whose feathers fell out on account of their fatness. ",
+				"<cite ref=\"Chullin 31a:1\">Ḥull. 31ᵃ</cite> we see <he>גידפי דמיפרמי</he> that the rims of the cut throat stand apart (Rashi: that the plumage of the throat is cut through)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M00811",
+	"slug": "מחוג",
+	"headword": {
+		"text": "מְחוּג"
+	},
+	"page": {
+		"number": 757,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00140\"><he>חֲגַג</he></cite>) <i>drawing figures in the air, gesture</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 46b:14\">Ber. 46ᵇ</cite> <he>מחוי ליה במ׳</he> he talks to him by gestures. ",
+				"<cite ref=\"Chagigah 5b:4\">Ḥag. 5ᵇ</cite> <he>גברא דלא ידע מאי מחוו ליה במ׳ וכ׳</he> (differ. in Ms. M., v. Rabb. D. S. a. l. note) should a man who knows not what they indicate to him in gestures hold converse in signs before the King?"
+			]
+		}
+	]
+}

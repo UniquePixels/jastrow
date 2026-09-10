@@ -1,0 +1,44 @@
+{
+	"id": "M02906",
+	"slug": "משכן-3",
+	"headword": {
+		"text": "מַשְׁכֵּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַשְׁכֵּין"
+		}
+	],
+	"page": {
+		"number": 854,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M02905\">same</cite> <cite ref=\"Targum Jonathan on Exodus 22:25\">Targ. Y. Ex. XXII, 25</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 24:3\">Targ. Job XXIV, 3</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 68a:9\">B. Mets. 68ᵃ</cite> <he>מ׳ ליה פלניא וכ׳</he> (not <cite ref=\"M02900\"><he>משכון</he></cite>) A pledged his field to B, and then rented it from him. ",
+				"<cite ref=\"Bava Metzia 73b:1\">Ib. 73ᵇ</cite> top <he>ר׳ מרי … מ׳ ליה וכ׳</he> a gentile gave his house (for occupation) as a pledge, and then sold it to &c. ",
+				"<cite ref=\"Bava Metzia 113a:7\">Ib. 113ᵃ</cite> <he>אבל מַשְׁכּוּנֵי לא</he> Ms. M. (ed. <he>מַשְׁכְּנוֹ</he>) but to take a pledge out of his house he (the messenger of the court) is not permitted; a. fr.—Part. pass. <cite ref=\"M02904\"><he>מְמַשְׁכַּן</he></cite>, f. <cite ref=\"M02908\"><he>מְמַשְׁכְּנָא</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 3:2\">Koh. R. to III, 2</cite>, v. <cite ref=\"M00804\"><he>מְחַבַּלְתָּא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 73b:1\">B. Mets. 73ᵇ</cite> <he>אי הוה ידענא דממשכן וכ׳</he> Ms. F. (Ms. M. <he>דמשכן</he>, corr. acc.; ed. <he>דהוה ממוּשְׁכָּן</he>) if I had known that the house was pledged to you. Y. ib. VIII, end, 11ᵈ <he>ביתיה הוות מְמַשְׁכְּנָה וכ׳</he> his house was pledged to &c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמַשְׁכֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be given as a pledge; to be levied upon; to borrow on pledge</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 25:24\">Targ. II Chr. XXV, 24</cite> (h. text <he>תערבות</he>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 15:6\">Targ. Y. Deut. XV, 6</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

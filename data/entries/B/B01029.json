@@ -1,0 +1,34 @@
+{
+	"id": "B01029",
+	"slug": "בעוט",
+	"headword": {
+		"text": "בְּעוֹט"
+	},
+	"page": {
+		"number": 180,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01034\"><he>בְּעַט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>treading grapes</i>, or <i>trodden grapes</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:33\">Targ. Is. X, 33</cite>; <cite ref=\"Targum Jonathan on Joel 4:13\">Targ. Joel IV, 13</cite> (ed. <cite ref=\"B01029\"><he>בָּעוּט</he></cite>); <cite ref=\"Targum Jonathan on Isaiah 63:3\">Targ. Is. LXIII, 3</cite> <cite ref=\"B00669\"><he>בִּיעוּט</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a kick with the foot</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 68ᵈ</cite> bot. <he>יהב ליה חד ב׳ וכ׳</he> he gave him one kick and killed him; <cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>חד בעיטא ברגליה</he>."
+			],
+			"label": "2"
+		}
+	]
+}

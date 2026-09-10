@@ -1,0 +1,44 @@
+{
+	"id": "B00247",
+	"slug": "בוכנא",
+	"headword": {
+		"text": "בּוּכָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּכָאנָא"
+		}
+	],
+	"page": {
+		"number": 145,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Syr. <he>בוקלא</he>; <he>בכן</he>, <he>בקל</he> √<he>בך</he>, <he>בק</he> <i>to split;</i> cmp. Ges. H. Dict. s. v. <he>בכא</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a club, a stripped smooth pole, bar</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 102a:10\">Erub. 102ᵃ</cite> <he>ב׳ קאמרת</he> (Ar. ed. Koh. <cite ref=\"B00793\"><he>בכנא</he></cite>) you speak of a club (with a handle used as a door-bar).—Pl. <he>בּוּכָאנֵי</he>. ",
+				"<cite ref=\"Bava Kamma 93b:9\">B. Kam. 93ᵇ</cite> it says (in the Mish.), ‘If one robbed pieces of wood and made utensils out of them’ <he>בב׳ דהיינו וכ׳</he> Ar. (ed. <he>ב׳</he> with one <cite ref=\"B00000\"><he>ב</he></cite>, Ms. H. <he>בביכאני</he>) it means that he made them into clubs, that is ‘he polished them’."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " esp. <i>a club</i> (with handles) <i>used as a pestle</i> for crushing olives &c. ",
+			"units": [
+				"<cite ref=\"Shabbat 77b:10\">Sabb. 77ᵇ</cite> (playful etymology) <he>בוכנא ב̇ו̇א ואכ̇נה</he> (Ar.  it is called <i>bukhana</i>, ‘come and I shall strike’. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:6:2\">Y. Bets. I, 60ᶜ</cite> bot. <he>ובוכנה דו כתת ביה</he> and concerning a club, for he pounds with it; <cite ref=\"Jerusalem Talmud Shabbat 17:2:3\">Y. Sabb. XVII, 16ᵇ</cite> top <he>במכונה</he> (read <he>בבוכנה</he>). ",
+				"<cite ref=\"Niddah 36b:73\">Nidd. 36ᵇ I</cite> am <he>ב׳ דפרזלא וכ׳</he> an iron pestle which breaks the copper mortar. ",
+				"<cite ref=\"Beitzah 14a:9\">Bets. 14ᵃ</cite> <cite ref=\"B01083\"><he>בו׳</he></cite> (Ar. ed. Koh. <he>בכ׳</he>).—Trnsf. <i>the rib resting in the pelvis, hip-joint</i>. ",
+				"<cite ref=\"Chullin 52a:14\">Ḥull. 52ᵃ</cite>, v. <cite ref=\"A02448\"><he>אֲסיתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

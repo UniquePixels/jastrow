@@ -1,0 +1,35 @@
+{
+	"id": "A02428",
+	"slug": "אסי-3",
+	"headword": {
+		"text": "אָסֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָסְיָא"
+		},
+		{
+			"text": "אַסְיָא"
+		}
+	],
+	"page": {
+		"number": 93,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02427\">preced.</cite>) <i>physician, surgeon;</i> also <i>thaumaturg</i>, [<i>Essene, Therapeut?</i>] <cite ref=\"Onkelos Exodus 21:19\">Targ. Ex. XXI, 19</cite>; a. e. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:7:8\">Y. Yoma III, 40ᵈ</cite> bot. <he>חד א׳ וכ׳</he> a certain thaumaturg in Sepphoris. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:6:2\">Y. Taan. III, 66ᵈ</cite> <he>אוקיר לאסייך וכ׳</he> honor thy physician (with presents) ere thou be in need of him. ",
+				"<cite ref=\"Bava Kamma 85a:21\">B. Kam. 85ᵃ</cite> <he>א׳ רחיקא וכ׳</he> if the surgeon is far off, the eye will be blind (before he arrives). ",
+				"<cite ref=\"Bamidbar Rabbah 9:47\">Num. R. s. 9</cite> <he>תרעא … לא׳</he> a door which opens not for charity, will be opened for the physician; a. fr. Pl. <cite ref=\"A02430\"><he>אָסַיָּיא</he></cite>. Y. Naz. IX, end, 58ᵃ.—<he>אַסָוָותָא</he>, <cite ref=\"A02343\"><he>אָסָוָתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 50:2\">Targ. Gen. L, 2</cite>; a. e. ",
+				"<cite ref=\"Gittin 56b:5\">Gitt. 56ᵇ</cite> <he>א׳ דמַסְּיִין ליה וכ׳</he> physicians to cure R. Zadok."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "E00048",
+	"slug": "הבערה",
+	"headword": {
+		"text": "הַבְעָרָה"
+	},
+	"page": {
+		"number": 330,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00047\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the law</i> (<cite ref=\"Exodus 35:3\">Ex. XXXV, 3</cite>) <i>forbidding the kindling of fire on the Sabbath</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 70a:5\">Sabb. 70ᵃ</cite> <he>ה׳ ללאו יצאת</he> the law, ‘ye shall kindle no fire &c.’ is singled out in order to indicate that its transgression is a plain offence (<cite ref=\"L00009\"><he>לַאו</he></cite>). ",
+				"<cite ref=\"Shabbat 70a:5\">Ib.</cite> <he>ה׳ לחלק יצאת</he> that law is specified in order to intimate that each transgression of a Sabbath law is to be atoned for separately (if several of them have been committed in one act); <cite ref=\"Pesachim 5b:1\">Pes. 5ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:5:6\">Y. Sabb. II, 5ᵃ</cite> bot.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>removal, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:3:2\">Y. Snh. VII, 24ᵇ</cite> bot. we read here (<cite ref=\"Deuteronomy 19:19\">Deut. XIX, 19</cite>) <he>ובערת</he>, and there (ib. XXI, 9) <he>תבער</he>, <he>ה׳ ה׳ וכ׳</he> compare the analogous expressions for analogous modes of execution &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>heating, fire</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite>, end <he>כדי ה׳ אחת</he> sufficient for one altar fire: Tanḥ. Ki Thissa 10."
+			],
+			"label": "3"
+		}
+	]
+}

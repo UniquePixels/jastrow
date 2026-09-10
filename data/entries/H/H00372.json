@@ -1,0 +1,23 @@
+{
+	"id": "H00372",
+	"slug": "חומא-2",
+	"headword": {
+		"text": "חוֹמָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 435,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Ḥoma</i>, wife of Abbayi. ",
+			"units": [
+				"<cite ref=\"Ketubot 65a:10\">Keth. 65ᵃ</cite>; <cite ref=\"Yevamot 64b\">Yeb. 64ᵇ</cite> <cite ref=\"H00373\"><he>חוֹמָה</he></cite>."
+			]
+		}
+	]
+}

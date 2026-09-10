@@ -1,0 +1,27 @@
+{
+	"id": "M02496",
+	"slug": "מרבייתא",
+	"headword": {
+		"text": "מַרְבְּיָיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְבַּיְיתָא"
+		}
+	],
+	"page": {
+		"number": 835,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02495\">preced.</cite>) <i>nurse, foster-mother</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 35:8\">Targ. Y. II, Gen. XXXV, 8</cite> (Ar. <cite ref=\"M02506\"><he>מַרְבַּנְיָיתָא</he></cite>; h. text <he>מינקת</he>).—V. <cite ref=\"M02498\"><he>מַרְבִּינְתָּא</he></cite>."
+			]
+		}
+	]
+}

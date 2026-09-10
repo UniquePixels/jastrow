@@ -1,0 +1,34 @@
+{
+	"id": "N00432",
+	"slug": "נזח",
+	"headword": {
+		"text": "נָזַח"
+	},
+	"page": {
+		"number": 890,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00153\"><he>זוּחַ</he> II</cite>)<i>to be unsteady, shift</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 72a:9\">Yoma 72ᵃ</cite> <he>כדי שלא יִזַּח</he> that it (the breast plate) may not slip."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזִּיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to move, loosen; to remove</i>. Ib. <he>המַּזִּיחַ</he>, v. <cite ref=\"H00493\"><he>חוֹשֶׁן</he></cite>. ",
+					"units": [
+						"<cite ref=\"Ketubot 10b:12\">Keth. 10ᵇ</cite> <he>מַזִּיחַ</he> (or <he>מֵזִיחַ</he>); <cite ref=\"Chullin 7a:2\">Ḥull. 7ᵃ</cite> <he>מַזִּיחִין</he> (or <he>מְזִיחִין</he>), v. <cite ref=\"G00153\"><he>זוּחַ</he> II</cite>.—<i>Part. pass.</i> <he>מוּזָּח</he>, pl. <cite ref=\"M00444\"><he>מוּזָּחִין</he></cite> <i>unsteady, reeling</i>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 945:20\">Yalk. Deut. 945</cite>, v. <cite ref=\"N00430\"><he>נָזַז</he></cite>. [<cite ref=\"Yalkut Shimoni on Torah 945:20\">Ib.</cite> (ref. to <he>זחלי</he>, <cite ref=\"Deuteronomy 32:24\">Deut. XXXII, 24</cite>) <he>שיהו מ׳ בעפר</he>, read with Sifré ib. 321 <he>מוּזְחָלִין</he> <i>dragged along</i> in the dust, v. <cite ref=\"G00246\"><he>זָחַל</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

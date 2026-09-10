@@ -1,0 +1,27 @@
+{
+	"id": "O01341",
+	"slug": "ספורייא",
+	"headword": {
+		"text": "סִפּוּרַיָּיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפַר סִפּוּרַיָּיא"
+		}
+	],
+	"page": {
+		"number": 1012,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>K’far Sippuraya</i> (Es-Safiriye), near Lydda (Neub. Géogr. p. 81). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:13:2\">Y. Kidd. III, 64ᵈ</cite> bot. [read:] <he>הורי בכ׳ ס׳</he>."
+			]
+		}
+	]
+}

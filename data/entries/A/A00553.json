@@ -1,0 +1,22 @@
+{
+	"id": "A00553",
+	"slug": "אוד-1",
+	"headword": {
+		"text": "אוּד"
+	},
+	"page": {
+		"number": 22,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h., v. Ges. H. Dict. s. v.; cmp. <cite ref=\"A01151\"><he>אֵיד</he></cite>) <i>wooden poker</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 33a:6\">Bets. 33ᵃ</cite>; <cite ref=\"Shabbat 143a:2\">Sabb. 143ᵃ</cite>"
+			]
+		}
+	]
+}

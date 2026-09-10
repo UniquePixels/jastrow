@@ -1,0 +1,29 @@
+{
+	"id": "A01688",
+	"slug": "אכילה",
+	"headword": {
+		"text": "אֲכִילָה"
+	},
+	"page": {
+		"number": 63,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"A01697\"><he>אכל</he></cite>)<i>eating, food, meal, dish</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:7:5\">Y. Sabb. I, 4ᵃ</cite> top, a. e. <he>אֲכִילַת בן דרוסא</he> (<he>דרוסאי</he>, <cite ref=\"D01048\"><he>דור׳</he></cite>) the food Ben D’rosa used to eat, i.e. <i>third done</i>. ",
+				"<cite ref=\"Yoma 80b:5\">Yoma 80ᵇ</cite> <he>א׳ גסה</he> excessive meal. ",
+				"<cite ref=\"Yoma 81a:8\">Ib. 81ᵃ</cite>, a. fr. <he>א׳ בכזית</he> wherever <cite ref=\"A01697\"><he>אכל</he></cite> (to eat) is mentioned in the Bible text, the size of an olive is meant. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 3:6:5\">Y. Sot. III, 19ᵇ</cite> top <he>אכילת מזבח</he> the consumption (of sacrifices) on the altar. ",
+				"<cite ref=\"Zevachim 31b:2\">Zeb. 31ᵇ</cite>; a. fr. <he>א׳ פרס</he>, v. <cite ref=\"Q01911\"><he>פְּרָס</he></cite>. ",
+				"<cite ref=\"Mishnah Kilayim 2:10\">Kil. II, 10</cite>, v. <cite ref=\"A01704\"><he>אָכְלָה</he> II</cite>.—Pl. <he>אֲכִילוֹת</he>. ",
+				"<cite ref=\"Pesachim 78a:5\">Pes. 78ᵃ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 86:1\">Gen. R. s. 86</cite>, beg. (play on <he>אוכיל</he> <cite ref=\"Hosea 11:4\">Hos. XI, 4</cite>) <he>א׳ הרבה</he> (some ed. <he>אוביל</he>—<cite ref=\"A00133\"><he>אבילות</he></cite> corr. acc.) <i>purveyances</i>"
+			]
+		}
+	]
+}

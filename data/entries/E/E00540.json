@@ -1,0 +1,27 @@
+{
+	"id": "E00540",
+	"slug": "הלויה",
+	"headword": {
+		"text": "הַלְוָיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַלְוָיָיה"
+		}
+	],
+	"page": {
+		"number": 352,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>לוה</he>) <i>escort on parting, attendance to a departing friend’s needs; following a funeral procession</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 46b:10\">Sot. 46ᵇ</cite>, v. <cite ref=\"L00256\"><he>לְוָיָה</he></cite>.—Y. ib. IX, 23ᵈ bot."
+			]
+		}
+	]
+}

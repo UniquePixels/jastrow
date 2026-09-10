@@ -1,0 +1,25 @@
+{
+	"id": "Q00952",
+	"slug": "פלגס-2",
+	"headword": {
+		"text": "פַּלְגְּס"
+	},
+	"page": {
+		"number": 1177,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πάλλαξ, πάλληξ, prob. of Semitic origin; cmp. <cite ref=\"Q00947\"><he>פַּלְגִּיסָא</he></cite>, a. <cite ref=\"Q00954\"><he>פִּלֶּגֶשׁ</he></cite>) <i>a youth in the intermediate stage between boyhood and maturity</i>; trnsf. <i>a sheep beyond the age of</i> <he>כֶּבֶשׂ</he> <i>and below that of</i> <cite ref=\"A01264\"><he>אַיִל</he></cite> (v. <cite ref=\"N01162\"><he>ניּקָּד</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 1:3\">Par. I, 3</cite> <he>רבי טרפין קורהו פ׳</he> R. T. named such a sheep of thirteen months a <i>pallax</i>. ",
+				"<cite ref=\"Chullin 23a:4\">Ḥull. 23ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Chullin 1:14\">Tosef. ib. I, 14</cite> <he>הפ׳ בזה ובזה פסול</he> the <i>pallax</i> is unfit for sacrifice either as <cite ref=\"K00085\"><he>כבש</he></cite> or as <he>איל</he>.—Pl. ch. <cite ref=\"Q00948\"><he>פַּלְגִּיסִין</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:20\">Targ. Ps. XXXVII, 20</cite> (h. text <cite ref=\"K01168\"><he>כרים</he></cite>)."
+			]
+		}
+	]
+}

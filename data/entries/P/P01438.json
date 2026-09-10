@@ -1,0 +1,31 @@
+{
+	"id": "P01438",
+	"slug": "ערץ-1",
+	"headword": {
+		"text": "עָרַץ"
+	},
+	"page": {
+		"number": 1123,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be strong; to frighten</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱרִיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to proclaim the power of, praise</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 4:6\">Pirké d’R. El. ch. IV</cite> <he>מַעֲרִיצִים ומקדושים וכ׳</he> they praise and sanctify his great name; <cite ref=\"Yalkut Shimoni on Nach 271\">Yalk. Is. 271</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

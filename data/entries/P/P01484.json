@@ -1,0 +1,29 @@
+{
+	"id": "P01484",
+	"slug": "עשיראה",
+	"headword": {
+		"text": "עֲשִׂירָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲסִ׳"
+		}
+	],
+	"page": {
+		"number": 1126,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P01486\"><he>עֲשִׂירִי</he></cite>, <i>the tenth</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 8:5\">Targ. O. Gen. VIII, 5</cite> (Y. ed. Vien. <cite ref=\"P01486\"><he>עֲשִׂירִי</he></cite>). Targ. O. a. Y. II <cite ref=\"Leviticus 27:32\">Lev. XXVII, 32</cite> (Y. I <cite ref=\"P01487\"><he>עֲשִׂירָיָה</he></cite>); a. fr.—",
+				"<cite ref=\"Berakhot 5b\">Ber. 5ᵇ</cite>, a. e., v. <cite ref=\"B00699\"><he>בִּיר</he></cite>.—<i>Fem.</i> <cite ref=\"P01488\"><he>עֲשִׂירִיתָא</he></cite>, <cite ref=\"P01484\"><he>עֲסִ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 29:1\">Targ. Ez. XXIX, 1</cite> (not <cite ref=\"P01488\"><he>עֲשִׂירְיָתָא</he></cite>); a. e."
+			]
+		}
+	]
+}

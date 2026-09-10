@@ -1,0 +1,41 @@
+{
+	"id": "D00806",
+	"slug": "דלדול",
+	"headword": {
+		"text": "דִּלְדּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיל׳"
+		}
+	],
+	"page": {
+		"number": 308,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"D00807\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a limb torn in shreds, strips</i> &c. ",
+			"units": [
+				"<cite ref=\"Chullin 46a:11\">Ḥull. 46ᵃ</cite> <he>די׳ זה וכ׳</he> as to this case of (<he>נדלדלה</he>) the liver found to be torn &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wart with a thin neck</i>, v. <cite ref=\"J00057\"><he>יַבֶּלֶת</he></cite>. Pl. <he>דִּלְדּוּלִין</he>, <cite ref=\"D00763\"><he>דִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 6:7\">Neg. VI, 7</cite> (<cite ref=\"Tosefta Negaim 2:2\">Tosef. ib. II, 2</cite> <he>תלתלין</he>); Sifra Thazr., Neg., Par. 1, ch. II. ",
+				"<cite ref=\"Mishnah Bekhorot 7:6\">Bekh. VII, 6</cite> (<cite ref=\"Bekhorot 45b:5\">45ᵇ</cite>, Rashi <he>תלתולין</he>) <he>בעלי הד׳</he> persons or animals afflicted with large warts. ",
+				"<cite ref=\"Mishnah Negaim 6:8\">Neg. VI, 8</cite> <he>הד׳ שבראש וכ׳</he> (hairless) warts on the head or chin (Tos’f. Yom Tob: <i>isolated hair-grown spots</i>)."
+			],
+			"label": "2"
+		}
+	]
+}

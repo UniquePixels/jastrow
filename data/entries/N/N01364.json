@@ -1,0 +1,32 @@
+{
+	"id": "N01364",
+	"slug": "נתח-1",
+	"headword": {
+		"text": "נָתַח"
+	},
+	"page": {
+		"number": 943,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.), <i>Pi.</i> <he>נִתֵּחַ</he> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to sever, dissect</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 85a:11\">Zeb. 85ᵃ</cite> <he>יפשיט וִינַתֵּחַ וכ׳</he> he must flay and dissect it in its place (where he slaughtered it). ",
+				"<cite ref=\"Chullin 28b:3\">Ḥull. 28ᵇ</cite> <he>כיון שמְנַתְּחָהּ אבר אבר</he> (not <he>דמנ׳</he>) since he cuts it into parts; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to distrain, take by force</i>, esp. <i>to seize</i> by waiting for the debtor to come out of the house with an object, opp. to <cite ref=\"M02905\"><he>מִשְׁכֵּן</he></cite>, to enter and seize. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 113a:8\">B. Mets. 113ᵃ</cite> <he>אימא לא יְנַתְּחֶנּוּ וכ׳</he> read in the Mishnah (<cite ref=\"Mishnah Bava Metzia 9:13\">B. Mets. IX, 13</cite>), he must not seize his goods outside of his house except through the court messenger."
+			],
+			"label": "2"
+		}
+	]
+}

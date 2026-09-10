@@ -1,0 +1,33 @@
+{
+	"id": "S01430",
+	"slug": "קלת-3",
+	"headword": {
+		"text": "קַלָּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַלָּתָה"
+		}
+	],
+	"page": {
+		"number": 1383,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κάλαθος, prob. of Semitic origin, v. <cite ref=\"S01429\">preced.</cite>; v. Lewy, Sem. Fremdw. p. 109) <i>vase-shaped basket</i>, esp. <i>woman’s work-basket</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 8:1\">Gitt. VIII, 1</cite> <he>זרקו … לתוך קַלָּתָהּ</he> if he throws the letter of divorce into her lap or into her basket. ",
+				"<cite ref=\"Gittin 78a:10\">Ib. 78ᵃ</cite> <he>כל דבר שהוא כקלתה</he> any receptacle that is designated for her specific use like her basket. ",
+				"<cite ref=\"Bava Metzia 9b:8\">B. Mets. 9ᵇ</cite> <he>ק׳ מינח נייחא וכ׳</he> (if he throws the document into her basket on her head,) her basket is at rest, but she moves under it. ",
+				"<cite ref=\"Ketubot 72b:1\">Keth. 72ᵇ</cite> top <he>ק׳ שפיר דמי</he> if she goes out with her basket on her head, it is right (she cannot be legally sued for indecent conduct); <he>דת יהודית אפי׳ ק׳ וכ׳</he> but so far as Jewish custom is concerned, it is improper to go out uncovered even with the basket on the head. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 8:1:5\">Y. Gitt. VIII, beg. 49ᵇ</cite> <he>היתה ק׳ של זהב</he> if the basket (into which he threw the letter of divorce) was of gold; a. fr.—Pl. <cite ref=\"S01433\"><he>קַלָּתוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Bikkurim 3:8\">Bicc. III, 8</cite> <he>העשירים … בק׳ של וכ׳</he> the rich brought the first-fruits in baskets of silver or of gold. Gitt. l. c. <he>מוכר ק׳</he> a dealer in baskets. ",
+				"<cite ref=\"Mishnah Kelim 16:3\">Kel. XVI, 3</cite>; a. e."
+			]
+		}
+	]
+}

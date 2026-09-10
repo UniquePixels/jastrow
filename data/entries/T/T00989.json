@@ -1,0 +1,27 @@
+{
+	"id": "T00989",
+	"slug": "רציצא",
+	"headword": {
+		"text": "רְצִיצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְצִיצָה"
+		}
+	],
+	"page": {
+		"number": 1494,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01002\"><he>רְצַץ</he></cite>) <i>a crushed pullet in the egg-shell</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 8b\">Bekh. 8ᵇ</cite> Ar., ed. <cite ref=\"D00979\"><he>דָּצוֹצָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "U02031",
+	"slug": "שרר-3",
+	"headword": {
+		"text": "שְׁרַר"
+	},
+	"page": {
+		"number": 1634,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"U02030\">preced.</cite>) <i>to chain, knot</i>.—Part. pass. <cite ref=\"U01987\"><he>שָׁרִיר</he></cite>, q. v.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שָׁרֵיר"],
+			"senses": [
+				{
+					"gloss": "<i>to make strong, hard</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 74b:4\">Sabb. 74ᵇ</cite> <he>מהו דתימא לשָׁרוּרֵי מנא וכ׳</he> you may have thought that (by putting a green plug into a stove) he intends to make of it a hard coulter (v. <cite ref=\"M00048\"><he>מָאנָא</he></cite>); <cite ref=\"Avodah Zarah 38a\">Ab. Zar. 38ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתָּרֵיר"],
+			"senses": [
+				{
+					"gloss": "<i>to become hard</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 48b\">Nidd. 48ᵇ</cite> top <he>אִשְׁתָּרוּר דדיך</he> Var. Ar. ed. Koh. s. v. <cite ref=\"K01261\"><he>כרף</he></cite> thy breasts have become hard, v. <cite ref=\"U00285\"><he>שְׁדַר</he> II</cite>, a. <cite ref=\"K01261\"><he>כְּרף</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

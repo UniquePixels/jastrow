@@ -1,0 +1,45 @@
+{
+	"id": "P00766",
+	"slug": "עלב-2",
+	"headword": {
+		"text": "עֲלַב"
+	},
+	"page": {
+		"number": 1080,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00765\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעַלֵּב"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְעֲלֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to humble one’s self, submit</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 12:7\">Targ. I Kings XII, 7</cite> (h. text <he>תהיה עבד</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"P00249\"><he>עוּלְבַּן</he></cite>) <i>to raise one’s self above; to jest, sneer at</i> (= h. <cite ref=\"P00815\"><he>התעלל</he></cite>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 19:25\">Targ. Jud. XIX, 25</cite> ed. Lag., v. <cite ref=\"L00593\"><he>לְעַב</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 31:4\">Targ. I Sam. XXXI, 4</cite> ed. Lag. (oth. ed. <he>יתלעב׳</he>) <cite ref=\"Targum Jonathan on Jeremiah 38:19\">Targ. Jer. XXXVIII, 19</cite> ed. Lag. (oth. ed. <he>יתלעב׳</he>).—[<cite ref=\"Targum of II Chronicles 30:10\">Targ. II Chr. XXX, 10</cite>; <cite ref=\"Targum of II Chronicles 36:16\">XXXVI, 16</cite> <he>מתעלב׳</he> ed. Bxt. (oth. ed. <he>מתלעב׳</he>).]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

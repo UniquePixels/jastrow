@@ -1,0 +1,47 @@
+{
+	"id": "V01031",
+	"slug": "תרע-3",
+	"headword": {
+		"text": "תְּרַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּרְעָא"
+		},
+		{
+			"text": "תַּרְעָה"
+		}
+	],
+	"page": {
+		"number": 1700,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"V01030\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>opening</i>,] <i>door, gate</i> (corresp. to h. <cite ref=\"Q02147\"><he>פֶּתח</he></cite>, a. <cite ref=\"U01686\"><he>שַׁעַר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:27\">Targ. Ex. XXXII, 27</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 22:21\">Targ. Deut. XXII, 21</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 5:8\">Lev. R. s. 5<sup>8</sup></cite> <he>ת׳ פתיחא</he> if she finds the door open; <he>ת׳ משקיף</he> if she finds it shut. ",
+				"<cite ref=\"Bamidbar Rabbah 9:13\">Num. R. s. 9<sup>13</sup></cite>, v. <cite ref=\"A02428\"><he>אָסֵי</he></cite>; a. fr.—[<cite ref=\"Yalkut Shimoni on Nach 551:10\">Yalk. Mic. 551</cite>, v. <cite ref=\"V01035\"><he>תַּרְעָיָיא</he></cite>.]—Pl. <he>תַּרְעִין</he>, <cite ref=\"V01035\"><he>תַּרְעַיָּא</he></cite>, <cite ref=\"V01035\"><he>תַּרְעַיָּיה</he></cite>, <he>תַּרְעֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 3:5\">Targ. Y. Deut. III, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 26:2\">Targ. Is. XXVI, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:31\">Targ. Prov. XXXI, 31</cite>; a. fr.—Y. Shek. V, end, 49ᵇ <he>ר׳ אבון עבד אילין ת׳ וכ׳</he> R. A. was building those gates of the Great College; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"U01686\"><he>שַׁעַר</he></cite> <i>market, market price</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 90b:6\">B. Bath. 90ᵇ</cite>, v. <cite ref=\"H01742\"><he>חֲרָפָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 74b:7\">B. Mets. 74ᵇ</cite> <he>בחד ת׳</he> when prices remain unchanged; a. e.—Pl. as ab. ",
+				"<cite ref=\"Bava Metzia 74b:7\">Ib.</cite> <he>בתרי ת׳</he> when there are two prices (prices have changed); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

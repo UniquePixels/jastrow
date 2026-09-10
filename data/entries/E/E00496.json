@@ -1,0 +1,30 @@
+{
+	"id": "E00496",
+	"slug": "היתרא",
+	"headword": {
+		"text": "הֶיתֵּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶיתֵּירָא"
+		},
+		{
+			"text": "הֶתֵּ׳"
+		}
+	],
+	"page": {
+		"number": 349,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"E00495\">same</cite>.",
+			"units": [
+				"<cite ref=\"Avodah Zarah 39b:7\">Ab. Zar. 39ᵇ</cite>, a. e. <he>לא שבק ה׳ ואכל וכ׳</he> one will not let stand what is permitted and eat what is forbidden. ",
+				"<cite ref=\"Chullin 111b:9\">Ḥull. 111ᵇ</cite> <he>ה׳ בלע</he> it absorbed permitted substances. ",
+				"<cite ref=\"Chullin 111b:9\">Ib.</cite> <he>ה׳ דאתי לידי איסורא</he> a permitted substance which is bound to become forbidden (when coming in contact with milk). ",
+				"<cite ref=\"Berakhot 60a:20\">Ber. 60ᵃ</cite>, a. fr. <he>כח דה׳</he>, v. <cite ref=\"K00451\"><he>כֹּחָא</he></cite>; a. fr."
+			]
+		}
+	]
+}

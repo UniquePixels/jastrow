@@ -1,0 +1,66 @@
+{
+	"id": "B00899",
+	"slug": "בלע-2",
+	"headword": {
+		"text": "בְּלַע"
+	},
+	"page": {
+		"number": 174,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00898\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 7:12\">Targ. Ex. VII, 12</cite>; a. fr.—",
+				"<cite ref=\"Chullin 111a:4\">Ḥull. 111ᵃ</cite> <he>כי היכי דפליט הדר ב׳</he> as it gives out, so does it again absorb; a. fr.—Part. pass. <cite ref=\"B00873\"><he>בְּלִיעַ</he></cite>, <cite ref=\"B00873\"><he>בְּלִיעָא</he></cite>. ",
+				"<cite ref=\"Chullin 111a:4\">Ib.</cite> <he>בליעא דמא</he> filled with blood.—",
+				"<cite ref=\"Sanhedrin 110a:17\">Snh. 110ᵃ</cite> <he>בלועי דקרח</he>, v. <cite ref=\"B00874\"><he>בְּלִיעֵי</he></cite>.— Trnsf. <i>to receive blows</i> (cmp. <cite ref=\"O01313\"><he>סָפַג</he></cite>). ",
+				"<cite ref=\"Menachot 7a:8\">Men. 7ᵃ</cite> <he>קולפי טאבי בַּלְעִי וכ׳</he> I received many blows at the hands of Ab. over &c. ",
+				"<cite ref=\"Arakhin 22a:22\">Arakh. 22ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 56a\">Ber. 56ᵃ</cite>.—Targ. II, <cite ref=\"Esther 3:7\">Esth. III, 7</cite> <he>בְּלִיעָן אינון בידי</he> they are swallowed up (bound to be destroyed) by my hand."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַבְלַע"],
+			"senses": [
+				{
+					"gloss": ", as h. Hif. ",
+					"units": [
+						"<cite ref=\"Chullin 67b:12\">Ḥull. 67ᵇ</cite> <he>אַבְלַע לי</he> let me swallow them (put them in my mouth). ",
+						"<cite ref=\"Menachot 17a\">Men. 17ᵃ</cite>, v. infra. ",
+						"<cite ref=\"Bava Metzia 64a:2\">B. Mets. 64ᵃ</cite> <he>וא׳ ליה בחשבון</he>, v. <cite ref=\"B00898\">preced.</cite> Hif."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְבְּלַע", "אִיבְּלַע"],
+			"senses": [
+				{
+					"gloss": " = as h. Nif. ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be swallowed up, to disappear</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 46:21\">Targ. Y. Gen. XLVI, 21</cite> <he>אתב׳ מניה</he> he was swallowed up (disappeared) from his side; v. <cite ref=\"B00898\">preced.</cite> ",
+						"<cite ref=\"Targum Jonathan on Joshua 6:5\">Targ. Josh. VI, 5</cite> <he>יתבלע וכ׳</he> shall sink into the ground beneath it; a. e.—Y. R. Hash. II, 58ᵃ bot. <he>איתב׳ מן קומוי</he> (the moon) disappeared from his sight."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be given to eat;</i> trnsf. <i>to be taught</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 24b:5\">Ber. 24ᵇ</cite> <he>הא מילתא אִבְלְעָא לי בי וכ׳</he> v. Rabb. D. S. a. l. note) this I have been taught in the school of R. &c.; (<cite ref=\"Menachot 17a:10\">Men. 17ᵃ</cite> <he>הא מילתא אבלע לי וכ׳</he> this has R. Ḥ. taught me)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

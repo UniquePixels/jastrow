@@ -1,0 +1,41 @@
+{
+	"id": "R00781",
+	"slug": "צריפא",
+	"headword": {
+		"text": "צְרִיפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְרִיפָה"
+		}
+	],
+	"page": {
+		"number": 1302,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"R00780\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 42a:10\">B. Mets. 42ᵃ</cite> <he>צ׳ דאורבני</he> a cot of bulrushes. ",
+				"<cite ref=\"Bava Batra 6a:13\">B. Bath. 6ᵃ</cite> <he>אבל לצ׳ דאורבני לא</he> but he has no right to put up a cot of bulrushes (and let the rain drip on the neighbor’s ground), v. <cite ref=\"N00578\"><he>נְטַף</he></cite>. ",
+				"<cite ref=\"Menachot 64b:8\">Men. 64ᵇ</cite> <he>חדא ידא אאיגרא … אצריפה</he> one hand on a flat roof, and one on a cone-shaped roof, v. preced; Yalk. Ezra 1067.—[<cite ref=\"Sanhedrin 44a\">Snh. 44ᵃ</cite>, v. <cite ref=\"R00798\"><he>צְרַף</he></cite>.]—Pl. <he>צְרִיפִין</he>, <he>צְרִיפֵי</he>. ",
+				"<cite ref=\"Sukkah 13b:3\">Succ. 13ᵇ</cite> <he>הנהו צ׳ דאורבני וכ׳</he> those cone-shaped bundles of bulrushes are fit to cover the Succah, when the top knots are untied."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. <i>Ts’rifa</i> (or <i>Ts.</i> <i>d’ ʿEna</i>), in Babylonia. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86a:4\">B. Mets. 86ᵃ</cite> <he>ומשחין לצ׳ מצ׳ לעינא</he> (Ms. M. <he>מפומבדיתא לצ׳ דעינא ומצ׳ דעינא</he>). ",
+				"<cite ref=\"Sanhedrin 44a:11\">Snh. 44ᵃ</cite> (expl. <he>אדרת שנער</he>, <cite ref=\"Joshua 7:21\">Josh. VII, 21</cite>) <he>סרבלא דצ׳</he> (Ms. F. <he>ס׳ צ׳</he>, v. Rabb. D. S. a. l. note 3) a cloak made in Ts. (v., however, <cite ref=\"R00798\"><he>צְרַף</he></cite>).—3) name of an idolatrous temple (and fair) in Ashkelon. ",
+				"<cite ref=\"Avodah Zarah 11b:8\">Ab. Zar. 11ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

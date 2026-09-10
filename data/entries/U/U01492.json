@@ -1,0 +1,52 @@
+{
+	"id": "U01492",
+	"slug": "שמם-2",
+	"headword": {
+		"text": "שְׁמַם"
+	},
+	"page": {
+		"number": 1597,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01491\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתְּמַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be desolate</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 4:5\">Targ. Lam. IV, 5</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be confounded, mad</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 21:14\">Targ. I Sam. XXI, 14</cite> (h. text <he>ויתהלל</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתּוֹמֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to be perplexed</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 21a:2\">Ḥull. 21ᵃ</cite> <he>א׳ כשעה חדא</he> (fr. ",
+						"<cite ref=\"Daniel 4:16\">Dan. IV, 16</cite>) he was perplexed for a moment (knew not what to answer)."
+					]
+				}
+			],
+			"stem": "Ithpol."
+		}
+	]
+}

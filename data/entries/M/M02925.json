@@ -1,0 +1,24 @@
+{
+	"id": "M02925",
+	"slug": "משמע-2",
+	"headword": {
+		"text": "מַשְׁמָע"
+	},
+	"page": {
+		"number": 856,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שָׁמַע</he> <i>Hif.</i>) <i>intimation, logical conclusion</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 42b:9\">Yoma 42ᵇ</cite>, v. <cite ref=\"M01163\"><he>מֵילָא</he> II</cite>.—Esp. <he>מִמַּשְׁמַע</he> <i>by implication, constructively</i>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:5:3\">Y. Erub. III, 21ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Nedarim 1:4:4\">Y. Ned. I, end, 37ᵃ</cite>, v. <cite ref=\"E00648\"><he>הֵן</he></cite>.—<he>ממ׳ שנאמר … איני יודע וכ׳</he> by mere logical conclusion from the text …, would I not learn that &c.? <cite ref=\"Bava Batra 110a:2\">B. Bath. 110ᵃ</cite> <he>ממ׳ שנאמר וכ׳</he> when the text says ‘the daughter of Amminadab’, do I not know that she is the sister of N.? <cite ref=\"Bava Metzia 113a\">B. Mets. 113ᵃ</cite>; a. fr.—Pl. <he>מַשְׁמָעוֹת</he>. Y. Yoma V, 43ᵃ top <he>מ׳ ביניהון</he> they differ only as to the grammatical construction of the text (without any difference in the law of the case).—<he>מַשְׁמְעוֹת דורשין איכא בינייהו</he> they differ only as to the texts from which the law is derived. ",
+				"<cite ref=\"Bava Metzia 27a:12\">B. Mets. 27ᵃ</cite>; <cite ref=\"Sanhedrin 76b:6\">Snh. 76ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

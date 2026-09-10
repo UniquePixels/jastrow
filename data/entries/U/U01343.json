@@ -1,0 +1,44 @@
+{
+	"id": "U01343",
+	"slug": "שלל-1",
+	"headword": {
+		"text": "שָׁלַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1585,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to hang down, be loose</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to hang on, to chain</i>. Part. pass. <cite ref=\"U00012\"><he>שָׁלוּל</he></cite>. Lam. R. introd. (R. Z’ʿera) <he>כת … שְׁלוּלִים בשלשלאות</he> a troop of old men chained with chains.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make chain-stitches, to baste</i>, opp. <he>אחה</he> to sew together with fine stitches. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:3\">Y. M. Kat. III, 82ᵇ</cite> top <he>על כל המתים הוא שׁוֹלֵל … ומאחה וכ׳</he> for all deceased relatives one may baste the rent after seven days, and sew it after thirty days; <he>ויִשְׁלוֹל יום שביעי וכ׳</he> let him be permitted to baste it on the seventh day &c.; <cite ref=\"Tractate Semachot 9:3\">Treat. S’maḥ. ch. IX</cite>; <cite ref=\"Moed Katan 22b:15\">M. Kat. 22ᵇ</cite>. ",
+				"<cite ref=\"Moed Katan 22b:16\">Ib.</cite> <he>האשה שׁוֹלַלְתּוֹ וכ׳</he> a woman may baste it immediately (after rending), out of regard for her dignity; <cite ref=\"Moed Katan 26b\">ib. 26ᵇ</cite>. ",
+				"<cite ref=\"Moed Katan 26b:14\">Ib.</cite> <he>דלא ניתן לשׁוֹלְלוֹ</he> because it is not to be basted (during the seven days); a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁילֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to hang with, decorate with</i>.—Part. pass. <he>מְשׁוּלָּל</he>. Mekh. B’shall., s. 1 <he>מְשׁוּלָּלִין בזיין</he>, v. <cite ref=\"U01335\"><he>שָׁלִישׁ</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

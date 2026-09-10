@@ -1,0 +1,22 @@
+{
+	"id": "B00138",
+	"slug": "בדיחא",
+	"headword": {
+		"text": "בְּדִיחָא"
+	},
+	"page": {
+		"number": 140,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00128\"><he>בדח</he></cite>) <i>joy</i>. Constr. <cite ref=\"B00137\"><he>בְּדִיחַת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 8:17\">Targ. Esth. VIII, 17</cite>."
+			]
+		}
+	]
+}

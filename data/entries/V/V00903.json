@@ -1,0 +1,47 @@
+{
+	"id": "V00903",
+	"slug": "תקנה",
+	"headword": {
+		"text": "תַּקָּנָה"
+	},
+	"page": {
+		"number": 1693,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00899\"><he>תָּקַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>remedy</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 5a:15\">Ḥag. 5ᵃ</cite>, v. <cite ref=\"M02262\"><he>מָצָא</he></cite>. ",
+				"<cite ref=\"Chagigah 15a:11\">Ib. 15ᵃ</cite> <he>מה כלי … יש להם ת׳ … יש לו ת׳</he> as gold and glass vessels, even when they are broken, can be mended (remolten), so may a scholar, even if he has sinned, be restored (through repentance); <cite ref=\"Avot D'Rabbi Natan 24:5\">Ab. d’R. N. ch. XXIV</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 9:7:6\">Y. Sabb. IX, end, 12ᵇ</cite>, v. <cite ref=\"P00268\"><he>עוֹלָמִית</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>arrangement, ordinance, improvement, measure for the public welfare, reform</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 10a:3\">Keth. 10ᵃ</cite> <he>הואיל ותַקָּנַת חכמים וכ׳</he> since it (the K’thubah) is merely a Rabbinical ordinance, she can collect her jointure only from the worst land. ",
+				"<cite ref=\"Ketubot 10a:1\">Ib.</cite> <he>בתַקָּנָתָם</he>, v. <cite ref=\"J00485\"><he>יָעַל</he></cite>. ",
+				"<cite ref=\"Mishnah Gittin 4:6\">Gitt. IV, 6</cite> we must not help captives to escape, <he>מפני תקנת השבויין</he> this regulation was made for the benefit of the (remaining) captives (who would be ill-treated after one escaped). ",
+				"<cite ref=\"Mishnah Gittin 5:5\">Ib. V, 5</cite> it has been decreed that if a joist is stolen and put into a building, the owner must accept the money for it, <he>מפני תקנת השבים</he> as a measure for the benefit of repentant sinners. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 1:4\">R. Hash. I, 4</cite> <he>מפני תקנת קרבן</he> in order to be able to regulate the sacrifices (for the New Year’s day). ",
+				"<cite ref=\"Bava Kamma 115a\">B. Kam. 115ᵃ</cite>, a. e. <he>תקנת השוק</he>, v. <cite ref=\"U00521\"><he>שׁוּק</he> III</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 4:2:2\">Y. R. Hash. IV, 59ᵇ</cite> bot. <he>ויש ת׳ אחר הת׳</he> is there an ordinance after an ordinance, i.e. can a measure enacted by the Rabbis be extended by another enactment?; a. fr.—Pl. <he>תַּקָּנוֹת</he>. Bab. ",
+				"<cite ref=\"Rosh Hashanah 31b:6\">R. Hash. 31ᵇ</cite> <he>זו אחת מתשע ת׳ וכ׳</he> (not <he>אחד</he>) this is one of the nine reforms introduced by R. J. ben Zaccai. ",
+				"<cite ref=\"Bava Kamma 82a:3\">B. Kam. 82ᵃ</cite> <he>עשר ת׳ וכ׳</he> (not <he>עשרה</he>) Ezra made ten regulations: that reading from the Law should take place on Mondays and Thursdays &c. ",
+				"<cite ref=\"Menachot 51b:20\">Men. 51ᵇ</cite> <he>שתי ת׳ וכ׳</he> (not <cite ref=\"U01585\"><he>שני</he></cite>) two reforms were introduced by the Rabbis &c. ",
+				"<cite ref=\"Bava Metzia 112b:3\">B. Mets. 112ᵇ</cite> <he>הני הילכתא נינהו הני ת׳ נינהו</he> do you call these <i>hălakhoth</i> (legal decisions)? these are reforms (changing the Biblical law). ",
+				"<cite ref=\"Bava Metzia 112b:3\">Ib.</cite> <he>ת׳ קבועות</he> measures deserving to be perpetuated (to supersede the Biblical law); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

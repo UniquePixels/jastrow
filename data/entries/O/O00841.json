@@ -1,0 +1,42 @@
+{
+	"id": "O00841",
+	"slug": "סירוס",
+	"headword": {
+		"text": "סֵירוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "סֵר׳"
+		}
+	],
+	"page": {
+		"number": 987,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01646\"><he>סָרַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>castration, mutilation</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 25a:7\">Kidd. 25ᵃ</cite> <he>אף הס׳</he> castration of a slave also entitles him to his liberty. ",
+				"<cite ref=\"Shabbat 110b\">Sabb. 110ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>breaking the line, irregularity</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 80a\">B. Bath. 80ᵃ</cite> (expl. <he>ומסרס</he>, Mish. ",
+				"<cite ref=\"Mishnah Bava Batra 5:3\">ib. V, 3</cite>), <he>נוטל ג׳ נחילין בס׳</he> he takes three broods of bees not in immediate succession of their birth, i.e. the first, the third and the fifth brood.—Pl. <he>סֵירוּסִים</he>, <he>סֵירוּסִין</he>, <cite ref=\"O00835\"><he>סֵר׳</he></cite> (adv.) <i>out of order, irregularly</i>. ",
+				"<cite ref=\"Megillah 18a\">Meg. 18ᵃ</cite>, sq.; Y. ib. II, beg. 73ᵃ <he>קראה … ס׳</he> if one read the M’gillah in deranged order (= <he>לְמִפְרֵעַ</he>); cmp. <cite ref=\"O00836\"><he>סֵירוּג</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

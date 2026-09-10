@@ -1,0 +1,39 @@
+{
+	"id": "S02199",
+	"slug": "קרש-3",
+	"headword": {
+		"text": "קָרַשׁ"
+	},
+	"page": {
+		"number": 1428,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"S02111\"><he>קָרַס</he></cite>) [<i>to be joined</i>, v. <cite ref=\"S02197\"><he>קֶרֶשׁ</he> I</cite>,] <i>to become solid, congeal, contract</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 4\">Gen. R. s. 4</cite>; <cite ref=\"Jerusalem Talmud Berakhot 1:1:23\">Y. Ber. I, 2ᶜ</cite> bot. <he>ובשני קָרְשׁוּ</he>, v. <cite ref=\"L00333\"><he>לַח</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:23\">Ib.</cite> <he>יִקְרַשׁ הרקיע</he> let the heavens congeal. ",
+				"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> <he>עמודים … בצנה שלא יִקְרְשׁוּ</he> marble columns covered with carpets in the winter, lest they contract (and crack), v. <cite ref=\"S02111\"><he>קָרַס</he></cite>. ",
+				"<cite ref=\"Mishnah Pesachim 5:5\">Pes. V, 5</cite> <he>ויקרש הדם</he> and the blood may congeal; a. fr.—Part. pass. <he>קָרוּשׁ</he>. ",
+				"<cite ref=\"Jerusalem Talmud Niddah 3:1:2\">Y. Nidd. III, beg. 50ᶜ</cite> <he>דם הוא שהוא ק׳ וכ׳</he> it is blood which congealed and formed a lump. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:21\">Y. Sabb. II, 4ᵈ</cite> <he>כל שמתיכין אותו ואינו ק׳</he> whatever you melt, and it becomes not solid again. ",
+				"<cite ref=\"Sukkah 12a:4\">Succ. 12ᵃ</cite> <he>יין ק׳ הוא משניר וכ׳</he> it means a jelly of wine from Senir that resembles fig cakes."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְרִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to congeal</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Chullin 6:7\">Tosef. Ḥull. VI, 7</cite> <he>השוחט וה׳ וכ׳</he> (ed. Zuck. <he>והקדיש</he>, corr. acc.) if one slaughters and allows the blood to congeal."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

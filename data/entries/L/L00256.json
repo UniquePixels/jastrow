@@ -1,0 +1,29 @@
+{
+	"id": "L00256",
+	"slug": "לויה-3",
+	"headword": {
+		"text": "לְוָיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְוָיָיה"
+		}
+	],
+	"page": {
+		"number": 698,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00206\"><he>לָוָה</he></cite>) <i>escort, company</i>, esp. <i>the traveller’s escort for protection</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:6\">Sot. IX, 6</cite> <he>והנחנוהו בלא ל׳</he> and we let him (the stranger) go without protection; (Y. ib. IX, 23ᵈ bot. <cite ref=\"E00540\"><he>הלוייה</he></cite>). Bab. ib. 46ᵇ <he>כופין לל׳</he> we may force (the inhabitans of a place) to provide escorts for travellers. Ib. <he>המהלך … ואין לו ל׳ וכ׳</he> he who travels on the road and has no company, let him be engaged in study of the Law (ref. to <he>לִוְיַת</he>, <cite ref=\"Proverbs 1:9\">Prov. I, 9</cite>); <cite ref=\"Eruvin 54a:6\">Erub. 54ᵃ</cite>. ",
+				"<cite ref=\"Chullin 7a:12\">Ḥull. 7ᵃ</cite> <he>בני ל׳</he> fellow-travellers. ",
+				"<cite ref=\"Midrash Tehillim 104:2\">Midr. Till. to Ps. CIV, 1</cite> <he>יהא אליך לְוָיָיתְךָ</he> (or <he>לִוְיָיתְךָ</he>) thy God be thy escort; a. e."
+			]
+		}
+	]
+}

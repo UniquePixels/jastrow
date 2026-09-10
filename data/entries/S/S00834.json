@@ -1,0 +1,28 @@
+{
+	"id": "S00834",
+	"slug": "קטרונים",
+	"headword": {
+		"text": "קִטְּרוֹנִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטְּרוֹנִין"
+		}
+	],
+	"page": {
+		"number": 1353,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (cmp. <cite ref=\"S01559\"><he>קִנְטֵר</he></cite>) a species of <i>hard nuts</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite>; <cite ref=\"Shir HaShirim Rabbah 6:11\">Cant. R. to VI, 11</cite> <he>קַנְטְרָנִים</he>; <cite ref=\"Yalkut Shimoni on Nach 992\">Yalk. ib. 992</cite> <cite ref=\"S00729\"><he>קטורנים</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

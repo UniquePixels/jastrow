@@ -1,0 +1,25 @@
+{
+	"id": "J00708",
+	"slug": "ישראלי",
+	"headword": {
+		"text": "יִשְׂרְאֵלִי"
+	},
+	"page": {
+		"number": 602,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00707\">preced.</cite>) <i>one belonging to a common Israelitish family</i>, contrad. to <cite ref=\"K00168\"><he>כֹּהֲנִי</he></cite>, a. <he>לְוִיִי</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:1\">Kidd. IV, 1</cite>; <cite ref=\"Yevamot 37a:15\">Yeb. 37ᵃ</cite> (collective noun).—Pl. <cite ref=\"J00708\"><he>יִשְׂרְאֵלִים</he></cite>. ",
+				"<cite ref=\"Yevamot 85a:5\">Ib. 85ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Berakhot 5:14\">Tosef. Ber. V, 14</cite>.—<i>Fem.</i> <cite ref=\"J00708\"><he>יִשְׂרְאֵלִית</he></cite> <i>an Israelitish</i> (<i>Jewish</i>) <i>woman</i>. ",
+				"<cite ref=\"Mishnah Niddah 4:2\">Nidd. IV, 2</cite> (<cite ref=\"Niddah 33b:36\">33ᵇ</cite>) (collective noun, opp. to <he>כותיות</he>)."
+			]
+		}
+	]
+}

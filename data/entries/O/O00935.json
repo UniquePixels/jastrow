@@ -1,0 +1,29 @@
+{
+	"id": "O00935",
+	"slug": "סכסך-1",
+	"headword": {
+		"text": "סִכְסֵךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 992,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; Pilp. of <cite ref=\"O00903\"><he>סָכַךְ</he> I</cite>)<i>to be caught; to stick</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 25b:8-9\">Nidd. 25ᵇ</cite> <he>מביא … אם מְסַכְסֵךְ וכ׳</he> one takes a chip with a smooth head and introduces it at the place of the genitals (of a miscarried foetus), and if it gets caught (that it can proceed no farther), it is sure to be a male foetus."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>toentangle, snare</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite> <he>ועופות ומְסַכְסְבָן וכ׳</he> and (he hunted) birds and ensnared them, but an angel came and freed them; <cite ref=\"Yalkut Shimoni on Nach 950\">Yalk. Prov. 950</cite>.—Part. f. <cite ref=\"M01954\"><he>מְסַכְסֶכֶת</he></cite> (sub. <cite ref=\"O00898\"><he>סַכִּין</he></cite>) <i>a slaughtering knife having an indentation which catches the nail passing in one direction</i>, contrad. to <cite ref=\"A00552\"><he>אוגרת</he></cite> which catches the nail in either direction. ",
+				"<cite ref=\"Chullin 17b\">Ḥull. 17ᵇ</cite> Ar. (ed. <cite ref=\"M01869\"><he>מְסוּכְסֶכֶת</he></cite> <i>part. pass</i>.)."
+			],
+			"label": "2"
+		}
+	]
+}

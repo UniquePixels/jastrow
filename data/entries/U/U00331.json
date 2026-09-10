@@ -1,0 +1,26 @@
+{
+	"id": "U00331",
+	"slug": "שובר-2",
+	"headword": {
+		"text": "שׁוֹבֵר"
+	},
+	"page": {
+		"number": 1529,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שָׁבַר</he> I; cmp. <cite ref=\"Q01943\"><he>פָּרַע</he></cite>) <i>receipt, renunciation</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 19b:15\">B. Mets. 19ᵇ</cite> <he>מצא ש׳</he> if one finds a receipt (of a woman concerning her jointure). ",
+				"<cite ref=\"Bava Metzia 20a:3\">Ib. 20ᵃ</cite> <he>ש׳ בזמנו טריף</he> a deed of renunciation takes effect from its date (irrespective of the date of delivery). ",
+				"<cite ref=\"Mishnah Ketubot 9:9\">Keth. IX, 9</cite> <he>אבר שׁוֹבְרִי</he> I lost my receipt; a. fr.—Pl. <he>שׁוֹבְרִים</he>, <he>שׁוֹבְרִין</he>. ",
+				"<cite ref=\"Mishnah Moed Katan 3:3\">M. Kat. III, 3</cite>; Y. ib. 82ᵃ bot., v. <cite ref=\"A00693\"><he>אוֹמוֹלוֹגְיָיא</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Metzia 1:7\">B. Mets. I, 7</cite>; a. fr."
+			]
+		}
+	]
+}

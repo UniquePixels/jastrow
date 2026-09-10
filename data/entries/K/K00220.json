@@ -1,0 +1,45 @@
+{
+	"id": "K00220",
+	"slug": "כוורת",
+	"headword": {
+		"text": "כְּוֶורֶת"
+	},
+	"page": {
+		"number": 617,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00362\"><he>כור</he></cite>, cmp. <cite ref=\"K00077\"><he>כְּבָרָה</he></cite>; v. Fl. to Levy Targ. Dict. I, p. 428ᵃ) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a large round vessel, receptacle</i> of grain, water &c.; <he>כ׳ דבורים</he> <i>bee-hive</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 1\">Num. R. s. 1</cite>; Tanḥ. B’midb. 2, v. <cite ref=\"K00120\"><he>כַּדּוֹרֶת</he></cite>. ",
+				"<cite ref=\"Mishnah Sheviit 10:7\">Shebi. X, 7</cite>. ",
+				"<cite ref=\"Mishnah Kelim 15:1\">Kel. XV, 1</cite> <he>כ׳ הקש וכ׳ הקנים</he> a receptacle made of straw or reeds. ",
+				"<cite ref=\"Mishnah Kelim 8:1\">Ib. VIII, 1</cite>; <cite ref=\"Tosefta Kelim Kamma 6:3\">Tosef. Kel. B. Kam. VI, 3</cite> <he>כ׳ פחותה וכ׳</he> a defective <i>k’vereth</i> which was repaired with a stuffing of straw. ",
+				"<cite ref=\"Tosefta Kelim Kamma 5:8\">Ib. V, 8</cite> [read:] <he>כָּאוֶרֶת של מתכת וכ׳</he> (ed. Zuck. <cite ref=\"N00602\"><he>ניארת</he></cite>, corr. acc.) a metal <i>k.</i> used in the household. ",
+				"<cite ref=\"Menachot 95a:1\">Men. 95ᵃ</cite> <he>כמין כ׳</he> a kind of bee-hive (honeycombed plate in the stove); <cite ref=\"Tosefta Menahot 11:2\">Tosef. ib. XI, 2</cite> <cite ref=\"M00789\"><he>מזרת</he></cite>, <he>מורת</he> (corr. acc.); a. e.—Pl. <he>כְּוָורוֹת</he>. ",
+				"<cite ref=\"Tosefta Ohalot 10:5\">Tosef. Ohol. X, 5</cite> <he>שתי כ׳</he> (<he>כוורת</he> ed. Zuck., Var. <he>כוארת</he>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " the <i>ramifications of the vine, espalier, the widest extent of branches</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 3:4\">Tosef. Kil. III, 4</cite>; Y. ib. V, 29ᵈ <he>הכ׳ מְכוּוָּן והגוף וכ׳</he> (sub <cite ref=\"B00754\"><he>בֵּית</he></cite>) if the espalier is in a certain direction, but the body of the vine is not in the line. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:3:5\">Y. Erub. III, 21ᵃ</cite> top <he>בשהיתה כְּוַרְתּוֹ ארבעה</he> when its ramifications had a circumference of four cubits; <cite ref=\"Jerusalem Talmud Sukkah 2:4:1\">Y. Succ. II, 52ᵈ</cite> bot. <cite ref=\"K00667\"><he>ככרתו</he></cite> (corr. acc. or <he>כְּבַרְתּוֹ</he>). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:23\">Y. Ber. I, 2ᶜ</cite> bot., v. <cite ref=\"N00389\"><he>נוֹף</he> I</cite>; a. e.—Midr. Sam. ch. XIII <he>קוֹרָתוֹ של חרוב</he> (= <cite ref=\"K00173\"><he>כְּוַ׳</he></cite>), v. next w.—Pl. m. <he>כְּוָורָתִים</he>, <he>כְּוָורָתִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:1:3\">Y. Kil. IV, 29ᵇ</cite> top <he>הכוור׳</he> R. S. to <cite ref=\"Mishnah Kilayim 4:3\">Kil. IV, 3</cite> (ed. <cite ref=\"K01288\"><he>כָּֽרָתִים</he></cite> contr., cmp. <cite ref=\"D01033\"><he>דָּֽרְבָן</he></cite>). ",
+				"<cite ref=\"Mishnah Kilayim 6\">Ib. VI</cite>, beg. 30ᵇ <he>כרתין</he>. ",
+				"<cite ref=\"Mishnah Kilayim 4\">Ib. IV</cite>, 29ᶜ <he>כרתין</he>; <cite ref=\"Mishnah Kilayim 5\">ib. V</cite>, 30ᵃ top <cite ref=\"K01284\"><he>כרתון</he></cite> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

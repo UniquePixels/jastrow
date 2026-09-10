@@ -1,0 +1,39 @@
+{
+	"id": "E00812",
+	"slug": "הרג-1",
+	"headword": {
+		"text": "הָרַג"
+	},
+	"page": {
+		"number": 365,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to cut</i>, v. <cite ref=\"E00814\"><he>הֶרֶג</he></cite>,] <i>to kill, put to death</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 21:3\">Num. R. s. 21</cite>, beg. <he>בא לַהֲרָגְךָ השכם להָרְגּוֹ</he> if one comes to kill thee, be the first to kill him; <cite ref=\"Berakhot 58a:11\">Ber. 58ᵃ</cite>; <cite ref=\"Sanhedrin 72a:4\">Snh. 72ᵃ</cite> <he>להוֹרְגְּךָ … להוֹרְגוֹ</he>. ",
+				"<cite ref=\"Gittin 56b:9\">Gitt. 56ᵇ</cite> <he>כסבור ה׳ את עצמו</he> he (Titus) thought he had killed himself (euphem. for <i>the Lord</i>); a. v. fr.—<i>Part. pass.</i> <he>הָרוּג</he>. ",
+				"<cite ref=\"Tosefta Gittin 5:1\">Tosef. Gitt. V</cite> (<cite ref=\"Tosefta Gittin 3:1\">III</cite>), 1 <he>הֲרוּגִין שנהרגו לפני מלחמה ובשעת מלחמה</he> (ed. Zuck. <he>בשעת</he>) those executed (by the Roman government) before and during the Vespasian war; <cite ref=\"Jerusalem Talmud Gittin 5:7:2\">Y. Gitt. V, 47ᵇ</cite> top [read:] <he>הֲרוּגֵי המלחמה ולפני וכ׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:21\">Y. Ber. I, 3ᵈ</cite>, v. <cite ref=\"B00764\"><he>בִּיתֵּר</he></cite>. ",
+				"<cite ref=\"Pesachim 50a:13\">Pes. 50ᵃ</cite>; <cite ref=\"Bava Batra 10b:11\">B. Bath. 10ᵇ</cite>, a. e. <he>הרוגי מלכות</he> martyrs under the Roman government (R. Akiba and his fellow-martyrs), v. <cite ref=\"L00193\"><he>לוּד</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶהֱרַג"],
+			"senses": [
+				{
+					"gloss": "<i>to be killed, executed</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 18b\">Taan. 18ᵇ</cite> <he>נֶהֶרְגוּ</he> were put to death (by the Roman government). ",
+						"<cite ref=\"Gittin 56a:4\">Gitt. 56ᵃ</cite> <he>יֵהָרֵג</he> is to be put to death. ",
+						"<cite ref=\"Sanhedrin 74a:12\">Snh. 74ᵃ</cite> <he>עבור ואל תֵּהָרֵג</he> transgress or thou wilt be killed; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

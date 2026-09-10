@@ -1,0 +1,34 @@
+{
+	"id": "R00705",
+	"slug": "צפף",
+	"headword": {
+		"text": "צָפַף"
+	},
+	"page": {
+		"number": 1297,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00674\"><he>טָפַף</he> I</cite>) <i>to touch closely, press; to squeeze into, weave</i> (v. <cite ref=\"R00401\"><he>צִיפָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 18:32\">Midr. Till. to Ps. XVIII, 41</cite> <he>השחיל וצַף הוא בעצמו וכ׳</he> ed. Bub. (ed. <he>השחיל עצמו</he>) he slipped and squeezed himself into the cave.—Part. pass. <he>צָפוּף</he>; f. <he>צְפוּפָה</he>; pl. <he>צְפוּפִים</he>, <he>צְפוּפִין</he>. ",
+				"<cite ref=\"Pirkei Avot 5:5\">Ab. V, 5</cite> <he>עומדים צ׳ … רוחים</he> when they stood (in the Temple), they were pressed together, but when they prostrated themselves, they had room enough; <cite ref=\"Vayikra Rabbah 10:9\">Lev. R. s. 10</cite>; Kob. R. to I, 7. Y’lamd. to Deut. V, 6, quot. in Ar. <he>ראו היאך עומדין המלאכים צ׳ וכ׳</he> see, how the angels stand before me crowded and trembling."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְפַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be pressed together, huddle</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 283\">Yalk. Ex. 283</cite> (ref. to <cite ref=\"Exodus 19:17\">Ex. XIX, 17</cite> <he>ויתיצבו נִצְפְּפוּ מלמד וכ׳</he> ‘they placed themselves’, they huddled together, which intimates that they were afraid &c.; Mekh. Yithro, Baḥodesh, s. 3 <he>נכפפו וכ׳</he> (corr. acc.; the entire paragraph is to be emended after Yalk.).—[<i>Hif.</i> <he>הֵיצֵף</he>, <he>הֵיצֵיף</he>, v. <cite ref=\"R00216\"><he>צוּף</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

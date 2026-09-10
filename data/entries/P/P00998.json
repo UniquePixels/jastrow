@@ -1,0 +1,35 @@
+{
+	"id": "P00998",
+	"slug": "ענן-2",
+	"headword": {
+		"text": "עֲנַן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1095,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"P00997\">preced.</cite>) to <i>gather clouds</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 9:14\">Targ. O. Gen. IX, 14</cite> <he>בעֲנָנוּתִי</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַנֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to augur from clouds</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 21:6\">Targ. II Kings XXI, 6</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 19:26\">Targ. O. Lev. XIX, 26</cite> <he>תְעָנוֹן</he> ed. Berl. (oth. ed. <he>תְעַנּוּן</he>, contr. of <he>תְעַנְּנוּן</he>; Ms. II <he>תְעוֹנְנוּן</he>, <i>Pol.</i> of <cite ref=\"P00291\"><he>עוּן</he></cite>).—V. <cite ref=\"M02149\"><he>מְעָנֵין</he></cite>, a. <cite ref=\"P01002\"><he>עָנְנָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

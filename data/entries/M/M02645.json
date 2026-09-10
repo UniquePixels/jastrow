@@ -1,0 +1,46 @@
+{
+	"id": "M02645",
+	"slug": "מרטוט",
+	"headword": {
+		"text": "מַרְטוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְטוּטָא"
+		},
+		{
+			"text": "מַרְטוּטָה"
+		}
+	],
+	"page": {
+		"number": 841,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02644\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tuft of plucked wool</i>, &c.; <i>lint</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:6:6\">Y. Kil. IX, end, 32ᵈ</cite> <he>סיפלני דמ׳ עמר</he> a compress of wool lint; <he>דמ׳ דכיתן</he> of linen lint. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:3:4\">Y. Sabb. IV, end, 7ᵃ</cite> <he>אילו מאן דנסב מ׳ וכ׳</he> if one takes a tuft of wool and puts it on his head in cold weather. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 8:1:5\">Y. Yoma VIII, 44ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Taanit 1:6:5\">Y. Taan. I, 64ᶜ</cite> <he>תרי מ׳</he> soaked a tuft."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a garment made of</i> (<i>plucked</i>) <i>wool</i> (v. P. Sm. 2224; Arab. <i>mirṭ</i> species indumenti ex lana &c.), <i>a coarse garment</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:20\">Targ. Prov. XXV, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 27:13\">Ib. XXVII, 13</cite>.—Pl. <he>מַרְטוּטִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 1:2:8\">Y. Maas. Sh. I, 52ᵈ</cite> bot. <he>עד כדון … תליין ביה מַרְטוּטֵיכוֹן</he> (not … <he>טכין</he>) R. S. is still alive, and you hang your garments on him, i.e. you refer to him as your authority!"
+			],
+			"label": "2"
+		}
+	]
+}

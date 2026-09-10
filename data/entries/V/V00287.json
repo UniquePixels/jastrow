@@ -1,0 +1,42 @@
+{
+	"id": "V00287",
+	"slug": "תורגמן",
+	"headword": {
+		"text": "תּוּרְגְּמָן"
+	},
+	"page": {
+		"number": 1656,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00943\"><he>תִּרְגֵּם</he></cite>) = <cite ref=\"M03035\"><he>מְתוּרְגְּמָן</he></cite>, <i>interpreter, speaker</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 16a:18\">Meg. 16ᵃ</cite>, v. <cite ref=\"M03035\"><he>מְתוּרְגְּמָן</he></cite>. ",
+				"<cite ref=\"Mishnah Makkot 1:9\">Macc. I, 9</cite> <he>שלא תהא … מפי הת׳</he> the Sanhedrin must not learn the evidence through an interpreter (but most understand the witnesses’ own language). ",
+				"<cite ref=\"Shemot Rabbah 3\">Ex. R. s. 3</cite> (expl. <he>לפה</he>, <cite ref=\"Exodus 4:16\">Ex. IV, 16</cite>) <he>לת׳</he> he shall be the spokesman; a. e.—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>the translator</i> (into Chaldaic or Greek) <i>of the Biblical portion read at services</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 23b:3\">Meg. 23ᵇ</cite> (Ms. M. <he>מת׳</he>); a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " = <cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite>, q. v. ",
+					"units": [
+						"<cite ref=\"Pesachim 117a:12\">Pes. 117ᵃ</cite> <he>משכיל ע״י ת׳</he> a psalm superscribed <i>maskil</i> is one pronounced by a speaker. ",
+						"<cite ref=\"Moed Katan 21a:8\">M. Kat. 21ᵃ</cite> <he>ולחש הוא … לת׳ ות׳ השמיע וכ׳</he> and he (being in mourning) whispered to R. Ḥ. b. ʿA., and the latter to the speaker, and the speaker pronounced it to the audience. ",
+						"<cite ref=\"Jerusalem Talmud Megillah 4:3:4\">Y. Meg. IV, 75ᵃ</cite> bot. Ib.ᶜ top; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

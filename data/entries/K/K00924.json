@@ -1,0 +1,33 @@
+{
+	"id": "K00924",
+	"slug": "כסיל",
+	"headword": {
+		"text": "כְּסִיל"
+	},
+	"page": {
+		"number": 653,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " (a denom. of <cite ref=\"K00941\"><he>כֶּסֶל</he></cite> q. v.) [<i>one with thick loins, stout</i>,] (cmp. <cite ref=\"I00683\"><he>טִפֵּשׁ</he></cite>) <i>fool, foolish, overbearing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:18\">Y. Peah I, 15ᵇ</cite> bot.; <cite ref=\"Yalkut Shimoni on Torah 415:3\">Yalk. Ex. 415</cite> (ref. to <cite ref=\"Proverbs 3:26\">Prov. III, 26</cite>) <he>דברים שאתה כ׳ בהם וכ׳</he> in things in which thou art foolish (ignorant), He will guard thy foot &c.—Pl. <he>כְּסִילִים</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 16:5\">Num. R. s. 16</cite> (ref. to <cite ref=\"Proverbs 26:6\">Prov. XXVI, 6</cite>) <he>עשו עצמן כ׳</he> they (the spies) made fools of themselves."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>K’sil</i>, the constellation <i>Orion</i> (v. Winer, Reallex. s. v. Nimrod). ",
+			"units": ["<cite ref=\"Berakhot 58b:12\">Ber. 58ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

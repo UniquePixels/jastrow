@@ -1,0 +1,27 @@
+{
+	"id": "A03443",
+	"slug": "אתקפתא",
+	"headword": {
+		"text": "אַתְקַפְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיתְ׳"
+		}
+	],
+	"page": {
+		"number": 133,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>תקף</he>) <i>seizing;</i> whence <i>refutation, objection</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 129a\">B. Bath. 129ᵃ</cite>; <cite ref=\"Chagigah 9b:6\">Ḥag. 9ᵇ</cite> <he>א׳ ד־</he> objection raised by …"
+			]
+		}
+	]
+}

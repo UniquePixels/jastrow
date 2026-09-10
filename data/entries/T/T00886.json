@@ -1,0 +1,22 @@
+{
+	"id": "T00886",
+	"slug": "רעות-1",
+	"headword": {
+		"text": "רְעוּת"
+	},
+	"page": {
+		"number": 1486,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"T00867\"><he>רֵעַ</he></cite>) <i>friend, neighbor; another</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 34:10\">Pirké d’R. El. ch. XXXIV</cite> <he>ואבני … אשה מאת רְעוּתָהּ</he> and the gravestones are separated from one another."
+			]
+		}
+	]
+}

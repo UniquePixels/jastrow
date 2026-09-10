@@ -1,0 +1,42 @@
+{
+	"id": "U01711",
+	"slug": "שפה-2",
+	"headword": {
+		"text": "שָׂפָה"
+	},
+	"page": {
+		"number": 1613,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"O01351\"><he>סְפָי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rim, border, binding</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 2:1\">B. Bath. II, 1</cite> <he>ארבעה מן הש׳</he> four handbreadths from the rim of the stove. ",
+				"<cite ref=\"Bava Batra 19a:3\">Ib. 19ᵃ</cite> <he>שְׂפַת מחמצן</he> the border of the wash-pit; a. fr.—<he>קמי ש׳</he>, <he>קנה ש׳</he>, v. <cite ref=\"S01442\"><he>קָמָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lip; speech</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:44\">Y. Sabb. VII, 10ᶜ</cite> top <he>המאדם אודם בש׳</he> he who reddens his lips (v. <cite ref=\"A00417\"><he>אָדַם</he></cite>; Naḥmanides reads: <he>בטפה</he>). Ib. XIV, 14ᵈ top <he>כל שהוא מן הש׳ ולפנים</he> any wound on the lip and further inside (in the mouth, opp. <cite ref=\"H01078\"><he>חָלָל</he> III</cite>). Y. Macc. II, end, 32ᵃ, a. fr. <he>בש׳ רפה</he> with lax lips, with low indistinct speech; a. fr.—Pl. <cite ref=\"U01815\"><he>שְׂפָתוֹת</he></cite>, <cite ref=\"U01741\"><he>שְׂפָיוֹת</he></cite> (<he>סְפָי</he>); <i>Du.</i> <cite ref=\"U01815\"><he>שְׂפָתַיִם</he></cite>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 6:15\">Tosef. Kel. B. Kam. VI, 15</cite> <he>שְׂפָתָיו</he>, v. <cite ref=\"U01786\"><he>שָׁפַע</he></cite>. ",
+				"<cite ref=\"Moed Katan 15a:12\">M. Kat. 15ᵃ</cite> (expl. <he>ועל שפם וכ׳</he>, <cite ref=\"Leviticus 13:45\">Lev. XIII, 45</cite>) <he>שיהו שִׂפְתוֹתָיו מדובקות וכ׳</he> his lips should cleave to each other (he must not greet or answer greeting). ",
+				"<cite ref=\"Kohelet Rabbah 12:4\">Koh. R. to XII, 4</cite> <he>בנות השיר אלו הש׳</he> ‘the daughters of song’, that means the lips; <cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite> <he>שִׂפְתוֹתָיו</he>. ",
+				"<cite ref=\"Shabbat 152a:9\">Sabb. 152ᵃ</cite> <he>שִׂפְתוֹתֵיהֶן וכ׳</he>, v. <cite ref=\"T00941\"><he>רָפַט</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 35a:7\">Ab. Zar. 35ᵃ</cite> <he>שִׂפְתוֹתֶיךָ</he>, v. <cite ref=\"H01864\"><he>חָשַׁק</he></cite>. ",
+				"<cite ref=\"Ketubot 61b:3\">Keth. 61ᵇ</cite> <he>את השפתים</he>, v. <cite ref=\"U01918\"><he>שִׁרְבֵּט</he></cite>; <cite ref=\"Jerusalem Talmud Ketubot 5:6:6\">Y. Keth. V, 30ᵃ</cite> bot. <he>השפיות</he>, v. <cite ref=\"U01206\"><he>שִׁלְבֵּק</he></cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 6:1:2\">Y. Yeb. VI, beg. 7ᵇ</cite> <he>בין הש׳</he> between the lips (of the vagina)."
+			],
+			"label": "2"
+		}
+	]
+}

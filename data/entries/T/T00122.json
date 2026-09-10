@@ -1,0 +1,25 @@
+{
+	"id": "T00122",
+	"slug": "רבנאי",
+	"headword": {
+		"text": "רַבַּנַּאי"
+	},
+	"page": {
+		"number": 1444,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (= <he>רב בנאי</he>) <i>Rabbannai</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 2a:7\">B. Mets. 2ᵃ</cite> (Ms. M. <cite ref=\"T00096\"><he>רבינא</he></cite>, v. Rabb. D. S. a. l. note); <cite ref=\"Bava Metzia 27a:14\">ib. 27ᵃ</cite> (v. Rabb. D. S. a. l. note 400); (<cite ref=\"Bava Kamma 113b\">B. Kam. 113ᵇ</cite> ed. <cite ref=\"T00096\"><he>רבינא</he></cite>, Ms. M. <cite ref=\"T00121\"><he>רבנא</he></cite>, v. Rabb. D. S. a. l. note 30). ",
+				"<cite ref=\"Beitzah 15b\">Bets. 15ᵇ</cite> bot. ",
+				"<cite ref=\"Ketubot 21b:1\">Keth. 21ᵇ</cite> top. ",
+				"<cite ref=\"Chullin 76b:6\">Ḥull. 76ᵇ</cite> (Ms. H. a. F. <he>רב בנאי</he>, v. Rabb. D. S. a. l. note 2)."
+			]
+		}
+	]
+}

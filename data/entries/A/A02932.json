@@ -1,0 +1,27 @@
+{
+	"id": "A02932",
+	"slug": "אקסיוס",
+	"headword": {
+		"text": "אַקְסְיוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַכְסְיוֹס"
+		}
+	],
+	"page": {
+		"number": 113,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἄξιος) <i>worthy, adequate</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 46:3\">Gen. R. s. 46</cite> ‘<i>I am God Shadday</i>’ (<cite ref=\"Genesis 17:1\">Gen. XVII, 1</cite>) is translated by Aquila <he>אקווס ואקנוס</he> Ar. (ed. <cite ref=\"A01725\"><he>אכסיוס</he></cite>, <cite ref=\"A01725\"><he>אכסיוט</he></cite>, corr. acc.) ἄξιος and (καὶ) ἵκανος, adequate and sufficient (competent); cmp. ibid. <he>דייך וכ׳</he> it is sufficient for thee that I am thy protector."
+			]
+		}
+	]
+}

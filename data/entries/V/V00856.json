@@ -1,0 +1,29 @@
+{
+	"id": "V00856",
+	"slug": "תפר-3",
+	"headword": {
+		"text": "תֹּפֶר"
+	},
+	"altHeadwords": [
+		{
+			"text": "תֶּפֶר"
+		}
+	],
+	"page": {
+		"number": 1689,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00855\">preced.</cite>) <i>seam</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 35a\">Men. 35ᵃ</cite>; <cite ref=\"Megillah 24b:18\">Meg. 24ᵇ</cite> <he>בתָפְרָן ובאלכסונן</he> (or <he>בתִפְרָן</he>; Rashi <he>בתוֹפְרָן</he>), v. <cite ref=\"A01891\"><he>אֲלַכְסוֹן</he></cite>. Men. l. c. <he>צריך … למקום הת׳</he> the grooves (marking the division of the compartments of the T’fillin) must reach to where the seam (the border) sets in. ",
+				"<cite ref=\"Mishnah Kelim 23:1\">Kel. XXIII, 1</cite> <he>מפני שהת׳ מחברו</he> because the seam joins it (makes the stuffing and the cover one body). ",
+				"<cite ref=\"Mishnah Kelim 28:1\">Ib. XXVIII, 1</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "C01144",
+	"slug": "גנינים",
+	"headword": {
+		"text": "גְּנִינִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּנוּנִים"
+		}
+	],
+	"page": {
+		"number": 259,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (contr. of <he>גַּוְונוּנ׳</he>, v. <cite ref=\"C00335\"><he>גַּוָּון</he></cite>) <i>of many colors</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 3:3\">Nidd. III, 3</cite> (<cite ref=\"Niddah 24b:48\">24ᵇ</cite>) <he>שפיר מלא גנו׳</he> (an abortion consisting of) a bag full of a many-colored substance; (Ar. <cite ref=\"C00767\"><he>גני׳</he></cite>—for which in <cite ref=\"Niddah 24b:48\">Ib.</cite> ",
+				"<cite ref=\"Niddah 24b:48\">ib.</cite> <he>גוונים</he>; incorr. opin. = <he>גבנונים</he> <i>lumps of a fleshy substance</i>, v. Ar. s. v.); <cite ref=\"Mishnah Bekhorot 8:1\">Bekh. VIII, 1</cite> <he>גנו׳</he> (Talm. ed. 47ᵇ <cite ref=\"C00767\"><he>גני׳</he></cite>); <cite ref=\"Mishnah Keritot 1:5\">Kerith. I, 5</cite> <he>גנו׳</he> (Talm. ed. 7ᵇ <cite ref=\"C00767\"><he>גני׳</he></cite>).—Esp. <i>a sort of flour containing all shades of colors</i>. Tanḥ. T’savveh 13 <he>סאה גני׳</he> (ed. Bub. 10 <he>גבונים</he>, Ms. R. <he>גנינין</he>, oth. corrupt. v. ib. note 63) one measure full of all sorts of flour; <cite ref=\"Jerusalem Talmud Peah 7:3:10\">Y. Peah VII, 20ᵃ</cite> bot. <cite ref=\"C01142\"><he>גניינן</he></cite> (corr. <he>גנינין</he>; omitted in Yalk. Hab. 565).—",
+				"<cite ref=\"Sotah 36b:19\">Sot. 36ᵇ</cite> <he>גְּנוּנֵי מלכות</he> royal <i>manners</i> (v. <cite ref=\"C00335\"><he>גַּוָּון</he></cite> a. <cite ref=\"C00336\"><he>גַּוָּונָא</he></cite>; Ar. <he>גִּנוּסֵי</he>, <he>גְּנִיסֵי</he>, v. <cite ref=\"C00766\"><he>גִּינִיסְיָא</he></cite>)."
+			]
+		}
+	]
+}

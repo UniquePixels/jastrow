@@ -1,0 +1,36 @@
+{
+	"id": "A01641",
+	"slug": "איתא-2",
+	"headword": {
+		"text": "אִיתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיתָּה"
+		},
+		{
+			"text": "אִיתְּתָא"
+		},
+		{
+			"text": "אִתְּ׳"
+		}
+	],
+	"page": {
+		"number": 61,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"A01639\"><he>אִית</he></cite> a. <cite ref=\"A01615\"><he>אִישׁ</he></cite>; = h. <cite ref=\"A03265\"><he>אִשָּׁה</he></cite>; (cmp. <cite ref=\"A02307\"><he>אִנְתָּא</he></cite>) <i>woman, wife</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:22\">Targ. Gen. II, 22</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Maasrot 5:3:12\">Y. Maasr. V, end, 52ᵃ</cite> <he>חדא איתא</he> a certain woman. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:4:6\">Y. Taan. I, 64ᵇ</cite> bot. <cite ref=\"A01641\"><he>איתה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:9\">Y. Ber. II, 5ᶜ</cite> bot. <he>איתתֵיה דאבוהי</he> his father’s wife, step-mother (fig. for Babylon); a. fr."
+			]
+		}
+	]
+}

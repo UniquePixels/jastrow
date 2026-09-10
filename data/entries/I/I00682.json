@@ -1,0 +1,52 @@
+{
+	"id": "I00682",
+	"slug": "טפש-2",
+	"headword": {
+		"text": "טְפֵשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְפֵישׁ"
+		}
+	],
+	"page": {
+		"number": 549,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"I00681\">same</cite>.v. infra.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַפֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to make dull, obdurate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 6:10\">Targ. Is. VI, 10</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:28\">Targ. Y. Deut. XXVIII, 28</cite>, v. <cite ref=\"M00599\"><he>מוֹקְרָא</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיטַּפַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to become</i> or <i>to be dull, foolish; to act foolishly</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 30:32\">Targ. Prov. XXX, 32</cite> (some ed. <he>תִיטְפֵשׁ</he> <i>Pe.</i>). ",
+						"<cite ref=\"Targum Jonathan on I Samuel 26:21\">Targ. I Sam. XXVI, 21</cite>. ",
+						"<cite ref=\"Onkelos Numbers 12:11\">Targ. Num. XII, 11</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 8:47\">Targ. I Kings VIII, 47</cite> (some ed. <cite ref=\"I00642\"><he>אַטְפֵ׳</he></cite> <i>Af.</i>).; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

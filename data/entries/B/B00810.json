@@ -1,0 +1,31 @@
+{
+	"id": "B00810",
+	"slug": "בלאים",
+	"headword": {
+		"text": "בְּלָאִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּלוֹיִים"
+		}
+	],
+	"page": {
+		"number": 170,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h. <cite ref=\"B00829\"><he>בְּלוֹאִים</he></cite>, <he>בְּלוֹיי׳</he> , v. <cite ref=\"B00807\"><he>בְּלָאוֹת</he></cite>) <i>fragments, rags</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 15b\">Succ. 15ᵇ</cite> sq. <he>בְּלָאֵי כלים</he> torn pieces of garments. ",
+				"<cite ref=\"Mishnah Sukkah 5:3\">Ib. V, 3</cite>; a. e.—",
+				"<cite ref=\"Chullin 107b\">Ḥull. 107ᵇ</cite> <he>בלאי חמתות</he> fragments of wine bags.—",
+				"<cite ref=\"Mishnah Kelim 27:5\">Kel. XXVII, 5</cite> <he>בְּלוֹיֵי נפה וכ׳</he> (leather) pieces from a winnow or sieve."
+			]
+		}
+	]
+}

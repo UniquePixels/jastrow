@@ -1,0 +1,23 @@
+{
+	"id": "U01361",
+	"slug": "שלמנא",
+	"headword": {
+		"text": "שַׁלְמָנָא"
+	},
+	"page": {
+		"number": 1587,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01325\"><he>שְׁלֵם</he></cite>) <i>perfect, righteous, honest</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 7a\">Snh. 7ᵃ</cite>, v. <cite ref=\"B00700\"><he>בֵּיר</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 960\">Yalk. Prov. 960</cite>. ",
+				"<cite ref=\"Sanhedrin 22a\">Snh. 22ᵃ</cite> <he>בש׳ נקיט</he> Ms. M. (ed. <he>לשַׁלָּמָא</he>), v. <cite ref=\"C01083\"><he>גַּנָּבָא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 166\">Yalk. Kings 166</cite> <cite ref=\"B01364\"><he>בשלמא</he></cite>."
+			]
+		}
+	]
+}

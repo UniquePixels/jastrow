@@ -1,0 +1,34 @@
+{
+	"id": "A01862",
+	"slug": "אלים-3",
+	"headword": {
+		"text": "אַלִּים"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַלְּמָא"
+		}
+	],
+	"page": {
+		"number": 69,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"A01863\"><he>אַלִּימָא</he></cite> f. (<he>אלם</he>) <i>strong, influential; violent</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 25:23\">Targ. Y. Gen. XXV, 23</cite>; a. e.—",
+				"<cite ref=\"Gittin 60b\">Git. 60ᵇ</cite>, a. fr. <he>כל דא׳ גבר</he> whoever is in power wins (right of possession in cases in which the judge is unable to decide). ",
+				"<cite ref=\"Chullin 39b:19\">Ḥull. 39ᵇ</cite> <he>איניש אלמא</he> a powerful man (defying the law).—",
+				"<cite ref=\"Ketubot 14a:9\">Keth. 14ᵃ</cite> <he>א׳ ליה בריא</he> to him the positive assertion is the stronger argument.—Pl. <he>אַלִּימֵי</he> <cite ref=\"Chullin 76a:16\">Ḥull. 76ᵃ</cite> <i>thick</i> (sinews). ",
+				"<cite ref=\"Kiddushin 59a:5\">Kidd. 59ᵃ</cite> <he>באגא דא׳</he> a village community of violent men.—Fem. ",
+				"<cite ref=\"Kiddushin 44b:3\">Kidd. 44ᵇ</cite> <he>מי א׳ כיד אביה</he> is she as strong, has she the same authority as her father has? <cite ref=\"Bava Metzia 34a:14\">B. Mets. 34ᵃ</cite> <he>מי א׳ ממתניתן</he> is (the Boraitha) stronger (less pliable) than our Mishnah?—",
+				"<cite ref=\"Chullin 48b\">Ḥull. 48ᵇ</cite> <cite ref=\"A01868\"><he>אַלִּימְתָּא</he></cite> the strong, thick (pin).—Pl. <cite ref=\"A01868\"><he>אַלִּימָתָא</he></cite>. ",
+				"<cite ref=\"Yevamot 43a\">Yeb. 43ᵃ</cite> <he>א׳</he> strong, thick combs."
+			]
+		}
+	]
+}

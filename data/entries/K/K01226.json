@@ -1,0 +1,33 @@
+{
+	"id": "K01226",
+	"slug": "כרכשתא-2",
+	"headword": {
+		"text": "כַּרְכַּשְׁתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 671,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>כַּרְכֵּשׁ</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"K01224\"><he>כַּרְכְּשָׁא</he></cite> q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K01131\"><he>כְּרוֹשְׁיָיתָא</he></cite>) <i>tufts, tassels</i> (v. Sm. Ant. s. v. Fimbriae). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 7a:8\">B. Mets. 7ᵃ</cite> <he>דתפיסי בכ׳</he> (Ms. R. 2 <he>בכרשתא</he>, corrected into <he>בכרדשתא</he>, v. Rabb. D. S. a. l. note 60) both taking hold of the fringes of the cloth (which they claim as finders)."
+			],
+			"label": "2"
+		}
+	]
+}

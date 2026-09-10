@@ -1,0 +1,22 @@
+{
+	"id": "M03054",
+	"slug": "מתיכלא",
+	"headword": {
+		"text": "מְתִיכְלָא"
+	},
+	"page": {
+		"number": 862,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>תכל</he>, <i>Taf.</i> of <cite ref=\"K00259\"><he>כּוּל</he></cite> or <cite ref=\"K00716\"><he>כְּלֵי</he></cite>; cmp. <cite ref=\"M02882\"><he>מְשִׁיכְלָא</he></cite>) <i>apothecary’s pot</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:23\">Targ. Job XLI, 23</cite> <he>מתי׳</he> ed. Lag. (ed. Wil. <he>מְתַכְ׳</he>)."
+			]
+		}
+	]
+}

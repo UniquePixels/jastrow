@@ -1,0 +1,29 @@
+{
+	"id": "F00044",
+	"slug": "ויניא",
+	"headword": {
+		"text": "וַיָּנַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "וַויָּנַיָּיה"
+		},
+		{
+			"text": "וָהוֹנַ׳"
+		}
+	],
+	"page": {
+		"number": 373,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (denom. of <cite ref=\"F00031\"><he>וַי</he></cite> or <cite ref=\"F00022\"><he>וָהּ</he></cite>) <i>woe-makers</i>, a word coined in opposition to <he>הוללים</he> (merry-makers), and defined by <cite ref=\"A01902\"><he>אללי</he></cite> as a play on <he>הולל־</he>. Pesik. Aḥăre, p. 170ᵃ <he>קרי להון ווי נייה אלו שביאין אללי וכ׳</he> (Ar. <cite ref=\"G00095\"><he>זהיינא</he></cite>, corr. acc.) called them (the hol’lim, <cite ref=\"Psalms 75:5\">Ps. LXXV, 5</cite>) <i>vayyanaya</i>, those who bring <i>al’lay</i> (woe) &c.; <cite ref=\"Vayikra Rabbah 17:1\">Lev. R. s. 17</cite> <he>זהוניא</he> (corr. acc.; <cite ref=\"Vayikra Rabbah 17:1\">ib.</cite> s. 20 <cite ref=\"A01903\"><he>אלליא</he></cite>); Tanḥ. Aḥăre 2 <he>זה והנייא</he> ed. princ. (later ed. <he>פסוק זה הוללים</he>, corr. acc.); Tanḥ., ed. Bub., ib. 3 <he>דהוניא</he>; <cite ref=\"Yalkut Shimoni on Torah 524\">Yalk. Lev. 524</cite> <he>וי וייה</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 811\">Yalk. Ps. 811</cite> <he>זוהנוייא</he>, <he>זוהוניא</he> (corr. acc.).",
+			"units": []
+		}
+	]
+}

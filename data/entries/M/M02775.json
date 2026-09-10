@@ -1,0 +1,36 @@
+{
+	"id": "M02775",
+	"slug": "מרר-3",
+	"headword": {
+		"text": "מֶרֶר"
+	},
+	"page": {
+		"number": 847,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02774\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bitterness; trouble;</i> <he>במ׳</he> <i>bitterly</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 6:1\">Esth. R. to III, 9</cite> (ref. to <cite ref=\"Isaiah 33:7\">Is. XXXIII, 7</cite>) <he>וכל צבא … בוכים במ׳</he> all the hosts on high weep bitterly."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sin</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 5:5:1\">Cant. R. to V, 5</cite> (play on <he>מור עבר</he>, <cite ref=\"Shir HaShirim Rabbah 5:5:1\">ib.</cite>) <he>עבר על מְרָרִי</he> he passed over (pardoned) my sin.—Pl. <he>מְרָרִים</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:5:1\">Ib.</cite> <he>מ׳ דגזר כורש וכ׳</he> troubles,—when Cyrus decreed and said &c. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:5:1\">Ib.</cite> <he>מ׳ שאמרתי לעגל וכ׳</he> sins,—when I said of the calf, these are thy gods &c."
+			],
+			"label": "2"
+		}
+	]
+}

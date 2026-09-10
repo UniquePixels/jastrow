@@ -1,0 +1,23 @@
+{
+	"id": "A02443",
+	"slug": "אסיפא",
+	"headword": {
+		"text": "אֲסִיפָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 93,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"O00780\"><he>סִיפָּא</he></cite>) <i>threshold</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 104b:4\">B. Kam. 104ᵇ</cite> he consummated the transfer of the money (which he authorized him to collect) <he>אגב א׳ דביתיה</he> (Sh’ilt. Ms. <he>סיפא</he>, v. Rashi a. l., v. Rabb. D. S. a. l. note 60) by transferring along with it the threshold of his house (as immovable property); v. <cite ref=\"A00235\"><he>אַגַּב</he></cite>. [Oth. vers. <cite ref=\"O00779\"><he>סֵיפָא</he></cite>, <i>end</i>, extreme wing of the house, v. Rashi a. l.]"
+			]
+		}
+	]
+}

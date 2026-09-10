@@ -1,0 +1,23 @@
+{
+	"id": "P01406",
+	"slug": "ערסי",
+	"headword": {
+		"text": "עַרְסִי"
+	},
+	"page": {
+		"number": 1121,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>עַרְסִיִּין</he> (<cite ref=\"P01405\">preced. art.</cite>) <i>belonging to a bedstead</i>; (<he>מלין</he>) <he>ע׳</he> <i>strapping, girthing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:45\">Y. Sabb. VII, 10ᶜ</cite> top <he>הן דעבד מ׳ ע׳ וכ׳</he> (Or Zar. ",
+				"<cite ref=\"Shabbat 64a\">Sabb. 64</cite> <he>דעביד ערסמו</he>, read <he>ערסיין</he>) he who does girthing work (on the Sabbath), if lengthwise &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "O01378",
+	"slug": "ספירה",
+	"headword": {
+		"text": "סְפִירָה"
+	},
+	"page": {
+		"number": 1014,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"O01415\"><he>סָפַר</he></cite>)<i>counting</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 73a:14\">Nidd. 73ᵃ</cite> <he>ראוי לס׳</he> fit to begin with it the count (of the seven days of purification); <cite ref=\"Niddah 73a:14\">ib.</cite> <he>לסְפִירַת או כי תזוב</he> for the count required in the case described <cite ref=\"Leviticus 15:26\">Lev. XV, 26</cite>, sq. Sifra Emor, Par. 10, ch. XII (ref. to <cite ref=\"Leviticus 23:16\">Lev. XXIII, 16</cite>) <he>כל סְפִירָתָם לא וכ׳</he> all they have to count (from Passover to the Feast of Weeks) shall be no more than fifty days. ",
+				"<cite ref=\"Leviticus 23:16\">Ib.</cite> <he>ס׳ שהיא תלויה בב״ד וכ׳</he> a count which depends on the court (deciding on the New Moons), to exempt the weekly Sabbath, <he>שסְפִירָתָהּ בכל אדם</he> which everybody counts; <cite ref=\"Menachot 65b:11\">Men. 65ᵇ</cite>; a. fr.—Pl. <cite ref=\"O01379\"><he>סְפִירוֹת</he></cite>. ",
+				"<cite ref=\"Menachot 65b:11\">Ib.</cite> <he>כל ס׳ שאתה סופר וכ׳</he> all the counted days together shall be no more than fifty (v. supra); a. e.—Yalk. Chr. 1075, v. <cite ref=\"O01340\"><he>סְפוֹרָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>writing</i>, <i>recording</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 21b\">Gitt. 21ᵇ</cite>; <cite ref=\"Sukkah 24b:4\">Succ. 24ᵇ</cite> (ref. to <he>ספר</he>, <cite ref=\"Deuteronomy 24:1\">Deut. XXIV, 1</cite>) <he>לסְפִירַת דברים וכ׳</he> (the word <i>sefer</i> refers not to the writing material but) merely to the act of writing the words (formula of divorce). ",
+				"<cite ref=\"Yalkut Shimoni on Torah 936\">Yalk. Deut. 936</cite>; <cite ref=\"Eruvin 15b:4\">Erub. 15ᵇ</cite> <he>לספִירוּת</he>."
+			],
+			"label": "2"
+		}
+	]
+}

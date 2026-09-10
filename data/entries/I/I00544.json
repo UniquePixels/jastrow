@@ -1,0 +1,29 @@
+{
+	"id": "I00544",
+	"slug": "טמי-2",
+	"headword": {
+		"text": "טְמֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְמֵא"
+		}
+	],
+	"page": {
+		"number": 539,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. (<cite ref=\"I00543\">preced.</cite>) <i>unclean</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 5:2\">Targ. Num. V, 2</cite>, a. fr. <he>ט׳ נפשא</he>, v. <cite ref=\"I00531\"><he>טָמֵא</he> II</cite>.—Pl. f. <he>טַמְיַין</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:4\">Targ. Y. Deut. XIV, 4</cite> [read:] <he>עִיבּוּרֵי ט׳</he> (v. ",
+				"<cite ref=\"Bekhorot 7a:24\">Bekh. 7ᵃ</cite>) offsprings of unclean mothers."
+			]
+		}
+	]
+}

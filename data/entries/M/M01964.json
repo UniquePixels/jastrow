@@ -1,0 +1,33 @@
+{
+	"id": "M01964",
+	"slug": "מסמס-3",
+	"headword": {
+		"text": "מִסְמֵס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 808,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"M02934\"><he>מִשְׁמֵשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to press, squeeze</i>.—<i>Part. pass.</i> <he>מְמוּסְמָס</he> <i>mashed, shapeless</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 14:4\">Num. R. s. 14</cite> (play on <he>מ̇שמ̇ר̇ו̇ת̇</he>, <cite ref=\"Ecclesiastes 12:10\">Koh. XII, 10</cite>) <he>בשעה שהם יוצאים מְ֗מוּסְ֗מָסִים הם מ̇ר̇ו̇ת̇ וכ׳</he> when they (the words of the Law) come out disfigured, they are bitter (drops) to those who hear them; v. <cite ref=\"M01822\"><he>מַס</he> I</cite>; Y. Snh. X, 28ᵃ bot.—",
+				"<cite ref=\"Niddah 24a:17\">Nidd. 24ᵃ</cite> <he>מי שפניו מוּסְמָסִים</he> (<he>מוּסְמָסִין</he>) (= <he>מְמוּ׳</he>) a foetus whose face is mashed, contrad. to <he>טוחות</he>, v. <cite ref=\"I00140\"><he>טוּחַ</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A02055\"><he>אָמַץ</he></cite>) <i>to press, urge</i>, esp. (of medical treatment) <i>to sustain vital energies</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 82:8\">Gen. R. s. 82</cite> <he>כך מְמַסְמְסִין נפשה וכ׳</he> this is the way they stimulate the vital energy of the travailing woman; (Yalk. ib. 136 <he>משיבין</he>); <cite ref=\"Yalkut Shimoni on Nach 263\">Yalk. Is. 263</cite> <he>שמסמסין את החיה</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

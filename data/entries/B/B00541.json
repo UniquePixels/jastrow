@@ -1,0 +1,29 @@
+{
+	"id": "B00541",
+	"slug": "ביב",
+	"headword": {
+		"text": "בִּיב"
+	},
+	"page": {
+		"number": 159,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בוב</he>, v. <cite ref=\"B00049\"><he>בָּב</he></cite>) <i>pipe, gutter, canal</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 8:10\">Erub. VIII, 10</cite> (<cite ref=\"Eruvin 88a:18\">88ᵃ</cite>). ",
+				"<cite ref=\"Mishnah Avodah Zarah 3:4\">Ab. Zar. III, 4</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 12:1\">Gen. R. s. 12</cite> <he>בִּיבָהּ על פתחה</he> its water-spout over its entrance. ",
+				"<cite ref=\"Bereishit Rabbah 12:1\">Ib.</cite> <he>בִּיבוֹ</he> man’s spout (nose). ",
+				"<cite ref=\"Shemot Rabbah 36:3\">Ex. R. s. 36</cite> <he>מצא ב׳</he> he strikes against a gutter; a. e.—Pl. <he>בִּיבִים</he>, <he>בִּיבִין</he>. Y. Ḥag. II, 77ᵈ bot. <he>במקום ב׳</he> on a place where there were sewers; <cite ref=\"Bereishit Rabbah 1:6\">Gen. R. s. 1</cite>.—",
+				"<cite ref=\"Shemot Rabbah 6:1\">Ex. R. s. 6</cite> <he>גורף ב׳</he> cleaning sewers. ",
+				"<cite ref=\"Kohelet Rabbah 1:2\">Koh. R. to I, 2</cite> <he>בכיבין</he> (corr. acc)—<he>בִּיבוֹת</he>. ",
+				"<cite ref=\"Bava Kamma 6a\">B. Kam. 6ᵃ</cite>; <cite ref=\"Bava Kamma 30a\">30ᵃ</cite>"
+			]
+		}
+	]
+}

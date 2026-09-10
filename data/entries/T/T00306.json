@@ -1,0 +1,32 @@
+{
+	"id": "T00306",
+	"slug": "רובי-1",
+	"headword": {
+		"text": "רוֹבִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוֹבְיָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1455,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"T00301\"><he>רוֹבֶה</he></cite>, <i>youth, young man</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 22:5\">Targ. I Chr. XXII, 5</cite>.—Pl. <he>רוֹבִין</he>, <cite ref=\"T00306\"><he>רוֹבַיָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 3:10\">Targ. Ruth III, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:12\">Targ. Lam. II, 12</cite> (not <cite ref=\"T00839\"><he>רוּ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:21\">Ib. 21</cite>; a. e.—",
+				"<cite ref=\"Aramaic Targum to Job 21:11\">Targ. Job XXI, 11</cite> <he>ורוֹבְיֵהוֹן</he>."
+			]
+		}
+	]
+}

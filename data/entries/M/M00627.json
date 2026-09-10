@@ -1,0 +1,24 @@
+{
+	"id": "M00627",
+	"slug": "מורה-2",
+	"headword": {
+		"text": "מוֹרָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 749,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <cite ref=\"M02173\"><he>מערה</he></cite>, of Phoenician origin, v. Wellh. Text d. B. Sam., p. 146, sq.) <i>razor</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 9:5\">Naz. IX, 5</cite>; Midr. Sam. ch. II <he>מה מ׳ האמור</he>(<cite ref=\"E00000\"><he>ה</he></cite>) <he>וכ׳</he> as the word <i>morah</i> which is used in connection with Samson (<cite ref=\"Judges 13:5\">Jud. XIII, 5</cite>) intimates that he shall be a nazarite, so also &c. (<cite ref=\"I Samuel 1:11\">I Sam. I, 11</cite>) ; v. next w.—",
+				"<cite ref=\"Bamidbar Rabbah 10:5\">Num. R. s. 10</cite> why is the razor (<he>תער</he>) called <i>morah?</i> <he>שאין השער מתיירא וכ׳</he> for the hair is afraid of nothing but the razor (v. <cite ref=\"M00607\"><he>מוֹרָא</he></cite>); v. Midr. Sam. l. c."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "O00706",
+	"slug": "סימיסיריקין",
+	"headword": {
+		"text": "סִימִיסִירִיקִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִימִיסרִ׳"
+		}
+	],
+	"page": {
+		"number": 981,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (semiserica) <i>half-silken garments</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:7\">Koh. R. to I, 7</cite> (not … <he>קון</he>)"
+			]
+		}
+	]
+}

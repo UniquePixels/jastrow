@@ -1,0 +1,30 @@
+{
+	"id": "M03031",
+	"slug": "מתוק-1",
+	"headword": {
+		"text": "מָתוֹק",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מְתוּקָה"
+		}
+	],
+	"page": {
+		"number": 860,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>מתק</he>)<i>sweet; pleasant</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 5:16:1\">Cant. R. to V, 16</cite>, v. <cite ref=\"H00751\"><he>חֵיךְ</he></cite>; <cite ref=\"Bamidbar Rabbah 10:1\">Num. R. s. 10</cite>, beg.; a. fr.—Pl. <cite ref=\"M02201\"><he>מְתוּקִים</he></cite>, <he>מְתוּקִין</he>; <he>מְתוּקוֹת</he>. ",
+				"<cite ref=\"Eruvin 18b:15\">Erub. 18ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> <he>מיני מתוקים</he>, v. <cite ref=\"M03063\"><he>מְתִיקָה</he></cite>."
+			]
+		}
+	]
+}

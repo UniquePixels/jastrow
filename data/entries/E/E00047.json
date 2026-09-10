@@ -1,0 +1,23 @@
+{
+	"id": "E00047",
+	"slug": "הבער",
+	"headword": {
+		"text": "הֶבְעֵר"
+	},
+	"page": {
+		"number": 330,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01063\"><he>בער</he></cite>) <i>damage through carelessness in handling fire</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 1:1\">B. Kam. I, 1</cite>; cmp. Y. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:1\">ib.</cite> beg. 2ᵃ; Tosef. ib. IX, 1."
+			]
+		}
+	]
+}

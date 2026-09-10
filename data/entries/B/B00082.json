@@ -1,0 +1,28 @@
+{
+	"id": "B00082",
+	"slug": "בגיר",
+	"headword": {
+		"text": "בַּגִּיר",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּגָּר"
+		}
+	],
+	"page": {
+		"number": 137,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בגר</he>) <i>rough</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 27:11\">Targ. Y. Gen. XXVII, 11</cite> quot. in Tosef. Yom Tob to <cite ref=\"Mishnah Ketubot 3:8\">Keth. III, 8</cite>, a. e. (ed. <cite ref=\"O01305\"><he>סערן</he></cite>)."
+			]
+		}
+	]
+}

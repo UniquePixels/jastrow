@@ -1,0 +1,35 @@
+{
+	"id": "M01210",
+	"slug": "מינא-2",
+	"headword": {
+		"text": "מִינָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מִינָאָה"
+		},
+		{
+			"text": "מִינַיי"
+		},
+		{
+			"text": "מִינָיָיא"
+		}
+	],
+	"page": {
+		"number": 776,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"M01208\"><he>מִין</he> III</cite> <cite ref=\"Berakhot 58a:10\">Ber. 58ᵃ</cite> Ms. M. (ed. <he>צדוקי</he>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:3\">Y. Snh. VII, 25ᵈ</cite> top <he>חמתון חד מיניי וכ׳</he> a certain Min saw them, and said what he said (a conjuration). ",
+				"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>מי נפיק אהן מינייא</he> when that Min came out. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:3\">Ib.</cite> bot. <he>חד מ׳ נסיב צריר וכ׳</he> a Min took up a pebble and threw it up &c.; a. fr.—Pl. <he>מִינָאֵי</he>, <cite ref=\"M01210\"><he>מִינַיָּיא</he></cite>, <he>מִינֵי</he>. ",
+				"<cite ref=\"Kohelet Rabbah 1:8:4\">Koh. R. to I, 8</cite> <he>עבדון ליה מ׳ מִלָּא</he> the Minin did something (some sorcery) to him. ",
+				"<cite ref=\"Avodah Zarah 4a:11\">Ab. Zar. 4ᵃ</cite> <he>משתבח</he> … <he>למ׳ וכ׳</he> R. Ab. praised R. S. to the Minin (in office) as being a great scholar; a. fr.—[<cite ref=\"Shabbat 133b:17\">Sabb. 133ᵇ</cite> bot. <he>שב מינאי</he>, read <he>מָנָאֵי</he>, v. <cite ref=\"M01724\"><he>מָנֶה</he></cite>.]"
+			]
+		}
+	]
+}

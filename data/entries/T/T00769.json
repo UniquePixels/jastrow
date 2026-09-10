@@ -1,0 +1,31 @@
+{
+	"id": "T00769",
+	"slug": "רכן-2",
+	"headword": {
+		"text": "רְכַן"
+	},
+	"page": {
+		"number": 1480,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00768\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְכֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to soften</i>. Part. pass. <cite ref=\"M02707\"><he>מַרְכַּן</he></cite>; pl. f. <he>מַרְכְּנָן</he>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 18:8\">Targ. Prov. XVIII, 8</cite>; <cite ref=\"Aramaic Targum to Proverbs 26:22\">XXVI, 22</cite>; v. <cite ref=\"D00008\"><he>דַּאֲבַן</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

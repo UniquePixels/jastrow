@@ -1,0 +1,42 @@
+{
+	"id": "V00584",
+	"slug": "תלח",
+	"headword": {
+		"text": "תְּלַח"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּלַהּ"
+		}
+	],
+	"page": {
+		"number": 1670,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to tear apart</i>, v. <cite ref=\"V00618\"><he>תְּלַע</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fall apart</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְּלַח"],
+			"senses": [
+				{
+					"gloss": "<i>to fall apart</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 53b:14\">Ḥull. 53ᵇ</cite> <he>כי הוו</he> … <he>הוה מִיתְלְחָא ונפלה וכ׳</he> Ms. R. (v. Rabb. D. S. a. l. note 400; Ar. <he>מִיתְלְהָא</he>; ed. <cite ref=\"V00585\"><he>תָלְחָא</he></cite>) when they lifted the lung up, it crumbled and fell in pieces."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,99 @@
+{
+	"id": "M02729",
+	"slug": "מרע-2",
+	"headword": {
+		"text": "מְרַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 845,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"M02730\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to become</i> or <i>be weak, fall sick</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 14:10\">Targ. Is. XIV, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 23:4\">Ib. XXIII, 4</cite> (h. text <he>חלתי</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 41:9\">Targ. Ps. XLI, 9</cite> (h. text <he>שכב</he>, v. <cite ref=\"M02730\">next w.</cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be shaken, quake</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 4:10\">Targ. Mic. IV, 10</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַמְרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to make sick, afflict</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 29:21\">Targ. O. Deut. XXIX, 21</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Genesis 3:15\">Targ. Y. II, Gen. III, 15</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["מָרַע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M02728\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 14:17\">Targ. Jer. XIV, 17</cite>; <cite ref=\"Targum Jonathan on Nahum 3:19\">Targ. Nah. III, 19</cite> (not <he>מִמְרָ׳</he>) <i>grievous</i> (h. text <cite ref=\"N00502\"><he>נחלה</he></cite>).—<i>Part. pass.</i> <cite ref=\"M01683\"><he>מְמַרַע</he></cite> <i>suffering, unwell</i>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 14:18\">Targ. Jer. XIV, 18</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 19:14\">Targ. I Sam. XIX, 14</cite> ed. Lag. (oth. ed. <he>שכיב מרע</he>, v. <cite ref=\"M02730\">next w.</cite>). ",
+						"<cite ref=\"Targum Jonathan on I Kings 14:5\">Targ. I Kings XIV, 5</cite> ed. Lag. (oth. ed. <cite ref=\"M02729\"><he>מרע</he></cite>); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְמַרַע"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְמְרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to fall sick</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 14:1\">Targ. I Kings XIV, 1</cite> (ed. Lag. <cite ref=\"M02729\"><he>מרע</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on I Kings 22:34\">Ib. XXII, 34</cite> ed. Lag. (oth. ed. <cite ref=\"M02729\"><he>מרע</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on II Samuel 13:2\">Targ. II Sam. XIII, 2</cite>; a. e.—",
+						"<cite ref=\"Kohelet Rabbah 10:16\">Koh. R. to X, 16</cite> (ref. to <cite ref=\"U01118\"><he>שכבה</he></cite>, <cite ref=\"I Kings 3:19\">I Kings III, 19</cite>) <he>אִיתְמַרְעַת עלוי</he> (not … <he>רטת</he>) she fell sick (fainted and fell) upon him (cmp. Targ. to <cite ref=\"Psalms 41:9\">Ps. XLI, 9</cite>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to feign sickness</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 13:5\">Targ. II Sam. XIII, 5</cite>. sq."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be shaken, quake</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 51:29\">Targ. Jer. LI, 29</cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

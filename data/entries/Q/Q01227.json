@@ -1,0 +1,58 @@
+{
+	"id": "Q01227",
+	"slug": "פסג-1",
+	"headword": {
+		"text": "פָּסַג"
+	},
+	"page": {
+		"number": 1191,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to divide, branch off</i>; denom. <cite ref=\"Q01274\"><he>פְּסִיגָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 11:9\">Par. XI, 9</cite> <he>מְפַסְּגוֹ ואוגדו</he> he severs the stalks of hyssop and ties them; <he>פְּסָגוֹ ולא אגדו</he> if he severed, but failed to tie them."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"Q01274\"><he>פְּסִיגָה</he></cite>) <i>to cut off sprays, to thin</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 119b:19\">B. Kam. 119ᵇ</cite> <he>מְפַסְּגֵי אילנות ומפסגי גפנים</he> (Ms. F. <he>ומפסיקי</he>; Ar. <he>ומפסקי</he>) those hired to thin trees or vines; (Tosef. ib. XI, 18 <he>מפסקי גפנים</he> only). ",
+				"<cite ref=\"Moed Katan 3a:5\">M. Kat. 3ᵃ</cite> <he>אין מְפַסְּגִין באילן</he> you must not thin trees (during the festive week; Rashi: <i>support the branches</i>); a. e.—",
+				"<cite ref=\"Tosefta Bava Metzia 2:28\">Tosef. B. Mets. II, 28</cite>, v. infra."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>פִּסֵּג</he> ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִפְסִיג"],
+			"senses": [
+				{
+					"gloss": "<i>to cut one’s way through branches, pass through woods, vineyards</i> &c., <i>trespass; to lead through thickets</i> &c. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 81b:12\">B. Kam. 81ᵇ</cite> <he>התועה … מַפְסִיג ויורד מפסיג ועולה וכ׳</he> if one loses his way in vineyards, he may cut his way through up and down &c.; <he>הרואה … מפסיג וכ׳</he> he who sees a fellowman lost in vineyards, may make a way for him … until he brings him &c.; <cite ref=\"Tosefta Bava Metzia 2:28\">Tosef. B. Mets. II, 28</cite> <he>מְפַסְּגוֹ בשדות וכ׳</he> may lead him through fields and vineyards. ",
+						"<cite ref=\"Tosefta Bava Metzia 2:28\">Ib.</cite> <he>הוא עצמו … מפסיג וכ׳</he> ed. Zuck. (ed. <he>מפסג</he>) he who is lost himself may make his way &c."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

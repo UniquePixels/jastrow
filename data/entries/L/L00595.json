@@ -1,0 +1,36 @@
+{
+	"id": "L00595",
+	"slug": "לעג-1",
+	"headword": {
+		"text": "לָעַג"
+	},
+	"page": {
+		"number": 713,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"L00594\">preced.</cite> wds) <i>to jest, mock</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 34:1\">Pesik. R. s. 34</cite> <he>לשוא לָעַגְנוּ על וכ׳</he> in vain did we deride their words."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִלְעִיג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00594\">same</cite>. Y. Peah I, 15ᵈ top (ref. to <cite ref=\"Proverbs 30:17\">Prov. XXX, 17</cite>) <he>עין שהִלְעִיגָה על וכ׳</he> the eye that mocked at the law commanding to honor father and mother and despised the law (<cite ref=\"Deuteronomy 22:6\">Deut. XXII, 6</cite>) &c. ",
+					"units": [
+						"<cite ref=\"Eruvin 21b:11\">Erub. 21ᵇ</cite> (ref. to <cite ref=\"L00157\"><he>להג</he></cite>, <cite ref=\"Ecclesiastes 12:12\">Koh. XII, 12</cite>) <he>כל המַלְעִיג על וכ׳</he> whosoever derides the words of the wise, v. <cite ref=\"L00597\"><he>לַעַג</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> <he>מַלְעִיגִים בשפתותיהן</he> spoke lasciviously. ",
+						"<cite ref=\"Esther Rabbah 6:1\">Esth. R. to III, 9</cite> <he>מַלְעִיגִין אותנו וכ׳</he> they deride us and our religion. ",
+						"<cite ref=\"Bamidbar Rabbah 16:8\">Num. R. s. 16</cite> <he>הִלְעִיגוּ לי</he> they spoke irreverently of me. Y. Naz. I, beg. 51ᵃ [read:] <he>מהו זה מַלְעִיג עליהן או וכ׳</he> how is this? Does he mean it sarcastically, or does he mean to say, I will be a Nazir like them? <cite ref=\"Yalkut Shimoni on Torah 250:1\">Yalk. Ex. 250</cite> <he>ורוה״ק מַלְעֶגֶת עליו</he> and the Spirit of Holiness laughs at him; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

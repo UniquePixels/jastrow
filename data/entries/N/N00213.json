@@ -1,0 +1,28 @@
+{
+	"id": "N00213",
+	"slug": "נדדת",
+	"headword": {
+		"text": "נִדְדָת"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 878,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.<i>constr.</i>, <he>נ׳ שינתא</he> (<cite ref=\"N00212\">preced.</cite>) <i>wakefulness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 7:4\">Targ. Job VII, 4</cite> (h. text <he>נְדֻרִים</he>)."
+			]
+		}
+	]
+}

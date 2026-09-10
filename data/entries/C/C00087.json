@@ -1,0 +1,22 @@
+{
+	"id": "C00087",
+	"slug": "גביל",
+	"headword": {
+		"text": "גְּבִיל"
+	},
+	"page": {
+		"number": 206,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גבל</he>) <i>a mush of flour and water</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 37b:12\">Ber. 37ᵇ</cite> (defin. <cite ref=\"I00827\"><he>טָרִיתָא</he></cite>) <he>ג׳ מרתח</he> a scalded mush (Ms. M. <he>מרתח ג׳</he>), a sort of puff-pastry or trifle."
+			]
+		}
+	]
+}

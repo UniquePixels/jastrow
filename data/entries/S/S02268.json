@@ -1,0 +1,40 @@
+{
+	"id": "S02268",
+	"slug": "קשש-3",
+	"headword": {
+		"text": "קְשַׁשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1433,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S02267\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קוֹשֵׁשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to straighten, correct</i>, v. infra.",
+					"units": []
+				}
+			],
+			"stem": "Polel."
+		},
+		{
+			"forms": ["אִתְקוֹשֵׁשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to correct one’s self</i>. Y. Taan. II, 65ᵃ bot. (ref. to <cite ref=\"Zephaniah 2:1\">Zeph. II, 1</cite>) <he>נִתְקוֹשֵׁשׁ גרמן עד דלא נְקוֹשֵׁשׁ חורנין</he> let us correct ourselves before we correct others; v. <cite ref=\"S02229\"><he>קָשַׁט</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Ithpolel."
+		}
+	]
+}

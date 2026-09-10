@@ -1,0 +1,29 @@
+{
+	"id": "H01479",
+	"slug": "חפש-2",
+	"headword": {
+		"text": "חֲפַשׂ"
+	},
+	"page": {
+		"number": 493,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01463\"><he>חַפֵּשׂ</he></cite>, v. <cite ref=\"H01463\"><he>חֲפַס</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

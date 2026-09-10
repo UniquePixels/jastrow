@@ -1,0 +1,23 @@
+{
+	"id": "Q01530",
+	"slug": "פרא-4",
+	"headword": {
+		"text": "פָּרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1213,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. (<cite ref=\"Q01528\"><he>פְּרָא</he></cite>) <he>פָּרַיָּיא</he> [<i>runners</i>,] <i>children of six or seven years of age</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 5:7:5\">Y. Gitt. V, 47ᵇ</cite> bot., v. <cite ref=\"A02672\"><he>אִפְיוֹטוֹת</he></cite>."
+			]
+		}
+	]
+}

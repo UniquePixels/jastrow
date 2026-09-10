@@ -1,0 +1,21 @@
+{
+	"id": "D01116",
+	"slug": "דרע-1",
+	"headword": {
+		"text": "דְּרַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 324,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"G00723\"><he>זְרַע</he></cite> <i>to sow</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:5\">Targ. Koh. II, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:8\">Targ. Job XXXI, 8</cite> Ms. (ed. <cite ref=\"G00723\"><he>זרע</he></cite>). [<he>דרעינא</he>, <cite ref=\"Chagigah 5a\">Ḥag. 5ᵃ</cite>, v. <cite ref=\"T00890\"><he>רְעָא</he> I</cite>.]"
+			]
+		}
+	]
+}

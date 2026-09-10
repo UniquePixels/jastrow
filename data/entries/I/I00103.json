@@ -1,0 +1,40 @@
+{
+	"id": "I00103",
+	"slug": "טהר-3",
+	"headword": {
+		"text": "טֹהַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְהָר"
+		}
+	],
+	"page": {
+		"number": 520,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"I00102\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the pure, real surface</i> (of gold). ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 5:6\">Yoma V, 6</cite> <he>על טָהֳרוֹ של מזבח</he> (or <he>טְהָרוֹ</he>) immediately on the top of the golden altar (free from coals or ashes, v. <cite ref=\"C00730\"><he>גִּילּוּיָא</he></cite>). ",
+				"<cite ref=\"Menachot 97a:11\">Men. 97ᵃ</cite> <he>על טהרו של שולחן</he> (Ms. M. <he>על השל׳</he>) immediately on the golden table."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H00525\"><he>חָזֶה</he></cite>) <i>the centre of the front</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 59a:9\">Yoma 59ᵃ</cite> (one opinion explain. <he>טהרו של מזבח</he>, v. supra) <he>פלגיה דמזבח</he> the centre of the altar front, as people say, <he>טהר טיהרא והוי פלגא דיומא</he> ‘the noon-light shines’ meaning by <i>tihara</i> the middle of the day; <cite ref=\"Yoma 15a:15\">ib. 15ᵃ</cite>; <cite ref=\"Zevachim 38b:1\">Zeb. 38ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

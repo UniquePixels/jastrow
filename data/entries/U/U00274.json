@@ -1,0 +1,91 @@
+{
+	"id": "U00274",
+	"slug": "שדך-2",
+	"headword": {
+		"text": "שְׁדַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁדוֹךְ"
+		},
+		{
+			"text": "שְׁדִיךְ"
+		}
+	],
+	"page": {
+		"number": 1525,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"D00242\"><he>דוּךְ</he></cite> a. <he>דעך</he>; cmp. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 15:18\">Targ. Prov. XV, 18</cite> <he>דעך</he> = h. <cite ref=\"U01843\"><he>שקט</he></cite>) [<i>to be sunk, settled</i>,] <i>to be quiet, at ease</i>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:7\">Targ. Is. XIV, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 11:23\">Targ. Josh. XI, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 3:25\">Targ. Job III, 25</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 33:3\">Targ. Y. II, Deut. XXXIII, 3</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 23:24\">Targ. Y. II, Num. XXIII, 24</cite> (ed. Vien. <he>שריך</he>, corr. acc.); a. fr.—Y. Yoma VIII, 45ᵃ bot. <he>אמרין לקדמייא וש׳</he> they spoke to the first (infant in the mother’s womb), and it became quiet. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:1:13\">Y. Shebi. IX, 38ᵈ</cite> <he>כד חמא דשַׁדְכָן מילייא</he> when he saw that things had settled down (the persecutions had ceased); <cite ref=\"Bereishit Rabbah 79:6\">Gen. R. s. 79</cite> <he>מְשַׁדְּכָן</he> (part. pass. <i>Pa.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁדֵּיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to settle, quiet, pacify</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 65:8\">Targ. Ps. LXV, 8</cite> (Ms. <he>תְּשַׁדֵּךְ</he> <i>Pa.</i>). ",
+						"<cite ref=\"Aramaic Targum to Job 34:29\">Targ. Job XXXIV, 29</cite> (not <cite ref=\"J00703\"><he>יִשְׁ׳</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Numbers 17:20\">Targ. Y. Num. XVII, 20</cite> (ed. Vien. <he>אִשְׁרֵיךְ</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["שַׁדֵּיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00273\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 94:13\">Targ. Ps. XCIV, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 90:11\">Ib. XC, 11</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 37:17\">Targ. Job XXXVII, 17</cite>; a. e. (v. supra).—",
+						"<cite ref=\"Bereishit Rabbah 64\">Gen. R. s. 64</cite> <he>יעול … וִישַׁדֵּךְ צבורא</he> let a wise man come and pacify the people; (Yalk. ib. 111 <he>וישדל</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to arrange, stipulate</i>, esp. <i>to negotiate a marriage</i> (by sending an agent to settle affairs). ",
+					"units": [
+						"<cite ref=\"Kiddushin 13a:6\">Kidd. 13ᵃ</cite> <he>התם בדש׳</he> in that case it means that he had been negotiating (when he finally betrothed her with a stolen object); <he>ומנא תימרא … בין ש׳ ודלא ש׳</he> and how will you prove that it makes a difference whether a betrothal was preceded by negotiations or not?"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּדַּךְ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּדִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be quieted, settled</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 2:1\">Targ. Esth. II, 1</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 7:10\">Ib. VII, 10</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 8:1\">Targ. Y. Gen. VIII, 1</cite> (some ed. <he>אשתרבו</he>, corr. acc.; Ar. <he>שְׁדִיכוּ</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

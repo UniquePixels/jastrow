@@ -1,0 +1,31 @@
+{
+	"id": "J00475",
+	"slug": "יעבץ",
+	"headword": {
+		"text": "יַעְבֵּץ"
+	},
+	"page": {
+		"number": 583,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Jabez</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Temurah 16a:62\">Tem. 16ᵃ</cite>, homiletically identified with Othniel."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " R. J., an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:4\">Y. Ḥag. II, beg. 77ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "O00145",
+	"slug": "סגירו",
+	"headword": {
+		"text": "סְגִירוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגִירוּת"
+		},
+		{
+			"text": "סְגִירוּתָא"
+		}
+	],
+	"page": {
+		"number": 955,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00143\"><he>סְגִיר</he></cite>) <i>leprosy</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:2\">Targ. Lev. XIII, 2</cite>, sq. ",
+				"<cite ref=\"Onkelos Leviticus 13:42\">Ib. 42</cite>; a. fr."
+			]
+		}
+	]
+}

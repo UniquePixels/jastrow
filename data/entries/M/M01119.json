@@ -1,0 +1,25 @@
+{
+	"id": "M01119",
+	"slug": "מיחם",
+	"headword": {
+		"text": "מֵיחַם"
+	},
+	"page": {
+		"number": 772,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01201\"><he>חָמַם</he></cite>) <i>vessel for heating water, boiler for mixing wine</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 3:5\">Sabb. III, 5</cite> <he>המ׳ שפינהו וכ׳</he>, expl. ",
+				"<cite ref=\"Shabbat 41a\">ib. 41ᵃ</cite>, sq. <he>המ׳ שפינה ממנו מים חמין</he> a boiler which was emptied of its hot water; (oth. explan.) <he>המ׳ שפינהו וכ׳</he> a boiler which has been removed from the stove; Y. ib. III, beg. 5ᶜ <he>העביר את המ׳</he> when he has removed the boiler. ",
+				"<cite ref=\"Mishnah Pesachim 7:13\">Pes. VII, 13</cite> <he>המ׳ באמצע</he> the boiler for mixing the wine is placed between the two parties. ",
+				"<cite ref=\"Mishnah Kelim 14:1\">Kel. XIV, 1</cite>; <cite ref=\"Tosefta Keilim Metsia 4:1\">Tosef. Kel. B. Mets. IV, 1</cite> <he>המ׳ כדי לקבל סלעין</he> a boiler (when defective) is susceptible of uncleanness as long as it can be used for keeping coins in it; a. fr."
+			]
+		}
+	]
+}

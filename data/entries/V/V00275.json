@@ -1,0 +1,44 @@
+{
+	"id": "V00275",
+	"slug": "תור-5",
+	"headword": {
+		"text": "תּוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1656,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00538\"><he>שׁוֹר</he></cite>, <i>ox</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:28\">Targ. Ex. XXI, 28</cite>, sq. ",
+				"<cite ref=\"Onkelos Leviticus 4:3\">Targ. Lev. IV, 3</cite>; a. fr.—ת׳ בר <i>aurochs</i> (v. <cite ref=\"V00282\"><he>תּוֹרְבָּלָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 50:10\">Targ. Ps. L, 10</cite>.—",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 28:3\">Pirké d’R. El. ch. XXVIII</cite> (ref. to <he>וְתר̇</he>, <cite ref=\"Genesis 15:9\">Gen. XV, 9</cite>) <he>לא נאמר ת׳ זה בלשון … ת׳ זה השור וכ׳</he> this <i>tor</i> is not meant in its Biblical (Hebrew) sense (<i>dove</i>), but in its Chaldaic meaning: <i>tor</i> means the ox &c. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:4\">Y. R. Hash. II, 58ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:13\">Y. Snh. I, 18ᶜ</cite> bot., v. <cite ref=\"P00167\"><he>עַדְרָא</he></cite>; Bab. ",
+				"<cite ref=\"Sanhedrin 18b:12\">Snh. 18ᵇ</cite>. ",
+				"<cite ref=\"Niddah 33b:18\">Nidd. 33ᵇ</cite>, v. <cite ref=\"T00809\"><he>רְמֵי</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:51\">Lam. R. to I, 7</cite> (prov.) <he>נפל ת׳ סגין וכ׳</he> when the ox is felled, its butchers are many (when one is in distress, his enemies increase); <he>נפל ת׳ תחדדון סכינוי</he> (not <he>תחדדן</he>) when the ox is down, sharpen the knives for him; <cite ref=\"Shabbat 32a:2\">Sabb. 32ᵃ</cite>, v. <cite ref=\"H00176\"><he>חֲדַד</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 16a:12\">Ab. Zar. 16ᵃ</cite> <he>בר ת׳</he> a young ox; a. fr.—<he>ראש תור</he>, v. <cite ref=\"T00031\"><he>רֹאשׁ</he></cite>.—Pl. <cite ref=\"V00981\"><he>תֹּרִין</he></cite>, <he>תּוֹרַיָּא</he>, <he>תּוֹרֵי</he>. ",
+				"<cite ref=\"Onkelos Genesis 32:6\">Targ. Gen. XXXII, 6</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 21:23\">Targ. I Chr. XXI, 23</cite>. ",
+				"<cite ref=\"Onkelos Numbers 29:13\">Targ. Num. XXIX, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:5\">Targ. Y. Deut. XIV, 5</cite> <he>תורי בר</he>, v. supra; a. fr.—",
+				"<cite ref=\"Bava Metzia 30a\">B. Mets. 30ᵃ</cite> top; <cite ref=\"Bava Metzia 73a\">73ᵃ</cite>; <cite ref=\"Chullin 84b\">Ḥull. 84ᵇ</cite>, v. <cite ref=\"V00440\"><he>תַּיָּרָא</he></cite>.—<i>Fem.</i> <he>תּוֹרְתָּא</he> <i>cow</i>. ",
+				"<cite ref=\"Onkelos Numbers 19:2\">Targ. Num. XIX, 2</cite> (O. ed. Vien. <cite ref=\"V00321\"><he>תּוֹרְתָא</he></cite>; Y. <cite ref=\"V00322\"><he>תּוֹרָתָא</he></cite>, corr. acc.); a. fr.—Pl. <cite ref=\"V00322\"><he>תּוֹרָתָא</he></cite>, <cite ref=\"V00304\"><he>תּוֹרָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 6:7\">Targ. I Sam. VI, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 1:14\">Targ. Job I, 14</cite> Ms. (ed. <he>תורייא</he>); a. e."
+			]
+		}
+	]
+}

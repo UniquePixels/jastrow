@@ -1,0 +1,34 @@
+{
+	"id": "M02978",
+	"slug": "משריתא",
+	"headword": {
+		"text": "מַשְׁרִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַשִּׁרְיָא"
+		},
+		{
+			"text": "מַשִּׁירְ׳"
+		}
+	],
+	"page": {
+		"number": 858,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"M02977\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 32:9\">Targ. O. Gen. XXXII, 9</cite>; a. fr.—Constr. <cite ref=\"M02918\"><he>מַשְׁרִית</he></cite>, <cite ref=\"M02978\"><he>מַשִּׁרְיַת</he></cite>, <cite ref=\"M02978\"><he>מַשִּׁירְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 2:9\">Targ. Num. II, 9</cite>; a. fr.—Pl. <cite ref=\"M02978\"><he>מַשְׁרְיָתָא</he></cite>, <he>מַשִּׁרְיָיתָא</he>, <he>מַשִּׁרְיָין</he>, <he>מַשִּׁי׳</he>. ",
+				"<cite ref=\"Onkelos Genesis 32:8\">Targ. Gen. XXXII, 8</cite>; <cite ref=\"Onkelos Genesis 32:11\">11</cite> (Y. <he>מַשִּׁרְוַיָין</he>, v. <cite ref=\"M02977\">preced.</cite>). ",
+				"<cite ref=\"Onkelos Numbers 23:10\">Targ. Num. XXIII, 10</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 26a\">Snh. 26ᵃ</cite>, sq. <he>באפי מַשִּׁרְיָיתֵיה</he> in the face of his camps (soldiers); <he>מַשִּׁרְיָיתָךְ היכא</he> where are thy soldiers?"
+			]
+		}
+	]
+}

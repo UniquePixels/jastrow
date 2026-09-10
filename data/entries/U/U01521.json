@@ -1,0 +1,35 @@
+{
+	"id": "U01521",
+	"slug": "שמץ",
+	"headword": {
+		"text": "שֶׁמֶץ"
+	},
+	"page": {
+		"number": 1600,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; Shaf. of <he>מצץ</he>, <he>מוץ</he>, <he>מצה</he>; v. Targ. Job IV , 12; XXVI, 14) [<i>chaff</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>particle, atom</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 119b:5\">Sabb. 119ᵇ</cite> <he>אפי׳ יש בו ש׳ של ע״א וכ׳</he> even if there be some idolatry in him, he will be forgiven."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"M00515\"><he>מוּם</he></cite>) <i>blemish, suspicion</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 71b:11\">Kidd. 71ᵇ</cite> <he>אם ראית … ש׳ פסול וכ׳</he> when thou seest two men quarrel with each other, there is some blemish of descent in one of them, and heaven does not allow them to become attached to each other. ",
+				"<cite ref=\"Pesachim 3b:9\">Pes. 3ᵇ</cite> <he>ומצאו בו ש׳ פסול</he> and they found in him a blemish of descent, contrad. to <cite ref=\"U00689\"><he>שחץ</he></cite> (v. <cite ref=\"U00689\"><he>שַׁחַץ</he> I</cite>); <cite ref=\"Megillah 25b:9\">Meg. 25ᵇ</cite> (<cite ref=\"Tractate Soferim 9:11\">Treat. Sof’rim ch. IX, 11</cite> <he>ונמצא ממזר</he>); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

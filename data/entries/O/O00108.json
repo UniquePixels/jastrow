@@ -1,0 +1,27 @@
+{
+	"id": "O00108",
+	"slug": "סגוד-2",
+	"headword": {
+		"text": "סְגוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגוּרָא"
+		}
+	],
+	"page": {
+		"number": 953,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"O00101\"><he>סִגְדָּא</he></cite>, <i>idol-worship</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 23:24\">Targ. Y. Ex. XXIII, 24</cite>."
+			]
+		}
+	]
+}

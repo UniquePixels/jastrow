@@ -1,0 +1,80 @@
+{
+	"id": "H00939",
+	"slug": "חכם-1",
+	"headword": {
+		"text": "חָכַם"
+	},
+	"page": {
+		"number": 462,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"H00941\"><he>חָכָם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be wise, to know</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 70b:24\">Nidd. 70ᵇ</cite> <he>מה יעשה אדם ויֶחְכַּם</he> what must one do in order to be wise?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"H00941\"><he>חָכָם</he></cite>) <i>to meet for deliberation</i>. Ib. <he>לכשיחיו נֶחְכַּם להן</he> when they resurrect, we shall meet to discuss their case.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחְכִּים"],
+			"senses": [
+				{
+					"gloss": "<i>to grow wise, to become a scholar</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 25b:8\">B. Bath. 25ᵇ</cite> <he>הרוצה שיַחְכִּים</he> he who desires to become a scholar; <cite ref=\"Bava Batra 175b\">ib. 175ᵇ</cite> (<cite ref=\"Berakhot 63b:19\">Ber. 63ᵇ</cite> <he>שיִתְחַכֵּם</he>). ",
+						"<cite ref=\"Pirkei Avot 2:5\">Ab. II, 5</cite> … <he>לא כל … מַחְכִּים</he> not every one that has a large trade, becomes wise (experienced); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make wise, to stimulate a person’s mind by ingenious suggestions, questions</i> &c. ",
+					"units": [
+						"<cite ref=\"Chagigah 14a:12\">Ḥag. 14ᵃ</cite> <he>תלמיד המַחְכִּים וכ׳</he> a student who enlightens his teachers. ",
+						"<cite ref=\"Bava Metzia 107b:7\">B. Mets. 107ᵇ</cite> <he>ומַחְכִּימַת פתי</he> and makes the simple wise."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to subtilize, philosophize</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 6:2\">Ex. R. s. 6</cite>, beg. <he>ה׳ על גזרתו וכ׳</he> philosophized on (tried to find out the reasons for) the Lord’s law. ",
+						"<cite ref=\"Shemot Rabbah 6:2\">Ib.</cite> <he>מה שהייתי מַחְכִּים וכ׳</he> when I philosophised … and made myself believe …, it was all vain boast &c."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְחַכֵּם"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַכֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to become wise</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 63b:23\">Ber. 63ᵇ</cite>, v. supra. ",
+						"<cite ref=\"Bava Batra 25b:8\">B. Bath. 25ᵇ</cite> <he>מתוך שמִתְחַכֵּם מתעשר</he> because by becoming wise, he will get rich. ",
+						"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> beg. <he>מאליו נתח׳</he> became wise by his own speculation."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

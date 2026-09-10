@@ -1,0 +1,48 @@
+{
+	"id": "B00704",
+	"slug": "בירה",
+	"headword": {
+		"text": "בִּירָה"
+	},
+	"page": {
+		"number": 165,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>ברר</he>, as <cite ref=\"B00615\"><he>בִּילָה</he></cite> fr. <cite ref=\"B00880\"><he>בלל</he></cite>; cmp. <cite ref=\"B00725\"><he>בֵּירִית</he></cite>)<i>cut off, surrounded</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>castle, fort</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39:1\">Gen. R. s. 39</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a group of buildings forming one residence</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 61b:2\">B. Bath. 61ᵇ</cite> <he>בית בב׳ גדולה</he> a house in a large residence (court). ",
+				"<cite ref=\"Beitzah 25a:6\">Bets. 25ᵃ</cite> <he>בטפיחין ובב׳</he>; (ib. 24ᵃ <he>בט׳ בבירות</he>); v. <cite ref=\"I00648\"><he>טפיח</he> I</cite>, 2."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (= <he>בית הבחירה</he>, <cite ref=\"I Chronicles 29:1\">I Chr. XXIX, 1</cite>; <cite ref=\"I Chronicles 29:19\">19</cite>) <i>the chosen Divine residence, Temple</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 119a:8\">Zeb. 119ᵃ</cite> <he>והא בעי ב׳</he> does it not require a chosen residence (<cite ref=\"Deuteronomy 12:18\">Deut. XII, 18</cite>)? Y. Pes. II, 35ᵃ top <he>כל הר וכ׳</he> the whole Temple mount is named Birah; <cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite>. ",
+				"<cite ref=\"Mishnah Zevachim 12:5\">Zeb. XII, 5</cite> (<cite ref=\"Zevachim 104b:2\">104ᵇ</cite>) <he>בבית הב׳</he>; v. ",
+				"<cite ref=\"Zevachim 104b:2\">Ib.</cite> a. l.—",
+				"<cite ref=\"Yoma 9b:14\">Yoma 9ᵇ</cite> <he>עידיכם הב׳</he> your witness is the Second Temple (which has not been rebuilt; Y. ib. I, 38ᶜ bot. <he>הבחירה</he>). ",
+				"<cite ref=\"Mishnah Eduyot 7:3\">Eduy. VII, 3</cite> <he>בִּירַת הפליא</he> (Ms. M. <he>הפליי׳</he>) Fort Haflaya(?).—Pl. <he>בִּירוֹת</he>. ",
+				"<cite ref=\"Beitzah 24a\">Bets. 24ᵃ</cite>, v. supra. ",
+				"<cite ref=\"Zevachim 119a:8\">Zeb. 119ᵃ</cite> <he>שלש ב׳ וכ׳</he> there are three Divine residences, Shiloh &c. Ch. <cite ref=\"B00736\"><he>בִּירְתָא</he></cite>.—Denom. <cite ref=\"B01249\"><he>בִּרְיוֹן</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

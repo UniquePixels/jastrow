@@ -1,0 +1,32 @@
+{
+	"id": "O00335",
+	"slug": "סום-4",
+	"headword": {
+		"text": "סוּם",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 966,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00334\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O00333\"><he>סַיֵּים</he></cite> <i>to blind</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 5:7\">Targ. Cant. V, 7</cite>.—V. <cite ref=\"O01079\"><he>סְמי</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

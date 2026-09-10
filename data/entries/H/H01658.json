@@ -1,0 +1,34 @@
+{
+	"id": "H01658",
+	"slug": "חרחר-2",
+	"headword": {
+		"text": "חִרְחֵר"
+	},
+	"page": {
+		"number": 501,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; Pilp. of <cite ref=\"H01768\"><he>חָרַר</he> III</cite>)<i>to set twigs on fire</i> for driving out the bees. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 3:11\">Ukts. III, 11</cite> <he>משיְחַרְחֵר</he> from the moment he smokes the bees out; [Maim.: <i>he heats the honey-comb;</i> Var. in Ar.: <he>משיְהַרְהֵר</he>]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"T00580\"><he>ריב</he></cite>) <i>to stir up strife</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 8:13\">Cant. R. to VIII, 13</cite> <he>ולא תְחַרְתֲרוּ זה עם זה</he> do not quarrel with one another."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to make hot with fever</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 17\">Lev. R. s. 17</cite>, v. <cite ref=\"E00840\"><he>הִרְהֵר</he></cite>. [Y. Kidd. I, 58ᶜ top <he>מחרחרין מוזהרין</he>, a cacography of <he>מוזהרין</he>; in ed. Amst. only <he>מוזהרין</he>.]"
+			],
+			"label": "3"
+		}
+	]
+}

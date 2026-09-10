@@ -1,0 +1,24 @@
+{
+	"id": "A00133",
+	"slug": "אבילות",
+	"headword": {
+		"text": "אֲבֵילוּת"
+	},
+	"page": {
+		"number": 6,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A00153\"><he>אבל</he></cite>) <i>mourning time, mourning ceremonies</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 20a:10\">M. Kat. 20ᵃ</cite> sq. <he>א׳ שבעה</he> the mourning time is seven days. ",
+				"<cite ref=\"Moed Katan 24a:16\">Ib. 24ᵃ</cite> <he>אין א׳ בשבת</he> no mourning ceremonies are to be observed on &c. ",
+				"<cite ref=\"Yevamot 43b:12\">Yeb. 43ᵇ</cite> <he>א׳ חדשה</he> recent (i.e. individual) mourning, in contrad. to <he>א׳ ישנה</he> mourning over Jerusalem. [<cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite> beg., some ed. <cite ref=\"A00133\"><he>אבילות</he></cite>—<he>אוביל</he> read <he>אכילות</he>—<he>אוכיל</he>]."
+			]
+		}
+	]
+}

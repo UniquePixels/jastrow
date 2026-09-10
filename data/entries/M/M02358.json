@@ -1,0 +1,47 @@
+{
+	"id": "M02358",
+	"slug": "מצר-7",
+	"headword": {
+		"text": "מֵצַר",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "מִצְרָא"
+		},
+		{
+			"text": "מִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 828,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>מְצַר</he> I, v. <cite ref=\"M02363\"><he>מִצְרִי</he> I</cite>) <i>rope</i> of rushes &c.; ",
+			"units": []
+		},
+		{
+			"gloss": " a contemptuous name for <i>slave</i> (cmp. <cite ref=\"A03025\"><he>אַרְוִיסָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 127b:17\">B. Bath. 127ᵇ</cite> <he>דקארי ליה עבדא מ׳ מאה</he> when he had been in the habit of calling him (whom he now claims to be his son) promiscuously ‘slave’, ‘metsar (rope)’, ‘one hundred’); <he>מאי מ׳ מאה מ׳ עבדא מאה</he> [<he>דשוה</he>] <he>מאה זוזי</he> (v. Rabb. D. S. a. l. note 70) what is <i>metsar meah? M</i>. means slave; <i>meah</i>, that he is worth one hundred Zuz; [differ. interpret. in comment.—Alf. <he>דאמרי אינשי מ׳ עבדא מאה זוזי</he> for people say, ‘the rope of a slave (is worth) one hundred Zuz’]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>a cable stretched across a river and holding a board suspended, rope-bridge</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 6b:16\">M. Kat. 6ᵇ</cite> bot. ",
+				"<cite ref=\"Kiddushin 81a:3\">Kidd. 81ᵃ</cite>. ",
+				"<cite ref=\"Beitzah 7b:3\">Bets. 7ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 167a:7\">B. Bath. 167ᵃ</cite> <he>אנחי ידאי אמ׳</he> I would put my hand on a rope-bridge (and write to imitate the writing of a trembling hand)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "K00593",
+	"slug": "כיסתא-1",
+	"headword": {
+		"text": "כִּיסְתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 634,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"K00577\"><he>כִּיסָא</he></cite>, <i>bag</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 24a:21\">Ber. 24ᵃ</cite> bot. <he>בכ׳</he> (Ms. F. <he>בכִיסְתֵיה</he>) in the bag (of the T’fillin). ",
+				"<cite ref=\"Shabbat 105b:1\">Sabb. 105ᵇ</cite> top <he>דעבדה כי׳</he> Ms. M. (ed. <he>כי כסתא</he>, Rashi <he>כי כי׳</he>, v. Rabb. D. S. a. l.) when he shapes the garment so as to form (a kind of) a pocket. ",
+				"<cite ref=\"Pesachim 72a:4\">Pes. 72ᵃ</cite> <he>ודמי ליה כמאן דמנחא בכִיסְתֵיה</he> and it was to him as if lying in his pocket (ever ready to recite it); <cite ref=\"Ketubot 50a\">Keth. 50ᵃ</cite>; <cite ref=\"Megillah 7b:9\">Meg. 7ᵇ</cite> <he>בכִיסֵיה</he>. [<cite ref=\"Ketubot 98a:7\">Keth. 98ᵃ</cite>, v. <cite ref=\"K00932\"><he>כְּסִיתָא</he></cite>.]"
+			]
+		}
+	]
+}

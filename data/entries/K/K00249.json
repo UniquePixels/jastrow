@@ -1,0 +1,33 @@
+{
+	"id": "K00249",
+	"slug": "כוכב-1",
+	"headword": {
+		"text": "כּוֹכָב"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֹּכָב"
+		}
+	],
+	"page": {
+		"number": 619,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <cite ref=\"K00059\"><he>כבכב</he></cite>, v. <cite ref=\"K00028\"><he>כבב</he></cite>) [<i>rounded, globe</i>,] <i>star, planet</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:6\">Y. Ber. I, 2ᵇ</cite> <he>כ׳ אחד ודאי יום</he> as long as one star only is visible, it is surely day-time. ",
+				"<cite ref=\"Horayot 10a:19\">Hor. 10ᵃ</cite> <he>כ׳ אחד יש ועולה וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note) there is a certain star (comet) which appears once in seventy years. ",
+				"<cite ref=\"Bereishit Rabbah 100:9\">Gen. R. s. 100</cite> <he>עשרה כוכבים בקשו לאבד כ׳ אחד</he> ten stars (sons of Jacob) desired to destroy one star (Joseph); a. fr.—Pl. <he>כּוֹכָבִים</he>, <he>כֹּכָ׳</he>. ",
+				"<cite ref=\"Bereishit Rabbah 100:9\">Ib.</cite>—",
+				"<cite ref=\"Berakhot 10a:14\">Ber. 10ᵃ</cite> <he>כ׳ ומזלות</he> stars and planets; a. fr.—<he>עובד כ׳</he>, <he>עובד כ׳ ומזלות</he> (abbr. <he>עו״כ</he>, <he>עכו״ם</he>), <he>עבודת כ׳</he>, v. <cite ref=\"P00013\"><he>עָבַד</he></cite>, <cite ref=\"P00026\"><he>עֲבוֹדָה</he></cite>. ",
+				"<cite ref=\"Sukkah 22b:8\">Succ. 22ᵇ</cite>; Y. ib. II, beg. 22ᵈ <he>כּוֹכְבֵי חמה</he> scintillations of the sun as seen through the covering of the festive booth. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 1053:7\">Yalk. Esth. 1053</cite> <he>כ׳ חנגה</he>, v. <cite ref=\"K00250\">next w.</cite>"
+			]
+		}
+	]
+}

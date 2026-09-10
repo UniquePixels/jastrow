@@ -1,0 +1,45 @@
+{
+	"id": "K00112",
+	"slug": "כדו",
+	"headword": {
+		"text": "כְּדוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּדוֹ"
+		},
+		{
+			"text": "כִּידוּ"
+		}
+	],
+	"page": {
+		"number": 612,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (comp. of <he>כַּד הוּ</he>, v. <cite ref=\"K00098\"><he>כַּד</he> I</cite>, cmp. <cite ref=\"D00162\"><he>דּוּ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>when it</i> (<i>happens that</i>), <i>whenever, when</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:50\">Targ. Lam. III, 50</cite> <he>עד כ׳ ד־</he> until what time he &c.—",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:24\">Y. Peah I, 15ᶜ</cite> bot. <he>כ׳ נפיק וכ׳</he> (ed. Krot. <cite ref=\"K00098\"><he>כד</he></cite>) whenever he comes from school. ",
+				"<cite ref=\"Jerusalem Talmud Challah 1:6:3\">Y. Ḥall. I, end, 58ᵃ</cite> <he>כידו אתי וכ׳</he> (not <cite ref=\"B00553\"><he>בידו</he></cite>) whenever he went to take (bread) into his hand."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>as it is</i> <he>(כִּדְהוּ</he>), now. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 26:28\">Targ. Y. Gen. XXVI, 28</cite> <he>כ׳ נפקת</he> now that thou hast gone away. ",
+				"<cite ref=\"Targum Jonathan on Judges 5:9\">Targ. Jud. V, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 31:18\">Targ. Jer. XXXI, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:14\">Targ. Is. XXXII, 14</cite>.—",
+				"<cite ref=\"Sukkah 44b:6\">Succ. 44ᵇ</cite> <he>כ׳ הוית דייר וכ׳</he> (v. Rabb. D. S. a. l. note) I have now been in this country &c.; a. fr.—[<cite ref=\"Bereishit Rabbah 44:21\">Gen. R. s. 44</cite> <he>מן כ׳</he>, v. <cite ref=\"M01581\"><he>מִלְכְיָא</he></cite>.]—V. <cite ref=\"K00121\"><he>כְּדִי</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

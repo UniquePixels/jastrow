@@ -1,0 +1,35 @@
+{
+	"id": "G00022",
+	"slug": "זבולון",
+	"headword": {
+		"text": "זְבוּלוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְבוּלֻן"
+		}
+	],
+	"page": {
+		"number": 378,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Zebulun</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Jacob; <i>tribe of Zebulun; country of Z</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:11\">Gen. R. s. 98</cite>. ",
+				"<cite ref=\"Pesachim 4a:4\">Pes. 4ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " one <i>Z.</i> <i>ben Dan</i>. ",
+			"units": ["<cite ref=\"Kiddushin 30a:3\">Kidd. 30ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

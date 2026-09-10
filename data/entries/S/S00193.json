@@ -1,0 +1,87 @@
+{
+	"id": "S00193",
+	"slug": "קדש-3",
+	"headword": {
+		"text": "קְדַשׁ"
+	},
+	"page": {
+		"number": 1320,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00192\">same</cite>, <i>to be sanctified, sacred</i> (v. <cite ref=\"S00120\"><he>קְדוֹשׁ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shevuot 15b:3\">Shebu. 15ᵇ</cite> <he>שתי הלחם … דקַדְשֵׁי</he> (Rashi <he>דמִיקַּדְּשֵׁי</he> <i>Ithpa.</i>) it is through the slaughtering of the sheep that the two loaves received their sacred character. ",
+				"<cite ref=\"Bekhorot 4b:18\">Bekh. 4ᵇ</cite> <he>דקְדוּשׁ קדוש וכ׳</he> those firstborn that were consecrated, were consecrated &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַדֵּישׁ"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"S00192\">preced.</cite> <i>Pi., to sanctify; to proclaim; to betroth</i> &c. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 28:41\">Targ. Ex. XXVIII, 41</cite>. ",
+						"<cite ref=\"Onkelos Exodus 29:1\">Ib. XXIX, 1</cite> <he>לקַדָּשָׁא</he> (Y. <he>לקַדְשָׁא</he>). Ib. 44; a. fr.—",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 20:7\">Targ. Y. Deut. XX, 7</cite> (not <he>דקָדֵישׁ</he>; h. text <cite ref=\"A03250\"><he>ארש</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 22:16\">Ib. XXII, 16</cite> (h. text <he>נתתי</he>); a. e.—",
+						"<cite ref=\"Shevuot 16a:4\">Shebu. 16ᵃ</cite> <he>ועזרא קַדּוּשֵׁי ק׳ וכ׳</he> and Ezra consecrated (the various places), although the Urim and Tummim were no longer extant. ",
+						"<cite ref=\"Pesachim 106a:6\">Pes. 106ᵃ</cite> <he>עיקר קידושא … דכי ק׳ תחלת יומא בעי לקַדּוּשֵׁי</he> the actual sanctification of the Sabbath must take place in the evening, for when one sanctifies the Sabbath, one must sanctify the beginning of the day. ",
+						"<cite ref=\"Pesachim 106a:6\">Ib.</cite> <he>ליקַדֵּישׁ לן וכ׳</he> please, sir, recite for us the great Ḳiddush, v. <cite ref=\"S00874\"><he>קִידּוּשָׁא</he></cite>. Ib. 101ᵃ <he>לקדושי בביתא</he> to recite the Ḳiddush in the house. Ib. 106ᵇ <he>זימנין … מקדש אריפתא</he> at times, when he cared more for bread, he recited the Ḳiddush over bread.—",
+						"<cite ref=\"Rosh Hashanah 25a:9\">R. Hash. 25ᵃ</cite> <he>זיל … וקַדְּשֵׁיה וכ׳</he> go to ‘En-Ṭab and proclaim the New Moon Day. ",
+						"<cite ref=\"Rosh Hashanah 25a:4\">Ib.</cite> <he>אמר … בעינן לקדושי בך וכ׳</he> he said (to the moon), to-night we desire to initiate the new month through thee, and thou standest here? <cite ref=\"Rosh Hashanah 25b:12\">Ib.ᵇ</cite> <he>ולִיקַדְּשֵׁיה בליליא</he> Ms. M. and we may proclaim it at night. ",
+						"<cite ref=\"Shevuot 15b:7\">Shebu. 15ᵇ</cite> <he>דעד דקַדֵּישׁ יומא וכ׳</he> so that immediately after one has recited the blessing at the exit of the day (<cite ref=\"E00028\"><he>הַבְדָּלָה</he></cite>), one might finish the building and consecrate it.—",
+						"<cite ref=\"Kiddushin 50b:7\">Kidd. 50ᵇ</cite> <he>באתרא דמְקַדְּשֵׁי והדר מסבלי</he> where it is customary to send the gifts after betrothal, v. <cite ref=\"O00072\"><he>סְבַל</he></cite>. ",
+						"<cite ref=\"Kiddushin 59a:4\">Ib. 59ᵃ</cite> <he>לקדושי … לבריה</he> to betroth a wife for his son (as his deputy); a. v. fr.—Part. pass. <he>מְקַדַּשׁ</he>; f. <cite ref=\"M02385\"><he>מְקַדְּשָׁא</he></cite>, &c. Shebu. l. c. <he>תרוייהו … מְקַדְּשֵׁי</he> both of them are consecrated at the same time. Ib. <he>חדא מי מק׳</he> how can even one of them be consecrated?—",
+						"<cite ref=\"Pesachim 101a:6\">Pes. 101ᵃ</cite> <he>ולא מק׳ לכו בבית אכילה</he> (Ms. M. 2 <he>מתקדש</he>) and no Ḳiddush will be recited for you in your dining place; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְקַדֵּשׁ", "אִיקַּדֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <he>אִיקְּדִישׁ</he> <i>to sanctify one’s self; to be sanctified</i>; (of mixed seeds) <i>to be condemnable;</i> (of woman) <i>to be betrothed</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 29:37\">Targ. Ex. XXIX, 37</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 20:7\">Targ. Lev. XX, 7</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 10:3\">Targ. O. ib. X, 3</cite>; a. fr.—",
+						"<cite ref=\"Kiddushin 54a:7\">Kidd. 54ᵃ</cite> <he>ירושלים מי מִיקַּדְּשָׁא</he> is Jerusalem itself consecrated ground? <cite ref=\"Nedarim 31a:6\">Ned. 31ᵃ</cite> <he>כיון דאיק׳ אברהם וכ׳</he> when Abraham was consecrated (as the bearer of religion), they (the Israelites) were called after him (they are no longer included among ‘the sons of Noah’).—",
+						"<cite ref=\"Ketubot 62b:15\">Keth. 62ᵇ</cite> <he>אי מִיקַּדַּשְׁנָא</he> (some ed. <he>מְקַדַּשְׁנָא</he>) if I consent to be betrothed unto thee, wilt thou go to college? <cite ref=\"Ketubot 62b:15\">Ib.</cite> <he>אִיקַּדְּשָׁא ליה וכ׳</he> she was betrothed to him in secret, and she sent him (Akiba) away (to study). ",
+						"<cite ref=\"Kiddushin 9a:1\">Kidd. 9ᵃ</cite> <he>אי … מִיקַּדְּשַׁת לי</he> if I give it thee, wilt thou be betrothed to me? <cite ref=\"Kiddushin 12a:2\">Ib. 12ᵃ</cite> <he>אשה … לא מִיקַּדְּשָׁא</he> a woman cannot be betrothed with a P’ruṭah; a. fr.—",
+						"<cite ref=\"Pesachim 105a:2\">Pes. 105ᵃ</cite> <he>זיל חזי אי מִקְּדִישׁ יומא</he> (Ms. M. <he>קדיש</he>) go and see whether the sacred day has begun."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אַקְדֵּישׁ", "אַקְדַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to sanctify, dedicate</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 27:14\">Targ. Lev. XXVII, 14</cite> (Y. ed. Vien. <he>יִקְדַּשׁ</he>). Ib. 15. ",
+						"<cite ref=\"Targum Jonathan on Judges 17:3\">Targ. Jud. XVII, 3</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to betroth</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 9b:8\">Kidd. 9ᵇ</cite> <he>עד דמַקְדִּישׁ והדר בעיל</he> (Rashi <he>דמקדש</he>) until he betroth her and consummates. ",
+						"<cite ref=\"Kiddushin 12a:14\">Ib. 12ᵃ</cite> <he>ההוא גברא דא׳ וכ׳</he> a man betrothed a woman with a piece of &c., v. <cite ref=\"K00239\"><he>כּוֹחֲלָא</he></cite>. ",
+						"<cite ref=\"Kiddushin 12b\">Ib. 12ᵇ</cite>; a. fr. (interch. with <i>Pa.</i>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

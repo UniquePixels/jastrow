@@ -1,0 +1,32 @@
+{
+	"id": "Q00798",
+	"slug": "פיקא-3",
+	"headword": {
+		"text": "פִּיקָא",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיקָה",
+			"homograph": 3
+		},
+		{
+			"text": "בר פִּיקָא"
+		}
+	],
+	"page": {
+		"number": 1169,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar-Piḳa</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 9:2:10\">Y. Naz. IX, 57ᵈ</cite>"
+			]
+		}
+	]
+}

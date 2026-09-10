@@ -1,0 +1,38 @@
+{
+	"id": "O00913",
+	"slug": "סכלא-1",
+	"headword": {
+		"text": "סִכְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּכְ׳"
+		},
+		{
+			"text": "שִׂ׳"
+		},
+		{
+			"text": "שׂוּ׳"
+		}
+	],
+	"page": {
+		"number": 991,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְכַל</he> I) <i>reason, sense</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 111:10\">Targ. Ps. CXI, 10</cite> (Ms. <cite ref=\"O00393\"><he>סוּ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:2\">Targ. Prov. I, 2</cite> Ms. (ed. <cite ref=\"B00559\"><he>ביונתא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:3\">Ib. 3</cite> <cite ref=\"O00913\"><he>שׂוּ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:4\">Ib. III, 4</cite> <cite ref=\"O00806\"><he>שִׂ׳</he></cite> (Ms. <cite ref=\"O00913\"><he>שׂוּ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 32:1\">Targ. Ps. XXXII, 1</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 30:22\">Targ. II Chr. XXX, 22</cite>; a. fr."
+			]
+		}
+	]
+}

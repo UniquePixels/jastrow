@@ -1,0 +1,52 @@
+{
+	"id": "O01342",
+	"slug": "ספח-1",
+	"headword": {
+		"text": "סָפַח"
+	},
+	"page": {
+		"number": 1012,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to grow, swell, be added to</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִפֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to add</i>, esp. (of a river) <i>to cast out alluvial soil, make new land</i> <cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> <he>על הנהר שמְסַפֵּחַ למדינה וכ׳</he> when a river ameliorates the soil of a district, we say the blessing etc.; Y. Ber. IX, 14ᵃ <he>מספיק</he> (corr. acc.).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to join, conspire</i>. Tanḥ. Thazr. 11 (play on <cite ref=\"O01345\"><he>ספחת</he></cite>, <cite ref=\"Leviticus 13:2\">Lev. XIII, 2</cite>) <he>שהיה המן מספח עם וכ׳</he> Haman conspired with Ahasver to destroy etc.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": " (v. <cite ref=\"O01345\"><he>סַפַּחַת</he></cite>) <i>to smite with sores</i>. Pesik. Vattom., p. 133ᵃ (ref. to <he>ושׂפח</he>, <cite ref=\"Isaiah 3:17\">Is. III, 17</cite>) <he>ואין ספח אלא צרעת</he> <i>sippaḥ</i> means striking with leprosy; Tanḥ. l. c. <he>אין ושִׂפַּח וכ׳</he>; <cite ref=\"Vayikra Rabbah 16:1\">Lev. R. s. 16</cite> <he>הלקן בצרעת</he>.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִסְתַּפֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to attach one’s self, become a citizen</i>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> end <he>שהניחו ישראל ונִסְתַּפְּחוּ וכ׳</he> they left Israel and became citizens in the fields of Moab."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

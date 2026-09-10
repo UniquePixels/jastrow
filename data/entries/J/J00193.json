@@ -1,0 +1,22 @@
+{
+	"id": "J00193",
+	"slug": "יולפנא",
+	"headword": {
+		"text": "יוּלְפָנָא"
+	},
+	"page": {
+		"number": 569,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00397\"><he>יְלַף</he></cite>) = <cite ref=\"A00680\"><he>אוּלְפָנָא</he></cite>, <i>instruction</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:2\">Targ. Prov. IV, 2</cite>."
+			]
+		}
+	]
+}

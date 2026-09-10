@@ -1,0 +1,33 @@
+{
+	"id": "S01667",
+	"slug": "קסם-3",
+	"headword": {
+		"text": "קֶסֶם"
+	},
+	"page": {
+		"number": 1396,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S01666\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>chip, carving</i>, v. <cite ref=\"S01665\"><he>קָסַם</he></cite>.—Pl. <he>קְסָמִים</he>, <he>קְסָמִין</he>, v. <cite ref=\"S01071\"><he>קִיסָּם</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>decision</i>, esp. <i>decision by lot or sign, divination, augury; means or tools of divination.—Pl</i>. as ab. Lam. R. introd. (R. Josh. 2) <he>התחיל קוסם ק׳</he> he began to make divinations (by throwing arrows &c.); <cite ref=\"Kohelet Rabbah 12:7:1\">Koh. R. to XII, 7</cite> <he>לקסום ק׳</he>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 20:25\">Num. R. s. 20</cite>, v. <cite ref=\"S01665\"><he>קָסַם</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 20:25\">Ib.</cite> <he>שידעו בק׳ שלהם וכ׳</he> they knew that there was no profit in their divining signs; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

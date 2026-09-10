@@ -1,0 +1,27 @@
+{
+	"id": "D01161",
+	"slug": "דת-3",
+	"headword": {
+		"text": "דָּת",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּתָא"
+		}
+	],
+	"page": {
+		"number": 327,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D01160\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Daniel 6:16\">Dan. VI, 16</cite>. ",
+				"<cite ref=\"Daniel 2:15\">Ib. II, 15</cite>; a. fr.—Pl. constr. <he>דָּתֵי</he>. ",
+				"<cite ref=\"Ezra 7:25\">Ezra VII, 25</cite>."
+			]
+		}
+	]
+}

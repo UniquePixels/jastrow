@@ -1,0 +1,31 @@
+{
+	"id": "J00420",
+	"slug": "ימן-2",
+	"headword": {
+		"text": "יְמַן"
+	},
+	"page": {
+		"number": 580,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַיְימִין</he> <cite ref=\"J00419\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 88b\">Sabb. 88ᵇ</cite> <he>דאַיְימִין ליה</he> Ms. M. (ed. <he>מיימינים</he>) he who uses it in the right way (v. <cite ref=\"J00419\">preced.</cite>); <cite ref=\"Yoma 72b:14\">Yoma 72ᵇ</cite> <he>דאוֹמַן לה</he> (Ms. M. <he>דאֵימִין</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

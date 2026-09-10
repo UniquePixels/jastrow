@@ -1,0 +1,28 @@
+{
+	"id": "A00479",
+	"slug": "אדרת",
+	"headword": {
+		"text": "אַדֶּרֶת"
+	},
+	"page": {
+		"number": 19,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"A00441\"><he>אָדַר</he></cite>)<i>cloak, cover</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite> (ref. to <cite ref=\"Genesis 25:25\">Gen. XXV, 25</cite>) <he>כולו ראוי לא׳</he> every one (of the Roman people) fit for the purple cloak (may become an emperor)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (homiletically, as if <cite ref=\"A00479\"><he>אִדֶּרֶת</he></cite> = ch. <cite ref=\"A00444\"><he>אִדְּרָא</he></cite>, <cite ref=\"A00444\"><he>אִדַּר</he></cite>) <i>the threshing floor, the store of grains</i>. Ib. <he>כולו מפוזר ומפורד כא׳</he> entirely destined to be scattered (winnowed) like the grains, <he>לזרותו וכ׳</he> [<he>שעתיד</he>] for the Lord will scatter him (Edom-Rome) like chaff &c. (ref. to <cite ref=\"Daniel 2:35\">Dan. II, 35</cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

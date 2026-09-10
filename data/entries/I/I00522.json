@@ -1,0 +1,37 @@
+{
+	"id": "I00522",
+	"slug": "טלף-2",
+	"headword": {
+		"text": "טְלַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַלְפָא"
+		},
+		{
+			"text": "טִילְ׳"
+		}
+	],
+	"page": {
+		"number": 538,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"I00521\">same</cite>. Pl. <he>טַלְפִין</he>, <he>טַלְפַיָיא</he>, <he>טַלְפֵי</he>, <cite ref=\"I00486\"><he>טִילְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:3\">Targ. Lev. XI, 3</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:10\">Y. Ḥag. II, 77ᵇ</cite> bot. <he>מן ט׳ דסוסיי וכ׳</he> by counting the steps of my horse &c., v. preced.—Denom. <he>מְטַלַּף</he>, <he>מִיטְלַף</he>, (<he>מַטִּילְפָא</he>) <he>מַטְלַף</he> <i>with cloven foot, cloven</i>. Targ. Lev. l. c.—",
+				"<cite ref=\"Onkelos Deuteronomy 14:6\">Targ. O. Deut. XIV, 6</cite>; a. fr. (v. Berl. Targ. O. II, p. 34)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (dial. for <cite ref=\"I00483\"><he>טלופחא</he></cite>) <i>beans</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 66b:7\">Ned. 66ᵇ</cite> a Babylonian asked his Palestinean wife <he>בשילי לי תרי טלפי</he> cook for me two (a few) beans, <he>בשילה ליה תרי טלפי</he> and she cooked two feet (Rashi); [anoth. interpret.: she cooked for him just <i>two beans</i> and no more; marginal emendation <he>בשילה ליה תרי טלפחי</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

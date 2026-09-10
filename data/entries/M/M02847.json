@@ -1,0 +1,35 @@
+{
+	"id": "M02847",
+	"slug": "משח-2",
+	"headword": {
+		"text": "מְשַׁח"
+	},
+	"page": {
+		"number": 851,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M02846\">same</cite> <cite ref=\"Onkelos Genesis 31:13\">Targ. O. Gen. XXXI, 13</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 64:4\">Targ. Ps. LXIV, 4</cite> (Ms. <he>מתח</he>); a. fr.—Part. pass. <cite ref=\"M02870\"><he>מְשִׁיחַ</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 1:21\">Targ. II Sam. I, 21</cite>; a. e.—",
+				"<cite ref=\"Keritot 5b:17\">Ker. 5ᵇ</cite> <he>ההוא דמשיח וכ׳</he> (not <he>דמשח</he>) that son of the high priest that was anointed was high priest &c.; <cite ref=\"Horayot 11b:11\">Hor. 11ᵇ</cite> <he>אי הוה משיח וכ׳</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְמְשַׁח"],
+			"senses": [
+				{
+					"gloss": "<i>to be rubbed with oil, perfumed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 6:6\">Targ. Am. VI, 6</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

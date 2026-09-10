@@ -1,0 +1,23 @@
+{
+	"id": "M02510",
+	"slug": "מרגואן",
+	"headword": {
+		"text": "מַרְגּוּאַן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 835,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Marguan</i> (prob. Antiochia Margiana, in Central Asia). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 31b:8\">Ab. Zar. 31ᵇ</cite> (Ms. M. <he>מרגוז</he>, Tosaf. R. Elḥ. <he>מר גזאן</he>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

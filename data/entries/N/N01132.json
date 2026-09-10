@@ -1,0 +1,46 @@
+{
+	"id": "N01132",
+	"slug": "נצל-2",
+	"headword": {
+		"text": "נְצַל"
+	},
+	"page": {
+		"number": 929,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01131\">same</cite>, <i>to save</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 9b:2\">Taan. 9ᵇ</cite> <he>רחמנא לִיצְּלַן</he>, v. <cite ref=\"K00583\"><he>כִּיסּוּפָא</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַצֵּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01131\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 72b:18\">Snh. 72ᵇ</cite> <he>דלא מצי אַצּוּלֵיה</he> when he cannot save him. ",
+						"<cite ref=\"Shabbat 115a:5\">Sabb. 115ᵃ</cite> <he>השתא אַצּוּלֵי מַצִּילִינָן וכ׳</he> since we are bound to save them (on the Sabbath), is it necessary to say that they require burying (when defective)?; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתַּצַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be saved</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 18a:16\">Ab. Zar. 18ᵃ</cite> bot. <he>ומִתַּצְּלַת</he> and thou shalt be saved."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

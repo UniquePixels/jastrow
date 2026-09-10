@@ -1,0 +1,25 @@
+{
+	"id": "I00276",
+	"slug": "טט",
+	"headword": {
+		"text": "טֹט",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "טָט"
+		}
+	],
+	"page": {
+		"number": 528,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>two</i> (in the language of <cite ref=\"K01384\"><he>כתפי</he></cite>, <he>כיתפי</he> or <cite ref=\"C00241\"><he>גדפי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 4b:13\">Snh. 4ᵇ</cite>; <cite ref=\"Zevachim 37b:15\">Zeb. 37ᵇ</cite>; <cite ref=\"Menachot 34b:2\">Men. 34ᵇ</cite>"
+			]
+		}
+	]
+}

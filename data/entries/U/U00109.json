@@ -1,0 +1,47 @@
+{
+	"id": "U00109",
+	"slug": "שבי-1",
+	"headword": {
+		"text": "שבי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁבָה"
+		}
+	],
+	"page": {
+		"number": 1513,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to capture, carry off</i>.—Part. pass. <cite ref=\"U00074\"><he>שָׁבוּי</he></cite>; f. <cite ref=\"U00093\"><he>שְׁבוּיָה</he></cite>; pl. <he>שְׁבוּיִים</he>, <he>שְׁבוּיִם</he>, <he>שְׁבוּיִין</he>; <he>שְׁבוּיוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 1:2\">Keth. I, 2</cite> <he>הגיורת והש׳ וכ׳</he> a proselyte, a captive, and a slave, converted, redeemed, or freed at an age of less than three years and one day. ",
+				"<cite ref=\"Mishnah Ketubot 1:4\">Ib. 4</cite>. ",
+				"<cite ref=\"Bava Batra 8a:18\">B. Bath. 8ᵃ</cite> bot.; <cite ref=\"Chullin 7a:10\">Ḥull. 7ᵃ</cite>, a. e. <he>פדיון ש׳</he>, v. <cite ref=\"Q00121\"><he>פִּדְיוֹן</he></cite>. ",
+				"<cite ref=\"Mishnah Shekalim 2:5\">Shek. II, 5</cite> <he>מותר שבויים לש׳</he> what is left over from a fund collected for the ransom of captives, must be reserved for the ransom of other captives; <he>מותר שבוי לאותו ש׳</he> what is left over from a collection for a certain captive, belongs to that captive. Y. ib. II, 47ᵃ top <he>אין פודין ש׳ בש׳</he> you dare not redeem a captive by surrendering another captive. ",
+				"<cite ref=\"Ketubot 51b:17\">Keth. 51ᵇ</cite> <he>בש׳ הקלו</he> with regard to a woman redeemed from captivity the practice is more lenient (allowing her husband to live with her again). ",
+				"<cite ref=\"Ketubot 51b:17\">Ib.</cite> <he>שְׁבוּיֵי מלכות הרי הן כש׳</he> women forced by (Roman) officials come under the law of redeemed captives (are permitted to live with their husbands). ",
+				"<cite ref=\"Mishnah Gittin 4:6\">Gitt. IV, 6</cite>, v. <cite ref=\"Q00110\"><he>פָּדָה</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁבָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be captured</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 39a:8\">B. Mets. 39ᵃ</cite> <he>שבוי שנ׳ מורידין וכ׳</he> if a person has been captured (banished), we appoint a relative to manage his property. ",
+						"<cite ref=\"Sanhedrin 104a:16\">Snh. 104ᵃ</cite> <he>שני בני אדם שנִשְׁבּוּ וכ׳</he> two persons were captured on Mount Carmel. ",
+						"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <he>מעשה במרים … שנִשְׁבֵּית וכ׳</he> it came to pass that Miriam … was carried off (by the Romans), herself and her seven sons. ",
+						"<cite ref=\"Mishnah Ketubot 2:5\">Keth. II, 5</cite> <he>נִשְׁבֵּתִי וטהורה אני</he> I was a captive (among gentiles), but I remained pure; <cite ref=\"Ketubot 23a:13\">ib. 23ᵃ</cite> <he>נִשְׁבֵּיתִי</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

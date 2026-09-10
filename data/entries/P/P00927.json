@@ -1,0 +1,54 @@
+{
+	"id": "P00927",
+	"slug": "עמר-1",
+	"headword": {
+		"text": "עָמַר"
+	},
+	"page": {
+		"number": 1090,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A02062\"><he>אָמַר</he> II</cite>)<i>to be thick, tufty</i>.—Denom. <cite ref=\"P00892\"><he>עָמִיר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H01218\"><he>חָמַר</he> I</cite>) <i>to heap up, pile</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 2:5\">Ukts. II, 5</cite> <he>והבצלים שעֲמָרָן</he>, Var. for <he>שחמרן</he>.—Denom. <cite ref=\"P00288\"><he>עוֹמֶר</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִימֵּר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"P00288\"><he>עוֹמֶר</he></cite>) <i>to bind and pile sheaves; to harvest</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 5:8\">Peah V, 8</cite> <he>המְעַמֵּר וכ׳</he>, v. <cite ref=\"K00195\"><he>כּוֹבְעָה</he></cite>, a. <cite ref=\"H01775\"><he>חֲרָרָה</he></cite>. Y. Ber. IX, 13ᶜ top <he>חרש זרע … קצר עי׳ וכ׳</he> he ploughed, he sowed …, he cut, piled up, threshed &c.; Bab. ",
+						"<cite ref=\"Berakhot 58a\">Ber. 58ᵃ</cite> <cite ref=\"P00928\"><he>עמר</he></cite>. ",
+						"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite>. Y. Peah IV, 18ᵈ bot. <he>בקוצר שורה ומעמר שורה</he> when he cuts a row and puts it up in sheaves at a time; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַמֵּר"],
+			"senses": [
+				{
+					"gloss": " (b. h.) (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to make one’s self the master of; to make use of a person as a servant</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 11:1\">Snh. XI, 1</cite> (<cite ref=\"Sanhedrin 85b:18\">85ᵇ</cite>) (expl. ",
+						"<cite ref=\"Deuteronomy 24:7\">Deut. XXIV, 7</cite>) <he>אינו חייב עד שיכניסנו לרשותו</he> he is not guilty of abduction, unless he brought the person to his own grounds; (oth. opin.) <he>עד … וישתמש בו</he> unless he brought the person to his own grounds and made use of him; <cite ref=\"Sifrei Devarim 273\">Sifré Deut. 273</cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

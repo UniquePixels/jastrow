@@ -1,0 +1,26 @@
+{
+	"id": "N00812",
+	"slug": "נכון",
+	"headword": {
+		"text": "נָכוֹן"
+	},
+	"page": {
+		"number": 910,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00296\"><he>כּוּן</he></cite>)<i>firm, ready</i>. ",
+			"units": ["<cite ref=\"Berakhot 60a:16\">Ber. 60ᵃ</cite>; a. e."],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. <he>גּוֹרֶן נ׳</he>, v. <cite ref=\"K00495\"><he>כִּידוֹן</he> II</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

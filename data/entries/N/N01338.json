@@ -1,0 +1,34 @@
+{
+	"id": "N01338",
+	"slug": "נשף-3",
+	"headword": {
+		"text": "נְשַׁף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 941,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"U00488\"><he>שׁוּף</he></cite> I ch.) <i>to slip, glide, move</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 3a:14\">Meg. 3ᵃ</cite> <he>לִינְשׁוֹף מדוכתיה וכ׳</he> let him move (Rashi: <i>skip</i>) from his place four cubits."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִינַּשְׁתֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be made to slip</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 23a:2\">B. Mets. 23ᵃ</cite> <he>מִינַּשְׁתְּפָא</he> it slips from its place (by people’s stepping against it)."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

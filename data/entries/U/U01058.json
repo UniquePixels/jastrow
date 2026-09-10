@@ -1,0 +1,30 @@
+{
+	"id": "U01058",
+	"slug": "שיר-6",
+	"headword": {
+		"text": "שִׁיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁירָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1568,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01058\"><he>שִׁיר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:1\">Targ. Cant. I, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 66:1\">Targ. Ps. LXVI, 1</cite>; a. fr.—Pl. <cite ref=\"U01080\"><he>שִׁירִין</he></cite>, <cite ref=\"U01074\"><he>שִׁירַיָּא</he></cite>. Targ. Cant. l. c. ",
+				"<cite ref=\"Aramaic Targum to Psalms 137:3\">Targ. Ps. CXXXVII, 3</cite>; a. e.—[<cite ref=\"U01060\"><he>שִׁירָא</he></cite> f., v. <cite ref=\"U01088\"><he>שִׁירְתָא</he></cite>.]"
+			]
+		}
+	]
+}

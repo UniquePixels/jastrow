@@ -1,0 +1,31 @@
+{
+	"id": "U01674",
+	"slug": "שען-1",
+	"headword": {
+		"text": "שָׁעַן"
+	},
+	"page": {
+		"number": 1611,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;cmp. Syr. <cite ref=\"U00036\"><he>שאן</he></cite>, P. Sm. 4012) <i>to be smooth, be quiet</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁעַן"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"B00498\"><he>בטח</he></cite>) <i>to rely on, lean, be supported</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 36\">Lev. R. s. 36</cite> <he>מה גפן זו נִשְׁעֶנֶת … נִשְׁעָנִין בזכות התורה וכ׳</he> as the vine is supported by a reed, so Israel relies on the merit of studying the Law which is written with a reed. Y. Bets. V, 63ᵃ top <he>נשענים בבהמה</he> you may lean against an animal (on the Sabbath or Holy Day, it is not considered work for the animal); <he>מאן דאמר אין נשענין בתש</he> he that says, you dare not lean, has reference to a weak animal; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

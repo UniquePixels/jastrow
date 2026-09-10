@@ -1,0 +1,31 @@
+{
+	"id": "U01794",
+	"slug": "שפץ-1",
+	"headword": {
+		"text": "שָׁפַץ"
+	},
+	"page": {
+		"number": 1619,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>שִׁפֵּץ</he> (v. <cite ref=\"U01795\">next w.</cite>) <i>to repair</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 103a:18\">Keth. 103ᵃ</cite> <he>שִׁיפְּצָה מאי</he> if she repaired the house, how is it?; v. <cite ref=\"U01022\"><he>שִׁיפּוּצָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "N01003",
+	"slug": "נעץ-2",
+	"headword": {
+		"text": "נְעַץ"
+	},
+	"page": {
+		"number": 921,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (transp. <cite ref=\"N01136\"><he>נְצַע</he></cite>) ch. same. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 30:38\">Targ. Y. Gen. XXX, 38</cite> (O. <he>דעץ</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 15:17\">Targ. Y. Deut. XV, 17</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"N00985\"><he>נְעִיץ</he></cite>; f. <he>נְעִיצָא</he>; pl. <he>נְעִיצִין</he>; <he>נְעִיצָן</he> <i>inserted; perforated</i>. ",
+				"<cite ref=\"Onkelos Genesis 28:12\">Targ. O. Gen. XXVIII, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:2\">Targ. Cant. II, 2</cite>.—Y. Ter. VIII, 45ᵈ top; Y. Ab. Zar. II, 41ᵃ bot. (<cite ref=\"L00000\"><he>ל</he></cite>)<he>מִיצַּע סכינא וכ׳</he> (or <he>למֵיעץ</he>) to stick a knife into a radish."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַעַץ"],
+			"senses": [
+				{
+					"gloss": " (transp. <cite ref=\"N01136\"><he>נַצַּע</he></cite>) same, <i>to plant</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:16\">Cant. R. to I, 16</cite> <he>וכדון אפי׳ את מְנַעֲצָהּ וכ׳</he> (not <he>מצנעה</he>) and now, even if you tried to stick into it sixty myriads of reeds &c., v. <cite ref=\"N00927\"><he>נְסֵי</he></cite>; Y. Taan. IV, 69ᵇ; Y. Meg. I, 70ᵃ bot. <he>מבצע</he> (corr. acc.); <cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite> <he>כד את נַצְעֲתוֹן</he> (not <he>נצעהון</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

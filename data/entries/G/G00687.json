@@ -1,0 +1,38 @@
+{
+	"id": "G00687",
+	"slug": "זרז-3",
+	"headword": {
+		"text": "זֶרֶז"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָרִיז"
+		}
+	],
+	"page": {
+		"number": 412,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00686\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strength, valor</i>, v. <cite ref=\"G00669\"><he>זֶרֶד</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>belt, belt-saddle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 23:2\">Kel. XXIII, 2</cite> <he>זֶ׳ האשקלוני</he> Ar. a. ed. Dehr. (ed. <he>זריז</he>) the Ashkelonian saddle; Sifra M’tsora, Zabim, Par. 2, ch. III; <cite ref=\"Yalkut Shimoni on Torah 568:40\">Yalk. Lev. 568</cite> <he>זהו האשתונית</he> (corr. acc.).—Pl. <he>זְרָזִין</he>, constr. (<he>זְרִיזֵי</he>) <he>זַרְזֵי</he>. ",
+				"<cite ref=\"Eruvin 18b:11\">Erub. 18ᵇ</cite> <he>ז׳ תאנים</he> <i>garments</i> of fig-leaves (v. <cite ref=\"G00688\">next w.</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

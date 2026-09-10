@@ -1,0 +1,25 @@
+{
+	"id": "A02961",
+	"slug": "ארבל-1",
+	"headword": {
+		"text": "אַרְבֵּל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 114,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Arbel, Arbela</i>, in Galilee, near Zepphoris. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:21\">Y. Ber. I, 2ᶜ</cite> <he>בקעת א׳</he> the Valley of Ar.; <cite ref=\"Jerusalem Talmud Taanit 4:6:2\">Y. Taan. IV, 69ᵇ</cite> <cite ref=\"A03155\"><he>ארכל</he></cite> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 6:3:5\">Y. Shebi. VI, 36ᵈ</cite> bot. ",
+				"<cite ref=\"Kohelet Rabbah 1:18\">Koh. R. to I, 18</cite> coarse linen <he>הבאין מא׳</he> coming from A.; a. e."
+			]
+		}
+	]
+}

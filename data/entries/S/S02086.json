@@ -1,0 +1,23 @@
+{
+	"id": "S02086",
+	"slug": "קריתא-2",
+	"headword": {
+		"text": "קְרִיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1421,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S02017\"><he>קרי</he></cite>, v. <cite ref=\"S02022\"><he>קָרָה</he> II</cite>) <i>a covered arched vehicle</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 17b:2\">Keth. 17ᵇ</cite>, v., however, <cite ref=\"E00459\"><he>הֵינוּמָא</he></cite>."
+			]
+		}
+	]
+}

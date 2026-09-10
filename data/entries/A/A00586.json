@@ -1,0 +1,34 @@
+{
+	"id": "A00586",
+	"slug": "אוורא",
+	"headword": {
+		"text": "אַוְורָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 23,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.; pl. <he>אַוְורֵי</he> (<cite ref=\"A00841\"><he>אֲוַר</he></cite> dial. for <cite ref=\"P00061\"><he>עבר</he></cite>, v. Nœld. Mand. Gr. p. 48 sq.; v. Ar. s. v. where <he>אוברים</he> = <he>עוברים</he> [not <he>אובדים</he> as in ed. Koh.] is twice used to account for the etymol. of our w.) <i>crossers of rivers, travelers</i>. <cite ref=\"A00121\"><he>בֵּי א׳</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>crossing, ford</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 103b:10\">B. Mets. 103ᵇ</cite> <he>אריסא עביד בי א׳</he> Ar. (ed. <he>בי יאורי</he>; Ms. H. <he>בי אוריא</he>, marg. <he>יאורי</he>) the tenant must entertain the crossings (of the dykes, ed. <i>the channels</i>) in the farm. ",
+				"<cite ref=\"Moed Katan 28b\">M. Kat. 28ᵇ</cite> <he>רהיט ונפיל בי א׳ ואמברי יזיפתא יזיף</he> Ar. (ed. <he>ונפיל אמעברא ויזיפתא וכ׳ …</he>, Ms. M. <he>ונפיל בר זיירא אמברא …</he>, v. Rabb. D. S. a. l. note) one runs and rushes to the ford, and on the ferry he makes a loan (to pay the ferry-man; allegory of man’s carelessness in providing for the life to come)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>among the crossing passengers</i>. Ib. (according to a second interpretation, v. Ar. s. v.) one runs and rushes among those ready to cross (mortals) &c. Cmp. <cite ref=\"P00496\"><he>עִיבְּרָא</he></cite> <cite ref=\"Bava Batra 91a\">B. Bath. 91ᵃ</cite> bot.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

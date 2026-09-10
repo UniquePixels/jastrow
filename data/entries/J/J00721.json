@@ -1,0 +1,27 @@
+{
+	"id": "J00721",
+	"slug": "יתום-2",
+	"headword": {
+		"text": "יָתוֹם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "יְתוֹמָא"
+		}
+	],
+	"page": {
+		"number": 603,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00720\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 22:21\">Targ. Y. Ex. XXII, 21</cite> (O. <cite ref=\"J00744\"><he>יִתַּם</he></cite>).—Pl. <he>יְתוֹמֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 22:9\">Targ. Job XXII, 9</cite>.—<i>Fem.</i> <cite ref=\"J00733\"><he>יְתוֹמְתָּא</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 37\">Lev. R. s. 37</cite> (some ed. <cite ref=\"J00733\"><he>יְתִימְתָּא</he></cite>).—V. <cite ref=\"J00744\"><he>יִתַּם</he></cite>."
+			]
+		}
+	]
+}

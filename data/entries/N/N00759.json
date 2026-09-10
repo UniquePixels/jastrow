@@ -1,0 +1,27 @@
+{
+	"id": "N00759",
+	"slug": "ניצנא",
+	"headword": {
+		"text": "נִיצָּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִצָּ׳"
+		}
+	],
+	"page": {
+		"number": 908,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נצץ</he>) = b. h. <cite ref=\"R00635\"><he>נִצָּן</he></cite>, <i>blossom</i>.—Pl. <he>נִיצָּנַיָּא</he>, <cite ref=\"N00759\"><he>נִצָּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 6:1\">Targ. I Kings VI, 1</cite>; <cite ref=\"Targum Jonathan on I Kings 6:37\">37</cite>."
+			]
+		}
+	]
+}

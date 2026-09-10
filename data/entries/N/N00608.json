@@ -1,0 +1,29 @@
+{
+	"id": "N00608",
+	"slug": "ניבול",
+	"headword": {
+		"text": "נִיבּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִבּ׳"
+		}
+	],
+	"page": {
+		"number": 902,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00091\"><he>נָבַל</he></cite>) <i>disfigurement; disgrace, exposure</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:1:9\">Y. Ab. Zar. I, 39ᵇ</cite> bot., v. <cite ref=\"N00631\"><he>נִיוּוּל</he></cite>. Ib. III, end, 43ᶜ <he>נִיבּוּלָהּ רע</he> (an idol worshipped by an Israelite) is bad even when disfigured, i.e. its material can never be used even after its worshipper has abandoned and disfigured it. ",
+				"<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite>; Cant. R. beg., v. <cite ref=\"G00021\"><he>זְבוּל</he></cite>.—נ׳ פה <i>lascivious talk</i>, v. <cite ref=\"N00091\"><he>נָבַל</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 24\">Lev. R. s. 24</cite>."
+			]
+		}
+	]
+}

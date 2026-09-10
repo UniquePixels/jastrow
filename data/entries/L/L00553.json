@@ -1,0 +1,71 @@
+{
+	"id": "L00553",
+	"slug": "לכלך-1",
+	"headword": {
+		"text": "לִכְלֵךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיכְ׳"
+		}
+	],
+	"page": {
+		"number": 711,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"L00548\"><he>לְכַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (= <he>לחלח</he>) <i>to moisten; to season by dipping into vinegar</i> &c. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah 5:6\">Ruth R. to II, 14</cite> (v. <cite ref=\"L00551\"><he>לִכְלוּךְ</he></cite>) <he>של׳ מעשיו כחומץ ממעשים רעים</he> he (Manasseh) amended his conduct as if with vinegar (freeing it) from bad deeds.—Part. pass. <he>מְלוּכְלָךְ</he>, f. <he>מְלוּכְלֶכֶת</he>; pl. <he>מְלוּכְלָכִים</he>; <he>מְלוּכְלָכוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 3:1:4\">Y. Ḥag. III, 78ᵈ</cite> <he>מל׳ במשקה</he> dipped in liquid, contrad. to <he>מלוא משקה</he>, opp. to <he>נגיב</he>. Y. Sabb. XII, 16ᵇ top <he>אם מל׳ במשקה</he> if the cane is saturated with oil. ",
+				"<cite ref=\"Keritot 13a:45\">Ker. 13ᵃ</cite> <he>טיפה מל׳ על וכ׳</he> the drop with which the nipple is moistened; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to soil, stain; to defile</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Mishlei 11:3\">Midr. Prov. to XI, 22</cite>; <cite ref=\"Yalkut Shimoni on Nach 944\">Yalk. Prov. 944</cite> (ref. to Prov. l. c.) <he>אם … היא מְלַכְלְכוֹ בטיט</he> if thou puttest a golden ornament on the nose of a swine, it will soil it with mud &c.; <he>כך ת״ח … מְלַכְלֵךְ את תורתו</he> so does a scholar … soil his learning; (Midr. Prov. l. c. <he>מקלקל</he>).—Part. pass. as ab. ",
+				"<cite ref=\"Yoma 77b\">Yoma 77ᵇ</cite> <he>היו ידיו מלוכלכות וכ׳</he> Ms. M. 2 (v. Rabb. D. S. a. l. note 100) if his hands are soiled &c. ",
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite> <he>הייתי משמשו בבגדים מל׳</he> I used to attend him in soiled (working) garments. ",
+				"<cite ref=\"Shemot Rabbah 22\">Ex. R. s. 22</cite>, end (ref. to <cite ref=\"Job 16:17\">Job XVI, 17</cite>) <he>מי שידיו מל׳ בגזל וכ׳</he> he whose hands are soiled with robbery, will call … but not be answered. ",
+				"<cite ref=\"Shemot Rabbah 27\">Ex. R. s. 27</cite>, end <he>מל׳ בעבירות</he> soiled with sins. ",
+				"<cite ref=\"Vayikra Rabbah 1\">Lev. R. s. 1</cite>, v. <cite ref=\"A02514\"><he>אִסְפַּקְלַרְיָא</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְלַכְלֵךְ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְלַכְלֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be moistened, flavored</i>. Pesik. B’shall., p. 92ᵇ <he>מִתְלַכְלְכִין היו וכ׳</he> (not <he>מתלכלין</he>) they were perfumed with the moisture of the herbs &c.; v. <cite ref=\"C01182\"><he>גִּעְגֵּעַ</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 850\">Yalk. Deut. 850</cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be soiled</i>. Y. B. Kam. III, 3ᶜ <he>נִתְלַכְלְכוּ כליו</he> (not <he>נתכלכלו</he>; Bab. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 30a\">B. Kam. 30ᵃ</cite> <he>נטנפו</he>) if his garments were soiled. ",
+						"<cite ref=\"Bereishit Rabbah 65:15\">Gen. R. s. 65</cite> <he>מִתְלַכְלֵךְ בעוונות</he> defiles himself with sins. ",
+						"<cite ref=\"Shemot Rabbah 23\">Ex. R. s. 23</cite>; <cite ref=\"Shir HaShirim Rabbah 1:5:4\">Cant. R. to I, 5</cite> <he>מִתְלַכְלֶכֶת</he>, v. <cite ref=\"K00067\"><he>כָּבַס</he></cite>. ",
+						"<cite ref=\"Esther Rabbah 6:5\">Esth. R. to II, 7</cite> <he>נִתְלַכְלַכְתִּי בטומאה</he> I became soiled with impurity; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

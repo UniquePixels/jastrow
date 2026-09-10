@@ -1,0 +1,25 @@
+{
+	"id": "N00403",
+	"slug": "נוצרי",
+	"headword": {
+		"text": "נוֹצְרִי"
+	},
+	"page": {
+		"number": 889,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Nazarene, of Nazareth</i> (in southern Galilaea).—<he>ישו הנ׳</he> Jesus of N. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 43a\">Snh. 43ᵃ</cite> Ms. M.; a. fr., v. <cite ref=\"J00680\"><he>יֵשׁוּ</he></cite>.—",
+				"<cite ref=\"Avodah Zarah 7b:3\">Ab. Zar. 7ᵇ</cite> <he>יום נ׳</he> Ms. M. (v. Rabb. D. S. a. l. note; ed. <he>יום א׳</he>) the day of the Nazarene (Sunday).—Pl. <cite ref=\"N00403\"><he>נוֹצְרִים</he></cite> <i>Christians</i>. ",
+				"<cite ref=\"Taanit 27b:8\">Taan. 27ᵇ</cite> <he>מפני הנ׳</he> Ms. M. (ed. <he>העב״ום</he>; in some ed. the entire passage omitted) on account of (in order not to be identified with) the Christians (v. ",
+				"<cite ref=\"Tractate Soferim 17:5\">Treat. Sof’rim ch. XVII, 5</cite>)."
+			]
+		}
+	]
+}

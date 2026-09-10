@@ -1,0 +1,40 @@
+{
+	"id": "B01152",
+	"slug": "בר-1",
+	"headword": {
+		"text": "בַּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 188,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>ברר</he>) [<i>empty, open</i>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>uncultivated ground, forest, prairie;</i> opp. <he>יישוב</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 8:6\">Kil. VIII, 6</cite>. ",
+				"<cite ref=\"Chullin 80a:19\">Ḥull. 80ᵃ</cite> <he>שור הבר</he> the ox of the prairie, <i>buffalo</i>. ",
+				"<cite ref=\"Chullin 80a:18\">Ib.</cite> <he>איל הב׳</he> forest ram. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:1:2\">Y. Sabb. XIV, 14ᵇ</cite> bot. <he>חזיר של ב׳</he> wild swine."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>clear, visible</i>, whence <i>the outside, surface</i>, opp. <cite ref=\"V00195\"><he>תוך</he></cite>. ",
+			"units": [
+				"<cite ref=\"Yoma 72b:21\">Yoma 72ᵇ</cite> a scholar <he>שאין תוכו כבָרוֹ</he> whose inside is not as his outside (who is insincere); <cite ref=\"Berakhot 28a:19\">Ber. 28ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:1:7\">Y. Pes. VII, 34ᵃ</cite> bot. <he>תוך בר</he> the inner parts of the Passover lamb must hang outside (not be put inside, v. R. Akiba in Mish. ",
+				"<cite ref=\"Mishnah Pesachim 7:1\">ib. VII, 1</cite>); Mekh. Bo, 6 <he>תוך ובר</he> (read <he>תוכו בר</he>); <cite ref=\"Pesachim 74a:4\">Pes. 74ᵃ</cite> R. Ish. called it <he>תוך בר</he> Ar. s. v. <cite ref=\"V00520\"><he>תך</he></cite> 2 (ed. <he>תוך תוך</he>, Var. in Rashi a. Ar. <cite ref=\"V00199\"><he>תוכברא</he></cite> q. v.)."
+			],
+			"label": "2"
+		}
+	]
+}

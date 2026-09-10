@@ -1,0 +1,22 @@
+{
+	"id": "Q01866",
+	"slug": "פרכרגמא",
+	"headword": {
+		"text": "פָּרָכָרַגְמָא"
+	},
+	"page": {
+		"number": 1230,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (παραχάραγμα) <i>false coin, counterfeit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 1:3\">Par. I, 3</cite> Ar. (ed. <he>פרכדיג׳</he>, corr. acc.), v. <cite ref=\"N00409\"><he>נוּקָּד</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "Q00314",
+	"slug": "פוק-1",
+	"headword": {
+		"text": "פּוּק"
+	},
+	"page": {
+		"number": 1145,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נפק</he>)<i>to go forth</i>.—[<he>לפוק</he>, <cite ref=\"Mishnah Kelim 28:2\">Kel. XXVIII, 2</cite>; Y. Erub. III, end, 25ᵇ, v. <cite ref=\"Q01514\"><he>פָּקַק</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵפִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to give forth, utter</i>; ",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to let pass, forego</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 39b\">Kidd. 39ᵇ</cite>; <cite ref=\"Chullin 142a\">Ḥull. 142ᵃ</cite>, v. <cite ref=\"L00354\"><he>לָחַךְ</he></cite>.—",
+						"<cite ref=\"Eruvin 65a:5\">Erub. 65ᵃ</cite> (play on <cite ref=\"Job 41:7\">Job XLI, 7</cite>) <he>כל המֵפִיק מגן בשעת גאוה</he> he who foregoes the Prayer of Benedictions (v. <cite ref=\"M00189\"><he>מָגֵן</he></cite>) in the moment of haughtiness (who being in wine has enough reverence left to him to feel his unworthiness to stand up in prayer); <he>מאי משמע דהאי אפיק לישנא דעבורי הוא</he> (Ms. O. <he>מפיק</he>) what authority is there for using the root <cite ref=\"Q00314\"><he>פוק</he></cite> in the sense of passing? (Answ.: ref. to <cite ref=\"Job 6:15\">Job VI, 15</cite>). ",
+						"<cite ref=\"Job 6:15\">Ib.</cite> <he>ר״י אומר כל שאינו מפיק איתמר</he> R. J. says, the relation is ‘he who does not utter’ (prayer in a state of drunkenness); <he>מאי משמע דההוא פוק לישנא דגלויי הוא</he> where is the authority for using <cite ref=\"Q00314\"><he>פוק</he></cite> in the sense of revealing? (Answ.: ref. to <cite ref=\"Psalms 18:16\">Ps. XVIII, 16</cite>); <cite ref=\"Yalkut Shimoni on Nach 927\">Yalk. Job 927</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

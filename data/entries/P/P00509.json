@@ -1,0 +1,27 @@
+{
+	"id": "P00509",
+	"slug": "עידון-2",
+	"headword": {
+		"text": "עִידּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִדּ׳"
+		}
+	],
+	"page": {
+		"number": 1067,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P00514\"><he>עִידָּן</he></cite>) <i>period</i>; pl. <he>עִידּוֹנִים</he>, <he>עִידּוֹנִין</he>, <cite ref=\"P00506\"><he>עִדּ׳</he></cite> <i>menses</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 48:6\">Gen. R. s. 48</cite> (ed. Wil.) <he>האשה הזאת כל זמן שהיא ילדה יש לה ווסתות ואני … עדנה ע׳</he> as long as she is young, a woman has her periods, and I, ‘after I am grown old’ (<cite ref=\"Genesis 18:12\">Gen. XVIII, 12</cite>) should have <i>ʿednah</i>, that is menses?; [Yalk. ib. 82 <he>ד״א עדנה עִדָּנִין ווסתנית</he>, v. <cite ref=\"F00069\"><he>וֶוסְתָּנִית</he></cite>]."
+			]
+		}
+	]
+}

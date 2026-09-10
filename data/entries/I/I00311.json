@@ -1,0 +1,57 @@
+{
+	"id": "I00311",
+	"slug": "טיגן",
+	"headword": {
+		"text": "טִיגָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִיגְנוֹן"
+		},
+		{
+			"text": "טִגְנָן"
+		}
+	],
+	"page": {
+		"number": 530,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τήγανον, τάγηνον, also ἥγανον, v. Lydd.-Scott Gr. Dict. s. v.; prob. of Semitic origin = <he>תגן</he>, denom. of <he>אגן</he>; as for <cite ref=\"I00000\"><he>ט</he></cite> = <cite ref=\"V00000\"><he>ת</he></cite> cmp. Syr. <he>טגר</he> P. Sm. 1432 with Chald. <he>תגרא</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>frying pan;</i> also (interch. with <cite ref=\"I00310\"><he>טִיגּוּן</he></cite>) <i>a flour-dish prepared with oil</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 21a:21\">Snh. 21ᵃ</cite> (ref. to <he>ותצק</he>, <cite ref=\"II Samuel 13:9\">II Sam. XIII, 9</cite>) <he>עשתה לו מיני ט׳</he> she made for him oil-dishes. ",
+				"<cite ref=\"Menachot 104b:11\">Men. 104ᵇ</cite> <he>ה׳ מיני טיגון</he> (most eds.) five sorts of oil-dishes (ref. to <cite ref=\"Leviticus 2:1\">Lev. II, 1</cite>; <cite ref=\"Leviticus 2:4\">4</cite>; <cite ref=\"Leviticus 2:5\">5</cite>; <cite ref=\"Leviticus 2:7\">7</cite>; <cite ref=\"Leviticus 2:14-15\">14—15</cite>).—Pl. <he>טִיגָּנִין</he>. ",
+				"<cite ref=\"Tosefta Avodah Zarah 5:1\">Tosef. Ab. Zar. V</cite> (<cite ref=\"Tosefta Avodah Zarah 6:1\">VI</cite>), 1; <cite ref=\"Tosefta Avodah Zarah 8:2\">VIII</cite> (<cite ref=\"Tosefta Avodah Zarah 9:2\">IX</cite>), 2 <he>הט׳</he> the frying pans."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Syr. <he>טוגנא</he>, P. Sm. 1431) <i>an engine of torture and execution</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 43:1\">Pesik. R. s. 43</cite> <he>נתנוהו בתיך הטיגנו</he> (read: <he>הטיגנן</he> or <he>הטיגנון</he>) they put him into the <i>teganon</i>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "—Denom. <cite ref=\"I00097\"><he>טָגַן</he></cite>, <i>Pi.</i> <he>טִיגֵּן</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>to fry, roast</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 50b:16\">Men. 50ᵇ</cite> (expl. <cite ref=\"V00820\"><he>תפיני</he></cite>, <cite ref=\"Leviticus 6:14\">Lev. VI, 14</cite>; <cite ref=\"Leviticus 6:21\">21</cite>) <he>אופה ואח״כ מְטַגְּנָהּ</he> one baked it and then fried it with oil; a. fr.—Part. pass. <he>מְטוּגָּן</he>. Y. Ned. VI, beg. 39ᶜ. [Ib. VI, end, 40ᵃ, v. next w.]—2) <i>to torture, put to death</i>. Pesik. R. l. c. <he>וטיגס אותו</he> (Var. <he>וטגים</he>), read: <he>אותו וטִיגְּנוּ</he> or <he>וטִיגְּנוּהוּ</he>.—Trnsf. <i>to torture, agonize</i>. Tanḥ. Vayiggash 9 <he>אתה טִגַּנְתָּה וכ׳</he> thou causedst agony to thy father &c."
+					],
+					"label": "1"
+				}
+			]
+		}
+	]
+}

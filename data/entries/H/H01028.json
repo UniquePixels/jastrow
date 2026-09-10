@@ -1,0 +1,83 @@
+{
+	"id": "H01028",
+	"slug": "חלי-1",
+	"headword": {
+		"text": "חלי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָלָה"
+		}
+	],
+	"page": {
+		"number": 467,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01073\"><he>חלל</he></cite>)<i>to be lax, to be sick, faint away, grieve</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 43:3\">Ex. R. s. 43</cite> (expl. <he>ויחל</he>, <cite ref=\"Exodus 32:11\">Ex. XXXII, 11</cite> <he>ח׳ משה</he> Moses was sick (grieved). ",
+				"<cite ref=\"Kiddushin 71b\">Kidd. 71ᵇ</cite>, a. e. <he>מדי חוֹלָה</he> Media is sick, v. <cite ref=\"C00451\"><he>גּוֹסֵס</he></cite>.—",
+				"<cite ref=\"Berakhot 28b:6\">Ber. 28ᵇ</cite> <he>כשח׳ וכ׳</he> when R. … fell sick; a. fr.—V. <cite ref=\"H00333\"><he>חוֹלֶה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be smooth</i> (to the taste), <i>sweet</i>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִלָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to soften, sweeten; to soothe, assuage</i> (by prayer, gifts &c.). Ex. R. l. c. <he>מהו וַיְחַל שהכניס וכ׳</he> what does <i>vayḥal</i> (Ex. l. c.) mean? He offered &c. (ref. to <cite ref=\"Psalms 45:13\">Ps. XLV, 13</cite>). ",
+					"units": [
+						"<cite ref=\"Psalms 45:13\">Ib.</cite> <he>מהו ויחל עשה את המר וכ׳</he> he made sweet what was bitter. ",
+						"<cite ref=\"Psalms 45:13\">Ib.</cite> <he>חַלֵּי מרירתן וכ׳</he> sweeten thou the bitterness (sin) of Israel &c.—",
+						"<cite ref=\"Psalms 45:13\">Ib.</cite> <he>מי שיְחַלֶּה וכ׳</he> one to sweeten the bitterness &c. (by prayer). ",
+						"<cite ref=\"Yalkut Shimoni on Torah 392:2\">Yalk. Ex. 392</cite> <he>אביי אמר עד שחִילֵּהוּ להקב״ה בתפילתו</he> (v. infra) Ab. explained <i>vayḥal</i>, until he assuaged (the anger of) the Lord &c. ",
+						"<cite ref=\"Devarim Rabbah 3:15\">Deut. R. s. 3</cite> <he>הרי בניך מרים חַלֵּה אותן</he> thy children are bitter, sweeten them. ",
+						"<cite ref=\"Devarim Rabbah 3:15\">Ib.</cite> <he>היאך יהא א״ל הוי חל אתה רחמים</he>, read: <he>היאך אהא אומר א״ל הוי אומר חַלֵּה את המרים</he> what shall I say? Said He, Say, sweeten &c.; <cite ref=\"Yalkut Shimoni on Torah 392:2\">Yalk. Ex. 392</cite>. ",
+						"<cite ref=\"Eichah Rabbah 1:26\">Lam. R. to I, 2</cite> <he>לא חִלִּינוּ פניך</he> we did not assuage thee by repentance; <cite ref=\"Shemot Rabbah 45\">Ex. R. s. 45</cite> <he>חלִּינוּ מלפני הקב״ה</he> we prayed &c.; a. fr."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶחֱלָה"],
+			"senses": [
+				{
+					"gloss": "<i>to assuage, soften</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 32a\">Ber. 32ᵃ</cite> <he>אביי אמר עד שהֶחֱלֵהוּ להקב״ה בתפלה</he> Ms. M. (v. D. S. a. l.) until he assuaged &c., v. supra. [<cite ref=\"Berakhot 32a\">Ib.</cite> <he>שה׳ עליהם וכ׳</he>, read: <he>שהֵחֵל</he>, v. <cite ref=\"H01073\"><he>חָלַל</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make sick, wear out</i>. Ib. <he>עמד משה … עד שהחלהו</he> (Ms. M. <he>עד שחלה</he>) Moses stood in prayer … until He wore Him out (by his persistency, v. Rashi a. l. a. Rabb. D. S. a. l. note 3).—3) (v. <cite ref=\"H01073\"><he>חָלַל</he></cite> a. <cite ref=\"H01018\"><he>חִלְחֵל</he></cite>) <i>to permeate, affect</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 107b:2\">B. Mets. 107ᵇ</cite> bile is called <i>maḥlah</i> (v. <cite ref=\"M00889\"><he>מַחְלָה</he></cite>) <he>שהיא מַחְלָה וכ׳</he> (Ms. F. <he>שמְחַלֶּלֶת</he>) for it goes through the entire body [perh. <cite ref=\"M00888\"><he>מְחַלָּה</he></cite>, fr. <cite ref=\"H01073\"><he>חָלַל</he></cite>]."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּחֲלָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be made sick</i>. Ber. l. c. <he>עמד … עד שה׳</he> ed. Sonc. a. oth. (v. supra) until He was worn out.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

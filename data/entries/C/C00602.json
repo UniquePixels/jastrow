@@ -1,0 +1,24 @@
+{
+	"id": "C00602",
+	"slug": "גיא",
+	"headword": {
+		"text": "גַּיְא"
+	},
+	"page": {
+		"number": 233,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"C00015\"><he>גאי</he></cite>)<i>glen, wady</i>. Constr. <cite ref=\"C00602\"><he>גֵּיא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Eruvin 19a:18\">Erub. 19ᵃ</cite>; <cite ref=\"Sukkah 32b\">Succ. 32ᵇ</cite>, v. <cite ref=\"C00654\"><he>גֵּיהִינָּם</he></cite>.—Pl. <cite ref=\"C00017\"><he>גֵּאָיוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Sheviit 3:8\">Shebi. III, 8</cite> <he>מדרגות על פי הג׳</he> steps leading to the ravines (for carrying up the water for irrigation); <cite ref=\"Tosefta Shevi'it 3:4\">Tosef. ib. III, 4</cite>. ",
+				"<cite ref=\"Avodah Zarah 54b\">Ab. Zar. 54ᵇ</cite>"
+			]
+		}
+	]
+}

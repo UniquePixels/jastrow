@@ -1,0 +1,46 @@
+{
+	"id": "I00648",
+	"slug": "טפיח-1",
+	"headword": {
+		"text": "טְפִיחַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 546,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טָפַח</he> II, v. <cite ref=\"I00646\"><he>טָפִי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pitcher</i> for drawing water for drinking or hand-washing. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 17:6\">Sabb. XVII, 6</cite> (<cite ref=\"Shabbat 125b\">125ᵇ</cite>), v. <cite ref=\"G00511\"><he>זְמוֹרָה</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 24:5\">Sabb. XXIV, 5</cite>, v. <cite ref=\"Q01514\"><he>פָּקַק</he></cite>. ",
+				"<cite ref=\"Bava Batra 63a\">B. Bath. 63ᵃ</cite> ‘give him a share in my well <he>לט׳</he> Ms. M. a. Rashb. (ed. <he>לטפיחי</he>, corr. acc.; Ms. F. <he>לטַפְיָא</he>, cmp. <cite ref=\"I00646\"><he>טָפִי</he></cite>) for the pitcher’, i.e. for drinking purposes. ",
+				"<cite ref=\"Tosefta Berakhot 4:11\">Tosef. Ber. IV, 11</cite> [read as] <cite ref=\"Yoma 30a:4\">Yoma 30ᵃ</cite> <he>ומחזיר הט׳ על האורחים</he> (v. Rashi a. l.; Ms. M. <he>והט׳ חוזר וכ׳</he>) and passes the pitcher (which he had used for washing his hands) around the guests."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a pitcher-shaped vessel</i> put up in walls and cornices as bird’s nest.—Pl. <he>טְפִיחִים</he>, <he>טְפִיחִין</he>. ",
+			"units": [
+				"<cite ref=\"Beitzah 24a:15\">Bets. 24ᵃ</cite>; <cite ref=\"Beitzah 25a:6\">25ᵃ</cite>; <cite ref=\"Tosefta Shabbat 12:2\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:4\">XIII</cite>), 4; <cite ref=\"Tosefta Shabbat 18:4\">ib. XVIII, 4</cite> ed. Zuck. (Var. <he>טפחין</he>); <cite ref=\"Tosefta Shabbat 18:4\">ib.</cite> ",
+				"<cite ref=\"Mishnah Beitzah 1:10\">Bets. I, 10</cite>; <cite ref=\"Chullin 139b:6\">Ḥull. 139ᵇ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>muddy soil, ground on which water subsided</i>, opp. to <he>גריד</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 33:7\">Gen. R. s. 33</cite>, end (<cite ref=\"Yalkut Shimoni on Torah 56:7\">Yalk. ib. 56</cite> <cite ref=\"M02436\"><he>מקפה</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

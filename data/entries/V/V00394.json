@@ -1,0 +1,25 @@
+{
+	"id": "V00394",
+	"slug": "תחתוניות",
+	"headword": {
+		"text": "תַּחְתּוֹנִיּוֹת"
+	},
+	"page": {
+		"number": 1662,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"V00393\">preced.</cite>) <i>abdominal troubles, piles</i> &c. ",
+			"units": [
+				"<cite ref=\"Nedarim 22a:10\">Ned. 22ᵃ</cite>. ",
+				"<cite ref=\"Ketubot 10b:13\">Keth. 10ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 81a:8\">Sabb. 81ᵃ</cite>; <cite ref=\"Berakhot 55a:4\">Ber. 55ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "U01152",
+	"slug": "שכינא-2",
+	"headword": {
+		"text": "שְׁכִינָא"
+	},
+	"page": {
+		"number": 1573,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01174\"><he>שְׁכַן</he></cite>; cmp. <cite ref=\"U01119\"><he>שַׁכְבָּנָא</he></cite>) <i>eyelid</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:10\">Targ. Y. I Deut. XXXII, 10</cite>, <cite ref=\"Targum Jerusalem, Deuteronomy 32:10\">Targ. Y. II, Deut. XXXII, 10</cite> (some ed. <cite ref=\"U00929\"><he>שִׁיכְנָא</he></cite>)."
+			]
+		}
+	]
+}

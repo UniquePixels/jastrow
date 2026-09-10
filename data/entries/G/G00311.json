@@ -1,0 +1,34 @@
+{
+	"id": "G00311",
+	"slug": "זיון",
+	"headword": {
+		"text": "זִיּוּן"
+	},
+	"page": {
+		"number": 392,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00191\"><he>זוּן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>putting on armour, going to war</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 14:12\">Num. R. s. 14</cite> (p. 257ᵃ ed. Amst.) (ref. to <he>נשק</he>, <cite ref=\"Psalms 140:8\">Ps. CXL, 8</cite>) <he>כיום זִיּוּנָם של וכ׳</he> on the day when the thirty and one kings went to war against Joshua."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the decoration of letters with crownlets</i>.—Pl. <he>זִיּוּנִין</he>. ",
+			"units": [
+				"<cite ref=\"Menachot 29b:6\">Men. 29ᵇ</cite> seven letters (in the Torah-scrolls) require <he>שלשה ז׳</he> each three crownlets (flourishes)."
+			],
+			"label": "2"
+		}
+	]
+}

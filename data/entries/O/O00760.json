@@ -1,0 +1,35 @@
+{
+	"id": "O00760",
+	"slug": "סיסנא",
+	"headword": {
+		"text": "סִיסָנָא"
+	},
+	"page": {
+		"number": 984,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"O01249\"><he>סנסנא</he></cite>, v. <cite ref=\"O01247\"><he>סַנְסַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thorn, twig</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:18\">Gitt. 69ᵇ</cite> <he>אס׳ יבישתא</he> on a dry twig.—[<cite ref=\"Pesachim 4a\">Pes. 4ᵃ</cite>, v. <cite ref=\"A02441\"><he>אֲסִיסְנָא</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>basket made of twigs.—</i>Pl. <he>סִיסָנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 67b\">B. Mets. 67ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 110a:7\">Sabb. 110ᵃ</cite> <he>וסימניך ס̇יס̇ני</he> Ms. M. (ed. <he>סִיסָאנֵי</he>) and thy mnemonical catchword be <i>sisâné</i> (i.e. <he>יוס̇ף ס̇ערי</he> R. Joseph mentioned (<cite ref=\"U01692\"><he>שערי</he></cite>) barley)."
+			],
+			"label": "2"
+		}
+	]
+}

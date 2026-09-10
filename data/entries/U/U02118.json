@@ -1,0 +1,47 @@
+{
+	"id": "U02118",
+	"slug": "שתך-2",
+	"headword": {
+		"text": "שָׁתַךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְּׁתֵיךְ"
+		}
+	],
+	"page": {
+		"number": 1638,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U02117\">same</cite>, <i>to be rust-bitten</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 26a:1\">B. Mets. 26ᵃ</cite> top <he>דשְׁתִיךְ טפי</he> (Ar. <he>דאִשְׁתִּיךְ</he>, with prefixed <cite ref=\"A00000\"><he>א</he></cite>) when the coin found in the ground is very much attacked by rust (showing that it has been in the ground a very long time)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שׁתֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to make rusty, brittle</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 19a:13\">B. Bath. 19ᵃ</cite> <he>משום דמְשַׁתְּכֵי לה לקדרה</he> because they (the boulders, v. <cite ref=\"O01015\"><he>סֶלַע</he></cite>) would eat away the pot (placed between them)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to get rusty</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 102b:2\">Sabb. 102ᵇ</cite> <he>כיון דמְשַׁתְּכֵי וכ׳</he> they would not do that (keep their needles in a hole in the ground), because they would get rusty."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

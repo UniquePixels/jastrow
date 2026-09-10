@@ -1,0 +1,24 @@
+{
+	"id": "O00384",
+	"slug": "סוף-1",
+	"headword": {
+		"text": "סוּף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 967,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"O00386\"><he>סוּף</he> II</cite>) <i>reed, bulrush</i>.—ים ס׳ <i>the sea of Suf</i> (Red Sea). ",
+			"units": [
+				"<cite ref=\"Sotah 12a:23\">Sot. 12ᵃ</cite> sq. (ref. to <he>בסוף</he>, <cite ref=\"Exodus 2:3\">Ex. II, 3</cite>) <he>ר״א אומר ים ס׳ וכ׳</he> R. E. says, that means the sea; R. S. says, it means <i>ăgam</i> (v. <cite ref=\"A00308\"><he>אֲגַם</he> II</cite>, 2); <cite ref=\"Shemot Rabbah 1:36\">Ex. R. s. 1</cite>. ",
+				"<cite ref=\"Shemot Rabbah 22:3\">Ex. R. s. 22</cite> <he>קריעת ים ס׳</he> the splitting of the Red Sea (for the passage of the Israelites); <cite ref=\"Jerusalem Talmud Berakhot 1:6:6\">Y. Ber. I, 3ᵈ</cite> bot.; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "J00177",
+	"slug": "יוחנא-1",
+	"headword": {
+		"text": "יוֹחָנָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "יוֹחָנָה"
+		}
+	],
+	"page": {
+		"number": 568,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>Yoḥana</i>. ",
+			"units": []
+		},
+		{
+			"gloss": " pr. n. m. ",
+			"units": [
+				"<cite ref=\"Chullin 133a:10\">Ḥull. 133ᵃ</cite> <cite ref=\"J00432\"><he>מר י׳</he></cite>; <cite ref=\"Avodah Zarah 16b:8\">Ab. Zar. 16ᵇ</cite> <he>מר יוֹחָנִי</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 40:3\">Gen. R. s. 40</cite>, beg.; <cite ref=\"Bereishit Rabbah 40:3\">ib.</cite> s. 25, end; ib. s. 64, beg.; Midr. Sam. ch. XXVIII, a. e. (prov.) <he>שילה חטייא וי׳ משתלמא</he> (not <cite ref=\"H00582\"><he>חטא</he></cite>) Shilo sinned a. Y. is punished (i.e. the later generation pays for the sins of ancestors).—V. <cite ref=\"J00179\"><he>יוֹחָנִי</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

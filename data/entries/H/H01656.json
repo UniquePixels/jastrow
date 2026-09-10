@@ -1,0 +1,23 @@
+{
+	"id": "H01656",
+	"slug": "חרחלין",
+	"headword": {
+		"text": "חַרְחַלִּין"
+	},
+	"page": {
+		"number": 501,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (redupl. of <he>חרל</he>, v. <cite ref=\"H01626\"><he>חָרוּל</he></cite>) <i>a prickly plant, thistle</i>, (v. Sm. Ant. s. v. Carduus). ",
+			"units": [
+				"<cite ref=\"Pesachim 39a:4\">Pes. 39ᵃ</cite> <he>בח׳ ובחרחבינין וכ׳</he> (you may use for bitter herb) thistles, palm-ivy &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"id": "N01379",
+	"slug": "נתך-1",
+	"headword": {
+		"text": "נָתַךְ"
+	},
+	"page": {
+		"number": 944,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נתח</he>, <he>נתק</he>)<i>to cut, reduce, smelt</i>. [<cite ref=\"Tosefta Shevi'it 3:19\">Tosef. Shebi. III, 19</cite> <he>לתוך</he>, <he>יתוך</he> Var. ed. Zuck., v. <cite ref=\"N01387\"><he>נָתַק</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיתַּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be smelted, reduced to slags</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 12:6\">Zeb. XII, 6</cite> <he>נ׳ הבשר</he> if the flesh in the fire is burned to hard lumps; <cite ref=\"Zevachim 106a:6\">ib. 106ᵃ</cite>, contrad. to <he>נעשין אפר</he>; v. <cite ref=\"H01625\"><he>חֲרוֹכָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתִּיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to smelt, cast, pour</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 15:7\">Ex. R. s. 15</cite> <he>של כסף … הִתִּיכָן וכ׳</he> the idols of silver …, he caused to melt and be shapeless as before they were cast. Y. Sabb. X, 10ᵇ bot. <he>המַתִּיךְ אבר</he> he who casts lead (on the Sabbath). ",
+						"<cite ref=\"Nazir 50b:3\">Naz. 50ᵇ</cite> <he>והִתִּיכוֹ</he> and he melted it (the fat); <cite ref=\"Tosefta Ohalot 4:3\">Tosef. Ohol. IV, 3</cite> <he>וחיתכו</he>, <he>וחתכו</he> (corr. acc.); Y. Naz. VII, 56ᵇ bot. Y. Ab. Zar. III, 43ᵇ; ib. IV, 44ᵇ top <he>המתיך כוס לע״ז</he> he who casts a cup for an idol.—[<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>מנתכי׳ אחוריה</he>, read: <he>מכופתים לאחוריהם</he>; v. ed. Fr. note 49.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּתָּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be molten; to be reduced to slags</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Meilah 2:3\">Meïl. II, 3</cite> (<cite ref=\"Meilah 9a:20\">9ᵃ</cite>) <he>עד שיוּתַּךְ הבשר</he> (Talm. ed. <he>שיתיך</he>, corr. acc.) until the flesh is charred in small lumps; <cite ref=\"Zevachim 35b\">Zeb. 35ᵇ</cite>; <cite ref=\"Zevachim 104b:1\">104ᵇ</cite>.—Part. <he>מוּתָּךְ</he>. ",
+						"<cite ref=\"Shabbat 21a\">Sabb. 21ᵃ</cite>, a. fr. <he>חלב מ׳</he> Ar. (ed. <he>מְהוּתָּךְ</he>, v. <cite ref=\"E00949\"><he>התך</he></cite>) molten fat."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

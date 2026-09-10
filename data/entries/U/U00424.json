@@ -1,0 +1,50 @@
+{
+	"id": "U00424",
+	"slug": "שולטן-2",
+	"headword": {
+		"text": "שׁוּלְטַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּלְטָנָא"
+		}
+	],
+	"page": {
+		"number": 1534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00423\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>power, office, rulership</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:8\">Targ. O. Gen. XXXVII, 8</cite>. ",
+				"<cite ref=\"Onkelos Genesis 49:10\">Ib. XLIX, 10</cite> (ed. Vien. <cite ref=\"U01289\"><he>שֳׁלְטַן</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Micah 5:1\">Targ. Mic. V, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 25:2\">Targ. Job XXV, 2</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ruler’s staff, rod</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:20\">Targ. O. Ex. XXI, 20</cite> (ed. Vien. <cite ref=\"U00425\"><he>שֳׁלְ׳</he></cite>; h. text <cite ref=\"U00103\"><he>שבט</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:5\">Targ. Is. X, 5</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>ruler</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 69:16\">Targ. Ps. LXIX, 16</cite> Ms. (ed. <cite ref=\"M02291\"><he>מצולתא</he></cite>) [read:] <he>ולא יסלעם למחפי עלי מצולתא ש׳ חסין</he> and may no mighty ruler swallow me up by making the deep to cover me up; h. <he>ואל תבלעני מצולה</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

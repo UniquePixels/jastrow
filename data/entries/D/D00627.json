@@ -1,0 +1,28 @@
+{
+	"id": "D00627",
+	"slug": "דימוע",
+	"headword": {
+		"text": "דִּימּוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּמּוּעַ"
+		}
+	],
+	"page": {
+		"number": 300,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00906\"><he>דָּמַע</he></cite>) <i>mixture of T’rumah and Ḥullin</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 5:2\">Tosef. Dem. V, 2</cite>; Y. ib. IV, 24ᵃ <he>אימת הד׳</he> conscientiousness in observing &c. Ib. V, end, 25ᵃ; a. e.—",
+				"<cite ref=\"Niddah 47a:5\">Nidd. 47ᵃ</cite> <he>דמ׳ דרבנן</he> the law concerning mixture &c., which is merely of rabbinical origin."
+			]
+		}
+	]
+}

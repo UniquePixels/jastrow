@@ -1,0 +1,30 @@
+{
+	"id": "R00124",
+	"slug": "צדקו",
+	"headword": {
+		"text": "צִדְקוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִדְקוּתָא"
+		}
+	],
+	"page": {
+		"number": 1264,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00123\">preced.</cite>) <i>righteousness, justification, justice</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:21\">Targ. Koh. II, 21</cite> (h. text <he>כשרון</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 4:2\">Targ. Ps. IV, 2</cite> (ed. Wil. <he>צִדְקוֹ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 2:9\">Targ. Prov. II, 9</cite> Ms. (ed. <cite ref=\"R00128\"><he>צדקתא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:8\">Ib. VIII, 8</cite>; a. fr."
+			]
+		}
+	]
+}

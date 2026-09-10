@@ -1,0 +1,30 @@
+{
+	"id": "S00084",
+	"slug": "קבע-1",
+	"headword": {
+		"text": "קָבַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1311,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to cover, press</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to overpower, rob</i>. Tanḥ. T’rumah 9 (ref. to <cite ref=\"Malachi 3:8\">Mal. III, 8</cite>) <he>לשון ערבי … מה אתה קוֹבְעֵנִי</he> it is an Arabic expression; when an Arab argues with his neighbor and wants to say, why wilt thou rob me?, he says, why art thou <i>ḳob’ʿeni?</i>; <cite ref=\"Yalkut Shimoni on Nach 587\">Yalk. Mal. 587</cite> (read <he>גוזלני</he> for <he>גמלני</he>).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to prevent</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yadayim 4:3\">Yad. IV, 3</cite> <he>קוֹבֵעַ אתה … מלהוריד וכ׳</he> (by allowing the priests’ share to be given to the poor) thou preventest the heaven from sending down dew and rain."
+			],
+			"label": "2"
+		}
+	]
+}

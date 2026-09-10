@@ -1,0 +1,34 @@
+{
+	"id": "R00804",
+	"slug": "צרצור-1",
+	"headword": {
+		"text": "צִרְצוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִירְ׳"
+		}
+	],
+	"page": {
+		"number": 1305,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"R00751\"><he>צְרוֹר</he> II</cite>) <i>a stone vessel</i> containing a strainer and having an indented (comb-like) rim; a sort of <i>cooler</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:8\">Kel. II, 8</cite> <he>המסרק של צ׳</he> if an unclean object touches the ‘comb’ of a cooler; <cite ref=\"Tosefta Kelim Kamma 2:8\">Tosef. Kel. B. Kam. II, 8</cite>; <cite ref=\"Tosefta Eduyot 2:1\">Tosef. Eduy. II, 1</cite>. ",
+				"<cite ref=\"Mishnah Kelim 3:2\">Kel. III, 2</cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 3:3\">Mikv. III, 3</cite> <he>המערה מן הצ׳ ומטיל וכ׳</he> if one pouring water out of a cooler throws water out in several places. ",
+				"<cite ref=\"Avodah Zarah 73a:8\">Ab. Zar. 73ᵃ</cite> <he>המערה … מצי׳ קטן וכ׳</he> if one pours forbidden wine from a small cooler into the wine pit. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:15\">Y. Snh. X, 28ᵈ</cite> top <he>והיה שם צ׳ וכ׳</he> and there stood a pitcher full of Ammonite wine; Bab. ",
+				"<cite ref=\"Sanhedrin 106a:10\">Snh. 106ᵃ</cite> <he>צרצורי</he> (corr. acc.); <cite ref=\"Bamidbar Rabbah 20:1\">Num. R. s. 20</cite>; Tanḥ. Balaḳ 18; <cite ref=\"Yalkut Shimoni on Torah 771\">Yalk. Num. 771</cite> (ed. Salon. <cite ref=\"O01650\"><he>סרסור</he></cite>, v. Rabb. D. S. to Snh. l. c. note 1). ",
+				"<cite ref=\"Bereishit Rabbah 98:13\">Gen. R. s. 98</cite> [read:] <he>אפי׳ היה צ׳ של מים בצדו וכ׳</he> even if a pitcher of water had stood by his side, he would have been unable to put his hand forth &c.—Pl. <he>צִרְצוּרִין</he>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 2:9\">Tosef. Kel. B. Kam. II, 9</cite>."
+			]
+		}
+	]
+}

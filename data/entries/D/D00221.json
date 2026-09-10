@@ -1,0 +1,23 @@
+{
+	"id": "D00221",
+	"slug": "דוותא-1",
+	"headword": {
+		"text": "דָּווּתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 284,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00232\"><he>דוי</he></cite>) <i>the sick man’s draught, medicine for the appetite</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:7\">Targ. Job VI, 7</cite> (Ms. <cite ref=\"G00143\"><he>זוותא</he></cite>; h. text <he>כדוי</he>)."
+			]
+		}
+	]
+}

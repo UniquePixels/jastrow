@@ -1,0 +1,39 @@
+{
+	"id": "K00070",
+	"slug": "כבסא",
+	"headword": {
+		"text": "כְּבָסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּבְסָא"
+		}
+	],
+	"page": {
+		"number": 609,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כבס</he>) <i>something pressed, ball, lump,</i> esp. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cluster of dates</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 67a:16\">Sabb. 67ᵃ</cite> <he>כמאן תלינן כבסא בדיקלא</he> Ar. (ed. <he>כּוּבְסֵי</he>, Ms. O. <he>כְּבָסֵי</he> pl., v. Rabb. D. S. a. l. note 70) by what authority dare we suspend a cluster of dates on a sterile date-tree (and not consider it a forbidden superstitious practice)? <cite ref=\"Makkot 8a:3\">Macc. 8ᵃ</cite> <he>ומחייה לכ׳</he> (ed. <he>לכְּבָאסָא</he>, Ms. M. a. Rashi <he>לכובסא</he>) and it (the struck twig) struck the cluster."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (trnsf.) <i>testicles</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 41a:8\">Shebu. 41ᵃ</cite> <he>נקטיה בכוּבְסֵיה … לגלימיה הוא</he> that is “held him by his testicles that he may give up his cloak’; i.e. this is force worse than laying distress on his property; <cite ref=\"Bava Metzia 101b\">B. Mets. 101ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

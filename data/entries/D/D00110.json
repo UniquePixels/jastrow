@@ -1,0 +1,28 @@
+{
+	"id": "D00110",
+	"slug": "דגלא-1",
+	"headword": {
+		"text": "דִּגְלָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיגְלָא"
+		}
+	],
+	"page": {
+		"number": 280,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"D00109\">preced.</cite>) <i>a carrying pole in the shape of a standard</i>, Ar. (ed. a. Mss. mostly <cite ref=\"T00205\"><he>רִגְלָא</he></cite>, <he>רִיגְ׳</he> q. v.) <cite ref=\"Beitzah 30a\">Bets. 30ᵃ</cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 83a\">B. Mets. 83ᵃ</cite> (v. Rabb. D. S. a. l. note, a. to <cite ref=\"Shabbat 148a\">Sabb. 148ᵃ</cite>)."
+			]
+		}
+	]
+}

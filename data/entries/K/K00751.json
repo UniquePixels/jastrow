@@ -1,0 +1,43 @@
+{
+	"id": "K00751",
+	"slug": "כלכול",
+	"headword": {
+		"text": "כִּלְכּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּילְ׳"
+		},
+		{
+			"text": "כַּלְכָּל"
+		}
+	],
+	"page": {
+		"number": 643,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00755\"><he>כִּלְכֵּל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hair-crown</i> (cmp. <cite ref=\"K00734\"><he>כְּלִילָא</he></cite>), <i>front hair</i> from temple to temple. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:4\">Sabb. VIII, 4</cite> (<cite ref=\"Shabbat 78b:1\">78ᵇ</cite>) <he>כדי לעשות כ׳</he> (Bab. ed. <he>כלכל</he>; Ms. M. <he>כדי לסוד כי׳</he>, v. Rabb. D. S. a. l. note) enough to produce a crown by depilation of undergrowth. Ib. 80ᵇ, v. <cite ref=\"A02115\"><he>אַנְדִּיפֵי</he></cite>. ",
+				"<cite ref=\"Nazir 3a:5\">Naz. 3ᵃ</cite> (ref. to Mish. ",
+				"<cite ref=\"Mishnah Nazir 1:1\">ib. I, 1</cite> <he>הריני מכלכל</he>) how do we know <he>דהאי כ׳ שערו הוא</he> that this vow refers to letting the hair grow?—",
+				"<cite ref=\"Niddah 52b:38\">Nidd. 52ᵇ</cite>; <cite ref=\"Tosefta Niddah 6:6\">Tosef. ib. VI, 6</cite> (ref. to the hair around the pudenda as evidence of maturity) <he>כ׳ זה איני יודע</he> (<cite ref=\"M00347\"><he>מהו</he></cite>) about this <i>kilkul</i> I know nothing."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>support, sustenance</i>. Naz. l. c. <he>אימא מיזן עניי</he> I may say that the <i>kilkul</i> (of the Mishnah, v. supra) means supporting the poor.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

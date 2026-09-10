@@ -1,0 +1,31 @@
+{
+	"id": "O01681",
+	"slug": "סררותא",
+	"headword": {
+		"text": "סְרָרוּתָא"
+	},
+	"page": {
+		"number": 1030,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"O01680\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 76b:10\">Kidd. 76ᵇ</cite> <he>אנא עבידנא ס׳ דמתא</he> I want to be the officer of the town."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lordliness</i>, <i>presumption</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 104b:3\">Pes. 104ᵇ</cite> <he>רברבנותיה דמר וסְרָרוּתֵיה דמר</he> (Ms. O. <he>שְׂרָרוּתֵיה</he>; Ms. O. 2 <he>סַרְבָּנוּתֵיה</he>) your pride and your presumption."
+			],
+			"label": "2"
+		}
+	]
+}

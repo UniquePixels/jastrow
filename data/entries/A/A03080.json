@@ -1,0 +1,51 @@
+{
+	"id": "A03080",
+	"slug": "ארי-4",
+	"headword": {
+		"text": "אֲרִי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְיֵה"
+		}
+	],
+	"page": {
+		"number": 118,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A03079\"><he>ארי</he></cite> , v. <cite ref=\"A03079\">preced.</cite>) [<i>the light-colored</i>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lion</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 16b:5\">B. Kam. 16ᵇ</cite> <he>א׳ תרבות</he> a tamed lion; a. fr.—Transf. <i>brave man; distinguished scholar</i> (opp. <he>שועל</he>). ",
+				"<cite ref=\"Yevamot 122b:6\">Yeb. 122ᵇ</cite>. ",
+				"<cite ref=\"Kiddushin 48b\">Kidd. 48ᵇ</cite>; <cite ref=\"Sanhedrin 8b\">Snh. 8ᵇ</cite>. ",
+				"<cite ref=\"Gittin 83b\">Gitt. 83ᵇ</cite>; Y. ib. IX, 50ᵃ <he>אין משיבין את הא׳ וכ׳</he> you must not argue against a lion (scholar) after he is dead. ",
+				"<cite ref=\"Bava Kamma 117a:22\">B. Kam. 117ᵃ</cite>; a. fr.—Pl. <he>אֲרָיוֹת</he>.—<he>זנב לא׳</he> a tail to lions, i.e. the least among the great (opp. head to foxes). ",
+				"<cite ref=\"Pirkei Avot 4:15\">Ab. IV, 15</cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 4:3:2\">Y. Snh. IV, 22ᵇ</cite> bot.—",
+				"<cite ref=\"Chullin 3b:17\">Ḥull. 3ᵇ</cite>, a. fr. <he>גירי א׳</he>, v. <cite ref=\"C01225\"><he>גֵּר</he></cite>.—[<cite ref=\"Bereishit Rabbah 28:2\">Gen. R. s. 28</cite> <he>א׳ גסטריות</he>, v. <cite ref=\"C01169\"><he>גַּסְטְרָא</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Leo, Lion</i> the fifth sign of the Zodiac (corresp. to the month of Ab). ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 418:1\">Yalk. Ex. 418</cite>. Pesik. Dibré p. 116ᵃ; <cite ref=\"Pesikta Rabbati 27:1\">Pesik. R. s. 27</cite> (<cite ref=\"Pesikta Rabbati 28:1\">28</cite>, p. 133ᵇ, ed. Fr.); v. <cite ref=\"A03083\"><he>אֲרִיאֵל</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " homiletic surname of <i>the Lord, Israel</i> &c. Pesik. l. c.; Pesik. R. l. c.; <cite ref=\"Yalkut Shimoni on Nach 259:1\">Yalk. Jer. 259</cite>, v. <cite ref=\"A03083\"><he>אֲרִיאֵל</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

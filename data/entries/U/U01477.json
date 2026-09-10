@@ -1,0 +1,26 @@
+{
+	"id": "U01477",
+	"slug": "שמיעה",
+	"headword": {
+		"text": "שְׁמִיעָה"
+	},
+	"page": {
+		"number": 1596,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01511\"><he>שָׁמַע</he></cite>) <i>hearing, listening</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 25b:16\">R. Hash. 25ᵇ</cite> <he>לא תהא ש׳ גדולה מראייה</he> hearing (the statement of witnesses) ought not to be of greater legal value than seeing (if the judges themselves have seen the new phase of the moon). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:6\">Y. Sabb. VI, 8ᶜ</cite> bot. <he>הולכין אחר שְׁמִיעַת בת קול</he> you may be guided by what you hear, considering it as a divine voice (it is not a divination practice to be forbidden). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:6\">Ib.</cite> <he>נלך בתר שמיעת בת קול</he> let us be guided by what we shall hear. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:3\">Cant. R. to II, 3</cite> <he>ישראל … הקדימו אמנה לש׳</he> the Israelites in Egypt advanced belief to hearing (<cite ref=\"Exodus 4:31\">Ex. IV, 31</cite>); <he>בסיני … עשייה לש׳</he> at Sinai they advanced doing to hearing (ib. XXIV, 7; <cite ref=\"Shabbat 88a\">Sabb. 88ᵃ</cite>, <cite ref=\"Gittin 7a:18\">Gitt. 7ᵃ</cite> <he>נעשה לנשמע</he>). ",
+				"<cite ref=\"Niddah 31a:29\">Nidd. 31ᵃ</cite> <he>שמיעת האוזן</he> the faculty of hearing; a. fr."
+			]
+		}
+	]
+}

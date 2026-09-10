@@ -1,0 +1,24 @@
+{
+	"id": "M00467",
+	"slug": "מוטרדי",
+	"headword": {
+		"text": "מוּטַרְדֵּי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 741,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"I00713\"><he>טְרַד</he></cite>) <i>business</i> (?), an adaptation of the name of <i>a Persian festive season and fair</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 11b:7\">Ab. Zar. 11ᵇ</cite> (Ms. M. <he>מוטיררי</he>; Y. ib. I, 39ᶜ, a Median festival, <cite ref=\"N00715\"><he>ניסרדי</he></cite>; Ar. <cite ref=\"M02014\"><he>מסרדי</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"id": "J00689",
+	"slug": "ישיבה",
+	"headword": {
+		"text": "יְשִׁיבָה"
+	},
+	"page": {
+		"number": 600,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00675\"><he>יָשַׁב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sitting, rest</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 15a:5\">Ḥag. 15ᵃ</cite> … <he>למעלה לא עמידה ולא י׳ וכ׳</he> Ms. M. (v. Rabb. D. S. a. l.) on high there is no standing up and no sitting down (effort and rest), no emulation &c. ",
+				"<cite ref=\"Yoma 69b:1\">Yoma 69ᵇ</cite>, a. fr. <he>אין י׳ בעזרה</he> none were allowed to sit down in the Temple court. ",
+				"<cite ref=\"Bereishit Rabbah 38:7\">Gen. R. s. 38</cite>, a. fr. <he>כל מקום שאתח מוצא י׳ וכ׳</he> wherever you find sitting (retirement, use of the word <he>ישב</he>) recorded in the Bible, there Satan leaps forth (trouble arises). ",
+				"<cite ref=\"Yevamot 106a:5\">Yeb. 106ᵃ</cite> <he>יְשִׁיבָתָהּ זו היא עמידתה</he> this her sitting is to her a getting up (sitting up is to her a great effort; oth. expl.: her being left seated, is her erection, i.e. her failure to be married to the <i>yabam</i> is a benefit to her); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>settlement, dwelling</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 37a\">Kidd. 37ᵃ</cite>, a. e., v. <cite ref=\"J00616\"><he>יְרוּשָּׁה</he></cite>. ",
+				"<cite ref=\"Ketubot 110b:4\">Keth. 110ᵇ</cite> <he>יְשִׁיבַת כרכים קשה</he> living in large cities is a hardship. ",
+				"<cite ref=\"Shabbat 10b:8\">Sabb. 10ᵇ</cite> <he>עיר שיְשִׁיבָתָהּ קרובה</he> a town of recent settlement; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>scholars’ session, council, academy; court</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 28b:8\">Yoma 28ᵇ</cite> <he>זקן ויושב בי׳</he> an elder and member of council. ",
+				"<cite ref=\"Yoma 28b:7\">Ib.</cite> <he>לא פרשה י׳ מהם</he> they (our early ancestors) were never without council (a representative body). ",
+				"<cite ref=\"Pesachim 119a:1\">Pes. 119ᵃ</cite> top <he>המכיר … בי׳</he> who knows his colleague’s place in meetings; … <he>המקבל בי׳</he> who greets his colleague in meetings with kindness. ",
+				"<cite ref=\"Berakhot 57a:10\">Ber. 57ᵃ</cite> <he>ראש י׳</he> presiding officer. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:33\">Y. Ber. IV, 7ᵈ</cite> top <he>ומינו את ר״א … בי׳</he> they elected R. El. … (president) in regular session. ",
+				"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>הושיבו … בי׳</he> they installed him as president. ",
+				"<cite ref=\"Bava Batra 120a:4\">B. Bath. 120ᵃ</cite> <he>בי׳ הלך וכ׳</he> in court or college give the preference to learning, in social entertainment to age; a. fr.—<he>י׳ של מעלה</he> divine court. ",
+				"<cite ref=\"Bava Metzia 86a:9\">B. Mets. 86ᵃ</cite> <he>נתבקש בי׳ של מ׳</he> has been summoned before divine justice (is dead); a. fr.—Pl. <he>יְשִׁיבוֹת</he>. ",
+				"<cite ref=\"Kohelet Rabbah 1:8\">Koh. R. to I, 8</cite> <he>אפשר שהי׳ הללו טועות וכ׳</he> is it possible that those colleges be lost in such futile errors; <cite ref=\"Tosefta Chullin 2:24\">Tosef. Ḥull. II, 24</cite> <he>שהסיבו הללו טועים</he> (corr. acc.; v., however, <cite ref=\"O00530\"><he>סֵיבוּ</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 10:5:2\">Y. Sabb. X, 12ᶜ</cite> bot. <he>שימשתי את אבא עומדות מה שלא שמשת י׳</he> I have served my father at more ‘standing meetings’ (standing up as an Amora) than you have served at college sessions; <cite ref=\"Jerusalem Talmud Chagigah 3:1:2\">Y. Ḥag. III, beg. 78ᵈ</cite>; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

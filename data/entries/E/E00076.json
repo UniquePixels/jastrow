@@ -1,0 +1,48 @@
+{
+	"id": "E00076",
+	"slug": "הגן-1",
+	"headword": {
+		"text": "הָגַן"
+	},
+	"page": {
+		"number": 331,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. ",
+			"units": [
+				"<cite ref=\"Ezekiel 42:12\">Ez. XLII, 12</cite>) <i>to balance, make corresponding.—Part. pass</i>. <he>הָגוּן</he> (cmp. <he>רָאוּי</he>, <he>חָזֵי</he>) <i>fit, worthy</i>. ",
+				"<cite ref=\"Chullin 133a:14\">Ḥull. 133ᵃ</cite> <he>תלמיד שאינו ה׳</he> an unworthy student. ",
+				"<cite ref=\"Esther Rabbah 5:4\">Esth. R. to II, 4</cite> <he>מי ה׳ לדבר זה</he> who was well-fitted for this mission?; Midr. Sam. ch. XIII.—",
+				"<cite ref=\"Bava Kamma 80a:10\">B. Kam. 80ᵃ</cite> <he>לא נתכוונה אלא לה׳ לה</he> she had in her mind only such a one as would be worthy of her; a. fr.—Pl. <he>הֲגוּנִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 48:1\">Gen. R. s. 48</cite> Ar."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגֵּן"],
+			"senses": [
+				{
+					"gloss": ", part. pass. <he>מְהוּגָּן</he> = <he>הָגוּן</he>; pl. <he>מְהוּגָּנִים</he>, <he>מְהוּגָּנִין</he>. B. Kam. l. c. <he>ב״א שאינן מ׳</he> unworthy people (not her equals). Ib. 16ᵇ <he>ב״א שאינן מ׳</he> unworthy recipients of charity. ",
+					"units": [
+						"<cite ref=\"Ketubot 22a:10\">Keth. 22ᵃ</cite> <he>אנשים מ׳</he> worthy men (proposing to me). ",
+						"<cite ref=\"Kiddushin 70a:8\">Kidd. 70ᵃ</cite> <he>בנים שאינן מ׳</he> degenerate children; a. fr.—V. <cite ref=\"E00195\"><he>הוּגָּן</he></cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶהֱגִין"],
+			"senses": [
+				{
+					"gloss": "<i>to be of the <cite ref=\"E00075\">same</cite> weight</i>. Y. Keth. I, 25ᵇ top <he>טביריניות מַהֲגִינוֹת וכ׳</he> (not <cite ref=\"O00536\"><he>סב׳</he></cite>) the Tiberian Selaim are of the same weight as &c.",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

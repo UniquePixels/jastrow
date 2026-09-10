@@ -1,0 +1,108 @@
+{
+	"id": "M01571",
+	"slug": "מלך-3",
+	"headword": {
+		"text": "מְלַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְלֵיךְ"
+		}
+	],
+	"page": {
+		"number": 791,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01570\">same</cite><i>to rule</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:8\">Targ. Gen. XXXVII, 8</cite>; a. fr.—Part. <cite ref=\"M01556\"><he>מָלִיךְ</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 33:21\">Targ. Jer. XXXIII, 21</cite> (ed. Wil. <cite ref=\"M01556\"><he>מְלִיךְ</he></cite>, corr. acc.); a. fr.—",
+				"<cite ref=\"Avodah Zarah 10a:14\">Ab. Zar. 10ᵃ</cite> <he>בעינא דיִמְלַךְ וכ׳</he> I desire that my son Severus be king after me; <cite ref=\"Avodah Zarah 10a:10\">ib.</cite> <he>דיִמְלוֹךְ</he>.—",
+				"<cite ref=\"Berakhot 64a:4\">Ber. 64ᵃ</cite> <he>מ׳ רבה</he> Rabbah officiated (as teacher and judge); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (mostly <he>מליך</he>) <i>to decide</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 14:27\">Targ. Is. XIV, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 23:8\">Ib. XXIII, 8</cite> (ed. Ven. <cite ref=\"M01571\"><he>מַלִּיךְ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 23:9\">Ib. 9</cite> <he>מִילְכָהּ</he> ed. Lag. (some ed. <he>מלכא</he>, read: <cite ref=\"M01576\"><he>מִלְכָהּ</he></cite>); a. fr.—Part. pass. <cite ref=\"M01556\"><he>מְלִיךְ</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:26\">Ib. XIV, 26</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to advise</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 17:7\">Targ. II Sam. XVII, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 1:12\">Targ. I Kings I, 12</cite>; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַלֵּיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to advise</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 26:3\">Targ. Job XXVI, 3</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to decide</i>, v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַמְלִיךְ"],
+			"senses": [
+				{
+					"gloss": " = <cite ref=\"M01570\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 3:7\">Targ. I Kings III, 7</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to counsel, persuade</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 15:18\">Targ. Josh. XV, 18</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 30:6\">Targ. Y. Deut. XXX, 6</cite>; a. e.—[<cite ref=\"Aramaic Targum to Proverbs 8:15\">Targ. Prov. VIII, 15</cite> <he>מַמְלְכִין</he> ed. Lag. <i>rule</i> (oth. ed. <he>מלכין</he>).]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְמַלֵּךְ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְמְלִיךְ", "אִימְּלִיךְ"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"M02307\"><he>אִמְּ׳</he></cite> = <cite ref=\"M01570\">preced.</cite> <i>Nif.</i>—",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 32:7\">Targ. Is. XXXII, 7</cite>; a. fr.—",
+						"<cite ref=\"Bava Batra 4a:5\">B. Bath. 4ᵃ</cite> <he>בתר דעבדין מִתְמַלְּכִין</he> do people ask for advice (or permission) after they have acted? <cite ref=\"Berakhot 27b:22\">Ber. 27ᵇ</cite> <he>אִימְּלִיךְ וכ׳</he> consult my family. ",
+						"<cite ref=\"Berakhot 27b\">Ib.</cite> <he>אזיל ואִמְּ׳ וכ׳</he> he went and consulted his wife. ",
+						"<cite ref=\"Nedarim 54a:4\">Ned. 54ᵃ</cite> <he>כל מילתא דצריך שליחא לאִמְּלוּכֵי וכ׳</he> any change of order for which the messenger has to ask special authorization, is heterogeneous (to the object of the original commission); <he>כל מילתא דמִימְּלִיךְ שליח עלה וכ׳</he> a change for which the messenger asks for instructions is homogeneous. ",
+						"<cite ref=\"Sotah 43b:9\">Sot. 43ᵇ</cite> <he>אי אימ׳ עלה</he> if he reconsiders his original disposal; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

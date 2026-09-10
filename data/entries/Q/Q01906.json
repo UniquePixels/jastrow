@@ -1,0 +1,32 @@
+{
+	"id": "Q01906",
+	"slug": "פרנק-2",
+	"headword": {
+		"text": "פַּרְנֵק"
+	},
+	"page": {
+		"number": 1232,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q01905\">same</cite> <cite ref=\"Aramaic Targum to Psalms 94:19\">Targ. Ps. XCIV, 19</cite> <he>יְפַרְנְקוּן</he> ed. Lag. (ed. <he>יפרקנ׳</he>, <he>יפריקנ׳</he>, corr. acc.).—Part. pass. <cite ref=\"M02248\"><he>מְפַרְנַק</he></cite>; f. <he>מְפַרְנְקָא</he>, q. v.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפַּרְנֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to be delighted, enjoy</i>. Ib. CXIX, 16. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 22:26\">Targ. Job XXII, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 33:19\">Targ. Y. I Deut. XXXIII, 19</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

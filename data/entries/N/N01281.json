@@ -1,0 +1,44 @@
+{
+	"id": "N01281",
+	"slug": "נשא-1",
+	"headword": {
+		"text": "נְשָׁא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 937,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01280\">preced.</cite>) <i>woman</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 22:5\">Targ. Y. Deut. XXII, 5</cite>.—Pl. <he>נְשִׁין</he>, <cite ref=\"N01310\"><he>נְשַׁיָּא</he></cite>, <cite ref=\"N01301\"><he>נְשֵׁי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 1:4\">Targ. Ruth I, 4</cite>. ",
+				"<cite ref=\"Onkelos Genesis 6:2\">Targ. Gen. VI, 2</cite>; a. fr.—",
+				"<cite ref=\"Tamid 32a:78\">Tam. 32ᵃ</cite> <he>מחוזא דכוליה נ׳</he> a place inhabited by women only. ",
+				"<cite ref=\"Berakhot 17a:14\">Ber. 17ᵃ</cite> <he>הני נשי מאי זכיין</he> Ms. M. (ed. <he>נשים</he>) whereby can women acquire merits? <cite ref=\"Moed Katan 28b:8\">M. Kat. 28ᵇ</cite> <he>נ׳ דשכנציב</he> the lamenting women of &c.; a. v. fr.—<cite ref=\"N00892\"><he>בֵּי נ׳</he></cite> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>the wife’s family, father-in-law</i> &c.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>the paternal house after the father’s death</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 12b:11\">B. Bath. 12ᵇ</cite> <he>אמצרא דבי נְשֵׁיה</he> contiguous to the estate of his father-in-law (Rashi: of his deceased father). ",
+						"<cite ref=\"Shabbat 23b:4\">Sabb. 23ᵇ</cite>. ",
+						"<cite ref=\"Shabbat 156a:3\">Ib. 156ᵃ</cite> <he>בי נשיה</he> in the house of his deceased father (Ms. M. <cite ref=\"N01305\"><he>נשיאה</he></cite>, v. <cite ref=\"C00107\"><he>גַּבָּלָא</he></cite>). ",
+						"<cite ref=\"Yevamot 35a:8\">Yeb. 35ᵃ</cite> <he>בי נְשַׁיְהוּ</he> their (the women’s) paternal home; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

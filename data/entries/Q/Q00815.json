@@ -1,0 +1,41 @@
+{
+	"id": "Q00815",
+	"slug": "פיקס",
+	"headword": {
+		"text": "פִּיקָס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֶּיקָס"
+		}
+	],
+	"page": {
+		"number": 1169,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q00796\"><he>פִּיקָה</he> I</cite>; φῦκος, fucus, of Semitic origin) [<i>coil</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sea-weed</i> or <i>rock-lichen</i> used as a dye; <i>red color, rouge</i>. Sifra M’tsorʿa, Neg., Par. 1 (ref. to <cite ref=\"U01585\"><he>שני</he></cite>, <cite ref=\"Leviticus 14:4\">Lev. XIV, 4</cite>) <he>יכול פ׳ ת״ל תולעת</he> from <cite ref=\"U01585\"><he>שני</he></cite> you might infer that you may use the dye from <i>fucus</i>, therefore <i>tolaʿath</i> is added (to indicate that it must be won from a worm, the snail); <cite ref=\"Yalkut Shimoni on Torah 559\">Yalk. Lev. 559</cite> <cite ref=\"Q00812\"><he>פִּיקִים</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the dried up blossoms of gourds</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 88b:3\">B. Mets. 88ᵇ</cite> (expl. <he>משיפקסו</he>, <cite ref=\"Mishnah Maasrot 1:5\">Maasr. I, 5</cite>) <he>משינטל פ׳ שלהן</he> (Rashi to <cite ref=\"Beitzah 13b\">Bets. 13ᵇ</cite> <cite ref=\"Q01496\"><he>פֶּקֶס</he></cite>) as soon as their blossoms are removed."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>lump</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45a\">Bekh. 45ᵃ</cite> Var. Ar., v. <cite ref=\"Q00796\"><he>פִּיקָה</he> I</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

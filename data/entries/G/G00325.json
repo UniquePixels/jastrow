@@ -1,0 +1,28 @@
+{
+	"id": "G00325",
+	"slug": "זיזא-3",
+	"headword": {
+		"text": "זִיזָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר זִיזָא"
+		}
+	],
+	"page": {
+		"number": 393,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar-Ziza</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 6:7:3\">Y. B. Kam. VI, 5ᶜ</cite> bot.; Y. Shebu. VI, 37ᵈ"
+			]
+		}
+	]
+}

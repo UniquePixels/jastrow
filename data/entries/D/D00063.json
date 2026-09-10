@@ -1,0 +1,34 @@
+{
+	"id": "D00063",
+	"slug": "דביקה",
+	"headword": {
+		"text": "דְּבִיקָה"
+	},
+	"page": {
+		"number": 277,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דבק</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>embrace</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 33:5\">Ex. R. s. 33</cite> <he>דרך דְּבִיקָתָן</he> in the position of their embrace."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>attachment</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite>; <cite ref=\"Midrash Tehillim 22:7\">Midr. Till. to Ps. XXII</cite> <he>בד׳</he> with the expression <he>דבק</he> (ref. to <cite ref=\"Deuteronomy 4:4\">Deut. IV, 4</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

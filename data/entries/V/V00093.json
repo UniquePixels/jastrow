@@ -1,0 +1,27 @@
+{
+	"id": "V00093",
+	"slug": "תגרא-2",
+	"headword": {
+		"text": "תִּגְרָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1647,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>crutch, staff</i>, v. <cite ref=\"V00083\"><he>תִּגְדָּא</he></cite>.",
+			"units": []
+		}
+	]
+}

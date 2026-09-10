@@ -1,0 +1,33 @@
+{
+	"id": "C01183",
+	"slug": "געגע-2",
+	"headword": {
+		"text": "גַּעְגַּע"
+	},
+	"page": {
+		"number": 261,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְגַּעְגַּע</he>, <he>אִיגַּעְגַּע</he> ch. same, <i>to roll one’s self, wallow</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite> as long as that hen <he>מִתְגַּעְגְּעָא בקיטמא</he> wallows in the ashes (as Israel lives in its religious element). ",
+						"<cite ref=\"Kohelet Rabbah 11:1:1\">Koh. R. to XI, 1</cite> <he>מנין מְגַעְגְּעִין בדמא</he> clothes rolled in blood (suspicious of murder).—Tanḥ. Aḥaré 3 (ref. to <cite ref=\"Job 39:30\">Job XXXIX, 30</cite>) <he>חמי אפרוחיו מגעגעין בדם וכ׳</he> he sees his brood wallowing in blood (Aaron sees his sons dead), and is silent; <cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite> <he>ראה</he> … <he>באַדְמָא</he> Ar. (ed. <he>באדמה</he>); Pesik. Aḥaré p. 171ᵇ <he>מְעַגְעֲגִין באדמה</he> (Ms. Carmoli <he>מגעגעין באדמא</he>). [Targ. I, II <cite ref=\"Genesis 49:11\">Gen. XLIX, 11</cite> <he>מעגעגין באדמא</he>.]—Trnsf. <i>to enjoy one’s self, play</i>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 119:117\">Targ. Ps. CXIX, 117</cite> <he>ואִיגַּעְגַּע</he> Ms. (ed. <he>וַאֲגַעְגַּע</he>, h. text <he>שעשע</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

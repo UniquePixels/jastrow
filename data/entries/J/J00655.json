@@ -1,0 +1,48 @@
+{
+	"id": "J00655",
+	"slug": "ירק-3",
+	"headword": {
+		"text": "יָרַק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 597,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be light-colored, pale, green, yellow</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹרִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to become green, pallid, pale</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 3:4\">Sot. III, 4</cite> <he>פניה מוֹרִיקוֹת</he> her face grew pale (sickly); <cite ref=\"Sifrei Bamidbar 8\">Sifré Num. 8</cite>; <cite ref=\"Tosefta Sotah 3:3\">Tosef. Sot. III, 3</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make pale, cause to fade</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 44b:10\">Ber. 44ᵇ</cite> <he>כל ירק חי מוֹרִיק</he> vegetable eaten raw makes pale. ",
+						"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> (ref. to <cite ref=\"A03233\"><he>ארקא</he></cite>, <cite ref=\"Jeremiah 10:11\">Jer. X, 11</cite>) <he>כנגד … שהיא מוֹרֶקֶת וכ׳</he> the earth is called <i>arka</i>, corresponding to the season of Tebeth which causes her fruits to fade."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to make shine</i> (like gold, bronze &c.; cmp. <cite ref=\"J00667\"><he>ירקרק</he></cite> <cite ref=\"Psalms 68:14\">Ps. LXVIII, 14</cite>). ",
+					"units": [
+						"<cite ref=\"Psalms 68:14\">Ib.</cite> s. 43; <cite ref=\"Yalkut Shimoni on Torah 73:2\">Yalk. Gen. 73</cite> (ref. to <he>וירק</he>, <cite ref=\"Genesis 14:14\">Gen. XIV, 14</cite>) <he>בכלי זיין הוֹרִיקָן</he> he made them glisten with armor; <he>באבנים … ה׳</he> with jewels; <he>בפרשת שוטרים הוריקן</he> he made them bright (courageous) by reading the section (<cite ref=\"Deuteronomy 20:1-9\">Deut. XX, 1—9</cite>); <cite ref=\"Nedarim 32a\">Ned. 32ᵃ</cite> <he>הוריקן בזהב</he>; <he>הוריקן בתורה</he> (Var. <he>הֵרִיקָן מן התורה</he>, v. <cite ref=\"T00691\"><he>רִיק</he></cite>).—<he>ה׳ פנים כנגד</he> (cmp. <cite ref=\"K01208\"><he>כִּרְכֵּם</he></cite>) <i>to turn a brazen face against, to defy, oppose</i>. Gen. R. l. c.; Yalk. l. c. <he>הן הוֹרִיקוּ פ׳ וכ׳</he> they opposed Abraham. Ib. <he>אברהם ה׳ פ׳ וכ׳</he> Abraham defied them."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

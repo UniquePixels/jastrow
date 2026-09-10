@@ -1,0 +1,23 @@
+{
+	"id": "A02151",
+	"slug": "אנזיקא",
+	"headword": {
+		"text": "אַנְזִיקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 82,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נזק</he>) <i>injury, loss</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 7:4\">Targ. Esth. VII, 4</cite> the adversary is (of) no value or gain <he>בא׳ דמלכא</he> against the King’s loss. [Levy Targ. Dict. reads <he>אוזניקא</he> expense(?), v. <cite ref=\"A00602\"><he>אוּזִינְקָא</he></cite>.]"
+			]
+		}
+	]
+}

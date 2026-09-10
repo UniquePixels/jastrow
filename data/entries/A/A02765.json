@@ -1,0 +1,25 @@
+{
+	"id": "A02765",
+	"slug": "אפסר",
+	"headword": {
+		"text": "אַפְסָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיפְסָר"
+		}
+	],
+	"page": {
+		"number": 106,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. afsâr, Fl. to Levy Targ. Dict. I, 418ᵇ; ψάλλιον) <i>bit</i>. ",
+			"units": ["<cite ref=\"Mishnah Shabbat 5:1\">Sabb. V, 1</cite>; a. e."]
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"id": "T00212",
+	"slug": "רגם-2",
+	"headword": {
+		"text": "רְגַם"
+	},
+	"page": {
+		"number": 1449,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00211\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 24:16\">Targ. O. Lev. XXIV, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:18\">Targ. Lam. I, 18</cite>. ",
+				"<cite ref=\"Onkelos Exodus 17:4\">Targ. Ex. XVII, 4</cite> (O. ed. Berl. <he>ורַגְּמוּנִי</he> <i>Pa.</i>); a. fr.—",
+				"<cite ref=\"Kiddushin 70b:9\">Kidd. 70ᵇ</cite> <he>נפקי … למִירְגְּמֵיה</he> they went out after him ready to stone him. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 284\">Yalk. Is. 284</cite> [read:] <he>כל חד מינייכו ליתי ליה טינא לחתמא ונִרְגְּמוּנֵיה</he> (<cite ref=\"C00399\"><he>גולמא</he></cite> being a gloss to <he>טינא לחתמא</he>, and <he>ונשדי ביה</he>, a Var. of <he>ונרגמוניה</he>) let each of you bring a ball of sealing clay (cylinder) and cast it at it (Jerusalem); <cite ref=\"Sanhedrin 95a\">Snh. 95ᵃ</cite>, v. <cite ref=\"C00399\"><he>גּוֹלְמָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַגֵּים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00211\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 16:6\">Targ. II Sam. XVI, 6</cite>; <cite ref=\"Targum Jonathan on II Samuel 16:13\">13</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרְגֵים"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְרַגֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to be stoned</i> (to death). ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 19:13\">Targ. Ex. XIX, 13</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 21:14\">Targ. I Kings XXI, 14</cite>, sq.; a. e.—[<cite ref=\"Targum Jonathan on Isaiah 1:2\">Targ. Is. I, 2</cite>, v. <cite ref=\"T00221\"><he>רְגֵף</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "P00592",
+	"slug": "עימור-1",
+	"headword": {
+		"text": "עִימּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִמּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1070,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"P00927\"><he>התעמר</he></cite>, <cite ref=\"Deuteronomy 24:7\">Deut. XXIV, 7</cite>, v. <cite ref=\"P00927\"><he>עָמַר</he></cite>) <i>using as a slave, deriving benefit from a stolen person, service</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 85b:21\">Snh. 85ᵇ</cite> (ref. to Mish. ",
+				"<cite ref=\"Mishnah Sanhedrin 11:1\">ib. XI, 1</cite>) <he>ותנא קמא לא בעי ע׳</he> does the first named authority not require that, in order to be guilty, the kidnapper must have imposed a slave’s service upon the stolen person? <cite ref=\"Mishnah Sanhedrin 11:1\">Ib.</cite> <he>יש דרך ע׳ בכך וכ׳</he> is this a sort of service or not? <cite ref=\"Mishnah Sanhedrin 11:1\">Ib.</cite> <he>ותיפוק ליה ליכא ע׳ כלל</he> but this would be no service at all."
+			]
+		}
+	]
+}

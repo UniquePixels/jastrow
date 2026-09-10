@@ -1,0 +1,24 @@
+{
+	"id": "D00517",
+	"slug": "דיונא",
+	"headword": {
+		"text": "דִּיּוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיּוּנִין"
+		}
+	],
+	"page": {
+		"number": 296,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"D00633\"><he>דין</he></cite>) <i>quarrels</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite> (ref. to <he>מדנים</he>, <cite ref=\"Proverbs 23:29\">Prov. XXIII, 29</cite>) <he>למאן ד׳</he> Ar. s. v. <he>פט</he> (ed. <he>דינין</he>)."
+			]
+		}
+	]
+}

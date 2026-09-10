@@ -1,0 +1,51 @@
+{
+	"id": "O01244",
+	"slug": "סנן-1",
+	"headword": {
+		"text": "סָנַן"
+	},
+	"page": {
+		"number": 1007,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to sting</i>, cmp. <cite ref=\"O01193\"><he>סְנֶה</he></cite>; of color:] <i>to be bright, shine</i>. V. <cite ref=\"O01203\"><he>סְנוּנִית</he></cite>.—Part. pass. <he>סָנוּן</he>; pl. <he>סְנוּנִין</he>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> (expl. <he>מפזז</he>, <cite ref=\"II Samuel 6:16\">II Sam. VI, 16</cite>) <he>היה לבוש בגדי זהב ס׳ וכ׳</he> he was dressed in glistening, gold-embroidered garments shining like fine gold."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִינֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to clear, filter</i>; (of metals) <i>to smelt, refine</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 20:2\">Sabb. XX, 2</cite> <he>מְסַנְּנִין את היין וכ׳</he> you may (on the Sabbath) filter wine through a cloth &c.Ḥull. ",
+						"<cite ref=\"Chullin 67a:14\">Ḥull. 67ᵃ</cite> <he>יבחושין שסִינְּנָן</he> gnats in liquids which one has passed through a filter; a. e.—<i>Part. pass.</i> <he>מְסוּנָּן</he> <i>refined</i>, <i>bright</i>. Num. R. l. c. (expl. <he>מפזז</he>, v. supra) <he>הזהב המס׳ … פוזז</he> the refined gold which he wore made a rustling noise."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִסְתַּנֵּן"],
+			"senses": [],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הִסְתּוֹנֵן"],
+			"senses": [
+				{
+					"gloss": "<i>to be refined</i>. Ib. s. 7, beg. <he>נִסְתַּנְּנוּ הפסולות ממנו וכ׳</he> when the base metals are removed from it (the silver) by refining, it shows at once &c. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 14\">Pesik. R. s. 14</cite> (ref. to <cite ref=\"Psalms 12:7\">Ps. XII, 7</cite>) [read:] <he>כשם שהכסף … ומצטרף ומִסְתּוֹנֵן וכ׳</he> as the silver to be smelted enters the crucible and is smelted and refined etc.; <he>כך היא התורה מִסְתּוֹנֶנֶת וכ׳</he> so is the Law refined and smelted (through study) in forty-nine ways."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

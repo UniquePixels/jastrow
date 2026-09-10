@@ -1,0 +1,23 @@
+{
+	"id": "P00413",
+	"slug": "עזיל-2",
+	"headword": {
+		"text": "עֲזִיל"
+	},
+	"page": {
+		"number": 1061,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00415\"><he>עֲזַל</he></cite>) <i>yarn, web</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:5\">Y. Ab. Zar. I, 39ᶜ</cite> <he>דיזבון ליה ע׳ קטן מן וכ׳</he> that he should buy him some small web at the fair of the Saturnalia of Beshan. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:2:3\">Y. B. Mets. II, beg. 8ᵇ</cite>, v. <cite ref=\"M02411\"><he>מִקְטוֹרָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "B01337",
+	"slug": "בררא",
+	"headword": {
+		"text": "בְּרָרָא"
+	},
+	"page": {
+		"number": 198,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ברר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pureness, unalloyed metal</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:3:4\">Y. Shek. VI, 50ᵇ</cite>; <cite ref=\"Jerusalem Talmud Yoma 4:4:7\">Y. Yoma IV, 41ᵈ</cite> top <he>עד דלא יקום על בְּרָרֵיה וכ׳</he> as long as the gold ore is not reduced to its pure state, it looses much in the smelting process; but when once brought to its pure state, nothing is lost."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>clearness, truth</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:2:2\">Y. Yeb. VIII, 9ᵇ</cite> top; XV, 15ᵃ <he>דו משים</he> (<he>מקים</he>) … <he>על ב׳</he> because he based the matter on truth (gave a clear decision)."
+			],
+			"label": "2"
+		}
+	]
+}

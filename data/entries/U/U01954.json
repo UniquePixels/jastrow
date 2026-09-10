@@ -1,0 +1,31 @@
+{
+	"id": "U01954",
+	"slug": "שרטון",
+	"headword": {
+		"text": "שֵׂרָטוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׂי׳"
+		}
+	],
+	"page": {
+		"number": 1629,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01951\"><he>שָׂרַט</he></cite>; cmp. <cite ref=\"O01592\"><he>סַרְטָן</he></cite>) [<i>scrapings,</i>] <i>sandbank, alluvial land</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 56b:14\">Sabb. 56ᵇ</cite>; <cite ref=\"Sanhedrin 21b:15\">Snh. 21ᵇ</cite> <he>בשעה … והעלה ש׳ ועליו וכ׳</he> when Solomon married Pharaoh’s daughter, Gabriel went down and stuck a reed into the sea, and it gathered a bank around it, on which the great city of Rome was built; <cite ref=\"Yalkut Shimoni on Nach 172:2\">Yalk. Kings 172</cite>; (Y. Ab. Zar. I, 39ᶜ <cite ref=\"U01368\"><he>שלעטיט</he></cite>). ",
+				"<cite ref=\"Eruvin 8a:7\">Erub. 8ᵃ</cite> <he>ש׳</he> (<he>הים</he>) <he>שמא יעלה</he> (v. Rabb. D. S. a. l. notes 5, a. 10) the sea (river) may throw up alluvium (may recede). ",
+				"<cite ref=\"Berakhot 60a:8\">Ber. 60ᵃ</cite> (in Chald. dict.) <he>אע״ג … דמסקא ארעא ש׳</he> (Ms. M. a. Ar. <he>סרטון</he>) although the loss of land through the encroachment of the water may be an advantage to him, because the land is covered with alluvium and improves, yet for the moment it is a misfortune to him. ",
+				"<cite ref=\"Bava Batra 124a:8\">B. Bath. 124ᵃ</cite> <he>ארעא ואסקא ש׳</he> (not <he>ואסיק</he>) if his father left him a field, and it improved by alluvium; <cite ref=\"Bava Batra 135b:3\">ib. 135ᵇ</cite>. ",
+				"<cite ref=\"Tamid 30a:1\">Tam. 30ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

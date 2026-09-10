@@ -1,0 +1,24 @@
+{
+	"id": "S01640",
+	"slug": "קסוי",
+	"headword": {
+		"text": "קַסְוֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1395,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S01639\">preced.</cite>) a certain <i>measure</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 44b\">Ber. 44ᵇ</cite> Men. Hammaor ch. III, Ner 6, K’lal 1, Ḥeleḳ. 1, s. 3 (ed. <he>קַיְיסֵי</he>)."
+			]
+		}
+	]
+}

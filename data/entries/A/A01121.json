@@ -1,0 +1,30 @@
+{
+	"id": "A01121",
+	"slug": "איבו",
+	"headword": {
+		"text": "אִיבּוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִבּוּ"
+		},
+		{
+			"text": "אִיבּוֹ"
+		}
+	],
+	"page": {
+		"number": 44,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אנב</he>, √<cite ref=\"A00013\"><he>אב</he></cite>. cmp. <cite ref=\"A00153\"><he>אבל</he></cite>) [<i>black</i>], name of a bird (h. <he>אֲנָפָה</he>) <i>vulture</i> or <i>kite</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:19\">Targ. O. Lev. XI, 19</cite>; <cite ref=\"Deuteronomy 14:18\">Deut. XIV, 18</cite> (Targ. Y. <he>אוכמתא</he>). [<cite ref=\"Targum Jonathan on Deuteronomy 14:13\">Targ. Y. I Deut. XIV, 13</cite>, <cite ref=\"Targum Jerusalem, Deuteronomy 14:13\">Targ. Y. II, Deut. XIV, 13</cite>; <cite ref=\"Targum Jerusalem, Deuteronomy 14:14\">14</cite>, gloss to v. 18; confounded with v. 13—h. text <cite ref=\"A01178\"><he>אַיָּה</he></cite>.]—<cite ref=\"A01121\"><he>אִיבּוּ</he></cite> pr. n. m., v. <cite ref=\"A00054\"><he>אִבּוּ</he></cite>."
+			]
+		}
+	]
+}

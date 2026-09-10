@@ -1,0 +1,57 @@
+{
+	"id": "R00189",
+	"slug": "צוי-4",
+	"headword": {
+		"text": "צוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָוָה"
+		}
+	],
+	"page": {
+		"number": 1267,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to join, attend</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6b\">Ber. 6ᵇ</cite>; <cite ref=\"Shabbat 30b:3\">Sabb. 30ᵇ</cite> <he>לִצְווֹת לזה</he> ed. (perh. fr. <cite ref=\"R00262\"><he>צָוַת</he></cite>, v. <cite ref=\"R00262\"><he>צוּת</he></cite>; Ar. <he>לצבות</he>), v. <cite ref=\"R00071\"><he>צָבַת</he></cite>.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to arrange, pile</i>; denom. <cite ref=\"R00325\"><he>צִיּוּן</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִוָּה", "צִוָּוה"],
+			"senses": [
+				{
+					"gloss": " (b. h.) <i>to order, command; to appoint</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 44a:7\">Men. 44ᵃ</cite> <he>מצוה אחת צִיוָּנוּ וכ׳</he> the Lord gave us one command, its name is Tsitsith. ",
+						"<cite ref=\"Menachot 44a:7\">Ib.</cite> <he>צַוֵּה עלי ויעשוני וכ׳</he> give orders about me, that they make me a proselyte. ",
+						"<cite ref=\"Shabbat 23a\">Sabb. 23ᵃ</cite>, a. e. <he>אשר קדשנו … וצִוָּנוּ וכ׳</he> (abbrev. <he>אקב״ו</he> who has sanctified us through his commandments, and commanded us to &c.; <he>והיכן צִוָּנוּ</he> and where did he command us (where in the Torah is it intimated)? <cite ref=\"Bava Batra 151b:12\">B. Bath. 151ᵇ</cite> <he>מְצַוֶּה מחמת מיתה</he> one who disposes of his property, because he expects to die. Sifra Tsav, end <he>כדי המְצַוֶּה למי שנצטוה</he> the commander was worthy of him who was commanded; a. fr.—Part. pass. <he>מְצוּוֶּה</he>. ",
+						"<cite ref=\"Kiddushin 31a:11\">Kidd. 31ᵃ</cite> <he>גדול מצ׳ ועושה וכ׳</he> he who is commanded, and does (a good deed, because it is God’s will) stands higher than he that is not commanded and does (a good deed); a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִצְטַוֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be ordered, commanded</i>. Ib. 38ᵃ <he>שלש מצות נִצְטַוּוּ וכ׳</he> three commands were given to the lsraelites on their entering the land. Ib. 38ᵇ <he>כל מצוה שנצטוו וכ׳</he> whatever command was enjoined upon the Israelites before they entered the land. Y. Meg. I, 70ᵈ bot. <he>אלו המצות שנִצְטַוִּינוּ וכ׳</he> these are the commandments which were given us through the mouth of Moses; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

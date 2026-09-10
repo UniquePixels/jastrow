@@ -1,0 +1,79 @@
+{
+	"id": "S01415",
+	"slug": "קלקל-1",
+	"headword": {
+		"text": "קִלְקֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִילְקֵל"
+		}
+	],
+	"page": {
+		"number": 1381,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"S01355\"><he>קָלַל</he></cite>, cmp. <cite ref=\"S01410\"><he>קְלַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to upset, disarrange, damage, ruin</i>, opp. <he>תקן</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:4\">Gen. R. s. 98</cite> <he>ק׳ את היצועין</he> upset the couches. ",
+				"<cite ref=\"Chullin 8a:10\">Ḥull. 8ᵃ</cite> <he>מותר … מְקַלְקֵל הוא</he> it is permitted to slaughter with a knife belonging to idolatrous service, because slaughtering is doing damage (a living animal being more useful than a dead one). ",
+				"<cite ref=\"Mishnah Shabbat 13:3\">Sabb. XIII, 3</cite> <he>כל המְקַלְקְלִין פטורין</he> all those who perform an act (on the Sabbath) by which they do ruin, are exempt (from sin-offering); <he>והמקלקל ע״מ לתקן וכ׳</he> but he that undoes a thing for the purpose of reconstructing it is guilty. ",
+				"<cite ref=\"Ketubot 5b\">Keth. 5ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with or sub. <cite ref=\"M02186\"><he>מעשה</he></cite> = b. h. <cite ref=\"U00723\"><he>הִשְׁחִית</he></cite>) <i>to be corrupt, to disgrace one’s self by immorality</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 1:6:10\">Y. Taan. I, end, 64ᵈ</cite> <he>חם</he> … <he>קִילְקְלוּ מעשיהן</he> Ham, the dog, and the raven acted mischievously (by sexual connection in the ark, v. ",
+				"<cite ref=\"Sanhedrin 108b:3\">Snh. 108ᵇ</cite>; <cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite>). ",
+				"<cite ref=\"Rosh Hashanah 12a:4\">R. Hash. 12ᵃ</cite> <he>ברותחין קלקלו וכ׳</he> with heat (of passion) they sinned, and with hot waters they were punished; <cite ref=\"Sanhedrin 108b:3\">Snh. 108ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Sotah 2:2\">Tosef. Sot. II, 2</cite> <he>אפי׳ תְקַלְקֵל וכ׳</he>, v. <cite ref=\"P01454\"><he>עָרַר</he></cite>; a. fr.—[<cite ref=\"Midrash Tehillim 7\">Midr. Till. to Ps. VII</cite>, ed. Bub. note 69 <he>קלקלתי</he>, v. <cite ref=\"K00755\"><he>כִּלְכֵּל</he></cite>.]—Part. pass. <he>מְקוּלְקָל</he>; f. <he>מְקוּלְקֶלֶת</he>; <i>pl.</i> <he>מְקוּלְקָלִים</he>, <he>מְקוּלְקָלִין</he>; <he>מְקוּלְקָלוֹת</he>. ",
+				"<cite ref=\"Mishnah Moed Katan 1:2\">M. Kat. I, 2</cite> (<cite ref=\"Moed Katan 2a:2\">2ᵃ</cite>) <he>ומתקנין את המקולקלת</he> Y. a. Bab. ed. (Mish. <he>המקולקלות</he>, incorr.) and you may mend a channel that is out of order during the festive week. ",
+				"<cite ref=\"Sanhedrin 39b:19\">Snh. 39ᵇ</cite> (ref. to <cite ref=\"Ezekiel 5:7\">Ez. V, 7</cite>) <he>כמתוקנין … כמק׳ שבהם עשיתן</he> you did not do according to the good usages among them, but according to their corrupt usages. ",
+				"<cite ref=\"Bava Batra 109b\">B. Bath. 109ᵇ</cite>, v. <cite ref=\"S01419\"><he>קַלְקָלָה</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (b. h.) <i>to sharpen</i>; trnsf. (cmp. <cite ref=\"H00175\"><he>חָדַד</he></cite>, <cite ref=\"U01601\"><he>שָׁנַן</he></cite>) <i>to repeat, study</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 10:10:1\">Koh. R. to X, 10</cite> <he>אם נקהה … קַלְקֵל עליו בחילך</he> if thy lesson is as tough to thee as iron (v. <cite ref=\"S00201\"><he>קָהָה</he></cite>), and … none is on hand to explain it to thee, go over it studying with thy own strength."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְקַלְקֵל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְקַלְקֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to be disarranged, ruined, spoiled</i>. Y. Taan. IV, 68ᶜ bot. <he>נִתְקַלְקְלוּ חשבונותיו וכ׳</he> his dates were disarranged, and he said, let this begin a new era; <he>נתקלקלו לשעבר</he> the dates were disarranged (confused) with regard to the events of the past, v. <cite ref=\"S00986\"><he>קִילְקוּל</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Demai 3:6\">Dem. III, 6</cite>, v. <cite ref=\"H01098\"><he>חָלַף</he></cite>. Y. Shek. VII, 50ᶜ <he>נִתְקַלְקְלָה צורתן</he> (not <he>נתקלקה</he>), v. <cite ref=\"R00252\"><he>צוּרָה</he></cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"S01257\"><he>קָלָה</he> I</cite>) <i>to commit a nuisance, to collapse under the influence of corporal punishment</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 286\">Sifré Deut. 286</cite>; <cite ref=\"Mishnah Makkot 3:14\">Macc. III, 14</cite>; a. e.—[<cite ref=\"Bekhorot 8a\">Bekh. 8ᵃ</cite> <cite ref=\"S01415\"><he>נתקלקל</he></cite>, v. <cite ref=\"S01355\"><he>קָלַל</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

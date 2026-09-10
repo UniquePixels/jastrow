@@ -1,0 +1,30 @@
+{
+	"id": "U01905",
+	"slug": "שר-1",
+	"headword": {
+		"text": "שֵׁר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁיד"
+		},
+		{
+			"text": "מִגְדַּל שׁ׳"
+		}
+	],
+	"page": {
+		"number": 1626,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Tower of Sher</i> (or <i>Shed</i>), <i>Straton’s Tower</i> (v. Hildesh. Beitr. p. 4 sq.). ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</cite> <he>מדבר שרשך דור</he>, read: <he>מגדל שר שן דור</he>; <cite ref=\"Yalkut Shimoni on Torah 874:3\">Yalk. ib. 874</cite> <he>מגדל שרשן דירו</he> (corr. acc.); <cite ref=\"Jerusalem Talmud Sheviit 6:1:9\">Y. Shebi. VI, 36ᶜ</cite> top <he>מגדל שיד</he>."
+			]
+		}
+	]
+}

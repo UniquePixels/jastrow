@@ -1,0 +1,29 @@
+{
+	"id": "S00337",
+	"slug": "קוליא-2",
+	"headword": {
+		"text": "קוּלְיָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַלְיָא"
+		}
+	],
+	"page": {
+		"number": 1328,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00336\">preced.</cite>) <i>ashes of an alkaline plant</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 28b\">Erub. 28ᵇ</cite> <he>מערבין בקול׳</he> Ms. M. (ed. <he>בקל׳</he>) you may use <i>ḳulia</i> for an ‘Erub (v. <cite ref=\"P00680\"><he>עֵירוּב</he></cite>), expl. <he>בירקא דק׳</he> the plant from which ḳ. is won. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 9:5:4\">Y. Sabb. IX, end, 12ᵇ</cite>, v. <cite ref=\"S01003\"><he>קִימוֹלְיָא</he></cite>."
+			]
+		}
+	]
+}

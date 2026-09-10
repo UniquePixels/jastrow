@@ -1,0 +1,27 @@
+{
+	"id": "Q00379",
+	"slug": "פורפא",
+	"headword": {
+		"text": "פּוּרְפָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּרְפָא"
+		}
+	],
+	"page": {
+		"number": 1148,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q01953\"><he>פָּרַף</he></cite>) <i>hook</i>.—Pl. <cite ref=\"Q00380\"><he>פּוּרְפִּין</he></cite>, <cite ref=\"Q00255\"><he>פּוּרְפַּיָּא</he></cite>, <he>פּוּרְפ׳</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:6\">Targ. Ex. XXVI, 6</cite>; <cite ref=\"Onkelos Exodus 26:11\">11</cite> (h. text <he>קרסים</he>); a. fr."
+			]
+		}
+	]
+}

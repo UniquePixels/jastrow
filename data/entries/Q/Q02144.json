@@ -1,0 +1,91 @@
+{
+	"id": "Q02144",
+	"slug": "פתח-2",
+	"headword": {
+		"text": "פְּתַח"
+	},
+	"page": {
+		"number": 1251,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q02143\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 15:11\">Targ. Deut. XV, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:17\">Targ. Is. XIV, 17</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"Q02160\"><he>פְּתִיחַ</he></cite>; f. <cite ref=\"Q02160\"><he>פְּתִיחָא</he></cite>; pl. <he>פְּתִיחִין</he>, <he>פְּתִיחַיָּא</he>; <cite ref=\"Q02162\"><he>פְּתִיחָן</he></cite> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>open</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 19:15\">Targ. Num. XIX, 15</cite>. ",
+						"<cite ref=\"Targum Jonathan on Joshua 8:17\">Targ. Josh. VIII, 17</cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>seeing</i>, v. <cite ref=\"Q02157\"><he>פְּתִיהַ</he></cite>.—",
+					"units": [
+						"<cite ref=\"Taanit 24a:9\">Taan. 24ᵃ</cite> <he>אתיא למִיפְתַּח … ולא מִיפְּתַח וכ׳</he> she came to open the door …, but it could not be opened on account of the wheat pressing against it. ",
+						"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite> <he>לִיפְתַּה הביתא וכ׳</he> let him open a keg of wine &c. ",
+						"<cite ref=\"Bava Kamma 112b:6\">B. Kam. 112ᵇ</cite> <he>כגון דפָתְחוּ ליה בדיניה וכ׳</he> when they (the court) have opened his case (written a warrant, v. <cite ref=\"Q02161\"><he>פְּתִיחָא</he> II</cite>) and sent for him. ",
+						"<cite ref=\"Nedarim 28a:11\">Ned. 28ᵃ</cite> <he>מיפתח הוא דלא יפתח וכ׳</he> he dare not offer to make oath (in order to escape robbery &c.), but make a vow, he may. ",
+						"<cite ref=\"Bamidbar Rabbah 9:18\">Num. R. s. 9</cite> <he>תרעא דלא פתיח וכ׳</he>, v. <cite ref=\"A02428\"><he>אָסֵי</he></cite>; a. fr.—",
+						"<cite ref=\"Nedarim 22a:4\">Ned. 22ᵃ</cite> <he>אע״ג דפ׳ … אנן לא פַתְחִינָן וכ׳</he> although R. Y. offered such a suggestion for retracting a vow, we must not do so; <he>ולא פתחינן בהדא וכ׳</he> nor do we offer that other suggestion &c.; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפְתַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q02143\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite>, beg. <he>א׳ ליה ביתיה וכ׳</he> he opened his house to him, and he entered."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["פַּתַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q02143\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 45:1\">Targ. Is. XLV, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 42:7\">Ib. XLII, 7</cite>.—<i>Part. pass.</i> <he>מְפַתַּח</he> <i>open-eyed, able to see</i>. ",
+						"<cite ref=\"Vayikra Rabbah 22:5\">Lev. R. s. 22</cite> <he>חד סמי וחד מפ׳</he> (<cite ref=\"Kohelet Rabbah 5:8:5\">Koh. R. to V, 8</cite> <he>פתיח</he>) one was blind, and the other could see."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְפַּתַּח"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְפְּתַח", "אִיפְּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be opened; to be released</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 3:5\">Targ. O. Gen. III, 5</cite>; <cite ref=\"Onkelos Genesis 3:7\">7</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 12:14\">Targ. Job XII, 14</cite>; a. fr.—",
+						"<cite ref=\"Gittin 69a:13\">Gitt. 69ᵃ</cite> bot. <he>לאִיפַּתּוּחֵי וכ׳</he> (Rashi <he>לפתיחי</he>, read: <he>לפַתּוּחֵי</he> <i>Pa.</i>) that the boil may open, let somebody blow &c. ",
+						"<cite ref=\"Gittin 69b\">Ib.ᵇ</cite>, v. <cite ref=\"R00700\"><he>צְפִירְתָּא</he></cite>; <cite ref=\"Pesachim 42b\">Pes. 42ᵇ</cite>; a. e.—Esp. <i>to be restored to sight</i>. Lev. R. l. c. <he>דין דהוה סמי א׳ וכ׳</he> he who was blind recovered sight &c., v. <cite ref=\"O01079\"><he>סְמֵי</he></cite>; Koh. R. l. c. Ib. <he>אִיתְפַּתְּחַת</he> the she-ass recovered &c.; a. e."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

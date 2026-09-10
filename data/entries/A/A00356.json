@@ -1,0 +1,29 @@
+{
+	"id": "A00356",
+	"slug": "אגריפס",
+	"headword": {
+		"text": "אַגְרִיפַּס"
+	},
+	"page": {
+		"number": 15,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Ἀγρίππας) <i>Agrippa</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the last but one Herodian king of Judæa. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 7:8\">Sot. VII, 8</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 3:5\">Lev. R. s. 3</cite>; a. fr.—2) a captain of the former.—",
+				"<cite ref=\"Avodah Zarah 55a:2\">Ab. Zar. 55ᵃ</cite> <he>אגריפא שר צבא של א׳</he> Ms. M. (v. Rashi a. l. a. Rabb. D. S. a. l. note)."
+			],
+			"label": "1"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "I00442",
+	"slug": "טיריא",
+	"headword": {
+		"text": "טִירְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִירְיָיא"
+		},
+		{
+			"text": "טִרְ׳"
+		}
+	],
+	"page": {
+		"number": 534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00767\"><he>טרי</he></cite>) <i>the shaking movement</i> of the mill. ",
+			"units": [
+				"<cite ref=\"Bava Batra 18a\">B. Bath. 18ᵃ</cite> (v. Rabb. D. S. a. l. note 50). ",
+				"<cite ref=\"Bava Batra 20b:6\">Ib. 20ᵇ</cite>.—V. <cite ref=\"I00793\"><he>טַרְיָיתָא</he></cite>."
+			]
+		}
+	]
+}

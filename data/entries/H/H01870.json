@@ -1,0 +1,26 @@
+{
+	"id": "H01870",
+	"slug": "חששא",
+	"headword": {
+		"text": "חֲשָׁשָׁא"
+	},
+	"page": {
+		"number": 512,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01869\">preced.</cite>) <i>anxiety, fear, suspicion</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:25\">Targ. Koh. II, 25</cite>.—",
+				"<cite ref=\"Yoma 83b:14\">Yoma 83ᵇ</cite> <he>אימר דאמרי אנא ח׳ וכ׳</he> (Ms. M. <he>למֵיחַשׁ</he>, v. <cite ref=\"H01869\">preced.</cite>) what I said (that a name was an omen) was meant only as an apprehension, but I did not mean it as a certainty. ",
+				"<cite ref=\"Bekhorot 36a:1\">Bekh. 36ᵃ</cite> <he>אימר דאמר ר״מ לח׳</he> what R. M. said, was meant as an apprehension (worth investigating), but not to make one legally disqualified. ",
+				"<cite ref=\"Bekhorot 36a:11\">Ib.</cite> <he>ח׳ הוא</he> it is merely a suspicion, <he>ובמקום ח׳ וכ׳</he> and against such a doubt, we may argue that he had no reason to tell a falsehood. ",
+				"<cite ref=\"Niddah 17b:23\">Nidd. 17ᵇ</cite> <he>אי בתר ח׳ וכ׳</he> if you are guided by a doubt, opp. <cite ref=\"H00556\"><he>חֲזָקָה</he></cite>; a. fr."
+			]
+		}
+	]
+}

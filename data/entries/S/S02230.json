@@ -1,0 +1,62 @@
+{
+	"id": "S02230",
+	"slug": "קשט-2",
+	"headword": {
+		"text": "קְשַׁט"
+	},
+	"page": {
+		"number": 1429,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02229\">same</cite>.—<i>Pa.</i> <cite ref=\"S02231\"><he>קַשֵּׁט</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to straighten, correct</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 29:18\">Targ. I Chr. XXIX, 18</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go in a straight line, to shoot forth</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 6:3\">Targ. Hos. VI, 3</cite> <he>מְקַשֵּׁיט</he> (not <cite ref=\"M00316\"><he>מִ׳</he></cite>; ed. Lag. <he>מקשט</he>; h. text <cite ref=\"N00812\"><he>נכון</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to prepare</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 63b:3\">Yeb. 63ᵇ</cite> (of a bad wife) <he>מְקַשְּׁטָא … ומקשטא וכ׳</he> has a tray ready for him, and has her mouth ready for him (to scold); <he>מק׳ … ומחדרא וכ׳</he> prepares a tray for him, and turns her back to him."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְקַשֵּׁט", "אִיקַּשַּׁט"],
+			"senses": [
+				{
+					"gloss": "<i>to be shot</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Exodus 19:13\">Targ. Y. II, Ex. XIX, 13</cite> (ed. Vien. <he>יתקשתין</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be dressed, prepared</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 61:10\">Targ. Is. LXI, 10</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 4:12\">Targ. Am. IV, 12</cite> (h. text <cite ref=\"K00296\"><he>הכין</he></cite>).—",
+						"<cite ref=\"Taanit 23b:5\">Taan. 23ᵇ</cite> <he>כי מִיקַּשְּׁטָא</he> is well dressed; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

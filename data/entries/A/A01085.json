@@ -1,0 +1,25 @@
+{
+	"id": "A01085",
+	"slug": "אטימסיאה",
+	"headword": {
+		"text": "אֱטִימָסִיאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיטִ׳"
+		}
+	],
+	"page": {
+		"number": 42,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἑτοιμασία) <i>well secured and supplied station</i>. ",
+			"units": ["<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16</cite>, end."]
+		}
+	]
+}

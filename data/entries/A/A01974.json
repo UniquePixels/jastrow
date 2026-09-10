@@ -1,0 +1,30 @@
+{
+	"id": "A01974",
+	"slug": "אמבטי",
+	"headword": {
+		"text": "אַמְבְּטִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבְּטִי"
+		}
+	],
+	"page": {
+		"number": 74,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (√<he>בט</he>, v. <cite ref=\"A00087\"><he>אַבְטָא</he></cite>; <cite ref=\"M00000\"><he>מ</he></cite> inserted) <i>bath-tub, bathing reservoir</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 4:4\">Ned. IV, 4</cite> (Var. <he>טיא …</he>). ",
+				"<cite ref=\"Chagigah 15a\">Ḥag. 15ᵃ</cite> <he>אב׳</he> Ar. (ed. <he>אמב׳</he>); a. fr.—Pl. <he>אִמְבְּטִיּוֹת</he>, <he>אַמְבְּטָאוֹת</he> (<he>אמבטיאות</he>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:13\">Y. Sabb. III, 6ᵃ</cite>.—Bab. ",
+				"<cite ref=\"Shabbat 40a:8\">ib. 40ᵃ</cite> <he>אמבטי׳</he> (Ar. <he>אבטאות</he>); Tosef. ib. III (IV), 3 ed. Zuck. <he>אבטאות</he> (Var. <he>אמבטאות</he>) baths in large cities with ambulatories (v. Sm. Ant. s. v. <i>Baths</i>). [<cite ref=\"Jerusalem Talmud Pesachim 3:1:9\">Y. Pes. III, beg. 29ᵈ</cite> <he>א׳ של בצק</he> (?), prob. a corruption.] Cmp. <cite ref=\"B00500\"><he>בְּטַח</he> II</cite>."
+			]
+		}
+	]
+}

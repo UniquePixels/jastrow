@@ -1,0 +1,32 @@
+{
+	"id": "D00003",
+	"slug": "דא-1",
+	"headword": {
+		"text": "דָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּה"
+		}
+	],
+	"page": {
+		"number": 275,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <he>זוֹ</he>, <cite ref=\"G00006\"><he>זֹאת</he></cite>) <i>this</i>; with prefix <cite ref=\"E00000\"><he>ה</he></cite>, (<cite ref=\"E00096\"><he>הֲדָא</he></cite>) <cite ref=\"E00096\"><he>הָדָא</he></cite>, cmp. <cite ref=\"A00372\"><he>אָדָא</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:23\">Targ. Gen. II, 23</cite>; a. fr.—",
+				"<cite ref=\"Nedarim 41a:2\">Ned. 41ᵃ</cite> (prov.) <he>דְּדָא ביה וכ׳</he> in whom there is this (wisdom), in him there is everything.—<he>דא ודא</he> this and that, both. ",
+				"<cite ref=\"Shabbat 52b:17\">Sabb. 52ᵇ</cite> <he>ד׳ וד׳</he> (<he>אחת</he>) <he>חדא היא</he> all sorts of rings come under the same law; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:7:2\">Y. Succ. I, 52ᶜ</cite> top <he>הדא אמרה היא הדא וכ׳</he> this proves &c., v. <cite ref=\"A00372\"><he>אָדָא</he> I</cite>.—<he>הדא היא דכתיב</he> (abbr. <he>הה״ד</he>) it is this which Scripture says, thus we read. Y. Sot. I, 17ᵇ bot.; <cite ref=\"Bereishit Rabbah 2\">Gen. R. s. 2</cite>; a. v. fr.—Y. Gitt. IV, 45ᵈ bot. introduced his lecture <he>בדה</he> with this.—לא בְדָא <i>not in this case</i>, i.e. the law does not apply to this. Y. Ber. I, 2ᵇ bot.; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:13:2\">Y. Taan. II, 66ᵃ</cite> bot. <he>לא בדא הלכה וכ׳</he> not in this case is the practice in agreement with the anonymous opinion."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "A01906",
+	"slug": "אלם-3",
+	"headword": {
+		"text": "אִלֵּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילֵּם"
+		}
+	],
+	"page": {
+		"number": 71,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;v. <cite ref=\"A01904\"><he>אָלַם</he></cite> cmp. <cite ref=\"H01784\"><he>חֵרֵשׁ</he></cite>) <i>mute, unable to speak</i>, also <i>ignorant</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 1:6\">Ter. I, 6</cite>; a. fr.—Ruth. R. to IV, 1 (ref. to <i>almoni</i>, Ruth. l. c.) <he>א׳ היה מד״ת</he> he was unable to speak of (excluded from) the Law (ignorant).—Pl. <he>אִילְּ׳ אִלְּמִין אִלְּמִים</he>. ",
+				"<cite ref=\"Sanhedrin 71a:21\">Snh. 71ᵃ</cite>; <cite ref=\"Sanhedrin 100a\">100ᵃ</cite>.—Fem. <he>אִלֶּמֶת</he>, <cite ref=\"A01865\"><he>אִילֶּ׳</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 9:42\">Num. R. s. 9</cite>. ",
+				"<cite ref=\"Chullin 79a\">Ḥull. 79ᵃ</cite>. ",
+				"<cite ref=\"Sotah 10b:5\">Sot. 10ᵇ</cite> <cite ref=\"A02549\"><he>אי׳</he></cite>; a. e."
+			],
+			"label": "1"
+		}
+	]
+}

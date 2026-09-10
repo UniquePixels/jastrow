@@ -1,0 +1,42 @@
+{
+	"id": "Q00483",
+	"slug": "פחר",
+	"headword": {
+		"text": "פְּחַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּחְרָא"
+		}
+	],
+	"page": {
+		"number": 1153,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פחר</he> <i>to hollow out, scrape</i>) = <cite ref=\"H01406\"><he>חֲסַף</he> II</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>clay</i>; <he>מאן דפ׳</he>, <he>מן פ׳</he> an earthen vessel. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 14:11\">Targ. I Chr. XIV, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 12:22\">Targ. Y. Ex. XII, 22</cite> (not <he>דא …</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 14:50\">Targ. Y. Lev. XIV, 50</cite> (not <he>דפַחַד</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a fragment of a clay vessel, potsherd</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 2:8\">Targ. Job II, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 22:16\">Targ. Ps. XXII, 16</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

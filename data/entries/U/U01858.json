@@ -1,0 +1,23 @@
+{
+	"id": "U01858",
+	"slug": "שקיזמי",
+	"headword": {
+		"text": "שְׁקִיזְמֵי"
+	},
+	"page": {
+		"number": 1622,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Shaf. of <he>קזם</he> = <he>גזם</he>; cmp. <cite ref=\"C01318\"><he>גַּרְזִימֵי</he></cite>) <i>nibbles, dessert, fruit</i> &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:7:2\">Y. Ber. VI, end, 10ᵈ</cite>."
+			]
+		}
+	]
+}

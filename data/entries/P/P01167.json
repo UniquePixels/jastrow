@@ -1,0 +1,23 @@
+{
+	"id": "P01167",
+	"slug": "עקוש-2",
+	"headword": {
+		"text": "עָקוֹשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1105,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01228\"><he>עָקַשׁ</he></cite>) [<i>crooked, crafty</i>,] <i>ʿaḳosh</i>, a thing believed to prevent (or absorb) rain. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108b:2\">Snh. 108ᵇ</cite> <he>ואמרי לה ע׳ שמו</he> Ar. (ed. <cite ref=\"P01228\"><he>עִקֵּשׁ</he></cite>; Ms. F. <cite ref=\"P00669\"><he>עִיקֵּשׁ</he></cite>, v. Rabb. D. S. a. l. note 70) and some say, its name is <i>ʿa.</i>, v. <cite ref=\"P01157\"><he>עָקוֹב</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 906\">Yalk. Job 906</cite> <cite ref=\"P01228\"><he>עקש</he></cite>."
+			]
+		}
+	]
+}

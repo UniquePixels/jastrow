@@ -1,0 +1,22 @@
+{
+	"id": "N01123",
+	"slug": "נציב-2",
+	"headword": {
+		"text": "נָצִיב"
+	},
+	"page": {
+		"number": 928,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01097\"><he>נָצַב</he></cite>; cmp. <cite ref=\"J00529\"><he>יַצִּיבָא</he></cite>) <i>permanent resident</i>, opp. <cite ref=\"C01225\"><he>גֵּר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 64:3-4\">Gen. R. s. 64</cite> (ref. to <cite ref=\"U01174\"><he>שְׁכֹן</he></cite>, <cite ref=\"Genesis 26:2\">Gen. XXVI, 2</cite>) <he>עשה שכונה הוי נוטע הוי זורע הוי נ׳ …</he> make a settlement in the land of Israel, be a planter, be a sower, be a citizen."
+			]
+		}
+	]
+}

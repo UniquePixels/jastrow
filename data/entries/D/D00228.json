@@ -1,0 +1,22 @@
+{
+	"id": "D00228",
+	"slug": "דוחכא",
+	"headword": {
+		"text": "דּוֹחֲכָא"
+	},
+	"page": {
+		"number": 284,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00410\"><he>דְּחַךְ</he></cite>) <i>laughter, scorn</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 34:7\">Targ. Job XXXIV, 7</cite> (Lev. <cite ref=\"D00155\"><he>דַּהֲכָא</he></cite>)."
+			]
+		}
+	]
+}

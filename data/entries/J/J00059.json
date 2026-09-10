@@ -1,0 +1,41 @@
+{
+	"id": "J00059",
+	"slug": "יבם-2",
+	"headword": {
+		"text": "יִבֵּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "יִיבֵּם"
+		}
+	],
+	"page": {
+		"number": 561,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to marry the wife of a brother who died without issue</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 2:1\">Yeb. II, 1</cite> <he>ואח״כ י׳ וכ׳</he> and afterwards the second brother married &c. ",
+				"<cite ref=\"Mishnah Yevamot 2:6\">Ib. 6</cite> <he>ואחד מְיַבֵּם</he> and one of the brothers may marry her. ",
+				"<cite ref=\"Mishnah Yevamot 4:5\">Ib. IV, 5</cite> <he>או חלוץ או יַבֵּם</he> either discharge (v. <cite ref=\"H01109\"><he>חָלַץ</he></cite>) or marry (her). ",
+				"<cite ref=\"Mishnah Yevamot 4:5\">Ib.</cite> <he>מצוה בגדול ליַבֵּם</he> on the eldest brother the duty devolves (in the first order) to marry the deceased’s widow. Ib. II, 7 <he>לא יְיַבְּמוּ וכ׳</he> the other brothers must not both marry, but one discharges one, and the other &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְיַבְּמָה"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְיַיבְּמָה</he> <i>to be married by the yabam</i>. Ib. I, 2 <he>חולצת ולא מִתְיַבֶּמֶת</he> she must take off the <i>yabam</i>’s shoe, but cannot be married to him. Ib. 4 <he>נִתְיַיבְּמוּ</he> if they have been married &c. Ib. 20ᵇ <he>לא תִתְיַיבַּמְנָה</he> ought not to be &c. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 21\">Num. R. s. 21</cite> <he>ואם לאו תִּתְיַיבֵּם אמנו</he> and if daughters are not considered as legal heirs, let our mother be taken in marriage by the <i>yabam;</i> a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

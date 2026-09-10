@@ -1,0 +1,24 @@
+{
+	"id": "B00948",
+	"slug": "בנייה",
+	"headword": {
+		"text": "בַּנָּיָיה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 177,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bannayah</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:17\">Y. Peah I, 15ᵇ</cite> bot.; a. fr. (Bab. ",
+				"<cite ref=\"Bava Batra 57b\">B. Bath. 57ᵇ</cite> <cite ref=\"B00934\"><he>בַּנָּאָה</he></cite>, v. <cite ref=\"B00936\"><he>בַּנַּאי</he> II</cite>)."
+			]
+		}
+	]
+}

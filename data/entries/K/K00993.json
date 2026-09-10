@@ -1,0 +1,33 @@
+{
+	"id": "K00993",
+	"slug": "כפור-2",
+	"headword": {
+		"text": "כִּפּוּר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּפּוּרָא"
+		},
+		{
+			"text": "כִּיפּ׳"
+		}
+	],
+	"page": {
+		"number": 657,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00992\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 3:2\">Targ. Hos. III, 2</cite>.—",
+				"<cite ref=\"Targum Jerusalem, Leviticus 23:29\">Targ. Y. II, Lev. XXIII, 29</cite> <he>יום צום כִּפּוּרֵיה</he>.—Pl. <he>כִּפּוּרַיָּא</he>, <cite ref=\"K01000\"><he>כִּפּוּרֵי</he></cite>, <cite ref=\"K00030\"><he>כִּי׳</he></cite>.—",
+				"<cite ref=\"Onkelos Exodus 29:36\">Targ. Ex. XXIX, 36</cite>; a. fr.—<he>יומא דכפורא</he>, <he>י׳ דכפורי</he>, <he>י׳ דכפוריא</he> <i>Day of Atonement</i>. ",
+				"<cite ref=\"Onkelos Leviticus 23:27\">Targ. Lev. XXIII, 27</cite>; a. fr.—",
+				"<cite ref=\"Yoma 20a\">Yoma 20ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 67b:15\">Keth. 67ᵇ</cite> <he>מעלי יומא דכ׳</he> = <he>ערב יה״כ</he>, v. <cite ref=\"K00992\">preced.</cite>"
+			]
+		}
+	]
+}

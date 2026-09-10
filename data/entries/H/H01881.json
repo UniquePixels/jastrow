@@ -1,0 +1,25 @@
+{
+	"id": "H01881",
+	"slug": "חתי-1",
+	"headword": {
+		"text": "חתי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָתָא"
+		}
+	],
+	"page": {
+		"number": 512,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", (v. <he>נחת</he>); <i>Hif.</i> <he>הֶחֱתִי</he>(<cite ref=\"A00000\"><he>א</he></cite>) <i>to put down, rest</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 5:1:5\">Y. Yoma V, 42ᵇ</cite> bot. <he>יחליף … ויַחֲתִי</he> let him change hands … and set (the pan) down. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 5:1:5\">Ib.</cite> <he>אם ה׳ מימינו וכ׳</he> if he set it down from his right towards his left side."
+			]
+		}
+	]
+}

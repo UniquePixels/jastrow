@@ -1,0 +1,24 @@
+{
+	"id": "D00921",
+	"slug": "דנב",
+	"headword": {
+		"text": "דָּנָב",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 315,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Danab</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 1:13\">Tosef. Dem. I, 13</cite> <he>אוצרה של ד׳</he> Var. (ed. Zuck. <cite ref=\"T00001\"><he>ר׳</he></cite>). ",
+				"<cite ref=\"Tosefta Shevi'it 4:8\">Tosef. Shebi. IV, 8</cite> (Var. ed. Zuck. <he>דגב</he>, <cite ref=\"D00921\"><he>דנב</he></cite>, text <cite ref=\"T00001\"><he>ר׳</he></cite>); <cite ref=\"Jerusalem Talmud Demai 2:3:3\">Y. Dem. II, 22ᵈ</cite> top <cite ref=\"D00041\"><he>דבב</he></cite>."
+			]
+		}
+	]
+}

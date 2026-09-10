@@ -1,0 +1,40 @@
+{
+	"id": "D00618",
+	"slug": "דימוס-2",
+	"headword": {
+		"text": "דִּימוֹס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 300,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (δῆμος) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>people</i> (populus). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 6\">Gen. R. s. 6</cite>; <cite ref=\"Shemot Rabbah 15:17\">Ex. R. s. 15</cite>, v. <cite ref=\"B00265\"><he>בּוּלִי</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>popular gathering, public festival with games</i> (δημοτικὸς ἀγών) given by Emperors or high officials and connected with amnesty; in gen. <i>amnesty, pardon</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:2\">Y. Ber. IX, 14ᵇ</cite> when the king <he>נותן ד׳</he> grants a general pardon, opp. <cite ref=\"O01368\"><he>ספיקולה</he></cite>.—",
+				"<cite ref=\"Kiddushin 63a:10\">Kidd. 63ᵃ</cite> <he>עשה כד׳ הזה</he> act as was done in that public game (Ar. <cite ref=\"D01058\"><he>דְּרוֹמוֹס</he></cite>).—",
+				"<cite ref=\"Vayikra Rabbah 29\">Lev. R. s. 29</cite>, a. fr. <he>יצא בד׳</he> he was pardoned. ",
+				"<cite ref=\"Bereishit Rabbah 79:6\">Gen. R. s. 79</cite> when he heard a divine voice say <he>ד׳ ד׳</he> <i>demos, demos</i> (pardon), the bird escaped, opp. <cite ref=\"O01368\"><he>ספיקולא</he></cite>; <cite ref=\"Jerusalem Talmud Sheviit 9:1:13\">Y. Shebi. IX, 38ᵈ</cite> top; Pesik. B’shall. p. 88ᵇ <cite ref=\"D00645\"><he>דיניס</he></cite> (corr. acc.); a. fr.—[<cite ref=\"Shemot Rabbah 2\">Ex. R. s. 2</cite>, beg. <he>ינתן בד׳</he>, v. <cite ref=\"D00622\"><he>דִּימוֹסִין</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite> <he>דִּימוֹסָהּ</he>, v. <cite ref=\"D00620\"><he>דִּימוֹסְיָא</he></cite>.]—Pl. <cite ref=\"D00622\"><he>דִּימוֹסִין</he></cite> <i>public games</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:12\">Cant. R. to VII, 12</cite> <he>נטייל בד׳ וכ׳</he> let us take a walk among (observe) the amusements of the world."
+			],
+			"label": "2"
+		}
+	]
+}

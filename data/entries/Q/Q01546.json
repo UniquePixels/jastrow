@@ -1,0 +1,31 @@
+{
+	"id": "Q01546",
+	"slug": "פרג-1",
+	"headword": {
+		"text": "פָּרַג"
+	},
+	"page": {
+		"number": 1213,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q01755\"><he>פרח</he></cite>) <i>to break through, sprout</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְרִיג"],
+			"senses": [
+				{
+					"gloss": " (sub. <cite ref=\"G00723\"><he>זרע</he></cite>) <i>to sprout, germinate, produce withered growth</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite> (ref. to <he>תפריחי</he>, <cite ref=\"Isaiah 17:11\">Is. XVII, 11</cite>) <he>בבקר … ומצא אותה שהִפְרִיגָה</he> in the morning he went to look at it (the garden planted with cabbage) and found that it (its growth) had germinated (and the cabbage was ruined); <he>בערב היית … הרי הִפְרַגְתְּ</he> in the evening thou wast fine and excellent, and in the morning, behold, thou art ruined; (<cite ref=\"Vayikra Rabbah 18:3\">Lev. R. s. 18</cite> <he>שהוריקה</he>, v. <cite ref=\"J00653\"><he>יָרַק</he></cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

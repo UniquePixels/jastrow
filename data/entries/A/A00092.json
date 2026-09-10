@@ -1,0 +1,24 @@
+{
+	"id": "A00092",
+	"slug": "אבטוניות",
+	"headword": {
+		"text": "אַבְטוֹנִיּוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 4,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (= <cite ref=\"A00092\"><he>אַבְטוֹנוֹמִיּוֹת</he></cite>; αὐτονομία; v. Sm. Ant. s. v. Autonomi) <i>cities enjoying their own laws, jurisdictions</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:1:4\">Y. Meg. I, 70ᵃ</cite> bot. <he>שני א׳</he> (read <cite ref=\"U02091\"><he>שתי</he></cite>). Y. B. Bath. III, 14ᵃ top <he>אבטנ׳</he>; <cite ref=\"Bekhorot 55a\">Bekh. 55ᵃ</cite> <he>שני אבטילאות</he> (corr. acc., Ar. <he>אבטלאות</he>, <he>אבטליות</he>). [Cmp. corruptions of <cite ref=\"A00349\"><he>אַגְרוֹנִימוֹס</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "D00326",
+	"slug": "דוקא-1",
+	"headword": {
+		"text": "דַּוְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּוְוקָא"
+		}
+	],
+	"page": {
+		"number": 287,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00325\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>exactness, minuteness</i>. Nez. 7ᵇ <he>נחית לד׳</he> enters into minuteness (saying ‘one and a half’).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (as an adv.) <i>exactly, exclusively, only</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 76a:7\">Yeb. 76ᵃ</cite> <he>ד׳ שערתא</he> a real barley corn it must be (nothing else). ",
+				"<cite ref=\"Menachot 30a:3\">Men. 30ᵃ</cite> <he>באמצע שיטה ד׳</he> only in the middle of a line.—",
+				"<cite ref=\"Gittin 44a:16\">Gitt. 44ᵃ</cite> <he>ד׳ או לאו ד׳</he> is this meant exactly (one hundred), or not exactly? <cite ref=\"Menachot 27b:17\">Men. 27ᵇ</cite> <he>אל ד׳</he> <i>el</i> (towards) is meant in its exact sense; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "K00868",
+	"slug": "כנען",
+	"headword": {
+		"text": "כְּנַעַן"
+	},
+	"page": {
+		"number": 650,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. <i>Canaan</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Ham. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 36:7\">Gen. R. s. 36</cite> <he>חם חטא וכ׳ וכ׳</he> Ham sinned and C. was cursed?; Tanḥ. Noah 15; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the land of Canaan</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 3a:3\">R. Hash. 3ᵃ</cite> <he>כ׳ על שם מלכותו</he> (Sihon is named) C. from his kingdom; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

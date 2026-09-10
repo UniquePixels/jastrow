@@ -1,0 +1,44 @@
+{
+	"id": "H00769",
+	"slug": "חילוף",
+	"headword": {
+		"text": "חִילּוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִלּ׳"
+		}
+	],
+	"page": {
+		"number": 456,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01098\"><he>חָלַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>exchange, relief</i>.—Pl. <he>חִילּוּפִים</he>, <cite ref=\"H00848\"><he>חִילּוּפִין</he></cite> <i>those who relieve</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 3:1\">Ber. III, 1</cite> the carriers <he>וחִילּוּפֵיהֶן וחִילּוּפֵי וכ׳</he> and those designated to relieve them, and those who are to relieve the relief.—",
+				"<cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite> <he>יש להם ח׳</he> can be replaced; (<cite ref=\"Jerusalem Talmud Berakhot 2:8:5\">Y. Ber. II, 5ᶜ</cite> <cite ref=\"H01058\"><he>חֲלִיפִין</he></cite>). ",
+				"<cite ref=\"Bamidbar Rabbah 10:4\">Num. R. s. 10</cite> (ref. to <cite ref=\"H01001\"><he>חלוף</he></cite>, <cite ref=\"Proverbs 31:8\">Prov. XXXI, 8</cite>) <he>שהן חִלּוּפֵי אביהם</he> for they take the place of their father; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the contrary, reverse</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 46b:8\">Ab. Zar. 46ᵇ</cite> <he>או ח׳</he> is it not rather the reverse?; (<cite ref=\"Jerusalem Talmud Taanit 3:11:2\">Y. Taan. III, 67ᵃ</cite> <he>או חֵלֶף</he>); <cite ref=\"Jerusalem Talmud Avodah Zarah 5:12:5\">Y. Ab. Zar. V, 45ᵇ</cite> top; a. fr.—<he>ח׳ הדברים</he> the things are just the reverse. ",
+				"<cite ref=\"Avodah Zarah 51b:23\">Ab. Zar. 51ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 2:1:21\">Y. Ter. II, 41ᶜ</cite> bot.; a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:51\">Y. Peah I, 16ᵇ</cite> top <he>אבל בגוים ח׳</he> but as regards gentiles, the opposite takes place."
+			],
+			"label": "2"
+		}
+	]
+}

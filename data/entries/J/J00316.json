@@ -1,0 +1,50 @@
+{
+	"id": "J00316",
+	"slug": "יטי",
+	"headword": {
+		"text": "יְטִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְטָא"
+		}
+	],
+	"page": {
+		"number": 576,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"M00960\"><he>מְטָא</he></cite>, <cite ref=\"N00540\"><he>נְטָא</he></cite>, v. P. Sm. 1591), <i>to incline, turn</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַטֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to adduce, prefer</i>. Y. Ber. II, 4ᵇ top <he>לית אפשר דלא י׳ מילה</he> it was impossible that he should not have brought on (in his lecture) a word (alluding to the exodus from Egypt); cmp. Bab. ",
+					"units": [
+						"<cite ref=\"Berakhot 13b:19\">Ber. 13ᵇ</cite> <he>מהדר רבי אשמעתא וכ׳</he>. [Vers. in Fr. Ahǎb. Zion: <he>יָטִיף</he>; ed. Lehm. <cite ref=\"J00354\"><he>יַיְתִי</he></cite>, v. <cite ref=\"A03397\"><he>אֲתָא</he></cite>.]"
+					]
+				}
+			],
+			"stem": "*."
+		},
+		{
+			"forms": ["אַיְיטִי"],
+			"senses": [
+				{
+					"gloss": "<i>to hand, reach over</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite> <he>א׳ לי כולבא</he> Ar. s. v. <he>כלב</he> (ed. <he>אייתי … קולב׳</he>; <cite ref=\"Yalkut Shimoni on Torah 62\">Yalk. Gen. 62</cite> <cite ref=\"A02013\"><he>אמטי</he></cite>) hand me a pair of tongs (an axe). ",
+						"<cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite>, end <he>דאַיְיטִיאַת וכ׳</he> Ar. s. v. <cite ref=\"B01154\"><he>ברת</he></cite> (ed. <he>אמטיית</he>), v. <cite ref=\"A01886\"><he>אַלִּיתָא</he></cite>. ",
+						"<cite ref=\"Kohelet Rabbah 3:9\">Koh. R. to III, 9</cite> <he>כל … יַיְטֵי ליה מח וכ׳</he> every one shall bring for himself something whereon to recline."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

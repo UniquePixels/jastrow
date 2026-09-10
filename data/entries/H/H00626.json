@@ -1,0 +1,28 @@
+{
+	"id": "H00626",
+	"slug": "חטיטא",
+	"headword": {
+		"text": "חַטֵּיטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָטוֹטָא"
+		}
+	],
+	"page": {
+		"number": 449,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חֲטַט</he> I) <i>digger;</i> <he>חַטֵּיט שכבי</he> one who exhumes the dead, grave-robber. ",
+			"units": [
+				"<cite ref=\"Bava Batra 58a:8\">B. Bath. 58ᵃ</cite> <he>הוה ח׳ ש׳</he> (Ms. H. <he>קא מְחַיֵּיט מערתא</he>, early eds. <cite ref=\"H00727\"><he>חַיַּיט</he></cite>, fr. <cite ref=\"H00294\"><he>חוּט</he> I</cite>).—Pl. constr. <he>חַטִּיטֵי</he>. ",
+				"<cite ref=\"Yevamot 63b\">Yeb. 63ᵇ</cite> (some ed. <he>חָטוֹטֵי</he>)."
+			]
+		}
+	]
+}

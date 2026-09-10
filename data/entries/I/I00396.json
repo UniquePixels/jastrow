@@ -1,0 +1,41 @@
+{
+	"id": "I00396",
+	"slug": "טינופת",
+	"headword": {
+		"text": "טִינּוֹפֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִנּ׳"
+		}
+	],
+	"page": {
+		"number": 532,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"I00395\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Megillah 3a\">Meg. 3ᵃ</cite> (in Chald. dict.) <he>בטקום הט׳</he> at a place soiled with secretion. ",
+				"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite> <he>ט׳ עבודת וכ׳</he> the defilement by idolatry; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>worthless admixture in grain, refuse</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 6:2\">B. Bath. VI, 2</cite> (<cite ref=\"Bava Batra 93b:14\">93ᵇ</cite>) the buyer must accept <he>רובע ט׳ לסאה</he> one fourth of a Kab of refuse in a S’ah; Tosef. ib. VI, 2; a. e.—Pl. <cite ref=\"I00396\"><he>טִינּוֹפוֹת</he></cite>, <cite ref=\"I00394\"><he>טִנּ׳</he></cite> <i>worthless grains</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite>, beg.; Tanḥ. B’midbar 19; ed. Bub. 22."
+			],
+			"label": "2"
+		}
+	]
+}

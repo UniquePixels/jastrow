@@ -1,0 +1,53 @@
+{
+	"id": "G00737",
+	"slug": "זרר",
+	"headword": {
+		"text": "זָרַר"
+	},
+	"page": {
+		"number": 415,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"G00233\"><he>זוּר</he></cite> a. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to press, stamp;</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to scatter</i>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נָזַר", "נִיזָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be scattered</i>. Pesik. Vayhi, p. 64ᵇ <he>היתה נדקת … ונִזֶּרֶת</he> was crushed, ground, and scattered; <cite ref=\"Pesikta Rabbati 17\">Pesik. R. s. 17</cite>; <cite ref=\"Yalkut Shimoni on Torah 186\">Yalk. Ex. 186</cite>; Mekh. Bo s. 13 <he>וכִזָּרוֹת …</he> (pl.).",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוּזָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be smashed</i>. Part. <he>מוּזָר</he>, fem. <he>מוּזֶרֶת</he>, pl. <he>מוּזָרוֹת</he>. <he>ביצה מ׳</he> an egg smashed in the nest, <i>rotten</i> (cmp. <cite ref=\"M00049\"><he>מָאַס</he></cite>). ",
+					"units": [
+						"<cite ref=\"Sanhedrin 82b\">Snh. 82ᵇ</cite>; Tanḥ. Pinḥ. 2; a. e., v. <cite ref=\"G00543\"><he>זָמַר</he> III</cite>.—",
+						"<cite ref=\"Niddah 35b\">Nidd. 35ᵇ</cite>. ",
+						"<cite ref=\"Mishnah Chullin 12:3\">Ḥull. XII, 3</cite>."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

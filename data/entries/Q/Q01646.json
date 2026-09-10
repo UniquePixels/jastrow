@@ -1,0 +1,32 @@
+{
+	"id": "Q01646",
+	"slug": "פרוזבול",
+	"headword": {
+		"text": "פְּרוֹזְבּוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרוֹסְבּוֹל"
+		}
+	],
+	"page": {
+		"number": 1218,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (an abbrev. of πρὸς βουλῇ βουλευτῶν, v. <cite ref=\"B00256\"><he>בּוּלְבּוּטֵיס</he></cite>) <i>prosbul, a declaration made in court, before the execution of a loan, to the effect that the law of limitation by the entrance of the Sabbatical year shall not apply to the loan to be transacted</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 10:4\">Shebi. X, 4</cite>; <cite ref=\"Gittin 36a:12\">Gitt. 36ᵃ</cite> <he>זהו גופו של פ׳ מוסרני לכם וכ׳</he> this is the body (formula) of a <i>prosbol</i>, ‘I declare before you—, judges in the place—, that I shall collect any debt that I may have outstanding with—, whenever I desire,’ and this is attested by the judges or witnesses. ",
+				"<cite ref=\"Mishnah Sheviit 10:3\">Shebi. X, 3</cite> <he>פ׳ אינו משמט</he> the <i>prosbol</i> has the effect of preventing limitation; <he>כשראה התקין הלל פ׳ …</he> when he observed that people refused to loan to one another and thus violated what is written in the Law (<cite ref=\"Deuteronomy 15:9\">Deut. XV, 9</cite>), Hillel introduced the <i>prosbol</i>. ",
+				"<cite ref=\"Gittin 36b:5\">Gitt. 36ᵇ</cite> <he>כי התקין הלל פ׳ לדריה וכ׳</he> when Hillel instituted the <i>prosbol</i>, did he ordain it for his time only or for all time to come? <cite ref=\"Mishnah Sheviit 10:5\">Shebi. X, 5</cite> <he>פ׳ המוקדם כשר וכ׳</he> a <i>prosbol</i> written out before the loan is legal, if after the loan, it is illegal. ",
+				"<cite ref=\"Tosefta Shevi'it 8:10\">Tosef. ib. VIII, 10</cite>; a. fr.—Pl. <cite ref=\"Q01648\"><he>פְּרוֹזְבּוּלִין</he></cite>, <he>פְּרוֹזְבְּלִין</he>, <he>פְּרוֹסְ׳</he>. ",
+				"<cite ref=\"Tosefta Bava Batra 11:7\">Tosef. B. Bath. XI, 7</cite>. ",
+				"<cite ref=\"Tosefta Bava Metzia 1:9\">Tosef. B. Mets. I, 9</cite>."
+			]
+		}
+	]
+}

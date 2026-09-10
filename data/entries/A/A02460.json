@@ -1,0 +1,28 @@
+{
+	"id": "A02460",
+	"slug": "אסל",
+	"headword": {
+		"text": "אָסֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָסֵיל"
+		}
+	],
+	"page": {
+		"number": 94,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01003\"><he>סלל</he></cite>; cmp. Gr. ἄσιλλα) <i>a pole</i> or <i>yoke</i> carried on two or, more commonly, on one shoulder. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 7:5\">Par. VII, 5</cite> <he>וקושרו בא׳</he> and fastens the bucket to the pole. ",
+				"<cite ref=\"Mishnah Kelim 17:16\">Kel. XVII, 16</cite> <he>הא׳ שיש בו וכ׳</he> a carrying yoke in which there is a (hidden) receptacle for money; <cite ref=\"Kohelet Rabbah 9:13\">Koh. R. to IX, 13</cite> <he>אסיל</he>."
+			]
+		}
+	]
+}

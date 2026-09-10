@@ -1,0 +1,84 @@
+{
+	"id": "M01543",
+	"slug": "מלי-2",
+	"headword": {
+		"text": "מְלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְלָא"
+		}
+	],
+	"page": {
+		"number": 789,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"M01461\"><he>מָלֵא</he></cite><i>to be full</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 3:15\">Targ. Josh. III, 15</cite>; a. fr.; v. <cite ref=\"M01544\">next art.</cite> ",
+				"<cite ref=\"Avodah Zarah 28a:9\">Ab. Zar. 28ᵃ</cite> <he>דלא מָלוּ תִילתא</he>, v. <cite ref=\"V00453\"><he>תִּילְתָּא</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fill</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:22\">Targ. Gen. I, 22</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 6:11\">Targ. Deut. VI, 11</cite> (O. ed. Vienna <cite ref=\"M01542\"><he>מַלֵּ׳</he></cite> <i>Pa.</i>); a. fr.—Part. <cite ref=\"M01543\"><he>מָלֵי</he></cite>; f. <cite ref=\"M01546\"><he>מַלְּיָא</he></cite>; pl. <he>מָלָן</he>; <cite ref=\"M01549\"><he>מַלְיָאתָא</he></cite>, <cite ref=\"M01555\"><he>מַלְיָיתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 6:11\">Ib.</cite> O. XXIX, 10. ",
+				"<cite ref=\"Targum Jonathan on Joshua 9:21\">Targ. Josh. IX, 21</cite> (ed. Wil. <he>מְלָן</he>). ",
+				"<cite ref=\"Onkelos Genesis 24:11\">Targ. Gen. XXIV, 11</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַלֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to fill</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 13:13\">Targ. Jer. XIII, 13</cite>; a. fr.—",
+						"<cite ref=\"Vayikra Rabbah 21:8\">Lev. R. s. 21</cite> <he>מַלּוֹי קולתיך</he> fill thy vessel; Pesik. Aḥăré, p. 176ᵇ; <cite ref=\"Yalkut Shimoni on Torah 571:10\">Yalk. Lev. 571</cite> <he>מלתי</he> (read: <cite ref=\"M01467\"><he>מַלְּאִי</he></cite>); <cite ref=\"Ketubot 62b:12\">Keth. 62ᵇ</cite> <cite ref=\"M01542\"><he>מַלִּי</he></cite>. ",
+						"<cite ref=\"Avodah Zarah 29a:6\">Ab. Zar. 29ᵃ</cite> <he>ומַלְּיֵיה מיא</he> and fill it with water. ",
+						"<cite ref=\"Taanit 29a\">Taan. 29ᵃ</cite>; <cite ref=\"Shevuot 10a\">Shebu. 10ᵃ</cite>; <cite ref=\"Pesachim 77a:2\">Pes. 77ᵃ</cite> <he>תמוז … מַלּוּיֵי מַלְּיוּהָ</he> they made the Tammuz of that year a full month (of thirty days); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to complement, compensate, replace</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 2:21\">Targ. O. Gen. II, 21</cite> <he>ומַלִי</he> ed. Berl. (ed. Amst. <he>ומְ׳</he>, corr. acc.).—",
+						"<cite ref=\"Bava Metzia 105a:2\">B. Mets. 105ᵃ</cite> <he>טרח ומַלְּיֵיה</he> he took pains to make up for the loss. ",
+						"<cite ref=\"Bava Metzia 105a:2\">Ib.</cite> <he>טרחת ומַלְּיָיתֵיה וכ׳</he> Ms. M. (ed. <he>למַלָּיוּתֵיה</he>) thou didst take pains to make up &c.; a. e.—["
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " מ׳ על לבא <i>to comfort</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 34:3\">Targ. O. Gen. XXXIV, 3</cite> ed. Berl. (v. Berl. Mass., p. 27); v., however, <cite ref=\"Kiddushin 50a:14\">Kidd. 50ᵃ</cite>, quot. s. v. <cite ref=\"M01595\"><he>מְלַל</he> II</cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְמְלִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be filled, full</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 6:13\">Targ. Gen. VI, 13</cite>. ",
+						"<cite ref=\"Onkelos Exodus 40:34\">Targ. Ex. XL, 34</cite> <he>א׳ ית וכ׳</he> (<i>filled</i>); a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

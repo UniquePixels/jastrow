@@ -1,0 +1,22 @@
+{
+	"id": "U00692",
+	"slug": "שחצית",
+	"headword": {
+		"text": "שַׁחֲצִית"
+	},
+	"page": {
+		"number": 1550,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"U00688\"><he>שָׁחָץ</he></cite>) <i>ostentatiousness</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:2:5\">Y. Shek. IV, 48ᵃ</cite> <he>ש׳ גדולה היתה וכ׳</he> there was great love of display among the sons of the high priests."
+			]
+		}
+	]
+}

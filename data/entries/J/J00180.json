@@ -1,0 +1,88 @@
+{
+	"id": "J00180",
+	"slug": "יוחנן",
+	"headword": {
+		"text": "יוֹחָנָן"
+	},
+	"page": {
+		"number": 568,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Johanan, John;</i> ",
+			"units": []
+		},
+		{
+			"gloss": " J. ben Kareah, a follower of the Babylonian governor of Judaea (<cite ref=\"Jeremiah 40:8\">Jer. XL, 8</cite> sq.). Esth. R. introd., beg.; <cite ref=\"Jerusalem Talmud Sukkah 5:1:5\">Y. Succ. V, 55ᵇ</cite> top; Mekh. B’shall., Vayhi, s. 2.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " John Hyrcan, the Asmonean highpriest and king <he>(י׳ כהן גדול</he>). Maash. Sh. V, 15; <cite ref=\"Mishnah Sotah 9:10\">Sot. IX, 10</cite>; a. fr.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " name of several Tannaim, esp. ",
+			"units": [],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " Rabban J. b. Zaccai. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 2:8\">Ab. II, 8</cite>. ",
+						"<cite ref=\"Mishnah Rosh Hashanah 4:3\">R. Hash. IV, 3</cite>. Mekh. Yithro, Baḥod., s. 11. ",
+						"<cite ref=\"Mishnah Sotah 9:9\">Sot. IX, 9</cite>; <cite ref=\"Mishnah Sotah 9:15\">15</cite>. ",
+						"<cite ref=\"Gittin 56a:15\">Gitt. 56ᵃ</cite>, sq.; a. v. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " R. J. b. Bag-Bag (usu. only Ben-Bag-Bag). ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Ketubot 5:2:2\">Y. Keth. V, 29ᵈ</cite> bot. ",
+						"<cite ref=\"Bava Kamma 27b:4\">B. Kam. 27ᵇ</cite>; a. fr.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " R. J. b. B’roka. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 10:2\">B. Kam. X, 2</cite>; a. fr.—"
+					],
+					"label": "c"
+				},
+				{
+					"gloss": " R. J. b. Godgada. ",
+					"units": [
+						"<cite ref=\"Mishnah Eduyot 7:9\">Eduy. VII, 9</cite>; a. e.—"
+					],
+					"label": "d"
+				},
+				{
+					"gloss": " R. J. has-Sandlar. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 4:11\">Ab. IV, 11</cite>; a. fr.—"
+					],
+					"label": "e"
+				},
+				{
+					"gloss": " R. J. b. Nuri. ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 4:5\">Erub. IV, 5</cite>; <cite ref=\"Gittin 67a:8\">Gitt. 67ᵃ</cite>; a. fr.; "
+					],
+					"label": "f"
+				}
+			]
+		},
+		{
+			"gloss": " name of several Amoraim, esp. R. J. han-Nappaḥ or Bar Nafḥa (the Smith). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:2\">Y. R. Hash. II, 58ᵇ</cite> top. ",
+				"<cite ref=\"Chullin 137b:16\">Ḥull. 137ᵇ</cite>; a. v. fr. (as R. J. only); v. Fr. M’bo p. 95ᵇ, sq.—V. <cite ref=\"H00868\"><he>חִיקוֹק</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

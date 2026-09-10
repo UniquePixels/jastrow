@@ -1,0 +1,34 @@
+{
+	"id": "B00016",
+	"slug": "באות",
+	"headword": {
+		"text": "בָּאוָת"
+	},
+	"page": {
+		"number": 135,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בּיּת</he>; cmp. Lat. noctua) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>night-bird, owl</i> (for <he>תִּנְשֶׁמֶת</he> <cite ref=\"Leviticus 11:18\">Lev. XI, 18</cite>). ",
+			"units": [
+				"<cite ref=\"Chullin 63a:9\">Ḥull. 63ᵃ</cite> <he>בא׳ שבעופות</he> (Ar. <cite ref=\"B00201\"><he>בואת</he></cite>) the <i>bavath</i> among the birds."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>groper in the dark, mole</i> or <i>salamander</i> (for <he>תנשמת</he> <cite ref=\"Leviticus 11:30\">Lev. XI, 30</cite>). ",
+			"units": [
+				"<cite ref=\"Leviticus 11:30\">Ib.</cite> <he>ב׳ שבשרצים</he> the <i>bavath</i> among the reptiles. [Targ. O. for 1): <cite ref=\"B00402\"><he>בָּוְתָא</he></cite>; for 2): <cite ref=\"A03278\"><he>אָשׁוּתָא</he></cite> q. v.; v. also <cite ref=\"O01008\"><he>סַלְמַנְדְּרָא</he></cite>.—Var. in Targ. O. to <cite ref=\"Leviticus 11:18\">Lev. XI, 18</cite> <he>בבתא</he>, <cite ref=\"B00402\"><he>בּוֹתָא</he></cite>, <cite ref=\"K00416\"><he>כַּוְתָא</he></cite>, <cite ref=\"K00317\"><he>כּוֹסָא</he></cite>, v. Berl. Targ. O. II, p. 34.]"
+			],
+			"label": "2"
+		}
+	]
+}

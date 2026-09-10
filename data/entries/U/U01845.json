@@ -1,0 +1,35 @@
+{
+	"id": "U01845",
+	"slug": "שקט-3",
+	"headword": {
+		"text": "שְׁקַט"
+	},
+	"page": {
+		"number": 1622,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01844\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 18:7\">Targ. Jud. XVIII, 7</cite>; <cite ref=\"Targum Jonathan on Judges 18:27\">27</cite>. ",
+				"<cite ref=\"Onkelos Exodus 23:12\">Targ. Ex. XXIII, 12</cite> (h. text <he>וינפש</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 30:10\">Targ. Jer. XXX, 10</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁקֵיט"],
+			"senses": [
+				{
+					"gloss": "<i>to give rest</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 62:1\">Targ. Is. LXII, 1</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

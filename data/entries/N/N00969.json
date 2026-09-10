@@ -1,0 +1,29 @@
+{
+	"id": "N00969",
+	"slug": "נעוא",
+	"headword": {
+		"text": "נַעֲוָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַעֲוָוא"
+		}
+	],
+	"page": {
+		"number": 919,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00225\"><he>עוי</he></cite>) [<i>hollowed out</i>,] <i>tank</i> of the press (h. . ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 22:28\">Targ. Y. Ex. XXII, 28</cite>.—Pl. <he>נַעֲוַיָּא</he>, <cite ref=\"N00969\"><he>נַעֲוַו׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Joel 2:24\">Targ. Joel II, 24</cite>. ",
+				"<cite ref=\"Onkelos Genesis 49:12\">Targ. O. Gen. XLIX, 12</cite>.—[Sachs, Beitr. II, 27: adaptation of Lat. <i>navia</i>.]"
+			]
+		}
+	]
+}

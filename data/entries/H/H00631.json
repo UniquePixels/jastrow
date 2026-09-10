@@ -1,0 +1,31 @@
+{
+	"id": "H00631",
+	"slug": "חטייא-2",
+	"headword": {
+		"text": "חֶטְיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֶטְיָיה"
+		}
+	],
+	"page": {
+		"number": 449,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"H00618\"><he>חֲטָי</he></cite>, <i>sin, misconduct, failing</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 26\">Ex. R. s. 26</cite> (ref to <cite ref=\"Exodus 17:5\">Ex. XVII, 5</cite>) <he>עבור על ח׳ שלהם</he> pass over (ignore) their misconduct; (Yalk. ib. 262; Mekh. B’shall., Vayassa, s. 6 <cite ref=\"H00581\"><he>חֵטא</he></cite>). ",
+				"<cite ref=\"Pesikta Rabbati 13:1\">Pesik. R. s. 13</cite> <he>והואיל ומפני ח׳ של אבותיהם וכ׳</he> (not <he>עונותיהם</he>) since Amalek came in consequence of the sin of their fathers (at Rephidim), says He to them, Remember &c. (<cite ref=\"Deuteronomy 25:17\">Deut. XXV, 17</cite>)?—",
+				"<cite ref=\"Bereishit Rabbah 18\">Gen. R. s. 18</cite>, end <he>מאיזו ח׳ וכ׳</he> (<cite ref=\"Yalkut Shimoni on Torah 25\">Yalk. Gen. 25</cite> <he>מאיזה טעם</he>) on account of what impropriety of conduct &c. ",
+				"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>, end <he>מפני ח׳ אחת וכ׳</he> on account of one single misconduct (in making the golden calf) &c. ",
+				"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite> <he>תכתב ח׳ שלי וכ׳</he> let my failing be recorded (<cite ref=\"Yoma 86b\">Yoma 86ᵇ</cite>, a. e. <he>סורחני</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "G00331",
+	"slug": "זיטימא",
+	"headword": {
+		"text": "זִיטִימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיטְמָא"
+		}
+	],
+	"page": {
+		"number": 393,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ζήτημα) <i>judicial inquiry</i>, <he>דבר של ז׳</he> <i>something subject to investigation, charge, suspicion</i> (of heresy, cmp. Acta XVIII, 15; XXIII, 29, or of illoyalty). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:8\">Num. R. s. 4</cite> <he>זיטימ׳</he> Mus. (ed. <cite ref=\"G00331\"><he>זיטמא</he></cite>). Pesik. Aḥaré, p. 173ᵇ <he>זיטי׳</he> Ar. s. v. <he>זנם</he> Var. (ed. <cite ref=\"G00382\"><he>זינומייא</he></cite>; Ar. <cite ref=\"G00385\"><he>זינימון</he></cite>, read <he>זִיטִיסִין</he> = ζήτησις); <cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite> <he>זינימון</he> Ar. (ed. <cite ref=\"U01523\"><he>שׁמְצָה</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 525:1\">Yalk. Lev. 525</cite> <cite ref=\"G00134\"><he>זוהמא</he></cite>, <cite ref=\"G00184\"><he>זומא</he></cite>)."
+			]
+		}
+	]
+}

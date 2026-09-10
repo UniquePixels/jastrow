@@ -1,0 +1,33 @@
+{
+	"id": "A02040",
+	"slug": "אמן-3",
+	"headword": {
+		"text": "אָמֵן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 77,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"A02039\">preced.</cite>) <i>firm, straight</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Amen!, true! so may it be!</i> <cite ref=\"Shevuot 36a:9\">Shebu. 36ᵃ</cite> <he>א׳ בו שבועה וכ׳</he> in <i>Amen</i> is implied an oath, a promise, and a prayer for fulfillment. ",
+			"units": ["<cite ref=\"Avodah Zarah 65a:4\">Ab. Zar. 65ᵃ</cite>; a. fr."],
+			"label": "1"
+		},
+		{
+			"gloss": " fem., <i>the response Amen</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 47a:10\">Ber. 47ᵃ</cite> <he>א׳ חטופה</he> an Amen hastily pronounced (<i>’men</i>); <he>א׳ קטופה</he> an Amen cut short (<i>ame</i>-); <he>א׳ יתומה</he> an orphan Amen, the responder not having heard the benediction to which the Amen refers; Tosef. Meg. IV (III), 27."
+			],
+			"label": "2"
+		}
+	]
+}

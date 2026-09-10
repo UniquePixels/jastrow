@@ -1,0 +1,26 @@
+{
+	"id": "U00651",
+	"slug": "שחין-3",
+	"headword": {
+		"text": "שְׁחִין",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1547,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00650\">same</cite><i>heat</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 18:4\">Targ. Is. XVIII, 4</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sore, boil</i>, v. <cite ref=\"U00678\"><he>שִׁחְנָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

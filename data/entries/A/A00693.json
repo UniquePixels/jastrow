@@ -1,0 +1,23 @@
+{
+	"id": "A00693",
+	"slug": "אומולוגייא",
+	"headword": {
+		"text": "אוֹמוֹלוֹגְיָיא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 27,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ὁμολογία) [<i>agreement, admission</i>] <i>receipt, discharge</i>. [This meaning of ὁμολογία as <i>receipt</i> cannot be proven from Greek literature; cmp. however, Sm. Dict. Ant. s. v. Acceptilatio.] <cite ref=\"Jerusalem Talmud Moed Katan 3:3:3\">Y. M. Kat. III, 82ᵃ</cite> bot., explaining <he>שוברים</he> (v. <cite ref=\"U00331\"><he>שׁוֹבֵר</he></cite>, receipt) <cite ref=\"A01328\"><he>אימולוגים</he></cite> (corr. acc., De Lara <cite ref=\"A00694\"><he>אוֹמוֹלוֹגִין</he></cite> pl. m. fr. ὁμόλογον). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 9:9:2\">Y. Keth. IX, end, 33ᶜ</cite> <he>ולית רב או׳</he> (= <he>ולית ליה לרב</he> is it Rab’s opinion that the divorced woman is not bound to write a receipt (for her dowry)?"
+			]
+		}
+	]
+}

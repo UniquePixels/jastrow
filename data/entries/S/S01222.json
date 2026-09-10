@@ -1,0 +1,30 @@
+{
+	"id": "S01222",
+	"slug": "קישקושא-2",
+	"headword": {
+		"text": "קִישְׁקוּשָׁא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִשְׁ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1370,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קשש</he>; cmp. ",
+			"units": [
+				"<cite ref=\"Zephaniah 2:1\">Zeph. II, 1</cite>) <i>gathering place</i> (in war times); <i>tower, fort</i>.—Pl. <cite ref=\"S02255\"><he>קִישְׁקוּשֵׁי</he></cite>, <cite ref=\"S01220\"><he>קִשְׁ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 11a:2\">Sabb. 11ᵃ</cite> <he>אבל בק׳ וכ׳</he> but as to towers and turrets, we care not (they may be higher than the synagogue)."
+			]
+		}
+	]
+}

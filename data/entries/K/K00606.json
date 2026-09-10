@@ -1,0 +1,27 @@
+{
+	"id": "K00606",
+	"slug": "כיפי",
+	"headword": {
+		"text": "כֵּיפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּי כֵּיפֵי"
+		}
+	],
+	"page": {
+		"number": 635,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Be-Khefé</i> in Babylonia. ",
+			"units": [
+				"<cite ref=\"Berakhot 31a:16\">Ber. 31ᵃ</cite> (Ms. M. <cite ref=\"S00493\"><he>קופאי</he></cite>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

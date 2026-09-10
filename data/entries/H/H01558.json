@@ -1,0 +1,26 @@
+{
+	"id": "H01558",
+	"slug": "חקירה",
+	"headword": {
+		"text": "חֲקִירָה"
+	},
+	"page": {
+		"number": 497,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01565\"><he>חָקַר</he></cite>) <i>search, speculation, study</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:7:3\">Y. Keth. VII, 31ᶜ</cite> bot., a. e. <he>נדר … חֲקִירַת חכם</he> a vow which requires the study of a scholar (to find out means of absolving).—Esp. <i>examination of witnesses, cross-examination</i>. ",
+				"<cite ref=\"Rosh Hashanah 25b:11\">R. Hash. 25ᵇ</cite> <he>חקירת העדים</he> the hearing of witnesses (testifying to having seen the first appearance of the new crescent). ",
+				"<cite ref=\"Mishnah Sanhedrin 4:1\">Snh. IV, 1</cite> <he>בדרישה וח׳</he> require investigation and examination of witnesses; a. fr.—Pl. <he>חֲקִירוֹת</he> <i>cross-examination referring to date, time and place</i>, contrad. to <he>בדיקות</he> referring to accompanying circumstances. ",
+				"<cite ref=\"Mishnah Sanhedrin 5:1\">Ib. V, 1</cite> <he>היו … בשבע ח׳</he> (in capital cases) they examined by means of seven questions, what year-week, what year, month, day, hour and place. ",
+				"<cite ref=\"Mishnah Sanhedrin 5:2\">Ib. 2</cite> <he>מה בין ח׳ לבדיקות</he> what is the difference in point of law between &c.? <cite ref=\"Sanhedrin 40b:11\">Ib. 40ᵇ</cite> <he>שמונה ח׳</he> eight questions; a. fr."
+			]
+		}
+	]
+}

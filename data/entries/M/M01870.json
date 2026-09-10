@@ -1,0 +1,27 @@
+{
+	"id": "M01870",
+	"slug": "מסוכריא",
+	"headword": {
+		"text": "מְסוֹכְרָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסוֹכְרָיָיא"
+		}
+	],
+	"page": {
+		"number": 804,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00941\"><he>סְכַר</he></cite>) <i>stopper</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 111a:9\">Sabb. 111ᵃ</cite> bot.; <cite ref=\"Ketubot 6a:3\">Keth. 6ᵃ</cite>; <cite ref=\"Bekhorot 25a:2\">Bekh. 25ᵃ</cite> <he>מ׳ דנזייתא</he> (Ar. s. v. <cite ref=\"O00090\"><he>סבר</he></cite>, a. Ms. M. a. F. Sabb. l. c.: <he>מסוב׳</he>) the stopper of the brewing boiler (made of soft material, as rags &c.)."
+			]
+		}
+	]
+}

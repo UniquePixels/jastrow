@@ -1,0 +1,25 @@
+{
+	"id": "H01178",
+	"slug": "חמילה",
+	"headword": {
+		"text": "חֲמִילָה"
+	},
+	"page": {
+		"number": 477,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01197\"><he>חמל</he></cite>; cmp. Syr. <cite ref=\"H01197\"><he>חמל</he></cite>, P. Sm. 1303, sq.) <i>a blanket of thick, coarse stuff</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 7:3\">Ned. VII, 3</cite>. ",
+				"<cite ref=\"Nedarim 55b\">Ib. 55ᵇ</cite>; <cite ref=\"Tosefta Shabbat 5:14\">Tosef. Sabb. V</cite> (<cite ref=\"Tosefta Shabbat 6:14\">VI</cite>), 14 <cite ref=\"M01461\"><he>מילא</he></cite> ed. Zuck. (Var. <he>המלא</he>, <cite ref=\"H01198\"><he>חמלא</he></cite>).—Pl. <he>חֲמִילוֹת</he>. ",
+				"<cite ref=\"Tosefta Keilim Batra 5:11\">Tosef. Kel. B. Bath. V, 11</cite>. ",
+				"<cite ref=\"Tosefta Negaim 5:14\">Tosef. Neg. V, 14</cite> <cite ref=\"H01158\"><he>חמולות</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

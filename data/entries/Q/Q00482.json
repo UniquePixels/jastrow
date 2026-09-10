@@ -1,0 +1,33 @@
+{
+	"id": "Q00482",
+	"slug": "פחס",
+	"headword": {
+		"text": "פָּחַס"
+	},
+	"page": {
+		"number": 1153,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q00486\"><he>פָּחַת</he></cite>) [<i>to drive into</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to batter, beat out of shape</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 4:5\">Ab. Zar. IV, 5</cite> <he>פְּחָסָהּ אע״פ שלא חיסרה</he> if he smashed the face of the idol, although he did not lessen its substance. ",
+				"<cite ref=\"Avodah Zarah 42a:10\">Ib. 42ᵃ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 7\">Lev. R. s. 7</cite>, beg. <he>שהיה אהרן נוטל קורנס ופוֹחֲסוֹ בפניהם</he> (not <he>קרבנם</he>) Aaron took a hammer and smashed it (the golden calf) in their presence; <cite ref=\"Yalkut Shimoni on Torah 479\">Yalk. ib. 479</cite> <he>שהיה הקכ״ה … ופיתחו</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 946:2-6\">Yalk. Prov. 946</cite> <he>הקב״ה … את הפנקס ופותחו</he> (corr. acc., or <he>ופיֹחֲתוֹ</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of liquids) <i>to dash into, to cause commotion, stir up</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 72b:2\">Ab. Zar. 72ᵇ</cite> <he>פְּחָסַתּוֹ צלוחיתו</he> his bowl, which was filled to the brim through a syphon, pressed the wine back into the tube and thus stirred the whole mass up; ib. 56ᵇ (I may also say) <he>פחסתו בורו</he> the vat into which the net (<cite ref=\"C01245\"><he>גַּרְגּוּתְנִי</he></cite>) was thrown set the wine in commotion.—Chald. v. <cite ref=\"Q00485\"><he>פְּחַשׁ</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

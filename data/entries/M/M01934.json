@@ -1,0 +1,42 @@
+{
+	"id": "M01934",
+	"slug": "מסירה",
+	"headword": {
+		"text": "מְסִירָה"
+	},
+	"page": {
+		"number": 807,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02006\"><he>מָסַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>harnessing, taking possession of a working animal by an act resembling harnessing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:4\">Kidd. I, 4</cite>, v. <cite ref=\"M00553\"><he>מוֹסֵרָה</he></cite>. ",
+				"<cite ref=\"Tosefta Kiddushin 1:8\">Tosef. ib. I, 8</cite> <he>איזו היא מ׳ מסר לו … ומוֹסִירָהּ</he> (ed. Zuck. <he>ומוסֵירה</he>, Var. <he>במוסרה</he>) what is <i>m’sirah?</i> He (the seller) hands him (the buyer) a bit and he harnesses it (the animal); <cite ref=\"Kiddushin 22b:12\">Kidd. 22ᵇ</cite> <he>כיצד במ׳ אחזה וכ׳</he> what is <i>bimsirah</i> (<cite ref=\"Mishnah Kiddushin 1:4\">Kidd. I, 4</cite>)? He seizes its hoof, hair &c., a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>handing, delivery</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 9b:14\">Gitt. 9ᵇ</cite>, a. fr. <he>עדי מ׳</he>, v. <cite ref=\"K01281\"><he>כְּרַת</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>levy</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:2\">Cant. R. to IV, 4</cite> (ref. to <cite ref=\"Numbers 31:5\">Num. XXXI, 5</cite>) <he>שנים … במ׳</he> twelve thousand men were raised by levy, opp. <he>בנדבה</he> as volunteers."
+			],
+			"label": "3"
+		}
+	]
+}

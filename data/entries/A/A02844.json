@@ -1,0 +1,35 @@
+{
+	"id": "A02844",
+	"slug": "אפשר",
+	"headword": {
+		"text": "אֶפְשַׁר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶיפְשַׁר"
+		},
+		{
+			"text": "אֶוְשַׁר"
+		}
+	],
+	"page": {
+		"number": 109,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02099\"><he>פשר</he></cite>) <i>division, space between, alternative</i>, whence <i>possibility; it is possible</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 14:14\">Targ. Job XIV, 14</cite>; a. fr.—",
+				"<cite ref=\"Chullin 11b:10\">Ḥull. 11ᵇ</cite> <he>היכא דא׳ א׳</he> where it is possible (to ascertain facts), it is possible (we must do), but where it is impossible &c. ",
+				"<cite ref=\"Yevamot 61b:18\">Yeb. 61ᵇ</cite> sq. <he>אין דנין א׳ משאי א׳</he> we cannot form an analogy between a case where there is an alternative and one where there is none. ",
+				"<cite ref=\"Shabbat 129a:18\">Sabb. 129ᵃ</cite> <he>לא א׳ ליה</he> he has no means. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:4:2\">Y. Sot. VII, 21ᶜ</cite> bot. <he>אי א׳ לומר</he> you cannot say. ",
+				"<cite ref=\"Taanit 3b:2\">Taan. 3ᵇ</cite> <he>אי א׳ לעולם וכ׳</he> the world cannot exist without &c.; a. fr."
+			]
+		}
+	]
+}

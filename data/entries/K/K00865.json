@@ -1,0 +1,43 @@
+{
+	"id": "K00865",
+	"slug": "כנסת",
+	"headword": {
+		"text": "כְּנֶסֶת"
+	},
+	"page": {
+		"number": 650,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00864\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gathering, storage</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 4:6:2\">Y. B. Bath. IV, 14ᶜ</cite> bot. <he>בית הכ׳ שלעצים</he> a store-house for wood (= <cite ref=\"A00825\"><he>אוֹצָר</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>assembly, community, congregation</i>, esp. <i>congregation of worshippers</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 21\">Ex. R. s. 21</cite> (interch. with <cite ref=\"K00864\">preced. w.</cite>); <cite ref=\"Yalkut Shimoni on Nach 840:2\">Yalk. Ps. 840</cite>, v. preced.—<he>בית הכ׳</he> (abbr. <he>בה״כ</he>) <i>synagogue</i>. ",
+				"<cite ref=\"Berakhot 6a\">Ber. 6ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Megillah 3:1\">Meg. III, 1</cite> (<cite ref=\"Megillah 25b\">25ᵇ</cite>); a. fr.—",
+				"<cite ref=\"Mishnah Sotah 7:7\">Sot. VII, 7</cite> <he>חזן הכ׳</he> the sexton of the synagogue within the Temple precincts; <cite ref=\"Sukkah 51b\">Succ. 51ᵇ</cite> of the synagogue of Alexandria, v. <cite ref=\"H00551\"><he>חַזָּן</he></cite>; a. fr.—<he>כ׳ ישראל</he> (abbrev. <cite ref=\"K00473\"><he>כ״י</he></cite>) the congregation of Israel, <i>the Ecclesia</i>, (often personified as a woman betrothed to the Lord). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:4\">Cant. R. to I, 4</cite>; a. fr.—<he>כ׳ הגדולה</he> (abbr. <he>כה״ג</he>) <i>the Great Assembly, Ecclesia</i> or <i>Synagoga Magna</i>, a supreme authority established under Ezra and Nehemiah. ",
+				"<cite ref=\"Pirkei Avot 1:1\">Ab. I, 1</cite>, a. fr. <he>אנשי כ׳ הג׳</he> the men of the original Great Synagogue. ",
+				"<cite ref=\"Pirkei Avot 1:2\">Ib. 2</cite> <he>שירי כה״ג</he> the last members of the Great Synagogue.—Pl. <he>כְּנֵסִיּוֹת</he>, <he>כְּנֵיסִ׳</he>. Lam. R. introd. (R. Yitsḥ. 3) <he>בני כְּנֵסִיּוֹתָיו</he> his fellow-members in the royal council; (<cite ref=\"Yalkut Shimoni on Nach 318\">Yalk. Is. 318</cite> <he>בני המלך</he>).—<he>בתי כ׳</he> synagogues. ",
+				"<cite ref=\"Megillah 6a:14\">Meg. 6ᵃ</cite>. Y. ib. III, beg. 73ᵈ <he>ארבע … ב׳ כ׳ וכ׳</he> there were four hundred and eighty synagogues in Jerusalem, and each had a school &c. ",
+				"<cite ref=\"Chullin 51a:5\">Ḥull. 51ᵃ</cite> <he>מפטיר כ׳</he> janitor at meetings of scholars in college. ",
+				"<cite ref=\"Pesachim 49b:2\">Pes. 49ᵇ</cite> <he>ראשי כ׳</he> chiefs of congregations or synagogues."
+			],
+			"label": "2"
+		}
+	]
+}

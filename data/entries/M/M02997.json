@@ -1,0 +1,25 @@
+{
+	"id": "M02997",
+	"slug": "משתית",
+	"headword": {
+		"text": "מַשְׁתִּית"
+	},
+	"page": {
+		"number": 859,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"U02068\"><he>שָׁת</he></cite>, pl. <he>שָׁתוֹת</he>; <cite ref=\"U01103\"><he>שִׁית</he></cite>) <i>foundation</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 71:9\">Gen. R. s. 71</cite> (play on <he>ב̇ג̇ד̇</he>, <cite ref=\"Genesis 30:11\">Gen. XXX, 11</cite>) <he>ב̇א מי שעתיד לג̇ד̇ד מַשְׁתִּיתָן וכ׳</he> he is coming who is destined to cut down the foundation (idolatry) of the gentiles (Ellijah the Gadite). v. <cite ref=\"M02990\"><he>מִשְׁתּוּיִין</he></cite>; <cite ref=\"Midrash Tehillim 90:2\">Midr. Till. to Ps. XC, 1</cite> <he>מַשְׁתִּיתוֹ של עכ״ום</he> the foundation of idolatry. ",
+				"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite> (ref. to <he>השתות</he>, <cite ref=\"Psalms 11:3\">Ps. XI, 3</cite>) Jacob <he>שהוא מַשְׁתִּיתוֹ ויסודו וכ׳</he> who is the foundation and basis of the world; (<cite ref=\"Yalkut Shimoni on Nach 653:3\">Yalk. Ps. 653</cite> <he>שְׁתִיַּית עולם</he>, v. <cite ref=\"U02099\"><he>שְׁתִיָּה</he></cite>). ",
+				"<cite ref=\"Kohelet Rabbah 2:5:1\">Koh. R. to II, 5</cite> <he>מַשְׁתִּיתָהּ של ארץ</he> the foundation (centre) of the earth. ",
+				"<cite ref=\"Kohelet Rabbah 2:5:1\">Ib.</cite> to II, 12. Midr. Sam. ch. XXVI."
+			]
+		}
+	]
+}

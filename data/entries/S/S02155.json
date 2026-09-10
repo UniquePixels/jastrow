@@ -1,0 +1,31 @@
+{
+	"id": "S02155",
+	"slug": "קרצף-2",
+	"headword": {
+		"text": "קַרְצֵף"
+	},
+	"page": {
+		"number": 1426,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S02154\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְקַרְצֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to scratch one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 2:8\">Targ. Job II, 8</cite> <he>לאִתְקַרְצָפָא</he> (ed. Lag. <he>לאִתְקַרְסָ׳</he>; h. text <he>להתגרד</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

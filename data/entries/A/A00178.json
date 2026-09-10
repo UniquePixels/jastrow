@@ -1,0 +1,28 @@
+{
+	"id": "A00178",
+	"slug": "אבנימוס",
+	"headword": {
+		"text": "אַבְנִימוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִימוֹס"
+		}
+	],
+	"page": {
+		"number": 8,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Abnimos, Nimos</i>, a gentile philosopher, friend of R. Meïr [prob. identical with the cynic philosopher <i>Oenomaus</i> of Gadara]. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 65:20\">Gen. R. s. 65</cite>; a. e. <he>א׳ הגרדי</he>. ",
+				"<cite ref=\"Chagigah 15b:15\">Ḥag. 15ᵇ</cite> <he>נ׳ הגרדי</he>."
+			]
+		}
+	]
+}

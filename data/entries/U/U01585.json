@@ -1,0 +1,136 @@
+{
+	"id": "U01585",
+	"slug": "שני-3",
+	"headword": {
+		"text": "שני"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁנָה"
+		}
+	],
+	"page": {
+		"number": 1605,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to repeat, do a second time</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 86b:12\">Yoma 86ᵇ</cite> <he>ואם ש׳ בהן וכ׳</he> but if he committed the same sins again, he must confess them. ",
+				"<cite ref=\"Yoma 86b:13\">Ib.</cite> <he>כיון … וש׳ בה וכ׳</he> when a man commits a sin and repeats it, it appears to him permitted; <cite ref=\"Moed Katan 27b\">M. Kat. 27ᵇ</cite>. ",
+				"<cite ref=\"Moed Katan 16b\">Ib. 16ᵇ</cite>; <cite ref=\"Berakhot 18a:14\">Ber. 18ᵃ</cite> <he>אם קרית לא שָׁנִיתָ ואם שנית וכ׳</he> if thou hast read (studied), thou hast not repeated, and if thou hast repeated, thou hast not reviewed a third time, and if thou hast done so, they have not explained it to thee (v. <cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>). ",
+				"<cite ref=\"Sotah 9a:3-11\">Sot. 9ᵃ</cite> (ref. to <cite ref=\"Malachi 3:6\">Mal. III, 6</cite>) <he>לא … ושָׁנִיתִי לה וכ׳</he> I never struck a nation and had to do it a second time, but you, children of Israel, have not been consumed; <cite ref=\"Yalkut Shimoni on Torah 825:2\">Yalk. Deut. 825</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 825:2\">Ib.</cite> <he>שהיה מכה … ולא שׁוֹנֶה לו</he> who used to strike a man once and no more (killed with one stroke). ",
+				"<cite ref=\"Tosefta Tahorot 4:1\">Tosef. Toh. IV, 1</cite> <he>אומר לו שיִשְׁנֶה</he> we say to him that he should do it again (when it will be seen whether it can be done without touching uncleanness); <he>אין שׁוֹנִין בטהרות</he> we must not try again for the purpose of deciding in matters of levitical cleanness; <cite ref=\"Niddah 5b:21\">Nidd. 5ᵇ</cite> <he>אומרים לו שְׁנֵה ושונה</he> we say to him, do it again, and he does it again; a. fr.—Part. pass. <cite ref=\"U01576\"><he>שָׁנוּי</he></cite>; f. <he>שְׁנוּיָה</he> &c. ",
+				"<cite ref=\"Megillah 31a\">Meg. 31ᵃ</cite>; <cite ref=\"Avodah Zarah 19b:14\">Ab. Zar. 19ᵇ</cite>, v. <cite ref=\"U01387\"><he>שָׁלַשׁ</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"M02941\"><he>מִשְׁנָה</he></cite>) <i>to study the Mishnah</i>; in gen. <i>to study; to teach</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 28b\">Meg. 28ᵇ</cite>; <cite ref=\"Niddah 73a:41\">Nidd. 73ᵃ</cite> <he>כל השונה וכ׳</he> he who studies (reviews) traditional laws every day. ",
+				"<cite ref=\"Megillah 32a:13\">Meg. 32ᵃ</cite>; <cite ref=\"Tractate Soferim 3:10\">Treat. Sof’rim III, 10</cite> <he>השונה בלא זמרה</he> who studies (Mishnah and Gemarah) without chant. ",
+				"<cite ref=\"Bava Metzia 44a:14\">B. Mets. 44ᵃ</cite> <he>שנית לנו … ותִשְׁנֶה לנו וכ׳</he> in thy earlier days thou taughtest us …, and again in thy old days, thou teachest us &c.?; <cite ref=\"Avodah Zarah 52b\">Ab. Zar. 52ᵇ</cite>. ",
+				"<cite ref=\"Eruvin 92a:3\">Erub. 92ᵃ</cite> <he>וכי רבי לא שְׁנָאָהּ וכ׳</he> but if Rabbi has not taught that, whence could R. Ḥiyya have it?; <cite ref=\"Yevamot 43a:3\">Yeb. 43ᵃ</cite>; <cite ref=\"Niddah 62a:42\">Nidd. 62ᵃ</cite> <he>רבי לא שנה וכ׳</he> Rabbi has not taught this? whence &c.? <cite ref=\"Yevamot 108b:10\">Yeb. 108ᵇ</cite>, a. e. <he>מי שש׳ זו לא ש׳ זו</he> he who taught this, has not taught that, i.e. the two clauses in the Mishnah are from different authors, v. <cite ref=\"V00072\"><he>תַּבְרָא</he></cite>. ",
+				"<cite ref=\"Chullin 85a:9\">Ḥull. 85ᵃ</cite> <he>ראה רבי</he> … <he>ושְׁנָאָן וכ׳</he> Ms. M. (ed. <he>ושנאו</he>) Rabbi approved of the opinion of R. …, and embodied it in the Mishnah as the opinion of ‘the scholars’. ",
+				"<cite ref=\"Pesachim 3b:3\">Pes. 3ᵇ</cite>; <cite ref=\"Chullin 63b:10\">Ḥull. 63ᵇ</cite> <he>לעולם יִשְׁנֶה אדם לתלמידו וכ׳</he> one should always teach his pupil the shortest way (use the briefest terms). ",
+				"<cite ref=\"Chullin 81b\">Ib. 81ᵇ</cite>, a. fr. <he>לא שָׁנוּ אלא וכ׳</he> they have taught this only with regard to a case &c., i.e. this is meant only when &c.; a. fr.—Part. pass. as ab. ",
+				"<cite ref=\"Niddah 22b:6\">Nidd. 22ᵇ</cite>, a. fr. <he>במחלוקת שנויה</he>, v. <cite ref=\"M00890\"><he>מַחֲלוֹקֶת</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁנֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be repeated</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 59a:18\">Snh. 59ᵃ</cite> <he>ונִישְׁנֵית</he>, v. <cite ref=\"N00468\"><he>נֹחַ</he></cite>. ",
+						"<cite ref=\"Chullin 63b:4\">Ḥull. 63ᵇ</cite> <he>למה נִשְׁנוּ בבהמה וכ׳</he> why are the laws of clean and unclean animals repeated (in Deut.)? With reference to quadrupeds, on account of <i>hassh’suʿah</i> (<cite ref=\"Deuteronomy 14:7\">Deut. XIV, 7</cite>, which is not found in <cite ref=\"Leviticus 11:4\">Lev. XI, 4</cite>) &c., v. <cite ref=\"U01617\"><he>שְׁסוּעָה</he></cite>; <cite ref=\"Bekhorot 6b:2\">Bekh. 6ᵇ</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be taught</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 33b\">B. Mets. 33ᵇ</cite>; <cite ref=\"Bava Kamma 94b\">B. Kam. 94ᵇ</cite>, a. e. <he>בימי רבי נשנית משנה זו</he> this Mishnah was taught (originated) in Rabbi’s days. ",
+						"<cite ref=\"Berakhot 28a:1\">Ber. 28ᵃ</cite>, v. <cite ref=\"P00127\"><he>עֵדוּת</he></cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשְׁנֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to teach</i> (Mishnah &c.). ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:52\">Lam. R. to I, 6</cite> <he>הַשְׁנֵינִי פרק וכ׳</he>, v. <cite ref=\"S01874\"><he>קָרָא</he> II</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["שִׁנָּה", "שִׁינָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to repeat, to come a second time</i>. Y. Snh. III, 21ᵇ bot. <he>לְשַׁנּוֹת</he>, v. <cite ref=\"I00620\"><he>טַעֲנָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4<sup>20</sup></cite> <he>ולא שִׁינְּתָה</he>, v. <cite ref=\"U01387\"><he>שָׁלַשׁ</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to change, vary, modify; to make a distinction</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 6:2\">B. Mets. VI, 2</cite> <he>כל המְשַׁנֶּה ידיו וכ׳</he>, v. <cite ref=\"J00093\"><he>יָד</he></cite>. ",
+						"<cite ref=\"Sanhedrin 92b:15\">Snh. 92ᵇ</cite> <he>אפי׳ … לא יְשַׁנֶּה אדם את עצמו וכ׳</he> even in time of danger (persecution) a man must not change himself from (disguise the insignia of) his office. ",
+						"<cite ref=\"Yevamot 65b:7\">Yeb. 65ᵇ</cite> <he>מותר … לשנות וכ׳</he> one may modify (the report of a person’s utterances) in the interest of peace. ",
+						"<cite ref=\"Yevamot 65b:9\">Ib.</cite> <he>גדול … הקב״ה ש׳ בו וכ׳</he> peace is a great thing, for even the Lord modified (Sarah’s words) for its sake (ref. to <cite ref=\"Genesis 18:12\">Gen. XVIII, 12</cite> a. ",
+						"<cite ref=\"Genesis 18:13\">13</cite>). Y. Pes. IV, 30ᵈ top <he>אל תְּשַׁנּוּ מנהג וכ׳</he> change not the usage of your fathers &c. ",
+						"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite> <he>זה אחד … שׁשִׁינּוּ וכ׳</he> this is one of the things which they (the seventy translators) changed for king Ptolemee. ",
+						"<cite ref=\"Shabbat 10b:7\">Sabb. 10ᵇ</cite> <he>לעולם אל יְשַׁנֶּה אדם בנו בין הבנים</he> a man must never distinguish his son among his sons (favor one son more than the others); <cite ref=\"Bereishit Rabbah 84:20\">Gen. R. s. 84</cite>. ",
+						"<cite ref=\"Beitzah 30a:2\">Bets. 30ᵃ</cite> <he>אם אי אפשר לשנות</he> if it is not possible to do the thing in a different manner (so as to be reminded that it is a Holy Day). Tanḥ. Nitsabim 3 <he>כבר</he> … <he>שלא אֲשׁנֶּה בכם וכ׳</he> I have sworn to you that I will not change my relation to you &c. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 589:9\">Yalk. Mal. 589</cite> <he>מי שי׳ במי</he> which of us changed his conduct towards the other?; <he>המקום לא שי׳ בישראל</he> God has not changed his relation to Israel; a. fr.—Part. pass. <he>מְשׁוּנֶּה</he>; f. <he>מְשׁוּנָּה</he>. Y. Taan. I, end, 64ᵈ <he>עורב יצא מש׳ מן הבריות</he> the raven came out of the ark looking different from all other creatures (black). ",
+						"<cite ref=\"Mishnah Shekalim 5:2\">Shek. V, 2</cite>, v. <cite ref=\"T00998\"><he>רִצְפָה</he></cite>. ",
+						"<cite ref=\"Shabbat 56a:2\">Sabb. 56ᵃ</cite> (ref. to <cite ref=\"II Samuel 12:9\">II Sam. XII, 9</cite>) <he>מש׳ רעה זו וכ׳</he> this evil deed is different from all &c. Ib. 156ᵇ <he>מיתה מש׳</he> a strange (unnatural, sudden) death; <cite ref=\"Sotah 35a\">Sot. 35ᵃ</cite>; a. fr.—",
+						"<cite ref=\"Devarim Rabbah 9:3\">Deut. R. s. 9</cite> <he>ראה אותו מש׳</he> he saw him (the angel of death) looking strange (excited); <he>מפני מה אתה מש׳</he> why art thou excited?"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּנֶּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּנֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be changed, different</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 38a:12\">Snh. 38ᵃ</cite> <he>בשלשה … מִשְׁתַּנֶּה מחבירו וכ׳</he> by three things one man is distinguishable from another: by his voice &c. ",
+						"<cite ref=\"Mishnah Pesachim 10:4\">Pes. X, 4</cite> (<cite ref=\"Pesachim 116a:8\">116ᵃ</cite>) <he>מה נ׳ הלילה וכ׳</he> why is this night different from all other nights? <cite ref=\"Sanhedrin 71b:2\">Snh. 71ᵇ</cite> [read:] <he>הואיל ונ׳ דינו ונִשְׁתַּנֵית מיתתו</he> because his (the proselyte’s) legal status is different, and the mode of capital punishment is different for him. ",
+						"<cite ref=\"Shabbat 53b:18\">Sabb. 53ᵇ</cite> <he>נִשְׁתַּנּוּ לו סדרי וכ׳</he> the order of nature had to be changed for him. ",
+						"<cite ref=\"Rosh Hashanah 19a:6\">R. Hash. 19ᵃ</cite> <he>מה נִישְׁתַּנִּינוּ מכל וכ׳</he> wherein are we different from any other nation or tongue that you decree for us such hard decrees?; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

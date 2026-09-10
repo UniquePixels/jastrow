@@ -1,0 +1,43 @@
+{
+	"id": "U01393",
+	"slug": "שלשול-3",
+	"headword": {
+		"text": "שִׁלְשׁוּל",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁי׳",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 1589,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00416\"><he>שול</he></cite>, cmp. <cite ref=\"U00141\"><he>שַׁבְּלוּל</he></cite>; v. <cite ref=\"U01400\"><he>שַׁלְשֵׁל</he> III</cite>) [<i>slimy substance</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>slimy abdominal secretion</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 51\">Gen. R. s. 51</cite>, beg. <he>כש׳ הזה שהוא נמחה בצואה</he> like the secretion which is dissolved in the excrements, v. <cite ref=\"K00539\"><he>כִּילּוּיָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>snail, worm</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 24b:7\">R. Hash. 24ᵇ</cite> <he>מתחת לרבות ש׳ קטן</he> ‘beneath’ (<cite ref=\"Exodus 20:4\">Ex. XX, 4</cite>) this includes the smallest earth-worms. ",
+				"<cite ref=\"Tosefta Chullin 2:18\">Tosef. Ḥull. II, 18</cite>; <cite ref=\"Chullin 40a:2\">Ḥull. 40ᵃ</cite> <he>השוחט … לשום ש׳ וכ׳</he> if one kills an animal in the name of mountains … or even of a small worm, such are ‘sacrifices of the dead.’ <cite ref=\"Chullin 67b:14\">Ib. 67ᵇ</cite> <he>כל לרבות הש׳ והרומה לש׳</he> ‘whatsoever’ goes up on the belly (<cite ref=\"Leviticus 11:42\">Lev. XI, 42</cite>), this includes the snail and whatever is like it (worms); Sifra Sh’mini, Par. 10, ch. XII <he>השִׁלְשׁוּלִים</he> (pl.). ",
+				"<cite ref=\"Bereishit Rabbah 8:13\">Gen. R. s. 8</cite>; <cite ref=\"Vayikra Rabbah 14:9\">Lev. R. s. 14</cite> <he>ש׳ קדמך</he> the worm has been created before thee (man); a. e.—Pl. <he>שִׁלְשׁוּלִים</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>, v. supra."
+			],
+			"label": "2"
+		}
+	]
+}

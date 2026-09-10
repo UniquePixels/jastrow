@@ -1,0 +1,31 @@
+{
+	"id": "M02436",
+	"slug": "מקפה",
+	"headword": {
+		"text": "מִקְפֶּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִקְפָּה"
+		}
+	],
+	"page": {
+		"number": 831,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., (<cite ref=\"S01704\"><he>קָפָה</he></cite>) <i>a stiff mass</i> of grist, oil and onions. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 6:10\">Ned. VI, 10</cite>. ",
+				"<cite ref=\"Chullin 14b:7\">Ḥull. 14ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Sukkah 2:9\">Succ. II, 9</cite> <he>משתסרח המ׳</he> when a stiff dish gets spoiled. ",
+				"<cite ref=\"Sukkah 29a:3\">Ib. 29ᵃ</cite> <he>מ׳ של גריסין</he> a pulp of grist; Y. ib. II, end, 53ᵇ <he>מִקְפַּת גריסין</he>. ",
+				"<cite ref=\"Sukkah 29a\">Ib.</cite> <he>מכפה של כל דבר</he> (corr. acc.) a pulp of anything; a. fr."
+			]
+		}
+	]
+}

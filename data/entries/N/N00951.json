@@ -1,0 +1,29 @@
+{
+	"id": "N00951",
+	"slug": "נסכא-3",
+	"headword": {
+		"text": "נִסְכָּא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 917,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00903\"><he>סכך</he></cite>) <i>weaving manipulation</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 96b\">Sabb. 96ᵇ</cite> <he>בני׳ בתרא</he> (Ms. M. <cite ref=\"M01942\"><he>מִסְכָא</he></cite>) at the last manipulation (when the weaver throws the clue through the web for the last time)."
+			]
+		}
+	]
+}

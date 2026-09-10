@@ -1,0 +1,27 @@
+{
+	"id": "K00288",
+	"slug": "כומסה",
+	"headword": {
+		"text": "כּוֹמְסָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוֹמְסִי"
+		}
+	],
+	"page": {
+		"number": 620,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <he>כּוֹמְסוֹת</he>, (<cite ref=\"K00813\"><he>כָּמַס</he></cite>) <he>כּוֹמְסָאוֹת</he> <i>sheaves put at the bottom of a stack</i> as foundation, contrad. to <cite ref=\"K00195\"><he>כּוֹבְעָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 5:8\">Peah V, 8</cite>; Y. ib. V, end, 19ᵃ, expl. <he>מן לרע</he> (with ref. to <cite ref=\"Deuteronomy 32:34\">Deut. XXXII, 34</cite>)."
+			]
+		}
+	]
+}

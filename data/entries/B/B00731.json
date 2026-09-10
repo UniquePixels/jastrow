@@ -1,0 +1,30 @@
+{
+	"id": "B00731",
+	"slug": "בירנית",
+	"headword": {
+		"text": "בִּירָנִית"
+	},
+	"page": {
+		"number": 166,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; denom. of <cite ref=\"B00704\"><he>בִּירָה</he></cite>)<i>castle, palace</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 118b:18\">Pes. 118ᵇ</cite> (Ms. M. 2 <cite ref=\"B00704\"><he>בירה</he></cite>).—Pl. <he>בִּירָנִיּוֹת</he> <cite ref=\"Pesachim 118b:18\">Ibid.</cite> (description of Rome; v. Rabb. D. S. a. l. for Var. Lect.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B01249\"><he>בִּרְיוֹן</he></cite>) <i>a palace-woman, court-lady.—</i>Pl. as supra. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19:6\">Lev. R. s. 19</cite> <he>הושיב ב׳ וכ׳</he> (<cite ref=\"Yalkut Shimoni on Nach 249:1\">Yalk. Kings 249</cite> <he>נשים ב׳</he>) he placed court ladies in Jerusalem (forced them to leave home and serve at the palace); <he>מהו ב׳</he> what is meant by (why are they named) biraniyoth? <he>ביירן ציידן וכ׳</he> (not <he>ציירן</he>), he laid a trap for them, he caught them (ensnared them)."
+			],
+			"label": "2"
+		}
+	]
+}

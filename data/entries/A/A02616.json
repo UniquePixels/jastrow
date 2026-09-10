@@ -1,0 +1,34 @@
+{
+	"id": "A02616",
+	"slug": "אפוטניות",
+	"headword": {
+		"text": "אַפּוֹטְנִיּוֹת",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפֹּטְ׳"
+		},
+		{
+			"text": "אַפּוּטְנֵי"
+		}
+	],
+	"page": {
+		"number": 100,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (putealia, or puteana) <i>enclosures surrounding a well, protected cisterns</i> (in Noah’s ark). ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 23:1\">Pirké d’R. El. ch. 23</cite>, expl. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 23:1\">ib.</cite> <he>המכסים את אמות המים וכ׳</he> (not <he>והמכניסים</he>) which cover the wells and can be opened and closed. ",
+				"<cite ref=\"Targum Jonathan on Genesis 6:14\">Targ. Y. Gen. VI, 14</cite> <he>אַפּוֹטְנִיוּתָא</he> (<he>נְיָיתָא</he> …?). Tosef. Erub. XI (VIII), 7 <he>כלי אפוטני</he> (ed. Zuck. <he>אב׳ כלים</he>, in oth. ed. omitted) tools for unlocking the puteal."
+			]
+		}
+	]
+}

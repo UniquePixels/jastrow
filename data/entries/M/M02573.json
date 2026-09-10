@@ -1,0 +1,29 @@
+{
+	"id": "M02573",
+	"slug": "מרוד-3",
+	"headword": {
+		"text": "מָרוֹד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מָרוֹדָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 838,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02572\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 24:10\">Targ. Y. Lev. XXIV, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 24:19\">Targ. Y. I Num. XXIV, 19</cite> (not <cite ref=\"M02606\"><he>מרורא</he></cite>); a. e.—Pl. <he>מְרוֹדִין</he>, <he>מְרוֹדַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 24:13\">Targ. Job XXIV, 13</cite> (ed. Wil. <he>מָרְדִין</he>; oth. ed. <he>מוֹרְדִין</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 30:1\">Targ. Is. XXX, 1</cite>; a. e."
+			]
+		}
+	]
+}

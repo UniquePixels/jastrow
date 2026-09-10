@@ -1,0 +1,48 @@
+{
+	"id": "U01335",
+	"slug": "שליש",
+	"headword": {
+		"text": "שָׁלִישׁ"
+	},
+	"page": {
+		"number": 1584,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01387\"><he>שָׁלַשׁ</he></cite>)<i>captain, officer.—</i>Pl. <cite ref=\"U01337\"><he>שָׁלִישִׁים</he></cite>. Mekh. B’shall. s. 1 (ref. to <cite ref=\"Exodus 14:7\">Ex. XIV, 7</cite>) <he>אין ש׳ אלא גבורים</he> <i>shalishim</i> means mighty men; <he>ד״א וש׳ … שהיו משוללין וכ׳</he> another definition: <i>shalishim</i> … because they were hung with arms; (anoth. opin.) <he>זה השלישי וכ׳</he> the <i>shalish</i> is the third on the chariot; formerly there were only two, and Pharaoh added one &c.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the third finger, middle-finger</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Genesis 5\">B’resh. 5</cite> <he>ומן אצבעו … וכל בש׳ וכ׳</he> and by his finger you can judge what he is (his strength), as we read (<cite ref=\"Isaiah 40:12\">Is. XL, 12</cite>) and measured with the <i>shalish</i> (middle finger) &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>the third person,</i>] <i>trustee, depositary</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 64a:2\">Gitt. 64ᵃ</cite> <he>בעל … וש׳ אומר לגירושין</he> if the husband says, the letter of divorce has been deposited to be kept in trust, but the trustee says, it has been given me for the purpose of divorce (I was the wife’s agent for receiving the divorce). ",
+				"<cite ref=\"Gittin 64a:2\">Ib.</cite>; <cite ref=\"Tosefta Bava Metzia 1:10\">Tosef. B. Mets. I, 10</cite> <he>זה אומר כך … והש׳ … הש׳ נאמן משניהם</he> if one of the contestants says thus, and the other thus, and the depositary says thus, the depositary’s evidence is accepted over against both. ",
+				"<cite ref=\"Mishnah Ketubot 5:8\">Keth. V, 8</cite> <he>המשרח … על ידי ש׳</he> if a husband for the time of his absence leaves the provision for his wife’s maintenance in the hands of a trustee; a. fr.—",
+				"<cite ref=\"Bamidbar Rabbah 13:18\">Num. R. s. 13<sup>38</sup></cite> <he>שלישה</he>, read: <he>שְׁלוּחָהּ</he>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (traditional pronunciation <cite ref=\"U01335\"><he>שְׁלִישׁ</he></cite>) <i>one third</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 42b:15\">Pes. 42ᵇ</cite> <he>תבואה שלא הביאה ש׳</he> grain that has not yet grown one-third (not one-third ripe); <cite ref=\"Jerusalem Talmud Peah 2:1:10\">Y. Peah II, 16ᵈ</cite> sq. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:1:5\">Y. Shebi. V, beg. 35ᵈ</cite> <he>הביא ש׳ קודם וכ׳</he> if the fruit reached the stage of one-third of maturity before the fifteenth of Shebat. ",
+				"<cite ref=\"Gittin 70a:10\">Gitt. 70ᵃ</cite> <he>אכול ש׳ ושתה ש׳ והניח ש׳ וכ׳</he> eat one-third (of the capacity of the stomach), and drink one-third, and leave vacant one-third &c., v. <cite ref=\"K00970\"><he>כָּעַס</he></cite>. Y. Peah II, end, 17ᵇ <he>קיבלה הימנו למחצה לש׳ וכ׳</he> if he rented the field on shares of one-half, or one-third &c. ",
+				"<cite ref=\"Bava Metzia 69a:6\">B. Mets. 69ᵃ</cite> <he>מותר ש׳ בשכרך</he> whatever profit it may bring over one-third (of its present value) shall be thine for thy labor (and the rest we will divide equally); a. fr."
+			],
+			"label": "4"
+		}
+	]
+}

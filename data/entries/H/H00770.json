@@ -1,0 +1,50 @@
+{
+	"id": "H00770",
+	"slug": "חילופא",
+	"headword": {
+		"text": "חִילּוּפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִלּ׳"
+		}
+	],
+	"page": {
+		"number": 456,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00769\">same</cite><i>opposite, reverse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 11:26\">Targ. Y. Deut. XI, 26</cite>; a. e.—",
+				"<cite ref=\"Avodah Zarah 28b:13\">Ab. Zar. 28ᵇ</cite>, sq. <he>וח׳ סכנתא</he> and to do the reverse is dangerous.—Pl. <cite ref=\"H00848\"><he>חִילּוּפִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:6:8\">Y. Yoma III, 40ᵈ</cite> top <he>לא מסתברא אלא ח׳</he> the reverse stands to reason; <cite ref=\"Jerusalem Talmud Shevuot 1:6:5\">Y. Shebu. I, 33ᵇ</cite> bot. <he>דאילא ח׳</he> (corr. acc.).—",
+				"<cite ref=\"Jerusalem Talmud Gittin 4:4:5\">Y. Gitt. IV, 45ᵈ</cite> bot. <he>לא מסתברא ח׳</he> does not the reverse stand to reason?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>exchange, substitute</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 27:10\">Targ. O. Lev. XXVII, 10</cite>.—Pl. constr. <cite ref=\"H00847\"><he>חִילּוּפֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 18:31\">Targ. Y. Num. XVIII, 31</cite> in exchange of; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (pl.) <i>change</i> from life to death. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 14:14\">Targ. Job XIV, 14</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (pl.) <i>crisis, decision</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:8:11\">Y. Sot. I, 17ᵇ</cite> bot. things were coming <he>לידי ח׳</he> to a crisis (either David or Absalom must be king); <cite ref=\"Bamidbar Rabbah 9:38\">Num. R. s. 9</cite>."
+			],
+			"label": "4"
+		}
+	]
+}

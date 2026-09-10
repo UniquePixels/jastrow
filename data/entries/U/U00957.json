@@ -1,0 +1,34 @@
+{
+	"id": "U00957",
+	"slug": "שימה",
+	"headword": {
+		"text": "שִׂימָה"
+	},
+	"page": {
+		"number": 1563,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00433\"><he>שׂוּם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>putting, placing, use of the root</i> <cite ref=\"U00433\"><he>שׂוּם</he></cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 46a:13\">Keth. 46ᵃ</cite> <he>אתיא ש׳ ש׳</he> we draw an analogy between <i>sum</i> (<cite ref=\"Exodus 22:24\">Ex. XXII, 24</cite>) and <i>sum</i> (<cite ref=\"Deuteronomy 22:14\">Deut. XXII, 14</cite>); Y. ib. IV, 28ᶜ <cite ref=\"U00445\"><he>שׂוּמָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:2:4\">Y. Shek. IV, 48ᵃ</cite> <he>אפילו ש׳ מעכבת</he> even where the Biblical text has the verb <i>sum</i> (‘thou shalt put’), it is an act indispensable to legality. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 150:2\">Yalk. Gen. 150</cite> <he>שִׂימַת עין</he>, v. <cite ref=\"E00929\"><he>הֲשָׂמָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>treasure</i>, v. <cite ref=\"O00689\"><he>סִימָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

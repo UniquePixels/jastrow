@@ -1,0 +1,26 @@
+{
+	"id": "Q01543",
+	"slug": "פראפורנון",
+	"headword": {
+		"text": "פָּרָאפוּרְנוֹן"
+	},
+	"page": {
+		"number": 1213,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (παράφερνον) <i>that which a bride brings over and above her dower;</i> also (v. <cite ref=\"M00431\"><he>מוֹהַר</he></cite>) <i>the wife’s additional settlement above the usual one</i> <he>(תוספת כתובה</he>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite> (ref. to <cite ref=\"Genesis 24:12\">Gen. XXIV, 12</cite>) <he>מוהר פרנין מתן פ׳</he> <i>mohar</i> is the endowment, <i>mattan</i> the addition; Yalk. ib. 134 <he>פרא פ׳</he> (combine). ",
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite> <he>הבא לי מפ׳ שלי וכ׳</he> (not <he>נין …</he>) take it from my additional dower, for thus he has written in my contract &c.; <cite ref=\"Yalkut Shimoni on Torah 114:6\">Yalk. ib. 114</cite> <he>מפורנין</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:8:3\">Y. Keth. V, 30ᵇ</cite> <he>פרא פרנין</he>. Ib. VII, 31ᶜ top <he>הפדא פ׳</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 5:7:5\">Y. Gitt. V, 47ᵇ</cite> <he>נכסים שהכניסה לו פרה פרנון</he> property which she brought him above the dower, opp. <he>בכתובתה</he> corresponding to the amount of her settlement. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 5:1:9\">Y. Naz. V, 54ᵃ</cite> top <he>פרה פ׳</he>. Y. B. Bath. V, end, 17ᵈ; a. e."
+			]
+		}
+	]
+}

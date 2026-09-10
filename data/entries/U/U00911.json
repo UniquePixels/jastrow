@@ -1,0 +1,30 @@
+{
+	"id": "U00911",
+	"slug": "שיירא-2",
+	"headword": {
+		"text": "שְׁיָירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁיָירָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1562,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01054\"><he>שור</he></cite>; b. h.;, <cite ref=\"Ezekiel 27:25\">Ez. XXVII, 25</cite>) <i>caravan</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 7:13\">Tosef. B. Mets. VII, 13</cite> <he>ש׳ שהיתה מהלכת וכ׳</he> if a caravan travels in the desert, and a band attacks and robs it &c.; <cite ref=\"Bava Kamma 116b:10\">B. Kam. 116ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:10:6\">Y. Erub. I, end, 19ᵈ</cite> <he>אהלים שבש׳ וכ׳</he> tents put up by a caravan require no ‘Erub (v. <cite ref=\"P00680\"><he>עֵירוּב</he></cite>), opp. <he>שבמחנה</he> in a camp; a. fr.—Pl. <he>שְׁיָירוֹת</he>. ",
+				"<cite ref=\"Bava Metzia 18a:11\">B. Mets. 18ᵃ</cite>, v. <cite ref=\"M02262\"><he>מָצָא</he></cite>; a. fr.—Ch., v. <cite ref=\"U00914\"><he>שְׁיַירְתָּא</he></cite>."
+			]
+		}
+	]
+}

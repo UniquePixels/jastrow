@@ -1,0 +1,22 @@
+{
+	"id": "M02800",
+	"slug": "משאכה",
+	"headword": {
+		"text": "מְשָׁאכָה"
+	},
+	"page": {
+		"number": 848,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02892\"><he>מְשַׁךְ</he></cite>) <i>stretching</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73b:2\">B. Bath. 73ᵇ</cite> <he>מ׳ דצואריה וכ׳</he> (Ms. M. <he>בֵּי מְשָׁכָא</he>) the length of its neck when stretched was &c."
+			]
+		}
+	]
+}

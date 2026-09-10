@@ -1,0 +1,26 @@
+{
+	"id": "A02877",
+	"slug": "אציפא",
+	"headword": {
+		"text": "אֲצִיפָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַצְפָא"
+		}
+	],
+	"page": {
+		"number": 111,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"R00401\"><he>צִיפָּא</he></cite>) <i>matting</i> used for bailing dates, cmp. <cite ref=\"H00496\"><he>חוֹתָל</he></cite>. [Oth. opin: <i>the flesh sticking to the stone</i> of half-ripe dates.] <cite ref=\"Gittin 89a\">Gitt. 89ᵃ</cite> a woman was betrothed <he>בא׳ דתוחלא</he> (Ar. <he>אצפא</he>) with &c. (an object of no value).",
+			"units": []
+		}
+	]
+}

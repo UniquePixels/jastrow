@@ -1,0 +1,37 @@
+{
+	"id": "A01865",
+	"slug": "אלימא-3",
+	"headword": {
+		"text": "אִלֵּימָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילֵּ׳"
+		},
+		{
+			"text": "אֱלִימָא"
+		}
+	],
+	"page": {
+		"number": 69,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>mute</i>, v. <cite ref=\"A01907\"><he>אִלְּמָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 4:11\">Targ. Y. Ex. IV, 11</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>thick</i>, v. <cite ref=\"A01862\"><he>אַלִּים</he></cite>. ",
+			"units": ["<cite ref=\"Chullin 76b:2\">Ḥull. 76ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

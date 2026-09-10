@@ -1,0 +1,29 @@
+{
+	"id": "S01060",
+	"slug": "קיסומא-2",
+	"headword": {
+		"text": "קִיסּוּמָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִסּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1364,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S01072\"><he>קֵיסֶם</he></cite>) <i>rakings</i>. Targ. ",
+			"units": [
+				"<cite ref=\"Habakkuk 3:17\">Hab. III, 17</cite> <he>לא יגבון ק׳ וכ׳</he> they shall not gather rakings from (shall not enjoy the destruction of) Jerusalem (h. text <he>אין בקר ברפתים</he>!)."
+			]
+		}
+	]
+}

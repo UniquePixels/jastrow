@@ -1,0 +1,32 @@
+{
+	"id": "O00683",
+	"slug": "סימא-1",
+	"headword": {
+		"text": "סִימָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "סָאמָא"
+		}
+	],
+	"page": {
+		"number": 980,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. <i>saim</i>; v. however, <cite ref=\"O00684\">next w.</cite>) <i>silver</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 12:7\">Targ. Ps. XII, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 15:5\">Ib. XV, 5</cite> (ed. Lag. <he>סָמֵיה</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:20\">Targ. Prov. X, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:19\">Ib. VIII, 19</cite> ed. Lag. (ed. <cite ref=\"O01227\"><he>סניא</he></cite> for <cite ref=\"O00123\"><he>סגיא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 16:16\">Ib. XVI, 16</cite>; <cite ref=\"Aramaic Targum to Proverbs 17:3\">XVII, 3</cite> (some ed. <cite ref=\"O00020\"><he>סאניא</he></cite>, <cite ref=\"O00020\"><he>סאסא</he></cite>; corr. acc.); a. fr.; v. <cite ref=\"C00076\"><he>גַּבְיָא</he> I</cite>."
+			]
+		}
+	]
+}

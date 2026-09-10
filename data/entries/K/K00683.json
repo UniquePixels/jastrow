@@ -1,0 +1,36 @@
+{
+	"id": "K00683",
+	"slug": "כלבוס",
+	"headword": {
+		"text": "כַּלְבּוּס"
+	},
+	"page": {
+		"number": 639,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (enlarg. of <he>כלב</he>, v. <cite ref=\"K00681\"><he>כַּלְבָּה</he></cite> 2) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tongs, pinchers</i>, <cite ref=\"Sotah 19b:10\">Sot. 19ᵇ</cite> <he>כ׳ של ברזל</he> (Alf. <cite ref=\"S00001\"><he>ק׳</he></cite>) iron tongs (to force her mouth open; Tosef. ib. II, 3 <he>צבת</he>). ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:11\">Tosef. Kel. B. Mets. III, 11</cite> some ed., v. <cite ref=\"K00681\"><he>כַּלְבָּה</he></cite>. ",
+				"<cite ref=\"Menachot 63a:7\">Men. 63ᵃ</cite> <he>כמין כ׳ עמוק</he> (Ar. <cite ref=\"K00751\"><he>כיל׳</he></cite>) a baking form in the shape of forceps with cavities (which clapped together give the dough the shape of an apple &c.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"K00676\"><he>כָּלַב</he></cite>) <i>shape of cross-stitches, zigzag</i> of nails in the sole. ",
+			"units": [
+				"<cite ref=\"Shabbat 60b:14\">Sabb. 60ᵇ</cite> <he>עשאו כמין כ׳</he> (Ms. M. <cite ref=\"K00752\"><he>כלכוס</he></cite>, Alf. <cite ref=\"S00001\"><he>ק׳</he></cite>) if he drove the nails in in the shape of &c. ",
+				"<cite ref=\"Kohelet Rabbah 12:11:1\">Koh. R. to XII, 11</cite> <he>הכ׳ אינו וכ׳</he>, v. <cite ref=\"K00686\"><he>כַּלֶּבֶת</he></cite>.—[<cite ref=\"Bava Kamma 100b:4\">B. Kam. 100ᵇ</cite> <he>כ׳</he>, v. <cite ref=\"K00752\"><he>כַּלְכּוּס</he></cite>.—Tanḥ. Balak 13, read: <cite ref=\"K00740\"><he>כָּלִינוֹס</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

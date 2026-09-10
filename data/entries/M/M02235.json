@@ -1,0 +1,24 @@
+{
+	"id": "M02235",
+	"slug": "מפץ",
+	"headword": {
+		"text": "מֶפֶץ"
+	},
+	"page": {
+		"number": 821,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פָּצַץ</he> <i>to split</i>) <i>mat of reeds, bark</i> &c.; <i>the poor man’s mattress</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 113b\">B. Mets. 113ᵇ</cite> in cases of seizure for debt we must allow <he>מיטה ומיטה ומ׳ וכ׳</he> a (dining) couch and a couch with matting to the poor man, contrad. to <cite ref=\"M02342\"><he>מַצָּע</he></cite>. ",
+				"<cite ref=\"Shabbat 84a:5\">Sabb. 84ᵃ</cite>, sq. ",
+				"<cite ref=\"Mishnah Kelim 27:2\">Kel. XXVII, 2</cite>; a. fr."
+			]
+		}
+	]
+}

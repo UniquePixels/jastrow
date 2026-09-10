@@ -1,0 +1,44 @@
+{
+	"id": "C01225",
+	"slug": "גר",
+	"headword": {
+		"text": "גֵּר"
+	},
+	"page": {
+		"number": 263,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00474\"><he>גּוּר</he></cite>)<i>a dweller</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 104a:11\">Sabb. 104ᵃ</cite>, v. <cite ref=\"C01224\">preced.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a stranger</i>. Tanḥ. Vayigg. 4 <he>גרא שנעשה ג׳</he> he is named Gera, because he (Joseph) became a stranger, v. <cite ref=\"C00474\"><he>גּוּר</he></cite>.—Esp. <i>a proselyte, convert to Judaism</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 46b:17\">Yeb. 46ᵇ</cite>; <cite ref=\"Berakhot 47b:12\">Ber. 47ᵇ</cite> <he>לעולם אינו ג׳ וכ׳</he> one is not a proselyte until he has been &c. Yeb. l. c.; <cite ref=\"Kiddushin 62b:1\">Kidd. 62ᵇ</cite> <he>ג׳ צריך שלשה</he> a proselyte requires a court of three for making declaration and immersion. ",
+				"<cite ref=\"Mishnah Keritot 2:1\">Kerith. II, 1</cite> <he>ג׳ מחוסר כפרה</he> a proselyte who has not yet offered a sacrifice in the Temple; a. v. fr.—<he>ג׳ צֶדֶק</he> a full, true proselyte, <he>ג׳ תּוֹשָׁב</he> one who, for the sake of acquiring limited citizenship in Palestine, renounces idolatry. ",
+				"<cite ref=\"Sanhedrin 96b:8\">Snh. 96ᵇ</cite>; <cite ref=\"Gittin 57b:6\">Gitt. 57ᵇ</cite>; a. fr.—<he>ג׳ שקר</he> an insincere proselyte (from impure motives). ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 5:5:4\">Y. B. Mets. V, 10ᶜ</cite>.—Pl. <cite ref=\"C01351\"><he>גֵּרִים</he></cite>, constr. <he>גֵּרֵי</he>, <cite ref=\"C00830\"><he>גֵּירֵי</he></cite>.—<he>ג׳ גרורים</he> self-made converts, not formally admitted. ",
+				"<cite ref=\"Avodah Zarah 3b:4\">Ab. Zar. 3ᵇ</cite>; <cite ref=\"Avodah Zarah 24a:17\">24ᵃ</cite>; a. e.—גרי אריות <i>lion-proselytes</i>, i.e. proselytes from mere fear (with ref. to <cite ref=\"II Kings 17:25\">II Kings XVII, 25</cite> sq.). ",
+				"<cite ref=\"Chullin 3b:17\">Ḥull. 3ᵇ</cite>, opp. <he>גרי אמת</he>. ",
+				"<cite ref=\"Kiddushin 75b\">Kidd. 75ᵇ</cite>; <cite ref=\"Sanhedrin 85b:24\">Snh. 85ᵇ</cite>; a. fr.—<he>גרי חלומות</he> proselytes converted by the advice of a dreamer or an interpreter of dreams; <he>גרי מרדכי ואסתר</he> such as joined the Jewish ranks from motives like those prevalent in the days of Mordecai and Esther (<cite ref=\"Esther 8:17\">Esth. VIII, 17</cite>). ",
+				"<cite ref=\"Yevamot 24b:8\">Yeb. 24ᵇ</cite>.—",
+				"<cite ref=\"Mishnah Niddah 7:3\">Nidd. VII, 3</cite> (<cite ref=\"Niddah 56b:37\">56ᵇ</cite>) <he>גרים טועין</he> Ar. (ed. <he>וטועין</he>) proselytes not living in accordance with the Jewish usages.—<he>בן גרים</he> a descendant of proselytes. ",
+				"<cite ref=\"Mishnah Bava Metzia 4:10\">B. Mets. IV, 10</cite> (<cite ref=\"Bava Metzia 58b:8\">58ᵇ</cite>).—",
+				"<cite ref=\"Shabbat 33b:5\">Sabb. 33ᵇ</cite> <he>יהודה בן ג׳</he>. [Mode of admission, v. ",
+				"<cite ref=\"Yevamot 47a:5\">Yeb. 47ᵃ</cite>.—Views about converts, v. ",
+				"<cite ref=\"Bamidbar Rabbah 8:9\">Num. R. s. 8</cite>; <cite ref=\"Niddah 13b:22\">Nidd. 13ᵇ</cite>; <cite ref=\"Pesachim 87b:14\">Pes. 87ᵇ</cite>; a. fr.]. Fem. <cite ref=\"C01320\"><he>גֵּרָה</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 88:7\">Gen. R. s. 88</cite>, end.—Usu. <cite ref=\"C00668\"><he>גִּיּוֹרֶת</he></cite>. ",
+				"<cite ref=\"Mishnah Ketubot 4:3\">Keth. IV, 3</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

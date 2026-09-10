@@ -1,0 +1,28 @@
+{
+	"id": "U00942",
+	"slug": "שילוט",
+	"headword": {
+		"text": "שִׁילּוּט",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁלּ׳"
+		}
+	],
+	"page": {
+		"number": 1563,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01281\"><he>שָׁלַט</he></cite>) <i>control</i>; (sub <he>יד</he>) <i>handling</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:1:12\">Y. Shek. VI, 49ᵈ</cite> <he>חצי טפח … לש׳</he> allow one half of a handbreadth on each side (of the Ark) for handling (the tablets); [Ms. M. <he>לשילובן</he> or <he>לשילוכן</he>, v. Rabb. D. S. a. l. p. 53, note]."
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "C01376",
+	"slug": "גרסא-1",
+	"headword": {
+		"text": "גִּרְסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּירְסָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 271,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01375\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>acquired learning, study of tradition</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:2\">Targ. Cant. I, 2</cite> <he>בג׳</he> for verbal study.—",
+				"<cite ref=\"Megillah 6b:4\">Meg. 6ᵇ</cite> <he>לאוקומי ג׳ וכ׳</he> to preserve (in memory) what one has learned requires divine assistance. ",
+				"<cite ref=\"Shabbat 21b:2\">Sabb. 21ᵇ</cite> <he>ג׳ דינקותא</he> what has been learned in youth (which is better remembered). ",
+				"<cite ref=\"Shabbat 30b:1\">Ib. 30ᵇ</cite> <he>לא הוה פסיק פומיה מג׳</he> did not cease reciting. ",
+				"<cite ref=\"Eruvin 68a:3\">Erub. 68ᵃ</cite> <he>אנא</he> … <he>בגִרְסָאִי</he> I am busy studying; a. fr.—Pl. <he>גִּרְסַיָּיא</he>, <cite ref=\"C01277\"><he>גִּירְ׳</he></cite>. ",
+				"<cite ref=\"Bava Batra 22a:3\">B. Bath. 22ᵃ</cite> <he>דלא ליטרדו מגִּירְסַיְיהוּ</he> Ms. M. (ed. <he>אתו ליטרדו מג׳</he>) that they may not be disturbed in their studies."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (editorial note) <i>version</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 84:8\">Yalk. Gen. 84</cite> <he>ג׳ אחרינא זה וכ׳</he> another version (for <he>זה איוב</he>, <cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>) is, ‘This alludes to the tribe of Levi’. [Frequently in commentaries.—Denom. <cite ref=\"C01373\"><he>גרס</he></cite> <i>to read</i>. <he>הכי גרסינן</he> (abbr. <he>ה״ג</he>) such is the proper reading.]"
+			],
+			"label": "2"
+		}
+	]
+}

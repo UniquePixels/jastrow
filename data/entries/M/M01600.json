@@ -1,0 +1,23 @@
+{
+	"id": "M01600",
+	"slug": "מלמד",
+	"headword": {
+		"text": "מַלְמֵד"
+	},
+	"page": {
+		"number": 793,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"L00565\"><he>לָמַד</he></cite>)<i>ox-goad</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 9:6\">Kel. IX, 6</cite>, v. <cite ref=\"D01033\"><he>דָּֽרְבָן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:21\">Y. Snh. X, 28ᵃ</cite> <he>מ׳ שהוא מְלַמֵּד וכ׳</he> it is called <i>malmed</i>, because it trains the cow &c.; Pesik. Baḥod., p. 153ᵃ; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "J00101",
+	"slug": "ידי-2",
+	"headword": {
+		"text": "יְדִי"
+	},
+	"page": {
+		"number": 564,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"F00017\"><he>וַדֵּי</he></cite>, <i>Ithpa.</i> <he>אִתְוַדֵּי</he> ch. same, <i>to confess</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 5:5\">Targ. O. Lev. V, 5</cite> (Y. <he>יוֹדֵי</he> <i>Af.</i>). ",
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 3:29\">Targ. Y. II, Deut. III, 29</cite> <he>מִתְוַדִּין</he>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אוֹדִי", "הוֹדִי"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"J00100\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 28:13\">Targ. Prov. XXVIII, 13</cite>.—",
+						"<cite ref=\"Onkelos Genesis 49:8\">Targ. Gen. XLIX, 8</cite>; a. fr.—",
+						"<cite ref=\"Yoma 7a:3\">Yoma 7ᵃ</cite> <he>מוֹדִינָא</he> I admit (agree). ",
+						"<cite ref=\"Ketubot 85a:14\">Keth. 85ᵃ</cite> <he>ומוֹדְיָא</he> and she may admit her debt.—",
+						"<cite ref=\"Berakhot 54b:17\">Ber. 54ᵇ</cite> <he>צריך לאוֹדוּיֵי וכ׳</he> he must offer thanks in the presence of &c.—",
+						"<cite ref=\"Shevuot 39b:11\">Shebu. 39ᵇ</cite> <he>כפר במקצת וא׳ במקצת</he> if he denies part and admits part of the claim; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "Q00047",
+	"slug": "פגום-2",
+	"headword": {
+		"text": "פָּגוּם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1132,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ",
+			"units": []
+		},
+		{
+			"gloss": " part. pass. of <cite ref=\"Q00074\"><he>פָּגַם</he></cite>, q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (adj.) <i>defective</i>, esp. (of legal status) <i>inferior</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 3:12\">Kidd. III, 12</cite> <he>כל מקום שיש … הולד הולך אחר הפ׳</he> wherever a betrothal is legally recognized, but a sin is connected with it, the issue follows the status of the inferior, e.g. if a high priest marries a widow &c. ",
+				"<cite ref=\"Kiddushin 67a:10\">Ib. 67ᵃ</cite> <he>הלך אחר הפ׳ שבשניהם</he> (in assigning the legal status of the issue) follow the inferior of the two parents; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

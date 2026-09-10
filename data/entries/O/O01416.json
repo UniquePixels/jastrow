@@ -1,0 +1,40 @@
+{
+	"id": "O01416",
+	"slug": "ספר-2",
+	"headword": {
+		"text": "סְפַר"
+	},
+	"page": {
+		"number": 1017,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01415\">same</cite><i>to count, mark, write</i>, v. <cite ref=\"O01423\"><he>סַפְרָא</he> I</cite>. I.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to shear</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַפֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to cut, shear, shave</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 1:20\">Targ. Job I, 20</cite> (Ms. <cite ref=\"O01416\"><he>סְפַר</he></cite> <i>Pe.</i>). ",
+						"<cite ref=\"Targum Jonathan on Leviticus 13:33\">Targ. Y. Lev. XIII, 33</cite> (not <he>יַסְפֵּר</he>); <cite ref=\"Targum Jonathan on Leviticus 14:8\">ib. XIV, 8</cite>, sq. (h. text <he>גלח</he>); a. fr.—",
+						"<cite ref=\"Vayikra Rabbah 28:1\">Lev. R. s. 28</cite>, end <he>יתיב ומְסַפֵּר ליה</he> (Haman) sat down and cut his (Mordecai’s) hair; <cite ref=\"Vayikra Rabbah 28:1\">ib.</cite> <he>מן דחסל</he> (<he>מן</he>) <he>מְסַפְּרָא ליה</he> when he had done cutting his hair; a. fr.—Part. pass. <he>מְסַפֵּר</he>. ",
+						"<cite ref=\"Vayikra Rabbah 28:1\">Ib.</cite> <he>אית בר נש … ולא מ׳</he> is there a man who putts the royal crown on his head without having his hair cut?; <cite ref=\"Esther Rabbah 10:4\">Esth. R. to VI, 10</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

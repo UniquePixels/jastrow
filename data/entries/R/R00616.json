@@ -1,0 +1,40 @@
+{
+	"id": "R00616",
+	"slug": "צנורא-3",
+	"headword": {
+		"text": "צִנּוֹרָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "צִנּוֹרָה",
+			"homograph": 2
+		},
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1291,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"R00613\"><he>צִנּוֹר</he></cite>) <i>hook, curved pin</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 9:6\">Kel. IX, 6</cite> (ed. Dehr. <cite ref=\"R00631\"><he>צְנֵירָה</he></cite>), v. <cite ref=\"K00398\"><he>כּוּשׁ</he> I</cite>. ",
+				"<cite ref=\"Mishnah Kelim 13:5\">Ib. XIII, 5</cite> <he>צ׳ שפשטה</he> (ed. Dehr. <he>צני׳</he>) if a curved pin has been straightened. ",
+				"<cite ref=\"Mishnah Kelim 11:9\">Ib. XI, 9</cite> <he>צ׳ טהורה</he> (Maim. ed. Dehr. <he>צני׳</he>) the hook of an earring (detached) is clean; <cite ref=\"Tosefta Keilim Metsia 1:9\">Tosef. Kel. B. Mets. I, 9</cite> [read:] <he>צ׳ של נזם</he> (v. R. S. to Kel. l. c.). Ib. III, 7 <he>ניטל … מפני הצ׳</he> (ed. Zuck. <he>הצינורות</he>) if the flat portion of the baker’s shovel is broken off, it is susceptible to uncleanness on account of the hook on the other end (used as a poker); <he>ניטלה הצ׳</he> (ed. Zuck. <he>הצינורת</he>) if the curved end is broken off (v. <cite ref=\"S01327\"><he>קַלִּיגְרָפוֹן</he></cite>). ",
+				"<cite ref=\"Yoma 12a:11\">Yoma 12ᵃ</cite> <he>מהפך בצ׳</he> he turns (a piece of flesh &c. on the altar) with the hook. ",
+				"<cite ref=\"Tosefta Shabbat 8:8\">Tosef. Sabb. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:16\">IX</cite>), 16 <he>כדי לעשות צ׳ קטנה</he> enough coal to forge a small hook; <cite ref=\"Tosefta Shabbat 9:10\">ib. IX</cite> (<cite ref=\"Tosefta Shabbat 10:5\">X</cite>), 5 <he>כדי … ממנו צ׳ וכ׳</he> enough iron to make of it &c. ",
+				"<cite ref=\"Menachot 107a\">Men. 107ᵃ</cite>; <cite ref=\"Shabbat 90a\">Sabb. 90ᵃ</cite> <he>צ׳ וכ׳</he> a small bronze hook. ",
+				"<cite ref=\"Bereishit Rabbah 74:10\">Gen. R. s. 74</cite> <he>אפי׳ מחט אפי׳ צ׳ וכ׳</he> thou hast not found with me even a pin or a hook (of thine); a. fr.—[<cite ref=\"Bamidbar Rabbah 8:4\">Num. R. s. 8</cite>, v. next w.]—Pl. <he>צִנּוֹרוֹת</he>, <he>צִנּוֹרִיּוֹת</he> (fr. <cite ref=\"R00618\"><he>צִנּוֹרִית</he></cite>). ",
+				"<cite ref=\"Tosefta Keilim Metsia 2:15\">Tosef. Kel. B. Mets. II, 15</cite> <he>צ׳ התופסות וכ׳</he> the hooks which clasp the mill-stones from above. ",
+				"<cite ref=\"Chagigah 21b\">Ḥag. 21ᵇ</cite>, sq. <he>מחטין וצ׳</he> pins (or needles) and hooks; a. e.—Chald., v. <cite ref=\"R00615\"><he>צִנּוֹרָא</he> I</cite>."
+			]
+		}
+	]
+}

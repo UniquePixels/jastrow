@@ -1,0 +1,24 @@
+{
+	"id": "H01006",
+	"slug": "חלוק-2",
+	"headword": {
+		"text": "חָלוּק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 465,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>divided</i>, v. <cite ref=\"H01112\"><he>חָלַק</he></cite>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>empty, smooth</i>, v. <cite ref=\"H01113\"><he>חָלָק</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

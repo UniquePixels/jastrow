@@ -1,0 +1,67 @@
+{
+	"id": "R00565",
+	"slug": "צמח-1",
+	"headword": {
+		"text": "צָמַח"
+	},
+	"page": {
+		"number": 1287,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to break forth, shine; to bloom, sprout, grow</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:6\">Cant. R. to III, 6</cite> <he>היה … ועמוד אש צוֹמֵחַ</he> the pillar of cloud came down, and the pillar of fire grew brighter. ",
+				"<cite ref=\"Chullin 60b:6\">Ḥull. 60ᵇ</cite> <he>יצאו דשאים … וצָמְחוּ</he> the plants came out and stood at the opening of the ground, until Adam prayed, when rain came down, and they came forth. ",
+				"<cite ref=\"Pesikta Rabbati 46:1\">Pesik. R. s. 46</cite> <he>צָמְחָה כפרתו</he> his pardon was revealed. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:1:11\">Y. Shebi. IX, 38ᵈ</cite> top <he>אם צמחו מוצאי וכ׳</he> if the leaves came out after the Sabbatical year. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:1:11\">Ib.</cite> <he>אם צימח וכ׳</he> if it (the <i>lof</i> in the ground) sprouted again &c. ",
+				"<cite ref=\"Mishnah Maasrot 1:3\">Maasr. I, 3</cite> <he>התלתן כדי שתִּצְמַח</he> Ms. M. fenugrec is subject to tithes when it is so far advanced that the seeds can be planted and will grow; <cite ref=\"Rosh Hashanah 12b\">R. Hash. 12ᵇ</cite>, expl. <he>משתצמח לזרעים</he> when it has grown sufficiently to be planted (Rashi: when its seeds begin to develop). ",
+				"<cite ref=\"Mishnah Negaim 10:3\">Neg. X, 3</cite> <he>הצומח</he> a black hair that grows out of the sore (<cite ref=\"Leviticus 13:37\">Lev. XIII, 37</cite>). Tosef. ib. IV, 1 <he>שתי שערות צומחות</he> two black hairs of recent growth. Ib. <he>אחת צוֹמַחַת וכ׳</he> one of recent growth, and the other (of old standing) surrounded with flesh; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְמַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be made to grow forth; to grow</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 22:10\">Midr. Till. to Ps. XXII</cite> <he>נ׳ להם גואל וכ׳</he> a redeemer grew up for them and redeemed them. ",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 12\">Pirké d’R. El. ch. XII</cite> <he>נִצְמָהִין מאליהן</he> grew of themselves (without being planted); a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["צִימֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to grow</i>. Y. Shebi. l. c., v. supra. Y. Maasr. I, 49ᵃ top (ref. to <cite ref=\"Deuteronomy 14:22\">Deut. XIV, 22</cite>) <he>דבר שהוא נזרע ומְצַמֵּחַ</he> (R. S. to <cite ref=\"Mishnah Maasrot 1:3\">Maasr. I, 3</cite> <he>ומצְמִיחִ</he>) that (is subject to tithes) which is sufficiently advanced to grow when planted (v. supra); a. e.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִצְמִיחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00564\">same</cite>, v. <i>Pi.</i>",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to grow, produce</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 307\">Sifré Deut. 307</cite>, v. <cite ref=\"R00312\"><he>צִידּוּק</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

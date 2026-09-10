@@ -1,0 +1,32 @@
+{
+	"id": "Q00139",
+	"slug": "פדת",
+	"headword": {
+		"text": "פְּדָת"
+	},
+	"page": {
+		"number": 1138,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>P’dath</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " father of R. Elazar. ",
+			"units": ["<cite ref=\"Eruvin 54b:4\">Erub. 54ᵇ</cite>; a. fr."],
+			"label": "1"
+		},
+		{
+			"gloss": " son of R. Elazar, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 4:10:5\">Y. Meg. IV, 75ᶜ</cite> top; a. fr.—[<cite ref=\"Meilah 4b:23\">Meïl. 4ᵇ</cite>, v. <cite ref=\"Q00105\"><he>פָּדָא</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

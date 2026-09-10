@@ -1,0 +1,28 @@
+{
+	"id": "V00036",
+	"slug": "תבואה",
+	"headword": {
+		"text": "תְּבוּאָה"
+	},
+	"page": {
+		"number": 1643,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"B00199\"><he>בּוֹא</he></cite>) [<i>that which is brought in,</i>] <i>grain, provision</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 55a:5\">Ned. 55ᵃ</cite>, v. <cite ref=\"P00817\"><he>עֲלַל</he> II</cite>. ",
+				"<cite ref=\"Nedarim 55a:5\">Ib.</cite> <he>תבואה לחוד ותְבוּאַת וכ׳</he> <i>t’buah</i> is one thing (refers only to the five kinds of grain), and <i>t’buath sadeh</i> is another thing (refers to all in-gatherings of the field). ",
+				"<cite ref=\"Mishnah Peah 6:9\">Peah VI, 9</cite> <he>סאה ת׳ עקורה וכ׳</he> a S’ah of plucked grain (forgotten in the field), and one of unplucked (standing) grain. ",
+				"<cite ref=\"Mishnah Peah 6:10\">Ib. 10</cite> <he>ת׳ שנתנה לשחת</he> grain cut for fodder (v. <cite ref=\"U00726\"><he>שַׁחַת</he> II</cite>). ",
+				"<cite ref=\"Bava Metzia 59a:10\">B. Mets. 59ᵃ</cite> <he>לעולם … בת׳ וכ׳</he> a man should always take care to have grain in his house, <he>שאין מריבה … על עסקי ת׳</he> for no strife is more frequent in the house than that about grain. ",
+				"<cite ref=\"Menachot 103b:21\">Men. 103ᵇ</cite> <he>הלוקח ת׳ משנה וכ׳</he> he who buys grain from year to year; (<cite ref=\"Jerusalem Talmud Shabbat 8:1:5\">Y. Sabb. VIII, 11ᵃ</cite> bot. <cite ref=\"H00633\"><he>חטים</he></cite>). ",
+				"<cite ref=\"Temurah 16a:45\">Tem. 16ᵃ</cite> <he>אשה כיון שאין לה ת׳ וכ׳</he> when a woman has no provision in the house, she clamors at once; a. fr."
+			]
+		}
+	]
+}

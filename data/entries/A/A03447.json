@@ -1,0 +1,26 @@
+{
+	"id": "A03447",
+	"slug": "אתרוג",
+	"headword": {
+		"text": "אֶתְרוֹג"
+	},
+	"page": {
+		"number": 134,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00938\"><he>תרג</he></cite> = <he>שרג</he> q. v.) [<i>the shining</i>,] <i>Ethrog</i>, a kind of orange or citron used with the festive wreath on the Feast of Booths (= <he>פרי עץ הדר</he> <cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>; v. Targ.). ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 3:5\">Succ. III, 5</cite>; a. fr. ",
+				"<cite ref=\"Bereishit Rabbah 15:7\">Gen. R. s. 15</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 30:15\">Lev. R. s. 30</cite>, end.—Pl. <he>אֶתְרוֹגִין</he>. ",
+				"<cite ref=\"Mishnah Maasrot 1:4\">Maasr. I, 4</cite>. ",
+				"<cite ref=\"Mishnah Sukkah 4:9\">Succ. IV, 9</cite> <he>באֶתְרוֹגֵיהֶן</he> with their ethrogim (which they had brought into the Temple); a. e."
+			]
+		}
+	]
+}

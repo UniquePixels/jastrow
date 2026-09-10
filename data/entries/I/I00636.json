@@ -1,0 +1,71 @@
+{
+	"id": "I00636",
+	"slug": "טפח-1",
+	"headword": {
+		"text": "טָפַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 545,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00674\"><he>טפף</he> I</cite>) [<i>to join closely</i>, whence <cite ref=\"I00639\"><he>טֶפַח</he></cite> (cmp. <cite ref=\"S00401\"><he>קוֹמֶץ</he></cite>) <i>joined fingers, hand-breadth</i>,] <i>to come in close contact</i>; (cmp. <cite ref=\"N01251\"><he>נָקַשׁ</he></cite>) <i>to strike, knock</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 32b:20\">B. Kam. 32ᵇ</cite> <he>נתזה בקעת וטָפְחָה לו על פניו</he> Ms. M. a chip flew off and struck him in the face. ",
+				"<cite ref=\"Bava Kamma 32b:20\">Ib.</cite> <he>נתזו … וטָפְחוּ לו וכ׳</he> Ms. M. sparks flew off and hit him &c.; a. fr.—Esp. (denom. of <cite ref=\"I00639\"><he>טֶפַח</he></cite>) <cite ref=\"I00636\"><he>טָפַח</he></cite>, a."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טִיפֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to strike with the flat hand, to slap</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite>, end <he>התחיל אדה״ר מְטַפֵּחַ על פניו</he> Adam slapped his own face; <cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <cite ref=\"I00199\"><he>טוֹפֵחַ</he></cite>. ",
+						"<cite ref=\"Kiddushin 31a:13\">Kidd. 31ᵃ</cite> <he>טָפְחָה לו על ראשו</he> slapped him on his head. ",
+						"<cite ref=\"Bereishit Rabbah 45:6\">Gen. R. s. 45</cite> <he>טְפָחַתָּהּ וכ׳</he> (<cite ref=\"Yalkut Shimoni on Torah 79:6\">Yalk. ib. 79</cite> <he>קפחתה</he>) she slapped her face with her shoe. Y. Kil. VIII, 31ᶜ top <he>טי׳ כנגד וכ׳</he> (<cite ref=\"Kiddushin 24b:12\">Kidd. 24ᵇ</cite> <he>הכהו</he>) if he struck him over his eye and blinded him. ",
+						"<cite ref=\"Mishnah Avodah Zarah 4:10\">Ab. Zar. IV, 10</cite> <he>היה מְטַפֵּחַ על וכ׳</he> (Bab. ed. 60ᵇ <he>מַטְפִּיחַ</he>, Y. ed. <he>מתפח</he>) he slapped upon the fermenting barrel (to check fermentation). ",
+						"<cite ref=\"Mishnah Tahorot 3:8\">Toh. III, 8</cite> <he>שדרך התינוק לטַפֵּחַ</he> a child likes to slap (dough &c., to dabble); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to clap hands</i> to a certain tune in rejoicing or mourning, v. <cite ref=\"I00413\"><he>טִיפּוּחַ</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Beitzah 5:2\">Bets. V, 2</cite> <he>לא מְטַפְּחִין וכ׳</he> we must not clap hands, or strike upon the knees, or stamp on the Holy Day. ",
+						"<cite ref=\"Mishnah Moed Katan 3:8\">M. Kat. III, 8</cite> <he>מענות אבל לא מְטַפְּחוֹת</he> may sing the dirge but must not clap. ",
+						"<cite ref=\"Mishnah Moed Katan 3:9\">Ib. 9</cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> … <he>שהיה מקיש וטוֹפַחַ</he> he knocked his hands against each other and clapped; <cite ref=\"Bamidbar Rabbah 4:20\">ib.</cite> <he>וטפח</he>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:14\">Cant. R. to II, 14</cite> <he>מְטַפַּחַת באגפיה</he> clapped her wings."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to collect the contents of a broken vessel by palming, to wipe with the palm</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Terumot 11:7\">Ter. XI, 7</cite>. ",
+						"<cite ref=\"Shabbat 143b:2\">Sabb. 143ᵇ</cite> <he>ולא יְטַפֵּחַ בשמן</he> must not use the palm for collecting oil in the broken vessel."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִטְפִּיחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00635\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 60b\">Ab. Zar. 60ᵇ</cite>, v. supra."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

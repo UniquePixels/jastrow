@@ -1,0 +1,38 @@
+{
+	"id": "M02028",
+	"slug": "מסרק",
+	"headword": {
+		"text": "מַסְרֵק"
+	},
+	"page": {
+		"number": 811,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סָרַק</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>comb, strigil</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:8\">Kel. XIII, 8</cite> <he>מ׳ של פישתן</he> hackle for flax. ",
+				"<cite ref=\"Mishnah Kelim 13:7\">Ib. 7</cite>; <cite ref=\"Mishnah Tevul Yom 4:6\">T’bul Yom IV, 6</cite> <he>מ׳ של ראש</he> hair-comb; a. e.—",
+				"<cite ref=\"Tosefta Keilim Metsia 4:4\">Tosef. Kel. B. Mets. IV, 4</cite> <he>מ׳ שיש בו דרבן</he> (an iron) comb to which a sting is attached (an instrument of torture cmp. <cite ref=\"Q01564\"><he>פַּרְגָּל</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an indented attachment to a vessel</i> or <i>a plant</i> &c. Ib. 9 <he>שלשלת חִבּוּר על המ׳</he> a lamp-chain is considered as joined to ‘the comb’. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:8\">Kel. II, 8</cite> <he>מ׳ של צרצור</he>; <cite ref=\"Tosefta Kelim Kamma 2:8\">Tosef. Kel. B. Kam. II, 8</cite> <cite ref=\"M02022\"><he>מסרוק</he></cite>, v. <cite ref=\"R00804\"><he>צִרְצוּר</he></cite>. ",
+				"<cite ref=\"Mishnah Oktzin 2:3\">Ukts. II, 3</cite> <he>המ׳</he> the crown of a pomegranate.—Pl. <he>מַסְרֵקוֹת</he>. ",
+				"<cite ref=\"Berakhot 61b:9\">Ber. 61ᵇ</cite>, a. e. <he>מ׳ של ברזל</he> iron combs for flaying, v. supra."
+			],
+			"label": "2"
+		}
+	]
+}

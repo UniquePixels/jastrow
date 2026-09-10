@@ -1,0 +1,32 @@
+{
+	"id": "V00033",
+	"slug": "תבא",
+	"headword": {
+		"text": "תָּבָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1642,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הִתְבִּיא</he> (<i>Tafel</i> of <cite ref=\"B00199\"><he>בוא</he></cite>; cmp. <cite ref=\"M00389\"><he>מוּבָאת</he></cite>) <i>to put into, fit, combine</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 31:10\">Gen. R. s. 31</cite> (expl. <cite ref=\"V00045\"><he>תביקין</he></cite>) <he>שהיו מַתְבִּיאוֹת בה</he> because with it they fitted (the timber, they used this cubit measure for buildings); <cite ref=\"Yalkut Shimoni on Torah 53\">Yalk. ib. 53</cite>. [The fem. gender in <he>מתביאות</he> may be accounted for by the frequent use of the mixed plural for mechanics, e.g. <he>גָּרוֹסוֹת</he>, <he>נְמוֹשׁוֹת</he>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

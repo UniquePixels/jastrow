@@ -1,0 +1,62 @@
+{
+	"id": "M01910",
+	"slug": "מסי-1",
+	"headword": {
+		"text": "מסי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָסָה"
+		}
+	],
+	"page": {
+		"number": 806,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to melt, flow; to cause running off, effect curdling</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 78:2\">Midr. Till. to Ps. LXXVIII, 25</cite> <he>שלא יִמְסֶה</he> that the manna might not melt.—Denom. <cite ref=\"M01855\"><he>מְסוֹ</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִמְסָה"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to flow</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 6:7\">Midr. Till. to Ps. VI, 7</cite> <he>התחיל בוכה ומַמְסֶה מטתו וכ׳</he> ed. Bub. (ed. <he>וממחה</he>) he began to weep and make his bed flow with (his) tears; <cite ref=\"Yalkut Shimoni on Nach 636\">Yalk. Ps. 636</cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["מִסָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M01909\">same</cite>, <i>to dissolve, weaken</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 7:9\">Deut. R. s. 7</cite> (play on <cite ref=\"M01886\"><he>מַסּוֹת</he></cite>, <cite ref=\"Deuteronomy 29:2\">Deut. XXIX, 2</cite>) <he>המכות מְמַסּוֹת גופיהן וכ׳</he> the plagues weakened the bodies of the Egyptians; Yalk. ib. 940."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִמְסָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be melted, to fall away</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 3:4\">Tosef. Sot. III, 4</cite> <he>ירכה נִמְסֵית</he> her thigh will fall away."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

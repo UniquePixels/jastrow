@@ -1,0 +1,23 @@
+{
+	"id": "A01340",
+	"slug": "אימירון",
+	"headword": {
+		"text": "אִימִירוֹן"
+	},
+	"page": {
+		"number": 51,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἥμερον, neut. or accus.) <i>tame, soft, gentle</i> (opp. <cite ref=\"A00353\"><he>אַגְרִיאוֹן</he></cite> q. v.). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 77:3\">Gen. R. s. 77</cite> end <he>נמירון</he> (corr. acc.). ",
+				"<cite ref=\"Bamidbar Rabbah 11\">Num. R. s. 11</cite>; Pesik. Haḥod. p. 44ᵇ <he>אי מכון</he>; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>אימרון</he>; <cite ref=\"Shir HaShirim Rabbah 3:7\">Cant. R. to III, 7</cite> <cite ref=\"A00395\"><he>אדיבון</he></cite> (corr. acc.). Midr. Sam. ch. XVII (for <cite ref=\"A00353\"><he>אגריון</he></cite> read <cite ref=\"A01340\"><he>אימירון</he></cite>, for <he>נימירון</he> read <cite ref=\"A00353\"><he>אגריון</he></cite>)."
+			]
+		}
+	]
+}

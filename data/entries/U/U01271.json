@@ -1,0 +1,29 @@
+{
+	"id": "U01271",
+	"slug": "שלחא-1",
+	"headword": {
+		"text": "שִׁלְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1580,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01270\"><he>שֶׁלַח</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Menachot 35a:15\">Men. 35ᵃ</cite> <he>כי מיתלי ביה בש׳ וכ׳</he> when you hang a weight on (stretch) the leather, and it rebounds again, it is old.—Pl. <he>שְׁלָחַיָּה</he>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 7:3:2\">Y. Ned. VII, end, 40ᶜ</cite> <he>כגון אילין ש׳</he> (ed. Zyt. <he>שלחים</he>, corr. acc.) as, for instance, hides (which are sometimes used for covers)."
+			]
+		}
+	]
+}

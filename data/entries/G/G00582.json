@@ -1,0 +1,33 @@
+{
+	"id": "G00582",
+	"slug": "זנן",
+	"headword": {
+		"text": "זָנַן"
+	},
+	"page": {
+		"number": 407,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"G00569\"><he>זָנָה</he></cite>) <i>to be faithless, suspected of faithlessness.—Part. pass</i>. <he>זָנוּן</he>, pl. <cite ref=\"G00572\"><he>זְנוּנִים</he></cite> <i>of spurious paternity</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 87a:14\">Pes. 87ᵃ</cite> bot. <he>ותוליד לך בנים ז׳</he> and she will bear thee spurious sons; <cite ref=\"Pesachim 87b\">ib. 87ᵇ</cite> <he>ובניך ז׳</he>; v. <cite ref=\"G00572\"><he>זְנוּנִים</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִנֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to think of faithlessness</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 10a\">Sot. 10ᵃ</cite>, v. <cite ref=\"G00569\"><he>זָנָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

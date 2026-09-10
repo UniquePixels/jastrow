@@ -1,0 +1,33 @@
+{
+	"id": "P01501",
+	"slug": "עשר-4",
+	"headword": {
+		"text": "עֶשֶׂר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲשָׂרָה"
+		}
+	],
+	"page": {
+		"number": 1127,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>ten</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:1\">Ab. V, 1</cite>, v. <cite ref=\"M00044\"><he>מַאֲמָר</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 15:27\">Ex. R. s. 15</cite>, a. fr. <he>עשר מכות</he> (not <he>עשרה</he>) the ten Egyptian plagues. ",
+				"<cite ref=\"Shemot Rabbah 15:27\">Ib.</cite> <he>ע׳ אנשים</he> ten men; a. v. fr.—In compounds <cite ref=\"P01502\"><he>עָשָׂר</he></cite>, <cite ref=\"P01506\"><he>עֶשְׂרֵה</he></cite>, as <he>אַחַד ע׳</he> <i>eleven</i>, <he>שְׁנֵים ע׳</he> <i>twelve</i> &c. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 1:1\">R. Hash. I, 1</cite> <he>בחמשה ע׳ בו</he> on the fifteenth day of it (the month of Shebat). ",
+				"<cite ref=\"Mishnah Pesachim 1:1\">Pes. I, 1</cite> <he>אור לארבעה ע׳</he>, v. <cite ref=\"A00842\"><he>אוֹר</he> II</cite>; a. v. fr.—Pl. <he>עֶשְׂרִים</he> <i>twenty</i>. ",
+				"<cite ref=\"Bava Batra 107a:8\">B. Bath. 107ᵃ</cite> <he>ואחד אומר בע׳</he> and one of the experts says, it is worth twenty (Selaim). ",
+				"<cite ref=\"Pirkei Avot 5:21\">Ab. V, 21</cite> <he>בן ע׳ לרריף</he> at the age of twenty years it is time to hunt (for a living); a. v. fr."
+			]
+		}
+	]
+}

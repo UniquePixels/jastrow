@@ -1,0 +1,29 @@
+{
+	"id": "P00058",
+	"slug": "עבץ-2",
+	"headword": {
+		"text": "עֲבַץ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲבָצָא"
+		}
+	],
+	"page": {
+		"number": 1038,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transpos. of <he>בצבץ</he> = <he>בעבץ</he>; cmp. <cite ref=\"K00934\"><he>כֶּסֶךְ</he></cite> = <cite ref=\"K00937\"><he>כַּסְכֵּס</he></cite>, transpos. of <cite ref=\"O00935\"><he>סכסך</he></cite>) <i>tin</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:12\">Targ. Ez. XXVII, 12</cite> (ed. Lag. <cite ref=\"B01061\"><he>בעיץ</he></cite>). ",
+				"<cite ref=\"Onkelos Numbers 31:22\">Targ. O. Num. XXXI, 22</cite> ed. Berl. (oth. ed. <cite ref=\"A00187\"><he>אבצא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "M02031",
+	"slug": "מסרתא-1",
+	"headword": {
+		"text": "מַסְרֵתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַסְרֵי׳"
+		}
+	],
+	"page": {
+		"number": 812,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M02030\">same</cite> <cite ref=\"Targum Jonathan on II Samuel 13:9\">Targ. II Sam. XIII, 9</cite> (ed. Wil. <cite ref=\"M02029\"><he>מַסְרִי׳</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 2:5\">Targ. Lev. II, 5</cite> (also <cite ref=\"M02029\"><he>מַסְרִי׳</he></cite>; h. text <cite ref=\"M00805\"><he>מחבת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 4:3\">Targ. Ez. IV, 3</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 9:31\">Targ. I Chr. IX, 31</cite> (h. text <he>חבתים</he>)."
+			]
+		}
+	]
+}

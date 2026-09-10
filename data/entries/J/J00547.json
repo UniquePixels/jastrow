@@ -1,0 +1,73 @@
+{
+	"id": "J00547",
+	"slug": "יצק",
+	"headword": {
+		"text": "יָצַק"
+	},
+	"page": {
+		"number": 590,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>זקק</he>)<i>to pour, cast</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 112b\">Zeb. 112ᵇ</cite>; <cite ref=\"Sanhedrin 82b:18\">Snh. 82ᵇ</cite> <he>היוֹצֵק</he> a non-priest who pours oil, v. <cite ref=\"J00536\"><he>יְצִיקָה</he></cite>. ",
+				"<cite ref=\"Sanhedrin 83a:4\">Ib. 83ᵃ</cite> <he>אזהרה ליוצק וכ׳</he> where in the Scriptures is the warning for the non-priest not to pour oil &c.?—",
+				"<cite ref=\"Mishnah Menachot 3:2\">Men. III, 2</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"J00524\"><he>יָצוּק</he></cite> (or <cite ref=\"M02351\"><he>מָצוּק</he></cite>, fr. <cite ref=\"M02351\"><he>מָצַק</he></cite>) <i>cast</i>, a poetic expression for <i>mortal</i>, opp. to angel.—Pl. (<cite ref=\"M02296\"><he>מְצוּקִים</he></cite>) <he>יְצוּקִים</he>. Y. Kil. IX, 32ᵇ top; Y. Keth. XII, 35ᵃ <he>י׳</he>; <cite ref=\"Ketubot 104a:5\">Keth. 104ᵃ</cite> <cite ref=\"M00001\"><he>מ׳</he></cite> a. e., v. <cite ref=\"A02947\"><he>אֶרְאֵל</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצִּיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00546\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Horayot 12a:5\">Hor. 12ᵃ</cite> <he>מַצִּיקִין לו על ראשו</he> Ms. M. (ed. <he>מוֹצְקִין שמן</he>, v. <cite ref=\"M02351\"><he>מָצַק</he></cite>) they pour oil upon his head; <cite ref=\"Keritot 5b:91\">Kerith. 5ᵇ</cite> <he>מַצִּיק לו שמן וכ׳</he>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 19\">Yalk. Gen. 19</cite> <he>בו״ד מַצִּיק וכ׳</he> (<cite ref=\"Bereishit Rabbah 12:13\">Gen. R. s. 12</cite> <he>מוֹצֵק</he>) a human being casts a lens, v. <cite ref=\"B00270\"><he>בּוּלָס</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּצָק"],
+			"senses": [
+				{
+					"gloss": "<i>to be poured, cast</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 92b:12\">Snh. 92ᵇ</cite> <he>יוּצַק זהב רותח וכ׳</he> may hot gold be poured into the mouth &c.; Yalk. Dan. 1062 <he>י׳ סיד רותח</he>.—<i>Part.</i> <he>מוּצָק</he> "
+					],
+					"senses": [
+						{
+							"gloss": " <i>cast</i> (<i>metal</i>), <i>bright</i>. Y. Ber. I, 2ᵈ top (ref. to <he>כראי מוצק</he>, <cite ref=\"Job 37:18\">Job XXXVII, 18</cite>) <he>כראי מ׳ בכל שעה וכ׳</he> ‘like a cast metal mirror’, at all times the heavens look as bright &c., v. <cite ref=\"J00536\"><he>יְצִיקָה</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 19\">Yalk. Gen. 19</cite>; <cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite>, end.—",
+							"units": [],
+							"label": "a"
+						},
+						{
+							"gloss": " (cmp. <he>זקק</he>) <i>well-joined, firm</i> (cmp. ",
+							"units": [
+								"<cite ref=\"II Samuel 15:24\">II Sam. XV, 24</cite>; = <he>מוצג</he>). ",
+								"<cite ref=\"Yalkut Shimoni on Nach 185:5\">Yalk. Kings 185</cite> (ref. to <cite ref=\"I Kings 7:23\">I Kings VII, 23</cite>) <he>זה העולם שהוא מ׳</he> the basin is typical of the world which is called <i>mutsak</i> (firm), as we read &c. (<cite ref=\"Job 38:38\">Job XXXVIII, 38</cite>). Y. Ber. I, 2ᶜ bot. (ref. to <cite ref=\"Job 37:18\">Job XXXVII, 18</cite>, v. supra) you might think that the heavens become lax, … <he>ת״ל כראי מוּצָקִים</he> therefore it is said …, at all times they appear firmly joined."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִיצּוֹק", "נִצּוֹק"],
+			"senses": [
+				{
+					"gloss": " q. v.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

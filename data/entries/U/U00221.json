@@ -1,0 +1,40 @@
+{
+	"id": "U00221",
+	"slug": "שגי-1",
+	"headword": {
+		"text": "שגי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁגָה"
+		}
+	],
+	"page": {
+		"number": 1521,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U00210\"><he>שגג</he></cite>)<i>to be confused; to reel; to err</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 7:19\">Midr. Till. to Ps. VII</cite> <he>אימתי ש׳</he> when did he (David) err? When Saul pursued him. ",
+				"<cite ref=\"Midrash Tehillim 7:1\">Ib.</cite> <he>ש׳ אדם וכ׳</he>, v. infra; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁגָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to reel</i>; <i>to lead astray</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 829:1\">Yalk. Ps. 829</cite> <he>מה הגפן הזו … וכסוף היא מגרה את קרנה וקרניה מַשְׁגִּין לאדם וכ׳</he> as in the case of the grape,—you cut it, and it is silent, you tread it, and it is silent, but at the end it stirs up its horns (like an angry bull), and its horns cause man to reel, and thrust him down; <cite ref=\"Yalkut Shimoni on Torah 146:6\">Yalk. Gen. 146</cite> <he>מְשִׁיגִּין</he> (fr. <cite ref=\"U00210\"><he>שָׁגַג</he></cite>); <cite ref=\"Midrash Tehillim 80:5\">Midr. Till. to Ps. LXXX, 9</cite> (corr. acc.). ",
+						"<cite ref=\"Midrash Tehillim 7:2\">Midr. Till. to Ps. VII</cite> (ref. to <cite ref=\"Job 12:16\">Job XII, 16</cite>) <he>אם שגה אדם בדברי תורה דברי תורה משגון אותו</he> if a man wants to go astray in the interpretation of the words of the Law, the words of the Law will lead him astray (ed. Bub. <he>אם שגה אדם בדברי תורה משיגין אותו</he>); a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

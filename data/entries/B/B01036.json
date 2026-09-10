@@ -1,0 +1,49 @@
+{
+	"id": "B01036",
+	"slug": "בעי-1",
+	"headword": {
+		"text": "בעי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּעָה"
+		}
+	],
+	"page": {
+		"number": 181,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בע</he>, akin to <he>בה</he>, <cite ref=\"B00198\"><he>בו</he></cite>, v. <cite ref=\"B00198\"><he>בו</he></cite> <cite ref=\"A00000\"><he>א</he></cite>, ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>to enter into, split;</i> ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>to be empty, bare</i>). Part. <he>בּוֹעֶה</he>, v. infra.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְעָה"],
+			"senses": [
+				{
+					"gloss": "<i>to lay bare, destroy the crop</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 1:1\">B. Kam. I, 1</cite> <he>המַבְעֶה</he> damaging the crop (ref. to <cite ref=\"Exodus 22:4\">Ex. XXII, 4</cite>). Ib. 3ᵇ Rab says <he>מבעה זה אדם</he> the damaging force in the Mishnah means that of a human being (ransacking, searching); for we read (<cite ref=\"Isaiah 21:12\">Is. XXI, 12</cite>) <he>אם תבעיון בעיו</he> if ye desire to enter &c. (where <he>בעה</he> refers to human action); Samuel says, <he>מבעה זה השן</he> the <i>mabeh</i> of the Mishnah refers to the tooth, i.e. to an animal’s eating up the crop, for it says (<cite ref=\"Obadiah 1:6\">Ob. I, 6</cite>) <he>נבעו מצפניו</he> its hidden treasures were laid bare (made empty,—which refers to eating up). ",
+						"<cite ref=\"Obadiah 1:6\">Ib.</cite> (argument against Samuel) <he>מי קתני נִבְעָה</he> the Mishnah does not use the Nifal (which may mean <i>eaten up</i>); (argument against Rab) <he>מי קתני בּוֹעֶה</he> the Mishnah does not use the Kal (which may refer to human action) but the Hifil “to cause damage”—through the animal.—Tosef. ib. IX, 1."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q01330",
+	"slug": "פסלות",
+	"headword": {
+		"text": "פַּסְלוּת"
+	},
+	"page": {
+		"number": 1198,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"Q01241\"><he>פָּסוּל</he></cite>) <i>condition of unfitness, disqualification</i>, opp. <cite ref=\"K01329\"><he>כשרות</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 128a:11\">B. Bath. 128ᵃ</cite> <he>כל שתחילתו או סופו בפ׳ וכ׳</he> testimony for which the witness was disqualified at the beginning (when the fact to be attested occurred), or is disqualified at the end (when the evidence is taken) is illegal. ",
+				"<cite ref=\"Kohelet Rabbah 9:7:1\">Koh. R. to IX, 7</cite> <he>שמא פ׳ היה בבני</he> there was perhaps a defect in my son which made him rejectable as an offering."
+			]
+		}
+	]
+}

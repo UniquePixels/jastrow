@@ -1,0 +1,23 @@
+{
+	"id": "A02709",
+	"slug": "אפיקומן",
+	"headword": {
+		"text": "אֶפִּיקוֹמָן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 104,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἐπὶκῶμον = comessatum ire; cmp. Sm. Ant. s. v. <i>Comissatio;</i> Plut. II, 726 Fragm. ed. Wytt.) ‘<i>to the aftermeal entertainment!</i>’ = our, ‘<i>Remove the cloth</i>’. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 10:8\">Pes. X, 8</cite> <he>אין מפטירין אחר הפסח א׳</he> after the Paschal meal one must not wind up by saying, ‘Now to the after-meal entertainment’; (cmp. <cite ref=\"A02663\"><he>אַפְטָרָה</he></cite>). Y. ib. 37ᵈ top <he>אֶפִּיקוֹמוֹן שלא יהא וכ׳</he> in order that one should not break loose from his company and join another.—<cite ref=\"A02708\"><he>אֶפִּיקוֹמִין</he></cite> m. pl. (ἐπίκωμοι) <i>things belonging to the after-meal, dessert</i>. Ib. bot. <he>מאי א׳</he> what are <i>epicomoi? Fruits, sweet-meats</i> &c., v. <cite ref=\"G00545\"><he>זֶמֶר</he> II</cite>. Tosef. ib. X, 11 <he>אין מפטירין … אפיקימון וכ׳</he> ed. Zuck. (read … <he>קומין</he>) we must not offer <i>epikomoi</i>, as nuts, dates &c. [<cite ref=\"Pesachim 119b:9\">Pes. 119ᵇ</cite> <he>מאי א׳ אמר רב שלא וכ׳</he> seems to be a corrupt text; prob. to be read: <he>מאי טעמא אמר רב שלא וכ׳ מאי א׳ אמר שמואל כגון וכ׳</he>; cmp. Y. l. c. top … <he>א׳ שלא וכ׳</he>; bot. <he>מאי א׳ … שמואל אמר וכ׳</he>]"
+			]
+		}
+	]
+}

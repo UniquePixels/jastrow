@@ -1,0 +1,41 @@
+{
+	"id": "J00211",
+	"slug": "יונתא",
+	"headword": {
+		"text": "יוֹנְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוֹנָא"
+		},
+		{
+			"text": "יוֹנָה"
+		}
+	],
+	"page": {
+		"number": 570,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00200\"><he>יוֹן</he></cite> c.) ch. = h.. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 8:8\">Targ. Gen. VIII, 8</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Psalms 56:1\">Targ. Ps. LVI, 1</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 25a:13\">Snh. 25ᵃ</cite> (expl. <he>מפריחי יונים</he>, v. <cite ref=\"J00203\"><he>יוֹנָה</he> II</cite>) <he>אי תקדמיה יוֹנָךְ ליון</he> if thy dove shall overtake the cock-pigeon (thou shalt win &c.). ",
+				"<cite ref=\"Sanhedrin 25a:18\">Ib.</cite> <he>תולה בדעת יוֹנוֹ</he> v. <cite ref=\"D00950\"><he>דַּעַת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:4:6\">Y. Ab. Zar. V, 44ᵈ</cite> bot. <he>כמין יון וכ׳</he> they (the Samaritans) have an image resembling a cock-pigeon to which they offer libations (cmp. <cite ref=\"J00203\"><he>יוֹנָה</he> II</cite>). ",
+				"<cite ref=\"Sanhedrin 95a:9\">Snh. 95ᵃ</cite> <he>אתא יונה וכ׳</he> (masc.) a dove came down &c., v. <cite ref=\"I00860\"><he>טְרַף</he> I</cite>.—Pl. <he>יוֹנִין</he>, <he>יוֹנַיָּא</he>, <he>יוֹנֵי</he>, <he>יוֹנָן</he>, <cite ref=\"J00211\"><he>יוֹנָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 59:11\">Targ. Is. LIX, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 5:7\">Targ. Y. Lev. V, 7</cite>; <cite ref=\"Targum Jonathan on Leviticus 5:11\">11</cite> <he>בני יוניא</he> (O. <he>כני יונה</he>, v. <cite ref=\"J00203\"><he>יוֹנָה</he> II</cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 12:6\">Ib. XII, 6</cite> <he>בר יונן</he> (O. <cite ref=\"J00211\"><he>יונה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:15\">Targ. Cant. I, 15</cite>.—",
+				"<cite ref=\"Berakhot 56a:15\">Ber. 56ᵃ</cite> <he>תזאי תרתי יוני דפרחן</he> I saw (in my dream) two doves fly off. ",
+				"<cite ref=\"Berakhot 56b:4\">Ib.ᵇ</cite> <he>תרי יוני</he>."
+			]
+		}
+	]
+}

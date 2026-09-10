@@ -1,0 +1,48 @@
+{
+	"id": "O01426",
+	"slug": "ספרא-3",
+	"headword": {
+		"text": "סִפְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 1018,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch., constr. <cite ref=\"O01416\"><he>סְפִר</he></cite>, <cite ref=\"O01422\"><he>סֵפֶר</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"O01422\"><he>סֵפֶר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 29:11\">Targ. Is. XXIX, 11</cite>, sq. ",
+				"<cite ref=\"Onkelos Exodus 17:14\">Targ. Ex. XVII, 14</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 34:15\">Targ. II Chr. XXXIV, 15</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 85b:15\">B. Mets. 85ᵇ</cite> bot. <he>ס׳ דאדה״ר</he> the book of Adam, v. <cite ref=\"O01422\"><he>סֵפֶר</he></cite>. ",
+				"<cite ref=\"Berakhot 23a:16\">Ber. 23ᵃ</cite> <he>ס׳ דאגדתא</he> a homiletical book, v. <cite ref=\"A00253\"><he>אֲגַדְתָּא</he></cite>; a. fr.—Esp. <i>Biblical book; Pentateuch</i>. ",
+				"<cite ref=\"Sanhedrin 93b:16\">Snh. 93ᵇ</cite> <he>מאי טעמא לא איקרי ס׳ על שמיה</he> why was the book (of Ezra) not named from him (Nehemiah)? <cite ref=\"Megillah 22a:19\">Meg. 22ᵃ</cite> <he>קרא בס׳</he> he read from the Law. ",
+				"<cite ref=\"Bava Kamma 82a:8\">B. Kam. 82ᵃ</cite> <he>דנין … דשכיחי דאתו למקרא בס׳</he> court is held on Mondays and Thursdays, because they (the villagers) are accustomed to come (to town) for the reading of the Law; a. fr.—Pl. <he>סִפְרַיָּא</he>, <he>סִפְרַיָּיא</he>, <he>סִפְרֵי</he>, <cite ref=\"O00067\"><he>סִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:9\">Targ. Koh. XII, 9</cite>; <cite ref=\"Aramaic Targum to Ecclesiastes 12:12\">12</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:4:10\">Y. Maasr. III, end, 51ᵃ</cite> <he>וצווח להון ס׳ קוסמי</he> called them (the books of Agadah) books of sorcery; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>ספרא דבי רב</he>, or <he>ס׳</he> <i>Sifra</i> (<i>of the school</i>), also called <he>תּוֹרַת כֹּהֲנִים</he>, a halakhic commentary on Leviticus. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 11:22\">Targ. I Chr. XI, 22</cite>.—",
+				"<cite ref=\"Berakhot 18b:2\">Ber. 18ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 11b\">Ib. 11ᵇ</cite>; a. fr.—Pl. <he>סִפְרֵי</he> <i>Sifré</i> (<i>d’Be Rab</i>), a halakhic commentary on Numbers and Deuteronomy. ",
+				"<cite ref=\"Sanhedrin 86a:3\">Snh. 86ᵃ</cite> <he>סתם סיפרא … ס׳ וכ׳</he> an anonymous tradition in Sifra belongs to R. Judah, in Sifré, to R. S.—",
+				"<cite ref=\"Yoma 74a:6\">Yoma 74ᵃ</cite> <he>בשאר ס׳ דבי רב</he> in a fragment of the books of Be Rab (ref. to Sifra Emor, Par. 11, ch. XIV)."
+			],
+			"label": "2"
+		}
+	]
+}

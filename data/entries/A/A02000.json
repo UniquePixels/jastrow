@@ -1,0 +1,31 @@
+{
+	"id": "A02000",
+	"slug": "אמון-2",
+	"headword": {
+		"text": "אָמוֹן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 76,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.(b. h. <i>No-Amon</i> (Thebes) in Egypt. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1:1\">Gen. R. s. 1</cite> (= <i>Alexandria, the metropolis</i>).—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " A., near Tyre. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:17\">Y. Dem. II, 22ᵈ</cite> top; <cite ref=\"Tosefta Shevi'it 4:9\">Tosef. Shebi. IV, 9</cite> <he>עמק</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "O01309",
+	"slug": "סף-2",
+	"headword": {
+		"text": "סַף",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1010,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>ספף</he> , v. <cite ref=\"O00385\"><he>סוּף</he></cite>, <i>to cut, hollow out</i>; also <i>to put ends together, join</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>door-sill</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bowl</i>. Mekh. Bo, s. 6 (ref. to <cite ref=\"Exodus 12:22\">Ex. XII, 22</cite>) <he>מניד הכתוב … ואין סף אלא אסקופה</he> the text intimates that he loosens and digs a hole on the side of the threshold and slaughters over it, for <i>saf</i> means (a cavity made in) the threshold. ",
+			"units": [
+				"<cite ref=\"Exodus 12:22\">Ib.</cite> <he>אין סף אלא כלי</he> <i>saf</i> means a vessel; <cite ref=\"Jerusalem Talmud Pesachim 9:5:2\">Y. Pes. IX, 36ᵈ</cite> bot., sq."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "pl. <cite ref=\"O00795\"><he>סִפִּים</he></cite>, <cite ref=\"O00795\"><he>סִפִּין</he></cite>, <cite ref=\"O00067\"><he>סִי׳</he></cite> [<i>cut stones</i>, cmp. <cite ref=\"C00557\"><he>גָּזִית</he></cite>,] <i>paving-blocks, stone-pavement</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 78:7\">Midr. Till. to Ps. LXXVIII, 45</cite> <he>והס׳ נבקעין וכ׳</he> and the blocks burst before them (the frogs). ",
+				"<cite ref=\"Midrash Tehillim 105\">Midr. Till. to Ps. CV, 30</cite> <he>בתי הס׳</he> houses which had stone pavements; (Yalk. ib. 820 <he>פספסין</he>; <cite ref=\"Shemot Rabbah 10\">Ex. R. s. 10</cite> <he>פסיפס</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "R00274",
+	"slug": "צחיא",
+	"headword": {
+		"text": "צַחְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיחְיָא"
+		},
+		{
+			"text": "צַהֲיָא"
+		},
+		{
+			"text": "צְהִיָּא"
+		},
+		{
+			"text": "צִיהְיָא"
+		}
+	],
+	"page": {
+		"number": 1273,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00273\">preced.</cite>) <i>dryness, thirst</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:18\">Targ. Jer. XLVIII, 18</cite> (ed. Lag. <cite ref=\"R00273\"><he>צה׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:35\">Targ. Ps. CVII, 35</cite>, v. <cite ref=\"R00273\">preced.</cite> ",
+				"<cite ref=\"Aramaic Targum to Job 24:19\">Targ. Job XXIV, 19</cite> <he>צַהֲ׳</he> Ms. (ed. <he>צְהִ׳</he>; h. text <he>ציה</he>)."
+			]
+		}
+	]
+}

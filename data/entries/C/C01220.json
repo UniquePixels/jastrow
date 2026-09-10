@@ -1,0 +1,38 @@
+{
+	"id": "C01220",
+	"slug": "גץ",
+	"headword": {
+		"text": "גֵּץ"
+	},
+	"page": {
+		"number": 263,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00259\"><he>גהץ</he></cite>, v. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 18:5\">Targ. Job. XVIII, 5</cite> s. v. <cite ref=\"C00802\"><he>גֵּיצָא</he></cite>) [<i>shining</i>,] "
+			]
+		},
+		{
+			"gloss": "<i>spark</i> from the forger’s hammer. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 6:6\">B. Kam. VI, 6</cite> (<cite ref=\"Bava Kamma 62b:1\">62ᵇ</cite>); <cite ref=\"Bava Batra 26a\">B. Bath. 26ᵃ</cite>; <cite ref=\"Shabbat 21b:11\">Sabb. 21ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 84:5\">Gen. R. s. 84</cite>; Tanḥ. Vayesheb 1."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Arab. <cite ref=\"C01220\"><he>גֹץ</he></cite> ّ <i>gypsum</i>) <he>ג׳ יוני</he> <i>a white earth, chalk; a cross-path laid out with whitened pegs of baked mud or clay</i> (= <he>יתדות הדרכים</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 9:2\">Mikv. IX, 2</cite> <he>ג׳ י׳</he> the lime of the crossings sticking to the feet or clothes; cmp. ",
+				"<cite ref=\"Tosefta Mikvaot 6:14\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Mikvaot 7:14\">VII</cite>), 14."
+			],
+			"label": "2"
+		}
+	]
+}

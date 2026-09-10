@@ -1,0 +1,21 @@
+{
+	"id": "K01076",
+	"slug": "כרב-1",
+	"headword": {
+		"text": "כְּרַב",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 663,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K01095\"><he>כָּרָה</he></cite>), Af. <he>אַכְרֵב</he> <i>to surround, crown</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:36\">Targ. Job XXXI, 36</cite>, v. <cite ref=\"K00065\"><he>כְּבַן</he></cite>."
+			]
+		}
+	]
+}

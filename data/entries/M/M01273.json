@@ -1,0 +1,22 @@
+{
+	"id": "M01273",
+	"slug": "מיצה",
+	"headword": {
+		"text": "מִיצָה"
+	},
+	"page": {
+		"number": 778,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00568\"><he>מוּץ</he></cite>) [<i>that which is squeezed in</i>,] <i>the joint</i> or <i>collar</i> of reeds, stalks &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 9:8\">Kel. IX, 8</cite> <he>מ׳ שניה של שיפון</he> the second joint of a stem of oats; <he>מ׳ … של קנה</he> of reeds."
+			]
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "M01978",
+	"slug": "מסס-1",
+	"headword": {
+		"text": "מָסַס"
+	},
+	"page": {
+		"number": 809,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to melt, dissolve</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נָמַס", "נָמֵס"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"N00679\"><he>נִימּוֹס</he></cite>, <he>נִימַּס</he> <i>to melt, be liquefied; to fall away; to faint; to despair</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 25\">Ex. R. s. 25</cite> <he>נִימּוֹסִּין</he> (Var. <he>נִימַּסִּין</he>) they faint. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 251:14\">Yalk. ib. 251</cite> <he>התחילו נְמַסִּין</he> they began to lose heart; Mekh. B’shall., Shir., s. 9 <he>לֵהָמֵס</he>. ",
+						"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite>, end <he>תִּימַּס עינו וכ׳</he> may this man’s (thy) eye run out. ",
+						"<cite ref=\"Mishnah Maasrot 1:2\">Maasr. I, 2</cite> <he>הרמונים משיִמַּסּוּ</he> pomegranates are subject to tithes when their core becomes pulpy; expl. Y. ib. 48ᵈ bot. <he>משיתמעך אוכל וכ׳</he> (cmp. <cite ref=\"M01964\"><he>מִסְמֵס</he> II</cite>) when the eatable portion (core) can be mashed under one’s fingers; [anoth. definition taking our w. in the sense of <i>falling away, diminution</i>; <he>משיכניסו מחצה</he> when the ripening core is reduced to half the capacity of the cavity,—upon which the remark is made, <he>דילמא … הֵמַסּוּ … פלגון לבבנו</he> perhaps he learned it from the homiletical teachers who interpret <i>hemassu</i> &c. (<cite ref=\"Deuteronomy 1:28\">Deut. I, 28</cite>), they divided our hearts (an allusion to <cite ref=\"Bamidbar Rabbah 17\">Num. R. s. 17</cite>)]."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵמֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to melt away</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite>, beg. (ref. to <cite ref=\"Psalms 39:12\">Ps. XXXIX, 12</cite>) <he>כל חמדה … הֵמַסְתָּ אותה וכ׳</he> (not <he>אותו</he>) all the delight which Moses longed for, to enter the land,—thou hast caused it to decay as a moth enters garments and makes them decay. V. <cite ref=\"M01852\"><he>מָסָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "Q02037",
+	"slug": "פרשותא",
+	"headword": {
+		"text": "פָּרָשׁוּתָא"
+	},
+	"page": {
+		"number": 1244,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"Q02033\"><he>פָּרָשָׁה</he></cite>, <i>separation</i>; <he>פָּרָשׁוּת אורח</he> <i>cross-road</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:25\">Targ. Ez. XVI, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 21:24\">Ib. XXI, 24</cite>; <cite ref=\"Targum Jonathan on Ezekiel 21:26\">26</cite> (ed. Wil. <cite ref=\"Q01427\"><he>פְּ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:8\">Targ. Koh. X, 8</cite> <cite ref=\"Q02030\"><he>פַּרְשַׁת</he></cite>.—",
+				"<cite ref=\"Onkelos Genesis 38:14\">Targ. O. Gen. XXXVIII, 14</cite> <he>פרשות עיינין</he> (ed. Berl. <he>עינים</he>), v. <cite ref=\"P00601\"><he>עַיִן</he></cite> ch.; Y. <he>פַּרְשַׁת אורחין</he>.—V. <cite ref=\"Q02039\"><he>פַּרְשְׁתָא</he></cite>."
+			]
+		}
+	]
+}

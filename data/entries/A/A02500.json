@@ -1,0 +1,33 @@
+{
+	"id": "A02500",
+	"slug": "אספלנית",
+	"headword": {
+		"text": "אִסְפְּלָנִית",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 95,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>אִסְפַּלְעָנִית</he> or <cite ref=\"A02500\"><he>אִסְבְּלָנִית</he></cite>, Ispe. noun of <he>בלע</he> or <cite ref=\"B00853\"><he>בלי</he></cite>; cmp. <cite ref=\"B00879\"><he>בְּלִיתָא</he></cite>, a. <cite ref=\"O00798\"><he>סִיפְלָני</he></cite>; <cite ref=\"Q00000\"><he>פ</he></cite> dialect. for <cite ref=\"B00000\"><he>ב</he></cite>, induced by preceding sibilant) <i>rag, plaster, compress</i> (for softening or healing). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 9:2\">Sabb. IX, 2</cite> (expl. ",
+				"<cite ref=\"Shabbat 133b:16\">ib. 133ᵇ</cite> seven portions of fat and one portion of wax). ",
+				"<cite ref=\"Jerusalem Talmud Orlah 3:1:5\">Y. Orl. III, beg. 62ᵈ</cite> <he>העושה א׳ וכ׳</he> he who makes a plaster of the fat of &c. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:58\">Y. Sabb. VII, 10ᵈ</cite> top <he>הממרח את הא׳</he> he who spreads a plaster. ",
+				"<cite ref=\"Tosefta Shabbat 1:23\">Tosef. Sabb. I, 23</cite>; a. fr.—",
+				"<cite ref=\"Pesikta Rabbati 44:1\">Pesik. R. s. 44</cite> <he>איספלניס</he> (corr. acc.). [Σπληνίον, in Hippocr., seems to be a Greek adaptation of our w.]"
+			]
+		}
+	]
+}

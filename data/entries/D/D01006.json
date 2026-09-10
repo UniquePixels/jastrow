@@ -1,0 +1,23 @@
+{
+	"id": "D01006",
+	"slug": "דקירה",
+	"headword": {
+		"text": "דְּקִירָה"
+	},
+	"page": {
+		"number": 319,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דקר</he>) <i>act of digging, quantity of ground broken with one stroke</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 8b:19\">Bets. 8ᵇ</cite>.—Pl. <he>דְּקִירוֹת</he>. ",
+				"<cite ref=\"Beitzah 8b:19\">Ib.</cite>"
+			]
+		}
+	]
+}

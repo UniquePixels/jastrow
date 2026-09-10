@@ -1,0 +1,32 @@
+{
+	"id": "P00191",
+	"slug": "עוגא",
+	"headword": {
+		"text": "עוּגָּא"
+	},
+	"page": {
+		"number": 1047,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P00192\">next w.</cite>) 1) cake. m. (v. <cite ref=\"P00192\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " cake.—Pl. <cite ref=\"P00194\"><he>עוּגִּין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 11:8\">Targ. Y. II, Num. XI, 8</cite> (some ed. <cite ref=\"P00194\"><he>עוּגִין</he></cite>; Y. I <he>חררן</he>, v. <cite ref=\"P00192\">next w.</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cavity</i>, v. <cite ref=\"P00192\">next w.</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

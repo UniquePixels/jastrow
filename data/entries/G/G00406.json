@@ -1,0 +1,24 @@
+{
+	"id": "G00406",
+	"slug": "זיקא-3",
+	"headword": {
+		"text": "זִיקָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 396,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>זִיקִין</he> (<he>זקק</he>; cmp. b. h. <he>זִקִּים</he>) <i>fetters, chains</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 3:34\">Targ. II Sam. III, 34</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 40:1\">Targ. Jer. XL, 1</cite> <he>זִיקַיָּא</he> Levita (ed. <he>עִיזְקַיָּא</he>).—[<cite ref=\"G00404\"><he>זִיקָא</he></cite> f. <i>obligation</i>, v. next w.]"
+			]
+		}
+	]
+}

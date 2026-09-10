@@ -1,0 +1,24 @@
+{
+	"id": "A01533",
+	"slug": "איפה-3",
+	"headword": {
+		"text": "אֵיפָה",
+		"homograph": 3
+	},
+	"page": {
+		"number": 58,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>אפה</he>) [batch], <i>Ephah</i>, a dry measure. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 294:9\">Sifré Deut. 294</cite>, both a small as well as a large Ephah <he>קרויה א׳</he> is named Ephah.—",
+				"<cite ref=\"Menachot 45b:1\">Men. 45ᵇ</cite> top <he>אֵיפָתָן</he> the Ephah belonging to the sacrifices; a. fr.—Pl. <he>אֵיפוֹת</he>. Ibid."
+			]
+		}
+	]
+}

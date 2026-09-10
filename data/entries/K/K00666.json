@@ -1,0 +1,23 @@
+{
+	"id": "K00666",
+	"slug": "ככריתא",
+	"headword": {
+		"text": "כַּכָּרִיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 638,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00665\">preced.</cite>) [<i>loaf</i>,] <i>honey-comb</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 5:3\">Targ. Prov. V, 3</cite> ed. Lag. (Ar. a. Lev. <cite ref=\"K00658\"><he>ככדיתא</he></cite>, v. Koh. Ar. Compl. II, p. 221); a. e., v. <cite ref=\"K00079\"><he>כַּבְרִיתָא</he> I</cite>"
+			]
+		}
+	]
+}

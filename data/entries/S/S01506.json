@@ -1,0 +1,46 @@
+{
+	"id": "S01506",
+	"slug": "קן-3",
+	"headword": {
+		"text": "קֵן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִנָּא"
+		},
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1387,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01505\">same</cite><i>nest, swarm</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 22:6\">Targ. O. Deut. XXII, 6</cite> (ed. Berl. <cite ref=\"S01017\"><he>קִינָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:14\">Targ. Is. X, 14</cite> (ed. Wil. <cite ref=\"S01534\"><he>קִנָה</he></cite>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Judges 14:8\">Targ. Jud. XIV, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 14:27\">Targ. I Sam. XIV, 27</cite> (h. text <he>יערת</he>); a. fr.—",
+				"<cite ref=\"Chullin 141b:21\">Ḥull. 141ᵇ</cite> <he>זיל טרוף אקן וכ׳</he> go and knock at the nest, that the birds be moved, and thus take possession of them. ",
+				"<cite ref=\"Gittin 68b:8\">Gitt. 68ᵇ</cite> <he>ק׳ דתרנגולא ברא</he> the nest of a woodcock; <he>חפיוה לקִינֵּיה וכ׳</he> they covered his nest with white glass; a. fr.—",
+				"<cite ref=\"Sanhedrin 102b:16\">Snh. 102ᵇ</cite> (prov.) <he>דפרע קִנְאֵיה מחריב קִינֵּיה</he> Ar. he that wreaks his vengeance destroys his own nest (ed. <he>דפרע קיניה מחריב ביתיה</he>, read with Ms. F. <he>קנאיה</he>).—Pl. <cite ref=\"S01567\"><he>קִנֵּי</he></cite>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Eruvin 3a:12\">Erub. 3ᵃ</cite> (expl. <cite ref=\"A02036\"><he>אמלתרא</he></cite>) <he>ק׳</he> nest-shaped <i>cornices</i>.—<he>קַן נִשְׁרַיָּיא</he> pr. n. pl. <i>Eagles’ Nest, Ḳan-Nishraya</i> (v. P. Sm. 3673), <i>Kennesrin</i> on the Euphrates. ",
+				"<cite ref=\"Rosh Hashanah 26a:20\">R. Hash. 26ᵃ</cite> (Ms. M. <he>קנשרייא</he>, v. Rabb. D. S. a. l. note)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>close place</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 58b\">B. Kam. 58ᵇ</cite> <he>תלתא … בק׳ וכ׳</he> three date-trees stood in one place (close together). ",
+				"<cite ref=\"Bava Kamma 92b:12\">Ib. 92ᵇ</cite>, v. <cite ref=\"U01993\"><he>שְׂרָכָא</he></cite>. ",
+				"<cite ref=\"Sukkah 32b:19\">Succ. 32ᵇ</cite> <he>תלתא תלתא טרפי בק׳</he> three leaves close together (Rashi: on one stem, = <cite ref=\"S01504\"><he>קַן</he></cite>, <cite ref=\"S01535\"><he>קָנֶה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

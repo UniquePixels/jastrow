@@ -1,0 +1,25 @@
+{
+	"id": "B00322",
+	"slug": "בוקיא",
+	"headword": {
+		"text": "בּוּקְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּית בּוּקְיָא"
+		}
+	],
+	"page": {
+		"number": 148,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Beth Bukya</i>. ",
+			"units": ["<cite ref=\"Yevamot 84a:3\">Yeb. 84ᵃ</cite>"]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "D00213",
+	"slug": "דוול",
+	"headword": {
+		"text": "דְּוַול"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּוַל"
+		},
+		{
+			"text": "דַּוְולָא"
+		},
+		{
+			"text": "דַּוְ׳"
+		}
+	],
+	"page": {
+		"number": 283,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דול</he>) <i>bucket;</i> (collect.) <i>irrigation</i> by means of buckets. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 40:15\">Targ. Is. XL, 15</cite> (ed. Vien. <cite ref=\"D00264\"><he>דּוּל</he></cite>).—",
+				"<cite ref=\"Eruvin 20b:14\">Erub. 20ᵇ</cite> <he>דרי ליה לד׳ בהדיה</he> he might carry the bucket with him.—",
+				"<cite ref=\"Bava Metzia 104a:1\">B. Mets. 104ᵃ</cite> top <he>איבעי לך … בד׳</he> you ought to have brought the water over from the large well by irrigating works. ",
+				"<cite ref=\"Bava Metzia 77a:2\">Ib. 77ᵃ</cite> <he>מאן … לד׳</he> if one hired working men for irrigating work. ",
+				"<cite ref=\"Moed Katan 4a:22\">M. Kat. 4ᵃ</cite> <he>הוה דלי ד׳</he> was doing irrigating work. ",
+				"<cite ref=\"Yevamot 97b:4\">Yeb. 97ᵇ</cite> <he>דלאי דדלו ד׳</he> ye water drawers engaged in irrigation.—Pl. <he>דַּוְולִין</he>. Targ. II Esth. I, 2."
+			]
+		}
+	]
+}

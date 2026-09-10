@@ -1,0 +1,41 @@
+{
+	"id": "S02238",
+	"slug": "קשי-4",
+	"headword": {
+		"text": "קָשֵׁי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְשֵׁי"
+		},
+		{
+			"text": "קַשְׁיָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1430,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. = h. <cite ref=\"S02221\"><he>קָשֶׁה</he></cite>, <i>hard, strong, heavy, difficult</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 6:9\">Targ. Ex. VI, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 6:12\">Targ. Y. ib. 12</cite>. ",
+				"<cite ref=\"Onkelos Genesis 49:7\">Targ. Gen. XLIX, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 19:4\">Targ. Is. XIX, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 60:5\">Targ. Ps. LX, 5</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Numbers 8:4\">Targ. Y. Num. VIII, 4</cite> <he>מינא ק׳</he> something hard to understand (v. ",
+				"<cite ref=\"Bamidbar Rabbah 15\">Num. R. s. 15</cite>, quot. s. v. <cite ref=\"S02219\"><he>קָשָׁה</he></cite> <i>Nithpa.</i>).—",
+				"<cite ref=\"Yoma 28b:16\">Yoma 28ᵇ</cite> <he>ק׳ משימשא</he> is harder to bear &c., v. <cite ref=\"G00134\"><he>זוֹהֲמָא</he></cite>. ",
+				"<cite ref=\"Yoma 29a:1\">Ib. 29ᵃ</cite> <he>ק׳</he> ,<he>מקייטא</he> v. <cite ref=\"S00890\"><he>קַיְטָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 85a:8\">B. Mets. 85ᵃ</cite> <he>ק׳ יומא דמיטרא וכ׳</he> a rainy day (preventing people from pursuing their vocations) is as hard as the day of judgment; <cite ref=\"Taanit 8b:11\">Taan. 8ᵇ</cite> <he>קשה</he> (Rashi <cite ref=\"S02235\"><he>קשי</he></cite>); a. v. fr.—Pl. <he>קָשִׁין</he>, <he>קָשַׁיָּיא</he>, <he>קָשָׁן</he>; <he>קַשְׁיָין</he>, <cite ref=\"S02248\"><he>קַשְׁיָיתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 20:10\">Targ. I Sam. XX, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 3:39\">Targ. II Sam. III, 39</cite>. Targ. II Esth. IV, 1; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:2:1\">Y. Sabb. VIII, 11ᵇ</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 3:2\">Koh. R. to III, 2</cite> <he>מן קל מיליא קַשְׁיָיאתָא וכ׳</he> on account of the hard things that I hear &c.; a. e."
+			]
+		}
+	]
+}

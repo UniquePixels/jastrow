@@ -1,0 +1,23 @@
+{
+	"id": "A01703",
+	"slug": "אכלה-1",
+	"headword": {
+		"text": "אָכְלָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 63,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., (<cite ref=\"A01697\"><he>אכל</he></cite>) <he>א׳ טִינָא</he> <i>mud-eater</i>, name of a parasitic worm in fishes. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73b:4\">B. Bath. 73ᵇ</cite> (Ms. M. <he>אבל׳ טינא</he>; oth. var., v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

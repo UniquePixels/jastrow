@@ -1,0 +1,31 @@
+{
+	"id": "U01621",
+	"slug": "שסע-2",
+	"headword": {
+		"text": "שְׁסַע"
+	},
+	"page": {
+		"number": 1608,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U01620\"><he>שַׁסַּע</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 3:11\">Targ. Lam. III, 11</cite> (h. text <he>פשח</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

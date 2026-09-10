@@ -1,0 +1,39 @@
+{
+	"id": "Q02167",
+	"slug": "פתילה",
+	"headword": {
+		"text": "פְּתִילָה"
+	},
+	"page": {
+		"number": 1254,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02166\">preced. art.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>twisted cord, wick</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:1\">Sabb. II, 1</cite> <he>פְּתִילַת האידן</he> a bast wick; <he>פ׳ המדבר</he> the wick of the desert, v. <cite ref=\"U00179\"><he>שִׁבְרָא</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 2:1\">Ib.</cite> <he>פ׳ הבגד</he> the wick made of rags of a garment. Ib. 5 <he>חוץ מן הפ׳</he> except when he has the intention of saving the wick; a. fr.—Pl. <he>פְּתִילוֹת</he>. Ib. 20ᵇ <he>עד כאן פסול פ׳</he> so far the Mishnah refers to wicks unfit for use on the Sabbath. Ib. 21ᵇ; a. fr.—",
+				"<cite ref=\"Gittin 58a:21\">Gitt. 58ᵃ</cite> <he>שתי פ׳ בנר אחד</he> two wicks in one lamp (euphem. for adultery)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>string; bar</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 7:2\">Snh. VII, 2</cite> <he>ומדליק את הפ׳ וכ׳</he> and (the executioner) lights (heats) the string and throws it into his mouth; expl. ",
+				"<cite ref=\"Sanhedrin 52a:9\">ib. 52ᵃ</cite> <he>פ׳ של אבר</he>, v. <cite ref=\"A00203\"><he>אֲבָר</he></cite>; Y. ib. VII, 24ᵇ bot. <he>פ׳ של בעץ</he> a bar of plumbum album; (oth. opin.) <he>פ׳ של נפט</he> a wick dipped in naphtha. ",
+				"<cite ref=\"Yevamot 6b:15\">Yeb. 6ᵇ</cite> <he>בישול פ׳</he> boiling (melting) a bar of lead; <cite ref=\"Shabbat 106a:5\">Sabb. 106ᵃ</cite>. ",
+				"<cite ref=\"Nedarim 49b:5\">Ned. 49ᵇ</cite> <he>שהן דומין לפ׳ של אבר</he> (not <he>לפתילתא</he>) which burn in the stomach like a molten bar of lead."
+			],
+			"label": "2"
+		}
+	]
+}

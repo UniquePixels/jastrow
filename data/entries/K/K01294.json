@@ -1,0 +1,29 @@
+{
+	"id": "K01294",
+	"slug": "כש",
+	"headword": {
+		"text": "כַּשׁ"
+	},
+	"page": {
+		"number": 675,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K01333\"><he>אִתְכַּשׁ</he></cite>, v. <cite ref=\"K01333\"><he>כְּשַׁשׁ</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

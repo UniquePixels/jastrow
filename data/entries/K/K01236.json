@@ -1,0 +1,22 @@
+{
+	"id": "K01236",
+	"slug": "כרמת",
+	"headword": {
+		"text": "כָּרֶמֶת"
+	},
+	"page": {
+		"number": 671,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"K01229\"><he>כֶּרֶם</he></cite>) <i>vines trained over the wall of the vineyard</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Menahot 9:10\">Tosef. Men. IX, 10</cite> <he>לא מן הכ׳ וכ׳</he> (Var. <he>הכדמת</he>) neither from vines trained over the wall nor from those trained on espaliers, v. <cite ref=\"D00838\"><he>דָּלִית</he></cite>."
+			]
+		}
+	]
+}

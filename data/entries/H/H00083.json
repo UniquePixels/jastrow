@@ -1,0 +1,93 @@
+{
+	"id": "H00083",
+	"slug": "חבל-1",
+	"headword": {
+		"text": "חָבַל"
+	},
+	"page": {
+		"number": 419,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H00012\"><he>חבב</he></cite>)<i>to seize, to take a pledge</i>. Mekh. B’shall., Vayassa, s. 1, a. e., v. <cite ref=\"H00026\"><he>חֲבוֹלָה</he></cite>.—",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 9:13\">B. Mets. IX, 13</cite> (<cite ref=\"Bava Metzia 115a:17\">115ᵃ</cite>) <he>החוֹבֵל את הריחים</he> he who seizes millstones (for his debt); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to twist</i> (v. <cite ref=\"H00087\"><he>חֶבֶל</he></cite>); <i>to do violence, unshape; to inflict a wound, to hurt</i> (followed by <cite ref=\"B00000\"><he>ב</he></cite> of the object). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite> <he>החוֹבֵל בחבירו</he> he who injures his neighbor. ",
+				"<cite ref=\"Mishnah Shabbat 14:1\">Sabb. XIV, 1</cite>. ",
+				"<cite ref=\"Shabbat 106a:2\">Ib. 106ᵃ</cite> <he>חובל בצריך לכלבו</he> one who wounds (an animal on the Sabbath is guilty) when he needs the blood for his dog. ",
+				"<cite ref=\"Shabbat 106a:2\">Ib.</cite> <he>חובל בעלמא</he> one who wounds generally (not for a purpose); a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to writhe, travail</i>, v. <i>Pi.</i>",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְבַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be seized</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 351:2\">Yalk. Ex. 351</cite> <he>שניתן לֵיחָבֵל ביום</he> (<cite ref=\"Bava Metzia 114b:9\">B. Mets. 114ᵇ</cite> <he>לַחֲבוֹל</he>) which may be seized as a pledge in day time."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be injured</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Kamma 9:29\">Tosef. B. Kam. IX, 29</cite> <he>אע״פ שלא … מן הנֶחְבָּל וכ׳</he> although the injurer does not ask the injured (to pray for him), the injured must pray &c.; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["חִיבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to injure, wound; to unshape, ruin, spoil</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 51a:13\">Ber. 51ᵃ</cite> <he>יש לי</he> … <he>לחַבֵּל</he> I have permission to injure (kill). ",
+						"<cite ref=\"Bava Kamma 91b:1\">B. Kam. 91ᵇ</cite> <he>לחַבֵּל בעצמו</he> to mutilate one’s self.—",
+						"<cite ref=\"Mishnah Kelim 14:2\">Kel. XIV, 2</cite> <he>משיְחַבֵּל</he> from the moment he batters (the tube, for fitting it into the top of the staff); <cite ref=\"Tosefta Keilim Metsia 4:5\">Tosef. Kel. B. Mets. IV, 5</cite> <he>משיִחְבּוֹל</he>, v. <cite ref=\"H00107\"><he>חָבַר</he></cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 10:2\">Num. R. s. 10</cite> (play on <cite ref=\"H00084\"><he>חִבֵּל</he></cite>, <cite ref=\"Proverbs 23:34\">Prov. XXIII, 34</cite>) <he>שחִבְּלָתוֹ יעל וכ׳</he> whom Jael mutilated on his head. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 301:1\">Yalk. Ex. 301</cite> <he>חִבַּלְתֶּם מעשיכם</he> you have ruined (turned to evil) your deeds. ",
+						"<cite ref=\"Sanhedrin 24a:9\">Snh. 24ᵃ</cite> <he>מְחַבְּלִין זה לזה וכ׳</he> (Ms. K. <he>זה את זה</he>) wound each other’s feelings in discussions; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to travail</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 8a:18\">Taan. 8ᵃ</cite> bot. <he>מְחַבֶּלֶת ואינה יולדת</he> (Rashi: <he>חוֹבֶלֶת</he>) travails but cannot give birth.—<i>Pass. pass</i>. <he>מְחוּבָּל</he> <i>ruined</i>. ",
+						"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be spoiled, ruined</i>. Mekh. B’shall., Vayassa, s. 1 <he>נותן דבר המְחַבֵּל לתוך דבר המִתְחַבֵּל</he> he puts a thing which spoils (the taste) into a thing which is spoiled.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

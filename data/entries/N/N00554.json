@@ -1,0 +1,25 @@
+{
+	"id": "N00554",
+	"slug": "נטוש",
+	"headword": {
+		"text": "נָטוּשׁ"
+	},
+	"page": {
+		"number": 898,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00589\"><he>נָטַשׁ</he></cite>) <i>a fugitive whose estate is abandoned</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 4:8:15\">Y. Keth. IV, 29ᵃ</cite> bot. <he>נ׳ זה שיצא לדעת</he> a <i>naṭush</i> is he who left of his own accord (not carried away by force); <cite ref=\"Jerusalem Talmud Yevamot 15:3:9\">Y. Yeb. XV, 15ᵃ</cite> top.—Pl. <he>נְטוּשִׁים</he>, <he>נְטוּשִׁין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 15:3:9\">Ib.</cite>; <cite ref=\"Tosefta Ketubot 8:3\">Tosef. Keth. VIII, 3</cite> <he>אלו הן נכסי נ׳ וכ׳</he> this is (in a legal sense) the abandoned estate of <i>n’ṭushin</i>: if the heir took possession without a report of the absentee’s death having arrived, contrad. to <he>רטושים</he>; <cite ref=\"Bava Metzia 38b:18\">B. Mets. 38ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 38b:18\">Ib.</cite> <he>שמעתי שהנ׳ כשבויין</he> I heard a tradition that the estate of fugitives is of the same legal category as that of captured persons. ",
+				"<cite ref=\"Bava Metzia 38b:18\">Ib.</cite>, sq. <he>מאי שנא הנך … נ׳ וכ׳</he> why are these called <i>n’ṭushim</i>, and the others <i>r’ṭushim</i>? <he>נ׳ דבע״כ</he> <i>n.</i> are those who emigrate against their will (fugitives from justice)."
+			]
+		}
+	]
+}

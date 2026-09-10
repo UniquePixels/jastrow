@@ -1,0 +1,24 @@
+{
+	"id": "S00670",
+	"slug": "קושקא",
+	"headword": {
+		"text": "קוּשְׁקָא"
+	},
+	"page": {
+		"number": 1345,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. ḳushḳ aedificium magnum et altum, Vollers; prob. Semitic, cmp. <cite ref=\"S01221\"><he>קִישְׁקוּשָׁא</he></cite>) <i>high building, tower</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 61:4\">Targ. Ps. LXI, 4</cite> <he>ק׳ עשינא</he> Ms. a. Ar. (ed. Lag. <he>בקושטא עישונא</he>), v. <cite ref=\"S00468\"><he>קוּסְטַל</he></cite>.—Pl. <he>קוּשְׁקֵי</he>. ",
+				"<cite ref=\"Targum of II Chronicles 36:15\">Targ. II Chr. XXXVI, 15</cite>.—",
+				"<cite ref=\"Shabbat 11a\">Sabb. 11ᵃ</cite> Ar. a Ms. O., v. <cite ref=\"S01222\"><he>קִישְׁקוּשָׁא</he> II</cite>."
+			]
+		}
+	]
+}

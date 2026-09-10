@@ -1,0 +1,50 @@
+{
+	"id": "E00716",
+	"slug": "העלאה",
+	"headword": {
+		"text": "הַעֲלָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַעֲלָיָיה"
+		}
+	],
+	"page": {
+		"number": 360,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָלָה</he> <i>Hif.</i>) ",
+			"units": []
+		},
+		{
+			"gloss": " (fr. ",
+			"units": [
+				"<cite ref=\"Leviticus 19:19\">Lev. XIX, 19</cite>) <i>throwing over one’s shoulders, wrapping</i>, opp. to <cite ref=\"L00081\"><he>לבישה</he></cite> putting on of a dress. ",
+				"<cite ref=\"Yevamot 4b:7\">Yeb. 4ᵇ</cite>. ",
+				"<cite ref=\"Yoma 69a\">Yoma 69ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bringing up, offering on the altar, placing on the table</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite>, end <he>כדי ה׳ אחת</he> sufficient for one offering; Tanḥ. Ki Thissa 10. ",
+				"<cite ref=\"Chullin 104a:8\">Ḥull. 104ᵃ</cite> <he>ואנן נגזר ה׳</he> and shall we forbid the serving on the table for fear that &c.?"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. ",
+			"units": [
+				"<cite ref=\"Leviticus 16:9\">Lev. XVI, 9</cite>) <i>taking the lot out of the ballot box</i>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 4:1:7\">Y. Yoma IV, 41ᶜ</cite> top."
+			],
+			"label": "3"
+		}
+	]
+}

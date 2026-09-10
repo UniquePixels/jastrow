@@ -1,0 +1,28 @@
+{
+	"id": "A02334",
+	"slug": "אסופי",
+	"headword": {
+		"text": "אֲסוּפִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲסוּפִית"
+		}
+	],
+	"page": {
+		"number": 89,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אסף</he>) <i>foundling</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:1\">Kidd. IV, 1</cite> (<cite ref=\"Kiddushin 69a:14\">69ᵃ</cite>) <he>א׳ כל שנאסף וכ׳</he> <i>ăsufi</i> is a child taken up from the street, whose father and mother are unknown, contrad. to <cite ref=\"U02084\"><he>שְׁתוּקִי</he></cite> q. v.—Ib. 73ᵃ if this be so <he>א׳ אסופית לא ישא</he> a male foundling ought not to marry a female foundling. ",
+				"<cite ref=\"Bava Metzia 87a:12\">B. Mets. 87ᵃ</cite>"
+			]
+		}
+	]
+}

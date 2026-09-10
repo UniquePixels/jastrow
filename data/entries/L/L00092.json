@@ -1,0 +1,31 @@
+{
+	"id": "L00092",
+	"slug": "לבלר-1",
+	"headword": {
+		"text": "לִבְלָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיבְלָר"
+		}
+	],
+	"page": {
+		"number": 689,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (librarius) <i>copyist, clerk, scribe</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:3\">Sabb. I, 3</cite> (<cite ref=\"Shabbat 11a:10\">11ᵃ</cite>) <he>ולא הלב׳ וכ׳</he> (Y. ed. <he>הליב׳</he>) nor must the scribe go out (shortly before the beginning of the Sabbath) with his pen (behind his ear); Y. ib. 3ᵇ top. ",
+				"<cite ref=\"Mishnah Gittin 3:1\">Gitt. III, 1</cite> <he>אמר לל׳ וכ׳</he> if one says to the scribe &c., v. <cite ref=\"B01277\"><he>בְּרֵירָה</he></cite>. ",
+				"<cite ref=\"Sanhedrin 17b:10\">Snh. 17ᵇ</cite> (among the requirements of a town in which a scholar should live) <he>רופא אומן ול׳</he> a physician, a surgeon and a clerk.—",
+				"<cite ref=\"Mishnah Peah 2:6\">Peah II, 6</cite> <he>נחום הל׳</he> (Ms. M. <he>הבבלי</he>); <cite ref=\"Nazir 56b:12\">Naz. 56ᵇ</cite> <he>נחום הל׳</he> Nahum the scribe; a. fr.—<i>Pl.</i> <he>לִבְלָרִין</he>, <cite ref=\"L00031\"><he>לִי׳</he></cite>. ",
+				"<cite ref=\"Shabbat 11a\">Sabb. 11ᵃ</cite>. [<cite ref=\"Shabbat 92b:9\">Ib. 92ᵇ</cite> <he>שכן לִבְלָרֵי מלכות וכ׳</he> for the imperial scribes carry their bags that way; prob. to be read <he>טַבְלָרֵי</he>, v. <cite ref=\"I00074\"><he>טַבְלָר</he></cite>.]"
+			]
+		}
+	]
+}

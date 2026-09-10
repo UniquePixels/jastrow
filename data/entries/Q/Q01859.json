@@ -1,0 +1,25 @@
+{
+	"id": "Q01859",
+	"slug": "פרכיל",
+	"headword": {
+		"text": "פַּרְכִּיל"
+	},
+	"page": {
+		"number": 1229,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01844\"><he>פָּרַךְ</he></cite>; cmp. <cite ref=\"Q01982\"><he>פֶּרֶק</he></cite>) [<i>limb</i>,] <i>twig with grapes</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 1:3\">Ukts. I, 3</cite> <he>יד הפ׳</he> the handle (stem) of a vine. ",
+				"<cite ref=\"Shemot Rabbah 15:16\">Ex. R. s. 15</cite> <he>פ׳ של ענבים</he>; a. e.—Pl. <he>פַּרְכִּילִים</he>. ",
+				"<cite ref=\"Beitzah 30b\">Bets. 30ᵇ</cite>; <cite ref=\"Sukkah 10a:15\">Succ. 10ᵃ</cite>, a. e. <he>פּרְכִּילֵי ענבים</he> (<cite ref=\"Tosefta Sukkah 1:7\">Tosef. ib. I, 7</cite> <he>אשכולות של ענבים</he>). ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:6:5\">Y. Bicc. I, 64ᵇ</cite> top <he>פַּרְכִּירֵי ענבים</he>."
+			]
+		}
+	]
+}

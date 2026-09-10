@@ -1,0 +1,40 @@
+{
+	"id": "U00104",
+	"slug": "שבט-3",
+	"headword": {
+		"text": "שֵׁבֶט"
+	},
+	"page": {
+		"number": 1512,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"B00502\"><he>בטט</he></cite>  a. deriv.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rod, staff</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 5a:6\">Snh. 5ᵃ</cite> (ref. to <cite ref=\"Genesis 49:10\">Gen. XLIX, 10</cite>) <he>הכא ש׳ והתם מחוקק</he> here (in Babylonia) the rod (the Resh Galutha’s office), there the legislator (the Nasi); <cite ref=\"Genesis 49:10\">ib.</cite> <he>אלו ראשי … בש׳</he> those are the Resh-Galuthas who chastise Israel with the rod; <cite ref=\"Horayot 11b:3\">Hor. 11ᵇ</cite> <he>התם ש׳ וכ׳</he> there (in Babylonia) the rod &c.; a. e.—[Tanḥ. B’midb. 16 <he>הש׳ אינו מספיק</he>, read: <he>השָׂרָף</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"M00969\"><he>מַטֶּה</he></cite>) <i>tribe</i>. Tanḥ. l. c. <he>למוד הוא הש׳ הזה וכ׳</he> this tribe (of Levi) is wont to be counted &c. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 5:8\">Num. R. s. 5</cite>, beg. (ref. to <cite ref=\"Psalms 33:18\">Ps. XXXIII, 18</cite>) <he>זה שִׁבְטוֹ של לוי וכ׳</he> this means the tribe of Levi whose members sit hoping &c.; <cite ref=\"Psalms 33:18\">ib.</cite> <he>אלו כ״ד … לש׳ לוי</he> those are the twenty-four gifts assigned to the tribe of Levi. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 1:2:2\">Y. Ter. I, 40ᵈ</cite> top <he>מפני גזל הש׳</he> because it is an injustice to the tribe (of Levi, giving them unnecessary trouble). ",
+				"<cite ref=\"Pesachim 80a:3\">Pes. 80ᵃ</cite> <he>ש׳ אחד איקרי קהל</he> one tribe is called a community, v. <cite ref=\"S00209\"><he>קָהָל</he></cite>; <cite ref=\"Pesachim 80a:2\">ib.</cite> <he>אפי׳ ש׳ אחד טמא וכ׳</he> even if one tribe is unclean (and prevented from offering the Passover sacrifice) &c. Y. ib. VII, 34ᶜ <he>ש׳ אחד גורר וכ׳</he>, v. <cite ref=\"C01392\"><he>גָּרַר</he> I</cite>; a. v. fr.—Pl. <he>שְׁבָטִים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 98:13\">Gen. R. s. 98</cite>; s. 99 end, v. <cite ref=\"J00268\"><he>יָחַד</he></cite>. ",
+				"<cite ref=\"Bava Batra 117b:3\">B. Bath. 117ᵇ</cite> <he>דילמא לש׳ קאמר לה</he> perhaps the text (<cite ref=\"Numbers 26:55\">Num. XXVI, 55</cite>) means a distribution by tribes (as they were on entering the land)? <cite ref=\"Shabbat 146a:2\">Sabb. 146ᵃ</cite> <he>יעקב הוליד י֞ב ש׳ וכ׳</he> Jacob begat twelve tribes (sons) in whom there was no blemish. ",
+				"<cite ref=\"Shabbat 147b:10\">Ib. 147ᵇ</cite> <he>עשרת הש׳</he> the ten tribes (the kingdom of Israel). ",
+				"<cite ref=\"Mishnah Sanhedrin 10:3\">Snh. X, 3</cite> (<cite ref=\"Sanhedrin 110b:6\">110ᵇ</cite>) <he>עשרת הש׳ אינן וכ׳</he> the ten tribes (carried into exile) are not destined to return; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

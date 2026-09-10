@@ -1,0 +1,48 @@
+{
+	"id": "Q00097",
+	"slug": "פגש-1",
+	"headword": {
+		"text": "פָּגַשׁ"
+	},
+	"page": {
+		"number": 1136,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"Q00085\"><he>פָּגַע</he></cite>)<i>to strike against, meet</i>, v. infra.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְגַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to meet; to wrestle, fight</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 11:4\">Deut. R. s. 11</cite> <he>נִפְגַּשִׁתִּי עם המלאך וכ׳</he> I wrestled with the angel and defeated him; <he>אתה נִפְגַּשְׁתָּ וכ׳</he> thou didst meet the angel in thy territory; Yalk. ib. 951 <he>פָּגַשְׁתִּי</he>, <he>פָּגַּשְׁתָּ</he>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְפַּגֵּשׁ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּגֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00096\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 9\">Deut. R. s. 9</cite>; <cite ref=\"Yalkut Shimoni on Nach 840\">Yalk. Ps. 840</cite>. Y’lamd. to Gen. XLVIII, 1, quot. in Ar. <he>מִתְפַּגֵּשׁ</he>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

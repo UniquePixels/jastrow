@@ -1,0 +1,39 @@
+{
+	"id": "U01054",
+	"slug": "שיר-2",
+	"headword": {
+		"text": "שִׁיר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1568,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"U01055\">next w.</cite>) <i>to sing</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 14b:10\">Ber. 14ᵇ</cite> <he>ושַׁרְנוּ לך</he> and we sang (praises) unto thee. ",
+				"<cite ref=\"Sanhedrin 91b:14\">Snh. 91ᵇ</cite> (ref. to <cite ref=\"Exodus 15:1\">Ex. XV, 1</cite>) <he>שָׁר לא נאמר אלא יָשִׁיר</he> it does not read, ‘he sang’; but, ‘he shall sing’; Mekh. B’shall., Shir., s. 1; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שור"],
+			"senses": [
+				{
+					"gloss": ") <cite ref=\"U00554\"><he>שׁוֹרֵר</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 3:6\">Num. R. s. 3</cite> (play on <he>ב̇כ̇וש̇ר̇ות</he>, <cite ref=\"Psalms 68:7\">Ps. LXVIII, 7</cite>) <he>אותן שהיו ב̇וכ̇ין … מְ֗ש̇ו̇רְ֗רִין עכשיו</he> those who formerly wept …, were now singing. ",
+						"<cite ref=\"Psalms 68:7\">Ib.</cite> <he>ועבד מְשׁוֹרֵר וכ׳</he> and the slave sings, because he is relieved &c. ",
+						"<cite ref=\"Bava Batra 120a:3\">B. Bath. 120ᵃ</cite> <he>מְשׁוֹרְרִים לפניה</he> went singing (bridal songs) before her; a. fr.—[<cite ref=\"Midrash Tehillim 116:2\">Midr. Till. to Ps. CXVI</cite> <he>באין ושוררין</he>, read: <he>ושׁוֹרִין</he>, v. <cite ref=\"U01960\"><he>שָׁרָה</he> II</cite>.]—מְשׁוֹרֵר <i>singer</i>, esp. <i>Temple singer</i> (Levite). ",
+						"<cite ref=\"Arakhin 11b:14\">Arakh. 11ᵇ</cite> <he>מ׳ ששיער ומשוער ששורר</he> if one designated as a singer acts as gate-guard, or a gate-guard acts as singer; a. fr.—Pl. <he>מְשׁוֹרְרִים</he>, <he>מְשׁוֹרְרִין</he>. ",
+						"<cite ref=\"Arakhin 11b:17\">Ib.</cite> <he>שאתה מן המ׳ וכ׳</he> for thou belongest to the singers, and not to the gate-guards; a. fr."
+					]
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

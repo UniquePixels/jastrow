@@ -1,0 +1,89 @@
+{
+	"id": "H00040",
+	"slug": "חבט-1",
+	"headword": {
+		"text": "חָבַט"
+	},
+	"page": {
+		"number": 417,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>חבש</he>, <he>הבל</he>) [<i>to use force</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to press down</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 42b:7\">Erub. 42ᵇ</cite> <he>תקרת … חוֹבֶטֶת</he> the roofing of the house presses upon him (keeps him mindful of the Sabbath limit); v. <cite ref=\"H00022\"><he>חָבוּט</he></cite>. ",
+				"<cite ref=\"Bava Metzia 80b:3\">B. Mets. 80ᵇ</cite> <he>חֲבָטוֹ לאלתר</he> (Ar. <he>חבסו</he>, v. <cite ref=\"H00100\"><he>חָבַס</he></cite>) the load pressed him down immediately (before he could find out that it was too heavy for him). ",
+				"<cite ref=\"Sanhedrin 19b:1\">Snh. 19ᵇ</cite> <he>חֲבָטָן בקרקע</he> pressed them into the ground. ",
+				"<cite ref=\"Mishnah Sukkah 4:6\">Succ. IV, 6</cite> (<cite ref=\"Sukkah 45a:3\">45ᵃ</cite>) <he>חוֹבְטִין אותן ע״ג קרקע בצידי המזבח</he> Ms. M. (v. Rabb. D. S. a. l. note 10) they laid them down closely upon one another on the ground by the altar (opp. to <he>זוקפין</he>, ib. IV, 4). ",
+				"<cite ref=\"Ketubot 39a:9\">Keth. 39ᵃ</cite> <he>צער שחֲבָטָהּ ע״ג וכ׳</he> ‘the pain’ (Mish. ",
+				"<cite ref=\"Mishnah Ketubot 3:4\">ib. III, 4</cite>) refers to his pressing her down on the hard ground."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to force, to knock open</i>, esp. <i>to knock upon olives</i> to make them burst, before putting them under the press, or <i>upon ears</i> to thresh the grain out. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 36\">Ex. R. s. 36</cite>, beg. <he>מורידין … ונחבט ומשחוֹבְטִין וכ׳</he> they take the olive down and it is knocked upon, and after knocking it, they put it into the vat (corresp. to <he>כתש</he>, <cite ref=\"Mishnah Menachot 8:4\">Men. VIII, 4</cite>). ",
+				"<cite ref=\"Mishnah Menachot 8:4\">Ib.</cite> <he>באין או״ה … וחובטין … ממקום וכ׳</he> the gentiles come and knock them (the Israelites) from place to place. ",
+				"<cite ref=\"Mishnah Menachot 10:4\">Men. X, 4</cite>; a. e.—<i>Part. pass.</i> <cite ref=\"H00022\"><he>חָבוּט</he></cite> <i>mashed</i>. ",
+				"<cite ref=\"Shabbat 80b\">Sabb. 80ᵇ</cite> <he>בח׳</he> when the lime is mashed (and mixed with water); Y. ib. VIII, 11ᵇ bot. <he>בחביט</he> (corr. acc.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to lay down for receiving lashes</i>, in gen. <i>to punish, bind over</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 9:8\">Gitt. IX, 8</cite> <he>ובנכרים חובטין אותו וכ׳</he> but when the gentile authorities bind him over and say, Do as the Israelites tell thee, (the letter of divorce so enforced) is valid (differ. vers. in Y. ed.); <cite ref=\"Tosefta Yevamot 12:13\">Tosef. Yeb. XII, 13</cite>.—",
+				"<cite ref=\"Tosefta Sotah 15:7\">Tosef. Sot. XV, 7</cite> <he>מסרוהו לבעל זמורה וחֲבָטוֹ</he> ed. Zuck. Var. (Y. ib. IX, 24ᵇ top <he>וחבשו</he>) they gave him in charge of the rod-bearer (v. <cite ref=\"G00511\"><he>זְמוֹרָה</he></cite>), and he tried to force him (into submission). ",
+				"<cite ref=\"Mishnah Middot 1:2\">Midd. I, 2</cite> <he>חוֹבְטוֹ במקלו</he> he punishes him with his cane."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְבַּט"],
+			"senses": [
+				{
+					"gloss": "<i>to be knocked upon; to strike against</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 36\">Ex. R. s. 36</cite>, v. supra.—",
+						"<cite ref=\"Ketubot 36b:2\">Keth. 36ᵇ</cite> <he>מפני שנֶחְבֶּטֶת וכ׳</he> because the blind girl may have struck against something (and fallen, so as to have lost her virginity by the shock). ",
+						"<cite ref=\"Chullin 51b\">Ḥull. 51ᵇ</cite> <he>עוף שנ׳ על וכ׳</he> a bird that fell with force upon water.—",
+						"<cite ref=\"Kohelet Rabbah 7:8\">Koh. R. to VII, 8</cite>, v. infra."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["חִיבֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to press down, throw down</i>. Keth. l. c. <he>חִיבְּטָהּ ע״ג שיראין</he> if he forced her down on (soft) silk garments.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַבֵּט", "נִתְחַבֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to prostrate one’s self</i> (in prayer, in deep commotion). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite> <he>היה מִתְחַבֵּט לפני רגליו וכ׳</he> he threw himself to the feet of every one &c. (with ref. to <cite ref=\"Genesis 42:21\">Gen. XLII, 21</cite>). ",
+						"<cite ref=\"Bereishit Rabbah 70\">Gen. R. s. 70</cite>; <cite ref=\"Bamidbar Rabbah 8\">Num. R. s. 8</cite>, end; <cite ref=\"Yalkut Shimoni on Torah 123:1\">Yalk. Gen. 123</cite> <he>דבר שנתח׳ וכ׳</he> a thing for which that patriarch (Jacob) begged in prostration; <cite ref=\"Kohelet Rabbah 7:8:1\">Koh. R. to VII, 8</cite> <he>שנֶחְבַּט</he>. ",
+						"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite>, beg. <he>עכשיו הוא מתחנן ומתח׳</he> now he supplicates and prostrates himself; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "K00352",
+	"slug": "כופרי-2",
+	"headword": {
+		"text": "כּוּפְרִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 624,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. prob. <i>Cyprus</i>, v. <cite ref=\"G00618\"><he>זְ֗פִירִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 701\">Yalk. Num. 701</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"K01055\"><he>כַּפְרִי</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

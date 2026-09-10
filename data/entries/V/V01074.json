@@ -1,0 +1,23 @@
+{
+	"id": "V01074",
+	"slug": "תשומת",
+	"headword": {
+		"text": "תְּשׂוֹמֶת"
+	},
+	"page": {
+		"number": 1703,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U00433\"><he>שׂוּם</he></cite>) , <he>ת׳ יד</he> <i>trust, loan</i>. Sifra Vayiḳra, Ḥob., Par. 9, ch. XV; <cite ref=\"Mishnah Shevuot 4:5\">Shebu. IV, 5</cite> <he>פקדון ות׳ יד</he> a charge or a loan. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 48a:9\">B. Mets. 48ᵃ</cite>, a. e. <he>ת׳ יד … כגון שיחד לו וכ׳</he> by <i>t’someth yad</i> we mean a loan for which the debtor has designated a certain object in his possession as security. ",
+				"<cite ref=\"Bava Metzia 48a:9\">Ib.</cite> (ref. to <cite ref=\"Leviticus 5:24\">Lev. V, 24</cite>) <he>לרבות ת׳ יד להישבון</he> this includes the <i>t’someth yad</i> as amenable to the law of restoration (v. <cite ref=\"E00911\"><he>הֵשָׁבוֹן</he></cite>); a. e."
+			]
+		}
+	]
+}

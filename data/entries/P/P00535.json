@@ -1,0 +1,23 @@
+{
+	"id": "P00535",
+	"slug": "עיטיין",
+	"headword": {
+		"text": "עֵיטְיַין"
+	},
+	"page": {
+		"number": 1068,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pl. of <cite ref=\"P00529\"><he>עֵיטָא</he></cite>;",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"P01520\"><he>בַּר ע׳</he></cite> pr. n. m. <i>Bar ʿEṭyan</i> (<i>counsellor</i>). Y. B. Bath. VI, end, 15ᶜ",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

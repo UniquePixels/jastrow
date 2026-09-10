@@ -1,0 +1,29 @@
+{
+	"id": "B00709",
+	"slug": "בירוץ",
+	"headword": {
+		"text": "בֵּירוּץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּרוּץ"
+		}
+	],
+	"page": {
+		"number": 166,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ברץ</he>) <i>heaping, crowding</i>. Pl. <he>בֵּירוּצִים</he>, <cite ref=\"B00710\"><he>בֵּירוּצִין</he></cite>, <he>בֵּר׳</he>. ",
+			"units": [
+				"<cite ref=\"Menachot 88a:5\">Men. 88ᵃ</cite> <he>ב׳</he> or <he>בֵּירוּצֵי המדות</he> the quantities which remain, when filling from a brimful measure into smaller ones. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:2:7\">Y. Shek. IV, 48ᵃ</cite> bot. <he>לב׳</he> goes to the collection of &c. ",
+				"<cite ref=\"Yoma 2a:7\">Ib.</cite> <he>בירוצי לח</he> the remnants of the overflow of liquids, <he>ב׳ יבש</he> those of dry things emptied over."
+			]
+		}
+	]
+}

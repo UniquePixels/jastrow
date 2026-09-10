@@ -1,0 +1,23 @@
+{
+	"id": "G00599",
+	"slug": "זעיר-3",
+	"headword": {
+		"text": "זְעֵיר",
+		"homograph": 3
+	},
+	"page": {
+		"number": 407,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Z’er</i> (<i>Little</i>), an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:4:13\">Y. Ter. VIII, 46ᵇ</cite> bot. <he>ז׳ בר חיננא</he>. Y. Ber. V, end, 8ᵈ <he>ר׳ ז׳</he>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "C00536",
+	"slug": "גזורתא",
+	"headword": {
+		"text": "גְּזוּרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּזַרְתָּא"
+		},
+		{
+			"text": "גְּזוּרָה"
+		}
+	],
+	"page": {
+		"number": 229,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גזר</he>) <i>circumcision, feast of circumcision; the circumcised membrum</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 4:25\">Targ. Y. Ex. IV, 25</cite> sq. ",
+				"<cite ref=\"Targum Jonathan on Genesis 24:25\">Targ. Y. Gen. XXIV, 25</cite> <cite ref=\"C00338\"><he>גּוּז׳</he></cite>; v. <cite ref=\"C00556\"><he>גְּזֵירְתָא</he></cite>.—Y. Succ. III, 53ᵃ <he>גזורה דר׳ וכ׳</he> the feast of circumcision at R. &c. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:8\">Y. Ab. Zar. III, 42ᶜ</cite> top <he>יהב נפשיה על ג׳</he> he staked his life for the ceremony of circumcision. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:11:4\">Y. Meg. I, 72ᵇ</cite> bot. <he>חמי גְזוּרְתִּי</he> see that I am circumcised; ib. III, 74ᵃ; <cite ref=\"Jerusalem Talmud Sanhedrin 10:5:3\">Y. Snh. X, 29ᶜ</cite> <he>גזיר׳</he>; <cite ref=\"Kohelet Rabbah 9:10:2\">Koh. R. to IX, 10</cite> <he>גזרתי</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "O00255",
+	"slug": "סוגעתא",
+	"headword": {
+		"text": "סוּגְעֲתָא"
+	},
+	"page": {
+		"number": 961,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"O00254\">same</cite>. Constr. <cite ref=\"O00254\"><he>סוּגְעַת</he></cite> (adv.) <i>enough</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 123:4\">Targ. Ps. CXXIII, 4</cite> (h. text <he>רַבַּת</he>)."
+			]
+		}
+	]
+}

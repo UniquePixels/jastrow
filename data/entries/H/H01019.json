@@ -1,0 +1,42 @@
+{
+	"id": "H01019",
+	"slug": "חלחל-2",
+	"headword": {
+		"text": "חַלְחֵל"
+	},
+	"page": {
+		"number": 466,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01018\">same</cite>, <i>to penetrate, to hollow out</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 119b:19\">Ḥull. 119ᵇ</cite> <he>חַלְחוּלֵי מְחַלְחֵל</he> the hair perforates the skin.—<i>Part. pass.</i> <he>מְחַלְחַל</he> <i>hollow; loosely filled</i>. ",
+				"<cite ref=\"Berakhot 59a:7\">Ber. 59ᵃ</cite> <he>ענני חלחולי מְחַלְחֲלֵי</he> (Ms. F. <he>עיבא … מִיחַלְחַל</he>) the clouds are not entirely filled with water. ",
+				"<cite ref=\"Pesachim 74a:2\">Pes. 74ᵃ</cite> <he>איידי דמח׳</he> because the wood is hollow (having marrow inside); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַלְחַל", "אִיחַלְחַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be perforated, be open</i>. Ber. l. c. Ms. F. v. supra.—Esp. <i>to be permeated by poison, feel the effect of poison</i>. Y. Ab. Zar. II, 41ᵃ bot.; Y. Ter. VIII, 45ᶜ bot. <he>לא אספיק … עד דאיתח׳</he> he had scarcely drank of it when he became affected (collapsed). Y. Ab. Zar. II, 40ᵈ top <he>חמתה מִתְהַלְחֲלָה</he> he saw that the plaster was poisoned.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to tremble</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 97:4\">Targ. Ps. XCVII, 4</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 32:11\">Targ. Y. Ex. XXXII, 11</cite> (h. text <he>ויחל</he>); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

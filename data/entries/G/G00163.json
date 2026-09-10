@@ -1,0 +1,31 @@
+{
+	"id": "G00163",
+	"slug": "זוטרא",
+	"headword": {
+		"text": "זוּטְרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 386,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Zutra</i> (corresp. to <cite ref=\"G00598\"><he>זְעֵירָא</he></cite>), ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Mar Z.</i>, name of several Amoraim. ",
+			"units": ["<cite ref=\"Berakhot 43b:15\">Ber. 43ᵇ</cite>; a. fr."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Rab Z</i>. Ib.; a. v. fr. (v., however, Rabb. D. S. a. l. notes 5, 6, 7).—<he>רב זוּטְרִי</he>, v. <cite ref=\"G00159\"><he>זוּטִי</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

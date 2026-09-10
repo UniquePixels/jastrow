@@ -1,0 +1,27 @@
+{
+	"id": "A03249",
+	"slug": "אררן",
+	"headword": {
+		"text": "אֲרָרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרִירָן"
+		}
+	],
+	"page": {
+		"number": 126,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A03247\"><he>אָרַר</he></cite>) <i>dagger</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 30b\">Snh. 30ᵇ</cite>; <cite ref=\"Sanhedrin 41a\">41ᵃ</cite> <he>אֲרָ׳</he> Ar. (ed. a. Ms. <cite ref=\"A03081\"><he>אֲרִי׳</he></cite>). [Oth. opin. <i>club</i>. Var. <he>ארידן</he>.]"
+			]
+		}
+	]
+}

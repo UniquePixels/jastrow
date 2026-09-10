@@ -1,0 +1,23 @@
+{
+	"id": "Q00089",
+	"slug": "פגעין",
+	"headword": {
+		"text": "פִּגְעִין"
+	},
+	"page": {
+		"number": 1135,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (cmp. <cite ref=\"Q00818\"><he>פִּיקְעִין</he></cite>) <i>plums</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 144b\">Sabb. 144ᵇ</cite> (Rashi in early eds. <cite ref=\"Q00588\"><he>פִּיגְעִין</he></cite>; v. Rabb. D. S. a. l. note 50)."
+			]
+		}
+	]
+}

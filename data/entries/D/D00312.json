@@ -1,0 +1,28 @@
+{
+	"id": "D00312",
+	"slug": "דופן-1",
+	"headword": {
+		"text": "דּוֹפֶן",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "דֹּפֶן"
+		}
+	],
+	"page": {
+		"number": 287,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>damage, defect</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 34a\">Ab. Zar. 34ᵃ</cite>, v. <cite ref=\"D00308\"><he>דּוֹפִי</he></cite>."
+			]
+		}
+	]
+}

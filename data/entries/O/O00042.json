@@ -1,0 +1,23 @@
+{
+	"id": "O00042",
+	"slug": "סבולאה",
+	"headword": {
+		"text": "סַבּוֹלָאָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 949,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00072\"><he>סְבַל</he></cite>) <i>load-carrier</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 93b:11\">B. Mets. 93ᵇ</cite> <he>בר אדא ס׳</he> (Ms. R. <he>סַבּוֹלָא</he>; Ms. H. <cite ref=\"O00042\"><he>סַכּוֹלָאָה</he></cite>, Ms. F. <he>סַקּוֹלָא</he> <i>of Saccola = Sacala</i> in Gedrosia?)."
+			]
+		}
+	]
+}

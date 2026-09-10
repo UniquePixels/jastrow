@@ -1,0 +1,29 @@
+{
+	"id": "O01369",
+	"slug": "ספיקולא-2",
+	"headword": {
+		"text": "סְפִיקוּלָא",
+		"homograph": 1,
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סְפִיקְלָה"
+		}
+	],
+	"page": {
+		"number": 1014,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (specula) <i>watch-tower</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:3:5\">Y. Sabb. I, 3ᵇ</cite> bot."
+			]
+		}
+	]
+}

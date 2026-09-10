@@ -1,0 +1,48 @@
+{
+	"id": "A00842",
+	"slug": "אור-3",
+	"headword": {
+		"text": "אוֹר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 32,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A00841\">foreg.</cite>) <i>breaking forth</i> (cmp. ",
+			"units": ["<cite ref=\"Isaiah 58:8\">Is. LVIII, 8</cite>) whence "]
+		},
+		{
+			"gloss": "<i>break of day, light, day; fire;</i> trnsf. <i>rise, glory, power, happiness</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 2b:1\">Ber. 2ᵇ</cite> <he>ביאת אוֹרוֹ</he> the entrance of his day-break (dawn of his eighth day; Tosaf. a. l. <i>the sunset</i> of his seventh day). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 1:1:3\">Y. Pes. I, beg. 27ᵃ</cite> <he>א׳ החמה</he> sun-light. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 1:1:3\">Ib.</cite> <he>א׳ הנר</he> candle light. ",
+				"<cite ref=\"Ketubot 111b:5\">Keth. 111ᵇ</cite> <he>א׳ תורה</he> light of the Law. ",
+				"<cite ref=\"Bava Batra 4a:3\">B. Bath. 4ᵃ</cite> <he>אוֹרוֹ של עולם</he> intellectual light of the wold (a great man; the Law). ",
+				"<cite ref=\"Bamidbar Rabbah 15:19\">Num. R. s. 15</cite> <he>אור של מעלן</he> the celestial fire (believed to be the source of all light and fire); a. v. fr. "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (breaking in of night) <i>twilight, evening</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 1:1\">Pes. I, 1</cite> <he>לארבעה וכ׳ א׳</he> on the evening (eve) of the fourteenth day of Nissan; v. discussion <cite ref=\"Pesachim 2a:8\">ibid. 2ᵃ</cite> sq., about the meaning of our w. ",
+				"<cite ref=\"Rosh Hashanah 22b\">R. Hash. 22ᵇ</cite>; <cite ref=\"Sanhedrin 70b:10\">Snh. 70ᵇ</cite> <he>לא׳ עיבורו</he> the evening following the eventual intercalation, i.e. the evening from the thirtieth of the past to the first of the beginning month."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (homil. = <cite ref=\"A00860\"><he>אוֹרָה</he> II</cite>) <i>rue</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20:12\">Gen. R. s. 20</cite> in the Pentat. of R. M. it read <he>כתנות אור וכ׳</he> (in place of <he>עור</he> <cite ref=\"Genesis 3:21\">Gen. III, 21</cite>) this alludes to the garments of Adam resembling the rue, wide below and narrow above; Ar. (Rashi diff.)."
+			],
+			"label": "3"
+		}
+	]
+}

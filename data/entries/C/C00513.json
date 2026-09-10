@@ -1,0 +1,23 @@
+{
+	"id": "C00513",
+	"slug": "גז-1",
+	"headword": {
+		"text": "גֵּז"
+	},
+	"page": {
+		"number": 228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>גזז</he>)<i>shorn wool, fleece</i>,—<he>רֵאשִׁית הַגֵּז</he> the first shorn wool (the priest’s gift), <cite ref=\"Deuteronomy 18:4\">Deut. XVIII, 4</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 11:1\">Ḥull. XI, 1</cite>; a. e.—Pl. <cite ref=\"C00683\"><he>גִּיזִּין</he></cite>. ",
+				"<cite ref=\"Bava Kamma 118b:23\">B. Kam. 118ᵇ</cite>.  v. <cite ref=\"C00679\"><he>גִּיזָּה</he></cite>."
+			]
+		}
+	]
+}

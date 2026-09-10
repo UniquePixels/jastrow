@@ -1,0 +1,27 @@
+{
+	"id": "L00344",
+	"slug": "לחיא",
+	"headword": {
+		"text": "לִחְיָא"
+	},
+	"page": {
+		"number": 702,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"L00343\">same</cite><i>the cheek-piece of a bridle</i>.—Pl. <he>לְחִיאָתָא</he>. ",
+			"units": [
+				"<cite ref=\"Hosea 11:4\">Hos. XI, 4</cite> <he>ומוריך בלְחִיאָתְהוֹן</he> ed. (ed. Lag. <he>בלַחְוָתָא</he>; oth.ed. <cite ref=\"L00337\"><he>לְחוֹאָתָא</he></cite>, <he>לוֹחֲאָ׳</he>, <he>לחיאתא</he>, omitting the suffix) lengthening (loosening) their bridles (h. text <he>לחיהם</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stake</i> as a Sabbath mark, <i>leḥi</i>, v. <cite ref=\"L00343\">preced.</cite> ",
+			"units": [
+				"<cite ref=\"Eruvin 15a:17\">Erub. 15ᵃ</cite> <he>נפל ל׳</he> the <i>leḥi</i> had fallen over.—V. <cite ref=\"L00346\"><he>לְחָיָיתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

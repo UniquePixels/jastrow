@@ -1,0 +1,29 @@
+{
+	"id": "A00907",
+	"slug": "אורנוס",
+	"headword": {
+		"text": "אַוְרַנּוֹס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבְרַנּוֹס"
+		}
+	],
+	"page": {
+		"number": 35,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. <cite ref=\"A00227\"><he>אַוְרַנְסֵי</he></cite>, <cite ref=\"A00204\"><he>אַבְרַ׳</he></cite> (ῥάμνος, rhamnus) <i>a kind of prickly shrubs</i>, used for medical purposes and carried in lengthy bundles (v. D. C. Gr. s. v., a. Sm. Ant. s. v.). ",
+			"units": [
+				"<cite ref=\"Shabbat 91b\">Sabb. 91ᵇ</cite> <cite ref=\"A01338\"><he>או׳</he></cite> ed. (Ms. M. <cite ref=\"A01133\"><he>אב׳</he></cite>; Ar. <cite ref=\"A03203\"><he>ארנסי</he></cite>). [As to <he>ור</he>, <he>בר</he> for aspirate r, v. Lidd. a. Scott, Gr. Lex, 7<sup>ᵗʰ</sup> ed. s. lit. P.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "D00541",
+	"slug": "דיור-1",
+	"headword": {
+		"text": "דְּיוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּיָיר"
+		}
+	],
+	"page": {
+		"number": 297,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00341\"><he>דור</he></cite>) <i>dwelling</i>, esp. <i>temporary residence, lodging</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:7:6\">Y. Erub. V, 23ᵃ</cite> top <he>לשם דייר</he> as a lodging place; a. e.—Pl. <cite ref=\"D00518\"><he>דְּיוֹרִים</he></cite>, <he>דְּיוֹרִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:7:6\">Ib.</cite> <he>ד׳ ממש</he> real lodging places, <he>ראוי׳ לד׳</he> fit for shelter. Tosef. ib. X (VII), 12; a. fr. V. <cite ref=\"D00727\"><he>דִּיר</he></cite>."
+			]
+		}
+	]
+}

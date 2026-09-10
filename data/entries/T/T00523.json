@@ -1,0 +1,43 @@
+{
+	"id": "T00523",
+	"slug": "רחמא-3",
+	"headword": {
+		"text": "רַחְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַחְ׳",
+			"homograph": 3
+		},
+		{
+			"text": "רָחְמָא"
+		},
+		{
+			"text": "רָחֵם"
+		}
+	],
+	"page": {
+		"number": 1467,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00522\">preced.</cite>) <i>friend</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 11:2\">Targ. Y. Ex. XI, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 27:6\">Targ. Prov. XXVII, 6</cite> (Ms. <cite ref=\"T00500\"><he>רחימא</he></cite>); a. e.—",
+				"<cite ref=\"Gittin 55b:17\">Gitt. 55ᵇ</cite> <he>דרָחְמֵיה קמצא</he> whose friend’s name was Ḳamtsa. ",
+				"<cite ref=\"Bereishit Rabbah 96\">Gen. R. s. 96</cite> <he>בריה דרָחְמִיךְ</he> thy friend’s son, v. <cite ref=\"I00616\"><he>טְעַן</he> II</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:4:3\">Y. Shebi. IX, 39ᵃ</cite> top <he>בגין דלית … רחם</he> whereas these people (we) have no friend; a. e.—Pl. <cite ref=\"T00527\"><he>רַחֲמִין</he></cite>, <cite ref=\"T00527\"><he>רַחְמֵי</he></cite>, <cite ref=\"T00269\"><he>רָ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:36\">Targ. Prov. VIII, 36</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 38:12\">Targ. Ps. XXXVIII, 12</cite> Ms. (ed. <cite ref=\"T00515\"><he>רְחִי׳</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 26:26\">Targ. O. Gen. XXVI, 26</cite> <he>רַחְמוֹהִי</he> ed. Berl. (oth. ed. <he>מרח׳</he>); a. e.—Y. Shebi. l. c. <he>חמי לך תלתא ר׳ וכ׳</he> choose thee three friends &c. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 115:11\">Yalk. Gen. 115</cite>, v. <cite ref=\"T00500\"><he>רְחִים</he> II</cite>. ",
+				"<cite ref=\"Shabbat 32a:5\">Sabb. 32ᵃ</cite> Ar. (ed. <he>מרחמי</he>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "P01511",
+	"slug": "עשרת",
+	"headword": {
+		"text": "עֲשֶׂרֶת"
+	},
+	"page": {
+		"number": 1127,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. constr. (b. h.; <i>group of ten</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 86b:5\">Sabb. 86ᵇ</cite> <he>ע׳ הדברות</he> the ten words (commandments); a. fr.—Pl. <he>עֲשָׂרוֹת</he>, <he>עֲשָׂרִיּוֹת</he>. ",
+				"<cite ref=\"Sanhedrin 18a:3\">Snh. 18ᵃ</cite> <he>שרי ע׳ ששת רבוא</he> the number of the chiefs of ten (<cite ref=\"Exodus 18:21\">Ex. XVIII, 21</cite>) was sixty thousand; Mekh. Yithro, ʿĂmal., s. 2; Tanḥ. ",
+				"<cite ref=\"Exodus 6\">Mishp. 6</cite>. Tanḥ. Emor 24 (Chald. dict.) <he>זיל כנוש עֲשָׂרִיּוֹתֶיךָ</he> go and gather thy divisions of ten."
+			]
+		}
+	]
+}

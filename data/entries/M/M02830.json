@@ -1,0 +1,22 @@
+{
+	"id": "M02830",
+	"slug": "משולחת",
+	"headword": {
+		"text": "מְשׁוּלַּחַת"
+	},
+	"page": {
+		"number": 850,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01265\"><he>שָׁלַח</he></cite>) <i>a divorced wife taken back after being married to another man</i> (against the law, <cite ref=\"Deuteronomy 24:4\">Deut. XXIV, 4</cite>). ",
+			"units": [
+				"<cite ref=\"Niddah 69b:41\">Nidd. 69ᵇ</cite> <he>בת מ׳</he> the daughter of a woman illegitimately remarried."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "G00061",
+	"slug": "זגוגיתא",
+	"headword": {
+		"text": "זְגוּגִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זוּגִּיתָא"
+		}
+	],
+	"page": {
+		"number": 380,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00057\"><he>זגג</he></cite>, v. <cite ref=\"G00057\"><he>זַגָּג</he></cite>) <i>glass, crystal; glass-ware</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 28:18\">Targ. Job XXVIII, 18</cite> (in one version); a. e. Targ. II Esth. I, 2 (3) <he>בית זוג׳</he> glass house.—",
+				"<cite ref=\"Berakhot 31a:2\">Ber. 31ᵃ</cite> <he>כסי דזגוג׳</he> Ar. ed. Koh. (ed. <he>כסא דזוג׳ חיורתא</he>, v. Rabb. D. S. a. l. note 10) cups (a cup) of (white) glass; <cite ref=\"Yalkut Shimoni on Nach 881:1\">Yalk. Ps. 881</cite>. ",
+				"<cite ref=\"Chullin 84b:3\">Ḥull. 84ᵇ</cite> <he>בזיגותא וכ׳</he> (corr. acc.) it means white glass (crystal). ",
+				"<cite ref=\"Gittin 68b:8\">Gitt. 68ᵇ</cite> <he>זוג׳</he>. [<cite ref=\"Pesachim 74b\">Pes. 74ᵇ</cite> <he>כזוּגָּא חיורא</he> Ar. a. Ms. O. like white glass; ed. <cite ref=\"G00138\"><he>זוזא</he></cite>.]"
+			]
+		}
+	]
+}

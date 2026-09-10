@@ -1,0 +1,63 @@
+{
+	"id": "H00084",
+	"slug": "חבל-2",
+	"headword": {
+		"text": "חֲבַל",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבֵיל"
+		}
+	],
+	"page": {
+		"number": 420,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", fut. <he>יַחְבּוֹל</he> <cite ref=\"H00083\">same</cite>, <i>to wrong, be violent</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 34:31\">Targ. Job XXXIV, 31</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַבֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to injure; to ruin, destroy</i> &c. (corresp. to b. h. <cite ref=\"U00723\"><he>הִשְׁחִית</he></cite>). ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 19:27\">Targ. O. Lev. XIX, 27</cite>. ",
+						"<cite ref=\"Onkelos Genesis 6:12\">Targ. Gen. VI, 12</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"M00801\"><he>מְחַבַּל</he></cite> <i>mutilated, blemished</i>. ",
+						"<cite ref=\"Onkelos Deuteronomy 23:2\">Targ. O. Deut. XXIII, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Malachi 1:14\">Targ. Mal. I, 14</cite>.—",
+						"<cite ref=\"Bava Kamma 87a:13\">B. Kam. 87ᵃ</cite> <he>אי בעי מְחַבֵּל בה לא מצי חַבֵּיל</he> Ms. M. (ed. <he>מתח׳</he>, incorr.) if he desired to wound her (his daughter), he dared not."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to travail</i>. Denom. <cite ref=\"M00804\"><he>מְחַבַּלְתָּא</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַבַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be corrupted, destroyed</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 6:11\">Targ. Gen. VI, 11</cite>, sq. ",
+						"<cite ref=\"Aramaic Targum to Job 17:1\">Targ. Job XVII, 1</cite>; a. e. [<cite ref=\"Aramaic Targum to Psalms 62:11\">Targ. Ps. LXII, 11</cite>, v. <cite ref=\"E00041\"><he>הֲבַל</he></cite>.]—<i>Ithpe.</i> <he>אִיחֲבַל</he> <i>to get sick</i>. ",
+						"<cite ref=\"Bava Metzia 97a\">B. Mets. 97ᵃ</cite> <he>ואי׳ ומית</he> Ms. H. (ed. <cite ref=\"H00063\"><he>חֲבִיל</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

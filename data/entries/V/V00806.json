@@ -1,0 +1,44 @@
+{
+	"id": "V00806",
+	"slug": "תפוסה",
+	"headword": {
+		"text": "תְּפוּסָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּפוּשָׂה"
+		}
+	],
+	"page": {
+		"number": 1685,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00843\"><he>תָּפַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " part. pass. of <cite ref=\"V00843\"><he>תָּפַס</he></cite>, q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>seizing, possession</i>; <he>תְּפוּסַת הבית</he> <i>that which belongs to the house, estate</i> (before division among heirs). ",
+			"units": [
+				"<cite ref=\"Bava Batra 137b:3\">B. Bath. 137ᵇ</cite> <he>האחין … בת׳ הבית</he> if brothers acquire an Ethrog out of the estate. ",
+				"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite> <he>אל תאמר … כלום מתְּפִיסַת הבית</he> say not, when he (Jacob) went out …, he took with him something that belonged to the (paternal) estate; a. e.—Esp. <i>earth surrounding a buried corpse</i>, which belongs to the dead, and must be taken along when transferred. ",
+				"<cite ref=\"Mishnah Nazir 9:3\">Naz. IX, 3</cite> (<cite ref=\"Nazir 64b\">64ᵇ</cite>), a. fr., v. <cite ref=\"V00038\"><he>תְּבוּסָה</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>manipulation</i>, v. <cite ref=\"V00821\"><he>תְּפִיסָה</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

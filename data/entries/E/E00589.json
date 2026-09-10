@@ -1,0 +1,27 @@
+{
+	"id": "E00589",
+	"slug": "המג",
+	"headword": {
+		"text": "הֵמַג"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵימַג"
+		}
+	],
+	"page": {
+		"number": 354,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., only in <cite ref=\"E00114\"><he>בַּר ה׳</he></cite> <i>Bar-Hemag</i>, a subspecies of <i>abratha</i> (hyssop). ",
+			"units": [
+				"<cite ref=\"Shabbat 109b:5\">Sabb. 109ᵇ</cite> (defining h. <cite ref=\"A00964\"><he>אֵזוֹב</he></cite>), v. <cite ref=\"A00230\"><he>אַבְרָתָא</he></cite>."
+			]
+		}
+	]
+}

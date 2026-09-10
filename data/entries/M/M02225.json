@@ -1,0 +1,30 @@
+{
+	"id": "M02225",
+	"slug": "מפנק",
+	"headword": {
+		"text": "מְפַנַּק"
+	},
+	"page": {
+		"number": 821,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. pass. of <cite ref=\"Q01210\"><he>פְּנַק</he></cite>) <i>brought up in wealth, delicate, fastidious</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:3\">Targ. Prov. IV, 3</cite>; a. e.—",
+				"<cite ref=\"Ketubot 67b:5\">Keth. 67ᵇ</cite> <he>מ׳ כולי האי</he> is he used to such comforts?—",
+				"<cite ref=\"Bava Kamma 84a:12\">B. Kam. 84ᵃ</cite> <he>איכא איניש דמ׳ וכ׳</he> one man is delicate and feels pain more intensely, another is hardened &c.; a. e.—Pl. <he>מְפַנְקִין</he>, <he>מְפַנְקֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 44:4\">Targ. Is. XLIV, 4</cite>; a. e.—",
+				"<cite ref=\"Chagigah 4a\">Ḥag. 4ᵃ</cite> sq. <he>לאתויי מ׳</he> to include delicate persons (that do not walk barefooted). ",
+				"<cite ref=\"Shabbat 109a:6\">Sabb. 109ᵃ</cite>; a. fr.—Fem. <cite ref=\"M02226\"><he>מְפַנְּקָא</he></cite>, <cite ref=\"M02228\"><he>מְפַנַּקְתָּא</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:56\">Targ. O. Deut. XXVIII, 56</cite> (Y. <he>מפרנקא</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 47:8\">Targ. Is. XLVII, 8</cite>; a. e.—Pl. <cite ref=\"M02228\"><he>מְפַנְקָתָא</he></cite>, <cite ref=\"M02227\"><he>מְפַנְקָאתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:3\">Targ. Lam. IV, 3</cite>."
+			]
+		}
+	]
+}

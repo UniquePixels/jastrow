@@ -1,0 +1,29 @@
+{
+	"id": "D00668",
+	"slug": "דיסתנא-2",
+	"headword": {
+		"text": "דִּיסְתָּנָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּסְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 303,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (dial. <cite ref=\"D01157\"><he>דִּשְׁתָּנָא</he></cite>) f. (Difel, v. <cite ref=\"D00002\"><he>דְּ־</he></cite>, denom. of <cite ref=\"F00067\"><he>וֶסְתָּא</he></cite>) <i>a menstruous woman</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 22a\">Taan. 22ᵃ</cite> <he>דיס׳</he> ed. (Ms. M. <cite ref=\"D01154\"><he>דיש׳</he></cite>). ",
+				"<cite ref=\"Shabbat 110a\">Sabb. 110ᵃ</cite> <he>דיס׳</he> Ms. O. (ed. <cite ref=\"D01154\"><he>דיש׳</he></cite>, Ms. M. <he>דש׳</he>). ",
+				"<cite ref=\"Avodah Zarah 18a:4\">Ab. Zar. 18ᵃ</cite> <he>דש׳</he>. ",
+				"<cite ref=\"Avodah Zarah 24b:19\">Ib. 24ᵇ</cite> <he>כמאן קרו פרסאי לנרה דש׳</he> (Ms. M. <cite ref=\"A02066\"><he>אמרי</he></cite> for <cite ref=\"S02017\"><he>קרי</he></cite>) on what authority do the Persians call a menstruous woman <i>dishtana</i> (for the usual <i>distana</i>)? Answ. (ref. to <cite ref=\"Genesis 31:35\">Gen. XXXI, 35</cite> as if fr. <cite ref=\"D00389\"><he>דוש</he></cite>, cmp. <cite ref=\"D00220\"><he>דַּוְושָׁא</he></cite>, having the <i>course</i> of women). [<he>פרסאי</he> does not necessarily refer to the Persian language, as evidenced by the preceding <cite ref=\"D00064\"><he>דְּבִיר</he></cite>. Persian <i>dashtân</i> may be borrowed from Aram.—Syr. <cite ref=\"D01157\"><he>דשתנא</he></cite>, P. Sm. 958.]"
+			]
+		}
+	]
+}

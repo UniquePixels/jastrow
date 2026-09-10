@@ -1,0 +1,33 @@
+{
+	"id": "J00656",
+	"slug": "ירק-4",
+	"headword": {
+		"text": "יְרַק",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 597,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אוֹרִיק</he> <cite ref=\"J00655\">same</cite>, <i>to become pale</i> &c. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 31:18\">Targ. Y. Num. XXXI, 18</cite> <he>אפהא מוֹרִיקַן</he> her face grew pale. ",
+						"<cite ref=\"Aramaic Targum to Psalms 113:9\">Targ. Ps. CXIII, 9</cite> <cite ref=\"M00652\"><he>מוֹרִיקָא</he></cite> looking pale (with envy; Ms. <cite ref=\"M00652\"><he>מוֹדִיקָא</he></cite>, v. <cite ref=\"D00325\"><he>דּוּק</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

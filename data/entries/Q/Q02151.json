@@ -1,0 +1,113 @@
+{
+	"id": "Q02151",
+	"slug": "פתי-1",
+	"headword": {
+		"text": "פתי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּתָה"
+		}
+	],
+	"page": {
+		"number": 1252,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>פתח</he>) [<i>to be open, wide</i>,] <i>to be accessible to influences, be compliant</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 21:5\">Ex. R. s. 21</cite> (ref. to <cite ref=\"Hosea 7:11\">Hos. VII, 11</cite>) <he>אצלי הם כיונה פוֹתָה וכ׳</he> towards me they are like a tame dove, whatever I decree over them, they do and obey, but towards the nations of the world they are intractable like wild beasts."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to open</i>; trnsf. <i>to influence, persuade, entice</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 38a:17\">Snh. 38ᵃ</cite> (play on <he>מי פתי</he> <cite ref=\"Proverbs 9:16\">Prov. IX, 16</cite>) <he>מי פְּתָאוֹ לזה וכ׳</he> who persuaded this man (Adam)? A woman spoke to him; (differ. in <cite ref=\"Yalkut Shimoni on Nach 943:7\">Yalk. Prov. 943</cite>).—[<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> <he>ופותין</he>, read: <he>ופוֹתְתִין</he>, v. <cite ref=\"Q02213\"><he>פָּתַת</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיתָּה"],
+			"senses": [
+				{
+					"gloss": " [<i>to open the heart of</i>,] <i>to persuade</i>; ",
+					"units": []
+				},
+				{
+					"gloss": " (in a good sense) <i>to win, conquer</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 29\">Lev. R. s. 29</cite> (ref. to <cite ref=\"Psalms 89:16\">Ps. LXXXIX, 16</cite>) <he>שהם מכירין לפַתּוֹת וכ׳</he> they know how to win the favor of their Creator &c.; (<cite ref=\"Midrash Tehillim 81:3\">Midr. Till. to Ps. 81</cite> <he>לרצות</he>); <cite ref=\"Yalkut Shimoni on Nach 840\">Yalk. Ps. 840</cite>; Pesik. Baḥod., p. 152ᵃ. Y. Kidd. III, 64ᶜ top <he>מְפַתִּים אותו … וכופין וכ׳</he> they (the court) persuade him to give her a letter of divorce, but they force him to &c.; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 71\">Gen. R. s. 71</cite> <he>פיתיתי</he>, v. infra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to gratify</i>; <i>to mislead by gratifying; to deceive</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite>, beg. (ref. to <he>יהפתית</he>, <cite ref=\"Proverbs 24:28\">Prov. XXIV, 28</cite>) <he>מאחר שפִּתִּיתֶם אותו בסיני וכ׳</he> after you gratified him at Sinai, saying (<cite ref=\"Exodus 24:7\">Ex. XXIV, 7</cite>) &c. ",
+						"<cite ref=\"Exodus 24:7\">Ib.</cite> <he>מאחר שפִּתִּיתָ בשפתיך וכ׳</he> after thou hast gratified with thy lips (promised to appear as witness) and caused him to go to law; a. e.—",
+						"<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite> (play on <he>ובמ̇ופ̇ת̇ים</he>, <cite ref=\"Deuteronomy 4:34\">Deut. IV, 34</cite>) <he>היו המכות מְ֗פַ֗תּ֗וֹת אותם וכ׳</he> the plagues (by coming at intervals) deceived them (made the Egyptians believe every time that they were relieved forever); Midr. Till, to <cite ref=\"Psalms 78:43\">Ps. LXXVIII, 43</cite> <he>מפיתית בהן</he> ed. Bub. (oth. ed. <he>שפותות בהן</he>; corr. acc.)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to entice</i>. Y. Snh. X, 28ᵈ the strong Moabite wine <he>שהוא מְפַתֶּה הגנף לזנות</he> which opens the body to lust; <cite ref=\"Bamidbar Rabbah 10:13\">Num. R. s. 10</cite>, a. e., v. <cite ref=\"Q02128\"><he>פְּתוּגְתָּא</he></cite>; a. fr.—Esp. <i>to seduce</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 3:9\">Keth. III, 9</cite> (<cite ref=\"Ketubot 41a:1\">41ᵃ</cite>) <he>האומר פִּיתֵּיתִי את וכ׳</he> if one declares, I have seduced that man’s daughter. Ib. 4 <he>המְפַתֶּה נותן</he> the seducer pays three fines, opp. to <cite ref=\"A00753\"><he>אונס</he></cite>; a. fr.—Y. Keth. III, 27ᵇ <he>שהפיתתו</he>, read: <he>שהיא פִיתְּתוֹ</he> when she seduced him."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["פּוּתָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be persuaded; to be seduced</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 71\">Gen. R. s. 71</cite>; <cite ref=\"Yalkut Shimoni on Torah 127:2\">Yalk. ib. 127</cite> <he>פּוּתֵּיתִי</he> (not <he>פית׳</he>), v. <cite ref=\"J00472\"><he>יָסַת</he></cite>.—Part. f. <he>מְפוּתָּה</he> <i>a seduced woman</i>. ",
+						"<cite ref=\"Ketubot 39b\">Keth. 39ᵇ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pu."
+		},
+		{
+			"forms": ["הִתְפַּתֶּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּתֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be widened</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 302\">Yalk. Is. 302</cite> <he>אף היא מִתְפַּתָּה … ומרחבת וכ׳</he> it (Gehenna), too, grows every day wider and broader and deeper (with ref. to <cite ref=\"V00864\"><he>תפתה</he></cite>, <cite ref=\"Isaiah 30:33\">Is. XXX, 33</cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be persuaded; to be enticed</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 17:8\">Gen. R. s. 17</cite> <he>מפני מה האיש נוח להִתְפַּתּוֹת וכ׳</he> why is man easily appeased and woman is not?; v. <cite ref=\"Q00602\"><he>פִּיּוּס</he></cite>.—Num. R. l. c. <he>ע״י היין נִתְפַּתּוּ וזנו</he> through wine they were enticed and they committed whoredom. ",
+						"<cite ref=\"Eruvin 19a:19\">Erub. 19ᵃ</cite> (play on <cite ref=\"V00864\"><he>תפתה</he></cite>, v. supra) <he>כל המִתְפַּתֶּה ביצרו יפול שם</he> whosoever is carried away by his evil desire falls into it (Gehenna). Yalk. Is. l. c.—",
+						"<cite ref=\"Mishnah Ketubot 4:1\">Keth. IV, 1</cite> <he>נערה שנִתְפַּתְּתָה וכ׳</he> if a young girl has been seduced (v. <cite ref=\"N00970\"><he>נַעֲרָה</he></cite>); a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to insinuate one’s self, to make one’s self popular</i>. Esth. R. introd. (play on <he>אפ̇ת̇ם</he>, <cite ref=\"Ezra 4:13\">Ezra IV, 13</cite>) <he>אפי׳ דברים שהמלכות מִתְפַּתָּה בהם וכ׳</he> even with those things by which the (Roman) government makes itself popular, as theatres and circuses, it does harm.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

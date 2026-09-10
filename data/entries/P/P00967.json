@@ -1,0 +1,33 @@
+{
+	"id": "P00967",
+	"slug": "ענותנות",
+	"headword": {
+		"text": "עִנְוְתָנוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִנְוְו׳"
+		},
+		{
+			"text": "עִינְ׳"
+		}
+	],
+	"page": {
+		"number": 1092,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00966\">preced.</cite>) <i>humility, patience, condescension</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 31a:12\">Meg. 31ᵃ</cite> <he>כל מקום שאתה מוצא גדולתו … אתה מוצא עִנְוְותָנוּתוֹ</he> wherever (in the Scriptures) you find a description of the greatness of the Lord, you also find a description of his condescension (towards the lowly). ",
+				"<cite ref=\"Shabbat 31a:9\">Sabb. 31ᵃ</cite> <he>עינותנותו של וכ׳</he> Hillel’s patience brought us under the wings of the Divine Presence (caused us to embrace the Jewish religion); <cite ref=\"Avot D'Rabbi Natan 15:3\">Ab. d’R. N. ch. XV</cite> <he>עִנְיְתָנוּתְךָ הביאני וכ׳</he> (read: <he>הביאתני</he>) thy patience brought me &c. ",
+				"<cite ref=\"Bereishit Rabbah 74:10\">Gen. R. s. 74</cite>; Pesik. Shimʿu, p. 116ᵇ, a. e. <he>קפדנותן … ולא עִנְוְתָנוּתָן של בנים</he> rather the angry mood of the fathers (Jacob) than the patience of the sons (David); a. fr.—",
+				"<cite ref=\"Sanhedrin 19b\">Snh. 19ᵇ</cite>, sq., v. <cite ref=\"V00266\"><he>תּוֹקֶף</he></cite>."
+			]
+		}
+	]
+}

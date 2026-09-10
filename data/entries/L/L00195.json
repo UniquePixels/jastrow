@@ -1,0 +1,33 @@
+{
+	"id": "L00195",
+	"slug": "לודאה",
+	"headword": {
+		"text": "לוּדָאָה"
+	},
+	"page": {
+		"number": 695,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"L00197\"><he>לוֹדִי</he></cite> <i>Lyddan</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 36a:5\">Ab. Zar. 36ᵃ</cite> <he>שמלאי ל׳ קאמרת</he> thou citest Samlai, the Lyddan; (Y. ib. II, 41ᵈ bot. <he>הדרומי</he>).—",
+				"<cite ref=\"Yevamot 71b:2\">Yeb. 71ᵇ</cite>, v. preced.—Pl. <he>לוּדָאֵי</he>. Ab. Zar. l. c. <he>שאני ל׳ דמזלזלי</he> it is different with Lyddan scholars, because they disregard traditional laws."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>לוּדָאֵי</he> (denom. of <i>ludi</i>, the latter being treated as a geographical term) <i>people hiring men for gladiatorial contests, lanistae</i> (v. Sm. Ant. s. v. Gladiator). ",
+			"units": [
+				"<cite ref=\"Gittin 46b:18\">Gitt. 46ᵇ</cite> bot. <he>ההוא גברא דזבין נפשיה לל׳</he> there was the case of a man who had sold himself to the <i>Ludaë</i>. ",
+				"<cite ref=\"Gittin 47a:4\">Ib. 47ᵃ</cite> <he>ריש לקיש</he> … <he>לל׳</he> Resh Lakish had sold himself &c.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:16\">Y. Ter. VIII, 45ᵈ</cite> top <he>אילו זבנת גרמך ללוּדָנִין הות מזבין וכ׳</he> (not <he>הוה</he>; prob. to be read: <cite ref=\"L00203\"><he>לוּדָיִין</he></cite>) if thou hadst sold thyself to the lanistae, thou wouldst have sold (thyself) at a high price, but here thou hast sold (risked) thy life for a trifle.—V. <cite ref=\"L00199\"><he>לוּדִים</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

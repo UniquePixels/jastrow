@@ -1,0 +1,31 @@
+{
+	"id": "B01242",
+	"slug": "בריאה",
+	"headword": {
+		"text": "בְּרִיאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרִיָּיה"
+		}
+	],
+	"page": {
+		"number": 192,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) f. (<cite ref=\"B01157\"><he>ברא</he></cite>) <i>creation, formation</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1:6\">Gen. R. s. 1</cite>; <cite ref=\"Vayikra Rabbah 36:1\">Lev. R. s. 36</cite> <he>לב׳ שמים וכ׳</he> as to creation (plan), the heavens were the first; as to finishing (execution) &c. ",
+				"<cite ref=\"Bereishit Rabbah 7\">Gen. R. s. 7</cite>, end <he>בְּרִיָּיתוֹ של עולם</he> the creation of the world. ",
+				"<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite> man looks <he>למקום ברייתו</he> to where he was created from (the earth), woman … <he>למקום בְּרִיָּיתָהּ</he> to where she was made from (the rib); a. fr.—",
+				"<cite ref=\"Mishnah Mikvaot 6:7\">Mikv. VI, 7</cite> <he>כל שהוא מבְּרִיַּית המיים</he> whatever originates in the water (aquatic plants or animals).—",
+				"<cite ref=\"Makkot 17a\">Macc. 17ᵃ</cite>, a. fr. <he>חיטה אחת כברייתה</he> one wheat grain in its natural condition, <he>נמלה כברייתה</he> an ant in its natural condition (though small). ",
+				"<cite ref=\"Makkot 17a:6\">Ib.</cite> <he>בריית נשמה</he> the natural condition of an animated being.—",
+				"<cite ref=\"Mishnah Niddah 3:7\">Nidd. III, 7</cite> <he>בריית הזכר</he> the formation of a male embryo. ",
+				"<cite ref=\"Bava Kamma 94b:4\">B. Kam. 94ᵇ</cite> <he>חוזר לברייתו</he> is changed into its original condition."
+			]
+		}
+	]
+}

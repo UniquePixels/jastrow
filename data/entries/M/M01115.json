@@ -1,0 +1,36 @@
+{
+	"id": "M01115",
+	"slug": "מיחוש",
+	"headword": {
+		"text": "מֵיחוּשׁ"
+	},
+	"page": {
+		"number": 772,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חוּשׁ</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>apprehension, doubt</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 5b:14\">Kidd. 5ᵇ</cite> <he>אין כאן בית מ׳</he> in this case there is no room for any doubt."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>indisposition, ailment</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 11a:4\">Sabb. 11ᵃ</cite> <he>כל מ׳ ולא מ׳ ראש</he> any ailment, only no headache. ",
+				"<cite ref=\"Temurah 16a:72\">Tem. 16ᵃ</cite>; Mekh. Yithro, Amal., s. 2.—Pl. <he>מֵיחוּשִׁין</he>, <he>מֵח׳</he>. ",
+				"<cite ref=\"Nedarim 41a:10\">Ned. 41ᵃ</cite> <he>מֵחוּשֵׁי הראש</he> (those suffering from) headache."
+			],
+			"label": "2"
+		}
+	]
+}

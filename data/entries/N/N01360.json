@@ -1,0 +1,87 @@
+{
+	"id": "N01360",
+	"slug": "נתז-1",
+	"headword": {
+		"text": "נָתַז"
+	},
+	"page": {
+		"number": 943,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": " (neut. verb) <i>to squirt, fly off</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 25a:7\">Kidd. 25ᵃ</cite> <he>הרי … מַזֶּה ונִתְּזָה הזאה וכ׳</he> (perh. <i>Nif.</i>) if a person (priest) was sprinkling for purification, and the sprinkling flew upon his (the unclean person’s) mouth. Y. Yoma III, 41ᵃ top, a. e. <he>מְנַתְּזִין</he>, v. <cite ref=\"N00751\"><he>נִיצוֹץ</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 2:1\">B. Kam. II, 1</cite> <he>היו … מנ׳ וכ׳</he> if stones flew off from under the animal’s feet; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (act. verb) <i>to cause to fly off</i>. Ib. 19ᵃ <he>במקום … אלא אם כן מְנַתֶּזֶת</he> where the animal cannot help making stones fly off. ",
+			"units": [
+				"<cite ref=\"Niddah 61a:33\">Nidd. 61ᵃ</cite> <he>ונִתְּזוּ בקרדומותיהן</he> they chopped with their axes."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>נִתֵּז</he> (sec. verb of <cite ref=\"N00426\"><he>נָזָה</he></cite>, v. ",
+					"units": ["<cite ref=\"Kiddushin 25a\">Kidd. 25ᵃ</cite>) "]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתִּיז"],
+			"senses": [
+				{
+					"gloss": "(b. h. <he>הֵתַז</he>) <i>to cause to fly off, to chop off; to squirt</i>. B. Kam. l. c. <he>בעטה והִתִּיזָה וכ׳</he> she kicked and made stones fly off and thus did damage. Ib. 17ᵇ. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 102a:13\">Snh. 102ᵃ</cite> <he>כשתי מקלות שמַתִּיזוֹת זו את זו</he> like two sticks which splinter one another. ",
+						"<cite ref=\"Shabbat 62b:19\">Sabb. 62ᵇ</cite> <he>ומַתִּיזוֹת עליהם</he> and caused the balsam to squirt at them; a. fr.—Esp. (with <he>ראש</he>) <i>to decapitate</i>. ",
+						"<cite ref=\"Mishnah Sanhedrin 7:3\">Snh. VII, 3</cite> <he>היו מַתִּיזִין את וכ׳</he> they decapitated him with a sword. Y. Ber. IX, 13ᵃ <he>חייבו להַתִּיז וכ׳</he> he sentenced him to decapitation; <cite ref=\"Shir HaShirim Rabbah 7:5\">Cant. R. to VII, 5</cite>; a. fr.—Trnsf. <i>to separate syllables</i> or <i>words distinctly, to articulate</i> (<i>sybillants</i>). Y. Ber. II, 4ᵈ <he>צריך להתיז למען תזכרו</he> (ed. Lehm. <he>צריך לה׳ זי״ן וכ׳</he>) you must articulate <i>tiz-k’ru</i> (emphasizing the <i>zayin</i>, <cite ref=\"Numbers 15:40\">Num. XV, 40</cite>). ",
+						"<cite ref=\"Numbers 15:40\">Ib.</cite> <he>צריך לה׳ כי לעולם חסדו</he> you must articulate <i>ḥas-do</i> (so as not to make it sound <i>ḥasto</i> or <i>ḥazdo</i>.—[<cite ref=\"Gittin 70a:20\">Gitt. 70ᵃ</cite> <he>מַתִּיזִין גופו וכ׳</he> <i>scatter</i> the strength &c.; En Yaăk. <he>מתישין</he>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּתָּז"],
+			"senses": [
+				{
+					"gloss": "<i>to be made to fly off, be cut off</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 27a\">Ḥull. 27ᵃ</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 9\">Gen. R. s. 9</cite>, end <he>יוּתַּז ראשו בסייף</he> his head shall be cut off with a sword."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִיתַּז"],
+			"senses": [
+				{
+					"gloss": "<i>to fly off; to splash</i>. Cant. R. l. c. <he>נִתְּזָה החרב … והתיזה</he> the sword flew off the neck of Moses and struck &c. ",
+					"units": [
+						"<cite ref=\"Niddah 13a:33\">Nidd. 13ᵃ</cite> <he>נִתְּזִין</he>, v. <cite ref=\"N00751\"><he>נִיצוֹץ</he></cite>. ",
+						"<cite ref=\"Tosefta Makkot 2:1\">Tosef. Macc. II, 1</cite> <he>נִיתְּזָה בקעת וכ׳</he> if a chip flew off &c., v. <cite ref=\"N01328\"><he>נָשַׁל</he></cite>.—",
+						"<cite ref=\"Mishnah Chullin 6:6\">Ḥull. VI, 6</cite> <he>דם הנִתָּז</he> the blood which splashes forth at slaughtering; <cite ref=\"Chullin 88a\">ib. 88ᵃ</cite> <he>הני׳</he>. ",
+						"<cite ref=\"Mishnah Zevachim 11:3\">Zeb. XI, 3</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

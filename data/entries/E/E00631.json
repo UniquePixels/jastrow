@@ -1,0 +1,24 @@
+{
+	"id": "E00631",
+	"slug": "המניכא",
+	"headword": {
+		"text": "הַמְנִיכָא"
+	},
+	"page": {
+		"number": 356,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01772\"><he>מני</he></cite>, with format. <cite ref=\"K00000\"><he>ך</he></cite>, cmp. <cite ref=\"B00451\"><he>בָּזִיךְ</he></cite>) [<i>emblem of appointment to office</i>,] <i>necklace</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 5:7\">Dan. V, 7</cite>, a. e. (Kethib: <cite ref=\"E00629\"><he>המנוכא</he></cite>, <he>המינכא</he>).—",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:9\">Targ. Prov. I, 9</cite> (some ed. <he>המניכה</he>).—Pl. <he>הַמְנִיכִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:9\">Targ. Esth. II, 9</cite>.—V. <cite ref=\"M01782\"><he>מְנִיכָא</he></cite>. [Greek transformation μανιάκης, fr. which <cite ref=\"M00539\"><he>מוּנְיָיק</he></cite>.]"
+			]
+		}
+	]
+}

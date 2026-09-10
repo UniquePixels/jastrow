@@ -1,0 +1,34 @@
+{
+	"id": "M00240",
+	"slug": "מדבר-1",
+	"headword": {
+		"text": "מְדַבֵּר"
+	},
+	"page": {
+		"number": 731,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00075\"><he>דָּבַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>speaker</i>.—Pl. <he>מְדַבְּרִים</he>. ",
+			"units": [
+				"<cite ref=\"Berakhot 63b:6\">Ber. 63ᵇ</cite>, a. e. <he>ראש המ׳ וכ׳</he> the first among the speakers on all occasions (attribute of R. Judah).–"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the anterior part of the tongue</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:8\">Bekh. VI, 8</cite>; <cite ref=\"Tosefta Bekhorot 4:11\">Tosef. ib. IV, 11</cite>; <cite ref=\"Kiddushin 25a\">Kidd. 25ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

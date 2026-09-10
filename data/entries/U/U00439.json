@@ -1,0 +1,26 @@
+{
+	"id": "U00439",
+	"slug": "שום-7",
+	"headword": {
+		"text": "שׁוּם",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1536,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>garlic</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 5:8\">Maasr. V, 8</cite>, v. <cite ref=\"B00780\"><he>בְּכִי</he> II</cite>; <cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. ib. III, 14</cite> <he>איזהו ש׳ בעל וכ׳</he> what species of garlic is named Baal (bek) garlic?, v. <cite ref=\"G00234\"><he>זוּר</he> II</cite>. ",
+				"<cite ref=\"Berakhot 51a:2\">Ber. 51ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Kilayim 1:3\">Kil. I, 3</cite> <he>הש׳ והשומנית</he> (garden) garlic and wild garlic; <cite ref=\"Tosefta Kilaim 1:2\">Tosef. ib. I, 2</cite>; a. fr.—Pl. <he>שׁוּמִים</he>, <he>שׁוּמִין</he>. ",
+				"<cite ref=\"Shabbat 118b:2\">Sabb. 118ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

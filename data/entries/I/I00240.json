@@ -1,0 +1,23 @@
+{
+	"id": "I00240",
+	"slug": "טורנוס-1",
+	"headword": {
+		"text": "טוֹרְנוֹס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 527,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τόρνος, tornus) <i>turner’s wheel, lathe</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>למורנס הזה</he> (read: <he>כט׳</he>, v. Friedm. a. l. note 29) like the lathe which shows a front wherever you turn it."
+			]
+		}
+	]
+}

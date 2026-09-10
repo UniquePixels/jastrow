@@ -1,0 +1,48 @@
+{
+	"id": "O00403",
+	"slug": "סופר",
+	"headword": {
+		"text": "סוֹפֵר"
+	},
+	"page": {
+		"number": 968,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"O01415\"><he>סָפַר</he></cite>)<i>scribe, writer of documents, copyist</i> of prayers &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 8:8\">Gitt. VIII, 8</cite> <he>כתב ס׳ גט וכ׳</he> if the scribe wrote the letter of divorce for the husband and a receipt for the wife &c. ",
+				"<cite ref=\"Ketubot 51a:14\">Keth. 51ᵃ</cite>, a. e. <he>טעות ס׳</he>, v. <cite ref=\"A01052\"><he>אַחֲרָיוּת</he></cite>. ",
+				"<cite ref=\"Bava Batra 21b:11\">B. Bath. 21ᵇ</cite> <he>ס׳ מתא</he> (Ms. M. <he>ספר</he>) town-scribe (libellarius); <cite ref=\"Bava Metzia 109b\">B. Mets. 109ᵇ</cite> top <he>ספר</he>; <cite ref=\"Bava Batra 21a:11\">B. Bath. 21ᵃ</cite> <he>ס׳ מתא</he> (some ed. <he>ספר</he>), v. Tosaf. a. l.; (Rashi: <i>principal of a town-school keeping assistants</i>, v. infra); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a scholarly man</i>, opp. <cite ref=\"B00329\"><he>בּוֹר</he></cite> illiterate. ",
+			"units": [
+				"<cite ref=\"Berakhot 45b:15\">Ber. 45ᵇ</cite> <he>אחד ס׳ וכ׳</he> if one is a scholar (knowing the prayers) and the other illiterate."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>school teacher, primary teacher</i>. B. Bath. l. c. <he>ס׳ יהודי</he> a Jewish teacher; <he>ס׳ ארמאי</he> a teacher of secular branches (oth. opin.: a gentile teacher). Ib. <he>ס׳ מתא</he>, v. supra. Tosef. Meg. IV (III), 38 <he>והס׳ מלמד כדרכו</he> but the Bible teacher teaches (these passages) in his usual way; a. fr.—Pl. <he>סוֹפְרִים</he>, <he>סוֹפְרִין</he>. ",
+			"units": [
+				"<cite ref=\"Gittin 24b:4\">Gitt. 24ᵇ</cite> <he>ס׳ העשויין וכ׳</he>, v. <cite ref=\"L00565\"><he>לָמַד</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 1:7:3\">Y. Ḥag. I, 76ᶜ</cite>, a. e. <he>ס׳ ומשנים</he>, v. <cite ref=\"M02946\"><he>מִשְׁנִים</he></cite>. Ber. l. c. <he>בששניהם ס׳</he> when both of them are scholarly men (knowing the prayers); a. fr.—",
+				"<cite ref=\"Mishnah Kiddushin 4:13\">Kidd. IV, 13</cite> <he>לא יְלַמֵּד ס׳</he> must not be a teacher of primary schools.—מסכת ס׳ <i>the Treatise Sof’rim</i>, one of the small treatises attached to the Talmud, containing rules for writing Torah copies; (in Septem Libri &c., ed. Kirchheim: <he>מסכת ספר תורה</he>).—Esp. <i>Sofer, pl. Sof’rim</i>, title of the scholars of the ante-Tannaic period, beginning with Ezra (v. ",
+				"<cite ref=\"Ezra 7:11\">Ezra VII, 11</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:5\">Y. Shek. V, beg. 48ᶜ</cite>. ",
+				"<cite ref=\"Kiddushin 30a:11\">Kidd. 30ᵃ</cite> <he>לפיכך … ס׳ שהיו סופרים וכ׳</he> the early scholars were called Sof’rim, because they counted all the letters in the Torah; a. fr.—דברי ס׳ <i>enactments or interpretations</i> dating from the Soferic period. ",
+				"<cite ref=\"Mishnah Yevamot 2:4\">Yeb. II, 4</cite> <he>מד׳ ס׳</he> belonging to the prohibitions ascribed to the Sof’rim. ",
+				"<cite ref=\"Mishnah Sanhedrin 11:3\">Snh. XI, 3</cite> <he>חומר בד׳ ס׳ וכ׳</he> disregard of Soferic enactments is more strictly dealt with &c., v. <cite ref=\"H00390\"><he>חוֹמֶר</he> I</cite>. ",
+				"<cite ref=\"Sanhedrin 88b:18\">Ib. 88ᵇ</cite> <he>דבר שעיקרו … מד׳ ס׳</he> a law which is founded on the Torah, but the interpretation of which dates from the Soferic period. ",
+				"<cite ref=\"Tosefta Kiddushin 5:21\">Tosef. Kidd. V, 21</cite>; a. fr.—<he>תקון ס׳</he>, v. <cite ref=\"V00488\"><he>תִּיקּוּן</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

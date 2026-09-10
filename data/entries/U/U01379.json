@@ -1,0 +1,37 @@
+{
+	"id": "U01379",
+	"slug": "שלציון",
+	"headword": {
+		"text": "שַׁלְצִיּוֹן"
+	},
+	"page": {
+		"number": 1588,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (abbrev. of <he>שלום ציון</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " pr. n. f. <i>Shaltsiyon, Salome Alexandra</i>, v. <cite ref=\"U01362\"><he>שְׁלַמְצָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (supposed to be) pr. n. pl. <i>Shaltsiyon</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 109b:4\">Yeb. 109ᵇ</cite>, v. <cite ref=\"U01371\"><he>שְׁלַף</he></cite>.—["
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " surname of Ḥama bar Ada, an habitual pilgrim to Palestine (cmp. ",
+			"units": [
+				"<cite ref=\"Psalms 122:6\">Ps. CXXII, 6</cite>). ",
+				"<cite ref=\"Beitzah 25b\">Bets. 25ᵇ</cite> Ar. (ed. <he>שליח ציון</he> a messenger to Zion)]."
+			],
+			"label": "3"
+		}
+	]
+}

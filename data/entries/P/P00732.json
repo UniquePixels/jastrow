@@ -1,0 +1,23 @@
+{
+	"id": "P00732",
+	"slug": "עכור",
+	"headword": {
+		"text": "עִכּוּר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1078,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00749\"><he>עָכַר</he></cite>) <i>stirring up, making turbid</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 71:3\">Gen. R. s. 71</cite> <he>אין … ע׳ להם אלא חפות להם</he> (some eds. <cite ref=\"P00024\"><he>עבוד</he></cite>) the names of the sons of Jacob are not meant to stir up (their shortcomings), but to cover them up; <cite ref=\"Yalkut Shimoni on Torah 126:3\">Yalk. ib. 126</cite>; [prob. to be read: <cite ref=\"K00595\"><he>כִּעוּר</he></cite>, v. <cite ref=\"K00595\"><he>כִּיעוּר</he></cite>]."
+			]
+		}
+	]
+}

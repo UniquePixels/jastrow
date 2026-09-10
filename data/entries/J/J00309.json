@@ -1,0 +1,40 @@
+{
+	"id": "J00309",
+	"slug": "יחף-5",
+	"headword": {
+		"text": "יַחַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַי׳"
+		}
+	],
+	"page": {
+		"number": 575,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00308\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>barefootedness</i>. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah 2:12\">Ruth R. to I, 7</cite>, v. <cite ref=\"J00305\"><he>יָחֵף</he> I</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 266:7\">Yalk. Jer. 266</cite>, v. <cite ref=\"J00276\"><he>יִחוּף</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>footsoreness</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 3:8\">Makhsh. III, 8</cite> <he>בשעת הי׳ והדיש</he> in the season of footsores (of animals) or of threshing (when moistening the animal’s foot is welcome to the owner); Var. lect. <he>האף</he>, v. <cite ref=\"A02596\"><he>אַף</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "C01375",
+	"slug": "גרס-3",
+	"headword": {
+		"text": "גְּרַס",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּרֵיס"
+		}
+	],
+	"page": {
+		"number": 270,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"C01392\"><he>גרר</he></cite>, <cite ref=\"C00498\"><he>גּוֹרֶן</he></cite>) <i>to scrape together; to collect, accumulate</i>. Denom. <cite ref=\"C00500\"><he>גּוּרְסִינָא</he></cite>. [<cite ref=\"Aramaic Targum to Proverbs 18:10\">Targ. Prov. XVIII, 10</cite>; <cite ref=\"Aramaic Targum to Proverbs 5:19\">V, 19</cite>, v. <cite ref=\"C01351\"><he>גְּרַם</he> II</cite>.]—Trnsf. <i>to acquire knowledge, to commit traditions to memory</i>, as a preliminary stage to speculation and analysis compared to grinding, v. <he>טחן</he>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 19a:10\">Ab. Zar. 19ᵃ</cite> <he>לעולם יגמר ואע״ג דמשכח ולִיגְרַס ואע״ג דלא ידע וכ׳</he> Ms. M. one must at all events acquire readiness (v. <cite ref=\"C01064\"><he>גְּמַר</he> II</cite>), though one may afterwards forget, and one must study by heart though one does not understand, for Holy Writ says (<cite ref=\"Psalms 119:20\">Ps. CXIX, 20</cite>) <i>gar’sah</i> &c.; it says <he>גָרְסָה</he> and not <cite ref=\"I00273\"><he>טָחֲנָה</he></cite> (my soul <i>heaps up</i>, but not it <i>grinds</i>, learns but not analyzes); (ed. <he>לִיגְרִיס</he>, and other Variants); <cite ref=\"Yalkut Shimoni on Nach 876:11\">Yalk. Ps. 876</cite>.—",
+				"<cite ref=\"Berakhot 8a:19\">Ber. 8ᵃ</cite> <he>הוה גְרִיסְנָא בגו ביתאי</he> Ms. M. (v. Rabb. D. S. a. l.) I used to study in my house; <cite ref=\"Megillah 29a:8\">Meg. 29ᵃ</cite>. Ber. l. c. bot. turned his face <he>וגריס</he> and reviewed (what he had learned). ",
+				"<cite ref=\"Taanit 10b:9\">Taan. 10ᵇ</cite> <he>למִיגְרַס</he> to recite traditions, opp. <he>לעיוני</he> to speculate. ",
+				"<cite ref=\"Berakhot 13b\">Ber. 13ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 11:18\">Deut. XI, 18</cite>, v. Targ. Y. a. l.) teach your children …, <he>כי היכי דלִיגְרְסוּ בהו</he> (Ms. M. <he>ונִגְרְסוּ בהו</he>) so that they be able to review them (by themselves); a. fr.—<i>Part. act</i>. <cite ref=\"C01336\"><he>גָּרֵיס</he></cite> <i>well-versed, knowing by heart</i>. ",
+				"<cite ref=\"Bava Batra 21a:12\">B. Bath. 21ᵃ</cite> <he>ג׳ ולא דייק</he> knowing Bible verses by heart, but being inexact.—<i>Part. pass.</i> <cite ref=\"C01335\"><he>גְּרִיס</he></cite>, f. <cite ref=\"C01337\"><he>גְּרִיסָא</he></cite> <i>known by heart</i>. ",
+				"<cite ref=\"Menachot 32b:5\">Men. 32ᵇ</cite> <he>מיגרס גְּרִיסִין</he>; <cite ref=\"Megillah 18b:17\">Meg. 18ᵇ</cite> <he>מיגרס גְּרִיסָן</he> they are known by heart."
+			]
+		}
+	]
+}

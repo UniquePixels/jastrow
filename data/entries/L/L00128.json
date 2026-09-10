@@ -1,0 +1,37 @@
+{
+	"id": "L00128",
+	"slug": "לגיון-2",
+	"headword": {
+		"text": "לִגְיוֹן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "לִגְיוֹנָא"
+		},
+		{
+			"text": "לִי׳"
+		}
+	],
+	"page": {
+		"number": 692,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"L00127\">same</cite>.—Pl. <he>לִגְיוֹנִין</he>, <cite ref=\"L00031\"><he>לִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 13:1\">Targ. Y. Num. XIII, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 24:24\">Ib. XXIV, 24</cite>; <cite ref=\"Targum Jonathan on Ezekiel 30:9\">Targ. Ez. XXX, 9</cite> (h. text <he>צִים</he>). [<cite ref=\"Aramaic Targum to Job 15:24\">Targ. Job XV, 24</cite> <he>מעתד לאסתחרא בל׳</he> quot. in Naḥmanides a. l. ready to go around among the legions; ed. <he>איטומוס לגלוגדק</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (popular corrupt. = legatus) <i>legate, delegate</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 30:6\">Lev. R. s. 30</cite> <he>עבר עלוי חד ל׳ למגבי וכ׳</he> (Ar. <he>ל׳ דמלכא</he>; Tanḥ. Emor 18 <he>שליח של מלך</he>) a royal legate passed by, sent to collect taxes; Pesik. Ul’kaḥ., p. 182ᵃ"
+			],
+			"label": "2"
+		}
+	]
+}

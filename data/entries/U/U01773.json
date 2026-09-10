@@ -1,0 +1,45 @@
+{
+	"id": "U01773",
+	"slug": "שפל-3",
+	"headword": {
+		"text": "שָׁפָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁפָלָה"
+		}
+	],
+	"page": {
+		"number": 1617,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01772\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>low, humble</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4<sup>20</sup></cite> <he>ואל … ש׳ בעיני וכ׳</he> say not that I was low in the eyes of others, and was not despised in my own eyes. ",
+				"<cite ref=\"Taanit 16a\">Taan. 16ᵃ</cite>; <cite ref=\"Sanhedrin 88b\">Snh. 88ᵇ</cite>, a. e. <he>שְׁפַל ברך</he> low of knee, <i>polite</i>. Y. ib. I, 19ᶜ <he>נפש ש׳</he> a humble soul, humility; <cite ref=\"Pirkei Avot 5:19\">Ab. V, 19</cite> <he>נפש ש׳</he> contented, opp. <he>רחבה</he>. ",
+				"<cite ref=\"Pirkei Avot 4:10\">Ib. IV, 10</cite> <he>הוי שְׁ׳ רוח בפני וכ׳</he> be humble before every man. ",
+				"<cite ref=\"Sanhedrin 43b:2\">Snh. 43ᵇ</cite> <he>מי שדעתו ש׳ מעלה וכ׳</he> to him whose mind is lowly the Lord accounts it as if he had offered all kinds of sacrifices. ",
+				"<cite ref=\"Sotah 5a:2\">Sot. 5ᵃ</cite> <he>ואין … את הש׳</he>, v. <cite ref=\"C00053\"><he>גָּבוֹהַּ</he></cite>. ",
+				"<cite ref=\"Sotah 5a:13\">Ib.</cite> <he>אבל … ורואה את הש׳</he> but not so the Lord, he is high and looks at the low; a. fr.—Pl. <cite ref=\"U01706\"><he>שְׁפָלִים</he></cite>, <cite ref=\"U01706\"><he>שְׁפָלִין</he></cite>; <cite ref=\"U01778\"><he>שְׁפָלוֹת</he></cite>. Ib. 47ᵇ, v. <cite ref=\"C00049\"><he>גָּבַהּ</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"U01775\"><he>שָׁפֵל</he></cite>, <i>Hithpa.</i>) [<i>letting the hands sink,</i>] <i>indolent, negligent</i>, opp. <cite ref=\"G00703\"><he>זָרִיז</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Yevamot 4:8\">Tosef. Yeb. IV, 8</cite>; <cite ref=\"Pesachim 50b:4\">Pes. 50ᵇ</cite> <he>יש ש׳ וכ׳</he> sometimes one is lazy and profits, and sometimes one is lazy and loses.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Pesachim 89a:19\">Ib. 89ᵃ</cite>; <cite ref=\"Nedarim 36a:12\">Ned. 36ᵃ</cite>; <cite ref=\"Gittin 25a:11\">Gitt. 25ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

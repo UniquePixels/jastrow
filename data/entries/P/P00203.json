@@ -1,0 +1,22 @@
+{
+	"id": "P00203",
+	"slug": "עודף",
+	"headword": {
+		"text": "עוֹדֶף"
+	},
+	"page": {
+		"number": 1048,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00158\"><he>עָדַף</he></cite>) <i>surplus</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 5:2:6\">Y. Dem. V, 24ᶜ</cite> <he>מעשר שני שבע׳</he> that portion of the surplus (over the exact tithe) which lawfully belongs to the second tithe. [<cite ref=\"Sifrei Bamidbar 126:1\">Sifré Num. 126</cite> <he>פתיל זה הע׳</he>, read <cite ref=\"P00360\"><he>עוֹרֶף</he></cite>, v. <cite ref=\"Q02165\"><he>פָּתִיל</he></cite>.]"
+			]
+		}
+	]
+}

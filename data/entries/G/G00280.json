@@ -1,0 +1,43 @@
+{
+	"id": "G00280",
+	"slug": "זידונא",
+	"headword": {
+		"text": "זֵידוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זֵידָנָא"
+		}
+	],
+	"page": {
+		"number": 391,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00279\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wilful, violent; tyrant</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:24\">Targ. Prov. XXI, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:3\">Targ. Job XXXI, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 16:22\">Targ. Y. Deut. XVI, 22</cite>.—Pl. <he>זֵידוֹנִין</he>, <he>זֵידָנִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 86:14\">Targ. Ps. LXXXVI, 14</cite> (ed. Lag. <he>זֵדוֹנִין</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>seething, boiling over;</i> trnsf. <i>passion</i>.—Pl. <he>זֵידוֹנַיָּא</he>, <he>זֵידָנִין</he>, <he>זֵידָנַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 124:5\">Targ. Ps. CXXIV, 5</cite> (Ms. <he>זידנין</he>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 19:14\">Ib. XIX, 14</cite> <cite ref=\"G00280\"><he>זֵידוֹנַ׳</he></cite> ed. Lag. (ed. Wil. <he>זֵידָ׳</he>), v. <cite ref=\"G00072\"><he>זָדוֹן</he></cite> ch."
+			],
+			"label": "2"
+		}
+	]
+}

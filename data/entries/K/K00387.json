@@ -1,0 +1,24 @@
+{
+	"id": "K00387",
+	"slug": "כורמיזא",
+	"headword": {
+		"text": "כּוּרְמֵיזָא"
+	},
+	"page": {
+		"number": 625,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כמז</he> with inserted <cite ref=\"T00000\"><he>ר</he></cite>; cmp. h. <cite ref=\"S01485\"><he>קֹמֶץ</he></cite>) <i>fist</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:18\">Targ. O. Ex. XXI, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 58:4\">Targ. Is. LVIII, 4</cite>.—",
+				"<cite ref=\"Midrash Mishlei 22:3\">Midr. Prov. to XXII, 6</cite> (prov.) <he>לחכימא ברמיזא ולשטיא בכ׳</he> to the wise man a hint, to the fool a fist."
+			]
+		}
+	]
+}

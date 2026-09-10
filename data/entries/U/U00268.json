@@ -1,0 +1,23 @@
+{
+	"id": "U00268",
+	"slug": "שדיא-1",
+	"headword": {
+		"text": "שַׁדְיָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1524,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שְׁרֵי</he> 2) <i>yarn</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:19\">Targ. Ez. XXVII, 19</cite> Ar. (ed. <cite ref=\"U01078\"><he>שיריין</he></cite>, <cite ref=\"U01080\"><he>שירין</he></cite>)."
+			]
+		}
+	]
+}

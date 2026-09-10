@@ -1,0 +1,31 @@
+{
+	"id": "N00769",
+	"slug": "ניקוף-2",
+	"headword": {
+		"text": "נִיקּוּף",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נִקּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 908,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נָקַף</he> II) <i>crown, rim</i>.—<he>זיתי נ׳</he> (cmp. <cite ref=\"Q00006\"><he>פֵּאָה</he></cite>; v. ",
+			"units": [
+				"<cite ref=\"Isaiah 17:6\">Is. XVII, 6</cite>) <i>the olives left on the tree for the poor, the poor man’s share, gleaning</i>, opp. to <he>זיתי מָסִיק</he>. ",
+				"<cite ref=\"Mishnah Challah 3:9\">Ḥall. III, 9</cite>. ",
+				"<cite ref=\"Mishnah Peah 8:3\">Peah VIII, 3</cite>. Yib. 20ᵈ bot. <he>מקום שנהגו … ז׳ נ׳ וכ׳</he> where the custom prevails to take down the gleanings (instead of leaving them on the trees), the poor man may say, this oil is from gleanings; a. e.—[Comment. <he>זיתי נ׳</he> olives which are <i>knocked down</i>, v. preced.]"
+			]
+		}
+	]
+}

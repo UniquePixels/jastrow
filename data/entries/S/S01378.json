@@ -1,0 +1,56 @@
+{
+	"id": "S01378",
+	"slug": "קלס-2",
+	"headword": {
+		"text": "קָלַס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1379,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to praise</i>; [b. h. <i>to decry, deride</i>]. ",
+			"units": [
+				"<cite ref=\"Bava Batra 176a:14\">B. Bath. 176ᵃ</cite> <he>אע״פ שק׳ ר״י וכ׳</he> although R. Yishm. praised Ben N. (commended his argument) the practice follows his (R. Yishmael’s) opinion; Y. ib. X, end, 17ᵈ <he>על מדרשו קִילְּסוֹ</he> he commended him for his mode of argumentation. ",
+				"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite> <he>ניקח … ונְקַלֵּס להקב״ה</he> let us take up the Lulab and Ethrog and offer praise to the Lord. ",
+				"<cite ref=\"Midrash Tehillim 114\">Midr. Till. to Ps. CXIV</cite> (expl. <he>סֹלּוּ</he>, <cite ref=\"Psalms 68:5\">Ps. LXVIII, 5</cite>) <he>קַלְּסוּ</he> (not <he>קילסו</he>) praise him. ",
+				"<cite ref=\"Psalms 68:5\">Ib.</cite> ",
+				"<cite ref=\"Psalms 104\">Ps. CIV</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tramp</i> or <i>clap</i> (in wailing ceremonies or on joyous occasions), v. <cite ref=\"S00967\"><he>קִילּוּס</he> II</cite>, 2; <cite ref=\"Moed Katan 27b:8\">M. Kat. 27ᵇ</cite> <he>המְקַלֵּס לא יְקַלֵּס וכ׳</he> the tramper (at mourning ceremonies) must not tramp with a sandal on his foot, but with a shoe, to avoid accident.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S01377\"><he>קִלֵּס</he></cite>, <cite ref=\"S00089\"><he>קִי׳</he></cite> (denom. of <cite ref=\"S00313\"><he>קוֹל</he></cite>, <i>Pales</i>) [<i>to shout, make noise</i>,] ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְקַלֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to be praised; to be done honor to by song, clapping</i> &c. Y. Ḥag. I, 76ᶜ <he>כשהיה רואה … מִתְקַלְּסִין</he> (not <he>סון …</he>) whenever he saw a deceased person or a bride honored.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

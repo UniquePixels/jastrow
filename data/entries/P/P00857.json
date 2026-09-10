@@ -1,0 +1,32 @@
+{
+	"id": "P00857",
+	"slug": "עמד-1",
+	"headword": {
+		"text": "עֲמַד",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1086,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00856\">same</cite>, <i>to stay, dwell</i>, v. <cite ref=\"P00929\"><he>עֲמַר</he> II</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַמֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to place</i>; part. pass. <cite ref=\"M02143\"><he>מְעַמַּד</he></cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 28:13\">Targ. Y. Gen. XXVIII, 13</cite>, v. <cite ref=\"P01546\"><he>עֲתַר</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

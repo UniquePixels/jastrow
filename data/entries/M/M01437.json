@@ -1,0 +1,26 @@
+{
+	"id": "M01437",
+	"slug": "מכר-4",
+	"headword": {
+		"text": "מַכָּר"
+	},
+	"page": {
+		"number": 784,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00845\"><he>נָכַר</he></cite>)<i>acquaintance, friend</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 3:7:2\">Y. Gitt. III, 45ᵃ</cite> <he>ויש מ׳ לעני</he> has the poor man a friend?, i.e., is he who separates the poor man’s tithes permitted to reserve them for a certain person?—Pl. <he>מַכָּרִים</he>, constr. <he>מַכָּרֵי</he>. ",
+				"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>במ׳ כהונה וכ׳</he> the Mishnah speaks of friends of priests or Levites (to whom the owner is in the habit of giving the priestly shares); Bab. ",
+				"<cite ref=\"Gittin 30a\">Gitt. 30ᵃ</cite>. ",
+				"<cite ref=\"Gittin 30a:10\">Ib.</cite> <he>במ׳ לא קתני</he> (sub. <cite ref=\"K00152\"><he>כהונה</he></cite>) the Mishnah does not distinctly speak of friends. ",
+				"<cite ref=\"Chullin 133a:15\">Ḥull. 133ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

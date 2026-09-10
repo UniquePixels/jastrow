@@ -1,0 +1,29 @@
+{
+	"id": "O01028",
+	"slug": "סלקא-1",
+	"headword": {
+		"text": "סִלְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 997,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O01029\">next w.</cite>) <i>beet</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 35b\">Ber. 35ᵇ</cite> bot., v. <cite ref=\"A02224\"><he>אֶנִּיגָרוֹן</he></cite>. ",
+				"<cite ref=\"Eruvin 28b:22\">Erub. 28ᵇ</cite>, sq. <he>ס׳ חייא … חייא</he> raw (not sufficiently boiled) beets kill a healthy man; a. fr."
+			]
+		}
+	]
+}

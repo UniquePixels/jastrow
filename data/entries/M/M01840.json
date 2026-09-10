@@ -1,0 +1,46 @@
+{
+	"id": "M01840",
+	"slug": "מסבה",
+	"headword": {
+		"text": "מְסִבָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסִיבָּה"
+		}
+	],
+	"page": {
+		"number": 803,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01839\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>banqueting party</i>. ",
+			"units": ["<cite ref=\"Shabbat 149b\">Sabb. 149ᵇ</cite> bot."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>banquet, dinner</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 52b\">Ber. 52ᵇ</cite> <he>סתם מְסִבַּת כותים לע״ז</he> (Ms. M. <he>הסבת גוים</he>) the banqueting of gentiles is presumed to be dedicated to idolatry. ",
+				"<cite ref=\"Bava Batra 120a:4\">B. Bath. 120ᵃ</cite> <he>במ׳ הלך אחר זקנה</he> in sitting down for a festive meal age takes the precedence."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (b. h.) <i>winding staircase</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 1:1\">Tam. I, 1</cite> <he>מ׳ ההולכת וכ׳</he> the staircase leading (to a well) under the Temple. ",
+				"<cite ref=\"Mishnah Middot 4:5\">Midd. IV, 5</cite>; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

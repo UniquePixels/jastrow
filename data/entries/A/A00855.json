@@ -1,0 +1,23 @@
+{
+	"id": "A00855",
+	"slug": "אורדך",
+	"headword": {
+		"text": "אוּרְדָּךְ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 33,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>אוּדָּךְ</he>, <cite ref=\"D00242\"><he>דוך</he></cite>) <i>crushing tool, pestle</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:22\">Targ. Prov. XXVII, 22</cite> some ed. (oth. <cite ref=\"A00572\"><he>אוּדְרָךְ</he></cite> q. v.). [The entire verse is corrupted, combining the traditional vers. with one from which LXX is translated.]"
+			]
+		}
+	]
+}

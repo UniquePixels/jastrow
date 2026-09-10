@@ -1,0 +1,35 @@
+{
+	"id": "P01041",
+	"slug": "עסי-2",
+	"headword": {
+		"text": "עֲסֵי"
+	},
+	"page": {
+		"number": 1097,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עַסֵּי</he> <i>to press, tread</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 1:10\">Targ. Esth. I, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 30:17\">Targ. Job XXX, 17</cite> <he>דמְעַסָּן</he> (not <he>דמְעֲסָן</he>).—Esp. <i>to press the teeth together, gnash the teeth</i>. ",
+						"<cite ref=\"Aramaic Targum to Job 16:9\">Ib. XVI, 9</cite> (v. <cite ref=\"P00910\"><he>עֲמַס</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Lamentations 2:16\">Targ. Lam. II, 16</cite> (ed. Vien. <he>עֲסִיאוּ</he> <i>Pe.</i>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 112:10\">Targ. Ps. CXII, 10</cite>; a. e.—[<cite ref=\"Targum Jonathan on Isaiah 59:11\">Targ. Is. LIX, 11</cite> <he>עַסֵּינָא</he>, v. <cite ref=\"P01049\"><he>עֲסַס</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

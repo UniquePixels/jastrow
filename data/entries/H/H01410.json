@@ -1,0 +1,62 @@
+{
+	"id": "H01410",
+	"slug": "חסר-1",
+	"headword": {
+		"text": "חָסַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָסֵר",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 489,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01395\"><he>חָסַל</he></cite>) [<i>to scrape off</i>,] <i>to diminish, take off; to be diminished, less; to want, miss; to be imperfect</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 68a:5\">Snh. 68ᵃ</cite> <he>ולא חָסַרְתִּי מרבותי וכ׳</he> yet I skimmed of the knowledge of my teachers no more than a dog takes who licks out of the sea. ",
+				"<cite ref=\"Sanhedrin 68a:5\">Ib.</cite> <he>ולא חֲסָרוּנִי וכ׳</he> they skimmed of my knowledge &c.; <cite ref=\"Shir HaShirim Rabbah 1:3:1\">Cant. R. to I, 3</cite> <he>לא חֲסַרְתִּיהָ וכ׳</he> what wisdom I skimmed of the Law, was no more than &c., v. <cite ref=\"G00471\"><he>זַכְרוּת</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:3:1\">Ib.</cite> <he>רבותי חֲסָרוּהָ וכ׳</he> my teachers carried off at least a real smattering of it &c. ",
+				"<cite ref=\"Bava Kamma 20a:19\">B. Kam. 20ᵃ</cite> bot. <he>מאי חֲסַרְתִּיךָ</he> what loss have I occasioned to thee?—",
+				"<cite ref=\"Bava Kamma 20b:3\">Ib.ᵇ</cite>, a. fr. <he>זה נהנה … חָסֵר</he> the one profits while the other loses nothing (therefore can claim no damages). ",
+				"<cite ref=\"Vayikra Rabbah 1:6\">Lev. R. s. 1</cite> <he>מה חָסַרְתָּ</he>, v. <cite ref=\"D00943\"><he>דֵּעָה</he></cite>. ",
+				"<cite ref=\"Menachot 30a:7\">Men. 30ᵃ</cite>, a. e. is it possible <he>ס״ת ח׳ אות וכ׳</he> that the Book of the Law wanted one letter yet (to be written) &c.?—",
+				"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> (ref. to <he>מתה עלי</he>, <cite ref=\"Genesis 48:7\">Gen. XLVIII, 7</cite>) <he>שחֲסרְתִּיהָ</he> for I miss her; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיסֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to lessen, omit; to deprive</i>. ",
+					"units": [
+						"<cite ref=\"Keritot 6a:49\">Ker. 6ᵃ</cite> <he>חי׳ אחת וכ׳</he> if he left out one of its ingredients. ",
+						"<cite ref=\"Eruvin 13a:9\">Erub. 13ᵃ</cite> <he>שמא אתה מְחַסֵּר וכ׳</he> for if thou omit one letter. ",
+						"<cite ref=\"Kohelet Rabbah 1:15\">Koh. R. to I, 15</cite> (ref. to <cite ref=\"H01415\"><he>חסרון</he></cite>, <cite ref=\"Kohelet Rabbah 1:15\">ib.</cite>) <he>משאדם מְחַ׳ עצמו וכ׳</he> as soon as a man deprives himself of the words of the Law (neglecting them); <cite ref=\"Kohelet Rabbah 1:15:2\">ib.</cite> <he>מַחֲסִיר</he> (<i>Hif.</i>). Y. Snh. XI, beg. 30ᵃ <he>אפי׳ לא חי׳</he> even if on inflicting an injury (v. <cite ref=\"H00034\"><he>חַבּוּרָה</he></cite>) he did not create a diminution (open wound); a. fr.—<i>Part. pass.</i> <he>מְחוּסָּר</he>, constr. <he>מְחוּסַּר</he> <i>wanting, requiring</i>. ",
+						"<cite ref=\"Rosh Hashanah 6a\">R. Hash. 6ᵃ</cite> <he>מח׳ זמן</he> wanting time, i.e. too young for sacrifice. ",
+						"<cite ref=\"Mishnah Keritot 2:1\">Ker. II, 1</cite> <he>מח׳ כפרה</he> requires a ceremony of atonement (before he may partake of a sacred meal). ",
+						"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite>, a. e. <he>מח׳ אמנה</he>, v. <cite ref=\"A02042\"><he>אֲמָנָה</he> I</cite>. ",
+						"<cite ref=\"Chullin 25a:13\">Ḥull. 25ᵃ</cite>, v. <cite ref=\"H00627\"><he>חֲטִיטָה</he></cite>.—Y. B. Mets. V, 10ᶜ bot. <he>מח׳ מעשה אחד</he> wanting one action to be available; a. fr.—Pl. constr. <he>מְחוּסְּרֵי</he>. Ker. l. c. <he>ארבעה מ׳ וכ׳</he> there are four persons requiring a ceremony of atonement before being permitted &c., v. supra; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶחְסִיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01409\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

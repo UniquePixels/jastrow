@@ -1,0 +1,98 @@
+{
+	"id": "H01124",
+	"slug": "חלש-2",
+	"headword": {
+		"text": "חֲלַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָלִישׁ"
+		}
+	],
+	"page": {
+		"number": 474,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01123\">same</cite><i>to be weak, get sick</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 2:9\">Targ. Is. II, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 5:17\">Targ. Lam. V, 17</cite>; a. e.—",
+				"<cite ref=\"Pesachim 50a:6\">Pes. 50ᵃ</cite>; <cite ref=\"Bava Batra 10b:5\">B. Bath. 10ᵇ</cite>, v. <cite ref=\"N00118\"><he>נְגַד</he></cite>.—",
+				"<cite ref=\"Rosh Hashanah 17a:15\">R. Hash. 17ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Yoma 18a:11\">Yoma 18ᵃ</cite> <he>חַלְשָׁא דעתיה</he> he might feel discouraged."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pass away</i>. R. Hash. l. c. <he>חזייה דחליש ליה עלמא</he> (<cite ref=\"Yalkut Shimoni on Nach 559:3\">Yalk. Mic. 559</cite> … <he>חזא דחלש</he>) he saw that his world (life) was passing away (he was sinking rapidly).",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be smooth and fine</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 48a\">Ḥull. 48ᵃ</cite> <he>סכינא דחָ׳ פומיה</he> a knife whose edge is very fine."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to untie, undress</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite> <he>דין אמר חֲלוֹשׁ</he> Ar. ed. Koh. (ed., a. Yalk. ib. 38 <cite ref=\"H01002\"><he>חֲלוֹץ</he></cite>) the one (Abel) said, Take thy clothes off. ",
+				"<cite ref=\"Bereishit Rabbah 75:11\">Gen. R. s. 75</cite> <he>ח׳ פורפירא</he> Ar. (ed. <he>שלח</he>) he took off the purple cloak."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַלֵּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to weaken, reduce</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 12:21\">Targ. Job XII, 21</cite> Ms. (ed. <he>מַחֲלִישׁ</he>, <he>מַחֲלֵשׁ</he> <i>Af.</i>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to smoothen, polish</i>, <i>forge</i> (armour). ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 16a:3\">Ab. Zar. 16ᵃ</cite> <he>משׁום דחַלְּשֵׁי וכ׳</he> (Ms. M. <he>דחשלי</he>; v. infra) because they forge of them their polished armour."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחֲלִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to weaken</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cut with a sharp and smooth edge</i>, opp. to <cite ref=\"B00459\"><he>בזע</he></cite> to tear with a notched knife. ",
+					"units": [
+						"<cite ref=\"Chullin 17b\">Ḥull. 17ᵇ</cite> (Rashi quoting Ab. Zar. l. c. <he>דחשלי</he>, a. ",
+						"<cite ref=\"Ketubot 77a:13\">Keth. 77ᵃ</cite> <he>חשלי דודי</he> appears to have read <he>מחשיל</he>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to strip</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Leviticus 1:6\">Targ. Y. II, Lev. I, 6</cite> (O. a. Y. I <he>שלח</he>). ",
+						"<cite ref=\"Targum Jerusalem, Numbers 20:26\">Targ. Y. II, Num. XX, 26</cite> <he>ותחלישׁ</he> (some ed. <he>ותשליח</he>)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

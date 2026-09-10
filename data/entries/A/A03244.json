@@ -1,0 +1,23 @@
+{
+	"id": "A03244",
+	"slug": "ארקתא-1",
+	"headword": {
+		"text": "אַרְקְתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 126,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רקק</he>) <i>beaten, wrought metal</i>, opp. <cite ref=\"A02237\"><he>אַנִיסְכָּא</he></cite> q. v. ",
+			"units": [
+				"<cite ref=\"Shabbat 59b\">Sabb. 59ᵇ</cite> Ar. (ed. <cite ref=\"A03044\"><he>אֲרוּקְתָּא</he></cite>, Var. <cite ref=\"T00437\"><he>רוּקְתָּא</he></cite>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

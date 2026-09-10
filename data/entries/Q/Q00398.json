@@ -1,0 +1,47 @@
+{
+	"id": "Q00398",
+	"slug": "פוש-2",
+	"headword": {
+		"text": "פּוּשׁ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּשֵׁי"
+		}
+	],
+	"page": {
+		"number": 1149,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"Q00397\">preced.</cite>; b. h. <cite ref=\"Q00397\"><he>פּוּשׁ</he></cite>) [<i>to be blown up</i>,] <i>to expand, grow larger, increase; to remain over</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 26:22\">Targ. O. Gen. XXVI, 22</cite> (ed. Berl. <he>ויַפְשִׁינָנָא</he>, v. infra).—Part. <he>פָּשׁ</he>, <cite ref=\"Q01835\"><he>פָּיֵישׁ</he></cite>, <he>פָּיֵשׁ</he>; pl. <he>פָּשָׁן</he>, <he>פַּיְישִׁין</he>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 6:11\">Targ. Cant. VI, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:16\">Ib. I, 16</cite>.—",
+				"<cite ref=\"Ketubot 106a:4\">Keth. 106ᵃ</cite> <he>הוו פַיְישֵׁי וכ׳</he> there remained with him &c. ",
+				"<cite ref=\"Taanit 20b:12\">Taan. 20ᵇ</cite> <he>דהוה פָיֵישׁ וכ׳</he>, v. <cite ref=\"C00749\"><he>גִּינָּאָה</he></cite>. ",
+				"<cite ref=\"Shabbat 89b:5\">Sabb. 89ᵇ</cite> <he>פָּשׁוּ להו חמשין</he> there remain fifty; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>אף אינין לא פָשַׁת להון טב</he> with them, too, it did not prosper well, i.e. they did not end well (<cite ref=\"Jerusalem Talmud Taanit 4:5:14\">Y. Taan. IV, 69ᵃ</cite> <he>לא נפקין טבאות</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָפֵישׁ", "אַפְשֵׁי"],
+			"senses": [
+				{
+					"gloss": "<i>to enlarge, increase</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 105:24\">Targ. Ps. CV, 24</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 36:24\">Targ. Job XXXVI, 24</cite> <he>תָּפֵישׁ</he> (not <he>תְּפִישׁ</he>). Targ. Y. (a. O. ed. Berl.) Gen. l. c. <he>יַפְשִׁינָנָא</he> he will increase us (h. text <he>ופרינו</he>); a. e.—",
+						"<cite ref=\"Shabbat 32a:2\">Sabb. 32ᵃ</cite> <he>תָּפֵישׁ תירוס וכ׳</he> (Ar. <he>תֵּיפיּשׁ</he> <i>Pe.</i>), v. <cite ref=\"M00856\"><he>מַחְטְרָא</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 31\">Yalk. Gen. 31</cite>; a. e.—V. <cite ref=\"N01049\"><he>נְפֵישׁ</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

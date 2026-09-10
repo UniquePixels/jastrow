@@ -1,0 +1,40 @@
+{
+	"id": "P01478",
+	"slug": "עשין-2",
+	"headword": {
+		"text": "עַשִּׁין"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָשִׁין"
+		},
+		{
+			"text": "עַשִּׁינָא"
+		},
+		{
+			"text": "עֲשִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1125,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01491\"><he>עֲשַׁן</he></cite>) <i>strong</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 24:8\">Targ. Ps. XXIV, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:5\">Targ. Prov. XXIV, 5</cite> (some ed. <cite ref=\"P01469\"><he>עִשּׁוּנָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 75:9\">Targ. Ps. LXXV, 9</cite> (ed. Wil. <cite ref=\"P01478\"><he>עֲשִׁין</he></cite>); a. fr.—Pl. <he>עַשִּׁינִין</he>, <he>עַשִּׁינַיָּא</he>, <cite ref=\"P00893\"><he>עֲ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 18:18\">Ib. XVIII, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 30:8\">Ib. XXX, 8</cite> (ed. Wil. <cite ref=\"P00063\"><he>עָ׳</he></cite>; ed. Lag. <cite ref=\"P00366\"><he>עושינא</he></cite>, read: <cite ref=\"P00701\"><he>עִישּׁוּנָא</he></cite>); a. e.—<i>Fem.</i> <cite ref=\"P01493\"><he>עשִּׁינְתָּא</he></cite>, <cite ref=\"P00701\"><he>עֲשִׁ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 18:19\">Targ. Prov. XVIII, 19</cite> (ed. Wil. <cite ref=\"P01493\"><he>עַשִּׁנְתָּא</he></cite>); a. e.—Pl. <he>עַשִּׁינָתָא</he>, <cite ref=\"P00701\"><he>עֲשִׁ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 9:3\">Ib. IX, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 18:23\">Ib. XVIII, 23</cite> hard words (h. text <cite ref=\"P00214\"><he>עַוּוּת</he></cite>)."
+			]
+		}
+	]
+}

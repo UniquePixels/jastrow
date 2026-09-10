@@ -1,0 +1,38 @@
+{
+	"id": "V01023",
+	"slug": "תרנגולא",
+	"headword": {
+		"text": "תַּרְנְגוֹלָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1700,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Tarn’gola</i> (<i>Watchtower</i>); ",
+			"units": []
+		},
+		{
+			"gloss": " כְּרַךְ ת׳ <i>Fort Tarn’gola</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 2:8\">Targ. Y. Deut. II, 8</cite> (h. text <he>עציון גבר</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ת׳ דקיסריון <i>T.</i> <i>near Cæsaræa</i> (Philippi). Targ. Y. I. ",
+			"units": [
+				"<cite ref=\"Numbers 34:15\">Num. XXXIV, 15</cite> <he>תורנגלא דק׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 34:8\">Targ. Y. I ib. 8</cite>.—",
+				"<cite ref=\"Tosefta Shevi'it 4:10\">Tosef. Shebi. IV, 10</cite> <he>תורנגלא עילאה דלעילא מן קסרין</he> (Var. <he>ת׳ עילייא דק׳</he>) Upper T. above (near) Cæsaræa; Y. ib. VI, 36ᶜ <he>ת׳ עילאה דלמעלה מן ק׳</he>; <cite ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</cite> <he>תרנוגלא עילאה קיסרי</he>; <cite ref=\"Yalkut Shimoni on Torah 874:3\">Yalk. ib. 874</cite> <he>תרנגלא … דקישרי</he> (corr. acc.).—",
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:15\">Y. Dem. II, 22ᵈ</cite> top (h. form) <he>תרנגול קיסריון</he> (not <he>קיסריין</he>).—V. Hildesh. Beitr., p. 42 sq."
+			],
+			"label": "2"
+		}
+	]
+}

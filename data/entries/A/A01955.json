@@ -1,0 +1,20 @@
+{
+	"id": "A01955",
+	"slug": "אלריא-2",
+	"headword": {
+		"text": "אלריא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 73,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>a disease;</i> prob. a corruption of <cite ref=\"A01288\"><he>אִילְיָיא</he></cite> (εἰλεός, ileus) <i>iliac passion, spasm of the abdominal muscles connected with vomiting</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 70a:16\">Git. 70ᵃ</cite> <he>מיושב אחזתו א׳</he> Ar. (ed. <cite ref=\"D00862\"><he>דלריא</he></cite> as in the sentence following)."
+			]
+		}
+	]
+}

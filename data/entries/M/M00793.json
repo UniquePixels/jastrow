@@ -1,0 +1,24 @@
+{
+	"id": "M00793",
+	"slug": "מחאה",
+	"headword": {
+		"text": "מְחָאָה"
+	},
+	"page": {
+		"number": 756,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00809\"><he>מָחָה</he></cite>) <i>protest</i> to prevent the claim of undisturbed possession (v. <cite ref=\"H00556\"><he>חֲזָקָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 38a:6\">B. Bath. 38ᵃ</cite>, a. e. <he>מ׳ שלא בפניו הויא מ׳</he> a protest (before witnesses) in the absence of the usurper is a legal protest (prevents the claim of undisturbed possession being recognized). ",
+				"<cite ref=\"Bava Batra 38b:8\">Ib.ᵇ</cite> <he>היכי דמי מ׳ וכ׳</he> what is a legal protest? If he merely says, This man is a robber, it is not a legal protest. ",
+				"<cite ref=\"Bava Batra 39b:7\">Ib. 39ᵇ</cite>, sq. <he>מ׳ בפני שנים ואין וכ׳</he> a protest is valid, if made in the presence of two witnesses, nor is it necessary to say, Write; i.e. they may write a document to that effect without being especially authorized; a. fr."
+			]
+		}
+	]
+}

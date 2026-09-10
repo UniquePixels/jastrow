@@ -1,0 +1,48 @@
+{
+	"id": "Q01985",
+	"slug": "פרקד-2",
+	"headword": {
+		"text": "פַּרִקֵד"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְקֵיד"
+		}
+	],
+	"page": {
+		"number": 1240,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to turn backward</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 49:17\">Targ. Y. I Gen. XLIX, 17</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lie on the back; to be slanting</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 96b:2\">Men. 96ᵇ</cite> <he>פַּרְקוּדֵי הוה מִפַּרְקְדָא</he> it (the rim) was slanting (nothing could rest on it)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְפַּרְקֵיד</he>, <cite ref=\"Q00742\"><he>אִיפַּ׳</he></cite> (denom. of <cite ref=\"Q01984\"><he>פרקד</he></cite>, enlargement of <he>פרק</he>, <i>neck</i>) ",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

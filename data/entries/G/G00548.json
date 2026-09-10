@@ -1,0 +1,24 @@
+{
+	"id": "G00548",
+	"slug": "זמרא-2",
+	"headword": {
+		"text": "זְמָרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 405,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = <cite ref=\"G00544\"><he>זֶמֶר</he></cite>—(<he>זַיְינֵי</he>) <he>זְנֵי ז׳</he> = (<cite ref=\"K00716\"><he>כְּלֵי</he></cite>) <he>מִינֵי זֶמֶר</he> <i>musical instruments</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 3:5\">Dan. III, 5</cite>; a. e.—",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:8\">Targ. Koh. II, 8</cite>.—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 33:32\">Targ. Ez. XXXIII, 32</cite> <he>זְמַר אבובין</he> flute-music.—Pl. <he>זְמָרַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 5:14\">Targ. Lam. V, 14</cite>.—",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:63\">Ib. III, 63</cite> <he>זְמָרֵיהוֹן</he> object of their derisive songs, v. <cite ref=\"G00541\"><he>זְמַר</he> II</cite>."
+			]
+		}
+	]
+}

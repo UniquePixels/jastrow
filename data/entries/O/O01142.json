@@ -1,0 +1,38 @@
+{
+	"id": "O01142",
+	"slug": "סמרטוט",
+	"headword": {
+		"text": "סְמַרְטוּט"
+	},
+	"page": {
+		"number": 1003,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Saf. of <cite ref=\"M02642\"><he>מרט</he></cite>; cmp. <cite ref=\"M02645\"><he>מַרְטוּט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rag, lint</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 19:2\">Sabb. XIX, 2</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 21:2\">Ib. XXI, 2</cite>.—Pl. <he>סְמַרְטוּטִין</he>. ",
+				"<cite ref=\"Shevuot 31a:2\">Shebu. 31ᵃ</cite> <he>אחד לבוש ס׳</he> one (of the contestants) clad in rags. ",
+				"<cite ref=\"Tosefta Beitsah 2:11\">Tosef. Bets. II, 11</cite> <he>לא יקרע לה ס׳</he> he must not tear rags (to dress the wound after circumcision). ",
+				"<cite ref=\"Tosefta Shabbat 2:1\">Tosef. Sabb. II, 1</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adj.) <i>ragged</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:5:4\">Cant. R. to I, 5</cite>; <cite ref=\"Yalkut Shimoni on Nach 982:7\">Yalk. ib. 982</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

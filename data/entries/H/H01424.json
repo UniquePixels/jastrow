@@ -1,0 +1,39 @@
+{
+	"id": "H01424",
+	"slug": "חפוי",
+	"headword": {
+		"text": "חִפּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִי׳"
+		}
+	],
+	"page": {
+		"number": 490,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01423\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>covering, wrapping</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:8\">Kel. XVI, 8</cite> (<he>חעשוי</he>) <he>לח׳</he> whatever is intended for wrapping, opp. <cite ref=\"V00481\"><he>תיק</he></cite>, casing. ",
+				"<cite ref=\"Mishnah Kelim 26:6\">Ib. XXVI, 6</cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 4:11\">Tosef. Kel. B. Bath. IV, 11</cite>; a. e.—Pl. <he>חִפּוּיִם</he>, <cite ref=\"H00367\"><he>חִי׳</he></cite>. Ib. XVI, 8 <he>חִפּוּיֵ האלה וכ׳</he> the wrapping of a lance &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>upholstered seat</i>. Ib. XXII, 4 a bridal chair <he>שנטל חִפּוּיוֹ</he> whose seat is missing; (<cite ref=\"Mishnah Eduyot 1:11\">Eduy. I, 11</cite> <cite ref=\"H01425\"><he>חִפּוּיָו</he></cite>, Ms. M. <he>דפניו</he>, Mish. Nap. <he>חופיו</he>, v. Rabad a. l.). Kel. l. c. 6 <he>שנטל חִפּוּיוֹ האמצעי</he> whose middle cushion (of the three forming the seat) is wanting.—Pl. as ab. Ib. 5 <he>שלא היו חִפּוּיָו יוצאין</he> (ed. Dehr. <he>חִפּוּיָיו</he>) whose seats were not movable (v. Rabad to Eduy. l. c.); a. fr.—[<cite ref=\"Tosefta Shabbat 4:7\">Tosef. Sabb. IV</cite> (<cite ref=\"Tosefta Shabbat 5:7\">V</cite>), 7 <he>כל חיפוי</he> ed. Zuck., read with ed.: <cite ref=\"N00354\"><he>נוֹי</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

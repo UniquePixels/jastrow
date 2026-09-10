@@ -1,0 +1,27 @@
+{
+	"id": "B00361",
+	"slug": "בוריא-2",
+	"headword": {
+		"text": "בּוּרְיָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 150,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <he>בַּר</he> I; = h. <cite ref=\"H00435\"><he>חוֹצֶלֶת</he></cite>, <cite ref=\"M00926\"><he>מַחֲצֶלֶת</he></cite>) <i>reed-matting used for partitions, coverings</i> &c. [Var. <cite ref=\"B00211\"><he>בּוּדְיָא</he></cite>, against Syr. <cite ref=\"B00360\"><he>בוריא</he></cite> a. best Mss., v. <cite ref=\"B00096\"><he>בַּד</he> III</cite>.] <cite ref=\"Sukkah 20b:7\">Succ. 20ᵇ</cite> <he>מסככין בב׳</he> Ms. M. 2 (ed. a. Ar. with <cite ref=\"D00000\"><he>ד</he></cite>, Ms. M. 1 <he>בכ׳</he>) you may cover the festive booth with matting. ",
+			"units": [
+				"<cite ref=\"Bekhorot 8b\">Bekh. 8ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 67b:8\">B. Mets. 67ᵇ</cite> <he>תמרי דאבודיא</he> ed. (Ms. M. <he>דעל בורי׳</he>, v. Rabb. D. S. a. l. note) dates spread on mattings. ",
+				"<cite ref=\"Eruvin 8a\">Erub. 8ᵃ</cite> an alley <he>כריך ב׳</he> (with <cite ref=\"D00000\"><he>ד</he></cite>, ed., Ms. M. with <cite ref=\"T00000\"><he>ר</he></cite>) surrounded by a partition of matting.—",
+				"<cite ref=\"Eruvin 102a:16\">Ib. 102ᵃ</cite> <he>זיל כרוך ב׳ וכ׳</he> go and fold the matting up (for the night), but leave a handbreadth of it spread.—Pl. <he>בּוּרְיָתָא</he>. Succ. l. c. Ms. M. <he>בוריתא</he> a. <he>ביריתא</he> (Ms. M. 2 <cite ref=\"B01286\"><he>בריתא</he></cite>)."
+			]
+		}
+	]
+}

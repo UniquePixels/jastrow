@@ -1,0 +1,35 @@
+{
+	"id": "H00748",
+	"slug": "חייתא-2",
+	"headword": {
+		"text": "חַיְיתָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חַיְתָא"
+		}
+	],
+	"page": {
+		"number": 455,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"H00673\"><he>חַיָּה</he> II</cite><i>lying-in woman</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:12\">Targ. Y. Deut. XXVIII, 12</cite> (cmp. ",
+				"<cite ref=\"Taanit 2a\">Taan. 2ᵃ</cite>, sq.). ",
+				"<cite ref=\"Kohelet Rabbah 3:2:1\">Koh. R. to III, 2</cite> <he>ולמה … לה ח׳ וכ׳</he> and why do they call her <i>ḥay’tha?</i> Because she was dying and is recovering.—3) <i>midwife</i>. ",
+				"<cite ref=\"Onkelos Genesis 35:17\">Targ. Gen. XXXV, 17</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:6:3\">Y. Keth. V, 30ᵃ</cite>, v. <cite ref=\"H00940\"><he>חֲכַם</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 60:3\">Gen. R. s. 60</cite> (prov.) <he>בין ח׳ למחבלתא וכ׳</he> between the midwife and the travailing woman, the child of the poor woman dies.—Pl. <cite ref=\"H00750\"><he>חַיָּיתָא</he></cite>, <cite ref=\"H00649\"><he>חַיָּ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 1:15\">Targ. Ex. I, 15</cite>.—Y. Sabb. XIII, end, 16ᶜ <he>שאלון לח׳</he> ask the midwives (about their usages on the Sabbath); <he>אמרה ליה ליכא חַיָּיא</he> said she to him, there is no midwife (in the place)."
+			],
+			"label": "1"
+		}
+	]
+}

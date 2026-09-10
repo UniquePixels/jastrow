@@ -1,0 +1,29 @@
+{
+	"id": "H01067",
+	"slug": "חליש-2",
+	"headword": {
+		"text": "חֲלִישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָלִישׁ"
+		}
+	],
+	"page": {
+		"number": 469,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"H01127\"><he>חַלָּשׁ</he></cite>, <i>weak, sick</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joel 4:10\">Targ. Joel IV, 10</cite> (ed. Lag. <cite ref=\"H01124\"><he>חֲלַשׁ</he></cite>).—<i>Fem.</i> <he>חַלִּישָׁא</he>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:13\">Targ. Lam. I, 13</cite> (Var. <cite ref=\"H01029\"><he>חֲלִי׳</he></cite>; h. text <cite ref=\"D00204\"><he>דָּוָה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 9:21\">Targ. I Sam. IX, 21</cite> <cite ref=\"H01128\"><he>חֲלָשָׁא</he></cite>."
+			]
+		}
+	]
+}

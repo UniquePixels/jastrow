@@ -1,0 +1,23 @@
+{
+	"id": "O00894",
+	"slug": "סכי-3",
+	"headword": {
+		"text": "סָכֵי"
+	},
+	"page": {
+		"number": 989,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00893\">preced.</cite>) <he>סְכֵי שמש</he> <i>looking to the sun</i>, euphem. for <i>squinting, cross-eyed</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bekhorot 5:3\">Tosef. Bekh. V, 3</cite>, expl. <he>שרואה את החדר וכ׳</he> who takes in the room and the ceiling in one glance; <cite ref=\"Mishnah Bekhorot 7:3\">Bekh. VII, 3</cite>, changed by R. Jose. ",
+				"<cite ref=\"Bekhorot 44a:10\">ib. 44ᵃ</cite>: <he>סני שמש</he> one who hates the sun, <i>blinkard</i>"
+			]
+		}
+	]
+}

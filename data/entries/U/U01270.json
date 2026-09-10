@@ -1,0 +1,23 @@
+{
+	"id": "U01270",
+	"slug": "שלח-6",
+	"headword": {
+		"text": "שֶׁלַח",
+		"homograph": 4
+	},
+	"page": {
+		"number": 1580,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01265\"><he>שָׁלַח</he></cite>) <i>extension, stepping space</i> or <i>depth of a step</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 2:3\">Midd. II, 3</cite>; <cite ref=\"Mishnah Middot 3:6\">III, 6</cite> <he>ושִׁלְחָהּ אמה</he> and the depth of each step was one cubit, v. <cite ref=\"T00376\"><he>רוּם</he> II</cite>."
+			]
+		}
+	]
+}

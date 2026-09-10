@@ -1,0 +1,40 @@
+{
+	"id": "H00655",
+	"slug": "חיבול",
+	"headword": {
+		"text": "חִיבּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיבּוּלָא"
+		},
+		{
+			"text": "חִבּ׳"
+		},
+		{
+			"text": "חֲבַל"
+		}
+	],
+	"page": {
+		"number": 451,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>wound, injury</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 19:28\">Targ. Lev. XIX, 28</cite>; <cite ref=\"Onkelos Leviticus 21:5\">XXI, 5</cite>.—",
+				"<cite ref=\"Moed Katan 28b:8\">M. Kat. 28ᵇ</cite>, v. <cite ref=\"H00066\"><he>חֲבִילָא</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>moral defect, corruption</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 11:15\">Targ. Job XI, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:7\">Ib. XXXI, 7</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "U01630",
+	"slug": "שעבוד-1",
+	"headword": {
+		"text": "שִׁעְבּוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1609,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01629\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>subjection, servitude, oppression</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 12b:27\">Ber. 12ᵇ</cite> <he>שיהא ש׳ מלכיות וכ׳</he> Ms. M. (ed. <he>שתהא</he>) that the delivery from servitude to the empires &c., v. <cite ref=\"P00666\"><he>עִיקָּר</he></cite>. ",
+				"<cite ref=\"Berakhot 34b:20\">Ib. 34ᵇ</cite>, a. e. <he>ש׳ מלכיות</he>, v. <cite ref=\"M01579\"><he>מַלְכוּת</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:14:8\">Cant. R. to II, 14</cite> <he>מפני מה … כדי שיצאו … בלא ש׳</he> why were the wives of the patriarchs barren (for a time)? In order that many (of the four-hundred) years (<cite ref=\"Genesis 15:13\">Gen. XV, 13</cite>) might pass without servitude; <cite ref=\"Bereishit Rabbah 45:4\">Gen. R. s. 45</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 44:20\">Gen. R. s. 44</cite> <he>אף אני בש׳</he> shall I, too, be in slavery?; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>ש׳ קרקעות</he> (or <he>ש׳</he> only) <i>pledge, hypothecary obligation, landed security</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 4b:10\">B. Mets. 4ᵇ</cite> <he>משום דהוה ליה שטר ש׳ ק׳ … כפירת ש׳ ק׳</he> because a note of indebtedness implies a hypothecary obligation (that the debtor’s landed property is pledged to the creditor), and no oath is assigned on a disputed hypothecary obligation; <cite ref=\"Shevuot 37b:19\">Shebu. 37ᵇ</cite>; <cite ref=\"Ketubot 87b:3\">Keth. 87ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 14a:6\">B. Mets. 14ᵃ</cite> <he>שבח שְׁפַר וש׳ וכ׳</he> the scribe must ask for authorization to insert, in a deed of sale of land, ‘amelioration’, ‘best land’ and ‘pledge’, i.e. that the seller pledges his land, and this the best portions of it, for indemnity to the buyer in case of seizure for the seller’s debt, this indemnity to include the improvements eventually made by the buyer; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

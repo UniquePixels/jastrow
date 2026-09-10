@@ -1,0 +1,31 @@
+{
+	"id": "M02696",
+	"slug": "מרך-2",
+	"headword": {
+		"text": "מָרַךְ"
+	},
+	"page": {
+		"number": 844,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"M02695\"><he>מֹרֶךְ</he></cite>; <cite ref=\"T00766\"><he>רָכַךְ</he></cite>) <i>to be soft; to soften</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְמָרֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be softened; liquefied</i> (of the brain or the spinal column). ",
+					"units": [
+						"<cite ref=\"Chullin 45b\">Ḥull. 45ᵇ</cite>, v. <cite ref=\"E00644\"><he>הַמְרָכָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

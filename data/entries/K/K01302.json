@@ -1,0 +1,35 @@
+{
+	"id": "K01302",
+	"slug": "כשות-1",
+	"headword": {
+		"text": "כָּשׁוּת"
+	},
+	"page": {
+		"number": 675,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"K00637\"><he>כִּישָׁא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tuft, pubescence, fine hairs or fibres</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 2:1\">Ukts. II, 1</cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 9:4\">Mikv. IX, 4</cite> <he>כ׳ של קטן</he> the downy hair growth of a youth before puberty; <cite ref=\"Tosefta Mikvaot 6:10\">Tosef. ib. VI, 10</cite> <he>כ׳ של נדיל וכ׳</he> quot. by R. S. to Mikv. l. c. (ed. <cite ref=\"K01356\"><he>כתות</he></cite>) the hair growth of one entering on puberty, about which he cares not.—Esp. (also masc. sub. <cite ref=\"U01679\"><he>שער</he></cite>) <i>cuscuta</i>, a parasite growing on shrubs (v. Löw Pfl. p. 230, sq.). ",
+				"<cite ref=\"Tosefta Kilaim 1:11\">Tosef. Kil. I, 11</cite> (Var. <cite ref=\"S02227\"><he>קשות</he></cite>), v. <cite ref=\"E00352\"><he>הִיזְמָא</he></cite>. ",
+				"<cite ref=\"Tosefta Kilaim 3:16\">Ib. III, 16</cite> <he>כ׳ אינו וכ׳</he> ed. Zuck. (oth. ed. <he>אין</he>); <cite ref=\"Shabbat 139a:18\">Sabb. 139ᵃ</cite> Ms. M. (ed. <cite ref=\"K00639\"><he>כישות</he></cite>), v. <cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (collect. noun, sub. <he>מיני</he>) <i>cucumbers or melons in an early stage when they are pubescent</i>. Ib. 109ᵃ <he>כ׳ אין בהם משום רפואה</he> pubescent cucumbers or melons are not considered medicinal (in Sabbath law). Ib. <he>כל מיני כ׳ שרו וכ׳</he> (Ms. O. <cite ref=\"K00639\"><he>כישות</he></cite>, Ar. s. v. <cite ref=\"I00741\"><he>טרז</he></cite>: <cite ref=\"S01217\"><he>קִישׁוּת</he></cite> or <cite ref=\"S01217\"><he>קִישׁוֹת</he></cite> q. v.) all kinds of downy plants are permitted (on the Sabbath as not medicinal), except <i>t’ruza</i>, v. <cite ref=\"I00723\"><he>טְרוּזָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "A02021",
+	"slug": "אמיטתא",
+	"headword": {
+		"text": "אֲמִיטְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַמִּטְּתָא"
+		},
+		{
+			"text": "עֲמִיטְתָא"
+		}
+	],
+	"page": {
+		"number": 76,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אמט</he>, <he>עמט</he>; √<he>אם</he>, <he>עם</he>, v. <cite ref=\"A02037\"><he>אָמַם</he></cite>; cmp. <cite ref=\"H00374\"><he>חוּמְטָא</he> I</cite>) <i>darkness, dense cloud, mist</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 4:11\">Targ. Deut. IV, 11</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 6:1\">Targ. II Chr. VI, 1</cite>, ed. Beck. <cite ref=\"P00922\"><he>עמ׳</he></cite>; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 44:21\">Gen. R. s. 44</cite> (transl. <cite ref=\"P00789\"><he>עֲלָטָה</he></cite>)."
+			]
+		}
+	]
+}

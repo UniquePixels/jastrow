@@ -1,0 +1,28 @@
+{
+	"id": "Q00347",
+	"slug": "פוריומא",
+	"headword": {
+		"text": "פּוּרְיוֹמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1147,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"Q01795\"><he>פִּרְיוֹם</he></cite>, <i>litter</i>. Y. Keth. II, beg. 26ᵃ (expl. <cite ref=\"E00459\"><he>הינומא</he></cite>, Mish. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 1:1\">ib. I, 1</cite>) <he>רבנן … פ׳</he> the Palestinian scholars call it <i>puryoma</i>, v. <cite ref=\"E00459\"><he>הֵינוּמָא</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:10:2\">Cant. R. to III, 10</cite> <he>אפריון זה הארון ומה הוא אפריון פר׳</he> <i>appiryon</i> (<cite ref=\"Song of Songs 3:9\">Cant. III, 9</cite>) refers to the holy ark, and what does <i>appiryon</i> mean? A litter."
+			]
+		}
+	]
+}

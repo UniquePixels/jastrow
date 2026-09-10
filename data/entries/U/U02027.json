@@ -1,0 +1,28 @@
+{
+	"id": "U02027",
+	"slug": "שרקרק",
+	"headword": {
+		"text": "שְׁרַקְרַק"
+	},
+	"page": {
+		"number": 1634,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שְׁרַק</he> III, cmp. <cite ref=\"J00666\"><he>יְרַקְרֵיקָא</he></cite>; popular etymol. fr. <cite ref=\"U02022\"><he>שְׁרַק</he> I</cite>, q. v.) name of an unclean bird, <i>gier-eagle</i> or <i>vulture</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 63a:10\">Ḥull. 63ᵃ</cite> (Ms. R. 2 a. 3 <cite ref=\"U01986\"><he>שְׁרִיקְרִיק</he></cite>, v. Rabb. D. S. a. l. note 30), v. <cite ref=\"T00518\"><he>רָחָם</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 537:11\">Yalk. Lev. 537</cite> <cite ref=\"U02026\"><he>שרקריק</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sh’raḳraḳ</i>, the sound produced by the bird <i>sh’raḳraḳ</i>. Ḥull. l. c. <he>ועביד ש׳</he> (Ms. M. <cite ref=\"U01986\"><he>שריקריק</he></cite>; Ar. <he>ושריק רקרק</he>); Yalk. l. c. <he>ועביד שרקריק</he>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

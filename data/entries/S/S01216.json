@@ -1,0 +1,33 @@
+{
+	"id": "S01216",
+	"slug": "קישושות",
+	"headword": {
+		"text": "קִישׁוֹשׁוֹת"
+	},
+	"page": {
+		"number": 1370,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>קָשַׁשׁ</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rakings, chips</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 2:14\">Tosef. Shebi. II, 14</cite>. Tosef. Erub. XI (VIII), 10 (Ar. ed. Koh. <cite ref=\"S01216\"><he>קִישׁוֹשִׁיּוֹת</he></cite>; oth. ed. <cite ref=\"S02260\"><he>קַשְׁקַשִּׁיּוֹת</he></cite>), v. <cite ref=\"S02261\"><he>קַשְׁקַשִּׁים</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>splints put on a fracture</i>, v. <cite ref=\"S02253\"><he>קְשִׁישִׁין</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

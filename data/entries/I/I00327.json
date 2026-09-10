@@ -1,0 +1,28 @@
+{
+	"id": "I00327",
+	"slug": "טיחיא",
+	"headword": {
+		"text": "טִיחְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִחְ׳"
+		}
+	],
+	"page": {
+		"number": 530,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00326\">preced.</cite>) <i>smearing with a fatty substance, glazing</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 17a:21\">M. Kat. 17ᵃ</cite> <he>ומהניא ביה כי ט׳ בתנורא</he> and (the excommunication) retains its effect on him as does the glazing on the tiles of the oven. ",
+				"<cite ref=\"Pesachim 30a:8\">Pes. 30ᵃ</cite> <he>ההוא תנורא דטחו ביה ט׳</he> an oven which they smeared with fat for glazing purposes; <cite ref=\"Zevachim 95b:9\">Zeb. 95ᵇ</cite> <he>דאטחו בה טיחייה</he> (Ms. R. 2 <he>טחו … טחויי</he>; Ms. K. <cite ref=\"I00265\"><he>טְחָיֵי</he></cite> ‘in which they baked cakes smeared with fat’, Rashi; v. <cite ref=\"I00265\"><he>טְחָיֵי</he></cite>)."
+			]
+		}
+	]
+}

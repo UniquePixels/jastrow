@@ -1,0 +1,48 @@
+{
+	"id": "R00433",
+	"slug": "ציץ-4",
+	"headword": {
+		"text": "צִיץ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1279,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00432\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>something glistening, foil</i>. Tanḥ. Vayetsé 12 (describing the Teraphim) <he>מביאין … וכותבין על צ׳ זהב וכ׳</he> they get a firstborn man and slaughter him …, and write the name of a spirit of uncleanness on a golden plate, and put the plate under his tongue with sorcerous ceremonies &c.—Esp. <i>the highpriest’s front plate</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 5a:11\">Succ. 5ᵃ</cite> <he>צ׳ דומה כמין טס וכ׳</he> the front plate was something like a gold foil &c.; <cite ref=\"Shabbat 63b:15\">Sabb. 63ᵇ</cite>. ",
+				"<cite ref=\"Zevachim 88b:8\">Zeb. 88ᵇ</cite> <he>צ׳ … עזות פנים</he> the plate procures forgiveness for sins committed by effrontery. ",
+				"<cite ref=\"Bereishit Rabbah 71:5\">Gen. R. s. 71</cite> <he>בזה צ׳ ובזה צ׳</he> in this (the tribe of Levi) is the sheen (of the high priest’s frontlet), and in that (the tribe of Judah) is the splendor (of the crown, <cite ref=\"Psalms 132:18\">Ps. CXXXII, 18</cite>); a. fr.—[Pl. <he>צִיצִין</he>. ",
+				"<cite ref=\"Tosefta Sotah 3:4\">Tosef. Sot. III, 4</cite> ed. Zuck. <he>בצ׳</he> with fineries, v. <cite ref=\"R00541\"><he>צִלְצוּל</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>blossom</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 53:3\">Gen. R. s. 53</cite> (ref. to <cite ref=\"Isaiah 40:8\">Is. XL, 8</cite>) <he>יבש … ונבל צִיצוֹ</he> the flower of Abimelech was dried up, and his blossom faded (his procreative faculty was lost); <cite ref=\"Yalkut Shimoni on Nach 309\">Yalk. Is. 309</cite>.—Pl. <cite ref=\"R00438\"><he>צִיצִים</he></cite>, <he>צִיצִין</he>. ",
+				"<cite ref=\"Shabbat 145b:15\">Sabb. 145ᵇ</cite> (ref. to <cite ref=\"Isaiah 27:6\">Is. XXVII, 6</cite>) <he>אלו … עושין צ׳ וכ׳</he> this refers to the scholars in Babylonia who create blossoms and flowers for the Torah (revive learning); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>filament, thread, thread-like shred, fringe</i>. Ib. 131ᵃ Ms. M., v. <cite ref=\"R00224\"><he>צוּץ</he></cite>.—<i>Pl.</i> as ab. Ib. 94ᵇ; Tosef. ib. IX (X), 12 <he>צפורן … וצ׳ וכ׳</he> a nail, and shreds (of skin) the largest portions of which are severed from the body. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 19:6\">Sabb. XIX, 6</cite> <he>צ׳ המעכבין וכ׳</he> shreds of the corona which make the circumcision invalid. Y. ib. XIX, 17ᵃ; a. fr.—",
+				"<cite ref=\"Tosefta Avodah Zarah 5:2\">Tosef. Ab. Zar. V</cite> (<cite ref=\"Tosefta Avodah Zarah 6:2\">VI</cite>), 2 (describing a scarab or dragon used as an emblem of idolatry, v. <cite ref=\"D01123\"><he>דְּרָקוֹן</he></cite>) <he>כל שהצ׳ יוצאין מצוארו</he> from whose neck fringes come forth; Y. ib. III, 42ᵈ top; Bab. ",
+				"<cite ref=\"Avodah Zarah 43a:6\">ib. 43ᵃ</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "H01669",
+	"slug": "חרי-4",
+	"headword": {
+		"text": "חֲרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲרָא"
+		}
+	],
+	"page": {
+		"number": 501,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01668\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 57:5\">Targ. Ps. LVII, 5</cite> <he>חָרְיָא</he> Lev. (ed. Lag. <cite ref=\"H00869\"><he>חָיְירָא</he></cite>, oth. ed. <cite ref=\"H00869\"><he>חָיְרָא</he></cite> fr. <cite ref=\"H00446\"><he>חוּר</he></cite>; Ms. <cite ref=\"D00729\"><he>דָּיְירָא</he></cite>, v. <cite ref=\"D00342\"><he>דּוּר</he></cite> ch.; ed. Wil. <cite ref=\"H00191\"><he>חדיא</he></cite>, corr. acc.). [<cite ref=\"Aramaic Targum to Proverbs 17:24\">Targ. Prov. XVII, 24</cite> <cite ref=\"H01573\"><he>חַרְיָן</he></cite>, quot. in Luzz. Philox. p. 106, <i>glowing</i> (with wisdom).]—[<cite ref=\"Gittin 69a:2\">Gitt. 69ᵃ</cite> <he>וליחרו לכלבא</he>, v. <cite ref=\"N00516\"><he>נְחַר</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חָרֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to stir, rake</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 38b\">Ab. Zar. 38ᵇ</cite> <he>ואתא ישראל וחרי חרורי</he> Ar. (prob. <he>חָרוּיֵי</he>; ed. <he>וחתה בה חתויי</he>) and raked the fire. ",
+						"<cite ref=\"Chagigah 5a:1\">Ḥag. 5ᵃ</cite> top <he>ומְחַרְיָא תנורא</he> and raked the fire in the oven (Rashi: out of the oven)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "Q00517",
+	"slug": "פטים-2",
+	"headword": {
+		"text": "פַּטִּים"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּטִּימָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1155,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00536\"><he>פְּטַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fat, fattened, stout</i>; (noun) <i>fatling</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 3:17\">Targ. Jud. III, 17</cite> (h. text <he>בריא</he>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 6:13\">Targ. II Sam. VI, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 28:24\">Targ. I Sam. XXVIII, 24</cite>; a. fr.—Pl. <he>פַּטִּימִין</he>, <he>פַּטִּימַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 5:3\">Targ. I Kings V, 3</cite> <he>עופיא פ׳</he> (ed. Lag. <i>sing.</i>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 45:15\">Targ. Ez. XLV, 15</cite> Kimḥi (ed. Lag. <cite ref=\"Q00517\"><he>פטימא</he></cite>; ed. Wil. <cite ref=\"Q00539\"><he>פִּטְמָא</he></cite>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:26\">Y. Peah I, 15ᶜ</cite> bot. <he>תרנגולין פ׳</he> fattened chickens; <cite ref=\"Jerusalem Talmud Kiddushin 1:7:10\">Y. Kidd. I, 61ᵇ</cite> <he>פַּטִּימָן</he> (<i>fem.</i>). ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:1:8\">Y. Meg. IV, 74ᵈ</cite> bot. <he>מחזר פ׳</he> (<cite ref=\"F00000\"><he>ו</he></cite>)<he>בני תורין</he> ordered a translator (of <he>התרים וכ׳</he>, <cite ref=\"Leviticus 1:14\">Lev. I, 14</cite>) who read ‘fatlings and young doves’ to take it back (and correct); a. e.—<i>Fem.</i> <cite ref=\"Q00517\"><he>פַּטִּימָא</he></cite>, <cite ref=\"Q00526\"><he>פַּטִּימְתָּא</he></cite>. ",
+				"<cite ref=\"Targum of I Chronicles 4:40\">Targ. I Chr. IV, 40</cite>; a. e.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>תרנגולא פ׳</he> (<cite ref=\"T00152\"><he>רבתי</he></cite>) a fattened hen; a. e.—Pl. <he>פַּטִּימָן</he>, <he>פַּטִּימָתָא</he>. ",
+				"<cite ref=\"Onkelos Genesis 41:2\">Targ. O. Gen. XLI, 2</cite> (Y. <he>פְּטִ׳</he>). Ib. 5; a. fr.—Y. Kidd. l. c., v. supra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>perfumed</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite> (in Hebr. diction) <he>שמא לא יצאת ידי קנדלה פ׳</he> did you perhaps fail to provide perfumed (good) oil for the lamps?, opp. <cite ref=\"Q01481\"><he>פקטים</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "U01703",
+	"slug": "שפא-2",
+	"headword": {
+		"text": "שָׁפָא",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1613,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שׁוּף</he> I) [<i>slip, the place from which something slipped,</i>] <i>socket</i>. ",
+			"units": [
+				"<cite ref=\"Makkot 11b:3\">Macc. 11ᵇ</cite> <he>עאל איבריה לש׳</he> each limb (bone) of his went into its socket; <cite ref=\"Yalkut Shimoni on Torah 149\">Yalk. Gen. 149</cite>."
+			]
+		}
+	]
+}

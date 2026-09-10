@@ -1,0 +1,28 @@
+{
+	"id": "M03062",
+	"slug": "מתיק",
+	"headword": {
+		"text": "מְתִיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְתִיקָא"
+		}
+	],
+	"page": {
+		"number": 862,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M03100\"><he>מְתַק</he></cite>) <i>sweet.—</i>Pl. <he>מְתִיקִין</he>, <he>מְתִיקֵי</he>; <cite ref=\"M03062\"><he>מְתִיקָן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:5\">Targ. Cant. II, 5</cite> (ed. Amst. <he>מַתִּיקָן</he>).—",
+				"<cite ref=\"Megillah 6a\">Meg. 6ᵃ</cite>, v. <cite ref=\"K00877\"><he>כִּנָּרָא</he> I</cite>."
+			]
+		}
+	]
+}

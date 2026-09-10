@@ -1,0 +1,28 @@
+{
+	"id": "H01388",
+	"slug": "חסיר-2",
+	"headword": {
+		"text": "חֲסִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַסִּיר"
+		}
+	],
+	"page": {
+		"number": 487,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01411\"><he>חֲסַר</he></cite>) <i>wanting, less; reduced, lean</i> (v. <cite ref=\"H01367\"><he>חַסְיָא</he></cite> a. <cite ref=\"H01374\"><he>חֲסִיךְ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:7\">Targ. Prov. VII, 7</cite>; a. fr.—<i>Fem.</i> <cite ref=\"H01383\"><he>חֲסִירָא</he></cite>, <cite ref=\"H01412\"><he>חַסִּי׳</he></cite>. Pl. <he>חֲסִירָן</he>, <he>חַסִּ׳</he>. ",
+				"<cite ref=\"Onkelos Genesis 41:3\">Targ. Gen. XLI, 3</cite>; <cite ref=\"Onkelos Genesis 41:4\">4</cite>; a. e.—V. also <cite ref=\"H01413\"><he>חָסֵר</he></cite> ch."
+			]
+		}
+	]
+}

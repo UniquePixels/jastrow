@@ -1,0 +1,31 @@
+{
+	"id": "P00054",
+	"slug": "עבירתא",
+	"headword": {
+		"text": "עֲבֵירְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲבֵרְ׳"
+		}
+	],
+	"page": {
+		"number": 1038,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P00052\"><he>עֲבֵירָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:23\">Targ. Prov. X, 23</cite> <he>עביר עביר׳</he> (not <he>עביד עביד׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:27\">Ib. XXI, 27</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 23:15\">Targ. O. Deut. XXIII, 15</cite>; <cite ref=\"Onkelos Deuteronomy 24:1\">XXIV, 1</cite> <he>עֲבֵירַת פתגם</he> (h. text <he>ערות דבר</he>); a. fr.—Pl. <cite ref=\"P00054\"><he>עֲבֵירָתָא</he></cite>, <cite ref=\"P00050\"><he>עֲבֵירָן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 4:4\">Targ. Job IV, 4</cite> Ms. (ed. Lag. <he>עבירה</he> <i>sing.</i>, hebraism; ed. Wil. <cite ref=\"P00050\"><he>עֲבֵירָא</he></cite>; oth. ed. <cite ref=\"P00045\"><he>עבידתא</he></cite>, incorr.). ",
+				"<cite ref=\"Targum Jonathan on Numbers 35:25\">Targ. Y. Num. XXXV, 25</cite>; a. e.—Y. Taan. I, 64ᵇ bot. [read:] <he>א״ל חמש עבירן האי גוברא עביד בכל יום</he> he said to him, five sins does this man (I) commit every day."
+			]
+		}
+	]
+}

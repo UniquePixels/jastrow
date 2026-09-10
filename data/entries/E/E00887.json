@@ -1,0 +1,32 @@
+{
+	"id": "E00887",
+	"slug": "הרס-1",
+	"headword": {
+		"text": "הָרַס"
+	},
+	"page": {
+		"number": 368,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to break, to destroy, demolish</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 9:9\">Midr. Till. to Ps. IX, 7</cite> <he>הוא הוֹרֵס את וכ׳</he> He destroys your plans; <cite ref=\"Yalkut Shimoni on Nach 587:1\">Yalk. Mal. 587</cite>.—<i>Part. pass.</i> <he>הָרוּס</he>; f. <he>הֲרוּסָה</he>. ",
+				"<cite ref=\"Bereishit Rabbah 45:2\">Gen. R. s. 45</cite>; a. e.—Y. Ber. IV, 8ᵃ; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to break through, rush</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 284:2\">Yalk. Ex. 284</cite> (expl. <he>פן יהרסו</he>, <cite ref=\"Exodus 19:21\">Ex. XIX, 21</cite>) <he>שמא ידחקו</he>, v. <cite ref=\"D00434\"><he>דָּחַק</he></cite>; Mekh. Yithro, Baḥod., s. 4."
+			],
+			"label": "2"
+		}
+	]
+}

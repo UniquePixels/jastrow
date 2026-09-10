@@ -1,0 +1,34 @@
+{
+	"id": "L00035",
+	"slug": "לבא-4",
+	"headword": {
+		"text": "לְבָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 687,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " or <cite ref=\"L00065\"><he>לְבֵי</he></cite> (v. <cite ref=\"L00049\"><he>לָבָה</he></cite>) [<i>to grow white;</i> cmp. ",
+			"units": [
+				"<cite ref=\"Joel 1:7\">Joel I, 7</cite>,] <i>to be dried up</i>, v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לַבֵּא"],
+			"senses": [
+				{
+					"gloss": " or <cite ref=\"L00035\"><he>לַבֵּי</he></cite> <i>to lay dry</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 11a:14\">M. Kat. 11ᵃ</cite> <he>פום בדיתאי לַבְּאֵי כוורי</he> Ar. ed. Koh. the Pumbeditheans laid the fish dry (by changing the course of the water); [ed. as corrected in marginal note (v. also Rabb. D. S. a. l. note 300): <he>בפום בדיתא לְבָאֵי כוורי</he> at P. the fish were laid dry (the water failing through some obstruction in the channel); Var. in Ar. <he>בריתא לְבָאִי</he> (read <he>בד׳</he>) the B’ditha dried up]."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

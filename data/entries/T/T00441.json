@@ -1,0 +1,35 @@
+{
+	"id": "T00441",
+	"slug": "רוקן-1",
+	"headword": {
+		"text": "רוֹקֵן"
+	},
+	"page": {
+		"number": 1463,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"T00706\"><he>רֵיקָן</he></cite>; cmp. <cite ref=\"D00008\"><he>דַּאֲבָן</he></cite> denom. of <cite ref=\"D00007\"><he>דַּאֲבוֹנָא</he></cite>) <i>to empty, drain</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 24:7\">Lev. R. s. 24</cite> (ref. to <he>להצילך</he>, <cite ref=\"Deuteronomy 23:15\">Deut. XXIII, 15</cite>) <he>לרוֹקֵן כל נכסי וכ׳</he> to drain all the stores of the nations and give them to thee.—V. <cite ref=\"T00706\"><he>רִיקִן</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְרוֹקֵן", "נִיתְ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be emptied, be transmitted</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 84:16\">Gen. R. s. 84</cite> (ref. to <cite ref=\"Genesis 37:24\">Gen. XXXVII, 24</cite>) <he>נ׳ בורו של יעקב</he> Jacob’s well was emptied (his children were bare of virtues). ",
+						"<cite ref=\"Mishnah Nedarim 10:2\">Ned. X, 2</cite> <he>מת האב לא נִתְרוֹקְנָה וכ׳</he> with the father’s death his authority (to interfere with the daughter’s vows) does not go over to her husband; <cite ref=\"Nedarim 68b\">ib. 68ᵇ</cite>; <cite ref=\"Tosefta Nedarim 6:2\">Tosef. ib. VI, 2</cite>, sq. ",
+						"<cite ref=\"Sifrei Bamidbar 153:6\">Sifré Num. 153</cite> <he>שאין הרשות מִתְרוֹקֶנֶת וכ׳</he> to whom the father’s authority cannot be transferred; <cite ref=\"Yalkut Shimoni on Torah 785:4\">Yalk. ib. 785</cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "H00370",
+	"slug": "חום-2",
+	"headword": {
+		"text": "חוֹם"
+	},
+	"page": {
+		"number": 435,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"H01133\"><he>חֹם</he></cite>; <he>חמם</he>)<i>summer, heat</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 106b:6\">B. Mets. 106ᵇ</cite>; <cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite> <he>בארבע … אין ח׳ אלא וכ׳</he> four hours after sunrise there is heat only where the sun shines; a. e."
+			]
+		}
+	]
+}

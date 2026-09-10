@@ -1,0 +1,33 @@
+{
+	"id": "A03089",
+	"slug": "אריוך",
+	"headword": {
+		"text": "אַרְיוֹךְ"
+	},
+	"page": {
+		"number": 119,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (<cite ref=\"Genesis 14:1\">Gen. XIV, 1</cite>) <i>Aryokh</i>, 1) homiletic surname of Nebuzraddan. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 5:5\">Lam. R. to V, 5</cite> (allusion to <cite ref=\"A03079\"><he>ארי</he></cite>)."
+			]
+		},
+		{
+			"gloss": " (cmp. ",
+			"units": [
+				"<cite ref=\"Daniel 2:14\">Dan. II, 14</cite>) <i>Aryokh</i>, a title of Samuel, the contemporary of Rab. ",
+				"<cite ref=\"Shabbat 53a:9\">Sabb. 53ᵃ</cite>. ",
+				"<cite ref=\"Kiddushin 39a:2\">Kidd. 39ᵃ</cite>. ",
+				"<cite ref=\"Menachot 38b:5\">Men. 38ᵇ</cite>. ",
+				"<cite ref=\"Chullin 76b:16\">Ḥull. 76ᵇ</cite> (prob. a Persian adaptation for <i>judge</i>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "O00536",
+	"slug": "סיבור",
+	"headword": {
+		"text": "סִיבּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיבּוּרָא"
+		},
+		{
+			"text": "סִבּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 974,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְבַר</he> I) <i>hope</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 29:15\">Targ. I Chr. XXIX, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:23\">Targ. Prov. XI, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:7\">Ib. 7</cite>; a. fr."
+			]
+		}
+	]
+}

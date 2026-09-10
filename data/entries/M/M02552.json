@@ -1,0 +1,33 @@
+{
+	"id": "M02552",
+	"slug": "מרדכי",
+	"headword": {
+		"text": "מָרְדְּכַי"
+	},
+	"page": {
+		"number": 837,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Mordecai</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the uncle of Esther. ",
+			"units": [
+				"<cite ref=\"Pesachim 117a:19\">Pes. 117ᵃ</cite> <he>מ׳ ואסתר אמרוהו</he> M. and Esther recited (composed) those psalms of Hallel. ",
+				"<cite ref=\"Yevamot 24b:4\">Yeb. 24ᵇ</cite>, v. <cite ref=\"C01225\"><he>גֵּר</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of an Amora. ",
+			"units": [
+				"<cite ref=\"Ketubot 87a:2\">Keth. 87ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 31a:16\">Ber. 31ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"id": "Q01517",
+	"slug": "פקר-1",
+	"headword": {
+		"text": "פָּקַר"
+	},
+	"page": {
+		"number": 1212,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"B01136\"><he>בָּקַר</he></cite>, a <cite ref=\"Q01516\">preced.</cite> wds.) [<i>to break through;</i> cmp. <cite ref=\"Q01968\"><he>פָּרַץ</he></cite>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be free, licentious, irreverent, sceptical</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 25b:12\">Meg. 25ᵇ</cite> <he>מתוך תשובה</he> … <he>פָּקְרוּ המינים</he> Ms. M. (ed. <he>המערערים</he>) from the answer which Aaron gave to Moses (<cite ref=\"Exodus 32:24\">Ex. XXXII, 24</cite>) the heretics derived their heresy (to assert the reality of idolatrous witchcraft). ",
+				"<cite ref=\"Sanhedrin 38b:14\">Snh. 38ᵇ</cite> <he>כל מקום שפקרו המינין וכ׳</he> Ms. M. (ed. <he>הצדוקים</he>) wherever in a Biblical passage the heretics seem to find a support for their scepticism (belief in a plurality of divine beings), their refutation is always near by; Y. Ber. IX, 12ᵈ bot. (not <he>שפרקו</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <he>עַצְמ־</he>) <i>to make free with one’s self</i>; (of a woman) <i>to propose marriage to a man</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:9\">Y. Snh. II, 20ᵇ</cite> (ref. to <cite ref=\"I Samuel 25:31\">I Sam. XXV, 31</cite> <he>וזכרת את אמתך</he>) <he>מלמד שפָּקְרָה עצמה</he> this shows that she intimated eventual marriage to David; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְקִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to declare free, to renounce ownership, declare a property ownerless</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 38a\">Gitt. 38ᵃ</cite>, a. e. <he>המַפְקִיר עבדו יצא לחירות</he> if one declares his slave ownerless, he goes out free (and needs no letter of emancipation); <cite ref=\"Gittin 39a:12\">ib. 39ᵃ</cite> <he>המפקיר … וצריך וכ׳</he> he is entitled to his liberty, but requires a letter of emancipation. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 224:4\">Yalk. Kings 224</cite> <he>ה׳ כל אשר לו</he> (not <cite ref=\"Q01449\"><he>הפקיד</he></cite>) he gave up all he possessed. Tanḥ. Pinḥas 2 <he>בת מלך הִפְקִירוּ לקלון</he> they offered a king’s daughter to prostitution; <he>ה׳ בתו מי לא היה מפקיר</he> he (the king) offered his daughter, who would not do the same?; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּפְקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be declared free</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 6:1\">Peah VI, 1</cite> <he>עד שיוּפְקַר וכ׳</he> (Ms. M. <he>שיבקר</he>, read as <cite ref=\"Mishnah Eduyot 4:3\">Eduy. IV, 3</cite> <he>שׁיוּבְקַר</he>) until it is declared free also for rich men; a. e.—Part. pass. <he>מוּפְקָר</he>; f. <he>מוּפְקֶרֶת</he>; pl. <he>מוּפְקָרִים</he>, <he>מוּפְקָרִין</he>; <he>מוּפְקָרוֹת</he>. ",
+						"<cite ref=\"Sanhedrin 49a:16\">Snh. 49ᵃ</cite> <he>מה מדבר מ׳ לכל אף ביתו … מ׳ לכל</he> as the desert is free to all, so was Joab’s house free to all (that craved his hospitality). Tanḥ. Vayaḳhel 8 <he>למה … מה המדבר מ׳ … התורה מ׳ וכ׳</he> why was the Law given in the desert? To intimate that as the desert is free to all, so are the words of the Law free to every one &c. ",
+						"<cite ref=\"Bereishit Rabbah 72\">Gen. R. s. 72</cite> <he>דבר שהוא מן המ׳</he> something which is free (ownerless); a. fr.—V. <cite ref=\"E00759\"><he>הֶפְקֵר</he></cite>."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

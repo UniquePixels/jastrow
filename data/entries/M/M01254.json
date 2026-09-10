@@ -1,0 +1,23 @@
+{
+	"id": "M01254",
+	"slug": "מיסרן",
+	"headword": {
+		"text": "מִיסְרָן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 777,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00409\"><he>סוּר</he></cite>) <i>seducer, tempter</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 107a:7\">Pes. 107ᵃ</cite> Ar., v. <cite ref=\"Q00741\"><he>פִּיס</he></cite> h."
+			]
+		}
+	]
+}

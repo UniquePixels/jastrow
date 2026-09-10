@@ -1,0 +1,36 @@
+{
+	"id": "O01574",
+	"slug": "סרח-6",
+	"headword": {
+		"text": "סְרַח",
+		"disambiguator": 3
+	},
+	"page": {
+		"number": 1025,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01573\">same</cite>, <i>to decay</i>. Part. pass. <cite ref=\"O01612\"><he>סְרִיחָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:19\">Targ. Job XLI, 19</cite> Ms. (ed. <cite ref=\"B00263\"><he>בּוּלְטִיתָא</he></cite>).—Esp. <i>to sin</i>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 15:28\">Targ. Y. Num. XV, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 7:14\">Targ. II Sam. VII, 14</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to make offensive</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 5:21\">Targ. Y. Ex. V, 21</cite> <he>דאַסְרַחְתּוּן</he> (not <he>דאִס׳</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

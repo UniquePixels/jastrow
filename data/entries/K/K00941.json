@@ -1,0 +1,44 @@
+{
+	"id": "K00941",
+	"slug": "כסל",
+	"headword": {
+		"text": "כֶּסֶל"
+	},
+	"page": {
+		"number": 654,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>incision</i>,] <i>groin, loin</i>.—",
+			"units": [
+				"<cite ref=\"Bekhorot 40a\">Bekh. 40ᵃ</cite>, v. <cite ref=\"K00906\"><he>כָּסוּל</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 133\">Yalk. Gen. 133</cite> (quot. fr. Midr. Vayisu) <he>בכסא ימנית</he> (corr. acc.) in the right loin.—Pl. <he>כְּסָלִים</he>, <cite ref=\"K00948\"><he>כְּסָלִין</he></cite>. ",
+				"<cite ref=\"Tosefta Bekhorot 4:10\">Tosef. Bekh. IV, 10</cite> [read:] <he>כל שכְּסָלָיו יוצאין</he> a <i>kasul</i> is one whose loins protrude. ",
+				"<cite ref=\"Shabbat 31b:5\">Sabb. 31ᵇ</cite> <he>וישׁ להם חלב על הכ׳</he> Ar. (ed. <he>כִּסְלָם</he>) and yet have fat on the groins (are careless).—Trnsf. "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>טפש</he>) <i>laziness, inactivity</i>; ",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>trust</i>; ",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>thought</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 742:9\">Yalk. Num. 742</cite>; <cite ref=\"Yalkut Shimoni on Nach 819:3\">Yalk. Ps. 819</cite> quot. fr. Y’lamd. (v. Ar. s. v. <cite ref=\"K00941\"><he>כסל</he></cite>) <he>כִּסְלָם … מחשבתם וכ׳</he> <i>kislam</i> (<cite ref=\"Psalms 78:7\">Ps. LXXVIII, 7</cite>) means their thought, as we read (<cite ref=\"Leviticus 3:4\">Lev. III, 4</cite>, cmp. <cite ref=\"K00725\"><he>כִּלְיָה</he></cite>) ‘that which is by the loins’; (oth. opin.) <he>טיפשותן</he> it means their inactivity, as it is said (<cite ref=\"Ecclesiastes 4:5\">Koh. IV, 5</cite>) &c.; (oth. opin.) <he>בטחונן</he> their trust as we read (<cite ref=\"Job 31:24\">Job XXXI, 24</cite>) &c."
+			],
+			"label": "4"
+		}
+	]
+}

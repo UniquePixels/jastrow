@@ -1,0 +1,22 @@
+{
+	"id": "G00289",
+	"slug": "זיהורא-1",
+	"headword": {
+		"text": "זִיהוּרָא"
+	},
+	"page": {
+		"number": 391,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זהר</he>) <i>what is worth guarding, possession, treasure</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:23\">Targ. Prov. IV, 23</cite> (Bxt. <he>זִהוּ׳</he>, h. text <cite ref=\"M02930\"><he>מִשְׁמָר</he></cite>). V. <cite ref=\"G00295\"><he>זִיהֲרָא</he> III</cite>."
+			]
+		}
+	]
+}

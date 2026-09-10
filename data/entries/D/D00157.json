@@ -1,0 +1,29 @@
+{
+	"id": "D00157",
+	"slug": "דהן-2",
+	"headword": {
+		"text": "דְּהַן",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּהֲנָא"
+		}
+	],
+	"page": {
+		"number": 281,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00156\">preced.</cite>) <i>fat</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 36:9\">Targ. Ps. XXXVI, 9</cite> (Var <cite ref=\"T00289\"><he>רהן</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 55:2\">Targ. Is. LV, 2</cite> ed. Bxt. <he>בד׳</he> (ed. Lag. a. oth. <he>בדִדְהֵין</he>; cmp. <cite ref=\"D00491\"><he>דּידְבָא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"id": "S00159",
+	"slug": "קדמותא",
+	"headword": {
+		"text": "קַדְמוּתָא"
+	},
+	"page": {
+		"number": 1317,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00158\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>previous condition</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 42:12\">Targ. Job XLII, 12</cite>.—",
+				"<cite ref=\"Bekhorot 31a:5\">Bekh. 31ᵃ</cite> <he>זיל לקַדְמוּתֵיה</he> (read <cite ref=\"A00973\"><he>אזל</he></cite>) he went back to his former condition (resigned his office)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>early morning</i>. Ib.ᵇ <he>ושנייה בק׳ וכ׳</he> and he solved that problem the next morning by reference to a Boraitha.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the first time</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite>, beg. <he>קַדְמוּתֵיךְ היא תניינותיך היא</he> is this thy first or thy second offence?; <cite ref=\"Devarim Rabbah 1:2\">ib.</cite> <he>קַדְמוּתְכוֹן וכ׳</he> is it your first &c.?; <cite ref=\"Yalkut Shimoni on Torah 392:5\">Yalk. Ex. 392</cite> <he>קדמתכון</he> (corr. acc.)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " <he>לְקַדָּמוּת</he>, <he>לִקְדָמוּת</he>, <he>לָקֳדָמוּת</he> = h. <he>לקראת</he> <i>to meet, towards</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 19:17\">Targ. Ex. XIX, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 59:5\">Targ. Ps. LIX, 5</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 37\">Lev. R. s. 37</cite> <he>יפקון … לקדָּמוּתִי</he> let all the people (of the place) come out to meet me. ",
+				"<cite ref=\"Vayikra Rabbah 37:2\">Ib.</cite> <he>לקדָּמוּתֵיה</he>, v. <cite ref=\"S00154\"><he>קֳדָם</he></cite>."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " (adv.) <i>first, in front</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 33:2\">Targ. O. Gen. XXXIII, 2</cite> ed. Berl., v. <cite ref=\"S00160\">next w.</cite>"
+			],
+			"label": "5"
+		}
+	]
+}

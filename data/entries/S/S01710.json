@@ -1,0 +1,34 @@
+{
+	"id": "S01710",
+	"slug": "קפודקיא-2",
+	"headword": {
+		"text": "קַפּוּדְקָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַפּוּדְקָאָה"
+		},
+		{
+			"text": "קַפּוּטְ׳"
+		}
+	],
+	"page": {
+		"number": 1399,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01709\">preced.</cite>) <i>Cappadocian</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:4:3\">Y. Peah I, 16ᶜ</cite> top <he>ר׳ יודן ק׳</he>. ",
+				"<cite ref=\"Kohelet Rabbah 7:23:3\">Koh. R. to VII, 23</cite> <he>ר׳ שמואל ק׳</he>; <cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite>; a. e.—Pl. <cite ref=\"S01708\"><he>קַפּוּדְקָאֵי</he></cite>, <cite ref=\"S01709\"><he>קַפּוּטְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 10:14\">Targ. Gen. X, 14</cite> (h. text <he>כפתרים</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:11\">Targ. Ez. XXVII, 11</cite> (h. text <he>גמדים</he>); a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:4:3\">Y. Shebi. IX, 39ᵃ</cite> top <he>ק׳ דציפורין</he> the Cappadocian students at Sepphoris."
+			]
+		}
+	]
+}

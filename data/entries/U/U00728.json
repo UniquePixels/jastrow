@@ -1,0 +1,28 @@
+{
+	"id": "U00728",
+	"slug": "שחתא-2",
+	"headword": {
+		"text": "שַׁחֲתָא"
+	},
+	"page": {
+		"number": 1552,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U00725\"><he>שַׁחַת</he> I</cite>, <i>pit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 94:13\">Targ. Ps. XCIV, 13</cite> Ms. (ed. <cite ref=\"U00367\"><he>שוחה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>arm-pit</i>, v. <cite ref=\"U00610\"><he>שְׁחָאתָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

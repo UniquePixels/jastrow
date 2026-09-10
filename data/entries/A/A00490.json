@@ -1,0 +1,27 @@
+{
+	"id": "A00490",
+	"slug": "אהורייר",
+	"headword": {
+		"text": "אֲהוּרְיָיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲהוּרְיָירָא"
+		}
+	],
+	"page": {
+		"number": 19,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (horrearius, ὁρριάριος; v. Sm. Ant. s. v. Horreum) <i>store-keeper, steward</i>. [Comment.: fr. <he>אֻרְוָוה</he>, v. <cite ref=\"A00877\"><he>אוּרְיָא</he></cite>, <i>equerry</i>.] <cite ref=\"Megillah 12b:6\">Meg. 12ᵇ</cite> <he>בר אהוריירֵיה דאבא</he> thou, son of my father’s steward. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 85a:4\">B. Mets. 85ᵃ</cite> (Ms. M. <he>אהוריריה</he>); <cite ref=\"Shabbat 113b:11\">Sabb. 113ᵇ</cite> <he>אהוריריה</he> (v. Rabb. D. S. a. l. note 4) <he>א׳ דרבי</he> Rabbi’s house steward (manager)."
+			]
+		}
+	]
+}

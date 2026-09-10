@@ -1,0 +1,27 @@
+{
+	"id": "V00940",
+	"slug": "תרגומא",
+	"headword": {
+		"text": "תַּרְגּוּמָא"
+	},
+	"page": {
+		"number": 1695,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00939\">same</cite><i>loud speech</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 7:1\">Targ. Ps. VII, 1</cite> <he>ת׳ דאודייתא</he> (ed. Lag. <he>תִּירְגָּמָא</he>; Regia <cite ref=\"V00285\"><he>תִּרְגְּמָא</he></cite>; ed. Ven. <cite ref=\"V00288\"><he>תורגמנא</he></cite>) a shout (song) of thanksgiving (h. text <he>שגיון</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>translation, version</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 3a:10\">Meg. 3ᵃ</cite> <he>אלמלא ת׳ דהאי קרא וכ׳</he> but for the Aramaic rendering of that verse (<cite ref=\"Zechariah 12:11\">Zech. XII, 11</cite>) we should never have known what it means; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

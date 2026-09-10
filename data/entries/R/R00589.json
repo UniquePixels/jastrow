@@ -1,0 +1,37 @@
+{
+	"id": "R00589",
+	"slug": "צמק-2",
+	"headword": {
+		"text": "צְמַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְמֵיק"
+		}
+	],
+	"page": {
+		"number": 1289,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"R00588\">same</cite> Part. pass. <cite ref=\"R00589\"><he>צָמִיק</he></cite>; f. <he>צְמִיקָא</he> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 6:3\">Targ. Y. I Num. VI, 3</cite> (h. text <he>יבשים</he>).—",
+				"<cite ref=\"Chullin 55b:12\">Ḥull. 55ᵇ</cite> <he>הנהו דיכרי דצ׳ וכ׳</he> those rams whose lungs were dried up."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַמַּק"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"R00588\">preced.</cite> <i>Pi.</i>—Part. pass. <he>מְצַמַּק</he>. Y. Peah VII, 20ᵇ <he>חרוב מצ׳</he> (not <cite ref=\"K01101\"><he>כרוב</he></cite>) a dish of dried carobs.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

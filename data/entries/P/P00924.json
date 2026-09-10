@@ -1,0 +1,27 @@
+{
+	"id": "P00924",
+	"slug": "עמקותא",
+	"headword": {
+		"text": "עִמְקוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִימְ׳"
+		}
+	],
+	"page": {
+		"number": 1090,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"P00287\"><he>עוּמְקָנָא</he></cite>) <i>trickery, insidiousness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 7:16\">Targ. Hos. VII, 16</cite> (Regia <cite ref=\"P00809\"><he>עֲקִימוּת</he></cite>; h. text <he>זעם</he>)."
+			]
+		}
+	]
+}

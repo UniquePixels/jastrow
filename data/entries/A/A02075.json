@@ -1,0 +1,23 @@
+{
+	"id": "A02075",
+	"slug": "אמתות",
+	"headword": {
+		"text": "אֲמָתוֹת"
+	},
+	"page": {
+		"number": 80,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.<i>the use of the word</i> <cite ref=\"A02072\"><he>אֲמָת־</he></cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 31b:15\">Ber. 31ᵇ</cite> <he>שלש א׳</he> three times <cite ref=\"A02072\"><he>אֲמָת־</he></cite> (<cite ref=\"I Samuel 1:11\">I Sam. I, 11</cite>; Ms. M. <cite ref=\"A01993\"><he>אֲמָהוֹת</he></cite>)."
+			]
+		}
+	]
+}

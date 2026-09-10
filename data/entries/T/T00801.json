@@ -1,0 +1,44 @@
+{
+	"id": "T00801",
+	"slug": "רמז-1",
+	"headword": {
+		"text": "רָמַז"
+	},
+	"page": {
+		"number": 1481,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to move</i>, cmp. <he>רָמַשׂ</he>,] <i>to nod, gesticulate, hint</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 5:7\">Gitt. V, 7</cite> <he>חרש רוֹמֵז ונִרְמַז</he> a deaf-mute person may transact business by gesticulating and being spoken to by gestures (with hands and head, contrad. to <cite ref=\"S01764\"><he>קָפַץ</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 93:6\">Gen. R. s. 93</cite> <he>ר׳ למנשה</he> he motioned to Manasseh; a. fr.—Trnsf. <i>to intimate, hint</i>. ",
+				"<cite ref=\"Shabbat 113b:10\">Sabb. 113ᵇ</cite> <he>רֶמֶז רָ׳ לה וכ׳</he> he intimated to her that &c. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:15:4\">Cant. R. to I, 15</cite> <he>רמז רָמְזָה לנח וכ׳</he> she (the dove, by bringing an olive leaf) hinted to Noah, as if saying &c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִמֵּז"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00800\">same</cite>. Ib. to I, 9 <he>והיתה מְרַמֶּזֶת וכ׳</he> she motioned to her captors saying to them, I am yours &c.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִרְמַז"],
+			"senses": [
+				{
+					"gloss": "<i>to be spoken to by gestures</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

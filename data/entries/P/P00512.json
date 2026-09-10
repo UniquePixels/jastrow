@@ -1,0 +1,22 @@
+{
+	"id": "P00512",
+	"slug": "עידית",
+	"headword": {
+		"text": "עִידִּית"
+	},
+	"page": {
+		"number": 1067,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָדָה</he> II, cmp. <cite ref=\"P00122\"><he>עָדַד</he></cite>) [<i>booty, lion’s share</i>,] <i>choice land</i>, v. <cite ref=\"G00269\"><he>זִיבּוּרִית</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 5:1\">Gitt. V, 1</cite> <he>הניזקין שמין להן בע׳</he> in cases of damage we assess (and collect from) the choice land of the defendant; <cite ref=\"Tosefta Ketubot 12:2\">Tosef. Keth. XII, 2</cite>; <cite ref=\"Tosefta Bava Kamma 1:1\">Tosef. B. Kam. I, 1</cite> <he>שמין להם מן הע׳</he>; a. fr.—[<cite ref=\"Tosefta Shevi'it 5:17\">Tosef. Shebi. V, 17</cite> <he>העידית</he>, v. <cite ref=\"P00691\"><he>עִירִית</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"id": "P00039",
+	"slug": "עבי-1",
+	"headword": {
+		"text": "עבי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָבָה"
+		}
+	],
+	"page": {
+		"number": 1037,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P00011\"><he>עָבַב</he></cite>)<i>to be thick, dense, dark</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶעֱבֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to become thick, swell</i>. Tanḥ. Vaëra 3 <he>ובלען</he> … <he>ולא נ׳ יותר וכ׳</he> Aaron’s staff swallowed them up and yet was not thicker than before.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֶעֱבָה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00038\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Tosefta Kilaim 3:4\">Tosef. Kil. III, 4</cite> <he>הֶעֱבוּ ונעשו מכוונות</he> (not <he>העבן</he>) if the plants on growing denser appeared to form a straight line; Y. ib. V, beg. 29ᵈ <he>העבות</he> (R. S. to <cite ref=\"Mishnah Kilayim 5:1\">Kil. V, 1</cite> <he>היו עבים</he>; corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["עִיבָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to make thick; to condense, darken; to facilitate growth</i>. Y. Taan. III, 66ᶜ <cite ref=\"M02050\"><he>מְעַבֶּה</he></cite>, v. <cite ref=\"P00008\"><he>עָב</he> II</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Moed Katan 2:5\">M. Kat. II, 5</cite> <he>מְחַפִּין … אף מְעַבִּין</he> (during the festive week) you may cover up the cut figs with straw; … you may even &c.; expl. ",
+						"<cite ref=\"Moed Katan 13b:4\">ib. 13ᵇ</cite> <he>מחפין אקלושי מעבין אסמוכי</he> by <i>m’ḥappin</i> is meant a loose covering, by <i>m’ʿabbin</i> a dense, packed covering; (anoth. opin.) <he>מחפין … מע׳ … כמין כרי</he> <i>m’ḥappin</i> means a loose or a dense covering, <i>m’ʿabbin</i> means bringing the figs close together so as to form a pile. Y. Peah III, 17ᶜ <he>בשעי׳ על מנת להדל</he> if he set the plants close together with the intention of thinning them afterwards. Ib. VII, 20ᵇ <he>מתוך שהוא מְעַבָּן וכ׳</he> because he strengthens the remaining plants (by thinning the field), they produce more fruit the next year (and thus he benefits also the poor). Y. Shebi. I, beg. 33ᵃ <he>מעבה את הכורת</he> he advances the growth of the ramification, opp. <he>מתיש כוחה</he>. Y. Bets. IV, 62ᶜ top <he>בשלא נתכוין לעַבּוֹתָהּ</he> when (in putting wood on the booth) he had not had the intention to cover it more densely; a. e.—",
+						"<cite ref=\"Tosefta Peah 4:14\">Tosef. Peah IV, 14</cite> <he>המעבה את שוקיו</he> (ed. Zuck. <he>המקפח</he>) he who contracts his shoulders (simulating a hump), v. <cite ref=\"S01725\"><he>קָפַח</he></cite>.—Part. pass. <cite ref=\"M02073\"><he>מְעוּבֶּה</he></cite>, q. v."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

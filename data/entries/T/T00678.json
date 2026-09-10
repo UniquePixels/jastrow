@@ -1,0 +1,29 @@
+{
+	"id": "T00678",
+	"slug": "ריפוי",
+	"headword": {
+		"text": "רִיפּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִפּ׳"
+		}
+	],
+	"page": {
+		"number": 1476,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00927\"><he>רָפָא</he></cite>) <i>curing</i>; (sub. <cite ref=\"D00891\"><he>דמי</he></cite>) <i>indemnity for curing expenses</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 2:2\">Ab. Zar. II, 2</cite> <he>מתרפאין מהן ר׳ ממון אבל לא ר׳ נפשות</he> you may employ their (the gentiles’) services for curing your belonging (beasts), but not for curing your bodies. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 13:2:4\">Y. Keth. XIII, 35ᵈ</cite> bot. <he>ר׳ נפש … ר׳ ממון</he> (<cite ref=\"Mishnah Nedarim 4:4\">Ned. IV, 4</cite> <he>רפואת</he>). ",
+				"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite> <he>בר׳ ושבת</he> indemnity for curing and for loss of time; <cite ref=\"Jerusalem Talmud Sanhedrin 9:3:4\">Y. Snh. IX, 27ᵃ</cite> bot.; a. e."
+			]
+		}
+	]
+}

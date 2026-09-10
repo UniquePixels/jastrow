@@ -1,0 +1,32 @@
+{
+	"id": "M01828",
+	"slug": "מסאב",
+	"headword": {
+		"text": "מְסָאָב"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסָאֲבָא"
+		}
+	],
+	"page": {
+		"number": 803,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00004\"><he>סְאַב</he></cite>) <i>repulsive; unclean</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 5:2\">Targ. O. Lev. V, 2</cite> (Y. <cite ref=\"M01831\"><he>מְסָאִיב</he></cite>). Ib. XIII, 45; a. fr.—",
+				"<cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite> Ms. M. (ed. <he>מסתאב</he>); <cite ref=\"Avodah Zarah 37a:3\">Ab. Zar. 37ᵃ</cite>; a. e.—Pl. <he>מְסָאֲבִין</he>, <he>מְסַאֲבִין</he>. ",
+				"<cite ref=\"Onkelos Leviticus 11:26\">Targ. Lev. XI, 26</cite>; a. fr.—<i>Fem.</i> <cite ref=\"M01828\"><he>מְסָאֲבָא</he></cite>, <he>מְסָאַבְתָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 4:14\">Targ. Ez. IV, 14</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 5:2\">Targ. Lev. V, 2</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:15\">Y. Kil. IX, 32ᶜ</cite> bot. <he>ארעא מ׳</he> an unclean land (outside of Palestine); <cite ref=\"Jerusalem Talmud Ketubot 12:3:15\">Y. Keth. XII, 35ᵇ</cite> <he>מְסָאַבְתָּה</he>."
+			]
+		}
+	]
+}

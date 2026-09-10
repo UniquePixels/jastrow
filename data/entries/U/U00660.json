@@ -1,0 +1,31 @@
+{
+	"id": "U00660",
+	"slug": "שחל-1",
+	"headword": {
+		"text": "שָׁחַל",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 1548,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"U00697\"><he>שָׁחַק</he></cite>; Arab. <i>saḥala</i> decorticavit) <i>to rub off</i>, <i>peel</i>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁחֵל"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"K00951\"><he>כָּסַף</he></cite> <i>Hif.</i>) <i>to grow white, be frightened</i>. Ab. d’R. N., 2ⁿᵈ vers., ch. XLIII (ed. Schechter, p. 122) <he>שחל שהכל מְשַׁחֲלִין לפניו</he> the lion is called <i>shaḥal</i>, because all grow white before him; (<cite ref=\"Yalkut Shimoni on Nach 959:20\">Yalk. Prov. 959</cite> <he>שחל שחָלִים לפניו</he> because they tremble before him, prob. corrupt).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

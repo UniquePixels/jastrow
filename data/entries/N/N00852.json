@@ -1,0 +1,66 @@
+{
+	"id": "N00852",
+	"slug": "נכת-2",
+	"headword": {
+		"text": "נְכַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְכֵית"
+		}
+	],
+	"page": {
+		"number": 912,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>כתת</he>; v. <he>נכש</he>) <i>to wound, bite, injure</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 21:9\">Targ. Num. XXI, 9</cite>. ",
+				"<cite ref=\"Onkelos Numbers 21:6\">Ib. 6</cite> (ed. Berl. <he>נַכִּיתוּ</he> <i>Pa.</i>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> <he>חיויא דבעי למִיכַּת וכ׳</he> the serpent that is to bite my son. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:49\">Y. Peah I, 16ᵃ</cite> bot. [read:] <he>אילולי דאתאמר … נְכוֹת לא הוינא נָכֵית</he> had I not been told from on high, ‘bite’, I should not bite. ",
+				"<cite ref=\"Kohelet Rabbah 7:1:4\">Koh. R. to VII, 1</cite> <he>מאן דנַכְתֵיה וכ׳</he>, v. <cite ref=\"D00411\"><he>דְּחֵיל</he></cite>. ",
+				"<cite ref=\"Gittin 67b:11\">Gitt. 67ᵇ</cite> (expl. <cite ref=\"S00574\"><he>קורדייקוס</he></cite>) <he>דנכתיה חמרא וכ׳</he> young wine from the press has bitten him (made him delirious). ",
+				"<cite ref=\"Bava Metzia 60b:14\">B. Mets. 60ᵇ</cite> <he>נשך איכא דקא נכית ליה וכ׳</he> it is <i>neshekh</i> (usury, v. <cite ref=\"N01326\"><he>נֶשֶׁךְ</he></cite>), for he bites (injures) him, by taking from him something which he (the creditor) had not given him; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַכֵּית"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00851\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 21:6\">Targ. O. Num. XXI, 6</cite>, v. supra.—",
+						"<cite ref=\"Avodah Zarah 35b:20\">Ab. Zar. 35ᵇ</cite> <he>היה מְנַכֵּית ואכיל וכ׳</he> took a bite and ate of the bread (of a non-Jew) &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to bite</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 76a:3-7\">Yeb. 76ᵃ</cite> <he>מייתינן … ומְנַכְּתִינָן ליה וכ׳</he> we get a big ant and let it bite (insert its head into the opening) and cut its head off."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִינְכֵית", "אִינְּכֵית"],
+			"senses": [
+				{
+					"gloss": "<i>to be bitten, stung</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 21:8\">Targ. O. Num. XXI, 8</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Numbers 21:9\">Targ. Y. II ib. 9</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "A01016",
+	"slug": "אחוניתא",
+	"headword": {
+		"text": "אַחְוָנַיְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַחְוָנַיְיתָא"
+		}
+	],
+	"page": {
+		"number": 39,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A01015\">foreg.</cite>) <i>a dish of plums</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:2:4\">Y. Ber. VI, 10ᶜ</cite> top."
+			]
+		}
+	]
+}

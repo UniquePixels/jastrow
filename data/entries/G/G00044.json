@@ -1,0 +1,32 @@
+{
+	"id": "G00044",
+	"slug": "זבל-1",
+	"headword": {
+		"text": "זָבַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 379,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00009\"><he>זבד</he></cite>)<i>to entertain liberally</i>.—Denom. <cite ref=\"G00021\"><he>זְבוּל</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִבֵּל"],
+			"senses": [
+				{
+					"gloss": " (cmp. <he>זבח</he>) <i>to offer to idols, make merry with idolatrous ceremonies</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 18b:9\">Ab. Zar. 18ᵇ</cite> <he>שמְזַבְּלִין שם וכ׳</he> because they have there (in their theatres) idolatrous entertainments; <cite ref=\"Tosefta Avodah Zarah 2:5\">Tosef. ib. II, 5</cite> (ed. Zuck. <he>מזבחין</he>). Y. Ber. IX, 13ᵇ bot. if one sees people <he>מז׳ לע״ז</he> engaged in idolatrous services; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

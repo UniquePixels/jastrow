@@ -1,0 +1,52 @@
+{
+	"id": "A02446",
+	"slug": "אסיר-2",
+	"headword": {
+		"text": "אָסִיר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַסִּיר"
+		},
+		{
+			"text": "אֲסִירָא"
+		}
+	],
+	"page": {
+		"number": 93,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אסר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " as <cite ref=\"A02445\">preced.</cite>, <i>imprisoned, prisoner</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 40:3\">Targ. Gen. XL, 3</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (part. pass. of <cite ref=\"A02551\"><he>אֲסַר</he></cite>) <i>tied, connected</i>. Fem. <cite ref=\"A02446\"><he>אֲסִירָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 25:1\">Targ. Y. II, Gen. XXV, 1</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>forbidden</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 25:6\">Targ. Y. Num. XXV, 6</cite>.—Pl. <he>אֲסִירִין</he>, <cite ref=\"A02438\"><he>אֲסִירֵי</he></cite>, <he>אֲסִירַיָּא</he>; fem. <cite ref=\"A02446\"><he>אֲסִירָן</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 40:3\">Targ. Gen. XL, 3</cite>; <cite ref=\"Onkelos Genesis 40:5\">5</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on II Samuel 3:34\">Targ. II Sam. III, 34</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "N01011",
+	"slug": "נערותא",
+	"headword": {
+		"text": "נַעֲרוּתָא"
+	},
+	"page": {
+		"number": 922,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"N01006\"><he>נָעַר</he> I</cite>) <i>roaring, camel’s cry</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 120b:10\">Yeb. 120ᵇ</cite> <he>ולא אפסקיה לנַעֲרוּתֵיה</he> Rashi (ed. <he>אפסיקתיה</he>) and this did not make the camel cease from crying (until life was entirely extinct)."
+			]
+		}
+	]
+}

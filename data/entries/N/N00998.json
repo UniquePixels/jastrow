@@ -1,0 +1,27 @@
+{
+	"id": "N00998",
+	"slug": "נענא",
+	"headword": {
+		"text": "נַעְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַעְנַע"
+		}
+	],
+	"page": {
+		"number": 921,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <he>נִינְיָא</he> II) <i>mint</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:23\">Y. Sabb. VII, 10ᵃ</cite> <he>נענע</he> ed. Krot. (oth. <cite ref=\"N00998\"><he>נענא</he></cite>)."
+			]
+		}
+	]
+}

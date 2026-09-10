@@ -1,0 +1,22 @@
+{
+	"id": "Q00911",
+	"slug": "פכורא",
+	"headword": {
+		"text": "פָּכוֹרָא"
+	},
+	"page": {
+		"number": 1174,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00924\"><he>פְּכַר</he></cite>) <i>breaker, destroyer</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite>, beg. <he>פ׳ תרעיא היך תרעך פכור וכ׳</he> thou, breaker of gates, how is thy gate broken into and ruined!"
+			]
+		}
+	]
+}

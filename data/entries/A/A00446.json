@@ -1,0 +1,45 @@
+{
+	"id": "A00446",
+	"slug": "אדר-6",
+	"headword": {
+		"text": "אֵדֶר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִדְרָא",
+			"homograph": 2
+		},
+		{
+			"text": "אֲדָרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 18,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. m. (v. <cite ref=\"A00441\"><he>אָדַר</he></cite>) [<i>thick-leaved, dark</i>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a cedar species</i>, prob. <i>Spanish Juniper</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 23a:5\">R. Hash. 23ᵃ</cite> <he>מאי קדרוס</he> (<he>ם</he>) <he>אדרא</he> Ms. M. (ed. <cite ref=\"S02296\"><he>קתרוס</he></cite>) what is <i>kedros</i> (κέδρος)? <i>Adara</i>. ",
+				"<cite ref=\"Sanhedrin 108b\">Snh. 108ᵇ</cite> what is <i>gofer?</i> <he>רב אמר אדרא דבי ר׳ שילא אמר וכ׳</he> Ar. a Ms. Fl. (v. Rabb. D. S. a. l.); cmp. ",
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite>; <cite ref=\"Yalkut Shimoni on Torah 51\">Yalk. Gen. 51</cite>.—",
+				"<cite ref=\"Beitzah 15b:20\">Bets. 15ᵇ</cite> <he>יטע אדר וכ׳</he> let him plant an <i>edar</i> (allud. to <i>addir</i> &c., <cite ref=\"Psalms 93:4\">Ps. XCIII, 4</cite>); <he>א״נ אדרא וכ׳</he> or <i>adara</i> as its (popular or Chald.) name is; as people say, it is called <i>adara</i> because it lasts for generations <he>(א־דרא</he>). ",
+				"<cite ref=\"Gittin 69b:19\">Git. 69ᵇ</cite> <he>אטרף א׳</he> leaves of ad. ",
+				"<cite ref=\"Gittin 69b:19\">Ib.</cite> <he>מיא דא׳</he> decoct thereof."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " אִדְרָא <i>fig-tree</i>. Targ. II, <cite ref=\"Esther 7:9\">Esth. VII, 9</cite> (to which perhaps belongs. Git. l. c.).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

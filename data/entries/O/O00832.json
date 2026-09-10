@@ -1,0 +1,45 @@
+{
+	"id": "O00832",
+	"slug": "סירה-1",
+	"headword": {
+		"text": "סִירָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִירָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 987,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"O00857\"><he><cite ref=\"O00827\"><he>סִיר</he></cite>; <cite ref=\"O00409\"><he>סוּר</he></cite></he></cite> , v. <cite ref=\"O01595\"><he>סרי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>degenerate growth</i>,] <i>thorn, thorn-bush</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 37b\">Bekh. 37ᵇ</cite>; <cite ref=\"Shevuot 4b\">Shebu. 4ᵇ</cite>, a. e. <he>הסול והס׳</he> a prick or a thorn, v. <cite ref=\"O00311\"><he>סוֹל</he></cite>. ",
+				"<cite ref=\"Mishnah Keritot 3:8\">Ker. III, 8</cite> (<cite ref=\"Keritot 15b:2\">15ᵇ</cite>) <he>תוחבו בס׳</he> pins it with a thorn (to a stationary object). ",
+				"<cite ref=\"Vayikra Rabbah 26:2\">Lev. R. s. 26</cite>; Y. Peah I, 16ᵃ bot.; <cite ref=\"Midrash Tehillim 7\">Midr. Till. to Ps. VII</cite>, a. e., v. <cite ref=\"P00128\"><he>עָדָה</he> I</cite>. ",
+				"<cite ref=\"Sanhedrin 49a:11\">Snh. 49ᵃ</cite> <he>בור וס׳ גרמו וכ׳</he> well and thorn were the cause of Abner’s death (i.e. when David had taken Saul’s pitcher and spear, Abner said that the lads had left them at the well, and when the lap of Saul’s cloak was shown in David’s hand, Abner said, it was caught in a thornbush); a. fr.—Pl. <he>סִירוֹת</he>, <he>סִירָאוֹת</he>. Midr. Till. l. c. ",
+				"<cite ref=\"Shemot Rabbah 30:20\">Ex. R. s. 30</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>refuse, foul matter.—</i>Pl. <he>סִירוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 2:1\">Midr. Till. to Ps. II</cite>, beg. <he>מה הים הזה כל סִירוֹתָיו על פיו כך סִירוֹתֵיהֶם וכ׳</he> as all the refuse of the sea is on its mouth (shore), so the foulness of the wicked is in their mouths; <cite ref=\"Yalkut Shimoni on Nach 350\">Yalk. Is. 350</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 771:6\">Yalk. Num. 771</cite> <he>מה הנהר שוטף את הס׳ וכ׳</he> as the river carries off the refuse, so does the Day of Atonement &c."
+			],
+			"label": "2"
+		}
+	]
+}

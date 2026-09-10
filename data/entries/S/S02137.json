@@ -1,0 +1,42 @@
+{
+	"id": "S02137",
+	"slug": "קרפיף",
+	"headword": {
+		"text": "קַרְפִּיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְפִּף"
+		}
+	],
+	"page": {
+		"number": 1424,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Parel of <he>קפף</he>, cmp. <cite ref=\"N01233\"><he>נָקַף</he></cite> II Hif.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>enclosure, esp. an enclosed space outside of a settlement</i>, for storage of wood &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 2:3\">Erub. II, 3</cite> <he>לא אמרו … לגנה ולק׳</he> they limited the area to two S’ahs only for a garden and a storehouse. ",
+				"<cite ref=\"Mishnah Eruvin 2:5\">Ib. 5</cite> <he>הגינה והק׳ שהן וכ׳</he> a garden or a <i>ḳarpif</i> of seventy (cubits) and a fraction by seventy and a fraction, surrounded by a fence ten handbreadths high &c. ",
+				"<cite ref=\"Mishnah Beitzah 4:2\">Bets. IV, 2</cite> <he>מביאין … ומן הק׳ וכ׳</he> you may bring in (on the Holy Day for immediate use) wood from the field, taking from what is piled up, and from the <i>k.</i> even from what lies around scattered; <he>איזהו ק׳ כל וכ׳</he> what is understood by <i>k.</i>? An enclosed space near the town. ",
+				"<cite ref=\"Bava Batra 24b:6\">B. Bath. 24ᵇ</cite> <he>ק׳ … שהוקף לדירה</he> a <i>ḳ.</i>… which has been enclosed for living purposes; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an area</i> (of seventy square cubits) <i>outside of a town, added to the city limits for the purposes of Sabbath distances</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 5:2\">Erub. V, 2</cite> <he>נותנין ק׳ לעיר</he> for measuring Sabbath limits we allow a <i>ḳ.</i> to each town; <he>וחכמים … ק׳ אלא בין וכ׳</he> but the scholars say, a <i>ḳ.</i> as an extension to city limits is allowed only in the case of two neighboring towns; <he>אם יש לזו … עושה ק׳ לשתיהן להיותן כאחת</he> (Y. ed. <cite ref=\"S02134\"><he>קִרְפּוּף</he></cite>) if there is a space of seventy cubits for one and an equal space for the other, this forms a <i>ḳ.</i> for both, so that they may be considered as one town. Ib. 57ᵃ <he>מאי ק׳ תורת ק׳</he> by <i>ḳ.</i> the scholars mean the application of the law of <i>ḳ.</i> (as an extension to the town); a. fr.—Pl. <he>קַרְפִּיפוֹת</he>. Ib. IX, 1 <he>אחד גגות … ק׳ רשות וכ׳</he> joint roofs, courts, and enclosures are each considered as one area (for Sabbath movements). Ib. 89ᵃ; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "M02241",
+	"slug": "מפקתא",
+	"headword": {
+		"text": "מַפַּקְתָּא"
+	},
+	"page": {
+		"number": 821,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02240\">preced.</cite>) = h. <cite ref=\"J00527\"><he>יְצִיאָה</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>discharge, excrement</i>. Constr. <he>מַפְקַת</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 4:12\">Targ. Ez. IV, 12</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 23:14\">Targ. O. Deut. XXIII, 14</cite> (ed. Lisb. <cite ref=\"M02239\"><he>מַפְקָנָ׳</he></cite>; Ms. <cite ref=\"M02240\"><he>מַפְקָנוּתָ׳</he></cite>); a. e.—",
+				"<cite ref=\"Shabbat 134a\">Sabb. 134ᵃ</cite> (<he>בי</he>) <he>מַפַּקְתֵּיה</he> its anus."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>expense, outlay</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 34:12\">Lev. R. s. 34</cite> <he>מן דְּמַאן מ׳</he> (not <he>דמא</he>) who shall make the outlay?; <cite ref=\"Yalkut Shimoni on Torah 665:8\">Yalk. ib. 665</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "A01489",
+	"slug": "איספרגוס",
+	"headword": {
+		"text": "אִיסְפַּרְגּוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְפַּ׳"
+		}
+	],
+	"page": {
+		"number": 56,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀσπάραγος) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>asparagus</i>, also <i>shoots of cabbage</i>, like asparagus in form. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 6:10\">Ned. VI, 10</cite> if one vows abstinence from cabbage <he>אסור בא׳</he> he is forbidden to eat asparagus (the latter being considered a species of the genus ‘cabbage’). ",
+				"<cite ref=\"Tosefta Demai 4:5\">Tosef. Dem. IV, 5</cite> <he>לקנב את הא׳ שׁבו</he> to cut off the stalks thereon (and throw the remainder away)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>asparagus, a beverage</i> of wine or beer with asparagus. ",
+			"units": [
+				"<cite ref=\"Berakhot 51a:5\">Ber. 51ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 110b:9\">Pes. 110ᵇ</cite>. ",
+				"<cite ref=\"Kiddushin 70a:15\">Kidd. 70ᵃ</cite> <he>אי׳ דקריוה וכ׳</he> aspar. as the educated call (the morning drink). [<cite ref=\"Yalkut Shimoni on Torah 34\">Yalk. Gen. 34</cite> <cite ref=\"A01489\"><he>איספרגוס</he></cite> read <he>אִיסְפַרְגִּיס</he> (σφραγίς) <i>seal</i>, v. <cite ref=\"O01428\"><he>סְפַרְגִּיס</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

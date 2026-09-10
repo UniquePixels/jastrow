@@ -1,0 +1,33 @@
+{
+	"id": "N00484",
+	"slug": "נחותא-2",
+	"headword": {
+		"text": "נָחוֹתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָחוֹתָה"
+		}
+	],
+	"page": {
+		"number": 894,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00534\"><he>נְחַת</he></cite>) <i>one going</i> or <i>coming down</i>, esp. one coming from Palestine to Babylonia. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 8:1:3\">Y. Shek. VIII, 51ᵃ</cite>, a. e. <he>אבדומא נ׳</he> (not <cite ref=\"A00062\"><he>אבודמא</he></cite>) A. who had been in Babylonia. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:15\">Y. Kil. IX, 32ᶜ</cite> bot. <he>עולא נ׳ הוה</he> Ulla had gone to Babylonia; <cite ref=\"Jerusalem Talmud Ketubot 12:3:15\">Y. Keth. XII, 35ᵇ</cite> bot. (not <cite ref=\"P00817\"><he>עללא</he></cite>).—Pl. constr. <he>נָחוֹתֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 115:17\">Targ. Ps. CXV, 17</cite> ed. Lag. (ed. <he>נָחֲתֵי</he>); a. fr.—נ׳ ימא <i>sea-farers</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:23\">Ib. CVII, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 42:10\">Targ. Is. XLII, 10</cite> <he>נַחֲתֵי</he>.—",
+				"<cite ref=\"Shabbat 20b:8\">Sabb. 20ᵇ</cite>; <cite ref=\"Shabbat 90a:5\">90ᵃ</cite> <he>שאילתינהו לכל נ׳ י׳</he>, I inquired of all sea-farers. ",
+				"<cite ref=\"Bava Metzia 85a:4\">B. Mets. 85ᵃ</cite> (not <cite ref=\"N00496\"><he>נחיתי</he></cite>); a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "S00042",
+	"slug": "קבורה",
+	"headword": {
+		"text": "קְבוּרָה"
+	},
+	"page": {
+		"number": 1308,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"S00095\"><he>קָבַר</he></cite>)<i>burial</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 28a:2\">M. Kat. 28ᵃ</cite> (ref. to <cite ref=\"Numbers 20:1\">Num. XX, 1</cite>) <he>סמוך למיתה ק׳</he> immediately after death, burial is mentioned (without mentioning the exhibition of the body in an open place prior to burial). ",
+				"<cite ref=\"Sanhedrin 46b:9\">Snh. 46ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 21:23\">Deut. XXI, 23</cite>) <he>מכאן רמז לק׳ וכ׳</he> here is a hint in the Torah that burying the dead is a religious duty. ",
+				"<cite ref=\"Deuteronomy 21:23\">Ib.</cite> <he>ק׳ משום בזיונא</he>, v. <cite ref=\"B00441\"><he>בִּזְיוֹנָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:14\">Y. Taan. IV, 69ᵃ</cite> top <he>משניתנו … לק׳</he> when those slain at Bethar were permitted to be buried; <cite ref=\"Berakhot 48b\">Ber. 48ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 62\">Gen. R. s. 62</cite> <he>מקְבוּרָתָהּ … לקְבוּרָתוֹ וכ׳</he> thirty-eight years intervened between Sarah’s funeral and that of Abraham; a. fr.—",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 33:21\">Targ. Y. II, Deut. XXXIII, 21</cite> <he>בית ק׳</he> <i>cemetery</i>"
+			]
+		}
+	]
+}

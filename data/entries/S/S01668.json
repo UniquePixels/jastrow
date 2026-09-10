@@ -1,0 +1,42 @@
+{
+	"id": "S01668",
+	"slug": "קסם-4",
+	"headword": {
+		"text": "קְסַם",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִסְמָא"
+		},
+		{
+			"text": "קוּ׳"
+		},
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1397,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01667\">same</cite><i>decision</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:10\">Targ. Prov. XVI, 10</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>divination, divining tools</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 21:26\">Targ. Ez. XXI, 26</cite> (ed. Wil. <cite ref=\"S01667\"><he>קֶסֶם</he></cite>); <cite ref=\"Targum Jonathan on Ezekiel 21:27\">27</cite>; a. e.—Pl. <he>קִסְמִין</he>, <he>קִסְמַיָּא</he>, <he>קֻ׳</he>, <cite ref=\"S00596\"><he>קוּ׳</he></cite>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 18:10\">Targ. Deut. XVIII, 10</cite> (Y. II <cite ref=\"S00459\"><he>קַסְ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 30:27\">Targ. Y. Gen. XXX, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 18:14\">Targ. Y. I Deut. XVIII, 14</cite> (Y. II, v. <cite ref=\"S01672\"><he>קַסָּמָא</he></cite>); a. fr.—Y. Maasr. III, end, 51ᵃ, v. <cite ref=\"S01560\"><he>קַנְטֵר</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

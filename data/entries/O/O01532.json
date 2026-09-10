@@ -1,0 +1,25 @@
+{
+	"id": "O01532",
+	"slug": "סרגל-2",
+	"headword": {
+		"text": "סַרְגֵּל"
+	},
+	"page": {
+		"number": 1023,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"O01531\">same</cite>, esp. <i>to trace outlines on hides for cutting</i>. Y. Sabb. VI, 10ᶜ bot. <he>מהו משרטטין</he> (<he>לון</he>) <he>מְסַרְגְּלִין לון</he> what is <i>m’sharṭ’ṭin?</i> They traced on them.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to level with a strickle</i>. <i>Part. pass.</i> <he>מְסַרְגַּל</he> <i>level</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 16:14\">Targ. Y. Ex. XVI, 14</cite> (h. text <he>מחספס</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

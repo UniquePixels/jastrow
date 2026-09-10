@@ -1,0 +1,33 @@
+{
+	"id": "K00041",
+	"slug": "כבול-2",
+	"headword": {
+		"text": "כָּבוּל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 607,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00060\"><he>כָּבַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A01445\"><he>אִיסְטְמָא</he></cite>) <i>hair-net</i>, a cap worn under the head-dress. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:1\">Sabb. VI, 1</cite>; <cite ref=\"Mishnah Shabbat 6:5\">5</cite>.—Y. ib. 7ᵈ <he>ולא בכבולי טבזסה</he>, read: <he>ולא בכ׳ שבכה</he> ‘and not in a <i>Kabul’</i> (Mish. l. c.), that is a hair-net. Bab. ib. 57ᵇ <he>כ׳ זה איני יודע אי וכ׳</he> this <i>Kabul</i> (Mish. l. c.) I do not know whether it means a slave’s chain &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>chain</i>.—Pl. <he>כְּבוּלִין</he> <i>chain-works</i> for drawing water. ",
+			"units": ["<cite ref=\"Tosefta Mikvaot 4:2\">Tosef. Mikv. IV, 2</cite>."],
+			"label": "2"
+		}
+	]
+}

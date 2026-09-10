@@ -1,0 +1,46 @@
+{
+	"id": "C00730",
+	"slug": "גילוייא",
+	"headword": {
+		"text": "גִּילּוּיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּילּוּיָא"
+		},
+		{
+			"text": "גִּלּ׳"
+		}
+	],
+	"page": {
+		"number": 238,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"C00729\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 6:2\">Targ. Y. Gen. VI, 2</cite> <he>גִּילּוּי בשרא</he> nakedness. ",
+				"<cite ref=\"Targum Jonathan on Genesis 13:13\">Ib. XIII, 13</cite>; <cite ref=\"Numbers 35:25\">Num. XXXV, 25</cite> <he>ג׳ ערייתא</he> = h. <he>גִּילּוּי עריות</he>.—Esp. <i>liquids left uncovered, law concerning them</i>. ",
+				"<cite ref=\"Chullin 49b:12\">Ḥull. 49ᵇ</cite> <he>כי הוה להו ג׳</he> when they had a case of uncovered liquids. ",
+				"<cite ref=\"Gittin 69b:2\">Gitt. 69ᵇ</cite> <he>לג׳ וכ׳</he> against the danger from drinking uncovered liquids apply &c. ",
+				"<cite ref=\"Avodah Zarah 30a:14\">Ab. Zar. 30ᵃ</cite> <he>אג׳ לא קפדי</he> they care not for the law concerning uncovered liquids; a. fr.—<he>גִּלּוּי דעתא</he> intimation of meaning. ",
+				"<cite ref=\"Gittin 34a\">Gitt. 34ᵃ</cite> <he>בג׳ ד׳ בגיטא וכ׳</he> they differ with regard to one intimating the annulment of a letter of divorce."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bright, polished surface</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 38b:1\">Zeb. 38ᵇ</cite> <he>אַגִּילּוּיֵיה</he> on its (the altar’s) top surface cleared of ashes.—",
+				"<cite ref=\"Sanhedrin 42a\">Snh. 42ᵃ</cite>; <cite ref=\"Pesachim 13a\">Pes. 13ᵃ</cite>, v. <cite ref=\"C00726\"><he>גִּילְהֵי</he></cite>.—",
+				"<cite ref=\"Targum Jonathan on Nahum 2:8\">Targ. Nah. II, 8</cite> <he>בגִילַּיָּא</he> ed. Lag. (oth. ed. <he>בגָלַיָּא</he>) <i>openly</i> (not in a covered carriage), v. <cite ref=\"C00927\"><he>גְּלֵי</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

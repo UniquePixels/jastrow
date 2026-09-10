@@ -1,0 +1,35 @@
+{
+	"id": "Q01764",
+	"slug": "פרט-2",
+	"headword": {
+		"text": "פְּרַט"
+	},
+	"page": {
+		"number": 1224,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01763\">same</cite><i>to break, divide</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 91b:3\">Ned. 91ᵇ</cite> <he>פַּרְטֵיה וכ׳</he>, v. <cite ref=\"E00264\"><he>הוּצָא</he> I</cite>.—Part. pass. <cite ref=\"Q01049\"><he>פָּרִיט</he></cite>; f. <cite ref=\"Q01802\"><he>פְּרִיטָא</he></cite>; pl. <he>פְּרִיטִין</he>; <cite ref=\"Q01802\"><he>פְּרִיטָן</he></cite>. ",
+				"<cite ref=\"Bava Kamma 117a\">B. Kam. 117ᵃ</cite> bot. <he>דפריטן שפוותיה וכ׳</he> Ms. R. a. Ar. (Ms. M. <he>דפריט׳</he>; ed. Sonc. <he>דפְרִיטָה</he>; ed. <he>דפרטיה</he>, corr. acc.) he saw that his (R. Kahana’s) lips were parted, and thought he was laughing at him."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to specify</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 16a:7\">M. Kat. 16ᵃ</cite> <he>דפַרְטִינָן חטאיה וכ׳</he> that we must specify his offence in a public proclamation."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to belittle, talk against, sneer at</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah, Petichta 7\">Lam. R. to II, 10</cite> Ar., v. <cite ref=\"Q02043\"><he>פְּרַת</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

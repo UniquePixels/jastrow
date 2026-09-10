@@ -1,0 +1,48 @@
+{
+	"id": "C00103",
+	"slug": "גבל-1",
+	"headword": {
+		"text": "גָּבַל"
+	},
+	"page": {
+		"number": 207,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.  r.; v. <he>גבב</he>) [<i>to give a rounded shape</i>,] <i>to to knead, stamp</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 24:3\">Sabb. XXIV, 3</cite> you may put water into the bran (on the Sabbath) <he>אבל לא גוֹבְלִין</he> but must not mix it to a mass. ",
+				"<cite ref=\"Tosefta Ma'asrot 3:13\">Tosef. Maasr. III, 13</cite> <he>גובל עיסתו</he> he kneads his dough. ",
+				"<cite ref=\"Vayikra Rabbah 29\">Lev. R. s. 29</cite> <he>בד׳ גְּבָלוֹ</he> (Pesik. Baḥod. p. 150ᵇ <he>גִּיבְּלוֹ</he>) on the fourth day He formed the dust into a mass."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּיבֵּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C00102\">same</cite>. Y. Ter. V, 43ᶜ bot. <he>הפריש ואח״כ גי׳</he> he set apart (the T’rumah) and then made the dough. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>מיגבול חמש</he> (read <he>מְגַבֵּל</he>). ",
+						"<cite ref=\"Taanit 10a:3\">Taan. 10ᵃ</cite> <he>שמְגַ׳ את הגבינה</he> that forms a cheese. ",
+						"<cite ref=\"Taanit 19b:14\">Ib. 19ᵇ</cite> <he>שמג׳ את הטיט</he> that stamps clay; a. fr.—Part. pass. <he>מְגוּבָּל</he>. ",
+						"<cite ref=\"Taanit 19b\">Ib.</cite> <he>מ׳ יפה</he> a thoroughly kneaded mass."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְגַּבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be kneaded</i>. Ib. <he>אינו מִתְגַּבֵּל יפה</he> is not thoroughly kneaded.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

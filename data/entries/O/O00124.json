@@ -1,0 +1,30 @@
+{
+	"id": "O00124",
+	"slug": "סגי-5",
+	"headword": {
+		"text": "סַגִּי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סַגִּיא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 954,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְגֵי</he> II, v. <cite ref=\"O00251\"><he>סוּגְיָא</he></cite>) <i>way</i>; <he>לא ס׳</he> there is no way, <i>it is impossible</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 95b:16\">Keth. 95ᵇ</cite> <he>לא ס׳ דלא יהבו לה</he> there is no way of not giving her, i.e. they <i>must</i> grant her alimentation. ",
+				"<cite ref=\"Tamid 32a:74\">Tam. 32ᵃ</cite> <he>לא ס׳ דלא אזלינא</he> I must go; a. e."
+			]
+		}
+	]
+}

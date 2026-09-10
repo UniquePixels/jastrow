@@ -1,0 +1,54 @@
+{
+	"id": "H01775",
+	"slug": "חררה",
+	"headword": {
+		"text": "חֲרָרָה"
+	},
+	"page": {
+		"number": 506,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חרר</he> IV) [<i>rounded heap</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a thick cake</i> baked on coals. ",
+			"units": [
+				"<cite ref=\"Kiddushin 59a\">Kidd. 59ᵃ</cite>, v. <cite ref=\"E00740\"><he>הָפַךְ</he></cite> (v. also Rashi a. l. a. infra). ",
+				"<cite ref=\"Mishnah Shabbat 1:10\">Sabb. I, 10</cite>. ",
+				"<cite ref=\"Tosefta Chagigah 3:12\">Tosef. Ḥag. III, 12</cite>; Y. ib. III, 79ᵇ, v. <cite ref=\"V00348\"><he>תָּחַב</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 2:3\">B. Kam. II, 3</cite> <he>שנטל ח׳</he> that took a cake (with live coals sticking to it).—Pl. <he>חֲרָרִין</he>. ",
+				"<cite ref=\"Mishnah Beitzah 2:6\">Bets. II, 6</cite> (<cite ref=\"Beitzah 21b:15\">21ᵇ</cite>) <he>גריצין וח׳</he> Bab. ed., v. <cite ref=\"C01344\"><he>גְּרִיצָה</he></cite> (Mish. ed. <cite ref=\"H00468\"><he>חוֹרִי</he></cite>, Y. ed. <cite ref=\"H01667\"><he>חֹרִי</he></cite> b. h., collect. noun: <i>cakes</i>); Y. ib. 61ᶜ bot. (play on <cite ref=\"H01667\"><he>חֳרִי</he></cite>, <cite ref=\"Deuteronomy 29:23\">Deut. XXIX, 23</cite>, a. on <cite ref=\"H01667\"><he>חֹרִי</he></cite>, <cite ref=\"Genesis 40:16\">Gen. XL, 16</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pile of sheaves, temporary stack</i> in the field. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 5:8\">Peah V, 8</cite> <he>לח׳</he> for the purpose of temporary piling, opp. <he>לגוֹרֶן</he>. [<cite ref=\"Kiddushin 59a:6\">Kidd. 59ᵃ</cite> <he>עני המהפך בח׳</he> a poor man moving about a stack (waiting for its removal to take up eventually a forgotten sheaf); cmp. Peah l. c.; oth. defin. v. <cite ref=\"E00740\"><he>הָפַךְ</he></cite>.]—",
+				"<cite ref=\"Jerusalem Talmud Peah 5:7:1\">Y. Peah V, end, 19ᵃ</cite>, expl. <he>ח׳</he> with <cite ref=\"C00871\"><he>גַּלְגַּל</he></cite> a globular heap."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " חֲרָרַת דם <i>a clot of blood</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 3:1\">Bekh. III, 1</cite> (<cite ref=\"Bekhorot 21b\">21ᵇ</cite>). ",
+				"<cite ref=\"Niddah 66a\">Nidd. 66ᵃ</cite>; a. e.—Tanḥ. K’dosh. 9 <he>כחרדת</he> (corr. acc.)"
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>a ball of iron ore</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:3\">Kel. XI, 3</cite> he who makes vessels <he>מן הח׳</he> of iron ore (before it is smelted)."
+			],
+			"label": "4"
+		}
+	]
+}

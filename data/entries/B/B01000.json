@@ -1,0 +1,35 @@
+{
+	"id": "B01000",
+	"slug": "בסיר",
+	"headword": {
+		"text": "בְּסִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּסִירָא"
+		}
+	],
+	"page": {
+		"number": 179,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בַּסִּ׳</he>) (<he>בסר</he>) <i>contemned, contemptible</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 15:4\">Targ. Ps. XV, 4</cite>; a. fr.—Pl. <he>בְּסִירִין</he>, fem. <cite ref=\"B01000\"><he>בְּסִירָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Malachi 2:9\">Targ. Mal. II, 9</cite>; <cite ref=\"Targum Jonathan on Malachi 1:12\">I, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 9:4\">Targ. Jud. IX, 4</cite>, v. <cite ref=\"B01142\"><he>בַּקָּרָא</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ripening</i>, v. <cite ref=\"B01370\"><he>בְּסַר</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

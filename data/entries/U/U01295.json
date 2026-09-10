@@ -1,0 +1,40 @@
+{
+	"id": "U01295",
+	"slug": "שליא-2",
+	"headword": {
+		"text": "שִׁלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁלְיָיא"
+		},
+		{
+			"text": "שִׁי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1582,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01294\">same</cite><i>quiet, unconcern</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 3:27\">Targ. II Sam. III, 27</cite> (ed. Wil. <he>שֵׁלַיָּא</he>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (corresp. to b. h. <cite ref=\"H01194\"><he>שֹׁאָה</he></cite>, <he>פּתְאֹם</he>) <i>unexpected event, suddenness, sudden calamity</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 3:25\">Targ. Prov. III, 25</cite> <he>דמן ש׳</he> ed. Lag. (oth. ed. <he>ומן ש׳</he> corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:15\">Ib. VI, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:22\">Ib. XXIV, 22</cite> <he>בש׳</he> (not <he>כש׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:27\">Ib. I, 27</cite> <he>בש׳</he> (h. text <he>כשאה</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:8\">Targ. Ps. XXXV, 8</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

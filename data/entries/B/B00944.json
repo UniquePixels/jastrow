@@ -1,0 +1,46 @@
+{
+	"id": "B00944",
+	"slug": "בני-2",
+	"headword": {
+		"text": "בְּנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּנָא"
+		}
+	],
+	"page": {
+		"number": 176,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h. <cite ref=\"B00942\"><he>בָּנָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 25:9\">Targ. Deut. XXV, 9</cite> (Y. <cite ref=\"J00065\"><he>יִבְנֶה</he></cite>); a. fr.—Part. <cite ref=\"B00944\"><he>בָּנֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 4:17\">Targ. Gen. IV, 17</cite>.—",
+				"<cite ref=\"Moed Katan 10b\">M. Kat. 10ᵇ</cite> <he>מִיבְנֵי</he> to erect; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְבְּנֵי"],
+			"senses": [
+				{
+					"gloss": " as h. Nif. ",
+					"units": []
+				},
+				{
+					"gloss": " a. 2). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 3:2\">Targ. I Kings III, 2</cite>; a. fr.—",
+						"<cite ref=\"Onkelos Genesis 16:2\">Targ. Gen. XVI, 2</cite>; a. e.—Y. Ber. II, 5ᵃ <he>מִתְבַּנְיֵי</he> will be rebuilt; a. e."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "O00456",
+	"slug": "סחייא",
+	"headword": {
+		"text": "סַחְיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַיָּיחָא"
+		}
+	],
+	"page": {
+		"number": 971,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00454\"><he>סְחֵי</he></cite> or <cite ref=\"O00277\"><he>סוּחַ</he></cite>) <i>swimmer</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 77b:15\">Yoma 77ᵇ</cite> <he>שכן קורין לשייטא סיי׳</he> ed. (Ms. M. <he>שַׂיָּחָה</he>; Ms. M. 2 <cite ref=\"O00444\"><he>סַחְוָא</he></cite>; Ar. <cite ref=\"O00270\"><he>סווחי</he></cite>) for the swimmer is called <i>s.</i>; Yalk. Ez. 381 <cite ref=\"U00647\"><he>שַׂחְיָיא</he></cite>; Y. Shek. VI, 50ᵃ top <cite ref=\"U00652\"><he>שַׂחְיָנָא</he></cite> (Bab. ed. <cite ref=\"U00623\"><he>שַׂחְוָנָא</he></cite>; Ms. M. <he>סחותא</he>, read: <he>סַחְוָונָא</he>)."
+			]
+		}
+	]
+}

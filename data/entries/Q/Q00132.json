@@ -1,0 +1,36 @@
+{
+	"id": "Q00132",
+	"slug": "פדע-3",
+	"headword": {
+		"text": "פְּדַע",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּדְעָא"
+		},
+		{
+			"text": "פִּדְעָה"
+		},
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1137,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00131\">preced.</cite>) <i>blow, wound</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:25\">Targ. O. Ex. XXI, 25</cite> (Y. <cite ref=\"Q02191\"><he>פּוֹ׳</he></cite>, <cite ref=\"Q00441\"><he>פּוּ׳</he></cite>). Targ. Y. I ib. XV, 25 <cite ref=\"Q00132\"><he>פַּדְעָא</he></cite>.—",
+				"<cite ref=\"Kohelet Rabbah 6:11:1\">Koh. R. to VI, 11</cite> <he>או חד פדעה</he> or he receives a blow (from a noxious animal, v. <cite ref=\"A02032\"><he>אמכותי</he></cite>).—Pl. <cite ref=\"Q01506\"><he>פִּדְעִין</he></cite> or <he>פְּדָעִין</he>. ",
+				"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite>; <cite ref=\"Esther Rabbah 4:12\">Esth. R. to I, 22</cite> (Par. 5) <he>פ׳ דמגן</he> (transl. of <he>פצעים חנם</he>, <cite ref=\"Proverbs 23:29\">Prov. XXIII, 29</cite>) wounds unrequited. V. <cite ref=\"Q00165\"><he>פּוּדְעֲתָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"id": "A02550",
+	"slug": "אסר-1",
+	"headword": {
+		"text": "אָסַר"
+	},
+	"page": {
+		"number": 98,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <cite ref=\"O00408\"><he>סור</he></cite>)<i>to surround, enclose</i> (v. Schr. KAT Gloss. II, s. v.)—whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to chain, imprison; to sentence to prison</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 28b:19\">Ber. 28ᵇ</cite>, v. <cite ref=\"A01404\"><he>אֵיסוּר</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to harness, put the horses to</i>. Mekh. B’shall. 1. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 55:8\">Gen. R. s. 55</cite>, v. <cite ref=\"A02556\"><he>אֲסָרָה</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to bind, obligate</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 23:2\">Lev. R. s. 23</cite> <he>אילולי שא׳ וכ׳</he> had not the Lord bound himself by an oath; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to interdict, to declare a thing forbidden according to ritual law</i>, opp. <cite ref=\"N01392\"><he>הִתִּיר</he></cite> to loosen the tie, to allow. ",
+			"units": [
+				"<cite ref=\"Chagigah 3b:3\">Ḥag. 3ᵇ</cite> <he>הללו אוֹסְרִין והללו מתירין</he> the ones declare forbidden what the others allow. ",
+				"<cite ref=\"Vayikra Rabbah 22:10\">Lev. R. s. 22</cite> <he>מה שאָסַרְתִּי לך התרתי לך</he> of whatever I have forbidden thee (as a class) I have allowed thee (a specimen). ",
+				"<cite ref=\"Mishnah Eruvin 8:4\">Erub. VIII, 4</cite> <he>אוֹסַר עליו</he> he (by residing there) restricts the other (debarring him from carrying things around on the Sabbath).—Part. pass. <cite ref=\"A02335\"><he>אָסוּר</he></cite>, f. <cite ref=\"A02338\"><he>אֲסוּרָה</he></cite> (<i>it is</i>) <i>forbidden</i>. ",
+				"<cite ref=\"Berakhot 35a:2\">Ber. 35ᵃ</cite> <he>א׳ לו לאדם ש׳ וכ׳</he> one must not &c.; a. v. fr.—Pl. <cite ref=\"A02341\"><he>אֲסוּרִים</he></cite>, <cite ref=\"A02341\"><he>אֲסוּרִין</he></cite>; f. <he>אֲסוּרוֹת</he>. ",
+				"<cite ref=\"Mishnah Terumot 10:12\">Ter. X, 12</cite>; a. v. fr. V. <cite ref=\"A02335\"><he>אָסוּר</he></cite>."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱסַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be forbidden, to become subject to ritual prohibition</i>. Ib. 11 <he>אוֹסֶרֶת ואינה נֶאֱסָרֶת</he> affects other things which come in contact with it, but is not affected; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

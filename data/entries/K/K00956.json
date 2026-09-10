@@ -1,0 +1,28 @@
+{
+	"id": "K00956",
+	"slug": "כסף-5",
+	"headword": {
+		"text": "כַּסָּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּסָּפִי"
+		}
+	],
+	"page": {
+		"number": 655,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"K00953\"><he>כֶּסֶף</he></cite>) <i>silver-smith</i>.—Pl. <cite ref=\"K00956\"><he>כַּסָּפִים</he></cite>, <cite ref=\"K00956\"><he>כַּסָּפִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sukkah 51b\">Succ. 51ᵇ</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:5:1\">Cant. R. to V, 5</cite>."
+			]
+		}
+	]
+}

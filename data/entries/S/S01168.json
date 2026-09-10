@@ -1,0 +1,22 @@
+{
+	"id": "S01168",
+	"slug": "קירומה",
+	"headword": {
+		"text": "קֵירוֹמָה"
+	},
+	"page": {
+		"number": 1368,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (καίρωμα) <i>arrangement of slips</i> or <i>thrums</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 13:2:2\">Y. Sabb. XIII, 14ᵃ</cite>; v. <cite ref=\"S01170\"><he>קֵירוֹס</he> I</cite>."
+			]
+		}
+	]
+}

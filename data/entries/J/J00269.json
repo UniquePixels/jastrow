@@ -1,0 +1,61 @@
+{
+	"id": "J00269",
+	"slug": "יחד-2",
+	"headword": {
+		"text": "יְחַד"
+	},
+	"page": {
+		"number": 573,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to concentrate</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 86:11\">Targ. Ps. LXXXVI, 11</cite>.—<i>Part. pass.</i> <he>מְיַחַד</he> <i>united, harmonious</i>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 19:2\">Targ. Y. Ex. XIX, 2</cite> (cmp. <cite ref=\"E00240\"><he>הוֹמוֹנְיָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to specify, single out, designate</i>. ",
+			"units": [
+				"<cite ref=\"Makkot 18a:2\">Macc. 18ᵃ</cite> <he>ליַחוּדֵי לאוי וכ׳</he> Ms. M. (ed. <he>לי׳ להו</he>) to forbid each of these acts singly (as if each were prohibited by a special prohibitory law, v. <cite ref=\"L00009\"><he>לַאו</he></cite>).—<i>Part. pass.</i> <he>מְיָחַד</he> = h. <he>מְיוּחָד</he> (v. <cite ref=\"J00268\">preced.</cite>). ",
+				"<cite ref=\"Onkelos Genesis 26:10\">Targ. O. Gen. XXVI, 10</cite> <he>דמְיָ׳ בעמא</he> ed. Berl. (oth. ed. <he>מְיָחֵיד</he>; Y. <he>מלכא דמֵיחַד</he>) a distinguished person of the people. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 15:20\">Targ. Y. Lev. XV, 20</cite>; <cite ref=\"Targum Jonathan on Leviticus 15:22\">22</cite> <he>מְיַיחֵד</he> designated; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"J00268\"><he>יַחֵד</he></cite> ch. same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיַיחֵד"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"J00477\"><he>אִיַּיחֵד</he></cite> <i>to be joined; to be locked up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 49:6\">Targ. Y. I Gen. XLIX, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 3:6\">Targ. Job. III, 6</cite>.—",
+						"<cite ref=\"Targum Jerusalem, Numbers 31:50\">Targ. Y. II, Num. XXXI, 50</cite>.—",
+						"<cite ref=\"Sanhedrin 37a:6\">Snh. 37ᵃ</cite> <he>שרי לִיַּיחוּדֵי וכ׳</he> is permitted to be closeted up with her husband."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

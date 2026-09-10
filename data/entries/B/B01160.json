@@ -1,0 +1,54 @@
+{
+	"id": "B01160",
+	"slug": "בראה",
+	"headword": {
+		"text": "בָּרָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּרָיָיא"
+		},
+		{
+			"text": "בָּרָיָה"
+		}
+	],
+	"page": {
+		"number": 189,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B01156\"><he>בַּר</he> I</cite> ch.)",
+			"units": []
+		},
+		{
+			"gloss": "<i>external, foreign, not belonging to</i>, opp. <cite ref=\"C00264\"><he>גַּוָּאָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 16:18\">Targ. II Kings XVI, 18</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:1:3\">Y. Pes. VII, beg. 34ᵃ</cite> <he>תנא ב׳</he>, v. <cite ref=\"B01153\"><he>בַּר</he></cite> I ch.—",
+				"<cite ref=\"Bereishit Rabbah 49:9\">Gen. R. s. 49</cite>; <cite ref=\"Yalkut Shimoni on Torah 83:1\">Yalk. Gen. 83</cite> (interpret. <cite ref=\"H01048\"><he>חָלִילָה</he></cite> <cite ref=\"Genesis 13:25\">Gen. XIII, 25</cite>) (<cite ref=\"B01248\"><he>בריה</he></cite>) <he>ברייה הוא לך</he> it is foreign to thy nature; v. <he>הִיצָה</he> I.—Pl. <cite ref=\"B01161\"><he>בָּרָאֵי</he></cite>. ",
+				"<cite ref=\"Kiddushin 33a:9\">Kidd. 33ᵃ</cite> <he>בתי ב׳</he> the outer chambers of the bath-house. ",
+				"<cite ref=\"Chagigah 5b:12\">Ḥag. 5ᵇ</cite> <he>בתי ב׳</he> the outer chambers of the heavens. ",
+				"<cite ref=\"Bava Batra 30a:5\">B. Bath. 30ᵃ</cite> <he>בשוקי ב׳</he> in the market places abroad.—Fem. <cite ref=\"B01285\"><he>בָּרַיְתָא</he></cite>, <cite ref=\"B01264\"><he>בָּרַיְיתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 42:1\">Targ. Ezek. XLII, 1</cite>; a. e.—Y. M. Kat. III, beg. 81ᶜ; <cite ref=\"Jerusalem Talmud Nedarim 10:8:11\">Y. Ned. X, 42ᵇ</cite> top <he>ארעא ב׳</he> (= h. <he>חוץ לארץ</he>) abroad; v. <cite ref=\"A03230\"><he>אֶרֶץ</he></cite>.—Pl. <cite ref=\"B01332\"><he>בַּרְיָתָא</he></cite>, <cite ref=\"B01264\"><he>בַּרְיָיתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:4\">Targ. Prov. XXX, 4</cite> <he>ב׳ דארעא</he> the extreme ends of &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (as noun) <i>street, open place, field</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 40b:6\">B. Bath. 40ᵇ</cite> sit down <he>בשוקי ובב׳</he> Rashi (ed. <he>בשוקא</he>) in markets and open places (i.e. in public). ",
+				"<cite ref=\"Chullin 43a:12\">Ḥull. 43</cite>; <cite ref=\"Chullin 47a:5\">47ᵃ</cite>; <cite ref=\"Chullin 58b:6\">58ᵇ</cite> <he>חיוי ב׳</he> the animals of the prairies, v. <cite ref=\"B01153\"><he>בַּר</he></cite> I ch.—Esp. <cite ref=\"B01264\"><he>בָּרַיְיתָא</he></cite>, <cite ref=\"B01285\"><he>בָּרַיְתָא</he></cite> (sub. <cite ref=\"M03094\"><he>מתניתא</he></cite> = h. <he>משנה החיצונה</he>) <i>Baraitha</i> (or <i>Boraitha</i>), traditions and opinions of Tannaim not embodied in the Mishnah as compiled by R. Judah han-Nasi. [A collection of such Baraithas is found in the Tosefta (<cite ref=\"V00247\"><he>תוספתא</he></cite>) which bears the nearest resemblance to the Mishnah and is called by that name in Talm. Y.—The B. in frequently called <cite ref=\"M03094\"><he>מתניתא</he></cite> (Ch.) in contrad. to <cite ref=\"M02939\"><he>משנה</he></cite> (Hebr.), v. ",
+				"<cite ref=\"Bamidbar Rabbah 18:22\">Num. R. s. 18</cite> (ref. to <cite ref=\"Song of Songs 6:8\">Cant. VI, 8</cite>); <cite ref=\"Vayikra Rabbah 30:3\">Lev. R. s. 30</cite>.]—",
+				"<cite ref=\"Shabbat 19b:2\">Sabb. 19ᵇ</cite>; <cite ref=\"Eruvin 19b:8\">Erub. 19ᵇ</cite>; a. e. <he>ב׳ לא שמיע׳ ליה</he> (cmp. ",
+				"<cite ref=\"Shabbat 61a:9\">Sabb. 61ᵃ</cite>; <cite ref=\"Pesachim 101b:3\">Pes. 101ᵇ</cite> <he>מתנית׳ לא וכ׳</he>) he did not know that Boraitha. ",
+				"<cite ref=\"Berakhot 19a:13\">Ber. 19ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "P00507",
+	"slug": "עידוי-2",
+	"headword": {
+		"text": "עִידּוּי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִידּוּיָא"
+		},
+		{
+			"text": "עִדּ׳"
+		}
+	],
+	"page": {
+		"number": 1067,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00506\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 4:13\">Targ. Ruth IV, 13</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 18:12\">Targ. Y. II, Gen. XVIII, 12</cite> (Y. I <he>עִידּוּיִין</he> pl.; ed. Amst. <he>עִידּוּיַין</he>; h. text. <cite ref=\"P00157\"><he>עדנה</he></cite>, v. <cite ref=\"P00506\">preced.</cite>).—Pl. <he>עִידּוּיִין</he> (<he>עִידּוּיַין</he> fem.). ",
+				"<cite ref=\"Onkelos Genesis 3:16\">Targ. O. Gen. III, 16</cite> (Y. sing.). Targ. Y. I ib. XVIII, 12, v. supra."
+			]
+		}
+	]
+}

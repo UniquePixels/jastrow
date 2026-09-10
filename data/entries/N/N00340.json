@@ -1,0 +1,128 @@
+{
+	"id": "N00340",
+	"slug": "נוח-1",
+	"headword": {
+		"text": "נוּחַ"
+	},
+	"page": {
+		"number": 885,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to rest, lie; to be at ease, rest satisfied</i>.—",
+			"units": [
+				"<cite ref=\"Shabbat 7b:8-9\">Sabb. 7ᵇ</cite> <he>זרק … והלכה ונָחָה וכ׳</he> if one threw an object higher than ten handbreadths, and in its course it came to rest in a little hole. ",
+				"<cite ref=\"Shabbat 7b:10\">Ib.</cite> <he>וזרק ונָח על גביו</he> and he threw an object and it came to rest on it. ",
+				"<cite ref=\"Bereishit Rabbah 25:2\">Gen. R. s. 25</cite> <he>כיון שעמד נֹחַ נָחוּ</he> when Noah rose, they rested (submitted to man’s rulership; Yalk. Chr. 1072 <he>נִינּוֹחוּ</he>; <cite ref=\"Yalkut Shimoni on Torah 42:3\">Yalk. Gen. 42</cite> <cite ref=\"N00510\"><he>נִחֲמָן</he></cite> he appeased them); <cite ref=\"Yalkut Shimoni on Torah 42:3\">ib.</cite> <he>וכיון שעמד נֹחַ נחו</he> and when Noah rose, they remained undisturbed in their graves; Yalk. Chr. l. c. <he>נינוחו</he>.—",
+				"<cite ref=\"Megillah 25b\">Meg. 25ᵇ</cite>, a. fr. <he>יָנוּחוּ לו ברכות וכ׳</he> blessings rest upon his head. ",
+				"<cite ref=\"Shabbat 152b\">Sabb. 152ᵇ</cite>, a. e. <he>תָּנוּחַ … שהנחת וכ׳</he> let thy mind be at rest, for thou hast set my mind at rest; a. fr.—Part. <cite ref=\"N00468\"><he>נָח</he></cite>, <cite ref=\"N00342\"><he>נוֹחַ</he></cite>, f. <cite ref=\"N00343\"><he>נוֹחָה</he></cite>; pl. <he>נוֹחִים</he>, <he>נוֹחִין</he>; <he>נוֹחוֹת</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>resting</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 11:5\">Gen. R. s. 11</cite> <he>אתם נוחין</he> you rest. ",
+						"<cite ref=\"Jerusalem Talmud Eruvin 3:9:3\">Y. Erub. III, end, 21ᶜ</cite>, a. fr. <he>נוֹחֵי נפש</he> whose souls are at rest; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>pleased</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 3:10\">Ab. III, 10</cite> <he>כל שרוח הבריות נ׳ הימנו וכ׳</he> in whom the mind of man finds pleasure, the mind of God finds pleasure. ",
+						"<cite ref=\"Mishnah Sheviit 10:9\">Shebi. X, 9</cite>; a. fr.—V. <cite ref=\"N00342\"><he>נוֹחַ</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵנִיחַ", "הִנִּיחַ"],
+			"senses": [
+				{
+					"gloss": " (fr. <cite ref=\"J00435\"><he>יָנַח</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to set at rest; to set down, place</i>. Gen. R. l. c. (ref. to <cite ref=\"Genesis 5:29\">Gen. V, 29</cite>) <he>או נח זה יְנִיחֵנוּ וכ׳</he> either let him be called Noaḥ, then it ought to read, ‘he shall set us at rest’, or Naḥman &c. Sabb. l. c. <he>שהֵנַחְתָּ</he>, v. supra; (<cite ref=\"Sanhedrin 30b:20\">Snh. 30ᵇ</cite> <he>שהתנחת</he>, v. <cite ref=\"V00734\"><he>תָּנַח</he></cite>; v. Rabb. D. S. a. l. note 20). ",
+					"units": [
+						"<cite ref=\"Chullin 91b:8\">Ḥull. 91ᵇ</cite> <he>עלי יַנִּיחַ צדיק וכ׳</he> let this righteous man rest his head on me.—",
+						"<cite ref=\"Mishnah Bava Kamma 3:1\">B. Kam. III, 1</cite>. ",
+						"<cite ref=\"Mishnah Bava Metzia 6:6\">B. Mets. VI, 6</cite> <he>הַנַּח לפני</he> put it down before me (I will take charge of it). ",
+						"<cite ref=\"Shabbat 21b:8\">Sabb. 21ᵇ</cite> <he>להַנִּיחָהּ על פתח וכ׳</he> to place it over the entrance &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to leave; to leave alone; to allow</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 9:1\">B. Bath. IX, 1</cite> <he>מי שמת וה׳ בנים וכ׳</he> if a person died and left sons and daughters. ",
+						"<cite ref=\"Mishnah Bava Batra 9:3\">Ib. 3</cite> <he>ראו מה שה׳ לנו וכ׳</he> see what our father left us. ",
+						"<cite ref=\"Sanhedrin 30a\">Snh. 30ᵃ</cite> <he>מעות שה׳ לו אביו</he> money which his father had left him (without telling him where it was deposited). ",
+						"<cite ref=\"Pesikta Rabbati 26\">Pesik. R. s. 26</cite>; Yalk. Ps. 884 <he>אבינו ירמיה הרי אתה מַנִּיחֵנוּ שם</he> J., our father, wilt thou leave us there (in Babylonia, without a prophet)?—",
+						"<cite ref=\"Beitzah 30a\">Bets. 30ᵃ</cite>, a. fr. <he>הַנַּח להם לישראל</he> leave Israel alone (let them do as they please). ",
+						"<cite ref=\"Mishnah Yoma 1:4\">Yoma I, 4</cite> <he>לא היו מְנִיחִים אותו וכ׳</he> they did not let him eat much. ",
+						"<cite ref=\"Avodah Zarah 10b:12\">Ab. Zar. 10ᵇ</cite> <he>יַנִּיחֶנָּה</he>, v. <cite ref=\"N00372\"><he>נוֹמִי</he></cite>. ",
+						"<cite ref=\"Avodah Zarah 17a\">Ib. 17ᵃ</cite> <he>לא ה׳ זונה וכ׳</he> he did not forego a single prostitute &c. ",
+						"<cite ref=\"Shemot Rabbah 30:15\">Ex. R. s. 30</cite> <he>לא ה׳ שלא היה מצערו</he> he allowed no opportunity to pass without tormenting him; a. v. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to relieve, remit</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 13a\">Ab. Zar. 13ᵃ</cite> <he>יום שע״א מֵנַחַת בו וכ׳</he> a day on which the idol grants a remission of duties. ",
+						"<cite ref=\"Avodah Zarah 13a:2\">Ib.</cite> <he>כל מי … ויָנִיחַ … יָנִיחַ וכ׳</he> to him who will take a wreath and place it on his head (in honor of the deity), he will allow a remission &c.; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to wish rest</i> (to a deceased); <i>to bless the memory of</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 411:1\">Yalk. Ex. 411</cite> <he>מזכירין ומניחין</he> there are those who are mentioned and blessed (opp. <he>משחקין</he>); <cite ref=\"Shemot Rabbah 48:2\">Ex. R. s. 48</cite> <he>מדכרין ומניחין</he>; (Tanḥ. Vayakh. 4 <he>מזכירין ומשבחים</he>;) [Midr. Sam. ch. I <he>מדכרין ומניחין</he> we mention and <i>let alone</i>, neither praising nor blaming by mentioning the ancestry]."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to give pleasure</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 16:5\">Gen. R. s. 16</cite> <he>לַהֲנִיחוֹ וכ׳</he> to give him pleasure, to protect him &c."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּנָח"],
+			"senses": [
+				{
+					"gloss": "<i>to be put down, rested</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 4a\">Sabb. 4ᵃ</cite>, a. fr. <he>קלוטה כמי שהוּנְחָה דמיא</he> an object intercepted in the air (crossing an area, v. <cite ref=\"T01079\"><he>רָשׁוּת</he></cite>) is considered as having rested there, v. <cite ref=\"E00673\"><he>הַנָּחָה</he></cite>. ",
+						"<cite ref=\"Mishnah Bava Metzia 3:4\">B. Mets. III, 4</cite>, a. e. <he>יהא מוּנָח וכ׳</he>, v. <cite ref=\"A01840\"><he>אֵלִיָּהוּ</he></cite>. ",
+						"<cite ref=\"Yoma 72b:6\">Yoma 72ᵇ</cite> <he>עדיין מונח הוא וכ׳</he> still lies (undisposed of), whosoever desires to obtain it &c. ",
+						"<cite ref=\"Kiddushin 66a:11\">Kidd. 66ᵃ</cite> <he>הרי כרוכה ומוּנַחַת וכ׳</he> it (the Law) is wrapped up and lies in the corner, whosoever wishes to study &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִינּוֹחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be released; to be rested</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 7:5\">Cant. R. to VII, 5</cite> <he>והגליות באות ונִינּוֹחוֹת וכ׳</he> and the exiles will come and rest under it; (<cite ref=\"Yalkut Shimoni on Nach 334\">Yalk. Is. 334</cite> <he>ונוֹחוֹת</he>; <cite ref=\"Yalkut Shimoni on Nach 575:1\">Yalk. Zech. 575</cite> <he>וחָנוֹת</he>). Y. Ber. V, end, 9ᵈ <he>בטוח אני שנ׳ בנו וכ׳</he> I am confident that the son of … will recover from his illness. ",
+						"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> <he>נִינּוֹחוּ</he> they are relieved (out of danger). Yalk. Chr. 1072, v. supra; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

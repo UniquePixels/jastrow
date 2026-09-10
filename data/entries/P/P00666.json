@@ -1,0 +1,54 @@
+{
+	"id": "P00666",
+	"slug": "עיקר-1",
+	"headword": {
+		"text": "עִיקָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִקָּר"
+		}
+	],
+	"page": {
+		"number": 1074,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01213\"><he>עָקַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>root</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 7:1\">Kil. VII, 1</cite> <he>הע׳ השני</he> the second root (that of the slip, v. <cite ref=\"A03134\"><he>אַרְכּוּבָה</he></cite>); a. fr.—Pl. <he>עִיקָּרִים</he>, <he>עִיקָּרִין</he>, <cite ref=\"P00667\"><he>עִקָּ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Kilayim 7:2\">Ib. 2</cite> <he>ועִקָּרֵיהֶם נראין</he> and the roots of the sets are visible. ",
+				"<cite ref=\"Mishnah Shabbat 14:3\">Sabb. XIV, 3</cite> <he>כוס ע׳</he> root-drink (a medicine for gonorrhœa). ",
+				"<cite ref=\"Tosefta Yevamot 8:4\">Tosef. Yeb. VIII, 4</cite> <he>האיש … כוס ע׳ שלא יוליד</he> a man must not take a root-drink for the purpose of becoming impotent. Sabb. l. c. <he>שמן ע׳</he> oil in which roots have been soaked. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:1:7\">Y. Shek. VI, beg. 49ᶜ</cite> <he>שבו שולקין את הע׳</he> (oil) in which they boiled the roots (for frankincense); <cite ref=\"Horayot 11b:9\">Hor. 11ᵇ</cite>; Kerith. 5ᵃ <he>משלק בו הע׳</he>. ",
+				"<cite ref=\"Horayot 11b:7\">Ib.</cite>",
+				"<cite ref=\"Keritot 5a:97\">Kerith. 5ᵃ</cite> <he>משלק בו הע׳</he>. ",
+				"<cite ref=\"Keritot 5a:99\">Ib.</cite> <he>והלא לסוך הע׳ אינו סופק</he> but there was not even oil enough to oint the roots (much less to soak them). Pesik. Par., p. 40ᵇ; Tanḥ. Ḥuck. 8, a. e. <he>מביאין ע׳ ומעשנין וכ׳</he> they get certain roots (and kindle them), and let the smoke rise under him; a. e.—Trnsf. <i>origin</i>. ",
+				"<cite ref=\"Ketubot 77a:13\">Keth. 77ᵃ</cite> <he>מעִיקָּרוֹ</he> from its origin (shaft), v. <cite ref=\"H01896\"><he>חָתַךְ</he></cite>.—<he>עִיקַּר מיטרין</he>, v. <cite ref=\"M01135\"><he>מִיטְרִין</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>essence, reality, main object, chief</i>. Y. R. Hash. III, end, 59ᵃ <he>עיקרו לא נחש הוא</he> (not <cite ref=\"P00668\"><he>עיקרה</he></cite>) is not its (the <i>saraf’s</i>) real name <i>naḥash</i>? <cite ref=\"Sanhedrin 87a:6\">Snh. 87ᵃ</cite> <he>דבר שעיקרו מדברי וכ׳</he> a thing (law) which in its main aspect is found in the Torah, but the details of which are based on Soferic tradition (v. <cite ref=\"O00403\"><he>סוֹפֵר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 6:2:5\">Y. Sot. VI, 21ᵃ</cite> top <he>ע׳ עדותו</he> the main testimony in the case. ",
+				"<cite ref=\"Berakhot 12b:27\">Ber. 12ᵇ</cite> (ref. to <cite ref=\"Jeremiah 23:7\">Jer. XXIII, 7</cite>, sq.) <he>לא שתעקר … אלא שתהא שעבוד מלכיות ע׳ וכ׳</he> not that the memory of the exodus from Egypt will be entirely effaced, but the delivery from servitude to the empires will be the chief event commemorated, and the exodus from Egypt subordinate to it (v. <cite ref=\"I00662\"><he>טָפֵל</he></cite>). Ib. 13ᵃ <he>ישראל ע׳</he> Israel will be the chief name. ",
+				"<cite ref=\"Ruth Rabbah 7:13\">Ruth R. to IV, 11</cite>, a. e., v. <cite ref=\"M01858\"><he>מְסוּבֶּה</he></cite>. ",
+				"<cite ref=\"Ruth Rabbah 7:13\">Ib.</cite> (play on <he>עקרה</he>, <cite ref=\"Genesis 29:31\">Gen. XXIX, 31</cite>) <he>ורחל היתה עיקרו … ורחל עֲקָרָה עִיקָּרָה</he> Rachel was his (Jacob’s) main wife, for we read, ‘and Rachel was <i>ʿḳʿăḳarah</i> which means <i>ʿiḳḳarah</i> (the chief); <cite ref=\"Bereishit Rabbah 71:2\">Gen. R. s. 71</cite> <he>רחל היתה עיקרו של בית</he> Rachel was the chief person of the household. ",
+				"<cite ref=\"Bamidbar Rabbah 14:5-8\">Num. R. s. 14</cite> (play on <he>קערת</he>, <cite ref=\"Numbers 7:61\">Num. VII, 61</cite>) <he>אל תקרי קערת אלא עִקֶּרֶת … עִקֶּרֶת הבית היא היתה עיקר ביתו וכ׳</he> read not <i>ḳaʿărath</i>, but <i>ʿiḳḳereth</i>, typical of Rachel who was the chief of the house: she was the chief person &c. ",
+				"<cite ref=\"Sukkah 50b:2\">Succ. 50ᵇ</cite> <he>ע׳ שירה בכלי</he> the chief element in the Temple music is instrumental music; <he>ע׳ שירה בפה</he> the song is the essential element; a. v. fr.—<he>טעם כע׳</he>, v. <cite ref=\"I00611\"><he>טַעַם</he></cite>.—<he>כפר בע׳</he>, v. <cite ref=\"K01046\"><he>כָּפַר</he></cite>.—לא כל ע׳ <i>not at all</i>. ",
+				"<cite ref=\"Sanhedrin 22a:5\">Snh. 22ᵃ</cite> <he>לא נשתנה כל ע׳</he> has not at all been changed. ",
+				"<cite ref=\"Shemot Rabbah 16:2\">Ex. R. s. 16</cite> <he>אסור ליגע בה כל ע׳</he> must not touch her at all; a. fr.—[In later Hebr. literature: <he>עִיקָּרִים עִקָּ׳</he> <i>principles of faith</i>.]"
+			],
+			"label": "2"
+		}
+	]
+}

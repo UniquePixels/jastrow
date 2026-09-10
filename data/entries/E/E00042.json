@@ -1,0 +1,42 @@
+{
+	"id": "E00042",
+	"slug": "הבל-3",
+	"headword": {
+		"text": "הֶבֶל"
+	},
+	"page": {
+		"number": 329,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"E00041\"><he>הֲבֵל</he></cite> or <cite ref=\"E00041\"><he>הֲבַל</he></cite> (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>breath, vapor, air, heat</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 88b:8\">Sabb. 88ᵇ</cite> <he>בה׳ שבפיהם</he> with the (fiery) breath of their mouths. ",
+				"<cite ref=\"Shabbat 119b:10\">Ib. 119ᵇ</cite> <he>ה׳ תינוקות וכ׳</he> the breath of school children. ",
+				"<cite ref=\"Shabbat 119b:10\">Ib.</cite> <he>ה׳ שאין בו חטא</he> a sinless breath (of children). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:4:2\">Y. Ab. Zar. III, 42ᵈ</cite> bot. <he>ה׳ המרחץ וכ׳</he> the vapor of the bath room is injurious to the teeth. ",
+				"<cite ref=\"Yevamot 80b:8\">Yeb. 80ᵇ</cite> <he>אין בשרו מעלה ה׳</he> his body (after bathing) does not steam. Pesik. Baḥod. p. 154ᵃ; <cite ref=\"Vayikra Rabbah 29:8\">Lev. R. s. 29</cite> (ref. to <cite ref=\"Psalms 62:10\">Ps. LXII, 10</cite>) <he>עד שהן עשויין ה׳ בתוך וכ׳</he> while they are yet a gas (in the first embryonic stage) …, they are predestined for marital union. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 10:2:2\">Y. Ter. X, 47ᵃ</cite> bot. <he>הה׳ כובש</he> the heat (of the fresh bread placed on top of an open wine casket) keeps the evaporations of the wine down. ",
+				"<cite ref=\"Bava Kamma 50b:5\">B. Kam. 50ᵇ</cite> <he>להַבְלוֹ</he> for injuries suffered through the bad air of the pit (into which the animal fell), opp. to <he>לחבטו</he> injuries arising from knocking against the ground. ",
+				"<cite ref=\"Kohelet Rabbah 1:2:1\">Koh. R. to I, 2</cite> <he>ה׳ של תנור</he> the hot air of the stove; <he>ה׳ של עליונה</he> the vapor of the topmost pot; Yalk. ib. 966 <he>ה׳ שביעית</he>; a. e.— "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>vanity</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 16b:9\">B. Bath. 16ᵇ</cite> <he>תנחומין של ה׳</he> vain consolations. Koh. R. l. c.; Yalk. l. c. (ref. to <cite ref=\"Psalms 144:4\">Ps. CXLIV, 4</cite>) <he>לאיזו ה׳</he> to what kind of <i>hebel</i> (breath) man is like; a. fr.—Pl. <cite ref=\"B00881\"><he>הֲבָלִים</he></cite>. ",
+				"<cite ref=\"Psalms 144:4\">Ib.</cite> <he>שבעה ה׳ וכ׳</he> the seven times that Solomon used the word <i>hebel</i>. Pesik. Baḥod. l. c.; Lev. R. l. c. <he>כל ה׳ וכזבים וכ׳</he> all the vain things and falsehoods which the Israelites commit."
+			],
+			"label": "2"
+		}
+	]
+}

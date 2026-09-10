@@ -1,0 +1,26 @@
+{
+	"id": "G00031",
+	"slug": "זבח-2",
+	"headword": {
+		"text": "זֶבַח"
+	},
+	"page": {
+		"number": 378,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00030\">preced.</cite>) <i>a slaughtering, sacrifice</i>, esp. (<i>festive</i>) <i>peace-offering</i> (<cite ref=\"H00148\"><he>חֲגִיגָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 10:9\">Pes. X, 9</cite>. ",
+				"<cite ref=\"Tosefta Pesachim 10:14\">Tosef. ib. X, 14</cite>. ",
+				"<cite ref=\"Tosefta Berakhot 5:22\">Tosef. Ber. V, 22</cite>; a. fr.—Pl. <he>זְבָחִים</he>, constr. <he>זִבְחֵי</he>. ",
+				"<cite ref=\"Tosefta Berakhot 5:22\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Zevachim 1:1\">Zeb. I, 1</cite> <he>כל הז׳</he> all animalic offerings; a. fr.—<i>Z’baḥim</i>, name of a treatise of the Mishnah, Tosefta and Talmud Babli (also called <he>שְׁחִיטַת קָדֳשִׁים</he>)."
+			]
+		}
+	]
+}

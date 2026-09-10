@@ -1,0 +1,35 @@
+{
+	"id": "M01822",
+	"slug": "מס-1",
+	"headword": {
+		"text": "מַס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 803,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01978\"><he>מָסַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"M01964\"><he>מִסְמֵס</he> II</cite>) <i>juice</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 14:4\">Num. R. s. 14</cite> (play on <he>כמ̇שמ̇ר̇ו̇ת̇</he>, <cite ref=\"Ecclesiastes 12:11\">Koh. XII, 11</cite>) <he>כמ̇ס̇ מ̇ר̇ו̇ת̇</he> (bitter) as the juice of bitter things, v. <cite ref=\"M01964\"><he>מִסְמֵס</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>melting, fainting</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>שרתי</he>, v. <cite ref=\"L00579\"><he>לָמַס</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

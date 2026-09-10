@@ -1,0 +1,24 @@
+{
+	"id": "I00671",
+	"slug": "טפסן",
+	"headword": {
+		"text": "טַפְסָן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 548,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (τάπης, cmp. Syr. <he>טפסתא</he>, P. Sm. 1505) <i>carpets, horse-cloths</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 38:11\">Targ. Jer. XXXVIII, 11</cite>; sq."
+			]
+		}
+	]
+}

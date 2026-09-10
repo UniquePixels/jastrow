@@ -1,0 +1,27 @@
+{
+	"id": "M01662",
+	"slug": "ממזרי",
+	"headword": {
+		"text": "מַמְזֵרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַמְזֵי׳"
+		}
+	],
+	"page": {
+		"number": 795,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01661\">preced.</cite>) <i>descendant of a mamzer, belonging to the mamzer class</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:1\">Kidd. IV, 1</cite>; <cite ref=\"Tosefta Kiddushin 5:1\">Tosef. ib. V, 1</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "N01190",
+	"slug": "נקט-1",
+	"headword": {
+		"text": "נָקַט"
+	},
+	"page": {
+		"number": 932,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"L00677\"><he>לָקַט</he></cite>) <i>to hold in hand, take, seize</i>. [<he>נקטה</he> Pesik. B’shall., p. 81ᵇ; <cite ref=\"Yalkut Shimoni on Torah 225\">Yalk. Ex. 225</cite>, v. <cite ref=\"S00286\"><he>קוּט</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיקֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to hold, to procure</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1:12\">Ex. R. s. 1</cite> <he>ומְנַקֵּט להם שני וכ׳</he> (some ed. <he>ומלקט</he>) and provided for them two balls (breast-shaped stones); (<cite ref=\"Sotah 11b:7\">Sot. 11ᵇ</cite> <he>ומלקט</he>; <cite ref=\"Yalkut Shimoni on Torah 164:1\">Yalk. Ex. 164</cite> <he>ומלקט</he>; <cite ref=\"Yalkut Shimoni on Nach 354\">Yalk. Ez. 354</cite> <he>ונותן</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

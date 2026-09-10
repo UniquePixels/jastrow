@@ -1,0 +1,81 @@
+{
+	"id": "H01577",
+	"slug": "חרב-1",
+	"headword": {
+		"text": "חָרִב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 498,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be burned, dried up, ruined, waste</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 22a:18\">Snh. 22ᵃ</cite> <he>כאלו ח׳ בה״מ וכ׳</he> as if the Temple had been destroyed in his days. ",
+				"<cite ref=\"Tosefta Menahot 13:22\">Tosef. Men. XIII, 22</cite> <he>מפני מה חָרְבָה וכ׳</he> why was Shiloh destroyed?; <cite ref=\"Yoma 9a:6\">Yoma 9ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Kilayim 4:1\">Kil. IV, 1</cite> (expl. <he>קרחת הכרם</he>) <he>כרם שח׳ באמצעו</he> a vineyard the central part of which is laid waste. ",
+				"<cite ref=\"Mishnah Kilayim 5:1\">Ib. V, 1</cite>; a. fr. [<cite ref=\"Bamidbar Rabbah 7:10\">Num. R. s. 7</cite>, end <he>בבל ח׳ מקדש</he>, read: <cite ref=\"H01577\"><he>החריב</he></cite>. ",
+				"<cite ref=\"Taanit 29a:17\">Taan. 29ᵃ</cite> <he>כשח׳ טורנוס</he>, read: <he>כשחרש</he>, v. Rabb. D. S. a. l.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחֱרַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be destroyed</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 18b\">Erub. 18ᵇ</cite>. ",
+						"<cite ref=\"Yoma 39b:6\">Yoma 39ᵇ</cite> <he>שסופך עתיד לֵיחָרֵב</he> that it is thy final destiny to be destroyed; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְחָרֵב"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחָרֵב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01576\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>שיִתְחָרֵב</he>. [<cite ref=\"Pirkei DeRabbi Eliezer 33:15\">Pirké d’R. El. ch. XXXIII</cite>, v. <cite ref=\"H01707\"><he>חָרַךְ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הֶחֱרִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to destroy, lay waste</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Moed Kattan 1:5\">Tosef. M. Kat. I, 5</cite> <he>מַחֲרִיבִין חורי וכ׳</he> you may destroy ant-stores (during the festive week). ",
+						"<cite ref=\"Bamidbar Rabbah 7:10\">Num. R. s. 7</cite>, end <he>שהֶחֱרִיבוּ בה״מ</he> for they (the Romans) destroyed the Temple; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הָחֳרָב"],
+			"senses": [
+				{
+					"gloss": "<i>to be destroyed</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 42b:6\">Pes. 42ᵇ</cite> (ref. to <cite ref=\"Ezekiel 26:2\">Ez. XXVI, 2</cite>) <he>אי מלאה זו הָחְרְבָה זו</he> Ms. M. (ed. <he>חרבה</he>, v. Rabb. D. S. a. l. note 9) when the one (Jerusalem) is populated, the other (Caesarea) is laid waste; <cite ref=\"Yalkut Shimoni on Torah 110:23\">Yalk. Gen. 110</cite> <cite ref=\"H01579\"><he>חֲרֵיבָה</he></cite>."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

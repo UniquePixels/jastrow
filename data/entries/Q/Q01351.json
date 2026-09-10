@@ -1,0 +1,157 @@
+{
+	"id": "Q01351",
+	"slug": "פסק-2",
+	"headword": {
+		"text": "פְּסַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסֵיק"
+		}
+	],
+	"page": {
+		"number": 1200,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01350\">same</cite><i>to cut, split, sever</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 16:9\">Targ. Jud. XVI, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 10:4\">Targ. II Sam. X, 4</cite>; <cite ref=\"I Chronicles 19:4\">I Chr. XIX, 4</cite>; a. fr.—Part. pass. <cite ref=\"Q01311\"><he>פָּסִיק</he></cite>, <cite ref=\"Q01311\"><he>פְּסִיק</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 23:2\">Targ. O. Deut. XXIII, 2</cite> (h. text <he>פצוע דכה</he>); Y. ",
+				"<cite ref=\"Onkelos Deuteronomy 23:2\">ib.</cite> <he>פ׳ גידא</he> (h. text. <he>כרות שפכה</he>). ",
+				"<cite ref=\"Onkelos Leviticus 22:22\">Targ. O. Lev. XXII, 22</cite> (h. text <cite ref=\"H01634\"><he>חרוץ</he></cite>).—",
+				"<cite ref=\"Chullin 8b\">Ḥull. 8ᵇ</cite>, v. <cite ref=\"C00328\"><he>גַּוָּוזָא</he> I</cite>. ",
+				"<cite ref=\"Bava Batra 21b:7\">B. Bath. 21ᵇ</cite> <he>קא פַסְקַת וכ׳</he> thou cuttest off (interferest with), v. <cite ref=\"H00691\"><he>חַיּוּתָא</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite>, end <he>פסקת חייוי דהאי גברא</he> thou cuttest off (shortenest) this man’s (my) life (by divulging my spurious descent); a. fr.—<he>פסיק רישיה ולא ימות</he> ‘let his head be cut off, but let him not die’, a dialectic term for <i>an unavoidable result of an act</i>. ",
+				"<cite ref=\"Shabbat 75a:6\">Sabb. 75ᵃ</cite> <he>מודה ר״ש בפ׳ ר׳ וכ׳</he> R. S. (who ordinarily permits, on the Sabbath, an act which may have as a result a violation of the Sabbath law, if the latter is not intended) admits that such an act is forbidden, if the result is inevitable."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to separate, divide</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 2:8\">Targ. Hos. II, 8</cite> (ed. Lag. <i>Af.</i>).—",
+				"<cite ref=\"Pesachim 111a:4\">Pes. 111ᵃ</cite> <he>פַּסְקִינְהוּ רשות הרבים</he> (Rashb. <he>פְּסַקְתִּינְהוּ</he>) the public road divides them (the two palms); a. e.—",
+				"<cite ref=\"Megillah 2b\">Meg. 2ᵇ</cite>; <cite ref=\"Bava Kamma 65b:9\">B. Kam. 65ᵇ</cite>, v. infra <i>Af.</i>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be interrupted; to cease</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 44:12\">Targ. Y. Gen. XLIV, 12</cite> (h. text <cite ref=\"K00715\"><he>כִּלָּה</he></cite>). Targ. II Esth. III, 7. ",
+				"<cite ref=\"Onkelos Deuteronomy 5:19\">Targ. Deut. V, 19</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 31:9\">Lev. R. s. 31</cite>; <cite ref=\"Midrash Tehillim 19\">Midr. Till. to Ps. XIX</cite>; <cite ref=\"Yalkut Shimoni on Nach 673:3\">Yalk. ib. 673</cite> (expl. <he>לא נעדר</he>, <cite ref=\"Zephaniah 3:5\">Zeph. III, 5</cite>) <he>לא פַסְקִין</he> they never fail. ",
+				"<cite ref=\"Moed Katan 4a:15\">M. Kat. 4ᵃ</cite> <he>מיא דלא פּסְקֵי</he> water which never fails. ",
+				"<cite ref=\"Moed Katan 4a:19\">Ib.</cite> <he>עבידא דפַסְקָא</he> it often fails. ",
+				"<cite ref=\"Moed Katan 18b:20\">Ib. 18ᵇ</cite> <he>קלא דלא פָסֵיק</he> a continuous rumor; <he>וכמה קלא דלא פ׳</he> how long must a rumor last to be called a continuous rumor? <cite ref=\"Moed Katan 18b:20\">Ib.</cite> <he>דלא פ׳ ביני ביני</he> if it has not ceased at intervals. ",
+				"<cite ref=\"Gittin 69a:7\">Gitt. 69ᵃ</cite> <he>כי היכי דפסקי … לִיפְסוֹק וכ׳</he> as this water ceases to run, so may the blood of—stop flowing. ",
+				"<cite ref=\"Shabbat 30b:1\">Sabb. 30ᵇ</cite> <he>לא פ׳ פומיה</he>, v. <cite ref=\"C00833\"><he>גִּירְסָא</he> I</cite>; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to apportion, assign, bargain, agree, subscribe</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:4:5\">Y. Hor. III, 48ᵃ</cite> bot. <he>הוה חמי … פ׳ והוא פסיק לקיבליה</he> he waited to see how much the whole assembly subscribed, and he subscribed an amount equal to the entire subscription; <cite ref=\"Vayikra Rabbah 5:4\">Lev. R. s. 5</cite> <he>כד הוון פַּסְקִין וכ׳</he> when all people had subscribed, he &c. ",
+				"<cite ref=\"Vayikra Rabbah 5:4\">Ib.</cite> <he>פ׳ חד ליטרא וכ׳</he> subscribed one pound of gold. ",
+				"<cite ref=\"Ketubot 65a:9\">Keth. 65ᵃ</cite> <he>פְּסוֹק לי מזוני</he> give me an order for my food; <he>פ׳ לה</he> he did so. Ib. 63ᵃ <he>פסקו ליה וכ׳</he> they made arrangements for him for six years (to remain at college). ",
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>אנן פּסְקִינָן פרנה</he> we shall make up the dowry by subscription (v. <cite ref=\"Q01340\"><he>פְּסַס</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 665:10\">Yalk. ib. 665</cite>; a. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>to decide, adjudge</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 20:40\">Targ. I Kings XX, 40</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:10\">Targ. Job XXXVIII, 10</cite>; a. e.—",
+				"<cite ref=\"Sukkah 29b:5\">Succ. 29ᵇ</cite>, a. e. <he>קא פסיק ותני לא שנא וכ׳</he> the editor of the Mishnah decides and teaches; i.e. speaks absolutely, drawing no distinction whether &c. ",
+				"<cite ref=\"Gittin 86b:17\">Gitt. 86ᵇ</cite> <he>לא פְסִיקָא ליה</he> it was not decided with him, i.e. he could not state it absolutely; a. fr."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": "<i>to close</i>; <he>פ׳ סידרא</he> <i>to close the reading from the Pentateuch, read the Hafṭarah</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 87a:17\">Yoma 87ᵃ</cite>; a. e., v. <cite ref=\"O00203\"><he>סִדְרָא</he></cite>."
+			],
+			"label": "6"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"Q01250\"><he>פְּסוּקָא</he></cite>) <i>to recite a verse</i>, v. <cite ref=\"Q01350\">preced.</cite> a. <cite ref=\"Q01250\"><he>פְּסוּקָא</he></cite>.",
+			"units": [],
+			"label": "7"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפְסֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to sever, break, burst</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Nahum 1:13\">Targ. Nah. I, 13</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to separate, interpose, divide off</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 2:8\">Targ. Hos. II, 8</cite>; a. e.—",
+						"<cite ref=\"Megillah 2b\">Meg. 2ᵇ</cite> <he>אתא את ואַפְסְקיה וכ׳</he> Ms. M. (ed. <he>ופסק</he>, <he>ופסיק</he>) the <i>eth</i> (<he>וְאֵת</he>, <cite ref=\"Esther 9:21\">Esth. IX, 21</cite>) comes to divide the sentence (giving it the meaning) that some celebrate the fourteenth and others the fifteenth of Adar. ",
+						"<cite ref=\"Bava Kamma 65b:9\">B. Kam. 65ᵇ</cite> <he>את פַּסְקֵיה קרא</he> with <i>eth</i> (<he>ואת</he>, <cite ref=\"Leviticus 5:25\">Lev. V, 25</cite>) the text separates the clause from the preceding, opp. <he>ערביה</he> combines it; <cite ref=\"Yalkut Shimoni on Torah 479:14\">Yalk. Lev. 479</cite> <he>את אַפְסְקֵיה</he> <i>eth</i> separates it; <cite ref=\"Yalkut Shimoni on Torah 479:14\">ib.</cite> <he>לאַפְסוּקֵי בין ממון וכ׳</he> (not <he>לאפסוקיה</he>) to draw the line between sacred property and &c. ",
+						"<cite ref=\"Sotah 38b:20\">Sot. 38ᵇ</cite> <he>אריכי … לא מַפְסְקֵי</he> tall persons in front of short ones do not form a partition (to intercept the priestly benediction pronounced upon the congregation); <he>תיבה לא מַפְסְקָא</he> nor does the Tebah (v. <cite ref=\"V00035\"><he>תֵּבָה</he></cite>) between the priests and the people form a partition. ",
+						"<cite ref=\"Pesachim 111a:6\">Pes. 111ᵃ</cite> <he>אַפְסְקִינְהוּ בעפרא</he> he dammed it (the waste water poured out in the street) with dust (spread dust over it); a. fr.—",
+						"<cite ref=\"Ketubot 77b\">Keth. 77ᵇ</cite>; <cite ref=\"Ketubot 17a\">17ᵃ</cite>, v. infra.]"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cut off, cause to cease</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 2:33\">Targ. I Sam. II, 33</cite>; a. e."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to take the last meal before beginning the fast</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 63a:3\">Keth. 63ᵃ</cite> <he>לא מר א׳ ולא מר א׳</he> Ar. (ed. <cite ref=\"Q01351\"><he>אִיפְּסִיק</he></cite> <i>Ithpe.</i>) neither father nor son partook of the last meal (before the Day of Atonement)."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפְּסַק", "אִיפְּסִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut, severed, broken off</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 16:9\">Targ. Jud. XVI, 9</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 52:2\">Targ. Is. LII, 2</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 112a:8\">Sabb. 112ᵃ</cite> <he>איפסיק ליה רצועה</he> (read: <cite ref=\"Q01351\"><he>אִיפְּסִיקָא</he></cite>) a strap of his shoe broke. Y. ib. VI, 8ᵃ bot. <he>אי׳ סנדליה וכ׳</he> R. Aḥa’s sandal fell off (the strap was broken). ",
+						"<cite ref=\"Chullin 51a\">Ḥull. 51ᵃ</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be interposed, to divide off</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 17a:5\">Keth. 17ᵃ</cite> <he>א׳ עמודא דנורא וכ׳</he> a column of fire was interposed between the bier of &c.; <he>וגמירי דלא אפסיק וכ׳</he> (read: <he>מִפְּסִיק</he>) and there is a tradition that such a phenomenon occurs only for one person in a generation &c.; ib. 77ᵇ <cite ref=\"Q01351\"><he>אִפְּסִיק</he></cite>, <he>מִפְּסִיק</he>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to take the last meal</i>, v. supra.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

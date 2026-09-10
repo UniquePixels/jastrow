@@ -1,0 +1,23 @@
+{
+	"id": "A01192",
+	"slug": "איזגרא",
+	"headword": {
+		"text": "אִיזְגָּרָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 46,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>אִיזְגָּרִין</he> (<cite ref=\"C01392\"><he>גרר</he></cite>, v. <cite ref=\"A00277\"><he>אֵגוֹר</he></cite>; prefix <cite ref=\"A00987\"><he>איז׳</he></cite>, cmp. <cite ref=\"A01200\"><he>אִיזְמֵל</he></cite> a. <cite ref=\"A01190\"><he>אִיזְגַּד</he></cite>) <i>mounds</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 74\">Gen. R. s. 74</cite> <he>בחקל דאית ביה א׳ וכ׳</he> in a field in which there are mounds (behind which people may hide) talk no secrets. [Muss. incorr. <cite ref=\"D00000\"><he>ד</he></cite> for <cite ref=\"T00000\"><he>ר</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "B01360",
+	"slug": "בשל-2",
+	"headword": {
+		"text": "בְּשַׁל"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּשִׁיל"
+		}
+	],
+	"page": {
+		"number": 199,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01359\">same</cite>; as <cite ref=\"B01359\">preced.</cite> Kal. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 40:10\">Targ. O. Gen. XL, 10</cite> ed. Berl. <he>בְּשִׁילוּ</he> (ed. <he>בַּשִּׁילוּ</he>, Pa.); Y. <he>בָּשְׁלוּ</he>; ib. IX, 20.—Part. pass. <cite ref=\"B01356\"><he>בָּשִׁיל</he></cite>, <he>בְּשִׁילָא</he>. ",
+				"<cite ref=\"Onkelos Numbers 6:19\">Targ. O. Num. VI, 19</cite>; a. e.—",
+				"<cite ref=\"Avodah Zarah 38a:10\">Ab. Zar. 38ᵃ</cite> <he>אי לא הוה הפיך בה הוה ב׳ וכ׳</he> Ms. M. (ed. less corr.) if he (the gentile) had not turned it, it would have been done in two hours."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּשֵּׁיל", "בַּשֵּׁל"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B01359\">preced.</cite> Pi. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 19:21\">Targ. I Kings XIX, 21</cite>; a. fr.; v. supra.—",
+						"<cite ref=\"Avodah Zarah 38a:11\">Ab. Zar. 38ᵃ</cite> <he>לבַשּׁוּלֵי מנא</he> to bake (in the furnace) the earthen vessel, contrad. to <he>לשרורי</he> to glaze, finish. ",
+						"<cite ref=\"Chullin 110a:3\">Ḥull. 110ᵃ</cite> <he>ריבעא … בעי לב׳</he> how much milk is required to boil a quarter of a litra of meat?"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְבַּשַּׁל", "אִיבְּשַׁל"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B01359\">preced.</cite> <i>Hithpa.</i> ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 26:2\">Targ. Y. Deut. XXVI, 2</cite>; a. e.—",
+						"<cite ref=\"Targum Jonathan on I Samuel 2:13\">Targ. I Sam. II, 13</cite> <he>כמִיבְּשַׁל</he> (Var. <he>כמְבַשֵּׁל</he>).—",
+						"<cite ref=\"Avodah Zarah 29b\">Ab. Zar. 29ᵇ</cite> <cite ref=\"B01360\"><he>אִיבְּשִׁיל</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

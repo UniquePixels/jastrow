@@ -1,0 +1,24 @@
+{
+	"id": "B00457",
+	"slug": "בזל",
+	"headword": {
+		"text": "בַּזֵּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּרְזֵל"
+		}
+	],
+	"page": {
+		"number": 154,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Pa. of <cite ref=\"B00457\"><he>בזל</he></cite>, √<cite ref=\"B00406\"><he>בז</he></cite>, v. <cite ref=\"B00436\"><he>בְּזָא</he> II</cite>) <i>to scatter, to distribute by shaking</i> (cmp. <cite ref=\"B00160\"><he>בְּדַר</he></cite> Pa. 2). ",
+			"units": [
+				"<cite ref=\"Shabbat 66b:9\">Sabb. 66ᵇ</cite> <he>וליבַּזּוּלֵיה וכ׳</he> Ms. M. a. oth. (ed. <he>לברזוליה</he>, <he>לברזליה</he>) let him shake it (the ant in the tube) to pieces and carry it off."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M00298",
+	"slug": "מדירא",
+	"headword": {
+		"text": "מְדֵירָא"
+	},
+	"page": {
+		"number": 734,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דְּרֵי</he> I) = h. <cite ref=\"M00780\"><he>מִזְרֶה</he></cite>, <i>winnowing fan</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:24\">Targ. Is. XXX, 24</cite> (ed. Lag. <i>pl.</i>).—<i>Pl.</i> <he>מְדֵירַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 15:7\">Targ. Jer. XV, 7</cite>."
+			]
+		}
+	]
+}

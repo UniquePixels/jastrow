@@ -1,0 +1,30 @@
+{
+	"id": "S00044",
+	"slug": "קבורתא",
+	"headword": {
+		"text": "קְבוּרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְבוּרָא"
+		}
+	],
+	"page": {
+		"number": 1308,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S00042\"><he>קְבוּרָה</he></cite>, a. <he>קֶכֶר</he>, <i>burial; grave</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 23:4\">Targ. Gen. XXIII, 4</cite>; <cite ref=\"Onkelos Genesis 23:20\">20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 30:10\">Targ. Ps. XXX, 10</cite>; a. fr.—Pl. <cite ref=\"S00040\"><he>קְבוּרָן</he></cite>, <cite ref=\"S00044\"><he>קְבוּרָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 21:32\">Targ. Job XXI, 32</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 32:23\">Targ. Ez. XXXII, 23</cite>; a. fr."
+			]
+		}
+	]
+}

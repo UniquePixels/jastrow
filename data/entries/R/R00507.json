@@ -1,0 +1,121 @@
+{
+	"id": "R00507",
+	"slug": "צלי-3",
+	"headword": {
+		"text": "צְלֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צְלָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1283,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"R00506\">preced.</cite>; corresp. to h. <cite ref=\"N00555\"><he>נָטָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (neut. verb) <i>to turn, decline; to incline</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 102:12\">Targ. Ps. CII, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 15:30\">Targ. Job XV, 30</cite> Ms. (ed. <he>יעדי</he>; h. text <cite ref=\"J00459\"><he>יסור</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 31:7\">Ib. XXXI, 7</cite> (some ed. <he>חְּצַלֵי</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 40:2\">Targ. Ps. XL, 2</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stretch, put up</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 9:8\">Targ. Hos. IX, 8</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <cite ref=\"A00568\"><he>אודנא</he></cite>) <i>to bend, incline the ear, listen, heed</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 5:13\">Targ. Prov. V, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 2:2\">Ib. II, 2</cite> Ms. (ed. <i>Af.</i>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:17\">Ib. XXII, 17</cite>; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to bend, wrest, pervert</i>. Ib. XVII, 23. Ib. XVIII, 5; a. fr.",
+			"units": [],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>to pray</i>, v. <i>Pa.</i>",
+			"units": [],
+			"label": "5"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַצְלֵי"],
+			"senses": [
+				{
+					"gloss": " (neut. verb) <i>to turn; to deviate</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 119:51\">Targ. Ps. CXIX, 51</cite>; <cite ref=\"Aramaic Targum to Psalms 119:157\">157</cite>; a. e.—",
+						"<cite ref=\"Berakhot 34b\">Ber. 34ᵇ</cite>; <cite ref=\"Megillah 23a:1\">Meg. 23ᵃ</cite> <he>דמַצְלֵי אַצְלוּיֵי</he> that they turned sideways (in prayer, instead of prostrating themselves)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to move, turn aside; to bend; to wrest, pervert</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 24:4\">Targ. Job XXIV, 4</cite>. ",
+						"<cite ref=\"Onkelos Exodus 23:6\">Targ. Ex. XXIII, 6</cite> (not <he>תֵצְלוּן</he>). ",
+						"<cite ref=\"Onkelos Deuteronomy 27:19\">Targ. Deut. XXVII, 19</cite>; a. e.—",
+						"<cite ref=\"Beitzah 14a:9\">Bets. 14ᵃ</cite> <he>אַצְלֵי אַצְלוּיֵי ודוך</he> bend the mortar sideways and pound. ",
+						"<cite ref=\"Beitzah 14a:10\">Ib.</cite> <he>ודילמא אצלויי א׳</he> perhaps he bent &c. ",
+						"<cite ref=\"Ketubot 105a:9\">Keth. 105ᵃ</cite> <he>לאצלויי דינא</he> to wrest judgment. ",
+						"<cite ref=\"Sanhedrin 109b\">Snh. 109ᵇ</cite> (name of one of the judges of Sodom) <he>מַצְלֵי דין</he> Ms. M. (ed. <he>דינא</he>; Ms. K. <he>אצלי</he>, v. Rabb. D. S. a. l. note) Perverter of justice; a. e.—4) <i>to pray</i>, v. <i>Pa</i>"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["צַלֵּי"],
+			"senses": [
+				{
+					"gloss": " [<i>to bend, turn aside</i>,] <i>to pray</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 86:1\">Targ. Ps. LXXXVI, 1</cite>. ",
+						"<cite ref=\"Onkelos Genesis 12:8\">Targ. Gen. XII, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 8:30\">Targ. I Kings VIII, 30</cite>; <cite ref=\"Targum Jonathan on I Kings 8:33\">33</cite> (ed. Wil. <he>יִצְלוּן</he> <i>Pe.</i>). ",
+						"<cite ref=\"Targum Jonathan on I Kings 8:28\">Ib. 28</cite> (ed. Wil. <he>מַצְלֵי</he> <i>Af.</i>); a. fr.—",
+						"<cite ref=\"Berakhot 34b:30\">Ber. 34ᵇ</cite> <he>דמְצַלֵּי וכ׳</he>, v. <cite ref=\"B01150\"><he>בִּקְתָא</he></cite>. ",
+						"<cite ref=\"Shabbat 10a:3\">Sabb. 10ᵃ</cite> <he>לצַלּוּיֵי</he>, v. <cite ref=\"N00127\"><he>נְגַהּ</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 81:3\">Gen. R. s. 81</cite> <he>סליק לצַלָּאָה וכ׳</he> went up to pray in Jerusalem. ",
+						"<cite ref=\"Bereishit Rabbah 81:3\">Ib.</cite> <he>ולא טב לך מִצְלֵי וכ׳</he> would it not be better for thee to pray on this blessed mountain (Gerizim)?; <cite ref=\"Bereishit Rabbah 81:3\">ib.</cite> s. 32 <he>למִיצְ׳</he>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִצְטְלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be moved; to tremble, shake</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 40:20\">Targ. Is. XL, 20</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 10:4\">Targ. Jer. X, 4</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

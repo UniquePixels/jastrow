@@ -1,0 +1,27 @@
+{
+	"id": "D00759",
+	"slug": "דכדוך",
+	"headword": {
+		"text": "דִּכְדּוּךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיכְ׳"
+		}
+	],
+	"page": {
+		"number": 306,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00760\">next w.</cite>) <i>being crushed</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:10\">Y. Ḥag. II, 77ᶜ</cite> top; <cite ref=\"Ruth Rabbah 6:4\">Ruth R. to III, 13</cite> (ref. to <he>דכא</he>, <cite ref=\"Psalms 90:3\">Ps. XC, 3</cite>) <he>עד דִּכְדּוּכָהּ של נפש מקבלין</he> up to the time when life is crushed, are repentant sinners received."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "G00393",
+	"slug": "זיף-2",
+	"headword": {
+		"text": "זִיף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 395,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>זִיפִים</he>, <he>זִיפִין</he> (<he>זוף</he> I; b. h. <i>thick honey</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 5:9\">Makhsh. V, 9</cite> <he>דבש הז׳</he> (R. S. <he>דבש והז׳</he>), expl. ",
+				"<cite ref=\"Sotah 48b:18\">Sot. 48ᵇ</cite>, v. <cite ref=\"G00223\"><he>זוּף</he> I</cite>."
+			]
+		}
+	]
+}

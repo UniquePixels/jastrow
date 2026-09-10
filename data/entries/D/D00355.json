@@ -1,0 +1,25 @@
+{
+	"id": "D00355",
+	"slug": "דורבנא",
+	"headword": {
+		"text": "דּוּרְבָּנָא"
+	},
+	"page": {
+		"number": 289,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contract. of <he>דברברנא</he>, reduplic. of <he>דבר</he>, v. <cite ref=\"D00079\"><he>דַּבָּר</he></cite>; emp. <cite ref=\"T00446\"><he>רוֹרְבָּנָא</he></cite> a. <cite ref=\"D01033\"><he>דָּֽרְבָן</he></cite>) <i>a haughty leader</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 34:20\">Targ. Job XXXIV, 20</cite> ed. Lag. (ed. Vien. <cite ref=\"D00355\"><he>דּוּרְבָּנֵי</he></cite>).—Pl. <cite ref=\"D00355\"><he>דּוּרְבָּנַיָּא</he></cite>, <cite ref=\"D00355\"><he>דּוּרְבָּנֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 35:9\">Ib. XXXV, 9</cite> (Var. <cite ref=\"T00149\"><he>רַבְרְבָנַ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:16\">Targ. Prov. VIII, 16</cite> Var. ed. Lag. <he>דוכרני</he> (corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 31:24\">Targ. Ps. XXXI, 24</cite>."
+			]
+		}
+	]
+}

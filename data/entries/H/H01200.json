@@ -1,0 +1,28 @@
+{
+	"id": "H01200",
+	"slug": "חמם-1",
+	"headword": {
+		"text": "חֲמָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִימּוּם"
+		}
+	],
+	"page": {
+		"number": 478,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01201\">next w.</cite>; cmp. ἄμωμον, v. Sm. Ant. s. v.) <i>amomum</i>, an Indian (also Syriac) spice. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 3:5\">Ukts. III, 5</cite> (some ed. incorr. <cite ref=\"H01204\"><he>חמס</he></cite>); <cite ref=\"Niddah 51b\">Nidd. 51ᵇ</cite> <cite ref=\"H00807\"><he>חימות</he></cite> (corr. acc.); <cite ref=\"Sifrei Devarim 107\">Sifré Deut. 107</cite> <he>חימום</he>; Y. Erub. IX, end, 25ᵈ <cite ref=\"H00942\"><he>חכם</he></cite> (corr. acc.); <cite ref=\"Jerusalem Talmud Chagigah 3:5:3\">Y. Ḥag. III, 79ᶜ</cite> <he>חמה</he> (corr. acc.).—",
+				"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite>, beg. <he>הִ׳ היא צריכה</he> (<cite ref=\"E00419\"><he>הימוס</he></cite>, corr. acc.) she needs amomum (as medicine for sterility). Cmp. <cite ref=\"E00427\"><he>הִימַלְתָּא</he></cite>, <cite ref=\"A02028\"><he>אַמִּיתָא</he></cite>."
+			]
+		}
+	]
+}

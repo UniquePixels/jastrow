@@ -1,0 +1,28 @@
+{
+	"id": "A01704",
+	"slug": "אכלה-2",
+	"headword": {
+		"text": "אָכְלָה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹכְלָה"
+		}
+	],
+	"page": {
+		"number": 63,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אָכֵל</he> 2) <i>occupied space</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 2:10\">Kil. II, 10</cite> Y. ed. <he>אָכְלַת הגפן</he> (Mish. ed. <cite ref=\"A01688\"><he>אֲכִילַת</he></cite>; Y. Ib. 28ᵃ <cite ref=\"A00646\"><he>אוֹכְלַת</he></cite>) the soil occupied by the vine roots, <he>א׳ הקבר</he> the ground needed for the formation of the cave, i.e. as far as the roots &c. extend."
+			]
+		}
+	]
+}

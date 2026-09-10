@@ -1,0 +1,27 @@
+{
+	"id": "U00924",
+	"slug": "שיכלול",
+	"headword": {
+		"text": "שִׁיכְלוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁכְ׳"
+		}
+	],
+	"page": {
+		"number": 1562,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01166\"><he>שִׁכְלֵל</he></cite>) <i>finishing, completion</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1\">Gen. R. s. 1</cite> <he>לבריאה … ולש׳ הארץ קדמה</he> as regards creation (planning) the heavens were first (<cite ref=\"Genesis 1:1\">Gen. I, 1</cite>); as regards completion, the earth came first (ib. II, ; Yalk. ib. 3; <cite ref=\"Vayikra Rabbah 36\">Lev. R. s. 36</cite>; <cite ref=\"Jerusalem Talmud Chagigah 2:1:17\">Y. Ḥag. II, 77ᵈ</cite> top."
+			]
+		}
+	]
+}

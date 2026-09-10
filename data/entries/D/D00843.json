@@ -1,0 +1,29 @@
+{
+	"id": "D00843",
+	"slug": "דלם",
+	"headword": {
+		"text": "דֶּלֶם"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּלוּם"
+		}
+	],
+	"page": {
+		"number": 310,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דלל</he>, with format. <cite ref=\"M00000\"><he>מ</he></cite>) <i>diminution, defect</i> (cmp. <cite ref=\"D00308\"><he>דּוֹפִי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Pesachim 57a:6\">Pes. 57ᵃ</cite> that the workmanship was good <he>ואין בהם ד׳</he> Ms. M. 1 a. ed. (Ms. M. 2 <cite ref=\"D00847\"><he>דליס</he></cite>, Ar. <he>דלוס</he>, <cite ref=\"D00847\"><he>דליס</he></cite>, v. Koh. Ar. Compl.) and there was no defect in them; <cite ref=\"Tosefta Menahot 13:19\">Tosef. Men. XIII, 19</cite> <he>שלא נטה בו דלום</he> ed. Zuck. (ed. <cite ref=\"K00703\"><he>כלום</he></cite>).—",
+				"<cite ref=\"Tosefta Bava Kamma 7:8\">Tosef. B. Kam. VII, 8</cite> <he>אין השמן מקבל דליס</he> (Var. <cite ref=\"K00703\"><he>כלום</he></cite>; Mekh. Mishp. N’zikm. s. 13 <cite ref=\"M01390\"><he>מַכָּל</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 343\">Yalk. Ex. 343</cite> <cite ref=\"M02124\"><he>מַעַל</he></cite>) oil admits of no dilution through admixture (cmp. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:3\">Cant. R. to I, 3</cite>)."
+			]
+		}
+	]
+}

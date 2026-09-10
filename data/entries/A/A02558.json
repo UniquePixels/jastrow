@@ -1,0 +1,28 @@
+{
+	"id": "A02558",
+	"slug": "אסרטא",
+	"headword": {
+		"text": "אִסְרָטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 98,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"A02408\"><he>אִסְטְרָטָא</he></cite>, <i>road</i>. Targ., v. <cite ref=\"A02345\"><he>אִסְטְ׳</he></cite>.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:10\">Y. Shek. VII, 50ᶜ</cite> bot. <he>א׳ דגופתא</he> (in Bab. ed. <he>איסרקא דגדפתה</he>, corr. acc.). Y. M. Kat. I, 64ᵇ bot.; a. e. (interchanging with <he>אסט׳</he>).—Pl. <cite ref=\"A02566\"><he>אִסְרָטִין</he></cite> <i>promenade</i>, v. <cite ref=\"A02345\"><he>אִסְטְ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:10\">Y. Taan. IV, 68ᵃ</cite> bot. Y. Yeb. XII, 12ᵈ top <cite ref=\"A02558\"><he>אִסְרָטָן</he></cite>(?). [<he>אִסְרָטִין</he> <i>troops</i>, v. <cite ref=\"A02348\"><he>אִיסְ׳</he></cite>.]"
+			]
+		}
+	]
+}

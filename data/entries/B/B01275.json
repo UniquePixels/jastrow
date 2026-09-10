@@ -1,0 +1,41 @@
+{
+	"id": "B01275",
+	"slug": "בריר",
+	"headword": {
+		"text": "בָּרִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרִיר"
+		},
+		{
+			"text": "בְּרִירָא"
+		},
+		{
+			"text": "בְּרִירָה"
+		}
+	],
+	"page": {
+		"number": 194,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"B01207\"><he>בָּרוּר</he></cite><i>clear, pure, certain; polished, bright</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:27\">Targ. Ps. XVIII, 27</cite> (h. text <cite ref=\"N00104\"><he>נָבָר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 22:2\">Targ. Y. Ex. XXII, 2</cite> (Var. <cite ref=\"B01207\"><he>בָּרוּר</he></cite>); a. fr.—Pl. <he>בְּרִירִין</he>, <cite ref=\"B01275\"><he>בְּרִירָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 8:9\">Targ. Y. I Deut. VIII, 9</cite>, <cite ref=\"Targum Jerusalem, Deuteronomy 8:9\">Targ. Y. II, Deut. VIII, 9</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>chosen, peculiar</i>. Ibid. XXIX, 12.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

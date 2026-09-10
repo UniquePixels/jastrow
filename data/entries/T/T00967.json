@@ -1,0 +1,34 @@
+{
+	"id": "T00967",
+	"slug": "רפש-4",
+	"headword": {
+		"text": "רֶפֶשׂ"
+	},
+	"page": {
+		"number": 1492,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00966\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stamping</i>; trnsf. <i>conquest</i>.—Pl. <he>רְפָשִׂים</he>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 13</cite>; Midr. Sam. ch. XXIV, v. <cite ref=\"T00965\"><he>רָפַשׂ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stamped dung</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 30a:5\">B. Kam. 30ᵃ</cite> <he>לא יהא אלא כרִפְשׂוֹ</he> is this not the same as if he had deposited and stamped his dung (in the public road)?"
+			],
+			"label": "2"
+		}
+	]
+}

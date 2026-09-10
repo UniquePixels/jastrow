@@ -1,0 +1,61 @@
+{
+	"id": "U00661",
+	"slug": "שחל-2",
+	"headword": {
+		"text": "שָׁחַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1548,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v.<cite ref=\"H01073\"><he>חָלַל</he></cite>, <cite ref=\"H01075\"><he>חֲלַל</he> II</cite>; cmp. Assyr. <he>סחל</he> <i>to perforate</i>, Del. Assyr. Handw., p. 493) <i>to move in a hollow space, slip.—Part. pass</i>. <cite ref=\"U00617\"><he>שָׁחוּל</he></cite> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>slipped</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Shabbat 15:2:3\">Y. Sabb. XV, beg. 15ᵃ</cite> <he>בחבל ש׳ היא מתני׳</he> the Mishnah speaks of a rope drawn through a loop (not knotted). ",
+						"<cite ref=\"Jerusalem Talmud Shabbat 15:2:3\">Ib.</cite> <he>חבל שהוא משוחל בפסיקיא וכ׳</he> if a looped rope be meant, (of which the Mishnah says,) ‘you may tie up the broken rope with a <i>fascia</i>, but not with a rope, but R. Judah allows’—this would imply that the Rabbis do not allow it (and why should they not?).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " v. <cite ref=\"U00617\"><he>שָׁחוּל</he></cite>.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁחִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to pass through a hollow space</i> (<cite ref=\"H01000\"><he>חַלּוֹן</he></cite>) <i>or groove; to slide</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 35b:8\">Bets. 35ᵇ</cite> (ref. to Mish. ",
+						"<cite ref=\"Mishnah Beitzah 5:1\">ib. V, 1</cite> <he>משילין</he>) <he>חד תני משילין וחד תני מַשְׁחִילִין</he> one reads <i>mashshilin</i> (fr. <cite ref=\"N01328\"><he>נָשַׁל</he></cite>), and another reads <i>mashḥilin</i>, you may let fruit slide down through an aperture in the roof (<cite ref=\"A03015\"><he>אֲרוּבָּה</he></cite>) &c.; <he>מאן דתני משחילין וכ׳</he> he that reads <i>mashḥilin</i> is not wrong, for we read (<cite ref=\"Mishnah Bekhorot 6:7\">Bekh. VI, 7</cite>) &c., v. <cite ref=\"U00617\"><he>שָׁחוּל</he></cite>. Y. ib. V, beg. 62ᵈ <he>היה … משחילין דרך חלון</he> if there is an aperture in the roof, you may let the fruit down by the aperture. Y. Yoma II, 39ᶜ <he>מַשְׁחִיל ותורם</he> he lets the wood slide (down the altar), and then removes the ashes. Y. Kil. IX, end, 32ᵈ <he>חוט שהִשְׁחִילוֹ במחט</he> (not <he>למחט</he>) a thread which one threaded through the eye of a needle; Y. Sabb. VII, 10ᶜ bot. ",
+						"<cite ref=\"Midrash Tehillim 18:32\">Midr. Till. to Ps. XVIII, 41</cite> <he>ה׳ עשו עצמו וכ׳</he> Esau threaded his way through and went into the cave; <cite ref=\"Midrash Tehillim 18:32\">ib.</cite> <he>ה׳ וצף וכ׳</he> ed. Bub., v. <cite ref=\"R00705\"><he>צָפַף</he></cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 606:1\">Yalk. Ruth 606</cite> <he>שאלו הש׳ לה קללה אחת וכ׳</he> (later ed. <he>התחיל</he>, corr. acc.) for, if he (Boaz) had let down a single curse on her (Ruth), how could I (David) have risen?; Pesik. Vayhi, p. 63ᵃ <he>שאלו השאיל … מלמטן וכ׳</he> (corr. acc.) for, if he had let down on her a single curse from above (‘below’ euphem. for ‘above’) &c.; <cite ref=\"Pesikta Rabbati 17:1\">Pesik. R. s. 17</cite> <he>התחיל</he> (corr. acc.); <cite ref=\"Ruth Rabbah 6:2\">Ruth R. to III, 10</cite> (<cite ref=\"Ruth Rabbah 6:4\">s. 6</cite>, beg.) <he>החיש לה</he> (corr. acc.).—Part. pass. <he>מוּשְׁחָל</he>. ",
+						"<cite ref=\"Vayikra Rabbah 36\">Lev. R. s. 36</cite> (ref. to <cite ref=\"Proverbs 11:21\">Prov. XI, 21</cite>) <he>וזרע … שמ׳ מבין … נמלט</he> ‘the seed of righteous men’ that slips through between two righteous men (like Ahaz between a pious father and a pious son) escapes; (Y. Snh. X, 27ᵈ <he>זרע שהוא מוטל וכ׳</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["שׁוּחָל"],
+			"senses": [
+				{
+					"gloss": "<i>to be looped;</i> part. <he>מְשׁוּחָל</he>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

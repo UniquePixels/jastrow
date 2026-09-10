@@ -1,0 +1,34 @@
+{
+	"id": "U01883",
+	"slug": "שקפא-1",
+	"headword": {
+		"text": "שַׁקְפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁ׳"
+		},
+		{
+			"text": "שִׁי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1625,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U01880\"><he>שָׁקף</he> I</cite>, a. <cite ref=\"O01459\"><he>סְקוֹף</he></cite>) <i>lintel, threshold</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:7\">Targ. O. Ex. XII, 7</cite>; <cite ref=\"Onkelos Exodus 12:22\">22</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. Num. XXV, 8</cite> (v. Y. Snh. X, 28ᵈ bot., quot. s. v. <cite ref=\"U01838\"><he>שְׁקוֹף</he></cite>).—Pl. <he>שִׁקְפַיָּא</he>, <he>שִׁקְפַיָּיה</he>, <cite ref=\"U01839\"><he>שְׁקוֹפַ׳</he></cite>. ",
+				"<cite ref=\"Targum of I Chronicles 9:19\">Targ. I Chr. IX, 19</cite>; <cite ref=\"Targum of I Chronicles 9:22\">22</cite> (h. text <he>ספים</he>). ",
+				"<cite ref=\"Targum of I Chronicles 26:15\">Ib. XXVI, 15</cite>; <cite ref=\"Targum of I Chronicles 26:17\">17</cite> (h. text <he>אספים</he>)."
+			]
+		}
+	]
+}

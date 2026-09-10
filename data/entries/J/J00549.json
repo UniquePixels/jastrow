@@ -1,0 +1,33 @@
+{
+	"id": "J00549",
+	"slug": "יצר-2",
+	"headword": {
+		"text": "יְצַר"
+	},
+	"page": {
+		"number": 590,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00548\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 4:13\">Targ. Am. IV, 13</cite> <cite ref=\"D00691\"><he>דִּיצַר</he></cite> (some ed. <he>דְּצָר</he>), v. <cite ref=\"R00242\"><he>צוּר</he></cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְּצַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be created, formed</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 85a\">Yoma 85ᵃ</cite>; <cite ref=\"Sotah 45b:17\">Sot. 45ᵇ</cite> <he>ממציעתיה מִיתְּצַר</he> the formation of the embryo starts from the central portion of the body."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

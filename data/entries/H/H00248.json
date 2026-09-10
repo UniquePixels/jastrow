@@ -1,0 +1,42 @@
+{
+	"id": "H00248",
+	"slug": "חובץ-2",
+	"headword": {
+		"text": "חוּבָּץ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּבְצָא"
+		}
+	],
+	"page": {
+		"number": 429,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00102\"><he>חבץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>soft cheese</i>. Y. Pes. I, 33ᶜ.—",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 4) <he>ח׳ דעיזא וכ׳</he> cheese from a white goat.—Pl. <he>חוּבְצִין</he>. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:45\">Y. Peah I, 16ᵃ</cite> <he>אמר חד ח׳</he> said one, Let us have cheese (indirectly denouncing one Bar-Ḥubbats who had absented himself from a meeting, v. <cite ref=\"H00247\">preced.</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ח׳ דתמרי <i>a mash of pressed dates</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 80a:1\">Keth. 80ᵃ</cite> (differ. fr. <cite ref=\"H00075\"><he>חֲבִיצָא</he></cite>; Ar. <cite ref=\"H00657\"><he>חִיבּוּצָא</he></cite>), v. <cite ref=\"U00238\"><he>שִׁיגְרָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

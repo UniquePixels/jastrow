@@ -1,0 +1,32 @@
+{
+	"id": "B00046",
+	"slug": "בארי",
+	"headword": {
+		"text": "בְּאֵרַי"
+	},
+	"page": {
+		"number": 136,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>B’erai</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " ident. with <cite ref=\"B00713\"><he>בֵּירַי</he></cite> in Galilee. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 28:1\">Pesik. R. s. 28</cite>; <cite ref=\"Midrash Tehillim 137:1\">Midr. Till. to Ps. CXXXVII</cite>; Yalk. a. l."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"B00531\"><he>בֵּי ב׳</he></cite> in Babylon, v. <cite ref=\"B00702\"><he>בֵּירַאי</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "O01451",
+	"slug": "סקד",
+	"headword": {
+		"text": "סְקַד"
+	},
+	"page": {
+		"number": 1019,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סַקֵּיד</he> (<i>Saf.</i> of <cite ref=\"N01162\"><he>נ־קד</he> I</cite>; interch. with <he>סקר</he>, cmp. <cite ref=\"N01241\"><he>נקר</he> I</cite>) <i>to sting, goad; to drive, train</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 8:5\">Targ. Y. Deut. VIII, 5</cite> (some ed. <he>מְסַקֵּר</he>; incorr. <he>מַסְקַר</he>; h. text <he>יסר</he>).—Pesik. Baḥod. p. 153ᵃ (ref. to <he>מלמדך</he>, <cite ref=\"Isaiah 48:17\">Is. XLVIII, 17</cite>; cmp. <cite ref=\"M01600\"><he>מַלְמַד</he></cite>) [read:] <he>מְסַקֵּיד לך כמא דהדין מסאסא מסקיד להדא פרתא</he> who trains thee (through sufferings) as the goad trains the cow; [Ar. s. v. <he>מסקיד</he>: <he>מְסַקִּידְנָא וכ׳</he> I train thee &c.]; <cite ref=\"Vayikra Rabbah 29\">Lev. R. s. 29</cite>; <cite ref=\"Yalkut Shimoni on Torah 782\">Yalk. Num. 782</cite>; <cite ref=\"Yalkut Shimoni on Torah 645:2\">Yalk. Lev. 645</cite> <he>מְסַקֵּר</he>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

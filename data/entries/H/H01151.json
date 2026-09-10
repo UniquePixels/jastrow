@@ -1,0 +1,37 @@
+{
+	"id": "H01151",
+	"slug": "חמה-2",
+	"headword": {
+		"text": "חֵמָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵי׳"
+		}
+	],
+	"page": {
+		"number": 475,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>חמם</he> or <he>חום</he>)<i>heat, anger</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 82b:4\">Snh. 82ᵇ</cite> <he>משיב ח׳ בן וכ׳</he> he is an allayer of (divine) anger, the son of &c. ",
+				"<cite ref=\"Bamidbar Rabbah 20:21\">Num. R. s. 20</cite> <he>נתמלא עליה ח׳</he> he became angry at her. ",
+				"<cite ref=\"Eichah Rabbah 1:38\">Lam. R. to I, 6</cite> <he>חֲמָתוֹ של הב״ה</he> the anger of the Lord; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Ḥemah</i>, allegorical name of one of the angels of justice. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 41:7\">Ex. R. s. 41</cite>, end; a. e., v. <cite ref=\"A02596\"><he>אַף</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

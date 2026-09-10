@@ -1,0 +1,27 @@
+{
+	"id": "A02773",
+	"slug": "אפץ-2",
+	"headword": {
+		"text": "אֲפַץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲפַץ"
+		}
+	],
+	"page": {
+		"number": 107,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A02772\">same</cite>, esp. <i>to use</i> <cite ref=\"A02774\"><he>אַפְצָא</he></cite> q. v., <i>to dress</i> or <i>prepare with gall-nut juice</i>.—Part. pass. <he>אָפִיץ</he>, <cite ref=\"P01065\"><he>עָפִיץ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Megillah 19a:1\">Meg. 19ᵃ</cite> top <he>ולא א׳</he> Ms. M. (ed. <cite ref=\"P00001\"><he>ע׳</he></cite>) a skin not moistened with gall-nut. ",
+				"<cite ref=\"Gittin 19a:15\">Gitt. 19ᵃ</cite> <he>הא דאֲפִיצָן</he> Rashi (ed. <he>אפיץ</he>) in the one case it means when the parchment has been dressed &c. ",
+				"<cite ref=\"Gittin 11a\">Ib. 11ᵃ</cite>; <cite ref=\"Gittin 19b\">19ᵇ</cite>.—",
+				"<cite ref=\"Gittin 22a:16\">Ib. 22ᵃ</cite>; <cite ref=\"Shabbat 79a:8\">Sabb. 79ᵃ</cite> <cite ref=\"P00001\"><he>ע׳</he></cite>."
+			]
+		}
+	]
+}

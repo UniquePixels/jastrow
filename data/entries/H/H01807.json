@@ -1,0 +1,77 @@
+{
+	"id": "H01807",
+	"slug": "חשב-2",
+	"headword": {
+		"text": "חֲשֵׁב"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשֵׁיב"
+		}
+	],
+	"page": {
+		"number": 508,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01806\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 50:20\">Targ. Gen. L, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 8:3\">Targ. Esth. VIII, 3</cite>; a. fr.—Pesik. B’shall., p. 82ᵃ (translating <cite ref=\"Exodus 18\">Ex. XVIII</cite>, 11ᵇ) <he>במחשבה דחַשְׁבוּן איתחשב להון</he> what they had planned (against Israel) was planned against them. ",
+				"<cite ref=\"Shabbat 3a:4\">Sabb. 3ᵃ</cite> <he>קא חֲשִׁיב</he> he counts in; a. fr.—<i>Part. pass.</i> <cite ref=\"H01830\"><he>חָשִׁיב</he></cite>, pl. <he>חֲשִׁיבִין</he> = h. <cite ref=\"H01819\"><he>חָשׁוּב</he></cite>, v. <cite ref=\"H01806\">preced.</cite> ",
+				"<cite ref=\"Targum Jonathan on Exodus 4:19\">Targ. Y. Ex. IV, 19</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 8b:6\">Keth. 8ᵇ</cite> <he>ח׳ את וכ׳</he> thou hast been found worthy to be seized (to suffer) for etc. ",
+				"<cite ref=\"Gittin 56b:18\">Gitt. 56ᵇ</cite> <he>מאן ח׳ וכ׳</he> who is highly esteemed in that world (the hereafter)?; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַשֵּׁיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01806\">same</cite>, <i>to plan, to count, calculate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 21:11\">Targ. Jer. XXI, 11</cite>.—",
+						"<cite ref=\"Onkelos Leviticus 25:27\">Targ. O. Lev. XXV, 27</cite>; a. fr.—",
+						"<cite ref=\"Megillah 11b:6\">Meg. 11ᵇ</cite> <he>חַשִּׁיב ועייל וכ׳</he> count, and include in their place &c. ",
+						"<cite ref=\"Pesachim 94a:7\">Pes. 94ᵃ</cite> <he>דקא חַשְּׁבֵי דקדמא וכ׳</he> because they also counted the distances which one walks before dawn and after sunset. ",
+						"<cite ref=\"Shabbat 74a:1\">Sabb. 74ᵃ</cite> <he>וליחַשֵּׁב וכ׳</he> let him also count the act of pounding; <cite ref=\"Shabbat 6b\">ib. 6ᵇ</cite>; a. e. <he>ולִחְשׁוֹב</he> (Pe.); a. fr. [Y. Pes. IV, end, 31ᶜ <he>מחשבנא</he> v. <cite ref=\"H01846\"><he>חֲשַׂךְ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַשֵּׁב"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְחֲשַׁב"],
+			"senses": [
+				{
+					"gloss": " <he>אִיחֲשַׁב</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be planned</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 50:20\">Targ. O. Gen. L, 20</cite>.—Pesik. l. c., v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be considered, valued</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 17:4\">Targ. Lev. XVII, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 50:23\">Targ. Ps. L, 23</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Proverbs 29:11\">Targ. Prov. XXIX, 11</cite> <he>מֵיחֲשַׁב</he> Ms. (ed. Lag. <he>מחשב</he>, Var. <he>מאשב</he>) <i>is respected</i> (v. Pesh. a. l.; ed. Wil. <he>מאכה</he> v. <cite ref=\"M00036\"><he>מְאַךְ</he></cite>).]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

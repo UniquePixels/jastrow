@@ -1,0 +1,25 @@
+{
+	"id": "P01341",
+	"slug": "ערי-1",
+	"headword": {
+		"text": "ערי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָרָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1116,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A03013\"><he>אָרָה</he></cite>)<i>to uncover</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 83\">Gen. R. s. 83</cite>, end <he>שהוא עתיד לַעֲרוֹת וכ׳</he> ‘Rashi’ he will uncover treasures &c., v. <cite ref=\"P01390\"><he>עָרַם</he> I</cite>.—Denom. <cite ref=\"P01321\"><he>עֶרְוָה</he></cite>, <cite ref=\"P01351\"><he>עֶרְיָה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "M02559",
+	"slug": "מרדתא-1",
+	"headword": {
+		"text": "מָרָדְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָרְדֵתָא"
+		}
+	],
+	"page": {
+		"number": 838,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02530\"><he>מְרַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>running about, turbulent</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:11\">Targ. Prov. VII, 11</cite> (Ms. <cite ref=\"M02546\"><he>מרדותא</he></cite>, read: <he>מָרוֹדְ׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"K00857\"><he>כְּנִישְׁתָּא מ׳</he></cite> name of a synagogue in Caesarea (<i>the turbulent synagogue</i>, v. Josephus B. J. II, 14, 5). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 7:1:12\">Y. Naz. VII, 56ᵃ</cite>; Y. Ber. III, 6ᵃ bot. <cite ref=\"M00339\"><he>מדרתא</he></cite> (ed. Krot. <he>מדדתה</he>); <cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 3</cite> <cite ref=\"M00269\"><he>מדוכתא</he></cite>; <cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>מדוכת׳</he> (prob. to be read: <he>מרודת׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

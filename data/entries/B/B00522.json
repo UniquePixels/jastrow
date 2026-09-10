@@ -1,0 +1,27 @@
+{
+	"id": "B00522",
+	"slug": "בטלנות",
+	"headword": {
+		"text": "בַּטְלָנוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּטָּלוֹן"
+		}
+	],
+	"page": {
+		"number": 158,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00515\"><he>בטל</he></cite>) <i>idleness, loss of time</i>. Treat. ",
+			"units": [
+				"<cite ref=\"Tractate Avadim 2:2\">Abad. ch. II</cite> <he>בִּטְּלוֹנוֹ</he>; <cite ref=\"Sifrei Devarim 118:7\">Sifré Deut. 118</cite> <cite ref=\"B00522\"><he>בַּטְלָנוּתוֹ</he></cite> his idleness (during sickness),"
+			]
+		}
+	]
+}

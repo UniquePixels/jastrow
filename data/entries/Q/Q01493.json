@@ -1,0 +1,32 @@
+{
+	"id": "Q01493",
+	"slug": "פקל",
+	"headword": {
+		"text": "פָּקַל"
+	},
+	"page": {
+		"number": 1209,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to split, peel</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיקֵּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01492\">same</cite>, esp. <i>to strip onions</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:6\">Maasr. I, 6</cite> <he>הבצלים משיְפַקֵּל ואם אינו מְפַקֵּל וכ׳</he> (Y. ed. <he>משיְפַקֵּילוּ</he>; Ms. M. <he>משיקפלו מקפל …</he>) onions are subject to tithes when one begins to strip them (for storage), and if one does not want to strip &c., v. <cite ref=\"P01362\"><he>עֲרֵימָה</he></cite>; Y. ib. 49ᵃ bot. <he>משיְפַקְּלוּ</he>, expl. <he>מן דו ירים וכ׳</he>, v. <cite ref=\"Q00333\"><he>פּוּרְגָּרָה</he></cite>. ",
+						"<cite ref=\"Mishnah Oktzin 2:5\">Ukts. II, 5</cite> <he>התחיל … לְפַקֵּל בבצלים</he> when one has begun the stripping &c.; (Tosef. ib. II, 13 <he>לקלף</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

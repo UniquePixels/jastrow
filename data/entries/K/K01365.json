@@ -1,0 +1,47 @@
+{
+	"id": "K01365",
+	"slug": "כתית",
+	"headword": {
+		"text": "כָּתִית"
+	},
+	"page": {
+		"number": 681,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01393\"><he>כָּתַת</he></cite>)<i>oil gained from pounded olives</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 8:5\">Men. VIII, 5</cite>. ",
+				"<cite ref=\"Menachot 86b:2\">Ib. 86ᵇ</cite> <he>אין כ׳ אלא כָּתוּשׁ</he> the Biblical <i>kathith</i> means <i>pounded</i>. [<cite ref=\"Menachot 53b:12\">Ib. 53ᵇ</cite>, v. preced.]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>כְּתִיתִין</he> (sub. <cite ref=\"Q02111\"><he>פַּת</he></cite>, v. <cite ref=\"K01364\">preced.</cite>) <i>bread or pastry made of pounded wheat, delicacies</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 15:2\">Midr. Till. to Ps. XV, 1</cite>; <cite ref=\"Yalkut Shimoni on Nach 664:1\">Yalk. Ps. 664</cite> <he>שמוכרין מיני כ׳ וכל דבר</he> [<cite ref=\"I00107\"><he>טוב</he></cite>] who had for sale various fine pastries and all sorts of [good]things."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. b. h. <cite ref=\"O01345\"><he>ספחת</he></cite>) <i>scab</i> on an animal’s back from friction. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:1\">Sabb. VIII, 1</cite> (<cite ref=\"Shabbat 76b:6\">76ᵇ</cite>) <he>דבש כדי ליתן על פי כ׳</he> (v. Rabb. D. S. a. l. note) honey, as much as required for putting on a scab (v. <cite ref=\"K01363\"><he>כְּתִישָׁא</he></cite>); ib. 77ᵇ, v. <cite ref=\"M00674\"><he>מוֹרְשָׁא</he></cite> a. <cite ref=\"E00212\"><he>הוֹדְרנָא</he></cite>. Ib. <he>ברא שבלול לכ׳</he> He created the snail as a remedy for a scab; <cite ref=\"Jerusalem Talmud Berakhot 9:2:5\">Y. Ber. IX, 13ᶜ</cite> bot. <he>שבלון לכ׳</he> ed. Lehm. (ed. <he>לחזיות</he>, v. <cite ref=\"H00522\"><he>חְזָזִית</he></cite>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "(also <cite ref=\"K01356\"><he>כָּתוּת</he></cite>) <i>compress of rags</i> (cmp. <he>שְׁחָקִים</he>, <cite ref=\"B00860\"><he>בְּלָיוֹת</he></cite>); <i>pad</i>. [<cite ref=\"Tosefta Mikvaot 6:10\">Tosef. Mikv. VI, 10</cite> <he>כתות של גדיל</he>, v. <cite ref=\"K01302\"><he>כָּשׁוּת</he></cite>.]—Pl. <he>כְּתִיתִים</he>, <he>כְּתִיתִין</he>, <cite ref=\"K01363\"><he>כְּתוּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 12:14\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:14\">XIII</cite>), 14; <cite ref=\"Shabbat 134b:22\">Sabb. 134ᵇ</cite> <he>כ׳ יבשין</he> dry compresses. ",
+				"<cite ref=\"Shabbat 53a\">Ib. 53ᵃ</cite> <he>כ׳ ע״ג השבר</he> Ms. M. (ed. <cite ref=\"S02253\"><he>קשישין</he></cite>, Ms. O. <cite ref=\"K00090\"><he>כַּבְשִׁישִׁין</he></cite>) pads upon a fractured limb. ",
+				"<cite ref=\"Mishnah Shabbat 6:8\">Ib. VI, 8</cite> (<cite ref=\"Shabbat 66a:15\">66ᵃ</cite>); <cite ref=\"Yoma 78b:3\">Yoma 78ᵇ</cite> <he>אם יש לו בית קבול כתי׳</he> Ms. M. (ed. <cite ref=\"K01363\"><he>כתו׳</he></cite>) if the wooden leg has a cavity for the reception of pads, v. <cite ref=\"K01366\">next w.</cite>"
+			],
+			"label": "4"
+		}
+	]
+}

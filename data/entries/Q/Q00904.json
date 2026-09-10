@@ -1,0 +1,32 @@
+{
+	"id": "Q00904",
+	"slug": "פיתק-1",
+	"headword": {
+		"text": "פִּיתָּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֶּתֶק"
+		}
+	],
+	"page": {
+		"number": 1173,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02195\"><he>פָּתַק</he></cite>; v. <cite ref=\"Q00632\"><he>פִּיטֵּק</he></cite>) <i>ball, stone, tablet, ballot; lot, decree</i>. Tanḥ. B’haʿăl. 12 <he>כל מי שהיה עולה בידו פ׳ כתוב וכ׳</he> he who drew a ballot on which ‘elder’ was written. Tanḥ. B’midb. 21 <he>אם עלה בידו פ׳ כתוב וכ׳</he> if he drew a ballot on which ‘Levi’ was written, he knew that a Levite had redeemed him. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:10\">Num. R. s. 4</cite> [read:] <he>מי אומר לך שאם היה שם פי׳ של לוי שלא וכ׳</he> who tells thee that I should not have drawn it, had there been a ballot inscribed ‘Levi’ in the box? <cite ref=\"Bamidbar Rabbah 4:10\">Ib.</cite> <he>פ׳ כתב וכ׳</he> (read <he>כתוב</he>) a ballot inscribed &c. ",
+				"<cite ref=\"Sotah 12a:16\">Sot. 12ᵃ</cite> <he>לא היו בפִיתְקָהּ של חוה</he> they were not included in the decree pronounced on Eve (<cite ref=\"Genesis 3:16\">Gen. III, 16</cite>). ",
+				"<cite ref=\"Sanhedrin 102a:7\">Snh. 102ᵃ</cite> (ref. to <cite ref=\"I Kings 11:29\">I Kings XI, 29</cite>) <he>יצא מפיתקה של ירושלים</he> (Rashi <he>מפִּתְקָהּ</he>) he went out of the destiny of Jerusalem (i.e. was to have no share in the welfare of Jerusalem); a. fr.—Pl. <he>פְּתָקִים</he>, <he>פְּתָקִין</he> (Chald. form) <cite ref=\"Q00713\"><he>פִּיתְקִין</he></cite>. ",
+				"<cite ref=\"Esther Rabbah 1:10\">Esth. R. to I, 2</cite>; v. <cite ref=\"D00131\"><he>דָּדָה</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 91:6\">Gen. R. s. 91</cite> <he>לערב הביאו לו את הפ׳</he> in the evening they brought him the tablets (on which every traveller had written his name). Num. R. l. c. <he>כתב על … פ׳ לוי לוי</he> he (Moses) wrote on each of twenty-two thousand ballots, Levi &c. (v. <cite ref=\"Q00632\"><he>פִּיטֵּק</he></cite>). Tanḥ. l. c. ",
+				"<cite ref=\"Sanhedrin 17a:8\">Snh. 17ᵃ</cite> <he>טלו פִיתְקֵיכֶם</he> draw your ballots; a. fr."
+			]
+		}
+	]
+}

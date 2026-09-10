@@ -1,0 +1,27 @@
+{
+	"id": "M02447",
+	"slug": "מקקא",
+	"headword": {
+		"text": "מַקְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְקִיקָא"
+		}
+	],
+	"page": {
+		"number": 832,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M02444\"><he>מְקַק</he></cite>, <i>Ithpe.</i>) <i>sneezing.—</i>Pl. <he>מַקְקִין</he>, <he>מְקִי׳</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:10\">Targ. Job XLI, 10</cite> <he>מַקְקוֹי</he> Regia (Ms. Var. <he>מְקִיקוֹי</he>; ed. <he>זְרִירוֹי</he>; h. text <he>עטישות־</he>)."
+			]
+		}
+	]
+}

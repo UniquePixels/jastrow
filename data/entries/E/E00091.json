@@ -1,0 +1,22 @@
+{
+	"id": "E00091",
+	"slug": "הגרם",
+	"headword": {
+		"text": "הֶגְרֵם"
+	},
+	"page": {
+		"number": 332,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"E00092\">next w.</cite>) <i>hegrem</i>, a word formed as a substitute of <cite ref=\"E00789\"><he>הֶקְדֵּשׁ</he></cite> [prob. to be read <cite ref=\"E00060\"><he>הֶגְדֵּם</he></cite>, v. <cite ref=\"C00231\"><he>גָּדַם</he></cite>]. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:1:4\">Y. Ned. I, beg. 36ᶜ</cite>, v. <cite ref=\"E00060\"><he>הֶגְדֵּר</he></cite>."
+			]
+		}
+	]
+}

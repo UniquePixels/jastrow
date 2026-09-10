@@ -1,0 +1,23 @@
+{
+	"id": "C00739",
+	"slug": "גימון",
+	"headword": {
+		"text": "גִּימוֹן"
+	},
+	"page": {
+		"number": 239,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גמם</he> <i>to couple, tie</i>) <i>a little yoke</i> <he>(בר נִירָא</he>), or <i>a board tied</i> to the head of a calf (<cite ref=\"Q00738\"><he>פִּינַקְסָה</he></cite>), or <i>a pointed pole</i> (<cite ref=\"U02051\"><he>שִׁירְתּוּעַ</he></cite>, v. <cite ref=\"C00738\">preced. w.</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:4\">Sabb. V, 4</cite>; expl. Y. ib. V, 7ᶜ; Bab. ",
+				"<cite ref=\"Shabbat 54b:18\">ib. 54ᵇ</cite>.—Y. l. c. <he>מאן דמר ג׳ וכ׳</he> he who reads <i>gimon</i> supports the opinion of R. Ḥisda (<cite ref=\"Q00738\"><he>פינקסה</he></cite>); he who reads <i>gimol</i> supports the opinions &c. (<he>שירתוע</he> or <he>בר נירא</he>).—Pl. <cite ref=\"C00740\"><he>גִּימוֹנוֹת</he></cite>, v. <cite ref=\"C00740\">next w.</cite>"
+			]
+		}
+	]
+}

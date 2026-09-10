@@ -1,0 +1,27 @@
+{
+	"id": "V00014",
+	"slug": "תאובתא",
+	"headword": {
+		"text": "תִּאוּבְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1641,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>תְּאֵב</he> I) <i>desire</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:16\">Targ. O. Gen. III, 16</cite> (ed. Vien. <cite ref=\"V00427\"><he>תְּאוּ׳</he></cite>)."
+			]
+		}
+	]
+}

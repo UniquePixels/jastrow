@@ -1,0 +1,31 @@
+{
+	"id": "C00070",
+	"slug": "גבחת-2",
+	"headword": {
+		"text": "גַּבַּחַת"
+	},
+	"page": {
+		"number": 205,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>גבח</he>)<i>high forehead; baldness in front</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 65b:4\">Ḥull. 65ᵇ</cite> <he>הַבָּא ואין לו ג׳</he> a species of locusts which occasionally appear, having no long-stretched heads (= <he>ראשו ארוך</he> <cite ref=\"Chullin 65b:4\">ib.</cite>); [Ar.: <i>a protuberance on the back, hump</i>]. ",
+				"<cite ref=\"Mishnah Negaim 10:10\">Neg. X, 10</cite> <he>הג׳</he> a leprous affection on the front of the head (making it bald). ",
+				"<cite ref=\"Mishnah Negaim 10:10\">Ib.</cite> <he>איזו היא ג׳ מן הקדקד וכ׳</he> which portion of the head is called <i>gabbaḥath?</i> From the crown sliding down forward to where the hair begins on the forehead; Sifra Thazr. Par. 5. ch. X. ",
+				"<cite ref=\"Tosefta Negaim 4:11\">Tosef. Neg. IV, 11</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the front</i> or <i>outside of cloth; the nap of new cloth</i>, opp. <cite ref=\"S01984\"><he>קרחת</he></cite>. Sifra l. c. ch. XV <he>בְּגַבַּחְתּוֹ אלו חדשים</he> b’gabbaḥto (<cite ref=\"Leviticus 13:55\">Lev. XIII, 55</cite>) means new cloths (v. Targ. O. a. l.).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

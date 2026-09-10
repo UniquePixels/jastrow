@@ -1,0 +1,33 @@
+{
+	"id": "N00307",
+	"slug": "נוד-1",
+	"headword": {
+		"text": "נוּד"
+	},
+	"page": {
+		"number": 883,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נדד</he>)<i>to move, be unsteady; to escape</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 63b\">Sabb. 63ᵇ</cite> <cite ref=\"N00198\"><he>נָד</he></cite>; v. <cite ref=\"F00061\"><he>וָלָד</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוּנָד"],
+			"senses": [
+				{
+					"gloss": "<i>to be removed</i>. Part. <he>מוּנָד</he>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 1059\">Yalk. Esth. 1059</cite> (adapted from <cite ref=\"II Samuel 23:6\">II Sam. XXIII, 6</cite>) <he>נטלו קוץ מ׳ משם</he> they took a chip (of a pillar) removed from there (the palace)."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

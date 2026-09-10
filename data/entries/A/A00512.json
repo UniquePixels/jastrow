@@ -1,0 +1,25 @@
+{
+	"id": "A00512",
+	"slug": "אהרון",
+	"headword": {
+		"text": "אַהֲרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַהֲרֹן"
+		}
+	],
+	"page": {
+		"number": 20,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (b. h.) <i>Aaron</i>, the brother of Moses. ",
+			"units": ["<cite ref=\"Megillah 25b:12\">Meg. 25ᵇ</cite>; a. fr."]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M00754",
+	"slug": "מזייעי",
+	"headword": {
+		"text": "מְזַיְּיעֵי"
+	},
+	"page": {
+		"number": 755,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"G00217\"><he>זוּעַ</he></cite>) <i>frightening demons</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 6:24\">Targ. Y. Num. VI, 24</cite>."
+			]
+		}
+	]
+}

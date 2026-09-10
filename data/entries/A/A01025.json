@@ -1,0 +1,27 @@
+{
+	"id": "A01025",
+	"slug": "אחיד",
+	"headword": {
+		"text": "אֲחִיד"
+	},
+	"page": {
+		"number": 40,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " part. pass. of <cite ref=\"A00996\"><he>אֲחַד</he></cite> q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <he>מְיוּחָד</he>, v. <he>יחד</he>) <i>singled out, devoted, betrothed</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 19:20\">Targ. O. Lev. XIX, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 114:2\">Targ. Ps. CXIV, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 6:9\">Targ. Cant. VI, 9</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

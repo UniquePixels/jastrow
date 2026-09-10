@@ -1,0 +1,60 @@
+{
+	"id": "H01013",
+	"slug": "חלזון",
+	"headword": {
+		"text": "חִלָּזוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִילָּ׳"
+		},
+		{
+			"text": "חֲלָ׳"
+		}
+	],
+	"page": {
+		"number": 466,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01012\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>conchiferous animal, snail, oyster</i>, esp. <i>purple-fish, purple-shell used for dying t’kheleth</i> (<cite ref=\"V00547\"><he>תְּכֵלֶת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 91a:4\">Snh. 91ᵃ</cite> <he>ח׳ אחד</he> (ed. <he>אחת</he>, v. Rabb. D. S. a. l. note 60 a. Ar. s. v.). Pesik. B’shall. p. 92ᵃ <he>ח׳ הזה וכ׳</he> as the snail grows, its shell grows with it; <cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite>, end—",
+				"<cite ref=\"Shabbat 26a:3\">Sabb. 26ᵃ</cite> (expl. <he>יגבים</he>, <cite ref=\"Jeremiah 52:16\">Jer. LII, 16</cite>) <he>ציידי ח׳ וכ׳</he> the shellfishers from &c. ",
+				"<cite ref=\"Menachot 44a:2\">Men. 44ᵃ</cite>. ",
+				"<cite ref=\"Megillah 6a:8\">Meg. 6ᵃ</cite>; a. fr.—Pl. <he>חִלְזוֹנוֹת</he>. Snh. l. c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a <i>beetle</i> or <i>locust</i>, v. next w.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:3:3\">Y. Sabb. I, 3ᵇ</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 185\">Yalk. Ex. 185</cite>; Tanḥ. Vaera, ed. Bub. 19."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. Lat. Cochlea) <i>a snail-shaped piece of a chain, screw</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:1\">Kel. XII, 1</cite>; <cite ref=\"Tosefta Keilim Metsia 2:3\">Tosef. Kel. B. Mets. II, 3</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>an eye-disease</i>, also called <cite ref=\"N00519\"><he>נחש</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:2\">Bekh. VI, 2</cite>; <cite ref=\"Bekhorot 38b:5\">ib. 38ᵇ</cite>. Sifra Emor ch. II, Par. 3.—[<cite ref=\"Kiddushin 72a:8\">Kidd. 72ᵃ</cite>; <cite ref=\"Yevamot 16b:10\">Yeb. 16ᵇ</cite>, v. <cite ref=\"H00991\"><he>חַלְוָון</he></cite>.]"
+			],
+			"label": "4"
+		}
+	]
+}

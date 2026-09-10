@@ -1,0 +1,23 @@
+{
+	"id": "O00820",
+	"slug": "סיקרא-1",
+	"headword": {
+		"text": "סִיקְרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 986,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O01496\"><he>סָקַר</he> I</cite>) <i>leaping</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 22a\">B. Kam. 22ᵃ</cite> <he>כלבא בס׳ וכ׳</he> Ar. (v. Ar. Compl. ed. Koh. s. v. <he>סקר</he> 3; ed. <he>בזְקִירָא</he>) if (contrary to their habits) the dog did damage by leaping or the kid by climbing."
+			]
+		}
+	]
+}

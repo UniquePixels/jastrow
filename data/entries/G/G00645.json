@@ -1,0 +1,24 @@
+{
+	"id": "G00645",
+	"slug": "זקן-4",
+	"headword": {
+		"text": "זָקָן"
+	},
+	"page": {
+		"number": 409,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"D01012\"><he>דְּקַן</he></cite>)<i>beard, hair-covered spot</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 11a:15\">Ber. 11ᵃ</cite> <he>זְקָנְךָ וכ׳</he> thy beard is &c., v. <cite ref=\"C00223\"><he>גָּדַל</he></cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 8:1\">Snh. VIII, 1</cite> (<cite ref=\"Sanhedrin 68b:2\">68ᵇ</cite>) <he>עד שיקיף ז׳ התחתון וכ׳</he> until he grows a beard, by which is meant the hair of the genitals &c.; a. fr.—Pl. <he>זְקָנִים</he>. ",
+				"<cite ref=\"Vayikra Rabbah 3:6\">Lev. R. s. 3</cite>."
+			]
+		}
+	]
+}

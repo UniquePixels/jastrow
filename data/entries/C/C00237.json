@@ -1,0 +1,42 @@
+{
+	"id": "C00237",
+	"slug": "גדף-1",
+	"headword": {
+		"text": "גָּדַף"
+	},
+	"page": {
+		"number": 214,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"C00236\">preced.</cite>) <i>to cut, scrape</i>. Part. pass. <he>גָּדוּף</he>, pl. <he>גְּדוּפִין</he>. ",
+			"units": [
+				"<cite ref=\"Pesachim 42a\">Pes. 42ᵃ</cite> <he>מים הג׳</he> Ar., v. <cite ref=\"C01388\"><he>גָּרַף</he></cite>.—<he>מיתה גְדוּפָה</he>, v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּדֵּף", "גִּידֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to hollow out, scrape</i> or <i>chisel so as to form</i> an <i>enclosure</i> or <i>rim</i> (cmp. <cite ref=\"C00239\"><he>גדפא</he></cite>, <cite ref=\"C00234\"><he>גדנפא</he></cite>).).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to scrape, to empty to the dregs</i>. ",
+					"units": [
+						"<cite ref=\"Keritot 7b\">Kerith. 7ᵇ</cite> (explain. <he>מגדף</he>, <cite ref=\"Numbers 15:30\">Num. XV, 30</cite>, as a metaphor) as one says to his neighbor <he>גִּדַּפְתָּ את הקערה וחיסרת</he> Ar. (ed. <cite ref=\"C00836\"><he>גֵירַ׳</he></cite>; <cite ref=\"Sifrei Bamidbar 112:2\">Sifré Num. 112</cite> <he>גֵרַרְתָּה מן וכ׳</he>) thou hast scraped out the dish and lessened the thickness of the vessel (i.e. besides worshipping the forces of Nature to impair, so to speak, the supremacy of the Creator); he who thus explains, is of the opinion that <he>מגדף</he> means blaspheming the Divine Name; <he>ג׳ הקערה ולא וכ׳</he> thou hast scraped the dish clean but not impaired it (i.e. to worship natural forces without denying the Divine supremacy); he who thus explains, is of the opinion that <he>מגדף</he> is a worshipper of idols; [Y. Snh. VII, 25ᵇ top <he>גיר׳ את כל וכ׳</he> thou hast emptied the whole dish and left nothing in it, i.e. thou hast erased the entire Law; Sifré l. c. <he>גררתה וכ׳</he>].—Trnsf. (cmp. <he>ארר</he>, <he>קלל</he>, <he>נקב</he>) <i>to blaspheme</i> (God); <i>to revile, reproach</i>. Kerith. I, 2 <he>אף המְגַדֵּף</he> the blasphemer is also excluded from the rule (and has not to offer a sacrifice in the case of sinning through ignorance); expl. ib. 7ᵇ,<cite ref=\"Mishnah Keritot 1:2\">Kerith. I, 2</cite> <he>אף המְגַדֵּף</he> the blasphemer is also excluded from the rule (and has not to offer a sacrifice in the case of sinning through ignorance); expl. ",
+						"<cite ref=\"Keritot 7b\">ib. 7ᵇ</cite>, v. supra. ",
+						"<cite ref=\"Mishnah Sanhedrin 7:5\">Snh. VII, 5</cite>; a. fr.—",
+						"<cite ref=\"Bamidbar Rabbah 10:2\">Num. R. s. 10</cite> <he>לפי שהיה מחרפם ומְגַדְּפָם בנחיצה לכן מת מיתה גְדוּפָה וכ׳</he> because be (Sisera) disgraced and reviled them (the Israelites) with oppressive measures, therefore he died an ignominious death, for (the Lord) delivered him into the hands of a woman; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

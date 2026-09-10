@@ -1,0 +1,35 @@
+{
+	"id": "B00488",
+	"slug": "בחשא",
+	"headword": {
+		"text": "בַּחֲשָׁא"
+	},
+	"page": {
+		"number": 155,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00487\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stirring ladle, pot-ladle</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:8\">Pes. 111ᵇ</cite> [read:] <he>ומיחזי כי ב׳ והדר בי כדא דכמכא</he> (v. comment.) and he (the shadow-demon) looks like a ladle turning in a vessel &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rakings, hot ashes</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 39a:3\">Snh. 39ᵃ</cite> [read:] <he>אותיבתה תותי ב׳</he> she placed it (the roast) under the grate (in the ashes); (Ar. <he>אותיבתיה קמיה בבִיחוּשֵׁיה</he> she placed it before him with the raked ashes clinging to it; <cite ref=\"Yalkut Shimoni on Torah 23:2\">Yalk. Gen. 23</cite> <he>אותבי׳ תותי רגליה ב׳</he>, v. Rabb. D. S. a. l. note).—[<he>בחשי</he>, quot. in Ar. fr. ",
+				"<cite ref=\"Avodah Zarah 60b\">Ab. Zar. (60ᵇ)</cite>, <he>תותי ב׳</he>, read <he>בֵּי שַׁחְיָא</he>, <i>arm-pit;</i> v. Y. ib. II, 41ᵃ bot.]"
+			],
+			"label": "2"
+		}
+	]
+}

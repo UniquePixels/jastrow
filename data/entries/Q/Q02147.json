@@ -1,0 +1,47 @@
+{
+	"id": "Q02147",
+	"slug": "פתח-5",
+	"headword": {
+		"text": "פֶּתַח"
+	},
+	"page": {
+		"number": 1252,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q02143\"><he>פָּתַח</he></cite>)<i>opening, door, gate</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 4:3\">Keth. IV, 3</cite> (ref. to <cite ref=\"Deuteronomy 22:21\">Deut. XXII, 21</cite>) <he>אין לה לא פ׳ בית האב וכ׳</he> if she (the faithless betrothed) has no paternal house door. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:6\">Y. Sabb. VII, 9ᶜ</cite> top <he>ניכר הוא … על פִּיתְחָהּ של תירה</he> it can be seen that this man has never passed the gate of the Law (never studied). ",
+				"<cite ref=\"Kohelet Rabbah 3:11:1\">Koh. R. to III, 11</cite> <he>זה הפ׳ פתוח עד התהום</he> this gate (verse used as introductory text, v. <cite ref=\"Q02143\"><he>פָּתַח</he></cite>) opens to the deep, i.e. leads to deep reflection. ",
+				"<cite ref=\"Bereishit Rabbah 85:7\">Gen. R. s. 85</cite> (ref. to <he>פתח עינים</he>, <cite ref=\"Genesis 38:14\">Gen. XXXVIII, 14</cite>) <he>תלה עיניה בפ׳ שכל העינים וכ׳</he> she lifted up her eyes to the gate to which all eyes are directed (she prayed to the Lord). ",
+				"<cite ref=\"Bereishit Rabbah 38:9\">Gen. R. s. 38</cite> <he>פתח … פ׳ של תשובה</he> the Lord opened to them the gate of repentance; a. fr.—Euphem. <he>פ׳ פָּתוּחַ</he> <i>absence of virginity</i> <cite ref=\"Ketubot 9b:4\">Keth. 9ᵇ</cite> <he>טענת פ׳ פ׳</he>, contrad. to <he>טענת דמים</he>, v. <cite ref=\"D00867\"><he>דָּם</he></cite>. ",
+				"<cite ref=\"Ketubot 9a:1\">Ib. 9ᵃ</cite> <he>ופ׳ פ׳ כשני עדים דמי</he> and the husband’s statement that lie found ‘the gate open’ is like a statement of two witnesses (to make her forbidden to him as a faithless betrothed); a. fr.—Trnsf. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>an opening for retracting a vow, a suggestion</i>, v. <cite ref=\"Q02143\"><he>פָּתַח</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 91:3\">Gen. R. s. 91</cite> <he>למאה … מצא להם פ׳</he> for one hundred and fifty Nazarites he found causes for absolution; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>the starting time of menstruation</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Arakhin 2:1\">Arakh. II, 1</cite> <he>אין פ׳ בטועה וכ׳</he> for a woman that has lost the account of a prolonged flux, there is no new starting point within either less than seven or more than seventeen days. ",
+						"<cite ref=\"Arakhin 8a:14\">Ib. 8ᵃ</cite> <he>פִּתְחָהּ שבעה עשר</he> her sure starting point is after seventeen days; a. fr.—Pl. <he>פְּתָחִים</he>, <he>פְּתָחִין</he>. ",
+						"<cite ref=\"Mishnah Bava Batra 9:1\">B. Bath. IX, 1</cite> <he>ישאלו על הפ׳</he> let them go begging at the doors; <cite ref=\"Mishnah Ketubot 13:3\">Keth. XIII, 3</cite> <he>יחזרו על הפ׳</he>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 5:2:2\">Cant. R. to V, 2</cite> <he>פתחו לי פתח … ואני פותח לכם פ׳ וכ׳</he> make for me one opening for return as wide as the point of a needle, and I shall open for you gates through which wagons and coaches can pass; a. fr.—",
+						"<cite ref=\"Pirkei Avot 3:18\">Ab. III, 18</cite> <he>פִּתְחֵי נדה</he> the calculations concerning starting points of menstruants (v. supra)."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

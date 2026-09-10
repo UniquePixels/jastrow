@@ -1,0 +1,100 @@
+{
+	"id": "B01136",
+	"slug": "בקר-1",
+	"headword": {
+		"text": "בָּקַר"
+	},
+	"page": {
+		"number": 187,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בק</he> , v. <he>בקע</he>) <i>to enter into, to clear, split;</i> whence ",
+			"units": []
+		},
+		{
+			"gloss": " (= <cite ref=\"B01063\"><he>בער</he></cite>) <i>to eat up</i>. Denom. <cite ref=\"B01139\"><he>בָּקָר</he></cite> (= <cite ref=\"B01051\"><he>בְּעִיר</he></cite>).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"B01063\"><he>בער</he></cite>) <i>to break forth, shine</i>. Denom. <cite ref=\"B01138\"><he>בֹּקֶר</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיקֵּר", "בִּקֵּר"],
+			"senses": [
+				{
+					"gloss": " (b. h.) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to enter into, examine, search, distinguish</i> (cmp. <cite ref=\"B00635\"><he>בִּין</he></cite>). ",
+					"units": [
+						"<cite ref=\"Ketubot 106a:8\">Keth. 106ᵃ</cite> <he>מְבַקְּרֵי מומין</he> those entrusted with the examination of sacrificial animals. Y. Bets. II, 61ᶜ top <he>ובִיקְּרָן ממומן</he> and had them examined (and declared free) from bodily defects. ",
+						"<cite ref=\"Chagigah 9b:15\">Ḥag. 9ᵇ</cite> <he>אין אומרים בַּקְּרוּ וכ׳</he> we do not say, Examine ye a camel, a swine &c. (i.e. only the deeds of distinguished persons are scrutinized); a. fr.—<i>Part. pass.</i> <he>מְבוּקָּר</he> <i>examined and found fit</i>. Y. Ber. IV, 7ᵇ top <he>טליים מְבוּקָּרִים</he> lambs which passed examination."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to inquire after one’s health, to visit the sick</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Nedarim 4:4\">Ned. IV, 4</cite> (<cite ref=\"Nedarim 38b\">38ᵇ</cite>). <he>ונכנס לְבַקְּרוֹ</he> and comes to see him. ",
+						"<cite ref=\"Sanhedrin 68a\">Snh. 68ᵃ</cite>; a. v. fr. [Ruth. R. to II, 15, v. infra.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְבַּקֵּר"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"B01105\"><he>נִתְבַּקֵּר</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be examined</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 81\">Gen. R. s. 81</cite> <he>פנקסו נִתְבַּקְּרָה</he> his account is examined (his sins visited); Tanḥ. Vayishlaḥ 8 <he>מִתְבַּקֶּרֶת</he>. ",
+						"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite>, read with <cite ref=\"Yalkut Shimoni on Torah 141:3\">Yalk. Gen. 141</cite> <he>נתב׳ פנקסי</he> my account &c. "
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be visited, attended to</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 18:21\">Num. R. s. 18</cite> as all sick persons <he>מִתְבַּקְּרִין</he> are tended (by physicians)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["הִבְקִיר"],
+			"senses": [
+				{
+					"gloss": " (Y. Dial. for <cite ref=\"Q01517\"><he>הִפְקִיר</he></cite>, v. <cite ref=\"Q01517\"><he>פָּקַר</he></cite>; v. <cite ref=\"B01137\">next w.</cite>) <i>to give free, to resign ownership, to declare a property ownerless</i>. Y. Ned. IV, 38ᵈ; Y. Peah V, beg. 19ᵇ [read:] <he>כיון שאדם מַבְקִיר דבר יצא מרשותו</he> as soon as one declares a thing to be free, it has gone out of his control; Y. Dem. III, 23ᵇ bot. <he>כיון שאדם מ׳ … ויצא … הבקירו הבקר</he> as soon as one gives a thing free and it has left his possession, his act is valid; a. fr. [Ruth. R. to II, 15 <he>מבקר</he>, <he>מבדר</he>, prob. <he>מבקיר</he>; v. <cite ref=\"B00159\"><he>בָּדַר</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּבְקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be declared free, to be free</i>. Y. Peah VI, 19ᶜ top.—Part. <he>מוּבְקָר</he> Ib. 19ᵇ bot. <he>שדי מוּבְקֶרֶת וכ׳</he> (<cite ref=\"Tosefta Ma'asrot 3:11\">Tosef. Maasr. III, 11</cite>. <he>הרי … מופ׳</he>) my field shall be free for one day &c.; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

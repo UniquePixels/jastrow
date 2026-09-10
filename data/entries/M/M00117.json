@@ -1,0 +1,32 @@
+{
+	"id": "M00117",
+	"slug": "מגדא-1",
+	"headword": {
+		"text": "מַגְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִגְ׳"
+		},
+		{
+			"text": "מִיגְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 726,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00116\">same</cite>, <i>precious ware, fine fruit</i>.—Pl. <he>מַגְדִּין</he>, <he>מִגְדַּיָּא</he>, <he>מְגָדֵי</he>, <cite ref=\"M00148\"><he>מִיגְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 9:26\">Targ. Job IX, 26</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:19\">Targ. Y. Ex. XV, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:23\">Targ. Y. Deut. XXVIII, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:13\">Ib. XXXIII, 13</cite>, sq., v. <cite ref=\"M00125\"><he>מִגְדָּנִין</he></cite>. [<cite ref=\"Targum Jonathan on Numbers 22:7\">Targ. Y. I Num. XXII, 7</cite> <he>מיגדין דקיסמין</he> jewels of divination (?); Y. II <he>אגרין</he> <i>letters</i>.]—",
+				"<cite ref=\"Menachot 43b:16\">Men. 43ᵇ</cite> <he>איספרמקי ומגדי</he> spices and choice fruits."
+			]
+		}
+	]
+}

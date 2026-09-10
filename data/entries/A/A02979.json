@@ -1,0 +1,28 @@
+{
+	"id": "A02979",
+	"slug": "ארגוב",
+	"headword": {
+		"text": "אַרְגּוֹב"
+	},
+	"page": {
+		"number": 115,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.(b. h.  pr. n. m. (b. h. <he>ארגב</he>) <i>Argob</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 15:25\">Targ. II Kings XV, 25</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"I00830\"><he>טְרָכוֹנָּא</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

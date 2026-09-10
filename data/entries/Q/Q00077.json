@@ -1,0 +1,37 @@
+{
+	"id": "Q00077",
+	"slug": "פגמא",
+	"headword": {
+		"text": "פְּגָמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיגְמָא"
+		}
+	],
+	"page": {
+		"number": 1134,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00076\">same</cite><i>blemish, discredit</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 41a:12\">Sot. 41ᵃ</cite> <he>ומי חיישינן לפ׳</he> do we take into consideration that a scroll may be discredited by reading from a second one in the same service? <cite ref=\"Sotah 41a:12\">Ib.</cite> <he>תלתא … ליכא פ׳ … בתרי סיפרי איכא פ׳</he> when three persons read successively from three scrolls, there is no discredit, but when one person reads from two scrolls, there is discredit (it has the appearance as if the first scroll had been found defective); <cite ref=\"Yoma 70a:6\">Yoma 70ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the decrease of the moon, wane</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 25:5\">Targ. Job XXV, 5</cite> <he>עד דפְגָמָא דסיהרא וכ׳</he> Ms. (ed. <he>דפָגְמָא סיהרא</he>, read: <cite ref=\"D00667\"><he>דס׳</he></cite>) until the wane of the moon is in the east, the sun does not shine (simultaneously with the moon, v. <cite ref=\"Q00060\"><he>פְּגִימָה</he></cite>). Pesik. Haḥod., p. 53ᵃ; <cite ref=\"Pesikta Rabbati 15\">Pesik. R. s. 15</cite> <he>אברהם</he> … <he>על מלייא רחבעם</he> … <he>הא סיהרא על פִּיגְמָה</he> Abraham, Isaac, … Solomon—that is the moon in its growth to fulness; Rehoboam … Zedekiah—that is the moon on the wane; v. <cite ref=\"Q00076\">preced.</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>semicircular turret</i>, v. <cite ref=\"Q00584\"><he>פִּיגְמָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

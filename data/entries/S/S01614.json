@@ -1,0 +1,43 @@
+{
+	"id": "S01614",
+	"slug": "קנקן-1",
+	"headword": {
+		"text": "קַנְקָן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1394,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01601\"><he>קָנַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a cylindrical vessel let into the ground of the cellar</i> (v. Sm. Ant. s. v. Dolium), in gen. <i>wine-</i> or <i>oil-vessel</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:20\">Ab. IV, 20</cite> <he>אל תסתכל בק׳ וכ׳</he> look not at the vessel but at what it contains; <he>יש ק׳ חדש וכ׳</he> many a new vessel is full of old wine (many a young man is a fine scholar) &c. ",
+				"<cite ref=\"Kohelet Rabbah 7:28:1\">Koh. R. to VII, 28</cite> <he>ק׳ … מקַנְקַנּוֹ וכ׳</he>, v. infra. ",
+				"<cite ref=\"Bereishit Rabbah 85:3\">Gen. R. s. 85</cite> <he>נטלו ק׳ אחד וכ׳</he> they took one cask in the cellar &c.; <he>החזירו את הק׳ למקומה</he> (read: <he>למקומו</he>) put the cask back into its place. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:5:4\">Y. Succ. I, 52ᵇ</cite> bot. <he>כמשלח … וקַנְקַנָּהּ</he> like one sending to his neighbor a cask of wine and the storage vessel with it (making a present of both); <cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite>; <cite ref=\"Yalkut Shimoni on Nach 882\">Yalk. Ps. 882</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 4:1:2\">Y. Bets. IV, beg. 62ᵇ</cite> <he>מביאה על גב קנקנה</he> he brings the load of wine in its original vessel (not bottle-wise); a. fr.—Pl. <he>קַנְקַנִּים</he>, <he>קַנְקַנִּין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 32:3\">Gen. R. s. 32</cite> <he>היוצר … בודק ק׳ מרועעים וכ׳</he> the potter does not try (knock at) the defective vessels …, but he tries the sound (so God tries not the bad but the good men). ",
+				"<cite ref=\"Mishnah Ketubot 13:4\">Keth. XIII, 4</cite> <he>והודה בק׳</he> but admits that he owes the (empty) vessels, v. <cite ref=\"K00099\"><he>כַּד</he> II</cite>. ",
+				"<cite ref=\"Ketubot 108b:14\">Ib. 108ᵇ</cite> <he>יש בלשון הזה לשון ק׳</he> the expression ‘vessels of oil’ includes vessels, i.e. one who claims vessels of oil claims not only a certain quantity of oil, but also the vessels. ",
+				"<cite ref=\"Kohelet Rabbah 7:28:1\">Koh. R. to VII, 28</cite> <he>צפה הקב״ה בכל הק׳ ולא מצא וכ׳</he> the Lord looked at all vessels (fit to receive the Law), and found none better pitched than that of Moses &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"S01620\"><he>קֶנֶת</he></cite>, a. <cite ref=\"M00048\"><he>מָנָא</he></cite>) <i>coulter</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 6:4\">B. Mets. VI, 4</cite> (<cite ref=\"Bava Metzia 80a\">80ᵃ</cite>).—[<cite ref=\"Eruvin 101a:2\">Erub. 101ᵃ</cite> <he>ק׳ הנגרר</he> a plough used as a bar, Rashi; v. next w.]"
+			],
+			"label": "2"
+		}
+	]
+}

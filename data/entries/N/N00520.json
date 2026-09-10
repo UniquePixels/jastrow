@@ -1,0 +1,30 @@
+{
+	"id": "N00520",
+	"slug": "נחש-3",
+	"headword": {
+		"text": "נְחַשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 896,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַנְחֵשׁ</he>, <he>הַנְחֵשׁ</he> (denom. of <cite ref=\"N00524\"><he>נְחָשׁ</he></cite>) <i>to use copper</i> and plate it with silver, <i>to plate</i>. Pesik. Ekhah, p. 122ᵇ <he>הַנְחֵשׁ ליה</he> make it plated for him (in place of solid silver); <cite ref=\"Yalkut Shimoni on Nach 258\">Yalk. Is. 258</cite> <he>אכחיש</he>, read: <he>אַנְ׳</he>.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "S00535",
+	"slug": "קוץ-10",
+	"headword": {
+		"text": "קוֹץ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1340,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01836\"><he>קָצַץ</he></cite>) <i>piece</i>.—Pl. <he>קוּצִּים</he>, <he>קוּצִּין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 3:7:2\">Y. Meg. III, 74ᵇ</cite> bot. (ref. to Mish. ",
+				"<cite ref=\"Mishnah Megillah 3:7\">ib. III, 7</cite>, ‘you must not interrupt the reading of the curses’, with play on <he>תָּקֹץ</he>, <cite ref=\"Proverbs 3:11\">Prov. III, 11</cite>) <he>אל תַּעֲשֶׂהָ ק׳ ק׳</he> do not make it (the rebuke) appear cut up in pieces; <cite ref=\"Devarim Rabbah 4:1\">Deut. R. s. 4</cite>; <cite ref=\"Tractate Soferim 12:1\">Treat. Sof’rim XII, 1</cite>."
+			]
+		}
+	]
+}

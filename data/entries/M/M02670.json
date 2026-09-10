@@ -1,0 +1,27 @@
+{
+	"id": "M02670",
+	"slug": "מרייא",
+	"headword": {
+		"text": "מַרְיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְיָיה"
+		}
+	],
+	"page": {
+		"number": 843,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Marya</i> (cmp. <cite ref=\"M02654\"><he>מָרִי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:6:2\">Y. Pes. V, 32ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Peah 1:1:20\">Y. Peah I, 15ᶜ</cite> top <cite ref=\"M02655\"><he>מריא</he></cite>; <cite ref=\"Jerusalem Talmud Terumot 11:1:5\">Y. Ter. XI, beg., 47ᶜ</cite> <cite ref=\"M02663\"><he>מריה</he></cite>; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:4:10\">Y. Ab. Zar. II, 41ᶜ</cite> top <cite ref=\"M00287\"><he>מדייא</he></cite> (corr. acc.); <cite ref=\"Jerusalem Talmud Bikkurim 2:1:12\">Y. Bicc. II, 64ᵈ</cite> <cite ref=\"M02655\"><he>מריא</he></cite>; <cite ref=\"Jerusalem Talmud Eruvin 7:1:6\">Y. Erub. VII, beg. 24ᵇ</cite> <he>כד מ׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

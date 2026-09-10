@@ -1,0 +1,36 @@
+{
+	"id": "H00950",
+	"slug": "חכר-1",
+	"headword": {
+		"text": "חָכַר"
+	},
+	"page": {
+		"number": 463,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H00935\"><he>חָכַךְ</he></cite>) <i>to contract, farm</i>, esp. <i>to give</i> or <i>to take in rent on a fixed annual rental payable in kind</i>, contrad. to <cite ref=\"A03210\"><he>אָרַס</he></cite>, <cite ref=\"U01182\"><he>שָׂכַר</he></cite> or <cite ref=\"S00057\"><he>קִבֵּל</he></cite> q. v.—",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 9:2\">B. Mets. IX, 2</cite> <he>חֲכוֹר לי וכ׳</he> give me in rent &c. ",
+				"<cite ref=\"Tosefta Demai 6:2\">Tosef. Dem. VI, 2</cite> <he>החוֹכֵר שדה</he> if one takes in rent a field. ",
+				"<cite ref=\"Tosefta Demai 6:2\">Ib.</cite> <he>מה בין שוכר לחוכר</he> what is the difference between the <i>sokher</i> and the <i>ḥokher?;</i> a. fr.—V. <cite ref=\"H00931\"><he>חָכִיר</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחְכִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to give in rent</i>. <i>Part.</i> <he>מַחְכִּיר</he> <i>landlord</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 104a\">B. Mets. 104ᵃ</cite>; a. e.—<i>Part. pass.</i> <he>מוּחְכָּר</he>, f. <he>מוּחְכֶּרֶת</he>. ",
+						"<cite ref=\"Bava Batra 123b\">B. Bath. 123ᵇ</cite>, sq. <he>פרה מ׳</he> a cow rented out <i>for half-profit</i> (Rashi)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "L00710",
+	"slug": "לשלשת",
+	"headword": {
+		"text": "לִשְׁלֶשֶׁת"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִי׳"
+		}
+	],
+	"page": {
+		"number": 720,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (transpos. of <cite ref=\"U01401\"><he>שלשלת</he></cite>, v. <cite ref=\"U01345\"><he>שָׁלָל</he></cite> a. cmp. late Hebr. <cite ref=\"U01391\"><he>שִׁלְשׁוּל</he></cite> <i>diarrhœa</i>) <i>secretion, chicken’s dirt, spittle</i> &c. ",
+			"units": ["<cite ref=\"Mishnah Shabbat 21:2\">Sabb. XXI, 2</cite>."]
+		}
+	]
+}

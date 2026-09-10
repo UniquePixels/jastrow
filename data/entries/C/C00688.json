@@ -1,0 +1,28 @@
+{
+	"id": "C00688",
+	"slug": "גיזתא",
+	"headword": {
+		"text": "גִּיזְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיזָּא"
+		}
+	],
+	"page": {
+		"number": 237,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"C00679\"><he>גִּיזָּה</he></cite><i>fleece</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:37\">Targ. Jud. VI, 37</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 18:4\">Targ. Deut. XVIII, 4</cite>; a. e."
+			]
+		}
+	]
+}

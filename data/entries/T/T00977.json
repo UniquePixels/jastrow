@@ -1,0 +1,43 @@
+{
+	"id": "T00977",
+	"slug": "רצועה-1",
+	"headword": {
+		"text": "רְצוּעָה"
+	},
+	"page": {
+		"number": 1492,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00991\"><he>רָצַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>flattened</i>, cmp. <cite ref=\"T00990\"><he>רָצַם</he></cite>,] (<i>leather</i>) <i>thong, strap, lash</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:4\">Sabb. V, 4</cite> <he>בר׳ שבין קרניה</he> with the strap between her horns. ",
+				"<cite ref=\"Menachot 35b:4\">Men. 35ᵇ</cite> <he>ר׳ דתפלין</he> the thong of the T’fillin. ",
+				"<cite ref=\"Bamidbar Rabbah 16:18\">Num. R. s. 16</cite> <he>לתינוק שסרח ולקה בר׳ … מזכירין לו הר׳ וכ׳</he> like a child that did some mischief and was punished with a strap, and when they want to frighten it, they mention the strap with which it was punished; <he>כך היה עמלק ר׳ רעה וכ׳</he> so was Amalek the bad lash for Israel; Tanḥ. Ḥuck. 18 <he>מעולם רְצוּעַת מרדות וכ׳</he> (not <cite ref=\"T00977\"><he>רצועה</he></cite>) Amalek was at all times the strap of chastisement for Israel. ",
+				"<cite ref=\"Mishnah Makkot 3:12\">Macc. III, 12</cite> (<cite ref=\"Makkot 22b:10\">22ᵇ</cite>) <he>ור׳ בידו של וכ׳</he> and he (the beadle) held in his hand a lash of calf-skin, which was twisted doubly, and two (thinner) straps were going up and down (were plaited) through it (v. Rabb. D. S. a. l. note 7). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:12:4\">Y. Sot. IX, 24ᵇ</cite> top <he>בעל הר׳</he> the strap-bearer, v. <cite ref=\"T00993\"><he>רַצְעָן</he></cite>. ",
+				"<cite ref=\"Yoma 12a\">Yoma 12ᵃ</cite>, a. e. <he>ור׳ היתה יוצאה מחלקו וכ׳</he> a strip of land went forth from Judah’s lot and entered into Benjamin’s territory, and on this the Temple was built; a. fr.—Pl. <he>רְצוּעוֹת</he>. Macc. l. c. <he>ושתי ר׳</he> (not <he>ושני</he>), v. supra. ",
+				"<cite ref=\"Midrash Tehillim 77:1\">Midr. Till. to Ps. LXXVII</cite> <he>עשר ר׳ אתה לוקה</he> thou art to receive ten lashes. ",
+				"<cite ref=\"Mishnah Shabbat 6:1\">Sabb. VI, 1</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (trnsf.) <i>restriction</i>; <he>הותרה הר׳</he> [the strap is untied,] the restriction is removed. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 11:9:1\">Koh. R. to XI, 9</cite> (ref. to <he>שמח וכ׳</he>, <cite ref=\"Kohelet Rabbah 11:9:1\">ib.</cite>) <he>הותרה הר׳ לית דין וכ׳</he> is every restraint removed? is there no justice and no judge?; <cite ref=\"Kohelet Rabbah 1:3:1\">ib. to I, 3</cite>; <cite ref=\"Vayikra Rabbah 28:1\">Lev. R. s. 28</cite>, beg.; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:5:3\">Y. Bicc. I, 64ᵃ</cite>; Y. Kidd. IV, 66ᵇ top <he>הואיל והותרה הר׳ יכ׳</he> since the restriction has been removed (by usage), I am likewise permitted to marry her. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:5:6\">Y. Sot. VII, end, 22ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

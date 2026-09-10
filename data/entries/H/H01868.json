@@ -1,0 +1,34 @@
+{
+	"id": "H01868",
+	"slug": "חשש-1",
+	"headword": {
+		"text": "חָשַׁשׁ"
+	},
+	"page": {
+		"number": 511,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"H00488\"><he>חוּשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to feel heavy, feel pain</i>. Y. Sabb. IV, 8ᶜ top <he>החוֹשֵׁשׁ אזנו</he> he who has ear-ache. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 1:1\">Esth. R. to I, 1</cite> (play on <he>אח̇ש̇ור̇וש</he>) who ever thinks of him <he>ח̇וֹשֵֹׁשׁ את ר̇אש̇ו</he> gets a head-ache; a. e.—(Mostly with <cite ref=\"B00000\"><he>ב</he></cite>). ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:2\">Cant. R. to V, 2</cite> <he>אם חושש … בראשו</he> if one of the twins has a head-ache; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to apprehend, take into consideration</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 1:2\">Pes. I, 2</cite> <he>אין חוֹשְׁשִׁין שמא וכ׳</he> we do not take into consideration that perhaps a weasel &c. ",
+				"<cite ref=\"Tosefta Chullin 3:24\">Tosef. Ḥull. III, 24</cite> <he>ואין ח׳ שמא של וכ׳</he> and we need not hesitate to use them for fear that they may be eggs of &c.; <cite ref=\"Chullin 63b\">Ḥull. 63ᵇ</cite> <he>אין ח׳ לא משום וכ׳</he>. ",
+				"<cite ref=\"Mishnah Shabbat 16:7\">Sabb. XVI, 7</cite>; <cite ref=\"Mishnah Shabbat 22:3\">XXII, 3</cite> <he>חוֹשְׁשַׁנִי לו מחטאת</he> I am afraid he has committed a sin which requires a sin-offering to atone for; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

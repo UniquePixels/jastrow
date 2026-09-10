@@ -1,0 +1,36 @@
+{
+	"id": "S00934",
+	"slug": "קיים-3",
+	"headword": {
+		"text": "קַיָּים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַיָּם"
+		},
+		{
+			"text": "קַיֶּימֶת"
+		}
+	],
+	"page": {
+		"number": 1359,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00374\"><he>קוּם</he></cite>) <i>existing, enduring, lasting; valid</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 32a:11-24\">Ber. 32ᵃ</cite> <he>מה … חי וק׳ … אף שבועתך ק׳ וכ׳</he> as thy great name lives and endures for ever and ever, so thy oath holds good for ever and ever; opp. <cite ref=\"B00515\"><he>בָּטֵל</he></cite>. ",
+				"<cite ref=\"Nedarim 62a\">Ned. 62ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:8\">Y. Snh. II, 20ᵇ</cite> bot., a. e., v. <cite ref=\"M00537\"><he>מוֹנִיטָא</he></cite>. ",
+				"<cite ref=\"Nedarim 69a:6\">Ned. 69ᵃ</cite> <he>ק׳ ליכי ק׳ ליכי</he> if the husband said twice, thy vow is valid (confirmed by me), opp. <he>מופר</he>. ",
+				"<cite ref=\"Gittin 88a:21\">Gitt. 88ᵃ</cite> <he>ועדיין … ק׳</he> while those exiled under Jeconiah are yet alive; a. fr.—Pl. <he>קַיָּימִים</he>, <he>קַיָּימִין</he>; <he>קַיָּימוֹת</he>; <cite ref=\"S01000\"><he>קַיָּמ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 8:5\">B. Bath. VIII, 5</cite>, a. fr. <he>דבריו ק׳</he> his words (testamentary dispositions) are valid, opp. <he>לא אמר כלום</he>. ",
+				"<cite ref=\"Shabbat 30a:5\">Sabb. 30ᵃ</cite> <he>משה רבינו</he> … <he>וק׳ הם וכ׳</he> Moses, our teacher, has issued many decrees and introduced many institutions, and they endure for ever and ever; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A00474",
+	"slug": "אדרכן",
+	"headword": {
+		"text": "אֲדַרְכָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲדַרְכִּיאָן"
+		}
+	],
+	"page": {
+		"number": 19,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (prob. corrupt. of <cite ref=\"A03069\"><he>אַרְטְבַן</he></cite> q. v.) <i>Adarkhan</i>, a Parthian ruler. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 10b:16\">Ab. Zar. 10ᵇ</cite> (Ms. <he>כין</he>; oth. vers. <he>אדרבך</he>, v. Rabb. D. S. a. l.).—",
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite> <he>אדרכיאן</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"id": "M03050",
+	"slug": "מתיבא",
+	"headword": {
+		"text": "מְתִיבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְתִיבְתָּא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 861,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>יְתַב</he>; v. <cite ref=\"J00689\"><he>יְשִׁיבָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>seat, sitting</i>, esp. <i>school, academy; council</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 11:25\">Targ. I Chr. XI, 25</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 4:22\">Ib. IV, 22</cite> <cite ref=\"M03050\"><he>מְתִיבַת</he></cite> (constr.); a. e.—",
+				"<cite ref=\"Berakhot 18b:14\">Ber. 18ᵇ</cite> <he>מ׳ דר׳ אפס</he> the college of R. E.—",
+				"<cite ref=\"Berakhot 18b:14\">Ib.</cite> <he>מ׳ דרקיעא</he> the heavenly session (of the departed scholars). ",
+				"<cite ref=\"Bava Metzia 86a:7\">B. Mets. 86ᵃ</cite> <he>וכולהו מ׳ דרקיעא וכ׳</he> and all those participating in the heavenly session declared &c. ",
+				"<cite ref=\"Yevamot 105b:6\">Yeb. 105ᵇ</cite>; a. fr. "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the proceedings at college, subject of discussions</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 117a:21\">B. Kam. 117ᵃ</cite> <he>מסיים מ׳ דיומא לרבנן</he> he finished up (reviewed) the subject discussed that day before the scholars. ",
+				"<cite ref=\"Bava Kamma 117a:21\">Ib.</cite> <he>ליעיין מר במוֹתִ׳ דלמחר</he> study carefully the subject of discussion for to-morrow; a. fr.—Pl. <he>מְתִיבָאתָא</he>, <cite ref=\"M03050\"><he>מְתִיבָתָא</he></cite>. ",
+				"<cite ref=\"Gittin 6a:9\">Gitt. 6ᵃ</cite> <he>כיון דאיכא מ׳</he> because there are colleges (in Babylonia). ",
+				"<cite ref=\"Gittin 6a:9\">Ib.</cite> <he>מ׳ בגירסייהו וכ׳</he> the colleges are engrossed in their theoretical studies."
+			],
+			"label": "2"
+		}
+	]
+}

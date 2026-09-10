@@ -1,0 +1,25 @@
+{
+	"id": "D00263",
+	"slug": "דוכתא",
+	"headword": {
+		"text": "דּוּכְתָּא"
+	},
+	"page": {
+		"number": 285,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"D00243\"><he>דּוּךְ</he> II</cite>) <i>place</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 42b\">Ber. 42ᵇ</cite> (interch. with <cite ref=\"D00242\"><he>דּוּךְ</he></cite>). ",
+				"<cite ref=\"Berakhot 4b:4\">Ib. 4ᵇ</cite> <he>בכל ד׳</he> everywhere else (in Rabbinical writings). ",
+				"<cite ref=\"Yevamot 62a:15\">Yeb. 62ᵃ</cite> <he>בד׳ אחריתי</he> in another place (of the Scriptures). ",
+				"<cite ref=\"Bava Metzia 93b\">B. Mets. 93ᵇ</cite> bot.; a. v. fr."
+			]
+		}
+	]
+}

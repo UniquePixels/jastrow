@@ -1,0 +1,30 @@
+{
+	"id": "M02533",
+	"slug": "מרד-6",
+	"headword": {
+		"text": "מֵרַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵרְדָא"
+		},
+		{
+			"text": "מֵי׳"
+		}
+	],
+	"page": {
+		"number": 837,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Bibl. chald. <cite ref=\"M02530\"><he>מְרַד</he></cite>) ch. = h.. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 22:22\">Targ. Josh. XXII, 22</cite> <he>מירד</he> ed. Lag. (ed. <cite ref=\"M02535\"><he>מרדא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 15:12\">Targ. II Sam. XV, 12</cite> (h. text <he>קשר</he>); a. e.—Pl. <he>מֵרְדִין</he>, <cite ref=\"M01574\"><he>מֵי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 8:4\">Targ. Job VIII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 35:6\">Ib. XXXV, 6</cite> <he>מְרָדָיִיךְ</he> Ms. (ed. <he>מָרוֹדָךְ</he>, v. <cite ref=\"M02573\"><he>מָרוֹדָא</he></cite>)."
+			]
+		}
+	]
+}

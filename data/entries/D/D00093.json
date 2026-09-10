@@ -1,0 +1,33 @@
+{
+	"id": "D00093",
+	"slug": "דבש-1",
+	"headword": {
+		"text": "דָּבַשׁ"
+	},
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הִדְבִּישׁ</he> <i>to become liquid, to ferment</i> (of honey). ",
+					"units": [
+						"<cite ref=\"Bava Metzia 38a:16\">B. Mets. 38ᵃ</cite>. ",
+						"<cite ref=\"Sanhedrin 101a\">Snh. 101ᵃ</cite>. ",
+						"<cite ref=\"Shabbat 154b:8\">Sabb. 154ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

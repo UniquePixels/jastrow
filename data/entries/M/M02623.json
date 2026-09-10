@@ -1,0 +1,23 @@
+{
+	"id": "M02623",
+	"slug": "מרזופא",
+	"headword": {
+		"text": "מַרְזוֹפָא"
+	},
+	"page": {
+		"number": 840,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רזף</he>, transpos. of <cite ref=\"Q01744\"><he>פרז</he></cite>; cmp. <cite ref=\"M02614\"><he>מַרְזֵב</he></cite>) <i>hammer</i> (= h. <cite ref=\"M02379\"><he>מַקֶּבֶת</he></cite>).—Pl. <he>מַרְזוֹפִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 73:10\">Targ. Ps. LXXIII, 10</cite> (h. text <cite ref=\"E00575\"><he>הֲלֹם</he></cite>, v. <cite ref=\"E00575\"><he>הָלַם</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 74:6\">Ib. LXXIV, 6</cite> <he>מחין כבמ׳</he> (some ed. <he>בכמר׳</he>, ed. Wil. <he>במ׳</he>, corr. acc.; h. text <he>יַהֲלֹמ׳</he>).—V. <cite ref=\"M02629\"><he>מַרְזַפְתָּא</he></cite>."
+			]
+		}
+	]
+}

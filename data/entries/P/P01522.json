@@ -1,0 +1,44 @@
+{
+	"id": "P01522",
+	"slug": "עת",
+	"headword": {
+		"text": "עֵת"
+	},
+	"page": {
+		"number": 1128,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; contr. of <he>עדת</he> , v. <cite ref=\"P00198\"><he>עוּד</he></cite>; or of <cite ref=\"P01020\"><he>ענת</he></cite>, v. <cite ref=\"P00297\"><he>עוֹנָה</he> I</cite>) [<i>duration, turn</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ʿEth</i>, the twenty-fourth part of an <i>ʿonah</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Berakhot 1:1\">Tosef. Ber. I, 1</cite>; a. e., v. <cite ref=\"P00297\"><he>עוֹנָה</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>time</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 109a:2\">Pes. 109ᵃ</cite>; <he>מימיו לא אמר הגיע עת לעמוד וכ׳</he> never in his life did he (R. ʿAḳiba) say, it is time to rise from (leave) the house of study, except &c.; <cite ref=\"Sukkah 28a:4\">Succ. 28ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 8a:1\">Ber. 8ᵃ</cite> (ref. to <cite ref=\"Psalms 69:14\">Ps. LXIX, 14</cite>) <he>אימתי עת רצון בשעה וכ׳</he> when is the time of favor? When the congregation is at prayer. ",
+				"<cite ref=\"Taanit 24b:6\">Taan. 24ᵇ</cite> <he>שמע מינה עת רצון היא</he> I learn from this (dream) that this is an auspicious time for prayer. ",
+				"<cite ref=\"Yevamot 72a:4\">Yeb. 72ᵃ</cite> <he>עת רצון מילתא היא</he> there is something in the idea of a time of favor for prayer; a. fr.—<he>מֵעֵת לָעֵת</he> (abbrev. <he>מעל״ע</he>) <i>the time of twenty-four astronomical hours</i>. ",
+				"<cite ref=\"Mishnah Niddah 1:1\">Nidd. I, 1</cite> <he>מעל״ע ממעטת עליד מפקידה לפקידה וכ׳</he> the term of twenty-four hours (of retrospective uncleanness) reduces the term of the interval from one examination to the other &c., i.e. we go by the shorter term whichever it may be. ",
+				"<cite ref=\"Chullin 51b\">Ḥull. 51ᵇ</cite>; <cite ref=\"Zevachim 74b:12\">Zeb. 74ᵇ</cite> <he>צריכה מעל״ע</he> requires the intervening of twenty-four hours (before it may be slaughtered); a. fr.—Pl. <cite ref=\"P00711\"><he>עִתִּים</he></cite>, <cite ref=\"P00711\"><he>עִתּוֹת</he></cite>, <cite ref=\"P00072\"><he>עִי׳</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 28a:16\">R. Hash. 28ᵃ</cite> <he>ע׳ חלים ע׳ שוטה</he> (<cite ref=\"Tosefta Terumot 1:3\">Tosef. Ter. I, 3</cite> <he>פעמים</he>), v. <cite ref=\"H01081\"><he>חָלַם</he> I</cite>. ",
+				"<cite ref=\"Mishnah Tamid 1:2\">Tam. I, 2</cite> <he>לא כל הע׳ שוות</he> the time (for the appearance of the superintendent) was not always the same. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:18\">Y. Ber. IX, end, 14ᵈ</cite> (ref. to <cite ref=\"Psalms 119:126\">Ps. CXIX, 126</cite>) <he>העושה תורתו ע׳ … מיפר ברית</he> he who makes the study of the Law a matter of time, destroys the covenant. ",
+				"<cite ref=\"Shabbat 31a:11\">Sabb. 31ᵃ</cite> <he>בשעה … נשאת ונתת באמונה קבעת ע׳ לתורה</he> when man is brought up for judgment, he is asked, hast thou been dealing with integrity? hast thou had regular times for the study of the Law? <cite ref=\"Sanhedrin 65b:19\">Snh. 65ᵇ</cite> <he>ע׳ ושעות</he>, v. <cite ref=\"P00291\"><he>עוּן</he></cite>; a. e.—לְעִיתּוֹתֵי עֶרֶב <i>at the evening appointments</i> (when labor is stopped, the work reviewed, wages paid &c.), in gen. <i>towards evening</i>. ",
+				"<cite ref=\"Tosefta Avodah Zarah 7:10\">Tosef. Ab. Zar. VII</cite> (<cite ref=\"Tosefta Avodah Zarah 8:10\">VIII</cite>), 10; Bab. Ber. 65ᵃ. Y. Ber. II, 5ᶜ top. Y. Succ. IV, beg. 54ᵇ. Y. Yeb. XVI, 15ᵈ top <he>לציצותי</he>, Var. <he>לציתותי</he> (read: <he>לציתותי ערב</he>); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

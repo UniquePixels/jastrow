@@ -1,0 +1,29 @@
+{
+	"id": "N00772",
+	"slug": "ניקושא",
+	"headword": {
+		"text": "נִיקּוּשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִקּ׳"
+		}
+	],
+	"page": {
+		"number": 908,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01252\"><he>נְקַשׁ</he></cite>) <i>knocking, rattling</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 46:22\">Targ. Jer. XLVI, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on Nahum 2:11\">Targ. Nah. II, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Nahum 3:2\">Ib. III, 2</cite>; a. e.—V. <cite ref=\"N01253\"><he>נְקָשָׁא</he></cite>."
+			]
+		}
+	]
+}

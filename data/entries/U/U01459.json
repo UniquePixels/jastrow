@@ -1,0 +1,35 @@
+{
+	"id": "U01459",
+	"slug": "שמטתא",
+	"headword": {
+		"text": "שְׁמִטְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמִטְּתָה"
+		},
+		{
+			"text": "שְׁמִטָּא"
+		},
+		{
+			"text": "שְׁמִיטּ׳"
+		}
+	],
+	"page": {
+		"number": 1595,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U01456\"><he>שְׁמִטָּה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 33:24\">Targ. Y. II, Deut. XXXIII, 24</cite>. Targ. ib. XV, 1 (Y. ed. Vien. <cite ref=\"U01464\"><he>שְׁמִיטָתָא</he></cite>, corr. acc.); a. fr.—Y. Shebi. IV, 35ᵇ; <cite ref=\"Jerusalem Talmud Avodah Zarah 4:10:3\">Y. Ab. Zar. IV, 44ᵇ</cite>; a. fr.—Pl. <cite ref=\"U01459\"><he>שְׁמִטָּתָא</he></cite>, <he>שְׁמִטִּין</he>, <cite ref=\"U01459\"><he>שְׁמִיטּ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:24\">Targ. Y. I Deut. XXXIII, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 12:40\">Targ. Y. Ex. XII, 40</cite> <he>תלתין ש׳ דשנין</he> thirty septennial priods; a. e."
+			]
+		}
+	]
+}

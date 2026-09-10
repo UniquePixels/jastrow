@@ -1,0 +1,26 @@
+{
+	"id": "A03108",
+	"slug": "אריס-2",
+	"headword": {
+		"text": "אָרִיס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 120,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ארס</he>) prop. <i>bound, engaged</i>, esp. <i>tenant</i> who tills the owner’s ground for a certain share in the produces, contrad. fr. <he>חכור</he> tenant who pays the landlord a certain rent in kind, irrespective of the yield of the crops. Y. Bicc. I, end, 64ᵇ. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 3:5:3\">Y. B. Bath. III, 14ᵃ</cite> bot. <he>א׳ שהוריד א׳</he> a farmer letting to a sub-farmer. ",
+				"<cite ref=\"Shemot Rabbah 43:9\">Ex. R. s. 43</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 1:9\">Lev. R. s. 1</cite> <he>אֲרִיסוֹ</he> his (the king’s) tenant, i.e. Adam (in paradise); a. fr.—Pl. <he>אֲרִיסִים</he>, <cite ref=\"A02236\"><he>אֲרִיסִין</he></cite>. Y. B. Bath. l. c. Y. M. Kat. III, 82ᵇ bot. ",
+				"<cite ref=\"Devarim Rabbah 7:4\">Deut. R. s. 7</cite>; a. fr.—Cmp. <cite ref=\"P01366\"><he>עָרִיס</he></cite>."
+			]
+		}
+	]
+}

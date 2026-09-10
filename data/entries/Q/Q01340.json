@@ -1,0 +1,44 @@
+{
+	"id": "Q01340",
+	"slug": "פסס-2",
+	"headword": {
+		"text": "פְּסַס"
+	},
+	"page": {
+		"number": 1198,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01339\">same</cite>, <i>to distribute</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 4:8\">Targ. Hos. IV, 8</cite> <he>כהניא פַסּוּ וכ׳</he> the priests distribute (the sacrifices among themselves) &c.—",
+				"<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite> <he>אנן פַּסִּין לה פירקא וכ׳</he> Ar. (read <cite ref=\"Q00358\"><he>פורנא</he></cite>) we shall apportion (among ourselves, pay each his share towards) her dowry, and you divorce her (ed. <he>יהבינן לה פורנא</he>); <cite ref=\"Vayikra Rabbah 34:14\">Lev. R. s. 34</cite> <he>אנן פסקינן</he>, v. <cite ref=\"Q01351\"><he>פְּסַק</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפֵּיס"],
+			"senses": [
+				{
+					"gloss": "<i>to break, weaken; to desecrate</i>, v. <cite ref=\"Q00741\"><he>פִּיס</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתַּפֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to be weakened, be degraded</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 15:20\">Targ. Job XV, 20</cite>, v. <cite ref=\"Q00741\"><he>פִּיס</he></cite>, a. <cite ref=\"V00845\"><he>תְּפַס</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

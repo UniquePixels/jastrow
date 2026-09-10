@@ -1,0 +1,50 @@
+{
+	"id": "P00645",
+	"slug": "עיצום",
+	"headword": {
+		"text": "עִיצּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִצּ׳"
+		}
+	],
+	"page": {
+		"number": 1073,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01127\"><he>עָצַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strength</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 4</cite> (expl. <he>עצמותי</he>, <cite ref=\"Eichah Rabbah 3\">ib.</cite>) [read:] <he>עִיצּוּמִי בָּנַי שהיו כבני העצומים</he> (he broke) my strength, that is, my sons who were like the sons of the mighty."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>essence, self</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 86b\">Sabb. 86ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 278:1\">Yalk. Ex. 278</cite> (ref. to <he>זכור את וכ׳</he>, <cite ref=\"Exodus 13:3\">Ex. XIII, 3</cite>, a. ",
+				"<cite ref=\"Exodus 20:8\">XX, 8</cite>) <he>מה להלן בעִיצּוּמוֹ של יום וכ׳</he> as there the word was delivered on the selfsame day (of the exodus), so it was here on the selfsame day (on a Sabbath day). ",
+				"<cite ref=\"Yoma 81a:11\">Yoma 81ᵃ</cite> (ref. to <he>בעצם</he>, <cite ref=\"Leviticus 23:30\">Lev. XXIII, 30</cite>) <he>על עיצומו של יום וכ׳</he> labor on the day itself is punished with extinction (contrad. to <cite ref=\"V00246\"><he>תוספת</he></cite>). ",
+				"<cite ref=\"Menachot 68b:3\">Men. 68ᵇ</cite>, a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " pl. <he>עִיצּוּמִים</he>, <he>עִיצּוּמִין</he>, <cite ref=\"P00645\"><he>עִצּ׳</he></cite> (cmp. <cite ref=\"A02466\"><he>אַסְמַכְתָּא</he></cite>) <i>surety, a promise made with the condition of a forfeit in case of failure to fulfill it</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 10:5:2\">Y. B. Bath. X, 17ᶜ</cite> bot. <he>ע׳ … גבי</he> R. A. decided a promise of forfeit to be collectible. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 5:8:2\">Y. Gitt. V, 47ᵇ</cite>, [read as:] Y. B. Bath. l. c. <he>אע״ג דלית לר׳ יוסי גבי ע׳ … דאינון גביי וכ׳</he> although R. J. declares <i>ʿitsumim</i> not to be collectible, he admits that they are collectible in the case of those who indenture their sons to a trade, because the livelihood of men requires such a measure."
+			],
+			"label": "3"
+		}
+	]
+}

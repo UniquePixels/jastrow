@@ -1,0 +1,23 @@
+{
+	"id": "A02344",
+	"slug": "אסחרותא",
+	"headword": {
+		"text": "אַסְחָרוּתָא"
+	},
+	"page": {
+		"number": 89,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סחר</he>) <i>sitting around the table, banqueting</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 10:5\">Targ. I Kings X, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 9:12\">Targ. I Sam. IX, 12</cite> <cite ref=\"A00172\"><he>בית א׳</he></cite> the place of feasting (h. text <cite ref=\"B00925\"><he>במה</he></cite>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "O01299",
+	"slug": "סערא",
+	"headword": {
+		"text": "סַעֲרָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סְעָרָא"
+		}
+	],
+	"page": {
+		"number": 1010,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>visitation</i>, v. <cite ref=\"O01287\"><he>סְעוֹרָא</he></cite>.",
+			"units": []
+		}
+	]
+}

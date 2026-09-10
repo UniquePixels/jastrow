@@ -1,0 +1,28 @@
+{
+	"id": "B00032",
+	"slug": "באלא",
+	"headword": {
+		"text": "בָּאלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּלָא"
+		}
+	],
+	"page": {
+		"number": 135,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= h. <cite ref=\"B00612\"><he>בּוּל</he></cite>, cmp. <cite ref=\"J00038\"><he>יְבוּל</he></cite>) <i>growth</i> (of grass); whence <i>prairie, pasture ground</i> (in mountains &c.; cmp. ",
+			"units": [
+				"<cite ref=\"Job 40:20\">Job. XL, 20</cite> expl. in <cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite>).—",
+				"<cite ref=\"Chullin 80a:13\">Ḥull. 80ᵃ</cite> <he>עזי דב׳</he> <i>wild goats</i>. V. <cite ref=\"V00282\"><he>תּוּרְבָּלָא</he></cite>."
+			]
+		}
+	]
+}

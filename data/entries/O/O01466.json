@@ -1,0 +1,24 @@
+{
+	"id": "O01466",
+	"slug": "סקי-1",
+	"headword": {
+		"text": "סַקָּי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1019,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"O01441\"><he>סַק</he></cite>) <i>sack-maker; sack-carrier</i>.—Pl. <he>סַקָּיִין</he>, <he>סַקָּאִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:5\">Kel. XIII, 5</cite> (<he>מחט</he>) <he>של ס׳</he> the sack-makers’ needle. ",
+				"<cite ref=\"Tosefta Keilim Metsia 7:1\">Tosef. Kel. B. Mets. VII, 1</cite>; <cite ref=\"Bekhorot 22a:8\">Bekh. 22ᵃ</cite> <he>כפיקה גדולה של ס׳</he> of the size of a large stopper (seal) of the sack-carriers; a. e."
+			]
+		}
+	]
+}

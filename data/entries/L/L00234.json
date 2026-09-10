@@ -1,0 +1,31 @@
+{
+	"id": "L00234",
+	"slug": "לוח-3",
+	"headword": {
+		"text": "לוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לוּחָא"
+		},
+		{
+			"text": "לְוָוחָא"
+		}
+	],
+	"page": {
+		"number": 696,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"L00233\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 36:19\">Targ. Y. Ex. XXXVI, 19</cite>, a. e. (O. <cite ref=\"D00953\"><he>דפא</he></cite>, h. text <cite ref=\"S02197\"><he>קרש</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:3\">Targ. Prov. III, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 8:1\">Targ. Is. VIII, 1</cite> (h. text <cite ref=\"C00941\"><he>גִּלָּיוֹן</he></cite>); a. fr.—Pl. <he>לוּחִין</he>, <he>לוּחַיָּא</he>, <he>לוּחֵי</he>, <cite ref=\"L00258\"><he>לְוָו׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 26:15\">Targ. Y. I Ex. XXVI, 15</cite> (Y. II <he>לְוָוחֵי</he>). Ib. 20. ",
+				"<cite ref=\"Onkelos Exodus 31:18\">Targ. Ex. XXXI, 18</cite>; a. fr.—[<cite ref=\"Shabbat 18a\">Sabb. 18ᵃ</cite>; <cite ref=\"Gittin 61a\">Gitt. 61ᵃ</cite> top, v. next w.]."
+			]
+		}
+	]
+}

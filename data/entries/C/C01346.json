@@ -1,0 +1,44 @@
+{
+	"id": "C01346",
+	"slug": "גרירה",
+	"headword": {
+		"text": "גְּרִירָה"
+	},
+	"page": {
+		"number": 269,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01392\"><he>גרר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>scraping off</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 84a:6\">Ḥull. 84ᵃ</cite> <he>מחוסר … וג׳</he> requires the acts of pouring out the blood, scraping off the blood stains &c. ",
+				"<cite ref=\"Chullin 93a:6\">Ib. 93ᵃ</cite> <he>ריש מעיא … בעי ג׳</he> the top of the small bowels up to a cubit’s length must be scraped (in order to remove the fat)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dragging, pulling, moving an object without lifting</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 22a\">Sabb. 22ᵃ</cite>; <cite ref=\"Pesachim 101a\">Pes. 101ᵃ</cite>; <cite ref=\"Menachot 41b:8\">Men. 41ᵇ</cite> <he>הלכה … בג׳</he> the law decides in favor of … with reference to dragging an object on the Sabbath, v. <cite ref=\"C01392\"><he>גָּרַר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:5:12\">Y. Kidd. I, 60ᵈ</cite> top <he>מהו שיקנו בג׳</he> can they be taken possession of by moving without lifting?"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>carrying with, involving</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:6:2\">Y. Pes. VII, 34ᶜ</cite> top <he>מאי נפקא … ג׳</he> what is the difference between them? They differ as to the majority of one tribe carrying with it (determining the legal status of) the whole nation, v. <cite ref=\"C01392\"><he>גָּרַר</he></cite> 3.—",
+				"<cite ref=\"Shabbat 71a:3\">Sabb. 71ᵃ</cite> <he>ומי אית ליה … ג׳</he> does R. adopt the opinion that one action can be involved with another so as to be considered one continuous act (e.g. cutting grain and immediately grinding it)? <cite ref=\"Shabbat 71a:3\">Ib.</cite> <he>ג׳ דג׳</he> an application of this principle in the second degree, that the action involved should involve a third action."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "P00593",
+	"slug": "עימור-2",
+	"headword": {
+		"text": "עִימּוּר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִמּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1070,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00927\"><he>עָמַר</he></cite>) <i>heaping up, carrying sheaves home</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 4:6\">Peah IV, 6</cite> <he>אין השכחה אלא בשעת הע׳</he> the law concerning the forgotten sheaf begins to be binding only at the time of carrying sheaves home; <cite ref=\"Sifrei Devarim 282\">Sifré Deut. 282</cite>. ",
+				"<cite ref=\"Shabbat 73b:8\">Sabb. 73ᵇ</cite> <he>אין ע׳ אלא בגידולי קרקע</he> <i>ʿimmur</i> (as Sabbath labor) applies only to plants. Y. ib. VII, 10ᵃ bot. <he>תולדות הע׳</he> the secondary labors coming under the category of <i>ʿimmur</i>; a. e."
+			]
+		}
+	]
+}

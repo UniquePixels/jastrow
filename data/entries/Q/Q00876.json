@@ -1,0 +1,30 @@
+{
+	"id": "Q00876",
+	"slug": "פירקתא",
+	"headword": {
+		"text": "פִּירְקְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1172,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01981\"><he>פְּרַק</he></cite>) <i>joint</i>, esp. <he>פִּירְקַת צַוְרָא</he>, <he>פִּירְקַת קְדַל</he> <i>neck</i>. Targ. Y. a. O. ",
+			"units": [
+				"<cite ref=\"Deuteronomy 33:29\">Deut. XXXIII, 29</cite> ed. Berl. (oth. ed. <cite ref=\"Q01830\"><he>פְּרִיקֵי</he></cite>, <he>פְּרִיקַת</he>; h. text <he>במותימו</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 60:10\">Targ. Ps. LX, 10</cite> ed. Lag. <cite ref=\"Q02191\"><he>פו׳</he></cite> (ed. Wil. <cite ref=\"Q00347\"><he>פִּרְ׳</he></cite>; Regia <he>פְּרִיקַת</he>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 5:5\">Targ. Lam. V, 5</cite> (Levita <he>פרי׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 45:14\">Targ. Y. Gen. XLV, 14</cite> (ed. Vien. <he>פרי׳</he>)."
+			]
+		}
+	]
+}

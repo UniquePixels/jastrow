@@ -1,0 +1,27 @@
+{
+	"id": "P01193",
+	"slug": "עקלא",
+	"headword": {
+		"text": "עִקְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1106,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"P01192\">preced.</cite>; cmp. Lat. torques) <i>band, clasp</i>.—Pl. <he>עִקְלַיָּא</he>, <cite ref=\"P00072\"><he>עִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 31:50\">Targ. Y. II, Num. XXXI, 50</cite> (h. text <he>עגיל</he>)."
+			]
+		}
+	]
+}

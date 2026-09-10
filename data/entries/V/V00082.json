@@ -1,0 +1,25 @@
+{
+	"id": "V00082",
+	"slug": "תגארא",
+	"headword": {
+		"text": "תִּגָּארָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּיגָּ׳"
+		}
+	],
+	"page": {
+		"number": 1646,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"V00089\"><he>תַּגָּר</he></cite>) <i>traveller, merchant.—</i>Pl. constr. <he>תִּגָּארֵי</he>, <cite ref=\"V00082\"><he>תִּיגָּ׳</he></cite>. Targ. II Esth. X, 1 <he>ת׳ ימא</he> sea-merchants (h. text <he>איי הים</he>).",
+			"units": []
+		}
+	]
+}

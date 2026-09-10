@@ -1,0 +1,24 @@
+{
+	"id": "M02461",
+	"slug": "מקרין-1",
+	"headword": {
+		"text": "מַקְרִין",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 833,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Macrin</i>, (supposed to mean) <i>Macrianus</i>, one of the thirty tyrants, who after the capture by the Persians of Valerian, was declared Roman emperor together with his sons Macrianus and Quietus. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 76:6\">Gen. R. s. 76</cite> (ref. to ‘three of the older horns’, <cite ref=\"Daniel 7:8\">Dan. VII, 8</cite>) <he>זו שנתנו להם מלכותם מ׳ וקרוס וקרדידוסי</he> (some ed. <cite ref=\"M02382\"><he>מקדין</he></cite>) those (Romans) who gave them (the princes of Palmyra,) their royal titles (v. <he>נֵצַר</he> IV); M. &c.; Yalk. Dan. 1064 <he>מוקירוס וקירוס וקירקוס</he> (omitting <he>זו … מלכותם</he>) (some ed. <he>וקרירוס</he>; Fürst Gloss. Graeco-Hebr. p. 145 quotes: <he>וקירידיס</he>). [The other two names, obviously corrupted, refer perhaps to the two sons of Macrianus. V. Fürst l. c. for other conjectures.]"
+			]
+		}
+	]
+}

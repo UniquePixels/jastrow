@@ -1,0 +1,25 @@
+{
+	"id": "H00080",
+	"slug": "חבית",
+	"headword": {
+		"text": "חָבִית"
+	},
+	"page": {
+		"number": 419,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00012\"><he>חבב</he></cite>, as <cite ref=\"C00557\"><he>גָּזִית</he></cite> fr. <he>גזז</he>, v. Fl. to Levy Talm. Dict. II, 202<sup>1</sup>) <i>an arched, pouched vessel</i>, (<i>earthen</i>) <i>wine jug</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 3:1\">B. Kam. III, 1</cite> (<cite ref=\"Bava Kamma 27a:18\">27ᵃ</cite>, identical with <cite ref=\"K00098\"><he>כַּד</he></cite>); a. fr.—",
+				"<cite ref=\"Mishnah Kelim 2:3\">Kel. II, 3</cite> <he>ח׳ של שייטין</he> the swimmers’ bottle (used for practicing).—Pl. <he>חָבִיּוֹת</he>. ",
+				"<cite ref=\"Mishnah Kelim 2:2\">Ib. 2</cite> <he>ח׳ לודיות</he> Lyddean jugs, smaller than <he>לחמיות</he> Bethlehem bottles. ",
+				"<cite ref=\"Niddah 6b:30\">Nidd. 6ᵇ</cite>, v. <cite ref=\"C00456\"><he>גּוּף</he></cite> I h.; a. fr."
+			]
+		}
+	]
+}

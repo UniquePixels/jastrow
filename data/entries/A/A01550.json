@@ -1,0 +1,30 @@
+{
+	"id": "A01550",
+	"slug": "איפטיא",
+	"headword": {
+		"text": "אִיפַּטְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיפַּטִּיאָה"
+		},
+		{
+			"text": "אִפַּטְיָא"
+		}
+	],
+	"page": {
+		"number": 58,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ὑπατεία) prop. <i>Roman consulship, consulate</i>, in gen. <i>era</i>, dating from accession to government or an other important event. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 36:3\">Lev. R. s. 36</cite> <he>נמנה בא׳ של מלכים</he> (Ahaz) was counted under the era of kings (under whom Isaiah prophesied). Num. R. beg. <he>ואיזה א׳</he>—<he>איזה יום</he> what day, month, year and era (from the exodus from Egypt.). Pesik. Baḥod. p. 104ᵃ <he>היו מונין א׳ וכ׳</he> count ye a new era from my son’s redemption. Ib. Haḥod. p. 52ᵇ sq. he wrote her marriage contract <he>וכתב לה א׳</he> in which he stated the era of his government."
+			]
+		}
+	]
+}

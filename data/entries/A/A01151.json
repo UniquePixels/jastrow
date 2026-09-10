@@ -1,0 +1,36 @@
+{
+	"id": "A01151",
+	"slug": "איד",
+	"headword": {
+		"text": "אֵיד"
+	},
+	"page": {
+		"number": 45,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A00553\"><he>אוּד</he></cite>, <cite ref=\"P00198\"><he>עוּד</he></cite>, cmp. <cite ref=\"P01522\"><he>עֵת</he></cite>, <cite ref=\"A01168\"><he>אִידָּנָא</he></cite>)<i>turn, due day</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>evil fate, reverses</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 13:12\">Gen. R. s. 13</cite>, v. <cite ref=\"A00368\"><he>אֵד</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>anniversary, idolatrous festival</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 7b:6\">Ab. Zar. 7ᵇ</cite> <he>יום אֵידָם</he> the very day of their festival.—Pl. <he>אֵידִים</he>. ",
+				"<cite ref=\"Mishnah Avodah Zarah 1:2\">Ib. I, 2</cite>, a. fr. (<he>של נכרים</he>) <he>אֵידֵיהֶן</he>. ",
+				"<cite ref=\"Avodah Zarah 2a:3\">Ib. 2ᵃ</cite>; Y. Erub. V, beg. 22ᵃ (controversy as to spelling with <he>א׳</he> or with <cite ref=\"P00000\"><he>ע</he></cite>). [As to cacophemistic designation, cmp. <cite ref=\"A00112\"><he>אבידן</he></cite> &c.]"
+			],
+			"label": "2"
+		}
+	]
+}

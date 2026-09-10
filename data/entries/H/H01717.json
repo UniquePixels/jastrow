@@ -1,0 +1,36 @@
+{
+	"id": "H01717",
+	"slug": "חרם-4",
+	"headword": {
+		"text": "חָרָם"
+	},
+	"page": {
+		"number": 504,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01716\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fisherman</i>.—Pl. <he>חָרָמִים</he>, <he>חָרָמִין</he>, constr. <he>חָרָמֵי</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 2:5:3\">Y. M. Kat. II, end, 81ᵇ</cite>; <cite ref=\"Jerusalem Talmud Pesachim 4:1:11\">Y. Pes. IV, 30ᵈ</cite> top <he>ח׳ טבריה</he> the net-fishers of Tiberias."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>confiscator, official oppressor</i>, v. <cite ref=\"E00813\"><he>הָרָג</he></cite>.—",
+			"units": [
+				"<cite ref=\"Tosefta Avodah Zarah 7:6\">Tosef. Ab. Zar. VII</cite> (<cite ref=\"Tosefta Avodah Zarah 8:6\">VIII</cite>), 6; <cite ref=\"Avodah Zarah 58a:6\">Ab. Zar. 58ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Bava Metzia 3:19\">Tosef. B. Mets. III, 19</cite>; Y. ib. IV, end, 9ᵈ a defective coin must not be given <he>לתגר … ולא לח׳ וכ׳</he> to a travelling merchant, to a highwayman, or to an oppressor, because they will cheat &c.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Mishnah Nedarim 3:4\">Ned. III, 4</cite>; <cite ref=\"Bava Kamma 113a\">B. Kam. 113ᵃ</cite>, v. <cite ref=\"N00239\"><he>נָדַר</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

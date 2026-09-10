@@ -1,0 +1,34 @@
+{
+	"id": "I00164",
+	"slug": "טול-4",
+	"headword": {
+		"text": "טוּל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טוּלָּא"
+		}
+	],
+	"page": {
+		"number": 523,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00509\"><he>טלל</he></cite>) = h. <cite ref=\"R00475\"><he>צֵל</he></cite>, <i>shade, shadow</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 9:36\">Targ. Jud. IX, 36</cite>; a. fr.—",
+				"<cite ref=\"Yoma 74b:3\">Yoma 74ᵇ</cite> <he>תוב בט׳</he> sit in the shade.—",
+				"<cite ref=\"Gittin 17a:1\">Gitt. 17ᵃ</cite> <he>או בטוּלָּךְ וכ׳</he> either let us live in thy shadow (protection) or in the shadow of the son of Esau (Rome). ",
+				"<cite ref=\"Sanhedrin 18b:12\">Snh. 18ᵇ</cite> <he>בט׳ תאינה</he> in the shade of a fig-tree; <cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:4\">Y. R. Hash. II, 58ᵇ</cite> top <he>בטֻל תינתא</he>; <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:13\">Y. Snh. I, 18ᶜ</cite> bot. <he>בטיל הינתא</he> (corr. acc.); a. fr.—Pl. <he>טוּלַּיָּא</he>, <he>טוּלֵּי</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 6:4\">Targ. Jer. VI, 4</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 9:1\">Targ. Is. IX, 1</cite> <he>בארע טולי מותא</he> ed. Lag (oth. ed. <cite ref=\"I00166\"><he>טוּלֵימוֹתָא</he></cite> in one word, h. text <he>צלמית</he>).—",
+				"<cite ref=\"Pesachim 111b:2\">Pes. 111ᵇ</cite> <he>חמשה ט׳ וכ׳</he> there are five shades (where demons dwell); a. e.—V. <cite ref=\"I00511\"><he>טְלָלָא</he></cite>."
+			]
+		}
+	]
+}

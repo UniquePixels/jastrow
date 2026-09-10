@@ -1,0 +1,23 @@
+{
+	"id": "A03234",
+	"slug": "ארקא-2",
+	"headword": {
+		"text": "אַרְקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 125,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Ἄρκη, Ἄρκαι) <i>Arca</i>, also called <i>A. Cæsarea, Cæs</i>. <i>Libani</i>, at the North-Western foot of Mount Lebanon. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 37:6\">Gen. R. s. 37</cite> (interpreting <he>הערקי</he> <cite ref=\"Genesis 10:17\">Gen. X, 17</cite>) <he>א׳ דליבנן</he> (some ed. <he>ארקס</he>). [Cmp. <he>ערקת לבנה</he> <cite ref=\"Bekhorot 57b\">Bekh. 57ᵇ</cite>, v. Neub. Géogr. p. 33; 299.]"
+			]
+		}
+	]
+}

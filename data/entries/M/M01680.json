@@ -1,0 +1,24 @@
+{
+	"id": "M01680",
+	"slug": "ממרא-2",
+	"headword": {
+		"text": "מַמְרֵא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 795,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02651\"><he>מרי</he></cite>, <cite ref=\"M02652\"><he>מָרָה</he></cite>) <i>rebellious</i>, (<he>על פי ב״ד</he>) <he>זקן מ׳</he> an elder disregarding the decision of the Supreme Court. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 11:1\">Snh. XI, 1</cite> (<cite ref=\"Sanhedrin 84b:1\">84ᵇ</cite>); 2 (86ᵇ). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:4:12\">Y. Sabb. I, 3ᵈ</cite>; a. e."
+			]
+		}
+	]
+}

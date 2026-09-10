@@ -1,0 +1,27 @@
+{
+	"id": "M01960",
+	"slug": "מסמא",
+	"headword": {
+		"text": "מְסַמָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסַמָּה"
+		}
+	],
+	"page": {
+		"number": 808,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01054\"><he>סָמָא</he></cite>) <i>closing a cavity</i>, <he>אבן מ׳</he>, v. <cite ref=\"A00172\"><he>אֶבֶן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Niddah 69b:24\">Nidd. 69ᵇ</cite> <he>באבן מ׳</he> when the apparent corpse lies on a stone under which there is a cavity; <cite ref=\"Shabbat 82b:4\">Sabb. 82ᵇ</cite> (Ms. M. <he>מוסמא</he>, v. Rabb. D. S. a. l. note). Sifra M’tsora, Zab., Par. 2, ch. III; a. fr."
+			]
+		}
+	]
+}

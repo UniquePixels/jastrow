@@ -1,0 +1,34 @@
+{
+	"id": "D01122",
+	"slug": "דרק",
+	"headword": {
+		"text": "דְּרַק"
+	},
+	"page": {
+		"number": 325,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"G00735\"><he>זְרַק</he></cite> <i>to sprinkle, strew, thrust</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 2:12\">Targ. Job II, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 19:13\">Targ. Y. Ex. XIX, 13</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דָּרֵיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D01121\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 29:22\">Targ. II Chr. XXIX, 22</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "O00720",
+	"slug": "סימפוניא",
+	"headword": {
+		"text": "סִימְפּוֹנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִימְפּוֹנְיָה"
+		},
+		{
+			"text": "סִימְפּוֹנְיָיא"
+		},
+		{
+			"text": "סִמְ׳"
+		}
+	],
+	"page": {
+		"number": 982,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Daniel 3:5\">Dan. III, 5</cite> <cite ref=\"O00349\"><he>סוּמְפּנְיָה</he></cite>; <cite ref=\"Daniel 3:10\">10</cite> <he>סִיפּנְיָה</he>, Keth. <he>סוּפּ׳</he>; 15 <he>סומפניה</he>; v. <cite ref=\"O00719\">preced.</cite>, a. cmp. <cite ref=\"O00067\"><he>סבכא</he></cite>, <he>שבכא</he> Dan. ll. cc.) [<i>air-passages</i>, cmp. meanings of σύριγξ,] <i>simponia</i> (Greek adapt. συμφωνία), <i>a wind instrument, double flute</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:6\">Kel. XI, 6</cite> <he>ס׳ אם יש בה בית קיבול כנפים</he> if the <i>simp</i>. has a receptacle for the wings (i.e. a <i>bagpipe</i>); <cite ref=\"Tosefta Keilim Metsia 1:7\">Tosef. Kel. B. Mets. I, 7</cite>. ",
+				"<cite ref=\"Mishnah Kelim 16:8\">Kel. XVI, 8</cite> <he>סמפ׳</he> Mish. ed. a. ed. Dehr. (Talm. ed. <cite ref=\"O01331\"><he>סִפּוֹנְיָא</he></cite>).—[<cite ref=\"Midrash Tehillim 12\">Midr. Till. to Ps. XII</cite>, beg. <he>עסוקים בהדי סימפוניא</he> ed. Bub. (oth. ed. <he>עוסקים בההיא סמפניא</he>; Var. in Mss. <he>עוסקים הוסמפניא</he>, <he>הוסתיא</he> &c., v. ed. Bub. note; <cite ref=\"Yalkut Shimoni on Nach 656:2\">Yalk. Ps. 656</cite> <he>עסוקים בהדיה ספסוני׳</he>, a corrupt. in a spurious passage; perh. to be read: <he>בהוֹרוֹסְקוֹפְיָא</he> (ὡροσκοπία) engaged in <i>horoscopy</i>.]"
+			]
+		}
+	]
+}

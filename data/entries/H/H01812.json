@@ -1,0 +1,42 @@
+{
+	"id": "H01812",
+	"slug": "חשד-2",
+	"headword": {
+		"text": "חָשַׁד"
+	},
+	"page": {
+		"number": 509,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H01817\"><he>חָשָׁה</he></cite>) [<i>to whisper</i>,] <i>to suspect</i> (cmp. <cite ref=\"D00275\"><he>דּוּם</he></cite> a. <cite ref=\"D00891\"><he>דִּימָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Yoma 19b\">Yoma 19ᵇ</cite>, a. e. <he>החוֹשֵׁד בכשרים</he> he who entertains a suspicion against worthy men. ",
+				"<cite ref=\"Yoma 19b:2\">Ib.</cite> <he>חֲשָׁדוּהוּ</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>צדוקי</he> they suspected him of being a Sadducee. ",
+				"<cite ref=\"Shabbat 127b:4\">Sabb. 127ᵇ</cite> <he>במה חֲשַׁדְתַּנִי</he> whereof did you suspect me?—",
+				"<cite ref=\"Shabbat 118b:8\">Ib. 118ᵇ</cite>; <cite ref=\"Moed Katan 18b:19\">M. Kat. 18ᵇ</cite> <he>מי שחוֹשְׁדִין וכ׳</he> whom people suspect without cause; a. fr.—Part. pass. <he>חָשׁוּד</he>, f. <he>חֲשׁוּדָה</he>; pl. <he>חֲשׁוּדִים</he>, <he>חֲשׁוּדִין</he>; <he>חֲשׁוּדוֹת</he>. ",
+				"<cite ref=\"Mishnah Demai 3:5\">Dem. III, 5</cite>, v. <cite ref=\"H01098\"><he>חָלַף</he></cite>. ",
+				"<cite ref=\"Eruvin 69a:10\">Erub. 69ᵃ</cite> <he>ח׳ לדבר אחד ח׳ וכ׳</he> one who is suspected of neglecting one religious law, is suspected of disregarding the whole Law; <cite ref=\"Bekhorot 30b\">Bekh. 30ᵇ</cite>. ",
+				"<cite ref=\"Bekhorot 30a:3\">Ib. 30ᵃ</cite> <he>ח׳ על השביעית</he> suspected of ignoring the laws of the Sabbatical year. ",
+				"<cite ref=\"Shevuot 32b\">Shebu. 32ᵇ</cite>, a. fr. <he>ח׳ על השבועה</he> suspected of swearing falsely (not admitted to oaths). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:1:3\">Y. Taan. III, beg. 66ᵇ</cite> <he>מפני פרנסת ח׳</he> for the sustenance of those suspected (of neglecting the laws of the Sabbatical year); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְשַׁד"],
+			"senses": [
+				{
+					"gloss": "<i>to be suspected</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 31b\">Ber. 31ᵇ</cite> (ref. to <cite ref=\"I Samuel 1:16\">I Sam. I, 16</cite>) <he>מבאן לנ׳ בדבר וכ׳</he> from this we learn that he who is unjustly suspected, must make it known (clear himself). ",
+						"<cite ref=\"Bekhorot 30b\">Bekh. 30ᵇ</cite>; <cite ref=\"Avodah Zarah 39a:16\">Ab. Zar. 39ᵃ</cite> <he>עד שיֵחָשְׁדוּ</he> until there is reason to suspect them of neglecting the observances of the associates (v. <cite ref=\"H00109\"><he>חָבֵר</he></cite>); a. fr.—[Y. Ab. Zar. I, 40ᵃ <he>מתחשד</he>, v. <cite ref=\"H01806\"><he>חָשַׁב</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

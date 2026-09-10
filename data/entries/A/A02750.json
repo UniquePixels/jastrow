@@ -1,0 +1,21 @@
+{
+	"id": "A02750",
+	"slug": "אפס-3",
+	"headword": {
+		"text": "אָפֵס",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Afes</i>, an Amora. ",
+			"units": ["<cite ref=\"Shabbat 59b:9\">Sabb. 59ᵇ</cite>; a. fr."]
+		}
+	]
+}

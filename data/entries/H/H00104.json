@@ -1,0 +1,43 @@
+{
+	"id": "H00104",
+	"slug": "חבק-1",
+	"headword": {
+		"text": "חָבַק"
+	},
+	"page": {
+		"number": 421,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H00012\"><he>חבב</he></cite> a. <cite ref=\"A00192\"><he>אבק</he></cite>)<i>to embrace, press, fasten</i>. <i>Part. pass.</i> <he>חָבוּק</he>, pl. <he>חֲבוּקִין</he> <i>clinging to, creeping</i> (of vines). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 6:1:4\">Y. Kil. VI, beg., 30ᵇ</cite> <he>ח׳ לכותל</he> creeping up the wall."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיבֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to embrace</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> <he>באין ומְחַבְּקִין וכ׳</he> they shall come and embrace Rachel’s grave; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַבֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to embrace one another, make love</i>. Y. Bets. II, 61ᶜ <he>מִתְחַבֵּק עם וכ׳</he> making love to thy wife; Y. Sabb. II, 6ᵃ bot. <he>מְחַבֵּק</he>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

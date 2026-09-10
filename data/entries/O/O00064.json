@@ -1,0 +1,33 @@
+{
+	"id": "O00064",
+	"slug": "סבך-2",
+	"headword": {
+		"text": "סְבַךְ"
+	},
+	"page": {
+		"number": 950,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00063\">same</cite> Part. pass. <he>סָבִיךְ</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 48a:8\">Ḥull. 48ᵃ</cite> <he>והוא דס׳ בבסרא</he> provided the perforated lung is intergrown with the fleshy part of the ribs."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַבֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to weave a net</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 30:28\">Targ. Prov. XXX, 28</cite> <he>דמְסַבְּכָא</he> ed. Lag. (Var. <he>דמְסַכְּכָה</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

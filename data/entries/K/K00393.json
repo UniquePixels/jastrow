@@ -1,0 +1,43 @@
+{
+	"id": "K00393",
+	"slug": "כורסיא",
+	"headword": {
+		"text": "כּוּרְסַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּרְסַיָּה"
+		},
+		{
+			"text": "כּוּרְסְיָא"
+		}
+	],
+	"page": {
+		"number": 626,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (used as sing.), constr. <cite ref=\"K00389\"><he>כּוּרְסֵי</he></cite>, <cite ref=\"K01246\"><he>כָּרְסֵא</he></cite> (<cite ref=\"K01243\"><he>כרס</he></cite>; cmp. <cite ref=\"K01071\"><he>כַּר</he></cite>) <i>divan, upholstered chair, throne</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 5:20\">Dan. V, 20</cite>; <cite ref=\"Daniel 7:9\">VII, 9</cite>.—",
+				"<cite ref=\"Targum Jonathan on I Kings 10:19\">Targ. I Kings X, 19</cite>. ",
+				"<cite ref=\"Onkelos Exodus 17:16\">Targ. Ex. XVII, 16</cite>; a. fr.—",
+				"<cite ref=\"Chullin 59b\">Ḥull. 59ᵇ</cite> [read:] <he>נפל מִכּוּרְסַיֵּיה וכ׳</he> he fell from his throne to the ground. ",
+				"<cite ref=\"Yevamot 118b:17\">Yeb. 118ᵇ</cite>; <cite ref=\"Ketubot 75a:5\">Keth. 75ᵃ</cite> <he>דשומשנא גברא כּוּרְסְיָהּ … רמי לה</he> if her husband be (as small as) an ant, put up her seat among the women of nobility, i.e. a woman feels elevated by marriage. ",
+				"<cite ref=\"Yevamot 83b:6\">Yeb. 83ᵇ</cite> <he>אותבוה אבי כורסי׳</he> they put him on an operator’s chair. ",
+				"<cite ref=\"Yevamot 110a:5\">Ib. 110ᵃ</cite> <he>אותבוה אבי כ׳ ואהדרוה</he> Ar. (ed. omit <he>ואהדרוה</he>) they put her on a bridal chair (v. <cite ref=\"A02817\"><he>אַפִּרְיוֹן</he></cite>) and carried her around in procession. ",
+				"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite> <he>תחות כ׳ דאמהון</he> under their mothers’ chair (of delivery); <cite ref=\"Midrash Tehillim 2:4\">Midr. Till. to Ps. II</cite>; <cite ref=\"Yalkut Shimoni on Torah 165:1\">Yalk. Ex. 165</cite>; Yalk. Esth. 1055 (only <he>תחות כורסי</he>). ",
+				"<cite ref=\"Gittin 35a:14\">Gitt. 35ᵃ</cite> <he>הפכוה לכוּרְסְיֵה</he> (<i>fem.</i>) turn his judicial chair over; <he>הפכוה לכ׳ ותרצוה</he> (Rashi: <he>הפכו</he>) they turned his chair over and set it up again; a. fr.—Pl. <cite ref=\"K01247\"><he>כּוּרְסָוָון</he></cite>, <cite ref=\"K01247\"><he>כָּרְסָוָן</he></cite>, <he>כּוּרְסְוָתָא</he>. ",
+				"<cite ref=\"Daniel 7:9\">Dan. VII, 9</cite> (cited <cite ref=\"Chagigah 14a:5\">Ḥag. 14ᵃ</cite>; <cite ref=\"Sanhedrin 38b:17\">Snh. 38ᵇ</cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 122:5\">Targ. Ps. CXXII, 5</cite>.—",
+				"<cite ref=\"Kohelet Rabbah 3:9:1\">Koh. R. to III, 9</cite> <he>אית דאייתי כ׳</he> some brought divans (for the banquet). ",
+				"<cite ref=\"Kohelet Rabbah 1:8\">Ib. to I, 8</cite> (in Hebr. Dict.) <he>יעשו כ׳ לרבים</he> (sub. <he>בתי</he>) let them be made into <i>privies</i> for the public."
+			]
+		}
+	]
+}

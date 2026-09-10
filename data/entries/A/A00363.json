@@ -1,0 +1,24 @@
+{
+	"id": "A00363",
+	"slug": "אגרת-1",
+	"headword": {
+		"text": "אִגְּרַת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 15,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Igrath</i>, name of the queen of demons <cite ref=\"Pesachim 111a:12\">Pes. 111ᵃ</cite> <he>א׳ אזלת</he> (an incantation). ",
+			"units": [
+				"<cite ref=\"Pesachim 112a\">Ib. 112ᵃ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 12:3\">Num. R. s. 12</cite>. Cmp. <cite ref=\"N00156\"><he>נְגִירָא</he></cite>."
+			]
+		}
+	]
+}

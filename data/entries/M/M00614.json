@@ -1,0 +1,34 @@
+{
+	"id": "M00614",
+	"slug": "מורבית-2",
+	"headword": {
+		"text": "מוּרְבִּית",
+		"homograph": 2
+	},
+	"page": {
+		"number": 749,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <cite ref=\"M00612\"><he>מוּרְבִּיּוֹת</he></cite> (= <cite ref=\"M02499\"><he>מוּרְבִּיעוֹת</he></cite>, v. <cite ref=\"T00101\"><he>רְבִיעָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>watering times</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:5:8\">Y. Shebi. II, 34ᵃ</cite> <he>מנע ממנו שלש מ׳</he> (sub. <cite ref=\"M01199\"><he>מים</he></cite>) he omitted to water it for three periods (Mish. ",
+				"<cite ref=\"Mishnah Sheviit 1:9\">ib. 9</cite> <he>עונות</he>); Tosef. ib. II, 4 <cite ref=\"M02676\"><he>מריעות</he></cite> ed. Zuck. (read: <cite ref=\"M02499\"><he>מַרְבִּיעוֹת</he></cite>; Var. <cite ref=\"M02507\"><he>מִרְבָּעוֹת</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>layers, piles of hewn stones</i>. Ib. III, 1; <cite ref=\"Mishnah Sheviit 3:5\">Shebi. III, 5</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "H00532",
+	"slug": "חזיון-2",
+	"headword": {
+		"text": "חִזָּיוֹן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 443,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. or <cite ref=\"H00060\"><he>חֶזְיוֹנָה</he></cite> (v. <cite ref=\"H00522\"><he>חֲזָזִית</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lichen, moss</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 105b\">B. Mets. 105ᵇ</cite> ramification (<he>סוכה</he>) is considered weak, <he>שנחבאת בחֶזְיוֹנָהּ</he> (or <he>בחזיונָה</he>) when it is hidden under (fully covered with) moss. [Ar. ed. <he>בחיזונה</he>, ed. Koh. <he>בחזיונה</he>; comment.: <i>the grip of the hand</i>, fr. <cite ref=\"A01021\"><he>אחז</he></cite>; marg. emend.: <he>באֲחַזְיוֹנָה</he>, v. Tosaf. a. l.]—",
+				"<cite ref=\"Eruvin 28a:6\">Erub. 28ᵃ</cite> <he>אבל לא בחזין ולא בחזניות</he> Ms. M. (Rabb. D. S. a. l. note quotes <he>חזיונות</he>) but neither with lichens nor with lichen dishes (Lecanora esculenta)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pl. <he>חֶזְיוֹנוֹת</he> <i>lichen, scab;</i> trnsf. <i>irregular lumps</i> of clouds. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 3:1:3\">Y. Taan. III, 66ᶜ</cite> bot. a cloud is called <i>ḥaziz</i> (v. <cite ref=\"H00533\">next w.</cite>) <he>שהוא עושה … ח׳ ח׳ וכ׳</he> for He makes the sky full of irregular lumps (cumuli), as we read (<cite ref=\"Zechariah 10:1\">Zech. X, 1</cite>), the Lord makes <i>ḥăzizim</i>"
+			],
+			"label": "2"
+		}
+	]
+}

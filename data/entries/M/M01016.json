@@ -1,0 +1,22 @@
+{
+	"id": "M01016",
+	"slug": "מטלעתא",
+	"headword": {
+		"text": "מִטְלַעְתָּא"
+	},
+	"page": {
+		"number": 768,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00519\"><he>טְלַע</he></cite>) <i>limping</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 103b:6\">Keth. 103ᵇ</cite> (to Levy who was lame) <he>צריכא לך ולמִטְלַעְתָּךְ</he> do we need thee and thy limping (lame remark)?"
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "O01288",
+	"slug": "סעורים",
+	"headword": {
+		"text": "סְעוֹרִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְעוֹרָם"
+		}
+	],
+	"page": {
+		"number": 1010,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>S’ʿorim, S’ʿoram</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 73b:8\">B. Mets. 73ᵇ</cite> <he>רב סעורם</he>; <cite ref=\"Moed Katan 28a:17\">M. Kat. 28ᵃ</cite> <he>רב שְׂעוֹרִים</he> (Ms. M. <cite ref=\"O01288\"><he>סְעוֹרִים</he></cite>)."
+			]
+		}
+	]
+}

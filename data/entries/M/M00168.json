@@ -1,0 +1,29 @@
+{
+	"id": "M00168",
+	"slug": "מגיסתא-2",
+	"headword": {
+		"text": "מְגִיסְתָּא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְגוּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 728,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גּוּס</he> I) <i>haughtiness, violence</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 114a:3\">B. Kam. 114ᵃ</cite> <he>בדינא דמ׳</he> (Ms. M. <he>דמגו׳</he>; Rashi in early prints <he>מגוש׳</he>; oth. vers. <he>מגוז׳</he>; Ms. F. <cite ref=\"M00137\"><he>מגורא</he></cite> read <he>מגוסא</he>, v. Rabb. D. S. a. l. note) in a court of violence, opp. <he>בי דוואר</he> regular Persian courts. V. <cite ref=\"M00157\"><he>מְגִיזְתָּא</he> II</cite>."
+			]
+		}
+	]
+}

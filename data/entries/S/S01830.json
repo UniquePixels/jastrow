@@ -1,0 +1,36 @@
+{
+	"id": "S01830",
+	"slug": "קצף-1",
+	"headword": {
+		"text": "קָצַף"
+	},
+	"page": {
+		"number": 1406,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be rough, excited</i>,] <i>to be angry</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 4:8\">Esth. R. to I, 18</cite>, v. <cite ref=\"S01834\"><he>קִצָּפוֹן</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 38:1\">Midr. Till. to Ps. XXXVIII</cite> <he>אנו … ואתה קוֹצֵף</he> we sin, and thou art angry. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 1053:29\">Yalk. Esth. 1053</cite> <he>קָצְפוּ ואמרו וכ׳</he> they grew excited and said &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְצִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to arouse to anger, excite, incite</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 13b:8\">Meg. 13ᵇ</cite> (ref. to <cite ref=\"Genesis 40:2\">Gen. XL, 2</cite> a. ",
+						"<cite ref=\"Esther 2:21\">Esth. II, 21</cite>) <he>ה׳ הקב״ה אדון על עבדיו וכ׳</he> the Lord incited a master against his servants, in order to satisfy the desire of a righteous man …, servants against their master, in order to perform wonders for a righteous man; <cite ref=\"Bereishit Rabbah 88:3\">Gen. R. s. 88</cite>; <cite ref=\"Esther Rabbah 6:13\">Esth. R. to II, 21</cite>; <cite ref=\"Yalkut Shimoni on Torah 146:6\">Yalk. Gen. 146</cite> <he>מַקְצִיף</he>; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "E00932",
+	"slug": "השפה",
+	"headword": {
+		"text": "הֲשָׁפָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00488\"><he>שוף</he></cite>) <i>smoothing, rubbing, finishing by rubbing</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 4:1\">Tosef. Kel. B. Mets. IV, 1</cite> ed. (ed. Zuck. <cite ref=\"E00322\"><he>הטפה</he></cite>, v. <cite ref=\"H00634\"><he>חֲטִיפָה</he></cite>)."
+			]
+		}
+	]
+}

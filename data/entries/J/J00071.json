@@ -1,0 +1,34 @@
+{
+	"id": "J00071",
+	"slug": "יבש-3",
+	"headword": {
+		"text": "יָבֵשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 562,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"J00070\">preced.</cite>) <i>to be dry, to wither</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 26b:18\">Bets. 26ᵇ</cite> <he>מוקצה שי׳</he> stored fruits (v. <cite ref=\"M00596\"><he>מוקצה</he></cite>) which were dry (on Friday), though the owner did not find it out until the Sabbath day; Y. ib. I, beg. 60ᵃ"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִיבֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to dry up</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> <he>עתיד … וליַיבֵּשׁ וכ׳</he> in the future a righteous man (Elijah) will come and lay the world dry (through want of rain)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

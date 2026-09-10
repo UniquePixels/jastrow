@@ -1,0 +1,29 @@
+{
+	"id": "M00454",
+	"slug": "מוח-2",
+	"headword": {
+		"text": "מוֹחַ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹחָא"
+		}
+	],
+	"page": {
+		"number": 740,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00453\">same</cite>, <i>brain</i>; also <i>head</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:35\">Targ. O. Deut. XXVIII, 35</cite> (h. text <he>קדקד</he>).—",
+				"<cite ref=\"Chullin 45a:14\">Ḥull. 45ᵃ</cite>, v. <cite ref=\"H00747\"><he>חַיְיתָא</he> IV</cite>. ",
+				"<cite ref=\"Megillah 19b:2\">Meg. 19ᵇ</cite> <he>ומחו לה אמ׳</he> and they struck it (R. Ḥia’s opinion) on the head, i.e. opposed it (Rashi: and he (R. Ḥ.) struck it, &c., i.e. modified it, read: <he>ומחי</he>). ",
+				"<cite ref=\"Bereishit Rabbah 68:4\">Gen. R. s. 68</cite> <he>מוֹחֵיה</he>, v. <cite ref=\"Q01440\"><he>פְּצַע</he></cite>; a. fr.—Pl. <he>מוֹחַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:22\">Targ. Y. Deut. XXVIII, 22</cite> (some ed. <he>מוֹחֲיָא</he>) <i>marrow</i> of bones."
+			]
+		}
+	]
+}

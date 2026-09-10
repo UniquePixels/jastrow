@@ -1,0 +1,30 @@
+{
+	"id": "N00095",
+	"slug": "נבלא-1",
+	"headword": {
+		"text": "נִבְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 870,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00090\"><he>נְבֵל</he></cite>) = h. <cite ref=\"N00298\"><he>נוֹבֶלֶת</he></cite>, <i>an inferior variety of figs</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 8:13\">Targ. Jer. VIII, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 34:4\">Targ. Is. XXXIV, 4</cite>.—Pl. <he>נִבְלֵי</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 49:9\">Gen. R. s. 49</cite> <he>הלואי צדיקים דהא אינם אלא צדיקים נ׳</he> I wished, they were righteous, but they are only righteous men of an inferior quality (cmp. <cite ref=\"Q00041\"><he>פּגָּה</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 83\">Yalk. ib. 83</cite> (some ed. <he>נִיכְלֵי</he>)."
+			]
+		}
+	]
+}

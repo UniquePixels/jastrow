@@ -1,0 +1,27 @@
+{
+	"id": "U02084",
+	"slug": "שתוקי",
+	"headword": {
+		"text": "שְׁתוּקִי"
+	},
+	"page": {
+		"number": 1637,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U02081\"><he>שָׁתוּק</he></cite>) one <i>belonging to the class of</i> <cite ref=\"U02081\"><he>שָׁתוּק</he></cite>, esp. <i>an illegitimate child of unknown fatherhood</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:1\">Kidd. IV, 1</cite>. ",
+				"<cite ref=\"Mishnah Kiddushin 4:2\">Ib. 2</cite> <he>ש׳ כל שהוא מכיר וכ׳</he> a <i>sh’thuḳi</i> is he who knows his mother, but does not know who his father is, contrad. to <cite ref=\"A02334\"><he>אסופי</he></cite>. ",
+				"<cite ref=\"Yevamot 100b:7\">Yeb. 100ᵇ</cite> <he>עשרה … הוולד ש׳</he> if ten priests stood together, and one (unknown which) separated and had intercourse, the child is a <i>sh’thuḳi</i> (admitted neither to inheritance nor to priesthood); <cite ref=\"Ketubot 13b:16\">Keth. 13ᵇ</cite>; a. e.—<i>Fem.</i> <cite ref=\"U02084\"><he>שְׁתוּקִית</he></cite>. ",
+				"<cite ref=\"Kiddushin 73a:11\">Kidd. 73ᵃ</cite> <he>אלא מעתה שתוקי ש׳ לא ישא</he> if this be so, let a <i>sh’thuḳi</i> not be permitted to marry a woman whose father is unknown. ",
+				"<cite ref=\"Kiddushin 73a:11\">Ib.</cite> <he>בת ש׳</he> the daughter of a <i>sh’thuḳith</i> (who married a <i>sh’thuḳi</i>, a <i>mamzer</i>, etc.). ",
+				"<cite ref=\"Esther Rabbah 6:5\">Esth. R. to II, 7</cite> (not <he>שתוקת</he>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A00595",
+	"slug": "אוותן",
+	"headword": {
+		"text": "אַוְותָּן",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיוְתָּן"
+		}
+	],
+	"page": {
+		"number": 23,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"A01655\"><he>אֵיתָן</he></cite>, r. <he>אית</he>) <i>full, proud, bright</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:26\">Targ. Job XXXI, 26</cite> Ms. (ed. <cite ref=\"G00320\"><he>זִיוְתָן</he></cite>).—Pl. <he>אִיוְתָּנַיָּא</he> <cite ref=\"Aramaic Targum to Job 9:13\">Ib. IX, 13</cite> (ed. Buxt. a. oth. <he>גֵּיוְתָנַיָּא</he>)"
+			]
+		}
+	]
+}

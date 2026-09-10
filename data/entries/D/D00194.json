@@ -1,0 +1,56 @@
+{
+	"id": "D00194",
+	"slug": "דוד-2",
+	"headword": {
+		"text": "דּוֹד"
+	},
+	"altHeadwords": [
+		{
+			"text": "דֹּד"
+		}
+	],
+	"page": {
+		"number": 283,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>friend, lover, beloved;</i> (allegor.) <i>the Lord</i>, as the beloved of Israel. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:4\">Cant. R. to I, 4</cite>, v. <cite ref=\"C01106\"><he>גִּנּוּן</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>uncle, father’s brother</i>. Sifra K’dosh. Par. 10, ch. XI; <cite ref=\"Yevamot 54b:22\">Yeb. 54ᵇ</cite>.—Fem. <cite ref=\"D00199\"><he>דּוֹדָה</he></cite>, <cite ref=\"D00126\"><he>דֹּדָה</he></cite> <i>aunt</i>. ",
+			"units": ["<cite ref=\"Yevamot 54b:22\">Ib.</cite>"],
+			"label": "2"
+		},
+		{
+			"gloss": "—Pl. <he>דּוֹדִים</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>friends, related</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Sanhedrin 11:4:2\">Y. Snh. XI, 30ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Berakhot 1:4:2\">Y. Ber. I, 3ᵇ</cite> bot. (ref. to <cite ref=\"Song of Songs 1:2\">Cant. I, 2</cite>) <he>ד׳ דברי וכ׳</he> the words of the scholars are related to the words of the Law; Cant. R. to l. c. ",
+						"<cite ref=\"Avodah Zarah 35a:6\">Ab. Zar. 35ᵃ</cite> <he>דברי דודים</he> Ms. M. (ed. <he>דודיך</he>) the words of the friends (the scholars); <cite ref=\"Bamidbar Rabbah 14:4\">Num. R. s. 14</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 37:1\">Gen. R. s. 37</cite> <he>בני דוֹדֵיהֶן וכ׳</he> cousins (related nation).—"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (abstr. noun) <i>friendship, love</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Avodah Zarah 2:5\">Ab. Zar. II, 5</cite> (<cite ref=\"Avodah Zarah 29b\">29ᵇ</cite>) do you read <he>כי טובים דּוֹדֶיךָ מיין … דּוֹדַיִיךְ מיין</he> Ms. M. (v. Rabb. D. S. a. l. a. Cant. R. l. c.) better is thy (God’s) love, or thy (Israel’s) love?"
+					],
+					"label": "2"
+				}
+			]
+		}
+	]
+}

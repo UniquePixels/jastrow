@@ -1,0 +1,35 @@
+{
+	"id": "C01394",
+	"slug": "גרר-3",
+	"headword": {
+		"text": "גָּרַר",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 272,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (fr. a Polel of <cite ref=\"C00474\"><he>גּוּר</he></cite>; cmp. <cite ref=\"C00959\"><he>גָּלַל</he></cite>) <i>to roll;</i> cmp. <cite ref=\"C01257\"><he>גַּרְגַּר</he></cite>.—Part. pass. <he>מְגוֹרָר</he> <i>whirled, reeling</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 64\">Gen. R. s. 64</cite> (play on <he>מגרר</he>, <cite ref=\"Genesis 26:26\">Gen. XXVI, 26</cite>) <he>מג׳ … שנכנסו וכ׳</he> reeling (after a night revel) &c.; v. <cite ref=\"C01392\"><he>גָּרַר</he> I</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְגָּרֵר"],
+			"senses": [
+				{
+					"gloss": ", <i>Hithpol</i>. <he>הִתְגּוֹרֵר</he> (v. ",
+					"units": [
+						"<cite ref=\"Jeremiah 30:23\">Jer. XXX, 23</cite>, cmp. XXIII, 19) <i>to roll one’s self</i>, esp. (cmp. <cite ref=\"H00043\"><he>חָבַט</he> II</cite>, <cite ref=\"H01311\"><he>חָנַן</he></cite>, <cite ref=\"N01054\"><he>נָפַל</he></cite> Hithpa.) <i>to lie in contrition, asking forgiveness</i>. Mekh. B’shall., Vayassa 1, [read as in] <cite ref=\"Yalkut Shimoni on Torah 256:1\">Yalk. Ex. 256</cite> (ref. to <he>וישלך אל המים</he>, <cite ref=\"Exodus 15:25\">Ex. XV, 25</cite>, as if meaning, ‘and he caused them to throw themselves down in contrition over their sin by the sea-side’). <he>היו ישראל מתחננים ומִתְגָּרְרִים … כבן שהוא מתחנן לפני אביו וכתלמיד שמִתְגּוֹרֵר לפני רבו כך היו ישראל מתחננין ומִתְגּוֹרְרִין וכ׳</he> the Israelites prayed beseechingly and rolled themselves in contrition before &c."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "V00672",
+	"slug": "תמיד",
+	"headword": {
+		"text": "תָּמִיד"
+	},
+	"page": {
+		"number": 1676,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; contr. of <he>תעמיד</he>; <cite ref=\"P00859\"><he>עָמַד</he></cite>)<i>constant, daily practice</i>; esp. (sub. <he>קרבן</he>) <i>the daily burnt-offering</i> (<cite ref=\"Numbers 28:3\">Num. XXVIII, 3</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 5:1\">Pes. V, 1</cite> <he>ת׳ נשחט וכ׳</he> the afternoon <i>tamid</i> is (ordinarily) slaughtered at eight and a half hours of the day. ",
+				"<cite ref=\"Mishnah Taanit 4:6\">Taan. IV, 6</cite> <he>בשבעה … ובטל הת׳</he> on the seventeenth of Tammuz … the daily offerings ceased (when Jerusalem was besieged); a. v. fr.—Pl. <he>תְּמִידִים</he>, <he>תְּמִידִין</he>. ",
+				"<cite ref=\"Berakhot 10b:25\">Ber. 10ᵇ</cite> (ref. to <cite ref=\"II Kings 4:9\">II Kings IV, 9</cite> <cite ref=\"V00672\"><he>תמיד</he></cite>) <he>המארח … הקריב ת׳</he> if one entertains a scholar in his house, the Scripture accounts it to him as if he offered daily sacrifices. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:2\">Y. Pes. VI, beg. 33ᵃ</cite> <he>מאן דאמר מאה ת׳ וכ׳</he> he who says, a hundred regular sacrifices supersede the Sabbath during one year, refers to the daily burnt-offerings; he who says two hundred, refers to the daily burnt-offerings and the Musaf sacrifices of the Sabbaths &c.; a. fr.—<i>Tamid</i>, name of a treatise, of the Order of Ḳodashim, of the Mishnah, Tosefta, and Talmud Babli."
+			]
+		}
+	]
+}

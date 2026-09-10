@@ -1,0 +1,56 @@
+{
+	"id": "Q01231",
+	"slug": "פסד-1",
+	"headword": {
+		"text": "פָּסַד"
+	},
+	"page": {
+		"number": 1192,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to cut, diminish</i>; <cite ref=\"Q01231\"><he>פָּסֵד</he></cite> (cmp. <he>פגם</he>, <he>פסל</he>) <i>to lose in value, deteriorate</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 5:1:2\">Y. Maasr. V, beg. 51ᶜ</cite> <he>שהן פְּסֵידִין</he> because they spoil; <he>חטין אינן פ׳</he> wheat does not spoil."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְסִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to suffer loss, to lose, be at a disadvantage</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 3:4\">B. Mets. III, 4</cite>, sq. <he>אם כן מה ה׳ הרמאי</he> if this is the law, what does the dishonest man lose (what risk does he run to prevent him from claiming more than his due)? <cite ref=\"Mishnah Berakhot 1:2\">Ber. I, 2</cite> <he>הקורא … לא ה׳</he> he who reads the Sh’mʿa after this, loses nothing; expl. ",
+						"<cite ref=\"Berakhot 10b\">ib. 10ᵇ</cite> <he>לא ה׳ ברכות</he> he does not lose the benedictions (he may recite the benedictions preceding and following the Sh’mʿa as usual). Y. ib. I, 2ᵇ top <he>אין תפלה מַפְסֶדֶת</he> a prayer never loses its value. ",
+						"<cite ref=\"Bereishit Rabbah 70:3\">Gen. R. s. 70</cite> <he>נדרו והִפְסִידוּ</he> vowed and suffered thereby. ",
+						"<cite ref=\"Mishnah Ketubot 13:3\">Keth. XIII, 3</cite> <he>אדמון אומר … הִפְסַרְתִּי</he> upon which Admon said, shall I be at a disadvantage, because I am a male heir?; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to injure, cause loss to</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Beitsah 2:6\">Tosef. Bets. II, 6</cite> <he>שמא יַפְסִידוּ את וכ׳</he> lest they do harm to the inhabitants; a. e.—[Y. Ber. IX, 14ᵇ bot. <he>והפסיד אלא</he>, read: <he>והפשיר עמו</he>, v. <cite ref=\"Q02098\"><he>פָּשַׁר</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִפְסַד"],
+			"senses": [
+				{
+					"gloss": "<i>to lose</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 50b:4\">Pes. 50ᵇ</cite> <he>יש זריז ונ׳</he>, v. <cite ref=\"G00703\"><he>זָרִיז</he></cite>; <cite ref=\"Tosefta Yevamot 4:8\">Tosef. Yeb. IV, 8</cite> <he>ומַפְסִיד</he> (<i>Hif.</i>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

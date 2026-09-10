@@ -1,0 +1,43 @@
+{
+	"id": "M00395",
+	"slug": "מוג-1",
+	"headword": {
+		"text": "מוּג"
+	},
+	"page": {
+		"number": 738,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = b. h. <cite ref=\"M00395\"><he>מוּג</he></cite>, <i>to melt</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָמֵיג"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to flow, to make sore</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 41\">Gen. R. s. 41</cite> (ref. to <he>מוגיך</he>, <cite ref=\"Isaiah 51:23\">Is. LI, 23</cite>) <he>אילן דמְמִיגִין מכתך</he> (Ar. <he>דמְמַגְיַין מחתך</he>, fr. <cite ref=\"M00150\"><he>מגי</he></cite>), v. <cite ref=\"L00362\"><he>לַחְלַח</he></cite>; <cite ref=\"Isaiah 51:23\">ib.</cite> s. 69; <cite ref=\"Yalkut Shimoni on Nach 337\">Yalk. Is. 337</cite> <he>אילין דמגיין ביך</he> (some ed. <he>מוניך … דמניין</he>, corr. acc.).—V. <cite ref=\"M00399\"><he>מוּגְלָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְמוֹגֵג"],
+			"senses": [
+				{
+					"gloss": " (v. Syr. <he>מגיא</he>, P. Sm. 2001) <i>to be languid, to act like a languid person</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 70b\">Ab. Zar. 70ᵇ</cite> <he>בעלמא הוא דקאִיתְמוֹגֵג</he> Ms. M. Var. (not <he>איתמוגגי</he>; strike out <he>בעלמא הוא דקמתמוגג</he> as a tautography) he may say, I was only a little lazy (and stretched myself so as to reach over to the neighbor’s roof; Rashi a. l. quotes a Var. <he>מתמוגג אני</he> h.)."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

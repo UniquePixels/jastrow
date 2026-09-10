@@ -1,0 +1,54 @@
+{
+	"id": "Q00074",
+	"slug": "פגם-2",
+	"headword": {
+		"text": "פָּגַם"
+	},
+	"page": {
+		"number": 1133,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q00068\"><he>פָּגַל</he></cite>) <i>to cut, mutilate; to damage, lessen</i>; trnsf. (cmp. <cite ref=\"Q01325\"><he>פָּסַל</he></cite>) <i>to disqualify, unfit</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 21:3\">Num. R. s. 21</cite> <he>כל הפּוֹגֵם את עצמו פיגם וכ׳</he> he who tarnishes his reputation discredits his family at the same time; Tanḥ. Pinḥ. 2; <cite ref=\"Yalkut Shimoni on Torah 772\">Yalk. Num. 772</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:10\">Y. Snh. II, 20ᵇ</cite> <he>פְּגָמָהּ הכתוב</he> the Bible text curtailed her name (<he>אביגל</he> for <he>אביגיל</he>, <cite ref=\"I Samuel 25:32\">I Sam. XXV, 32</cite>). ",
+				"<cite ref=\"Arakhin 16b\">Arakh. 16ᵇ</cite>, v. <cite ref=\"A01737\"><he>אַכְסְנַאי</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 6\">Gen. R. s. 6</cite> <he>חוזר ופוגם אותה</he> (not <he>אותם</he>) the text reduces her (the moon) again (calling her ‘the small light’). ",
+				"<cite ref=\"Pesachim 105b:6\">Pes. 105ᵇ</cite> <he>טעמו פְּגָמוֹ</he> as soon as he tasted it (the wine in the cup), he rendered it unfit (for a cup of benediction); a. fr.—Part. pass. <cite ref=\"Q00046\"><he>פָּגוּם</he></cite>; f. <he>פְּגוּמָה</he> &c. ",
+				"<cite ref=\"Sifrei Devarim 320\">Sifré Deut. 320</cite> <he>בזוי ופ׳</he> contemptible and detested (<cite ref=\"Yevamot 63b:9\">Yeb. 63ᵇ</cite> <he>משוקץ ומתועב</he>). ",
+				"<cite ref=\"Ketubot 40b:7\">Keth. 40ᵇ</cite> <cite ref=\"Q01377\"><he>בעל פ׳</he></cite> if he had connection with an impaired woman (opp. <cite ref=\"U01327\"><he>שלימה</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:10\">Y. Sabb. VI, 8ᵃ</cite> bot. <he>כדי שלא … פ׳</he> (not <cite ref=\"Q00060\"><he>פגימה</he></cite>) that it should not appear as if the right shoe were defective; a. e.—Esp. (law) <i>to impair the legal value of a document by admitting a receipt on account</i> (cmp. <cite ref=\"U00331\"><he>שׁוֹבֵר</he></cite>). ",
+				"<cite ref=\"Mishnah Ketubot 9:7\">Keth. IX, 7</cite> <he>הפּוֹגֶמֶת כתובתה</he> a woman that impairs her marriage contract. expl. ",
+				"<cite ref=\"Mishnah Ketubot 9:8\">ib. 8</cite>. ",
+				"<cite ref=\"Ketubot 87b:5\">Ib. 87ᵇ</cite> <he>פוגמת כתובתה בעדים</he> if she states that she has received partial payment in the presence of witnesses. ",
+				"<cite ref=\"Ketubot 87b:9\">Ib.</cite> <he>פוחתת … היינו פוגמת</he> if a woman lessens the amount in her marriage contract (declaring that it has been made out for a larger amount than had been agreed upon) …, is it the same as admitting partial payment or not? Y. ib. IX, 33ᵇ <he>יורש שפ׳ אביו שטר חובו</he> an heir whose father had admitted partial payment on a note of indebtedness in his possession; <cite ref=\"Tosefta Shevuot 6:5\">Tosef. Shebu. VI, 5</cite>. ",
+				"<cite ref=\"Gittin 18a:11\">Gitt. 18ᵃ</cite> <he>עד שתִּפְגּוֹם וכ׳</he>, v. <cite ref=\"G00649\"><he>זָקַף</he></cite>; Y. Shebi. IX, beg. 39ᵇ; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְגָּם"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְפַּגֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be mutilated, diminished, impaired; to become defective, cracked, get out of order; to be discredited</i>. ",
+					"units": [
+						"<cite ref=\"Arakhin 16b\">Arakh. 16ᵇ</cite>, v. <cite ref=\"A01737\"><he>אַכְסְנַאי</he></cite>. ",
+						"<cite ref=\"Mishnah Bekhorot 6:1\">Bekh. VI, 1</cite> <he>נִפְגְּמָה אזנו</he> if the ear of the first-born animal has become defective (lopped, bored through). ",
+						"<cite ref=\"Mishnah Bekhorot 6:4\">Ib. 4</cite> <he>שנִפְגְּמוּ</he>, v. <cite ref=\"C01054\"><he>גָּמַם</he></cite>. ",
+						"<cite ref=\"Arakhin 10b:38\">Arakh. 10ᵇ</cite> <he>והיה קולו ערב ונפ׳</he> and the sound of the flute was sweet, but it became impaired. ",
+						"<cite ref=\"Arakhin 10b:42\">Ib.</cite> <he>אלו שני כלים … ונִתְפַּגְּמוּ וכ׳</he> those were the two implements that had remained from the first Temple, but they became defective and could not be mended; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

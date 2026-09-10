@@ -1,0 +1,31 @@
+{
+	"id": "P00246",
+	"slug": "עולא-2",
+	"headword": {
+		"text": "עַוָּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַוָּו׳"
+		}
+	],
+	"page": {
+		"number": 1050,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00245\">preced.</cite>) <i>pervert; wrong-doer</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 29:27\">Targ. Prov. XXIX, 27</cite> (ed. Wil. <cite ref=\"P00228\"><he>עֲוָ׳</he></cite>; some ed. <he>עילה</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 18:21\">Targ. Job XVIII, 21</cite> (ed. Lag. <cite ref=\"P00231\"><he>עֲוִילָא</he></cite>).—Pl. <he>עַוָּלַיָּא</he>, <he>עַוָּלֵי</he>, <cite ref=\"P00569\"><he>עַיָּלָאֵי</he></cite>, <cite ref=\"P00246\"><he>עַוָּו׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Zephaniah 3:5\">Targ. Zeph. III, 5</cite> (not <cite ref=\"P00245\"><he>עַוְלַ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:8\">Targ. Prov. XXXI, 8</cite> (ed. Wil. <he>עַוְלֵי</he>; h. text <cite ref=\"H01001\"><he>חֲלוֹף</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 29:18\">Ib. XXIX, 18</cite> <he>בסוגא דעולאי</he> (h. text <he>באין חזון</he>!). [<cite ref=\"Aramaic Targum to Proverbs 14:22\">Ib. XIV, 22</cite> ed. Lag. (ed. Wil. <cite ref=\"E00533\"><he>הֲלָא</he></cite>; h. text <he>הֲלוֹא</he>.]"
+			]
+		}
+	]
+}

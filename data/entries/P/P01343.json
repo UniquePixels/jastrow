@@ -1,0 +1,46 @@
+{
+	"id": "P01343",
+	"slug": "ערי-3",
+	"headword": {
+		"text": "עֲרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲרָא"
+		}
+	],
+	"page": {
+		"number": 1117,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P01342\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַעֲרֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to pour out</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 11:3\">Targ. Koh. XI, 3</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְעֲרֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be intertwined, attach one’s self</i>. Pesik. Shek., p. 11ᵃ <he>והיא מִתְעַרְיָא</he> (Ms. O. <he>מתעדיא</he>) and it sticks (catches thee), v. <cite ref=\"O00861\"><he>סִירְתָּא</he></cite>. Y. Dem. I, 22ᵃ <he>אִתְעַרְיַית</he>, v. <cite ref=\"O00945\"><he>סִכְּתָא</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

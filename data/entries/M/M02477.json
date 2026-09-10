@@ -1,0 +1,34 @@
+{
+	"id": "M02477",
+	"slug": "מר-3",
+	"headword": {
+		"text": "מַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 834,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M02773\"><he>מָרַר</he></cite>)<i>bitter</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 39a:8\">Pes. 39ᵃ</cite> <he>כל ירק מר וכ׳</he> every bitter herb contains a gum (won by impissation). ",
+				"<cite ref=\"Vayikra Rabbah 31:11\">Lev. R. s. 31</cite> <he>מר מזה מתחת ידו וכ׳</he> rather something bitterer than this out of the hand of the Lord, than sweets out of thine; <cite ref=\"Yalkut Shimoni on Torah 59:1\">Yalk. Gen. 59</cite>; <cite ref=\"Bereishit Rabbah 33:7\">Gen. R. s. 33</cite> (corr. acc.); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:12\">Y. Snh. X, 27ᵈ</cite> <he>מר לי</he> woe is me. ",
+				"<cite ref=\"Ketubot 69b:3\">Keth. 69ᵇ</cite> (play on <he>וס̇ר מ̇ר̇ז̇ח סרוחים</he>, <cite ref=\"Amos 6:7\">Am. VI, 7</cite>) <he>מ̇ר̇ וז̇ח̇ נעשה שר לסרוחים</he> he who is bitter (of soul) and distracted (through bereavement) is made the chief of those banqueting (i.e. the mourner must sit at the head at the comforting meal); <cite ref=\"Moed Katan 28b:26\">M. Kat. 28ᵇ</cite> (not <cite ref=\"M02624\"><he>מרזח</he></cite>, Ms. M. <he>מרוזח</he>); Yalk. Am. 545."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>corrosive substance</i>; trnsf. <i>care, worry</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 30b:6\">Sabb. 30ᵇ</cite>; <cite ref=\"Pesachim 117a:15\">Pes. 117ᵃ</cite> (play on <cite ref=\"M00605\"><he>מוֹר</he></cite>, <cite ref=\"Song of Songs 5:13\">Cant. V, 13</cite>) a student before his teacher, <he>ואין שפתותיו נוטפות מר</he> whose lips to not drip from care; (Cant. R. l. c. <he>ששפתיו נוטפות מור</he>).—3) <i>mar</i>, name of a bitter herb, <i>ferula</i>. Pes. l. c. <he>מר ירואר</he>, expl. <he>מר זה הוא י׳</he> <i>mar</i> is <i>y’roar</i>, v. <cite ref=\"J00602\"><he>יְרוֹאָר</he></cite>; [for. Var. lect. v. Rabb. D. S. a. l. note].—<i>Fem.</i> <cite ref=\"M02652\"><he>מָרָה</he></cite>, q. v."
+			],
+			"label": "2"
+		}
+	]
+}

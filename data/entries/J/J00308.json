@@ -1,0 +1,36 @@
+{
+	"id": "J00308",
+	"slug": "יחף-4",
+	"headword": {
+		"text": "יְחֵף"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְחֵיף"
+		}
+	],
+	"page": {
+		"number": 575,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00307\">same</cite>, <i>to be rubbed, sore, worn out</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 8:4\">Targ. O. Deut. VIII, 4</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַחֵף"],
+			"senses": [
+				{
+					"gloss": ", part. pass. <he>מְיַחַף</he> <i>sore</i>. Targ. Y. ib.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

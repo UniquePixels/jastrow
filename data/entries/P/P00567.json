@@ -1,0 +1,36 @@
+{
+	"id": "P00567",
+	"slug": "עילא-1",
+	"headword": {
+		"text": "עִילָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1069,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. ch. (v. <cite ref=\"P00571\"><he>עִילָה</he></cite>) [<i>going around</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circumvention, intrigue, falsehood</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 4:22\">Targ. Ruth IV, 22</cite>; [<cite ref=\"Daniel 6:5\">Dan. VI, 5</cite>, sq. <cite ref=\"P00771\"><he>עִלָּה</he></cite>]. ",
+				"<cite ref=\"Aramaic Targum to Psalms 41:7\">Targ. Ps. XLI, 7</cite> ed. Lag. (oth. ed. <cite ref=\"P00245\"><he>עַוְלָא</he></cite>; h. text <cite ref=\"A00716\"><he>אָוֶן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 58:3\">Ib. LVIII, 3</cite> (some ed. <cite ref=\"P00569\"><he>עילאה</he></cite>, corr. acc.; h. text <he>עוֹלֹת</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 71:4\">Ib. LXXI, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 13:7\">Targ. Job XIII, 7</cite> Ms. (ed. <cite ref=\"U01894\"><he>שקר</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pretext</i> <cite ref=\"Jerusalem Talmud Ketubot 12:3:10\">Y. Keth. XII, 35ᵃ</cite> bot. <he>ע׳ את בעי</he> you want a pretext; <cite ref=\"Jerusalem Talmud Kilayim 9:3:15\">Y. Kil. IX, 32ᶜ</cite> top <cite ref=\"P00587\"><he>עִילְתָה</he></cite> (<i>fem.</i>).—Pl. <cite ref=\"P00579\"><he>עִילִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 64:7\">Targ. Ps. LXIV, 7</cite> (h. text <he>עוֹלֹת</he>).—[<cite ref=\"P00571\"><he>עִילָא</he></cite> f. h., v. <cite ref=\"P00571\"><he>עִילָה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "V00198",
+	"slug": "תוכא",
+	"headword": {
+		"text": "תּוּכָּא"
+	},
+	"page": {
+		"number": 1652,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00535\"><he>תְּכַךְ</he></cite>) <i>pressure, grief</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:19\">Targ. Prov. XIX, 19</cite> ed. Lag. (ed. Wil. <cite ref=\"V00522\"><he>תַּכָּא</he></cite>; oth. ed. <cite ref=\"V00442\"><he>תִּיכָּא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:11\">Ib. XXI, 11</cite> (ed. Wil. <he>תֻּכּ׳</he>)."
+			]
+		}
+	]
+}

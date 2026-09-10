@@ -1,0 +1,22 @@
+{
+	"id": "S02106",
+	"slug": "קרנונא",
+	"headword": {
+		"text": "קַרְנוּנָא"
+	},
+	"page": {
+		"number": 1423,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a fictitious denomin. of <cite ref=\"S02103\"><he>קרנא</he></cite>) [<i>horned, stupid</i>,] <i>Ḳarnuna</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 25a:3\">Kidd. 25ᵃ</cite> <he>לאו המנונא אלא ק׳</he> thy name ought not to be Hamnuna, but Ḳarnuna; [oth. interpret. = <he>יושב קרנות</he> sitting at the corners, <i>idler</i>; oth. = <he>קר נונא</he> <i>cold fish</i>, opp. to <he>הם נונא</he> (= <cite ref=\"H01133\"><he>חם</he></cite>) hot fish]."
+			]
+		}
+	]
+}

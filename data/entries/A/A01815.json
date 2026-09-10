@@ -1,0 +1,31 @@
+{
+	"id": "A01815",
+	"slug": "אלומה",
+	"headword": {
+		"text": "אֲלוּמָּה"
+	},
+	"page": {
+		"number": 67,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"A01910\"><he>אֲלֻמָּה</he></cite>; <he>אלם</he>)<i>binding, making sheaves</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 6:9\">Peah VI, 9</cite> (<cite ref=\"Mishnah Peah 6:10\">10</cite>) <he>נתנה … לא׳</he> grain stalks intended for binding sheaves <i>thereof</i> (but not for binding the latter into bundles of sheaves <cite ref=\"P00930\"><he>עֹמֶר</he></cite>, Maim.)—[For binding sheaves <i>therewith</i> R. S.]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sheaf</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 31\">Ex. R. s. 31</cite>.—Pl. <he>אֲלוּמּוֹת</he>. ",
+				"<cite ref=\"Bava Metzia 22b\">B. Mets. 22ᵇ</cite> sq. <i>large sheaves</i>, opp. <he>כריכות</he>."
+			],
+			"label": "2"
+		}
+	]
+}

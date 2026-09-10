@@ -1,0 +1,40 @@
+{
+	"id": "H00900",
+	"slug": "חיתוך",
+	"headword": {
+		"text": "חִיתּוּךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִתּ׳"
+		}
+	],
+	"page": {
+		"number": 460,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01896\"><he>חָתַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cut, incision, articulation</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 25a\">Nidd. 25ᵃ</cite> <he>ח׳ ידים וכ׳</he> indications (in the embryo) of hands and feet. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:50\">Y. Sabb. VII, 10ᶜ</cite> bot."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " *(cmp. <cite ref=\"C00553\"><he>גְּזֵירָה</he></cite>) <i>sentence</i>, (<i>condemning</i>) <i>verdict</i>.—Pl. <he>חִיתּוּכִין</he>, <cite ref=\"H00900\"><he>חִתּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 1</cite> (expl. <cite ref=\"V00135\"><he>תָּו</he></cite>, <cite ref=\"Ezekiel 9:4\">Ezek. IX, 4</cite>) <he>ח׳ ופספס</he> sentences and verdicts (Mus. s. v. <cite ref=\"Q01308\"><he>פסיפון</he></cite>: <he>כתיטא בפ׳</he> like the letter Θ, for θάνατος, at voting; <cite ref=\"Yalkut Shimoni on Nach 349\">Yalk. Ez. 349</cite> only <he>פס׳</he>; Ar. s. v. <cite ref=\"Q01345\"><he>פספס</he></cite>: <he>חתיכה פספסן</he>, ed. pr. <he>התֵּיבָה</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

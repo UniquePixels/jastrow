@@ -1,0 +1,53 @@
+{
+	"id": "S00095",
+	"slug": "קבר-1",
+	"headword": {
+		"text": "קָבַר"
+	},
+	"page": {
+		"number": 1312,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to cave out; to arch</i>,] <i>to bury</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 52a:26\">Snh. 52ᵃ</cite> <he>הנראה מי קוֹבֵר את מי</he> (Ms. M. <he>הא נראה</he>) we shall see, which will cover which (which will die first). ",
+				"<cite ref=\"Sotah 14a:4\">Sot. 14ᵃ</cite> <he>הקב״ה ק׳ … קְבוֹר מתים</he> the Lord buried the dead, … thou, too, bury the dead (consider attending to the dead a religious duty). ",
+				"<cite ref=\"Niddah 24b:56\">Nidd. 24ᵇ</cite> <he>קובר מתים הייתי</he> I used to be a grave-digger. ",
+				"<cite ref=\"Bava Batra 15b:3-12\">B. Bath. 15ᵇ</cite> <he>לא … לִקְבּוֹר וכ׳</he> he had no place where to bury Sarah; <cite ref=\"Shemot Rabbah 6\">Ex. R. s. 6</cite>. ",
+				"<cite ref=\"Tractate Semachot 12:9\">Treat. S’maḥ. ch. XII</cite> <he>קָבְרֵנִי תחלה וכ׳</he> first bury me in the valley, and then collect my bones. ",
+				"<cite ref=\"Tractate Semachot 12:11\">Ib.</cite> <he>קִבְרוּ אותי תחת וכ׳</he> bury me at the feet of my father. ",
+				"<cite ref=\"Shabbat 114a:9\">Sabb. 114ᵃ</cite> <he>אל תִּקְבְּרוּנִי לא וכ׳</he> bury me neither in white clothes nor in black &c.; a. fr.—Part. pass. <he>קָבוּר</he>; f. <cite ref=\"S00042\"><he>קְבוּרָה</he></cite>. ",
+				"<cite ref=\"Ketubot 111a:15\">Keth. 111ᵃ</cite> <he>כל הק׳ בא״י כאילו ק׳ וכ׳</he> he that is buried in Palestine is as though buried under the altar. ",
+				"<cite ref=\"Berakhot 18b:7\">Ber. 18ᵇ</cite> <he>שאני ק׳ במחצלת וכ׳</he> for I am buried in a reed mat. ",
+				"<cite ref=\"Gittin 56b:12\">Gitt. 56ᵇ</cite> (ref. to <cite ref=\"Ecclesiastes 8:10\">Koh. VIII, 10</cite>) <he>קְבוּרִים ממש וכ׳</he> it really means buried things, for even hidden things were discovered by them, v. <cite ref=\"S00092\"><he>קָבַץ</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִקְכַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be buried</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 47a:7\">Snh. 47ᵃ</cite> <he>לא נספד ולא נ׳</he> if a body has been neither lamented over (v. <cite ref=\"O01315\"><he>סָפַד</he></cite>) nor buried. ",
+						"<cite ref=\"Sanhedrin 47b:11\">Ib.ᵇ</cite> <he>לא יִקָּבֵר בו וכ׳</he> he must never be buried in that place; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["קִיבֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to bury</i> (<i>one after the other</i>). Ib. 113ᵃ <he>היה מְקַבֵּר והולך וכ׳</he> he successively buried (his children) beginning with Abiham &c.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "A02674",
+	"slug": "אפיטרופא",
+	"headword": {
+		"text": "אֶפִּיטְרוֹפָּא"
+	},
+	"page": {
+		"number": 102,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(ch.  form = <cite ref=\"A02675\">next w.</cite>) m. (ch. form = <cite ref=\"A02675\">next w.</cite>) <i>guardian, administrator; procurator</i> (of a Roman district). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 39a:9\">B. Mets. 39ᵃ</cite> <he>א׳ לדיקנני וכ׳</he> we appoint no guardian for the bearded (adults). Y. ib. III, beg. 9ᵃ <he>לעשות בה א׳</he> to appoint another person as an administrator of the hired or loaned object. ",
+				"<cite ref=\"Eichah Rabbah 5:12\">Lam. R. to V, 12</cite> <he>א׳ עליל לקרתא</he> a governor (proconsul) entered a town.—Pl. <cite ref=\"A02676\"><he>אֶפִּיטְרוֹפַּיָּא</he></cite>. Pesik. Asser p. 95ᵇ <he>אילין א׳ וכ׳</he> those Roman proconsuls that go out visiting the country places (cmp. ",
+				"<cite ref=\"Shemot Rabbah 31\">Ex. R. s. 31</cite>, end)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " fem. <i>administratrix;</i> v. <cite ref=\"A02676\"><he>אֶפִּיטְרוֹפְיָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

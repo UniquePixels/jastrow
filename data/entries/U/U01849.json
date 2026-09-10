@@ -1,0 +1,40 @@
+{
+	"id": "U01849",
+	"slug": "שקי-1",
+	"headword": {
+		"text": "שקי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁקָה"
+		}
+	],
+	"page": {
+		"number": 1622,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [(cmp. <he>שקע</he>) <i>to settle</i>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁקָה"],
+			"senses": [
+				{
+					"gloss": " <i>cmp. <cite ref=\"U02078\"><he>שָׁתָה</he></cite></i>) <i>to give drink; to water</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Moed Katan 1:1\">M. Kat. I, 1</cite> <he>מַשְׁקִין בית וכ׳</he> you may water a field that depends on irrigation during the festive week &c. ",
+						"<cite ref=\"Ketubot 111b:19\">Keth. 111ᵇ</cite> <he>ממַשְׁקֵהוּ חלב</he>, v. <cite ref=\"U01556\"><he>שֵׁן</he></cite>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:12\">Cant. R. to I, 12</cite>; <cite ref=\"Bamidbar Rabbah 11\">Num. R. s. 11<sup>3</sup></cite> <he>ומשה מַשְׁקֶה</he> and Moses gave drink (to those who were being circumcised). ",
+						"<cite ref=\"Mishnah Eduyot 5:6\">Eduy. V, 6</cite> <he>אין משקין וכ׳</he> we do not give the testing waters to a proselyte (v. <cite ref=\"O00286\"><he>סוֹטָה</he></cite>). ",
+						"<cite ref=\"Mishnah Eduyot 5:6\">Ib.</cite> <he>דוגמא הִשְׁקוּהָ</he>, v. <cite ref=\"D00190\"><he>דּוּגְמָא</he></cite>; <cite ref=\"Berakhot 19a\">Ber. 19ᵃ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

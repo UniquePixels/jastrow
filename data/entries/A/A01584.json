@@ -1,0 +1,23 @@
+{
+	"id": "A01584",
+	"slug": "איקא",
+	"headword": {
+		"text": "אִיקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 59,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אוק</he> = <he>עוק</he>; cmp. Lat. ambire, b. h. <he>סבב</he>) <i>stallion-goat, buck</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 152a\">Sabb. 152ᵃ</cite> <he>א׳ שליפא וכ׳</he> Ar. (ed. <cite ref=\"P00667\"><he>עיקרא</he></cite>, <cite ref=\"P01187\"><he>עקירא</he></cite>, Ms. Oxf. <he>עיקר</he>, Ag. Hatt. <cite ref=\"P01214\"><he>עקר</he></cite>, v. Rabb. D. S. a. l. note 40) a goat, if castrated, sells for eight &c. [V. Sachs Beitr. II, 131 sq.]"
+			]
+		}
+	]
+}

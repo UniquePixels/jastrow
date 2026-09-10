@@ -1,0 +1,22 @@
+{
+	"id": "C01088",
+	"slug": "גנבתא",
+	"headword": {
+		"text": "גַּנַּבְתָּא"
+	},
+	"page": {
+		"number": 257,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גנב</he>) <i>thief</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 92:8\">Gen. R. s. 92</cite> <he>גנבא בר ג׳</he> thief (Benjamin), son of a thief (Rachel); Tanḥ. Mikk. 10 (ref. to <cite ref=\"Genesis 31:19\">Gen. XXXI, 19</cite>)."
+			]
+		}
+	]
+}

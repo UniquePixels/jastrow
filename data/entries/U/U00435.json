@@ -1,0 +1,44 @@
+{
+	"id": "U00435",
+	"slug": "שום-3",
+	"headword": {
+		"text": "שׁוּם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1535,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"U00434\">preced.</cite>) [<i>to arrange;</i> cmp. <cite ref=\"P01375\"><he>עָרַךְ</he></cite>, <cite ref=\"O00199\"><he>סָדַר</he></cite>,] <i>to value, estimate; to mark, name</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 5:1\">Gitt. V, 1</cite>; <cite ref=\"Tosefta Ketubot 12:2\">Tosef. Keth. XII, 2</cite> <he>שָׁמִין להן</he>, v. <cite ref=\"P00512\"><he>עִידִּית</he></cite>. ",
+				"<cite ref=\"Ketubot 67a\">Keth. 67ᵃ</cite>, v. <cite ref=\"U00393\"><he>שְׁוִי</he></cite>. ",
+				"<cite ref=\"Makkot 3a:10\">Macc. 3ᵃ</cite> <he>כיצד שמין</he> how do we assess (the fine)? <cite ref=\"Jerusalem Talmud Kiddushin 1:6:3\">Y. Kidd. I, 60ᵈ</cite> bot. (expl. <he>נעשח דמים באחר</he>, Mish. ",
+				"<cite ref=\"Mishnah Kiddushin 1:6\">Kidd. I, 6</cite>) <he>דבר שהוא צריך לָשׁוּם</he> that which has to be prized (which is not itself a standard value). ",
+				"<cite ref=\"Mishnah Bava Metzia 9:3\">B. Mets. IX, 3</cite> <he>המקבל … שמין אותה וכ׳</he> if one rents a field on shares and lets it lie waste, we estimate how much it ought to yield &c. ",
+				"<cite ref=\"Tosefta Bava Metzia 9:9\">Tosef. ib. IX, 9</cite> <cite ref=\"U01491\"><he>השָׁם</he></cite>, v. <cite ref=\"U00437\"><he>שׁוּם</he> II</cite>; a. v. fr.—",
+				"<cite ref=\"Moed Katan 5a:23\">M. Kat. 5ᵃ</cite> (ref. to <he>וְשָׂם</he>, <cite ref=\"Psalms 50:23\">Ps. L, 23</cite>) <he>כל השָׁם אורחותיו וכ׳</he> he who calculates his ways (weighs the consequences of his doings) will be allowed to see the salvation of the Lord (in the hereafter); <he>אל תקרי וְשָׂם אלא וְשָׁם וכ׳</he> read not <i>v’sam</i> but <i>v’sham</i> &c.; <cite ref=\"Sotah 5b\">Sot. 5ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 763\">Yalk. Ps. 763</cite>; (<cite ref=\"Vayikra Rabbah 9\">Lev. R. s. 9</cite> <he>דשָׁיֵים אורחיה</he>).—Part. pass. <cite ref=\"U00436\"><he>שׁוּם</he></cite>; f. <cite ref=\"U00444\"><he>שׁוּמָה</he></cite>; pl. <he>שׁוּמִים</he>; <he>שׁוּמוֹת</he>. ",
+				"<cite ref=\"Tosefta Bava Kamma 10:1\">Tosef. B. Kam. X, 1</cite> <he>רואין אוֹתן כאילו הן ש׳ אצל אחרים</he> we consider them (the forcibly taken animals) as if they had been valued (sold for their value) with others, i.e. the robber pays the value of the animals as it was at the time of the robbery; <cite ref=\"Bava Kamma 95a:3\">B. Kam. 95ᵃ</cite> <he>כאילו היא שומה אצלו בכסף</he> as if the animal had been sold at its value to him (the robber), for cash; <cite ref=\"Bava Kamma 95b\">ib.ᵇ</cite> <cite ref=\"U00440\"><he>שומא</he></cite> (Chald. form); <cite ref=\"Bava Kamma 95b:5-11\">ib.</cite> <he>רואין … ש׳ אצלו למחצה וכ׳</he> we consider it, as if it had been valued &c., for the purpose of establishing the additional amount which he has to pay for the increase in value, which is either one half, or one third, or one fourth (according to local usage). ",
+				"<cite ref=\"Arakhin 21b:39\">Arakh. 21ᵇ</cite> <he>וכך היא שומה וכ׳</he> Rashi (ed. <cite ref=\"U00440\"><he>שומא</he></cite>) and so much has it been appraised; whosoever wishes to buy &c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִישּׁוֹם"],
+			"senses": [
+				{
+					"gloss": "<i>to be valued, assessed</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 28a\">Kidd. 28ᵃ</cite>, v. <cite ref=\"D00897\"><he>דָּמִים</he></cite>. ",
+						"<cite ref=\"Ketubot 66b:8\">Keth. 66ᵇ</cite> <he>במנה הנִישּׁוֹם … המתקבל</he> when saying ‘for each Maneh’ (Mish. ",
+						"<cite ref=\"Mishnah Ketubot 6:4\">ib. VI, 4</cite>), does that mean for each Maneh as it is valued (by the woman’s relatives), or for each Maneh with which he charges himself (one fifth less)?, v. <cite ref=\"U00437\"><he>שׁוּם</he> II</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

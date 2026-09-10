@@ -1,0 +1,23 @@
+{
+	"id": "O00262",
+	"slug": "סודני-1",
+	"headword": {
+		"text": "סוֹדָנִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 961,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00261\">preced.</cite>) <i>brewer</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 44b:23\">Ber. 44ᵇ</cite>; <cite ref=\"Menachot 71a:6\">Men. 71ᵃ</cite>; <cite ref=\"Niddah 12b:2\">Nidd. 12ᵇ</cite> top (applied to R. Papa, the brewer). [Other opinion: <he>ס׳</he> (denom. of <cite ref=\"O00257\"><he>סוֹד</he></cite>) <i>wise man</i>]"
+			]
+		}
+	]
+}

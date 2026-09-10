@@ -1,0 +1,35 @@
+{
+	"id": "U01498",
+	"slug": "שמן-3",
+	"headword": {
+		"text": "שָׁמֵן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמֵנָה"
+		},
+		{
+			"text": "שְׁמֵי׳"
+		}
+	],
+	"page": {
+		"number": 1597,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01497\">preced.</cite>) <i>fat, rich</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 61a:12\">Keth. 61ᵃ</cite> <he>בשר ש׳</he> fat meat. ",
+				"<cite ref=\"Pesachim 42a:21\">Pes. 42ᵃ</cite>. ",
+				"<cite ref=\"Chullin 45b:20\">Ḥull. 45ᵇ</cite> <he>גדי שמן</he> Rashi (ed. <he>גדי שמינה</he>, v. Rabb. D. S. a. l. note 8) a fat kid. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 9:1:4\">Y. B. Kam. IX, beg. 6ᵈ</cite> <he>גזל ש׳ והכחישה וכ׳</he> if he took by force a fat animal, and it became lean &c., v. <cite ref=\"U00448\"><he>שׁוּמָן</he></cite>; a. fr.—Pl. <cite ref=\"U01508\"><he>שְׁמֵנִים</he></cite>, <cite ref=\"U01498\"><he>שְׁמֵי׳</he></cite>; <he>שְׁמֵנוֹת</he>, <cite ref=\"U01498\"><he>שְׁמֵי׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 66:3\">Gen. R. s. 66</cite> <he>דגים ש׳ יתיר מדאי</he> exceedingly fat fish. ",
+				"<cite ref=\"Bamidbar Rabbah 16:12\">Num. R. s. 16<sup>12</sup></cite> <he>אם … אם ש׳</he> whether its fruits are light or rich; <cite ref=\"Bamidbar Rabbah 16:12\">ib.</cite> <he>אם של צונמא … ש׳</he>, v. <cite ref=\"R00210\"><he>צוֹנָם</he></cite>; Tanḥ. Sh’laḥ 6; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "G00362",
+	"slug": "זימה-2",
+	"headword": {
+		"text": "זִימָּה",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זִמָּה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 394,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"G00526\"><he>זָמַם</he> I)</cite><i>thought, plan, counsel;</i> (in an evil sense) <i>cunning, evil plan</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 17b:3\">Ab. Zar. 17ᵇ</cite> (ref. to <he>מזמה</he>, <cite ref=\"Proverbs 2:11\">Prov. II, 11</cite>, and reading <he>מִזִּ׳</he>) <he>מאי מזי׳ וכ׳</he> what do you understand by <i>mizzimmah?</i> Do you mean the Law in which the word <i>zimmah</i> is used in the sense of <i>counsel</i> (in <cite ref=\"Leviticus 18:17\">Lev. XVIII, 17</cite>) since it is translated (in Targ. O.) ‘counsel of the wicked’ &c.?—Then it ought to read <i>zimmah</i> (divine counsel shall guard thee).—(Ans.) <he>ה״ק מדבר ז׳ וכ׳</he>, v. <cite ref=\"G00361\">preced.</cite> (v. Rabb. D. S. a. l. note 2).—",
+				"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite> (ref. to <cite ref=\"Ezekiel 22:11\">Ez. XXII, 11</cite>) <he>מאי בזי׳ במחשבה</he> what does this <i>b’zimmah</i> mean? With reasoning."
+			]
+		}
+	]
+}

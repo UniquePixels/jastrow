@@ -1,0 +1,31 @@
+{
+	"id": "T00942",
+	"slug": "רפט-2",
+	"headword": {
+		"text": "רְפַט"
+	},
+	"page": {
+		"number": 1489,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00941\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִירְפַּט"],
+			"senses": [
+				{
+					"gloss": "<i>to fall apart</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 26b\">Meg. 26ᵇ</cite> <he>האי תיבותא</he> (<cite ref=\"T00152\"><he>רבתי</he></cite>) <he>דאירפט וכ׳</he> (read: <he>דאִירְפְּטָא</he>; Ms. M. 2 <he>דאיפרט</he>, v. Rabb. D. S. a. l. note 3) a large chest (for sacred scrolls) which has fallen apart, may be made over into a small one."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

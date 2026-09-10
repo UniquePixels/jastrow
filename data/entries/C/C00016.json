@@ -1,0 +1,47 @@
+{
+	"id": "C00016",
+	"slug": "גאי-2",
+	"headword": {
+		"text": "גְּאִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּאָא"
+		}
+	],
+	"page": {
+		"number": 202,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00015\">same</cite>; <i>to rise, grow</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 2:5\">Targ. I Sam. II, 5</cite> <he>גָּאָן</he> (some ed. <he>גָּעָן</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְגָּאִי", "אִיתְגָּאֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to grow high</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 8:11\">Targ. Job VIII, 11</cite> (h. text <he>יִגְאֶה</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be exalted; to be proud</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 15:1\">Targ. Ex. XV, 1</cite>; <cite ref=\"Onkelos Exodus 15:21\">21</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Genesis 34:31\">Targ. Y. II, Gen. XXXIV, 31</cite> (<cite ref=\"Targum Jerusalem, Genesis 1\">I</cite> <he>מְלַגְלֵג</he>); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

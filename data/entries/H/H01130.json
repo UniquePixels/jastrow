@@ -1,0 +1,23 @@
+{
+	"id": "H01130",
+	"slug": "חלתא-1",
+	"headword": {
+		"text": "חַלְּתָא"
+	},
+	"page": {
+		"number": 474,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"H00988\"><he>חַלָּה</he></cite> ; esp. <i>the priest’s portion</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 15:20\">Targ. Num. XV, 20</cite>.—",
+				"<cite ref=\"Eruvin 83a:10\">Erub. 83ᵃ</cite> <he>אייתי ח׳ שדי עליהו</he> he brought the priest’s portion in addition to it."
+			]
+		}
+	]
+}

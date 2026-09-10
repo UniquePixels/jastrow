@@ -1,0 +1,22 @@
+{
+	"id": "A03421",
+	"slug": "אתכפיאיתא",
+	"headword": {
+		"text": "אִתְכַּפְיָאִיתָא"
+	},
+	"page": {
+		"number": 133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01007\"><he>כפי</he></cite>) <i>bending</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Mishlei 22:3\">Midr. Prov. to XXII, 6</cite> <he>אית לה א׳</he> can be bent."
+			]
+		}
+	]
+}

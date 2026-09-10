@@ -1,0 +1,32 @@
+{
+	"id": "D01074",
+	"slug": "דרוקרת",
+	"headword": {
+		"text": "דְּרוּקֶרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּרְקֶרֶת"
+		},
+		{
+			"text": "דַּדְקֶ׳"
+		}
+	],
+	"page": {
+		"number": 322,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Drukereth</i> (<i>Darkereth, Dadk</i>.) a Babylonian town (cmp. <cite ref=\"D01065\"><he>דָּרוּמָתָא</he></cite>, v. Berl. Beitr. Geogr., p. 31). ",
+			"units": [
+				"<cite ref=\"Taanit 21b:2\">Taan. 21ᵇ</cite> (Ms. M. <he>דיו׳</he>). ",
+				"<cite ref=\"Niddah 58b:65\">Nidd. 58ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 94b\">Sabb. 94ᵇ</cite> <cite ref=\"D01073\"><he>דרוקרא</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

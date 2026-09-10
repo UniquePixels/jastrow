@@ -1,0 +1,65 @@
+{
+	"id": "J00694",
+	"slug": "ישמעאל",
+	"headword": {
+		"text": "יִשְׁמָעֵאל"
+	},
+	"page": {
+		"number": 600,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Ishmael</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Abraham; also (as patron.) <i>the people of I</i>. <i>, Arabs, Bedouins</i>. [<cite ref=\"Aramaic Targum to Job 15:20\">Targ. Job XV, 20</cite>, Var. in ed. Lag.]—",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 45:8\">Gen. R. s. 45</cite> <he>אף י׳ באומות</he> I., too, among the nations (was named before he was born, <cite ref=\"Genesis 16:11\">Gen. XVI, 11</cite>). ",
+				"<cite ref=\"Bava Batra 16b:16\">B. Bath. 16ᵇ</cite>; <cite ref=\"Bereishit Rabbah 59:7\">Gen. R. s. 59</cite> <he>שעשה י׳ תשובה וכ׳</he> in as much as I. repented of his evil deeds in his (Abraham’s) life-time; a. fr.—",
+				"<cite ref=\"Shabbat 11a:3\">Sabb. 11ᵃ</cite> <he>תחת י׳ ולא וכ׳</he> (v. Rabb. D. S. a. l. note 80 a. Rashi a. l.) rather under I. (Arabic dominion) than under Byzantium; a. fr. [<cite ref=\"Pesachim 118b:19\">Pes. 118ᵇ</cite> <he>מלכות י׳</he> (Ms. M. a. older eds. <he>הרשעה</he>) a censorial change for <cite ref=\"T00390\"><he>רומי</he></cite>, Roman government.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " I. ben Nathaniah, the murderer of governor Gedaliah. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 18b:5\">R. Hash. 18ᵇ</cite>. ",
+				"<cite ref=\"Niddah 61a:48\">Nidd. 61ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " I. b. Kimḥith, a high priest. ",
+			"units": [
+				"<cite ref=\"Yoma 47a:12\">Yoma 47ᵃ</cite>; <cite ref=\"Tosefta Yoma 4:9\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Yoma 3:20\">III</cite>), 20, v. <cite ref=\"J00678\"><he>יְשֵׁבָב</he></cite>"
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " I. b. Piabi or Pâbi, a priest. Tosef. ib. I, 21; Y. ib. III, 40ᵈ top; Bab. ib. 35ᵇ. ",
+			"units": ["<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite>; a. e."],
+			"label": "4"
+		},
+		{
+			"gloss": " name of several Tannaim, esp. a) I. b. Elisha, redeemed from Roman captivity. ",
+			"units": [
+				"<cite ref=\"Gittin 58a:11\">Gitt. 58ᵃ</cite>. [<cite ref=\"Berakhot 7a:4\">Ber. 7ᵃ</cite> top, prob. his grandfather, a high priest.]—",
+				"<cite ref=\"Mishnah Shevuot 2:5\">Shebu. II, 5</cite>; a. fr.—V. Fr. Darkhé, p. 105 sq."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": " I. son of R. Johanan b. B’roka. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 10:2\">B. Kam. X, 2</cite>. ",
+				"<cite ref=\"Tosefta Eduyot 2:4\">Tosef. Eduy. II, 4</cite>; a. fr.—V. Fr. ",
+				"<cite ref=\"Tosefta Eduyot 2:4\">ib.</cite>, p. 185 sq.—7) name of several Amoraim. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 1:2:3\">Y. Gitt. I, 43ᶜ</cite> top; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:6:10\">Y. Yoma III, 40ᵈ</cite> bot.—V. Fr. M’bo, p. 108ᵇ, sq."
+			],
+			"label": "6"
+		}
+	]
+}

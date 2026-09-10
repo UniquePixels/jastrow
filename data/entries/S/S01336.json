@@ -1,0 +1,55 @@
+{
+	"id": "S01336",
+	"slug": "קליל-3",
+	"headword": {
+		"text": "קַלִּיל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַלִּילָא"
+		},
+		{
+			"text": "קְלִ׳"
+		}
+	],
+	"page": {
+		"number": 1376,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. = h. <cite ref=\"S01229\"><he>קַל</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>light of weight; quick</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 2:18\">Targ. II Sam. II, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 19:2\">Targ. Prov. XIX, 2</cite> (ed. Wil. <cite ref=\"S01335\"><he>קָלֵיל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:23\">Targ. Jer. II, 23</cite>; a. fr.—",
+				"<cite ref=\"Gittin 56a:16\">Gitt. 56ᵃ</cite> <he>חייא ק׳ ממיתא</he> a live body is lighter than a dead one. ",
+				"<cite ref=\"Chullin 16b:8\">Ḥull. 16ᵇ</cite> <he>בעופא דק׳</he> in the case of a bird, which is of light weight. ",
+				"<cite ref=\"Sanhedrin 46b:6\">Snh. 46ᵇ</cite> <he>כמאן דאמר ק׳ לי עלמא</he> Ms. M. (ed. <cite ref=\"S00950\"><he>קִיל</he></cite>) as one says, the world is light to me (meaning to say, I feel heavy); Y. ib. VI, 23ᵈ bot., v. <cite ref=\"S01355\"><he>קָלַל</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>slight, of little esteem; little, small</i> (in numbers); <i>easy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 18:22\">Targ. Y. Ex. XVIII, 22</cite> (ed. Amst. <cite ref=\"S00325\"><he>קָלִ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:28\">Targ. Lam. III, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 3:9\">Targ. Jer. III, 9</cite> (h. text <he>קֹל</he>!). ",
+				"<cite ref=\"Targum Jonathan on II Kings 3:18\">Targ. II Kings III, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 24:15\">Targ. Y. Gen. XXIV, 15</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 6b:11\">B. Kam. 6ᵇ</cite>, v. <cite ref=\"L00531\"><he>לִישָׁן</he></cite>. Y. Nidd. I, 49ᶜ top <he>הדא … ק׳ וכ׳</he> the opinion of R. M. is more lenient than that of R. J.; a. e.—Pl. <he>קַלִּילִין</he>, <he>קַלִּילַיָּא</he>; <cite ref=\"S01336\"><he>קַלִּילָן</he></cite>, <cite ref=\"K01174\"><he>קְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 18:2\">Targ. Is. XVIII, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:19\">Targ. Lam. IV, 19</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 29:34\">Targ. II Chr. XXIX, 34</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 14:32\">Targ. Y. Lev. XIV, 32</cite>; a. fr.—",
+				"<cite ref=\"Kohelet Rabbah 1:18:1\">Koh. R. to I, 18</cite> <he>אכל מלין ק׳</he> he ate light things (easy to digest), opp. <he>בורין</he> coarse things."
+			],
+			"label": "2"
+		}
+	]
+}

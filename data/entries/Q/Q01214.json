@@ -1,0 +1,30 @@
+{
+	"id": "Q01214",
+	"slug": "פנקריסין",
+	"headword": {
+		"text": "פַּנְקְרִיסִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּנְקְרִסִין"
+		}
+	],
+	"page": {
+		"number": 1191,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (πάγχρυσος) [<i>all-gold</i>,] name of <i>a fruit</i>, prob. <i>apricots</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:8:8\">Y. Sot. I, 17ᵇ</cite> top <he>יפה מפ׳ וכ׳ …</he> better were the late fruits … than the apricots &c.; ib. IX, 24ᵇ bot.; (<cite ref=\"Jerusalem Talmud Peah 7:3:9\">Y. Peah VII, 20ᵃ</cite> bot. <he>מפרסקין</he>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:1:11\">Y. Sabb. III, 5ᵈ</cite> <he>וטעמן יפה כפ׳</he> and their taste was as delicious as that of apricots; <cite ref=\"Jerusalem Talmud Terumot 2:1:20\">Y. Ter. II, 41ᶜ</cite> bot. (corr. acc.).—Y. Ab. Zar. II, 41ᵈ <he>פ׳ … שלהן</he> apricots pressed by gentiles (prob. to be read, as Bab. ",
+				"<cite ref=\"Avodah Zarah 38b\">Ab. Zar. 38ᵇ</cite>; <cite ref=\"Tosefta Avodah Zarah 4:11\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:11\">V</cite>), 11 <cite ref=\"S01772\"><he>קַפְרִיסִין</he></cite>)."
+			]
+		}
+	]
+}

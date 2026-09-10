@@ -1,0 +1,46 @@
+{
+	"id": "J00426",
+	"slug": "ינאי",
+	"headword": {
+		"text": "יַנַּאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַנַּיי"
+		}
+	],
+	"page": {
+		"number": 580,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (abbrev. of <cite ref=\"J00180\"><he>יוֹחָנָן</he></cite>) <i>Yannai</i> (<i>Jannaeus</i>), ",
+			"units": []
+		},
+		{
+			"gloss": " King of Judaea. ",
+			"units": [
+				"<cite ref=\"Kiddushin 66a:11\">Kidd. 66ᵃ</cite> <he>י׳ המלך</he> (for <i>John Hyrcan</i>). ",
+				"<cite ref=\"Berakhot 29a:7\">Ber. 29ᵃ</cite> <he>הוא י׳ הוא יוחנן</he> Y. a. Joḥanan are the same; (another opin.) <he>י׳ לחוד וכ׳</he> Y. a. Joḥ. are different persons.—",
+				"<cite ref=\"Sanhedrin 19a:17\">Snh. 19ᵃ</cite> <he>י׳ מלכא</he>, <he>י׳ המלך</he> (ref. to Hyrcan II).—",
+				"<cite ref=\"Berakhot 44a\">Ber. 44ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 48a:6\">Ib. 48ᵃ</cite>; <cite ref=\"Vayikra Rabbah 9:6\">Lev. R. s. 9</cite> (Alexander Jannaeus). ",
+				"<cite ref=\"Sotah 22b:6\">Sot. 22ᵇ</cite> (Alex. J.); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Megillah 32a:16\">Meg. 32ᵃ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:15\">Y. Ber. III, 6ᵃ</cite>.—",
+				"<cite ref=\"Vayikra Rabbah 16:2\">Lev. R. s. 16</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

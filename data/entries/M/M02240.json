@@ -1,0 +1,44 @@
+{
+	"id": "M02240",
+	"slug": "מפקנותא",
+	"headword": {
+		"text": "מַפְקָנוּתָא"
+	},
+	"page": {
+		"number": 821,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"M02239\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>source; mine</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 107:33\">Targ. Ps. CVII, 33</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 1:23\">Targ. I Chr. I, 23</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that which comes forth, sprouting</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:27\">Targ. Job XXXVIII, 27</cite>.—",
+				"<cite ref=\"Aramaic Targum to Psalms 89:35\">Targ. Ps. LXXXIX, 35</cite> (<cite ref=\"Onkelos Deuteronomy 23:24\">Targ. O. Deut. XXIII, 24</cite> <he>אַפָּקוּת</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>going out, leaving</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:7\">Targ. Ex. XXI, 7</cite> (ed. Vienna <he>מַפְּ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 68:21\">Targ. Ps. LXVIII, 21</cite> <he>מפקנות נשמתא</he> death.—V. <cite ref=\"M02241\">next w.</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

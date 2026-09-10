@@ -1,0 +1,37 @@
+{
+	"id": "B00234",
+	"slug": "בוטמא",
+	"headword": {
+		"text": "בּוּטְמָא"
+	},
+	"page": {
+		"number": 145,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בטם</he>, √<he>בט</he>, v. <cite ref=\"B00235\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>terebinth</i> (<i>fruit</i> and <i>tree</i>), <i>pistacia terebinthus</i> (v. Sm. Ant. s. v. Tereb.). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 35:4\">Targ. O. Gen. XXXV, 4</cite>; a. e.—Pl. (Hebr., fr. <cite ref=\"B00234\"><he>בּוּטְמָה</he></cite>) <he>בּוּטְמִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:4:6\">Y. Kil. I, 27ᵃ</cite> bot. <he>הלוזין והב׳ וכ׳</he> nuts and terebinths combined produce pistachio.—Chald. <he>בּוּטְמֵי</he>. ",
+				"<cite ref=\"Rosh Hashanah 23a:7\">R. Hash. 23ᵃ</cite> <he>אלונים ב׳</he> ed. (Ar. <he>אלמונים ב׳</he>; <cite ref=\"Bereishit Rabbah 15:7\">Gen. R. s. 15</cite> <he>אלונים בְּלוּטֵי</he>, <cite ref=\"Bava Batra 80b:18\">B. Bath. 80ᵇ</cite> <he>בּוּטְנֵי</he>, Ms. M. <he>בוטמי</he>), v. <cite ref=\"A01816\"><he>אַלּוֹן</he></cite>, <cite ref=\"A01913\"><he>אַלְמוֹן</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pistachio</i> (<i>tree</i> or <i>nut</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:5\">Shebi. VII, 5</cite> Ar. s. v. <cite ref=\"A01784\"><he>אלה</he></cite> (ed. <cite ref=\"B00527\"><he>בָּטְנֶה</he></cite>); v. next w.—Pl. <he>בּוּטְמִין</he>. ",
+				"<cite ref=\"Onkelos Genesis 43:11\">Targ. O. Gen. XLIII, 11</cite> ed. Berl. (oth. ed. a. Y. <he>בוטנין</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

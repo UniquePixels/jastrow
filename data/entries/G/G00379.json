@@ -1,0 +1,45 @@
+{
+	"id": "G00379",
+	"slug": "זין-5",
+	"headword": {
+		"text": "זֵין",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זֵינָא"
+		},
+		{
+			"text": "זַיְי׳"
+		},
+		{
+			"text": "זְיַן"
+		},
+		{
+			"text": "זַיְנָא"
+		},
+		{
+			"text": "זְיָי׳"
+		}
+	],
+	"page": {
+		"number": 395,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"G00337\"><he>זַיִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 41:44\">Targ. O. Gen. XLI, 44</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 22:5\">Targ. O. Deut. XXII, 5</cite> <he>תִּקוּן זֵין וכ׳</he> man’s outfit; a. fr.—",
+				"<cite ref=\"Bava Batra 4a:4\">B. Bath. 4ᵃ</cite> <he>אם זַיְינָךְ עלך וכ׳</he> though thou art armed (like a free man), thy record is here (showing that thou art a slave).—Pl. <he>זֵינִין</he>, <he>זְיָנִין</he> &c. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 49:19\">Targ. Y. II, Gen. XLIX, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:4\">Targ. Cant. IV, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 7:14\">Targ. Ps. VII, 14</cite> <he>זֵינֵי</he> Ms. (ed. <cite ref=\"G00379\"><he>זְיָ׳</he></cite>); a. e."
+			]
+		}
+	]
+}

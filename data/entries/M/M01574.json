@@ -1,0 +1,37 @@
+{
+	"id": "M01574",
+	"slug": "מלך-6",
+	"headword": {
+		"text": "מֵלַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵי׳"
+		},
+		{
+			"text": "מִלְכָא"
+		},
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 791,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01573\">preced.</cite> wds.) <i>counsel, advice</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:3\">Targ. Is. III, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 8:18\">Targ. Y. Deut. VIII, 18</cite> (O. <cite ref=\"P01100\"><he>עצה</he></cite>; h. text <cite ref=\"K00450\"><he>כֹּחַ</he></cite>); a. fr.—Pl. <he>מִלְכִין</he>, <cite ref=\"M01529\"><he>מִלְכַיָּא</he></cite>, <cite ref=\"M01393\"><he>מִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 25:1\">Targ. Is. XXV, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 12:17\">Targ. Job XII, 17</cite> (not <he>מַ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 10:6\">Targ. Hos. X, 6</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "A00502",
+	"slug": "אהל-3",
+	"headword": {
+		"text": "אֳהָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹהָל"
+		}
+	],
+	"page": {
+		"number": 20,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Syr. <he>אחלא</he> P. Sm. 125; <cite ref=\"E00531\"><he>הל</he></cite>, <cite ref=\"H00954\"><he>חל</he></cite>, v. <he>הלל</he>, <cite ref=\"H01073\"><he>חלל</he></cite>, cmp. <he>מוהל</he>, <cite ref=\"M00456\"><he>מוחל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>an alcalic plant</i>, used as <i>soap</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 90a:4\">Sabb. 90ᵃ</cite>; <cite ref=\"Niddah 62a:12\">Nidd. 62ᵃ</cite> (counted among plants subject to the laws of the Sabbath year)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a mineral substance</i> of the <cite ref=\"A00501\">same</cite> use (in connection with <cite ref=\"N01392\"><he>נתר</he></cite>; v. however Maim. to <cite ref=\"Mishnah Niddah 9:6\">Nidd. IX, 6</cite>). Nidd. l. c. <he>והתניא הבורית והאהל</he>; (Sabb. l. c. first time <cite ref=\"H00319\"><he>חול</he></cite> ed., Ms. M. <cite ref=\"A00494\"><he>אָהֵיל</he></cite>; sec. time <he>אהלא</he> ed., Ms. M. <he>אהיל</he>). ",
+			"units": [
+				"<cite ref=\"Moed Katan 17b\">M. Kat. 17ᵇ</cite>; a, e. [The biblical <he>אהלים</he> a. <cite ref=\"A00506\"><he>אהלות</he></cite> have no connection of meaning with our w.]"
+			],
+			"label": "2"
+		}
+	]
+}

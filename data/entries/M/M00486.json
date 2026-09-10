@@ -1,0 +1,23 @@
+{
+	"id": "M00486",
+	"slug": "מולא-2",
+	"headword": {
+		"text": "מוּלָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 742,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (mulus) <i>mule</i>. Pesik. Shub., p. 162ᵃ (ref. to <he>נחשתים</he>, <cite ref=\"II Chronicles 33:11\">II Chr. XXXIII, 11</cite>) <he>כמין מ׳ של נחשת</he> Ar. (ed. <cite ref=\"M00495\"><he>מולי</he></cite>) a sort of mule of bronze; <cite ref=\"Jerusalem Talmud Sanhedrin 10:2:14\">Y. Snh. X, 28ᶜ</cite> bot. <cite ref=\"M01461\"><he>מילא</he></cite>; <cite ref=\"Devarim Rabbah 2:20\">Deut. R. s. 2</cite> <he>מולן</he>; <cite ref=\"Ruth Rabbah 5:6\">Ruth R. to II, 14</cite> <he>מולה</he>; <cite ref=\"Yalkut Shimoni on Nach 246\">Yalk. Kings 246</cite> <cite ref=\"M00485\"><he>מולא</he></cite>.—Pl. <he>מוּלָאוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 52a:12\">Sabb. 52ᵃ</cite> (Ar. <i>masc.</i>).—Ch. v. <cite ref=\"M00514\"><he>מוּלְתָא</he></cite>."
+			]
+		}
+	]
+}

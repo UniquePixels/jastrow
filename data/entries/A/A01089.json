@@ -1,0 +1,27 @@
+{
+	"id": "A01089",
+	"slug": "אטלולא",
+	"headword": {
+		"text": "אִטְלוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיטְ׳"
+		}
+	],
+	"page": {
+		"number": 42,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00509\"><he>טְלַל</he></cite>) <i>jest</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 68b:4\">Erub. 68ᵇ</cite> <he>חוכא וא׳</he> derision and jest (Ar. a. Ms. Oxf. <cite ref=\"I00479\"><he>טְלוּלָא</he></cite>)."
+			]
+		}
+	]
+}

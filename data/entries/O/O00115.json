@@ -1,0 +1,24 @@
+{
+	"id": "O00115",
+	"slug": "סגולרין",
+	"headword": {
+		"text": "סְגוּלָרִין"
+	},
+	"page": {
+		"number": 953,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (saeculares, sub. ludi) <i>the secular games of the Romans</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:7:2\">Y. Ab. Zar. I, 40ᵃ</cite> <he>סגיל׳</he> (corr. acc.); <cite ref=\"Tosefta Avodah Zarah 2:6\">Tosef. ib. II, 6</cite> <he>סגלריון</he> (Var. <cite ref=\"O00135\"><he>סגילאדין</he></cite>, corr. acc.); Bab. ",
+				"<cite ref=\"Avodah Zarah 18b\">Ab. Zar. 18ᵇ</cite> <cite ref=\"O00955\"><he>סלגורין</he></cite> (corr. acc.; v. Var. Lect. in Rabb. D. S. a. l. note); <cite ref=\"Yalkut Shimoni on Nach 613:1\">Yalk. Ps. 613</cite> <he>סגלרין</he>."
+			]
+		}
+	]
+}

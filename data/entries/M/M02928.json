@@ -1,0 +1,35 @@
+{
+	"id": "M02928",
+	"slug": "משמעתא",
+	"headword": {
+		"text": "מִשְׁמַעְתָּא"
+	},
+	"page": {
+		"number": 856,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02927\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (= b. h. <he>מִשְׁמַעַת</he>) <i>following, suite</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 22:14\">Targ. I Sam. XXII, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 23:23\">Targ. II Sam. XXIII, 23</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"U01520\"><he>שְׁמַעְתָּא</he></cite>) <i>tradition</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 20a:67\">Nidd. 20ᵃ</cite> <he>דלביה כמִשְׁמַעְתֵּיה</he> whose own opinion agrees with his tradition (Var. <he>דעביד כשמעתיה</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

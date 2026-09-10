@@ -1,0 +1,32 @@
+{
+	"id": "N00449",
+	"slug": "נזירא",
+	"headword": {
+		"text": "נְזִירָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נְזִירָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 891,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>N’zira</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12:6\">Gen. R. s. 12</cite> <he>ר׳ לוי בשם ר׳ נ׳</he> (<cite ref=\"Bereishit Rabbah 12:6\">ib.</cite> s. 11 <cite ref=\"G00598\"><he>זעירא</he></cite>). ",
+				"<cite ref=\"Midrash Tehillim 92:3\">Midr. Till. to Ps. XCII</cite> <he>לוי בר נזרא</he> (ed. Bub. <he>בשם ר׳ נזי׳</he>); <cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23</cite> <he>בשם בר נזירה</he>; <cite ref=\"Jerusalem Talmud Berakhot 8:5:8\">Y. Ber. VIII, 12ᵇ</cite> <he>בשם ר׳ בזירה</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 843:6\">Yalk. Ps. 843</cite>; <cite ref=\"Yalkut Shimoni on Nach 888:2\">888</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:1:17\">Y. Ber. II, 4ᵇ</cite> bot. <he>לוי בר נ׳</he>; <cite ref=\"Jerusalem Talmud Shekalim 2:5:5\">Y. Shek. II, end, 47ᵃ</cite> <he>שמעון בן נ׳</he>; <he>בר נ׳</he>; Y. M. Kat. III, 8 <he>בר טירא׳</he> (corr. acc.); <cite ref=\"Yevamot 97a:1\">Yeb. 97ᵃ</cite> <he>שמעון נ׳</he> (v. however, <cite ref=\"Bekhorot 31b\">Bekh. 31ᵇ</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:3:6\">Y. Sabb. II, 5ᵃ</cite> top <he>ר״ש נ׳</he>; Pesik. Dibré, p. 111ᵃ <he>שמעון בן נזירה</he>."
+			]
+		}
+	]
+}

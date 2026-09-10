@@ -1,0 +1,88 @@
+{
+	"id": "M02097",
+	"slug": "מעט-1",
+	"headword": {
+		"text": "מָעַט"
+	},
+	"page": {
+		"number": 814,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"M00458\"><he>מוּט</he></cite>)<i>to be thin, minute</i>.—Part. pass. <cite ref=\"M02074\"><he>מָעוּט</he></cite>, f. <cite ref=\"M02077\"><he>מְעוּטָה</he></cite>; pl. <he>מְעוּטִים</he>, <he>מְעוּטִין</he>; <he>מְעוּטוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:2:10\">Y. Pes. V, 32ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:16\">Y. Snh. I, 18ᶜ</cite> bot. <he>גסי רוח ומְעוּטֵי תודה</he> big in spirit (haughty) and small in learning (of narrow capacity). ",
+				"<cite ref=\"Tosefta Challah 1:7\">Tosef. Ḥall. I, 7</cite>; a. e.—",
+				"<cite ref=\"Mishnah Tamid 4:2\">Tam. IV, 2</cite> <he>במעוטה</he> <i>at least</i> (Talm. ed. 31ᵃ <he>במעוטן</he>, comment. <he>במיעוטן</he> on the <i>smallest</i> of the tables)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מִעֵט", "מִיעֵט"],
+			"senses": [
+				{
+					"gloss": "<i>to diminish, reduce</i>; <i>to do little</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 4:10\">Ab. IV, 10</cite> <he>הוי מְמַעֵט בעסק וכ׳</he> do less business, and busy thyself with the Law. ",
+						"<cite ref=\"Moed Katan 22a\">M. Kat. 22ᵃ</cite>, v. <cite ref=\"P01054\"><he>עֵסֶק</he></cite>. ",
+						"<cite ref=\"Mishnah Taanit 1:7\">Taan. I, 7</cite> <he>מְמַעֲטִין במשא וכ׳</he> we must reduce business transactions, building &c. ",
+						"<cite ref=\"Mishnah Taanit 4:6\">Ib. IV, 6</cite> <he>משנכנס אב ממעטין בשמחה</he> with the beginning of the month of Ab we must reduce rejoicing. ",
+						"<cite ref=\"Chullin 60b:2\">Ḥull. 60ᵇ</cite> <he>לכי ומַעֲטִי את עצמך</he> go and make thyself smaller (be reduced). ",
+						"<cite ref=\"Sanhedrin 17a:9\">Snh. 17ᵃ</cite> <he>הואיל ומִיעַטְתֶּם עצמיכם</he> because you made yourselves small (were modest); <cite ref=\"Bamidbar Rabbah 15\">Num. R. s. 15</cite>. Tosef. Erub. IX (VI), 15 <he>מִיעֲטָהּ באבנים וכ׳</he> if he reduced the size of the gap by means of stones &c. Y. ib. VII, beg. 24ᵇ <he>ממעטין בכלים</he> you may use utensils for reducing the opening. Bab. ib. 77ᵇ <he>ממעט</he> effects the reduction, i.e. puts the two adjoining places in the legal condition of dwellings connected by a gate; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (interpret.) <i>to limit, qualify, exclude from the rule</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 26a:6\">Shebu. 26ᵃ</cite> <he>היה דורש את כל התורה בריבה ומיעט</he> interpreted the entire Law on the principle of ‘It includes and it excludes’, i.e. on the principle that if, in the Biblical text, a specification is preceded and followed by general terms, both an extension (<cite ref=\"T00586\"><he>ריבוי</he></cite>) and a limitation (<cite ref=\"M01259\"><he>מיעוט</he></cite>) must be found; e. g. ",
+						"<cite ref=\"Shevuot 26a:2-12\">ib.</cite> (ref. to <cite ref=\"Leviticus 5:4\">Lev. V, 4</cite>) <he>או נפש … להרע … מי׳ וכ׳</he> ‘or if a soul swears’, this is a general expression, ‘for bad or for good’, this limits (the sphere of the law to things which are either an advantage or a disadvantage); ‘whatsoever it be &c.’, this is again a generalization; now what does it include? All kinds of words (vows); <he>ומאי מ׳ מ׳ וכ׳</he> and what does it exclude? It excludes a religious act (the vow of doing a forbidden thing or not doing a commanded thing). Sifra Tsav, ch. XV, Par. 11 <he>אם מִיעַטְתִּים מסמיכה מרובה לא אֲמַעֲטֵם בתנופה וכ׳</he> if I exclude them (the gentiles) from the privilege of laying hands on the sacrifice, which has a wider sphere of application, must I not exclude them from the privilege of waving &c.?; a. fr.—Part. pass. <he>מְמוּעָט</he>, v. <cite ref=\"M00561\"><he>מוּעָט</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִמְעִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to do little, less</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 17a:8\">Ber. 17ᵃ</cite> <he>שמא תאמר אני מרבה והוא מַמְעִיט</he> lest you say, I do much good, and he but little; <he>שנינו אחד המרבה ואחד הממעיט וכ׳</he> we have learned, whether one does much or little (they are equally worthy), provided one directs his heart &c.; <cite ref=\"Mishnah Menachot 13:11\">Men. XIII, 11</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִתְמַעֵט"],
+			"senses": [],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הִתְמַעֵט"],
+			"senses": [
+				{
+					"gloss": "<i>to be diminished, reduced</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 7:5\">Erub. VII, 5</cite> <he>נ׳ התבן מעשרה וכ׳</he> if the pile of straw has been reduced to less than ten handbreadths. ",
+						"<cite ref=\"Eruvin 54b:9\">Ib. 54ᵇ</cite>; <cite ref=\"Avodah Zarah 19a:14\">Ab. Zar. 19ᵃ</cite> <he>מִתְמַעֵט</he> he will become less (will decline in learning). ",
+						"<cite ref=\"Arakhin 30b:53\">Arakh. 30ᵇ</cite> <he>נ׳ כספו</he> if his value was reduced. ",
+						"<cite ref=\"Tosefta Sotah 14:10\">Tosef. Sot. XIV, 10</cite> <he>נִתְמַעֲטוּ הימים וכ׳</he> the days were reduced, and the years shortened. ",
+						"<cite ref=\"Tosefta Sotah 14:10\">Ib.</cite> <he>התחילו הגוים להתרבות וישראל להִתְמעֵט</he> the nations began to grow and the Israelites to be reduced (in rank). ",
+						"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>נִתְמַעֲטָה ידו</he> he became reduced in fortune. ",
+						"<cite ref=\"Midrash Tehillim 12\">Midr. Till. to Ps. XII</cite>, end <he>נפשם מִתְמַעֶטֶת עליהם</he> their soul within them shrinks, i.e. they feel jealous and angry; <cite ref=\"Yalkut Shimoni on Nach 659:2\">Yalk. ib. 659</cite>; <cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite>, beg. <he>מתמענת</he> (corr. acc.). Sifra l. c. <he>נִתְמַעֶטֶת תנופה</he> the sphere of the act of waving is the smaller one; <he>נִתְמַעֲטָה סמיכה</he> the laying on of hands has the smaller sphere; a. fr.—",
+						"<cite ref=\"Eruvin 80b:11\">Erub. 80ᵇ</cite> <he>מאי נתמעט נתמטמט</he> ‘it was reduced’ (Mish. ",
+						"<cite ref=\"Mishnah Eruvin 7:7\">ib. VII, 7</cite>) means, it was reduced to atoms, v. <cite ref=\"M01027\"><he>מִטְמֵט</he></cite>.—",
+						"<cite ref=\"Bava Metzia 71a\">B. Mets. 71ᵃ</cite> <he>נכסיו מִתְמַעֲטִין</he>, v. <cite ref=\"M00458\"><he>מוּט</he></cite> h.—",
+						"<cite ref=\"Tosefta Mikvaot 6:1\">Tosef. Mikv. VI</cite> (<cite ref=\"Tosefta Mikvaot 7:14\">VII</cite>), 14 <he>מִתְמַעֲטִין</he>, v. <cite ref=\"M02121\"><he>מָעַךְ</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

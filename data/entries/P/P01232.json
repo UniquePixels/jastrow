@@ -1,0 +1,23 @@
+{
+	"id": "P01232",
+	"slug": "עקתא",
+	"headword": {
+		"text": "עָקְתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1109,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01231\"><he>עקת</he></cite>, v. <cite ref=\"P00671\"><he>עִיקְתָא</he> II</cite>), pl. <he>עָקְתִין</he> <i>narrows</i>; trnsf. <i>distress</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 25:17\">Targ. Ps. XXV, 17</cite>."
+			]
+		}
+	]
+}

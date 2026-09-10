@@ -1,0 +1,24 @@
+{
+	"id": "B00304",
+	"slug": "בועתא-2",
+	"headword": {
+		"text": "בּוּעֲתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00299\"><he>בוע</he></cite>) <i>bursting forth, rejoicing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 20:5\">Targ. Job XX, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 43:4\">Targ. Ps. XLIII, 4</cite> <he>בָּעוּתִי</he> (prob. <cite ref=\"B00300\"><he>בּוּעָ׳</he></cite>)."
+			]
+		}
+	]
+}

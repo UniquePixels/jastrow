@@ -1,0 +1,66 @@
+{
+	"id": "N00460",
+	"slug": "נזק-2",
+	"headword": {
+		"text": "נְזַק"
+	},
+	"page": {
+		"number": 892,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00459\">same</cite> <cite ref=\"Aramaic Targum to Psalms 91:7\">Targ. Ps. XCI, 7</cite> <he>יקרבון למִנְזָק</he> (h. text <he>יגש</he>); a. e.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַזֵּיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00459\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 12:14\">Targ. Jer. XII, 14</cite> (h. text <he>נגע</he>); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַנְזֵק"],
+			"senses": [
+				{
+					"gloss": " <he>(הַנְזֵק</he>), <cite ref=\"A00971\"><he>אַזֵּיק</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 26:11\">Targ. O. Gen. XXVI, 11</cite>. ",
+						"<cite ref=\"Onkelos Exodus 11:7\">Targ. Ex. XI, 7</cite> <he>לא יַנְזֵק … בלישניה</he> ed. Berl. (ed. Vien. <he>לישניה</he>, corr. acc.; Y. <he>יְהַנְ׳</he>); a. e.—",
+						"<cite ref=\"Bava Kamma 27b\">B. Kam. 27ᵇ</cite> <he>הוא דא׳ אנפשיה</he> it is he who hurt himself (through his own action); <cite ref=\"Bava Kamma 28a\">ib. 28ᵃ</cite> <he>א׳ נפשיה</he>. ",
+						"<cite ref=\"Bava Kamma 13b:21\">Ib. 13ᵇ</cite> <he>אַזְּקֵיה תורא דמשאיל וכ׳</he> the ox of the lender injured that of the borrower. ",
+						"<cite ref=\"Bava Kamma 13b:21\">Ib.</cite> <he>אזקי</he> ed. (read with Ms. M. <he>אזקיה</he>). ",
+						"<cite ref=\"Bava Metzia 117a:6\">B. Mets. 117ᵃ</cite> <he>אזלי ומַזְּקֵי וכ׳</he> the water came down and damaged the property of those living below; a. fr.—",
+						"<cite ref=\"Gittin 53a:14\">Gitt. 53ᵃ</cite> <he>לאוזוקי קא מכוין</he> (read: <he>לאַזּוּקֵיה</he> or <he>לאַנְזוּקֵיה</he>, Rashi <he>לצעריה</he>) he has the intention to harm him."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְנַזֵּק"],
+			"senses": [
+				{
+					"gloss": ", <i>Ittaf.</i> <cite ref=\"G00527\"><he>אִיתַּזַּק</he></cite>; <i>Ithpe.</i> <he>אִיתְנְזִיק</he>, <cite ref=\"B00462\"><he>אִינְּזִיק</he></cite> <i>to be hurt, to meet with an accident</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 32:31\">Targ. II Chr. XXXII, 31</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 5:24\">Targ. Job V, 24</cite>.—",
+						"<cite ref=\"Bava Kamma 13b:21\">B. Kam. 13ᵇ</cite> <he>אילו איתזק מעלמא</he> if he had been hurt through any other cause. ",
+						"<cite ref=\"Berakhot 9b:17\">Ber. 9ᵇ</cite> <he>ואִיתַּזְּקִי</he> and I met with evil; <he>במאי אִיתַּזְּקַת</he> what was the evil thou didst meet with?—",
+						"<cite ref=\"Vayikra Rabbah 24:3\">Lev. R. s. 24</cite> <he>ולית אתון מִתְנַזְּקִין</he> and you have never been injured. ",
+						"<cite ref=\"Kiddushin 29b:12\">Kidd. 29ᵇ</cite> <he>הוו מִיתַּזְּקֵי</he> they used to be hurt (by a demon, v. <cite ref=\"M00757\"><he>מַזִּיק</he></cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

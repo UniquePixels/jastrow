@@ -1,0 +1,29 @@
+{
+	"id": "N00219",
+	"slug": "נדוניא",
+	"headword": {
+		"text": "נְדוּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְדוּנְיָיא"
+		}
+	],
+	"page": {
+		"number": 878,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"N00231\"><he>נָדַן</he></cite>) <i>a bride’s outfit</i>, given by her father; <i>wedding equipment</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 74b:3\">B. Mets. 74ᵇ</cite> <he>יהיב זוזי לנ׳ וכ׳</he> paid a stipulated amount for an outfit to be delivered at the house of his daughter’s father-in-law; <he>לסוף זל נ׳</he> in the meanwhile the value of the equipment was reduced (and the father-in-law refused to receive it for the value stipulated). ",
+				"<cite ref=\"Ketubot 54a:22\">Keth. 54ᵃ</cite> <he>ההוא … נ׳ לברת</he> a man in his dying bequest defined the nature of the equipment for his daughter. ",
+				"<cite ref=\"Taanit 24a:7\">Taan. 24ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

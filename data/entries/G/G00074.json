@@ -1,0 +1,28 @@
+{
+	"id": "G00074",
+	"slug": "זדונא",
+	"headword": {
+		"text": "זְדוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְדָוֹנְתָּא"
+		}
+	],
+	"page": {
+		"number": 380,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00073\">preced.</cite>) <i>haughtiness, violence</i>. Targ. ",
+			"units": [
+				"<cite ref=\"Habakkuk 1:3\">Hab. I, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:2\">Targ. Prov. XI, 2</cite> Ms. (ed. <he>זִידוֹנְתָּא</he>)."
+			]
+		}
+	]
+}

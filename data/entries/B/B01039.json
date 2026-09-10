@@ -1,0 +1,31 @@
+{
+	"id": "B01039",
+	"slug": "בעיא-1",
+	"headword": {
+		"text": "בַּעְיָא"
+	},
+	"page": {
+		"number": 181,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01038\">preced.</cite>) <i>yawn, gap</i>. Constr. <cite ref=\"B01037\"><he>בְּעֵי</he></cite>. <he>ב׳ לבא</he> <i>greed</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:4\">Targ. Prov. XXI, 4</cite> (h. text <he>רחב לב</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>בעי</he> I) <i>question</i>. Pl. <he>בַּעְיֵי</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 106b:12\">Snh. 106ᵇ</cite> <he>ד׳ מאות ב׳</he> four hundred questions. ",
+				"<cite ref=\"Sanhedrin 106b:12\">Ib.</cite> <he>רבותא למבעי ב׳</he> is there any greatness in asking questions?"
+			],
+			"label": "2"
+		}
+	]
+}

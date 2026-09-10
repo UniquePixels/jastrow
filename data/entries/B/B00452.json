@@ -1,0 +1,33 @@
+{
+	"id": "B00452",
+	"slug": "בזיך-2",
+	"headword": {
+		"text": "בָּזִיךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּזִיכָא"
+		},
+		{
+			"text": "בַּזִּיכָּא"
+		},
+		{
+			"text": "בָּזִכָּא"
+		}
+	],
+	"page": {
+		"number": 153,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. f. <cite ref=\"B00451\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 7:14\">Targ. Num. VII, 14</cite>; a. fr.—Pl. <he>בָּזִיכַיָּא</he>, <he>בַּזִּיכַּיָּא</he>, <he>בָּזִכַּיָּא</he>. ",
+				"<cite ref=\"Onkelos Numbers 4:7\">Ib. IV, 7</cite>. ",
+				"<cite ref=\"Onkelos Exodus 25:29\">Targ. Ex. XXV, 29</cite>; a. fr."
+			]
+		}
+	]
+}

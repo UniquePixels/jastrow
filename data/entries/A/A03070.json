@@ -1,0 +1,33 @@
+{
+	"id": "A03070",
+	"slug": "ארטבניא",
+	"headword": {
+		"text": "אַרְטְבַנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְטְבִינָא"
+		},
+		{
+			"text": "אַרְטְוַנְיָא"
+		},
+		{
+			"text": "ארטיבנא"
+		}
+	],
+	"page": {
+		"number": 118,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Artabania</i> (named after Artaban, v. <cite ref=\"A03069\">preced.</cite>), near Pumbeditha. ",
+			"units": [
+				"<cite ref=\"Eruvin 51b:14\">Erub. 51ᵇ</cite> (Var. lect., v. Rabb. D. S. a. l.)."
+			]
+		}
+	]
+}

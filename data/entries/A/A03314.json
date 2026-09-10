@@ -1,0 +1,43 @@
+{
+	"id": "A03314",
+	"slug": "אשל",
+	"headword": {
+		"text": "אֵשֶׁל"
+	},
+	"page": {
+		"number": 128,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; אשל <i>to be firmly rooted</i>, , v. <he>אשש</he>; v. Ges. H. Dict. s. v.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tamarisk</i>, symbol of strength and eminence.—Pl. <cite ref=\"U01349\"><he>אֲשָׁלִים</he></cite>, const. <cite ref=\"U01293\"><he>אֶשְׁלֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 1:8:2\">Y. B. Mets. I, end, 8ᵃ</cite> <he>א׳ דיינין וכ׳</he> the eminent (old) among the Babylonian scholars are but like the pidgeons (the young) among the Palestinean; cmp. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:8:6\">Y. Ned. VI, 40ᵃ</cite> bot."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>plantation, pleasure-garden, tent</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 10a:2\">Sot. 10ᵃ</cite>; <cite ref=\"Bereishit Rabbah 54:6\">Gen. R. s. 54</cite> end (ref. to <cite ref=\"Genesis 21:33\">Gen. XXI, 33</cite>, v. Targ. a. l.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " pr. n. <i>Eshel</i>, a river in Assyria. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 92b:12\">Snh. 92ᵇ</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 376:1\">Yalk. Ezek. 376</cite> <he>אשור</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

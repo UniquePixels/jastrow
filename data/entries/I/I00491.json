@@ -1,0 +1,63 @@
+{
+	"id": "I00491",
+	"slug": "טלטל-2",
+	"headword": {
+		"text": "טַלְטֵל"
+	},
+	"page": {
+		"number": 536,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00490\">same</cite><i>to move, shake</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 22:8\">Targ. Ps. XXII, 8</cite>; <cite ref=\"Aramaic Targum to Psalms 109:25\">CIX, 25</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to exile</i>, <cite ref=\"Onkelos Deuteronomy 29:27\">Targ. Deut. XXIX, 27</cite>; a. fr. Part. pass. <he>מְטַלְטַל</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 4:12\">Targ. Gen. IV, 12</cite>; <cite ref=\"Onkelos Genesis 4:14\">14</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to move, handle, carry, lift</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 16:29\">Targ. Y. Ex. XVI, 29</cite> (cmp. ",
+				"<cite ref=\"Eruvin 17b\">Erub. 17ᵇ</cite>).—",
+				"<cite ref=\"Shabbat 45a:2\">Sabb. 45ᵃ</cite> <he>לטַלְטוּלֵי שרגא וכ׳</he> to remove the light of Ḥanuckah, v. <cite ref=\"H00112\"><he>חַבָּרָא</he></cite>. ",
+				"<cite ref=\"Pesachim 69a:10\">Pes. 69ᵃ</cite> <he>טלטולי בעלמא הוה</he> it is merely a moving (no creative labor). ",
+				"<cite ref=\"Shabbat 49a:13\">Sabb. 49ᵃ</cite> <he>לא מְטַלְטְלִינָן להו</he> we must not handle them.—Y. Snh. VI, 23ᶜ bot.; <cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot. <he>וִיטַלְטְלִינָהּ מן וכ׳</he> and shall lift her off the ground. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Ib.</cite>, sq. <he>טַלְטְלַתְנֵיה וכ׳</he> as soon as thou liftest him off &c., he can do nothing; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְטַלְטֵל", "אִיטַּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be exiled, to wander</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 4:14\">Targ. Lam. IV, 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 68:13\">Targ. Ps. LXVIII, 13</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be unsteady, to be moved, to be movable</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 5:6\">Targ. Prov. V, 6</cite>.—Y. Lev. XXV, 14 <he>עסקא דמִיטַּלְטְלָא</he> <i>movable chattel</i>.—",
+						"<cite ref=\"Bava Batra 150a:5\">B. Bath. 150ᵃ</cite> <he>כל דְּמִטַּלְטַל</he> (or <he>דַּמְ׳</he>) whatever is movable; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

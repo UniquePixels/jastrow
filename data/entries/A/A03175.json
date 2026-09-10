@@ -1,0 +1,23 @@
+{
+	"id": "A03175",
+	"slug": "ארמיותא",
+	"headword": {
+		"text": "אֲרַמְיוּתָא"
+	},
+	"page": {
+		"number": 123,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A03174\">preced.</cite>) <i>gentile ways, Romedom, idolatry</i>, &c. ",
+			"units": [
+				"<cite ref=\"Megillah 3a\">Meg. I</cite>II (IV), 9 (25ᵃ) whoever translates (<cite ref=\"Leviticus 18:21\">Lev. XVIII, 21</cite>), ‘Of thy seed thou shalt give none <he>לאעברא בא׳</he> (Ms. Lond. <he>לאעבורי אומיתא</he>, v. Var. in Rabb. D. S. a. l. note) to become with child in Romedom (identifying Molokh with Rome and misinterpreting <i>l’haăbir</i> for the purpose of making it applicable to sexual connection with Romans) must be silenced with a sharp rebuke (v. <cite ref=\"N00442\"><he>נְזִיפָה</he></cite>); cmp. Targ. Y. Lev. l. c.—",
+				"<cite ref=\"Avodah Zarah 70a:8\">Ab. Zar. 70ᵃ</cite> <he>כד הוינן בארמיותן</he> (Ms. M. <he>הואי בגיותא</he>) when we were yet in our heathendom (prior to our conversion)."
+			]
+		}
+	]
+}

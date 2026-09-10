@@ -1,0 +1,98 @@
+{
+	"id": "N00927",
+	"slug": "נסי-3",
+	"headword": {
+		"text": "נְסֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְסָא"
+		},
+		{
+			"text": "נְשָׂא"
+		}
+	],
+	"page": {
+		"number": 916,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00926\">same</cite><i>to lift up</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:56\">Targ. O. Deut. XXVIII, 56</cite> <he>נְסִיאַת</he> ed. Berl. (oth. ed. <cite ref=\"N01308\"><he>נַסִּי׳</he></cite>, Pa.); Y. <he>נַסְיַית</he> (h. text <he>נִסְּתָה</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 4:7\">Targ. Ps. IV, 7</cite> <cite ref=\"N01285\"><he>נְשָׂא</he></cite> (h. text <cite ref=\"N00926\"><he>נְסָה</he></cite>).—[Pesik. B’shall., p. 91ᵃ, v. <cite ref=\"N00924\"><he>נְסַח</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to take, receive, carry</i> (v. <cite ref=\"N00917\"><he>נְסַב</he></cite>). ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>לא נַסְיָין להון</he> they (the areas described) could not receive (would have no room for) them; <cite ref=\"Jerusalem Talmud Taanit 4:5:20\">Y. Taan. IV, 69ᵇ</cite> <he>לא נַסְיָיהּ</he>. Y. Maas. Sh. IV, 54ᵈ <he>נַסְתּוֹן בר קפר</he> Bar Ḳ. took them. ",
+				"<cite ref=\"Vayikra Rabbah 6:3\">Lev. R. s. 6</cite> <he>נַסְתֵּיה לקניא וכ׳</he> he took the cane and knocked it down. ",
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite>, end <he>נסאתיה וחמאי ליה וכ׳</he>, read: <he>נסא יתיה ואחמי וכ׳</he> he took him along and showed to him &c.; (<cite ref=\"Yalkut Shimoni on Nach 355\">Yalk. Is. 355</cite> <he>נסביה ואחמתיה וכ׳</he>).—",
+				"<cite ref=\"Pesikta Rabbati 22:1\">Pesik. R. s. 22</cite> <he>נשא ואפקדיה וכ׳</he> he took (his money) and put it in trust with him. ",
+				"<cite ref=\"Pesikta Rabbati 22:1\">Ib.</cite> <he>נַסְתָּהּ ויהבה ליה</he> she took it (the deposited money) and gave it to him; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֵסֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to find out by sign, to divine</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 30:27\">Targ. O. Gen. XXX, 27</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to try, test; to attempt</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 28:56\">Targ. O. Deut. XXVIII, 56</cite>, v. supra.—",
+						"<cite ref=\"Aramaic Targum to Esther 5:14\">Targ. Esth. V, 14</cite> <he>למְנֵסְיָא צליבא</he> to test the (strength of) the gallows. ",
+						"<cite ref=\"Onkelos Exodus 16:4\">Targ. Ex. XVI, 4</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 107a:3\">Snh. 107ᵃ</cite> <he>מְנַסִּינָא לך</he> I will try thee. ",
+						"<cite ref=\"Sanhedrin 107a:3\">Ib.</cite> <he>אמר מינסנא לך</he> (corr. acc.). ",
+						"<cite ref=\"Avodah Zarah 15a:5\">Ab. Zar. 15ᵃ</cite> <he>ניסייה ניהלי</he>, read: <he>נִינַסְּיָיהּ</he> let us try the animal for me; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַנְסֵי", "הַנְסֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00926\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:56\">Targ. Ps. LXXVIII, 56</cite> (Ms. <i>Pa.</i>). ",
+						"<cite ref=\"Targum Jerusalem, Genesis 22:1\">Targ. Y. II, Gen. XXII, 1</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְנַסֵּי", "אִינַּסֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be lifted up</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 60:6\">Targ. Ps. LX, 6</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be tried</i>. Targ. II Esth. V, 14.—Snh. l. c. <he>אינהו מִינַּסּוּ לי … מִינַּסְּיַת לי</he> they have been tried (proved true) to me, thou hast not.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

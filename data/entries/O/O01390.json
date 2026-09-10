@@ -1,0 +1,22 @@
+{
+	"id": "O01390",
+	"slug": "ספנא-2",
+	"headword": {
+		"text": "סַפְנָא"
+	},
+	"page": {
+		"number": 1015,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01387\"><he>סְפַן</he></cite>; cmp. <cite ref=\"O01360\"><he>סְפִינָה</he></cite>) <i>store-room, hold</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108b:20\">Snh. 108ᵇ</cite> <he>ס׳ דתיבותא</he> the hold of the ark."
+			]
+		}
+	]
+}

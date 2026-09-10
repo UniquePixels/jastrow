@@ -1,0 +1,30 @@
+{
+	"id": "M00414",
+	"slug": "מודלה",
+	"headword": {
+		"text": "מוּדְלֶה"
+	},
+	"page": {
+		"number": 739,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. <cite ref=\"M00414\"><he>מוּדְלָה</he></cite> f. ",
+			"units": []
+		},
+		{
+			"gloss": " part. <i>Hof.</i> of <cite ref=\"D00811\"><he>דָּלָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>gourd-field</i>, v. <cite ref=\"M00307\"><he>מִדְלַעַת</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

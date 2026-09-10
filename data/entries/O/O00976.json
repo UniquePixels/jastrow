@@ -1,0 +1,23 @@
+{
+	"id": "O00976",
+	"slug": "סלטא",
+	"headword": {
+		"text": "סַלְטָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 994,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. [<i>sprinkler</i> (?),] <i>a small vessel with two or more apertures</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:27\">Y. Ter. VIII, 45ᵈ</cite> bot."
+			]
+		}
+	]
+}

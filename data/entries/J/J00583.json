@@ -1,0 +1,34 @@
+{
+	"id": "J00583",
+	"slug": "יקר-4",
+	"headword": {
+		"text": "יְקָר"
+	},
+	"page": {
+		"number": 593,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00582\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gravity, dignity, honor</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 16b:9\">Meg. 16ᵇ</cite> (ref. to <cite ref=\"Esther 8:17\">Esth. VIII, 17</cite>) <he>וִי׳ אלו תפלין</he> ‘and dignity (distinction)’ that means the T’fillin."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>heavy fog, mist</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 730:3\">Yalk. Ps. 730</cite> <he>כי׳ של מדבר</he> (ref. to <he>כיקר</he>, <cite ref=\"Psalms 37:20\">Ps. XXXVII, 20</cite>) like the mist of the desert.—Pl. <he>יְקָרִים</he> <cite ref=\"Psalms 37:20\">Ib.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

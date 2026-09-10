@@ -1,0 +1,24 @@
+{
+	"id": "T00379",
+	"slug": "רומא-2",
+	"headword": {
+		"text": "רוֹמָא",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 1460,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00378\">preced. art.</cite>) <i>haughty</i>.—Pl. <cite ref=\"T00391\"><he>רוֹמַיָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 8:11:1\">Koh. R. to VIII, 11</cite> (perh. to be read: <cite ref=\"T00391\"><he>רוֹמָיֵא</he></cite> = <he>רוֹמָאֵי</he>), v. <cite ref=\"M02201\"><he>מְפוּקִים</he></cite>."
+			]
+		}
+	]
+}

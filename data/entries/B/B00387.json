@@ -1,0 +1,35 @@
+{
+	"id": "B00387",
+	"slug": "בורסקי",
+	"headword": {
+		"text": "בּוּרְסְקִי"
+	},
+	"page": {
+		"number": 150,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (βυρσική sub. τέχνη) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the tanning process, tannery</i>, [fr. (= <cite ref=\"B00780\"><he>בעל ב׳</he></cite>) <i>the tanner;</i> v. <cite ref=\"B00385\"><he>בּוּרְסִי</he></cite>]. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:2\">Sabb. I, 2</cite> <he>ולא לב׳</he> nor must one enter the tannery (to look after the process, shortly before Sabbath). Ib. 9ᵇ <he>התחלת כ׳</he> the beginning of the tanner’s work. Ib. <he>ב׳ גדולה</he> a tannery on a large scale; v. <cite ref=\"B00385\"><he>בּוּרְסִי</he></cite>. ",
+				"<cite ref=\"Bava Batra 21b:9\">B. Bath. 21ᵇ</cite> <he>ולא ב׳</he> nor to put up a tanner’s workshop; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Bursiké</i>, a suburb of Tiberias. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:4\">Cant. R. to I, 4</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

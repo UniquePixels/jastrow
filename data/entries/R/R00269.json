@@ -1,0 +1,23 @@
+{
+	"id": "R00269",
+	"slug": "צחוק",
+	"headword": {
+		"text": "צְחוֹק"
+	},
+	"page": {
+		"number": 1273,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"R00269\"><he>צְחֹק</he></cite>; <cite ref=\"R00287\"><he>צָחַק</he></cite>)<i>laughter, merriment</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 53:11\">Gen. R. s. 53</cite> (ref. to <cite ref=\"Genesis 21:9\">Gen. XXI, 9</cite> <he>מצחק</he>) <he>אין הלשין הזה של צ׳ וכ׳</he> this expression of merriment (use of the root <he>צחק</he>) alludes to idolatry (by ref. to <cite ref=\"Exodus 32:6\">Ex. XXXII, 6</cite>); … to bloodshed (by ref. to <cite ref=\"II Samuel 2:14\">II Sam. II, 14</cite>); Tanḥ. Sh’moth 1; <cite ref=\"Tosefta Sotah 6:6\">Tosef. Sot. VI, 6</cite>. ",
+				"<cite ref=\"Tosefta Sotah 6:6\">Ib.</cite>; Gen. R. l. c. <he>אין … צ׳ אלא לשון ירושה</he> this ‘merriment’ refers to the joy over the heirloom (the birth of a legitimate heir to Abraham, whereas Yishmael claimed the birthright as the firstborn)."
+			]
+		}
+	]
+}

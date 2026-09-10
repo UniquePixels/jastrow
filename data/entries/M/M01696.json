@@ -1,0 +1,28 @@
+{
+	"id": "M01696",
+	"slug": "מן-5",
+	"headword": {
+		"text": "מַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָן",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 796,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>who?, what?</i>, v. <cite ref=\"M00047\"><he>מַאן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:23\">Targ. Gen. XXIV, 23</cite>. ",
+				"<cite ref=\"Onkelos Genesis 33:8\">Ib. XXXIII, 8</cite> (ed. Berl. <cite ref=\"M00003\"><he>מָא</he></cite>; oth. ed. <he>מאן</he>); a. fr.—Emphatic. (<cite ref=\"M00048\"><he>מָנָא</he></cite>) <cite ref=\"M01773\"><he>מְנָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 39:5\">Targ. Ps. XXXIX, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 4:19\">Targ. Prov. IV, 19</cite>; a. fr."
+			]
+		}
+	]
+}

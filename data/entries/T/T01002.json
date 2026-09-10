@@ -1,0 +1,32 @@
+{
+	"id": "T01002",
+	"slug": "רצץ-2",
+	"headword": {
+		"text": "רְצַץ"
+	},
+	"page": {
+		"number": 1495,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>רַצֵּץ</he> <cite ref=\"T01001\">same</cite>, <i>to squeeze, crush</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 3:16\">Targ. Lam. III, 16</cite> <cite ref=\"T01001\"><he>רִיצֵּץ</he></cite> (Hebraism; h. text <he>ויגרס</he>). ",
+						"<cite ref=\"Targum Jerusalem, Exodus 15:6\">Targ. Y. II, Ex. XV, 6</cite> (ed. Vien. <he>מַרְצְצָא</he>, <i>Af.</i>; h. text <he>תרעץ</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

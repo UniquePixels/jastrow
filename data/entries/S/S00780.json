@@ -1,0 +1,28 @@
+{
+	"id": "S00780",
+	"slug": "קטלוזא",
+	"headword": {
+		"text": "קַטְלוֹזָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַטְלָזוֹן"
+		}
+	],
+	"page": {
+		"number": 1349,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קטלז</he>, enlargement of <cite ref=\"S00774\"><he>קטל</he></cite>) [<i>chopping place,</i>] <i>counter for retail sale</i> of provisions &c., opp. to <cite ref=\"A00825\"><he>אוצר</he></cite>, <cite ref=\"E00775\"><he>הפתק</he></cite> &c. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 40b:7\">Ab. Zar. 40ᵇ</cite> <he>יין תפוחים … הנמכר בק׳ וכ׳</he> (Ar. <cite ref=\"S00781\"><he>קַטְלֵיזָא</he></cite>) apple wine of gentiles … which is sold over the counter is forbidden, because they mix it with wine; Tosef. ib. IV (V), 12 <he>בקטלזון בשוק הרי זה אסור …</he> ed. Zuck. (ed. incorr.) at retail, in the market. [Ab. Zar. l. c. <he>הנמכרין בק׳ לפני חנוני</he>, read as Tosef. l. c.: <he>בסלולה</he>.] <cite ref=\"Tosefta Bava Batra 5:4\">Tosef. B. Bath. V, 4</cite>, v. <cite ref=\"Q00809\"><he>פִּיקְטְנִי</he></cite>. ",
+				"<cite ref=\"Tosefta Bava Metzia 6:13\">Tosef. B. Mets. VI, 13</cite> <he>המוכר … כדרך שמעמיד בקטלזון</he> ed. Zuck. (Var. <he>בקַטְלוֹזִין</he>, <he>בקוּטְלֵזִין</he>, <i>pl.</i>) if one sells his neighbor wine or oil to be delivered during the whole year (taking payment in advance), he must charge him as he would charge at retail (being paid as he delivers; otherwise it would be usury)."
+			]
+		}
+	]
+}

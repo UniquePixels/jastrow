@@ -1,0 +1,28 @@
+{
+	"id": "M02280",
+	"slug": "מצודא",
+	"headword": {
+		"text": "מְצוֹדָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְצוּדָא"
+		}
+	],
+	"page": {
+		"number": 823,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"M02269\"><he>מְצָדָא</he> II</cite>.—Pl. <he>מָצוֹדִין</he>, <he>מְצוֹדַיָּא</he>, <he>מְצוּ׳</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 9:14\">Targ. Koh. IX, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 22:4\">Targ. I Sam. XXII, 4</cite>, sq. ed. Wil. (v. <cite ref=\"M02269\"><he>מְצָדָא</he> II</cite>)."
+			]
+		}
+	]
+}

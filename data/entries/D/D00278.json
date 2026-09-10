@@ -1,0 +1,25 @@
+{
+	"id": "D00278",
+	"slug": "דומה-2",
+	"headword": {
+		"text": "דּוּמָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 286,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"D00277\">preced.</cite>) <i>silence, land of death</i>. Masc. <i>Dumah</i>, the guardian angel of the deceased. ",
+			"units": [
+				"<cite ref=\"Berakhot 18b:13\">Ber. 18ᵇ</cite> (Ms. M. <cite ref=\"D00276\"><he>דּוּמָא</he></cite>). ",
+				"<cite ref=\"Chagigah 5a:3\">Ḥag. 5ᵃ</cite> <he>משלימנא ליה לד׳</he> I (the angel of death) hand him over to Dumah. ",
+				"<cite ref=\"Shabbat 152b\">Sabb. 152ᵇ</cite>"
+			]
+		}
+	]
+}

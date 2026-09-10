@@ -1,0 +1,37 @@
+{
+	"id": "E00411",
+	"slug": "הילקט-2",
+	"headword": {
+		"text": "הִילְקֵט"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִלְקֵט"
+		}
+	],
+	"page": {
+		"number": 346,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"E00410\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (of circumcision) <i>to trim the preputium</i>, by splitting and drawing it upwards so as to <i>form a sort of pouch</i> around the denuded cone. ",
+			"units": [
+				"<cite ref=\"Shabbat 133b:11\">Sabb. 133ᵇ</cite>; <cite ref=\"Tosefta Shabbat 15:4\">Tosef. ib. XV</cite> (<cite ref=\"Tosefta Shabbat 16:4\">XVI</cite>), 4 <he>מְהַלְקְטִין וכ׳</he> you must denude the cone &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fill a bird’s pouch</i> or <i>crop, to stuff</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 24:3\">Sabb. XXIV, 3</cite>. ",
+				"<cite ref=\"Shabbat 155b\">Ib. 155ᵇ</cite>; <cite ref=\"Tosefta Shabbat 18:4\">Tosef. ib. XVIII, 4</cite> distinction between <he>מהלקטין</he> a. <he>מַלְקִיטִין</he> (Hif. of <cite ref=\"L00677\"><he>לָקַט</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

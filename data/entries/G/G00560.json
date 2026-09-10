@@ -1,0 +1,24 @@
+{
+	"id": "G00560",
+	"slug": "זנאי",
+	"headword": {
+		"text": "זַנַּאי"
+	},
+	"page": {
+		"number": 405,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00578\"><he>זני</he></cite>) <i>adulterer; voluptuous</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 156a\">Sabb. 156ᵃ</cite>.—Pl. <he>זַנָּאִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:1\">Targ. Jer. IX, 1</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:45\">Targ. Ez. XXIII, 45</cite> (h. text <he>נֹאֲפֹת</he>!)."
+			]
+		}
+	]
+}

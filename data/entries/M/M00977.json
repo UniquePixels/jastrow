@@ -1,0 +1,52 @@
+{
+	"id": "M00977",
+	"slug": "מטוטלת",
+	"headword": {
+		"text": "מְטוֹטֶלֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְטוֹלְטֶלֶת"
+		},
+		{
+			"text": "מְטַלְטֶ׳"
+		}
+	],
+	"page": {
+		"number": 766,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00490\"><he>טִלְטֵל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>plummet, plumb-line</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:8\">Kel. XII, 8</cite> <he>מטוט׳</he> Ar. a. Mish. (some ed. <he>מטוטלית</he>; ed. Dehr. <he>מְטוֹטָלוֹת</he>; Talm. ed. <he>מטולטלת</he>); <cite ref=\"Tosefta Keilim Batra 7:12\">Tosef. Kel. B. Bath. VII, 12</cite> <he>מְטַלְטְלוֹת</he>. ",
+				"<cite ref=\"Mishnah Kilayim 6:9\">Kil. VI, 9</cite> <he>כאילו מ׳ תלויה וכ׳</he> (Ms. M. <he>מטול׳</he>) as if a plumb-line were suspended on it (take the vertical line)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stem with foliage attached to a fruit.—</i>Pl. <he>מְטוֹטְלוֹת</he> (cmp. <cite ref=\"I00146\"><he>טוֹטַלְוָותָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:5:2\">Y. Ab. Zar. I, 39ᵈ</cite> <he>איצטרובלין במְטוֹטְלוֹתֵיהֶן</he> pine cones with their attachments (so that they can be used for the thyrsus, v. Sm. Ant. s. v. Thyrsus)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"M01010\"><he>מַטְלִית</he></cite>) <i>a pad</i> or <i>cushion made of pieces of cloth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:3\">Sabb. V, 3</cite> <he>לא יצא גמל במ׳</he> the camel must not be taken out (on the Sabbath) with the pad on his back; expl. Y. ib. 7ᵇ bot., v. <cite ref=\"C00096\"><he>גְּבִינְתָּא</he></cite>. Bab. ib. 54ᵃ <he>במ׳ הקשורה בזנבו</he> the pad tied only to his tail (hence liable to slide down); Tosef. ib. IV (V), 3 <he>במ׳ התלויה וכ׳</he> with the pad hanging (loosely lying) on his hump to let the air strike through; ib. [read:] <he>אבל יוצא הוא במ׳ הקשורה לו בזנבו ובחטרתו וכ׳</he>.—",
+				"<cite ref=\"Mishnah Tamid 5:4\">Tam. V, 4</cite> <he>כמין מ׳ וכ׳</he> there was on the top of the lid (of the coal pan) a sort of pad (with which to handle it). ",
+				"<cite ref=\"Tosefta Shabbat 6:7\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:1\">VII</cite>), 1 <he>הקושר מ׳ וכ׳</he> he who ties a pad to his hip (a superstitious custom).—Pl. <he>מְטוֹטְלוֹת מְטוֹלְטְלוֹת</he>, v. supra."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"id": "U01677",
+	"slug": "שעע-2",
+	"headword": {
+		"text": "שְׁעַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁעִיעַ"
+		}
+	],
+	"page": {
+		"number": 1611,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01676\">same</cite><i>to smooth, paste over, daub</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:10\">Targ. Ez. XIII, 10</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:12\">Ib. 12</cite> <he>שַׁעְתּוּן</he> (some ed. <he>שַׁעִיתוּן</he>, <i>Pa.</i> of <cite ref=\"U01653\"><he>שְׁעֵי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 22:28\">Ib. XXII, 28</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make smooth, flatter</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 36:3\">Targ. Ps. XXXVI, 3</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (of skin) <i>to be smooth, bright</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 4:7\">Targ. Lam. IV, 7</cite> (h. text <he>צחו</he>)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁעֵעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to smooth</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 5:10\">Targ. Ps. V, 10</cite> (v. <cite ref=\"U01653\"><he>שְׁעֵי</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתָּשַׁע"],
+			"senses": [
+				{
+					"gloss": "<i>to be pasted, daubed</i>, v. <cite ref=\"U00475\"><he>שׁוּעַ</he></cite> ch.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "U01860",
+	"slug": "שקיטנא",
+	"headword": {
+		"text": "שְׁקִיטְנָא"
+	},
+	"page": {
+		"number": 1622,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"U01833\"><he>שָׁקוּט</he></cite>) <i>flamingo</i> (from its abruptly bent beak).—Pl. <cite ref=\"U01860\"><he>שְׁקִיטְנָאֵי</he></cite>, <he>שִׁיקְטְ׳</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 63a:2\">Ḥull. 63ᵃ</cite> <he>ש׳ אריכי שקי וכ׳</he> Ms. M. a. Ar. (Ms. R. 1 <he>שִׁקְטְנָאֵי</he>; ed. sing., v. Rabb. D. S. a. l. note) flamingos, those with long legs and red are permitted, the short-legged and red are forbidden."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "A01404",
+	"slug": "איסור-1",
+	"headword": {
+		"text": "אֵיסוּר"
+	},
+	"page": {
+		"number": 53,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אסר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>imprisonment</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 28b:9\">Ber. 28ᵇ</cite> <he>אין אֵיסוּרוֹ א׳ עולם</he> the imprisonment which he decrees is not everlasting (as he may die and his successor may relieve me). "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "* (= <cite ref=\"A02445\"><he>אָסִיר</he></cite>), pl. <cite ref=\"A01336\"><he>אֵיסוּרִין</he></cite> <i>prisoners</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30</cite> he burst the prison open <he>והוציא האיסו׳</he> (<cite ref=\"Shemot Rabbah 30\">ib.</cite> also <he>האֵיסָרִין</he>) and set the prisoners free [prob. to be read <he>אסירין</he>]."
+			],
+			"label": "2"
+		}
+	]
+}

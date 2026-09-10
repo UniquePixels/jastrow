@@ -1,0 +1,38 @@
+{
+	"id": "K00165",
+	"slug": "כהן-3",
+	"headword": {
+		"text": "כָּהֵן"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּהֵין"
+		},
+		{
+			"text": "כַּהֲנָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 615,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"K00163\"><he>כֹּהֵן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:18\">Targ. Jer. XIV, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Malachi 2:7\">Targ. Mal. II, 7</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 1:7\">Targ. Lev. I, 7</cite>; a. v. fr.—",
+				"<cite ref=\"Sanhedrin 110a:2\">Snh. 110ᵃ</cite>, a. fr. <he>כ׳ רבא</he> high priest. ",
+				"<cite ref=\"Chullin 49a:19\">Ḥull. 49ᵃ</cite> <he>ישמעאל כ׳ מסייע כהני</he> Ishmael, being a priest, favors the priests. ",
+				"<cite ref=\"Gittin 59b:15\">Gitt. 59ᵇ</cite> <he>קרי בכ׳</he> read from the Torah in the priest’s place, i.e. was called up the first; <cite ref=\"Megillah 22a\">Meg. 22ᵃ</cite> Ms. O. (ed. <he>בכהני</he> pl.); a. fr.—Pl. <he>כַּהֲנִין</he>, <he>כַּהֲנַיָּא</he>, <cite ref=\"K00168\"><he>כַּהֲנֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 19:6\">Targ. Ex. XIX, 6</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 1:5\">Targ. O. Lev. I, 5</cite>; a. fr.—Gitt. l. c. <he>כ׳ חשיבי דא״י</he> highly esteemed Palestinean priests; a. fr.—<i>Fem.</i> (<cite ref=\"K00170\"><he>כֹּהֶנֶת</he></cite>) <cite ref=\"K00171\"><he>כַּהַנְתָּא</he></cite>. ",
+				"<cite ref=\"Chullin 131b:21\">Ḥull. 131ᵇ</cite> … <he>יהיב לכ׳</he> gave priestly gifts to a priest’s daughter (married to an Israelite). ",
+				"<cite ref=\"Pesachim 49a:15\">Pes. 49ᵃ</cite> <he>נסיב כ׳</he> married a priest’s daughter.—Pl. <cite ref=\"K00171\"><he>כַּהֲנָתָא</he></cite>. ",
+				"<cite ref=\"Berakhot 44a:6\">Ber. 44ᵃ</cite>"
+			]
+		}
+	]
+}

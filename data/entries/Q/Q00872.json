@@ -1,0 +1,27 @@
+{
+	"id": "Q00872",
+	"slug": "פירצא",
+	"headword": {
+		"text": "פִּירְצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1172,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00837\"><he>פְּרַ׳</he></cite>) <i>break, gap, perforation</i>.—Pl. <he>פִּירְצֵי</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 108a:2\">Sabb. 108ᵃ</cite> <he>כיון דאית ביה פ׳ פ׳</he> because it (the skin of the plucked bird) is full of holes.—[<cite ref=\"Q00842\"><he>פִּירְצִין</he></cite>, v. <cite ref=\"Q01824\"><he>פְּרִיצָא</he></cite>.]"
+			]
+		}
+	]
+}

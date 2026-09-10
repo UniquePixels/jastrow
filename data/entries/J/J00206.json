@@ -1,0 +1,33 @@
+{
+	"id": "J00206",
+	"slug": "יוני-2",
+	"headword": {
+		"text": "יְוָנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְוָו׳"
+		},
+		{
+			"text": "יְוָנִית"
+		}
+	],
+	"page": {
+		"number": 570,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00199\"><he>יָוָן</he></cite>) <i>Grecian, Greek</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 82b:18\">B. Kam. 82ᵇ</cite> <he>חָכְמַת י׳</he> the principle of Greek culture (philosophy, ethics, religion &c.). ",
+				"<cite ref=\"Bava Kamma 83a:1\">Ib. 83ᵃ</cite> <he>לשון י׳</he> Greek language, distinguished fr. <he>חכמת י׳</he>. ",
+				"<cite ref=\"Megillah 9a:8\">Meg. 9ᵃ</cite> <he>התירו יונית</he> permitted the use of a Greek translation. Y. ib. I, 71ᶜ top, v. <cite ref=\"B00101\"><he>בָּדָא</he></cite>; a. fr.—V. <cite ref=\"L00705\"><he>לָשׁוֹן</he></cite>.—Pl. <cite ref=\"J00206\"><he>יְוָנִים</he></cite>, <cite ref=\"J00201\"><he>יְוָו׳</he></cite> <i>Greeks</i> (mostly of the Syrian government). ",
+				"<cite ref=\"Megillah 11a:11\">Meg. 11ᵃ</cite> <he>בימי י׳</he> in the days of the Greeks (of Antiochus Epiphanes and successors); Esth. R., beg. <cite ref=\"I00893\"><he>טרקווינוס</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

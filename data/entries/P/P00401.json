@@ -1,0 +1,22 @@
+{
+	"id": "P00401",
+	"slug": "עזוז",
+	"headword": {
+		"text": "עִזּוּז"
+	},
+	"page": {
+		"number": 1061,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00403\"><he>עָזַז</he></cite>)<i>majestic</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 33b\">Ber. 33ᵇ</cite>; <cite ref=\"Midrash Tehillim 19\">Midr. Till. to Ps. XIX</cite>."
+			]
+		}
+	]
+}

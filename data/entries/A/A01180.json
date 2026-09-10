@@ -1,0 +1,30 @@
+{
+	"id": "A01180",
+	"slug": "איהו",
+	"headword": {
+		"text": "אִיהוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיהוּא"
+		}
+	],
+	"page": {
+		"number": 46,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"A01181\"><he>אִיהִי</he></cite> f. (= <cite ref=\"E00177\"><he>הוּ</he></cite>, <cite ref=\"E00179\"><he>הִי</he></cite>, v. <cite ref=\"A00007\"><he>אִ־</he></cite>) <i>he, himself; she, herself</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 5:3\">Targ. Y. Lev. V, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:1\">Targ. Esth. I, 1</cite>; a. v. fr.—",
+				"<cite ref=\"Bereishit Rabbah 49:11\">Gen. R. s. 49</cite> <he>יסב א׳ וכ׳</he> let himself take ashes; a. fr.—Pl. <cite ref=\"A01374\"><he>אִינְהוּ</he></cite> m., <cite ref=\"A01374\"><he>אִינְהִי</he></cite> f.; <cite ref=\"N00627\"><he>נִיהוּ</he></cite>, <cite ref=\"N00692\"><he>נִינְהוּ</he></cite>; <cite ref=\"A01388\"><he>אִינָךְ</he></cite>, <cite ref=\"A01377\"><he>אִינוּן</he></cite> m., <cite ref=\"A01386\"><he>אִינִין</he></cite> f. (contr. <cite ref=\"A02144\"><he>אִנּוּן</he></cite>, <cite ref=\"A02228\"><he>אִנִּין</he></cite>); very freq.—Y. Bicc. II, end, 65ᵇ <he>דינון מרין</he> = <he>דאינון אמרין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:6:3\">Y. Meg. I, 71ᵃ</cite> top <he>אילין אינין</he> are there only these (differences between the Sabbath and Festivals)?"
+			]
+		}
+	]
+}

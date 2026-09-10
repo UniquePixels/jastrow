@@ -1,0 +1,33 @@
+{
+	"id": "Q00888",
+	"slug": "פיתא",
+	"headword": {
+		"text": "פִּיתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּתָּא"
+		}
+	],
+	"page": {
+		"number": 1172,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"Q02111\"><he>פַּת</he></cite>, <i>piece, bread</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:5\">Targ. O. Gen. XVIII, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 40:16\">Targ. Y. I ib. XL, 16</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 40b:6\">Ber. 40ᵇ</cite> <he>בריך רחמנא מריה דהאי פ׳</he> blessed be the Merciful One, the owner of this bread. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:7:3\">Y. Bets. I, 60ᶜ</cite> bot., v. <cite ref=\"A03214\"><he>אָרֶסְקִינָס</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:15\">Y. Ter. VIII, 45ᵈ</cite> top <he>פ׳ תחות וכ׳</he> (you must not put) a piece of bread under the arm-pit (a superstitious practice); <cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:13\">Y. Ab. Zar. II, 41ᵃ</cite> bot. <cite ref=\"Q00419\"><he>פותתא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:7:2\">Y. Ber. VI, end, 10ᵈ</cite> <he>פ׳ ופירור</he> when there is before you bread and some delicacy; a. fr.—Pl. <he>פִּיתִּין</he>, <cite ref=\"Q02170\"><he>פִּתִּין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 10:3\">Targ. I Sam. X, 3</cite> (h. text <he>ככרות</he>)."
+			]
+		}
+	]
+}

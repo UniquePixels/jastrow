@@ -1,0 +1,24 @@
+{
+	"id": "Q00817",
+	"slug": "פיקעא",
+	"headword": {
+		"text": "פִּיקְעָא"
+	},
+	"page": {
+		"number": 1170,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01503\"><he>פְּקַע</he></cite>) <i>split</i>, esp. <i>slits in the rectum</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28a\">Ab. Zar. 28ᵃ</cite> sq. <he>חש בפ׳</he> suffered from slits. ",
+				"<cite ref=\"Avodah Zarah 28a\">Ib.</cite> <he>ליתי … ולינח פ׳ להדי פ׳</he> let him get the kernel of a bramble fruit and place its split (wedge-shaped) side against the slit. ",
+				"<cite ref=\"Avodah Zarah 28a\">Ib.</cite> <he>פ׳ עילאה</he> slits in the upper part of the rectum, <he>פ׳ תיתאה</he> in the lower part."
+			]
+		}
+	]
+}

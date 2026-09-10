@@ -1,0 +1,23 @@
+{
+	"id": "Q00659",
+	"slug": "פיישונא",
+	"headword": {
+		"text": "פַּיְישׂוֹנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1163,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"Q00654\"><he>פַּיָיס</he></cite>) [<i>pebble</i>,] name of a species of <i>beans</i> (cmp. <cite ref=\"K01274\"><he>כַּרְשִׁינָא</he></cite> I a. III), called in Hebrew <i>sappir</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:1:7\">Y. Kil. I, 27ᵃ</cite> top, R. S. to <cite ref=\"Mishnah Kilayim 1:1\">Kil. I, 1</cite> (ed. <cite ref=\"Q00399\"><he>פושונה</he></cite>), v. <cite ref=\"O01374\"><he>סַפִּיר</he></cite>."
+			]
+		}
+	]
+}

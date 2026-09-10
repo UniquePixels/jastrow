@@ -1,0 +1,33 @@
+{
+	"id": "S02021",
+	"slug": "קרי-5",
+	"headword": {
+		"text": "קְרֵי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1418,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02020\">same</cite>, <i>to join</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיקְּרֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to do something by accident; to happen</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 33a:7\">Snh. 33ᵃ</cite> <he>א׳ ועבד כחד וכ׳</he> if he happened to act in accordance with the opinion of one of them, when the common usage agrees with the other. ",
+						"<cite ref=\"Ketubot 26a:5\">Keth. 26ᵃ</cite> <he>אִיקְּרוּ ויהבו ליה</he> accidentally they gave it to him."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

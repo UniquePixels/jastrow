@@ -1,0 +1,31 @@
+{
+	"id": "P01066",
+	"slug": "עפל-1",
+	"headword": {
+		"text": "עָפַל"
+	},
+	"page": {
+		"number": 1100,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to swell, rise</i>.—V. <cite ref=\"P00319\"><he>עוֹפֶל</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעְפִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to act rashly, be foolhardy</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 97a\">Sabb. 97ᵃ</cite> <he>מן המַעְפִּילִים הוה</he> Ms. M. (v. Rabb. D. S. a. l. note; ed. <he>מִוַּיַּעְפִּילוּ</he>) he was one of the foolhardy (<cite ref=\"Numbers 14:44\">Num. XIV, 44</cite>); <cite ref=\"Yalkut Shimoni on Torah 749:6\">Yalk. Num. 749</cite> <he>המַעְפִּילִין</he>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

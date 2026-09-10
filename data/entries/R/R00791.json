@@ -1,0 +1,41 @@
+{
+	"id": "R00791",
+	"slug": "צרע-1",
+	"headword": {
+		"text": "צָרַע"
+	},
+	"page": {
+		"number": 1303,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"R00790\">preced.</cite> a. <cite ref=\"N00809\"><he>נָכָה</he></cite> <i>Hif.</i>) <i>to strike, smash</i>, esp. (cmp. <cite ref=\"N00176\"><he>נָגַע</he></cite> a. <cite ref=\"K01392\"><he>כְּתַשׁ</he></cite>) <i>to strike with leprosy</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 271\">Yalk. Is. 271</cite> <he>כמו שצָרַעְתִּי את ידך</he> as I struck thy (Moses’) hand with leprosy.—Part. pass. <he>צָרוּעַ</he> <i>leper</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 7:5\">Num. R. s. 7</cite>, v. <cite ref=\"Q01943\"><he>פָּרַע</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצְטָרֵעַ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִצְטָרֵעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to become</i>, or <i>to be a leper</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 110a\">Snh. 110ᵃ</cite> he who encourages strife <he>ראוי לִיצְטָרֵעַ</he> deserves to be stricken with leprosy. ",
+						"<cite ref=\"Sanhedrin 107a\">Ib. 107ᵃ</cite> <he>ששה חדשים נ׳ דוד</he> David was a leper for six months. ",
+						"<cite ref=\"Shemot Rabbah 3:13\">Ex. R. s. 3</cite> <he>לא נִצְטָרְעָה היד וכ׳</he> Moses’ hand did not become leprous, until he had taken it out &c.; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

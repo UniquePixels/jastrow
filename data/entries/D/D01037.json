@@ -1,0 +1,29 @@
+{
+	"id": "D01037",
+	"slug": "דרגון",
+	"headword": {
+		"text": "דַּרְגּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּרְגּוֹן"
+		}
+	],
+	"page": {
+		"number": 321,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דרג</he>) <i>a suite of graded officers</i>, <i>staff</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite> <he>הוא וכל דו׳ דידיה</he> He and His entire staff (of angels); <cite ref=\"Jerusalem Talmud Sanhedrin 2:1:3\">Y. Snh. II, 20ᵃ</cite> top. ",
+				"<cite ref=\"Shemot Rabbah 1:27\">Ex. R. s. 1</cite> <he>היה מניח ד׳ שלו</he> Moses left his suite. ",
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> <he>שיהיו עושין ד׳ וכ׳</he> (not <he>דרגין</he>) to form his staff (on bringing up the Ark, <cite ref=\"II Samuel 6:1\">II Sam. VI, 1</cite> sq.).—Y’lamd. to Num. XII, 1, quot. in Ar.; ib. to <cite ref=\"Deuteronomy 11:22\">Deut. XI, 22</cite> <he>דרו׳</he>, a. <cite ref=\"D01048\"><he>דור׳</he></cite> (v. Koh. Ar. Compl. s. v. <cite ref=\"A02911\"><he>אקי</he></cite>).—[<cite ref=\"Tosefta Nazir 1:2\">Tosef. Naz. I, 2</cite> <he>דרגון</he>, v. <cite ref=\"D00484\"><he>דִּיגוֹן</he></cite>, <cite ref=\"I00773\"><he>טְרִיגוֹן</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "A00301",
+	"slug": "אגלא",
+	"headword": {
+		"text": "אִגְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיגְלָא"
+		}
+	],
+	"page": {
+		"number": 12,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00848\"><he>גַּל</he></cite>, <he>גלל</he>) <i>outside-door, city-gate</i>.—Pl. <cite ref=\"C00927\"><he>אִגְלֵי</he></cite>, <cite ref=\"C00927\"><he>אִיגְלֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 8a\">B. Bath. 8ᵃ</cite> <he>הכל לאי׳ גפא</he> Ar. (ed. <he>לאג׳</he>. all must contribute towards keeping the city gates in repair.; <cite ref=\"Bava Metzia 108a\">B. Mets. 108ᵃ</cite> (Ms. M. <cite ref=\"C00927\"><he>גַלֵּי</he></cite>)."
+			]
+		}
+	]
+}

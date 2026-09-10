@@ -1,0 +1,28 @@
+{
+	"id": "T00452",
+	"slug": "רושמתא",
+	"headword": {
+		"text": "רוּשְׁמְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוּשְׁמָתָא"
+		}
+	],
+	"page": {
+		"number": 1464,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"T00451\">same</cite>, <i>mark, trace</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 89:52\">Targ. Ps. LXXXIX, 52</cite> <cite ref=\"T00451\"><he>רוּשְׁמַת</he></cite> constr. (Ms. <cite ref=\"T00726\"><he>רִישְׁמַת</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 77:20\">Ib. LXXVII, 20</cite>."
+			]
+		}
+	]
+}

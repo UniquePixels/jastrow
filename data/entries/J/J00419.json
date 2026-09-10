@@ -1,0 +1,45 @@
+{
+	"id": "J00419",
+	"slug": "ימן-1",
+	"headword": {
+		"text": "יָמַן"
+	},
+	"page": {
+		"number": 580,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>יִמֵּן</he> (denom. of <cite ref=\"J00412\"><he>יָמִין</he></cite>; cmp. <cite ref=\"A02038\"><he>אָמַן</he></cite>) <i>to endow with skill, strength, distinction</i>. Part. pass. <he>מְיוּמָּן</he>, f. <he>מְיוּמֶּנֶת</he>. ",
+					"units": [
+						"<cite ref=\"Chullin 91a\">Ḥull. 91ᵃ</cite> <he>הירך המ׳ שבירך</he> it says ‘<i>the</i> hip’ (<cite ref=\"Genesis 32:33\">Gen. XXXII, 33</cite>) that means the strongest of the hips (the right); ib. 134ᵇ <he>הכא נמי הזרוע המ׳ וכ׳</he> here, too, we read ‘<i>the</i> arm’ (<cite ref=\"Deuteronomy 18:3\">Deut. XVIII, 3</cite>), that means the right arm; <cite ref=\"Horayot 12a:16\">Hor. 12ᵃ</cite> <he>ה״נ המשיח המ׳ וכ׳</he> here, too, we read ‘<i>the</i> anointed’ (<cite ref=\"Leviticus 4:3\">Lev. IV, 3</cite>), the distinguished among the anointed (the Highpriest). Sifra Vayikra, Ḥoba, ch. III, Par. 3 <he>מה … הימנית המ׳ שבימין וכ׳</he> as the finger mentioned there (<cite ref=\"Leviticus 14:16\">Lev. XIV, 16</cite>) is ‘<i>the</i> right’ which means the most skilled (the index) finger of the right hand &c.; [<cite ref=\"Zevachim 40a\">Zeb. 40ᵃ</cite> sq. <he>לא נצרכא אלא להכשיר אָמוּן שבאצבע</he> Ms. M. (ed. <he>אמין</he>, omitting <cite ref=\"A01770\"><he>אלא</he></cite>; v. Rabb. D. S. a. l. note) the <cite ref=\"G00078\"><he>את</he></cite> (<cite ref=\"Leviticus 4:6\">Lev. IV, 6</cite> <he>את אצבעו</he>) would not have been required, were it not to indicate, as the fittest for the ceremony, the most skilled of the fingers.—Rashi: <he>אמין</he> <i>blister</i>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["השמאיל"],
+			"senses": [
+				{
+					"gloss": ". ",
+					"units": [
+						"<cite ref=\"Shabbat 63a:18\">Sabb. 63ᵃ</cite> (ref. to <cite ref=\"Proverbs 3:16\">Prov. III, 16</cite>) <he>למַיְימִינִין בה וכ׳</he> to those who make the right use of it &c.; <cite ref=\"Yalkut Shimoni on Nach 934\">Yalk. Prov. 934</cite>.—",
+						"<cite ref=\"Shir HaShirim Rabbah 1:9:1\">Cant. R. to I, 9</cite> <he>אלו מֵימִינִים וכ׳</he> the ones stand on the right side (pleading in favor of the accused) &c.—",
+						"<cite ref=\"Shabbat 88b\">Sabb. 88ᵇ</cite>, v. <cite ref=\"J00420\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"id": "J00477",
+	"slug": "יעד-2",
+	"headword": {
+		"text": "יְעַד"
+	},
+	"page": {
+		"number": 584,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": " as <cite ref=\"J00476\">preced.</cite> <i>Pi.</i>, <i>to designate</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 18b:4\">Kidd. 18ᵇ</cite> <he>הא יַעוּדֵי מְיַיעֵד לה</he> but betroth her he may?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"P00198\"><he>עוּד</he></cite>, <cite ref=\"M00556\"><he>מוּעָד</he></cite>) <i>to forewarn</i> the owner of a noxious beast. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 84b:12\">B. Kam. 84ᵇ</cite> <he>ויַעֲדוּהָ</he> and declared the beast noxious. ",
+				"<cite ref=\"Bava Kamma 24a:6-9\">Ib. 24ᵃ</cite> <he>שלשה … ליַיעוּדִי תורא וכ׳</he> the three days mentioned—are they required for declaring the ox noxious (making the owner responsible, if the ox gored three days in succession) or for warning the owner (i.e. that the owner must have three notices in three consecutive days)?; <cite ref=\"Bava Kamma 41a:22\">ib. 41ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"J00476\"><he>יַעֵד</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיָּיעֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to be forewarned, to be declared noxious</i> (<cite ref=\"M00556\"><he>מוּעָד</he></cite>). Ib. 84ᵇ <he>דא׳ התם וכ׳</he> he was declared noxious there (in Palestine) and was brought to Babylonia. Ib. 24ᵃ <he>מִיָּיעֵד</he> he stands forewarned. Ib. 37ᵇ <he>לשוורים הוא דא׳</he> he stands forewarned with reference to damage done to oxen only; <he>א׳ ליה לכולהו מיני</he> he stands forewarned with reference to all kinds (oxen, asses and camels); a. e.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "O01440",
+	"slug": "סק-2",
+	"headword": {
+		"text": "סַק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1019,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"U01822\"><he>שַׂק</he></cite>, <i>sack</i>, <i>sackcloth</i>.—Pl. <he>סַקִּים</he>, <he>סַקִּין</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 5:13\">Tosef. Sabb. V</cite> (<cite ref=\"Tosefta Shabbat 6:13\">VI</cite>), 13 (<cite ref=\"Shabbat 62a\">Sabb. 62ᵃ</cite> <he>שַׂקִּין</he>).—V. <cite ref=\"U01822\"><he>שַׂק</he></cite>.—[<cite ref=\"Sifrei Bamidbar 89:1\">Sifré Num. 89</cite> <he>סק בקוטלא</he>, v. <cite ref=\"O01454\"><he>סְקוּטְלָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "I00410",
+	"slug": "טיפא-1",
+	"headword": {
+		"text": "טְיָפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְיָיפָא"
+		}
+	],
+	"page": {
+		"number": 533,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.; pl. <he>טְיָפִין</he>, <he>טְיָפֵי</he>, (<cite ref=\"I00156\"><he>טְוָו׳</he></cite>) <he>טְיָי׳</he> (<he>טוף</he>, cmp. <cite ref=\"I00409\">preced.</cite> wrds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>duct of overflow, channels</i>.—",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 5:16\">Targ. Prov. V, 16</cite> (ed. Lag. <he>טוופי</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 1:3\">Targ. Ps. I, 3</cite> <he>טְוָפֵי</he> ed. Wil. (ed. Lag. <cite ref=\"I00245\"><he>טורפי</he></cite>, some ed. <cite ref=\"I00734\"><he>טרופי</he></cite>, read <cite ref=\"I00156\"><he>טוו׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:136\">Ib. CXIX, 136</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 29:6\">Targ. Job XXIX, 6</cite> (h. text everywhere <cite ref=\"Q00946\"><he>פלגי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 20:17\">Ib. XX, 17</cite> (h. text <cite ref=\"Q00945\"><he>פלגות</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>drops</i>. Ib. XXXVI, 27 <he>טְיוּפֵי</he> ed. Lag. (oth. ed. <he>טייפי</he>, Ms. <he>טוופי</he>, h. text <he>נטפי</he>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

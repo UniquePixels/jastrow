@@ -1,0 +1,22 @@
+{
+	"id": "U00224",
+	"slug": "שגיאה",
+	"headword": {
+		"text": "שְׁגִיאָה"
+	},
+	"page": {
+		"number": 1522,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00215\"><he>שָׁגָה</he></cite>) <i>error, inadvertency</i>.—Pl. <he>שְׁגִיאוֹת</he>. Midr. Till, to <cite ref=\"Psalms 7\">Ps. VII</cite> ed. Bub. <he>על כל ש׳ שעשיתי מחול וסלח לי</he> forgive me and pardon me for all inadvertent wrongs that I may have committed. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 19:16\">Midr. Till. to Ps. XIX</cite> <he>שגיאותיו</he> ed. Bub., v. <cite ref=\"U00212\"><he>שְׁגַגְתָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"id": "H00757",
+	"slug": "חיל-3",
+	"headword": {
+		"text": "חִיל"
+	},
+	"page": {
+		"number": 455,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to strengthen</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 4:4\">Targ. Job IV, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 16:5\">Ib. XVI, 5</cite> (incorr. ed. <he>אאח׳</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to serve</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 4:23\">Targ. Num. IV, 23</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H00732\"><he>חַיֵּיל</he></cite>, <cite ref=\"H00756\"><he>חַיֵּל</he></cite> (denom. of <cite ref=\"H00795\"><he>חֵילָא</he></cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַיֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be strengthened</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 6:16\">Targ. Job VI, 16</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to move into war, to gather together</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 31:7\">Targ. Num. XXXI, 7</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 10:17\">Targ. Job X, 17</cite> (some ed. <he>מתייחל׳</he>, corr. acc.)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

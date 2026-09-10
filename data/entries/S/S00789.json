@@ -1,0 +1,36 @@
+{
+	"id": "S00789",
+	"slug": "קטם-5",
+	"headword": {
+		"text": "קְטַם",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטְמָא"
+		},
+		{
+			"text": "קִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1350,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְטַם</he> I, 2) <i>ashes, powder</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:27\">Targ. Gen. XVIII, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 9:8\">Targ. Y. Ex. IX, 8</cite> <he>ק׳ דקיק</he> (h. text <cite ref=\"Q00611\"><he>פיח</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 1:16\">Targ. Lev. I, 16</cite> (h. text <he>דשן</he>); a. fr.—",
+				"<cite ref=\"Chullin 51b:16\">Ḥull. 51ᵇ</cite> <he>ק׳ נהילא</he> (fem.), v. <cite ref=\"N00270\"><he>נְהַל</he></cite>. ",
+				"<cite ref=\"Berakhot 28a:3\">Ber. 28ᵃ</cite>, v. <cite ref=\"H01496\"><he>חַצְבָּא</he></cite>; a. fr.—[<cite ref=\"Midrash Tehillim 12:1\">Midr. Till. to Ps. XII</cite> <he>קיטמא כולה</he> ed. Bub., v. <cite ref=\"S00518\"><he>קוּפְסָא</he></cite>.]—[<cite ref=\"Targum Jonathan on Zechariah 6:3\">Targ. Zech. VI, 3</cite> <he>קטמין</he> Ar., v. <cite ref=\"S00793\"><he>קִטְמָנָא</he></cite>.]"
+			]
+		}
+	]
+}

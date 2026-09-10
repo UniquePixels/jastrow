@@ -1,0 +1,62 @@
+{
+	"id": "N00115",
+	"slug": "נגב-2",
+	"headword": {
+		"text": "נָגַב"
+	},
+	"page": {
+		"number": 871,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"C00031\"><he>גַּב</he></cite>) [<i>to have a crust,</i>] <i>to be dry</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 5:3\">Ab. Zar. V, 3</cite> (<cite ref=\"Avodah Zarah 69a:5\">69ᵃ</cite>) <he>כדי שישתום … ויִגּוֹב</he> as much time as would be required for a person to bore a hole (uncork), and close it up, and (for the sealing clay) to get dry; <cite ref=\"Avodah Zarah 69a:5\">ib.</cite> <he>כדי שיפתח</he> (<he>את החבית</he>) … <he>ותִיגּוֹב</he> to open the jug and close it up again, and (for the clay) to dry; a. e.—Part. pass. <cite ref=\"N00130\"><he>נָגוּב</he></cite>; f. <cite ref=\"N00131\"><he>נְגוּבָה</he></cite>; pl. <he>נְגוּבִים</he>, <he>נְגוּבִין</he>; <he>נְגוּבוֹת</he> <i>dry</i>. ",
+				"<cite ref=\"Mishnah Chagigah 3:3\">Ḥag. III, 3</cite> <he>אוכלים נ׳</he> dry eatables (which have not come in contact with liquids and are, therefore, insusceptible of levitical uncleanness, v. <cite ref=\"E00526\"><he>הֶכְשֵׁר</he></cite>); <cite ref=\"Tosefta Chagigah 3:11\">Tosef. ib. III, 11</cite>. ",
+				"<cite ref=\"Tosefta Chagigah 3:12\">Ib. 12</cite> <he>וכי יש נגובים לקדש</he> are the exemptions in favor of dry objects applicable to sacred matter?; <cite ref=\"Chagigah 24b:8\">Ḥag. 24ᵇ</cite> <he>וכי יש נגובה וכ׳</he> (Ms. M. <cite ref=\"N00151\"><he>נְגִיבָה</he></cite>). ",
+				"<cite ref=\"Chagigah 24a\">Ib.ᵃ</cite>, sq. <he>יד נ׳ מטמאה וכ׳</he> one dry hand (which has become unclean) makes the other hand unclean; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיגֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to dry, wipe, scour</i>. Ib. III, 1 (20ᵇ) <he>מתיר ומְנַגֵּב ומטביל</he> (Bab. ed. <he>ומַנְגִּיב</he>, v. Rabb. D. S. a. l. note 3; Y. ed. <he>מתיר ומטביל</he>) he must open (the knots of the garment) and wipe it dry and smooth and then immerse. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite>, beg. <he>עד שלא יְנַגְּבָהּ</he> before he gets it (the garment) dry and glossy; <cite ref=\"Vayikra Rabbah 28:3\">ib.</cite> <he>ומְנַגֵּב את הארץ</he> and makes the earth dry; <cite ref=\"Kohelet Rabbah 1:3\">Koh. R. to I, 3</cite> <he>ומכבסן ומבשלן ומְנַגְּבָן</he> and washes them (the plants) and ripens and glosses them. ",
+						"<cite ref=\"Mishnah Avodah Zarah 5:11\">Ab. Zar. V, 11</cite> <he>מְנַגְּבָהּ</he> he scours it; <cite ref=\"Avodah Zarah 74b:9\">ib. 74ᵇ</cite> <he>במה מְנַגְּבָן וכ׳</he> wherewith does he scour them? … with ashes, … with water. ",
+						"<cite ref=\"Avodah Zarah 75a\">Ib. 75ᵃ</cite>; a. fr.—<i>Part. pass.</i> <he>מְנוּגָּב</he> <i>dry, parched, sapless, bare of</i>. ",
+						"<cite ref=\"Temurah 16a:46\">Tem. 16ᵃ</cite> (play on <he>הנגב</he> <cite ref=\"Joshua 15:19\">Josh. XV, 19</cite>) <he>בית שמנ׳ מכל וכ׳</he> a household bare of all that is good; <cite ref=\"Yalkut Shimoni on Nach 27\">Yalk. Josh. 27</cite> <he>אדם המנ׳ וכ׳</he> a man bare &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִנְגִּיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00114\">same</cite>, v. supra.—2) (denom. of <cite ref=\"N00114\"><he>נֶגֶב</he></cite>) <i>to go south</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 53b\">Erub. 53ᵇ</cite> (in an enigmatic speech) <he>וה׳ למפיבשת</he> and went south to the great scholar (v. <cite ref=\"M02211\"><he>מְפִיבשֶׁת</he></cite>)."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִתְנַגֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be dried up</i>. Sifra <cite ref=\"Leviticus 1\">B’ḥuck. ch. I</cite> <he>ונִתְנַגְּבָה הארץ</he> the ground was dried up; <cite ref=\"Vayikra Rabbah 35\">Lev. R. s. 35</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

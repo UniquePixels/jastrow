@@ -1,0 +1,45 @@
+{
+	"id": "L00131",
+	"slug": "לגימה",
+	"headword": {
+		"text": "לְגִימָה"
+	},
+	"page": {
+		"number": 692,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>לגם</he>, v. <cite ref=\"L00188\"><he>לוּגְמָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>quaffing, taking a draught</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:2:7\">Y. Sot. I, 16ᶜ</cite> bot. <he>כדי לְגִימַת שלש וכ׳</he> (Bab. ",
+				"<cite ref=\"Sotah 4a:18\">ib. 4ᵃ</cite> <he>כדי לגמע</he>, v. <cite ref=\"C00996\"><he>גָּמָא</he></cite>) as much time as is required for quaffing three roasted eggs."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (in gen.) <i>eating and drinking, entertainment</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 103b:17\">Snh. 103ᵇ</cite> <he>גדולה ל׳ שהרחיקה וכ׳</he> a little refreshment plays an essential part, for its refusal estranged two tribes from Israel (Ammon and Moab, v. ",
+				"<cite ref=\"Deuteronomy 23:4\">Deut. XXIII, 4</cite> sq.). Ib. 52ᵃ (ref. to <cite ref=\"Psalms 35:16\">Ps. XXXV, 16</cite>) <he>שהחניפו לקרח על עיסקי ל׳</he> they flattered Korah for the sake of entertainments (to which he used to invite them); <cite ref=\"Yalkut Shimoni on Nach 723\">Yalk. Ps. 723</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>living, support</i> (our ‘bread and butter’). ",
+			"units": [
+				"<cite ref=\"Gittin 7a:12\">Gitt. 7ᵃ</cite> (play on <he>צ̇ק̇ל̇ג̇ ומד̇מ̇נה וס̇נ̇סנה̇</he>, <cite ref=\"Joshua 15:31\">Josh. XV, 31</cite>) <he>כל מי שיש לו צ̇עק̇ת ל̇ג̇ימא על חבירווד̇ומ̇ם שוכן בס̇נ̇ה̇ יעשה לו דין</he> if one has cause to complain of being hindered in his livelihood by his neighbor and keeps his peace, He who dwells in the thornbush will take up his cause. ",
+				"<cite ref=\"Bekhorot 35a:18\">Bekh. 35ᵃ</cite> <he>ללגימא לא חיישינן</he> we do not apprehend that their testimony may be influenced by their bread and butter, i.e. by their dependence on their employers.—Pl. <he>לְגִימוֹת</he>. ",
+				"<cite ref=\"Rosh Hashanah 18a:12\">R. Hash. 18ᵃ</cite> <he>כנגד י׳ ל׳ וכ׳</he> corresponding to the ten meals which Nabal gave to David’s servants (<cite ref=\"I Samuel 25:5\">I Sam. XXV, 5</cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

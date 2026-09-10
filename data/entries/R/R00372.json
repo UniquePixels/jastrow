@@ -1,0 +1,27 @@
+{
+	"id": "R00372",
+	"slug": "צימוח-1",
+	"headword": {
+		"text": "צִימּוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִמּוּחַ"
+		}
+	],
+	"page": {
+		"number": 1277,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00565\"><he>צָמַח</he></cite>) <i>sprouting, growth</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Negaim 4:2\">Tosef. Neg. IV, 2</cite> <he>להציל בצ׳</he> to save (relieve from the leper’s restrictions) by the growth of black hair (<cite ref=\"Leviticus 13:37\">Lev. XIII, 37</cite>)."
+			]
+		}
+	]
+}

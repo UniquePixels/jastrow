@@ -1,0 +1,41 @@
+{
+	"id": "T00732",
+	"slug": "רישתא",
+	"headword": {
+		"text": "רֵישְׁתָּא"
+	},
+	"page": {
+		"number": 1478,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"T00718\"><he>רֵישָׁא</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>head</i>.—Pl. <cite ref=\"T00721\"><he>רֵישְׁוָותָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 29b:13\">Kidd. 29ᵇ</cite> <he>כתנינא דשבעה ר׳</he> (some ed. <he>רֵישְׁוָותַיָּה</he>; Rashi <he>רֵישַׁיָּה</he>) like a serpent with seven heads."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>chief</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 110a\">Pes. 110ᵃ</cite> <he>רֵישְׁתִּינְתִי דנשים וכ׳</he> the chief of the sorceresses, v. <cite ref=\"D01155\"><he>דִּשְׁתַּיְיהִי</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>beginning</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 8:23\">Targ. Prov. VIII, 23</cite> Ms. (ed. <he>רֵישֵׁיה</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

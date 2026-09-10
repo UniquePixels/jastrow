@@ -1,0 +1,24 @@
+{
+	"id": "A03099",
+	"slug": "אריכא-1",
+	"headword": {
+		"text": "אָרֵיכָא"
+	},
+	"page": {
+		"number": 120,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A03098\">preced.</cite>) [one who arranges arguments,] <i>Arekha</i>, title of a lecturer. ",
+			"units": [
+				"<cite ref=\"Shabbat 59b:8\">Sabb. 59ᵇ</cite> <he>גברא רבה א׳</he> a great man, a lecturer. Esp. known R. <i>Aḥa Arekha</i>. ",
+				"<cite ref=\"Shabbat 111a:4\">Ib. 111ᵃ</cite>; a. e. ",
+				"<cite ref=\"Berakhot 33a:34\">Ber. 33ᵃ</cite> ed. (Ms. M. Ḥiya); <i>Abba Arekha</i> (Rab, v. <cite ref=\"T00042\"><he>רַב</he></cite>). [In legend: <i>tall</i>, v. <cite ref=\"A03026\"><he>אָרוּךְ</he></cite>.]"
+			]
+		}
+	]
+}

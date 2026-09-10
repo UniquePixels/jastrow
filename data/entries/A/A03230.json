@@ -1,0 +1,29 @@
+{
+	"id": "A03230",
+	"slug": "ארץ",
+	"headword": {
+		"text": "אֶרֶץ"
+	},
+	"page": {
+		"number": 125,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>רצץ</he>; Ch. a. oth. dial. <cite ref=\"A03216\"><he>ארע</he></cite> fr. <he>רעע</he> <i>to press together, stamp</i>—from the rugged appearance of the surface after the subsidence of the waters) <i>earth, dry land; country, land, field</i> (opp. to town). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 13:7\">Ex. R. s. 13</cite> … threw dust upon the waters <he>ונעשה א׳</he> and earth (crust) was formed.—<he>א׳ ישראל</he> (abbr. <he>א״י</he>) <i>Palestine</i>, opp. <he>חוצה לָאָ׳</he>, or <he>מדינת הים</he> foreign countries, or distant countries. ",
+				"<cite ref=\"Mishnah Gittin 1:2\">Gitt. I, 2</cite>. ",
+				"<cite ref=\"Gittin 6a:11\">Ib. 6ᵃ</cite>; a. fr.—הָאָרֶץ <i>Palestine</i>, <cite ref=\"Chullin 16b:15\">Ḥull. 16ᵇ</cite> <he>משנכנסו לא׳</he> since entering Palestine (under Joshua); a. fr.—<he>עם הָאָ׳</he> (abbr. <he>ע״ה</he>) <i>country people</i>, hence <i>illiterate, coarse, unrefined</i> (often applied to an individual); pl. <he>עַמֵּי הא׳</he>, opp. <he>תלמיד חכם</he>. ",
+				"<cite ref=\"Shabbat 63a:28\">Sabb. 63ᵃ</cite>. ",
+				"<cite ref=\"Chullin 92a:19\">Ḥull. 92ᵃ</cite>; a. v. fr.—Esp. <he>ע״ה</he> <i>those not observing certain religious customs regarding tithes, levitical cleanness</i> &c., opp. <cite ref=\"H00109\"><he>חָבֵר</he></cite> q. v. ",
+				"<cite ref=\"Mishnah Demai 1:2\">Dem. I, 2</cite>; a. fr.—Pl. <cite ref=\"A03231\"><he>אֲרָצוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Sheviit 9:2\">Shebi. IX, 2</cite> <he>שלש א׳ וכ׳</he> Palestine is divided into three countries with reference to the laws of the Sabbath year. ",
+				"<cite ref=\"Ketubot 111a:1\">Keth. 111ᵃ</cite>; a. e., v. <cite ref=\"P00629\"><he>עִיסָה</he></cite>; a. fr."
+			]
+		}
+	]
+}

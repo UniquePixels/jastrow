@@ -1,0 +1,29 @@
+{
+	"id": "B00501",
+	"slug": "בטחון",
+	"headword": {
+		"text": "בִּטָּחוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיטָּ׳"
+		}
+	],
+	"page": {
+		"number": 156,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"B00498\"><he>בָּטַח</he></cite>)<i>trust, faith, hope</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:28\">Y. Ber. IX, 13ᵇ</cite> bot. <he>יש להם ב׳</he> there is hope for them (that they will not be punished, if they repent before dying). ",
+				"<cite ref=\"Shabbat 139a:3\">Sabb. 139ᵃ</cite> <he>תלו בִטְּחוֹנָם ב־</he> they put their trust in &c. ",
+				"<cite ref=\"Menachot 29b:7\">Men. 29ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

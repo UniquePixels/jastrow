@@ -1,0 +1,23 @@
+{
+	"id": "P01140",
+	"slug": "עצתא-2",
+	"headword": {
+		"text": "עִצְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1104,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P01114\"><he>עֲצי</he></cite>) <i>oppressor</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:33\">Targ. Prov. XVI, 33</cite>, v. <cite ref=\"P01022\"><he>עַנְתָּא</he></cite>."
+			]
+		}
+	]
+}

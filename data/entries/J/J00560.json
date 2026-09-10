@@ -1,0 +1,24 @@
+{
+	"id": "J00560",
+	"slug": "יקוד",
+	"headword": {
+		"text": "יְקוֹד",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 591,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (infin. of <cite ref=\"J00557\"><he>יְקַד</he></cite>) <i>burning, setting on fire</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 22b:14\">R. Hash. 22ᵇ</cite> <he>מאי משמע רהאי משיאין לישנא רי׳ הוא</he> what evidence is there that the word <i>massiin</i> (Mish. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 2:2\">ib. II, 2</cite>) has the meaning of burning (a signal fire)? Answ.: ref. to <cite ref=\"Targum Jonathan on II Samuel 5:21\">Targ. II Sam. V, 21</cite>, v. <cite ref=\"J00566\"><he>יְקֵד</he></cite>. [The passage is missing in Mss.; v. Rabb. D. S. a. l. note.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "O01572",
+	"slug": "סרח-4",
+	"headword": {
+		"text": "סְרַח",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1024,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01571\">same</cite>, <i>to hang over</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:12\">Targ. O. Ex. XXVI, 12</cite>. Part. <cite ref=\"O01612\"><he>סְרִיחַ</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 26:13\">Ib. 13</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סָרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to hang over</i>. Part. pass. <he>מְסָרַח</he>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 117a:24\">B. Kam. 117ᵃ</cite> <he>ומְסָרְחֵי וכ׳</he>, v. <cite ref=\"C00092\"><he>גְּבִינָא</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

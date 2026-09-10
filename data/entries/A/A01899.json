@@ -1,0 +1,31 @@
+{
+	"id": "A01899",
+	"slug": "אלל-2",
+	"headword": {
+		"text": "אֲלַל"
+	},
+	"page": {
+		"number": 71,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A01858\"><he>אַלֵּיל</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 13:2\">Targ. Num. XIII, 2</cite>; a. fr.—Deriv. <cite ref=\"A01859\"><he>אַלִּילָא</he></cite>, <cite ref=\"M00042\"><he>מְאַלְּלָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

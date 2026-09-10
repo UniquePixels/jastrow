@@ -1,0 +1,38 @@
+{
+	"id": "U01251",
+	"slug": "שלום-1",
+	"headword": {
+		"text": "שָׁלוֹם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1579,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01348\"><he>שָׁלַם</he></cite>)<i>peace, salvation; salutation</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite> <he>גדול ש׳ … חותמין בש׳</he> peace is something great, for all benedictions, good tidings, and consolations … close with peace. ",
+				"<cite ref=\"Bamidbar Rabbah 21:3\">Num. R. s. 21</cite>, beg. <he>אין כלי … אלא ש׳</he> no vessel contains blessing but peace; <cite ref=\"Mishnah Oktzin 3:12\">Ukts. III, 12</cite>, a. e., v. <cite ref=\"H00553\"><he>חָזַק</he></cite>. ",
+				"<cite ref=\"Berakhot 14a:1\">Ber. 14ᵃ</cite> <he>משיב ש׳ וכ׳</he> may return a salutation to any person. ",
+				"<cite ref=\"Berakhot 14a:11\">Ib.</cite> <he>כל הנותן ש׳ וכ׳</he> he who offers salutation to his neighbor before prayer, is considered as if he made him a highplace (worshipping man before God). ",
+				"<cite ref=\"Mishnah Sheviit 4:3\">Shebi. IV, 3</cite> <he>ושואלין בשְׁלוֹמָן מפני דרכי ש׳</he> and you must salute them (gentiles in the field) &c., v. <cite ref=\"D01096\"><he>דֶּרֶךְ</he></cite>; Y. ib. 35ᵇ <he>מהו שואלין בשלומן בשְׁלוֹם ישראל ש׳ עליכם</he> how must we salute them? As we salute Israelites, ‘peace be upon you.’ <cite ref=\"Mishnah Tamid 1:3\">Tam. I, 3</cite> <he>הגיעו … אמרו ש׳ הכל ש׳</he> when they (the two parties patrolling the Temple) met, they said, ‘peace?’ (answer) ‘all peace’ (everything is in good order); Lev. R. l. c. Sifra Vayikra, Par. 13, ch. XVI <he>מי שהוא ש׳ וכ׳</he> he who is at peace offers peace-offerings, opp. <cite ref=\"A00750\"><he>אונן</he></cite>; v. <cite ref=\"U01348\"><he>שָׁלֵם</he></cite>. Ib. the peace-offerings are called <i>sh’lamim</i>, <he>שהכל ש׳ בהן</he> because everything in them is at peace (is turned to use; <cite ref=\"Yalkut Shimoni on Torah 458:3\">Yalk. Lev. 458</cite> <he>מְשׁוּלָּמִים</he>). ",
+				"<cite ref=\"Berakhot 39b:7\">Ber. 39ᵇ</cite> (play on the name <he>שלמן</he>) <he>ש׳ אתה וכ׳</he> thou art peace (perfection), and thy teaching is perfect (v. <cite ref=\"U01348\"><he>שָׁלֵם</he></cite>); a. v. fr.—<he>חס וש׳</he>, v. <cite ref=\"H01328\"><he>חַס</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adv.) <i>safely, unimpaired</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tevul Yom 4:7\">T’bul Yom IV, 7</cite>, a. e. <he>שתעלה ש׳</he> that it will be brought up safely, v. <cite ref=\"U00176\"><he>שֶׁבֶר</he> I</cite>.—Pl. <he>שְׁלוֹמוֹת</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 13:16\">Num. R. s. 13<sup>16</sup></cite> <he>עושה שני ש׳ וכ׳</he> produces two conditions of peace, peace above and peace below. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 340:2\">Yalk. Is. 340</cite> <he>ארבעה רוב ש׳ וכ׳</he> (not <he>שלומית</he>) four times in the Scriptures ‘peace’ appears in connection with ‘abundance.’—Ch. v. <cite ref=\"U01351\"><he>שְׁלָמָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q00756",
+	"slug": "פיסטקין",
+	"headword": {
+		"text": "פִּיסְטְקִין"
+	},
+	"page": {
+		"number": 1167,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (πιστάκια) <i>pistachio-nuts</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:4:6\">Y. Kil. I, 27ᵃ</cite> bot. (Ar. <cite ref=\"Q01371\"><he>פסתקין</he></cite>), v. <cite ref=\"B00234\"><he>בּוּטְמָא</he></cite>. Y. Maasr. I, 48ᵈ bot. <he>איפסט׳</he> (v. <cite ref=\"A02757\"><he>אַפִּסְטְקִין</he></cite>; <cite ref=\"Tosefta Ma'asrot 1:1\">Tosef. Maasr. I, 1</cite> <he>הפרסקין</he> (corr. acc.).—V. <cite ref=\"Q00773\"><he>פִּיסְתְּקָא</he></cite>."
+			]
+		}
+	]
+}

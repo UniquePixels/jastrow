@@ -1,0 +1,44 @@
+{
+	"id": "A00721",
+	"slug": "אונא-3",
+	"headword": {
+		"text": "אוּנָא"
+	},
+	"page": {
+		"number": 28,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (contr. of <cite ref=\"A00568\"><he>אוּדְנָא</he></cite>, cmp. however <cite ref=\"A00716\"><he>אָוֶן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ear</i>, v. pl.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>handle</i> of a vessel. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:17\">Git. 69ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 108a\">Sabb. 108ᵃ</cite> top."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>lobe</i> of a lung. ",
+			"units": [
+				"<cite ref=\"Chullin 59b:8\">Ḥull. 59ᵇ</cite>; a. fr.—Pl. <cite ref=\"A00736\"><he>אוּנֵי</he></cite>. ",
+				"<cite ref=\"Chullin 38a:1\">Ib. 38ᵃ</cite> <he>אזוזי א׳</he> moving the ears (as a sign of life in the last stages). ",
+				"<cite ref=\"Yevamot 60b:19\">Yeb. 60ᵇ</cite> <he>מפיקנא … מאוניך</he> we shall get R. … out of thy ears, i.e. we shall make thee give up thy authority (a threat of excommunication). ",
+				"<cite ref=\"Bereishit Rabbah 45:7\">Gen. R. s. 45</cite> <he>אוניך דחמר</he> thy ears are those of an ass.—",
+				"<cite ref=\"Chullin 47a:2\">Ḥull. 47ᵃ</cite> <he>ה׳ אוני וכ׳</he> the lungs have five lobes; a. fr. [Later Rabb. literature uses <cite ref=\"A00686\"><he>אוּמָא</he></cite>, v. <cite ref=\"A00685\"><he>אוּם</he></cite>, for the large lump from which the lobes branch off.] V. <cite ref=\"A00743\"><he>אוּנִין</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

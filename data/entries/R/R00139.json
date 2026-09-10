@@ -1,0 +1,51 @@
+{
+	"id": "R00139",
+	"slug": "צהל-1",
+	"headword": {
+		"text": "צָהַל"
+	},
+	"page": {
+		"number": 1264,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be bright, shine</i>; (of sound) <i>to shout</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִיהֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to shout</i>; (of horses) <i>to neigh</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 27:1\">Pesik. R. s. 27-28</cite> <he>והם מְצַהֲלוֹת אחריהם וכ׳</he> and they (the women) neighed after them like war-horses."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִצְהִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be bright, shining</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 97:1\">Gen. R. s. 97</cite> beg. <he>יצא ופניו מַצְהִילוֹת</he> he came forth with a shining face."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to brighten, illumine</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite> <he>אברהם שמַצְהִיל</he> … <he>כחמה</he> Abraham who illumined the whole world like the sun."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

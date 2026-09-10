@@ -1,0 +1,33 @@
+{
+	"id": "B01056",
+	"slug": "בעלא",
+	"headword": {
+		"text": "בַּעֲלָא"
+	},
+	"page": {
+		"number": 182,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", constr. <cite ref=\"B01046\"><he>בְּעֵיל</he></cite>, <cite ref=\"B01054\"><he>בְּעַל</he></cite> ch. same. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>husband</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:3\">Targ. O. Ex. XXI, 3</cite>; a. fr.—",
+				"<cite ref=\"Taanit 6b\">Taan. 6ᵇ</cite> <he>מטרא ב׳ וכ׳</he> the rain is the husband (fructifier) of the field; v. <cite ref=\"B01055\">preced.</cite> 3)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Baal</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:25\">Targ. Jud. VI, 25</cite>; a. e.—Pl. <he>בַּעֲלַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 2:11\">Ib. II, 11</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

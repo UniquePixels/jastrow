@@ -1,0 +1,28 @@
+{
+	"id": "S00915",
+	"slug": "קיטני",
+	"headword": {
+		"text": "קִיטְנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטְ׳"
+		}
+	],
+	"page": {
+		"number": 1358,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S00916\">next art.</cite>) <i>pulse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 15:19\">Targ. Y. Num. XV, 19</cite>."
+			]
+		}
+	]
+}

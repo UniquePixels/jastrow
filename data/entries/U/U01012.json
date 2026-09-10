@@ -1,0 +1,30 @@
+{
+	"id": "U01012",
+	"slug": "שיפוי-1",
+	"headword": {
+		"text": "שִׁיפּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁפּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1566,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שָׁפָה</he> I) <i>planing, shavings, chips</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Meilah 3:8\">Meïl. III, 8</cite> (<cite ref=\"Meilah 14a\">14ᵃ</cite>) <he>בשפוי</he> (Talm. ed. <he>בשפויי</he>, Rashi <he>בשפוי</he>); Tosef. ib. I, 25 ed. Zuck. (Var. <he>בשפוד</he>, corr. acc.); <cite ref=\"Temurah 31b\">Tem. 31ᵇ</cite>, v. <cite ref=\"N00086\"><he>נְבָיָיה</he></cite>.—Pl. <cite ref=\"U01014\"><he>שִׁיפּוּיִים</he></cite>, <cite ref=\"U01014\"><he>שִׁיפּוּיִין</he></cite>, <cite ref=\"U01011\"><he>שִׁפּ׳</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 42b:1\">Ab. Zar. 42ᵇ</cite> top <he>והא ש׳ … ושִׁיפּוּיֶיהָ מותרין</he> but there are the chips, when the idol itself remains, and yet it is said, if the gentile chipped an idol for its own sake (to embellish it), itself is forbidden, but the shavings from it are permitted to be used. ",
+				"<cite ref=\"Avodah Zarah 42a\">Ib.ᵃ</cite>; a. e.—V. <cite ref=\"U01706\"><he>שְׁפָאִים</he></cite>."
+			]
+		}
+	]
+}

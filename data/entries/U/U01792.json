@@ -1,0 +1,65 @@
+{
+	"id": "U01792",
+	"slug": "שפף-1",
+	"headword": {
+		"text": "שָׁפַף"
+	},
+	"page": {
+		"number": 1619,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"U00490\"><he>שׁוּף</he> II</cite>, a. <cite ref=\"U01734\"><he>שָׁפָה</he> I</cite>) <i>to crush, rub.—Part. pass</i>. <he>שָׁפוּף</he>; f. <he>שְׁפוּפָה</he>; pl. <he>שְׁפוּפִים</he>, <he>שְׁפוּפִין</he>; <he>שְׁפוּפוֹת</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>rubbed, rubbing</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 65:17\">Gen. R. s. 65</cite> <he>היו רגליהם ש׳ בארץ</he> their feet (which were hanging down) rubbed against the ground; (Y. Peah VII, 20ᵇ top <he>נוגעות</he>).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>crushed, weak, nimble</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite> the evil inclination <he>דומה ללסטיס ש׳ וכ׳</he> is like an enfeebled robber sitting on the cross-road &c.; <cite ref=\"Yalkut Shimoni on Torah 36\">Yalk. ib. 36</cite>; <cite ref=\"Yalkut Shimoni on Nach 840\">Yalk. Ps. 840</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 25:3\">Gen. R. s. 25</cite>, end <he>בני אדם ש׳</he> weak people, opp. <he>גבורים</he>; <cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 53\">Gen. R. s. 53</cite> <he>עכשיו … לא ש׳ וכ׳</he> now what is his gift (the child born to him)? is it not puny? I put my finger &c. (v. <cite ref=\"Q00485\"><he>פְּחַשׁ</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 810:1\">Yalk. Deut. 810</cite> <he>מתנתיה … שְׁפִיפָה</he> (Chald.). ",
+						"<cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite> <he>דווין וש׳</he> ed., v. <cite ref=\"U01734\"><he>שָׁפָה</he> I</cite>; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁפְשֵׁף"],
+			"senses": [
+				{
+					"gloss": "<i>to rub, polish, brush off</i>. Y. Sabb. IV, end, 7ᵃ <he>עד שיְשַׁפְשֵׁף</he> until he rubs (the stones, to wipe off the dirt); Bab. ",
+					"units": [
+						"<cite ref=\"Shabbat 125b:8\">Sabb. 125ᵇ</cite> <he>צאו ושׁפְשְׁפוּם</he> go out and rub them. Y. Ter. I, beg. 40ᵃ <he>במְשַׁפְשֵׁף בהן במים</he> when he scours them with water. ",
+						"<cite ref=\"Yoma 30a:1\">Yoma 30ᵃ</cite> <he>לשַׁפְשִׁף</he> to wipe off (squirtings). ",
+						"<cite ref=\"Mishnah Mikvaot 9:2\">Mikv. IX, 2</cite> <he>אלא אם כן ש׳</he> unless he has rubbed the soot off. ",
+						"<cite ref=\"Tosefta Demai 1:18\">Tosef. Dem. I, 18</cite> <he>משפשף</he> he may rub him (with oil). Y. Ber. IX, 14ᶜ top <he>עד ששִׁיפְשֵׁף</he> before rubbing (the rectum), v. <cite ref=\"M02934\"><he>מִשְׁמֵשׁ</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pilp."
+		},
+		{
+			"forms": ["נָשַׁף", "נִישָּׁף"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 28b:13\">B. Kam. 28ᵇ</cite> <he>ונשוף באבן</he> (Ms. F. <he>ונושף</he> read: <he>ונישף</he>), v. <cite ref=\"U00490\"><he>שׁוּף</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "T00958",
+	"slug": "רפף-2",
+	"headword": {
+		"text": "רְפַף"
+	},
+	"page": {
+		"number": 1491,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00957\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַפֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to shake</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 44:18\">Targ. Y. Gen. XLIV, 18</cite> addit. (at the end of Gen. in ed. pr., at the end of Ex. in ed. Lsb.) <he>בעט יוסף בעמודא דהיכלא ורַפְּפֵיה</he> Joseph struck with his foot a column of the palace and made it tremble."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרַפּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken, tremble</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 9:6\">Targ. Job IX, 6</cite> <he>מִתְרַפְּפִין</he> (ed. Wil. <he>מִתְרוֹפְפִין</he>, <i>Ithpol.</i>; h. text <he>יתפלצון</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

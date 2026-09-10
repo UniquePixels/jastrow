@@ -1,0 +1,27 @@
+{
+	"id": "U00878",
+	"slug": "שיט",
+	"headword": {
+		"text": "שַׁיָּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁיָּיט"
+		}
+	],
+	"page": {
+		"number": 1560,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00373\"><he>שׁוּט</he></cite>) <i>swimmer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:3\">Kel. II, 3</cite>, v. <cite ref=\"H00080\"><he>חָבִית</he></cite>; <cite ref=\"Beitzah 36b:15\">Bets. 36ᵇ</cite>; <cite ref=\"Tosefta Terumot 7:14\">Tosef. Ter. VII, 14</cite>, v. <cite ref=\"U00856\"><he>שַׂיָּח</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,90 @@
+{
+	"id": "D00072",
+	"slug": "דבק-1",
+	"headword": {
+		"text": "דָּבֵק"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּבַק"
+		}
+	],
+	"page": {
+		"number": 277,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) 1) <i>to cleave, adhere, stick</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 91b\">B. Bath. 91ᵇ</cite>, v. infra.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 133:29\">Yalk. Gen. 133</cite> <he>דבקו כל החיל וכ׳</he> the whole army was close to the fortress.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 133:29\">Ib.</cite> Deut. 824 <he>ד׳ לסדומיים</he> he joined the Sodomites.—2) <i>to join, glue, affix</i>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:11\">Y. Meg. I, 71ᵈ</cite> top <he>דּוֹבְקִין בְּדֶבֶק</he> the parchment is joined with glue.—<i>Part. pass.</i> <he>דָּבוּק</he>, f. <he>דְּבוּקָה</he> <i>attached, close, cleaving</i>. ",
+				"<cite ref=\"Sotah 42b:9\">Sot. 42ᵇ</cite> (ref. to <cite ref=\"Ruth 1:14\">Ruth I, 14</cite>) <he>בני הדבוקה</he> the descendants of her who was attached (to Naomi). ",
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> <he>דְּבוּקִין לעור</he> close to the skin. ",
+				"<cite ref=\"Sanhedrin 64a\">Snh. 64ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 4:4\">Deut. IV, 4</cite>) like two dates <he>הדְּבוּקִים וכ׳</he> which stick to one another (easily separated); <cite ref=\"Deuteronomy 4:4\">ib.</cite> <he>דבוקים ממש</he> really glued (inseparable); <cite ref=\"Yalkut Shimoni on Torah 824:2\">Yalk. Deut. 824</cite> <he>כשתי … הדְּבוּקוֹת</he>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְבַּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be joined, attached, affixed</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 111b\">Keth. 111ᵇ</cite>; Yalk. l. c. is it possible for man <he>לִידָּבֵק וכ׳</he> to be joined to the Divine Majesty? Ib. <he>כאילו נ׳ כשכינה</he> (Keth. l. c. <cite ref=\"M00239\"><he>מִדַּבֵּק</he></cite>) as though he were joined. ",
+						"<cite ref=\"Bava Batra 91b:10\">B. Bath. 91ᵇ</cite> <he>ששבה ונִדְבְּקָה וכ׳</he> (Ms. H. <he>ודָבְקָה</he>) (Ruth) who came back and remained attached to Bethlehem (v. supra); a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["דִּבֵּק", "דִּיבֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to glue</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Rosh Hashanah 3:6\">R. Hash. III, 6</cite> (<cite ref=\"Rosh Hashanah 27a:18\">27ᵃ</cite>; <cite ref=\"Rosh Hashanah 27b:7\">27ᵇ</cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to invite one to join in travel</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 29\">Gen. R. s. 29</cite> <he>ראה אחד ודִיבְּקוֹ</he> he saw a person and made him go with him.—Part. pass. <he>מְדוּבָּק</he> Yalk. Deut. l. c. <he>שמְדוּבָּקִים לחייו וכ׳</he> who cling to the Life of the World (the Lord)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִדְבִּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to paste, fasten</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 37a:13\">Pes. 37ᵃ</cite> <he>הרתיח ולבסוף ה׳</he> he heated the pot and then pasted the dough to its wall. ",
+						"<cite ref=\"Pesachim 37b\">Ib. 37ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְדַּבֵּק", "הִדַּבֵּק"],
+			"senses": [
+				{
+					"gloss": " <i>to be joined</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 59\">Gen. R. s. 59</cite> <he>אין ארור מִתְדַּבֵּק בברוך</he> (<cite ref=\"Yalkut Shimoni on Nach 528\">Yalk. Hos. 528</cite> <cite ref=\"M00239\"><he>מִדַּבֵּק</he></cite>) the cursed (Eliezer) shall not be joined (through marriage) to the blessed (Isaac). Keth. l. c., v. Nif.—Yalk. Deut. l. c. <he>מִדַּבֶּקֶת</he>; a. fr. [<cite ref=\"Shabbat 113b:8\">Sabb. 113ᵇ</cite> [read:] <he>לִידַּבֵּק עם הנשים</he> or <he>לדבר</he>, v. Rabb. D. S. a. l. note.]"
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

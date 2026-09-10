@@ -1,0 +1,33 @@
+{
+	"id": "M00044",
+	"slug": "מאמר",
+	"headword": {
+		"text": "מַאֲמָר"
+	},
+	"page": {
+		"number": 723,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A02061\"><he>אָמַר</he></cite>)<i>command, order</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:1\">Ab. V, 1</cite> <he>והלא במ׳ אחד וכ׳</he> could not the universe have been created by one divine command?—",
+				"<cite ref=\"Megillah 21b:9\">Meg. 21ᵇ</cite>; <cite ref=\"Rosh Hashanah 32a:19\">R. Hash. 32ᵃ</cite> <he>בראשית נמי מ׳ הוא</he> the first verse of Genesis is also to be considered a command. ",
+				"<cite ref=\"Bereishit Rabbah 4:6\">Gen. R. s. 4</cite> <he>המים … תלוים במ׳</he> the upper waters are suspended (in the air) by a divine ordainment; <cite ref=\"Taanit 10a\">Taan. 10ᵃ</cite>.—",
+				"<cite ref=\"Shabbat 63a:21\">Sabb. 63ᵃ</cite> <he>העושה מצוה כמַאֲמָרָהּ</he> who executes a divine command as it has been ordained; a. e.—Pl. <he>מַאֲמָרוֹת</he>. Ab. l. c. <he>בעשרה מ׳ וכ׳</he> the world was created by ten divine orders (counting nine <he>ויאמר</he> in <cite ref=\"Genesis 1:1\">Gen. ch. I</cite>, and the first verse, v. supra)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>word</i>, esp. <i>maămar, the Yabam’s betrothal</i> (v. <cite ref=\"J00058\"><he>יָבָם</he></cite>) by word of mouth, contrad. to the consummation of marriage (<cite ref=\"B00537\"><he>בִּיאָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 2:1\">Yeb. II, 1</cite> <he>עשה בה מ׳</he> if he betrothed her to himself; Y. ib. 3ᶜ <he>איזו היא מ׳ וכ׳</he> what is a <i>maămar</i> with regard to a <i>Y’bamah</i>? Saying, ‘Be betrothed unto me’, while handing to her money or money’s worth. Ib. <he>מ׳ גומר</he> betrothal consummates the <i>yabam’s</i> marriage (carrying with it all the legal consequences of his marriage), v. <cite ref=\"C01061\"><he>גָּמַר</he></cite>; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

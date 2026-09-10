@@ -1,0 +1,23 @@
+{
+	"id": "P01234",
+	"slug": "ער-2",
+	"headword": {
+		"text": "עָר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עָרָא"
+		}
+	],
+	"page": {
+		"number": 1109,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P01233\">same</cite> <cite ref=\"Vayikra Rabbah 26:9\">Lev. R. s. 26</cite> [read:] <he>הידא ליגבי שנאך הידא ליגבי עָרָךְ</he> (v. <cite ref=\"E00341\"><he>הֵידָא</he></cite>) why dost thou call on thy enemy, why on thy adversary?; Midr. Sam. ch. XXIV <he>הידא ליה גבי ערך הידא ליה גבי חברך</he> (corr. acc.).",
+			"units": []
+		}
+	]
+}

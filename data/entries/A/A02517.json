@@ -1,0 +1,22 @@
+{
+	"id": "A02517",
+	"slug": "אספר-2",
+	"headword": {
+		"text": "אֶסְפָּר"
+	},
+	"page": {
+		"number": 96,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ספר</he>, cmp. <cite ref=\"A02484\"><he>אֶסְפּוֹר</he></cite>) <i>Espar</i>, a Hebrew name for <i>Sestertius</i> (cmp. <cite ref=\"A01506\"><he>אִיסָר</he></cite> &c.). . ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 2:9\">Maas. Sh. II, 9</cite> (Ms. M. <cite ref=\"R00759\"><he>אצטרי</he></cite>, v. <cite ref=\"A01521\"><he>אִיסְתִּירָא</he></cite>, Asheri <he>אצפרי</he>); <cite ref=\"Mishnah Eduyot 1:10\">Eduy. I, 10</cite> (he must exchange the fourth Denar) <he>ארבעה א׳ כסף</he> Ms. M. (ed. <he>ארבע</he>) for four sestertii. [Oth. opinions (v. comment.), ἄσπροι, supposed to be worth one fifth of a Denar. There is, however, no evidence of ἄσπροι being used in this sense in the days of the Mishnah.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "B00918",
+	"slug": "בלשא",
+	"headword": {
+		"text": "בַּלְשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּלוֹשָׁא"
+		}
+	],
+	"page": {
+		"number": 175,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"B00919\">next w.</cite>) <i>searcher; constable</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 52a:36\">Nidd. 52ᵃ</cite> <he>שדר ב׳ וכ׳</he> he sent a constable and forced her to leave her (second) husband.—Pl. <he>בָּלוֹשִׁין</he>, <he>בָּלוֹשַׁיָּיא</he>. ",
+				"<cite ref=\"Targum Jonathan on Zephaniah 1:12\">Targ. Zeph. I, 12</cite>; a. e.—",
+				"<cite ref=\"Berakhot 44a\">Ber. 44ᵃ</cite> <he>בָּלוֹשֵׁי</he> Ar. a. Ms. F. (ed. <cite ref=\"B00033\"><he>בָּאלוֹשֵׁי</he></cite>)."
+			]
+		}
+	]
+}

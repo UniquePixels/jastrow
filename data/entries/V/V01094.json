@@ -1,0 +1,36 @@
+{
+	"id": "V01094",
+	"slug": "תשלום-2",
+	"headword": {
+		"text": "תַּשְׁלוּם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּשְׁלוּמָא"
+		}
+	],
+	"page": {
+		"number": 1704,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V01093\">same</cite><i>payment, retribution, reward; indemnity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 19:37\">Targ. II Sam. XIX, 37</cite> (h. text <he>גמולה</he>).—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 4:8:13\">Y. Keth. IV, 29ᵃ</cite> top <he>שכן הוא כותב ת׳ מן נכסיה וכ׳</he> for so he writes (in his marriage agreement), ‘payment to be secured from property that may come to me’ &c.; <cite ref=\"Jerusalem Talmud Yevamot 15:3:7\">Y. Yeb. XV, 14ᵈ</cite> bot. <he>תַּשְׁלַמְתָּה מן ניכסיי וכ׳</he>.—Pl. <he>תַּשְׁלוּמִין</he>, <cite ref=\"V01093\"><he>תַּשְׁלוּמֵי</he></cite>. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 24:20\">Targ. Y. II, Lev. XXIV, 20</cite> <he>תשלומי</he> in payment for (h. text <cite ref=\"V00390\"><he>תחת</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>complement</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 27a:36\">Ker. 27ᵃ</cite> <he>תשלום דסלע</he> (Rashi <he>תשלומי</he>) that which is wanted to make it a full Sela.—Pl. as ab. ",
+				"<cite ref=\"Keritot 27a:36\">Ib.</cite> <he>ת׳ דסלע</he>"
+			],
+			"label": "2"
+		}
+	]
+}

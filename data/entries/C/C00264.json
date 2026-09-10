@@ -1,0 +1,41 @@
+{
+	"id": "C00264",
+	"slug": "גואה",
+	"headword": {
+		"text": "גַּוָּאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּוָּו׳"
+		},
+		{
+			"text": "גַּוָּאִי"
+		},
+		{
+			"text": "גֵּיוָיָא"
+		}
+	],
+	"page": {
+		"number": 216,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00263\">preced.</cite>) <i>inner, inside</i> (adj. a. adv.) <cite ref=\"Targum Jonathan on I Kings 6:27\">Targ. I Kings VI, 27</cite>; a. e.—",
+			"units": [
+				"<cite ref=\"Zevachim 15a:4\">Zeb. 15ᵃ</cite> <he>דקאי ג׳</he> stands inside. ",
+				"<cite ref=\"Zevachim 15a:4\">Ib.</cite> <he>לג׳</he>, v. <cite ref=\"B01161\"><he>בְּרָאִי</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:1:5\">Y. Sabb. VIII, 11ᵃ</cite> top <he>בהין גיויא</he> of the inside (reed), opp. <cite ref=\"B01160\"><he>בראה</he></cite>.—Pl. <he>גַּוָּואִין</he>, <he>גַּוָּואֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 6:4\">Targ. Y. Num. VI, 4</cite>.—",
+				"<cite ref=\"Chullin 47a\">Ḥull. 47ᵃ</cite> bot. <he>מג׳</he> from the inner lungs (lower part), opp. <cite ref=\"A00236\"><he>אַגַּבָּא</he></cite>. ",
+				"<cite ref=\"Bava Batra 29b:9\">B. Bath. 29ᵇ</cite> <he>שכוני ג׳</he> the interior compartments. ",
+				"<cite ref=\"Chagigah 5b:11\">Ḥag. 5ᵇ</cite> <he>בתי ג׳</he> the inner chambers of the heavens; a. fr.—Fem. <he>גַּוַּיְתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:27\">Targ. Ezek. XL, 27</cite>; a. e.—Pl. <cite ref=\"C00359\"><he>גַּוְיָאתָא</he></cite>. ",
+				"<cite ref=\"Eruvin 25b:8\">Erub. 25ᵇ</cite> <he>גודא ג׳</he> (read <he>גודי</he>, Ms. M. <he>גודי גואי</he>) inner partitions."
+			]
+		}
+	]
+}

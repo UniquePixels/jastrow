@@ -1,0 +1,24 @@
+{
+	"id": "T00262",
+	"slug": "רדיפה-1",
+	"headword": {
+		"text": "רְדִיפָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1452,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00266\"><he>רָדַף</he></cite>) <i>pursuing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 4:2:2\">Y. B. Kam. IV, 4ᵇ</cite> top <he>והן … שיש ברְדִיפָתוֹ וכ׳</he> and they judge that in his (the ox’s) pursuit of an animal lies the intention to gore.—Pl. <cite ref=\"T00950\"><he>רְדִיפוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 4:2:2\">Ib.</cite> <he>רדף שלש ר׳</he> if he ran after an animal three times."
+			]
+		}
+	]
+}

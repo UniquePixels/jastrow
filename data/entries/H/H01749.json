@@ -1,0 +1,64 @@
+{
+	"id": "H01749",
+	"slug": "חרץ-1",
+	"headword": {
+		"text": "חָרַץ"
+	},
+	"page": {
+		"number": 505,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to dig a cavity, to cut a trench</i> of even width all through. Y. Kil. VII, 31ᵇ bot. <he>חפר ח׳ נעץ וכ׳</he> if (on the Sabbath) one dug (a pit), made a trench, and cut a wedge-like ditch (narrow below), he is guilty of one act; <cite ref=\"Jerusalem Talmud Shabbat 7:2:17\">Y. Sabb. VII, 9ᵈ</cite> bot.; a. fr.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to decree, designate</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Leviticus 1\">B’ḥuck. 1</cite> (ref. to <cite ref=\"Job 14:5\">Job XIV, 5</cite>) <he>ח׳ ימיו וכ׳</he> He designated the duration of life of every creature.—<i>Part. pass.</i> <cite ref=\"H01634\"><he>חָרוּץ</he></cite>, f. <he>חֲרוּצָה</he>; pl. <he>חֲרוּצִים</he>, <he>חֲרוּצוֹת</he> "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>grooved</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 98b\">Sabb. 98ᵇ</cite> <he>ח׳ היו הקרשים וב׳</he> the boards of the Tabernacle were grooved, and the sockets hollowed out correspondingly.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>decreed, decided; determined</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite> (ref. to <cite ref=\"Proverbs 12:27\">Prov. XII, 27</cite>) the blessings <he>שמעיקר העולם חרוצות לו</he> which were designated to him from primeval days. ",
+						"<cite ref=\"Proverbs 12:27\">Ib.</cite> <he>חרוצה ביד וכ׳</he> it is a decided fact known to the righteous that they will in this world receive none &c. ",
+						"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite> <he>שידיך חדות וח׳</he> that thy hands are quick and determined.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>flat-nosed</i>, v. <cite ref=\"H01634\"><he>חָרוּץ</he></cite>.",
+					"units": [],
+					"label": "c"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחֲרַץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut into, dug, ploughed</i>. Y. Nidd. I, 49ᵃ bot. a soil is called virgin <he>כל שלא נ׳ בה מימיה</he> when it has never been cut into; v. <cite ref=\"H01751\"><he>חֶרֶץ</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

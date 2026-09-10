@@ -1,0 +1,23 @@
+{
+	"id": "I00476",
+	"slug": "טלוי-1",
+	"headword": {
+		"text": "טָלוּי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 535,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00475\">preced.</cite> wds.) <i>brood</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 7:14\">Targ. Y. Deut. VII, 14</cite> (prob. to be read <he>טְלָיֵי</he>)."
+			]
+		}
+	]
+}

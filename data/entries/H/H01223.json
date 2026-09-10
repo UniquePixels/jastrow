@@ -1,0 +1,41 @@
+{
+	"id": "H01223",
+	"slug": "חמר-6",
+	"headword": {
+		"text": "חֲמָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲמָרָא"
+		},
+		{
+			"text": "חַמְרָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 480,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"H01163\"><he>חֲמוֹר</he></cite><i>ass;</i> trnsf. <i>workingman’s contrivance, jack</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 21:7\">Targ. Is. XXI, 7</cite>. ",
+				"<cite ref=\"Onkelos Exodus 13:13\">Targ. Ex. XIII, 13</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 66b:5\">Sabb. 66ᵇ</cite>; Y. ib. VI, 8ᶜ, v. <cite ref=\"A02291\"><he>אָנְקִטְמִין</he></cite>; a. v. fr.—Pl. <he>חֲמָרִין</he>, <he>חֲמָרַיָּא</he>, <he>חֲמָרֵי</he>. ",
+				"<cite ref=\"Onkelos Genesis 12:16\">Targ. Gen. XII, 16</cite> (Y. ed. Amst. <he>חַמְרִין</he>). Ib. XXXVI, 24 (Y. ed. Amst. <he>חַמְרַיָּא</he>); a. e.—",
+				"<cite ref=\"Bereishit Rabbah 38:9\">Gen. R. s. 38</cite> (ref. to <he>בני האדם</he>, <cite ref=\"Genesis 11:5\">Gen. XI, 5</cite>) <he>וכי מה נאמר בני ח׳</he> could we think young asses (built it)?—Y. Dem. I, 21ᵈ bot. Ib. 22ᵃ top; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ח׳ דמיא <i>sea-ass</i>, name of a sea fish, <i>hake</i> (v. Sm. Ant. s. v. Onos). ",
+			"units": ["<cite ref=\"Avodah Zarah 39a:7\">Ab. Zar. 39ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

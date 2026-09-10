@@ -1,0 +1,31 @@
+{
+	"id": "P01101",
+	"slug": "עצה-2",
+	"headword": {
+		"text": "עֵצָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1101,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00493\"><he>יָעַץ</he></cite>)<i>counsel, advice, plan, consultation, council</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 74:2\">Gen. R. s. 74</cite> <he>נוטלין ע׳</he> they hold council, v. <cite ref=\"T00328\"><he>רֶוַוח</he></cite>. ",
+				"<cite ref=\"Sotah 11a:7\">Sot. 11ᵃ</cite> (ref. to <cite ref=\"Exodus 1:10\">Ex. I, 10</cite>) <he>הוא התחיל בע׳ תחלה</he> he was the first to propose (the destruction of Israel). ",
+				"<cite ref=\"Exodus 1:10\">Ib.</cite> <he>שלשה היו באותה ע׳</he> three men took part in that consultation. ",
+				"<cite ref=\"Megillah 12b:7\">Meg. 12ᵇ</cite> <he>ניטלה ע׳ ממנו</he> counsel (legal wisdom) has been taken away from us. ",
+				"<cite ref=\"Sotah 11b:23\">Sot. 11ᵇ</cite> <he>שפנה מעֲצַת מרגלים</he> he turned away from the council of the spies. ",
+				"<cite ref=\"Gittin 58a\">Gitt. 58ᵃ</cite>, a. e. <he>אם אתה שומע לעֲצָתִי</he> if thou wouldst listen to my advice. Tanḥ. Haăz. 8 <he>ובעצתי אל וכ׳</he> and if you follow my advice, do not risk your life for her. ",
+				"<cite ref=\"Bava Batra 118a:7\">B. Bath. 118ᵃ</cite>, a. fr. <he>ע׳ טובה קמשמע לן</he> good advice is meant by it (not a law); a. fr.—Pl. <he>עֵצוֹת</he>. ",
+				"<cite ref=\"Kiddushin 80b:8\">Kidd. 80ᵇ</cite> (in Chald. dict.), v. <cite ref=\"P00322\"><he>עוּץ</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 1:17\">Midr. Till. to Ps. I, 3</cite> <he>שהיה יועץ ע׳ ומתקיימות וכ׳</he> who suggested plans which were executed, and which turned out well; a. e."
+			]
+		}
+	]
+}

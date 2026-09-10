@@ -1,0 +1,23 @@
+{
+	"id": "P01287",
+	"slug": "ערבלאין",
+	"headword": {
+		"text": "עַרְבְּלָאִין"
+	},
+	"page": {
+		"number": 1113,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"P01285\"><he>עַרְבֵּל</he></cite>) <i>mixed multitude, rabble</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:9\">Targ. Cant. I, 9</cite>; v. <cite ref=\"P00677\"><he>עֵירַבְרְבִין</he></cite>."
+			]
+		}
+	]
+}

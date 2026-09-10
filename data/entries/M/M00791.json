@@ -1,0 +1,23 @@
+{
+	"id": "M00791",
+	"slug": "מחא-2",
+	"headword": {
+		"text": "מָחָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 756,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מְחִי</he> II) <i>stroke, plague</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 8:15\">Targ. Ex. VIII, 15</cite>.—Constr. <cite ref=\"M00948\"><he>מָחַת</he></cite>, <cite ref=\"M00948\"><he>מְחַת</he></cite>, pl. <he>מָחָן</he>, v. <cite ref=\"M00950\"><he>מַחֲתָא</he></cite>."
+			]
+		}
+	]
+}

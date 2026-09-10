@@ -1,0 +1,40 @@
+{
+	"id": "E00288",
+	"slug": "הושעיא",
+	"headword": {
+		"text": "הוֹשַׁעְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹשַׁעְיָה"
+		}
+	],
+	"page": {
+		"number": 341,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Hoshaya</i> (in Bab. <cite ref=\"A00927\"><he>אוֹשַׁעְיָא</he></cite>, q. v.) ",
+			"units": []
+		},
+		{
+			"gloss": " R. H. the Elder (<cite ref=\"T00060\"><he>רַבָּה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:3:14\">Y. Kidd. I, 60ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Ketubot 9:1:12\">Y. Keth. IX, 32ᵈ</cite>, sq. <he>אבי המשנה</he> the author of the Mishnah (Tosefta); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " several Amoraim by that name. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:4\">Y. Ter. VIII, 45ᶜ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:6:3\">Y. Bets. I, 60ᶜ</cite> bot.; a. fr. V. Frank. M’bo p. 74ᵃ, sq."
+			],
+			"label": "2"
+		}
+	]
+}

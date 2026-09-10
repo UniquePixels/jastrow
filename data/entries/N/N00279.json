@@ -1,0 +1,31 @@
+{
+	"id": "N00279",
+	"slug": "נהר-1",
+	"headword": {
+		"text": "נָהַר"
+	},
+	"page": {
+		"number": 882,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"N00416\"><he>נוּר</he></cite>) <i>to break forth, shine</i> (v. <cite ref=\"A00840\"><he>אוֹר</he> I</cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִנְהִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to enlighten</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 13b\">Erub. 13ᵇ</cite>; <cite ref=\"Shabbat 147b:12\">Sabb. 147ᵇ</cite> <he>שמַנְהִיר וכ׳</he>, he enlightened the eyes &c., v. <cite ref=\"N00256\"><he>נְהוֹרַאי</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "R00271",
+	"slug": "צחותא",
+	"headword": {
+		"text": "צָחוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָה׳"
+		}
+	],
+	"page": {
+		"number": 1273,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00273\"><he>צְחֵי</he></cite>) <i>drought, thirst;</i> <he>בית צ׳</he> <i>parched land</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:48\">Targ. Deut. XXVIII, 48</cite>. ",
+				"<cite ref=\"Onkelos Exodus 17:3\">Targ. Ex. XVII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 88:13\">Targ. Ps. LXXXVIII, 13</cite> (ed. Lag. <cite ref=\"R00273\"><he>צה׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:10\">Targ. Y. Deut. XXXII, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 24:19\">Targ. Job XXIV, 19</cite> sec. vers. <cite ref=\"R00273\"><he>צה׳</he></cite>; a. fr.; v. <cite ref=\"R00268\"><he>צַחֲוָונָא</he></cite>.—",
+				"<cite ref=\"Moed Katan 2a:7\">M. Kat. 2ᵃ</cite> <he>מאי משמע … לישנא דצ׳ היא</he> what proof have you that <i>beth hashshalḥin</i> (<cite ref=\"Mishnah Moed Katan 1:1\">ib. I, 1</cite>) has the meaning of parched land?—V. <cite ref=\"R00275\"><he>צַחְיוּתָא</he></cite>"
+			]
+		}
+	]
+}

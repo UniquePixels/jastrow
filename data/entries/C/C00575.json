@@ -1,0 +1,27 @@
+{
+	"id": "C00575",
+	"slug": "גזר-3",
+	"headword": {
+		"text": "גָּזָר"
+	},
+	"page": {
+		"number": 232,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. (<he>גזר</he>) <cite ref=\"C00574\"><he>גְּזַר</he></cite> <i>decree</i>, <he>גְּזַר דִּין</he> <i>sentence, legal decision, divine dispensation</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 8b:5\">Keth. 8ᵇ</cite> <he>אפי׳ נחתם לו ג׳ ד׳ של וכ׳</he> even if a divine decree granting seventy years of happiness were sealed to him; <cite ref=\"Shabbat 33a:9\">Sabb. 33ᵃ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 26:8\">Lev. R. s. 26</cite> <he>בלי שטר ובלי ג׳ ד׳</he> without a note of indebtedness and without a judicial verdict. ",
+				"<cite ref=\"Vayikra Rabbah 26:8\">Ib.</cite> <he>כמה גזר דין</he>, corr. <he>גִּזְרֵי דינין</he>.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:9:23\">Y. Snh. III, 21ᵈ</cite> top <he>עבדון ליה ג׳ ד׳</he> the court passes sentence over him; a. fr.—Pl. <he>גִּזְרֵי דינין</he>, <cite ref=\"C00520\"><he>גִּיזְ׳</he></cite>. Lev. R. l. c. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:3:3\">Y. M. Kat. III, 82ᵃ</cite> bot. (expl. <he>גזירות ב״ד</he>, Mish. ",
+				"<cite ref=\"Mishnah Moed Katan 3:3\">ib. III, 3</cite>) <he>אילו גי׳ ד׳</he> that means judicial verdicts."
+			]
+		}
+	]
+}

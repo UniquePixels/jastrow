@@ -1,0 +1,29 @@
+{
+	"id": "E00709",
+	"slug": "הספד",
+	"headword": {
+		"text": "הֶסְפֵּד"
+	},
+	"page": {
+		"number": 359,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01315\"><he>סָפַד</he></cite>) <i>funeral ceremonies, manifestations of mourning, funeral address, eulogy</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 3:8\">M. Kat. III, 8</cite> <he>שלא להרגיל את הה׳</he> in order not to invite lamentation. ",
+				"<cite ref=\"Tosefta Moed Kattan 2:17\">Tosef. ib. II, 17</cite> <he>ה׳ על לב</he> <i>hesped</i> means beating on the heart. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:2:3\">Y. Ber. III, 6ᵇ</cite> top [read:] <he>הסופד וכל העסוקין בה׳</he> (v. ",
+				"<cite ref=\"Tosefta Berakhot 2:11\">Tosef. ib. II, 11</cite> ed. Zuck., Var.) the leader of the lamentation and all those engaged in it. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:2:3\">Y. Succ. V, 55ᵇ</cite> bot. <he>הֶסְפֵּידוֹ של וכ׳</he> the mourning for &c. ",
+				"<cite ref=\"Shabbat 153a:2\">Sabb. 153ᵃ</cite> <he>מהספדו של אדם וכ׳</he> from the way a person is mourned for you can learn whether he deserves future happiness; a. fr.—קשר ה׳ <i>to compose and arrange a funeral song</i>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 16:4:2\">Y. Yeb. XVI, 15ᵈ</cite> top <he>מצא ה׳ קשור וכ׳</he> found that lamentations were prepared in his house. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:8\">Y. Yoma I, 38ᵇ</cite>; Y. Sot. I, end, 17ᵈ. Lam. R. introd. (R. Joh. 1)."
+			]
+		}
+	]
+}

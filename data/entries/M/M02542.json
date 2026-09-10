@@ -1,0 +1,24 @@
+{
+	"id": "M02542",
+	"slug": "מרדו-1",
+	"headword": {
+		"text": "מַרְדּוּ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 837,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(?) <cite ref=\"M02541\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 62b:7\">Ḥull. 62ᵇ</cite> <he>והיינו מ׳</he> and this (‘hen of the marsh’) is <i>mardu</i>. ",
+				"<cite ref=\"Chullin 62b:9\">Ib.</cite> <he>מ׳ זגיד</he> (Rashi <cite ref=\"M02652\"><he>מרה</he></cite>), v. <cite ref=\"G00065\"><he>זָגיד</he></cite>."
+			]
+		}
+	]
+}

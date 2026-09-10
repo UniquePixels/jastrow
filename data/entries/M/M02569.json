@@ -1,0 +1,31 @@
+{
+	"id": "M02569",
+	"slug": "מרובה",
+	"headword": {
+		"text": "מְרוּבֶּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרוּבָּה"
+		}
+	],
+	"page": {
+		"number": 838,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"T00058\"><he>רָבָה</he></cite>) <i>large, numerous, frequent</i>; opp. <cite ref=\"M00561\"><he>מוּעָט</he></cite>; pl. <he>מְרוּבִּים</he>, <he>מְרוּבּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 1:5\">Ḥag. I, 5</cite>; a. fr.—Sifra Tsav ch. XV, Par. 11 (<cite ref=\"M00252\"><he>מדה</he></cite>) <he>מ׳</he> the more frequent act, v. <cite ref=\"M00561\"><he>מוּעָט</he></cite>. ",
+				"<cite ref=\"Pesachim 37a:4\">Pes. 37ᵃ</cite>; <cite ref=\"Beitzah 22b:8\">Bets. 22ᵇ</cite> <he>פת מ׳</he>, v. <cite ref=\"P00007\"><he>עָב</he> I</cite>; a. fr.—",
+				"<cite ref=\"Rosh Hashanah 4b:15\">R. Hash. 4ᵇ</cite>, a. fr. <cite ref=\"M02569\"><he>מְרוּבֶּה</he></cite> the larger sphere, v. <cite ref=\"M00561\"><he>מוּעָט</he></cite>.—מְרוּבֶּה בְגָדִים <i>the priest distinguished by a larger number of official garments</i> (v. ",
+				"<cite ref=\"Mishnah Yoma 7:5\">Yoma VII, 5</cite>), i.e. <i>the high priest</i> during the second Temple when no anointing took place. Sifra Tsav, Par. 3, ch. V (ref. to <cite ref=\"Leviticus 4:5\">Lev. IV, 5</cite>) <he>מ׳ ב׳ מנין</he> how do you know that the law refers to the high priest even when he has not been anointed? <cite ref=\"Mishnah Horayot 3:4\">Hor. III, 4</cite>. ",
+				"<cite ref=\"Horayot 12a:19\">Ib. 12ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

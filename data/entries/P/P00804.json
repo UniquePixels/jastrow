@@ -1,0 +1,39 @@
+{
+	"id": "P00804",
+	"slug": "עלילה",
+	"headword": {
+		"text": "עֲלִילָה"
+	},
+	"page": {
+		"number": 1083,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P00803\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>bringing about, causation</i>,] <i>dealing, government, disposition</i>.—Pl. <cite ref=\"P00805\"><he>עֲלִילוֹת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 2:1\">Ex. R. s. 2</cite>, v. <cite ref=\"P00376\"><he>עָוַת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"P00571\"><he>עִילָה</he></cite>) [<i>round about way</i>,] <i>circumvention, perverseness, insidiousness; pretext, false charge</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 101b:3\">Snh. 101ᵇ</cite> <he>שלשה באו בע׳</he> three men (Biblical personages) came with indirectness (instead of praying in a straightforward manner). ",
+				"<cite ref=\"Bereishit Rabbah 93:12\">Gen. R. s. 93</cite> <he>מתחלה באת עלינו בע׳</he> from the start thou camest against us with insidiousness (trying to find charges against us); Tanḥ. Vayigg. 5; <cite ref=\"Yalkut Shimoni on Torah 151:2\">Yalk. Gen. 151</cite>. ",
+				"<cite ref=\"Esther Rabbah 7:13\">Esth. R. to III, 9</cite> <he>המן</he> … <he>בע׳ גדולה וכ׳</he> Haman, the wicked, came with great trickery against Israel (tempting them to sin). ",
+				"<cite ref=\"Esther Rabbah 7:13\">Ib.</cite> <he>באו בע׳ וכ׳</he> they (the Israelites) came with a pretext, saying, let us go to sacrifice (<cite ref=\"Exodus 5:3\">Ex. V, 3</cite>). ",
+				"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>ראה היאך תמצא לו ע׳ וכ׳</he> see how thou canst find a charge against Jeremiah and be revenged on him; a. fr.—Pl. as ab. Ex. R. l. c., v. <cite ref=\"P00376\"><he>עָוַת</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 20:8\">Num. R. s. 20</cite> <he>שלא ליתן לו ע׳</he> (not <he>יתן</he>) so as not to allow him any excuses."
+			],
+			"label": "2"
+		}
+	]
+}

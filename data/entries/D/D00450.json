@@ -1,0 +1,31 @@
+{
+	"id": "D00450",
+	"slug": "דיאטגמא",
+	"headword": {
+		"text": "דִּיאֲטַגְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיטַגְמָא"
+		},
+		{
+			"text": "דְּיוֹטַ׳"
+		}
+	],
+	"page": {
+		"number": 294,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (διάταγμα) <i>edict, ordinance</i>. Targ. II Esth. III, 15; a. e.—Sifré Deut. s. 33 <he>כדיוט׳ ישנה</he> like an antiquated ordinance. Lev. R. s. l; a. fr.—Pl. <he>דִּיאֲטַגְמָאוֹת</he>, <he>דִּיטַ׳</he>, <cite ref=\"D00450\"><he>דְּיוֹטַ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30</cite>; a. e.—<he>דִּיאֲטַגְמָטִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 7:7:6\">Y. Shebu. VII, 38ᵃ</cite> bot. <cite ref=\"D00452\"><he>דיאטיגמתין</he></cite>; <cite ref=\"Jerusalem Talmud Ketubot 9:8:4\">Y. Keth. IX, 33ᵇ</cite> bot. <he>דין מוגמרין</he> (corr. acc.)."
+			]
+		}
+	]
+}

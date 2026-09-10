@@ -1,0 +1,28 @@
+{
+	"id": "O01002",
+	"slug": "סליתא",
+	"headword": {
+		"text": "סִלְיְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִילְתָא"
+		}
+	],
+	"page": {
+		"number": 995,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U01302\"><he>שִׁלְיָה</he></cite>, <i>after-birth</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134a:14\">Sabb. 134ᵃ</cite> (Ms. O. <cite ref=\"U01321\"><he>שלייתא</he></cite>, v. Rabb. D. S. a. l. note 60). ",
+				"<cite ref=\"Berakhot 6a\">Ber. 6ᵃ</cite> <he>סִילְיְתָא</he> Ar. ed. Koh. (oth. ed. Ar. <cite ref=\"O00678\"><he>סילתא</he></cite>; ed. <cite ref=\"U01321\"><he>שלייתא</he></cite>)."
+			]
+		}
+	]
+}

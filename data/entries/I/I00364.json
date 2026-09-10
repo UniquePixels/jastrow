@@ -1,0 +1,30 @@
+{
+	"id": "I00364",
+	"slug": "טילא-2",
+	"headword": {
+		"text": "טִילָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טִילְיָא"
+		}
+	],
+	"page": {
+		"number": 531,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>tila</i> or <i>tilia</i>, name of an inferior austere wine. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28a\">Ab. Zar. 28ᵃ</cite> bot. (Rashi: <cite ref=\"I00368\"><he>טילייא</he></cite>). ",
+				"<cite ref=\"Avodah Zarah 30a:15\">Ib. 30ᵃ</cite> bot. (by <he>יין חד</he> is meant) <he>ט׳ חריפא וכ׳</he> the austere <i>tila</i> which bursts the bag. ",
+				"<cite ref=\"Gittin 70a:12\">Gitt. 70ᵃ</cite> the worst of all is <he>טיליא וכ׳</he> white <i>t</i>"
+			]
+		}
+	]
+}

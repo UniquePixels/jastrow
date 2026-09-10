@@ -1,0 +1,54 @@
+{
+	"id": "V00424",
+	"slug": "תיובא",
+	"headword": {
+		"text": "תְּיוּבָא"
+	},
+	"page": {
+		"number": 1663,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " m, <cite ref=\"V00429\"><he>תְּיוּבְתָּא</he></cite> f. (<cite ref=\"V00142\"><he>תּוּב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"V00144\"><he>תּוּבָא</he></cite>, <i>vomit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 26:11\">Targ. Prov. XXVI, 11</cite> <he>תְּיוּבֵיה</he> (Ms. <he>תיובת׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>return</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 24:23\">Targ. Job XXIV, 23</cite> (ed. Lag. <cite ref=\"V00412\"><he>תִּיבוּתָא</he></cite>).—Esp. = h. <cite ref=\"V01072\"><he>תְּשׁוּבָה</he></cite> <i>return to God, repentance</i>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 33:6\">Targ. Jer. XXXIII, 6</cite> (ed. Wil. <cite ref=\"V00424\"><he>תִּיוּבָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:5\">Targ. Cant. V, 5</cite>; a. fr.—",
+				"<cite ref=\"Taanit 23b:7\">Taan. 23ᵇ</cite> <he>אנא בעי</he> … <he>דליהדרו בת׳</he> I prayed that they might die, but she prayed that they might return in repentance (<cite ref=\"Berakhot 10a:3\">Ber. 10ᵃ</cite> <he>דלהדרו בתשובה</he>); a. e.—V. <cite ref=\"V01117\"><he>תְּתוּבָא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>answer, reply, refutation, argument</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 12:5\">Targ. Jer. XII, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 32:3\">Targ. Job XXXII, 3</cite>; <cite ref=\"Aramaic Targum to Job 32:5\">5</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 16a:16\">B. Mets. 16ᵃ</cite> <he>הא גברא והא ת׳</he> here is the man, and here is his answer (such an ingenious answer only such a man can give); <he>גברא קא חזינא ות׳ וכ׳</he> I see the man, but I do not see the answer (his argument does not convince me). ",
+				"<cite ref=\"Avodah Zarah 68a:4-5\">Ab. Zar. 68ᵃ</cite> <he>חגא</he> … <he>ת׳ קא מותיב</he> Ḥagga knows not what the Rabbis say, and dares to argue? <cite ref=\"Berakhot 10b:34\">Ber. 10ᵇ</cite> <he>ת׳ דרב חסדא ת׳</he> this is an argument against Rab Ḥisda; it is an argument (R. Ḥ. stands refuted). ",
+				"<cite ref=\"Berakhot 21a:6\">Ib. 21ᵃ</cite> <he>ת׳</he> this is a final refutation; a. v. fr.—Pl. <he>תְּיוּבָתָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 21:34\">Targ. Job XXI, 34</cite> Ms. (ed. <i>sing.</i>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>pl.</i> as ab. <i>going to and fro, waywardness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 5:6\">Targ. Jer. V, 6</cite> (ed. Wil. <cite ref=\"V00164\"><he>תִּיוּ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:7\">Ib. XIV, 7</cite> <he>תְּיוּבָתָנָא</he> (not <he>תְּיוּבְתָּ׳</he>); a. e."
+			],
+			"label": "4"
+		}
+	]
+}

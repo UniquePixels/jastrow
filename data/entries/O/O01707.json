@@ -1,0 +1,49 @@
+{
+	"id": "O01707",
+	"slug": "סתם-3",
+	"headword": {
+		"text": "סְתָם"
+	},
+	"page": {
+		"number": 1032,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01706\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>closing up</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Avodah Zarah 7:14\">Tosef. Ab. Zar. VII</cite> (<cite ref=\"Tosefta Avodah Zarah 8:14\">VIII</cite>), 14; <cite ref=\"Avodah Zarah 69b\">Ab. Zar. 69ᵇ</cite>, v. <cite ref=\"O01686\"><he>סְתוֹם</he></cite>, a. <cite ref=\"U02125\"><he>שְׁתָם</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>something unknown, undefined</i>. Ib. 74ᵃ bot. <he>סְתַם יינן</he> Ms. M. a. Rashi (ed. <cite ref=\"J00335\"><he>יין</he></cite>) wine of gentiles of which it is not known that it has been dedicated to an idol, opp. <he>יין נסך</he>; <cite ref=\"Chullin 4b:12\">Ḥull. 4ᵇ</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:10:2\">Y. Ab. Zar. III, 43ᵇ</cite> bot. <he>בס׳ חלוקין</he> they differ with regard to a tree (Asherah) of which it is not known that is has been worshipped. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:10:2\">Ib.</cite> <he>סְתָמָן עובדין וכ׳</he> those of them (the gentiles) not otherwise known worship an image but not a tree. ",
+				"<cite ref=\"Makkot 3b:14\">Macc. 3ᵇ</cite> <he>המלוה את חבירו ס׳</he> he who makes a loan to his neighbor without terms, cannot claim payment before thirty days. ",
+				"<cite ref=\"Sanhedrin 25b:23\">Snh. 25ᵇ</cite> <he>ס׳ גבאי כשר</he> a tax collector, unless known to be dishonest, is admissible as witness; <he>ס׳ רועה פסול</he> a shepherd, unless known to guard his flock from illicit pasture, is disqualified. ",
+				"<cite ref=\"Bava Metzia 69a:8\">B. Mets. 69ᵃ</cite> (in Chald. dict.) <he>ס׳ אריסא וכ׳</he> the presumption is that a tenant obligates himself, etc. ",
+				"<cite ref=\"Rosh Hashanah 7b:5\">R. Hash. 7ᵇ</cite> <he>ס׳ כי אגר וכ׳</he> as a rule, when one rents a house etc.; a. v. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>an opinion stated without an authority, anonymous opinion</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 42b:10\">Yeb. 42ᵇ</cite>, a. fr. <he>מחלוקת ואח״כ ס׳ הלכה כס׳</he> where differing opinions are quoted and followed by an anonymous opinion (‘the scholars say’), the latter is the practice. ",
+				"<cite ref=\"Chullin 43a\">Ḥull. 43ᵃ</cite>, a. e. <he>הלכה כס׳ משנה</he> the practice follows the anonymous opinion in the Mishnah. ",
+				"<cite ref=\"Sanhedrin 86a:3\">Snh. 86ᵃ</cite>, a. e. <he>ס׳ מתני׳ ר׳ מאיר וכ׳</he> wherever an anonymous opinion is stated in the Mishnah, it is R. Meïr’s; in the Tosefta, etc.; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:8:11\">Y. Sot. I, 17ᵇ</cite> bot. <he>כתוב לה ס׳</he> write the order for two men without specified names."
+			],
+			"label": "3"
+		}
+	]
+}

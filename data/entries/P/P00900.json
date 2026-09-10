@@ -1,0 +1,29 @@
+{
+	"id": "P00900",
+	"slug": "עמל-5",
+	"headword": {
+		"text": "עֲמַל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עַמְלָא"
+		}
+	],
+	"page": {
+		"number": 1089,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00899\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:17\">Targ. Gen. III, 17</cite> (h. text <he>עצבין</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 26:7\">Targ. O. Deut. XXVI, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 7:17\">Targ. Ps. VII, 17</cite> Ms. (ed. <cite ref=\"L00602\"><he>לעותא</he></cite>); a. e.—Esp. <i>acquisition, income, rent</i>. ",
+				"<cite ref=\"Bava Batra 67a:1\">B. Bath. 67ᵃ</cite> <he>מגבינן אפי׳ מע׳ דבתי</he> we used to collect (the daughter’s share, v. <cite ref=\"P00702\"><he>עִישּׂוּר</he></cite>) even from house rents; <cite ref=\"Ketubot 69a\">Keth. 69ᵃ</cite> (not <he>דביתי</he>; Rashi: <he>דבֵיתֵיה</he>).—Pl. <he>עַמְלִין</he>. ",
+				"<cite ref=\"Bava Metzia 15a:16\">B. Mets. 15ᵃ</cite> <he>אינון ועַמְלֵיהוֹן וכ׳</he> Rashi a. Tosaf. (ed. <he>ועמיליהון</he>) (I vouch for) themselves (the lands), and the income from them and eventual improvements; [Ar. a. Tosaf. <he>עמליהון</he> <i>the cost of acquisition, original value</i>]."
+			]
+		}
+	]
+}

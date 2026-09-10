@@ -1,0 +1,26 @@
+{
+	"id": "O00233",
+	"slug": "סובין-2",
+	"headword": {
+		"text": "סוּבִּין"
+	},
+	"page": {
+		"number": 960,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"O00232\">preced.</cite>; cmp. <cite ref=\"E00151\"><he>הַדְרָאָה</he></cite>) <i>flour of the second course, bran-flour</i> (differ. fr. <cite ref=\"M00669\"><he>מוּרְסָן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Ketubot 112a:11\">Keth. 112ᵃ</cite>; <cite ref=\"Jerusalem Talmud Sotah 1:8:9\">Y. Sot. I, 17ᵇ</cite>, a. e.—",
+				"<cite ref=\"Bava Batra 98b:6\">B. Bath. 98ᵇ</cite> (from Ben Sira) <he>הכל … קל מס׳ וקל מס׳ וכ׳</he> I have weighed everything …, and found nothing lighter than bran, but lighter (in mind) than bran is &c.; a. fr.—Sing. <cite ref=\"O00228\"><he>סוֹב</he></cite>, with suffix <he>סוּבָּן</he>. ",
+				"<cite ref=\"Mishnah Challah 2:6\">Ḥall. II, 6</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 7:4\">Sabb. VII, 4</cite> (<cite ref=\"Shabbat 76b\">76ᵇ</cite>)."
+			]
+		}
+	]
+}

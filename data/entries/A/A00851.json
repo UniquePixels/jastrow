@@ -1,0 +1,22 @@
+{
+	"id": "A00851",
+	"slug": "אורבנין",
+	"headword": {
+		"text": "אוּרְבָּנִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 33,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"A00850\">foreg.</cite>) name of a <i>seasoning reed</i>. ",
+			"units": ["<cite ref=\"Eruvin 34b\">Erub. 34ᵇ</cite>"]
+		}
+	]
+}

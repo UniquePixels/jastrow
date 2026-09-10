@@ -1,0 +1,62 @@
+{
+	"id": "Q00091",
+	"slug": "פגר-2",
+	"headword": {
+		"text": "פְּגַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1135,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"Q00092\"><he>פַּגֵּר</he></cite> same, <i>to break up, destroy; to break through</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 14:17\">Targ. Is. XIV, 17</cite>. ",
+						"<cite ref=\"Onkelos Exodus 23:24\">Targ. O. Ex. XXIII, 24</cite>.—",
+						"<cite ref=\"Onkelos Exodus 19:21\">Ib. XIX, 21</cite>; <cite ref=\"Onkelos Exodus 19:24\">24</cite>; a. fr.—Part. pass. <he>מְפַגַּר</he>; f. <cite ref=\"M00807\"><he>מְפַגְּרָא</he></cite>; pl. <he>מְפַגְּרִין</he>, <he>מְפַגְּרֵי</he>; <he>מפַגּרָתָא</he>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 18:30\">Targ. I Kings XVIII, 30</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 36:35\">Targ. Ez. XXXVI, 35</cite>.—Pesik. Zakhor, p. 26ᵃ (expl. <he>ערו</he>, <cite ref=\"Psalms 137:7\">Ps. CXXXVII, 7</cite>) <he>פַּגְּרוּ פַּגְּרוּ</he> destroy, destroy ye!; <cite ref=\"Psalms 137:7\">ib.</cite> ʿĂniya, p. 135ᵃ <he>פַּגָּארוּ פַּגָּארוּ</he>; (<cite ref=\"Pesikta Rabbati 32:1\">Pesik. R. s. 32</cite> <he>תברו</he>); Midr. Till. to Ps. l. c.; <cite ref=\"Eichah Rabbah 5:1\">Lam. R. to V, 1</cite>.—",
+						"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> (expl. <he>נמהרי לב</he>) <he>מפגרי לבא</he> those crushed at heart (with ref. to <he>ימהרו</he>, <cite ref=\"Nahum 2:6\">Nah. II, 6</cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְגַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to wound, bruise</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 66a:14\">Nidd. 66ᵃ</cite> <he>אַפְגּוּרֵי מַפְגְּרָא לה</he>, v. <cite ref=\"B00087\"><he>בְּגַר</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפַּגַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be destroyed, broken</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 2:8\">Targ. Lam. II, 8</cite> (h. text <he>אמללו</he>). ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 30:4\">Targ. Ez. XXX, 4</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

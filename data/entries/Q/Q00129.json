@@ -1,0 +1,51 @@
+{
+	"id": "Q00129",
+	"slug": "פדן",
+	"headword": {
+		"text": "פַּדָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּדְנָא"
+		}
+	],
+	"page": {
+		"number": 1137,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פדד</he> <i>to cut</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ploughshare, plough</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 13:20\">Targ. I Sam. XIII, 20</cite>.—",
+				"<cite ref=\"Bamidbar Rabbah 8\">Num. R. s. 8</cite>; <cite ref=\"Pesikta Rabbati 23-24\">Pesik. R. s. 23-24</cite>, v. <cite ref=\"O00873\"><he>סִכָּא</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <he>שרי תורך ושרי פַדְנָךְ</he> untie thy oxen, and untie (take apart) thy plough (<cite ref=\"Jerusalem Talmud Berakhot 2:4:12\">Y. Ber. II, 5ᵃ</cite> top <he>קנקנך</he>); a. e.—Pl. <he>פַּדְנִין</he>, <he>פַּדְנַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 13:21\">Targ. I Sam. XIII, 21</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <he>תורי</he>, or sub. <he>תורי</he>) <i>yoke of</i> (<i>plough</i>-) <i>oxen, pair</i> (corresp. to h. <he>צמד</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 10:10\">Targ. Hos. X, 10</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 96b:7\">B. Kam. 96ᵇ</cite>.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Aramaic Targum to Job 1:3\">Targ. Job I, 3</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>פַּדַּן אֲרָם</he> (b. h.) pr. n. pl. <i>Paddan-Aram</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:20\">Targ. Gen. XXV, 20</cite>; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "R00579",
+	"slug": "צמית",
+	"headword": {
+		"text": "צָמִית"
+	},
+	"page": {
+		"number": 1288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00601\"><he>צָמַת</he></cite>, v. <cite ref=\"R00581\"><he>צְמִיתוּת</he></cite>) <i>irredeemably sold, forfeited</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:3:7\">Y. Maasr. III, 50ᵈ</cite> <he>ואין צ׳ ביובל</he> (prob. to be read: <cite ref=\"R00601\"><he>נִצְמָת</he></cite>, v. <cite ref=\"R00601\"><he>צָמַת</he></cite>) and does not become irredeemable in the jubilee year (<cite ref=\"Sukkah 3b:3\">Succ. 3ᵇ</cite> <he>ואינו נחלט</he>). ",
+				"<cite ref=\"Arakhin 31b:55\">Arakh. 31ᵇ</cite>, v. <cite ref=\"R00581\"><he>צְמִיתוּת</he></cite>."
+			]
+		}
+	]
+}

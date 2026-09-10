@@ -1,0 +1,29 @@
+{
+	"id": "B00885",
+	"slug": "בלן-1",
+	"headword": {
+		"text": "בַּלָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּלָּנִי"
+		}
+	],
+	"page": {
+		"number": 174,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (βαλανεύς) <i>bathing master, bathing attendant</i> (who receives a small coin as fee, cmp. <cite ref=\"A00671\"><he>אוֹלְיָיר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 8:5\">Shebi. VIII, 5</cite>; v. <cite ref=\"B00600\"><he>בַּיָּיר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 4:6:2\">Y. B. Bath. IV, 14ᶜ</cite> bot. <he>מקום הב׳</he> the bathing master’s station (the income therefrom); a. fr.—Pl. <he>כַּלָּנִין</he>. ",
+				"<cite ref=\"Mishnah Shabbat 4:2\">Sabb. IV, 2</cite> <he>קורות הב׳</he> the beams whereon the bathing masters are stationed."
+			]
+		}
+	]
+}

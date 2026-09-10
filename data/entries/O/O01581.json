@@ -1,0 +1,55 @@
+{
+	"id": "O01581",
+	"slug": "סרט-1",
+	"headword": {
+		"text": "סָרַט"
+	},
+	"page": {
+		"number": 1025,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"U01951\"><he>שָׂרַט</he></cite>; contr. of <he>סחרט</he>, <i>Saf.</i> of <cite ref=\"H01660\"><he>חָרַט</he></cite>) <i>to make an incision; to mark</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 11:6\">Tosef. Sabb. XI</cite> (<cite ref=\"Tosefta Shabbat 12:6\">XII</cite>), 6 <he>הסוֹרֵט סריטה וכ׳</he> he who draws one mark over two boards at the same time; (<cite ref=\"Shabbat 103b:2\">Sabb. 103ᵇ</cite> <he>שָׂרַט שריטה</he>). ",
+				"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite>, end <he>יִסְרוֹט לו סריטה וכ׳</he> let him make a mark on the wall (indicating the standing of the sun) &c. ",
+				"<cite ref=\"Shemot Rabbah 12:2\">Ex. R. s. 12</cite>, beg. <he>ס׳ לו סריטה וכ׳</he> (Tanḥ. Vaëra 16 <he>ש׳ לו שריטה</he>) he drew a mark for him on the wall &c. Lam. R. introd. (Zabdi 2); <cite ref=\"Shemot Rabbah 12:2\">ib.</cite> to IV, 12 (ref. to <cite ref=\"Isaiah 10:19\">Is. X, 19</cite>) <he>ששה שכן … להיות שׂורֵט שריטה</he> six were left over, for that is a child’s way to make a stroke (resembling <cite ref=\"F00000\"><he>ו</he></cite> = six); (<cite ref=\"Midrash Tehillim 79\">Midr. Till. to Ps. LXXIX</cite>, beg.; v. ed. Bub. note 21) ; a. fr.—Esp. <i>to wound the body in mourning</i>, v. <cite ref=\"U01951\"><he>שָׂרַט</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סֵירֵט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01580\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 12:4\">Sabb. XII, 4</cite> <he>המְסָרֵט על בשרו</he> he who makes a mark on his body by scratching, contrad. to <he>הכותב</he>. ",
+						"<cite ref=\"Sotah 48a:8\">Sot. 48ᵃ</cite> (expl. <he>נוקפין</he>) <he>שהיו מְסָרְטִין לעגל וכ׳</he> they used to make a scratch between the calf’s horns, that the blood might run over its eyes; (<cite ref=\"Tosefta Sotah 13:10\">Tosef. Sot. XIII, 10</cite> <he>שמכין</he>, ed. Zuck. <he>שמושכין</he>). ",
+						"<cite ref=\"Shemot Rabbah 24\">Ex. R. s. 24</cite> <he>שאילולי היה … ומְשָׂרֶטֶת אותו</he> if a man were to eat (and swallow) a piece of bread in its natural condition (not softened by the moisture of saliva), it would enter his entrails and wound him; a. e.—[<cite ref=\"Tosefta Bava Metzia 3:29\">Tosef. B. Mets. III, 29</cite> <he>משרבטין ומסרטין</he>, strike out <he>ומסרטין</he> as a corrupt dittography of <he>משרבטין</he>; v. ed. Zuck.]—V. <cite ref=\"U01951\"><he>שָׂרַט</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִסְרַט"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִסְתָּרֵט"],
+			"senses": [
+				{
+					"gloss": "<i>to be scratched, wounded</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 53b:16\">Sabb. 53ᵇ</cite> <he>כדי שלא יִסָּרְטוּ דדיהן</he> that their udders may not be scratched (when passing between bushes). ",
+						"<cite ref=\"Shemot Rabbah 2:5\">Ex. R. s. 2</cite> <he>וכשהוא מוציאה מִסְתָּרֶטֶת</he> but when he takes his hand out, it will be wounded."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

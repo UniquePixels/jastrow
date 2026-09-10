@@ -1,0 +1,30 @@
+{
+	"id": "Q00618",
+	"slug": "פיטומא-2",
+	"headword": {
+		"text": "פִּיטּוּמָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּטּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1160,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פטם</he> <i>to break</i>, cmp. Arab. <i>faṭas</i> mortuus fuit) <i>slain body, corpse</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 69ᵃ</cite> top <he>חמי לי פִּטּוּמֵיה</he> show me his (Bar Kokhba’s) body; <cite ref=\"Yalkut Shimoni on Torah 946:2\">Yalk. Deut. 946</cite> <he>אייתון לי גופיה פטומיא</he> (read: <he>אייתון לי פטומיה</he>, <he>גופיה</he> being a gloss to <he>פ׳</he>).—Pl. <cite ref=\"Q00623\"><he>פִּיטּוּמִין</he></cite>, <cite ref=\"Q00616\"><he>פִּטּ׳</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite> <he>זיל אייתי לי פִּיטּוּמַיְהוּ</he> go and bring me their bodies"
+			]
+		}
+	]
+}

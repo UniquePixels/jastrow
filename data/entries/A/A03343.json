@@ -1,0 +1,24 @@
+{
+	"id": "A03343",
+	"slug": "אשקוקה",
+	"headword": {
+		"text": "אַשְׁקוּקָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אשקיקה"
+		}
+	],
+	"page": {
+		"number": 130,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>ashkukah</i>, a fictitious word as a disguise of <cite ref=\"U00081\"><he>שְׁבוּעָה</he></cite>, <i>oath, I swear</i> (cmp. <cite ref=\"A01877\"><he>אֲלִיקִי</he></cite>, <cite ref=\"A01544\"><he>אֱיפוֹפֵי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Nedarim 10b:10\">Ned. 10ᵇ</cite> <he>א׳ לא אמר כלום</he> if one says <i>ashkukah</i>, he has said nothing (his vow is not binding); v. <cite ref=\"U00086\"><he>שְׁקוּקָה</he></cite>."
+			]
+		}
+	]
+}

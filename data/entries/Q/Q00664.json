@@ -1,0 +1,31 @@
+{
+	"id": "Q00664",
+	"slug": "פיל-5",
+	"headword": {
+		"text": "פִּיל",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1163,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (part. pass. of <he>פול</he> or <he>פלל</he>; cmp. <cite ref=\"B00880\"><he>בלל</he></cite>; cmp. <cite ref=\"Q01037\"><he>פְּלֵי</he></cite>) <i>permeated, soaked</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 14:21\">Targ. O. Lev. XIV, 21</cite> (h. text <cite ref=\"B00830\"><he>בלול</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 7:10\">Ib. VII, 10</cite>; a. fr.—Pl. f. <he>פִּילַן</he>. ",
+				"<cite ref=\"Onkelos Leviticus 7:12\">Ib. 12</cite>; a. e."
+			]
+		}
+	]
+}

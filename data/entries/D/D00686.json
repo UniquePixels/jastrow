@@ -1,0 +1,41 @@
+{
+	"id": "D00686",
+	"slug": "דיפתרא",
+	"headword": {
+		"text": "דִּיפְתְּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּפְ׳"
+		}
+	],
+	"page": {
+		"number": 304,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (διφθέρα) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hide prepared for writing</i> (contrad. to <he>מצה</he> a. <cite ref=\"H00843\"><he>חיפה</he></cite>, v. also <cite ref=\"D00254\"><he>דוכסוסטוס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 2:2\">Meg. II, 2</cite> (opp. to <he>ספר</he>). ",
+				"<cite ref=\"Megillah 19a:1\">Ib. 19ᵃ</cite> defined <he>די׳ דמליח וכ׳</he> <i>diphtera</i> is a skin prepared with salt and flour, but not with gallnut, v. <cite ref=\"A02773\"><he>אֲפַץ</he></cite>; <cite ref=\"Shabbat 79a:9\">Sabb. 79ᵃ</cite>; <cite ref=\"Gittin 22a:18\">Gitt. 22ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>record, document, list</i>. Tanḥ. Vaëra 5 <he>ד׳ של אלוהות</he> a list of the deities; <cite ref=\"Yalkut Shimoni on Torah 175:1\">Yalk. Ex. 175</cite>.—Pl. <he>דִּיפְתְּרָאוֹת</he>, <he>דִּיפְתְּרִין</he>, <cite ref=\"D00681\"><he>דִּפְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 2:4:6\">Y. Peah II, 17ᵃ</cite> bot. <he>דִּפְתְּרֵיהֶן</he> their (national) records. ",
+				"<cite ref=\"Pesikta Rabbati 8:1\">Pesik. R. s. 8</cite> <he>ד׳ כתובות וכ׳</he> records are written before the Lord &c."
+			],
+			"label": "2"
+		}
+	]
+}

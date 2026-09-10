@@ -1,0 +1,23 @@
+{
+	"id": "S00016",
+	"slug": "קאקא-1",
+	"headword": {
+		"text": "קָאקָא"
+	},
+	"page": {
+		"number": 1306,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (onomatop., cmp. <cite ref=\"S00267\"><he>קְוַוקְיָא</he></cite>) <i>goose</i>.—Pl. <he>קָאקֵי</he>. ",
+			"units": [
+				"<cite ref=\"Berakhot 20a:6\">Ber. 20ᵃ</cite> <he>דמיין … כי ק׳ חיורי</he> they are in my sight like white geese (exciting no sexual desires). ",
+				"<cite ref=\"Gittin 73a:18\">Gitt. 73ᵃ</cite> (of unjust scholars) <he>ק׳ חיורי דמשלחי וכ׳</he> white geese (old men) that strip men of their cloaks; <cite ref=\"Ketubot 85a:3\">Keth. 85ᵃ</cite>.—[Ar. reads: <he>קָקֵי</he>, v. <cite ref=\"S01859\"><he>קָקָא</he></cite>.]"
+			]
+		}
+	]
+}

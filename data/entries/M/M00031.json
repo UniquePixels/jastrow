@@ -1,0 +1,25 @@
+{
+	"id": "M00031",
+	"slug": "מאיר",
+	"headword": {
+		"text": "מֵאִיר"
+	},
+	"page": {
+		"number": 722,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Meïr</i>, esp. R. M., a renowned Tannai, disciple of R. Akiba and of Elisha ben Abuya (v. Fr. Darkhe Mish., p. 154, a. <cite ref=\"A01880\"><he>אֱלִישָׁע</he></cite>). ",
+			"units": [
+				"<cite ref=\"Eruvin 13b:6\">Erub. 13ᵇ</cite> <he>לא ר׳ מ׳ שמו אלא ר׳ מיישא שמו</he> (v. Rabb. D. S. a. l. note) his name was not R. M. but R. Maysha. ",
+				"<cite ref=\"Horayot 13b:17\">Hor. 13ᵇ</cite>, v. <cite ref=\"A01047\"><he>אַחֵר</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 9:5\">Gen. R. s. 9</cite>, a. fr. <he>בתורתו של ר׳ מ׳</he> in R. M.’s copy of the Pentateuch. ",
+				"<cite ref=\"Mishnah Chullin 4:4\">Ḥull. IV, 4</cite>; a. v. fr."
+			]
+		}
+	]
+}

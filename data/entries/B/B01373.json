@@ -1,0 +1,26 @@
+{
+	"id": "B01373",
+	"slug": "בשרא-2",
+	"headword": {
+		"text": "בִּשְׂרָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּישְׂרָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 200,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " f. (<he>בשר</he>) = <cite ref=\"B01353\"><he>בְּשׂוֹרְתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 21:7\">Targ. Y. II, Gen. XXI, 7</cite>."
+			]
+		}
+	]
+}

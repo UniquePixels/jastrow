@@ -1,0 +1,78 @@
+{
+	"id": "Q01518",
+	"slug": "פקר-2",
+	"headword": {
+		"text": "פְּקַר"
+	},
+	"page": {
+		"number": 1212,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01517\">same</cite><i>to break into</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to declare free</i>; v. infra.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be irreverent, sceptical</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 38b:13\">Snh. 38ᵇ</cite> <he>אבל אפיקורוס … דפ׳ טפי</he> but with a Jewish sceptic you must surely not argue, for he will become only bolder by it. ",
+				"<cite ref=\"Sanhedrin 60a:21\">Ib. 60ᵃ</cite> <he>מי פְקִירֵי כולי האי</he> are they (Jews) so bold (as to blaspheme God)?; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפְקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to break into, trespass</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 22:4\">Targ. Y. Ex. XXII, 4</cite> (ed. Amst. <he>יִפְקַר</he>; ed. Vien. <he>יפקד</he>, corr. acc.; h. text <he>יבער</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to declare free</i>. Ib. XXIII, 11 (ed. Amst. <i>Pe.</i>; ed. Vien. <he>ותפקד</he>, corr. acc.; h. text <he>ונטש׳</he>).—",
+					"units": [
+						"<cite ref=\"Sukkah 44b:6\">Succ. 44ᵇ</cite> <he>אַפְקַר זיתיא וכ׳</he> declare thy olives free for the benefit of the poor. ",
+						"<cite ref=\"Berakhot 47a\">Ber. 47ᵃ</cite>, a. fr. <he>אי בעי מַפְקַר וכ׳</he> if he chooses, he may renounce ownership of his property, and be a poor man &c. ",
+						"<cite ref=\"Bava Metzia 30b:7\">B. Mets. 30ᵇ</cite> <he>לכולי עלמא אַפְקַרְנְהוּ וכ׳</he> I declared them free for all people but not for thee, (v. infra). ",
+						"<cite ref=\"Bava Metzia 30b:9\">Ib.</cite> <he>לכ״ע אַפְקְרִינְהוּ</he> he declared them indeed free for all. ",
+						"<cite ref=\"Bava Metzia 68b:13\">Ib. 68ᵇ</cite> <he>אַפְקוּרֵי מַפְקִיר להו</he> presumably he has renounced ownership of them. ",
+						"<cite ref=\"Moed Katan 16a:9\">M. Kat. 16ᵃ</cite> <he>מַפְקְרִינָן נכסיה</he> we (the court) declare his property ownerless; a. fr.—",
+						"<cite ref=\"Chullin 13b:2\">Ḥull. 13ᵇ</cite> <he>אשתו לא מַפְקַר</he> his own wife will he (the Samaritan) not give up to prostitution, v. infra.—Part. pass. <he>מַפְקַר</he>. ",
+						"<cite ref=\"Bava Metzia 30b\">B. Mets. 30ᵇ</cite> <he>לכ״ע מ׳ וכ׳</he> Ms. M. (Ms. F. <cite ref=\"M01269\"><he>מִיפְּקַר</he></cite> <i>Ithpe.</i>) it is made free to all, but not &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפְּקַר", "אִיפְּקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to behave irreverently, disrespectfully</i>. M. Kat. l. c. <he>אי מִתְפְּקַר בשליחא וכ׳</he> if he treats the messenger of the court with disrespect. Ib. <he>ההוא טבחא דאית׳ וכ׳</he> a butcher behaved irreverently towards R. &c.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to prostitute one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 82a:8\">Snh. 82ᵃ</cite> <he>נשייהו ודאי לא מִיפְקְרֵי</he> their (the Samaritans’) wives will surely not prostitute themselves; v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"id": "H00047",
+	"slug": "חבי-1",
+	"headword": {
+		"text": "חבי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָבָא"
+		},
+		{
+			"text": "חָבָה"
+		}
+	],
+	"page": {
+		"number": 418,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to cover, hide.—Part. pass</i>. (fr. <he>חבה</he>) <cite ref=\"H00018\"><he>חָבוּי</he></cite>, f. <cite ref=\"H00034\"><he>חֲבוּיָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:1\">Cant. R. to II, 1</cite> (play on <he>ח̇ב̇צ̇ל̇ת</he>, <cite ref=\"Shir HaShirim Rabbah 2:1\">ib.</cite>) <he>ח̇ב̇ויה בצ̇ל̇ן של מצרים</he> hidden (disregarded) in the shade of Egypt; <he>ח׳ בצלו של ים</he> nearly covered up by the darkness of the Sea; <he>ח׳ בצלו של סיני</he> nearly covered up by the shade of Sinai (threatening to fall upon me) &c.—",
+				"<cite ref=\"Shir HaShirim Rabbah 2:1\">Ib.</cite> <he>שח׳ בְצֵלָהּ</he> its (the young lily’s) onion is hidden (its leaves not being unfolded).—",
+				"<cite ref=\"Shir HaShirim Rabbah 2:1\">Ib.</cite> <he>כל מתי … חֲבוּיִים בי</he> all the dead of the world are buried in me (the earth)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְבָּא"],
+			"senses": [
+				{
+					"gloss": "<i>to be hidden</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 60a:9\">Sabb. 60ᵃ</cite> <he>היו נֶחְבָּאִין וכ׳</he> they hid in a cave. ",
+						"<cite ref=\"Taanit 23b\">Taan. 23ᵇ</cite>, v. infra."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֶחְבִּיא"],
+			"senses": [
+				{
+					"gloss": "<i>to hide</i>. Taan. l. c. they named him <he>חנן הנחבא מפני שה׳ עצמו</he> Ms. M. (ed. <he>שהיה מַחְבִּיא</he>) because he hid himself (in his modesty). Y. Kil. V, 30ᵃ top (play on <he>בתי כְלָאִים</he>, <cite ref=\"Isaiah 42:22\">Is. XLII, 22</cite>) <he>בית שמַחְבִּיאִין … כִּלְאַיִם</he> a garden house in which it is permitted to keep plants of a different species (from the surrounding vines). ",
+					"units": [
+						"<cite ref=\"Sotah 34b\">Sot. 34ᵇ</cite> (play on <cite ref=\"N00470\"><he>נחבי</he></cite>) <he>שה׳ וכ׳</he> he hid (suppressed) the word of God (truth); Tanḥ. Sh’laḥ 6 <he>שה׳ את דבריו</he> he suppressed the words he ought to have said; <cite ref=\"Sotah 34b\">ib.</cite> Haăz. 7. [Lam. R. introd. (R. Josh. 2) <he>מחבי חביים</he>, read: <he>מחבר חברים</he>, v. <cite ref=\"H00107\"><he>חָבַר</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְחַבֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to hide one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Mishlei 9\">Midr. Prov. ch. IX</cite>; Tanḥ. Ki Thabo 2 <he>מִתְחַבְּאִים</he> trying to hide themselves."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

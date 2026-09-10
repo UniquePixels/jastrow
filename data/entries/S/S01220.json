@@ -1,0 +1,27 @@
+{
+	"id": "S01220",
+	"slug": "קישקוש",
+	"headword": {
+		"text": "קִישְׁקוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִשְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1370,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קִשְׁקֵשׁ</he> I) <i>hoeing the ground</i> (around olive trees). ",
+			"units": [
+				"<cite ref=\"Moed Katan 3a:17\">M. Kat. 3ᵃ</cite> <he>מנין לעידור וק׳ וכ׳</he> whence is it learned that hoeing of vines, and hoeing of olive trees, and clearing are forbidden in the Sabbatical year? <cite ref=\"Moed Katan 3a:10\">Ib.</cite> <he>וק׳ … שרי</he> is hoeing in the Sabbatical year permitted?; <cite ref=\"Sukkah 44b:7\">Succ. 44ᵇ</cite> Ms. M. (ed. <cite ref=\"S02255\"><he>קַשְׁקוּשֵׁי</he></cite>)."
+			]
+		}
+	]
+}

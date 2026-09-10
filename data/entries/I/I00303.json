@@ -1,0 +1,28 @@
+{
+	"id": "I00303",
+	"slug": "טיבור",
+	"headword": {
+		"text": "טִיבּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִבּוּר"
+		}
+	],
+	"page": {
+		"number": 529,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"I00036\"><he>טַבּוּר</he></cite>; <he>טבר</he>, cmp. <cite ref=\"I00068\"><he>טַבְלָא</he> I</cite>) [<i>rounded, arched</i>,] <i>navel, umbilicus</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 18:3\">Sabb. XVIII, 3</cite> (<cite ref=\"Shabbat 128b:13\">128ᵇ</cite>) <he>את הט׳</he> the infant’s navel string. ",
+				"<cite ref=\"Niddah 13b:35\">Nidd. 13ᵇ</cite> <he>על טִבּוּרוֹ</he> (Ar. <cite ref=\"I00088\"><he>טיב׳</he></cite>) above his navel. ",
+				"<cite ref=\"Yoma 85a:10\">Yoma 85ᵃ</cite> <he>מטיבורו</he> the formation of the embryo begins from the navel. ",
+				"<cite ref=\"Midrash Tehillim 19:2\">Midr. Till. to Ps. XIX</cite>; a. fr.—Trnsf. <i>centre</i> or <i>highest part</i>. ",
+				"<cite ref=\"Megillah 6a:4\">Meg. 6ᵃ</cite> (homiletic etymol. of <cite ref=\"I00088\"><he>טבריה</he></cite>) <he>שיושבת בטִיבּוּרָהּ של א״י</he> it is situated on the height of Palestine."
+			]
+		}
+	]
+}

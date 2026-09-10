@@ -1,0 +1,30 @@
+{
+	"id": "R00642",
+	"slug": "צנף-2",
+	"headword": {
+		"text": "צְנֵף"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְנֵיף"
+		}
+	],
+	"page": {
+		"number": 1293,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00641\">same</cite> (of the woodcock) <i>to shriek, squeak</i>. Targ. II Esth. I, 2 (3).—[<cite ref=\"Targum Jonathan on Isaiah 13:22\">Targ. Is. XIII, 22</cite> Kimḥi in ed. Ven. I Var., v. <cite ref=\"N01137\"><he>נְצַף</he></cite>.]",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to neigh</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 113a:2\">Pes. 113ᵃ</cite> <he>לא … דלא צָנֵיף וכ׳</he> live not in a place where no horse neighs, no dog barks &c."
+			],
+			"label": "2"
+		}
+	]
+}

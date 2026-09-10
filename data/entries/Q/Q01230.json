@@ -1,0 +1,32 @@
+{
+	"id": "Q01230",
+	"slug": "פסגה",
+	"headword": {
+		"text": "פִּסְגָּה"
+	},
+	"page": {
+		"number": 1192,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01229\">preced.</cite> wds., v. <cite ref=\"Q01274\"><he>פְּסִיגָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>branch, bough</i>, opp. to <cite ref=\"A03305\"><he>אשכול</he></cite> the trunk with the grape clusters.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) pr. n. <i>Pisgah</i>, the summit of Mount Nebo. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 357:3\">Sifré Deut. 357</cite> (ref. to XXXIV, 1) <he>מה פ׳ זו מופרשת מן האשכול ואינה מופרשת וכ׳</he> as the branch is separate from the trunk, yet not detached, so was Moses’ grave &c., v. <cite ref=\"V00025\"><he>תָאַם</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 963\">Yalk. ib. 963</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

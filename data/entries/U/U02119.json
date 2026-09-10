@@ -1,0 +1,50 @@
+{
+	"id": "U02119",
+	"slug": "שתל-1",
+	"headword": {
+		"text": "שָׁתַל"
+	},
+	"page": {
+		"number": 1638,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U01103\"><he>שִׁית</he></cite>)<i>to set, plant</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 38b:13\">Yoma 38ᵇ</cite> <he>ראה … עמד ושְׁתָלָן בכל דור ודור</he> the Lord saw that the righteous men were few, so he planted them in every generation (distributed them &c., ref. to <cite ref=\"I Samuel 2:8\">I Sam. II, 8</cite>; cmp. <cite ref=\"U02141\"><he>שָׁתַת</he> II</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 26:2\">Gen. R. s. 26</cite>; <cite ref=\"Yalkut Shimoni on Nach 845:3\">Yalk. Ps. 845</cite> (ref. to <cite ref=\"Psalms 92:14\">Ps. XCII, 14</cite>) <he>זה נח ששְׁתָלוֹ וכ׳</he> this refers to Noah whom the Lord planted in the ark. ",
+				"<cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite> (ref. to <cite ref=\"Psalms 1:3\">Ps. I, 3</cite>) <he>ששתלו הקב״ה וכ׳</he> (Abraham) whom the Lord planted in the land of Israel. ",
+				"<cite ref=\"Sanhedrin 37b:14\">Snh. 37ᵇ</cite> (play on <he>שׁלֹתֹיאֹלֹ</he>, <cite ref=\"I Chronicles 3:17\">I Chr. III, 17</cite> <he>שאלת׳</he>) <he>ששׂתֹלוֹ אֹלֹ שלא כדרך הנִשְׁתָּלִין</he> whom the Lord planted (caused to be begotten) not in the ordinary way of those that are planted (he having been begotten in prison); a. fr.—Part. pass. <he>שָׁתוּל</he>; f. <cite ref=\"U00015\"><he>שְׁתוּלָה</he></cite>; pl. <he>שְׁתוּלִים</he> &c. Yalk. l. c. <he>כגן … ש׳ מערוגה וכ׳</he> like a garden that is planted bed by bed; (<cite ref=\"Midrash Tehillim 92:8\">Midr. Till. to Ps. XCII, 14</cite> <he>נטוע</he>). ",
+				"<cite ref=\"Bamidbar Rabbah 3:1\">Num. R. s. 3<sup>1</sup></cite> <he>עד שהם ש׳ הם בבית וכ׳</he> so long as they are planted (seated in rows), they are in the house of God, that is to say, the children at school; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתִּיל"],
+			"senses": [
+				{
+					"gloss": " (of roots) <i>to spread</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> (ref. to <cite ref=\"Ecclesiastes 12:11\">Koh. XII, 11</cite>) <he>כשם ששרשיו … מַשְׁתִּילִים לכל מקום כך … נכנסים ומשתילים וכ׳</he> as the roots of a tree spread in all directions, so the words of the Law enter and penetrate the whole body (<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14<sup>4</sup></cite> <he>משתרשים</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשְׁתַּל"],
+			"senses": [
+				{
+					"gloss": "; <i>Hof.</i> <cite ref=\"U02093\"><he>הוּשְׁתָּל</he></cite> <i>to be planted</i>. Snh. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite>; <cite ref=\"Shir HaShirim Rabbah 8:6\">Cant. R. to VIII, 6</cite> (ref. to <he>שאלׄתׄיאל</he>, v. supra) <he>שממנו הוּשְׁ֗תְּ֗לָ֗ה מלכות וכ׳</he> from him was the dynasty of the house of David planted (procreated). ",
+						"<cite ref=\"Midrash Tehillim 4\">Midr. Till. to Ps. IV</cite> <he>מה היה … נִשְׁתְּלָה מבת שבע</he> did David think that royalty would be planted from Bathsheba (that through her son the dynasty would be continued)?; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M00107",
+	"slug": "מגבה",
+	"headword": {
+		"text": "מִגְבָּה"
+	},
+	"page": {
+		"number": 725,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00047\"><he>גָּבָה</he></cite>) <i>collection</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 9:7:5\">Y. Keth. IX, 33ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Gittin 5:2:2\">Y. Gitt. V, 46ᵈ</cite> top <he>במ׳ הדבר תלוי</he> it (the widow’s right of alimentation) depends on (ceases with) the collection of her widowhood; Y. Shebu. V, 36ᵇ bot.—Y. Meg. I, 70ᵇ bot.; <cite ref=\"Bava Metzia 78b\">B. Mets. 78ᵇ</cite>, 106ᵇ; <he>מִגְבַּת פורים וכ׳</he> the collection for Purim must be given to the poor for the Purim festival; <cite ref=\"Tosefta Megillah 1:5\">Tosef. Meg. I, 5</cite> <cite ref=\"M00110\"><he>מַגְבִּית</he></cite>. ",
+				"<cite ref=\"Tosefta Megillah 1:5\">Ib.</cite> <he>מגבית העיר</he> what has been collected in one town. ",
+				"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> <he>עסק מגבת צדקה לחכמים</he> the business of collecting contributions for the maintenance of students; <cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite> <he>מגבת חכמים</he>."
+			]
+		}
+	]
+}

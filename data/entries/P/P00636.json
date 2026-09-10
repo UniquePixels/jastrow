@@ -1,0 +1,23 @@
+{
+	"id": "P00636",
+	"slug": "עיף-2",
+	"headword": {
+		"text": "עִיף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1073,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P00635\">preced.</cite>) <i>weariness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 7:11\">Targ. Job VII, 11</cite> Ms. (ed. <cite ref=\"P01231\"><he>עקת</he></cite>)."
+			]
+		}
+	]
+}

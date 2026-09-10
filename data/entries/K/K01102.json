@@ -1,0 +1,26 @@
+{
+	"id": "K01102",
+	"slug": "כרוב-2",
+	"headword": {
+		"text": "כְּרוּב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 664,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K01101\">preced.</cite>) [<i>rounded</i>,] <i>cabbage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 10:11\">Ter. X, 11</cite> <he>כ׳ של שקייא</he> cabbage from an irrigated field, opp. <he>כ׳ של בעל</he>, v. <cite ref=\"B01055\"><he>בַּעַל</he></cite> 3.—",
+				"<cite ref=\"Berakhot 44b:20\">Ber. 44ᵇ</cite> <he>קלח של כ׳</he> cabbage stalk. ",
+				"<cite ref=\"Berakhot 44b:20\">Ib.</cite> <he>כ׳ למזון</he> cabbage is good for a satisfying meal. ",
+				"<cite ref=\"Mishnah Nedarim 6:10\">Ned. VI, 10</cite>, v. <cite ref=\"A01489\"><he>אִיסְפַּרְגּוֹס</he></cite>; a. fr."
+			]
+		}
+	]
+}

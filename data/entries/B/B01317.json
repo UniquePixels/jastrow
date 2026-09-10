@@ -1,0 +1,39 @@
+{
+	"id": "B01317",
+	"slug": "ברק-5",
+	"headword": {
+		"text": "בְּרַק",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּרְקָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 196,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch.  = h. <cite ref=\"B01315\"><he>בָּרָק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 32:41\">Targ. Deut. XXXII, 41</cite> (Y. II <cite ref=\"B01317\"><he>בְּרָקָא</he></cite>); a. fr.—",
+				"<cite ref=\"Berakhot 59a:7\">Ber. 59ᵃ</cite> <he>ב׳ יחידאה</he> a single flash (for vers. v. Rabb. D. S. a. l.); a. fr.—Pl. <cite ref=\"B01325\"><he>בְּרָקִין</he></cite>, <he>בַּרְקִין</he>, <cite ref=\"B01329\"><he>בַּרְקַיָּא</he></cite>, <he>בַּרְקֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 18:15\">Targ. Ps. XVIII, 15</cite>; a. fr. [Y. R. Hash. II, beg. <he>ברק ברקא</he>, read <cite ref=\"B01320\"><he>בַּרְקַאי</he></cite>.] Ber. l. c. <he>וברקיא ירוקתא</he> some ed. (read <he>ירוקרקי</he> as Ms. M.). Ib. <he>דבריק ברקי ומנהמי וכ׳</he> (read <he>דברוק</he>, v. also Rabb. D. S. a. l.) the lightnings break through and make the clouds rumble &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>white cataract</i> (v. <cite ref=\"B01313\"><he>בָּרַק</he></cite> Hif.), cmp. <cite ref=\"B01327\"><he>בַּרְקִית</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 38b:3\">Bekh. 38ᵇ</cite> <he>וסימנך ברקא</he> and thy sign (by which to remember which of the two affections of the eye is considered a blemish) take <i>barka</i> (meaning <i>white</i> and <i>cataract</i>, and like the cataract is the floating white spot in the eye a disqualifying blemish). V. <cite ref=\"B01318\">next w.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

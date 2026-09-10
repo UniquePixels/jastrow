@@ -1,0 +1,25 @@
+{
+	"id": "O01152",
+	"slug": "סמתרי",
+	"headword": {
+		"text": "סַמְתְּרֵי"
+	},
+	"page": {
+		"number": 1004,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"O01151\">preced.</cite> wds.) <i>a vulnerary preparation; dragon’s-blood</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 107b\">B. Mets. 107ᵇ</cite> <he>הוו עבדי ליה ס׳ וכ׳</he> Ms. M. a. Ar. ed. Koh. (ed. <cite ref=\"O01050\"><he>סַמָּא</he></cite>; Ar. ed. <he>סמתר</he>) they might prepare <i>samtré</i>, and he might recover; <cite ref=\"Yalkut Shimoni on Torah 849:1\">Yalk. Deut. 849</cite>; <cite ref=\"Yevamot 114b:14\">Yeb. 114ᵇ</cite> (Rashi <cite ref=\"O01149\"><he>סַמְתֵּירֵי</he></cite>). ",
+				"<cite ref=\"Bava Batra 74b:4\">B. Bath. 74ᵇ</cite> <he>ההוא עישבא ס׳ היה</he> (Ar. <he>הנך עישבי ס׳ הוו</he>, v. Rabb. D. S. a. l. note 8) that plant was <i>s.</i>—",
+				"<cite ref=\"Chullin 54a\">Ḥull. 54ᵃ</cite> quot. in Rashbam to B. Bath. l. c. <he>עבדי לה ס׳</he> (ed. <he>בדרי לה סמא</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "P00192",
+	"slug": "עוגה",
+	"headword": {
+		"text": "עוּגָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּגָה"
+		}
+	],
+	"page": {
+		"number": 1047,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"P00081\"><he>עֻגָה</he></cite>, <cite ref=\"P00081\"><he>עֻגָּה</he></cite>; <cite ref=\"P00079\"><he>עָגַג</he></cite>)<i>circle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 2:8\">Taan. II, 8</cite>; <cite ref=\"Taanit 23a:4\">23ᵃ</cite>, v. <cite ref=\"P00079\"><he>עָגַג</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cake</i> baked on coals. Tanḥ. Bo 9 <he>ואין ע׳ אלא לשון חררה</he> <i>‘uggah</i> has the meaning of <i>ḥărarah</i> (v. <cite ref=\"H01775\"><he>חֲרָרָה</he></cite>).—Pl. <he>עוּגּוֹת</he>. Ib. <he>לא הספיקו לאפות ע׳</he> they had no time to bake cakes. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 209:2\">Yalk. Ex. 209</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite> <he>שלש לע׳</he> (not <he>לעוגת</he>) three S’ah of flour were used for cakes. ",
+				"<cite ref=\"Bereishit Rabbah 48\">Ib.</cite> s. 42 (play on <cite ref=\"P00189\"><he>עוֹג</he></cite>) <he>שהיה יושב ועוסק במצות ע׳</he> he (Abraham) was engaged in the ceremony of preparing unleavened cakes; <cite ref=\"Yalkut Shimoni on Torah 72:5\">Yalk. ib. 72</cite>; <cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite>, end <he>במצות בע׳ הפסח</he> (read: <he>במִצְוַת ע׳ וכ׳</he>); <cite ref=\"Yalkut Shimoni on Nach 883:13\">Yalk. Ps. 883</cite> <he>בע׳ הפסח</he>. ",
+				"<cite ref=\"Yoma 75a:17\">Yoma 75ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>cavity</i>; <he>ע׳ של מים</he> <i>pool</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 2:9\">Ḥull. II, 9</cite> (<cite ref=\"Chullin 41a:9\">41ᵃ</cite>; Mish. ed. <cite ref=\"P00191\"><he>עוגא</he></cite>; Ar. ed. Koh. <cite ref=\"A00544\"><he>אוגן</he></cite>; oth. ed. <he>עוגן</he>; Ar. s. v. <cite ref=\"P00090\"><he>עגל</he></cite>: <cite ref=\"P00196\"><he>עוגל</he></cite>). ",
+				"<cite ref=\"Tosefta Moed Kattan 1:2\">Tosef. M. Kat. I, 2</cite> <he>עוּגָּתוֹ של מים</he> (ed. Zuck. <he>עונתו</he>, corr. acc.)."
+			],
+			"label": "3"
+		}
+	]
+}

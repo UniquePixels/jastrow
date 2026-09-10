@@ -1,0 +1,28 @@
+{
+	"id": "S01663",
+	"slug": "קסילופונוס",
+	"headword": {
+		"text": "קסילופונוס"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְסִילוֹפָנוֹס"
+		}
+	],
+	"page": {
+		"number": 1396,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of ξύλον a. φάνος, a compound not otherwise recorded) <i>a torch made of wooden staves</i>, esp. <i>of vines</i>. Pesik. Ḳumi, p. 144ᵇ sq. <he>עתידה … לעשות ק׳ וכ׳</he> (ed. <he>קסילפנוס</he>, Ms. O. <he>כסיל פנים</he>, corr. acc.) in the future Jerusalem shall be a torch for the nations, and they shall walk by its light (ref. to <cite ref=\"Isaiah 60:3\">Is. LX, 3</cite>); <cite ref=\"Yalkut Shimoni on Nach 359\">Yalk. Is. 359</cite> only <cite ref=\"Q01206\"><he>פָּנָס</he></cite>; <cite ref=\"Midrash Tehillim 36:4\">Midr. Till. to Ps. XXXVI, 10</cite> (missing in ed. Bub.) <cite ref=\"M01067\"><he>מטרפולין</he></cite> (corr. acc.). ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:9\">Koh. R. to I, 9</cite> <he>פעם אחת … ק׳ אחד משלכם</he> (ed. <he>קסלפנוס</he>, <he>ניס …</he>) once the (Roman) government sent word to our teachers, ‘send us one of your torches.’—Pl. <he>קְסִילוֹפַנְסִין</he>. ",
+				"<cite ref=\"Kohelet Rabbah 1:9\">Ib.</cite> [read:] <he>אמרו כמה ק׳ יש להם והם מבקשין ממנו קסילופנוס אחד כמדומין וכ׳</he> (strike out <he>כמה מקות פנסין יש להם</he>, as a corrupt Var. Lect., and <he>כמה אבנים טובים ומרגליות יש להם</he> as an erroneous gloss) they said, they have ever so many torches, and they ask us for one torch? It seems to us, they mean one enlightening the countenances of men with his learning."
+			]
+		}
+	]
+}

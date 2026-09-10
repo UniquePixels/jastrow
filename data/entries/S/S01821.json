@@ -1,0 +1,56 @@
+{
+	"id": "S01821",
+	"slug": "קציצה",
+	"headword": {
+		"text": "קְצִיצָה"
+	},
+	"page": {
+		"number": 1406,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01836\"><he>קָצַץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cutting, felling</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 91b:14\">B. Kam. 91ᵇ</cite> <he>אילן העומד לק׳</he> (Ms. F. <he>לִיקָּצֵץ</he>) a tree which must be cut. Lam. R. introd. (R. Z’ʿera) <he>שבו זמן ק׳ יפה וכ׳</he> on it (the 15<sup>ᵗʰ</sup> of Ab) begins the good season for cutting trees for fuel, v. <cite ref=\"M00038\"><he>מַאֲכוֹלֶת</he></cite>. ",
+				"<cite ref=\"Bekhorot 34b:7\">Bekh. 34ᵇ</cite> (in Chald. dict.) <he>איכוין … בהאי ק׳ וכ׳</he> he intended to make himself appear clean by cutting off (the leprous spot), and the rabbis punished him for this very cut (so that he could never be declared clean from this cut-off leprous spot); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stipulation</i> (<i>of price</i> &c.), bargain. ",
+			"units": [
+				"<cite ref=\"Shevuot 45b:1\">Shebu. 45ᵇ</cite> <he>ק׳ ודאי וכ׳</he> stipulations of prices one surely remembers, v. <cite ref=\"S01132\"><he>קִיצוּתָא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "pl. <he>קְצִיצוֹת</he> <i>cut fruits</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 3:4\">Maasr. III, 4</cite> <he>מצא ק׳ בדרך ואפי׳ בצד שדה ק׳</he> (Ms. M. <he>קציעות</he>) if one finds cut fruit (single berries) on the road or even beside a field where cut fruit has been spread to dry; <cite ref=\"Bava Metzia 21b\">B. Mets. 21ᵇ</cite> Var. (ed. <he>קציעות</he>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (v. <cite ref=\"S01821\"><he>קְצִיצָה</he></cite> a. <cite ref=\"S01822\">next w.</cite>) <i>the capsule of the T’fillin</i> containing Biblical sections. ",
+			"units": [
+				"<cite ref=\"Berakhot 24a:21\">Ber. 24ᵃ</cite>. ",
+				"<cite ref=\"Sukkah 26b\">Succ. 26ᵇ</cite> top. ",
+				"<cite ref=\"Mishnah Kelim 18:8\">Kel. XVIII, 8</cite> <he>התיר ק׳ וכ׳</he> if he opened the first of the four compartments of the T’fillin and repaired it; a. e.—Pl. <cite ref=\"S01822\"><he>קְצִיצִין</he></cite>, v. <cite ref=\"S01822\">next w.</cite>"
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>separation, severance of connection</i>, v. <cite ref=\"S01839\"><he>קְצָצָה</he></cite>.",
+			"units": [],
+			"label": "5"
+		}
+	]
+}

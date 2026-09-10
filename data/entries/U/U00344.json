@@ -1,0 +1,40 @@
+{
+	"id": "U00344",
+	"slug": "שווח-2",
+	"headword": {
+		"text": "שְׁוַוח"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁוַח"
+		},
+		{
+			"text": "שׁוּחַ"
+		}
+	],
+	"page": {
+		"number": 1529,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"U00362\"><he>שׁוּחַ</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to bend, be lowered, sink</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 10:10\">Targ. Ps. X, 10</cite> <he>יִשְׁוַוח</he> Ms. (ed. <he>יְשׁוּחַ</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 22:29\">Targ. Job XXII, 29</cite> Ms. (ed. <cite ref=\"U00346\"><he>שַׁוַּוח</he></cite>, q. v.).—V. <cite ref=\"U00362\"><he>שׁוּחַ</he></cite> ch."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lower, level, destroy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 74:3\">Targ. Ps. LXXIV, 3</cite> <he>למִשְׁוַוח</he> ed. Lag. (ed. <he>למשווק</he>, <he>למשוק</he>, corr. acc.; Levita <he>למִשְׁוָה</he>, h. text <he>למשאות</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

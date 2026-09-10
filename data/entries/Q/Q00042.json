@@ -1,0 +1,22 @@
+{
+	"id": "Q00042",
+	"slug": "פגוז",
+	"headword": {
+		"text": "פָּגוֹז"
+	},
+	"page": {
+		"number": 1132,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פגז</he>, cmp. <cite ref=\"Q00100\"><he>פגש</he></cite>) <i>battering projectile</i>.—Pl. <he>פָּגוֹזוֹת בית הפ׳</he>; <i>catapult</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:8\">Kel. XVI, 8</cite> ed. Dehr. (ed. <he>פגושות</he>)."
+			]
+		}
+	]
+}

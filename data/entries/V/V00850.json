@@ -1,0 +1,38 @@
+{
+	"id": "V00850",
+	"slug": "תפקיד-1",
+	"headword": {
+		"text": "תַּפְקִיד"
+	},
+	"page": {
+		"number": 1689,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01449\"><he>פָּקַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>command, charge; trust.—</i>Pl. <he>תַּפְקִידִים</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 1\">Lev. R. s. 1</cite>, beg. (ref. to <cite ref=\"Psalms 103:20\">Ps. CIII, 20</cite>, sq.) <he>עליונים ע״י שהן יכולין לעמוד בתַפְקִידָיו של וכ׳</he> because the celestial beings can stand by (always fulfill) the orders of the Lord, the text says, bless the Lord, ye all his hosts: but as to the earthly beings, who cannot (always) stand by the orders of the Lord, the text says, ‘bless the Lord, ye his messengers’; <cite ref=\"Yalkut Shimoni on Nach 860:2\">Yalk. Ps. 860</cite> <he>בתַפְקִידוֹ</he> (<i>sing.</i>). ",
+				"<cite ref=\"Kohelet Rabbah 1:4:1\">Koh. R. to I, 4</cite> <he>דור ע״י שאינו עומד בתפקידיו וכ׳</he> a generation of men, because it does not abide by the orders of the Lord, decays, but the earth, which does abide &c. ",
+				"<cite ref=\"Kohelet Rabbah 1:4:5\">Ib.</cite> <he>תַּפְקִידֶיהָ וכ׳</he> (<he>מעמדת</he>) the earth preserves her trusts (fruits preserved in the ground or by admixtures of earth). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:2:3\">Y. Ber. V, 9ᵇ</cite> top <he>תפקידיה</he>, v. <cite ref=\"V00851\">next w.</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>visit, attendance</i>, esp. <i>copulation</i>; <he>בקש ת׳</he> <i>to seek copulation, long for</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> <he>בשעה שהמטר … תַּפְקִידָהּ</he> when the rain falls (in the spring), the cattle ruts. ",
+				"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>, end <he>אתה מבקש תַּפְקִידְךָ … תַּפְקִידוֹ</he> thou hast sexual desires, and has Jechoniah none? <cite ref=\"Eichah Rabbah 1:30\">Lam. R. to I, 4</cite> <he>הכל מבקשין תַּפְקִידָן</he> all things have natural instincts; <he>אפי׳ ארזים מבקשין תַּפְקִידָן</he> even cedars have their instincts (love their native climate); <he>אפי׳ דרכים מבקשין תפקידן</he> even roads have their desires (mourn when they are deserted); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

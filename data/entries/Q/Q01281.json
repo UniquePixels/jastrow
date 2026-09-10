@@ -1,0 +1,33 @@
+{
+	"id": "Q01281",
+	"slug": "פסיוני-1",
+	"headword": {
+		"text": "פִּסְיוֹנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיסְ׳"
+		}
+	],
+	"page": {
+		"number": 1194,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (φασιανός, sub. ὀῤνις) [<i>bird from the river Phasis in Colchis</i>,] <i>pheasant</i> (Phasianus Colchicus). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> <he>מי שהיה מתאוה תרנגול או פסיון וכ׳</he> whoever desired to eat chicken or pheasant, found the taste of it in the manna. ",
+				"<cite ref=\"Tosefta Kilaim 1:8\">Tosef. Kil. I, 8</cite> <he>תרנגול … ופ׳ וכ׳</he> ed. Zuck. (Var. <cite ref=\"Q01225\"><he>פסאני</he></cite>, <cite ref=\"Q01273\"><he>פַּסְיָאנִי</he></cite>) chicken, peacock and pheasant, although resembling one another, are heterogeneous birds; Y. ib. I, 27ᵃ bot. <he>הפוסיוני</he>; Y. B. Kam. V, end, 5ᵃ <he>פי׳</he>; Bab. ",
+				"<cite ref=\"Bava Kamma 55a:8\">B. Kam. 55ᵃ</cite> (Rashi: <i>partridge</i>). ",
+				"<cite ref=\"Yoma 75b:7\">Yoma 75ᵇ</cite> (as a species of quail, v. <cite ref=\"O00979\"><he>סְלָיו</he></cite>). ",
+				"<cite ref=\"Kiddushin 31a:14\">Kidd. 31ᵃ</cite>. ",
+				"<cite ref=\"Midrash Tehillim 4:16\">Midr. Till. to Ps. IV</cite>; a. e.—Pl. <cite ref=\"Q01281\"><he>פִּסְיוֹנִים</he></cite>, <cite ref=\"Q01281\"><he>פִּסְיוֹנִין</he></cite>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 4:16\">Ib.</cite> <he>פ׳ וראשי פטומות</he> pheasants and choice of fattened birds; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "P00565",
+	"slug": "עיל-1",
+	"headword": {
+		"text": "עֵיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵילָא"
+		},
+		{
+			"text": "עִי׳"
+		},
+		{
+			"text": "עֵלָא"
+		}
+	],
+	"page": {
+		"number": 1069,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00241\"><he>עוּל</he></cite>) = h. <cite ref=\"P00760\"><he>עָל</he></cite>, <i>height, heaven</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:9\">Targ. Job XXXVII, 9</cite> <cite ref=\"P00571\"><he>עִילָא</he></cite>.—<he>ע׳ מן</he>, <he>לע׳ מן</he> <i>above, over</i>. [<cite ref=\"Daniel 6:3\">Dan. VI, 3</cite> <cite ref=\"P00565\"><he>עֵלָּא</he></cite>.] <cite ref=\"Targum Jonathan on Genesis 1:7\">Targ. Y. Gen. I, 7</cite>. ",
+				"<cite ref=\"Onkelos Genesis 22:9\">Targ. Gen. XXII, 9</cite>. ",
+				"<cite ref=\"Onkelos Numbers 1:3\">Targ. Num. I, 3</cite> (O. ed. Vien. <cite ref=\"L00619\"><he>לעֵלָּא</he></cite>); a. v. fr.—מִלְּעֵ׳ <i>from on high, above</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 50:4\">Targ. Ps. L, 4</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 11:11\">Targ. I Chr. XI, 11</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 45a:4\">B. Bath. 45ᵃ</cite> <he>דסלקין לע׳ ודנחתין לתתא</he> (for) those who go up (to Palestine) and those who come down (to Babylonia). Y. ib. VI, end, 15ᶜ <he>חדא מלע׳ וכ׳</he> one (grave) above and one below. ",
+				"<cite ref=\"Shabbat 30a:6\">Sabb. 30ᵃ</cite> <he>שאול … לע׳ מר׳ תנחום</he> they asked this question over (the head of) R. Tanḥum, i.e. those standing by him when he was teaching (v. <cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite>). ",
+				"<cite ref=\"Chullin 51a:5\">Ḥull. 51ᵃ</cite> <he>לע׳ מרבי רבה</he> with the great Rabbi when he was teaching; a. fr.—עִילוֹי <i>upon him</i>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 28:13\">Targ. Y. Gen. XXVIII, 13</cite>; a. e.—Y. Ber. II, 4ᶜ bot. <he>כד הויין תפילוי ע׳</he> when he had his T’fillin on. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>ולא סמכין ע׳</he> but we do not rely upon him, a. e.—[Usu. <cite ref=\"P00572\"><he>עִילַוֵּיה</he></cite>, v. <cite ref=\"P00572\"><he>עִילָוֵי</he></cite>, or <cite ref=\"P00780\"><he>עֲלוֹי</he></cite>, v. <cite ref=\"P00757\"><he>עַל</he></cite> ch.]"
+			]
+		}
+	]
+}

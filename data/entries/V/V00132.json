@@ -1,0 +1,34 @@
+{
+	"id": "V00132",
+	"slug": "תהפכנותא",
+	"headword": {
+		"text": "תְּהַפְכָּנוּתָא"
+	},
+	"page": {
+		"number": 1649,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00131\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>perverseness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:32\">Targ. Prov. I, 32</cite> Ms., v. <cite ref=\"N00276\"><he>נֶהְפְּכָנוּתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>destruction</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:22\">Targ. Y. Deut. XXIX, 22</cite>, v. <cite ref=\"E00747\"><he>הֲפֵכְתָּא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

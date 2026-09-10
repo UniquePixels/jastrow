@@ -1,0 +1,37 @@
+{
+	"id": "P01100",
+	"slug": "עצה-1",
+	"headword": {
+		"text": "עֵצָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1101,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"P01088\"><he>עֵץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>trees, plantation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:7\">Y. Sabb. III, 6ᵃ</cite>; <cite ref=\"Jerusalem Talmud Sukkah 1:10:2\">Y. Succ. I, end, 52ᶜ</cite> <he>התיר ע׳ שבים</he> allowed the carrying of things on the Sabbath from trees in the water (on an island) to the water and vice versa (cmp. ",
+				"<cite ref=\"Eruvin 67b:7\">Erub. 67ᵇ</cite> <he>סלע שבים</he>); <cite ref=\"Jerusalem Talmud Eruvin 8:8:5\">Y. Erub. VIII, end, 25ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pea-stalks</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:4\">Sabb. VII, 4</cite>, expl. ",
+				"<cite ref=\"Shabbat 76a:3\">ib. 76ᵃ</cite> <he>תבן של מיני קיטניות</he>. Ohol. XVIII, 2, contrad. to <cite ref=\"S02211\"><he>קש</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

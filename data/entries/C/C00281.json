@@ -1,0 +1,23 @@
+{
+	"id": "C00281",
+	"slug": "גוביינא",
+	"headword": {
+		"text": "גּוֹבַיְינָא"
+	},
+	"page": {
+		"number": 217,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"C00613\"><he>גִּיבּוּי</he></cite>, <i>collection</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 66b:9\">Yeb. 66ᵇ</cite>, a. e. <he>מחוסר ג׳</he> wanting collection (not yet collected). ",
+				"<cite ref=\"Bava Metzia 110b\">B. Mets. 110ᵇ</cite> landed property <he>כיון דלג׳ קיימא וכ׳</he> because it is ready to be collected from, (is seizable for debts and cannot be hidden), is considered as if collected."
+			]
+		}
+	]
+}

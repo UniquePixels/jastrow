@@ -1,0 +1,42 @@
+{
+	"id": "M02284",
+	"slug": "מצוה-1",
+	"headword": {
+		"text": "מִצְוָה"
+	},
+	"page": {
+		"number": 823,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"R00165\"><he>צָוָה</he></cite>)<i>command</i>, esp. <i>religious act, meritorious deed</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 141a:16\">Ḥull. 141ᵃ</cite>, a. fr. <he>לדבר מ׳</he> for a religious purpose, opp. <he>לדבר הרשות</he> for a secular or religiously indifferent purpose.—<he>מלחמת מ׳</he> v. <cite ref=\"M01530\"><he>מִלְחָמָה</he></cite>.—",
+				"<cite ref=\"Pirkei Avot 4:11\">Ab. IV, 11</cite> <he>מ׳ אחת</he> one good deed, opp. <cite ref=\"P00067\"><he>עֲבֵרָה</he></cite> sin. ",
+				"<cite ref=\"Pirkei Avot 4:11\">Ib.</cite> <he>שכר מ׳ מ׳</he> the reward of a good deed is another good deed, v. <cite ref=\"C01392\"><he>גָּרַר</he></cite>. Ib. II, 1 <he>מ׳ קלה</he> a light command (obeyed with little sacrifice); <cite ref=\"Nedarim 39b:15\">Ned. 39ᵇ</cite>; a. fr.—<he>מ׳ הבאה בעבירה</he> a religious act achieved through a wrong deed, e. g. using an illegitimately obtained object for a religious ceremony. ",
+				"<cite ref=\"Sukkah 30a:4\">Succ. 30ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 13:3:4\">Y. Sabb. XIII, 14ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Challah 1:5:8\">Y. Ḥall. I, end, 58ᵃ</cite> <he>אין עבירה מ׳</he> no-sin is virtue; <he>אין מ׳ עבירה</he> no-virtue is sin.—",
+				"<cite ref=\"Zevachim 52a:14\">Zeb. 52ᵃ</cite>, a. fr. <he>מ׳</he> (sub. <he>קרבן</he>) an offering dependent on certain occasions as ordained in the Law, opp. <cite ref=\"H00238\"><he>חובה</he></cite> an obligatory offering (at regular seasons).—<he>איסור מ׳</he>, v. <cite ref=\"A01405\"><he>אִיסּוּר</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:1:2\">Y. Sot. I, beg. 16ᵇ</cite> <he>איתמרת למ׳</he> (<cite ref=\"A00516\"><he>או</he></cite>) <he>לעיכוב</he> is this said only as a recommendation or as an indispensable act?; <cite ref=\"Jerusalem Talmud Pesachim 2:4:3\">Y. Pes. II, 29ᵇ</cite> bot., a. fr., v. <cite ref=\"P00560\"><he>עִיכּוּב</he></cite>.—",
+				"<cite ref=\"Chullin 106a:12\">Ḥull. 106ᵃ</cite> <he>משום מ׳</he> because it is meritorious; <he>מאי מ׳ מ׳ לשמוע וכ׳</he> what is the merit of it? It is meritorious to obey &c. ",
+				"<cite ref=\"Chullin 106a:12\">Ib.</cite> <he>לא חובה ולא מ׳ אלא רשות</he> neither an obligatory, nor a meritorious, but a religiously indifferent act; <cite ref=\"Shabbat 25b:4\">Sabb. 25ᵇ</cite>.—<he>מִצְוַת עֲשֵׁה</he> (abbr. <he>מ״ע</he>) <i>a positive command;</i> <he>מ׳ לא תעשה</he> <i>a prohibition</i>. ",
+				"<cite ref=\"Mishnah Kiddushin 1:7\">Kidd. I, 7</cite>; a. v. fr., v. <cite ref=\"C01355\"><he>גְּרָמָא</he></cite>, a. <cite ref=\"L00003\"><he>לֹא</he></cite>, <cite ref=\"L00009\"><he>לַאו</he></cite>.—<he>מת מ׳</he> the corpse of a person whose relatives are unknown and whose burial is obligatory on everybody. ",
+				"<cite ref=\"Horayot 13a:16\">Hor. 13ᵃ</cite> <he>פגע בהם מת מ׳</he> they struck upon a corpse; a. fr.—",
+				"<cite ref=\"Moed Katan 20a:15\">M. Kat. 20ᵃ</cite> <he>חמשה מתי מ׳</he> the five relations (besides father and mother) whom one is obliged to bury (<cite ref=\"Leviticus 21:2\">Lev. XXI, 2</cite>, sq.).—",
+				"<cite ref=\"Vayikra Rabbah 34:4\">Lev. R. s. 34</cite> <he>תן לי מ׳</he> give me what thou art commanded to, i.e. <i>alms</i>, v. next w.—Pl. <cite ref=\"M02299\"><he>מִצְוֹת</he></cite>, <he>מִצְווֹת</he>. ",
+				"<cite ref=\"Makkot 23b:18\">Macc. 23ᵇ</cite> <he>שש מאות … מ׳</he> six hundred and thirteen commands (positive and prohibitive). Y. Sabb. l. c.; Y. Ḥall. l. c. (ref. to <he>אלה המצות</he>, <cite ref=\"Leviticus 27:34\">Lev. XXVII, 34</cite>) <he>אם עשיתן כְּמִצְוָותָן מ׳ וכ׳</he> if thou doest them as they are commanded, they are deeds of merit &c. ",
+				"<cite ref=\"Rosh Hashanah 28b:9\">R. Hash. 28ᵇ</cite> <he>מ׳ אינו עובר עליהן אלא בזמנן</he> one violates the law by adding to the prescribed form of ceremonies only when executed in their due season (e. g. one does not violate the law by dwelling in the Succah on the eighth day). ",
+				"<cite ref=\"Rosh Hashanah 28b:9\">Ib.</cite> <he>מ׳ אין צריכות כונה</he>; <cite ref=\"Berakhot 13a:22\">Ber. 13ᵃ</cite> <he>מ׳ צריכות כ׳</he>, v. <cite ref=\"K00303\"><he>כַּוָּנָה</he></cite>. ",
+				"<cite ref=\"Sukkah 39a:3\">Succ. 39ᵃ</cite>, a. e. <he>כל המ׳ כולן מברך וכ׳</he> the benediction at the performance of religious ceremonies must precede the act. ",
+				"<cite ref=\"Niddah 61b:9\">Nidd. 61ᵇ</cite> <he>מ׳ בטלות לע״ל</he> ceremonial laws find no application in the hereafter (e. g. a dead body may be wrapped in <i>Kilayim</i>). ",
+				"<cite ref=\"Niddah 61b:9\">Ib.</cite> <he>חפשי מן המ׳</he>, v. <cite ref=\"H01481\"><he>חָפְשִׁי</he></cite>; a. v. fr.—",
+				"<cite ref=\"Keritot 17b:41\">Ker. 17ᵇ</cite> (ref. to <cite ref=\"Leviticus 5:17\">Lev. V, 17</cite>) <he>מצוות קרינן</he> the traditional reading (v. <cite ref=\"A01961\"><he>אֵם</he></cite>) is <i>acts</i> (therefore a doubt between two pieces, one permitted and one prohibited, is required for a sacrifice <he>(אשם תלוי</he>). ",
+				"<cite ref=\"Leviticus 5:17\">Ib.</cite> <he>ליכא מ׳</he> the requirement of two pieces is not complied with."
+			]
+		}
+	]
+}

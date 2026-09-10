@@ -1,0 +1,23 @@
+{
+	"id": "Q00880",
+	"slug": "פישון-1",
+	"headword": {
+		"text": "פִּישׁוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1172,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Pishon</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 107b:8\">Yeb. 107ᵇ</cite> <he>פ׳ הגמל</he> Pishon the camel-driver, v. <cite ref=\"K01060\"><he>כָּפַשׁ</he></cite>."
+			]
+		}
+	]
+}

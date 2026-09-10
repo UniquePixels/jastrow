@@ -1,0 +1,27 @@
+{
+	"id": "C00655",
+	"slug": "גיהר",
+	"headword": {
+		"text": "גִּיהַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּהַר"
+		}
+	],
+	"page": {
+		"number": 236,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"C00652\"><he>גִּיהְיָא</he></cite>, <cite ref=\"C00695\"><he>גִּיחוֹר</he></cite>) <i>giḥar</i>, name of a precious stone, <i>ruby</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:14\">Targ. Cant. V, 14</cite> (ed. Lag. <cite ref=\"C00674\"><he>גו׳</he></cite>).—Pl. <he>גּוּהֲרִין</he>, v. <cite ref=\"J00173\"><he>יוֹהֲרָא</he></cite>."
+			]
+		}
+	]
+}

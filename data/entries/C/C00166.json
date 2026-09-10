@@ -1,0 +1,71 @@
+{
+	"id": "C00166",
+	"slug": "גדד-1",
+	"headword": {
+		"text": "גָּדַד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 210,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>גזז</he>, <he>קצץ</he>)<i>to cut, cut off</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 2:2\">Par. II, 2</cite>; <cite ref=\"Bekhorot 44a\">Bekh. 44ᵃ</cite> <cite ref=\"J00079\"><he>יָגוֹד</he></cite> let him lop off (the black tops of the horns or hoofs).—[V. <cite ref=\"C00244\"><he>גָּדַר</he></cite>.]—Trnsf. (cmp. <he>קצץ</he>) <i>to fix the price</i>. ",
+				"<cite ref=\"Bava Batra 13a:2\">B. Bath. 13ᵃ</cite> <he>גּוֹד או אָגוֹד</he> either fix you a price for my share, or I shall do so (and buy your share); <he>דינא דגוד או אגוד</he> the right of settling by <i>god o agod</i>. ",
+				"<cite ref=\"Bava Batra 13a:2\">Ib.</cite> <he>אגוד איכא גוד ליכא</he> the offer to buy is applicable in this case (the half-freed slave can offer to buy his other half), but the offer to sell cannot be made (since there is no price for a free man).—<i>Part. pass.</i> <cite ref=\"C00170\"><he>גָּדוּד</he></cite> <i>stripped</i> (of branches); trnsf. <i>empty-handed</i>. ",
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite>, beg. <he>ג׳ שלחו</he> (<cite ref=\"Yalkut Shimoni on Torah 117\">Yalk. ib. 117</cite> <cite ref=\"C00175\"><he>גדודי</he></cite>) Isaac sent Jacob away without anything valuable."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּדֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to cut off, level</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 71:9\">Gen. R. s. 71</cite> (play on <he>בא גד</he>, <cite ref=\"Genesis 30:11\">Gen. XXX, 11</cite>) <he>בא מי שעתיד לגַדֵּד וכ׳</he> he has come who is destined to level the fastnesses of the nations (idolatry). Tanḥ. Ki Thissa 13 (play on <he>מגדל גד</he>, <cite ref=\"Joshua 15:37\">Josh. XV, 37</cite>) from there the Lord <he>יוצא ומְגַדֵּד וכ׳</he> will proceed and level &c.; <cite ref=\"Shemot Rabbah 40:4\">Ex. R. s. 40</cite> <he>ומגיד</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִגְדַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut off</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 51a:1\">Keth. 51ᵃ</cite> <he>כל העומד לִיגָּדֵד כְּגָדוּד דמי</he> Ar. (ed. <he>ליגזז</he>, v. <cite ref=\"C00537\"><he>גָּזַז</he></cite>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְגּוֹדֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to make incisions in one’s own body</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 13b\">Yeb. 13ᵇ</cite>, v. <cite ref=\"C00300\"><he>גּוּד</he></cite>. Tanḥ. Sh’laḥ. 15; <cite ref=\"Bamidbar Rabbah 17\">Num. R. s. 17</cite> <he>קבר מת לא תִתְגּוֹדְדוּ</he> when one buried a dead, the law says, Ye shall not &c. (<cite ref=\"Deuteronomy 14:1\">Deut. XIV, 1</cite>). V. <cite ref=\"C00198\"><he>גְּדִידָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		},
+		{
+			"forms": ["גֹּדֵד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C00165\">same</cite>. Yeb. l. c. <he>א״כ לימא קרא לא תְּגוֹדְדוּ</he> if it were so (that <cite ref=\"Deuteronomy 14:1\">Deut. XIV, 1</cite> meant only to forbid incisions in the body) it ought to read <i>lo t’god’du</i>, ye shall make no incisions.",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

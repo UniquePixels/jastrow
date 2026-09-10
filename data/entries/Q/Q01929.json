@@ -1,0 +1,32 @@
+{
+	"id": "Q01929",
+	"slug": "פרסי-2",
+	"headword": {
+		"text": "פַּרְסִי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְסִית"
+		}
+	],
+	"page": {
+		"number": 1234,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"Q01910\"><he>פָּרַס</he> II)</cite><i>Persian</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 4:12\">Esth. R. to I, 22</cite> <he>פ׳ נושא … מדברת בלשון פ׳</he> when a Persian marries a Median woman, she must speak Persian. ",
+				"<cite ref=\"Esther Rabbah 1:11\">Ib. to I, 11</cite> <he>לא מדית ולא פ׳ אלא כשדית</he> is neither a Median nor a Persian woman, but a Chaldean; a. e.—Pl. <cite ref=\"Q01931\"><he>פַּרְסִים</he></cite>, <he>פַּרְסִיִּים</he>, <he>פַּרְסִיִּין</he>, <he>פַּרְסִיּוֹת</he>. ",
+				"<cite ref=\"Kiddushin 72a:9\">Kidd. 72ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 8b:13-15\">Ber. 8ᵇ</cite> <he>בשלשה … אני אוהב את הפ׳</he> for the sake of three things I love the Persians. Esth. R. l. c.; a. e.—",
+				"<cite ref=\"Mishnah Sheviit 5:1\">Shebi. V, 1</cite> <he>הפַּרְסָיוֹת</he> Ms. M. (ed. <he>הפַּרְסָאוֹת</he>) <i>Persian figs</i> (or dates); Sifra B’har, Par. 1, ch. I; <cite ref=\"Tosefta Shevi'it 4:1\">Tosef. Shebi. IV, 1</cite> <he>הפרסאות</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "K00146",
+	"slug": "כדר-1",
+	"headword": {
+		"text": "כָּדַר"
+	},
+	"page": {
+		"number": 614,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"K00099\"><he>כַּד</he> II</cite>) <i>to be arched, rounded</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 40a:13\">Ab. Zar. 40ᵃ</cite>; <cite ref=\"Chullin 64a:2\">Ḥull. 64ᵃ</cite> (sign of eggs of clean birds) <he>כל שכּוֹדֶרֶת ועגולגולת</he> (Var. <cite ref=\"S00246\"><he>קוֹדֶרֶת</he></cite>, <he>קוֹדֶדֶת</he>, <he>כּוֹדֶדֶת</he>) that which is arched (on top not pointed) and rounded (rolling); <cite ref=\"Tosefta Chullin 3:23\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Chullin 4:23\">IV</cite>), 23."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְכַּדֵּר"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"K00118\"><he>כַּדּוּר</he></cite>) <i>to be thrown around in a circle of players</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 12:11\">Koh. R. to XII, 11</cite> <he>מה הכדור הזה מִתְכַּדֵּר וכ׳</he> as the ball is thrown around from hand to hand."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

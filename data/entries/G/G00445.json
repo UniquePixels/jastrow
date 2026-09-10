@@ -1,0 +1,27 @@
+{
+	"id": "G00445",
+	"slug": "זכוכית",
+	"headword": {
+		"text": "זְכוּכִית"
+	},
+	"page": {
+		"number": 398,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"G00466\"><he>זכך</he></cite>, cmp. <cite ref=\"G00061\"><he>זְגוּגִיתָא</he></cite>)<i>glass, crystal</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 6a:8\">Meg. 6ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 33:19\">Deut. XXXIII, 19</cite>) <he>חול זו ז׳ לבנה</he> ‘sand’ alludes to white glass.—",
+				"<cite ref=\"Shabbat 14b:5\">Sabb. 14ᵇ</cite> <he>גזרו טומאה על כלי ז׳</he> declared glass vessels subject to the laws of levitical purity. ",
+				"<cite ref=\"Shabbat 15b:7\">Ib. 15ᵇ</cite>; a. fr.—Pl. <he>זְכוּכִיּוֹת</he> <i>glass beads</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 21:12\">Num. R. s. 21</cite>.—",
+				"<cite ref=\"Bava Kamma 30a:11\">B. Kam. 30ᵃ</cite> <he>זְכוּכִיּוֹתָיו</he> his <i>broken glass ware</i>. ",
+				"<cite ref=\"Bava Kamma 30a:16\">Ib.</cite> <he>זְכוּכִיּוֹתֵיהֶם</he> (<cite ref=\"Mishnah Bava Kamma 3:2\">ib. III, 2</cite> sing.)."
+			]
+		}
+	]
+}

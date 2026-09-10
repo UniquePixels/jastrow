@@ -1,0 +1,25 @@
+{
+	"id": "S01201",
+	"slug": "קירקור",
+	"headword": {
+		"text": "קִירְקוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִרְ׳"
+		}
+	],
+	"page": {
+		"number": 1370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קִרְקֵר</he> III) <i>croaking</i> (of frogs). Tanḥ. Bo 4 <he>קִרְקוּרָן היה קשה וכ׳</he> their croaking was harder to bear than their ruining; Pesik. Vayhi, p. 66ᵇ quot. in Ar.",
+			"units": []
+		}
+	]
+}

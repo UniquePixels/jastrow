@@ -1,0 +1,32 @@
+{
+	"id": "Q00318",
+	"slug": "פוקה",
+	"headword": {
+		"text": "פּוּקָה"
+	},
+	"page": {
+		"number": 1145,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00314\"><he>פּוּק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) <i>sinking</i>, v. <cite ref=\"Q00797\"><he>פִּיקָה</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (homilet., v. <cite ref=\"Q01514\"><he>פָּקַק</he></cite>) <i>stopper, gag</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 53\">Midr. Till. to Ps. LIII</cite>, v. <cite ref=\"Q01511\"><he>פִּקְפֵּק</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

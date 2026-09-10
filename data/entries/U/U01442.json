@@ -1,0 +1,40 @@
+{
+	"id": "U01442",
+	"slug": "שמועתא",
+	"headword": {
+		"text": "שְׁמוּעֲתָא"
+	},
+	"page": {
+		"number": 1593,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01441\">same</cite><i>hearing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 32:1\">Targ. Y. II, Deut. XXXII, 1</cite>, v. <cite ref=\"U01476\"><he>שְׁמִיעָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>report, news</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 2:24\">Targ. I Sam. II, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 112:7\">Targ. Ps. CXII, 7</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "(also h. form <cite ref=\"U01441\"><he>שְׁמוּעָה</he></cite>) <i>tradition, traditional decision, law</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:2:3\">Y. Succ. I, 52ᵇ</cite> <he>ר׳ חייא</he> … <he>עביד לה ש׳ וכ׳</he> R. Ḥ.… decided the matter by referring to a tradition &c. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 2:1:16\">Y. Maas. Sh. II, 53ᶜ</cite> top <he>ולא ידעינן אם מן ש׳ אם מן מתניתא</he> and we do not know whether he quoted a tradition (of Amoraim) or a Mishnah. ",
+				"<cite ref=\"Jerusalem Talmud Peah 3:7:4\">Y. Peah III, 17ᵈ</cite> top <he>ש׳ כן וכ׳</he> the traditional law is this: he that &c. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 9:1:2\">Y. Gitt. IX, beg. 50ᵃ</cite> <he>ש׳ רובא ממתניתא</he> the traditional law goes farther than the Mishnah. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:2\">Y. R. Hash. II, 58ᵇ</cite> top <he>מרה דש׳</he> the authority for that tradition; (<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:11\">Y. Snh. I, 18ᶜ</cite> bot. <he>דשמעתא</he>); a. fr.—Pl. <he>שְׁמוּעֲיָין</he>, <cite ref=\"U01442\"><he>שְׁמוּעָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:10\">Targ. Cant. V, 10</cite> <he>שמועיין חדתין</he> ed. Lag. (ed. Vien. <he>שְׁמוּעִין</he>).—Y. Ter. VIII, 45ᵈ top <he>מרי ש׳</he> = <he>בעל שמועות</he>, v. <cite ref=\"U01441\">preced.</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

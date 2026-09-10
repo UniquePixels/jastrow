@@ -1,0 +1,23 @@
+{
+	"id": "B00263",
+	"slug": "בולטיתא",
+	"headword": {
+		"text": "בּוּלְטִיתָא"
+	},
+	"page": {
+		"number": 146,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בלט</he>, v. <cite ref=\"B00880\"><he>בלל</he></cite>; P. Sm. 533) <i>crumbling, corrosion, being worm-eaten</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:19\">Targ. Job XLI, 19</cite> <he>קיסא ב׳</he> (read <he>דב׳</he>) worm-eaten wood. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:20\">Targ. Prov. XXV, 20</cite>; <cite ref=\"Aramaic Targum to Proverbs 12:4\">XII, 4</cite> Ms. (ed. <cite ref=\"M01540\"><he>מַלְטִיתָא</he></cite>, Pesh. <he>בל׳</he>)."
+			]
+		}
+	]
+}

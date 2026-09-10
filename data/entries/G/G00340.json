@@ -1,0 +1,24 @@
+{
+	"id": "G00340",
+	"slug": "זיינא-2",
+	"headword": {
+		"text": "זְיָינָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 393,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זוּן</he> II) <i>restriction, loss</i> (cmp. <cite ref=\"T00330\"><he>רְוָוחָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:27\">Targ. Y. Num. XXI, 27</cite> <cite ref=\"G00339\"><he>זֵיְינָא</he></cite>, opp. <cite ref=\"A00339\"><he>אגרא</he></cite>.—",
+				"<cite ref=\"Menachot 77a\">Men. 77ᵃ</cite> <he>ז׳</he> Ar. (Ms. M. <he>זְיָאנָא</he>, v. Rabb. D. S. a. l. note; ed. <cite ref=\"D00457\"><he>דיאנא</he></cite>; <cite ref=\"Bava Batra 90a\">B. Bath. 90ᵃ</cite> <cite ref=\"Q01276\"><he>פסידא</he></cite>), opp. <he>רווחא</he>."
+			]
+		}
+	]
+}

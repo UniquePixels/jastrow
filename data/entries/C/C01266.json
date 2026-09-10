@@ -1,0 +1,48 @@
+{
+	"id": "C01266",
+	"slug": "גרגשתא",
+	"headword": {
+		"text": "גַּרְגִּשְׁתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּרְגּוּשְׁ׳"
+		},
+		{
+			"text": "גַּרְגִּישְׁ׳"
+		}
+	],
+	"page": {
+		"number": 265,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>גשגש׳</he>; <he>גשש</he>) = h. <cite ref=\"C00502\"><he>גּוּשׁ</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>clod, lump of earth</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:43\">Targ. Ps. XVIII, 43</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 7:5\">Targ. Job VII, 5</cite> (h. text <cite ref=\"C00502\"><he>גוש</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:24\">Targ. Y. Gen. I, 24</cite>; a. fr.—Pl. <cite ref=\"C01266\"><he>גַּרְגְּשָׁתָא</he></cite>, <cite ref=\"C01266\"><he>גַּרְגִּישָׁ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 21:33\">Targ. Job XXI, 33</cite>; <cite ref=\"Aramaic Targum to Job 38:38\">XXXVIII, 38</cite> (h. text <he>רגבים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a certain reddish clay</i>, used also as medicine. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 40a:18\">B. Mets. 40ᵃ</cite> <he>משום ג׳</he> the difference of opinion as regards leakage (v. <cite ref=\"B00900\"><he>בֶּלַע</he></cite>) arises from the different qualities of the clay used for the vessels. ",
+				"<cite ref=\"Niddah 20a:104\">Nidd. 20ᵃ</cite> bot. broke apart <he>קורטא דג׳</he> a piece of potter’s clay. ",
+				"<cite ref=\"Ketubot 60b:15\">Keth. 60ᵇ</cite> <he>דאכלה גרגוש׳</he> a woman who eats <i>gargushta</i> (as an astringent or in place of a cosmetic; v. Sm. Ant. s. v. Creta). ",
+				"<cite ref=\"Avodah Zarah 38b:9\">Ab. Zar. 38ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

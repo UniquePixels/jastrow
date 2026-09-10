@@ -1,0 +1,129 @@
+{
+	"id": "K00297",
+	"slug": "כון-2",
+	"headword": {
+		"text": "כּוּן",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 622,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00296\">same</cite>",
+			"units": []
+		},
+		{
+			"gloss": "<i>to direct, aim, draw a direct line</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 22:23\">Targ. Y. Num. XXII, 23</cite>. ",
+				"<cite ref=\"Onkelos Numbers 34:7\">Targ. Num. XXXIV, 7</cite>, sq. (h. text <he>תאה</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 10:5\">Targ. Y. Deut. X, 5</cite> <he>וכוונית</he> (h. text <he>פנה</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 19:3\">Ib. XIX, 3</cite> (h. text <he>תכין</he>, v. <cite ref=\"K00296\">preced.</cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to draw a parallel, compare</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 46:5\">Targ. Is. XLVI, 5</cite> (h. text <he>תמשילני</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <cite ref=\"D00951\"><he>דעתא</he></cite>, or sub. <cite ref=\"D00951\"><he>דעתא</he></cite>) <i>to direct the mind, to pay attention; to do a thing intentionally</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 11:1\">Targ. Y. Num. XI, 1</cite> <he>מכ׳ והגיאן ביש</he> intentionally speaking evil.—",
+				"<cite ref=\"Berakhot 17b:10\">Ber. 17ᵇ</cite> <he>לא מצי לְכַוּוּנֵי דעתיה</he> he cannot collect his mind (for prayer). ",
+				"<cite ref=\"Berakhot 30b:3\">Ib. 30ᵇ</cite> <he>מעיקרא לא כ׳ וכ׳</he> the first time he read without attention. ",
+				"<cite ref=\"Chullin 31a\">Ḥull. 31ᵃ</cite> <he>דלא קָמְכַוֵּין</he> (or <he>קָמִכַּוֵּין</he> <i>Ithpa.</i>) when he had no intention whatever (to cut); a. fr.—<i>Part. pass.</i> <cite ref=\"M01354\"><he>מְכַוַּון</he></cite> "
+			],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>directed towards, corresponding</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 1:9\">Targ. Ez. I, 9</cite>. ",
+						"<cite ref=\"Onkelos Exodus 26:5\">Targ. Ex. XXVI, 5</cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>straight, firm, upright</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 21:8\">Targ. Job XXI, 8</cite> <he>מְכַוְּונִין</he> Bxt. (Ms. <he>מְכַוְּונַן</he>; ed. <he>מכוין</he>, <cite ref=\"M01354\"><he>מְכַוַּון</he></cite>, corr. acc.; h. text <cite ref=\"N00812\"><he>נכון</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 51:12\">Targ. Ps. LI, 12</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 57:8\">Ib. LVII, 8</cite> (ed. Wil. <cite ref=\"M01357\"><he>מכוֵן</he></cite>, corr. acc.); a. fr.—",
+						"<cite ref=\"Yoma 28b\">Yoma 28ᵇ</cite> <he>לא מְכַוְּונֵי</he> Ms. M. (ed. <he>לא מ׳ טובא</he>) the Temple walls were not exactly straight (the lower portions being thicker than the upper); [Ms. M. 2 <he>משום דמכווני</he> because the walls were exactly built in correspondence with the points of the compass]. ",
+						"<cite ref=\"Jerusalem Talmud Sanhedrin 4:1:4\">Y. Snh. IV, beg. 22ᵃ</cite>; III, 21ᶜ top [read:] <he>כד הוא חמי סהדו מכַוְּונָא … הכן והכן מְכַוֵּון</he> when he found evidences (of two) exactly corresponding, he cross-examined; but when he found them turning hither and thither (differing in details), he tried to harmonize (allowing for errors in time &c., v. <cite ref=\"H01558\"><he>חֲקִירָה</he></cite>)."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K00210\"><he>כַּוֵּון</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְכַּוֵּון", "אִיכַּ׳"],
+			"senses": [
+				{
+					"gloss": ", <he>כַּוֵּין …</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to place one’s self, to stand</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 101:7\">Targ. Ps. CI, 7</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be precise in doing</i>. Ib. XC, 12 <he>מן יִתְכַּ׳ להודע</he> ed. Lag. (oth. ed. <cite ref=\"K00826\"><he>כן</he></cite>, corr. acc.) who can exactly make known? (h. text <he>כן הודע</he>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 13:12\">Targ. Y. Lev. XIII, 12</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be trained, to be in the habit of</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 22:30\">Targ. Y. Num. XXII, 30</cite> (h. text <he>הסכן</he>)."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to intend, mean</i>. Ib. XXX, 5 <he>ויתכ׳ וישתוק</he> and keeps silence intentionally. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 19:4\">Targ. Y. Deut. XIX, 4</cite>; a. e.—",
+						"<cite ref=\"Chullin 95a:6\">Ḥull. 95ᵃ</cite> <he>דאיכ׳ לצעורי׳ וכ׳</he> who meant to vex his neighbor. ",
+						"<cite ref=\"Chullin 31a:16\">Ib. 31ᵃ</cite> <he>מִיכַּוֵּין לשום חתיכה</he> had the intention merely to cut (not to slaughter according to the ritual, v. <cite ref=\"G00034\"><he>זְבִיחָה</he></cite>). ",
+						"<cite ref=\"Chullin 31a:20\">Ib.</cite> <he>מה כלים דלא מִיכַּוְּונֵי וכ׳</he> as vessels (lifeless things) which have no thought &c.; a. e."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְכָּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be prepared, ready</i> (<cite ref=\"M00475\"><he>מוּכָן</he></cite>, v. <cite ref=\"K00296\">preced.</cite>). Ib. 14ᵃ <he>כיון דלא א׳ וכ׳</he> because it was not prepared (designated for use) yesterday.—V. <cite ref=\"V00549\"><he>תכן</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

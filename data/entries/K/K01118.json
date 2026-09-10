@@ -1,0 +1,27 @@
+{
+	"id": "K01118",
+	"slug": "כרוכא",
+	"headword": {
+		"text": "כְּרוֹכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרוֹכַת"
+		}
+	],
+	"page": {
+		"number": 665,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01186\"><he>כְּרַךְ</he></cite>) <i>winding, intestines</i>; <he>כ׳ קטונא</he> small winding (duodenum), <he>כ׳ עביא</he> the large winding (jejunum). ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 7:19\">Koh. R. to VII, 19</cite>; <cite ref=\"Yalkut Shimoni on Nach 976\">Yalk. Koh. 976</cite>; <cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite>, v. <cite ref=\"K00884\"><he>כַּנְתָא</he></cite>. [<cite ref=\"Targum Jonathan on Leviticus 11:22\">Targ. Y. Lev. XI, 22</cite> <he>כרוכא</he> Ar. a. Levita, v. <cite ref=\"K01139\"><he>כַּרְזְבָא</he></cite>.—Y. R. Hash. I, 57ᵇ bot. <he>כרוכה</he>, v. <cite ref=\"K01103\"><he>כְּרוּבָּא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,96 @@
+{
+	"id": "R00808",
+	"slug": "צרר-2",
+	"headword": {
+		"text": "צָרַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1305,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"R00241\"><he>צוּר</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to surround, wrap, tie up</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 8:2\">Ḥull. VIII, 2</cite> <he>צוֹרֵר אדם בשר וכ׳</he> one may tie up meat and cheese in one sheet. ",
+				"<cite ref=\"Berakhot 23b:17\">Ber. 23ᵇ</cite> <he>צורר אדם תפיליו וכ׳</he> a man may tie up his T’fillin with his money &c.; <he>לא יָצוֹר</he> he must not do so. ",
+				"<cite ref=\"Tosefta Shevi'it 1:9\">Tosef. Shebi. I, 9</cite> <he>צורר</he> he may bandage (a fig-tree when the bark is peeled off). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:7\">Cant. R. to I, 7</cite> <he>אני צוֹרְרָהּ לך בכנפיך</he> I (the Lord) will tie this up in thy lap (reverential expression for, <i>my lap</i>), i.e. I shall remember and visit this act upon thee; a. fr.—Part. pass. <cite ref=\"R00750\"><he>צָרוּר</he></cite>; f. <he>צְרוּרָה</he> &c. ",
+				"<cite ref=\"Bereishit Rabbah 14:4\">Gen. R. s. 14</cite> (ref. to <he>ויצר</he>, <cite ref=\"Zechariah 12:1\">Zech. XII, 1</cite>) <he>מלמד שנפשו של אדם צ׳ בקרבו וכ׳</he> this teaches that the soul of man is tied up within him (love of life is a natural instinct), or else, when trouble comes upon him, he would detach it and cast it away. ",
+				"<cite ref=\"Mishnah Shabbat 5:2\">Sabb. V, 2</cite> <he>יוצאות צְרוּרוֹת</he> may be let out (on the Sabbath) with their udders tied up. ",
+				"<cite ref=\"Rosh Hashanah 22b:8\">R. Hash. 22ᵇ</cite> <he>מאתים זוז צְרוּרִין וכ׳</he> two hundred Zuz are tied up in my cloak; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (neut. verb) [<i>to be narrow</i>,] <i>to cause distress</i>; Part. <cite ref=\"R00727\"><he>צַר</he></cite>; <i>imperf</i>. <cite ref=\"J00548\"><he>יֵצַר</he></cite> (with <he>ל־</he>, or sub. <he>ל־</he>) <i>to be distressed; to worry</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 76\">Gen. R. s. 76</cite> (ref. to <cite ref=\"Genesis 32:8\">Gen. XXXII, 8</cite>) <he>ויירא … וַיֵּצֶר לו וכ׳</he> he was afraid, lest he slay, he was distressed, lest he be slain; Tanḥ. Vayishl. 4. ",
+				"<cite ref=\"Yevamot 63b:15\">Yeb. 63ᵇ</cite> <he>אל תֵּצַר צרת וכ׳</he>, v. <cite ref=\"R00744\"><he>צָרָה</he> II</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵיצֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be distressed, worry, feel sorry</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 3\">Pesik. R. s. 3</cite> <he>אע״פ שה׳ הקדים וכ׳</he> although he (Joseph) grieved over it, yet he (Jacob) placed Ephraim before Menasseh. ",
+						"<cite ref=\"Pesikta Rabbati 3:1\">Ib.</cite> <he>היה יוסף מֵיצֵר וכ׳</he> Joseph grieved over it exceedingly. ",
+						"<cite ref=\"Mishnah Rosh Hashanah 2:9\">R. Hash. II, 9</cite> <he>ומצאו</he> … <he>מיצר</he> R. A. found him grieving; <cite ref=\"Rosh Hashanah 25a:12\">ib. 25ᵃ</cite> <he>מי מיצר ר״ע מיצר וכ׳</he> which of them was grieving? was it R. A. or R. Joshua? <cite ref=\"Rosh Hashanah 25a:12\">Ib.</cite> <he>הלך … שהוא מיצר</he> R. A. found R. J. in distress. ",
+						"<cite ref=\"Shir HaShirim Rabbah 8:6\">Cant. R. to VIII, 6</cite> <he>יוצאי … מְצִירִין בהם</he> travellers suffer through them (the rains; <cite ref=\"Yalkut Shimoni on Nach 333\">Yalk. Is. 333</cite> <he>מצערים</he>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to distress, oppress, persecute</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:31\">Lam. R. to I, 5</cite> <he>כל מי שבא לְהָצֵר וכ׳</he> whoever is designated to persecute Israel, is first made a chief; <cite ref=\"Gittin 56b:18\">Gitt. 56ᵇ</cite> <he>כל המיצר וכ׳</he>; <cite ref=\"Sanhedrin 104b\">Snh. 104ᵇ</cite>. Mekh. B’shall. s. 5 <he>כל המצָרִים</he> (<he>המְצָרִין</he>) <he>להם וכ׳</he> all that are to distress them in the future; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to narrow, close</i>. Y. Taan. III, 66ᵈ (ref. to <cite ref=\"Job 36:19\">Job XXXVI, 19</cite>) <he>אם סדרתה … מֵיצַר פיך</he> when thou orderest thy prayer, do not narrow thy mouth (be timid in thy demands), but ‘open thy mouth wide, and I shall fill it’ (<cite ref=\"Psalms 81:11\">Ps. LXXXI, 11</cite>). ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 927:3\">Yalk. Job 927</cite> <he>והֵצַרְתִּיו</he> (not <he>והצרתי</he>) and I closed him up."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּצָר"],
+			"senses": [
+				{
+					"gloss": "<i>to become distressing, be painful</i>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah 2:12\">Ruth R. to I, 7</cite> <he>הוּצָרָה עליהם הדרך וכ׳</he> travelling was painful to them, because they walked barefoot."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִצְרַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be tied up, gathered</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 107b:2\">Sabb. 107ᵇ</cite> <he>נ׳ הדם אע״פ וכ׳</he> if (in consequence of a blow) blood is gathered (and congealed), though no bleeding took place; <cite ref=\"Chullin 46b\">Ḥull. 46ᵇ</cite>. Y. Sabb. VII, 10ᶜ top; a. e.—",
+						"<cite ref=\"Bereishit Rabbah 46\">Gen. R. s. 46</cite> <he>משנ׳ דמו</he> when man’s blood is tied up (runs slowly, in advanced age); <cite ref=\"Yalkut Shimoni on Torah 80\">Yalk. ib. 80</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

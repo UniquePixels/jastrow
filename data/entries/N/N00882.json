@@ -1,0 +1,27 @@
+{
+	"id": "N00882",
+	"slug": "נמלה",
+	"headword": {
+		"text": "נְמָלָה"
+	},
+	"page": {
+		"number": 913,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; perh. a contr. of <he>נעמלה</he>, fr. <cite ref=\"P00896\"><he>עָמֵל</he></cite>)<i>ant</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 63a:4\">Ḥull. 63ᵃ</cite> (in Chald. dict.) <he>כי הוה חזי נ׳ וכ׳</he> when he saw ants (at work), he used to say, ‘thy righteousness &c. (<cite ref=\"Psalms 36:7\">Ps. XXXVI, 7</cite>). ",
+				"<cite ref=\"Devarim Rabbah 5:2\">Deut. R. s. 5</cite>; <cite ref=\"Yalkut Shimoni on Nach 938:5\">Yalk. Prov. 938</cite> <he>הנ׳ שלשה וכ׳</he> in the house of the ant there are three stories. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 938:5\">Ib.</cite> <he>מעשה בנ׳ אחת וכ׳</he> once an ant dropped a grain of wheat &c.; a. e.—Pl. <he>נְמָלִים</he>, <he>נְמָלִין</he>. ",
+				"<cite ref=\"Mishnah Peah 4:11\">Peah IV, 11</cite>. ",
+				"<cite ref=\"Tosefta Peah 1:8\">Tosef. ib. I, 8</cite>; <cite ref=\"Menachot 71b:6\">Men. 71ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:2:4\">Y. Yeb. VIII, 9ᵇ</cite> <he>מביא נימולין</he>, v. <cite ref=\"N01325\"><he>נָשַׁךְ</he></cite>.—[Chald. <cite ref=\"U00463\"><he>שׁוּמְשְׁמָנָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "J00609",
+	"slug": "ירוק-2",
+	"headword": {
+		"text": "יָרוֹק",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "יָרוֹקָא"
+		}
+	],
+	"page": {
+		"number": 595,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"J00608\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 10:15\">Targ. Ex. X, 15</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Leviticus 13:49\">Targ. Lev. XIII, 49</cite> (h. text <cite ref=\"J00667\"><he>ירקרק</he></cite>).—",
+				"<cite ref=\"Chullin 62a:6\">Ḥull. 62ᵃ</cite> <he>בדירוק׳ כרסה</he> as regards the bird whose belly is green.—",
+				"<cite ref=\"Pesachim 30b:9\">Pes. 30ᵇ</cite> <he>בין חיורא בין אוכמא ובין י׳</he> Ms. M. (ed. <he>יורקי</he>) whether white, dark or green (glazed).—Pl. <he>יְרוֹקִין</he>, <he>יְרוֹקֵי</he>. ",
+				"<cite ref=\"Pesachim 30b:7\">Ib.</cite> <he>בעו מיניה י׳</he> Ms. M. (ed. <cite ref=\"J00245\"><he>יורקא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>green, foliage, grass</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 9:3\">Targ. Gen. IX, 3</cite>, a. e. <he>יְרוֹק עסבא</he>.—",
+				"<cite ref=\"Bava Kamma 44a:12\">B. Kam. 44ᵃ</cite>. ",
+				"<cite ref=\"Arakhin 31b:36\">Arakh. 31ᵇ</cite> <he>אנא קדים אכיל י׳ וכ׳</he> I ate grass before thee (am older); a. e.—Pl. constr. <he>יְרוֹקֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:30\">Targ. Y. Gen. I, 30</cite> <he>י׳ עסבין</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " = <cite ref=\"J00661\"><he>יַרְקוֹנָא</he></cite> q. v.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": " (v. <cite ref=\"J00657\"><he>יֶרֶק</he></cite>) name of a species of <i>fish</i> (green fish). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:7:1\">Y. Kil. I, 27ᵃ</cite> bot., v. <cite ref=\"A02520\"><he>אַסְפְּרוֹן</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

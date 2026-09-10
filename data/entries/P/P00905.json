@@ -1,0 +1,24 @@
+{
+	"id": "P00905",
+	"slug": "עמם-3",
+	"headword": {
+		"text": "עֲמָם"
+	},
+	"page": {
+		"number": 1089,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"P00849\"><he>עַם</he></cite>, <i>people</i>.—Pl. <cite ref=\"P00908\"><he>עֲמָמִים</he></cite>, <cite ref=\"P00908\"><he>עֲמָמִין</he></cite> <i>gentiles</i>, esp. the seven nations of Canaan. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41:7\">Gen. R. s. 41</cite>, v. <cite ref=\"A02007\"><he>אֱמוֹרִי</he></cite>; <cite ref=\"Tosefta Shabbat 7:23\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:23\">VIII</cite>), 23. ",
+				"<cite ref=\"Tosefta Shabbat 8:25\">Ib. 25</cite> <he>ואין לך בכל הע׳ מתון וכ׳</he> of all the (seven) nations none is so patient as the Emorite. Y. Shebi. VII, 36ᵇ bot. <he>אבותיך ירשו ארץ של שבעה ע׳ וכ׳</he> thy ancestors inherited a land of seven nations, and thou shalt conquer a land of ten nations. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:8:4\">Y. Sot. I, 17ᵇ</cite> top <he>בשבעה … לאסור שבעה ע׳</he> in seven passages it is said, ‘thou shalt not make marriages with them’, … to prohibit the seven Canaanitish nations; <cite ref=\"Bamidbar Rabbah 9:7\">Num. R. s. 9</cite>; a. fr."
+			]
+		}
+	]
+}

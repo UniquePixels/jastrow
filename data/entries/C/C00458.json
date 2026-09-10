@@ -1,0 +1,41 @@
+{
+	"id": "C00458",
+	"slug": "גופא",
+	"headword": {
+		"text": "גּוּפָא"
+	},
+	"page": {
+		"number": 225,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00457\">same</cite><i>body</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 31:10\">Targ. I Sam. XXXI, 10</cite>; <cite ref=\"Targum Jonathan on I Samuel 31:12\">12</cite> (h. text <cite ref=\"C00361\"><he>גויה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 17:22\">Targ. Prov. XVII, 22</cite> (h. text <cite ref=\"C00255\"><he>גהה</he></cite>); a. e.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>ג׳ כולא</he> (<cite ref=\"T00152\"><he>רבתי</he></cite>) the entire body (of the chicken). ",
+				"<cite ref=\"Shabbat 65b:2\">Sabb. 65ᵇ</cite> <he>דלא לילפן ג׳ נכראה</he> that they might not become used to bodily contact."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>self, substance</i> &c. ",
+			"units": [
+				"<cite ref=\"Beitzah 3a\">Bets. 3ᵃ</cite>, a. fr. <he>היא ג׳ גזרה</he> this law is itself only a precautionary measure. ",
+				"<cite ref=\"Niddah 46a:37\">Nidd. 46ᵃ</cite>, a. fr. <he>הא ג׳ קשיא</he> this contains a contradiction in itself."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Gufa</i> (<i>text</i>), a talmudical term used for taking up a text or subject after an interruption by a discussion or digression; <i>our text says; returning to our subject</i>, &c. ",
+			"units": [
+				"<cite ref=\"Chullin 54b:3\">Ḥull. 54ᵇ</cite>; a. v. fr.—",
+				"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite>; <cite ref=\"Vayikra Rabbah 6\">s. 6</cite>; <cite ref=\"Vayikra Rabbah 8\">s. 8</cite>. [<cite ref=\"Jerusalem Talmud Ketubot 12:3:15\">Y. Keth. XII, 35ᵇ</cite> bot. <he>גוף ימא</he>, read <cite ref=\"C00787\"><he>גֵּיף</he></cite>.]—Pl. <he>גּוּפַיָּא</he>, <he>גּוּפֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 31:12\">Targ. I Sam. XXXI, 12</cite>.—",
+				"<cite ref=\"Zevachim 82b:14\">Zeb. 82ᵇ</cite> <he>תרי ג׳</he> two subjects."
+			],
+			"label": "3"
+		}
+	]
+}

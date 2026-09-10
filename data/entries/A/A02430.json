@@ -1,0 +1,43 @@
+{
+	"id": "A02430",
+	"slug": "אסיא-2",
+	"headword": {
+		"text": "אַסְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַסְיָיא"
+		},
+		{
+			"text": "עַסְיָא"
+		}
+	],
+	"page": {
+		"number": 93,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Asia</i>. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Asia Minor</i>, or rather the Roman province embracing the Western part of the peninsula of Asia Minor, bequeathed by King Attalus to the Roman republic. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 10:3\">Targ. Y. II, Gen. X, 3</cite>; <cite ref=\"I Chronicles 1:6\">I Chr. I, 6</cite> (h. text <he>אשכנז</he>). Y. Kidd. I, 61ᵈ top (twice for <cite ref=\"S01566\"><he>קני</he></cite>); <cite ref=\"Bereishit Rabbah 44:23\">Gen. R. s. 44</cite> (once for <cite ref=\"S01566\"><he>קני</he></cite>, once for <he>קניזי</he>, some ed. <cite ref=\"A02678\"><he>אפייה</he></cite> corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:2\">Y. Meg. I, 71ᵇ</cite> bot. (for <he>אשכנז</he>). Sifré Balak 131 (p. 47ᵇ ed. Friedm.) <cite ref=\"A00108\"><he>אביא</he></cite> (corr. acc.); v. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 771:14\">Yalk. Num. 771</cite>.—",
+				"<cite ref=\"Bava Metzia 84a\">B. Mets. 84ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a town supposed to be <i>Essa</i>, east of the lake of Tiberias (v. Neub. Géogr. p. 38; cmp. Rap. Er. Millin s. v.). Y. Kil. IX, 32ᶜ bot. ",
+			"units": [
+				"<cite ref=\"Shabbat 109a:7\">Sabb. 109ᵃ</cite> <cite ref=\"P00001\"><he>ע׳</he></cite> (with hot springs). ",
+				"<cite ref=\"Mishnah Yevamot 16:4\">Yeb. XVI, 4</cite> <cite ref=\"P00001\"><he>ע׳</he></cite>; Y. ib. 15ᵈ top <he>א׳</he>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

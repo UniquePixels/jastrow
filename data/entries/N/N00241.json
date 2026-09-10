@@ -1,0 +1,44 @@
+{
+	"id": "N00241",
+	"slug": "נדר-3",
+	"headword": {
+		"text": "נְדַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 880,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (transpos. of <cite ref=\"N01265\"><he>נרד</he></cite>, cmp. <cite ref=\"M00325\"><he>מָדר</he></cite>) <i>to run down</i> (v. Peshit. ",
+			"units": ["<cite ref=\"Micah 1:4\">Mic. I, 4</cite>)."]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַדַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to roll down</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 29:3\">Targ. O. Gen. XXIX, 3</cite>; a. e., v. <cite ref=\"C01092\"><he>גַּנְדַּר</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַנְדַּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00240\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 14:10\">Targ. I Kings XIV, 10</cite> Var. ed. Lag., v. <cite ref=\"C01092\"><he>גַּנְדַּר</he> I</cite>.—V. <cite ref=\"M00331\"><he>מַדְרוֹן</he></cite>, <cite ref=\"M00326\"><he>מִדְרָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "Q00743",
+	"slug": "פיסא-1",
+	"headword": {
+		"text": "פִּיסָא"
+	},
+	"page": {
+		"number": 1167,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00742\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"Q00654\"><he>פַּיָּיס</he></cite> <i>lump of brittle stone</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 64a:15\">Snh. 64ᵃ</cite> <he>שקל פ׳ שדא ביה</he> he took up a lump and threw it at it (the idolatrous statue). ",
+				"<cite ref=\"Makkot 8a:3\">Macc. 8ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"Q00655\"><he>פַּיִיס</he></cite>, v. <cite ref=\"Q00656\"><he>פְּיָיסָא</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

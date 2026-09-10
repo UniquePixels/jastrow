@@ -1,0 +1,23 @@
+{
+	"id": "A01037",
+	"slug": "אחלה",
+	"headword": {
+		"text": "אֲחִלָּה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 40,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01073\"><he>חלל</he></cite>) <i>defilement</i> of a priest’s daughter, v. <cite ref=\"H01080\"><he>חֲלָלָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 66b:19\">Snh. 66ᵇ</cite> <he>אם תחלת אֲחִלָּתָהּ וכ׳</he> if her first defilement occurred in whoredom (not in wedlock with one degraded)."
+			]
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"id": "T00174",
+	"slug": "רגז-2",
+	"headword": {
+		"text": "רְגַז",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "רְגֵיז"
+		}
+	],
+	"page": {
+		"number": 1447,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00173\">same</cite>, <i>to tremble; to be agitated, angry</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 77:19\">Targ. Ps. LXXVII, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 19:1\">Targ. II Sam. XIX, 1</cite>. ",
+				"<cite ref=\"Onkelos Genesis 40:2\">Targ. O. Gen. XL, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 2:12\">Targ. Ps. II, 12</cite>; a. fr.—Part. <cite ref=\"T00188\"><he>רָגֵיז</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 1:15\">Targ. Zech. I, 15</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְרְגֵיז"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken; to be excited</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 77:17\">Targ. Ps. LXXVII, 17</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 15:14\">Targ. Y. Ex. XV, 14</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַרְגֵּיז"],
+			"senses": [
+				{
+					"gloss": "<i>to shake; to excite; to scandalize, make angry</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 9:6\">Targ. Job IX, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 78:8\">Targ. Ps. LXXVIII, 8</cite>. Targ. O. a. Y. I <cite ref=\"Deuteronomy 32:21\">Deut. XXXII, 21</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 3:16\">Targ. Is. III, 16</cite> (h. text <he>תעכסנה</he>!); a. fr.—Esp. <i>to blaspheme</i>. ",
+						"<cite ref=\"Onkelos Leviticus 24:11\">Targ. O. Lev. XXIV, 11</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 22:14\">Targ. Prov. XXII, 14</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be angry</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:62\">Targ. Ps. LXXVIII, 62</cite> (h. text <cite ref=\"P00059\"><he>התעבר</he></cite>).—[<cite ref=\"Midrash Tehillim 25:6\">Midr. Till. to Ps. XXV, 4</cite> <he>מרגזין</he>, read: <he>מזגין</he>, v. <cite ref=\"M00713\"><he>מְזַג</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

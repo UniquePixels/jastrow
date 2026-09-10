@@ -1,0 +1,23 @@
+{
+	"id": "A00970",
+	"slug": "אזינא",
+	"headword": {
+		"text": "אֲזֵינָא"
+	},
+	"page": {
+		"number": 37,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. (<he>זין</he>) <he>אֲזֵינִין</he> <i>weapons</i>, <cite ref=\"A00172\"><he>בית א׳</he></cite> <i>receptacle of weapons, quiver</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 5:16\">Targ. Jer. V, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 49:2\">Targ. Is. XLIX, 2</cite> (ed. Ven. <he>אַזְנִין</he>). V. Targ. to <cite ref=\"Deuteronomy 23:14\">Deut. XXIII, 14</cite> <he>אֲזֵנֶךָ</he>."
+			]
+		}
+	]
+}

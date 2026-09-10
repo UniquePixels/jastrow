@@ -1,0 +1,62 @@
+{
+	"id": "N00957",
+	"slug": "נסק-1",
+	"headword": {
+		"text": "נָסַק"
+	},
+	"page": {
+		"number": 918,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <he>נשׂק</he>)<i>to go up, ascend</i>; v. <cite ref=\"M01998\"><he>מָסַק</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסִּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to impose a tax, to assess</i>, v. <cite ref=\"M01930\"><he>מַסִּיק</he> II</cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to bring to a conclusion</i>, v. <cite ref=\"M01929\"><he>מַסִּיק</he> I</cite>. I.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to put on</i> wood, <i>to make the flame rise</i>; [cmp. <cite ref=\"P00772\"><he>עָלָה</he></cite> <i>Hif.</i>,] <i>to start a fire, to heat</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 32a\">Bets. 32ᵃ</cite>, a. e. <he>מַסִּיקִין בכלים וכ׳</he> you may, on the Holy Day, use wooden vessels for heating &c. ",
+						"<cite ref=\"Pesachim 27b:6\">Pes. 27ᵇ</cite> <he>המַסִּיק</he> he who put the wood on. ",
+						"<cite ref=\"Pesachim 27b:2\">Ib.</cite> <he>תנור שהִסִּיקוֹ וכ׳</he> if one heated an oven with wood belonging to the sanctuary &c. ",
+						"<cite ref=\"Mishnah Shabbat 3:1\">Sabb. III, 1</cite> <he>כירה שהִסִּיקוּהָ בקש וכ׳</he> a range which they heated with straw &c. ",
+						"<cite ref=\"Tosefta Yoma 2:5\">Tosef. Yoma II, 5</cite>; <cite ref=\"Yoma 38a:7\">Yoma 38ᵃ</cite> <he>מַסִּיקִין מבפנים</he> placed the fire deep into the stove. ",
+						"<cite ref=\"Shabbat 41a\">Sabb. 41ᵃ</cite>; a. fr.—[<cite ref=\"Midrash Tehillim 28:2\">Midr. Till. to Ps. XXVIII</cite>, v. infra.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִיסּוֹק", "נִיסָּק"],
+			"senses": [
+				{
+					"gloss": "; <i>Hof.</i> <he>הוּסָּק</he> <i>to be heated</i>. Y. Ber. IV, 8ᵇ top <he>נִסּוֹקֶת</he>; ib. IX, 14ᵇ top <cite ref=\"N00934\"><he>נִיסּ׳</he></cite>, v. <cite ref=\"M02635\"><he>מֶרְחָץ</he></cite>.—",
+					"units": [
+						"<cite ref=\"Pesachim 30b\">Pes. 30ᵇ</cite> top <he>הא ה׳ התנור</he> but if the oven has been made glowing. ",
+						"<cite ref=\"Midrash Tehillim 28:2\">Midr. Till. to Ps. XXVIII</cite> <he>אם הוא נ׳ … יהא ני׳ וכ׳</he> if it (the furnace) is usually heated with one bundle, let it now be heated with seven; <cite ref=\"Midrash Tehillim 28:2\">ib.</cite> <he>אם הוא מסיק בשבעה יהא מסיק וכ׳</he> (corr. acc.) if it is heated with seven bundles, let it be heated &c. ",
+						"<cite ref=\"Mishnah Kelim 5:4\">Kel. V, 4</cite>. ",
+						"<cite ref=\"Tosefta Chullin 1:22\">Tosef. Ḥull. I, 22</cite> <he>עד שלא הוּסְּקוּ</he> before they are hardened by heating; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

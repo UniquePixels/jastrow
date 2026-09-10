@@ -1,0 +1,23 @@
+{
+	"id": "V00762",
+	"slug": "תסיל",
+	"headword": {
+		"text": "תָּסִיל"
+	},
+	"page": {
+		"number": 1682,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01003\"><he>סלל</he></cite> = <he>צלל</he>) <i>tasil</i>, a species of small doves (cmp. <cite ref=\"R00231\"><he>צוּצְלָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Chullin 62a:9\">Ḥull. 62ᵃ</cite> <he>ת׳ פסול משום תורין וכ׳</he> a <i>tasil</i> is unfit to be offered in place of turtle-doves (a full-grown <i>tasil</i> cannot be offered), but it is fit in place of young pigeons. ",
+				"<cite ref=\"Chullin 140b:7\">Ib. 140ᵇ</cite> <he>יונה על ביצי ת׳</he> a dove found brooding over eggs of a <i>tasil</i>; a. e.—[Rashb. to <cite ref=\"Bava Batra 75a\">B. Bath. 75ᵃ</cite> explains <cite ref=\"R00231\"><he>צוצלא</he></cite> = <he>תאציל</he>.]"
+			]
+		}
+	]
+}

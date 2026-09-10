@@ -1,0 +1,22 @@
+{
+	"id": "D00255",
+	"slug": "דוכסוסיא",
+	"headword": {
+		"text": "דּוּכְסוּסְיָא"
+	},
+	"page": {
+		"number": 285,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"D00244\"><he>דּוּךְ</he> III</cite>, a. <cite ref=\"O00372\"><he>סוּסְיָא</he></cite>; a popular adaptation of <he>טַכְסְיוֹטָא</he>, ταξεώτης) <i>the magistrate’s officer, sergeant</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 27a:21\">Meg. 27ᵃ</cite> <he>דוכסו׳</he> ed. (Ms. M. <he>דוכסס׳</he>, Ar. <he>דכסס׳</he>), expl. by R. Shesheth <he>פרשא דמתא</he> the riding messenger of the town. [Cmp. <cite ref=\"D00384\"><he>דורקטי</he></cite>.]"
+			]
+		}
+	]
+}

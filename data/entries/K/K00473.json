@@ -1,0 +1,26 @@
+{
+	"id": "K00473",
+	"slug": "כי-1",
+	"headword": {
+		"text": "כי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כ״י"
+		}
+	],
+	"page": {
+		"number": 629,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>the Greek letter Chi</i> (χ). ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 6:3\">Men. VI, 3</cite> <he>כמין כי</he>, expl. ",
+				"<cite ref=\"Menachot 75a:13\">ib. 75ᵃ</cite> <he>כמין כי יוני</he> (Ar. <cite ref=\"J00206\"><he>יונית</he></cite>) drawing the figure of a Greek Chi; Tosef. ib. VIII, 8; 10; <cite ref=\"Keritot 5b:87\">Ker. 5ᵇ</cite>; <cite ref=\"Horayot 12a:13\">Hor. 12ᵃ</cite>, expl. <he>כמין כף יוני</he> ed. (Ms. M. <cite ref=\"K00473\"><he>כי</he></cite>). ",
+				"<cite ref=\"Mishnah Kelim 20:7\">Kel. XX, 7</cite>."
+			]
+		}
+	]
+}

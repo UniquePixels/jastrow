@@ -1,0 +1,23 @@
+{
+	"id": "E00092",
+	"slug": "הגרמה",
+	"headword": {
+		"text": "הַגְרָמָה"
+	},
+	"page": {
+		"number": 332,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גָּרַם</he> Hif.) <i>cutting the animal’s throat in a slanting direction</i>, letting the knife slide beyond the space ritually designated for cutting. ",
+			"units": [
+				"<cite ref=\"Chullin 9a:3\">Ḥull. 9ᵃ</cite>. ",
+				"<cite ref=\"Chullin 27a:12\">Ib. 27ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

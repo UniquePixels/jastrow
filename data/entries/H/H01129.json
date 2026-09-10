@@ -1,0 +1,27 @@
+{
+	"id": "H01129",
+	"slug": "חלשות",
+	"headword": {
+		"text": "חַלָּשׁוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַלָּשׁוּתָא"
+		}
+	],
+	"page": {
+		"number": 474,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01128\">preced.</cite>) <i>weakness, laxity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 12:10\">Targ. I Kings XII, 10</cite> <cite ref=\"Aramaic Targum to Ecclesiastes 10:17\">Targ. Koh. X, 17</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "A00811",
+	"slug": "אופן-1",
+	"headword": {
+		"text": "אוֹפָן"
+	},
+	"page": {
+		"number": 31,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>אפן</he>, √<cite ref=\"Q01145\"><he>פן</he></cite> , v. <he>פנה</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wheel</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (with ref. to <cite ref=\"Ezekiel 1:15\">Ezek. I, 15</cite>) pr. n. <i>Ofan</i>, name of an angel. ",
+			"units": [
+				"<cite ref=\"Chagigah 13b:4\">Ḥag. 13ᵇ</cite>.—Pl. <he>אוֹפַנִּים</he>. ",
+				"<cite ref=\"Chagigah 12b:14\">Ib. 12ᵇ</cite>. ",
+				"<cite ref=\"Rosh Hashanah 24b:5\">R. Hash. 24ᵇ</cite>.—[In liturgic literature <he>אופנים</he> and <he>אופן</he> are used as the names of a section of the morning prayers; v. <cite ref=\"A00813\"><he>אוֹפַנָּא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

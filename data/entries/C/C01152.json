@@ -1,0 +1,24 @@
+{
+	"id": "C01152",
+	"slug": "גנן-3",
+	"headword": {
+		"text": "גַּנָּן"
+	},
+	"page": {
+		"number": 260,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"C01072\"><he>גַּן</he></cite>) <i>gardener</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite>.—Pl. <he>גַּנָּנִים</he>, <he>גַּנָּנִין</he>. ",
+				"<cite ref=\"Mishnah Kelim 17:1\">Kel. XVII, 1</cite>. ",
+				"<cite ref=\"Mishnah Yoma 5:6\">Yoma V, 6</cite>; a. e."
+			]
+		}
+	]
+}

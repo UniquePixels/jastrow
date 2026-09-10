@@ -1,0 +1,33 @@
+{
+	"id": "K00320",
+	"slug": "כוסבר-1",
+	"headword": {
+		"text": "כּוּסְבָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּסְבָּרָה"
+		},
+		{
+			"text": "כּוּסְבֶּרֶת"
+		}
+	],
+	"page": {
+		"number": 623,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. Löw Pfl. p. 209) <i>coriander</i> (v. Sm. Ant. s. v. Coriandrum). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite> <he>כ׳ וכוּסְבַּר שדה וכ׳</he> (garden) coriander and field (wild) coriander … are not heterogeneous plants. ",
+				"<cite ref=\"Mishnah Sheviit 9:1\">Shebi. IX, 1</cite>. ",
+				"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite>. Y. ed. <he>כוס׳</he> (Mish. a. Bab. ed. <cite ref=\"K00591\"><he>כֻּסְ׳</he></cite>); a. fr.—Y. ib. 21ᵈ top, v. next w.—",
+				"<cite ref=\"Tosefta Bava Batra 5:6\">Tosef. B. Bath. V, 6</cite> <he>כוסברת בפלפלין</he> ed. Zuck. (Var. <he>כסבורא</he>; corr. acc.) he who adulterates pepper by admixing coriander; <cite ref=\"Kohelet Rabbah 6:1\">Koh. R. to VI, 1</cite> <cite ref=\"K01277\"><he>כרשנים</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

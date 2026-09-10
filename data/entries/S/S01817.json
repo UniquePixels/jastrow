@@ -1,0 +1,35 @@
+{
+	"id": "S01817",
+	"slug": "קציעה-2",
+	"headword": {
+		"text": "קְצִיעָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1405,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cassia, an aromatic bark</i>, an ingredient of frankincense. ",
+			"units": [
+				"<cite ref=\"Keritot 6a\">Ker. 6ᵃ</cite>; Y. Yoma IV, 41ᵃ; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. f. <i>Keziah</i>, one of Job’s daughters. ",
+			"units": [
+				"<cite ref=\"Bava Batra 16b:8\">B. Bath. 16ᵇ</cite> <he>ק׳ … כקציעה</he> she was named K., because her savor spread like that of cassia."
+			],
+			"label": "2"
+		}
+	]
+}

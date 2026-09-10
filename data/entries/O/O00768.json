@@ -1,0 +1,62 @@
+{
+	"id": "O00768",
+	"slug": "סיע-2",
+	"headword": {
+		"text": "סִיעַ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 984,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סַיַּיע</he>, <cite ref=\"O00767\"><he>סַיַּע</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 2:9\">Targ. Koh. II, 9</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 26:2\">Targ. Job XXVI, 2</cite>; a. fr.—",
+						"<cite ref=\"Beitzah 22a:16\">Bets. 22ᵃ</cite> <he>מר קא מְסַיַּיע בהדיה וכ׳</he> you assist him in his operation by closing and opening your eyes; a. fr.—",
+						"<cite ref=\"Chullin 4a:21\">Ḥull. 4ᵃ</cite> <he>תניא דמסייע לך</he> there is a Boraitha supporting your opinion. ",
+						"<cite ref=\"Gittin 48a:10-16\">Gitt. 48ᵃ</cite> bot. <he>קרא … מְסַיְּיעֵי ליה וכ׳</he> a Bible verse and a Boraitha support Resh. L. ",
+						"<cite ref=\"Sanhedrin 71b:7\">Snh. 71ᵇ</cite> <he>נימא מְסַיְּיעָא ליה</he> can we deduce from the following an argument in his favor?; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּיַּיע"],
+			"senses": [
+				{
+					"gloss": "<i>to join in troops, meet</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Micah 4:14\">Targ. Mic. IV, 14</cite> (h. text <he>תתגדדי</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 5:7\">Targ. Jer. V, 7</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be helped, supported; to succeed</i> (<i>by divine help</i>). ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 11:11\">Targ. I Chr. XI, 11</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 9:11\">Targ. Koh. IX, 11</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 85b:15\">B. Mets. 85ᵇ</cite> <he>לא הוה מִסְתַּיְּיעָא מילתא</he> the attempt was not supported (it was not to be, the moment was not favorable); <cite ref=\"Berakhot 25b:24\">Ber. 25ᵇ</cite> <he>לא הוה מסתייעא מילתא</he> he could not consummate the marriage act. ",
+						"<cite ref=\"Chullin 7b\">Ḥull. 7ᵇ</cite> <he>לא מסת׳ מילתיך</he> thy sorcery shall not succeed. ",
+						"<cite ref=\"Chullin 5b\">Ib. 5ᵇ</cite> <he>היכא מסת׳ מילתא וכ׳</he> how could it happen (to such a righteous man) to eat something forbidden? a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

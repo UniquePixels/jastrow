@@ -1,0 +1,28 @@
+{
+	"id": "A02878",
+	"slug": "אציצא",
+	"headword": {
+		"text": "אֲצִיצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲצִיצָא"
+		}
+	],
+	"page": {
+		"number": 111,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אצץ</he>, cmp. <cite ref=\"A02861\"><he>אַצְוָותָא</he></cite>) <i>a common bellied vessel</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 144a:8\">B. Bath. 144ᵃ</cite> <he>אפי׳ א׳ דהרסנא</he> Ms. (ed. <cite ref=\"P00001\"><he>ע׳</he></cite>) even a pot in which fish-hash is kept. ",
+				"<cite ref=\"Megillah 16a:11\">Meg. 16ᵃ</cite> <he>א׳ דבית הכסא</he> Ar. (ed. <cite ref=\"P00001\"><he>ע׳</he></cite>, Ms. O. <cite ref=\"P01045\"><he>עסיסא</he></cite>) night-chamber. [<cite ref=\"Aramaic Targum to Esther 5:1\">Targ. Esth. V, 1</cite> <he>ריעא עֲצוּצָא</he>, read <he>דְּעַ׳ …</he> of the night-chamber.] Hebr. <cite ref=\"P01119\"><he>עָצִיץ</he></cite>."
+			]
+		}
+	]
+}

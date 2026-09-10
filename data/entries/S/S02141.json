@@ -1,0 +1,67 @@
+{
+	"id": "S02141",
+	"slug": "קרץ-1",
+	"headword": {
+		"text": "קָרַץ"
+	},
+	"page": {
+		"number": 1425,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to make an incision; to cut</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:4\">Yoma III, 4</cite> <he>קְרָצוֹ ומרק וכ׳</he> he made the ritually required cut, and some one else finished &c., v. <cite ref=\"M02760\"><he>מָרַק</he></cite>. ",
+				"<cite ref=\"Yoma 32b:12\">Ib. 32ᵇ</cite> <he>מאי קרצו … לישנא וכ׳</he> what is meant by <i>ḳ’ratso</i>?… It has the meaning of slaying (by ref. to <cite ref=\"Jeremiah 46:20\">Jer. XLVI, 20</cite>); Y. ib. III, 40ᶜ top, v. <cite ref=\"N00813\"><he>נָכוֹסָא</he></cite>. ",
+				"<cite ref=\"Tosefta Uktsin 2:8\">Tosef. Ukts. II, 8</cite> <he>כיון שקרצו</he> as soon as he has made an incision into it (although he did not cut it apart, v. ",
+				"<cite ref=\"Mishnah Oktzin 2:5\">Ukts. II, 5</cite>).—Esp. <i>to cut dough on the baker’s board</i>. ",
+				"<cite ref=\"Mishnah Kelim 15:2\">Kel. XV, 2</cite> <he>אם … קוֹרֵץ עליו</he> if he prepares it to cut dough on it; <cite ref=\"Tosefta Keilim Metsia 5:4\">Tosef. Kel. B. Mets. V, 4</cite>; a. fr.—[<cite ref=\"Jerusalem Talmud Pesachim 4:9:2\">Y. Pes. IV, 31ᵇ</cite> top <he>מודיי שקורצין</he>, read: <he>שקוצרין</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bite, pinch</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 6:12\">Nidd. VI, 12</cite> <he>כדי לִקְרוֹץ בצפורן</he> a hair large enough to seize with the nails."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>to form a groove</i>,] <i>to press the lips close together; to gesticulate with closed lips</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 8:5\">Mikv. VIII, 5</cite> <he>קָרְצָה שפתותיה</he> if (in taking a ritual immersion) she pressed her lips together.—",
+				"<cite ref=\"Yoma 19b:7\">Yoma 19ᵇ</cite> <he>הקורא … ולא יִקְרוֹץ בשפתותיו</he> reading the Sh’mʿa one must not blink with one’s eyes, nor gesticulate with one’s lips &c. (make motions to his neighbor)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קֵרֵץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02140\">same</cite>. Ib. <he>הקורא … ומְקָרֵץ וכ׳</he> of him who reads the Shmʿa and blinks with his eyes and gesticulates with his lips and points with his fingers, the Scriptures say, ‘not me didst thou call &c.’ (<cite ref=\"Isaiah 43:22\">Is. XLIII, 22</cite>); <cite ref=\"Yalkut Shimoni on Nach 318\">Yalk. Is. 318</cite>) <he>וקוֹרֵץ</he>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִקְרַץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be nipped off</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 7:4\">Peah VII, 4</cite> <he>אם נִקְרֶצֶת עם וכ׳</he> if it (the isolated bunch on the knee of a vine) can be nipped off as a cluster, it belongs to the owner (Ms. M. <he>נקצרת</he>, v. Rabb. D. S. a. l. note); Sifra K’dosh., Par. 1, ch. III (Var. <he>נקצרת</he>); <cite ref=\"Yalkut Shimoni on Torah 605:2\">Yalk. Lev. 605</cite> <he>נקצרת</he>; Y. Peah VII, 20ᵃ bot. <he>אני אומר את הנִקְרָצוֹת עם האשכולות</he> (not <he>עם</he>) I mean those which have been nipped off in clusters; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M02532",
+	"slug": "מרד-5",
+	"headword": {
+		"text": "מֶרֶד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 836,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M02531\">preced.</cite>; cmp. <cite ref=\"M02544\"><he>מרְדּוּת</he></cite> I a. <cite ref=\"T00235\"><he>רָדָה</he></cite>) [<i>bringingdown</i>,] <i>subjugation</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 42:6\">Gen. R. s. 42</cite> (ref. to <cite ref=\"Genesis 14:4\">Gen. XIV, 4</cite>, sq.) <he>בארבע עשר למִרְדָּן</he> in the fourteenth year counting from their subjugation; Yalk. ib. 72."
+			]
+		}
+	]
+}

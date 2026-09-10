@@ -1,0 +1,30 @@
+{
+	"id": "S01990",
+	"slug": "קרטוב",
+	"headword": {
+		"text": "קַרְטוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1416,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קרטב</he>, <i>Parel</i> of <cite ref=\"S00693\"><he>קטב</he></cite>; cmp. <cite ref=\"S01995\"><he>קַרְטוּפְנָא</he></cite> a. <cite ref=\"S00811\"><he>קָטָף</he></cite>) <i>ḳarṭub, ḳurṭub</i>, a small liquid measure equal to <sup>1</sup>/<sub>64</sub> of a Log. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 5:10\">Tosef. B. Bath. V, 10</cite>; <cite ref=\"Bava Batra 90a\">B. Bath. 90ᵃ</cite> (Rashb. a. l. quot. of Tosef. l. c. <he>וחצי שמינית וכ׳</he> <i>one sixteenth</i> of a Log). ",
+				"<cite ref=\"Mishnah Menachot 12:4\">Men. XII, 4</cite> (<cite ref=\"Menachot 103b:16\">103ᵇ</cite>) <he>קר׳</he> (Ms. M. <he>קור׳</he>); Tosef. ib. XII, 9 <he>קור׳</he>. ",
+				"<cite ref=\"Mishnah Mikvaot 3:1\">Mikv. III, 1</cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 7:5\">Ib. VII, 5</cite>; <cite ref=\"Chullin 26a\">Ḥull. 26ᵃ</cite>; <cite ref=\"Makkot 4a\">Macc. 4ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

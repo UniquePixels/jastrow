@@ -1,0 +1,22 @@
+{
+	"id": "O01107",
+	"slug": "סמלנית",
+	"headword": {
+		"text": "סַמְלָנִית"
+	},
+	"page": {
+		"number": 1002,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. a species of <i>wild beasts</i> (?). ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 78:7\">Midr. Till. to Ps. LXXVIII, 45</cite> ed. Bub. Var. of <he>כמלנית</he> (expl. <cite ref=\"P01307\"><he>עָרֹב</he></cite> <cite ref=\"Midrash Tehillim 78:7\">ib.</cite>)."
+			]
+		}
+	]
+}

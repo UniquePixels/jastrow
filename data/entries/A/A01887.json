@@ -1,0 +1,28 @@
+{
+	"id": "A01887",
+	"slug": "אליתא-5",
+	"headword": {
+		"text": "אִלִּיתָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "עִלִּיתָא"
+		}
+	],
+	"page": {
+		"number": 70,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (pronunc. and meaning doubtful) <i>Illitha</i>, something supposed to render fire-proof or extinguish the fire. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108b:2\">Snh. 108ᵇ</cite> <he>יש לנו דבר אחד וא׳ שמה</he> Ar. (ed. <he>וע׳</he>) we have something, its name is Ill. [perhaps to be read <he>דבר אחר</he> a (female) idol]; <cite ref=\"Yalkut Shimoni on Nach 906\">Yalk. Job 906</cite> <cite ref=\"P00835\"><he>עיל׳</he></cite>, Ms. <he>עליונה</he>]. [<cite ref=\"Bava Batra 73a:8\">B. Bath. 73ᵃ</cite> <he>ומחינן ליה באלי׳</he> Ar. Var. s. v. <cite ref=\"A01956\"><he>אלתא</he></cite>, ed. <cite ref=\"A01829\"><he>אַלּוּתָא</he></cite>, Rashi <cite ref=\"A01808\"><he>אַלְוָותָא</he></cite>, Ms. Oxf. <he>ואית לן</he>, <cite ref=\"A01808\"><he>אלוותא</he></cite> pl. of <cite ref=\"A01956\"><he>אַלָּתָא</he></cite>. The use of the masc. gend. in connection with the word, makes the passage appear spurious.]"
+			]
+		}
+	]
+}

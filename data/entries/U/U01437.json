@@ -1,0 +1,23 @@
+{
+	"id": "U01437",
+	"slug": "שמוע-3",
+	"headword": {
+		"text": "שָׁמוּעַ"
+	},
+	"page": {
+		"number": 1592,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01511\"><he>שָׁמַע</he></cite>) = <cite ref=\"M02924\"><he>מִשְׁמָע</he></cite>, <i>sense, understanding</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:3:3\">Y. Snh. X, 29ᵇ</cite> bot. (ref. to <cite ref=\"Psalms 60:9\">Ps. LX, 9</cite>) <he>מנשה כשְׁמוּעוֹ</he> Manasseh is to be taken in its ordinary sense (as referring to king Manasseh; (<cite ref=\"Bamidbar Rabbah 14:1\">Num. R. s. 14</cite> beg. <he>כמשמעו</he>). ",
+				"<cite ref=\"Jerusalem Talmud Yoma 2:4:2\">Y. Yoma II, end, 40ᵃ</cite> <he>כל ששמועו מרובה ושמועו וכ׳</he> wherever a Biblical text may be understood as comprising a larger or a smaller number, you must adopt the smaller number; Sifra M’tsorʿa, Zab., ch. VII, Par. 5 (Tosaf. to <cite ref=\"Sukkah 5b\">Succ. 5ᵇ</cite> quotes <he>שמשמעו</he>)."
+			]
+		}
+	]
+}

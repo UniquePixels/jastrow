@@ -1,0 +1,27 @@
+{
+	"id": "K01114",
+	"slug": "כרויא",
+	"headword": {
+		"text": "כָּרַוְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּרַוְיָיא"
+		}
+	],
+	"page": {
+		"number": 665,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (careum, sub. cuminum, v. Sm. Ant. s. v.) <he>כַּמּוֹנָא כ׳</he> <i>caraway</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 29a:4\">Ab. Zar. 29ᵃ</cite> (a remedy for nausea, v. <cite ref=\"A00775\"><he>אוּנְקְלַי</he> I</cite>) <he>מייתי כ׳ כ׳</he> (Ar. <he>כרויא כמונא</he>, v. Koh. Ar. Compl. s. v. <he>כמן</he>, IV, p. 247, note 15) let him take caraway &c. [Rashi: (<cite ref=\"K00793\"><he>כמון</he></cite>) <he>כמין כף אגרוף</he>, obviously a corruption of a Provençal word.]"
+			]
+		}
+	]
+}

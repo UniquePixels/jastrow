@@ -1,0 +1,108 @@
+{
+	"id": "B01237",
+	"slug": "ברי-3",
+	"headword": {
+		"text": "ברי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרָא"
+		}
+	],
+	"page": {
+		"number": 192,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01236\">same</cite><i>to create</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:1\">Targ. Gen. I, 1</cite>; a. fr. [<cite ref=\"Aramaic Targum to Proverbs 20:12\">Targ. Prov. XX, 12</cite> <he>אלהא אברי</he>, prob. to be read <he>אלהא ברא</he> as <cite ref=\"Aramaic Targum to Proverbs 22:2\">ib. XXII, 2</cite>.]—",
+				"<cite ref=\"Sanhedrin 65b:16\">Snh. 65ᵇ</cite> <he>ברו עלמא</he> they might create a world. ",
+				"<cite ref=\"Sanhedrin 67a\">Ib. 67</cite> <he>לא מצי ברי</he> he (the demon) cannot create. [<cite ref=\"Sanhedrin 67a\">Ib.</cite> <he>ומיברי</he>, <he>ומיברו</he>, v. Ithpe.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"B01236\">preced.</cite> Hif.) <i>to get well, strong</i> &c. ",
+			"units": [
+				"<cite ref=\"Chullin 93b:1\">Ḥull. 93ᵇ</cite> <he>מדלא קא בַרְיִין</he> since they do not grow (develop). ",
+				"<cite ref=\"Chullin 46b:10\">Ib. 46ᵇ</cite> <he>הדרא בַרְיָא</he> gets well again. [<cite ref=\"Taanit 21b:16\">Taan. 21ᵇ</cite> <he>זיל בריא</he>, v. Af.]"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to cut, shape</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 40:20\">Targ. Is. XL, 20</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (v. <cite ref=\"B01156\"><he>בַּר</he> I</cite> ch., Pi. 2) <i>to expel, exile</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 24:24\">Targ. Prov. XXIV, 24</cite> (h. text <he>זעם</he>)."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַבְרִי"],
+			"senses": [
+				{
+					"gloss": "<i>to strengthen, make well, make grow</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 3:35\">Targ. II Sam. III, 35</cite> (Var. <he>לאוֹכָלָא</he>, v. <cite ref=\"E00051\"><he>הַבְרָאָה</he></cite>). ",
+						"<cite ref=\"Sukkah 44b:5\">Succ. 44ᵇ</cite>; <cite ref=\"Moed Katan 3a:11\">M. Kat. 3ᵃ</cite> <he>אַבְרוּיֵי אילני</he> to make the trees stronger (facilitate their growth); <cite ref=\"Avodah Zarah 50b:6\">Ab. Zar. 50ᵇ</cite> <he>אברויי וכ׳</he>, opp. <he>אוקומי</he> to preserve the trees. ",
+						"<cite ref=\"Niddah 47b:50\">Nidd. 47ᵇ</cite>; <cite ref=\"Yevamot 97a:7\">Yeb. 97ᵃ</cite> <he>אַבְרְיוּהוּ</he> make him grow fat (feed him well). ",
+						"<cite ref=\"Taanit 21b:16\">Taan. 21ᵇ</cite> <he>זיל אַבְרֵי נפשך</he> (ed. <he>בריא</he>, v. Rabb. D. S. a. l.) go and strengthen thyself."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to permeate, perforate</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 112a:7\">Ḥull. 112ᵃ</cite> <he>דאבריה</he> (the blood) soaked through the bread. ",
+						"<cite ref=\"Chullin 93b:7\">Ib. 93ᵇ</cite> <he>דץ ביה מידי דמברי ליה</he> Ar. (ed. only <he>דץ ביה מידי</he>) if he stuck something into it which perforated it (making a passage for the blood)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְבְּרִי", "אִתְבְּרִיא"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"A01174\"><he>אִיבְּרִי</he></cite>. ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be created</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 2:4\">Targ. Gen. II, 4</cite>; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite> <he>מן הן דאתבריין</he> (to) where they were created from. ",
+						"<cite ref=\"Shir HaShirim Rabbah 8:5\">Cant. R. to VIII, 5</cite> <he>וכדון אִתְבְּרִיַית וכ׳</he> now thou hast been created again a new creature (having escaped a great danger).—",
+						"<cite ref=\"Berakhot 54b:4\">Ber. 54ᵇ</cite> <he>איברי ליה וכ׳</he> a well was created (arose) before him. ",
+						"<cite ref=\"Sanhedrin 65b:17\">Snh. 65ᵇ</cite>; <cite ref=\"Sanhedrin 67b:13\">67ᵇ</cite> <he>ומִיבְּרִי להו וכ׳</he> (not <he>ומיברו</he>, Yalk. Ms. <he>איברי</he>, v. Rabb. D. S. a. l. note 4) and a three years’ calf was created (arose) before them (<cite ref=\"Yalkut Shimoni on Torah 182:1\">Yalk. Ex. 182</cite> <he>ומַבְרֵי</he> they created)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become strong</i>. Y. Snh. VIII, 26ᶜ <he>מכיון דאִבְּרִי ליביה עלוי וכ׳</he> since his heart (passion) became so strong over him as to do this (or <he>דאַבְרֵי</he> Af. he allowed his passion to become so strong &c.).",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": " (v. <cite ref=\"B01156\"><he>בַּר</he> I</cite>, <cite ref=\"B01153\"><he>בָּרָא</he></cite>) <i>to grow wild</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 50b:17\">Nidd. 50ᵇ</cite> (explain. the expression <he>תרנגול ברא</he> used by a scholar) <he>דאיבראי ממרה</he> (= <he>שמרדה</he>) that became too wild (uncontrollable) to her owner."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

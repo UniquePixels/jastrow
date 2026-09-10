@@ -1,0 +1,24 @@
+{
+	"id": "S00965",
+	"slug": "קילוני",
+	"headword": {
+		"text": "קִילוֹנִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1360,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (coloni; cmp. <cite ref=\"A00178\"><he>נִימוֹס</he></cite> for νόμος) <i>colonists, citizens of a Roman Colonia</i> (v. Sm. Ant. s. v. Colonia). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> <he>נתנו לו מקום … וקראו לו ק׳ לו ולבניו</he> they assigned a place to him, and he built a town and settled there, and they called him and his children <i>coloni</i> for all time to come (gave him the Roman citizenship)."
+			]
+		}
+	]
+}

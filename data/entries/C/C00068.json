@@ -1,0 +1,31 @@
+{
+	"id": "C00068",
+	"slug": "גבח-2",
+	"headword": {
+		"text": "גָּבֵחַ"
+	},
+	"page": {
+		"number": 205,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C00067\"><he>גִּבֵּחַ</he></cite> (v. <cite ref=\"C00067\">preced.</cite> end) <i>to shave a bald-pate</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 6:1\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:1\">VII</cite>), 1 <he>המְגַבֵּחַ</he>, v. <cite ref=\"C00308\"><he>גּוּדְגַּדִּין</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

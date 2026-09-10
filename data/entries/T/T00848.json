@@ -1,0 +1,59 @@
+{
+	"id": "T00848",
+	"slug": "רנן-2",
+	"headword": {
+		"text": "רְנַן"
+	},
+	"page": {
+		"number": 1484,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00847\">same</cite><i>to think, meditate</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 15:28\">Targ. Prov. XV, 28</cite>, v. <cite ref=\"T00846\"><he>רְנֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:30\">Targ. Ps. XXXVII, 30</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to murmur</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 2:24\">Targ. I Sam. II, 24</cite> <he>דרַנְנִין</he> (ed. Lag. <he>דדננין</he>, Var. <he>דר׳</he>, <he>דמְרַנְּנִין</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַנֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to think, meditate</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 1:2\">Targ. Ps. I, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 39:4\">Ib. XXXIX, 4</cite> <he>ברַנְּנִי</he> Ms. (ed. <he>ברִנְנִי</he>, <he>ברִי׳</he>, v. <cite ref=\"T00849\">next w.</cite>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to murmur</i>. Targ. I Sam. l. c., v. supra.—Y. Ab. Zar. III, 42ᶜ top <he>והוו … מְרַנְּנִין ביה</he> and the scholars murmured against him (considered his conduct unbecoming). ",
+					"units": [
+						"<cite ref=\"Yevamot 34b:7\">Yeb. 34ᵇ</cite> <he>קא מְרַנְּנֵי … אבתרך</he> the scholars speak ill of thee; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to sing, rejoice</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 13:5\">Targ. Ps. XIII, 5</cite>, sq. ",
+						"<cite ref=\"Aramaic Targum to Psalms 14:7\">Ib. XIV, 7</cite>; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

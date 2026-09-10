@@ -1,0 +1,28 @@
+{
+	"id": "E00578",
+	"slug": "הלן",
+	"headword": {
+		"text": "הַלָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "הָלָן"
+		}
+	],
+	"page": {
+		"number": 354,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"E00532\"><he>הָלָא</he></cite>) <i>there</i>, opp. <cite ref=\"K00021\"><he>כַּאן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 4:8:5\">Y. Keth. IV, 28ᵈ</cite> bot.; <cite ref=\"Jerusalem Talmud Gittin 5:3:9\">Y. Gitt. V, 46ᵈ</cite> bot. <he>בני בנים של כאן בני בנים של ה׳</he> the ‘grandchildren’ here (with reference to maintenance) are legally the same as the ‘grandchildren’ there (with reference to the duty of propagation, i.e. ‘grandchildren are like children’). ",
+				"<cite ref=\"Vayikra Rabbah 10:1\">Lev. R. s. 10</cite> <he>ה׳ תבא לקיחה של כאן … של</he> (ed. Wilno <he>שֶלְּהַלָּן</he>, v. infra) the ‘taking’ here (<cite ref=\"Leviticus 8:2\">Lev. VIII, 2</cite>) shall atone for the ‘taking’ there (<cite ref=\"Exodus 32:4\">Ex. XXXII, 4</cite>).—Mostly <cite ref=\"L00166\"><he>לְהַלָּן</he></cite> <i>there</i>. ",
+				"<cite ref=\"Bava Kamma 84a:15\">B. Kam. 84ᵃ</cite> <he>מה לה׳ ממון אף כאן ממון</he> as below (<cite ref=\"Exodus 21:36\">Ex. XXI, 36</cite>) <i>taḥath</i> means pecuniary compensation, so here (ib. 24) &c. ",
+				"<cite ref=\"Sotah 38a:2\">Sot. 38ᵃ</cite> <he>נאמר כאן … ונאמר לה׳</he> here (<cite ref=\"Numbers 6:27\">Num. VI, 27</cite>) the expression <i>sum shem</i> is used, and there (<cite ref=\"Deuteronomy 12:5\">Deut. XII, 5</cite>) &c.; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 50:7\">Gen. R. s. 50</cite> (expl. <he>גש הלאה</he>, <cite ref=\"Genesis 19:9\">Gen. XIX, 9</cite>) <he>קרב לה׳</he> get nearer there (go away)."
+			]
+		}
+	]
+}

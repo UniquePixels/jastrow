@@ -1,0 +1,31 @@
+{
+	"id": "M03091",
+	"slug": "מתניה",
+	"headword": {
+		"text": "מַתַּנְיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַתַּנְיָיה"
+		}
+	],
+	"page": {
+		"number": 864,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Mattaniah</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " original name of Zedekiah, king of Judah. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite>; a. e.—2) name of an Amora. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:7:3\">Y. Bets. I, 60ᶜ</cite> bot. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 4:8:5\">Y. Keth. IV, 28ᵈ</cite> bot.; a. e."
+			],
+			"label": "1"
+		}
+	]
+}

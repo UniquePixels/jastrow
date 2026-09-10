@@ -1,0 +1,28 @@
+{
+	"id": "H00516",
+	"slug": "חזור-1",
+	"headword": {
+		"text": "חֲזוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵזוֹר"
+		}
+	],
+	"page": {
+		"number": 442,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חזר</he>) <i>surrounding</i>. <he>ח׳ ח׳</he> <i>all around</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 19:12\">Targ. Y. Ex. XIX, 12</cite>; a. e.—",
+				"<cite ref=\"Aramaic Targum to Psalms 50:3\">Targ. Ps. L, 3</cite> (ed. Wil. <cite ref=\"H01406\"><he>חֵ׳</he></cite>). Y. Bicc. I, end, 64ᵇ <he>חי׳ חי׳ וכ׳</he> around Zepphoris."
+			]
+		}
+	]
+}

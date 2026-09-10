@@ -1,0 +1,27 @@
+{
+	"id": "P00086",
+	"slug": "עגולגולת",
+	"headword": {
+		"text": "עֲגוּלְגּוֹלֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲגוּלְגֹּלֶת"
+		}
+	],
+	"page": {
+		"number": 1041,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00085\">preced.</cite> wds.) <i>round</i>, <i>rolling</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 64a:2\">Ḥull. 64ᵃ</cite>; <cite ref=\"Avodah Zarah 40a:13\">Ab. Zar. 40ᵃ</cite>, v. <cite ref=\"K00146\"><he>כָּדַר</he></cite>; <cite ref=\"Tosefta Chullin 3:8\">Tosef. Ḥull. III (IV), 23</cite> (not … <he>לית</he>)."
+			]
+		}
+	]
+}

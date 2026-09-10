@@ -1,0 +1,26 @@
+{
+	"id": "V00320",
+	"slug": "תורתא-1",
+	"headword": {
+		"text": "תּוֹרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹרְתָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1658,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>cow</i>, v. <cite ref=\"V00275\"><he>תּוֹרָא</he> I</cite>.",
+			"units": []
+		}
+	]
+}

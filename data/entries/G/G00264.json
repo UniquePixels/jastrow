@@ -1,0 +1,27 @@
+{
+	"id": "G00264",
+	"slug": "זיבוח",
+	"headword": {
+		"text": "זִיבּוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִבּוּחַ"
+		}
+	],
+	"page": {
+		"number": 390,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זבח</he>) <i>slaughtering</i> of a sacrifice, <i>festival</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 63a:10\">Snh. 63ᵃ</cite>; <cite ref=\"Sanhedrin 65a:12\">65ᵃ</cite>; a. fr.—Tanḥ. Vayesh. 9 <he>זִבּוּחוֹ של נילוס</he>, v. <cite ref=\"G00021\"><he>זְבוּל</he></cite> 3)."
+			]
+		}
+	]
+}

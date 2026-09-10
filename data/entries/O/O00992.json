@@ -1,0 +1,27 @@
+{
+	"id": "O00992",
+	"slug": "סליק-2",
+	"headword": {
+		"text": "סְלִיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְלִיקָא"
+		}
+	],
+	"page": {
+		"number": 994,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Σελεύκια) <i>Seleucia</i> (<i>Assyriae</i> or <i>Parthorum</i>), on the confines of Assyria and Babylonia. ",
+			"units": [
+				"<cite ref=\"Yoma 10a:5\">Yoma 10ᵃ</cite> <he>אשור זה ס׳</he> Ms. M. (ed. <cite ref=\"O01025\"><he>סילק</he></cite>, v. Rabb. D. S. a. l. note); <cite ref=\"Ketubot 10b:10\">Keth. 10ᵇ</cite> <cite ref=\"O00992\"><he>סליקא</he></cite>."
+			]
+		}
+	]
+}

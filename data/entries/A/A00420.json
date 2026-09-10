@@ -1,0 +1,23 @@
+{
+	"id": "A00420",
+	"slug": "אדמדם",
+	"headword": {
+		"text": "אֲדַמְדָּם"
+	},
+	"page": {
+		"number": 17,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>reddish</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:6:5\">Y. Succ. III, 53ᵈ</cite> <he>איזהו א׳ שׁבאדומים</he> which of the red colors is called <i>adamdam?</i>—",
+				"<cite ref=\"Shevuot 6a:10\">Shebu. 6ᵃ</cite> <i>reddish leprosy</i> (<cite ref=\"Leviticus 13:42\">Lev. XIII, 42</cite>); a. e."
+			]
+		}
+	]
+}

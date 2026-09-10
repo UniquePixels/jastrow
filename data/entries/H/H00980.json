@@ -1,0 +1,43 @@
+{
+	"id": "H00980",
+	"slug": "חלך-1",
+	"headword": {
+		"text": "חָלַך"
+	},
+	"page": {
+		"number": 464,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H01073\"><he>חלל</he></cite>) <i>to undermine, cave, dig</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 118b\">Pes. 118ᵇ</cite> <he>שחוֹלֶדֶת בעיקרי וכ׳</he> Ms. M. (ed. as in <cite ref=\"Chullin 20b:8\">Ḥull. 20ᵇ</cite> <he>הדרה</he>) which undermines the foundations &c. V. <cite ref=\"H00330\"><he>חוּלְדָּה</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחְלִיד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00979\">same</cite>. Y. Kil. IX, 32ᶜ top <he>מַחִלִיד הב״ה … את וכ׳</he> the Lord caves the ground before them and they roll &c.; Y. Keth. XII, 35ᵇ top <he>מהלך … אל</he> (corr. acc.). ",
+					"units": [
+						"<cite ref=\"Bava Batra 19b:2\">B. Bath. 19ᵇ</cite> <he>מפני שמַחְלִידִין וכ׳</he> because their roots undermine the ground."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to pass the slaughtering knife under cover, to squeeze in</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 2:4\">Ḥull. II, 4</cite>. ",
+						"<cite ref=\"Chullin 20b\">Ib. 20ᵇ</cite>; a. fr.—",
+						"<cite ref=\"Tosefta Keilim Batra 1:5\">Tosef. Kel. B. Bath. I, 5</cite> <he>מפני שהכובס אומן מַחֲלִידוֹ לתוכו</he> (R. S. to <cite ref=\"Mishnah Kelim 21:1\">Kel. XXI, 1</cite>) because so much of it does the professional fuller fold up for inserting a rod into it (v. <cite ref=\"H00234\"><he>חוֹב</he> II</cite>, 2)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

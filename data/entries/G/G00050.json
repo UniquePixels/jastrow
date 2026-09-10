@@ -1,0 +1,30 @@
+{
+	"id": "G00050",
+	"slug": "זבליגא",
+	"headword": {
+		"text": "זַבְלִיגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַמְבְּלִיגָא"
+		},
+		{
+			"text": "זַמְלִיגָא"
+		}
+	],
+	"page": {
+		"number": 379,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זלג</he>, v. <cite ref=\"G00049\">preced.</cite>) <i>a resinous tree</i>, a species of <i>cedar</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108b\">Snh. 108ᵇ</cite>, (expl. <cite ref=\"C00464\"><he>גּוֹפֶר</he></cite>) <he>ז׳</he> Ar. s. v. <cite ref=\"A00445\"><he>אדר</he></cite> (Var. in Ar. <he>זמל׳</he>); ed. <he>זו מבליגא</he> (corr. acc.); <cite ref=\"Rosh Hashanah 23a\">R. Hash. 23ᵃ</cite> <cite ref=\"M00001\"><he>מ׳</he></cite> ed. (Ms. M. <he>זו מ׳</he>, v. Rabb. D. S. a. l. note; corr. acc.)."
+			]
+		}
+	]
+}

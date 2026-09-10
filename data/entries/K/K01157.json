@@ -1,0 +1,27 @@
+{
+	"id": "K01157",
+	"slug": "כריהא",
+	"headword": {
+		"text": "כְּרִיהָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרִיחָא"
+		}
+	],
+	"page": {
+		"number": 666,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K01097\"><he>כְּרַהּ</he></cite>) <i>sufferer</i>.—Pl. <he>כְּרִיהֵי</he>, <he>כְּרִיחֵי</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 21a\">Sabb. 21ᵃ</cite> <he>כל כ׳ דמערבא</he> Ar. (ed. <cite ref=\"B01257\"><he>בריחי</he></cite>, corr. acc.) all sufferers of Palestine, v. <cite ref=\"S01141\"><he>קִיקָיוֹן</he></cite>. Ib. 145ᵇ <he>כריחי</he> ed. Sonc. (ed. <cite ref=\"B00002\"><he>ב׳</he></cite>; Ms. Rashi <he>כְּרִיכֵי</he>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

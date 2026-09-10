@@ -1,0 +1,47 @@
+{
+	"id": "A00889",
+	"slug": "אוריין-1",
+	"headword": {
+		"text": "אוֹרְיָין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹרְיָאן"
+		}
+	],
+	"page": {
+		"number": 34,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. <cite ref=\"A00888\">same</cite>; ",
+			"units": []
+		},
+		{
+			"gloss": " the Law. ",
+			"units": [
+				"<cite ref=\"Shabbat 31b:2\">Sabb. 31ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 88a:4\">Ib. 88ᵃ</cite> <he>א׳ תליתאי</he> the threefold law (Pentat., Proph., Hagiogr.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>scholarship, authority to teach and judge</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 12a:28\">Ber. 12ᵃ</cite> <he>בר אוריאן</he> ed. (Ms. M. <he>אוריא</he>); v. <cite ref=\"A00888\">foreg.</cite> w.—["
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " *<i>authority, office</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 50:2\">Gen. R. s. 50</cite> <he>בית אוריין</he> ed. (Ar. <cite ref=\"M01329\"><he>מיתורין</he></cite>, <cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite> <cite ref=\"M03037\"><he>מתורין</he></cite>) <i>place of office</i>. V. <cite ref=\"M01329\"><he>מִיתוֹרְיִין</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

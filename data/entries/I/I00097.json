@@ -1,0 +1,29 @@
+{
+	"id": "I00097",
+	"slug": "טגן",
+	"headword": {
+		"text": "טָגַן"
+	},
+	"page": {
+		"number": 520,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"I00311\"><he>טִיגֵּן</he></cite>, v. <cite ref=\"I00311\"><he>טִיגָּן</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

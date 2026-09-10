@@ -1,0 +1,31 @@
+{
+	"id": "H00737",
+	"slug": "חיין",
+	"headword": {
+		"text": "חַיִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַיֵּי"
+		},
+		{
+			"text": "חַיַּיָּא"
+		}
+	],
+	"page": {
+		"number": 455,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H00736\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 45:28\">Targ. Y. II, Gen. XLV, 28</cite>. ",
+				"<cite ref=\"Onkelos Genesis 2:7\">Targ. Gen. II, 7</cite>. ",
+				"<cite ref=\"Onkelos Genesis 2:9\">Ib. 9</cite> (Y. ed. Amst. <cite ref=\"H00719\"><he>חַיָּיא</he></cite>); a. fr.—Y. Ab. Zar. III, 42ᶜ top <he>חייא דאהן וכ׳</he> Oh, what a (blessed) life that man has led that &c.; <cite ref=\"Jerusalem Talmud Peah 1:1:31\">Y. Peah I, 15ᵈ</cite> <cite ref=\"H00683\"><he>חיוי</he></cite> (corr. acc.; <cite ref=\"Bereishit Rabbah 59:4\">Gen. R. s. 59</cite> <he>חמון וכ׳</he>). ",
+				"<cite ref=\"Bava Batra 58b:2\">B. Bath. 58ᵇ</cite> <he>בראש כל חיין אנא חמר</he> at the head of all life-giving things, am I, the wine. ",
+				"<cite ref=\"Shabbat 67b:15\">Sabb. 67ᵇ</cite> (drinking toast) <he>חמרא וח׳ וכ׳</he> wine and health to our teachers!; a. fr."
+			]
+		}
+	]
+}

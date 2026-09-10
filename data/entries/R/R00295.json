@@ -1,0 +1,44 @@
+{
+	"id": "R00295",
+	"slug": "ציבור-1",
+	"headword": {
+		"text": "צִיבּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִבּ׳"
+		}
+	],
+	"page": {
+		"number": 1274,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>צִבֻּר</he>; <cite ref=\"R00068\"><he>צָבַר</he></cite>)<i>heap, pile</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 10a:2\">Pes. 10ᵃ</cite> <he>צ׳ אחד של חמץ</he> one pile of leavened matter.—Pl. <he>צִיבּוּרִים</he>, <he>צִיבּוּרִין</he>, <cite ref=\"R00295\"><he>צִבּ׳</he></cite>. ",
+				"<cite ref=\"Pesachim 9b:13\">Ib. 9ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite> <he>עשה צ׳ וכ׳</he> he put up piles of sand and brought sieves &c.; <cite ref=\"Yalkut Shimoni on Torah 62:20\">Yalk. ib. 62</cite>, end; Yalk. Neh. 1071, v. <cite ref=\"R00070\"><he>צֶבֶר</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Metzia 2:2\">B. Mets. II, 2</cite> <he>צִבּוּרֵי פירות</he> fruit in piles; <he>צ׳ מעות</he> coins in piles. ",
+				"<cite ref=\"Jerusalem Talmud Peah 6:4:1\">Y. Peah VI, 19ᶜ</cite> bot. (ref. to <he>ציבורי זיתים</he>, ib. VI, 5) <he>מה בין הצ׳ מה בין הזיתים</he> what difference is there whether there are piles of olives or olives (not piled up)?; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>congregation, community</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 5:5\">Ber. V, 5</cite> <he>ואם שליח צ׳ הוא</he> and if it happened to him as a deputy of the congregation (public reader of prayers). ",
+				"<cite ref=\"Rosh Hashanah 18a:10\">R. Hash. 18ᵃ</cite> <he>גזר דין של צ׳</he> an evil decree concerning a community, opp. <cite ref=\"J00284\"><he>יחיד</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 2:2\">Ab. II, 2</cite>, v. <cite ref=\"P00896\"><he>עָמֵל</he></cite>. ",
+				"<cite ref=\"Sotah 40a:13\">Sot. 40ᵃ</cite> <he>אימת צ׳</he> the fear (respect) of the assembled congregation. ",
+				"<cite ref=\"Berakhot 8a:1\">Ber. 8ᵃ</cite> <he>בשעה שהצ׳ מתפללין</he> when the congregation is in prayer. ",
+				"<cite ref=\"Mishnah Zevachim 5:3\">Zeb. V, 3</cite> <he>חטאת הצ׳</he> communal sin-offerings; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

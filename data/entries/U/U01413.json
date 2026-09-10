@@ -1,0 +1,33 @@
+{
+	"id": "U01413",
+	"slug": "שמאל-2",
+	"headword": {
+		"text": "שמאל"
+	},
+	"page": {
+		"number": 1591,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"J00419\"><he>הִשְׂמְאִיל</he></cite> (b. h.) <i>to go to the left; to be on the left side, go wrong</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 63a:18\">Sabb. 63ᵃ</cite> <he>למַשְׂמְאִילִים בה</he> to those who make the wrong use of it, v. <cite ref=\"J00419\"><he>יָמַן</he></cite>. ",
+						"<cite ref=\"Shabbat 88b:4\">Ib. 88ᵇ</cite> <he>למשמאילים בה</he> (Ms. M. <he>דלא איימין ליה</he>, v. <he>וְמַן</he>). ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:9:1\">Cant. R. to I, 9</cite> <he>אלו … ואלו משמאילים</he> those (pleading in favor of the accused) stand to the right, and those (against the accused) to the left; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

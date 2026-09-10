@@ -1,0 +1,28 @@
+{
+	"id": "A00180",
+	"slug": "אבנתא",
+	"headword": {
+		"text": "אֲבַנְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹבַנְתָּא"
+		}
+	],
+	"page": {
+		"number": 8,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בין</he>) <i>understanding, speculation</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 24b\">Meg. 24ᵇ</cite> <he>בא׳ דל׳ תלי</he> (Ms. M. <he>באוב׳</he>) it depends on the speculative faculty (not on the physical sight). ",
+				"<cite ref=\"Avodah Zarah 28b:11\">Ab. Zar. 28ᵇ</cite> <he>באו׳ דל׳ תלי</he> (Ms. M. <he>בליבא תליא</he>, cmp. Tosaf. a. l.) an affection of the eye-sight is connected with (has influence on) the mental faculties; (oth. opin., cmp. <cite ref=\"A00174\"><he>אֹבֶן</he></cite>, <i>the fat surrounding the heart</i>)."
+			]
+		}
+	]
+}

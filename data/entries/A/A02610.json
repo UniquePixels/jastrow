@@ -1,0 +1,29 @@
+{
+	"id": "A02610",
+	"slug": "אפוזייני",
+	"headword": {
+		"text": "אֲפוּזְיָינֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אָפְזְיָינֵי"
+		}
+	],
+	"page": {
+		"number": 100,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (ὀψιανός, sub λίθος, obsianus) <i>obsidian beads</i> [Rashi: <i>of gold</i>, thinking of <cite ref=\"Q00420\"><he>פז</he></cite>]. ",
+			"units": [
+				"<cite ref=\"Shabbat 57b:11\">Sabb. 57ᵇ</cite> Ms. M. <he>אפוז׳</he> (ed. <cite ref=\"A02609\"><he>אפוזיינו</he></cite>, Ar. s. v. <he>אָבְז׳ אב</he>; Var. in Mss. <he>אפד׳</he>, <he>אפיד׳</he>, v. Rabb. D. S. a. l.), expl. <cite ref=\"I00149\"><he>טוטפת</he></cite>, of Mish., contrad. to <he>חומרתא דקטיפתא</he> balsam beads, v. <cite ref=\"H00396\"><he>חוּמַרְתָּא</he></cite>. V. <cite ref=\"A02759\"><he>אָפְסְיָין</he></cite>."
+			]
+		}
+	]
+}

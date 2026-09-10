@@ -1,0 +1,26 @@
+{
+	"id": "M02296",
+	"slug": "מצוקים",
+	"headword": {
+		"text": "מְצוּקִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְצוּקִין"
+		}
+	],
+	"page": {
+		"number": 824,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"M02351\"><he>מָצַק</he></cite>) <i>mortals</i>, v. <cite ref=\"J00547\"><he>יָצַק</he></cite>.",
+			"units": []
+		}
+	]
+}

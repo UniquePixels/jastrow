@@ -1,0 +1,30 @@
+{
+	"id": "N00121",
+	"slug": "נגדא-2",
+	"headword": {
+		"text": "נִגְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 872,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00118\"><he>נְגַד</he></cite>; = b. h. <cite ref=\"M02890\"><he>מֶשֶׁךְ</he></cite>) <i>load, freight</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 126:6\">Targ. Ps. CXXVI, 6</cite> (Ms. <cite ref=\"N01158\"><he>נוּ׳</he></cite>, ed. Lag. <cite ref=\"M01772\"><he>נִי׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 28:18\">Targ. Job XXVIII, 18</cite>."
+			],
+			"label": "1"
+		}
+	]
+}

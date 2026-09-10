@@ -1,0 +1,48 @@
+{
+	"id": "Q02017",
+	"slug": "פרר-1",
+	"headword": {
+		"text": "פָּרַר"
+	},
+	"page": {
+		"number": 1241,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to break</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פֵּרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to crumble</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 10b:4\">Pes. 10ᵇ</cite> <he>דרכו של תינוק לפָרֵר</he> it is a child’s way to crumble bread (and leave it on the ground). ",
+						"<cite ref=\"Mishnah Pesachim 2:1\">Ib. II, 1</cite> <he>מְפָרֵר וזורה וכ׳</he> he may crumble (the leavened bread) and cast it to the wind; a. fr.—",
+						"<cite ref=\"Tosefta Shevi'it 6:29\">Tosef. Shebi. VI, 29</cite> <he>מְפָרְרִין</he>, v. <cite ref=\"Q02017\"><he>פָּרַר</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵפֵר", "הֵיפֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to break, destroy; to thwart</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 3:11\">Ab. III, 11</cite> <he>המֵפֵר בריתו וכ׳</he> he that breaks the Abrahamitic covenant (omits or effaces circumcision, v. <cite ref=\"M02892\"><he>מָשַׁךְ</he></cite>). ",
+						"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> (play on <cite ref=\"Q02043\"><he>פֹּרָת</he></cite>, <cite ref=\"Genesis 49:22\">Gen. XLIX, 22</cite>) <he>בן שה׳ לאחיו</he> the son that broke (faith) with his brothers; <cite ref=\"Genesis 49:22\">ib.</cite> <he>שהֵפֵירוּ לו אחיו</he> to whom his brothers were faithless; <cite ref=\"Genesis 49:22\">ib.</cite> <he>שה׳ לאדונתו</he>, v. <cite ref=\"A00386\"><he>אֲדוֹנָה</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite> (play on <cite ref=\"Q02041\"><he>פְּרָת</he></cite>, <cite ref=\"Genesis 2:14\">Gen. II, 14</cite>) <he>פרת שהֵפֵירָה והצירה לבניו</he> Edom (Rome) is called P’rath, because she broke faith with, and distressed his (God’s) children (Var. <he>לפניו</he>); <he>שאני עתיד להָפֵר לה</he> because I (the Lord) shall in the end thwart her plans; Yalk. ib. 22; a. fr.—Esp. <i>to make void; to disallow a vow</i> (<cite ref=\"Numbers 30:2-16\">Num. XXX, 2-16</cite>). ",
+						"<cite ref=\"Mishnah Nedarim 10:1\">Ned. X, 1</cite> <he>אביה ובעלה מְפִירִין וכ׳</he> both her father and her husband must declare her vow void; <he>ה׳ האב וכ׳</he> if only the father protested, and the husband did not. Ib. 2 <he>הבעל מֵפֵר בבגר וכ׳</he> in the case of an adult the husband has the right of disallowing, but not the father. Ib. 4 <he>אינו יכול להָפֵר</he> he has no power to disallow her vows. Ib. 5 <he>יָפֵר</he> he has the power &c. Ib. 72ᵃ, a. e. <he>אין הבעל מֵיפֵר בקודמין</he> the husband cannot invalidate vows made before marriage. Ib. XI, 12 (90ᵇ) <he>יָפֵר</he> (<cite ref=\"L00000\"><he>ל</he></cite>)<he>חלקי</he> he may invalidate her vow for his share (as far as it concerns him). Ib. 7 <he>איני יודע שוש מפירין</he> I did not know that there are invalidating powers (vested in the husband); a. v. fr.—Part. pass. <he>מוּפָר</he>; pl. <he>מוּפָרִין</he>. Ib. X, 1 <he>אינו מ׳</he> her vow is not made void. Ib. 4 <he>כל נדרים … הרי הן מ׳</he> whatever vows thou mayest have made in my house, shall be void. Ib. 77ᵇ <he>מ׳ ליכי</he> thy vow is void; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

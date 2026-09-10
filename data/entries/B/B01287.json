@@ -1,0 +1,90 @@
+{
+	"id": "B01287",
+	"slug": "ברך-1",
+	"headword": {
+		"text": "בָּרַךְ"
+	},
+	"page": {
+		"number": 195,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בר</he>, v. <he>ברר</he>, <cite ref=\"B01237\"><he>ברי</he></cite>)<i>to cave out</i>. Denom. <cite ref=\"B01268\"><he>בְּרֵכָה</he></cite>, <cite ref=\"B01289\"><he>בֶּרֶךְ</he></cite>; cmp. <cite ref=\"B00367\"><he>בּוּרְכָּא</he></cite>, <cite ref=\"B00370\"><he>בּוּרְכְּתָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>ברר</he>) <i>to select, point out</i> (cmp. esp. ",
+			"units": [
+				"<cite ref=\"Genesis 2:3\">Gen. II, 3</cite>) whence <i>to bless</i> (Pi.).—Part. pass. <cite ref=\"B01196\"><he>בָּרוּךְ</he></cite> <i>chosen, blessed, praised</i>. <he>הקדוש ב׳ הוא</he> (abbr. <he>הקב״ה</he>) the Holy One, blessed be He. ",
+				"<cite ref=\"Pesachim 118a\">Pes. 118ᵃ</cite>; a. v. fr. ",
+				"<cite ref=\"Pesachim 104b\">Ib. 104ᵇ</cite>, a. fr. <he>פותח בב׳ וכ׳</he> he (who prays) opens the benediction with <i>barukh</i> and closes with <i>barukh</i> (i.e. <he>ברוך אתה ה׳</he>). ",
+				"<cite ref=\"Tosefta Sotah 1:10\">Tosef. Sot. I, 10</cite> <he>ב׳ בכלל</he>, v. <cite ref=\"K00760\"><he>כְּלָל</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בֵּרַךְ", "בֵּירַךְ"],
+			"senses": [
+				{
+					"gloss": " (b. h.) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to praise, bless</i>, esp. <i>to recite the due benediction</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 6:1\">Ber. VI, 1</cite>. ",
+						"<cite ref=\"Mishnah Berakhot 6:5\">Ib. 5</cite> <he>בי׳ על היין</he> having recited the blessing over wine &c. ",
+						"<cite ref=\"Mishnah Pesachim 10:9\">Pes. X, 9</cite> <he>ב׳ ברכת הפסח</he> having recited the blessing over the Paschal lamb. ",
+						"<cite ref=\"Mishnah Pesachim 10:5\">Ib. 5</cite> <he>אנחנו חייבים … לְבָרֵךְ</he> we are bound to … praise &c.; a. v. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <he>נקב</he>) <i>to blaspheme</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 56a:4\">Snh. 56ᵃ</cite> <he>עד שֶיְבָרֵךְ שם בשם</he> until he blasphemes the Lord by His name. ",
+						"<cite ref=\"Sanhedrin 56a:19\">Ib.</cite> <he>שבי׳ את השם בכינוי</he> who blasphemed the Lord by an attribute.—Part. Pu. <he>מְבוֹרָךְ</he> <i>blessed, praiseworthy</i>. ",
+						"<cite ref=\"Mishnah Berakhot 7:3\">Ber. VII, 3</cite>; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " *<i>to cut through, to clear virgin ground</i> or <i>forest</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shevi'it 3:20\">Tosef. Shebi. III, 20</cite> ed. Zuck. (Var. <he>מגדר</he>); Y. ib. IV, 35ᵇ bot. <he>מבדין</he>; Y. Sabb. VII, 10ᵃ top <he>המברה</he>, v. <cite ref=\"B00170\"><he>בהי</he></cite> h. [<cite ref=\"Tosefta Shevi'it 1:6\">Tosef. Shebi. I, 6</cite> <he>מבורכות</he>, v. infra.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְבָּרֵךְ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְבָּרֵךְ</he> <i>to be blessed</i> (<i>praised</i>); <i>to be increased</i> (v. <cite ref=\"B01292\"><he>בְּרָכָה</he></cite>). Y. Ber. IX, 14ᵃ top <he>ויִתְבָּרַךְ</he> and be blessed. Y. M. Kat. I, beg. 80ᵃ if the waters were scanty <he>ונִתְבָּרְכוּ</he> and grew plentiful. ",
+					"units": ["<cite ref=\"Yevamot 63a\">Yeb. 63ᵃ</cite>; a. fr."]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["הִבְרִיךְ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"B01289\"><he>בֶּרֶךְ</he></cite> or <cite ref=\"B01267\"><he>בְּרִיכָה</he></cite>) <i>to form a knee, to engraft;</i> esp. <i>to bend a vine by drawing it into the ground and making it grow forth as an independent plant, to sink</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 2:6\">Shebi. II, 6</cite>; <cite ref=\"Rosh Hashanah 10b\">R. Hash. 10ᵇ</cite>; a. fr.—",
+						"<cite ref=\"Tosefta Shevi'it 1:6\">Tosef. Shebi. I, 6</cite> <he>אם היו מוּבְרָכוֹת</he> (incorr. <he>מבורכ׳</he>) if they have been sunk before New Year &c.—",
+						"<cite ref=\"Yevamot 63a:6\">Yeb. 63ᵃ</cite> (allud. to <cite ref=\"Genesis 12:3\">Gen. XII, 3</cite>) <he>שתי ברכית טובות יש לי להַבְרִיךְ בך</he> two good shoots (proselytes) have I to engraft on thee, Ruth and &c. (<cite ref=\"Bava Kamma 38b\">B. Kam. 38ᵇ</cite> … <he>פרידות וכ׳</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

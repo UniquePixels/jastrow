@@ -1,0 +1,23 @@
+{
+	"id": "M00870",
+	"slug": "מחיצא-1",
+	"headword": {
+		"text": "מְחִיצָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 760,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"H00744\"><he>חַיִיץ</he></cite>, <i>a wall of loosely piled stones</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:10\">Targ. Ez. XIII, 10</cite>, sq. (ed. Lag. <cite ref=\"M01121\"><he>מיחצא</he></cite>, Regia <cite ref=\"M00919\"><he>מחצא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "V00729",
+	"slug": "תנויין",
+	"headword": {
+		"text": "תְּנוּיִין"
+	},
+	"page": {
+		"number": 1680,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>תְּנֵי</he> II) <i>sharp speech, by-word</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:37\">Targ. Y. Deut. XXVIII, 37</cite> (h. text <he>שנינה</he>)."
+			]
+		}
+	]
+}

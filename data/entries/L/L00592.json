@@ -1,0 +1,32 @@
+{
+	"id": "L00592",
+	"slug": "לעב-1",
+	"headword": {
+		"text": "לָעַב"
+	},
+	"page": {
+		"number": 713,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"T00871\"><he>הִלְעִיב</he></cite> (b. h.; <i>to mock, talk lasciviously</i> (with <cite ref=\"B00000\"><he>ב</he></cite>).—",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Sotah 3:4:10\">Y. Sot. III, 19ᵃ</cite> <he>יושבת ומַלְעֶבֶת בדברי וכ׳</he> who sits down and quotes Biblical phrases in a lascivious manner (e. g. ",
+						"<cite ref=\"Genesis 30:16\">Gen. XXX, 16</cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

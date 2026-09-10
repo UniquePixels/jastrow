@@ -1,0 +1,33 @@
+{
+	"id": "T00888",
+	"slug": "רעותא",
+	"headword": {
+		"text": "רְעוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְעוּ"
+		}
+	],
+	"page": {
+		"number": 1486,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"T00894\"><he>רַעֲוָא</he> I</cite>, <i>pleasure, will; good will; ambition</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:2\">Targ. Prov. XII, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 23:8\">Targ. Y. Gen. XXIII, 8</cite> (O. <cite ref=\"T00884\"><he>רעוא</he></cite>); a. fr.—",
+				"<cite ref=\"Aramaic Targum to Psalms 107:30\">Targ. Ps. CVII, 30</cite> <he>רְעוּתְהוֹן</he> Ms. (ed. <he>רַעֲיָיתְ׳</he>, <he>רַעֲיָתְ׳</he>).—Constr. frequ. <he>רַעֲוַת</he>, <he>רַעֲוַות</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 23:20\">Targ. I Sam. XXIII, 20</cite> (h. text <cite ref=\"A00939\"><he>אַוַּת</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 145:18\">Targ. Ps. CXLV, 18</cite> <he>רעוות</he> Ms. (ed. <cite ref=\"T00886\"><he>רְעוּת</he></cite>); a. e.—",
+				"<cite ref=\"Sanhedrin 7b:10\">Snh. 7ᵇ</cite> <he>ברְעוּת נפשיה</he> of his own free will, v. <cite ref=\"R00024\"><he>צְבוּ</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 3:1\">Lev. R. s. 3</cite> (ref. to <he>רעות רוח</he>, <cite ref=\"Ecclesiastes 4:6\">Koh. IV, 6</cite>) <he>רְעוּתֵיה דמתקרי וכ׳</he> it is his ambition to be called &c.; a. fr."
+			]
+		}
+	]
+}

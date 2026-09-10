@@ -1,0 +1,29 @@
+{
+	"id": "M00481",
+	"slug": "מוכססים",
+	"headword": {
+		"text": "מוֹכְסָסִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹכְסָסִין"
+		}
+	],
+	"page": {
+		"number": 742,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. a species of <i>figs</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 8a:14\">Bekh. 8ᵃ</cite> (inferior to <he>בנות שוח</he>). ",
+				"<cite ref=\"Avodah Zarah 14a:1\">Ab. Zar. 14ᵃ</cite> (Ms. M. <he>מוכסין</he>; Ar. <cite ref=\"M00091\"><he>מבססין</he></cite>)."
+			]
+		}
+	]
+}

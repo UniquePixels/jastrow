@@ -1,0 +1,21 @@
+{
+	"id": "P00317",
+	"slug": "עופא-1",
+	"headword": {
+		"text": "עוֹפָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 1055,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>‘Ofa</i>, name of a gate of Jerusalem. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zephaniah 1:10\">Targ. Zeph. I, 10</cite> (h. text <cite ref=\"M02939\"><he>משנה</he></cite>, v. <cite ref=\"P00311\"><he>עוּף</he> I</cite>; Kimḥi reads: <cite ref=\"P01068\"><he>עָפְלָא</he></cite>, v. <cite ref=\"P00319\"><he>עוֹפֶל</he></cite>)."
+			]
+		}
+	]
+}

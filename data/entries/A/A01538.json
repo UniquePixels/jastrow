@@ -1,0 +1,24 @@
+{
+	"id": "A01538",
+	"slug": "איפומא",
+	"headword": {
+		"text": "אִיפּוּמָא"
+	},
+	"page": {
+		"number": 58,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q00246\"><he>פומא</he></cite>) <i>mouth, orifice</i>, esp. <i>sky-light</i> (impluvium). ",
+			"units": [
+				"<cite ref=\"Eruvin 100a:6\">Erub. 100ᵃ</cite> <he>דהוה סליק בא׳</he> Ms. M. (ed. <he>והוה</he>) (a palm-tree) which grew up through the impluvium. ",
+				"<cite ref=\"Kiddushin 81a\">Kidd. 81ᵃ</cite>. ",
+				"<cite ref=\"Chullin 51a\">Ḥull. 51ᵃ</cite>"
+			]
+		}
+	]
+}

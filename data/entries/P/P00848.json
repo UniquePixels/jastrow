@@ -1,0 +1,26 @@
+{
+	"id": "P00848",
+	"slug": "עם-2",
+	"headword": {
+		"text": "עִם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִים"
+		}
+	],
+	"page": {
+		"number": 1086,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00847\">same</cite> <cite ref=\"Onkelos Genesis 25:11\">Targ. O. Gen. XXV, 11</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 54:2\">Targ. Ps. LIV, 2</cite> <he>עִימָּנָא</he> Ms. (ed. <cite ref=\"C00114\"><he>גַּבָּן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 32:6\">Targ. Job XXXII, 6</cite> <he>עִימְּכוֹן</he> Ms. (ed. <he>יַתְכוֹן</he>); a. fr."
+			]
+		}
+	]
+}

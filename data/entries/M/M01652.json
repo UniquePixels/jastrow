@@ -1,0 +1,27 @@
+{
+	"id": "M01652",
+	"slug": "ממון-2",
+	"headword": {
+		"text": "מָמוֹן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מָמוֹנָא"
+		}
+	],
+	"page": {
+		"number": 794,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M01651\">same</cite> <cite ref=\"Onkelos Genesis 37:26\">Targ. Gen. XXXVII, 26</cite> <he>מה מ׳</he> (Y. <he>הניית מ׳</he>; h. taxt <he>מה בצע</he>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:30\">Targ. Ex. XXI, 30</cite> (h. text <cite ref=\"K01048\"><he>כֹּפֶר</he></cite>); a. fr.—",
+				"<cite ref=\"Bava Kamma 15a:12\">B. Kam. 15ᵃ</cite> <he>פלגא נזקא מ׳</he> the payment of ‘half-damage’ is considered as a due indemnity, opp. <cite ref=\"S01606\"><he>קנסא</he></cite> penalty. ",
+				"<cite ref=\"Bava Kamma 108a:10\">Ib. 108ᵃ</cite> <he>תרי גווני מ׳</he> two kinds of indemnity (for the same action); <cite ref=\"Bava Kamma 108a:10\">ib.</cite> <he>תרי ממונא</he> two indemnities; a. fr."
+			]
+		}
+	]
+}

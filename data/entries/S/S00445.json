@@ -1,0 +1,32 @@
+{
+	"id": "S00445",
+	"slug": "קונכי",
+	"headword": {
+		"text": "קוֹנְכִי"
+	},
+	"page": {
+		"number": 1335,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κόγχη) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mussel, shell, pearl oyster;</i> also <i>pearl</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a vessel for oil, unguents</i> &c. Y’lamd. to Num. VIII, 2, quot. in Ar. <he>מנורה של ברזל ק׳ של נחושת</he> an iron candlestick, a bronze bowl.—<i>Pl.</i> same (conchæ). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite> (expl. <he>מגדנות</he>, <cite ref=\"Genesis 24:53\">Gen. XXIV, 53</cite>) <he>ק׳</he> Ar. (ed. <cite ref=\"S00414\"><he>קונבי</he></cite>) <i>pearls</i> (?); Yalk. ib. 109 <cite ref=\"S00452\"><he>קונפי</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

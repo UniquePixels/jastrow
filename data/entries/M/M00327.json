@@ -1,0 +1,22 @@
+{
+	"id": "M00327",
+	"slug": "מדרא-2",
+	"headword": {
+		"text": "מַדְרָא"
+	},
+	"page": {
+		"number": 735,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transpos. of <cite ref=\"M02535\"><he>מרדא</he></cite>, <cite ref=\"T00242\"><he>רְדֵי</he></cite>; cmp. <cite ref=\"M00326\">preced.</cite>) <i>chastising whip</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 23a:9\">Yoma 23ᵃ</cite> (Ms. L. <he>מרתעא</he>; Ar. s. v. <he>דר</he><sup>3</sup>: <cite ref=\"M00261\"><he>מדוורתא</he></cite>; Ms. O. <he>מתעורתא</he>, v. Rabb. D. S. a. l. note 8), v. <cite ref=\"Q01488\"><he>פְּקִיעַ</he> I</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "T00998",
+	"slug": "רצפה",
+	"headword": {
+		"text": "רִצְפָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1495,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. Baer to <cite ref=\"Ezekiel 40\">Ez. XL</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>block pavement</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 22b:11\">Meg. 22ᵇ</cite> (ref. to <cite ref=\"Leviticus 26:1\">Lev. XXVI, 1</cite> <he>אבן משכית</he>) <he>לא אסרה תורה אלא ר׳ של וכ׳</he> the Torah forbids only prostration on a stone pavement (in a synagogue). ",
+				"<cite ref=\"Mishnah Shekalim 6:2\">Shek. VI, 2</cite>; Y. ib. 49ᶜ a priest was splitting wood in the wood cell of the Temple <he>וראה את הר׳ וכ׳</he> and noticed that the pavement there was different from the others. Y. Naz. VII, 56ᵇ bot. <he>הנקבר ערום בארון … או ע״ג רי׳ וכ׳</he> a body buried naked in a marble coffin, or on a paved floor, or on a marble plate; Bab. ",
+				"<cite ref=\"Nazir 51a:1\">Naz. 51ᵃ</cite>. ",
+				"<cite ref=\"Nazir 51a:1\">Ib.</cite> <he>ר׳ של לבנים</he> brick pavement. ",
+				"<cite ref=\"Mishnah Yoma 1:7\">Yoma I, 7</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (from its resemblance to a block pavement) <i>cobweb</i>.—Pl. <he>רִצְפוֹת</he> <cite ref=\"Mishnah Oktzin 1:2\">Ukts. I, 2</cite> (Ar. <cite ref=\"T00999\"><he>רִצְפִית</he></cite>); Tosef. ib. I, 2 (<cite ref=\"Mishnah Tevul Yom 3\">T’bul Yom III</cite>), v. <cite ref=\"O00550\"><he>סִיג</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

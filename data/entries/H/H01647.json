@@ -1,0 +1,42 @@
+{
+	"id": "H01647",
+	"slug": "חרז-2",
+	"headword": {
+		"text": "חֲרַז"
+	},
+	"page": {
+		"number": 500,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01646\">same</cite><i>to sting, perforate</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 75b:1\">Yeb. 75ᵇ</cite> top <he>חַרְזֵיה סילוא וכ׳</he> a thorn wounded him &c. ",
+				"<cite ref=\"Avodah Zarah 28b:13\">Ab. Zar. 28ᵇ</cite> <he>זיבורא ודחרזיה וכ׳</he> he who suffers from the sting of a wasp, or of a thorn."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to string beads;</i> trnsf. <i>to compare verses</i> (v. <cite ref=\"H01646\">preced.</cite>). ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:10\">Cant. R. to I, 10</cite> <he>אית דידע למֶיחֲרוֹז וכ׳</he> some know how to string but not how to bore pearls, i.e. some know how to bring on parallels without having the ability to enter into the depth of a subject."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחֲריז"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to sting, to prickle</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 84a\">Gitt. 84ᵃ</cite> <he>מַחֲרֵיז</he> Ar., v. <cite ref=\"B01216\"><he>בְּרַז</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

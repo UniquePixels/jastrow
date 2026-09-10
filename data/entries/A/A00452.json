@@ -1,0 +1,24 @@
+{
+	"id": "A00452",
+	"slug": "אדרגזריא",
+	"headword": {
+		"text": "אֲדַרְגָּזְרַיָּא"
+	},
+	"page": {
+		"number": 18,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. Schr. K. A. T. p. 617 sq.; cmp. <cite ref=\"A00445\"><he>אדר</he></cite> a. <he>גזר</he>) <i>title of high officers</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 3:3\">Dan. III, 3</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:9:1\">Cant. R. to VII, 9</cite> <he>א׳ איפרכיא</he> <i>adarg</i>. means <i>governors</i>"
+			]
+		}
+	]
+}

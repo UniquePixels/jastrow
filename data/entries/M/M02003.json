@@ -1,0 +1,35 @@
+{
+	"id": "M02003",
+	"slug": "מסקנא",
+	"headword": {
+		"text": "מַסְקָנָא"
+	},
+	"page": {
+		"number": 810,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00958\"><he>נְסַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ascent, height, steps</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 9:11\">Targ. I Sam. IX, 11</cite> (ed. Lag. <cite ref=\"M02001\"><he>מַסְקָאנָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 38:8\">Targ. Is. XXXVIII, 8</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>final result, upshot</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 14b:2\">Meg. 14ᵇ</cite> <he>ומ׳ הכי הואי</he> and so it finally came to pass."
+			],
+			"label": "2"
+		}
+	]
+}

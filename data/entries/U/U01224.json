@@ -1,0 +1,48 @@
+{
+	"id": "U01224",
+	"slug": "שלהי-1",
+	"headword": {
+		"text": "שַׁלְהֵי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1578,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <cite ref=\"L00165\"><he>לְהֵי</he></cite>) <i>to weary</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:5\">Targ. Lam. III, 5</cite> <he>וש׳ אינון</he> = <he>ושַׁלְהֵיאִינוּן</he> and wearied them (h. text <he>ותלאה</he>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:65\">Ib. 65</cite> (not <cite ref=\"U01223\"><he>שלחי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 16:7\">Targ. Job XVI, 7</cite> <he>שַׁלְהֲיַינִי</he> (ed. Wil. <he>שילהיני</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:6\">Targ. Is. XXXII, 6</cite>; a. e.—Part. pass. <cite ref=\"M02914\"><he>מְשַׁלְהֵי</he></cite>; f. <he>מְשַׁלְהֲיָא</he>, <he>מְשַׁלְהִיתָא</he>; pl. <he>מְשַׁלְהִין</he>, <he>מְשַׁלְהֲיָין</he>, <he>מְשַׁלְהַן</he>. ",
+				"<cite ref=\"Onkelos Genesis 25:29\">Targ. Gen. XXV, 29</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 44:12\">Targ. Is. XLIV, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 41:17\">Ib. XLI, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:25\">Targ. Prov. XXV, 25</cite> (ed. Wil. <he>מְשַׁלְהֲתָא</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 25:18\">Targ. Deut. XXV, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 8:4\">Targ. Jud. VIII, 4</cite>, sq.; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 24:4\">Gen. R. s. 24</cite> (transl. <he>יעטוף</he>, <cite ref=\"Isaiah 57:16\">Is. LVII, 16</cite>) <he>מש׳ ליה</he> it (the wind) gets tired; <cite ref=\"Jerusalem Talmud Berakhot 9:2:9\">Y. Ber. IX, 13ᵈ</cite> top; <cite ref=\"Kohelet Rabbah 1:6\">Koh. R. to I, 6</cite>; <cite ref=\"Yalkut Shimoni on Nach 219\">Yalk. Kings 219</cite> <cite ref=\"M02914\"><he>משלהי</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 3:9\">Koh. R. to III, 9</cite> <he>הוה עליל מש׳ מש׳ וכ׳</he> he used to come around exhausted (thirsty) and take it &c.—",
+				"<cite ref=\"Moed Katan 2a\">M. Kat. 2ᵃ</cite> (quot. fr. ",
+				"<cite ref=\"Onkelos Deuteronomy 25:18\">Targ. O. Deut. XXV, 18</cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּלְהֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be wearied, faint</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 102:1\">Targ. Ps. CII, 1</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 68:10\">Ib. LXVIII, 10</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ishtaf."
+		}
+	]
+}

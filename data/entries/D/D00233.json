@@ -1,0 +1,40 @@
+{
+	"id": "D00233",
+	"slug": "דוי-2",
+	"headword": {
+		"text": "דוי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּוָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 284,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00232\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:17\">Targ. Jer. XLVIII, 17</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִירְּוִי"],
+			"senses": [
+				{
+					"gloss": "<i>to feel pain, groan</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 51a\">Ḥull. 51ᵃ</cite> <he>מִידְּווּ וקיימי</he> they groan constantly."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

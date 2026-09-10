@@ -1,0 +1,87 @@
+{
+	"id": "D00634",
+	"slug": "דין-4",
+	"headword": {
+		"text": "דִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּן"
+		}
+	],
+	"page": {
+		"number": 301,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00633\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 20:40\">Targ. I Kings XX, 40</cite>; a. e.—<i>Part.</i> <he>דָּאֵין</he>, <he>דָּיֵין</he>, <cite ref=\"D00633\"><he>דָּיֵן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 16:5\">Targ. Is. XVI, 5</cite>. ",
+				"<cite ref=\"Onkelos Exodus 18:16\">Targ. O. Ex. XVIII, 16</cite> <he>דָּאֵינָא</he> ed. Berl. (Var. <he>דָּאִיְנָא</he>, <he>דָּאִינְנָא</he>, v. Berl. Targ. O. II, p. 25; Y. <cite ref=\"D00561\"><he>דָּיֵינָא</he></cite>).—Ib. <he>מִידַן</he>, <he>מֵידוּן</he>. Targ. O. ib. 13 <cite ref=\"L00573\"><he>לְמִידַן</he></cite> (ed. Berl. <he>לִמְדַּן</he>, Y. <he>למֵידוּן</he>); a. e.—Y. Snh. I, 18ᵃ bot. <he>יתיב דָּיֵין וכ׳</he> sat holding court single-handed. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>הוו דָּיְינִין קומי וכ׳</he> had a law-suit before &c. ",
+				"<cite ref=\"Ketubot 27b:12\">Keth. 27ᵇ</cite> <he>דָּאִינְנָא</he> I decide (v. supra). ",
+				"<cite ref=\"Bava Batra 29a\">B. Bath. 29ᵃ</cite>, v. <cite ref=\"D00561\"><he>דַּיָּינָא</he></cite>; a. fr. [<cite ref=\"Shabbat 67b\">Sabb. 67ᵇ</cite>, v. <cite ref=\"D00927\"><he>דני</he></cite>.]—<he>דּוּן מִינָּהּ ומינה</he> judge from it and (all) from it, i.e. an analogy (v. <cite ref=\"C00553\"><he>גְּזֵירָה</he></cite>) must be carried through all points so that the case deduced agrees throughout with the case from which the deduction has started, opp. <he>דון מינה ואוקי באתרה</he> judge from it and place the deduction back on its own basis, i.e. let the deduction won by analogy be regulated by the rules of the original case, e.g. ",
+				"<cite ref=\"Shevuot 31a:19\">Shebu. 31ᵃ</cite> an analogy between testimony and trust with reference to false oaths (<cite ref=\"Leviticus 5:1\">Lev. V, 1</cite> sq., a. 21 sq.). ",
+				"<cite ref=\"Yevamot 78b:9\">Yeb. 78ᵇ</cite>; <cite ref=\"Bava Kamma 25b:12\">B. Kam. 25ᵇ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּיֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to dispute, quarrel</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 15:12\">Targ. Y. Ex. XV, 12</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to decide</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 32b:6\">Shebu. 32ᵇ</cite> <he>היכי לִדַיְּינֵי דַיָּינֵי וכ׳</he> how shall the judges decide this case?; <cite ref=\"Shevuot 47a:9\">ib. 47ᵃ</cite> <he>לִידַיְּינוּ</he>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְּדָן", "אִתְדָּן"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"A01752\"><he>אִי׳</he></cite> <i>to be judged, decreed upon, punished</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 18:11\">Targ. Y. Ex. XVIII, 11</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 59:4\">Targ. Is. LIX, 4</cite>; a. fr.—",
+						"<cite ref=\"Rosh Hashanah 16a:2\">R. Hash. 16ᵃ</cite> <he>אימת אִיתְּדוּן</he> when were these sentences passed?—",
+						"<cite ref=\"Rosh Hashanah 16a:3\">Ib.</cite> <he>חד דינא מִתְדָּנָא</he> sentence is passed upon it (the grain) once only; <he>תרי דיני מתדנא</he> sentence is … twice."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִידַּיֵּין", "אִידַּיֵּן"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D00633\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 37:33\">Targ. Ps. XXXVII, 33</cite>; a. e.—2) <cite ref=\"D00633\">same</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to argue, dispute, have a law-suit with</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 22:8\">Targ. II Chr. XXII, 8</cite>; a. e.—Y. Snh. III, end, 21ᵈ [read:] <he>והוון מידַּיְּינִין וכ׳</he> and contested before &c.; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

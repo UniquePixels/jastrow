@@ -1,0 +1,23 @@
+{
+	"id": "H01089",
+	"slug": "חלמה-1",
+	"headword": {
+		"text": "חֲלָמָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 471,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H01088\">preced.</cite>) <i>joint, seam in leather;</i> cmp. <cite ref=\"H01050\"><he>חֲלִים</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 91b:11\">Sabb. 91ᵇ</cite> bot. <he>מקום ח׳</he> the place where the bag is joined (which the thief might rip to take possession of its contents)."
+			]
+		}
+	]
+}

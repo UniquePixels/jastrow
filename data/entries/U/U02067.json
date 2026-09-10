@@ -1,0 +1,26 @@
+{
+	"id": "U02067",
+	"slug": "ששת-2",
+	"headword": {
+		"text": "שֵׁשֶׁת",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1636,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Shesheth</i>, name of a renowned Babylonian Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 2:2:5\">Y. Yeb. II, 3ᶜ</cite> bot.; ib. III, 4ᵈ bot. ",
+				"<cite ref=\"Berakhot 12b:1\">Ber. 12ᵇ</cite> top. ",
+				"<cite ref=\"Berakhot 16a:15\">Ib. 16ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 58a:10\">Ib. 58ᵃ</cite> <he>רב ש׳ סגי וכ׳</he> R. Sh. was blind; a. v. fr."
+			]
+		}
+	]
+}

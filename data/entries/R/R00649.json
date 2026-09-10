@@ -1,0 +1,28 @@
+{
+	"id": "R00649",
+	"slug": "צעד-2",
+	"headword": {
+		"text": "צַעַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְעָדָה"
+		}
+	],
+	"page": {
+		"number": 1293,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"R00648\">preced.</cite>) <i>step.—</i>Pl. <he>צְעָדִים</he>, <he>צְעָדוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 17:5\">Pirké d’R. El. ch. XVII</cite> <he>עשר צ׳</he>; <cite ref=\"Yalkut Shimoni on Nach 232:2\">Yalk. Kings 232</cite> <he>עשרה צ׳</he>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 36:2\">Pirké d’R. El. ch. XXXVI</cite> (ref. to <cite ref=\"Proverbs 4:12\">Prov. IV, 12</cite>) <he>לא צרו צְעָדָיו וכ׳</he> Jacob’s steps were not straitened; <cite ref=\"Midrash Tehillim 91:5\">Midr. Till. to Ps. XCI</cite>."
+			]
+		}
+	]
+}

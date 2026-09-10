@@ -1,0 +1,28 @@
+{
+	"id": "U00425",
+	"slug": "שולטנות",
+	"headword": {
+		"text": "שׁוּלְטָנוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁלְ׳"
+		}
+	],
+	"page": {
+		"number": 1534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00424\">preced.</cite>) <i>rulership, office</i>. Y. Ab. Zar. III, beg. 42ᵇ <he>אם … שהן של ש׳</he> if it is sure that they (the images) represent officers, opp. <he>של מלכים</he> royal images (which are worshipped). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite>, end (ref. to <cite ref=\"Genesis 28:12\">Gen. XXVIII, 12</cite>) <he>אלו שרי … ששָׁלְטְנוּתָן גומרת בהן</he> that means the genii of the four empires whose power is complete through them (?).—Pl. <he>שׁוּלְטָנִיּוֹת</he>, <cite ref=\"U00425\"><he>שָׁלְ׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite> <he>היו מלכיות וש׳ רוצות וכ׳</he> (not <he>ושלטנות</he>; ed. Wil. <he>ושלטוניות</he>, corr. acc.) royalties and governorships were anxious to be connected with them, v. <cite ref=\"U01285\"><he>שִׁלְטוֹן</he></cite>."
+			]
+		}
+	]
+}

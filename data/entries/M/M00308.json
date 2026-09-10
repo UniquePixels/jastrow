@@ -1,0 +1,29 @@
+{
+	"id": "M00308",
+	"slug": "מדמכא",
+	"headword": {
+		"text": "מְדַמְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִדְמְכָא"
+		}
+	],
+	"page": {
+		"number": 734,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00900\"><he>דְּמַךְ</he></cite>) <i>sleeping</i>.—<cite ref=\"B00536\"><he>בֵּי</he></cite>(<cite ref=\"V00000\"><he>ת</he></cite>) <he>מ׳</he> <i>resting place, bed-room</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 33:15\">Targ. Job XXXIII, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 33:19\">Ib. 19</cite> (Ms. <cite ref=\"M00317\"><he>מִידְ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 2:24\">Targ. Y. Gen. II, 24</cite> <cite ref=\"M00317\"><he>מִדַּ׳</he></cite>; a. e."
+			]
+		}
+	]
+}

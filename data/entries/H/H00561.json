@@ -1,0 +1,83 @@
+{
+	"id": "H00561",
+	"slug": "חזר-2",
+	"headword": {
+		"text": "חֲזַר"
+	},
+	"page": {
+		"number": 446,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H00560\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 48:13\">Targ. Ps. XLVIII, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 114:3\">Ib. CXIV, 3</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 49:19\">Targ. Y. II, Gen. XLIX, 19</cite>; a. fr.—Y. Shek. V, end, 49ᵇ <he>א״ל מִיחֲזַר</he> he said to him, on coming back (I shall give thee something); <he>ח׳ ואשכחיה מית</he> when he came back, he found him dead. ",
+				"<cite ref=\"Kohelet Rabbah 7:8:1\">Koh. R. to VII, 8</cite> <he>חֲזוֹר עול לך</he> go home again. ",
+				"<cite ref=\"Kohelet Rabbah 7:8:1\">Ib.</cite> <he>ולית את חוֹזֵר בך</he> (h. form) and thou dost not repent? [Usually <cite ref=\"E00148\"><he>הֲדַר</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְזַר", "אַחֲזַר"],
+			"senses": [
+				{
+					"gloss": "<i>to surround, go around</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 22:13\">Targ. Ps. XXII, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 26:6\">Ib. XXVI, 6</cite>; a. e.—",
+						"<cite ref=\"Targum Jonathan on Numbers 21:4\">Targ. Y. Num. XXI, 4</cite> <he>לאַחֲזָרָא</he> (not <he>לאָחַזְ׳</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to turn back, to cause to flee</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 44:11\">Targ. Ps. XLIV, 11</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to turn</i> (one’s face). ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 6:3\">Targ. II Chr. VI, 3</cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to restore</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 24:13\">Targ. Y. II, Deut. XXIV, 13</cite>; a. e.—",
+						"<cite ref=\"Targum Jonathan on II Kings 2:8\">Targ. II Kings II, 8</cite> <he>וא׳</he> <i>he rolled up</i> (his cloak).—<i>Part. pass.</i> <he>מַחְזַר</he>, v. infra."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["חַזֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to turn around, twist</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 10:2\">Targ. Hos. X, 2</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to move to and back, to winnow</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 9:9\">Targ. Am. IX, 9</cite> (cmp. <cite ref=\"H00702\"><he>חִיזְרָא</he> II</cite>). [<cite ref=\"Aramaic Targum to Job 40:22\">Targ. Job XL, 22</cite> <he>יְחַזְּר׳</he> some ed., read <he>יַחְזְ׳</he>.]—<i>Part. pass.</i> <he>מְחַזַּר</he> <i>turned off, going backward</i>. ",
+						"<cite ref=\"Onkelos Genesis 9:23\">Targ. O. Gen. IX, 23</cite> (ed. Berl. <he>מַחְזְרִין</he>; Targ. Y. <he>אפיהון מְאַחְזְרִין</he>, h. text <he>אחרנית</he>).—Y. Meg. IV, 74ᵈ bot. <he>חד מְהַזֵר מנא וכ׳</he> one (of the scholars mentioned) ordered the translator using the word <i>mâna</i> (vessel, in translating <cite ref=\"I00565\"><he>טנא</he></cite>, <cite ref=\"Deuteronomy 26:2\">Deut. XXVI, 2</cite>) to go over it again (and say <cite ref=\"O00949\"><he>סַלָּא</he></cite>, basket) &c.; Y. Bicc. III, end, 65ᵈ <he>חד אמר מח׳</he> (strike out <cite ref=\"A02060\"><he>אמר</he></cite>); v. <cite ref=\"J00612\"><he>יֵרוֹקָנָא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

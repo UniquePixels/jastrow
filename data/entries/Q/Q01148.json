@@ -1,0 +1,40 @@
+{
+	"id": "Q01148",
+	"slug": "פנאי",
+	"headword": {
+		"text": "פְּנַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּנַיי"
+		}
+	],
+	"page": {
+		"number": 1186,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01162\"><he>פָּנָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>emptiness, vacancy</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 14:7\">Num. R. s. 14</cite> (play on <he>אל תבהל מפניו</he>, <cite ref=\"Ecclesiastes 8:3\">Koh. VIII, 3</cite>) <he>לא נתבהל מפ׳ הבית</he> he (Joseph) was not bewildered by the emptiness of the house (his being alone with Potiphar’s wife)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>vacation, leisure, time, opportunity</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 5:6\">Ab. Zar. V, 6</cite> <he>לפי שאין פ׳ לנסך</he> because the invaders do not take time to offer a libation (so as to make the wine forbidden, v. <cite ref=\"N00946\"><he>נָסַךְ</he></cite>). ",
+				"<cite ref=\"Avodah Zarah 71a:1\">Ib. 71ᵃ</cite> <he>לנסך אין פ׳ לבעול יש פ׳</he> for libation they do not take time, but for outrage they do. Y. ib. V, 45ᵃ top <he>אין פ׳ להטיל אירס</he> the snake (being pursued) finds no opportunity to shed venom; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

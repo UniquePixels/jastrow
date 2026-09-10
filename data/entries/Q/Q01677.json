@@ -1,0 +1,26 @@
+{
+	"id": "Q01677",
+	"slug": "פרוטרוט",
+	"headword": {
+		"text": "פְּרוֹטְרוֹט"
+	},
+	"page": {
+		"number": 1220,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01763\"><he>פָּרַט</he></cite>) <i>units, odd sum, detail number</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 23:2\">Midr. Till. to Ps. XXIII</cite> <he>חמשה עשר אלף ופ׳</he> fifteen thousand and an odd sum (less than one thousand); [read:] <he>וכמה הוא פ׳ שבע מאות ושמונים ותשע</he> and how much was that odd sum (over fifteen thousand)? Seven hundred and eighty-nine. Y. Taan. IV, end, 64ᶜ <he>היו מוצאין עצמן … ופ׳</he> (not <he>עצמו</he>) they found that they had lost upwards of fifteen thousand; Midr. Sam. ch. XXXII, end <he>ט״ו אלף בפ׳</he> (corr. acc.); Lam. R. introd. (R. Z’ʿera) (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 5:1:4\">Y. Naz. V, beg. 53ᵈ</cite>; <cite ref=\"Jerusalem Talmud Shekalim 2:3:2\">Y. Shek. II, 46ᶜ</cite>, sq. <he>במכנס פ׳</he> (not <he>פרוטרות</he>) when he piles up the coins one by one. ",
+				"<cite ref=\"Bekhorot 5a:15\">Bekh. 5ᵃ</cite> <he>לא מנאן הכתוב אלא בפ׳</he> the Scripture counts them only by single Manehs (not by Kikkars); <cite ref=\"Jerusalem Talmud Sanhedrin 1:4:10\">Y. Snh. I, end, 19ᵈ</cite> <he>ואתעביד ליה פ׳</he> it is counted by single Manehs. ",
+				"<cite ref=\"Tosefta Bava Metzia 4:17\">Tosef. B. Mets. IV, 17</cite> if he says, <he>הילך מנה ואינו יכול לעמוד על הפ׳</he> ‘here is a Maneh for thee (as thy share in the profits)’, but is unable to give a detailed account; Y. ib. V, 10ᵇ <he>שאינו … כפ׳</he> (corr. acc.). ",
+				"<cite ref=\"Tosefta Ma'aser Sheni 2:10\">Tosef. Maas. Sh. II, 10</cite> <he>אלא אם כן יש עמו פראטרוט</he> ed. Zuck. (Var. <he>פרוטרט</he>; corr. acc.) unless he has with him an itemized account (of the ready money and of the value of the products)."
+			]
+		}
+	]
+}

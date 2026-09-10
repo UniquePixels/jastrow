@@ -1,0 +1,35 @@
+{
+	"id": "S01377",
+	"slug": "קלס-1",
+	"headword": {
+		"text": "קָלַס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1379,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S01377\"><he>קִלֵּס</he></cite> (denom. of <cite ref=\"S00356\"><he>קוֹלָס</he></cite>) <i>to put a helmet on</i>; part. pass. <cite ref=\"M02393\"><he>מְקוּלָּס</he></cite> <i>an animal roasted in its entirety with the entrails and legs on the head</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 74a\">Pes. 74ᵃ</cite> R. Ṭarfon called it <he>גדי מ׳</he> a kid with a helmet on. ",
+						"<cite ref=\"Tosefta Beitsah 2:15\">Tosef. Bets. II, 15</cite> <he>איזוהי גדי מ׳ … וקרבו</he> (not <he>בקרבו</he>) what is a <i>g’di m’ḳullas</i>? Entirely roasted, with head, legs, and entrails. ",
+						"<cite ref=\"Tosefta Beitsah 2:15\">Ib.</cite> <he>עגל מ׳</he> a calf roasted with the head &c. ",
+						"<cite ref=\"Tosefta Beitsah 2:15\">Ib.</cite> Todos taught the Roman Jews to take lambs <he>ועושין אותו מְקוּלָּסִין וכ׳</he> and prepare them ‘helmeted’ on Passover nights.—[<cite ref=\"Midrash Tehillim 92:8\">Midr. Till. to Ps. XCII</cite> <he>מקולסין</he>, v. <cite ref=\"N00777\"><he>נִיקְלְוָוס</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

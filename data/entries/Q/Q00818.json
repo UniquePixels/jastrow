@@ -1,0 +1,28 @@
+{
+	"id": "Q00818",
+	"slug": "פיקעין",
+	"headword": {
+		"text": "פִּיקְעִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּקְ׳"
+		}
+	],
+	"page": {
+		"number": 1170,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. = h. <he>פַּקּוּעוֹת</he>, <i>Coloquintidas, Bitter-Apples</i> (v. Löw, Pfl., p. 332, sq.). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 4:39\">Targ. II Kings IV, 39</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "Q01020",
+	"slug": "פלטינוס",
+	"headword": {
+		"text": "פַּלָּטִינוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּלָּאטִ׳"
+		}
+	],
+	"page": {
+		"number": 1180,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (palatinus, παλατῖνος) ",
+			"units": []
+		},
+		{
+			"gloss": " (sub. mons) <i>the Palatine Hill</i>, a name given to royal residences in general (v. Dio Cassius LIII, 16); esp. <i>Palatinus</i>, a name given by the Samaritans to Mount Gerizim. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite> <he>עבר בהדין פלטאנוס</he> (Var. <he>ניס …</he>, <he>נים …</he>; corr. acc.) passed that Palatinus (on his way to Jerusalem); <cite ref=\"Bereishit Rabbah 32\">ib.</cite> s. 81 <cite ref=\"Q01024\"><he>פלטנוס</he></cite> (not <he>ת …</he>); <cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite> <he>חד פלאטנוס</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 57:2\">Yalk. Gen. 57</cite> <he>פלטניס</he> (corr. acc.); (<cite ref=\"Devarim Rabbah 3:6\">Deut. R. s. 3</cite> <he>הר גריזים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>courtier, palace-guard, nobleman</i>.—Pl. <he>פַּלָּטִינִין</he>; (Lat. form) <cite ref=\"Q01019\"><he>פַּלָּטִינִי</he></cite>, <he>פַּלָּא׳</he>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 1:11\">Num. R. s. 1</cite> <he>שבטו של לוי פ׳ היו</he> the tribe of Levi was the palace-guard (royal body-guard in the Temple). ",
+				"<cite ref=\"Bamidbar Rabbah 5:9\">Num. R. s. 5</cite> <he>אע״פ שהיתה משפחת קהת פ׳ וכ׳</he> although the Kehath family vere palatini, when carrying the Ark they carried it like slaves (on their shoulders, no rank being recognized before God, v. <cite ref=\"Q01019\"><he>פַּלָּטִין</he></cite>). ",
+				"<cite ref=\"Ruth Rabbah 2:5\">Ruth R. to I, 2</cite> (expl. <he>אפרתים</he>, <cite ref=\"Ruth Rabbah 2:5\">ib.</cite>) <cite ref=\"Q01017\"><he>פלטייאני</he></cite> (corr. acc.); Midr. Sam. ch. I <cite ref=\"Q00930\"><he>פלאטוני</he></cite> (corr. acc.); <cite ref=\"Vayikra Rabbah 2:12\">Lev. R. s. 2</cite> (ref. to <cite ref=\"A02821\"><he>אפרים</he></cite>, <cite ref=\"Jeremiah 31:19\">Jer. XXXI, 19</cite>) <cite ref=\"Q01013\"><he>פלטיאני</he></cite> (corr. acc.). ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 45:13\">Pirké d’R. El. ch. XLV</cite> (ref. to <he>אפרת</he> <cite ref=\"I Chronicles 2:19\">I Chr. II, 19</cite>) <he>פלטיני בת מלכים וכ׳</he> (παλατίνη) a <i>palatina</i>, a daughter of nobles; <cite ref=\"I Chronicles 2:19\">ib.</cite> <he>בן פלטוני בן מלכים וכ׳</he> (corr. acc.) a son of noblemen, a son of kings &c. ",
+				"<cite ref=\"Bamidbar Rabbah 13:20\">Num. R. s. 13</cite> <he>בן פלוטומנין</he>, <he>פולוט׳</he>; <cite ref=\"Pesikta Rabbati 7:1\">Pesik. R. s. 7</cite> <he>פולטומין</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

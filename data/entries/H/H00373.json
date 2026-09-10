@@ -1,0 +1,24 @@
+{
+	"id": "H00373",
+	"slug": "חומה",
+	"headword": {
+		"text": "חוֹמָה"
+	},
+	"page": {
+		"number": 435,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; חָמָה <i>to surround, protect</i>, v. Ges. H. Dict. s. v. <he>חמה</he>) <i>wall</i>, esp. <i>fortification</i> <cite ref=\"Yevamot 62b:14\">Yeb. 62ᵇ</cite> (ref. to <cite ref=\"Jeremiah 31:21\">Jer. XXXI, 21</cite>) <he>בלא ח׳</he> lives without (moral) protection. ",
+			"units": [
+				"<cite ref=\"Megillah 5b:15\">Meg. 5ᵇ</cite> <he>שימה חוֹמָתָהּ</he> whose lake is her fortification. ",
+				"<cite ref=\"Mishnah Megillah 1:1\">Ib. I, 1</cite> <he>מוקפין ח׳</he> fortified all around; a. fr.—Pl. <cite ref=\"H00337\"><he>חוֹמוֹת</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:7:1\">Cant. R. to V, 7</cite> <he>חוֹמוֹתֶיהָ של וכ׳</he> the walls of; a. e."
+			]
+		}
+	]
+}

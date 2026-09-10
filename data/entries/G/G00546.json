@@ -1,0 +1,22 @@
+{
+	"id": "G00546",
+	"slug": "זמר-8",
+	"headword": {
+		"text": "זַמָּר"
+	},
+	"page": {
+		"number": 405,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זָמַר</he> I) <i>musician, singer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite> <he>מרכוף של ז׳</he>, v. <cite ref=\"M02705\"><he>מַרְכּוֹף</he></cite>. Yalk. Lam. 1001."
+			]
+		}
+	]
+}

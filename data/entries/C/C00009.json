@@ -1,0 +1,47 @@
+{
+	"id": "C00009",
+	"slug": "גאולה",
+	"headword": {
+		"text": "גְּאוּלָּה"
+	},
+	"page": {
+		"number": 201,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"C00023\"><he>גְּאֻלָּה</he></cite>; <he>גאל</he>)<i>redemption, delivery</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 15a:20\">Meg. 15ᵃ</cite>, a. fr. <he>מביא ג׳ לעולם</he> causes redemption to come (through his good deeds). ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:2\">Cant. R. to II, 2</cite> <he>בגְאוּלַּת מחר</he> of to-morrow’s redemption, i.e. Messianic days.—",
+				"<cite ref=\"Kiddushin 15b:8\">Kidd. 15ᵇ</cite> <he>גאולת עצמו</he> redemption from service by himself, <he>ג׳ קרובים</he> by relatives, <he>ג׳ אחרים</he> by strangers (<cite ref=\"Leviticus 25:47\">Lev. XXV, 47</cite> sq.). ",
+				"<cite ref=\"Pesachim 118a:7\">Pes. 118ᵃ</cite> <he>מן הג׳</he> than delivery (from evil); a. fr. [<cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite>, end; <cite ref=\"Kohelet Rabbah 4:1\">Koh. R. to IV, 1</cite>, read <he>גּוֹאֲלָהּ</he>, v. <cite ref=\"C00266\"><he>גּוֹאֵל</he></cite>.]—Pl. <he>גְּאוּלּוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 7:5:5\">Y. Peah VII, 20ᵇ</cite> bot. <he>שתי ג׳</he> two redemptions (of fruits)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>G’ullah</i>, ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " that section of the prayers between the Sh’ma (<cite ref=\"U01512\"><he>שְׁמַע</he></cite>) and the T’fillah (<cite ref=\"V00831\"><he>תְּפִלָּה</he></cite>), so called from its contents. ",
+					"units": [
+						"<cite ref=\"Berakhot 9b:21\">Ber. 9ᵇ</cite> <he>סמך ג׳ לתפלה</he> he recited the T’fillah immediately after closing the G’ullah (with the benediction <he>גאל ישראל</he>). ",
+						"<cite ref=\"Berakhot 4b:13\">Ib. 4ᵇ</cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>the seventh benediction of the T’fillah, prayer for redemption</i>. ",
+					"units": ["<cite ref=\"Megillah 17b:13\">Meg. 17ᵇ</cite>"],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

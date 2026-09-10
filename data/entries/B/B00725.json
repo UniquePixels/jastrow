@@ -1,0 +1,29 @@
+{
+	"id": "B00725",
+	"slug": "בירית",
+	"headword": {
+		"text": "בֵּירִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּרִית"
+		}
+	],
+	"page": {
+		"number": 166,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01191\"><he>בָּרָה</he></cite>, cmp. <cite ref=\"B01282\"><he>בְּרִית</he></cite>) <i>something cut out; ring, hoop</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 5:7\">Tosef. Kel. B. Mets. V, 7</cite> <he>כל הבורית טהורה בֵּרִית מחרישה טמאה</he> ed. Zuck. (Var. <cite ref=\"B00725\"><he>בירית</he></cite>, <cite ref=\"B00355\"><he>בורות</he></cite>) every thing cut in circular form is clean (not susceptible of levitical uncleanness), except the hoop of the plough (cmp. <cite ref=\"H01886\"><he>חתיכה</he></cite> ibid.).—Esp. <i>knee-band, garter</i>. ",
+				"<cite ref=\"Mishnah Shabbat 6:4\">Sabb. VI, 4</cite>. ",
+				"<cite ref=\"Shabbat 63b:8\">Ib. 63ᵇ</cite> <he>ב׳</he> of the Mishnah is the Biblical <cite ref=\"A02885\"><he>אצעדה</he></cite>. Y. ib. VI, 8ᵇ <he>בי׳ כל שהיא וכ׳</he> it is called <i>birith</i> when single, <i>k’balim</i>, when the two bands are coupled with a chain. [Ar. ed. Koh. <cite ref=\"B01083\"><he>בו׳</he></cite>, oth. ed. <cite ref=\"B01283\"><he>בֵּרִית</he></cite>. Cmp. Assyr. <i>birîtu</i> chain, Schr. KAT 542.]"
+			]
+		}
+	]
+}

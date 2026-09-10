@@ -1,0 +1,22 @@
+{
+	"id": "U00093",
+	"slug": "שבותה",
+	"headword": {
+		"text": "שְׁבוּתָה"
+	},
+	"page": {
+		"number": 1511,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>sh’buthah</i>, a substitute for <cite ref=\"U00081\"><he>שְׁבוּעָה</he></cite> (v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 1:2\">Ned. I, 2</cite>; a. e.—Y. ib. 37ᵃ top <he>ש׳ שביתה שמה</he> (not <cite ref=\"U01726\"><he>שפותה</he></cite>) <i>sh’buthah</i> may have the meaning of <i>rest</i> (besides a disguise for <cite ref=\"U00081\"><he>שבועה</he></cite>)."
+			]
+		}
+	]
+}

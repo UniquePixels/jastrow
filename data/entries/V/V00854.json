@@ -1,0 +1,37 @@
+{
+	"id": "V00854",
+	"slug": "תפר-1",
+	"headword": {
+		"text": "תָּפַר"
+	},
+	"page": {
+		"number": 1689,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to join; to sew, mend</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 31b:2\">Men. 31ᵇ</cite> <he>קרע … יִתְפּוֹר בשלש אל יתפור</he> if a rent (in the column of a scroll) goes through two lines, one may mend it; if through three, you dare not mend it (but must insert a new column). ",
+				"<cite ref=\"Mishnah Shabbat 13:2\">Sabb. XIII, 2</cite> <he>התּוֹפֵר … על מנת לִתְפּוֹר</he>, v. <cite ref=\"V00822\"><he>תְּפִירָה</he></cite>. ",
+				"<cite ref=\"Shabbat 60b:10\">Ib. 60ᵇ</cite> <he>תְּפָרוֹ מבפנים</he> if he fastened the leather shoe inside the sandal; a. fr.—Part. pass. <he>תָּפוּר</he>; f. <cite ref=\"V00667\"><he>תְּפוּרָה</he></cite>; pl. <he>תְּפוּרִים</he>, <he>תְּפוּרִין</he>, <he>תְּפוּרוֹת</he>. ",
+				"<cite ref=\"Tosefta Tahorot 5:1\">Tosef. Toh. V, 1</cite> <he>נפל למים ת׳ טמא</he> if it (spittle) fell into water, if it remains joined (cohesive), it is clean, opp. <cite ref=\"M00857\"><he>נמחה</he></cite> dissolved. Sabb. l. c.; <cite ref=\"Mishnah Beitzah 1:10\">Bets. I, 10</cite> <he>כלים בין ת׳ ובין שאינן ת׳</he> garments when sewed or unsewed. ",
+				"<cite ref=\"Mishnah Beitzah 1:10\">Ib.</cite> <he>מנעל שאינו ת׳</he> a shoe the sole of which is not sewed on (though temporarily fastened with pegs); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְפַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be sewed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 20:6\">Kel. XX, 6</cite> <he>משיִתָּפֵר</he> Var. (ed. <he>משיִתָּבֵר</he>) when the material for the curtain is sewed up; [Maim. reads <he>משישבר</he> = <he>משישפר</he>, expl. ‘when he has given it its due length and width by sewing’; for dialectic interchange of <cite ref=\"B00000\"><he>ב</he></cite> and <cite ref=\"Q00000\"><he>פ</he></cite> see <cite ref=\"B01136\"><he>בָּקַר</he></cite> a. <cite ref=\"Q01517\"><he>פָּקַר</he></cite> <i>Hif.</i>, and <cite ref=\"E00049\"><he>הֶבְקֵר</he></cite> a. <cite ref=\"E00759\"><he>הֶפְקֵר</he></cite>]."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

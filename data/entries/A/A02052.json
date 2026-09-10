@@ -1,0 +1,38 @@
+{
+	"id": "A02052",
+	"slug": "אמפיליא",
+	"headword": {
+		"text": "אִמְפִּילְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִמְפִּלְיָא"
+		},
+		{
+			"text": "אִנְפִּי׳"
+		},
+		{
+			"text": "אִנְפִּלְ׳"
+		}
+	],
+	"page": {
+		"number": 78,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (pl. of ἐμπίλιον, impilia) (pair of) <i>felt-shoes</i>, in gen. <i>shoes, socks</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 27:6\">Kel. XXVII, 6</cite>. ",
+				"<cite ref=\"Mishnah Yevamot 12:1\">Yeb. XII, 1</cite>. ",
+				"<cite ref=\"Yevamot 102b:19\">Ib. 102ᵇ</cite> <he>א׳ של בגד</he> cloth-shoes; <he>א׳ של עור</he> leather-covered shoes; a. fr.—Pl. <he>אִנְפִּילָאוֹת</he>, <cite ref=\"A02052\"><he>אִנְפִּלָ׳</he></cite>, <he>אִמְפִּילָיוֹת</he>, <he>אִנְפִּילִין</he> <i>pairs of &c</i>. ",
+				"<cite ref=\"Shabbat 120a:8\">Sabb. 120ᵃ</cite>; Y. ib. XVI, 15ᵈ <he>שתי א׳</he> two pairs &c. ",
+				"<cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite>. ",
+				"<cite ref=\"Yevamot 102b\">Yeb. 102ᵇ</cite>"
+			]
+		}
+	]
+}

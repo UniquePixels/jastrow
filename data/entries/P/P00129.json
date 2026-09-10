@@ -1,0 +1,89 @@
+{
+	"id": "P00129",
+	"slug": "עדי-2",
+	"headword": {
+		"text": "עֲדֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲדָא"
+		}
+	],
+	"page": {
+		"number": 1043,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00128\">same</cite> (corresp. to h. <cite ref=\"P00059\"><he>עָבַר</he></cite>) <i>to pass by, between</i> &c. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:17\">Targ. O. Gen. XV, 17</cite> <cite ref=\"P00118\"><he>עָדָא</he></cite> ed. Berl. (ed. Vien. <he>די עֲדָא</he>; ed. Amst. <he>עברא</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 45:14\">Targ. Is. XLV, 14</cite> <he>יֶעְדּוּן</he> (ed. Lag. <he>יעידון</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 4:8\">Targ. II Kings IV, 8</cite> <he>מֵיעִידוֹהִי</he> ed. Lag. (oth. ed. <he>מְעִיד׳</he>; fr. <cite ref=\"P00198\"><he>עוּד</he></cite>); a. fr.—Part. <cite ref=\"P00135\"><he>עָדֵי</he></cite>, <cite ref=\"P00129\"><he>עֲדֵי</he></cite>; pl. <cite ref=\"P00153\"><he>עָדָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 44:22\">Targ. Is. XLIV, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:11\">Targ. Jer. IX, 11</cite> ed. Lag. (oth. ed. <cite ref=\"J00712\"><he>יתיב</he></cite>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 39:14\">Targ. Ez. XXXIX, 14</cite>, sq.; a. fr.—",
+				"<cite ref=\"Kiddushin 33a:5-17\">Kidd. 33ᵃ</cite> <he>כמה … עֲדוּ עלייהו וכ׳</he> how many vicissitudes have passed over these (old men); <cite ref=\"Rosh Hashanah 16a\">R. Hash. 16ᵃ</cite>, v. <cite ref=\"E00898\"><he>הַרְפַּתְקָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (corresp. to h. <he>סוּר מ־</he>) <i>to pass away, cease</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:10\">Targ. O. Gen. XLIX, 10</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 35:15\">Targ. II Chr. XXXV, 15</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 4:9\">Targ. O. Deut. IV, 9</cite> <he>יְעִידּוֹן</he> ed. Berl. (oth. <he>יְעִידוּן</he>); a. fr.—",
+				"<cite ref=\"Yoma 53b:7\">Yoma 53ᵇ</cite> <he>לא יַעְדֵּי וכ׳</he> (fr. ",
+				"<cite ref=\"Genesis 49:10\">Gen. XLIX, 10</cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to carry, become pregnant</i>, v. infra. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 23\">Gen. R. s. 23</cite> (play on <he>עדה</he>, <cite ref=\"Genesis 4:19\">Gen. IV, 19</cite>) <he>דעֲדָה מיניה</he> because she was with child of him."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַדֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to remove</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 32b:1\">Bets. 32ᵇ</cite> <he>עַדּוּיֵי חושכא</he>, v. <cite ref=\"M00849\"><he>מָחַט</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"P00059\"><he>עָבַר</he></cite> <i>Pi.</i>) <i>to carry, be pregnant, conceive</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 4:1\">Targ. O. Gen. IV, 1</cite> (Y. <i>Af.</i>). ",
+						"<cite ref=\"Onkelos Leviticus 12:2\">Targ. O. Lev. XII, 2</cite> (ed. Ber. <he>תַעְדֵּי</he> <i>Af.</i>; ed. Vien. <he>תְעָדֵי</he>; Y. <he>תָּעֲדֵי</he>, corr. acc.); a. fr.—<i>Part. pass.</i> f. <cite ref=\"M02064\"><he>מְעַדְיָא</he></cite>; pl. <he>מְעַדְיָאתָא</he>, <he>מְעַדְיָיתָא</he> [<i>made to carry</i>,] <i>pregnant</i>. ",
+						"<cite ref=\"Onkelos Genesis 16:11\">Targ. O. Gen. XVI, 11</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 4:31\">Targ. Jer. IV, 31</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 1:13\">Targ. Am. I, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 1:16\">Targ. Lam. I, 16</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַדָּא"],
+			"senses": [
+				{
+					"gloss": ", <i>Ittaf.</i> <cite ref=\"P00129\"><he>אִתַּעְדָּא</he></cite>, <he>אִתַּעְדֵּי</he> (corresp. to h. <cite ref=\"O00408\"><he>הוסר</he></cite>) <i>to be removed</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 4:31\">Targ. O. Lev. IV, 31</cite> (Y. <cite ref=\"P00129\"><he>אִתְעָדָא</he></cite>). Ib. 35 (Y. <cite ref=\"P00129\"><he>אִתְעָדָא</he></cite>; ed. Amst. <cite ref=\"P00129\"><he>אִתְעֲדָא</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 17:1\">Targ. Is. XVII, 1</cite>. Targ. II Esth. I, 1, beg.; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

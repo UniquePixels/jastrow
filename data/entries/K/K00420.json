@@ -1,0 +1,24 @@
+{
+	"id": "K00420",
+	"slug": "כותבת",
+	"headword": {
+		"text": "כּוֹתֶבֶת"
+	},
+	"page": {
+		"number": 627,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"S02218\"><he>קִשְׁבָּא</he></cite>) <i>date</i> of a certain species, <i>kothebeth</i>, used as a measure of size <he>כַּכֹּ׳</he> (cmp. <cite ref=\"G00430\"><he>זַיִת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 8:2\">Yoma VIII, 2</cite>. ",
+				"<cite ref=\"Mishnah Beitzah 1:1\">Bets. I, 1</cite> <he>חמץ בְּכַכֹּ׳</he> the standard for leavened bread (on Passover, as for being guilty of a transgression) is the size of a <i>kothebeth</i> (less than an olive); a. fr.—Pl. <he>כּוֹתָבוֹת</he>. ",
+				"<cite ref=\"Mishnah Sukkah 2:5\">Succ. II, 5</cite> (<cite ref=\"Sukkah 26b:10\">26ᵇ</cite>) <he>שתי כ׳</he> Ms. M. (ed. <cite ref=\"U01585\"><he>שני</he></cite>) two dates."
+			]
+		}
+	]
+}

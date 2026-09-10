@@ -1,0 +1,22 @@
+{
+	"id": "I00118",
+	"slug": "טובלן",
+	"headword": {
+		"text": "טוֹבְלָן"
+	},
+	"page": {
+		"number": 521,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טָבַל</he> I) <i>bather</i>.—Pl. <he>טוֹבְלָנִים</he>, constr. <he>טוֹבְלָנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Yadayim 1:20\">Tosef. Yad. I, 20</cite> Var., v. <cite ref=\"I00062\"><he>טָבל</he> I</cite>."
+			]
+		}
+	]
+}

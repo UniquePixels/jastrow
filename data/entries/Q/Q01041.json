@@ -1,0 +1,23 @@
+{
+	"id": "Q01041",
+	"slug": "פליאה",
+	"headword": {
+		"text": "פְּלִיאָה"
+	},
+	"page": {
+		"number": 1181,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; fem. of <cite ref=\"Q00926\"><he>פֶּלֶא</he></cite>)<i>hidden thing, secret; miracle</i>. Y. Ḥag. III, 77ᶜ top (fr. Ben Sira) <he>פ׳ ממך מה תדע</he> why wilt thou attempt to know what is hidden from thee? (v. <cite ref=\"M00564\"><he>מוּפְלָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 119:8\">Midr. Till. to Ps. CXIX, 18</cite> (ref. to <cite ref=\"Psalms 139:6\">Ps. CXXXIX, 6</cite>) <he>פ׳ זו התוֹרה</he> ‘the secret’, that means the Law. ",
+				"<cite ref=\"Bamidbar Rabbah 10:5\">Num. R. s. 10</cite> (ref. to <cite ref=\"Q00931\"><he>פלאי</he></cite>, <cite ref=\"Judges 13:18\">Jud. XIII, 18</cite>) <he>לפי פ׳ ופ׳ וכ׳</he> according to each miracle that he (the Lord) performs through us (angels), he names us."
+			]
+		}
+	]
+}

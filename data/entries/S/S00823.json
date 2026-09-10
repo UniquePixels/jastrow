@@ -1,0 +1,62 @@
+{
+	"id": "S00823",
+	"slug": "קטר-1",
+	"headword": {
+		"text": "קָטַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1352,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>כתר</he> a. <cite ref=\"P00476\"><he>עטר</he></cite>) [<i>to circle</i>,] <i>to rise in circles, to smoke</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 6b:30\">Ker. 6ᵇ</cite> <he>דבר שקוֹטֵר ועולה וריחו וכ׳</he> (not <he>שקיטר</he>) something which circles and rises, and whose savor spreads. ",
+				"<cite ref=\"Keritot 6b:64\">Ib.</cite> <he>מה לשון קטרת דבר שקוטר ועולה</he> <i>ḳ’ṭoreth</i> means something which circles &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִיטֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to offer incense</i> (mostly with ref. to idolatrous rites). ",
+					"units": [
+						"<cite ref=\"Tosefta Sanhedrin 10:2\">Tosef. Snh. X, 2</cite> <he>אחד העובד … ואחד המְקַטֵּר וכ׳</he> whether one worships (an idol), or sacrifices, or offers incense &c.; <cite ref=\"Keritot 3b\">Ker. 3ᵇ</cite>. ",
+						"<cite ref=\"Keritot 3b:90\">Ib.</cite> <he>מקטר לשד וכ׳</he> who makes incense rise to a demon in order to exorcise him; <cite ref=\"Sanhedrin 65a\">Snh. 65ᵃ</cite>. ",
+						"<cite ref=\"Berakhot 53a\">Ber. 53ᵃ</cite>, v. <cite ref=\"K01318\"><he>כֶּשֶׁף</he></cite>. ",
+						"<cite ref=\"Vayikra Rabbah 7\">Lev. R. s. 7</cite>, v. infra; a. fr.—<i>Part. pass.</i> <he>מְקוּטָּר</he>; f. <he>מְקוּטֶּרֶת</he> <i>perfumed</i>. ",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 30:7\">Pirké d’R. El. ch. XXX</cite> (play on <cite ref=\"S00727\"><he>קטורה</he></cite>) <he>שהיתה מק׳ מכל וכ׳</he> she was (through her good deeds) more savory than all kinds of spices; <cite ref=\"Bereishit Rabbah 61:4\">Gen. R. s. 61</cite> <he>שמק׳ מצות וכ׳</he> she was perfumed with godly deeds and good works (v. <cite ref=\"S00825\"><he>קָטַר</he> II</cite>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִקְטִיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00822\">same</cite> (mostly with ref. to the Lord). [<cite ref=\"Tosefta Sanhedrin 10:3\">Tosef. Snh. X, 3</cite> <he>והמקטיר</he>, prob. to be read: <he>והמְקַטֵּיר</he>.] <cite ref=\"Menachot 110a:3-6\">Men. 110ᵃ</cite> (ref. to <cite ref=\"Malachi 1:11\">Mal. I, 11</cite>) <he>אלו … כאילו מַקְטִירִין וכ׳</he> this refers to the students engaged in the Law; wherever it be, I account it to them as if they were offering incense and bringing sacrifices to my Name. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 7\">Lev. R. s. 7</cite> (ref. to <he>מקטר קטרת</he>, <cite ref=\"Exodus 30:1\">Ex. XXX, 1</cite>) <he>מִתְקַטֵּר בקטרת אין כתיב כאן אלא מְקטֵּר … המזבח היה מַקְטִיר וכ׳</he> it says not ‘being perfumed with incense’, but ‘perfuming with incense’, the altar gave forth incense of itself. ",
+						"<cite ref=\"Berakhot 7a:4\">Ber. 7ᵃ</cite> <he>פעם … לְהַקְטִיר קטרת וכ׳</he> once I entered to let incense rise in the Holy of Holies; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְקַטֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be perfumed</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

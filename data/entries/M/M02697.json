@@ -1,0 +1,31 @@
+{
+	"id": "M02697",
+	"slug": "מרך-3",
+	"headword": {
+		"text": "מְרַךְ"
+	},
+	"page": {
+		"number": 844,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M02696\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמְרִיךְ"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"M00655\"><he>מוֹרֶךְ</he></cite>) <i>to be faint, become unsteady</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 19:5\">Targ. O. Deut. XIX, 5</cite> ed. Berl., v. <cite ref=\"M02509\"><he>מְרַג</he></cite>."
+					]
+				}
+			],
+			"stem": "Itphe."
+		}
+	]
+}

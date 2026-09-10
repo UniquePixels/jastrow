@@ -1,0 +1,29 @@
+{
+	"id": "G00125",
+	"slug": "זוגא-2",
+	"headword": {
+		"text": "זוּגָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זוּגָה"
+		}
+	],
+	"page": {
+		"number": 384,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Zuga</i>, name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 5:3:11\">Y. Maasr. V, end, 52ᵃ</cite>; <cite ref=\"Jerusalem Talmud Demai 2:1:9\">Y. Dem. II, 22ᶜ</cite>; a. e.—Gamliel Z. Ib.ᵈ top; a. e. (v. Fr. M’bo p. 77ᵃ; 71ᵇ).—",
+				"<cite ref=\"Moed Katan 28a:12\">M. Kat. 28ᵃ</cite>, a. e., Ar. <cite ref=\"G00139\"><he>זָוָוא</he> II</cite>."
+			]
+		}
+	]
+}

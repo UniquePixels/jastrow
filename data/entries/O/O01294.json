@@ -1,0 +1,56 @@
+{
+	"id": "O01294",
+	"slug": "סער-2",
+	"headword": {
+		"text": "סְעַר"
+	},
+	"page": {
+		"number": 1010,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01293\">same</cite>, (corresp. to h. <he>פקד</he>) <i>to visit, examine</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 9:12\">Targ. I Kings IX, 12</cite> (ed. Lag. <he>למחזי</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 14:17\">Targ. I Sam. XIV, 17</cite>.—Esp. <he>ס׳</he> (<cite ref=\"L00000\"><he>ל</he></cite>)<he>שלם</he> <i>to inquire after a person’s health</i>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:18\">Ib. XVII, 18</cite> (ed. Wil. <cite ref=\"V00769\"><he>תַּסְ׳</he></cite> <i>Af.</i>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 10:13\">Targ. II Kings X, 13</cite> (ed. Wil. <he>למסעד</he>, corr. acc.; v. Koh. Ar. Compl. s. v. <cite ref=\"O01293\"><he>סער</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְעַר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01293\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <he>על</he> of person) <i>to visit upon</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 34:29\">Targ. Job XXXIV, 29</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 36:23\">Ib. XXXVI, 23</cite> <he>אַסְעַר</he> Ms. (ed. <he>יִסְעַר</he>, read <he>יַסְ׳</he>). ",
+						"<cite ref=\"Onkelos Leviticus 26:16\">Targ. O. Lev. XXVI, 16</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתַּעַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be visited; to be inflicted upon</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 16:29\">Targ. O. Num. XVI, 29</cite> (some ed. <he>יִסְתְּ׳</he>, <i>Ithpe.</i>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

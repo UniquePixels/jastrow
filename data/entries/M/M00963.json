@@ -1,0 +1,24 @@
+{
+	"id": "M00963",
+	"slug": "מטבחייא",
+	"headword": {
+		"text": "מַטְבָּחַיָּיא"
+	},
+	"page": {
+		"number": 765,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"M00964\">next w.</cite>), (<cite ref=\"B00754\"><he>בֵּית</he></cite>) <cite ref=\"M02894\"><he>בֵּי מ׳</he></cite> <i>slaughtering place</i> (in the Temple). ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite>, a. e.—",
+				"<cite ref=\"Mishnah Kelim 15:6\">Kel. XV, 6</cite>; <cite ref=\"Tosefta Keilim Metsia 5:7\">Tosef. Kel. B. Mets. V, 7</cite>, v. <cite ref=\"M00237\"><he>מַדְבַּח</he></cite>."
+			]
+		}
+	]
+}

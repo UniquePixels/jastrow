@@ -1,0 +1,28 @@
+{
+	"id": "A02504",
+	"slug": "אספניא-1",
+	"headword": {
+		"text": "אִסְפַּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 96,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Hispania, Spain</i>. Tanḥ. Vayetsé, 2 <he>מגליא ומא׳</he> from Gaul, Spain &c.; cmp. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 29\">Lev. R. s. 29</cite>; <cite ref=\"Yalkut Shimoni on Nach 312\">Yalk. Jer. 312</cite>, a. e. <cite ref=\"A02502\"><he>אספמיא</he></cite>.—",
+				"<cite ref=\"Pesikta Rabbati 32:1\">Pesik. R. s. 32</cite> (p. 56ᵃ ed. Pr.) <he>באספניס</he> (corr. acc.; ed. Fr. s. 31, p. 147ᵃ <he>אספמ׳</he>).—V. <cite ref=\"A02502\"><he>אִסְפַּמְיָא</he></cite>."
+			]
+		}
+	]
+}

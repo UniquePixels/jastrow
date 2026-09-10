@@ -1,0 +1,41 @@
+{
+	"id": "Q02088",
+	"slug": "פשפוש",
+	"headword": {
+		"text": "פִּשְׁפּוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1247,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פִּשְׁפֵּשׁ</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>investigation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 19:20\">Targ. Y. Lev. XIX, 20</cite> (h. text <cite ref=\"B01147\"><he>בקרת</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that which has been</i>, or <i>is to be searched out, depth, recess</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:8\">Targ. Job VIII, 8</cite> (h. text <he>חקר</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 38:16\">Ib. XXXVIII, 16</cite>; a. e.—Pl. <cite ref=\"Q02089\"><he>פִּשְׁפּוּשִׁין</he></cite>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 95:4\">Targ. Ps. XCV, 4</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

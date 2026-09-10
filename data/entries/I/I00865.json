@@ -1,0 +1,23 @@
+{
+	"id": "I00865",
+	"slug": "טרפא-2",
+	"headword": {
+		"text": "טַרְפָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 557,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. (<cite ref=\"I00864\"><he>טְרַף</he></cite>) <he>טַרְפַת</he> <i>rapping</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 5:11\">Targ. Jud. V, 11</cite> (in a passage missing in ed. Lag.)."
+			]
+		}
+	]
+}

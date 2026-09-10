@@ -1,0 +1,30 @@
+{
+	"id": "U01969",
+	"slug": "שריות",
+	"headword": {
+		"text": "שָׁרָיוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁרָיוּתָא"
+		}
+	],
+	"page": {
+		"number": 1631,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01961\"><he>שְׁרֵי</he></cite>) <i>beginning, first thing</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 16:9\">Targ. O. Deut. XVI, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 1:2\">Targ. Hos. I, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 17:25\">Targ. II Kings XVII, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 21:9\">Targ. II Sam. XXI, 9</cite>, sq."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M01576",
+	"slug": "מלכה",
+	"headword": {
+		"text": "מַלְכָּה"
+	},
+	"page": {
+		"number": 791,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M01572\"><he>מֶלֶךְ</he></cite>)<i>queen, king’s wife</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 15b:11\">B. Bath. 15ᵇ</cite> <he>כל האומר מַלְכַּת שבא וכ׳</he> whoever says <i>malkath Sheba</i> (<cite ref=\"I Kings 10:1\">I Kings X, 1</cite>) means a woman is mistaken; … it means the kingdom (<he>מַלְכֻת</he>) of Sheba. ",
+				"<cite ref=\"Shabbat 119a:2\">Sabb. 119ᵃ</cite> <he>שבת המ׳</he> the queen Sabbath; a. fr."
+			]
+		}
+	]
+}

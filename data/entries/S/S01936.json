@@ -1,0 +1,37 @@
+{
+	"id": "S01936",
+	"slug": "קרוי-2",
+	"headword": {
+		"text": "קָרוֹי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָרוֹיָא"
+		}
+	],
+	"page": {
+		"number": 1413,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְרֵי</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>reading</i>.—Pl. <he>קָרוֹיֵי</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 4:1:13\">Y. Meg. IV, 75ᵃ</cite> top <he>שמע קלן ק׳ וכ׳</he> he heard them read (from the Torah) without benedictions."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Biblical scholar</i>, v. <cite ref=\"S02050\"><he>קַרָיָיא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

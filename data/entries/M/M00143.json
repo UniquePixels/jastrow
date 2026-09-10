@@ -1,0 +1,27 @@
+{
+	"id": "M00143",
+	"slug": "מגורת",
+	"headword": {
+		"text": "מְגוֹרֶת"
+	},
+	"page": {
+		"number": 727,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " f. ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"M00138\"><he>מְגוּרָה</he> I</cite>, q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"M00403\"><he>מוֹגֵרָה</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

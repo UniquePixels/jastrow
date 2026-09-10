@@ -1,0 +1,39 @@
+{
+	"id": "U01023",
+	"slug": "שיפורא",
+	"headword": {
+		"text": "שִׁיפוֹרָא"
+	},
+	"page": {
+		"number": 1566,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <he>שׁוֹפָרָא</he> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>horn, trumpet, announcement</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 38a:34\">Nidd. 38ᵃ</cite> <he>ש׳ דירחא</he> Ar. (ed. only <he>ש׳</he>) the <i>shofar</i> announcing the New Moon. ",
+				"<cite ref=\"Sukkah 34a:10\">Succ. 34ᵃ</cite>; <cite ref=\"Shabbat 36a\">Sabb. 36ᵃ</cite> Ms. M. (ed. <he>שופרא</he>), v. <cite ref=\"H01514\"><he>חֲצוֹצַרְתָּא</he></cite>. ",
+				"<cite ref=\"Moed Katan 27b:13\">M. Kat. 27ᵇ</cite> <he>שמע קל ש׳ דשכבא</he> he heard the trumpet announcing a death in town; a. e.—Pl. <he>שִׁיפוֹרֵי</he>. ",
+				"<cite ref=\"Avodah Zarah 40a:6\">Ab. Zar. 40ᵃ</cite> <he>נפקי ש׳ דרבא וכ׳</he> Ms. M. (ed. <he>נפק</he>) the announcements of Raba went forth to prohibit it, and those of R. H. permitting it; <cite ref=\"Avodah Zarah 57b:8\">ib. 57ᵇ</cite>; <cite ref=\"Moed Katan 17b:1\">M. Kat. 17ᵇ</cite> <he>קרי ביה אלפא ש׳ וכ׳</he> sound into it (the pitcher) one thousand blasts (proclaiming the ban). ",
+				"<cite ref=\"Moed Katan 17b:1\">Ib.</cite> <he>מאי שיפ̇ור̇י שנפ̇ר̇עין וכ׳</he> what does the blowing signify? That he will be punished. ",
+				"<cite ref=\"Shevuot 36a:4\">Shebu. 36ᵃ</cite> <he>בארבע מאה ש׳ שמתיה וכ׳</he> Barak declared the ban over Meroz with four hundred blasts of the trumpet; <cite ref=\"Moed Katan 16a:8\">M. Kat. 16ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"U00509\"><he>שׁוֹפָר</he></cite>) <i>charity box</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 60b:7\">Gitt. 60ᵇ</cite> <he>ההוא ש׳ דהוה</he> the charity box which was first kept in the house of R. J., and was transferred to &c.; [otb. opin. the <i>shofar</i> for public announcements]."
+			],
+			"label": "2"
+		}
+	]
+}

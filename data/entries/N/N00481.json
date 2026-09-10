@@ -1,0 +1,29 @@
+{
+	"id": "N00481",
+	"slug": "נחושתן-1",
+	"headword": {
+		"text": "נְחוּשְׁתָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְחֻשְׁ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 894,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00480\">preced.</cite>) <i>bronze</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 2:3\">Midd. II, 3</cite>; <cite ref=\"Tosefta Yoma 2:4\">Tosef. Yoma II, 4</cite>; Y. ib. III, 41ᵃ <he>מפני שנ׳ מצהיב</he> because bronze has the appearance of gold; (Bab. ",
+				"<cite ref=\"Yoma 38a:4\">ib. 38ᵃ</cite> <he>מפני שנְחוּשְׁתָּן מצוהבת היתה</he> (from <cite ref=\"N00480\"><he>נחושת</he></cite>, v. <cite ref=\"N00480\">preced.</cite>) because the bronze of which they were made was goldlike). Tosef. l. c. <he>נ׳ קלנתיא היה</he> (Var. <cite ref=\"N00481\"><he>נְחוּשְׁתָּא</he></cite>) it was Corinthian bronze; Yoma l. c. <he>נחושת קלוניתא היתה</he> (Ms. M. <cite ref=\"S01375\"><he>קלניתא</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 985:6\">Yalk. Cant. 985</cite>."
+			]
+		}
+	]
+}

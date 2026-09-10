@@ -1,0 +1,23 @@
+{
+	"id": "U00628",
+	"slug": "שחור-2",
+	"headword": {
+		"text": "שָׁחוֹר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1546,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שָׁחַר</he> I) <i>hair-pinchers;</i> (oth. opin. <i>razor</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:1\">Kel. XIII, 1</cite> (ed. Dehr. <cite ref=\"U00657\"><he>שָׁחִיר</he></cite>); <cite ref=\"Beitzah 35b\">Bets. 35ᵇ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "T01098",
+	"slug": "רשע-1",
+	"headword": {
+		"text": "רָשַׁע"
+	},
+	"page": {
+		"number": 1501,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"T01071\"><he>רָשָׁה</he></cite>) [<i>to be powerful</i>,] <i>to do violence, be wicked</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 976:4\">Yalk. Koh. 976</cite> (ref. to <cite ref=\"Ecclesiastes 7:17\">Koh. VII, 17</cite>) <he>אלא אם רָשַׁעְתָּ אל תִּרְשַׁע הרבה</he> (omitted in <cite ref=\"Shabbat 31b:5\">Sabb. 31ᵇ</cite>) but it means, if thou hast once done wrong, do not therefore do more wrong."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְשִׁיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to declare in the wrong, to condemn</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 10a:11\">Snh. 10ᵃ</cite> <he>אלא מעתה והצדיקו שנים והִרְשִׁיעוּ שנים וכ׳</he> if this be so (that you can derive from <he>ושפטום</he>, <cite ref=\"Deuteronomy 25:1\">Deut. XXV, 1</cite>, that there must be two judges and one in addition to make a majority vote possible) then ‘and they shall justify’ (<cite ref=\"Deuteronomy 25:1\">ib.</cite>) indicates two, ‘and they shall condemn’ (<cite ref=\"Deuteronomy 25:1\">ib.</cite>) means two, hence you would require seven judges for a court!"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to charge with wrong-doing, accuse</i>. Ib. <he>עדים שהרשיעו את הצדיק וכ׳</he> if (false) witnesses accused an innocent person, and other witnesses came and justified him. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 64b:12\">B. Kam. 64ᵇ</cite> (ref. to <cite ref=\"Exodus 22:8\">Ex. XXII, 8</cite>) <he>ולא המַרְשִׁיעַ עצמו</he> “he whom the judges shall condemn shall pay double”, but not he who accuses himself. ",
+						"<cite ref=\"Exodus 22:8\">Ib.</cite> (ref. to <cite ref=\"Exodus 22:3\">Ex. XXII, 3</cite>) <he>פרט למרשיע וכ׳</he> to the exemption of him who &c.; a. fr.— <i>to do wrong</i>. Tanḥ. D’barim 3; <cite ref=\"Yalkut Shimoni on Torah 805:4\">Yalk. Deut. 805</cite> (play on <he>רשעתים</he>, <cite ref=\"Judges 3:8\">Jud. III, 8</cite>) <he>הם הרשיעו עלינו שתי רשעיות</he> they (the Aramæans) did us two wrongs."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

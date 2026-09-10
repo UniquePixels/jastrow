@@ -1,0 +1,24 @@
+{
+	"id": "M01353",
+	"slug": "מכוה",
+	"headword": {
+		"text": "מִכְוָה"
+	},
+	"page": {
+		"number": 781,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"K00204\"><he>כָּוָה</he></cite>)<i>burnt spot on the skin, burn</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 9:1\">Neg. IX, 1</cite> <he>כל שהוא מחמת האש זו היא מ׳</he> all wounds produced through fire (directly or indirectly) are called ‘burns’. ",
+				"<cite ref=\"Mishnah Negaim 8:7\">Ib. VIII, 7</cite> <he>מחיית המ׳</he> the cicatrization of a burn. ",
+				"<cite ref=\"Mishnah Negaim 9:2\">Ib. IX, 2</cite>; Sifra Thazr., Neg., Par. 4, ch. VII <he>אין שחין ומ׳ וכ׳</he> an inflammation and a burn cannot be combined (to make up the minimum size required for uncleanness); a. fr."
+			]
+		}
+	]
+}

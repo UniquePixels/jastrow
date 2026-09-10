@@ -1,0 +1,26 @@
+{
+	"id": "B00403",
+	"slug": "בותניאס",
+	"headword": {
+		"text": "בּוֹתְנִיאָס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹתְנְיָיס"
+		}
+	],
+	"page": {
+		"number": 151,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (?) pr. n. m. a. pl. <i>Bothneas</i>, founder of Sidon. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 1:13\">Targ. I Chr. I, 13</cite> (Var. <cite ref=\"K00431\"><he>כותניאס</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 10:19\">Targ. Y. Gen. X, 19</cite> (<he>כותנייס</he>, h. text <he>צידן</he>)."
+			]
+		}
+	]
+}

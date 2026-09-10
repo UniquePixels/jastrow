@@ -1,0 +1,27 @@
+{
+	"id": "A02860",
+	"slug": "אצווחתא",
+	"headword": {
+		"text": "אַצְוַוחְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַצְוָחוּתָא"
+		}
+	],
+	"page": {
+		"number": 110,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>צוח</he>) <i>cry, noise</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 7:14\">Targ. Ezek. VII, 14</cite>."
+			]
+		}
+	]
+}

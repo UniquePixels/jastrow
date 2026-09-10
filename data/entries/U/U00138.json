@@ -1,0 +1,41 @@
+{
+	"id": "U00138",
+	"slug": "שביתה",
+	"headword": {
+		"text": "שְׁבִיתָה"
+	},
+	"page": {
+		"number": 1514,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00198\"><he>שָׁבַת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>resting, making a day station</i> esp. over the Sabbath. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 2:3\">Maasr. II, 3</cite> <he>עד שהוא מגיע למקום הש׳</he> until he reaches a place where he intends to rest, contrad. to <he>לינה</he> night lodging. Y. ib. 49ᵈ top, v. <cite ref=\"L00489\"><he>לִינָה</he></cite>.—Esp. <i>appointing a place to be the centre of Sabbath movements, Sabbath camp</i> (from which one is allowed to walk two thousand cubits in every direction). ",
+				"<cite ref=\"Mishnah Eruvin 4:7\">Erub. IV, 7</cite> <he>מי שבא … שְׁבִיתָתִי תחתיו</he> if one is on the road (on Friday) at nightfall, and recognizing a tree or a fence (at a distance) says, my Sabbath rest be under it; <he>שביתתי בעיקרו</he> my Sabbath camp be at its root. Ib. 8 <he>שביתתי במקומי</he> my Sabbath centre be where I am now. Ib. 45ᵇ <he>חפצי הפקר קונין ש׳</he> objects which have no owner acquire a Sabbath centre of their own (and he who finds them has to be guided in carrying them by the place where he found them). Ib. <he>חפצי הנכרי אינן קונין ש׳</he> objects belonging to a gentile have no Sabbath centre, i.e. if they come from outside on the Holy Day, the recipient may carry them the distances which he himself is permitted to walk; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>observing the Sabbath, abstention from labor</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 16:6\">Sabb. XVI, 6</cite> (<cite ref=\"Shabbat 121a:3\">121ᵃ</cite>) <he>מפני שאין שְׁבִיתָתוֹ עליך</he> Y. ed. (Mish. a. Bab. ed. <he>עליהן</he>, Ms. M. <he>עלינו</he>) because his (the gentile’s) Sabbath rest is no concern of thine (of theirs, the Jews’ for whom he acts; of ours); <cite ref=\"Shabbat 121a:3\">ib.</cite> <he>מפני ששביתתו עליך</he> because his (the minor’s) observance of the Sabbath is thy (their, our) concern. Y. ib. V, 7ᵇ bot. <he>שהוא מצוה על שְׁבִיתַת בהמתו כמוהו</he> for man is commanded to let his cattle rest as well as himself. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:3:6\">Y. Erub. III, 21ᵃ</cite> <he>אינו יכול להביאו דרך ש׳</he> he cannot bring it home in a manner consistent with the observance of the Sabbath; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " = <cite ref=\"U00091\"><he>שְׁבוּת</he></cite> <i>an act forbidden on the Sabbath by rabbinical law</i>, but permissible in the Temple.—Pl. <he>שְׁבִיתוֹת</he>. Ib. X, end, 26ᵈ (ref. to Mish. ib. X, 11—15) <he>משביתה אחת למדו ש׳ הרבה</he> from the permissibility of one act, we learn the permissibility of many more, v. <cite ref=\"R00075\"><he>צַבְתָּא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

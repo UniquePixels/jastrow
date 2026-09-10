@@ -1,0 +1,32 @@
+{
+	"id": "P00418",
+	"slug": "עזק-1",
+	"headword": {
+		"text": "עָזַק"
+	},
+	"page": {
+		"number": 1062,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <i>Pi.</i>; cmp. <cite ref=\"H00553\"><he>חָזַק</he></cite>) [<i>to press</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to break clods and level the ground; to break ground; to till</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 85b:15\">Men. 85ᵇ</cite> <he>היה עוֹזֵק תחת זיתיו</he> (cmp. <cite ref=\"B00916\"><he>בָּלַשׁ</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 962\">Yalk. Deut. 962</cite> <he>עוסק</he>; <cite ref=\"Yalkut Shimoni on Nach 950\">Yalk. Prov. 950</cite> <he>מוסק</he>) was hacking and levelling the ground under his olive trees. Ohol. XVIII, 5 <he>העוזק בית הפרס</he> he who breaks a field suspected of containing human bones (v. <cite ref=\"Q01911\"><he>פְּרָס</he></cite>). Tosef. ib. XVII, 9 <he>עֲזָקוֹ אין לך בדיקה וכ׳</he> if he broke the ground, there is no better way of examining than this. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:3:1\">Y. R. Hash. II, 58ᵃ</cite> top (ref. to <he>בית יעזק</he>, v. <cite ref=\"J00481\"><he>יַעְזֵק</he></cite>) <he>ששם היו עוֹזְקִין את ההלכה</he> for there they cultivated (levelled) the law; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to hold fast</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 94a\">Ḥull. 94ᵃ</cite> <he>עוזק אחת בפיו וכ׳</he> holding one piece in his mouth and two in his hands."
+			],
+			"label": "2"
+		}
+	]
+}

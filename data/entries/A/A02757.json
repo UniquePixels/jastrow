@@ -1,0 +1,23 @@
+{
+	"id": "A02757",
+	"slug": "אפסטקין",
+	"headword": {
+		"text": "אַפִּסְטְקִין"
+	},
+	"page": {
+		"number": 106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (πιστάκια, τὰ) <i>the fruits of the pistachio-tree</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:2\">Y. Dem. II, beg. 22ᵇ</cite>; <cite ref=\"Jerusalem Talmud Maasrot 1:2:5\">Y. Maasr. I, 48ᵈ</cite> bot. <he>איפ׳</he>; cmp. <cite ref=\"A01943\"><he>אִלְצָרִין</he></cite>."
+			]
+		}
+	]
+}

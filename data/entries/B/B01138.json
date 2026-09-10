@@ -1,0 +1,31 @@
+{
+	"id": "B01138",
+	"slug": "בקר-3",
+	"headword": {
+		"text": "בֹּקֶר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹקֶר"
+		}
+	],
+	"page": {
+		"number": 187,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"B01136\"><he>בָּקַר</he></cite>) <i>morning, early day;</i> metaph. <i>light, salvation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 1:1:17\">Y. Taan. I, 64ᵃ</cite> top <he>ב׳ לצדיקים וכ׳</he> a morning for the righteous, a night for the wicked. Ruth. R. to III, 13 <he>בַּבּ׳ בעולם וכ׳</he> ‘in the morning’—that means in the world which is all-good. Esth. R., introd. (ref. to <cite ref=\"Deuteronomy 28:67\">Deut. XXVIII, 67</cite>) <he>בבָקְרָהּ של בבל וכ׳</he> in the morning (ascendancy) of Babel thou shalt say, Oh that her evening (downfall) would come! <cite ref=\"Bereishit Rabbah 21:1\">Gen. R. s. 21</cite> (ref. to <cite ref=\"Daniel 8:14\">Dan. VIII, 14</cite>) <he>לִכְשֶׁיֵּעָשֶׂה בָּקְרָן וכ׳</he> when the morning of the (persecuting) nations shall become evening, and the evening of Israel morning; Tanḥ. ed. Bub. ",
+				"<cite ref=\"Genesis 23\">B’resh. 23</cite>. Mekh. Bo, s. 6 in order to define it: <he>לבָקְרוֹ של ב׳</he> at the very break of morning; <cite ref=\"Jerusalem Talmud Berakhot 1:1:16\">Y. Ber. I, 2ᶜ</cite> top.—Pl. <cite ref=\"B01396\"><he>בְּקָרִים</he></cite>. ",
+				"<cite ref=\"Yoma 33b:8\">Yoma 33ᵇ</cite> <he>חלקהו לשני ב׳</he> divide the acts prescribed into two mornings, i.e. let another act be inserted between. ",
+				"<cite ref=\"Berakhot 27a:11\">Ber. 27ᵃ</cite> <he>חלקהו לשני ב׳</he> take only one half of the morning hours. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:1:4\">Y. Pes. V, 31ᵈ</cite> top <he>אית לך מימר תמן בין הַבְּקָרַיִם</he> then it ought to have read there <i>ben hab-b’karaim</i> (as you read <he>בין הערבים</he>, Du.)."
+			]
+		}
+	]
+}

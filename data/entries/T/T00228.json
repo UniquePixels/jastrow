@@ -1,0 +1,30 @@
+{
+	"id": "T00228",
+	"slug": "רגתא",
+	"headword": {
+		"text": "רִגְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1451,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00158\"><he>רְגַג</he></cite>) <i>desire</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 10:17\">Targ. Ps. X, 17</cite> (ed. Wil. <he>רִיגְתָּא</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:23\">Targ. Prov. XI, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:24\">Ib. X, 24</cite> (ed. Wil. <cite ref=\"T00160\"><he>רִגְגְתָא</he></cite>, corr. acc., or <cite ref=\"T00160\"><he>רְגִגְתָּא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 13:12\">Ib. XIII, 12</cite>; a. e."
+			]
+		}
+	]
+}

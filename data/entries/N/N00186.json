@@ -1,0 +1,23 @@
+{
+	"id": "N00186",
+	"slug": "נגר-3",
+	"headword": {
+		"text": "נְגַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 876,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>N’gar</i>, legendary name of one of the ancestors of Haman. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 5:1\">Targ. Esth. V, 1</cite>; Targ. II Esth. III, 1 (<cite ref=\"N00184\"><he>נִגַּר</he></cite>)—[<cite ref=\"Targum Jonathan on Exodus 35:35\">Targ. Y. Ex. XXXV, 35</cite>, v. <cite ref=\"N00188\"><he>נַגָּרָא</he></cite>.]"
+			]
+		}
+	]
+}

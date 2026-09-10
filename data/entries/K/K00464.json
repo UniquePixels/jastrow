@@ -1,0 +1,47 @@
+{
+	"id": "K00464",
+	"slug": "כחל-3",
+	"headword": {
+		"text": "כְּחַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 629,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"K00463\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 9:30\">Targ. II Kings IX, 30</cite>; a. e.—",
+				"<cite ref=\"Shabbat 80a:7\">Sabb. 80ᵃ</cite> <he>עין … הא לא כַחֲלֵי</he> but people never paint one eye only!"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (ironically, v. infra) <i>to blind the eyes</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 58a:12\">Ber. 58ᵃ</cite> <he>חברוהי כַחְלִינְהוּ וכ׳</he> his associates put his eyes out, v. <cite ref=\"K00048\"><he>כְּבִי</he></cite>.—[<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:3\">Y. Ab. Zar. II, 40ᵈ</cite> top <he>כחל לה</he>, read in one w., v. <cite ref=\"H01079\"><he>חֲלָלָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיכְּחַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be painted</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 55b\">Nidd. 55ᵇ</cite> if one desires to become blind, <he>לִיכְּחוֹל מארמאי</he> (<he>מעכ״ום</he>) let him have his eyes painted by gentiles; Y. Ab. Zar. l. c. <he>מִיכְּחוּל מינהון</he>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

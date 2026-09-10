@@ -1,0 +1,28 @@
+{
+	"id": "A01283",
+	"slug": "אילונית",
+	"headword": {
+		"text": "אַיְלוֹנִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַיְילוֹנִית"
+		}
+	],
+	"page": {
+		"number": 49,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (prob. fr. <cite ref=\"A01264\"><he>אַיִל</he></cite>; cmp. <cite ref=\"G00468\"><he>זָכָר</he></cite> a. <cite ref=\"D00772\"><he>דְּכַי</he></cite>) (<i>the man-like</i>) <i>barren, wombless, incapable of conception</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 11a:1\">Keth. 11ᵃ</cite> (etymol. from <cite ref=\"A01264\"><he>אַיִל</he></cite>) <he>איי׳ דוכרנית</he> <i>aylonith</i> means ram-like. ",
+				"<cite ref=\"Mishnah Niddah 5:9\">Nidd. V, 9</cite> (<cite ref=\"Niddah 47b:33\">47ᵇ</cite>); a. fr."
+			]
+		}
+	]
+}

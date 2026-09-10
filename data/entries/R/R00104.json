@@ -1,0 +1,23 @@
+{
+	"id": "R00104",
+	"slug": "צדיא-1",
+	"headword": {
+		"text": "צַדְיָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1262,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>צְדֵי</he> I) <i>hunting, ensnaring</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 10:9\">Targ. Y. II, Gen. X, 9</cite> (<cite ref=\"Targum Jerusalem, Genesis 10:9\">ib.</cite> also <cite ref=\"R00336\"><he>צַיְידָּא</he></cite>)."
+			]
+		}
+	]
+}

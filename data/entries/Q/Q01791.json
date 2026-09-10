@@ -1,0 +1,46 @@
+{
+	"id": "Q01791",
+	"slug": "פרידה",
+	"headword": {
+		"text": "פְּרִידָה"
+	},
+	"page": {
+		"number": 1226,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01572\"><he>פָּרַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>one of a pair of pigeons, single pigeon</i>, opp. to <cite ref=\"S01505\"><he>קֵן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kinnim 3:6\">Kinn. III, 6</cite> <he>צריכה … פ׳ אחת</he> she is bound to offer a single pigeon in addition; <cite ref=\"Zevachim 67b:11\">Zeb. 67ᵇ</cite>. Sifra Vayikra, N’dab., ch. VIII, Par. 7; <cite ref=\"Zevachim 65a:6\">Zeb. 65ᵃ</cite> <he>אפי׳ פ׳ אחת וכ׳</he> he may offer even one single pigeon; a. fr.—Pl. <he>פְּרִידִין</he> (m.), <he>פְּרִידוֹת</he>. Kinn. l. c. <he>דין …</he> Bab. ed. (Mish. ed. <he>דות …</he>). Sifra l. c.; a. fr.—Trnsf. <i>a dear person</i>. ",
+				"<cite ref=\"Bava Metzia 84b:11\">B. Mets. 84ᵇ</cite> <he>פ׳ אחת יש לי … ואי אתם וכ׳</he> one pigeon (my son’s body) is among you, and you will not let him come to me (be buried by my side)? <cite ref=\"Bava Metzia 84b:16\">Ib.</cite> <he>פ׳ … ואתם וכ׳</he> I have a dear son among you, and you want to deprive me of him (expose him to the evil eye by showing him too much honor)?—Pl. <he>פְּרִידוֹת</he>. ",
+				"<cite ref=\"Bava Kamma 38b:3\">B. Kam. 38ᵇ</cite> <he>שתי פ׳ טובות וכ׳</he> two fine pigeons (precious proselytes) do I expect to bring forth from among you (v. <cite ref=\"B01287\"><he>בָּרַךְ</he></cite> <i>Hif.</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a single berry; a slice</i> of a pomegranate. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:4\">Y. Ber. VI, 10ᵃ</cite> top <he>פ׳ אחת של ענב</he> one grape berry; <he>פ׳ אחת של רמון</he> one slice of a pomegranate. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 6:1:7\">Y. Naz. VI, 54ᵈ</cite> [read:] <he>פ׳ של רמון … שחלקה בפיו ואכלה</he> a piece of a pomegranate of ʿOrlah (v. <cite ref=\"P01387\"><he>עָרְלָה</he></cite>) which one cut off with his mouth and ate. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:2:5\">Y. Maasr. I, 48ᵈ</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>pebble, particle</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 27a:53\">Nidd. 27ᵃ</cite>, sq. <he>על פ׳ אחת של רקב</he> to one particle of decayed matter; <he>על פ׳ אחת של עפר</he> to one particle of earth. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 2:1:5\">Y. Yoma II, 39ᶜ</cite> top <he>ברוב כל פ׳ ופ׳</he> (the fire must have seized) the larger portion of every particle, opp. <he>רובו של קומץ</he> the larger portion of the handful (of the meal offering); a. e.—Pl. <he>פְּרִידוֹת</he>. Nidd. l. c.—[<cite ref=\"Q01791\"><he>פרידה</he></cite> ch., v. <cite ref=\"Q01789\"><he>פְּרִידָא</he> I</cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

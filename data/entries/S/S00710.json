@@ -1,0 +1,34 @@
+{
+	"id": "S00710",
+	"slug": "קטול-2",
+	"headword": {
+		"text": "קָטוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָטוֹלָא"
+		},
+		{
+			"text": "קַטּ׳"
+		}
+	],
+	"page": {
+		"number": 1346,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00774\"><he>קְטַל</he></cite>) <i>manslayer, murderer</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 14:12\">Targ. Is. XIV, 12</cite> (ed. Wil. <cite ref=\"K01174\"><he>קְ׳</he></cite>, corr. acc.). ",
+				"<cite ref=\"Onkelos Numbers 35:16\">Targ. Num. XXXV, 16</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:8:2\">Y. Sot. IX, 24ᵃ</cite> (expl. <he>בן הרוצחן</he>) [read:] <he>בריה דקָטוֹלָה</he> son of a murderer; a. e.—Pl. <he>קָטוֹלִין</he>, <he>קָטוֹלַיָּא</he>, <cite ref=\"K01174\"><he>קְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:13\">Targ. Y. Ex. XX, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 62:4\">Targ. Ps. LXII, 4</cite> (Ms. <cite ref=\"S00710\"><he>קַטּ׳</he></cite>); a. e."
+			]
+		}
+	]
+}

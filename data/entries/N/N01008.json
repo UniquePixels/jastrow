@@ -1,0 +1,34 @@
+{
+	"id": "N01008",
+	"slug": "נער-3",
+	"headword": {
+		"text": "נְעַר"
+	},
+	"page": {
+		"number": 921,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01007\">same</cite>, <i>to shake, stir</i>.—<i>Part. pass.</i> <he>נְעִיר</he> <i>waking</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 21:32\">Targ. Job XXI, 32</cite> (Ms. <he>נָעִיר</he>; ed. Wil. <he>יְעִיר</he>, v. <cite ref=\"P00343\"><he>עוּר</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to shake; to empty</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 570\">Yalk. Zech. 570</cite>; <cite ref=\"Shir HaShirim Rabbah 4:8\">Cant. R. to IV, 8</cite> (ref. to <cite ref=\"Zechariah 2:17\">Zech. II, 17</cite>) <he>דמְנַעֲרָה וכ׳</he> (<he>דמְנַעֲרָא</he>), v. <cite ref=\"C00262\"><he>גֵּו</he></cite> ch.; <cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite>. ",
+						"<cite ref=\"Shabbat 142a:5\">Sabb. 142ᵃ</cite> <he>ולִינַעֲרִינְהוּ נַעוּרֵי</he> let him shake the fruit out of the basket."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

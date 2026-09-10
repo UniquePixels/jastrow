@@ -1,0 +1,28 @@
+{
+	"id": "D00235",
+	"slug": "דוי-4",
+	"headword": {
+		"text": "דָּוֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּוֵּי"
+		}
+	],
+	"page": {
+		"number": 284,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דְּוָא</he> I) <i>sad, depressed</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 20:43\">Targ. I Kings XX, 43</cite>; <cite ref=\"Targum Jonathan on I Kings 21:4\">XXI, 4</cite> (ed. Vien. <cite ref=\"D00235\"><he>דַּוָי</he></cite>).—Pl. <cite ref=\"D00294\"><he>דָּוָן</he></cite>, <cite ref=\"D00216\"><he>דָּוָון</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 16:7\">Targ. Is. XVI, 7</cite> (ed. Lag. <he>הו׳</he>, corr. acc.); <cite ref=\"Targum Jonathan on Isaiah 16:11\">11</cite>."
+			]
+		}
+	]
+}

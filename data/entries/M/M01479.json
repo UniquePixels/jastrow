@@ -1,0 +1,28 @@
+{
+	"id": "M01479",
+	"slug": "מלביניקי",
+	"headword": {
+		"text": "מַלְבִּינִיקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַלְבְּנִיקֵי"
+		}
+	],
+	"page": {
+		"number": 786,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a corrupt. of mala pumica) <i>pome-granates</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:8\">Y. Sabb. VI, 8ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Yevamot 12:2:5\">Y. Yeb. XII, 12ᵈ</cite> top, v. <cite ref=\"A00257\"><he>אֱגוֹד</he></cite>."
+			]
+		}
+	]
+}

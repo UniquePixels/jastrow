@@ -1,0 +1,31 @@
+{
+	"id": "I00606",
+	"slug": "טעין-2",
+	"headword": {
+		"text": "טְעִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְעוּן"
+		},
+		{
+			"text": "טְעִינָא"
+		}
+	],
+	"page": {
+		"number": 543,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טְעַן</he> II) <i>laden, carrying</i>. [<cite ref=\"Targum Jonathan on I Samuel 16:20\">Targ. I Sam. XVI, 20</cite>, v. <cite ref=\"I00598\"><he>טְעוּנָא</he></cite>.] <cite ref=\"Aramaic Targum to Esther 2:15\">Targ. Esth. II, 15</cite> <he>טְעִינַת טיבו</he> (h. text <he>נשאת חן</he>).—",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 70:13\">Gen. R. s. 70</cite> <he>ממון אתית ט׳ וכ׳</he> that I came laden with money; <cite ref=\"Bereishit Rabbah 1\">I</cite> bring only words.—Pl. (<he>טְעוּ׳</he>) <cite ref=\"I00268\"><he>טְעִינִין</he></cite>; f. <cite ref=\"I00606\"><he>טְעִינָן</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 37:25\">Targ. Gen. XXXVII, 25</cite> (Y. ed. Amst. <he>טְעוֹ׳</he>). Ib. XLV, 23; a. e."
+			]
+		}
+	]
+}

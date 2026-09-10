@@ -1,0 +1,22 @@
+{
+	"id": "P01351",
+	"slug": "עריה",
+	"headword": {
+		"text": "עֶרְיָה"
+	},
+	"page": {
+		"number": 1117,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"P01321\"><he>עֶרְוָה</he></cite>) <i>genitals</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:5\">Bekh. VI, 5</cite> <he>ע׳ של נקבה</he> the genitals of a female animal.—Pl. <he>עֲרָיוֹת</he>, v. <cite ref=\"P01321\"><he>עֶרְוָה</he></cite>."
+			]
+		}
+	]
+}

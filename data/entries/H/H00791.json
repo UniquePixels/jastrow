@@ -1,0 +1,30 @@
+{
+	"id": "H00791",
+	"slug": "חילקא-2",
+	"headword": {
+		"text": "חֶילְקָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֶילְקָה"
+		}
+	],
+	"page": {
+		"number": 457,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01112\"><he>חָלַק</he></cite>; cmp. Lat. alica, halica, a. <cite ref=\"H00787\"><he>חֵילֶק</he> I</cite>) <i>split grain, grist, spelt used for halica</i> (v. Sm. Ant. s. v. Alica). ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 6:2\">Makhsh. VI, 2</cite> <he>חילקה</he> Mish. (Talm. ed. <cite ref=\"H01063\"><he>חֲלִיקָה</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:4:5\">Y. Sabb. I, 3ᶜ</cite> bot. ",
+				"<cite ref=\"Moed Katan 13b:9\">M. Kat. 13ᵇ</cite> <he>ח׳ חדא לתרתי</he> it is called <i>ḥelka</i> when each grain is broken in two parts; <cite ref=\"Berakhot 37a:4\">Ber. 37ᵃ</cite> Ms. <he>ח׳ דמתברי באסיתא תרתי תרתי</he> <i>ḥilka</i> is wheat pounded &c.—M. Kat. l. c. (another opin.) <he>ח׳ כונתא</he> ḥ. is spelt. Ib. it is called <i>ḥelka</i> (<i>smooth</i>), <he>דשקיל חלקייהו</he> Ar. (ed. <he>דשקל</he>) because its husks have been taken off (cmp. <cite ref=\"H00788\"><he>חֵילֶק</he> II</cite>); v. <cite ref=\"H01119\"><he>חִלְקָא</he></cite>."
+			]
+		}
+	]
+}

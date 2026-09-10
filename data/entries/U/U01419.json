@@ -1,0 +1,69 @@
+{
+	"id": "U01419",
+	"slug": "שמד-1",
+	"headword": {
+		"text": "שָׁמַד"
+	},
+	"page": {
+		"number": 1592,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <i>Hif.</i>; cmp. <he>שמם</he>, <i>to be waste</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁימֵּד"],
+			"senses": [
+				{
+					"gloss": " [<i>to destroy,</i>] <i>to persecute; to force to apostasy</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 82:8\">Gen. R. s. 82</cite> <he>ואם לאו הרי אני מְשַׁמֵּד אתכם</he> and if you cannot answer, I will force you to forswear your religion; <cite ref=\"Yalkut Shimoni on Nach 263\">Yalk. Is. 263</cite> <he>אַשְׁמִיד</he> (Hif.).—Part. pass. <cite ref=\"M02832\"><he>מְשׁוּמָּד</he></cite> <i>converted to heathenism</i>, q. v."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁמִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to destroy</i>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 7:10\">Esth. R. to III, 6</cite> <he>אני אמרתי להַשְׁמִידָם</he> … <he>להַשְׁמִיד וכ׳</he> I (the Lord) intended to destroy them, and, as it were, could not …, and thou wilt destroy, slay &c.? <cite ref=\"Esther Rabbah 3:12\">Ib. to III, 12</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to force to apostasy</i>, v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשְׁתַּמֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be destroyed, cut off</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 558\">Yalk. Lev. 558</cite> <he>דואג נ׳ מעולם וכ׳</he> Doeg was cut off from this and from the other world; (Tanḥ. M’tsorʿa 2 <cite ref=\"U02038\"><he>נשתרש</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to apostatize</i>. Y. Gitt. VII, beg. 48ᶜ. Y. Hor. I, 45ᵈ bot. Y. Succ. V, end, 55ᶜ <he>מרים</he> … <he>שׁנִשְׁתַּמְּדָה וכ׳</he> Miriam … who renounced her religion, and married a Roman officer; <cite ref=\"Tosefta Sukkah 4\">Tosef. Succ. IV</cite>, 28ᵈ; Bab. ",
+					"units": [
+						"<cite ref=\"Sukkah 56b\">Succ. 56ᵇ</cite> Ms. M. (ed. <he>שהמירה דתה</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

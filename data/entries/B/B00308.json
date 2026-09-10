@@ -1,0 +1,39 @@
+{
+	"id": "B00308",
+	"slug": "בוץ-3",
+	"headword": {
+		"text": "בּוּץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּצָא"
+		}
+	],
+	"page": {
+		"number": 147,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"B00307\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite>. ",
+				"<cite ref=\"Onkelos Genesis 41:42\">Targ. Gen. XLI, 42</cite>; a. e.—Pl. <cite ref=\"B00311\"><he>בּוּצִין</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 18:13\">Targ. Job XVIII, 13</cite> Ms. Var. (ed. <cite ref=\"B00378\"><he>בּוּצְנִין</he></cite>) <i>linen garments</i> (h. text <cite ref=\"B00129\"><he>בַּדֵּי</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"B00311\"><he>בּוּצִין</he></cite>) <i>wick</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 42:3\">Targ. Is. XLII, 3</cite>; <cite ref=\"Targum Jonathan on Isaiah 43:17\">XLIII, 17</cite> (Var. <cite ref=\"B00311\"><he>בוצין</he></cite>; h. text <he>פשתה</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>swamp</i>, v. <cite ref=\"B01073\"><he>בִּצָּא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

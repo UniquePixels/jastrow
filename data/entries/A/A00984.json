@@ -1,0 +1,31 @@
+{
+	"id": "A00984",
+	"slug": "אזר",
+	"headword": {
+		"text": "אָזַר"
+	},
+	"page": {
+		"number": 38,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>זר</he>, cmp. <cite ref=\"G00686\"><he>זרז</he></cite>, <he>אֶזְרוֹעַ</he>)<i>to put around, girdle; to strengthen</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְאַזָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to gird, strengthen one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 16b:19\">Ber. 16ᵇ</cite> <he>ותִתְאַזָּר וכ׳</he> and gird thyself with thy mercy."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

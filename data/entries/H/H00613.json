@@ -1,0 +1,76 @@
+{
+	"id": "H00613",
+	"slug": "חטי-1",
+	"headword": {
+		"text": "חטי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָטָא"
+		},
+		{
+			"text": "חָטָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 448,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to stroll idly, saunter</i> (v. Fl. to Levy Targ. Dict. I, 424<sup>2</sup>),] <i>to live in luxury, to be like a nobleman, to be well-dressed, clean</i> &c. (cmp. <he>פנק</he>, <he>פרנק</he>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִטֵּא", "חִטָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to make look well, polish, dress, cleanse, prepare</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 27a:4\">Ḥull. 27ᵃ</cite> (play on <he>וש̇ח̇ט̇</he>, <cite ref=\"Leviticus 1:5\">Lev. I, 5</cite>) <he>ממקום שש̇ח̇ חַטֵֹּהוּ</he> from the place where the animal bends (its head, the front of the neck), cleanse it (let its blood run out). ",
+						"<cite ref=\"Leviticus 1:5\">Ib.</cite> <he>ממאי דהאי חטהו לישנא דדכויי הוא</he> how can you prove that this <i>ḥattehu</i> has the meaning of cleansing?—",
+						"<cite ref=\"Leviticus 1:5\">Ib.</cite> <he>ממקום שס̇ח̇ ח̇ט̇הו</he> from where it utters sound, cleanse it. [<cite ref=\"Shir HaShirim Rabbah 7:2\">Cant. R. to VII, 2</cite>, v. infra.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַטֵּא", "הִתְחַטָּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְח׳"],
+			"senses": [
+				{
+					"gloss": "<i>to enjoy, to be gratified</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 7:2\">Cant. R. to VII, 2</cite> [read:] <he>כל חִיטּוּיִין … שישראל מִתְחַטִּין וכ׳</he> all luxuries and enjoyments which Israel indulge in and enjoy. ",
+						"<cite ref=\"Menachot 66b:4\">Men. 66ᵇ</cite> (play on <he>נ̇ת̇ע̇ל̇ס̇ה̇</he>, <cite ref=\"Proverbs 7:18\">Prov. VII, 18</cite>) <he>נ̇שא ונת̇ן ונע̇לה ונ̇שמח ונִתְחַטֵּא באהבים</he> let us have a conversation, then let us go up and rejoice and delight ourselves with dalliances; Sifra Vayikra, N’dabah, ch. XIV, Par. 13. Men. l. c. (play on <he>נ̇ע̇ל̇ס̇ה̇</he> <cite ref=\"Job 39:13\">Job XXXIX, 13</cite>) <he>נ̇וש̇א עול̇ה ונתח̇טא</he>; Sifra l. c. <he>נושא ועולה ומִתְחַטֵּא</he> he (the bird) raises (his wings) and rises and enjoys himself (differ. interpret. in Rashi)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to show one’s self a nobleman, to be generous, proud</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 7:7:1\">Cant. R. to VII, 7</cite> <he>שהיה מתחטא על וכ׳</he> he was generous towards &c. (ref. to <cite ref=\"Genesis 14:23\">Gen. XIV, 23</cite>, <cite ref=\"Daniel 5:17\">Dan. V, 17</cite>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be imperious, to lord it, to ask petulantly</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Taanit 3:8\">Taan. III, 8</cite> <he>אתה מתח׳ לפני</he> thou comest petulantly before the Lord <he>כבן שהוא מתח׳ על וכ׳</he> like a son that lords it over his father &c. ",
+						"<cite ref=\"Shir HaShirim Rabbah 5:6\">Cant. R. to V, 6</cite> (explain. <he>חמק</he>, <cite ref=\"Shir HaShirim Rabbah 5:6\">ib.</cite>) <he>נתח׳ וכ׳</he> he became petulant, he got angry with me."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

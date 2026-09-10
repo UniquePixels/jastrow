@@ -1,0 +1,22 @@
+{
+	"id": "S00056",
+	"slug": "קביצה",
+	"headword": {
+		"text": "קְבִיצָה"
+	},
+	"page": {
+		"number": 1308,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00092\"><he>קָבַץ</he></cite>) <i>gathering</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 112a:16\">Snh. 112ᵃ</cite> <he>מחוסר … ק׳ וכ׳</he> requiring to be gathered in one place and to be burnt."
+			]
+		}
+	]
+}

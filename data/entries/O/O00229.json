@@ -1,0 +1,24 @@
+{
+	"id": "O00229",
+	"slug": "סובב",
+	"headword": {
+		"text": "סוֹבֵב"
+	},
+	"page": {
+		"number": 960,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00030\"><he>סָבַב</he></cite>) <i>ring, hoop</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:3\">Kel. XI, 3</cite>, a. e. <he>ס׳ של גלגל</he> the iron hoop of a wheel.—Esp. <he>הס׳</he> <i>the Sobeb</i>, a sort of gallery around the altar for the priest to walk on. ",
+				"<cite ref=\"Mishnah Middot 3:1\">Midd. III, 1</cite> <he>זה הס׳</he> there (at five cubits from the bottom) the Sobeb was attached. ",
+				"<cite ref=\"Mishnah Zevachim 5:3\">Zeb. V, 3</cite>; a. fr."
+			]
+		}
+	]
+}

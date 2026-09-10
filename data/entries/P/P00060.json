@@ -1,0 +1,122 @@
+{
+	"id": "P00060",
+	"slug": "עבר-2",
+	"headword": {
+		"text": "עֲבַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָבַר"
+		}
+	],
+	"page": {
+		"number": 1039,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00059\">same</cite>, <i>to pass, cross, step over, forgive</i> &c. (v. <cite ref=\"P00059\">preced.</cite>). Impf. <he>יְעִיבַּר</he>; infin. <he>מִיעִיבַּר</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 32:17\">Targ. Gen. XXXII, 17</cite>. ",
+				"<cite ref=\"Onkelos Genesis 12:6\">Ib. XII, 6</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 17:2\">Targ. O. Deut. XVII, 2</cite> <he>מִיעִיבַּר</he> ed. Berl. (oth. ed. <cite ref=\"M02055\"><he>מֶעְבַּר</he></cite>, <cite ref=\"M02055\"><he>מֶעֱבַר</he></cite>; Y. <he>מֵעִיבַר</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 124:4\">Targ. Ps. CXXIV, 4</cite>; a. v. fr.—",
+				"<cite ref=\"Shabbat 40a:10\">Sabb. 40ᵃ</cite> <he>האי מאן דע׳ אדרבנן</he> he who disregards Rabbinical enactments. Y. ib. VII, 9ᵃ top; <cite ref=\"Jerusalem Talmud Yevamot 8:3:5\">Y. Yeb. VIII, 9ᶜ</cite> <he>עַבְרַת בידך וכ׳</he>, v. <cite ref=\"B00130\"><he>בְּדִי</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:11:4\">Y. Ab. Zar. III, 43ᵇ</cite> bot. <he>מהו נִיעֲבוֹר קומוי</he> how about passing it by?; … <he>עבור וסמי עיניה</he> pass it and ignore it, v. <cite ref=\"O01079\"><he>סְמֵי</he></cite>; <cite ref=\"Jerusalem Talmud Berakhot 2:1:16\">Y. Ber. II, 4ᵇ</cite> <he>מהו מִיעֲבוֹר</he> (not <cite ref=\"M01101\"><he>מיהו</he></cite>); <cite ref=\"Jerusalem Talmud Shekalim 2:5:4\">Y. Shek. II, 47ᵃ</cite> top; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַעְבַּר", "אַעַבַּר"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"P00059\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 18:21\">Targ. O. Lev. XVIII, 21</cite> <he>לאָעַבָרָא</he> ed. Berl. (oth. ed. <he>לאַעְבָּ׳</he>, <he>לאַעֲבָ׳</he>). ",
+						"<cite ref=\"Onkelos Genesis 47:21\">Targ. Gen. XLVII, 21</cite>. ",
+						"<cite ref=\"Onkelos Exodus 36:6\">Targ. Ex. XXXVI, 6</cite>.—",
+						"<cite ref=\"Targum Jonathan on II Samuel 12:13\">Targ. II Sam. XII, 13</cite>.—",
+						"<cite ref=\"Targum Jonathan on Micah 7:18\">Targ. Mic. VII, 18</cite>; a. v. fr.—Esp. (b. h. <cite ref=\"P00061\"><he>עִבֵּר</he></cite>) <i>to pass through; to bar</i>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 6:21\">Targ. I Kings VI, 21</cite>. ",
+						"<cite ref=\"Onkelos Exodus 36:33\">Targ. O. Ex. XXXVI, 33</cite>.—<i>Part. pass.</i> <he>מַעְבַּר</he> <i>passed through, barring</i>. ",
+						"<cite ref=\"Onkelos Exodus 26:28\">Ib. XXVI, 28</cite>.—",
+						"<cite ref=\"Chagigah 5a\">Ḥag. 5ᵃ</cite> <he>מַעְבִּיר במיליה</he> = h. <he>מַעֲבִיר על מדותיו</he>, v. <cite ref=\"P00059\">preced.</cite> a. <cite ref=\"M00252\"><he>מִדָּה</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["עַבַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be with child, to conceive</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 51:7\">Targ. Ps. LI, 7</cite> <cite ref=\"P00064\"><he>עַבְּרַת</he></cite> (ed. Lag. <cite ref=\"P00071\"><he>עברית</he></cite>, Bxt. <he>עֲבָרַת</he>, corr. acc.). ",
+						"<cite ref=\"Targum Jonathan on Numbers 11:12\">Targ. Y. Num. XI, 12</cite> (ed. Vien. <cite ref=\"P00071\"><he>עֲבָרִית</he></cite>, corr. acc.); a. fr.—Part. pass. f. <cite ref=\"M02047\"><he>מְעַבְּרָא</he></cite>, <cite ref=\"M02058\"><he>מְעַבְּרָה</he></cite>, <cite ref=\"M02059\"><he>מְעַבַּרְתָּא</he></cite>; pl. <cite ref=\"M02059\"><he>מְעַבְּרָתָא</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 16:11\">Targ. Y. Gen. XVI, 11</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 38:24\">Ib. XXXVIII, 24</cite>; a. e.—",
+						"<cite ref=\"Bava Kamma 47a:7\">B. Kam. 47ᵃ</cite> <he>פרה מע׳</he> a pregnant cow. ",
+						"<cite ref=\"Chullin 59b:10\">Ḥull. 59ᵇ</cite> <he>אַפִּילוּ כל מע׳</he> all pregnant women miscarried; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " as <cite ref=\"P00059\">preced.</cite> <i>Hif., to cause to pass; to remove, displace; to cover up</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 65b:1\">Ab. Zar. 65ᵇ</cite> <he>מְעַבֵּר להו מעברא</he> he passed them over the ford. ",
+						"<cite ref=\"Yoma 33b:2\">Yoma 33ᵇ</cite> <he>עַבּוּרֵי דרעא וכ׳</he>, v. <cite ref=\"D01118\"><he>דְּרָעָא</he></cite>. ",
+						"<cite ref=\"Eruvin 65a:2\">Erub. 65ᵃ</cite>, v. <cite ref=\"Q00314\"><he>פּוּק</he></cite>. ",
+						"<cite ref=\"Chullin 18a:5\">Ḥull. 18ᵃ</cite> <he>שמתיה ועַבְּרֵיה</he> he excommunicated him and removed him (from his office). ",
+						"<cite ref=\"Chullin 18a:3\">Ib.</cite> <he>מְעַבְּרִינָן ליה וכ׳</he> we remove him and declare his meat <i>ṭ’refah</i>. ",
+						"<cite ref=\"Berakhot 27b:20\">Ber. 27ᵇ</cite> <he>תא ונְעַבְּרֵיה</he> come, let us displace him. ",
+						"<cite ref=\"Berakhot 39a:11\">Ib. 39ᵃ</cite> <he>לעבורי זוהמא</he> to carry off foul matter. Y. Ber. II, 4ᶜ bot. <he>הוה מעבר וכ׳</he> covered it with a sheet, v. <cite ref=\"Q01045\"><he>פַּלְיוּם</he></cite>; a. fr.—",
+						"<cite ref=\"Yevamot 63b\">Yeb. 63ᵇ</cite> <he>עבורו</he>, v. infra."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to declare a full month, a leap year</i>. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 12:32\">Targ. I Chr. XII, 32</cite>. ",
+						"<cite ref=\"Aramaic Targum to Song of Songs 7:5\">Targ. Cant. VII, 5</cite>; a. e.—",
+						"<cite ref=\"Sanhedrin 11b:4\">Snh. 11ᵇ</cite> <he>בתר דעַבְּרוּהָ</he> after they had declared it a leap year. ",
+						"<cite ref=\"Rosh Hashanah 20a:8\">R. Hash. 20ᵃ</cite> <he>עַבְּרוּהָ לאלול</he> they have declared Elul a full month; a. e.—Part. pass. <cite ref=\"M02055\"><he>מְעַבַּר</he></cite>; f. <cite ref=\"M02059\"><he>מְעַבַּרְתָּא</he></cite>. ",
+						"<cite ref=\"Sanhedrin 12b:2\">Snh. 12ᵇ</cite> <he>שתא מע׳</he> a leap year; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַבַּר", "אִיעַבַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to become pregnant</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 19:36\">Targ. Y. Gen. XIX, 36</cite>, sq.; a. e.—",
+						"<cite ref=\"Yevamot 45a\">Yeb. 45ᵃ</cite> <he>אִיעַבְּרָא מכותי</he> was with child by a Samaritan."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to get over it, to be appeased</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 63b:2\">Yeb. 63ᵇ</cite> <he>מתקיף … ועַבּוּרֵי איעברא במילא</he> she is irascible, but is easily appeased with a word."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be waded through, be crossed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 47:5\">Targ. Ez. XLVII, 5</cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

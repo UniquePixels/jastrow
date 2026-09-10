@@ -1,0 +1,36 @@
+{
+	"id": "T00459",
+	"slug": "רז-1",
+	"headword": {
+		"text": "רָז"
+	},
+	"page": {
+		"number": 1464,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רזז</he> or <he>רוז</he>, cmp. <cite ref=\"T00342\"><he>רוֹזֵן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strength, foundation</i> (corresp. to <cite ref=\"J00456\"><he>יְסוֹד</he></cite>, <cite ref=\"O00257\"><he>סוֹד</he></cite>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 42a:10\">Snh. 42ᵃ</cite> (ref. to <he>ולרוזנים</he>, <cite ref=\"Proverbs 31:4\">Prov. XXXI, 4</cite>) <he>העוסקים ברָזוֹ של עולם וכ׳</he> those engaged in the foundation of the world (administration of justice) must abstain from strong drink."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (corresp. to <cite ref=\"O00257\"><he>סוֹד</he></cite>) <i>secret</i>. Ib. 94ᵃ (ref. to <cite ref=\"Isaiah 24:16\">Is. XXIV, 16</cite>) <he>אמר שר העולם … רָזִי לי רזי לי</he> the genius of the world said, Master of the world, do the will of this righteous man (Ezekiel) (make him the Messiah); then a divine voice went forth saying, my secret is mine &c. (v. Targ. a. Vulgate Is. l. c.). ",
+			"units": [
+				"<cite ref=\"Shabbat 88a:8\">Sabb. 88ᵃ</cite> <he>מי גילה לבני רז זה וכ׳</he> who revealed to my children this secret by which the ministering angels are guided?; a. e.—Pl. <he>רָזִים</he>. ",
+				"<cite ref=\"Sanhedrin 70b:5\">Snh. 70ᵇ</cite> (ref. to Prov. l. c.) <he>מי שכל רָזֵי עולם גלוים וכ׳</he> should he to whom all secrets of the world are revealed, drink wine and be drunk?; Tanḥ. Sh’moth 1; <cite ref=\"Bamidbar Rabbah 10:1\">Num. R. s. 10<sup>4</sup></cite>. ",
+				"<cite ref=\"Devarim Rabbah 11:11\">Deut. R. s. 11</cite> <he>גליתי רָזֵיהֶם וכ׳</he> I revealed their (the angels’) secret to the sons of man; a. e.—[Y. M. Kat. I, 80ᶜ bot., read as <cite ref=\"Jerusalem Talmud Sanhedrin 6:10:2\">Y. Snh. VI, 23ᵈ</cite> bot. <he>בארזים</he>, v. <cite ref=\"A03056\"><he>אֲרָזִין</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

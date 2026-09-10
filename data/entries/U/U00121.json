@@ -1,0 +1,31 @@
+{
+	"id": "U00121",
+	"slug": "שבייתא",
+	"headword": {
+		"text": "שִׁבְיְיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבְיְתָא"
+		}
+	],
+	"page": {
+		"number": 1513,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U00116\"><he>שִׁבְיָה</he></cite>, <i>captivity;</i> (collect. noun) <i>captives; booty</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 68:19\">Targ. Ps. LXVIII, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:10\">Targ. Y. Deut. XXI, 10</cite>, sq. (ed. Vien. <cite ref=\"U00114\"><he>שִׁבְיָ׳</he></cite>); <cite ref=\"Targum Jonathan on Deuteronomy 21:13\">ib. 13</cite> (ed. Vien. <he>שִׁבְיָי׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:5\">Targ. Lam. I, 5</cite>; a. fr.—Pl. <cite ref=\"U00121\"><he>שִׁבְיָיתָא</he></cite>, <cite ref=\"U00121\"><he>שִׁבְיָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 31:26\">Targ. Y. Gen. XXXI, 26</cite> <cite ref=\"U00114\"><he>שִׁבְיָת</he></cite> (O. <he>שַׁבְיוֹת</he>; Ms. I <he>שְׁבֻיוֹת</he>; ed. Berl. <cite ref=\"U00113\"><he>שָׁבְיָת</he></cite>).—",
+				"<cite ref=\"Kiddushin 81a:11\">Kidd. 81ᵃ</cite> <cite ref=\"U00076\"><he>שְׁבוֹיָתָא</he></cite>; <cite ref=\"Ketubot 23a:14\">Keth. 23ᵃ</cite> <cite ref=\"U00076\"><he>שְׁבוֹיָיתָא</he></cite> captured women."
+			]
+		}
+	]
+}

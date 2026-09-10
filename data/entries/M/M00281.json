@@ -1,0 +1,33 @@
+{
+	"id": "M00281",
+	"slug": "מדי-2",
+	"headword": {
+		"text": "מָדִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָדִיִּי"
+		}
+	],
+	"page": {
+		"number": 733,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00280\">preced.</cite>) <i>Median</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:1\">Sabb. II, 1</cite>, a. e., v. <cite ref=\"N00475\"><he>נָחוּם</he></cite>. ",
+				"<cite ref=\"Yoma 11b:5\">Yoma 11ᵇ</cite> <he>שער המ׳</he> a Median gate (archway). ",
+				"<cite ref=\"Esther Rabbah 4:12\">Esth. R. to I, 22</cite> <he>לשון מ׳</he> the Median language; a. e.—<i>Fem.</i> <he>מָדִית</he>, <cite ref=\"M00281\"><he>מָדִיִּית</he></cite>. ",
+				"<cite ref=\"Esther Rabbah 4:12\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Kelim 23:2\">Kel. XXIII, 2</cite>, v. <cite ref=\"M00266\"><he>מְדוֹכָה</he></cite>; a. e.—Pl. <he>מָדִיּוֹת</he>. ",
+				"<cite ref=\"Esther Rabbah 3:13\">Esth. R. to I, 11</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 6:6\">Sabb. VI, 6</cite>, v. <cite ref=\"Q01953\"><he>פָּרַף</he></cite>. Y. ib. XII, 13ᶜ bot.; ib. IX, end, 12ᵇ <he>חטים מ׳</he> Median wheat-grains; a. e."
+			]
+		}
+	]
+}

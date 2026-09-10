@@ -1,0 +1,32 @@
+{
+	"id": "M00933",
+	"slug": "מחקא-1",
+	"headword": {
+		"text": "מְחָקָא"
+	},
+	"page": {
+		"number": 764,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"M00932\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 164a:9\">B. Bath. 164ᵃ</cite> <he>לא דמי מ׳ דהא וכ׳</he> the erasure (written over) of one paper cannot be compared to that of another paper. ",
+				"<cite ref=\"Bava Batra 164a:5\">Ib.</cite> <he>אנחנא … על מ׳</he> we witnesses have signed our names over an erasure; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>papyrus</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 19a:1\">Meg. 19ᵃ</cite> top (explaining <cite ref=\"N00664\"><he>נייר</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "N00836",
+	"slug": "נכס-1",
+	"headword": {
+		"text": "נָכַס"
+	},
+	"page": {
+		"number": 911,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00949\"><he>כָּסַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut; to slaughter</i>. Imper. <cite ref=\"K00314\"><he>כּוֹס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesachim 61a\">Pes. 61ᵃ</cite> (expl. <he>תכסו</he>, <cite ref=\"Exodus 12:4\">Ex. XII, 4</cite>) <he>טלה זה לשון סורסי הוא … כוס לו</he> it is an abbreviated form (v. <cite ref=\"O00435\"><he>סוּרְסִי</he></cite>), as one says to his neighbor, <i>kos</i> (for <he>נְכוֹס</he>) &c., cut this lamb for me; Y. ib. V, 32ᵃ bot.; Mekh. Bo. s. 3.—",
+				"<cite ref=\"Sanhedrin 82b:9\">Snh. 82ᵇ</cite> (play on <he>כזבי</he>, <cite ref=\"Numbers 25:15\">Num. XXV, 15</cite>) <he>שאמרה לאביה כוס בי עם זה</he> she said to her father, cut (ruin) this people through me. ",
+				"<cite ref=\"Chullin 37b:6\">Ḥull. 37ᵇ</cite> <he>בְּשַׂר כוס כוס</he> meat of an animal about which one says, ‘cut, cut’, i.e. meat of an animal hurriedly cut, because it threatens to die; Treat. Kuthim (ed. Kirchh., p. 33, sq.) we must not sell to Samaritans <cite ref=\"K00326\"><he>כּוֹסְכּוֹס</he></cite> (sub. <he>בשר</he>) meat of an animal on the point of death."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to mark, count</i>, v. <cite ref=\"N00841\"><he>נְכָסִים</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "N00354",
+	"slug": "נוי-3",
+	"headword": {
+		"text": "נוֹי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נוֹא"
+		}
+	],
+	"page": {
+		"number": 887,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00314\"><he>נָוָה</he></cite>, <cite ref=\"N00011\"><he>נָאָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>beauty, ornament</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 14:2\">Kel. XIV, 2</cite> <he>עשאן לנוי</he> (ed. Dehr. <he>לנוֹאי</he>) he attached them for ornamentation. ",
+				"<cite ref=\"Yevamot 39b:17\">Yeb. 39ᵇ</cite> <he>הכונס את יבמתו … לשם נ׳</he> he who married his deceased brother’s wife (v. <cite ref=\"J00062\"><he>יְבָמָה</he></cite>) for her beauty (not with the intention of perpetuating his brother’s name). ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:4:8\">Y. Maasr. III, end, 51ᵃ</cite> <he>לנוֹיָיהּ של חצר</he> to embellish the court. ",
+				"<cite ref=\"Zevachim 54b:3\">Zeb. 54ᵇ</cite> (play on <he>בנוית</he>, <cite ref=\"I Samuel 19:18\">I Sam. XIX, 18</cite>) <he>עוסקין בנוֹיוֹ של וכ׳</he> engaged in the embellishment of the world (consulting about building the Temple). Koh. R. to II, 12 <he>והוא נוֹאוֹ</he> and this (the nose) is man’s beauty; <cite ref=\"Bereishit Rabbah 12:1\">Gen. R. s. 12</cite> <he>נאה</he> (corr. acc.). ",
+				"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>בעלת נ׳</he> a handsome woman; a. fr.—Pl. <he>נוֹיוֹת</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 988:64\">Yalk. Cant. 988</cite> <he>בנוֹיוֹתָיו</he> (not <he>בנויתיו</he>), v. <cite ref=\"N00010\"><he>נָאֶה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"N00354\"><he>נוֹי</he></cite> or <he>נְוָיי</he> (= <cite ref=\"N00316\"><he>נָוֶוה</he> II</cite>) <i>dwelling, climate</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 24b:3\">B. Bath. 24ᵇ</cite> <he>משום נויי העיר</he> because of the health of the town (which suffers from trees; Rashi: because of <i>the beauty</i> of the town which requires an open space all around); Y. ib. II, 13ᶜ top <he>שניאו רע</he>; Y. Shebi. VI, 36ᶜ bot. <cite ref=\"N00634\"><he>נִיוְיָהּ</he></cite>, v. <cite ref=\"N00316\"><he>נָוֶה</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

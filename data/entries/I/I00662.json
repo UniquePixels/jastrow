@@ -1,0 +1,37 @@
+{
+	"id": "I00662",
+	"slug": "טפל-3",
+	"headword": {
+		"text": "טָפֵל"
+	},
+	"page": {
+		"number": 548,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"I00661\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>attachment, of secondary import</i>, opp. <he>עיקר</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39:13\">Gen. R. s. 39</cite> <he>ולוט ט׳ לו</he> (Var. <cite ref=\"I00660\"><he>נטפל</he></cite>) and Lot was merely an attachment to Abraham. ",
+				"<cite ref=\"Berakhot 12b:27\">Ber. 12ᵇ</cite> <he>ויציאת … ט׳ לו</he> and the exodus from Egypt will be considered of secondary import to it (the redemption from the powers). ",
+				"<cite ref=\"Berakhot 13a:1\">Ib. 13ᵃ</cite> <he>ויעקב ט׳</he> the name <i>Jacob</i> will be secondary to <i>Israel;</i> a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pl.</i> <he>טְפֵלִים</he>, <he>טְפֵלִין</he> <i>dependants, children, minors</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 34b:10\">Kidd. 34ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 31:12\">Deut. XXXI, 12</cite>) <he>ט׳ חייבין</he> minors are obliged to appear; v. <cite ref=\"I00623\"><he>טַף</he></cite>. ",
+				"<cite ref=\"Bava Batra 117a\">B. Bath. 117ᵃ</cite>; a. fr.—Y. Shebi. VII, beg. 37ᵇ <cite ref=\"V00819\"><he>תְּפֵילִין</he></cite>, v. <cite ref=\"A01819\"><he>אֲלוּנְטִית</he> II</cite>.—V. <cite ref=\"I00665\"><he>טְפֵלָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

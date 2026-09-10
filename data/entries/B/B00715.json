@@ -1,0 +1,24 @@
+{
+	"id": "B00715",
+	"slug": "ביריא-2",
+	"headword": {
+		"text": "בִּירְיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 166,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (βίῤῥια, pl. of βίῤῥιον) <i>birrus</i>, a kind of cloak, v. <cite ref=\"B01306\"><he>בִּרְסִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:4:2\">Y. Kil. IX, 32ᵈ</cite> top quoted in R. S. to <cite ref=\"Mishnah Kilayim 9:7\">Kil. IX, 7</cite> (ed. <cite ref=\"B01248\"><he>בריה</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

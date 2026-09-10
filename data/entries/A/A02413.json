@@ -1,0 +1,46 @@
+{
+	"id": "A02413",
+	"slug": "אסטרטיא-2",
+	"headword": {
+		"text": "אִסְטְרַטְיָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְרַטְיָא"
+		},
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 92,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (στρατία) prop. <i>army;</i> hence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>host</i> (of heavens, cmp. LXX <cite ref=\"Nehemiah 9:6\">Neh. IX, 6</cite>). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>א׳ של מעלה</he>; <cite ref=\"Midrash Tehillim 92:9\">Midr. Till. to Ps. XCII</cite>, end <he>אסר׳ …</he> divine army (angels, prophets &c.)"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>royal suite, court-officers</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:5\">Kidd. IV, 5</cite> <he>מוכתב בא׳ של מלך</he> recorded in the king’s list of officers (during Agrippa’s reign, serving as evidence of legitimate birth; cmp. <cite ref=\"A03140\"><he>אַרְכִי</he> I</cite>). ",
+				"<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>אסט׳</he>; <cite ref=\"Jerusalem Talmud Taanit 4:5:11\">Y. Taan. IV, 68ᵈ</cite> bot. <he>אסר׳</he> the list of Barkokhba’s suite. [<cite ref=\"Jerusalem Talmud Nedarim 11:12:2\">Y. Ned. XI, 42ᵈ</cite> bot. <he>אסטרטיות</he> read <he>אִסְטְרַטְיוֹטוֹת</he>; <cite ref=\"Jerusalem Talmud Nedarim 11:12:2\">ib.</cite> <he>אסטרטיות חבק׳</he> read <cite ref=\"A02416\"><he>אִסְטְרַטְיוֹט</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 3:4:2\">Y. Gitt. III, 45ᵃ</cite> top. <he>אסטרטיות</he>, v. <cite ref=\"A02816\"><he>אַפָּרָטוֹסוֹת</he></cite>. Tanḥ. ",
+				"<cite ref=\"Genesis 2\">B’resh. 2</cite> <he>אסטרטיאות</he>, Var. <cite ref=\"A02396\"><he>אסטראות</he></cite>, v. <cite ref=\"A02422\"><he>אִסְטַרְיָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

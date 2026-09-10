@@ -1,0 +1,41 @@
+{
+	"id": "M03041",
+	"slug": "מתחא",
+	"headword": {
+		"text": "מִתְחָא"
+	},
+	"page": {
+		"number": 861,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M03040\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>extension</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 19:5\">Targ. Ps. XIX, 5</cite> <cite ref=\"M03040\"><he>מְתַח</he></cite> (constr.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tent-pin.—</i>Pl. <cite ref=\"M01529\"><he>מִתְחַיָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 38:20\">Targ. Y. Ex. XXXVIII, 20</cite> (not <he>מַתַּחְיָא</he>); a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <cite ref=\"C00808\"><he>גִּירָא</he></cite>) <i>bow-string.—</i>Pl. constr. <he>מִתְחֵי</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:5\">Lev. R. s. 5</cite> (expl. <cite ref=\"J00749\"><he>יתר</he></cite>, <cite ref=\"Psalms 11:2\">Ps. XI, 2</cite>) <he>מ׳ גירא</he>."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,83 @@
+{
+	"id": "D00073",
+	"slug": "דבק-2",
+	"headword": {
+		"text": "דְּבֵק"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּבַק"
+		}
+	],
+	"page": {
+		"number": 277,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00072\">same</cite>, <i>to adhere</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 44:26\">Targ. Ps. XLIV, 26</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 18:24\">Targ. Prov. XVIII, 24</cite> <cite ref=\"D00062\"><he>דָּבֵיק</he></cite> ed. Lag.; a. e.—",
+				"<cite ref=\"Ketubot 111b:6\">Keth. 111ᵇ</cite> <he>וכי אפשר לדְבוּקֵי</he>, v. <cite ref=\"D00072\">preced.</cite> Nif."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּבֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to paste, glue</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 11a:16\">Men. 11ᵃ</cite> <he>דַּבְּקֵיה לקומץ וכ׳</he> if he pasted the handfull of dough to the wall of the vessel."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַתְדַּבֵּיק"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְדְּבֵיק", "אִידְּבַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be attached, join</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 1:14\">Targ. Ruth I, 14</cite>; a. fr.—",
+						"<cite ref=\"Gittin 56b:18\">Gitt. 56ᵇ</cite> <he>מהו לאִידְּבוּקֵי בהו</he> how about joining their ranks?—",
+						"<cite ref=\"Pesachim 49a:15\">Pes. 49ᵃ</cite> <he>לאִידְּבַק אנא בזרעיה</he> Ms. M. (ed. <he>דאדבק בזרעיה</he>) that I should be connected with his descendants. ",
+						"<cite ref=\"Shabbat 113b:8\">Sabb. 113ᵇ</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 14:3\">Gen. R. s. 14</cite> <he>אית חספין מִתְדַּבְּקִין</he> can broken earthen vessels be joined together?"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַדְבֵּיק", "אַדְבֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to reach, overtake, attain to, obtain</i> (corresp. to h. <he>הִשִּׂיג</he>). ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 31:23\">Targ. Gen. XXXI, 23</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 14:21\">Targ. O. Lev. XIV, 21</cite> sq.; a. fr.—Part. pass. <cite ref=\"M00239\"><he>מַדְבַּק</he></cite> <i>joined work</i>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 7:29\">Targ. I Kings VII, 29</cite> (h. text <he>ליות</he>; v. 30 <he>עובד דיבוק</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to join</i> (plans), <i>to contrive fraud</i> (nectere dolos; h. text <he>הצמיד</he>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 50:19\">Targ. Ps. L, 19</cite> (Ms. <i>Pa.</i>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

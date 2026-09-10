@@ -1,0 +1,22 @@
+{
+	"id": "T00370",
+	"slug": "רוככא",
+	"headword": {
+		"text": "רוּכְכָא"
+	},
+	"page": {
+		"number": 1459,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00767\"><he>רְכַךְ</he></cite>) <i>softness, tenderness</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 56a:4\">Ḥull. 56ᵃ</cite> <he>אי איתא … אגב רוּכְכֵיה וכ׳</he> if the upper membrane had been perforated, the lower would have burst on account of its tenderness."
+			]
+		}
+	]
+}

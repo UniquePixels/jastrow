@@ -1,0 +1,23 @@
+{
+	"id": "M02592",
+	"slug": "מרומא-2",
+	"headword": {
+		"text": "מְרוֹמָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 839,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02591\">preced.</cite>) <i>uplifted</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 6:6\">Targ. Y. Ex. VI, 6</cite>, v. <cite ref=\"M02718\"><he>מְרָמַם</he></cite>."
+			]
+		}
+	]
+}

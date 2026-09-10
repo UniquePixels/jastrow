@@ -1,0 +1,48 @@
+{
+	"id": "L00338",
+	"slug": "לחוד",
+	"headword": {
+		"text": "לְחוֹד"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְחוּד"
+		}
+	],
+	"page": {
+		"number": 702,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " adv. (v. <cite ref=\"H00169\"><he>חַד</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>singly, separately, only</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:9\">Targ. Ex. XXVI, 9</cite> (h. text <he>לבד</he>). ",
+				"<cite ref=\"Onkelos Genesis 6:5\">Targ. Gen. VI, 5</cite> (h. text <he>רק</he>); a. v. fr.—",
+				"<cite ref=\"Taanit 21b:15\">Taan. 21ᵇ</cite> <he>גברי ל׳ ונשי ל׳</he> the men separately and the women separately. ",
+				"<cite ref=\"Berakhot 2b:15\">Ber. 2ᵇ</cite> <he>עני שיעורא ל׳ וכהן שיעורא ל׳</he> there is a separate (different) standard of time for the poor man (when he goes to his meal) and another for the priest (when he goes to eat T’rumah), opp. <he>חד שיעורא</he> the same time. ",
+				"<cite ref=\"Chullin 55a:9\">Ḥull. 55ᵃ</cite> <he>ניקב ל׳ ונחתך ל׳</he> a perforated milt is one thing, and a removed one another (the laws are different); a. fr.—With suff. <he>לְחוֹדִי</he>, <cite ref=\"B00849\"><he>בִּלְחוֹדִי</he></cite> <i>for, by myself</i>, <he>לְחוֹדָךְ</he>, <he>בִּלְחוֹדָךְ</he> <i>for, by thyself</i> &c. ",
+				"<cite ref=\"Onkelos Numbers 11:14\">Targ. Num. XI, 14</cite>. ",
+				"<cite ref=\"Onkelos Exodus 18:14\">Targ. O. Ex. XVIII, 14</cite> <he>בלחודך</he>; Y. <he>לְבִלְחוֹדָךְ</he>; a. fr.—",
+				"<cite ref=\"Bava Kamma 38a:16\">B. Kam. 38ᵃ</cite> <he>אזל הוא לְחוֹדֵיה לגביה</he> Ms. M. (ed. <he>לחודאי גביה</he>, corr. acc.) he went to him by himself. ",
+				"<cite ref=\"Menachot 38a:7\">Men. 38ᵃ</cite> <he>כל חד לחודיה</he> each for itself (one independent of the other), opp. <he>תרוייהו בחד</he> both combined as one; a. fr.—<he>וּבִלְ׳</he> (= h. <he>ובלבד</he>, v. <cite ref=\"B00096\"><he>בַּד</he> III</cite>) <i>provided, but</i>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:15\">Y. Ber. I, 3ᵈ</cite> top <he>ובל׳ דלא יעביד וכ׳</he> provided that he does not do &c., v. <cite ref=\"H01602\"><he>חַרְדּוֹנָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:56\">Y. Peah I, 16ᵇ</cite> bot. <he>וב׳ דלא יתוב ליה</he> provided that he does not return to it (his sin); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"H00256\"><he>חוּד</he></cite>) <i>jointly, also</i> (h. . ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 52:7\">Targ. Ps. LII, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:23\">Ib. CXIX, 23</cite> Ms. (ed. <he>ארום</he>); <cite ref=\"Aramaic Targum to Psalms 119:24\">ib. 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 28:27\">Targ. Job XXVIII, 27</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "I00116",
+	"slug": "טובינא-2",
+	"headword": {
+		"text": "טוֹבִינָא"
+	},
+	"page": {
+		"number": 521,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"I00111\"><he>טוּבָא</he></cite>) <i>happy, blessed</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 26b:11\">Gitt. 26ᵇ</cite>; <cite ref=\"Ketubot 40a:7\">Keth. 40ᵃ</cite>; <cite ref=\"Keritot 13b:39\">Kerith. 13ᵇ</cite> <he>ט׳ דחכימי</he> happiest of all scholars."
+			]
+		}
+	]
+}

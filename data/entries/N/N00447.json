@@ -1,0 +1,35 @@
+{
+	"id": "N00447",
+	"slug": "נזיר-2",
+	"headword": {
+		"text": "נָזִיר"
+	},
+	"page": {
+		"number": 891,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"N00447\"><he>נָזִר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>abstinent</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 2:3\">Naz. II, 3</cite> <he>הריני נ׳ ממנו</he> I will abstain from this (cup); a. e.—Pl. <he>נְזִירִים</he>, <cite ref=\"N00445\"><he>נְזִירִין</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 24:9\">Lev. R. s. 24</cite>, end, opp. <he>שכורים</he>.—Esp. <i>nazir, Nazarite</i>, one bound by a vow to be set apart for the service of God, and as such to abstain from grapes and all productions of the vine and from intoxicating drinks, and to let his hair grow (<cite ref=\"Numbers 6:1-21\">Num. VI, 1–21</cite>). ",
+				"<cite ref=\"Mishnah Nazir 1:1\">Naz. I, 1</cite>, a. fr. <he>הרי זה נ׳</he> he is a Nazarite (his words mean the vow of nazaritism). ",
+				"<cite ref=\"Mishnah Nazir 1:2\">Ib. 2</cite> <he>נְ׳ שמשון</he> a Nazarite like Samson; <he>נְ׳ עולם</he> a nazarite for life; a. v. fr.—Pl. as ab. Ib. V, 5; a. fr.—Fem. <cite ref=\"N00452\"><he>נְזִירָה</he></cite>. Ib. III, 6. Ib. II, 2 <he>אמר אמרה פרה זו הריני נ׳ וכ׳</he> if he said, this cow thinks I will be a <i>nazir</i>, if I stand up … he is a Nazarite by implication (it being his meaning that he will be a Nazarite if the cow gets up); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>guarded</i>. Sifra B’har ch. I; Y. Shebi. VIII, 38ᵇ top. (expl. <he>נזירך</he>, <cite ref=\"Leviticus 25:5\">Lev. XXV, 5</cite>) <he>מן השמור בארץ וכ׳</he> of that which is guarded in the ground &c. (v. Rashi to Lev. l. c.), opp. <he>מובקר</he>.—<i>Nazir</i>, name of a treatise, of the Order of Nashim, of Mishnah, Talmud Babli and Y’rushalmi (in Tosefta <i>N’ziroth</i>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "K00836",
+	"slug": "כנה-2",
+	"headword": {
+		"text": "כַּנָּה"
+	},
+	"page": {
+		"number": 648,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"K00828\"><he>כֵּן</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>base, stand</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 7:6\">Kel. VII, 6</cite> <he>נותן את חכ׳ וכ׳</he> he places the base of a stove between them; [oth. opin. he puts <i>a ruler</i> between, measuring a straight line.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ruler</i> or <i>ruled material</i>. Ib. XII, 8, v. <cite ref=\"K00828\"><he>כֵּן</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

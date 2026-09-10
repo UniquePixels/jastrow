@@ -1,0 +1,33 @@
+{
+	"id": "C00672",
+	"slug": "גיותא",
+	"headword": {
+		"text": "גֵּיוְתָא"
+	},
+	"page": {
+		"number": 236,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00015\"><he>גאי</he></cite>, v. <cite ref=\"C00013\"><he>גֵּאוּתָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>grandeur</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 28:13\">Targ. Ezek. XXVIII, 13</cite>. ",
+				"<cite ref=\"Onkelos Exodus 15:1\">Targ. O. Ex. XV, 1</cite> ed. Berl."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pride, haughtiness</i>, v. <cite ref=\"C00847\"><he>גֵּיתִי</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

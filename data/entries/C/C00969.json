@@ -1,0 +1,30 @@
+{
+	"id": "C00969",
+	"slug": "גלמוד",
+	"headword": {
+		"text": "גַּלְמוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּלְמוּדָה"
+		}
+	],
+	"page": {
+		"number": 250,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.;<he>גלם</he>; <cite ref=\"D00000\"><he>ד</he></cite> format., v. Fürst H. Dict. s. v.) <i>like a shapeless, lifeless lump</i>, whence (cmp. <cite ref=\"D00903\"><he>דמם</he></cite>) <i>lonely, melancholy</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 42a:2\">Sot. 42ᵃ</cite> in the sea-towns <he>קורין לנידה ג׳</he> they call the menstruous woman <i>galmudah;</i> <cite ref=\"Rosh Hashanah 26a:18\">R. Hash. 26ᵃ</cite>. ",
+				"<cite ref=\"Rosh Hashanah 26a:18\">Ib.</cite> (phonetic etymol.) <he>גמולה</he> (<cite ref=\"D00003\"><he>דא</he></cite>) <he>מבעלה</he> she is weaned (separated) from her husband; [Ar. ed. Pes. a. Ven. <he>גלומה</he>, which version, however, disagrees with the reference to <cite ref=\"Genesis 21:8\">Gen. XXI, 8</cite> in Ar. s. v.]. ",
+				"<cite ref=\"Bereishit Rabbah 31:12\">Gen. R. s. 31</cite>; s. 34 (ref. to <cite ref=\"Job 30:3\">Job XXX, 3</cite>) when there is want in the world &c. <he>ג׳ הוי רואה … כאילו ג׳</he> be lonely; look upon thy wife, as if she were menstruous; <cite ref=\"Jerusalem Talmud Taanit 1:6:10\">Y. Taan. I, end, 64ᵈ</cite> <he>עשה אשתך ג׳</he> make thy wife lonely. [Cmp. ",
+				"<cite ref=\"Sanhedrin 22b\">Snh. 22ᵇ</cite>, quot. s. v. <cite ref=\"C00398\"><he>גּוֹלֶם</he></cite>.]"
+			]
+		}
+	]
+}

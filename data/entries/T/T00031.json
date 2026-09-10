@@ -1,0 +1,64 @@
+{
+	"id": "T00031",
+	"slug": "ראש-2",
+	"headword": {
+		"text": "רֹאשׁ"
+	},
+	"page": {
+		"number": 1437,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>head, point; beginning, heading; main thing, principal</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 4:1\">Ḥull. IV, 1</cite> <he>הוציא את רֹאשׁוֹ וכ׳</he> if the embryo put forth its head, although it withdrew it again. ",
+				"<cite ref=\"Bereishit Rabbah 71:2\">Gen. R. s. 71</cite>, beg., v. <cite ref=\"O00388\"><he>סוֹף</he></cite>. ",
+				"<cite ref=\"Midrash Mishlei 1:7\">Midr. Prov. to I, 7</cite> <he>ר׳ הפרק ר׳ המסכתא ר׳ הפרשה</he> the heading of a chapter, of a treatise, of a section.—<he>ר׳ החדש</he>, <he>ר׳ השנה</he> &c., v. respective determinants.—",
+				"<cite ref=\"Megillah 12b:11\">Meg. 12ᵇ</cite> <he>קופץ בר׳</he>, v. <cite ref=\"E00117\"><he>הֶדְיוֹט</he></cite>.—<he>בת ר׳</he>, v. <cite ref=\"B01378\"><he>בַּת</he> II</cite>.—Sifra B’ḥuck., Par. 2, ch. VIII (ref. to <he>יען וביען</he>, <cite ref=\"Leviticus 26:43\">Lev. XXVI, 43</cite>) <he>וכי ר׳ בר׳ פרעתי מהם וכ׳</he> did I collect from them full amount for full amount? did I not collect only one hundredth of their sins before me? <cite ref=\"Sanhedrin 3a\">Snh. 3ᵃ</cite> sq. <he>ממון שאינו משתלם בר׳ הוא</he> an indemnity not for the exact amount (more or less). ",
+				"<cite ref=\"Bava Kamma 65b:1\">B. Kam. 65ᵇ</cite> (ref. to <cite ref=\"Leviticus 5:24\">Lev. V, 24</cite>) <he>ממון … בר׳ מוסיף חומש וכ׳</he> where the indemnity is for the full amount (and no more), the fine of a fifth is added, but where it is not for the exact amount (but more) &c.; a. v. fr.—<he>מֵר׳</he> from the beginning, <i>over again</i>. ",
+				"<cite ref=\"Avodah Zarah 3a:10\">Ab. Zar. 3ᵃ</cite> <he>תנה לנו מר׳ וכ׳</he> give us it (the Law) over again, and we will observe it.—Pl. <he>רָאשִׁים</he>, <he>רָאשִׁין</he>. ",
+				"<cite ref=\"Mishnah Chullin 2:2\">Ḥull. II, 2</cite> <he>השוחט שני ר׳ כאחד</he> if one cuts two heads at one time. ",
+				"<cite ref=\"Chagigah 13a:10\">Ḥag. 13ᵃ</cite> <he>רָאשֵׁי פרקים</he>, v. <cite ref=\"Q01982\"><he>פֶּרֶק</he></cite>; a. fr.—Trnsf. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>chief, magistrate, leader, president</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:5:4\">Y. R. Hash. I, 57ᵇ</cite> bot. <he>ר׳ גדר היה וכ׳</he> it was the chief magistrate of Gadara &c., v. <cite ref=\"T00036\"><he>רֵאשִׁית</he></cite>; Bab. ",
+						"<cite ref=\"Rosh Hashanah 22a:1\">R. Hash. 22ᵃ</cite> <he>שזפר ראשָׁהּ וכ׳</he> Sh. the chief &c. ",
+						"<cite ref=\"Shabbat 33b:5\">Sabb. 33ᵇ</cite>; <cite ref=\"Berakhot 63b:6\">Ber. 63ᵇ</cite>, v. <cite ref=\"M00240\"><he>מְדַבֵּר</he></cite>. ",
+						"<cite ref=\"Berakhot 57b:8\">Ib. 57ᵇ</cite>, v. <cite ref=\"J00689\"><he>יְשִׁיבָה</he></cite>. ",
+						"<cite ref=\"Jerusalem Talmud Horayot 3:5:2\">Y. Hor. III, 48ᵇ</cite> bot. <he>ר׳ משמר</he> the chief of the Temple guard; <he>ר׳ בית אב</he> the chief of a priestly family. ",
+						"<cite ref=\"Jerusalem Talmud Horayot 3:5:2\">Ib.</cite> [read:] <he>ר׳ וזקן ר׳ קודם שאינו ר׳ וכ׳</he> as between the chief (the Nasi, of the academy) and an elder (scholar), the chief has the precedence, for none can be chief unless he has been an elder; a. v. fr.—Pl. as ab. ",
+						"<cite ref=\"Jerusalem Talmud Horayot 3:5:2\">Ib.</cite> <he>משה הקדים ר׳ לזקנים</he> Moses placed the chiefs before the elders (<cite ref=\"Deuteronomy 29:9\">Deut. XXIX, 9</cite>). ",
+						"<cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite> <he>כולהון ראשי אומות הן</he> they are all (names derived from) tribal chiefs (v. <cite ref=\"L00310\"><he>לוּפָר</he></cite>, a. correct citation acc.); a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>crossbeam</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 13:2\">Neg. XIII, 2</cite>, v. <cite ref=\"Q02170\"><he>פָּתִין</he></cite>.—<i>Pl.</i> as ab. ",
+						"<cite ref=\"Mishnah Negaim 13:2\">Ib.</cite> <he>נראה בר׳</he> Bab. ed. (Mish. ed. <i>sing.</i>) if the leprous spot appeared on the crossbeams.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <he>ר׳ תּוֹר</he> (Chaldaism) [<i>ox-head</i>,] <i>triangle, wedge</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 18:2\">Kel. XVIII, 2</cite> <he>כיצד … ר׳ ת׳</he> how is a piece of furniture with an arched top-piece measured? By drawing an equilateral triangle circumscribing the curve. ",
+						"<cite ref=\"Mishnah Kilayim 2:7\">Kil. II, 7</cite> <he>היה ר׳ ת׳ חטים וכ׳</he> if a triangular point of a wheat field is wedged in a barley field. ",
+						"<cite ref=\"Mishnah Kilayim 3:3\">Ib. III, 3</cite>. ",
+						"<cite ref=\"Bava Batra 62a:3\">B. Bath. 62ᵃ</cite> (if the seller defined the limits of his field by describing one long side and one short side) <he>ויקנה כנגד ר׳ ת׳</he> why not let the buyer have possession of an ‘ox-head’, i.e. draw a trapezoid with the two unequal sides?—<i>Pl.</i> <he>רָאשֵׁי תוֹרִין</he>. ",
+						"<cite ref=\"Jerusalem Talmud Eruvin 1:10:3\">Y. Erub. I, 19ᶜ</cite> bot."
+					],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

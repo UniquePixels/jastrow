@@ -1,0 +1,33 @@
+{
+	"id": "L00711",
+	"slug": "לשן-1",
+	"headword": {
+		"text": "לָשַׁן"
+	},
+	"page": {
+		"number": 720,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הִלְשִׁין</he> (b. h.; <i>to slander, speak evil of</i>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 6:1\">Esth. R. to III, 9</cite> <he>עמד שטן וה׳ עליהם וכ׳</he> Satan arose and denounced them (the Israelites) before the Lord. ",
+						"<cite ref=\"Shemot Rabbah 3\">Ex. R. s. 3</cite> <he>מה הנחש כשה׳ וכ׳</he> as well as I smote the serpent when he spoke evil (of the Lord). ",
+						"<cite ref=\"Shemot Rabbah 3:13\">Ib.</cite> <he>לקח את שלו על שה׳</he> was punished because he had spoken lightly (of the Israelites, <cite ref=\"Exodus 4:1\">Ex. IV, 1</cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

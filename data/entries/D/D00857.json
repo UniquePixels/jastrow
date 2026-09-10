@@ -1,0 +1,52 @@
+{
+	"id": "D00857",
+	"slug": "דלק-2",
+	"headword": {
+		"text": "דְּלַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּלֵיק"
+		}
+	],
+	"page": {
+		"number": 311,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00856\">same</cite><i>to burn</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 5:6\">Targ. Am. V, 6</cite>; a. e.—",
+				"<cite ref=\"Megillah 12b:6\">Meg. 12ᵇ</cite> <he>דַּלְקָה ביה חמתיה</he> Ms. M. (v. Rabb. D. S. a. l.) = <he>חמתו בערה בו</he> (<cite ref=\"Esther 1:12\">Esth. I, 12</cite>).—2) <i>to pursue</i>, v. infra."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַדְלֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to kindle a light, start a fire</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 8:2\">Targ. Num. VIII, 2</cite>. ",
+						"<cite ref=\"Onkelos Exodus 22:5\">Targ. Ex. XXII, 5</cite>; a. e.—",
+						"<cite ref=\"Shabbat 22b:2\">Sabb. 22ᵇ</cite> <he>ואַדְלוּקֵי</he> and kindle (the chip). ",
+						"<cite ref=\"Shabbat 22b:2\">Ib.</cite> bot. <he>לצורכו הוא דאַדְלְקָהּ</he> he lighted it for his use. ",
+						"<cite ref=\"Shabbat 23a:3\">Ib. 23ᵃ</cite> <he>מַדְלִיקֵי עלי וכ׳</he> they light the Ḥanuckah lamps in my behalf at home; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to pursue</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 4:19\">Targ. Lam. IV, 19</cite>. [<cite ref=\"Aramaic Targum to Lamentations 3:66\">Ib. III, 66</cite> <he>תַּדְלוֹק׳</he>, read <he>תִּדְלוֹק׳</he> or <he>תַּדְלִיק׳</he>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

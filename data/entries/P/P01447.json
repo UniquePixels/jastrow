@@ -1,0 +1,23 @@
+{
+	"id": "P01447",
+	"slug": "ערקוב",
+	"headword": {
+		"text": "עַרְקוּב"
+	},
+	"page": {
+		"number": 1123,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01143\"><he>עָקַב</he></cite>, <i>Par.</i>) [<i>curve</i>,] <i>hough, ham, the inner part of the knee; the inner angle of the joint which unites the thigh and the leg of an animal</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:11\">Bekh. VI, 11</cite> <he>זנב העגל לע׳ …</he> if the tail of a (first-born) calf does not reach the <i>ʿarḳub</i>; <he>לאיזה ע׳ אמרו</he> which <i>ʿarḳub</i> (curve) is meant? <he>לע׳ שבאמצע הירך</he> the <i>ʿarḳub</i> in the thigh, expl. ib. 41ᵃ <he>קפץ העליונה וכ׳</he> the upper joint (the inner part of the knee), not the lower joint (knuckle); Tosef. ib. IV, 14. ",
+				"<cite ref=\"Mishnah Tamid 4:2\">Tam. IV, 2</cite> (<cite ref=\"Tamid 31a:1\">31ᵃ</cite>) <he>נוקבו מתוך עַרְקוּבוֹ וכ׳</he> Bab. ed. (Mish. <cite ref=\"P01380\"><he>עַרְכּוּבוֹ</he></cite>) he makes a hole through its ham and suspends it."
+			]
+		}
+	]
+}

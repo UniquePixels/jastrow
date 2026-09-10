@@ -1,0 +1,33 @@
+{
+	"id": "C00792",
+	"slug": "גיפוף-2",
+	"headword": {
+		"text": "גִּיפּוּף",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גֵּיפּוּפָא"
+		},
+		{
+			"text": "גִּפּ׳"
+		},
+		{
+			"text": "גֵּפ׳"
+		}
+	],
+	"page": {
+		"number": 241,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (cmp. <cite ref=\"C00791\">preced.</cite>) <i>railing, rim</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 25:25\">Targ. Y. Ex. XXV, 25</cite>; <cite ref=\"Targum Jonathan on Exodus 25:27\">27</cite> (h. text <cite ref=\"M01851\"><he>מסגרת</he></cite>; O. <cite ref=\"C00234\"><he>גדנפא</he></cite>).—Pl. <he>גִּיפוּפִין</he>, <he>גִּיפוּפֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 22:8\">Targ. Y. I Deut. XXII, 8</cite> (<cite ref=\"Targum Jonathan on Deuteronomy 2\">II</cite> <he>גופוף</he>). ",
+				"<cite ref=\"Eruvin 89b:8\">Erub. 89ᵇ</cite>"
+			]
+		}
+	]
+}

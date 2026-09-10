@@ -1,0 +1,23 @@
+{
+	"id": "Q00940",
+	"slug": "פלגאה",
+	"headword": {
+		"text": "פַּלְגָּאָה"
+	},
+	"page": {
+		"number": 1176,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פְּלַג</he> I) <i>disputer, controversialist</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 61b:9\">Erub. 61ᵇ</cite> <he>פ׳</he> thou disputer (Mar Judah)! <cite ref=\"Kiddushin 58a:5\">Kidd. 58ᵃ</cite> <he>פַּלָּגָא איקמיינכי</he> that disputer (Mar Judah) has put you up to it. ",
+				"<cite ref=\"Gittin 31b:10\">Gitt. 31ᵇ</cite> <he>מקמי פ׳ ניקום</he> shall we rise for that querulous man (G’nibah)?"
+			]
+		}
+	]
+}

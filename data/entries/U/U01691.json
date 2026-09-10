@@ -1,0 +1,36 @@
+{
+	"id": "U01691",
+	"slug": "שערה",
+	"headword": {
+		"text": "שַׂעֲרָה"
+	},
+	"page": {
+		"number": 1613,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01690\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hair</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:1:10\">Y. Sot. I, 16ᶜ</cite> top <he>ש׳ אחת</he> one hair; a. e.—Pl. <he>שׂעֲרוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:1:10\">Ib.</cite>, a. fr. <he>שתי ש׳</he> (not <cite ref=\"U01585\"><he>שני</he></cite>) two hairs (symptom of maturity). ",
+				"<cite ref=\"Vayikra Rabbah 20:11\">Lev. R. s. 20</cite> <he>מעולם לא ראו … ש׳ ראשי</he> the beams of my house never saw the hair of my head (v. <cite ref=\"S01395\"><he>קֶלַע</he> II</cite>); <cite ref=\"Jerusalem Talmud Yoma 1:1:22\">Y. Yoma I, 38ᵈ</cite> top; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ear, panicle</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 1:2:2\">Y. Ter. I, 40ᵈ</cite> top <he>ש׳ של אורז</he> (ed. Krot. <cite ref=\"U01642\"><he>שְׂעוֹרָה</he></cite>) the panicles of rice."
+			],
+			"label": "2"
+		}
+	]
+}

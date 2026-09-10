@@ -1,0 +1,40 @@
+{
+	"id": "O00704",
+	"slug": "סימיי",
+	"headword": {
+		"text": "סִימַיי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִימַאי"
+		}
+	],
+	"page": {
+		"number": 981,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Simay</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a Tannai. ",
+			"units": [
+				"<cite ref=\"Kiddushin 64a:9\">Kidd. 64ᵃ</cite>; <cite ref=\"Ketubot 29b:9\">Keth. 29ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 12:14\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:14\">XIII</cite>), 14; Y. ib. XII, beg. 13ᶜ; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " an Amora. Ib. VII, 9ᶜ top. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 2:1:9\">Y. Maas. Sh. II, 53ᵇ</cite>; <cite ref=\"Yevamot 74a\">Yeb. 74ᵃ</cite> <cite ref=\"O01081\"><he>סִמְיָא</he></cite>.—Pesik. Vattom. p. 134ᵃ <he>ר׳ ס׳ בר קוסי</he> (v. Bub. a. l. note 81); <cite ref=\"Yalkut Shimoni on Nach 333\">Yalk. Is. 333</cite> <he>ר׳ סימון</he>."
+			],
+			"label": "2"
+		}
+	]
+}

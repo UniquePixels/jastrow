@@ -1,0 +1,22 @@
+{
+	"id": "N01209",
+	"slug": "נקימה",
+	"headword": {
+		"text": "נְקִימָה"
+	},
+	"page": {
+		"number": 933,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01225\"><he>נָקַם</he></cite>) <i>revenge, retaliation; use of the root</i> <he>נקם</he>. Sifra K’dosh., Par. 2, ch. IV; <cite ref=\"Yoma 23a:1\">Yoma 23ᵃ</cite> (defining the difference between <he>נ׳</he> and <cite ref=\"N00568\"><he>נְטִירָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 52b:13\">Snh. 52ᵇ</cite> <he>נ׳ זו סייף</he> <i>n’ḳimah</i> (<cite ref=\"Exodus 21:20\">Ex. XXI, 20</cite>) means putting to death by the sword; Y. ib. VI, 24ᵇ bot."
+			]
+		}
+	]
+}

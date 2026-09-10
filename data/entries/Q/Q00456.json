@@ -1,0 +1,42 @@
+{
+	"id": "Q00456",
+	"slug": "פחות-1",
+	"headword": {
+		"text": "פָּחוּת"
+	},
+	"page": {
+		"number": 1151,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00486\"><he>פָּחַת</he></cite>) [<i>diminished</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a small quantity</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 1:2:6\">Y. Dem. I, 21ᵈ</cite> bot. <he>פְּחוּת מאכל</he> (not <he>מאוכל</he>) a small quantity of food (corresp. to ib. I, 2 <he>מעוטו</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adj. a. adv.) <i>lesser, less</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 11:9\">Men. XI, 9</cite> <he>אין פ׳ משנים</he> no less than two days (after being baked); <cite ref=\"Mishnah Menachot 11:9\">ib.</cite> <he>אין פ׳ מתשעה ולא יתר וכ׳</he> no less than nine days, nor more than eleven; <cite ref=\"Pesachim 47a:1\">Pes. 47ᵃ</cite> <he>לא פ׳ ולא יותר</he> no less (than nine), nor more (than eleven). ",
+				"<cite ref=\"Megillah 21b:18\">Meg. 21ᵇ</cite> <he>אין משיירין בפרשה פ׳ וכ׳</he> in distributing the readings of a Scriptural portion we must leave for the last reader no less than three verses; a. v. fr.—<i>Fem.</i> <cite ref=\"Q00458\"><he>פְּחוּתָה</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 11:1\">Tosef. Kel. B. Mets. XI, 1</cite> <he>ערבה שהיא פ׳ וכ׳</he> a kneading trough which contains less than &c.; a. fr.—Pl. <he>פְּחוּתוֹת</he>. ",
+				"<cite ref=\"Mishnah Ketubot 1:2\">Keth. I, 2</cite> <he>פ׳ מבנות שלש וכ׳</he> when they were less than three years and one day old; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>inferior</i>. Tanḥ. T’rum. 7 <he>נחשת כנגד</he> … <he>שהיא פ׳ מכולם</he> ‘copper’ (<cite ref=\"Exodus 25:3\">Ex. XXV, 3</cite>) corresponding to the Greek (Syrian) empire, which was the meanest of all of them; a. fr.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

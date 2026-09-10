@@ -1,0 +1,27 @@
+{
+	"id": "R00240",
+	"slug": "צור-1",
+	"headword": {
+		"text": "צוּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1270,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>צהר</he>; cmp. <cite ref=\"I00214\"><he>טוּר</he></cite>)<i>rock</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:15\">Ex. R. s. 15</cite> <he>ומצא שם צ׳ גדול</he> and found there a large rock; a. e.—Pl. <he>צוּרִים</he>. ",
+				"<cite ref=\"Shemot Rabbah 15:15\">Ib.</cite> <he>כאן … על הצ׳ הללו</he> here I will build the fortress, on these rocks.—[<cite ref=\"Tosefta Pesachim 7:13\">Tosef. Pes. VII, 13</cite> <he>שומרי צו׳</he> ed. Zuck., read: <he>צִירִים</he>, v. <cite ref=\"R00450\"><he>צִיר</he> II</cite>).—Trnsf. [<i>Protection</i>,] <i>the Lord</i>; (in Agadah derived from <cite ref=\"J00548\"><he>יָצַר</he></cite>; v. <cite ref=\"R00241\">next w.</cite>) <i>the Creator</i>. ",
+				"<cite ref=\"Berakhot 5b:26\">Ber. 5ᵇ</cite> (ref. to <cite ref=\"Job 18:4\">Job XVIII, 4</cite>) <he>אין צ׳ אלא הקב״ה</he> <i>tsur</i> means the Holy One &c. (with ref. to <cite ref=\"Deuteronomy 32:18\">Deut. XXXII, 18</cite>). ",
+				"<cite ref=\"Vayikra Rabbah 23:3\">Lev. R. s. 23</cite> (ref. to Deut. l. c.) <he>התשתם … יוצר</he> you have weakened the power of the Creator. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 43:8\">Pirké d’R. El. ch. XLIII</cite> <he>מרד בצ׳ עליון</he> rebelled against the Rock on high; a. fr."
+			]
+		}
+	]
+}

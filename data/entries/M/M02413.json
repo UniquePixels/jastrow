@@ -1,0 +1,23 @@
+{
+	"id": "M02413",
+	"slug": "מקטיא-1",
+	"headword": {
+		"text": "מִקְטְיָא"
+	},
+	"page": {
+		"number": 830,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"S00745\"><he>קַטַּיָּיא</he></cite>) <i>cucumber-field</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 1:8\">Targ. Is. I, 8</cite> ed. Lag. (oth. ed. <cite ref=\"M02471\"><he>מִקְשְׁיָא</he></cite>).—<cite ref=\"A00116\"><he>בַּר מ׳</he></cite> pr. n. pl. <i>Bar-Miḳṭ’ya</i>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:2:3\">Y. M. Kat. I, 80ᵇ</cite> bot."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "L00566",
+	"slug": "למד-2",
+	"headword": {
+		"text": "לָמֵד",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "לְמֵדָה"
+		},
+		{
+			"text": "לְמֵידָה"
+		}
+	],
+	"page": {
+		"number": 712,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>accustomed</i>. Tanḥ. Noah 2 (<he>מה של׳</he>) <he>מה שהיה ל׳</he> what each was used to eat (ed. Bub. ib. <cite ref=\"L00571\"><he>לָמוּד</he></cite>).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (of persons) <i>learning, arguing</i>.—Pl. <he>לְמֵדִין</he>, <he>לְמֵי׳</he>. ",
+			"units": [
+				"<cite ref=\"Niddah 22b:8\">Nidd. 22ᵇ</cite> <he>כל ג״ש … אין ל׳ הימנה</he> from an analogy of textual words (v. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>) which are not free for interpretation (being necessary to the subject proper), you cannot derive any general rule; <cite ref=\"Niddah 22b:8\">ib.</cite> <he>ל׳ ומשיבין</he> we may derive a rule, but it is open to argument; a. fr.—<he>הל׳ לפני חכמים</he> those who were permitted to argue before the scholars (e. g. Levi before Rabbi). ",
+				"<cite ref=\"Meilah 9b\">Meïl. 9ᵇ</cite>; <cite ref=\"Sanhedrin 17b:4\">Snh. 17ᵇ</cite> (v. Rabb. D. S. a. l. note 3). ",
+				"<cite ref=\"Menachot 80b:12\">Men. 80ᵇ</cite> <he>ל׳ לפני רבי</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (of subjects) <i>having light thrown upon, defined</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 25b:3\">Pes. 25ᵇ</cite>, a. e. <he>הרי זה בא לְלַמֵּד ונמצא לָמֵד</he> (a proverbial phrase: behold this one comes as a teacher and turns out a learner) this is intended to throw light (on the case of a violated betrothed) and is at the same time receiving light.—Sifra introd. <he>דבר הל׳ מעניינו</he> something which is clearly understood from the context; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:2\">Y. Kidd. I, 59ᵃ</cite> <he>עבריה למידה מבת חורין ועברי ל׳ מעבריה</he> the case of the <i>Ibriya</i> (that a Hebrew handmaid can be acquired by a written deed) is learned from that of a free woman, and that of the <i>Ibri</i> (the Hebrew bondsman) from the <i>Ibriya</i>; <he>נמצא לָ׳ מלָּ׳</he> consequently a case may be illustrated by one itself defined (only indirectly) by analogy; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

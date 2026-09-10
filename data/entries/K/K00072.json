@@ -1,0 +1,27 @@
+{
+	"id": "K00072",
+	"slug": "כבר-2",
+	"headword": {
+		"text": "כְּבָר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 609,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <he>זמן כבר</he>; <he>כבר</he> <i>to be thick, strong, round</i>) <i>a long time since; long ago, already; once</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 51a:6\">Sabb. 51ᵃ</cite>, a. e. <he>כ׳ הורה זקן</he> it has already been decided by an authority. ",
+				"<cite ref=\"Berakhot 63a:25\">Ber. 63ᵃ</cite> bot. <he>כ׳ בנית וכ׳</he> you have once built and can no more tear down, (having once praised me, you cannot now censure me). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:3:10\">Y. Sabb. XIV, 14ᶜ</cite> bot. <he>וכ׳ חלה וכ׳</he> and once when he was taken sick, and &c. ",
+				"<cite ref=\"Bamidbar Rabbah 3:13\">Num. R. s. 3</cite>, end <he>כ׳ נקדתי עליהם</he> have I not put does upon them (to mark that the words are spurious)? [<cite ref=\"Bamidbar Rabbah 3:13\">Ib.</cite> <he>כ׳ אמחוק וכ׳</he>, read: <he>אוֹמַר</he> I shall say, I will erase &c.]—",
+				"<cite ref=\"Jerusalem Talmud Gittin 7:7:3\">Y. Gitt. VII, end, 49ᵃ</cite> <he>מִכְּ׳</he> (<i>retroactively</i>) <i>at once</i>; a. fr."
+			]
+		}
+	]
+}

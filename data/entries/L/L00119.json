@@ -1,0 +1,57 @@
+{
+	"id": "L00119",
+	"slug": "לבש-2",
+	"headword": {
+		"text": "לְבֵשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְבַשׁ"
+		},
+		{
+			"text": "לְבֵישׁ"
+		}
+	],
+	"page": {
+		"number": 691,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"L00118\">same</cite> <cite ref=\"Onkelos Genesis 38:19\">Targ. Gen. XXXVIII, 19</cite>; a. fr.—Part. <cite ref=\"L00079\"><he>לְבִישׁ</he></cite>, <he>לָבִישׁ</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 27:17\">Targ. Job XXVII, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 9:2\">Targ. Ez. IX, 2</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 28a:11\">Ber. 28ᵃ</cite> <he>מאן דלביש מדא יִלְבַּשׁ מדא ומאן … ואנא אַלְבְּשֵׁיה</he> let him who has been invested with the priest’s cloak wear it; or shall he who is not invested say to him who has been, take off thy cloak, and I will put it on?; i.e. let us respect the hereditary office of the Nasi, v. <he>מַזֶּה</he>. ",
+				"<cite ref=\"Ketubot 54a:21\">Keth. 54ᵃ</cite> <he>לְבִישְׁתִּינְהוּ ואיכסתינהו לכוליה מנא</he> she put on all her dresses and wraps. ",
+				"<cite ref=\"Shabbat 10b\">Sabb. 10ᵇ</cite> [read:] <he>מֵילָתָא אַלְּבִישַׁיְיהוּ יקירן</he> (v. Rabb. D. S. a. l. note 30) cloaks are precious on those who are invested with them, i.e. a pupil likes to quote his teacher; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַלְבֵּישׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00118\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 93:1\">Targ. Ps. XCIII, 1</cite>; a. e.—Ber. l. c. Ms. M. <he>אַלְבְּשִׁינֵיה</he>, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to clothe</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 132:16\">Targ. Ps. CXXXII, 16</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 29:14\">Targ. Job XXIX, 14</cite> <he>ואַלְבְּשִׁנָנִי</he> and it clothed (protected) me; a. e.—",
+						"<cite ref=\"Kiddushin 30b\">Kidd. 30ᵇ</cite> <he>ונַלְבִּישָׁהּ ונכסייה</he> (not <he>ולבשייה</he>) and let him clothe and cover her. Y. Keth. XII, 35ᵃ top <he>אַלְבְּשׁוּנִי</he>; Y. Kil. IX, 32ᵇ top <he>מלבשוני</he> (corr. acc.), v. <cite ref=\"B00347\"><he>בּוּרְדִּיקָא</he></cite>. ",
+						"<cite ref=\"Tamid 32a\">Tam. 32ᵃ</cite>; a. e.—Trnsf. <i>to take hold of, seize</i>. ",
+						"<cite ref=\"Kiddushin 81b:14\">Kidd. 81ᵇ</cite> <he>יצר אַלְבְּשָׁהּ</he> (her bashfulness in the presence of her father is a sign that) sensuality has seized her; <cite ref=\"Ketubot 51b:12\">Keth. 51ᵇ</cite> <he>יצר אלבשה</he> passion has overpowered her (she speaks under the influence of sensual excitement)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "E00020",
+	"slug": "האסטו",
+	"headword": {
+		"text": "הָאַסְטוּ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 328,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a Samaritan word, cmp. <cite ref=\"O00480\"><he>סטי</he></cite> a. <cite ref=\"E00003\"><he>הָ־</he></cite>) <i>Oh, the perversion</i> (of the law)! <cite ref=\"Jerusalem Talmud Sheviit 4:2:3\">Y. Shebi. IV, 35ᵃ</cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 3:5:8\">Y. Snh. III, 21ᵇ</cite> top [read:] <he>חד משמרייא הוה עבר בשמיטתא … אמר לון ה׳ שרי לכון מירדא וכ׳</he> a Samaritan passed (by Jewish fields) in the Sabbatical year and saw them throw up the ploughed clods, when he said to them, Oh, that perversion of the law! You have been given permission to plough (in the Sabbatical year, because of the governments’ edict), but have you been permitted to &c.?",
+			"units": []
+		}
+	]
+}

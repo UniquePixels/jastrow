@@ -1,0 +1,70 @@
+{
+	"id": "Q01503",
+	"slug": "פקע-2",
+	"headword": {
+		"text": "פְּקַע"
+	},
+	"page": {
+		"number": 1210,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01502\">same</cite>, <i>to burst, break, escape</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 85b:12\">Pes. 85ᵇ</cite> <he>פ׳ איגרא</he> the roof burst, v. <cite ref=\"G00431\"><he>זֵיתָא</he> I</cite>. ",
+				"<cite ref=\"Bava Metzia 20b:3\">B. Mets. 20ᵇ</cite> <he>פ׳ ארזא וכ׳</he> the cedar pillar of the school was cracked, v. <cite ref=\"L00714\"><he>לָתָא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 33b:5\">Ab. Zar. 33ᵇ</cite> <he>פַּקְעוּ</he> they (the vessels) burst. ",
+				"<cite ref=\"Avodah Zarah 28b:11\">Ib. 28ᵇ</cite> <he>פַּקְעָא עינא</he> her eye burst (fell out). ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:1:2\">Y. M. Kat. I, beg. 80ᵃ</cite> <he>דלא יִפְקְעָן וכ׳</he> lest the grain burst (sprout) and go to ruin.—",
+				"<cite ref=\"Chullin 89b:6\">Ḥull. 89ᵇ</cite> <he>פ׳ ליה איסור גיד מיניה</he> has the prohibition resting on the nervus ischiadicus gone from it (ceased to affect it)? <cite ref=\"Chullin 139a:8\">Ib. 139ᵃ</cite> <he>פַּקְעָה קדושתייהו מינייהו</he> their sacred character has ceased; Y. Keth. VIII, 22ᵇ top <he>פַּקְעַת מינייהו קדושתן</he>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּקַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to break</i>; <he>פ׳ מ־</he> <i>to hinder</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 44a:15\">Gitt. 44ᵃ</cite> <he>מְפַקַּע ליה ממצות</he> (by leaving his slave in the hands of a gentile) he prevents him from living up to the obligations (resting on the Noachidæ, v. <cite ref=\"N00468\"><he>נֹחַ</he></cite>); <cite ref=\"Bekhorot 3a\">Bekh. 3ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְקַע"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"Q01502\">preced.</cite> <i>Hif., to cancel, cause a release</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 48b:16\">Shebu. 48ᵇ</cite> <he>אתיא שביעית אַפְקַעְתֵּיה</he> the Sabbatical year comes and causes the cancellation of the debt. ",
+						"<cite ref=\"Gittin 36b:8\">Gitt. 36ᵇ</cite> <he>אלימי לאַפְקוּעֵי ממונא</he> they have the power to declare a debt cancelled. ",
+						"<cite ref=\"Ketubot 3a\">Keth. 3ᵃ</cite>, a. fr. <he>כל דמקדש … ואַפְקְעִינְהוּ רבנן וכ׳</he> whoever betroths a woman, does so in the sense of the rabbinical law (v. <cite ref=\"D00951\"><he>דַּעְתָּא</he></cite>), and for an eventuality like this the Rabbis have annulled his betrothal retroactively (so that no divorce would be necessary at all); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to let go forth, issue, make known</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 36a:10\">Gitt. 36ᵃ</cite> (ref. to <he>בקיאין סימנייהו</he> their pictorial signatures on documents are well known) <he>מעיקרא במאי אַפְקְעִינְהוּ</he> on what kind of writs did they originally issue their signatures (so as to make the public familiar with them)?, v. <cite ref=\"Q01489\"><he>פְּקִיעַ</he> II</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפְּקַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken into</i>. Targ. II Esth. III, 7 (ref. to <he>ותבקע</he>, <cite ref=\"II Kings 25:4\">II Kings XXV, 4</cite>).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "U00792",
+	"slug": "שיבוטא",
+	"headword": {
+		"text": "שִׁיבּוּטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבּ׳"
+		}
+	],
+	"page": {
+		"number": 1556,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00103\"><he>שבט</he></cite>) <i>shibbuṭa</i>, name of a fish, prob. <i>mullet</i> (Cephalus, v. P. Sm. 4029). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 55a:13\">B. Kam. 55ᵃ</cite>; <cite ref=\"Sanhedrin 59b:17\">Snh. 59ᵇ</cite>; [Tosaf. to <cite ref=\"Avodah Zarah 39a\">Ab. Zar. 39ᵃ</cite> identifies our w. with <he>עיזא דימא</he>, v. <cite ref=\"K01196\"><he>עִיזָּא</he></cite>].—",
+				"<cite ref=\"Shabbat 119a:4\">Sabb. 119ᵃ</cite> <he>רבא מלח ש׳</he> Raba salted a <i>shibbuṭa</i> himself (for the Sabbath); <cite ref=\"Kiddushin 41a:4\">Kidd. 41ᵃ</cite>. ",
+				"<cite ref=\"Chullin 109b:13\">Ḥull. 109ᵇ</cite> <he>חזיר מוחא  דש׳</he> the swine is forbidden, and as a compensation for it the brain of the <i>sh.</i> serves; <cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite> <he>דג ששמו ש׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:22\">Y. Taan. IV, 69ᵇ</cite> <he>וכשחזרו … חוץ מן הדג הנקרא ש׳</he> and when the Israelites returned (from the Babylonian captivity), all the animals exiled with them returned except the fish named <i>shibbuṭa</i>. ",
+				"<cite ref=\"Pesachim 112b:9\">Pes. 112ᵇ</cite> <he>דג ש׳ ביומי דניסן</he> of the fishes the <i>sh.</i> is bad for leprosy during the month of Nisan."
+			]
+		}
+	]
+}

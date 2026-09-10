@@ -1,0 +1,34 @@
+{
+	"id": "T00542",
+	"slug": "רחש-3",
+	"headword": {
+		"text": "רַחַשׁ"
+	},
+	"page": {
+		"number": 1470,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00541\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a creeping thing, reptile</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 8:4\">Ter. VIII, 4</cite> <he>כדי שיצא הר׳ וכ׳</he> as long as it would take a poisonous reptile to come forth … and drink; <cite ref=\"Chullin 10a\">Ḥull. 10ᵃ</cite>.—V. <cite ref=\"T00491\"><he>רָחוֹשׁ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>emotion, thought</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 45:3\">Midr. Till. to Ps. XLV, 2</cite> <he>אם ר׳ למה אמירה ואם אמירה למה ר׳</he> if thought is meant, why does the text mention speech, and if speech, why thought?; a. e.—V. <cite ref=\"T00544\"><he>רַחֲשׁוּשׁ</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

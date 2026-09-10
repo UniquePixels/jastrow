@@ -1,0 +1,28 @@
+{
+	"id": "A02022",
+	"slug": "אמיינטון",
+	"headword": {
+		"text": "אַמְיַינְטוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַמְיַנְטוֹן"
+		}
+	],
+	"page": {
+		"number": 76,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀμίαντος, ἀμίαντον) <i>amiant</i>, a variety of asbestos from which the reputed asbestos linen was spun, which was cleansed by being thrown into the fire. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:11:2\">Cant. R. to IV, 11</cite>; Pesik. B’shall. p. 92ᵃ. [<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite>, end <cite ref=\"A02434\"><he>אסיטון</he></cite>; <cite ref=\"Midrash Tehillim 23:6\">Midr. Till. to Ps. XXIII, 2</cite> <he>הסיטון</he>; <cite ref=\"Yalkut Shimoni on Torah 850\">Yalk. Deut. 850</cite> <cite ref=\"A02019\"><he>אמיטון</he></cite>; corr. acc.]—Deriv. <cite ref=\"E00609\"><he>המיינטון</he></cite>, read <he>הַמְּיַינְטֵן</he> <i>he who cleanses the amiant</i>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:42\">Y. Sabb. VII, 10ᶜ</cite> top."
+			]
+		}
+	]
+}

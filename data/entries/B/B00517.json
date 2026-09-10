@@ -1,0 +1,47 @@
+{
+	"id": "B00517",
+	"slug": "בטל-3",
+	"headword": {
+		"text": "בָּטֵל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּטֵיל"
+		}
+	],
+	"page": {
+		"number": 157,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00516\">preced. ws.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>null, void; vain</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 4:1\">Gitt. IV, 1</cite> <he>ב׳ הוא</he> is void (revoked); v. <cite ref=\"B00516\"><he>בְּטֵל</he></cite> Ithpe.; a. fr.—Pl. <he>בְּטֵלִים</he>, <he>בְּטֵלִין</he>, <cite ref=\"B00509\"><he>בְּטֵי׳</he></cite>.—דברים ב׳ <i>vanities, absurdities</i>. ",
+				"<cite ref=\"Avodah Zarah 16b:15\">Ab. Zar. 16ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>idle, unemployed, not needed</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 21a\">Snh. 21ᵃ</cite> one horse <he>והוא ב׳</he> when not needed (for war). ",
+				"<cite ref=\"Kohelet Rabbah 6:8\">Koh. R. to VI, 8</cite>.—<i>Pl.</i> as supra. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:4:2\">Y. Meg. I, 70ᵇ</cite> bot. <he>עשרה בטילין … לביה״כ</he> (where there are) ten men at leisure for attending Synagogue, v. <cite ref=\"B00520\"><he>בַּטְלָן</he></cite>. ",
+				"<cite ref=\"Berakhot 16a:11\">Ber. 16ᵃ</cite> <he>והוא שב׳ ממלאכתן</he> provided they stop working. ",
+				"<cite ref=\"Berakhot 17b:7\">Ib. 17ᵇ</cite> <he>ת״ח ב׳</he> scholars have to abstain from work; a. fr.—Fem. <cite ref=\"B00518\"><he>בְּטֵלָה</he></cite>, <cite ref=\"B00511\"><he>בְּטֵילָה</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 5:16\">Ab. V, 16</cite>, v. <cite ref=\"B00515\"><he>בָּטֵל</he> I</cite>. ",
+				"<cite ref=\"Gittin 32a:3\">Gitt. 32ᵃ</cite>, v. <cite ref=\"B00515\"><he>בָּטֵל</he> I</cite>, Pi.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

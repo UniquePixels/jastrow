@@ -1,0 +1,26 @@
+{
+	"id": "V00102",
+	"slug": "תדא",
+	"headword": {
+		"text": "תַּדָּא"
+	},
+	"page": {
+		"number": 1647,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00250\"><he>שַׁד</he></cite>, <i>breast.—</i>Pl. <he>תַּדִּין</he>, <cite ref=\"V00105\"><he>תַּדַּיָּא</he></cite>, <cite ref=\"V00108\"><he>תַּדְיַין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 49:25\">Targ. Y. I Gen. XLIX, 25</cite>, <cite ref=\"Targum Jerusalem, Genesis 49:25\">Targ. Y. II, Gen. XLIX, 25</cite> (ed. Vien. <cite ref=\"E00119\"><he>חַ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 103:2\">Targ. Ps. CIII, 2</cite> ed. Lag. (missing in ed. Wil.). ",
+				"<cite ref=\"Targum of II Chronicles 5:9\">Targ. II Chr. V, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 3:11\">Targ. Job III, 11</cite> (<cite ref=\"Aramaic Targum to Job 3:12\">12</cite>; ed. Wil. <cite ref=\"V00108\"><he>תְּדַיָּיא</he></cite>; some ed. <cite ref=\"V00108\"><he>תַּדְיָיא</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 8:1\">Targ. Cant. VIII, 1</cite> (ed. Lag. a. oth. <cite ref=\"E00119\"><he>חַ׳</he></cite>); a. e."
+			]
+		}
+	]
+}

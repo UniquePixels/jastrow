@@ -1,0 +1,33 @@
+{
+	"id": "H00624",
+	"slug": "חטיבה-1",
+	"headword": {
+		"text": "חֲטִיבָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 449,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָטַב</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>object of love</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6a:22\">Ber. 6ᵃ</cite>; <cite ref=\"Chagigah 3a:19\">Ḥag. 3ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 26:17\">Deut. XXVI, 17</cite>) <he>אתם עשיתוני ח׳ אחת וכ׳</he> you made me the only object of your love in the world, and I shall make you &c. (ref. to <cite ref=\"II Samuel 7:23\">II Sam. VII, 23</cite>); Tanḥ. Ki Thabo 2."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>declaring love</i>. Ib. <he>עושין ח׳ וכ׳</he> declare their love to God; Tanḥ., ed. Bub., ib. 4.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

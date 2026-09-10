@@ -1,0 +1,26 @@
+{
+	"id": "P01171",
+	"slug": "עקיבא-1",
+	"headword": {
+		"text": "עֲקֵיבָא"
+	},
+	"page": {
+		"number": 1105,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>last, late</i>, v. <cite ref=\"P01150\"><he>עֲקֵבָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>consequence</i>, v. <cite ref=\"P01149\"><he>עֶקְבָּא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

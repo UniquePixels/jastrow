@@ -1,0 +1,30 @@
+{
+	"id": "V00034",
+	"slug": "תבב",
+	"headword": {
+		"text": "תְּבַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּבֵּב"
+		},
+		{
+			"text": "תַּבֵּיב"
+		}
+	],
+	"page": {
+		"number": 1642,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (reduplic. of <cite ref=\"V00142\"><he>תּוּב</he></cite>; cmp. <cite ref=\"U00065\"><he>שָׁבַב</he></cite>) [<i>to move to and fro,</i>] <i>to saw, cut</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 35:5\">Targ. Ez. XXXV, 5</cite> (h. text <he>ותגר</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 18:21\">Targ. Jer. XVIII, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 23:8\">Targ. II Sam. XXIII, 8</cite>; <cite ref=\"Targum Jonathan on II Samuel 23:18\">18</cite> (h. text <cite ref=\"P01455\"><he>ערר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:23\">Targ. Is. XIV, 23</cite>; a. fr."
+			]
+		}
+	]
+}

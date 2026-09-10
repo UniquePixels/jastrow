@@ -1,0 +1,29 @@
+{
+	"id": "Q00689",
+	"slug": "פילוסין-2",
+	"headword": {
+		"text": "פִּילוּסִין",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פּילוּסִים"
+		}
+	],
+	"page": {
+		"number": 1164,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q00688\">preced.</cite>) <i>Pelusian linen</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:7\">Yoma III, 7</cite> (<cite ref=\"Yoma 34b:8\">34ᵇ</cite>) <he>היה לובש פי׳ וכ׳</he> Y. ed. (Bab. ed. a. Mish. <he>פל׳</he>) he wore garments of Pelusian linen of the value of &c. Y. ib. III, 40ᵈ top <he>שני של פ׳</he> second class Pelusian linen; a. e."
+			]
+		}
+	]
+}

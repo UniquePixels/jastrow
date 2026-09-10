@@ -1,0 +1,43 @@
+{
+	"id": "M00204",
+	"slug": "מגפה",
+	"headword": {
+		"text": "מַגֵּפָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַגֵּי׳"
+		}
+	],
+	"page": {
+		"number": 730,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00181\"><he>נָגַף</he></cite>) [<i>striking</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wound</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 6:8\">Makhsh. VI, 8</cite> <he>דם מַגֵּפָתָהּ</he> the blood flowing from a woman’s wound. ",
+				"<cite ref=\"Niddah 55b\">Nidd. 55ᵇ</cite>; <cite ref=\"Keritot 13a\">Ker. 13ᵃ</cite>. ",
+				"<cite ref=\"Chullin 35b\">Ḥull. 35ᵇ</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 710\">Yalk. Num. 710</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sudden death, plague</i>. Mekh. B’shall. s. 2 <he>אין הממה אלא מ׳</he> the verb <cite ref=\"E00622\"><he>המם</he></cite> (<cite ref=\"Exodus 14:24\">Ex. XIV, 24</cite>) means pestilence. ",
+			"units": [
+				"<cite ref=\"Moed Katan 28a:5\">M. Kat. 28ᵃ</cite> <he>מיתת מ׳</he> a sudden death. ",
+				"<cite ref=\"Berakhot 4b:26\">Ber. 4ᵇ</cite> <he>בשעת המ׳</he> during an epidemic; a. fr.—[<he>מגפות</he>, Mekh. l. c., v. <cite ref=\"M01805\"><he>מְנָפָה</he></cite> a. <cite ref=\"O00158\"><he>סִגְנוֹן</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

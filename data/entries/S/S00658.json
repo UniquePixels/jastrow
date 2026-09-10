@@ -1,0 +1,22 @@
+{
+	"id": "S00658",
+	"slug": "קורשא",
+	"headword": {
+		"text": "קוּרְשָׁא"
+	},
+	"page": {
+		"number": 1344,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"S02197\"><he>קֶרֶשׁ</he></cite>, <i>board</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 11:1:1\">Koh. R. to XI, 1</cite> <he>ק׳ דספינתא</he> the board of a wrecked ship."
+			]
+		}
+	]
+}

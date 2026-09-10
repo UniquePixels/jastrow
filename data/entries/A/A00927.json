@@ -1,0 +1,22 @@
+{
+	"id": "A00927",
+	"slug": "אושעיא",
+	"headword": {
+		"text": "אוֹשַׁעְיָא"
+	},
+	"page": {
+		"number": 35,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (in Y. <cite ref=\"E00288\"><he>הוֹשַׁעְיָא</he></cite> q. v.) pr. n. m. <i>Oshāya</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " freq. surnamed <cite ref=\"T00042\"><he>רַבָּא</he></cite> (the elder), an Amora of the first generation, redactor of Tosefta. ",
+			"units": ["<cite ref=\"Yevamot 18b:7\">Yeb. 18ᵇ</cite>; a. fr."],
+			"label": "1"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "T00660",
+	"slug": "ריסוקא",
+	"headword": {
+		"text": "רִיסּוּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִסּ׳"
+		}
+	],
+	"page": {
+		"number": 1475,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"T00659\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>piece, crumb</i>.—Pl. <he>רִיסּיּקִין</he>, <cite ref=\"T00660\"><he>רִסּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 2:6\">Targ. Y. Lev. II, 6</cite>, a. e. (h. text <he>פתים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>piece of a garment</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 59b:14\">Sabb. 59ᵇ</cite> (Ms. M. <cite ref=\"T00664\"><he>רִיסְקָא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

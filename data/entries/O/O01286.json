@@ -1,0 +1,31 @@
+{
+	"id": "O01286",
+	"slug": "סעודתא",
+	"headword": {
+		"text": "סְעוּדְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְעוּדָא"
+		}
+	],
+	"page": {
+		"number": 1010,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"O01284\"><he>סְעוּדָה</he></cite>. Targ. II Esth. VI, 11. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 11:8\">Targ. II Sam. XI, 8</cite>.—",
+				"<cite ref=\"Yoma 74b:15\">Yoma 74ᵇ</cite>; <cite ref=\"Yoma 75b:1\">75ᵇ</cite> <he>מאן דאית ליה ס׳ וכ׳</he> he who has only one meal, let him eat it in daytime. ",
+				"<cite ref=\"Ketubot 61b:1\">Keth. 61ᵇ</cite>; a. fr.—Pl. <cite ref=\"O01286\"><he>סְעוּדָתָא</he></cite>. ",
+				"<cite ref=\"Gittin 38b:7\">Gitt. 38ᵇ</cite> <he>אחת קבעת ס׳ וכ׳</he> one family had their regular dining parties on the Sabbath &c. ",
+				"<cite ref=\"Gittin 38b:7\">Ib.</cite> <he>סְעיּדָתַיְיהוּ</he> their entertainments; a. e."
+			]
+		}
+	]
+}

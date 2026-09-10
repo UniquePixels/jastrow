@@ -1,0 +1,29 @@
+{
+	"id": "P00372",
+	"slug": "עושר",
+	"headword": {
+		"text": "עוֹשֶׁר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עשֶׁר"
+		}
+	],
+	"page": {
+		"number": 1059,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01498\"><he>עָשַׁר</he></cite>)<i>plenty, wealth, riches</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:9\">Ab. IV, 9</cite>, v. <cite ref=\"P00299\"><he>עִוֹנִי</he></cite>. ",
+				"<cite ref=\"Bava Batra 9b:12\">B. Bath. 9ᵇ</cite> <he>בעלי ע׳</he> wealthy men; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 63:6\">Gen. R. s. 63</cite> (play on <he>ויעתר</he>, <cite ref=\"Genesis 25:21\">Gen. XXV, 21</cite>; cmp. <cite ref=\"P00384\"><he>עוּתְרָא</he></cite>) <he>שפך תפלות בע׳</he> he poured out prayers plentifully; Yalk. ib. 110 <he>כעתר</he> (corr. acc., or <he>בְּעֶתֶר</he>, a Hebr. adapt. of <cite ref=\"P00384\"><he>עוֹתַר</he></cite>)."
+			]
+		}
+	]
+}

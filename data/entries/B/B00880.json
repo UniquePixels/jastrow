@@ -1,0 +1,49 @@
+{
+	"id": "B00880",
+	"slug": "בלל",
+	"headword": {
+		"text": "בָּלַל"
+	},
+	"page": {
+		"number": 173,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בל</he>; ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " sec. r. of <cite ref=\"B00612\"><he>בול</he></cite>, <he>ביל</he>; √<cite ref=\"B00198\"><he>בו</he></cite>, <he>בה</he>, cmp. <cite ref=\"B00635\"><he>בִּין</he></cite>, <i>to penetrate, break through</i>, v. <he>בלט</he>; ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " √<he>בל</he> <i>to crumble, soften</i>, cmp. √<he>מל</he>; v. <cite ref=\"B00853\"><he>בלי</he></cite>, <cite ref=\"N00091\"><he>נבל</he></cite>, <he>בלט</he> in <cite ref=\"B00263\"><he>בולטיתא</he></cite>) <i>to mix</i> (with oil), <i>knead, stir; to mix fodder</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 14:3\">Zeb. XIV, 3</cite> (<cite ref=\"Zevachim 112b\">112ᵇ</cite>) <he>הבּוֹלֵל</he> the priest who kneads the meat-offering with oil, v. <cite ref=\"B00862\"><he>בְּלִילָה</he></cite>. ",
+						"<cite ref=\"Mishnah Demai 5:5\">Dem. V, 5</cite> <he>בולל ונוטל</he> (strike out <he>ואוכל</he> in Bab. ed., Ar. Var. <he>בורר</he>) he mixes the fruits and takes the tithe. ",
+						"<cite ref=\"Jerusalem Talmud Bava Kamma 4:1:6\">Y. B. Kam. IV, beg. 4ᵃ</cite> <he>לִבְלוֹל</he> to mix up (coins in a bag.) <cite ref=\"Jerusalem Talmud Rosh Hashanah 1:2:2\">Y. R. Hash. I, 56ᵈ</cite> bot.; Tanḥ. Noah 11, v. <cite ref=\"B00254\"><he>בּוּל</he> III</cite>; a. fr.—Part. pass. <cite ref=\"B00830\"><he>בָּלוּל</he></cite>, f. <cite ref=\"B01383\"><he>בְּלוּלָה</he></cite>. ",
+						"<cite ref=\"Sanhedrin 24a\">Snh. 24ᵃ</cite> (play on <cite ref=\"B00061\"><he>בבל</he></cite>) <he>ב׳ במקרא וכ׳</he> mixed up (confused) in Bible study &c. [<cite ref=\"Jerusalem Talmud Yevamot 8:6:5\">Y. Yeb. VIII, end, 9ᵈ</cite> <he>קריבה בבלל</he>, read <he>בכָלִיל</he>.] V. <cite ref=\"B00830\"><he>בָּלוּל</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְלַל"],
+			"senses": [
+				{
+					"gloss": ", <i>Hof.</i> <he>הוּבְלָל</he> <i>to be mixed</i>. Y. Maas. Sh. II, 53ᶜ, v. <cite ref=\"H01458\"><he>חָפַן</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Menachot 12:4\">Men. XII, 4</cite> (<cite ref=\"Menachot 103b:18\">103ᵇ</cite>; <cite ref=\"Menachot 18b:1\">18ᵇ</cite>) <he>ששים נבללין</he> sixty measures of flour can be thoroughly mixed; v. <cite ref=\"B00615\"><he>בִּילָה</he></cite>. ",
+						"<cite ref=\"Menachot 18b:1\">Ib.</cite> <he>יכולים לְהִבָּלֵל</he>.—Y. Shek. VI, 49ᵈ bot. <he>אש מוּבְלָלָה באש</he> fire mixed with fire.—[Y. Taan. III, 66ᵈ bot. <he>עד שיִבָּלֲלוּ וכ׳</he> until your speech shall become confounded from repeatedly saying, Enough; v. <cite ref=\"B00853\"><he>בלי</he></cite>.] Y. Ber. VI, 10ᵃ top (play on <cite ref=\"B00800\"><he>בַּל</he></cite>) <he>יִבָּלֲלוּ וכ׳</he> all blessings shall be kneaded thogether—<i>Pilp.</i> <cite ref=\"B00814\"><he>בִּלְבֵּל</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

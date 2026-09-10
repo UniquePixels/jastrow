@@ -1,0 +1,53 @@
+{
+	"id": "U00765",
+	"slug": "שטפא",
+	"headword": {
+		"text": "שִׁטְפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1555,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00764\">same</cite><i>flood, shower</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:25\">Targ. Job XXXVIII, 25</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rapidity</i>, (cmp. <cite ref=\"U00234\"><he>שגר</he></cite>) <i>rapid review in recalling a tradition</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 130b:6\">Sabb. 130ᵇ</cite> <he>דילמא אגב שִׁיטְפָךְ רהיט וכ׳</he> perhaps in the rapidity of reviewing, the tradition came back to thy mind?; <he>אין אגב ש׳ רהיטא וכ׳</he> (Ms. M. <cite ref=\"U00887\"><he>שִׁיטְפָאִי</he></cite>, v. Rabb. D. S. a. l. note) yes, my tradition was recalled by the (my) rapid review; <cite ref=\"Niddah 53b:35\">Nidd. 53ᵇ</cite> <he>אגב שטפך אתיא לך</he>; <he>אגב שטפאי אתיא לי</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>rush of people</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 19:1:5\">Y. Sabb. XIX, beg. 16ᵈ</cite> <he>כד תחמון ש׳ עבר וכ׳</he> when you see the crowd pass by, bring them (the keys) by way of the row (the lines of men forming a partition for Sabbath purposes)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " [<i>sweeping away</i>, cmp. <he>נסח</he>, <he>נסע</he>,] <i>discarding from the mind, forgetfulness</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 81:2\">Gen. R. s. 81</cite>, v. <cite ref=\"P01231\"><he>עָקַת</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 135:2\">Yalk. ib. 135</cite> <cite ref=\"U00738\"><he>שִׁטּוּפָא</he></cite>; Tanḥ. Vayishl. 8 <cite ref=\"U01458\"><he>שמטי</he></cite>."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " (v. <cite ref=\"U00764\">preced.</cite> 5) <i>hair</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 15\">Lev. R. s. 15</cite> (ref. to <cite ref=\"Job 38:25\">Job XXXVIII, 25</cite>) <he>אית אתרין … שי׳</he> there are places where they call the hair <i>shiṭfa;</i> Yalk. ib. 554 <cite ref=\"U00887\"><he>שִׁיטְפָה</he></cite>."
+			],
+			"label": "5"
+		}
+	]
+}

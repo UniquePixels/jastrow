@@ -1,0 +1,30 @@
+{
+	"id": "C00939",
+	"slug": "גליד-1",
+	"headword": {
+		"text": "גָּלִיד"
+	},
+	"page": {
+		"number": 248,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גלד</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ice-coating</i> on the water. Ohol. VIII, 5. ",
+			"units": ["<cite ref=\"Mishnah Mikvaot 7:1\">Mikv. VII, 1</cite>."],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"C00879\"><he>גֶּלֶד</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

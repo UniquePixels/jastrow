@@ -1,0 +1,24 @@
+{
+	"id": "B01070",
+	"slug": "בעתא-2",
+	"headword": {
+		"text": "בַּעֲתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 183,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01058\"><he>בעע</he></cite>) <i>urging, stimulation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 13:1\">Targ. Prov. XIII, 1</cite>; a. e. (h. text <he>גערה</he>).—",
+				"<cite ref=\"Aramaic Targum to Proverbs 17:10\">Ib. XVII, 10</cite> some ed. <cite ref=\"B01021\"><he>בָּעָאתָא</he></cite>."
+			]
+		}
+	]
+}

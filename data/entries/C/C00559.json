@@ -1,0 +1,27 @@
+{
+	"id": "C00559",
+	"slug": "גזל-2",
+	"headword": {
+		"text": "גְּזַל",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּזֵיל"
+		}
+	],
+	"page": {
+		"number": 230,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00558\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 5:23\">Targ. Lev. V, 23</cite>; a. e.—",
+				"<cite ref=\"Bava Kamma 103a:6\">B. Kam. 103ᵃ</cite> <he>מִיגְזַל גַזְלוּהָ</he> they acquired it illegitimately. ",
+				"<cite ref=\"Bava Kamma 96a:4\">Ib. 96ᵃ</cite>; a. fr.—[<he>גזל</he> <i>to spin</i>, <cite ref=\"Targum Jonathan on Exodus 35:26\">Targ. Y. Ex. XXXV, 26</cite>, quoted in Ar. s. v. <cite ref=\"K01294\"><he>כש</he></cite> 3, read <cite ref=\"P00415\"><he>עזל</he></cite>.]"
+			]
+		}
+	]
+}

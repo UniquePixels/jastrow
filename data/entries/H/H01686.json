@@ -1,0 +1,54 @@
+{
+	"id": "H01686",
+	"slug": "חריף-2",
+	"headword": {
+		"text": "חָרִיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲרִיפָא"
+		},
+		{
+			"text": "חֲרִיפְתָּא"
+		}
+	],
+	"page": {
+		"number": 502,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01685\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>quick, sharp; pungent; acute</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 52:4\">Targ. Ps. LII, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 7:20\">Targ. Is. VII, 20</cite>; a. fr.—",
+				"<cite ref=\"Horayot 14a:6\">Hor. 14ᵃ</cite> <he>ח׳ ומקשה</he> is acute and inclined to raise questions. ",
+				"<cite ref=\"Niddah 45b:17\">Nidd. 45ᵇ</cite> <he>דח׳ טפי</he> that she is very bright (for her age). ",
+				"<cite ref=\"Bava Batra 111b:10\">B. Bath. 111ᵇ</cite>, a. e. <he>סכינא ח׳ דמפסקא וכ׳</he> a sharp knife which cuts verses apart (interpreting without regard to syntax). ",
+				"<cite ref=\"Chullin 77a:6\">Ḥull. 77ᵃ</cite> <he>דח׳ סכיניה</he> whose knife is sharp (who reasons well); <cite ref=\"Yevamot 122a:1\">Yeb. 122ᵃ</cite> <he>דחריף סכינא</he>. ",
+				"<cite ref=\"Megillah 7a:18\">Meg. 7ᵃ</cite>, a. e. (prov.) <he>טבא חדא פילפלתא ח׳ וכ׳</he> one grain of pepper is worth more than a basketful of pumpkins, i.e. a reasoning mind is worth more than learning. ",
+				"<cite ref=\"Nedarim 31b:1\">Ned. 31ᵇ</cite> top <he>זבינא ח׳</he> goods which sell quickly, v. <cite ref=\"M01280\"><he>מִיצְעָא</he></cite>; a. fr.—Pl. <cite ref=\"H01058\"><he>חֲרִיפִין</he></cite>, <he>חֲרִיפֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 5:2\">Targ. Josh. V, 2</cite>. Targ. ",
+				"<cite ref=\"Habakkuk 1:8\">Hab. I, 8</cite>.—",
+				"<cite ref=\"Berakhot 59b:5\">Ber. 59ᵇ</cite> <he>האי דח׳ בני וכ׳</he> the reason that the men of Maḥuza are acute. ",
+				"<cite ref=\"Kiddushin 39a:2\">Kidd. 39ᵃ</cite>, a. e. <he>ח׳ דפומבדיתא</he> the ingenious students of Pumb’ditha (Efa and Abimi); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>current coin, easily passing</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 44a\">B. Mets. 44ᵃ</cite> sq. <he>כספא דח׳</he> silver coin which is current, is considered coin, gold being less current is considered a produce.—Pl. <he>חֲרִיפֵי</he>. ",
+				"<cite ref=\"Bava Metzia 44a\">Ib.</cite> <he>ח׳ טפי וכ׳</he> are easier passed than &c."
+			],
+			"label": "2"
+		}
+	]
+}

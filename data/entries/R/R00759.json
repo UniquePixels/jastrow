@@ -1,0 +1,55 @@
+{
+	"id": "R00759",
+	"slug": "צרי-1",
+	"headword": {
+		"text": "צְרֵי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "צְרָא"
+		}
+	],
+	"page": {
+		"number": 1301,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to split, tear</i>. Targ. II Esth. IV, 1.—",
+			"units": [
+				"<cite ref=\"Avodah Zarah 30a:7\">Ab. Zar. 30ᵃ</cite> <he>חזייה … דצָרֵי ואתי</he> (Ar. <cite ref=\"R00013\"><he>צָארֵי</he></cite>) saw a serpent split (cross the water, cmp. <he>צלח</he>) and come on.—[<cite ref=\"Menachot 37b\">Men. 37ᵇ</cite> <he>דצרייה</he>, v. <cite ref=\"R00242\"><he>צוּר</he></cite> II ch.]."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צָרֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to burst</i>. Ab. Zar. l. c. bot. <he>דמְצָרֵי זיקי</he>, v. <cite ref=\"I00364\"><he>טִילָא</he> II</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִצְטָרֵי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִצְטְרֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be split, burst</i>. Ib. 65ᵇ <he>דלא נִצְטְרוּ זיקי</he> that the wine bags should not burst. ",
+					"units": [
+						"<cite ref=\"Shabbat 154b:9\">Sabb. 154ᵇ</cite> <he>מִיצְטָרוּ זיקי</he> the bags may burst. ",
+						"<cite ref=\"Yevamot 17a:3\">Yeb. 17ᵃ</cite> <he>בנתא … אִיצְטָרוּיֵי אִיצְטָרֵי</he> the (Canaanite) girls of that generation had their wombs cut.—[<cite ref=\"Aramaic Targum to Proverbs 18:1\">Targ. Prov. XVIII, 1</cite>; <cite ref=\"Aramaic Targum to Proverbs 20:3\">XX, 3</cite>, v. <cite ref=\"R00103\"><he>צְדֵי</he> I</cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

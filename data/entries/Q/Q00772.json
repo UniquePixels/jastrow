@@ -1,0 +1,48 @@
+{
+	"id": "Q00772",
+	"slug": "פיסתא",
+	"headword": {
+		"text": "פִּיסְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיסְּתָה"
+		},
+		{
+			"text": "פִּסְּ׳"
+		}
+	],
+	"page": {
+		"number": 1168,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"Q01223\"><he>פַּסָּא</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": " פִּיסַּת ידא <i>the hand up to the wrist</i>; <he>פ׳ כף רגלא</he> <i>the foot up to the ankle</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 18:44\">Targ. I Kings XVIII, 44</cite>; a. e.—",
+				"<cite ref=\"Yevamot 115a:7\">Yeb. 115ᵃ</cite> <he>פ׳ דידא וכ׳</he> (see) the hand that lies here (of the remains of the burned husband); a. e.—Pl. <cite ref=\"Q00772\"><he>פִּיסָּתָא</he></cite>, constr. <cite ref=\"Q00744\"><he>פִּיסַּת</he></cite>, <he>פִּסַּת</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 5:4\">Targ. I Sam. V, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 8:10\">Targ. Esth. VIII, 10</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>piece</i>, esp. <i>bread</i> (v. <cite ref=\"Q00888\"><he>פִּיתָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:2:3\">Y. Ber. VI, 10ᵇ</cite> bot. <he>בגין דאנא אכל פִּיסְּתִי … דהדין פסא וכ׳</he> when I eat my bread and, not knowing how to say grace, I say, blessed be he who has created this piece &c. (Bab. ",
+				"<cite ref=\"Berakhot 40b:17\">ib. 40ᵇ</cite> <he>מריה דהאי פיתא</he>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:4:2\">Y. Sabb. VII, end, 10ᵈ</cite> <he>קופדה משלים לפ׳ פ׳ וכ׳</he> meat may serve as a complement to bread (to complete the legal size), but bread cannot serve as a complement to meat. Tanḥ. Ekeb 7, v. <cite ref=\"L00654\"><he>לִפְתּוּתָא</he></cite>.—Pl. <cite ref=\"Q00772\"><he>פִּיסָּתָא</he></cite> <i>crumbs</i>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:4:4\">Y. Pes. VI, 33ᶜ</cite> <he>צריך מבערה פ׳</he> must remove the crumbs."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "P01538",
+	"slug": "עתירה-2",
+	"headword": {
+		"text": "עֲתִירָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1129,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָתַר</he> <i>to dig, stir;</i> trnsf. <i>to entreat, beseech</i>; cmp. <cite ref=\"Q00085\"><he>פָּגַע</he></cite>, <cite ref=\"Q01446\"><he>פָּצַר</he></cite>) <i>entreaty, being entreated, use of the root</i> <he>עתר</he>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> (ref. to <cite ref=\"Genesis 25:21\">Gen. XXV, 21</cite>; a. ",
+				"<cite ref=\"II Samuel 21:14\">II Sam. XXI, 14</cite>) <he>מה ע׳ שנאמר להלן תאומים אף ע׳ וכ׳</he> as ‘being entreated’ there refers to the grant of twins, so it does here &c. (double fertility). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:9\">Y. Ber. II, 4ᵈ</cite> bot. <he>שמע עֲתִירָתֵינוּ</he> hear our prayer; a. e."
+			]
+		}
+	]
+}

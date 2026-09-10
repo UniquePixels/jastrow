@@ -1,0 +1,25 @@
+{
+	"id": "T00089",
+	"slug": "רביותא",
+	"headword": {
+		"text": "רַבְיוּתָא"
+	},
+	"page": {
+		"number": 1442,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"T00086\"><he>רָבֵי</he></cite>) <i>youth</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 22:13\">Targ. O. Lev. XXII, 13</cite> <he>כרַבְיוּתָהּ</he> (not <he>תָא …</he>, <he>תָה …</he>). ",
+				"<cite ref=\"Onkelos Numbers 30:4\">Targ. O. Num. XXX, 4</cite> (some ed. <cite ref=\"T00089\"><he>רַבְיוּתָהָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 11:9\">Targ. Koh. XI, 9</cite>; a. e.—[<cite ref=\"Onkelos Genesis 43:33\">Targ. O. Gen. XLIII, 33</cite> <he>כרביותיה</he>, v. <cite ref=\"T00079\"><he>רַבּוּתָא</he></cite>.—",
+				"<cite ref=\"Aramaic Targum to Psalms 71:21\">Targ. Ps. LXXI, 21</cite>, v. <cite ref=\"T00125\"><he>רַבָּנוּתָא</he></cite>.]"
+			]
+		}
+	]
+}

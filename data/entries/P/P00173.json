@@ -1,0 +1,42 @@
+{
+	"id": "P00173",
+	"slug": "עוב-2",
+	"headword": {
+		"text": "עוֹב"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֹב"
+		}
+	],
+	"page": {
+		"number": 1046,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00011\"><he>עבב</he></cite>, cmp. <cite ref=\"H00012\"><he>חבב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) [<i>junction</i>,] <i>beam</i>.—Pl. <he>עוּבִּים</he>, <he>עוּבִּין</he>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 67a:1\">B. Kam. 67ᵃ</cite> (ref. to <cite ref=\"Ezekiel 41:26\">Ez. XLI, 26</cite>) <he>העובים אלו המרישות</he> <i>‘ubbim</i> means joists.—[<cite ref=\"Jerusalem Talmud Bava Batra 5:1:2\">Y. B. Bath. V, beg. 15ᵃ</cite> <he>והעובון</he>, prob. to be read: <he>והעוֹגֵין</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Arab. <i>‘aybah</i>, <cite ref=\"P00043\"><he>עַבְיָא</he></cite>, and <cite ref=\"H00234\"><he>חוֹב</he> II</cite>) <i>bag</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:6\">Kel. XXVI, 6</cite> <he>עָב כסות</he> the bag for a garment, contrad. to <cite ref=\"V00557\"><he>תכריך</he></cite>.—Pl. <he>עוּבִּים</he>, constr. <cite ref=\"P00178\"><he>עוּבֵּי</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 4:9\">Tosef. Kel. B. Bath. IV, 9</cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 4:10\">Ib. 10</cite> <he>ע׳ הצמר</he> (not <he>הצור</he>) woolen material for carpet bags. ",
+				"<cite ref=\"Chullin 49a:1\">Ḥull. 49ᵃ</cite> <he>ע׳ בית הכוסות</he> the pockets (folds) of &c., v. <cite ref=\"K00314\"><he>כּוֹס</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

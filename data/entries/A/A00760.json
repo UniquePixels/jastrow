@@ -1,0 +1,21 @@
+{
+	"id": "A00760",
+	"slug": "אונקא-1",
+	"headword": {
+		"text": "אוּנְקָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 29,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"P00304\"><he>עוּנְקָא</he></cite> m. (<cite ref=\"P01008\"><he>ענק</he></cite>) <i>neck, meat from the neck</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 140b:11\">Sabb. 140ᵇ</cite> <he>א׳</he> ed. (Ar. <cite ref=\"P00001\"><he>ע׳</he></cite>; Ms. M. <he>עוזקא</he>). ",
+				"<cite ref=\"Berakhot 44b\">Ber. 44ᵇ</cite> <cite ref=\"P00001\"><he>ע׳</he></cite> ed. (Ms. M. <he>א׳</he>)."
+			]
+		}
+	]
+}

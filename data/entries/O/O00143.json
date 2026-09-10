@@ -1,0 +1,38 @@
+{
+	"id": "O00143",
+	"slug": "סגיר",
+	"headword": {
+		"text": "סְגִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגִירָא"
+		},
+		{
+			"text": "סְגִירַת"
+		},
+		{
+			"text": "סְגִירְתָּא"
+		}
+	],
+	"page": {
+		"number": 955,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00166\"><he>סְגַר</he></cite>) [<i>locked up</i>,] <i>declared leprous after being locked up</i>; in gen. <i>leprous</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:44\">Targ. Lev. XIII, 44</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:45\">Targ. O. ib. 45</cite>.—",
+				"<cite ref=\"Onkelos Numbers 12:10\">Targ. O. Num. XII, 10</cite> <cite ref=\"O00143\"><he>סגירא</he></cite> ed. Berl. (ed. Vien. <cite ref=\"O00146\"><he>סְגִירָת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 4:6\">Targ. Y. Ex. IV, 6</cite>; a. fr.—Pl. <he>סְגִירִין</he>; f. <cite ref=\"O00143\"><he>סְגִירָן</he></cite>, <cite ref=\"O00143\"><he>סְגִירָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 7:3\">Targ. II Kings VII, 3</cite>.—",
+				"<cite ref=\"Tosefta Negaim 6:1\">Tosef. Neg. VI, 1</cite> <he>סְגִירָתָה</he>; <cite ref=\"Sanhedrin 71a:20\">Snh. 71ᵃ</cite> … <he>תָא</he>, v. <cite ref=\"H00455\"><he>חוּרְבָּא</he> II</cite>."
+			]
+		}
+	]
+}

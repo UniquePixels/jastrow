@@ -1,0 +1,29 @@
+{
+	"id": "K00489",
+	"slug": "כיד-1",
+	"headword": {
+		"text": "כִּיד"
+	},
+	"page": {
+		"number": 630,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K00519\"><he>כִּיֵּיד</he></cite>, v. <cite ref=\"K00617\"><he>כִּיר</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

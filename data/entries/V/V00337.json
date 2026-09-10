@@ -1,0 +1,34 @@
+{
+	"id": "V00337",
+	"slug": "תותב-1",
+	"headword": {
+		"text": "תּוֹתָב"
+	},
+	"page": {
+		"number": 1659,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>תחתב</he>; <cite ref=\"V00348\"><he>תָּחַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>inserted, fixed.—Fem</i>. <he>תּוֹתֶבֶת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:5\">Sabb. VI, 5</cite> (<cite ref=\"Shabbat 64b:7\">64ᵇ</cite>), v. <cite ref=\"U01556\"><he>שֵׁן</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tight cover, sheet</i>, (cmp. <cite ref=\"H01113\"><he>חָלוּק</he></cite>) <i>layer</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 49b:2\">Ḥull. 49ᵇ</cite> <he>ת׳ קרום ונקלף</he> an even layer of fat covered with a membrane and easily peeled; <cite ref=\"Tosefta Chullin 9:14\">Tosef. ib. IX, 14</cite>.—[<cite ref=\"Jerusalem Talmud Shabbat 6:1:5\">Y. Sabb. VI, 7ᵈ</cite> <he>תותבן</he>, read: <he>זהובין</he>; v. <cite ref=\"R00064\"><he>צִבְעוֹן</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

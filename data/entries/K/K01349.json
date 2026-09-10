@@ -1,0 +1,28 @@
+{
+	"id": "K01349",
+	"slug": "כתובא-2",
+	"headword": {
+		"text": "כָּתוֹבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּתוֹבָה"
+		}
+	],
+	"page": {
+		"number": 680,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"K01344\"><he>כָּתְבָן</he></cite>, <i>writer, notary</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 9:7:4\">Y. Gitt. IX, 50ᶜ</cite> bot. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:1:3\">Y. Snh. II, beg. 19ᵈ</cite>; <cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite> <he>ר׳ חנינא כ׳</he> R. Ḥ., the notary."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "B00574",
+	"slug": "ביזתא-2",
+	"headword": {
+		"text": "בֵּיזְתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 160,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Bez’tha</i> (contr. of <he>בי זיתא</he> Olive-town), near Pumbeditha. ",
+			"units": [
+				"<cite ref=\"Eruvin 52a:1\">Erub. 52ᵃ</cite> <he>תהא שביתתי</he> [<cite ref=\"B00000\"><he>ב</he></cite>]<he>ב׳</he> Ar. (ed. <he>בצינתא</he>; Ms. M. <he>בני זיתא</he> read <he>בבי</he>; Ms. O. <he>בזיתא</he>; v. Rabb. D. S. a. l.) my central point for Sabbath distances be in B."
+			]
+		}
+	]
+}

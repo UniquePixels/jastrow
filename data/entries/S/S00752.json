@@ -1,0 +1,26 @@
+{
+	"id": "S00752",
+	"slug": "קטינא-1",
+	"headword": {
+		"text": "קַטִּינָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00751\">preced.</cite>) <i>something small</i>; <he>ק׳ דארעא</he> (or sub. <he>דארעא</he>) <i>a small piece of ground</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 59a:18\">B. Kam. 59ᵃ</cite> <he>אגב ק׳ דא׳</he> in connection with a small piece of ground. ",
+				"<cite ref=\"Ketubot 91b:15\">Keth. 91ᵇ</cite> <he>שבק ק׳ דא׳ וכ׳</he> left to his heirs a small piece of ground worth fifty Zuz. ",
+				"<cite ref=\"Ketubot 91b:15\">Ib.</cite> <he>הני חמשין זוזי דמי דארעא ק׳</he> (Rashi: <he>דמי ק׳</he>) these fifty Zuz I give in payment for the small field. ",
+				"<cite ref=\"Gittin 30b:6\">Gitt. 30ᵇ</cite> <he>כמעשה ק׳ דאביי</he> like the case of the small field that Abayi had to decide upon (Keth. l. c.).—Pl. <cite ref=\"S00754\"><he>קַטִּינֵי</he></cite>. Keth. l. c. <he>תרי ק׳ דא׳</he> two small fields."
+			]
+		}
+	]
+}

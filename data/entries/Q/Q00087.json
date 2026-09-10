@@ -1,0 +1,25 @@
+{
+	"id": "Q00087",
+	"slug": "פגע-3",
+	"headword": {
+		"text": "פֶּגַע"
+	},
+	"page": {
+		"number": 1135,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q00086\">preced.</cite>) <i>contact, accident</i>, (<i>evil</i>) <i>occurence; affliction, plague</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 17a:4\">Ber. 17ᵃ</cite> <he>ותצילני מפ׳ רע</he> and save me from meeting with evil; a. e.—Pl. <he>פְּגָעִים</he>, <cite ref=\"Q00089\"><he>פְּגָעִין</he></cite> <i>evil spirits</i>. ",
+				"<cite ref=\"Shevuot 15b:9\">Shebu. 15ᵇ</cite> (expl. <he>בשיר</he>, Mish. ",
+				"<cite ref=\"Mishnah Shevuot 2:2\">ib. II, 2</cite>) the song of thanksgiving (<cite ref=\"Psalms 30\">Ps. XXX</cite>) <he>ושיר של פ׳ וכ׳</he> and the song referring to evil spirits (<cite ref=\"Psalms 91:1-9\">Ps. XCI, 1—9</cite>), and some call it song of <i>n’gaʿim</i> (plagues, with ref. to <he>ונגע</he>, ib. 10); <cite ref=\"Jerusalem Talmud Eruvin 10:11:6\">Y. Erub. X, 26ᶜ</cite> bot. <he>אומרין היו שיר של פ׳ וכ׳</he> they used to recite the ‘song of demons’ in Jerusalem (in the Temple, when one was threatened with insanity); <cite ref=\"Jerusalem Talmud Shabbat 6:2:16\">Y. Sabb. VI, 8ᵇ</cite> top <he>שיר פגועין</he>, the song for the stricken. ",
+				"<cite ref=\"Midrash Tehillim 91:1\">Midr. Till. to Ps. XCI</cite> <he>שיר של פ׳ היה אומר משה וכ׳</he> Moses recited the ninety-first psalm on ascending the heavens, when he said &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,140 @@
+{
+	"id": "J00675",
+	"slug": "ישב-1",
+	"headword": {
+		"text": "יָשַׁב"
+	},
+	"page": {
+		"number": 599,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to sit down, rest; to dwell, remain; to be inactive</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:15\">Macc. III, 15</cite> <he>כל חיוֹשֵׁב ולא עבר וכ׳</he> whoever is inactive and commits no sin, i.e. omits to do wrong; <cite ref=\"Kiddushin 39b:15\">Kidd. 39ᵇ</cite>.—",
+				"<cite ref=\"Eruvin 100a:23\">Erub. 100ᵃ</cite> <he>שֵׁב ואל תעשה עדיף</he> ‘sit and do nothing’, i.e. not to act in doubtful cases, is better, opp. <he>קום ועשה</he>. ",
+				"<cite ref=\"Berakhot 20a:3\">Ber. 20ᵃ</cite> <he>שב ואל תעשה שאני</he> with an omission it is different. ",
+				"<cite ref=\"Tosefta Sanhedrin 7:8\">Tosef. Snh. VII, 8</cite> <he>ולא יֵשְׁבוּ … להם שֵׁבוּ</he> and they must not sit down until he says to them, Be seated; <cite ref=\"Horayot 13b\">Hor. 13ᵇ</cite>; <cite ref=\"Jerusalem Talmud Bikkurim 3:3:9\">Y. Bicc. III, 65ᶜ</cite> bot.—",
+				"<cite ref=\"Jerusalem Talmud Demai 2:3:4\">Y. Dem. II, 23ᵃ</cite> top <he>שי׳ בישיבח</he> who has a seat in the scholars’ meetings. ",
+				"<cite ref=\"Sanhedrin 10b\">Snh. 10ᵇ</cite>; <cite ref=\"Tosefta Sanhedrin 2:1\">Tosef. ib. II, 1</cite> <he>אחד אומר לֵישֵׁב</he> if one is in favor of sitting (holding deliberation in court). ",
+				"<cite ref=\"Mishnah Zevachim 2:1\">Zeb. II, 1</cite> <he>יוֹשֵׁב</he> in a sitting position. ",
+				"<cite ref=\"Berakhot 28b\">Ber. 28ᵇ</cite> <he>מיוֹשְׁבֵי בה״מ</he> one of the attendants at college, <he>יושבי קרנות</he> those placed at street corners (traders, idlers). Gen. R. s 75 <he>יושבי קרנות</he> (corr. <he>קרונות</he>) sitting in chariots; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be settled</i> (v. <cite ref=\"J00350\"><he>יִישּׁוּב</he></cite>), <i>be inhabited</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:1\">Num. R. s. 4</cite> <he>הגבעה</he> … <he>יוֹשְׁבִים</he> Gibeah and Kiryath Jearim were settled at the same time.—",
+				"<cite ref=\"Eruvin 86a:2\">Erub. 86ᵃ</cite> (ref. to <cite ref=\"Psalms 61:8\">Ps. LXI, 8</cite>) <he>אימתי יושב עולם לפני וכ׳</he> (Rashi a. Ar. <he>יֵשֵׁב</he>) when is the world settled (evenly balanced) before God? When kindness and truth are appointed to guard it (differ. in Rashi; v. infra)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִשֵּׁב", "יִישֵּׁב"],
+			"senses": [
+				{
+					"gloss": "<i>to settle, put in place, to arrange evenly</i>. Y. Sabb. XII, beg. 13ᶜ <he>הבנאי י׳ את האבן וכ׳</he> the builder that placed a stone on top of the row (v. <cite ref=\"D00617\"><he>דִּימוֹס</he> I</cite>). Ib.ᵈ top; Y. Pes. VIII, 33ᵇ top <he>מפני שהוא כמְיַישֵּׁב בידו</he> because it is like settling the web with one’s own hand. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 37\">Lev. R. s. 37</cite> [read:] <he>יָשַׁב וְיִ׳ להם סבלותם וכ׳</he> he sat down (as a judge) and arranged their burdens in proper proportions between man and woman. ",
+						"<cite ref=\"Vayikra Rabbah 37\">Ib.</cite> <he>אתה עתיד ליַישֵּׁב וכ׳</he> thou art designated to settle and explain to my children their vows &c. ",
+						"<cite ref=\"Shemot Rabbah 31:5\">Ex. R. s. 31</cite> (ref. to <cite ref=\"Psalms 61:8\">Ps. LXI, 8</cite>, v. supra) <he>יַשֵּׁב עולמך</he> make thy world evenly balanced (as to property); Tanḥ. ",
+						"<cite ref=\"Exodus 9\">Mishp. 9</cite> <he>תיישר עולמך בשוה</he> (read: <he>תְּיַישֵּׁב</he>). ",
+						"<cite ref=\"Shemot Rabbah 52\">Ex. R. s. 52</cite> <he>לא היו יודעין ליַישְּׁבוֹ</he> they knew not how to put its parts together; a. fr.—Trnsf. <i>to set the mind at ease, to quiet</i>. ",
+						"<cite ref=\"Shabbat 87a:8\">Sabb. 87ᵃ</cite> <he>דברים שמְיַישְּׁבִין לבו וכ׳</he> Ms. M. (ed. <he>שמושכין</he>) words which quiet the mind of man &c.; <cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite> <he>דברים שמְיַישְּׁבִים את הלב</he>. Y. Pes. V, end, 32ᵈ (expl. <he>וישב</he>, <cite ref=\"II Samuel 7:18\">II Sam. VII, 18</cite>) <he>וַיַישֶּׁב עצמו לתפלה</he> he quieted his mind for prayer; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to settle, cultivate, populate</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 58b\">Ber. 58ᵇ</cite> … <he>עתיד להחזירו וליַישְּׁבוֹ</he> Ms. M. (ed. <he>ליִישּׁוּבוֹ</he>) the Lord will again people it. ",
+						"<cite ref=\"Sotah 22a:7\">Sot. 22ᵃ</cite> <he>מְיַישְּׁבֵי עולם</he> cultivators of the world.—<i>Part. pass.</i> <cite ref=\"M01105\"><he>מְיוּשָּׁב</he></cite>, f. <he>מְיוּשֶּׁבֶת</he> "
+					],
+					"label": "2",
+					"senses": [
+						{
+							"gloss": " <i>seated</i>. ",
+							"units": [
+								"<cite ref=\"Megillah 21a:15\">Meg. 21ᵃ</cite>. Y. Gitt. VII, 48ᵈ top; a. fr.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>sedate, at ease</i>. Y. Ber. IV, 8ᵇ bot. <he>לבו מי׳</he> his mind is at ease (about his animal); Bab. ",
+							"units": [
+								"<cite ref=\"Berakhot 30a:6\">Ber. 30ᵃ</cite> <he>לפי שאין דעתו מי׳ עליו</he> because his mind is not at ease without it. ",
+								"<cite ref=\"Sifrei Bamidbar 131:1\">Sifré Num. 131</cite> <he>היה … בקי ומי׳</he> the polemarch was experienced and cool-headed; a. fr."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הוֹשִׁיב"],
+			"senses": [
+				{
+					"gloss": "<i>to seat, place, appoint; to settle</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 38a\">Yoma 38ᵃ</cite> sq.; <cite ref=\"Tosefta Yoma 2:7\">Tosef. ib. II, 7</cite> <he>במקומך יוֹשִׁיבוּךָ</he> people will finally seat thee in the place which thou deservest. ",
+						"<cite ref=\"Tosefta Shabbat 6:17\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:17\">VII</cite>), 17 (among superstitious practices) <he>חמוֹשֶׁבֶת אפרוחים</he> (<cite ref=\"F00000\"><he>ו</he></cite>)<he>אמרה איני מוֹשַׁבְתָּן וכ׳</he> a woman who sets hens to brood and says I will not set them except in pairs (v. ed. Zuck. note). ",
+						"<cite ref=\"Mishnah Sanhedrin 4:4\">Snh. IV, 4</cite> <he>מוֹשִׁיבִין אותו וכ׳</he> a seat is assigned to him in the third row. ",
+						"<cite ref=\"Makkot 10a:7\">Macc. 10ᵃ</cite> <he>ואין מוֹשִׁיבִין אותם וכ׳</he> and we must not lay them out except on a river; (Tosef. ib. III (II), 8 <he>בונין</he>).—Tosef. l. c. <he>מביאין … ומושיבין וכ׳</he> other people are imported and settled in their place. ",
+						"<cite ref=\"Bava Kamma 16b\">B. Kam. 16ᵇ</cite> bot. <he>הוֹשִׁיבוּ ישיבה וכ׳</he> they held scholars’ meetings by his grave. ",
+						"<cite ref=\"Sanhedrin 17a:21\">Snh. 17ᵃ</cite> <he>אין מושיבין בסנהדרי וכ׳</he> none can be appointed members of the Sanhedrin except &c.; a. v. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נוֹשָׁב"],
+			"senses": [
+				{
+					"gloss": "<i>to be inhabited</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 43:7\">Pirké d’R. El. ch. XLIII</cite> <he>ארץ נוֹשֶׁבֶת</he> an inhabited land, settlement; (<cite ref=\"Kohelet Rabbah 1:15\">Koh. R. to I, 15</cite> <cite ref=\"J00350\"><he>יִישּׁוּכ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["חִתְיַישֵּׁב"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְיַישֵּׁב</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be settled, colonized</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 31a:15\">Ber. 31ᵃ</cite> <he>כל ארץ שגזר … ליישוב נִתְיַישְּׁבָה</he> every land which Adam designated for settlement, has been settled."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be at ease, to be refreshed, to come to</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 82a:9\">Yoma 82ᵃ</cite> <he>אם נִתְיַשְּׁבָה דעתה</he> if she feels that her craving has been gratified. ",
+						"<cite ref=\"Eichah Rabbah 1:52\">Lam. R. to I, 11</cite> (ref. to <he>להשיב נפש</he>, <cite ref=\"Eichah Rabbah 1:52\">ib.</cite>) <he>עד כמה מִתְיַישֶּׁבֶת נפש</he> how much is required for one fainting from hunger (v. <he>בּוֹלִימוֹס</he>) to come to himself again?—",
+						"<cite ref=\"Chagigah 3b:11\">Ḥag. 3ᵇ</cite> <he>לאחר שנתיישבה דעתו</he> after his excitement had subsided. ",
+						"<cite ref=\"Eruvin 65a:19\">Erub. 65ᵃ</cite> <he>כל המתיישב ביינו</he> he who remains clear-minded when drinking wine. Kinnim III, 6 <he>כל זמן … דעתם מתישבת עליהם</he> the older they grow, the more clear-minded do they become, opp. <he>מיטרפת</he>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

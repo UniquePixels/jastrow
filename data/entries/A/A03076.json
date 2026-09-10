@@ -1,0 +1,25 @@
+{
+	"id": "A03076",
+	"slug": "ארטקפא",
+	"headword": {
+		"text": "אַרְטְקָפָא"
+	},
+	"page": {
+		"number": 118,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀρτόκοπος) <i>baker</i>, <cite ref=\"A00172\"><he>בית א׳</he></cite> <i>bakery</i>. Midr. Sam. ch. XIX <he>בית א׳ שלו</he> (Var. <cite ref=\"A03252\"><he>ארתוקופיון</he></cite> q. v.) a rendition of <i>beth hallaḥmi</i>, <cite ref=\"I Samuel 16\">I Sam. XVI</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": " to his (Jesse’s) bakery, <he>שהוא בא וכ׳</he> (read with <cite ref=\"Yalkut Shimoni on Nach 124:3\">Yalk. Sam. 124</cite> <he>והוא יבוא וכ׳</he>) and he (Jesse) shall come out (to the bakery) from Bethlehem (to meet Samuel there). Yalk. l. c. <cite ref=\"A03206\"><he>ארנקפאן</he></cite>, <he>ארכ׳</he> (corr. acc.).",
+			"units": [],
+			"label": "1"
+		}
+	]
+}

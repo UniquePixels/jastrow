@@ -1,0 +1,23 @@
+{
+	"id": "V00343",
+	"slug": "תותרי-1",
+	"headword": {
+		"text": "תּוּתְּרֵי"
+	},
+	"page": {
+		"number": 1660,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"N01394\"><he>נְתַר</he></cite>) <i>droppings, wool that is shed when sheep are washed</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 68b\">B. Mets. 68ᵇ</cite> (Ms. R. 2 <he>תירתי</he>, Ms. Alf. <cite ref=\"V00342\"><he>תותי</he></cite>, corr. acc.; v. Rabb. D. S. a. l. note 5)."
+			]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"id": "U01370",
+	"slug": "שלף-1",
+	"headword": {
+		"text": "שָׁלַף"
+	},
+	"page": {
+		"number": 1587,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U01230\"><he>שָׁלֵו</he></cite>, a. <cite ref=\"U01214\"><he>שָׁלָה</he></cite>)<i>to be lax, hang down, be loose, slip</i>. Denom. <cite ref=\"U01329\"><he>שָׁלִיף</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to loosen, take off, pull, draw a sword</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>יִשְׁלוֹף</he> Ar. (ed. <he>ישמוט</he>) may he loosen (release), v. <cite ref=\"H01109\"><he>חָלַץ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:5:2\">Y. Kidd. I, 60ᶜ</cite> top (ref. to <cite ref=\"Ruth 4:7\">Ruth IV, 7</cite>) <he>מי ש׳</he> which took the shoe off (the buyer or the seller)? <cite ref=\"Bamidbar Rabbah 14:1\">Num. R. s. 14<sup>4</sup></cite> <he>מסמר … נוח לִשְׁלוֹף</he> a nail with a big head is easily pulled; <cite ref=\"Pesikta Rabbati 3\">Pesik. R. s. 3</cite>. ",
+				"<cite ref=\"Midrash Tehillim 120:2\">Midr. Till. to Ps. CXX</cite> <he>אם יִשְׁלוֹף האדם וכ׳</he> if a man draws the sword which he has in his hand to slay his neighbor &c.; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁלַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be loosened, drawn</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 93\">Gen. R. s. 93</cite>; <cite ref=\"Yalkut Shimoni on Torah 150:2\">Yalk. ib. 150</cite> <he>ואינה נִשְׁלֶפֶת</he>, v. <cite ref=\"V00793\"><he>תַּעַר</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשְׁלִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to pull, pluck the last growth</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>; <cite ref=\"Yalkut Shimoni on Torah 32:1-5\">Yalk. ib. 32</cite> <he>על … שאדם מַשְׁלִיף שדהו אוכלה וכ׳</he> this (<cite ref=\"Genesis 3:18\">Gen. III, 18</cite>) was said with reference to these days, when one plucks his field over and again and eats it (the aftermath) &c., v. ",
+						"<cite ref=\"Pesachim 118a\">Pes. 118ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

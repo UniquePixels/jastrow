@@ -1,0 +1,80 @@
+{
+	"id": "P00794",
+	"slug": "עליה",
+	"headword": {
+		"text": "עֲלִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲלִיָּיה"
+		}
+	],
+	"page": {
+		"number": 1082,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00772\"><he>עָלָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) <i>upper chamber, upper story</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 10:1\">B. Mets. X, 1</cite> <he>הבית והע׳ של שנים</he> the house (lower compartment) and the upper story belonging severally to two persons. ",
+				"<cite ref=\"Mishnah Bava Metzia 10:2\">Ib. 2</cite> <he>הבית והע׳ נפחתה הע׳</he> (not <he>של שנים</he>) if there is a lower story (in which the owner lives) and an upper story (inhabited by a tenant), and the upper story is out of repair. ",
+				"<cite ref=\"Mishnah Bava Metzia 10:3\">Ib. 3</cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 3:7\">B. Bath. III, 7</cite>. ",
+				"<cite ref=\"Mishnah Nedarim 7:4\">Ned. VII, 4</cite> <he>הנודר מן הבית מותר בע׳</he> he who vows abstinence from ‘house’, is permitted to use an upper story (v. <cite ref=\"P00684\"><he>עִירוֹנִי</he></cite>). ",
+				"<cite ref=\"Mishnah Shabbat 1:4\">Sabb. I, 4</cite> <he>בעֲלִיַּית חנניה וכ׳</he> in the upper chamber of Ḥananiah &c. ",
+				"<cite ref=\"Ketubot 50b:4\">Keth. 50ᵇ</cite> <he>דברים טובים שנאמרו בע׳</he> the good things (in favor of females) that were said at the meeting in an upper chamber; a. v. fr.—בני ע׳ <i>sons of heaven, those enjoying the Divine Presence in the hereafter</i>. ",
+				"<cite ref=\"Sukkah 45b:5\">Succ. 45ᵇ</cite>; <cite ref=\"Sanhedrin 97b:12\">Snh. 97ᵇ</cite>.—Pl. <he>עֲלִיּוֹת</he>, <he>עֲלִיּיוֹת</he>. ",
+				"<cite ref=\"Bava Metzia 117a:4\">B. Mets. 117ᵃ</cite> <he>שתי ע׳ זו וכ׳</he> two upper stories, one above the other; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>going up, rising</i>, opp. <cite ref=\"J00632\"><he>ירידה</he></cite>; also <i>flight of stairs</i>. Ib. (in Chald. dict.) <he>ע׳ קבילי עלאי ע׳ וירידה וכ׳</he> when I rented the upper story, I was prepared to go up, but to go up and go down again I was not prepared. Ib. <he>חדא ע׳ קבילית עלי שתי עליות וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note) I was prepared for one flight of stairs but not for two flights; a. fr.—Esp. <i>going up to Jerusalem, pilgrimage</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 8b:10\">Pes. 8ᵇ</cite> <he>ע׳ שלא לשמה</he> a pilgrimage not for its own sake; a. e.—<i>Pl.</i> as ab. B. Mets. l. c., v. supra."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>elevation</i> (to a higher dignity), <i>promotion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite> <he>עֲלִיָּיתוֹ וכ׳</he>, v. <cite ref=\"J00633\"><he>יְרִידָה</he> II</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite> <he>ע׳ תהא להם</he> they shall rise (to power). ",
+				"<cite ref=\"Ketubot 61a:3\">Keth. 61ᵃ</cite> (play on <he>בעלת בעל</he>, <cite ref=\"Genesis 20:3\">Gen. XX, 3</cite>) <he>בעלייתו של בעל וכ׳</he> the wife partakes of the comforts of the husband’s higher position, but is not bound to share the restrictions of his lower position, v. <cite ref=\"P00772\"><he>עָלָה</he></cite>; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>carrying up</i>, esp. <i>putting on the altar, offering</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 13:1\">Zeb. XIII, 1</cite> <he>חייב על הע׳</he> is punishable for the offering (outside of the Temple precincts). ",
+				"<cite ref=\"Mishnah Zevachim 13:3\">Ib. 3</cite>; a. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " (v. <cite ref=\"P00772\"><he>עָלָה</he></cite>, c) <i>neutralization, loss of identity</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 2:2:8\">Y. Bicc. II, 65ᵃ</cite> top <he>מעשר אין לו ע׳</he> tithes (mixed up with secular food) are not neutralized."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": "<i>the most valuable property</i> (cmp. <cite ref=\"P00512\"><he>עִידִית</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 1:4\">B. Kam. I, 4</cite>, v. <cite ref=\"M02081\"><he>מְעוּלֶּה</he></cite>. ",
+				"<cite ref=\"Bava Kamma 91a:5\">Ib. 91ᵃ</cite> <he>רידיא ע׳ דמרה הוא</he> the compensation for damages which is won by using the noxious ox for ploughing, is equal to a collection from the owner’s best possessions, (opp. to <he>מגופו</he> the indemnity collected from a sale of the animal). ",
+				"<cite ref=\"Nedarim 56a:1\">Ned. 56ᵃ</cite> if one says, <he>בית בביתי … מראהו ע׳</he> I sell thee a room in my house, he may show (assign) to him an upper chamber (v. supra); modified: <he>מאי ע׳ מעולה וכ׳</he> <i>ʿăliya</i> means here (he must assign to him) the best room; <cite ref=\"Menachot 108b:24\">Men. 108ᵇ</cite>. Keth. l. c. 50ᵇ <he>ומאי ע׳ מעילוייא דאב</he> and does <i>ʿăliya</i> mean ‘of the father’s best things’?; a. e."
+			],
+			"label": "6"
+		}
+	]
+}

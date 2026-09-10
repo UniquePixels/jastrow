@@ -1,0 +1,43 @@
+{
+	"id": "S00667",
+	"slug": "קושי",
+	"headword": {
+		"text": "קוֹשִׁי"
+	},
+	"page": {
+		"number": 1344,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02219\"><he>קָשָׁה</he></cite>) [<i>hardness, stiffness</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>erection</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 55a\">Snh. 55ᵃ</cite>, opp. <cite ref=\"M03002\"><he>מת</he></cite> (<he>אבר</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>protracted travailing</i> (v. ",
+			"units": [
+				"<cite ref=\"Genesis 35:17\">Gen. XXXV, 17</cite>). Sifra Thazr. ch. II; <cite ref=\"Niddah 38b:23\">Nidd. 38ᵇ</cite>, opp. <cite ref=\"U00498\"><he>שופי</he></cite>. ",
+				"<cite ref=\"Mishnah Niddah 4:6\">Ib. IV, 6</cite>. ",
+				"<cite ref=\"Yevamot 83a:7\">Yeb. 83ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>hard effort</i>; <he>בק׳</he> <i>by an effort, reluctantly</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 12b:2\">Sabb. 12ᵇ</cite> <he>בק׳ התירו לנחם וכ׳</he> it was with reluctance that they allowed mourners to be comforted and the sick to be visited on the Sabbath (because it disturbs the Sabbath joy)."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "E00427",
+	"slug": "הימלתא",
+	"headword": {
+		"text": "הִימַלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲמַלְתָּא"
+		},
+		{
+			"text": "אֲמַלְתּא"
+		}
+	],
+	"page": {
+		"number": 347,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>המל</he> = <cite ref=\"H01197\"><he>חמל</he></cite>) [<i>heating spice</i>,] <i>preserved ginger</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 36b:17\">Ber. 36ᵇ</cite> <he>האי המ׳ דאתיא וכ׳</he> (Ms. M. <cite ref=\"H00810\"><he>חֲמַ׳</he></cite>, marginal correction <he>הימ׳</he>); <cite ref=\"Yoma 81b:8\">Yoma 81ᵇ</cite> <he>הי׳</he> (Ms. M. <he>הו׳</he>, Var. <he>חמ׳</he>, <he>אמ׳</he>, v. Rabb. D. S. a. l. notes) that preserved ginger coming from India; cmp. <cite ref=\"H01200\"><he>חֲמָם</he></cite>."
+			]
+		}
+	]
+}

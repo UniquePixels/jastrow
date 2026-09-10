@@ -1,0 +1,32 @@
+{
+	"id": "U02037",
+	"slug": "שרש-2",
+	"headword": {
+		"text": "שֹׁרֶשׁ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוֹרֶשׁ"
+		},
+		{
+			"text": "שׁוֹרְשָׁא"
+		}
+	],
+	"page": {
+		"number": 1635,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U02036\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 29:17\">Targ. Y. II, Deut. XXIX, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 14:8\">Targ. Job XIV, 8</cite> (Ms. <i>pl.</i>).—<i>Pl.</i> <cite ref=\"U02043\"><he>שָׁרְשִׁין</he></cite>, <cite ref=\"U01531\"><he>שִׁוֹ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 18:16\">Ib. XVIII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 53:2\">Targ. Is. LIII, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 80:10\">Targ. Ps. LXXX, 10</cite> <he>שׁוֹרָשֵׁיהוֹן</he> (Ms. <he>שׁוֹרְשְׁיָיהָא</he>)."
+			]
+		}
+	]
+}

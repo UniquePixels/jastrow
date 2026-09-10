@@ -1,0 +1,26 @@
+{
+	"id": "J00432",
+	"slug": "ינוקא-2",
+	"headword": {
+		"text": "יָנוּקָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַר יָנוּקָא"
+		}
+	],
+	"page": {
+		"number": 581,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Mar Yanuka</i>, son of R. Hisda. ",
+			"units": ["<cite ref=\"Bava Batra 7b:1\">B. Bath. 7ᵇ</cite> top."]
+		}
+	]
+}

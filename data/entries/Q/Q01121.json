@@ -1,0 +1,31 @@
+{
+	"id": "Q01121",
+	"slug": "פלץ",
+	"headword": {
+		"text": "פָּלַץ"
+	},
+	"page": {
+		"number": 1185,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to split, shatter</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְפַּלֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be split, cracked</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 60\">Midr. Till. to Ps. LX</cite>, ed. Bub. <he>בשעה שאמר לו יואב הדברים האלו רעשה הארץ נִתְפַּלְּצָה עליהם ונתקפלה תחתיו ונמצא עומד דוד להכותו</he> when Joab said to him (Moab) these words, the earth quaked; it was split around them, and folded itself under his feet, and presently David stood there to smite him (Moab)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

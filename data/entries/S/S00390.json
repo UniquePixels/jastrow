@@ -1,0 +1,26 @@
+{
+	"id": "S00390",
+	"slug": "קומי-1",
+	"headword": {
+		"text": "קוֹמֵי"
+	},
+	"page": {
+		"number": 1332,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. constr. (contr. of <he>קדם</he>) prep. <i>before, in the presence of, prior to</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 50:21\">Targ. Ps. L, 21</cite> <he>קוֹמָךְ</he> Ms. (ed. <he>קדמך</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 57:7\">Ib. LVII, 7</cite> <he>קוֹמַיי</he> Ms. (ed. <cite ref=\"S00160\"><he>קדמי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:23\">Ib. LXIX, 23</cite> <he>קוֹמֵיהוֹן</he> Ms. (ed. <he>קדמ׳</he>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:19\">Y. Meg. I, 72ᵃ</cite> top <he>ר׳ זירא בעי קומי וכ׳</he> R. Z. asked in the presence of &c. Y. Bets. III, 62ᵃ top <he>קוֹמֵיה דר׳ וכ׳</he> (not <cite ref=\"T00001\"><he>ר׳</he></cite>) before R. Ḥ. the elder. Ib. II, 62ᶜ top <he>עבר ק׳ סדרא</he> passed before the school house. Ib. bot. <he>נפלת … קוֹמֵיהוֹן</he> the lamp fell down in their presence; a. fr.—V. <cite ref=\"S01436\"><he>קָמ־</he></cite>, <cite ref=\"S01439\"><he>קַמָּא</he></cite>."
+			]
+		}
+	]
+}

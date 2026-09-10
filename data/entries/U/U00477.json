@@ -1,0 +1,31 @@
+{
+	"id": "U00477",
+	"slug": "שוע-3",
+	"headword": {
+		"text": "שָׁוַע"
+	},
+	"page": {
+		"number": 1538,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>שִׁוֵּעַ</he> (b. h.) <i>to cry</i> (<i>for help</i>). ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 4a:8\">Ab. Zar. 4ᵃ</cite> (ref. to <cite ref=\"Job 30:24\">Job XXX, 24</cite> <cite ref=\"U00475\"><he>שׁוּעַ</he></cite>) <he>בשכר שמְשַׁוְּועִין וכ׳</he> as a reward for their crying before me, I will help them; <cite ref=\"Yalkut Shimoni on Nach 918:4\">Yalk. Job 918</cite> <he>כשמְשַׁוְּעִין וכ׳</he>.—Denom. <cite ref=\"U00481\"><he>שַׁוְעָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

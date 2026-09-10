@@ -1,0 +1,33 @@
+{
+	"id": "R00272",
+	"slug": "צחח",
+	"headword": {
+		"text": "צְחַח"
+	},
+	"page": {
+		"number": 1273,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be bright, glisten; to polish</i>. Part. pass. <he>צְחִיחַ</he>; pl. <he>צְחִיחִין</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>resplendent</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 5:14\">Targ. Cant. V, 14</cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"R00280\"><he>צִחְצוּחַ</he></cite>) <i>in polished armor</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 68:77\">Targ. Ps. LXVIII, 77</cite> (Ms. <he>צָחְיָין</he>, h. text <he>צְחִיחָה</he>)."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

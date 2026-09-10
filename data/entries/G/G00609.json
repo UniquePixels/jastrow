@@ -1,0 +1,25 @@
+{
+	"id": "G00609",
+	"slug": "זעף-3",
+	"headword": {
+		"text": "זַעַף"
+	},
+	"page": {
+		"number": 408,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00608\">preced.</cite> wds.) <i>stormwind, vehemence</i>; <i>anger</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 3:8\">Taan. III, 8</cite> <he>התחילו לירד בז׳</he> the rain began to come down with vehemence. ",
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>, v. <cite ref=\"A00353\"><he>אַגְרִיאוֹן</he></cite>. ",
+				"<cite ref=\"Tractate Semachot 3:9\">Treat. S’maḥ. III, 9</cite> <he>מיתה של ז׳</he> a sudden death (by the anger of the Lord); cmp. ",
+				"<cite ref=\"Moed Katan 28a\">M. Kat. 28ᵃ</cite>, s. v. <cite ref=\"D00432\"><he>דָּחַף</he></cite>."
+			]
+		}
+	]
+}

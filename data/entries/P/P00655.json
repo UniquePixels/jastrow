@@ -1,0 +1,23 @@
+{
+	"id": "P00655",
+	"slug": "עיקה",
+	"headword": {
+		"text": "עִיקָה"
+	},
+	"page": {
+		"number": 1074,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00326\"><he>עוּק</he></cite>) <i>depression</i>; <he>עִיקַת נפש</he> <i>mourning</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite>, a. e., v. <cite ref=\"H01010\"><he>חֲלוּקָה</he></cite>.—",
+				"<cite ref=\"Tosefta Tahorot 10:3\">Tosef. Toh. X, 3</cite>, v. <cite ref=\"P01192\"><he>עִקָּל</he></cite>."
+			]
+		}
+	]
+}

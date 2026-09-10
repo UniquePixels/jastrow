@@ -1,0 +1,31 @@
+{
+	"id": "B00466",
+	"slug": "בזר-1",
+	"headword": {
+		"text": "בָּזַר"
+	},
+	"page": {
+		"number": 154,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., √<cite ref=\"B00406\"><he>בז</he></cite> , v. <cite ref=\"B00459\"><he>בזע</he></cite>) <i>to strew, scatter</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 6b\">Kerith. 6ᵇ</cite> <he>בּוֹזְרָהּ</he> Ar. (ed. incorr. <he>בזורה</he>, v. Rashi a. l.) he scatters it, lest it may decay."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּזֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00465\">same</cite>. Part. pass. <he>מְבוּזָּר</he>. Sifra B’har ch. I <he>אבל אתה בוצר מן המב׳</he> ed. Ven. a. oth. (Var. <he>המופקר</he>) but you may gather (in the Sabbath year) the grapes from (broken) branches lying scattered on the ground, opp. <he>השמור בארץ</he> the vine seated in the ground (Y. Shebi. VII, 38ᵇ top <he>המובקר</he>).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

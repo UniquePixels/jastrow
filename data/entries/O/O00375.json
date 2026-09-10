@@ -1,0 +1,23 @@
+{
+	"id": "O00375",
+	"slug": "סוסכינתא",
+	"headword": {
+		"text": "סוּסְכִּינְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 967,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>סכסכ׳</he>; cmp. <cite ref=\"O00639\"><he>סִיכָּא</he></cite> I a. <cite ref=\"O00898\"><he>סַכִּין</he></cite>) <i>a cutting pain in the bladder, stone</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 64b:7\">Yeb. 64ᵇ</cite> (Ar. <cite ref=\"O01273\"><he>ססגוניתא</he></cite>)."
+			]
+		}
+	]
+}

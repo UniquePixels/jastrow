@@ -1,0 +1,92 @@
+{
+	"id": "D00772",
+	"slug": "דכי-2",
+	"headword": {
+		"text": "דְּכִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּכָא"
+		}
+	],
+	"page": {
+		"number": 307,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= h. <cite ref=\"G00443\"><he>זָכָה</he></cite>) [<i>to be clear</i> (cmp. <cite ref=\"D00780\"><he>דְּכַךְ</he></cite>),] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be clean, pure; to be cleared, acquitted, cleansed from sin</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 12:7\">Targ. Lev. XII, 7</cite> <he>ותִדְכֵּי</he> O. ed. Berl. (ed. <he>ותַ׳</he> incorr., Y. <he>ותִדְכֵי</he>). Ib. XVI, 30 <he>תִּדְכּוֹן</he> O. (Y. <he>תֵּידְכוּן</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:13\">Targ. Ezek. XXIV, 13</cite> <he>תִדְכִּין</he> (Nun emphat.; ed. Lag. <he>תדכן</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be deserving, privileged, admitted</i> (cmp. <cite ref=\"G00455\"><he>זכי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 23:2\">Targ. O. Deut. XXIII, 2</cite> sq.—",
+				"<cite ref=\"Aramaic Targum to Ruth 2:10\">Targ. Ruth II, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 2:13\">Ib. 13</cite> <he>מִדְכֵי</he> (sub. <he>למיעל</he>).—",
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> [read:] <he>זכי בי או דכי בי</he>, v. <cite ref=\"G00456\"><he>זְכֵי</he></cite>.—<i>Part.</i> <cite ref=\"D00773\"><he>דָּכֵי</he></cite>, f. <cite ref=\"D00773\"><he>דַּכְיָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 65:5\">Targ. Is. LXV, 5</cite> <he>דְּכֵינָא וכ׳</he> I am purer than &c., v. <cite ref=\"D00773\"><he>דְּכֵי</he></cite>. [<cite ref=\"Aramaic Targum to Proverbs 6:11\">Targ. Prov. VI, 11</cite>, v. <cite ref=\"D01095\"><he>דְּרַךְ</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּכֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to clear, purify; to restore to levitical cleanness, to cleanse</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 24:13\">Targ. Ezek. XXIV, 13</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 16:30\">Targ. Lev. XVI, 30</cite>; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 79:6\">Gen. R. s. 79</cite> <he>לית אנן מְדַכָּן יתה וכ׳</he> should we not restore it (Tiberias) to levitical cleanness from the slain (buried there)?; <cite ref=\"Yalkut Shimoni on Torah 133:27\">Yalk. ib. 133</cite> <he>מְדַכְּיָין</he>. Gen. R. l. c. [read:] <he>צרוכין אנו מְדַכְּיָהּ לטבריא</he> we must cleanse Tiberias (Pesik. B’shall. p. 89ᵇ <he>למזכייה</he>); <cite ref=\"Kohelet Rabbah 10:8:1\">Koh. R. to X, 8</cite>.—",
+						"<cite ref=\"Kohelet Rabbah 10:8:1\">Ib.</cite> <he>דדַכְּיֵיה</he> which he had declared clean. Y. Shebi. IX, 38ᵈ <he>מְדַכֵּי טיבריא</he>.—",
+						"<cite ref=\"Niddah 6b:8\">Nidd. 6ᵇ</cite> <he>מְדַכָּן וכ׳</he> observe the same levitical cleanness as required for Temple offerings, v. <cite ref=\"H00113\"><he>חַבְרָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְדַּכֵּי", "אִידַּכֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to became clean, be cleansed</i> (from sin), <i>be purified</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 11:4\">Targ. II Sam. XI, 4</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 14:4\">Targ. Lev. XIV, 4</cite> <he>לִדְמִדַּכֵּי</he> ed. Berl. (Var. <he>לַמִּידַּכֵּי</he>; Y. <he>לִדְמִדְכֵּי</he>); ib. 7; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be cleared away, be removed, be gone</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 2b:2\">Ber. 2ᵇ</cite> <he>אִדַּכֵּי יומא</he> the day is past; v. <cite ref=\"I00102\"><he>טְהֵר</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אַדְכָא"],
+			"senses": [
+				{
+					"gloss": "<i>to polish;</i> trnsf. <i>to train</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 22:6\">Targ. Prov. XXII, 6</cite> <cite ref=\"D00772\"><he>אדכא</he></cite> ed. Lag. (Ms. <he>אדכיח</he>, read <he>אַדְכֵיה</he>; some ed. <he>אַדְרְכָא</he>; h. text <he>חנך</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

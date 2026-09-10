@@ -1,0 +1,37 @@
+{
+	"id": "U00197",
+	"slug": "שבת-2",
+	"headword": {
+		"text": "שֶׁבֶת",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1519,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00675\"><he>יָשַׁב</he></cite>)<i>seat</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 1:10\">Esth. R. to I, 2</cite> <he>מקום הש׳</he> the place of the throne. ",
+				"<cite ref=\"Esther Rabbah 1:10\">Ib.</cite> <he>כדי שיהא המלך יושב בש׳ וכ׳</he> so that the king might be seated in the chair with the crown &c. ",
+				"<cite ref=\"Niddah 16b:55\">Nidd. 16ᵇ</cite>, v. <cite ref=\"M02590\"><he>מָרוֹם</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sitting idle, indemnity for loss of time</i> (<cite ref=\"Exodus 21:19\">Ex. XXI, 19</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite> <he>ש׳ רואין אותו וכ׳</he> to estimate indemnity for loss of time, we consider the person concerned, as if he were a watchman in a cucumber field. ",
+				"<cite ref=\"Bava Kamma 85a:14\">Ib. 85ᵃ</cite> <he>דמי שִׁבְתּוֹ</he> indemnity for his enforced idleness. ",
+				"<cite ref=\"Bava Kamma 85a:9\">Ib.</cite> <he>שבתו ורפואתו כל שחייב בש׳ וכ׳</he> the text places on parallel lines indemnity for loss of time and healing expenses: whenever one is bound to pay for loss of time, one is bound to pay for healing. ",
+				"<cite ref=\"Bava Kamma 86a:7\">Ib. 86ᵃ</cite> <he>ש׳ גדולה וש׳ קטנה</he> the larger indemnity (for the permanent incapacitation, e.g. the value of the earning capacity of a maimed hand), and the smaller indemnity (for the time of sickness); <cite ref=\"Gittin 42a\">Gitt. 42ᵃ</cite>; a. fr.—<i>Pl.</i> (ch.) <he>שִׁבְּתִּין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 8:3:2\">Y. B. Kam. VIII, 6ᵇ</cite> bot. <he>תרין ש׳ אינון</he> there are two kinds of indemnity for incapacitation (the larger and the smaller, v. supra)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "S01086",
+	"slug": "קיסריא",
+	"headword": {
+		"text": "קִיסְרָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיסְרָיָיא"
+		},
+		{
+			"text": "קִסְ׳"
+		}
+	],
+	"page": {
+		"number": 1365,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"S01084\"><he>קִיסְרִי</he></cite>, <i>Cæsarean</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:5\">Y. Taan. II, beg. 65ᵃ</cite>; <cite ref=\"Jerusalem Talmud Sotah 5:6:5\">Y. Sot. V, end, 20ᵈ</cite> <he>תחליפא ק׳</he>; <cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite> <he>חלפתא ק׳</he>; a. e.—<i>Pl. f</i>. <cite ref=\"S01078\"><he>קִיסְרָיָיתָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 7:5:3\">Y. Ned. VII, end, 40ᶜ</cite>; <cite ref=\"Jerusalem Talmud Moed Katan 3:5:23\">Y. M. Kat. III, 83ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Berakhot 3:1:8\">Y. Ber. III, 6ᵃ</cite> top, v. <cite ref=\"P01404\"><he>עַרְסָא</he></cite>."
+			]
+		}
+	]
+}

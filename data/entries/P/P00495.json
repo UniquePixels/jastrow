@@ -1,0 +1,23 @@
+{
+	"id": "P00495",
+	"slug": "עיבר-1",
+	"headword": {
+		"text": "עֵיבַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1066,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00060\"><he>עֲבַר</he></cite>), <he>ע׳ אורחא</he> <i>traveller</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:32\">Targ. Job XXXI, 32</cite> Ms. Var. (ed. <cite ref=\"A01741\"><he>אכסניי</he></cite>).—V. <cite ref=\"P00033\"><he>עְבוֹרָא</he></cite>."
+			]
+		}
+	]
+}

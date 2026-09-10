@@ -1,0 +1,22 @@
+{
+	"id": "H01032",
+	"slug": "חליא",
+	"headword": {
+		"text": "חַלְיָא"
+	},
+	"page": {
+		"number": 468,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01028\"><he>חלי</he></cite>) <i>secretion, serum</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 74b:12\">Pes. 74ᵇ</cite> <he>חַלְיֵיה אסיר</he> its serum is forbidden. [<cite ref=\"Pesachim 115b:2\">Ib. 115ᵇ</cite> <he>חלייה דתבלין</he>, v. <cite ref=\"H00348\"><he>חוּלְיָא</he> II</cite>.]"
+			]
+		}
+	]
+}

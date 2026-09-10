@@ -1,0 +1,44 @@
+{
+	"id": "G00598",
+	"slug": "זעיר-2",
+	"headword": {
+		"text": "זְעֵיר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זְעֵירָא"
+		},
+		{
+			"text": "זְעֵירְתָּא"
+		},
+		{
+			"text": "זְעֶרְתָּא"
+		}
+	],
+	"page": {
+		"number": 407,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00597\">preced.</cite>) <i>small, young, tender; lesser; a little</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:16\">Targ. Gen. I, 16</cite>. ",
+				"<cite ref=\"Onkelos Genesis 44:25\">Targ. O. ib. XLIV, 25</cite>.—",
+				"<cite ref=\"Onkelos Genesis 19:31\">Targ. Gen. XIX, 31</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:1:14\">Y. Ber. II, 4ᵇ</cite> <he>ז׳ לא … דרבה</he> the inferior does not greet the superior; <cite ref=\"Jerusalem Talmud Shekalim 2:5:4\">Y. Shek. II, 47ᵃ</cite> top <he>דז׳</he> (not <he>ר׳ ז׳</he>).—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:5:6\">Y. Snh. III, 21ᵃ</cite> bot. <he>משום דזעיר מיניה</he> in behalf of one his junior. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:1:6\">Y. Keth. V, beg. 29ᶜ</cite> <he>ומר ז׳</he> and said something small (insignificant). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:1:6\">Ib.</cite> <he>והדא היא ז׳</he> is this something small?; a. fr.—<cite ref=\"G00618\"><he>זְעִירִין</he></cite>, <he>זְעֵירַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 12:4\">Targ. Y. Ex. XII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 115:13\">Targ. Ps. CXV, 13</cite>; a. fr.—Y. M. Kat. III, 82ᵈ top <he>והוא שאיל לז׳</he> and he asked the inferior (scholars)?—Fem. <cite ref=\"G00598\"><he>זְעֵירָן</he></cite>, <cite ref=\"G00603\"><he>זְעֵירָתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 32:10\">Targ. O. Gen. XXXII, 10</cite>.—",
+				"<cite ref=\"Aramaic Targum to Psalms 104:25\">Targ. Ps. CIV, 25</cite> (Ms. <cite ref=\"G00164\"><he>זוטרתא</he></cite>)."
+			]
+		}
+	]
+}

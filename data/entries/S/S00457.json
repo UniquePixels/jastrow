@@ -1,0 +1,22 @@
+{
+	"id": "S00457",
+	"slug": "קוס-2",
+	"headword": {
+		"text": "קוֹס"
+	},
+	"page": {
+		"number": 1336,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01676\"><he>קסס</he></cite>, cmp. <he>כסס</he>, a. <he>קוץ</he>) [<i>cutting,</i>] <i>a rough-edged cup</i>.—Pl. <cite ref=\"S00473\"><he>קוּסִּים</he></cite> or <he>קוֹסִים</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 4:3\">Kel. IV, 3</cite> <he>ק׳ הצידוניים</he> Sidonian cups; <cite ref=\"Tosefta Kelim Kamma 3:11\">Tosef. Kel. B. Kam. III, 11</cite> <cite ref=\"S01058\"><he>קיסום</he></cite> ed. Zuck. (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S01814",
+	"slug": "קצין",
+	"headword": {
+		"text": "קָצִין"
+	},
+	"page": {
+		"number": 1405,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S01788\"><he>קָצָה</he></cite>) [<i>one who decides, arbitrates</i>,] <i>magistrate, leader, prominent man</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 1:5:2\">Y. Gitt. I, 43ᵈ</cite> top <he>הגע … של ק׳ וכ׳</he> suppose he was the bondman of an influential man, then his emancipation would be a disadvantage to him. ",
+				"<cite ref=\"Eichah Rabbah 2:3\">Lam. R. to II, 1</cite> <he>בשביל … של ק׳ וכ׳</he> since thou livest in that leader’s house, why dost thou not correct them (the inmates)?"
+			]
+		}
+	]
+}

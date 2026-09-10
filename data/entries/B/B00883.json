@@ -1,0 +1,31 @@
+{
+	"id": "B00883",
+	"slug": "בלם-3",
+	"headword": {
+		"text": "בְּלַם"
+	},
+	"page": {
+		"number": 173,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"B00881\"><he>בָּלַם</he> I</cite> I.",
+			"units": []
+		},
+		{
+			"gloss": " Part. pass. <cite ref=\"B00863\"><he>בְּלִים</he></cite> <i>tied, mute</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 32:4\">Targ. Is. XXXII, 4</cite>; a. e. [<cite ref=\"Targum Jonathan on Deuteronomy 29:4\">Targ. Y. Deut. XXIX, 4</cite>; v. <cite ref=\"B00855\"><he>בְּלֵי</he> I</cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K01186\"><he>כרך</he></cite>) <i>to put meat between bread, wrap up</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 107b:4\">Ḥull. 107ᵇ</cite> <he>ב׳ ליה אומצא</he> wrapped up a piece of meat for him (v. Tosaf. a. l.)."
+			],
+			"label": "2"
+		}
+	]
+}

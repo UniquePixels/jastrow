@@ -1,0 +1,38 @@
+{
+	"id": "U01479",
+	"slug": "שמיר-2",
+	"headword": {
+		"text": "שָׁמִיר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁמִירָא"
+		}
+	],
+	"page": {
+		"number": 1596,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01478\">same</cite><i>flint</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 32:13\">Targ. Y. II, Deut. XXXII, 13</cite> (h. text <cite ref=\"H01095\"><he>חלמיש</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 114:8\">Targ. Ps. CXIV, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 28:9\">Targ. Job XXVIII, 9</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>diamond; shamir</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 3:9\">Targ. Ez. III, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 7:12\">Targ. Zech. VII, 12</cite>; a. e.—",
+				"<cite ref=\"Gittin 68a:7\">Gitt. 68ᵃ</cite> <he>איכא ש׳ דאייתיה וכ׳</he> there is the <i>shamir</i> which Moses used for the jewels of the Ephod. ",
+				"<cite ref=\"Gittin 68b:6\">Ib.ᵇ</cite> <he>בעינא</he> … <he>ש׳</he> I want to build the Temple, and want the <i>shamir</i>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

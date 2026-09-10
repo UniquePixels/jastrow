@@ -1,0 +1,41 @@
+{
+	"id": "U00844",
+	"slug": "שיזבא",
+	"headword": {
+		"text": "שֵׁיזְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁזְ׳"
+		}
+	],
+	"page": {
+		"number": 1559,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00843\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>escape, safety, refuge</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 35:12\">Targ. O. Num. XXXV, 12</cite> (h. text <cite ref=\"M02427\"><he>מקלט</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Joel 2:3\">Targ. Joel II, 3</cite> (h. text <cite ref=\"Q01050\"><he>פליטה</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 45:7\">Targ. Gen. XLV, 7</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>one that escaped, remnant</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Obadiah 1:18\">Targ. Ob. I, 18</cite> (h. text <cite ref=\"U01966\"><he>שריד</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

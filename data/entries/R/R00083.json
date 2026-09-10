@@ -1,0 +1,49 @@
+{
+	"id": "R00083",
+	"slug": "צדד-1",
+	"headword": {
+		"text": "צָדַד"
+	},
+	"page": {
+		"number": 1260,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>צִידֵּד</he> (denom. of <cite ref=\"R00078\"><he>צַד</he></cite>) <i>to turn sideways, move aside; to arrange</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 8:11\">Gen. R. s. 8</cite> <he>מְצַדֵּד</he> man can look sideways (which other animals cannot); <cite ref=\"Bereishit Rabbah 8:11\">ib.</cite> s. 14. ",
+						"<cite ref=\"Yoma 55a:1\">Yoma 55ᵃ</cite> <he>כשהוא מזה למעלה מצדד ידו וכ׳</he> when he is to sprinkle upwards, he turns first his hand down &c. ",
+						"<cite ref=\"Shabbat 102b:4\">Sabb. 102ᵇ</cite> <he>המצדד את האבן</he> he who turns a building stone (makes room for it and sets it in its place). ",
+						"<cite ref=\"Beitzah 32b:13\">Bets. 32ᵇ</cite> <he>מותר לצַדְּדָן</he> you are permitted to arrange them for a seat; a. e.—Part. pass. <he>מְצוּדָּד</he>, pl. <he>מְצוּדָּדִין</he>. ",
+						"<cite ref=\"Bava Batra 99a\">B. Bath. 99ᵃ</cite> <he>ומצ׳ פניהם וכ׳</he> their faces were turned sideways, like a disciple taking leave of his teacher."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נוֹצַד"],
+			"senses": [
+				{
+					"gloss": " (for <he>נָצַד</he>) <i>to be removed</i> (cmp. <cite ref=\"R00102\"><he>צָדָה</he> II</cite>). ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah 5:6\">Ruth R. to II, 14</cite> (play on <cite ref=\"M02267\"><he>מִצּד</he></cite> <cite ref=\"Ruth Rabbah 5:6\">ib.</cite>) <he>שנוֹצַדָּה לו … לשעה</he> his government was taken away from him for a time. ",
+						"<cite ref=\"Ruth Rabbah 5:6\">Ib.</cite> <he>שעתידה מלכותו לִיצַּד ממנו וכ׳</he> his government was destined to be taken away &c. ",
+						"<cite ref=\"Bereishit Rabbah 26:7\">Gen. R. s. 26</cite> <he>שיִּצּוֹד</he>, v. <cite ref=\"R00102\"><he>צָדָה</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

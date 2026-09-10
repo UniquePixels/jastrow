@@ -1,0 +1,30 @@
+{
+	"id": "E00175",
+	"slug": "ההין",
+	"headword": {
+		"text": "הַהֵין"
+	},
+	"altHeadwords": [
+		{
+			"text": "הָהָן"
+		}
+	],
+	"page": {
+		"number": 335,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>הא הין</he>) <i>this, that</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 3:12:3\">Y. Yeb. III, 5ᵃ</cite> bot. <he>ה׳ תרתיי ה׳ וכ׳</he> this one is guilty of two sins, and that one is &c.—",
+				"<cite ref=\"Jerusalem Talmud Gittin 9:3:6\">Y. Gitt. IX, 50ᵇ</cite> <he>כל ה׳ פירקא</he> (ib. VIII, 49ᶜ bot. <he>כל הדא</he>) all of this chapter is the teaching of R. M. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:4\">Y. Snh. VII, 25ᵈ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:2:3\">Y. Erub. V, 22ᶜ</cite> bot., v. <cite ref=\"E00176\">next w.</cite>; a. fr."
+			]
+		}
+	]
+}

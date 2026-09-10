@@ -1,0 +1,58 @@
+{
+	"id": "H01218",
+	"slug": "חמר-1",
+	"headword": {
+		"text": "חָמַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 479,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H00107\"><he>חָבַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to join; to pile up, to load</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 2:5\">Ukts. II, 5</cite> <he>והבצלים שחֲמָרָן</he> and the onions which one has piled up; v. <cite ref=\"A02038\"><he>אָמַן</he></cite>.—",
+				"<cite ref=\"Zevachim 53a:4\">Zeb. 53ᵃ</cite> <he>וחוֹמֵר בגודלו וכ׳</he> and loads (i.e. supports the index finger) with his thumb on top and the little finger below (like a balanced load, v. <cite ref=\"H00110\"><he>חֶבֶר</he></cite> a. <cite ref=\"A00202\"><he>אֵבֶר</he></cite>); [Var. <cite ref=\"O00343\"><he>סוֹמֵךְ</he></cite>, v. Rabb. D. S. a. l. note 3]; <cite ref=\"Yalkut Shimoni on Torah 469\">Yalk. Lev. 469</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"H01164\"><he>חָמוּר</he></cite>) <i>to be weighty, stringent</i>. Ohol. XIV, 3 <he>אל יֶחְמוֹר זה וכ׳</he> this must not be made more stringent than &c.; [ed. Dehr. <he>יַחְמִיר</he>.]",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחְמִיר"],
+			"senses": [
+				{
+					"gloss": " [<i>to put a load on</i>,] <i>to pass a restrictive law, to incline to the stricter opinion</i>, opp. <cite ref=\"S01355\"><he>היקל</he></cite> to make easy. ",
+					"units": [
+						"<cite ref=\"Yevamot 88a:10\">Yeb. 88ᵃ</cite> <he>מתיך חומר שהֶחְמַרְתָּ עליה וכ׳</he> on account of the restrictions under which the law puts her in the end (if she marries again and her first husband appears), it is made easy for her in the beginning (by allowing her to marry again), i.e. her heavy responsibility will make her cautious; Y. Gitt. I, beg. 43ᵃ (add: <cite ref=\"M03022\"><he>מתוך</he></cite>). ",
+						"<cite ref=\"Niddah 66a\">Nidd. 66ᵃ</cite>, a. fr. <he>הֶחְמִירוּ על עצמן</he> they placed themselves under greater restrictions (than the law requires). ",
+						"<cite ref=\"Mishnah Nedarim 1:1\">Ned. I, 1</cite> <he>להחְמִיר</he>, v. <cite ref=\"H00936\"><he>חָכַךְ</he> II</cite>. ",
+						"<cite ref=\"Mishnah Eduyot 3:10\">Eduy. III, 10</cite>, a. e. <he>מַחְמִיר כדברי וכ׳</he> he adopts the stricter opinion of &c.; a. v. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["חִמֵּר"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"H01225\"><he>חַמָּר</he> II</cite>.]",
+					"units": []
+				}
+			],
+			"stem": "[."
+		}
+	]
+}

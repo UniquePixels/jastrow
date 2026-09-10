@@ -1,0 +1,64 @@
+{
+	"id": "N00818",
+	"slug": "נכי-1",
+	"headword": {
+		"text": "נכי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָכָה"
+		}
+	],
+	"page": {
+		"number": 910,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be lessened</i>.—[<cite ref=\"Vayikra Rabbah 33:2\">Lev. R. s. 33</cite> <he>אלא נכה</he>, some ed., v. <cite ref=\"A02247\"><he>אָנָךְ</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכָּה", "נִיכָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to deduct</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 10:3\">Ḥull. X, 3</cite> <he>ואינו מְנַכֶּה לו וכ׳</he> and the seller is not bound to allow him a reduction for the priest’s share. ",
+						"<cite ref=\"Mishnah Bava Batra 7:2\">B. Bath. VII, 2</cite>, sq. <he>יְנַכֶּה</he> he must make an allowance for what there is less than specified in the contract. ",
+						"<cite ref=\"Bamidbar Rabbah 20:7\">Num. R. s. 20</cite> (ref. to <he>נכה</he>, <cite ref=\"Bamidbar Rabbah 22:6\">ib. XXII, 6</cite>) <he>כמי שמְנַכֶּה אחד מכ״ד לסאה</he> as one (purchasing grain) is prepared for a deficiency of one twenty-fourth for each S’ah (allowance for chaff, v. <cite ref=\"I00396\"><he>טִינּוֹפֶת</he></cite>); Tanḥ. Balak 4 (not <he>למאה</he>); ed. Bub. 6; a. fr.—[<cite ref=\"Shir HaShirim Rabbah 3:4\">Cant. R. to III, 4</cite> <he>שנכה מסנחריב</he> some ed., read <he>שנָכַת</he>, v. <cite ref=\"N00832\"><he>נְכִיתָה</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִכָּה", "הִיכָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to injure, knock, strike</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite> <he>הִכָּהוּ חייב וכ׳</he> if he hit him (created a sore), he must pay for curing him. ",
+						"<cite ref=\"Mishnah Bava Kamma 8:3\">Ib. 3</cite> <he>המַכֶּה את וכ׳</he> if a person strikes his father &c. ",
+						"<cite ref=\"Mishnah Sanhedrin 9:2\">Snh. IX, 2</cite> <he>נתכוין להַכּוֹתוֹ וכ׳</he> if he intended to hit him on his loins. Y. Peah I, 16ᵃ bot. (ref. to <cite ref=\"Psalms 120:3\">Ps. CXX, 3</cite>, sq.) <he>כל כלי זיין מַכִּין וכ׳</he> all weapons strike in their place, but this (calumny) strikes at a distance; a. v. fr.—Part. pass. <he>מוּכֶּה</he>; f. <he>מוּכָּה</he>; pl. <he>מוּכִּים</he>, <he>מוּכִּין</he>; <he>מוּכּוֹת</he>. ",
+						"<cite ref=\"Mishnah Ketubot 7:10\">Keth. VII, 10</cite>, a. fr. <he>מוּכֵּה שהין</he> afflicted with leprosy. ",
+						"<cite ref=\"Mishnah Ketubot 1:3\">Ib. I, 3</cite>, a. fr. <he>מוּכַּת עץ</he> one who lost her hymen through an accidentallesion. ",
+						"<cite ref=\"Mishnah Parah 8:9\">Par. VIII, 9</cite>; <cite ref=\"Mishnah Mikvaot 1:8\">Mikv. I, 8</cite>, v. <cite ref=\"M01199\"><he>מַיִם</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (trnsf.) <i>to strike, produce sound, play</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 1:7\">Yoma I, 7</cite> <he>מַכִּין לפניו באצבע וכ׳</he> snap their middle-fingers. ",
+						"<cite ref=\"Mishnah Arakhin 2:3\">Arakh. II, 3</cite>, v. <cite ref=\"H01045\"><he>חָלִיל</he></cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

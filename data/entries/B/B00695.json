@@ -1,0 +1,23 @@
+{
+	"id": "B00695",
+	"slug": "ביקיא",
+	"headword": {
+		"text": "בִּיקְיָא"
+	},
+	"page": {
+		"number": 165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (vicia, βίκιον) <i>vetch</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 5:3:11\">Y. Maasr. V, end, 52ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Ma'asrot 3\">Tosef. ib. III</cite>, end <cite ref=\"B01119\"><he>בִּקְיָא</he></cite>. Y. Ḥall. IV, 60ᵇ <cite ref=\"B01119\"><he>בִּקְיָיה</he></cite>."
+			]
+		}
+	]
+}

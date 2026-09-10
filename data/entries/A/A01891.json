@@ -1,0 +1,34 @@
+{
+	"id": "A01891",
+	"slug": "אלכסון",
+	"headword": {
+		"text": "אֲלַכְסוֹן"
+	},
+	"page": {
+		"number": 70,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"L00265\"><he>לוכסן</he></cite>, λοξός; cmp. howev. ἀλλάξ)",
+			"units": []
+		},
+		{
+			"gloss": " (adv.) <i>athwart, crosswise</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 8:5\">Tosef. Kel. B. Mets. VIII, 5</cite> two feet &c. of a bed cut off <he>א׳</he> crosswise; (<cite ref=\"Mishnah Kelim 18:5\">Kel. XVIII, 5</cite> <cite ref=\"L00265\"><he>לוכסן</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"A01891\"><he>אֲלַכְסוֹן</he></cite>, ch. form <cite ref=\"A01891\"><he>אֲלַכְסוֹנָא</he></cite> m. <i>diagonal line, diameter</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 101b\">B. Bath. 101ᵇ</cite>; <cite ref=\"Sukkah 8a:4\">Succ. 8ᵃ</cite> <he>כל אמתא … באלכסונָהּ</he> a figure of one square cubit has a diagonal line of 1<sup>2</sup>/<sub>5</sub> cubits (approximately). ",
+				"<cite ref=\"Menachot 35a\">Men. 35ᵃ</cite>; <cite ref=\"Megillah 24b\">Meg. 24ᵇ</cite> must be square <he>בתפרן ובאֲלַכְסוֹנָן</he> both as to their seams (not warped) and as to the measure of their diagonal lines. ",
+				"<cite ref=\"Eruvin 59a\">Erub. 59ᵃ</cite> <he>מידת העיר ואלכסונָהּ</he> Ms. K. (ed. <he>בא׳</he>, v. Rashi a. l.) the measure of the circumference of the town plus its diameter. ",
+				"<cite ref=\"Bava Batra 99a:4\">B. Bath. 99ᵃ</cite> <he>ודילמא בא׳ הוו קיימי</he> perhaps the Cherubim in the Sanctuary were placed across the room; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

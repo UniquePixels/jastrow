@@ -1,0 +1,23 @@
+{
+	"id": "A00225",
+	"slug": "אברני",
+	"headword": {
+		"text": "אֵבְרָנִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 9,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. fr. <cite ref=\"A00202\"><he>אֵבֶר</he></cite>; <i>well-winged</i>) name of a <i>bird</i>, prob. <i>sea-mew</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 1054\">Yalk. Esth. 1054</cite>; (<cite ref=\"Esther Rabbah 7:10\">Esth. R. to III, 6</cite> <cite ref=\"P00311\"><he>עוף</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "P01395",
+	"slug": "ערמומית",
+	"headword": {
+		"text": "עַרְמוּמִית"
+	},
+	"page": {
+		"number": 1120,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P01394\">preced. art.</cite>) <i>shrewdness, subtlety</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 248:1\">Yalk. Ex. 248</cite>, v. <cite ref=\"P01393\"><he>עָרְמָה</he></cite>. ",
+				"<cite ref=\"Sotah 21b:2\">Sot. 21ᵇ</cite> (ref. to <cite ref=\"Proverbs 8:12\">Prov. VIII, 12</cite>) <he>כיון שנכנסה חכמה … נכנסה עמה ע׳</he> (not <he>עמן</he>) when wisdom enters into man, subtlety enters along with it; <cite ref=\"Yalkut Shimoni on Nach 940:12\">Yalk. Prov. 940</cite> <he>נכנסה בו ע׳</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A01311",
+	"slug": "אילפא-2",
+	"headword": {
+		"text": "אִילְפָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 50,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ilfa</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Taanit 21a:4\">Taan. 21ᵃ</cite>; a. fr. [In. Talm. Y. <cite ref=\"H00785\"><he>חילפיי</he></cite>]. ",
+				"<cite ref=\"Rosh Hashanah 17b:4\">R. Hash. 17ᵇ</cite> <he>אילְפָי וא״ל א׳</he> <i>Ilfay</i> or, some say, <i>Ilfa</i> (v. Rabb. D. S. a. l.)"
+			]
+		}
+	]
+}

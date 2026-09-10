@@ -1,0 +1,41 @@
+{
+	"id": "C01284",
+	"slug": "גרדנא",
+	"headword": {
+		"text": "גַּרְדָּנָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 266,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גרד</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"C01278\"><he>גַּרְדַּי</he></cite>, <i>weaver</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 26a:2\">Ab. Zar. 26ᵃ</cite> there was among them <he>חד גר׳</he> Ms. M. (ed. <he>גיר׳</he>) one weaver. ",
+				"<cite ref=\"Avodah Zarah 26a:2\">Ib.</cite> <he>ג׳ דלא טייזן</he>, v. <cite ref=\"I00339\"><he>טַיְיזָן</he></cite>. [Var. <he>גרדן</he>, <he>גרדנאי</he> in Rashi a. l., v. Rabb. D. S. a. l. note 90.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>scabby, afflicted with an itch.—</i>Pl. <cite ref=\"C01284\"><he>גַּרְדָּנֵי</he></cite>, <cite ref=\"C01277\"><he>גִּירְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 60b:15\">Keth. 60ᵇ</cite>, v. <cite ref=\"C01262\"><he>גַּרְגְּרָנָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

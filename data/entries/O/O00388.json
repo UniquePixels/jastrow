@@ -1,0 +1,41 @@
+{
+	"id": "O00388",
+	"slug": "סוף-5",
+	"headword": {
+		"text": "סוֹף"
+	},
+	"page": {
+		"number": 968,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"O00387\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>end</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 16:4\">Yeb. XVI, 4</cite> (<cite ref=\"Yevamot 121a:20\">121ᵃ</cite>) <he>מים … שאין להם ס׳</he> waters without end (the shores of which you cannot see from all sides). ",
+				"<cite ref=\"Nedarim 62a:8\">Ned. 62ᵃ</cite> <he>וס׳ הכבוד לבא</he> and honor will finally come of itself. ",
+				"<cite ref=\"Bereishit Rabbah 71:2\">Gen. R. s. 71</cite>, beg. (ref. to <cite ref=\"Psalms 69:34\">Ps. LXIX, 34</cite>) <he>לא ראשו … סוֹפוֹ ולא סופו ראשו</he> the first clause of this verse does not correspond (in syntactical construction) to its final clause &c. Sifra K’dosh. ch. III, Par. 2 <he>אם גנבת סוֹפְךָ לכחש וכ׳</he> if thou stealest, thou wilt finally deny &c. ",
+				"<cite ref=\"Kiddushin 31a:7\">Kidd. 31ᵃ</cite> <he>מס׳ דברך</he>, v. <cite ref=\"N00845\"><he>נָכַר</he></cite>. ",
+				"<cite ref=\"Megillah 7a:2\">Meg. 7ᵃ</cite> <he>בתחלה קבעוה בשושן וְלִבְסוֹף וכ׳</he> at first they established it (the festival of Purim) in Shushan, and then for the whole (Jewish) world; a. v. fr.—<he>לא ס׳ דבר אלא …</he> this is not the end of it …, but. ",
+				"<cite ref=\"Bereishit Rabbah 38:3\">Gen. R. s. 38</cite> (ref. to <cite ref=\"Proverbs 17:13\">Prov. XVII, 13</cite>) <he>לא ס׳ ד׳ משיב וכ׳</he> after all, not only he who requites evil for good, but even he who requites evil for evil &c. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 3:5:2\">Y. Shebi. III, end, 34ᵈ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>remnant</i>, esp. pl. <he>סוֹפִין</he> <i>fruit remaining on the tree after harvest time, late fruit</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:3:2\">Y. Yeb. XII, 12ᵈ</cite> bot. <he>קידש בגופו של ס׳</he> (prob. to be read <he>בנוֹפוֹ</he>) if one betrothed a woman, giving as a consideration a branch of a tree of his containing remainders (mostly worthless). ",
+				"<cite ref=\"Pesachim 6b:13\">Pes. 6ᵇ</cite> <he>סוֹפֵי … ומשמר וכ׳</he> if there are in a man’s field late figs, but he watches his field for the sake of the grapes; v. <cite ref=\"O00405\"><he>סוֹפֶת</he></cite>.—[<cite ref=\"Tosefta Keilim Metsia 2:8\">Tosef. Kel. B. Mets. II, 8</cite> <he>סופין</he> ed. Zolk., read: <cite ref=\"O00232\"><he>סוֹבִין</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

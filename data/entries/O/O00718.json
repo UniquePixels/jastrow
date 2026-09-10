@@ -1,0 +1,54 @@
+{
+	"id": "O00718",
+	"slug": "סימפון",
+	"headword": {
+		"text": "סִימְפּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִמְ׳"
+		}
+	],
+	"page": {
+		"number": 982,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>סנפון</he>; <cite ref=\"O01251\"><he>סָנַף</he></cite>) [<i>ramification, interweaving</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ramified blood-vessel, artery; bronchiae</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:9\">Y. Meg. I, 71ᶜ</cite> bot. <he>היה עשוי כמין ס׳</he> if the writing was done in the shape of arteries (furcated); cmp. <cite ref=\"H01039\"><he>חֲלִיטָה</he> I</cite>.—",
+				"<cite ref=\"Chullin 49a:11\">Ḥull. 49ᵃ</cite> (expl. <he>בית הסימפונות</he>, v. infra) <he>ס׳ גדול</he> the main branch (of the aorta); a. e.—Pl. <he>סִימְפּוֹנוֹת</he>, <cite ref=\"O00718\"><he>סִמְ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ib. III, 1</cite> <he>עד שתינקב לבית הס׳</he> until the perforation of the lungs reaches the starting point of the ramified blood-vessels (v. supra), expl. ",
+				"<cite ref=\"Chullin 45b:4\">ib. 45ᵇ</cite> <he>להיכא דשפכי ס׳ כולהו</he> into which all the vessels discharge themselves."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>cross-writing</i>,] <i>postscript to a document, codicil, conditions</i> or <i>modifications attached to a deed; receipt in full or in part</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 7:6:3\">Y. Gitt. VII, end, 49ᵃ</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 3:3:4\">Y. Kidd. III, 64ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Eruvin 3:5:3\">Y. Erub. III, 21ᵇ</cite> top <he>סדר ס׳ כך הוא וכ׳</he> this is the formula of a <i>simpon</i> (of betrothal), I—betroth thee—, with the condition that I marry thee on a certain day, and if that day arrives and I fail to marry thee, I shall have no claim &c. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:5:3\">Ib.</cite> <he>ירדו לס׳ בשיטת וכ׳</he> they entered into a conditional agreement in accordance with the principle of R. M. &c. (i.e. stating both alternatives), v. <cite ref=\"V00719\"><he>תְּנַאי</he></cite>. Y. B. Mets. X, 17ᶜ <he>ס׳ כתוב מלעיל וס׳ וכ׳</he> if one postscript is written at the top of the document, and one effaced at the bottom. ",
+				"<cite ref=\"Mishnah Bava Metzia 1:8\">B. Mets. I, 8</cite> (<cite ref=\"Bava Metzia 20a:6\">20ᵃ</cite>) <he>אם יש עמהן ס׳ יעשה מה שבס׳</he> Y. ed. a. Ms. M. (Bab. a. Mish. ed. <i>pl.</i>) if a postscript is attached to the documents, you must be guided by the postscript. Ib. 20ᵇ <he>ס׳ היוצא וכ׳</he> a postscript (receipt to a note) produced by the creditor. Ib. 21ᵃ <he>ס׳ שיש עליו עדים</he> a receipt signed by witnesses; a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Mishnah Bava Metzia 1:8\">B. Mets. I, 8</cite>, v. supra."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>an implicit condition the non-fulfillment of which annuls the agreement</i>, whence, <i>a bodily defect</i> (of a woman or a slave) <i>not stated in the contract</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 57b:16\">Keth. 57ᵇ</cite>, a. fr. <he>משום ס׳</he> because a bodily defect may be detected before marriage, which would annul the betrothal. ",
+				"<cite ref=\"Ketubot 57b:16\">Ib.</cite> <he>ס׳ בעבדים ליכא</he> a bodily defect detected in a slave does not affect the validity of the purchase. ",
+				"<cite ref=\"Kiddushin 10b:14\">Kidd. 10ᵇ</cite> <he>ולא חיישת לס׳</he> do you not take into consideration the possibility of finding a bodily defect by which the betrothal might be annulled?; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

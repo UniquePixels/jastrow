@@ -1,0 +1,29 @@
+{
+	"id": "B00390",
+	"slug": "בורקי-2",
+	"headword": {
+		"text": "בּוֹרְקַי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹרְקַיי"
+		}
+	],
+	"page": {
+		"number": 151,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bor’kay</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:2:6\">Y. Kidd. III, 63ᵈ</cite> bot.; a. e. ",
+				"<cite ref=\"Kohelet Rabbah 9:9:1\">Koh. R. to IX, 9</cite>; Yalk. ib. 979 <cite ref=\"B01320\"><he>בַּרְקַאי</he></cite>."
+			]
+		}
+	]
+}

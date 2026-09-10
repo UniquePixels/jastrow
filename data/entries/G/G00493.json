@@ -1,0 +1,30 @@
+{
+	"id": "G00493",
+	"slug": "זליל-2",
+	"headword": {
+		"text": "זְלִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְלִילָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 401,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זלל</he>) <i>light, easy; insignificant, valueless</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 9:27\">Targ. II Chr. IX, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:6\">Targ. Prov. XIV, 6</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:9:9\">Y. Pes. IV, end, 31ᵇ</cite>,ᶜ <he>כמיש וז׳</he> shrunk and cheap."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "Q01453",
+	"slug": "פקדתא",
+	"headword": {
+		"text": "פְּקַדְתָּא"
+	},
+	"page": {
+		"number": 1207,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01452\">preced.</cite> wds.) <i>order, last will</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 50b:8\">Gitt. 50ᵇ</cite> <he>בשטר פ׳</he> it means the order of dispositions in the written will."
+			]
+		}
+	]
+}

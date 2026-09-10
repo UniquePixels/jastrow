@@ -1,0 +1,37 @@
+{
+	"id": "J00173",
+	"slug": "יוהרא",
+	"headword": {
+		"text": "יוֹהֲרָא"
+	},
+	"page": {
+		"number": 568,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00145\"><he>יְהַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a sparkling gem</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 6:16\">Targ. Y. Gen. VI, 16</cite>.—Pl. <he>יוֹהֲרִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:4\">Targ. Esth. I, 4</cite>; <cite ref=\"Aramaic Targum to Lamentations 4:7\">Targ. Lam. IV, 7</cite> (Var. <cite ref=\"G00089\"><he>זְהוֹרִין</he></cite>); <cite ref=\"Aramaic Targum to Song of Songs 7:2\">Targ. Cant. VII, 2</cite> (ed. Lag. <he>גּוּהֲרִין</he>.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"J00142\"><he>יְהִירוּתָא</he></cite>) <i>haughtiness, assumption</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 17b:9\">Ber. 17ᵇ</cite> <he>מחזי כי׳</he> it looks like an assumption (to appear more observant than others). ",
+				"<cite ref=\"Berakhot 17b:7\">Ib.</cite> <he>חייש לי׳</he> cares for the appearance of assumption (and therefore forbids); <cite ref=\"Pesachim 55a\">Pes. 55ᵃ</cite>. ",
+				"<cite ref=\"Sukkah 26b:10\">Succ. 26ᵇ</cite> <he>לית ביה משום י׳</he> there is no appearance of presumption to be apprehended in doing so."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "Q01167",
+	"slug": "פנוי-2",
+	"headword": {
+		"text": "פָּנוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּנוּיָה"
+		}
+	],
+	"page": {
+		"number": 1186,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01162\"><he>פָּנָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>vacant, empty; free; superfluous</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 16b:4-24\">Erub. 16ᵇ</cite> <he>ובלבד … בית סאתים פ׳</he> provided there is not an area of two S’ah unoccupied; expl. ",
+				"<cite ref=\"Eruvin 17a:5\">ib. 17ᵃ</cite> <he>פ׳ מכלים</he> unoccupied by travelling implements, contrad. to <he>פ׳ מאדם</he> superfluous as regards the number of travellers (to each of whom an area of two S’ah is assigned). ",
+				"<cite ref=\"Shemot Rabbah 5:16\">Ex. R. s. 5</cite>; Tanḥ. Vaëra 6 <he>שבטו … פ׳ היה מעבודת פרך</he> the tribe of Levi was exempt from hard labor; ed. Bub. ib. 4; <cite ref=\"Yalkut Shimoni on Torah 176:2\">Yalk. Ex. 176</cite> <he>פְּנוּי וכ׳</he>, v. <cite ref=\"L00397\"><he>לטרגיה</he></cite>. ",
+				"<cite ref=\"Shabbat 23a:11\">Sabb. 23ᵃ</cite> <he>שלא יראה בעל הבית שעה פ׳ וכ׳</he> that the owner may not look out for a free moment (when there are no poor about), and say to his poor relative, here is the corner (<cite ref=\"Q00006\"><he>פֵּאָה</he></cite>); Y. Peah IV, 18ᵇ <he>קנויה</he> (corr. acc.); a. e.—Pl. <he>פְּנוּיִים</he>, <he>פְּנוּיִין</he>; <he>פְּנוּיוֹת</he>. Tanḥ. l. c. <he>בשביל שאתם פ׳ וכ׳</he> because you are idle, you say &c.; Ex. R. l. c. <he>פְּנוּיִם</he>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>síngle, unmarríed</i>. Sifra Emor, Par. 1, ch. I <he>הפ׳ הבא על הפ׳ שלא וכ׳</he> if an unmarried man has connection with an unmarried woman without the intention of thereby making her his wife; <cite ref=\"Yevamot 61b:6\">Yeb. 61ᵇ</cite>; a. fr.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 3:14\">Num. R. s. 3</cite> (ref. to <he>מעין חתום</he>, <cite ref=\"Song of Songs 4:12\">Cant. IV, 12</cite>) <he>אלו הפנויות</he> this refers to the unmarried (men and women in Egypt). Tanḥ. Vayesheb 8 <he>השתא הפ׳ שלכם אסורות לנו וכ׳</he> even the unmarried of your people are forbidden to us, how much more thou who art a man’s wife; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

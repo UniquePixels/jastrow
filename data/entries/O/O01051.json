@@ -1,0 +1,26 @@
+{
+	"id": "O01051",
+	"slug": "סמא-2",
+	"headword": {
+		"text": "סַמָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 998,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01109\"><he>סמם</he></cite>, <i>to tie up, close</i>; cmp. <he>תסתיים</he> s. v. <cite ref=\"O00333\"><he>סוּם</he></cite> ch.) [<i>that which includes everything</i>,] <i>essence, sum</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:6\">Y. Ber. IX, beg. 12ᵈ</cite>; <cite ref=\"Megillah 18a:11\">Meg. 18ᵃ</cite>, a. e. (ref. to <cite ref=\"Psalms 65:2\">Ps. LXV, 2</cite>) <he>ס׳ דכולא משתוקא</he> the sum (the highest) of all (praise) is silence. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 11:5:2\">Y. Snh. XI, 30ᵇ</cite> <he>כל ס׳ דמילתא וכ׳</he> to conclude the matter, it is not this, but &c. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:15\">Y. Taan. IV, 69ᵃ</cite> <he>כל ס׳ דמילתא ניתי וכ׳</he> to end the matter, let us bring &c.; <cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 5:12:1\">Koh. R. to V, 12</cite>."
+			]
+		}
+	]
+}

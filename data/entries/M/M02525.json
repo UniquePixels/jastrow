@@ -1,0 +1,23 @@
+{
+	"id": "M02525",
+	"slug": "מרגנין",
+	"headword": {
+		"text": "מַרְגְּנִין"
+	},
+	"page": {
+		"number": 836,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (μάραγνα) <i>whips, scourges</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 12:11\">Targ. I Kings XII, 11</cite>; <cite ref=\"Targum Jonathan on I Kings 12:14\">14</cite>; <cite ref=\"Targum of II Chronicles 10:11\">Targ. II Chr. X, 11</cite>; <cite ref=\"Targum of II Chronicles 10:14\">14</cite>."
+			]
+		}
+	]
+}

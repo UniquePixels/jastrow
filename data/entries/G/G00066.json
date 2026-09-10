@@ -1,0 +1,23 @@
+{
+	"id": "G00066",
+	"slug": "זגיתא",
+	"headword": {
+		"text": "זַגִּיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 380,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"G00061\"><he>זְגוּגִּיתָא</he></cite>) <i>a crystal vessel</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:4:4\">Y. Kidd. I, 60ᵇ</cite> top <he>ההן דנסב בז׳</he> (ed. Krot. <cite ref=\"K00447\"><he>כזניתא</he></cite>, corr. acc.) if one takes up a crystal vessel (to take possession)."
+			]
+		}
+	]
+}

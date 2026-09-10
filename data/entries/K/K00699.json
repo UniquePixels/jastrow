@@ -1,0 +1,28 @@
+{
+	"id": "K00699",
+	"slug": "כלוחית",
+	"headword": {
+		"text": "כְּלוּחִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּי כְּלוּחִית"
+		}
+	],
+	"page": {
+		"number": 640,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Be-K’luḥith</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 5b:9\">Bets. 5ᵇ</cite> <he>מבי כ׳</he> (Ms. M. <he>מכ׳</he>). ",
+				"<cite ref=\"Ketubot 40b:12\">Keth. 40ᵇ</cite>"
+			]
+		}
+	]
+}

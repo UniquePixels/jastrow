@@ -1,0 +1,40 @@
+{
+	"id": "B00538",
+	"slug": "ביאה",
+	"headword": {
+		"text": "בִּיאָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 159,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"B00537\"><he>בִּאָה</he></cite>; <cite ref=\"B00199\"><he>בּוֹא</he></cite>)<i>coming in, entrance</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 4a:11\">Men. 4ᵃ</cite>; Sifra Metsor. ",
+				"<cite ref=\"Mishnah Negaim 4\">Neg. ch. IV</cite>, Par. 7 (ref. to <he>ושב</he>, <cite ref=\"Leviticus 14:39\">Lev. XIV, 39</cite> a. <cite ref=\"F00010\"><he>ובא</he></cite>, <cite ref=\"Leviticus 14:44\">ib. 44</cite>) <he>זו היא שיבה זו היא ב׳</he> the same rule applies to his coming the second time and to his entering (after a week). ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:6\">Cant. R. to II, 6</cite> (ref. to <he>ביתך …</he>, <cite ref=\"Deuteronomy 6:10\">Deut. VI, 10</cite>) (on the door post to the right) of thy coming from the street to thy house. ",
+				"<cite ref=\"Yoma 86b:18\">Yoma 86ᵇ</cite> <he>ולואי … כב׳</he> oh, that the going out (of office) be (as pure) as the coming into! <cite ref=\"Yoma 86b:18\">Ib.</cite> sq. <he>ב׳ כיציאה …</he> oh, that the coming home (from court) be (as sinless) as the going out (for holding court)! <cite ref=\"Bava Metzia 107a\">B. Mets. 107ᵃ</cite> <he>ב׳ לעולם</he> birth. Y. Naz. VII, 56ᵈ top, a. fr. <he>בִּיאַת המקדש</he> entering the Temple. ",
+				"<cite ref=\"Yoma 53b\">Yoma 53ᵇ</cite> <he>ב׳ ריקנית</he> entering (the Holy of Holies) without incense, i.e. needlessly.—ביאת שמש <i>sunset</i>. ",
+				"<cite ref=\"Berakhot 2a\">Ber. 2ᵃ</cite> <he>ב׳ שמשו וכ׳</he> the sunset of his last day of levitical uncleanness prevents him from &c., i.e. is indispensable for his permission to eat T’rumah, v. <cite ref=\"I00102\"><he>טְהֵר</he></cite>: a. fr.—Pl. <he>בִּיאוֹת</he>. ",
+				"<cite ref=\"Kiddushin 37b:5\">Kidd. 37ᵇ</cite> <he>נאמרו ב׳ וכ׳</he> bibl. passages mentionning entrance into the promised land; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"B00199\"><he>בּוֹא</he></cite>; = <cite ref=\"B01047\"><he>בְּעִילָה</he></cite>) <i>coition, connection</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:1\">Kidd. I, 1</cite>; a. fr.—<he>ביאת ערוה</he> incestuous connection. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 2:1:3\">Y. Yeb. II, 3ᶜ</cite> bot.; a. fr.—<he>ב׳ מצוה</he>, v. <cite ref=\"M02284\"><he>מִצְוָה</he></cite>.—Pl. as supra. ",
+				"<cite ref=\"Mishnah Keritot 2:3\">Kerith. II, 3</cite>; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 4:12:5\">Cant. R. to IV, 12</cite> <he>שתי ב׳</he> two ways of &c."
+			],
+			"label": "2"
+		}
+	]
+}

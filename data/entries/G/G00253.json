@@ -1,0 +1,23 @@
+{
+	"id": "G00253",
+	"slug": "זחתן",
+	"headword": {
+		"text": "זֵחֲתָן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 390,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זחח</he>, formed like <cite ref=\"C00673\"><he>גֵּיוְתָן</he></cite>) <i>haughty</i>.—Pl. <he>זֵחֲתָנִין</he>. ",
+			"units": [
+				"<cite ref=\"Tractate Derekh Eretz Rabbah 2\">Treat. Der. Er. ch. II</cite>, beg."
+			]
+		}
+	]
+}

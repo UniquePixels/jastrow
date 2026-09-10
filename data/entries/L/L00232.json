@@ -1,0 +1,32 @@
+{
+	"id": "L00232",
+	"slug": "לוח-1",
+	"headword": {
+		"text": "לוּחַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 696,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (or <cite ref=\"L00234\"><he>לָוַח</he></cite>) (cmp. <cite ref=\"L00206\"><he>לָוָה</he></cite>) <i>to join</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִוֵּוחַ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"L00233\">next w.</cite>) <i>to place straps close together so as to form a boardlike surface</i>. Part. pass. <he>מְלֻוָּוח</he>, pl. <he>מְלֻוָּוחִין</he>. ",
+					"units": [
+						"<cite ref=\"Tosefta Keilim Metsia 8:6\">Tosef. Kel. B. Mets. VIII, 6</cite> (R. S. to <cite ref=\"Mishnah Kelim 18:5\">Kel. XVIII, 5</cite> reads <he>מְרֻוָּוחִים</he>, v. <cite ref=\"T00343\"><he>רָוַח</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

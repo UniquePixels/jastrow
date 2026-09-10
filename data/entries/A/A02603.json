@@ -1,0 +1,27 @@
+{
+	"id": "A02603",
+	"slug": "אפדנא",
+	"headword": {
+		"text": "אַפַּדְנָא"
+	},
+	"page": {
+		"number": 100,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(h. <he>אַפֶּדֶן</he> , Pers.; v. Friedr. Del. Proleg. p. 149, note) <i>country-seat, mansion, palace</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 43:10\">Targ. Jer. XLIII, 10</cite> (h. text <he>שפריר</he>).—",
+				"<cite ref=\"Moed Katan 12a:4\">M. Kat. 12ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 56a:16\">Ber. 56ᵃ</cite>. ",
+				"<cite ref=\"Ketubot 62a:7\">Keth. 62ᵃ</cite> <he>גני בטולא דא׳</he> sleeps in the shade of his palace (at home, in safety).—Pl. <he>אַפַּדְנֵי</he>. ",
+				"<cite ref=\"Keritot 6a:10\">Kerith. 6ᵃ</cite> (read <he>אא׳</he> or with Rashi <he>על א׳</he>). ",
+				"<cite ref=\"Ketubot 97a:12\">Keth. 97ᵃ</cite>"
+			]
+		}
+	]
+}

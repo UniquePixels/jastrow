@@ -1,0 +1,32 @@
+{
+	"id": "H01559",
+	"slug": "חקל-1",
+	"headword": {
+		"text": "חֲקַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַקְלָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 497,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01559\"><he>חקל</he></cite>, cmp. <he>חקר</he>) [<i>marked out</i>,] <i>field</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:5\">Targ. Gen. II, 5</cite>. ",
+				"<cite ref=\"Onkelos Numbers 20:17\">Targ. O. Num. XX, 17</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 74:2\">Gen. R. s. 74</cite>, v. <cite ref=\"A01192\"><he>אִיזְגָּרָא</he></cite>; a. fr.—Pl. <he>חַקְלִין</he>, <cite ref=\"H01561\"><he>חַקְלַיָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 32:15\">Targ. Jer. XXXII, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joel 1:10\">Targ. Joel I, 10</cite>; a. fr."
+			]
+		}
+	]
+}

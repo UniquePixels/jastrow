@@ -1,0 +1,39 @@
+{
+	"id": "P00917",
+	"slug": "עמק-1",
+	"headword": {
+		"text": "עָמַק"
+	},
+	"page": {
+		"number": 1090,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be depressed, deep</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱמִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to deepen</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1:18\">Ex. R. s. 1</cite> <he>הֶעֱמִיקוּ עצה וכ׳</he> they laid deep plans that the Lord etc."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to grow deeper</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 302\">Yalk. Is. 302</cite> (play on <cite ref=\"V00864\"><he>תפתה</he></cite>, <cite ref=\"Isaiah 30:33\">Is. XXX, 33</cite>) <he>אף היא מתפתה … ומרחבת ומַעֲמֶקֶת</he> it (Gehenna) likewise extends every day and becomes wider and deeper.—[<cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite> <he>והיה מעמקו</he> some ed., v. <cite ref=\"P01197\"><he>עָקַם</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

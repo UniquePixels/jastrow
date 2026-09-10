@@ -1,0 +1,35 @@
+{
+	"id": "U00758",
+	"slug": "שטן-1",
+	"headword": {
+		"text": "שָׂטַן"
+	},
+	"page": {
+		"number": 1554,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", v. <cite ref=\"O00497\"><he>סָטַן</he></cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׂטִין"],
+			"senses": [
+				{
+					"gloss": "<i>to accuse</i>, v. <cite ref=\"O00497\"><he>סָטַן</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lead astroy;</i> Part. <he>מַשִׂטִין</he> <i>seducer</i>. Tanḥ. Vayera 22.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

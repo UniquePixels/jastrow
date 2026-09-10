@@ -1,0 +1,28 @@
+{
+	"id": "C00776",
+	"slug": "גיסא-2",
+	"headword": {
+		"text": "גִּיסָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּיְיסָא"
+		}
+	],
+	"page": {
+		"number": 240,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גוס</he> I) <i>bold man</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 18b:10\">Ḥull. 18ᵇ</cite> he called out over him <he>ג׳ ג׳</he> (Ar. ed. Koh. <he>גיי׳ וגיי׳</he>) bold man that thou art!"
+			]
+		}
+	]
+}

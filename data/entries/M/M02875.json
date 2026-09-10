@@ -1,0 +1,22 @@
+{
+	"id": "M02875",
+	"slug": "משיחות",
+	"headword": {
+		"text": "מְשִׁיחוּת"
+	},
+	"page": {
+		"number": 852,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"M02870\"><he>מָשִׁיחַ</he></cite>) <i>office of the anointed priest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Horayot 3:1\">Hor. III, 1</cite> <he>עבר ממְשִׁיחוּתוֹ</he> resigned his office."
+			]
+		}
+	]
+}

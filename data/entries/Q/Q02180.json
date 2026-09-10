@@ -1,0 +1,23 @@
+{
+	"id": "Q02180",
+	"slug": "פתכייתא",
+	"headword": {
+		"text": "פְּתַכְיָיתָא"
+	},
+	"page": {
+		"number": 1254,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"Q02177\"><he>פְּתַךְ</he></cite>) <i>variegated trinkets</i> (of glass). ",
+			"units": [
+				"<cite ref=\"Kiddushin 9a:1\">Kidd. 9ᵃ</cite>, v. <cite ref=\"H00393\"><he>חוּמְרָא</he> II</cite>."
+			]
+		}
+	]
+}

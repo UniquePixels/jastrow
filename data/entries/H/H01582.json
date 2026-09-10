@@ -1,0 +1,27 @@
+{
+	"id": "H01582",
+	"slug": "חרב-6",
+	"headword": {
+		"text": "חָרֶב"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַרְבָּא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 498,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"H01581\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:26\">Targ. Gen. XXXIV, 26</cite>. ",
+				"<cite ref=\"Onkelos Genesis 3:24\">Ib. III, 24</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 123b:7\">Sabb. 123ᵇ</cite>, v. <cite ref=\"A00924\"><he>אוּשְׁכָּפָא</he></cite>; (Ar. <i>scraping knife</i>)."
+			]
+		}
+	]
+}

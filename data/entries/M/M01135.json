@@ -1,0 +1,22 @@
+{
+	"id": "M01135",
+	"slug": "מיטרין",
+	"headword": {
+		"text": "מִיטְרִין"
+	},
+	"page": {
+		"number": 772,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (μήτρα, μήτρη, accus.) <i>womb, uterus</i>. Pesik. Zakh., p. 23ᵃ <he>חתך מ׳ שלה</he> he severed her womb (in birth); Tanḥ. Ki Thetsé 4 ed. Bub. (ed. <he>מיתרין</he>, corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 868:6\">Yalk. Ps. 868</cite> <he>הפך נמיטרין</he> (corr. acc.). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 47:2\">Gen. R. s. 47</cite>, a. e. <he>עיקר מ׳</he> <i>ovary</i> (<cite ref=\"Yevamot 64b:2\">Yeb. 64ᵇ</cite> <he>בית ולד</he>), v. <cite ref=\"C00977\"><he>גָּלַף</he></cite>; <cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> <cite ref=\"M01062\"><he>מטרין</he></cite>; a. fr."
+			]
+		}
+	]
+}

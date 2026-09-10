@@ -1,0 +1,35 @@
+{
+	"id": "T00836",
+	"slug": "רמצא",
+	"headword": {
+		"text": "רִמְצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1483,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"T00835\">same</cite>. Y. Ned. I, 39ᶜ bot., v. <cite ref=\"T00832\"><he>רָמַץ</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a pointed tool, pick</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 62a\">Nidd. 62ᵃ</cite>; <cite ref=\"Shabbat 90a\">Sabb. 90ᵃ</cite>, v. <cite ref=\"A03318\"><he>אַשְׁלְגָא</he></cite>. ",
+				"<cite ref=\"Shabbat 103a:1\">Ib. 103ᵃ</cite> <he>דבזעיה בר׳ דפרזלא וכ׳</he> when he bored a hole in it with an iron pick, and left it in."
+			],
+			"label": "2"
+		}
+	]
+}

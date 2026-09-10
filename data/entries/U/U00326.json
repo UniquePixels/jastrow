@@ -1,0 +1,34 @@
+{
+	"id": "U00326",
+	"slug": "שובע-1",
+	"headword": {
+		"text": "שׂוֹבַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׂבַע"
+		},
+		{
+			"text": "שָׂבָע"
+		}
+	],
+	"page": {
+		"number": 1529,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00159\"><he>שָׂבֵעַ</he></cite>)<i>plenty, satiation</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 55a:10\">Ber. 55ᵃ</cite> <he>שלשה דברים … רעב וש׳ וכ׳</he> three things does the Lord himself announce: famine, plenty, and a good leader. ",
+				"<cite ref=\"Tosefta Pesachim 5:3\">Tosef. Pes. V, 3</cite> <he>חגיגה … פסח נאכל בש׳</he> (Var. <he>על הש׳</he>) the pilgrim’s sacrifice … must be eaten first, so that the Passover offering be eaten after the appetite is satisfied; Y. ib. VI, 33ᶜ <he>לָשׂבַע</he>; Bab. ",
+				"<cite ref=\"Pesachim 70a:2\">ib. 70ᵃ</cite> <he>על השבע</he>. ",
+				"<cite ref=\"Bereishit Rabbah 91:8\">Gen. R. s. 91</cite> <he>שני השָ׳</he> the years of plenty. ",
+				"<cite ref=\"Sanhedrin 97a:2\">Snh. 97ᵃ</cite> <he>ש׳ ואינו ש׳</he> plenty and no plenty (partial plenty); <he>ש׳ גדול</he> general plenty; a. fr."
+			]
+		}
+	]
+}

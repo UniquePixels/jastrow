@@ -1,0 +1,28 @@
+{
+	"id": "J00064",
+	"slug": "יבמתא",
+	"headword": {
+		"text": "יְבַמְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְבִמְ׳"
+		},
+		{
+			"text": "יְבִימְ׳"
+		}
+	],
+	"page": {
+		"number": 562,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h. <cite ref=\"J00062\"><he>יְבָמָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 1:15\">Targ. Ruth I, 15</cite>.—",
+				"<cite ref=\"Onkelos Deuteronomy 25:7\">Targ. Deut. XXV, 7</cite>; a. e."
+			]
+		}
+	]
+}

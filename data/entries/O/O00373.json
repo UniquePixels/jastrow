@@ -1,0 +1,24 @@
+{
+	"id": "O00373",
+	"slug": "סוסיא-3",
+	"headword": {
+		"text": "סוּסְיָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 967,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"O00366\"><he>סוס</he></cite> or <cite ref=\"O00744\"><he>סיס</he></cite>)<i>swallow</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 38:14\">Targ. Is. XXXVIII, 14</cite> <he>כס׳ דאחיד</he> (h. text <he>כסוס עגור</he>).—[<cite ref=\"Targum Jonathan on Jeremiah 8:7\">Targ. Jer. VIII, 7</cite> (h. text <he>סוס ועגור</he>) <he>כורכיא וסנוניתא</he>,—from which it would appear that our w. is meant for <i>horse</i>.]"
+			]
+		}
+	]
+}

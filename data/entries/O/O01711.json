@@ -1,0 +1,77 @@
+{
+	"id": "O01711",
+	"slug": "סתר-1",
+	"headword": {
+		"text": "סָתַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1033,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to cover, hide</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיתֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to conceal</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 13a:11\">Meg. 13ᵃ</cite> (play on <cite ref=\"A02586\"><he>אסתר</he></cite>) <he>שהיתה מְסַתֶּרֶת דבריה</he> she used her words with discretion (ref. to <cite ref=\"Esther 2:20\">Esth. II, 20</cite>); <cite ref=\"Yalkut Shimoni on Nach 1053\">Yalk. Esth. 1053</cite> (not <he>שסתרת</he>).—Part. pass. <cite ref=\"M01874\"><he>מְסוּתָּר</he></cite>; pl. <he>מְסוּתָּרִים</he>. ",
+						"<cite ref=\"Avot D'Rabbi Natan 6:2\">Ab. d’R. N. ch. VI</cite> <he>דברים המס׳ מבניִ אדם הוציאם וכ׳</he> things which are concealed to men, R. ‘Akiba brought forth to the light."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְתִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to hide</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 941:5\">Yalk. Deut. 941</cite> <he>אע״פ שהִסְתַּרְתִּי פני וכ׳</he> although I hide my face before them, I will speak to him in a dream."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִסְתַּתֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be hidden, protected; to hide one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 19:10\">Midr. Till. to Ps. XIX, 7</cite> <he>לע״ל מי נִסְתָּר מחמתו וכ׳</he> in the future who will be protected from his heat?—Esp. <i>to retire under suspicious circumstances</i> (<cite ref=\"Numbers 5:13\">Num. V, 13</cite>). ",
+						"<cite ref=\"Sotah 3a:5\">Sot. 3ᵃ</cite> <he>קינא לה ונִסְתָּרָה</he> he was jealous of her (forewarned her), and she retired (with the man). Y. ib. I, 16ᵇ bot. <he>מה טיבה להִיסָּתֵר</he> what business had she to retire? Bab. ",
+						"<cite ref=\"Sotah 5b:6\">ib. 5ᵇ</cite> <he>אל תִּסָּתְרִי</he> do not hide thyself (with that man); <cite ref=\"Sotah 2b:27\">ib. 2ᵇ</cite> (in Chald. dict.) <he>לא תִיסָּתְרִי וכ׳</he> do not hide thyself with that man. ",
+						"<cite ref=\"Berakhot 31b:10\">Ber. 31ᵇ</cite> <he>אלך ואֶסְתַּתֵּר וכ׳</he> I will go and seclude myself (with a man) before my husband. ",
+						"<cite ref=\"Berakhot 31b:12\">Ib.</cite> <he>אם כן ילכו … ויִסְתַּתְּרוּ</he> if this be so, all childless women would go and hide themselves; a. fr.—נִסְתָּרוֹת <i>f.pl.</i> "
+					],
+					"senses": [
+						{
+							"gloss": " <i>secret things, mysteries</i>. ",
+							"units": [
+								"<cite ref=\"Chagigah 13a:2\">Ḥag. 13ᵃ</cite> (fr. Ben Sira) <he>אין לך עסק בנ׳</he> thou must have nothing to do with (must not speculate on) mysteries; <cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite>; a. e.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>secret sins</i> for which the whole community is made responsible. ",
+							"units": [
+								"<cite ref=\"Sanhedrin 43b:11\">Snh. 43ᵇ</cite> <he>לא ענש על הנ׳ וכ׳</he> the Lord did not punish (Israel) for secret sins until &c. Y. Sot. VII, end, 22ᵃ <he>אין לכם עסק בנ׳</he> you will no more be made responsible for undetected sins."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "נִסְתַּר."
+		}
+	]
+}

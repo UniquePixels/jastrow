@@ -1,0 +1,51 @@
+{
+	"id": "M00950",
+	"slug": "מחתא-2",
+	"headword": {
+		"text": "מַחֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְחָתָא"
+		}
+	],
+	"page": {
+		"number": 764,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מְחִי</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>deficiency</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:20\">Targ. Prov. X, 20</cite> (h. text <he>כמעט</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>defect</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:7\">Targ. Cant. IV, 7</cite> (h. text <cite ref=\"M00515\"><he>מוּם</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>stroke, plague, slaughter</i> (corresp. to h. <cite ref=\"M01352\"><he>מכָּה</he></cite>; v. <cite ref=\"M00791\"><he>מָחָא</he> II</cite>).—",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 10:10\">Targ. Josh. X, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 9:27\">Targ. Y. Ex. IX, 27</cite> (ed. Amst. <cite ref=\"M00951\"><he>מַחְתָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 23:25\">Ib. XXIII, 25</cite> (<cite ref=\"M00948\"><he>מֵחַת</he></cite>) <cite ref=\"M00948\"><he>מֵחַת</he></cite>, v. <cite ref=\"M02691\"><he>מְרִירְתָּא</he></cite>; a. fr.—Pl. <he>מָחָן</he>, <cite ref=\"M00021\"><he>מָחָתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:59\">Targ. O. Deut. XXVIII, 59</cite> (Y. <he>מַחְתִּין</he>); a. fr.—",
+				"<cite ref=\"Targum Jonathan on Leviticus 26:18\">Targ. Y. Lev. XXVI, 18</cite> <cite ref=\"M00021\"><he>מָאחָאתָא</he></cite>.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:30\">Targ. Prov. XX, 30</cite> <cite ref=\"M00882\"><he>מַחְיָתָא</he></cite> (ed. Lag. <cite ref=\"M00837\"><he>מַחְוָתָא</he></cite>, Var. <he>מחיוטי</he>, corr. acc.); <cite ref=\"Targum Jonathan on Deuteronomy 29:21\">Targ. Y. Deut. XXIX, 21</cite> <cite ref=\"M00815\"><he>מַחֲוָותָא</he></cite> (fr. <cite ref=\"M00836\"><he>מָחוּתָא</he></cite>).—[V. <cite ref=\"M00812\"><he>מַחְוָוא</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

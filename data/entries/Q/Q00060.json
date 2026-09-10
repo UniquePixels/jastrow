@@ -1,0 +1,41 @@
+{
+	"id": "Q00060",
+	"slug": "פגימה",
+	"headword": {
+		"text": "פְּגִימָה"
+	},
+	"page": {
+		"number": 1133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00074\"><he>פָּגם</he></cite>) [<i>incision, cavity</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>notch</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 17b:1\">Ḥull. 17ᵇ</cite> <he>ושאין בה אלא פ׳ אחת</he> but a knife which has only one notch (v. <cite ref=\"A00337\"><he>אָגַר</he> II</cite>); <cite ref=\"Tosefta Chullin 1:7\">Tosef. ib. I, 7</cite>. Ḥull. l. c. <he>פְּגִימַת עצם בפסח</he> a cut in the bone of a Passover lamb (forbidden in <cite ref=\"Exodus 12:46\">Ex. XII, 46</cite>); <he>פ׳ אוזן בבכור</he> a cut in the ear of a first-born animal (by which it is rendered unfit as a sacrifice, and may be eaten by the priest outside of the seat of the sanctuary); <he>פ׳ מום בקדשים</he> the blemish, created by a cut, of a consecrated (female) sacrifice; <he>וכולן פְּגִימָתָן כדי פ׳ המזבח</he> and all of these incisions are measured by the standard of an indentation in the altar; ib. 18ᵃ <he>וכמה פ׳ המזבח</he> and how large is the indentation which unfits the altar?; v. <cite ref=\"H00158\"><he>חָגַר</he> II</cite>; a. fr.—Pl. <he>פְּגִימוֹת</he>. Ib. 17ᵇ; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>concavity of an arch, crescent</i>, &c. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 23b:13\">R. Hash. 23ᵇ</cite> (expl. <he>לפני החמה</he> <cite ref=\"Mishnah Rosh Hashanah 2:6\">ib. II, 6</cite>) <he>פְּגִימָתָהּ לפני החמה וכ׳</he> was the concave side of the crescent directed towards the sun or away from the sun? <cite ref=\"Mishnah Rosh Hashanah 2:6\">Ib.</cite> <he>מעולם … פגימתה של לבנה ולא פגימתה של קשת</he> the sun never faces the concave of the crescent or the concave of a rainbow; Y. ib. II, 58ᵃ <he>פִּיגְמָתָהּ</he>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>violation</i> (<i>of virginity</i>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 73b:9\">Snh. 73ᵇ</cite> <he>במקפדת על פגימתה וכ׳</he> Ms. M. (ed. <cite ref=\"Q00585\"><he>פִּיגְמָהּ</he></cite>) when she is excited over her violation, and says &c.—[<cite ref=\"Jerusalem Talmud Shabbat 6:2:10\">Y. Sabb. VI, 8ᵃ</cite> bot. <cite ref=\"Q00060\"><he>פגימה</he></cite>, read: <he>פְּגוּמָה</he>, v. <cite ref=\"Q00074\"><he>פָּגַם</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

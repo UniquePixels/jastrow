@@ -1,0 +1,148 @@
+{
+	"id": "U01349",
+	"slug": "שלם-2",
+	"headword": {
+		"text": "שִׁלֵם"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלֵים"
+		},
+		{
+			"text": "שְׁלִים"
+		}
+	],
+	"page": {
+		"number": 1586,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01348\">same</cite><i>to be perfect, complete, finished, spent</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 39:32\">Targ. Ex. XXXIX, 32</cite>. ",
+				"<cite ref=\"Onkelos Genesis 47:15\">Targ. Gen. XLVII, 15</cite> (Y. II <he>חסיל</he>). ",
+				"<cite ref=\"Onkelos Exodus 23:2\">Targ. O. Ex. XXIII, 2</cite> <cite ref=\"U01351\"><he>שְׁלַם</he></cite> (ed. Berl. <cite ref=\"U01326\"><he>שָׁלִים</he></cite>); a. v. fr.—",
+				"<cite ref=\"Moed Katan 28b:7\">M. Kat. 28ᵇ</cite> <he>דשְׁלִימוּ וכ׳</he>, v. <cite ref=\"G00132\"><he>זְוָדָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be peaceful, sincere, friendly</i>; v. <cite ref=\"U01326\"><he>שְׁלִים</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁלֵים"],
+			"senses": [
+				{
+					"gloss": "<i>to complete, finish, fulfil</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 22:26\">Targ. II Sam. XXII, 26</cite>; <cite ref=\"Aramaic Targum to Psalms 18:26\">Targ. Ps. XVIII, 26</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 23:14\">Targ. Job XXIII, 14</cite> (ed. Wil. <he>שַׁלְיֵם</he>, corr. acc.). ",
+						"<cite ref=\"Targum Jerusalem, Exodus 12:42\">Targ. Y. II, Ex. XII, 42</cite>, v. <cite ref=\"U01215\"><he>שְׁלָה</he></cite>; a. fr.—Y. Snh. I, 19ᵃ top <he>קם ר׳ נתן וא׳</he> R. N. stood up and completed the verse. ",
+						"<cite ref=\"Berakhot 8b:5\">Ber. 8ᵇ</cite> <he>אַשְׁלִימוּ וכ׳</he> finish your readings, keeping pace with the congregation, v. <cite ref=\"Q02033\"><he>פָּרָשָׁה</he> I</cite>. ",
+						"<cite ref=\"Taanit 25b:12\">Taan. 25ᵇ</cite> <he>סבר לאַשְׁלוּמינְהוּ</he> he wanted them to finish the fast; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to fill, set</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 28:17\">Targ. Ex. XXVIII, 17</cite>; <cite ref=\"Onkelos Exodus 39:10\">XXXIX, 10</cite> (h. text <cite ref=\"M01461\"><he>מלא</he></cite>). ",
+						"<cite ref=\"Onkelos Exodus 31:5\">Ib. XXXI, 5</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to make peace, be at peace</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 10:1\">Targ. Josh. X, 1</cite>; <cite ref=\"Targum Jonathan on Joshua 10:4\">4</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 10:9\">Targ. II Sam. X, 9</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 20:18\">Ib. XX, 18</cite>; a. e."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (with <he>בתר</he>) <i>to follow exactly, faithfully</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 14:24\">Targ. Num. XIV, 24</cite> (h. text <cite ref=\"M01461\"><he>מלא</he></cite>). ",
+						"<cite ref=\"Onkelos Deuteronomy 1:36\">Targ. Deut. I, 36</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 11:6\">Targ. I Kings XI, 6</cite>."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to surrender, hand over, entrust</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 32:30\">Targ. Deut. XXXII, 30</cite> (h. text <cite ref=\"O00165\"><he>הסגיר</he></cite>). ",
+						"<cite ref=\"Onkelos Exodus 31:3\">Targ. Ex. XXXI, 3</cite> <he>אשל׳ עימיה וכ׳</he> I entrusted to him &c. (h. text <he>ואמלא אותו</he>); a. e.—",
+						"<cite ref=\"Bava Metzia 85a:16\">B. Mets. 85ᵃ</cite> <he>אַשְׁלְמֵיה לר׳ שמעון וכ׳</he> he gave him in charge of R. S. (to teach him). ",
+						"<cite ref=\"Yoma 83b:12\">Yoma 83ᵇ</cite> <he>אַשְׁלִימוּ ליה וכ׳</he> they gave him their money-bags in trust; a. e."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["שַׁלֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to complete; to supply</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 9:25\">Targ. I Kings IX, 25</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <he>בתר</he>) <i>to follow</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 20:5\">Targ. O. Ex. XX, 5</cite>; <cite ref=\"Targum Jonathan on Jeremiah 32:18\">Targ. Jer. XXXII, 18</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to recompense, pay</i>. Ib. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 21:34\">Targ. Ex. XXI, 34</cite>; <cite ref=\"Onkelos Exodus 21:36\">36</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 20:10\">Targ. Job XX, 10</cite>; a. fr.—",
+						"<cite ref=\"Bava Kamma 13b:23\">B. Kam. 13ᵇ</cite> <he>בעית לשַׁלּוּמֵי את</he> you would have to pay; <he>בעינא לשלומי</he> must I pay? Ib. 53ᵃ <he>לִישַׁלֵּם האי פלגא וכ׳</he> let this one pay half, and the other one half; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּלֵּם"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּלִים", "אִישְּׁלִים"],
+			"senses": [
+				{
+					"gloss": "<i>to be paid; to be rewarded, recompensed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 65:2\">Targ. Ps. LXV, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 19:17\">Targ. Prov. XIX, 17</cite> Ms. (ed. <cite ref=\"M02919\"><he>מְשַׁלֵּם</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 42:19\">Targ. Is. XLII, 19</cite>; a. e.—",
+						"<cite ref=\"Pesachim 28a:5\">Pes. 28ᵃ</cite> <he>מִשְׁתְּלִים</he>, v. <cite ref=\"C00810\"><he>גִּירָאָה</he></cite>. B. Kam. l. c. <he>כל היכא … לאִשְׁתַּלּוּמֵי מהאי מִשְׁתַּלֵּם מהאי</he> where indemnity cannot be had from him (who dug the pit), it may be had from him (who owns the pit). Ib. <he>מה דאית לי לאשתלומי מהאיך מִשְׁתַּלַּמְנָא … משתלמנא ממך</he> whatever I can get from him I take; what I cannot get from him, I must get from you; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be perfect</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 23a:9\">Meg. 23ᵃ</cite> he was called Meshullam, <he>דמִישְּׁלַם בעובדיה</he> (Ms. M. <he>דמוּשְׁלָם</he> Hebraism) because he was perfect in his conduct, v. <cite ref=\"U01348\"><he>שָׁלַם</he></cite>; Yalk. Neh. 1070 <he>דמִשְּׁלַם</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

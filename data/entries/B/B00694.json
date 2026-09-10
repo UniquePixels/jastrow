@@ -1,0 +1,40 @@
+{
+	"id": "B00694",
+	"slug": "ביקורת",
+	"headword": {
+		"text": "בִּיקּוֹרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּקּ׳"
+		}
+	],
+	"page": {
+		"number": 165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"B01147\"><he>בִּקֹּרֶת</he></cite> , v. <cite ref=\"B00693\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>examination, assessment</i>. <he>אגרת ב׳</he> a public announcement inviting buyers to examine the property assessed, i.e. <i>an announcement of public sale</i> = <cite ref=\"A01754\"><he>אַכְרָזָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 11:5\">Keth. XI, 5</cite> (<cite ref=\"Ketubot 99b:17\">99ᵇ</cite>); a. fr.—V. <cite ref=\"A00364\"><he>אִגֶּרֶת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(b. h. <i>punishment</i>). ",
+			"units": [
+				"<cite ref=\"Keritot 11a:11\">Kerith. 11ᵃ</cite> (ref. to <cite ref=\"Leviticus 19:20\">Lev. XIX, 20</cite>) <he>ב׳ תהיה מלמד שהיא לוקה</he> there shall be <i>bikkoreth</i>, this teaches that she shall be lashed. <he>ומיניין דהדין ב׳ לישנא וכ׳</he> how do we know that this bikkoreth has the sense of chastisement? Answ. <he>תהא בקריאה …</he> Rashi (ed. <he>בקראי</he>) she shall have the Bible verses read to her (as customary when chastising in court, v. ",
+				"<cite ref=\"Mishnah Makkot 3:14\">Macc. III, 14</cite>); oth. homilet. interpret. <he>בביקור תהא</he>, v. <cite ref=\"B00693\">preced.</cite> [<cite ref=\"Tosefta Moed Kattan 2:11\">Tosef. M. Kat. II, 11</cite> <cite ref=\"B00694\"><he>ביקורת</he></cite> ed. Zuck., v. <cite ref=\"B01144\"><he>בַּקְרוּת</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

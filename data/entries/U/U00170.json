@@ -1,0 +1,41 @@
+{
+	"id": "U00170",
+	"slug": "שבקא-1",
+	"headword": {
+		"text": "שִׁבְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1517,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00169\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>abandoned</i>,] <i>undressed vine</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 25:5\">Targ. O. Lev. XXV, 5</cite> (h. text <he>נזיר־</he>).—Pl. <he>שִׁבְקִין</he>, <cite ref=\"U00156\"><he>שַׁ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 25:11\">Ib. 11</cite> <he>שִׁבְקָהָא</he> (ed. Vien. <cite ref=\"U00156\"><he>שַׁ׳</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>isolated, single shoot</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:6\">Targ. Ez. XVII, 6</cite> <cite ref=\"U00156\"><he>שַׁ׳</he></cite> ed. Wil. (ed. Lag. <cite ref=\"U00784\"><he>שִׁיבְ׳</he></cite>; h. text <he>בדים</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

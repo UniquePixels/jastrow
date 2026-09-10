@@ -1,0 +1,30 @@
+{
+	"id": "C00620",
+	"slug": "גיברא",
+	"headword": {
+		"text": "גִּיבָּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּבָּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 234,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A01133\"><he>אֵיבְרָא</he></cite> a. <cite ref=\"C00129\"><he>גְּבַר</he></cite>) <i>membrum virile</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:17\">Targ. Job XL, 17</cite> Ms. a. Ar. s. v. <cite ref=\"U01632\"><he>שעבז</he></cite> (ed. <he>וָתָנַיָּא</he>; h. text <he>גידי</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. Num. XXV, 8</cite> <he>בית גִּיבְרֵיה</he> his parts.—Pl. <he>גִּיבָּרַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 17:13\">Targ. Y. Ex. XVII, 13</cite>; <cite ref=\"Deuteronomy 25:18\">Deut. XXV, 18</cite> (v. Tanḥ. Ki Thetse 10)."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "E00065",
+	"slug": "הגזר",
+	"headword": {
+		"text": "הֶגְזֵר"
+	},
+	"page": {
+		"number": 331,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גזר</he>) [<i>restriction</i>,] <i>hegzer</i>, a word made up as a substitute for <cite ref=\"E00789\"><he>הֶקְדֵּשׁ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:1:4\">Y. Ned. I, beg. 36ᶜ</cite>, v. <cite ref=\"E00060\"><he>הֶגְדֵּר</he></cite>."
+			]
+		}
+	]
+}

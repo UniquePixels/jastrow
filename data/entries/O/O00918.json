@@ -1,0 +1,41 @@
+{
+	"id": "O00918",
+	"slug": "סכם-1",
+	"headword": {
+		"text": "סָכַם"
+	},
+	"page": {
+		"number": 991,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"O00874\"><he>סָכָה</he></cite>) <i>to look to, take in view</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:10\">Macc. III, 10</cite> (<cite ref=\"Makkot 22a:15\">22ᵃ</cite>) (ref. to <he>במספר</he> <cite ref=\"Deuteronomy 25:3\">Deut. XXV, 3</cite>, combined with <he>ארבעים</he> of next verse) <he>מנין שהוא סוֹכֵם את הארבעים</he> Ms. M. (ed. <he>שהוא סמוך לארב׳</he>) a number which faces (is matched in counting with) forty, (i.e. thirty nine); ib. 22ᵇ; <cite ref=\"Yalkut Shimoni on Torah 937\">Yalk. Deut. 937</cite> <he>סמוך את וכ׳</he>; <cite ref=\"Yalkut Shimoni on Nach 581:6\">Yalk. Zech. 581</cite> <he>סוכם</he>; <cite ref=\"Sifrei Devarim 286:8\">Sifré Deut. 286</cite> <he>סמוך לארב׳</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְכִּים"],
+			"senses": [
+				{
+					"gloss": "<i>to contemplate, plan</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 73:2\">Midr. Till. to Ps. LXXIII, 7</cite> (ref. to <he>משכיות</he>, <cite ref=\"Midrash Tehillim 73:2\">ib.</cite>) <he>יש שהיה מַסְכִּים וכ׳</he> (ed. Bub. <he>מַשְׂכִּים</he>) one planned to become a centurio, and thou madest him a general &c.; <he>על כל מה שהיו מַסְכִּימִים העברת וכ׳</he> thou didst carry them beyond all they ever contemplated (to become)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"H01806\"><he>חָשַׁב</he></cite>, <cite ref=\"U00337\"><he>שָׁוָה</he></cite>) <i>to harmonize; to agree</i>. Sifra Vayikra, N’dab., ch. IV, Par. 4 <he>ואתה דורש ומַסְכִּים לשמועה</he> and thou interpretest the text and harmonizest it with the traditional law; <cite ref=\"Yalkut Shimoni on Torah 440:2\">Yalk. Lev. 440</cite> <he>ומסכים הלכה</he> and harmonizest the tradition (with the text). ",
+					"units": [
+						"<cite ref=\"Yevamot 62a:5\">Yeb. 62ᵃ</cite> <he>והִסְכִּימָה דעתו לדעת וכ׳</he> and his (Moses’) opinion (the result of his deliberations) turned out to be in agreement with the Lord’s; <cite ref=\"Shabbat 87a:2\">Sabb. 87ᵃ</cite> <he>וה׳ הקב״ה עמו</he> the Lord agreed with him; <cite ref=\"Shabbat 87a:3\">ib.</cite> <he>ה׳ הקב״ה על ידו</he> the Lord approved his doing; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

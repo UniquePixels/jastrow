@@ -1,0 +1,32 @@
+{
+	"id": "A01567",
+	"slug": "איפרכי",
+	"headword": {
+		"text": "אִיפַּרְכִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיפַּרְכְיָא"
+		},
+		{
+			"text": "אִפַּ׳"
+		}
+	],
+	"page": {
+		"number": 59,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἐπαρχία) <i>prefecture, province, town-government</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite>; a. fr. [In Targ. also <cite ref=\"A01568\"><he>אִיפַּרְכָיוּתָא</he></cite>.]—Pl. <he>אִיפַּרְכִיּוֹת</he>, <cite ref=\"A01567\"><he>אִפַּ׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 89\">Gen. R. s. 89</cite>; a. e. [<cite ref=\"Aramaic Targum to Lamentations 1:1\">Targ. Lam. I, 1</cite> <cite ref=\"A02824\"><he>אַפְרִיכְיָא</he></cite>, read <cite ref=\"A01567\"><he>אִיפַּרְכַיָּיא</he></cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 3:11\">Targ. Y. II, Deut. III, 11</cite> <he>אפרכיון</he>, read <he>בֵּי אֵרְכִיוָן</he>.] [Midr. Sam. ch. VII, <he>לא׳</he> (Var. <he>לאפי</he>), v. <cite ref=\"A02743\"><he>אַפַּנְטֵי</he></cite>.]"
+			]
+		}
+	]
+}

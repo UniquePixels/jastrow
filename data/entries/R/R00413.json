@@ -1,0 +1,32 @@
+{
+	"id": "R00413",
+	"slug": "ציפורי-1",
+	"headword": {
+		"text": "צִיפּוֹרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיפּוֹרִין"
+		},
+		{
+			"text": "צִפּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>צְפַר</he> II) <i>whirling waters</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 29a:1\">M. Kat. 29ᵃ</cite> <he>כצ׳ בפי וכ׳</he>, v. <cite ref=\"Q00622\"><he>פִּיטּוּרֵי</he></cite>; [Rashi: like <i>a knotted rope</i> passing through a loop-hole in the mast); <cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite>; Koh. R. to VI, 7 <he>כציפורן</he>, v. <cite ref=\"R00687\"><he>צִפּוֹרֶן</he></cite>.]"
+			]
+		}
+	]
+}

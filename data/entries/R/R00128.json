@@ -1,0 +1,33 @@
+{
+	"id": "R00128",
+	"slug": "צדקתא",
+	"headword": {
+		"text": "צִדְקְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְדַקְתָּא"
+		}
+	],
+	"page": {
+		"number": 1264,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00122\"><he>צְדָקָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 9:9\">Targ. Ps. IX, 9</cite> Ms. (ed. <cite ref=\"G00453\"><he>זכותא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 11:7\">Ib. XI, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 17:1\">Ib. XVII, 1</cite> Ms. (ed. <he>צדקה</he>). ",
+				"<cite ref=\"Aramaic Targum to Esther 9:22\">Targ. Esth. IX, 22</cite> <he>מעהא דצ׳</he> (ed. Lag. <he>מעתא</he>) = h. <he>מעות של צדקה</he>, v. <cite ref=\"M02070\"><he>מְעָה</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 7:12\">Targ. Koh. VII, 12</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 6b:15\">Ber. 6ᵇ</cite> <he>אגרא דתעניתא צ׳</he> the merit of a public fast lies in the distribution of charity.—Pl. <cite ref=\"R00128\"><he>צִדְקָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 103:6\">Targ. Ps. CIII, 6</cite> (ed. Wil. <i>sing.</i>)."
+			]
+		}
+	]
+}

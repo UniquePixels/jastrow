@@ -1,0 +1,21 @@
+{
+	"id": "D00058",
+	"slug": "דביונים",
+	"headword": {
+		"text": "דִּבְיוֹנִים"
+	},
+	"page": {
+		"number": 277,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; <cite ref=\"D00046\"><he>דבה</he></cite> = <cite ref=\"D00041\"><he>דבב</he></cite>)<i>excrements</i>, a softer expression in the <i>K’ri</i> instead of the <i>Kethib</i> <he>חריינים</he> (<cite ref=\"II Kings 6:25\">II Kings VI, 25</cite>). ",
+			"units": ["<cite ref=\"Megillah 25b:15\">Meg. 25ᵇ</cite>"]
+		}
+	]
+}

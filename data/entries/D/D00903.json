@@ -1,0 +1,49 @@
+{
+	"id": "D00903",
+	"slug": "דמם",
+	"headword": {
+		"text": "דָּמַם"
+	},
+	"page": {
+		"number": 314,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"D00275\"><he>דּוּם</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be silent, dumb, at rest; to be stricken dumb</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> (ref. to <cite ref=\"Isaiah 6:5\">Is. VI, 5</cite>) <he>היאך היה לי שדָּמַמְתִּי</he> how did it happen to me that I was silent (did not join in the praises of the angels)? <cite ref=\"Taanit 20a:14\">Taan. 20ᵃ</cite> <he>דָּמְמוּ הרוחות</he> when the winds subside. ",
+				"<cite ref=\"Sanhedrin 91a:17\">Snh. 91ᵃ</cite> <he>כאבן דּוּמָם</he> like a dumb stone. ",
+				"<cite ref=\"Berakhot 19a:19\">Ber. 19ᵃ</cite> <he>יושב ודוֹמֵם</he> sits in silence; a. fr.—<i>Part. pass.</i> <he>דָּמוּם</he>, f. <he>דְּמוּמָה</he>. ",
+				"<cite ref=\"Eichah Rabbah 1:37\">Lam. R. to I, 17</cite> (ref. to <cite ref=\"A00377\"><he>אֶדַּדֵּם</he></cite>, <cite ref=\"Psalms 42:5\">Ps. XLII, 5</cite>) <he>ועכשיו ד׳ סלקא וכ׳</he> and now in silence does she (Israel) go up (to the ruins of Jerusalem), and in silence &c.—V. <cite ref=\"D00874\"><he>דִּמְדֵּם</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to leave off</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 4:10\">Midr. Till. to Ps. IV, 5</cite> (ref. to <he>ודמו</he> <cite ref=\"Midrash Tehillim 4:10\">ib.</cite>) [read:] <he>ובלבד שתִּדּוֹם וכ׳</he> provided that thou leavest off from the sin &c.; <cite ref=\"Yalkut Shimoni on Nach 627\">Yalk. ib. 627</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִדְמִים"],
+			"senses": [
+				{
+					"gloss": "<i>to silence, bring to a stand-still</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 29\">Ex. R. s. 29</cite> end <he>ה׳ כל העולם</he> He made the world stand still. ",
+						"<cite ref=\"Bereishit Rabbah 97:4\">Gen. R. s. 97</cite> <he>שהוא מַדְמִים וכ׳</he> who will bring to a standstill sun and moon."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

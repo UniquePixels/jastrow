@@ -1,0 +1,40 @@
+{
+	"id": "V00779",
+	"slug": "תעי-2",
+	"headword": {
+		"text": "תְּעֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּעָא"
+		}
+	],
+	"page": {
+		"number": 1683,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00778\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:110\">Targ. Ps. CXIX, 110</cite>; <cite ref=\"Aramaic Targum to Psalms 119:176\">176</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 15:31\">Targ. Job XV, 31</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַתְעֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to lead astray</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 107:40\">Targ. Ps. CVII, 40</cite> Ms. (ed. <he>אטע׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 12:24\">Targ. Job XII, 24</cite> <he>מתע׳</he> (some ed. <he>ורתע׳</he>, corr. acc.); a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

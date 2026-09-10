@@ -1,0 +1,53 @@
+{
+	"id": "V00369",
+	"slug": "תחלה",
+	"headword": {
+		"text": "תְּחִלָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּחִילָּה"
+		}
+	],
+	"page": {
+		"number": 1661,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; חָלַל <i>Hif.</i>) <i>beginning, start, first stage</i>. ",
+			"units": [
+				"<cite ref=\"Nazir 31a:2\">Naz. 31ᵃ</cite> <he>תְּחִילַּת הקדש</he> the primary stage of consecration, i.e. the consecrated object itself, opp. <he>סוף הקדש</he> the secondary consecration, i.e. the exchange. ",
+				"<cite ref=\"Bava Batra 128a:11\">B. Bath. 128ᵃ</cite> <he>שתְּחִילָּתוֹ וכ׳</he>, v. <cite ref=\"Q01330\"><he>פַּסְלוּת</he></cite>; a. v. fr.—Esp. (sub. <he>לטומאה</he>) <i>first degree of uncleanness</i> (v. <cite ref=\"T00033\"><he>רִאשׁוֹן</he></cite>). ",
+				"<cite ref=\"Mishnah Zavim 5:1\">Zab. V, 1</cite> <he>מטמא … להיות ת׳</he> makes eatables and liquors unclean in the first degree, opp. <he>שְׁנִיּוֹת</he>. ",
+				"<cite ref=\"Mishnah Yadayim 3:1\">Yad. III, 1</cite> <he>הידים ת׳ בכל מקום</he> hands (touching an unclean object) become unclean in the first degree under all conditions. ",
+				"<cite ref=\"Tosefta Tahorot 2:4\">Tosef. Toh. II, 4</cite>. ",
+				"<cite ref=\"Tosefta Tahorot 1:4\">Ib. I, 4</cite> <he>ת׳ לקודש</he> is unclean in the first degree with regard to consecrated things (sacrificial meat &c.); a. fr.—Pl. <he>תְּחִלּוֹת</he>, <cite ref=\"V00380\"><he>תְּחִי׳</he></cite>. Yad. l. c.; <cite ref=\"Chullin 33b:10\">Ḥull. 33ᵇ</cite>; a. fr.—<he>בַּתְּחִלָּה</he>, or <he>ת׳</he> <i>in the beginning, before, first</i>. ",
+				"<cite ref=\"Mishnah Berakhot 2:2\">Ber. II, 2</cite> <he>עול … ת׳</he>, v. <cite ref=\"P00240\"><he>עוֹל</he></cite>. ",
+				"<cite ref=\"Berakhot 37a:3\">Ib. 37ᵃ</cite> <he>מברך עליו ת׳ וסוף</he> he must say the benediction over it before and after eating. ",
+				"<cite ref=\"Berakhot 37a:12\">Ib.</cite> <he>בת׳ מברך עליו וכ׳</he> before eating he must say &c.; a. fr.—מִתְּ׳ <i>from the beginning, originally, in olden times</i>. ",
+				"<cite ref=\"Pesachim 116a:11\">Pes. 116ᵃ</cite> <he>מת׳ עובדי וכ׳</he> our forefathers in olden times were idolaters; a. e.—<he>לְכַתְּ׳</he>, <he>לְכִתְ׳</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>in the start, directly</i>, opp. <cite ref=\"D00671\"><he>דִּיעֲבַד</he></cite>. ",
+					"units": [
+						"<cite ref=\"Chullin 2a\">Ḥull. 2ᵃ</cite>, v. <cite ref=\"D00671\"><he>דִּיעֲבַד</he></cite>. ",
+						"<cite ref=\"Eruvin 34b:15\">Erub. 34ᵇ</cite> <he>פוחת לכת׳ ונוטל</he> he may directly dig out, and take; <cite ref=\"Mishnah Beitzah 4:3\">Bets. IV, 3</cite>, v. <cite ref=\"Q00486\"><he>פָּחַת</he></cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>at first</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite>; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

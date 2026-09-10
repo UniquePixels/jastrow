@@ -1,0 +1,23 @@
+{
+	"id": "H00892",
+	"slug": "חישוב",
+	"headword": {
+		"text": "חִישּׁוּב"
+	},
+	"page": {
+		"number": 460,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01806\"><he>חָשַׁב</he></cite>) (<i>astronomical</i>) <i>calculation</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 75a:4\">Sabb. 75ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 10b:6\">Snh. 10ᵇ</cite>"
+			]
+		}
+	]
+}

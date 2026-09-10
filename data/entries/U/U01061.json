@@ -1,0 +1,31 @@
+{
+	"id": "U01061",
+	"slug": "שירא-3",
+	"headword": {
+		"text": "שִׁירָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁירָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1568,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. h. <cite ref=\"U01060\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Sotah 48b:15\">Sot. 48ᵇ</cite>; <cite ref=\"Shabbat 20b:10\">Sabb. 20ᵇ</cite>, v. <cite ref=\"Q01883\"><he>פְּרַנְדָּא</he></cite>.—Pl. <he>שִׁירָאִים</he>, <he>שִׁירָאִין</he>, <cite ref=\"U01077\"><he>שִׁירָיִים</he></cite>. ",
+				"<cite ref=\"Shabbat 20b:10\">Ib.</cite>; <cite ref=\"Menachot 39b:8\">Men. 39ᵇ</cite> (contrad. to <cite ref=\"O00853\"><he>סיריקון</he></cite>, a. to <he>כלך</he>); Sifra Thazr., Par. 5, ch. XIII. ",
+				"<cite ref=\"Tosefta Keilim Batra 5:11\">Tosef. Kel. B. Bath. V, 11</cite> <he>השירין</he> (Var. <he>השירשין</he>, corr. acc., R. S. to <cite ref=\"Mishnah Kelim 28:8\">Kel. XXVIII, 8</cite> <cite ref=\"U01077\"><he>שיריים</he></cite>)."
+			]
+		}
+	]
+}

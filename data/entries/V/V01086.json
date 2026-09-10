@@ -1,0 +1,32 @@
+{
+	"id": "V01086",
+	"slug": "תשיעאה",
+	"headword": {
+		"text": "תְּשִׁיעָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּשִׁיעֵיתָא"
+		},
+		{
+			"text": "תְּשִׁיעַתָא"
+		}
+	],
+	"page": {
+		"number": 1703,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V01106\"><he>תְּשַׁע</he></cite>) <i>ninth</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 7:60\">Targ. Num. VII, 60</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 17:6\">Targ. II Kings XVII, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 25:1\">Ib. XXV, 1</cite>; a. fr."
+			]
+		}
+	]
+}

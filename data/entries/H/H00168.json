@@ -1,0 +1,35 @@
+{
+	"id": "H00168",
+	"slug": "חד-1",
+	"headword": {
+		"text": "חַד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 425,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>חדד</he>)<i>pointed, sharp</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 64a:6\">Ḥull. 64ᵃ</cite> <he>ראשה אחד חד</he> if one side of the egg is pointed, the other rounded (<cite ref=\"K00098\"><he>כַּד</he></cite>); <cite ref=\"Chullin 64a:6\">ib.</cite> (Chald.) <he>רישיה חד חד</he>.—Pl. <he>חַדִּין</he>. ",
+				"<cite ref=\"Chullin 64a:6\">Ib.</cite>—Fem. <cite ref=\"H00177\"><he>חַדָּה</he></cite>. ",
+				"<cite ref=\"Sanhedrin 94a:15\">Snh. 94ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 10a:31\">Ber. 10ᵃ</cite> <he>אפי׳ חרב ח׳ וכ׳</he> even if a sharpened sword is laid on one’s throat, one must not despair of praying for divine mercy. ",
+				"<cite ref=\"Bereishit Rabbah 16:4\">Gen. R. s. 16</cite> (play on <he>ח̇ד̇ק̇ל̇</he>, <cite ref=\"Genesis 2:14\">Gen. II, 14</cite>) <he>שהיתה ק̇ל̇ה וח̇ד̇ה וכ׳</he> (Greece) who was rash and sharp in her decrees."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>swift</i>. <i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Berakhot 59b:12\">Ber. 59ᵇ</cite> (play on <cite ref=\"H00211\"><he>חדקל</he></cite>) its waters <he>ח׳ וקלין</he> are swift and light.—V. <cite ref=\"H00177\"><he>חַדָּה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

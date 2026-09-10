@@ -1,0 +1,25 @@
+{
+	"id": "A02790",
+	"slug": "אפקשיון",
+	"headword": {
+		"text": "אַפְקַשְׁיוֹן",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפְקַשְׁיָאן"
+		}
+	],
+	"page": {
+		"number": 107,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Ms. M.) pr. n. m. <i>Afkashion, Afkashian</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 28b:1\">Yoma 28ᵇ</cite> (Var. <he>אפקישן</he>)."
+			]
+		}
+	]
+}

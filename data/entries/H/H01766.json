@@ -1,0 +1,33 @@
+{
+	"id": "H01766",
+	"slug": "חרר-3",
+	"headword": {
+		"text": "חָרַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 506,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01772\"><he>חֵרֵר</he></cite> (denom. of <cite ref=\"H00448\"><he>חוֹר</he> II</cite>) <i>to set free</i>.—<i>Part. pass.</i> <he>מְחוֹרָר</he> <i>freed, free</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 14\">Gen. R. s. 14</cite>, end (ref. to <cite ref=\"Genesis 2:7\">Gen. II, 7</cite> <he>נפש חיה</he>) <he>עבד מח׳ בפני עצמו וכ׳</he> (Var. <he>מכודן</he>, v. <cite ref=\"K00142\"><he>כָּדַן</he></cite>) a freed slave left to himself for a living.—",
+						"<cite ref=\"Ketubot 51b\">Keth. 51ᵇ</cite>; <cite ref=\"Bava Kamma 95a:13\">B. Kam. 95ᵃ</cite> <he>המְחוֹרָרִין</he> (<cite ref=\"N00841\"><he>נכסים</he></cite>) unencumbered property. [Shaf. <cite ref=\"U00720\"><he>שִׁחֲרֵר</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

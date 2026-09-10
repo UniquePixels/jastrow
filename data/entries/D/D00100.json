@@ -1,0 +1,22 @@
+{
+	"id": "D00100",
+	"slug": "דגוגית",
+	"headword": {
+		"text": "דְּגוּגִית"
+	},
+	"page": {
+		"number": 279,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"D00099\">same</cite>.—Pl. <he>דְּגוּגְיָתָא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 4:2\">Targ. Am. IV, 2</cite> <cite ref=\"D00100\"><he>דְּגוּגְיַת</he></cite> (Var. <cite ref=\"D00100\"><he>דגוגִית</he></cite>, <cite ref=\"D00189\"><he>דוּגִית</he></cite> sing.)."
+			]
+		}
+	]
+}

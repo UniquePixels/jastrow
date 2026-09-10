@@ -1,0 +1,37 @@
+{
+	"id": "U01850",
+	"slug": "שקי-2",
+	"headword": {
+		"text": "שקי",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1622,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַשְׁקֵי</he> ch. same. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 29:10\">Targ. Gen. XXIX, 10</cite>. ",
+						"<cite ref=\"Onkelos Genesis 24:18\">Ib. XXIV, 18</cite>, sq. ",
+						"<cite ref=\"Onkelos Genesis 2:6\">Ib. II, 6</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 1:5\">Targ. Jer. I, 5</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 140a:10\">Sabb. 140ᵃ</cite> <he>אַשְׁקְיָין חמרא וכ׳</he> Ms. M. (ed. <he>אשקיי׳</he>, <he>אשקיי</he>, corr. acc.) he gave me one cup of wine to drink. ",
+						"<cite ref=\"Bava Batra 146a:8\">B. Bath. 146ᵃ</cite> <he>מאן לימא … ואַשְׁקֵיה</he> who can tell that he did not grind a pearl … and give it to him to drink (in the cup)? <cite ref=\"Kohelet Rabbah 3:2\">Koh. R. to III, 2</cite> <he>והוה … מַשְׁקֵי לון וכ׳</he> and the father of the child offered them old wine; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

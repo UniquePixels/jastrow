@@ -1,0 +1,23 @@
+{
+	"id": "G00420",
+	"slug": "זירה",
+	"headword": {
+		"text": "זִירָה"
+	},
+	"page": {
+		"number": 396,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00233\"><he>זור</he></cite>) <i>circle, esp. wrestlers’ ring</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 27:9\">Ex. R. s. 27</cite> (play on <he>זר</he>, <cite ref=\"Proverbs 6:1\">Prov. VI, 1</cite>) <he>אתה הכנסת עצמך לז׳ וכ׳</he> thou (by assuming an office) hast placed thyself in the arena &c. ",
+				"<cite ref=\"Proverbs 6:1\">Ib.</cite> <he>אני ואתה עומדים בז׳</he> we two stand in the arena (combatting each other)."
+			]
+		}
+	]
+}

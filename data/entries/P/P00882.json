@@ -1,0 +1,51 @@
+{
+	"id": "P00882",
+	"slug": "עמידה",
+	"headword": {
+		"text": "עֲמִידָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1088,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00859\"><he>עָמַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>standing, standing up</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 4:1:6\">Y. Keth. IV, 28ᵇ</cite> <he>עֲמִידַת ב״ד</he> appearing before court (institution of proceedings). ",
+				"<cite ref=\"Shevuot 30b:2\">Shebu. 30ᵇ</cite> <he>בעדים … בע׳</he> as to witnesses before court, all agree that they must stand. ",
+				"<cite ref=\"Shevuot 30b:2\">Ib.</cite> <he>בעלי דינין בע׳</he> the parties must stand. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:14\">Y. Bicc. III, 65ᶜ</cite> bot; <cite ref=\"Jerusalem Talmud Rosh Hashanah 1:3:5\">Y. R. Hash. I, 57ᵇ</cite> top (ref. to <cite ref=\"Leviticus 19:32\">Lev. XIX, 32</cite>) … <he>אני הוא עמידת זקן תחלה</he> I (the Lord) was the first to observe the standing up before an old man (by ref. to <cite ref=\"Genesis 18:22\">Gen. XVIII, 22</cite>, emended instead of, ‘And the Lord was yet standing before Abraham’, v. <cite ref=\"V00488\"><he>תִּיקּוּן</he></cite>); <cite ref=\"Vayikra Rabbah 35\">Lev. R. s. 35</cite>. ",
+				"<cite ref=\"Ketubot 111a:26\">Keth. 111ᵃ</cite> <he>אל תרבה בע׳ וכ׳</he> do not stand too much, for standing is injurious to the heart. ",
+				"<cite ref=\"Ketubot 111b:1\">Ib. 111ᵇ</cite>, v. <cite ref=\"O01091\"><he>סְמִיכָה</he></cite>; a. fr.; v. <cite ref=\"J00689\"><he>יְשִׁיבָה</he></cite>.—Pl. <he>עֲמִידוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:1:4\">Y. Erub. V, beg. 22ᵇ</cite> <he>כל ע׳ שעמד וכ׳</he> as often as he stood before Ahiya his teacher, he considered himself as if standing before the Divine Presence.—2) <i>putting up, erection</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 12:15\">Num. R. s. 12</cite> <he>המשכן נתקדש בע׳ ובפירוק וכ׳</he> the Tabernacle was consecrated by putting up and taking apart and by anointing. ",
+				"<cite ref=\"Yevamot 106a:5\">Yeb. 106ᵃ</cite> <he>עֲמִידָתָהּ</he>, v. <cite ref=\"J00689\"><he>יְשִׁיבָה</he></cite>.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:13\">Y. Yoma I, 38ᵇ</cite> bot. <he>היה שם שבע ע׳ וכ׳</he> seven times was the Tabernacle (at its consecration) put up, and six times taken apart; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>endurance, existence</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 2:17\">Num. R. s. 2</cite> <he>אם אין … בסיד אין לו ע׳ וכ׳</he> unless thou puttest sand into the cement, it will not last; so the nations cannot exist without Israel; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>that part of the daily prayers which must be read standing</i>, usually called <cite ref=\"V00831\"><he>תְּפִלָּה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tractate Soferim 16:12\">Treat. Sof’rim XVI, 12</cite>, v. <cite ref=\"S00119\"><he>קָדוֹשׁ</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

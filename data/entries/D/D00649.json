@@ -1,0 +1,25 @@
+{
+	"id": "D00649",
+	"slug": "דינר-1",
+	"headword": {
+		"text": "דִּינָר"
+	},
+	"page": {
+		"number": 302,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denarius) <i>denar</i> (silver denar = <sup>1</sup>/<sub>24</sub> of a gold denar, v. Zuckerm. Talm. Münz. p. 19 sq.; Sm. Ant. s. v. Denarius). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:21\">Y. Kidd. I, 58ᵈ</cite> top; cmp. ",
+				"<cite ref=\"Bava Metzia 44b:12\">B. Mets. 44ᵇ</cite>; a. fr.—Pl. <he>דִּינְרִין</he>, constr. <he>דִּינְרֵי</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:18\">Y. Ber. IX, 13ᵈ</cite> bot.; a. fr.—V. <cite ref=\"C00489\"><he>גּוֹרְדִּינוֹן</he></cite> a. <cite ref=\"A01506\"><he>אִיסָר</he></cite>.—",
+				"<cite ref=\"Bava Batra 166a:3\">B. Bath. 166ᵃ</cite> <he>דִּינְרֵי</he> (sub. <he>זהב</he>) <i>gold denars</i>, <he>דינרין</he> <i>silver denars</i>"
+			]
+		}
+	]
+}

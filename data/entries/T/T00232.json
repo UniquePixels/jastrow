@@ -1,0 +1,49 @@
+{
+	"id": "T00232",
+	"slug": "רדד-2",
+	"headword": {
+		"text": "רְדַד"
+	},
+	"page": {
+		"number": 1451,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00231\">same</cite>, <i>to beat, stamp, stretch</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 136:6\">Targ. Ps. CXXXVI, 6</cite>.—Part. pass. <he>רָרִיד</he>; pl. <he>רְרִידִין</he>. ",
+				"<cite ref=\"Onkelos Numbers 17:3\">Targ. O. Num. XVII, 3</cite> ed. Berl. (oth. ed. <cite ref=\"T00260\"><he>רַדִּידִין</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַדֵּיד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00231\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 39:3\">Targ. Ex. XXXIX, 3</cite>. ",
+						"<cite ref=\"Onkelos Numbers 17:4\">Targ. Num. XVII, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 144:2\">Targ. Ps. CXLIV, 2</cite>.—",
+						"<cite ref=\"Bava Metzia 83b:7\">B. Mets. 83ᵇ</cite> <he>רַדּוּדֵי ר׳</he> he has been hammering (metal, during the night)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִירַדֵּיד"],
+			"senses": [
+				{
+					"gloss": "<i>to become thin, slender</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 61b:8\">Ned. 61ᵇ</cite> <he>ענבים נמי כי מִירַדְּדָן וכ׳</he> grapes, likewise, when their stems are thin, can be nipped off with the hand (without a pruning knife)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

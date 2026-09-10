@@ -1,0 +1,43 @@
+{
+	"id": "B01231",
+	"slug": "ברח-2",
+	"headword": {
+		"text": "בְּרַח"
+	},
+	"page": {
+		"number": 192,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01230\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַבְרַח</he> as <cite ref=\"B01230\">preced.</cite> Hif., <i>to withhold</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 88b:15\">B. Kam. 88ᵇ</cite> <he>לאברוחינהו לנכסיה מניה</he> in order to withhold his property from &c., i.e. to disinherit."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְבְּרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be driven off, withheld</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 6:13\">Targ. Job VI, 13</cite> (h. text <cite ref=\"D00406\"><he>נדחה</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

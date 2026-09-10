@@ -1,0 +1,33 @@
+{
+	"id": "P01178",
+	"slug": "עקים-2",
+	"headword": {
+		"text": "עָקִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲקִימָא"
+		},
+		{
+			"text": "עֲקִימְתָּא"
+		}
+	],
+	"page": {
+		"number": 1106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01177\">preced.</cite>) <i>crooked, perverse</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:20\">Targ. Prov. XVII, 20</cite> (ed. Wil. <cite ref=\"P01198\"><he>עַקֵּים</he></cite>, <i>Pa.</i> of <cite ref=\"P01198\"><he>עֲקַם</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:5\">Ib. XXII, 5</cite> (not <cite ref=\"P01182\"><he>עֲקִימָתָא</he></cite>).—",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:8:2\">Y. Meg. IV, 75ᵇ</cite> bot. <cite ref=\"P01179\"><he>עֲקִימָה</he></cite>, v. <cite ref=\"P01161\"><he>עָקוֹם</he></cite>.—Pl. <cite ref=\"P01184\"><he>עֲקִימִין</he></cite>; f. <cite ref=\"P01182\"><he>עֲקִימָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:20\">Targ. Prov. XI, 20</cite>."
+			]
+		}
+	]
+}

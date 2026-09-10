@@ -1,0 +1,53 @@
+{
+	"id": "R00216",
+	"slug": "צוף-1",
+	"headword": {
+		"text": "צוּף"
+	},
+	"page": {
+		"number": 1268,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00195\"><he>טוּף</he></cite>) [<i>to shine</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to come to the surface, float; to lie in a conspicuous place</i> (on a stone, pillar &c.). ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 205:5\">Sifré Deut. 205</cite> (ref. to <cite ref=\"Deuteronomy 21:1\">Deut. XXI, 1</cite> <he>בשדה</he>) <he>ולא צָף על וכ׳</he> but not when found floating on the water; <cite ref=\"Mishnah Sotah 9:2\">Sot. IX, 2</cite>. Y. Peah VI, 19ᶜ (if two bodies are found, one lying on top of the other, the ceremony of breaking a heifer’s neck is not performed) <he>התחתון משום … משום צף</he> not for the lower one, because it is hidden, nor for the upper one, because it lies in a conspicuous place; <cite ref=\"Sotah 45a:20\">Sot. 45ᵃ</cite> (referring to two sheaves lying one upon the other) <he>והעליון מפני שהוא צף</he> (Ar. <he>עף</he>) and the upper is not considered a forgotten sheaf, because &c. ",
+				"<cite ref=\"Sotah 45a:20\">Ib.</cite> <he>צָפוּ עומרין לתוך וכ׳</he> (Ar. <he>עפו</he>) if sheaves floated into a neighbor’s field; <cite ref=\"Sotah 45a:20\">ib.</cite> <he>צפו אין מונחין לא</he> only when they came to lie in a conspicuous place, and not when they rested on the ground? <cite ref=\"Sotah 45a:20\">Ib.</cite> bot. <he>מין במינו לא הוי צף</he> one thing lying on another of the same kind is not considered as above the ground. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:9:1\">Cant. R. to VII, 9</cite> <he>צף הכבשן</he> the furnace (in the ground) came up to the surface (v. <cite ref=\"Q01010\"><he>פְּלַטְיָא</he> II</cite>). ",
+				"<cite ref=\"Pirkei Avot 2:6\">Ab. II, 6</cite> <he>גולגולת שצָפָה וכ׳</he> a skull floating on the water. ",
+				"<cite ref=\"Mishnah Makhshirin 4:5\">Makhsh. IV, 5</cite> <he>הנתזין והצָפִין</he> water that is squirted out of, and that which overflows the vessel; <cite ref=\"Shabbat 12a:2\">Sabb. 12ᵃ</cite> <he>והצפין</he> Rashi, a. Ms. O. (ed. <he>והנצפין</he>, corr. acc.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stick to the surface</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 48b\">Sot. 48ᵇ</cite>; Y. ib. IX, 24ᵇ bot., v. <cite ref=\"N00396\"><he>נוֹפֶת</he></cite>; Tanḥ. Ekeb 1 fine flour <he>שהיא צפה בנפה</he> (not <cite ref=\"B01071\"><he>בפה</he></cite>) which sticks to the sieve; <cite ref=\"Yalkut Shimoni on Nach 676:2\">Yalk. Ps. 676</cite> <he>שהוא נפה בנפה</he> (corr. acc.).—V. <cite ref=\"R00667\"><he>צָף</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵצִיף", "הִצִּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to bring to the surface, cause to float; to cause to overflow; to flood, inundate</i>. Tanḥ. ",
+					"units": [
+						"<cite ref=\"Exodus 2\">B’shall. 2</cite> <he>ה׳ הברזל</he> caused the iron axe to float. ",
+						"<cite ref=\"Bereishit Rabbah 38:10\">Gen. R. s. 38</cite> (ref. to <cite ref=\"Genesis 11:8\">Gen. XI, 8</cite>) <he>אין ויפץ אלא ויָצֶף ה׳ עליהן הים וה׳ וכ׳</he> <i>vayafets</i> means <i>vayatsef</i>, he made the sea flow over them, and caused thirty families to flow (issue) from them. ",
+						"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite>, beg. <he>שלא יַצִּיף העולם</he> that it (the deep) may not inundate the world; <cite ref=\"Midrash Tehillim 36\">Midr. Till. to Ps. XXXVI</cite>; <cite ref=\"Yalkut Shimoni on Nach 726\">Yalk. Ps. 726</cite>. ",
+						"<cite ref=\"Mishnah Niddah 2:7\">Nidd. II, 7</cite> (expl. <he>מימי אדמה</he>) <he>מבקעת בית כרם ומֵצִיף</he> (<cite ref=\"P00794\"><he>עליה</he></cite>) <cite ref=\"M01199\"><he>מים</he></cite> earth from the valley of Beth Kerem, upon which you make water float; Y. ed. <he>מֵיצֵף עליו מים</he> (fr. <cite ref=\"R00705\"><he>צָפַף</he></cite>); expl. ib. 50ᵇ top <he>מיצף מים צ״ג מטלית</he> one makes the water come to the surface through a rag spread and pressed over it. ",
+						"<cite ref=\"Bava Metzia 23b:5\">B. Mets. 23ᵇ</cite> <he>במציף</he> when he poured the sealing wax over it (without making an impression; Ms. O. a. R. 1 <he>במיצף</he> <i>Hof.</i> when the wax was poured over it)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

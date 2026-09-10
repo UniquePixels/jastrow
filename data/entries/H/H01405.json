@@ -1,0 +1,40 @@
+{
+	"id": "H01405",
+	"slug": "חסף-1",
+	"headword": {
+		"text": "חֲסַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 489,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H01395\"><he>חָסַל</he></cite>) <i>to peel off</i>; (neut. verb) <i>to be scaly, rough</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַסַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to pound grain</i> &c. Y. Sabb. VII, 10ᵇ bot. <he>ח׳ פלפלין</he> pounds pepper (cmp. <he>מחספס</he>, <cite ref=\"Exodus 16:14\">Ex. XVI, 14</cite>). [Y. B. Mets. II, 8ᶜ bot. <he>וחספתה</he>, v. <cite ref=\"H01463\"><he>חֲפַס</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַסֵּף"],
+			"senses": [
+				{
+					"gloss": " [<i>to become white</i>, cmp. <cite ref=\"K00952\"><he>כסף</he></cite>,] <i>to feel ashamed</i>. Targ. II Esth. VI, 12.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

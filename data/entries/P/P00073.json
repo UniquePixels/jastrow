@@ -1,0 +1,22 @@
+{
+	"id": "P00073",
+	"slug": "עבריין",
+	"headword": {
+		"text": "עֲבַרְיָין"
+	},
+	"page": {
+		"number": 1040,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00059\"><he>עָבַר</he></cite>, v. <cite ref=\"P00052\"><he>עֲבֵירָה</he></cite>) <i>renegade</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 13b:7\">Nidd. 13ᵇ</cite> <he>נקרא ע׳</he> may be called a renegade (to idolatry)."
+			]
+		}
+	]
+}

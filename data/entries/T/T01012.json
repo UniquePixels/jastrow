@@ -1,0 +1,28 @@
+{
+	"id": "T01012",
+	"slug": "רקבא-1",
+	"headword": {
+		"text": "רִקְבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1496,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01011\">preced.</cite>) <i>rot, rust</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 40:20\">Targ. Is. XL, 20</cite>.—",
+				"<cite ref=\"Niddah 36b:71\">Nidd. 36ᵇ</cite> a brazen mortar <he>דלא שליט ביה ר׳</he> over which rust has no power."
+			]
+		}
+	]
+}

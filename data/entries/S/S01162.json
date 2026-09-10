@@ -1,0 +1,23 @@
+{
+	"id": "S01162",
+	"slug": "קירוי-1",
+	"headword": {
+		"text": "קֵירוּי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1368,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קָרָה</he> II) <i>arched ceiling</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 5:1:3\">Y. Ned. V, beg. 39ᵃ</cite> <he>ק׳ שמועיל לתנור</he> an arched cap which is of use to the oven."
+			]
+		}
+	]
+}

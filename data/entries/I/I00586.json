@@ -1,0 +1,27 @@
+{
+	"id": "I00586",
+	"slug": "טסא-1",
+	"headword": {
+		"text": "טָסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַסָּא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 541,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00585\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 26:8\">Targ. Prov. XXVI, 8</cite> (Var. <cite ref=\"K00614\"><he>כיפא</he></cite>, h. text <he>אבן</he>); v. <cite ref=\"N00781\"><he>נִיקְצָא</he></cite>.—Pl. <he>טָסִין</he>, <he>טַסִּ׳</he>. ",
+				"<cite ref=\"Onkelos Numbers 17:3\">Targ. Num. XVII, 3</cite>. ",
+				"<cite ref=\"Onkelos Exodus 39:3\">Targ. Ex. XXXIX, 3</cite>."
+			]
+		}
+	]
+}

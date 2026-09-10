@@ -1,0 +1,28 @@
+{
+	"id": "L00141",
+	"slug": "לגנא",
+	"headword": {
+		"text": "לגְנָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיגְ׳"
+		}
+	],
+	"page": {
+		"number": 693,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a corrupt. of linea) <i>a narrow path between fields</i>.—Pl. <he>לִגְנִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 28:25\">Targ. Is. XXVIII, 25</cite> Regia (ed. Lag. <cite ref=\"L00425\"><he>ליגגין</he></cite>, Var. <cite ref=\"L00428\"><he>לִיגְנִין</he></cite>; ed. <he>בּיִיר</he>; h. text <cite ref=\"U00544\"><he>שורה</he></cite>; cmp. Löw Pfl. p. 221)."
+			]
+		}
+	]
+}

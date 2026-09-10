@@ -1,0 +1,43 @@
+{
+	"id": "I00190",
+	"slug": "טוס-2",
+	"headword": {
+		"text": "טוּס",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 524,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"I00189\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 5:7\">Targ. Job V, 7</cite> (Ms. <cite ref=\"I00248\"><he>טוּשׂ</he></cite>); a. fr.—Part. <cite ref=\"I00345\"><he>טָיֵיס</he></cite>, <cite ref=\"I00345\"><he>טָיֵס</he></cite>, <cite ref=\"I00009\"><he>טָאֵיס</he></cite>, <cite ref=\"I00014\"><he>טָאֵס</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 39:18\">Ib. XXXIX, 18</cite>.—Targ. II Esth. I, 2 <he>שונרין טייסין</he> (read: <he>נשרין</he>).—",
+				"<cite ref=\"Targum Jonathan on Isaiah 18:1\">Targ. Is. XVIII, 1</cite> (ed. Lag. <he>דטאס</he>]; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 16:3:5\">Y. Yeb. XVI, 15ᶜ</cite> bot. <he>נפשא טָיְיסָא וכ׳</he> the soul hovers over the body; Y. M. Kat. III, 82ᵇ bot.; <cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite>; (<cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite> <he>תייבא</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַיֵּיס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00189\">same</cite>. Targ. II Esth. l. c. <he>טַיְיסִית</he> I flew.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to fly</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:49\">Targ. Y. Deut. XXVIII, 49</cite>. [<cite ref=\"Targum Jonathan on Deuteronomy 28:49\">Ib.</cite> <he>טַיֵּיס נישרא</he>, read: <cite ref=\"I00345\"><he>טָיֵיס</he></cite>, v. supra.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

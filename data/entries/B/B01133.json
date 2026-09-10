@@ -1,0 +1,37 @@
+{
+	"id": "B01133",
+	"slug": "בקעת",
+	"headword": {
+		"text": "בְּקַעַת"
+	},
+	"page": {
+		"number": 187,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בקע</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>chip, piece of wood; log to be chopped</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 32b:6\">B. Kam. 32ᵇ</cite> <he>נתזה ב׳ וכ׳</he> a chip slipped out (of the carpenter’s hand) and struck his face; Y. ib. III, end, 3ᵈ. Y. Macc. II, 31ᶜ bot. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 4:4:4\">Y. Bets. IV, 62ᶜ</cite> bot. <he>אין מכבין את הב׳</he> you must not extinguish the log; v. <cite ref=\"K00949\"><he>כָּסַס</he></cite>. ",
+				"<cite ref=\"Shabbat 29a\">Sabb. 29ᵃ</cite> top; a. fr.—Pl. (cmp. pl. of <cite ref=\"K00865\"><he>כְּנֶסֶת</he></cite>) <he>בִּקְעִיּוֹת</he>. ",
+				"<cite ref=\"Chullin 37b:8\">Ḥull. 37ᵇ</cite> <he>אפי׳ אוכלת ב׳</he> even if strong enough to bite wood. ",
+				"<cite ref=\"Kohelet Rabbah 3:17\">Koh. R. to III, 17</cite> (a gloss expl. <he>גזירין</he>). ",
+				"<cite ref=\"Bereishit Rabbah 27\">Gen. R. s. 27</cite>, v. <cite ref=\"B01123\"><he>בְּקִיעָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " dial. for <cite ref=\"Q01507\"><he>פְּקַעַת</he></cite> q. v.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

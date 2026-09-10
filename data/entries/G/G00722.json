@@ -1,0 +1,49 @@
+{
+	"id": "G00722",
+	"slug": "זרע-1",
+	"headword": {
+		"text": "זָרַע"
+	},
+	"page": {
+		"number": 414,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00696\"><he>זרי</he></cite>)<i>to strew, sow</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:9\">Kil. I, 9</cite>. ",
+				"<cite ref=\"Mishnah Kilayim 2:3\">Ib. II, 3</cite> <cite ref=\"G00723\"><he>אֶזְרַע</he></cite>, v. <cite ref=\"A02727\"><he>אָפַךְ</he></cite>; a. fr.—Part. pass. <cite ref=\"G00679\"><he>זָרוּעַ</he></cite>, f. <he>זְרוּעָה</he>; pl. <he>זְרוּעִים</he> &c. ",
+				"<cite ref=\"Mishnah Kilayim 2:3\">Ib.</cite> <he>ז׳ חטים</he> sown with wheat; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:8:4\">Y. Sot. I, 17ᵇ</cite> top <he>כשם … בנותיהן זרועות וכ׳</he> as well as their vineyards are sown with mixed seeds, so are their daughters &c. (faithless wives)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִזְרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be sown, to be stocked with seed</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 83\">Gen. R. s. 83</cite>, end, a. e. <he>בשבילי נִזְרְעָה וכ׳</he> the field has been sown for my sake. ",
+						"<cite ref=\"Mishnah Sheviit 4:2\">Shebi. IV, 2</cite> <he>תִּזָרֵעַ</he> may be sown; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִזְרִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to emit semen</i> (also used of women emitting a secretion at coition). ",
+					"units": [
+						"<cite ref=\"Berakhot 60a\">Ber. 60ᵃ</cite>, a. e. <he>איש מַזְרִיעַ תחלה</he> when the male is the first to emit semen; <he>אשה מַזְרַעַת וכ׳</he> when the female is the first &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

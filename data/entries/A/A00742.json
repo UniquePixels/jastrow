@@ -1,0 +1,29 @@
+{
+	"id": "A00742",
+	"slug": "אונייקי",
+	"headword": {
+		"text": "אוּנְיָיקִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בית אוּנְיָיקִי"
+		}
+	],
+	"page": {
+		"number": 29,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Beth-Unyaki, Bithynia</i>, in Asia Minor (cmp. Neub. Géogr. pp. 262; 422). ",
+			"units": [
+				"<cite ref=\"Yoma 10a:2\">Yoma 10ᵃ</cite> <he>תובל זה בית א׳</he> (Ms. M. <cite ref=\"A00764\"><he>אונקי</he></cite> indistinct; oth. Var., v. Rabb. D. S. a. l. note) <i>Tubal</i> means B. ",
+				"<cite ref=\"Mishnah Avodah Zarah 2:4\">Ab. Zar. II, 4</cite> (<cite ref=\"Avodah Zarah 29b:4\">29ᵇ</cite>) cheese of <cite ref=\"A00172\"><he>בית א׳</he></cite> (Ms. M. <cite ref=\"A00764\"><he>אונקי</he></cite>, <he>איניקי</he>, Mish. Nap. <cite ref=\"F00107\"><he>ותינייקי</he></cite>, v. Rabb. D. S. a. l.). ",
+				"<cite ref=\"Tosefta Shevi'it 5:9\">Tosef. Shebi. V, 9</cite> <cite ref=\"E00254\"><he>הונייקי</he></cite> (ed. Zuck. <he>גבינה ובית היניקי</he> read <he>גבינת ב׳ ה׳</he>); <cite ref=\"Tosefta Avodah Zarah 4:13\">Tosef. Ab. Zar. IV, 13</cite> <he>בית הינייקי</he> (Var. <he>היניקאי</he>). Cmp. <cite ref=\"F00113\"><he>וְתַנְיָה</he></cite> a. <cite ref=\"A02219\"><he>אַנְיָאקָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "C00714",
+	"slug": "גיירא",
+	"headword": {
+		"text": "גַּיָּירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּיָּארָא"
+		}
+	],
+	"page": {
+		"number": 238,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גּוּר</he> II) <i>adultery, whoredom</i>.—Pl. <he>גַּיָּירַיָּיא</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 33:6\">Lev. R. s. 33</cite>, v. <cite ref=\"B00855\"><he>בְּלֵי</he></cite>."
+			]
+		}
+	]
+}

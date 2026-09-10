@@ -1,0 +1,32 @@
+{
+	"id": "Q00088",
+	"slug": "פגע-4",
+	"headword": {
+		"text": "פְּגַע",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּגְעָא"
+		}
+	],
+	"page": {
+		"number": 1135,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00087\">same</cite><i>evil occurrence, plague</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 5:18\">Targ. I Kings V, 18</cite>.—Pl. <cite ref=\"Q00089\"><he>פְּגָעִין</he></cite>. ",
+				"<cite ref=\"Ruth Rabbah 2:28\">Ruth R. to I, 16</cite> (ref. to <he>אל תפגעי</he> <cite ref=\"Ruth Rabbah 2:28\">ib.</cite>, as if it were <he>תִּפָּגְעִי</he>) <he>לא תחטא עלי לא תסבין פ׳ מני</he> (not <he>פגעיך</he>) do not commit a sin through me, do not suffer afflictions on my account (by dissuading me from embracing the Jewish faith)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pl. evil spirits</i>. Targ. II Esth. I, 2.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

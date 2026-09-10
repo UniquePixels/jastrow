@@ -1,0 +1,24 @@
+{
+	"id": "H01605",
+	"slug": "חרדלית",
+	"headword": {
+		"text": "חַרְדְּלִית"
+	},
+	"page": {
+		"number": 499,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01604\">preced.</cite> wds.; cmp. <cite ref=\"H00168\"><he>חַד</he> I</cite>, 2) <i>rain water rushing down a slope, torrent</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 5:2\">Eduy. V, 2</cite>; <cite ref=\"Mishnah Mikvaot 5:6\">Mikv. V, 6</cite>; expl. ",
+				"<cite ref=\"Tosefta Mikvaot 4:10\">Tosef. ib. IV, 10</cite>, v. <cite ref=\"M00332\"><he>מִדְּרוֹן</he></cite>. ",
+				"<cite ref=\"Chagigah 19a:4\">Ḥag. 19ᵃ</cite> <he>ח׳ של גשמים</he>; <cite ref=\"Tosefta Mikvaot 3:4\">Tosef. Mikv. III, 4</cite> <he>חַרְדֶּלֶת</he>; a. e."
+			]
+		}
+	]
+}

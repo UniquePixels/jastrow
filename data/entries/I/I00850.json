@@ -1,0 +1,30 @@
+{
+	"id": "I00850",
+	"slug": "טרסי-2",
+	"headword": {
+		"text": "טַרְסִי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טוּרְסִי"
+		}
+	],
+	"page": {
+		"number": 555,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. nom. gent. of <i>Tarsus, Tarsian</i>.—Pl. <he>טַרְסִיִּים</he>, <cite ref=\"I00788\"><he>טוּרְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Megillah 7a\">Meg. 7ᵃ</cite> <he>בגתן</he> … <he>שני ט׳ היו והיו מספרים בלשון טרסי</he> Ms. M. (only <he>בגתן … שני טרשיים היו</he>) Bigthan and Teresh were two Tarsians and conversed in the Tarsian language; <cite ref=\"Megillah 13b:10\">ib. 13ᵇ</cite> <he>שני ט׳ … טורסי</he> (Ms. M. … <he>תרסיים תרסי</he>). ",
+				"<cite ref=\"Megillah 26a:8\">Ib. 26ᵃ</cite> <he>בה״כ של ט׳</he> Ms. M. (ed. <he>טור׳</he>; <cite ref=\"Tosefta Megillah 3:6\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Megillah 2:6\">II</cite>), 6 <he>אלכסנדרים</he>) the synagogue of the Tarsians in Jerusalem (Rashi: of the bronze-workers, v. <cite ref=\"I00849\">preced.</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 2:5:4\">Y. Shek. II, 47ᵃ</cite> <he>בה״כ של ט׳</he> (<cite ref=\"Yevamot 96b\">Yeb. 96ᵇ</cite> <cite ref=\"I00088\"><he>טבריא</he></cite>)."
+			]
+		}
+	]
+}

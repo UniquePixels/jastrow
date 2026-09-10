@@ -1,0 +1,30 @@
+{
+	"id": "U01117",
+	"slug": "שכבא",
+	"headword": {
+		"text": "שִׁכְבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1571,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01115\"><he>שְׁכֵב</he></cite>) <i>asleep; dead body, corpse</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 27b:13\">M. Kat. 27ᵇ</cite> <he>שיפורא דש׳</he>, v. <cite ref=\"U01023\"><he>שִׁיפוֹרָא</he></cite>. ",
+				"<cite ref=\"Moed Katan 27b:13\">Ib.</cite> <he>לא ש׳ איכא במתא</he> is there not a dead (to be buried) in town (and they pursue their labors)? <cite ref=\"Bava Batra 91a:9\">B. Bath. 91ᵃ</cite>, v. <cite ref=\"M01735\"><he>מָנוֹבַיְיתָא</he></cite>; a. fr.—Pl. <he>שִׁכְבֵּי</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Sanhedrin 29b\">Snh. 29ᵇ</cite>, v. <cite ref=\"P00343\"><he>עוּר</he></cite> I ch. ",
+				"<cite ref=\"Sanhedrin 48b:6\">Ib. 48ᵇ</cite> <he>ש׳ דהרפניא</he> the dead of Harpania (for whom the shrouds are not woven until they are dead); a. e.—V. <cite ref=\"U01144\"><he>שָׁכִיב</he></cite>."
+			]
+		}
+	]
+}

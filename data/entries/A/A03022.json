@@ -1,0 +1,23 @@
+{
+	"id": "A03022",
+	"slug": "ארוודאי",
+	"headword": {
+		"text": "אַרְוָודָאֵי"
+	},
+	"page": {
+		"number": 116,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"A03021\">preced.</cite>) <i>Aradeans</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 10:18\">Targ. O. Gen. X, 18</cite> (Targ. Y. II <cite ref=\"A02200\"><he>אַנְטִירִידִינָאֵי</he></cite>; I <cite ref=\"L00244\"><he>לוּטָסָאֵי</he></cite>, Var. in <cite ref=\"Targum of I Chronicles 1:16\">Targ. I Chr. I, 16</cite> <cite ref=\"L00384\"><he>לְטוּסָאֵי</he></cite>)."
+			]
+		}
+	]
+}

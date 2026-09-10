@@ -1,0 +1,25 @@
+{
+	"id": "Q01129",
+	"slug": "פלשתאה",
+	"headword": {
+		"text": "פְּלִשְׁתָּאָה"
+	},
+	"page": {
+		"number": 1185,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = <cite ref=\"Q01130\">next w.</cite> ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 17:23\">Targ. I Sam. XVII, 23</cite>; a. fr.—Pl. <cite ref=\"Q01129\"><he>פְּלִשְׁתָּאֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:23\">Ib.</cite>; a. fr.—",
+				"<cite ref=\"Bamidbar Rabbah 14:11\">Num. R. s. 14</cite> (fr. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 11:14\">Targ. Is. XI, 14</cite>) <he>לממחי ית פ׳</he> to beat the Philistines."
+			]
+		}
+	]
+}

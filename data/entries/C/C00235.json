@@ -1,0 +1,45 @@
+{
+	"id": "C00235",
+	"slug": "גדע-1",
+	"headword": {
+		"text": "גָּדַע"
+	},
+	"page": {
+		"number": 213,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"C00166\"><he>גדד</he> I</cite>) <i>to cut, chop, lop off</i>.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:2:9\">Y. Sabb. IV, end, 7ᵃ</cite> <he>חריות שגְּדָעָן וכ׳</he> twigs which one cut off (trimming the date tree) with the intention of using them for &c. (Bab. ",
+				"<cite ref=\"Shabbat 50a\">ib. 50ᵃ</cite> <cite ref=\"C00246\"><he>גדר</he></cite>).—Part. pass. <he>גָּדוּעַ</he>, f. <cite ref=\"C00188\"><he>גְּדוּעָה</he></cite>; pl. <he>גְּדוּעִים</he>, <he>גְּדוּעוֹת</he>. ",
+				"<cite ref=\"Midrash Tehillim 75:4\">Midr. Till. to Ps. LXXV</cite>, end <he>קרני ישראל ג׳</he> the horns (power) of Israel are lopped off (checked)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּידֵּעַ", "גִּידַּע"],
+			"senses": [
+				{
+					"gloss": ". Ib.; Midr. Sam. ch. V, end <he>קרנות שג׳ צדיקו וכ׳</he> the horns which the Righteous One of the world (the Lord) has lopped. ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִגְדָּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be lopped, diminished</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 3:7\">Cant. R. to III, 7</cite> <he>נ׳ גובה וכ׳</he> (Var. <cite ref=\"C01379\"><he>נגרע</he></cite>, v. <cite ref=\"C01379\"><he>גרע</he></cite>) Adam’s high stature was reduced. [V. <cite ref=\"C00454\"><he>גָּוַע</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

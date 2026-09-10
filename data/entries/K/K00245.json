@@ -1,0 +1,24 @@
+{
+	"id": "K00245",
+	"slug": "כוי-3",
+	"headword": {
+		"text": "כּוֹי"
+	},
+	"page": {
+		"number": 618,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Koy</i>, (prob.) a kind of <i>bearded dear</i> or <i>antelope</i> (τραγέλαφος). [The rabbis leave it undecided whether K. belongs to the genus of cattle (<cite ref=\"B00182\"><he>בְּהֵמָה</he></cite>) or beasts of chase (<cite ref=\"H00672\"><he>חַיָּה</he></cite>).] <cite ref=\"Jerusalem Talmud Bikkurim 2:6:1\">Y. Bicc. II, end, 65ᵇ</cite>, v. <cite ref=\"P00523\"><he>עִיזָּה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 80a:12\">Ḥull. 80ᵃ</cite> (various opinions). ",
+				"<cite ref=\"Tosefta Chullin 6:1\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Chullin 5:1\">V</cite>), 1. ",
+				"<cite ref=\"Tosefta Bekhorot 2:9\">Tosef. Bekh. II, 9</cite>; a. fr."
+			]
+		}
+	]
+}

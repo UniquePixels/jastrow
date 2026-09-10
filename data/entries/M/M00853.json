@@ -1,0 +1,23 @@
+{
+	"id": "M00853",
+	"slug": "מחטון",
+	"headword": {
+		"text": "מַחֲטוֹן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 759,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חָטָא</he> II) <i>seducer</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 52\">Gen. R. s. 52</cite> (play on <he>מחטו לי</he>, <cite ref=\"Genesis 20:6\">Gen. XX, 6</cite>) <he>מַחֲטוֹנְךָ לי יצרך וכ׳</he> thy seducer is in my power, thy inclination which made thee sin &c."
+			]
+		}
+	]
+}

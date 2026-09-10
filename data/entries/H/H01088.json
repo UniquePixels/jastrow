@@ -1,0 +1,28 @@
+{
+	"id": "H01088",
+	"slug": "חלמא-3",
+	"headword": {
+		"text": "חֲלָמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חְלָמָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 471,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָלם</he> I) <i>a sort of cement</i> used for making vessels. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:4\">Kel. XI, 4</cite> (Ar. a. ed. Dehrenb. <cite ref=\"H01090\"><he>חלמה</he></cite>); <cite ref=\"Tosefta Keilim Metsia 1:4\">Tosef. Kel. B. Mets. I, 4</cite>, sq."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A00987",
+	"slug": "אזתוודא",
+	"headword": {
+		"text": "אִזְתַּוְודָּא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיזְ׳"
+		}
+	],
+	"page": {
+		"number": 38,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00141\"><he>זווד</he></cite>) <i>attachment, handle</i>. Pl. <cite ref=\"A00987\"><he>אִזְתַּוְודֵּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 25:12\">Targ. Y. Ex. XXV, 12</cite> ed. Vien. (oth. ed. <he>אזתוור׳</he>; <cite ref=\"Targum Jonathan on Exodus 37:3\">ib. XXXVII, 3</cite> <he>אסתוור׳</he>, v. Ibn Ezra comment. a. l.)."
+			]
+		}
+	]
+}

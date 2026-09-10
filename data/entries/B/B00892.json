@@ -1,0 +1,34 @@
+{
+	"id": "B00892",
+	"slug": "בלס",
+	"headword": {
+		"text": "בָּלַס"
+	},
+	"page": {
+		"number": 174,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בל</he>, v. <cite ref=\"B00880\"><he>בָּלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to mix with all sorts of things, to mix indiscriminately</i>. <i>Part. pass.</i> <he>בָּלוּס</he>, f. <he>בְּלוּסָה</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 76b\">Sabb. 76ᵇ</cite> <he>עיסה ב׳</he> a dough of unsifted flour (with bran &c.). ",
+				"<cite ref=\"Bava Batra 58a:2\">B. Bath. 58ᵃ</cite> <he>אוצר ב׳</he> a store room of mixed things (lumber room).—",
+				"<cite ref=\"Gittin 67a:8\">Gitt. 67ᵃ</cite> <he>אוצר ב׳</he> a mind full of all kind of knowledge (oth. vers. <he>בלום</he>, v. <cite ref=\"B00881\"><he>בָּלַם</he></cite>).—Pl. <he>בְּלוּסִין</he>. ",
+				"<cite ref=\"Mishnah Mikvaot 9:5\">Mikv. IX, 5</cite> <he>הב׳</he> utensils soaked with a mixture of colors (stains from use), opp. <he>נקיים</he> shining, polished."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B00853\"><he>בלי</he></cite>) <i>to rot</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 28:4\">Gen. R. s. 28</cite> <he>אוצרות בְּלוּסִים</he> store of spoiled fruits."
+			],
+			"label": "2"
+		}
+	]
+}

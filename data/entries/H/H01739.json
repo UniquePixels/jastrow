@@ -1,0 +1,91 @@
+{
+	"id": "H01739",
+	"slug": "חרף-2",
+	"headword": {
+		"text": "חָרַף"
+	},
+	"page": {
+		"number": 505,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to scrape, sharpen, grind</i>.—Part. pass. <cite ref=\"H00874\"><he>חָרוּף</he></cite>, f. <cite ref=\"H01633\"><he>חֲרוּפָה</he></cite>, pl. <he>חֲרוּפוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>פנים ח׳</he> sharp (severe) countenance (Var. <he>הדופות</he>).—Trnsf. <i>to deflour</i>, v. infra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>חלף</he>) <i>to change, transform; to change possession</i>. <i>Part. pass.</i> f. <cite ref=\"H01633\"><he>חֲרוּפָה</he></cite> <i>designated for change of condition</i>, v. <cite ref=\"H01633\"><he>חֲרוּפָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחֱרַף"],
+			"senses": [
+				{
+					"gloss": " (of grist) <i>to be ground;</i> trnsf. <i>to be defloured, have intercourse</i>. Y. Kidd. I, 59ᵃ top (expl. ",
+					"units": [
+						"<cite ref=\"Leviticus 19:20\">Lev. XIX, 20</cite>) <he>נֶחֱרֶפֶת … בכתושה לפני איש</he> <i>‘neḥĕrefeth</i> by a man’ means crushed before a man (with ref. to <cite ref=\"Proverbs 27:22\">Prov. XXVII, 22</cite>, v. <cite ref=\"E00867\"><he>הֲרִיפוֹת</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to change condition</i>. ",
+					"units": [
+						"<cite ref=\"Keritot 11a:41\">Kerith. 11ᵃ</cite> (ref. to <he>נחרפת</he> explained by <cite ref=\"B01383\"><he>בְּעוּלָה</he></cite>) <he>מאי משמע … דשנויי הוא</he> (Rashi: <he>דשינויא</he>) what proof is there that <i>neḥĕrefeth</i> has the meaning of change from natural condition? Answ. ref. to <cite ref=\"E00867\"><he>הָרִיפוֹת</he></cite> (<cite ref=\"II Samuel 17:19\">II Sam. XVII, 19</cite>) and to Prov. l. c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["חֵרֵף", "חֵירֵף"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"C01388\"><he>גָּרַף</he></cite>, <cite ref=\"C00237\"><he>גָּדַף</he></cite>) [<i>to scrape off</i>,] <i>to revile, blaspheme, shame</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 7\">Lev. R. s. 7</cite>, end <he>מְחָרֶפֶת ומגדפת</he> she (Rome) blasphemes and reviles. ",
+						"<cite ref=\"Bamidbar Rabbah 10:2\">Num. R. s. 10</cite> <he>מְחָרְפָם</he>, v. <cite ref=\"C00237\"><he>גָּדַף</he></cite>. ",
+						"<cite ref=\"Sanhedrin 94a\">Snh. 94ᵃ</cite>, sq. <he>שחי׳ ע״י וכ׳</he> who blasphemed (the Lord) through a messenger; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחָרֵף"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחָרֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to be reviled</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 74:4\">Midr. Till. to Ps. LXXIV</cite>, end <he>שמִתְחָרֵף ומתנאץ</he> which is reviled and blasphemed. ",
+						"<cite ref=\"Midrash Tehillim 18:4\">Midr. Till. to Ps. XVIII, 1</cite> <he>עד שנִתְחָרַפְתִּי</he> until I was reviled; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become white, pale</i>. Tanḥ. ",
+					"units": [
+						"<cite ref=\"Genesis 12\">B’resh. 12</cite> (play on <he>קיץ וחרף</he>) <he>שתהיו מתקייצין ופניכם מִתְחָרְפִין</he> (some ed. <he>מתחפרין</he>) that you will feel nauseous and your faces become pale."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

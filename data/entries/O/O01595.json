@@ -1,0 +1,36 @@
+{
+	"id": "O01595",
+	"slug": "סרי-2",
+	"headword": {
+		"text": "סרי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סָרָה"
+		}
+	],
+	"page": {
+		"number": 1026,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"O01596\">next w.</cite>) <i>to become offensive, vitiated; to decay</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to decay; to vitiate</i>. ",
+					"units": [
+						"<cite ref=\"Makkot 5a:9\">Macc. 5ᵃ</cite> (ref. to <he>לענות בו סרה</he>, <cite ref=\"Deuteronomy 19:16\">Deut. XIX, 16</cite>) <he>עד שתַּסְרֶה גופה של עדות</he> until thou vitiatest the testimony itself (by proving an alibi of the witness himself)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

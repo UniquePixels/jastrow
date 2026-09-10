@@ -1,0 +1,27 @@
+{
+	"id": "H00643",
+	"slug": "חטפיתא",
+	"headword": {
+		"text": "חַטְפִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲטִיפִי׳"
+		}
+	],
+	"page": {
+		"number": 450,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00642\">preced.</cite> wds.) name of an unclean bird (h. , <i>ostrich</i> (?). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:16\">Targ. Y. Lev. XI, 16</cite>; <cite ref=\"Deuteronomy 14:15\">Deut. XIV, 15</cite>."
+			]
+		}
+	]
+}

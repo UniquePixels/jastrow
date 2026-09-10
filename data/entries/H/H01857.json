@@ -1,0 +1,43 @@
+{
+	"id": "H01857",
+	"slug": "חשל-2",
+	"headword": {
+		"text": "חָשַׁל"
+	},
+	"page": {
+		"number": 511,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01395\"><he>חָסַל</he></cite>)<i>to scrape off, polish; to reduce</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִישֵּׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to crush, batter</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 1:6\">Koh. R. to I, 6</cite> the Lord <he>מְחַשְּׁלוֹ בהרים</he> breaks it (the vehemence of the wind) through the mountains; (<cite ref=\"Vayikra Rabbah 15\">Lev. R. 15</cite>; <cite ref=\"Bereishit Rabbah 24:4\">Gen. R. s. 24</cite> <he>מרשלו</he>; Y. Ber. IX, 13ᶜ bot. <he>מכשלו</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֶחְשָׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 296:5\">Sifré Deut. 296</cite> (ref. to <he>נחשלים</he>, <cite ref=\"Deuteronomy 25:18\">Deut. XXV, 18</cite>) <he>שנמכו … ונֶחְשְׁלוּ מתחת וכ׳</he> who have been crushed out of the ways of the Lord and battered away from under the protection of etc."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

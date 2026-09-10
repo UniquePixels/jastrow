@@ -1,0 +1,23 @@
+{
+	"id": "U00891",
+	"slug": "שייא-2",
+	"headword": {
+		"text": "שַׁיָּיא"
+	},
+	"page": {
+		"number": 1561,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Shayya</i> (prob. abbrev. of <cite ref=\"A00927\"><he>אוֹשַׁעְיָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Zevachim 34b:17\">Zeb. 34ᵇ</cite> (Ms. R. 1 <cite ref=\"U01092\"><he>שישא</he></cite>, v. Rabb. D. S. a. l. note 9). ",
+				"<cite ref=\"Shabbat 66a:8\">Sabb. 66ᵃ</cite> <he>רבא בר שָׁאיָיא</he> Ms. O. (Ms. M. <he>שיאה</he>, ed. <cite ref=\"U01058\"><he>שירא</he></cite>; v. Rabb. D. S. a. l. note 5)."
+			]
+		}
+	]
+}

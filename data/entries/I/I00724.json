@@ -1,0 +1,37 @@
+{
+	"id": "I00724",
+	"slug": "טרוט",
+	"headword": {
+		"text": "טָרוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְרוּטָה"
+		}
+	],
+	"page": {
+		"number": 550,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"I00712\"><he>טָרַד</he></cite>) <i>bleared, dripping and dim;</i> [oth. opin. <i>half-closed</i>; Rashi: <i>round</i>.]—Pl. <he>טְרוּטוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bekhorot 5:3\">Tosef. Bekh. V, 3</cite> <he>עיניו ט׳</he> Var. (ed. Zuck. <cite ref=\"V00001\"><he>ת׳</he></cite>); <cite ref=\"Bekhorot 44a\">Bekh. 44ᵃ</cite> (expl. <he>הצִירָן</he>, cmp. ",
+				"<cite ref=\"Targum Jonathan on Genesis 29:17\">Targ. Y. I Gen. XXIX, 17</cite>) <he>עיניו ט׳</he> Ar. (ed. <cite ref=\"V00001\"><he>ת׳</he></cite>). ",
+				"<cite ref=\"Taanit 24a:13\">Taan. 24ᵃ</cite> <he>עיניה ט׳</he>, opp. <he>יפות</he>. ",
+				"<cite ref=\"Shabbat 31a\">Sabb. 31ᵃ</cite> <cite ref=\"V00001\"><he>ת׳</he></cite>. ",
+				"<cite ref=\"Sanhedrin 107b:13\">Snh. 107ᵇ</cite> (in a passage omitted in later eds.) <he>עיניה ט׳</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"I00753\"><he>טִרְטֵט</he></cite>) <i>straight-lined, abruptly ending</i>, v. <cite ref=\"V00959\"><he>תָּרוּט</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

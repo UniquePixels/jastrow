@@ -1,0 +1,63 @@
+{
+	"id": "O00199",
+	"slug": "סדר-1",
+	"headword": {
+		"text": "סָדַר"
+	},
+	"page": {
+		"number": 958,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Saf. of <cite ref=\"D00342\"><he>דּוּר</he></cite>) <i>to arrange, order</i> (corresp. to b. h. <he>ערך</he>). ",
+			"units": [
+				"<cite ref=\"Pesachim 54a:2\">Pes. 54ᵃ</cite> <he>סוֹדְרָן על הכוס</he> he pronounces them (the benedictions) in successive order over the cup. ",
+				"<cite ref=\"Yoma 45b:1\">Yoma 45ᵇ</cite> top <he>שסודרן ע״ג המזבח</he> that he must place them in order on the altar; <he>שסודרן על הכבש … וסודרן</he> that he must arrange them on the bridge or on the rim of the altar, until a large pile (of wood) is formed, when he must put them in order (on the altar); <cite ref=\"Mishnah Tamid 2:1\">Tam. II, 1</cite>; a. fr.—Part. pass. <cite ref=\"O00181\"><he>סָדוּר</he></cite>; f. <he>סְדוּרָה</he> &c. ",
+				"<cite ref=\"Taanit 8a:1\">Taan. 8ᵃ</cite> <he>בשביל משנתו שאינה ס׳ עליו</he> it is because his learning is not properly systematised in his mind. ",
+				"<cite ref=\"Berakhot 57a\">Ber. 57ᵃ</cite> <he>עונותיו ס׳ לו</he> his sins are arranged before him; <he>מאי ס׳ ס׳ לימחל</he> what does this mean? It means that they are arranged (ready) to be forgiven; <cite ref=\"Yoma 88a\">Yoma 88ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 69a:3\">B. Bath. 69ᵃ</cite> <he>אבנים הס׳ לגדר</he> stones arranged for erecting a fence, contrad. to <he>צבורות</he> piled up (v. <cite ref=\"O00411\"><he>סָוַר</he></cite>); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִידֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00198\">same</cite> <cite ref=\"Mishnah Tamid 2:3\">Tam. II, 3</cite> <he>לסַדֵּר אש המערכה</he> to arrange the pyre, v. <cite ref=\"M02179\"><he>מַעֲרָכָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 4:14\">Num. R. s. 4</cite> <he>כיצד מְסַדְּרִין לחם וכ׳</he> how did they arrange the showbread?; <cite ref=\"Bamidbar Rabbah 4:14\">ib.</cite> also <he>מַסְדִּירִים</he>, <he>מַסְדִּירִין</he> (<i>Hif.</i>); a. fr.—<he>ס׳ שבח</he> (cmp. <he>ערך</he>, <cite ref=\"Psalms 5:4\">Ps. V, 4</cite>, a. e.) <i>to offer praise</i>. ",
+						"<cite ref=\"Avodah Zarah 7b:18\">Ab. Zar. 7ᵇ</cite>; <cite ref=\"Berakhot 32a:32\">Ber. 32ᵃ</cite> <he>לעולם יְסַדִּר אדם וכ׳</he> one should always offer praise to the Lord first, and then pray (for what he needs). ",
+						"<cite ref=\"Berakhot 34a:10\">Ib. 34ᵃ</cite> <he>ראשונות דומה לעבד שמְסַדֵּר וכ׳</he> in the first three benedictions of the T’fillah one is like a servant that offers praise to his master; a. fr.—Part. pass. <cite ref=\"M01874\"><he>מְסוּדָּר</he></cite>. ",
+						"<cite ref=\"Menachot 95a\">Men. 95ᵃ</cite> <he>במס׳</he> when everything in the Tabernacle was arranged, opp. <he>במסולק</he> when arrangements for moving were being made."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (corresp. to <cite ref=\"P01375\"><he>העריך</he></cite>, <cite ref=\"Leviticus 27:8\">Lev. XXVII, 8</cite>) <i>to assess a person’s value</i> with reference to the vower’s ability to pay, whence: <i>to exempt from seizure</i> (bed, tools &c.; v. ",
+					"units": [
+						"<cite ref=\"Mishnah Arakhin 6:3\">Arakh. VI, 3</cite>, sq.). ",
+						"<cite ref=\"Bava Metzia 113b:9\">B. Mets. 113ᵇ</cite> <he>כדרך שמסדרין בערכין כך מסדרין בבעל חוב</he> as well as we allow an exemption from seizure in cases of vows, so we allow it in cases of debt; [Rashi quotes a Var. <he>משרדין</he>, v. <cite ref=\"U01932\"><he>שָׂרַד</he></cite>]. ",
+						"<cite ref=\"Nedarim 65b:7\">Ned. 65ᵇ</cite> <he>שמעת מינה אין מסדרין וכ׳</he> (Var. <he>משיירין</he>) from this you may deduce that no exemption is granted the debtor; <cite ref=\"Bava Metzia 114a:10\">B. Mets. 114ᵃ</cite> <he>מהו שיְסַדְּרוּ וכ׳</he> is a debtor allowed an exemption? Y. B. Kam. IX, 7ᵃ top <he>על מנת שלא לסַדֵּר מה וכ׳</he> with the condition that what my wife or my child wears is not to be exempted from seizure. ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>אין מסדרין לו מאותו החפץ</he> this special object is not exempted; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְדִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to arrange, establish the order of</i>. Num. R. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Berakhot 28b\">Ber. 28ᵇ</cite>; <cite ref=\"Megillah 17b\">Meg. 17ᵇ</cite> <he>ה׳ … על הסדר וכ׳</he> arranged the eighteen benedictions before Rabbi in the order in which they are to be recited. Sifra Tsav, Mill. <he>כשם שה׳ משה וכ׳</he> as Moses arranged the service of the Tabernacle, so he arranged &c.; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

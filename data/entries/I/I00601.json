@@ -1,0 +1,70 @@
+{
+	"id": "I00601",
+	"slug": "טעי-1",
+	"headword": {
+		"text": "טעי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טָעָה"
+		}
+	],
+	"page": {
+		"number": 542,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"V00776\"><he>תָּעָה</he></cite>) <i>to err, be mistaken</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 2:3\">Ber. II, 3</cite> <he>קרא וט׳ יחזור למקום שט׳</he> if in reading the Sh’ma one made a mistake, he must go back to the passage in which he made a mistake. ",
+				"<cite ref=\"Bava Metzia 63b:13\">B. Mets. 63ᵇ</cite> <he>בכדי שהדעת טוֹעָה</he> within the limits of a reasonable mistake in counting. ",
+				"<cite ref=\"Sanhedrin 33b:11\">Snh. 33ᵇ</cite> <he>ט׳ בדבר שהצדוקין וכ׳</he> if the judge made a mistake in a case in which there is no difference of opinion between the Sadducees and Pharisees. ",
+				"<cite ref=\"Sanhedrin 6a:4\">Ib. 6ᵃ</cite>, a. e. <he>ט׳ בדבר משנה</he> if the judge gave a wrong decision against an explicit law in the Mishnah; <he>ט׳ בשיקול הדעת</he>, v. <cite ref=\"D00950\"><he>דַּעַת</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to seek, to miss</i> (cmp. <cite ref=\"I00614\"><he>טָעַן</he> I</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 3:8\">Taan. III, 8</cite> <he>אבן הטוֹעִים</he>; <cite ref=\"Bava Metzia 28b:4\">B. Mets. 28ᵇ</cite> <he>אבן טוֹעִין</he> Ms. M. (ed. <cite ref=\"I00193\"><he>טוֹעַן</he></cite>, v. Rabb. D. S. a. l. note), v. <cite ref=\"A00172\"><he>אֶבֶן</he></cite>.—",
+				"<cite ref=\"Vayikra Rabbah 13\">Lev. R. s. 13</cite>, beg. <he>אני טָעִיתִי את ההלכה</he> I had <i>forgotten</i> the law in the case."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִטְעָה"],
+			"senses": [
+				{
+					"gloss": "<i>to lead astray, to deceive, disappoint</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 6:1\">B. Mets. VI, 1</cite> <he>הִטְעוּ זה את זה</he> they deceived one another, i.e. the agent employed to engage laborers did not act according to instruction, v. next w.—",
+						"<cite ref=\"Mishnah Moed Katan 2:1\">M. Kat. II, 1</cite> <he>הִטְעוּהוּ פועלים</he> hired men disappointed him. ",
+						"<cite ref=\"Bereishit Rabbah 19:12\">Gen. R. s. 19</cite> end (interpret. <i>hishshiani</i>, <cite ref=\"Genesis 3:13\">Gen. III, 13</cite>) <he>הִטְעַנִי</he> he deceived me with false promises; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּטְעָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be led astray, be deceived</i>. Tanḥ. Balak 5 <he>כמו שהטעה ה׳</he> as he led astray, so was he led astray.—Part. <he>מוּטְעֶה</he>, f. <he>מוּטַעַת</he>, <he>מוּטְעֵית</he> <i>misled, brought about by mistake, under false premises</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 106a:1\">Yeb. 106ᵃ</cite> <he>חליצה מ׳</he> a <i>ḥălitsah</i> to which the <i>yabam</i> consented in consequence of a deception (a promise not kept); <cite ref=\"Tosefta Yevamot 12:13\">Tosef. ib. XII, 13</cite>; <cite ref=\"Ketubot 74a:11\">Keth. 74ᵃ</cite>.—",
+						"<cite ref=\"Rosh Hashanah 25a:14\">R. Hash. 25ᵃ</cite> <he>אתם אפי׳ מוּטָעִין</he> ‘ye’ (shall appoint), even if deceived by witnesses (your decision stands). ",
+						"<cite ref=\"Shabbat 101b:4\">Sabb. 101ᵇ</cite> <he>מוטעין</he> (mattings fastened, or spread) by mistake; a. e."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

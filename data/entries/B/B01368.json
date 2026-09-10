@@ -1,0 +1,46 @@
+{
+	"id": "B01368",
+	"slug": "בשר-1",
+	"headword": {
+		"text": "בָּשַׂר"
+	},
+	"page": {
+		"number": 199,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"B01012\"><he>בָּסַר</he> II</cite> a. <cite ref=\"B01003\"><he>בָּסַם</he></cite>) <i>to be sweet, pleasant</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּשֵּׂר", "בִּישֵּׂר"],
+			"senses": [
+				{
+					"gloss": "<i>to gladden, to bring good tidings to;</i> in gen. <i>to announce</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 87a:8\">Ḥull. 87ᵃ</cite> <he>מְבַשֵּׂר טובות וכ׳</he> I am bringing good news. ",
+						"<cite ref=\"Shabbat 63a\">Sabb. 63ᵃ</cite>, v. <cite ref=\"B01352\"><he>בְּשׂוֹרָה</he></cite>; a. fr.—Part. pass. <he>מְבוּשָּׂר</he> <i>informed of good news, assured</i>. Y. Kil. IX, 32ᵇ top <he>יהא מב׳ מחיי העו״הב</he> he shall receive a message from the life in the world to come, i.e. he may be assured of salvation; Y. Keth. XII, 35ᵃ <he>מכושר לחיי וכ׳ …</he> (corr. acc.); Y. Shek. III, end, 47ᶜ <he>יהא מב׳ שבן עו״הב הוא</he>. ",
+						"<cite ref=\"Shemot Rabbah 46\">Ex. R. s. 46</cite> <he>אתה מב׳ שמחלתי וכ׳</he> thou art informed that I have forgiven thee &c. Y. Ber. V, end, 9ᵈ; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְבַּשֵּׂר"],
+			"senses": [
+				{
+					"gloss": "<i>to be gladdened, to receive good tidings</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> <he>נ׳ בבנים</he> he was assured that he would have children. ",
+						"<cite ref=\"Bereishit Rabbah 47:8\">Gen. R. s. 47</cite>; s. 53 <he>נתבשרה בחלב</he> she was assured that she would nurse her child. [V. <cite ref=\"B01012\"><he>בָּסַר</he> II</cite>.]"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

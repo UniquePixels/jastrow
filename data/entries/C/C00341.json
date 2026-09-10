@@ -1,0 +1,23 @@
+{
+	"id": "C00341",
+	"slug": "גוזא-2",
+	"headword": {
+		"text": "גּוּזָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 220,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גנז</he>, cmp. <cite ref=\"C00515\"><he>גַּזָּא</he></cite>) <i>chest, money chest</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 50a\">Nidd. 50ᵃ</cite> Rashi, v. <cite ref=\"C00328\"><he>גַּוָּוזָא</he> I</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "I00838",
+	"slug": "טרכש",
+	"headword": {
+		"text": "טַרְכֵּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַרְקוֹשׁ"
+		}
+	],
+	"page": {
+		"number": 555,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (enlargement of <he>טרך</he> or <cite ref=\"I00887\"><he>טרק</he></cite>, v. <cite ref=\"I00794\"><he>טָרֵיךְ</he></cite>, a. <cite ref=\"I00888\"><he>טְרַק</he> I</cite>) [<i>a wine-stirrer</i>,] <i>a board on which drinks for the table are mixed, side-board</i> (abacus, mensa delphica), <i>a plain board attached to the wall with hinges, to be put up and down</i> (cmp. <cite ref=\"D00855\"><he>דְּלִפְקִי</he></cite>, <cite ref=\"Mishnah Kelim 25:1\">Kel. XXV, 1</cite>). ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 3:3\">Tosef. Kel. B. Bath. III, 3</cite> <he>ט׳ חלק</he> (R. S. to <cite ref=\"Mishnah Kelim 25:1\">Kel. XXV, 1</cite> <he>טרכוס וחלק</he>) a plain tray (without rims). Ib. I, 12 <he>ט׳ שעשה וכ׳</he> a side-board under which they placed a piece of wood, formed like a spear (as an improvised support) for eating at it. ",
+				"<cite ref=\"Tosefta Shabbat 14:2\">Tosef. Sabb. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:2\">XV</cite>), 2 <cite ref=\"V01058\"><he>תרקוש</he></cite> ed. Zuck. (Var. <he>ט׳</he>, by cler. error <cite ref=\"M02767\"><he>מרקוש</he></cite>)."
+			]
+		}
+	]
+}

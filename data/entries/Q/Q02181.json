@@ -1,0 +1,24 @@
+{
+	"id": "Q02181",
+	"slug": "פתכרא",
+	"headword": {
+		"text": "פְּתַכְרָא"
+	},
+	"page": {
+		"number": 1254,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(also pl. form <he>פְּתַכְרי</he>) (denom. of <cite ref=\"Q02178\"><he>פתכא</he></cite>, v. <cite ref=\"Q02179\"><he>פַּתְכּוּמְרִין</he></cite>) [<i>painted thing</i>,] a contemptuous expression for <i>idol</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 5:26\">Targ. Am. V, 26</cite> <he>פְּתַכְרֵיכוֹן</he> ed. Lag. (ed. <he>פת כומריכון</he>; h. text <he>מלככם</he>). ",
+				"<cite ref=\"Targum Jonathan on Zephaniah 1:5\">Targ. Zeph. I, 5</cite> <he>פְּתַכְרֵיהוֹן</he> ed. Lag. (some ed. <he>פת כומריהון</he>; h. text <he>מלכם</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 8:21\">Targ. Is. VIII, 21</cite> <cite ref=\"Q02137\"><he>פְּתַכְרֵיה</he></cite> (h. text <he>מלכו</he>).—[For another derivation of our w., see Fl. to Levy Targ. Dict. II, 574<sup>2</sup>.]"
+			]
+		}
+	]
+}

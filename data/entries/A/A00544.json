@@ -1,0 +1,30 @@
+{
+	"id": "A00544",
+	"slug": "אוגן",
+	"headword": {
+		"text": "אוֹגֶן"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹגֶן"
+		}
+	],
+	"page": {
+		"number": 21,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00535\"><he>אוג</he></cite>; v. <cite ref=\"A00543\">foreg.</cite>) <i>border of a vessel, rim</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 25a:13\">Ḥull. 25ᵃ</cite>; <cite ref=\"Chullin 25b:1\">25ᵇ</cite>; <cite ref=\"Tosefta Keilim Metsia 2:17\">Tosef. Kel. B. Mets. II, 17</cite> <cite ref=\"E00001\"><he>ה׳</he></cite>. <i>Ḥag</i>. 22ᵇ <he>אוֹגנוֹ</he> its border. Pl. <he>אוֹגְנִים</he>, <he>אוֹגְנִין</he>, <he>הוֹ׳</he>. ",
+				"<cite ref=\"Niddah 3b:42\">Nidd. 3ᵇ</cite>. ",
+				"<cite ref=\"Eruvin 87b:18\">Erub. 87ᵇ</cite> (banks). ",
+				"<cite ref=\"Mishnah Kelim 25:6\">Kel. XXV, 6</cite>; a. e. [<cite ref=\"Mishnah Chullin 2:9\">Ḥull. II, 9</cite> (<cite ref=\"Chullin 41a:9\">41ᵃ</cite>) <he>אוּגָן של מים</he> Ar., <i>a little pool</i>, ed. <cite ref=\"P00192\"><he>עוּגָה</he></cite> q. v.]"
+			]
+		}
+	]
+}

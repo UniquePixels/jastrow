@@ -1,0 +1,24 @@
+{
+	"id": "O00819",
+	"slug": "סיקלו",
+	"headword": {
+		"text": "סִיקְלֵו",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 986,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Syr. <cite ref=\"O01485\"><he>סקל</he></cite> <i>to polish</i>; cmp. <cite ref=\"O01497\"><he>סָקַר</he> II</cite>) <i>polishers</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 84a\">B. Mets. 84ᵃ</cite> a silver cup <he>מבי ס׳</he> Ar. (ed. <he>סלקי</he>; Rashi <cite ref=\"O00675\"><he>סילקי</he></cite>; Ms. M. <cite ref=\"N00778\"><he>ניקלי</he></cite>; Ms. H. <he>סְקוֹלָאֵי</he>) directly from the polishers’ workshop."
+			]
+		}
+	]
+}

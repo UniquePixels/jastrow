@@ -1,0 +1,23 @@
+{
+	"id": "P00196",
+	"slug": "עוגל",
+	"headword": {
+		"text": "עוֹגֶל"
+	},
+	"page": {
+		"number": 1048,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00089\"><he>עָגַל</he></cite>; cmp. <cite ref=\"P00192\"><he>עוּגָּה</he></cite>, <cite ref=\"P00193\"><he>עוּגְיָה</he></cite>) <i>pond</i>, <i>reservoir</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Mikvaot 4:10\">Tosef. Mikv. IV, 10</cite> <he>ע׳ ארבעים סאה</he> a reservoir containing forty S’ah. ",
+				"<cite ref=\"Mishnah Chullin 2:8\">Ḥull. II, 8</cite>, v. <cite ref=\"P00192\"><he>עוּגָּה</he></cite>.—Cmp. <cite ref=\"A00303\"><he>אֲגָלַים</he></cite>."
+			]
+		}
+	]
+}

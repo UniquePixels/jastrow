@@ -1,0 +1,30 @@
+{
+	"id": "P00736",
+	"slug": "עכירים",
+	"headword": {
+		"text": "עֲכִירִים",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲכִירִין"
+		}
+	],
+	"page": {
+		"number": 1078,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"P00735\">preced.</cite>) [<i>stirrers</i>,] <i>implement connected with the wine</i> or <i>oil press</i> for stirring up the pulp, <i>loadstones</i> (?), <i>screws</i> (?). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 4:5\">B. Bath. IV, 5</cite> (<cite ref=\"Bava Batra 67b\">67ᵇ</cite>) <he>העכ׳</he> (Bab. ed. <he>העבירין</he>; Y. ed. <he>הכִּירִים</he>; Ms. M. <he>העמודין</he>; Ms. O. <he>העבירים</he> a. <he>העמודים</he>, v. Rabb. D. S. a. l. note 6, sq.); expl. ib. 67ᵇ <he>כִּבְשֵׁי</he>. ",
+				"<cite ref=\"Tosefta Keilim Batra 7:12\">Tosef. Kel. B. Bath. VII, 12</cite>, quot. by Hai G. to <cite ref=\"Mishnah Kelim 12:8\">Kel. XII, 8</cite> (ed. Zuck. <he>העתידין</he>, oth. ed. <he>עמידים</he>) <he>ע׳ … של זכוכית</he> (?)."
+			]
+		}
+	]
+}

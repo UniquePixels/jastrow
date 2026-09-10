@@ -1,0 +1,69 @@
+{
+	"id": "D00435",
+	"slug": "דחק-2",
+	"headword": {
+		"text": "דְּחַק",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּחֵיק"
+		}
+	],
+	"page": {
+		"number": 293,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00434\">same</cite><i>to push, squeeze</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 1:34\">Targ. Jud. I, 34</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to impel, hurry, press</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 10:13\">Targ. Josh. X, 13</cite> (h. text <cite ref=\"A00820\"><he>אוץ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 15:3\">Targ. Y. Deut. XV, 3</cite>; a. fr.—",
+				"<cite ref=\"Moed Katan 28a:22\">M. Kat. 28ᵃ</cite> <he>דָּחֲקָא רגליה וכ׳</he> the foot of Bar Nathan is pressing (his predestined term of office has begun)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּחֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to press</i> (a debtor). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 15:2\">Targ. Y. Deut. XV, 2</cite> <he>למְדַחֲקָא</he> (ed. Vien. <he>למדה׳</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִדְּחֵק", "אִידְּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be pressed, squeeze one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 22:25\">Targ. O. Num. XXII, 25</cite> (Y. <he>אַדְחָקַת</he>, read <cite ref=\"D00792\"><he>אִדְּ׳</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be distressed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 13:6\">Targ. I Sam. XIII, 6</cite>; <cite ref=\"Targum Jonathan on I Samuel 14:24\">XIV, 24</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

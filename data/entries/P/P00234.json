@@ -1,0 +1,24 @@
+{
+	"id": "P00234",
+	"slug": "עוירא-1",
+	"headword": {
+		"text": "עֲוִירָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1049,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00233\">preced.</cite>) <i>blindness</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 81a:1\">Ned. 81ᵃ</cite>, v. <cite ref=\"P01270\"><he>עִרְבּוּבִיתָא</he></cite>.—",
+				"<cite ref=\"Shabbat 151b:17\">Sabb. 151ᵇ</cite> <he>תרתי תיכלא ועִיוְּרָא</he> (Rashi) shall I suffer both, bereavement and blindness?"
+			]
+		}
+	]
+}

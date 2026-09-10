@@ -1,0 +1,27 @@
+{
+	"id": "U01222",
+	"slug": "שלהוי",
+	"headword": {
+		"text": "שִׁלְהֲוֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1578,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01224\"><he>שַׁלְהֵי</he></cite>) <i>weariness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 8:22\">Targ. Is. VIII, 22</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A01761",
+	"slug": "אכתנא",
+	"headword": {
+		"text": "אַכְתָּנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 66,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אכת</he>, v. P. Sm. 191; cmp. <cite ref=\"A01718\"><he>אכסא</he></cite>, <cite ref=\"P00746\"><he>עכס</he></cite>, <cite ref=\"P00747\"><he>עכסה</he></cite>, <he>עכן</he>) <i>venomous, vindictive</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:28\">Targ. Prov. XII, 28</cite> Ms. Luzz. (v. Pesh., a. LXX b. c.); [some ed. <he>אבהתנא</he>, v. <cite ref=\"B00196\"><he>בְּהֵת</he></cite>; <he>עַוְתָנָא</he>; h. text <he>נתיבה אַל וכ׳</he>!]"
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "O00557",
+	"slug": "סיגוף-1",
+	"headword": {
+		"text": "סִיגוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִגּ׳"
+		}
+	],
+	"page": {
+		"number": 975,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00163\"><he>סָגַף</he></cite>) <i>affliction, privation, ascetic practices</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 3:18:1\">Koh. R. to III, 18</cite> <he>על מדברות שהצדיקים מִדַּבְּרִים בעוה״ו בס׳ וכ׳</he> concerning the conduct with which the righteous conduct themselves in this world in privation, fasts and sufferings."
+			]
+		}
+	]
+}

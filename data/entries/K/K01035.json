@@ -1,0 +1,32 @@
+{
+	"id": "K01035",
+	"slug": "כפן-3",
+	"headword": {
+		"text": "כְּפַן",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּפְנָא"
+		}
+	],
+	"page": {
+		"number": 660,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01034\">preced.</cite>) <i>hunger, famine</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 1:1\">Targ. Ruth I, 1</cite>. ",
+				"<cite ref=\"Onkelos Genesis 12:10\">Targ. Gen. XII, 10</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 33a:12\">Sabb. 33ᵃ</cite> <he>נפיחי כ׳</he> swelling (and lying) from starvation.—",
+				"<cite ref=\"Taanit 19b:2\">Taan. 19ᵇ</cite> top, v. <cite ref=\"B01083\"><he>בַּצּוֹרְתָא</he></cite>. ",
+				"<cite ref=\"Taanit 8b:7\">Ib. 8ᵇ</cite> <he>כ׳ ומותנא</he> famine and pestilence; a. fr.—Pl. <cite ref=\"K01036\"><he>כַּפְנִין</he></cite>. Targ. Ruth. l. c.—V. <cite ref=\"K01017\"><he>כְּפֵינֵי</he></cite>."
+			]
+		}
+	]
+}

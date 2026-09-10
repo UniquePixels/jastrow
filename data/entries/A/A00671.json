@@ -1,0 +1,32 @@
+{
+	"id": "A00671",
+	"slug": "אוליאר",
+	"headword": {
+		"text": "אוֹלְיָאר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹלְיָיר"
+		}
+	],
+	"page": {
+		"number": 26,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (olearius, ὀλεάριος S.) <i>keeper of clothes at the baths</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 1:1:18\">Y. Maas. Sh. I, 52ᵈ</cite> top <he>מעות הנתונות לא׳</he> tokens (in place of small change) given to the olearius; cmp. ",
+				"<cite ref=\"Tosefta Ma'aser Sheni 1:4\">Tosef. Maas. Sh. I, 4</cite>.—",
+				"<cite ref=\"Pesikta Rabbati 22:1\">Pesik. R. s. 22</cite>; a. e.—Pl. <he>אוֹלְיָארִין</he>, <he>אוֹלְיָירִין</he>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 2:12\">Tosef. Kel. B. Mets. II, 12</cite> <he>מגררות של אוּלְיָרִין</he> ed. Zuck. (oth. ed. <he>אולו׳</he> corr. acc.) the brushes (strigils) of the bathing attendants. ",
+				"<cite ref=\"Shabbat 147b:7\">Sabb. 147ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:3:15\">Y. Ber. II, 4ᶜ</cite> top; cmp. Pesik. R. l. c.; a. e. V. <cite ref=\"A00892\"><he>אוֹרְיָיר</he></cite>. [<cite ref=\"Shabbat 144a\">Sabb. 144ᵃ</cite> <he>כלים הא׳</he>, <cite ref=\"Niddah 20a:33\">Nidd. 20ᵃ</cite> <he>האולירין …</he>, v. <cite ref=\"A00684\"><he>אוֹלָרִין</he></cite>.]"
+			]
+		}
+	]
+}

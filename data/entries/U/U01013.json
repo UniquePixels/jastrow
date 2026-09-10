@@ -1,0 +1,30 @@
+{
+	"id": "U01013",
+	"slug": "שיפוי-2",
+	"headword": {
+		"text": "שִׁיפּוּי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁפּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1566,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שָׁפָה</he> II; cmp. <cite ref=\"U01786\"><he>שָׁפַע</he></cite>) <i>incline, slanting</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 19a:1\">Ḥull. 19ᵃ</cite> <he>ש׳ כובע</he>, v. <cite ref=\"K00193\"><he>כּוֹבַע</he></cite>. ",
+				"<cite ref=\"Chullin 20a:8\">Ib. 20ᵃ</cite> <he>ש׳ ראשו</he> where the back of its head begins to slant towards the neck."
+			]
+		}
+	]
+}

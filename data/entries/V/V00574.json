@@ -1,0 +1,32 @@
+{
+	"id": "V00574",
+	"slug": "תלג-2",
+	"headword": {
+		"text": "תְּלַג"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּלְגָּא"
+		}
+	],
+	"page": {
+		"number": 1670,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01210\"><he>שֶׁלֶג</he></cite>, <i>snow; cold, chill</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 51:9\">Targ. Ps. LI, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 68:15\">Ib. LXVIII, 15</cite>; a. fr.—",
+				"<cite ref=\"Taanit 3b:12\">Taan. 3ᵇ</cite> <he>מעלי ת׳ וכ׳</he> snow on the mountains is as good as five rains on the ground. ",
+				"<cite ref=\"Sanhedrin 18b:2-12\">Snh. 18ᵇ</cite> <he>אם … בת׳ ימות</he> if in the morning the ox nearly dies from cold. ",
+				"<cite ref=\"Gittin 67b:15\">Gitt. 67ᵇ</cite> <he>לת׳</he> as a remedy for chills. ",
+				"<cite ref=\"Gittin 67b:16\">Ib.</cite> <he>הוו מגנו ליה את׳</he> they made him lie on the snow; a. e."
+			]
+		}
+	]
+}

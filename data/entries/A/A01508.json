@@ -1,0 +1,28 @@
+{
+	"id": "A01508",
+	"slug": "איסר-3",
+	"headword": {
+		"text": "אֵיסַר"
+	},
+	"page": {
+		"number": 57,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A01507\">same</cite><i>band, chain</i>. Pl. <he>אֵיסָרִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 15:14\">Targ. Jud. XV, 14</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>vow</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 30:3\">Targ. O. Num. XXX, 3</cite> (Y. <cite ref=\"A01509\"><he>אִיסְרָא</he></cite>); a. e.—Pl. <he>אֵיסָרִין</he>, <he>אֵיסָרֵי</he>. ",
+				"<cite ref=\"Onkelos Numbers 30:5\">Targ. O. Num. XXX, 5</cite>; a. e.—[<cite ref=\"Aramaic Targum to Psalms 2:3\">Targ. Ps. II, 3</cite> <cite ref=\"A02567\"><he>אֱסָרָתָא</he></cite> (some ed. <he>אֵסָרוּ׳</he>), v. next w.]"
+			],
+			"label": "2"
+		}
+	]
+}

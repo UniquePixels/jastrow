@@ -1,0 +1,29 @@
+{
+	"id": "P00653",
+	"slug": "עיקא-2",
+	"headword": {
+		"text": "עָיְקָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עָיְי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1074,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00652\">preced.</cite>) <i>oppressor, enemy</i>.—Pl. <he>עָיְקִין</he>, <cite ref=\"P00652\"><he>עָיְי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 25:18\">Targ. Y. Num. XXV, 18</cite> (ed. Vien. <cite ref=\"P00618\"><he>עַיְי׳</he></cite>)."
+			]
+		}
+	]
+}

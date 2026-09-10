@@ -1,0 +1,62 @@
+{
+	"id": "D00389",
+	"slug": "דוש-1",
+	"headword": {
+		"text": "דּוּשׁ"
+	},
+	"page": {
+		"number": 290,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.), part. a. perf. <cite ref=\"D01137\"><he>דָּשׁ</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to tread, trample, thresh</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>הדָּשׁ</he> he who threshes (on the Sabbath); a. fr.—Euphem. for sexual contact. ",
+				"<cite ref=\"Niddah 41b\">Nidd. 41ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite>. ",
+				"<cite ref=\"Pesachim 87b\">Pes. 87ᵇ</cite>; a. e.—<he>דוש בעקב</he> to trample with one’s heel, <i>to treat lightly, not to heed</i>. ",
+				"<cite ref=\"Avodah Zarah 18a\">Ab. Zar. 18ᵃ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to walk about, be familiar, well-known</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 24b:12\">Meg. 24ᵇ</cite> <he>אם היה דש בעירו</he> if he has been a familiar figure in his town (so that people do not mind his bodily disfigurement); <cite ref=\"Jerusalem Talmud Taanit 4:1:4\">Y. Taan. IV, beg. 67ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דִּיֵּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to trample</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 15:25\">Ex. R. s. 15</cite> <he>הייתם מְדַיְּישִׁין את העץ וכ׳</he> you used to tread upon this piece of wood. ",
+						"<cite ref=\"Midrash Tehillim 8:3\">Midr. Till. to Ps. VIII, 3</cite> <he>מְדַיֵּישׁ עליך כעפר</he> even one who treads upon thee as upon dust. ",
+						"<cite ref=\"Bereishit Rabbah 44:12\">Gen. R. s. 44</cite> <he>דַּיְּישֵׁם</he> tread upon them."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["דּוֹשֵׁש"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"D01152\"><he>דָּשַׁשׁ</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

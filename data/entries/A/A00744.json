@@ -1,0 +1,27 @@
+{
+	"id": "A00744",
+	"slug": "אוניס",
+	"headword": {
+		"text": "אוֹנֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אונוס"
+		}
+	],
+	"page": {
+		"number": 29,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אנס</he>) <i>tyrannus, lord, ruler</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 2:16\">Targ. Y. Ex. II, 16</cite>; <cite ref=\"Targum Jonathan on Exodus 18:1\">XVIII, 1</cite>."
+			]
+		}
+	]
+}

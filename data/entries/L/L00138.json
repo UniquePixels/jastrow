@@ -1,0 +1,27 @@
+{
+	"id": "L00138",
+	"slug": "לגלוג-1",
+	"headword": {
+		"text": "לִגְלוּג"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיגְ׳"
+		}
+	],
+	"page": {
+		"number": 693,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00135\"><he>לִגְלֵג</he></cite>) <i>stammering</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:4\">Cant. R. to II, 4</cite> (ref. to <he>ודגלו</he> <cite ref=\"Shir HaShirim Rabbah 2:4\">ib.</cite>) <he>ולִגְלוּגוֹ וכ׳</he> even the child’s stammering is pleasing to me."
+			]
+		}
+	]
+}

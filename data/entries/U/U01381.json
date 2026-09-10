@@ -1,0 +1,31 @@
+{
+	"id": "U01381",
+	"slug": "שלק-2",
+	"headword": {
+		"text": "שְׁלַק"
+	},
+	"page": {
+		"number": 1588,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01380\">same</cite> (cmp. <he>בשל</he>) <i>to be overheated, blasted</i> (by a hot wind). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 19:26\">Targ. II Kings XIX, 26</cite> <he>דִּישְׁלוֹק</he> (not <cite ref=\"D01154\"><he>דְּיִשְׁ׳</he></cite>); <cite ref=\"Targum Jonathan on Isaiah 37:27\">Targ. Is. XXXVII, 27</cite> (h. text <he>שדפה</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to boil thoroughly</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:17\">Y. Ber. VI, 10ᵇ</cite> top <he>בההוא דשָׁלֵיק</he> in the case of one that boils (rice), contrad. to <he>דטריף</he>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 1:2:5\">Y. Gitt. I, 43ᶜ</cite>; <cite ref=\"Jerusalem Talmud Sheviit 6:1:6\">Y. Shebi. VI, 36ᶜ</cite> top <he>שָׁלְקִין</he>, v. <cite ref=\"L00718\"><he>לְתַת</he></cite>; a. e.—Part. pass. <he>שָׁלִיק</he>, <cite ref=\"U01333\"><he>שְׁלִיקָא</he></cite>; f. <cite ref=\"U01334\"><he>שְׁלִיקְתָּא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 38b:13\">Ab. Zar. 38ᵇ</cite> <he>מישחא ש׳</he> boiled oil. ",
+				"<cite ref=\"Avodah Zarah 38b:14\">Ib.</cite> <he>אהיני שְׁלִיקֵי</he> seethed dates (v. <cite ref=\"A00498\"><he>אֲהִינָא</he></cite>). ",
+				"<cite ref=\"Gittin 68b\">Gitt. 68ᵇ</cite>; <cite ref=\"Pesachim 34a\">Pes. 34ᵃ</cite>, v. <cite ref=\"O01027\"><he>סְלַק</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

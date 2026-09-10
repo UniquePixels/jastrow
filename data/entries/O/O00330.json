@@ -1,0 +1,28 @@
+{
+	"id": "O00330",
+	"slug": "סולתנית",
+	"headword": {
+		"text": "סוּלְתָּנִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּלְתָּנוּת"
+		}
+	],
+	"page": {
+		"number": 965,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"O00326\"><he>סוֹלֶת</he></cite>) [<i>fish fried with flour</i>,] <i>a small fish</i> believed to grow scales on reaching a certain age (cmp. <cite ref=\"A02680\"><he>אַפְיָין</he></cite>). ",
+			"units": [
+				"<cite ref=\"Chullin 66a:9\">Ḥull. 66ᵃ</cite>; <cite ref=\"Avodah Zarah 39a:3\">Ab. Zar. 39ᵃ</cite> <he>אין לו … כגון הס׳ וכ׳</he> one that has no scales now but will grow them after a time, as, for instance, the <i>sultanith</i> &c. ",
+				"<cite ref=\"Avodah Zarah 39a:3\">Ib.</cite>, expl. <cite ref=\"H00787\"><he>חֵילֶק</he> I</cite>. (Ar. <cite ref=\"O01045\"><he>סֻלְתָּ׳</he></cite>)."
+			]
+		}
+	]
+}

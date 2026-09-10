@@ -1,0 +1,47 @@
+{
+	"id": "N01380",
+	"slug": "נתך-2",
+	"headword": {
+		"text": "נְתַךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 944,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01379\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A03415\"><he>אַתֵּיךְ</he></cite> <i>to melt, cast, pour</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 10:10\">Targ. Job X, 10</cite> Ms. (ed. <he>סנן</he>). ",
+						"<cite ref=\"Onkelos Exodus 25:12\">Targ. Ex. XXV, 12</cite>; a. fr.—Part. pass. <cite ref=\"M03066\"><he>מַתַּךְ</he></cite>. ",
+						"<cite ref=\"Targum of II Chronicles 4:2\">Targ. II Chr. IV, 2</cite>, sq.—",
+						"<cite ref=\"Midrash Tehillim 2:8\">Midr. Till. to Ps. II, 6</cite> (expl. <he>נסכתי</he> <cite ref=\"Midrash Tehillim 2:8\">ib.</cite>) <he>אַתִּיכְתֵּיה</he> I cast him (made him strong, cmp. <cite ref=\"J00547\"><he>יָצַק</he></cite> <i>Hof.</i>); <cite ref=\"Yalkut Shimoni on Nach 620\">Yalk. ib. 620</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["נַתַּךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01379\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 32:21\">Targ. II Chr. XXXII, 21</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

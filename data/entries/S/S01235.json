@@ -1,0 +1,25 @@
+{
+	"id": "S01235",
+	"slug": "קלא-3",
+	"headword": {
+		"text": "קְלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1371,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"S00317\"><he>קוֹלָא</he> I</cite>, II) [<i>something round</i>,] <i>clod, stone</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 18b:1\">Ab. Zar. 18ᵇ</cite> <he>שקל ק׳ וכ׳</he> he took up a clod and threw it at them; <cite ref=\"Pesachim 62b:9\">Pes. 62ᵇ</cite>, a. e. ",
+				"<cite ref=\"Bava Kamma 92b:15\">B. Kam. 92ᵇ</cite>, v. <cite ref=\"K00617\"><he>כֵּיר</he></cite>. ",
+				"<cite ref=\"Taanit 4a:1\">Taan. 4ᵃ</cite>, v. <cite ref=\"Q01979\"><he>פַּרְצִידָא</he></cite>; a. e."
+			]
+		}
+	]
+}

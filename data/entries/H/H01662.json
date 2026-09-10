@@ -1,0 +1,24 @@
+{
+	"id": "H01662",
+	"slug": "חרטה",
+	"headword": {
+		"text": "חֲרָטָה"
+	},
+	"page": {
+		"number": 501,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01661\">preced.</cite> wds.) <i>regret</i>, esp. <i>the expression, before a court, of regret for a vow made under misapprehension</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 31b:32\">Nidd. 31ᵇ</cite> <he>ובח׳ תליא מילתא</he> and the case is dependent on a formal declaration (and decision by a court). ",
+				"<cite ref=\"Nedarim 8b:3\">Ned. 8ᵇ</cite> <he>שליח לחֲרָטַת אשתו</he> a deputy to declare his wife’s regret (and procure absolution). ",
+				"<cite ref=\"Nedarim 77b:3\">Ib. 77ᵇ</cite> <he>פותחין בח׳</he> the court begins with suggesting reasons for regret; a. e."
+			]
+		}
+	]
+}

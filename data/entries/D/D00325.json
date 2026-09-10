@@ -1,0 +1,83 @@
+{
+	"id": "D00325",
+	"slug": "דוק-2",
+	"headword": {
+		"text": "דּוּק"
+	},
+	"page": {
+		"number": 287,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"D00242\"><he>דוּךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to pound, beat; to powder</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 14a\">Bets. 14ᵃ</cite>, v. <cite ref=\"D00242\"><he>דּוּךְ</he></cite>.—Part. Peil <cite ref=\"D00325\"><he>דָּיִיק</he></cite> <i>powdered</i>. ",
+				"<cite ref=\"Beitzah 14b\">Ib.ᵇ</cite> <he>ד׳ טפי</he> fine-powdered. ",
+				"<cite ref=\"Chullin 51b\">Ḥull. 51ᵇ</cite>, v. <cite ref=\"K00651\"><he>כִּיתְנָא</he></cite>, V. <cite ref=\"D01015\"><he>דְּקַק</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B00635\"><he>בִּין</he></cite>, <cite ref=\"B01136\"><he>בָּקַר</he></cite> a. oth.) <i>to examine carefully, to be particular, exact in expression; to pay special attention, to mind</i>. Ib. 6ᵃ, a. fr. <he>דָּק ואשכח</he> he examined and found. ",
+			"units": [
+				"<cite ref=\"Sukkah 8a:4\">Succ. 8ᵃ</cite> <he>לא דק</he> he did not express himself exactly; a. fr.—<i>Part.</i> <he>דָּיֵיק</he> <i>careful</i>. ",
+				"<cite ref=\"Ketubot 18b:7\">Keth. 18ᵇ</cite> <he>מֵידַק ד׳</he> he is very careful (as to what witnesses he uses). ",
+				"<cite ref=\"Yoma 83b\">Yoma 83ᵇ</cite> <he>הווה ד׳ בשמא</he> minded a man’s name (considering it an indication of his character). ",
+				"<cite ref=\"Yoma 83b:12\">Ib.</cite> <he>לא הוו דַיְיקֵי בשמא</he> did not mind &c. ",
+				"<cite ref=\"Yoma 83b:14\">Ib.</cite> <he>דַּיְיקִיתוּ</he> ye mind.—Part. Peil <cite ref=\"D00325\"><he>דָּיִיק</he></cite> (v. <i>Pa.</i>) <i>proved, conclusive</i>. ",
+				"<cite ref=\"Bava Kamma 3b\">B. Kam. 3ᵇ</cite> those verses <he>לא כמר דָּיְיקֵי וכ׳</he> are no evidence either for the one or the other.—Denom. <cite ref=\"D00696\"><he>דֵּיקָא</he></cite>, <cite ref=\"D00533\"><he>דְּיוּקָא</he></cite>, <cite ref=\"D00326\"><he>דּוְקָא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּיֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to grind, to chew carefully</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 155a\">Sabb. 155ᵃ</cite> bot. <he>דדֵיְּיקָה ואכלה</he> Ms. M. (ed. <he>דדיקה באוכלא</he>) she grinds her food carefully."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to argue by pressing a word, to analyze, prove</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 31b\">Keth. 31ᵇ</cite> <he>ד׳ מרישא</he> takes his argument from the first clause; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to calculate exactly</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 27:18\">Targ. Y. Lev. XXVII, 18</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 25:50\">Ib. XXV, 50</cite>, v. <cite ref=\"D00989\"><he>דִּקְדֵק</he></cite>; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אוֹדִיק", "אֲדִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be punctilious, get impatient</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 3:9\">Koh. R. to III, 9</cite> <he>א׳ מלכא</he> the king was irritated. Pesik. B’shall. p. 86ᵇ; <cite ref=\"Yalkut Shimoni on Nach 152:2\">Yalk. Sam. 152</cite> <he>אוֹדִיקַת סרח וכ׳</he> Serah … grew <i>angry;</i> cmp. <cite ref=\"D00989\"><he>דִּקְדֵּק</he></cite>.—2) <i>to examine, look with anxiety, wait attentively</i>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 7:6\">Targ. Prov. VII, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 14:2\">Targ. Ps. XIV, 2</cite>; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite> <he>אודיק</he> … <he>לקלהון</he> R. … examined into the noise they made; <cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite>; <cite ref=\"Yalkut Shimoni on Torah 665\">Yalk. Lev. 665</cite>; <cite ref=\"Yalkut Shimoni on Nach 352\">Yalk. Is. 352</cite>. Y. Keth. XII, 35ᵃ top; Y. Kil. IX, 32ᵇ top <he>א׳ לון תכ׳</he> Bar K. looked out for them (waiting for them to ask him)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

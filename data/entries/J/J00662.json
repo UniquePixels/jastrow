@@ -1,0 +1,32 @@
+{
+	"id": "J00662",
+	"slug": "ירקונא-2",
+	"headword": {
+		"text": "יְרָקוֹנָא"
+	},
+	"page": {
+		"number": 598,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"J00657\"><he>יֶרֶק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (sub. <he>חמר</he>) <i>a wine flavored with herbs</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 30a\">Ab. Zar. 30ᵃ</cite> <he>מר י׳</he> Ms. M. (ed. <cite ref=\"J00648\"><he>ירנקא</he></cite>) bitter wine, that is <i>y’rakona</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pl. <he>יְרָקוֹנִין</he>, v. <cite ref=\"J00612\"><he>יֵרוֹקָנָא</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

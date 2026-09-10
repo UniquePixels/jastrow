@@ -1,0 +1,28 @@
+{
+	"id": "B00491",
+	"slug": "בטבוט",
+	"headword": {
+		"text": "בִּטְבּוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּצְבּוּץ"
+		}
+	],
+	"page": {
+		"number": 156,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00492\">next w.</cite>; cmp. b. h. <cite ref=\"B00308\"><he>בּוּץ</he></cite>) <i>hemp</i>. Y. Ab. Zar. V, end, 45ᵇ <he>בט׳</he>; Bab. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 75a:6\">Ab. Zar. 75ᵃ</cite> <he>בצ׳</he>; <cite ref=\"Niddah 65b:1\">Nidd. 65ᵇ</cite>.—",
+				"<cite ref=\"Tosefta Tahorot 11:16\">Tosef. Toh. XI, 16</cite> <he>בצבץ</he>."
+			]
+		}
+	]
+}

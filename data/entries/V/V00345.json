@@ -1,0 +1,22 @@
+{
+	"id": "V00345",
+	"slug": "תותרנית",
+	"headword": {
+		"text": "תּוֹתְרָנִית"
+	},
+	"page": {
+		"number": 1660,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>תרתרנית</he>, reduplic. of <cite ref=\"V00271\"><he>תּוּר</he></cite>) [<i>one in the habit of espying, sniffing like a dog</i>,] <i>one whose sense of smell is defective</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 146a:13\">B. Bath. 146ᵃ</cite> they told a man <he>אשתו ת׳ היא וכ׳</he> (Ar. <he>תתר׳</he>; Ms. H. <he>תתרנאית</he>) that his (intended) wife was a ‘sniffer’; he went after her … to test her &c."
+			]
+		}
+	]
+}

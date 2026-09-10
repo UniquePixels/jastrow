@@ -1,0 +1,30 @@
+{
+	"id": "Q00616",
+	"slug": "פיטום",
+	"headword": {
+		"text": "פִּיטּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּטּ׳"
+		}
+	],
+	"page": {
+		"number": 1160,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00535\"><he>פָּטַם</he></cite>) <i>compounding, manufacturing; ingredients</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 6a:42\">Ker. 6ᵃ</cite> <he>פ׳ הקטרת וכ׳</he> the ingredients of frankincense are &c. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:3:2\">Y. Shek. IV, 48ᵃ</cite> bot. <he>שהיו בקיאין בפ׳ וכ׳</he> who were experts in the preparation of frankincense. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:3:5\">Y. Sot. VIII, 22ᶜ</cite> top <he>פ׳ שמן המשחה</he> the ingredients of the oil of anointment; a. fr.—[<cite ref=\"Mishnah Bava Metzia 4:12\">B. Mets. IV, 12</cite> (<cite ref=\"Bava Metzia 60a:4\">60ᵃ</cite>), a. e., v. <cite ref=\"Q00620\"><he>פִּיטּוּס</he></cite>.]—Pl. <he>פִּיטּוּמִים</he>, <cite ref=\"Q00623\"><he>פִּיטּוּמִין</he></cite>, <cite ref=\"Q00541\"><he>פִּיטּ׳</he></cite> <i>spices</i>. ",
+				"<cite ref=\"Mishnah Terumot 11:2\">Ter. XI, 2</cite> <he>כמוני פ׳</he> R. S. (ed. <he>פְּטָמִים</he>; Ms. M. <he>בשמים</he>) like those who count spices (and add some in the bargain).—[Tanḥ., ed. Bub., Shof’ṭim 8 <he>פיטומין</he>, v. <cite ref=\"Q01670\"><he>פְּרוֹטוֹמִי</he></cite>.]"
+			]
+		}
+	]
+}

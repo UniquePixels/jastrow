@@ -1,0 +1,31 @@
+{
+	"id": "H01742",
+	"slug": "חרפא",
+	"headword": {
+		"text": "חֲרָפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָרְפָא"
+		}
+	],
+	"page": {
+		"number": 505,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01740\"><he>חֲרַף</he></cite> <i>Af.</i>) <i>early</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 90b:6\">B. Bath. 90ᵇ</cite> <he>תרעא ח׳ וכ׳</he> the early market (soon after the crop) at the early market price, opp. <he>תרעא אפלא</he> later market.—Pl. <he>חָרְפֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 11:2\">Targ. Koh. XI, 2</cite> early seeds.—",
+				"<cite ref=\"Taanit 3b\">Taan. 3ᵇ</cite> <he>בח׳</he> concerning early clouds (when rain is gathering). ",
+				"<cite ref=\"Niddah 65b:6\">Nidd. 65ᵇ</cite>, v. <cite ref=\"A02683\"><he>אֲפֵילָא</he></cite>.—<i>Fem.</i> pl. <he>חֲרָפָתָא</he>. ",
+				"<cite ref=\"Rosh Hashanah 8a\">R. Hash. 8ᵃ</cite> Ar. (ed. <he>חָרְפְּיָיתָא</he>), v. <cite ref=\"A02683\"><he>אֲפֵילָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "L00540",
+	"slug": "לכד-1",
+	"headword": {
+		"text": "לָכַד"
+	},
+	"page": {
+		"number": 710,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) to <i>seize, conquer</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 168\">Yalk. Ex. 168</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִלְכָּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be caught, seized</i>. Ib. <he>נִלְכְּדָה העיר</he> the city was taken. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 30:16\">Ex. R. s. 30</cite> <he>ולבסוף נ׳ בזקנתו וכ׳</he> and finally in his old age he was caught (in the tempter’s net), and began to be afraid &c. ",
+						"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>אימתי תִּילָּכֵד</he> when will she (Jerusalem) be taken?; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

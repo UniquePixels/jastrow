@@ -1,0 +1,24 @@
+{
+	"id": "T00141",
+	"slug": "רבצן",
+	"headword": {
+		"text": "רַבְצָן"
+	},
+	"page": {
+		"number": 1446,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00137\"><he>רָבַץ</he></cite>) <i>an animal that habitually breaks down</i> under a load. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 33a:1\">B. Mets. 33ᵃ</cite> (ref. to <cite ref=\"Exodus 23:5\">Ex. XXIII, 5</cite>) <he>רוֹבֵץ ולא ר׳</he> ‘lying’, but not when it is in the habit of &c. ",
+				"<cite ref=\"Exodus 23:5\">Ib.</cite> <he>מה לי רובץ מה לי ר׳</he> (if it is a Biblical duty to relieve the suffering animal,) what difference does it make, whether the animal breaks down for the first time or did so before?; a. e.—<i>Fem.</i> <he>רַבְצָנִית</he>. ",
+				"<cite ref=\"Tosefta Bava Batra 4:6\">Tosef. B. Bath. IV, 6</cite>; <cite ref=\"Bava Metzia 80a\">B. Mets. 80ᵃ</cite>"
+			]
+		}
+	]
+}

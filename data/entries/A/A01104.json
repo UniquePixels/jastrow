@@ -1,0 +1,28 @@
+{
+	"id": "A01104",
+	"slug": "אטרוגא",
+	"headword": {
+		"text": "אֶטְרוֹגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיטְרוֹגָא"
+		}
+	],
+	"page": {
+		"number": 43,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A03448\"><he>אֶתְרוֹגָא</he></cite>) <i>orange</i> (tree, a. fruit). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:3\">Targ. Cant. II, 3</cite> (h. text <he>תפוח</he>, some ed. <cite ref=\"A01651\"><he>אֶתְ׳</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:13\">Y. Ab. Zar. II, 41ᵃ</cite> bot."
+			]
+		}
+	]
+}

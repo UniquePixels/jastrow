@@ -1,0 +1,50 @@
+{
+	"id": "P00631",
+	"slug": "עיסוריתא",
+	"headword": {
+		"text": "עִיסּוּרְיָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיסֻּרְ׳"
+		},
+		{
+			"text": "עִישּׂוֹרְ׳"
+		}
+	],
+	"page": {
+		"number": 1073,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"P01058\"><he>עֲסַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>divisions of ten</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 1:15\">Targ. O. Deut. I, 15</cite>; <cite ref=\"Exodus 18:21\">Ex. XVIII, 21</cite> ed. Berl. (oth. ed. a. Y. <he>עִישּׂוֹ׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>arrangement of tenth portions in succession</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 39b:16\">Ned. 39ᵇ</cite> <he>כעיש׳ דבי רבי</he> like the arrangement in the house of Rabbi (that the first daughter gets one-tenth of the estate, the second one-tenth of the remainder and so on)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (of coins) <i>decades, groups of tens</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 64a\">B. Mets. 64ᵃ</cite> top <he>בע׳ וחומשייתא</he> (a reasonable mistake is) a mistake in decades or in fives (where you count by tens or fives)."
+			],
+			"label": "3"
+		}
+	]
+}

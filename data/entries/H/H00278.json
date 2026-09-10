@@ -1,0 +1,25 @@
+{
+	"id": "H00278",
+	"slug": "חוורן",
+	"headword": {
+		"text": "חַוְורָן"
+	},
+	"page": {
+		"number": 430,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.(b. h. <cite ref=\"H00474\"><he>חַוְרָן</he></cite>, v. Wetzst. to Delitzsch Job p. 597, cmp. <cite ref=\"H01770\"><he>חָרַר</he></cite>) <i>Havran, Auran</i>, a signal station, for proclaiming the New-Moon, in the country east of the Jordan named Auranitis. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 2:4\">R. Hash. II, 4</cite> (<cite ref=\"Rosh Hashanah 22b\">22ᵇ</cite>) (Mish. Pes. <cite ref=\"H00464\"><he>חורון</he></cite>, Mish. Nap. <cite ref=\"H00119\"><he>חברון</he></cite>; Ms. O. <cite ref=\"H00464\"><he>חורון</he></cite>); Tosef. ib. II (I), 2 (Var. <cite ref=\"H00474\"><he>חַוְרָן</he></cite>).—(<cite ref=\"B01154\"><he>בְּרַת</he></cite>) <cite ref=\"H00464\"><he>בֵּית ח׳</he></cite> <i>Beth-</i> (<i>Brath-</i>) <i>Havran</i>, prob. the same place. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:1:14\">Y. Shek. I, 46ᵃ</cite>; <cite ref=\"Jerusalem Talmud Moed Katan 1:2:8\">Y. M. Kat. I, 80ᵇ</cite> bot., a. e. <he>ר׳ חונייה דב׳ ח׳</he>; Bab. ",
+				"<cite ref=\"Moed Katan 3b:11\">M. Kat. 3ᵇ</cite> <he>ר׳ נחוניא איש בקעת בית חֲוַרְתָּן</he> (Ms. M. <he>בקעת חוו׳</he>); <cite ref=\"Sukkah 34a\">Succ. 34ᵃ</cite> Ms. M. (missing in ed.). ",
+				"<cite ref=\"Eruvin 11a:13\">Erub. 11ᵃ</cite> <he>בקעת בית חורתן</he> Ms. M. (ed. <he>חרוותן</he>)."
+			]
+		}
+	]
+}

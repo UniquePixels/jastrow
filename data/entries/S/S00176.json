@@ -1,0 +1,35 @@
+{
+	"id": "S00176",
+	"slug": "קדרה",
+	"headword": {
+		"text": "קְדֵרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְדֵירָה"
+		}
+	],
+	"page": {
+		"number": 1318,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. h. <cite ref=\"S00175\">same</cite>, <i>pot, contents of the pot, dish</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 8:3\">Ḥull. VIII, 3</cite> <he>אם יש … באותה ק׳</he> if there is enough milk to give a taste to the entire contents of the pot. ",
+				"<cite ref=\"Avodah Zarah 67b:7\">Ab. Zar. 67ᵇ</cite>, a. fr. <he>ק׳ בת יומא</he>, v. <cite ref=\"J00195\"><he>יוֹמָא</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 1:12\">Ex. R. s. 1</cite>; <cite ref=\"Sotah 11a:11\">Sot. 11ᵃ</cite> (ref. to <cite ref=\"Exodus 18:11\">Ex. XVIII, 11</cite>) <he>בק׳ שבישלו</he>, v. <cite ref=\"B01359\"><he>בָּשַׁל</he></cite>. ",
+				"<cite ref=\"Exodus 18:11\">Ib.</cite> <he>מאי משמע דהאי זדו לישנא דק׳ הוא</he> what is your evidence that this <i>zadu</i> (Ex. l. c.) has the meaning of cooking in the pot? <cite ref=\"Pesachim 112a:14\">Pes. 112ᵃ</cite> <he>לא תבשל בק׳ וכ׳</he> cook not in a pot which thy neighbor has used, i.e. marry not a divorced woman. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:1:2\">Y. Snh. VIII, beg. 26ᵃ</cite> <he>בשל … השחירה הקדרה וכ׳</he> when the semen within begins to boil, the pot blackens without (the hair grows); a. fr.—Trnsf. <i>skull</i>. ",
+				"<cite ref=\"Chullin 45a:15\">Ḥull. 45ᵃ</cite> <he>כל מה שבק׳</he>, v. <cite ref=\"M00453\"><he>מוֹחַ</he></cite>. ",
+				"<cite ref=\"Chullin 45a:15\">Ib.</cite>, sq. <he>כמין שני … על פי הק׳</he> two bean-like glands lie at the mouth of the skull (at the end of the cerebellum).—Pl. <cite ref=\"S00185\"><he>קְדֵרוֹת</he></cite>, <cite ref=\"S00131\"><he>קְדֵי׳</he></cite>. ",
+				"<cite ref=\"Pesachim 30a:4\">Pes. 30ᵃ</cite>; <cite ref=\"Zevachim 95b:12\">Zeb. 95ᵇ</cite> <he>ק׳ בפסח ישברו</he> earthen pots in which leavened matter has been cooked on Passover, must be broken. ",
+				"<cite ref=\"Bamidbar Rabbah 16:1\">Num. R. s. 16</cite>, a. e., v. <cite ref=\"S00173\"><he>קַדָּר</he></cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "B01210",
+	"slug": "ברוריא",
+	"headword": {
+		"text": "בְּרוּרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרוּרְיָה"
+		}
+	],
+	"page": {
+		"number": 191,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>B’ruryah</i>, daughter of R. Ḥanania b. T’radjon and wife of R. Meïr, reputed as a learned woman. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 18a:14\">Ab. Zar. 18ᵃ</cite>. ",
+				"<cite ref=\"Avodah Zarah 18b\">Ib. 18ᵇ</cite> <he>משום מעשה ב׳</he> Ms. M. (ed. <he>ממ׳ דב׳</he>) (R. Meïr left for Babylon) in consequence of what occurred to B. (who defied her husband’s opinion regarding woman’s weakness and came very near being ensnared by a plot laid against her chastity; v. Rashi a. l.). ",
+				"<cite ref=\"Tosefta Keilim Metsia 1:6\">Tosef. Kel. B. Mets. I, 6</cite>."
+			]
+		}
+	]
+}

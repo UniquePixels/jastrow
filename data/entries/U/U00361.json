@@ -1,0 +1,39 @@
+{
+	"id": "U00361",
+	"slug": "שוח-2",
+	"headword": {
+		"text": "שׁוּחַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1530,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to bend, sink</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 27a:4\">Ḥull. 27ᵃ</cite> <he>ממקום ששָׁח וכ׳</he>, v. <cite ref=\"H00582\"><he>חָטָא</he> I</cite>. ",
+				"<cite ref=\"Chullin 27a:5\">Ib.</cite> <he>שח … והוא שח ועומד הוא</he> ‘where it bends’ implies (that the limb which is to be cut) must be erect (when in its natural condition), but this (the tail) is always hanging down. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:2:4\">Y. Taan. II, 65ᶜ</cite> top <he>צריך לָשׁוּחַ בכולן</he> (or <he>לָשׁוֹחַ</he> fr. <cite ref=\"U00634\"><he>שחח</he></cite>) he must bend down with all of them (the eighteen vertebræ). ",
+				"<cite ref=\"Berakhot 34a:14\">Ber. 34ᵃ</cite>, v. <cite ref=\"U00613\"><he>שָׁחָה</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 5:21\">Ab. V, 21</cite> <he>בן תשעים לָשׁוּחַ</he> at ninety years (is the time) for being bent (perh. meant as noun <he>לַשּׁוּחַ</he>). ",
+				"<cite ref=\"Midrash Tehillim 48:2\">Midr. Till. to Ps. XLVIII</cite> <he>לבו שח עליו</he> his heart within him is bent (in grief over his sin); <cite ref=\"Yalkut Shimoni on Nach 755\">Yalk. ib. 755</cite> <he>סח</he> (corr. acc.); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתּוֹחֵחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be bent down, depressed</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 42:4\">Midr. Till. to Ps. XLII</cite> <he>אני מתקנאה ומִשְׁתּוֹחַחַת וכ׳</he> I am jealous and desperate, when I see the happiness of the nations &c."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"id": "A00172",
+	"slug": "אבן-1",
+	"headword": {
+		"text": "אֶבֶן"
+	},
+	"page": {
+		"number": 7,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h., √<cite ref=\"A00013\"><he>אב</he></cite>, comp. <cite ref=\"A00199\"><he>אבר</he></cite> , v. Ges. H. Dict. s. v.) <i>stone</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 10a:8\">Sabb. 10ᵃ</cite>; <cite ref=\"Pesachim 12b:5\">Pes. 12ᵇ</cite> <he>כזורק א׳ וכ׳</he> like throwing a stone into a leather bottle (has no effect, or is indigestible). ",
+				"<cite ref=\"Bamidbar Rabbah 22:9\">Num. R. s. 22</cite> (prov.) into a well out of which you drank <he>אל תזרוק בו א׳</he> cast no stone.—א׳ טובה <i>jewel</i>. ",
+				"<cite ref=\"Bava Batra 16b:12\">B. Bath. 16ᵇ</cite>; a. fr. Pl. <he>אֲבָנִים</he>, const. <cite ref=\"A00434\"><he>אַבְנֵי</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 68:14\">Gen. R. s. 68</cite> <he>שנים עשרה א׳</he>. ",
+				"<cite ref=\"Bereishit Rabbah 68:14\">Ib.</cite> <he>אם מתאחות הן שלשה א׳</he> (read <cite ref=\"U01387\"><he>שלש</he></cite>) if these three stones shall grow into one; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בית א׳"],
+			"senses": [
+				{
+					"gloss": "<i>Stone Chamber</i>, name of a Temple compartment. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 3:1\">Parah III, 1</cite>.—<he>א׳ גליון</he>, v. <cite ref=\"A00716\"><he>אָוֶן</he></cite>.—<he>א׳ הטועים</he> (<he>א׳ טועין</he>, <he>א׳ טוען</he>, v. <cite ref=\"I00594\"><he>טָעָה</he></cite>) <i>Stone of Losers</i> (Claims), a place in Jerusalem where lost and found things were deposited and claimed. ",
+						"<cite ref=\"Mishnah Taanit 3:8\">Taan. III, 8</cite>; Y. ib. 66ᵈ bot.; B. Mets. 28ᵇ—<he>א׳ המבר</he> or <he>א׳ המקח</he> <i>auction place</i> (for slaves). ",
+						"<cite ref=\"Sifrei Devarim 26:10\">Sifré Deut. 26</cite>. Sifra B’har ch. VII, s. 6. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 667:7\">Yalk. Lev. 667</cite> <he>א׳ הלקח</he>.—<he>א׳ מסמא</he> a stone used for closing a pit etc. ",
+						"<cite ref=\"Niddah 69b:37\">Nidd. 69ᵇ</cite> <he>בא׳ מ׳</he> the corpse was put on a closing (immovable) stone; a. e.—קבועה א׳ <i>a stone rooted in the ground</i>, opp. <he>תלושה</he>. Y. Sotah IX, 23ᶜ top.—<he>אבני השדה</he> v. <cite ref=\"A00435\"><he>אדני</he></cite>.—שׁוֹאֶבֶת א׳ <i>magnetic stone, load-stone</i>. ",
+						"<cite ref=\"Sanhedrin 107b:16\">Snh. 107ᵇ</cite>; a. e.—א׳ הַשָּׁעוֹת <i>stone-dial</i>, <cite ref=\"Mishnah Kelim 12:4\">Kel. XII, 4</cite>; a. e.—א׳ שְׁתִיָּה <i>foundation stone</i>, stone Sh’thiya which in the second Temple occupied the place of the Holy Arc. ",
+						"<cite ref=\"Mishnah Yoma 5:2\">Yoma V, 2</cite> (<cite ref=\"Mishnah Yoma 5:3\">3</cite>); v. ",
+						"<cite ref=\"Mishnah Yoma 5:3\">Ib.</cite> a. l.—אבנים תּוֹשָׁבוֹת <i>immigrant stones</i>, i.e. stones brought over from another ground. ",
+						"<cite ref=\"Tosefta Shevi'it 3:4\">Tosef. Shebi. III, 4</cite>; cmp. ",
+						"<cite ref=\"Mishnah Sheviit 3:7\">Shebi. III, 7</cite> a. Y. ",
+						"<cite ref=\"Mishnah Sheviit 3:7\">Ib.</cite> a. l.—<he>א׳ תלושה</he> v. sup. <he>א׳ קבועה</he>.—א׳ תקומה <i>preserving stone</i>, a stone believed to protect against abortion. ",
+						"<cite ref=\"Shabbat 66b:7\">Sabb. 66ᵇ</cite>.—[For other combinations see respective determinants.]"
+					]
+				}
+			],
+			"stem": "Compounds and combinations: ."
+		}
+	]
+}

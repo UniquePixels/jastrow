@@ -1,0 +1,32 @@
+{
+	"id": "I00485",
+	"slug": "טלח",
+	"headword": {
+		"text": "טְלַח",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 536,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"I00744\"><he>אַטְלַח</he></cite> (= <cite ref=\"I00519\"><he>טלע</he></cite>) <i>to halt</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 32:32\">Targ. Y. Gen. XXXII, 32</cite> (some ed. <he>אטלע</he>). [<cite ref=\"Targum Jonathan on Genesis 37:2\">Targ. Y. ib. XXXVII, 2</cite>, v. <cite ref=\"I00475\"><he>טָלֵה</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

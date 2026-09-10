@@ -1,0 +1,27 @@
+{
+	"id": "O01206",
+	"slug": "סנוקרת",
+	"headword": {
+		"text": "סִנּוֹקֶרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִינּ׳"
+		}
+	],
+	"page": {
+		"number": 1006,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סָקַר</he> II, with anorg. <cite ref=\"N00001\"><he>נ</he></cite>) [<i>reddening</i>,] <i>a severe or insulting blow in the face</i> (<i>with the fist</i>; oth. opin.: <i>with the back of the hand</i>; Rashi: <i>with the saddle of an ass</i>). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 27b\">B. Kam. 27ᵇ</cite> (Ms. M. <cite ref=\"O00733\"><he>סִינּוֹקְרִית</he></cite>; Ms. F. <he>סיניקרת</he>; ed. Sonc. <he>סטקרת</he>, corr. acc.; v. Rabb. D. S. a. l. note); Y. ib. VIII, end, 6ᶜ <cite ref=\"O01488\"><he>סקלונקית</he></cite>."
+			]
+		}
+	]
+}

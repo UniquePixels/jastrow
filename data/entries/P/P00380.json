@@ -1,0 +1,27 @@
+{
+	"id": "P00380",
+	"slug": "עותיק",
+	"headword": {
+		"text": "עוּתֵּיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּתִּק"
+		}
+	],
+	"page": {
+		"number": 1060,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P01532\"><he>עַתִּיק</he></cite>) <i>old</i> (<i>wine</i>); <he>שתי ע׳</he> drank old wine, i.e. has clear eye-sight. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Niddah 2:7:6\">Y. Nidd. II, end, 50ᵇ</cite> <he>ר״ה שתי ע׳</he> R. Ḥ. is an expert in examining colors; <he>ר״י לא שתי ע׳</he> is R. J. no expert? <he>ר״ה שתי ע׳ דע׳</he> R. Ḥ. is a great expert."
+			]
+		}
+	]
+}

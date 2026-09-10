@@ -1,0 +1,28 @@
+{
+	"id": "L00316",
+	"slug": "לוקוס",
+	"headword": {
+		"text": "לוּקוֹס"
+	},
+	"page": {
+		"number": 701,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (λύκος) <i>wolf</i>, an opprobious epithet of the altar. ",
+			"units": [
+				"<cite ref=\"Sukkah 56b:5\">Succ. 56ᵇ</cite>; <cite ref=\"Tosefta Sukkah 4:28\">Tosef. ib. IV, 28</cite> <cite ref=\"L00321\"><he>לוקיס</he></cite> ed. Zuck. (corr. acc.); Y. ib. V, end, 55ᵈ"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m. <cite ref=\"L00316\"><he>לוקוס</he></cite>, <cite ref=\"L00321\"><he>לוקיס</he></cite>, <cite ref=\"L00320\"><he>לוקין</he></cite> read <he>לוּקְיוֹס</he> <i>Lucius</i>, v. <cite ref=\"C00663\"><he>גַּיּוּס</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

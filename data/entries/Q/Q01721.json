@@ -1,0 +1,23 @@
+{
+	"id": "Q01721",
+	"slug": "פרוע-1",
+	"headword": {
+		"text": "פֵּרוּעַ"
+	},
+	"page": {
+		"number": 1221,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01943\"><he>פָּרַע</he></cite>) <i>uncovering</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 72a:19\">Keth. 72ᵃ</cite> bot. (ref. to <cite ref=\"Numbers 5:18\">Num. V, 18</cite>) <he>אזהרה … שלא יצאו בפ׳ ראש</he> this implies a warning for the daughters of Israel not to go out bareheaded. Ib.ᵇ <he>אין בו משום פ׳ ראש</he> is does not come under the category of bareheadedness. ",
+				"<cite ref=\"Berakhot 62a:10-14\">Ber. 62ᵃ</cite> <he>כל זמן … את פֵּרוּעוֹ</he> so that his neighbor may not see him uncover himself."
+			]
+		}
+	]
+}

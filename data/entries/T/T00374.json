@@ -1,0 +1,88 @@
+{
+	"id": "T00374",
+	"slug": "רום-1",
+	"headword": {
+		"text": "רוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִים"
+		}
+	],
+	"page": {
+		"number": 1460,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to swing</i>,] <i>to be high, lifted up; to rise</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 24b\">Ab. Zar. 24ᵇ</cite> <he>רוֹמִי רומי השיטה</he> Ar. (ed. <he>רוני</he>) rise, rise, acacia (holy ark)!; <cite ref=\"Bereishit Rabbah 54:6\">Gen. R. s. 54</cite> <he>רומי השטה</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הרִים"],
+			"senses": [
+				{
+					"gloss": "<i>to lift up, raise</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> (ref. to <cite ref=\"Psalms 75:8\">Ps. LXXV, 8</cite>) <he>ישפיל … ויָרִים לכרש וכ׳</he> he shall lower Belshazzar, and lift up Cyrus and Darius; <cite ref=\"Yalkut Shimoni on Nach 812:1\">Yalk. Ps. 812</cite> <he>אני הוא משפיל ומֵרִים</he> I lower and raise; <he>מלכות … מרים</he> he lays low one empire and raises another empire &c.; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to take off, remove</i>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah 2:24\">Ruth R. to I, 17</cite> (ref. to <cite ref=\"Ezekiel 21:31\">Ez. XXI, 31</cite>) <he>הסר … והָרִים העטרה וכ׳</he> remove the bonnet from our teachers, and take the crown off the nations; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּרָם"],
+			"senses": [
+				{
+					"gloss": "<i>to be taken off</i>, esp. <i>to be separated as an offering, priest’s share</i> &c.; <i>to be consecrated</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Challah 2:8\">Ḥall. II, 8</cite> <he>שלא הוּרְמָה חלתה</he> (not <cite ref=\"T00374\"><he>הורם</he></cite>), v. <cite ref=\"H00988\"><he>חַלָּה</he></cite>. ",
+						"<cite ref=\"Sifrei Bamidbar 110:1\">Sifré Num. 110</cite> (ref. to <cite ref=\"Numbers 4:20\">Num. IV, 20</cite>) <he>את שמוּרָם קודש וכ׳</he> that which is separated is to be sacred, and the remainder secular, but (no Ḥallah is to be taken,) when both would be sacred. ",
+						"<cite ref=\"Mishnah Zevachim 5:6\">Zeb. V, 6</cite> <he>המורם מהם וכ׳</he> the same rules apply to what is taken off them for the priest; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["רוֹמֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to lift up, elevate</i>. Tanḥ. Matt. 6; <cite ref=\"Bamidbar Rabbah 22:9\">Num. R. s. 22</cite>, end (ref. to <cite ref=\"Numbers 31:9\">Num. XXXI, 9</cite> and XXXII, 1) <he>הא שהשפיל … ור׳ וכ׳</he> here you see that the Lord lowered the Midianites, and raised the Israelites. Ib. (ref. to <cite ref=\"I Samuel 2:7\">I Sam. II, 7</cite>) <he>אף … מְרוֹמֵם את זה</he> in the anger which he brings to bear on one, he raises the other. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> (ref. to <cite ref=\"Psalms 75:8\">Ps. LXXV, 8</cite>) <he>משפיל לכל … ומרומם וכ׳</he> he lowered every one that had part in the worship of the golden calf, and elevated every one that had no part &c. ",
+						"<cite ref=\"Psalms 75:8\">Ib.</cite> <he>ועכשיו … אף כך רוֹמֵם ראשם</he> and now that thou hast lifted up my head, lift thou up their head likewise; <he>לך ר׳ ראשם</he> go and lift up their heads (announce to them the divine pardon). ",
+						"<cite ref=\"Psalms 75:8\">Ib.</cite> (ref. to <cite ref=\"Exodus 30:12\">Ex. XXX, 12</cite>) <he>כל מה שאתה יכול לרוֹמֵם … רוֹמְמָהּ שבאילו לי אתה מְרוֹמֵם</he> (not <he>רומם</he>) in whatever way thou canst elevate that nation elevate it, for by this thou elevatest me. ",
+						"<cite ref=\"Shemot Rabbah 25:12\">Ex. R. s. 25</cite> <he>ורִימְּמָן הקב״ה וכ׳</he> (fr. <cite ref=\"T00826\"><he>רָמַם</he></cite>) and the Lord raised them above all; a. fr."
+					]
+				}
+			],
+			"stem": "Polel."
+		},
+		{
+			"forms": ["הִתְרוֹמֵם"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpol</i>. <he>נִתְרוֹמֵם</he> <i>to be lifted up; to pride one’s self</i>. Y. Ber. IX, 14ᵃ top <he>יתגדל … ויתברך ויִתְרוֹמַם שמך וכ׳</he> thy Name be magnified … and blessed and lifted up (praised) for &c.; Y. Taan. I, 64ᵃ top; <cite ref=\"Bereishit Rabbah 13:15\">Gen. R. s. 13</cite>. ",
+					"units": [
+						"<cite ref=\"Megillah 17b:18\">Meg. 17ᵇ</cite> <he>כיון … מִתְרוֹמֶמֶת קרן וכ׳</he> when the transgressors cease to exist, the horn of the righteous will be uplifted. ",
+						"<cite ref=\"Bamidbar Rabbah 22:9\">Num. R. s. 22</cite>; Tanḥ. Matt. 6, a. e. <he>אין אדם מִתְרוֹמֵם</he>, v. <cite ref=\"T00394\"><he>רוֹמֵמוּת</he></cite>. Tanḥ. Mick. 3 <he>ונִתְרוֹמְמוּ</he> and they were raised (to power); a. e.—[<cite ref=\"Yalkut Shimoni on Torah 79:3\">Yalk. Gen. 79</cite> <he>מתרוממות</he>, read: <he>מְתַמְּרִין</he>, v. <cite ref=\"V00703\"><he>תָּמַר</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

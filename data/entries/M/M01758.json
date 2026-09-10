@@ -1,0 +1,32 @@
+{
+	"id": "M01758",
+	"slug": "מנח",
+	"headword": {
+		"text": "מְנָח"
+	},
+	"page": {
+		"number": 799,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"M01740\"><he>מָנוֹחַ</he></cite><i>rest, relief</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 8:9\">Targ. O. Gen. VIII, 9</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:65\">Targ. Deut. XXVIII, 65</cite> (Y. some ed. <cite ref=\"M01758\"><he>מַנַּח</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 116:7\">Targ. Ps. CXVI, 7</cite> <he>מְנֻחָיְכִי</he> (Ms. <he>ניח׳</he>, Regia <he>נוח׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>going to rest, decline</i> (v. <cite ref=\"M01759\">next w.</cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:8\">Targ. Gen. III, 8</cite> <he>מְנַח יומא</he> (h. text <cite ref=\"T00615\"><he>רוּחַ</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

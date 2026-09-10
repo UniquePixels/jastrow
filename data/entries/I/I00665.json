@@ -1,0 +1,43 @@
+{
+	"id": "I00665",
+	"slug": "טפלה",
+	"headword": {
+		"text": "טְפֵלָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְפֵי׳"
+		}
+	],
+	"page": {
+		"number": 548,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00660\"><he>טָפַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>paste, plaster</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 5:7\">Kel. V, 7</cite> <he>גורר את הט׳</he> scrapes the plastering off. ",
+				"<cite ref=\"Mishnah Kelim 5:8\">Ib. 8</cite>; <cite ref=\"Mishnah Kelim 5:11\">11</cite>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 4:18\">Tosef. Kel. B. Kam. IV, 18</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>attachment, dependence</i>, opp. <he>עיקר</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 6:7\">Ber. VI, 7</cite> <he>כל שהוא עיקר ועמו ט׳</he> whatever food is the chief dish and something is offered to be eaten with it.—Tanḥ. Ki Thissa 27; <cite ref=\"Shemot Rabbah 45:6\">Ex. R. s. 45</cite>, end, v. <cite ref=\"A03444\"><he>אָתַר</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:16\">Y. M. Kat. III, 82ᶜ</cite> bot. <he>ט׳ לט׳</he> (not <he>בט׳</he>) distant relations, grand-children.—Pl. <he>טְפֵילוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:16\">Y. Meg. I, 71ᵈ</cite> bot. <he>טְפֵילוֹתֵיהֶם</he> their affixes (prefixes and suffixes)."
+			],
+			"label": "2"
+		}
+	]
+}

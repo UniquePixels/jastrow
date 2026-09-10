@@ -1,0 +1,75 @@
+{
+	"id": "I00107",
+	"slug": "טוב-1",
+	"headword": {
+		"text": "טוֹב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 521,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be good, fit, handsome, valuable</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵטִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to prepare, outfit, dress, adorn</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 26:5\">Gen. R. s. 26</cite>, v. <cite ref=\"I00093\"><he>טַבָּת</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 83\">Gen. R. s. 83</cite> (play on <he>מהיטבאל</he>, <cite ref=\"Genesis 36:39\">Gen. XXXVI, 39</cite>) <he>מְטִיבֵי אלוהות היו</he> they were dressers of idols; <he>שהיו מֵטִיבִין עצמן וכ׳</he> they adorned themselves in honor of the idols. ",
+						"<cite ref=\"Genesis 36:39\">Ib.</cite> <he>מטיבי נשים וכ׳</he> they dressed women for their wedding; a. e.—Esp. (<he>את הנרות</he>) <cite ref=\"E00001\"><he>ה׳</he></cite> <i>to trim, cleanse the lamps</i>. ",
+						"<cite ref=\"Mishnah Yoma 3:4\">Yoma III, 4</cite> <he>ולהֵטֵיב</he>. ",
+						"<cite ref=\"Mishnah Yoma 1:2\">Ib. I, 2</cite>. ",
+						"<cite ref=\"Yoma 14b:8\">Ib. 14ᵇ</cite> <he>יֵיטִיב</he>; a. fr.—V. <cite ref=\"E00310\"><he>הֲטָבָה</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to turn a dream unto good</i> (saying, ‘I have dreamt a good dream’). ",
+					"units": [
+						"<cite ref=\"Berakhot 55b:4\">Ber. 55ᵇ</cite> <he>יְטִיבֶנּוּ בפני וכ׳</he> he shall turn it in the presence of three persons, and say &c."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to do good, be beneficent</i>. Ib. IX, 2 <he>הטוב והמטיב</he> who is good and beneficent. ",
+					"units": [
+						"<cite ref=\"Taanit 31a:2\">Taan. 31ᵃ</cite> <he>תקנו … הטוב והמ׳</he> they introduced in Jabneh the benediction ‘who is good &c.’ (in the grace after meal).—",
+						"<cite ref=\"Mishnah Kiddushin 1:10\">Kidd. I, 10</cite> <he>מטיבין לו</he> good will be done to him; a. fr.—<i>Part. Hof</i>. <cite ref=\"M00461\"><he>מוּטָב</he></cite>, q. v."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["טִיֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to improve a field, to till oftener than usual</i>. Y. Shebi. IV, 35ᵇ top <he>טִיְּיבָהּ וכ׳</he> if, after he improved a field, he died &c.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִיטַּיֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be improved</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:2\">Shebi. IV, 2</cite>; <cite ref=\"Tosefta Shevi'it 3:10\">Tosef. ib. III, 10</cite>; a. e.—Denom. <cite ref=\"I00338\"><he>טִיּיוּב</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

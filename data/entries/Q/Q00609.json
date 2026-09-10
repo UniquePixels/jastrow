@@ -1,0 +1,24 @@
+{
+	"id": "Q00609",
+	"slug": "פיזור",
+	"headword": {
+		"text": "פִּיזּוּר"
+	},
+	"page": {
+		"number": 1160,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00434\"><he>פָּזַר</he></cite>) <i>scattering, dispersion</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tevul Yom 2:3\">T’bul Yom II, 3</cite> <he>מפני שהוא רוצה בפִיזּוּרוֹ</he> because the scattering (of the garlic in the mortar) is welcome to him. ",
+				"<cite ref=\"Shabbat 16b:8\">Sabb. 16ᵇ</cite> <he>בשעת פ׳ עבים</he> when the clouds were dispersing. Sifra M’tsorʿa, Par. 2, ch. II (<cite ref=\"M02395\"><he>מקום</he></cite>) <he>פ׳ שיער</he> isolated hairs. ",
+				"<cite ref=\"Mishnah Sanhedrin 8:5\">Snh. VIII, 5</cite> <he>פ׳ לרשעים וכ׳</he> dispersion (separation) of the wicked is a profit to them and to the world; a. e."
+			]
+		}
+	]
+}

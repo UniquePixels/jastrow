@@ -1,0 +1,27 @@
+{
+	"id": "O00791",
+	"slug": "סיפור",
+	"headword": {
+		"text": "סִיפּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִפּ׳"
+		}
+	],
+	"page": {
+		"number": 985,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סָפַר</he> <i>Pi.</i>) <i>narration</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite> <he>ס׳ הוא מספר</he> the text (<cite ref=\"Nehemiah 9:7\">Neh. IX, 7</cite>) mentions a fact.—[<cite ref=\"Mishnah Nazir 7:3\">Naz. VII, 3</cite> <he>ספורו</he> Y. ed., v. <cite ref=\"O01421\"><he>סָפֵר</he></cite>.]"
+			]
+		}
+	]
+}

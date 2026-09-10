@@ -1,0 +1,77 @@
+{
+	"id": "J00746",
+	"slug": "יתר-1",
+	"headword": {
+		"text": "יָתַר"
+	},
+	"page": {
+		"number": 604,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>אשר</he>, <he>עתר</he>) [<i>to be strong;</i> denom. <cite ref=\"J00749\"><he>יֶתֶר</he></cite> <i>cord</i>, v. <cite ref=\"J00752\"><he>יִתְרָא</he> I</cite>,] <i>to be rich, plentiful</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נוֹתָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be left over</i>.—Part. <cite ref=\"N00424\"><he>נוֹתָר</he></cite> m. <i>portions of sacrifices left over beyond the legal time and bound to be burnt</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Keritot 3:4\">Kerith. III, 4</cite> <he>והיה נ׳ מן וכ׳</he> and it was an overdue remnant of sacrifices. ",
+						"<cite ref=\"Mishnah Keritot 1:1\">Ib. I, 1</cite> <he>דם נ׳</he> blood of overdue sacrifices. ",
+						"<cite ref=\"Mishnah Meilah 1:3\">Meïl. I, 3</cite>, a. fr. <he>משום נ׳</he> as coming under the law of <i>nothar</i>; a. v. fr.—Pl. <he>נוֹתָרִים</he>, <he>נוֹתָרוֹת</he>. Sifré Aḥăré Par. 5, ch. VII.—",
+						"<cite ref=\"Shir HaShirim Rabbah 5:14:2\">Cant. R. to V, 14</cite> <he>כמה נ׳</he> how many laws about <i>nothar</i>. ",
+						"<cite ref=\"Bamidbar Rabbah 11:3\">Num. R. s. 11</cite> <he>שלא לפסול … בנ׳</he> not to unfit any of the sacrifices by allowing them to become overdue."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוֹתִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to leave over; to go beyond; to be more</i>. Mekh. Bo s. 6 <he>אם ה׳</he> if he left a part of the Passover lamb over until morning. Sifra Tsav, Par. 7, ch. XII <he>אם ה׳ ה׳</he> if he has left over, he has left over (and it may be eaten). Ib. <he>אם הוֹתִירוּ כולו</he> if they left the whole of it over (for the second day); a. fr.—",
+					"units": [
+						"<cite ref=\"Berakhot 34b:27\">Ber. 34ᵇ</cite> <he>לא חסרתם ולא הוֹתַרְתֶּם</he> you stated the time neither too early nor too late. ",
+						"<cite ref=\"Mishnah Bava Batra 7:2\">B. Bath. VII, 2</cite> <he>ה׳ כל שהוא</he> if it was somewhat more (than the stated measure).—b) <cite ref=\"N01392\"><he>הִתִּיר</he></cite> (cmp. <cite ref=\"J00547\"><he>הִצִּיק</he></cite> fr. <cite ref=\"J00547\"><he>יָצַק</he></cite>), v. infra."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["יִיתֵּר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"J00748\"><he>יָתֵר</he></cite>) <i>to add; to do too much</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 13a:9\">Erub. 13ᵃ</cite> <he>שמא אתה … מְיַיתֵּר</he> for if thou omit one letter or write one too many; <cite ref=\"Sotah 20a:9\">Sot. 20ᵃ</cite> <he>תַּתִּיר</he> <i>Hif.</i> (v. supra). ",
+						"<cite ref=\"Shemot Rabbah 27:8\">Ex. R. s. 27</cite>; Tanḥ. Yithro 4 his name was Jether (Jethro) <he>שֶׁיִּ׳ פרשה וכ׳</he> because he gave rise to an additional chapter (about judges) in the Law; Mekh. ",
+						"<cite ref=\"Shemot Rabbah 27:8\">ib.</cite>, Amalek, s. 1 <he>שהוֹתִיר</he>.—Ib. <he>שיי׳ במעשים טובים</he> because he did more (than ordinary men, was liberal in) good deeds. [Y. Keth. IV, end, 29ᵇ <he>וייתר</he>, v. <cite ref=\"J00746\"><he>יָתַר</he></cite>.]—<i>Part. pass.</i> <he>מְיוּתָּר</he>, <i>pl.</i> <he>מְיוּתָּרִין</he> <i>added, superfluous</i>. ",
+						"<cite ref=\"Kohelet Rabbah 5:8:2\">Koh. R. to V, 8</cite> (ref. to <cite ref=\"F00056\"><he>ויתרון</he></cite>, <cite ref=\"Kohelet Rabbah 5:8:2\">ib.</cite>) <he>דברים שתראה</he> (<cite ref=\"U00489\"><he>ש</he></cite>)<he>הן מי׳ לתורה</he> (not <he>בתורה</he>) things which thou wouldst regard as additions to the Law. ",
+						"<cite ref=\"Kohelet Rabbah 5:8\">Ib.</cite> <he>אפי׳ דברים … מי׳ בעולם</he> even things in nature which thou wouldst believe to be superfluous (useless); <cite ref=\"Shemot Rabbah 10\">Ex. R. s. 10</cite>; (<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite> <cite ref=\"J00740\"><he>יְתֵירָה</he></cite>); a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתּוֹתַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be left over</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 46a:2\">Yoma 46ᵃ</cite> <he>איברי עולה שנִתּוֹתְרוּ</he> parts of a burnt-offering which remained over (failed to be entirely burnt). ",
+						"<cite ref=\"Pesachim 59b:7\">Pes. 59ᵇ</cite> <he>כשנִיתּוֹתְרוּ</he> when they were left over (unoffered)."
+					]
+				}
+			],
+			"stem": "Nittaf."
+		}
+	]
+}

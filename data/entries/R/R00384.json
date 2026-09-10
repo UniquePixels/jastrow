@@ -1,0 +1,45 @@
+{
+	"id": "R00384",
+	"slug": "צין-1",
+	"headword": {
+		"text": "צִיֵּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיֵּין"
+		}
+	],
+	"page": {
+		"number": 1277,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"R00325\"><he>צִיּוּן</he></cite>) <i>to put up a pile, to mark</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 1:1\">Shek. I, 1</cite>; <cite ref=\"Mishnah Moed Katan 1:2\">M. Kat. I, 2</cite> (<cite ref=\"Moed Katan 2a\">2ᵃ</cite>) <he>מְצַיְּינִין על הקברות</he> Y. ed. (Bab. ed. a. Mish. <cite ref=\"G00078\"><he>את</he></cite>; v. Rabb. D. S. a. l. note 2) graves are marked (with lime). Ib. 5ᵇ <he>שדה … קבר וצִיְּינוּהָ</he> (not <he>דצ׳</he>) a field in which a grave was lost, and which they marked. ",
+				"<cite ref=\"Mishnah Maaser Sheni 5:1\">Maas. Sh. V, 1</cite> <he>כרם רבעי מציינין וכ׳</he> a vineyard in the fourth year is marked with clods of earth, … and graves with lime &c. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:1:14\">Y. Shek. I, 46ᵃ</cite> top (ref. to <cite ref=\"Mishnah Moed Katan 1:2\">M. Kat. I, 2</cite>) <he>לא כבר צִיְּינוּ מאדר</he> had they not marked them in Adar? <cite ref=\"Mishnah Moed Katan 1:2\">Ib.</cite> (ref. to <he>ובנה</he>, <cite ref=\"Ezekiel 39:15\">Ez. XXXIX, 15</cite>) <he>מיכן שמציינין ע״ג אבן קבועה</he> from this we learn that the mark is put on a fixed stone; a. fr.—Part. pass. <cite ref=\"M02287\"><he>מְצוּיָּין</he></cite>, <he>מְצוּיָּן</he>; f. <he>מְצוּיֶּינֶת</he>, <he>מְצוּיֶּנ׳</he>; Pl. <he>מְצוּיָּינִים</he>, <he>מְצוּיָּינִין</he>; <he>מְצוּיָּינוֹת</he>, <he>מְצוּיָּנ׳</he>. ",
+				"<cite ref=\"Ezekiel 39:15\">Ib.</cite>; Tosef. ib. I, 5 <he>מצא אבן אחת מצ׳ וכ׳</he> if one found a single stone marked, although this ought not to be done (several stones surrounding the marked spot being required by law) &c.; <cite ref=\"Moed Katan 6a:7\">M. Kat. 6ᵃ</cite>. ",
+				"<cite ref=\"Moed Katan 5b:16\">Ib. 5ᵇ</cite> <he>מצא שדה אחת מצ׳ וכ׳</he> if one found a field marked, and knows not for what purpose; a. fr.—[<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite> <he>מציינין</he>, v. <cite ref=\"R00222\"><he>צָוַץ</he></cite>.]—Trnsf. <i>to distinguish, make prominent, adorn</i>.—Part. pass. as ab. ",
+				"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite>, v. <cite ref=\"Q02165\"><he>פָּתִיל</he></cite>. ",
+				"<cite ref=\"Shabbat 145b:10-13\">Sabb. 145ᵇ</cite> <he>מפני מה … מצ׳</he> why are the scholars in Babylonia distinguished (in their dress)? <cite ref=\"Berakhot 8a:17\">Ber. 8ᵃ</cite> (ref. to <he>שערי ציון</he>, <cite ref=\"Psalms 87:2\">Ps. LXXXVII, 2</cite>) <he>שערים המצ׳ בהלכה</he> gates prominent for learned decisions. ",
+				"<cite ref=\"Sifrei Devarim 43:8\">Sifré Deut. 43</cite> (ref. to <cite ref=\"Jeremiah 31:20\">Jer. XXXI, 20</cite>) <he>היו מצ׳ במצות וכ׳</he> distinguish yourselves by observing (in exile) religious laws (meant for Palestine), so that they be not new to you, when you return; a. fr.—[<cite ref=\"Shir HaShirim Rabbah 6:4\">Cant. R. to VI, 4</cite>; <cite ref=\"Yalkut Shimoni on Torah 713\">Yalk. Num. 713</cite>, read: <he>מְצוּיָּירוֹת</he>, v. <cite ref=\"R00241\"><he>צוּר</he> II</cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצַּיֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to distinguish, adorn one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 19</cite> (ref. to Jer. l. c.) <he>הִצַּיְּינִי במצות וכ׳</he> adorn thyself with the religious observances by which Israel was distinguished (in Palestine), v. supra."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

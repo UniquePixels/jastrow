@@ -1,0 +1,28 @@
+{
+	"id": "N00137",
+	"slug": "נגודא-3",
+	"headword": {
+		"text": "נְגוּדָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "נְגוֹדָא"
+		}
+	],
+	"page": {
+		"number": 873,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00118\"><he>נְגַד</he></cite>, v. <cite ref=\"N00152\"><he>נְגִיד</he> I</cite>) <i>a vessel of beaten metal</i>.—Pl. <he>נְגוּדֵי</he>, <cite ref=\"N00139\"><he>נְגוֹ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:11\">Targ. Prov. XXV, 11</cite> (h. text <he>מַשְׂכִּיּוֹת</he>!)."
+			]
+		}
+	]
+}

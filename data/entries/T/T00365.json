@@ -1,0 +1,43 @@
+{
+	"id": "T00365",
+	"slug": "רוייתא",
+	"headword": {
+		"text": "רַוְיָיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַוְיָתָא"
+		},
+		{
+			"text": "רַוְו׳"
+		}
+	],
+	"page": {
+		"number": 1459,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00364\">preced. art.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>intoxicating drink</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 4:11\">Targ. Hos. IV, 11</cite> (h. text <cite ref=\"V00507\"><he>תירוש</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>intoxication, rage</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:1\">Targ. Esth. II, 1</cite> <he>רַוְויַת</he> constr. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:1\">Targ. Prov. XX, 1</cite> (h. text <he>הֹמֶה</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "K00961",
+	"slug": "כסת",
+	"headword": {
+		"text": "כֶּסֶת"
+	},
+	"page": {
+		"number": 656,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; denom. of <cite ref=\"K00576\"><he>כִּיס</he></cite>)<i>bag, bolster, cushion</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 10:2\">Mikv. X, 2</cite> <he>הכר והכ׳ של עור</he> mattress and pillow cases of leather; <he>כ׳ עגולה</he> a round cushion (closed all around). ",
+				"<cite ref=\"Mishnah Berakhot 8:3\">Ber. VIII, 3</cite>; <cite ref=\"Tosefta Berakhot 6:3\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Berakhot 5:3\">V</cite>), 3 <he>על הכ׳</he> on the cushion (whereon the diner reclines); a. fr.—Pl. <he>כְּסָתוֹת</he>. ",
+				"<cite ref=\"Gittin 56a:8\">Gitt. 56ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Kilayim 9:2\">Kil. IX, 2</cite>; a. fr.—<cite ref=\"K00584\"><he>כִּסִּיּוֹת</he></cite>, <cite ref=\"K00594\"><he>כִּיסִּ׳</he></cite>. ",
+				"<cite ref=\"Tosefta Zavim 4:4\">Tosef. Zab. IV, 4</cite> <he>מוטל על ה׳ כ׳</he> stretched on five (separated) bolsters; <cite ref=\"Mishnah Zavim 4:4\">Zab. IV, 4</cite> (Talm. ed. <he>כסאות</he>, ed. Dehr. <he>כסיות</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (trnsf.) <i>thick flesh</i>.—Pl. <he>כְּסָתוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45a:4\">Bekh. 45ᵃ</cite> <he>כ׳</he> calves. ",
+				"<cite ref=\"Bereishit Rabbah 17:6\">Gen. R. s. 17</cite>; <cite ref=\"Kohelet Rabbah 3:19:1\">Koh. R. to III, 19</cite> <he>לתחתיתו כ׳</he> thick flesh of the ischium; <cite ref=\"Yalkut Shimoni on Nach 969:1\">Yalk. Koh. 969</cite> <cite ref=\"K00911\"><he>כסות</he></cite> (corr. acc.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>הכ׳</he>, <i>Hakkeseth</i>, surname of one Ben Tsitsith. Gitt. l. c. [<cite ref=\"K00961\"><he>כסת</he></cite>, Sifra B’ḥuck. Par. 2, ch. V, v. <cite ref=\"K00913\"><he>כָּסַח</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

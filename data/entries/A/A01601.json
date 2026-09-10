@@ -1,0 +1,31 @@
+{
+	"id": "A01601",
+	"slug": "איקר",
+	"headword": {
+		"text": "אִיקָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיקָרָא"
+		}
+	],
+	"page": {
+		"number": 60,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"J00583\"><he>יְקָר</he></cite>, v. <cite ref=\"A01109\"><he>אִי־</he></cite>) <i>honor, glory</i>.—",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:16\">Targ. Prov. XI, 16</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:27\">Y. Ber. I, 2ᵈ</cite> <he>איקרִי וכ׳</he> my honor counts for nothing before the honor of my Maker. Ib. II, 4ᵇ <he>מה את פליג ליה א׳</he> (not <he>אתפליג</he>) what honor dost thou pay it (by passing by)?; <cite ref=\"Jerusalem Talmud Shekalim 2:5:4\">Y. Shek. II, 47ᵃ</cite> top.—",
+				"<cite ref=\"Jerusalem Talmud Peah 8:8:13\">Y. Peah VIII, 21ᵇ</cite> bot. <he>פרנסה דא׳</he> an honorable livelihood. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 1:8:6\">Y. Ḥag. I, 76ᵈ</cite> top <he>איגרא דא׳</he>, v. <cite ref=\"A01147\"><he>אִיגְּרָא</he></cite>.—Pl. <he>אִיקְרִין</he> <i>presents, greetings</i>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:7\">Y. Ab. Zar. II, 41ᵈ</cite> (some ed. <cite ref=\"A01598\"><he>איקלין</he></cite>)."
+			]
+		}
+	]
+}

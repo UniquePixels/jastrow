@@ -1,0 +1,77 @@
+{
+	"id": "N00464",
+	"slug": "נזר-1",
+	"headword": {
+		"text": "נָזַר"
+	},
+	"page": {
+		"number": 893,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <cite ref=\"G00233\"><he>זור</he></cite>)<i>to surround; to keep off; to set apart</i>. V. <cite ref=\"N00447\"><he>נָזִיר</he></cite>, <cite ref=\"N00466\"><he>נֵזֶר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"N00447\"><he>נָזִיר</he></cite>) <i>to vow to be a Nazarite;to dedicate one’s self to nazariteship</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 3:2\">Naz. III, 2</cite> <he>שנ׳ שתי וכ׳</he> who vows to be a Nazarite for two terms. ",
+				"<cite ref=\"Mishnah Nazir 3:5\">Ib. 5</cite> <he>מי שנ׳ והוא וכ׳</he> if one makes the vow while in a burial ground. ",
+				"<cite ref=\"Nazir 17a:10\">Ib. 17ᵃ</cite> <he>לא תִינְזוֹר</he> thou must not vow (while in a burial ground). ",
+				"<cite ref=\"Mishnah Nazir 1:5\">Ib. I, 5</cite> <he>אחת גדולה נָזַרְתִּי</he> I meant by my vow one nazaritic term which I consider a long one. ",
+				"<cite ref=\"Nedarim 3b:3\">Ned. 3ᵇ</cite> <he>נימא קרא לִיזּוֹר</he> the text (<cite ref=\"Numbers 6:2\">Num. VI, 2</cite>) ought to read <i>lizzor</i> (instead of <i>l’hazzir</i>). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 1:1:3\">Y. Naz. I, beg. 51ᵃ</cite> <he>במתכוין לִיזּוֹר</he> when he intended to vow nazariteship; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזִּיר"],
+			"senses": [
+				{
+					"gloss": " (sub. <he>נפשו</he>) <i>to abstain</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 4a:11\">Ned. 4ᵃ</cite> <he>עד שיַזִּיר מכולן</he> (<cite ref=\"Nazir 3b:10\">Naz. 3ᵇ</cite> <he>שיִדּוֹר</he>) unless he vows abstinence from all of them (mentioned <cite ref=\"Numbers 6:3\">Num. VI, 3</cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to impose the vow of abstinence</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 22:1\">Sifré Num. 22</cite> <he>להַזִּיר אף את אחרים</he> <i>l’hazzir</i> (<cite ref=\"Numbers 6:2\">Num. VI, 2</cite>) includes also the imposition of nazariteship on others (one’s son &c.). ",
+						"<cite ref=\"Numbers 6:2\">Ib.</cite> <he>את עצמו מַזִּיר וכ׳</he> himself he may obligate, but he cannot obligate others; <cite ref=\"Bamidbar Rabbah 10:11\">Num. R. s. 10</cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be a Nazarite</i>. ",
+					"units": [
+						"<cite ref=\"Nazir 19a:1\">Naz. 19ᵃ</cite> <he>אע״פ שלא הביא ה׳</he> even if he did not bring the due sacrifice, he must resume his nazariteship. ",
+						"<cite ref=\"Nazir 19a:1\">Ib.</cite> <he>אימתי ה׳ וכ׳</he> when can he resume &c.? After he brought the sacrifice (<cite ref=\"Numbers 6:12\">Num. VI, 12</cite>)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִזָּר"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"L00000\"><he>ל</he></cite>) <i>to dedicate one’s self to</i>. Sifré l. c. <he>המצוה להִנָּזֵר לשם</he> the merit of nazariteship consists in the dedication of one’s self to the Lord (in the sacred motive).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <cite ref=\"M00000\"><he>מ</he></cite>) <i>to abstain from; to renounce</i>. Ib. 131 <he>הִנָּזֵר מתורתו … והוא נִזּוֹר</he> renounce the law of Moses, and he did renounce; Y. Snh. X, 28ᵈ <he>הִינָּזֵר</he>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

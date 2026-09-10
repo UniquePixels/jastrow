@@ -1,0 +1,32 @@
+{
+	"id": "U01951",
+	"slug": "שרט-1",
+	"headword": {
+		"text": "שָׂרַט"
+	},
+	"page": {
+		"number": 1629,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"O01581\"><he>סָרַט</he></cite>) <i>to scratch, wound</i>, v. <cite ref=\"O01581\"><he>סָרַט</he></cite>; esp. <i>to wound one’s body in mourning</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:5\">Macc. III, 5</cite> <he>השׂוֹרֵט שריטה וכ׳</he> he who makes one incision for a dead person. ",
+				"<cite ref=\"Mishnah Makkot 3:5\">Ib.</cite> <he>ש׳ שריטה וכ׳</he> if a person makes one incision for five dead or five incisions for one dead person. Ib. 20ᵇ <he>יכול אפי׳ ש׳ על ביתו וכ׳</he> you may think that one is guilty even if he cuts himself for his house that fell in &c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שֵׂרֵט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01950\">same</cite>. Ib. 21ᵃ <he>המְשָׂרֵט בכלי</he> if one wounds himself with an instrument (instead of with his nails); a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

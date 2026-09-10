@@ -1,0 +1,45 @@
+{
+	"id": "U00708",
+	"slug": "שחר-5",
+	"headword": {
+		"text": "שָׁחַר",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1551,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00704\"><he>הִשְׁחִיר</he></cite> (denom. of <cite ref=\"U00711\"><he>שַׁחַר</he></cite>) <i>to be early in doing; to get up early</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>, beg. <he>מי שמַשְׁחִיר וכ׳</he>, v. <cite ref=\"P01244\"><he>עָרַב</he> II</cite>. Midr. Sam. ch. V <he>ע״י שה׳ והעריב בהן</he> because he was engaged in their study early and late; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["שִׁחֵר"],
+			"senses": [
+				{
+					"gloss": " (b. h.) <cite ref=\"U00707\">same</cite>, <i>to do a thing early</i> or <i>diligently</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1:1\">Ex. R. s. 1</cite> (ref. to <cite ref=\"Proverbs 13:24\">Prov. XIII, 24</cite>) <he>לפי ששִׁחֲרוֹ מוסר וכ׳</he> because he corrected him betimes (or earnestly), he loved him. ",
+						"<cite ref=\"Proverbs 13:24\">Ib.</cite> <he>היה יצחק מְשַׁחֵר מוסר ליעקב וכ׳</he> Isaac trained Jacob &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "K01200",
+	"slug": "כרכומא",
+	"headword": {
+		"text": "כַּרְכּוֹמָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 669,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K01197\"><he>כּרְכּוֹם</he> I</cite>, cmp. <cite ref=\"K01123\"><he>כְּרוּם</he></cite>) <i>bronze, brazen</i> (cmp. <cite ref=\"J00655\"><he>יָרַק</he> II</cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 20:24\">Targ. Job XX, 24</cite> (some ed. <cite ref=\"K01080\"><he>כרבוניי</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Job 40:18\">Ib. XL, 18</cite> Ms. (ed. <he>נחשא</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 18:35\">Targ. Ps. XVIII, 35</cite> (ed. Lag. <he>כרכומיא</he>, <cite ref=\"Targum Jonathan on II Samuel 22:35\">Targ. II Sam. XXII, 35</cite> <he>נחשא</he>)."
+			]
+		}
+	]
+}

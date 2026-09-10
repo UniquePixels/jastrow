@@ -1,0 +1,59 @@
+{
+	"id": "S00251",
+	"slug": "קודש-1",
+	"headword": {
+		"text": "קוֹדֶשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֹדֶשׁ"
+		}
+	],
+	"page": {
+		"number": 1324,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S00192\"><he>קָדַשׁ</he></cite>)<i>sanctity, sacred affair, sacred ground, dedicated object</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 12b\">Yoma 12ᵇ</cite>, a. fr. <he>מעלין בק׳</he>, v. <cite ref=\"P00772\"><he>עָלָה</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 16:1\">Sabb. XVI, 1</cite> <he>כל כתבי הק׳ וכ׳</he> all sacred scriptures must be saved from fire (on the Sabbath). Tosef. ib. XIII (XIV), 1 <he>אין קורין בכתבי הק׳</he> we must not read from the Hagiographa (on the Sabbath); Y. ib. XVI, 15ᶜ top <he>אין קורין בכתבי הק׳ אלא וכ׳</he> we must not read from the Hagiographa except from the afternoon service onward. ",
+				"<cite ref=\"Beitzah 5a:2\">Bets. 5ᵃ</cite> <he>נוהגין אותו היום ק׳ וכ׳</he> we observe the rest of the day as a holy day and the next day likewise. ",
+				"<cite ref=\"Pesachim 104a:10\">Pes. 104ᵃ</cite>; <cite ref=\"Chullin 26a\">Ḥull. 26ᵃ</cite>, v. <cite ref=\"H00325\"><he>חוֹל</he> III</cite>. ",
+				"<cite ref=\"Mishnah Chullin 1:7\">Ib. I, 7</cite> <he>בין ק׳ לק׳</he>, v. <cite ref=\"B00150\"><he>בָּדַל</he></cite>; <cite ref=\"Mishnah Chullin 1:7\">ib.</cite> <he>בין ק׳ חמוד לק׳ הקל</he> between the stricter and the lighter sanctities; a. v. fr.—<he>שם ק׳</he> or <he>ק׳</he> (sub. <cite ref=\"U01406\"><he>שם</he></cite>) sacred name, name of the Lord. ",
+				"<cite ref=\"Shevuot 35b:20\">Shebu. 35ᵇ</cite>, v. <cite ref=\"H00325\"><he>חוֹל</he> III</cite>. ",
+				"<cite ref=\"Tractate Soferim 4:6\">Treat. Sof’rim IV, 6</cite>, sq.; a. fr.—<he>רוח הק׳</he>, v. <cite ref=\"T00615\"><he>רוּחַ</he></cite>.—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>sacred precincts, Temple ground</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 9:2\">Zeb. IX, 2</cite> <he>כל שפסולו בק׳ הק׳ מקבלו</he> whatever has become unfit within the sanctuary, the sanctuary accepts (it cannot be removed from the altar, if it was put on); <he>לא היה פסולו בק׳ וכ׳</he> if its unfitness did not arise within the sacred precincts, the sanctuary does not accept it; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <he>הק׳</he> <i>the Holy</i>, contrad. to <cite ref=\"P00430\"><he>עֲזָרָה</he></cite>, a. to <he>ק׳ הקדשים</he>, v. infra. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 3:3\">Yoma III, 3</cite>; <cite ref=\"Mishnah Yoma 3:6\">6</cite> <he>בק׳</he> within the precincts of the Holy. ",
+						"<cite ref=\"Mishnah Middot 4:5\">Midd. IV, 5</cite>; a. fr.—Pl. <cite ref=\"S00200\"><he>קֳדָשִׁים</he></cite>.—<he>קודש הק׳</he>, also <he>קָדְשֵׁי ק׳</he> <i>most holy</i>, esp. <i>the Holy of Holies</i>, the westernmost compartment of the Temple. Midd. l. c. ",
+						"<cite ref=\"Mishnah Yoma 5:1\">Yoma V, 1</cite>; a. fr.—",
+						"<cite ref=\"Shir HaShirim Rabbah 1:1:11\">Cant. R. to I, 1</cite> <he>כל הכתובים קדש וזה ק׳ הק׳</he> all Biblical scriptures are holy, but this (Song of Songs) is most holy. ",
+						"<cite ref=\"Jerusalem Talmud Megillah 3:2:5\">Y. Meg. III, 74ᵃ</cite>, a. e. <he>נחום איש קדש הק׳</he> Nahum, the man of extreme holiness; a. e.—Esp. <cite ref=\"S00200\"><he>קֳדָשִׁים</he></cite> <i>consecrated objects, sacrifices</i>. ",
+						"<cite ref=\"Mishnah Zevachim 5:4\">Zeb. V, 4</cite> <he>העולה קדשי ק׳</he> the burnt-offering belongs to the highest class of sacrifices. ",
+						"<cite ref=\"Mishnah Zevachim 5:6\">Ib. 6</cite>, sq. <he>ק׳ קלים</he> sacrifices of a minor grade. ",
+						"<cite ref=\"Mishnah Zevachim 10:2\">Ib. X, 2</cite> <he>מפני שהוא קדשי ק׳</he> because it belongs to the highest grade; a. fr.—<he>קדשי מזבח</he> things dedicated for the altar, <i>sacrifices</i>; <he>קדשי בדק הבית</he> objects dedicated (for their value) to be used for the needs of the Temple building. ",
+						"<cite ref=\"Mishnah Temurah 7:1\">Tem. VII, 1</cite>, sq.; a. fr.—<he>ק׳</he> (<he>סדר</he>) <i>Kodashim</i>, the fifth of the six orders of the Mishnah, Tosefta, a. Talmud Babli. ",
+						"<cite ref=\"Shabbat 31a:10\">Sabb. 31ᵃ</cite>. ",
+						"<cite ref=\"Esther Rabbah 1:10\">Esth. R. to I, 2</cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "K00216",
+	"slug": "כוורא",
+	"headword": {
+		"text": "כַּוְורָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּוְרָא"
+		}
+	],
+	"page": {
+		"number": 617,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K00220\"><he>כְּוֶורֶת</he></cite>) [<i>basket, cauf</i>, cmp. <cite ref=\"N00486\"><he>נָחִיל</he></cite>,] <i>fish in the cauf</i>, in gen. <i>fish</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 11a:9\">M. Kat. 11ᵃ</cite> [read:] <he>כ׳ טווייה באחוה וכ׳</he> (v. Rabb. D. S. a. l.) roast the fish with its brother (salt) &c. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:23\">Y. Sabb. VII, 10ᵃ</cite> <he>ההן דצייד כ׳</he> he who catches fish (on the Sabbath). ",
+				"<cite ref=\"Gittin 36a:9\">Gitt. 36ᵃ</cite>, a. e. <he>צייר כ׳</he> drew the figure of a fish (in place of his signature); a. fr.—Pl. <he>כַּיְורַיָּא</he>, <he>כַּוְורֵי</he>, <he>כַּוְי</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:26\">Targ. Y. Gen. I, 26</cite>, a. fr. (only in Targ. Y.).—[<cite ref=\"Aramaic Targum to Job 41:26\">Targ. Job. XLI, 26</cite> <he>בני כוורי</he>, Ms. <he>כונדי</he>, Regia <he>טורי</he>; h. text <he>בני שחץ</he>.]—",
+				"<cite ref=\"Taanit 24a:16\">Taan. 24ᵃ</cite> <he>פירא דכ׳</he> <i>the fish-pond</i>. ",
+				"<cite ref=\"Kiddushin 72a\">Kidd. 72ᵃ</cite>.—M. Kat. l. c. <he>לבאי כ׳</he> (Var. <he>כַּוָּארֵי</he>), v. <cite ref=\"B00149\"><he>בְּדִיתָא</he></cite>; a. e."
+			]
+		}
+	]
+}

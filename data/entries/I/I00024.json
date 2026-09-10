@@ -1,0 +1,23 @@
+{
+	"id": "I00024",
+	"slug": "טבאג",
+	"headword": {
+		"text": "טַבְאָג",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 515,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>tabag</i>, name of a jewel in the Highpriest’s breastplate. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:14\">Targ. Cant. V, 14</cite> (Fl., to Levy Targ. Dict. I, 426<sup>2</sup>, suggests <he>טבאז</he> = <i>topaz</i>)."
+			]
+		}
+	]
+}

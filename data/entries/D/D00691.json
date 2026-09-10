@@ -1,0 +1,34 @@
+{
+	"id": "D00691",
+	"slug": "דיצה",
+	"headword": {
+		"text": "דִּיצָה"
+	},
+	"page": {
+		"number": 304,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דּוּץ</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dancing, rejoicing</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 8a:6\">Keth. 8ᵃ</cite>. Pesik. Ronni, p. 141ᵇ <he>ומעיילין ד׳</he> and insert <i>ditsah</i> (in place of <cite ref=\"E00865\"><he>הריעה</he></cite>); <cite ref=\"Shir HaShirim Rabbah 1:4:7\">Cant. R. to I, 4</cite>; <cite ref=\"Avot D'Rabbi Natan 34:10\">Ab. d’R. N. ch. XXXIV</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>דִּיצַת הערביין</he> (sub. <he>תריס</he>) <i>a shield</i> used at Arabian sports. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 24:1\">Kel. XXIV, 1</cite>. [<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite>, beg., read <cite ref=\"T00687\"><he>רִיצָה</he></cite>, v. <cite ref=\"D00493\"><he>דִּידְכֵי</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"id": "G00468",
+	"slug": "זכר-2",
+	"headword": {
+		"text": "זָכָר"
+	},
+	"page": {
+		"number": 400,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00467\">preced.</cite>) [v. <cite ref=\"G00447\"><he>זָכוּר</he></cite>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>male</i> (of man and animals), <i>male child;</i> opp. <cite ref=\"N01159\"><he>נקבה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 3:7\">Nidd. III, 7</cite> <he>תשב לז׳ וכ׳</he> she shall observe the laws as after the birth of a male child &c. (<cite ref=\"Leviticus 12:4\">Lev. XII, 4</cite>). ",
+				"<cite ref=\"Leviticus 12:4\">Ib.</cite> <he>בריית הז׳</he> the formation of the male embryo. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 9:2:2\">Y. B. Bath. IX, 16ᵈ</cite> bot. <he>שמחת ז׳</he> the rejoicing over the birth of a boy; a. v. fr.—Pl. <he>זְכָרִים</he>. ",
+				"<cite ref=\"Niddah 31b:5\">Nidd. 31ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Zevachim 5:3\">Zeb. V, 3</cite>, a. fr. <he>זִכְרֵי כהונה</he> the male members of the priestly tribe.—",
+				"<cite ref=\"Bereishit Rabbah 13:13\">Gen. R. s. 13</cite>, a. e. <he>המים העליונים ז׳ וכ׳</he> the waters from above are the males (fructifiers), &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"D00793\"><he>דְּכַר</he> II</cite>) (<he>של רחלים</he>) <he>ז׳</he> <i>the male of the flock, ram</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 5:3\">Bekh. V, 3</cite>; <cite ref=\"Yevamot 121b:7\">Yeb. 121ᵇ</cite>.—",
+				"<cite ref=\"Mishnah Shekalim 5:3\">Shek. V, 3</cite> <he>ז׳ משמש עם וכ׳</he> that with the inscription ‘male’ was used only for libations connected with rams.—Pl. as above. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 3:4\">R. Hash. III, 4</cite>, sq. <he>בשל ז׳</he> with horns of rams; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>membrum</i> (of animals). ",
+			"units": [
+				"<cite ref=\"Tosefta Bekhorot 4:6\">Tosef. Bekh. IV, 6</cite>, v. <cite ref=\"G00117\"><he>זוּבָּן</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (of inanimate objects) <i>the thinner, pointed side of a double tool</i>, v. <cite ref=\"G00471\"><he>זַכְרוּת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:2\">Kel. XIII, 2</cite> <he>הז׳</he> the pointed side of the cosmetic tube, contrad. to <he>כף</he> the broad part."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>the marrow of horns, reeds</i> &c. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 7:12\">Tosef. Kel. B. Mets. VII, 12</cite>. [<cite ref=\"Tosefta Keilim Metsia 7:12\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Parah 2:5\">Par. II (I), 2</cite>, v. <cite ref=\"G00471\"><he>זַכְרוּת</he></cite>.]"
+			],
+			"label": "5"
+		},
+		{
+			"gloss": " (gramm.) <he>לשון ז׳</he> <i>masculine gender</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 2b:7\">Kidd. 2ᵇ</cite> <he>אשכחן דרך דאיקרי ל׳ ז׳</he> we find (in the Bible) <i>derekh</i> in the masculine gender. Mekh. B’shall., Shirah 1 <he>בל׳ ז׳</he> in the masculine form (<cite ref=\"U01058\"><he>שִׁיר</he></cite>); <cite ref=\"Shir HaShirim Rabbah 1:5:4\">Cant. R. to I, 5</cite>; a. e."
+			],
+			"label": "6"
+		}
+	]
+}

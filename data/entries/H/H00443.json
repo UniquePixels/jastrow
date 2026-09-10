@@ -1,0 +1,42 @@
+{
+	"id": "H00443",
+	"slug": "חור-1",
+	"headword": {
+		"text": "חָוַר"
+	},
+	"page": {
+		"number": 438,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A00841\"><he>אור</he></cite>)<i>to perforate; to be transparent, white, clear</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִוֵּור", "חִי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to make clear, evident</i>. Mekh. Mishp., N’zikin, s. 13 (ref. to <cite ref=\"Deuteronomy 22:17\">Deut. XXII, 17</cite>) <he>מְחַוְּורִין … כשמלה</he> they must make the fact as clear as a (white) sheet. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> (ref. to <he>כבס</he>, <cite ref=\"Bereishit Rabbah 49:11\">ib. XLIX, 11</cite>) <he>שהוא מְחַוֵּור וכ׳</he> he will make clear to them the words of the Law; <he>שהוא מח׳ להם טעיותיהם</he> he will prove to them their errors; a. e.—<i>Part. pass.</i> <cite ref=\"M00814\"><he>מְחוּוָּר</he></cite> <i>clear, proved, evident</i>. Y. Shek. III, end, 47ᶜ <he>מ׳ שבכולן</he> the clearest of all the quoted Biblical evidences. ",
+						"<cite ref=\"Bereishit Rabbah 47\">Gen. R. s. 47</cite>, end; Y. Ab. Zar. I, 39ᵈ top <he>מ׳ שבכולן</he> the least doubtful of all. Y. Succ. V, beg. 55ᵃ <he>משם שאינו מח׳</he> because the use of the flute is not clearly stated in the Law. Y. Ter. II, 41ᶜ bot. <he>זה אחד … שהן מְחוּוָּרִין וכ׳</he> this is one of the three interpretations (of the Rabbis) which are clearly indicated in the Bible text. Y. Erub. III, 21ᵃ bot. <he>הגיעוך סוף … שאינן מח׳</he> thou must finally admit that the law of Sabbath limits finds no proof in the Biblical words. Y. Ber. II, 5ᵃ bot. <he>הגיעוך סוף מלאכות תפלה שאינן מח׳ מד״ת</he> ed. Lehm. (oth. ed. corr. acc.) thou must admit that for labors permitted or forbidden during prayer no support is to be found in &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַוֵּור"],
+			"senses": [
+				{
+					"gloss": "<i>to be made clear</i>. Y. Keth. IV, 28ᶜ top (ref. to <cite ref=\"Deuteronomy 22:17\">Deut. XXII, 17</cite>) <he>עד שיִתְחַוְּורוּ וכ׳</he> the facts must be as clear &c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

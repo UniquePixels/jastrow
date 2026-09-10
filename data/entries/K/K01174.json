@@ -1,0 +1,27 @@
+{
+	"id": "K01174",
+	"slug": "כריספא",
+	"headword": {
+		"text": "כְּרִיסְפָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְ׳"
+		}
+	],
+	"page": {
+		"number": 667,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Crispus) <i>Crispa</i>, name of an Amora. Pesik. Shubah, p. 157ᵇ; (<cite ref=\"Rosh Hashanah 16b\">R. Hash. 16ᵇ</cite> <cite ref=\"K01128\"><he>כרוספדאי</he></cite>); Y. ib. I, 57ᵃ bot. <cite ref=\"S01958\"><he>קרוספא</he></cite> ed. Krot.—Ib. II, 58ᵇ top <cite ref=\"S02072\"><he>קריספא</he></cite>; Y. Snh. I, 18ᶜ bot. <cite ref=\"S02073\"><he>קריספדא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <cite ref=\"S02072\"><he>קריספא</he></cite>."
+			]
+		}
+	]
+}

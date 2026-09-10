@@ -1,0 +1,22 @@
+{
+	"id": "N00409",
+	"slug": "נוקד-2",
+	"headword": {
+		"text": "נוּקָּד"
+	},
+	"page": {
+		"number": 890,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נָקַד</he> I; cmp. Arab. <i>naḳd</i> probus et justi ponderi nummus) <i>a stamped coin</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 1:3\">Par. I, 3</cite> <he>בן עזאי קירהו נ׳ וכ׳</he> Ben ʿAzzai called it (the sheep between one and two years of age, when it is neither <cite ref=\"K00083\"><he>כֶּבֶשׂ</he></cite> nor <cite ref=\"A01264\"><he>אַיִל</he></cite>) ‘a distinct coin;’ R. Yishm. called it ‘counterfeit;’ v. <cite ref=\"Q01866\"><he>פָּרָכָרַגְמָא</he></cite>."
+			]
+		}
+	]
+}

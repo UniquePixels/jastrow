@@ -1,0 +1,25 @@
+{
+	"id": "U00334",
+	"slug": "שודא",
+	"headword": {
+		"text": "שׁוּדָא"
+	},
+	"page": {
+		"number": 1529,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <cite ref=\"U00366\"><he>שׁוּחֲדָא</he></cite> q. v.) <i>adjudication, discretionary judgment</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 14b:15\">Gitt. 14ᵇ</cite> <he>וכאן אמרו ש׳ עדיף</he> and here (in Babylonia) they say, it is better that the messenger use his discretion (to deliver the gift to the heir of the legatee or return it to the donor’s heirs). ",
+				"<cite ref=\"Ketubot 94a:13\">Keth. 94ᵃ</cite> <he>ש׳ דדייני</he> the judges use their discretion (to which of the claimants to adjudicate the claim). ",
+				"<cite ref=\"Ketubot 85b:8\">Ib. 85ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 62b:9\">B. Bath. 62ᵇ</cite>; a. fr.—[In Y. <cite ref=\"U00366\"><he>שׁוּחֲדָא</he></cite>.]"
+			]
+		}
+	]
+}

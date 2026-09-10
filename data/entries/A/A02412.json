@@ -1,0 +1,30 @@
+{
+	"id": "A02412",
+	"slug": "אסטרטיא-1",
+	"headword": {
+		"text": "אִסְטְרַטְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 91,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (στρατεία, in the sense of στρατόπεδον) <i>camp, encampment</i>, esp. <i>an open space infront of the royal palace, court;</i> also <i>station on the road</i> for Temple pilgrims. ",
+			"units": [
+				"<cite ref=\"Eruvin 26a:9\">Erub. 26ᵃ</cite> <he>א׳ של מלכים</he> Ms. M. (ed. <he>מלך</he>) camp or court round the royal palace. [<cite ref=\"Menachot 103b:20\">Men. 103ᵇ</cite> <he>איסטריא של מלך</he>, for <he>איסטרטיא</he>(?), v. however <cite ref=\"A02422\"><he>אִסְטַרְיָא</he></cite>.] [<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 7</cite> <he>באידנא א׳</he>; Ab. d’R. Nath. XXVIlI <he>לאי׳</he>, read <cite ref=\"A02408\"><he>אִסְטְרָטָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 20:19\">Targ. Y. Num. XX, 19</cite> <he>רַטְיָא …</he> some ed., v. <cite ref=\"A02408\"><he>אִסְטְרָטָא</he></cite>.]—Pl. <he>אִסְטְרַטְיָאוֹת</he>. ",
+				"<cite ref=\"Moed Katan 5a\">M. Kat. 5ᵃ</cite> Ms. M. (ed. <he>טאות …</he>); Mekh. B’shall. Vayissa ch. III <he>א׳</he> <i>stations</i> (= <he>רחובות</he>). [Erub. l. c. <he>טיא … שהיו …</he>, read <he>שהיא</he>, or … <he>יאות</he>; v. Rabb. D. S. a. l. note.]"
+			]
+		}
+	]
+}

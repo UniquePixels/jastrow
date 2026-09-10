@@ -1,0 +1,22 @@
+{
+	"id": "M02681",
+	"slug": "מריקה",
+	"headword": {
+		"text": "מְרִיקָה"
+	},
+	"page": {
+		"number": 843,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02760\"><he>מָרַק</he></cite>) <i>scouring, washing</i>. Sifra Tsav, Par. 3, ch. VII <he>מ׳ כמְרִיקַת הכוס</he> the <i>m’riḳah</i> (<cite ref=\"Leviticus 6:21\">Lev. VI, 21</cite>) means like washing a cup, contrad. to <cite ref=\"U00755\"><he>שטיפה</he></cite> (rinsing); <cite ref=\"Mishnah Zevachim 11:7\">Zeb. XI, 7</cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Zevahim 10:14\">Tosef. ib. X, 14</cite> <he>מְרִיקָתָן</he> their being washed; a. fr."
+			]
+		}
+	]
+}

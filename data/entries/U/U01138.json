@@ -1,0 +1,46 @@
+{
+	"id": "U01138",
+	"slug": "שכח-2",
+	"headword": {
+		"text": "שְׁכַח"
+	},
+	"page": {
+		"number": 1572,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " I ch. (Hebraism) <cite ref=\"U01137\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 4:3:3\">Y. B. Kam. IV, 4ᵇ</cite> <he>עד דשַׁכְחוּן כולן</he>, v. <cite ref=\"O00322\"><he>סוּלָּמָא</he></cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁכַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01137\">same</cite>. Y. Erub. I, 18ᵈ top [read:] <he>דאין … ולא מְשַכַּח יתיה</he> that he may not have forgotten it, if Rab should ask him; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּכַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to be forgotten</i>. ",
+					"units": [
+						"<cite ref=\"Temurah 15b\">Tem. 15ᵇ</cite> <he>דאי׳ להו א׳ וכ׳</he> that which they forgot remained forgotten &c. ",
+						"<cite ref=\"Bava Metzia 85a:10-21\">B. Mets. 85ᵃ</cite> <he>יתיב … דלִשְׁתַּכַּח גמרא וכ׳</he> he fasted … praying that he may forget the Babylonian teaching. ",
+						"<cite ref=\"Bava Metzia 85b:5\">Ib.ᵇ</cite> <he>אי מִשְׁתַּכְּחַת תורה וכ׳</he> (<cite ref=\"Ketubot 103b\">Keth. 103ᵇ</cite> <he>אם נשתכחה וכ׳</he>), v. <cite ref=\"Q01112\"><he>פִּלְפּוּלָא</he></cite>. ",
+						"<cite ref=\"Ketubot 103b\">Ib.</cite> <he>עבדי … דלא תִשְׁתַּכַּח וכ׳</he> I brought it about that the Law be not forgotten &c.; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

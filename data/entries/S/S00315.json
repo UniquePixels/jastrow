@@ -1,0 +1,48 @@
+{
+	"id": "S00315",
+	"slug": "קול-3",
+	"headword": {
+		"text": "קוּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹל"
+		}
+	],
+	"page": {
+		"number": 1327,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00314\">preced.</cite>; v. <cite ref=\"S01355\"><he>קָלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>light matter.—</i>Pl. <cite ref=\"S00342\"><he>קוּלִּין</he></cite>, constr. <he>קוּלֵּי</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 29a:8\">Sabb. 29ᵃ</cite> <he>ומק׳ מטלניות שנו כאן</he> and they teach here rules about one of the pettiest kinds of strips. ",
+				"<cite ref=\"Shabbat 39b:6\">Ib. 39ᵇ</cite> <he>חוץ מק׳ מטלניות</he> except the rule concerning the lightest kinds &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lenient practice</i>, opp. <cite ref=\"H00390\"><he>חוֹמֶר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 4:5\">Ḥall. IV, 5</cite> <he>נמצא חומרו קוּלּוֹ</he> consequently the stricter opinion (of R. Akiba) implies the eventual lenient ruling. Y. ib. 59ᵈ bot. <he>קולו חומרו</he> the lenient rule implies eventually the stricter rule. ",
+				"<cite ref=\"Mishnah Sanhedrin 11:2\">Snh. XI, 2</cite> <he>נמצא חומרו קולו</he> his severer offence (in giving a practical decision without authorization to teach) is the cause of his acquittal from responsibility.—Pl. <he>קוּלִּים</he>, <cite ref=\"S00342\"><he>קוּלִּין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 11:3:1\">Y. Snh. XI, 30ᵃ</cite> bot. ",
+				"<cite ref=\"Chullin 43b:15\">Ḥull. 43ᵇ</cite> bot. <he>מקוּלֵּי בית שמאי ומק׳ וכ׳</he> he that follows the school of Shammai where its rulings are the easier, and again the school of Hillel where its rulings are the easier. ",
+				"<cite ref=\"Chullin 44a:6\">Ib. 44ᵃ</cite> <he>כקוּלֵּיהֶן</he>, v. <cite ref=\"H00390\"><he>חוֹמֶר</he> I</cite>. ",
+				"<cite ref=\"Ketubot 110b:18\">Keth. 110ᵇ</cite> <he>מקולי כתובה וכ׳</he> they taught here one of the lenient practices concerning the wife’s dowry; a. e.—<he>קוּלּוֹת</he> (fr. <cite ref=\"S00316\"><he>קוּלָּה</he></cite>) <i>light, minor sins</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:4\">Y. Snh. X, 28ᵇ</cite> top <he>קוּלּוֹתָיו … חומרותיו וכ׳</he> Ahab’s minor offences were as heavy as Jeroboam’s heaviest sins; (Bab. ",
+				"<cite ref=\"Sanhedrin 102b:19\">ib. 102ᵇ</cite> <he>קַלּוֹת … כחמורות</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

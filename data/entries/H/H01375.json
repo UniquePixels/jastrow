@@ -1,0 +1,22 @@
+{
+	"id": "H01375",
+	"slug": "חסיכנא",
+	"headword": {
+		"text": "חֲסֵיכְנָא"
+	},
+	"page": {
+		"number": 487,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01374\">preced.</cite>) <i>a little less</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 26:12\">Targ. Is. XXVI, 12</cite> <he>ח׳ מחובנא</he> a little less that our sins deserved (h. text <cite ref=\"C00993\"><he>גם</he></cite>, cmp. <he>גמם</he>)."
+			]
+		}
+	]
+}

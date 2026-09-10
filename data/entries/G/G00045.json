@@ -1,0 +1,47 @@
+{
+	"id": "G00045",
+	"slug": "זבל-2",
+	"headword": {
+		"text": "זָבַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 379,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"G00044\"><he>זִבֵּל</he></cite> (denom. of <cite ref=\"G00047\"><he>זֶבֶל</he></cite>) <i>to deposit foliage in the field</i> for manure, to <i>manure</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 3:2\">Shebi. III, 2</cite> <he>עד כמה מְזַבְּלִין</he> how many piles may be deposited? <cite ref=\"Mishnah Sheviit 2:2\">Ib. II, 2</cite> <he>מְזָבְּלִין וכ׳</he> you may manure &c. ",
+						"<cite ref=\"Ketubot 10b\">Keth. 10ᵇ</cite> the rain waters <he>ומְזַבֵּל</he> and <i>softens</i> (corresp. to <he>מוג</he>, <cite ref=\"Psalms 65:11\">Ps. LXV, 11</cite>, cmp. <cite ref=\"B00253\"><he>בּוּל</he> II</cite>). ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:1:6\">Cant. R. to I, 1</cite> <he>אנחנו לא נְזַבֵּל וכ׳</he> (not <he>נזבלים</he>) should we not improve (our minds) even as those carrying out foliage and straw?; a. fr.—Part. pass. <he>מְזוּבָּל</he> <i>manured</i>. ",
+						"<cite ref=\"Jerusalem Talmud Moed Katan 1:2:2\">Y. M. Kat. I, 80ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִזְבַּל"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִזְדַּבֵּל</he> <i>to be manured</i>. Midr. Sam. ch. IV.—",
+					"units": [
+						"<cite ref=\"Avodah Zarah 49a:2\">Ab. Zar. 49ᵃ</cite> <he>שדה שנִזְדַּבְּלָה וכ׳</he> a field which has been manured with material connected with idolatry (foliage from a worshipped tree &c.)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

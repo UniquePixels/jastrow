@@ -1,0 +1,33 @@
+{
+	"id": "J00016",
+	"slug": "יאיר",
+	"headword": {
+		"text": "יָאִיר"
+	},
+	"page": {
+		"number": 559,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Jair</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Manasseh. ",
+			"units": [
+				"<cite ref=\"Bava Batra 121b:10\">B. Bath. 121ᵇ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 14:18\">Num. R. s. 14</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " J. the Gileadite. ",
+			"units": [
+				"<cite ref=\"Bava Batra 113a:8\">B. Bath. 113ᵃ</cite>.—Denom. <he>יָאִירִי</he>, ch. <he>יָאִירָאָה</he> m. <i>Jairite</i>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 20:26\">Targ. II Sam. XX, 26</cite> (missing in ed. Lag.).—Cant. R. to I, 2ᵇ; <cite ref=\"Eruvin 63a\">Erub. 63ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

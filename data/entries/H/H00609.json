@@ -1,0 +1,33 @@
+{
+	"id": "H00609",
+	"slug": "חטט-3",
+	"headword": {
+		"text": "חֲטַט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 448,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H00608\"><he>חַטֵּיט</he></cite> (sec. r. of <cite ref=\"H00296\"><he>חוּט</he> II</cite>) <i>to sew</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 3:7\">Targ. Gen. III, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 13:18\">Targ. Ez. XIII, 18</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

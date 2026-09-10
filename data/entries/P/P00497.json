@@ -1,0 +1,61 @@
+{
+	"id": "P00497",
+	"slug": "עיגול-1",
+	"headword": {
+		"text": "עִיגּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִגּ׳"
+		}
+	],
+	"page": {
+		"number": 1066,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00089\"><he>עָגַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circle</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 8a:2\">Succ. 8ᵃ</cite> <he>כמה מרובע יותר על הע׳</he> by how much is a square larger than a tangent circle within it? One fourth; Ohol. XII, 6. ",
+				"<cite ref=\"Nazir 8b:11\">Naz. 8ᵇ</cite> <he>בֵּית עי׳</he> Ar. (ed. <he>בית עגול</he>) a circular building; <cite ref=\"Tosefta Negaim 6:3\">Tosef. Neg. VI, 3</cite> <he>בית העגיל</he> ed. Zuck. (Var. <he>העגל</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a round mould in which figs or grapes are pressed, cake of pressed figs; cake, loaf</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 2:1\">B. Mets. II, 1</cite> (<cite ref=\"Bava Metzia 21a:9\">21ᵃ</cite>) <he>מצא ע׳ ובתוכו וכ׳</he> if one finds a cake of figs within which was a piece of earthen ware (as a mark). ",
+				"<cite ref=\"Mishnah Maasrot 1:8\">Maasr. I, 8</cite>, v. <cite ref=\"H01112\"><he>חָלַק</he></cite>. ",
+				"<cite ref=\"Shabbat 93a:1\">Sabb. 93ᵃ</cite> top (expl. <cite ref=\"K00663\"><he>ככר</he></cite>, <cite ref=\"Mishnah Shabbat 10:5\">ib. X, 5</cite>) <he>בע׳ של דבילה</he> a cake of figs (too large for one to carry); a. fr.—Pl. <he>עִיגּוּלִים</he>, <he>עִיגּוּלִין</he>, <cite ref=\"P00497\"><he>עִגּ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Terumot 4:8\">Ter. IV, 8</cite>, v. <cite ref=\"M01482\"><he>מַלְבֵּן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Challah 1:3:17\">Y. Ḥall. I, 57ᵈ</cite> bot. ",
+				"<cite ref=\"Mishnah Tahorot 10:8\">Toh. X, 8</cite> <he>בין הע׳ לזונין</he> the space between the moulds and the deposit of grape shells (Maim.; v. infra).—",
+				"<cite ref=\"Avot D'Rabbi Natan 6\">Ab. d’R. N. ch. VI</cite>, end <he>היו מביאין את הע׳ וכ׳</he> (not <he>העגלים</he>, v. ed. Schechter note) they took the loaves of bread and sawed them apart and soiled them with mud."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>עִיגּוּלֵי הגת</he>, <cite ref=\"P00497\"><he>עִגּ׳</he></cite> <i>weights</i> (<i>clay cylinders</i>) <i>put on the wine press</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:9\">Sabb. I, 9</cite> <he>טוענין … ע׳ הגת</he> you may put on (the press) the beams of the oil press or the cylinders of the wine press; <cite ref=\"Tosefta Shabbat 1:29\">Tosef. ib. I, 29</cite> <he>ותולין בע׳ הגת</he> (Var. <he>ע׳ הגת</he>) and suspend the weights &c. Toh. l. c. <he>בין ע׳ לזוגין</he> between the cylinders &c. (R. S.; v. supra)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " in gen. <i>ball, lump</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Sotah 11b:7\">Sot. 11ᵇ</cite>, a. e., v. <cite ref=\"N01190\"><he>נָקַט</he></cite>. ",
+				"<cite ref=\"Tosefta Mikvaot 5:8\">Tosef. Mikv. V, 8</cite> <he>עגולי שלג</he> lumps of snow; a. fr."
+			],
+			"label": "4"
+		}
+	]
+}

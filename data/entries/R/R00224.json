@@ -1,0 +1,76 @@
+{
+	"id": "R00224",
+	"slug": "צוץ-3",
+	"headword": {
+		"text": "צוּץ"
+	},
+	"page": {
+		"number": 1269,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.; = <he>צאצא</he>, v. <cite ref=\"J00515\"><he>יָצָא</he></cite>) <i>to come forth; to shine; to bloom</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵצִיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to bloom, sprout</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 12:5\">Koh. R. to XII, 5</cite> <he>מהיכן אדם מֵצִין</he> some ed. (oth. <he>מֵנֵיץ</he>, v. <cite ref=\"N01139\"><he>נָצַץ</he></cite>) from what part of the body will man sprout forth (at resurrection)? Yalk. ib. 979 <he>משעה שהוא מֵצִיץ</he> (Koh. R. l. c. 7 <he>משיניץ</he>) from the time of blooming; Lam. R. introd. (R. Josh. 2); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause sprouting</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>מהיכן הקב״ה מציץ וכ׳</he> from what part will the Lord cause man to sprout forth?, v. supra; <cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite>; Yalk. Koh. l. c. <he>מכין</he> (corr. acc.)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to look out, peep</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 67a:9\">Yoma 67ᵃ</cite> <he>היו מְצִיצִין ורואין וכ׳</he> they looked out to see &c.; <cite ref=\"Rosh Hashanah 31b\">R. Hash. 31ᵇ</cite>. ",
+						"<cite ref=\"Chagigah 14b\">Ḥag. 14ᵇ</cite>, a. e., v. <cite ref=\"Q00085\"><he>פָּגַע</he></cite>. ",
+						"<cite ref=\"Chullin 47b:5\">Ḥull. 47ᵇ</cite> <he>הֵצַצְתִּי בו</he> I looked at him. ",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 19:10\">Pirké d’R. El. ch. XIX</cite> <he>והֵצִיצוּ וכ׳</he>, v. <cite ref=\"Q00302\"><he>פּוֹעֵל</he></cite>; a. fr.—",
+						"<cite ref=\"Yoma 35b:8\">Yoma 35ᵇ</cite> <he>הֵצִיצוּ עיניהן</he> they <i>made</i> their eyes <i>look</i> around (Ms. M. 2 <he>הציצו</he> only)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּצָץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be made to bloom; to break forth</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 66a:12\">Kidd. 66ᵃ</cite> (in a historical fragment) <he>וַתּוּצַץ הרעה ע״י וכ׳</he> and the evil broke forth (took its start) through the agency of Elazar &c."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["צִיֵּיץ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"R00440\"><he>צִיצִית</he></cite>) <i>to provide with show-fringes</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 131a\">Sabb. 131ᵃ</cite> <he>אם צ׳ טליתו</he> (Ms. M. <he>עשה ציץ לט׳</he>) if he put fringes on his cloak (on the Sabbath).—Part. pass. <he>מְצוּיָּיץ</he>; f. <he>מְצוּיֶּיצֶת</he>; pl. <he>מְצוּיָּיצִין</he>; <he>מְצוּיָּיצוֹת</he>. Ib. 25ᵇ <he>סדינין המצ׳</he> linen cloaks provided with woolen fringes. ",
+						"<cite ref=\"Menachot 43a:8\">Men. 43ᵃ</cite>. ",
+						"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "K00428",
+	"slug": "כותל",
+	"headword": {
+		"text": "כּוֹתָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוֹתֶל"
+		}
+	],
+	"page": {
+		"number": 627,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.  <cite ref=\"K01368\"><he>כֹּתֶל</he></cite>; <cite ref=\"K01368\"><he>כתל</he></cite> <i>to press together</i>,  [<i>something solid</i>, cmp. <he>אָטוּם</he>, <cite ref=\"A00622\"><he>אוֹטֶם</he></cite>,] <i>wall</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 68:10\">Gen. R. s. 68</cite> (ref. to <cite ref=\"Genesis 28:11\">Gen. XXVIII, 11</cite> ‘he struck’) <he>נעשה … כמין כ׳ וכ׳</he> the whole world was before him blocked as by a wall. Ohol. VI, 3 <he>כ׳ שהוא לאויר</he> a wall which faces the air (which is continued above the roofing, or faces the court yard). Ib. <he>כ׳ המשמש את הבית</he> a wall made for forming an enclosure, contrad. to ib. 6 <he>בית המשמש את הכ׳</he> a wall formed by digging two cavities next to each other. ",
+				"<cite ref=\"Mishnah Bava Batra 1:1\">B. Bath. I, 1</cite>; a. fr.—Pl. <he>כּוֹתָלִים</he>, <he>כּוֹתָלִין</he>, <he>כְּתָלִ׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:2:5\">Y. Shek. IV, 48ᵃ</cite> bot. <he>כתלין</he> (Bab. ed. <he>כתלים</he>, Ms. M. <cite ref=\"K00428\"><he>כותל</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 18\">Gen. R. s. 18</cite>, beg. <he>כ׳ של זהב</he> golden partitions (of Adam’s tent). ",
+				"<cite ref=\"Bava Metzia 59b:3\">B. Mets. 59ᵇ</cite> <he>כּוֹתְלֵי בה״מ וכ׳</he> let the walls of the school house decide. ",
+				"<cite ref=\"Niddah 3a:44\">Nidd. 3ᵃ</cite> <he>כותלי בית הרחם</he> the enclosures of the womb; a. fr."
+			]
+		}
+	]
+}

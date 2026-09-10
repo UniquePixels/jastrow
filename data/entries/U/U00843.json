@@ -1,0 +1,61 @@
+{
+	"id": "U00843",
+	"slug": "שיזב",
+	"headword": {
+		"text": "שֵׁיזֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁיזֵיב"
+		},
+		{
+			"text": "שֵׁזֵ׳"
+		}
+	],
+	"page": {
+		"number": 1558,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <he>עזב</he>, v. Del. Proleg., p. 140) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to release, save</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 2:19\">Targ. Ex. II, 19</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:39\">Targ. Deut. XXXII, 39</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 96a:2-3\">Snh. 96ᵃ</cite> <he>היינו … דשֵׁיזְבֵיה וכ׳</he> (not <he>דשיזבין</he>) this is the great God that saved Noah &c.; <cite ref=\"Yalkut Shimoni on Nach 276\">Yalk. Is. 276</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite> <he>כמימר שֵׁיזְבֵנִי</he> as if saying, save me. ",
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>יְשֵׁיזֵיב</he>, v. <cite ref=\"H01109\"><he>חָלַץ</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be delivered</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 7:10\">Targ. Jer. VII, 10</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתֵּיזֵיב", "אִשְׁתְּזֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to be saved, spared</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 32:31\">Targ. Gen. XXXII, 31</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 20:6\">Targ. Is. XX, 6</cite>; a. fr.—Y. Ned. IV, 38ᵈ <he>וא׳ כולה</he> and all (the neighborhood) was saved (spared from conflagration); Y. Yoma VIII, 45ᵇ. ",
+						"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite> <he>תִּשְׁתֵּיזֵיב מן צנתא</he> mayest thou be saved from cold. ",
+						"<cite ref=\"Kohelet Rabbah 11:1\">Koh. R. to XI, 1</cite> <he>ולא א׳ גכאי מידי</he> and nothing has been left me (from the shipwreck). ",
+						"<cite ref=\"Kohelet Rabbah 11:1\">Ib.</cite> <he>ואומתך מִשְׁתֵּזְבָן</he> and thy people shall be released; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

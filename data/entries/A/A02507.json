@@ -1,0 +1,29 @@
+{
+	"id": "A02507",
+	"slug": "אספסיאנוס",
+	"headword": {
+		"text": "אִסְפַּסְיָאנוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְפַּסְיָינוֹס"
+		}
+	],
+	"page": {
+		"number": 96,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Vespasian</i>, the Roman Emperor who, when general, conducted the war against the Jews which ended in the destruction of the Temple. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:19\">Targ. Lam. I, 19</cite>.—",
+				"<cite ref=\"Mishnah Sotah 9:14\">Sot. IX, 14</cite> <he>פולמוס של א׳</he> the Vespasian war. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:1:4\">Y. Meg. III, 73ᵈ</cite>; Lam. R. introd. (R. Ḥan. 1); a. fr. [<cite ref=\"Megillah 11a:11\">Meg. 11ᵃ</cite> <he>ושמואל אמר … נבוכדנצר</he>, read with Ms. M. a. old prints <he>א׳ קיסר</he>.]"
+			]
+		}
+	]
+}

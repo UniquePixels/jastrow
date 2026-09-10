@@ -1,0 +1,27 @@
+{
+	"id": "K00152",
+	"slug": "כהונה",
+	"headword": {
+		"text": "כְּהוּנָּה"
+	},
+	"page": {
+		"number": 614,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>כְּהֻנָּה</he>; v. <cite ref=\"K00163\"><he>כֹּהֵן</he></cite>)<i>priesthood, priestly privileges; priestly community</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:13\">Ab. IV, 13</cite>. ",
+				"<cite ref=\"Sotah 11b:22\">Sot. 11ᵇ</cite> <he>בתי כ׳</he> priestly families. ",
+				"<cite ref=\"Mishnah Middot 1:8\">Midd. I, 8</cite>, a. fr. <he>פרחי כ׳</he> young priests (novices). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:22\">Y. Ber. III, 6ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Nazir 7:1:6\">Y. Naz. VII, 56ᵃ</cite> top <he>אין כ׳ היום</he> there is no priesthood to-day (the laws for priests are suspended on the day of Rabbi’s funeral). ",
+				"<cite ref=\"Tosefta Challah 2:7\">Tosef. Ḥall. II, 7</cite>, a. fr. <he>כ״ד מתנות כ׳</he> twenty-four gifts of priesthood (priestly prerogatives). ",
+				"<cite ref=\"Ketubot 14a:4\">Keth. 14ᵃ</cite> <he>כשרה לכ׳</he> fit to marry into the priesthood; a. v. fr."
+			]
+		}
+	]
+}

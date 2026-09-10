@@ -1,0 +1,52 @@
+{
+	"id": "D00906",
+	"slug": "דמע-1",
+	"headword": {
+		"text": "דָּמַע"
+	},
+	"page": {
+		"number": 314,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to flow, shed tears</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bekhorot 4:4\">Tosef. Bekh. IV, 4</cite> <he>אם … דוֹמַעַת</he> if his eye is tearing. ",
+				"<cite ref=\"Bekhorot 44a\">Bekh. 44ᵃ</cite>, v. <cite ref=\"D00850\"><he>דָּלַף</he></cite>. [<cite ref=\"Sifrei Devarim 157:11\">Sifré Deut. 157</cite> <he>עד שיהו … דומעות</he>, read: <he>שזלגו עיניו דְּמָעוֹת</he>; v. ",
+				"<cite ref=\"Mishnah Sotah 7:8\">Sot. VII, 8</cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דִּמֵּעַ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"D00909\"><he>דֶּמַע</he> II</cite>) <i>to make a thing, otherwise exempt, subject to the law of T’rumah, to mix secular grain, wine, oil &c. with T’rumah in proportions sufficient to make the whole prohibited to non-priests;</i> in gen. <i>to mix secular with sacred things</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Orlah 2:4\">Orl. II, 4</cite>; <cite ref=\"Mishnah Orlah 2:6\">6</cite> <he>המְדַמֵּעַ</he>; a. fr.—",
+						"<cite ref=\"Mishnah Terumot 3:1\">Ter. III, 1</cite> <he>אינה מְדַמַּעַת וכ׳</he> does not make <i>Dema</i> by itself (if mixed with secular fruits). ",
+						"<cite ref=\"Mishnah Terumot 3:2\">Ib. 2</cite> <he>אינה מְדַמֵּעֲתָן</he> does not make them <i>dema;</i> <he>מְדַמְּעוֹת כקטנה וכ׳</he> make <i>dema</i>, the smallest of the two being considered as an admixture; a. fr.—Part. pass. <he>מְדוּמָּע</he>. ",
+						"<cite ref=\"Mishnah Terumot 5:6\">Ib. V, 6</cite> <he>אין המדומע מדמע וכ׳</he> that which became subject to the law of T’rumah through an admixture, can affect a second mixture only in proportion, i.e. according to the quantity of real T’rumah contained therein. ",
+						"<cite ref=\"Mishnah Chagigah 3:4\">Ḥag. III, 4</cite> wine jars or oil jars <he>המְדוּמָּעוֹת</he> which have been mixed up; expl. ",
+						"<cite ref=\"Chagigah 25b\">ib. 25ᵇ</cite> <he>מד׳ דקדש</he> containing liquids, a portion of which was designated for libations."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִדְמָע"],
+			"senses": [
+				{
+					"gloss": "<i>to become Dema through mixture</i>. Ter. l. c. ",
+					"units": [
+						"<cite ref=\"Niddah 46b:52\">Nidd. 46ᵇ</cite> <he>עיסה שנִדְמְעָה</he> if a sufficient quantity of T’rumah has been put in a dough to make it forbidden to non-priests; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

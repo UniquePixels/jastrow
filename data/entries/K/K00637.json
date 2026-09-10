@@ -1,0 +1,36 @@
+{
+	"id": "K00637",
+	"slug": "כישא",
+	"headword": {
+		"text": "כִּישָׁא"
+	},
+	"page": {
+		"number": 637,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00398\"><he>כוש</he></cite> or <he>כנש</he>, cmp. <cite ref=\"K00576\"><he>כיס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bunch</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 146b:2\">B. Bath. 146ᵇ</cite> <he>כ׳ דירקא</he> a bunch of vegetables. ",
+				"<cite ref=\"Kiddushin 45b\">Kidd. 45ᵇ</cite>. ",
+				"<cite ref=\"Chullin 105b:14\">Ḥull. 105ᵇ</cite> <he>מכ׳ דאסר וכ׳</he> out of a bunch which the gardener has tied. ",
+				"<cite ref=\"Shabbat 140b:5\">Sabb. 140ᵇ</cite> <he>כ׳ כי כ׳</he> (Ms. M. <cite ref=\"B00002\"><he>ב׳</he></cite>, incorr.) a bunch is a bunch, v. <cite ref=\"A00900\"><he>אוּרְכָּא</he></cite>. ",
+				"<cite ref=\"Shabbat 140b:5\">Ib.</cite> <cite ref=\"K00642\"><he>כִּישְׁתָּא</he></cite> fem. (Ms. M. <cite ref=\"B00740\"><he>בישא</he></cite>, corr. acc.; Ar. <cite ref=\"E00264\"><he>הוּצָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a pouch</i> (of a garment).—Pl. <he>כִּישֵׁי</he>. Ib. 147ᵃ Ar. (Ms. M. <cite ref=\"K00402\"><he>כּוּשֵׁי</he></cite>), v. <cite ref=\"K00577\"><he>כִּיסָא</he></cite> a. <cite ref=\"M02614\"><he>מַרְזֵב</he></cite>.—[Ib. 108ᵇ, v. <cite ref=\"K01300\"><he>כָּשׁוֹרָא</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

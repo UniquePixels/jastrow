@@ -1,0 +1,23 @@
+{
+	"id": "A03220",
+	"slug": "ארעא-1",
+	"headword": {
+		"text": "אִרְעָא"
+	},
+	"page": {
+		"number": 125,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אֲרַע</he> I) <i>accident, occurrence</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 2:3\">Targ. Ruth II, 3</cite>.—[*Pl. <cite ref=\"A03224\"><he>אַרְעַיָּיא</he></cite> <i>evils, diseases</i>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:60\">Targ. Y. Deut. XXVIII, 60</cite> (prob. to be read <he>מַרְעַיָּא</he>).]"
+			]
+		}
+	]
+}

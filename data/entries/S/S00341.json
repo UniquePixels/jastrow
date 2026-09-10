@@ -1,0 +1,31 @@
+{
+	"id": "S00341",
+	"slug": "קולייס",
+	"headword": {
+		"text": "קוֹלְיָיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹלְיָאס"
+		},
+		{
+			"text": "קוֹלְיָס"
+		}
+	],
+	"page": {
+		"number": 1328,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κολίας) <i>colias</i>, a <i>kind</i> of <i>tunny fish</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Chullin 3:27\">Tosef. Ḥull. III</cite> (<cite ref=\"Tosefta Chullin 4:27\">IV</cite>), 27, v. <cite ref=\"A02902\"><he>אֲקוּנָס</he></cite>. ",
+				"<cite ref=\"Mishnah Makhshirin 6:3\">Makhsh. VI, 3</cite> <he>ק׳ האספנין</he> (ed. Dehr. <he>האספנן</he>), v. <cite ref=\"A02503\"><he>אִסְפָּנִי</he></cite>; <cite ref=\"Tosefta Beitsah 2:1\">Tosef. Bets. II, 1</cite> <he>קולייס האיספון</he> ed. Zuck. (ed. only <he>קוליס</he>). Tanḥ. Ki Thissa 32 <he>היה משה</he> … <he>כק׳ הזה וכ׳</he> Moses moved in the heavens like a colias (swimming in the water), until he arrived &c."
+			]
+		}
+	]
+}

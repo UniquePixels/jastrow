@@ -1,0 +1,23 @@
+{
+	"id": "S01205",
+	"slug": "קיש-1",
+	"headword": {
+		"text": "קִישׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (b. h.) <i>Kish</i>, the father of king Saul. ",
+			"units": [
+				"<cite ref=\"Megillah 12b:17\">Meg. 12ᵇ</cite> <he>בן ק̇יש̇ הק̇יש̇ וכ׳</he>, v. <cite ref=\"N01251\"><he>נָקַשׁ</he></cite>; a. e."
+			]
+		}
+	]
+}

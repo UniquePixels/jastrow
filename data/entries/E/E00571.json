@@ -1,0 +1,62 @@
+{
+	"id": "E00571",
+	"slug": "הלל-1",
+	"headword": {
+		"text": "הִלֵּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִילֵּ׳"
+		}
+	],
+	"page": {
+		"number": 353,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Hillel</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " H. the Babylonian (<he>הבבלי</he>) or Senior <he>(הזקן</he>). ",
+			"units": [
+				"<cite ref=\"Pesachim 66a\">Pes. 66ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Sanhedrin 7:11\">Tosef. Snh. VII, 11</cite>. ",
+				"<cite ref=\"Yoma 35b:13\">Yoma 35ᵇ</cite> <he>ה׳ מחייב וכ׳</he> the example of Hillel condemns the poor (who plead poverty as an excuse for not studying the Law); a. v. fr.—בֵּית ה׳ <i>Beth-Hillel, the School of H., the Hillelites</i>. ",
+				"<cite ref=\"Mishnah Beitzah 1:1\">Bets. I, 1</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " H., son of Rabban Gamliel. ",
+			"units": [
+				"<cite ref=\"Pesachim 51a:3\">Pes. 51ᵃ</cite>; <cite ref=\"Tosefta Moed Kattan 2:16\">Tosef. M. Kat. II, 16</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " R. H., son of <cite ref=\"A01926\"><he>אָלָס</he></cite> or <cite ref=\"F00064\"><he>וָולָס</he></cite>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:1:7\">Y. Kil. IX, 32ᵃ</cite> top. ",
+				"<cite ref=\"Gittin 59a:3\">Gitt. 59ᵃ</cite>; a. fr.—[<cite ref=\"Jerusalem Talmud Beitzah 5:2:10\">Y. Bets. V, 63ᵃ</cite> bot. <he>ר׳ ליל</he>, prob. a corrupt. or abbrev. of H.]"
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:5:7\">Y. Ber. II, 5ᵃ</cite> bot.; a. fr. V. Frank. M’bo p. 76ᵃ"
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " one Rabbi H. ",
+			"units": ["<cite ref=\"Sanhedrin 98b:12\">Snh. 98ᵇ</cite>, sq."],
+			"label": "5"
+		}
+	]
+}

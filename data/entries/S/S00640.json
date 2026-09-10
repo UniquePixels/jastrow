@@ -1,0 +1,30 @@
+{
+	"id": "S00640",
+	"slug": "קורקבן",
+	"headword": {
+		"text": "קוֹרְקְבָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָרְ׳"
+		}
+	],
+	"page": {
+		"number": 1344,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>קבקב׳</he>; cmp. <he>קוֹבַע</he>, <cite ref=\"K00193\"><he>כּוֹבַע</he></cite>) <i>the thick muscular stomach of birds, craw</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:3\">Ḥull. III, 3</cite>. ",
+				"<cite ref=\"Mishnah Chullin 3:6\">Ib. 6</cite> (among the characteristics of clean birds) <he>קוֹרְקְבָנוֹ נקלף</he> whose craw peels easily; <cite ref=\"Tosefta Chullin 3:6\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Chullin 4:22\">IV</cite>), 22; <cite ref=\"Chullin 61a:1\">Ḥull. 61ᵃ</cite> <he>וקוּרְקְבָנָן נקלף</he> (not <he>וקורקבן</he>); <cite ref=\"Yalkut Shimoni on Torah 537:8\">Yalk. Lev. 537</cite> <he>וקרקבנו</he> (corr. acc.); a. fr.—Pl. <he>קָרְקְבָנִין</he> (with sing. meaning). Tosef. l. c. 16 <he>באלו … אמרו בק׳ וכ׳</he> by these intestines are meant: the craw, the liver, and the heart. Sifra Vayiḳra, N’dabah, ch. VIII, Par. 7.—In gen. <i>stomach</i> (= <cite ref=\"E00636\"><he>הֶמְסֵס</he></cite>). ",
+				"<cite ref=\"Berakhot 61b:1\">Ber. 61ᵇ</cite> top <he>ק׳ טוחן</he> the stomach (of man) grinds. ",
+				"<cite ref=\"Shabbat 152a:8\">Sabb. 152ᵃ</cite> (ref. to <cite ref=\"Ecclesiastes 12:4\">Koh. XII, 4</cite>) <he>בשביל ק׳ שאינו טוחן</he> on account of the stomach’s failing to grind."
+			]
+		}
+	]
+}

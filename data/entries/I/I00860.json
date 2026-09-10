@@ -1,0 +1,139 @@
+{
+	"id": "I00860",
+	"slug": "טרף-2",
+	"headword": {
+		"text": "טְרַף",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "טְרֵיף"
+		}
+	],
+	"page": {
+		"number": 556,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00859\">same</cite><i>to take by force, seize</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 14a:6-9\">B. Mets. 14ᵃ</cite> <he>אתי … וטַרְפָהּ מיניה</he> (not <he>וטרפא</he>) the creditor came and took it from him (by legal seizure); <cite ref=\"Bava Metzia 14a:10\">ib.</cite> <he>וקא טָרֵיף ליה מיניה</he> (Ms. H. <he>וטַרְפָהּ מיניה</he>).—<he>ט׳ לקוחות</he> to seize property sold by the debtor, v. <cite ref=\"L00664\"><he>לְקוּחוֹת</he></cite>. ",
+				"<cite ref=\"Bava Metzia 19a:11\">Ib. 19ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to throw, strike, knock down</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:20\">Y. Snh. X, 29ᵃ</cite> <he>וטָרֵיף לון לארעא</he> and let them fall down. ",
+				"<cite ref=\"Eichah Rabbah 1:31\">Lam. R. to I, 5</cite> <he>ויִטְרוֹף גרמיה</he> and let him throw himself down. ",
+				"<cite ref=\"Eichah Rabbah 4:2\">Ib. to IV, 2</cite> <he>טְרוֹף קולתיך וכ׳</he> cast down thy pitcher before me; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to knock at, shake, rap</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 28a:12\">Ber. 28ᵃ</cite> <he>ט׳ אבבא</he> knocked at the door. ",
+				"<cite ref=\"Sanhedrin 97a\">Snh. 97ᵃ</cite>.—",
+				"<cite ref=\"Sanhedrin 67b:17\">Ib. 67ᵇ</cite> <he>ט׳ ליה בטבלא</he> he struck the <i>tabla</i> before him; a. v. fr.—Trnsf. <i>to carp at, to contest the validity of a decision</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:1:13\">Y. Snh. I, beg. 18ᵃ</cite> <he>בעי מִיטְרוֹף</he> wanted to protest (against R. Isaac’s decision because he acted as a single judge).—5) <i>to declare t’refah</i>. ",
+				"<cite ref=\"Chullin 10b\">Ḥull. 10ᵇ</cite>. ",
+				"<cite ref=\"Chullin 48b:11\">Ib. 48ᵇ</cite> <he>סבר</he> … <he>למִיטְרְפָהּ</he> Mar … wanted to declare it <i>t’refah;</i> a. fr.—<i>Part. pass.</i> <cite ref=\"I00860\"><he>טָרִיף</he></cite> "
+			],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>struck down</i> (in the agony of death). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 3:25\">Targ. Jud. III, 25</cite>; <cite ref=\"Targum Jonathan on Judges 4:22\">IV, 22</cite> (h. text <he>נֹפֵל</he>). ",
+						"<cite ref=\"Eichah Rabbah 4:5\">Lam. R. to IV, 5</cite> <he>טְרִיפִין בקיקלא</he> (not <cite ref=\"I00813\"><he>טריפון</he></cite>) lying on dunghills.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>thrown away</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:19\">Y. Snh. X, 29ᵃ</cite> top <he>הא טריפין לך</he> they are thrown down before thee (cmp. <cite ref=\"I00728\"><he>טְרוּן</he></cite>).—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"I00866\"><he>טרפא</he></cite>, v. <cite ref=\"I00731\"><he>טָרוּף</he></cite>) <i>spotted, full of incisions; planed</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 25a:15\">Ned. 25ᵃ</cite>; <cite ref=\"Shevuot 29b\">Shebu. 29ᵇ</cite>, v. <cite ref=\"I00731\"><he>טָרוּף</he></cite>.—[<cite ref=\"Jerusalem Talmud Sheviit 1:6:3\">Y. Shebi. I, end, 33ᶜ</cite> <he>א״ר יודן כד טריפן לעוביה</he>, read with R. S. to <cite ref=\"Mishnah Sheviit 1:8\">Shebi. I, 8</cite>: <he>א״ר יודן בר טרפון</he> or <cite ref=\"I00813\"><he>טריפון</he></cite>, <he>לעוביה</he> being a corrupt tautography of <he>ליעז׳ ב״י</he> = <he>ליעזר בן יעקב</he>.]"
+					],
+					"label": "c"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טָרֵיף"],
+			"senses": [
+				{
+					"gloss": "<i>to knock, strike, dash</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 8:12\">Targ. II Kings VIII, 12</cite> (h. text <cite ref=\"T00576\"><he>רטש</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Nahum 2:8\">Targ. Nah. II, 8</cite> (h. text <cite ref=\"V00847\"><he>תפף</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to prey, wait for prey</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 23:28\">Targ. Prov. XXIII, 28</cite> <he>מְטָרֵף</he>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to drive about</i>. Part. pass. <he>מְטַרַף</he>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 14:3\">Targ. Y. I Ex. XIV, 3</cite> (ed. Amst. <he>מִטַּ׳</he> <i>Ithpa.</i>). ",
+						"<cite ref=\"Targum Jerusalem, Numbers 12:12\">Targ. Y. II, Num. XII, 12</cite> <cite ref=\"M01066\"><he>מְטַרָפָא</he></cite>.—Trnsf. <i>to agitate, trouble</i>, v. infra."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיטָּרֵיף"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיטְּרִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be knocked about, dashed; to be tossed about; to be in spasms</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 13:16\">Targ. Is. XIII, 16</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 51:20\">Ib. LI, 20</cite>; a. e.—",
+						"<cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite> beg. <he>כהד׳ אילפא דמִיטָּרְפָא וכ׳</he> like the ship that is tossed about in the breakers &c. ",
+						"<cite ref=\"Sanhedrin 95a\">Snh. 95ᵃ</cite> <he>אתו יונה אי׳ קמיה</he> a dove came down and rolled before him in spasms.—Trnsf. <i>to be agitated, troubled</i>. ",
+						"<cite ref=\"Onkelos Genesis 41:8\">Targ. Gen. XLI, 8</cite> (some ed. <cite ref=\"M01051\"><he>מְטַר׳</he></cite> Part. pass. <i>Pa.</i>, v. supra). ",
+						"<cite ref=\"Aramaic Targum to Psalms 77:5\">Targ. Ps. LXXVII, 5</cite>; a. fr.—Y. Taan. I, 64ᵇ bot. <he>למה אִיטָּרְפוּן … להכא</he> why did the rabbis (you) take the trouble of coming hither."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be spotted, full, of incisions</i> &c., v. supra a. <cite ref=\"I00731\"><he>טָרוּף</he></cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to become</i>, or <i>be t’refah</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 57b:9\">Ḥull. 57ᵇ</cite> <he>במידי דמִיטָּרְפָה בה</he> in the same limb through the mutilation of which the animal became <i>t’refah</i>. ",
+						"<cite ref=\"Chullin 48a:13\">Ib. 48ᵃ</cite> <he>דלאו מיניה מיטָּרְפָא</he> where the cause of its being <i>t’refah</i> lies not in the mutilated limb itself."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M01143",
+	"slug": "מייש",
+	"headword": {
+		"text": "מַיִישׁ"
+	},
+	"page": {
+		"number": 772,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>mayish</i>, name of a tree, <i>Celtis</i> (v. Löw Pfl., p. 250) ‘<i>a tall tree with fruits like myrtle-berries</i>’. Sifra Vayikra, N’dab., Par. 4, ch. VI; <cite ref=\"Tosefta Menahot 9:14\">Tosef. Men. IX, 14</cite>; <cite ref=\"Tamid 29b:20\">Tam. 29ᵇ</cite>.—Pl. <he>מַיְישִׁין</he> <i>fruits of the mayish</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 72\">Gen. R. s. 72</cite>, beg. (expl. <cite ref=\"D00203\"><he>דּוֹדָאִים</he></cite>)."
+			]
+		}
+	]
+}

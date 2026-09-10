@@ -1,0 +1,28 @@
+{
+	"id": "G00122",
+	"slug": "זוג-5",
+	"headword": {
+		"text": "זֶוֶג"
+	},
+	"altHeadwords": [
+		{
+			"text": "זֶוֶוג"
+		}
+	],
+	"page": {
+		"number": 383,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00121\">preced.</cite>) <i>marriage</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 2a\">Sot. 2ᵃ</cite>; <cite ref=\"Gittin 90b:3\">Gitt. 90ᵇ</cite> <he>בז׳ ראשון</he> in first marriage; <cite ref=\"Sanhedrin 22a:21\">Snh. 22ᵃ</cite> <he>בזווג</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 70:1\">Yalk. Jud. 70</cite>, v. <cite ref=\"G00305\"><he>זִיוּוּג</he></cite>."
+			]
+		}
+	]
+}

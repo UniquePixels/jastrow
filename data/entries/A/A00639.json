@@ -1,0 +1,27 @@
+{
+	"id": "A00639",
+	"slug": "אוכחותא",
+	"headword": {
+		"text": "אוֹכָחוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹכַחְתָּא"
+		}
+	],
+	"page": {
+		"number": 25,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00362\"><he>יכח</he></cite>) <i>reproof</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:1\">Targ. Y. I Deut. I, 1</cite>; a. e."
+			]
+		}
+	]
+}

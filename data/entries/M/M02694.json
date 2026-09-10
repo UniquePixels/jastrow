@@ -1,0 +1,27 @@
+{
+	"id": "M02694",
+	"slug": "מרית",
+	"headword": {
+		"text": "מְרֵית"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרַת"
+		}
+	],
+	"page": {
+		"number": 844,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"M01306\"><he>מֵירַת</he></cite>), <he>חמר מ׳</he> <i>first flow of trodden grapes, sweet wine</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 49:26\">Targ. Is. XLIX, 26</cite> (h. text <cite ref=\"P01043\"><he>עסיס</he></cite>); a. e."
+			]
+		}
+	]
+}

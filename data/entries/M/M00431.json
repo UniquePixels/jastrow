@@ -1,0 +1,27 @@
+{
+	"id": "M00431",
+	"slug": "מוהר",
+	"headword": {
+		"text": "מוֹהַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֹהַר"
+		}
+	],
+	"page": {
+		"number": 739,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M00379\"><he>מָהַר</he></cite>)<i>exchange</i>, esp. <i>the price paid for the wife;</i> (in later practice) <i>the wife’s settlement, widowhood</i> <he>(כתובה</he>). Mekh. Mishp., N’zikin, s. 17 (ref. to <cite ref=\"Exodus 22:15\">Ex. XXII, 15</cite>) <he>מלמד שהוא עוֹשָׂהּ עליו מ׳</he> this indicates that he (the father) imposes it upon him (the seducer) as a <i>mohar</i>; <he>ואין מ׳ אלא כתובה וכ׳</he> and <i>mohar</i> means <i>k’thubah</i>, as we read (<cite ref=\"Genesis 34:12\">Gen. XXXIV, 12</cite>) &c.; <cite ref=\"Jerusalem Talmud Ketubot 3:5:3\">Y. Keth. III, 27ᵈ</cite> top (read <he>אותה</he> for <he>אותן</he>). Bab. ",
+			"units": [
+				"<cite ref=\"Ketubot 10a:4\">Keth. 10ᵃ</cite> (ref. to <cite ref=\"Exodus 22:16\">Ex. XXII, 16</cite>) <he>שיהא זה כמ׳ הבתולות וכ׳</he> that this (fine) be equal to the indemnity for outraged virginity (<cite ref=\"Deuteronomy 22:29\">Deut. XXII, 29</cite>), and the settlement of virgins be like this (indemnity, i.e. fifty Shekel silver); a. fr.—Pl. <cite ref=\"M00433\"><he>מוֹהֲרִין</he></cite>, constr. <he>מוֹהֲרֵי</he>. Y. ib. III, beg. 27ᵃ [read:] <he>אילו היה כתיב כמוֹהֲרֵי בתולות יאות</he> if it read, like the indemnities for virgins, it might be right (as you say)."
+			]
+		}
+	]
+}

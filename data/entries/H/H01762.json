@@ -1,0 +1,28 @@
+{
+	"id": "H01762",
+	"slug": "חרקא",
+	"headword": {
+		"text": "חִרְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִירְ׳"
+		}
+	],
+	"page": {
+		"number": 506,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01761\">preced.</cite>) <i>edge, notch</i>. . ",
+			"units": [
+				"<cite ref=\"Chullin 59b:5\">Ḥull. 59ᵇ</cite> <he>והוא דמיבלע חִירְקַיְיהוּ</he> provided the edges of their horns run irregularly into one another. ",
+				"<cite ref=\"Shabbat 46a:2\">Sabb. 46ᵃ</cite> <he>דאית בה חרקי</he> Ar. it has indentations (making the candlestick appear as if composed of movable parts), v. <cite ref=\"H00208\"><he>חדְקָא</he></cite>."
+			]
+		}
+	]
+}

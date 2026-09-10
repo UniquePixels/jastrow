@@ -1,0 +1,65 @@
+{
+	"id": "R00788",
+	"slug": "צרך-2",
+	"headword": {
+		"text": "צְרַךְ"
+	},
+	"page": {
+		"number": 1302,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", ch. <cite ref=\"R00787\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 16:5\">Targ. Y. II, Gen. XVI, 5</cite>.—Y. B. Bath. VIII, 16ᵇ bot. <he>צַרְכַת וזבנת וכ׳</he> she needed money and sold to her husband (the property which she had assigned to her brother). ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:1:4\">Y. Erub. V, beg. 22ᵇ</cite> [read:] <he>צ׳ לך צחק לך לא צ׳ לך הפליג עליך</he> he who needs thee may smile (assent) to thee (flatter thee), he who needs thee not, dares to wonder at thee (in disapproval); <cite ref=\"Jerusalem Talmud Sanhedrin 11:4:4\">Y. Snh. XI, 30ᵇ</cite> top <he>צריך לך שחק וכ׳</he>; a. e.—Mostly <i>pass.</i> <cite ref=\"R00774\"><he>צְרִיךְ</he></cite> <i>to need, be needed</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 11:4:4\">Ib.</cite> <he>תלת עשרה … דלא צ׳ ליה</he> he spent thirteen years … without needing him. ",
+				"<cite ref=\"Taanit 20b:6\">Taan. 20ᵇ</cite> <he>לא צְרִיכְנָא האידנא</he> now we do not need it. ",
+				"<cite ref=\"Yevamot 105b:10\">Yeb. 105ᵇ</cite> <he>תא לא צְרִיכַת</he> come back, she needs not (to be examined, or: thou needest not examine her). ",
+				"<cite ref=\"Berakhot 13b:15\">Ber. 13ᵇ</cite> <he>תו לא צריכת</he> more you need not do; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִצְטָרֵךְ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִצְטְרִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be needed; to need</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 16:5\">Targ. Y. I Gen. XVI, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 47:12\">Ib. XLVII, 12</cite>; a. fr.—",
+						"<cite ref=\"Taanit 23a:18\">Taan. 23ᵃ</cite> <he>כי מִצְטְרִיךְ עלמא למטרא</he> whenever the world needed rain. ",
+						"<cite ref=\"Berakhot 9a\">Ber. 9ᵃ</cite> <he>א׳ למכתב וכ׳</he> it was necessary (in the Scriptural text) to write <i>hazzeh</i>. ",
+						"<cite ref=\"Berakhot 13a:26-32\">Ib. 13ᵃ</cite> <he>והיו … למה לי א׳ וכ׳</he> that <i>v’hayu</i> (<cite ref=\"Deuteronomy 6:6\">Deut. VI, 6</cite>) which is written, what is it for? It is needed because of the preceding <i>sh’mʿa</i>. ",
+						"<cite ref=\"Beitzah 7a\">Bets. 7ᵃ</cite> <he>א׳ לאשמעינן</he> it was necessary to let us understand distinctly. ",
+						"<cite ref=\"Bekhorot 31a:5\">Bekh. 31ᵃ</cite> <he>אִיצְטְרִיכָא ליה שעתא</he> the time needed him, i.e. the scholars felt in need of his teaching. ",
+						"<cite ref=\"Chullin 38a:1\">Ḥull. 38ᵃ</cite> <he>איצטריכא ליה לאבא לאזוזי וכ׳</he> does Abba (do you) consider the shaking of the ears (of the animal) an indispensable symptom of vitality? <cite ref=\"Ketubot 22a:7\">Keth. 22ᵃ</cite> <he>אלא כי א׳ קרא לכדרב הונא וכ׳</he> but that citation is needed for the rule which R. H. … deduced from it. ",
+						"<cite ref=\"Ketubot 97a:10-11\">Ib. 97ᵃ</cite> <he>אִיצְטְרִיכוּ … למזבן וכ׳</he> he wanted money to buy oxen; <he>לסוף לא איצטריכו ליה</he> finally he found that he could do without it. ",
+						"<cite ref=\"Berakhot 47b:16\">Ber. 47ᵇ</cite> <he>תרי איצטריכו</he> two more persons were wanted (to make up the legal quorum); a. v. fr.—",
+						"<cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite> <he>אִיצְטַרְכִית למשאליה</he> I felt the need of asking him; Y. Ber. VII, 11ᵇ <he>אִצָּרְכַת לי</he> sub. <he>למשאליה</he>, v. <cite ref=\"R00774\"><he>צְרִיךְ</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַצְרַךְ"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"R00787\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Gittin 63b:4\">Gitt. 63ᵇ</cite> <he>אַצְרְכָהּ</he> … <he>גט</he> R. … decided that she required a letter of divorce."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

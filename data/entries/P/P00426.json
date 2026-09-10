@@ -1,0 +1,35 @@
+{
+	"id": "P00426",
+	"slug": "עזרא",
+	"headword": {
+		"text": "עֶזְרָא"
+	},
+	"page": {
+		"number": 1062,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Ezra</i>, 1) the priest and scribe.",
+			"units": []
+		},
+		{
+			"gloss": " the priest and scribe. ",
+			"units": [
+				"<cite ref=\"Sukkah 20a:11\">Succ. 20ᵃ</cite> <he>כשנשתכחה … עלה ע׳ מבבל ויסדה</he> when the Law was forgotten in Israel, Ezra came from Babylonia and re-established it. ",
+				"<cite ref=\"Berakhot 27b\">Ber. 27ᵇ</cite>; <cite ref=\"Menachot 53a:13\">Men. 53ᵃ</cite> <he>עשירי לע׳</he> a descendant of Ezra in the tenth generation. ",
+				"<cite ref=\"Megillah 15a:5\">Meg. 15ᵃ</cite> <he>מלאכי זה ע׳</he> Malachi is Ezra; a. v. fr.—(<he>ספר</he>) <he>ע׳</he> the Book of Ezra (and Nehemiah). ",
+				"<cite ref=\"Bava Batra 14b:11\">B. Bath. 14ᵇ</cite>.—[<cite ref=\"Mishnah Moed Katan 3:4\">M. Kat. III, 4</cite> (<cite ref=\"Moed Katan 18b:24\">18ᵇ</cite>) <he>ספר ע׳</he>, v. <cite ref=\"P00430\"><he>עֲזָרָה</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Amoraim. Men. l. c.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:1:3\">Y. Erub. II, beg. 19ᵈ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:2\">Y. Taan. IV, 68ᶜ</cite> top <cite ref=\"P00428\"><he>עֶזְרָה</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

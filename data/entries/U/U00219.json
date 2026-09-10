@@ -1,0 +1,45 @@
+{
+	"id": "U00219",
+	"slug": "שגח-1",
+	"headword": {
+		"text": "שָׁגַח"
+	},
+	"page": {
+		"number": 1521,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נגה</he>, <he>נגח</he>)<i>to be bright</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁגִּיחַ"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"N00065\"><he>נָבַט</he></cite>, <i>Hif.</i>) ",
+					"units": []
+				},
+				{
+					"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to look at; to consider</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Beitzah 3:6\">Bets. III, 6</cite> <he>אין מַשְׁגִּיחִין בכף וכ׳</he> you must not look at the scales at all, i.e. on the Holy Day you dare not use the scales at all, even if you employ some substitute for weights; Y. ib. 62ᵃ bot.; <cite ref=\"Tosefta Beitsah 3:5\">Tosef. ib. III, 5</cite>. ",
+						"<cite ref=\"Berakhot 52a:1\">Ber. 52ᵃ</cite> <he>אין משגיחין בבת קול</he> we do not consider a voice from on high, i.e. we are not guided in our decisions by a <i>bath ḳol</i> (v. <cite ref=\"B01377\"><he>בַּת</he> I</cite>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <he>על</he>) <i>to look for, care for, mind</i>. Y. Keth. VIII, 3ᵇ bot. <he>ואין ברייה מַשְׁגַּחַת עליה</he> and nobody will care for her (to assist her in her bereavement). ",
+					"units": [
+						"<cite ref=\"Berakhot 34b:28\">Ber. 34ᵇ</cite> <he>לא היו מַשְׁגִּיחִים עליו</he> they would have paid no attention to his prayers. ",
+						"<cite ref=\"Sanhedrin 99a:20\">Snh. 99ᵃ</cite> <he>כל מי שאינו מַשְׁגִּיחַ על המשנה</he> he who disregards the Mishnah; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

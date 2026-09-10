@@ -1,0 +1,32 @@
+{
+	"id": "O01546",
+	"slug": "סרהב-2",
+	"headword": {
+		"text": "סַרְהֵב"
+	},
+	"page": {
+		"number": 1023,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01545\">same</cite><i>to press, hurry</i>; (neut. v.) <i>to hasten, be quick</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 7:7\">Targ. Esth. VII, 7</cite> (h. text <he>עורה</he>). ",
+				"<cite ref=\"Targum of II Chronicles 26:20\">Targ. II Chr. XXVI, 20</cite> (h. text <he>מהר</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 8:8\">Targ. Ps. VIII, 8</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 47a:12\">Ber. 47ᵃ</cite> <he>הוה קמְסַרְהֵב ואכיל</he> he hastened his meal (in order to say grace with them). ",
+				"<cite ref=\"Shabbat 10b:3-4\">Sabb. 10ᵇ</cite> <he>הוה קא מסרהב ר׳ י׳</he> R. J. hurried (his teacher to adjourn). ",
+				"<cite ref=\"Chullin 7b:6\">Ḥull. 7ᵇ</cite> <he>מְסרְהִיבְנָא</he> I am in a hurry; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be rebellious</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 31:27\">Targ. Y. Deut. XXXI, 27</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

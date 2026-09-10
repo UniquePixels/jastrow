@@ -1,0 +1,31 @@
+{
+	"id": "C01214",
+	"slug": "גפר-2",
+	"headword": {
+		"text": "גְּפַר"
+	},
+	"page": {
+		"number": 263,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>גַּפֵּר</he> as <cite ref=\"C01213\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Shabbat 7:2:42\">Y. Sabb. VII, 10ᶜ</cite> top <he>מְגַפֵּר</he>, v. <cite ref=\"A01876\"><he>אֶלִּיקָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "B00706",
+	"slug": "בירוון",
+	"headword": {
+		"text": "בִּירוָון"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּרְוָן"
+		}
+	],
+	"page": {
+		"number": 165,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.<i>cypress trees;</i> sing. <cite ref=\"B01214\"><he>בְּרוֹתָא</he></cite>, v. <cite ref=\"B01342\"><he>בְּרָתָא</he></cite>.",
+			"units": []
+		}
+	]
+}

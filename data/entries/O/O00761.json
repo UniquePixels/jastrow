@@ -1,0 +1,33 @@
+{
+	"id": "O00761",
+	"slug": "סיסרא",
+	"headword": {
+		"text": "סִיסְרָא"
+	},
+	"page": {
+		"number": 984,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Sisera</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " captain of the army of Jabin king of Canaan. ",
+			"units": [
+				"<cite ref=\"Berakhot 58a:16\">Ber. 58ᵃ</cite> (ref. to <cite ref=\"I Chronicles 29:11\">I Chr. XXIX, 11</cite>, a. ",
+				"<cite ref=\"Judges 5:20\">Jud. V, 20</cite>) <he>זו מלחמת ס׳</he> this refers to the warfare against S.—",
+				"<cite ref=\"Bamidbar Rabbah 9:24\">Num. R. s. 9</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a gentile gardener. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:12\">Y. Dem. II, 22ᶜ</cite> bot."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "H01688",
+	"slug": "חריפותא",
+	"headword": {
+		"text": "חֲרִיפוּתָא"
+	},
+	"page": {
+		"number": 502,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01687\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>early manhood, energy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 29:4\">Targ. Job XXIX, 4</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rapid current, water-course</i> in the river. ",
+			"units": [
+				"<cite ref=\"Ketubot 85a:2\">Keth. 85ᵃ</cite> <he>מח׳ דנהרא</he> from the current of the river (not near the shore); <cite ref=\"Kiddushin 73b:4\">Kidd. 73ᵇ</cite> <cite ref=\"H01689\"><he>חֲרִיפְתָּא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

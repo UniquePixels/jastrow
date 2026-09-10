@@ -1,0 +1,27 @@
+{
+	"id": "U01107",
+	"slug": "שיתומא",
+	"headword": {
+		"text": "שִׁיתּוּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁתּ׳"
+		}
+	],
+	"page": {
+		"number": 1570,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U02124\"><he>שְׁתַם</he></cite>) <i>opening, boring a hole</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 69b:11\">Ab. Zar. 69ᵇ</cite> <he>דלא חייש לש׳</he> who does not apprehend that the gentile may make a hole in the stopper (to draw out wine, and close it again). Y. ib. V, 44ᵈ top <he>שִׁיתּוּמְהוֹן</he>, v. <cite ref=\"M00203\"><he>מֵגֵף</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "N00821",
+	"slug": "נכי-4",
+	"headword": {
+		"text": "נַכֵּי"
+	},
+	"page": {
+		"number": 910,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00820\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>deduction; less</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 15b:1\">Gitt. 15ᵇ</cite>; <cite ref=\"Bava Batra 57a:3\">B. Bath. 57ᵃ</cite> <he>נ׳ ריבעא</he> (the whole) less a quarter, i.e. <i>three fourths</i> (cmp. <cite ref=\"D00798\"><he>דַּל</he> I</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>loss, harm</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 4:11:5\">Y. Kidd. IV, 66ᵇ</cite> bot. <he>משם מה נַכְּיֵיה</he> because of ‘what is his loss?’, i.e. because it makes no difference in the law."
+			],
+			"label": "2"
+		}
+	]
+}

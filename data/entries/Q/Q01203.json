@@ -1,0 +1,25 @@
+{
+	"id": "Q01203",
+	"slug": "פניקטין",
+	"headword": {
+		"text": "פַּנִּיקְטִין"
+	},
+	"page": {
+		"number": 1190,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (παννύκτοι = παννύχιοι, S.) <i>all-night watches</i> (<i>pervigilia</i>), in gen. <i>camps</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 68:30\">Targ. Ps. LXVIII, 30</cite> <he>מפַּנִּיקְטֵיהוֹן</he> Ar. a. Ms. (ed. <he>מִפַּנְקְטֵי׳</he>, ed. Wil. <he>מְפַ׳</he>, corr. acc.).—",
+				"<cite ref=\"Vayikra Rabbah 1\">Lev. R. s. 1</cite> <he>היו אומות העולם … מתוך פַּנִּיקְטֵיהֶן</he> (some ed. <he>פַּנּוּקְ׳</he>) the nations were in danger of hearing the voice of divine revelation and being frightened out of their camps (Tanḥ. T’rum. 9 <he>לתוך אהליהם</he>), v. <cite ref=\"V00970\"><he>תָּרַז</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite> in three things Greece was in advance of Rome, <he>בנימוסין ובפניקטין וכ׳</he> Ar. (Ms. Paris <he>בפנקיטין</he>, ed. <he>בפנקיסין</he>, <he>בפנקיסון</he>, corr. acc.) in laws, in the arrangements of camp vigils &c."
+			]
+		}
+	]
+}

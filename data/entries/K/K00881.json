@@ -1,0 +1,80 @@
+{
+	"id": "K00881",
+	"slug": "כנש-2",
+	"headword": {
+		"text": "כְּנַשׁ"
+	},
+	"page": {
+		"number": 651,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (v. <cite ref=\"K00880\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to gather, collect; to gather in</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 35:1\">Targ. Ex. XXXV, 1</cite> (ed. Amst. <cite ref=\"K00881\"><he>כְּנַשׁ</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:8\">Targ. Koh. II, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 24:22\">Targ. Is. XXIV, 22</cite>; a. fr.—Y. Maas. Sh. IV, end, 55ᶜ <he>לית את כ׳</he> thou shalt not harvest; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>גבב</he>) <i>to rake together, to sweep</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 85a:7\">B. Mets. 85ᵃ</cite> <he>קכַנְשָׁא ביתא</he> Ms. M. (v. Rabb. D. S. a. l. note) was sweeping the house. ",
+				"<cite ref=\"Chullin 60a:2\">Ḥull. 60ᵃ</cite> <he>אתא … כַּנְשֵׁיה לימא</he> a blast of wind came and swept it (the store of provision) into the sea."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּנֵּישׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00880\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Micah 2:12\">Targ. Mic. II, 12</cite>; a. e.—",
+						"<cite ref=\"Vayikra Rabbah 25:5\">Lev. R. s. 25</cite> <he>היא מְכַנְּשָׁא להון</he> she calls the chickens together. Y. Ber. IX, end 14ᵈ <he>דמְכַנְּשִׁין</he>, v. <cite ref=\"B00160\"><he>בְּדַר</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַכְנֵישׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00880\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 11:17\">Targ. Ez. XI, 17</cite> (ed. Lag. <he>אִיכְנֵישׁ</he> <i>Pe.</i>); a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְכַּנַּשׁ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְכְּנִישׁ", "אִתְכְּנַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be gathered, to be called in; to retire</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 12:1\">Targ. Jud. XII, 1</cite> (ed. Wil. … <he>שׂ</he>) <cite ref=\"Onkelos Genesis 25:8\">Targ. Gen. XXV, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 47:6\">Targ. Jer. XLVII, 6</cite>; a. fr.—",
+						"<cite ref=\"Kohelet Rabbah 9:10\">Koh. R. to IX, 10</cite> <he>אִתְכַּנְּשׁוּן כל קרייתא וכ׳</he> all the towns (people) met to mourn for him. Tanḥ. Ki Thetsé 4 <he>טב ליה לצדיקא דאי׳ בשלם</he> (not <he>לצדיקיא</he>) it is better for the righteous man to be gathered in (die) in peace; Pesik. Zakh., p. 23ᵃ <he>טב ליה מִתְכְּנַשׁ בשלם</he>; <cite ref=\"Yalkut Shimoni on Nach 868:6\">Yalk. Ps. 868</cite> <he>טב ליה לההיא סבא דמִתְכְּנִישׁ וכ׳</he>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

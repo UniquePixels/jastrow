@@ -1,0 +1,29 @@
+{
+	"id": "R00733",
+	"slug": "צרבה",
+	"headword": {
+		"text": "צָרְבָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "צוֹרְבָה"
+		}
+	],
+	"page": {
+		"number": 1299,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00732\">preced.</cite>) <i>shrivelled surface, scar</i> (= b. h. <cite ref=\"R00734\"><he>צָרֶבֶת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 7:1\">Neg. VII, 1</cite> <he>עד שלא נעשו צ׳</he> ed. Dehr. (ed. <cite ref=\"R00734\"><he>צרבת</he></cite>) before they are cicatrized; <cite ref=\"Tosefta Negaim 2:14\">Tosef. ib. II, 14</cite> <he>צורבה</he>. ",
+				"<cite ref=\"Mishnah Negaim 6:8\">Neg. VI, 8</cite> <he>צרבה</he> Ar. (ed. <cite ref=\"R00734\"><he>צרבת</he></cite>). ",
+				"<cite ref=\"Eichah Rabbah 1:26\">Lam. R. to I, 2</cite> [read:] <he>ונושכות על לחייהם כצרבת השחין</he> and they (the tears) ate themselves into their cheeks (forming a surface) like the scars of a sore."
+			]
+		}
+	]
+}

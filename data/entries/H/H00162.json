@@ -1,0 +1,40 @@
+{
+	"id": "H00162",
+	"slug": "חגרא-1",
+	"headword": {
+		"text": "חַגְרָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חַגְרָה"
+		}
+	],
+	"page": {
+		"number": 425,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. ch.,<i>Ḥagra</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a town and province in the desert of Shur. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 16:14\">Targ. O. Gen. XVI, 14</cite> (h. text <cite ref=\"B01175\"><he>ברד</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 16:7\">Ib. 7</cite> (h. text <cite ref=\"U01054\"><he>שור</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 20:1\">Targ. Gen. XX, 1</cite>.—",
+				"<cite ref=\"Onkelos Genesis 25:18\">Targ. O. Gen. XXV, 18</cite> (v. <cite ref=\"H01003\"><he>חֲלוּצָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Petra</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> <he>רקם דח׳</he> ed. Zuck. (Var. <he>ורכה דדוגרא</he>, corrupt.); <cite ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</cite> <he>תחגרא</he>; <cite ref=\"Yalkut Shimoni on Torah 874\">Yalk. ib. 874</cite> <he>רגם דח׳</he>. V. Hildesh. Geogr. p. 51, sq. [<cite ref=\"Yevamot 116a\">Yeb. 116ᵃ</cite> Anan b. Ḥiya <he>מח׳</he>, v. <cite ref=\"M00807\"><he>מְחַגְּרָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

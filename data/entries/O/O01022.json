@@ -1,0 +1,29 @@
+{
+	"id": "O01022",
+	"slug": "סלפידים",
+	"headword": {
+		"text": "סַלְפִּידִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַלְפִּידִין"
+		},
+		{
+			"text": "סַלְפִּידָס"
+		}
+	],
+	"page": {
+		"number": 996,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (σαλπίδες, accus. -δας, a form otherwise unknown; cmp., however, σαλπίζω, fut. σαλπίσω &c.) <i>trumpets</i>, v. <cite ref=\"O01023\">next w.</cite>",
+			"units": []
+		}
+	]
+}

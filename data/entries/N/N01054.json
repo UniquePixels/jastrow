@@ -1,0 +1,65 @@
+{
+	"id": "N01054",
+	"slug": "נפל-1",
+	"headword": {
+		"text": "נָפַל"
+	},
+	"page": {
+		"number": 924,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to fall, lie down; to be dropped; to occur</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 16:2\">Sabb. XVI, 2</cite> <he>נָפְלָה דליקה</he> if a conflagration takes place. ",
+				"<cite ref=\"Mishnah Pesachim 2:3\">Pes. II, 3</cite>, v. <cite ref=\"M02200\"><he>מַפּוֹלֶת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:4:8\">Y. Sot. VII, 21ᵈ</cite> top (ref. to <cite ref=\"J00572\"><he>יקים</he></cite>, <cite ref=\"Deuteronomy 27:26\">Deut. XXVII, 26</cite>) <he>וכי יש תורה נוֹפֶלֶת</he> is there a falling law (to need erection)? <cite ref=\"Nedarim 65b:3\">Ned. 65ᵇ</cite> <he>כל הנוֹפֵל אינו נופל לידי וכ׳</he> he who falls (becomes poor) does not immediately fall into the hands of (become dependent on) the charities (but his friends support him for a time). ",
+				"<cite ref=\"Mishnah Bava Kamma 9:11\">B. Kam. IX, 11</cite>, a. fr. <he>יִפְּלוּ דמיו לנדבה</he> its equivalent must be surrendered as a donation to the Temple. ",
+				"<cite ref=\"Mishnah Bava Batra 9:4\">B. Bath. IX, 4</cite> <he>האחין … שנ׳ אחד מהן לאומנות נ׳ לאמצע</he> if one of two partner brothers (heirs) has been summoned to public service, his salary goes into the common fund. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:4:4\">Y. Shek. V, 49ᵇ</cite> top <he>בשביל ששמעתי שנפלה לך ירושה וכ׳</he> since I heard that an inheritance has fallen to thy share at a distant place, take (this as a loan) &c.; a. v. fr.—Imperat. <cite ref=\"Q00205\"><he>פּוֹל</he></cite>. ",
+				"<cite ref=\"Tosefta Demai 6:4\">Tosef. Dem. VI, 4</cite> <he>ופול תחתיי וכ׳</he> (Var. <cite ref=\"I00162\"><he>טול</he></cite>, some ed. <he>עול</he>) and surrender thyself to public service in my place (v. supra)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to fall; to throw down</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 26\">Gen. R. s. 26</cite>, v. <cite ref=\"N01041\"><he>נָפִיל</he></cite>. ",
+						"<cite ref=\"Mishnah Bava Kamma 3:10\">B. Kam. III, 10</cite> <he>ה׳ את שינו</he> struck out his tooth; <cite ref=\"Tosefta Bava Kamma 9:23\">Tosef. ib. IX, 23</cite>; a. fr.—Esp. <i>to miscarry</i>. ",
+						"<cite ref=\"Mishnah Niddah 3:1\">Nidd. III, 1</cite> <he>המַפֶּלֶת וכ׳</he> if a woman loses a lump-shaped embryo; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְנַפֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to prostrate one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 2:9\">Deut. R. s. 2</cite>, v. <cite ref=\"N00728\"><he>נִיפּוּל</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["הִנָּפֵל"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"N00728\"><he>נִיפּוּל</he></cite>) <i>to fall apart, be spoiled</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 6:3\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:14\">VII</cite>), 14 <he>שלא תִינָּפֵל הפת</he>, v. <cite ref=\"R00170\"><he>צָוַוח</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

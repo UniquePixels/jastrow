@@ -1,0 +1,23 @@
+{
+	"id": "A00567",
+	"slug": "אודם",
+	"headword": {
+		"text": "אוֹדֶם"
+	},
+	"page": {
+		"number": 22,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אדם</he>) <i>red substance, fleshy substance</i> [cmp. <cite ref=\"A00422\"><he>אֲדָמָה</he></cite>, <cite ref=\"A00418\"><he>אָדָם</he></cite>; b. h. <cite ref=\"A00567\"><he>אֹדֶם</he></cite> <i>rubin</i>]. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 8:3:7\">Y. Kil. VIII, 31ᶜ</cite> bot. <he>הא׳ מן האשה</he> from the mother the embryo receives the substance for forming skin, flesh, and blood; opp. <cite ref=\"L00182\"><he>לוֹבֶן</he></cite> white, sticky substance. ",
+				"<cite ref=\"Niddah 32b:1\">Nidd. 32ᵇ</cite> <he>למעוטי איש מא׳</he> to exempt man from being unclean from a red (blood) discharge, opp. to <cite ref=\"L00182\"><he>לובן</he></cite> white gonorrhoeic discharge."
+			]
+		}
+	]
+}

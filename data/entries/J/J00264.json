@@ -1,0 +1,72 @@
+{
+	"id": "J00264",
+	"slug": "יזף-2",
+	"headword": {
+		"text": "יִזַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיף"
+		},
+		{
+			"text": "זוּף"
+		}
+	],
+	"page": {
+		"number": 572,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00263\">same</cite><i>to borrow</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 15:6\">Targ. O. Deut. XV, 6</cite>; <cite ref=\"Onkelos Deuteronomy 28:12\">ib. XXVIII, 12</cite> <he>תְזִיף</he> (some ed. <he>תְזוּף</he>); Y. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:12\">ib.</cite> <he>למֵיזוֹף</he>.—Part. <cite ref=\"J00260\"><he>יָזֵיף</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 4:1\">Targ. II Kings IV, 1</cite> (ed. Lag. <he>מוֹזִיף</he> <i>Af.</i>).—",
+				"<cite ref=\"Bava Metzia 64a:3\">B. Mets. 64ᵃ</cite> <he>כי יְזִיף וכ׳</he> if this man shall borrow money of thee. ",
+				"<cite ref=\"Kiddushin 20a:20\">Kidd. 20ᵃ</cite> <he>ולא נֵיזִיף וכ׳</he> (some ed. <he>נוֹזִיף</he>, v. infra) rather than borrow on interest. ",
+				"<cite ref=\"Eruvin 65a:15\">Erub. 65ᵃ</cite> <he>הוה י׳ ופרע</he> Ms. M. (v. Rabb. D. S. a. l.) borrowed and paid off (made up by night for neglect of study by day). ",
+				"<cite ref=\"Taanit 12b\">Taan. 12ᵇ</cite> <he>לֵיזוֹף מר וכ׳</he> Ms. M. (ed. <he>לוֹזִיף</he>) borrow and pay back (postpone your fast for another day); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lend</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 15:2\">Targ. Y. Deut. XV, 2</cite> <he>דְּיִזּוֹף ב־</he>.—",
+				"<cite ref=\"Shabbat 119a:5\">Sabb. 119ᵃ</cite> <he>מאן דיזיף שבתא וכ׳</he> (Ms. M. <he>לשב׳</he>, Buxt. <he>דיוֹזִיף</he>) him who lends to the Sabbath (incurring an additional expense in honoring the Sabbath), the Sabbath will repay; <cite ref=\"Yalkut Shimoni on Torah 16\">Yalk. Gen. 16</cite>; <cite ref=\"Yalkut Shimoni on Nach 356\">Yalk. Is. 356</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹזִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to borrow</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 37:21\">Targ. Ps. XXXVII, 21</cite>.—",
+						"<cite ref=\"Bava Batra 32b:8\">B. Bath. 32ᵇ</cite> <he>הדרת אוֹזַפְתִּינְהוּ מינאי</he> (Rashb. <he>הדר יזפתינהו</he>, Ms. M. <he>שקלתינהו</he>) thou hast borrowed it again of me. ",
+						"<cite ref=\"Bava Metzia 63b:6\">B. Mets. 63ᵇ</cite> <he>האי מאן דאו׳ וכ׳</he> (Ms. H. <he>דיזיף</he>) if one borrowed &c. ",
+						"<cite ref=\"Kiddushin 20a\">Kidd. 20ᵃ</cite>; <cite ref=\"Taanit 12b\">Taan. 12ᵇ</cite>, v. supra.—",
+						"<cite ref=\"Eichah Rabbah 1:26\">Lam. R. to I, 2</cite> <he>אוֹזְפִיתוּן</he>, v. <cite ref=\"H00235\"><he>חוֹבָא</he></cite>.—",
+						"<cite ref=\"Vayikra Rabbah 3:1\">Lev. R. s. 3</cite> beg. <he>דיוֹזִיף וכ׳</he> some ed. he who borrows on interests."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lend</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 15:6\">Targ. O. Deut. XV, 6</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 15:8\">Ib. 8</cite> <he>אוֹזָפָא תּוֹזְפִינֵּיה</he> (Y. <he>מוּזְפָא תּוּז׳</he>). Ib. XXVIII, 12; a. e.—",
+						"<cite ref=\"Aramaic Targum to Proverbs 19:17\">Targ. Prov. XIX, 17</cite> <he>נְיוֹזִיף</he> Ms. (ed. <cite ref=\"N00458\"><he>נְזִיף</he></cite>).—",
+						"<cite ref=\"Bekhorot 8b\">Bekh. 8ᵇ</cite> <he>גברא דאו׳ וטרף דהדר מוֹזִיף …</he> he who once lent money and had to resort to seizing (v. <cite ref=\"I00860\"><he>טְרַף</he> I</cite>), why does he lend again?; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

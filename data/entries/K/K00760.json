@@ -1,0 +1,66 @@
+{
+	"id": "K00760",
+	"slug": "כלל-3",
+	"headword": {
+		"text": "כְּלָל"
+	},
+	"page": {
+		"number": 644,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00759\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>general rule, principle</i>. Sifra K’dosh., Par. 2, ch. IV (ref. to <cite ref=\"Leviticus 19:18\">Lev. XIX, 18</cite>) <he>זה כ׳ גדול וכ׳</he> this (‘love thy neighbor as thyself’) is the most important principle in the Law. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:1\">Sabb. VII, 1</cite>. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> <he>זה הכ׳</he> this is the general rule; a. v. fr.—Trnsf. <he>בִּכְלַל</he>, <he>לִכְלַל</he> <i>under the influence of</i>. ",
+				"<cite ref=\"Sifrei Bamidbar 157:9\">Sifré Num. 157</cite> <he>לפי שהיה בכ׳ כעס בא לכ׳ טעות</he> because he was under the influence of anger, he came under the influence of mistaken judgment; <cite ref=\"Yalkut Shimoni on Torah 786:14\">Yalk. ib. 786</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>community</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 49b:16\">Ber. 49ᵇ</cite> <he>לעולם אל … מן הכ׳</he> a person must never exclude himself from the community (by saying, ‘Praise ye’, instead of ‘Let us praise’). Mekh. Bo., Pisḥa, s. 18 <he>ולפי שהוציא … מן הכ׳ וכ׳</he> and as he excluded himself from the community (by saying ‘you’) &c.; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>total, sum</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 123a:21\">B. Bath. 123ᵃ</cite> <he>בכְלָלָן אתה וכ׳</he> as their sum total you find seventy (<cite ref=\"Genesis 46:27\">Gen. XLVI, 27</cite>), whereas the detailed record counts only sixty nine."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>generalization, statement by implication</i>, opp. <he>פרט</he> specification; <i>inclusion, comprehension under a class</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 26b:10\">Ber. 26ᵇ</cite>, a. fr. <he>עד ועד בכ׳</he>, v. <cite ref=\"P00111\"><he>עַד</he></cite>.—Sifra introd. <he>מכ׳ ופרט מפרט וּכְ׳ וכ׳</he> interpretation based upon a general law followed by specification, or specification followed by generalization. ",
+				"<cite ref=\"Berakhot 26b:10\">Ib.</cite> <he>כל דבר שהיה בכ׳ וכ׳</he> when a law is once laid down in general, and in another place a specification is given (e.g. ",
+				"<cite ref=\"Leviticus 7:37\">Lev. VII, 37</cite>, a. ",
+				"<cite ref=\"Leviticus 7:20\">ib. 20</cite>), it is stated specifically not for its own sake alone, but as applicable to the whole class. ",
+				"<cite ref=\"Leviticus 7:20\">Ib.</cite> beg. <he>מכ׳ ופרט וּכְ׳ אי אתה דן וכ׳</he> if a general rule is followed by a specification and this again by a generalization, you must be guided by the specification (e.g. ",
+				"<cite ref=\"Deuteronomy 14:26\">Deut. XIV, 26</cite>). ",
+				"<cite ref=\"Tosefta Sotah 8:10\">Tosef. Sot. VIII, 10</cite>; <cite ref=\"Sotah 37a:11\">Sot. 37ᵃ</cite> <he>ברוך בכ׳</he> … <he>ארור בכ׳ וכ׳</he> ‘blessed be’ was pronounced on Mount Gerizim in general (corresp. to the general curse, <cite ref=\"Deuteronomy 27:26\">Deut. XXVII, 26</cite>) and was specified (corresp. to ib. 15—25) ; ‘cursed be’ was pronounced on Mount Ebal in general (ib. 26) &c.; a. fr.—מִכְּ׳ <i>by implication</i>. ",
+				"<cite ref=\"Nedarim 11a:2\">Ned. 11ᵃ</cite>, a. fr. <he>מכ׳ לאו אתה שומע הן</he> from <i>no</i> you understand <i>yes</i>, v. <cite ref=\"E00648\"><he>הֵן</he></cite>.—",
+				"<cite ref=\"Pesachim 16b:9\">Pes. 16ᵇ</cite> <he>שהותרה מִכְּלָלָהּ וכ׳</he> which was permitted (dispensed with), by implication, for a community (if unclean, derived fr. ",
+				"<cite ref=\"Numbers 9:2\">Num. IX, 2</cite>, v. ",
+				"<cite ref=\"Pesachim 77a\">Pes. 77ᵃ</cite>). ",
+				"<cite ref=\"Chullin 37b:8\">Ḥull. 37ᵇ</cite> <he>מכ׳ דטרפה וכ׳</he> this proves by implication that <i>t’refah</i> is not the same as &c.; a. v. fr.—<he>לאו</he> … <he>כ׳</he> <i>not at all</i> (cmp. <cite ref=\"K00703\"><he>כְּלוּם</he></cite>). ",
+				"<cite ref=\"Chullin 20b:7\">Ib. 20ᵇ</cite>; a. fr.—[Mekh. Bo, beg. <he>כ׳ לדברות</he>, read: <cite ref=\"K00714\"><he>כֶּלִי</he></cite>.]—Pl. <he>כְּלָלוֹת</he> (<i>fem.</i>). ",
+				"<cite ref=\"Nazir 48b:3\">Naz. 48ᵇ</cite>. ",
+				"<cite ref=\"Sotah 37b:1\">Sot. 37ᵇ</cite>. ",
+				"<cite ref=\"Eruvin 27a:2\">Erub. 27ᵃ</cite> <he>אין למדין מן הכ׳ וכ׳</he> from general rules (the use of the word <he>כל</he>, as <cite ref=\"Mishnah Eruvin 3:1\">ib. III, 1</cite>) we must not derive anything, not even when an exception is stated (as there may be other exceptions); a. fr.—",
+				"<cite ref=\"Shemot Rabbah 32\">Ex. R. s. 32</cite>, beg. <he>כְּלָלִים</he>."
+			],
+			"label": "4"
+		}
+	]
+}

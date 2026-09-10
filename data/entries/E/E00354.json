@@ -1,0 +1,26 @@
+{
+	"id": "E00354",
+	"slug": "היזק",
+	"headword": {
+		"text": "הֶיזֵּק"
+	},
+	"page": {
+		"number": 344,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נזק</he>) <i>injury, damage, loss; danger</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 53a:19\">Gitt. 53ᵃ</cite>, a. fr. <he>ה׳ שאינו ניכר</he> a damage not discernible in the object itself (e.g. if an unclean person touches food, whereby its value is reduced, because the scope of its use is limited). ",
+				"<cite ref=\"Bava Kamma 2b:14\">B. Kam. 2ᵇ</cite> <he>שן יש הנאה להֶיזֵּיקָהּ</he> the damage done by the tooth is connected with a benefit (to the animal). ",
+				"<cite ref=\"Bava Kamma 2b:15\">Ib.</cite> <he>רגל הזיקה מצוי</he> the damage by the foot is an ordinary occurrence (and must be guarded against). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:4:4\">Y. Ber. IX, 14ᵇ</cite> top <he>ה׳ חמין</he> possible injury to health by the hot bath. ",
+				"<cite ref=\"Bereishit Rabbah 82:2\">Gen. R. s. 82</cite> <he>דבר של ה׳</he> an obnoxious thing (animal); a. fr."
+			]
+		}
+	]
+}

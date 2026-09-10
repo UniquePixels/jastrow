@@ -1,0 +1,41 @@
+{
+	"id": "H00473",
+	"slug": "חורמן",
+	"headword": {
+		"text": "חוּרְמַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּרְמָנָא"
+		}
+	],
+	"page": {
+		"number": 440,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חרם</he>, v. P. Sm. 1375) ",
+			"units": []
+		},
+		{
+			"gloss": " (adj.) <i>burning, venomous</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 2:25\">Targ. Y. Num. II, 25</cite> (ed. Amst. <he>חָרְמָן</he>). ",
+				"<cite ref=\"Onkelos Genesis 49:17\">Targ. O. Gen. XLIX, 17</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>basilisk</i>. Targ. Y. ib.—Pl. <he>חוּרְמָנִין</he>, <he>חוּרְמָנַיָּיא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:6\">Targ. Y. I Num. XXI, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 20:16\">Targ. Job XX, 16</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

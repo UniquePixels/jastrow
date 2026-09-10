@@ -1,0 +1,68 @@
+{
+	"id": "C00690",
+	"slug": "גיח",
+	"headword": {
+		"text": "גִּיחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּחַ"
+		}
+	],
+	"page": {
+		"number": 237,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"C00648\"><he>גִּיהַּ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to break forth, stir up</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 7:2\">Dan. VII, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:8\">Targ. Job XXXVIII, 8</cite> <he>במִגְחֵיה</he> (h. text <he>בגיחו</he>) when he breaks forth. [<cite ref=\"Aramaic Targum to Psalms 42:5\">Targ. Ps. XLII, 5</cite> <he>למגח</he> Ms., read <he>למחג</he>, v. <he>חגג</he>].—<he>ג׳ קרבא</he>, v. infra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. meanings of <cite ref=\"B00299\"><he>בּוּעַ</he></cite>) <i>to low</i> (of oxen). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:5\">Targ. Job VI, 5</cite> (some ed. <he>יגעי</he>, h. text <he>יגעה</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָגִיחַ", "(אַגַּח) אָגַח"],
+			"senses": [
+				{
+					"gloss": ", esp. with <cite ref=\"S01888\"><he>קרבא</he></cite> (Af. a. Pe.) <i>to attack, fight</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 1:10\">Targ. O. Ex. I, 10</cite>; <cite ref=\"Onkelos Exodus 14:14\">XIV, 14</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 21:10\">Targ. Y. Gen. XXI, 10</cite>.—",
+						"<cite ref=\"Aramaic Targum to Psalms 60:2\">Targ. Ps. LX, 2</cite> <he>אֲגִיחַ עם</he> (sub. <cite ref=\"S01888\"><he>קרבא</he></cite>). ",
+						"<cite ref=\"Onkelos Deuteronomy 20:4\">Targ. O. Deut. XX, 4</cite>; a. fr.—",
+						"<cite ref=\"Tosefta Sotah 13:5\">Tosef. Sot. XIII, 5</cite>; <cite ref=\"Sotah 33a:8\">Sot. 33ᵃ</cite> <he>לאָגָחָא קרבא</he> to wage war. ",
+						"<cite ref=\"Niddah 65b:30-31\">Nidd. 65ᵇ</cite> <he>כתובה דמַגְחֵי וכ׳</he> Ar. (ed. <he>מגבי</he>, v. <cite ref=\"C00609\"><he>גִּיב</he></cite>, Var. <he>דמגהי</he>) a marriage deed over which they fight much before signing."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתָּגַח"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"S01888\"><he>קרבא</he></cite>) <i>to be fought</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 17:16\">Targ. O. Ex. XVII, 16</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

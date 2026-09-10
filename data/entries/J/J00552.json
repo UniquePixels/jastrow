@@ -1,0 +1,49 @@
+{
+	"id": "J00552",
+	"slug": "יצת",
+	"headword": {
+		"text": "יָצַת"
+	},
+	"page": {
+		"number": 590,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., cmp. <cite ref=\"J00515\"><he>יָצָא</he></cite>) [<i>to break through, spread</i>,] <i>to kindle</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצִּית"],
+			"senses": [
+				{
+					"gloss": "<i>to kindle, cause to spread</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 6:7\">Yoma VI, 7</cite> (<cite ref=\"Yoma 67b:14\">67ᵇ</cite>) <he>משיַצִּית האור ברובן</he> ed. from the time that he (the officiating priest) causes the fire to spread over the major portion of them; [Ms. M. <he>משתַּצִּית את האור</he> from the time that thou (whoever it may be) causest &c.; Ms. M. 2 <he>משתִּיצַּת האור</he> (Kal, <cite ref=\"A00841\"><he>אור</he></cite> fem.) that the fire seizes &c.; Y. ed. <he>משיִצַּת</he>; Ms. L. <he>משיוּצַת</he> (<i>Hof.</i>) when fire has been set; v. Rabb. D. S. a. l. note]. Ib. 68ᵇ <he>המַצִּית את האור</he> he who kindles (stirs) the fire, contrad. to <he>השורף</he> who attends to the burning of the pieces. ",
+						"<cite ref=\"Menachot 26b:10\">Men. 26ᵇ</cite> <he>משתצית בו את האור</he> (Ms. M. <he>משיצית האור</he>, Ms. R. 1 <he>משתיצת</he>); <cite ref=\"Sotah 15a:4\">Sot. 15ᵃ</cite> <he>משתיצת האור</he>. Men. l. c. bot. <he>לא משכחת לה שתצית האור וכ׳</he> (Ms. R. 1 <he>שתיצת</he>; Ms. M. <he>שיצית</he>, v. Rabb. D. S. a. l. note) it is impossible that the fire should have seized the major portion of it (at sunset). ",
+						"<cite ref=\"Mishnah Tamid 2:4\">Tam. II, 4</cite> <he>שהיו מַצִּיתִין וכ׳</he> where they set the kindling wood on fire, v. <cite ref=\"A01886\"><he>אֲלִיתָא</he></cite>. ",
+						"<cite ref=\"Avodah Zarah 38a\">Ab. Zar. 38ᵃ</cite>, v. <cite ref=\"A00309\"><he>אַגָּם</he></cite>. Y. B. Kam. II, 3ᵃ <he>במַצִּית את האור וכ׳</he> setting fire to each ear of corn separately. Bab. ",
+						"<cite ref=\"Bava Kamma 22b\">B. Kam. 22ᵇ</cite> <he>בשה׳ בגופו וכ׳</he> when he set fire to the body of the slave; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּצַת"],
+			"senses": [
+				{
+					"gloss": "<i>to be set to, to be made to spread</i>. Yoma l. c., v. supra.—Part. <he>מוּצַת</he>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 59a\">B. Mets. 59ᵃ</cite> (ref. to <cite ref=\"Genesis 38:25\">Gen. XXXVIII, 25</cite>) <he>א״ת מוצאת אלא מוּצַת</he> Ar. s. v. <cite ref=\"A03391\"><he>א״ת</he></cite> (= <he>מוצתת</he>, missing in ed. a. Mss.; cmp. ",
+						"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite> a. ‘Rashi’ a. l. <he>מוצת קרי</he>) read not, ‘she was carried out’, but ‘she was about to be burnt’. ",
+						"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> (expl. <he>זהב מופז</he>, <cite ref=\"I Kings 10:18\">I Kings X, 18</cite>) <he>דומה לגפרית מוּצֶתֶת באש</he> it looks like sulphur when fire is set to it; <cite ref=\"Shir HaShirim Rabbah 3:10\">Cant. R. to III, 10</cite> <he>מוצצת</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

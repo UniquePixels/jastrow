@@ -1,0 +1,23 @@
+{
+	"id": "E00538",
+	"slug": "הלואה",
+	"headword": {
+		"text": "הַלְוָאָה"
+	},
+	"page": {
+		"number": 352,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>לוה</he>) <i>loan</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 81b:13\">B. Mets. 81ᵇ</cite> <he>בשעת הַלְוָאָתוֹ</he> at the time the loan was transacted. ",
+				"<cite ref=\"Bava Metzia 14a:9\">Ib. 14ᵃ</cite>, a. fr. <he>שטר ה׳</he> note of indebtedness, promissory note; a. fr."
+			]
+		}
+	]
+}

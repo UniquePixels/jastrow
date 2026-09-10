@@ -1,0 +1,27 @@
+{
+	"id": "D00685",
+	"slug": "דיפתי",
+	"headword": {
+		"text": "דִּיפְתִּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּפְתִּי"
+		}
+	],
+	"page": {
+		"number": 304,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Difti</i>, in Babylonia (v. Neub. Géogr. p. 390). ",
+			"units": [
+				"<cite ref=\"Chullin 87b\">Ḥull. 87ᵇ</cite>. [<cite ref=\"Eruvin 64a\">Erub. 64ᵃ</cite> <cite ref=\"C00800\"><he>גיפתי</he></cite>, marginal correct. <he>ד׳</he>; missing in Ms. M.; ed. Sonc. <he>גובתא</he>; Ms. O. <cite ref=\"G00402\"><he>זיפתי</he></cite> &c., v. Rabb. D. S. a. l. note.]"
+			]
+		}
+	]
+}

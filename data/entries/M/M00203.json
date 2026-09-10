@@ -1,0 +1,23 @@
+{
+	"id": "M00203",
+	"slug": "מגף",
+	"headword": {
+		"text": "מֵגֵף"
+	},
+	"page": {
+		"number": 730,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01211\"><he>גָּפַף</he></cite> or <cite ref=\"C00456\"><he>גּוּף</he></cite>) <i>sealer</i> of wine vessels. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:4:3\">Y. Ab. Zar. V, 44ᵈ</cite> top <he>שיתומהון דרבנן מעשה מ׳</he> (not <he>מעש</he>) the boring of which the Rabbis speak (Mish. ",
+				"<cite ref=\"Mishnah Avodah Zarah 5:4\">ib. V, 4</cite>) is the work of a professional sealer (requiring care and time)."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "L00684",
+	"slug": "לקי-2",
+	"headword": {
+		"text": "לְקִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְקָא"
+		}
+	],
+	"page": {
+		"number": 718,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"L00683\">same</cite>, <i>to be affected, disordered, smitten, punished</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 5:14\">Targ. O. Ex. V, 14</cite> <he>לְקוֹ</he> (Y. <he>לָקוּ</he>). Ib. 16 <cite ref=\"L00696\"><he>לָקָן</he></cite> (Y. <he>לָקְיָין</he>). Ib. IX, 31, sq. ",
+				"<cite ref=\"Targum Jonathan on Numbers 26:11\">Targ. Y. I Num. XXVI, 11</cite>; a. fr.—",
+				"<cite ref=\"Temurah 4b:33\">Tem. 4ᵇ</cite> <he>אמאי לָקֵי</he> why should he be punished?—",
+				"<cite ref=\"Temurah 5a:4\">Ib. 5ᵃ</cite> <he>הא נמי לִילְקֵי</he> let him, too, be punished. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:10\">Y. Kidd. I, 61ᵇ</cite> bot. <he>אין מטת מִילְקֵי וכ׳</he> if it should happen to thee to suffer, it is better that I suffer in thy place; <cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23—24</cite> <he>חילמי</he> (corr. acc.); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַלְקֵי"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"L00683\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 22:18\">Targ. Deut. XXII, 18</cite> <he>ויַלְקוֹן</he> (not <he>ויִלְ׳</he>). ",
+						"<cite ref=\"Onkelos Deuteronomy 25:2\">Ib. XXV, 2</cite>, sq.—",
+						"<cite ref=\"Targum Jonathan on I Samuel 5:6\">Targ. I Sam. V, 6</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 113b:4\">Sabb. 113ᵇ</cite> <he>כיון דמַלְקֵי</he> because it is ruinous to health.—",
+						"<cite ref=\"Kiddushin 81a:5\">Kidd. 81ᵃ</cite> <he>מַלְקֵי ומכריז</he> punished the woman of bad repute and published the cause (for the protection of her children, v. <cite ref=\"L00604\"><he>לַעַז</he></cite>). ",
+						"<cite ref=\"Kiddushin 81a:5\">Ib.</cite> <he>מר נמי לַלְקֵי וכ׳</he> why do you not likewise punish and publish?; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

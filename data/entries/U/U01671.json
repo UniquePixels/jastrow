@@ -1,0 +1,33 @@
+{
+	"id": "U01671",
+	"slug": "שעמם-1",
+	"headword": {
+		"text": "שִׁעְמֵם"
+	},
+	"page": {
+		"number": 1611,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <cite ref=\"P00903\"><he>עָמַם</he></cite>) <i>to make dull, stupefy</i>.—Part. pass. <he>מְשׁוּעֲמָם</he>; f. <he>מְשׁוּעֲמֶמֶת</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 80a\">B. Mets. 80ᵃ</cite>, v. <cite ref=\"U01669\"><he>שַׁעֲמוּמִית</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁתַּעֲמֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to be made dull, be stupefied</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10<sup>8</sup></cite> <he>יצא כל דעתו נִשְׁתַּעַמְמוּ כל הכליות וכ׳</he> all his mind is gone (in drunkenness), the kidneys (seat of deliberation) are entirely dulled, and his heart (reason) is disordered &c."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

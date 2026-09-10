@@ -1,0 +1,23 @@
+{
+	"id": "B00227",
+	"slug": "בוטט",
+	"headword": {
+		"text": "בּוֹטֵט",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 144,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00502\"><he>בְּטַט</he></cite>) <i>bright spot</i> (cloud, v. <cite ref=\"B00175\"><he>בָּהִיר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:21\">Targ. Job XXXVII, 21</cite> (Ms. <he>בּוֹטֵשׁ</he>)."
+			]
+		}
+	]
+}

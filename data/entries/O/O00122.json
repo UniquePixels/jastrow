@@ -1,0 +1,30 @@
+{
+	"id": "O00122",
+	"slug": "סגי-3",
+	"headword": {
+		"text": "סְגֵי",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "סַגְיָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 954,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְגֵי</he> I) <i>multitude, greatness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 32:13\">Targ. Gen. XXXII, 13</cite> (<cite ref=\"Onkelos Genesis 32:12\">12</cite>) <cite ref=\"M01845\"><he>מִסְּגֵי</he></cite> (O. ed. Vien. <cite ref=\"M01845\"><he>מִסַּגִּי</he></cite>; some ed. <he>מלמִסְגֵּי</he> from being too numerous). Ib. XXX, 30 (O. ed. Vien. <he>למסגי</he>, v. <cite ref=\"M01845\"><he>מִסְגֵּי</he></cite>). ",
+				"<cite ref=\"Targum Jerusalem, Exodus 23:2\">Targ. Y. II, Ex. XXIII, 2</cite> <he>סַגְיָא</he> <i>majority</i>; a. e.—V. <cite ref=\"O00123\">next w.</cite>"
+			]
+		}
+	]
+}

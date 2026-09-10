@@ -1,0 +1,35 @@
+{
+	"id": "H00440",
+	"slug": "חוק-2",
+	"headword": {
+		"text": "חוּק",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 438,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00439\">same</cite>.—<i>Part.</i> <cite ref=\"H00003\"><he>חָאִיק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 24:16\">Targ. Job XXIV, 16</cite> ed. Lag. (Var. <cite ref=\"E00013\"><he>הָאֵיק</he></cite>, ed. Wil. <cite ref=\"E00021\"><he>הָאֵק</he></cite>, oth. ed. <he>דאיק</he>, corr. acc.; h. text <he>חתר</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַיֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to dig out</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite> <he>ולִיחַיְּיקֵיה לגויה</he> Rashi a. Ms. O. (v. Rabb. D. S. a. l. note 200) let him dig out its interior. ",
+						"<cite ref=\"Sanhedrin 56a:9\">Snh. 56ᵃ</cite> (ref. to <he>נקב</he>, <cite ref=\"Leviticus 24:16\">Lev. XXIV, 16</cite>) <he>ואימא דח׳ שם וכ׳</he> may it not mean that he cut out the Divine Name in the edge of the knife?, v. <cite ref=\"N01155\"><he>נָקַב</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

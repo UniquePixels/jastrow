@@ -1,0 +1,37 @@
+{
+	"id": "I00849",
+	"slug": "טרסי-1",
+	"headword": {
+		"text": "טַרְסִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 555,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"I00850\">next w.</cite>) [<i>a Tarsian</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>weaver of metallic thread, artistic weaver</i>, differ. fr. <cite ref=\"C01277\"><he>גַּרְדִּי</he></cite>.—Pl. <he>טַרְסִיִּים</he>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 17b\">Ab. Zar. 17ᵇ</cite> Ar. a. Ms. Pes. (ed. <cite ref=\"V00996\"><he>תרס׳</he></cite>, v. Rabb. D. S. a. l. note 40). ",
+				"<cite ref=\"Sukkah 51b:7\">Succ. 51ᵇ</cite> <he>וט׳ בפ״ע וכ׳</he> (v. Rabb. D. S. a. l. note 400) artistic weavers apart and common weavers apart; <cite ref=\"Tosefta Sukkah 4:6\">Tosef. ib. IV, 6</cite>.—",
+				"<cite ref=\"Shabbat 47a:6\">Sabb. 47ᵃ</cite> <he>מטה של ט׳</he> the weavers’ horizontal loom or frame for embroidery (differ. in Rashi)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>worker in copper, bronze</i> &c. ",
+			"units": [
+				"<cite ref=\"Chullin 57b:8\">Ḥull. 57ᵇ</cite> <he>מטלית של ט׳</he> the bronzers’ apron."
+			],
+			"label": "2"
+		}
+	]
+}

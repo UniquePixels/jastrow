@@ -1,0 +1,31 @@
+{
+	"id": "A03182",
+	"slug": "ארמלו",
+	"headword": {
+		"text": "אַרְמְלוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְמְלוּת"
+		},
+		{
+			"text": "אַרְמְלוּתָא"
+		}
+	],
+	"page": {
+		"number": 123,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A03180\"><he>ארְמְלָא</he></cite>) (<i>in</i>) <i>widowhood</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 47:8\">Targ. Is. XLVII, 8</cite> sq.; a. e.—",
+				"<cite ref=\"Ketubot 75a:5\">Keth. 75ᵃ</cite>, v. <cite ref=\"I00568\"><he>טַנְדּוּ</he></cite>.—Y. Ned. V, 39ᵇ top; <cite ref=\"Bava Batra 98b\">B. Bath. 98ᵇ</cite> Ms.; ed. <cite ref=\"A01921\"><he>אַלְמָנוּת</he></cite>."
+			]
+		}
+	]
+}

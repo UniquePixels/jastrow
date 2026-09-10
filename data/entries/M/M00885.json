@@ -1,0 +1,44 @@
+{
+	"id": "M00885",
+	"slug": "מחל-1",
+	"headword": {
+		"text": "מָחַל"
+	},
+	"page": {
+		"number": 761,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"M00809\"><he>מָחָה</he></cite>) [<i>to blot out, annul</i>,] <i>to remit</i> (a debt); <i>to forgive, pardon, to forego, renounce</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 85b:9\">Keth. 85ᵇ</cite> <he>המוכר … וחזר ומְחָלוֹ מָחוּל</he> if one sells a note of indebtedness to a neighbor, and then remits the debt, it stands remitted (and the buyer of the note must settle with the creditor). ",
+				"<cite ref=\"Ketubot 85b\">Ib.</cite> <he>מְחָלַתּוּ</he> she remitted it. Y. B. Mets. VI, end, 11ᵃ <he>שמָחֲלוּ להם מוכסין</he> to whom custom officers remitted the fine. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>לשם פלוני מָחַלְנוּ</he> we remitted (the fine) for this man’s sake (individually). ",
+				"<cite ref=\"Berakhot 12b:9\">Ber. 12ᵇ</cite> <he>מוֹחֲלִין לו על כל וכ׳</he> all his sins are forgiven to him. ",
+				"<cite ref=\"Berakhot 32a:9-16\">Ib. 32ᵃ</cite> <he>איני</he> … <he>עד שתִּמְחוֹל ותסלח להם וכ׳</he> I will not leave thee until thou forgivest and pardonest &c.—",
+				"<cite ref=\"Shabbat 30a:6\">Sabb. 30ᵃ</cite> <he>מְחוֹל לי על וכ׳</he> forgive me that particular sin (the seduction of Bathsheba); <he>מָחוּל לך</he> thou art forgiven; a. v. fr.—מ׳ על כבודו <i>to forego the honor due to one’s self</i>. ",
+				"<cite ref=\"Kiddushin 32a:15\">Kidd. 32ᵃ</cite> <he>האב שמ׳ … כבודו מָחוּל</he> if a father allows a son to omit the acts of reverence due to him, his honor is remitted (the son may avail himself of the permission); <he>הרב שמ׳ וכ׳</he> but if a teacher gives permission &c.; a. fr.—",
+				"<cite ref=\"Bamidbar Rabbah 19:23\">Num. R. s. 19</cite> <he>שאין המוֹחֵל נעשה וכ׳</he> for he who is asked to forgive, must not be relentless (v. ",
+				"<cite ref=\"Mishnah Bava Kamma 8:7\">B. Kam. VIII, 7</cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְחַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be cancelled; to be forgiven, pardoned</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 17a\">B. Mets. 17ᵃ</cite>; <cite ref=\"Gittin 26b\">Gitt. 26ᵇ</cite>, a. e. <he>שטר … שכבר נ׳ שעבודו</he> on a note once given and paid off you cannot raise a loan again, because the security which it contains (v. <cite ref=\"A01052\"><he>אַחֲרָיוּת</he></cite>) has once been cancelled. ",
+						"<cite ref=\"Yoma 88a:10\">Yoma 88ᵃ</cite> <he>סדורין לִימָּחֵל</he> (his sins) lie ready to be forgiven. ",
+						"<cite ref=\"Taanit 7b:3\">Taan. 7ᵇ</cite> <he>אא״כ נִמְחֲלוּ וכ׳</he> unless Israel’s sins are forgiven. ",
+						"<cite ref=\"Mishnah Bava Kamma 8:7\">B. Kam. VIII, 7</cite> <he>אע״פ שהוא נותן אין נ׳ לו וכ׳</he> although he pays (the fine for insulting a neighbor), he is not forgiven (by the Lord), until he asks pardon; a. fr.—V. <cite ref=\"M00869\"><he>מְחִילָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

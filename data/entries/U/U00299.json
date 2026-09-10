@@ -1,0 +1,95 @@
+{
+	"id": "U00299",
+	"slug": "שהי-1",
+	"headword": {
+		"text": "שהי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁהָה"
+		},
+		{
+			"text": "שָׁהָא"
+		}
+	],
+	"page": {
+		"number": 1526,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"H01194\"><he>שאה</he></cite>)<i>to stand still, pause; to dwell, tarry</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 2:3\">Shebu. II, 3</cite> <he>או שש׳ בכדי השתחוואה</he> or if the unclean person stayed in the Temple long enough for prostration. ",
+				"<cite ref=\"Shevuot 17a:8\">Ib. 17ᵃ</cite> (mixed dict.) <he>בדלא ש׳</he> when he did not stand still (but walked constantly though slowly). ",
+				"<cite ref=\"Mishnah Yevamot 6:7\">Yeb. VI, 7</cite> <he>נשא אשה וש׳ עמה וכ׳</he> if one married a woman and lived with her ten years without issue. ",
+				"<cite ref=\"Mishnah Yevamot 6:7\">Ib.</cite> <he>רשאי השני  לִשְׁהוֹת וכ׳</he> the second husband may live with her ten years. Ib. 36ᵇ <he>כל ששהא וכ׳</he> a human birth that survived thirty days (although born in the eighth month) is not considered an abortion; <cite ref=\"Shabbat 135b:13\">Sabb. 135ᵇ</cite> <he>ששהה</he>. ",
+				"<cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite> <he>חסידים … שׁוֹהִין שעה וכ׳</he> the pious men of olden times used to tarry a while (in the synagogue) before prayer &c. ",
+				"<cite ref=\"Berakhot 32b:20-24\">Ib. 32ᵇ</cite> <he>היו שוהין שעה … וחוזרין ושוהין וכ׳</he> they waited an hour, and prayed an hour, and tarried again an hour (at synagogue); a. fr.—Esp. (ritual) <i>to pause during the act of slaughtering</i> (which makes the animal so cut unfit to eat). ",
+				"<cite ref=\"Chullin 2b:9\">Ḥull. 2ᵇ</cite> <he>שמא יִשְׁהוּ וכ׳</he> they might pause, might press the knife &c., v. <cite ref=\"U00304\"><he>שְׁהִיָּיה</he></cite>. ",
+				"<cite ref=\"Chullin 12a:7\">Ib. 12ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to delay</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁהָה", "הִשְׁהָא"],
+			"senses": [
+				{
+					"gloss": "<i>to cause delay; to detain, restrain</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 31a\">Nidd. 31ᵃ</cite> sq. <he>מהוך שמַשְׁהִין עצמן וכ׳</he> because they restrain themselves (retard effusion) &c. ",
+						"<cite ref=\"Sanhedrin 76a:25\">Snh. 76ᵃ</cite> <he>המַשְׁהֶא בתו וכ׳</he> he who retards (the marriage of) his marriageable daughter. ",
+						"<cite ref=\"Bereishit Rabbah 85:12\">Gen. R. s. 85</cite> <he>והן מַשְׁהִין אותן וכ׳</he> and they (the sons of Eli) caused them to stay away from their home one night. ",
+						"<cite ref=\"Vayikra Rabbah 37\">Lev. R. s. 37</cite>, beg. <he>שנודר ומשהה וכ׳</he> who vows (a sacrifice) and procrastinates the fulfilment of his vow. ",
+						"<cite ref=\"Vayikra Rabbah 37:1\">Ib.</cite> <he>ע״י שנדר ושָׁהָה את נדרו</he> (perh. <cite ref=\"U00296\"><he>שִׁהָה</he></cite>, <i>Pi.</i>) because he had vowed and was procrastinating &c. ",
+						"<cite ref=\"Ketubot 61a:12\">Keth. 61ᵃ</cite> <he>הכל משהין בפני השמש וכ׳</he> you may postpone every dish before the waiter (keep him from eating while he is serving), except &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["שִׁיהָה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00298\">same</cite>, <i>to delay the use of, let stand</i>. Y. Ter. VIII, 45ᶜ top <he>אסור לְשָׁהוֹתוֹ ואם שִׁיהוֹ וכ׳</he> (or <he>לַשְׁהוֹתוֹ</he>, <i>Hif.</i>) you must not let it stand, but if one did, and it turned into vinegar &c. ",
+					"units": [
+						"<cite ref=\"Yoma 2a:4\">Ib.</cite> <he>ואם שִׁיהָן</he> and if one did let them stand; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתָּהֶה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתָּהֶא", "נִשְׁתָּהֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be delayed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Rosh Hashanah 4:4\">R. Hash. IV, 4</cite> <he>פעם אחת נִשְׁתָּהוּ … מלבוא</he> once the witnesses (that had seen the new moon rise) were delayed from coming (were late). ",
+						"<cite ref=\"Niddah 27a\">Nidd. 27ᵃ</cite> <he>מעשה ונ׳ הולד אחר וכ׳</he> it occurred that a twin child was born three months after its brother; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to gaze, be undecided, deliberate</i> <cite ref=\"Bamidbar Rabbah 5\">Num. R. s. 5<sup>7</sup></cite> <he>מה אתה עומד ומִשְׁתָּהֶה</he> (some ed. <he>ומִשְׁתָּהֶא</he>) why dost thou stand and deliberate?; a. e.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

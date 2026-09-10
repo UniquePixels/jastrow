@@ -1,0 +1,61 @@
+{
+	"id": "U01960",
+	"slug": "שרי-3",
+	"headword": {
+		"text": "שרי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁרָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1629,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U01959\">preced.</cite>) <i>to loosen, untie;</i> (cmp. meaning of καταλύω) <i>to take lodging; to rest, dwell</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 11a:5-7\">Snh. 11ᵃ</cite> <he>יש … שראוי שתִּשְׁרֶה עליו שכינה</he> there is one among you who deserves that the Shechinah should rest upon him. ",
+				"<cite ref=\"Sanhedrin 65b:14\">Ib. 65ᵇ</cite> <he>כדי שתִּשְׁרֶה וכ׳</he>, v. <cite ref=\"T00870\"><he>רָעֵב</he></cite> <i>Hif.</i> ",
+				"<cite ref=\"Sanhedrin 65b:15\">Ib.</cite> <he>שׁוֹרָה עליו וכ׳</he> the spirit … comes down upon him. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:6:5\">Y. Sabb. VIII, end, 11ᶜ</cite> <he>רוח רעה שורה עליה</he> an evil spirit rests upon it (it is injurious to health). ",
+				"<cite ref=\"Bamidbar Rabbah 13:4\">Num. R. s. 13<sup>2</sup></cite> <he>אימתי שָׁרְתָה וכ׳</he> when did the Shechinah come down to rest on earth? When the Tabernacle was erected. ",
+				"<cite ref=\"Kohelet Rabbah 7:2:4\">Koh. R. to VII, 2</cite> <he>ושָׁרַת עליהם  וכ׳</he> the holy spirit rested upon them. ",
+				"<cite ref=\"Midrash Tehillim 116:9\">Midr. Till. to Ps. CXVI</cite> <he>ומלאכי … ושׁוֹרִים ביניהם</he> (not <he>ושוררים</he>) the ministering angels rejoice over them (the righteous that die), that they come to dwell among them; ed. Bub. <he>שהוא בא ושורה וכ׳</he> that he (the righteous man) comes &c.; a. v. fr.—Part. pass. <cite ref=\"U01941\"><he>שָׁרוּי</he></cite>; f. <he>שְׁרוּיָה</he>; pl. <he>שְׁרוּיִין</he>; <he>שְׁרוּיוֹת</he>. ",
+				"<cite ref=\"Yevamot 62b:19\">Yeb. 62ᵇ</cite> he that has no wife, <he>ש׳ בלא שמחה וכ׳</he> lives without joy, without blessing &c. ",
+				"<cite ref=\"Sotah 48a:7\">Sot. 48ᵃ</cite> <he>בזמן שישראל ש׳ בצער וכ׳</he> when Israel lives in trouble, and the nations in peace and happiness &c. ",
+				"<cite ref=\"Megillah 2a:23\">Meg. 2ᵃ</cite> <he>בזמן שהשנים … ש׳ על אדמתן</he> when the years were properly regulated (without Roman interference), and the Israelites lived (undisturbed) on their soil; a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to rest</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 139a:4\">Sabb. 139ᵃ</cite> <he>אין הקב״ה מַשְׁרֶה וכ׳</he> the Lord does not let his Presence rest upon Israel, until the bad judges and officers cease to exist. ",
+						"<cite ref=\"Sanhedrin 7a:17\">Snh. 7ᵃ</cite> <he>כל דיין … משרה</he> a judge that administers true justice faithfully, causes the Shechinah to dwell in Israel. ",
+						"<cite ref=\"Bereishit Rabbah 7\">Gen. R. s. 7</cite> <he>מלך … ומשרה דיורין וכ׳</he> a human king builds a palace, and lets the inmates dwell in the upper and lower stories, <he>הק״בה משרה … בחלל</he> the Lord makes inmates dwell (even) in vacant space. ",
+						"<cite ref=\"Bamidbar Rabbah 13:4\">Num. R. s. 13<sup>6</sup></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"U01069\"><he>שֵׁירוּתָא</he></cite>) <i>to board, provide a living for</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 5:8\">Keth. V, 8</cite> <he>המשרה את אשתו וכ׳</he>, v. <cite ref=\"U01335\"><he>שָׁלִישׁ</he></cite>. ",
+						"<cite ref=\"Ketubot 107a:11\">Ib. 107ᵃ</cite> <he>כשה׳ לזו ולא ה׳ לזו</he> when he provided for the one (his wife), but did not provide for the others (his children); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "H00179",
+	"slug": "חדוא",
+	"headword": {
+		"text": "חֶדְוָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֶדְוָוא"
+		},
+		{
+			"text": "חִדְ׳"
+		}
+	],
+	"page": {
+		"number": 425,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H00178\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:27\">Targ. O. Gen. XXXI, 27</cite> <cite ref=\"H00179\"><he>חִדְוָא</he></cite> ed. Berl. (Y. <he>חדווא</he>; some ed. <he>חֶדְוָן</he> pl.). pl.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:14\">Targ. Is. XXXII, 14</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (an exclamation of joy) <i>aha!</i> (h. <he>הֶאָח</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 35:21\">Targ. Ps. XXXV, 21</cite> (Var. <cite ref=\"H00183\"><he>חֶדְוָה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:25\">Ib. 25</cite> Ms. (ed. <he>חדיאת וכ׳</he>, v. <cite ref=\"H00190\"><he>חֲדֵי</he></cite>).—Pl. <he>חֶדְוָן</he>, v. supra; <cite ref=\"H00188\"><he>חֶדְוָתָא</he></cite>, v. <cite ref=\"H00188\"><he>חֶדְוְתָא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>enigma, allegory;</i> Pl. <he>חֶדְוָן</he>, v. <cite ref=\"H00261\"><he>חוּדִיתָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "Q01746",
+	"slug": "פרזומא-1",
+	"headword": {
+		"text": "פִּרְזוֹמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 1222,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. h. a. ch. (περίζωμα) <i>girdle, apron</i>; (also collect.) <i>aprons</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 11a:12\">Succ. 11ᵃ</cite> <he>רמא … לפ׳ דאינשי ביתיה</he> (Ms. M. <he>פרזימא</he>; Ms. M. 2 <cite ref=\"Q01663\"><he>פרוזמא</he></cite>) attached show-fringes to the aprons (of the women) of his household; <cite ref=\"Menachot 43a:11\">Men. 43ᵃ</cite> (Ms. M. <he>פרזי׳</he>; Ms. K. <he>פירזו׳</he>).—Pl. (Hebr.) <he>פִּרְזוֹמָאוֹת</he>, <he>פִּרְזוֹמָיוֹת</he>. ",
+				"<cite ref=\"Shabbat 125a\">Sabb. 125ᵃ</cite> <he>פרזומי׳</he> early eds. (Ms. M. <he>פרזמ׳</he>, later ed. <he>פרוזמ׳</he>, Ar. <he>פרוזמא׳</he>).—V. <cite ref=\"Q01799\"><he>פְּרִיזוֹמָטָא</he></cite>."
+			]
+		}
+	]
+}

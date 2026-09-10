@@ -1,0 +1,23 @@
+{
+	"id": "E00080",
+	"slug": "הגעלה",
+	"headword": {
+		"text": "הַגְעָלָה"
+	},
+	"page": {
+		"number": 331,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"C00785\"><he>גִּיעוּל</he></cite>, <i>the cleaning of an impure vessel</i> by means of boiling water. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 76a:7\">Ab. Zar. 76ᵃ</cite> <he>ה׳ בחמין</he> <i>hagalah</i> is always done with hot water. ",
+				"<cite ref=\"Avodah Zarah 76a:6\">Ib.</cite> <he>מאי ה׳ דקתני התם מריקה וכ׳</he> Ms. M. (ed. differ.) the <i>hagalah</i> there (in the Mishnah) means in general scouring and rinsing (also with cold water)."
+			]
+		}
+	]
+}

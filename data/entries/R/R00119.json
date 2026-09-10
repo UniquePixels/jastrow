@@ -1,0 +1,38 @@
+{
+	"id": "R00119",
+	"slug": "צדק-2",
+	"headword": {
+		"text": "צְדַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְדֵיק"
+		}
+	],
+	"page": {
+		"number": 1263,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00118\">same</cite>, <i>to be clear, just</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 19:10\">Targ. Ps. XIX, 10</cite> <he>צְדִיקוּ</he> Ms. (ed. <he>זכיאו</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַצְדֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to justify, do justice to</i>. Ib. LXXXII, 3.—א׳ דינא <i>to acknowledge the justice of divine judgment</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 22b:6\">Taan. 22ᵇ</cite> <he>דקא מַצְדִּיק דינא אנפשיה וכ׳</he> Ms. M. (ed. <he>מצדיק עליה וכ׳</he>) that he acknowledged the justice of God’s decree over him, saying (<cite ref=\"Lamentations 1:18\">Lam. I, 18</cite>) &c."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "J00257",
+	"slug": "יותרן",
+	"headword": {
+		"text": "יוּתְרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוּתְרָנָא"
+		}
+	],
+	"page": {
+		"number": 572,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"J00755\"><he>יִתְרוֹן</he></cite>, <i>advantage, profit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 28:3\">Targ. Prov. XXVIII, 3</cite> (ed. Wil. <cite ref=\"J00756\"><he>יִתְרָן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:23\">Ib. XIV, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:5\">Ib. XXI, 5</cite>."
+			]
+		}
+	]
+}

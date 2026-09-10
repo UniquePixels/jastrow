@@ -1,0 +1,48 @@
+{
+	"id": "H01553",
+	"slug": "חקי",
+	"headword": {
+		"text": "חקי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָקָה"
+		}
+	],
+	"page": {
+		"number": 496,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to draw circles, to survey</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite>, end (ref. to <cite ref=\"Genesis 12:9\">Gen. XII, 9</cite>) <he>מְהַקֶּה והולך וכ׳</he> surveying as he went along, with the direction towards the Temple."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to imitate a person’s customs, to follow a person’s footsteps</i>. Sifra K’dosh. beg. (ref. to <cite ref=\"Leviticus 19:2\">Lev. XIX, 2</cite>) <he>פמליא של מלך מה עליה להיות מְחַקָּה למלך</he> Rab. (ed. <he>פ׳ למלך ומה וכ׳</he>) what is the duty of the King’s retinue?—To follow in the wake of the King; (<cite ref=\"Yalkut Shimoni on Torah 604:2\">Yalk. Lev. 604</cite> <he>מְחַכָּה</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 2:9\">Ḥull. II, 9</cite> <he>שלא יְחַקֶּה וכ׳</he> that he may not appear to imitate the customs of the heretics."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>חִיקָּה</he> (b. h.; denom. of <cite ref=\"H01547\"><he>חֹק</he></cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

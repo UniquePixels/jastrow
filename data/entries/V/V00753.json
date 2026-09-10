@@ -1,0 +1,44 @@
+{
+	"id": "V00753",
+	"slug": "תנן-2",
+	"headword": {
+		"text": "תְּנָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּנָנָא"
+		},
+		{
+			"text": "תָּנְנָא"
+		}
+	],
+	"page": {
+		"number": 1682,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>תענן</he>, v. <cite ref=\"P00999\"><he>עָנָן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>smoke</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:17\">Targ. Gen. XV, 17</cite> (O. ed. Vien. <cite ref=\"V00752\"><he>תְּנַן</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 19:28\">Targ. O. ib. XIX, 28</cite>. ",
+				"<cite ref=\"Onkelos Exodus 19:18\">Targ. O. Ex. XIX, 18</cite> <he>תְּנָנֵה</he> (ed. Berl. <he>תְּנַנֵּה</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>vapor, reeking, stench</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 34:3\">Targ. Is. XXXIV, 3</cite> <he>תְּנָנְהוֹן</he> (h. text <he>באשם</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

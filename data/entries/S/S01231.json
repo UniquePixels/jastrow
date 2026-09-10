@@ -1,0 +1,41 @@
+{
+	"id": "S01231",
+	"slug": "קל-3",
+	"headword": {
+		"text": "קַל",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "קָל",
+			"homograph": 1
+		},
+		{
+			"text": "קָלָא"
+		}
+	],
+	"page": {
+		"number": 1371,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. = h. <cite ref=\"S00313\"><he>קוֹל</he></cite>, <i>voice, sound; rumor</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 11:13\">Targ. Ez. XI, 13</cite>. ",
+				"<cite ref=\"Onkelos Genesis 27:22\">Targ. Gen. XXVII, 22</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 92:12\">Targ. Ps. XCII, 12</cite>; a. fr.—",
+				"<cite ref=\"Moed Katan 18b:20\">M. Kat. 18ᵇ</cite> <he>ק׳ דלא פסיק</he>, v. <cite ref=\"Q01351\"><he>פְּסַק</he></cite>. ",
+				"<cite ref=\"Bava Batra 5a:2\">B. Bath. 5ᵃ</cite> <he>רמא ביה ק׳</he> raised his voice against him (rebuked him). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:6\">Y. Kil. IX, 32ᵇ</cite> top [read:] <he>ואזל ק׳ דקרעין לגופפתה</he> and the sound of (the lamentations at) the rending of garments went as far as Gof’fatha; <cite ref=\"Jerusalem Talmud Ketubot 12:3:5\">Y. Keth. XII, 35ᵃ</cite> <he>ואזיל קָלָה לקרעין וכ׳</he> (corr. acc.); a. fr.—<he>בת ק׳</he>, <he>ברת ק׳</he> = h. <he>בת קול</he> (v. <cite ref=\"B01377\"><he>בַּת</he> I</cite>) <i>divine voice</i>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 38:26\">Targ. Y. Gen. XXXVIII, 26</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 96b:4\">Snh. 96ᵇ</cite> <he>נפקת בת ק׳</he> (not <he>נפקא ק׳</he>) a divine voice came forth; a. fr.—Pl. <cite ref=\"S01321\"><he>קָלַיָּא</he></cite>, <he>קָלִין</he>, <cite ref=\"S01317\"><he>קָלֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 9:23\">Targ. Ex. IX, 23</cite>. ",
+				"<cite ref=\"Onkelos Exodus 9:29\">Ib. 29</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Psalms 93:4\">Targ. Ps. XCIII, 4</cite> <cite ref=\"S01369\"><he>קָלָן</he></cite>.—",
+				"<cite ref=\"Bava Metzia 85a:4\">B. Mets. 85ᵃ</cite> <he>מעבר ליה קָלֵיה לקָלַיְהוּ</he> the sound of his cry (in pain) drowned their (the beasts’) voices. ",
+				"<cite ref=\"Rosh Hashanah 27a:6\">R. Hash. 27ᵃ</cite> <he>תרי ק׳</he> two simultaneous (or immediately consecutive) sounds; a. e."
+			]
+		}
+	]
+}

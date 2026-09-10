@@ -1,0 +1,70 @@
+{
+	"id": "T00539",
+	"slug": "רחק-2",
+	"headword": {
+		"text": "רִחֵק"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְחֵיק"
+		}
+	],
+	"page": {
+		"number": 1469,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00538\">same</cite> <cite ref=\"Aramaic Targum to Proverbs 19:7\">Targ. Prov. XIX, 7</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 103:12\">Targ. Ps. CIII, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 53:2\">Ib. LIII, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 21:16\">Targ. Job XXI, 16</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְחֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to remove; to reject, loathe</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 103:12\">Targ. Ps. CIII, 12</cite>. ",
+						"<cite ref=\"Onkelos Exodus 33:7\">Targ. Ex. XXXIII, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 6:12\">Targ. Is. VI, 12</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 33:20\">Targ. Job XXXIII, 20</cite> (Ms. <i>Pa.</i>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be removed</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 58a:6\">Gitt. 58ᵃ</cite> <he>כמה מַרְחִיקְנָא וכ׳</he> how far am I (in my studies) from that place (the passage quoted)?"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["רַחֵק", "רָחֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to remove, keep off; to loathe, abominate; to make abominable</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 11:14\">Targ. Job XI, 14</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 6:3\">Targ. Am. VI, 3</cite> <he>מר׳ יום</he> (ed. Lag. <he>מיום</he>, corr. acc.; h. text <he>מנדים</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 2:37\">Targ. Jer. II, 37</cite> (h. text <he>מאס</he>). ",
+						"<cite ref=\"Onkelos Deuteronomy 7:26\">Targ. Deut. VII, 26</cite> (h. text <he>תעב</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 9:31\">Targ. Job IX, 31</cite>; a. fr.—Part. pass. <cite ref=\"M02637\"><he>מְרָחַק</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on Malachi 1:7\">Targ. Mal. I, 7</cite> (h. text <he>מגאל</he>).—",
+						"<cite ref=\"Shabbat 128b:17\">Sabb. 128ᵇ</cite> <he>טמאה לא מְרַחֲקָא וולדא ואי מרחקא וכ׳</he> an unclean animal (after giving birth) does not keep its young off, and if it does, it does not allow them to come near again (stimulation of the maternal instinct does not avail, v. <cite ref=\"T00516\"><he>רָחַם</he></cite>). ",
+						"<cite ref=\"Sanhedrin 29a:9\">Snh. 29ᵃ</cite> <he>משום דמְרָחֲקָא דעתיה</he> (an enemy cannot be witness,) because his mind is estranged (hostile), opp. <cite ref=\"M02453\"><he>מקרבא</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 788:1\">Yalk. Num. 788</cite>; a. e.—V. <cite ref=\"M02637\"><he>מְרָחַק</he></cite>, <cite ref=\"M02638\"><he>מְרַחַקְתָּא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

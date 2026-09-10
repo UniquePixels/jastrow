@@ -1,0 +1,49 @@
+{
+	"id": "L00290",
+	"slug": "לון-2",
+	"headword": {
+		"text": "לוּן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 700,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"L00206\"><he>לָוָה</he></cite>)<i>to join</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִלּוֹן"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִלִּין"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"S00208\"><he>קָהַל</he></cite>) <i>to rise against, murmur, rebel</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 25\">Ex. R. s. 25</cite> <he>כיון שׁהִלִּינוּ היה וכ׳</he> when they rebelled, it would have been necessary that the anger (of the Lord) &c."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְלוֹנֵן"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00289\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Batra 7:9\">Tosef. B. Bath. VII, 9</cite> <he>המִתְלוֹנְנִים והמרגלים וכ׳</he> the rebellious (<cite ref=\"Numbers 14\">Num. XIV</cite>, sq.) and the spies … took no share &c."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

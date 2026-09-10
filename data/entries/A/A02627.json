@@ -1,0 +1,24 @@
+{
+	"id": "A02627",
+	"slug": "אפון",
+	"headword": {
+		"text": "אָפוּן"
+	},
+	"page": {
+		"number": 100,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>bean</i> (cmp. <he>אפול</he> s. v. <cite ref=\"A02622\"><he>אֲפוֹלִים</he></cite>). Y. Yoma IV, 43ᶜ bot. <he>עד כא׳</he> only the size of a bean; v. <cite ref=\"H00006\"><he>חָאפוּן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:6:2\">Y. Ab. Zar. III, 43ᵃ</cite> bot. <he>וכא׳ היה</he> had the shape of a bean.—Pl. <he>אֲפוּנִים</he>, <he>אֲפוּנִין</he>. ",
+				"<cite ref=\"Mishnah Kelim 3:2\">Kel. III, 2</cite> <he>א׳ הגמלונין</he> Ar., Ms. M. (ed. <he>הגמלנים</he>) large beans; v. <cite ref=\"C01047\"><he>גַּמְלוֹן</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 21:3\">Sabb. XXI, 3</cite> (<cite ref=\"Shabbat 143a:8\">143ᵃ</cite>) <he>שער של א׳</he> (Ms. L. <he>עפ׳</he>; ed. Sonc. <cite ref=\"Q00232\"><he>פולין</he></cite>) the silique of the bean. Teb. Yom I, 5; a. fr."
+			]
+		}
+	]
+}

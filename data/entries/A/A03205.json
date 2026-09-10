@@ -1,0 +1,23 @@
+{
+	"id": "A03205",
+	"slug": "ארנקי",
+	"headword": {
+		"text": "אַרְנְקַי"
+	},
+	"page": {
+		"number": 124,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A02285\"><he>אנק</he></cite>, <cite ref=\"T00000\"><he>ר</he></cite> inserted for Dagesh) <i>merchant’s bag suspended from the neck</i>, cmp. <cite ref=\"A02053\"><he>אֲמַפְּלַי</he></cite>; in gen. <i>money-bag, purse</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:5\">Y. Kidd. I, 61ᵃ</cite> bot. ",
+				"<cite ref=\"Vayikra Rabbah 14:3\">Lev. R. s. 14</cite>; a. fr. [<cite ref=\"Vayikra Rabbah 14:2\">Ib.</cite> <he>א׳ של כסף</he>, read <cite ref=\"A00765\"><he>אוּנְקְיָא</he></cite>.]"
+			]
+		}
+	]
+}

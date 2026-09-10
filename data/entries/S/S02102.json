@@ -1,0 +1,78 @@
+{
+	"id": "S02102",
+	"slug": "קרן-3",
+	"headword": {
+		"text": "קֶרֶן"
+	},
+	"page": {
+		"number": 1422,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; v. <cite ref=\"S02101\">preced.</cite>) [<i>joint, attachment; roundness, fulness</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>horn</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:7:4\">Y. Erub. I, 19ᵇ</cite> bot. <he>זכרותו של ק׳</he>, v. <cite ref=\"G00471\"><he>זַכְרוּת</he></cite>. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 3:2\">R. Hash. III, 2</cite> <he>כל השופרות … ק׳</he> all <i>shofars</i> (horns) are fit for use on the New Year’s day, except that of a cow, because it is called <i>ḳeren</i> (and not <i>shofar</i>); <he>והלא כל … ק׳</he> do not all <i>shofars</i> also go by the name of <i>ḳeren?</i> Ib. 26ᵃ; a. v. fr.—",
+				"<cite ref=\"Mishnah Ketubot 13:2\">Keth. XIII, 2</cite>, v. <cite ref=\"R00035\"><he>צְבִי</he></cite>.—Esp. (sub. <he>נזק</he>) <i>damage done by an animal’s horn, goring</i>. ",
+				"<cite ref=\"Bava Kamma 2b:17\">B. Kam. 2ᵇ</cite>. ",
+				"<cite ref=\"Bava Kamma 4a:2\">Ib. 4ᵃ</cite>; a. fr.—Trnsf. <i>horn, trump, wind instrument</i>. ",
+				"<cite ref=\"Mishnah Kelim 11:7\">Kel. XI, 7</cite> <he>ק׳ עגולה</he> a round (wound) metal horn; contrad. to <he>פשוטה</he> a plain (straight) horn; <cite ref=\"Shabbat 47a:7\">Sabb. 47ᵃ</cite>; a. fr.—<i>Du.</i> <cite ref=\"S02108\"><he>קַרְנַיִם</he></cite>, <cite ref=\"S02108\"><he>קַרְנַיִים</he></cite>, <he>קַרְנַיִין</he>; pl. <cite ref=\"S02108\"><he>קְרָנִים</he></cite>, <he>קְרָנִין</he>, <he>קְרָנוֹת</he>. ",
+				"<cite ref=\"Tosefta Parah 2:1\">Tosef. Par. II (I), 2</cite>; <cite ref=\"Bekhorot 44a:22\">Bekh. 44ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Parah 2:2\">Par. II, 2</cite> <he>פרה שקַרְנֶיהָ וכ׳</he> a red cow whose horns and hoofs are black; Bekh. l. c. <he>שקרנים וכ׳</he> (corr. acc.). ",
+				"<cite ref=\"Chullin 60a:7\">Ḥull. 60ᵃ</cite>, a. e. <he>שור … קְרָנָיו קודמות וכ׳</he> the ox which Adam sacrificed was born with his horns (full grown) in advance of his hoofs. ",
+				"<cite ref=\"Mishnah Parah 12:9\">Par. XII, 9</cite> <he>ק׳ של יוצאי דרכים</he> the travellers’ drinking horns. ",
+				"<cite ref=\"Bereishit Rabbah 99:2\">Gen. R. s. 99</cite> <he>אלו תוקעי ק׳ וכ׳</he> these (the Levites) blow horns, and those (the Greeks) blow trumpets. ",
+				"<cite ref=\"Bereishit Rabbah 99:2\">Ib.</cite> <he>זה בעל ק׳ וזה בעל ק׳</he> this one (Joseph) is described as endowed with horns (power, <cite ref=\"Deuteronomy 33:17\">Deut. XXXIII, 17</cite>), and that one (Rome) is &c. (<cite ref=\"Daniel 7:24\">Dan. VII, 24</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:3\">Y. Shek. VI, 50ᵃ</cite> top <he>כקַרְנֵי וכ׳</he>, v. <cite ref=\"K00539\"><he>כִּילּוּיָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:3\">Ib.</cite>; <cite ref=\"Yoma 77b:17\">Yoma 77ᵇ</cite> <he>קרני חגבים</he> the antennæ of locusts; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>any projection, point; </i>",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": "<i> beam, ray.—Pl</i>. as ab. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 47:6\">Ex. R. s. 47</cite>; Tanḥ. Ki Thissa 37 <he>קרני ההוד</he> the beams of glory, <i>halo;</i> a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>projecting staff</i> or <i>handle</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 12:9\">Par. XII, 9</cite>, v. <cite ref=\"K00722\"><he>כְּלִיבָה</he></cite>. ",
+						"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> [read:] <he>קרן גלוסקאן זו</he> this point of the roll of white bread; a. e.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " (with <cite ref=\"G00171\"><he>זוית</he></cite> or without) <i>corner</i>, v. <cite ref=\"G00171\"><he>זָוִית</he></cite>. ",
+					"units": [
+						"<cite ref=\"Berakhot 17a:2\">Ber. 17ᵃ</cite> <he>שתעמידנו בק׳ אורה … בק׳ חשכה</he> that thou place us in the corner of light (position of honor), and not in the corner of obscurity. ",
+						"<cite ref=\"Menachot 42a:4\">Men. 42ᵃ</cite> <he>הטיל על הק׳</he> if one attaches the show-fringes exactly in the corner; a. fr.—<i>Pl.</i> as ab. ",
+						"<cite ref=\"Chullin 31a:11\">Ḥull. 31ᵃ</cite>, v. <cite ref=\"A01200\"><he>אִיזְמֵל</he></cite>. ",
+						"<cite ref=\"Makkot 12a\">Macc. 12ᵃ</cite> <he>תפש בקַרְנוֹתָיו</he> took hold of the projections of the altar; a. fr.—<he>יושבי קרנות</he> those seated at street corners, v. <cite ref=\"J00675\"><he>יָשַׁב</he></cite>.—[<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite>, v. <cite ref=\"J00675\"><he>יָשַׁב</he></cite> a. <cite ref=\"S01951\"><he>קָרוֹן</he></cite>.]"
+					],
+					"label": "c"
+				}
+			]
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K01237\"><he>כְּרַן</he></cite>) <i>fulness, essence</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 2:6\">Nidd. II, 6</cite>, v. <cite ref=\"K01197\"><he>כַּרְכּוֹם</he> I</cite>.—Esp. <i>principal, capital</i>. ",
+				"<cite ref=\"Mishnah Bava Kamma 9:7\">B. Kam. IX, 7</cite> <he>משלם ק׳ וחומש וכ׳</he> must pay the principal (the full value of the stolen goods) and the fine of one-fifth, and bring a guilt-offering; a. v. fr.—Trnsf. <i>the capital of reward</i> or <i>punishment laid aside for the hereafter</i>. ",
+				"<cite ref=\"Mishnah Peah 1:1\">Peah I, 1</cite>; <cite ref=\"Tosefta Peah 1:2\">Tosef. ib. I, 2</cite>, sq., v. <cite ref=\"Q01785\"><he>פֶּרִי</he></cite>; a. fr.—[<he>ק׳ אפל</he>, v. <cite ref=\"A02734\"><he>אָפִל</he> II</cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

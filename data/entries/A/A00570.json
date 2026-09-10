@@ -1,0 +1,26 @@
+{
+	"id": "A00570",
+	"slug": "אודנא-2",
+	"headword": {
+		"text": "אוּדְנָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲדִינָא"
+		}
+	],
+	"page": {
+		"number": 22,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (f.?) (= h. <cite ref=\"A00428\"><he>אֶדֶן</he></cite>; cmp. b. h. <cite ref=\"E00101\"><he>הֲדֹם</he></cite>; √<cite ref=\"D00003\"><he>דא</he></cite>, <he>דנא</he>; cmp. <cite ref=\"D00242\"><he>דּוּךְ</he></cite>) <i>foot-stool, camp-chair, folding stool</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 43:10\">Targ. Jer. XLIII, 10</cite> <he>אוּדְנֵיה</he> Ar. (ed. <he>אפדניה</he>).—Pl. <he>אוּדְנַיָּא</he>, <cite ref=\"A00402\"><he>אֲדִינַיָּא</he></cite>. Targ. II <cite ref=\"Esther 1:2\">Est. I, 2</cite> <he>תרתין אוּדְנוֹי</he> (<he>תרין</he>?) the double footstool of king Solomon. ",
+				"<cite ref=\"Tosefta Keilim Metsia 8:6\">Tosef. Kel. B. Mets. VIII, 6</cite> <he>מָטָה וישן וכ׳</he> (not <he>מיטה</he>) when it bends in (under the weight) but one can sleep on it; if it was originally so made, <cite ref=\"I00531\"><he>טמאה</he></cite> (not <cite ref=\"I00100\"><he>טהורה</he></cite>) it is unclean <he>מפני שהיא כאו׳</he> ed. Zuck. (Var. <cite ref=\"A00402\"><he>אדיניא</he></cite>, ed. <cite ref=\"A00387\"><he>אדוניא</he></cite>) because it is made like a double footstool."
+			]
+		}
+	]
+}

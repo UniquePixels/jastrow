@@ -1,0 +1,31 @@
+{
+	"id": "M01027",
+	"slug": "מטמט-1",
+	"headword": {
+		"text": "מִטְמֵט"
+	},
+	"page": {
+		"number": 768,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>נִתְמַטְמֵט</he> (contr. of <he>מעטמעט</he>, v. <cite ref=\"M02097\"><he>מָעַט</he></cite>) <i>to be crumbled, reduced to atoms</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 80b\">Erub. 80ᵇ</cite>, v. <cite ref=\"M02097\"><he>מָעַט</he></cite> <i>Nithpa.</i>"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

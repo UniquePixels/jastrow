@@ -1,0 +1,22 @@
+{
+	"id": "B00225",
+	"slug": "בוחל",
+	"headword": {
+		"text": "בּוֹחַל"
+	},
+	"page": {
+		"number": 144,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בחל</he> I) prop. <i>aversion, sickness</i>, hence (cmp. <he>באש</he>) <i>a certain stage in the growth of the fig</i> (intermediate between <cite ref=\"Q00041\"><he>פגה</he></cite> and <cite ref=\"R00582\"><he>צמל</he></cite>), <i>when its head becomes white;</i> trnsf. <i>the stage of female puberty</i> intermediate between childhood (<cite ref=\"J00370\"><he>ילדות</he></cite>) and full womanhood (<cite ref=\"B00092\"><he>בגרות</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 5:7\">Nidd. V, 7</cite> the Scholars have introduced figurative terms for the stages of womanhood: paggah, boḥal &c.; <he>ב׳ אלו ימי נעוריה</he> boḥal means the days of maidenhood. V. <cite ref=\"B00479\"><he>בָּחַל</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"id": "H00815",
+	"slug": "חינגא",
+	"headword": {
+		"text": "חִינְגָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִנְ׳"
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חגג</he>, with <cite ref=\"N00001\"><he>נ</he></cite> inserted) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circle; dancing, chorus, feast</i>.—Pl. <cite ref=\"H00817\"><he>חִינְגַּיָא</he></cite>, <he>חִינְגִּין</he>, <he>חִינְגֵּי</he>, <cite ref=\"H00815\"><he>חִנְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 9:27\">Targ. Jud. IX, 27</cite> (vintage feast).—",
+				"<cite ref=\"Gittin 57a\">Gitt. 57ᵃ</cite>, v. <cite ref=\"E00395\"><he>הִילּוּלָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dancing place</i> in the vineyards (v. <cite ref=\"M00828\"><he>מָחוֹל</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:4\">Targ. Lam. I, 4</cite> (cmp. ",
+				"<cite ref=\"Mishnah Taanit 4:8\">Taan. IV, 8</cite>).—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Targum Jonathan on Judges 21:21\">Targ. Jud. XXI, 21</cite>; <cite ref=\"Targum Jonathan on Judges 21:23\">23</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 18:6\">Targ. I Sam. XVIII, 6</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>ḥinga</i>, name of a musical instrument (h. . ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:7\">Pes. 111ᵇ</cite> <he>תלו ח׳ בגויה</he> they had a <i>ḥ.</i> suspended in the hollow of the tree.—Pl. as ab. ",
+				"<cite ref=\"Targum Jonathan on I Kings 1:40\">Targ. I Kings I, 40</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 5:1\">Targ. Ps. V, 1</cite> (h. text <he>נחילות</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 150:4\">Ib. CL, 4</cite>; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>fair</i>, esp. <i>cattle market</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 54b:18\">Sabb. 54ᵇ</cite>; <cite ref=\"Beitzah 33a:3\">Bets. 33ᵃ</cite> <he>כמאן דאזיל לח׳</he> like one going with his beast to market."
+			],
+			"label": "4"
+		}
+	]
+}

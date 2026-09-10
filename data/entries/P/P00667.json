@@ -1,0 +1,48 @@
+{
+	"id": "P00667",
+	"slug": "עיקר-2",
+	"headword": {
+		"text": "עִיקָּר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיקָּרָא"
+		},
+		{
+			"text": "עִקָּ׳"
+		}
+	],
+	"page": {
+		"number": 1075,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"P00666\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 29:19\">Targ. Job XXIX, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 28:9\">Ib. XXVIII, 9</cite> <he>עִיקַּרְהוֹן</he> Ms. (ed. <he>עִקָּרֵיהוֹן</he>, <i>pl.</i>). ",
+				"<cite ref=\"Aramaic Targum to Job 19:28\">Ib. XIX, 28</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 12:5\">Targ. Ps. XII, 5</cite> <he>כפרין בע׳</he> (v. <cite ref=\"B01124\"><he>כפר</he></cite>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 53\">Gen. R. s. 53</cite>, end, a. e. <he>על עִיקָּרֵיה</he>, v. <cite ref=\"G00735\"><he>זְרַק</he></cite>. ",
+				"<cite ref=\"Bava Metzia 103b:10\">B. Mets. 103ᵇ</cite> <he>כל עִיקַּר בלמא</he>, v. <cite ref=\"B00884\"><he>בְּלָמָא</he></cite>; a. fr.—מֵעִיקָּרָא <i>originally, at first</i>. ",
+				"<cite ref=\"Avodah Zarah 3b:12\">Ab. Zar. 3ᵇ</cite> <he>ומע׳ מאן וכ׳</he> and originally (ere this) who taught them? <cite ref=\"Avodah Zarah 41a:6\">Ib. 41ᵃ</cite> <he>מע׳ סבור … ולבסוף וכ׳</he> at first they thought …, but finally &c.; a. v. fr.—Pl. <he>עִיקָּרִין</he>, <he>עִיקָּרַיָּא</he>, <cite ref=\"P00667\"><he>עִקָּ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Micah 6:2\">Targ. Mic. VI, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 36:30\">Targ. Job XXXVI, 30</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a castrated animal</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 152a:5\">Sabb. 152ᵃ</cite>, v. <cite ref=\"A01584\"><he>אִיקָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

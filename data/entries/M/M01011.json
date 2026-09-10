@@ -1,0 +1,30 @@
+{
+	"id": "M01011",
+	"slug": "מטללא",
+	"headword": {
+		"text": "מַטְלָלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְטָלָא"
+		}
+	],
+	"page": {
+		"number": 768,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טְלַל</he> I) <i>shelter, hut, booth</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 10:9\">Targ. Ps. X, 9</cite> (Ms. <cite ref=\"M01011\"><he>מְטַלְלָא</he></cite>).—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:1:4\">Y. Succ. III, beg. 53ᶜ</cite> <he>עביד ליה מטלא וכ׳</he> put up a festive booth for himself in the street.—Pl. (<cite ref=\"M01007\"><he>מְטַלַּיָּא</he></cite>) <cite ref=\"M01007\"><he>מְטָלַיָּא</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 23:42\">Targ. O. Lev. XXIII, 42</cite> (ed. Amst. <cite ref=\"M01010\"><he>מְטָלַיָּת</he></cite>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 11:11\">Targ. II Sam. XI, 11</cite>; a. fr."
+			]
+		}
+	]
+}

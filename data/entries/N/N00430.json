@@ -1,0 +1,32 @@
+{
+	"id": "N00430",
+	"slug": "נזז-1",
+	"headword": {
+		"text": "נָזַז",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 890,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"G00145\"><he>זוּז</he> I</cite>) <i>to be unsteady</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <he>שנ׳ לבו עליו</he> Ar. (ed. <he>נתגאה</he>; <cite ref=\"Shemot Rabbah 37\">Ex. R. s. 37</cite>, v. <cite ref=\"G00151\"><he>זוּחַ</he> I</cite>) whose heart within him was unsteady (whose mind was unbalanced, who was wanton)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזִּיז"],
+			"senses": [
+				{
+					"gloss": "<i>to make unsteady</i>. Part. pass. <he>מוּזָּז</he>, pl. <he>מוּזִּין</he> <i>staggering, reeling</i>. Pesik. Zutr. Haăz., ed. Bub. p. 115 (expl. <he>מזי רעב</he>, <cite ref=\"Deuteronomy 32:24\">Deut. XXXII, 24</cite>) <he>שיהו מ׳ … מפני הרעב</he> they shall be reeling and shall fall on the dunghill from hunger; <cite ref=\"Sifrei Devarim 321:4\">Sifré Deut. 321</cite> <he>מאווים ברעב</he> (or <he>מאוזים</he>, read: <he>מוּזָּזִים</he>) staggering in starvation; <cite ref=\"Yalkut Shimoni on Torah 945:20\">Yalk. ib. 945</cite> <cite ref=\"M00444\"><he>מוּוָּחִין</he></cite>, v. <cite ref=\"N00432\"><he>נָזַח</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

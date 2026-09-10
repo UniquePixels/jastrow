@@ -1,0 +1,27 @@
+{
+	"id": "U00298",
+	"slug": "שהות",
+	"headword": {
+		"text": "שָׁהוּת"
+	},
+	"page": {
+		"number": 1526,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00296\"><he>שָׁהָה</he></cite>) <i>while, time</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:25\">Y. Ber. I, 2ᵈ</cite> top; <cite ref=\"Bereishit Rabbah 12:13\">Gen. R. s. 12</cite> <he>על ידי ש׳</he> in the course of time. ",
+				"<cite ref=\"Meilah 6a:19\">Meïl. 6ᵃ</cite> (in Chald. dict.) <he>דלא הוה ש׳ למזרקיה</he> he had not had the time to sprinkle it; (<cite ref=\"Meilah 6a:19\">ib.</cite> <cite ref=\"U01645\"><he>שעות</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:4:2\">Y. Maasr. III, 50ᵈ</cite> bot. <he>נותנין לו ש׳ כדי וכ׳</he> we allow him an interval of time for cracking &c. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:4:2\">Ib.</cite> <he>בתוך כדי ש׳ שנייה</he> within the interval allowed for the second act <cite ref=\"Jerusalem Talmud Shabbat 4:3:5\">Y. Sabb. IV, end, 7ᵃ</cite> <he>כאן לשעה כאן לשׁ׳</he> in the one case it means (chafing) for a while, in the other for some time. ",
+				"<cite ref=\"Rosh Hashanah 30b:10\">R. Hash. 30ᵇ</cite> <he>כדי שיהא שׁ׳ ביום וכ׳</he> that there be time left during the day to offer &c. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 1:2:6\">Y. Hor. I, 46ᵃ</cite> top <he>וש׳ ביניהון וכ׳</he> and the difference between them is the word <i>time;</i> R. M. says <he>נותנין לו ש׳ וכ׳</he> we allow him time &c., v. <cite ref=\"U01511\"><he>שָׁמַע</he></cite>; a. fr."
+			]
+		}
+	]
+}

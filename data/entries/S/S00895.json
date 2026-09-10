@@ -1,0 +1,28 @@
+{
+	"id": "S00895",
+	"slug": "קיטול",
+	"headword": {
+		"text": "קִיטּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטּ׳"
+		}
+	],
+	"page": {
+		"number": 1357,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00774\"><he>קְטַל</he></cite>) <i>slaughter, massacre</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 22:5\">Targ. Is. XXII, 5</cite> (ed. Wil. <cite ref=\"S00711\"><he>קְטוֹל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 30:25\">Ib. XXX, 25</cite> (ed. Wil. <cite ref=\"S00711\"><he>קְטוֹל</he></cite>)."
+			]
+		}
+	]
+}

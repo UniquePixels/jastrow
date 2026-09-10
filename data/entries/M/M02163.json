@@ -1,0 +1,25 @@
+{
+	"id": "M02163",
+	"slug": "מעק",
+	"headword": {
+		"text": "מְעַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְעֵיק"
+		}
+	],
+	"page": {
+		"number": 819,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"M00578\"><he>מוּק</he></cite>) <i>to beat, stamp;</i> trnsf. <i>to scorn</i>. Part. <cite ref=\"M02118\"><he>מָעֵיק</he></cite>, f. <cite ref=\"M02119\"><he>מְעִיקָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 19:21\">Targ. II Kings XIX, 21</cite>; <cite ref=\"Isaiah 37:22\">Is. XXXVII, 22</cite>, v. <cite ref=\"M00578\"><he>מוּק</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:3:15\">Y. Ber. II, 4ᵈ</cite> top <he>למחר … ואינון מְעִיקִין לן</he> to-morrow they will be with us (the dead), and now they scorn us (by treading on our graves)."
+			]
+		}
+	]
+}

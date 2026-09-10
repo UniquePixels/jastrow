@@ -1,0 +1,36 @@
+{
+	"id": "R00006",
+	"slug": "צאי-1",
+	"headword": {
+		"text": "צאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָאָה"
+		}
+	],
+	"page": {
+		"number": 1256,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"R00149\"><he>צוֹאָה</he></cite>) <i>to soil</i>. Part. pass. <cite ref=\"R00005\"><he>צָאוּי</he></cite> <i>dirty, unwashed</i> (<i>wool</i>). ",
+			"units": [
+				"<cite ref=\"Tosefta Chullin 10:5\">Tosef. Ḥull. X, 5</cite> (ed. Zuck. <cite ref=\"R00186\"><he>צוֹי</he></cite>), v. <cite ref=\"R00150\"><he>צוֹאִי</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צָאֵה"],
+			"senses": [
+				{
+					"gloss": "<i>to treat as excrement</i>. Y. Sabb. IX, 11ᵈ (ref. to <he>צֵא</he>, <cite ref=\"Isaiah 30:22\">Is. XXX, 22</cite>, v. LXX) <he>צָאיהוּ נבלהו</he>, v. <cite ref=\"N00089\"><he>נָבֵל</he></cite>; Y. Ab. Zar. III, 43ᵃ bot. <he>צָאֵהוּ</he>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

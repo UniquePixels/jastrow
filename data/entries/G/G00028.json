@@ -1,0 +1,33 @@
+{
+	"id": "G00028",
+	"slug": "זבורית",
+	"headword": {
+		"text": "זִבּוּרִית"
+	},
+	"page": {
+		"number": 378,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זבר</he>, cmp. <he>צבר</he> a. also <cite ref=\"G00665\"><he>זַרְבּוּבִית</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a receptacle for drippings fastened</i> (<i>or belonging</i>) <i>to the bottom of a vessel, saucer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 10:71\">Mikv. X, 71</cite> <he>בלא ז׳</he> if the vessel to be immersed has no saucer (a rim at the bottom, wider than the belly of the vessel and which forces the water into the latter); (Var. <cite ref=\"G00269\"><he>זִיבּוּרִית</he></cite>, <he>זוּבְרִית</he>, <he>זִיבָּרִין</he>). [Rabad to Maim. ",
+				"<cite ref=\"Mishnah Mikvaot 3:12\">Mikv. III, 12</cite> reads <cite ref=\"G00665\"><he>זַרְבּוּבִית</he></cite> q. v.]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lowest land</i>, v. <cite ref=\"G00269\"><he>זִיבּוּרִית</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

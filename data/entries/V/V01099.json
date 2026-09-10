@@ -1,0 +1,35 @@
+{
+	"id": "V01099",
+	"slug": "תשמישתא",
+	"headword": {
+		"text": "תַּשְׁמִישְׁתָּא"
+	},
+	"page": {
+		"number": 1704,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"V01098\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>use, handling</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 7b:5\">Sabb. 7ᵇ</cite> <he>ניחא תַשְׁמִישְׁתֵּיה</he>, v. <cite ref=\"N00645\"><he>נִיחָא</he> I</cite>. ",
+				"<cite ref=\"Bava Batra 61b:8\">B. Bath. 61ᵇ</cite> <he>הא ת׳ לחור וחא ת׳ לחוד</he> the purpose which this (the house) serves is different from what this (the castle) serves; <cite ref=\"Bava Batra 61b:8\">ib.</cite> <he>כולא חדא ת׳ היא</he> it all serves the same purpose; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sexual intercourse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 18:6\">Targ. Y. Lev. XVIII, 6</cite>; <cite ref=\"Targum Jonathan on Leviticus 18:21\">21</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "B01323",
+	"slug": "ברקוריאני",
+	"headword": {
+		"text": "בַּרְקוּרְיָאנִי"
+	},
+	"page": {
+		"number": 197,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (disguise of Herculiani, cmp. <cite ref=\"D00371\"><he>דּוּרְמוֹס</he></cite>) <i>Herculiani</i>, a cohort of pretorians named after Diocletian (Heraclius). ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite> <he>יכולני וכ׳</he> (read <he>יוֹבְיָינִי</he>); some ed. <he>בר קוריאני</he> (in two words) Joviani and Herculiani. v. Sachs Beitr. I, 113 sq., ref. to Amm. Marc. XXII, 3, 2."
+			]
+		}
+	]
+}

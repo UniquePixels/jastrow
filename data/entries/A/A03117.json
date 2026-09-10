@@ -1,0 +1,24 @@
+{
+	"id": "A03117",
+	"slug": "אריסטון-1",
+	"headword": {
+		"text": "אֲרִיסְטוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 120,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἄριστον) orig. <i>morning meal</i>, later <i>principal meal, dinner, repast</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:16\">Y. Ber. IV, 7ᵇ</cite> <he>אין הווה לכון א׳ כ׳</he> if ye are invited to a dinner, and the day is advanced, &c. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:8:8\">Y. Snh. III, 21ᶜ</cite> top <he>גו א׳</he> during dinner. Ib. VI, 23ᶜ; a. fr."
+			]
+		}
+	]
+}

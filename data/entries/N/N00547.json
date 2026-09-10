@@ -1,0 +1,25 @@
+{
+	"id": "N00547",
+	"slug": "נטופא-2",
+	"headword": {
+		"text": "נָטוֹפָא"
+	},
+	"page": {
+		"number": 898,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"N00578\"><he>נְטַף</he></cite>) = h. <cite ref=\"N00577\"><he>נָטָף</he></cite>, <i>balm</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 30:34\">Targ. O. Ex. XXX, 34</cite> (ed. Vien. <he>נְ׳</he>). ",
+				"<cite ref=\"Targum of I Chronicles 2:54\">Targ. I Chr. II, 54</cite> (Var. ed. Rahmer <cite ref=\"N00550\"><he>נטופתי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ruth 4:20\">Targ. Ruth IV, 20</cite>.—",
+				"<cite ref=\"Gittin 69b:1\">Gitt. 69ᵇ</cite> <he>וניגבול בנְטָפָא</he> let him knead it with balm."
+			]
+		}
+	]
+}

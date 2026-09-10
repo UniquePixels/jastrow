@@ -1,0 +1,24 @@
+{
+	"id": "S00603",
+	"slug": "קוריוטה",
+	"headword": {
+		"text": "קוּרְיוֹטָה"
+	},
+	"page": {
+		"number": 1342,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>cariota, caryota</i>, a species of <i>dates</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:5:6\">Y. Ab. Zar. I, 39ᵈ</cite> bot. (expl. <cite ref=\"H01497\"><he>חֲצָד</he></cite>); Bab. ",
+				"<cite ref=\"Avodah Zarah 14b:8\">Ab. Zar. 14ᵇ</cite> (expl. <he>נקלס</he>) <cite ref=\"S00608\"><he>קוּרְיָיטֵי</he></cite> pl. (Ms. M. <he>קולאטא</he>, <he>קורי אטא</he>, <he>קוריטי</he>, v. Rabb. D. S. a. l.). ",
+				"<cite ref=\"Berakhot 50b:5\">Ber. 50ᵇ</cite> <he>חזי לקורייטי</he> is fit for a drink made of cariota (cariotum), v. Löw, Pfl., p. 111."
+			]
+		}
+	]
+}

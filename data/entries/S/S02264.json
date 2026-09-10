@@ -1,0 +1,98 @@
+{
+	"id": "S02264",
+	"slug": "קשר-1",
+	"headword": {
+		"text": "קָשַׁר"
+	},
+	"page": {
+		"number": 1432,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to strengthen</i>, v. ",
+			"units": [
+				"<cite ref=\"Genesis 30:41\">Gen. XXX, 41</cite>, sq.] <i>to join, knot, tie; to fold</i>. ",
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>הקוֹשֵׁר והמתיר</he> he that makes a knot or unties it. Y. ib. 10ᶜ <he>שהיו קוֹשְׁרִין וכ׳</he> they knotted the ropes (of the Tabernacle). Ib. <he>נפסק היה קוֹשְׁרוֹ</he> when a thread was broken (in weaving), one knotted it. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 8:10:4\">Y. Gitt. VIII, end, 49ᵈ</cite> <he>אפי׳ קושר וכ׳</he> even if he folds (the document) up, and then has it signed. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 8:10:4\">Ib.</cite> <he>בשׁקְשָׁרוֹ וחתמו וכ׳</he> when he folded it and had it signed inside; a. fr.—Trnsf. "
+			],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"H01646\"><he>חָרַז</he></cite>) <i>to compose and arrange</i> (<i>a funeral song or eulogy</i>). ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Yoma 1:1:8\">Y. Yoma I, 38ᵇ</cite> <he>קָשְׁרוּ הספידו</he> they arranged his eulogy. Lam. R. introd. (R. Joḥ. 1), v. <cite ref=\"M01986\"><he>מִסְפֵּד</he></cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>conceive, form an affection</i>. Pesik. B’shallaḥ, p. 80ᵃ <he>הוא קושר לו אהבה וכ׳</he> he acquires love and affection for him; <cite ref=\"Bereishit Rabbah 54\">Gen. R. s. 54</cite>; <cite ref=\"Yalkut Shimoni on Nach 954\">Yalk. Prov. 954</cite>; a. e.—Part. pass. <cite ref=\"S02226\"><he>קָשׁוּר</he></cite>; f. <he>קְשׁוּרָה</he> &c. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Niddah 1:3:7\">Y. Nidd. I, 49ᵇ</cite> top <he>אילו יהושע שהיה ק׳ למשה וכ׳</he> a Joshua who was tied to Moses (his constant attendant) could not have spoken so (that Moses had not said a certain thing), and he says so (of R. Jeremiah)? <cite ref=\"Mishnah Eruvin 2:1\">Erub. II, 1</cite> <he>קְשׁוּרוֹת</he>, v. <cite ref=\"N01392\"><he>נָתַר</he></cite>. ",
+						"<cite ref=\"Jerusalem Talmud Yevamot 16:4:2\">Y. Yeb. XVI, 15ᵈ</cite> top, v. <cite ref=\"E00709\"><he>הֶסְפֵּד</he></cite>; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִישֵּׁר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02263\">same</cite>, esp. <i>to fold a document</i>, to write a portion and fold it and have witnesses signed on the fold, and so continue to the end of the document. Y. Gitt. l. c. <he>היה מְקַשֵּׁר ראשון ראשון</he> if he folded up the signatures one by one; a. e.—Part. pass. <he>מְקוּשָּׁר</he>. <he>מק׳</he> (<cite ref=\"C00598\"><he>גט</he></cite>) <i>a folded document</i>, opp. <cite ref=\"Q02054\"><he>פָּשׁוּט</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 10:1\">B. Bath. X, 1</cite> <he>גט פשוט … ומק׳ עדיו אחוריו</he> a plain document has its signatures of witnesses inside, a folded one, on its back. ",
+						"<cite ref=\"Bava Batra 160a\">Ib. 160ᵃ</cite> sq. (ref. to <cite ref=\"Jeremiah 32:44\">Jer. XXXII, 44</cite>) <he>וכתוב … וחתום זה מק׳</he> ‘and write the deed’, this refers to the plain document, ‘and sign’, this means the folded document; Y. ib. X, beg. 17ᶜ (ref. to Jer. ib. 11) <he>את החתום זה המק׳ ואת הגלוי זה הפשוט שבמק׳</he> ‘the sealed’ means the folded, ‘and the open’ means the plain document which goes with the folded. Ib. bot. <he>טופס שטרות מְקוּשָּׁרוֹת וכ׳</he> such is the formula of folded documents; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִקְשָׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to be tied</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 108b:15\">Snh. 108ᵇ</cite> <he>כלב נ׳</he> the dog was doomed to be tied."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be joined, harden, become knotty</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 3:1\">Shebi. III, 1</cite> <he>משׁיִקָּשֵׁר</he> (Mish. ed. <he>משיקשור</he>, incorr.) when the <i>mathoḳ</i> (v. <cite ref=\"M03032\"><he>מָתוֹק</he> II</cite>) gets knotty excrescences; (R. S.: when the dung in its juice becomes bound, begins to harden); expl. Y. ib. 34ᶜ top <he>משיעשה קשרין קשרין</he> when it gets full of knotty excrescences; ib. <he>מכיון שנקשר בו קשר וכ׳</he> R. S. to Shebi. l. c. (ed. <he>שנִתְקַשֵּׁר</he>) as soon as the uppermost protuberance is formed, it begins to dry up."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְקַשֵּׁר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02263\">same</cite>, <i>to become knotty; to become thick</i>. Y. Shebi. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Taanit 20a:2\">Taan. 20ᵃ</cite> <he>נִתְקַשְּׁרוּ שמים וכ׳</he>, v. <cite ref=\"P00008\"><he>עָב</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הוּקְשָׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to be tied, joined</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite> <he>יוּקְשְׁרוּ כולם אגודה וכ׳</he> let all of them be tied together with one band (of brotherhood; <cite ref=\"Yalkut Shimoni on Torah 651:12\">Yalk. ib. 651</cite> <he>יֵעָשׂוּ כולן וכ׳</he>)."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

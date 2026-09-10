@@ -1,0 +1,69 @@
+{
+	"id": "H01021",
+	"slug": "חלט-2",
+	"headword": {
+		"text": "חֲלַט"
+	},
+	"page": {
+		"number": 466,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01020\">same</cite><i>to make a paste</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 13:6\">Targ. II Sam. XIII, 6</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. next wds. a. <he>צמת</he>) <i>to cause contraction</i> by scalding or by putting in vinegar. <i>Part. pass.</i> <he>חָלִיט</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 111a:3\">Ḥull. 111ᵃ</cite> <he>ח׳ הוי מעיקרא</he> Rashi (ed. <he>מִיּחֲלַט הוה ח׳ ליה וכ׳</he>) it (the liver) was first scalded (so as to emit no blood in boiling)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַלֵּיט"],
+			"senses": [
+				{
+					"gloss": "<i>to cause contraction, to scald, put in vinegar</i>. Ib. <he>חַלְּטֵי ליה וכ׳</he>. ",
+					"units": [
+						"<cite ref=\"Pesachim 74b:13\">Pes. 74ᵇ</cite> bot. <he>חלא דח׳ ביה וכ׳</he> vinegar which one has used once for drawing the blood from meat and contracting the blood vessels, must not be used a second time."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַלַּט"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְחֲלַט", "אִיחְלט"],
+			"senses": [
+				{
+					"gloss": "<i>to be mixed up, to mingle</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 20:19\">Targ. Prov. XX, 19</cite>; <cite ref=\"Aramaic Targum to Proverbs 24:21\">XXIV, 21</cite> (h. text <he>תתערב</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be confused</i>. Ib. XIV, 16 (h. text <he>מתעבר</he>!).",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be contracted</i>, v. supra.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

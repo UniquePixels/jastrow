@@ -1,0 +1,83 @@
+{
+	"id": "B00196",
+	"slug": "בהת",
+	"headword": {
+		"text": "בְּהַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּהֵית"
+		}
+	],
+	"page": {
+		"number": 143,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בה</he>, v. <cite ref=\"B00170\"><he>בהי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (= h. <cite ref=\"B00394\"><he>בּוּשׁ</he></cite>, cmp. <cite ref=\"T00427\"><he>רוּץ</he></cite> a. <cite ref=\"T00278\"><he>רְהַט</he></cite>) <i>to be confounded, abashed, ashamed</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:8\">Targ. O. Gen. XLIX, 8</cite>; a. fr.—Y. Shek. I, beg. 45ᵈ (in Hebr. phraseol.) <he>הן נקרא ולא נבהית</he> (Bab. ed. <he>הנקרא … נבעית</he>) can we read this and not feel ashamed? <cite ref=\"Jerusalem Talmud Ketubot 12:3:4\">Y. Keth. XII, 35ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Kilayim 9:3:4\">Y. Kil. IX, 32ᵇ</cite> top, if I rise among the righteous, <he>לא נבהת</he> I may not feel ashamed. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:4\">Ib.</cite> <he>ומה אנא בהית בעבדאי</he> (read <he>בעובדיי</he>) why should I be ashamed of my doings? Y. Kidd. IV, 65ᶜ top <he>בָּהֲתִין וכ׳</he> they are ashamed of one another. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 1:3:11\">Y. Orl. I, 61ᵇ</cite> top <he>בהית מסתכל ביה</he> is ashamed to look at him. ",
+				"<cite ref=\"Vayikra Rabbah 31:9\">Lev. R. s. 31</cite> <he>לא בהתין</he> yet are not ashamed (to worship them)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"B01052\"><he>בְּעֵית</he></cite>) <i>to be bewildered</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 62a:5\">Keth. 62ᵃ</cite> (prov.) a woman used to abortion (or loss of children through death) <he>לא בהתה</he> is no longer besides herself (when it reoccurs; Ar.: is not ashamed)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּהַית"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַבְהֵית"],
+			"senses": [
+				{
+					"gloss": "<i>to put to shame</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 14:6\">Targ. Ps. XIV, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 119:116\">Ib. CXIX, 116</cite>; a. e.—Y. Shebi. IV, 35ᵇ bot.; Y. Maas. Sh. V, beg. 55ᵈ <he>ומבהתין ליה דיעבד</he> and bend the tree down as if in shame, in order that it may bear fruits (cmp. ",
+						"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite> ‘that people may pray for it’). Y. Kil.; Y. Keth. l. c. if I rise among the wicked <he>לא נַבְהִית</he> (or <he>נְבָהֵת</he>) I may not put (them) to shame."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to frighten, confound</i>.—Y. R. Hash. II, 58ᵃ bot. <he>לא תבהית וכ׳</he> confound not thy Master’s children (the Israelites).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְבַּהֵית"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְבְּהֵית"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"B00196\"><he>אִבְּהִית</he></cite> <i>to be put to shame</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:5\">Cant. R. to II, 5</cite> <he>והוא מתב׳ וכ׳</he> and he felt ashamed and went away. Y. Sabb. VI, 8ᶜ top <he>מִבַּהֲתָא</he> she is ashamed."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

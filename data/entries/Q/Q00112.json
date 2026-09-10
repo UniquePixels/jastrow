@@ -1,0 +1,22 @@
+{
+	"id": "Q00112",
+	"slug": "פדועא",
+	"headword": {
+		"text": "פָּדוֹעָא"
+	},
+	"page": {
+		"number": 1136,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00131\"><he>פְּדַע</he></cite>) <i>stone mason’s adze</i> or <i>hammer</i> (ascia). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:18\">Targ. Prov. XXV, 18</cite> ed. Lag. (Levita <cite ref=\"Q00126\"><he>פדיעא</he></cite>, ed. <he>פרי׳</he>, corr. acc.)"
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "R00776",
+	"slug": "צריכא",
+	"headword": {
+		"text": "צְרִיכָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1302,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00775\">preced.</cite>) <i>needy, poor man</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 24:14\">Targ. Y. II, Deut. XXIV, 14</cite>.—Pl. <he>צְרִיכַיָּא</he>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 15:11\">Ib. XV, 11</cite>."
+			]
+		}
+	]
+}

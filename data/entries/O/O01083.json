@@ -1,0 +1,22 @@
+{
+	"id": "O01083",
+	"slug": "סמידתא",
+	"headword": {
+		"text": "סְמִידְתָּא"
+	},
+	"page": {
+		"number": 1000,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01082\">preced.</cite>) <i>pollen</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69a\">Gitt. 69ᵃ</cite> <he>ס׳ דכשותא</he> Ar. (ed. <cite ref=\"H00396\"><he>חוּמַרְתָּא</he></cite>) pollen of cuscuta."
+			]
+		}
+	]
+}

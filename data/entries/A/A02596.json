@@ -1,0 +1,47 @@
+{
+	"id": "A02596",
+	"slug": "אף-2",
+	"headword": {
+		"text": "אַף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 99,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"A02265\"><he>אָנַף</he></cite>) prop. <i>breath</i>, hence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>nose</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 18:9\">Midr. Till. to Ps. XVIII, 5</cite> (interpret, <i>ăfafuni</i>, <cite ref=\"Midrash Tehillim 18:9\">ib.</cite>) <he>הגיעו הצרות עד א׳</he> the troubles have risen up to the nose."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>panting, anger</i>.—Du. <he>אַפַּיִם</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:14\">Y. Taan. II, 65ᵇ</cite> bot. <he>ארך אף … ארך אפים וכ׳</he>, it does not read (<cite ref=\"Jonah 4:2\">Jonah IV, 2</cite>), Slow of <i>anger</i> but of <i>angers</i>, which means that He is long suffering both to the righteous and the wicked; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " pr. n. m. <i>Af</i>, allegorical name of the angel administering justice. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 41:7\">Ex. R. s. 41</cite> end; s. 44; <cite ref=\"Devarim Rabbah 3:15\">Deut. R. s. 3</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>overheated condition, wearines</i>. Maksh. III, 8 <he>בשעת האף</he> when the animal is overheated, Var. <cite ref=\"J00309\"><he>יַחַף</he></cite> q. v.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

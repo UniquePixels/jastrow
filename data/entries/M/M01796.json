@@ -1,0 +1,31 @@
+{
+	"id": "M01796",
+	"slug": "מנן",
+	"headword": {
+		"text": "מְנָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְנַן"
+		},
+		{
+			"text": "מִנָּן"
+		},
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 801,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>מן אן</he>; cmp. <cite ref=\"M01699\"><he>מְנָא</he> II</cite>) <i>whence?</i> <cite ref=\"Onkelos Numbers 11:13\">Targ. Num. XI, 13</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 16:8\">Targ. O. Gen. XVI, 8</cite> (Y. <he>מן האן</he>). ",
+				"<cite ref=\"Targum Jonathan on Jonah 1:8\">Targ. Jon. I, 8</cite> (some ed. <he>מפן</he>, corr. acc.); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "K01135",
+	"slug": "כרז-1",
+	"headword": {
+		"text": "כָּרַז"
+	},
+	"page": {
+		"number": 665,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to call together</i> (cmp. <he>כְּלֵי</he> II); <i>to call out, announce</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 19\">Mishp. 19</cite> <he>וכשהמלאך כּוֹרֵז האדם בשלום</he> as long as the angel cries out (‘give honor to the image of God’), man is safe. ",
+				"<cite ref=\"Exodus 19\">Ib.</cite> (ref. to <cite ref=\"Job 33:23\">Job XXXIII, 23</cite>) <he>אם יהא מן אותן אלף כורז וכ׳</he> if there be one out of the thousand (angels) crying out before him, to proclaim a man’s righteousness. ",
+				"<cite ref=\"Esther Rabbah 10:6\">Esth. R. to VI, 12</cite> <cite ref=\"K00375\"><he>כּוֹרֵז</he></cite>, v. <cite ref=\"K01111\"><he>כָּרוֹז</he></cite>. ",
+				"<cite ref=\"Devarim Rabbah 4:4\">Deut. R. s. 4</cite> <he>והכרוזות כּוֹרְזִין וכ׳</he> and the criers (angels) call out before him, Give room &c., v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְרִיז"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K01134\">same</cite>. Tanḥ. l. c. <he>ואחד מהם מַכְרִיז … תנו וכ׳</he> and one of them (the angels) cries out before him, saying, Give honor &c.; <cite ref=\"Midrash Tehillim 17\">Midr. Till. to Ps. XVII</cite>; <cite ref=\"Yalkut Shimoni on Nach 670:6\">Yalk. Ps. 670</cite> <he>מַכְרִיזִין</he>, v. <cite ref=\"A01592\"><he>אִיקוֹנְיָא</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 2:1\">B. Mets. II, 1</cite>, sq. <he>אלו חייב להַכְרִיז</he> the following finds one must publish. ",
+						"<cite ref=\"Bava Metzia 28b:6\">Ib. 28ᵇ</cite> <he>אבידתא מַכְרִיז</he> the crier announces that something has been found (not defining the object), opp. to <he>גלימא מכריז</he> ‘a cloak’ (or whatever the object may be).—",
+						"<cite ref=\"Pesachim 113a:13\">Pes. 113ᵃ</cite> <he>שלשה הקב״ה מכריז עליהם וכ׳</he> Ms. M. there are three persons for whose sake the Lord sends out the crier every day (to announce their praise); a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "L00366",
+	"slug": "לחם-4",
+	"headword": {
+		"text": "לְחֵם"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְחֵים"
+		},
+		{
+			"text": "לַחֵמָא"
+		}
+	],
+	"page": {
+		"number": 704,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"L00365\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:18\">Targ. Gen. XIV, 18</cite>. ",
+				"<cite ref=\"Onkelos Genesis 43:31\">Ib. XLIII, 31</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 100b:8\">Snh. 100ᵇ</cite> (from Ben Sira) <he>אמר במאי איכול ל׳ ל׳ סב מיניה</he> if a man says, ‘wherewith shall I eat bread (to season it)?’, take the bread from him. ",
+				"<cite ref=\"Avodah Zarah 35b:20\">Ab. Zar. 35ᵇ</cite> <he>ל׳ דארמאי</he> (Ms. M. <cite ref=\"N00273\"><he>נהמא</he></cite>) bread baked by gentiles, v. <cite ref=\"Q02111\"><he>פַּת</he></cite>. ",
+				"<cite ref=\"Berakhot 42b:13\">Ber. 42ᵇ</cite> <he>ניזיל וניכול ל׳ וכ׳</he> (Ms. M. <cite ref=\"N00273\"><he>נהמא</he></cite>) let us go and dine at a certain place; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>meat, flesh</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 42:4\">Ex. R. s. 42</cite> (ref. to <he>לחמם</he>, <cite ref=\"Zephaniah 1:17\">Zeph. I, 17</cite>) <he>בערביא קורין לבשרא ל׳</he> in Arabia they call meat <i>laḥma</i>"
+			],
+			"label": "2"
+		}
+	]
+}

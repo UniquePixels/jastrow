@@ -1,0 +1,30 @@
+{
+	"id": "H01889",
+	"slug": "חתימותא",
+	"headword": {
+		"text": "חֲתִימוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַתְמוּתָא"
+		},
+		{
+			"text": "חֲתִימְתָּא"
+		}
+	],
+	"page": {
+		"number": 513,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"H01888\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 21a:11\">Keth. 21ᵃ</cite> <he>אסהד אחֲתִימוּת ידיה וכ׳</he> he testified to (identified) his own signature &c.—",
+				"<cite ref=\"Bava Batra 167a:7\">B. Bath. 167ᵃ</cite> <he>חַתְמוּת ידא</he> (Ms. M. <cite ref=\"H01888\"><he>חֲתִימַת</he></cite>). ",
+				"<cite ref=\"Gittin 66b:11\">Gitt. 66ᵇ</cite>, v. <cite ref=\"H01900\"><he>חֲתַם</he></cite>.—Pl. <cite ref=\"H01181\"><he>חֲתִימָתָא</he></cite>. ",
+				"<cite ref=\"Ketubot 21b:3\">Keth. 21ᵇ</cite> <he>חֲתִימַת ידייהו</he>."
+			]
+		}
+	]
+}

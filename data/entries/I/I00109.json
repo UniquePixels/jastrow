@@ -1,0 +1,44 @@
+{
+	"id": "I00109",
+	"slug": "טוב-3",
+	"headword": {
+		"text": "טוֹב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טוֹבָה"
+		}
+	],
+	"page": {
+		"number": 521,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>good; a good thing</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 5a:1\">Ber. 5ᵃ</cite> (ref. to <cite ref=\"Psalms 39:3\">Ps. XXXIX, 3</cite>) <he>אין ט׳ אלא וכ׳</he> under <i>good</i> the Torah is meant. Ib. 60ᵇ <he>זו מדה ט׳</he> this refers to a good dispensation; a. v. fr.—<he>יום טוב</he> (abbr. <he>י״ט</he>) <i>festival</i>. ",
+				"<cite ref=\"Mishnah Beitzah 1:1\">Bets. I, 1</cite>; a. fr.—<he>כי טוב</he> (ref. to <cite ref=\"Genesis 1:4\">Gen. I, 4</cite>) <i>day-time</i>. ",
+				"<cite ref=\"Pesachim 2a:8\">Pes. 2ᵃ</cite>.—",
+				"<cite ref=\"Mishnah Berakhot 5:3\">Ber. V, 3</cite> (<cite ref=\"Berakhot 33b:17\">33ᵇ</cite>) <he>על טוב וכ׳</he> thy name be praised for the good (thou doest).—<he>זכור לַטּוֹב</he>, v. <he>עין טובה</he>—.<cite ref=\"G00467\"><he>זָכַר</he></cite>, v. <cite ref=\"P00601\"><he>עַיִן</he></cite>.—Pl. <he>טוֹבְים</he>, f. <he>טוֹבוֹת</he>. Ber. l. c. (34ᵃ, omitt. in Mish.) <he>האומר יברכוך ט׳</he> he who says in prayer, The good praise thee. Ib. IX, 2 <he>בשורות ט׳</he>, v. <cite ref=\"B01352\"><he>בְּשוֹרָה</he></cite>; a. v. fr.—V. <cite ref=\"I00112\"><he>טוֹבָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>noble, elder</i>.—Pl. <cite ref=\"I00113\"><he>טוֹבִים</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shekalim 2:16\">Tosef. Shek. II, 16</cite> <he>בני ט׳</he> of noble descent; a. fr.—טוֹבֵי העיר <i>representatives</i> of the town. ",
+				"<cite ref=\"Megillah 27a:2\">Meg. 27ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

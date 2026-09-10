@@ -1,0 +1,41 @@
+{
+	"id": "O00899",
+	"slug": "סכין-3",
+	"headword": {
+		"text": "סַכִּין",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סַכִּינָא"
+		}
+	],
+	"page": {
+		"number": 990,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"O00898\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 22:6\">Targ. Gen. XXII, 6</cite>; a. e.—",
+				"<cite ref=\"Ketubot 77b:7\">Keth. 77ᵇ</cite> <he>א״ל הב לי סַכִּינָךְ</he> he said to him (the angel of death), give me thy knife. ",
+				"<cite ref=\"Ketubot 77b:8\">Ib.</cite> <he>הב לי סַכִּינָאִי</he> give me my knife back. ",
+				"<cite ref=\"Chullin 8a:10\">Ḥull. 8ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 111b:10\">B. Bath. 111ᵇ</cite>, a. e. <he>ס׳ חריפא</he>; <cite ref=\"Chullin 77a:6\">Ḥull. 77ᵃ</cite>; <cite ref=\"Yevamot 122a:1\">Yeb. 122ᵃ</cite> <he>דחריף ס׳</he>, v. <cite ref=\"H01686\"><he>חָרִיף</he></cite>.—Pl. <he>סַכִּינִין</he>, <he>סַכִּינֵי</he>. ",
+				"<cite ref=\"Taanit 9b:9\">Taan. 9ᵇ</cite> <he>מלא צנא דס׳ וכ׳</he> (not <he>דסכינא</he>) a basketful of knives (pain-producing dates) for a Zuz. ",
+				"<cite ref=\"Taanit 24b:9\">Ib. 24ᵇ</cite> <he>מרשם פורייה בס׳</he> his bed was marked with cuts made with knives; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>ס׳ דפדן</he>, v. <cite ref=\"O00873\"><he>סִכָּא</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

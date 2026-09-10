@@ -1,0 +1,30 @@
+{
+	"id": "B01084",
+	"slug": "בצורתא-2",
+	"headword": {
+		"text": "בְּצוּרְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בצירתא"
+		},
+		{
+			"text": "ביצורתא"
+		}
+	],
+	"page": {
+		"number": 184,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"C00580\"><he>גִּזְרָה</he></cite>, <i>balcony</i> (v. <cite ref=\"B01080\"><he>בְּצוֹצְרָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 41:13\">Targ. Ezek. XLI, 13</cite> sq.; a. fr.—"
+			]
+		}
+	]
+}

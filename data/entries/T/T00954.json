@@ -1,0 +1,46 @@
+{
+	"id": "T00954",
+	"slug": "רפסא",
+	"headword": {
+		"text": "רִפְסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1491,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00953\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stamping</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 26:10\">Targ. Ez. XXVI, 10</cite> <he>רִפְסַת</he> constr. (h. text <he>שפעת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shaking</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 79b:4\">B. Mets. 79ᵇ</cite> <he>ר׳ דספינתא</he> Ms. M. (ed. <cite ref=\"T00956\"><he>רִפְסְתָא</he></cite>, or <cite ref=\"T00956\"><he>רִפְסָתָא</he></cite>, <i>pl.</i>) the injury done to the ship by the shaking (attendant upon unloading and loading)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a place for treading</i>, <i>press</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 40b:16\">Erub. 40ᵇ</cite> <he>אמר ליה דליוה לרטיבא ר׳ לי בדוכתיה</he> Ar. (Ms. M. <he>דפסא</he>; ed. <he>דלויה … ר׳ ליה וכ׳</he>, v. Rabb. D. S. a. l. note) he said, carry the green date, I have a press on the spot, i.e. you came to find out my opinion, you will soon have an opportunity to learn it (differ. in comment.)."
+			],
+			"label": "3"
+		}
+	]
+}

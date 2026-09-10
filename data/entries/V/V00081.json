@@ -1,0 +1,22 @@
+{
+	"id": "V00081",
+	"slug": "תגאלתא",
+	"headword": {
+		"text": "תָּגְאַלְתָּא"
+	},
+	"page": {
+		"number": 1646,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גאל</he> = <he>געל</he>) <i>pollution, filth</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 4:4\">Targ. Is. IV, 4</cite> <he>תָּגְאְלַת</he> constr."
+			]
+		}
+	]
+}

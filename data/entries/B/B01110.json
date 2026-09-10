@@ -1,0 +1,23 @@
+{
+	"id": "B01110",
+	"slug": "בצת",
+	"headword": {
+		"text": "בֶּצֶת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 185,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Betseth</i>, a Phœnician border-town (perh. identical with Bassa, Neub. Géogr. p. 22). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:17\">Y. Dem. II, 22ᵈ</cite> top; <cite ref=\"Tosefta Shevi'it 4:9\">Tosef. Shebi. IV, 9</cite> (Var. <he>כצת</he>; Hildesh. p. 34 <cite ref=\"B01103\"><he>בצץ</he></cite>)."
+			]
+		}
+	]
+}

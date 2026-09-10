@@ -1,0 +1,27 @@
+{
+	"id": "N00820",
+	"slug": "נכי-3",
+	"headword": {
+		"text": "נַכַּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַכַּאי"
+		}
+	],
+	"page": {
+		"number": 910,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00819\">preced.</cite> wds.) <i>deduction</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 59a:15\">B. Kam. 59ᵃ</cite> <he>נכי חיה</he> payment is made with a deduction of the expense for the midwife (which the husband now saves); <he>נ׳ מזונות</he> a deduction for nursing expenses (incident to a regular confinement). Y. ib. VIII, beg. 6ᵇ <he>נותנין נכאי מזון</he> the injured person must be fully indemnified, deducting what his ordinary alimentation would have cost; Tosef. ib. IX, 3 <he>נכי מזון</he> Var. (ed. Zuck. <he>דמי ניזק</he>, oth. var. <cite ref=\"G00455\"><he>זכי</he></cite>, <he>זבי</he>, corr. acc.)."
+			]
+		}
+	]
+}

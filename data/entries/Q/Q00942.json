@@ -1,0 +1,60 @@
+{
+	"id": "Q00942",
+	"slug": "פלגו",
+	"headword": {
+		"text": "פַּלְגּוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּלְגּוּתָא"
+		}
+	],
+	"page": {
+		"number": 1176,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00941\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>half; middle</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 6:13\">Targ. Lev. VI, 13</cite>. ",
+				"<cite ref=\"Onkelos Exodus 11:4\">Targ. O. Ex. XI, 4</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 15a\">B. Kam. 15ᵃ</cite>, a. e. <he>פלגו נזקא</he> Ms. H. a. Ar. (Ms. M. <cite ref=\"Q00946\"><he>פַּלְגִּי</he></cite>; ed. <he>פלגא</he>) indemnity amounting to half the damage. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:6:7\">Y. Keth. VII, 31ᶜ</cite> <he>פַּלְגּוּת פרן</he> (<cite ref=\"Q01562\"><he>פַּלְגִּית</he></cite>) half the dowry. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:5:4\">Y. Pes. V, 32ᶜ</cite> bot. <he>בפלגות פומך</he> with half thy mouth, i.e. thou art not the original author of that opinion; a. e.—",
+				"<cite ref=\"Sanhedrin 98b\">Snh. 98ᵇ</cite> <he>פלגו קיסר</he> (<cite ref=\"Q00946\"><he>פלגי</he></cite>) <i>Vice-Caesar, governor</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>division</i> (h. .—Pl. <he>פַּלְגְּיָון</he>, <he>פַּלְגְּוָואתָא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 11:7\">Targ. Zech. XI, 7</cite> (ed. Lag. <cite ref=\"Q00211\"><he>פּוּלְגְּוָון</he></cite>). ",
+				"<cite ref=\"Targum of I Chronicles 26:1\">Targ. I Chr. XXVI, 1</cite>; <cite ref=\"Targum of I Chronicles 26:12\">12</cite> <he>פלגווא׳</he> ed. Wil. (oth. ed. <cite ref=\"Q00946\"><he>פַּלְגּוּתָא</he></cite>, <cite ref=\"Q00945\"><he>פַּלְגּוּת</he></cite>, read: <cite ref=\"Q00946\"><he>פַּלְגְּוָתָא</he></cite>, <cite ref=\"Q00945\"><he>פַּלְגְּוַת</he></cite>); a. e.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 9:1:6\">Y. Erub. IX, beg. 25ᶜ</cite> <he>ארבע פלגוון</he> four divisions (of opinions)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>division of heart, half-heartedness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 22:14\">Targ. Y. II, Gen. XXII, 14</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>contest</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 22:44\">Targ. II Sam. XXII, 44</cite> ed. Wil., v. <cite ref=\"Q00965\"><he>פְּלוּגְתָּא</he> I</cite>."
+			],
+			"label": "4"
+		}
+	]
+}

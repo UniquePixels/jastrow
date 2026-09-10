@@ -1,0 +1,25 @@
+{
+	"id": "K01337",
+	"slug": "כתא-1",
+	"headword": {
+		"text": "כִּתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיתָּא"
+		}
+	],
+	"page": {
+		"number": 678,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01336\">same</cite>. Targ. Y. I a. II <cite ref=\"Exodus 14:13\">Ex. XIV, 13</cite>, sq. (v. Y. Taan. II, 65ᵈ top, cited in preced).—[<cite ref=\"Shabbat 140b:12\">Sabb. 140ᵇ</cite>, v. <cite ref=\"K00643\"><he>כִּיתָּא</he> I</cite>.]—Pl. <cite ref=\"K00651\"><he>כִּיתַּן</he></cite>, <cite ref=\"K00649\"><he>כִּיתִּין</he></cite>, <cite ref=\"K00646\"><he>כִּתּ׳</he></cite>. Targ. Y. l. c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 29:1\">Targ. Ps. XXIX, 1</cite> <he>כִּתֵּי</he> constr.; a. e.—",
+				"<cite ref=\"Bava Kamma 24a:10\">B. Kam. 24ᵃ</cite> <he>תלתא כִּיתֵּי סהדי</he> three sets of witnesses; a. e."
+			]
+		}
+	]
+}

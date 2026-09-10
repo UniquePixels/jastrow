@@ -1,0 +1,28 @@
+{
+	"id": "V00479",
+	"slug": "תיפח",
+	"headword": {
+		"text": "תִּיפַּח"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּפַּח"
+		}
+	],
+	"page": {
+		"number": 1665,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01025\"><he>נָפַח</he></cite>; cmp. <he>מַפַּח נפש</he>) <i>fainting, decay; disappointment</i>.—<he>ת׳ נפש</he>, <he>ת׳ רוח</he>, (Chald. <he>ת׳ רוחא</he>) <i>let fainting come upon …, let despair come upon …!</i> <cite ref=\"Rosh Hashanah 31a:18\">R. Hash. 31ᵃ</cite> <he>ששה</he> … <he>אמרה ת׳ נפשם וכ׳</he> Ms. M. (ed. <he>אמר ת׳ עצמן</he>, read: <he>עצמותן</he>) the Shechinah delayed six months in the desert for Israel’s sake, perhaps they would return in repentance: when they did not return, the Shechinah said, let despair come upon them &c. (ref. to <cite ref=\"Job 11:20\">Job XI, 20</cite> <he>מפח נפש …</he>). ",
+			"units": [
+				"<cite ref=\"Ketubot 105b:14\">Keth. 105ᵇ</cite> <he>ת׳ נפשם של וכ׳</he> oh, the despair that waits for those who take bribes! <cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:9\">Y. Maas. Sh. IV, 55ᵇ</cite> bot. [read:] <he>ת׳ רוחיה דהאי גברא</he> woe to that man! <cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7<sup>4</sup></cite> (to a plant) <he>ת׳ רוחך וכ׳</he> woe to thee! last night thou wast looking well &c., v. <cite ref=\"Q01546\"><he>פָּרַג</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 3:12\">Ex. R. s. 3<sup>12</sup></cite> <he>ת׳ עצמותה</he> (read: <he>עצמותיה</he>) Oh, the decay of her bones, woe to her!; a. fr."
+			]
+		}
+	]
+}

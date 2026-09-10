@@ -1,0 +1,34 @@
+{
+	"id": "V00934",
+	"slug": "תרבץ-2",
+	"headword": {
+		"text": "תַּרְבֵּץ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1695,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00137\"><he>רָבַץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>garden at the house</i> (cultivated by sprinkling), <i>court</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 98b:10\">B. Bath. 98ᵇ</cite>, v. <cite ref=\"S01557\"><he>קִנְטִינָר</he></cite>.—Trnsf. <he>ת׳ הוושט</he> <i>the wide part of the gullet</i>. ",
+				"<cite ref=\"Chullin 43b\">Ḥull. 43ᵇ</cite>, sq. Ms. M. (ed. <cite ref=\"V00284\"><he>תּוּרְבֵּץ</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hall, academy</i>. Tanḥ. Thazr. 9 <he>ירדו לבכל ועשו ת׳ לתורה</he> they went down to Babylonia (with Jechoniah) and prepared a teaching place for the Law; <cite ref=\"Yalkut Shimoni on Nach 231:1\">Yalk. Kings 231</cite> <cite ref=\"V00930\"><he>תַּרְבִּיץ</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

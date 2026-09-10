@@ -1,0 +1,22 @@
+{
+	"id": "M02877",
+	"slug": "משיילא",
+	"headword": {
+		"text": "מְשָׁיְילָא"
+	},
+	"page": {
+		"number": 852,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<he>שאל</he>) = h. <cite ref=\"M02801\"><he>מִשְׁאֲלָה</he></cite>, <i>prayer, request</i>.—Pl. constr. <cite ref=\"M02877\"><he>מְשָׁיְילֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 37:4\">Targ. Ps. XXXVII, 4</cite> (ed. Wil. <cite ref=\"M02883\"><he>מֵשְׁיָלֵי</he></cite>)."
+			]
+		}
+	]
+}

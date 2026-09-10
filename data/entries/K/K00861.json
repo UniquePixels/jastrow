@@ -1,0 +1,67 @@
+{
+	"id": "K00861",
+	"slug": "כנס-2",
+	"headword": {
+		"text": "כְּנַס"
+	},
+	"page": {
+		"number": 650,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00860\">same</cite><i>to gather, receive</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 41:7\">Targ. Ps. XLI, 7</cite> Ms. (ed. <cite ref=\"K00872\"><he>כנף</he></cite>, h. text <he>קבץ</he>). ",
+				"<cite ref=\"Aramaic Targum to Esther 4:16\">Targ. Esth. IV, 16</cite> (Targ. II Esth. ",
+				"<cite ref=\"Aramaic Targum to Esther 4:16\">ib.</cite> <he>כנוש</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 18:3\">Targ. Y. Gen. XVIII, 3</cite> <he>אֵיכְנוֹס וכ׳</he> I shall receive the passers-by.—V. <cite ref=\"K00881\"><he>כְּנַשׁ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to marry</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:5:3\">Y. Erub. III, 21ᵇ</cite> top <he>ומִיכְנַסְנִיךְ ליום פלן</he> and to marry thee before such a date; <cite ref=\"Jerusalem Talmud Gittin 7:6:3\">Y. Gitt. VII, end, 49ᵃ</cite> <he>ומנכסיך</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 7:6:3\">Ib.</cite> <he>ולא כְנַסְתִּיךְ</he> and I shall not have married thee. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 1:1:3\">Y. Keth. I, beg. 24ᵈ</cite> <he>אילין דכַנְסִין וכ׳</he> those who marry widows; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to enter</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> bot. <he>כיון דכ׳</he> when he had entered; a. e.—[<cite ref=\"Aramaic Targum to Esther 2:21\">Targ. Esth. II, 21</cite>; <cite ref=\"Aramaic Targum to Esther 4:17\">IV, 17</cite>, v. <cite ref=\"B00962\"><he>בְּנַס</he></cite>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּנֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to gather, heap</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 33:7\">Targ. Ps. XXXIII, 7</cite> Ms. (ed. <cite ref=\"M01413\"><he>מַכְנִיס</he></cite> <i>Af.</i>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 147:2\">Ib. CXLVII, 2</cite> (Ms. <i>Pe.</i>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְכְּנֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to be gathered, to assemble</i>. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 11:1\">Targ. I Chr. XI, 1</cite> (ed. Lag. a. Rahmer <he>אתכניש׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 47:10\">Targ. Ps. XLVII, 10</cite> Ms. (ed. <he>אתכנש׳</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "S02125",
+	"slug": "קרסם-1",
+	"headword": {
+		"text": "קִרְסֵם"
+	},
+	"page": {
+		"number": 1423,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.  <cite ref=\"K01252\"><he>כִּרְסֵם</he></cite>; <i>Parel</i> of <cite ref=\"S01665\"><he>קָסַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut, trim</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 12:2\">Sabb. XII, 2</cite> <he>המְקַרְסֵם</he> he that trims trees. ",
+				"<cite ref=\"Mishnah Sheviit 2:3\">Shebi. II, 3</cite> <he>מְקַרְסְמִין וכ׳</he> you may trim trees &c.; [Maim. <i>cut the earsoff</i>, leaving the halms stand]. ",
+				"<cite ref=\"Mishnah Avodah Zarah 3:10\">Ab. Zar. III, 10</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of insects) <i>to nibble, bite off</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 2:7\">Peah II, 7</cite> <he>קִרְסְמוּהָ נמלים</he> a field the grain of which ants have bitten off (at the roots); <cite ref=\"Tosefta Peah 1:8\">Tosef. ib. I, 8</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְקַרְסֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to be chopped, cut up</i> (cmp. <cite ref=\"S01071\"><he>קִיסָּם</he></cite>). ",
+					"units": [
+						"<cite ref=\"Tosefta Keilim Batra 1:9\">Tosef. Kel. B. Bath. I, 9</cite> <he>השלחן … שנִתְקַרְסְמוּ</he> (Var. <he>שנִתְקַסְּמוּ</he>) a table … which have been cut up (<cite ref=\"Mishnah Kelim 22:1\">Kel. XXII, 1</cite> <he>שנפחתו</he>)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

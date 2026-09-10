@@ -1,0 +1,37 @@
+{
+	"id": "K00590",
+	"slug": "כיסנין-1",
+	"headword": {
+		"text": "כִּיסָנִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּסָנִין"
+		},
+		{
+			"text": "כִּיסָאנִין"
+		},
+		{
+			"text": "כְּסָאנִין"
+		}
+	],
+	"page": {
+		"number": 634,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>כסס</he>, adopt. fr. Chald.; cmp. <cite ref=\"M01560\"><he>מְלִילָה</he></cite>) <i>nibblings, dessert</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Berakhot 4:4\">Tosef. Ber. IV, 4</cite> <he>כסאנ׳</he> ed. Zuck. (Var. <he>כיסאנ׳</he>, <he>כיסנ׳</he>). ",
+				"<cite ref=\"Berakhot 41b:6\">Ber. 41ᵇ</cite> <he>פת הבאה בכ׳</he> bread offered as dessert. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:15\">Y. Snh. X, 28ᵈ</cite> top <he>נשים … מיני כ׳</he> women selling all kinds of sweetmeats (<cite ref=\"Sifrei Bamidbar 131:2\">Sifré Num. 131</cite> <he>בשמים</he>). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:1:2\">Y. Pes. X, beg. 37ᵇ</cite> <he>מיני כִּיסָנִית</he> nibblings."
+			]
+		}
+	]
+}

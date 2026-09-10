@@ -1,0 +1,45 @@
+{
+	"id": "M01318",
+	"slug": "מישרא-1",
+	"headword": {
+		"text": "מֵישָׁרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵישְׁרָא"
+		},
+		{
+			"text": "מֵשְׁ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 779,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01317\">same</cite><i>bed</i>.—Pl. <cite ref=\"M01319\"><he>מֵישָׁרֵי</he></cite>, <he>מֵשָׁארֵי</he>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 39a:14\">Kidd. 39ᵃ</cite> <he>זרע</he> … <he>מישרי מ׳</he> Ar. (ed. <cite ref=\"M02797\"><he>מֵשָׁא׳</he></cite>) planted the garden of the school-house in beds (of various plants), v. <cite ref=\"M01317\">preced.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>plain, valley</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 12:6\">Targ. Gen. XII, 6</cite> (h. text <cite ref=\"A01816\"><he>אֵלוֹן</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 12:6\">Ib.</cite> O. XXXV, 8 (h. text <cite ref=\"A01816\"><he>אַלּוֹן</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 11:30\">Targ. Deut. XI, 30</cite> (h. text <cite ref=\"P01262\"><he>עֲרָבָה</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 3:10\">Ib. III, 10</cite> (h. text <cite ref=\"M01317\"><he>מִישֹׁר</he></cite>); a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 12:5\">Lev. R. s. 12</cite>, beg. <he>סוף דהוא עביד ביתיה מ׳</he> finally he (the drunkard) will make his house a level (v. <cite ref=\"M01311\"><he>מִישׁוֹר</he></cite>). ",
+				"<cite ref=\"Shabbat 110b:5\">Sabb. 110ᵇ</cite> <he>הב לי מי׳ דכרתי</he> (sub. <he>מבתוותא ד־</he>) give me of what grows in the waste places of the valley (or bed) of leek.—Pl. <he>מֵישְׁרַיָּא</he>, (<cite ref=\"M02797\"><he>מֵשָׁא׳</he></cite>) <cite ref=\"M01319\"><he>מֵישָׁרֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 22:1\">Targ. O. Num. XXII, 1</cite> (Y. <cite ref=\"M02978\"><he>מַשִּׁרְיָא</he></cite>, corr. acc.). ",
+				"<cite ref=\"Onkelos Deuteronomy 11:30\">Targ. O. Deut. XI, 30</cite>; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 42:8\">Gen. R. s. 42</cite> (transl. <he>אֵיל</he>, <cite ref=\"Genesis 14:6\">Gen. XIV, 6</cite>) <he>משריא דפארן</he>. ",
+				"<cite ref=\"Genesis 14:6\">Ib.</cite> end (ref. to <he>אֵלוֹנֵי</he>, ib. 13) <he>מ׳ דממרא</he>.—Sabb. l. c. <he>דמישרי</he> (Rashi <cite ref=\"M02978\"><he>משריא</he></cite>, Ms. M. <he>מֵשָׁארֵי</he>), v. <cite ref=\"B01381\"><he>בַּתְוָא</he></cite> a. <cite ref=\"K01338\"><he>כָּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

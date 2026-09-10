@@ -1,0 +1,42 @@
+{
+	"id": "R00072",
+	"slug": "צבת-2",
+	"headword": {
+		"text": "צְבַת"
+	},
+	"page": {
+		"number": 1260,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"R00071\">same</cite>, <i>to join, associate</i>. [<cite ref=\"Aramaic Targum to Proverbs 23:32\">Targ. Prov. XXIII, 32</cite> some ed., read <he>נכת</he>.]—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:6:3\">Y. Keth. V, 30ᵃ</cite> bot. <he>חכים אנא לנשייא דצַבְתָן עם וכ׳</he> (not <he>דצבתין</he>) I knew the women that kept my mother company (during her confinement), v. <cite ref=\"H00940\"><he>חֲכַם</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"G00131\"><he>זְוַד</he></cite>) <i>to present, outfit</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 60a:2\">Ḥull. 60ᵃ</cite> <he>בעינא דאִיצְבֵּית ליה נהמא וכ׳</he> I desire to offer bread (to sacrifice) to your God; <he>פוק צְבִית לגידא וכ׳</he> go out and offer up at the banks (or landing) of the Rabitha where there is a wide plain. ",
+				"<cite ref=\"Moed Katan 27b:14\">M. Kat. 27ᵇ</cite> <he>צבית זוודתא לאודך</he> ed. (read: <he>צְבִיתִי</he>; Ms. M. <he>תימוש האי וכ׳</he>) prepare a shroud for thy other son."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיצְטְבַת"],
+			"senses": [
+				{
+					"gloss": "<i>to be attached</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 80a\">B. Bath. 80ᵃ</cite> Ar., v. <cite ref=\"R00182\"><he>צְוַות</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

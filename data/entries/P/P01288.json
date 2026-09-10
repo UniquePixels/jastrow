@@ -1,0 +1,23 @@
+{
+	"id": "P01288",
+	"slug": "ערבנותא",
+	"headword": {
+		"text": "עַרְבָנוּתָא"
+	},
+	"page": {
+		"number": 1113,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P01275\"><he>עֲרֵבוּת</he></cite>, <i>security, guaranty</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 39:1\">Targ. Y. Gen. XXXIX, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 22:24\">Targ. Y. I Ex. XXII, 24</cite>."
+			]
+		}
+	]
+}

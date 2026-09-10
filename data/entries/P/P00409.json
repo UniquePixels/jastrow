@@ -1,0 +1,29 @@
+{
+	"id": "P00409",
+	"slug": "עזיז",
+	"headword": {
+		"text": "עַזִּיז"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַזִּיזָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1061,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00404\"><he>עֲזַז</he></cite>) <i>strong, intense</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 7a:4\">Snh. 7ᵃ</cite>, v. <cite ref=\"O01394\"><he>סַפְסֵירָא</he></cite>.—Pl. <he>עַזִּיזִין</he>, <cite ref=\"P00406\"><he>עֲזִ׳</he></cite>; constr. <he>עֲזִיזֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 7:18\">Targ. Is. VII, 18</cite>."
+			]
+		}
+	]
+}

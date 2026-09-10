@@ -1,0 +1,24 @@
+{
+	"id": "V00136",
+	"slug": "תוא-1",
+	"headword": {
+		"text": "תְּוָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1649,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"V00002\"><he>תָּא</he> I</cite>) <i>compartment, cell</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:7\">Targ. Ez. XL, 7</cite>; <cite ref=\"Targum Jonathan on Ezekiel 40:12\">12</cite>; a. e.—Pl. <he>תָּוַיָּא</he>, <cite ref=\"V00191\"><he>תָּוֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:10\">Ib. 10</cite>; <cite ref=\"Targum Jonathan on Ezekiel 40:12\">12</cite>; a. e."
+			]
+		}
+	]
+}

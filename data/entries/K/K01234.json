@@ -1,0 +1,22 @@
+{
+	"id": "K01234",
+	"slug": "כרמלי",
+	"headword": {
+		"text": "כַּרְמְלִי"
+	},
+	"page": {
+		"number": 671,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (sub. <cite ref=\"J00335\"><he>יין</he></cite>; v. <cite ref=\"K01233\">preced.</cite>) <i>Carmel wine</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Niddah 3:11\">Tosef. Nidd. III, 11</cite> [read:] <he>היין השרוני הדומה לכ׳ חי ולא מזוג חדש ולא ישן</he> Sharon wine (mixed) which resembles in color the Carmel wine pure but not mixed, new &c.; <cite ref=\"Niddah 21a\">Nidd. 21ᵃ</cite>"
+			]
+		}
+	]
+}

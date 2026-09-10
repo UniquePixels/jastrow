@@ -1,0 +1,46 @@
+{
+	"id": "N00620",
+	"slug": "ניגרא",
+	"headword": {
+		"text": "נִיגְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִגְ׳"
+		}
+	],
+	"page": {
+		"number": 902,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00185\"><he>נְגַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gutter, dike</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 107b:15\">B. Mets. 107ᵇ</cite> <he>ד׳ גרמידי דאַנִּ׳ לבני נ׳</he> Ar. (ed. <he>ד׳ אמות … דבני אנ׳</he>) four cubits on the shores of a dyke belong to the owners of the dyke. ",
+				"<cite ref=\"Pesachim 113a:4\">Pes. 113ᵃ</cite> <he>לא תשוור נ׳</he> leap not over a dyke (oth. opin., v. infra). ",
+				"<cite ref=\"Bava Batra 12b:14\">B. Bath. 12ᵇ</cite> <he>תרתי אחד נ׳</he> two fields dependent on one dyke for irrigation; a. e.—Pl. <he>נִיגְרֵי</he>, <cite ref=\"N00620\"><he>נִגְ׳</he></cite>. ",
+				"<cite ref=\"Bava Batra 12b:14\">Ib.</cite>—[V. also <cite ref=\"N00121\"><he>נִגְדָּא</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>track, step</i>. Pes. l. c. <he>לא תשוור נ׳</he> do not leap in place of walking (v. supra).—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 57a:8\">B. Kam. 57ᵃ</cite> <he>נקטי להו נ׳ ברייתא</he> Rashi (ed. sing.) they adopted the habit of running out into the fields; <cite ref=\"Bava Kamma 118b:1\">ib. 118ᵇ</cite> <he>אנקטה נ׳ וכ׳</he> (not <he>אנקטי</he>) he taught her the way out of the fold; <cite ref=\"Bava Batra 88a:2\">B. Bath. 88ᵃ</cite> <he>אנקטינהו ניגרא וכ׳</he> he taught them &c.—",
+				"<cite ref=\"Shabbat 51b:11\">Sabb. 51ᵇ</cite> <he>נ׳ דחמרא שערי</he> the gait of the ass is (in accordance with) the barley (which he feeds on). ",
+				"<cite ref=\"Shabbat 66b:9\">Ib. 66ᵇ</cite> <he>קל נ׳</he> the sound of steps. ",
+				"<cite ref=\"Pesachim 111a:6\">Pes. 111ᵃ</cite> <he>שתין נ׳</he> sixty steps. ",
+				"<cite ref=\"Berakhot 41b:5\">Ber. 41ᵇ</cite> <he>נ׳ דפרזלא</he> iron run (unwearied walk)."
+			],
+			"label": "2"
+		}
+	]
+}

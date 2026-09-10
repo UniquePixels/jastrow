@@ -1,0 +1,43 @@
+{
+	"id": "O01407",
+	"slug": "ספק-6",
+	"headword": {
+		"text": "סָפֵק"
+	},
+	"page": {
+		"number": 1016,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01406\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>division</i>, <i>doubt</i>, opp. <cite ref=\"F00014\"><he>וַדַּאי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Keritot 4:1\">Ker. IV, 1</cite> <he>ס׳ אכל ס׳ לא אכל</he> if there is a doubt whether or not he has eaten forbidden fat; <he>ס׳ יש בו וכ׳</he> if there is a doubt whether it was the legally required quantity. ",
+				"<cite ref=\"Bava Batra 10a:13\">B. Bath. 10ᵃ</cite> <he>ס׳ מקבלין … ס׳ אין וכ׳</he> it is uncertain whether it will be accepted from him or not. ",
+				"<cite ref=\"Avodah Zarah 41a\">Ab. Zar. 41ᵃ</cite> <he>הוי ס׳ וכ׳</he>, v. <cite ref=\"F00014\"><he>וַדַּאי</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:3:4\">Y. Bets. I, 60ᵇ</cite> bot. <he>סְפֵיקוֹ</he>, <cite ref=\"O01366\"><he>סְפֵיקָהּ</he></cite> where there is a doubt about it, v. <cite ref=\"F00014\"><he>וַדַּאי</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:3:4\">Ib.</cite> <he>מאי ס׳ וש שם</he> what is the doubt there? i. fr. what difference does it make in practice?—",
+				"<cite ref=\"Yevamot 37b:11\">Yeb. 37ᵇ</cite>, a. fr. <he>ממון המוטל בס׳</he>, v. <cite ref=\"M01651\"><he>מָמוֹן</he></cite>. ",
+				"<cite ref=\"Mishnah Keritot 6:3\">Ker. VI, 3</cite> (<cite ref=\"Keritot 25a:44\">25ᵃ</cite>) <he>המתן עד שתכנס לס׳</he> (Var. in Talm. ed. <he>לבית הס׳</he>) wait until you arrive at a condition of doubt, i.e. until you are in doubt as to having committed a sin requiring a sacrifice. Ib. 2 <he>כִּפְּרָה סְפֵיקָהּ וכ׳</he> the heifer has atoned for the doubt for which it has been put to death, and is gone (i.e. at the time of its being thrown down the murderer was unknown); ib. 25ᵃ <he>עדיין לא כיפרה סְפֵיקָתָהּ</he> it had not yet atoned for the doubt for which it was to be put to death; a. v. fr.—Pl. <he>סְפֵיקוֹת</he>, <he>סְפֵק׳</he> (<i>fem.</i>). ",
+				"<cite ref=\"Mishnah Kiddushin 4:3\">Kidd. IV, 3</cite> <he>ואלו הן הס׳</he> and these are the cases of uncertain parentage. ",
+				"<cite ref=\"Bava Metzia 83b:11\">B. Mets. 83ᵇ</cite> <he>ס׳ שלכם</he> cases in which you act on doubts (mere suspicion), v. <cite ref=\"F00013\"><he>וַדָּאָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 1:1:4\">Y. Keth. I, beg. 24ᵈ</cite> <he>שתי ס׳</he> a double doubt, v. <cite ref=\"O01408\">next w.</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dilemma</i>, <i>difficulty</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:8:1\">Cant. R. to VII, 8</cite> <he>למה באו ישראל בס׳ וכ׳</he> why did the Israelites get into trouble in the days of Haman?"
+			],
+			"label": "2"
+		}
+	]
+}

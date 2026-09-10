@@ -1,0 +1,52 @@
+{
+	"id": "O00499",
+	"slug": "סטן-3",
+	"headword": {
+		"text": "סְטַן",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סָטָן"
+		},
+		{
+			"text": "סָטָנָא"
+		},
+		{
+			"text": "סִטְנָא"
+		},
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 973,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00498\">preced.</cite>) = h. <cite ref=\"U00760\"><he>שָׂטָן</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hinderer, enemy</i>. [<cite ref=\"Onkelos Numbers 22:22\">Targ. O. Num. XXII, 22</cite>; <cite ref=\"Onkelos Numbers 22:32\">32</cite>, v. preced.] <cite ref=\"Targum Jonathan on I Kings 5:18\">Targ. I Kings V, 18</cite>; <cite ref=\"Targum Jonathan on I Kings 11:14\">XI, 14</cite> (interch. with <he>שׂ</he>).—Pl. <he>סַטְנִין</he>, <cite ref=\"O00475\"><he>סוֹטְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 109:20\">Targ. Ps. CIX, 20</cite> <he>סָטְנַי</he> (ed. Lag. <he>שׂוֹטְ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 109:29\">Ib. 29</cite> (ed. Lag. <cite ref=\"O00290\"><he>סוֹ׳</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the accuser, seducer, Satan</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 1:6\">Targ. Job I, 6</cite>; a. fr.—",
+				"<cite ref=\"Tamid 32a:63\">Tam. 32ᵃ</cite> <he>ס׳ נצח</he> Satan has been victorious, i.e. wrong has won against right.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 23:2\">Yalk. Gen. 23</cite> <cite ref=\"O00499\"><he>סָטָן</he></cite> (in Hebrew dict.), v. <cite ref=\"O01096\"><he>סמ״ך</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"id": "M02773",
+	"slug": "מרר-1",
+	"headword": {
+		"text": "מָרַר"
+	},
+	"page": {
+		"number": 847,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to drip;</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A03208\"><he>אֶרֶס</he></cite>) <i>to be bitter</i>.—V. <cite ref=\"M00605\"><he>מוֹר</he></cite>, <cite ref=\"M02479\"><he>מַר</he></cite>, <cite ref=\"M02605\"><he>מָרוֹר</he></cite> &c.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מֵרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to make bitter</i>; <i>to afflict</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Pesachim 10:5\">Pes. X, 5</cite> <he>מרור על שום שמֵרְרוּ המצרים וכ׳</he> we eat bitter herbs in memory of the Egyptians embittering the lives of our fathers in Egypt. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:13:1\">Cant. R. to I, 13</cite> (play on <cite ref=\"M02475\"><he>מֹר</he></cite>, <cite ref=\"Shir HaShirim Rabbah 1:13:1\">ib.</cite>) <he>אברהם מְמָרֵר עצמו וכ׳</he> Abraham afflicted himself and plagued himself with sufferings; <cite ref=\"Shir HaShirim Rabbah 3:6\">ib. to III, 6</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵמַר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M02772\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> (play on <he>וימררהו</he>, <cite ref=\"Genesis 49:23\">Gen. XLIX, 23</cite>) <he>שה׳ לאחיו</he> who made his brothers suffer; <he>שהֵמֵירוּ לו אחיו</he> whom his brothers made suffer; <he>שה׳ לאדונתו</he> who made his mistress suffer; <he>שהֵמֵירָה לו אדונתו</he> (v. Matt. K.) whom his mistress made suffer. ",
+						"<cite ref=\"Shabbat 88b:4\">Sabb. 88ᵇ</cite> (play on <he>צ̇ר̇ר המ̇ר̇</he>, <cite ref=\"Song of Songs 1:13\">Cant. I, 13</cite>) <he>אע״פ שמיצ̇ר̇ ומֵימַ֗ר̇ לי וכ׳</he> although my Beloved decrees anguish and suffering for me; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְמָרֵר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְמָרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to become sticky and bitter</i> from handling myrrh. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:13\">Cant. R. to I, 13</cite> <he>כל … ידיו מִתְמָרְרוֹת</he> (Matt. K. <he>מִתְמוֹרְר׳</he>, <i>Hithpol</i>.) whoever plucks it (myrrh), gets his hands sticky (and bitter). ",
+						"<cite ref=\"Bamidbar Rabbah 13:15\">Num. R. s. 13</cite> (play on <cite ref=\"M00639\"><he>מוֹרִי</he></cite>, <cite ref=\"Song of Songs 5:1\">Cant. V, 1</cite>) <he>נִתְמָרְרוּ בגלות וכ׳</he> they became bitter (affected with sin) in captivity, and were sweetened (atoned for their sins) by martyrdom."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הִתְמַרְמֵר"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpalp</i>. <cite ref=\"M02773\"><he>נִתְמַרְמֵר</he></cite> <i>to get excited</i> (in battle); <i>to be enraged</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 29:1\">Pesik. R. s. 29-30</cite>-30 (ed. Fr., p. 140ᵃ) <he>מיד היה מִתְמַרְמֵר וכ׳</he> at once he became enraged and kicked it (the missile) &c. ",
+						"<cite ref=\"Pesikta Rabbati 29:1\">Ib.</cite> <he>נתמ׳ לצאת</he> he was excited in rushing out."
+					]
+				}
+			],
+			"stem": "Hithpalp."
+		}
+	]
+}

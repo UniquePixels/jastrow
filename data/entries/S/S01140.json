@@ -1,0 +1,28 @@
+{
+	"id": "S01140",
+	"slug": "קיקולים",
+	"headword": {
+		"text": "קִיקוּלִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיקוּלִין"
+		}
+	],
+	"page": {
+		"number": 1367,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <cite ref=\"S01420\"><he>קלקיל׳</he></cite>, cmp. <cite ref=\"S01144\"><he>קִיקָלוֹן</he></cite>) <i>disgrace, prostitution</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 662:1\">Yalk. Ps. 662</cite> <he>העמיד בתי קוצים ובתי ק׳ וכ׳</he> he put up houses of idolatry (v. <cite ref=\"S00534\"><he>קוֹץ</he> I</cite>) and houses of prostitution &c.; <cite ref=\"Midrash Tehillim 14:4\">Midr. Till. to Ps. XIV</cite> <he>קִלְקְלִין</he> (ed. Bub. <cite ref=\"S01145\"><he>קִיקְלִין</he></cite>)."
+			]
+		}
+	]
+}

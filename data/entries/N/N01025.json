@@ -1,0 +1,70 @@
+{
+	"id": "N01025",
+	"slug": "נפח-1",
+	"headword": {
+		"text": "נָפַח"
+	},
+	"page": {
+		"number": 922,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"Q00174\"><he>פּוּחַ</he></cite>)<i>to blow, breathe</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:59\">Y. Sabb. VII, 10ᵈ</cite> <he>הנוֹפֵח כלי זכוכית</he> he who shapes glass vessels by blowing (on the Sabbath); Bab. ",
+				"<cite ref=\"Shabbat 75b:3\">Sabb. 75ᵇ</cite> <he>המְנַפֵּחַ בכלי וכ׳</he>. ",
+				"<cite ref=\"Mishnah Makhshirin 1:6\">Makhsh. I, 6</cite> <he>הנופח בעדשים וכ׳</he> he who breathes at lentils to ascertain their quality. ",
+				"<cite ref=\"Tosefta Shabbat 15:2\">Tosef. Sabb. XV</cite> (<cite ref=\"Tosefta Shabbat 16:2\">XVI</cite>), 2 <he>נופח בחוטמו וכ׳</he> you blow into its nostrils and put the teat into its mouth; <cite ref=\"Shabbat 128b\">Sabb. 128ᵇ</cite>; Y. ib. XVIII, end, 16ᶜ <he>מביא יין ונופח וכ׳</he> you take wine and squirt it &c. ",
+				"<cite ref=\"Bava Metzia 60b:3\">B. Mets. 60ᵇ</cite> <he>אין נוֹפְחִין בקרביים</he> it is not permitted to blow up entrails (for sale, to give them a delusive appearance); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be blown up, to swell</i>. Tanḥ. K’dosh. 8 <he>נָפְחוּ פניו</he> his face was swollen. Ib. <he>עיניו נְפוּחוֹת</he> his eyes swollen.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיפֵּחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01024\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 75b\">Sabb. 75ᵇ</cite>, v. supra. ",
+						"<cite ref=\"Mishnah Maasrot 4:5\">Maasr. IV, 5</cite> <he>מְנַפֵּיחַ</he> … <he>ואם ני׳ וכ׳</he> Y. ed. (Bab. ed. <he>מנפח … נפח</he>; Ms. M. <he>מנפיח</he>; Mish. ed. <he>מנפה … נפה</he>, v. Rabb. D. S. a. l. note 7) he may blow out (the chaff of the wheat-ears) from hand to hand and eat, but if he blows and puts the grain in his lap, he is bound (to pay tithes); <cite ref=\"Beitzah 13b:10\">Bets. 13ᵇ</cite>. ",
+						"<cite ref=\"Beitzah 14a\">Ib. 14ᵃ</cite>. ",
+						"<cite ref=\"Berakhot 19b\">Ber. 19ᵇ</cite>; <cite ref=\"Niddah 57a\">Nidd. 57ᵃ</cite>, a. e., v. <cite ref=\"Q01909\"><he>פְּרַס</he></cite>; a. fr.—[Y. Peah VIII, 21ᵇ top <he>המנפח</he>, read <he>המכפח</he>, v. <cite ref=\"S01725\"><he>קָפַח</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נוּפָּח"],
+			"senses": [
+				{
+					"gloss": "<i>to be blown, fanned</i>. ",
+					"units": [
+						"<cite ref=\"Tractate Semachot 8:11\">Treat. S’maḥ. ch. VIII</cite> <he>מוטב … אש שנוּפְּחָה ולא אש שלא נופחה וכ׳</he> it is better that a fire consume me which has been blown (by man), than a fire that has not been fanned (Gehenna; <cite ref=\"Job 20:26\">Job XX, 26</cite>)."
+					]
+				}
+			],
+			"stem": "Pu."
+		},
+		{
+			"forms": ["נִיפַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to be blown up, to swell</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> <he>תִּנָּפֵחַ כרסי וכ׳</he> my belly may swell and burst."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

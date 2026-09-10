@@ -1,0 +1,43 @@
+{
+	"id": "N00298",
+	"slug": "נובלת",
+	"headword": {
+		"text": "נוֹבֶלֶת"
+	},
+	"page": {
+		"number": 883,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00091\"><he>נָבַל</he></cite>) <i>unripe fruit</i>, esp. <i>date, fruit falling off unripe</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:2:8\">Y. Maasr. I, 48ᵈ</cite> bot. <he>נ׳ היא</he> it is unripe fruit (and not yet subject to tithes).—Pl. <he>נוֹבְלוֹת</he>. ",
+				"<cite ref=\"Midrash Tehillim 14:4\">Midr. Till. to Ps. XIV</cite> <he>עתיד … להשירו כנ׳ וכ׳</he> the Lord will cause him (Esau-Rome) to drop like unripe fruit which drops from the tree—Esp. <i>nob’loth</i> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>an inferior quality of dates</i> (which generally fall off unripe). ",
+					"units": [
+						"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite> <he>נ׳ התמרה</he>. ",
+						"<cite ref=\"Mishnah Berakhot 6:3\">Ber. VI, 3</cite>, expl. ",
+						"<cite ref=\"Berakhot 40b:22\">ib. 40ᵇ</cite> <he>בושלי כמרא</he> (v. <cite ref=\"B00397\"><he>בּוּשְׁלָא</he></cite>), and <he>תמרי דזיקא</he> (v. <cite ref=\"G00404\"><he>זִיקָא</he> I</cite>). Y. ib. VI, 10ᶜ top <he>ראה נ׳ שנשרו וכ׳</he> when one sees <i>nob’loth</i> which fell off, one says, ‘blessed be the faithful Judge’. ",
+						"<cite ref=\"Tosefta Demai 1:1\">Tosef. Dem. I, 1</cite> <he>הנ׳ … התמרה</he> the unripe dates which are sold with the palm; Y. ib. I, 21ᶜ bot. Tanḥ. B’midb. 15 <he>מה התמרה הזו עושה תמרים ועושה נ׳</he> as the palm bears good dates and inferior ones &c.; <cite ref=\"Bamidbar Rabbah 3:1\">Num. R. s. 3</cite>, beg. <he>תמרים רטובין ניקלווסין נ׳</he> (read <he>ונ׳</he>); a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (trnsf.) <i>an inferior variety</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 17:5\">Gen. R. s. 17</cite> <he>נ׳ מיתה וכ׳</he> a variety of death is sleep, of prophecy, dream &c.; <cite ref=\"Bereishit Rabbah 17:5\">ib.</cite> s. 44; <cite ref=\"Yalkut Shimoni on Torah 23:2\">Yalk. ib. 23</cite>; <cite ref=\"Yalkut Shimoni on Torah 77:10\">77</cite>; <cite ref=\"Yalkut Shimoni on Nach 139:1\">Yalk. Sam. 139</cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 139:1\">Ib.</cite> <he>נ׳ אורה של מעלה וכ׳</he> a variety of the upper (divine) light is the globe of the sun, of the upper wisdom, the Law."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "E00898",
+	"slug": "הרפתקא",
+	"headword": {
+		"text": "הַרְפַּתְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַרְפַּתְקֵי"
+		}
+	],
+	"page": {
+		"number": 368,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02196\"><he>פתק</he></cite> with preform. <cite ref=\"E00808\"><he>הר</he></cite>, cmp. <cite ref=\"E00881\"><he>הַרְמָנָא</he></cite>; v. <cite ref=\"Q00905\"><he>פִּיתְקָא</he></cite>) [<i>portions, allotments</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>measure, limitation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 18:2\">Targ. Job XVIII, 2</cite> (h. text <he>קִנְצֵי</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>destinies, reverses, experiences</i> (cmp. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>). Ib. XII, 5 <he>ה׳ זמנא</he> the changes of time (h. text <he>מועדי רגל</he>; cmp. <cite ref=\"T00204\"><he>רֶגֶל</he></cite>).—",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 16a:2\">R. Hash. 16ᵃ</cite> <he>כל הני ה׳ דעדו וכ׳</he> all those preordained changes that passed over the standing crop (up to Passover)."
+			],
+			"label": "2"
+		}
+	]
+}

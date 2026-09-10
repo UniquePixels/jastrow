@@ -1,0 +1,22 @@
+{
+	"id": "H01455",
+	"slug": "חפישה",
+	"headword": {
+		"text": "חֲפִישָׂה"
+	},
+	"page": {
+		"number": 492,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01478\"><he>חָפַשׂ</he></cite>) <i>searching, digging</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 31b:8\">Pes. 31ᵇ</cite> <he>כמה חֲפִישַׂת הכלב</he> how far does the dog reach in digging?"
+			]
+		}
+	]
+}

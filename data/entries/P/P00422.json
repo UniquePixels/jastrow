@@ -1,0 +1,27 @@
+{
+	"id": "P00422",
+	"slug": "עזקה",
+	"headword": {
+		"text": "עֲזֵקָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲזֵיקָה"
+		}
+	],
+	"page": {
+		"number": 1062,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָזַק</he> 1) <i>a newly broken field</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 5:2\">Tosef. Dem. V, 2</cite> (a gentile vender praising his goods) <he>פירות ע׳ הם</he> ed. Zuck. (oth. ed. <cite ref=\"P00419\"><he>עֲזָק</he></cite>) they are fruits of a new land (in which case they would be forbidden as ʿOrlah); <cite ref=\"Yevamot 122a:2\">Yeb. 122ᵃ</cite>"
+			]
+		}
+	]
+}

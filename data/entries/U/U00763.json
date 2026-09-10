@@ -1,0 +1,51 @@
+{
+	"id": "U00763",
+	"slug": "שטף-2",
+	"headword": {
+		"text": "שְׁטֵף"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁטֵיף"
+		}
+	],
+	"page": {
+		"number": 1555,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00762\">same</cite><i>to wash, rinse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 22:38\">Targ. I Kings XXII, 38</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 11:8\">Targ. II Sam. XI, 8</cite>; a. e.—",
+				"<cite ref=\"Tamid 27b:41\">Tam. 27ᵇ</cite> <he>שְׁטוֹף ושתי שטוף ואחית</he> rinse (the cup) and drink, rinse, and set it down; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to overflow, flood, wash away</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:20\">Targ. Ps. LXXVIII, 20</cite> <he>ישטפון מיא</he> Ms. (omitted in ed.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 33:21\">Targ. Is. XXXIII, 21</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 21:16\">Targ. Y. II, Num. XXI, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 124:4\">Targ. Ps. CXXIV, 4</cite>; a. e.—",
+				"<cite ref=\"Nazir 32b:3\">Naz. 32ᵇ</cite> <he>שַׁטְפוּהוּ ובנן וכ׳</he> the Rabbis carried R. El. away, and made him stand on their principle, i.e. made him give up his opinion and adopt theirs. ",
+				"<cite ref=\"Sukkah 53a:12\">Succ. 53ᵃ</cite> <he>למִשְׁטְפָא וכ׳</he>, v. <cite ref=\"S01731\"><he>קְפֵי</he></cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁטֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to wash</i>. Y. Ber. VIII, 12ᵃ bot. <he>ולא מְשַׁטֵּף ידוי וכ׳</he> and did not wash his hands up to the joints.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

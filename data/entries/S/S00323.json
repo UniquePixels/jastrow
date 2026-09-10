@@ -1,0 +1,23 @@
+{
+	"id": "S00323",
+	"slug": "קולב-3",
+	"headword": {
+		"text": "קוּלָב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1327,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"K00263\"><he>כּוּלָב</he></cite>) <i>axe</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 35\">Gen. R. s. 35</cite>; <cite ref=\"Yalkut Shimoni on Torah 61\">Yalk. ib. 61</cite> <he>ק׳ רותח</he> a hot axe (?)."
+			]
+		}
+	]
+}

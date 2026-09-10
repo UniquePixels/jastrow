@@ -1,0 +1,32 @@
+{
+	"id": "U02029",
+	"slug": "שרר-1",
+	"headword": {
+		"text": "שָֹרַר"
+	},
+	"page": {
+		"number": 1634,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be great, to rule</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׂתָּרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to make one’s self lord</i>; (homilet.; cmp. <cite ref=\"U01915\"><he>שִׁרְבֵּב</he></cite>) <i>to stretch one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 9b:4\">Yoma 9ᵇ</cite> (play on <he>מהשֹתֹרֹעֹ</he>, <cite ref=\"Isaiah 28:20\">Is. XXVIII, 20</cite>) <he>קצר מצע זה מֵהִשְׂ֗תָּ֗רֵר עליו שני ר̇ע̇ים כאחד</he> this couch is too narrow for two lovers to stretch themselves on it (Ms. O. a. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 302\">Yalk. Is. 302</cite> <he>מהשתרע</he>, v. <cite ref=\"U01998\"><he>שָׂרַע</he></cite>); <cite ref=\"Sanhedrin 103b:9\">Snh. 103ᵇ</cite> <he>מִלְּהִשְׂתָּרֵר</he>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

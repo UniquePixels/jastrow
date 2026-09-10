@@ -1,0 +1,37 @@
+{
+	"id": "S01090",
+	"slug": "קיסרין",
+	"headword": {
+		"text": "קִיסְרִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיסְרֵי"
+		},
+		{
+			"text": "קִסְ׳"
+		}
+	],
+	"page": {
+		"number": 1365,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Cæsarea</i>, name of several cities, esp. <i>Cæsarea</i> (<i>Palestina</i>), a maritime city founded by Herod the Great on the site of Straton’s Tower. ",
+			"units": [
+				"<cite ref=\"Megillah 6a:12\">Meg. 6ᵃ</cite> (ref. to <he>עקרון</he>, <cite ref=\"Zephaniah 2:4\">Zeph. II, 4</cite>) <he>זו ק׳ בת אדום וכ׳</he> this means (symbolically) C., the daughter of Edom (seat of the Roman government) &c., v. <cite ref=\"H00323\"><he>חוֹל</he> I</cite>. ",
+				"<cite ref=\"Zephaniah 2:4\">Ib.</cite> <he>מלכי ק׳ וירושלים</he> the governors of C. and of Jerusalem. ",
+				"<cite ref=\"Eichah Rabbah 4:24\">Lam. R. to IV, 21</cite> ‘daughter of Edom’ <he>זו ק׳</he> this means C.—",
+				"<cite ref=\"Tosefta Ohalot 18:16\">Tosef. Ohol. XVIII, 16</cite> <he>ק׳ שהחזיקו בה וכ׳</he> C. which was always considered unclean (v. <cite ref=\"M00273\"><he>מָדוֹר</he></cite>). ",
+				"<cite ref=\"Tosefta Ohalot 18:13\">Ib. 13</cite> <he>מזרח ק׳</he> the eastside of C.; Ohol. XVIII, 9 (ed. Dehr. <he>קסרון</he>, corr. acc.; some ed. <cite ref=\"S01087\"><he>קֵיסַרִיּוֹן</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:7:6\">Y. Pes. III, end, 30ᵇ</cite> <he>רבנן דק׳</he> the Rabbis of C.; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 2:11:4\">Y. Yeb. II, end, 4ᵇ</cite>, a. e. <he>ק׳ שבקפודקיא</he> Cæsarea in Cappadocia, v. <cite ref=\"M00154\"><he>מְגִיזָה</he></cite>. Mekh. B’shall., Amal., s. 2 <cite ref=\"S01682\"><he>קסריון</he></cite>, v. <cite ref=\"M00888\"><he>מְחִלָּה</he></cite>.—Denom. <cite ref=\"S01084\"><he>קִיסְרִי</he></cite>, <cite ref=\"S00459\"><he>קִסְ׳</he></cite> <i>Cæsarean</i>. ",
+				"<cite ref=\"Tosefta Demai 4:23\">Tosef. Dem. IV, 23</cite> <he>הניח ק׳ ומצא אגרי</he> (Var. <he>ומצא עִגְּרוֹן</he>) if he left Cæsarean wheat (bought for immediate use) and found storage wheat in its place (v. <cite ref=\"A00282\"><he>אֵגוֹרִי</he></cite>)."
+			]
+		}
+	]
+}

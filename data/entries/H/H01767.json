@@ -1,0 +1,36 @@
+{
+	"id": "H01767",
+	"slug": "חרר-4",
+	"headword": {
+		"text": "חֲרַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 506,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01766\">same</cite>, <i>to set free</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 16:2\">Targ. Y. Gen. XVI, 2</cite> <he>אַחְרְרִינָהּ</he> I will liberate her. ",
+				"<cite ref=\"Targum Jonathan on Genesis 16:3\">Ib. 3</cite> <he>חֲרַרְתָּהּ</he> (not … <he>תא</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 16:5\">Ib. 5</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחָרַר", "אִיתְחַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be set free</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 19:20\">Targ. Lev. XIX, 20</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

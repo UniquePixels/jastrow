@@ -1,0 +1,28 @@
+{
+	"id": "M01695",
+	"slug": "מן-4",
+	"headword": {
+		"text": "מַן",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מַנָּא"
+		}
+	],
+	"page": {
+		"number": 796,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01694\">same</cite> (<i>a day’s</i>) <i>support</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 39b:4\">Succ. 39ᵇ</cite> <he>בכדי מן</he> for as much only as is needed for the day. ",
+				"<cite ref=\"Sukkah 39b:4\">Ib.</cite> <he>דהאי מ׳ וכ׳</he> that <i>man</i> means support, v. preced.—Esp. <cite ref=\"M01700\"><he>מַנָּא</he></cite> <i>the manna</i>. ",
+				"<cite ref=\"Onkelos Exodus 16:31\">Targ. Ex. XVI, 31</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 16:27\">Targ. Y. ib. 27</cite>; a. e. (some ed. <cite ref=\"M00048\"><he>מָנָא</he></cite>)."
+			]
+		}
+	]
+}

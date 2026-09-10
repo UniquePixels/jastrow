@@ -1,0 +1,24 @@
+{
+	"id": "H01183",
+	"slug": "חמיסין",
+	"headword": {
+		"text": "חֲמִיסִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 477,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>those using such words as ḥamis</i> (ἥμισυ, cmp. <he>חומס</he>), a mockery on Talmudic scholars using foreign words. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 14a:11\">Snh. 14ᵃ</cite> <he>כל מן דין</he> … <he>לא מסרמיסין ולא מסרמיטין מח׳ וכ׳</he> Ms. F. a. Ag. Hatt. (v. Rabb. D. S. a. l. note 7; ed. <he>ואמרי לה לא מח׳</he>) such men (as R. Ammi &c.) appoint for us, but do not appoint for us any of those using such words like <i>sermis</i> (semis, ἥμισυ) <i>sermit</i> (prob. distortion of tremis), <i>hemis</i> or <i>tremis</i> (cmp. Y. Gitt. IV, 47ᵇ quot. s. v. <cite ref=\"C00487\"><he>גּוֹרְדְּיָינִי</he></cite>). [Oth. opin. v. Rashi, a. Ar. s. v.]"
+			]
+		}
+	]
+}

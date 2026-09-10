@@ -1,0 +1,27 @@
+{
+	"id": "U01041",
+	"slug": "שיקול",
+	"headword": {
+		"text": "שִׁיקּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁקּ׳"
+		}
+	],
+	"page": {
+		"number": 1567,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01870\"><he>שָׁקַל</he></cite>) <i>weighing</i>; <he>ש׳ הדעת</he> weighing of opinions, <i>decision between opposing views</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 6a:5\">Snh. 6ᵃ</cite>, a. fr., v. <cite ref=\"D00950\"><he>דַּעַת</he></cite>."
+			]
+		}
+	]
+}

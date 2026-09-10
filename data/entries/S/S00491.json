@@ -1,0 +1,45 @@
+{
+	"id": "S00491",
+	"slug": "קופא-2",
+	"headword": {
+		"text": "קוּפָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1337,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קפף</he>) = h. <cite ref=\"S00503\"><he>קוּפָּה</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>basket, tub</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 101a:10\">B. Kam. 101ᵃ</cite>, v. <cite ref=\"S00489\"><he>קוֹף</he></cite> ch.—Pl. <he>קוּפִּין</he>, <cite ref=\"S00505\"><he>קוּפַּיָּא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:45\">Y. Sabb. VII, 10ᶜ</cite> top, v. <cite ref=\"R00713\"><he>צְפַר</he> II</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:1:12\">Y. Pes. III, 29ᵈ</cite> sq. <he>דלא מיתן ק׳ וכ׳</he> not to place the tubs with flour one on top of the other. Y. Ab. Zar. IV, end, 44ᵇ. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:29\">Y. Ber. I, 2ᵈ</cite> bot. <he>מטמר ביני ק׳</he> hidden among the baskets. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 8:10:3\">Y. Gitt. VIII, end, 49ᵈ</cite>; <cite ref=\"Jerusalem Talmud Niddah 2:7:7\">Y. Nidd. II, end, 50ᵇ</cite> <he>כמה ק׳ דעובדין וכ׳</he> how many basketfuls of cases came &c.—V. <cite ref=\"S00525\"><he>קוּפְתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ball</i>, esp. <he>ק׳ דמחטא</he> <i>the head of a pin</i> or <i>needle, eye</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 55b\">Ber. 55ᵇ</cite>; <cite ref=\"Bava Metzia 38b\">B. Mets. 38ᵇ</cite>, v. <cite ref=\"Q00666\"><he>פִּילָא</he> I</cite>. ",
+				"<cite ref=\"Chullin 48b:11\">Ḥull. 48ᵇ</cite> <he>אי ק׳ לבר וכ׳</he> if the head is directed outward …, if inward &c.; <cite ref=\"Chullin 49a:1\">ib. 49ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>pinnacle.—</i>Pl. <he>קוּפֵּי</he>, v. <cite ref=\"S00505\"><he>קוּפְיָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

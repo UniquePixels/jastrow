@@ -1,0 +1,31 @@
+{
+	"id": "S01214",
+	"slug": "קישור",
+	"headword": {
+		"text": "קִישּׁוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִשּׁ׳"
+		}
+	],
+	"page": {
+		"number": 1370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02264\"><he>קָשַׁר</he></cite>) <i>binding, contraction</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 16b:8\">Sabb. 16ᵇ</cite> <he>בשעת ק׳ עבים</he> when the clouds were gathering, opp. <cite ref=\"Q00609\"><he>פיזור</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 15:1\">Ib. XV, 1</cite> <he>כשם שהוא חייב על קִישּׁוּרָן וכ׳</he> as well as he is guilty (of violating the Sabbath laws), when he ties them (the knots) &c., opp. <he>התיר</he>. Y. ib. IV, 7ᵃ top; a. e.—Pl. <cite ref=\"S01209\"><he>קִישּׁוּרִים</he></cite>, <cite ref=\"S01210\"><he>קִשּׁ׳</he></cite> (b. h. <he>קִשֻּׁרִים</he>) <i>beads, decorations</i>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 32:2\">Pirké d’R. El. ch. XXXII</cite>, end <he>ככלה בקִשּׁוּרֶיהָ</he> like a bride in her attire; <cite ref=\"Yalkut Shimoni on Torah 114:4\">Yalk. Gen. 114</cite>. ",
+				"<cite ref=\"Shabbat 66b:7\">Sabb. 66ᵇ</cite> (expl. <he>קשרים</he>, Mish. ",
+				"<cite ref=\"Mishnah Shabbat 6:9\">ib. VI, 9</cite>), <he>קִשּׁוּרֵי פואה</he> (Ms. M. <he>קישור פיאה</he>), v. <cite ref=\"Q00151\"><he>פּוּאָה</he></cite>; Y. ib. VI, 8ᶜ <he>בקושרי פיאה</he> (corr. acc.); a. e."
+			]
+		}
+	]
+}

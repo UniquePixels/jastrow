@@ -1,0 +1,33 @@
+{
+	"id": "C00311",
+	"slug": "גודל-1",
+	"headword": {
+		"text": "גּוֹדֶל"
+	},
+	"page": {
+		"number": 218,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>גֹּדֶל</he>; v. <he>גדל</he>)<i>greatness</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 21b:20\">Erub. 21ᵇ</cite> <he>כבודי וגוֹדְלִי</he>, my glory and my greatness.—",
+				"<cite ref=\"Shemot Rabbah 29\">Ex. R. s. 29</cite>; <cite ref=\"Shir HaShirim Rabbah 1:2:3\">Cant. R. to I, 2</cite> <he>גָּדְלוֹ</he> His greatness.—",
+				"<cite ref=\"Shir HaShirim Rabbah 2:4\">Ib. to II, 4</cite>; <cite ref=\"Bamidbar Rabbah 2:3\">Num. R. s. 2</cite> (play on <he>ודגלו</he>, Cant. l. c.) <he>וגוֹדְלוֹ עלי אהבה</he> even his (the child’s) elevating himself over Me (by putting his finger on the Divine Name) is (a token of) love; (Tanḥ. B’midb. 10 <he>ודגלו</he>; ed. Bub. ib. note <he>וגִידּוּלוֹ</he> Ms. R.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pile</i>.—Pl. <he>גּוֹדְלִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:3:2\">Y. B. Mets. II, beg. 8ᵇ</cite> <he>עשויין ג׳</he> (coins found) piled up (assorted according to their sizes, pyramid-like; Bab. ",
+				"<cite ref=\"Bava Metzia 25a:11\">B. Mets. 25ᵃ</cite> <he>כמִגְדָּלִין</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

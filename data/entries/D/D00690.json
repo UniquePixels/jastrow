@@ -1,0 +1,24 @@
+{
+	"id": "D00690",
+	"slug": "דיצא-2",
+	"headword": {
+		"text": "דֵּיצָא"
+	},
+	"page": {
+		"number": 304,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דּוּץ</he> I) = b. h. <cite ref=\"G00544\"><he>זֶמֶר</he></cite>, an animal of the <i>deer</i> or <i>gazelle</i> species. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 14:5\">Targ. O. Deut. XIV, 5</cite>.—Pl. <he>דִּיצִין</he>. Targ. Y. ",
+				"<cite ref=\"Onkelos Deuteronomy 14:5\">ib.</cite>—Fem. <cite ref=\"D00694\"><he>דִּיצְתָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:19\">Targ. Prov. V, 19</cite> (h. text <he>יעלת</he>)."
+			]
+		}
+	]
+}

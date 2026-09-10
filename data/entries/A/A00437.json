@@ -1,0 +1,31 @@
+{
+	"id": "A00437",
+	"slug": "אדק-1",
+	"headword": {
+		"text": "אָדַק"
+	},
+	"page": {
+		"number": 17,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>אד</he>, v. <he>הדק</he>, <he>חדק</he>) <i>to squeeze into, fasten</i>. Part. pass. <he>אָדוּק</he>, pl. <he>אֲדוּקִים</he>, <he>אֲדוּקִין</he> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fastened to</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 77b:6\">B. Bath. 77ᵇ</cite> <he>בשאדוקין בו</he> Ms. M. (ed. <he>באד׳</he>) when the mules are attached to the wagon; cmp. <he>טכס</he> a. <he>טקס</he>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>אָחוּז</he> s. v. <cite ref=\"A01021\"><he>אחז</he></cite>) <i>holding fast</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 7a\">B. Mets. 7ᵃ</cite>; <cite ref=\"Bava Metzia 7b\">7ᵇ</cite> sq."
+			],
+			"label": "2"
+		}
+	]
+}

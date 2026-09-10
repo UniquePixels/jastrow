@@ -1,0 +1,27 @@
+{
+	"id": "S01851",
+	"slug": "קצרות",
+	"headword": {
+		"text": "קַצְרוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַצְרִית"
+		}
+	],
+	"page": {
+		"number": 1409,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01850\">preced.</cite>) <he>רוח ק׳</he> <i>asthma</i>, or <i>incubus</i> [or <i>nervous prostration</i>,] believed to be caused by a demon, Ben N’filim. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:5\">Bekh. VII, 5</cite> (<cite ref=\"Bekhorot 44b:11\">44ᵇ</cite>) <he>רוח קצרית באה עליו</he> Mish. (Bab. ed. <cite ref=\"S01850\"><he>קצרה</he></cite>) a person subject to asthmatic spells (is unfit for priesthood). Ib. 44ᵇ <he>רוח קצרות</he>, v. <cite ref=\"N00020\"><he>נָאלָא</he></cite> II a. <cite ref=\"N01041\"><he>נָפִיל</he></cite>."
+			]
+		}
+	]
+}

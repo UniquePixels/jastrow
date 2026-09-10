@@ -1,0 +1,28 @@
+{
+	"id": "M00640",
+	"slug": "מוריג",
+	"headword": {
+		"text": "מוֹרִיג"
+	},
+	"page": {
+		"number": 749,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"M00615\"><he>מוֹרָג</he></cite> , <cite ref=\"M00615\"><he>מוֹרִג</he></cite>; cmp. <cite ref=\"A02976\"><he>אָרַג</he></cite> <i>Pi.</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>an implement with grooves</i> or <i>indentations</i>, esp. <i>threshing sledge</i>.—Pl. <he>מוֹרִיגִים</he>, <he>מוֹרִגִּים</he>. ",
+			"units": [
+				"<cite ref=\"Zevachim 116b:10\">Zeb. 116ᵇ</cite>; <cite ref=\"Menachot 22a:5\">Men. 22ᵃ</cite>; <cite ref=\"Avodah Zarah 24b:5\">Ab. Zar. 24ᵇ</cite> (expl. <he>מורגים</he>, <cite ref=\"II Samuel 24:22\">II Sam. XXIV, 22</cite>) , v. <cite ref=\"I00218\"><he>טוּרְבִּיל</he></cite>.—2) <i>palate</i> (Rashi: <i>all parts of the animal which are rough and indented</i>).—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Berakhot 55a\">Ber. 55ᵃ</cite>; <cite ref=\"Shabbat 81a:8\">Sabb. 81ᵃ</cite> <he>מוֹרִיגֵי בהמה</he> the palate (or tongue &c.) of an animal."
+			],
+			"label": "1"
+		}
+	]
+}

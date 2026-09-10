@@ -1,0 +1,33 @@
+{
+	"id": "M00113",
+	"slug": "מגג-2",
+	"headword": {
+		"text": "מָגַג"
+	},
+	"page": {
+		"number": 726,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"M00395\"><he>מוּג</he></cite>) <i>to soften, dissolve, steep</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 2:2:4\">Y. Maas. Sh. II, 53ᶜ</cite> top <he>מוֹגֵג בידים טמאות</he> you may steep (fenugrec in a lotion) with levitically unclean hands."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְמַגְמֵג"],
+			"senses": [
+				{
+					"gloss": "<i>to be dissolved, melt</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> (ref. to <he>נמוגים</he>, <cite ref=\"Psalms 75:4\">Ps. LXXV, 4</cite>) <he>כבר היה העולם מִתְמַגְמֵג והולך</he> the world would have gone on melting away; <cite ref=\"Shir HaShirim Rabbah 7:1:1\">Cant. R. to VII, 1</cite> <he>מתגמגם</he> (transpos.)."
+					]
+				}
+			],
+			"stem": "Hithpalp."
+		}
+	]
+}

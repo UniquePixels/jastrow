@@ -1,0 +1,40 @@
+{
+	"id": "S02251",
+	"slug": "קשיש",
+	"headword": {
+		"text": "קַשִּׁישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַשִּׁישָׁא"
+		},
+		{
+			"text": "קָשִׁ׳"
+		}
+	],
+	"page": {
+		"number": 1431,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02268\"><he>קְשַׁשׁ</he></cite>) [<i>strong, hard</i>, cmp. <cite ref=\"J00698\"><he>יָשַׁן</he></cite>,] <i>old; old man, elder</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:18\">Targ. Job III, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 2:22\">Targ. I Kings II, 22</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 60b:6\">B. Mets. 60ᵇ</cite> <he>אנא ק׳ מאבוך</he> I am older than thy father. ",
+				"<cite ref=\"Yevamot 16b:6\">Yeb. 16ᵇ</cite> <he>מי ק׳ כוליה האי</he> was David so very old? <cite ref=\"Taanit 23b:6\">Taan. 23ᵇ</cite> <he>ינוקא ק׳</he> the older child. ",
+				"<cite ref=\"Ketubot 94a:6\">Keth. 94ᵃ</cite> <he>אביי ק׳</he> Abaye senior; a. fr.—",
+				"<cite ref=\"Bava Batra 142b:8\">B. Bath. 142ᵇ</cite> <he>קַשִּׁישְׁנָא מינייכו</he> I am older than you.—Pl. <cite ref=\"S02253\"><he>קַשִּׁישִׁין</he></cite>, <he>קַשִּׁישַׁיָּא</he>, <cite ref=\"S02251\"><he>קַשִּׁישֵׁי</he></cite>, <cite ref=\"S02244\"><he>קְשִׁ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 32:6\">Targ. Job XXXII, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 12:12\">Ib. XII, 12</cite>; a. e.—",
+				"<cite ref=\"Horayot 11b:16\">Hor. 11ᵇ</cite> <he>מי מלכי זוטרי מקמי ק׳</he> do the younger sons ascend the throne before the older? <cite ref=\"Berakhot 30a:16\">Ber. 30ᵃ</cite> <he>רבנן ק׳ מינן</he> teachers older than we are. ",
+				"<cite ref=\"Berakhot 46b:6\">Ib. 46ᵇ</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:9:1\">Cant. R. to VII, 9</cite> (expl. <he>הדברי</he>, <cite ref=\"Daniel 3:27\">Dan. III, 27</cite>) <he>ק׳ ואסטרולוגיסי</he> (not <cite ref=\"S02251\"><he>קשיש</he></cite>) elders and astrologers; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "H00260",
+	"slug": "חודאי",
+	"headword": {
+		"text": "חוּדַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹ׳"
+		}
+	],
+	"page": {
+		"number": 430,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00256\"><he>חוּד</he></cite>) <i>enigma</i>.—Pl. <he>חוּדָאִין</he>, <cite ref=\"H00260\"><he>חוֹ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 10:1\">Targ. I Kings X, 1</cite> (ed. Lag. <he>מתלין</he>)."
+			]
+		}
+	]
+}

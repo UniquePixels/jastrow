@@ -1,0 +1,43 @@
+{
+	"id": "P01192",
+	"slug": "עקל-3",
+	"headword": {
+		"text": "עֵקֶל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִקָּל"
+		}
+	],
+	"page": {
+		"number": 1106,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ") m. (<cite ref=\"P01191\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a bale of loose texture containing the olive pulp to be pressed</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 1:7\">Maasr. I, 7</cite>; <cite ref=\"Tosefta Ma'asrot 1:7\">Tosef. ib. I, 7</cite> (Var. <cite ref=\"P00332\"><he>עוקל</he></cite>). ",
+				"<cite ref=\"Mishnah Tahorot 10:8\">Toh. X, 8</cite>; <cite ref=\"Jerusalem Talmud Avodah Zarah 5:14:2\">Y. Ab. Zar. V, end, 45ᵇ</cite> <he>הע׳ של נצרים</he>, v. infra. ",
+				"<cite ref=\"Shabbat 144b:10\">Sabb. 144ᵇ</cite> <he>מוחל היוצא מע׳ בית הבד</he> Ar. (ed. <he>מעיקול</he>) the watery fluid which oozes out of the bale made up for the press; (<cite ref=\"Tosefta Tahorot 10:3\">Tosef. Toh. X, 3</cite> <he>מעיקת</he>; R. S. to <cite ref=\"Mishnah Tahorot 9:1\">Toh. IX, 1</cite> <he>מן שוקת</he>, corr. acc.). Tosef. l. c. <he>כינסו ועשאו עיקל</he> (R. S. l. c. <cite ref=\"U00532\"><he>שוקת</he></cite>) if he collected the fluid and put it back into the bale. ",
+				"<cite ref=\"Sanhedrin 26a:10\">Snh. 26ᵃ</cite> <he>יכול לומר לע׳ בית הבד וכ׳</he> he (who trims vines in the Sabbatical year) may say, I need the twigs to make a bale for the press. ",
+				"<cite ref=\"Sanhedrin 26a:10\">Ib.</cite> (proverbial expression) <he>הלב יודע אם לע׳ אם לעקלקלות</he> the heart knows whether it is done for <i>ʿekel</i> (a legitimate purpose) or out of <i>‘ãḳalḳaloth</i> (perverseness); <cite ref=\"Jerusalem Talmud Sheviit 4:1:6\">Y. Shebi. IV, 35ᵃ</cite>; <cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 5</cite>; a. e.—Pl. <he>עֲקָלִים</he>, <he>עֲקָלִין</he> (or <cite ref=\"P00667\"><he>עִקָּ׳</he></cite>). Y. Shebi. l. c. (in Chald. dict.) <he>לע׳ אנא בעי</he> I need the twigs for &c., v. supra. ",
+				"<cite ref=\"Avodah Zarah 75a\">Ab. Zar. 75ᵃ</cite>; <cite ref=\"Tosefta Avodah Zarah 8:3\">Tosef. ib. VIII</cite> (<cite ref=\"Tosefta Avodah Zarah 9:3\">IX</cite>), 3 <he>הע׳ של נצרין וכ׳</he> bales made of wicker or hemp &c.; <cite ref=\"Tosefta Tahorot 11:16\">Tosef. Toh. XI, 16</cite> <he>הע׳ של נוצרין</he>. ",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite> <he>ע׳ של זיתים</he> olive pulp."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (from its shape) <i>a mass of iron</i> used for <i>ballast</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 1:1\">Tosef. Kel. B. Mets. I, 1</cite>. ",
+				"<cite ref=\"Mishnah Makhshirin 5:7\">Makhsh. V, 7</cite> <he>המים העולים … ובע׳ וכ׳</he> (ed. Dehr. <he>ובעיקל</he>) water that comes up (and settles) in the hull, on the ballast or on the rudders; [Maim.: in the cavity in the hull made for the reception of drippings from the deck; cmp. <cite ref=\"P00331\"><he>עוּקָה</he></cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

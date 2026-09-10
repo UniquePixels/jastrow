@@ -1,0 +1,32 @@
+{
+	"id": "K00846",
+	"slug": "כנור",
+	"headword": {
+		"text": "כִּנּוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּינּוֹר"
+		}
+	],
+	"page": {
+		"number": 648,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; prob. fr. <cite ref=\"K01272\"><he>כרר</he></cite> with <cite ref=\"N00001\"><he>נ</he></cite> inserted, v. <cite ref=\"K01218\"><he>כִּרְכֵּר</he></cite>, cmp. <cite ref=\"H00815\"><he>חִינְגָּא</he></cite>)<i>lute, cithern</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 13b:29\">Arakh. 13ᵇ</cite> <he>כ׳ של מקדש וכ׳</he> the <i>kinnor</i> of the Temple was seven-stringed. ",
+				"<cite ref=\"Berakhot 3b:29\">Ber. 3ᵇ</cite>; Y. ib. I, 2ᵈ <he>כ׳ היה תלוי וכ׳</he> David had a lute suspended &c. ",
+				"<cite ref=\"Sanhedrin 101a:2\">Snh. 101ᵃ</cite> <he>עשאוני בניך ככ׳ וכ׳</he> thy children made me (the Law) like an instrument upon which the scorners play; a. fr.—Pl. <he>כִּנּוֹרוֹת</he>, <he>כִּנּוֹרִים</he>, <cite ref=\"K00030\"><he>כִּי׳</he></cite>. ",
+				"<cite ref=\"Mishnah Arakhin 2:5\">Arakh. II, 5</cite>. ",
+				"<cite ref=\"Shevuot 15b:8\">Shebu. 15ᵇ</cite>. Kinnim III, 6 <he>בני מעיו לכ׳</he> its small bowels are used for strings for the cithern; <cite ref=\"Avodah Zarah 47a:2\">Ab. Zar. 47ᵃ</cite> <he>מהו לכ׳</he> Ms. M. (ed. <he>לפארות</he>). ",
+				"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite>; a. e."
+			]
+		}
+	]
+}

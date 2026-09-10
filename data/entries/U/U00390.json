@@ -1,0 +1,23 @@
+{
+	"id": "U00390",
+	"slug": "שוטר",
+	"headword": {
+		"text": "שׁוֹטֵר"
+	},
+	"page": {
+		"number": 1532,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"U00767\"><he>שָׁטַר</he></cite>) [<i>recorder, notary</i>,] <i>executive officer, overseer</i>. Tanḥ. Shof’ṭim 2 <he>כיון … אם אין ש׳ שיוציא ממנו וכ׳</he> when a person has been declared in court bound to pay to his neighbor: unless there is an executor to collect from him, the judge has no power &c. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1:28\">Ex. R. s. 1</cite> <he>הלך נוגש מצרי אצל ש׳ ישראל</he> an Egyptian taskmaster came to the house of an Israelitish overseer. ",
+				"<cite ref=\"Devarim Rabbah 5:2\">Deut. R. s. 5</cite> <he>ולא שופט ולא ש׳ יש לה</he> and it (the ant) has neither judge nor officer; a. fr.—Pl. <he>שׁוֹטְרִים</he>. Ex. R. l. c., v. <cite ref=\"N00196\"><he>נָגַשׂ</he></cite>. Tanḥ. l. c. (ref. to <cite ref=\"Deuteronomy 16:18\">Deut. XVI, 18</cite>) <he>שופטים … ש׳ אלו פרנסים וכ׳</he> <i>shof’ṭim</i> are the judges, <i>shoṭ’rim</i>, the managers that lead the community; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "C00964",
+	"slug": "גלם-1",
+	"headword": {
+		"text": "גָּלַם"
+	},
+	"page": {
+		"number": 250,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>גלל</he>)<i>to roll up, to unshape</i>. Denom. <cite ref=\"C00398\"><he>גּוֹלֶם</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"C00398\"><he>גּוֹלֶם</he></cite>) <i>to calculate in a lump, fix an arbitrary price</i>, opp. <he>דקדק</he> to calculate exactly. Sifra B’har, Par. 6, ch. IX; <cite ref=\"Bava Kamma 113b:1\">B. Kam. 113ᵇ</cite> <he>יכול יִגְלוֹם עליו</he> you might think, he (the redeemer of the Jewish slave in possession of a gentile) was permitted to force an arbitrary price upon him (the gentile); [Rashi: (<he>גלם</he> <i>to double</i>) he (the gentile owner) might be permitted to ask an exorbitant price].",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "—Part. pass. <cite ref=\"C00903\"><he>גָּלוּם</he></cite>, f. <cite ref=\"C01298\"><he>גְּלוּמָה</he></cite> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>wrapt up</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 42a\">Sot. 42ᵃ</cite>, v. <cite ref=\"C00969\"><he>גַּלְמוּד</he></cite>.—"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>roughly shaped, unfinished</i>. Pl. <he>גְּלוּמִים</he>, <he>גְּלוּמוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 158:1\">Sifré Num. 158</cite>, v. <cite ref=\"C00398\"><he>גּוֹלֶם</he></cite>. ",
+						"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30</cite> <he>מצות גלומות</he> rough laws (containing no details, assigning no reasons; Var. lect. <he>גולמות</he>, <he>גּוֹלָמִיּוֹת</he>, fr. <cite ref=\"C00401\"><he>גּוֹלָמִי</he></cite>)."
+					],
+					"label": "2"
+				}
+			]
+		}
+	]
+}

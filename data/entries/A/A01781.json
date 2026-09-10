@@ -1,0 +1,24 @@
+{
+	"id": "A01781",
+	"slug": "אלה-2",
+	"headword": {
+		"text": "אָלָה",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 66,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"A01784\"><he>אלה</he></cite>, √אל <i>to point</i>, cmp. <he>ארר</he> a. <cite ref=\"E00808\"><he>הר</he></cite>)<i>imprecation, curse</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 2:5\">Sot. II, 5</cite> (<cite ref=\"Sotah 17a:10\">17ᵃ</cite>); a. fr.—Pl. <cite ref=\"A01827\"><he>אָלוֹת</he></cite>. ",
+				"<cite ref=\"Sotah 17a:10\">Ib.</cite> a. e."
+			]
+		}
+	]
+}

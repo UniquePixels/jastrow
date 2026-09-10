@@ -1,0 +1,32 @@
+{
+	"id": "S00131",
+	"slug": "קדי-2",
+	"headword": {
+		"text": "קְדֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1315,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S00151\"><he>אַקְדֵּי</he></cite> (cmp. <cite ref=\"S00130\">preced.</cite>, a. meanings of <he>גבב</he>; cmp. Syr. <cite ref=\"S02017\"><he>קרי</he></cite>, Brockelm. 312) <i>to pile up</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 1:16\">Targ. O. Lev. I, 16</cite> ed. Berl. <he>דמַקְדִין</he> (ed. Vien. a. Y. <he>דמוֹקְדִין</he>; fr. <he>יקד</he> (?); ed. Lsb. <he>דמוֹשְׁדִין</he>, fr. <cite ref=\"A03262\"><he>אֲשַׁד</he></cite>; v. Berl. Targ. O. II, p. 32)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,108 @@
+{
+	"id": "K00030",
+	"slug": "כבד-1",
+	"headword": {
+		"text": "כָּבֵד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 606,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be heavy, weighty, important</i>; cmp. <cite ref=\"J00580\"><he>יָקַר</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּבֵּר", "כִּי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to honor, hold precious</i>; <i>to show honor</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 4:1\">Ab. IV, 1</cite> <he>איזהו מכובד המְכַבֵּד וכ׳</he> who will be honored? He who honors men. ",
+						"<cite ref=\"Shabbat 113b:12\">Sabb. 113ᵇ</cite> <he>ר״י קרי למאניה מְכַבְּדוֹתַי</he> Rabbi Joh. called his garments ‘my honorers’; <cite ref=\"Bava Kamma 91b\">B. Kam. 91ᵇ</cite>; <cite ref=\"Sanhedrin 94a:16\">Snh. 94ᵃ</cite>; a. fr.—",
+						"<cite ref=\"Berakhot 46b:15\">Ber. 46ᵇ</cite> bot. <he>אין מְכַבְּדִין וכ׳</he> we must not show honors (saying, ‘you go first’) on highroads &c. Part. pass. <he>מְכוּבָּד</he>, pl. <he>מְכוּבָּדִים</he>, <he>מְכוּבָּדִין</he>. Ab. l. c., v. supra. Ib. 6 <he>כל המכבד … גופו מ׳ על וכ׳</he> he who honors the Law, will himself be honored of men. ",
+						"<cite ref=\"Berakhot 60b\">Ber. 60ᵇ</cite>, v. infra. ",
+						"<cite ref=\"Mishnah Avodah Zarah 3:3\">Ab. Zar. III, 3</cite>, v. <cite ref=\"B00421\"><he>בָּזָה</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"A01601\"><he>אִיקְרָא</he></cite>, <cite ref=\"J00581\"><he>יְקַר</he></cite>) <i>to offer a gift</i>. Tanḥ. Vayḥi 13 <he>שמְכַבְּדִין מפירותיהם וכ׳</he> they offer of their fruits to kings; <cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite>, end <he>והם מבכרין</he> (corr. acc.); a. e.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": " [<i>to make look respectable</i>,] <i>to sweep, adjust the room</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 8:4\">Ber. VIII, 4</cite> <he>מכבדיו את הבית וכ׳</he> (after meal) the room is put in order (the crumbs swept), and then &c. ",
+						"<cite ref=\"Mishnah Beitzah 2:7\">Bets. II, 7</cite> (<cite ref=\"Beitzah 22b:9\">22ᵇ</cite>) <he>מכבדין בין המטות</he> (Bab. ed. <he>בית המטות</he>) (on Holy Days) you may sweep between the dining couches (the dining room); Y. ib. II, 61ᶜ bot. ",
+						"<cite ref=\"Mishnah Tamid 5:5\">Tam. V, 5</cite> <he>היה מְכַבְּדָן לאמה</he> one swept them (the coals) into the duct; a. fr.—",
+						"<cite ref=\"Mishnah Mikvaot 8:4\">Mikv. VIII, 4</cite> <he>כִּיבְּדָֹה את</he>, <he>הבית</he>, v. <cite ref=\"B00753\"><he>בַּיִת</he></cite> 6.—[Ruth R. end <he>וכבד</he> some ed., read: <he>וכָבַר</he>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְכַּבֵּד"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְכַּבֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be honored; to pride, exalt one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 1:5\">Gen. R. s. 1</cite> <he>כל המִתְכַּבֵּד בקלון וכ׳</he> whoever elevates himself at the expense of his neighbor’s degradation, has no share in the world to come; Y. Ḥag. II, 77ᶜ. ",
+						"<cite ref=\"Megillah 28a:6\">Meg. 28ᵃ</cite> <he>מימי לא נִתְכַּבַּדְתִּי וכ׳</he> I never elevated myself &c. ",
+						"<cite ref=\"Berakhot 60b:1\">Ber. 60ᵇ</cite> <he>הִתְכַּבְּדוּ מכובדים</he> be in honor dismissed, you honored ones (angels); a. e.—2) <i>to be cleaned, swept; to be dressed, adorned</i>. ",
+						"<cite ref=\"Pesachim 7a:10\">Pes. 7ᵃ</cite> <he>שוקי … עשויין להתכ׳ וכ׳</he> the streets of Jerusalem used to be swept every day. Y. Nidd. I, beg. 48ᵈ <he>כמבוי שהוא מתכבד וכ׳</he> like an alley which is regularly swept and flushed. Bab. ",
+						"<cite ref=\"Niddah 56a:75\">Nidd. 56ᵃ</cite> <he>חזקתז מתכבד</he> it is presumed to be clean. ",
+						"<cite ref=\"Bamidbar Rabbah 13:15\">Num. R. s. 13</cite> <he>לאכול ולשתות ולהתכבד</he> to eat and drink and dress. [<cite ref=\"Tosefta Terumot 10:15\">Tosef. Ter. X, 15</cite> <he>ליכבד</he>, read with ed. Zuck. <he>ליכבר</he>, v. <cite ref=\"K00074\"><he>כָּבַר</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הִכְבִּיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be heavy</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Nazir 1:2\">Naz. I, 2</cite> <he>ה׳ שערו</he> if his hair is too heavy on him."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make heavy</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 9:8\">Ex. R. s. 9</cite>; Tanḥ. Vaera 12 (play on <cite ref=\"K00030\"><he>כָּבֵד</he></cite>, <cite ref=\"Exodus 7:14\">Ex. VII, 14</cite>, a. <he>הִכָּבְדִי</he> XIV, 18) <he>בלשון שהִכְבֵּדְתָּ בו בלשון אני מתכבד</he> with the same expression (<cite ref=\"K00030\"><he>כבד</he></cite>) with which thou didst make heavy (Israel’s yoke), I shall be honored; Tanḥ. ed. Bub. ib. 14 <he>שהכבדת את לבך</he> wherewith thou didst harden thy heart."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to grow worse, be very sick</i> (cmp. <cite ref=\"I00616\"><he>טָעַן</he> II</cite>), opp. <cite ref=\"S01355\"><he>היקל</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 9:1\">Snh. IX, 1</cite> <he>ה׳ ומת</he> grew worse and died; <cite ref=\"Sanhedrin 78b\">ib. 78ᵇ</cite>; a. e."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to sweep</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 23\">Num. R. s. 23</cite>; Tanḥ. Masʿé 13 <he>הִכְבִּידָן</he> he swept (drove) them out, v. <cite ref=\"M01343\"><he>מַכְבֵּד</he></cite> a. <cite ref=\"E00622\"><he>הָמַם</he></cite>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

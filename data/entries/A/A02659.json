@@ -1,0 +1,28 @@
+{
+	"id": "A02659",
+	"slug": "אפטט",
+	"headword": {
+		"text": "אֶפְטֵט"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶפְטֵיט"
+		}
+	],
+	"page": {
+		"number": 102,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"Q00631\"><he>פִּיטְפּוּט</he></cite>; v. <cite ref=\"B00502\"><he>בטט</he></cite>) <i>puppets of clay, a set of clay</i> (<i>or metal</i>) <i>pins to put pots on for cooking, pot-stand</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 1:12\">Tosef. Kel. B. Mets. I, 12</cite> <he>א׳ שיש בו וכ׳</he> a pot-stand containing metal. ",
+				"<cite ref=\"Tosefta Niddah 7:3\">Tosef. Nidd. VII, 3</cite> <cite ref=\"A02660\"><he>אפטי</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

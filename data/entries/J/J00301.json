@@ -1,0 +1,75 @@
+{
+	"id": "J00301",
+	"slug": "יחס-1",
+	"headword": {
+		"text": "יָחַס"
+	},
+	"page": {
+		"number": 575,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <he>יָחַשׂ</he>; v. <cite ref=\"H00408\"><he>חוּס</he></cite>2) <i>to connect, be connected</i>.—Denom. <cite ref=\"J00301\"><he>יִחַס</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִחֵס", "יִי׳"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"J00303\"><he>יַחַס</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to trace the connection</i> (<cite ref=\"J00303\"><he>יַחַס</he></cite>) <i>of events or descent</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 17a:1\">Meg. 17ᵃ</cite> <he>כדי לְיַיחֵס בהן שנותיו וכ׳</he> (Rashi: <he>להִתְיַיחֵס</he>) in order to trace through them the years of Jacob (in which the principal events of his life occurred); <cite ref=\"Yevamot 64a\">Yeb. 64ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 110\">Yalk. Gen. 110</cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 110\">Ib.</cite>; <cite ref=\"Bereishit Rabbah 62:4\">Gen. R. s. 62</cite> (ref. to <cite ref=\"Genesis 25:12\">Gen. XXV, 12</cite> sq.) <he>מה ראה הכתוב לייחס תולדותיו וכ׳</he> what reason was there for the Bible to insert here the genealogy of that &c.?—",
+						"<cite ref=\"Sanhedrin 82b:5\">Snh. 82ᵇ</cite> <he>בא הכתוב ויִחֲסוֹ</he> the Scripture comes and records his genealogy (<cite ref=\"Numbers 25:11\">Num. XXV, 11</cite>). ",
+						"<cite ref=\"Shabbat 55b:7-14\">Sabb. 55ᵇ</cite> <he>אפשר … והכתוב מְיַחֲסוֹ</he> is it possible that he was a sinner and the Scripture would state his genealogy?; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to nobilize, distinguish, invest with prerogatives</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 13:7\">Num. R. s. 13</cite> <he>יִיחֲסוֹ הכתוב על שם שבטו</he> the Scripture distinguished him (giving him the privilege of the first offering) for the sake of his tribe (<cite ref=\"Numbers 7:12\">Num. VII, 12</cite>). ",
+						"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite> <he>אין מְיַיחֲסִין ליוסף וכ׳</he> not Joseph is ranked in the records as the first-born; a. e.—<i>Part. pass.</i> <he>מְיוּחָס</he>, f. <he>מְיוּחֶסֶת</he>. pl. <he>מְיוּחָסִים</he>, <he>מְיוּחָסִין</he>; <he>מְיוּחָסוֹת</he> <i>of traceable genealogy, of legitimate descent; of distinguished birth, well-connected</i>. ",
+						"<cite ref=\"Horayot 13a:19\">Hor. 13ᵃ</cite> <he>שזה מי׳ וזה אינו מי׳</he> for this one (the Israelite) is of legitimate birth, and the other (the bastard) is not. ",
+						"<cite ref=\"Kiddushin 70b:13\">Kidd. 70ᵇ</cite> <he>משפחות מי׳ וכ׳</he> families in Israel of traceable descent. ",
+						"<cite ref=\"Kiddushin 71b:9\">Ib. 71ᵇ</cite> <he>האי מי׳ טפי</he> this one (who first ceased quarreling) is of nobler birth; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְיַיחֵס"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְיַיחֵס</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to claim a pedigree</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Peah 4:11\">Tosef. Peah IV, 11</cite> <he>היתה מִתְיַיחֶסֶת עם וכ׳</he> ed. Zuck. (Var. <he>על</he>) claimed to be connected with Arnon, the Jebusite; Y. ib. VIII, 21ᵃ bot. <he>היתה מתי׳ של וכ׳</he> boasted to be descendants of &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be enrolled in genealogical lists, be recorded</i>. Num. R. l. c. <he>זכו להִתְיַ׳ וכ׳</he> they were privileged to have their genealogy recorded by the side of Moses. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite> <he>נ׳ ראש לשלשלת יוחסין</he> (not <cite ref=\"L00710\"><he>לשלשת</he></cite>) he was recorded as the starter of a chain of genealogy (<cite ref=\"I Kings 14:21\">I Kings XIV, 21</cite>). Gen. R. l. c. (expl. ",
+						"<cite ref=\"I Chronicles 5\">I Chr. V</cite>, I) <he>לא לראובן להתייחס</he> not to Ruben was genealogical priority to be given; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "P01456",
+	"slug": "ערר-3",
+	"headword": {
+		"text": "עֲרָר"
+	},
+	"page": {
+		"number": 1124,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"P01423\"><he>עַרְעָר</he></cite>, <i>protest, objection, claim</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 1:2:3\">Y. Gitt. I, 43ᶜ</cite> top <he>עֲרָרוֹ בטל</he>, v. <cite ref=\"P01454\"><he>עָרַר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 9:1:2\">Y. Keth. IX, beg. 32ᵈ</cite> <he>כל ע׳ שיש לי בשדה זו</he> whatever claim I may have on this field. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 3:1:10\">Y. R. Hash. III, 58ᵈ</cite> top <he>קרא ע׳ על וכ׳</he> if objection was raised against the signature &c. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 1:2:3\">Y. Gitt. I, 43ᶜ</cite> bot <he>ע׳ שבגיפו</he> an objection based on an alleged informality of the document itself; <he>ע׳ שחוץ לגופו</he> an objection not concerning the document itself (e.g. that the letter of divorce was given conditionally)."
+			]
+		}
+	]
+}

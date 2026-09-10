@@ -1,0 +1,38 @@
+{
+	"id": "H01280",
+	"slug": "חני",
+	"headword": {
+		"text": "חני"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָנָה"
+		}
+	],
+	"page": {
+		"number": 482,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"C01131\"><he>גני</he></cite>) [<i>to be covered, surrounded</i>,] <i>to encamp, rest</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 11\">Num. R. s. 11</cite> (ref. to <he>ויחנך</he>, <cite ref=\"Numbers 6:25\">Num. VI, 25</cite>) <he>יַחֲנֶה ד׳ אצלך</he> the Lord have His tent with thee. Lam. R. introd. (R. Naḥm.) (ref. to <cite ref=\"Isaiah 29:1\">Is. XXIX, 1</cite>) <he>שח׳ בה וכ׳</he> where David (lawfully) resided, v. <cite ref=\"H01284\"><he>חַנְיָיא</he></cite>. ",
+				"<cite ref=\"Isaiah 29:1\">Ib.</cite> (R. Alex. 1) <he>נוסעים … וחוֹנִים וכ׳</he> they moved in discord and encamped in discord; Mekh. Yithro, Baḥod., s. 1; <cite ref=\"Vayikra Rabbah 9\">Lev. R. s. 9</cite>; a. fr.—Apocop. form: <cite ref=\"H01247\"><he>חָן</he></cite> (as if from <he>חון</he>). ",
+				"<cite ref=\"Midrash Tehillim 105:7\">Midr. Till. to Ps. LXXVIII, 47</cite> (play on <he>ב̇ח̇נ̇מ̇ל</he> <cite ref=\"Midrash Tehillim 105:7\">ib.</cite>) <he>ב̇א ח̇ן̇ מ̇ל̇</he> he (the locust) came, encamped, cut; (Tanḥ. Vaëra 14 <he>בא נ״ח מ״ל</he>; <cite ref=\"Shemot Rabbah 12\">Ex. R. s. 12</cite> interpol. from Midr. Till. l. c.: <cite ref=\"N00468\"><he>נח</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֱחֱנָה"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to rest</i>. Fut. apocop. <cite ref=\"J00299\"><he>יַחַן</he></cite>. Y. Taan. III, 66ᶜ (play on <he>י̇ח̇נ̇יף̇</he>, <cite ref=\"Numbers 35:33\">Num. XXXV, 33</cite>) <he>הדם י̇ח̇ן אף̇ וכ׳</he> bloodshed causes the anger (of the Lord) to rest upon the ground (rain being withheld); Sifré Num. 161, Yalk. ib. 788 <he>יחון</he> (corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"id": "O01646",
+	"slug": "סרס-1",
+	"headword": {
+		"text": "סָרַס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1028,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סֵירס</he> (cmp. <cite ref=\"E00887\"><he>הָרַס</he></cite>, <cite ref=\"T00859\"><he>רָסַס</he></cite>) <i>to destroy, uproot; to mutilate</i>, esp. <i>to make impotent</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Batra 4:7\">Tosef. B. Bath. IV, 7</cite> <he>חלות דבש אינו רשאי לסָרֵס וכ׳</he> ed. Zuck. (oth. ed. <he>לירש</he>) if the honey-combs of a bee-hive are sold, the purchaser must not uproot (tear out) all of them at the same time, but must leave the outermost cakes &c. ",
+						"<cite ref=\"Sotah 36a:9\">Sot. 36ᵃ</cite> <he>סֵירְסַתָּן מלמטה</he> it (the wasp <cite ref=\"R00794\"><he>צִרְעָה</he></cite>) mutilated them at their lower extremities. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite> <he>סֵירְסוֹ</he> made him impotent. ",
+						"<cite ref=\"Kiddushin 25a:3\">Kidd. 25ᵃ</cite> <he>עבד שסִרְסוֹ וכ׳</he> a slave whom his master mutilated by injury to his testicles. ",
+						"<cite ref=\"Shabbat 110b:6\">Sabb. 110ᵇ</cite> <he>הרוצה שיְסָרֵס וכ׳</he> if one desires to emasculate a cock, let him take off his comb, and he will thereby be emasculated (without an operation). ",
+						"<cite ref=\"Shabbat 111a:1\">Ib. 111ᵃ</cite> <he>במְסָרֵס אחר מסרס</he> if one adds to the mutilation caused by another person; a. fr.—",
+						"<cite ref=\"Mishnah Bava Batra 5:3\">B. Bath. V, 3</cite> <he>נוטל ג׳ נחלין ומסרס</he> the buyer takes three broods, after which the owner may make the bees impotent of propagation; <cite ref=\"Bava Batra 80a:4\">ib. 80ᵃ</cite> <he>במה מְסָרְסָן וכ׳</he> by what means does one make them impotent?… By feeding them with mustard. ",
+						"<cite ref=\"Bava Batra 80a:4\">Ib.</cite> <he>לא חרדל מסרסן וכ׳</he> mustard does not make them impotent &c.—Trnsf. <i>to disarrange, upset; to transpose</i>. ",
+						"<cite ref=\"Bava Batra 80a:1-5\">Ib.</cite> (another interpret. of <he>ומסרס</he>, Mish. l. c.) <he>נוטל … בסירוס</he>, v. <cite ref=\"O00841\"><he>סֵירוּס</he></cite>. ",
+						"<cite ref=\"Bava Batra 119b:6\">Ib. 119ᵇ</cite> (ref. to <cite ref=\"Numbers 27:2\">Num. XXVII, 2</cite>) <he>סָרֵס המקרא ודרשהו</he> invert the order in which the persons are mentioned in that verse, and interpret it. ",
+						"<cite ref=\"Vayikra Rabbah 27:1\">Lev. R. s. 27</cite>, beg. (ref. to <cite ref=\"Psalms 36:7\">Ps. XXXVI, 7</cite>) <he>סרס המקרא וכ׳</he> transpose the verse, and explain it: ‘thy kindness is as far above thy judgments, as the mountains are above the great deep’. ",
+						"<cite ref=\"Shemot Rabbah 5:14\">Ex. R. s. 5</cite> (ref. to <cite ref=\"M01072\"><he>מי</he></cite>, <cite ref=\"Exodus 5:2\">Ex. V, 2</cite>) <he>סרס אותו מי ים וכ׳</he> transpose <i>mi</i> and read <i>yam</i>, the sea made thee know the Lord; a. fr.—[<cite ref=\"Vayikra Rabbah 12:5\">Lev. R. s. 12</cite> <he>מסרסתו</he>, read: <he>מְסַטַּרְתּוֹ</he>, v. <cite ref=\"O00502\"><he>סָטַר</he></cite>.]—<i>Part. pass.</i> <he>מְסוֹרָס</he> <i>upside down, transposed</i> &c. ",
+						"<cite ref=\"Mishnah Niddah 3:5\">Nidd. III, 5</cite> <he>יצא … מס׳</he> if the embryo came out with its feet foremost. ",
+						"<cite ref=\"Bamidbar Rabbah 11:4\">Num. R. s. 11</cite> (ref. to <cite ref=\"Exodus 20:24\">Ex. XX, 24</cite>) <he>זה מקרא מס׳ וכ׳</he> this verse must be interpreted by transposition, wherever I shall come and bless thee, there I shall allow my Name (the Tetragrammaton) to be pronounced. Mekh. B’shall., Vayass‘a, s. 4. ",
+						"<cite ref=\"Bereishit Rabbah 70\">Gen. R. s. 70</cite> (ref. to <cite ref=\"Genesis 28:22\">Gen. XXVIII, 22</cite>) <he>מְסוֹרֶסֶת היא הפרשה</he> the accounts of the section are not in chronological order, opp. <he>על הסדר וכ׳</he>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְתָּרֵס"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִסְתָּרֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to be emasculated</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 110b\">Sabb. 110ᵇ</cite> <he>והוא מִסְתָּרֵס וכ׳</he>, v. supra. ",
+						"<cite ref=\"Bereishit Rabbah 86\">Gen. R. s. 86</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"P01213\"><he>עָקַר</he></cite>) <i>to be uprooted, removed</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 93b:12\">Snh. 93ᵇ</cite> <he>נִסְתָּרְסָה ע״ז וכ׳</he> idolatry was uprooted in their days (in the days of Hanania, Mishael &c.). Mekh. Mishp. s. 20 [read:] <he>שלא תִסְתָּרֵס שבת בראשית ממקומה</he> to intimate that the weekly Sabbath is not to be removed from its place, i.e. that it must be observed also in the Sabbatical year; <cite ref=\"Yalkut Shimoni on Torah 354\">Yalk. Ex. 354</cite>. Mekh. l. c. <he>שלא יִסְתָּרְסוּ שלש וכ׳</he> that the three festivals must not be removed from their place; <cite ref=\"Yalkut Shimoni on Torah 356:3\">Yalk. Ex. 356</cite> <he>שלא יסתרו וכ׳</he> (corr. acc.)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

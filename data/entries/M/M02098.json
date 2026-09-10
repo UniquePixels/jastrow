@@ -1,0 +1,44 @@
+{
+	"id": "M02098",
+	"slug": "מעט-2",
+	"headword": {
+		"text": "מְעַט",
+		"homograph": 1
+	},
+	"page": {
+		"number": 815,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"M02097\"><he>מַעֵט</he></cite> same, <i>to reduce; to exclude</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 74a:2\">Yoma 74ᵃ</cite> <he>למַעוּטֵי מאי … למַ׳ וכ׳</he> this ‘none but’ is to exclude what (whom)?… It excludes the king; <cite ref=\"Shevuot 31a\">Shebu. 31ᵃ</cite> Ms. M. (ed. <he>לאפוקי</he>); a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִימְּעִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to be reduced; to be excluded</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 79b\">Erub. 79ᵇ</cite> <he>דא׳ מאיתמול</he> when its size was reduced the day before; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

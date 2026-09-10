@@ -1,0 +1,23 @@
+{
+	"id": "B01069",
+	"slug": "בעתא-1",
+	"headword": {
+		"text": "בַּעֲתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 183,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01068\">preced.</cite>) <i>terror</i>.—Pl. <he>בַּעֲתַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 88:17\">Targ. Ps. LXXXVIII, 17</cite>, v. <cite ref=\"B00672\"><he>בִּיעוּתָא</he></cite>."
+			]
+		}
+	]
+}

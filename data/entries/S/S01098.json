@@ -1,0 +1,23 @@
+{
+	"id": "S01098",
+	"slug": "קיפולא",
+	"headword": {
+		"text": "קִיפּוּלָא"
+	},
+	"page": {
+		"number": 1366,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְפַל</he> II) <i>scraping off</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 4b:1\">B. Bath. 4ᵇ</cite> <he>ק׳ מידע ידיע</he> Ms. M. (ed. <cite ref=\"S00970\"><he>קִילּוּפָא</he></cite>; Rashi <cite ref=\"S00512\"><he>קופלא</he></cite>) the scraping off of the plaster is noticeable. ",
+				"<cite ref=\"Bava Batra 4b\">Ib.</cite> <he>קיפולי</he> Ms. M. read: <cite ref=\"S01098\"><he>קיפולא</he></cite>."
+			]
+		}
+	]
+}

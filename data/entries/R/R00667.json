@@ -1,0 +1,40 @@
+{
+	"id": "R00667",
+	"slug": "צף",
+	"headword": {
+		"text": "צָף"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָפָה"
+		}
+	],
+	"page": {
+		"number": 1295,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (part. of <cite ref=\"R00216\"><he>צוּף</he></cite> q. v.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>floating, flat</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 5:8\">Men. V, 8</cite>, a. e., v. <cite ref=\"M00805\"><he>מַחֲבַת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shining, conspicuous</i>.—Pl. <he>צָפִים</he>, <he>צָפִין</he>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 759:9\">Yalk. Num. 759</cite> (expl. <he>יקרות וקפאון</he>, <cite ref=\"Zechariah 14:6\">Zech. XIV, 6</cite>, v. <cite ref=\"S01694\"><he>קָפָא</he></cite>) <he>הדברים … צ׳ לכם כהדין בולוס</he> the things which are covered up to you in this world, shall be as clear to you &c., v. <cite ref=\"B00270\"><he>בּוּלָס</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 316\">Yalk. Is. 316</cite>, a. ",
+				"<cite ref=\"Bamidbar Rabbah 19:3\">Num. R. s. 19</cite> <cite ref=\"R00220\"><he>צוֹפִים</he></cite> (cmp. part of <cite ref=\"H00319\"><he>חוּל</he></cite>: <cite ref=\"H00955\"><he>חָל</he></cite> a. <cite ref=\"H00323\"><he>חוֹל</he></cite>); Tanḥ. Ḥuck. 8 <he>צְפוּיִם</he>; v. <cite ref=\"R00672\"><he>צָפָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

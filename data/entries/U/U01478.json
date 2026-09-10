@@ -1,0 +1,23 @@
+{
+	"id": "U01478",
+	"slug": "שמיר-1",
+	"headword": {
+		"text": "שָׁמִיר"
+	},
+	"page": {
+		"number": 1596,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>שמר</he>, cmp. <cite ref=\"O01136\"><he>סָמַר</he></cite>) [<i>pointed,</i>] <i>thorn; flint, diamond</i>; (in legend) <i>shamir</i>, a worm that cuts stones with its glance. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:12\">Sot. IX, 12</cite> <he>משחרב … בטל הש׳</he> with the destruction of the Temple the <i>shamir</i> ceased to exist. ",
+				"<cite ref=\"Sotah 48b:14\">Ib. 48ᵇ</cite>; <cite ref=\"Tosefta Sotah 15:1\">Tosef. ib. XV, 1</cite>; Y. ib. IX, 24ᵇ; a. e."
+			]
+		}
+	]
+}

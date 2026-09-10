@@ -1,0 +1,24 @@
+{
+	"id": "O00786",
+	"slug": "סיפוסקא",
+	"headword": {
+		"text": "סִיפּוּסְקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 985,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (partial reduplic. of <cite ref=\"O01402\"><he>ספק</he></cite>) [<i>satiating nourishment</i>,] <i>bran mixed with flour, coarse meal</i> (cmp. <cite ref=\"S00864\"><he>קִיבָר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Gittin 56b:7\">Gitt. 56ᵇ</cite> <he>מיא דס׳</he> Ar. (ed. <he>דסִיפְקָא</he>, Rashi <he>דסִיפּוּקָא</he>) coarse flour-water. ",
+				"<cite ref=\"Pesachim 42a\">Pes. 42ᵃ</cite> bot. (a gloss to <he>פת קיבר</he>, missing in ed.) <he>ריפתא ס׳</he> Ar. (Ms. M. <he>ר׳ דסיפיקא</he>; Ms. O. <he>פת ספסוקא</he>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

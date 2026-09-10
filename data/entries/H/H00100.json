@@ -1,0 +1,33 @@
+{
+	"id": "H00100",
+	"slug": "חבס",
+	"headword": {
+		"text": "חָבַס"
+	},
+	"page": {
+		"number": 420,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H00040\"><he>חָבַט</he></cite>) <i>to crush, press down</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 80b\">B. Mets. 80ᵇ</cite> Ar., v. <cite ref=\"H00040\"><he>חָבַט</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְבַּס"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 42b\">Ḥull. 42ᵇ</cite> <he>גולגולת שנֶחְכְּסָה וכ׳</he> a skull the larger portion of which is crushed."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

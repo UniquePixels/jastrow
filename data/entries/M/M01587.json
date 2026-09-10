@@ -1,0 +1,29 @@
+{
+	"id": "M01587",
+	"slug": "מלכתא-2",
+	"headword": {
+		"text": "מִלְכְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִילְ׳"
+		}
+	],
+	"page": {
+		"number": 792,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"M01574\"><he>מִלְכָא</he></cite>, <i>counsel</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 33:11\">Targ. Ps. XXXIII, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 1:1\">Ib. I, 1</cite>; a. e.—Pl. <cite ref=\"M01587\"><he>מִלְכָּתָא</he></cite>, <cite ref=\"M01393\"><he>מִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 5:11\">Ib. V, 11</cite>; a. e."
+			]
+		}
+	]
+}

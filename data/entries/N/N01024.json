@@ -1,0 +1,28 @@
+{
+	"id": "N01024",
+	"slug": "נפוס",
+	"headword": {
+		"text": "נָפוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָפוֹץ"
+		}
+	],
+	"page": {
+		"number": 922,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01063\"><he>נפס</he></cite>, <he>נפץ</he>) a kind of <i>radish</i>, resembling the carrot as to foliage, and the radish as to taste. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:3\">Kil. I, 3</cite>; <cite ref=\"Mishnah Kilayim 1:5\">5</cite>; Y. ed. a. Ms. M. <he>ס …</he> (Mish. a. Bab. ed. … <he>ץ</he>). ",
+				"<cite ref=\"Mishnah Oktzin 1:2\">Ukts. I, 2</cite>. [Lat. <i>napus</i> is a kind of <i>turnip</i>.]"
+			]
+		}
+	]
+}

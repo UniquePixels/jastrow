@@ -1,0 +1,24 @@
+{
+	"id": "N00225",
+	"slug": "נדידיא",
+	"headword": {
+		"text": "נְדִידַיָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 879,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"N00212\"><he>נְדַד</he></cite>) <i>fugitives</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:2:9\">Y. Sabb. IV, 7ᵃ</cite> <he>הרי נ׳ דאשקלון</he> (ed. Krot. <he>נדיר׳</he>) is there not against thee the case of the fugitives of Ashkelon? (<cite ref=\"Kohelet Rabbah 1:15:2\">Koh. R. to I, 15</cite> <he>והלא יורדי אשקלון שקעוה וכ׳</he>;—the case cited is unknown)."
+			]
+		}
+	]
+}

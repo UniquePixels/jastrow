@@ -1,0 +1,34 @@
+{
+	"id": "J00495",
+	"slug": "יעק",
+	"headword": {
+		"text": "יְעַק",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 585,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"P00326\"><he>עוּק</he></cite> ch.) <i>to press</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְיַיעֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to be narrowed in, to be troubled</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 1:12\">Targ. Y. Ex. I, 12</cite> (O. <he>עקתל׳</he>; h. text <he>ויקצו</he>). ",
+						"<cite ref=\"Targum Jonathan on Numbers 22:3\">Targ. Y. Num. XXII, 3</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 18:7\">Targ. Job XVIII, 7</cite> Ms. (ed. <he>יתעייקן</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

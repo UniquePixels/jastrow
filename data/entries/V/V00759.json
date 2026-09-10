@@ -1,0 +1,37 @@
+{
+	"id": "V00759",
+	"slug": "תסברית",
+	"headword": {
+		"text": "תִּסְבָּרִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּסְוָו׳"
+		},
+		{
+			"text": "תִּי׳"
+		},
+		{
+			"text": "תּוּ׳"
+		}
+	],
+	"page": {
+		"number": 1682,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"V00756\"><he>תִּסְבָּר</he></cite>.—Pl. <cite ref=\"V00759\"><he>תִּסְבָּרִיּוֹת</he></cite>, <cite ref=\"V00759\"><he>תִּסְוָו׳</he></cite>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>, <cite ref=\"V00314\"><he>תּוּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:12\">Y. Ber. IX, 13ᵈ</cite> <he>העמידו קומוס על תי׳ שלו</he> he appointed him a comes over his treasures (comes thesaurarum). ",
+				"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 83\">Gen. R. s. 83</cite>, end <he>לערום תסוו׳ וכ׳</he>, v. <cite ref=\"P01390\"><he>עָרַם</he> I</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 83\">Ib.</cite> <he>שהיה מבזבז ת׳ וכ׳</he> who squandered his father’s treasures. Pesik. Baḥod, p. 104ᵃ <he>פתחו לו תו׳ שלי וכ׳</he> (not <cite ref=\"L00400\"><he>לי</he></cite>) open my treasuries to him (show him my wealth) &c.; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "C00645",
+	"slug": "גידם",
+	"headword": {
+		"text": "גִּידֵּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּדֵּם"
+		}
+	],
+	"page": {
+		"number": 235,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גדם</he>) <i>one whose hand or fingers are cut off</i> or <i>stumped</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 37a\">Men. 37ᵃ</cite>; <cite ref=\"Taanit 21a:8\">Taan. 21ᵃ</cite>; a. fr.—Pl. <he>גִּידְּמִים</he>, <he>גִּידְּמִין</he>, <he>גִּדְּ׳</he>. ",
+				"<cite ref=\"Mishnah Sanhedrin 8:4\">Snh. VIII, 4</cite>; Y. ib. VIII, 26ᵇ top; a. e.—Fem. <he>גִּידֶּמֶת</he>, <he>גִּדֶּ׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:6:6\">Y. Yeb. XII, 13ᵃ</cite> top; <cite ref=\"Bereishit Rabbah 81\">Gen. R. s. 81</cite>, beg. ",
+				"<cite ref=\"Shabbat 53b:20\">Sabb. 53ᵇ</cite> <he>אשה ג׳</he> a woman with a stumped finger.—",
+				"<cite ref=\"Chullin 79a\">Ḥull. 79ᵃ</cite> <he>גידמת</he> an animal whose tail and ears are lopped off. Cmp. <cite ref=\"S00785\"><he>קִיטֵּם</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "N00768",
+	"slug": "ניקוף-1",
+	"headword": {
+		"text": "נִיקּוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִקּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 908,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נָקַף</he> I) <i>knock, bruise</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 7b:15\">Ḥull. 7ᵇ</cite> <he>דם נ׳ וכ׳</he> the blood of a bruise atones &c. ",
+				"<cite ref=\"Chullin 7b:15\">Ib.</cite> <he>נ׳ שני</he> a second bruise (before the first one is healed)."
+			]
+		}
+	]
+}

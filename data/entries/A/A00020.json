@@ -1,0 +1,34 @@
+{
+	"id": "A00020",
+	"slug": "אבא-4",
+	"headword": {
+		"text": "אִבָּא"
+	},
+	"page": {
+		"number": 2,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אבב</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thicket, woods, grove</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 12b:15\">M. Kat. 12ᵇ</cite> <he>א׳ בשלניא</he> a forest in Sh’lanya. ",
+				"<cite ref=\"Ketubot 79a:14\">Keth. 79ᵃ</cite>, v. <cite ref=\"G00673\"><he>זַרְדְּתָא</he></cite>. ",
+				"<cite ref=\"Sanhedrin 39b:15\">Snh. 39ᵇ</cite> (prov.) <he>מיניה וביה א׳ ניזיל</he> (<he>ליזיל</he>) <he>ביה נרגא</he> (Ag. Hatt. <he>בנרגא</he>, v. Rabb. D. S. a. l. note) from the very woods shall it go into the hatchet (as a handle to strike the woods)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fruit</i>, v. <cite ref=\"A01117\"><he>אִיבָּא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

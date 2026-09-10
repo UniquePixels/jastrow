@@ -1,0 +1,29 @@
+{
+	"id": "B00791",
+	"slug": "בכיתא",
+	"headword": {
+		"text": "בְּכִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּכוּתָא"
+		}
+	],
+	"page": {
+		"number": 170,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= h. <he>בָּכוּת</he>, <he>בָּכִית</he>) <i>weeping, mourning</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 50:4\">Targ. Gen. L, 4</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 34:8\">Targ. Deut. XXXIV, 8</cite> (Y. <he>בכותא</he>); a. e.—",
+				"<cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite>, end, Ar. (missing in ed.); Pesik. Ronni p. 142ᵇ; v. <cite ref=\"A01884\"><he>אַלְיָתָא</he></cite>."
+			]
+		}
+	]
+}

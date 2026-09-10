@@ -1,0 +1,42 @@
+{
+	"id": "S01304",
+	"slug": "קלח-3",
+	"headword": {
+		"text": "קֶלַח"
+	},
+	"page": {
+		"number": 1374,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"S00953\"><he>קִילָא</he> II</cite>, a. <cite ref=\"S00346\"><he>קוּלִית</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tube, stem, stalk</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 111b:14\">Keth. 111ᵇ</cite>, a. fr. <he>ק׳ של כרוב</he> a cabbage stalk; <cite ref=\"Jerusalem Talmud Peah 7:3:15\">Y. Peah VII, 20ᵇ</cite> top <he>ק׳ אחד של חרדל</he> a mustard stalk. ",
+				"<cite ref=\"Pesachim 39b:4\">Pes. 39ᵇ</cite> <he>אק׳</he> referring to the stalk (of the herbs mentioned); a. fr.—Pl. <he>קְלָחִים</he>, constr. <cite ref=\"S00977\"><he>קִלְחֵי</he></cite>, <cite ref=\"S00327\"><he>קִילְ׳</he></cite>; <he>קוֹלְחוֹת</he>, <cite ref=\"S00977\"><he>קִילְחוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 3:4:4\">Y. Kil. III, 28ᵈ</cite> bot. <he>בעושה ק׳ יחידים</he> when planting single stalks, opp. <he>רצף</he>. ",
+				"<cite ref=\"Mishnah Parah 11:9\">Par. XI, 9</cite>. ",
+				"<cite ref=\"Mishnah Peah 3:2\">Peah III, 2</cite>. ",
+				"<cite ref=\"Mishnah Peah 3:5\">Ib. 5</cite> <he>המוכר קלחי אילן וכ׳</he> if a man sells the stems of plants in his field (without selling the soil); a. e.—",
+				"<cite ref=\"Mishnah Menachot 10:4\">Men. X, 4</cite> (<cite ref=\"Menachot 66a:17\">66ᵃ</cite>) <he>בקנים ובקליחות וכ׳</he> (read: <he>ובקיל׳</he>; Bab. ed. <he>ובקולחות</he>; Mish. Cambr. <he>ובקִלְחוֹת</he>, v. Rabb. D. S. a. l. note 4) they threshed it with reeds and stalks of plants (instead of using flails); <cite ref=\"Vayikra Rabbah 28:6\">Lev. R. s. 28</cite>; <cite ref=\"Pesikta Rabbati 18:1\">Pesik. R. s. 18</cite> <he>ובקולח׳</he>; Pesik. Haʿomer, p. 69ᵃ <he>ובקלקת</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 643:22\">Yalk. Lev. 643</cite> <he>ובקו׳</he>. ",
+				"<cite ref=\"Eruvin 16a\">Erub. 16ᵃ</cite> <he>קו׳</he> (ed. Sonc. <cite ref=\"S02049\"><he>קי׳</he></cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of liquids) <i>column, jet</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 2:1\">Toh. II, 1</cite> <he>ספק שהק׳ וכ׳</he> if there is a doubt whether the jet touched her hand. ",
+				"<cite ref=\"Tosefta Tevul Yom 2:9\">Tosef. T’bul Yom II, 9</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

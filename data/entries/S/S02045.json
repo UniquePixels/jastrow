@@ -1,0 +1,28 @@
+{
+	"id": "S02045",
+	"slug": "קריותא",
+	"headword": {
+		"text": "קִרְיוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1420,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S01922\"><he>קָרֶה</he></cite> or <cite ref=\"S02025\"><he>קֶרִי</he></cite>, <i>accident;</i> <he>קִרְיוּת הִרְהוּר</he> <i>effusio seminis in consequence of heated fancy or dream</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:11\">Targ. Y. Deut. XXIII, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 49:3\">Targ. Y. I Gen. XLIX, 3</cite>."
+			]
+		}
+	]
+}

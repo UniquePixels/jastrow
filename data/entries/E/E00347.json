@@ -1,0 +1,26 @@
+{
+	"id": "E00347",
+	"slug": "הידין-1",
+	"headword": {
+		"text": "הֵידֵין"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵדֵין"
+		}
+	],
+	"page": {
+		"number": 344,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (contr. of <cite ref=\"E00011\"><he>האידנא</he></cite>, v. <cite ref=\"E00134\"><he>הַדְנָא</he></cite>) <i>then</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:28\">Targ. Prov. I, 28</cite> (h. text <he>אז</he>); a. fr.—",
+				"<cite ref=\"Aramaic Targum to Psalms 119:6\">Targ. Ps. CXIX, 6</cite> ed. Lag. (some ed. <cite ref=\"E00126\"><he>הָדֵין</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 19:14\">Ib. XIX, 14</cite> (Reg. <he>אִזְיֵין</he>, cmp. <cite ref=\"A01197\"><he>אֵיזִי</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "A02889",
+	"slug": "אצר-2",
+	"headword": {
+		"text": "אֲצַר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אָצַר"
+		}
+	],
+	"page": {
+		"number": 111,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A02888\">same</cite>. *<cite ref=\"Onkelos Genesis 41:35\">Targ. O. Gen. XLI, 35</cite> <he>וייצרון</he>, Var. <he>ויוצרון</he>, <he>ויצרון</he>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 90b:9\">B. Bath. 90ᵇ</cite> <he>פוק אצר לי וכ׳</he> (prob. <cite ref=\"A02889\"><he>אַצַּר</he></cite> <i>Pa.</i>) go out and buy up for me for storage &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְאַצַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְאֲצַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be stored up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 23:18\">Targ. Is. XXIII, 18</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

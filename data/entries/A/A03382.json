@@ -1,0 +1,46 @@
+{
+	"id": "A03382",
+	"slug": "אשתמודע-1",
+	"headword": {
+		"text": "אִשְׁתְּמוֹדַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 131,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A03383\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to satisfy one’s self from the evidence of friends, to have one identified</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 39b:10\">Yeb. 39ᵇ</cite> <he>אשתמודעיניה דאחוה וכ׳</he> Ar. (ed. <he>אישתמודעינהו</he>) we satisfied ourselves about him that he is the brother &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to recognise</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 42:7\">Targ. Gen. XLII, 7</cite>; <cite ref=\"Onkelos Genesis 42:8\">8</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be recognized, known</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 21:36\">Targ. Y. Ex. XXI, 36</cite>; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to introduce one’s self, to befriend</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 2:19\">Targ. Ruth. II, 19</cite>; a. e."
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "H00629",
+	"slug": "חטיטום",
+	"headword": {
+		"text": "חֲטִיטוּם",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 449,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <cite ref=\"H00637\"><he>חטם</he></cite>, v. <cite ref=\"H00301\"><he>חוֹטָם</he></cite>) <i>buckler</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 58b:5\">B. Mets. 58ᵇ</cite> <he>סוס וסייף וח׳</he> ed. (Ms. R. 1 <he>וסייף ותריס חטיטוב וחֲתִיתוּם</he>, Ms. R. 2 <he>סייף וסוס וחטיטוב</he>, Ms. F. <he>וסייף ותריס חטיטוב</he>, v. Rabb. D. S. a. l. note 6, Ar. Compl. ed. Koh.) horse and sword (and battle-axe) and buckler; (Y. ib. IV, end, 9ᵈ <he>סייף וסוס ותריס</he>)."
+			]
+		}
+	]
+}

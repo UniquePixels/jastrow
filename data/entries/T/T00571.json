@@ -1,0 +1,23 @@
+{
+	"id": "T00571",
+	"slug": "רטן-3",
+	"headword": {
+		"text": "רְטָן"
+	},
+	"page": {
+		"number": 1471,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00570\">preced.</cite>) <i>mumbling, charm</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 18:11\">Targ. O. Deut. XVIII, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 58:6\">Targ. Ps. LVIII, 6</cite> (some ed. <he>רֶטֶן</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"id": "G00695",
+	"slug": "זרח",
+	"headword": {
+		"text": "זָרַח"
+	},
+	"page": {
+		"number": 413,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00696\">next w.</cite>) [<i>to spread</i>,] <i>to shine, sparkle, rise</i> (cmp. <cite ref=\"E00692\"><he>הָנֵץ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Chullin 91b:5\">Ḥull. 91ᵇ</cite> <he>וכי שמש … זָרְחָה</he> did the sun rise for him (Jacob) alone? <cite ref=\"Jerusalem Talmud Sanhedrin 8:8:2\">Y. Snh. VIII, end, 26ᶜ</cite> <he>החמה זוֹרַחַת וכי …</he> does the sun shine on him (the thief) alone? a. fr.—Tanḥ. Tsav 13, a. fr. <he>צרעת זרחה וכ׳</he> leprosy broke out on &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזְרִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to make shine</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22:12\">Gen. R. s. 22</cite> <he>ה׳ לו הצרעת</he> the Lord made leprosy glisten on his face. ",
+						"<cite ref=\"Bereishit Rabbah 22:6\">Ib.</cite> <he>ה׳ … חמה</he> he caused the globe of the sun to shine bright for him (a sign of pardon). ",
+						"<cite ref=\"Vayikra Rabbah 28:1\">Lev. R. s. 28</cite>, beg. <he>דיין שהקב״ה מַזְרִיחַ וכ׳</he> it is reward enough for them that the Lord lets the sun rise &c. ",
+						"<cite ref=\"Makkot 10a:15\">Macc. 10ᵃ</cite> (ref. to <he>מזרחה</he>, <cite ref=\"Deuteronomy 4:41\">Deut. IV, 41</cite>) <he>הַזְרֵחַ שמש וכ׳</he> let the sun shine on unwilling manslayers (give them safety). ",
+						"<cite ref=\"Deuteronomy 4:41\">Ib.</cite> <he>הִזְרַחְתָּ וכ׳</he> thou (Moses) hast &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (neut. verb) <i>to glisten</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:7\">Shebi. IV, 7</cite> <he>משיַזְרִיחוּ</he> (Ms. M. <he>משהִזְ׳</he>) when the young figs begin to glisten."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"M00782\"><he>מִזְרָח</he></cite>) <i>to go east</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite>, end (ref. to <cite ref=\"Genesis 25:6\">Gen. XXV, 6</cite>) <he>כל מה … להַזְרִיחַ תַּזְרִיחוּ</he> go as far east as you can."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

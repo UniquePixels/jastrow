@@ -1,0 +1,27 @@
+{
+	"id": "B01316",
+	"slug": "ברק-4",
+	"headword": {
+		"text": "בְּרַק",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּנֵי בְּרַק"
+		}
+	],
+	"page": {
+		"number": 196,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. pl. <i>B’ne B’rak</i> (<cite ref=\"Joshua 19:45\">Josh. XIX, 45</cite>, modern <i>Ibn Ibrak</i>) near Japho, seat of R. Akiba’s college. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 32b:10\">Snh. 32ᵇ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 21:8\">Lev. R. s. 21</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 3\">Tosef. Sabb. III (IV), 3</cite>."
+			]
+		}
+	]
+}

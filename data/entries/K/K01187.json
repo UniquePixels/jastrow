@@ -1,0 +1,42 @@
+{
+	"id": "K01187",
+	"slug": "כרך-3",
+	"headword": {
+		"text": "כֶּרֶךְ"
+	},
+	"page": {
+		"number": 668,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01186\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>twining</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 39a:8\">Men. 39ᵃ</cite> <he>חוט של כ׳</he> the thread which is used for twining (v. <cite ref=\"V00547\"><he>תְּכֵלֶת</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>roll, volume</i> (of a book). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 29b\">B. Mets. 29ᵇ</cite> <he>ולא יהיו ג׳ קורין בכ׳ אחד</he> Ms. M. (differ. in ed.) three persons must not read together in one volume (of a book held in trust by the finder)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>bundle</i>; trnsf. <i>a combined action</i>; <he>בכ׳ אחד</he> <i>simultaneously; without intermission</i>. Ib. 37ᵃ <he>כמי שהפקידו לו בכ׳ א׳</he> as if they had entrusted their money to him by one act (v. Rabb. D. S. a. l. note 50), opp. to <he>שני כְּרֵיכוֹת</he>. —",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 3:2:5\">Y. Shek. III, 47ᵇ</cite> bot. <he>בכ׳ א׳</he> (drinking four cups) in immediate succession (<cite ref=\"Pesachim 108b:2\">Pes. 108ᵇ</cite> <he>בבת אחת</he>), opp. <he>בפיסקין</he> (v. <cite ref=\"K01185\"><he>כָּרַךְ</he></cite>)—",
+				"<cite ref=\"Tosefta Ma'aser Sheni 4:11\">Tosef. Maas. Sh. IV, 11</cite> [read:] <he>נתנן כולן בכ׳ וכ׳</he> if he put all of them into one fund, he takes the money realized from their sale out of the common fund. Tosef. Meg. IV (III), 17, sq. <he>ג׳ פסוקים בכ׳ אחד</he> three verses without intermission (for the expositor, v. <cite ref=\"M03035\"><he>מְתוּרְגְּמָן</he></cite>).—Pl. (fr. <cite ref=\"K01186\"><he>כָּרֵךְ</he></cite>) <he>כְּרֵיכוֹת</he>, v. supra; <cite ref=\"Bava Metzia 37b\">B. Mets. 37ᵇ</cite> <he>שתי כ׳</he>."
+			],
+			"label": "3"
+		}
+	]
+}

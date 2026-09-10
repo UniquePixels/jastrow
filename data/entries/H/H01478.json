@@ -1,0 +1,33 @@
+{
+	"id": "H01478",
+	"slug": "חפש-1",
+	"headword": {
+		"text": "חָפַשׂ"
+	},
+	"page": {
+		"number": 493,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01474\"><he>חָפַר</he></cite>)",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01480\"><he>חִיפֵּשׂ</he></cite> <i>to dig, search</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Pesachim 2:3\">Pes. II, 3</cite> <he>כל … לחַפֵּשׂ אחריו</he> what the dog cannot reach by digging for it. ",
+						"<cite ref=\"Shabbat 89a:3\">Sabb. 89ᵃ</cite> <he>חִיפַּשְׂתִּי וכ׳</he> I searched all over the world. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:1:9\">Cant. R. to I, 1</cite> <he>אם אתה מחַפֵּשׂ אחר וכ׳</he> if thou wilt dig after the words of the Law as for secret treasures; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

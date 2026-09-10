@@ -1,0 +1,28 @@
+{
+	"id": "B00701",
+	"slug": "ביראה",
+	"headword": {
+		"text": "בֵּירָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּירָיָיה"
+		}
+	],
+	"page": {
+		"number": 165,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00702\">next w.</cite>) <i>of Berai</i>, surname of Ulla. ",
+			"units": [
+				"<cite ref=\"Moed Katan 26a:23\">M. Kat. 26ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Megillah 2:4:4\">Y. Meg. II, 73ᵇ</cite>; <cite ref=\"Jerusalem Talmud Moed Katan 3:7:11\">Y. M. Kat. III, 83ᵇ</cite> bot. <cite ref=\"B00714\"><he>בֵּירָיָא</he></cite>."
+			]
+		}
+	]
+}

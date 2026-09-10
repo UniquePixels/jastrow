@@ -1,0 +1,61 @@
+{
+	"id": "S01604",
+	"slug": "קנס-2",
+	"headword": {
+		"text": "קְנַס"
+	},
+	"page": {
+		"number": 1393,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01603\">same</cite>, <i>to fine, punish</i>. Y. B. Kam. VIII, end, 6ᶜ <he>וקַנְסֵיה ליטר דדהב</he> he fined him one litra of gold. Bab. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 30b:10\">B. Kam. 30ᵇ</cite> <he>לאלתר קַנְסִינָן וכ׳</he> do we fine him (decree the forfeiture of the material deposited in the street) at once, or when he derives the intended benefit? <cite ref=\"Shabbat 3b:4\">Sabb. 3ᵇ</cite> <he>מי קַנְסוּהָ רבנן לאהדורי וכ׳</he> do the Rabbis punish him by forbidding him to withdraw his hand? <cite ref=\"Shabbat 3b:11\">Ib.</cite> <he>בשוגג לא קנסוה וכ׳</he> if he did it by mistake, the Rabbis do not punish him. ",
+				"<cite ref=\"Shabbat 3b:8\">Ib.</cite> <he>ליקנסוה רבנן</he> let the Rabbis punish him (by forbidding him to withdraw his hand)!; a. fr.—",
+				"<cite ref=\"Bava Metzia 72a:6\">B. Mets. 72ᵃ</cite> <he>קנסינן התירא וכ׳</he> we decree the forfeiture of the legitimate claim (the principal) on account of the illegitimate (the interest; a. e.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קנֵּס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01603\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 15:25\">Targ. Y. I Ex. XV, 25</cite> <he>דמְקַנְסֵּי</he> (not <he>דמִקְנְסֵי</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְקַנַּס"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְקְנַס"],
+			"senses": [
+				{
+					"gloss": "<i>to be punished, fined, condemned</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 35:25\">Targ. Y. Num. XXXV, 25</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:50\">Targ. Y. I Deut. XXXII, 50</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be assessed for fine</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 21:22\">Targ. Y. Ex. XXI, 22</cite> <he>מתקנסא יתקנס וולדא</he> the lost embryo must be paid for according to assessment (h. text <he>ענוש יענש</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

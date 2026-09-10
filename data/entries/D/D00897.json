@@ -1,0 +1,34 @@
+{
+	"id": "D00897",
+	"slug": "דמים",
+	"headword": {
+		"text": "דָּמִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּמִין"
+		}
+	],
+	"page": {
+		"number": 313,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl., constr. <cite ref=\"D00892\"><he>דְּמֵי</he></cite> (<he>דמה</he>) <i>equivalent, compensation;</i> (cmp. <cite ref=\"U00337\"><he>שָׁוָה</he></cite>) <i>price, value; payment</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 112b:11\">Pes. 112ᵇ</cite> do not bargain <he>בשעה שאין לך ד׳</he> when thou hast no money to pay with. ",
+				"<cite ref=\"Keritot 13b:47\">Kerith. 13ᵇ</cite> <he>ד׳ וערכין</he> the assessment of an object to be redeemed or of an object the value of which was dedicated, v. <cite ref=\"P01377\"><he>עֶרֶךְ</he></cite>.—",
+				"<cite ref=\"Pesachim 32a:2\">Pes. 32ᵃ</cite> <he>לפי מידה … או לפי ד׳ וכ׳</he> must he pay the fine according to quantity or according to value?—",
+				"<cite ref=\"Mishnah Kiddushin 1:6\">Kidd. I, 6</cite> <he>כל הנעשה ד׳ באחר</he> whatever is used as payment for another object; expl. ",
+				"<cite ref=\"Kiddushin 28a:10\">ib. 28ᵃ</cite> <he>כל הנישום ד׳ וכ׳</he> whatever is assessed as an equivalent, i.e. an exchange is meant and not a sale for cash. ",
+				"<cite ref=\"Kiddushin 28b:4\">Ib. 28ᵇ</cite> <he>החליף דמי שור בפרה</he> if he gives a cow in payment of money which he owes for an ox; a. fr.—",
+				"<cite ref=\"Ketubot 103b:22\">Keth. 103ᵇ</cite> <he>נהוג נשיאותך בד׳</he> Ar. conduct thy office of Nasi as something valuable (Var. in Ar., a. ed. <he>ברָמִים</he>)."
+			]
+		}
+	]
+}

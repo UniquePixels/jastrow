@@ -1,0 +1,36 @@
+{
+	"id": "E00505",
+	"slug": "הכחשה",
+	"headword": {
+		"text": "הַכְחָשָׁה"
+	},
+	"page": {
+		"number": 350,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"E00504\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>contradiction</i>, the denial by one set of witnesses of the deposits of the preceding set; <i>counterevidence</i> (contrad. to <cite ref=\"E00300\"><he>הֲזָמָה</he></cite>), <i>rejection of evidence owing to counterevidence</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 3b\">B. Mets. 3ᵇ</cite> <he>ישנן בה׳ וכ׳</he> are subject to rejection through counterevidence or proof of alibi. ",
+				"<cite ref=\"Bava Metzia 3b:12\">Ib.</cite> <he>אינו בה׳ וכ׳</he> (the debtor’s own admission) cannot be upset by counterevidence &c. ",
+				"<cite ref=\"Bava Kamma 73b:14\">B. Kam. 73ᵇ</cite>, a. e. <he>ה׳ תהלת הזמה וכ׳</he> counterevidence is a preliminary procedure to be finished by proving an alibi, i.e. both are one continued process of law; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>failing, waste of flesh</i>, in gen. <i>deterioration</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 94a:15\">B. Kam. 94ᵃ</cite> <he>ה׳ דהדר</he> (sub. <cite ref=\"B00748\"><he>בישרא</he></cite>) a deterioration which can be raplaced (by good food), <he>ה׳ דלא הדר</he> which cannot be replaced (e.g. a fracture)."
+			],
+			"label": "2"
+		}
+	]
+}

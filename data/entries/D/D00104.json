@@ -1,0 +1,24 @@
+{
+	"id": "D00104",
+	"slug": "דגורא",
+	"headword": {
+		"text": "דְּגוֹרָא"
+	},
+	"page": {
+		"number": 279,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דְּגַר</he> I) <i>heap, pile, mound</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:46\">Targ. O. Gen. XXXI, 46</cite>. Targ. ",
+				"<cite ref=\"Habakkuk 3:15\">Hab. III, 15</cite> (piled up waves, h. text <he>חֹמֶר</he>).—Pl. <he>דְּגוֹרִין</he>. ",
+				"<cite ref=\"Onkelos Exodus 8:10\">Targ. O. Ex. VIII, 10</cite>; a. e.—[Y. Kil. I, 27ᵃ top <cite ref=\"H01344\"><he>חסדיגרון</he></cite>, read <he>חס דגורין</he>, R. S. to <cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite> <he>חסא דאיגרין</he>, cler. error, for <he>דדגורין</he>; v. <cite ref=\"H01331\"><he>חָסָא</he></cite>.]"
+			]
+		}
+	]
+}

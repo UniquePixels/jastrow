@@ -1,0 +1,38 @@
+{
+	"id": "M01764",
+	"slug": "מנחתא",
+	"headword": {
+		"text": "מִנְחָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִנְחֲ׳"
+		}
+	],
+	"page": {
+		"number": 799,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"M01759\"><he>מִנְחָה</he></cite><i>offering; meal offering</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 2:1\">Targ. Lev. II, 1</cite>; a. fr.—Pl. <cite ref=\"M01764\"><he>מִנְחָוָתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 18:9\">Targ. O. Num. XVIII, 9</cite> ed. Berl. (ed. <he>מִנְחַתְ׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>afternoon, afternoon prayer, Minḥah</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 18:29\">Targ. I Kings XVIII, 29</cite>.—Y. Pes. V, 30ᵈ top.—",
+				"<cite ref=\"Sotah 39b:13\">Sot. 39ᵇ</cite> <he>במ׳ דתענית</he> in the Minḥah of the fast-day.—Pl. <cite ref=\"M01764\"><he>מִנְחָתָא</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 31a:11\">R. Hash. 31ᵃ</cite> <he>במ׳ דשבתא</he> in the Minḥah of Sabbath days; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

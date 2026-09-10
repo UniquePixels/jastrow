@@ -1,0 +1,30 @@
+{
+	"id": "K01031",
+	"slug": "כפליות",
+	"headword": {
+		"text": "כִּפְלָיוֹת",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיפְלָאוֹת"
+		}
+	],
+	"page": {
+		"number": 660,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (κέφαλος) a species of <i>mullet</i>, a delicious fish (v. Sm. Ant. s. v. Cephalus). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:16\">Gen. R. s. 98</cite> (expl. <he>מעדני מלך</he>, <cite ref=\"Genesis 49:20\">Gen. XLIX, 20</cite>), <he>כ׳ ואנפקינון</he> (not … <he>טן</he>) mullets and oil of unripe olives. ",
+				"<cite ref=\"Sifrei Devarim 355:6-20\">Sifré Deut. 355</cite> (ref. to <cite ref=\"Deuteronomy 33:24\">Deut. XXXIII, 24</cite>) <he>שהיה … בשמן אנפיקין ובקי׳ וכ׳</he> (corr. acc.) Asher made himself agreeable to his brother tribes by furnishing them oil … and mullets, while they supplied him with grain; Yalk. ib. 962 (comment.: <i>fine fruits</i>)."
+			]
+		}
+	]
+}

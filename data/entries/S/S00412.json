@@ -1,0 +1,39 @@
+{
+	"id": "S00412",
+	"slug": "קון",
+	"headword": {
+		"text": "קוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִין"
+		}
+	],
+	"page": {
+		"number": 1334,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K00296\"><he>כּוּן</he></cite>)<i>to arrange, order, plan</i> (applied to art, cmp. <cite ref=\"H01777\"><he>חָרַשׁ</he></cite>; to music, v. <cite ref=\"S01024\"><he>קִינָה</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קוֹנֵן"],
+			"senses": [
+				{
+					"gloss": "<i>to arrange a song of lamentation</i> (<i>ḳinah</i>, cmp. <he>קשר הספד</he>, v. <cite ref=\"E00709\"><he>הֶסְפֵּד</he></cite>). ",
+					"units": [
+						"<cite ref=\"Gittin 58a\">Gitt. 58ᵃ</cite> <he>עליה ק׳ ירמיהו וכ׳</he> on her account Jeremiah sang &c. ",
+						"<cite ref=\"Gittin 58a\">Ib.</cite> <he>ועליהן קינה וכ׳</he> (corr. acc.; v. En Yaʿăḳob). Lam. R. introd. (R. Naḥman) <he>התחיל … מְקוֹנֵן עליהם איכה</he> Jeremiah began to sing Ekhah (<cite ref=\"Lamentations 1:1\">Lam. I, 1</cite>) over them. ",
+						"<cite ref=\"Lamentations 1:1\">Ib.</cite> (R. Pinḥas) <he>הרי … מקונן עליכם קינות וכ׳</he> behold, Jeremiah will sing lamentations of seven alphabets (of) Ekhah over you. ",
+						"<cite ref=\"Mishnah Moed Katan 3:9\">M. Kat. III, 9</cite> <he>אבל לא מְקוֹנְנוֹת</he> but they (the lamenting women) must not sing dirges, v. <cite ref=\"S01024\"><he>קִינָה</he></cite> a. <cite ref=\"P00612\"><he>עִינּוּי</he> I</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pol."
+		}
+	]
+}

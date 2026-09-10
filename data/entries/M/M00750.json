@@ -1,0 +1,26 @@
+{
+	"id": "M00750",
+	"slug": "מזיגה-2",
+	"headword": {
+		"text": "מְזִיגָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 754,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00712\"><he>מָזַג</he></cite>) <i>mixing the wine, offering drink</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:1\">Sabb. VIII, 1</cite> <he>כדי מְזִיגַת הכוס</he> as much wine as is required for a cup (of benediction) to be mixed with water. ",
+				"<cite ref=\"Ketubot 61a\">Keth. 61ᵃ</cite> <he>מ׳ הכוס</he> offering the wine cup (by the wife). ",
+				"<cite ref=\"Tosefta Sotah 1:2\">Tosef. Sot. I, 2</cite> <he>כדי מ׳ הכוס</he> as much time as is required for preparing a cup of wine; Y. ib. I, 16ᶜ bot.; Bab. ",
+				"<cite ref=\"Sotah 4a\">ib. 4ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

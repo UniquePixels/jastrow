@@ -1,0 +1,28 @@
+{
+	"id": "A01315",
+	"slug": "אילת-2",
+	"headword": {
+		"text": "אַיֶּלֶת",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַיֶּילֶת"
+		}
+	],
+	"page": {
+		"number": 50,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (<i>not</i> bibl. <cite ref=\"A01314\"><he>אֵילַת</he></cite>) <i>Ayeleth</i>, one day’s journey south of Jerusalem. ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 5:2\">Maas. Sh. V, 2</cite>; <cite ref=\"Beitzah 5a\">Bets. 5ᵃ</cite> <cite ref=\"P00845\"><he>עלת</he></cite> ed. (Ms. M. <he>איילת</he>); <cite ref=\"Rosh Hashanah 31b:9\">R. Hash. 31ᵇ</cite> <cite ref=\"A01314\"><he>אילת</he></cite> ed. (Ms. M. <he>עַיֶּילֶת</he>; Ms. L. <cite ref=\"P00845\"><he>עלת</he></cite> corr. into <cite ref=\"P00618\"><he>עיי׳</he></cite>; Ms. 2 <he>עגלת</he>; v. Rabb. D. S. a. l. note). [Bets. a. R. Hash. l. c. read <he>מן הדרום</he> for <he>מן הצפון</he> a. vice versa.] Cmp. <cite ref=\"A01265\"><he>אַיָּל</he></cite>."
+			]
+		}
+	]
+}

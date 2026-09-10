@@ -1,0 +1,30 @@
+{
+	"id": "P00870",
+	"slug": "עמוני",
+	"headword": {
+		"text": "עַמּוֹנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַמּוֹנִית"
+		}
+	],
+	"page": {
+		"number": 1087,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P00869\">preced.</cite>) <i>Ammonite</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:15\">Y. Snh. X, 28ᵈ</cite> top <he>היין הע׳ שהוא קשה</he> Ammonite wine which is strong; Bab. ",
+				"<cite ref=\"Sanhedrin 106a:10\">Snh. 106ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Yevamot 8:3\">Yeb. VIII, 3</cite>. ",
+				"<cite ref=\"Yevamot 69a:18\">Ib. 69ᵃ</cite>, a. e. <he>עמוני ולא עמונית</he> a converted male Ammonite is excluded from intermarriage, but not a female, v. <cite ref=\"M00386\"><he>מוֹאָבִי</he></cite>; a. fr."
+			]
+		}
+	]
+}

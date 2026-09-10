@@ -1,0 +1,23 @@
+{
+	"id": "U01604",
+	"slug": "שננא",
+	"headword": {
+		"text": "שְׁנָנָא"
+	},
+	"page": {
+		"number": 1607,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"U01602\"><he>שְׁנַן</he></cite> (<cite ref=\"U01603\">preced.</cite> wds.) <i>blade, edge</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:24\">Targ. O. Gen. III, 24</cite> (h. text <he>להט</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:7\">Targ. I Sam. XVII, 7</cite> <cite ref=\"U01604\"><he>שִׁנְנָא</he></cite> (ed. Wil. <cite ref=\"U00971\"><he>שִׁנָ׳</he></cite>).—V. <cite ref=\"U00979\"><he>שִׁינְנָא</he></cite>."
+			]
+		}
+	]
+}

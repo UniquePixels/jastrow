@@ -1,0 +1,48 @@
+{
+	"id": "O00873",
+	"slug": "סכא-2",
+	"headword": {
+		"text": "סִכָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיכָּא"
+		}
+	],
+	"page": {
+		"number": 988,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00904\"><he>סְכַךְ</he></cite>) [<i>anything interlaced</i> or <i>inserted</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thorn; pin, nail</i>, v. <cite ref=\"O00945\"><he>סִכְּתָא</he></cite>.—[<cite ref=\"Yalkut Shimoni on Nach 971:26\">Yalk. Koh. 971</cite> <he>ס׳ למיעבד חבלא</he>, read: <cite ref=\"O00526\"><he>סִיבָּא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 971\">ib.</cite> <he>ס׳ למסמך ביה גופנין</he>, v. <cite ref=\"O00552\"><he>סִיגָא</he></cite>.—",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite>, beg. <he>סיכא</he> some ed., read <cite ref=\"O00526\"><he>סִיבָּא</he></cite>.]—Pl. <cite ref=\"O00898\"><he>סִכִּין</he></cite>, <he>סִכַּיָּיא</he>, <cite ref=\"O00893\"><he>סִכֵּי</he></cite>, <cite ref=\"O00067\"><he>סִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 5:14\">Targ. Esth. V, 14</cite>. ",
+				"<cite ref=\"Onkelos Exodus 38:20\">Targ. O. Ex. XXXVIII, 20</cite>; a. fr.—Y. Taan. II, 65ᵇ (ref. to <cite ref=\"Micah 7:4\">Mic. VII, 4</cite>) <he>ישרא דבהון כאילין ס׳</he> (ed. Krot. <cite ref=\"O00913\"><he>סוּכַּ׳</he></cite>) the upright among them is like those thorns. ",
+				"<cite ref=\"Shabbat 67a:1\">Sabb. 67ᵃ</cite> <he>ז׳ סיכי</he>; a. e., v. <cite ref=\"O00945\"><he>סִכְּתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>ס׳ דפדן</he> (or <cite ref=\"O00898\"><he>סַכִּין</he></cite>) (or <he>ס׳</he> only) <i>coulter of the plough</i> (v. Sm. Ant. s. v. Culter). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 8:9\">Num. R. s. 8</cite> <he>יהב ביה סכין דפ׳</he> (some ed. <cite ref=\"O00921\"><he>סכן</he></cite>, corr. acc.) he (the Caesar) has a coulter put into him (orders him to be stabbed); <cite ref=\"Pesikta Rabbati 24:1\">Pesik. R. s. 23-24</cite> <he>מכה דפ׳</he> (corr. acc.).—Pl. as ab. ",
+				"<cite ref=\"Targum Jonathan on Micah 4:3\">Targ. Mic. IV, 3</cite>; <cite ref=\"Targum Jonathan on Isaiah 2:4\">Targ. Is. II, 4</cite> (ed. Lag. <he>סַכִּינִין</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a sort of spade</i>, v. <cite ref=\"O00945\"><he>סִכְּתָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

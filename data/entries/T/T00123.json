@@ -1,0 +1,25 @@
+{
+	"id": "T00123",
+	"slug": "רבנו",
+	"headword": {
+		"text": "רַבֵּנוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַבֵּינוּ"
+		}
+	],
+	"page": {
+		"number": 1444,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"T00041\"><he>רַב</he> II</cite>) <i>our teacher</i>, an attribute of Moses, v. <cite ref=\"M02813\"><he>משֶׁה</he></cite>.—<he>ר׳ הקדוש</he> a title of R. Judah Hannasi, v. <cite ref=\"S00119\"><he>קָדוֹשׁ</he></cite>.",
+			"units": []
+		}
+	]
+}

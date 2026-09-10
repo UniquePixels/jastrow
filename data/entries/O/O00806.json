@@ -1,0 +1,47 @@
+{
+	"id": "O00806",
+	"slug": "סיפתא-1",
+	"headword": {
+		"text": "סִיפְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִפְ׳"
+		},
+		{
+			"text": "שִׂ׳"
+		}
+	],
+	"page": {
+		"number": 985,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U01711\"><he>שָׂפָה</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>border, hem</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:4\">Targ. O. Ex. XXVI, 4</cite>; <cite ref=\"Onkelos Exodus 26:10\">10</cite> ed. Berl. (oth. eds. <cite ref=\"O00806\"><he>שִׂ׳</he></cite>). Ib. XXVIII, 26; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lip</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 81:6\">Targ. Ps. LXXXI, 6</cite> (some ed. <cite ref=\"O00793\"><he>סִפְוָתָא</he></cite> pl.; Ms. <cite ref=\"U01813\"><he>שִׂפְתָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 120:2\">Ib. CXX, 2</cite> Ms. (ed. <cite ref=\"O01327\"><he>סִפְוָותָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 12:19\">Targ. Prov. XII, 19</cite>; a. fr.—Pl. <cite ref=\"O01327\"><he>סִיפְוָון</he></cite>, <cite ref=\"O00793\"><he>סִיפְוָותָא</he></cite>, <cite ref=\"O00782\"><he>סִפְ׳</he></cite>, <cite ref=\"O00806\"><he>שִׂ׳</he></cite>. Targ. II Esth. VII, 9 (10) <cite ref=\"O00793\"><he>סִיפְוָתַי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 11:2\">Targ. Job XI, 2</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 5:4\">Targ. Lev. V, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:23\">Targ. Prov. XIV, 23</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Proverbs 24:22\">Ib. XXIV, 22</cite> <cite ref=\"O01327\"><he>ספוותא</he></cite>, v. <cite ref=\"U01716\"><he>שַׁפְוָונָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

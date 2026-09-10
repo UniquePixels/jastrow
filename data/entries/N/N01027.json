@@ -1,0 +1,23 @@
+{
+	"id": "N01027",
+	"slug": "נפח-3",
+	"headword": {
+		"text": "נֶפֶח"
+	},
+	"page": {
+		"number": 922,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01026\">preced.</cite>) <i>swelling; bulk, volume</i> (v. <cite ref=\"A02612\"><he>אַפּוּחָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 6:5\">B. Mets. VI, 5</cite> <he>הנ׳ קשה כמשאוי</he> an increase of volume makes the load harder for the animal (Bab. ed. 80ᵃ <he>הנ׳ קשה כמשאוי</he> an increase of size is as hard for the animal as an increase of weight), v. <cite ref=\"N01030\"><he>נִפְחָא</he></cite>. ",
+				"<cite ref=\"Bava Kamma 47a:8\">B. Kam. 47ᵃ</cite> <he>נִיפְחָהּ</he>, v. <cite ref=\"N01030\"><he>נִפְחָא</he></cite>."
+			]
+		}
+	]
+}

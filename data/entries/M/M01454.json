@@ -1,0 +1,22 @@
+{
+	"id": "M01454",
+	"slug": "מכתם",
+	"headword": {
+		"text": "מִכְתָּם"
+	},
+	"page": {
+		"number": 785,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01370\"><he>כָּתַם</he></cite>)<i>impression, writ</i>.—Pl. <he>מִכְתָּמִין</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 17:8\">Tosef. Sabb. XVII</cite> (<cite ref=\"Tosefta Shabbat 18:8\">XVIII</cite>), 8 ed. Zuck., v. <cite ref=\"M01446\"><he>מִכְתָּב</he></cite> h."
+			]
+		}
+	]
+}

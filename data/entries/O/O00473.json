@@ -1,0 +1,32 @@
+{
+	"id": "O00473",
+	"slug": "סט",
+	"headword": {
+		"text": "סֵט"
+	},
+	"page": {
+		"number": 972,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00283\"><he>סוּט</he></cite>; cmp. <cite ref=\"O00283\"><he>הֶסֵּיט</he></cite>, a. the phrase <he>נטה יד</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>handle, that part of a handle which is indispensable in using the tool</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Mikvaot 6:21\">Tosef. Mikv. VI</cite> (<cite ref=\"Tosefta Mikvaot 7:21\">VII</cite>), 21 <he>מִסֵּטָהּ ולחוץ</he> beyond the indispensable part of the handle, <he>מס׳ ולפנים</he> within that part."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>swinging the forefinger</i>, v. <cite ref=\"O00603\"><he>סִיט</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "T00248",
+	"slug": "רדיא-3",
+	"headword": {
+		"text": "רָדַיָּא"
+	},
+	"page": {
+		"number": 1452,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"T00230\"><he>רָדָא</he></cite>) <i>running water</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 5:15\">Targ. Prov. V, 15</cite> (ed. Wil. <cite ref=\"T00186\"><he>רְ׳</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. of <cite ref=\"T00246\"><he>רַדְיָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

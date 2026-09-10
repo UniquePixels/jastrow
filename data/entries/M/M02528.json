@@ -1,0 +1,46 @@
+{
+	"id": "M02528",
+	"slug": "מרד-1",
+	"headword": {
+		"text": "מָרַד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 836,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"M02531\"><he>מֶרֶד</he></cite>; cmp. <cite ref=\"M02125\"><he>מָעַל</he></cite> a. <cite ref=\"M02124\"><he>מַעַל</he></cite>)<i>to rebel, refuse obedience; to protest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 5:7\">Keth. V, 7</cite> <he>המוֹרֶדֶת על בעלה</he> she who rebels against her husband (refusing marital duties; oth. opin. refusing to work). ",
+				"<cite ref=\"Mishnah Ketubot 5:7\">Ib.</cite> <he>המוֹרֵד על אשתו</he> a husband refusing marital duties (oth. opin. refusing to give her work and support); ib. 63ᵇ. ",
+				"<cite ref=\"Sanhedrin 49a\">Snh. 49ᵃ</cite>, a. fr. <he>מורד במלכות</he> rebel.—",
+				"<cite ref=\"Megillah 13a:8\">Meg. 13ᵃ</cite> <he>מ׳ בעצת מרגלים</he> he (Caleb) protested against the counsel of the spies. ",
+				"<cite ref=\"Megillah 13a:8\">Ib.</cite> <he>מרדה בגילולי וכ׳</he> she refused homage to the idols of her father’s house; a. fr.—[<cite ref=\"Jerusalem Talmud Maaser Sheni 1:1:19\">Y. Maas. Sh. I, 52ᵈ</cite> top <he>מטבע שמרד</he>, read: <he>של מֶרֶד</he> or <cite ref=\"M02572\"><he>מָרוֹד</he></cite>, q. v.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to incite to rebellion</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 23:7\">Gen. R. s. 23</cite>, v. infra."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִמְרִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to make rebellious, to incite</i>. Y. Keth. V, 30ᵇ bot. <he>התורה הִמְרַדְתָּהּ עליו</he> the Law requires her to be rebellious against him (to refuse sexual connection). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 26:4\">Gen. R. s. 26</cite> <he>זה הִמְרִידָן עלי</he> this man (Nimrod) made them rebel against me; <cite ref=\"Bereishit Rabbah 26:4\">ib.</cite> s. 23 <he>זה המוֹרְדָן עלי</he> (‘Rashi’: <he>המרידן</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

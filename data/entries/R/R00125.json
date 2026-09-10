@@ -1,0 +1,32 @@
+{
+	"id": "R00125",
+	"slug": "צדקן",
+	"headword": {
+		"text": "צַדְקָן"
+	},
+	"page": {
+		"number": 1264,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00124\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>acting justly;</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>charitable</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 156a:11\">Sabb. 156ᵃ</cite> <he>האי מאן דבצדק יהי גבר צ׳</he> he that was born under the planet Tsedeḳ will be a right-doing man; expl. <he>צ׳ במצוות</he> a charitable man (v. <cite ref=\"M02284\"><he>מִצְוָה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

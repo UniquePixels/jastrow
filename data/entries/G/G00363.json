@@ -1,0 +1,32 @@
+{
+	"id": "G00363",
+	"slug": "זימון",
+	"headword": {
+		"text": "זִימּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִמּוּן"
+		}
+	],
+	"page": {
+		"number": 394,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00535\"><he>זָמַן</he></cite>) l) <i>designatian for a purpose</i>, v. <cite ref=\"E00302\"><he>הַזְמָנָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Nedarim 7a:8\">Ned. 7ᵃ</cite> <he>ז׳ מועיל</he> has designation the same effect as virtual use (= <he>הזמנה מילתא</he>)?; <cite ref=\"Berakhot 26a:5\">Ber. 26ᵃ</cite> <he>יש ז׳</he>; a. fr.—2) <i>summons to appear before court;</i> 3) <i>appointment for a common meal, the appeal to partakers ta say grace after a common meal</i>. ",
+				"<cite ref=\"Sanhedrin 8a:8\">Snh. 8ᵃ</cite> <he>ז׳ בשלשה</he> <i>zimmun</i> requires three persons, <he>מאי ז׳ … ברכת ז׳</he> what is meant by <i>zimmun</i>? Shall we say, it means the grace after meal &c.?—But we read <he>ז׳ וברכת ז׳ וכ׳</he> <i>z</i>. and the grace &c. require three persons … <he>אלא מאי ז׳ אזמוני וכ׳</he> consequently, <i>zimmun</i> (not qualified) means summons before court. ",
+				"<cite ref=\"Mishnah Berakhot 7:5\">Ber. VII, 5</cite> <he>מצטרפים לז׳</he> can be counted together for common grace. ",
+				"<cite ref=\"Berakhot 45b:9\">Ib. 45ᵇ</cite> <he>אין ברכת הז׳ ביניהם</he> (not <he>המזון</he>) the appeal and answer to common grace must not take place between them. ",
+				"<cite ref=\"Berakhot 45b:19\">Ib.</cite> <he>אין ז׳ למפרע</he> the appointment for a meal and benediction in common cannot be made retroactive (it must be made before the meal commences); a. fr.—Pl. <he>זִימּוּנִים</he> <i>appointments, meeting places</i>. ",
+				"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> <he>כמה ז׳ נזדמנתי אִתְּכֶם</he> how many meetings have I not appointed with you!; v. <cite ref=\"F00048\"><he>וִיעוּד</he></cite>."
+			]
+		}
+	]
+}

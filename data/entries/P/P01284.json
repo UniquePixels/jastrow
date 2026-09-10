@@ -1,0 +1,24 @@
+{
+	"id": "P01284",
+	"slug": "ערבית-2",
+	"headword": {
+		"text": "עַרְבִית"
+	},
+	"page": {
+		"number": 1113,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01251\"><he>עֶרֶב</he></cite>) <i>evening time</i>; (sub. <he>תפלת</he>) <i>evening prayer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite> (Y. a. Bab. ed. <he>בעֲרָבִין</he>). Ib. 9ᵇ <he>גאולה של ע׳</he> the section on redemption in the evening prayer; <he>תפלה של ע׳</he> the Prayer of Benedictions in the evening prayer; a. v. fr.—(Adv.) <i>at evening</i>. ",
+				"<cite ref=\"Shabbat 118a:6\">Sabb. 118ᵃ</cite> <he>קערות שאכל בהן ע׳</he> dishes which have been used at the (Sabbath) evening meal; a. fr.—Pl. <he>עַרְבִיּוֹת</he> (v. <cite ref=\"P01251\"><he>עֶרֶב</he></cite>) <i>the eves</i> of Sabbaths, Holy Days &c. ",
+				"<cite ref=\"Eruvin 41a:9\">Erub. 41ᵃ</cite> <he>משלימין בו ע׳</he> we fast the entire day preceding."
+			]
+		}
+	]
+}

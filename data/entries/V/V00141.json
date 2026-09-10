@@ -1,0 +1,33 @@
+{
+	"id": "V00141",
+	"slug": "תואר",
+	"headword": {
+		"text": "תּוֹאַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "תֹּאַר"
+		}
+	],
+	"page": {
+		"number": 1649,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; denom. of <cite ref=\"A00841\"><he>אוֹר</he></cite>)<i>look, appearance, countenance; attribute</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 100a:12\">Snh. 100ᵃ</cite> (play on <he>לת̇ר̇ופ̇ה̇</he>, <cite ref=\"Ezekiel 47:12\">Ez. XLVII, 12</cite>) <he>לת̇ואר̇ פנים של בעלי הפ̇ה̇</he> for brightening the countenance of the speakers. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 48:7\">Pirké d’R. El. ch. XLVIII</cite> <he>ראו</he> … <he>תָּאֳרוֹ</he> … <he>מלאך וכ׳</he> Moses’ parents saw that he looked like an angel of God.—<he>יפת ת׳</he>, v. <cite ref=\"J00500\"><he>יָפֶה</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:19\">Y. Ber. V, 9ᵃ</cite> bot., v. <cite ref=\"H00121\"><he>חֲבֵרוּת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:1:7\">Y. Sabb. VI, 7ᵈ</cite> bot. <he>בשיש עליהן ת׳ כלי</he> when they bear the attribute of (are classified among) vessels; <cite ref=\"Jerusalem Talmud Beitzah 1:12:4\">Y. Bets. I, end, 61ᵃ</cite>; (Bab. ",
+				"<cite ref=\"Beitzah 10a:3\">ib. 10ᵃ</cite> <he>תורת כלי</he>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:7:2\">Y. Sabb. VIII, end, 11ᶜ</cite> <he>אין עליו ת׳ כלי</he> it does not pass by the name of a vessel; a. e.—Pl. <he>תָּאֳרִים</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:10:1\">Cant. R. to I, 10</cite> (play on <he>בתורים</he>, <cite ref=\"Shir HaShirim Rabbah 1:10:1\">ib.</cite>) <he>בשני ת׳ … שתּוֹאֲרָן טובה</he> (!)<he>וכ׳</he> with two countenances, with two brothers, Moses and Aaron, who looked at each other in friendliness, each rejoicing in the other’s greatness."
+			]
+		}
+	]
+}

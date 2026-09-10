@@ -1,0 +1,24 @@
+{
+	"id": "V00010",
+	"slug": "תאו-1",
+	"headword": {
+		"text": "תְּאוֹ"
+	},
+	"page": {
+		"number": 1641,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>wild ox</i> (?). ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 1:9\">Tosef. Kil. I, 9</cite> <he>זה ת׳ האמור בתורה</he> this (the <he>שור הבר</he>) is the <i>t’o</i> of the Torah (<cite ref=\"Deuteronomy 14:5\">Deut. XIV, 5</cite>). ",
+				"<cite ref=\"Deuteronomy 14:5\">Ib.</cite> <he>וחכמים אומרים ת׳ ביריא וכ׳</he> but the wise men say, <i>t’o</i> and wild ox are two different creatures. ",
+				"<cite ref=\"Chullin 80a:20\">Ḥull. 80ᵃ</cite> <he>מינא דת׳</he> a subspecies of <i>t’o</i>"
+			]
+		}
+	]
+}

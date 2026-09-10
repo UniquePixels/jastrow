@@ -1,0 +1,74 @@
+{
+	"id": "T01149",
+	"slug": "רתת-2",
+	"headword": {
+		"text": "רְתֵת"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְתֵית"
+		}
+	],
+	"page": {
+		"number": 1504,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T01148\">same</cite> <cite ref=\"Aramaic Targum to Esther 5:9\">Targ. Esth. V, 9</cite> (h. text <cite ref=\"G00584\"><he>זע</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 33:8\">Targ. Ps. XXXIII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 96:9\">Ib. XCVI, 9</cite> <he>רְתוֹתוּ</he> ed. Lag. (ed. Wil. <he>רְתִתוּ</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 77:17\">Ib. LXXVII, 17</cite> <he>רְתִיתוּן</he> ed. Lag. (ed. Wil. <he>רְתַתּוּן</he>); a. fr.—",
+				"<cite ref=\"Bava Batra 167a:7\">B. Bath. 167ᵃ</cite> <he>דרְתִיתָא ידיה</he> Rashb. whose hand trembled (ed. <he>דרָתֵית ידיה</he>, Ms. R. <he>דמִירְתַת</he> who trembled with his hand)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַתֵּת"],
+			"senses": [
+				{
+					"gloss": "<i>to shake, frighten</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 4:10\">Targ. Job IV, 10</cite> <he>מְרַתְּתִין כרכיא וכ׳</he> Ms. (ed. Lag. <he>מריתיתין</he>, corr. acc., or <he>מַרְתִּיתִין</he> <i>Af.</i>; ed. Wil. a. oth. <he>מרתיהין כרביא</he>, <he>כדביא</he>, corr. acc.) frighten cities with their robberies."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַרְתֵּית"],
+			"senses": [
+				{
+					"gloss": "<i>to tremble</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 21:34\">Targ. Y. I Num. XXI, 34</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to frighten</i>, v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִירְתַת"],
+			"senses": [
+				{
+					"gloss": "<i>to shake, be frightened, afraid</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 96a\">Ḥull. 96ᵃ</cite> <he>א׳ נפל וכ׳</he> he was frightened, and the knife fell out of his hand. ",
+						"<cite ref=\"Chullin 96a:8\">Ib.</cite> <he>לא תִירְתַת</he> be not alarmed. ",
+						"<cite ref=\"Avodah Zarah 22b:6\">Ab. Zar. 22ᵇ</cite> <he>אינהו … מִירְתְּתֵי אנן … לא מִרְתְּתֵי</he> they (the gentiles) who know one another’s ways are afraid (lest they be watched); of us who know not their habits, they are not afraid. ",
+						"<cite ref=\"Avodah Zarah 22b:7\">Ib.</cite> <he>מִירְתְּתָא</he> she is afraid. B. Bath. l. c., v. supra."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

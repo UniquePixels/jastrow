@@ -1,0 +1,23 @@
+{
+	"id": "C01247",
+	"slug": "גרגים",
+	"headword": {
+		"text": "גְּרָגִים"
+	},
+	"page": {
+		"number": 264,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"C01246\">preced. art.</cite> a. <cite ref=\"C00479\"><he>גּוּרְגָּא</he></cite>) <i>nets, filters</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 5:25\">Tosef. Kil. V, 25</cite> ed. Zuck., v. <cite ref=\"A01732\"><he>אכסלית</he></cite>."
+			]
+		}
+	]
+}

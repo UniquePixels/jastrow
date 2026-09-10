@@ -1,0 +1,30 @@
+{
+	"id": "A01136",
+	"slug": "איבריה",
+	"headword": {
+		"text": "אִיבְרָיָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 44,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01237\"><he>ברי</he></cite>, v. <cite ref=\"E00189\"><he>הוֹבְרָיָיא</he></cite>) <i>a meal</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 84a:6\">B. Mets. 84ᵃ</cite> <he>א׳ דר׳ וכ׳</he> one meal of R. Ismael &c. (v. Rabb. D. S. to <cite ref=\"A01135\"><he>איבריאתא</he></cite>, <cite ref=\"Eruvin 82b\">Erub. 82ᵇ</cite>, note "
+			]
+		},
+		{
+			"gloss": "; cmp. Pesik. B’shall. p. 90ᵇ sq., a. ",
+			"units": [
+				"<cite ref=\"Berakhot 44a\">Ber. 44ᵃ</cite>). [Some read <cite ref=\"A01136\"><he>אֵיבָרֵיה</he></cite> v. <cite ref=\"A01133\"><he>אֵיבָרָא</he></cite> 2).]"
+			],
+			"label": "1"
+		}
+	]
+}

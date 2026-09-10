@@ -1,0 +1,30 @@
+{
+	"id": "H01389",
+	"slug": "חסירותא",
+	"headword": {
+		"text": "חַסִּירוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲסֵירוּ׳"
+		},
+		{
+			"text": "חַסְרוּ׳"
+		}
+	],
+	"page": {
+		"number": 487,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01388\">preced.</cite>) <i>want, absence</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:48\">Targ. O. Deut. XXVIII, 48</cite>; a. e.—V. <cite ref=\"H00417\"><he>חוּסְרָנָא</he></cite>."
+			]
+		}
+	]
+}

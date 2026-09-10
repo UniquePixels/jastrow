@@ -1,0 +1,44 @@
+{
+	"id": "G00487",
+	"slug": "זלח-1",
+	"headword": {
+		"text": "זָלַח"
+	},
+	"page": {
+		"number": 401,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>זלג</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to drip, be wet</i>. Y. B. Mets. VI, beg. 10ᵈ <he>שדהו זָלְחָה</he> his field was too wet (for work).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to sprinkle</i> aromatic fluids. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13</cite>, beg. <he>מכבדות וזולחות וכ׳</he> (not <he>וזוחלות</he>) the winds sweep and sprinkle all the perfumes &c.; <cite ref=\"Yalkut Shimoni on Nach 988:37\">Yalk. Cant. 988</cite> <he>זולחת ומכבדת</he>, read: <he>מכ׳ וזוֹחֶלֶת</he>; cmp. <cite ref=\"G00480\"><he>זְלוֹחָאָה</he></cite>.—",
+				"<cite ref=\"Tosefta Shekalim 1:12\">Tosef. Shek. I, 12</cite> <he>יִזְלַח לו זֶלַח וכ׳</he> (or <he>יְזַלֵּחַ</he>) one may use it for sprinkling before his bier (Y. ib. II, 47ᵃ top <he>יעשה לו זלוף</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִילֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to sprinkle</i> the floor for cooling or perfuming the air. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 16:4\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:3\">XVII</cite>), 3 <he>אין מְזַלְּחִין את הבית וכ׳</he> (not <he>החבית</he>) one must not (on the Sabbath) sprinkle the house with any kind of sprinkling fluids."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

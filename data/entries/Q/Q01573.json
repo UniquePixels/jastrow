@@ -1,0 +1,69 @@
+{
+	"id": "Q01573",
+	"slug": "פרד-2",
+	"headword": {
+		"text": "פְּרַד"
+	},
+	"page": {
+		"number": 1215,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01572\">same</cite>, <i>to separate, scatter</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:24\">Targ. Prov. XI, 24</cite> (ed. Wil. <cite ref=\"Q02017\"><he>פָּרֵר</he></cite>, corr. acc.; h. text <he>מפזר</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 58:6\">Targ. Is. LVIII, 6</cite>.—<i>Part. pass.</i> <he>פָּרִיד</he>; f. <cite ref=\"Q01789\"><he>פָּרִידָא</he></cite> <i>driven off</i>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 4:16\">Targ. Prov. IV, 16</cite>.—V. <cite ref=\"Q01792\"><he>פְּרִידְתָּא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פָּרֵד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01572\">same</cite>. <i>Part. pass.</i> <he>מְפָרַד</he> <i>driven off, chased</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 13:14\">Targ. Is. XIII, 14</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְרֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to make unsteady, bewilder</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 7:10\">Targ. Prov. VII, 10</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפְּרַד", "אִיפְּרִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be chased off; to flee</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 31:40\">Targ. Y. Gen. XXXI, 40</cite>.—",
+						"<cite ref=\"Menachot 43a:1\">Men. 43ᵃ</cite> <he>איפרד חזותיה</he> (read <he>אִיפְרְדָא</he>) its color fled (faded)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be scattered, spread</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 41:9\">Targ. Job XLI, 9</cite> (Ms. <he>מתפרש׳</he>).—",
+						"<cite ref=\"Sukkah 32a:5\">Succ. 32ᵃ</cite> (expl. <he>נפרדו</he>, v. <cite ref=\"Q01572\">preced.</cite>) <he>דאִיפְּרוּד אִפָּרוּדֵי</he> the leaves are spread."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

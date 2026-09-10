@@ -1,0 +1,38 @@
+{
+	"id": "U01250",
+	"slug": "שלולית",
+	"headword": {
+		"text": "שְׁלוּלִית"
+	},
+	"page": {
+		"number": 1579,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שָׁלַל</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pool, pond, rivulet</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 2:1\">Peah II, 1</cite> <he>הנחל והש׳</he> a brook or a pool; <cite ref=\"Bava Batra 55a\">B. Bath. 55ᵃ</cite>; <cite ref=\"Bava Kamma 61a:15\">B. Kam. 61ᵃ</cite>, expl. ",
+				"<cite ref=\"Bava Kamma 61a:15\">ib.</cite> <he>מקום … שוללין שם</he> a place where the rain makes booty (inroads); oth. expl. <he>אמת המים שמחלקת שלל וכ׳</he> a water arm which imparts &c., v. <cite ref=\"A00332\"><he>אֲגַף</he></cite>; <cite ref=\"Menachot 71b\">Men. 71ᵇ</cite>; Sifra K’dosh. Par. 1, ch. II. ",
+				"<cite ref=\"Tosefta Bava Kamma 6:23\">Tosef. B. Kam. VI, 23</cite>; Y. ib. VI, end, 5ᶜ; Bab. ",
+				"<cite ref=\"Bava Kamma 61a:10\">ib. 61ᵃ</cite> <he>עברה נהר או ש׳ וכ׳</he> if the fire crosses a river or a pool eight cubits wide."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>deposit after inundation, alluvium</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 21b:3\">B. Mets. 21ᵇ</cite> <he>בשְׁלוּלִיתוֹ של נהר</he>, v. <cite ref=\"G00156\"><he>זֶוֶט</he></cite>; <cite ref=\"Tosefta Bava Metzia 2:2\">Tosef. ib. II, 2</cite> <he>משלוליתו של ים ומשׁלוליתו של נהר</he> (Var. <he>משניתו … ומשניתו</he>) from the deposits of the tide or &c. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 10:2:2\">Y. B. Kam. X, 7ᵇ</cite> bot. <he>משְׁלִילִית</he>, v. <cite ref=\"U01580\"><he>שְׁנוּנִית</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

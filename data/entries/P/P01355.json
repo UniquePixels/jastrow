@@ -1,0 +1,32 @@
+{
+	"id": "P01355",
+	"slug": "עריין",
+	"headword": {
+		"text": "עֵרָיִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵי׳"
+		},
+		{
+			"text": "עֵירָאִין"
+		}
+	],
+	"page": {
+		"number": 1117,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>עָרָה</he> II) [<i>stirrers</i>,] <i>iron-tipped ploughshare</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 21:2\">Kel. XXI, 2</cite>; [Maim. ed. Dehr. = Arab. <i>ʿalâḳath</i> lorum, <i>goad</i>?]. ",
+				"<cite ref=\"Tosefta Keilim Metsia 4:6\">Tosef. Kel. B. Mets. IV, 6</cite> <cite ref=\"P01414\"><he>עֲרָעִין</he></cite> (R. S. to Kel. l. c. <cite ref=\"P01425\"><he>ערערין</he></cite>)."
+			]
+		}
+	]
+}

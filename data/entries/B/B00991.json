@@ -1,0 +1,27 @@
+{
+	"id": "B00991",
+	"slug": "בסימא",
+	"headword": {
+		"text": "בְּסִימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּסְמָא"
+		}
+	],
+	"page": {
+		"number": 178,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00990\">preced.</cite>2) <i>fermenting wine, wine turned into vinegar</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 3:14\">Lam. R. to III, 40</cite> <he>אין דעולית׳ מרירן בסימא חמיע</he> Ar. (ed. <he>אית כרנבי ב׳ דסימא חמיע</he>; read <he>אין דכר׳</he>, strike out <he>דסימא</he>) when the endive (the cabbage) is bitter, the fermenting wine turns sour (sin begets sin). Cant. R. end, if the vineyard is cut before its time, <he>אפי׳ בִסְמֵיה וכ׳</he> even its vinegar is not good."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "V00826",
+	"slug": "תפל-2",
+	"headword": {
+		"text": "תְּפַל"
+	},
+	"page": {
+		"number": 1686,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00825\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתַּפַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to talk irreverently</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 1:1\">Targ. O. Deut. I, 1</cite> (h. text <he>תֹּפֶל</he>, v. <cite ref=\"V00825\">preced.</cite>; Y. I <he>טפל׳</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

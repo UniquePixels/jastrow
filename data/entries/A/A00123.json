@@ -1,0 +1,30 @@
+{
+	"id": "A00123",
+	"slug": "אביי-1",
+	"headword": {
+		"text": "אַבַּיִּי"
+	},
+	"page": {
+		"number": 6,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Abbayi</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a renowned Babyl. Amora (original name <cite ref=\"N00511\"><he>נַחְמֵנִי</he></cite>). ",
+			"units": ["<cite ref=\"Ketubot 65a:5\">Keth. 65ᵃ</cite>; a. fr."],
+			"label": "1"
+		},
+		{
+			"gloss": " Oth. Amoraim of that name. Ib. 94ᵃ. ",
+			"units": ["<cite ref=\"Eruvin 62a:3\">Erub. 62ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

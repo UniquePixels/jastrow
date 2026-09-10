@@ -1,0 +1,23 @@
+{
+	"id": "A02992",
+	"slug": "ארגמן",
+	"headword": {
+		"text": "אַרְגָּמָן"
+	},
+	"page": {
+		"number": 115,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.); <i>purple-dye, purple garment</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 90a:7\">Sabb. 90ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Kelim 27:12\">Kel. XXVII, 12</cite>; a. fr.; cmp. <cite ref=\"A02981\"><he>אַרְגְּוָון</he></cite>."
+			]
+		}
+	]
+}

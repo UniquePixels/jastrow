@@ -1,0 +1,33 @@
+{
+	"id": "P00488",
+	"slug": "עיבא-1",
+	"headword": {
+		"text": "עֵיבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָבָא"
+		}
+	],
+	"page": {
+		"number": 1065,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00487\">preced.</cite>) = h. <cite ref=\"P00007\"><he>עָב</he></cite>, <i>thickness, darkness, cloud</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 19:9\">Targ. Ex. XIX, 9</cite> (Y. some ed. <he>עִיכָּא</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 30:15\">Targ. Job XXX, 15</cite> (ed. Lag. a. oth. <he>עבא</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 44:22\">Targ. Is. XLIV, 22</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 59a\">Ber. 59ᵃ</cite> <he>דאתא בע׳</he> Ms. M. (ed. <he>דקטר</he>, v. Rabb. D. S. a. l. note) when it (the morning) comes with a heavy cloud, opp. <he>עננא</he>. ",
+				"<cite ref=\"Taanit 3b:11\">Taan. 3ᵇ</cite> <he>ע׳ דבתר מיטרא כמיטרא</he> a covered sky after the rain is as beneficial as the rain itself. ",
+				"<cite ref=\"Taanit 20b:11\">Ib. 20ᵇ</cite> <he>כל יומא דע׳</he> on every cloudy day (when heavy rains were threatening). ",
+				"<cite ref=\"Yoma 28b:14\">Yoma 28ᵇ</cite> <he>יומא דע׳ כוליה שמשא</he> on a cloudy day the sun is felt all over; a. fr."
+			]
+		}
+	]
+}

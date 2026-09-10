@@ -1,0 +1,27 @@
+{
+	"id": "O00789",
+	"slug": "סיפוק-2",
+	"headword": {
+		"text": "סִיפּוּק",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סִפּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 985,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סָפַק</he> II) <i>sufficiency, adequate power; supply</i>. Mekh. B’shall., Vayassʿa, s. 3 <he>אין ס׳ בידו וכ׳</he> (ed. Fr. <cite ref=\"O01406\"><he>סֵפֶק</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 259:1\">Yalk. Ex. 259</cite> <he>ספיקא</he>) he has not enough power to give it to us. Tanḥ. Lekh 5 <he>ס׳ הרבה לחם וכ׳</he> a large supply of bread and meat.",
+			"units": []
+		}
+	]
+}

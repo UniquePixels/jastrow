@@ -1,0 +1,24 @@
+{
+	"id": "A01910",
+	"slug": "אלמא-4",
+	"headword": {
+		"text": "אַלָּמָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַלָּמָּה"
+		}
+	],
+	"page": {
+		"number": 71,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>על למה</he>) <i>why?, wherefore?</i> <cite ref=\"Eruvin 3a:4\">Erub. 3ᵃ</cite> <he>אלמא אמר וכ׳</he> why did R. … say &c.?—",
+			"units": [
+				"<cite ref=\"Yoma 2b:6\">Yoma 2ᵇ</cite> <he>אלמה לא ניבעי וכ׳</he> why should separation not be required &c.?; a. fr."
+			]
+		}
+	]
+}

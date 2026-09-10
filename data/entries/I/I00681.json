@@ -1,0 +1,43 @@
+{
+	"id": "I00681",
+	"slug": "טפש-1",
+	"headword": {
+		"text": "טָפַשׁ"
+	},
+	"page": {
+		"number": 548,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be covered with fat; to be inaccessible, dull, obdurate, stupid</i> (cmp. Lat. pinguis).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִטַּפֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to grow dull</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 63b:12\">Ber. 63ᵇ</cite> <he>מִטַּפְּשִׁים</he> they become dull; <cite ref=\"Taanit 7a\">Taan. 7ᵃ</cite>; <cite ref=\"Makkot 10a\">Macc. 10ᵃ</cite> "
+					]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["טוּפָּשׁ"],
+			"senses": [
+				{
+					"gloss": ", part. <he>מְטוּפָּשׁ</he> (denom. of <cite ref=\"I00683\"><he>טִפֵּשׁ</he></cite>) <i>decried as a fool, made sport of</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 309\">Sifré Deut. 309</cite>; <cite ref=\"Yalkut Shimoni on Torah 942\">Yalk. ib. 942</cite> (corresp. to <cite ref=\"N00091\"><he>נבל</he></cite> a. <he>לא חכם</he>, <cite ref=\"Deuteronomy 32:6\">Deut. XXXII, 6</cite>) <he>מנוולים ומְטוּפָּשִׁים</he> disgraced and ridiculed as fools."
+					]
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

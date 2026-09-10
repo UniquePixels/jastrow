@@ -1,0 +1,28 @@
+{
+	"id": "O00052",
+	"slug": "סביא",
+	"headword": {
+		"text": "סַבְיָא"
+	},
+	"page": {
+		"number": 949,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>old</i>, v. <cite ref=\"O00026\"><he>סָב</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>officer of the royal household</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 9:18:3\">Koh. R. to IX, 18</cite> (expl. <he>המזכיר</he>, <cite ref=\"II Kings 18:18\">II Kings XVIII, 18</cite>) <he>ס׳</he> (some ed. <cite ref=\"O00895\"><he>סַכְיָא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

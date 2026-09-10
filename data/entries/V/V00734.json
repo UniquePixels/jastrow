@@ -1,0 +1,32 @@
+{
+	"id": "V00734",
+	"slug": "תנח-1",
+	"headword": {
+		"text": "תָּנַח",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1680,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"N00340\"><he>נוּח</he></cite>; cmp. <cite ref=\"V01011\"><he>תָּרַם</he></cite>) <i>to be at ease</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְנִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to set at ease</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 30b:20\">Snh. 30ᵇ</cite> <he>שהִתְנַחְתָּ</he> (Ms. M. <he>שהנחת</he>, v. Rabb. D. S. a. l. note), v. <cite ref=\"N00340\"><he>נוּחַ</he></cite> h."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

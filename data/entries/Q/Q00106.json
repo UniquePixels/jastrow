@@ -1,0 +1,24 @@
+{
+	"id": "Q00106",
+	"slug": "פדאמי",
+	"headword": {
+		"text": "פְּדָאמֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1136,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Pers.-Arab. <i>fadâm</i>, v. Fl. to Levy Talm. Dict. IV, p. 225ᵇ) <i>pieces of cloth with which the face is covered</i>, a sort of <i>masks, bandages</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 66b\">Sabb. 66ᵇ</cite> (expl. <cite ref=\"A02291\"><he>לוקטמין</he></cite>, <cite ref=\"A02291\"><he>אנקטמין</he></cite>) <he>פ׳</he> Ar. (ed. <he>פרמי</he>; Ms. O. a. Alf. <he>פראמי</he>), v. <cite ref=\"Q00356\"><he>פּוּרְמָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "P00051",
+	"slug": "עבירה-1",
+	"headword": {
+		"text": "עֲבִירָה"
+	},
+	"page": {
+		"number": 1038,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00059\"><he>עָבַר</he></cite>) <i>passing by</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:3:4\">Y. Erub. I, 19ᵃ</cite> top <he>כדי עֲבִירַת אדם</he> as much space as is required for a person to pass."
+			]
+		}
+	]
+}

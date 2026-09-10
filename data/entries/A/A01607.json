@@ -1,0 +1,22 @@
+{
+	"id": "A01607",
+	"slug": "אירוע",
+	"headword": {
+		"text": "אִירוּעַ"
+	},
+	"page": {
+		"number": 60,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A03216\"><he>ארע</he></cite>) <i>meeting, festive gathering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 29:35\">Targ. Y. Num. XXIX, 35</cite> (= h. <cite ref=\"M02452\"><he>מִקְרָא</he></cite>)."
+			]
+		}
+	]
+}

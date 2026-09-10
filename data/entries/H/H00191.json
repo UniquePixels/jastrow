@@ -1,0 +1,36 @@
+{
+	"id": "H00191",
+	"slug": "חדיא-1",
+	"headword": {
+		"text": "חַדְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַדְיָיא",
+			"homograph": 1
+		},
+		{
+			"text": "חָדְ׳"
+		}
+	],
+	"page": {
+		"number": 426,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <i>bright, clean, glossy</i>.—Pl. <he>חַדְיֵין</he>, <he>חַדְיֵי</he>, f. <he>חָדְיָן</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:24\">Targ. Prov. XVII, 24</cite> (Var. <cite ref=\"H01573\"><he>חרין</he></cite>, incorr.).—Y. Snh. IV, 23ᶜ bot. <he>לבושי מאנין נקיים חדי</he> (read: <he>נקיי וחדיי</he>) dressed in clean and glossy garments (in spite of the rain, v. Rashi to <cite ref=\"Sanhedrin 44b:8\">Snh. 44ᵇ</cite>); <cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 78ᵃ</cite> top <he>הווי עמכין חדיי</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>merry, noisy</i>.—<i>Fem.</i> <cite ref=\"H00189\"><he>חַדְיְתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 289:1\">Yalk. Is. 289</cite> (transl. <he>עליזה</he>, <cite ref=\"Isaiah 22:2\">Is. XXII, 2</cite>), v. <cite ref=\"H00173\"><he>חֲדָאָה</he></cite> a. <cite ref=\"D00409\"><he>דַּחְיָיא</he></cite>.—Pl. <he>חַדְיֵי</he> (abstr. noun) <i>joy</i>. Targ. II Esth. I, 2 (3), opp. <cite ref=\"N00942\"><he>נְסִיס</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

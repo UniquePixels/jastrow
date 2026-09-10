@@ -1,0 +1,34 @@
+{
+	"id": "N01268",
+	"slug": "נרדשיר",
+	"headword": {
+		"text": "נַרְדְּשִׁיר"
+	},
+	"page": {
+		"number": 936,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. a. Arab. <i>nard</i>, also <i>nardshir</i>) <i>Nardshir</i>, name of a game, <i>checkers</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 61b\">Keth. 61ᵇ</cite> Ar. (ed. <he>נדר׳</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נ"],
+			"senses": [
+				{
+					"gloss": "<he>רווד</he>, <cite ref=\"Mishnah Negaim 7:4\">Neg. VII, 4</cite> Ar. (ed. <he>גדווד</he>, ed. Dehr. <cite ref=\"N00216\"><he>נדוד</he></cite>) pr. n. pl., prob. a corrupt fragment of <he>בְּרוּנְדִּיסִין</he> <i>Brundisium</i>, v. <cite ref=\"B00822\"><he>בלדרסין</he></cite>.—[Ohol. VI, 1 Ar., v. <cite ref=\"N00207\"><he>נִדְבָּךְ</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "."
+		}
+	]
+}

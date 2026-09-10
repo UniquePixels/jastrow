@@ -1,0 +1,23 @@
+{
+	"id": "A01653",
+	"slug": "איתם",
+	"headword": {
+		"text": "אִיתָּם",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 61,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יתם</he>; v. <cite ref=\"A01109\"><he>אִי־</he></cite>) <i>orphan</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 10:14\">Targ. Ps. X, 14</cite>; <cite ref=\"Job 31:17\">Job XXXI, 17</cite> Ms. (ed. <he>יתם</he>)."
+			]
+		}
+	]
+}

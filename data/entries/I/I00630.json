@@ -1,0 +1,23 @@
+{
+	"id": "I00630",
+	"slug": "טפוחא-2",
+	"headword": {
+		"text": "טָפוֹחָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 545,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"I00629\">preced.</cite>) <i>knocker, one who by rapping at the wall discovers hidden treasures</i>.—Pl. <he>טְפוֹחָאֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 42a:7\">B. Mets. 42ᵃ</cite>; cmp. <cite ref=\"C01413\"><he>גָּשׁוֹשָׁא</he></cite>."
+			]
+		}
+	]
+}

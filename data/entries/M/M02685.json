@@ -1,0 +1,34 @@
+{
+	"id": "M02685",
+	"slug": "מרירו",
+	"headword": {
+		"text": "מְרִירוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרִירוּתָא"
+		}
+	],
+	"page": {
+		"number": 843,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02684\">same</cite><i>bitterness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 14:10\">Targ. Prov. XIV, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 75:9\">Targ. Ps. LXXV, 9</cite> ed. Lag. (oth. ed. <cite ref=\"M02779\"><he>מְרִרְתָּא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Esther 4:1\">Targ. Esth. IV, 1</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>curse</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 5:24\">Targ. O. Num. V, 24</cite>; <cite ref=\"Onkelos Numbers 5:27\">27</cite> (Ms. I, III <cite ref=\"M02776\"><he>מְרָר</he></cite>; ed. Berl. a. Y. <cite ref=\"L00240\"><he>לְוָט</he></cite>; h. text <cite ref=\"M02671\"><he>מָרִים</he></cite>); v. <cite ref=\"M02684\">preced.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

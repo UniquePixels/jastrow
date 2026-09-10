@@ -1,0 +1,22 @@
+{
+	"id": "S00997",
+	"slug": "קילתא-1",
+	"headword": {
+		"text": "קִילְתָּא"
+	},
+	"page": {
+		"number": 1361,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"S00951\"><he>קִיל</he> II</cite>) <i>a light case</i> (cmp. <cite ref=\"S00316\"><he>קוּלָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Nazir 20b:1\">Naz. 20ᵇ</cite> <he>השתא … ק׳ לא אמר</he> would you say, in a heavier case (when two sets of witnesses differ as to numbers) Rab said (that this is not contradictory evidence), but in a lighter case (one witness against one), he did not say the same?"
+			]
+		}
+	]
+}

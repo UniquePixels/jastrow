@@ -1,0 +1,37 @@
+{
+	"id": "I00827",
+	"slug": "טריתא",
+	"headword": {
+		"text": "טָרִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טָרִי"
+		}
+	],
+	"page": {
+		"number": 554,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"I00826\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:3:4\">Y. Ned. VI, 39ᵈ</cite> top <he>זבין לי טרי וכ׳</he> (not <he>ליטרי</he>) sell me <i>tari</i>, and he sells him <i>tsaḥăna</i> (v. <cite ref=\"R00277\"><he>צַחֲנָא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:3:4\">Ib.</cite> <he>תמן … לט׳ וכ׳</he> (not <he>ליט׳</he>) there they call <i>taritha tsaḥăna</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A01106\"><he>אִטְּרִי</he></cite>) <i>a sort of pastry, fritters</i> &c. ",
+			"units": [
+				"<cite ref=\"Berakhot 37b:12\">Ber. 37ᵇ</cite>, v. <cite ref=\"E00664\"><he>הִנְדְּקָא</he></cite> a. <cite ref=\"C00087\"><he>גְּבִיל</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

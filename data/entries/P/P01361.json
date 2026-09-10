@@ -1,0 +1,31 @@
+{
+	"id": "P01361",
+	"slug": "ערים-2",
+	"headword": {
+		"text": "עָרִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲרִימָא"
+		}
+	],
+	"page": {
+		"number": 1117,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P01325\"><he>עָרוּם</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:1\">Targ. O. Gen. III, 1</cite> (some ed. <cite ref=\"P00893\"><he>עֲ׳</he></cite>; ed. Vien. <cite ref=\"H00917\"><he>חכים</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 12:23\">Targ. Prov. XII, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:15\">Ib. XIV, 15</cite> (ed. Lag. <cite ref=\"P01329\"><he>ערומתא</he></cite>, corr. acc.); a. fr.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 265\">Yalk. Jer. 265</cite>, v. <cite ref=\"P01325\"><he>עָרוּם</he></cite>.—Pl. <he>עֲרִימָאֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:18\">Targ. Prov. XIV, 18</cite> (some ed. <cite ref=\"P01327\"><he>ערומאי</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "O01465",
+	"slug": "סקות",
+	"headword": {
+		"text": "סָקוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1019,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"N00957\"><he>נָסַק</he></cite>) <i>fire-brands</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 18\">Mishp. 18</cite> <he>היו … כמו ס׳ מכבשן האש</he> their faces became black like brands out of a furnace."
+			]
+		}
+	]
+}

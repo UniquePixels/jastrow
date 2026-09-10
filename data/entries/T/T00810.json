@@ -1,0 +1,43 @@
+{
+	"id": "T00810",
+	"slug": "רמיא",
+	"headword": {
+		"text": "רַמְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַמְיָיא"
+		}
+	],
+	"page": {
+		"number": 1482,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00809\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lying</i>, v. <cite ref=\"T00809\">preced.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (<i>lying</i>) <i>idle, lax</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:4\">Targ. Prov. X, 4</cite> (ed. Lag. <cite ref=\"T00818\"><he>רַמְיָיה</he></cite>).—<i>Fem.</i> <cite ref=\"T00822\"><he>רְמִיתָא</he></cite> (<he>רמְיְיתָא</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 19:15\">Ib. XIX, 15</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"T00788\"><he>רַמַּאי</he></cite>) <i>deceiver</i>. Ib. XIV, 25.—[<cite ref=\"T00810\"><he>רָמַיָּא</he></cite>, <he>רָמַיָּיא</he>, pl. of <cite ref=\"T00783\"><he>רָמָא</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

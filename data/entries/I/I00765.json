@@ -1,0 +1,49 @@
+{
+	"id": "I00765",
+	"slug": "טרי-1",
+	"headword": {
+		"text": "טְרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְרָא"
+		}
+	],
+	"page": {
+		"number": 552,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to set in motion</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to shake</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 45b\">Ḥull. 45ᵇ</cite> <he>טַרְיֵיה לרישיה</he> shook his head constantly; [Ar.: he <i>bumped</i> his head, <i>shocked</i> his brain]. Ib. 51ᵃ, v. <cite ref=\"I00746\"><he>טְרַח</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to throw, cast; to squirt, drip</i>. ",
+			"units": [
+				"<cite ref=\"Tamid 32b:12\">Tam. 32ᵇ</cite> <he>ט׳ באפיה</he> sprinkled his face (with that water). ",
+				"<cite ref=\"Shabbat 108b\">Sabb. 108ᵇ</cite> <he>מהו למִטְרָא וכ׳</he> Ar. (ed. <he>למימשי</he>, Ms. O. <he>למישרא</he>, v. Rabb. D. S. a. l. note 8) is it permitted to drop some of this water into the eye?—",
+				"<cite ref=\"Vayikra Rabbah 25:5\">Lev. R. s. 25</cite> <he>יהי טָרֵי וכ׳</he> (not <he>טרו</he>) shall cast one fig in his face; <cite ref=\"Kohelet Rabbah 2:20:1\">Koh. R. to II, 20</cite> <he>יהא טריה</he> (read: <he>יהא טרי חד</he>). ",
+				"<cite ref=\"Taanit 24a:17\">Taan. 24ᵃ</cite> bot. <he>טַרְיוּהוּ מן גודא וכ׳</he> Ms. M. 2 (ed. <he>חבוטו</he>) throw him down from the elevation; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " Trnsf. <he>שקיל וטרי</he> [<i>to take up and throw back</i> a ball &c.,] <i>to hear and reply, to argue; to negotiate</i> (corresp. to h. <he>נשא ונתן</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 4:7\">Targ. Ruth IV, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 3:8\">Targ. Cant. III, 8</cite> <he>יטַרְיָן</he> (not <he>וטירן</he>; ed. Lag. <he>וטָארָן</he>).—",
+				"<cite ref=\"Bava Metzia 64a\">B. Mets. 64ᵃ</cite> <he>דלא ש׳ וט׳ בהדיה</he> with whom he was not accustomed to deal. ",
+				"<cite ref=\"Sotah 7b\">Sot. 7ᵇ</cite> <he>למישקל ולמִיטְרָא וכ׳</he> Ar. (ed. <he>ומטרח</he>, corr. acc.) to argue with &c.; a. fr.—V. <cite ref=\"I00727\"><he>טָרוּן</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

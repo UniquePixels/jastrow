@@ -1,0 +1,27 @@
+{
+	"id": "J00259",
+	"slug": "יזופתא",
+	"headword": {
+		"text": "יְזוּפְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְזִיפְ׳"
+		}
+	],
+	"page": {
+		"number": 572,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00263\"><he>יְזַף</he></cite>) <i>a loan</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 28b:8\">M. Kat. 28ᵇ</cite> (Ms. M. <cite ref=\"J00259\"><he>יְזִפְ׳</he></cite>, v. Rabb. D. S. a. l. note); v. <cite ref=\"A00586\"><he>אַוְורָא</he></cite>."
+			]
+		}
+	]
+}

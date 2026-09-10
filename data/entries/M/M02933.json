@@ -1,0 +1,24 @@
+{
+	"id": "M02933",
+	"slug": "משמרת-2",
+	"headword": {
+		"text": "מְשַׁמֶּרֶת"
+	},
+	"page": {
+		"number": 856,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שָׁמַר</he> <i>Pa.</i>) <i>filter, strainer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 20:1\">Sabb. XX, 1</cite> you may suspend (spread out) a strainer &c. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:19\">Y. Ter. VIII, 45ᵈ</cite> <he>המ׳ של יין</he> a strainer filled with wine; a. fr.—Trnsf. ",
+				"<cite ref=\"Pirkei Avot 5:15\">Ab. V, 15</cite> <he>מ׳</he> a scholar retaining what is useless and discarding the useful knowledge."
+			]
+		}
+	]
+}

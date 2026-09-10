@@ -1,0 +1,31 @@
+{
+	"id": "U01526",
+	"slug": "שמר-2",
+	"headword": {
+		"text": "שְׁמַר"
+	},
+	"page": {
+		"number": 1601,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00284\"><he>אִשְׁתַּמַּר</he></cite>, v. <cite ref=\"O01138\"><he>סְמַר</he> II</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 7:4\">Targ. Is. VII, 4</cite> some ed."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

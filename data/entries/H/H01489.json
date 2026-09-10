@@ -1,0 +1,35 @@
+{
+	"id": "H01489",
+	"slug": "חצב-1",
+	"headword": {
+		"text": "חָצַב"
+	},
+	"page": {
+		"number": 493,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H00591\"><he>חטב</he></cite>)<i>to cut, chisel, hew, shape</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Yoma 1:6\">Tosef. Yoma I, 6</cite> <he>כשהוא חוֹצֵב</he> engaged in stone-breaking; Sifra Emor ch. I, Par. 2; Tanḥ. Emor 4 <he>ח׳ אבנים</he>; <cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite> <he>ח׳ באבנים</he>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:6:4\">Y. M. Kat. I, 80ᵈ</cite> <he>לא יַחְצוֹב</he> one must not cut stones &c. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 854:3\">Yalk. Deut. 854</cite> <he>אתה חֲצוֹב וכ׳</he> chisel thou the tablets &c.; a. fr.—Part. pass. <cite ref=\"H01505\"><he>חָצוּב</he></cite>, f. <cite ref=\"H01508\"><he>חֲצוּבָה</he></cite>; pl. <he>חֲצוּבִים</he>, <he>חֲצוּבוֹת</he>. Y. M. Kat. l. c. Y. Shek. VI, 49ᵈ bot.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְצַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be hewn, chiselled</i>. Y. Yoma III, 40ᶜ bot. <he>בקודש יֵחָצֵבוּ</he> on sacred ground they must be chiselled.—Trnsf. (cmp. <he>גזר</he>) <i>to be decided, decreed</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 5:5\">Lev. R. s. 5</cite> (ref. to <cite ref=\"Isaiah 22:16\">Is. XXII, 16</cite>) <he>ממרום נ׳ עליו</he> from on high it has been decreed over him; <cite ref=\"Yalkut Shimoni on Nach 291\">Yalk. Is. 291</cite> <he>נֶחְצְבָה עליו גזירה</he>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

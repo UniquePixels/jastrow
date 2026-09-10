@@ -1,0 +1,23 @@
+{
+	"id": "M02950",
+	"slug": "משפו",
+	"headword": {
+		"text": "מִשְׁפּוּ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 857,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01734\"><he>שפי</he></cite>) <i>wine-sample</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 38:6\">Gen. R. s. 38</cite> (play on <cite ref=\"U01734\"><he>שפה</he></cite>, <cite ref=\"Genesis 11:1\">Gen. XI, 1</cite>) <he>הא מ׳ דכולא בישא</he> this sample (proves) that all the wine is bad, v. <cite ref=\"M02039\"><he>מִסְתְּיָא</he></cite>"
+			]
+		}
+	]
+}

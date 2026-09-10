@@ -1,0 +1,38 @@
+{
+	"id": "S01923",
+	"slug": "קרוא-1",
+	"headword": {
+		"text": "קִרְוָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִרְוָוא"
+		},
+		{
+			"text": "קִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1412,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S02039\"><he>קִרְיָה</he></cite>, <i>town, village</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 11:9\">Targ. Hos. XI, 9</cite>. ",
+				"<cite ref=\"Onkelos Exodus 20:10\">Targ. O. Ex. XX, 10</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:9\">Y. Taan. IV, 68ᵈ</cite> top <he>כל קירווא דהינן וכ׳</he> in every place that we came to, we found &c. ",
+				"<cite ref=\"Yoma 2a:7\">Ib.</cite> <he>כל קִירְיָיא דהוון וכ׳</he> in every place that they came to &c.—Pl. <he>קִרְוִין</he>, <cite ref=\"S01937\"><he>קִרְוַיָּא</he></cite>, <he>קִרְוו׳</he>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 13:28\">Targ. Num. XIII, 28</cite>. ",
+				"<cite ref=\"Onkelos Numbers 32:33\">Targ. O. ib. XXXII, 33</cite>; <cite ref=\"Onkelos Numbers 32:36\">36</cite> (Y. <he>קוֹרְיֵי</he>, <he>קוֹרְיָיהָא</he>, v. <cite ref=\"S02049\"><he>קִרְיָיא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:10\">Targ. Y. Ex. XX, 10</cite>; a. fr.—",
+				"<cite ref=\"Targum Jerusalem, Numbers 31:50\">Targ. Y. II, Num. XXXI, 50</cite> <he>קִרְוַיָּא דדהבא</he> (not <he>קוּרַיָּא</he>) golden forts (a female head-dress; cmp. <he>עיר של זהב</he>, v. <cite ref=\"J00618\"><he>יְרוּשְׁלֵם</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "T00170",
+	"slug": "רגועיתא",
+	"headword": {
+		"text": "רְגוֹעִיתָא"
+	},
+	"page": {
+		"number": 1447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f. (<he>רגע</he>) [<i>balance, rest</i>] <i>R’goʿitha</i>, legendary name of Esther’s maid for the seventh day of the week. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:9\">Targ. Esth. II, 9</cite>."
+			]
+		}
+	]
+}

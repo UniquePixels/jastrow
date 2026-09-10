@@ -1,0 +1,24 @@
+{
+	"id": "A03418",
+	"slug": "אתכותא",
+	"headword": {
+		"text": "אַתָּכוּתָא"
+	},
+	"page": {
+		"number": 133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01380\"><he>נתך</he></cite>) <i>smelting, casting</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:10\">Targ. Job XXXVII, 10</cite> (some ed. <cite ref=\"A01641\"><he>אִתָּ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 20:14\">Targ. Y. Lev. XX, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:24\">Targ. I Kings VII, 24</cite>."
+			]
+		}
+	]
+}

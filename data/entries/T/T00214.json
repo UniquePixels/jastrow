@@ -1,0 +1,25 @@
+{
+	"id": "T00214",
+	"slug": "רגמא",
+	"headword": {
+		"text": "רִגְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1449,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"T00211\"><he>רָגַם</he></cite>) <i>stone, missile</i>, <cite ref=\"Kiddushin 70b:9\">Kidd. 70ᵇ</cite> <he>שדיוה לההוא ר׳ מידיהו וכ׳</he> they dropped (every one) that stone (with which they had intended to pelt him) out of their hands, and a dam was formed &c.",
+			"units": []
+		}
+	]
+}

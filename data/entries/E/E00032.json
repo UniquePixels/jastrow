@@ -1,0 +1,29 @@
+{
+	"id": "E00032",
+	"slug": "הבו",
+	"headword": {
+		"text": "הָבוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר חָבוּ"
+		}
+	],
+	"page": {
+		"number": 329,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar Habu</i> (<i>Ḥabu</i>), a writer of T’fillin and M’zuzoth. ",
+			"units": [
+				"<cite ref=\"Berakhot 53b:11\">Ber. 53ᵇ</cite> <he>אדבי בר ח׳</he> Ms. M. (Ar. <he>ה׳</he>, ed. <cite ref=\"A00050\"><he>אבהו</he></cite>) over the lights in the house of Bar H.—",
+				"<cite ref=\"Megillah 18b:16\">Meg. 18ᵇ</cite> (v. Rabb. D. S. a. l. note 60). ",
+				"<cite ref=\"Bava Metzia 29b:9\">B. Mets. 29ᵇ</cite>"
+			]
+		}
+	]
+}

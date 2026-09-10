@@ -1,0 +1,33 @@
+{
+	"id": "S02112",
+	"slug": "קרס-2",
+	"headword": {
+		"text": "קְרַס"
+	},
+	"page": {
+		"number": 1423,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02111\">same</cite>; <i>part. pass</i>. <he>קְרִיס</he> <i>shrunk, dense</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:12\">Targ. Job VI, 12</cite> ed. Lag. (oth. ed. <he>קרים</he>, corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְרֵיס"],
+			"senses": [
+				{
+					"gloss": ", or <i>Ithpe.</i> <he>אִקְּרִיס</he> <i>to become sourish</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 30a\">Ab. Zar. 30ᵃ</cite> bot. <he>דאקריס</he> Ar. a. ed. Cost. a. Vien. (v. Rabb. D. S. a. l. note 1; ed. <he>דאקרים</he>); <cite ref=\"Bava Batra 95b\">B. Bath. 95ᵇ</cite> <he>דאיקריס</he> Ms. H. (v. Rabb. D. S. a. l. note 8; ed. <he>דאקרים</he>), v. <cite ref=\"S02088\"><he>קְרַם</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

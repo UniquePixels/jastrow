@@ -1,0 +1,24 @@
+{
+	"id": "A00728",
+	"slug": "אונה-2",
+	"headword": {
+		"text": "אוֹנָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 28,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A00717\"><he>אוֹן</he></cite>) <i>possession, title of possession, deed</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 79:7\">Gen. R. s. 79</cite> (ref. to the letters <cite ref=\"J00112\"><he>יה</he></cite> in <cite ref=\"S02246\"><he>קשיֹטהֹ</he></cite> <cite ref=\"Genesis 33:19\">Gen. XXXIII, 19</cite>) <he>יו״ד ה״א כותב הא׳ וכ׳</he> <i>Yod He</i> (i.e. the Lord) writes the deed; the Lord bears witness to the deed.—Pl. <he>אוֹנוֹת</he>. ",
+				"<cite ref=\"Bava Batra 52a:8\">B. Bath. 52ᵃ</cite> <he>א׳ ושטרות וכ׳</he> deeds of purchase and other documents were issued in his name."
+			]
+		}
+	]
+}

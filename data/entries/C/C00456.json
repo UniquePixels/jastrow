@@ -1,0 +1,57 @@
+{
+	"id": "C00456",
+	"slug": "גוף-2",
+	"headword": {
+		"text": "גּוּף"
+	},
+	"page": {
+		"number": 225,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00455\">same</cite><i>to close</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Malachi 1:10\">Targ. Mal. I, 10</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to embrace</i>,] <i>to have illegitimate intercourse, to commit adultery with</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 20:10\">Targ. O. Lev. XX, 10</cite> (Y. <cite ref=\"C00474\"><he>גוּר</he></cite>); a. e.—Part. <he>גָּיֵף</he>, <cite ref=\"C00712\"><he>גָּיְיפָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 4:2\">Targ. Hos. IV, 2</cite>; <cite ref=\"Targum Jonathan on Hosea 4:13\">13</cite>; a. e.—",
+				"<cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite>; <cite ref=\"Kohelet Rabbah 4:6\">Koh. R. to IV, 6</cite> (prov.) <he>ג׳ בחזורין וכ׳</he> (Ar. <cite ref=\"C00809\"><he>גָּיְרָא</he></cite>) she prostitutes herself for apples and distributes them among the sick (sinning and doing charity)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָגֵיף", "אַגֵּיף"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"C00456\"><he>אָגֵף</he></cite> <i>to close</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 13:17\">Targ. II Sam. XIII, 17</cite> <he>אִיגוֹף</he> ed. Lag. (ed. <cite ref=\"C00456\"><he>אָגֵיף</he></cite>) close thou &c. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 13:18\">Ib. 18</cite> <he>אגף</he> (ed. Lagarde (ed. <cite ref=\"C00456\"><he>אגיף</he></cite>); a. e.—",
+						"<cite ref=\"Bava Kamma 105a:12\">B. Kam. 105ᵃ</cite> <he>אגף חצייה</he> he closed half of the opening."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["גַּיֵּיף"],
+			"senses": [
+				{
+					"gloss": " as Pe. 2. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 4:14\">Targ. Hos. IV, 14</cite> <cite ref=\"M00204\"><he>מְגַיְּ׳</he></cite> (ed. Lag. <he>גייפן</he>).—V. <cite ref=\"C01212\"><he>גְּפַף</he></cite> a. <cite ref=\"C00475\"><he>גּוּר</he> II</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

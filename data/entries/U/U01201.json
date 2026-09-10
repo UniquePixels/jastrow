@@ -1,0 +1,32 @@
+{
+	"id": "U01201",
+	"slug": "שלב",
+	"headword": {
+		"text": "שְׁלַב"
+	},
+	"page": {
+		"number": 1577,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U01201\"><he>שַׁלֵּב</he></cite> (b. h. , v. <cite ref=\"L00039\"><he>לָבַב</he></cite>) <i>to join, fit in</i> with mortise and tenon. Part. pass. <he>מְשַׁלַּב</he>; pl. <he>מְשַׁלְּבִין</he>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 26:17\">Targ. O. Ex. XXVI, 17</cite>; <cite ref=\"Onkelos Exodus 36:22\">XXXVI, 22</cite>.—",
+						"<cite ref=\"Kiddushin 73b\">Kidd. 73ᵇ</cite> top <he>מְשַׁלְּבֵי הדמיה</he> R. Ḥan. (ed. <he>משלטי</he>) if the limbs (of the exposed infant) are set (v. <cite ref=\"P01091\"><he>עָצַב</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "M02509",
+	"slug": "מרג",
+	"headword": {
+		"text": "מְרַג"
+	},
+	"page": {
+		"number": 835,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to sway to and fro, vacillate</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַרֵיג"],
+			"senses": [
+				{
+					"gloss": "<i>to cause swaying</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 6:6\">Targ. II Sam. VI, 6</cite>; <cite ref=\"Targum of I Chronicles 13:9\">Targ. I Chr. XIII, 9</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְמְרֵיג"],
+			"senses": [
+				{
+					"gloss": "<i>to be swayed, become unsteady</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 19:5\">Targ. O. Deut. XIX, 5</cite> Regia a. oth. (ed. Berl. <he>תתמריך</he>, v. Berl. Targ. O. II, p. 55; h. text <cite ref=\"D00406\"><he>נדחה</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

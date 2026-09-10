@@ -1,0 +1,54 @@
+{
+	"id": "H01110",
+	"slug": "חלץ-2",
+	"headword": {
+		"text": "חֲלַץ"
+	},
+	"page": {
+		"number": 472,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01109\">same</cite><i>to take off, undress</i>. Part. pass. <cite ref=\"H01059\"><he>חָלִיץ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 6:20\">Targ. II Sam. VI, 20</cite>.—Lam. R. introd (R. Joh. 1) <he>חֲלִיצֵי מסאני</he> without shoes. ",
+				"<cite ref=\"Moed Katan 22b:6\">M. Kat. 22ᵇ</cite> <he>למִיחֲלַץ</he> to bare their shoulders."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to withdraw</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 102b:14\">Yeb. 102ᵇ</cite> <he>עמא דח׳ ליה … מיניה</he> a people from which its lord has withdrawn (with ref. to <he>חלץ מהם</he>, <cite ref=\"Hosea 5:6\">Hos. V, 6</cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to perform the rite of ḥălitsah;</i> v. infra.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַלֵּיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to perform or arrange the rite of ḥălitsah</i>. Ib. <he>לה אחין וכ׳</he> (or <he>דחלְצוּ</he>) <he>ואילו יבמה דחַלְּצוּ</he> suppose brothers would untie the shoe of their sister-in-law, would this be of any legal consequence? Ib.ᵃ <he>אנא לא הואי חַלִּיצְנָא וכ׳</he> I should not have allowed a <i>ḥălitsah</i> except &c.; a. fr.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to undress, strip</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 31:9\">Targ. I Sam. XXXI, 9</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 31:8\">Ib. 8</cite> (h. text <he>לפשט</he>); <cite ref=\"Targum Jonathan on I Kings 11:15\">Targ. I Kings XI, 15</cite> (h. text <he>לקבר</he>!)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

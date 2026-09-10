@@ -1,0 +1,29 @@
+{
+	"id": "Q01553",
+	"slug": "פרגול-1",
+	"headword": {
+		"text": "פַּרְגּוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְגָּל"
+		}
+	],
+	"page": {
+		"number": 1214,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (adaptation of flagellum, φραγέλλιον; cmp. <cite ref=\"Q01859\"><he>פַּרְכִּיל</he></cite>) <i>whip, scourge; young vine shoot</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite>, beg. (ref. to <cite ref=\"Zechariah 13:6\">Zech. XIII, 6</cite>) <he>מה לך לוקה בפ׳ וכ׳</he> why art thou whipped with the scourge? Because I made a Succah; Mekh. Yithro, Baḥod., s. 6 <he>מה לך לוקה מאה פ׳</he> (not <he>מאפ׳</he>) why art thou to get a hundred lashes?; <cite ref=\"Yalkut Shimoni on Torah 292:2\">Yalk. Ex. 292</cite>; <cite ref=\"Yalkut Shimoni on Nach 581\">Yalk. Zech. 581</cite>; <cite ref=\"Midrash Tehillim 12\">Midr. Till. to Ps. XII</cite>, end <he>מה לך יוצא לידקר בפוראגון</he> (ed. Bub. <he>מה לך לוקה בפרוגין</he>, corr. acc.). ",
+				"<cite ref=\"Tosefta Keilim Metsia 4:4\">Tosef. Kel. B. Mets. IV, 4</cite> <he>פ׳ שעשה בראשו וכ׳</he> a whip to the top of which a knob is attached to strike with it. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 5:1:5\">Y. B. Bath. V, beg. 15ᵃ</cite> <he>אם היה עשוי כמין פ׳</he> (not <cite ref=\"I00704\"><he>טרגול</he></cite>) if the young shoot of the olive tree has the shape of a vine shoot (hanging down and knotted)."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "Q02039",
+	"slug": "פרשתא",
+	"headword": {
+		"text": "פַּרְשְׁתָא"
+	},
+	"page": {
+		"number": 1244,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"Q02033\"><he>פָּרָשָׁה</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cross-road</i>, v. <cite ref=\"Q02037\"><he>פָּרָשׁוּתָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>interpretation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 17:18\">Targ. Y. Deut. XVII, 18</cite> <he>פַּרְשַׁת אורייתא</he> (not <cite ref=\"Q02027\"><he>פרשא</he></cite>; h. text <cite ref=\"M02939\"><he>משנה</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>section</i> of writing, <i>Parashah, weekly Scripture lesson</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 4a:9\">Meg. 4ᵃ</cite> (interpret. <he>ולשנותה</he>, <cite ref=\"Megillah 4a:9\">ib.</cite>) <he>כגון דאמרי אינשי אעבור פ׳ דא וכ׳</he> as people say, I will peruse this section and read it over again. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 8:1:6\">Y. Ned. VIII, beg. 40ᵈ</cite> <he>עד דניחסל פַּרְשְׁתִי</he> until I have finished my <i>parashah</i>; a. e.—Pl. <he>פַּרְשְׁיָיתָא</he> (fr. <he>פרשיתא</he>). ",
+				"<cite ref=\"Berakhot 8b:2\">Ber. 8ᵇ</cite>, v. <cite ref=\"K00691\"><he>כַּלָּה</he></cite>. ",
+				"<cite ref=\"Berakhot 8b:5\">Ib.</cite> <he>אשלימו פַּרְשְׁיוֹתַיְיכוּ וכ׳</he> (Hebraism. for <he>פַּרְשְׁיָיתַיְיכוּ</he>; Ms. M. <he>פַּרְשַׁיְיכוּ</he>), v. <cite ref=\"Q02033\"><he>פָּרָשָׁה</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

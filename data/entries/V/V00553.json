@@ -1,0 +1,46 @@
+{
+	"id": "V00553",
+	"slug": "תכף-1",
+	"headword": {
+		"text": "תָּכַף"
+	},
+	"page": {
+		"number": 1669,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>כפף</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to seize, join, bring into close contact</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 9:10\">Kil. IX, 10</cite> <he>התּוֹכֵף וכ׳</he>, v. <cite ref=\"V00534\"><he>תְּכִיפָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:30\">Y. Ber. I, 2ᵈ</cite> bot. <he>מי שהוא תוכף סמיכה וכ׳</he> he that performs the acts of putting on the hand and of slaughtering in immediate succession (usu. <cite ref=\"O01097\"><he>סָמַךְ</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to seize, catch, overtake</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 13b:4\">Taan. 13ᵇ</cite> <he>תְּכָפוּהוּ אבליו וכ׳</he>, v. <cite ref=\"A00157\"><he>אֵבֶל</he></cite>; <cite ref=\"Moed Katan 17b\">M. Kat. 17ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְכִּיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00552\">same</cite>, <i>to join</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite> (ref. to <cite ref=\"Isaiah 63:16\">Is. LXIII, 16</cite>) and where is Isaac? <he>מי … את מַתְכִּיפוֹ לאבות</he> he who said to him (Esau), decree persecutions over him,—wouldst thou join him to (include him with) the patriarchs?"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

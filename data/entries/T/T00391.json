@@ -1,0 +1,22 @@
+{
+	"id": "T00391",
+	"slug": "רומיא",
+	"headword": {
+		"text": "רוּמְיָא"
+	},
+	"page": {
+		"number": 1461,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00809\"><he>רְמֵי</he></cite>) <i>objection, argument</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 42a:15\">Men. 42ᵃ</cite> <he>והא מאי ר׳</he> Rashi (ed. <cite ref=\"T00811\"><he>רמיה</he></cite>) what argument is this?"
+			]
+		}
+	]
+}

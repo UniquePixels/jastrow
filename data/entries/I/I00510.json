@@ -1,0 +1,34 @@
+{
+	"id": "I00510",
+	"slug": "טלל-4",
+	"headword": {
+		"text": "טְלַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 537,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"I00162\"><he>טוּל</he> I</cite>), <i>Pa.</i> <cite ref=\"I00163\"><he>טַלֵּיל</he></cite>, <i>Af.</i> <cite ref=\"I00509\"><he>אַטְלֵיל</he></cite> <i>to play, sport</i>, <cite ref=\"Sukkah 53a:9\">Succ. 53ᵃ</cite> <he>לוי הוה מְטַלֵּל וכ׳</he> Ar. (ed. <he>מְטַיֵּיל</he>, v. Rabb. D. S. a. l. note 200) L. was sporting … with eight knives. ",
+			"units": [
+				"<cite ref=\"Bava Batra 91b:5\">B. Bath. 91ᵇ</cite> <he>נהירנא</he> … <he>מְטַלְּלִין וכ׳</he> Ar. (ed. <he>מטיילין</he>, Var. <he>מְטַלִּין</he> or <he>מַטְּלִין</he>, <he>מְטַלְּיָין</he>, v. Rabb. D. S. a. l. note 40) I remember that boys and girls enjoyed themselves &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיטְּלֵיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00509\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 21b:15\">Kidd. 21ᵇ</cite> <he>אִיטְּלַלִיתוּ</he>, v. <cite ref=\"A01499\"><he>איסְקוּנְדְּרֵי</he></cite>"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

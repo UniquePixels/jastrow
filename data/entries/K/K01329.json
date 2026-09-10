@@ -1,0 +1,25 @@
+{
+	"id": "K01329",
+	"slug": "כשרות",
+	"headword": {
+		"text": "כַּשְׁרוּת"
+	},
+	"page": {
+		"number": 678,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01324\"><he>כָּשֵׁר</he></cite>) <i>fitness, worthiness, legitimacy</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 57a:14\">Yeb. 57ᵃ</cite> (in Chald. diction) <he>כ׳ מיתוספא בה וכ׳</he> (by her mother being a native Jewess) has her fitness been increased (so that a priest may marry her) … or has her sanctity also been increased (so as to be subject to the restrictions placed upon a native Jewess, acc. to <cite ref=\"Deuteronomy 23:2\">Deut. XXIII, 2</cite>) and she may not eat T’rumah (when married to an impotent); [oth. opin.: <he>כ׳</he> <i>legal status</i>, Jewish citizenship; <cite ref=\"S00123\"><he>קדושה</he></cite> <i>fitness to marry a priest</i>, v. Rashi a. l.].—",
+				"<cite ref=\"Kiddushin 72b:11\">Kidd. 72ᵇ</cite> <he>כל ארצות בחזקת כ׳ וכ׳</he> the Jewish inhabitants of all countries (outside of Babylonia) are presumed to be of legitimate descent, opp. <cite ref=\"P00629\"><he>עִיסָה</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite> <he>בתחלה הבריות נוהגות בכ׳</he> formerly people conducted themselves morally, opp. <he>בעֲרָיוֹת</he>. ",
+				"<cite ref=\"Kohelet Rabbah 5:11\">Koh. R. to V, 11</cite> <he>יגע זה … בכַשְׁרוּתוֹ</he> (not <he>בכושרות</he>) this man in his zeal has accomplished more &c., v. <cite ref=\"J00088\"><he>יָגַע</he></cite>."
+			]
+		}
+	]
+}

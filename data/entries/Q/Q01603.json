@@ -1,0 +1,23 @@
+{
+	"id": "Q01603",
+	"slug": "פרהדרין",
+	"headword": {
+		"text": "פַּרְהֶדְרִין"
+	},
+	"page": {
+		"number": 1216,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (πάρεδροι) <i>assessors, counsellors</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 1:1\">Yoma I, 1</cite> (<cite ref=\"Yoma 2a:1\">2ᵃ</cite>) <he>לשכת פ׳</he> (Mish. ed. <cite ref=\"Q01005\"><he>פַּלְ׳</he></cite>, Y. ed. <cite ref=\"Q00837\"><he>פר׳</he></cite>) the counsellors’ cell, name of an apartment in the Temple precincts. Ib. 8ᵇ <he>בתחלה … כפ׳ הללו וכ׳</he> formerly it was called the senators’ cell <he>(בולווטי</he>), but when they began to pay money for (the higher offices of) the priesthood, and they were changed from year to year like the <i>parhedroi</i> who are appointed for one year, they named it &c.; Y. ib. I, 38ᶜ <he>עכשיו קורין אותה לשכת פלהדרין פראידתין</he> (read: <he>פראידרין</he>, a gloss) now they call it the cell of the <i>palhedrin</i> (<i>paredrin</i>). Bab. ib. 9ᵃ <he>מתוך שפ׳ הללו חובטין וכ׳</he> because those assessors (market commissioners) strike them (the bakers) and say, sell cheap &c. Ib. <he>מאי פ׳ וכ׳</he>, v. <cite ref=\"Q00369\"><he>פּוֹרָסָא</he></cite>."
+			]
+		}
+	]
+}

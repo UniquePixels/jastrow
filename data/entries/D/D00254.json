@@ -1,0 +1,23 @@
+{
+	"id": "D00254",
+	"slug": "דוכסוסטוס",
+	"headword": {
+		"text": "דּוּכְסוּסְטוֹס"
+	},
+	"page": {
+		"number": 285,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transpos. of δύσχιστος) <i>hard to split</i>, an inferior kind of <i>parchment</i>, opp. to <he>קלף</he>, a split parchment of superior quality. ",
+			"units": [
+				"<cite ref=\"Menachot 31b:10\">Men. 31ᵇ</cite>. ",
+				"<cite ref=\"Menachot 32b:1\">Ib. 32ᵇ</cite> sq.; <cite ref=\"Shabbat 79b:6\">Sabb. 79ᵇ</cite>; a. fr.—Pl. <he>דּוּכְסוּסְטִין</he>. Y. Sabb. VIII, 11ᵇ (not <he>טון …</he>)."
+			]
+		}
+	]
+}

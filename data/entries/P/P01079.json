@@ -1,0 +1,23 @@
+{
+	"id": "P01079",
+	"slug": "עפרורין",
+	"headword": {
+		"text": "עַפְרוּרִין"
+	},
+	"page": {
+		"number": 1100,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"P01078\">preced.</cite>) <he>ע׳ דדהבא</he> <i>gold-dust</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 28:6\">Targ. Job XXVIII, 6</cite> (ed. Lag. <cite ref=\"P01081\"><he>עפרותין</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

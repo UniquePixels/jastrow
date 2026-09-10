@@ -1,0 +1,24 @@
+{
+	"id": "O00953",
+	"slug": "סלבוניא",
+	"headword": {
+		"text": "סִלְבּוֹנַיָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 993,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>סלב</he>, dialect. for <cite ref=\"U01201\"><he>שלב</he></cite>) <i>braided bands</i> worn in the hair. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:4:4\">Y. Sabb. VI, 8ᵇ</cite> bot. (expl. <he>שבסים</he>, <cite ref=\"Isaiah 3:18\">Is. III, 18</cite>) <he>ס׳</he> Ar. (or Mus. s. v.; ed. <cite ref=\"U01287\"><he>שלטוניה</he></cite>, read <he>שִׁלְבּוֹנַ׳</he>; Ar. s. v. <cite ref=\"U00124\"><he>שביס</he></cite>: <cite ref=\"U01957\"><he>שרטטיא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "A01017",
+	"slug": "אחור",
+	"headword": {
+		"text": "אָחוֹר"
+	},
+	"page": {
+		"number": 39,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <he>חור</he> a. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>back, hind-part, buttock</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 8a:11\">Bekh. 8ᵃ</cite>; <cite ref=\"Bereishit Rabbah 20:3\">Gen. R. s. 20</cite>, beg.—Du. <he>אֲחוֹרַיִים</he> (Ar. <he>אחורים</he>). ",
+				"<cite ref=\"Pesachim 17b:9\">Pes. 17ᵇ</cite>, a. fr. <he>א׳ ותוך</he> the back (outside) and the inside of a vessel.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 5:2:3\">Y. Yoma V, 42ᶜ</cite> top <he>אֲחוֹרָיו לקדש</he> his back turned to the sanctuary.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:3\">Y. Pes. VI, 33ᵃ</cite> bot., a. fr. <he>מֵאֲחוֹרֵי</he> (prepos.) <i>behind</i>.—<cite ref=\"A01019\"><he>אֲחוֹרֵי</he></cite>, <he>לַאֲחוֹרֵי</he> same. ",
+				"<cite ref=\"Berakhot 61a:9\">Ber. 61ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>last</i>. Ib. (ref. to <cite ref=\"Psalms 139:5\">Ps. CXXXIX, 5</cite>) <he>א׳ למעשה וכ׳</he> the last of all things created; <cite ref=\"Vayikra Rabbah 14:1\">Lev. R. s. 14</cite> <he>א׳ לכל המעשים</he>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>farthest back, earliest</i>. Ib. <he>א׳ זה יום ראשון</he> <i>aḥor</i> (Ps. l. c.) means the first day.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

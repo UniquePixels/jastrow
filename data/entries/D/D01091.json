@@ -1,0 +1,27 @@
+{
+	"id": "D01091",
+	"slug": "דריסה",
+	"headword": {
+		"text": "דְּרִיסָה"
+	},
+	"page": {
+		"number": 323,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דרס</he>) <i>treading; walking, crossing</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 145a:15\">Sabb. 145ᵃ</cite> <he>דְּרִיסַת זיתים וכ׳</he> (Ms. M. <cite ref=\"D01086\"><he>דְּרִיכַת</he></cite>) treading olives &c. ",
+				"<cite ref=\"Mishnah Megillah 1:6\">Meg. I, 6</cite> <he>דריסת הרגל</he> entering one’s ground, the benefit of crossing; <cite ref=\"Jerusalem Talmud Eruvin 6:8:2\">Y. Erub. VI, 23ᵈ</cite> bot.—",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:1:6\">Y. Bicc. I, 63ᵈ</cite> top <he>מקום ד׳</he> a place for crossing, (right of way but not ownership of the interior of the soil). ",
+				"<cite ref=\"Vayikra Rabbah 3:1\">Lev. R. s. 3</cite>, beg. <he>ד׳ אחת וכ׳</he> one passing which the Lord passed.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:1:25\">Y. Sabb. I, 2ᵈ</cite> bot. <he>כל המעכב דרסה</he> (corr. acc.) whatever prevents from crossing; a. fr.—",
+				"<cite ref=\"Mishnah Beitzah 1:5\">Bets. I, 5</cite>, v. <cite ref=\"D00382\"><he>דּוֹרְסָן</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "B01001",
+	"slug": "בסירותא",
+	"headword": {
+		"text": "בְּסִירוּתָא"
+	},
+	"page": {
+		"number": 179,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01000\">preced.</cite>) <i>contempt</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 123:3\">Targ. Ps. CXXIII, 3</cite>."
+			]
+		}
+	]
+}

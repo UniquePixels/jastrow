@@ -1,0 +1,28 @@
+{
+	"id": "D00777",
+	"slug": "דכיר",
+	"headword": {
+		"text": "דְּכִיר"
+	},
+	"page": {
+		"number": 307,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"D00792\"><he>דְּכַר</he></cite>) = h. <cite ref=\"G00447\"><he>זָכוּר</he></cite>, <i>remembered, reminded, mindful</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 103:14\">Targ. Ps. CIII, 14</cite> <he>ד׳ קדמוי</he> it is remembered before Him.—",
+				"<cite ref=\"Onkelos Genesis 9:15\">Targ. Gen. IX, 15</cite> <he>דְּכִירְנָא</he> I shall remember; a. fr.—",
+				"<cite ref=\"Taanit 20b:11\">Taan. 20ᵇ</cite> <he>בינקותיה לא דכירנא</he> I do not remember his young days. ",
+				"<cite ref=\"Chullin 137b:13\">Ḥull. 137ᵇ</cite>.—Pl. <he>דְּכִירִין</he>, <he>דְּכִירֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 5:15\">Targ. Y. Deut. V, 15</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 29b:2\">Snh. 29ᵇ</cite>.—Fem. <cite ref=\"D00778\"><he>דְּכִירָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:7\">Targ. Lam. I, 7</cite>."
+			]
+		}
+	]
+}

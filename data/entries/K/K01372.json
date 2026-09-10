@@ -1,0 +1,38 @@
+{
+	"id": "K01372",
+	"slug": "כתם-3",
+	"headword": {
+		"text": "כֶּתֶם"
+	},
+	"page": {
+		"number": 682,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01371\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dark-red stain</i>, esp. <i>stain on a woman’s clothes</i> or <i>body</i>, as an indication of uncleanness (v. <cite ref=\"N00215\"><he>נִדָּה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Niddah 4b:54\">Nidd. 4ᵇ</cite> <he>כִּתְמָהּ טמא למפרע</he> a stain found on her makes her unclean retrospectively (up to the time when she last washed herself). ",
+				"<cite ref=\"Niddah 5a:21\">Ib. 5ᵃ</cite> <he>יש לה כ׳</he> is subject to the law concerning <i>kethem</i>. ",
+				"<cite ref=\"Mishnah Niddah 8:1\">Ib. VIII, 1</cite>. Y. ib. I, 49ᶜ <he>אין לה כ׳</he> is not subject to the law &c., v. supra; a. fr.—Pl. <he>כְּתָמִים</he>, <he>כְּתָמִין</he>. Ib. VII, 3, sq. ",
+				"<cite ref=\"Tosefta Niddah 8:12\">Tosef. ib. VIII, 12</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>gold</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 8:1\">Ex. R. s. 8</cite>; Tanḥ. Vaëra 8, v. <cite ref=\"Q00420\"><he>פָּז</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 4a:8\">R. Hash. 4ᵃ</cite> (ref. to <cite ref=\"Psalms 45:10\">Ps. XLV, 10</cite>) <he>זכיתם לכ׳ אופיר</he> you are rewarded with gold of Ophir."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,158 @@
+{
+	"id": "T00981",
+	"slug": "רצי-1",
+	"headword": {
+		"text": "רצי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָצָה"
+		}
+	],
+	"page": {
+		"number": 1493,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <he>רְעֵי</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to favor, pardon</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 44:1\">Midr. Till. to Ps. XLIV</cite> <he>אף בניו … ולהם רָצִיתָ ולא לנו</he> thou hast also done great things for his (Abraham’s) children in the desert, and to them thou hast been benevolent, but not to us. Sifra Vayikra, N’dab., Par. 3, ch. IV (ref. to <cite ref=\"Leviticus 1:4\">Lev. I, 4</cite>) <he>המקום רוֹצֶה לו</he> the Lord will receive his offering with favor (pardon him); <he>ועל מה המקום רוצה וכ׳</he> and for what sins will the Lord pardon him? For sins of omission &c.; Yalk. Lev. 438. ",
+				"<cite ref=\"Pirkei Avot 5:11\">Ab. V, 11</cite> <he>נוח לִרְצוֹת</he> easily appeased; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to please, desire, be willing, consent</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 34:15\">Lev. R. s. 34</cite> <he>רְצֵה והחליצנו</he>, v. <cite ref=\"H01109\"><he>חָלַץ</he></cite>. ",
+				"<cite ref=\"Megillah 29a:10\">Meg. 29ᵃ</cite> (play on <he>תר̇צ̇ד̇וןֹ</he>, <cite ref=\"Psalms 68:17\">Ps. LXVIII, 17</cite>) <he>למה תִרְ֗צ̇וּ ד̇ין̇ עם סיני</he> why do you desire a contest with Sinai?; <cite ref=\"Yalkut Shimoni on Nach 47:1\">Yalk. Jud. 47</cite> <he>למה אתם ר̇ו̇צִ֗ים ומד̇יינ̇ים</he> why are you so willing to contest? <cite ref=\"Makkot 10b\">Macc. 10ᵇ</cite>, a. e. <he>בדרך שאדם רוצה וכ׳</he> on what way a man wants to go, they (heavenly powers) lead him. ",
+				"<cite ref=\"Ketubot 12b:2\">Keth. 12ᵇ</cite> <he>אם רָצוּ לעשות וכ׳</he> if they wish to follow the usage of priests &c. ",
+				"<cite ref=\"Mishnah Yevamot 4:5\">Yeb. IV, 5</cite> <he>לא ר׳</he> if he declines (to act as <i>yabam</i>). ",
+				"<cite ref=\"Avodah Zarah 32a:3\">Ab. Zar. 32ᵃ</cite> <he>רוצה בקיומו ע״י דבר אחר</he> if he wants the preservation of an idolatrous object for some other purpose. ",
+				"<cite ref=\"Berakhot 7a:30\">Ber. 7ᵃ</cite> <he>כשרָצִיתִי לא רָצִיתָ וכ׳</he> when I was willing (to reveal myself), thou wast unwilling (didst hide thy face) &c.; a. v. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִצָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to appease, to procure pardon</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 45:2\">Ex. R. s. 45</cite> <he>יהיו פני מְרַצִּין את פניך</he> my countenance shall appease thy countenance, v. <cite ref=\"K00970\"><he>כָּעַס</he></cite>. ",
+						"<cite ref=\"Shemot Rabbah 45\">Ib.</cite> <he>כשהיה … הקב״ה מְרַצֶּה אותו וכ׳</he> when Moses was angry with Israel, the Lord appeased him &c. ",
+						"<cite ref=\"Shemot Rabbah 45:2\">Ib.</cite> <he>אהיה מְרַצְּךָ</he> I shall appease thee; (Tanḥ. Ki Thissa 27 <he>אני ברצון</he>, v. <cite ref=\"T00976\"><he>רָצוֹן</he></cite>). ",
+						"<cite ref=\"Pirkei Avot 4:18\">Ab. IV, 18</cite> <he>אל תְּרַצֶּה וכ׳</he>, v. <cite ref=\"K00972\"><he>כַּעַס</he></cite>. Ber. l. c. <he>מנין שאין מְרַצִּין וכ׳</he> whence do we learn that we must not attempt to appease a man at the moment of his excitement? Sifra l. c. <he>אע״פ שלא סמך הזבח מרצה</he> although he has not put his hand on the victim, the sacrifice produces pardon; Yalk. Lev. l. c. <he>נרצה הזבח</he> the sacrifice is accepted. ",
+						"<cite ref=\"Pesachim 16b:5\">Pes. 16ᵇ</cite> <he>על מה הציץ מרצה</he> for what (mistake at sacrifices) does the high priest’s plate effect pardon (make the sacrifice acceptable)?; <cite ref=\"Menachot 25b\">Men. 25ᵇ</cite>. ",
+						"<cite ref=\"Mishnah Menachot 3:3\">Ib. III, 3</cite>. ",
+						"<cite ref=\"Sifrei Devarim 32:17\">Sifré Deut. 32</cite> <he>כשם שקרבנות מְרַצִּים וכ׳</he> as sacrifices are the means of atonement, so are sufferings &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make pleasing, acceptable</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 85:1\">Midr. Till. to Ps. LXXXV</cite> <he>הקב״ה … עד שתְּרַצֶּה מעשיה להקב״ה</he> the Lord turns around and observes and puts his eye on her (the earth), until she makes her deeds pleasing unto the Lord; <cite ref=\"Midrash Tehillim 85:1\">ib.</cite> <he>אותה שעה היא מְרַצָּה וכ׳</he> then she makes her deeds pleasing &c.; <cite ref=\"Yalkut Shimoni on Nach 833\">Yalk. ib. 833</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִרְצָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be acceptable, be accepted</i>. Sifra l. c. <he>ונרצה לו לו ולזבחו</he> ‘it shall be accepted for him’ (<cite ref=\"Leviticus 1:4\">Lev. I, 4</cite>) he and his sacrifice shall be accepted; Yalk. Lev. l. c. Ib. <he>נ׳ הזבח</he>, v. supra; a. e.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be appeased</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:26\">Lam. R. to I, 2</cite> (ref. to <cite ref=\"Psalms 77:8\">Ps. LXXVII, 8</cite>) <he>לא לְרַצּוֹת ולא לֵירָצוֹת</he> never to appease and never to be appeased; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִרְצָה"],
+			"senses": [
+				{
+					"gloss": "<i>to satisfy</i> (a debt), <i>to make up for</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 675:9\">Yalk. Lev. 675</cite> (ref. to <cite ref=\"Leviticus 26:34\">Lev. XXVI, 34</cite>) the land shall rest of itself <he>עד שתַּרְצֶח לפני … היא חייבת לי</he> until it shall have made up before me for all the Sabbatical years which it owes me. ",
+						"<cite ref=\"Sifrei Devarim 355:20\">Sifré Deut. 355</cite> (ref. to <cite ref=\"T00975\"><he>רצוי</he></cite>, <cite ref=\"Deuteronomy 33:24\">Deut. XXXIII, 24</cite>) <he>שהיה מִתְרַצֶּה … והן מַרְצִים לו בתבואה</he> he showed himself accommodating to his brethren with oil …, and they settled their account with grain; Yalk. ib. 962."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " [<i>to combine</i>,] <i>to assort coins; to count; to pay</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 22a:3\">Sabb. 22ᵃ</cite> <he>להַרְצוֹת מעות וכ׳</he> to assort coins by the Ḥanuckah lights. ",
+						"<cite ref=\"Berakhot 61a\">Ber. 61ᵃ</cite>; <cite ref=\"Eruvin 18b:4\">Erub. 18ᵇ</cite> <he>המַרְצֶה מעות לאשה וכ׳</he> he who pays money to a woman counting from his to her hand for the sake of gazing at her. ",
+						"<cite ref=\"Sanhedrin 68a:10\">Snh. 68ᵃ</cite> <he>הרבה מעות</he> … <he>שולחני להַרְצוֹתָן</he> I have many coins, but no money-changer to assort them (many questions to ask but none to solve them); a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (trnsf.) <i>to arrange subjects for debate, to discourse</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Niddah 6:6\">Tosef. Nidd. VI, 6</cite> <he>כשבאתי והִרְצֵיתִי דברים לפני וכ׳</he> when I came and discussed the subject before R. A. &c.; <cite ref=\"Avodah Zarah 36b:20\">Ab. Zar. 36ᵇ</cite> <he>והִרְצֵתִי דברי וכ׳</he>; Y. Peah VI, 19ᵇ bot.; <cite ref=\"Tosefta Challah 1:6\">Tosef. Ḥall. I, 6</cite>; <cite ref=\"Pesachim 38b\">Pes. 38ᵇ</cite>; Y. Shek. V, 49ᵃ <he>והריציתי</he> (corr. acc.). ",
+						"<cite ref=\"Chagigah 14b\">Ḥag. 14ᵇ</cite> <he>ר׳ יהושע ה׳ דברים וכ׳</he> R. Joshua discoursed (on theosophy) before &c.; a. e., v. <cite ref=\"E00899\"><he>הַרְצָאָה</he></cite>. "
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּרְצָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be favorably received</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 7a:7\">Yoma 7ᵃ</cite> <he>דם … ה׳ במזיד לא ה׳</he> if blood became unclean, and one sprinkled it, if by mistake, it is received (and the flesh may be eaten), if wilfully, it is not; <cite ref=\"Pesachim 16b:8\">Pes. 16ᵇ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְרַצָּה"],
+			"senses": [],
+			"stem": "Hithp."
+		},
+		{
+			"forms": ["נִתְרַצָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be reconciled, be satisfied; to comply with</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 45:2\">Ex. R. s. 45</cite> <he>לך והִתְרַצֶּה להם</he> go and comply with their wish, go back to the camp. ",
+						"<cite ref=\"Kiddushin 45a:4\">Kidd. 45ᵃ</cite> <he>שמא נ׳ האב בקידושי שני</he> perhaps the father was satisfied with (confirmed) the betrothal of the second man. ",
+						"<cite ref=\"Kiddushin 45b\">Ib.ᵇ</cite> <he>שמא נ׳ הבן</he> perhaps the son sanctioned (his father’s action in his behalf). Y. Ber. IV, 7ᵈ top; Y. Taan. IV, 67ᵈ bot. <he>נִתְרַצֵיתֶם אני ואתם וכ׳</he> if you are satisfied, let me and you go early to &c.; (<cite ref=\"Berakhot 28a:12\">Ber. 28ᵃ</cite> <he>נתפייסת</he>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be gratified, enjoy</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 58a\">Ber. 58ᵃ</cite> bot. <he>נ׳ להריח</he> if he smelt (the idolatrous frankincense) with enjoyment."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

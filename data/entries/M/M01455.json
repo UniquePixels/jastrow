@@ -1,0 +1,43 @@
+{
+	"id": "M01455",
+	"slug": "מכתש-1",
+	"headword": {
+		"text": "מַכְתֵּשׁ"
+	},
+	"page": {
+		"number": 785,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01391\"><he>כָּתַשׁ</he></cite>)<i>mortar</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 2:3:2\">Y. Peah II, 17ᵃ</cite> top, v. <cite ref=\"K01391\"><he>כָּתַשׁ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>mortar-shaped cavity</i>;",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>jaw</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:13\">Gen. R. s. 98</cite> (expl. ",
+				"<cite ref=\"Judges 15:19\">Jud. XV, 19</cite>) <he>המקום ההוא מ׳ שמו</he> that place was named <i>Makhtesh</i> (Cavity); <cite ref=\"Judges 15:19\">ib.</cite> <he>מלמד שהביא לו וכ׳</he> it intimates that the Lord opened to him a spring from between his (the ass’) teeth (taking <he>מ׳</he> as <i>jaw</i>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>an instrument of torture</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 7:8\">Tosef. Kel. B. Mets. VII, 8</cite>, v. <cite ref=\"Q02154\"><he>פֶּתִי</he></cite>. Pesik. Shek. p. 15ᵃ, v. <cite ref=\"H01163\"><he>חֲמוֹר</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

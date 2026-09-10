@@ -1,0 +1,23 @@
+{
+	"id": "O01561",
+	"slug": "סרונכי",
+	"headword": {
+		"text": "סְרוּנְכִּי"
+	},
+	"page": {
+		"number": 1024,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סרך</he> II, with <cite ref=\"N00001\"><he>נ</he></cite> inserted) [<i>interception</i>, <i>sticking</i>,] <i>choking</i>, <i>suffocation</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 84a:10\">Yoma 84ᵃ</cite> <he>מקיזין דם לס׳ בשבת</he> you may let blood on the Sabbath in a case of asphyxia. ",
+				"<cite ref=\"Sanhedrin 37b:5\">Snh. 37ᵇ</cite>; <cite ref=\"Ketubot 30b:1\">Keth. 30ᵇ</cite>; <cite ref=\"Sotah 8b:14\">Sot. 8ᵇ</cite>; <cite ref=\"Bamidbar Rabbah 14:6\">Num. R. s. 14</cite> <he>מת בס׳</he> will die from suffocation.—Cmp. <cite ref=\"O01644\"><he>סרנק</he></cite>."
+			]
+		}
+	]
+}

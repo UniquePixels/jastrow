@@ -1,0 +1,31 @@
+{
+	"id": "K00975",
+	"slug": "כער-2",
+	"headword": {
+		"text": "כְּעַר"
+	},
+	"page": {
+		"number": 656,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00974\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K00974\"><he>כַּעֵר</he></cite>, part. pass. <he>מְכַעַר</he>, f. <he>מְכַעֲרָא</he> <i>repulsive, ugly</i>. Naḥ. III, 6 (h. text <he>כראי</he>).—",
+					"units": [
+						"<cite ref=\"Ketubot 60b:15\">Keth. 60ᵇ</cite> bot. <he>בני מְכַעֲרֵי</he> (not <he>מכוערי</he>) ugly children (differ. from <he>אוכמי</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

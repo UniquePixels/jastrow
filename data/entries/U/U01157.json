@@ -1,0 +1,32 @@
+{
+	"id": "U01157",
+	"slug": "שכך",
+	"headword": {
+		"text": "שָׁכַךְ"
+	},
+	"page": {
+		"number": 1573,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to sink</i>, (of anger) <i>to be appeased</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 8:1\">Ex. R. s. 8</cite> <he>מיד שָׁכָכוּ</he> they (the threatening gates) were at once appeased; (Tanḥ. Vaëra 7 <he>שקטו</he>). ",
+				"<cite ref=\"Esther Rabbah 3:14\">Esth. R. to I, 12</cite> <he>עד … לא שָׁכְכָה חמתו וכ׳</he> until Esther entered (the palace), Ahasver’s anger was not appeased; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁכֵּךְ"],
+			"senses": [
+				{
+					"gloss": " (with double accus.) <i>to sink a thing into</i>; <he>ש׳ אוזן מה שהיא יכולה לשמוע</he> to sink into the ear that which it is able to hear, i.e. <i>to assist a person’s perception</i> by gradual increase of sound, by a comparison &c. Mekh. Yithro, Bahod., s. 3; 4 (ref. to <cite ref=\"Exodus 19:19\">Ex. XIX, 19</cite>) <he>ולמה רך מתחלה כדי לְשַׁכֵּךְ וכ׳</he> (not <cite ref=\"K00655\"><he>כך</he></cite>) why was the sound soft at first (growing gradually stronger)? In order to bring into the ear as much &c.; <cite ref=\"Exodus 19:19\">ib.</cite> (ref. to Ex. l. c. 18) <he>ומה תלמוד לומר כבשן לשכך וכ׳</he> why does the text say, ‘like the smoke of a furnace’? In order to assist the perception &c.; ib. (ref. to <cite ref=\"Ezekiel 43:2\">Ez. XLIII, 2</cite>) <he>הרי … מבריותיו לש׳ האזן</he> we describe God by borrowing a metaphor from one of his creations in order to &c.; Tanḥ. Yithro 13; <cite ref=\"Yalkut Shimoni on Torah 284\">Yalk. Ex. 284</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

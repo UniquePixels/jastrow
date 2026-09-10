@@ -1,0 +1,28 @@
+{
+	"id": "B01271",
+	"slug": "ברין-2",
+	"headword": {
+		"text": "בָּרִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "רם בָּרִין"
+		}
+	],
+	"page": {
+		"number": 194,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ram Barin</i>, a border town of Northern Palestine (district of Tyre; perh. <i>Kefr Bureim</i>, Neub. Géogr. p. 23). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:18\">Y. Dem. II, 22ᵈ</cite> top; <cite ref=\"Tosefta Shevi'it 4:10\">Tosef. Shebi. IV, 10</cite> <cite ref=\"T00825\"><he>רמכוך</he></cite>, Var. <he>רומברך</he>. Y. l. c. <he>עד כדון</he> for which R. S. to <cite ref=\"Mishnah Demai 2:1\">Dem. II, 1</cite> <cite ref=\"B00375\"><he>בּוּרָן</he></cite> (prob. the same)."
+			]
+		}
+	]
+}

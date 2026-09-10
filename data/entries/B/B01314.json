@@ -1,0 +1,41 @@
+{
+	"id": "B01314",
+	"slug": "ברק-2",
+	"headword": {
+		"text": "בְּרַק",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרֵיק"
+		}
+	],
+	"page": {
+		"number": 196,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01313\">same</cite>, <i>to shine, rise</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:1:2\">Y. Yoma III, beg. 40ᵇ</cite>; Y. R. Hash. II, beg. 57ᵈ what is <cite ref=\"B00389\"><he>בורקי</he></cite> (Mish. ",
+				"<cite ref=\"Mishnah Yoma 3:1\">Yoma III, 1</cite>)? It means <cite ref=\"B01331\"><he>בָּרֶקֶת</he></cite>, the rising light, as people say in Babylonia (<he>בְּרַק ברוקא</he>) <he>בְּרוּק ברוקה</he> the sparkling (star) shines, meaning <he>אנהר מנהורא</he> the light-giver (morning star) gives light. [Bab. ",
+				"<cite ref=\"Yoma 28b:1\">Yoma 28ᵇ</cite> (hebr.) <he>בָּרַק ברקאי</he>.] <cite ref=\"Berakhot 59a:7\">Ber. 59ᵃ</cite> (expl. <he>רעמים</he>) <he>ברקא תקיפא דבריק בעננא וכ׳</he> an intense lightning which flashes through the cloud and breaks pieces of hailstone, (Var. v. Rabb. D. S. a. l.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַבְרֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to send forth lightning</i> (fulminare). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 144:6\">Targ. Ps. CXLIV, 6</cite>.—Targ. II Esth. III, 8 <he>מבריקין עיניהון</he> their eyes sparkling (in defiance). [<cite ref=\"Chullin 112a\">Ḥull. 112ᵃ</cite> <he>דאבריק</he> some ed., read <he>דאבריה</he>, v. <cite ref=\"B01154\"><he>בְּרָא</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "M00747",
+	"slug": "מזיא",
+	"headword": {
+		"text": "מַזְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַזְיָיא"
+		},
+		{
+			"text": "מִיזְיָא"
+		}
+	],
+	"page": {
+		"number": 754,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. collect. noun (<he>זא</he>, cmp. <cite ref=\"M00442\"><he>מוֹזָא</he></cite>; Syr. pl. <he>מזא</he>, P. Sm. 2064) <i>hair</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:12\">Targ. Y. Deut. XXI, 12</cite>.—",
+				"<cite ref=\"Nazir 39a:4\">Naz. 39ᵃ</cite> <he>האי מ׳ וכ׳</he> (Rashi <cite ref=\"B00655\"><he>בינתא</he></cite>) does hair grow from beneath or from above?—",
+				"<cite ref=\"Megillah 18a:27\">Meg. 18ᵃ</cite> <he>הוה מהפך במַזְיֵיה</he> was busying himself with his hair; <cite ref=\"Rosh Hashanah 26b\">R. Hash. 26ᵇ</cite> Ms. M. (ed. <he>בשעריה</he>). ",
+				"<cite ref=\"Nedarim 50a\">Ned. 50ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 110a:1\">Snh. 110ᵃ</cite> top <he>סתרתה למַזְיָהּ</he> she loosened her hair. ",
+				"<cite ref=\"Sanhedrin 110a:2\">Ib.</cite> <he>גייז ליה למִיזְיֵיכוּ</he> he cut your hair off (shaved you all over). ",
+				"<cite ref=\"Yevamot 116b:4\">Yeb. 116ᵇ</cite> <he>סתרי מִזְיֵיךְ</he> loosen thy hair. ",
+				"<cite ref=\"Avodah Zarah 75a:13\">Ab. Zar. 75ᵃ</cite> <he>דמ׳</he> (filters made) of human hair.—[<cite ref=\"Targum Jonathan on Isaiah 3:20\">Targ. Is. III, 20</cite> <he>קולמז מסיא</he> (<cite ref=\"S00352\"><he>קולמן</he></cite> ed. Lag.), Var. <cite ref=\"S01364\"><he>קלמסמסיא</he></cite>, <he>קול מזמסיא</he>, Ar. <he>קלמזמ׳</he>, read: <he>קוּלְמְסֵי מַזְיָא</he> <i>hair-pins</i> (h. text <he>קשרים</he>; LXX ἐμπλόκιον; cmp. LXX <cite ref=\"Exodus 35:22\">Ex. XXXV, 22</cite>.]"
+			]
+		}
+	]
+}

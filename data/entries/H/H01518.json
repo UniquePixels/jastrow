@@ -1,0 +1,31 @@
+{
+	"id": "H01518",
+	"slug": "חצי-3",
+	"headword": {
+		"text": "חֵצִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲצִי"
+		}
+	],
+	"page": {
+		"number": 495,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01517\">preced.</cite> wds.) <i>half</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 4:9\">B. Kam. IV, 9</cite> <he>חֲ׳ נזק</he> half the damage. ",
+				"<cite ref=\"Mishnah Gittin 4:5\">Gitt. IV, 5</cite> <he>מי שחֶצְיוֹ עבד וכ׳</he> he who is half a slave and half a freedman (having been emancipated by one of the partners); a. v. fr.—Pl. <he>חֲצָיִים</he>, <he>חֲצָיִין</he>, <he>חֲצָאִים</he>, <he>חֲצָאִין</he>. Sifra Vayikra, N’dab., ch. X, Par. 9 <he>לא יביאנה ח׳</he> he must not offer it in parts. ",
+				"<cite ref=\"Nedarim 83a:3\">Ned. 83ᵃ</cite> <he>אין נזירות לח׳</he> there is no nazaritism by halves, i.e. one cannot vow to be a nazarite by partial abstinence; <he>ואין קרבן לח׳</he> nor is there a sacrifice for partial nazaritism. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 1:6:2\">Y. Hor. I, 46ᵇ</cite> top <he>אין הפסח לה׳</he> the Passover offering does not take place in divisions (of clean and unclean parties). ",
+				"<cite ref=\"Keritot 5a:66\">Kerith. 5ᵃ</cite> <he>מפטם לח׳</he> taking only a part of each ingredient; <cite ref=\"Jerusalem Talmud Yoma 4:5:5\">Y. Yoma IV, 41ᵈ</cite> bot. <he>פיטמה ח׳</he>; a. fr."
+			]
+		}
+	]
+}

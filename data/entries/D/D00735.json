@@ -1,0 +1,26 @@
+{
+	"id": "D00735",
+	"slug": "דירכאות",
+	"headword": {
+		"text": "דִּירְכָאוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּירְכִיּוֹת"
+		}
+	],
+	"page": {
+		"number": 305,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.<i>guards at stations</i>, v. <cite ref=\"D00493\"><he>דִּידְכֵי</he></cite>.",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "J00023",
+	"slug": "יאש-1",
+	"headword": {
+		"text": "יָאַשׁ"
+	},
+	"page": {
+		"number": 560,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A01615\"><he>אִישׁ</he></cite> a. <cite ref=\"J00674\"><he>יֵשׁ</he></cite>) [<i>to exist, be strong</i>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יֵאֵשׁ"],
+			"senses": [
+				{
+					"gloss": " (privat., cmp. <cite ref=\"D01147\"><he>דִּשֵּׁן</he></cite>) <i>to consider undone, to give up;</i> v. <cite ref=\"J00009\"><he>יֵאוּשׁ</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְיָאֵשׁ", "הִתְיָי׳"],
+			"senses": [
+				{
+					"gloss": "; <i>Nithpa.</i> <he>נִתְיָאֵשׁ</he>, <he>נִתְיָי׳</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to lose energy, relax</i>. Y. Ber. IX, end, 14ᵈ <he>שנִתְיָאֲשׁוּ ידיהם וכ׳</he> whose hands have grown lax concerning the Law (who do not care to uphold the Law; <cite ref=\"Midrash Tehillim 119:31\">Midr. Till. to Ps. CXIX, 126</cite> <he>רפו ידיהם</he>).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <he>מן</he>) <i>to give up hope, to discard from the mind</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 1:7\">Ab. I, 7</cite> <he>אל תִּתְיָאֵשׁ וכ׳</he> do not give up the idea of divine retribution (when you see sinners prosper).—Esp. (of lost things) <i>to despair of recovery, to resign possession</i> (by which the finder acquires the right of keeping what he has found, and the robber obtains possession of the stolen object and must make restoration in value). ",
+						"<cite ref=\"Bava Kamma 68b\">B. Kam. 68ᵇ</cite>, a. e. <he>גזל ולא נִתְיָיאֲשׁוּ הבעלים</he> if one has robbed, and the owner has not yet given the hope of recovery. ",
+						"<cite ref=\"Bava Metzia 21b:10\">B. Mets. 21ᵇ</cite> <he>מפני שהבעלים מִתְיָאֲשִׁין מהן</he> because the owners (who dropped the coins) have given them up; a. v. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

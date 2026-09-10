@@ -1,0 +1,24 @@
+{
+	"id": "O00113",
+	"slug": "סגולה-2",
+	"headword": {
+		"text": "סְגוּלָּה"
+	},
+	"page": {
+		"number": 953,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"O00152\"><he>סְגֻלָּה</he></cite>; <cite ref=\"O00147\"><he>סָגַל</he></cite>)<i>safe investment, heirloom, family relic, treasure</i>. Mekh. Yithro, Baḥod., s. 2 (ref. to <cite ref=\"O00152\"><he>סגלה</he></cite>, <cite ref=\"Exodus 19:5\">Ex. XIX, 5</cite>) <he>מה סְגוּלָּתוֹ של אדם וכ׳</he> as the heirloom a man possesses is dear to him, so &c.; <cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite>, end. ",
+			"units": [
+				"<cite ref=\"Bava Batra 52a:1\">B. Bath. 52ᵃ</cite> <he>קבל מן הקטן יעשה לו ס׳</he> if one receives a trust from a minor, he must invest it safely (since he cannot return it to him until he is of age). ",
+				"<cite ref=\"Bava Batra 52a:5\">Ib.</cite> <he>מאי ס׳ וכ׳</he> what is a <i>s’gullah?</i>… A scroll of the Law; … a date-tree. ",
+				"<cite ref=\"Bava Kamma 87b:13\">B. Kam. 87ᵇ</cite>; <cite ref=\"Tosefta Bava Kamma 9:8\">Tosef. ib. IX, 8</cite>, sq.; a. e."
+			]
+		}
+	]
+}

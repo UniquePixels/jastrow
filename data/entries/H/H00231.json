@@ -1,0 +1,106 @@
+{
+	"id": "H00231",
+	"slug": "חוב-1",
+	"headword": {
+		"text": "חוּב"
+	},
+	"page": {
+		"number": 428,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.), perf. <cite ref=\"H00008\"><he>חָב</he></cite>, part. <cite ref=\"H00722\"><he>חַיָיב</he></cite>, <cite ref=\"H00008\"><he>חָב</he></cite> [<i>to be bound over, seized</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be declared guilty, be sentenced; to be punishable; to be</i> (<i>legally, morally or religiously</i>) <i>bound, to be responsible</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 1:1\">B. Kam. I, 1</cite> <he>חב המזיק</he> he who caused the damage must pay. ",
+				"<cite ref=\"Bava Kamma 6b:11\">Ib. 6ᵇ</cite> <he>חב … חייב … מיבעי לה</he> the Mishnah says <i>ḥab</i>, ought it not rather to read <i>ḥayab</i> (part.)?—[Answ.: they are the words of a Jerusalem Tannai.]—",
+				"<cite ref=\"Mishnah Bava Kamma 1:2\">Ib. I, 2</cite> <he>כל שׁחַבְתִּי בשמירתו וכ׳</he> for whatever I am legally bound to guard, I am legally answerable in case of injury. ",
+				"<cite ref=\"Mishnah Shabbat 1:1\">Sabb. I, 1</cite> <he>העני חייב</he> the recipient (the person standing outside) is guilty (of transgressing the Sabbath law).—",
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:1:7\">Y. Ned. I, 36ᵈ</cite> top <he>חב על כל וכ׳</he> he is punishable for each separately.—",
+				"<cite ref=\"Mishnah Berakhot 9:5\">Ber. IX, 5</cite> <he>חייב אדם וכ׳</he> man must praise the Lord &c. ",
+				"<cite ref=\"Chagigah 4a\">Ḥag. 4ᵃ</cite>, a. e. <he>כל מצוה שהאשה חַיֶיבֶת בה וכ׳</he> whatever religious act is obligatory on woman, is also obligatory &c.—",
+				"<cite ref=\"Chagigah 4a:5\">Ib.</cite> <he>מה להלן נשים חַיָיבוֹת</he> as there (<cite ref=\"Deuteronomy 31:12\">Deut. XXXI, 12</cite>) women are included in the obligation; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to act in behalf of a person to the latter’s disadvantage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 7:11\">Erub. VII, 11</cite> <he>ואין חָבִין וכ׳</he>, v. <cite ref=\"G00443\"><he>זָכָה</he></cite>. Y. B. Kam. IV, 4ᵇ bot. <he>בתחלה … ע״מ לָחוֹב להן וכ׳</he> originally guardians are not assigned to minors that they may eventually act to their disadvantage &c.; <he>ואם חָבוּ חָבוּ</he> but if they have done so, their action is legal (and they cannot be held responsible); <cite ref=\"Jerusalem Talmud Gittin 5:4:3\">Y. Gitt. V, 47ᵃ</cite> top.—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 11:2:6\">Y. Keth. XI, 34ᵇ</cite> bot. <he>נמצאתה חב וכ׳</he> then you would cause a disadvantage to the relics; a. fr.—ח׳ בעצמו <i>to be alone answerable</i> for one’s loss. ",
+				"<cite ref=\"Mishnah Berakhot 1:3\">Ber. I, 3</cite> <he>כדאי היית לָחוֹב בעצמך</he> thou wouldst have deserved to be made answerable &c., i.e. if you had met with an accident you would have had none but yourself to blame."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to owe, be indebted</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 7:5\">Shebu. VII, 5</cite>; a. fr.—ח׳ חטאת <i>to be bound to bring a sin-offering;</i> <he>ח׳ מיתה</he> <i>to be subject to death penalty</i>. ",
+				"<cite ref=\"Mishnah Shabbat 7:1\">Sabb. VII, 1</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 11:6\">Ib. XI, 6</cite> <he>כל חַיְיבֵי חטאת וכ׳</he> all those eventually bound to bring &c., are not bound, unless &c. ",
+				"<cite ref=\"Sanhedrin 58b\">Snh. 58ᵇ</cite>; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to declare guilty, to convict, sentence</i> (opp. <cite ref=\"G00455\"><he>זִיכָּה</he></cite>, <cite ref=\"Q00547\"><he>פָּטַר</he></cite>). ",
+					"units": [
+						"<cite ref=\"Sanhedrin 6a:2\">Snh. 6ᵃ</cite> <he>ח׳ את הזכאי</he> if a judge (by an illegal decision) convicted one who ought to have been acquitted. ",
+						"<cite ref=\"Mishnah Sanhedrin 3:6\">Ib. III, 6</cite> <he>ואחד מְחַיֵּיב</he> and one votes for acquittal. ",
+						"<cite ref=\"Mishnah Shevuot 4:13\">Shebu. IV, 13</cite> <he>ר׳ מאיר מח׳ וכ׳</he> R. M. says, he is guilty (of blasphemy); a. v. fr.—",
+						"<cite ref=\"Shemot Rabbah 32\">Ex. R. s. 32</cite>, beg. <he>חִיַּיבְתֶּם עצמיכם</he> you have given judgment against yourselves. ",
+						"<cite ref=\"Bava Metzia 3b:4\">B. Mets. 3ᵇ</cite> <he>פיו אין מְחַיְּיבוֹ ממון וכ׳</he> the defendant’s own statement cannot cause a judgment against him to pay a penalty, but causes the imposition of an oath. ",
+						"<cite ref=\"Yoma 35b:13\">Yoma 35ᵇ</cite> <he>הלל מח׳ וכ׳</he>, v. <cite ref=\"E00571\"><he>הִלֵּל</he></cite>.—<i>Part. pass.</i> <he>מְחוּיָּיב</he>, <he>מְחוּיָּב</he> = <cite ref=\"H00722\"><he>חַיָיב</he></cite>, <i>sentenced, bound</i>. Y. Keth. III, 27ᵇ <he>מְחוּיְּיבֵי מיתות</he> those sentenced to death, <he>מ׳ מכות</he> sentenced to lashes.—",
+						"<cite ref=\"Berakhot 20b\">Ber. 20ᵇ</cite>, a. fr. <he>כל שׁאינו מ׳ בדבר וכ׳</he> whatever is not obligatory upon a person himself, cannot be done by him as a representative of the community, v. <cite ref=\"H00242\"><he>חוֹבָה</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַיֵּיב"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַיֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be convicted, amenable to law</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 30b\">Keth. 30ᵇ</cite> <he>מי שנ׳ סקילה</he> he who (under Jewish jurisdiction) would have been sentenced to death through stoning. ",
+						"<cite ref=\"Ketubot 30b\">Ib.</cite> <he>כבר נ׳ בגניבה וכ׳</he> he was amenable to punishment for theft, before he transgressed &c. ",
+						"<cite ref=\"Ketubot 30b:4\">Ib.</cite> <he>מִתְחַיֵּיב בנפשו לא הוה וכ׳</he> but guilty of a deadly sin he was not until he ate it; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be responsible</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 3:4\">Ab. III, 4</cite>, a. fr. <he>הרי זה מתח׳ בנפשו</he> he is responsible for his life, would have himself to blame, if any accident should befall him (v. ",
+						"<cite ref=\"Berakhot 3a\">Ber. 3</cite> quoted above)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be doomed, to have the misfortune to</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shevuot 3:4\">Tosef. Shebu. III, 4</cite> <he>אין אדם מתח׳ לשמוע וכ׳</he> one has not the misfortune to hear (a curse &c.), unless he sinned himself (ref. to <cite ref=\"Leviticus 5:1\">Lev. V, 1</cite>). ",
+						"<cite ref=\"Leviticus 5:1\">Ib.</cite> <he>הרואה … עבירה נ׳ לראות</he> if one sees people sin, (we say) he had the misfortune to see, opp. <he>זכה</he>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

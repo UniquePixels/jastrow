@@ -1,0 +1,69 @@
+{
+	"id": "D01095",
+	"slug": "דרך-2",
+	"headword": {
+		"text": "דְּרַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּרֵיךְ"
+		}
+	],
+	"page": {
+		"number": 323,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"D01094\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 1:36\">Targ. O. Deut. I, 36</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 59:8\">Targ. Is. LIX, 8</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 60b:15\">Keth. 60ᵇ</cite> bot. <he>דדָרְכָא על וכ׳</he> who stepped upon &c. ",
+				"<cite ref=\"Shabbat 109a:5\">Sabb. 109ᵃ</cite> <he>דדרכא ליה וכ׳</he> Ms. M. (ed. <he>דדריכא</he>) that an ass had stepped on his foot. [<cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:11\">Y. Maas. Sh. IV, 55ᶜ</cite> top <he>יתיב מדרך</he>, read: <he>מְרַמֵּךְ</he>, v. <cite ref=\"D00900\"><he>דְּמַךְ</he></cite>.—",
+				"<cite ref=\"Vayikra Rabbah 27:6\">Lev. R. s. 27</cite> <he>דרכת עד</he>, read: <he>אוֹרְכַת</he>, v. <cite ref=\"A03095\"><he>אֲרִיךְ</he> I</cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to overtake</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַדְרֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to thresh</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 28:27\">Targ. Is. XXVIII, 27</cite> sq.; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lead</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 22:6\">Targ. Prov. XXII, 6</cite>, v. <cite ref=\"D00772\"><he>דְּכִי</he></cite> Af.—",
+						"<cite ref=\"Aramaic Targum to Psalms 25:9\">Targ. Ps. XXV, 9</cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to trace, overtake</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 6:11\">Targ. Prov. VI, 11</cite>; <cite ref=\"Aramaic Targum to Proverbs 24:34\">XXIV, 34</cite> <he>ותַדְרְכָיךְ</he> (ed. Lag. <he>ותִידְ׳</he>, Var. <he>ותדרוך</he>, <he>ותדכיך</he>, <he>ותרכיך</he>, h. text <he>כמהלך</he>).—",
+						"<cite ref=\"Ketubot 60b\">Keth. 60ᵇ</cite>; <cite ref=\"Avodah Zarah 15b:12\">Ab. Zar. 15ᵇ</cite> <he>ולא אַדְרְכֵיה</he> and did not find him."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

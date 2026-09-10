@@ -1,0 +1,30 @@
+{
+	"id": "E00516",
+	"slug": "הכן-2",
+	"headword": {
+		"text": "הָכֵן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "הָכֵין",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 350,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (inf. Hif. of <cite ref=\"K00296\"><he>כּוּן</he></cite>, used as a technical term with ref. to <he>הכינו</he>, <cite ref=\"Exodus 16:5\">Ex. XVI, 5</cite>) <i>preparing, designation for use on the Sabbath or Holy Day</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:6:2\">Y. Sabb. III, 6ᵇ</cite> there is nothing that exists in the shape in which it is used, <he>ואינו בהָכֵנוֹ</he> which may not be considered as designated for use (on the Sabbath &c.). Y. Bets. 62ᵃ top <he>ספק ה׳</he> where there is a doubt as to whether a thing has been ready for use when the festive day began. ",
+				"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>הגוי צריך ה׳</he> that which a gentile offers on a Holy Day requires designation in due time. Ib. I, beg. 60ᵃ <he>בהָכֵינָהּ של אמה</he> because its mother (the hen) was designated for slaughter on the Holy Day; a. fr. [In Babli <cite ref=\"E00517\"><he>הֲכָנָה</he></cite>.]"
+			]
+		}
+	]
+}

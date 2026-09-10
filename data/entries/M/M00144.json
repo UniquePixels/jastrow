@@ -1,0 +1,31 @@
+{
+	"id": "M00144",
+	"slug": "מגורתא",
+	"headword": {
+		"text": "מְגוּרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְגִירוּתָא"
+		}
+	],
+	"page": {
+		"number": 727,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch.  = h. <cite ref=\"M00139\"><he>מְגוּרָה</he> II</cite>, <i>court, neighborhood</i>. Y. Sabb. XVI, end, 15ᵈ [read:] <he>נפלת … במְגוּרְתֵּיה וכ׳</he> a fire broke out in the court of R. J.; <cite ref=\"Jerusalem Talmud Yoma 8:5:8\">Y. Yoma VIII, 45ᵇ</cite> <he>במְגִירוּתֵיה</he>; Y. Ned. IV, 38ᵈ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>neighbor</i>, v. <cite ref=\"M00171\"><he>מָגֵיר</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

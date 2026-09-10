@@ -1,0 +1,44 @@
+{
+	"id": "M00462",
+	"slug": "מוטה-1",
+	"headword": {
+		"text": "מוֹטָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֹטָה"
+		}
+	],
+	"page": {
+		"number": 741,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"M00460\"><he>מוֹט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a small barrow</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 3:3\">Bets. III, 3</cite> (<cite ref=\"Beitzah 25a\">25ᵃ</cite>), v. <cite ref=\"M00460\"><he>מוֹט</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>מוֹטוֹת</he> <i>bands of a yoke; yoke</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 23\">B’shall. 23</cite> <he>והיו מ׳ ומרכבות וכ׳</he> the yokes and the chariots ran (of themselves) &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>balances</i>. Pesik. B’shall., p. 82ᵃ <he>במטה דאמיטין אתמיט להון</he> Ar. with the balance with which they weighed, weighing was done to them; [Ar.: as they made others sink, so were they made to sink (v. <cite ref=\"M00458\"><he>מוּט</he></cite>); oth. opin.: <he>במַטֶּה וכ׳</he> with the staff with which they struck, were they struck].",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

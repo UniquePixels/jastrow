@@ -1,0 +1,32 @@
+{
+	"id": "N00992",
+	"slug": "נעמה",
+	"headword": {
+		"text": "נַעֲמָה"
+	},
+	"page": {
+		"number": 920,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. f. <i>Naamah</i>, 1) sister of Tubal-Cain.",
+			"units": []
+		},
+		{
+			"gloss": " sister of Tubal-Cain. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 23:3\">Gen. R. s. 23</cite> (ref. to <cite ref=\"Genesis 4:22\">Gen. IV, 22</cite>) <he>למה היו קורין אותה נ׳ וכ׳</he> why was she (the wife of Noah) called N.? Because her doings were pleasing; <cite ref=\"Genesis 4:22\">ib.</cite> <he>נ׳ אחרת היתה וכ׳</he> Tubal-Cain’s sister was a different Naamah, and she was so named &c., v. <cite ref=\"N00990\"><he>נָעֵם</he></cite> Hif.; Yalk. ib. 38."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " N., the Ammonite, mother of King Rehoboam. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41:4\">Gen. R. s. 41</cite>; <cite ref=\"Yevamot 77a\">Yeb. 77ᵃ</cite>. ",
+				"<cite ref=\"Yevamot 63a\">Ib. 63ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

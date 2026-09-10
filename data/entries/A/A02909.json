@@ -1,0 +1,30 @@
+{
+	"id": "A02909",
+	"slug": "אקטיספון",
+	"headword": {
+		"text": "אִקְטִיסְפּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְטִיסְפּוֹן"
+		}
+	],
+	"page": {
+		"number": 112,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ctesiphon</i>, a town on the Eastern bank of the Tigris. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:10\">Targ. Y. Gen. X, 10</cite> <cite ref=\"S00001\"><he>ק׳</he></cite> (for Bibl. <i>Kalneh</i>). ",
+				"<cite ref=\"Yoma 10a:5\">Yoma 10ᵃ</cite> (for Bibl. <i>Resen</i>) <he>זה א׳</he> (Ms. <he>זו אקטספון</he>; Var. <he>קטיספון</he>; <he>טיספוס</he>). ",
+				"<cite ref=\"Gittin 6a:14\">Gitt. 6ᵃ</cite>. ",
+				"<cite ref=\"Eruvin 57b:13\">Erub. 57ᵇ</cite> <he>אקיסט׳</he> (corr. acc.; Ms. M. <he>קטי׳</he>; v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

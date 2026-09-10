@@ -1,0 +1,26 @@
+{
+	"id": "E00761",
+	"slug": "הפר",
+	"headword": {
+		"text": "הָפֵר"
+	},
+	"page": {
+		"number": 362,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Inf. Hif. of <cite ref=\"Q02017\"><he>פָּרַר</he></cite>, <cite ref=\"Q00328\"><he>פּוּר</he></cite>; fr. ",
+			"units": [
+				"<cite ref=\"Numbers 30:13\">Num. XXX</cite>, esp. verse 13) <i>the law of ‘hafer’, the husband’s</i> (or <i>father’s</i>) <i>right</i> of declaring void his wife’s (or <i>daughter’s</i>) <i>vow, invalidation</i>. ",
+				"<cite ref=\"Mishnah Nedarim 10:7\">Ned. X, 7</cite>, a. fr. <he>את שבא לכלל הקם בא לכלל ה׳</he> whatever comes under the law of <i>hakem</i> (confirmation), comes under the law of <i>hafer</i> (invalidation), i.e. as you cannot confirm a vow before it has been made, so you cannot invalidate a vow in advance. ",
+				"<cite ref=\"Nedarim 69a:6\">Ib. 69ᵃ</cite>; <cite ref=\"Nedarim 79a:3\">79ᵃ</cite> <he>על הה׳</he> in a case where the right of invalidation might have been exercised. ",
+				"<cite ref=\"Tosefta Nedarim 7:5\">Tosef. ib. VII, 5</cite> <he>חומר בהקם שאינו בה׳</he> there are restrictions in the law of confirmation which do not apply to the law of invalidation &c. Y. ib. X, 42ᵃ bot. <he>ה׳ נדרים מעת לעת</he>, v. <cite ref=\"E00762\">next w.</cite>; a. fr. [In comment. our w. is spelled <he>הפר</he> and <cite ref=\"E00478\"><he>הֵיפֵר</he></cite> indiscriminately, which would intimate that it is pronounced <cite ref=\"Q02017\"><he>הֵפֵר</he></cite>, fr. ",
+				"<cite ref=\"Numbers 30:9\">Num. XXX, 9</cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"id": "M01374",
+	"slug": "מכי-1",
+	"headword": {
+		"text": "מְכִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְכָא"
+		}
+	],
+	"page": {
+		"number": 782,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"M00470\"><he>מוּךְ</he></cite>) <i>to decline, bend</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 5:4\">Targ. Jud. V, 4</cite>; a. e. (v. <cite ref=\"M00470\"><he>מוּךְ</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַמְכֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to lower</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite>, beg. <he>אַמְכַת לאפה</he> she lowered her face (looked down sulkily); <cite ref=\"Vayikra Rabbah 34:14\">Lev. R. s. 34</cite> <he>אמכת על אפא</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְמְכֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be bent down, depressed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 38:9\">Targ. Ps. XXXVIII, 9</cite> <he>אִתְמְכָיִית</he> (ed. Wil. <he>אִתְמַכִית</he>; h. text <he>נדכיתי</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 106:43\">Ib. CVI, 43</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 24:24\">Targ. Job XXIV, 24</cite> (Ms. <he>אִתְמַכִּיכוּ</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

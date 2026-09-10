@@ -1,0 +1,106 @@
+{
+	"id": "H01401",
+	"slug": "חסן-1",
+	"headword": {
+		"text": "חֲסַן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 488,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be strong</i>. [<cite ref=\"Targum Jonathan on Isaiah 63:15\">Targ. Is. LXIII, 15</cite>, v. <i>Ithpa.</i>]—V. <cite ref=\"H00414\"><he>חוּסְנָא</he></cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>חזק</he>) <i>to take possession</i> (mostly in <i>Af.</i>).",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַסֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to strengthen</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 35:3\">Targ. Is. XXXV, 3</cite> (h. text <cite ref=\"A02055\"><he>אמץ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְסֵין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01400\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 49:24\">Targ. O. Gen. XLIX, 24</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 2:14\">Targ. Am. II, 14</cite> (h. text same. ",
+						"<cite ref=\"Onkelos Genesis 49:24\">Targ. O. Gen. XLIX, 24</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 2:14\">Targ. Am. II, 14</cite> (h. text <cite ref=\"A02055\"><he>אמץ</he></cite>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to take possession</i> (for one’s self and heirs). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 37:29\">Targ. Ps. XXXVII, 29</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 25:46\">Targ. O. Lev. XXV, 46</cite> (Y. <he>תִחְסְ׳</he>, <i>Pe.</i>); a. fr.—",
+						"<cite ref=\"Bava Batra 148b:17\">B. Bath. 148ᵇ</cite> bot. <he>אף יַחְסִין וירת וכ׳</he> also if he uses the expression <i>yaḥsin</i>, he shall take possession, or <i>yereth</i>, he shall inherit, referring to an heir."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to give possession, to bequeathe</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 32:8\">Targ. O. Deut. XXXII, 8</cite> <he>באחסנא</he> (Y. <he>באַחְסָנוּת</he> verbal noun, constr.). ",
+						"<cite ref=\"Targum Jonathan on Numbers 11:26\">Targ. Y. I Num. XI, 26</cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to hoard up</i> (v. <cite ref=\"H01404\"><he>חִסְנָא</he></cite>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 2:6\">Targ. Am. II, 6</cite>; <cite ref=\"Targum Jonathan on Amos 8:6\">VIII, 6</cite> (h. text <he>נעלים</he>, v. <cite ref=\"N00988\"><he>נַעַל</he></cite>)."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"H00553\"><he>חָזַק</he></cite> Hif.) <i>to hold, have room for</i>. Y. Snh. X, 29ᵃ top (ref. to <cite ref=\"II Kings 6:1\">II Kings VI, 1</cite>) <he>לא א׳ אוכלוסייא וכ׳</he> (not <he>אסחין</he>) it did no longer hold the masses &c.",
+					"units": [],
+					"label": "5"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְחַסֵּין", "אִתְחַסַּן"],
+			"senses": [
+				{
+					"gloss": "<i>to strengthen one’s self, to betake one’s self; to control one’s own emotions</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 3:8\">Targ. Jer. III, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 63:15\">Targ. Is. LXIII, 15</cite> ed. Lag. (oth. ed. <he>יֶחְסְ׳</he>).—",
+						"<cite ref=\"Onkelos Genesis 43:31\">Targ. O. Gen. XLIII, 31</cite> (v. <cite ref=\"G00686\"><he>זְרַז</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on I Samuel 13:12\">Targ. I Sam. XIII, 12</cite>; a. fr. (h. text <he>התאפק</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be put in possession</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 7:3\">Targ. Job VII, 3</cite> (h. text <he>הָנְחַלְתִּי</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"id": "K00918",
+	"slug": "כסי-4",
+	"headword": {
+		"text": "כְּסֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּסָא"
+		}
+	],
+	"page": {
+		"number": 653,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00917\">same</cite>, <i>Part.</i> <i>pass.</i> <cite ref=\"K00916\"><he>כְּסִי</he></cite>, f. <cite ref=\"K00919\"><he>כַּסְיָא</he></cite> <i>hidden</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 3:1\">Targ. I Sam. III, 1</cite> <he>כְּסִי</he> Bxt. (ed. <cite ref=\"K00919\"><he>כַּסִּי</he></cite>, <cite ref=\"K00918\"><he>כַּסֵּי</he></cite>; h. text <he>יקר</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 6:8\">Targ. II Kings VI, 8</cite> (h. text <he>פלני</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 28:21\">Targ. Job XXVIII, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 6:9\">Targ. II Kings VI, 9</cite> <cite ref=\"K00947\"><he>כָּסָן</he></cite> (h. text <he>נְחִתִּים</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּסֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to cover, hide, conceal</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 38:15\">Targ. O. Gen. XXXVIII, 15</cite> (Y. <he>כעיסת</he>). Ib. XLVII, 18; a. fr.—<i>Part. pass.</i> <he>מְכַסָּא</he> <i>unknown, remote</i>. ",
+						"<cite ref=\"Targum Jonathan on II Kings 19:2\">Targ. II Kings XIX, 2</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 4:13\">Targ. O. Lev. IV, 13</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 13:2\">Targ. II Sam. XIII, 2</cite> (h. text <he>ויפלא</he>); a. e.—",
+						"<cite ref=\"Shabbat 156b:6\">Sabb. 156ᵇ</cite> <he>כַּסִּי רישיך וכ׳</he> keep thy head covered in order that the fear of the Lord may rest upon thee. ",
+						"<cite ref=\"Shabbat 125a:2\">Ib. 125ᵃ</cite> <he>לכַסּוּיֵי בהו וכ׳</he> to cover a nuisance with it. ",
+						"<cite ref=\"Bereishit Rabbah 52\">Gen. R. s. 52</cite>, [read as:] <cite ref=\"Yalkut Shimoni on Torah 91:1\">Yalk. ib. 91</cite> <he>וכסי עיניך מינאי</he> and close thine eye from upon me, i.e. take the indulgence money. ",
+						"<cite ref=\"Taanit 25a:16\">Taan. 25ᵃ</cite> <he>רקיע</he> … <he>כסי פניך ולא אִיכַּסִי</he> ‘cover thy face, O sky,’ but the sky was not covered. ",
+						"<cite ref=\"Chullin 87a:1\">Ḥull. 87ᵃ</cite> <he>אפשר … ומְכַסֵּי בחדא</he> he may kill with one hand and cover (the blood) with the other; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְכַּסִּי", "אִיכַּסִּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered, hidden; to cover one’s self; to conceal one’s self, withdraw</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 20:16\">Targ. Y. Gen. XX, 16</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 4:13\">Targ. Y. Lev. IV, 13</cite>. ",
+						"<cite ref=\"Onkelos Genesis 18:14\">Targ. Gen. XVIII, 14</cite> (h. text <he>יפלא</he>, v. supra); a. fr.—",
+						"<cite ref=\"Aramaic Targum to Psalms 139:6\">Targ. Ps. CXXXIX, 6</cite> <he>מִכַּסְיָא</he>.—Taan. l. c., v. supra. Ib. 23ᵃ <he>א׳ מעינא ונים וכ׳</he> he disappeared and slept seventy years. ",
+						"<cite ref=\"Ketubot 63a:1\">Keth. 63ᵃ</cite> <he>שאילי … ואִיכַּסָּאִי</he> borrow some garments and dress thyself; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"id": "K00086",
+	"slug": "כבש-6",
+	"headword": {
+		"text": "כֵּבַשׁ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּבְשָׁא"
+		},
+		{
+			"text": "כִּיבְשָׁא"
+		}
+	],
+	"page": {
+		"number": 611,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"K00084\"><he>כֶּבֶשׁ</he></cite><i>ascent</i> (scamnum), <i>stepping stool</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 26:16\">Targ. I Chr. XXVI, 16</cite> (h. text <he>מסלה</he>). ",
+				"<cite ref=\"Targum of I Chronicles 28:2\">Ib. XXVIII, 2</cite> <cite ref=\"K00085\"><he>כבש</he></cite> (constr.); <cite ref=\"Aramaic Targum to Psalms 132:7\">Targ. Ps. CXXXII, 7</cite> (h. text <he>הדם</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 66:1\">Targ. Is. LXVI, 1</cite> <cite ref=\"K00082\"><he>כְּבַשׁ</he></cite> (ed. Lag. <cite ref=\"K00488\"><he>כֵּיבַשׁ</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pressboard and loading stone</i>.—Pl. <he>כִּבְשֵׁי</he>, <cite ref=\"K00030\"><he>כִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 67b:3\">B. Bath. 67ᵇ</cite> (expl. <cite ref=\"P00053\"><he>עבירים</he></cite>, Mish. ",
+				"<cite ref=\"Bava Batra 67b:3\">ib.</cite>) <cite ref=\"K00030\"><he>כִּי׳</he></cite> Ms. M. (ed. <he>כב׳</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>grade</i>; <cite ref=\"K00606\"><he>בֵּי כ׳</he></cite> <i>a graded field</i> which requires no artificial irrigation, opp. <he>בי שקיא</he>. ",
+			"units": ["<cite ref=\"Kiddushin 62b:9\">Kidd. 62ᵇ</cite>"],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>dam or embankment</i>. <i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Eruvin 34b:8\">Erub. 34ᵇ</cite>, v. <cite ref=\"K00082\"><he>כְּבַשׁ</he></cite>."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>the hot ashes</i> (<i>pressed and levelled</i>) <i>in the oven</i> (v. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 4:5\">Bets. IV, 5</cite> quot. s. v. <cite ref=\"K00081\"><he>כָּבַשׁ</he></cite> <i>Pi.</i>). ",
+				"<cite ref=\"Chullin 93b:7\">Ḥull. 93ᵇ</cite> <he>רישא בכ׳</he> a head put in ashes (for removing the hair before boiling)."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": "<i>path</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 20:12\">Targ. II Sam. XX, 12</cite>, sq. <cite ref=\"K00876\"><he>כי׳</he></cite> ed. Lag. (ed. Wil. <he>כַּבְ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 4:13\">Targ. I Sam. IV, 13</cite> <cite ref=\"K00085\"><he>כִּבֶּשׁ</he></cite> constr., v. <cite ref=\"K00055\"><he>כְּבִישׁ</he></cite>.—6) (archit.) <i>recess, enceinte</i>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 45:4\">Targ. Ez. XLV, 4</cite>; <cite ref=\"Targum Jonathan on Ezekiel 48:21\">ib. XLVIII, 21</cite> constr. <cite ref=\"K00488\"><he>כֵּיבַשׁ</he></cite> ed. Wil. (h. text <he>מקדש</he>)."
+			],
+			"label": "6"
+		}
+	]
+}

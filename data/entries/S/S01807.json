@@ -1,0 +1,28 @@
+{
+	"id": "S01807",
+	"slug": "קציא-1",
+	"headword": {
+		"text": "קָצַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָצַיָּיא"
+		}
+	],
+	"page": {
+		"number": 1405,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S01806\">preced.</cite>) <i>cut pieces, planks</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 6:5\">Ex. R. s. 6</cite>, end; Tanḥ. Vaëra 2, v. <cite ref=\"E00678\"><he>הֲנָיָיה</he></cite> ch."
+			]
+		}
+	]
+}

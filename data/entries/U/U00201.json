@@ -1,0 +1,44 @@
+{
+	"id": "U00201",
+	"slug": "שבתא-1",
+	"headword": {
+		"text": "שַׁבְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁבַּתָּא"
+		},
+		{
+			"text": "שׁוּבְּתָא"
+		}
+	],
+	"page": {
+		"number": 1520,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00200\">same</cite><i>Sabbath</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:25\">Targ. Ex. XVI, 25</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Exodus 16:23\">Targ. Y. ib. 23</cite> <he>שַׁבָּא שַׁבַּת קודשא</he> (O. <he>שְׁבָתָא שְׁבַת ק׳</he>, ed. Berl. <he>שַׁבָּא שְׁבָתָא ק׳</he>, v. <cite ref=\"U00202\">next w.</cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 58:13\">Targ. Is. LVIII, 13</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 28a:13\">Ber. 28ᵃ</cite> <he>גדרוש מר חדא ש׳ וכ׳</he> shall one (of them) preach one Sabbath, and the other the next Sabbath (alternately)? There will be jealousy. ",
+				"<cite ref=\"Shabbat 119a:5\">Sabb. 119ᵃ</cite> <he>דיזיף ש׳</he>, v. <cite ref=\"J00263\"><he>יְזַף</he></cite>. 118ᵃ, a. fr. <he>מעלי ש׳</he>, v. <cite ref=\"M02127\"><he>מֵעֲלָא</he></cite>. ",
+				"<cite ref=\"Gittin 38b:7\">Gitt. 38ᵇ</cite> <he>דקבעי … בש׳ וכ׳</he> who have their meals on the Sabbath during lecturing hours. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:6:2\">Y. Ber. II, 5ᵇ</cite> bot. <he>חזיא … בשו׳ וכ׳</he> saw mourners on the Sabbath, and saluted them; a. fr.—Pl. <he>שַׁבְּתַיָּא</he>, <cite ref=\"U00204\"><he>שַׁבְּתֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 2:13\">Targ. Hos. II, 13</cite> <he>שַׁבְּתָהָא</he> (ed. Wil. <cite ref=\"U00201\"><he>שַׁבַּתָּ׳</he></cite>).—Ber. l. c. <he>לדרוש … תלתא ש׳ וכ׳</he> let R. G. lecture three Sabbaths in succession, and R. El. b. Az. every fourth Sabbath. ",
+				"<cite ref=\"Sanhedrin 67b:13\">Snh. 67ᵇ</cite> <he>כל מעלי ש׳</he> (some ed. <i>sing.</i>) every Sabbath eve; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>week</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:9\">Targ. Esth. II, 9</cite>; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 11:8\">Gen. R. s. 11</cite> <he>חד בש׳</he> the first day of the week; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

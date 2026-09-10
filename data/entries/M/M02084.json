@@ -1,0 +1,30 @@
+{
+	"id": "M02084",
+	"slug": "מעון-2",
+	"headword": {
+		"text": "מָעוֹן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 814,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (b. h.) <i>Maon</i>, in Judaea. Mekh. Yithro, Baḥod. s. l. <he>מ׳ יהודה</he>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>מ׳</he>, also <cite ref=\"M01502\"><he>בֵּית מ׳</he></cite> <i>Maon, Beth Maon</i>, near Tiberias. ",
+			"units": [
+				"<cite ref=\"Shabbat 139a:22\">Sabb. 139ᵃ</cite> bot. <he>בי כנישתא דמ׳</he> the synagogue of M.; (<cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite>, beg. <he>בכנישתהון דמעונא</he>, read <he>דמְעוֹנָאֵי</he>; Y. Snh. II, end, 20ᵈ <he>בכ׳ בטיבריא</he>). ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:1:6\">Y. Erub. V, 22ᵇ</cite> bot. <he>בית מ׳</he>; <cite ref=\"Jerusalem Talmud Sotah 1:8:3\">Y. Sot. I, 17ᵃ</cite> bot. <he>בית מעיין</he> (corr. acc.); <cite ref=\"Bamidbar Rabbah 9:24\">Num. R. s. 9</cite> (ed. Wil. p. 58).—[<cite ref=\"Tosefta Shevi'it 7:13\">Tosef. Shebi. VII, 13</cite> <he>מעון אנא</he> Var., ed. Zuck. <cite ref=\"U01517\"><he>שמעון</he></cite>; oth. ed. <cite ref=\"M02146\"><he>מען</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

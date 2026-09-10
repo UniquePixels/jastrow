@@ -1,0 +1,23 @@
+{
+	"id": "I00780",
+	"slug": "טריז",
+	"headword": {
+		"text": "טָרִיז",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 553,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (supposed to be a Persian word, expl. by R. Ḥănanel by Arabic <i>banîke</i>) <i>gusset, gore</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 98b\">Sabb. 98ᵇ</cite> <he>שפי</he> … <he>עד דט׳</he> Ar. (read <he>כי ט׳</he>, v. Koh. Ar. Compl. s. v., ed. <he>כי טורין</he>) they planed the boards (so as to be gradually decreasing in thickness) like a gusset; Yalk. Ex. 370 <he>כי טורין</he>."
+			]
+		}
+	]
+}

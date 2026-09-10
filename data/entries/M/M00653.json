@@ -1,0 +1,24 @@
+{
+	"id": "M00653",
+	"slug": "מוריר",
+	"headword": {
+		"text": "מוֹרִיר"
+	},
+	"page": {
+		"number": 750,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. <i>Hif.</i>, denom. of <cite ref=\"T00713\"><he>רִיר</he></cite>) <i>spitting, discharging secretion</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Parah 9:6\">Tosef. Par. IX</cite> (<cite ref=\"Tosefta Parah 8:6\">VIII</cite>), 6 <he>מפני שהוא מוריר</he> R. S. to <cite ref=\"Mishnah Parah 9:2\">Par. IX, 2</cite> (ed. <he>מוריד</he>, corr. acc.) because it secretes liquid matter.—Pl. <he>מוֹרְרִין</he>. ",
+				"<cite ref=\"Mishnah Parah 9:2\">Ib.</cite> R. S. l. c. (ed. <he>מודין</he>, corr. acc.). ",
+				"<cite ref=\"Mishnah Negaim 9:2\">Neg. IX, 2</cite>, quot. by R. S. to Par. l. c.; v. <cite ref=\"M02528\"><he>מָרַד</he></cite>."
+			]
+		}
+	]
+}

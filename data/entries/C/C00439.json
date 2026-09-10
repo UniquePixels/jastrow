@@ -1,0 +1,27 @@
+{
+	"id": "C00439",
+	"slug": "גוניא",
+	"headword": {
+		"text": "גּוּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּינְיָא"
+		}
+	],
+	"page": {
+		"number": 224,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (an assumed form corresp. to γυνεος) <i>man</i>, v. <cite ref=\"A02314\"><he>אַנְתְּרוֹפִּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 18:4\">Gen. R. s. 18</cite>; s. 31."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "E00958",
+	"slug": "התריה",
+	"headword": {
+		"text": "הַתְרָיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַתְרָיָיה"
+		},
+		{
+			"text": "הַתְרָאָה"
+		}
+	],
+	"page": {
+		"number": 371,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>תָּרָה</he> <i>Hif.</i>) <i>making one acquainted with the law on a certain subject</i>, esp. <i>the legal warning, by witnesses, given to the offender immediately before committing the offense</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 8b:6\">Snh. 8ᵇ</cite>, a. e. <he>חבר אינו צריך ה׳ וכ׳</he> a student requires no warning, for the law requiring warning is intended only to enable the court to decide between the willful and the ignorant offender. ",
+				"<cite ref=\"Shevuot 3b:8\">Shebu. 3ᵇ</cite>, a. fr. <he>הַתְרָאַת ספק</he> a warning under doubt, e.g. one swears that he will do a certain thing during this day, when the actual moment of the offense (of omission) cannot be defined, so as to make the warning precede it, immediately. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:4:9\">Y. Pes. V, 32ᶜ</cite> top <he>מקבלין התרייה על ספק</he> warning is accepted (considered legal) on a doubtful offense; a. fr.—Pl. <he>הַתְרָיוֹת</he>, <he>הַתְרָאוֹת</he>. Y. B. Kam. VII, 5ᵈ bot.; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "L00014",
+	"slug": "לאי-2",
+	"headword": {
+		"text": "לאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לָאָה"
+		}
+	],
+	"page": {
+		"number": 686,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to labor</i> (<i>in vain</i>); <i>to be tired</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite> (expl. <he>וילאו</he>, <cite ref=\"Genesis 19:11\">Gen. XIX, 11</cite>), v. <cite ref=\"L00015\">next w.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִלְאָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be exhausted</i>. ",
+					"units": ["<cite ref=\"Bava Kamma 82a\">B. Kam. 82ᵃ</cite>; a. e."]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

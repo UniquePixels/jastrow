@@ -1,0 +1,25 @@
+{
+	"id": "T00912",
+	"slug": "רעם-5",
+	"headword": {
+		"text": "רַעַם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְעִים"
+		}
+	],
+	"page": {
+		"number": 1488,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00911\">same</cite> <cite ref=\"Targum Jonathan on Isaiah 29:6\">Targ. Is. XXIX, 6</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 19:16\">Targ. Y. Ex. XIX, 16</cite>."
+			]
+		}
+	]
+}

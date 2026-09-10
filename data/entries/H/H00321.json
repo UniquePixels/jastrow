@@ -1,0 +1,32 @@
+{
+	"id": "H00321",
+	"slug": "חול-3",
+	"headword": {
+		"text": "חוּל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 432,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"H00987\"><he>חָלָה</he></cite>) <i>to be smooth, quiet</i>, v. infra.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְחוֹלֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to be quieted</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 30b:9\">Ber. 30ᵇ</cite> <he>כדי שתִּתְחוֹלֵל דעתו עליו</he> (Ms. M., <cite ref=\"Yalkut Shimoni on Torah 392\">Yalk. Ex. 392</cite>, Deut. 813 <he>שתָּחוּל</he>) until his mind is quieted (collected for prayer)."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

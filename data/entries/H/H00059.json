@@ -1,0 +1,23 @@
+{
+	"id": "H00059",
+	"slug": "חביונא",
+	"headword": {
+		"text": "חֶבְיוֹנָא"
+	},
+	"page": {
+		"number": 418,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00047\"><he>חבי</he></cite>; b. h. <i>secret place, recess.—</i>Pl. constr. <he>חֶבְיוֹנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:14\">Targ. Cant. II, 14</cite> <he>ח׳ דַּרְגָּתָא</he> (ed. Lag. <he>דַּרְגִּיתָא</he>, h. text <he>סתר המדרגה</he>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:20\">Targ. Koh. X, 20</cite>."
+			]
+		}
+	]
+}

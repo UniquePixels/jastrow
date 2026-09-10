@@ -1,0 +1,23 @@
+{
+	"id": "R00745",
+	"slug": "צרוב",
+	"headword": {
+		"text": "צָרוֹב",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1300,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00731\"><he>צרב</he></cite>) <i>smelter, goldsmith.—</i>Pl. <he>צָרוֹבִין</he>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 82a\">Kidd. 82ᵃ</cite> Ar. (ed. <he>צוֹרְפִים</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "P00869",
+	"slug": "עמון",
+	"headword": {
+		"text": "עַמּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּנֵי עַמּוֹן"
+		}
+	],
+	"page": {
+		"number": 1087,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) pr. n. gent. <i>Ammon</i>, a people descended from Ben Ammi, the son of Lot; mentioned chiefly in connection with Moab. ",
+			"units": [
+				"<cite ref=\"Pesachim 119a:9\">Pes. 119ᵃ</cite> <cite ref=\"P00869\"><he>בני ע׳</he></cite>. ",
+				"<cite ref=\"Mishnah Yadayim 4:3\">Yad. IV, 3</cite> <he>ע׳ ומואב מעשרין וכ׳</he> Jewish inhabitants of the land of A. a. M. must give the poor man’s tithes in the Sabbatical years; <cite ref=\"Yevamot 16a:10\">Yeb. 16ᵃ</cite>; <cite ref=\"Chagigah 3b:9\">Ḥag. 3ᵇ</cite>. ",
+				"<cite ref=\"Gittin 38a:3\">Gitt. 38ᵃ</cite>; <cite ref=\"Chullin 60b:13\">Ḥull. 60ᵇ</cite>, v. <cite ref=\"O00602\"><he>סִיחוֹן</he></cite>; a. fr."
+			]
+		}
+	]
+}

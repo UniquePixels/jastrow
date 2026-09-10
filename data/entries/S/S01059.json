@@ -1,0 +1,28 @@
+{
+	"id": "S01059",
+	"slug": "קיסומא-1",
+	"headword": {
+		"text": "קִיסּוּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִסּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1364,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01669\"><he>קְסַם</he></cite>) <i>divination</i>.—Pl. <he>קִיסּוּמִין</he>, <cite ref=\"S01059\"><he>קִסּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 21:28\">Targ. Ez. XXI, 28</cite>.—[<cite ref=\"Targum Jonathan on Deuteronomy 18:14\">Targ. Y. I Deut. XVIII, 14</cite> <he>קיסומי</he>, read: <he>קָסוֹמֵי</he>.]"
+			]
+		}
+	]
+}

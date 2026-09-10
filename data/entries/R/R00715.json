@@ -1,0 +1,50 @@
+{
+	"id": "R00715",
+	"slug": "צפר-5",
+	"headword": {
+		"text": "צְפַר",
+		"homograph": 4
+	},
+	"altHeadwords": [
+		{
+			"text": "צַפְרָא"
+		}
+	],
+	"page": {
+		"number": 1298,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>צְפַר</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>morning</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:5\">Targ. Gen. I, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 90:6\">Targ. Ps. XC, 6</cite>; a. v. fr.—[<cite ref=\"Aramaic Targum to Psalms 90:10\">Ib. 10</cite> <he>וטייסין לצ׳</he>, prob. to be read: <he>כצִפָּרָא</he>.]—",
+				"<cite ref=\"Pesachim 111b\">Pes. 111ᵇ</cite> <he>בטולי דצ׳ וכ׳</he> in the morning and evening shadows of things of less than a cubit’s length. ",
+				"<cite ref=\"Bava Metzia 107b\">B. Mets. 107ᵇ</cite>; <cite ref=\"Bava Kamma 92b:2\">B. Kam. 92ᵇ</cite> (prov.) <he>שתין … גברא דמצ׳ כרך</he> sixty runners may run, but will not overtake a man that takes early morning meals. ",
+				"<cite ref=\"Taanit 22a\">Taan. 22ᵃ</cite> top, a. fr. <he>לצ׳</he> when the morning came. ",
+				"<cite ref=\"Pesachim 12b\">Pes. 12ᵇ</cite>; a. v. fr.—Pl. <he>צַפְרַיָּא</he>, <he>צַפְרִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 101:8\">Targ. Ps. CI, 8</cite> (ed. Wil. <i>sing.</i>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:23\">Targ. Lam. III, 23</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>whistling signal</i>.—<i>Pl.</i> as ab <cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 78ᵃ</cite> top, v. <cite ref=\"R00715\"><he>צְפר</he> I</cite>.—[",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>bird</i>, v. next art.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

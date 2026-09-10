@@ -1,0 +1,56 @@
+{
+	"id": "M02339",
+	"slug": "מצע-1",
+	"headword": {
+		"text": "מָצַע"
+	},
+	"page": {
+		"number": 827,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"M02271\"><he>מָצָה</he></cite>) <i>to press, squeeze</i>.—Denom. <cite ref=\"A02056\"><he>אֶמְצַע</he></cite> q. v.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מִיצֵּעַ"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"M02271\"><he>מָצָה</he></cite> <i>Hithpa.</i>) <i>to be exact in calculation, to measure exactly</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Eiruvin 4\">Tosef. Erub. IV (III), 4</cite> <he>ואם מִיצְּעוּ את התחום וכ׳</he> and if they (those authorized to lay for him the Erub, v. <cite ref=\"P00680\"><he>עֵירוּב</he></cite>) measured the Sabbath limit exactly (laying the Erub. in opposite directions, each exactly at 2000 cubits from his present place), he must not move from his place; <cite ref=\"Eruvin 50b\">Erub. 50ᵇ</cite>; Y. ib. III, 21ᵇ <he>מיצע את וכ׳</he> if he had the Erub. laid &c. Ib. <he>מיצעת את וכ׳</he> (read <he>מִיצְּעוּ</he>) if they (the partners) laid the Erub. &c.; Tosef. ib. IX (VI), 12 <he>מיצע</he> (read: <he>מיצעו</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"A02056\"><he>אֶמְצַע</he></cite>) <i>to place in the middle</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 2:1\">Snh. II, 1</cite> <he>מְמַצְּעוֹ</he>, v. <cite ref=\"M01653\"><he>מְמוּנֶּה</he></cite>. Y. Ber. V, end, 9ᵈ <he>מְמַצְּעִין את הכהן</he> the priest is called upon to read between the two common Israelites. ",
+						"<cite ref=\"Bereishit Rabbah 95:1\">Gen. R. s. 95</cite> <he>היו מְמַצְּעִים אותו וכ׳</he> they took him in the middle and guarded him. ",
+						"<cite ref=\"Pesachim 111a:8\">Pes. 111ᵃ</cite> <he>שלשה אין ממצעין ולא מִתְמַצְּעִין</he> there are three objects we must not allow to pass between two persons, nor must any person be passed between them.—<i>Part. pass.</i> <he>מְמוּצָּע</he> "
+					],
+					"label": "2",
+					"senses": [
+						{
+							"gloss": " <i>exactly placed</i> (= <cite ref=\"M01354\"><he>מְכוּוָּן</he></cite>); ",
+							"units": [],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>placed between</i>. ",
+							"units": [
+								"<cite ref=\"Zevachim 58b:12\">Zeb. 58ᵇ</cite> <he>מזבח ממ׳ ועומד וכ׳</he> the altar was placed exactly in the centre of the Temple; <cite ref=\"Yoma 16a\">Yoma 16ᵃ</cite>; <cite ref=\"Yoma 33b\">ib. 33ᵇ</cite>; Sifra Vayikra, N’dab., <cite ref=\"Mishnah Parah 5\">Par. V</cite>, ch. VII <he>מְמֻצְּע</he>. ",
+								"<cite ref=\"Shemot Rabbah 2:5\">Ex. R. s. 2</cite> <he>שהיה ממ׳ ועומד באמצע וכ׳</he> who was standing in the very centre of the fire. Y. Ber. IV, 8ᵇ top <he>גדולה … שהיא מְמוּצַּעַת וכ׳</he> knowledge is something great, for it is placed between two divine names (<cite ref=\"I Samuel 2:3\">I Sam. II, 3</cite>)."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

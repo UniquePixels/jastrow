@@ -1,0 +1,25 @@
+{
+	"id": "R00813",
+	"slug": "צררא",
+	"headword": {
+		"text": "צְרָרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1305,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"R00751\"><he>צְרוֹר</he> II</cite>, <i>pebble</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 8:4:2\">Y. Peah VIII, 20ᵈ</cite> bot., v. <cite ref=\"B01342\"><he>בְּרָתָא</he></cite>.—Pl. <cite ref=\"R00814\"><he>צְרָרַיָּא</he></cite>, <he>צְרָרִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:4:4\">Y. R. Hash. II, 58ᵃ</cite> bot. <he>משדי עלוי צ׳</he> threw pebbles at it (the moon). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:28\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>כד מבחרא בצ׳</he> (not <he>מתברא בצדדיא</he>) when she picks the pebbles out (of the wheat)."
+			]
+		}
+	]
+}

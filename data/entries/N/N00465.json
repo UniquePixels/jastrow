@@ -1,0 +1,46 @@
+{
+	"id": "N00465",
+	"slug": "נזר-2",
+	"headword": {
+		"text": "נְזַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְזִיר"
+		}
+	],
+	"page": {
+		"number": 893,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00464\">same</cite>, <i>to abstain; to vow, observe nazariteship</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 6:3\">Targ. O. Num. VI, 3</cite> <he>יִזַּר</he> (ed. Berl. <he>יַזַּר</he> <i>Af.;</i> Y. II <he>יִתְנְזַר</he> <i>Ithpe.</i>). Targ. O. ib. 5 <he>דִּנְזִיר</he> ed. Berl. (Var. <he>דִּנְזַר</he>, <he>דְּיַנְזַר</he>, v. Berl. Targ. O. II, p. 40)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַזַּר", "אַזֵּיר"],
+			"senses": [
+				{
+					"gloss": ", <he>אַנְזַר</he> <cite ref=\"N00464\">same</cite>. Ib. 12; v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְנְזַר"],
+			"senses": [
+				{
+					"gloss": "<i>to abstain</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

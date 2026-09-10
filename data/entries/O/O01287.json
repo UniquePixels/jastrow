@@ -1,0 +1,23 @@
+{
+	"id": "O01287",
+	"slug": "סעורא",
+	"headword": {
+		"text": "סְעוֹרָא"
+	},
+	"page": {
+		"number": 1010,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סְעַר</he> I) <i>visitation</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 16:29\">Targ. O. Num. XVI, 29</cite> ed. Berl. (oth. ed. <cite ref=\"O01299\"><he>סְעָרָא</he></cite>; Var. <cite ref=\"O00381\"><he>סוּעֲרָא</he></cite>, <cite ref=\"O00381\"><he>סוּעֲרָה</he></cite>, <cite ref=\"O00067\"><he>סִי׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Micah 7:4\">Targ. Mic. VII, 4</cite> <he>סְעוּרַת</he> (constr.)."
+			]
+		}
+	]
+}

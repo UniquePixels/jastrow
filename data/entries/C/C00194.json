@@ -1,0 +1,23 @@
+{
+	"id": "C00194",
+	"slug": "גדיא-1",
+	"headword": {
+		"text": "גַּדְיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 211,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Gadya</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 9:13:4\">Y. Sot. IX, 24ᵇ</cite> <he>אצל בית ג׳</he> (<cite ref=\"Sanhedrin 11a:7\">Snh. 11ᵃ</cite> <he>בעליית בית גּוּרְיָא</he>). Tanḥ. Ki Thetsé 9; Pesik. Zakhor p. 25ᵃ; 25ᵇ <he>יודן בן ג׳</he>; <cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 64</cite> <cite ref=\"C00201\"><he>גדייא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 827:1\">Yalk. Ps. 827</cite> (<cite ref=\"Yalkut Shimoni on Nach 123\">Yalk. Sam. 123</cite> Ms. O. <cite ref=\"C00492\"><he>גּוּרְיָא</he></cite>, v. Bub. Pesik. l. c. note 76)."
+			]
+		}
+	]
+}

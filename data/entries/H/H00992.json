@@ -1,0 +1,30 @@
+{
+	"id": "H00992",
+	"slug": "חלוז",
+	"headword": {
+		"text": "חֲלוּז"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִילּוּזָא"
+		},
+		{
+			"text": "הִי׳"
+		}
+	],
+	"page": {
+		"number": 465,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01012\"><he>חלז</he></cite>) <i>knot</i> or <i>sling of the upper garment when lifted</i>, (<i>sinus</i>). Targ. II Esth. I, 2 (3) <he>וחליזת חִילּוּזָהּ</he> she lifted her garment.—",
+			"units": [
+				"<cite ref=\"Pesachim 113a:8\">Pes. 113ᵃ</cite> <he>תמרי בחֲלוּזָךְ וכ׳</he> if thou bringest dates home, with thy <i>sinus</i> (before ungirding) run to the brewery; [comment.: with the dates tied up in thy <i>bag</i>]. V. <cite ref=\"H00338\"><he>חוּלְזָא</he></cite>."
+			]
+		}
+	]
+}

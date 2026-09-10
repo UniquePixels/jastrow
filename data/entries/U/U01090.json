@@ -1,0 +1,31 @@
+{
+	"id": "U01090",
+	"slug": "שיש-2",
+	"headword": {
+		"text": "שַׁיִשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁיִישׁ"
+		}
+	],
+	"page": {
+		"number": 1569,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <he>שושו</he>,  [<i>smooth,</i>] <i>yellow marble</i> or <i>alabaster</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 14b:8\">Ḥag. 14ᵇ</cite> (in a mystic passage) <he>כשאתם מגיעין אצל אבני ש׳ טהור וכ׳</he> when you arrive at the stones of pure marble, say not, water, water. ",
+				"<cite ref=\"Shemot Rabbah 10\">Ex. R. s. 10</cite>; <cite ref=\"Midrash Tehillim 105\">Midr. Till. to Ps. CV</cite>, a. e., v. <cite ref=\"Q01309\"><he>פְּסִיפָּס</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 16:26\">Num. R. s. 16</cite> (play on <cite ref=\"U02057\"><he>ששי</he></cite>, <cite ref=\"Numbers 13:22\">Num. XIII, 22</cite>) <he>שהיה בריא כש׳</he> he was as sound as a marble block; Tanḥ. Sh’laḥ 7. ",
+				"<cite ref=\"Mishnah Middot 3:3\">Midd. III, 3</cite>. ",
+				"<cite ref=\"Tosefta Terumot 10:10\">Tosef. Ter. X, 10</cite>; a. fr."
+			]
+		}
+	]
+}

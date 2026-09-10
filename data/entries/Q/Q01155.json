@@ -1,0 +1,36 @@
+{
+	"id": "Q01155",
+	"slug": "פנדא-2",
+	"headword": {
+		"text": "פַּנְדָּא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 1186,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Panda</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " name of an Amora (?). ",
+			"units": [
+				"<cite ref=\"Berakhot 55b:16\">Ber. 55ᵇ</cite> (Ms. M. <he>פבנא</he> a. <cite ref=\"Q01881\"><he>פרנא</he></cite>; En Yaăk. ed. pr., a. Yoḥăsin <cite ref=\"Q01895\"><he>פרנך</he></cite>, v. Rabb. D. S. a. l. note)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>בר שיריקא פ׳</he> name of a demon. ",
+			"units": [
+				"<cite ref=\"Shabbat 67a:9\">Sabb. 67ᵃ</cite> (Rashi <he>פנדאי</he>; Ms. M. <he>פניא</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

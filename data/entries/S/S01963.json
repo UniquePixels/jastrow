@@ -1,0 +1,22 @@
+{
+	"id": "S01963",
+	"slug": "קרושא",
+	"headword": {
+		"text": "קְרוּשָׁא"
+	},
+	"page": {
+		"number": 1415,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02200\"><he>קְרַשׁ</he></cite>) <i>frost</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 31:40\">Targ. Y. Gen. XXXI, 40</cite> (Ar. <cite ref=\"S02084\"><he>קְרִישָׁא</he></cite>)."
+			]
+		}
+	]
+}

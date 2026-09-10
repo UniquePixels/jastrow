@@ -1,0 +1,31 @@
+{
+	"id": "V00501",
+	"slug": "תירוכין",
+	"headword": {
+		"text": "תִּירוּכִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּר׳"
+		}
+	],
+	"page": {
+		"number": 1666,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"V01007\"><he>תְּרַךְ</he></cite>) <i>being sent away, divorce</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:1\">Targ. Lam. I, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 24:1\">Targ. Y. Deut. XXIV, 1</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 24:3\">3</cite>.—",
+				"<cite ref=\"Mishnah Gittin 9:3\">Gitt. IX, 3</cite>, v. <cite ref=\"U00796\"><he>שִׁיבּוּקָא</he></cite>. ",
+				"<cite ref=\"Gittin 85b:12\">Ib. 85ᵇ</cite> <he>ולורכיה לוי״ו דת׳ וכ׳</he> and he must prolong the Vav in <i>tirukhin</i> …, lest it be read &c., v. <cite ref=\"U00796\"><he>שִׁיבּוּקָא</he></cite>."
+			]
+		}
+	]
+}

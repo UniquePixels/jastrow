@@ -1,0 +1,34 @@
+{
+	"id": "U01215",
+	"slug": "שלה-2",
+	"headword": {
+		"text": "שְׁלָה"
+	},
+	"page": {
+		"number": 1578,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"U01230\"><he>שָׁלֵו</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to hang down</i>; denom. <cite ref=\"U01224\"><he>שִׁלְהֵי</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"U01224\"><he>שִׁלְהֵי</he></cite>) <i>to end, complete</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:32\">Targ. Is. X, 32</cite> <he>כד יִשְׁלֶה עלמא וכ׳</he> (prob. to be read: <he>יַשְׁלֶה</he>) when the world shall have completed its (Messianic) period; (<cite ref=\"Targum Jerusalem, Exodus 12:42\">Targ. Y. II, Ex. XII, 42</cite> <he>יַשְׁלִים</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be at ease</i>; v. <cite ref=\"U01226\"><he>שַׁלְהַיָּא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

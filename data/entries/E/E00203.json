@@ -1,0 +1,55 @@
+{
+	"id": "E00203",
+	"slug": "הודאה-1",
+	"headword": {
+		"text": "הוֹדָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹדָיָה"
+		}
+	],
+	"page": {
+		"number": 337,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"F00017\"><he>ודי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>confession, admission</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 6:1\">Shebu. VI, 1</cite> <he>הה׳ בשוה וכ׳</he> the amount admitted to be due must be at least one P’rutah. ",
+				"<cite ref=\"Bava Metzia 3b\">B. Mets. 3ᵇ</cite>, a. fr. <he>הוֹדָאַת בעל דין וכ׳</he> the admission of indebtedness by the defendant is worth as much as a hundred witnesses; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>confession before the Lord, thanksgiving</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:10\">Sot. IX, 10</cite> (<cite ref=\"Sotah 47a:20\">47ᵃ</cite>) <he>הוֹדָיַית המעשר</he> (Mish. <he>הוֹדָיוֹת</he>, pl.) the confession to be recited on having given away the third year’s tithes (<cite ref=\"Deuteronomy 26:12\">Deut. XXVI, 12</cite> sq.); ib. 47ᵇ <cite ref=\"E00203\"><he>הוֹדָאַת</he></cite>; <cite ref=\"Mishnah Maaser Sheni 5:15\">Maas. Sh. V, 15</cite> (Mish. ed. <he>הודיות</he>). ",
+				"<cite ref=\"Bereishit Rabbah 71:5\">Gen. R. s. 71</cite> Leah seized <he>פלך ה׳</he> the shuttle of confession (made gratitude her duty, <cite ref=\"Genesis 29:35\">Gen. XXIX, 35</cite>); <he>בעלי ה׳</he> men of confession (ready to admit their wrong or to thank the Lord); Midr. Sam. ch. XXVIII.—",
+				"<cite ref=\"Mishnah Berakhot 4:2\">Ber. IV, 2</cite> (<cite ref=\"Berakhot 28b:3\">28ᵇ</cite>) <he>אני נותן ה׳ וכ׳</he> I offer thanks for my lot (being permitted to teach). Y. ib. I, 3ᵈ top <he>ה׳ ושבח וכ׳</he> thanks and praise are due to &c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Hodaah, the first of the last three sections of the Prayer of Benedictions</i> <he>(תפלה</he>), so named from the words <i>Modim</i> &c. ",
+			"units": [
+				"<cite ref=\"Berakhot 34a:14\">Ber. 34ᵃ</cite> <he>בה׳ תחלה וכ׳</he> in reciting the Hodaah one must bend at the beginning &c. ",
+				"<cite ref=\"Berakhot 34b:2\">Ib.ᵇ</cite> <he>בה׳ ובה׳ של הלל</he> on reading the Hodaah or the thanksgiving in <i>Hallel</i> (<cite ref=\"E00206\"><he>הוֹדוּ</he></cite>). ",
+				"<cite ref=\"Berakhot 34b:2\">Ib.</cite> <he>ה׳ דבה״מ</he> the thanksgiving in the grace after meal <he>(נוֹדֶה לְךָ וכ׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:2:13\">Y. Taan. II, 65ᶜ</cite> bot. <he>הידייה</he>.—Pl. <he>הוֹדָאיֹת</he>, <he>הוֹדָיוֹת</he>. ",
+				"<cite ref=\"Taanit 6b:16\">Taan. 6ᵇ</cite> <he>ברוך רוב הה׳</he> blessed be He to whom a multitude of thanks is due; <he>אל הה׳</he> the Power to whom (all) thanksgivings are due; <cite ref=\"Jerusalem Talmud Berakhot 1:5:14\">Y. Ber. I, 3ᵈ</cite> top; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:6:3\">Y. Taan. III, 66ᵈ</cite> bot. <he>פר של ה׳</he> the bullock over which the confessions are uttered.—Esp. <i>Hodâaoth, proceedings resting on evidences of the defendant’s admission of his indebtedness</i>. ",
+				"<cite ref=\"Sanhedrin 2b:3\">Snh. 2ᵇ</cite>; <cite ref=\"Bava Kamma 84b\">B. Kam. 84ᵇ</cite>; a. e.; cmp. <cite ref=\"A00566\"><he>אוֹדִיתָא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

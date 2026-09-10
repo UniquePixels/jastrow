@@ -1,0 +1,79 @@
+{
+	"id": "K01324",
+	"slug": "כשר-1",
+	"headword": {
+		"text": "כָּשֵׁר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 677,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>גשר</he>) [<i>to be well-joined</i>, (cmp. <cite ref=\"J00500\"><he>יָפֶה</he></cite>, <cite ref=\"A03096\"><he>אֲרִיךְ</he> II</cite>),] <i>to be proper, fit, right; to turn out well, to succeed</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Challah 1:1:11\">Y. Ḥall. I, 57ᵇ</cite> top <he>החטים שׁכָּשְׁרוּ לשאר וכ׳</he> wheats which are fit for all other meat offerings; ib. 57ᶜ; Sifra Vayikra, N’dabah, ch. XIV, Par. 13; a. fr.—V. <cite ref=\"K01326\"><he>כָּשֵׁר</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְשִׁיר"],
+			"senses": [
+				{
+					"gloss": " (ritual, v. <cite ref=\"K01326\"><he>כָּשֵׁר</he> II</cite>) <i>to pronounce kasher, to permit</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 3:2\">Ḥull. III, 2</cite> <he>ר׳</he> … <he>מַכְשִׁיר</he> R. pronounces it fit to be eaten, opp. <he>פוסל</he>; a. v. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make fit, to prepare</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 6:1\">Ab. VI, 1</cite> <he>מַכְשַׁרְתּוֹ להיות וכ׳</he> enables him to be righteous &c. ",
+						"<cite ref=\"Chullin 140a\">Ḥull. 140ᵃ</cite> <cite ref=\"M01442\"><he>מַכְשִׁיר</he></cite> an offering which makes fit for admission to the Temple or eating sacred food, contrad. to <he>מכפר</he> an offering which procures atonement; <cite ref=\"Kiddushin 57a\">Kidd. 57ᵃ</cite>, a. e.—",
+						"<cite ref=\"Sanhedrin 42b:1-11\">Snh. 42ᵇ</cite> <he>הוצא</he> … <he>מכשיר ומכפר</he> ‘the carrying outside of the camp’ (<cite ref=\"Leviticus 4:12\">Lev. IV, 12</cite>; <cite ref=\"Leviticus 4:21\">21</cite>) makes the act legal and procures atonement; <cite ref=\"Leviticus 4:21\">ib.</cite> <he>מכשיר ממכשיר עדיף ליה</he> the analogy between one fitting act and another is preferred.—",
+						"<cite ref=\"Mishnah Bava Kamma 1:2\">B. Kam. I, 2</cite> <he>הִכְשַׁרְתִּי את נזקו</he> I have prepared (am responsible for) the damage, v. <cite ref=\"H00231\"><he>חוּב</he></cite>. ",
+						"<cite ref=\"Mishnah Bava Kamma 1:2\">Ib.</cite> <he>הכשרתי</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>מקצת נזקו וכ׳</he> wherever I am the partial cause of a damage (e.g. by completing a pit to its legally indictable depth), I am as responsible as if I had been the entire author. ",
+						"<cite ref=\"Bereishit Rabbah 56\">Gen. R. s. 56</cite> the slaughtering knife is called <cite ref=\"M00040\"><he>מַאֲכֶלֶת</he></cite> (causing the eating) <he>לפי שׁמַכְשֶׁרֶת את האוכלים</he> (not <he>שמכשר</he>) because it makes the food fit for eating.—Esp. (with or without <he>לקבל טומאה</he>) <i>to make an object fit for levitical uncleanness</i> (v. ",
+						"<cite ref=\"Leviticus 11:34\">Lev. XI, 34</cite>; <cite ref=\"Leviticus 11:38\">38</cite>). ",
+						"<cite ref=\"Chullin 35b:9\">Ḥull. 35ᵇ</cite> <he>וכי הדם מַכְשִׁיר … מַכְשֶׁרֶת</he> is it the blood (as a liquid) which fits the meat for uncleanness?; is it not rather the slaughtering (because it makes it ‘an eatable’)?—",
+						"<cite ref=\"Chullin 33a:13\">Ib. 33ᵃ</cite> <he>חיבת הקדש מַכְשַׁרְתָּן</he>, v. <cite ref=\"H00016\"><he>חִבָּה</he></cite>; <cite ref=\"Chullin 36b:13\">ib. 36ᵇ</cite> <he>מַכְשַׁרְתָּהּ</he>. ",
+						"<cite ref=\"Mishnah Makhshirin 6:6\">Makhsh. VI, 6</cite>. Y. Gitt. I, 43ᶜ <he>על מי בצים שאינן מַכְשִׁירִין</he> that the liquid of eggs does not fit for uncleanness; Y. Shebi. VI, 36ᶜ top <he>שאין כשירין</he> (corr. acc.); a. v. fr.—V. <cite ref=\"E00526\"><he>הֶכְשֵׁר</he></cite>, <cite ref=\"M01442\"><he>מַכְשִׁירִין</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּכְשַׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to be made fit; to be pronounced fit; to be prepared; to be fitted for levitical uncleanness</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 50a\">Yoma 50ᵃ</cite> <he>במה ה׳ אהרן וכ׳</he> through what act is Aaron (a high priest) made fit to enter &c.?—",
+						"<cite ref=\"Shabbat 76a:1\">Sabb. 76ᵃ</cite> <he>כל שאינו כשר … וה׳ לזה וכ׳</he> that which is not fit for preservation but appeared fit to this man, and he did preserve it. ",
+						"<cite ref=\"Chullin 22b:2\">Ḥull. 22ᵇ</cite> <he>הוּכְשְׁרוּ</he> are pronounced fit for sacrifices. ",
+						"<cite ref=\"Mishnah Chullin 2:5\">Ib. II, 5</cite> <he>הוכשרו בדם</he> they became fit for uncleanness through the blood (flowing out at killing); <he>ה׳ בשחיטה</he> they became fit through the act of slaughtering (v. supra); a. v. fr.—[Y. Keth. XII, 35ᵃ <he>מכושר</he>, read: <he>מב׳</he>, v. <cite ref=\"B01368\"><he>בָּשַׂר</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְכַּשֵּׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to adapt one’s self, to work with zeal and conscientiousness</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 5:11:5\">Koh. R. to V, 11</cite> <he>מִתְכַּשֵּׁר במלאכתו וכ׳</he> more skilled and zealous in his work than &c. (cmp. <cite ref=\"G00703\"><he>זָרִיז</he></cite>). ",
+						"<cite ref=\"Bereishit Rabbah 9\">Gen. R. s. 9</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

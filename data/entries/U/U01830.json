@@ -1,0 +1,26 @@
+{
+	"id": "U01830",
+	"slug": "שקד-5",
+	"headword": {
+		"text": "שָׁקֵד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1621,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>almond-tree, almond</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 12:7:1\">Koh. R. to XII, 7</cite> (ref. to <cite ref=\"Jeremiah 1:11\">Jer. I, 11</cite>) <he>מה הש׳ הזה משעה וכ׳</he> as the almond-tree takes twenty-one days from the time it blossoms to mature its fruit &c.; Lam. R. introd. (R. Josh. 2); a. fr.—Pl. <he>שְׁקֵדִים</he>, <he>שְׁקֵדִין</he>, <cite ref=\"O01481\"><he>שְׁקֵי׳</he></cite>. ",
+				"<cite ref=\"Mishnah Maasrot 1:4\">Maasr. I, 4</cite> <he>ש׳ המרים</he> bitter almonds. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 3:5:2\">Y. Orl. III, 63ᵇ</cite> top <he>שְׁקֵידֵי פרך</he> soft-shell almonds (v. <cite ref=\"Q01847\"><he>פֶּרֶךְ</he></cite>); a. e."
+			]
+		}
+	]
+}

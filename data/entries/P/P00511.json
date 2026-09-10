@@ -1,0 +1,23 @@
+{
+	"id": "P00511",
+	"slug": "עידור",
+	"headword": {
+		"text": "עִידּוּר"
+	},
+	"page": {
+		"number": 1067,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00163\"><he>עָדַר</he></cite>) <i>hoeing</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 3a\">M. Kat. 3ᵃ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite> <he>בע׳ בשעת הע׳</he> engaged in hoeing at the proper time, v. <cite ref=\"N00666\"><he>נִיכּוּשׁ</he></cite>."
+			]
+		}
+	]
+}

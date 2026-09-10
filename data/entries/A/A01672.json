@@ -1,0 +1,29 @@
+{
+	"id": "A01672",
+	"slug": "אכוז",
+	"headword": {
+		"text": "אָכוּז",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "עָכוּז"
+		}
+	],
+	"page": {
+		"number": 62,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00225\"><he>כוז</he></cite>, v. <cite ref=\"K00225\"><he>כּוּז</he></cite>) [hollow, arched pitcher], euphem. for <i>buttocks</i> or <i>extremity</i> (<i>testicles</i> &c.). ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:6\">Bekh. VI, 6</cite> (<cite ref=\"Bekhorot 40a:5\">40ᵃ</cite>) <cite ref=\"P00001\"><he>ע׳</he></cite>. ",
+				"<cite ref=\"Eruvin 53b:3\">Erub. 53ᵇ</cite> (question as to spelling) <he>א׳</he> or <cite ref=\"P00000\"><he>ע</he></cite>? (Ms. M. <cite ref=\"A00060\"><he>אבוד</he></cite>, <cite ref=\"P00024\"><he>עבוד</he></cite>, Rashi <cite ref=\"A00064\"><he>אבוז</he></cite>, <cite ref=\"P00027\"><he>עבוז</he></cite>; v. Rabb. D. S. a. l. note). V. P. Sm. s. v. <cite ref=\"K00225\"><he>כוז</he></cite> 1691 sq. V. <cite ref=\"A00064\"><he>אֵבוּז</he></cite>, <cite ref=\"E00815\"><he>הַרְגִּיז</he></cite>."
+			]
+		}
+	]
+}

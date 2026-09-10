@@ -1,0 +1,24 @@
+{
+	"id": "O01233",
+	"slug": "סניגוריא",
+	"headword": {
+		"text": "סְנִיגוֹרְיָא"
+	},
+	"page": {
+		"number": 1007,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (συνηγορία) <i>defence, speaking in behalf of</i>.—לִמֵּד ס׳ על <i>to speak in defence of</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:4:2\">Y. Taan. II, 65ᵈ</cite> top. ",
+				"<cite ref=\"Shemot Rabbah 15:29\">Ex. R. s. 15</cite>, end. ",
+				"<cite ref=\"Vayikra Rabbah 6:1\">Lev. R. s. 6</cite>, beg. [read:] <he>הדא רו״הק ס׳ היא מלמדת לכאן וכ׳</he> (<cite ref=\"G00452\"><he>זכות</he></cite> being a gloss to our w.) that holy spirit speaks in defence of both sides; a. fr."
+			]
+		}
+	]
+}

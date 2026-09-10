@@ -1,0 +1,75 @@
+{
+	"id": "O00166",
+	"slug": "סגר-2",
+	"headword": {
+		"text": "סְגַר"
+	},
+	"page": {
+		"number": 956,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00165\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:8\">Targ. Job XXXVIII, 8</cite> Var. Ms. (ed. <cite ref=\"C00456\"><he>אגיף</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:5\">Targ. Y. Deut. XXI, 5</cite>.—Part. pass. <cite ref=\"O00143\"><he>סְגִיר</he></cite>, <cite ref=\"O00143\"><he>סְגִירָא</he></cite> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>fenced in, barred</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 1:9\">Targ. Cant. I, 9</cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>leprous</i>, v. <cite ref=\"O00143\"><he>סְגִיר</he></cite>.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְגֵּיר", "אַסְגּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00165\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 13:4\">Targ. Lev. XIII, 4</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 14:38\">Ib. XIV, 38</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתַּגַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִסְתְּגַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be locked up, closed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 8:2\">Targ. Y. Gen. VIII, 2</cite> (h. text <he>ויסכרו</he>). ",
+						"<cite ref=\"Onkelos Numbers 12:14\">Targ. O. Num. XII, 14</cite>; a. fr.—Trnsf. <i>to be engrossed with; to be bewildered</i>, v. <cite ref=\"A02568\"><he>אִסְתַּגַּר</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"O00143\"><he>סְגִיר</he></cite>) <i>to become leprous</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 26:22\">Targ. II Chr. XXVI, 22</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

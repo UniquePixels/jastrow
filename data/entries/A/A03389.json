@@ -1,0 +1,28 @@
+{
+	"id": "A03389",
+	"slug": "אשתקד",
+	"headword": {
+		"text": "אֶשְׁתָּקַד"
+	},
+	"page": {
+		"number": 131,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (contr. of <he>שַׁתָּא קַדְמָאָה</he>) <i>last year;</i> cmp. <cite ref=\"A03368\"><he>אֶשְׁתָּדָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 3:8:5\">Y. Gitt. III, end, 45ᵇ</cite> <he>ישן משל א׳</he> ‘old produces’ means last year’s crop. ",
+				"<cite ref=\"Beitzah 5b:10\">Bets. 5ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (contr. of <he>שַׁעְתָּא קַדְ׳</he>) <i>previously, ere this</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 16:21\">Targ. Y. Lev. XVI, 21</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "M02394",
+	"slug": "מקום-1",
+	"headword": {
+		"text": "מָקוֹם"
+	},
+	"page": {
+		"number": 829,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S00374\"><he>קוּם</he></cite>)<i>place</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 8b\">Ab. Zar. 8ᵇ</cite>; <cite ref=\"Sanhedrin 14b\">Snh. 14ᵇ</cite> <he>המ׳ גורם</he>, v. <cite ref=\"C01349\"><he>גָּרַם</he></cite>. ",
+				"<cite ref=\"Yoma 38a:13\">Yoma 38ᵃ</cite> bot. <he>בשמך יקראוך ובמְקוֹמְךָ וכ׳</he> thou shalt be called by what name thou deservest, and given the place due to thee &c., i.e. be not afraid of human envy. ",
+				"<cite ref=\"Mishnah Shevuot 7:4\">Shebu. VII, 4</cite> <he>חזרה השבועה למְקוֹמָהּ</he> the oath goes back to its home, expl. ",
+				"<cite ref=\"Shevuot 47a:5\">ib. 47ᵃ</cite> <he>חזרה שבועה לסיני</he> the oath goes back to Sinai, i.e. no oath is demanded and no decision rendered, the case being surrendered to him who proclaimed on Sinai, ‘thou shalt not rob’; oth. opin. <he>חזרה שבועה למחוייב לה</he> the oath goes back to him who by right should have been asked to make oath but could not be permitted to swear on account of disqualification, i.e. he must pay; a. v. fr.—<he>כל מ׳</he>, <he>בכל מ׳</he> (abbr. <he>כ״מ</he>, <he>בכ״מ</he>) <i>everywhere</i>. ",
+				"<cite ref=\"Shabbat 40b:9\">Sabb. 40ᵇ</cite>; a. fr.—<he>כל מ׳ ש־</he>, <he>בכ״מ</he> <i>wherever</i>. ",
+				"<cite ref=\"Eruvin 81b:17\">Erub. 81ᵇ</cite>. ",
+				"<cite ref=\"Megillah 29a:4\">Meg. 29ᵃ</cite>; a. fr.—<he>אותו מ׳</he>, v. <cite ref=\"A00941\"><he>אוֹת</he> III</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>existence, substance;</i> <he>הַמָּ׳</he> <i>the Existence, the Lord</i> (cmp. <cite ref=\"M02083\"><he>מָעוֹן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 68:13\">Gen. R. s. 68</cite> <he>מפני מה מכנין שמו של הקב״ה וקוראין אותו מ׳</he> in circumscribing the name of the Lord, why do we call him <i>Maḳom?</i> <he>שהוא מְקוֹמוֹ של עולם ואין עולמו מקומו</he> because He is the existence (the preserver) of the world, but His world is not His existence; <cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite>; a. e.—",
+				"<cite ref=\"Avodah Zarah 40b:9\">Ab. Zar. 40ᵇ</cite> <he>ברוך המ׳ שמסר עולמו לשומרים</he> blessed be the Lord who has given his world over to preservers (who has created remedies). ",
+				"<cite ref=\"Niddah 49b:13\">Nidd. 49ᵇ</cite> <he>המ׳ יהיה בעזרו</he> the Lord be with him. ",
+				"<cite ref=\"Berakhot 16b\">Ber. 16ᵇ</cite>; <cite ref=\"Vayikra Rabbah 5:5\">Lev. R. s. 5</cite>, v. <cite ref=\"H01415\"><he>חֶסְרוֹן</he></cite>; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

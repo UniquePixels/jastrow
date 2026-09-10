@@ -1,0 +1,29 @@
+{
+	"id": "C00979",
+	"slug": "גלף-3",
+	"headword": {
+		"text": "גְּלַף",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלוֹף"
+		}
+	],
+	"page": {
+		"number": 250,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00978\">preced.</cite>) <i>engraving, setting</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:11\">Targ. Ex. XXVIII, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Haggai 2:23\">Targ. Hag. II, 23</cite>; a. e."
+			]
+		}
+	]
+}

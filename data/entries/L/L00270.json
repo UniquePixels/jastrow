@@ -1,0 +1,42 @@
+{
+	"id": "L00270",
+	"slug": "לולב",
+	"headword": {
+		"text": "לוּלָב"
+	},
+	"page": {
+		"number": 698,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"L00084\"><he>לבלב</he></cite>; v. <cite ref=\"L00084\"><he>לִבְלֵב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sprout</i>. Esp. <i>Lulab</i>, the branch of the palm-tree used for the festive wreath on the Feast of Booths (<cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>); also <i>the festive wreath</i> of the four species combined. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 3:1\">Succ. III, 1</cite> <he>ל׳ הגזול וכ׳</he> a palm-branch unlawfully acquired or one dried up. ",
+				"<cite ref=\"Mishnah Sukkah 3:4\">Ib. 4</cite> <he>ל׳ אחד</he> one branch of the palm-tree is needed for the festive wreath. ",
+				"<cite ref=\"Mishnah Sukkah 3:9\">Ib. 9</cite> <he>מי … ולא היה בידיו ל׳ ליטול</he> a traveller on the road who had no opportunity of performing the ceremony of taking the festive wreath in hand. ",
+				"<cite ref=\"Mishnah Sukkah 3:9\">Ib.</cite> <he>כל היום כשר לל׳</he> the entire day is fit (no special time of the day is designated) for the ceremony &c. Ib. 12; <cite ref=\"Mishnah Rosh Hashanah 4:3\">R. Hash. IV, 3</cite> <cite ref=\"E00230\"><he>היה</he></cite> (<cite ref=\"E00000\"><he>ה</he></cite>)<he>ל׳ … במקדש וכ׳</he> the ceremony of Lulab was performed in the Temple seven days &c.; <cite ref=\"Sukkah 46a:7\">Succ. 46ᵃ</cite> <he>יום ראשון מצות ל׳ וכ׳</he> on the first day it is the Biblical law of Lulab which is carried out, on the following days it is the carrying out of an ordinance of the elders; a. fr.—Pl. <he>לוּלָבִים</he>, <he>לוּלָבִין</he>. ",
+				"<cite ref=\"Mishnah Orlah 1:7\">Orl. I, 7</cite>. <he>העלים והל׳</he> leaves and eatable young sprouts. ",
+				"<cite ref=\"Mishnah Sheviit 7:5\">Shebi. VII, 5</cite>, a. e. <he>לוּלָבֵי זרדים</he>, v. <cite ref=\"G00669\"><he>זֶרֶד</he></cite>. ",
+				"<cite ref=\"Berakhot 55a\">Ber. 55ᵃ</cite>, a. e. <he>ל׳ גפנים</he> sprouts of grape-vine; <cite ref=\"Yoma 81b:9\">Yoma 81ᵇ</cite>, v. <cite ref=\"L00084\"><he>לִבְלֵב</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 41:1\">Gen. R. s. 41</cite>, beg. <he>לוּלָבֶיהָ להלל</he> its branches are used for praise (v. <cite ref=\"E00573\"><he>הַלֵּל</he></cite>); <cite ref=\"Bamidbar Rabbah 3:1\">Num. R. s. 3</cite>, beg., v. <cite ref=\"E00394\"><he>הִילּוּל</he></cite>; <cite ref=\"Midrash Tehillim 92:8\">Midr. Till. to Ps. XCII, 13</cite> (sing.). ",
+				"<cite ref=\"Mishnah Sukkah 4:4\">Succ. IV, 4</cite> <he>מוליכין את לוּלָבֵיהֶן וכ׳</he> they used to bring their festive wreaths to the Temple mount &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>לוּלָבִין</he> twigs used as <i>brooms in the wine press</i> (Rashi), cmp. <cite ref=\"A01774\"><he>אַלְבִּינָא</he></cite>; <i>the two posts supporting the beams of the press</i> (Ar.). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 75a\">Ab. Zar. 75ᵃ</cite>; Y. ib. V, end, 45ᵇ; <cite ref=\"Niddah 65a\">Nidd. 65ᵃ</cite>; <cite ref=\"Tosefta Tahorot 11:16\">Tosef. Toh. XI, 16</cite>; <cite ref=\"Tosefta Avodah Zarah 8:3\">Tosef. Ab. Zar. VIII</cite> (<cite ref=\"Tosefta Avodah Zarah 9:3\">IX</cite>), 3."
+			],
+			"label": "2"
+		}
+	]
+}

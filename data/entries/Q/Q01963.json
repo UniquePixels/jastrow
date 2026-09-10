@@ -1,0 +1,27 @@
+{
+	"id": "Q01963",
+	"slug": "פרפר-3",
+	"headword": {
+		"text": "פִּרְפֵּר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1236,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"Q01962\">preced.</cite>; cmp. <cite ref=\"Q01862\"><he>פִּרְכֵּס</he></cite> I a. II) [<i>to grind</i>,] <i>to move convulsively, struggle</i> (in agony). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 37b:3\">Snh. 37ᵇ</cite> <he>והרוג מְפַרְפֵּר</he> and (you saw) the slain struggle; <cite ref=\"Shevuot 34a\">Shebu. 34ᵃ</cite>. ",
+				"<cite ref=\"Yoma 23a:13\">Yoma 23ᵃ</cite> <he>עדיין בני מפרפר</he> my son is still moving (not yet dead; <cite ref=\"Yoma 23b:2\">ib.ᵇ</cite> <he>קיים</he>); Tosef. ib. I, 12; Y. ib. II, 39ᵈ top; Sifré Num. 161; a. e."
+			]
+		}
+	]
+}

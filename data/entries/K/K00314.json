@@ -1,0 +1,42 @@
+{
+	"id": "K00314",
+	"slug": "כוס-1",
+	"headword": {
+		"text": "כּוֹס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 623,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; or <he>כנס</he>, v. Ges. Thes., a. Hebr. Dict.<sup>10</sup> s. v.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cup</i>, also <i>a drink</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 3:4\">Tam. III, 4</cite>. ",
+				"<cite ref=\"Eruvin 65b\">Erub. 65ᵇ</cite> <he>בג׳ … בכיסו בכוֹסוֹ בכעסו</he> man’s character is found out in three things, in his money bag, in his cup (when drinking) and in his anger; <cite ref=\"Tractate Derekh Eretz Zuta 5\">Der. Er. Zutta ch. V.—Keth. 75</cite><cite ref=\"Ketubot 75b\">Keth. 75ᵇ</cite>, sq., v. <cite ref=\"B00154\"><he>בָּדַק</he></cite>. ",
+				"<cite ref=\"Pesachim 105a:10\">Pes. 105ᵃ</cite> <he>קדושה על הכ׳</he> sanctification (of the Sabbath or Holy Day) over a cup of wine. ",
+				"<cite ref=\"Pesachim 105a:10\">Ib.</cite> <he>אם אין לו אלא כ׳ אחד</he> if he has only enough wine for one cup. ",
+				"<cite ref=\"Mishnah Shabbat 14:3\">Sabb. XIV, 3</cite> <he>כ׳ עיקרים</he>, v. <cite ref=\"P00666\"><he>עִיקָּר</he></cite>; a. fr.—Pl. <he>כּוֹסוֹת</he>. ",
+				"<cite ref=\"Mishnah Kelim 22:1\">Kel. XXII, 1</cite>; Y. Ab. Zar. II, end, 42ᵃ, v. <cite ref=\"E00673\"><he>הַנָּחָה</he></cite>. ",
+				"<cite ref=\"Menachot 28b:15\">Men. 28ᵇ</cite>, v. <cite ref=\"A01895\"><he>אֲלֶכְסַנְדְּרִי</he></cite>. ",
+				"<cite ref=\"Mishnah Pesachim 10:1\">Pes. X, 1</cite>, a. fr. <he>ארבע כ׳</he> four cups of wine to be drunk on the Passover night; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cavity</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 2:5\">Par. II, 5</cite> (two black or white hairs) <he>בתוך כ׳ אחד</he> in one follicle (v. <cite ref=\"C00995\"><he>גוּמָּא</he></cite>).—Pl. as ab. ",
+				"<cite ref=\"Mishnah Parah 2:5\">Ib.</cite> Y. Ab. Zar. l. c. <he>הן כ׳ הן גומות</he> <i>kosoth</i> and <i>gummoth</i> mean the same things.—בֵּית הכּוֹסוֹת <i>the second stomach</i> of ruminants. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> (<cite ref=\"Chullin 42a\">42ᵃ</cite>), v. comment. a. <cite ref=\"E00045\"><he>הַבְלִילָא</he></cite>. ",
+				"<cite ref=\"Chullin 49a\">Ḥull. 49ᵃ</cite>; <cite ref=\"Chullin 50b:11\">50ᵇ</cite> <he>עובי בית הכ׳</he> the folds (thick walls) of the etc.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

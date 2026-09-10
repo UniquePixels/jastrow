@@ -1,0 +1,26 @@
+{
+	"id": "G00448",
+	"slug": "זכור-2",
+	"headword": {
+		"text": "זָכוּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 398,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) = <cite ref=\"G00468\"><he>זָכָר</he></cite> <i>male</i> (mostly used in connection with pederasty). ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 7:4\">Snh. VII, 4</cite>. ",
+				"<cite ref=\"Sanhedrin 54b:19\">Ib. 54ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 65b:19\">Snh. 65ᵇ</cite>, v. <cite ref=\"G00450\"><he>זְכוּרוּ</he></cite>.—Pl. <he>זְכוּרִים</he> <i>necromantic incantation</i>, v. <cite ref=\"G00450\"><he>זְכוּרוּ</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23</cite>."
+			]
+		}
+	]
+}

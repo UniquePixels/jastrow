@@ -1,0 +1,106 @@
+{
+	"id": "Q01572",
+	"slug": "פרד-1",
+	"headword": {
+		"text": "פָּרַד"
+	},
+	"page": {
+		"number": 1215,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>to break through, run</i>, v. <cite ref=\"Q01575\"><he>פֶּרֶד</he> II</cite>]",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to break apart; to separate</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 2:6\">Ukts. II, 6</cite> <he>הרמון שפְּרָדוֹ</he> a pomegranate which one has cut in two (leaving the seeds in their sheathes; Maim.: <he>שפֵּרְדוֹ</he>, <i>Pi.</i>, the grains of which one <i>loosened</i> by drying).—Part. pass. <he>פָּרוּד</he>; f. <he>פְּרוּדָה</he>; pl. <he>פְּרוּדִים</he>, <he>פְּרוּדִין</he>; <he>פְּרוּדוֹת</he>. ",
+				"<cite ref=\"Sukkah 32a:8\">Succ. 32ᵃ</cite> <he>אם היה פ׳ וכ׳</he>, v. <cite ref=\"K01061\"><he>כָּפַת</he></cite>; <cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite>. ",
+				"<cite ref=\"Mishnah Tahorot 8:8\">Toh. VIII, 8</cite> <he>אוכל פ׳ אינו וכ׳</he> eatables divided into pieces are not counted together (to make up the required size for levitical cleanness). ",
+				"<cite ref=\"Mishnah Tahorot 9:9\">Ib. IX, 9</cite> <he>נמצא על גבי פ׳</he> (Maim. <he>פֵּירוּדִים</he>) if the creeping thing is found on broken olives. ",
+				"<cite ref=\"Mishnah Tahorot 9:9\">Ib.</cite> <he>פ׳ על גבי פ׳</he> pieces on top of pieces; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְרָד"],
+			"senses": [
+				{
+					"gloss": "<i>to be separated, spread</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sukkah 3:1\">Succ. III, 1</cite> <he>נִפְרְדוּ עליו</he> if its leaves are spread, opp. to <he>נפרצו</he>. ",
+						"<cite ref=\"Horayot 10b:13\">Hor. 10ᵇ</cite> (ref. to <cite ref=\"Proverbs 18:1\">Prov. XVIII, 1</cite>) <he>זה לוט שנ׳ וכ׳</he> that means Lot, who separated himself from Abraham; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["פֵּירֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to separate, loosen</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Oktzin 2:6\">Ukts. II, 6</cite>, v. supra. ",
+						"<cite ref=\"Tosefta Shevi'it 6:29\">Tosef. Shebi. VI, 29</cite> <he>מְפָרְדִין</he> (ed. Zuck. a. oth. <he>מְפָרְרִין</he>), v. <cite ref=\"Q01574\"><he>פֶּרֶד</he> I</cite>. Y. B. Mets. II, 11ᵇ bot. <he>המְפָרֵד בגרוגרות</he> who separates dried figs; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִפְרִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to separate, estrange</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> (ref. to <cite ref=\"Proverbs 16:28\">Prov. XVI, 28</cite>) <he>שה׳ אלופו של עולם</he> he (the serpent) caused the friend of the world (the Divine Presence) to withdraw; [Matt. K.; estranged the prince of the world (Adam, from God)]."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (neut. verb) <i>to branch off</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite> <he>מפְרִיד</he> ‘Rashi’; <cite ref=\"Yalkut Shimoni on Torah 801\">Yalk. Deut. 801</cite>, v. <cite ref=\"Q02041\"><he>פְּרָת</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְפָּרֵד"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפָּרֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to separate one’s self; to be scattered</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 92:7\">Midr. Till. to Ps. XCII, 10</cite> <he>יִתְפָּרְדוּ כמוץ וכ׳</he> let them be scattered like chaff before the wind; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (of pomegranates) <i>to be cut apart</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Orlah 3:8\">Orl. III, 8</cite> <he>נִתְפָּרְדוּ וכ׳</he> if the pomegranates are cut; <cite ref=\"Tosefta Terumot 5:10\">Tosef. Ter. V, 10</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

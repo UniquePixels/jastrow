@@ -1,0 +1,24 @@
+{
+	"id": "P00849",
+	"slug": "עם-3",
+	"headword": {
+		"text": "עַם"
+	},
+	"page": {
+		"number": 1086,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; עמם <i>to press, crowd, join</i>) <i>gathering, crowd, people</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 94b:14\">Snh. 94ᵇ</cite>, v. <cite ref=\"P00635\"><he>עָיֵף</he></cite>. ",
+				"<cite ref=\"Menachot 53b:4\">Men. 53ᵇ</cite> <he>יבא זח … לעם זו</he> let ‘this one’ (Moses) come and receive ‘this’ (the Law) … for ‘this people’ (Israel); a. fr.—<he>עם הארץ</he>, v. <cite ref=\"A03230\"><he>אֶרֶץ</he></cite>.—Pl. <cite ref=\"P00808\"><he>עַמִּים</he></cite> <i>gentiles</i>. ",
+				"<cite ref=\"Shabbat 14b\">Sabb. 14ᵇ</cite>, a. fr. <he>על ארץ הע׳</he> concerning (importations from) heathen countries. Y. Shebi. VI, 36ᵇ bot.; a. fr.—V. <cite ref=\"P00905\"><he>עֲמָם</he></cite>."
+			]
+		}
+	]
+}

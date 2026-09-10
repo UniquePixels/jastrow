@@ -1,0 +1,23 @@
+{
+	"id": "Q00467",
+	"slug": "פחי-1",
+	"headword": {
+		"text": "פְּחִי"
+	},
+	"page": {
+		"number": 1152,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00451\"><he>פחה</he></cite>, cmp. <cite ref=\"Q00174\"><he>פּוּחַ</he></cite>) <i>blowing out, expiration</i>; <he>פ׳ נפש</he> (cmp. <cite ref=\"M02203\"><he>מַפָּח</he></cite>) <i>despair, disappointment</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 127b:2\">Sabb. 127ᵇ</cite> <he>הלך לביתו בפ׳ נ׳</he> went home in despair. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 2:6\">R. Hash. II, 6</cite> <he>כדי שלא יצאו בפ׳ נ׳</he> that they (the witnesses) might not leave in disappointment (and be discouraged from coming again); a. fr.—[Levy Talm. Dict. reads <cite ref=\"Q00468\"><he>פַּחֵי</he></cite>, as constr. pl. of <cite ref=\"Q00440\"><he>פַּח</he> III</cite>.]"
+			]
+		}
+	]
+}

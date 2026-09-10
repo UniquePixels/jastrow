@@ -1,0 +1,36 @@
+{
+	"id": "G00670",
+	"slug": "זרד-2",
+	"headword": {
+		"text": "זָרַד"
+	},
+	"page": {
+		"number": 411,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"G00669\">preced.</cite>) <he>זָ׳ זֶרֶד</he> (= <he>עשה חיל</he>) <i>to do valiantly</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 47a:9\">Yoma 47ᵃ</cite>, v. <cite ref=\"G00669\">preced.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זֵירֵד"],
+			"senses": [
+				{
+					"gloss": " [<i>to strengthen, accelerate growth;</i> cmp. <cite ref=\"B01154\"><he>בְּרָא</he></cite> <i>Af.</i>,] <i>to trim, nip shoots off</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 12:2\">Sabb. XII, 2</cite> <he>המקרסם והמְזָרֵד</he> he who cuts off dry twigs, or young shoots. ",
+						"<cite ref=\"Shabbat 103a:6\">Ib. 103ᵃ</cite>, v. <cite ref=\"G00669\">preced.</cite> ",
+						"<cite ref=\"Mishnah Avodah Zarah 3:10\">Ab. Zar. III, 10</cite> (<cite ref=\"Avodah Zarah 49b\">49ᵇ</cite>). ",
+						"<cite ref=\"Tosefta Shabbat 9:6\">Tosef. Sabb. IX</cite> (<cite ref=\"Tosefta Shabbat 10:16\">X</cite>), 16 <cite ref=\"F00026\"><he>וזֵרֵד</he></cite> ed. Zuck. (Var. <he>וזירד</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

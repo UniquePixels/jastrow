@@ -1,0 +1,31 @@
+{
+	"id": "O00265",
+	"slug": "סודרא",
+	"headword": {
+		"text": "סוּדָרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּדְרָא"
+		}
+	],
+	"page": {
+		"number": 962,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00264\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 3:15\">Targ. Ruth III, 15</cite> (h. text <cite ref=\"M01045\"><he>מטפחת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 34:33\">Targ. Y. Ex. XXXIV, 33</cite>, sq. (h. text <cite ref=\"M01863\"><he>מסוה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 20:10\">Targ. Y. Lev. XX, 10</cite> <he>שינוק ס׳ וכ׳</he> strangulation with a twisted scarf &c. (v. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:2\">Snh. VII, 2</cite> quot. in <cite ref=\"O00264\">preced.</cite>); <cite ref=\"Targum Jonathan on Exodus 21:15\">Targ. Y. Ex. XXI, 15</cite>; a. fr.—",
+				"<cite ref=\"Avodah Zarah 4a:11\">Ab. Zar. 4ᵃ</cite> <he>רמו ליה ס׳ וכ׳</he> they twisted a scarf around his neck and tortured him. ",
+				"<cite ref=\"Berakhot 51a:20\">Ber. 51ᵃ</cite> (expl. <cite ref=\"P00532\"><he>עיטוף</he></cite>) <he>פריס ס׳ וכ׳</he> spread the scarf over his head; a. e.—Esp. <i>turban</i>. ",
+				"<cite ref=\"Pesachim 111b:7\">Pes. 111ᵇ</cite> <he>סוּדְרֵיה דמר כי וכ׳</he> your turban looks like that of a scholar, yet I am sure you do not know the benediction (on putting it on: <he>עוטר ישראל בתפארה</he>). ",
+				"<cite ref=\"Shabbat 77b:11\">Sabb. 77ᵇ</cite> (playful etymology) <he>ס̇ו̇ד̇ר̇א̇ ס̇ו̇ד̇ ה׳ ליר̇א̇יו</he> ‘the secret of the Lord is revealed to those that fear him’ (the turban being the scholar’s apparel); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "S01552",
+	"slug": "קנט-1",
+	"headword": {
+		"text": "קָנַט"
+	},
+	"page": {
+		"number": 1389,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"S00286\"><he>קוּט</he></cite> or <cite ref=\"S00732\"><he>קָטַט</he></cite>) [<i>to cut; to shrink</i>], v. <cite ref=\"S01581\"><he>קָנִיט</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְנִיט"],
+			"senses": [
+				{
+					"gloss": " [ [<i>to cut</i>,] <i>to vex, annoy, make angry</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 3:3\">Midr. Till. to Ps. III</cite> <he>בוכה אני שהִקְנַטְתִּי את אבא</he> (ed. Bub. <he>שהכעסתי</he>) I weep because I provoked my father. Pesik. Shubah, p. 165ᵃ <he>לא … לא הִקְנַטְנוּ אותו</he> have we not provoked him to anger? have we not annoyed him? <cite ref=\"Chullin 122b\">Ḥull. 122ᵇ</cite>; <cite ref=\"Chullin 55b\">55ᵇ</cite>, a. e. <he>אל תַּקְנִיטֵנִי שבלשון יחיד וכ׳</he> do not weary me (with thy arguments), for I am teaching this as an individual opinion (not as an adopted rule); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to shrink, fail</i>. Tanḥ. ed. Bub. Thazriʿa 4 <he>נפשו מַקְנֶטֶת עליו</he> (Ms. R. <cite ref=\"S01581\"><he>קניטה</he></cite>) his soul within him would faint (ed. Tanḥ. 3 <he>מצירה</he>).—V. <cite ref=\"S01581\"><he>קָנִיט</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

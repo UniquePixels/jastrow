@@ -1,0 +1,32 @@
+{
+	"id": "E00937",
+	"slug": "השקיה",
+	"headword": {
+		"text": "הַשְׁקָיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַשְׁקָיָיה"
+		},
+		{
+			"text": "הַשְׁקָאָה"
+		}
+	],
+	"page": {
+		"number": 370,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01832\"><he>שָׁקָה</he></cite>, <i>Hif.</i>) <i>giving to drink</i>, esp. (<he>הַשְׁקָיַית סוֹטָה</he>) <i>handing the bitter water to the suspected wife</i> (<cite ref=\"Numbers 5:24\">Num. V, 24</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 2:7\">Meg. II, 7</cite> (<cite ref=\"Megillah 20b:9\">20ᵇ</cite>) <he>ולהשקיית וכ׳</he> (Ms. M. <he>ולהַשְׁקוֹת</he>, Ms. L. <he>להַשְׁקָאַת</he>, v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 3:2:3\">Y. Sot. III, 18ᵈ</cite> top <he>מחיקה סמוכה לה׳</he> the blotting out must be immediately followed by the giving to drink. ",
+				"<cite ref=\"Sanhedrin 87a:3\">Snh. 87ᵃ</cite> <he>השקאת</he>; a. fr."
+			]
+		}
+	]
+}

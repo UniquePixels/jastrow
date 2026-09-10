@@ -1,0 +1,43 @@
+{
+	"id": "A00016",
+	"slug": "אב-5",
+	"headword": {
+		"text": "אֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵיב"
+		},
+		{
+			"text": "אוֹב"
+		}
+	],
+	"page": {
+		"number": 2,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>אבב</he>)<i>swelling, spreading</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the young shoots of a tree</i>, opp. to the branches growing directly from the trunk. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 81a:9\">B. Kam. 81ᵃ</cite> <he>אִיבּוֹ של אילן</he> ed. (Ar. a. Ms. <he>חובו</he>, v. <cite ref=\"H00234\"><he>חוֹב</he> II</cite>, cmp. Rashi a. l.). [<cite ref=\"Jerusalem Talmud Eruvin 3:3:4\">Y. Erub. III, 21ᵃ</cite> top <he>איבו</he>; <cite ref=\"Jerusalem Talmud Sukkah 2:4:5\">Y. Succ. II, 53ᵃ</cite> <he>צידו</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pl. <cite ref=\"A00137\"><he>אִבִּין</he></cite>, <he>אִיבִּין</he> <i>state of growth, development</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 58a\">Ḥull. 58ᵃ</cite> <i>cascuta</i> which became wormy <he>באִבֶּיהָ</he> during its growth. ",
+				"<cite ref=\"Chullin 127b\">Ib. 127ᵇ</cite> figs which shrunk <he>באִבֵּיהֶן</he> during development. Y. Sabb. VII, 10ᶜ bot. he who presses olives <he>מאִבֵּיהֶן</he> from where they grow (before they are ripe to be taken off). [<cite ref=\"Tosefta Ma'asrot 1:4\">Tosef. Maasr. I, 4</cite> <he>איבין אדומים</he>, Var. <he>אובין</he>, read <he>אוּגִין</he>, v. <cite ref=\"A00535\"><he>אוֹג</he></cite>.] <cite ref=\"Tosefta Ma'asrot 1:5\">Ib. 5</cite> they differ <he>על האיבין</he> concerning the plants in their growing state (between ripening [<he>גמר</he>] and blossoming [<he>הנץ</he>]; Var. <cite ref=\"A00743\"><he>אוֹנין</he></cite> incorr.); cmp. <he>יָבַן</he>. Ch. v. <cite ref=\"A01117\"><he>אִיבָּא</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

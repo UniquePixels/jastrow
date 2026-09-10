@@ -1,0 +1,41 @@
+{
+	"id": "M02940",
+	"slug": "משנה-2",
+	"headword": {
+		"text": "מִשְׁנֶה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 857,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M02939\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>repetition</i>. (<he>ספר</he>) <he>מִשְׁנֵה תורה</he> <i>the Book of Deuteronomy</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 3:5\">Gen. R. s. 3</cite>; <cite ref=\"Yalkut Shimoni on Torah 4:11\">Yalk. Gen. 4</cite>. ",
+				"<cite ref=\"Megillah 31b:8\">Meg. 31ᵇ</cite> <he>קללות שבמ׳ ת׳ וכ׳</he> the curses contained in Deuteronomy (<cite ref=\"Deuteronomy 28:15-68\">Deut. XXVIII, 15—68</cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>copy, duplicate</i>. ",
+			"units": ["<cite ref=\"Sanhedrin 22a:6\">Snh. 22ᵃ</cite>"],
+			"label": "2"
+		},
+		{
+			"gloss": " = <cite ref=\"M02941\">next w.</cite> ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 161:3\">Sifré Deut. 161</cite>; <cite ref=\"Yalkut Shimoni on Torah 915:1\">Yalk. ib. 915</cite> <he>תרגום מביא לידי מ׳ מ׳ מביא וכ׳</he> interpretation (of the Law, Targum) leads to oral law, the study of the oral law leads to discussion (Talmud)."
+			],
+			"label": "3"
+		}
+	]
+}

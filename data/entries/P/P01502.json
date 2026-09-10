@@ -1,0 +1,34 @@
+{
+	"id": "P01502",
+	"slug": "עשר-5",
+	"headword": {
+		"text": "עֲשַׂר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עַשְׂרָא"
+		},
+		{
+			"text": "עַשְׂרָה"
+		}
+	],
+	"page": {
+		"number": 1127,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(also <cite ref=\"P01058\"><he>עֲסַר</he></cite>; <cite ref=\"P01042\"><he>עַסְרָא</he></cite>) ch. same. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 45:23\">Targ. Gen. XLV, 23</cite> (Y. also <cite ref=\"P01501\"><he>עֶשֶׂר</he></cite>; O. ed. Berl. <cite ref=\"P00701\"><he>עש׳</he></cite>, oth. ed. <he>עס׳</he>); a. fr.—<he>חַד עֲשַׂר</he>, <he>חַד עֲסַר</he> (contr. <cite ref=\"H00202\"><he>חַדְסַר</he></cite>) <i>eleven</i>; <he>תרתי סרי</he> <i>twelve</i> &c.—Pl. <he>עַשְׂרִין</he>, <he>עַסְרִין</he>, <cite ref=\"P00167\"><he>עֶ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 31:38\">Targ. Gen. XXXI, 38</cite>. ",
+				"<cite ref=\"Onkelos Numbers 10:11\">Targ. Num. X, 11</cite> <he>בע׳</he> on the twentieth; a. fr.—",
+				"<cite ref=\"Bava Batra 106b:1\">B. Bath. 106ᵇ</cite> <he>הויא ע׳ גריוי</he> it contains twenty <i>g’rivas</i> (v. <cite ref=\"C01331\"><he>גְּרִיוָא</he></cite>); a. fr."
+			]
+		}
+	]
+}

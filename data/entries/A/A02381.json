@@ -1,0 +1,42 @@
+{
+	"id": "A02381",
+	"slug": "אסטלית",
+	"headword": {
+		"text": "אִסְטַלִּית"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִצְ׳"
+		},
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 90,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00509\"><he>טלל</he></cite>, v. <cite ref=\"A02376\"><he>אִסְטְלָא</he></cite>, <cite ref=\"I00504\"><he>טַלִּית</he></cite>)",
+			"units": []
+		},
+		{
+			"gloss": "<i>wardrobe</i>, esp. <i>festive suit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 7:1\">Yoma VII, 1</cite> <he>א׳ לבן</he> a suite of white color. ",
+				"<cite ref=\"Mishnah Gittin 7:5\">Gitt. VII, 5</cite> <he>אִצְטַלִּיתִי</he> Mish. (Bab. ",
+				"<cite ref=\"Gittin 74a:8\">ib. 74ᵃ</cite> <he>אִיצְטַלָּתִי</he>, fr. <cite ref=\"A02377\"><he>אִיצְטַלָּה</he></cite>) my suit. Ib. 74ᵇ <he>איצטלתא דוקא</he> (read <he>תִי …</he> or … <he>תוֹ</he>). Y. ib. 49ᵃ top <he>כאיצטלות</he> (read <he>לית …</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>station</i>, v. <cite ref=\"A02378\"><he>אִסְטַלִּי</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

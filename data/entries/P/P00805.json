@@ -1,0 +1,22 @@
+{
+	"id": "P00805",
+	"slug": "עלילות",
+	"headword": {
+		"text": "עֲלִילוּת"
+	},
+	"page": {
+		"number": 1083,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00804\">preced.</cite>, v. <cite ref=\"P00803\"><he>עֲלִיל</he></cite>2) <i>reality</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 23:7\">Gen. R. s. 23</cite> <he>ולמה בחלום הא לך בע׳</he> and why in a dream? here it is for thee in reality."
+			]
+		}
+	]
+}

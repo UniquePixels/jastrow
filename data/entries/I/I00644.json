@@ -1,0 +1,38 @@
+{
+	"id": "I00644",
+	"slug": "טפי-3",
+	"headword": {
+		"text": "טְפֵי",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "טְפָא",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 546,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"I00674\"><he>טָפַף</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to join, add, increase</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 24a:6\">Taan. 24ᵃ</cite> <he>אי טָפוּ לה וכ׳</he> when they put on too much or too little. ",
+				"<cite ref=\"Avodah Zarah 9a:3\">Ab. Zar. 9ᵃ</cite> <he>ונִיטְפֵי עלייהו וכ׳</he> and let him add thereto twenty years. ",
+				"<cite ref=\"Yoma 35a:3\">Yoma 35ᵃ</cite> <he>אי בציר מהני וט׳ אהני</he> if he makes the ones less in value and adds to the value of the others; a. fr.—Part. <cite ref=\"I00645\"><he>טָפֵי</he></cite>, f. <cite ref=\"I00647\"><he>טַפְיָא</he></cite> <i>more</i>. ",
+				"<cite ref=\"Shabbat 19a:11\">Sabb. 19ᵃ</cite> <he>אי ט׳</he> if it is more in measure (than before washing).—",
+				"<cite ref=\"Avodah Zarah 9b:4\">Ab. Zar. 9ᵇ</cite> <he>דמתניתא ט׳ וכ׳</he> the calculation of the Boraitha is three years more.—Adv. <cite ref=\"I00645\"><he>טְפֵי</he></cite> <i>more</i>. ",
+				"<cite ref=\"Gittin 44a:18\">Gitt. 44ᵃ</cite>, a. e., v. <cite ref=\"H00169\"><he>חַד</he> II</cite>.—",
+				"<cite ref=\"Rosh Hashanah 26b:12\">R. Hash. 26ᵇ</cite> bot. <he>כמה … ט׳ מעלי</he> the more … the better it is. ",
+				"<cite ref=\"Bava Batra 144b:3\">B. Bath. 144ᵇ</cite> <he>חריף ט׳</he> he is smarter (than his brother); a. fr."
+			],
+			"label": "1"
+		}
+	]
+}

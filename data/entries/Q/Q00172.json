@@ -1,0 +1,36 @@
+{
+	"id": "Q00172",
+	"slug": "פוזמקי",
+	"headword": {
+		"text": "פּוּזְמְקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּזְ׳"
+		}
+	],
+	"page": {
+		"number": 1139,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Pers. pageng, v. Perles Et. St. p. 3, note) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gaiters</i> of red leather, <i>fine shoes</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 10a:2\">Sabb. 10ᵃ</cite> <he>רבא … רמי פ׳ ומצלי וכ׳</he> (Ms. M. <he>מינקיט פרזמקי</he>, corrected <cite ref=\"T00808\"><he>רמי</he></cite>) R. … put on fine gaiters for prayer, saying, prepare thyself to meet thy God (<cite ref=\"Amos 4:12\">Am. IV, 12</cite>) ; Yalk. Am. 542 <he>מנקט פזומקי</he> (corr. acc.). ",
+				"<cite ref=\"Shevuot 31a:10\">Shebu. 31ᵃ</cite> (to people that came to court in rich dress) <he>שלופו פַּזְמְקַיְיכוּ וכ׳</he> (late ed. <he>פוזקמייכו</he>; Ms. M. <he>פומקייכו</he>, corr. acc.; v. Rabb. D. S. a. l. note) take off your fine shoes, and come down for judgment. —2) <i>soldiers’ leggins, greaves</i>. ",
+				"<cite ref=\"Shabbat 62a\">Sabb. 62ᵃ</cite> (expl. <cite ref=\"M00205\"><he>מגפיים</he></cite>, Mish. ",
+				"<cite ref=\"Mishnah Shabbat 6:2\">ib. VI, 2</cite>) <cite ref=\"Q00432\"><he>פזמקי</he></cite>."
+			],
+			"label": "1"
+		}
+	]
+}

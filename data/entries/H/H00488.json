@@ -1,0 +1,60 @@
+{
+	"id": "H00488",
+	"slug": "חוש-3",
+	"headword": {
+		"text": "חוּשׁ"
+	},
+	"page": {
+		"number": 441,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch., pret. <cite ref=\"H01800\"><he>חָשׁ</he></cite>, part. <cite ref=\"H01800\"><he>חָשׁ</he></cite>, <cite ref=\"H00746\"><he>חָיֵישׁ</he></cite>, same, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to feel, suffer, be troubled</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 73:21\">Targ. Ps. LXXIII, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:10\">Targ. Prov. XXVI, 10</cite>; a. e.—",
+				"<cite ref=\"Shabbat 140a:17\">Sabb. 140ᵃ</cite> <he>חש ביוקרא דלבא</he> suffered with heaviness of the heart.—",
+				"<cite ref=\"Shabbat 140a:17\">Ib.</cite> <he>וחֲשָׁאִי בנפשאי וכ׳</he> Ar. (ed. <he>וחֲשִׁי</he>, Ms. P. <he>וחשי בי</he>, fr. <cite ref=\"H01801\"><he>חֲשָׁא</he></cite>, <cite ref=\"H01827\"><he>חֲשִׁי</he></cite>) and I felt the cooling effect from the hair &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to apprehend, care for</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 12:3\">Targ. Y. Num. XII, 3</cite>; a. e.—Y. Ber. VI, 10ᵇ bot. <he>הואיל וחש לה … מֵיחוּשׁ</he> since R. Z. cared to do it, we must do likewise. ",
+				"<cite ref=\"Pesachim 84a\">Pes. 84ᵃ</cite>; <cite ref=\"Yoma 46a\">Yoma 46ᵃ</cite>, a. e. <cite ref=\"L00003\"><he>לא</he></cite> (<cite ref=\"H00746\"><he>חייש</he></cite>) <he>חש לקימחיה</he> cares not what flour he grinds (what argument he offers). ",
+				"<cite ref=\"Ketubot 21a:12\">Keth. 21ᵃ</cite> <he>וחש … לב״ד טועין</he> and S. took into consideration that a court might have a mistaken opinion (and was more explicit in his document than the law required); <cite ref=\"Yevamot 106a:16\">Yeb. 106ᵃ</cite> <he>דחַיְישִׁינָן וכ׳</he> for we must take into consideration &c.; <cite ref=\"Bava Batra 164a\">B. Bath. 164ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 164a\">Ib.</cite> (<he>ונֵיחוּש</he>) <he>ולֵיחוּשׁ וכ׳</he> but should we not apprehend that perhaps &c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be anxious, hasten to, flee</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:9\">Targ. Cant. II, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 141:1\">Targ. Ps. CXLI, 1</cite> <he>חִישׁ לי</he> hasten to my help. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:44\">Targ. Y. Deut. I, 44</cite>, v. <cite ref=\"H00213\"><he>חֲדַר</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָחֵישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to provide for with anxiety</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 32:11\">Targ. O. Deut. XXXII, 11</cite> <he>מְחִישׁ</he> (Y. <he>מֵחִישׁ</he>). [<cite ref=\"Aramaic Targum to Psalms 55:9\">Targ. Ps. LV, 9</cite> <he>אוֹחִישׁ</he> Ms. (ed. <cite ref=\"T00541\"><he>אַרְחֵישׁ</he></cite>).]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "V00535",
+	"slug": "תכך-1",
+	"headword": {
+		"text": "תְּכַךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1668,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"V00195\"><he>תוך</he></cite>) [<i>to press between</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to squeeze, press;</i> (h. <he>ענש</he>) <i>to annoy; to fine</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:26\">Targ. Prov. XVII, 26</cite> <he>למִתַּךְ</he>.—V. <cite ref=\"V00198\"><he>תּוּכָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to twist, twine</i>; v. <cite ref=\"V00521\"><he>תִּכָּא</he></cite>, <cite ref=\"V00522\"><he>תַּכָּא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתּוֹכִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be pressed, come to grief</i>. Ib. XXII, 3 <he>ואִתּוֹכִיוּ</he> Levita (ed. Wil. <he>וחסרין אינון</he>; ed. Lag. <he>תיוסאני אנון</he>(?); h. text <he>נענשו</he>).",
+					"units": []
+				}
+			],
+			"stem": "Ithpoli."
+		}
+	]
+}

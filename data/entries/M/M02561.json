@@ -1,0 +1,45 @@
+{
+	"id": "M02561",
+	"slug": "מרה-1",
+	"headword": {
+		"text": "מָרָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 838,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " fem. of <cite ref=\"M02477\"><he>מַר</he> II</cite>, <i>bitter</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bitter taste</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:8\">Y. Ber. VI, 10ᵃ</cite> <he>בטלה מָרָתָן</he> their bitter taste is gone."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>drop, poison</i> (v. <cite ref=\"A03208\"><he>אֶרֶס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 8:5\">Ter. VIII, 5</cite> <he>המ׳</he> the serpent’s discharge.—Esp. <i>gall, bile</i>. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 107b:6\">B. Mets. 107ᵇ</cite> (ref. to <cite ref=\"Exodus 23:25\">Ex. XXIII, 25</cite>) <he>זו מ׳</he> that means (overflow of) bile, v. <cite ref=\"H00987\"><he>חָלָה</he></cite>.—Trnsf. <i>austerity, gravity</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:8\">Cant. R. to IV, 4</cite> (play on <cite ref=\"M02663\"><he>מֹרִיָּה</he></cite>) <he>שממנו יוצאת מ׳ לעולם</he> (not <he>יוצא</he>) from it austerity (responsibility) went forth to the world. ",
+				"<cite ref=\"Ketubot 103b:22\">Keth. 103ᵇ</cite> <he>זרוק מ׳ בתלמידים</he> cast bile among the students (be austere against them). ",
+				"<cite ref=\"Sifrei Devarim 323:9\">Sifré Deut. 323</cite> (ref. to <cite ref=\"Deuteronomy 32:32\">Deut. XXXII, 32</cite> <he>אשכלת מררת</he>) <he>הגדולים שבכם מָרָתָן פרוסה בכם כאשכל</he> as to the great among you, their bile (austere rebuke) is distributed among you as the juice in the grapes; Yalk. ib. 946 <he>מרתן פרוסה בהן וכ׳</he> their bile is distributed within them."
+			],
+			"label": "3"
+		}
+	]
+}

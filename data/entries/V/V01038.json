@@ -1,0 +1,24 @@
+{
+	"id": "V01038",
+	"slug": "תרעלה-1",
+	"headword": {
+		"text": "תַּרְעֵלָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1701,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"T00906\"><he>רְעַל</he></cite>) <i>reeling, staggering</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 4:2\">Esth. R. to I, 14</cite> (play on <cite ref=\"U02138\"><he>שתר</he></cite> <cite ref=\"Esther Rabbah 4:2\">ib.</cite>, v. <cite ref=\"U02078\"><he>שָׁתָה</he></cite>) <he>משקה … כוס של ת׳</he> I will make them drink the cup of staggering. ",
+				"<cite ref=\"Bereishit Rabbah 16:4\">Gen. R. s. 16</cite> <he>עתיד … כוס תַּרְעֵילָה וכ׳</he> in the future the Lord will make the nations (that oppress Israel) drink the cup of staggering out of the place whence judgment goes forth (Eden)."
+			]
+		}
+	]
+}

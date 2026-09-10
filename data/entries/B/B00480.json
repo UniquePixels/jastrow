@@ -1,0 +1,34 @@
+{
+	"id": "B00480",
+	"slug": "בחל-2",
+	"headword": {
+		"text": "בָּחַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 155,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>בהל</he>, v. ",
+			"units": [
+				"<cite ref=\"Proverbs 20:21\">Prov. XX, 21</cite>, cmp. <cite ref=\"B00479\">preced.</cite>) <i>to hasten</i>. <i>Pi.</i> <he>בִּיחֵל</he> <i>to come early</i>. Mekh. Bo, Pisḥa, 2 <he>בי׳ אביב ובא</he> ed. Livorno (oth. ed. <he>כי חל</he> corr. acc.) when the ripening of grains came very early."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְחִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to advance growth</i>. Y. Sabb. VII, 10ᵃ top <he>כל דבר שהוא מַבְחִיל</he> (not <he>שהיה מכחיל</he>) whatever is done for advancing the fruits. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>לְהַבְחִיל</he> (ed. Krot. <he>להכחיל</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

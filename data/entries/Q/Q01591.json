@@ -1,0 +1,29 @@
+{
+	"id": "Q01591",
+	"slug": "פרדס-2",
+	"headword": {
+		"text": "פַּרְדֵּס",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְדֵּיסָא"
+		}
+	],
+	"page": {
+		"number": 1216,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01590\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 21:33\">Targ. Y. II, Gen. XXI, 33</cite> (h. text <cite ref=\"A03314\"><he>אשל</he></cite>, v. <cite ref=\"Q01590\">preced.</cite>).—",
+				"<cite ref=\"Bava Metzia 103a:8\">B. Mets. 103ᵃ</cite> if a person says, lend me thy hoe <he>למירפק ביה האי פ׳ … ההוא פ׳</he> to dig up this garden with it, he is allowed to use it for that garden only; <he>פ׳ … כל פ׳ וכ׳</he> if he says, ‘a garden’, he may use it for any garden he chooses.—Pl. <cite ref=\"Q00958\"><he>פַּרְדֵּסִין</he></cite>, <he>פַּרְדְּסַיָּא</he>; <cite ref=\"Q01579\"><he>פַּרְדֵּי׳</he></cite>, <cite ref=\"Q01579\"><he>פַּרְדֵּיסֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 4:5\">Targ. Jud. IV, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 14:10\">Targ. Y. Gen. XIV, 10</cite> (h. text <he>השדים</he>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:5\">Targ. Koh. II, 5</cite>; a. e.—B. Mets. l. c. <he>פ׳ רפיק ואזיל כל פ׳ וכ׳</he> if he says, ‘to dig up gardens’, he may use it for all the gardens he has."
+			]
+		}
+	]
+}

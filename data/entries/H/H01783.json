@@ -1,0 +1,29 @@
+{
+	"id": "H01783",
+	"slug": "חרש-8",
+	"headword": {
+		"text": "חֶרֶשׂ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֶרֶשׁ"
+		}
+	],
+	"page": {
+		"number": 507,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥeres</i> or <i>Ḥeresh</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:15\">Ab. IV, 15</cite>. ",
+				"<cite ref=\"Yoma 4b:2\">Yoma 4ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

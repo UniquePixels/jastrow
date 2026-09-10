@@ -1,0 +1,44 @@
+{
+	"id": "K00105",
+	"slug": "כדבא-2",
+	"headword": {
+		"text": "כַּדָּבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּדִּיב"
+		},
+		{
+			"text": "כַּדִּיבָא"
+		}
+	],
+	"page": {
+		"number": 612,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00104\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>liar; false</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:22\">Targ. Prov. XIX, 22</cite> (Ms. <cite ref=\"K00105\"><he>כַּדָּאבָא</he></cite>).—",
+				"<cite ref=\"Berakhot 59a:5\">Ber. 59ᵃ</cite>, v. preced.—Pl. <he>כַּדָּבִין</he>, <he>כַּדָּבַיָּיא</he>, <cite ref=\"K00121\"><he>כַּדִּי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 30:9\">Targ. Is. XXX, 9</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fiction-teller, story-teller</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:19\">Y. Ber. IX, end, 14ᵈ</cite> <he>כל כ׳ טבין וכ׳</he> all fiction-tellers are good, but those who tell their own inventions concerning the Law are bad; (Var. <he>חרשׁיא</he>, v. <cite ref=\"H01785\"><he>חַרְשָׁא</he></cite>; anoth. Var. <he>ברכיא</he> corr. acc.);—[perh. to be read: <he>כִּדְבַיָּא</he> <i>fictions</i>, v. preced.]."
+			],
+			"label": "2"
+		}
+	]
+}

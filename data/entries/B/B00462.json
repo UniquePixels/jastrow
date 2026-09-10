@@ -1,0 +1,33 @@
+{
+	"id": "B00462",
+	"slug": "בזק-3",
+	"headword": {
+		"text": "בְּזַק"
+	},
+	"page": {
+		"number": 154,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00461\">same</cite>.—<i>Pa.</i> <he>בַּזֵּק</he> <i>to cast</i> (or <i>shoot</i>) <i>a mass of fragments</i> (as from a catapult). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108b\">Snh. 108ᵇ</cite> <he>ב׳ בהון עפרא וכ׳</he> Ar. (ed. <he>והוה שדינן</he>) he shot at them with dust and it turned into swords &c. *<cite ref=\"Bava Batra 73a\">B. Bath. 73ᵃ</cite> <he>והוה כי מבזק ארבעין גירוי דברזלא</he> and there was a flash as if one shot forty arrows of iron (v. Koh. Ar. Compl. s. v. <he>בזק</he>, note 5).—Ed. <he>כי מבזר ארב׳ גריוי דחרדלא</he> like one scattering forty measures of mustard [from a confusion of which two versions the variants in Mss. a. in Ar. arose, v. Rabb. D. S. a. l. note.—Ar. <he>כמיבזק</he> Ithpe.]."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיבְּזִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 22b:3\">Yoma 22ᵇ</cite> how do you know that <i>Bazek</i> (<cite ref=\"I Samuel 11:8\">I Sam. XI, 8</cite>, v. <cite ref=\"B00463\">next w.</cite>) is here used <he>לישנא דמיבזיק</he> in the sense of being broken (a fragment of pottery); perhaps it is the name of a place? <cite ref=\"Bava Batra 73a\">B. Bath. 73ᵃ</cite> Ar., v. supra."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

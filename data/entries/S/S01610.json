@@ -1,0 +1,46 @@
+{
+	"id": "S01610",
+	"slug": "קנקל-1",
+	"headword": {
+		"text": "קַנְקָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִינְ׳"
+		}
+	],
+	"page": {
+		"number": 1394,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cancellus, κίγκλις) <i>any reticulated object</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a perforated vessel</i> for fumigation. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 10\">Deut. R. s. 10</cite> (ref. to <cite ref=\"Isaiah 55:3\">Is. LV, 3</cite>) <he>האזן לגוף כקי׳ לכלים</he> the ear is to the body what the fumigating vessel is to garments; <he>שכן הקי׳ כמה כלים וכ׳</he> as many garments are put on the ḳ. and all are fumigated, so there are 248 limbs in man, and all live through the ear (by listening to the word of God); Pesik. Shim’ʿu, p. 117ᵃ <he>קנקל</he>; <cite ref=\"Yalkut Shimoni on Nach 264:4\">Yalk. Jer. 264</cite>, a. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 341:1\">Yalk. Is. 341</cite> <cite ref=\"S01614\"><he>קנקן</he></cite>.—",
+				"<cite ref=\"Mishnah Kelim 22:10\">Kel. XXII, 10</cite> <he>קנקילין שיש בה … כסות</he> f. (Bab. ed. <he>קנקילן … כוסות</he>, corr. acc.) a fumigating vessel with a receptacle for garments."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>latticed gate</i> or <i>bar</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:1:6\">Y. Sabb. V, beg. 7ᵇ</cite> <he>קִינְקִילוֹן גורר</he> a latticed gate which drags along on the ground when opened; <cite ref=\"Jerusalem Talmud Eruvin 10:8:4\">Y. Erub. X, 26ᵇ</cite> bot. <he>קנְקִילוֹן גודר</he>; Tosef. ib. XI (VIII), 13 <he>קַנְקַלִּין הגוררין</he> Var. (ed. Zuck. <he>קנקנין</he>); <cite ref=\"Eruvin 101a:2\">Erub. 101ᵃ</cite> <he>קנקן הנגרר</he>.—Esp. pl. <he>קַנְקַלִּים</he>, <he>קַנְקַלִּין</he>, <he>קַנְקִילִּ׳</he>, <cite ref=\"S01610\"><he>קִינְ׳</he></cite> <i>screens, bars of the court of justice, of idolatrous temples</i>, &c. ",
+				"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite> (ref. to <cite ref=\"Genesis 33:3\">Gen. XXXIII, 3</cite>) <he>הוי … משבעה קי׳ וכ׳</he> consider thyself as if placed behind seven bars and sitting as judge &c. Y’land. to <cite ref=\"Leviticus 19\">Lev. XIX</cite> quot. in Ar. <he>המולך … קנקלים וכ׳</he> how was the Moloch worship arranged? There was an idol behind seven enclosures &c. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 1:5:8\">Y. Orl. I, end, 61ᶜ</cite> <he>הכניסה לפנים מן הקנקי׳</he> when he brought it (the egg) behind the enclosures of the idolatrous temple; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:5:7\">Y. Ab. Zar. III, 43ᵃ</cite> <he>הקנקל׳</he>. Ib. 42ᵈ bot. <he>כל שהכניסו … הק׳ אסרו</he> whatever one brings within the enclosures one makes forbidden (as an object dedicated to idolatry). Ib. II, 41ᵇ <he>ע״ז שאין לה ק׳ … ידון לשם ק׳</he> if an idolatrous temple has no bars, the whole building is considered as bars (whatever is brought within the premises, is forbidden). ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite>, v. <cite ref=\"R00625\"><he>צְנִיעוּת</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 19:6\">Lev. R. s. 19</cite>, end <he>דרך ק׳ שלשלוה לו</he> they let her down to him over the bars; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:15\">Y. Snh. X, 28ᵈ</cite> top, v. <cite ref=\"S01396\"><he>קֶלַע</he> III</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

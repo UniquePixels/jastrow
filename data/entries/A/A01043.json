@@ -1,0 +1,28 @@
+{
+	"id": "A01043",
+	"slug": "אחסנא",
+	"headword": {
+		"text": "אַחְסָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַחְסַנְתָּא"
+		}
+	],
+	"page": {
+		"number": 40,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01403\"><he>חסן</he></cite>) <i>property, inheritance</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 14:34\">Targ. Lev. XIV, 34</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 133b:11\">B. Bath. 133ᵇ</cite> <he>עבורי א׳</he> who unlawfully pass an inheritance from one hand to another."
+			]
+		}
+	]
+}

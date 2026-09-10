@@ -1,0 +1,44 @@
+{
+	"id": "S00318",
+	"slug": "קולא-3",
+	"headword": {
+		"text": "קוֹלָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּלָא"
+		}
+	],
+	"page": {
+		"number": 1327,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00317\">preced.</cite>; cmp. <cite ref=\"K00714\"><he>כֶּלִי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bowl</i>. [<cite ref=\"Jerusalem Talmud Avodah Zarah 5:3:4\">Y. Ab. Zar. V, 44ᵈ</cite> <he>הדא ק׳</he>, v. <cite ref=\"S00372\"><he>קוּלְתָא</he></cite>.]—Pl. <cite ref=\"S00342\"><he>קוֹלִין</he></cite>, <cite ref=\"S00336\"><he>קוֹלַיָּא</he></cite>, <cite ref=\"S00596\"><he>קוּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 12:14\">Targ. II Kings XII, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 17:28\">Targ. II Sam. XVII, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:50\">Targ. I Kings VII, 50</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 52:19\">Targ. Jer. LII, 19</cite>.—",
+				"<cite ref=\"Esther Rabbah 7:13\">Esth. R. to I, 8</cite> <he>חמרא דקוליה</he>, v. <cite ref=\"S00372\"><he>קוּלְתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00714\"><he>כֶּלִי</he></cite>) <i>dress</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 37:2\">Lev. R. s. 37</cite> <he>דאנן זבנין חד ק׳ להדא וכ׳</he> for we want to buy a (wedding) dress for that orphan girl; [Ar. <he>חדא קולב</he>; comment: <i>an ornament, clasp</i> (?).]"
+			],
+			"label": "2"
+		}
+	]
+}

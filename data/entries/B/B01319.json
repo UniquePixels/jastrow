@@ -1,0 +1,25 @@
+{
+	"id": "B01319",
+	"slug": "ברקא-2",
+	"headword": {
+		"text": "בַּרְקָא",
+		"reconstructed": true,
+		"homograph": 3
+	},
+	"page": {
+		"number": 197,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B01313\"><he>בָּרַק</he></cite> Hif.) <i>a compartment near the house with windows on all sides, a kind of piazza</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 15a:19\">Erub. 15ᵃ</cite> (Rashi Ms. M. <cite ref=\"B00158\"><he>בדקא</he></cite>). ",
+				"<cite ref=\"Bava Batra 61a\">B. Bath. 61ᵃ</cite> <he>ב׳ חלילא</he> Ms. M. a. oth. (ed. <cite ref=\"B00158\"><he>בדקא</he></cite>; expl. <cite ref=\"J00532\"><he>יציע</he></cite>) a piazza open all around."
+			]
+		}
+	]
+}

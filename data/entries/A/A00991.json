@@ -1,0 +1,32 @@
+{
+	"id": "A00991",
+	"slug": "אחא",
+	"headword": {
+		"text": "אַחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָחָא"
+		}
+	],
+	"page": {
+		"number": 38,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>brother;</i> v. <cite ref=\"A00989\"><he>אַח</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m. <i>Aḥa</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 22b:27\">Arakh. 22ᵇ</cite>; <cite ref=\"Ketubot 88a:9\">Keth. 88ᵃ</cite>, surnamed <he>שר הבירה</he> superintendent of the palace. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:10\">Y. Ber. II, 5ᵃ</cite> R. A. surnamed Roba; a. many others. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:7\">Y. Taan. II, 65ᵃ</cite> bot.; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

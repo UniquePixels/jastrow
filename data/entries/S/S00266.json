@@ -1,0 +1,28 @@
+{
+	"id": "S00266",
+	"slug": "קווקי",
+	"headword": {
+		"text": "קְוָוקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְוָואקֵי"
+		}
+	],
+	"page": {
+		"number": 1325,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a cacophemism for κυριακαί; v. <cite ref=\"S00267\">next w.</cite>) <i>churches</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 74b:6\">Snh. 74ᵇ</cite>, v. <cite ref=\"D00286\"><he>דּוֹמִינְקֵי</he></cite>."
+			]
+		}
+	]
+}

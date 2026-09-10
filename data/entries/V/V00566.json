@@ -1,0 +1,27 @@
+{
+	"id": "V00566",
+	"slug": "תלא-2",
+	"headword": {
+		"text": "תְּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּלָא אִילָּן"
+		}
+	],
+	"page": {
+		"number": 1670,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. [<i>hanging on the tree</i>,] <i>squirrel</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 28a:4\">Sabb. 28ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 364:3\">Yalk. Ex. 364</cite>."
+			]
+		}
+	]
+}

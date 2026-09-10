@@ -1,0 +1,30 @@
+{
+	"id": "C01384",
+	"slug": "גרעין",
+	"headword": {
+		"text": "גַּרְעִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּלְעִין"
+		},
+		{
+			"text": "גַּרְאִין"
+		}
+	],
+	"page": {
+		"number": 271,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (v. <cite ref=\"C01381\"><he>גָּרַע</he> II</cite>) <i>globule</i>, esp. <i>the stone</i> or <i>kernel</i> of a stone fruit, <i>nut</i> &c.—Pl. <he>גַּרְעִינִין</he>, <he>גַּלְעִינִין</he>, <cite ref=\"C01228\"><he>גַּרְאִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:4\">Sabb. VII, 4</cite> (<cite ref=\"Shabbat 76b\">76ᵇ</cite>) <he>גרעינין</he> Ms. M. (ed. <he>גַּרְעִינֵיהֶן</he>); Y. ed. <he>גַּלְעִינֵיהֶן</he>. Bab. ib. 77ᵇ top, question as to spelling with <cite ref=\"A00000\"><he>א</he></cite> or <cite ref=\"P00000\"><he>ע</he></cite> (decided by ref. to <he>ונגרע</he> <cite ref=\"Leviticus 27:18\">Lev. XXVII, 18</cite>). ",
+				"<cite ref=\"Mishnah Sheviit 7:3\">Shebi. VII, 3</cite> <he>גל׳</he>. ",
+				"<cite ref=\"Mishnah Terumot 11:5\">Ter. XI, 5</cite> <he>גַּרְעִינֵי תרומה</he> (Ms. M. <he>גל׳</he>) stones of fruits which are the priest’s share. ",
+				"<cite ref=\"Tosefta Terumot 10:1\">Tosef. ib. X, 1</cite>; a. fr. V. <cite ref=\"C01386\"><he>גַּרְעִינָה</he></cite>."
+			]
+		}
+	]
+}

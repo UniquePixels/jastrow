@@ -1,0 +1,31 @@
+{
+	"id": "P00765",
+	"slug": "עלב-1",
+	"headword": {
+		"text": "עָלַב"
+	},
+	"page": {
+		"number": 1080,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to press upon; to arrogate superiority; to humiliate, insult</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 36b\">Gitt. 36ᵇ</cite>; <cite ref=\"Yoma 23a:3\">Yoma 23ᵃ</cite> <he>הנֶעֱלָבִין ואינן עוֹלְבִין וכ׳</he> those who are insulted, and do not insult, hear themselves reviled &c., v. <cite ref=\"H01743\"><he>חֶרְפָּה</he></cite>; <cite ref=\"Shabbat 88b:2\">Sabb. 88ᵇ</cite> <he>עֲלוּבִין וכ׳</he> (Ms. M. <he>הנעלבין</he>).—V. <cite ref=\"P00774\"><he>עָלוּב</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶעֱלָב"],
+			"senses": [
+				{
+					"gloss": "<i>to be insulted, submit to humiliation</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

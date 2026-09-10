@@ -1,0 +1,24 @@
+{
+	"id": "B00347",
+	"slug": "בורדיקא",
+	"headword": {
+		"text": "בּוּרדִּיקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 149,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Parthicus, Πάρθικος) <i>scarlet-colored</i> (sub. pellis, δέρμα) <i>leather, scarlet-dyed dress</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 12:3:4\">Y. Keth. XII, 35ᵃ</cite> top <he>אלבישוני ב׳ וכ׳</he> dress me in scarlet (which is) neither white nor dark; <cite ref=\"Jerusalem Talmud Kilayim 9:3:4\">Y. Kil. IX, 32ᵇ</cite> top <he>ביריריקא</he>; <cite ref=\"Bereishit Rabbah 96:5\">Gen. R. s. 96</cite> <he>צבועים דבריקא</he>; <cite ref=\"Bereishit Rabbah 96:5\">ib.</cite> s. 100 <he>מאנין דבריקה</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 924\">Yalk. Job 924</cite> <cite ref=\"B00391\"><he>בורקיא</he></cite> (for which <cite ref=\"Shabbat 114a\">Sabb. 114ᵃ</cite> <he>בגדי האולרין</he>). Cmp. <cite ref=\"A00684\"><he>אוֹלָרִין</he></cite> a. <cite ref=\"H00806\"><he>חִימּוּצָתָא</he></cite>."
+			]
+		}
+	]
+}

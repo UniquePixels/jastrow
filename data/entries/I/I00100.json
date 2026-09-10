@@ -1,0 +1,40 @@
+{
+	"id": "I00100",
+	"slug": "טהור",
+	"headword": {
+		"text": "טָהוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְהוֹרָה"
+		}
+	],
+	"page": {
+		"number": 520,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"I00101\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>clean, pure; not subject to levitical uncleanness</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86a:9\">B. Mets. 86ᵃ</cite> <he>שגופך ט׳ … נשמתך בט׳</he> (Ms. <he>בטהרה</he>) thy body is pure, and thy soul expired with (the word) ‘pure’; <cite ref=\"Sanhedrin 68a:9\">Snh. 68ᵃ</cite>.—",
+				"<cite ref=\"Kiddushin 70b:9\">Kidd. 70ᵇ</cite> <he>וסימניך טמא טמא ט׳ ט׳</he> and the sign (by which to remember which of the two families is of unblemished descent) is, that with the name of an unclean animal (raven) is unclean, that with the name of a clean animal (dove) is clean; <cite ref=\"Bava Batra 91a:14\">B. Bath. 91ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Kelim 3:7\">Kel. III, 7</cite> <he>ובחרסית ט׳</he> and the person that touches the clay is clean (not affected by levitical uncleanness). ",
+				"<cite ref=\"Mishnah Kelim 4:1\">Ib. IV, 1</cite> <he>ט׳</he> is not subject to levitical uncleanness; a. v. fr.—<he>דג ט׳</he>, <cite ref=\"P00311\"><he>עוף</he></cite>; <he>בהמה טהורה</he> a fish, a bird, a domestic animal <i>permitted to eat</i>. ",
+				"<cite ref=\"Mishnah Chullin 12:2\">Ḥull. XII, 2</cite>. ",
+				"<cite ref=\"Mishnah Chullin 4:3\">Ib. IV, 3</cite> <he>בטהורה טהור</he> if it occurs with an animal of the clean class, the person is levitically clean; a. v. fr.—Pl. <he>טְהוֹרִים</he>, <he>טְהוֹרִין</he>; <he>טְהוֹרוֹת</he>. ",
+				"<cite ref=\"Mishnah Kelim 2:1\">Kel. II, 1</cite> <he>פשוטיהן ט׳</he> the flat-surfaced among them are not subject to uncleanness.—",
+				"<cite ref=\"Berakhot 2b:13\">Ber. 2ᵇ</cite> <he>שהכהנים ט׳ וכ׳</he> Ms. M. (ed. <he>מטוהרים</he>) when the purified priests enter &c. ",
+				"<cite ref=\"Bava Metzia 61b:8\">B. Mets. 61ᵇ</cite>; a. v. fr."
+			],
+			"label": "1"
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"id": "N01070",
+	"slug": "נפץ-1",
+	"headword": {
+		"text": "נָפַץ"
+	},
+	"page": {
+		"number": 925,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"Q00311\"><he>פּוּץ</he></cite>)<i>to scatter, shake out, empty</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bikkurim 1:8\">Bicc. I, 8</cite> <he>נוֹפֵץ וכ׳</he> he scatters them on the ground, and does not read. ",
+				"<cite ref=\"Tosefta Bava Batra 4:2\">Tosef. B. Bath. IV, 2</cite> <he>נוֹפְצוֹ</he> he shakes the bag out. ",
+				"<cite ref=\"Ketubot 72a:5\">Keth. 72ᵃ</cite> (the Mishnah means) <he>שתִּמָּלֵא ונוֹפֶצֶת</he> that she should receive (the semen) and then discharge it (by violent movements); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפֵּץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01069\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kilayim 5:7\">Kil. V, 7</cite> <he>יְנַפֵּץ</he> he must shake the grain out of the ears; Y. ib. 30ᵃ bot. ",
+						"<cite ref=\"Devarim Rabbah 3:13\">Deut. R. s. 3</cite> <he>וִינַפַּץ אבני וכ׳</he> and scatter the stones prepared for rebuilding the Temple. ",
+						"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite>; s. 19 <he>בשעה שאתה מְנַפְּצוֹ אין וכ׳</he> as soon as you shake it out (of its marrow), it is good for nothing. ",
+						"<cite ref=\"Midrash Tehillim 17:15\">Midr. Till. to Ps. XVII</cite> <he>אני מְנַפֵּץ</he> … <he>כשם שאתה נִפַּצְתָּ וכ׳</he> I will dash thy babes against the rock, as thou didst my babes; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (interch. with <cite ref=\"N01063\"><he>נפס</he></cite>) <i>to beat</i> flax, <i>to hatchel</i> wool. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 13:4\">Sabb. XIII, 4</cite> <he>והמְנַפֵּץ</he> (Y. ed. a. Ar. <he>המְנַפֵּס</he>). Ib. VII, 2. Ib. 73ᵇ, v. <cite ref=\"N01032\"><he>נָפַט</he></cite>. ",
+						"<cite ref=\"Berakhot 58a:4\">Ber. 58ᵃ</cite> <he>ונִפֵּץ</he>; Tosef. ib. VII (VI), 2 <he>וניפס</he>, ed. Zuck. (Var. <he>נפץ</he>); Y. ib. IX, 13ᶜ top <he>וניפס</he>; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to spread</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 22:9\">Midr. Till. to Ps. XXII</cite> <he>מְנַפֶּצֶת</he>, v. <cite ref=\"N01139\"><he>נָצַץ</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

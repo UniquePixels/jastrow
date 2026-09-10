@@ -1,0 +1,30 @@
+{
+	"id": "U00504",
+	"slug": "שופכים",
+	"headword": {
+		"text": "שׁוֹפְכִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוֹפְכִין"
+		}
+	],
+	"page": {
+		"number": 1540,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U01764\"><he>שָׁפַךְ</he></cite>) <i>that which is poured out</i> into the gutter, <i>waste-water</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:1\">Sabb. VIII, 1</cite> <he>וכל הש׳ וכ׳</he> and the measure for all kinds of dirty waters is one-fourth of a Log (for Sabbath laws). Ib. 78ᵃ <he>ש׳ למאי חזו</he> what is waste water fit for? <cite ref=\"Chullin 105b:15\">Ḥull. 105ᵇ</cite> <he>משום ש׳</he> on account of the dirty water (on the roof, which may come down through the spout). ",
+				"<cite ref=\"Bava Batra 19b:3\">B. Bath. 19ᵇ</cite> <he>התם בש׳</he> there (in Mish. ",
+				"<cite ref=\"Mishnah Bava Batra 2:1\">ib. II, 1</cite>) reference is made to a collection of urine to be poured out; a. e."
+			]
+		}
+	]
+}

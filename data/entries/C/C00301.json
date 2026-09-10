@@ -1,0 +1,23 @@
+{
+	"id": "C00301",
+	"slug": "גוד-2",
+	"headword": {
+		"text": "גּוֹד",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 218,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01369\"><he>נגד</he></cite>) [<i>stretched</i>,] <i>leather bag</i> for wine, milk &c.; which travellers at night stretch like a tent in order to let the cool air strike it, <i>large leather bottle</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 138a:2\">Sabb. 138ᵃ</cite> <he>הג׳ … לא יעשה</he> (Ms. M. <he>הנוד</he> a. O., v. Rabb. D. S. a. l. note) one must not stretch the bag &c. on the Sabbath. Ib.ᵇ, v. <cite ref=\"K00934\"><he>כֶּסֶךְ</he></cite>."
+			]
+		}
+	]
+}

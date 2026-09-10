@@ -1,0 +1,37 @@
+{
+	"id": "A03321",
+	"slug": "אשלמו",
+	"headword": {
+		"text": "אַשְׁלָמוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַשְׁלָמוּתָא"
+		}
+	],
+	"page": {
+		"number": 129,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>אַשְׁלְמָנוּתָא</he>, pl. <cite ref=\"A03321\"><he>אַשְׁלַמְוָותָא</he></cite>) f. (<he>שלם</he> = h. <he>מִלֻּאִים</he>) (<i>finishing</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fitting, setting</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:7\">Targ. Ex. XXV, 7</cite>; <cite ref=\"Onkelos Exodus 28:17\">XXVIII, 17</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>initiation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 8:28\">Targ. Y. Lev. VIII, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 8:33\">Ib. 33</cite>; <cite ref=\"Targum Jonathan on Leviticus 8:34\">34</cite>; a. e. Cmp. <cite ref=\"H00819\"><he>חִינּוּךְ</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

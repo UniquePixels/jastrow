@@ -1,0 +1,25 @@
+{
+	"id": "E00401",
+	"slug": "הילך-2",
+	"headword": {
+		"text": "הֵילֵךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵלֵךְ"
+		}
+	],
+	"page": {
+		"number": 346,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"A01301\"><he>אֵילֵךְ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 10:8:4\">Y. Yeb. X, end, 11ᶜ</cite>.—",
+				"<cite ref=\"Mishnah Zavim 3:2\">Zab. III, 2</cite> <he>ה׳ … ה׳</he> this way …, the other way; a. fr."
+			]
+		}
+	]
+}

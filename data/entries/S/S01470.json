@@ -1,0 +1,26 @@
+{
+	"id": "S01470",
+	"slug": "קמין",
+	"headword": {
+		"text": "קָמִין"
+	},
+	"page": {
+		"number": 1385,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κάμινος) <i>furnace, kiln</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 15:7\">Tosef. Sot. XV, 7</cite> <he>והטילוהו בק׳</he> they threw him into a furnace; Y. ib. IX, 24ᵇ top <he>והחזירו לק׳</he> (read: <he>והטילו</he>).—Esp. <i>the furnace room of the bath-house</i>. ",
+				"<cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite> <he>אם המתין אדם בק׳ וכ׳</he> Ar. (ed. <he>אם ישהא … בחמין</he>) if a person stays in the furnace room any length of time; Tanḥ. ed. Bub. Thazriʿa 4 <he>נתין בקמון</he> (corr. acc.; Tanḥ. ib. 3 <he>בחמין</he>). ",
+				"<cite ref=\"Tosefta Mikvaot 5:7\">Tosef. Mikv. V, 7</cite> <he>המת במרחץ ק׳ טמא וכ׳</he> if a corpse lies in the bath-house, the furnace room is unclean &c. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:7\">Y. Sabb. III, 6ᵃ</cite> top <he>היו סותמין את הק׳ וכ׳</he> they used to stop off the furnace on Friday, and people went in and bathed &c. ",
+				"<cite ref=\"Tosefta Bava Batra 3:3\">Tosef. B. Bath. III, 3</cite> Var. (v. <cite ref=\"J00578\"><he>יֶקֶם</he></cite>); Y. ib. IV, 14ᶜ bot."
+			]
+		}
+	]
+}

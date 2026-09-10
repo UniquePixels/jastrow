@@ -1,0 +1,51 @@
+{
+	"id": "U00034",
+	"slug": "שאלתא",
+	"headword": {
+		"text": "שְׁאֵלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁאֵילְתָּא"
+		},
+		{
+			"text": "שְׁאֵילָא"
+		}
+	],
+	"page": {
+		"number": 1508,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(h. form <cite ref=\"U00033\"><he>שְׁאֵלָה</he></cite>, <cite ref=\"U00025\"><he>שְׁאֵילָה</he></cite>) ch. <cite ref=\"U00033\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>request, prayer, desire</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 8:24\">Targ. Jud. VIII, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 2:16\">Targ. I Kings II, 16</cite> (ed. Wil. <cite ref=\"U00032\"><he>שְׁאָלָא</he></cite>; ed. Lag. <cite ref=\"U00033\"><he>שאלה</he></cite>). ",
+				"<cite ref=\"Onkelos Numbers 11:4\">Targ. Num. XI, 4</cite> (h. text <cite ref=\"V00015\"><he>תאוה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Esther 5:6\">Targ. Esth. V, 6</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>question, problem</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 12:1\">Targ. Jer. XII, 1</cite> <he>שְׁאֵילַת דינין</he> (h. text <he>משפטים</he>).—",
+				"<cite ref=\"Shabbat 30a\">Sabb. 30ᵃ</cite> <he>שאילתא</he> Ms. M. (ed. <he>שאילה</he>); <cite ref=\"Shabbat 30b:2\">ib.ᵇ</cite> <he>ולענין שאילה</he>, v. <cite ref=\"U00023\"><he>שְׁאֵל</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>proposition, remark</i>, esp. as heading of <i>decisions</i> in Sh’eltoth d’R. Aḥai, and in citations therefrom. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Genesis 2\">B’resh. 2</cite>. Tanḥ. Noah 4; a. fr.—Pl. <cite ref=\"U00034\"><he>שְׁאֵלָתָא</he></cite>, <cite ref=\"U00032\"><he>שְׁאֵלָן</he></cite>, <cite ref=\"U00033\"><he>שְׁאֵי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 8:9\">Targ. Y. Deut. VIII, 9</cite>.—Y. Naz. VIII, 56ᵇ; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

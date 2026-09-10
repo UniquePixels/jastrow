@@ -1,0 +1,24 @@
+{
+	"id": "J00539",
+	"slug": "יצירין",
+	"headword": {
+		"text": "יְצִירִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 589,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"J00548\"><he>יָצַר</he></cite>) (probably) <i>moulds</i> for pressed raisins or olives. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 3:2\">Tosef. B. Bath. III, 2</cite> <he>יציד׳</he> ed. Zuck. (Var. <he>יציר׳</he>, quot. in comment. to <cite ref=\"Bava Batra 67b\">B. Bath. 67ᵇ</cite> <he>יְצָרִים</he>); B. Bath. l. c. <he>נסרים</he> (v. Rabb. D. S. a. l. note 8); Y. ib. IV, 14ᶜ <cite ref=\"A02341\"><he>אֱסוּרִין</he></cite>."
+			]
+		}
+	]
+}

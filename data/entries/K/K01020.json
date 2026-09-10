@@ -1,0 +1,25 @@
+{
+	"id": "K01020",
+	"slug": "כפירה",
+	"headword": {
+		"text": "כְּפִירָה"
+	},
+	"page": {
+		"number": 659,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01046\"><he>כָּפַר</he></cite>) <i>denial</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 4a:6\">B. Mets. 4ᵃ</cite> <he>טענה וכ׳</he> claim and denial. ",
+				"<cite ref=\"Shevuot 39b:9\">Shebu. 39ᵇ</cite> <he>כְּפִירַת טענה</he>, v. <cite ref=\"I00620\"><he>טַעֲנָה</he></cite>. ",
+				"<cite ref=\"Bava Metzia 36a:2\">B. Mets. 36ᵃ</cite> <he>כ׳ ממון</he>, v. <cite ref=\"B00579\"><he>בִּיטּוּי</he></cite>. ",
+				"<cite ref=\"Bava Metzia 4b\">Ib. 4ᵇ</cite>, a. e. <he>כ׳ שעבוד קרקעות</he> a disputed hypothecary obligation; a. fr."
+			]
+		}
+	]
+}

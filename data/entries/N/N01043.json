@@ -1,0 +1,35 @@
+{
+	"id": "N01043",
+	"slug": "נפיל-3",
+	"headword": {
+		"text": "נְפִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְפִילָא",
+			"homograph": 2
+		},
+		{
+			"text": "נִפְלָא"
+		}
+	],
+	"page": {
+		"number": 924,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"N01057\"><he>נֵפֶל</he></cite>, <i>untimely birth, not viable</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 22:27\">Targ. Y. I Lev. XXII, 27</cite> <he>דלא נְפִיל</he> (ed. Vien. <cite ref=\"N01041\"><he>נָפִיל</he></cite>, ed. Amst. <cite ref=\"N01041\"><he>נֵפִיל</he></cite>) that it is not an untimely birth. ",
+				"<cite ref=\"Aramaic Targum to Psalms 58:9\">Targ. Ps. LVIII, 9</cite> Ms. (ed. <cite ref=\"N01022\"><he>נְפוּלָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 3:16\">Targ. Job III, 16</cite> <cite ref=\"N01043\"><he>נִפְלָא</he></cite> (Bxt. <cite ref=\"N01058\"><he>נְפֵלָא</he></cite>; Ms. <cite ref=\"N01058\"><he>נָפְלָא</he></cite>).—Pl. <cite ref=\"N01061\"><he>נִפְלֵי</he></cite>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+				"<cite ref=\"Bava Batra 101b\">B. Bath. 101ᵇ</cite> <he>בדנ׳</he> (v. Rabb. D. S. a. l. note 30, ed. <he>בנ׳</he>) it means a lot set aside for burying untimely births. ",
+				"<cite ref=\"Bava Batra 102b:2\">Ib. 102ᵇ</cite> <he>תרתי בנ׳ וכ׳</he> we do not presume two lots to be set aside for &c."
+			]
+		}
+	]
+}

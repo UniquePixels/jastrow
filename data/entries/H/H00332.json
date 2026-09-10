@@ -1,0 +1,24 @@
+{
+	"id": "H00332",
+	"slug": "חולדה-3",
+	"headword": {
+		"text": "חוּלְדָּה",
+		"homograph": 3
+	},
+	"page": {
+		"number": 433,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.(b. h. <cite ref=\"H00983\"><he>חֻלְדָּה</he></cite>)<i>Huldah</i>, the prophetess. ",
+			"units": [
+				"<cite ref=\"Megillah 14b:12\">Meg. 14ᵇ</cite> (transl. <cite ref=\"K01203\"><he>כַּרְכּוּשְׁתָּא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 9:3:5\">Y. Naz. IX, 57ᵈ</cite> bot. <he>קברי בני ח׳</he> the graves of the sons of H.; <cite ref=\"Tractate Semachot 14:10\">Treat. S’maḥ. ch. XIV</cite> <he>קבר ח׳</he>; a. e."
+			]
+		}
+	]
+}

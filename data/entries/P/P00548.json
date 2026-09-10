@@ -1,0 +1,27 @@
+{
+	"id": "P00548",
+	"slug": "עיי״ן",
+	"headword": {
+		"text": "עיי״ן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עי״ן"
+		}
+	],
+	"page": {
+		"number": 1069,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>the letter ʿAyin</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> <he>ע׳ תלויה</he> a suspended ʿAyin, v. <cite ref=\"J00007\"><he>יְאוֹר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:4\">Y. Meg. I, 71ᶜ</cite> top <he>ע׳ מעשה נסים</he> the ʿAyin on the tablets was a miracle, v. <cite ref=\"T00919\"><he>רַעַץ</he></cite>; a. e.—Pl. <he>עַיְינִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:4\">Y. Ber. II, 4ᵈ</cite> bot., v. <cite ref=\"A01935\"><he>אל״ף</he></cite>. ",
+				"<cite ref=\"Shabbat 103b:13\">Sabb. 103ᵇ</cite> one must not write <he>אלפין ע׳ וכ׳</he> the Alephs so as to look like ʿAyins &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "M00148",
+	"slug": "מגזרא",
+	"headword": {
+		"text": "מִגְזְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיגְ׳"
+		}
+	],
+	"page": {
+		"number": 727,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00574\"><he>גְּזַר</he></cite>) <i>cutting tool, sickle, pruning knife</i>.—Pl. <he>מִגְזְרִין</he>, <cite ref=\"M00148\"><he>מִיגְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 12:31\">Targ. II Sam. XII, 31</cite> (h. text <he>מגזרות</he>).—Y. Sabb. VI, 8ᵇ bot. (expl. <he>מזמרות</he>, <cite ref=\"Isaiah 2:4\">Is. II, 4</cite>) <cite ref=\"M01087\"><he>מיגזיין</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

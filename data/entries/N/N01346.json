@@ -1,0 +1,42 @@
+{
+	"id": "N01346",
+	"slug": "נשר-2",
+	"headword": {
+		"text": "נְשַׁר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 942,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01345\">same</cite><i>to fall off</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 5:8:5\">Koh. R. to V, 8</cite> <he>נַשְׁרִין</he>, <he>נַשְׁרָן</he>, v. <cite ref=\"N01328\"><he>נָשַׁל</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lacerate</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 8a:13\">Ber. 8ᵃ</cite> [a gloss, v. Ar. ed. Koh. s. v. <he>נשר</he> 4] <he>דלאחורי נַשְׁרָא</he> (Ar. <he>נָשְׁרֵי</he>) which tears backwards (when you attempt to pull it out), v. <cite ref=\"H00702\"><he>חִיזְרָא</he> I</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשִּׁיר"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to fall off, drop</i>. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 5:23\">Targ. I Chr. V, 23</cite>, v. <cite ref=\"O01596\"><he>סְרֵי</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "U01835",
+	"slug": "שקולא",
+	"headword": {
+		"text": "שָׁקוֹלָא"
+	},
+	"page": {
+		"number": 1621,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01871\"><he>שְׁקַל</he></cite>) <i>carrier</i> (of wine vessels).—Pl. <he>שְׁקוֹלָאֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 99b:9\">B. Mets. 99ᵇ</cite>. ",
+				"<cite ref=\"Chullin 105b:16\">Ḥull. 105ᵇ</cite>"
+			]
+		}
+	]
+}

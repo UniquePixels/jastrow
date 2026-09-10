@@ -1,0 +1,99 @@
+{
+	"id": "N00341",
+	"slug": "נוח-2",
+	"headword": {
+		"text": "נוּחַ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 885,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00340\">same</cite> <cite ref=\"Onkelos Genesis 2:2\">Targ. Gen. II, 2</cite> <he>ונַח</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 21:10\">Targ. II Sam. XXI, 10</cite> <he>לִמְנָח</he>; a. fr.—Part. <cite ref=\"N00660\"><he>נְיָיח</he></cite>, <cite ref=\"N00644\"><he>נְיָח</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 23:24\">Targ. Y. Num. XXIII, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 3:25\">Targ. Job III, 25</cite> <he>נְיָיחִית</he> (Ms. <he>נָחִית</he>); a. fr.—",
+				"<cite ref=\"Bava Metzia 86a:11\">B. Mets. 86ᵃ</cite> <he>נַח זעפא</he> the storm subsided. ",
+				"<cite ref=\"Bava Metzia 86a:9\">Ib.</cite> <he>כי הוה נָיְחָא נפשיה</he> when his soul was at rest (when he was dead). ",
+				"<cite ref=\"Bava Metzia 86a:8\">Ib.</cite> <he>תִּינַח נפשיה וכ׳</he> let me rather die, than be delivered &c. ",
+				"<cite ref=\"Bava Metzia 86a:11\">Ib.</cite> <he>ההוא יומא דנח נפשיה</he> on the day when he died. ",
+				"<cite ref=\"Ketubot 104a\">Keth. 104ᵃ</cite>, a. fr. <he>נח נפשיה ד־</he>—is dead. ",
+				"<cite ref=\"Yoma 20b:6\">Yoma 20ᵇ</cite> <he>נִינַח מר</he> leave it alone, sir (be no longer my interpreter). ",
+				"<cite ref=\"Shabbat 3a\">Sabb. 3ᵃ</cite> bot. <he>גופו מֵינַח נָיֵיח</he> Ms. M. (v. Rabb. D. S. a. l. note) his body had been resting (and he lifted it from the ground in moving). ",
+				"<cite ref=\"Shabbat 5b:2\">Ib. 5ᵇ</cite> <he>מים מי עבידי דנָיְיחֵי</he> is it possible that water (running down an incline) is at rest at any time?; a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָנִיחַ", "אַנִּיחַ"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"A02152\"><he>אַנַּח</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to give rest, to assuage</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 3:20\">Targ. O. Deut. III, 20</cite> <he>דִּינִיחַ</he> (ed. Vien. <he>דִּי יְנִיחַ</he>); Y. <he>דְּיָנִיחַ</he>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 24:13\">Targ. Ezek. XXIV, 13</cite>; a. fr.—",
+						"<cite ref=\"Targum of II Chronicles 15:15\">Targ. II Chr. XV, 15</cite>; <cite ref=\"Targum of II Chronicles 20:30\">XX, 30</cite> <he>אַנְיָיח</he> (ed. Lag. <cite ref=\"N00341\"><he>אניח</he></cite>; fr. <cite ref=\"N00660\"><he>נְיָיח</he></cite>, v. supra).—",
+						"<cite ref=\"Berakhot 28b:1\">Ber. 28ᵇ</cite> <he>לַאֲנוּחֵי דעתיה וכ׳</he> to quiet the mind of &c.—[<cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite>, a. e. <he>מדכרין ומניחין</he>, v. preced.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to rest, put down; to leave alone</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 32:10\">Targ. Ex. XXXII, 10</cite> <cite ref=\"A02152\"><he>אַנַּח</he></cite> (O. ed. Vien. <cite ref=\"E00673\"><he>הַנַּחַ</he></cite>; ed. Berl. <cite ref=\"A00006\"><he>אָ׳</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Judges 6:18\">Targ. Jud. VI, 18</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 6a:1\">Sabb. 6ᵃ</cite> <he>כי מַנַּח ליה</he> when he sets it down. ",
+						"<cite ref=\"Ketubot 47b:7\">Keth. 47ᵇ</cite> <he>אֲנוּחֵי נַנְחִינְהוּ</he> he must let them lie (store them); a. fr.—Part. pass. <cite ref=\"M01758\"><he>מַנַּח</he></cite>; f. <he>מַנְּחָא</he>; pl. <he>מַנְּחֵי</he>. ",
+						"<cite ref=\"Chullin 46a\">Ḥull. 46ᵃ</cite> bot. <he>דמ׳ ביה וכ׳</he>, v. <cite ref=\"F00084\"><he>וַרְדָּא</he></cite>. ",
+						"<cite ref=\"Ketubot 84b:2\">Keth. 84ᵇ</cite> <he>דמנחי היכא</he> where were they placed (at the time of death)?; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְנַיַּיח"],
+			"senses": [
+				{
+					"gloss": "<i>to be relieved, recover</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 26:35\">Targ. Y. Lev. XXVI, 35</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְנַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be laid down, placed</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 14b:3\">B. Bath. 14ᵇ</cite> <he>דמִתְנַח ליה וכ׳</he> (Rashi <he>דמַנַּח</he>, v. supra) it was placed by the side; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"N00660\"><he>נִיחָא</he></cite>) <i>to be satisfactory</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 45b:10\">Kidd. 45ᵇ</cite> <he>אִיתְנוּחֵי אִיתְנָחָא ליה</he> it was agreeable to him. ",
+						"<cite ref=\"Bava Batra 129a:8\">B. Bath. 129ᵃ</cite> <he>אִיתְנָחַת לן חדא</he> Ms. R. (v. Rabb. D. S. a. l. note 60; ed. <he>אנחתת</he>, v. <cite ref=\"N00534\"><he>נְחַת</he></cite>) one of thy arguments has been satisfactorily disposed of for us.—Contr. <he>אִינַּח</he>.—<cite ref=\"V00471\"><he>תִּינַּח</he></cite>, <cite ref=\"V00471\"><he>הָתִינַּח</he></cite> (a dialectical term) <i>this might be right, acceptable, might do well</i>. ",
+						"<cite ref=\"Shabbat 5a:1\">Sabb. 5ᵃ</cite> <he>הת׳ ברשות היחיד וכ׳</he> this might be acceptable with regard to a covered private ground, but &c. ",
+						"<cite ref=\"Shabbat 132b\">Ib. 132ᵇ</cite> <he>ת׳ גדול וכ׳</he> this may apply to an adult, but &c.; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

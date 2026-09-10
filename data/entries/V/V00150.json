@@ -1,0 +1,28 @@
+{
+	"id": "V00150",
+	"slug": "תובלייא",
+	"headword": {
+		"text": "תּוּבְלְיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוּבְלְיָא"
+		}
+	],
+	"page": {
+		"number": 1650,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"V00149\">preced.</cite>, a. <cite ref=\"U00141\"><he>שַׁבְּלוּל</he></cite>) [<i>snail</i>,] <i>rope, rope-ladder</i>; [oth. opin. <i>basket</i>, cmp. <cite ref=\"J00049\"><he>יְבַל</he></cite>]. ",
+			"units": [
+				"<cite ref=\"Bava Batra 33b:5\">B. Bath. 33ᵇ</cite> <he>האי מאן דנקיט מגלא ות׳ וכ׳</he> (Ms. M. a. Rashi <cite ref=\"V00148\"><he>תּוֹבִילָא</he></cite>) if one takes a pruning knife and a rope (basket), and says, I will cut the dates of such and such a man’s palm <cite ref=\"Bava Batra 36a:3\">ib. 36ᵃ</cite>. ",
+				"<cite ref=\"Nedarim 89b:6\">Ned. 89ᵇ</cite>, v. <cite ref=\"C01197\"><he>גַּפָּא</he> I</cite>."
+			]
+		}
+	]
+}

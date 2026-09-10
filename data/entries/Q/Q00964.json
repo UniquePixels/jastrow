@@ -1,0 +1,46 @@
+{
+	"id": "Q00964",
+	"slug": "פלוגתא-1",
+	"headword": {
+		"text": "פְּלוּגְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּלֻגְ׳"
+		}
+	],
+	"page": {
+		"number": 1177,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00963\">same</cite> = <cite ref=\"E00750\"><he>הַפְלָגָה</he></cite> <i>separation</i> (of races). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:11\">Targ. Y. Gen. X, 11</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<i>priestly</i>) <i>division</i>.—Pl. <he>פְּלוּגְוָותָא</he>, <he>פְּלוּגְוָתָא</he>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 23:8\">Targ. II Chr. XXIII, 8</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 8:14\">Ib. VIII, 14</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 35:4\">Ib. XXXV, 4</cite>, sq.; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>contest, dissension</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:44\">Targ. Ps. XVIII, 44</cite> <he>פ׳ דעממיא</he> Ms. (ed. <he>פְּלוּגַת ע׳</he> constr.; ed. Wil. <he>פְּלֻגַת</he>; h. text <he>ריבי</he>); <cite ref=\"Targum Jonathan on II Samuel 22:44\">Targ. II Sam. XXII, 44</cite> (ed. Wil. <cite ref=\"Q00945\"><he>פַּלְגוּת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 22:9\">Targ. Is. XXII, 9</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 17:8\">Targ. Deut. XVII, 8</cite>; a. e.—Tanḥ. Kor. 10 <he>מה ליך בהדי פ׳</he> (not <he>בהדין</he>) what hast thou to do with that contest (between Moses and Korah)?; <cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite> (ed. Wil. <he>בהדי פְּלוּגְתֵּיה</he> with his (Korah’s) quarrel).—Esp. <i>difference of opinion, scholarly contest</i>. ",
+				"<cite ref=\"Yoma 4b:3\">Yoma 4ᵇ</cite> … <he>במאי קא מיפלגי בפ׳ דהני תנאי וכ׳</he> what is the basis of the difference …? The principle on which those Tannaim differ &c. ",
+				"<cite ref=\"Shabbat 15a:6\">Sabb. 15ᵃ</cite> <he>היכא דליכא פ׳ דרבוותא בהדייהו</he> on a subject on which no conflicting opinions of great teachers besides them (Hillel and Shammai) are on record; a. v. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:3:6\">Y. Pes. III, 30ᵃ</cite> bot. <he>אתיין אילין פ׳ כאילין פ׳ וכ׳</he> (not <cite ref=\"Q00964\"><he>פלוגתא</he></cite>) the differences in this case are based on the same principles as the differences in the following case &c.; <cite ref=\"Jerusalem Talmud Taanit 4:1:15\">Y. Taan. IV, 67ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Nedarim 5:4:4\">Y. Ned. V, 39ᵇ</cite> top; a. e.—V. <cite ref=\"V00833\"><he>תַּפְלוּגְתָּא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

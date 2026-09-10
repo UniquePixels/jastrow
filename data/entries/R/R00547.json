@@ -1,0 +1,34 @@
+{
+	"id": "R00547",
+	"slug": "צלצלון",
+	"headword": {
+		"text": "צִלְצַלְוָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "צֶלְצְלִין"
+		},
+		{
+			"text": "צִילְ׳"
+		}
+	],
+	"page": {
+		"number": 1286,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. = h. <cite ref=\"R00545\"><he>צֶלְצָל</he></cite>, <i>cymbal</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 150:5\">Targ. Ps. CL, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 10:5\">Targ. I Sam. X, 5</cite> (h. text <he>חליל</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 18:6\">Ib. XVIII, 6</cite> (h. text <he>שלשים</he>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 6:5\">Targ. II Sam. VI, 5</cite>; <cite ref=\"I Chronicles 13:8\">I Chr. XIII, 8</cite>."
+			]
+		}
+	]
+}

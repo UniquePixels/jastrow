@@ -1,0 +1,23 @@
+{
+	"id": "C00789",
+	"slug": "גיף-3",
+	"headword": {
+		"text": "גִּיף",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 241,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גּוּף</he> I) <i>adultery, sensuality</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 104a:12\">Sabb. 104ᵃ</cite>, v. <cite ref=\"A01042\"><he>אח״ס</he></cite>."
+			]
+		}
+	]
+}

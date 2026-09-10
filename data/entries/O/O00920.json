@@ -1,0 +1,22 @@
+{
+	"id": "O00920",
+	"slug": "סכמותא",
+	"headword": {
+		"text": "סְכָמוּתָא"
+	},
+	"page": {
+		"number": 991,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00919\">preced.</cite>) <i>approved sentence, final decree</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 16:29\">Targ. Y. Num. XVI, 29</cite> (h. text <he>פקדת</he>), v. <cite ref=\"O00919\">preced.</cite>"
+			]
+		}
+	]
+}

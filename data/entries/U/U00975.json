@@ -1,0 +1,27 @@
+{
+	"id": "U00975",
+	"slug": "שינון",
+	"headword": {
+		"text": "שִׁינּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁנּ׳"
+		}
+	],
+	"page": {
+		"number": 1564,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01601\"><he>שָׁנַן</he></cite>) <i>diligent teaching, memorizing</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 34:2\">Sifré Deut. 34</cite> (ref. to <cite ref=\"Deuteronomy 6:7\">Deut. VI, 7</cite>) <he>אלו בש׳ וכ׳</he> these words must be memorized (by the children), but the passages (<cite ref=\"Exodus 13:1-10\">Ex. XIII, 1—10</cite>; <cite ref=\"Exodus 13:11-16\">11—16</cite>) need not be memorized; <cite ref=\"Exodus 13:11-16\">ib.</cite> <he>אינו דין שיהו בש׳</he> is it not a logical conclusion that they must be memorized?; Yalk. ib. 841."
+			]
+		}
+	]
+}

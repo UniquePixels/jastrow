@@ -1,0 +1,22 @@
+{
+	"id": "U00501",
+	"slug": "שופין",
+	"headword": {
+		"text": "שׁוֹפִין"
+	},
+	"page": {
+		"number": 1540,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שׁוּף</he> II) <i>file</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 30:1\">Kel. XXX, 1</cite>, v. <cite ref=\"U00488\"><he>שׁוּף</he></cite> II (Ar. <cite ref=\"U00502\"><he>שופינא</he></cite>)."
+			]
+		}
+	]
+}

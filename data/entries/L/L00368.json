@@ -1,0 +1,23 @@
+{
+	"id": "L00368",
+	"slug": "לחמניות",
+	"headword": {
+		"text": "לַחְמָנִיּוֹת"
+	},
+	"page": {
+		"number": 704,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (denom. of <cite ref=\"L00365\"><he>לֶחֶם</he></cite>) <i>a sort of bread offered as dessert, wafers</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 42a:4\">Ber. 42ᵃ</cite> (Ms. F. <he>להמנאה</he>)."
+			]
+		}
+	]
+}

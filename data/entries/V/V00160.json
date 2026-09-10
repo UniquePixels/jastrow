@@ -1,0 +1,25 @@
+{
+	"id": "V00160",
+	"slug": "תודתא",
+	"headword": {
+		"text": "תּוֹדְתָא"
+	},
+	"page": {
+		"number": 1650,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"V00157\"><he>תּוֹדָה</he></cite>, <i>thanksgiving, thank-offering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 30:19\">Targ. Jer. XXX, 19</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 7:12\">Targ. Lev. VII, 12</cite>; a. fr.—Pl. <he>תּוֹדָן</he>, <he>תּוֹדָאתָא</he>, <cite ref=\"V00160\"><he>תּוֹדָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 56:13\">Targ. Ps. LVI, 13</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 29:31\">Targ. II Chr. XXIX, 31</cite>."
+			]
+		}
+	]
+}

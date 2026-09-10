@@ -1,0 +1,30 @@
+{
+	"id": "M02465",
+	"slug": "מקרקע",
+	"headword": {
+		"text": "מְקַרְקַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְקַרְקְעָא"
+		}
+	],
+	"page": {
+		"number": 833,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., mostly pl. <cite ref=\"M02465\"><he>מְקַרְקְעֵי</he></cite> (v. <cite ref=\"S02174\"><he>קַרְקַע</he></cite>) <i>attached to the ground, real estate</i>, opp. <cite ref=\"M01005\"><he>מטלטלא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Yevamot 99a\">Yeb. 99ᵃ</cite>, a. e. <he>עבדא כמ׳ דמי</he> a slave is legally considered as real estate; <cite ref=\"Bava Batra 150a:6\">B. Bath. 150ᵃ</cite> <he>כמקרקעא</he> (Ms. M. pl.). ",
+				"<cite ref=\"Bava Batra 150a:7\">Ib.</cite> <he>שאני מ׳ דניד וכ׳</he> there is a difference between movable real estate (a slave) and an immovable estate; <cite ref=\"Bava Batra 68a:6\">ib. 68ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 150b:8\">Ib. 150ᵇ</cite> <he>כתובה דממ׳ תקינו רבנן</he> Ms. M. (ed. <he>דאמ׳</he>) the widowhood which the Rabbis have instituted to be guaranteed by real estate. ",
+				"<cite ref=\"Bava Batra 150a:7\">Ib.ᵃ</cite> bot. <he>כתובת אשה מ׳ הוא</he> the wife’s settlement is considered real estate; a. fr."
+			]
+		}
+	]
+}

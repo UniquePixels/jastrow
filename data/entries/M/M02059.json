@@ -1,0 +1,31 @@
+{
+	"id": "M02059",
+	"slug": "מעברתא",
+	"headword": {
+		"text": "מַעְבַּרְתָּא"
+	},
+	"page": {
+		"number": 813,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02058\">same</cite><i>crossing, ferry, ford</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:7\">Y. Taan. IV, 68ᶜ</cite>, sq.—",
+				"<cite ref=\"Bava Batra 73a\">B. Bath. 73ᵃ</cite> Ms. F., v. <cite ref=\"M02508\"><he>מַרְבַּעְתָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>מ׳</he> (<he>בדיקנא</he>) <i>a parted beard</i> (perh. = <cite ref=\"M02055\"><he>מַעְבָּר</he></cite>, <i>pronged like a fork</i>). ",
+			"units": ["<cite ref=\"Sanhedrin 100b:8\">Snh. 100ᵇ</cite>"],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>מ׳</he> (<he>דתפלין</he>) <i>the hollow rim of the capsule of the T’fillin of the arm through which the thong is slipped</i>. ",
+			"units": ["<cite ref=\"Menachot 35a:3\">Men. 35ᵃ</cite>"],
+			"label": "3"
+		}
+	]
+}

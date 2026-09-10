@@ -1,0 +1,46 @@
+{
+	"id": "O00810",
+	"slug": "סיקוסים-1",
+	"headword": {
+		"text": "סִיקוֹסִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיקוֹסִין"
+		},
+		{
+			"text": "סִקֹ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 986,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(also used as sing.) (σηκός, corresp. to Lat. saeptum, saepta) [<i>pen, enclosure</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>flood-gate</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2:15\">Lam. R. to II, 11</cite> <he>ס׳ ניתן לעין</he> a flood-gate has been made for (the tears of) the eye."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>limitation</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 10:1\">Gen. R. s. 10</cite>, beg. (ref. to <cite ref=\"Psalms 119:96\">Ps. CXIX, 96</cite>) <he>לכל יש ס׳ וכ׳</he> everything has its limitations … except one thing which has none, that is the Law (ref. to <cite ref=\"Job 11:9\">Job XI, 9</cite>); <cite ref=\"Yalkut Shimoni on Nach 878:1\">Yalk. Ps. 878</cite>. ",
+				"<cite ref=\"Shemot Rabbah 25:8\">Ex. R. s. 25</cite> (ref. to <cite ref=\"Genesis 28:14\">Gen. XXVIII, 14</cite>) <he>ס׳ נתן הקב״ה וכ׳</he> the Lord has set limits (to his words) to Jacob, thy seed shall become (as low) as the dust of the earth, but when thy children have reached that condition, then shalt thou spread &c. ",
+				"<cite ref=\"Vayikra Rabbah 12:4\">Lev. R. s. 12</cite> <he>לקרבנות נתתי ס׳ ולך איני ניתן ס׳</he> for the offerings (to me) I have set limits (ref. to <cite ref=\"Numbers 28:14\">Num. XXVIII, 14</cite>), but for thee I set no limits (God’s gifts to man are unlimited)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "H01808",
+	"slug": "חשבא",
+	"headword": {
+		"text": "חַשָּׁבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשָׁ׳"
+		}
+	],
+	"page": {
+		"number": 508,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01807\">preced.</cite>) <i>accountant, calculator</i>.—Pl. (<cite ref=\"H01808\"><he>חֲשָׁ׳</he></cite>) <he>חַשָּׁבַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 33:18\">Targ. Is. XXXIII, 18</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "Q00607",
+	"slug": "פיזא",
+	"headword": {
+		"text": "פִּיזָּא"
+	},
+	"page": {
+		"number": 1160,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"Q00420\"><he>פָּז</he></cite>. ",
+			"units": [
+				"<cite ref=\"Gittin 58a:4\">Gitt. 58ᵃ</cite> <he>תרתי מתלי איסתירא פ׳ וכ׳</he> all the fine gold of the world weighs two Istiras, one half of it is in Rome, and the other in the rest of the world. ",
+				"<cite ref=\"Gittin 58a:4\">Ib.</cite> <he>מחפי בפ׳</he> covered with fine gold. ",
+				"<cite ref=\"Avodah Zarah 11b\">Ab. Zar. 11ᵇ</cite> <he>מתקל ד׳ זוזי דפ׳</he> (not <cite ref=\"T00001\"><he>ר׳</he></cite>, ed. <he>מתקל זוזא דפ׳</he>; Ms. M. <he>פרזא</he>, corr. acc.; Ar. ed. Koh. <cite ref=\"Q00434\"><he>פִּיזֵּי</he></cite> <i>gold pieces</i>) fine gold of the weight of four Zuz. ",
+				"<cite ref=\"Ketubot 77b:9\">Keth. 77ᵇ</cite> <he>תכטקי פ׳</he>, v. <cite ref=\"V00562\"><he>תַּכְתָּקָא</he></cite>; a. e."
+			]
+		}
+	]
+}

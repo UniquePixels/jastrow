@@ -1,0 +1,37 @@
+{
+	"id": "P00158",
+	"slug": "עדף-1",
+	"headword": {
+		"text": "עָדַף"
+	},
+	"page": {
+		"number": 1045,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be lax, hang over</i>,] <i>to be abundant; to be larger, more, better</i>. Sifra K’dosh. beg. <he>יכול שכבוד האב עוֹדֵף וכ׳</he> you might think that honoring the father was more important than &c. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 876:18\">Yalk. Ps. 876</cite> <he>יַעֲדֹף</he>, v. <cite ref=\"P00144\"><he>עָדִיף</he></cite> h. ",
+				"<cite ref=\"Mishnah Middot 4:7\">Midd. IV, 7</cite> <he>האולם עוֹדֵף עליו וכ׳</he> the hall extended beyond it (the Hekhal) fifteen cubits to the north &c. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:2\">Y. R. Hash. II, 58ᵇ</cite> top [read:] <he>אילו אמר בעיבור הייתי אומר … שההמה עוֹדֶפֶת וכ׳</he> if he had said <i>b’‘ibbur</i> (by intercalation), I might have said, this refers to the eleven days by which the solar year is larger than the lunar year. ",
+				"<cite ref=\"Eruvin 83a\">Erub. 83ᵃ</cite> <he>סאה של ירושלמית עודפת וכ׳</he> Ms. M. (ed. <cite ref=\"J00740\"><he>יתירה</he></cite>) the Jerusalem S’ah is larger than … by &c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעְדִּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to do more</i> (<i>than enough</i>)<i>; to be liberal</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 63a\">Kidd. 63ᵃ</cite>, a. e. <he>שמא תַעְדִּיף יתר וכ׳</he> she might do more work for him than is due to him. ",
+						"<cite ref=\"Tosefta Bava Metzia 4:14\">Tosef. B. Mets. IV, 14</cite> <he>אע״פ שמַעְדִּיפִין זה על זה</he> although one of the partners does more business than the other (they are liberal towards one another). Y. Dem. V, 24ᶜ <he>המַעְדִּיף על מעשרותיו</he> he who adds to his tithes (gives more than one-tenth; <cite ref=\"Tosefta Demai 8:13\">Tosef. Dem. VIII, 13</cite> <he>המרבה במעשרות</he>); a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "D00673",
+	"slug": "דיעתא",
+	"headword": {
+		"text": "דִּיעֲתָא"
+	},
+	"page": {
+		"number": 303,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <he>זֵעָה</he>) <i>sweat</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:19\">Targ. O. Gen. III, 19</cite> (ed. <cite ref=\"G00391\"><he>זִיעֲתָא</he></cite>, v. Berl. Targ. O. II, p. 2)."
+			]
+		}
+	]
+}

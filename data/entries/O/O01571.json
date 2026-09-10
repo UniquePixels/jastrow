@@ -1,0 +1,44 @@
+{
+	"id": "O01571",
+	"slug": "סרח-3",
+	"headword": {
+		"text": "סָרַח",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1024,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;<i>Saf.</i> of <he>רוח</he>, cmp. <cite ref=\"T00343\"><he>רָוַח</he></cite>; cmp. Arab. <i>saraḥa</i>) <i>to be</i> or <i>to make wide; to extend.—Part. pass</i>. <cite ref=\"O01553\"><he>סָרוּחַ</he></cite>; f. <cite ref=\"O01554\"><he>סְרוּחָה</he></cite>; pl. <he>סְרוּחִים</he>, <he>סְרוּחִין</he>; <he>סְרוּחות</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>overhanging</i>, <i>flapping</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 83b:18\">Yoma 83ᵇ</cite> <he>ואזניו ס׳</he> and his (the mad dog’s) ears flap.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (v. ",
+					"units": [
+						"<cite ref=\"Amos 6:4\">Am. VI, 4</cite>; <cite ref=\"Amos 6:7\">7</cite>) <i>stretched indolently</i> on the couch, <i>banqueting</i>. ",
+						"<cite ref=\"Moed Katan 28b:26\">M. Kat. 28ᵇ</cite>; <cite ref=\"Ketubot 69b:3\">Keth. 69ᵇ</cite>; Yalk. Am. 545 <he>נעשה שר לס׳</he>, v. <cite ref=\"M02477\"><he>מַר</he> II</cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 9:7\">Num. R. s. 9</cite>, v. <cite ref=\"O00408\"><he>סוּר</he> I</cite>.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>emasculated</i>, <i>impotent</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 32:8\">Gen. R. s. 32</cite> (ref. to <cite ref=\"Genesis 7:16\">Gen. VII, 16</cite>) <he>פרט לס׳ ומחוסרי וכ׳</he> (ed. Leipz. <he>סרוסים</he>, corr. acc.) to the exclusion of emasculated animals (impotent from old age; ‘Rashi’: animals having overhanging, double, limbs) and mutilated ones. ",
+						"<cite ref=\"Devarim Rabbah 3\">Deut. R. s. 3</cite> (expl. <he>עקר וכ׳</he>, <cite ref=\"Devarim Rabbah 7:14\">ib. VII, 14</cite>) <he>ס׳ ואילוניות</he> (some ed. <he>סריסין</he>) impotent men or barren women."
+					],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

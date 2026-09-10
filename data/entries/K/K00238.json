@@ -1,0 +1,29 @@
+{
+	"id": "K00238",
+	"slug": "כוחל",
+	"headword": {
+		"text": "כּוֹחָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּחוֹל"
+		}
+	],
+	"page": {
+		"number": 618,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"C00592\"><he>גחל</he></cite>, v. Lane Customs, 1837, p. 51 sq.) <i>ko</i> <i>ḥl, a powder used for painting the eye-lids, stibium</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:3\">Sabb. VIII, 3</cite> (<cite ref=\"Shabbat 78b:2\">78ᵇ</cite>) <cite ref=\"K00451\"><he>כּוֹ׳</he></cite> Ar. (ed. <he>כְּח׳</he>); Y. ib. 11ᵇ bot. <he>כו׳</he>. ",
+				"<cite ref=\"Chullin 88b:9\">Ḥull. 88ᵇ</cite> <he>השחור והכ׳</he> powdered coal and stibium. ",
+				"<cite ref=\"Sanhedrin 14a\">Snh. 14ᵃ</cite>; <cite ref=\"Ketubot 17a:2\">Keth. 17ᵃ</cite> (in a song) <he>לא כֹּחָל</he> here is no paint (no showiness). [<cite ref=\"Tosefta Niddah 6:4\">Tosef. Nidd. VI, 4</cite> <cite ref=\"K00238\"><he>כוחל</he></cite>, read: <cite ref=\"B00225\"><he>בּוֹחַל</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "P00186",
+	"slug": "עוברתא-1",
+	"headword": {
+		"text": "עוֹבַרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוֹבָרָא"
+		}
+	],
+	"page": {
+		"number": 1047,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00060\"><he>עֲבַר</he></cite>; cmp. <cite ref=\"H01058\"><he>חֲלִיפִים</he></cite>) <i>shoot, sprout, branch</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 13:23\">Targ. Num. XIII, 23</cite> (<cite ref=\"Onkelos Numbers 13:24\">24</cite>); Y. II <he>עוברא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 80:16\">Targ. Ps. LXXX, 16</cite> (h. text <he>כנה</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:3\">Targ. Ez. XVII, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:22\">Ib. 22</cite> Ar.; a. e.—[<cite ref=\"Targum Jonathan on Genesis 33:14\">Targ. Y. Gen. XXXIII, 14</cite> some ed., read: <cite ref=\"P00176\"><he>עוֹבַדְתָּא</he></cite>.]—Pl. <cite ref=\"P00184\"><he>עוֹבָרָן</he></cite>, <he>עוֹבָרָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:6\">Targ. Ez. XVII, 6</cite> (Bxt. <he>עוֹבָרִין</he> m.). ",
+				"<cite ref=\"Targum Jonathan on Genesis 49:22\">Targ. Y. I Gen. XLIX, 22</cite> (ed. Amst. <he>עובד׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"id": "U00323",
+	"slug": "שובל-3",
+	"headword": {
+		"text": "שׁוֹבַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּבְלָא"
+		},
+		{
+			"text": "שׁוּבְּ׳"
+		}
+	],
+	"page": {
+		"number": 1529,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00794\"><he>שִׁיבּוֹלֶת</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ear of corn</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 41:47\">Targ. Y. Gen. XLI, 47</cite> (ed. Vien. <cite ref=\"V00149\"><he>תובלא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 24:24\">Targ. Job XXIV, 24</cite> Ms. (ed. <cite ref=\"U00077\"><he>שִׁבּוֹלָא</he></cite>, <cite ref=\"U00784\"><he>שִׁיבּ׳</he></cite>).—Pl. <he>שׁוּבְּלַיָּא</he>, <he>שׁוּבְּלִין</he>, <he>שׁוּבְּלֵי</he>, <cite ref=\"U00323\"><he>שׁוּבְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 41:5\">Targ. O. Gen. XLI, 5</cite>, sq. ed. Berl. (oth. ed. <cite ref=\"U00140\"><he>שֻׁבְּ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 17:5\">Targ. Is. XVII, 5</cite> <cite ref=\"U00323\"><he>שׁוּבְ׳</he></cite>; a. e.—",
+				"<cite ref=\"Aramaic Targum to Ruth 2:2\">Targ. Ruth II, 2</cite> <he>שִׁבּוֹלִין</he>.—",
+				"<cite ref=\"Bava Batra 124a:8\">B. Bath. 124ᵃ</cite>; <cite ref=\"Bekhorot 52b:1\">Bekh. 52ᵇ</cite>, v. <cite ref=\"H01432\"><he>חֲפוּרָה</he> II</cite>. ",
+				"<cite ref=\"Yevamot 63a:8\">Yeb. 63ᵃ</cite> <he>לביני שִׁיבְּלֵי</he> between the standing ears; a. e.—",
+				"<cite ref=\"Menachot 70b:1\">Men. 70ᵇ</cite> <he>שִׁבּוֹלֵו תעלא</he>; <cite ref=\"Pesachim 35a\">Pes. 35ᵃ</cite> Ms. O. (ed. <he>שבילי</he>), v. <cite ref=\"U00794\"><he>שִׁיבּוֹלֶת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cluster</i> of olives on a branch.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 4:12\">Targ. Zech. IV, 12</cite>; Targ. II Esth. I, 2 <he>שִׁבְּלִין דדהבא</he> golden clusters.—",
+				"<cite ref=\"Targum Jerusalem, Exodus 30:34\">Targ. Y. II, Ex. XXX, 34</cite>, v. <cite ref=\"M00646\"><he>מוֹרַיָּיא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

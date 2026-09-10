@@ -1,0 +1,67 @@
+{
+	"id": "J00100",
+	"slug": "ידי-1",
+	"headword": {
+		"text": "ידי"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָדָה"
+		}
+	],
+	"page": {
+		"number": 564,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to point, move</i> (cmp. b. h. <cite ref=\"E00098\"><he>הָדָה</he></cite>).—Denom. <cite ref=\"J00093\"><he>יָד</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹדָה"],
+			"senses": [
+				{
+					"gloss": " [<i>to raise hands</i>,] ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to thank, acknowledge; to give praise</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 6b:16\">Taan. 6ᵇ</cite> <he>מוֹדִים … לך</he> we offer thanks unto thee. ",
+						"<cite ref=\"Mishnah Berakhot 5:3\">Ber. V, 3</cite> he who says in public prayer <he>מודים מודים … אותו</he> ‘we thank, we thank’ (as if pointing in different directions and acknowledging two divinities) must be silenced. ",
+						"<cite ref=\"Mishnah Berakhot 9:5\">Ib. IX, 5</cite> (play on <he>מ̇אד̇ך</he>, <cite ref=\"Deuteronomy 6:5\">Deut. VI, 5</cite>) <he>בכל מ̇ד̇ה ומדה … הוי מוֹדֶה לו</he> for whatever measure He metes out to thee, give thanks to Him. Ib. 54ᵇ <he>ארבעה צריכין להוֹרוֹת</he> four persons are bound to offer public thanks; a. v. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to admit, consent, to confess</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Pesachim 4:9\">Pes. IV, 9</cite> (<cite ref=\"Pesachim 56a\">56ᵃ</cite>); <cite ref=\"Berakhot 10a:23\">Ber. 10ᵃ</cite> <he>על ג׳ הוֹדוּ לו</he> concerning three of his acts they agreed with him. ",
+						"<cite ref=\"Bava Metzia 3a\">B. Mets. 3ᵃ</cite>, a. fr. <he>מוֹדֶה במקצת הטענה</he> he who admits part of his opponent’s claim. ",
+						"<cite ref=\"Mishnah Shevuot 6:3\">Shebu. VI, 3</cite>; <cite ref=\"Ketubot 108b:14\">Keth. 108ᵇ</cite>, a. e. <he>טענו … וה׳ לו בשעורים</he>, v. <cite ref=\"I00614\"><he>טָעַן</he> I</cite>. ",
+						"<cite ref=\"Bava Metzia 12b\">B. Mets. 12ᵇ</cite> <he>בשחייב מודה</he> when the debtor admits his indebtedness; a. v. fr. [<cite ref=\"Tosefta Parah 9:6\">Tosef. Par. IX</cite> (<cite ref=\"Tosefta Parah 8:6\">VIII</cite>), 6 <he>שהן מודין</he>, v. <cite ref=\"M00653\"><he>מוֹרִיר</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְיַדֶּה"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"N00222\"><he>נִתְוַדֶּה</he></cite>, (denom. of <cite ref=\"V00157\"><he>תּוֹדָה</he></cite>, cmp. ",
+					"units": [
+						"<cite ref=\"Joshua 7:19\">Josh. VII, 19</cite>) <i>to confess</i> one’s sins before God. ",
+						"<cite ref=\"Mishnah Yoma 3:8\">Yoma III, 8</cite> <he>ומִתְיַרֶּה</he> and confesses in public. ",
+						"<cite ref=\"Yoma 40a:3\">Ib. 40ᵃ</cite> <he>להגריל ולהִתְוַדּוֹת</he> to cast lots and to make confession (on the head of the scapegoat). Y. ib. VIII, end, 45ᶜ <he>אע״פ שנ׳ בערבית צריך להתודות וכ׳</he> although he has made confession in the evening prayer, he must again confess &c.; a. fr.—V. <cite ref=\"F00034\"><he>וִידּוּי</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

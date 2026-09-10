@@ -1,0 +1,23 @@
+{
+	"id": "K00643",
+	"slug": "כיתא-1",
+	"headword": {
+		"text": "כִּיתָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 637,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01394\"><he>כְּתַת</he></cite>) <i>beating</i> (<i>of flax</i>). ",
+			"units": [
+				"<cite ref=\"Shabbat 140b:12\">Sabb. 140ᵇ</cite>, v. <cite ref=\"K00647\"><he>כִּיתּוּנִיתָא</he></cite>."
+			]
+		}
+	]
+}

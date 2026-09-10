@@ -1,0 +1,40 @@
+{
+	"id": "U01686",
+	"slug": "שער-8",
+	"headword": {
+		"text": "שַׁעַר"
+	},
+	"page": {
+		"number": 1612,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; שער <i>to divide, break open</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gate, open place</i> for public and private transactions. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 242:11\">Sifré Deut. 242</cite> (ref. to <cite ref=\"Deuteronomy 22:24\">Deut. XXII, 24</cite> <he>ש׳ שנמצאת בו וכ׳</he> the gate (of the place) where she was found, and not the gate where she was judged. ",
+				"<cite ref=\"Ketubot 45b:5\">Keth. 45ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 17:5\">Deut. XVII, 5</cite>) <he>ש׳ שעבד בו</he> the gate (of the place) where he worshipped the idol. ",
+				"<cite ref=\"Mishnah Middot 1:3\">Midd. I, 3</cite> <he>ש׳ המזרחי</he> the eastern Temple gate; a. v. fr.—Pl. <cite ref=\"U01693\"><he>שְׁעָרִים</he></cite>, <cite ref=\"U01692\"><he>שְׁעָרִין</he></cite>; constr. <cite ref=\"U01692\"><he>שַׁעֲרֵי</he></cite>. ",
+				"<cite ref=\"Mishnah Middot 1:3\">Ib.</cite> <he>חמשה ש׳ היו וכ׳</he> the Temple mount had five gates; <he>שני ש׳ חולדה</he> two <i>ḥuldah</i> gates, v. <cite ref=\"H00331\"><he>חוּלְדָּה</he> II</cite>. Ib. 4; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>market, market price</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 5:7\">B. Mets. V, 7</cite> <he>שיצא הש׳</he>, v. <cite ref=\"Q01350\"><he>פָּסַק</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Metzia 5:7\">Ib.</cite> (72ᵇ) <he>כש׳ הגבוה</he> (Bab. ed. <he>בש׳</he>) according to the price at the height of the market, i.e. the lowest price. Ib. 8 <he>כש׳ הזול</he> according to the lowest market price. Ib. 1 <he>לקח … וכן הש׳</he> if he bought wheat of him, at a gold Denar a Kor, and such was the market price. ",
+				"<cite ref=\"Gittin 57a:22\">Gitt. 57ᵃ</cite> <he>נחסר הש׳ מודיא אחת</he> the price went down one Modius, i.e. from forty Modii to thirty-nine for a Denar; <he>וחזר הש׳ למקומו</he> the price went back to its former figure; a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Bava Batra 89a:9\">B. Bath. 89ᵃ</cite> <he>לש׳</he> for the regulation of market prices, v. <cite ref=\"A00343\"><he>אֲגַרְדְּמִיס</he></cite>; Y. ib. V, end, 15ᵇ <he>שִׁיעוּרִין</he>, a. <he>שִׁיעוּרַיָּיא</he>."
+			],
+			"label": "2"
+		}
+	]
+}

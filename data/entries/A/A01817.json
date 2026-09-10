@@ -1,0 +1,23 @@
+{
+	"id": "A01817",
+	"slug": "אלון-2",
+	"headword": {
+		"text": "אַלּוֹן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 68,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἄλλος acc.) <i>another</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 81:5\">Gen. R. s. 81</cite> in Greek <i>allon</i> means <cite ref=\"A01047\"><he>אַחֵר</he></cite>; Pesik. Zakh. p. 24ᵃ <he>א׳ תרי</he> (read <cite ref=\"A01047\"><he>אַחֵר</he></cite>) another (one more)."
+			]
+		}
+	]
+}

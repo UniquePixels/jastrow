@@ -1,0 +1,22 @@
+{
+	"id": "M01984",
+	"slug": "מסעד",
+	"headword": {
+		"text": "מְסָעֵד"
+	},
+	"page": {
+		"number": 810,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01275\"><he>סָעַד</he></cite>) <i>assistant, attendant</i>.—Pl. <he>מְסָעֲדִים</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 3:6\">Par. III, 6</cite> <he>פרה וכל מְסָעֲדֶיהָ</he> the red cow and all her attendants."
+			]
+		}
+	]
+}

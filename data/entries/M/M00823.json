@@ -1,0 +1,35 @@
+{
+	"id": "M00823",
+	"slug": "מחוי-2",
+	"headword": {
+		"text": "מָחוּי"
+	},
+	"page": {
+		"number": 758,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00809\"><he>מָחָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dissolved, watery</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 7:2:4\">Y. Naz. VII, 56ᵇ</cite>, v. <cite ref=\"M00428\"><he>מוֹהַל</he></cite>.—Trnsf. <i>wasted by dissipation</i>. ",
+				"<cite ref=\"Esther Rabbah 5:3\">Esth. R. to II, 3</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>blotted out</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 24a:7\">Yeb. 24ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 25:6\">Deut. XXV, 6</cite>) <he>פרט לסריס ששמו מ׳</he> excluding the eunuch whose name is anyhow blotted out; Y. ib. IV, 5ᶜ top <he>יצא זה ששמו מ׳</he> (not <he>שאין שמו</he>). Ib. <he>את ששמו מ׳</he> he whose name would otherwise be blotted out. V. <cite ref=\"M00809\"><he>מָחָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

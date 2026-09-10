@@ -1,0 +1,66 @@
+{
+	"id": "V00972",
+	"slug": "תרח",
+	"headword": {
+		"text": "תְּרַח"
+	},
+	"page": {
+		"number": 1697,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"M00858\"><he>אִיתְרַח</he></cite> (denom. of <he>רוח</he>) [<i>to breathe,</i>] <i>to rest, wait</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 1:6\">Targ. Y. Deut. I, 6</cite> (v., however, <cite ref=\"A03062\"><he>אֲרַח</he></cite>).—",
+						"<cite ref=\"Shabbat 134a:14\">Sabb. 134ᵃ</cite> <he>לִיתְרְחוּ ליה וכ׳</he> (Ms. M. <he>לישתהי</he>; Ar. <he>לִיתְרְהוּ</he>) let them wait with his circumcision, until the blood withdraws from the surface. Ib. 136ᵃ <he>אי אִיתְרְחִיתוּ ליה וכ׳</he> if you had waited until evening to kill it, we should have eaten of it. ",
+						"<cite ref=\"Moed Katan 28a:22\">M. Kat. 28ᵃ</cite> <he>אִיתְרַח לי וכ׳</he> (Ms. M. <he>איתרך</he>, v. Rabb. D. S. a. l. note) give me thirty days’ time. ",
+						"<cite ref=\"Arakhin 9a\">Arakh. 9ᵃ</cite> <he>קא מִתְרְהָא סיהרא וכ׳</he> Ar. (Var. <he>מתאחר</he>) the new month would be delayed two (three) days; (ed. <he>מייתרא</he> the old month would gain &c.). ",
+						"<cite ref=\"Niddah 30b:19\">Nidd. 30ᵇ</cite> <he>אתרח ארבעין יומין וכ׳</he> Var. (read: <cite ref=\"T00242\"><he>אִתְרְחָא</he></cite>; ed. <he>אייתרה</he>) she may have waited forty days and then become pregnant; a. e.—",
+						"<cite ref=\"Bava Kamma 80b:1\">B. Kam. 80ᵇ</cite> <he>מאן נִתְרַח ניתרח וכ׳</he> (Rashi to <cite ref=\"Gittin 68b:14\">Gitt. 68ᵇ</cite> <he>מאן תרח ניתרח</he>) who shall wait (in the antechamber)? shall Samuel wait, and Rab and R. Asi enter?; <he>ונתרח רב או רב אסי</he> but should Rab have waited or Rab Asi? [Ms. M. <he>מאן טרח ניטרח וכ׳</he> who should be troubled? &c.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["תַּרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to wait, keep back</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 68b:14\">Gitt. 68ᵇ</cite> <he>תַּרֲחֵיה גביה וכ׳</he> (Ar. <he>תַּרְהֲיֵיה</he> <i>Paeli</i>) he kept him with him until &c."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַתְרִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be liberal</i>. Y. B. Mets. VI, beg. 10ᵈ <he>לא דאנא … אלא אנא חייה מַתְרִיחַ לכון</he> (ed. Krot. <he>מתרית</he>, corr. acc.) not that I am legally bound to give you your wages, but I, Ḥiya, am liberal towards you.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to allow time</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 18a:15\">Ab. Zar. 18ᵃ</cite> <he>מַתְרַחְנָא מִתְרַח</he> (not <he>מרתח</he>; Ms. M. <he>מתרחנא</he> only; v. Rabb. D. S. a. l. note) I will give you time (wait until you are well again); [prob. to be read: <he>מַרְתַּחְנָא</he> I am <i>hot</i>, v. <cite ref=\"T01117\"><he>רְתַה</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

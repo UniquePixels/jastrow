@@ -1,0 +1,40 @@
+{
+	"id": "A00411",
+	"slug": "אדכרה",
+	"headword": {
+		"text": "אַדְכָּרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַדְכַּרְתָּא"
+		}
+	],
+	"page": {
+		"number": 16,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00792\"><he>דְּכַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mention</i>, esp. <i>invocation of the Lord, Divine Name</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:3:4\">Y. Ber. IV, 8ᵃ</cite> top <he>לכל חדא וחדא מנהון אדכרה</he> for each benediction an invocation. ",
+				"<cite ref=\"Rosh Hashanah 18b:15\">R. Hash. 18ᵇ</cite> <he>בטילת אדכרתא</he> the use of the Divine Name in legal documents was abolished."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= b. h. <cite ref=\"A00972\"><he>אַזְכָּרָח</he></cite>) <i>memorial offering</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 2:2\">Targ. O. Lev. II, 2</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

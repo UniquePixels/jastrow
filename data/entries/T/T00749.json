@@ -1,0 +1,36 @@
+{
+	"id": "T00749",
+	"slug": "רכבא-1",
+	"headword": {
+		"text": "רִכְבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִיכְ׳"
+		}
+	],
+	"page": {
+		"number": 1479,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00748\">same</cite><i>upper millstone</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 24:6\">Targ. Deut. XXIV, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 11:26\">Targ. II Sam. XI, 26</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 9:21\">Targ. Jud. IX, 21</cite> <cite ref=\"T00746\"><he>רְכַב</he></cite> constr. (ed. Wil. <cite ref=\"T00748\"><he>רֶכֶב</he></cite>); a. e.—Pl. <he>רִכְבַּיָּא</he>, <cite ref=\"T00749\"><he>רִיכְ׳</he></cite>. Targ. Y. II, Deut. l. c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>inoculation, young inoculated tree</i>; <he>ר׳ דדיקלא</he> (<he>ר׳ דדיקלי</he>) <i>a nursery of palm trees</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 108b:14\">B. Mets. 108ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 62b:5\">B. Bath. 62ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 83b:1\">Ib. 83ᵇ</cite>.—[<cite ref=\"Targum Jerusalem, Exodus 15:1\">Targ. Y. II, Ex. XV, 1</cite> <he>רִכְבֵּיהוֹן</he>, v. next w.]"
+			],
+			"label": "2"
+		}
+	]
+}

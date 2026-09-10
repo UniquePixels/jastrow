@@ -1,0 +1,25 @@
+{
+	"id": "N00854",
+	"slug": "נכתמא",
+	"headword": {
+		"text": "נִכְתְּמָא"
+	},
+	"page": {
+		"number": 912,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כתם</he>) (<i>wooden</i>) <i>lid</i> of a water pitcher. ",
+			"units": [
+				"<cite ref=\"Beitzah 30a\">Bets. 30ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 26a:1\">B. Bath. 26ᵃ</cite> top <he>כדנייד נ׳ וכ׳</he> as much as a lid on a pitcher shakes. ",
+				"<cite ref=\"Shabbat 105b:9\">Sabb. 105ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 112a:4\">Pes. 112ᵃ</cite>"
+			]
+		}
+	]
+}

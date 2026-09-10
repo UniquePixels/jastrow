@@ -1,0 +1,32 @@
+{
+	"id": "D00560",
+	"slug": "דיין-1",
+	"headword": {
+		"text": "דַּיָּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּיָּן"
+		}
+	],
+	"page": {
+		"number": 298,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>דון</he>)<i>judge</i>, generally at the <cite ref=\"D00559\">same</cite> time <i>lecturer, spiritual leader</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 7b:8\">Snh. 7ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 10a:5\">Sabb. 10ᵃ</cite>; a. fr.—Pl. <he>דַּיָּינִים</he>, <he>דַּיָּינִין</he>. Snh. l. c. <he>כלי הד׳</he> the judges’ implements (stick, strap &c.). ",
+				"<cite ref=\"Bava Batra 51a:1\">B. Bath. 51ᵃ</cite> <he>דַּיָּינֵי גולה</he> the judges of the Diaspora (Karna a. Samuel; v. ",
+				"<cite ref=\"Sanhedrin 17b:1\">Snh. 17ᵇ</cite>). ",
+				"<cite ref=\"Mishnah Ketubot 13:1\">Keth. XIII, 1</cite>, v. <cite ref=\"C00553\"><he>גְּזֵירָה</he></cite>; a. fr.—<i>Fem.</i> pl. <he>דַּיָּינוֹת</he>. ",
+				"<cite ref=\"Kohelet Rabbah 2:8\">Koh. R. to II, 8</cite> <he>דיינים זכרים וד׳ נקבות</he> male judges and female judges (leaders; <cite ref=\"Yalkut Shimoni on Nach 968:1\">Yalk. ib. 968</cite> <he>דַּיָּנִין … ודַּיָּנִין נקבות</he>)."
+			]
+		}
+	]
+}

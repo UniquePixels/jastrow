@@ -1,0 +1,30 @@
+{
+	"id": "C00496",
+	"slug": "גוריתא",
+	"headword": {
+		"text": "גּוּרְיְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּרְיְיתָא"
+		}
+	],
+	"page": {
+		"number": 227,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"C00492\"><he>גּוּרְיָא</he></cite>) <i>a young female cub</i> (dog or lion). ",
+			"units": [
+				"<cite ref=\"Eruvin 86a:9\">Erub. 86ᵃ</cite> (prov.) <he>נבח בך כלבא עול נבחא בך גוריתא וכ׳</he> Ar. (ed. <he>נבח בך גוריית׳</he>, corr. acc., v. Rabb. D. S. a. l. note 400) if the dog barks at thee, go in; if the bitch barks at thee, go away, i.e. you can endure a quarrelsome son-in-law, but not a quarrelsome daughter-in-law. ",
+				"<cite ref=\"Shabbat 67a:9\">Sabb. 67ᵃ</cite> (in a charm formula) <he>אאוסי דגורייתא</he> (Rashi <he>דגורית׳</he>) on the nostrils of a lioness.—Pl. <cite ref=\"C00496\"><he>גּוּרְיָיתָא</he></cite>, <cite ref=\"C00496\"><he>גּוּרְיָאתָא</he></cite>. ",
+				"<cite ref=\"Shabbat 155b:1\">Ib. 155ᵇ</cite> <he>בג׳ זוטרי</he> it means young dogs (which eat flesh with difficulty). ",
+				"<cite ref=\"Ketubot 61b:8\">Keth. 61ᵇ</cite> she plays <he>בג׳ קיטנייתא</he> with little cubs (Ar. <cite ref=\"S01078\"><he>קיסנייתא</he></cite>), v. <cite ref=\"N01268\"><he>נרדשיר</he></cite>. [Ar. <cite ref=\"C00496\"><he>גוריתא</he></cite>, name of a bird, v. <cite ref=\"C00829\"><he>גִּירוּתָא</he></cite>.]"
+			]
+		}
+	]
+}

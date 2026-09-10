@@ -1,0 +1,58 @@
+{
+	"id": "H00296",
+	"slug": "חוט-4",
+	"headword": {
+		"text": "חוּט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 431,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to fasten</i>, esp. (denom. of <cite ref=\"H00297\"><he>חֲוַט</he></cite>) <i>to provide a shoe with straps</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:4:5\">Y. Kil. IX, 32ᵈ</cite> top <he>לא יֵחוֹט ליה מסאניה</he> that he should not make for his (woolen) shoes straps of flax but leather thongs. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:4:5\">Ib.</cite> <he>מהו מֵיחוֹט מסאניה בכיתן</he> (not <he>דכ׳</he>) is it permitted to put flax straps on &c.?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַיֵּיט", "חַיֵּט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00295\">same</cite>, <i>to fasten, strap</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 25:9\">Targ. Y. Deut. XXV, 9</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sew</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 16:15\">Targ. Job XVI, 15</cite>; a. e.—",
+						"<cite ref=\"Menachot 37b:13\">Men. 37ᵇ</cite> <he>האי מאן דחַיְּיטֵיה לגלימיה</he> he who sewed the trail of his cloak up. Y. Shebi. IV, 35ᵃ bot. <he>הוה מְחַיֵּיט וכ׳</he> was doing tailor’s work at &c.; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to mend, patch</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כות׳</he> 1) <he>ח׳ ליה מן וכ׳</he> he patched it in one place &c.; a. e."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to form a net of straps, plait</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 75a:13\">Ab. Zar. 75ᵃ</cite> <he>דחַיְּיטֵי בחבלי וכ׳</he> Ms. M. (ed. <he>דחַיְּטֵי</he>) which they plait with chords &c."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

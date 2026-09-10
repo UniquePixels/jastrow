@@ -1,0 +1,34 @@
+{
+	"id": "T00112",
+	"slug": "רבית-2",
+	"headword": {
+		"text": "רִבִּית",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רִבִּיתָא"
+		},
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1443,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00111\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 23:20\">Targ. O. Deut. XXIII, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:21\">Targ. Y. ib. 21</cite> (ed. Vien. <he>רִיבִי׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 18:8\">Targ. Ez. XVIII, 8</cite>; <cite ref=\"Targum Jonathan on Ezekiel 18:13\">13</cite>; <cite ref=\"Targum Jonathan on Ezekiel 18:17\">17</cite> (ed. Wil. <cite ref=\"T00085\"><he>רַבִּי׳</he></cite>; ed. Lag. <he>ריב׳</he>); a. e.—",
+				"<cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite>, beg. (prov.) <he>דיזיף בר׳ וכ׳</he> (not <he>בריביתיה</he>) he that borrows money on interest (to carry on his business), loses his own and other people’s money.—Pl. <cite ref=\"T00092\"><he>רִבְיָין</he></cite>, <cite ref=\"T00053\"><he>רִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 22:24\">Targ. Y. I Ex. XXII, 24</cite>; Y. II <cite ref=\"T00090\"><he>רַבְיָיא</he></cite> (?). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 25:37\">Targ. Y. Lev. XXV, 37</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 25:36\">Ib. 36</cite> (some ed. <he>ריפיין</he>, corr. acc.)."
+			]
+		}
+	]
+}

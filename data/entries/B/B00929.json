@@ -1,0 +1,23 @@
+{
+	"id": "B00929",
+	"slug": "במסא",
+	"headword": {
+		"text": "בָּמָסָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 176,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"B00630\"><he>בִּימוֹס</he></cite><i>altar, high-place</i>. [<cite ref=\"Targum Jerusalem, Deuteronomy 32:13\">Targ. Y. II, Deut. XXXII, 13</cite> <cite ref=\"B00929\"><he>בַּמְסָא</he></cite>, read <cite ref=\"B00931\"><he>בָּמָתָא</he></cite>.]—Pl. <he>בָּמָסַיָּא</he>, <he>בָּמוֹסִין</he>, <he>בָּמוֹסַיָּא</he> (<he>בַּמְסַיָּא</he>) <i>idolatrous places of worship</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 14:4\">Targ. II Chr. XIV, 4</cite>; a. e."
+			]
+		}
+	]
+}

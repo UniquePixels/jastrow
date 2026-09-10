@@ -1,0 +1,33 @@
+{
+	"id": "H01020",
+	"slug": "חלט-1",
+	"headword": {
+		"text": "חָלַט",
+		"homograph": 1
+	},
+	"page": {
+		"number": 466,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"H01022\"><he>חָלַט</he> II</cite>, a. Syr. <cite ref=\"H01021\"><he>חלט</he></cite> P. Sm. 1277) <i>bind up, mix</i>, esp. <i>to stir flour in hot water</i>, v. <cite ref=\"H01040\"><he>חֲלִיטָה</he> II</cite>.—<i>Part. pass.</i> <cite ref=\"H00994\"><he>חָלוּט</he></cite> a paste prepared by stirring, <i>dumpling</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Challah 1:4:8\">Y. Ḥall. I, 58ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Maasrot 1:4:12\">Y. Maasr. I, 49ᵇ</cite> <he>ח׳ ברור</he> a real <i>ḥalut</i> (concerning which there is no doubt as to the obligation of <i>Ḥallah</i>). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:12\">Y. Ab. Zar. II, 42ᵃ</cite> top <he>ה׳ מחוסר וכ׳</he> the <i>ḥalut</i> (prepared by a gentile) wants finishing through fire (frying or boiling); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְלַט"],
+			"senses": [
+				{
+					"gloss": "<i>to become consistent through stirring</i>. Y. Ḥall. l. c. <he>נֶחְלְטָה כל צורכה</he> sufficiently stirred to be a consistent paste-ball.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

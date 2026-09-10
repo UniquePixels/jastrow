@@ -1,0 +1,36 @@
+{
+	"id": "M02964",
+	"slug": "משקי",
+	"headword": {
+		"text": "מַשְׁקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַשִׁקְיָא"
+		}
+	],
+	"page": {
+		"number": 858,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch.  = h. <cite ref=\"M02957\"><he>מַשְׁקֶה</he></cite>, <i>drink</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:34\">Targ. Lev. XI, 34</cite>; a. e.—",
+				"<cite ref=\"Kohelet Rabbah 3:9\">Koh. R. to III, 9</cite> <he>חד מַשְׁקוֹיי חמים</he> (some ed. <cite ref=\"M02958\"><he>מַשְׁקוֹי</he></cite>, oth. <he>מַשְׁקַיי</he>) one hot drink."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"M02989\"><he>מִשְׁתֶּה</he></cite>, <i>feast</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:3\">Targ. Esth. I, 3</cite>. Targ. II Esth. IX, 17, sq. <cite ref=\"M02964\"><he>מַשְׁקַיָּא</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

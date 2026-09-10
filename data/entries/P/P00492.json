@@ -1,0 +1,52 @@
+{
+	"id": "P00492",
+	"slug": "עיבור-2",
+	"headword": {
+		"text": "עִיבּוּר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיבּוּרָא"
+		},
+		{
+			"text": "עִבּ׳"
+		}
+	],
+	"page": {
+		"number": 1066,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00491\">same</cite> (Targ. O. ed. Berl. a. oth. <cite ref=\"P00487\"><he>עִיב׳</he></cite>, without Dagesh) <i>grain, breadstuff</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:28\">Targ. Gen. XXVII, 28</cite>; <cite ref=\"Onkelos Genesis 27:37\">37</cite> (h. text <he>דגן</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 62:8\">Targ. Is. LXII, 8</cite>. ",
+				"<cite ref=\"Onkelos Genesis 41:35\">Targ. Gen. XLI, 35</cite>, sq. (h. text <cite ref=\"A01697\"><he>אכל</he></cite>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:12\">Y. Dem. I, 22ᵃ</cite> top <cite ref=\"P00492\"><he>עִיבּוּרָן</he></cite> our grain. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 7:2:2\">Y. Ned. VII, 40ᶜ</cite> top <he>דגנה מעִבּוּרָהּ</he> (perh. to be read <he>מַעֵבוּרָהּ</he>) by <i>d’ganah</i> we understand, of its (Palestine’s) breadstuff (and not Egyptian beans), v. <cite ref=\"D00119\"><he>דְּגָנָא</he></cite>,—Pl. <he>עִיבּוּרַיָּיא</he>. [<cite ref=\"Targum Jonathan on Genesis 18:3\">Targ. Y. Gen. XVIII, 3</cite> ed. Amst., v. <cite ref=\"P00033\"><he>עֲבוֹרָא</he></cite>.]—Y. Dem. l. c. <he>מהי ע׳ עבידין</he> how are the crops?; Y. Taan. III, 66ᶜ top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pregnancy, conception</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:2\">Targ. Job III, 2</cite> <he>על ע׳ ליליא</he> (not <he>וליליא</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 25:24\">Targ. Y. Gen. XXV, 24</cite>.—",
+				"<cite ref=\"Niddah 40a:28\">Nidd. 40ᵃ</cite> <he>בחד ע׳ כגין וכ׳</he> two confinements of one pregnancy, as was the case with Judah and Hizkiah (who were born three months apart from one another).—Pl. <he>עִיבּוּרֵי</he>, <cite ref=\"P00560\"><he>עִכּ׳</he></cite>. ",
+				"<cite ref=\"Niddah 40a:28\">Ib.</cite> <he>בתרי ע׳</he> two confinements of two conceptions (one being a miscarriage)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>intercalation, proclamation of a full month; proclamation of a leap-year</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 20:27\">Targ. I Sam. XX, 27</cite>; <cite ref=\"Targum Jonathan on I Samuel 20:34\">34</cite> <he>יום ע׳ ירחא תנינא</he> the second New Moon Day which is observed in consequence of the proclamation of a full month. ",
+				"<cite ref=\"Aramaic Targum to Esther 9:31\">Targ. Esth. IX, 31</cite>; Targ. II Esth. IX, 29; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:11\">Y. Snh. I, 18ᶜ</cite> bot. <he>ועאל … קמיה מיניה לע׳</he> (not <he>מניין</he>) R. Jacob bar A. was before him admitted to the meeting for the proclamation of a leap-year; <cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:5\">Y. R. Hash. II, 58ᵇ</cite> top; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

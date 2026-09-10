@@ -1,0 +1,29 @@
+{
+	"id": "A01651",
+	"slug": "איתכלא",
+	"headword": {
+		"text": "אִיתְכָּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶתְכָּלָא"
+		},
+		{
+			"text": "אַתְ׳"
+		}
+	],
+	"page": {
+		"number": 61,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (const. <cite ref=\"K00260\"><he>אִיתְכַּל</he></cite>) m. = h. <cite ref=\"A03307\"><he>אֶשְׁכֹּל</he></cite> (q. v.) <i>bunch of grapes</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 13:24\">Targ. Num. XIII, 24</cite>; a. e.—Pl. <he>אִיתְכָּלִין</he>, <he>אַתְכָּ׳</he>, <he>אִיתְכָּלַיָּיא</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 25:18\">Targ. I Sam. XXV, 18</cite>; a. e.—Trnsf. <i>scholars</i>, opp. <cite ref=\"P00578\"><he>עילייא</he></cite> (leaves), the untutored. ",
+				"<cite ref=\"Chullin 92a:16\">Ḥull. 92ᵃ</cite> <he>ליבעי רחמי וכ׳</he> let the grapes pray for the leaves (the scholars for the untutored); for but for the leaves, the grapes could not exist. V. <cite ref=\"A03307\"><he>אֶשְׁכֹּל</he></cite>."
+			]
+		}
+	]
+}

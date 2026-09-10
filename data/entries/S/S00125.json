@@ -1,0 +1,60 @@
+{
+	"id": "S00125",
+	"slug": "קדח-1",
+	"headword": {
+		"text": "קָדַח"
+	},
+	"page": {
+		"number": 1314,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to bore, perforate, penetrate</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 12:1\">Sabb. XII, 1</cite> <he>הקוֹדֵחַ וכ׳</he> he who bores a hole ever so small. ",
+				"<cite ref=\"Tosefta Shabbat 11:3\">Tosef. ib. XI</cite> (<cite ref=\"Tosefta Shabbat 12:3\">XII</cite>), 3 <he>עד שיִקְדַּח את כולו</he> until he bores as far as is needed for his purpose; <cite ref=\"Jerusalem Talmud Pesachim 6:1:12\">Y. Pes. VI, 33ᵇ</cite> top. ",
+				"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite> <he>נטל … והתחיל קוֹדֵחַ תחתיו</he> one of the passengers of the ship took a borer and began to bore under the place assigned to him; <he>לא תחתי אני קודח</he> have I no right to bore in my place? <cite ref=\"Avodah Zarah 58a\">Ab. Zar. 58ᵃ</cite>, v. <cite ref=\"M01233\"><he>מֵינֶקֶת</he></cite>; a. fr.—[<cite ref=\"Tosefta Bava Batra 5:4\">Tosef. B. Bath. V, 4</cite> <he>קודח</he> ed. Zuck., read: <cite ref=\"S00425\"><he>קוֹנֵחַ</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(b. h.; <i>to burn, rise in a column and spread sparks</i>; [b. h. also <i>to enkindle</i>]. Y. B. Kam. VI, 5ᶜ top (ref. to Mish. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 6:4\">B. Kam. VI, 4</cite>) <he>בקוֹדַחַת … אבל במקטפת וכ׳</he> the Mishnah speaks of a fire which (unexpectedly) blazes up and spreads, but in the case of a creeping fire all agree &c.; Bab. ",
+				"<cite ref=\"Bava Kamma 61a:9\">B. Kam. 61ᵃ</cite> <he>בקודחת</he> Ar. (ed. <he>בקולחת</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְדִּיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cut out, make an opening</i>. Y. R. Hash. II, 58ᵃ bot. <he>ה׳ לו … ככברה</he> the Lord made for him an opening (in the clouds) of the size of a <i>K’barah</i> (v. <cite ref=\"K00077\"><he>כְּבָרָה</he></cite>), and the moon became visible within it.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause burning, to spoil a dish, a dye</i> &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 9:4\">B. Kam. IX, 4</cite> (<cite ref=\"Bava Kamma 100b:2\">100ᵇ</cite>) <he>הִקְדִּיחָתוֹ יורה</he> (Bab. ed. <cite ref=\"S00125\"><he>הִקְדִּיחוֹ</he></cite>), v. <cite ref=\"J00240\"><he>יוֹרֶה</he> II</cite>. Y. ib. IX, 6ᵈ bot. <he>שהִקְדִּיחוּ סממנין</he> when the dyes burned the material, <he>אבל הִקְדִּיחָה יורה וכ׳</he> but if the boiler burned &c. ",
+						"<cite ref=\"Eruvin 53b:18\">Erub. 53ᵇ</cite> <he>הִקְדִּיחָתָן במלח</he> she spoiled them (the beans) by oversalting. ",
+						"<cite ref=\"Mishnah Gittin 9:10\">Gitt. IX, 10</cite> <he>אפי׳ הקדיחה תבשילו</he> if she spoiled a dish for him (he may divorce her). ",
+						"<cite ref=\"Beitzah 29a:15\">Bets. 29ᵃ</cite> <he>כדי שלא יַקְדִּיחַ תבשילו</he> so as not to spoil his dish (by spicing it too much or too little); Ar. <he>שלא יַקְדִּיחוּ וכ׳</he> that they (the spices) may not burn &c. ",
+						"<cite ref=\"Tosefta Bava Kamma 10:9\">Tosef. B. Kam. X, 9</cite> <he>המוליך … והִקְדִּיחוֹ</he> if one gives meat to a cook, and he spoils it; a. fr.—Trnsf. <he>ה׳ תבשילו</he> <i>to misapply learning, disgrace one’s education; to degenerate</i>. ",
+						"<cite ref=\"Berakhot 17b\">Ber. 17ᵇ</cite> <he>לא יהא … שמַקְדִּיחַ ת׳ ברבים</he> that we may not have a son or a pupil that disgraces his education in public; <cite ref=\"Sanhedrin 103a\">Snh. 103ᵃ</cite>"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to have fever</i>. Sifra B’ḥuck. Par. 2, ch. IV <he>נוח לו ואינו מקדיח</he> he is comfortable and has no fever; <cite ref=\"Yalkut Shimoni on Torah 673\">Yalk. Lev. 673</cite>.—[<cite ref=\"Tosefta Ma'asrot 1:2\">Tosef. Maasr. I, 2</cite> <he>משיקדיחו</he> ed. Zuck., v. <cite ref=\"S01968\"><he>קָרַח</he></cite>.]",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

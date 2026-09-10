@@ -1,0 +1,37 @@
+{
+	"id": "J00529",
+	"slug": "יציב-2",
+	"headword": {
+		"text": "יַצִּיב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "יַצִּיבָא"
+		}
+	],
+	"page": {
+		"number": 588,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00528\">same</cite><i>firmly planted</i>, v. <cite ref=\"N01098\"><he>נְצַב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 37:35\">Targ. Ps. XXXVII, 35</cite> (h. text <cite ref=\"A00985\"><he>אזרח</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Zechariah 14:9\">Targ. Zech. XIV, 9</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A00985\"><he>אֶזְרָח</he></cite>) <i>native, citizen</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 88:1\">Targ. Ps. LXXXVIII, 1</cite> (h. text <he>אזרחי</he>). ",
+				"<cite ref=\"Onkelos Exodus 12:19\">Targ. O. Ex. XII, 19</cite> (ed. Berl. <i>pl.</i>); a. fr.—",
+				"<cite ref=\"Yoma 47a:7\">Yoma 47ᵃ</cite>, a. e. <he>י׳ בארעא</he>, v. <cite ref=\"C00665\"><he>גָּיּוֹר</he></cite>.—[<cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite> <cite ref=\"J00529\"><he>יציבא</he></cite>, read: <he>יליפא</he>, v. <cite ref=\"J00388\"><he>יְלֵיף</he></cite>.]—Pl. <he>יַצִּיבַיָּא</he>, <he>יַצִּיבֵי</he>. ",
+				"<cite ref=\"Onkelos Leviticus 16:29\">Targ. O. Lev. XVI, 29</cite>. Targ. Y. Ex. l. c.; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

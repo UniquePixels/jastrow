@@ -1,0 +1,40 @@
+{
+	"id": "T00101",
+	"slug": "רביעה",
+	"headword": {
+		"text": "רְבִיעָה"
+	},
+	"page": {
+		"number": 1442,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00128\"><he>רָבַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>coupling</i>, esp. (v. ",
+			"units": [
+				"<cite ref=\"Leviticus 20:16\">Lev. XX, 16</cite>) <i>carnal connection with beasts, buggery</i>. ",
+				"<cite ref=\"Mishnah Avodah Zarah 2:1\">Ab. Zar. II, 1</cite> <he>מפני … הר׳</he> because they (the gentiles) are suspected of using beasts for buggery. ",
+				"<cite ref=\"Avodah Zarah 23a\">Ib. 23ᵃ</cite>. ",
+				"<cite ref=\"Bava Kamma 40b\">B. Kam. 40ᵇ</cite>, sq.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"B01055\"><he>בַּעַל</he></cite> h.  [<i>fructification</i>,] <i>rainfall</i> in the autumn. ",
+			"units": [
+				"<cite ref=\"Taanit 6b:1\">Taan. 6ᵇ</cite> <he>עד … ר׳ שנייה</he> until the second rainfall comes down. ",
+				"<cite ref=\"Taanit 6b:8\">Ib.</cite> <he>מאי לשון ר׳ דבר שרובע וכ׳</he> what is the radical meaning of <cite ref=\"T00101\"><he>רביעה</he></cite>? Something which fructifies the ground, as R. J. says, ‘the rain is the husband &c.’ <cite ref=\"Taanit 6b:8\">Ib.</cite> <he>ר׳ ראשונה כדי וכ׳</he> the first rainfall (is satisfactory, and you need no fast-day), when there is enough to enter the ground to the depth of one handbreadth; <he>ר׳ שנייה כדי לגוף וכ׳</he> the second rainfall (is satisfactory), when the soil is fit to be used for sealing the mouth of a cask. Ib. 6ᵃ; Tosef. ib. I, 3. Ib. 4 <he>רביע</he> ed. Zuck. (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 13:15\">Gen. R. s. 13</cite> <he>כדי ר׳</he> enough rain to be called <i>r’biʿah</i> (fructification); a. fr.—",
+				"<cite ref=\"Tosefta Bava Kamma 1:9\">Tosef. B. Kam. I, 9</cite> <he>ועל ר׳</he> ed. Zuck., v. <cite ref=\"T00110\"><he>רְבִיצָה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

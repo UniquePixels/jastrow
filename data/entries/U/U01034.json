@@ -1,0 +1,30 @@
+{
+	"id": "U01034",
+	"slug": "שיציא",
+	"headword": {
+		"text": "שֵׁיצְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁצְ׳"
+		},
+		{
+			"text": "שַׁצְ׳"
+		}
+	],
+	"page": {
+		"number": 1567,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01033\">preced.</cite>) <i>end, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:14\">Targ. Prov. X, 14</cite>; <cite ref=\"Aramaic Targum to Proverbs 10:29\">29</cite>; <cite ref=\"Aramaic Targum to Proverbs 18:7\">ib. XVIII, 7</cite> (h. text <cite ref=\"M00951\"><he>מחתה</he></cite>); a. e."
+			]
+		}
+	]
+}

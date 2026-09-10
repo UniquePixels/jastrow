@@ -1,0 +1,24 @@
+{
+	"id": "M02202",
+	"slug": "מפזחנא",
+	"headword": {
+		"text": "מַפְזִחְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַפְזִיחְנָא"
+		}
+	],
+	"page": {
+		"number": 820,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (a feigned denom. of <cite ref=\"Q00428\"><he>פזיח</he></cite>, v. <cite ref=\"M01755\"><he>מַנְזִחְנָא</he></cite>) <i>I will</i> be a <i>paziḥ</i> (a substitute for <i>nazir</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 1:1:7\">Y. Naz. I, beg. 51ᵃ</cite> <cite ref=\"M02205\"><he>מפחזנא</he></cite> (corr. acc.); <cite ref=\"Nedarim 10b\">Ned. 10ᵇ</cite> <cite ref=\"M02212\"><he>מפיחנא</he></cite> (corr. acc.); v. <cite ref=\"M01756\"><he>מַנְזִיקְנָא</he></cite>."
+			]
+		}
+	]
+}

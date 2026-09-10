@@ -1,0 +1,53 @@
+{
+	"id": "I00063",
+	"slug": "טבל-2",
+	"headword": {
+		"text": "טְבַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְבִיל"
+		}
+	],
+	"page": {
+		"number": 517,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00062\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 9:9\">Targ. Lev. IX, 9</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"I00063\"><he>טְבִיל</he></cite>, f. <cite ref=\"I00053\"><he>טְבִילָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 3:15\">Targ. Josh. III, 15</cite> (<he>טְבִילָן</he>?).—",
+				"<cite ref=\"Sanhedrin 39a:15\">Snh. 39ᵃ</cite> <he>במאי טביל</he> wherewith did he purify himself (after contact with a corpse)?; <he>בנורא טביל</he> he did it by means of fire, v. <cite ref=\"I00053\"><he>טְבִילָה</he></cite>. ",
+				"<cite ref=\"Niddah 30a:20\">Nidd. 30ᵃ</cite> <he>לִיטְבְּלָהּ</he> let her bathe; a. fr.—"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַטְבֵּיל"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"I00062\">preced.</cite> <i>Hif.</i>",
+					"units": []
+				},
+				{
+					"gloss": "<i>to immerse, order immersion</i>. Nidd. l. c. <he>אַטְבְּלִינָן לה</he> we make her bathe. ",
+					"units": [
+						"<cite ref=\"Beitzah 19a:4\">Bets. 19ᵃ</cite> <he>לאַטְבּוּלֵיה</he> to immerse it; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " as <cite ref=\"I00062\">preced.</cite> <i>Pi.</i> 1, <i>to take an antepast</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 114b:1\">Pes. 114ᵇ</cite> <he>למיהדר לאַטְבּוּלֵי</he> must take the bitter herb a second time; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

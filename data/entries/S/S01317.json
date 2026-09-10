@@ -1,0 +1,38 @@
+{
+	"id": "S01317",
+	"slug": "קלי-4",
+	"headword": {
+		"text": "קְלֵי"
+	},
+	"page": {
+		"number": 1375,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01316\">same</cite>, <i>to be disgraced</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 25:3\">Targ. O. Deut. XXV, 3</cite> <he>ויִקְלֵי</he> Ms. III (ed. Berl. <he>ויִקַּל</he>, oth. ed. <he>ויֵקַל</he>, fr. <cite ref=\"S01356\"><he>קְלַל</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַלֵּי"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקְלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to hold in light esteem, revile</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 27:16\">Targ. O. Deut. XXVII, 16</cite> <he>דִּיקַלֵּי</he> ed. Berl. (oth. ed. <he>דיַקְלֵי</he>; ed. Vien. <he>דיִקְלֵי</he>, corr. acc.; Regia <he>דיֵקַל</he> fr. <cite ref=\"S01356\"><he>קְלל</he></cite>; v. Berl. Targ. O. II, p. 57)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

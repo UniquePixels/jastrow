@@ -1,0 +1,25 @@
+{
+	"id": "Q00979",
+	"slug": "פלומטרין",
+	"headword": {
+		"text": "פְּלוּמַטְרִין"
+	},
+	"page": {
+		"number": 1178,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (privatarium) (<i>private</i>) <i>money chest, jewelry box</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> <he>למלך שהיו לו תסבריות … פ׳ אחד של זהב קטן וכ׳</he> like a king who had many (public) treasures and cared not to count them, but he had one small private chest filled with gold &c. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:7:4\">Y. Bets. I, 60ᶜ</cite> bot. <he>ומפתחא דפלמנטרין בידיה</he> with the key of his money chest in his hand. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:6:2\">Y. Taan. II, 65ᵈ</cite> <he>מפתח של פלמנטרין קטנה</he> (En Yaʿăḳob <cite ref=\"Q01029\"><he>פלטרים</he></cite>, <cite ref=\"Q01030\"><he>פלטרין</he></cite>) a small key of a jewelry box. ",
+				"<cite ref=\"Shemot Rabbah 20\">Ex. R. s. 20</cite>, beg. <cite ref=\"D00677\"><he>דיפלומטר</he></cite>, <he>הד׳</he>, read: <he>הפלומטר</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "O00449",
+	"slug": "סחורה",
+	"headword": {
+		"text": "סְחוֹרָה"
+	},
+	"page": {
+		"number": 970,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. h. (b. h.) <cite ref=\"O00448\">same</cite>, <i>traffic; goods</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> (play on <cite ref=\"O00218\"><he>סהר</he></cite>, <cite ref=\"Song of Songs 7:3\">Cant. VII, 3</cite>) <he>בשעה … הס׳ והשכר היו בעולם</he> when they (the Sanhedrin) were in session, there were traffic and profit in the world. ",
+				"<cite ref=\"Pirkei Avot 2:5\">Ab. II, 5</cite> <he>לא כל המרבה בס׳ מחכים</he> not every one that has a large trade obtains wisdom. ",
+				"<cite ref=\"Mishnah Bava Metzia 3:2\">B. Mets. III, 2</cite> <he>כיצד הלה עושה ס׳ וכ׳</he> how (can this be)? Shall this man traffic with his neighbor’s cow? <cite ref=\"Sifrei Bamidbar 23:1\">Sifré Num. 23</cite> <he>שומע אני מסְחוֹרָתוֹ ומרפואתו</he> I might understand, that the Nazarite must abstain from trading in wine or using it as external medicine; <cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite>. ",
+				"<cite ref=\"Pirkei Avot 6:6\">Ab. VI</cite> <he>במיעוט ס׳</he> by contentment with small business; a. fr."
+			]
+		}
+	]
+}

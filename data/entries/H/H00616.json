@@ -1,0 +1,64 @@
+{
+	"id": "H00616",
+	"slug": "חטי-4",
+	"headword": {
+		"text": "חֲטִי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲטָא"
+		}
+	],
+	"page": {
+		"number": 449,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H00615\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 49:3\">Targ. Y. Gen. XLIX, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 7:11\">Targ. Josh. VII, 11</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 56a:4\">Sabb. 56ᵃ</cite> <he>מֶהְטָא נמי לא חטאו</he> but at all events they did not sin; <cite ref=\"Shabbat 56b:16\">ib. 56ᵇ</cite> <he>ומיחטא וכ׳</he>.—",
+				"<cite ref=\"Pesachim 113b:3\">Pes. 113ᵇ</cite>; <cite ref=\"Makkot 11a:15\">Macc. 11ᵃ</cite>, v. <cite ref=\"G00275\"><he>זִיגּוֹד</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְטֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to sin</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 27:3\">Targ. Y. Num. XXVII, 3</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["חַטֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00615\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Numbers 24:14\">Targ. Y. II, Num. XXIV, 14</cite> <he>חַטֵּי יתהון</he> (ed. Ven. <he>חָטֵי</he>) seduce them (to immorality)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחֲטִי", "אִיחֲטִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be tempted</i>. Y. Taan. I, 64ᵇ bot. <he>תִיחְטְיִי</he> that thou be not tempted to sin (through thy husband’s absence).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

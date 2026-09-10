@@ -1,0 +1,27 @@
+{
+	"id": "S01591",
+	"slug": "קנכירי",
+	"headword": {
+		"text": "קַנְכֵּירִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַנְכֵּרִי"
+		}
+	],
+	"page": {
+		"number": 1393,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (corresp. to κέγχρη = κέγχρος) <i>a small kind of diamond</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:19\">Targ. O. Ex. XXVIII, 19</cite> (h. text <he>לשם</he>)."
+			]
+		}
+	]
+}

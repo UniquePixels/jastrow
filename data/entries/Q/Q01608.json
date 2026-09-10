@@ -1,0 +1,27 @@
+{
+	"id": "Q01608",
+	"slug": "פרוא",
+	"headword": {
+		"text": "פַּרְוָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְוָוא"
+		}
+	],
+	"page": {
+		"number": 1217,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>parva</i>, name of an unclean bird. ",
+			"units": [
+				"<cite ref=\"Chullin 62b:8\">Ḥull. 62ᵇ</cite> <he>פ׳</he> … <he>וסימניך פ׳ אמגושא</he> <i>p.</i> is forbidden, and thy mnemonical sign be, Parva is the name of a magian; v. <cite ref=\"Q01627\"><he>פַּרְוָה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "H01392",
+	"slug": "חסך-1",
+	"headword": {
+		"text": "חָסַךְ"
+	},
+	"page": {
+		"number": 488,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"H01845\"><he>חָשַׂךְ</he></cite>) [<i>to scrape off</i>,] <i>to diminish, deduct; to stint, withhold</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 7:3\">Dem. VII, 3</cite> (<cite ref=\"Mishnah Demai 7:4\">4</cite>) <he>וחוֹסֵךְ גרוגרת וכ׳</he> Ar. a. ed. Y. (Mish. a. Bab. ed. <he>חוֹשֵׂךְ</he>, Ms. M. repeatedly <he>חתך</he>) and retains one fig (which he does not eat). ",
+				"<cite ref=\"Mishnah Demai 7:4\">Ib.</cite> <he>לא יַחְסוֹךְ</he> (Var. same).—<i>Part. pass.</i> <cite ref=\"H01352\"><he>חָסוּךְ</he></cite> <i>stripped, wanting</i>. ",
+				"<cite ref=\"Mishnah Kelim 1:2\">Kel. I, 2</cite> (<he>וחֲשׂוּכֵי</he>) <he>וחֲסוּכֵי בגדים</he> and to make unclean the persons alone but not their clothes. ",
+				"<cite ref=\"Eruvin 28a\">Erub. 28ᵃ</cite> <he>חֲסוּכֵי בנים</he> Ms. M. a. oth. (ed. <he>חשוכי</he>) those who want children, opp. <he>מרובי בנים</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיסֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to spare, be regardful, lenient</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 6:7\">Tosef. Sot. VI, 7</cite> <he>ח׳ עליו הכתוב</he> the Biblical text (the Lord) spared him (did not rebuke him). ",
+						"<cite ref=\"Tosefta Sotah 6:7\">Ib.</cite> <he>מְחַסְּכִין לו</he> they (in heaven) spare him. ",
+						"<cite ref=\"Zevachim 6b\">Zeb. 6ᵇ</cite> <he>חי׳ הכתוב</he> the Biblical law has regard to expenses; v. <cite ref=\"H00836\"><he>חִיסָּכוֹן</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

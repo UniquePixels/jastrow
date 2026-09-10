@@ -1,0 +1,25 @@
+{
+	"id": "G00405",
+	"slug": "זיקא-2",
+	"headword": {
+		"text": "זִיקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 396,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (v. <cite ref=\"G00404\">preced.</cite>) [<i>sprinkler</i>,] <i>hose, skin</i> for wine, water &c. (Syr. <cite ref=\"G00231\"><he>זוקתא</he></cite> uter). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 33:7\">Targ. Ps. XXXIII, 7</cite> (h. text <cite ref=\"N00198\"><he>נֵד</he></cite>); a. e.—",
+				"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>, v. <cite ref=\"G00404\">preced.</cite> ",
+				"<cite ref=\"Avodah Zarah 60a:5\">Ab. Zar. 60ᵃ</cite> <he>ז׳ בין מליא וכ׳</he> a tied up wine skin whether entirely filled &c. Y. ib. V, 45ᵃ top <he>אהן דנגד בז׳ וכ׳</he> if one drags a skin (to take possession) and it bursts; Y. Kidd. I, 60ᵇ <cite ref=\"B00465\"><he>בזֵקָה</he></cite>; a. fr.—Pl. <he>זִיקִין</he>, <he>זִיקַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:8\">Targ. Y. Ex. XV, 8</cite> (h. text <cite ref=\"N00198\"><he>נֵד</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Joshua 9:4\">Targ. Josh. IX, 4</cite> (h. text <he>נֹאדוֹת</he>); a. e.—",
+				"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> (quot. in Ar., not found in ed.) <he>נפרוק אילין זיקייא בהדין משכבא</he> let us unload these bottles in this burial ground."
+			]
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"id": "D00077",
+	"slug": "דבר-3",
+	"headword": {
+		"text": "דָּבָר"
+	},
+	"page": {
+		"number": 278,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"D00076\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>word, utterance, command</i> (cmp. <cite ref=\"D00470\"><he>דִּיבּוּר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 56b:5\">B. Bath. 56ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 19:15\">Deut. XIX, 15</cite>) <he>ד׳ ולא חצי ד׳</he> a statement (testimony) but not a partial statement. Mekh. Bo, introd. <he>היה הד׳ לאהרן</he> (Tanḥ. ib. 5 <he>דבור</he>) the word of the Lord came to &c.; a. fr.—<he>דְּבַר תורה</he> according to the Biblical law. ",
+				"<cite ref=\"Eruvin 81a:6\">Erub. 81</cite>; a. fr.—Pl. <he>דְּבָרִים</he>, constr. <he>דִּבְרֵי</he>. <he>ד׳ תורה</he> Biblical laws; <he>ד׳ סופרים</he> Rabbinical laws. ",
+				"<cite ref=\"Eruvin 81a:6\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Yevamot 9:3\">Yeb. IX, 3</cite>; a. fr.—<he>ד׳ קבלה</he> prophetic exhortations or incidental utterances in other Biblical books than the Pentateuch. ",
+				"<cite ref=\"Chagigah 10b:10\">Ḥag. 10ᵇ</cite>; <cite ref=\"Niddah 23a:6\">Nidd. 23ᵃ</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 49a:6\">B. Mets. 49ᵃ</cite>; <cite ref=\"Bekhorot 13b:2\">Bekh. 13ᵇ</cite> <he>ד׳ יש בהם משום מחוסרי אמנה</he> to word of mouth the rules concerning the faithless are applied, i.e. a verbal agreement is morally binding. ",
+				"<cite ref=\"Bava Metzia 48a:13\">B. Mets. 48ᵃ</cite> <he>הנושא ונותן בד׳ וכ׳</he> he who contracts verbally has no legal claim. ",
+				"<cite ref=\"Bava Metzia 48a:13\">Ib.</cite> <he>ד׳ ואיכא … קאי באבל</he> he who retracts a verbal transaction with which a payment of money was connected, comes under the category of those against whom the words ‘but the scholars declared’ (<cite ref=\"Mishnah Bava Metzia 4:2\">ib. IV, 2</cite>) has been pronounced.—דִּבְרֵי הַיָּמִים <i>the Book of Chronicles</i>. ",
+				"<cite ref=\"Vayikra Rabbah 1:14\">Lev. R. s. 1</cite>. ",
+				"<cite ref=\"Bava Batra 14b:8\">B. Bath. 14ᵇ</cite>.—<he>דָּבָר אַחֵר</he> (abbrev. <he>ד״א</he>) another interpretation (is this). ",
+				"<cite ref=\"Bereishit Rabbah 1:14\">Gen. R. s. 1</cite>, beg.; a. fr.—2) <i>thing, affair, object, occurrence</i> &c. ",
+				"<cite ref=\"Sotah 28b:4\">Sot. 28ᵇ</cite> <he>ד׳ שיש בו דעת לישאל</he> an object which has sense to ask, i.e. a rational being, opp. <he>ד׳ שאין וכ׳</he> dumb creatures &c.—",
+				"<cite ref=\"Bamidbar Rabbah 11:7\">Num. R. s. 11</cite> <he>ד׳ שבינך לבינו</he> that which concerns only thy relation to God; v. <cite ref=\"B00638\"><he>בֵּין</he></cite>.—<he>ד׳ שבממון</he> a monetary affair. ",
+				"<cite ref=\"Bava Metzia 94a:5\">B. Mets. 94ᵃ</cite>; a. fr.—<he>ד׳ הלמד מענינו</he> a thing (law) derived from the context on the very subject. Sifra, introd.; a. fr.—<he>ד׳ אחר</he> (abbr. <he>ד״א</he>) something not to be named, "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>idolatry</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Menachot 13:10\">Men. XIII, 10</cite> <he>ואין צריך לומר לד״א</he> much less priests who have been offering to idols; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>swine</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 43b:3\">Ber. 43ᵇ</cite> (prov.) <he>תלה ליה קורא לד״א וכ׳</he> hang a palm shoot around the swine and it will follow its habits (of wallowing in the mud). ",
+						"<cite ref=\"Shabbat 129a:7\">Sabb. 129ᵃ</cite> sq.; a. e.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>leprosy</i> <cite ref=\"Shabbat 129a:7\">Ib.</cite> <he>אי פגע בד״א קשה לד״א</he> if he meets a swine (after blood letting), he is in danger of becoming a leper.—",
+					"units": [],
+					"label": "c"
+				},
+				{
+					"gloss": " <i>unchaste conduct, sexual intercourse, sodomy</i> &c. Ib. 17ᵇ <he>על בנותיהן משום ד״א ועל ד״א משום ד״א</he> they forbade connection with their daughters on account of idolatry, and decreed something else (that a gentile child should be unclean as though afflicted with gonorrhœa) on account of sodomy. ",
+					"units": [
+						"<cite ref=\"Berakhot 8b:15\">Ber. 8ᵇ</cite> <he>צנועין בד״א</he> chaste in marital life; a. fr.—Pl. as above.—בעל ד׳ <i>the person to deal with, opponent, party</i>. ",
+						"<cite ref=\"Bava Metzia 14a:10\">B. Mets. 14ᵃ</cite> <he>לאו ב״ד דידי את</he> I have nothing to do with thee; a. fr.—<he>לא היו ד׳ מעולם</he> there were no such things, I deny it outright. ",
+						"<cite ref=\"Shevuot 41b:6\">Shebu. 41ᵇ</cite>; a. fr.—<he>ד׳ בגב</he>, <he>ד׳ בגו</he>, v. <cite ref=\"C00031\"><he>גַּב</he></cite>, <cite ref=\"C00262\"><he>גֵּו</he></cite>."
+					],
+					"label": "d"
+				}
+			]
+		}
+	]
+}

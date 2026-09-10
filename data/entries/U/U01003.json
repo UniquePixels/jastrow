@@ -1,0 +1,23 @@
+{
+	"id": "U01003",
+	"slug": "שיפא-3",
+	"headword": {
+		"text": "שִׁיפָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1565,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01002\">preced.</cite> wds.; mistranslation of ξέστης; cmp. Syr. <he>שפיתא</he> Brockelm. 383) <i>Shifa</i>, name of a measure, <i>Xestes</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 40a:3\">Kidd. 40ᵃ</cite> <he>ש׳ דדינרי</he> a Shifa full of denars."
+			]
+		}
+	]
+}

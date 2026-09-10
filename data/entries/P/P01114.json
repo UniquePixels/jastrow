@@ -1,0 +1,38 @@
+{
+	"id": "P01114",
+	"slug": "עצי",
+	"headword": {
+		"text": "עֲצֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲצָא"
+		},
+		{
+			"text": "עֲצָה"
+		}
+	],
+	"page": {
+		"number": 1102,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to press, squeeze; to oppress</i>, esp. (= h. <cite ref=\"P01495\"><he>עָשַׁק</he></cite>) <i>to withhold what is due to a neighbor</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 5:23\">Targ. Y. Lev. V, 23</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 5:21\">Targ. Y. II ib. 21</cite> <cite ref=\"P01104\"><he>עֲצָה</he></cite> some ed. (not <cite ref=\"P01480\"><he>עֵ׳</he></cite>). ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 24:14\">Targ. Y. II, Deut. XXIV, 14</cite>; a. e.—Part. pass. <cite ref=\"P01114\"><he>עָצֵי</he></cite>, pl. <he>עַצְיָין</he>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 28:29\">Targ. Y. ib. XXVIII, 29</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be hard, dry; sapless</i>. Part. pl. <he>עֶצְיָין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 13:20\">Targ. Y. II, Num. XIII, 20</cite> (<cite ref=\"Targum Jerusalem, Numbers 13:21\">21</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

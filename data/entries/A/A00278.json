@@ -1,0 +1,26 @@
+{
+	"id": "A00278",
+	"slug": "אגורא-1",
+	"headword": {
+		"text": "אֱגוֹרָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵיגוֹרָא"
+		}
+	],
+	"page": {
+		"number": 12,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00277\">same</cite>; esp. <i>heathen altar</i> (cmp. b. h. <cite ref=\"C00848\"><he>גַּל</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:25\">Targ. Jud. VI, 25</cite>; a. fr.—Pl. <he>אֱגוֹרִין</he>, <he>אֵיג׳</he>, <he>אֲגוֹרַיָּא</he>, <cite ref=\"E00423\"><he>אֵי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 21:3\">Targ. II Kings XXI, 3</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "A01532",
+	"slug": "איפה-2",
+	"headword": {
+		"text": "אֵיפָה",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 58,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"A00799\"><he>אוֹפִי</he></cite>) <i>character, disposition, temper</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 40:3\">Ex. R. s. 40</cite> (play on <cite ref=\"A01531\"><he>אֵיפֹה</he></cite> <cite ref=\"Job 38:4\">Job XXXVIII, 4</cite>) <he>הא׳ שלך וכ׳</he> where was thy predestined temper suspended? (on which limb of Adam’s head, hair &c.?, v. preceding passage ibid.). ",
+				"<cite ref=\"Job 38:4\">Ib.</cite> <he>אֵיפָתְךָ</he>."
+			]
+		}
+	]
+}

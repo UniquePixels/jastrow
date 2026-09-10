@@ -1,0 +1,44 @@
+{
+	"id": "M00046",
+	"slug": "מאן-1",
+	"headword": {
+		"text": "מָאַן"
+	},
+	"page": {
+		"number": 723,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": " (of a woman betrothed in childhood, on arriving at majority) <i>to protest against, to annul one’s marriage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 13:1\">Yeb. XIII, 1</cite> <he>אין מְמָאֲנִין אלא ארוסות</he> only betrothed (not married) women may have their obligation cancelled. ",
+				"<cite ref=\"Mishnah Yevamot 13:1\">Ib.</cite> <he>מְמָאֶנֶת והיא קטנה וכ׳</he> she may protest (have her marriage cancelled) even while yet a minor, and even four or five times in succession. Ib. 2 <he>איזו … שצריכה למָאֵן</he> what minor is bound to make declaration (before leaving her husband)?—Ib. 4 <he>הממאנת באיש וכ׳</he> if a woman refuses her husband by declaration, he is permitted to marry her kindred (who otherwise would be forbidden to him); a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to advise a protest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 6:1\">Eduy. VI, 1</cite> <he>שמְמָאֲנִים וכ׳</he> that the court eventually advises women married as minors to protest; <cite ref=\"Niddah 8a:35\">Nidd. 8ᵃ</cite>; <cite ref=\"Berakhot 27a:9\">Ber. 27ᵃ</cite>.—V. <cite ref=\"M01077\"><he>מִיאוּן</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>מֵיאֵן</he>, <he>מֵאֵן</he> (b. h.; v. <cite ref=\"A01363\"><he>אֵין</he></cite>) <i>to deny, refuse</i>, esp. ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

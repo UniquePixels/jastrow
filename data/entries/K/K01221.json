@@ -1,0 +1,24 @@
+{
+	"id": "K01221",
+	"slug": "כרכרן",
+	"headword": {
+		"text": "כִּרְכְּרָן"
+	},
+	"page": {
+		"number": 670,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"K01218\"><he>כִּרְכֵּר</he></cite>) <i>dances, rejoicing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 66:20\">Targ. Is. LXVI, 20</cite> <he>בכ׳ ותושבחן</he> (missing in ed. Lag.; h. text <he>בכרכרות</he>, cmp. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 6:14\">Targ. II Sam. VI, 14</cite> <cite ref=\"U00097\"><he>שבח</he></cite> for h. <he>כרכר</he>) with dances and songs of praise."
+			]
+		}
+	]
+}

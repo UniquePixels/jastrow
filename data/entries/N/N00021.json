@@ -1,0 +1,42 @@
+{
+	"id": "N00021",
+	"slug": "נאלא-2",
+	"headword": {
+		"text": "נָאלָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נָאלָה"
+		}
+	],
+	"page": {
+		"number": 866,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00015\"><he>לְאִי</he></cite>, <cite ref=\"L00165\"><he>לְהִי</he></cite>, v. P. Sm. 2260) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fatigue, heavy load</i>; cmp. <cite ref=\"A00532\"><he>אוּבְצָנָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:3\">Targ. Y. Deut. XXI, 3</cite> <he>דלא סליק בנ׳ שעבוד דניר</he> Ar., read: <he>דלא סליק עלה דכר ולא אטרחא בנ׳</he> (<he>שעבוד דניר</he> being a gloss interpreting <cite ref=\"N00020\"><he>נאלא</he></cite>); cmp. ",
+				"<cite ref=\"Targum Jonathan on Numbers 19:2\">Targ. Y. Num. XIX, 2</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>incubus, asthma</i> believed to be caused by a demon <he>בן נפלים</he>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 44b\">Bekh. 44ᵇ</cite> (ref. to <he>רוח קצרה</he> or <cite ref=\"S01851\"><he>קצרית</he></cite>, Mish. ",
+				"<cite ref=\"Mishnah Bekhorot 7:5\">ib. VII, 5</cite>) <he>מאי ניהו נאלה</he> Ar. (Rashi <he>נאלת</he> or <he>נאלח</he>, read <cite ref=\"N00021\"><he>נאלה</he></cite>; missing in Talm. ed.) what is it? Nâla. [Prob. version: <he>מאי ניהו נ׳ מאי נ׳ תנא רוח בן נפלים וכ׳</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

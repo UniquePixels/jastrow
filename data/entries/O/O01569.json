@@ -1,0 +1,48 @@
+{
+	"id": "O01569",
+	"slug": "סרח-1",
+	"headword": {
+		"text": "סָרַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1024,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Saf.</i> of <he>ארח</he>; cmp. <he>סרג</he>, <cite ref=\"O01636\"><he>סרך</he></cite>) <i>to entangle, intercept</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:6:3\">Y. Succ. V, 55ᶜ</cite> bot. <he>מפני שהוא סוֹרֵחַ את הנעימה</he> because it (the sound of the organ) intercepts (confounds) the melody of the song; (<cite ref=\"Arakhin 10b\">Arakh. 10ᵇ</cite> <he>מערבב</he>)—Esp. (of a rough-edged surface) <i>to catch</i> (cmp. <cite ref=\"O00935\"><he>סִכְסֵךְ</he></cite>); <i>to lacerate</i>. ",
+				"<cite ref=\"Mishnah Kelim 30:4\">Kel. XXX, 4</cite> <he>סוֹרַחַת את היד</he> it (the flask whose mouth is broken off) catches the hand (when you attempt to get the aromatic unguent out). ",
+				"<cite ref=\"Tosefta Keilim Batra 7:10\">Tosef. Kel. B. Bath. VII, 10</cite> <he>סוֹרְחִין את הפה</he> the rough edges lacerate the lips (R. S. to <cite ref=\"Mishnah Kelim 30:3\">Kel. XXX, 3</cite> <he>סורקים</he>, read <he>סוֹרְחִים</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְרִיחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01568\">same</cite>, <i>to lacerate</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 61b:3\">Keth. 61ᵇ</cite> <he>שפשתן מַסְרִיחַ את הפה</he> the flax (which the spinner moistens with saliva) makes the mouth sore; Y. ib. V, 30ᵃ bot. <he>מַסְרַחַת</he>, v. <cite ref=\"U01206\"><he>שִׁלְבֵּק</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["סֵירֵחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to clutch, grasp</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 54a:18-26\">Erub. 54ᵃ</cite> (ref. to <cite ref=\"Psalms 68:11\">Ps. LXVIII, 11</cite>) <he>אם אדם משים … שמְסָרֶחֶת ואוכלת וכ׳</he> if one makes himself like a beast of prey which seizes (with its claws) and eats (differ. in comment.), his learning will stay with him, i.e. only he who is plain in his living will become a scholar; <cite ref=\"Yalkut Shimoni on Nach 795\">Yalk. Ps. 795</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

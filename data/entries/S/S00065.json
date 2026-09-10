@@ -1,0 +1,37 @@
+{
+	"id": "S00065",
+	"slug": "קבלא-1",
+	"headword": {
+		"text": "קִבְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳",
+			"homograph": 2
+		},
+		{
+			"text": "קוּבְלָא"
+		}
+	],
+	"page": {
+		"number": 1309,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S00057\"><he>קָבַל</he> I</cite>) <i>junction, meeting</i>; (prep.) constr. <cite ref=\"S00051\"><he>קְבֵל</he></cite>, <cite ref=\"S00051\"><he>קְבֵיל</he></cite>, <he>קָבֵל</he> (corresp. to h. <he>לעמת</he>, <cite ref=\"M00482\"><he>מול</he></cite>, <cite ref=\"A01369\"><he>נגד</he></cite>, <he>נכח</he>) <i>towards, corresponding to, alongside of, opposite</i>; <he>כָּל־קְ׳</he>; <he>לִקְ׳</he>, <he>מִקְּ׳</he>, <he>מִלִּקְ׳</he>; also pl. <he>קָבְלֵי־</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 28:17\">Targ. O. Gen. XXVIII, 17</cite> (ed. Vien. <cite ref=\"S02203\"><he>קֳ׳</he></cite>); Y. <he>מכוון כל ק׳</he> corresponding to. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 25:18\">Targ. Y. II, Gen. XXV, 18</cite> <cite ref=\"S00728\"><he>כל ק׳</he></cite> (h. text <he>על פני</he>). ",
+				"<cite ref=\"Onkelos Leviticus 5:8\">Targ. O. Lev. V, 8</cite> <he>מִקְּ׳</he> ed. Berl. (oth. eds. <cite ref=\"M02374\"><he>מַקְבֵּיל</he></cite>); Y. <he>לקביל</he>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 4:4\">Targ. Ruth IV, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 5:15\">Targ. Koh. V, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 10:5\">Targ. Ps. X, 5</cite> <he>מן קִבְּלֵיה</he> ed. Wil. (Ms. <he>קוּבְלֵיה</he>). ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 33:20\">Targ. Y. II, Deut. XXXIII, 20</cite> <he>לְקָבְלֵיכוֹן</he> against you; a. v. fr.—Y. Ab. Zar. II, 41ᵇ <he>איקפד לקוּבְלֵיה</he> he was angry with him. Ib. top <he>ולא על יאות … לקִיבְלֵיה</he> R. H. was not right in speaking harshly against him; <cite ref=\"Jerusalem Talmud Demai 3:4:5\">Y. Dem. III, 23ᶜ</cite> bot. <he>ולא עאל … לקבל</he> (corr. acc.); a. e."
+			]
+		}
+	]
+}

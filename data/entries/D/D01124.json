@@ -1,0 +1,26 @@
+{
+	"id": "D01124",
+	"slug": "דרקון-2",
+	"headword": {
+		"text": "דְּרָקוֹן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּרָקוֹנָא"
+		}
+	],
+	"page": {
+		"number": 325,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"D01123\">same</cite>.",
+			"units": [
+				"<cite ref=\"Gittin 56b:2\">Gitt. 56ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 62b:6\">Ber. 62ᵇ</cite> <he>אתא ד׳ וכ׳</he>, v. <cite ref=\"K01226\"><he>כַּרְכַּשְׁתָּא</he> II</cite>; <cite ref=\"Gittin 57a:9\">Gitt. 57ᵃ</cite> <he>דרקנא</he> (corr. acc.)."
+			]
+		}
+	]
+}

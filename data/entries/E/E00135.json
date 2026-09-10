@@ -1,0 +1,40 @@
+{
+	"id": "E00135",
+	"slug": "הדס-1",
+	"headword": {
+		"text": "הָדַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָדַס"
+		}
+	],
+	"page": {
+		"number": 333,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "(<cite ref=\"H01406\"><he>חִ׳</he></cite>) <he>הִידֵּס</he> (cmp. <he>דחס</he>) <i>to make incisions, mark</i> (cmp. <cite ref=\"E00658\"><he>הנדז</he></cite>) esp. (of chickens) <i>to leave marks of the feet, to scratch</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 2:2\">B. Kam. II, 2</cite> <he>היה מְהַדֵּס וכ׳</he> it was scratching and broke vessels; expl. ",
+						"<cite ref=\"Bava Kamma 17b\">ib. 17ᵇ</cite> bot. <he>הי׳ והתיז</he> it scratched and caused the smashing of the vessel by rolling it against a hard object. ",
+						"<cite ref=\"Bava Kamma 17b:10\">Ib.</cite> <he>היו מְהַדְּסִין על וכ׳</he> left marks on dough or fruits, or soiled &c.; Y. ib. II, beg. 2ᵈ <he>שהידסו את וכ׳</he>. ",
+						"<cite ref=\"Bava Kamma 17b\">Ib.</cite> <he>הידסו עפר על וכ׳</he> (Bab. ",
+						"<cite ref=\"Bava Kamma 17b\">ib.</cite> l. c. <he>העלו עפר</he>) they threw dust by scratching; a. e. [Ar. reads <cite ref=\"H00201\"><he>חדס</he></cite>; Syr. <he>הדס</he> <i>to study</i>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

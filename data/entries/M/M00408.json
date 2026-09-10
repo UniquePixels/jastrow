@@ -1,0 +1,29 @@
+{
+	"id": "M00408",
+	"slug": "מודיא-1",
+	"headword": {
+		"text": "מוֹדְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹדְיָיה"
+		}
+	],
+	"page": {
+		"number": 738,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (modius) <i>modius</i>, a Roman dry measure, corresp. to <cite ref=\"O00007\"><he>סְאָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Gittin 57a:17\">Gitt. 57ᵃ</cite>.—Pl. <he>מוֹדְיוֹת</he>. ",
+				"<cite ref=\"Gittin 57a:17\">Ib.</cite> Y. Maasr. IV, 51ᵇ bot. <he>מוֹדָייוֹת</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite>, beg. <he>מוֹדְיָאוֹת</he>."
+			]
+		}
+	]
+}

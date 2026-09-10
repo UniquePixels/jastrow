@@ -1,0 +1,28 @@
+{
+	"id": "O01085",
+	"slug": "סמיונא",
+	"headword": {
+		"text": "סִמְיוֹנָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 1000,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01079\"><he>סְמֵי</he></cite>) <i>bond, shackle, fetter</i>.—Pl. constr. <he>סִמְיוֹנֵי</he>, <cite ref=\"O00067\"><he>סִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 13:27\">Targ. Job XIII, 27</cite> (h. text <he>שרשי</he>). [<cite ref=\"Aramaic Targum to Job 21:29\">Ib. XXI, 29</cite> <he>סמיוניהון</he> Ms.; ed. Lag. <he>סמיני׳</he>, read: <he>סִימָנֵי׳</he>)."
+			]
+		}
+	]
+}

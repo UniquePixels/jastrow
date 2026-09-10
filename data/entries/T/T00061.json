@@ -1,0 +1,64 @@
+{
+	"id": "T00061",
+	"slug": "רבה-4",
+	"headword": {
+		"text": "רַבָּה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1439,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (= <he>רַב אַבָּה</he>) <i>Rabbah</i>, name of several Amoraim, esp. ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " R. bar Naḥmani, chief of the college of Pumb’ditha (v. Grætz, Gesch. d. Jud.<sup>1</sup> IV, p. 400 sq.) <cite ref=\"Gittin 3a\">Gitt. 3ᵃ</cite>. ",
+					"units": [
+						"<cite ref=\"Horayot 14a:4\">Hor. 14ᵃ</cite> <he>ר׳ עוקר הרים</he> R. uproots mountains (is ingenious, v. <cite ref=\"E00808\"><he>הַר</he></cite>). ",
+						"<cite ref=\"Bava Metzia 86a:9\">B. Mets. 86ᵃ</cite>; a. v. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " R. Zuṭi (Junior). ",
+					"units": [
+						"<cite ref=\"Bava Batra 120a:11\">B. Bath. 120ᵃ</cite>. ",
+						"<cite ref=\"Menachot 31b:6\">Men. 31ᵇ</cite>; a. e.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " R. bar Ḥanah. ",
+					"units": ["<cite ref=\"Sanhedrin 5a:12\">Snh. 5ᵃ</cite>.—"],
+					"label": "c"
+				},
+				{
+					"gloss": " R. bar bar Ḥanah, known for his fables. ",
+					"units": [
+						"<cite ref=\"Bava Batra 73b:10\">B. Bath. 73ᵇ</cite>; a. fr. [<cite ref=\"Jerusalem Talmud Berakhot 2:1:15\">Y. Ber. II, 4ᵇ</cite> <he>אבא בר בר ח׳</he>.]—"
+					],
+					"label": "d"
+				},
+				{
+					"gloss": " R. bar Abbuha (Abbahu, v. Fr. M’bo, p. 60ᵃ). ",
+					"units": [
+						"<cite ref=\"Bekhorot 34a:2\">Bekh. 34ᵃ</cite>. ",
+						"<cite ref=\"Bava Kamma 46b:7\">B. Kam. 46ᵇ</cite>; a. e.—"
+					],
+					"label": "e"
+				},
+				{
+					"gloss": " R. bar Matt’nah. Hor. l. c.; a. e.; a. others.",
+					"units": [],
+					"label": "f"
+				}
+			]
+		}
+	]
+}

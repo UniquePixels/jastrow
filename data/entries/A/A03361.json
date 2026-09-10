@@ -1,0 +1,39 @@
+{
+	"id": "A03361",
+	"slug": "אשש-1",
+	"headword": {
+		"text": "אָשַׁשׁ"
+	},
+	"page": {
+		"number": 130,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.  r.) ",
+			"units": []
+		},
+		{
+			"gloss": " (√<cite ref=\"A03254\"><he>אש</he></cite>) <i>to glitter, be polished;</i> v. <cite ref=\"A03254\"><he>אֵשׁ</he></cite> a. <cite ref=\"A03362\">next ws.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (sec. r. of <cite ref=\"A00915\"><he>אוּשׁ</he></cite>) <i>to be thick, substantial; to be pressed, dark</i>, v. <cite ref=\"A03332\"><he>אשן</he></cite>, <he>אשונא</he>, <he>אשות</he>, <cite ref=\"A03314\"><he>אשל</he></cite>, <he>אשר</he> &c.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִישֵּׁשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to make firm, found</i>. Part. pass. <he>מְאוּשָּׁשׁ</he>. Pesik. Baḥod. p. 101ᵇ; <cite ref=\"Shir HaShirim Rabbah 2:5\">Cant. R. to II, 5</cite> (play on ăshishoth, Cant. l. c.) <he>הלכות המְאוּשָּׁשׁוֹת</he> well-founded decisions. V. <he>אוּשׁ אוּשָּׁא</he>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

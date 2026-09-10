@@ -1,0 +1,31 @@
+{
+	"id": "S02100",
+	"slug": "קרן-1",
+	"headword": {
+		"text": "קָרַן"
+	},
+	"page": {
+		"number": 1422,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"S02102\"><he>קֶרֶן</he></cite>)<i>to emit horns</i> or <i>rays</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְרִין"],
+			"senses": [
+				{
+					"gloss": "<i>to be horned</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 60a:7\">Ḥull. 60ᵃ</cite> (ref. to <cite ref=\"Psalms 69:32\">Ps. LXIX, 32</cite>) <he>מַקְרִין ברישא והדר מפריס</he> first it got horns and then hoofs; v. <cite ref=\"M02462\"><he>מַקְרִין</he> II</cite>.—Y. R. Hash. III, 58ᵈ top (strike out <he>מקרן כתיב</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

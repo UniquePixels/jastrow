@@ -1,0 +1,34 @@
+{
+	"id": "B00580",
+	"slug": "ביטול",
+	"headword": {
+		"text": "בִּיטּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּטּ׳"
+		}
+	],
+	"page": {
+		"number": 160,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00515\"><he>בטל</he></cite>) <i>interruption, loss of time; abrogation; relinquishment, renunciation</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 33a:2\">Kidd. 33ᵃ</cite> <he>קימה שאין בה ב׳</he> rising (in honor of an elder &c.) which causes no interruption of labor.—<he>ב׳ תורה</he> neglect of the study of the Law. ",
+				"<cite ref=\"Shabbat 32b:8\">Sabb. 32ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Menachot 99a\">Men. 99ᵃ</cite> sq. <he>פעמים שבִּיטוּלָהּ וכ׳</he> sometimes the neglect of the Law is its establishing. ",
+				"<cite ref=\"Mishnah Shabbat 16:1\">Sabb. XVI, 1</cite> <he>ב׳ בה״מ</he> neglect of lectures (through reading at home). ",
+				"<cite ref=\"Jerusalem Talmud Peah 4:3:6\">Y. Peah IV, 18ᵇ</cite>, a. e. <he>ב׳ עניים</he> loss of time to the poor (when compelled to wait for their share in the crop).—",
+				"<cite ref=\"Eruvin 66b:16\">Erub. 66ᵇ</cite> <he>ב׳ רשות</he>, v. <cite ref=\"B00515\"><he>בָּטֵל</he></cite> Pi.—",
+				"<cite ref=\"Jerusalem Talmud Gittin 4:5:3\">Y. Gitt. IV, 46ᵃ</cite> top, a. fr. <he>ב׳ פריה ורביה</he> neglect of marital life.—Y. Ab. Zar. III, 43ᵈ bot. <he>יש לה ב׳</he> can be cancelled, v. ib. IV, 4 s. v. <cite ref=\"B00515\"><he>בָּטֵל</he></cite> Pi.—",
+				"<cite ref=\"Pesachim 4b:5\">Pes. 4ᵇ</cite> <he>בב׳ בעלמא וכ׳</he> a mere relinquishment of possession would be sufficient.; a. v. fr."
+			]
+		}
+	]
+}

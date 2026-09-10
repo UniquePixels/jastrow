@@ -1,0 +1,49 @@
+{
+	"id": "T01099",
+	"slug": "רשע-2",
+	"headword": {
+		"text": "רְשַׁע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1501,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T01098\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 18:23\">Targ. Deut. XVIII, 23</cite> (some ed. <he>דיַרְ׳</he> <i>Af.</i>).—",
+				"<cite ref=\"Shabbat 31b:4\">Sabb. 31ᵇ</cite> (ref. to <cite ref=\"Ecclesiastes 7:17\">Koh. VII, 17</cite>) <he>הרבה הוא דלא לִירְשַׁע הא מעט לירשע</he> man should not sin much, but little he may?; <cite ref=\"Yalkut Shimoni on Nach 976:1\">Yalk. Koh. 976</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְשַׁע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01098\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 1:43\">Targ. Deut. I, 43</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 18:11\">Targ. Y. Ex. XVIII, 11</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 78:57\">Targ. Ps. LXXVIII, 57</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְרַשַּׁע"],
+			"senses": [
+				{
+					"gloss": "<i>to talk wickedly</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 28:22\">Targ. Is. XXVIII, 22</cite> (h. text <he>תתלוצצו</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

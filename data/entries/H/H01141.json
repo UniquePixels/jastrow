@@ -1,0 +1,23 @@
+{
+	"id": "H01141",
+	"slug": "חמא-5",
+	"headword": {
+		"text": "חַמָּא"
+	},
+	"page": {
+		"number": 475,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חמם</he>; cmp. <he>חַמָּם</he>) <i>radish</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28b\">Ab. Zar. 28ᵇ</cite> bot. <he>ח׳ לחמה</he> Ms. M. a. Ar. (ed. <cite ref=\"H01152\"><he>חַמָּה</he></cite>) radishes are good for fever. ",
+				"<cite ref=\"Pesachim 116a:2\">Pes. 116ᵃ</cite> <he>קפא דחסא ח׳ וכ׳</he> against the injurious effects of lettuce apply radishes &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "B00924",
+	"slug": "במדבר",
+	"headword": {
+		"text": "בְּמִדְבַּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סֵפֶר בְּמִדְבַּר"
+		}
+	],
+	"page": {
+		"number": 176,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>the fourth book of Moses</i> (<i>Numeri</i>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 3:9\">Gen. R. s. 3</cite>; a. e.—<he>ב׳ רבה</he> the fourth book of Midrash Rabbah (Num. R.)."
+			]
+		}
+	]
+}

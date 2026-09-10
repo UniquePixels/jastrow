@@ -1,0 +1,31 @@
+{
+	"id": "S01602",
+	"slug": "קנן-2",
+	"headword": {
+		"text": "קְנַן"
+	},
+	"page": {
+		"number": 1393,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S01587\"><he>קַנֵּין</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 34:15\">Targ. Is. XXXIV, 15</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

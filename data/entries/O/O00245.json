@@ -1,0 +1,21 @@
+{
+	"id": "O00245",
+	"slug": "סוגא-1",
+	"headword": {
+		"text": "סוּגָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 961,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Suga</i>, name of <i>a bird</i>. ",
+			"units": ["<cite ref=\"Chullin 62b:5\">Ḥull. 62ᵇ</cite>"]
+		}
+	]
+}

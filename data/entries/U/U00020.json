@@ -1,0 +1,23 @@
+{
+	"id": "U00020",
+	"slug": "שאיבה",
+	"headword": {
+		"text": "שְׁאֵיבָה"
+	},
+	"page": {
+		"number": 1506,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00003\"><he>שָׁאַב</he></cite>) <i>drawn water</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Orlah 2:3:3\">Y. Orl. II, 62ᵃ</cite> <he>משום ש׳ ניכרת</he> (ed. Krot. once <cite ref=\"U00010\"><he>שאובה</he></cite>) (the bath is disqualified) on account of the drawn water which is distinguishable (by its color). ",
+				"<cite ref=\"Bava Batra 66a:8\">B. Bath. 66ᵃ</cite> <he>מכלל דש׳ דאורייתא</he> this would indicate that the disqualification of a bath through an addition of drawn water is Biblical law."
+			]
+		}
+	]
+}

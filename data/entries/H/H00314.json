@@ -1,0 +1,68 @@
+{
+	"id": "H00314",
+	"slug": "חוך-3",
+	"headword": {
+		"text": "חוּךְ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 432,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (onomatop., v. <cite ref=\"H00313\">preced.</cite>) [<i>to hawk</i>,] <i>to laugh</i>, (= <cite ref=\"R00287\"><he>צָחַק</he></cite>) <i>to jest with, caress; to laugh at</i>. Part. <cite ref=\"H00003\"><he>חָאִיךְ</he></cite>, <cite ref=\"H00729\"><he>חָיֵיךְ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 26:8\">Targ. Y. Gen. XXVI, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 29:9\">Targ. Prov. XXIX, 9</cite> <cite ref=\"H00314\"><he>חָאֵךְ</he></cite>, ed. Lag. <he>חאיך</he> (Lev. <cite ref=\"H00314\"><he>אָחֵיךְ</he></cite> <i>Af.</i>).—",
+				"<cite ref=\"Gittin 55b:7\">Gitt. 55ᵇ</cite> <he>לא תְחוּכוּ</he>, v. infra. ",
+				"<cite ref=\"Moed Katan 17a:7\">M. Kat. 17ᵃ</cite> <he>לא בדידך קא חָיִיכְנָא</he> Ms. M. (ed. <he>מְחַיַּיכְנָא</he>) I do not laugh at thee; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַיֵּיךְ", "חָאֵיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00313\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to hawk</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite>, v. <cite ref=\"H00935\"><he>חָכַךְ</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to laugh</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 16:25\">Targ. Jud. XVI, 25</cite>. ",
+						"<cite ref=\"Onkelos Genesis 21:9\">Targ. O. Gen. XXI, 9</cite> <he>מְחָאִיךְ</he> (Ms. <he>מְאָחֵיךְ</he>). ",
+						"<cite ref=\"Onkelos Genesis 18:12\">Ib. XVIII, 12</cite>; a. fr.—Pesik. B’shall. p. 90ᵃ <he>אנא … ומְחַיֵּיךְ בהדין וכ׳</he> (Ms. O. <he>מדחיך</he>, Ms. Carm. <he>מגחך</he>) I will go and make sport of &c. (v. <cite ref=\"D00410\"><he>דְּחֵיךְ</he></cite>). ",
+						"<cite ref=\"Sanhedrin 26b:1\">Snh. 26ᵇ</cite> <he>אֲחוּכֵי קא מְחַיְּיכַת בן</he> does thou make sport of us?—",
+						"<cite ref=\"Moed Katan 17a:6\">M. Kat. 17ᵃ</cite> <he>חייך</he> ed. (Ms. M. <cite ref=\"H00314\"><he>אָחֵיךְ</he></cite>). ",
+						"<cite ref=\"Moed Katan 17a\">Ib.</cite> <he>קא מחייכנא</he>, v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָחֵיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00313\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 21:9\">Targ. O. Gen. XXI, 9</cite>; a. e., v. supra.—",
+						"<cite ref=\"Berakhot 18b:15\">Ber. 18ᵇ</cite> <he>מ״ט אֲחִיכַת</he> (Ms. M. <he>חייכת</he>) why didst thou laugh (with joy)? <cite ref=\"Berakhot 19b:11\">Ib. 19ᵇ</cite> <he>לא תָחִיכוּ עלה</he> do not laugh at it (v. supra).—",
+						"<cite ref=\"Nedarim 51a\">Ned. 51ᵃ</cite> <he>א׳ רבי</he> (not <he>אחוך</he>); a. fr.—V. <cite ref=\"M00883\"><he>מִחַךְ</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

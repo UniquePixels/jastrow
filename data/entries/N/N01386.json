@@ -1,0 +1,46 @@
+{
+	"id": "N01386",
+	"slug": "נתץ",
+	"headword": {
+		"text": "נָתַץ"
+	},
+	"page": {
+		"number": 945,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to chip off; to tear down</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 13:2\">Neg. XIII, 2</cite> <he>בזמן שהוא נוֹתֵץ נותץ את שלו</he> when he has to tear down (<cite ref=\"Leviticus 14:45\">Lev. XIV, 45</cite>), he must chip off his part of the house, contrad. to <cite ref=\"H01109\"><he>חָלַץ</he></cite>; Tosef. ib. VI, 10. Ib. <he>בנתיצה נותץ את וכ׳</he> (not <he>נותן</he>) when he has to tear down, he must chop those stones which are affected as well as those which are not; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיתַּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn down</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 53b:18\">Ab. Zar. 53ᵇ</cite> <he>עד שיִנָּתֵץ רובו</he> until the largest part of it is torn down; <cite ref=\"Tosefta Avodah Zarah 5:8\">Tosef. ib. V</cite> (<cite ref=\"Tosefta Avodah Zarah 6:8\">VI</cite>), 8 <he>שינתן</he> (corr. acc.). ",
+						"<cite ref=\"Mishnah Negaim 13:1\">Neg. XIII, 1</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוּתַּץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01385\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Avodah Zarah 3:9\">Ab. Zar. III, 9</cite> <he>אם חדש יוּתַּץ</he> if the oven was new, it must be taken apart; <cite ref=\"Pesachim 26b\">Pes. 26ᵇ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

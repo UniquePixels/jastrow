@@ -1,0 +1,28 @@
+{
+	"id": "V00091",
+	"slug": "תגר-5",
+	"headword": {
+		"text": "תַּגַּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּיגַּר"
+		}
+	],
+	"page": {
+		"number": 1647,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C01286\"><he>גָּרָה</he></cite> <i>Hithpa.</i>) <i>heat, jealousy, partiality</i>; <he>קרא ת׳</he> [<i>to cry out, ‘it is partiality’,</i>] <i>to reproach, complain of injustice</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:3:2\">Y. Ber. V, 9ᶜ</cite> top; <cite ref=\"Jerusalem Talmud Megillah 4:10:3\">Y. Meg. IV, 75ᶜ</cite> top <he>כקורא תי׳ על מידותיו וכ׳</he> it is as if he reflected on God’s dealings, (saying,) over the bird’s nest thy mercies extend, but over this man (myself) they do not extend; (<cite ref=\"Berakhot 33b\">Ber. 33ᵇ</cite> <he>מטיל קנאה וכ׳</he> he throws jealousy among God’s creatures). ",
+				"<cite ref=\"Bereishit Rabbah 40:2\">Gen. R. s. 40</cite> <he>לא קרא ת׳ ולא הקפיד</he> he did not reproach (God), nor did he lose his temper; <cite ref=\"Bereishit Rabbah 40:2\">ib.</cite> s. 92. Ib. s. 17 <he>צפה</he> … <he>לקרות עליה ת׳ וכ׳</he> God foresaw that he (Adam) would reproach (God) on her account (<cite ref=\"Genesis 3:12\">Gen. III, 12</cite>), therefore he did not create her until he (Adam) asked for her; a. e."
+			]
+		}
+	]
+}

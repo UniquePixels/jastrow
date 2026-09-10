@@ -1,0 +1,28 @@
+{
+	"id": "A01052",
+	"slug": "אחריות",
+	"headword": {
+		"text": "אַחֲרָיוּת"
+	},
+	"page": {
+		"number": 41,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A01049\"><he>אַחֲרָאִי</he></cite>) <i>surety</i>, esp. <i>mortgaged property</i>, or <i>property which may be resorted to in case of non-payment</i> (even if sold).—<he>נכסים שיש להן א׳</he> property from which debts may eventually be collected (landed property), <he>נ׳ שאין להם א׳</he> property which cannot be resorted to (movable property). ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:5\">Kidd. I, 5</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Bava Metzia 3:11\">B. Mets. III, 11</cite> <he>חייב באחריותן</he> is responsible for them (if lost). ",
+				"<cite ref=\"Menachot 109a:8\">Men. 109ᵃ</cite>; a. fr.—<he>א׳ נכסים</he> an obligation for which property is pledged. ",
+				"<cite ref=\"Ketubot 34b:6\">Keth. 34ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 51b:5\">Ib. 51ᵇ</cite>, a. e. documents <he>שאין בהן א׳ נ׳</he> in which the clause pledging property is omitted. ",
+				"<cite ref=\"Ketubot 51a:14\">Ib. 51ᵃ</cite>; a. e. <he>א׳ טעות סופר הוא</he> the omission of the clause pledging property is considered as the scribe’s mistake (hence has no legal consequences). ",
+				"<cite ref=\"Bava Metzia 14a:9\">B. Mets. 14ᵃ</cite>, a. e. <he>ראובן שמכר … בא׳</he> if R. sold to S. a field with surety (guaranteeing the title)."
+			]
+		}
+	]
+}

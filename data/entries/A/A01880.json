@@ -1,0 +1,43 @@
+{
+	"id": "A01880",
+	"slug": "אלישע",
+	"headword": {
+		"text": "אֶלִישָׁע"
+	},
+	"page": {
+		"number": 70,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Elisha</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the prophet. ",
+			"units": [
+				"<cite ref=\"Berakhot 10b\">Ber. 10ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 25:3\">Gen. R. s. 25</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " E. ben Abuyah, surnamed <cite ref=\"A01047\"><he>אַחֵר</he></cite>, q. v. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:20\">Aboth. IV, 20</cite>; <cite ref=\"Moed Katan 20a:16\">M. Kat. 20ᵃ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " one E. surnamed <he>בעל כנפים</he> ‘winged’. ",
+			"units": [
+				"<cite ref=\"Shabbat 49a:7\">Sabb. 49ᵃ</cite>; <cite ref=\"Shabbat 130a:16\">130ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:3:14\">Y. Ber. II, 4ᶜ</cite> bot."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"id": "I00102",
+	"slug": "טהר-2",
+	"headword": {
+		"text": "טְהֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְהַר"
+		}
+	],
+	"page": {
+		"number": 520,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00101\">same</cite><i>to be clean</i> (usually <cite ref=\"D00771\"><he>דכי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Berakhot 2b:1\">Ber. 2ᵇ</cite> <he>וט׳ גברא</he>, v. infra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be cleared away, be gone</i>. Ib. 2ᵃ, sq. (ref. to <cite ref=\"Leviticus 22:7\">Lev. XXII, 7</cite> <he>ובא השמש וטהר</he>) <he>ממאי דהאי … והאי וטהר ט׳ יומא דלמא … ט׳ גברא</he> how do you know that this <i>uba hash-shemesh</i> means his sunset (the finished sunset of the seventh day, v. Ms. M. in Rabb. D. S. a. l.), and <i>v’taher</i> means, the day is gone; may be <i>uba</i> &c. means the approach of his evening (beginning sunset. Tosaf. a. l.; Rashi: the arrival of his (eighth) morning), and <i>v’taher</i> (referring to the man) means, the man becomes clean (by means of his sacrifice, Rashi).",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"I00318\"><he>טִיהֲרָא</he></cite>) <i>to be noon-time</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 59a:9\">Yoma 59ᵃ</cite>, a. e., v. <cite ref=\"I00318\"><he>טִיהֲרָא</he></cite> a. <cite ref=\"I00103\">next w.</cite>"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַהֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to declare clean</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 84b:6\">B. Mets. 84ᵇ</cite> <he>טַהֲרִינְהוּ</he> he declared them clean."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

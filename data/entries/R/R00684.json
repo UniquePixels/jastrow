@@ -1,0 +1,28 @@
+{
+	"id": "R00684",
+	"slug": "צפורה-1",
+	"headword": {
+		"text": "צִפּוֹרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיפּ׳"
+		}
+	],
+	"page": {
+		"number": 1296,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.(b. h. <he>צִפֹּרָה</he>)<i>Zipporah</i> (<i>Bird</i>), wife of Moses. ",
+			"units": [
+				"<cite ref=\"Moed Katan 16b:19\">M. Kat. 16ᵇ</cite> (ref. to <cite ref=\"Numbers 12:1\">Num. XII, 1</cite>) <he>וכי כושית שמה והלא צ׳ וכ׳</he> was her name Kushith? Was not Z. her name? &c. ",
+				"<cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite> <he>נקרא שמה צ׳ … כציפור</he> she was named Zipporah (bird), because she sped like a bird (to bring Moses to her father’s house); a. e."
+			]
+		}
+	]
+}

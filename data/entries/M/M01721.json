@@ -1,0 +1,22 @@
+{
+	"id": "M01721",
+	"slug": "מנדעתא",
+	"headword": {
+		"text": "מַנְדַּעְתָּא"
+	},
+	"page": {
+		"number": 797,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"M01720\">preced.</cite> wds.) <i>sentiment, disposition</i>.—Pl. <cite ref=\"M01721\"><he>מַנְדְּעָתָא</he></cite> (cmp. <cite ref=\"D00943\"><he>דֵּעָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 36:4\">Targ. Job XXXVI, 4</cite> (some ed. <i>sing.</i>; Ms. <cite ref=\"M01718\"><he>מנדעא</he></cite>; h. text <he>דעות</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "O01068",
+	"slug": "סמוכות",
+	"headword": {
+		"text": "סָמוֹכוֹת"
+	},
+	"page": {
+		"number": 999,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"O01097\"><he>סָמַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>supports, pillars</i>. ",
+			"units": ["<cite ref=\"Bereishit Rabbah 38:6\">Gen. R. s. 38</cite>."],
+			"label": "1"
+		},
+		{
+			"gloss": " (with or without <he>רגלים</he> or <he>ידים</he>) <i>cushions tied to the cripple’s feet</i> or <i>hands</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:8\">Sabb. VI, 8</cite> <he>ס׳ שלו</he> his foot-cushions. ",
+				"<cite ref=\"Mishnah Shabbat 6:8\">Ib.</cite> <he>כסא וס׳ שלו</he> his stool and his hand-cushions. ",
+				"<cite ref=\"Yevamot 103a:9\">Yeb. 103ᵃ</cite> <he>ס׳ הרגלים</he>. ",
+				"<cite ref=\"Yevamot 103a:9\">Ib.</cite> <he>ס׳ הידים</he> Rashi (ed. <he>סמיכת</he>). ",
+				"<cite ref=\"Yevamot 102b:21\">Ib. 102ᵇ</cite> <he>סמיכת הרגלים</he>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "K00994",
+	"slug": "כפור-3",
+	"headword": {
+		"text": "כְּפוֹר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 657,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01046\"><he>כָּפַר</he></cite>) [<i>crust</i>,] <i>hoar-frost</i>, cmp. <cite ref=\"C00939\"><he>גָּלִיד</he></cite>. Ohol. VIII, 5; Tosef. ib. XIV, 6. ",
+			"units": ["<cite ref=\"Mishnah Mikvaot 7:1\">Mikv. VII, 1</cite>."]
+		}
+	]
+}

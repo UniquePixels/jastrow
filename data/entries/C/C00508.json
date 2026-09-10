@@ -1,0 +1,24 @@
+{
+	"id": "C00508",
+	"slug": "גושפקי",
+	"headword": {
+		"text": "גּוּשְׁפְּקֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (prob. of the <cite ref=\"C00507\">same</cite> origin as Latin <i>gausapa</i>) <i>rough shaggy cloth, bed-cover</i> for the winter. ",
+			"units": [
+				"<cite ref=\"Gittin 70b\">Gitt. 70ᵇ</cite>, Var. for <cite ref=\"C00915\"><he>גלופקרי</he></cite>."
+			]
+		}
+	]
+}

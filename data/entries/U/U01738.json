@@ -1,0 +1,47 @@
+{
+	"id": "U01738",
+	"slug": "שפי-5",
+	"headword": {
+		"text": "שפי",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁפָה",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 1615,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v.<cite ref=\"U01734\"><he>שָׁפָה</he> I</cite>) [<i>to be smooth,</i>] <i>to be quiet, at ease; to be relieved</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 4:4\">Nidd. IV, 4</cite> <he>ושָׁפְתָה מעת לעת</he> and was relieved for a full day, opp. <he>קשתה</he>, v. <cite ref=\"S02219\"><he>קָשָׁה</he></cite>. ",
+				"<cite ref=\"Mishnah Niddah 4:4\">Ib.</cite> <he>שפתה מן הצער וכ׳</he> she was relieved from pain, but not from the flux of blood; a. e.—<i>Part. pass.</i> <cite ref=\"U01718\"><he>שָׁפוּי</he></cite> <i>quiet, sane</i>. ",
+				"<cite ref=\"Arakhin 17b\">Arakh. 17ᵇ</cite>, sq. <he>ש׳ ונשתטה</he> if he was sane and became mad; <cite ref=\"Bava Batra 128a\">B. Bath. 128ᵃ</cite>.—V. <cite ref=\"U00499\"><he>שׁוֹפִי</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתַּפֶּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּפֶּה"],
+			"senses": [
+				{
+					"gloss": " (of a delirious person) <i>to become quiet, conscious, sane</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 4:4\">B. Kam. IV, 4</cite> <he>נש׳ השוטה</he> if the madman became sane again; <cite ref=\"Tosefta Bava Kamma 4:4\">Tosef. ib. IV, 4</cite>. Y. Ter. I, 40ᵇ bot. <he>לכשׁיִשְׁתַּפֶּה</he> when he is sane again (we may write a letter of divorce at his order); Y. Gitt. VII, beg. 48ᶜ. Y. Keth. I, 25ᵇ; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

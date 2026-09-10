@@ -1,0 +1,24 @@
+{
+	"id": "U00325",
+	"slug": "שובלתא",
+	"headword": {
+		"text": "שׁוּבַּלְתָּא"
+	},
+	"page": {
+		"number": 1529,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U00077\"><he>שִׁבּוֹלֶת</he></cite>, <i>current of a river</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 12:6\">Targ. Jud. XII, 6</cite> <he>אימר כען ש׳ ואמר סוּבַּלְתָּא</he> say now, <i>shubbalta</i>, and he said, <i>subbalta</i>.—",
+				"<cite ref=\"Vayikra Rabbah 37\">Lev. R. s. 37</cite> <he>אחדת להון שב׳ דנהרא</he> (not <cite ref=\"J00114\"><he>יהב</he></cite>) the current of the river seized and carried them off. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4\">Cant. R. to III, 4</cite> <cite ref=\"O00235\"><he>סוּבַּלְתָּא</he></cite>, v. <cite ref=\"S01403\"><he>קְלַף</he></cite>."
+			]
+		}
+	]
+}

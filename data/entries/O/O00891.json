@@ -1,0 +1,30 @@
+{
+	"id": "O00891",
+	"slug": "סכותא-2",
+	"headword": {
+		"text": "סָכוּתָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 989,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"O00890\">preced.</cite>) pr. n. pl. <i>Sakhutha</i> (corresp. to h. <cite ref=\"M02347\"><he>מצפה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:49\">Targ. Gen. XXXI, 49</cite> (not <he>סַכּוֹ׳</he>).—",
+				"<cite ref=\"Yalkut Shimoni on Torah 874\">Yalk. Deut. 874</cite>; <cite ref=\"Sifrei Devarim 51\">Sifré Deut. 51</cite> <cite ref=\"M01370\"><he>מכותא</he></cite> (corr. acc.; v. Hildesh. Beitr., p. 58); <cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> <cite ref=\"O00946\"><he>סיכ׳</he></cite> ed. Zuck. (Var. <cite ref=\"O00214\"><he>סהדותא</he></cite>).—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:2:3\">Y. M. Kat. I, 80ᵇ</cite> bot. <he>כהדא דבני ס׳</he> (not <he>דס׳</he>) as in the case of the men of S.; Bab. ",
+				"<cite ref=\"Moed Katan 4b:17\">M. Kat. 4ᵇ</cite> (prob. the same place).—",
+				"<cite ref=\"Avodah Zarah 58b\">Ab. Zar. 58ᵇ</cite> Ms. M. (ed. <he>סבתא</he>)."
+			]
+		}
+	]
+}

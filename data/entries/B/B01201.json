@@ -1,0 +1,22 @@
+{
+	"id": "B01201",
+	"slug": "ברונא-2",
+	"headword": {
+		"text": "בְּרוּנָא",
+		"homograph": 1,
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 190,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>B’runa</i>, a Babyl. Amora. ",
+			"units": ["<cite ref=\"Berakhot 9b:18\">Ber. 9ᵇ</cite>; a. fr."]
+		}
+	]
+}

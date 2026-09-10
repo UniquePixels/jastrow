@@ -1,0 +1,33 @@
+{
+	"id": "K01166",
+	"slug": "כריכה",
+	"headword": {
+		"text": "כְּרִיכָה"
+	},
+	"page": {
+		"number": 667,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01186\"><he>כָּרךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>winding around</i>. Tanḥ. Vaëra 4 (ref. to <cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite>) <he>מה … כְּרִיכַת נחש למלכות</he> what led the scholars to place the serpent winding itself around a person side by side with the (Roman) government?; <cite ref=\"Shemot Rabbah 9\">Ex. R. s. 9</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bundle, bunch, small sheaf</i>, contrad. to <cite ref=\"A01815\"><he>אְלוּמָּה</he></cite>.—Pl. <he>כְּרִיכוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 2:1\">B. Mets. II, 1</cite>. ",
+				"<cite ref=\"Bava Metzia 22b:16\">Ib. 22ᵇ</cite>; a. e.—[<cite ref=\"Bava Metzia 37b:9\">Ib. 37ᵇ</cite> <he>כְּרֵיכוֹת</he>, v. <cite ref=\"B01289\"><he>בֶּרֶךְ</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

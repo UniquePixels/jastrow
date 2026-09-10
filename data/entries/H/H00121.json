@@ -1,0 +1,40 @@
+{
+	"id": "H00121",
+	"slug": "חברות",
+	"headword": {
+		"text": "חֲבֵרוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבֵי׳"
+		}
+	],
+	"page": {
+		"number": 422,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00109\"><he>חָבֵר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the condition of a Ḥaber</i> with reference to levitical pureness; <i>the Order of Ḥăberim</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 30b:4\">Bekh. 30ᵇ</cite> <he>הבא לקבל דברי ח׳</he> he who comes before scholars to take upon himself the obligations of a <i>ḥaber</i>. ",
+				"<cite ref=\"Tosefta Demai 3:4\">Tosef. Dem. III, 4</cite> <he>דוחין אותו מחֲבירוּתוֹ</he> ed. Zuck. (Var. <he>מחבורתו</he>) is expelled from the order; Y. ib. II, 23ᵃ top <he>מחבור׳</he> (cor. acc); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the position of a scholar</i>, ‘<i>fellowship</i>’. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:19\">Y. Ber. V, 9ᵃ</cite> bot. <he>אפי׳ תואר ח׳ וכ׳</he> even the appellation of fellowship (if you had called us <i>ḥăberim</i>) would not have been unbecoming to us."
+			],
+			"label": "2"
+		}
+	]
+}

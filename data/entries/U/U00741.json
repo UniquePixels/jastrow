@@ -1,0 +1,43 @@
+{
+	"id": "U00741",
+	"slug": "שטח-1",
+	"headword": {
+		"text": "שָׁטַח"
+	},
+	"page": {
+		"number": 1553,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to spread, stretch</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 22:4\">Sabb. XXII, 4</cite> <he>שׁוֹטְחָן בחמה</he> he may spread them (to dry) in the sun. ",
+				"<cite ref=\"Beitzah 11a:18\">Bets. 11ᵃ</cite> <he>שוטחן ברוח וכ׳</he> he may spread them in the air on pins; a. fr.—Part. pass. <cite ref=\"U00735\"><he>שָׁטוּחַ</he></cite>; f. <he>שְׁטוּחָה</he> &c. ",
+				"<cite ref=\"Ruth Rabbah 7:14\">Ruth R. to IV, 12</cite> (ref. to <cite ref=\"Genesis 21:25\">Gen. XXI, 25</cite>) <he>שהיה יצחק ש׳ כאן וכ׳</he> Isaac was stretched out (prostrated in prayer) on one side, and Rebekah on the other; <cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite>; <cite ref=\"Yalkut Shimoni on Torah 110\">Yalk. ib. 110</cite>; <cite ref=\"Yalkut Shimoni on Nach 608\">Yalk. Ruth 608</cite>. ",
+				"<cite ref=\"Tosefta Tahorot 9:10\">Tosef. Toh. IX, 10</cite> <he>כלים שְׁטוּחִין וכ׳</he> garments which are spread (hung up) … higher than ten handbreadths; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתַּטֵּח"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּטֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to prostrate one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 22b:6\">Ḥag. 22ᵇ</cite> <he>הלך</he> … <he>ונ׳ על קברי וכ׳</he> R. J. went and prostrated himself on the graves of &c. ",
+						"<cite ref=\"Midrash Tehillim 18:7\">Midr. Till. to Ps. XVIII, 2</cite> [read:] <he>והן … ומִשְׁתַּטְּחִין ונופלין על פניהם</he> (ed. Bub. <he>משתחוין</he>) <he>וכ׳</he> and they alighted from their horses and threw themselves down and fell upon their faces &c.; <cite ref=\"Yalkut Shimoni on Nach 133\">Yalk. Sam. 133</cite>. ",
+						"<cite ref=\"Psalms 2:1\">Midr. Till. to Ps. II, 1</cite> <he>וכיון שמגיע … מִשְׁתַּטֵּחַ וכ׳</he> but when the wave reaches the shore of the sea, it prostrates itself before the sand; (<cite ref=\"Yalkut Shimoni on Nach 350\">Yalk. Is. 350</cite> <he>כורע</he>); a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"id": "S01844",
+	"slug": "קצר-1",
+	"headword": {
+		"text": "קָצַר"
+	},
+	"page": {
+		"number": 1408,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut, reap</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> (among the labors forbidden on the Sabbath) <he>הקוֹצֵר</he> cutting plants. Ib. 73ᵇ <he>משום קוצר</he> as an act coming under the category of reaping. ",
+				"<cite ref=\"Mishnah Pesachim 4:8\">Pes. IV, 8</cite> <he>קוֹצְרִין וגודשין וכ׳</he> they reaped (the barley) and piled it before the ʿOmer was offered. ",
+				"<cite ref=\"Mishnah Peah 2:7\">Peah II, 7</cite> <he>שדה שקְצָרוּהָ וכ׳</he> a field which gentiles reaped (for themselves) or which robbers reaped. ",
+				"<cite ref=\"Mishnah Peah 2:8\">Ib. 8</cite> <he>נותן … שק׳</he> he must give up the poor man’s share from what he reaped. ",
+				"<cite ref=\"Mishnah Peah 3:6\">Ib. III, 6</cite> <he>כדי לִקְצוֹר ולשנות</he> large enough for cutting (swinging the sickle) once and a second time; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be short</i>, v. <cite ref=\"S01846\"><he>קָצֵר</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <he>נפש</he>) <i>to be impatient, vexed; to be sick of</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 52:12\">Gen. R. s. 52</cite> <he>אבל היא לא קָצְרָה נפשה וכ׳</he> but she was not vexed (did not suffer from unsatisfied desire) &c.; <cite ref=\"Jerusalem Talmud Ketubot 5:8:2\">Y. Keth. V, 30ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 70:10\">Yalk. Jud. 70</cite>. Tanḥ. Ḥuck. 19 <he>קצרה נפשם בדרך</he> they were sick of marching."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִצֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to shorten, be brief in doing</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 1:4\">Ber. I, 4</cite> <he>מקום … לקַצֵּר וכ׳</he> where they prescribed a lengthy benediction, one is not permitted to shorten, where they prescribed a short formula &c. Y. Yoma VI, beg. 43ᵇ <he>שלא יהא … קַצֵּר</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>דבריך</he> not that one of the contestants be permitted to speak as long as he needs, and the other be told, make thy speech brief; Y. Snh. III, 21ᶜ top. ",
+						"<cite ref=\"Berakhot 34a:12\">Ber. 34ᵃ</cite> <he>היה מְקַצֵּר וכ׳</he> gave a very brief prayer. Mekh. B’shall., Vayassʿa, s. 1 <he>ק׳</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>ברכותיו</he> gave short benedictions (prayers); <he>לא ק׳ … ממשה</he> he was not briefer than Moses (in his prayer, <cite ref=\"Numbers 12:13\">Num. XII, 13</cite>). ",
+						"<cite ref=\"Numbers 12:13\">Ib.</cite> <he>יש שעה לְקַצֵּר וכ׳</he> there is a time to be brief &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְקַצֵּר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְקַצֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be shortened</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 21:1\">Lev. R. s. 21</cite> <he>היו … מִתְקַצְּרוֹת</he> their years (of life) were shortened."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <he>נפש</he>) <i>to be impatient, sick</i>. Tanḥ. l. c. <he>נִתְקַצְּרָה נפש העם בדרך</he> (not <cite ref=\"S01844\"><he>נתקצר</he></cite>), v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

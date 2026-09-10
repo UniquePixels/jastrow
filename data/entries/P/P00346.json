@@ -1,0 +1,25 @@
+{
+	"id": "P00346",
+	"slug": "עור-5",
+	"headword": {
+		"text": "עִוֵּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1057,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>עור</he>; cmp. <cite ref=\"H00443\"><he>חָוַר</he></cite>, <cite ref=\"H00463\"><he>חֲוַרְוָור</he></cite>) [<i>white, blank</i>,] <i>blind</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 44a:5\">Bekh. 44ᵃ</cite> (ref. to <cite ref=\"Leviticus 21:18\">Lev. XXI, 18</cite>) <he>ע׳ בין סומא וכ׳</he> <i>‘ivver</i> means both blind of one eye as well as of both; a. e.—",
+				"<cite ref=\"Mishnah Bava Metzia 5:11\">B. Mets. V, 11</cite>, a. fr. <he>משום ולפני ע׳ וכ׳</he> it comes under the category of the law (<cite ref=\"Leviticus 19:14\">Lev. XIX, 14</cite>), ‘place no stumbling block before the blind’ (cause no man to sin).—Pl. <he>עִוְּרִים</he>. ",
+				"<cite ref=\"Midrash Tehillim 146:4\">Midr. Till. to Ps. CXLVI, 8</cite> <he>ומי הן הע׳ הדורות … כע׳</he> who are the blind? These latter generations that walk in the Law like blind men; a. e.—[Usually <cite ref=\"O00336\"><he>סוּמָא</he></cite>].—Denom."
+			]
+		}
+	]
+}

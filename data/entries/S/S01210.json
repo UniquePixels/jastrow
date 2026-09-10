@@ -1,0 +1,29 @@
+{
+	"id": "S01210",
+	"slug": "קישוט",
+	"headword": {
+		"text": "קִישּׁוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִשּׁ׳"
+		}
+	],
+	"page": {
+		"number": 1370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02229\"><he>קָשַׁט</he></cite>) <i>dress, toilet, ornament.—</i>Pl. <cite ref=\"S01209\"><he>קִישּׁוּטִים</he></cite>, <cite ref=\"S01209\"><he>קִישּׁוּטִין</he></cite>, <cite ref=\"S01210\"><he>קִשּׁ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 13</cite> (play on <he>אעידך</he>, <cite ref=\"Eichah Rabbah 2\">ib.</cite>; cmp. <cite ref=\"P00133\"><he>עֲדִי</he> II</cite>) <he>כמה ק׳ קשטתי אתכם</he> with how many ornaments did I adorn you!; Pesik. Naḥ., p. 124ᵇ. ",
+				"<cite ref=\"Ketubot 71b:8\">Keth. 71ᵇ</cite> <he>נהנית מריח קִשּׁוּטֶיהָ וכ׳</he> is benefited by the perfume of her toilet for thirty days (can be thirty days without perfumery). ",
+				"<cite ref=\"Ketubot 71b:3\">Ib.</cite> (in Chald. diction) <he>דתלנהו לקשוטיה וכ׳</he> (read: <he>דתלתנהו</he>) when she attached her vow of abstinence from perfuming herself to marital intercourse &c.; a. e."
+			]
+		}
+	]
+}

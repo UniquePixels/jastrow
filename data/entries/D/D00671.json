@@ -1,0 +1,26 @@
+{
+	"id": "D00671",
+	"slug": "דיעבך",
+	"headword": {
+		"text": "דִּיעֲבַך"
+	},
+	"page": {
+		"number": 303,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>דְּאִיעֲבַד</he>, Dithpe. of <cite ref=\"P00016\"><he>עֲבַד</he></cite>) <i>having been done, diăbad</i>, a dialectical term to indicate that the case before you is dealt with as a fact, and not with reference to its direct permissibility in the premises, <cite ref=\"L00560\"><he>לכתחילה</he></cite>; <i>as a fact, decision ex post facto</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 2a:2\">Ḥull. 2ᵃ</cite> <he>הכל שוחטין לכתחילה ושחיטתן כשרה ד׳</he> the words of the Mishnah (I, 1), ‘All slaughter’ mean a direct permission (all <i>may</i> &c.), whereas the immediately following clause, ‘And their slaughtering is ritually legitimate’ indicates a decision after the fact (which implies that deaf-mute persons &c. must not be admitted to the slaughtering act)!—",
+				"<cite ref=\"Chullin 2b:4\">Ib.ᵇ</cite> <he>איכא הכל לכ׳ איכא הכל ד׳</he> sometimes ‘All …’ means a direct permission (all <i>may</i>), and sometimes a sanction after the fact. ",
+				"<cite ref=\"Chullin 2b:5\">Ib.</cite> <he>תרתי ד׳ למה לי</he> why should there be in the Mishnah two <i>diabads?</i> <cite ref=\"Menachot 105b\">Men. 105ᵇ</cite> <he>ד׳ אין לכ׳ לא</he> if it has been done, it is legitimate, but directly permissible it is not. ",
+				"<cite ref=\"Berakhot 15a\">Ber. 15ᵃ</cite>; a. v. fr.—בְּדִ׳ <i>as a diabad</i>. ",
+				"<cite ref=\"Chullin 15b:10\">Ḥull. 15ᵇ</cite> <he>לא קא מכשיר</he> … <he>אלא בד׳</he> R. Ḥ. declares the action legitimate after it has been done, but he does not directly authorize it; a. fr. [<cite ref=\"Zevachim 75b:18\">Zeb. 75ᵇ</cite> <he>דאיעבד</he>, read: <he>דאיערב</he>.]"
+			]
+		}
+	]
+}

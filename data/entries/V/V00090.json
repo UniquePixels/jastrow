@@ -1,0 +1,35 @@
+{
+	"id": "V00090",
+	"slug": "תגר-4",
+	"headword": {
+		"text": "תַּגָּר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּגָּרָא"
+		}
+	],
+	"page": {
+		"number": 1647,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00089\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 5:9\">Targ. Koh. V, 9</cite>. ",
+				"<cite ref=\"Onkelos Genesis 38:2\">Targ. Gen. XXXVIII, 2</cite> (h. text <cite ref=\"K00870\"><he>כנעני</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:14\">Targ. Prov. XXXI, 14</cite> (not <cite ref=\"V00092\"><he>תִּגְרָא</he></cite>); a. e.—",
+				"<cite ref=\"Pesachim 50a:15\">Pes. 50ᵃ</cite> (ref. to <cite ref=\"Zechariah 14:21\">Zech. XIV, 21</cite>) <he>וכנעני מנלן דאיקרי ת׳</he> and whence do we know that <i>k’naʿăni</i> means tradesman? (Answ. ref. to <cite ref=\"Genesis 38:2\">Gen. XXXVIII, 2</cite>, v. supra). ",
+				"<cite ref=\"Bava Batra 90a:8\">B. Bath. 90ᵃ</cite> a. e., v. <cite ref=\"G00052\"><he>זְבַן</he></cite>; a. fr.—Pl. <he>תַּגָּרִין</he>, <he>תַּגָּרַיָּא</he>, <he>תַּגָּרֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:4\">Targ. Ez. XVII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 68:28\">Targ. Ps. LXVIII, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 10:15\">Targ. I Kings X, 15</cite>. ",
+				"<cite ref=\"Onkelos Genesis 37:28\">Targ. O. Gen. XXXVII, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 25:3\">Targ. Y. ib. XXV, 3</cite> (h. text <he>אשורים</he>, v. <cite ref=\"A02051\"><he>אַמְפּוּרִין</he></cite>); a. e.—",
+				"<cite ref=\"Bereishit Rabbah 61:4\">Gen. R. s. 61</cite> (ref. to Gen. l. c.) <he>אע״ג … ת׳ וכ׳</he> although they translate (these proper nouns) and say, traders &c., they still mean chieftains; a. e."
+			]
+		}
+	]
+}

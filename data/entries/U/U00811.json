@@ -1,0 +1,22 @@
+{
+	"id": "U00811",
+	"slug": "שיבתא-1",
+	"headword": {
+		"text": "שִׁיבְתָא"
+	},
+	"page": {
+		"number": 1557,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00196\"><he>שֶׁבֶת</he> I</cite>, <i>dill</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 39a:11\">Ber. 39ᵃ</cite> <he>מיא דש׳</he> (Ms. O. <he>דשביתא</he>) an infusion of dill."
+			]
+		}
+	]
+}

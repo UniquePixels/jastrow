@@ -1,0 +1,29 @@
+{
+	"id": "A01998",
+	"slug": "אמום",
+	"headword": {
+		"text": "אִמּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִימּוּם"
+		}
+	],
+	"page": {
+		"number": 76,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>אמאום</he>, denom. of <cite ref=\"A01961\"><he>אֵם</he></cite>) <i>model, form, shoe-maker’s last</i>, &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:4\">Kel. XXVI, 4</cite>; <cite ref=\"Mishnah Kelim 23:1\">XXIII, 1</cite>.—",
+				"<cite ref=\"Mishnah Kelim 16:7\">Ib. XVI, 7</cite> <he>הא׳ של גודלי וכ׳</he> the block of the cap-makers; <he>של עושי וכ׳</he> of dressmakers. ",
+				"<cite ref=\"Shabbat 141b\">Sabb. 141ᵇ</cite> Ms. M. (ed. <cite ref=\"A01331\"><he>אימוס</he></cite>, corr. acc.); a. fr."
+			]
+		}
+	]
+}

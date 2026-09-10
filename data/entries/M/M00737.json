@@ -1,0 +1,22 @@
+{
+	"id": "M00737",
+	"slug": "מזופא",
+	"headword": {
+		"text": "מְזוֹפָא"
+	},
+	"page": {
+		"number": 754,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00263\"><he>יְזַף</he></cite>) <i>creditor</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 109:11\">Targ. Ps. CIX, 11</cite> (Ms. <cite ref=\"M00445\"><he>מוֹזִיפָא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "B00650",
+	"slug": "ביניתא",
+	"headword": {
+		"text": "בִּינִיתָא"
+	},
+	"page": {
+		"number": 163,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"B00641\"><he>בִּינָא</he> III</cite>; P. Sm. 520) <i>binitha;</i>",
+			"units": []
+		},
+		{
+			"gloss": "<i>a small fish</i> (collect.). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 19b:17\">B. Kam. 19ᵇ</cite> <he>חמרא דאכל ב׳</he> an ass that swallowed fish (something unusual). ",
+				"<cite ref=\"Bava Metzia 79b:11\">B. Mets. 79ᵇ</cite> bot. <he>ב׳ אכרסה תקלא</he> according to the size of its belly is the weight of fish (if you buy by weight, have the belly first removed; diff. in Ar.). Ib. 59ᵇ bot. (prov.) if one has a hanged one in his family, say not in his presence <he>זקוף בי׳</he> hang the fish up; <cite ref=\"Yalkut Shimoni on Torah 349:1\">Yalk. Ex. 349</cite> <cite ref=\"B00655\"><he>בינתא</he></cite> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 349:1\">ib.</cite> Lev. 617 <he>בֵּנִיתָא</he>. ",
+				"<cite ref=\"Gittin 69b:12\">Gitt. 69ᵇ</cite> (masc.!) <he>ניתי ב׳ וכ׳</he> let him take fish and roast it in the smithy.—",
+				"<cite ref=\"Beitzah 28a:11\">Bets. 28ᵃ</cite> <he>שב בֵּנִיתָא</he> (Var. <cite ref=\"B00952\"><he>בִּינְיָיתָא</he></cite> pl., <he>נוניתא</he>, v. Rabb. D. S. a. l. note 9)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a worm. ",
+			"units": [
+				"<cite ref=\"Makkot 16b:7\">Macc. 16ᵇ</cite> <he>ב׳ דבי כרבא</he> (Ms. M. <he>מניתא</he>) a worm found between cabbage. [<cite ref=\"Shabbat 139b\">Sabb. 139ᵇ</cite> <he>ב׳</he> some ed., v. <cite ref=\"R00394\"><he>צינייתא</he></cite>.]"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>hair;</i> v. <cite ref=\"B00656\"><he>בִּינְתָא</he> II</cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

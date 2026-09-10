@@ -1,0 +1,22 @@
+{
+	"id": "V00520",
+	"slug": "תך",
+	"headword": {
+		"text": "תֵּךְ"
+	},
+	"page": {
+		"number": 1667,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00537\"><he>תכך</he></cite>) <i>twisted cord, ring.—</i>Pl. <he>תִּכִּים</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 2:2:6\">Y. Meg. II, 73ᵃ</cite> bot. <he>אם תפר בה שנים … ת׳ וכ׳</he> if he joined the sheets of the M’gillah by means of two or three rings, it is fit for use."
+			]
+		}
+	]
+}

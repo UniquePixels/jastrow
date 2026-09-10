@@ -1,0 +1,78 @@
+{
+	"id": "C00050",
+	"slug": "גבה-5",
+	"headword": {
+		"text": "גְּבַהּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּבִיהַּ"
+		}
+	],
+	"page": {
+		"number": 204,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00049\">same</cite>, <i>to be high, elated</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 131:1\">Targ. Ps. CXXXI, 1</cite>.—",
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite> <he>גְּבִיהַת מכל וכ׳</he> thou art higher than all other trees. ",
+				"<cite ref=\"Megillah 15a:9\">Meg. 15ᵃ</cite> <he>ג׳ מלכא וכ׳</he> Ms. M. (ed. <cite ref=\"C00129\"><he>גבר</he></cite>) the King on high is higher than the king below. ",
+				"<cite ref=\"Chullin 7b:10\">Ḥull. 7ᵇ</cite> <he>ג׳ טורא וכ׳</he> a mountain rose between them (separating them). [<cite ref=\"Jerusalem Talmud Terumot 10:6:11\">Y. Ter. X, 47ᵇ</cite> bot. <he>גביה מן דאבהתיה</he>, Tosaf. to <cite ref=\"Chullin 64b:3\">Ḥull. 64ᵇ</cite> <cite ref=\"C01035\"><he>גמיר</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַגְבַּהּ"],
+			"senses": [
+				{
+					"gloss": "<i>to raise</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 33:14\">Targ. II Chr. XXXIII, 14</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to take up</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 44b:3\">Succ. 44ᵇ</cite> <he>אַגְבְּהֵיה וכ׳</he> he took it (the festive wreath) up once as such and a second time for the willow branches thereon. ",
+						"<cite ref=\"Bava Metzia 2b:6\">B. Mets. 2ᵇ</cite> <he>בהדי הדדי אַגְבְּהוּהָ</he> they took the lost object up at the same time. ",
+						"<cite ref=\"Bava Metzia 8a:3\">Ib. 8ᵃ</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְגַּבַּהּ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְגְּבַהּ"],
+			"senses": [
+				{
+					"gloss": "<i>to be high; to grow proud</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 35:5\">Targ. Job XXXV, 5</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 1:12\">Targ. Koh. I, 12</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to rise</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 39:27\">Targ. Job XXXIX, 27</cite>; a. e.—",
+						"<cite ref=\"Chullin 141b:18\">Ḥull. 141ᵇ</cite> sq. <he>דלִיתְגַּבְּהוּ</he> that the young birds may rise (when frightened)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

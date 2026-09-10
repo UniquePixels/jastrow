@@ -1,0 +1,32 @@
+{
+	"id": "H00152",
+	"slug": "חגיר",
+	"headword": {
+		"text": "חַגִּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָגִיר"
+		},
+		{
+			"text": "חֲגִירָא"
+		}
+	],
+	"page": {
+		"number": 424,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"H00160\"><he>חִגֵּר</he></cite>) <i>lame, halting</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:18\">Targ. Lev. XXI, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 29:15\">Targ. Job XXIX, 15</cite>; a. e.—Pl. <he>חֲגִירִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 33:23\">Targ. Is. XXXIII, 23</cite>."
+			]
+		}
+	]
+}

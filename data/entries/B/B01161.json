@@ -1,0 +1,23 @@
+{
+	"id": "B01161",
+	"slug": "בראי",
+	"headword": {
+		"text": "בְּרָאִי"
+	},
+	"page": {
+		"number": 189,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B01160\">preced.</cite>) = <cite ref=\"A00208\"><he>אַבְרָאִי</he></cite> <i>outside</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28a\">Ab. Zar. 28ᵃ</cite> <he>מכה דב׳</he> an external wound.—(Adv.) <cite ref=\"Zevachim 15a:4\">Zeb. 15ᵃ</cite> <he>דקאי זר ב׳</he> the layman stands outside. ",
+				"<cite ref=\"Zevachim 15a:4\">Ib.</cite> <he>לב׳ נפיק וכ׳</he> does (the blood) run only outside (away from the altar) and not also inside (in all directions)?"
+			]
+		}
+	]
+}

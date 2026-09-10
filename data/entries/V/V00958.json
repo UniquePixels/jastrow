@@ -1,0 +1,30 @@
+{
+	"id": "V00958",
+	"slug": "תרוד",
+	"headword": {
+		"text": "תַּרְוָד"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּרְוָוד"
+		}
+	],
+	"page": {
+		"number": 1696,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Syr. <he>תרודא</he> = <he>תְּרֵי יָד</he>) <i>spoon</i> (pointed on top and curved at the end; v. Sm. Ant. s. v. Cochlear). ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 7:2\">Naz. VII, 2</cite> (<cite ref=\"Nazir 49b:2\">49ᵇ</cite>) <he>מלא ת׳ רקב</he> (Y. ed. Krot. <he>תרויד</he>, corr. acc.) a <i>tarvad</i>-full of dust (v. <cite ref=\"T01011\"><he>רָקָב</he></cite>); <cite ref=\"Tosefta Ohalot 2:3\">Tosef. Ohol. II, 3</cite>; Y. Naz. VII, 56ᵇ bot. ",
+				"<cite ref=\"Mishnah Kelim 17:12\">Kel. XVII, 12</cite> <he>ת׳ גדול של רופאים</he> the large spoon of the physicians (two handfuls). ",
+				"<cite ref=\"Mishnah Kelim 30:2\">Ib. XXX, 2</cite> <he>ת׳ … על השולחן וכ׳</he> a <i>tarvad</i> which is put on the table is subject to uncleanness, if it has a receptacle ever so small; a. fr.—Pl. <he>תַּרְוָודוֹת</he>. ",
+				"<cite ref=\"Mishnah Yadayim 4:6\">Yad. IV, 6</cite> <he>לפי חבתן … עצמות אביו ואמו ת׳</he> in proportion to the esteem in which things are to be held, is their uncleanness; (human bones are declared unclean, whereas the bones of beasts are clean) in order that a man may not make spoons out of the bones of his father or mother."
+			]
+		}
+	]
+}

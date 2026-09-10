@@ -1,0 +1,45 @@
+{
+	"id": "B01336",
+	"slug": "ברר-2",
+	"headword": {
+		"text": "בְּרַר"
+	},
+	"page": {
+		"number": 198,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.;",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"B01275\"><he>בָּרֵיר</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 21:13\">Targ. I Chr. XXI, 13</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 1:25\">Targ. Is. I, 25</cite>; a. e.—",
+						"<cite ref=\"Bekhorot 57a:4\">Bekh. 57ᵃ</cite> <he>לִיבְרוֹר חד וכ׳</he> let him take out (for destruction) one lamb as an equivalent of the dog; v. <cite ref=\"B01277\"><he>בְּרֵירָה</he></cite>; <cite ref=\"Jerusalem Talmud Shekalim 6:4:2\">Y. Shek. VI, 50ᵇ</cite> <he>נברור וכ׳</he> let him &c."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבְּרִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to be clear, pure</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 25:5\">Targ. Job XXV, 5</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

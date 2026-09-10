@@ -1,0 +1,23 @@
+{
+	"id": "M00279",
+	"slug": "מדושה",
+	"headword": {
+		"text": "מְדוּשָּׁה"
+	},
+	"page": {
+		"number": 733,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>מְדֻשָּׁה</he>; <cite ref=\"D01152\"><he>דָּשַׁשׁ</he></cite>)<i>that which is trodden</i> or <i>threshed</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 119:11\">Midr. Till. to Ps. CXIX, 25</cite>.—Pl. <he>מְדוּשִּׁים</he>. ",
+				"<cite ref=\"Midrash Tehillim 119:11\">Ib.</cite> (<cite ref=\"Bereishit Rabbah 69\">Gen. R. s. 69</cite> <cite ref=\"D00737\"><he>דַּיִּשׁ</he></cite>, q. v.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "C00921",
+	"slug": "גלח-1",
+	"headword": {
+		"text": "גָּלַח"
+	},
+	"page": {
+		"number": 247,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>גלב</he>)",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C00728\"><he>גִּלֵּחַ</he></cite>, <cite ref=\"C00728\"><he>גִּילֵּחַ</he></cite> <i>to cut the hair, shave</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Nazir 6:3\">Naz. VI, 3</cite>. ",
+						"<cite ref=\"Mishnah Nazir 4:6\">Ib. IV, 6</cite> <he>ג׳ או גִילְּחוּהוּ וכ׳</he> if he himself or his friends cut his hair. ",
+						"<cite ref=\"Mishnah Moed Katan 3:1\">M. Kat. III, 1</cite> <he>ואלו מְגַלְּחִין וכ׳</he> the following are permitted to cut their hair during the festive week. ",
+						"<cite ref=\"Moed Katan 14a:16\">Ib. 14ᵃ</cite> <he>מותר לְגַלֵּחַ</he>; a. fr.—Part. pass. <he>מְגוּלָּח</he>, f. <he>מְגוּלַּחַת</he>. ",
+						"<cite ref=\"Mishnah Nazir 4:5\">Naz. IV, 5</cite> <he>אשה מְגֻלַּ׳</he> a woman with her hair cut; Y. ib. IV, end, 53ᶜ"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

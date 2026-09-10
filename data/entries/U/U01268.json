@@ -1,0 +1,27 @@
+{
+	"id": "U01268",
+	"slug": "שלח-4",
+	"headword": {
+		"text": "שֶׁלַח"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלוּחַ"
+		}
+	],
+	"page": {
+		"number": 1580,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01265\"><he>שָׁלַח</he></cite>) [<i>stripped of its skin,</i>] <i>a pressed olive the stone of which slips out at a touch</i>.—Pl. <he>שְׁלָחִין</he>, <he>שְׁלוּ׳</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 2:7\">Ab. Zar. II, 7</cite> (<cite ref=\"Avodah Zarah 39b:12\">39ᵇ</cite>; Mish. a. Y. ed. <he>שלו׳</he>). Ib. 40ᵇ <he>היכי דמי ש׳ וכ׳</he> when are they called <i>Sh’laḥin</i>? When the stone slips out as you take the olive in your hand."
+			]
+		}
+	]
+}

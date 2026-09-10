@@ -1,0 +1,27 @@
+{
+	"id": "H00930",
+	"slug": "חכיר-1",
+	"headword": {
+		"text": "חַכִּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲכִיר"
+		}
+	],
+	"page": {
+		"number": 462,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חכר</he>, cmp. <he>חכינא</he>) <i>bent, bowed down</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 35:14\">Targ. Ps. XXXV, 14</cite>; <cite ref=\"Aramaic Targum to Psalms 38:7\">XXXVIII, 7</cite> (Ar. <cite ref=\"E00037\"><he>הֲבִיר</he></cite>; Ms. <cite ref=\"H01224\"><he>חַמָּר</he> I</cite>)."
+			]
+		}
+	]
+}

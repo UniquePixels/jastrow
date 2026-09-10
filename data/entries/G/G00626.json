@@ -1,0 +1,22 @@
+{
+	"id": "G00626",
+	"slug": "זקוף-1",
+	"headword": {
+		"text": "זְקוֹף"
+	},
+	"page": {
+		"number": 408,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זקף</he>. cmp. <he>אסקופא</he>) <i>lintel;</i> trnsf. <i>upper lip</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 141:3\">Targ. Ps. CXLI, 3</cite> (h. text <cite ref=\"D00798\"><he>דַּל</he></cite>, cmp. <cite ref=\"D00864\"><he>דֶּלֶת</he></cite>),"
+			]
+		}
+	]
+}

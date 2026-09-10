@@ -1,0 +1,27 @@
+{
+	"id": "U01040",
+	"slug": "שיקוייא",
+	"headword": {
+		"text": "שִׁיקּוּיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁקּ׳"
+		}
+	],
+	"page": {
+		"number": 1567,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01851\"><he>שְׁקֵי</he></cite>) = h. <cite ref=\"U01834\"><he>שִׁקּוּי</he></cite>, <i>drink, potion.—</i>Pl. <cite ref=\"U01039\"><he>שִׁיקּוּיִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 9:3:5\">Y. Sabb. IX, 12ᵃ</cite> bot. <he>כל ש׳ דאתון וכ׳</he> all potions that you are in the habit of preparing on week days (for women in confinement), prepare also on the Sabbath; <cite ref=\"Bereishit Rabbah 80:9\">Gen. R. s. 80</cite> <he>שקועין</he> (Matt. K. quotes fr. Y. l. c. <he>שִׁילּוּקִין</he>); Yalk. ib. 135 <he>שיקועי׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

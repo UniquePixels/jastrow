@@ -1,0 +1,64 @@
+{
+	"id": "R00434",
+	"slug": "ציצא",
+	"headword": {
+		"text": "צִיצָא"
+	},
+	"page": {
+		"number": 1279,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00433\">same</cite><i>gold plate</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 31:19\">Targ. Y. Gen. XXXI, 19</cite> (describing the Terafim, v. <cite ref=\"R00433\">preced.</cite>).—Esp. <i>the highpriest’s front plate</i>. ",
+				"<cite ref=\"Onkelos Exodus 28:36\">Targ. Ex. XXVIII, 36</cite>. ",
+				"<cite ref=\"Onkelos Exodus 39:30\">Targ. O. ib. XXXIX, 30</cite> (Y. <he>צִיצַת</he>, constr. <i>fem.</i>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " אבני צ׳ <i>jewels</i>. Targ. II Esth. I, 2.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>blossom</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 14:2\">Targ. Job XIV, 2</cite> ed. Lag., v. <cite ref=\"N01091\"><he>נֵץ</he></cite> I ch."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " name of <i>a bird of prey, night-hawk</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:16\">Targ. O. Lev. XI, 16</cite>; <cite ref=\"Deuteronomy 14:15\">Deut. XIV, 15</cite> (cmp. <cite ref=\"N01092\"><he>נֵץ</he> II</cite>; h. text <he>תחמס</he>).—Pl. <he>צִיצִין</he> "
+			],
+			"label": "4",
+			"senses": [
+				{
+					"gloss": " <i>fins</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 11:9\">Targ. Lev. XI, 9</cite>, sq.; <cite ref=\"Deuteronomy 14:9\">Deut. XIV, 9</cite> sq.; v. <cite ref=\"R00441\"><he>צִיצִיתָא</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>wings</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 139:9\">Targ. Ps. CXXXIX, 9</cite> (Ms. <cite ref=\"R00439\"><he>צִיצְיָין</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Numbers 24:24\">Targ. Y. Num. XXIV, 24</cite> (wings of an army; cmp. ",
+						"<cite ref=\"Isaiah 8:8\">Is. VIII, 8</cite>; h. text <he>צִים</he>).—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>fringes</i>. Targ. Y. II ib. XV, 38, v. <cite ref=\"R00441\"><he>צִיצִיתָא</he></cite>.",
+					"units": [],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

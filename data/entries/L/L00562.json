@@ -1,0 +1,26 @@
+{
+	"id": "L00562",
+	"slug": "למא-2",
+	"headword": {
+		"text": "לְמָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "לָמָא"
+		}
+	],
+	"page": {
+		"number": 711,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>לָא מָא</he>) <i>naught, vanity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 12:21\">Targ. I Sam. XII, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 2:22\">Targ. Is. II, 22</cite>; a. e.—V. <cite ref=\"L00569\"><he>לָמָה</he></cite>."
+			]
+		}
+	]
+}

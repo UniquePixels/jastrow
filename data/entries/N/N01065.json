@@ -1,0 +1,43 @@
+{
+	"id": "N01065",
+	"slug": "נפע-2",
+	"headword": {
+		"text": "נְפַע"
+	},
+	"page": {
+		"number": 925,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (interch. with <cite ref=\"N01071\"><he>נְפַץ</he></cite>) <i>to shake</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַפַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to shatter</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 23:29\">Targ. Jer. XXIII, 29</cite> ed. Lag. (ed. <he>מפנע</he>, <he>מפגע</he>, corr. acc.; Bxt. <he>נפץ</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אתְנַפַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be shattered</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 33:13\">Targ. II Chr. XXXIII, 13</cite> (ed. Wil. <he>אתכ׳</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

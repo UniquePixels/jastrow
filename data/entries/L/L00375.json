@@ -1,0 +1,39 @@
+{
+	"id": "L00375",
+	"slug": "לחשא",
+	"headword": {
+		"text": "לְחָשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְחִישָׁא"
+		},
+		{
+			"text": "לְחִישָׁה"
+		}
+	],
+	"page": {
+		"number": 704,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. <cite ref=\"L00374\">same</cite><i>whisper</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:14\">Y. Ber. I, 3ᶜ</cite> sq. <he>מהו דין לחישה</he> what means that whisper (what do they pray in a low voice)?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>spell, charm, secret art</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 8:17\">Targ. Jer. VIII, 17</cite> ed. Ven. (Bxt. <cite ref=\"L00375\"><he>לַחֲשָׁא</he></cite>, ed. Lag. <cite ref=\"L00358\"><he>לִיחֲ׳</he></cite>; Kimḥi <cite ref=\"L00346\"><he>לְחִי׳</he></cite>).—Pl. <he>לְחָשִׁין</he>, constr. <he>לַחֲשֵׁי</he>. ",
+				"<cite ref=\"Onkelos Exodus 7:11\">Targ. Ex. VII, 11</cite> (h. text <he>להט־</he>); <cite ref=\"Onkelos Exodus 8:14\">ib. VIII, 14</cite> (h. text <cite ref=\"L00379\"><he>לט־</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "S01129",
+	"slug": "קיצוע",
+	"headword": {
+		"text": "קִיצּוּעַ"
+	},
+	"page": {
+		"number": 1367,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01828\"><he>קָצַע</he></cite>) <i>trimming</i> the ends of a skin. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 66b:12\">B. Kam. 66ᵇ</cite>, v. <cite ref=\"P00324\"><he>עוּצְבָּה</he></cite>."
+			]
+		}
+	]
+}

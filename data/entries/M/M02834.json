@@ -1,0 +1,29 @@
+{
+	"id": "M02834",
+	"slug": "משומשנא",
+	"headword": {
+		"text": "מְשׁוּמְשָׁנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְשֻׁמְּשָׁנָא"
+		}
+	],
+	"page": {
+		"number": 850,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01540\"><he>שְׁמַשׁ</he></cite>) <i>servant, attendant</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 11:28\">Targ. Num. XI, 28</cite>; a. fr.—Pl. <he>מְשׁוּמְשָׁנִין</he>, <he>מְשֻׁמְּ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 10:5\">Targ. I Kings X, 5</cite> <he>מְשׁוּמְשָׁנוֹהִי</he> (ed. Lag. … <he>ניה</he>, corr. acc.).—",
+				"<cite ref=\"Kohelet Rabbah 1:3\">Koh. R. to I, 3</cite> <he>והוה ר׳ אמר למשומשנוהי</he> and Rabbi asked his waiters; <cite ref=\"Vayikra Rabbah 28:2\">Lev. R. s. 28</cite> <he>למְשֻׁמְּשָׁנוֹי</he>."
+			]
+		}
+	]
+}

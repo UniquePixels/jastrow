@@ -1,0 +1,32 @@
+{
+	"id": "A02963",
+	"slug": "ארבלא",
+	"headword": {
+		"text": "אַרְבְּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְבֵּילָא"
+		},
+		{
+			"text": "עַרְבְּלָא"
+		}
+	],
+	"page": {
+		"number": 114,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ארב</he>, cmp. <cite ref=\"A03015\"><he>אֲרוּבָּה</he></cite>) <i>net work, sieve</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 26b:8\">B. Mets. 26ᵇ</cite>; <cite ref=\"Sanhedrin 39a\">Snh. 39ᵃ</cite>, v. preced.—",
+				"<cite ref=\"Makkot 20b:7\">Macc. 20ᵇ</cite> <he>בארבילא</he> (Ms. M. <he>בארבי</he>); <cite ref=\"Sanhedrin 89b:3\">Snh. 89ᵇ</cite> <he>אכיל תמרא בא׳</he> ate dates out of the sieve, i.e. did a harmless thing.—",
+				"<cite ref=\"Targum Jonathan on Amos 9:9\">Targ. Amos IX, 9</cite> <he>ערבלא</he>.—V. <cite ref=\"P01287\"><he>עַרְבְּלָאִין</he></cite>."
+			]
+		}
+	]
+}

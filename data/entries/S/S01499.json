@@ -1,0 +1,23 @@
+{
+	"id": "S01499",
+	"slug": "קמרון",
+	"headword": {
+		"text": "קִמְרוֹן"
+	},
+	"page": {
+		"number": 1387,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01494\"><he>קָמַר</he></cite>) <i>arched lid</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite>. ",
+				"<cite ref=\"Mishnah Kelim 18:2\">Ib. XVIII, 2</cite>."
+			]
+		}
+	]
+}

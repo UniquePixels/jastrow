@@ -1,0 +1,29 @@
+{
+	"id": "M01930",
+	"slug": "מסיק-4",
+	"headword": {
+		"text": "מַסִּיק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 807,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00957\"><he>נָסַק</he></cite>; sub. <cite ref=\"M01245\"><he>מִסִּים</he></cite> &c.) <i>one who levies contributions</i>, in gen. <i>a Roman collector, oppressor</i> (interch. with <cite ref=\"M02327\"><he>מֵצִיק</he></cite>). ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 16:13\">Tosef. Ohol. XVI, 13</cite> (ed. Zuck. <cite ref=\"M02327\"><he>מציק</he></cite>); <cite ref=\"Jerusalem Talmud Pesachim 1:3:4\">Y. Pes. I, 27ᶜ</cite>; (Bab. ",
+				"<cite ref=\"Pesachim 9a\">ib. 9ᵃ</cite>, a. ",
+				"<cite ref=\"Avodah Zarah 42a:7\">Ab. Zar. 42ᵃ</cite> <he>מצ׳</he>).—Pl. <he>מַסִּיקִין</he>. ",
+				"<cite ref=\"Mishnah Bava Kamma 10:5\">B. Kam. X, 5</cite> <he>ונטלוהו מ׳</he> and government officers confiscated it. ",
+				"<cite ref=\"Bava Kamma 116b:16\">Ib. 116ᵇ</cite> <he>מאן דאמר מס׳ … מצ׳ וכ׳</he> he who reads <i>massiḳin</i> is not at fault, nor is he who reads <i>m’tsikin</i> (ref. for the latter to <he>מצוק</he>, <cite ref=\"Deuteronomy 28:57\">Deut. XXVIII, 57</cite>, for the former to Chald. <cite ref=\"O01442\"><he>סקאה</he></cite> for <he>צלצל</he>, <cite ref=\"Deuteronomy 28:42\">ib. 42</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 16:8:4\">Y. Sabb. XVI, end, 15ᵈ</cite> <he>סופך לעשות במ׳</he> thou shalt be forced by the officers.—",
+				"<cite ref=\"Jerusalem Talmud Demai 6:1:10\">Y. Dem. VI, 25ᵇ</cite> <he>מן המ׳ שנו</he> it means that he rented the field from the officers (who had confiscated it)."
+			]
+		}
+	]
+}

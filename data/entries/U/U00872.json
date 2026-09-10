@@ -1,0 +1,36 @@
+{
+	"id": "U00872",
+	"slug": "שיחלא",
+	"headword": {
+		"text": "שִׁיחְלָא"
+	},
+	"page": {
+		"number": 1559,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00662\"><he>שְׁחַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>slip, fœtus; the eggs of one fecundation</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 55a:11\">B. Kam. 55ᵃ</cite> <he>הא טעונא חדא בעתא בש׳ והא … בש׳</he> the one (the wild goose) becomes pregnant with only one egg at one fecundation, and the other with several. ",
+				"<cite ref=\"Chullin 57b\">Ḥull. 57ᵇ</cite> sq. <he>הני … ש׳ קמא אסירן</he> Ms. M. (Ms. H. a. R. 2 <he>דש׳ … אסירן</he>; ed. <cite ref=\"A02446\"><he>אסירא</he></cite>) as to the eggs of a bird that became <i>ṭ’refah</i>, the first set (the eggs conceived before the accident) is forbidden. ",
+				"<cite ref=\"Chullin 58a:9\">Ib. 58ᵃ</cite> <he>דש׳ קמא משהינן וכ׳</he> the eggs of the first set are kept, and if the bird becomes pregnant again, they are permitted."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the skin of dates</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 15b:10\">Ḥag. 15ᵇ</cite> <he>ר״מ</he> … <he>ושדא ש׳ וכ׳</he> R. Meir (in studying under Elisha b. Abuya) ate the fig, and threw the peel away; (oth. opin. the <i>kernel;</i> Ms. M. 2 <he>שילחה</he>, v. Rabb. D. S. a. l. note 30), v. <cite ref=\"V00184\"><he>תּוּחְלָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

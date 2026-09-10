@@ -1,0 +1,32 @@
+{
+	"id": "M00191",
+	"slug": "מגן-3",
+	"headword": {
+		"text": "מַגָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַגָּנָא"
+		}
+	],
+	"page": {
+		"number": 729,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01151\"><he>גְּנַן</he></cite>; cmp. <cite ref=\"H01307\"><he>חִנָּם</he></cite> fr. <cite ref=\"H01311\"><he>חָנַן</he></cite>) <i>grace, undeserved gift</i>; (adv. with or without prepos.) <i>for nothing, in vain</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 15:27\">Targ. Prov. XV, 27</cite>.—",
+				"<cite ref=\"Onkelos Genesis 29:15\">Targ. Gen. XXIX, 15</cite>. ",
+				"<cite ref=\"Onkelos Exodus 20:7\">Targ. Ex. XX, 7</cite>; <cite ref=\"Onkelos Deuteronomy 5:11\">Targ. Deut. V, 11</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:14\">Y. Bicc. III, 65ᶜ</cite> bot. <he>לא מ׳ מאריך ימים</he> it is not for nothing that he has been allowed a long life. ",
+				"<cite ref=\"Bava Kamma 85a:20\">B. Kam. 85ᵃ</cite> <he>אסיא דמ׳</he> a physician (that will cure thee) without pay; <he>אסיא דמ׳ כמ׳ שוי</he> Ms. M. a. oth. (ed. incorr., v. Rabb. D. S. a. l. note) a physician without pay is worth as much as unpaid service can be expected to be, i.e. an unpaid physician is likely to be careless. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:20\">Y. Snh. X, 29ᵃ</cite> bot. <he>אפי׳ על מ׳</he> even if the curse has been pronounced gratuitously (without cause), cmp. <he>קללת חנם</he> s. v. <cite ref=\"H01307\"><he>חִנָּם</he></cite>."
+			]
+		}
+	]
+}

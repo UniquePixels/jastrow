@@ -1,0 +1,22 @@
+{
+	"id": "M00555",
+	"slug": "מוסתקי",
+	"headword": {
+		"text": "מוּסְתְּקֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 745,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (redupl. of <he>מסק</he>) <i>olive barrels</i>, consisting of loosely joined splices lined with pitch. ",
+			"units": ["<cite ref=\"Beitzah 33b:9\">Bets. 33ᵇ</cite>"]
+		}
+	]
+}

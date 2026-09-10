@@ -1,0 +1,71 @@
+{
+	"id": "D00827",
+	"slug": "דלי-1",
+	"headword": {
+		"text": "דלי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּלָה"
+		}
+	],
+	"page": {
+		"number": 309,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"D00841\"><he>דָּלַל</he></cite>) [<i>to be suspended, swing;</i> denom. <he>דֳּלִי</he>; whence] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to draw water</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 93\">Gen. R. s. 93</cite>; <cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite>. ",
+				"<cite ref=\"Shemot Rabbah 1:32\">Ex. R. s. 1</cite> <he>אנשים דּוֹלִים וכ׳</he> men draw the water and women water the flock; a. fr.—",
+				"<cite ref=\"Yoma 28b:8\">Yoma 28ᵇ</cite> (play on <he>ד̇מ̇ש̇ק̇</he>, <cite ref=\"Genesis 15:2\">Gen. XV, 2</cite>) <he>שדּוֹֹלֶה ומ̇ש̇ק̇ה וכ׳</he> he (Eliezer) drew and gave to drink of his master’s teachings.—2) <i>to lift up, relieve</i>. ",
+				"<cite ref=\"Midrash Tehillim 1:8\">Midr. Till. to Ps. I, 3</cite> <he>וכשיִדְלֵנִי וכ׳</he> and when the Lord shall lift me up out of the depths of suffering. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:1\">Cant. R. to II, 1</cite>."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִדְלָה"],
+			"senses": [
+				{
+					"gloss": "<i>to draw water, to irrigate</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 51b:16\">B. Kam. 51ᵇ</cite> <he>המַדְלֶה מים וכ׳</he> he who draws water (to irrigate his field &c.); <he>ואני אַדְלֶה</he> and I will &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"D00838\"><he>דָּלִית</he></cite>) <i>to suspend, to train a plant to an espalier</i> &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Sukkah 1:4\">Succ. I, 4</cite> <he>ה׳ עליה וכ׳</he> if he trained a vine over the festive wreath. ",
+						"<cite ref=\"Mishnah Kilayim 6:4\">Kil. VI, 4</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"M00414\"><he>מוּדְלֶה</he></cite>, f. <cite ref=\"M00414\"><he>מוּדְלָה</he></cite>. ",
+						"<cite ref=\"Mishnah Kilayim 6:4\">Ib.</cite> ",
+						"<cite ref=\"Mishnah Middot 3:8\">Midd. III, 8</cite>. Y. B. Mets. X, 12ᶜ, v. <cite ref=\"D00838\"><he>דָּלִית</he></cite>.—Bab. ",
+						"<cite ref=\"Bava Metzia 91b:13\">ib. 91ᵇ</cite> <he>במוּדָלוֹת</he> Ms. F. (ed. <he>במודלית</he>) when figs and grapes overhang one another. [Y. Shebi. II, 33ᶜ bot. <cite ref=\"M00414\"><he>מודלה</he></cite>, v. <cite ref=\"M00307\"><he>מִדְלַעַת</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["דִּלָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to sprinkle</i>. Part. <he>מְדַלֶּה</he>, pl. <he>מְדַלִּין</he>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 4a:22\">M. Kat. 4ᵃ</cite> sq., v. <cite ref=\"D00841\"><he>דָּלַל</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

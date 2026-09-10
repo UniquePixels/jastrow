@@ -1,0 +1,41 @@
+{
+	"id": "L00066",
+	"slug": "לבי-2",
+	"headword": {
+		"text": "לבי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לָבָה"
+		}
+	],
+	"page": {
+		"number": 688,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (contr. of <he>להב</he>, <i>to be bright</i>; cmp. <cite ref=\"L00084\"><he>לבלב</he></cite>, <cite ref=\"L00095\"><he>לָבַן</he> II</cite>); <i>Pi.</i> <cite ref=\"L00405\"><he>לִיבָּה</he></cite>, <he>לִבָּה</he> <i>to blow ablaze, enkindle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 6:4\">B. Kam. VI, 4</cite> (<cite ref=\"Bava Kamma 59b:13\">59ᵇ</cite>) <he>בא אחר ולי׳ המְלַבֶּה חייב</he> if a third person came (after one brought the wood and another the light), and blew the wood ablaze, he who fanned the flame is responsible; <he>לִיבְּתָהּ הרוח וכ׳</he> (Y. ed. <he>לִיבָּהוּ</he>, Mish. Nap., Ms. H. a. R. <he>לִבְּתוֹ</he>, <cite ref=\"L00087\"><he>לִיבְּ׳</he></cite>, v. Rabb. D. S. a. l. note 30) if the wind enkindled it, all are free. Ib. 60ᵃ <he>לי׳ וליבתה הרוח</he> if he blew and the wind set the fire ablaze, <he>אם יש בְּלִבּוּיוֹ כדי ללַבּוֹתָהּ חייב</he> if there was in his blow enough force to set it ablaze, he is guilty; Tosef. ib. VI, 22 <he>נִיבָּה ונִיבְּתוֹ</he>, <he>כדי לנַבּוֹת …</he> ed. Zuck. (Var. <cite ref=\"L00000\"><he>ל</he></cite> for <cite ref=\"N00001\"><he>נ</he></cite>).—B. Kam. l. c. <he>מאן דתני ל׳ … ומאן דתני נ׳ וכ׳</he> he who teaches <i>libbah</i> is not at fault, nor is he who teaches <i>nibbah</i> (ref. for <i>libbah</i> to <i>labbath</i>, <cite ref=\"Exodus 3:2\">Ex. III, 2</cite>, for <i>nibbah</i> to <cite ref=\"N00603\"><he>נִיב</he></cite>, <cite ref=\"Isaiah 57:19\">Is. LVII, 19</cite>); Y. ib. II, 5ᶜ top (ref. for <i>nibbah</i> to <cite ref=\"Jeremiah 20:9\">Jer. XX, 9</cite> ‘it (the word of prophecy, v. <cite ref=\"N00037\"><he>נָבָא</he></cite>) was in my heart like a burning fire’). Bab. ",
+				"<cite ref=\"Jeremiah 20:9\">ib.</cite> l. c. <he>כגון שלי׳ ברוח מצויה ולִבְּתוֹ וכ׳</he> it means, if he blew while there was ordinary air stirring, and then an unusual wind set in, and blew it ablaze. Ib. 59ᵇ <he>מסר לו גחלת ול׳</he> he placed in his charge glowing coals, and he (the irresponsible person) did the blowing, opp. to <he>מסר לו שלהבת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:1:8\">Y. Sabb. III, beg. 5ᶜ</cite> <he>מְלַבֶּה עליה נעורת וכ׳</he> he lets hatchelled flax blaze over the hot ashes (so as to form a cover on which to place dishes for the Sabbath; <cite ref=\"Tosefta Shabbat 3:2\">Tosef. Sabb. III, 2</cite> <he>הדליקו</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְלַבֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to flame up</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 37a:8\">Sabb. 37ᵃ</cite> <he>קטמה ונִתְלַבְּתָה</he> if after having covered the embers with ashes, the flames blazed up again; Y. ",
+						"<cite ref=\"Shabbat 37a:8\">ib.</cite> l. c. <he>ונִתְלַבַּת</he>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

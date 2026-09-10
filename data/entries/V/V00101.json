@@ -1,0 +1,25 @@
+{
+	"id": "V00101",
+	"slug": "תגרתא",
+	"headword": {
+		"text": "תִּגְרְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1647,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " f. = <cite ref=\"V00093\"><he>תִּגְרָא</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 31:21\">Targ. Ps. XXXI, 21</cite> <he>תִּיגְרַאת</he> Ms. (ed. <he>רַת …</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:1\">Ib. XXXV, 1</cite> <he>תִּיגְרָאתִי</he> Ms. (ed. <he>תִּגְרָתִי</he>; ed. Wil. <he>תִּגְרֵ׳</he>)."
+			]
+		}
+	]
+}

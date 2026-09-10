@@ -1,0 +1,56 @@
+{
+	"id": "D00918",
+	"slug": "דן-2",
+	"headword": {
+		"text": "דֵּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "דֵּין"
+		},
+		{
+			"text": "דְּנָא"
+		},
+		{
+			"text": "דְּנָה"
+		}
+	],
+	"page": {
+		"number": 315,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (cmp. <cite ref=\"D00003\"><he>דָּא</he></cite>, <cite ref=\"D00754\"><he>דֵּךְ</he></cite>) <i>this, that</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 6:3\">Targ. Is. VI, 3</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 2:3\">Targ. Deut. II, 3</cite> <cite ref=\"E00133\"><he>הָדֵן</he></cite> (ed. Berl. <cite ref=\"E00126\"><he>הָדֵין</he></cite> = <he>הָא ד׳</he>); a. v. fr.—",
+				"<cite ref=\"Vayikra Rabbah 7:1\">Lev. R. s. 7</cite> <he>מן הד׳ קריא</he> from this verse (it is proven). ",
+				"<cite ref=\"Vayikra Rabbah 8:1\">Lev. R. s. 8</cite> <he>ד׳ אמר לינא בעיא לד׳ וכ׳</he> the one said, I do not want this (woman) &c. ",
+				"<cite ref=\"Shabbat 112b:8\">Sabb. 112ᵇ</cite> <he>לית ד׳ ב״א</he> this is not (an ordinary) human being; <cite ref=\"Shabbat 112b:8\">ib.</cite> <he>כגון ד׳ וכ׳</he> a man like this is worth the name of a human being; a. fr.—Y. Ab. Zar. II, 41ᵈ bot.; a. e. <he>אסיר לך דנא</he> this (piece) is forbidden to thee.—<he>מן קדמת דנא</he> ere this, formerly. Y. Sot. II, 17ᵈ; a. e.—<he>כְּדֵ׳</he> "
+			],
+			"senses": [
+				{
+					"gloss": " = h. <he>פֹּה</he>, <i>here</i> (cmp. <cite ref=\"K00003\"><he>כָּא</he></cite>, <cite ref=\"E00499\"><he>הָכָא</he></cite>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 18:3\">Targ. Jud. XVIII, 3</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 22:16\">Targ. Is. XXII, 16</cite> (some ed. <cite ref=\"B00143\"><he>בְּדֵין</he></cite>); "
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>like this, thus</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 32:4\">Targ. Gen. XXXII, 4</cite>. ",
+						"<cite ref=\"Targum Jonathan on Judges 18:4\">Targ. Jud. XVIII, 4</cite>; a. fr. [<cite ref=\"Aramaic Targum to Psalms 2:10\">Targ. Ps. II, 10</cite> read; <cite ref=\"K00116\"><he>כְּדוּן</he></cite>.]—",
+						"<cite ref=\"Bava Batra 75a:9\">B. Bath. 75ᵃ</cite> (play on <cite ref=\"K00132\"><he>כדכד</he></cite>, <cite ref=\"Isaiah 54:12\">Is. LIV, 12</cite>) <he>ליהוי כד׳ וכד׳</he> let it be as this one says, and as that one; Pesik. Aniy. p. 135ᵇ; <cite ref=\"Pesikta Rabbati 32:1\">Pesik. R. s. 32</cite>.—<he>בִּכְדֵין</he> in this manner. ",
+						"<cite ref=\"Targum Jonathan on I Kings 22:20\">Targ. I Kings XXII, 20</cite>.—<cite ref=\"M00292\"><he>מָדֵין</he></cite> = h. <he>מַה־זֶּה</he>, <i>why</i>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 26:9\">Targ. Jer. XXVI, 9</cite>; a. e.—אֵי מִדֵּין <i>from what, which</i>. ",
+						"<cite ref=\"Targum Jonathan on Jonah 1:8\">Targ. Jon. I, 8</cite>.—<cite ref=\"D00641\"><he>דֵּינוּ</he></cite> (= <he>דֵּין הוּ</he>) <i>this</i>. Y. Erub. VII, 24ᶜ top, a. e. <he>חֵי ד׳ צד וכ׳</he> (= h. <cite ref=\"A01194\"><he>אֵיזֶהוּ</he></cite>) which is ‘side’, and which &c.?, v. <cite ref=\"E00369\"><he>הַיְידְּנוּ</he></cite>.—Pl. <cite ref=\"D00643\"><he>דֵּינוּן</he></cite>, <he>דֵּינֵי</he>. Y. Snh. IV, 22ᵇ bot. <he>הי ד׳ וכ׳</he> which are the two additional ones?—[<he>הָדֵין</he> <i>then</i>, v. <cite ref=\"E00347\"><he>הֵידֵין</he></cite>.]"
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

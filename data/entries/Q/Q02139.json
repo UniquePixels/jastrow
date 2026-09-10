@@ -1,0 +1,29 @@
+{
+	"id": "Q02139",
+	"slug": "פתור-3",
+	"headword": {
+		"text": "פָּתוֹר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּתוֹרָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1250,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02201\"><he>פְּתַר</he></cite>) <i>interpreter</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 10:10\">Koh. R. to X, 10</cite> <he>פ׳ חילמיא</he> interpreter of dreams."
+			]
+		}
+	]
+}

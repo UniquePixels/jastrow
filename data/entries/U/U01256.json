@@ -1,0 +1,22 @@
+{
+	"id": "U01256",
+	"slug": "שלונאי",
+	"headword": {
+		"text": "שְׁלוֹנַאי"
+	},
+	"page": {
+		"number": 1579,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Sh’lonai</i>, legendary name of Balak’s daughter (v. <cite ref=\"U00402\"><he>שְׁוִילְנַאי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 25:15\">Targ. Y. Num. XXV, 15</cite>."
+			]
+		}
+	]
+}

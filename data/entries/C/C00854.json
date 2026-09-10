@@ -1,0 +1,23 @@
+{
+	"id": "C00854",
+	"slug": "גלאקסינון",
+	"headword": {
+		"text": "גַּלְאַקְסִינוֹן"
+	},
+	"page": {
+		"number": 243,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. Ar. (ed. <he>גלא ק׳</he>) (γαλῆ Ἀξεινῶν) [<i>fur of</i>] <i>the weasel imported by the Axeinoi</i> (living around the Pontus Axenus or Euxenus); <i>ermine</i> (v. Sm. Ant. s. v. Pellis). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>, end (<cite ref=\"C00851\"><he>גלא</he></cite>) <he>גלי ק׳</he>. Y. Sabb. II, 4ᵈ bot. (rendition of <cite ref=\"V00388\"><he>תַּחַשׁ</he></cite>) <cite ref=\"C00982\"><he>גלקטינון</he></cite>; <cite ref=\"Kohelet Rabbah 1:9\">Koh. R. to I, 9</cite> <cite ref=\"C00925\"><he>גלטינון</he></cite> (corr. acc.). ",
+				"<cite ref=\"Kohelet Rabbah 1:9:1\">Ib.</cite> <he>והכלב גלבטינון</he> (read <he>גלכסינון</he>) and the dog shall wear ermine fur."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "V00027",
+	"slug": "תאנה",
+	"headword": {
+		"text": "תְּאֵנָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּאֵי׳"
+		}
+	],
+	"page": {
+		"number": 1642,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fig-tree; fig</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 6:2:2\">Cant. R. to VI, 2</cite> <he>הת׳ הזו … יפה לה ויפה לת׳</he> when the fig-tree is plucked in due time, it is good for it and good for the fig; <cite ref=\"Bereishit Rabbah 62:1\">Gen. R. s. 62</cite>; <cite ref=\"Kohelet Rabbah 5:11\">Koh. R. to V, 11</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 5:11\">Ib.</cite>; <cite ref=\"Jerusalem Talmud Berakhot 2:8:5\">Y. Ber. II, 5ᶜ</cite> top <he>בעל הת׳ יוֹדע וכ׳</he> the owner of the fig-tree knows when it is time to pluck it (God knows when it is time to call the righteous away). Gen. R. l. c. <he>היו … תחת ת׳ אחת</he> were wont to rise early and sit down under a certain fig-tree to study; ib. <he>חדא … תְּאֵינָתִי וכ׳</he> the one benefit that you conferred upon me by sitting and studying under my fig-tree, you have now taken away; Yalk. ib. 110; a. fr.—Pl. <he>תְּאֵנִים</he>, <he>תְּאַנוֹת</he>, <cite ref=\"V00027\"><he>תְּאֵי׳</he></cite> <i>figs</i>. Y. Ber. l. c. <he>תְּאֵינוֹתָיו</he>, v. <cite ref=\"V00616\"><he>תָּלַע</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Metzia 7:4\">B. Mets. VII, 4</cite>. ",
+				"<cite ref=\"Berakhot 41b:6\">Ber. 41ᵇ</cite> <he>הביאו לפניהם ת׳ וכ׳</he> if figs and grapes are placed before diners during the meal. ",
+				"<cite ref=\"Mishnah Berakhot 6:8\">Ib. VI, 8</cite>. ",
+				"<cite ref=\"Berakhot 44a:5\">Ib. 44ᵃ</cite> <he>קוצצי ת׳</he> fig-cutters; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>עֵין ת׳</he> pr. n. pl. <i>ʿEn-T’enah</i>, near Sepphoris. ",
+			"units": ["<cite ref=\"Kohelet Rabbah 3:2:3\">Koh. R. to III, 2</cite>."],
+			"label": "2"
+		}
+	]
+}

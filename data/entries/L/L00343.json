@@ -1,0 +1,67 @@
+{
+	"id": "L00343",
+	"slug": "לחי-2",
+	"headword": {
+		"text": "לֶחִי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "לְחִי"
+		}
+	],
+	"page": {
+		"number": 702,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"L00336\"><he>לחה</he></cite>; cmp. <cite ref=\"L00299\"><he>לוֹעָא</he></cite>) [<i>joint</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>jaw</i>. Tanḥ. Ki Thissa 18 <he>לוחות שיגיעתן בל׳</he> the tablets are called <i>luḥoth</i>, because they must be studied with weariness of the <i>leḥi</i> (jaw).—<i>Du.</i> <he>לְחָיַיִם</he>. ",
+			"units": [
+				"<cite ref=\"Eruvin 54a:16\">Erub. 54ᵃ</cite> (play on <he>לחת</he>, <cite ref=\"Exodus 31:18\">Ex. XXXI, 18</cite>) <he>אם משים אדם לְחָיָיו כאבן וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note) if one will make his jaws as (untiring in repeating lessons as) a stone &c. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:15\">Cant. R. to IV, 15</cite>; <cite ref=\"Shir HaShirim Rabbah 5:12\">ib. to V, 12</cite> (ref. to <cite ref=\"Shir HaShirim Rabbah 13\">ib. 13</cite>) <he>זה מלחים … עד שתהא הלכה יוצאה כמין ל׳</he> one scholar inserts one thing, another another thing, until the <i>halakhah</i> (decision) comes forth like jaws (well adjusted). ",
+				"<cite ref=\"Shabbat 57b:12\">Sabb. 57ᵇ</cite> (expl. <cite ref=\"O01514\"><he>סרביטין</he></cite>, <cite ref=\"Mishnah Shabbat 6:1\">ib. VI, 1</cite>) <he>המגיעין לה עד לְחָיֶיהָ</he> ed. (Ms. M. <he>המגיעין עד הלחיים</he>) ornaments of the head which hang down so as to reach her cheeks. Y. Taan. IV, 68ᵈ bot.; <cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>יעלו עשבים בלְחָיֶיךָ וכ׳</he> grass will grow through thy jaws (thou shalt be dead and buried), and the son of David shall not yet have appeared. ",
+				"<cite ref=\"Tosefta Ohalot 1:6\">Tosef. Ohol. I, 6</cite> <he>והלְחָיַיִן עמהן</he> (ed. Zuck. <he>והלחי</he>) and the jaw-bones count among them. ",
+				"<cite ref=\"Mishnah Chullin 10:1\">Ḥull. X, 1</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>various objects resembling a jaw</i>, or <i>attached to another object</i>; ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>that part of the bridle which encompasses the jaw</i>. ",
+					"units": ["<cite ref=\"Mishnah Kelim 11:5\">Kel. XI, 5</cite>.—"],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>the cheek-pieces of a casque</i>. Ib. 8 (v. Maim. comment. ed. Dehr.).—",
+					"units": [],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>inserted sticks, with which the plough is guided</i>. Ib. XXI, 2.—Esp. ",
+					"units": [],
+					"label": "c"
+				}
+			]
+		},
+		{
+			"gloss": "<i>leḥi, a stake fastened in the ground</i> by the side of a wall, serving as a mark or as a fictitious partition (enclosure) for the purpose of enabling the inmates of an alley to move objects, on the Sabbath, within the space thus enclosed (v. <cite ref=\"P00680\"><he>עֵירוּב</he></cite>). ",
+			"units": [
+				"<cite ref=\"Eruvin 12b:14\">Erub. 12ᵇ</cite> <he>ל׳ משום מחיצה</he> a <i>leḥi</i> is to serve the place of a partition (palisade), contrad. to <he>משום היכר</he> a mark to distinguish the alley from the public road. ",
+				"<cite ref=\"Mishnah Eruvin 1:2\">Ib. I, 2</cite> <he>הכשר מבוי … ל׳ וקורה</he> the means of fitting an alley for movements on the Sabbath … are a stake and a beam on top; <he>ר׳ אל׳ אומר לְחָיַיִן</he> R. E. says two stakes. Ib. 6 <he>לחיין שאמרו וכ׳</he> the stakes about which they speak must be ten hand-breadths high &c. Ib. 15ᵃ <he>ל׳ העומד מאליו … הוי ל׳</he> a pole put up accidentally (not with the intention of making it a Sabbath mark) … serves the ritual purposes of a <i>leḥi</i>. Ib. 12ᵇ <he>הִכְשִׁירוֹ בל׳</he> if the alley has been made available for Sabbath movements by means of a <i>leḥi</i>; a. v. fr."
+			],
+			"label": "3"
+		}
+	]
+}

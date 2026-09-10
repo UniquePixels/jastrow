@@ -1,0 +1,32 @@
+{
+	"id": "Q01300",
+	"slug": "פסיס",
+	"headword": {
+		"text": "פָּסִיס"
+	},
+	"page": {
+		"number": 1195,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00741\"><he>פִּיס</he></cite> or <cite ref=\"Q01339\"><he>פָּסַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>persuasion, good-will, accommodation</i>; <he>שטר פ׳</he> (not <he>פסים</he>) <i>a deed of sale for accommodation, a feigned transfer</i> (a Hebrew adaptation of πίστις), v. <cite ref=\"Q00753\"><he>פִּיסְטִיס</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>peg</i>. Pl. <he>פְּסִיסִין</he>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 2b\">B. Bath. 2ᵇ</cite> Ms. M., v. <cite ref=\"M01926\"><he>מְסִיפָס</he></cite>; cmp. <cite ref=\"Q01302\"><he>פְּסִיסִית</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

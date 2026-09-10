@@ -1,0 +1,23 @@
+{
+	"id": "Q00749",
+	"slug": "פיסולא",
+	"headword": {
+		"text": "פִּיסּוּלָא"
+	},
+	"page": {
+		"number": 1167,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"Q01242\"><he>פְּסוּל</he></cite>, <i>disqualification, blemish; disqualified, unworthy person</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 35:22\">Targ. Y. Gen. XXXV, 22</cite>; a. e.—Pl. <cite ref=\"Q00792\"><he>פִּיסּוּלַיָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 21:14\">Targ. Y. Lev. XXI, 14</cite>."
+			]
+		}
+	]
+}

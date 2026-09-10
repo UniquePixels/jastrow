@@ -1,0 +1,25 @@
+{
+	"id": "O00244",
+	"slug": "סוג-3",
+	"headword": {
+		"text": "סוּג",
+		"homograph": 2
+	},
+	"page": {
+		"number": 961,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00243\">preced.</cite>) [<i>partition</i>,] <i>a large chest</i> or <i>basket</i> with partitions for various kinds of provision. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 5:6\">Dem. V, 6</cite> <he>אפי׳ מאותו הס׳ וכ׳</he> even if he buys the second time from the same chest and of the same kind (quality). ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 2:4:2\">Y. B. Kam. II, 3ᵃ</cite> <he>ס׳ שנתון וכ׳</he> a dealer’s chest which stands at the entrance of the shop; a. e.—Pl. <he>סוּגִים</he>, <he>סוּגִין</he>. ",
+				"<cite ref=\"Mishnah Kelim 16:3\">Kel. XVI, 3</cite> <he>הס׳ הגדולים</he> (R. S. a. l. Var. <he>סוֹאִין</he>; <cite ref=\"Tosefta Keilim Metsia 5:3\">Tosef. Kel. B. Mets. V, 3</cite>; <cite ref=\"Tosefta Keilim Metsia 5:13\">13</cite> <he>הסאין</he>, v. <cite ref=\"O00291\"><he>סוֹי</he></cite>) the large provision chests; Sifra Sh’mini ch. VII, Par. 6 <cite ref=\"O00560\"><he>סיגים</he></cite> (corr. acc.). Y. Sabb. XVII, 16ᵃ bot.; a. e.—[In later philosophical literature: <cite ref=\"O00243\"><he>סוּג</he></cite> <i>class, species</i>.—[<cite ref=\"Midrash Tehillim 119:29\">Midr. Till. to Ps. CXIX, 119</cite> <he>עושה סוגים</he>, v. <cite ref=\"O00549\"><he>סִיג</he> I</cite>.]"
+			]
+		}
+	]
+}

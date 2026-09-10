@@ -1,0 +1,27 @@
+{
+	"id": "G00180",
+	"slug": "זוללא",
+	"headword": {
+		"text": "זוֹלָלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַוְלָלָא"
+		}
+	],
+	"page": {
+		"number": 387,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זוּל</he> II) <i>skein</i>.—Pl. <he>זַוְלָלֵי</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 60a\">Ḥull. 60ᵃ</cite>, quoted in Tosaf. to <cite ref=\"Yevamot 63a\">Yeb. 63ᵃ</cite> for <cite ref=\"D00268\"><he>דַּוְלָלָא</he></cite>, q. v."
+			]
+		}
+	]
+}

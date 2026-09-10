@@ -1,0 +1,55 @@
+{
+	"id": "U01290",
+	"slug": "שלי-1",
+	"headword": {
+		"text": "שלי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁלָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1582,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"Job 27:8\">Job XXVII, 8</cite>) <i>to draw out, pull</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 24a\">Taan. 24ᵃ</cite>; <cite ref=\"Shabbat 107b:11\">Sabb. 107ᵇ</cite> <he>השׁוֹלֶה דג וכ׳</he> he that takes a fish out of the water (on the Sabbath). ",
+				"<cite ref=\"Chullin 63a:3\">Ḥull. 63ᵃ</cite> (expl. <cite ref=\"U01340\"><he>שָׁלָךְ</he></cite>, <cite ref=\"Leviticus 11:17\">Lev. XI, 17</cite>) <he>זה השולה דגים וכ׳</he> that is the bird that catches fish out of the sea. ",
+				"<cite ref=\"Mishnah Moed Katan 2:3\">M. Kat. II, 3</cite> <he>ושולה פשתנו וכ׳</he> and may take his flax out of the pond. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 966:4\">Yalk. Koh. 966</cite> <he>אדם שוקע … שולה ראשון</he> if one sinks pots into his furnace, he takes out first what he has last put in; a. fr.—[<cite ref=\"Jerusalem Talmud Maaser Sheni 3:6:4\">Y. Maas. Sh. III, 53ᶜ</cite> top <he>שולה</he>, read: <cite ref=\"U00544\"><he>שורה</he></cite>, v. <cite ref=\"U01936\"><he>שָׁרָה</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁילָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01289\">same</cite>, esp. <i>to draw wine</i> (out of the pit). ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 56a\">Ab. Zar. 56ᵃ</cite>; <cite ref=\"Bava Metzia 92b:9\">B. Mets. 92ᵇ</cite> <he>היין … משׁיְשַׁלֶּה בחביות</he> wine is subject to tithes …, when he fills it into kegs; Y. Ter. II, 41ᵇ bot. <he>משישלה ומשיקפה</he> (not <he>משיקיפה</he>) when he has filled and skimmed it; <he>עד שלא שי׳ וכ׳</he> before he filled or skimmed it. ",
+						"<cite ref=\"Tosefta Ma'asrot 1:7\">Tosef. Maasr. I, 7</cite> <he>המקדיש … עד שלא שילה וקיפה מששילה וקיפה וכ׳</he> (ed. Zuck. <he>שולה וקופה וכ׳</he>, corr. acc.) if one dedicates the contents of a pit before he has drawn and skimmed the wine, and the Temple collector comes after he has done so &c.; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִשְׁלֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be pulled, drawn away</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite>, beg. (ref. to <cite ref=\"Genesis 4:1\">Gen. IV, 1</cite>) <he>ידע מאיזו שלוה נ׳</he> he knew from what happiness he was drawn away (through his wife)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

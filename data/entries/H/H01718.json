@@ -1,0 +1,29 @@
+{
+	"id": "H01718",
+	"slug": "חרמא-1",
+	"headword": {
+		"text": "חֶרְמָא"
+	},
+	"page": {
+		"number": 504,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"H01716\"><he>חֵרֶם</he></cite><i>net</i>. Targ. ",
+			"units": ["<cite ref=\"Habakkuk 1:15\">Hab. I, 15</cite>."],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"H01716\"><he>חֵרֶם</he></cite> 3). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 27:21\">Targ. O. Lev. XXVII, 21</cite> (ed. Berl. <cite ref=\"H00883\"><he>חִירְמָא</he></cite>).—",
+				"<cite ref=\"Targum Jonathan on Joshua 6:17\">Targ. Josh. VI, 17</cite>, sq. (ed. Lag. <he>חיר׳</he>; some ed. <cite ref=\"H01654\"><he>חָרְ׳</he></cite>); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

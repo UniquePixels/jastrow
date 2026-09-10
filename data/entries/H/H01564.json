@@ -1,0 +1,37 @@
+{
+	"id": "H01564",
+	"slug": "חקק-2",
+	"headword": {
+		"text": "חֲקַק"
+	},
+	"page": {
+		"number": 497,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01563\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite> <he>נטל … וחַקְקֵיה</he> he took a reed and hollowed it out. ",
+				"<cite ref=\"Chullin 25a\">Ḥull. 25ᵃ</cite>; <cite ref=\"Shabbat 103a:2\">Sabb. 103ᵃ</cite> <he>חַק קפיזא וכ׳</he> he hollowed out &c., v. <cite ref=\"H00608\"><he>חֲטַט</he> I</cite>.—Part. pass. <cite ref=\"H01556\"><he>חָקִיק</he></cite>, <cite ref=\"H01556\"><he>חֲקִיק</he></cite> <i>engraven, marked</i>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 28:11\">Targ. Y. Ex. XXVIII, 11</cite> (Ar. <cite ref=\"H01554\"><he>חקיין</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 19:28\">Targ. Y. Lev. XIX, 28</cite> (h. text <cite ref=\"S01691\"><he>קעקע</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:9\">Targ. Cant. II, 9</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַקֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be engraven, to engrave itself</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 20:2\">Targ. Y. Ex. XX, 2</cite>; <cite ref=\"Targum Jonathan on Exodus 20:3\">3</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "Q01900",
+	"slug": "פרנסא",
+	"headword": {
+		"text": "פַּרְנָסָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1231,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01899\">preced.</cite>) <i>management, administration</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:2\">Targ. O. Gen. XV, 2</cite> <cite ref=\"Q00798\"><he>בר פ׳</he></cite> manager (h. text <he>בן משק</he>); Y. ",
+				"<cite ref=\"Onkelos Genesis 15:2\">ib.</cite> <he>בר פַּרְנָסַת ביתי</he>. V. <cite ref=\"Q01903\"><he>פַּרְנָסוּתָא</he></cite>."
+			]
+		}
+	]
+}

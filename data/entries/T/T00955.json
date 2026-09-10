@@ -1,0 +1,36 @@
+{
+	"id": "T00955",
+	"slug": "רפסודות",
+	"headword": {
+		"text": "רַפְסוֹדוֹת"
+	},
+	"page": {
+		"number": 1491,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"T00952\"><he>רָפַס</he></cite>, with format. <cite ref=\"D00000\"><he>ד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>footstool</i> (scamnum). Tanḥ. ",
+			"units": [
+				"<cite ref=\"Genesis 5\">B’resh. 5</cite> <he>ואין רגליו מגיעות לר׳ וכ׳</he> his feet do not reach down to the footstool under his feet."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(b. h. <i>floats</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:5:9\">Y. Ber. IV, 8ᶜ</cite>, v. <cite ref=\"A02326\"><he>אַסְדָּא</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 168:2\">Yalk. Ex. 168</cite> (quot. fr. Dibré Hayamim)."
+			],
+			"label": "2"
+		}
+	]
+}

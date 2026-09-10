@@ -1,0 +1,26 @@
+{
+	"id": "C00329",
+	"slug": "גווזא-,-II",
+	"headword": {
+		"text": "גַּוָּוזָא , II"
+	},
+	"page": {
+		"number": 219,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00328\">preced.</cite>) <i>castrate, eunuch;</i> in gen. <i>servant, guardsman</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 22:9\">Targ. I Kings XXII, 9</cite>; a. fr. (var. <cite ref=\"C00340\"><he>גָּוָזָא</he></cite>, <cite ref=\"C00265\"><he>גַּוָּאזָא</he></cite>, <cite ref=\"C00343\"><he>גַּוְזָאָה</he></cite> &c.—",
+				"<cite ref=\"Shabbat 152a:5\">Sabb. 152ᵃ</cite> <he>ההיא גַּוְזָאָה</he> ed. (ed. Sonc. <cite ref=\"C00340\"><he>גָּוָזָא</he></cite>, v. Rabb. D. S. a. l. note 40; Ar. <he>גאזא</he>, v. Koh. Ar. Compl. s. v. <cite ref=\"C00338\"><he>גוז</he></cite>, p. 256 notes).—Pl. <he>גַּוָּוזֵי</he> &c., <he>גַּוָּזָאִין</he>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 9:32\">Targ. II Kings IX, 32</cite>.—",
+				"<cite ref=\"Megillah 28a:10\">Meg. 28ᵃ</cite> (Ms. M. <he>גוזאי</he>, Ar. <he>גואזי</he>). ",
+				"<cite ref=\"Kiddushin 33a:18\">Kidd. 33ᵃ</cite> <he>משדר גוזאי</he> used to send guardsmen."
+			]
+		}
+	]
+}

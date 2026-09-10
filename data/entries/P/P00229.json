@@ -1,0 +1,31 @@
+{
+	"id": "P00229",
+	"slug": "עויא-2",
+	"headword": {
+		"text": "עִוְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִוְיָיא"
+		},
+		{
+			"text": "עִוְו׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1049,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P00206\"><he>עָוָה</he></cite>) = <cite ref=\"H00310\"><he>חִוְיָא</he></cite>, <i>serpent</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 26\">Gen. R. s. 26</cite> (play on <cite ref=\"P00808\"><he>עַוִּים</he></cite>, v. <cite ref=\"P00206\"><he>עָוָה</he></cite>) <he>בגלילא … ע׳</he> Ar. (ed. <cite ref=\"A01186\"><he>אִיוְיָא</he></cite>) in Galilee they call a serpent <i>‘ivya</i> (for <i>ḥivya</i>)."
+			]
+		}
+	]
+}

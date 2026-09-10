@@ -1,0 +1,22 @@
+{
+	"id": "P01205",
+	"slug": "עקמנות",
+	"headword": {
+		"text": "עַקְמָנוּת"
+	},
+	"page": {
+		"number": 1107,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01204\">preced.</cite>) <i>indirectness, reserve</i>, opp. <cite ref=\"V00679\"><he>תמימות</he></cite> frankness. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 11:5\">Lev. R. s. 11</cite> <he>בא בע׳</he> spoke with reserve; <cite ref=\"Midrash Tehillim 18:20\">Midr. Till. to Ps. XVIII, 27</cite>; <cite ref=\"Yalkut Shimoni on Nach 161:4\">Yalk. Sam. 161</cite>."
+			]
+		}
+	]
+}

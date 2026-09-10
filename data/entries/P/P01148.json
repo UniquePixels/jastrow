@@ -1,0 +1,34 @@
+{
+	"id": "P01148",
+	"slug": "עקבא-1",
+	"headword": {
+		"text": "עִקְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1104,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = = h. <cite ref=\"P01145\"><he>עָקֵב</he></cite>, <i>heel; curve</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 49:17\">Targ. Y. Gen. XLIX, 17</cite>; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 5:16:1\">Cant. R. to V, 16</cite> <he>כד אתא מיתלי ע׳ מן ארעא</he> when he (Abraham) began to lift his heel from the ground (from the time he attempted to walk).—Pl. <he>עִקְּבִין</he>, <he>עִקְּבֵי</he>, <cite ref=\"P00072\"><he>עִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 3:15\">Targ. Y. I Gen. III, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:32\">Targ. Is. X, 32</cite>.—",
+				"<cite ref=\"Chullin 52a\">Ḥull. 52ᵃ</cite> <he>ע׳ דגפי</he> the curved ends of the wings (where they are attached to the body)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"P01147\">preced.</cite>) <i>end, future</i>. Targ. Y. I Gen. l. c.; Targ. Y. II ib. <cite ref=\"P01146\"><he>עֵקֶב</he></cite> (constr.).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

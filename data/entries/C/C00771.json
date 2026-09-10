@@ -1,0 +1,36 @@
+{
+	"id": "C00771",
+	"slug": "גינתא",
+	"headword": {
+		"text": "גִּינְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּינָּא"
+		},
+		{
+			"text": "גִּנּ׳"
+		}
+	],
+	"page": {
+		"number": 240,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גנן</he>, v. <cite ref=\"C01072\"><he>גַּן</he></cite>) <i>garden</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:8\">Targ. O. Gen. II, 8</cite>. Targ. Y. I Gen. XLXI, 4 <he>גינא</he> (Y. II <cite ref=\"C01073\"><he>גַּנָּא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 56:14\">Targ. Ps. LVI, 14</cite> (second vers.). Constr. <cite ref=\"C00748\"><he>גִּינַּת</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 11:10\">Targ. Deut. XI, 10</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 80:12\">Gen. R. s. 80</cite> (prov.) <he>לפום ג׳ גננא</he> as the garden so the gardener (as the people so the leader); Y. Snh. II, 20ᵈ top <he>כגִנְּתָה כן גננה</he>. ",
+				"<cite ref=\"Bava Batra 54a\">B. Bath. 54ᵃ</cite>; a. fr.—Pl. <cite ref=\"C00771\"><he>גִּינָּתָא</he></cite>, constr. <cite ref=\"C00748\"><he>גִּינָּת</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:5\">Targ. Koh. II, 5</cite>.—<cite ref=\"C00748\"><he>גִּינָּן</he></cite>, <cite ref=\"C01152\"><he>גִּנָּן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 65:3\">Targ. Is. LXV, 3</cite>; <cite ref=\"Targum Jonathan on Isaiah 66:17\">LXVI, 17</cite> (some ed. <cite ref=\"C01152\"><he>גַּנָּן</he></cite>; v. <cite ref=\"C00763\"><he>גיניאך</he></cite>). V. <cite ref=\"C01073\"><he>גַּנָּא</he></cite>."
+			]
+		}
+	]
+}

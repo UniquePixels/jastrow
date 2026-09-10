@@ -1,0 +1,22 @@
+{
+	"id": "C00830",
+	"slug": "גירי",
+	"headword": {
+		"text": "גֵּירִי"
+	},
+	"page": {
+		"number": 242,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"C01225\"><he>גֵּר</he></cite>) <i>belonging to a convert family, descendant of proselytes</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:1\">Kidd. IV, 1</cite> (collectively); v. Tos’foth Yom Tob a. l. s. v. <cite ref=\"K00168\"><he>כהני</he></cite>."
+			]
+		}
+	]
+}

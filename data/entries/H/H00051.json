@@ -1,0 +1,35 @@
+{
+	"id": "H00051",
+	"slug": "חביב-2",
+	"headword": {
+		"text": "חָבִיב"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲ׳"
+		},
+		{
+			"text": "חַבִּ׳"
+		},
+		{
+			"text": "חֲבִיבָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 418,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00050\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 31:19\">Targ. Jer. XXXI, 19</cite>; a. fr.—Pl. <he>חֲבִיבִין</he>, <he>חֲבִיבַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 1:4\">Targ. Is. I, 4</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 26:18\">Targ. Y. II, Deut. XXVI, 18</cite>; a. e.—<i>Fem.</i> <cite ref=\"H00051\"><he>חֲבִיבָא</he></cite>; <cite ref=\"H00058\"><he>חֲבִיבְתָּא</he></cite> (as noun). ",
+				"<cite ref=\"Targum Jonathan on Genesis 44:30\">Targ. Y. Gen. XLIV, 30</cite> (h. text <he>קשורה</he>, cmp. <cite ref=\"H00013\"><he>חֲבַב</he></cite> <i>Ithpa.</i>).—",
+				"<cite ref=\"Aramaic Targum to Song of Songs 6:4\">Targ. Cant. VI, 4</cite>."
+			]
+		}
+	]
+}

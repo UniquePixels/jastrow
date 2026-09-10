@@ -1,0 +1,57 @@
+{
+	"id": "N00201",
+	"slug": "נדב-1",
+	"headword": {
+		"text": "נָדַב"
+	},
+	"page": {
+		"number": 877,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to make willing, to prompt</i>. Tanḥ. T’rum. 3 (ref. to <cite ref=\"Exodus 25:2\">Ex. XXV, 2</cite>) <he>יצא … שאין לבו נוֹדְבוֹ</he> this excludes the insane whom his heart (reason) cannot prompt; (Tanḥ. ed. Bub. ib. 2 <he>שאינו מתנדב בלבו</he>).—2) (denom. of <cite ref=\"N00204\"><he>נְדָבָה</he></cite>) <i>to offer willingly, donate, consecrate,</i> contrad. to <cite ref=\"N00239\"><he>נָדַר</he></cite> (v. <cite ref=\"N00204\"><he>נְדָבָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Nedarim 9b:1\">Ned. 9ᵇ</cite> (ref. to Mish. ",
+				"<cite ref=\"Mishnah Nedarim 1:1\">ib. I, 1</cite>) <he>תני נ׳ בנזיר וכ׳</he> read <i>nadab</i> (in place of <i>nadar</i>), he made a noble vow &c. Ib. 10ᵃ <he>תני נוֹדֵב וכ׳</he> read <i>nodeb</i> (in place of <he>נודר</he>), he dedicates the sacrifice and fulfills (offers it)."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִידָּב", "נִדָּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be donated, dedicated</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Megillah 1:10\">Meg. I, 10</cite> <he>כל שהוא נידר ונ׳</he> whatever sacrifice is dependent on vow or dedication; <cite ref=\"Zevachim 117a\">Zeb. 117ᵃ</cite> <he>כל הנדר ונ׳</he> Ms. M.; <cite ref=\"Sifrei Devarim 65\">Sifré Deut. 65</cite>; <cite ref=\"Temurah 14b:35\">Tem. 14ᵇ</cite>. ",
+						"<cite ref=\"Temurah 14b:33\">Ib.</cite> <he>נזיר לאו נדר ונ׳ הוא</he> the sacrifices of the Nazarite are not to be classified among the vowed or free-will offerings; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְנַדֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be prompted; to vow a free-will offering; to donate</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Nedarim 1:1\">Tosef. Ned. I, 1</cite> <he>אין הרשעים מִתְנַדְּבִים</he> wicked men do not vow offerings. ",
+						"<cite ref=\"Tosefta Nedarim 1:1\">Ib.</cite> <he>מתנדבים נזירות</he> used to vow to be Nazarites. ",
+						"<cite ref=\"Mishnah Menachot 12:3\">Men. XII, 3</cite> <he>לא ה׳ כדרך המתנדבים</he> he did not make his vow in the ordinary way of vowing people. ",
+						"<cite ref=\"Mishnah Menachot 12:4\">Ib. 4</cite> <he>מִתְנַדֵּב אדם וכ׳</he> a man may vow a meal offering of sixty &c. Tanḥ. ed. Bub. l. c. <he>מתנדב בלבו</he> is prompted by his heart, v. supra. ",
+						"<cite ref=\"Arakhin 6b\">Arakh. 6ᵇ</cite> <he>עכו״ם שה׳ מנורה וכ׳</he> if a gentile donated a lamp to a synagogue. Sifra Tsav, Milluim, Par. 1 <he>בשעה שצוה … להִתְנַדֵּב וכ׳</he> when the Lord of the world ordered free-will donations for the sanctuary; <he>שלא יִתְנַדֵּב אדם גזל וכ׳</he> that no man must donate what is forced out of him, i.e. no pressure may be used for contributions for a sacred purpose; <cite ref=\"Yalkut Shimoni on Torah 515\">Yalk. Lev. 515</cite>. ",
+						"<cite ref=\"Sanhedrin 43a:10\">Snh. 43ᵃ</cite> <he>נשים … מִתְנַדְּבוֹת וכ׳</he> worthy women … volunteered their services and brought them (benumbing drinks for the culprits); a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

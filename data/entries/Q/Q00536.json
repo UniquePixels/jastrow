@@ -1,0 +1,52 @@
+{
+	"id": "Q00536",
+	"slug": "פטם-2",
+	"headword": {
+		"text": "פְּטַם"
+	},
+	"page": {
+		"number": 1156,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to pound, mix spices</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 30:25\">Targ. Y. Ex. XXX, 25</cite>; <cite ref=\"Targum Jonathan on Exodus 30:35\">35</cite> <he>מְפַטֵּם</he> Ar. (ed. v. <cite ref=\"M00713\"><he>מְזַג</he></cite>; h. text <he>רקח</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fatten</i>.—Part. pass. <he>מְפַטַּם</he>; pl. <he>מְפַטְּמִין</he>, <he>מְפַטְּמֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:24\">Targ. Is. XXX, 24</cite> (Kimḥi <cite ref=\"Q00517\"><he>פַּטִּים</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 15:17\">Targ. Prov. XV, 17</cite>.—",
+				"<cite ref=\"Pesachim 76b:1\">Pes. 76ᵇ</cite> <he>מפטמי מהדדי</he> they are fattened (or <i>flavored</i>) with one another."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to flavor one’s words</i> (cmp. <cite ref=\"B01004\"><he>בְּסַם</he></cite>), <i>to console, cheer up</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 66a:1\">B. Mets. 66ᵃ</cite> <he>פַּטּוּמֵי מילי בעלמא הוא</he> it was merely meant to cheer up (the neighbor, not as a binding promise)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"Q00538\"><he>פַּטֵּם</he></cite> same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

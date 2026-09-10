@@ -1,0 +1,26 @@
+{
+	"id": "A03322",
+	"slug": "אשם-1",
+	"headword": {
+		"text": "אָשַׁם"
+	},
+	"page": {
+		"number": 129,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <he>שמם</he>)<i>to be waste</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Ezekiel 6:6\">Ezek. VI, 6</cite>; <cite ref=\"Hosea 14\">Hos. XIV</cite>, . ",
+				"<cite ref=\"Sanhedrin 97a:4\">Snh. 97ᵃ</cite> <he>יֶאֱשַׁם</he> (in parall. passages <he>יִשּׁוֹם</he>); v. <cite ref=\"C00113\"><he>גַּבְלָן</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to neglect, be guilty</i>.—Denom.:",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

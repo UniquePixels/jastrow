@@ -1,0 +1,28 @@
+{
+	"id": "I00817",
+	"slug": "טריקטא",
+	"headword": {
+		"text": "טְרִיקְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְרַקְטָהִ"
+		}
+	],
+	"page": {
+		"number": 554,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (tracta) <i>a long piece of dough pulled out in making pastry</i> (<i>tracta</i> or <i>tractum</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Challah 1:3:15\">Y. Ḥall. I, 57ᵈ</cite> <he>ר׳ יוחנן אמר טריק׳ חייבת וכ׳</he> R. J. says, <i>tracta</i> is subject to <i>Ḥallah;</i> <cite ref=\"Berakhot 37b:11\">Ber. 37ᵇ</cite> <he>כי אתא</he> … <he>אמר ר׳ יוחנן טרקנין חייבת וכ׳</he> Ms. M. (corr. acc.; v. Rabb. D. S. a. l. note 6; ed. <he>טרוקנין פטורין</he>) when R. … came to Babylonia from Palestine, he related in behalf of R. J. &c. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:2:5\">Y. Pes. III, 30ᵃ</cite> <he>טרקטה הורי וכ׳</he> as to <i>tracta</i> (on Passover) R. … permitted to make only one at a time, but two &c."
+			]
+		}
+	]
+}

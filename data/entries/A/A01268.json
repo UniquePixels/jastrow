@@ -1,0 +1,34 @@
+{
+	"id": "A01268",
+	"slug": "אילא-3",
+	"headword": {
+		"text": "אִילָא"
+	},
+	"page": {
+		"number": 48,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ila</i> ",
+			"units": []
+		},
+		{
+			"gloss": "; a Tannai. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 4:5\">Bekh. IV, 5</cite> (<cite ref=\"Bekhorot 29a:3\">29ᵃ</cite>), a medical expert <he>כא׳ ביבנה</he> like I. in Yabneh’."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " an Amora. ",
+			"units": [
+				"<cite ref=\"Yoma 73b:15\">Yoma 73ᵇ</cite>; a. fr. [Other forms <he>אילעא</he>, <he>אילי</he>, <cite ref=\"E00389\"><he>הילא</he></cite>; v. Frankel M’bo p. 75ᵇ.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "O00646",
+	"slug": "סיכון",
+	"headword": {
+		"text": "סִיכּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִכּ׳"
+		}
+	],
+	"page": {
+		"number": 979,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סָכַן</he> II, v. <cite ref=\"O00926\"><he>סַכָּנָה</he></cite>) <i>endangering</i>; <he>נפשות ס׳</he> <i>risk of life</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:31\">Y. Peah I, 15ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Kiddushin 1:7:14\">Y. Kidd. I, 61ᵇ</cite> bot."
+			]
+		}
+	]
+}

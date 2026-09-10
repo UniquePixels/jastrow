@@ -1,0 +1,29 @@
+{
+	"id": "M00419",
+	"slug": "מודעים",
+	"headword": {
+		"text": "מוֹדָעִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹדָעִין"
+		}
+	],
+	"page": {
+		"number": 739,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Modaim, Modim, Modin</i>, the native place of the Asmonean family. [Eds. a. Mss. vary between <he>מוֹדָע׳</he>, <cite ref=\"M00411\"><he>מוֹדִיע׳</he></cite> a. <cite ref=\"M00412\"><he>מוֹדִיעִית</he></cite>.] <cite ref=\"Kiddushin 66a\">Kidd. 66ᵃ</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 9:2\">Pes. IX, 2</cite>. ",
+				"<cite ref=\"Pesachim 93b:11\">Ib. 93ᵇ</cite> <he>מן המ׳ ולירושלם וכ׳</he> from M. to Jerusalem are fifteen miles. ",
+				"<cite ref=\"Mishnah Chagigah 3:5\">Ḥag. III, 5</cite>; <cite ref=\"Tosefta Chagigah 3:33\">Tosef. ib. III, 33</cite>; a. fr.—[<cite ref=\"M00419\"><he>מודעים</he></cite>, <cite ref=\"Eruvin 54b:25\">Erub. 54ᵇ</cite>, v. <cite ref=\"M00411\"><he>מוֹדִיעַ</he></cite>.]"
+			]
+		}
+	]
+}

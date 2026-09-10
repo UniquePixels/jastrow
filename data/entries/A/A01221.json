@@ -1,0 +1,30 @@
+{
+	"id": "A01221",
+	"slug": "איטמא",
+	"headword": {
+		"text": "אִיטְמָא"
+	},
+	"page": {
+		"number": 47,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01097\"><he>אטם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"A01098\"><he>אַטְמָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>obstruction, dam</i>. ",
+			"units": ["<cite ref=\"Kiddushin 70b:9\">Kidd. 70ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "C01315",
+	"slug": "גרוש",
+	"headword": {
+		"text": "גָּרוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּרוּשָׁה"
+		}
+	],
+	"page": {
+		"number": 267,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (part. pass. of <cite ref=\"C01403\"><he>גָּרַשׁ</he></cite>) <i>a divorced spouse</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 112a:7\">Pes. 112ᵃ</cite> <he>ג׳ שנשא ג׳</he> a divorced husband who married a divorced wife. ",
+				"<cite ref=\"Pesachim 112a:7\">Ib.</cite> <he>ג׳ בחיי בעלה</he> marrying a divorced wife while her husband is yet alive. ",
+				"<cite ref=\"Nedarim 20b:9\">Ned. 20ᵇ</cite> <he>גְּרוּשַׁת הלב</he> divorced at heart, one whom her husband is determined to divorce; a. fr.—Pl. <he>גְּרוּשִׁים</he>, f. <he>גְּרוּשׁוֹת</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 268:4\">Yalk. Jer. 268</cite> <he>וכי ג׳ אתם לי</he> are ye divorced from me (the Lord)?"
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "V00057",
+	"slug": "תבלול",
+	"headword": {
+		"text": "תְּבַלּוּל"
+	},
+	"page": {
+		"number": 1644,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>תְּבַלֻּל</he>; <cite ref=\"B00880\"><he>בָּלַל</he></cite>)<i>mixture, blending</i> of the colors of the eye. Sifra Emor, ch. II, Par. 3 <he>ת׳ לבן נכנס בשחור וכ׳</he> <i>t’ballul</i> means the white of the eye invading the black, or the reverse; (oth. opin.) <he>לבן פוסק וכ׳</he>, v. <cite ref=\"O00829\"><he>סִירָה</he> II</cite>; <cite ref=\"Mishnah Bekhorot 6:2\">Bekh. VI, 2</cite>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 38b:9\">ib. 38ᵇ</cite> <he>מהו לשון ת׳ דבר המבלבל וכ׳</he> what is the meaning of <i>t’ballul</i>? Anything that disturbs the arrangement of the eye, v. <cite ref=\"B00814\"><he>בִּלְבֵּל</he></cite>.—Pl. <he>תְּבַלּוּלִים</he>, <he>תְּבלּוּלִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 9:5:2\">Y. Pes. IX, 36ᵈ</cite> bot. <he>דוקים ות׳ פוסלין בו</he> cataracts and blendings make it unfit for the Passover sacrifice; <cite ref=\"Tosefta Pesachim 8:11\">Tosef. Pes. VIII, 11</cite> <he>פסח מצרים לא נהגו דקין ות׳ וכ׳</he> for the Passover in Egypt they did not consider cataracts and blendings to be disqualifications, but for the regular Passover they did &c."
+			]
+		}
+	]
+}

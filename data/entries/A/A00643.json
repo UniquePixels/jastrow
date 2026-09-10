@@ -1,0 +1,25 @@
+{
+	"id": "A00643",
+	"slug": "אוכל-2",
+	"headword": {
+		"text": "אוֹכֶל"
+	},
+	"page": {
+		"number": 25,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"A01699\"><he>אֹכֶל</he></cite>; <cite ref=\"A01697\"><he>אכל</he></cite>)<i>food, edible</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:8\">Bets. I, 8</cite> <he>בורר א׳ ואוֹכֵל</he> (Y. ed. <he>בורר אוכל אוכל</he>) he selects singly what is edible and eats immediately; a. fr.—<he>א׳ נפש</he> the necessary food for the day. ",
+				"<cite ref=\"Mishnah Megillah 1:5\">Meg. I, 5</cite> <he>אלא א׳ נ׳ בלבד</he> except the preparation of food (cooking &c., permitted on Holy Days, <cite ref=\"Exodus 12:16\">Ex. XII, 16</cite>).—Pl. <he>אוֹכְלִים</he>, <he>אוֹכְלִין</he> <i>food, eatables</i>. ",
+				"<cite ref=\"Berakhot 50b:13\">Ber. 50ᵇ</cite>; a. fr. ",
+				"<cite ref=\"Avodah Zarah 52b:1\">Ab. Zar. 52ᵇ</cite> <he>תקרובת ע״ז של א׳</he> an idolatrous offering consisting of edibles; Y. ib. IV, 43ᵈ <he>אֹכְ׳</he>."
+			]
+		}
+	]
+}

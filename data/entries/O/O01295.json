@@ -1,0 +1,45 @@
+{
+	"id": "O01295",
+	"slug": "סער-3",
+	"headword": {
+		"text": "סָעַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1010,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P01455\"><he>ערר</he></cite>)<i>to be rough; to be in commotion</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to stir up, to blow</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kilayim 5:7\">Kil. V, 7</cite> <he>וסִיעַרְתּוֹ הרוח לאחריו</he> and the wind drove the seed backward; <cite ref=\"Tosefta Kilaim 3:12\">Tosef. ib. III, 12</cite> <cite ref=\"O00638\"><he>סייתו</he></cite>, <he>סייעתו</he>, <he>הסעורתו</he> ed. Zuck. (corr. acc., v. infra). ",
+						"<cite ref=\"Bava Batra 25a:12-14\">B. Bath. 25ᵃ</cite> (ref. to <he>שעירם</he>, <cite ref=\"Deuteronomy 32:2\">Deut. XXXII, 2</cite>) <he>זו … שמְסָעֶרֶת וכ׳</he> that is the east wind which stirs up the whole world like a <i>saʿir</i> (demon); [<cite ref=\"Sifrei Devarim 306\">Sifré Deut. 306</cite> <he>שמשחיד וכ׳</he>; <cite ref=\"Yalkut Shimoni on Torah 942:28\">Yalk. ib. 942</cite> <he>שמשחרת</he> which makes the sky black like goats."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְעִיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01294\">same</cite>. Tosef. l. c. <he>והסעורתו</he>, read: <he>יהִסְעִירָתוֹ</he>, v. supra. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9:10\">Num. R. s. 9</cite> (play on <cite ref=\"U01693\"><he>שְׂעֹרִים</he></cite>, <cite ref=\"Numbers 5:15\">Num. V, 15</cite>) <he>והִסְעִירָם הב״ה וכ׳</he> (not <he>והסעידה</he>) and the Lord scattered them among the nations (with ref. to <cite ref=\"Zechariah 7:14\">Zech. VII, 14</cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

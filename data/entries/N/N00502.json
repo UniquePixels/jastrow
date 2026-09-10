@@ -1,0 +1,29 @@
+{
+	"id": "N00502",
+	"slug": "נחלה",
+	"headword": {
+		"text": "נַחֲלָה"
+	},
+	"page": {
+		"number": 895,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H00319\"><he>חוּל</he></cite>) [<i>turn, lot</i>,] <i>inheritance, right of succession</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 8:4\">B. Bath. VIII, 4</cite> <he>אחד הבן ואחד הבת בנ׳</he> the same law of succession applies to sons and (eventually) to daughters (v. ",
+				"<cite ref=\"Bava Batra 122b\">ib. 122ᵇ</cite>). ",
+				"<cite ref=\"Mishnah Bekhorot 8:1\">Bekh. VIII, 1</cite>, v. <cite ref=\"B00769\"><he>בְּכוֹר</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 5:4\">Midr. Till. to Ps. V, 1</cite> (play on <he>נחילות</he> <cite ref=\"Midrash Tehillim 5:4\">ib.</cite>) <he>על הנ׳ שנחלתם וכ׳</he> for the possession which you took from me, and for the possession which I took from you; a. fr.—Trnsf. <i>the central sanctuary at Shiloh</i> or <i>at Jerusalem</i>. ",
+				"<cite ref=\"Tosefta Zevahim 13:20\">Tosef. Zeb. XIII, 20</cite>; <cite ref=\"Zevachim 119a:12\">Zeb. 119ᵃ</cite>, sq.; <cite ref=\"Megillah 10a:3\">Meg. 10ᵃ</cite>, contrad. to <cite ref=\"M01742\"><he>מְנוּחָה</he></cite>.—Pl. <he>נַחֲלוֹת</he>. ",
+				"<cite ref=\"Mishnah Bava Batra 8:2\">B. Bath. VIII, 2</cite> <he>סדר נ׳ וכ׳</he> the following is the order of succession (among relatives). ",
+				"<cite ref=\"Bava Batra 117a:3\">Ib. 117ᵃ</cite> <he>משונה נחלה זו מכל נ׳ שבעולם</he> this division of inheritance (after the conquest of Canaan) is different from all other successions; a. fr.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 629:2\">Yalk. Ps. 629</cite>, v. <cite ref=\"N00488\"><he>נְחִילָה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"id": "N00120",
+	"slug": "נגדא-1",
+	"headword": {
+		"text": "נָגְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַגְ׳"
+		},
+		{
+			"text": "נוּגְ׳"
+		}
+	],
+	"page": {
+		"number": 872,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00118\"><he>נְגַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>prolongation, length, distance</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 21:5\">Targ. Ps. XXI, 5</cite> (ed. Lag. <cite ref=\"N00144\"><he>נִיגְ׳</he></cite> h. text <cite ref=\"A03124\"><he>ארך</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:16\">Targ. Prov. III, 16</cite> (ed. Lag. <cite ref=\"N00305\"><he>נוּגְרָא</he></cite> q. v.); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 11:5\">Gen. R. s. 11</cite> <he>לנ׳ את נגיד לי</he> thou leadest me to a distant place; i.e. thy evidence is far off."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>lead,</i>] <i>path, pass.—</i>Pl. <he>נָגְדִּין</he>, <cite ref=\"N00120\"><he>נַגְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 41:18\">Targ. Is. XLI, 18</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Exodus 14:3\">Targ. Y. Ex. XIV, 3</cite> <he>נַגְדּוֹי וכ׳</he> his narrows in the desert.—<he>נ׳ דְּמַיִין</he> (or sub. <he>דמיין</he>) <i>river-courses</i> (corresp. to b. h. <he>יבלי מים</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 44:4\">Targ. Is. XLIV, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 53:2\">Ib. LIII, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 4:11\">Targ. Jer. IV, 11</cite> (h. text <he>שפים</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 17:8\">Ib. XVII, 8</cite> <he>נִיגְדִּין</he> ed. Lag. (ed. Wil. <he>נַגְרִין</he>; h. text <cite ref=\"J00152\"><he>יוּבַל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 31:3\">Targ. Ez. XXXI, 3</cite> (ed. Lag. <cite ref=\"N00144\"><he>נִיגְ׳</he></cite>; h. text <he>עֲבֹתִים</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

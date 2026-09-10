@@ -1,0 +1,47 @@
+{
+	"id": "Q02156",
+	"slug": "פתיא-2",
+	"headword": {
+		"text": "פַּתְיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1253,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. ",
+			"units": []
+		},
+		{
+			"gloss": " Part. f. of <cite ref=\"Q02152\"><he>פְּתֵי</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a wide earthen vessel, pot</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:15\">Gitt. 69ᵇ</cite> <he>פ׳ דמוניני</he> (masc.) a pot containing fish-brine. ",
+				"<cite ref=\"Avodah Zarah 16b:11\">Ab. Zar. 16ᵇ</cite>; <cite ref=\"Berakhot 50a:16\">Ber. 50ᵃ</cite>; <cite ref=\"Pesachim 88a:16\">Pes. 88ᵃ</cite>; <cite ref=\"Megillah 14b:13\">Meg. 14ᵇ</cite> <he>פ׳ אוּכְמָא</he> thou black pot! (i.e. scholar with an unattractive appearance; cmp. ",
+				"<cite ref=\"Taanit 7a\">Taan. 7ᵃ</cite>, quot. s. v. <cite ref=\"Q00024\"><he>פָּאַר</he></cite>).—Pl. <cite ref=\"Q02131\"><he>פַּתְוָותָא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 33b:8\">Ab. Zar. 33ᵇ</cite> <he>פ׳ דבי מיכסי</he> (Ar. ed. Koh. <cite ref=\"Q02164\"><he>פַּתְיָאתָא</he></cite>, oth. ed. <cite ref=\"Q02158\"><he>פתיותא</he></cite>, read: <cite ref=\"Q02163\"><he>פַּתְיָי׳</he></cite>) pots of Be Mikhsé."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>open place, street</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 8a:7\">B. Bath. 8ᵃ</cite>, v. <cite ref=\"K01154\"><he>כַּרְיָא</he> I</cite>; (Rashi refers to <he>פ׳</he> 2 <i>drinking vessel</i> at the well)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>enlargement</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 118:5\">Targ. Ps. CXVIII, 5</cite>, v. <cite ref=\"Q00416\"><he>פּוּתְיָא</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

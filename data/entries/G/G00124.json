@@ -1,0 +1,52 @@
+{
+	"id": "G00124",
+	"slug": "זוגא-1",
+	"headword": {
+		"text": "זוֹגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זוֹג"
+		},
+		{
+			"text": "זוּגָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 384,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"G00121\"><he>זוּג</he></cite><i>pair, couple, team, set</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 9:25\">Targ. II Kings IX, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 17:10\">Targ. Jud. XVII, 10</cite> <he>זוג לבושין</he> a set of garments; a. e.—בַּר זוֹג <i>match, wife</i>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 2:18\">Targ. Y. II, Gen. II, 18</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 43a:16\">Snh. 43ᵃ</cite> <he>מסרינן ליה ז׳ דרבנן</he> we give him two scholars (to escort him); <cite ref=\"Yoma 85b:5\">Yoma 85ᵇ</cite> (Ms. M. <cite ref=\"G00138\"><he>זָוָוא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 78ᵃ</cite> top <he>כל דמטי יחכום זוּגֵיה</he> whosoever has a chance shall select his partner (as if for a dance); a. fr.—Pl. <he>זוּגֵי</he>. ",
+				"<cite ref=\"Pesachim 110a:11\">Pes. 110ᵃ</cite> Ashm’dai … is appointed <he>אכולהו ז׳</he> overseer of all even numbers (of cups &c., which were believed to invite dangers); a. e.—",
+				"<cite ref=\"Ketubot 71a:12\">Keth. 71ᵃ</cite>, v. <cite ref=\"G00138\"><he>זָוָוא</he> I</cite>.—",
+				"<cite ref=\"Sotah 13b:19\">Sot. 13ᵇ</cite> <he>דיו ז׳</he>, v. <cite ref=\"D00509\"><he>דְּיוּזוּגֵי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. above <he>זוג לבושין</he>, a. <cite ref=\"G00131\"><he>זְוַד</he></cite>) <i>an outfit for travelling, travelling cloak</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 15:9\">Targ. Y. Lev. XV, 9</cite> (not <he>זונא</he>) garment for polster.—",
+				"<cite ref=\"Eruvin 100b:30\">Erub. 100ᵇ</cite> bot. <he>זביננא לך זיגא דמטו וכ׳</he> ed. (Ms. M. <he>זינא דמטיא</he>, v. Rabb. D. S. a. l. note) I shall buy thee garments reaching to thy feet.—Pl. as above. ",
+				"<cite ref=\"Bereishit Rabbah 92\">Gen. R. s. 92</cite> <he>לבש זוּגוֹי</he> put on his travelling equipments; <cite ref=\"Yalkut Shimoni on Torah 150:1\">Yalk. Gen. 150</cite> <cite ref=\"F00012\"><he>וגוהי</he></cite> read <he>זוּגוֹהִי</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>scissors</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 116a:4\">B. Mets. 116ᵃ</cite>, a. e., v. <cite ref=\"G00138\"><he>זָוָוא</he> I</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

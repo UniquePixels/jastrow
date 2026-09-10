@@ -1,0 +1,63 @@
+{
+	"id": "U01787",
+	"slug": "שפע-2",
+	"headword": {
+		"text": "שְׁפַע"
+	},
+	"page": {
+		"number": 1618,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01786\">same</cite><i>to flow, run, overflow</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 3:10\">Targ. Prov. III, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:16\">Ib. V, 16</cite>; a. e.—",
+				"<cite ref=\"Niddah 63a:69-70\">Nidd. 63ᵃ</cite> <he>שופעת הא שָׁפְעָה ואזלה</he> the Mishnah says, ‘she discharges;’ but does she not continue to discharge (how can this be a premonitory symptom)?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to slant, hang down</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 26:12\">Targ. Y. Ex. XXVI, 12</cite> (Levy quotes <he>תַּשְׁפַּע</he> <i>Af.</i>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁפַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to make slanting, let hang down</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to pour, give in abundance</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 27:1\">Lev. R. s. 27</cite> <he>אן דאת יהיב את מַשְׁפַּע</he> where thou givest, thou givest plentifully; <cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> <he>הן דיהבת אַשְׁפַּעַת</he> (not <cite ref=\"U01787\"><he>אשפע</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 727\">Yalk. Ps. 727</cite>; Tanḥ. Emor 6; Pesik. Shor, p. 74ᵃ <he>מַשְׁפִּיעַ</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["שַׁפַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to incline, make slanting, let hang down</i>. Part. pass. <he>מְשַׁפַּע</he>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 26:13\">Targ. Y. Ex. XXVI, 13</cite> (some ed. <he>מְשֻׁפַּע</he> Hebraism).—",
+						"<cite ref=\"Sotah 22b\">Sot. 22ᵇ</cite>, v. <cite ref=\"M00267\"><he>מְדוֹכְיָא</he></cite>. ",
+						"<cite ref=\"Bava Metzia 26a:5\">B. Mets. 26ᵃ</cite> <he>דמש׳ בחד גיסא</he> when the wall is slanting on one side."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

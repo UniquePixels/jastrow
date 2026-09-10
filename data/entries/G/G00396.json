@@ -1,0 +1,32 @@
+{
+	"id": "G00396",
+	"slug": "זיפא",
+	"headword": {
+		"text": "זַיְפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זֵי׳"
+		}
+	],
+	"page": {
+		"number": 395,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"G00395\">same</cite>, <i>eye-brow</i>. Pl. <he>זְיָפִין</he>, <cite ref=\"G00391\"><he>זֵי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 44a:13\">Bekh. 44ᵃ</cite> <he>דנפישי זֵיפֵיה</he> whose eye-brows are extremely large."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>graving tool, chisel</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:4\">Targ. O. Ex. XXXII, 4</cite> <cite ref=\"G00391\"><he>זֵי׳</he></cite> ed. Berl. (ed. Amst. <cite ref=\"G00396\"><he>זִיפָּא</he></cite>); [oth. opin. <i>shaggy mat, cloth</i>, v. <cite ref=\"U00571\"><he>שׁוֹשִׁיפָא</he></cite>] (h. text <he>חרט</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

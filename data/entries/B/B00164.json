@@ -1,0 +1,25 @@
+{
+	"id": "B00164",
+	"slug": "בהו-1",
+	"headword": {
+		"text": "בֹּהוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹהוּ"
+		}
+	],
+	"page": {
+		"number": 142,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"B00170\"><he>בהי</he></cite>)<i>chaotic condition;</i> always with <he>תהו</he>. ",
+			"units": ["<cite ref=\"Bereishit Rabbah 2\">Gen. R. s. 2</cite>; a. fr."]
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "U00720",
+	"slug": "שחרר",
+	"headword": {
+		"text": "שִׁחֲרֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1552,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>חָרַר</he> II) <i>to set free, emancipate</i>. Y. Yeb. VIII, 8ᵃ top <he>העושה עבדו … שִׁיחֲרָרוֹ מְשׁוֹחֲרָר</he> if a man mortgages his slave and then sells him, he is not sold; if he sets him free, he is free. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 4:4\">Gitt. IV, 4</cite> <he>עבד … ושחררו וכ׳</he> if a master mortgages his slave and sets him free …, we force the mortgagee to make him a freedman, but he (the slave) writes a note on his value; <cite ref=\"Mishnah Gittin 4:4\">ib.</cite> <he>אינו כותב אלא מְשַׁחֲרָרוֹ</he> none but him who set him free has to write the note of indebtedness. Ib. 40ᵇ <he>מי שחררו</he> which of them (the mortgager or the mortgagee) set him free? <cite ref=\"Berakhot 47b:16\">Ber. 47ᵇ</cite> <he>ש׳ עבדו וכ׳</he> declared his slave free and made him serve to complete the number of ten persons (required for prayers). ",
+				"<cite ref=\"Berakhot 47b:16\">Ib.</cite>, a. e. <he>כל המְשַׁחֲרֵר עבדו וכ׳</he> whoever sets his slave free, violates a positive command; a. fr.—Part. pass. <he>מְשׁוֹחֲרָר</he>; f. <he>מְשׁוֹחֲרָרָה</he>, <he>מְשׁוֹחֲרֶרֶת</he> &c. ",
+				"<cite ref=\"Mishnah Gittin 4:4\">Gitt. IV, 4</cite>; Y. Yeb. l. c., v. supra; a. fr.—Ib. VIII, 9ᶜ top (play on <he>שחרים</he>, <cite ref=\"I Chronicles 8:8\">I Chr. VIII, 8</cite>) <he>זה בועז שהיה מש׳ מן וכ׳</he> that is Boaz who was free from sins; <cite ref=\"Ruth Rabbah 3:7\">Ruth R. to I, 21</cite> (Par. 4); (Yalk. Chr. 1077 <he>שנשתחרר</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתַּחֲרֵר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּחֲרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be set free</i>. Yalk. l. c. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 3:1\">Keth. III, 1</cite> <he>שנִשְׁתַּחֲרָרוּ</he> who were set free. ",
+						"<cite ref=\"Gittin 43a:13-18\">Gitt. 43ᵃ</cite> <he>חציה … ונִשְׁתַּחֲרָרָה</he> a woman that is half a slave and half free, who was betrothed to R., and then was set entirely free &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

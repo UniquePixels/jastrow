@@ -1,0 +1,31 @@
+{
+	"id": "H01164",
+	"slug": "חמור-2",
+	"headword": {
+		"text": "חָמוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲמוּרָה"
+		}
+	],
+	"page": {
+		"number": 476,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָמַר</he> I) <i>heavy, weighty, important; strict, severe, stringent, restrictive</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 1:4\">Kel. I, 4</cite> <he>ח׳ שבכולם וכ׳</he> the most stringent of all are the laws concerning corpses.—<he>איסור ח׳</he>, v. <cite ref=\"A01405\"><he>אִיסּוּר</he></cite>.—",
+				"<cite ref=\"Sanhedrin 50a:8\">Snh. 50ᵃ</cite> <he>שריפה ח׳ וכ׳</he> death by burning is a severer punishment than &c. ",
+				"<cite ref=\"Mishnah Sanhedrin 9:4\">Ib. IX, 4</cite>, a. e. <he>נידון בח׳</he> he suffers the severer penalty of the two. ",
+				"<cite ref=\"Pirkei Avot 2:1\">Ab. II, 1</cite> <he>כבחמורה</he> as in the observance of a difficult commandment (requiring self-denial); a. fr.—Pl. <he>חֲמוּרִים</he>, <he>חֲמוּרִין</he>, f. <he>חֲמוּרוֹת</he>. ",
+				"<cite ref=\"Mishnah Chullin 12:5\">Ḥull. XII, 5</cite>; a. fr.—Y. Snh. X, 28ᵇ top <he>חֲמוּרוֹתָיו של וכ׳</he> (not <he>חומר׳</he>) the heaviest sins that Jeroboam committed.—<he>דורשי חֲמוּרוֹת</he>, v. <cite ref=\"H00391\"><he>חוֹמֶר</he> II</cite>. <he>קלים וחֲמוּרִים</he>, v. <cite ref=\"H00390\"><he>חוֹמֶר</he> I</cite>."
+			]
+		}
+	]
+}

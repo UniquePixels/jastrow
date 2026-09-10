@@ -1,0 +1,60 @@
+{
+	"id": "Q01223",
+	"slug": "פס-4",
+	"headword": {
+		"text": "פַּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּסָּא"
+		},
+		{
+			"text": "פִּסָּא"
+		},
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1191,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01222\">same</cite><i>strip, stripe</i>.—Pl. <cite ref=\"Q01326\"><he>פַּסֵּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:3\">Targ. O. Gen. XXXVII, 3</cite>; <cite ref=\"Onkelos Genesis 37:23\">23</cite> (ed. Berl. <cite ref=\"Q01270\"><he>פָּסֵי</he></cite>, <cite ref=\"Q01270\"><he>פַּסֵי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 13:18\">Targ. II Sam. XIII, 18</cite> (ed. Wil. <cite ref=\"Q01270\"><he>פַּסֵי</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " פ׳ ידא <i>palm</i>; <he>פס רגלא</he> <i>foot</i>, v. <cite ref=\"Q00772\"><he>פִּיסְּתָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>piece, portion; bread</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 43b:4\">Bekh. 43ᵇ</cite>, v. <cite ref=\"O01481\"><he>סְקִיפַס</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:22\">Lam. R. to III, 16</cite> Ar., v. <cite ref=\"Q00515\"><he>פְּטִילִיק</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:2:3\">Y. Ber. VI, 10ᵇ</cite> bot., v. <cite ref=\"Q00772\"><he>פִּיסְּתָא</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (from its shape, cmp. <cite ref=\"K00980\"><he>כַּף</he></cite>) <i>spade</i> or <i>shovel</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 24:3\">Lev. R. s. 24</cite>; s. 25 Ar., v. <cite ref=\"M01368\"><he>מַכּוֹשָׁא</he> II</cite>."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " <he>פ׳ דביר</he> (v. <cite ref=\"Q01222\">preced.</cite>) <i>watering station</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:3\">Targ. Y. I Deut. XXXIII, 3</cite> <he>ושריין כמין פ׳ דב׳</he> (not <he>דבַר</he>) and they rest as it were at a watering station; (Y. II <he>על פום דבירוי</he>)."
+			],
+			"label": "5"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "S01652",
+	"slug": "קסטלין",
+	"headword": {
+		"text": "קַסְטְלִין"
+	},
+	"page": {
+		"number": 1396,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (castellum, καστέλλιν S.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fort, castle</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:6\">Y. Ab. Zar. III, 42ᶜ</cite> <he>נפל ק׳ דטיבריא</he> (ed. Krot. <cite ref=\"S01659\"><he>קסיטולין</he></cite>, corr. acc.) the castle of Tiberias fell in (burying the idol placed therein)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>reservoir</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Mikvaot 4:6\">Tosef. Mikv. IV, 6</cite> <he>ק׳ המחליק מים וכ׳</he> a reservoir which distributes water (in pipes) in the cities."
+			],
+			"label": "2"
+		}
+	]
+}

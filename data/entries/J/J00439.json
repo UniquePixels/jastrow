@@ -1,0 +1,27 @@
+{
+	"id": "J00439",
+	"slug": "יניבא",
+	"headword": {
+		"text": "יָנִיבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָאנִיבָא"
+		}
+	],
+	"page": {
+		"number": 581,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"A02087\"><he>אִנְבָּא</he> II</cite>) name of <i>an insect in flax</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 85b:12\">Ḥull. 85ᵇ</cite> <he>נפל ליה י׳ בכיתניה</he> Ar. (ed. <he>יאנ׳</he>) the <i>yaniba</i> came into his flax crop. Ib. 28ᵃ <he>בעי</he> … <he>לי׳</he> Ar. (ed. <cite ref=\"J00440\"><he>יניכא</he></cite>, corr. acc.) he needs its blood for killing the flax worm."
+			]
+		}
+	]
+}

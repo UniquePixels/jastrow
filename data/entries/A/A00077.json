@@ -1,0 +1,39 @@
+{
+	"id": "A00077",
+	"slug": "אבוס",
+	"headword": {
+		"text": "אֵבוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵיבוּס"
+		},
+		{
+			"text": "?אִיבּוּס"
+		}
+	],
+	"page": {
+		"number": 4,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"A01133\"><he>אֵב׳</he></cite>; <cite ref=\"A00181\"><he>אבס</he></cite>)<i>feeding receptacle, bowl</i> for working men; <i>manger</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 4:4\">Ned. IV, 4</cite>.—",
+				"<cite ref=\"Shabbat 140b:23\">Sabb. 140ᵇ</cite> <he>אי׳ של כלי</he> (Rashi <cite ref=\"A01133\"><he>אב׳</he></cite>) a real manger, opp. <he>אי׳ של קרקע</he> a piece of ground fenced in and used as manger."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stall, stable</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shevuot 7:1:7\">Y. Shebu. VII, 37ᵈ</cite> top; VIII, beg. 38ᵇ. [Y. Ter. I, 40ᵇ <cite ref=\"A00077\"><he>אבוס</he></cite> read <cite ref=\"A01674\"><he>אִכּוּם</he></cite> or <cite ref=\"A01690\"><he>אָכִים</he></cite>.]—Pl. <he>אֵבוּסִים</he>. Y. Snh. 63ᵇ <he>אֵבוּסֵיהֶן</he> their stables. V. <cite ref=\"A01541\"><he>אֵיפוּס</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

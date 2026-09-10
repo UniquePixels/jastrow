@@ -1,0 +1,30 @@
+{
+	"id": "M01367",
+	"slug": "מכוש-3",
+	"headword": {
+		"text": "מַכּוֹשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַכּוֹשָׁא",
+			"homograph": 1
+		},
+		{
+			"text": "מַכּוֹשָׁה"
+		}
+	],
+	"page": {
+		"number": 782,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01366\">same</cite>, <i>hammer</i>; <i>knocker</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 24:3\">Lev. R. s. 24</cite> <he>מאן דהוה ליה מ׳</he> whoever has a hammer (or a <i>hoe</i>, v. <cite ref=\"M01368\">next w.</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> (ed. Wil. <cite ref=\"M01385\"><he>מַכִּישָׁה</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 77\">Yalk. ib. 77</cite> <cite ref=\"M01367\"><he>מכושה</he></cite>, v. <cite ref=\"K01333\"><he>כְּשַׁשׁ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:1:4\">Y. Meg. III, 73ᵈ</cite> bot., v. <cite ref=\"B00774\"><he>בַּכּוּשָׁא</he></cite>."
+			]
+		}
+	]
+}

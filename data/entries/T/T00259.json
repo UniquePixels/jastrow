@@ -1,0 +1,24 @@
+{
+	"id": "T00259",
+	"slug": "רדים",
+	"headword": {
+		"text": "רָדִים",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1452,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>רָדָה</he> I) <i>rammers, rollers</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41\">Gen. R. s. 41</cite>, end <he>מעבירין ר׳ עליהם</he> (some ed. <cite ref=\"T00253\"><he>רדיה</he></cite>, corr. acc.) they pass rollers over them; <cite ref=\"Bereishit Rabbah 41\">ib.</cite> s. 69 <cite ref=\"K01168\"><he>כָּרִים</he></cite> (v. <cite ref=\"K01071\"><he>כַּר</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 337:1\">Yalk. Is. 337</cite> <he>דדין</he>, read <he>רָדִין</he>."
+			]
+		}
+	]
+}

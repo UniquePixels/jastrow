@@ -1,0 +1,22 @@
+{
+	"id": "E00772",
+	"slug": "הפשר",
+	"headword": {
+		"text": "הֶפְשֵׁר"
+	},
+	"page": {
+		"number": 363,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02099\"><he>פָּשַׁר</he></cite>) <i>making tepid, warming</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 40b:8\">Sabb. 40ᵇ</cite> <he>הֶפְשֵׁרוֹ זהו בשולו</he> warming is to oil what cooking is to other liquids (a forbidden labor)."
+			]
+		}
+	]
+}

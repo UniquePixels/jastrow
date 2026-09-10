@@ -1,0 +1,28 @@
+{
+	"id": "O00470",
+	"slug": "סחרנותא",
+	"headword": {
+		"text": "סַחֲרָנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סָחְ׳"
+		}
+	],
+	"page": {
+		"number": 972,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00466\"><he>סְחַר</he></cite>) <i>surrounding</i>; constr. <cite ref=\"O00470\"><he>סַחֲרָנוּת</he></cite> (adv.) <i>in the neighborhood of, round about</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 7:24\">Targ. O. Ex. VII, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 32:22\">Targ. Ez. XXXII, 22</cite>, sq. (some ed. <he>סַחַרְתְּהוֹן</he>)."
+			]
+		}
+	]
+}

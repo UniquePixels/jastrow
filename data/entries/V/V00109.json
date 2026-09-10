@@ -1,0 +1,30 @@
+{
+	"id": "V00109",
+	"slug": "תדיר",
+	"headword": {
+		"text": "תָּדִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּדִירָה"
+		}
+	],
+	"page": {
+		"number": 1647,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00342\"><he>דּוּר</he></cite>) = <cite ref=\"V00672\"><he>תָּמִיד</he></cite>, <i>stationary, constant, regular</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 114a:6\">Pes. 114ᵃ</cite> <he>ברכת היין ת׳ … ת׳ ושאינו ת׳ ת׳ קודם</he> to say the blessing over wine is a constant duty, but the blessing over the day (festival) is not a constant (only a periodical) duty: where there is a constant duty and one not constant, the constant duty has the precedence; <cite ref=\"Tosefta Pesachim 10:3\">Tosef. ib. X, 3</cite>; <cite ref=\"Tosefta Berakhot 6:10\">Tosef. Ber. VI</cite> (<cite ref=\"Tosefta Berakhot 5:1\">V</cite>), 1; Y. ib. VIII, beg. 11ᵈ. ",
+				"<cite ref=\"Mishnah Zevachim 10:1\">Zeb. X, 1</cite> <he>כל הת׳ מחבירו וכ׳</he> that which is more constant than another thing has the precedence over the other thing: the daily offering precedes the Musaf, the Sabbath Musaf precedes that of the New Moon &c.; a. fr.—Pl. <he>תְּדִירִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:11:2\">Y. Taan. II, 65ᵈ</cite> bot. <he>שהם ת׳ בעבודה</he> because they are constantly on duty.—<cite ref=\"V00111\"><he>תְּדִירָה</he></cite> (adv.) <i>steadily</i>. ",
+				"<cite ref=\"Tosefta Ohalot 16:8\">Tosef. Ohol. XVI, 8</cite>; <cite ref=\"Tosefta Parah 4:4\">Tosef. Par. IV</cite> (<cite ref=\"Tosefta Parah 3:7\">III</cite>), 7, v. <cite ref=\"G00541\"><he>זָמַר</he> II</cite>."
+			]
+		}
+	]
+}

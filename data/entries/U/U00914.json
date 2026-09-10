@@ -1,0 +1,39 @@
+{
+	"id": "U00914",
+	"slug": "שיירתא",
+	"headword": {
+		"text": "שְׁיַירְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁיַירְתָּה"
+		},
+		{
+			"text": "שְׁיַרְ׳"
+		},
+		{
+			"text": "שְׁיָירָא"
+		},
+		{
+			"text": "שְׁיָרָא"
+		}
+	],
+	"page": {
+		"number": 1562,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", = h. <cite ref=\"U00911\"><he>שְׁיָירָה</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:25\">Targ. O. Gen. XXXVII, 25</cite> (ed. Berl. a. oth. <cite ref=\"U00914\"><he>שְׁיָרַת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 60:6\">Targ. Is. LX, 6</cite> (h. text <he>שפעת</he>).—",
+				"<cite ref=\"Jerusalem Talmud Beitzah 3:2:4\">Y. Bets. III, 62ᵃ</cite> top <he>שיירתה הוות עברה</he> a caravan passed by; <cite ref=\"Jerusalem Talmud Shabbat 1:7:4\">Y. Sabb. I, 4ᵃ</cite> bot. <he>שידתא הוות עבדה</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 4:2:3\">Y. Gitt. IV, beg. 45ᶜ</cite> <he>סלקית בשיירא</he> (not <he>לש׳</he>) I went up with a caravan (to Resh Laḳish’s place); a. e.—Pl. <cite ref=\"U00914\"><he>שְׁיָירָתָא</he></cite>, <cite ref=\"U00914\"><he>שְׁיָרָ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:13\">Targ. Is. XXI, 13</cite>.—",
+				"<cite ref=\"Bava Metzia 18b:4\">B. Mets. 18ᵇ</cite> <he>אע״ג דשכיחן ש׳</he> (not <he>דשכיחין</he>) although caravans frequently pass there. ",
+				"<cite ref=\"Bava Metzia 18b:5\">Ib.</cite> <he>שכיחא שיירות</he> (read with Ms. R. <he>שכיחן שיירתא</he>)."
+			]
+		}
+	]
+}

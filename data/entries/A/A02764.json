@@ -1,0 +1,31 @@
+{
+	"id": "A02764",
+	"slug": "אפסקימא",
+	"headword": {
+		"text": "אַפְסְקִימָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אפסיקמא"
+		},
+		{
+			"text": "אפסיקימא"
+		}
+	],
+	"page": {
+		"number": 106,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a corruption of σκίφινος) (<i>rope</i>) <i>twisted of palm-leaves</i>, (v. Löw Pfl. p. 118). ",
+			"units": [
+				"<cite ref=\"Eruvin 58a:7\">Erub. 58ᵃ</cite> ed. a. Ms. (Ar. <cite ref=\"A02778\"><he>אפקימא</he></cite>)."
+			]
+		}
+	]
+}

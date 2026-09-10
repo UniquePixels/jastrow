@@ -1,0 +1,31 @@
+{
+	"id": "U01068",
+	"slug": "שירות",
+	"headword": {
+		"text": "שֵׁירוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁרוּת"
+		}
+	],
+	"page": {
+		"number": 1569,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U02048\"><he>שָׁרַת</he></cite>) <i>service</i>, esp. <i>Temple service, function</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 11a:43\">Arakh. 11ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 18:7\">Deut. XVIII, 7</cite>) <he>איזהו ש׳ שבשם וכ׳</he> what service is there that is connected with the Name? It is song (attending the sacrifices). ",
+				"<cite ref=\"Deuteronomy 18:7\">Ib.</cite> (ref. to <cite ref=\"Deuteronomy 10:8\">Deut. X, 8</cite> <he>לשרתו ולברך</he>) <he>מכלל … לאו ש׳ היא</he> this implies that the priestly benediction is not called a service. ",
+				"<cite ref=\"Sotah 38a:8\">Sot. 38ᵃ</cite> (ref. to Deut. l. c.) <he>איתקש ברכה לש׳</he> the priestly benediction is made analogous to service (both must be performed standing). ",
+				"<cite ref=\"Zevachim 24a:9\">Zeb. 24ᵃ</cite>; <cite ref=\"Yoma 58a:8\">Yoma 58ᵃ</cite> the question is, <he>דרך ש׳ בכך וכ׳</he> may or may not a Temple function be performed in that manner? Y. Erub. V, beg. 22ᵇ <he>כל ש׳ ששרת וכ׳</he> every ministration which he performed before Eli was considered as a ministration before God. Yoma l. c. <he>שני כלים בש׳ אחד</he> Ms. Ms. 2 (ed. <he>וש׳ אחת</he>) there may be two vessels for one function. ",
+				"<cite ref=\"Menachot 109a:16\">Men. 109ᵃ</cite> <he>שחיטה לאו ש׳ וכ׳</he> slaughtering (a sacrifice) is no priestly function; a. fr."
+			]
+		}
+	]
+}

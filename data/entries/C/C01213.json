@@ -1,0 +1,43 @@
+{
+	"id": "C01213",
+	"slug": "גפר-1",
+	"headword": {
+		"text": "גָּפַר"
+	},
+	"page": {
+		"number": 263,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>גפף</he>) <i>to make thick, tighten</i>. Denom. <cite ref=\"C01215\"><he>גָּפְרִית</he></cite>; fr. which",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּיפֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to make water-tight</i>. Part. pass. <he>מְגוּפָּר</he>, f. <he>מְגוּפֶּרֶת</he> <i>water-tight</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 97b\">B. Bath. 97ᵇ</cite>; <cite ref=\"Tosefta Bava Batra 6:3\">Tosef. ib. VI, 3</cite> <he>מְגוּפָּרוֹת</he> (defective clay vessels) made tight by a lining of sulphur or pitch."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְגַּפֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be darkened through sulphur fumes</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 18a:5\">Sabb. 18ᵃ</cite>; Y. ib. I, 4ᵃ top; <cite ref=\"Tosefta Shabbat 1:23\">Tosef. ib. I, 23</cite> <he>מִתְגַּפְּרִין</he> they (the silver vessels) go through the process of sulphuring."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

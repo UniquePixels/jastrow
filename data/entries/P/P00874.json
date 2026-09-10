@@ -1,0 +1,28 @@
+{
+	"id": "P00874",
+	"slug": "עמוק",
+	"headword": {
+		"text": "עָמוֹק"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲמוּקָּה"
+		}
+	],
+	"page": {
+		"number": 1087,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"P00874\"><he>עָמֹק</he></cite>; <cite ref=\"P00917\"><he>עָמַק</he></cite>)<i>deep, low</i>; (of color) <i>light-shaded</i> (which in the perspective looks lower, while the darker shade appears to protrude). Sifra Thazr., <cite ref=\"Mishnah Negaim 1\">Neg., ch. I</cite> <he>מה לשון עמוק עמוקה כמראה החמה שהם עמוקים מן הצל</he> what does ‘deep’ (<cite ref=\"Leviticus 13:2\">Lev. XIII, 2</cite>, sq.) mean? A depression, like the sun-lit spots (in a painting &c.), which have the semblance of being deeper than the shaded spots (which appear to be raised); <cite ref=\"Chullin 63a:13\">Ḥull. 63ᵃ</cite> <he>כמראה חמה העמוקה מן הצל</he>; <cite ref=\"Tosefta Negaim 1:5\">Tosef. Neg. I, 5</cite> <he>מראה ע׳ שבהן כמראה חמה בצל</he> the lower shade among them is like the reflection of light on a shaded spot. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:6:5\">Y. Succ. III, 53ᵈ</cite> (expl. <he>אדמדם שבאדומים</he>) <he>זהורית ע׳</he> ‘low’ (light) crimson. ",
+				"<cite ref=\"Mishnah Menachot 5:8\">Men. V, 8</cite>, a. e. <he>מרחשת ע׳</he> <i>marḥesheth</i> is a deep pan, v. <cite ref=\"M00805\"><he>מַחֲבַת</he></cite>; a. fr.—Pl. <he>עֲמוּקִּים</he>, <he>עֲמוּקִּין</he>; <he>עֲמוּקּוֹת</he>. Sifra l. c.; a. e.—<cite ref=\"P00874\"><he>עֲמוּקָּה</he></cite> f. (as a noun) <i>depression</i>. Ib."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "C00671",
+	"slug": "גיות",
+	"headword": {
+		"text": "גַּיּוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּיּוּתָא"
+		}
+	],
+	"page": {
+		"number": 236,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"C00358\"><he>גּוֹי</he></cite>) <i>gentile status</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 11a:9\">Keth. 11ᵃ</cite> <he>בגַיּוּתָהּ</he> while she may live as a gentile (as she may protest against her conversion in childhood)."
+			]
+		}
+	]
+}

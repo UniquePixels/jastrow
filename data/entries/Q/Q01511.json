@@ -1,0 +1,58 @@
+{
+	"id": "Q01511",
+	"slug": "פקפק-1",
+	"headword": {
+		"text": "פִּקְפֵּק"
+	},
+	"page": {
+		"number": 1211,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"Q01514\"><he>פָּקַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to drive a wedge in; to loosen, shake</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 53\">Midr. Till. to Ps. LIII</cite>, v. infra. ",
+				"<cite ref=\"Mishnah Sukkah 1:7\">Succ. I, 7</cite> (<cite ref=\"Sukkah 15a:1\">15ᵃ</cite>) <he>מְפַקְפֵּק ונוטל וכ׳</he> he loosens (the boards of the ceiling) and takes one board out. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 15:2:3\">Y. Sabb. XV, beg. 15ᵃ</cite> <he>מְפַקְפְּקִין ומפקיעין וכ׳</he> (not <cite ref=\"B00198\"><he>בו</he></cite>) you may loosen the knot, or ravel it out, or untie &c., v. <cite ref=\"Q01502\"><he>פָּקַע</he></cite>; <he>מפקפקין ולא מפקיעין</he> you may loosen the knot, but not ravel it out; ib. XX, end, 17ᵈ; <cite ref=\"Jerusalem Talmud Megillah 1:6:3\">Y. Meg. I, 71ᵃ</cite>; <cite ref=\"Jerusalem Talmud Beitzah 5:2:14\">Y. Bets. V, 63ᵇ</cite> top (not <he>פקפקין</he>).—Part. pass. <he>מְפוּקְפָּק</he>; f. <he>מְפוּקְפֶּקֶת</he>; pl. <he>מְפוּקְפָּקִים</he>, <he>מְפוּקְפָּקִין</he>; <he>מְפוּקְפָּקוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite> <he>היו הברכות מפ׳ וכ׳</he> the blessings were as yet shaky (uncertain) in his hands, opp. <he>נתאוששו</he>, v. <cite ref=\"A00915\"><he>אוּשׁ</he></cite>; <cite ref=\"Bereishit Rabbah 78\">ib.</cite> s. 67.—Trnsf. [<i>to shake the foundations of</i>,] <i>to contest the validity of, make light of</i>. ",
+				"<cite ref=\"Mishnah Eduyot 5:6\">Eduy. V, 6</cite> <he>פ׳ בטהרת ידים</he> he contested the rabbinical regulations concerning cleanness of hands; <cite ref=\"Berakhot 19a\">Ber. 19ᵃ</cite>. ",
+				"<cite ref=\"Avodah Zarah 35a:8\">Ab. Zar. 35ᵃ</cite> <he>גזירה … ואין מְפַקְפְּקִין בה</he> it is a recent enactment, and you must not shake it (discuss its reason before a year is past); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"Q00596\"><he>פיו</he></cite>, or <he>דבר</he>) <i>to insert a wedge or coil in one’s mouth, be gagged, estopped from speaking</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 53\">Midr. Till. to Ps. LIII</cite> (ref. to <cite ref=\"Q00318\"><he>פוקה</he></cite>, <cite ref=\"I Samuel 25:31\">I Sam. XXV, 31</cite>) [read as in ed. Bub.] <he>אם הן באין אצלך לדין מה אתה עושה ואתה מְפַקְפֵּק בדבר ואין אתה יכול להוציאו וכ׳</he> if men will come to thee for judgment, what wilt thou do? Thou wilt gag (thy mouth) with a word and be unable to bring it out, when they will say, has he not done so unto Nabal? Thus the text (I Sam. l. c.) reads, ‘and let this not be unto thee a stopper’, <he>אל תְּפַקְפֵּק בפיך וכ׳</he> do not put a gag in thy mouth (do not make thyself unable to give judgment boldly), nor say &c.; <cite ref=\"Yalkut Shimoni on Nach 134\">Yalk. Sam. 134</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְפַּקְפֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken, loosened</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 28b\">Ber. 28ᵇ</cite> man must bow at prayer <he>עד שיִתְפַּקְפְּקוּ כל וכ׳</he> Ms. M. a. Ar. (ed. <he>שיִתְפַּקְּקוּ</he>, v. R. D. S. a. l. note 400) until all the vertebrae of the spine seem to be loosened."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"Q01514\"><he>פָּקַק</he></cite>) <i>to be stopped off</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 63b:4\">Yeb. 63ᵇ</cite> <he>עונותיו מִתְפַּקְפְּקִין</he> Ar. (ed. <he>מִתְפַּקְּקִין</he>) his sins are stopped off (cannot come forth to accuse him)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

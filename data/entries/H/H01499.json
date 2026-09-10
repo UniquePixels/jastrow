@@ -1,0 +1,23 @@
+{
+	"id": "H01499",
+	"slug": "חצד-3",
+	"headword": {
+		"text": "חֲצַד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 494,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01498\">preced.</cite>) <i>cutter</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 129:7\">Targ. Ps. CXXIX, 7</cite>; v. <cite ref=\"H01510\"><he>חָצוֹדָא</he></cite>."
+			]
+		}
+	]
+}

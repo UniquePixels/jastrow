@@ -1,0 +1,23 @@
+{
+	"id": "D00012",
+	"slug": "דאה-2",
+	"headword": {
+		"text": "דָּאָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 275,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"D00494\"><he>דַּיָּה</he></cite>) <i>Daah</i>, name of an unclean bird. ",
+			"units": [
+				"<cite ref=\"Chullin 63b:7\">Ḥull. 63ᵇ</cite> <he>ד׳ וראה וכ׳</he> Daah and Raah and Ayyah and Dayyah are the same genus; <cite ref=\"Sifrei Devarim 103\">Sifré Deut. 103</cite>."
+			]
+		}
+	]
+}

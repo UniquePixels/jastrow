@@ -1,0 +1,28 @@
+{
+	"id": "O00308",
+	"slug": "סוכר",
+	"headword": {
+		"text": "סוֹכֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵין סוֹכֵר"
+		}
+	],
+	"page": {
+		"number": 964,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>ʽEn Sokher</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 49b:10\">Sot. 49ᵇ</cite> <he>בקעת ע׳ ס׳</he> the valley of ʽE. S.—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:9\">Y. Shek. V, 48ᵈ</cite>; <cite ref=\"Menachot 64b:9\">Men. 64ᵇ</cite>, v. <cite ref=\"O00309\">next w.</cite>"
+			]
+		}
+	]
+}

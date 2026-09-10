@@ -1,0 +1,23 @@
+{
+	"id": "K00107",
+	"slug": "כד׳-כדבובא",
+	"headword": {
+		"text": "כִּדְ׳ כַּדְבוּבָא"
+	},
+	"page": {
+		"number": 612,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00106\">preced.</cite>) <i>falsehood, lie; fiction</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 16:8\">Targ. Job XVI, 8</cite>.—Pl. <he>כַּדְבוּבִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 11:3\">Ib. XI, 3</cite>."
+			]
+		}
+	]
+}

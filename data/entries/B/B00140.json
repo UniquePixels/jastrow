@@ -1,0 +1,23 @@
+{
+	"id": "B00140",
+	"slug": "בדיניי",
+	"headword": {
+		"text": "בְּדַיְנֵיי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 140,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>בי דייני</he>) prop. <i>court-house</i>, in gen. <i>government’s building, public building, treasury</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56a\">Ber. 56ᵃ</cite> <he>ב׳ דמלכא וכ׳</he> ed. (Mss. <cite ref=\"B00442\"><he>בֵּי זְיוּנָא</he></cite>, <cite ref=\"B00442\"><he>בִּזְיוּנָא</he></cite> q. v.) the king’s treasury shall be broken into. [Perl. Et. St. p. 25 refers to Pers. <i>divân</i> which, however, seems of too late an origin for the Talmudic date, v. Cycl. Brit. 9<sup>ᵗʰ</sup> ed. s. v. Divan.]"
+			]
+		}
+	]
+}

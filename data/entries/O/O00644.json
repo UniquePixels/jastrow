@@ -1,0 +1,48 @@
+{
+	"id": "O00644",
+	"slug": "סיכוך",
+	"headword": {
+		"text": "סִיכּוּךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִכּ׳"
+		}
+	],
+	"page": {
+		"number": 979,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00903\"><he>סָכַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>interlacing, training a creeper so as to be intertwined with another plant</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 1:6\">Tosef. Kil. I, 6</cite> <he>אסורה בס׳ וכ׳</he> (Var. <he>לסַכֵּךְ</he>) must not be trained over vegetables; Y. ib. II, end, 28ᵇ <he>ס׳ שאמרו בנוגע</he> (not <cite ref=\"O00533\"><he>סיבוך</he></cite>) the training spoken of (as forbidden) means real contact."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the branches or reeds used for covering the festive booth</i> (<cite ref=\"O00300\"><he>סוּכָּה</he></cite>); <i>thatch-roof</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 1:9\">Succ. I, 9</cite> <he>הרחיק את הס׳ וכ׳</he> if he left a space of three handbreadths between the covering and the walls. ",
+				"<cite ref=\"Mishnah Sukkah 1:11\">Ib. 11</cite> <he>לס׳</he> if the reed-mat was intended for covering the Succah. Ib. 4 <he>ואם היה ס׳ וכ׳</he> but if the covering (fit for the Succah) is larger in quantity than they (the vines trained over the Succah); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>hedging in</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41\">Gen. R. s. 41</cite>; <cite ref=\"Bamidbar Rabbah 3\">Num. R. s. 3</cite>, beg. <he>חריות לס׳</he> the dry twigs of the palm-tree are useful for hedges (about garden beds; cmp. ",
+				"<cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite>, quot. s. v. <cite ref=\"O00552\"><he>סִיגָא</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

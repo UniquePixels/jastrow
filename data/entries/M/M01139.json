@@ -1,0 +1,41 @@
+{
+	"id": "M01139",
+	"slug": "מיין",
+	"headword": {
+		"text": "מַיִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַיָא"
+		},
+		{
+			"text": "מַיָיא"
+		},
+		{
+			"text": "מַיּ׳"
+		}
+	],
+	"page": {
+		"number": 772,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. ch. = h.<cite ref=\"M01199\"><he>מַיִם</he></cite> , <i>water</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 26:19\">Targ. O. Gen. XXVI, 19</cite> (Y. <cite ref=\"M00469\"><he>מוֹי</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 1:2\">Targ. Gen. I, 2</cite>; a. fr.—Constr. <cite ref=\"M01072\"><he>מֵי</he></cite>, <cite ref=\"M01202\"><he>מֵימֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 15:19\">Targ. O. Ex. XV, 19</cite>. ",
+				"<cite ref=\"Onkelos Exodus 7:19\">Ib. VII, 19</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Deuteronomy 29:10\">Targ. O. Deut. XXIX, 10</cite> <cite ref=\"M01339\"><he>מָךְ</he></cite> ed. Berl. (Var. <he>מֵימָךְ</he>, <he>מַיָיךְ</he>, v. Berl. Targ. O. II, p. 58) thy water.—",
+				"<cite ref=\"Chullin 105b:5\">Ḥull. 105ᵇ</cite> <he>מיא בתראי</he>, v. <cite ref=\"B01393\"><he>בַּתְרָאָה</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 70:1\">Gen. R. s. 70</cite> <he>אוסיפתא מ׳ וכ׳</he> having added water, you must add flour, i.e. having added to my objections, you are so much the more bound to find a solution. ",
+				"<cite ref=\"Chullin 97b:15\">Ḥull. 97ᵇ</cite> <he>מ׳ דביעי</he> water in which eggs have been boiled; a. v. fr."
+			]
+		}
+	]
+}

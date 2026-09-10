@@ -1,0 +1,23 @@
+{
+	"id": "V00363",
+	"slug": "תחים",
+	"headword": {
+		"text": "תַּחִים"
+	},
+	"page": {
+		"number": 1661,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (?) <i>taḥim</i>, name of an affection of the abdomen brought on through sorcery. ",
+			"units": [
+				"<cite ref=\"Berakhot 62a:22\">Ber. 62ᵃ</cite> (in an incantation) <he>לא לי לא לי לא ת׳ ולא תחתים וכ׳</he> not on me, not on me, no <i>taḥim</i> and no <i>taḥtim</i> &c."
+			]
+		}
+	]
+}

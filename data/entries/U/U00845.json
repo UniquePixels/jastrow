@@ -1,0 +1,32 @@
+{
+	"id": "U00845",
+	"slug": "שיזבו",
+	"headword": {
+		"text": "שֵׁיזָבוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁיזָבוּתָא"
+		},
+		{
+			"text": "שֵׁזָ׳"
+		}
+	],
+	"page": {
+		"number": 1559,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"U00844\">same</cite>, <i>safety, refuge</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 142:5\">Targ. Ps. CXLII, 5</cite> (ed. Wil. <cite ref=\"U00598\"><he>שְׁזִיבוּ</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 32:7\">Ib. XXXII, 7</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 14:12\">Targ. II Chr. XIV, 12</cite>; a. fr."
+			]
+		}
+	]
+}

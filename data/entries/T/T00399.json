@@ -1,0 +1,27 @@
+{
+	"id": "T00399",
+	"slug": "רומקי-1",
+	"headword": {
+		"text": "רוּמְקִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרַךְ רוּמְקִי"
+		}
+	],
+	"page": {
+		"number": 1461,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Fort</i> (<i>of the</i>) <i>Rumḳi</i>, in Media. ",
+			"units": [
+				"<cite ref=\"Kiddushin 72a\">Kidd. 72ᵃ</cite>; <cite ref=\"Yevamot 17a\">Yeb. 17ᵃ</cite> <he>דומקי</he>, <cite ref=\"D00291\"><he>דומקיא</he></cite> (Neub. Géogr., p. 378 quotes also <he>רותקי</he>), v. <cite ref=\"N00253\"><he>נַהֲוַונְדְּ</he></cite>."
+			]
+		}
+	]
+}

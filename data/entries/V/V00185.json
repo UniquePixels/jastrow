@@ -1,0 +1,24 @@
+{
+	"id": "V00185",
+	"slug": "תוחלנא",
+	"headword": {
+		"text": "תּוּחְלָנָא"
+	},
+	"page": {
+		"number": 1652,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00184\">preced.</cite>) <i>beginning to ripen, half-ripe</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 15b\">Ḥag. 15ᵇ</cite>, v. preced.—Pl. <cite ref=\"V00185\"><he>תּוּחְלָנֵי</he></cite>. ",
+				"<cite ref=\"Moed Katan 10b:11\">M. Kat. 10ᵇ</cite> <he>תמרי ת׳</he> (Ms. M. <he>תוחלי</he>) unripe dates. ",
+				"<cite ref=\"Bava Metzia 89a:8\">B. Mets. 89ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 938\">Yalk. Deut. 938</cite>."
+			]
+		}
+	]
+}

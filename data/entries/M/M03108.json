@@ -1,0 +1,29 @@
+{
+	"id": "M03108",
+	"slug": "מתרכא",
+	"headword": {
+		"text": "מְתַרְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְתָ׳"
+		}
+	],
+	"page": {
+		"number": 865,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V01007\"><he>תְּרַךְ</he></cite>) = h. <cite ref=\"C01315\"><he>גְּרוּשָׁה</he></cite>, <i>divorced woman</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:14\">Targ. O. Lev. XXI, 14</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 22:13\">Ib. XXII, 13</cite> (Y. <cite ref=\"M01337\"><he>מִיתַּרְכָא</he></cite>, not <cite ref=\"M01324\"><he>מִיתַ׳</he></cite>). ",
+				"<cite ref=\"Onkelos Numbers 30:10\">Targ. O. Num. XXX, 10</cite> (Y. <cite ref=\"M01327\"><he>מִתַּ׳</he></cite>); a. e."
+			]
+		}
+	]
+}

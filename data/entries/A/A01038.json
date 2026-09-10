@@ -1,0 +1,23 @@
+{
+	"id": "A01038",
+	"slug": "אחמיתא",
+	"headword": {
+		"text": "אַחְמִיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 40,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. h. <cite ref=\"H01236\"><he>חֵמֶת</he></cite>) <i>pot, closed vessel</i>. Pl. <he>אַחְמִיתִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:4\">Targ. Esth. I, 4</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"id": "N01120",
+	"slug": "נצי-2",
+	"headword": {
+		"text": "נְצֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְצָא"
+		}
+	],
+	"page": {
+		"number": 928,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01119\">same</cite><i>to be pressed; to shrink, be lean</i>, v. <cite ref=\"N01094\"><he>נָצָא</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to wrangle</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 26:20\">Targ. Gen. XXVI, 20</cite>, sq.; a. fr.—Part. <cite ref=\"N01120\"><he>נָצֵי</he></cite>, <he>נָאצֵי</he>; f. <cite ref=\"N01121\"><he>נַצְיָא</he></cite>; pl. <cite ref=\"R00635\"><he>נָצָן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:17\">Targ. Prov. XXVI, 17</cite> <he>נא׳</he> ed. Lag. (ed. Wil. <cite ref=\"N01120\"><he>נְצֵי</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 27:15\">Ib. XXVII, 15</cite>. ",
+				"<cite ref=\"Onkelos Exodus 2:13\">Targ. Ex. II, 13</cite>; a. e.—",
+				"<cite ref=\"Moed Katan 16a:10\">M. Kat. 16ᵃ</cite> <he>דנְצִינָן וכ׳</he> that we (the court) must contend (with persons disregarding legal summonses) and curse &c."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְנַצֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְנְצֵי", "אִינְּ׳"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01119\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 24:10\">Targ. O. Lev. XXIV, 10</cite>. ",
+						"<cite ref=\"Onkelos Genesis 45:24\">Targ. Gen. XLV, 24</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 84b:10\">B. Mets. 84ᵇ</cite> <he>הוה קא מִינַּצְיָא וכ׳</he> his wife was quarrelling with &c. ",
+						"<cite ref=\"Kiddushin 76a:10\">Kidd. 76ᵃ</cite> <he>נשי דכי מִינְּצוּ בהדי הדדי בעריות הוא דמִינְּצוּ</he> when women quarrel with one another, they will eventually reproach one another with unchaste conduct; <he>גברי … ביוחסין הוא דמינצו</he> when men quarrel, they will reproach each other with spurious descent (if there is any rumor about it). Ib.ᵇ. <he>כיון דמִנְּצוּ בהדי אינשי</he> (or <he>דמְנַצּוּ</he> <i>Pa.</i>) because they (charity collectors) expose themselves to reproaches. Ib. <he>והוה קא מִנְּצֵי איהו וכ׳</he> (or <he>מְנַצֵּי</he>) he and Rab Bibi strove with each other, one saying, I want the town office &c. ",
+						"<cite ref=\"Megillah 24a:14\">Meg. 24ᵃ</cite> <he>משום דאתי לאִינַּצּוּיֵי</he> because it may come to quarrels between them. ",
+						"<cite ref=\"Megillah 24b\">Ib. 24ᵇ</cite> <he>אינצי אביו ומינצי רבו</he> Ms. M. (ed. <cite ref=\"N00748\"><he>נִיצּוּיֵי</he></cite>) his father may take up the quarrel for him, or his teacher. ",
+						"<cite ref=\"Bava Kamma 117a:17\">B. Kam. 117ᵃ</cite> <he>מנצו</he>, v. <cite ref=\"U00581\"><he>שׁוּתָא</he> III</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["נַצֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01119\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 3:7\">Targ. Koh. III, 7</cite>; a. e.—",
+						"<cite ref=\"Megillah 24a:16\">Meg. 24ᵃ</cite> <he>קטן בר נַצּוּיֵי הוא</he> will a minor quarrel (about precedence)? <cite ref=\"Berakhot 56a\">Ber. 56ᵃ</cite> <he>מְנַצּוּ</he> (Beth N. <he>מִינְּצֵי</he>); a. e. (v. supra)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

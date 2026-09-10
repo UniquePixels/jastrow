@@ -1,0 +1,55 @@
+{
+	"id": "K01181",
+	"slug": "כריתה",
+	"headword": {
+		"text": "כְּרִיתָה"
+	},
+	"page": {
+		"number": 667,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01280\"><he>כָּרַת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cutting of genitals, mutilation</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 75b:9\">Yeb. 75ᵇ</cite>, v. <cite ref=\"U01764\"><he>שָׁפַךְ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>divorce by means of a deed</i> <he>(סֵפֶר כְּרִיתוּת</he>). ",
+			"units": [
+				"<cite ref=\"Gittin 10b:14\">Gitt. 10ᵇ</cite> <he>והא לאו בני כ׳ נינהו</he> but they (the gentiles) are not subject to the Jewish mode of divorce (how, then, can they act as judges in divorce cases)?"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (sub. <he>ברית</he>) <i>the making of a covenant</i>.—Pl. <cite ref=\"K01182\"><he>כְּרִיתוֹת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 8:10\">Tosef. Sot. VIII, 10</cite>; <cite ref=\"Tosefta Sotah 8:11\">11</cite> ed. Zuck., v. <cite ref=\"B01282\"><he>בְּרִית</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " = <cite ref=\"K01282\"><he>כָּרֵת</he></cite> <i>excision</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:15\">Macc. III, 15</cite>, v. <cite ref=\"K01282\"><he>כָּרֵת</he></cite>.—Pl. <cite ref=\"K01182\"><he>כְּרִיתוֹת</he></cite>, v. <cite ref=\"K01282\"><he>כָּרֵת</he></cite>."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>decision</i>. Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 3:9\">Midr. Till. to Ps. III</cite> (ref. to <he>כרתי</he>, <cite ref=\"II Samuel 15:18\">II Sam. XV, 18</cite>) <he>כורתי כ׳</he> (ed. Bub. <he>בריתות</he>) those who pass (final) decisions."
+			],
+			"label": "5"
+		}
+	]
+}

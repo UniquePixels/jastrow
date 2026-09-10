@@ -1,0 +1,33 @@
+{
+	"id": "V00511",
+	"slug": "תירייקא",
+	"headword": {
+		"text": "תִּירְיָיקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּירְיָיקִי"
+		},
+		{
+			"text": "תִּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1667,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (θηριακή, theriaca) <i>theriak</i>, a certain compound believed to be an <i>antidote</i> against poisonous bites; in general <i>a remedy, medicine</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite> (v. Rabb. D. S. a. l. note 1), v. <cite ref=\"K00831\"><he>כַּנְגַּד</he></cite>. ",
+				"<cite ref=\"Nedarim 41b:1\">Ned. 41ᵇ</cite> <he>כי תירייקי לגופא</he> (Ar. <he>קא …</he>) as wholesome as theriac for the body. ",
+				"<cite ref=\"Nedarim 41b:1\">Ib.</cite> <he>לא היא ולא תִירְיָיקָהּ</he> I want neither it (the fever) nor its alleged good effect. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:5\">Cant. R. to IV, 5</cite> [read:] <he>שלחו הרופאים והביאו מדמיהן ועשו אותן תִּרְיָאקָה ובה וכ׳</he> the physicians sent (to Alexandria) and got some of their blood (of menstruation) and made a theriak of it, and with it they healed &c.—[<cite ref=\"Mishnah Avodah Zarah 2:4\">Ab. Zar. II, 4</cite> <he>ותירייקי</he> Y. ed., v. <cite ref=\"F00107\"><he>וְתִינְיָיקִי</he></cite>.]"
+			]
+		}
+	]
+}

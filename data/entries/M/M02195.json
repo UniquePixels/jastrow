@@ -1,0 +1,42 @@
+{
+	"id": "M02195",
+	"slug": "מפה",
+	"headword": {
+		"text": "מַפָּה"
+	},
+	"page": {
+		"number": 820,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01036\"><he>נָפָּה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>flag</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 2:7-8\">Num. R. s. 2</cite> <he>לכל נשיא ונשיא מ׳ וצבע</he> for each prince a flag of a different color. ",
+				"<cite ref=\"Bamidbar Rabbah 2:7\">Ib.</cite> <he>צבע מ׳</he> the color of the flag; a. fr.—[Pl. <he>מַפּוֹת</he>. Mekh. B’shall. s. 2, v. <cite ref=\"M01805\"><he>מְנָפָה</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Lat. mappa, of Punic origin) <i>napkin, towel</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 8:3\">Ber. VIII, 3</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>bandage</i> around a scroll. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:12\">Y. Meg. I, 71ᵈ</cite>; <cite ref=\"Jerusalem Talmud Eruvin 10:3:3\">Y. Erub. X, 26ᵇ</cite> top <he>ספר שאין עליו מ׳</he> a scroll which is not bandaged (so that the writing is partly exposed)."
+			],
+			"label": "3"
+		}
+	]
+}

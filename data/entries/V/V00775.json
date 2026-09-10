@@ -1,0 +1,23 @@
+{
+	"id": "V00775",
+	"slug": "תעבור",
+	"headword": {
+		"text": "תַּעֲבוֹר"
+	},
+	"page": {
+		"number": 1683,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P00059\"><he>עָבַר</he></cite> <i>Hithpa.</i>) = h. <cite ref=\"P00070\"><he>עֶבְרָה</he></cite>, <i>anger</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 9:18\">Targ. Is. IX, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 13:9\">Ib. XIII, 9</cite>."
+			]
+		}
+	]
+}

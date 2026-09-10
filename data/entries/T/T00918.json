@@ -1,0 +1,36 @@
+{
+	"id": "T00918",
+	"slug": "רעץ-2",
+	"headword": {
+		"text": "רְעַץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְעֵיץ"
+		}
+	],
+	"page": {
+		"number": 1488,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00917\">same</cite> <cite ref=\"Targum Jonathan on Judges 9:53\">Targ. Jud. IX, 53</cite> Levita (ed. <he>רָעַת</he>, v. <cite ref=\"T00915\"><he>רְעַע</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִירְעַץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken</i>; trnsf. <i>to be broken in, tamed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 19:2\">Targ. Y. Num. XIX, 2</cite> <he>לא אִירְעֲצָא בזקתא</he> not broken in with the goad; [prob. to be read: <he>אִירְצְעָא</he>, v. <cite ref=\"T00992\"><he>רְצַע</he></cite>]."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "P00892",
+	"slug": "עמיר",
+	"headword": {
+		"text": "עָמִיר"
+	},
+	"page": {
+		"number": 1088,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00927\"><he>עָמַר</he></cite>)<i>tuft, spike</i>, esp. <i>ear of grain</i>; (mostly collective) <i>sheaves</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:4\">Sabb. VII, 4</cite> <he>המוציא … ע׳ וכ׳</he> he who carries out ears (fit for fodder) as much as a lamb’s mouthful. ",
+				"<cite ref=\"Tosefta Demai 1:17\">Tosef. Dem. I, 17</cite>. Sifra K’doshim, Par. 1, ch. III leave for the poor <he>תלתן בע׳</he> fenugrec in the spikes; Y. Peah IV, beg. 18ᵃ. ",
+				"<cite ref=\"Tosefta Shevi'it 2:13\">Tosef. Shebi. II, 13</cite> <he>פול המצרי שזרעו לע׳</he> Egyptian beans which one planted for the sake of the spikes (as fodder). ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 5:1:3\">Y. B. Bath. V, beg. 15ᵃ</cite> <he>בשזרעו לע׳</he> (not <he>משזרען</he>) when he planted the fenugrec for the spikes, opp. <he>לזרע</he>. ",
+				"<cite ref=\"Tosefta Sukkah 1:4\">Tosef. Succ. I, 4</cite>, v. <cite ref=\"Q01488\"><he>פְּקִיעַ</he> I</cite>; a. fr."
+			]
+		}
+	]
+}

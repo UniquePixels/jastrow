@@ -1,0 +1,33 @@
+{
+	"id": "C00576",
+	"slug": "גזר-4",
+	"headword": {
+		"text": "גֶּזֶר"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֶּיזֶר"
+		},
+		{
+			"text": "גָּזִיר"
+		}
+	],
+	"page": {
+		"number": 232,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גזר</he>) <i>piece</i> (of wood), <i>log, club</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:5:4\">Y. Shebi. IX, 39ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Shekalim 6:4:3\">Y. Shek. VI, end, 50ᵇ</cite> <he>מביא גי׳ אחד</he> he may offer one log; (Bab. ed. Var. <he>גזיר</he>).—Pl. <he>גְּזָרִין</he>, <he>גִּיזְרִין</he>, <he>גְּזִירִין</he>. ",
+				"<cite ref=\"Mishnah Tamid 2:3\">Tam. II, 3</cite>. ",
+				"<cite ref=\"Mishnah Yoma 2:5\">Yoma II, 5</cite> <he>גְּזִירֵי עצים</he>; Y. Shebi. l. c.; Y. Shek. l. c. <he>גיזירי</he> (corr. acc.); Bab. ed. <he>גזרי</he>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 1:6\">Tosef. Kel. B. Kam. I, 6</cite> <he>פצעין את מוחו בגזי׳</he> they split his scull with clubs; <cite ref=\"Mishnah Sanhedrin 9:6\">Snh. IX, 6</cite> <he>בגזי׳</he> Mish.; <cite ref=\"Sanhedrin 82b:13\">ib. 82ᵇ</cite> <he>בגיז׳</he>; <cite ref=\"Taanit 18b:10\">Taan. 18ᵇ</cite> <he>בגיז׳</he>; (Sifra Emor Par. 8, ch. IX <he>בבקעיות</he>, v. <cite ref=\"B01133\"><he>בְּקַעַת</he></cite>); <cite ref=\"Kohelet Rabbah 3:17\">Koh. R. to III, 17</cite> <he>בגזי׳</he>; a. e."
+			]
+		}
+	]
+}

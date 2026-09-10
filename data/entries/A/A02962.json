@@ -1,0 +1,40 @@
+{
+	"id": "A02962",
+	"slug": "ארבל-2",
+	"headword": {
+		"text": "אַרְבֵּל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְבַל"
+		}
+	],
+	"page": {
+		"number": 114,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denomin. of <cite ref=\"A02963\">next w.</cite>, v. <cite ref=\"P01285\"><he>עַרְבֵּל</he></cite>) <i>to sift, shake</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 26b:8\">B. Mets. 26ᵇ</cite> <he>דאייתי ארבלא ומְאַרְבֵּל</he> Ar. (Ms. R. 2 <he>מארביל</he>, ed. <he>וקא מַרְבֵּל</he> = <he>מארבל</he>) that he brought a sieve and sifted the sand. ",
+				"<cite ref=\"Sanhedrin 39a\">Snh. 39ᵃ</cite> <he>וקמרבלינהו</he> Ms. M. (ed. Sonc. <he>וקא מא׳ להו</he>, oth. ed. <he>מהדר להו</he>) and shook them."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִירְבֵּל"],
+			"senses": [
+				{
+					"gloss": " (= <he>איתארבל</he>) <i>to be shaken</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 49a:4\">Ḥull. 49ᵃ</cite> <he>מירבל הוא דרְבִיל</he> it was shaken down (by the movements of the animal). [Targ. <cite ref=\"P01285\"><he>עַרְבֵּל</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

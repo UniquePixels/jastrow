@@ -1,0 +1,41 @@
+{
+	"id": "A02537",
+	"slug": "אסקופה",
+	"headword": {
+		"text": "אִסְקוּפָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 97,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01493\"><he>סקף</he></cite>, cmp. b. h. <cite ref=\"M02962\"><he>מַשְׁקוֹף</he></cite> a. <he>זקף</he>) <i>cross-piece</i>; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>yard</i> of a ship. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 4:1\">Tosef. B. Bath. IV, 1</cite> ed. Zuck. (Var. <cite ref=\"A01202\"><he>אִיזְקָפָה</he></cite>); Y. ib. V, beg. 15ᵃ in selling a vessel one has not implicitly sold <he>את הא׳</he> the yard (because it is taken down when on land; v. Sm. Ant. s. v. Antenna). ",
+				"<cite ref=\"Midrash Tehillim 103:4\">Midr. Till. to Ps. CIII</cite> (the embryo in the womb) <he>כאדם שנתון באסקופת וכ׳</he> (some ed. <he>בספינה</he>, read <he>באִסְקוּפַת הספינה</he>) like a person seated on the yard on open Sea."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lintel, threshold</i>, gen. <i>lower door-sill</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 6a:2\">Sabb. 6ᵃ</cite>; a. fr.; cmp. Y. Ber. V, 37ᵃ, expl. <cite ref=\"O01308\"><he>סַף</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:3:5\">Y. Snh. VI, 23ᵇ</cite> bot. <he>עשה אותי</he> (<cite ref=\"K00000\"><he>כ</he></cite>)<he>א׳</he> make me the threshold for the Law to pass over me; i.e. let the law have its course at the expense of my life; <cite ref=\"Yalkut Shimoni on Nach 688\">Yalk. Ps. 688</cite> <he>עשה אסקופא</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

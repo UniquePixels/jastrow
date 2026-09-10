@@ -1,0 +1,25 @@
+{
+	"id": "N01224",
+	"slug": "נקליטין",
+	"headword": {
+		"text": "נַקְלִיטִין"
+	},
+	"page": {
+		"number": 933,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S01307\"><he>קָלַט</he></cite>, cmp. <cite ref=\"N00435\"><he>נָזִיד</he></cite> fr. <cite ref=\"G00130\"><he>זוּד</he></cite>) [<i>retirement</i>] <i>the poles of the bedstead, connected by a cross-pole</i> over which a net is spread so as to form a slanting cover, <i>curtain-frame</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:2\">Kel. XII, 2</cite>. ",
+				"<cite ref=\"Mishnah Kelim 18:3\">Ib. XVIII, 3</cite> <he>נַקְלִיטֵי המטה</he>; <cite ref=\"Mishnah Sukkah 1:3\">Succ. I, 3</cite>; Y. ib. 52ᵇ bot. <cite ref=\"N00779\"><he>נִיקְלִיטֵי</he></cite>. Bab. ",
+				"<cite ref=\"Sukkah 10b:10\">ib. 10ᵇ</cite> <he>נ׳ שנים וכ׳</he> <i>naḳliṭin</i> means a frame with two poles (one on each side), <i>ḳinofoth</i>, one with four poles; a. fr."
+			]
+		}
+	]
+}

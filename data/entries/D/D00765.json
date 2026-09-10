@@ -1,0 +1,24 @@
+{
+	"id": "D00765",
+	"slug": "דכון-1",
+	"headword": {
+		"text": "דָּכוֹן"
+	},
+	"page": {
+		"number": 306,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דכן</he>, cmp. <cite ref=\"D00249\"><he>דּוּכָן</he></cite>, <cite ref=\"D00763\"><he>דִּכְוָון</he></cite>) <i>an elevated spot</i> in the kitchen or in the bath-house for vessels &c., <i>stand</i> (fixed to the stove or portable). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 7:2\">Kel. VII, 2</cite>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 5:7\">Tosef. Kel. B. Kam. V, 7</cite> <cite ref=\"D00776\"><he>דָּכֵין</he></cite>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 5:8\">Ib. 8</cite> <he>ד׳ של אולירין</he> the bathers’ stand."
+			]
+		}
+	]
+}

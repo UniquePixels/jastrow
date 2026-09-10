@@ -1,0 +1,22 @@
+{
+	"id": "D00099",
+	"slug": "דגוגא",
+	"headword": {
+		"text": "דְּגוּגָא"
+	},
+	"page": {
+		"number": 279,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00098\">preced.</cite>, v. <cite ref=\"D00189\"><he>דּוּגִית</he></cite>) <i>fisher boat, light shallow-going boat</i>. Pl. <he>דְּגוּגִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 18:2\">Targ. Is. XVIII, 2</cite> (Var. <he>דְּגוּגְיָן</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "S00257",
+	"slug": "קווטין",
+	"headword": {
+		"text": "קְוָוטִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "קְוָטִ׳"
+		}
+	],
+	"page": {
+		"number": 1325,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S00890\"><he>קַיְטָא</he></cite>) <i>summer folds, flocks</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:23\">Targ. Prov. XXVII, 23</cite> (h. text <he>עדרים</he>); v. <cite ref=\"S00267\"><he>קְוַוקְיָא</he></cite>."
+			]
+		}
+	]
+}

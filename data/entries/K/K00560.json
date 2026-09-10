@@ -1,0 +1,27 @@
+{
+	"id": "K00560",
+	"slug": "כימה",
+	"headword": {
+		"text": "כִּימָה"
+	},
+	"page": {
+		"number": 633,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.;<he>כום</he> or <he>כמם</he>, cmp. Assyr. <i>Kimmut</i>, Rawl. Five Gr. Mon. ch. VII; <i>Kimtu</i> family, Schr. KAT<sup>2</sup> p. 557) <i>Kimah</i> (<i>gathering</i>), a constellation, prob. <i>Draco</i> (not Pleiades). ",
+			"units": [
+				"<cite ref=\"Berakhot 58b:14\">Ber. 58ᵇ</cite> (etymol. play) <he>כ̇מ̇אה̇ ככבי</he> as bright as a hundred stars. ",
+				"<cite ref=\"Berakhot 59a\">Ib. 59ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 56:7\">Yalk. Gen. 56</cite> <he>נטל … מכ׳ וכ׳</he> the Lord took two stars away from <i>K</i>. and brought the flood &c.; <cite ref=\"Rosh Hashanah 11b:7\">R. Hash. 11ᵇ</cite>, sq. ",
+				"<cite ref=\"Bava Metzia 106b:4\">B. Mets. 106ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:1:17\">Y. Taan. I, 64ᵃ</cite> bot. ",
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite> <he>הדעת … ככ׳</he> knowledge is compared to the <i>K</i> … <he>מה כ׳ מבשלת וכ׳</he> as the Kimah causes the ripening of the fruits and gives them taste, so does knowledge &c. ",
+				"<cite ref=\"Bereishit Rabbah 10:6\">Gen. R. s. 10</cite> <he>כ׳ מעדנת וכ׳</he>, v. <cite ref=\"P00153\"><he>עָדַן</he></cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"id": "R00588",
+	"slug": "צמק-1",
+	"headword": {
+		"text": "צָמַק"
+	},
+	"page": {
+		"number": 1289,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to shrink</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 55b:9\">Ḥull. 55ᵇ</cite> (expl. <he>חרותה</he>, Mish. ",
+				"<cite ref=\"Mishnah Chullin 3:2\">ib. III, 2</cite>) <he>כל שצָמְקָה וכ׳</he> an animal whose lungs are shrunk; Tosef. ib. III, 12 <he>שצְמוּקָה</he> ed. Zuck. (Var. <he>שצמקה</he>). ",
+				"<cite ref=\"Shabbat 91a:6\">Sabb. 91ᵃ</cite> <he>צמקה וחזרה וכ׳</he> it shrank (became less than the size of a dry fig) and then swelled again. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 1:3:13\">Y. Orl. I, 61ᵇ</cite> top <he>אם צָמְקוּ</he> if the grapes are shrunk (dried). ",
+				"<cite ref=\"Jerusalem Talmud Terumot 2:2:4\">Y. Ter. II, 41ᵈ</cite> top <he>לִצְמוֹק</he>, v. <cite ref=\"V00813\"><he>תֶּפַח</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite> <he>יִצְמוֹק</he>, v. <cite ref=\"C00454\"><he>גָּוַע</he></cite>; a. fr.—Part. pass. <cite ref=\"R00563\"><he>צָמוּק</he></cite>; f. <he>צְמוּקָה</he>, v. supra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִימֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to cause shrinking; to dry</i> (in the sun). Y. Maasr. IV, 51ᵇ top <he>פדייו וצִימְּקוֹ</he> if he redeemed it (when fresh), and let it dry. Y. Naz. VI, 55ᶜ <he>צימיקו</he> (read: <he>צִימֵּיקָן</he>); a. e.—Part. pass. <he>מְצוּמָּק</he>; f. <he>מְצוּמֶּקֶת</he>; pl. <he>מְצוּמָּקִים</he>; <he>מְצוּמָּקוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Shabbat 38a:9\">Sabb. 38ᵃ</cite> <he>ביצים מצ׳</he> eggs boiled or roasted down to a small size."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִצְטַמֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be reduced in size</i> (through boiling &c.). Ib. <he>המִצְטַמֵּק ורע לו</he> a dish which is deteriorated by boiling down; ib. <he>מִצְטַמְּקוֹת ויפה להן</he> eggs are improved by &c. Ib. 37ᵇ. Y. ib. III, 5ᵈ; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A00424",
+	"slug": "אדמון",
+	"headword": {
+		"text": "אַדְמוֹן"
+	},
+	"page": {
+		"number": 17,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Admon</i>, one of the justices of the peace in Jerusalem. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 13:1\">Keth. XIII, 1</cite>.—",
+				"<cite ref=\"Ketubot 105a:5\">Ib. 105ᵃ</cite> <he>א׳ בן גדאי</he>."
+			]
+		}
+	]
+}

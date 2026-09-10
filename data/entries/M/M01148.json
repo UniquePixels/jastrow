@@ -1,0 +1,37 @@
+{
+	"id": "M01148",
+	"slug": "מיכה-1",
+	"headword": {
+		"text": "מִיכָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 773,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Micah</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " M., the owner of an idolatrous temple (<cite ref=\"Judges 17:12\">Jud. XVII</cite>). ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 7:11\">Esth. R. to III, 7</cite> <he>צלם מ׳</he>; <cite ref=\"Sanhedrin 103b:15\">Snh. 103ᵇ</cite> <he>פסלו של מ׳</he> the image put up by M.; <cite ref=\"Sanhedrin 103b:15\">ib.</cite> <he>עשן פסל מ׳</he> the smoke rising from the sacrifices to the image &c.—",
+				"<cite ref=\"Sanhedrin 101b:6\">Ib. 101ᵇ</cite>, v. <cite ref=\"M01403\"><he>מִכְמֵךְ</he></cite>. ",
+				"<cite ref=\"Shevuot 35b:6\">Shebu. 35ᵇ</cite> <he>כל שמות … במ׳ תול</he> all divine names mentioned in connection with M. (Jud. l. c.) are profane (not names of the Lord). ",
+				"<cite ref=\"Pesachim 117a:10\">Pes. 117ᵃ</cite> <he>פיסלו של מ׳ עומד בבכי וכ׳</he> with Micah’s image at Bekhi, the Israelites should have sung the Hallel?—",
+				"<cite ref=\"Shemot Rabbah 41:1\">Ex. R. s. 41</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " M., the prophet. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 10:2\">Lev. R. s. 10</cite> <he>שלחתי את מ׳ וכ׳</he> I sent M. and they smote him. ",
+				"<cite ref=\"Makkot 24a:25\">Macc. 24ᵃ</cite> <he>בא מ׳ והעמירן וכ׳</he> M. came and based all the laws of the Torah on three principles; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

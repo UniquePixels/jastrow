@@ -1,0 +1,32 @@
+{
+	"id": "M01004",
+	"slug": "מטלותא",
+	"headword": {
+		"text": "מַטְלוּתָא"
+	},
+	"page": {
+		"number": 767,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00572\"><he>נְטַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>javelin</i>, v. <cite ref=\"M00998\"><he>מְטָל</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>thrusting</i>.—מַטְלוּת אַבְנִין <i>stoning to death</i>, v. <cite ref=\"A01090\"><he>אַטְּלוּתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 31:15\">Targ. Y. Ex. XXXI, 15</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

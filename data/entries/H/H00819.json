@@ -1,0 +1,48 @@
+{
+	"id": "H00819",
+	"slug": "חינוך",
+	"headword": {
+		"text": "חִינּוּךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִנּ׳"
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01302\"><he>חָנַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>finishing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:6:2\">Y. M. Kat. I, 80ᵈ</cite> top <he>איזהו ח׳ קברים</he> what finishing of tombs (is meant in the Mishn. ib. 6)?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>inauguration</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 78a:9\">Men. 78ᵃ</cite> <he>חִינּוּכוֹ</he> his inauguration as a common priest, contrad. to <he>המשחו</he> his anointment as highpriest. Y. Shek. VI, 50ᵈ top <he>חִינּוּכוֹ</he> his (the highpriest’s) inauguration."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>gradual introduction of children into religious practice, training</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 82a:7\">Yoma 82ᵃ</cite> <he>אי זה ח׳</he> wherein does the child’s training (to fast on the Day of Atonement) consist?—",
+				"<cite ref=\"Yoma 82a:7\">Ib.</cite> <he>ומי קרי לח׳ השלמה</he> is fasting the entire day called initiation?—",
+				"<cite ref=\"Nazir 29a:9\">Naz. 29ᵃ</cite> <he>ח׳ מדרבנן</he> the training of minors for religious practices is a rabbinically ordained duty; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

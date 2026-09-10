@@ -1,0 +1,114 @@
+{
+	"id": "Q00742",
+	"slug": "פיס-3",
+	"headword": {
+		"text": "פִּיס",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסֵי"
+		}
+	],
+	"page": {
+		"number": 1166,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00741\">same</cite><i>to distribute</i>, v. <cite ref=\"Q01340\"><he>פְּסַס</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to break, desecrate</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָפֵיס"],
+			"senses": [
+				{
+					"gloss": ", (<cite ref=\"Q01340\"><he>אַפֵּיס</he></cite>) <i>to break, weaken; to desecrate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Numbers 15:31\">Targ. Y. II, Num. XV, 31</cite> (h. text <he>הפר</he>). ",
+						"<cite ref=\"Targum Jonathan on Hosea 4:9\">Targ. Hos. IV, 9</cite> (ed. Wil. <cite ref=\"A02694\"><he>אֲפִיס</he></cite> <i>Pe.</i>). ",
+						"<cite ref=\"Targum Jonathan on Hosea 4:9\">Ib.</cite> <he>לַאֲפָסָא</he>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 19:8\">Targ. Y. Lev. XIX, 8</cite> (h. text <cite ref=\"H01073\"><he>חלל</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Leviticus 21:8\">Ib. XXI, 8</cite> <he>תַפְסִינֵיה</he> (fr. <cite ref=\"Q01269\"><he>פסי</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Leviticus 21:6\">Ib. 6</cite> <he>יַפְסוּן</he> (ed. Vien., a. Y. II <he>יִפְסוּן</he>, <i>Pe.</i>). ",
+						"<cite ref=\"Aramaic Targum to Job 15:4\">Targ. Job XV, 4</cite> <he>תָּפֵישׂ</he> (ed. Wil. <he>תָּפֵשׁ</he>, corr. acc.; h. text <he>תפר</he>). ",
+						"<cite ref=\"Targum Jonathan on Numbers 25:1\">Targ. Y. Num. XXV, 1</cite> <he>לאוֹפָסָא</he> (cmp. <cite ref=\"A00836\"><he>אוֹקִים</he></cite> fr. <cite ref=\"S00374\"><he>קוּם</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 53:1\">Targ. Ps. LIII, 1</cite> <he>מַפְסִין</he> (some ed. <he>מְפַסִּין</he> <i>Pa.</i>, fr. <cite ref=\"Q01269\"><he>פסי</he></cite>); a. fr.—",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 23:18\">Targ. Y. I Deut. XXIII, 18</cite> <he>תִפְסוּן</he> ed. Amst. (ed. Vien. <he>תספון</he>, corr. acc.).—Part. pass. f. <he>מַפְסָה</he>. ",
+						"<cite ref=\"Targum Jerusalem, Leviticus 21:7\">Targ. Y. II, Lev. XXI, 7</cite> (h. text <he>חללה</he>).—V. <cite ref=\"Q01340\"><he>פְּסַס</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["פַּיֵּיס"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"B00000\"><he>ב־</he></cite>) [<i>to split, drive into</i>, v. <cite ref=\"Q01446\"><he>פְּצַר</he></cite>,] <i>to press, urge</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 19:3\">Targ. Y. Gen. XIX, 3</cite> (h. text <he>ויפצר</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to break a man’s vehemence; to quiet, appease, reconcile, persuade, pray</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 8:3\">Targ. Esth. VIII, 3</cite> <he>ופַיְיסַת ליה</he> (h. text <he>ותתחנן</he>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 42:21\">Targ. Y. Gen. XLII, 21</cite>; a. e.—",
+						"<cite ref=\"Chullin 95a:1\">Ḥull. 95ᵃ</cite> top <he>אי הוות פַּיְיסַת מינאי וכ׳</he> if thou hadst asked my pardon (made peace with me) &c. ",
+						"<cite ref=\"Chullin 94a\">Ib. 94ᵃ</cite> [read:] <he>פַּיְּיסֵיה למבורין</he> secure the good will of our ferryman (make him a present); <he>פייסיה ואיקפד</he> he offered him a present, and he (the ferryman) became angry. ",
+						"<cite ref=\"Yoma 87a:16\">Yoma 87ᵃ</cite> <he>איזיל אנא לפַיּוּסֵי ליה</he> I will go and make peace with him. Y. Snh. XI, 30ᶜ top; Y. Ber. IX, 13ᵈ top <he>פייסיה עלי</he> make him (the idol) favorably disposed towards me. ",
+						"<cite ref=\"Taanit 24a:16\">Taan. 24ᵃ</cite> <he>ומְפַיַּיסְנָא ליה וכ׳</he> Ms. M. (ed. <he>ומְפַיְּיסִינָן</he>) and I persuade him (the pupil), until he comes and reads. ",
+						"<cite ref=\"Megillah 12a:8\">Meg. 12ᵃ</cite> <he>דבני מאתיה … מפייס להו</he> for, as to the residents of his own place, he can win their favor, whenever he wants; a. fr.—Part. pass. <he>מְפַיַּיס</he>; f. <he>מְפַיְּיסָא</he>; pl. <he>מְפַיְּיסִין</he>; <he>מְפַיְּיסָן</he>. Y. Ab. Zar. II, 41ᵈ bot. <he>ישכח אפין מפייסן</he> (not <he>מפייסא</he>) he may find a friendly face (a well-disposed judge)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְּפִיס", "אִיתְּפֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken, degraded</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 15:20\">Targ. Job XV, 20</cite> <he>מִתְּפִיס</he> (ed. Lag. <he>מתפס</he>; ed. Wil. <he>מִתַּפֵּס</he>, <i>Ithpa.</i> of <he>פסס</he> or of <cite ref=\"V00845\"><he>תְּפַס</he> II</cite>; h. text <he>מתחולל</he>).—[<cite ref=\"Targum Jonathan on Deuteronomy 23:18\">Targ. Y. I Deut. XXIII, 18</cite> <he>יִתְפַּס</he> ed. Amst., v. <cite ref=\"V00845\"><he>תְּפַס</he> II</cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be appeased; to yield</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 6:35\">Targ. Prov. VI, 35</cite> (h. text <he>יאבה</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְפַּיֵּיס", "אִיפַּ׳"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00741\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 34:15\">Targ. Y. Gen. XXXIV, 15</cite> (h. text <he>נאות</he>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 34:22\">Ib. 22</cite>; a. e. (v. <cite ref=\"I00668\"><he>טְפַס</he></cite>).—",
+						"<cite ref=\"Yoma 23a:4\">Yoma 23ᵃ</cite> <he>דמפייסו ליה ומִיפַּיֵּיס</he> when they ask his pardon, and he is appeased (forgives). ",
+						"<cite ref=\"Bamidbar Rabbah 5\">Num. R. s. 5</cite>, end <he>מאן פייסך דאִיפַּיְּיסַת</he> who asked thy pardon, that thou wast appeased?; <cite ref=\"Sotah 35b:3\">Sot. 35ᵇ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

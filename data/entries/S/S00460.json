@@ -1,0 +1,26 @@
+{
+	"id": "S00460",
+	"slug": "קוסדריות",
+	"headword": {
+		"text": "קוּסְדַּרְיוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַסְדּוֹרָיוֹת"
+		}
+	],
+	"page": {
+		"number": 1336,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (denom. of <cite ref=\"S00459\">preced.</cite>) <i>commission of inquiry</i>. Midr. Sam. ch. XXV (ref. to <cite ref=\"Psalms 51:16\">Ps. LI, 16</cite>) [read:] <he>מדמו של אוריה שהיה דוד משלח ק׳ לאחריו לידע אם מפזר הוא דברים אילו לא היה מפזר דברים לא היה הורגו</he> (save me) from punishment for Uriah’s blood, for David had sent detectives after him to find out whether he would divulge the things (that had happened between him and David); if he had not done so, he (David) would not have had him killed; <cite ref=\"Yalkut Shimoni on Nach 765:3\">Yalk. Ps. 765</cite> <he>אם מחזיר הוא את דבריו אילו היה וכ׳</he> whether he would take back his words (his refusal to go home to his wife); had he done so &c.",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "M02854",
+	"slug": "משחה-2",
+	"headword": {
+		"text": "מִשְׁחָה"
+	},
+	"page": {
+		"number": 851,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"M02853\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>anointing, official installation</i>; <he>שמן המ׳</he> the oil used for installation. ",
+			"units": [
+				"<cite ref=\"Mishnah Horayot 3:4\">Hor. III, 4</cite>; <cite ref=\"Mishnah Megillah 1:9\">Meg. I, 9</cite>, v. <cite ref=\"M02846\"><he>מָשַׁח</he> I</cite>. ",
+				"<cite ref=\"Tosefta Sotah 13:1\">Tosef. Sot. XIII, 1</cite> <he>גנז … וצנצנת של שמן המ׳</he> (Josiah) removed out of sight the Ark … and the bottle of the oil of installation (made by Moses). ",
+				"<cite ref=\"Horayot 11b:10\">Hor. 11ᵇ</cite> <he>ש׳ המ׳ … היו שולקין וכ׳</he> in the oil of installation which Moses prepared, they boiled the roots of spices. ",
+				"<cite ref=\"Horayot 11b:10\">Ib.</cite> <he>נמעול מש׳ המ׳</he> Ms. M. (ed. omit <he>המ׳</he>) dare we desecrate the sacred oil (by using it for non-Davidic kings)? <cite ref=\"Horayot 12a:1\">Ib. 12ᵃ</cite> <he>ומי הוה ש׳ המ׳</he> did any oil for the installation exist (in the days of Joahaz)?; a. v. fr.—<cite ref=\"M00643\"><he>הר המ׳</he></cite> (= b. h. <he>הר הזיתים</he>) <i>Mount of Olives</i>. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 2:4\">R. Hash. II, 4</cite>; Tosef. ib. II (I), 2; a. fr.—[<cite ref=\"Shabbat 56b\">Sabb. 56ᵇ</cite>, quot. fr. ",
+				"<cite ref=\"II Kings 23:13\">II Kings XXIII, 13</cite> <cite ref=\"M00643\"><he>הר המ׳</he></cite>, Ms. M. <he>המשחית</he>.]"
+			],
+			"label": "1"
+		}
+	]
+}

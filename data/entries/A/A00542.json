@@ -1,0 +1,28 @@
+{
+	"id": "A00542",
+	"slug": "אוגיא",
+	"headword": {
+		"text": "אוּגְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֻגְיָא"
+		}
+	],
+	"page": {
+		"number": 21,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אגי</he>, sec. r. of <cite ref=\"A00535\"><he>אוג</he></cite>, v. <cite ref=\"A00716\"><he>אָוֶן</he></cite>; cmp. <cite ref=\"P00192\"><he>עוּגָה</he></cite>) <i>rounded off</i>, whence <i>a field</i> or <i>fields surrounded with a ridge or ditch</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 6b:3\">Ned. 6ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 6a:3\">Ber. 6ᵃ</cite> <he>כי כסלא לא׳</he> like the ridge surrounding the field."
+			]
+		}
+	]
+}

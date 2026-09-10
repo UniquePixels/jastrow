@@ -1,0 +1,22 @@
+{
+	"id": "M00906",
+	"slug": "מחסומית",
+	"headword": {
+		"text": "מַחֲסוֹמִית"
+	},
+	"page": {
+		"number": 762,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָסַם</he> II) <i>polish, glaze</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 1:3\">Tosef. Kel. B. Mets. I, 3</cite> <he>מַחֲסוֹמִיתו מן וכ׳</he> (some ed. <he>חסומ׳</he>; R. S. to <cite ref=\"Mishnah Kelim 11:4\">Kel. XI, 4</cite> <he>חֲסִימָתוֹ</he>, expl. <i>the steel-edge</i> of an axe) its glaze is of an unclean material."
+			]
+		}
+	]
+}

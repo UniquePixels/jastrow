@@ -1,0 +1,23 @@
+{
+	"id": "U02136",
+	"slug": "שתקאי",
+	"headword": {
+		"text": "שַׁתְקָאֵי"
+	},
+	"page": {
+		"number": 1640,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U02135\">preced.</cite>) <i>preservers of silence</i> (silentiarii, v. Sm. Ant. s. v. Præpositus). ",
+			"units": [
+				"<cite ref=\"Berakhot 58a:10\">Ber. 58ᵃ</cite> <he>אתא תליתאה דהוה ש׳ וכ׳</he> Vers. in ʿEn Yaʿăḳob (ed. <he>כי קא שתקא</he>) when the third division marched past, who were the silentiarii (ordering silence), he (the blind R. Shesheth) said, now the king is coming."
+			]
+		}
+	]
+}

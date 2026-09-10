@@ -1,0 +1,24 @@
+{
+	"id": "P01172",
+	"slug": "עקיבא-2",
+	"headword": {
+		"text": "עֲקִיבָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1105,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = <cite ref=\"P01148\"><he>עִקְבָא</he></cite>, <i>heel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:9\">Targ. Y. Deut. XXV, 9</cite> (some ed. <cite ref=\"P01150\"><he>עֲקֵי׳</he></cite>).—Pl. <he>עֲקִיבַיָּא</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:2:1\">Cant. R. to VII, 2</cite> <he>מה יאיין עֲקִיבַיִּךְ וכ׳</he> how beautiful are thy heels (steps) in shoes, daughter of my friend!"
+			]
+		}
+	]
+}

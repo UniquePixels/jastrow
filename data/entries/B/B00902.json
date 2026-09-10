@@ -1,0 +1,29 @@
+{
+	"id": "B00902",
+	"slug": "בלע-5",
+	"headword": {
+		"text": "בְּלַע",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּלְעָא"
+		},
+		{
+			"text": "בִּלְעָה"
+		}
+	],
+	"page": {
+		"number": 175,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. m. (cmp. <cite ref=\"B00900\"><he>בֶּלַע</he></cite>) <i>the thing swallowed, choking fit</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:4\">Y. Ab. Zar. II, 40ᵈ</cite> <he>אהן בלעה שרי</he> in a choking attack it is allowed (to apply remedies on the Sabbath) <cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:4\">Ib.</cite> <he>הוה ליה בלע</he> had a choking fit; <cite ref=\"Kohelet Rabbah 10:5:1\">Koh. R. to X, 5</cite> <he>הוה ליה חד בלעא</he>. ",
+				"<cite ref=\"Kohelet Rabbah 10:5:1\">Ib.</cite> <he>לאפקא בִלְעֵיה</he> to get out what he had swallowed."
+			]
+		}
+	]
+}

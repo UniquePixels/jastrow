@@ -1,0 +1,69 @@
+{
+	"id": "M00223",
+	"slug": "מגרפה",
+	"headword": {
+		"text": "מַגְרֵפָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַגְרֵי׳"
+		}
+	],
+	"page": {
+		"number": 730,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00222\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>spoon, ladle; trowel</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 29:8\">Kel. XXIX, 8</cite> <he>מ׳ של ב״ב</he> the ladle of the household (v. Maim. a. l.); <he>מ׳ של סיידים</he> the plasterers’ trowel. Tanḥ. Sh’moth 9 <he>של טיט</he> the trowel for clay; <cite ref=\"Shemot Rabbah 1:29\">Ex. R. s. 1</cite> (some ed. <he>מַגְרֵיפוֹ של טיט</he>, v. <cite ref=\"M00222\">preced.</cite>). ",
+				"<cite ref=\"Mishnah Kelim 13:4\">Kel. XIII, 4</cite> <he>מ׳</he> ladle (v. Maim. a. l.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (usu. in connection with <he>סל</he>) <i>spade</i> used for digging and shovelling; <i>shovel</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite>; <cite ref=\"Sifrei Devarim 6:5\">Sifré Deut. 6</cite>, a. e., v. <cite ref=\"Q02041\"><he>פְּרָת</he></cite>.—",
+				"<cite ref=\"Tosefta Tahorot 8:13\">Tosef. Toh. VIII, 13</cite>; <cite ref=\"Zevachim 99b:2\">Zeb. 99ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 17:2\">Sabb. XVII, 2</cite> <he>מ׳ לגרוף וכ׳</he> one may handle a spade (on the Sabbath) for grabbing &c., v. <cite ref=\"C01388\"><he>גָּרַף</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 15:20\">Num. R. s. 15</cite>; <cite ref=\"Yalkut Shimoni on Torah 163\">Yalk. Ex. 163</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>; <cite ref=\"Shir HaShirim Rabbah 4:8:1\">Cant. R. to IV, 8</cite> <he>היא והסל והמ׳ וכ׳</he> it (the Torah) and all its implements, v. <cite ref=\"A02991\"><he>אֶרְגַּלְיָא</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:5:5\">Y. Ḥag. II, 78ᵇ</cite> bot. <he>מ׳ של מתכת</he> an iron spade (flat); <he>מ׳ של עץ</he> a wooden shovel; a. e.—Pl. <he>מַגְרֵפוֹת</he>, <cite ref=\"M00223\"><he>מַגְרֵי׳</he></cite>. ",
+				"<cite ref=\"Bava Metzia 30a:12\">B. Mets. 30ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Tamid 2:1\">Tam. II, 1</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 46:1\">Gen. R. s. 46</cite>, beg.; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>magrefah</i>, ",
+			"units": [],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " name of <i>a musical instrument in the Temple</i>. ",
+					"units": [
+						"<cite ref=\"Arakhin 10b:63\">Arakh. 10ᵇ</cite>; <cite ref=\"Jerusalem Talmud Sukkah 5:6:6\">Y. Succ. V, 55ᵈ</cite> top.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " name of a sort of <i>tympanum</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Tamid 5:6\">Tam. V, 6</cite>, <cite ref=\"Mishnah Tamid 3:8\">Ib. III, 8</cite>; Y. l. c. 55ᵇ bot."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

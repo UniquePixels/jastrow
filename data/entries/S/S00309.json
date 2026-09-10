@@ -1,0 +1,27 @@
+{
+	"id": "S00309",
+	"slug": "קויה",
+	"headword": {
+		"text": "קְוִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְוִויָּה"
+		}
+	],
+	"page": {
+		"number": 1326,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00308\">preced.</cite>) <i>hope, wish.—</i>Pl. <he>קְוִיּוֹת</he>, <he>קְוִויּ׳</he>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:3\">Cant. R. to II, 3</cite> <he>שלש ק׳ … קִוּוּ וכ׳</he> three noble wishes did the Israelites entertain at the Red Sea, they wished for the Law &c."
+			]
+		}
+	]
+}

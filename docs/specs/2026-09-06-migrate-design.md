@@ -94,11 +94,19 @@ A six-row table over `transform/html.ts` tokens. The corpus inventory
 
 - **Internal** (`href="/Jastrow,_<marked string>.N"`, 68,096 raw): the
   marked string, underscores restored to spaces and the `.N` suffix
-  dropped, resolves through the exact headword map to `ref="<rid>"`.
+  dropped, resolves through the headword map to `ref="<rid>"`.
   The map is unambiguous: 32,512 distinct headword strings, zero
   duplicates. On the raw corpus 68,014 resolve and 82 (32 distinct
   targets) do not; transforms repair some, and the plan measures the
   post-transform count.
+- **Matching is canonical, not byte-exact.** Map keys and lookups are
+  NFC. A Hebrew word can be written with its dagesh before or after
+  the vowel on the same letter — two byte strings, one word — and an
+  exact-string map answers `undefined` for whichever spelling it was
+  not built from. Normalization is a comparison detail only: nothing
+  stored is normalized, so gate 2's byte-exact headword regeneration
+  is untouched. Two headwords that are canonically equal count as
+  duplicates and still throw.
 - **Unresolved internal:** the tag stays byte-preserving with `ref`
   set to the unresolved marked string, and the `(rid, target)` pair
   must appear in `data/quarantine/internal-targets.json` (gate 6).
@@ -263,3 +271,10 @@ first.
 - 2026-09-06 — drafted from the four approved design sections.
   Supersedes data-architecture §6 rule 6 (page source) and the
   render-diff blessing gate.
+- 2026-09-09 — §2.3 internal targets match under NFC. Task 14's write
+  refused on gate 6 with 25 unresolved citations; all 25 named a real
+  headword whose combining marks the href ordered differently (6
+  distinct targets, e.g. C01220 `גֵּץ`). They were correct references
+  defeated by an exact-string lookup, not broken data, and the
+  quarantine list would have made them permanently dead text. With
+  the lookup normalized the list is empty and gate 6 is 0 / 0.

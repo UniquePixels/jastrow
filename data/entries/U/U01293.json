@@ -1,0 +1,94 @@
+{
+	"id": "U01293",
+	"slug": "שלי-4",
+	"headword": {
+		"text": "שְׁלֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלָא"
+		}
+	],
+	"page": {
+		"number": 1582,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"U01215\"><he>שְׁלָה</he></cite>) [<i>to be lax</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be at ease, quiet, unconcerned</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:17\">Targ. Job III, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 3:25\">Ib. 25</cite>. Targ. II Esth. IV, 14 (h. text <he>החרש</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to neglect, forget</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 9:13\">Targ. Ps. IX, 13</cite> (h. text <he>שכח</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 8:13\">Targ. Job VIII, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 39:15\">Ib. XXXIX, 15</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be unaware, err, make a mistake</i> (corresp. to h. <cite ref=\"U00210\"><he>שגג</he></cite>, <he>שגה</he>). Ib. VI, 24. Ib. XII, 16. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:67\">Targ. Ps. CXIX, 67</cite> <cite ref=\"U01304\"><he>שָׁלֵי</he></cite> (Ms. <he>שָׁאלֵי</he>); a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to let go, leave off; to abandon, neglect</i>. Ib. XXXIX, 14. Ib. IX, 18. Ib. XLIV, 10. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 1:30\">Targ. Prov. I, 30</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 5:12\">Ib. V, 12</cite> (ed. Lag. <cite ref=\"A02465\"><he>אַסְלֵי</he></cite>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to err, let go astray</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 12:16\">Targ. Job XII, 16</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 119:10\">Targ. Ps. CXIX, 10</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתְּלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be abandoned, forgotten</i>. Ib. IX, 19.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to let one’s self go, err, forget</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 4:13\">Targ. Lev. IV, 13</cite>; <cite ref=\"Onkelos Leviticus 5:18\">V, 18</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 45:20\">Targ. Ez. XLV, 20</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 29:26\">Targ. Jer. XXIX, 26</cite> (h. text <he>משגע</he>); a. e.—",
+						"<cite ref=\"Berakhot 53b:10\">Ber. 53ᵇ</cite> <he>אכיל וא׳ ולא וכ׳</he> he ate and through forgetfulness failed to say grace. ",
+						"<cite ref=\"Avodah Zarah 72b:8\">Ab. Zar. 72ᵇ</cite> <he>דילמא מִשְׁתְּלִיתוּ וכ׳</he> you may forget yourselves (or <i>relax</i>) aud throw the entire weight upon him. ",
+						"<cite ref=\"Yevamot 115b:7\">Yeb. 115ᵇ</cite> <he>אִישְׁתַּלּוּיֵי אי׳</he> (not <he>אישתלוי</he>) he may have been careless (or have <i>forgotten</i>, to wipe off the mark)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

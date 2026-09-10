@@ -1,0 +1,22 @@
+{
+	"id": "I00058",
+	"slug": "טביעות",
+	"headword": {
+		"text": "טְבִיעוּת"
+	},
+	"page": {
+		"number": 517,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טָבַע</he> II) <i>impression;</i> <he>ט׳ עַיִן</he> <i>identification of an object from a general impression of its form</i> without stating particular marks. ",
+			"units": [
+				"<cite ref=\"Shabbat 114a:7\">Sabb. 114ᵃ</cite> <he>שמחזירין … בט׳ העין</he> to whom a lost object is restored on his identification etc. [Some ed. <he>טְבִיעַת</he>.]"
+			]
+		}
+	]
+}

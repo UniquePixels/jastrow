@@ -1,0 +1,29 @@
+{
+	"id": "U01446",
+	"slug": "שמותי",
+	"headword": {
+		"text": "שַׁמּוּתִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁמָּתִי"
+		}
+	],
+	"page": {
+		"number": 1593,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U01553\"><he>שַׁמְּתָא</he></cite>) <i>one that is under the ban</i> and cannot be quoted as an authority. ",
+			"units": [
+				"<cite ref=\"Niddah 7b:21-22\">Nidd. 7ᵇ</cite> <he>בחייו … דר׳ אליעזר ש׳ הוא וכ׳</he> why did he not reinstate the practice in agreement with R. Eliezers’s opinion in his (R. Eliezer’s) life-time? Because R. El. was under the ban, and it was thought, if we act according to his opinion in one thing, we (people) might do so in other things, and out of respect for R. El. we should be unable to interfere &c. ",
+				"<cite ref=\"Shabbat 130b:5\">Sabb. 130ᵇ</cite> <he>חדא דר׳ אל׳ ש׳ וכ׳</he> first of all, R. El. being under the ban dare not be quoted as an authority, and secondly one against many &c. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:4:3\">Y. Bets. I, 60ᶜ</cite> top <he>ור׳ ליעזר לא ש׳ הוא</he> but is not R. Liezer under the ban? (how can you quote him as an authority?); <cite ref=\"Jerusalem Talmud Terumot 5:2:2\">Y. Ter. V, 43ᶜ</cite> bot."
+			]
+		}
+	]
+}

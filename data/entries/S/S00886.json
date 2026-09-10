@@ -1,0 +1,27 @@
+{
+	"id": "S00886",
+	"slug": "קיומתא",
+	"headword": {
+		"text": "קִיּוּמְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיּוּמָא"
+		}
+	],
+	"page": {
+		"number": 1356,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00885\">preced.</cite>) <i>oath</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 30:14\">Targ. O. Num. XXX, 14</cite> <cite ref=\"S00885\"><he>קִיּוּמַת</he></cite> constr. (Y. <cite ref=\"S00884\"><he>קִיּוּם</he></cite>); a. e."
+			]
+		}
+	]
+}

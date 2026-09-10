@@ -1,0 +1,22 @@
+{
+	"id": "M02988",
+	"slug": "משתאל",
+	"headword": {
+		"text": "מִשְׁתָּאֵל"
+	},
+	"page": {
+		"number": 859,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00023\"><he>שְׁאֵל</he></cite>) <i>one inquiring of the oracle, augur, diviner</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:2\">Targ. Is. III, 2</cite> (h. text <cite ref=\"S01666\"><he>קֹסֵם</he></cite>)."
+			]
+		}
+	]
+}

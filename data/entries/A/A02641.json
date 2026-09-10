@@ -1,0 +1,23 @@
+{
+	"id": "A02641",
+	"slug": "אפוקי-2",
+	"headword": {
+		"text": "אַפּוֹקֵי"
+	},
+	"page": {
+		"number": 101,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Af. of <he>נפק</he>) <i>carrying out</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 26:5\">Targ. O. Lev. XXVI, 5</cite> <he>לא׳ בר זרעא</he> until seed-time."
+			]
+		}
+	]
+}

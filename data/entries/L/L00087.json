@@ -1,0 +1,33 @@
+{
+	"id": "L00087",
+	"slug": "לבלבא",
+	"headword": {
+		"text": "לַבְלְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִבְלוּבָא"
+		},
+		{
+			"text": "לִיבְ׳"
+		}
+	],
+	"page": {
+		"number": 689,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>לַבְלֵב</he> I) <i>bloom, blossom</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 15:33\">Targ. Job XV, 33</cite> <he>לַבְלְ׳</he> (ed. Lag. <he>ליבלו׳</he>; h. text <he>נִצָּה</he>.—Pl. <he>לַבְלְבִין</he>, <he>לִבְלוּ׳</he>, <cite ref=\"L00087\"><he>לִיבְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 40:10\">Targ. O. Gen. XL, 10</cite> (Y. ed. Amst. <he>לַבְלוֹבָהָא</he>). ",
+				"<cite ref=\"Onkelos Numbers 17:23\">Targ. Num. XVII, 23</cite> (Y. II <he>פרחין</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 1:3\">Targ. Ps. I, 3</cite> <he>לַבְלְבוֹי</he> (ed. Lag. <he>לוּבְלְ׳</he>, Ms. <he>לולבוי</he>)."
+			]
+		}
+	]
+}

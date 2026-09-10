@@ -1,0 +1,50 @@
+{
+	"id": "Q01974",
+	"slug": "פרצה",
+	"headword": {
+		"text": "פִּרְצָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 1237,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01968\"><he>פָּרַץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>breach, opening</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 53a:5\">B. Bath. 53ᵃ</cite> <he>פרץ פ׳ וכ׳</he> if he widened the opening in the fence to go in and out by it. ",
+				"<cite ref=\"Sukkah 26a:6\">Succ. 26ᵃ</cite> <he>פ׳ קוראה לגנב</he> a breach (occasion) invites the thief. Tanḥ. Vayishl. 5 <he>אין ניתנין פ׳ לפני הכשר וכ׳</he> we must not leave an opening (offer a temptation) to an honest man, how much less to a thief. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 3:4:2\">Y. Gitt. III, 45ᵃ</cite> <he>היתה שם פ׳ אחת וכ׳</he> if there was a single gap (for the besieged to escape), it saves all (justifies the presumption that they are alive). ",
+				"<cite ref=\"Mishnah Peah 7:1\">Peah VII, 1</cite> <he>בצד פ׳</he> (Y. ed. <he>הפרוצה</he>) by the gap (entrance) in the fence; a. fr.—Trnsf. <i>inroad, calamity</i>. Tanḥ. Bal. 13 <he>יש פ׳ גדולה מזו</he> is there a greater calamity than this (the death of Moses)? <cite ref=\"Yalkut Shimoni on Nach 888:20\">Yalk. Ps. 888</cite> (ref. to <he>פרץ</he>, <cite ref=\"Psalms 144:14\">Ps. CXLIV, 14</cite>) <he>פ׳ של פורענות</he> the calamity of divine visitation (pestilence, with ref. to <cite ref=\"Psalms 106:29\">Ps. CVI, 29</cite> <he>ותפרץ</he>); <he>פ׳ של גלות</he> the calamity of exile; Ruth R. introd. <he>פ׳ של מגפה</he>; <he>פֶּרֶץ של גלות</he>. ",
+				"<cite ref=\"Vayikra Rabbah 34:16\">Lev. R. s. 34</cite>, end (ref. to <cite ref=\"Isaiah 58:12\">Is. LVIII, 12</cite>) <he>הפ׳ הזאת עלי היה לגודרה וכ׳</he> the Lord says, it was for me to repair that breach (to remedy the evil of poverty), and thou rosest to repair it (by charity); a. fr.—2) <i>lawlessness, licentiousness, demoralization</i>. ",
+				"<cite ref=\"Bereishit Rabbah 26:5\">Gen. R. s. 26</cite> <he>כל פ׳ שאינה … אינה פ׳</he> demoralization which does not proceed from the leaders, is no real demoralization; a. e.—Pl. <he>פְּרָצוֹת</he>. ",
+				"<cite ref=\"Pesachim 56a:12\">Pes. 56ᵃ</cite>, v. <cite ref=\"Q01968\"><he>פָּרַץ</he></cite>. ",
+				"<cite ref=\"Mishnah Middot 2:3\">Midd. II, 3</cite> <he>שלש עשרה פ׳ היו בו שפרצום וכ׳</he> there were thirteen breaches in the Temple palisades (<cite ref=\"O00417\"><he>סוֹרֶג</he></cite>) made by the Greek kings; <cite ref=\"Jerusalem Talmud Shekalim 6:2:2\">Y. Shek. VI, 50ᵃ</cite> top. ",
+				"<cite ref=\"Berakhot 19a:19\">Ber. 19ᵃ</cite> <he>פִּרְצוֹתֵינוּ ופִרְצוֹת וכ׳</he>, v. <cite ref=\"C00244\"><he>גָּדַר</he></cite>. ",
+				"<cite ref=\"Bava Batra 91b:12\">B. Bath. 91ᵇ</cite> (ref. to <he>גדרה</he>, <cite ref=\"I Chronicles 4:23\">I Chr. IV, 23</cite>) <he>זו סנהדרין שגדרו פִרְצוֹתֵיהֶן וכ׳</he> this refers to the Sanhedrin that healed the breaches of Israel. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 352:1\">Yalk. Ez. 352</cite>; Ruth R. introd. <he>שאלו עליתם בפ׳ וכ׳</he> if you had stood in the breaches as Moses did &c.; a. fr.—[<cite ref=\"Bamidbar Rabbah 20:19\">Num. R. s. 20</cite> <he>שיש פרצים</he>, v. <cite ref=\"Q01968\"><he>פָּרַץ</he></cite>.]—3) <i>sect</i>.—Pl. as ab. ",
+				"<cite ref=\"Avot D'Rabbi Natan 5:2\">Ab. d’R. N. ch. V</cite> <he>ונפרצו מהם שתי פ׳</he> and two sects proceeded from them."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>spreading, increase</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 73:11\">Gen. R. s. 73</cite>, a. e., v. <cite ref=\"Q01968\"><he>פָּרַץ</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

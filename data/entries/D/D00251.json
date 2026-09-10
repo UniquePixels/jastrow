@@ -1,0 +1,22 @@
+{
+	"id": "D00251",
+	"slug": "דוכנה",
+	"headword": {
+		"text": "דּוֹכְנָה"
+	},
+	"page": {
+		"number": 285,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00242\"><he>דוך</he></cite>, v. <he>דכן</he>) <i>pounding, pounded dish</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:8:4\">Y. M. Kat. I, 80ᵈ</cite> bot. buy for us <he>שיחורין לד׳</he> peas for pounding."
+			]
+		}
+	]
+}

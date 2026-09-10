@@ -1,0 +1,30 @@
+{
+	"id": "P01481",
+	"slug": "עשיק-2",
+	"headword": {
+		"text": "עָשִׁיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1125,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01496\"><he>עֲשַׁק</he></cite>; cmp. <he>יקר</he>) <i>very dear, expensive, rare</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 52a:7\">B. Mets. 52ᵃ</cite> (prov.) <he>ע׳ לגביך ושוי וכ׳</he> for thy body (clothes) buy even what is dear, but for thy stomach, what is reasonable. ",
+				"<cite ref=\"Bava Metzia 74a:15\">Ib. 74ᵃ</cite> <he>ע׳ עפרא</he> Rashi (ed. <cite ref=\"P01496\"><he>עֲשַׁק</he></cite>; Ms. M. <he>לא שכיח</he>) earth (for pottery) was scarce. ",
+				"<cite ref=\"Berakhot 56a:12\">Ber. 56ᵃ</cite>, v. <cite ref=\"T00396\"><he>רוּמָּנָא</he></cite>."
+			]
+		}
+	]
+}

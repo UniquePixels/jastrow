@@ -1,0 +1,33 @@
+{
+	"id": "L00225",
+	"slug": "לוז-1",
+	"headword": {
+		"text": "לוּז",
+		"homograph": 1
+	},
+	"page": {
+		"number": 695,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. pl.",
+			"units": []
+		},
+		{
+			"gloss": "<i>Luz</i>, in Palestine, identical with, or near, Bethel. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 69:8\">Gen. R. s. 69</cite>, v. <cite ref=\"L00226\">next w.</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Luz</i>, in the land of the Hittites (<cite ref=\"Judges 1:26\">Jud. I, 26</cite>), supposed to be Lizan in Kurdistan (v. Neub. Géogr., p. 394), a place, mentioned in the Talmud as still existing, from which the purple blue (<cite ref=\"V00547\"><he>תכלת</he></cite>) was imported. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 12a:6\">Snh. 12ᵃ</cite> (in a secret letter) <he>דברים הנעשים בל׳</he> (not <he>הנעשה</he>) things manufactured in Luz (<cite ref=\"V00547\"><he>תכלת</he></cite>). ",
+				"<cite ref=\"Sotah 46b:11\">Sot. 46ᵇ</cite> (ref. to Jud. l. c.) <he>היא ל׳ שצובעין וכ׳</he> it is that Luz where they dye purple blue, which Sennaherib left undisturbed, and Nebucadnezar did not destroy, and where the angel of death has no permission to enter &c.; <cite ref=\"Bereishit Rabbah 69:8\">Gen. R. s. 69</cite> (applied to <cite ref=\"Genesis 28:19\">Gen. XXVIII, 19</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

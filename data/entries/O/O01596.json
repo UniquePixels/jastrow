@@ -1,0 +1,78 @@
+{
+	"id": "O01596",
+	"slug": "סרי-3",
+	"headword": {
+		"text": "סְרֵי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סְרָא"
+		}
+	],
+	"page": {
+		"number": 1026,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (dialect. for <cite ref=\"O01569\"><he>סרח</he></cite>; cmp. <cite ref=\"Q02151\"><he>פתי</he></cite> = <he>פתח</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"O01571\"><he>סָרַח</he> II</cite>) <i>to become lax, feeble</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 22a\">Snh. 22ᵃ</cite> (vers. in Ar.) <he>חד ס׳ ולא גנב וכ׳</he> when one is weak and steals no longer &c.; v. <cite ref=\"C01083\"><he>גַּנָבָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"O01573\"><he>סָרַח</he> III</cite>) <i>to decay, be spoiled; to smell offensively</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 7:18\">Targ. Ex. VII, 18</cite>; <cite ref=\"Onkelos Exodus 7:21\">21</cite> (h. text <he>באש</he>); a. fr.—",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:12\">Targ. Cant. I, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:22\">Targ. Prov. XI, 22</cite> <he>וסָרֵי טעמא</he> (read: <he>טַעֲמָהּ</he>) her sense is vapid (h. text <he>סרת טעם</he>; Pesh. <he>סַרְיַית</he>; cmp. <he>דעה סרוחה</he>, s. v. <cite ref=\"O01573\"><he>סָרַח</he> III</cite>).—",
+				"<cite ref=\"Sukkah 12b\">Succ. 12ᵇ</cite> sq. <he>כיון דסרי ריחייהו</he> because their odor becomes offensive (when they wither). ",
+				"<cite ref=\"Avodah Zarah 38b:13\">Ab. Zar. 38ᵇ</cite> <he>מיסרח סרי</he> ed. (Ms. M. <he>מיסר׳ סרי</he>, v. Rabb. D. S. a. l. note) it (the honey) would be spoiled (become running through an admixture). ",
+				"<cite ref=\"Bekhorot 8b:15\">Bekh. 8ᵇ</cite> <he>מילחא כי ס׳ וכ׳</he> when salt has lost its savor, wherewith can it be salted? <cite ref=\"Nedarim 50b:4\">Ned. 50ᵇ</cite> <he>אזלת … וס׳</he> she went and put the wine into gold and silver vessels, and it became stale; <cite ref=\"Taanit 7a\">Taan. 7ᵃ</cite> <he>תקוף ואיסר</he> Ms. M. (read: <he>ואִיסְּרֵי</he>, <i>Ithpe.</i>; ed. only <he>ותקיף</he>) it became sour and stale."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְרֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to make offensive, unsavory; to corrupt</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 29:6\">Targ. Ps. XXIX, 6</cite> <he>טור מַסְרֵי פירוי</he> ‘the mount which produces tasteless fruits’ (h. text <cite ref=\"U01967\"><he>שריון</he></cite>); <cite ref=\"Targum Jonathan on Deuteronomy 3:9\">Targ. Y. I Deut. III, 9</cite> (Y. II <he>ארעא</he> read <cite ref=\"I00215\"><he>טורא</he></cite>); <cite ref=\"Targum of I Chronicles 5:23\">Targ. I Chr. V, 23</cite> <he>מסרי פירוי</he> (in one w.) ed. Rahmer (Var. <he>מישרי פרזי</he>; ed. Lag. <he>מישר פרזי</he>, read: <he>מַשֵּׁיר פרוי</he> that drops its fruit; h. text <cite ref=\"U01598\"><he>שניר</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Song of Songs 1:12\">Targ. Cant. I, 12</cite> <he>אַסְרִיאוּ עובדיהון</he> they made their deeds unsavory. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 10:1\">Targ. Koh. X, 1</cite> <he>מַסְרֵי חכימא</he> makes the wise man vapid (stupid, v. <cite ref=\"O01573\"><he>סָרַח</he> III</cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["(אִסְתְּרִיהַּ) אִסְתְּרֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be spoiled; to become mischievous</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 97a:4\">B. Kam. 97ᵃ</cite> <he>דלא נִסְתְּרֵי עבדיה</he> Ms. R. (ed. <he>לִסְתְּרִיהַּ</he>; Rashi <he>נִסְתְּרִיהַּ</he>) that his slave may not become mischievous (through idleness); <cite ref=\"Bava Metzia 65a:1\">B. Mets. 65ᵃ</cite> top <he>נסתרי</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become a nuisance, a cause of corruption</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 5b:10\">Sot. 5ᵇ</cite> <he>דלא ליסתריה לביתיה</he> (Tosaf. <he>ליסתרי</he>, Rashi <he>תיסתרי</he>) that she may not become a cause of decay to his house; <cite ref=\"Sotah 5b:10\">ib.</cite> <he>דלא תִסְתְּרֵי</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

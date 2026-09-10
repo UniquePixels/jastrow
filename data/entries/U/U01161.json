@@ -1,0 +1,29 @@
+{
+	"id": "U01161",
+	"slug": "שכל-4",
+	"headword": {
+		"text": "שְׁכַל"
+	},
+	"page": {
+		"number": 1574,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00278\"><he>אִשְׁתַּכֵּל</he></cite>, v. <cite ref=\"U01166\"><he>שׁכְלֵל</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"id": "I00555",
+	"slug": "טמם-2",
+	"headword": {
+		"text": "טְמַם"
+	},
+	"page": {
+		"number": 540,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"I00554\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 26:15\">Targ. O. Gen. XXVI, 15</cite>; <cite ref=\"Onkelos Genesis 26:18\">18</cite> <he>טַמּוֹנוּן</he> (ed. Berl. <he>טָמוּנִין</he>; Y. <he>טמונינון</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on II Kings 3:19\">Targ. II Kings III, 19</cite>.—",
+				"<cite ref=\"Gittin 68a:10\">Gitt. 68ᵃ</cite> <he>וטַמִּינְהוּ</he> and filled the pits up. ",
+				"<cite ref=\"Yevamot 63a:10\">Yeb. 63ᵃ</cite> <he>טוֹם וכ׳</he> fill up a hole in the wall (in time) &c.—Part. pass. <he>טְמִים</he>, <cite ref=\"I00501\"><he>טְמִימָא</he></cite>. ",
+				"<cite ref=\"Moed Katan 4b:17\">M. Kat. 4ᵇ</cite> <he>למיכרא נהרא ט׳</he> to dig up a channel the source of which is choked up."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיטּוֹם"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered up, buried</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 27b:21\">Meg. 27ᵇ</cite> <he>דתִיטּוֹם בשיראי</he> that thou be buried in silk. ",
+						"<cite ref=\"Megillah 27b:22\">Ib.</cite> <he>עד דא׳ וכ׳</he> until he was covered up with the silk garments (put upon him while he was asleep)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["טַמְטֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to close around, to close</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 3:22\">Targ. Jud. III, 22</cite> (h. text <he>סגר</he>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 29:3\">Targ. Y. Deut. XXIX, 3</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 6:10\">Targ. Is. VI, 10</cite> <he>טמטם</he> ed. Lag. (ed. <he>עמעם</he>, corr. acc.); a. e.—Part. pass. <he>מְטַמְטַם</he>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 44:18\">Ib. XLIV, 18</cite>."
+					]
+				}
+			],
+			"stem": "Palp."
+		},
+		{
+			"forms": ["אִיטַּמְטֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to be closed</i>. Ib. XXXII, 3. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 119:70\">Targ. Ps. CXIX, 70</cite> Regia (ed. <cite ref=\"I00682\"><he>איטפש</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

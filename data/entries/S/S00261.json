@@ -1,0 +1,32 @@
+{
+	"id": "S00261",
+	"slug": "קוועד",
+	"headword": {
+		"text": "קַוְועַד",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1325,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>עיועד</he> = <he>ועיעד</he>, redupl. of <he>ועד</he>; as to <cite ref=\"S00000\"><he>ק</he></cite> for <cite ref=\"P00000\"><he>ע</he></cite>, v. letter <cite ref=\"P00000\"><he>ע</he></cite>, a. Nöld., Mand. Gr. p. 72) <i>to appoint, make permanent</i>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְקַוְועַד", "אִיקַּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be settled, remain</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 10:30\">Targ. Prov. X, 30</cite> <he>נקווערון</he>, read <he>נִקְוַועֲדוּן</he> (Var. ed. Lag., a. oth. ed. <he>תקוועדון</he>, read: <he>יִתְקַוְועֲדוּן</he>; ed. Lag. a. oth. <he>יִתְוַועֲדוּן</he>; h. text <he>ישכנו</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

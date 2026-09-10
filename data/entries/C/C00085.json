@@ -1,0 +1,28 @@
+{
+	"id": "C00085",
+	"slug": "גביין",
+	"headword": {
+		"text": "גָּבְיָין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּבְיָן"
+		}
+	],
+	"page": {
+		"number": 206,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00073\"><he>גבי</he></cite>, cmp. <he>גבב</he>) <i>saving, thrifty</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:5\">Targ. Prov. XXI, 5</cite> (h. text <cite ref=\"H01634\"><he>חרוץ</he></cite>).—[<cite ref=\"M00108\"><he>גַּבְיָיא</he></cite>, v. <cite ref=\"C00076\"><he>גַּבְיָא</he> I</cite>.]"
+			]
+		}
+	]
+}

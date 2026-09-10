@@ -1,0 +1,29 @@
+{
+	"id": "R00292",
+	"slug": "ציבא-1",
+	"headword": {
+		"text": "צִיבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִבָּא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1274,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"R00016\"><he>צָב</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Nahum 2:8\">Targ. Nah. II, 8</cite> (ed. Wil. <cite ref=\"R00292\"><he>צִיבָא</he></cite>; h. text <he>הֻצַּב</he>!).—Pl. <he>צִיבִּין</he>, <he>צִיבֵּי</he>, <cite ref=\"R00295\"><he>צִבּ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 49:22\">Targ. Is. XLIX, 22</cite> (ed. Wil. <he>צִיבִין</he>) (h. text <he>חצן</he>)."
+			]
+		}
+	]
+}

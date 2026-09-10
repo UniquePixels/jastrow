@@ -1,0 +1,22 @@
+{
+	"id": "P01458",
+	"slug": "ערש",
+	"headword": {
+		"text": "עֶרֶשׂ"
+	},
+	"page": {
+		"number": 1124,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"P01404\"><he>עֶרֶס</he></cite>) <i>bed</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 41:3\">Midr. Till. to Ps. XLI, 4</cite> <he>וכי יש ע׳ של דוי</he> is there a bed of despair?; <cite ref=\"Yalkut Shimoni on Nach 741:2\">Yalk. ib. 741</cite>."
+			]
+		}
+	]
+}

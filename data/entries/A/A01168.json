@@ -1,0 +1,31 @@
+{
+	"id": "A01168",
+	"slug": "אידנא-2",
+	"headword": {
+		"text": "אִידָּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִידְּנָא"
+		}
+	],
+	"page": {
+		"number": 45,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"P00514\"><he>עִידָּן</he></cite>, <cite ref=\"P00515\"><he>עִירָּנָא</he></cite>; <cite ref=\"A00553\"><he>אוד</he></cite>, <he>עוד</he>) <i>time</i>.—הָאִידְּנָא <i>this time, now, to-day</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:6\">Targ. Y. Deut. I, 6</cite> (usu. with <cite ref=\"P00000\"><he>ע</he></cite>).—",
+				"<cite ref=\"Yevamot 62a:5\">Yeb. 62ᵃ</cite> <he>לילא דהא׳</he> this night. ",
+				"<cite ref=\"Yoma 19b:16\">Yoma 19ᵇ</cite> <he>הא׳ יומא וכ׳</he> to-day is the Day of Atone. ",
+				"<cite ref=\"Berakhot 4a:7\">Ber. 4ᵃ</cite> <he>כי הא׳</he> at this very time (hour). ",
+				"<cite ref=\"Kiddushin 71b:2\">Kidd. 71ᵇ</cite> <he>והא׳ דאיכא רמאי</he> but now-a-days when there are deceivers; a. fr."
+			]
+		}
+	]
+}

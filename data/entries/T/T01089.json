@@ -1,0 +1,51 @@
+{
+	"id": "T01089",
+	"slug": "רשל-1",
+	"headword": {
+		"text": "רָשַׁל"
+	},
+	"page": {
+		"number": 1500,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be lax, hang down, flap</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִשֵּׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to weaken, break the force of</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 24\">Gen. R. s. 24</cite>; <cite ref=\"Vayikra Rabbah 15\">Lev. R. s. 15</cite>; <cite ref=\"Yalkut Shimoni on Nach 219:1\">Yalk. Kings 219</cite> the Lord <he>מְרַשְּׁלוֹ בהרים</he> breaks it (the force of the wind) through the mountains (v. <cite ref=\"H01857\"><he>חָשַׁל</he></cite>). ",
+						"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>, beg. <he>הנואף … מְרַשֵּׁל וכ׳</he> the adulterer, if one may say so, weakens the power of Deity; a. e.—<i>Part. pass.</i> <he>מְרוּשָּׁל</he>; pl. <he>מְרוּשָּׁלִין</he> <i>hanging down, trailing</i>. ",
+						"<cite ref=\"Tosefta Menahot 1:8\">Tosef. Men. I, 8</cite> <he>היו מר׳ ומסולקין וכ׳</he> if the priest’s garments are trailing and tucked up (by the girdle), or threadbare &c.; <cite ref=\"Zevachim 18a:11\">Zeb. 18ᵃ</cite> <he>היו מר׳ מסולקין וכ׳</he> if they are too long, or too short, or &c. ",
+						"<cite ref=\"Zevachim 18b:2\">Ib. 18ᵇ</cite> <he>מר׳ כשרין מסולקין וכ׳</he> if they are too long, they are fit for service, if too short, they are unfit; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְרַשֵּׁל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְרַשֵּׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to be relaxed, weakened</i>. Num. R. l. c. <he>כיון ששמע … נִתְרַשְּׁלוּ ידיו</he> when the artist heard (that the king whose picture he was going to paint was dead), his hands sank down (he was undecided). ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 7:1\">Koh. R. to VII, 1</cite> <he>נתגעשו ונתרשלו וכ׳</he> the Israelites were too excited (busy with their own affairs) and too indifferent to attend to Joshua’s burial, v. <cite ref=\"C01193\"><he>גָּעַשׁ</he></cite>. Tanḥ. Sh’laḥ 2 <he>אף … נתרשלו ידם</he> even Moses and Aaron felt themselves powerless; <cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16<sup>2</sup></cite> <he>נתר׳ את ידם</he>. Tanḥ. l. c. <he>אתם … אלא נִתְרַשַּׁלְתֶּם</he> you do not find your hands (you are helpless) and give it up in despair; (Num. l. c. <he>כשלתם</he>); a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

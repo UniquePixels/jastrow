@@ -1,0 +1,32 @@
+{
+	"id": "Q01201",
+	"slug": "פנימי",
+	"headword": {
+		"text": "פְּנִימִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּנִימִית"
+		}
+	],
+	"page": {
+		"number": 1190,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; denom. of <cite ref=\"Q01199\"><he>פְּנִים</he></cite>)<i>inner, interior, innermost, central</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 65b:6\">Erub. 65ᵇ</cite> <he>ישראל ונכרי בפ׳ וכ׳</he> if an Israelite and a gentile live in the inner court, and an Israelite in the outer court. ",
+				"<cite ref=\"Eruvin 65b:6\">Ib.</cite> <he>פ׳ במקומו מהו</he> dare the resident of the inner court move things within its precincts? Tanḥ. Naso 5 <he>פתח את הפ׳ וכ׳</he> he opened the central door and went to the outer room. ",
+				"<cite ref=\"Zevachim 51a\">Zeb. 51ᵃ</cite>, a. fr. <he>מזבה הפ׳</he> the inner altar (in the Holy); a. v. fr.—",
+				"<cite ref=\"Bereishit Rabbah 21:9\">Gen. R. s. 21</cite> (ref. to <he>פלמוני</he>, <cite ref=\"Daniel 8:13\">Dan. VIII, 13</cite>) <he>תרגם עקילס לפ׳ … לפנים ממלאכי וכ׳</he> Aquila translated it ‘to him who was inside’, which means Adam whose partitioned seat was in front of the ministering angels (v. <cite ref=\"Q01199\"><he>פְּנִים</he></cite>); Yalk. Dan. 1066.—Pl. <he>פְּנִימִיִּים</he>; f. <he>פְּנִימִיּוֹת</he>. ",
+				"<cite ref=\"Zevachim 52b:6\">Zeb. 52ᵇ</cite> <he>דמים הפ׳</he> blood to be sprinkled in the Holy; <he>שיריים הפ׳</he> the remnants of blood sprinkled in the Holy. ",
+				"<cite ref=\"Mishnah Tamid 1:4\">Tam. I, 4</cite>; Y. Yoma II, 39ᶜ, v. <cite ref=\"A01696\"><he>אָכַל</he></cite>; a. fr."
+			]
+		}
+	]
+}

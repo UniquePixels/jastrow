@@ -1,0 +1,38 @@
+{
+	"id": "C01151",
+	"slug": "גנן-2",
+	"headword": {
+		"text": "גְּנַן"
+	},
+	"page": {
+		"number": 260,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01150\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 8:4\">Targ. Zech. VIII, 4</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אגֵּין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C01150\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 7:16\">Targ. O. Gen. VII, 16</cite> (some ed. <he>אָגֵין</he>, fr. <cite ref=\"C00746\"><he>גִּין</he></cite>, Y. I <cite ref=\"A00293\"><he>אַגִּין</he></cite>, h. text <he>סגר</he>). ",
+						"<cite ref=\"Onkelos Exodus 33:22\">Targ. Ex. XXXIII, 22</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 1:6\">Targ. Is. I, 6</cite>; a. fr. (interchanging with <he>אָגֵין</he>).—",
+						"<cite ref=\"Sotah 21a:11\">Sot. 21ᵃ</cite> <he>אגּוּנֵי מַגְּנָא</he> does protect, contrad. fr. <he>אצולי</he> to rescue. ",
+						"<cite ref=\"Ketubot 77b:6\">Keth. 77ᵇ</cite> <he>אגוני לא מגנא</he> will it (the Law) not protect (me)? <cite ref=\"Avodah Zarah 15b\">Ab. Zar. 15ᵇ</cite> bot. <he>מגנו עלייהו</he> they (the bucklers) protect them. ",
+						"<cite ref=\"Avodah Zarah 16a\">Ib. 16ᵃ</cite> <he>מגנו עילוון</he> they (the Persian soldiers) protect us."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

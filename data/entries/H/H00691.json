@@ -1,0 +1,38 @@
+{
+	"id": "H00691",
+	"slug": "חיותא-1",
+	"headword": {
+		"text": "חַיּוּתָא"
+	},
+	"page": {
+		"number": 452,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"H00690\">same</cite>, <i>life, livelihood</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 85a:11\">Yoma 85ᵃ</cite> <he>עיקר ח׳ וכ׳</he> the real life is in the nose (cessation of breath from the nostrils is the main sign of death); <cite ref=\"Sotah 45b:17\">Sot. 45ᵇ</cite>.—",
+				"<cite ref=\"Chullin 19b:11\">Ḥull. 19ᵇ</cite> <he>כי נפקא ח׳</he> when life escapes. ",
+				"<cite ref=\"Bava Batra 21b:4\">B. Bath. 21ᵇ</cite> <he>פסקת לה לחַיּוּתָאִי</he> Ar. (ed. <he>חַיּוּתִי</he>, v. Rabb. D. S. a. l. note 20) thou disturbest my livelihood. ",
+				"<cite ref=\"Makkot 10a:9\">Macc. 10ᵃ</cite> <he>עבד ליה ח׳ וכ׳</he> Ms. M. (ed. <he>עביד … מידי דתיהוי ליה ח׳</he>) make life for him so that he may live (give him security of life); <cite ref=\"Makkot 10a:9\">ib.</cite> <he>עביד ליה מידי דתיהוי ליה ח׳</he> prepare for him something which secures life (religious study); <cite ref=\"Yalkut Shimoni on Torah 829:1\">Yalk. Deut. 829</cite>; <cite ref=\"Yalkut Shimoni on Torah 921:2\">921</cite>.—",
+				"<cite ref=\"Gittin 12a:11\">Gitt. 12ᵃ</cite> <he>עביד ליה ח׳ טפי</he> you must allow him a more ample living (than under ordinary conditions).—",
+				"<cite ref=\"Pesachim 89a:23\">Pes. 89ᵃ</cite> (ref. to <he>מהיות</he>, <cite ref=\"Exodus 12:4\">Ex. XII, 4</cite>) <he>מחַיּוּתֵיה דשה</he> from the lamb while it is yet alive (you may withdraw). ",
+				"<cite ref=\"Exodus 12:4\">Ib.</cite> <he>וד״ש סבר מחַיּוֹתָיו דשה</he> Ms. M. 2 (Ar. <he>מחיותיה</he>, ed. <he>מהֲוַיָּיתֵיה</he>) R. S. says, from the life of the lamb in both senses (during life proper and as long as the blood has not yet been sprinkled; v. Rabb. D. S. a. l. note 70)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>womb</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 21b:4\">Bekh. 21ᵇ</cite>, v. <cite ref=\"A02891\"><he>אֲצַר</he> II</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>animal</i>, v. <cite ref=\"H00692\">next w.</cite>",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

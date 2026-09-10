@@ -1,0 +1,81 @@
+{
+	"id": "Q01754",
+	"slug": "פרח-1",
+	"headword": {
+		"text": "פָּרַח"
+	},
+	"page": {
+		"number": 1223,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to break through</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to bloom, sprout</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 47b\">Ber. 47ᵇ</cite>, sq. <he>קטן פּוֹרֵחַ</he> a boy developing signs of puberty (before the usual age). ",
+				"<cite ref=\"Bamidbar Rabbah 18:23\">Num. R. s. 18</cite>, end <he>ומעצמו פ׳</he> and it (the staff) blossomed of itself (without being planted); a. fr.—Esp. (with ref. to <cite ref=\"Leviticus 13:12\">Lev. XIII, 12</cite>) <i>to become white, spread all over</i>. ",
+				"<cite ref=\"Mishnah Negaim 8:1\">Neg. VIII, 1</cite> <he>הפורח מן הטמא טהור</he> a leprosy that ‘blossoms’ after the person has been declared unclean, is clean. ",
+				"<cite ref=\"Mishnah Negaim 8:2\">Ib. 2</cite> <he>פָּרְחָה בכולו</he> if it spread over the entire body. ",
+				"<cite ref=\"Mishnah Negaim 7:5\">Ib. VII, 5</cite> <he>עד שתִּפְרַח בכולו</he> until it spreads over &c.; a. fr.—2) <i>to fly, fly off; to swim</i>. ",
+				"<cite ref=\"Mishnah Kinnim 2:1\">Kinn. II, 1</cite>, sq. ",
+				"<cite ref=\"Mishnah Bava Metzia 1:4\">B. Mets. I, 4</cite> <he>גוזלות שלא פרחו</he> unfledged pigeons. ",
+				"<cite ref=\"Mishnah Chullin 3:7\">Ḥull. III, 7</cite>, v. <cite ref=\"O01253\"><he>סְנַפִּיר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:2\">Y. Taan. IV, 68ᶜ</cite> top <he>הלוחות היו מבקשין לִפְרוֹחַ</he> the tablets wanted to fly (off Moses’ hands); <he>הכתב עצמו פ׳</he> only the letters flew off; <he>כיון שפ׳ הכתב וכ׳</he> when the letters had flown off, the tablets became too heavy for Moses’ hands. ",
+				"<cite ref=\"Avodah Zarah 18a:11\">Ab. Zar. 18ᵃ</cite> (of a martyr dying on the pyre) <he>גוילין … פּוֹרְחוֹת</he> I see the sheets of the book of the Law burn, and the letters fly off. ",
+				"<cite ref=\"Chagigah 15b\">Ḥag. 15ᵇ</cite>; <cite ref=\"Sanhedrin 106b:11\">Snh. 106ᵇ</cite> <he>מגדל הפורח באויר</he>, v. <cite ref=\"M00120\"><he>מִגְדָּל</he></cite>. ",
+				"<cite ref=\"Mishnah Chagigah 1:8\">Ḥag. I, 8</cite> <he>פּוֹרְחִין באויר</he>, v. <cite ref=\"E00495\"><he>הֶיתֵּר</he></cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 93\">Gen. R. s. 93</cite>, a. e. <he>פָּרְחָה נשמתן</he> their soul fled, i.e. they were shocked by surprise, fear &c."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְרִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to bloom, blossom</i>. Num. R. l. c. <he>וה׳ בו בלילה וכ׳</he> the same night it blossomed and brought forth fruit; Tanḥ. Aḥăré 8 <he>הִפְרִיחוּ ועשו פירות</he>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>; <cite ref=\"Shir HaShirim Rabbah 2:2\">Cant. R. to II, 2</cite> <cite ref=\"M02206\"><he>מַפְרחַת</he></cite>, v. <cite ref=\"K00822\"><he>כָּמַשׁ</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause sprouting, produce</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite> <he>אתמול מַפְרִיחַ מצות וכ׳</he> yesterday producing meritorious and noble deeds, and to-day so selfish!, v. <cite ref=\"K00859\"><he>כָּנַן</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 62\">Yalk. ib. 62</cite>; <cite ref=\"Yalkut Shimoni on Nach 832\">Yalk. Ps. 832</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be able to fly, be fledged</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 12:3\">Ḥull. XII, 3</cite> (<cite ref=\"Chullin 140b:14\">140ᵇ</cite>) <he>אפרוחים מַפְרִיחִין</he> full-fledged birds; <cite ref=\"Chullin 141a\">Ḥull. 141ᵃ</cite>. B. Mets. l. c.; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to cause to fly; to chase</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 3:3\">Snh. III, 3</cite> <he>מַפְרִיחֵי יונים</he>, v. <cite ref=\"J00203\"><he>יוֹנָה</he> II</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite>; <cite ref=\"Yalkut Shimoni on Nach 950:3\">Yalk. Prov. 950</cite> <he>ומַפְרִיחָן</he> and let them fly off, v. <cite ref=\"O00935\"><he>סִכְסֵךְ</he> I</cite>. Y. Yoma II, 39ᶜ top <he>הִפְרִיחָתוֹ הרוח</he> the wind drove it off (the altar). Y. Erub. I, 19ᵇ bot. <he>ובאת הרוח והִפְרִיחָתָהּ</he> and a wind came and carried it (the Succah) off; a. fr."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to place beyond due limits, to cause to protrude</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 29b\">B. Kam. 29ᵇ</cite>, sq. <he>לא שנו אלא</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>מַפְרִיחַ</he> this has been taught (that he is responsible for damage) only when he places the thorns on his ground so that they protrude into the public road, opp. <he>מצמצם</he> when he puts them exactly where his limits end. ",
+						"<cite ref=\"Tosefta Bava Kamma 2:5\">Tosef. ib. II, 5</cite> <he>המפריח גדירו … לרשות הרבים</he> he who causes his fence of thorns or stones to protrude into the public road."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

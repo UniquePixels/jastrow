@@ -1,0 +1,25 @@
+{
+	"id": "D00493",
+	"slug": "דידכי",
+	"headword": {
+		"text": "דִּידְכֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּידְכָאוֹת"
+		}
+	],
+	"page": {
+		"number": 295,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (διαδοχή, v. <cite ref=\"D00581\"><he>דייתיכוס</he></cite>) <i>relays, guards at stations</i>. [Popular adaptation <he>דרכ׳</he>, as if fr. <cite ref=\"D01096\"><he>דֶּרֶךְ</he></cite>.] <cite ref=\"Mishnah Yoma 6:8\">Yoma VI, 8</cite> (<cite ref=\"Yoma 68b:7\">68ᵇ</cite>) <he>דיד׳</he> Y. ed. (Mish. <cite ref=\"D00735\"><he>דִּרְכָאוֹת</he></cite>; Bab. ed. <cite ref=\"D00734\"><he>דִּירְכָ׳</he></cite>, Ms. M. <he>דִּיתְּכָ׳</he>, Ms. L. <he>דוד׳</he>, <he>דיד׳</he>; Mish. Nap. <cite ref=\"D00735\"><he>דִּירְכָיוֹת</he></cite>, v. Rabb. D. S. a. l. note). Mekh. B’shall. s. 1 <he>דורכיות היו לו</he> Pharaoh had guards at stations (communicating with one another).—",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite>; <cite ref=\"Yalkut Shimoni on Torah 16\">Yalk. ib. 16</cite> [read:] <he>הרבה להן בריצה והרבה להן בדְיָידוֹכִין</he> he increased for them the speed (of the mail bearers), and the number of mail stations. ",
+				"<cite ref=\"Esther Rabbah 1:1\">Esth. R. to I, 1</cite> <he>דורכ׳ עם דורניאות וכ׳</he> postmen carrying gifts will be numerous &c."
+			]
+		}
+	]
+}

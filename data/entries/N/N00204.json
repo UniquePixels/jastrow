@@ -1,0 +1,26 @@
+{
+	"id": "N00204",
+	"slug": "נדבה-1",
+	"headword": {
+		"text": "נְדָבָה"
+	},
+	"page": {
+		"number": 877,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00203\">preced.</cite>) <i>free-will offering, donation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kinnim 1:1\">Kinn. I, 1</cite> <he>איזהו נדר … ואיזהו נ׳ וכ׳</he> a vow is called <i>neder</i>, when one says, I vow to dedicate a burnt-offering; <i>ni’dabah</i>, when one says, this animal is to be a burnt-offering. Ib. 3 <he>בחובה ובנ׳</he> when an obligatory and a free-will sacrifice are mixed up. ",
+				"<cite ref=\"Mishnah Menachot 1:1\">Men. I, 1</cite> <he>מנחת נ׳</he>, opp. to <he>מנחת חוטא</he>. ",
+				"<cite ref=\"Menachot 2a:7\">Ib. 2ᵃ</cite> <he>יהא נ׳</he> it will be a free-will offering (and the vow itself is not yet fulfilled); opp. <he>יהא נדר</he> it will be the fulfillment of his vow; a. fr.—Pl. <he>נְדָבוֹת</he>. ",
+				"<cite ref=\"Mishnah Kinnim 1:1\">Kinn. I, 1</cite>. ",
+				"<cite ref=\"Mishnah Nedarim 1:1\">Ned. I, 1</cite> <he>כנִדְבוֹתָם</he> like their (the good men’s) free-will offerings or vows; a. fr."
+			]
+		}
+	]
+}

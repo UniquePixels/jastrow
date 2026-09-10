@@ -1,0 +1,37 @@
+{
+	"id": "S01102",
+	"slug": "קיפוף",
+	"headword": {
+		"text": "קִיפּוֹף"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִפּ׳"
+		}
+	],
+	"page": {
+		"number": 1366,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"S00488\"><he>קוֹף</he> II</cite>) <i>long-tailed ape</i> (cercopithacus). ",
+			"units": [
+				"<cite ref=\"Bekhorot 8a\">Bekh. 8ᵃ</cite>, v. <cite ref=\"S00488\"><he>קוֹף</he> II</cite>. ",
+				"<cite ref=\"Berakhot 57b\">Ber. 57ᵇ</cite> Ms. M. (ed. <cite ref=\"S01095\"><he>קִיפּוֹד</he></cite>, <cite ref=\"S01707\"><he>קִפּוֹד</he></cite>). ",
+				"<cite ref=\"Berakhot 58b\">Ib. 58ᵇ</cite> (Rashi: a species of <i>owls</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a species of <i>owls</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 63a:9\">Ḥull. 63ᵃ</cite> <he>באות שבעופות ק׳</he> the <i>bâvath</i> among the birds is the <i>ḳippof</i> (v. <cite ref=\"S01103\">next w.</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "P00943",
+	"slug": "ענבא",
+	"headword": {
+		"text": "עִנְּבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1091,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00942\">same</cite><i>cluster, grape</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:14\">Targ. Y. Deut. XXXII, 14</cite> (ed. Vien. <cite ref=\"P00943\"><he>עִנְבָּא</he></cite>).—Pl. <he>עִנְּבִין</he>, <he>עִנְּבַיָּא</he>, <he>עִנְּבֵי</he>, <cite ref=\"P00072\"><he>עִי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 40:10\">Targ. Gen. XL, 10</cite>; a. fr. [O. ed. Berl. <cite ref=\"P00605\"><he>עִנְּ׳</he></cite> with Dagesh, oth. ed. a. Y. <he>עִנְב׳</he>, also <he>עִנְבּ׳</he>, a. <he>עֲנָב׳</he>.]—Targ. Y. ib. XXVII, 25 <he>חמרא דמיצטנע בעִינְבּוֹי</he> (not <he>בעינבויֵי</he>) = <he>יין המשומר בענביו</he>, v. preced.—",
+				"<cite ref=\"Nazir 34b:11\">Naz. 34ᵇ</cite>; (38ᵃ); <cite ref=\"Bava Metzia 106b\">B. Mets. 106ᵇ</cite>, v. <cite ref=\"K01123\"><he>כְּרוּם</he></cite> ch."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P00944\">next w.</cite>) <i>standing corn, fruits on the trees</i> &c. ",
+			"units": [
+				"<cite ref=\"Nedarim 62a:6\">Ned. 62ᵃ</cite> <he>הוו גנבו ליה עִינְּבֵיה</he> (some ed. <he>עֲנִיבֵיה</he>) they used to steal his crops; <cite ref=\"Yalkut Shimoni on Torah 940:18\">Yalk. Deut. 940</cite> <he>עילבי</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

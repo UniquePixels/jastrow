@@ -1,0 +1,26 @@
+{
+	"id": "H01339",
+	"slug": "חסדא-1",
+	"headword": {
+		"text": "חִסְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 486,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= b. h. <cite ref=\"H01337\"><he>חֶסֶד</he></cite>) <i>shame, revilement</i>, interch. with <cite ref=\"H00830\"><he>חִיסּוּדָא</he></cite> q. v.",
+			"units": []
+		}
+	]
+}

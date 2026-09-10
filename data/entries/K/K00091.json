@@ -1,0 +1,36 @@
+{
+	"id": "K00091",
+	"slug": "כבשן",
+	"headword": {
+		"text": "כִּבְשָׁן"
+	},
+	"page": {
+		"number": 611,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00081\"><he>כָּבַשׁ</he></cite>)<i>kiln, furnace</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 8:9\">Kel. VIII, 9</cite> <he>כ׳ של סיידין וכ׳</he> the furnace of lime burners, glass-makers and potters. ",
+				"<cite ref=\"Sukkah 7b:19\">Succ. 7ᵇ</cite> <he>עשויה ככ׳</he> shaped like a furnace (round). ",
+				"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> <he>כִּבְשַׁן האש</he> the heated furnace. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:16\">Cant. R. to II, 16</cite> <he>היוצר … בודק כִּבְשָׁנוֹ</he> when the potter examines a batch of his kiln; a. fr.—Pl. <he>כִּבְשׁוֹנוֹת</he>. ",
+				"<cite ref=\"Bava Kamma 82b:12\">B. Kam. 82ᵇ</cite> <he>אין עושין בה כ׳</he> no furnaces were erected in Jerusalem; <cite ref=\"Chagigah 26a:9\">Ḥag. 26ᵃ</cite>; <cite ref=\"Zevachim 96a:1\">Zeb. 96ᵃ</cite>. ",
+				"<cite ref=\"Zevachim 96a:1\">Ib.</cite> <he>נהדרינהו לכ׳</he> Ms. M. (ed. <he>אהדר׳</he>) let them be put back into the furnaces (to be baked over). ",
+				"<cite ref=\"Tosefta Bava Batra 1:10\">Tosef. B. Bath. I, 10</cite> <he>מרחיקין את הכ׳ וכ׳</he> (ed. Zuck. <cite ref=\"K00092\"><he>כבשנית</he></cite>, corr. acc.) furnaces must be removed from the town fifty cubits."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that which is withheld, secret</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 13a\">Ḥag. 13ᵃ</cite> (play on <he>כבשים</he>, <cite ref=\"Proverbs 27:26\">Prov. XXVII, 26</cite>) <he>א״ת כבשים אלא כְּבוּשִׁים דברים שהם כִּבְשׁוֹנוֹ של עולם וכ׳</he> Ms. M. read not <i>K’basim</i> but <i>K’bushim</i>, things which are the secret of the world (esoteric doctrines) must be kept under one’s garment (in one’s bosom)."
+			],
+			"label": "2"
+		}
+	]
+}

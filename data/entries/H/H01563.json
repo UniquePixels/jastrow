@@ -1,0 +1,57 @@
+{
+	"id": "H01563",
+	"slug": "חקק-1",
+	"headword": {
+		"text": "חָקַק"
+	},
+	"page": {
+		"number": 497,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H00439\"><he>חוּק</he></cite>)<i>to draw a circle, to limit;</i>",
+			"units": []
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"H01547\"><he>חֹק</he></cite>) <i>to legislate</i>. Y. Kil. I, 27ᵇ top, a. e. <he>שחָקַקְתִּי</he>, v. <cite ref=\"H00441\"><he>חוֹק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 19:8\">Num. R. s. 19</cite>, beg., v. <cite ref=\"H00442\"><he>חוּקָּה</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to hollow out, to shape a receptacle</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:3:5\">Y. Bets. I, 60ᵇ</cite> bot. <he>קערה שחֲקָקָהּ קוף</he> a dish which an ape has hollowed out.—Part. pass. <he>חָקוּק</he>, f. <cite ref=\"H01551\"><he>חֲקוּקָה</he></cite>. ",
+				"<cite ref=\"Tosefta Bava Batra 3:1\">Tosef. B. Bath. III, 1</cite>; <cite ref=\"Bava Batra 65b:6\">B. Bath. 65ᵇ</cite>, a. e. <he>מכתשת הח׳</he> the mortar which has been hollowed out (of stone &c.), opp. <he>הקבועה</he> stationary in the ground."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to engrave, write with the stilus</i>. Tanḥ. Ki Thissa 14, v. <he>הָרַט</he>. ",
+			"units": [
+				"<cite ref=\"Gittin 20a:11\">Gitt. 20ᵃ</cite> <he>וכתב ולא וח׳</he> ‘he writes’ (<cite ref=\"Deuteronomy 24:1\">Deut. XXIV, 1</cite>) but not ‘he engraves’ (on tablets &c.). ",
+				"<cite ref=\"Deuteronomy 24:1\">Ib.</cite> <he>חָק תוכות</he> he chisels out the surroundings (making the letters come out in relief); <he>חק יריכות</he> he digs the sides, i.e. he engraves the letters. ",
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite>; s. 78 <he>שאיקונין שלך חֲקוּקָה וכ׳</he> whose picture is engraven above (in the heavenly throne). ",
+				"<cite ref=\"Jerusalem Talmud Yoma 4:1:2\">Y. Yoma IV, beg. 41ᵇ</cite> <he>חֲקוּקִים היו</he> the inscriptions were engraven (not written with ink). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:8:7\">Y. Ned. VI, 40ᵃ</cite> top <he>מפני צלמי … שחקוקים וכ׳</he> on account of the Chaldean images which were engraven on the walls (<cite ref=\"Ezekiel 23:14\">Ez. XXIII, 14</cite>); a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְקַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be hollowed out</i>. Y. Erub. II, 20ᵃ top <he>אם תֵּיחָקֵק</he> if the block be hollowed out. ",
+					"units": [
+						"<cite ref=\"Sotah 36b:15\">Sot. 36ᵇ</cite> <he>שיֵחָקֵק על וכ׳</he> (not <he>שיחקוק</he>) to have his name engraven on the jewels &c.; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

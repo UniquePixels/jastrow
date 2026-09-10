@@ -1,0 +1,68 @@
+{
+	"id": "Q00796",
+	"slug": "פיקא-1",
+	"headword": {
+		"text": "פִּיקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיקָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1169,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>פקק</he>; cmp. <cite ref=\"Q01507\"><he>פְּקַעַת</he></cite>) <i>lump, ball, swelling</i>, esp. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>protruding cartilage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 10:4\">Ḥull. X, 4</cite> (<cite ref=\"Chullin 134b:14\">134ᵇ</cite>) <he>פ׳ של גרגרת</he> thyroid cartilage; <cite ref=\"Mishnah Negaim 10:9\">Neg. X, 9</cite>. ",
+				"<cite ref=\"Mishnah Negaim 10:10\">Ib. 10</cite> <he>פ׳ של צואר</he> the protruding cartilage of the neck; <cite ref=\"Tosefta Negaim 4:12\">Tosef. ib. IV, 12</cite> <he>פ׳ של פירקא</he>. ",
+				"<cite ref=\"Mishnah Bekhorot 7:6\">Bekh. VII, 6</cite> (<cite ref=\"Bekhorot 45a:1\">45ᵃ</cite>) <he>פ׳ יוצאה מגודלו</he> (not <he>יצא</he>) one that has a lump on his thumb; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a protuberance on the blossom end of fruits</i>, v. <cite ref=\"Q00629\"><he>פִּיטְמָא</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:6:3\">Y. Succ. III, 53ᵈ</cite> <cite ref=\"Q00796\"><he>פיקא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>spinner’s coil</i>. Ohol. VII, 4 <he>עד שיעגילו ראש כפ׳</he> until the embryos (on leaving the vagina) form a round head like a coil; expl. ",
+			"units": [
+				"<cite ref=\"Bekhorot 22a:5\">Bekh. 22ᵃ</cite> <he>כפ׳ של צמר</he> like a coil of wool. ",
+				"<cite ref=\"Bekhorot 22a:5\">Ib.</cite>; <cite ref=\"Tosefta Ohalot 8:8\">Tosef. Ohol. VIII, 8</cite> <he>פ׳ של שתי</he> the coil containing the warp; <he>פ׳ של ערב</he> containing the woof. Bekh. l. c. <he>נראית פ׳ מתוך פ׳</he> it has the appearance of a coil coming forth out of a coil, v. <cite ref=\"I00657\"><he>טְפִיפִית</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (<he>של כוש</he>) <he>פ׳</he> <i>whorl</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:6\">Kel. XI, 6</cite>. ",
+				"<cite ref=\"Mishnah Parah 12:8\">Par. XII, 8</cite>; a. e."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>coil</i> or <i>tuft</i> used as <i>a stopper</i> (v. <cite ref=\"Q01514\"><he>פָּקַק</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 17:12\">Kel. XVII, 12</cite>.—Pl. <cite ref=\"Q00812\"><he>פִּיקִין</he></cite>; <he>פִּיקוֹת</he>. ",
+				"<cite ref=\"Bekhorot 45a:4\">Bekh. 45ᵃ</cite> <he>בעל הפיקין</he> (not <he>הקיפין</he>) one afflicted with lumps; (Ar. Var. <he>הפיקס</he>; Ar. s. v. <cite ref=\"K00961\"><he>כסת</he></cite>: <he>הפִּיקָן</he>; Mish. ib. VII, 6 <he>בעל פיקה</he>; Talm. ed. 45ᵃ <he>הפיקום</he>, Rashi: <he>הפיקין</he>). Ib. 22ᵃ <he>שלש פ׳ שמעתי וכ׳</he> I learned of three sizes of coils, one of the warp, one of the woof, and one large coil, that of the sack-weavers; <cite ref=\"Tosefta Keilim Metsia 7:1\">Tosef. Kel. B. Mets. VII, 1</cite>, v. <cite ref=\"O01466\"><he>סַקָּי</he> I</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 14:3\">Lev. R. s. 14</cite> <he>פ׳ פ׳</he> coils upon coils (in the abdomen). ",
+				"<cite ref=\"Tosefta Ohalot 13:5\">Tosef. Ohol. XIII, 5</cite>, v. <cite ref=\"L00118\"><he>לָבַשׁ</he></cite>; a. e."
+			],
+			"label": "5"
+		}
+	]
+}

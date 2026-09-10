@@ -1,0 +1,30 @@
+{
+	"id": "B00303",
+	"slug": "בועתא-1",
+	"headword": {
+		"text": "בּוּעֲתָא",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּתָא"
+		}
+	],
+	"page": {
+		"number": 147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B00300\"><he>בּוּעָא</he></cite>) <i>abscess</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 84b\">Snh. 84ᵇ</cite> <he>למיפתח בוע׳</he> Ar. (Var. Ar. <he>בותא</he>, ed. <cite ref=\"K00206\"><he>כוותא</he></cite>) to cut open an abscess. [<cite ref=\"Aramaic Targum to Proverbs 23:29\">Targ. Prov. XXIII, 29</cite> (Var. <cite ref=\"Q00165\"><he>פודעתא</he></cite>).—Pl. <he>בּוּעֲתָתָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:30\">Ib. XX, 30</cite> (Var. <cite ref=\"Q00165\"><he>פודעתא</he></cite>).]"
+			]
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "Q01387",
+	"slug": "פעם-1",
+	"headword": {
+		"text": "פָּעַם"
+	},
+	"page": {
+		"number": 1202,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to beat, knock</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיעֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to beat, perturb</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 18:4\">Gen. R. s. 18</cite> (play on <he>הפעם</he>, <cite ref=\"Genesis 2:23\">Gen. II, 23</cite>) <he>זו היא שהיתה מְפַעַמְתֵּנִי וכ׳</he> this is she who perturbed me the whole night; Yalk. ib. 24 (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְעַם"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְפָּעַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be perturbed, troubled</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 89\">Gen. R. s. 89</cite>; Tanḥ. Miḳḳ. 2 (distinction between <he>וַתִּפָּעֶם</he> (<cite ref=\"Genesis 41:8\">Gen. XLI, 8</cite>) and <he>וַתִּתְפָּעֶם</he> (<cite ref=\"Daniel 2:1\">Dan. II, 1</cite>); Yalk. Dan. 1060; <cite ref=\"Yalkut Shimoni on Torah 147\">Yalk. Gen. 147</cite>. ",
+						"<cite ref=\"Midrash Tehillim 77:2\">Midr. Till. to Ps. LXXVII</cite> <he>מִתְפָּעֶמֶת אני והולכת</he> I am constantly perturbed (sleepless); a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

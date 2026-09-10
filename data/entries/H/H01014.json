@@ -1,0 +1,36 @@
+{
+	"id": "H01014",
+	"slug": "חלזונא",
+	"headword": {
+		"text": "חִלְזוֹנָא"
+	},
+	"page": {
+		"number": 466,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01013\">same</cite><i>purple-fish; snail</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:19\">Targ. Y. I Deut. XXXIII, 19</cite> (v. ",
+				"<cite ref=\"Megillah 6a:7\">Meg. 6ᵃ</cite>).—Pl. <he>חִלְזוֹנֵי</he>. ",
+				"<cite ref=\"Avodah Zarah 28b:3\">Ab. Zar. 28ᵇ</cite>, v. <cite ref=\"M02956\"><he>מִשְׁקְדֵי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>beetle</i> or <i>locust</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:42\">Targ. Y. Deut. XXVIII, 42</cite> Ar. (ed. <cite ref=\"H01097\"><he>חלנונא</he></cite>, h. text <he>צלצל</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>an affection of the eye</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 21:20\">Targ. Y. I Lev. XXI, 20</cite> Ar. a. oth. (ed. <cite ref=\"H01013\"><he>חִלָּזוֹן</he></cite>; Y. II <he>יחלזווה</he>, read: <he>דחִלְזוֹנָה</he>; v. <cite ref=\"H01034\"><he>חִלִּיז</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

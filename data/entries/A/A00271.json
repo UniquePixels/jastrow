@@ -1,0 +1,28 @@
+{
+	"id": "A00271",
+	"slug": "אגוסטוס",
+	"headword": {
+		"text": "אָגוּסְטוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אגושטוס"
+		}
+	],
+	"page": {
+		"number": 11,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Augustus</i>, title of the Roman emperor, in gen. <i>ruler, sovereign</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:10\">Y. Ber. IX, 12ᵈ</cite> bot. as one uses indiscriminately <he>בסיליוס קיסר א׳</he> (βασιλεύς) Basileus, Cæsar, Augustus; <cite ref=\"Bereishit Rabbah 8:9\">Gen. R. s. 8</cite> (corr. acc.). ",
+				"<cite ref=\"Shemot Rabbah 23:1\">Ex. R. s. 23</cite>, beg.; a. fr.—[<cite ref=\"Bereishit Rabbah 12:10\">Gen. R. s. 12</cite> <he>א׳ במדינה</he> ed. (Ar. <cite ref=\"A00237\"><he>אגבאסטס</he></cite>) read <cite ref=\"A00264\"><he>אַגְוִיסְטוֹר</he></cite> or <he>אַגְבָאִיסְטוֹר</he> v. <cite ref=\"A02098\"><he>אנגיטוס</he></cite>.]"
+			]
+		}
+	]
+}

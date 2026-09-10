@@ -1,0 +1,28 @@
+{
+	"id": "S00340",
+	"slug": "קוליינין",
+	"headword": {
+		"text": "קוֹלְיָינִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָלְיָי׳"
+		}
+	],
+	"page": {
+		"number": 1328,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S01316\"><he>קלי</he></cite>; cmp. <cite ref=\"S00317\"><he>קוֹלָא</he> I</cite>) <i>curtained enclosures, canopies</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 6:4\">Cant. R. to VI, 4</cite> (expl. <he>עגלות צב</he>, <cite ref=\"Numbers 7:3\">Num. VII, 3</cite>) <he>דומות לק׳</he> (not <he>נון …</he>) resembling canopies (v. <cite ref=\"A02544\"><he>אִסְקְפַסְטִי</he></cite>); <cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>לקל׳</he>; (Yalk. ib. 713 <he>לקליעות</he>; Pesik. Vayhi, p. 8ᵃ <he>לקילקילין</he>, Ar. <he>לקוליינין</he>)."
+			]
+		}
+	]
+}

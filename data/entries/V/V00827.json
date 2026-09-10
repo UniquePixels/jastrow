@@ -1,0 +1,33 @@
+{
+	"id": "V00827",
+	"slug": "תפל-3",
+	"headword": {
+		"text": "תָּפֵל"
+	},
+	"page": {
+		"number": 1686,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00826\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) [<i>paste, viscous substance</i>,] <i>tasteless matter, insipid, not salted</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 128a:20\">Sabb. 128ᵃ</cite> <he>בשר ת׳</he> unsalted (raw) meat, opp. <cite ref=\"M01552\"><he>מליח</he></cite>. ",
+				"<cite ref=\"Shabbat 128a:20\">Ib.</cite> <he>דג ת׳</he> raw fish."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dependent, child.—</i>Pl. <cite ref=\"V00819\"><he>תְּפֵילִין</he></cite>. Y. Shebi. VII, beg. 37ᵇ, v. <cite ref=\"A01819\"><he>אֲלוּנְטִית</he> II</cite>; [perh. <he>לת׳</he> for <i>pastes, plasters</i>].—[<cite ref=\"Tosefta Sotah 6:8\">Tosef. Sot. VI, 8</cite> <he>על התפל</he> ed. Zuck., v. <cite ref=\"V00830\"><he>תִּפְלָה</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

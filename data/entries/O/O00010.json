@@ -1,0 +1,45 @@
+{
+	"id": "O00010",
+	"slug": "סאובתא",
+	"headword": {
+		"text": "סְאוֹבְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוֹאַבְתָּא"
+		},
+		{
+			"text": "סוֹבְתָא"
+		}
+	],
+	"page": {
+		"number": 947,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00009\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>uncleanness,</i> esp. <i>menstruation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:11\">Targ. Ez. XXIV, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 18:11\">Targ. Y. Gen. XVIII, 11</cite> (ed. Vien. <cite ref=\"O00241\"><he>סוּבְתָּא</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 15:25\">Targ. Lev. XV, 25</cite>; <cite ref=\"Onkelos Leviticus 15:31\">31</cite> (some ed. <he>סְאוּב׳</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " cmp. (<cite ref=\"N00215\"><he>נִדָּה</he></cite>) <i>menstruant</i>. Targ. O. ib. 33 (Y. <he>סֵיאוּבְתָּא</he>; some ed. <he>סֵיאִיבְ׳</he>); a. e.—Pl. <cite ref=\"O00225\"><he>סוֹאֲבָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 29:16\">Targ. II Chr. XXIX, 16</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 16:16\">Targ. O. Lev. XVI, 16</cite>; <cite ref=\"Onkelos Leviticus 16:19\">19</cite> <cite ref=\"O00223\"><he>סוֹאֲבַת</he></cite> constr. (Y. <he>סוֹאֲבוֹת</he> Hebraism); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

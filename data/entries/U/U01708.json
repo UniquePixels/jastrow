@@ -1,0 +1,31 @@
+{
+	"id": "U01708",
+	"slug": "שפד-1",
+	"headword": {
+		"text": "שָׁפַד"
+	},
+	"page": {
+		"number": 1613,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to chip, point</i>.—Denom. <cite ref=\"U01714\"><he>שְׁפוּד</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁפֵּד"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"U01714\"><he>שְׁפוּד</he></cite>) <i>to pierce</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 41a:22\">Snh. 41ᵃ</cite> <he>שִׁפְּדוֹ בייחור וכ׳</he> (or <he>שְׁפָדוֹ</he>) he pierced him with the shoot of a fig tree."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

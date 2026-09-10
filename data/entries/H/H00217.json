@@ -1,0 +1,72 @@
+{
+	"id": "H00217",
+	"slug": "חדש-1",
+	"headword": {
+		"text": "חָדַשׁ"
+	},
+	"page": {
+		"number": 427,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be bright</i>,] <i>to be new</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִדֵּשׁ", "חִידֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to renew, renovate, polish</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 29:12\">Lev. R. s. 29</cite> (ref. to <he>בחדש</he>, <cite ref=\"Psalms 81:4\">Ps. LXXXI, 4</cite>) <he>תְּחַדְּשׁוּ מעשיכם</he> ye shall polish (cleanse) your doings. ",
+						"<cite ref=\"Bereishit Rabbah 78:16\">Gen. R. s. 78</cite>, beg. (ref. to <cite ref=\"Lamentations 3:23\">Lam. III, 23</cite>) <he>אתה מְחַדְּשֵׁנוּ וכ׳</he> thou renewest our lives every morning; <he>אתה מח׳ לבוקרן וכ׳</he> thou inspirest us with new life in the morning (rise to power) &c., v. <cite ref=\"B01138\"><he>בֹּקֶר</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to commence anew, do again</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 7a:17\">R. Hash. 7ᵃ</cite>, a. e. (ref. to <cite ref=\"Numbers 28:14\">Num. XXVIII, 14</cite>) <he>חַדֵּשׁ והבא וכ׳</he> commence a new account and offer T’rumah of the new produces."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to promulgate a new law, to establish a new interpretation of a Biblical law; to find a new point</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 104a\">Sabb. 104ᵃ</cite>, a. fr. (ref. to <cite ref=\"Leviticus 26:46\">Lev. XXVI, 46</cite>) <he>אין נביא רשאי לְחַדֵּשׁ וכ׳</he> (v. Rabb. D. S. a. l.) since the promulgation of <i>these</i> laws no prophet has a right to issue a new law. Y. Erub. V, 22ᶜ bot. it is called the New Gate, because there <he>חִידְּשׁוּ וכ׳</he> (not <he>חו׳</he>) the Sof’rim instituted the interpretation (<i>Halakhah</i>); a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַדֵּשׁ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַדֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be renewed, to be established as a new interpretation</i> (cmp. Lat. novellae); <i>to be offered as a new point</i> <he>(דבר חדש</he>). Y. Yeb. VIII, 9ᶜ top (ref. to <cite ref=\"I Chronicles 8:9\">I Chr. VIII, 9</cite>) <he>שעל ידיה נִתְחַדְּשָׁה הלכה וכ׳</he> at her instance the new interpretation (of the law <cite ref=\"Deuteronomy 23:4\">Deut. XXIII, 4</cite>) was established; Midr. Sam. ch. XXII; <cite ref=\"Ruth Rabbah 4:6\">Ruth R. to II, 5</cite> <he>כבר נ׳ הלכה</he> the law has been interpreted long before. ",
+					"units": [
+						"<cite ref=\"Sotah 3b\">Sot. 3ᵇ</cite>, a. fr. <he>לא נשנית אלא בשביל דבר שנ׳ בה</he> the section is repeated for the sake of a new point added."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to change turns</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 26a:10\">Yoma 26ᵃ</cite> <he>משמרות מִתְחַדְּשׁוֹת</he> the Temple attendants are relieved."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

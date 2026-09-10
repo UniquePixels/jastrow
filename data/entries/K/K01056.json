@@ -1,0 +1,23 @@
+{
+	"id": "K01056",
+	"slug": "כפרן",
+	"headword": {
+		"text": "כַּפְרָן"
+	},
+	"page": {
+		"number": 662,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01046\"><he>כָּפַר</he></cite>) <i>denier, liar</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 41b:14\">Shebu. 41ᵇ</cite> <he>הוחזק כ׳</he> he is presumed to be a liar (and cannot be sworn). ",
+				"<cite ref=\"Shevuot 42a:1\">Ib. 42ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

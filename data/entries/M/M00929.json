@@ -1,0 +1,72 @@
+{
+	"id": "M00929",
+	"slug": "מחק-1",
+	"headword": {
+		"text": "מחַק"
+	},
+	"page": {
+		"number": 763,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"M00809\"><he>מָחָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to rub out, blot out</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>המוֹחֵק ע״מ וכ׳</he> he who rubs out in order to write over the erasure. ",
+				"<cite ref=\"Sotah 18a:2\">Sot. 18ᵃ</cite> <he>כתב אות אחת ומ׳ וכ׳</he> if he wrote (the adjuration of the Sotah) by writing and washing off letter by letter. ",
+				"<cite ref=\"Sotah 18a:2\">Ib.</cite> <he>ומְחָקָן לתוך וכ׳</he> and washed them off in one cup. ",
+				"<cite ref=\"Shabbat 75b:4\">Sabb. 75ᵇ</cite> <he>מ׳ אות גדולה</he> if he erased one large letter. ",
+				"<cite ref=\"Shabbat 75b:4\">Ib.</cite> <he>זה חומר במוֹחֵק וכ׳</he> in this case he who erases, is more severely dealt with than he who writes (on the Sabbath); a. fr.—Part. pass. <cite ref=\"M00832\"><he>מָחוּק</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 4:20\">Ab. IV, 20</cite> <he>נייר מ׳</he> erased papyrus (palimpsest)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to scrape, smooth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> (<cite ref=\"Shabbat 73a:8\">73ᵃ</cite>) <he>המעבד … והמוֹחֲקוֹ</he> Mish. a. Y. ed. (Bab. <he>והמְמַחֲקוֹ</he>) he who tans its skin, and he who scrapes it. Y. ib. 10ᶜ bot. <he>חייב משום מוחק</he> is guilty of an act coming under the category of scraping. Ib. 10ᵃ <he>המוֹחֲקָהּ</he> he who planes the beam; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to level, strike</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 5:11\">B. Bath. V, 11</cite> <he>לִמְחוֹק … יִמְחוֹק</he>, v. <cite ref=\"C00252\"><he>גָּדַשׁ</he></cite>. ",
+				"<cite ref=\"Shabbat 153b:5\">Sabb. 153ᵇ</cite>; <cite ref=\"Tosefta Shabbat 1:17\">Tosef. ib. I, 17</cite> <he>מָחֲקוּ סאה</he> they made the measure (of laws passed) just even (so that anything added would make it overflow), opp. <cite ref=\"C00252\"><he>גָּדַשׁ</he></cite>; Y. ib. I, 3ᶜ; a. fr.—V. <cite ref=\"M00832\"><he>מְחוֹק</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְחַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be blotted out</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 2:4\">Sot. II, 4</cite>, v. <cite ref=\"M00809\"><he>מָחָה</he></cite>. ",
+						"<cite ref=\"Sotah 18a:8\">Ib. 18ᵃ</cite> <he>קודם שנִמְחֲקָה מגילה</he> before the roll (containing the adjuration of the Sotah) has been washed off. ",
+						"<cite ref=\"Bava Batra 164a:10\">B. Bath. 164ᵃ</cite> <he>נ׳ בן יומו</he> an erasure of one day’s standing, <he>נ׳ בן שני ימים</he> an erasure two days old; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["מִיחֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to smooth, shave</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 73a\">Sabb. 73ᵃ</cite>, v. supra. Y. ib. VII, 10ᵈ top <he>חייב משום מְמַחֵק</he> is guilty of an act coming under the category of scraping; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

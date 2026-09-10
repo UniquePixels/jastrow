@@ -1,0 +1,36 @@
+{
+	"id": "V00671",
+	"slug": "תמחוי",
+	"headword": {
+		"text": "תַּמְחוּי"
+	},
+	"page": {
+		"number": 1676,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (denom. of <cite ref=\"M00862\"><he>מִחְיָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a plate for various dishes or portions, tray</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:1\">Kel. XVI, 1</cite>, v. <cite ref=\"M00776\"><he>מַזְנוֹן</he></cite>. ",
+				"<cite ref=\"Mishnah Nedarim 4:4\">Ned. IV, 4</cite> <he>אוכל … אבל לא מן הת׳</he> he may eat at the same table with him, but not from the same plate; <he>אבל … מן הת׳ החוזר</he> but he may eat with him from a plate which goes back to the host (each time a guest is served). ",
+				"<cite ref=\"Mishnah Maasrot 1:7\">Maasr. I, 7</cite> <he>נותן … ולת׳</he> he may put the oil on the cake (<cite ref=\"H01176\"><he>חֲמִיטָה</he></cite>) or on the plate. Y. B. Mets. VIII, end, 11ᵈ <he>השאילני תַּמְחוּיְיךָ וכ׳</he> (or <he>תַּמְחוּיֶיךָ</he>, <i>pl.</i>) lend me thy plate and dine with me; a. fr.—Esp. <i>tamḥuy, charity plate, daily distributed food collected from contributors, soup-kitchen</i>, contrad. to <cite ref=\"S00503\"><he>קוּפָּה</he></cite>, q. v. ",
+				"<cite ref=\"Mishnah Peah 8:7\">Peah VIII, 7</cite> <he>מי … לא יטול מן הת׳</he> he who has the means for two meals, must not accept support from the <i>tamḥuy</i>. ",
+				"<cite ref=\"Bava Batra 8b:17\">B. Bath. 8ᵇ</cite> <he>ת׳ נגבית בשלשה וכ׳</he> the <i>tamḥuy</i> is collected under the supervision of three persons, and distributed by three persons, for the mode of its collection and distribution is the same; <he>ת׳ לעניי העולם וכ׳</he> the <i>ṭ</i>. is for all poor people wherever they may come from, the <i>ḳuppah</i> for the town poor only. ",
+				"<cite ref=\"Mishnah Pesachim 10:1\">Pes. X, 1</cite> <he>אפילו מן הת׳</he> even if he is supported from the <i>ṭ</i>.; Y. ib. 37ᵇ bot.; a. fr.—<i>Pl.</i> <he>תַּמְחוּיִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:15\">Y. Ter. VIII, 45ᵈ</cite> top. ",
+				"<cite ref=\"Keritot 12b:47\">Ker. 12ᵇ</cite> <he>ת׳ מחלקין</he> (not <he>מחולקין</he>) trays form a separation, i.e. if one eats two half-olive sizes of forbidden food from two different plates, they are not counted together as one olive-size; <cite ref=\"Shabbat 71a:6\">Sabb. 71ᵃ</cite>; Y. ib. VII, 9ᵇ; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (from its shape) <i>the partition in a wagon for freight or baggage</i>, Maim.; (<i>a cavity in the yoke</i>, R. S.).—Pl. <he>תַּמְחוּיוֹת</he>. ",
+			"units": ["<cite ref=\"Mishnah Kelim 14:4\">Kel. XIV, 4</cite>."],
+			"label": "2"
+		}
+	]
+}

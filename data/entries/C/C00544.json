@@ -1,0 +1,36 @@
+{
+	"id": "C00544",
+	"slug": "גזיזא",
+	"headword": {
+		"text": "גְּזִיזָא"
+	},
+	"page": {
+		"number": 229,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גזז</he>) <i>cut off</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>branch, club</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 7a:13\">Snh. 7ᵃ</cite> <he>אדייה לגְּזִיזֵיה וכ׳</he> lifted up his club and stood (against me; Rashi: his <i>fist</i>). ",
+				"<cite ref=\"Bava Kamma 5a:4\">B. Kam. 5ᵃ</cite> <he>תבריה ר״ע לגזיזיה</he> R. Akiba has broken the force of his club (Rashi: <i>fist</i>), i.e. modified his opinion; <cite ref=\"Bava Kamma 42b\">ib. 42ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>piece</i>. <he>ג׳ דברדא</he> <i>a piece of ice</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 11:22\">Targ. I Chr. XI, 22</cite> <he>תבר ג׳ דב׳ וכ׳</he> he cut a hole in the ice and bathed; <cite ref=\"Berakhot 18b:2\">Ber. 18ᵇ</cite> <he>גְּזִיזֵי</he>.—Pl. <he>גְּזִיזֵי</he>. ",
+				"<cite ref=\"Berakhot 59a:7\">Ib. 59ᵃ</cite> <he>גְּזִיזַיָּיה דברדא</he> Ar. (ed. <he>גזיזי דברזא</he>) hail-stones (Ms. M. <he>בְּזִיזַיָּה דנורא</he> or <he>בְּזָאַיָּה</he>, Ms. F. <he>גְּזִירֵי</he>, v. Rabb. D. S. a. l. note)."
+			],
+			"label": "2"
+		}
+	]
+}

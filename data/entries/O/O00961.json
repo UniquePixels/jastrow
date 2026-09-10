@@ -1,0 +1,27 @@
+{
+	"id": "O00961",
+	"slug": "סלווכיא",
+	"headword": {
+		"text": "סַלְוַוכְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַלְוַוקְיָא"
+		}
+	],
+	"page": {
+		"number": 994,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Σελευκία) <i>Salvakhia</i> (<i>Seleucia</i>), in north-eastern Palestine (an anachronistic adaptation of <he>סַלְכָה</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 3:10\">Targ. Y. Deut. III, 10</cite>; <cite ref=\"Targum of I Chronicles 5:11\">Targ. I Chr. V, 11</cite> (Ar. <cite ref=\"O00981\"><he>סליוקא</he></cite>)."
+			]
+		}
+	]
+}

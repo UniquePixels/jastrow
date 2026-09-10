@@ -1,0 +1,50 @@
+{
+	"id": "D00232",
+	"slug": "דוי-1",
+	"headword": {
+		"text": "דוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּוָה"
+		}
+	],
+	"page": {
+		"number": 284,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"D00005\"><he>דָּאַב</he></cite>) [<i>to drip, melt away</i>,] <i>to mourn, repine</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 23b:8\">Nidd. 23ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 21:17\">Deut. XXI, 17</cite> <cite ref=\"A02141\"><he>אֹנוֹ</he></cite>, cmp. <cite ref=\"D00236\"><he>דְּוַי</he></cite>) <he>מי שלבו דָוֶה עליו</he> a child over whose death his (the father’s) heart is grieved. ",
+				"<cite ref=\"Berakhot 16b:21\">Ber. 16ᵇ</cite> <he>אל יִדְיֶה לבנו</he> may our heart not sink. ",
+				"<cite ref=\"Kiddushin 81b:7\">Kidd. 81ᵇ</cite> <he>יִדְווּ כל הדָּוִוים</he> let all those mourn who feel the affliction; <cite ref=\"Nazir 23a\">Naz. 23ᵃ</cite>. ",
+				"<cite ref=\"Yevamot 47a\">Yeb. 47ᵃ</cite> the Israelites … are <he>דווים</he> (some ed. <he>דְּווּיִים</he>, Part. pass.) broken down (under persecution). ",
+				"<cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite>; s. 74; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְוֶוה"],
+			"senses": [
+				{
+					"gloss": "<i>to be afflicted</i>. Pesik. Asser, p. 96ᵃ <he>על אותו האיש שנ׳</he> over this man (me) in his affliction; Tanḥ. R’eeh ed. Bub. 7 (Tanḥ. ib. 10 <he>שנידוהו</he>, <cite ref=\"Yalkut Shimoni on Torah 892\">Yalk. Deut. 892</cite>; <cite ref=\"Yalkut Shimoni on Nach 962:5\">Yalk. Prov. 962</cite> <he>שנדוהו</he>, corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִדְוֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to afflict</i>. Y. R. Hash. I, 57ᵇ bot. <he>מַדְוֶה לה וכ׳</he> afflicts it (the year, causes prayers and fasting from fear of failure of the crop) in its beginning.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

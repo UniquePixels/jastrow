@@ -1,0 +1,28 @@
+{
+	"id": "Q01525",
+	"slug": "פקתא-2",
+	"headword": {
+		"text": "פִּקְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1212,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"B01150\"><he>בִּקְתָא</he></cite>, <i>valley</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 34b\">Ber. 34ᵇ</cite> bot. Ar. (ed. <cite ref=\"B00002\"><he>ב׳</he></cite>). Ib. 54ᵃ; <cite ref=\"Nazir 43b:1\">Naz. 43ᵇ</cite> <he>פ׳ דערבות</he>, v. <cite ref=\"P01277\"><he>עֲרָבוֹת</he> II</cite>.—",
+				"<cite ref=\"Chullin 31a:3\">Ḥull. 31ᵃ</cite> <he>דכולה פתקא</he> (corr. acc., v. Rabb. D. S. a. l.) of the entire valley."
+			]
+		}
+	]
+}

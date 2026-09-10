@@ -1,0 +1,21 @@
+{
+	"id": "Q01828",
+	"slug": "פריקא",
+	"headword": {
+		"text": "פְּרִיקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1227,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"Q01981\"><he>פְּרַק</he></cite>) <i>broken, loose, remote</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 13:19\">Targ. Prov. XIII, 19</cite> <he>פ׳ מן ידיעתא</he> (h. text <he>סור מרע</he>! v. LXX a. Pesh.).—",
+				"<cite ref=\"Berakhot 54a:13\">Ber. 54ᵃ</cite> <he>גמלא פ׳</he> Ms. M., v. <cite ref=\"Q01824\"><he>פְּרִיצָא</he></cite>."
+			]
+		}
+	]
+}

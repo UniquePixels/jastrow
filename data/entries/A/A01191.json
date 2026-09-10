@@ -1,0 +1,23 @@
+{
+	"id": "A01191",
+	"slug": "איזגדר",
+	"headword": {
+		"text": "אִיזְגְּדַר"
+	},
+	"page": {
+		"number": 46,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (for <he>איזדגרד</he>) <i>Yesdigerd, Yezdjird</i>, a Persian King. ",
+			"units": [
+				"<cite ref=\"Zevachim 19a:2\">Zeb. 19ᵃ</cite> top. ",
+				"<cite ref=\"Ketubot 61a\">Keth. 61ᵃ</cite> bot. <he>אזגוד</he> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "C00767",
+	"slug": "גיניסר",
+	"headword": {
+		"text": "גִּינֵּיסַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּינּוֹ׳"
+		},
+		{
+			"text": "גְּנֵי׳"
+		},
+		{
+			"text": "גְּנוֹ׳"
+		}
+	],
+	"page": {
+		"number": 240,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Γεννησάρ, Γεννησαρέτ, a hellenization of <cite ref=\"K00879\"><he>כִּנֶּרֶת</he></cite>) <i>Gennesar, Gennesaret</i>, lake, town and district of G. ",
+			"units": [
+				"<cite ref=\"Pesachim 8b:10\">Pes. 8ᵇ</cite> <he>פירות גינו׳</he> Gennes. fruits. ",
+				"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> (etymology) <cite ref=\"C01117\"><he>גנוסר</he></cite> = <he>גני שרים</he> princely gardens; <cite ref=\"Megillah 6a:1\">Meg. 6ᵃ</cite>, v. <cite ref=\"K00876\"><he>כִּנָּרָא</he></cite>; a. e.—Pl. <he>גִּינֵּיסַרְיוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:1:9\">Y. Meg. I, 70ᵃ</cite> bot. <he>שני גו׳ היו</he> (corr. acc.) were there two places of the name of G.?"
+			]
+		}
+	]
+}

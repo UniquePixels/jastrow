@@ -1,0 +1,29 @@
+{
+	"id": "A02028",
+	"slug": "אמיתא",
+	"headword": {
+		"text": "אַמִּיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַמִּיתָא"
+		}
+	],
+	"page": {
+		"number": 77,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A02037\"><he>אמם</he></cite>, <he>חמם</he>) <i>ammi</i>, <i>Bishop’s weed</i> (v. Löw Pflzn. p. 260; Rashi = <cite ref=\"M01235\"><he>מינתא</he></cite> <i>mint</i>). ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 14:13\">Tosef. Sabb. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:13\">XV</cite>), 13 <he>א׳</he> (Var. <cite ref=\"H00001\"><he>ח׳</he></cite>). ",
+				"<cite ref=\"Shabbat 128a:14\">Sabb. 128ᵃ</cite>; <cite ref=\"Shabbat 140a:8\">140ᵃ</cite>, v. <cite ref=\"N00695\"><he>נִינְיָא</he></cite>. ",
+				"<cite ref=\"Tosefta Kilaim 3:12\">Tosef. Kil. III, 12</cite>, Var. (ed. Zuck. <cite ref=\"H01175\"><he>חמיטא</he></cite>)."
+			]
+		}
+	]
+}

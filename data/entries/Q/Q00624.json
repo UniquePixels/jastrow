@@ -1,0 +1,28 @@
+{
+	"id": "Q00624",
+	"slug": "פיטטא",
+	"headword": {
+		"text": "פִּיטְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּטְ׳"
+		}
+	],
+	"page": {
+		"number": 1161,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q00506\"><he>פַּטָּטָא</he></cite>) <i>talk, discussion</i>.—Pl. <he>פִּיטְטַיָּא</he>, <cite ref=\"Q00753\"><he>פִּיטְטִין</he></cite>, <cite ref=\"Q00624\"><he>פִּטְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:19\">Y. Ber. IX, end, 14ᵈ</cite> <he>כל פ׳ בישין ופ׳ וכ׳</he> all discussions are bad, only those about the Law are good. ",
+				"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> (transl. <he>למי שיח</he>, <cite ref=\"Proverbs 23:29\">Prov. XXIII, 29</cite>) <he>למאן פ׳</he> who has disputes?; <cite ref=\"Yalkut Shimoni on Nach 960:35\">Yalk. Prov. 960</cite> (not <he>פטשין</he>); <cite ref=\"Esther Rabbah 5:2\">Esth. R. to II, 1</cite> <he>(ר׳ עזריה</he>).—[<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> <he>חד פטטיא</he> Ar., read <he>הדין פ׳</he>, v. <cite ref=\"M01581\"><he>מִלְכָי</he></cite>.]"
+			]
+		}
+	]
+}

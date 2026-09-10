@@ -1,0 +1,27 @@
+{
+	"id": "A00412",
+	"slug": "אדכרו",
+	"headword": {
+		"text": "אִדְכָּרוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִדְכָּרוּתָא"
+		}
+	],
+	"page": {
+		"number": 16,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A00411\">foreg.</cite>) <i>remembrance, mention</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 30:5\">Targ. Ps. XXX, 5</cite> Ms. … <he>רוּ</he>; ed. <he>רוּת …</he>"
+			]
+		}
+	]
+}

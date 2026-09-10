@@ -1,0 +1,78 @@
+{
+	"id": "G00191",
+	"slug": "זון-1",
+	"headword": {
+		"text": "זוּן"
+	},
+	"page": {
+		"number": 387,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>זוד</he>) <i>to provide, outfit; to sustain</i>, esp. <i>to feed</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 1:6\">Gitt. I, 6</cite> <he>שלא לָזוּן את וכ׳</he> not to sustain his slave. ",
+				"<cite ref=\"Gittin 12a:4\">Ib. 12ᵃ</cite> <he>איני זָנְךָ</he> I will not support thee. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:2:3\">Y. Keth. V, 29ᵈ</cite> top <he>שתהא זוֹנְתוֹ ומפרנסתי</he> (for <he>זָנְתוֹ</he>) that she should provide for all his wants. ",
+				"<cite ref=\"Shabbat 104a\">Sabb. 104ᵃ</cite> <he>ז״ח ז̇ן</he> … <he>וח̇ן וכ׳</he> He supports and graces thee; a. fr.—",
+				"<cite ref=\"Berakhot 35b\">Ber. 35ᵇ</cite>, a. e. <he>כל הזן עלי</he> I vow abstinence from whatever sustains the body.—Trnsf. <i>to feed the eye, to derive pleasure from a sight</i> (mostly of an illicit sight). Ohol. XIII, 4 one makes an opening in the wall <he>לזון את עיניו</he> for the sake of enjoying a view; Tosef. ib. XIV, 4. ",
+				"<cite ref=\"Pesachim 26a:4\">Pes. 26ᵃ</cite> <he>כדי שלא יָזוּנוּ עיניהם וכ׳</he> that the laborers might not look at the Holy of Holies. ",
+				"<cite ref=\"Vayikra Rabbah 20:10\">Lev. R. s. 20</cite> <he>לא זן עיניו מן וכ׳</he> did not look at the Divine Majesty. ",
+				"<cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>, end <he>ואינו זן וכ׳</he> and does not allow his eye to rest on an obscenity; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נָזוֹן", "נִיזּוֹן"],
+			"senses": [
+				{
+					"gloss": "<i>to be fed, sustained</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 12b:8\">Gitt. 12ᵇ</cite> <he>נ׳ מן הצדקה</he> must be supported from the public charity. ",
+						"<cite ref=\"Gittin 12b\">Ib.</cite> (distinction betw. <cite ref=\"N00002\"><he>נ׳</he></cite> a. <cite ref=\"Q01896\"><he>התפרנס</he></cite>, v. <cite ref=\"Q01897\"><he>פַּרְנֵס</he></cite>). ",
+						"<cite ref=\"Taanit 24b\">Taan. 24ᵇ</cite>. ",
+						"<cite ref=\"Mishnah Ketubot 11:1\">Keth. XI, 1</cite> <he>נִיזּוֹנֶת מנכסי וכ׳</he> must be supported from the estate &c."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵזִין"],
+			"senses": [
+				{
+					"gloss": "<i>to bless with plenty</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 10b\">Keth. 10ᵇ</cite>, v. <cite ref=\"G00153\"><he>זוּחַ</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["זִיֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to outfit, decorate; to gird, arm</i> (cmp. <cite ref=\"G00138\"><he>זָוָוא</he> I</cite>, a. P. Sm. 1102 sq.) <cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> (ref. to <he>יחליץ</he>, <cite ref=\"Isaiah 58:11\">Is. LVIII, 11</cite>) <he>ישמוט יְזַיֵּין וכ׳</he> it has the meanings of ‘he will loosen’, ‘he will arm’, ‘he will rescue’, ‘he will give rest’.—<i>Part. pass.</i> <he>מְזוּיָּן</he>, <cite ref=\"M02079\"><he>מְזוּיָּין</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 57a:14\">B. Kam. 57ᵃ</cite> <he>לסטים מ׳</he> a robber in arms; <he>טוען טענת ל׳ מ׳</he> he pleads that he has been robbed by &c. Ib. 58ᵃ; a. e.—Pl. <he>מְזוּיָּנִין</he>. ",
+						"<cite ref=\"Shemot Rabbah 20\">Ex. R. s. 20</cite> (expl. <he>חמשים</he>, <cite ref=\"Exodus 23:8\">Ex. XXIII, 8</cite>) <he>שעלו מ׳</he> they went out fully equipped; Mekh. B’shall., beg.; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזְדַּיֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to arm one’s self, to fight</i>. Tanḥ. Ki Thabo 3 <he>מִזְדַּיֵּין על וכ׳</he> He goes to war in defense of him &c.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

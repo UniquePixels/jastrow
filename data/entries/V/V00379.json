@@ -1,0 +1,27 @@
+{
+	"id": "V00379",
+	"slug": "תחמין",
+	"headword": {
+		"text": "תַּחֲמִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפַר תַּחֲמִין"
+		}
+	],
+	"page": {
+		"number": 1662,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>K’far Tahămin</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 1:7:2\">Y. Taan. I, end, 64ᵈ</cite>; <cite ref=\"Jerusalem Talmud Ketubot 2:9:3\">Y. Keth. II, 26ᵈ</cite>"
+			]
+		}
+	]
+}

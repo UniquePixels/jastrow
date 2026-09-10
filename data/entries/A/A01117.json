@@ -1,0 +1,28 @@
+{
+	"id": "A01117",
+	"slug": "איבא-1",
+	"headword": {
+		"text": "אִיבָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אִבָּא"
+		}
+	],
+	"page": {
+		"number": 44,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"A00016\"><he>אֵב</he></cite>) <i>growth, fruit</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 4:3\">Targ. Gen. IV, 3</cite>; a. e.; v. <cite ref=\"A02086\"><he>אִנְבָּא</he></cite>."
+			]
+		}
+	]
+}

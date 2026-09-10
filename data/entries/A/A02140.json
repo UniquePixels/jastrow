@@ -1,0 +1,23 @@
+{
+	"id": "A02140",
+	"slug": "אנהרותא",
+	"headword": {
+		"text": "אַנְהָרוּתָא"
+	},
+	"page": {
+		"number": 82,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"A02139\">same</cite>, also <i>enlightenment</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 4:16\">Targ. Num. IV, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 2:7\">Targ. Y. Gen. II, 7</cite>."
+			]
+		}
+	]
+}

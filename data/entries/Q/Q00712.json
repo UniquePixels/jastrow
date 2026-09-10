@@ -1,0 +1,30 @@
+{
+	"id": "Q00712",
+	"slug": "פילקי",
+	"headword": {
+		"text": "פִּילָקִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּלָ׳"
+		}
+	],
+	"page": {
+		"number": 1165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (φυλακή) <i>prison</i>. Pesik. U’lkaḥ., p. 182ᵃ <he>איתייהב בפ׳</he> was put in prison; <cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite> <he>איתחבש בפ׳</he>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:16\">Ex. R. s. 15</cite> <he>נתנה בפ׳</he> he put her in prison. ",
+				"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30</cite>, v. <cite ref=\"B01033\"><he>בָּעַט</he> II</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>חבשתינון בסלקי</he> (corr. acc.).—Pl. <he>פִּילָקִיוֹת</he>, <cite ref=\"Q00712\"><he>פִּלָ׳</he></cite>. Pesik. Vayhi, p. 67ᵃ; <cite ref=\"Pesikta Rabbati 17:1\">Pesik. R. s. 17</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> (ref. to <cite ref=\"Esther 2:18\">Esth. II, 18</cite>, <he>והנחה</he>) <he>פיתח הפ׳</he> he opened the prisons."
+			]
+		}
+	]
+}

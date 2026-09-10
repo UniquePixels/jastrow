@@ -1,0 +1,27 @@
+{
+	"id": "P00822",
+	"slug": "עלם-5",
+	"headword": {
+		"text": "עֶלֶם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1084,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00818\"><he>עָלַם</he> I)</cite> [<i>vigorous</i>,] <i>lad</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 76b:17\">Yeb. 76ᵇ</cite> (ref. to <cite ref=\"I Samuel 17:55\">I Sam. XVII, 55</cite>, sq.) <he>התם קרי ליה נער והכא קרי ליה ע׳ וכ׳</he> there he calls him young man, and here, lad! He thus said to him, <he>הלכה נתעלמה ממך</he> thou hast forgotten the law (v. <cite ref=\"P00821\">preced.</cite>). ",
+				"<cite ref=\"Sanhedrin 95a:5\">Snh. 95ᵃ</cite> (in Chald. dict.) <he>ע׳ אייתי לי וכ׳</he>, v. <cite ref=\"Q01073\"><he>פִּלְכָא</he></cite>.—<i>Fem.</i> <cite ref=\"P00824\"><he>עַלְמָה</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite>, v. <cite ref=\"P00820\"><he>עָלַם</he> II</cite>.—Pl. <cite ref=\"P00825\"><he>עֲלָמוֹת</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:3:3\">Cant. R. to I, 3</cite> <he>חלים לפניו כע׳</he> they dance before him like maidens; <cite ref=\"Kohelet Rabbah 1:11:1\">Koh. R. to I, 11</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 2:4:5\">Y. Meg. II, 73ᵇ</cite> (in Chald. dict.) <he>כאילין ע׳</he>, v. <cite ref=\"P00809\"><he>עֲלִימוּת</he></cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "T00789",
+	"slug": "רמאי-2",
+	"headword": {
+		"text": "רַמַּאי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רַמָּאָה"
+		},
+		{
+			"text": "רַמָּיָיא"
+		}
+	],
+	"page": {
+		"number": 1481,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"T00788\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 29:12\">Targ. Y. Gen. XXIX, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 14:1\">Ib. XIV, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 12:17\">Targ. Prov. XII, 17</cite>; a. e.—",
+				"<cite ref=\"Devarim Rabbah 4:8\">Deut. R. s. 4</cite> <he>והיה שם … אבון ר׳</he> and there lived a man called Abun the deceiver; Y. Hor. III, 48ᵃ bot. <he>רבהון רַמָּיָיה</he> (corr. acc.); Tanḥ. R’eh 5; <cite ref=\"Vayikra Rabbah 5:4\">Lev. R. s. 5</cite> <he>אבא יודן ר׳</he> (not <cite ref=\"T00821\"><he>רמין</he></cite>); a. fr.—Pl. <he>רַמָּאִין</he>, <cite ref=\"T00788\"><he>רַמָּאֵי</he></cite>, <he>רַמָּיִין</he>. ",
+				"<cite ref=\"Bava Batra 46a:8\">B. Bath. 46ᵃ</cite> <he>ר׳ דפומבדיתא</he> the tricksters of Pumb’ditha; a. fr.—<i>Fem.</i> <cite ref=\"T00819\"><he>רַמַּיְיתָא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 70:19\">Gen. R. s. 70</cite> <he>ר׳ בת רמאה</he> deceiver, daughter of a deceiver."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lazy, lax</i>.—Pl. <cite ref=\"T00788\"><he>רַמָּאֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:24\">Targ. Prov. XII, 24</cite>.—V. <cite ref=\"T00810\"><he>רַמְיָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

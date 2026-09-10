@@ -1,0 +1,23 @@
+{
+	"id": "I00330",
+	"slug": "טיטוס",
+	"headword": {
+		"text": "טִיטוֹס"
+	},
+	"page": {
+		"number": 530,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Titus</i> (Flavius Sabinus Vespasianus), Roman general, later emperor, captor of Jerusalem. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:19\">Targ. Lam. I, 19</cite>.—",
+				"<cite ref=\"Gittin 56b:8\">Gitt. 56ᵇ</cite>; a. fr. (mostly with the by-name ‘the wicked’).—[<cite ref=\"Mishnah Sotah 9:14\">Sot. IX, 14</cite> (<cite ref=\"Sotah 49b:6\">49ᵇ</cite>) <he>פולמוס של ט׳</he>, v. Frankel Monatssch. 1852, p. 393 sq.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "T00463",
+	"slug": "רזבונית",
+	"headword": {
+		"text": "רַזְבּוֹנִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַזְבָּנִית"
+		}
+	],
+	"page": {
+		"number": 1464,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00462\">preced.</cite>) a species of <i>locusts</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 65a\">Ḥull. 65ᵃ</cite> <he>הרזבונ׳</he> Ar. (ed. <cite ref=\"E00847\"><he>הרזבנ׳</he></cite>, Ms. H. <he>זרבונית</he>, v. Rabb. D. S. a. l. note 3), v. <cite ref=\"A03050\"><he>אַרְזְבוֹנִית</he></cite>."
+			]
+		}
+	]
+}

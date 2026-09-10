@@ -1,0 +1,49 @@
+{
+	"id": "U01924",
+	"slug": "שרג-2",
+	"headword": {
+		"text": "שְׁרַג"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁרֵיג"
+		}
+	],
+	"page": {
+		"number": 1628,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"U02021\"><he>שְׁרַק</he></cite>, <i>to glide, slip</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 111a\">Ḥull. 111ᵃ</cite> <he>מִשְׁרַג שָׁרֵיג</he> Ar. a. Ms. R. 2 (ed. <he>משרק שריק</he>), v. <cite ref=\"U02022\"><he>שְׁרַק</he> II</cite>.—",
+				"<cite ref=\"Bava Metzia 93a:20\">B. Mets. 93ᵃ</cite> <he>שריג חד וכ׳</he> (Ms. H. <he>שוור</he>, v. <cite ref=\"U01923\">preced.</cite>) one of the animals slipped and fell &c.; <cite ref=\"Yalkut Shimoni on Torah 130\">Yalk. Gen. 130</cite> <he>שְׁרוֹג</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שָׁרֵיג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01923\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Nazir 39a:7\">Naz. 39ᵃ</cite> <he>שָׁרוּגֵי שְׁרִיגָא ואזלא</he> (not <he>ואזיל</he>; Rashi <he>שרוגי קא מִשְׁתָּרְגָא</he>) it may have slid further and further (to the top of the hair)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתָּרֵג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01923\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

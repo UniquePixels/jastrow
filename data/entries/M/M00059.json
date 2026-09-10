@@ -1,0 +1,32 @@
+{
+	"id": "M00059",
+	"slug": "מאפליה",
+	"headword": {
+		"text": "מַאְפֵּלְיָה"
+	},
+	"page": {
+		"number": 724,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M00058\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>darkness, gloom</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 267:3\">Yalk. Jer. 267</cite> (ref. to <cite ref=\"Jeremiah 2:31\">Jer. II, 31</cite>) <he>שמא … שהיא נאה והיא ארץ מ׳</he> did I tell them that it was a beautiful land, and it was a land of gloom?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (homil.) <i>lateness, procrastination</i>. Ib. <he>ד״א מאפילה שמא וכ׳</he> (corr. acc.) another interpretation; did I promise to bring you good things and procrastinate it? <he>ואין מ׳ אלא לשון הלקשה</he>, v. <cite ref=\"E00586\"><he>הַלְקָשָׁה</he></cite>; Tanḥ. B’midb. 2; Masé 9; <cite ref=\"Bamidbar Rabbah 1:2\">Num. R. s. 1</cite>; s. 23; <cite ref=\"Yalkut Shimoni on Torah 683:1\">Yalk. Num. 683</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

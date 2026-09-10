@@ -1,0 +1,43 @@
+{
+	"id": "M01321",
+	"slug": "מית-1",
+	"headword": {
+		"text": "מִית",
+		"homograph": 1
+	},
+	"page": {
+		"number": 780,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"M00691\"><he>מוּת</he></cite><i>to die, be dead</i>. Imperf. <cite ref=\"J00407\"><he>יְמוּת</he></cite>, <he>יֵימוּת</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 5:8\">Targ. Gen. V, 8</cite>. ",
+				"<cite ref=\"Onkelos Genesis 44:20\">Ib. XLIV, 20</cite>. ",
+				"<cite ref=\"Onkelos Numbers 20:29\">Targ. O. Num. XX, 29</cite> <he>ארי מית</he> (Var. <he>דהא מ׳</he>, <he>דְּהָמִית</he>, v. Berl. Targ. O. II, p. 44). ",
+				"<cite ref=\"Onkelos Genesis 2:17\">Targ. O. Gen. II, 17</cite> <he>מְמַת תְּמוּת</he> (ed. Amst. <he>מֵימַת</he>); a. v. fr.—<i>Part.</i> <cite ref=\"M00034\"><he>מָאִית</he></cite>, <cite ref=\"M01145\"><he>מָיֵית</he></cite>, <cite ref=\"M01321\"><he>מִית</he></cite>, <cite ref=\"M03002\"><he>מִת</he></cite>; f. <he>מָיְתָא</he>; pl. <he>מָיְיתִין</he>, <he>מָיְתִין</he>, <cite ref=\"M03056\"><he>מֵתִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 22:30\">Targ. Y. Num. XXII, 30</cite> <he>מָיְתָא</he> (ed. Amst. <cite ref=\"M01324\"><he>מִיתָא</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 12:33\">Targ. Ex. XII, 33</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 31a:3\">Ber. 31ᵃ</cite> <he>דמִיתְנָן</he> that we must die. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:25\">Y. Peah I, 15ᶜ</cite> bot. <cite ref=\"M01338\"><he>מִיתַת</he></cite> she (his mother) died. ",
+				"<cite ref=\"Sanhedrin 97a:6\">Snh. 97ᵃ</cite> <he>לא הוה מָיֵית איניש וכ׳</he> none of that place ever died before his time; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָמִית"],
+			"senses": [
+				{
+					"gloss": "<i>to cause death, slay</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 5:24\">Targ. O. Gen. V, 24</cite> <cite ref=\"M01321\"><he>אַמִית</he></cite> ed. Berl. (oth. ed. <cite ref=\"M01321\"><he>אַמִּית</he></cite>, <he>אֲמִ׳</he>). Ib. XXXVIII, 7 <he>אַמִּיתֵיה</he> ed. Berl. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 14:13\">Targ. I Sam. XIV, 13</cite> <he>מְמִית</he> (ed. Lag. <he>מְמֹתֵית</he> <i>Polel</i>); a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "M01369",
+	"slug": "מכות",
+	"headword": {
+		"text": "מָכוּת"
+	},
+	"page": {
+		"number": 782,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01339\"><he>מָךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>poverty</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 114a\">B. Mets. 114ᵃ</cite>; <cite ref=\"Arakhin 17b:23\">Arakh. 17ᵇ</cite> (ref. to <cite ref=\"M01339\"><he>מָךְ</he></cite>, <cite ref=\"Leviticus 27:8\">Lev. XXVII, 8</cite>) <he>עד שיהא במָכוּתוֹ וכ׳</he> he must have remained in his impoverished condition from the beginning to the end of the proceedings."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>humility</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 74:15\">Gen. R. s. 74</cite>, end (play on <he>מ̇כ̇ת̇ם̇</he>, <cite ref=\"Psalms 60:1\">Ps. LX, 1</cite>) <he>מ̇כ̇ות ות̇מ̇ות</he> humility (of David) and innocence; <cite ref=\"Yalkut Shimoni on Nach 147:1\">Yalk. Sam. 147</cite> <he>מ׳ ותמות לדוד</he>."
+			],
+			"label": "2"
+		}
+	]
+}

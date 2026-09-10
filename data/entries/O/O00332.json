@@ -1,0 +1,71 @@
+{
+	"id": "O00332",
+	"slug": "סום-1",
+	"headword": {
+		"text": "סוּם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 965,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"U00433\"><he>שׂוּם</he></cite>) <i>to attach, place; to tie together</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 1:11\">Tosef. Shebi. I, 11</cite> <he>אין סָמִין את הגפנים וכ׳</he> Var. ed. Zuck. (text: <he>אף סימין</he>; oth. ed. <he>אין סכין</he>) you must not bind the grape-vines in the Sabbatical year."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיֵּים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00331\">same</cite>.",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 7:1\">Cant. R. to VII, 1</cite> (ref. to <cite ref=\"U00432\"><he>שולמית</he></cite> <cite ref=\"Shir HaShirim Rabbah 7:1\">ib.</cite>, a. ",
+						"<cite ref=\"Numbers 6:26\">Num. VI, 26</cite>) <he>אומה שמְסַיְּימִים לה שלום וכ׳</he> a nation to which peace is assigned every day; (<cite ref=\"Bereishit Rabbah 66:2\">Gen. R. s. 66</cite> <he>שהכהנים מְשִׂימִין לה שלום וכ׳</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to mark, name</i> (cmp. <cite ref=\"U01406\"><he>שׁם</he></cite>, <cite ref=\"U00436\"><he>שׁוּם</he></cite>); <i>to distinguish</i>. Y. Peah VII, beg. 20ᵃ <he>הדקל מְסַיְּימוֹ</he> the neighboring palm-tree serves as a mark for it (that the owner did not forget it); <he>זה מְסַיֵּים וכ׳</he> they mark each other (cmp. Mish. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 1:1\">ib. 1</cite> <he>שיש לו שם</he>). ",
+						"<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite> <he>סַיְּימֵנִי בתוך המדינה וכ׳</he> give me some distinction in the country, (by which to show) that I am thy son. Y. Ber. V, end, 9ᵈ <he>וסִיְּימוּ באותה וכ׳</he> and they noted (the time when he said it), at that very time he (the patient) asked for food. Y. Meg. I, 71ᵈ <he>וסיימו אותן חכמים וכ׳</he> the scholars noted them (took their names &c., in order to be able to observe their career), and all of them turned out great men; <cite ref=\"Bereishit Rabbah 1\">Gen. R. s. 1</cite>. Y. Dem. V, 24ᶜ bot. <he>ומְסַיֵּים … סִיַּימְתִּי</he> and he makes a mark (on the pile), and says to the priest, so far I have marked (as tithe); a. fr.—[<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite> end <he>ומסיים את עצמך</he>, v. <cite ref=\"O00386\"><he>סוּף</he> II</cite>.]—Part. pass. <he>מְסוּיָּים</he>, <he>מְסוּיָּם</he>; f. <he>מְסוּיֶּימֶת</he> &c. Y. Peah l. c. <he>היה מס׳ בדעתו</he> if it (the olive or the sheaf left behind) was noted in his mind (so that he could identify it), <he>כאילו הוא מס׳</he> it is to be considered as if it were marked (by a special name, locality &c.). ",
+						"<cite ref=\"Bava Batra 54a:8\">B. Bath. 54ᵃ</cite> <he>שדה המס׳ במצריה</he> a field definable by its boundaries. Y. Yeb. XV, 15ᵃ <he>אדם מס׳</he> a well-known man. Y. Shek. I, 46ᵇ top <he>דבר המס׳</he> an object which bears the name of its owner. ",
+						"<cite ref=\"Bereishit Rabbah 44:7\">Gen. R. s. 44</cite> <he>מה איים הללו מס׳ בים וכ׳</he> as the islands are distinguishable in the sea, so were Abraham and Shem distinguished in the world; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to tie up; to finish, wind up</i>, opp. <he>פתח</he>. ",
+					"units": [
+						"<cite ref=\"Arakhin 10b:32\">Arakh. 10ᵇ</cite> <he>פתח בחליל ומסיים באבוב</he> the Mishnah begins with <i>ḥalil</i> and ends with <i>abbub!</i> <cite ref=\"Berakhot 10a:1\">Ber. 10ᵃ</cite> <he>פתח בה באשרי וס׳ באשרי</he> he began it (the psalm) with <i>ashré</i> and closed it with <i>ashré</i>; a. fr.—Part. pass. as ab. Y. Bets. I, beg. 60ᵃ <he>בהמה יולדת לחדשים מס׳</he> every animal gives birth after a certain number of complete months, opp. <he>למקוטעין</he> counting a fraction of the last month as a whole month."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִסְתַּיֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to be marked, defined</i>. Y. Ter. III, 42ᵇ top <he>מקום שנִסְתַּיְּימָה וכ׳</he> where the T’rumah of one pile was marked, there (in the corresponding place) the T’rumah of the other pile was meant to be dedicated. Y. Shebi. VIII, 38ᵃ <he>זה שהוא … ונסתיימה לו וכ׳</he> if one used a basket for measuring and after using it two or three times knew exactly how much it contained; a. e.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be finished, concluded</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 125b:5\">B. Bath. 125ᵇ</cite> <he>דבר זה נפתח בגדולים ונ׳ וכ׳</he> this subject was opened by great men and has been concluded by small men."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

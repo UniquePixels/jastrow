@@ -1,0 +1,24 @@
+{
+	"id": "Q01939",
+	"slug": "פרסתקי",
+	"headword": {
+		"text": "פְּרַסְתְּקֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1235,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"Q01593\"><he>פַּרְדַּסְקִין</he></cite>) <i>boxes, caskets</i> used as <i>bird’s nests</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 141b:13\">Ḥull. 141ᵇ</cite> <he>אהדר לה רבא פ׳ ותפשה</he> (Ms. M. <he>פרסקי</he>; Ms. R. 2 <he>פרקיקי</he> or <he>פרסקי</he>; Ms. F. <he>פרטקיה</he>; v. Rabb. D. S. a. l. note) R. had boxes set around it (the bird that he let fly), and then caught it."
+			]
+		}
+	]
+}

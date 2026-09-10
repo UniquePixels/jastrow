@@ -1,0 +1,32 @@
+{
+	"id": "R00446",
+	"slug": "ציקן",
+	"headword": {
+		"text": "צַיְקָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "צוֹיְ׳"
+		},
+		{
+			"text": "צוֹיְי׳"
+		}
+	],
+	"page": {
+		"number": 1280,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00237\"><he>צוּק</he></cite>) [<i>narrow-minded</i>,] <i>miser</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:8:3\">Y. Pes. VII, 35ᵃ</cite> top.—Pl. <he>צַיְקָנִים</he>, <he>צַיְקָנִין</he>. Mish. ",
+				"<cite ref=\"Mishnah Pesachim 7:8\">ib. VII, 8</cite>; Bab. ",
+				"<cite ref=\"Pesachim 82a:4\">Pes. 82ᵃ</cite>"
+			]
+		}
+	]
+}

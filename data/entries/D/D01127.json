@@ -1,0 +1,26 @@
+{
+	"id": "D01127",
+	"slug": "דררא-2",
+	"headword": {
+		"text": "דְּרָרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 325,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דרר</he>, v. <cite ref=\"D00341\"><he>דור</he></cite>) [<i>the object around which the question revolves</i>,] <i>stake, risk</i>. <he>ד׳ דממון</he> <i>fixed sum</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 4:7\">Targ. Esth. IV, 7</cite>.—In Talm. <he>ד׳ דממונא</he> <i>money at stake, eventual loss</i>. ",
+				"<cite ref=\"Bava Metzia 2b:14\">B. Mets. 2ᵇ</cite>. ",
+				"<cite ref=\"Ketubot 23b:14\">Keth. 23ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Chagigah 21b:3\">Ḥag. 21ᵇ</cite> <he>ד׳ דטומאה מדאורייתא</he> an eventual violation of the Biblical law of purity; <cite ref=\"Niddah 6a:19\">Nidd. 6ᵃ</cite>"
+			]
+		}
+	]
+}

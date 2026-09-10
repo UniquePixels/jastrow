@@ -1,0 +1,22 @@
+{
+	"id": "D00382",
+	"slug": "דורסן",
+	"headword": {
+		"text": "דּוֹרְסָן"
+	},
+	"page": {
+		"number": 290,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דרס</he>) <i>place where hides are trodden or fulled</i> before tanning. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:5\">Bets. I, 5</cite> (<cite ref=\"Beitzah 11a\">11ᵃ</cite>) you must not place the hide <he>לפני הד׳</he> in front of the <i>dor’san</i> (Mish. Nap. a. oth. <he>בית הדריסה</he>, Y. ed. <he>לפני הדריסה</he>)."
+			]
+		}
+	]
+}

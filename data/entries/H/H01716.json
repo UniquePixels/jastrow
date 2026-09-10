@@ -1,0 +1,56 @@
+{
+	"id": "H01716",
+	"slug": "חרם-3",
+	"headword": {
+		"text": "חֵרֶם"
+	},
+	"page": {
+		"number": 504,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01715\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>net</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 23:5\">Kel. XXIII, 5</cite>; <cite ref=\"Mishnah Kelim 28:9\">XXVIII, 9</cite>, v. <cite ref=\"G00156\"><he>זֶוֶט</he></cite>; a. fr.—",
+				"<cite ref=\"Mishnah Nedarim 2:5\">Ned. II, 5</cite>, v. infra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a place adapted for catching fish in nets, fishing coast, fishery</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 81b:4\">B. Kam. 81ᵇ</cite> <he>מלא חבל ח׳ בדרומה</he> a rope’s length (district) of fishing coast south of it (the Lake of Tiberias); <cite ref=\"Tosefta Bava Kamma 8:18\">Tosef. ib. VIII, 18</cite> Var. ed. Zuck.—",
+				"<cite ref=\"Eruvin 47b:17\">Erub. 47ᵇ</cite> <he>ח׳ שבין וכ׳</he> a fishpond between two territories."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>cut off, excluded</i>, cmp. <cite ref=\"H00351\"><he>חוּלִּין</he></cite>, <cite ref=\"E00759\"><he>הֶפְקֵר</he></cite>,] <i>ḥerem, property set apart for priest’s or Temple use; doomed to destruction</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 2:4\">Ned. II, 4</cite> <he>אם כח׳ של שמים</he> if (he said, This shall be to me) like the <i>ḥerem</i> consecrated to the Temple, opp. <he>ח׳ של כהנים</he> assigned to the private use of priests. ",
+				"<cite ref=\"Mishnah Nedarim 2:5\">Ib. 5</cite> <he>נדר בח׳ … בחֶרְמוֹ של ים</he> if he made a vow of abstinence using the word <i>ḥerem</i>, and he says, I meant the <i>ḥerem</i> of the sea (fisher’s net). ",
+				"<cite ref=\"Mishnah Nedarim 1:2\">Ib. I, 2</cite> <he>כינויין לח׳</he> verbal substitutes for <i>ḥerem</i> (effecting prohibition); a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>excommunication</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 17a:23\">M. Kat. 17ᵃ</cite>.—Pl. <he>חֲרָמִים</he>, <he>חֲרָמִין</he>. ",
+				"<cite ref=\"Sanhedrin 43b:8\">Snh. 43ᵇ</cite> <he>מעל עכן בג׳ ח׳</he> Akhan committed three sacrileges. ",
+				"<cite ref=\"Mishnah Nedarim 2:4\">Ned. II, 4</cite> <he>סתם ח׳</he> containing the expression <i>ḥerem</i> unqualified. ",
+				"<cite ref=\"Mishnah Nedarim 2:4\">Ib.</cite> <he>חַרְמֵי הכהנים</he> the dedications as priestly property. ",
+				"<cite ref=\"Mishnah Arakhin 8:6\">Arakh. VIII, 6</cite> <he>סתם ח׳ לבדק הבית</he> unqualified dedications (this be <i>ḥerem</i>) go to the repair of the Temple; a. fr.—[<cite ref=\"Jerusalem Talmud Kilayim 9:1:9\">Y. Kil. IX, 32ᵃ</cite> top <he>שצבעה בחרם</he>, read: <he>בחֶרֶת</he>.]—V. <cite ref=\"H00873\"><he>חֵירוּם</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

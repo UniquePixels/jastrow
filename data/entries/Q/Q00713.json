@@ -1,0 +1,27 @@
+{
+	"id": "Q00713",
+	"slug": "פילקין",
+	"headword": {
+		"text": "פִּילְקִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילְקִיס"
+		}
+	],
+	"page": {
+		"number": 1165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πέλεκυς) <i>axe</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 105:7\">Midr. Till. to Ps. LXXVIII, 47</cite> <he>כפ׳ היה יורד הברד וכ׳</he> (not <he>בפ׳</he>) the hail came down like an axe (or <i>axes,</i> pl.) and cut all the trees; <cite ref=\"Shemot Rabbah 12:7\">Ex. R. s. 12</cite>; <cite ref=\"Midrash Tehillim 105:10\">Midr. Till. to Ps. CV, 33</cite> <he>כפילקיס הזה</he>; Tanḥ. Vaëra 14 <he>בפלכין</he>; <cite ref=\"Yalkut Shimoni on Nach 820:10\">Yalk. Ps. 820</cite> <he>בפיקלין</he> (corr. acc.)."
+			]
+		}
+	]
+}

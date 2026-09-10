@@ -1,0 +1,32 @@
+{
+	"id": "L00136",
+	"slug": "לגלג-2",
+	"headword": {
+		"text": "לַגְלֵג",
+		"homograph": 1
+	},
+	"page": {
+		"number": 693,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"L00135\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְלַגְלֵג"],
+			"senses": [
+				{
+					"gloss": "<i>to be sneered at</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 1:17\">Targ. Esth. I, 17</cite>."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

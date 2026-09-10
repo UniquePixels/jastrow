@@ -1,0 +1,42 @@
+{
+	"id": "H01169",
+	"slug": "חמט-1",
+	"headword": {
+		"text": "חֲמַט",
+		"homograph": 1
+	},
+	"page": {
+		"number": 476,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H01212\"><he>חמץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be dark</i>.—Denom. <cite ref=\"H00374\"><he>חוּמְטָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be bitter, salty</i>, v. <cite ref=\"H00376\"><he>חוּמְטוֹן</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיחֲמַט"],
+			"senses": [
+				{
+					"gloss": "<i>to be inflamed, become pestered</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 54b\">Sabb. 54ᵇ</cite> Ar., v. <cite ref=\"H01170\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

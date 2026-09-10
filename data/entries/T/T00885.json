@@ -1,0 +1,27 @@
+{
+	"id": "T00885",
+	"slug": "רעוא-2",
+	"headword": {
+		"text": "רַעְוָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רַעֲ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1486,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>shepherd;</i> pl. <he>רַעֲוֵי</he>, <he>רַעֲוָיֵי</he>, <cite ref=\"T00481\"><he>רַעֲוָותָא</he></cite>, v. <cite ref=\"T00896\"><he>רָעֲיָא</he></cite>.",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "M02728",
+	"slug": "מרע-1",
+	"headword": {
+		"text": "מֵרַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵי׳"
+		}
+	],
+	"page": {
+		"number": 845,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00914\"><he>רָעַע</he></cite>) <i>shaking, weakening</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 1:7:3\">Y. B. Mets. I, end, 8ᵃ</cite> <he>מפני מ׳ כחן וכ׳</he> because this would injure the privilege of the purchaser."
+			]
+		}
+	]
+}

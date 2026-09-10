@@ -1,0 +1,69 @@
+{
+	"id": "U01871",
+	"slug": "שקל-2",
+	"headword": {
+		"text": "שְׁקַל"
+	},
+	"page": {
+		"number": 1623,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (cmp. <he>נטל</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to take, take away</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:8\">Targ. Prov. XVII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:20\">Ib. XXV, 20</cite>. Targ. II Esth. I, 16; a. fr.—[<cite ref=\"Onkelos Exodus 23:5\">Targ. Ex. XXIII, 5</cite> <he>מלמשקל</he> ed. Berl., oth. ed. <he>למשבק</he>, <he>מלמשבק</he>.]—<he>ש׳ וטרא</he>, v. <cite ref=\"I00701\"><he>טְרָא</he></cite>.—",
+				"<cite ref=\"Bava Metzia 40a:15\">B. Mets. 40ᵃ</cite> <he>ושָׁקְלִין וכ׳</he>, v. <cite ref=\"U00497\"><he>שׁוּפְטָנָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 60b:14\">Ib. 60ᵇ</cite> <he>דקא שָׁקֵיל מיניה וכ׳</he> (not <he>שקלי</he>) for he takes from him &c., v. <cite ref=\"N00852\"><he>נְכַת</he></cite>. ",
+				"<cite ref=\"Kiddushin 12b:11\">Kidd. 12ᵇ</cite> <he>שְׁקַלְתָּהּ ואישתיקא</he> (not <he>שקלתא</he>) she accepted it and kept silence; <cite ref=\"Kiddushin 13a:4\">ib. 13ᵃ</cite> <he>שְׁקַלְתֵּיה</he>. ",
+				"<cite ref=\"Kiddushin 13a:4\">Ib.</cite> <he>אין שַׁקְלִי ודידי שקלי</he> yes, I received it, but it was mine I received. ",
+				"<cite ref=\"Shevuot 32b:3\">Shebu. 32ᵇ</cite> <he>הוה משתבענא ושְׁקִילְנָא</he> I should have been assigned an oath, and the money would have been decreed to me. ",
+				"<cite ref=\"Yevamot 105a\">Yeb. 105ᵃ</cite>; <cite ref=\"Sanhedrin 21a\">Snh. 21ᵃ</cite>, v. <cite ref=\"M01069\"><he>מִטַּרְפְּסָא</he></cite>. ",
+				"<cite ref=\"Berakhot 60a:10\">Ber. 60ᵃ</cite> <he>ש׳ בדקא וכ׳</he> a freshet carried away part of his field (Ms. F. <he>אישתקל וכ׳</he> a freshet was carried into his field); <cite ref=\"Bava Batra 41a:10\">B. Bath. 41ᵃ</cite>, v. <cite ref=\"B00158\"><he>בִּדְקָא</he></cite>; a. fr.—Ber. l. c. <he>הוה שָׁקֵיל ואזיל בתריה וכ׳</he> took up (his cloak) and walked behind &c.—Part. pass. <he>שָׁקִיל</he>; f. <cite ref=\"U00123\"><he>שְׁקִילָא</he></cite>; pl. <cite ref=\"U01865\"><he>שְׁקִילִין</he></cite>, <he>שְׁקִילֵי</he>; <he>שְׁקִילָן</he>. ",
+				"<cite ref=\"Shabbat 63b:2\">Sabb. 63ᵇ</cite> <he>שקילי … שקילין וכ׳</he> (Ms. M. <he>שקילין … ושקילן</he>), v. <cite ref=\"N00605\"><he>נִיבָא</he> I</cite>. ",
+				"<cite ref=\"Shabbat 63b:2\">Ib.</cite> <he>שקילא טיבותיך</he> (not <cite ref=\"U01835\"><he>שקולא</he></cite>; better: <he>שְׁקוֹלִי וכ׳</he> take thy goodness), v. <cite ref=\"H00702\"><he>חִיזְרָא</he> I</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to carry</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 85a\">Men. 85ᵃ</cite>; <cite ref=\"Shemot Rabbah 9:7\">Ex. R. s. 9</cite> <he>ירקא שְׁקוֹל</he>, v. <cite ref=\"M03004\"><he>מָתָא</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 182:1\">Yalk. ib. 182</cite> <cite ref=\"O01481\"><he>שְׁקִיל</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁקֵּל"],
+			"senses": [
+				{
+					"gloss": ", <i>Af.</i> <he>אַשְׁקֵל</he> <i>to cause to take, to give</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 57b:1\">Pes. 57ᵇ</cite> <he>דאַשְׁקְלֵיה וכ׳</he> (Ms. M. <he>דשַׁקְּלֵיה</he>); <cite ref=\"Yalkut Shimoni on Torah 469:39\">Yalk. Lev. 469</cite>, v. <cite ref=\"M01069\"><he>מִטַּרְפְּסָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתְּקִיל", "אִשְׁתְּקַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be taken away</i>. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 5:2\">Targ. I Chr. V, 2</cite> <cite ref=\"U01871\"><he>אִשְׁתְּקִילַת</he></cite> (Var. <he>אִשְׁתַּקְלַת</he>). ",
+						"<cite ref=\"Targum of I Chronicles 5:1\">Ib. 1</cite> (ed. Beck <he>אסתלקת</he>).—",
+						"<cite ref=\"Berakhot 60a:10\">Ber. 60ᵃ</cite>, v. supra."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

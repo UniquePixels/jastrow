@@ -1,0 +1,27 @@
+{
+	"id": "S00394",
+	"slug": "קומיטיטון",
+	"headword": {
+		"text": "קומיטיטון"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹמִיטָטוֹן"
+		}
+	],
+	"page": {
+		"number": 1333,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comitatus) <i>imperial court</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 12:7\">Targ. Y. II, Num. XII, 7</cite> [read:] <he>בכל ק׳ דידי הימן היא</he> (<he>ריש לבילרין ק׳</he> being a gloss, v. <cite ref=\"L00093\"><he>לִבְלָרָא</he></cite>) he is most trusted in my whole court."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "L00134",
+	"slug": "ליין",
+	"headword": {
+		"text": "לָיִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְגִינָא"
+		},
+		{
+			"text": "לְגִינִיתָא"
+		},
+		{
+			"text": "לְגִנְתָא"
+		}
+	],
+	"page": {
+		"number": 692,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"L00133\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 24:14-20\">Targ. Y. Gen. XXIV, 14—20</cite> (h. text <cite ref=\"K00098\"><he>כַּד</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Judges 6:38\">Targ. Jud. VI, 38</cite> Var. ed. Lag., v. <cite ref=\"L00691\"><he>לְקִינָא</he></cite>. [<cite ref=\"Targum Jonathan on Numbers 19:4\">Targ. Y. Num. XIX, 4</cite> <he>מן לגין</he>, prob. to be read: <he>מן לגֵיו</he>.]—",
+				"<cite ref=\"Bava Metzia 85b\">B. Mets. 85ᵇ</cite>, v. <cite ref=\"K00636\"><he>כִּישׁ</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 967:4\">Yalk. Koh. 967</cite>, v. <cite ref=\"L00692\"><he>לְקִינִיתָא</he></cite>.—Pl. <he>לָגִינִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 32:19\">Targ. Job XXXII, 19</cite> (Var. <cite ref=\"L00698\"><he>לַקְנִין</he></cite>, <cite ref=\"G00720\"><he>זַרְנוּקָא</he></cite>; h. text <he>אֹבוֹת</he>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:2\">Targ. Lam. IV, 2</cite> (h. text <he>נבלי</he>)."
+			]
+		}
+	]
+}

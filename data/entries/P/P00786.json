@@ -1,0 +1,23 @@
+{
+	"id": "P00786",
+	"slug": "עלוקה",
+	"headword": {
+		"text": "עֲלוּקָה"
+	},
+	"page": {
+		"number": 1081,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.  (?); cmp. <he>חלק</he>, a. Arab. <i>ʿaliḳ</i>) <i>leech</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 12b:2\">Ab. Zar. 12ᵇ</cite> (<he>סכנת</he>) <he>ע׳</he> (Ms. M. <cite ref=\"P00844\"><he>עַלְקָה</he></cite>; Ar. <cite ref=\"P00844\"><he>עַלְקָא</he></cite>) the danger of swallowing a leech in drinking.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:5\">Y. Ber. IX, 13ᶜ</cite> bot. (in Hebr. dict.) <he>פשפש לעֲלוּקְתָּה</he> a bed-bug is a remedy for a (swallowed) leech, (supposed to mean that a potion mixed with bed-bugs will cause the removal of the leech by causing vomiting)."
+			]
+		}
+	]
+}

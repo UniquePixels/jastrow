@@ -1,0 +1,103 @@
+{
+	"id": "Q00486",
+	"slug": "פחת-1",
+	"headword": {
+		"text": "פָּחַת"
+	},
+	"page": {
+		"number": 1153,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to hollow out, dig</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 4:4\">Bets. IV, 4</cite> (<cite ref=\"Beitzah 32a:8\">32ᵃ</cite>) <he>אין פּוֹחֲתִין את הנר</he> (Mish. <he>פיתחין</he>, corr. acc.) you must not hollow out a lump of clay to make it a candlestick (on the Holy Day). Ib. 3 <he>פּיֹחֵת לכתחלה</he> he may start to dig out (take out closely packed fruit), v. infra. ",
+				"<cite ref=\"Mishnah Mikvaot 4:5\">Mikv. IV, 5</cite> <he>פְּחָתוּהָ</he> they hollowed it out (widened the aperture in the rock through which the water came forth); Y. Yeb. I, end, 3ᵇ (Bab. ",
+				"<cite ref=\"Yevamot 15a:17\">ib. 15ᵃ</cite> <he>הרחיבוה</he>). Mikv. l. c. <he>עד שיִפְחוֹת רובה</he> (ed. Dehr. a. Mish. ed. <he>עד שיִפְחֲתוּ</he>) until the larger portion of the aperture is chiselled out; Y. Yeb. l. c. <he>שיפחות את רובה</he>; Bab. ib. l. c. <he>שתִּיפָּחֵת ברובה</he>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to diminish, lessen, decrease</i>, opp. <he>הוסיף</he>. Mekh. Yithro, Baḥod., s. 2 <he>שלא תִפְחוֹת ולא תוסיף</he> from which you must not diminish, and to which you must not add. ",
+			"units": [
+				"<cite ref=\"Shabbat 21b:5\">Sabb. 21ᵇ</cite> <he>פּוֹחֵת והולך</he> one kindles one light less every night. ",
+				"<cite ref=\"Mishnah Megillah 4:1\">Meg. IV, 1</cite>, sq. <he>אין פּוֹחֲתִין וכ׳</he> we call up no less (than the number named) nor more. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 4:11:5\">Y. Yeb. IV, 6ᵃ</cite> bot. <he>חמרתה</he> (<cite ref=\"E00000\"><he>ה</he></cite>) <he>פּוֹחֶתֶת אינה פוחתת וכ׳</he> a sheass, if short (whose period of pregnance is the shortest possible) gives birth not earlier than a lunar year from conception, if long, not later than a solar year; <cite ref=\"Jerusalem Talmud Niddah 1:3:8\">Y. Nidd. I, 49ᵇ</cite> top. ",
+				"<cite ref=\"Mishnah Pesachim 10:1\">Pes. X, 1</cite> <he>ולא יִפְחֲתוּ לו מארבע וכ׳</he> and they must give him (the poor man) no less than four cupfuls of wine. ",
+				"<cite ref=\"Bava Kamma 85b:15\">B. Kam. 85ᵇ</cite> <he>שבת הפּוֹחֲתַתּוֹ בדמים</he> (not <he>הפח׳</he>) if the idleness enforced by being wounded has also the effect of lessening his value (if he were to be sold as a slave). ",
+				"<cite ref=\"Mishnah Shekalim 5:4\">Shek. V, 4</cite> <he>אם פָּחֲתוּ פחתו לו</he> Y. ed. (differ. in Mishn. ed.) if money is missing, the loss is his. Tanḥ. R’eh 10 <he>פ׳ הוא עשרה ופָחֲתָה היא וכ׳</he> he gave ten measures less as tithe, and it (the field) yielded one hundred less; <cite ref=\"Yalkut Shimoni on Torah 892:1\">Yalk. Deut. 892</cite>; a. v. fr.—[Tanḥ. l. c. <he>מי פחת</he>, v. next w.]—V. <cite ref=\"Q00456\"><he>פָּחוּת</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיחֵת"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00485\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to diminish, lessen</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Terumot 4:4\">Ter. IV, 4</cite> <he>פי׳ עשרה וכ׳</he> (Y. ed. <he>פחת</he>) if he set aside as T’rumah ten fractions less (than 1/50, i.e. 1/60), or ten fractions more (i.e. 1/40), Maim.; [R. S. if he reduced the divisor by ten (i.e. set aside 1/40), or increased the divisor by ten (i.e. set aside 1/60); Y. ib. 42ᵈ bot. <he>הפּוֹחֵת אחד מעשרה</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be diminished, lose</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 2:8\">Lev. R. s. 2</cite> <he>כלום פי׳ כבודי וכ׳</he> has my glory or my majesty lost anything &c.?"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְחַת"],
+			"senses": [
+				{
+					"gloss": "<i>to be hollowed out, broken through</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 15a:17\">Yeb. 15ᵃ</cite> <he>שתִּיפָּחֵת</he>, v. supra. ",
+						"<cite ref=\"Chullin 45a:8\">Ḥull. 45ᵃ</cite> <he>נִפְחֲתָה כדלת</he> if a piece of the windpipe is broken through in the shape of a door (split on three sides and attached by the fourth side). ",
+						"<cite ref=\"Mishnah Beitzah 4:3\">Bets. IV, 3</cite> <he>בית … ונ׳</he> a room which was packed with fruits and closed up (with bricks), and which was burst open (the bricks giving way to the pressure), v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be reduced</i> in size, numbers &c.; <i>to be lowered</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 18a:12\">Succ. 18ᵃ</cite> <he>בית שנ׳</he> a building which has been reduced (the walls of which have given way partly). ",
+						"<cite ref=\"Sotah 5a\">Sot. 5ᵃ</cite> bot. <he>כל אדם … לבסוף נ׳</he> every man in whom there is haughtiness, will finally be lowered; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִפְחִית"],
+			"senses": [
+				{
+					"gloss": "<i>to lessen, wear out, damage</i>. Y. B. Mets. II, 8ᵈ top <he>כלי נחשׁת … מפני שמַפְחִיתָן</he> if one found copper vessels (keeping them until the owner be found), he may use them for hot water, but not over fire, because he wears them out; (Bab. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 30a:12\">ib. 30ᵃ</cite> <he>שמשחיקן</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"Q00456\"><he>פָּחוּת</he></cite>) <i>to become less, be damaged</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 18b:2\">Succ. 18ᵇ</cite> <he>ה׳ דופן אמצעי</he> if the middle wall (of a Succah) became reduced (fell in, v. supra); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

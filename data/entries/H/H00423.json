@@ -1,0 +1,39 @@
+{
+	"id": "H00423",
+	"slug": "חופה",
+	"headword": {
+		"text": "חוּפָּה"
+	},
+	"page": {
+		"number": 437,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>חֻפָּה</he>; <cite ref=\"H01464\"><he>חפף</he> I</cite>)<i>covering, canopy</i>, esp. <i>bridal chamber;</i> also (= <he>כניסה לח׳</he>) <i>the entrance of the bride into the bridal chamber; wedding</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 5a:16\">Kidd. 5ᵃ</cite>, a. fr. <he>ח׳ קונה</he> the introduction into the bridal chamber constitutes possession (legitimate marriage). ",
+				"<cite ref=\"Kiddushin 3a:5\">Ib. 3ᵃ</cite> <he>למעוטי ח׳</he> to exclude, as a form of marriage, the delivery by her father to take her into the bridal chamber. ",
+				"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> <he>לא ראה בחוּפָּתִי</he> was not present at my wedding. ",
+				"<cite ref=\"Sanhedrin 108a:20\">Snh. 108ᵃ</cite> <he>עשה ח׳ לבנו</he> arranged a bridal room for his son. ",
+				"<cite ref=\"Pirkei Avot 5:21\">Ab. V, 21</cite> <he>בן י״ח לח׳</he> at eighteen years one is fit for marriage. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 2:5:3\">Y. Succ. II, 53ᵃ</cite> top; Bab. ",
+				"<cite ref=\"Sukkah 25b:10\">Succ. 25ᵇ</cite> <he>בני ח׳</he> wedding party; a. fr.—Pl. <he>חוּפּוֹת</he>. ",
+				"<cite ref=\"Eichah Rabbah 3:2\">Lam. R. to III, 19</cite> <he>כך וכך ח׳ וכ׳</he> so many state rooms will I arrange &c. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:15:3\">Y. Sot. IX, end, 24ᶜ</cite>; <cite ref=\"Tosefta Sotah 15:9\">Tosef. Sot. XV, 9</cite> <he>אלו הן ח׳ חתנים</he> these are the bridal canopies (which were interdicted after the destruction of the Temple); (Bab. ib. 49ᵇ <he>חוּפַּת</he> sing.). ",
+				"<cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite>, beg.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>seat of the Divine Majesty, sanctuary</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:12:4\">Y. Meg. I, 72ᵈ</cite> top <he>כל ח׳ שהיו וכ׳</he> all sanctuaries (Shiloh, Gilgal &c.) which existed &c."
+			],
+			"label": "2"
+		}
+	]
+}

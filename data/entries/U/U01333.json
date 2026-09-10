@@ -1,0 +1,22 @@
+{
+	"id": "U01333",
+	"slug": "שליקה",
+	"headword": {
+		"text": "שְׁלִיקָה"
+	},
+	"page": {
+		"number": 1584,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01380\"><he>שָׁלַק</he></cite>) <i>boiling</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 2:19\">Tosef. Kel. B. Mets. II, 19</cite> <he>מחוסרים ש׳</he> (vessels made of that kind of wood) require to be boiled before they can be used."
+			]
+		}
+	]
+}

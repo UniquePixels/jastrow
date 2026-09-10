@@ -1,0 +1,25 @@
+{
+	"id": "N00645",
+	"slug": "ניחא-1",
+	"headword": {
+		"text": "נִיחָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 903,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00340\"><he>נוּחַ</he></cite>) <i>soft</i>, <i>gentle</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:13\">Targ. Job XXXVII, 13</cite>; <cite ref=\"Taanit 3b:13\">Taan. 3ᵇ</cite> bot. <he>מיטרא נ׳</he> a gentle rain, opp. <cite ref=\"T00467\"><he>רזיא</he></cite>. ",
+				"<cite ref=\"Taanit 3b:13\">Ib.</cite> <he>דאתא נ׳</he> when a gentle rain has fallen.—<i>Fem.</i> <cite ref=\"N00652\"><he>נִיחֲתָא</he></cite>, <cite ref=\"N00660\"><he>נִיחָא</he></cite>. Targ. II Esth. VIII, 13.—",
+				"<cite ref=\"Shabbat 7b:5\">Sabb. 7ᵇ</cite> <he>נ׳ תשמישתיה</he> it is convenient for use; a. fr."
+			]
+		}
+	]
+}

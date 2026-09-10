@@ -1,0 +1,33 @@
+{
+	"id": "A01002",
+	"slug": "אחוה-1",
+	"headword": {
+		"text": "אַחֲוָה"
+	},
+	"page": {
+		"number": 39,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; denom. of <cite ref=\"A00988\"><he>אָח</he></cite>)<i>brotherhood, brotherly love, friendship</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 58b:11\">Snh. 58ᵇ</cite> <he>בא׳</he> among brothers and sisters. ",
+				"<cite ref=\"Bereishit Rabbah 89:4\">Gen. R. s. 89</cite> (play on <i>aḥu</i>, <cite ref=\"Genesis 41\">Gen. XLI</cite>, "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " in days of plenty there is <he>אהבה וא׳</he> love and friendship.—",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 2:8\">Lev. R. s. 2</cite>; a. fr.—Trnsf. <he>בא׳</he> <i>jointly</i>. ",
+				"<cite ref=\"Shabbat 20a:8\">Sabb. 20ᵃ</cite> (explain. <cite ref=\"A00988\"><he>אָח</he></cite> <cite ref=\"Jeremiah 36:23\">Jer. XXXVI, 23</cite>) <he>עצים שנדלקין בא׳</he> Ar., Ms. Oxf. (v. Rabb. D. S. a. l. note, ed. <he>באחוונא</he> cler. error) wood kindled all together [perh. with <i>reeds?</i> v. next w.].—2) (law) <i>status of consanguinity</i>. ",
+				"<cite ref=\"Bava Kamma 88a:3\">B. Kam. 88ᵃ</cite> a slave <he>שאין לו א׳</he> who has no legal status of consanguinity."
+			],
+			"label": "2"
+		}
+	]
+}

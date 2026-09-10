@@ -1,0 +1,23 @@
+{
+	"id": "C00392",
+	"slug": "גולילא",
+	"headword": {
+		"text": "גּוּלִילָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 222,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גלל</he>) <i>threshing roller</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 14:10\">Targ. I Kings XIV, 10</cite> ed. Lag. (ed. <he>גּוּלִילִין</he>, Var. <cite ref=\"C00732\"><he>גֵּילוּלַיָּא</he></cite>); v. <cite ref=\"C01092\"><he>גַּנְדַּר</he> I</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M02248",
+	"slug": "מפרנק",
+	"headword": {
+		"text": "מְפַרְנַק"
+	},
+	"page": {
+		"number": 821,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. pass. of <cite ref=\"Q01906\"><he>פַּרְנֵק</he></cite>) = <cite ref=\"M02225\"><he>מְפַנַּק</he></cite>. Targ. Y. I Deut.; XXVIII, 54.—<i>Fem.</i> <he>מְפַרְנְקָא</he>, <he>מְפַרְנַקְתָּא</he>. Ib. 56 (not <he>מִפְרַנְקָא</he>. Ar. <he>מְפַרְנְקִיתָא</he>).—Pl. <he>מְפַרְנְקָתָא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 31:50\">Targ. Y. Num. XXXI, 50</cite>."
+			]
+		}
+	]
+}

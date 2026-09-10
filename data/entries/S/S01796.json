@@ -1,0 +1,32 @@
+{
+	"id": "S01796",
+	"slug": "קצוצה",
+	"headword": {
+		"text": "קְצוּצָה"
+	},
+	"page": {
+		"number": 1404,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <he>קְצוּצוֹת</he> (<cite ref=\"S01836\"><he>קָצַץ</he></cite>; v. ",
+			"units": ["<cite ref=\"Exodus 39:3\">Ex. XXXIX, 3</cite>) "]
+		},
+		{
+			"gloss": "<i>cut metal, strip, wire</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:3\">Kel. XI, 3</cite> (ed. Dehr. <cite ref=\"S01798\"><he>קְצוֹצֶת</he></cite>); <cite ref=\"Tosefta Keilim Metsia 1:1\">Tosef. Kel. B. Mets. I, 1</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cut fruits</i>, v. <cite ref=\"S01821\"><he>קְצִיצָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "I00081",
+	"slug": "טבע-6",
+	"headword": {
+		"text": "טְבַע",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טִבְעָא"
+		},
+		{
+			"text": "טִיבְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 519,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00080\">same</cite>, <i>coin;Tebʿa</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 24:22\">Targ. Y. Gen. XXIV, 22</cite> Levita (ed. <he>דרכמונא</he>; v. Y. Shek. II, 46ᵈ top, quot. in <cite ref=\"I00080\">preced.</cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 30:13\">Targ. Y. Ex. XXX, 13</cite> (ed. Amst. <cite ref=\"I00082\"><he>טַבְעָא</he></cite>). Targ. II Esth. VI, 10 <he>טִבְעִי וטִבְעָךְ אזיל וכ׳</he>, v. preced.—",
+				"<cite ref=\"Bava Metzia 46a:7\">B. Mets. 46ᵃ</cite> <he>דליכא עלייהו ט׳</he> which have no stamp. ",
+				"<cite ref=\"Bava Metzia 44b:1\">Ib. 44ᵇ</cite> <he>הוי ט׳</he> is considered as coin (money), opp. to <cite ref=\"Q00826\"><he>פירא</he></cite> merchandise. ",
+				"<cite ref=\"Shevuot 6b:13\">Shebu. 6ᵇ</cite> <he>ט׳ דמאן וכ׳</he> the coin of which goes farther (whose power is greater)?—",
+				"<cite ref=\"Niddah 20b:7\">Nidd. 20ᵇ</cite> <he>ט׳ דבבל וכ׳</he> the Babylonian coin (which I could not understand) was the cause &c.; a. fr.—Pl. <he>טִבְעֵי</he>. ",
+				"<cite ref=\"Bava Metzia 25a:13\">B. Mets. 25ᵃ</cite> <he>ט׳ מכריז</he> Ms. H. a. R. (ed. sing.). he publishes that he has found ‘coins’."
+			]
+		}
+	]
+}

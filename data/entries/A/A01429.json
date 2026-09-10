@@ -1,0 +1,33 @@
+{
+	"id": "A01429",
+	"slug": "איסטטיון",
+	"headword": {
+		"text": "אִיסְטַטְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אישטטיון",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 55,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (στατίων, statio, v. Harper’s Lat. Dict. 1882 s. v. Statio II, B, 4) <i>seat of the fiscal officers in the Roman provinces</i>, also <i>the staff of officers</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 66\">Gen. R. s. 66</cite> (play on <i>Shulamith</i> <cite ref=\"Song of Songs 7\">Cant. VII</cite>, "
+			]
+		},
+		{
+			"gloss": " the people of Israel <he>שמשלמת אִיסְטַטְיוֹנוֹ של עולם וכ׳</he> that preserves the (divine) government of the world complete (filling the vacancies) both in this world &c. Cant. R. to l. c. <cite ref=\"A01430\"><he>איסטטיונרון</he></cite>, read <he>אִיסְטַטְיוֹנָרִין</he> (stationarii) the number of officers (of the divine government). Cmp. <he>צַדִּיק</he>. V. <cite ref=\"O00478\"><he>סְטַטְיוֹנָר</he></cite>",
+			"units": [],
+			"label": "1"
+		}
+	]
+}

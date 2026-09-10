@@ -1,0 +1,32 @@
+{
+	"id": "R00554",
+	"slug": "צמא-2",
+	"headword": {
+		"text": "צָמֵא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1286,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"R00553\">preced.</cite>) <i>to be thirsty</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצְמִיא"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to perish from thirst</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 199\">Sifré Deut. 199</cite> (ref. to <cite ref=\"Deuteronomy 20:10\">Deut. XX, 10</cite> <he>להלחם עליה</he> … <he>ולא להַצְמִיאָהּ וכ׳</he> ‘to wage war against it’, but not to let it perish from famine or thirst, or cause it to die from pestilence; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

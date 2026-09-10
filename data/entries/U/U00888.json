@@ -1,0 +1,47 @@
+{
+	"id": "U00888",
+	"slug": "שיטתא-1",
+	"headword": {
+		"text": "שִׁיטְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁיטָּא"
+		},
+		{
+			"text": "שִׁיטָּה"
+		}
+	],
+	"page": {
+		"number": 1560,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " h. form) = h. <cite ref=\"U00883\"><he>שִׁיטָּה</he> III</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>row, line, stripe</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 12b:8\">Zeb. 12ᵇ</cite> <he>כולהו בחדא ש׳ וכ׳</he> they all stood in one line (were equal in rank and united).—Pl. <he>שִׁיטַּיָּא</he>, <he>שִׁיטַּיָּה</he>, <cite ref=\"U00732\"><he>שִׁטַּ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:2:4\">Y. Shebu. VI, 37ᵃ</cite> bot., v. <cite ref=\"S00358\"><he>קוּלְסִיתָא</he></cite>. Y. Gitt. V, 46ᵈ bot. <he>והוה … ביני ש׳ וכ׳</he> and R. Ḥ. wrote between the lines; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>opinion, principle, system</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:16\">Y. Ber. IX, 13ᵃ</cite> bot. <he>ר׳ יודן … אמר בשיטה אוחרי</he> R. J. … expressed the idea in a different way; <cite ref=\"Jerusalem Talmud Berakhot 9:1:16\">ib.</cite> <he>ר׳ יודן … ש׳ אוחרי</he>. ",
+				"<cite ref=\"Ketubot 17a:6\">Keth. 17ᵃ</cite> <he>שִׁיטָּתֵיה לסבא</he> (<he>אהניא ליה</he>) his line of conduct (habit of participating in wedding ceremonies) benefited the old man (v. <cite ref=\"U00386\"><he>שׁוֹטִיתָא</he></cite>). ",
+				"<cite ref=\"Bava Metzia 69a:2\">B. Mets. 69ᵃ</cite> <he>לאו … אלא שִׁיטָּה איתמר</he> it was not quoted as a halakhah, but as a line of opinions (all of equal rank). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:2:3\">Y. Snh. VIII, beg. 26ᵃ</cite> <he>מחלפא שִׁיטָּתֵיה וכ׳</he> R. S. b. Laḳish’s principle is at variance with itself: here he says …, and there he says &c.; Y. Peah IV, 18ᵈ bot., sq.; a. fr.—",
+				"<cite ref=\"Nazir 32b:3\">Naz. 32ᵇ</cite> <he>ואוקמיה בשִׁיטָּתַיְיהוּ</he>, v. <cite ref=\"U00762\"><he>שְׁטַף</he></cite>.—Pl. <he>שִׁיטִּין</he>, <cite ref=\"U00753\"><he>שִׁטִּין</he></cite>. ",
+				"<cite ref=\"Ruth Rabbah 5:6\">Ruth R. to II, 14</cite> <he>פתר בה שית ש׳</he> interpreted it in six ways. ",
+				"<cite ref=\"Vayikra Rabbah 2:6\">Lev. R. s. 2</cite> <he>אמר תרתין ש׳</he> offered two modes of developing the same idea, v. <cite ref=\"U00883\"><he>שִׁיטָּה</he> III</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:16\">Y. Ber. IX, 13ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

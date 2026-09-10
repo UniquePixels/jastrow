@@ -1,0 +1,44 @@
+{
+	"id": "D00990",
+	"slug": "דקדק-2",
+	"headword": {
+		"text": "דַּקְדֵּק"
+	},
+	"page": {
+		"number": 318,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00989\">same</cite><i>to crush, humiliate</i>, v. <cite ref=\"D00941\"><he>דַּעְדֵּק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite>, v. <cite ref=\"C00700\"><he>גְּיֵי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to investigate; to be strict</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 9:17\">Targ. Job IX, 17</cite> (cmp. ",
+				"<cite ref=\"Yevamot 121b\">Yeb. 121ᵇ</cite> in <cite ref=\"D00989\">preced. w.</cite>)—",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 22</cite> (ref. to <cite ref=\"P00261\"><he>עולל</he></cite>, <cite ref=\"Eichah Rabbah 1:57\">ib.</cite>) <he>דַּקְרֵּק עליהון מה דדַקְדַּקְתָּא עלי</he> be as strict in punishing them as thou hast been in punishing me."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִידַּקְדַּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed, powdered, broken</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Micah 1:7\">Targ. Mic. I, 7</cite> <he>ידקדקון</he> Var. (ed. Lag. <he>ידקקון</he>; Vien. <he>ידקרון</he>, corr. acc.). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 21:9\">Targ. Is. XXI, 9</cite> <cite ref=\"J00172\"><he>יִדַּ׳</he></cite> (not <cite ref=\"J00172\"><he>יְדַ׳</he></cite>). [<cite ref=\"Targum Jonathan on Nahum 3:10\">Targ. Nah. III, 10</cite> = <he>יזדקזק׳</he> they will be chained, v. <cite ref=\"G00653\"><he>זְקַק</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

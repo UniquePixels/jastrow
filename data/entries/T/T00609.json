@@ -1,0 +1,38 @@
+{
+	"id": "T00609",
+	"slug": "ריהטא",
+	"headword": {
+		"text": "רִיהֲטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִהֲ׳"
+		}
+	],
+	"page": {
+		"number": 1473,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00278\"><he>רְהַט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>running</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 18:27\">Targ. II Sam. XVIII, 27</cite>.—",
+				"<cite ref=\"Berakhot 6b:11\">Ber. 6ᵇ</cite>, v. <cite ref=\"A00339\"><he>אֲגַר</he> III</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of <i>a dish</i> made of honey, flour, and oil (v. <cite ref=\"H00074\"><he>חָבִיץ</he></cite>). Ib. 37ᵇ <he>ר׳ דחקלאי</he> (Ar. ed. Koh. <he>רה׳ דחקלא</he>) the <i>rihăṭa</i> of the field laborers.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

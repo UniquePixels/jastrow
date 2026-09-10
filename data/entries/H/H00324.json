@@ -1,0 +1,23 @@
+{
+	"id": "H00324",
+	"slug": "חול-6",
+	"headword": {
+		"text": "חוֹל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 433,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Ḥol</i>, name of a fabulous bird (Phoenix). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19:5\">Gen. R. s. 19</cite> (ref. to <cite ref=\"Job 29:18\">Job XXIX, 18</cite>); Midr. Sam. ch. XII; <cite ref=\"Yalkut Shimoni on Nach 917:5\">Yalk. Job 917</cite>. Cmp. <cite ref=\"A00590\"><he>אַיְורַשְׁנָא</he></cite>."
+			]
+		}
+	]
+}

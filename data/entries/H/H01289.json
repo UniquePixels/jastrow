@@ -1,0 +1,23 @@
+{
+	"id": "H01289",
+	"slug": "חניכיים",
+	"headword": {
+		"text": "חֲנִיכַיִים",
+		"homograph": 1
+	},
+	"page": {
+		"number": 483,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. (<cite ref=\"H01302\"><he>חָנַךְ</he></cite>; cmp. <cite ref=\"H00824\"><he>חִינְכֵי</he></cite>) <i>palate and tongue</i>, contrad. to teeth. ",
+			"units": [
+				"<cite ref=\"Chullin 103b:9\">Ḥull. 103ᵇ</cite> <he>בין הח׳</he> in the posterior part of the mouth, i.e. if he spit out the forbidden foot just before swallowing."
+			]
+		}
+	]
+}

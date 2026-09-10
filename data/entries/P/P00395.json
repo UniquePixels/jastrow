@@ -1,0 +1,31 @@
+{
+	"id": "P00395",
+	"slug": "עזגד",
+	"headword": {
+		"text": "עִזְגַּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַ׳"
+		}
+	],
+	"page": {
+		"number": 1061,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"A01190\"><he>אִיזְגַּד</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 31:4\">Targ. Y. Gen. XXXI, 4</cite> (some ed. <cite ref=\"A00006\"><he>אַ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 49:21\">Ib. XLIX, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 13:4\">Targ. Y. Num. XIII, 4</cite>, sq., a. e.—Pl. <he>עִזְגַּדַּיָּא</he>, <he>עִזְגַּדִּין</he>, <cite ref=\"P00395\"><he>עַ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 21:21\">Ib. XXI, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 32:7\">Targ. Y. Gen. XXXII, 7</cite> (ed. Vien. <cite ref=\"A00006\"><he>א׳</he></cite>); a. e."
+			]
+		}
+	]
+}

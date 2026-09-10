@@ -1,0 +1,29 @@
+{
+	"id": "M02595",
+	"slug": "מרון-2",
+	"headword": {
+		"text": "מָרוֹן",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּית מָרוֹן"
+		}
+	],
+	"page": {
+		"number": 839,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Beth Maron</i>, a place the access to which was by a narrow path. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 18a:13\">R. Hash. 18ᵃ</cite> (expl. <he>בני מרון</he>, v. <cite ref=\"M02594\">preced.</cite>) <he>כמעלות בית מ׳</he> like going up the ascent to B. M. (in single file; Var. <he>בית חורון</he>). ",
+				"<cite ref=\"Eruvin 22b:7\">Erub. 22ᵇ</cite> (v. Rabb. D. S. a. l. note 20).—V. <cite ref=\"M02596\">next w.</cite>"
+			]
+		}
+	]
+}

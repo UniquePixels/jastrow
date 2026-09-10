@@ -1,0 +1,29 @@
+{
+	"id": "M01069",
+	"slug": "מטרפסא",
+	"headword": {
+		"text": "מִטַּרְפְּסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיטַּ׳"
+		}
+	],
+	"page": {
+		"number": 770,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טרפס</he>, Pales of <cite ref=\"I00864\"><he>טְרַף</he></cite>) <i>debt matured for collection by seizure;</i> <he>שקל למ׳</he> <i>to get one’s due, to be punished</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 57b:1\">Pes. 57ᵇ</cite> <he>בריך רחמנא דאשקליה ליששכר … למִיטַּרְפְּסֵיה מיניה וכ׳</he> blessed be the Lord who caused Issachar … to receive his due at his (the king’s) hand in this world; (Ms. M. <he>דשַׁקְּלֵיה ליש׳ … למטרופסא</he>; <cite ref=\"Yalkut Shimoni on Torah 469:39\">Yalk. Lev. 469</cite> <he>דשקליה יששכר למיטרפסיה</he>, read: <he>ליששכר</he>); <cite ref=\"Keritot 28b\">Ker. 28ᵇ</cite> <he>דשקליה ליש׳ למטרפסיה</he>. ",
+				"<cite ref=\"Yevamot 105b:8\">Yeb. 105ᵇ</cite> <he>שָׁקְלֵיה רבי למטרפסיה</he> Rabbi received his due (it served him right). ",
+				"<cite ref=\"Sanhedrin 21a:16\">Snh. 21ᵃ</cite> <he>שְׁקלְתֵּה מיכל למִיטַּרְפְּסָהּ</he> Michal received her due."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "K00425",
+	"slug": "כותי-2",
+	"headword": {
+		"text": "כּוּתִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 627,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00413\"><he>כּוּת</he></cite>) <i>Cuthean, a member of the sect of Samaritans</i>. [In editions published under censorial influences our w. frequently takes the place of <cite ref=\"C00358\"><he>גוי</he></cite>, <he>עכו״ם</he>, <cite ref=\"M01693\"><he>מין</he></cite> &c., a. vice versa.] <cite ref=\"Chullin 3b:17\">Ḥull. 3ᵇ</cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Avodah Zarah 3:5\">Tosef. Ab. Zar. III, 5</cite> (distinction between <he>כ׳</he> a. <cite ref=\"C00358\"><he>גוי</he></cite>). Ib. 13ᵃ. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 3:1:4\">Y. Keth. III, beg. 27ᵃ</cite>; a. fr.—Pl. <he>כּוּתִים</he>, <he>כּוּתִיִּים</he>, <he>כּוּתִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 7:5:5\">Y. Yeb. VII, 8ᵇ</cite> bot. ",
+				"<cite ref=\"Chullin 3b:17\">Ḥull. 3ᵇ</cite> <cite ref=\"Sotah 33b:6\">Sot. 33ᵇ</cite> <he>ספרי כ׳</he> the books of the Samaritans, v. <cite ref=\"G00223\"><he>זוּף</he> I</cite>; <cite ref=\"Sanhedrin 90b:20\">Snh. 90ᵇ</cite> <he>צדוקים</he> ed. (Ms. M. <he>כ׳</he>, v. Rabb. D. S. a. l. note); a. fr.—<i>Fem.</i> <he>כּוּתִית</he>. ",
+				"<cite ref=\"Mishnah Ketubot 3:1\">Keth. III, 1</cite>. Tosef. Oh. XVIII, 6; a. fr.—Pl. <he>כּוּתִיּוֹת</he>. ",
+				"<cite ref=\"Mishnah Niddah 4:2\">Nidd. IV, 2</cite>; <cite ref=\"Tosefta Niddah 5:2\">Tosef. ib. V, 2</cite>; a. e."
+			]
+		}
+	]
+}

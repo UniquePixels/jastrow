@@ -1,0 +1,38 @@
+{
+	"id": "A00765",
+	"slug": "אונקיא",
+	"headword": {
+		"text": "אוּנְקְיָא"
+	},
+	"page": {
+		"number": 29,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (uncia, οὐγκία) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ounce</i>, one twelfth of a litra. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 17:7\">Gen. R. s. 17</cite> <he>א׳ של כסף</he> an ounce of silver. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>נסבון מן אונקא</he> (<cite ref=\"P00342\"><he>העיר</he></cite>) (corr. acc.) they bought ounce-wise (pepper)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " trnsf. <i>a trifle, particle</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:2\">Y. Taan. IV, 68ᶜ</cite> top there is not a generation in which there is not (to be atoned for through suffering) <he>אונקי אחת וכ׳</he> (read <he>אונקיא אחת</he>) a particle of the sin of the calf-worship. ",
+				"<cite ref=\"Shemot Rabbah 43\">Ex. R. s. 43</cite>, beg. <cite ref=\"A00832\"><he>אוקיא</he></cite> (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 29:1\">Gen. R. s. 29</cite>; <cite ref=\"Yalkut Shimoni on Torah 47:3\">Yalk. Gen. 47</cite>; <cite ref=\"Yalkut Shimoni on Nach 908:14\">Yalk. Job. 908</cite> (play on <he>אי נקי</he> <cite ref=\"Job 22:30\">Job. XXII, 30</cite>) <he>א׳ אחת היתה וכ׳</he> only an ounce (of merit) did Noah possess; v. <cite ref=\"A01378\"><he>אינוניתא</he></cite>.—Pl. <he>אוּנְקִיּוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 79:7\">Gen. R. s. 79</cite>, end (play on the letters of <he>ק̇ש̇י̇ט̇ה̇</he> <cite ref=\"Genesis 33:19\">Gen. XXXIII, 19</cite>) <he>במאה אונקֹיות … ס̇לעים … ט̇לאים</he> for one hundred (<he>ק̇</he>) ounces (of gold) &c. V. <cite ref=\"A00832\"><he>אוּקְיָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "O01692",
+	"slug": "סתורים",
+	"headword": {
+		"text": "סְתוֹרִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְתוֹרִין"
+		}
+	],
+	"page": {
+		"number": 1031,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"O01691\">preced.</cite>) <i>confusion</i>, <i>mischief</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 71:3\">Gen. R. s. 71</cite> (play on <cite ref=\"O01690\"><he>סְתוֹר</he></cite> q. v.) <he>בן ס׳</he> (not <he>בין</he>) a doer of mischief; (Yalk. ib. 126 <he>בר מסתורין</he>, v. <cite ref=\"M02037\"><he>מִסְתּוֹרִין</he></cite>)."
+			]
+		}
+	]
+}

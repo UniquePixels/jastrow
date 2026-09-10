@@ -1,0 +1,29 @@
+{
+	"id": "M00980",
+	"slug": "מטול-2",
+	"headword": {
+		"text": "מָטוּל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַטּוּל",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 766,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00509\"><he>טְלַל</he></cite>) <i>moving, march</i> (= h. <cite ref=\"M01983\"><he>מַסַּע</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 10:11\">Targ. O. Deut. X, 11</cite> (ed. Berl. <he>מַטּ׳</he>), v. <cite ref=\"M01014\"><he>מַטְלָנָא</he> II</cite>."
+			]
+		}
+	]
+}

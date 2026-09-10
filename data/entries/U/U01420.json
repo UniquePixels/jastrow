@@ -1,0 +1,44 @@
+{
+	"id": "U01420",
+	"slug": "שמד-2",
+	"headword": {
+		"text": "שְׁמַד"
+	},
+	"page": {
+		"number": 1592,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01419\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁמֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to force to apostasy</i>. Y. Shebi. IV, 35ᵃ bot. <he>לא מתכוון מְשַמַּדְתְּכוֹן</he> he has no intention to make you abandon your religion (to persecute you for your religion’s sake), but only to collect taxes &c.; Y. Snh. III, 21ᵇ top <he>משמדתהון</he> (corr. acc.). ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>לא אתכוון מְשַׁמַּדְתְּהוֹן וכ׳</he> he had no intention to force them to violate their religious laws, but merely wanted to eat fresh bread; Y. Shebi. l. c. <he>מְשַׁמַּדְתּוֹן</he>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּמַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to renounce one’s religion, apostatize</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 12:43\">Targ. O. Ex. XII, 43</cite> (h. text <he>בן נכר</he>).—",
+						"<cite ref=\"Kiddushin 72a:11\">Kidd. 72ᵃ</cite> <he>שמתינהו</he> … <he>ואִישְׁתַּמּוּד</he> R. A. excommunicated them, and they renounced Judaism."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "M02550",
+	"slug": "מרדין-1",
+	"headword": {
+		"text": "מִרְדִּין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 837,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"M02533\"><he>מֵרְדָא</he></cite>) <i>rebellious acts, political crimes</i>, esp. the unauthorized exercise of criminal jurisdiction by Jews under the Parthian government. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 117a:20\">B. Kam. 117ᵃ</cite> <he>עד האידנא מלכותא דיוונאי הוו</he> … <he>השתא פרסאי נינהו</he> … <he>ואמרי מ׳ מ׳</he> Ms. M. (v. Rabb. D. S. a. l. note) formerly the rulers were Greeks who cared not about bloodshed (execution by unauthorized courts), but now they are Persians (Parthians) who do care &c., and cry, rebellion! rebellion!—",
+				"<cite ref=\"Bava Metzia 39a:8\">B. Mets. 39ᵃ</cite> <he>בורח מחמת מ׳</he> who flees from persecution for political offenses; <cite ref=\"Bava Batra 38b:7\">B. Bath. 38ᵇ</cite>. [Hai Gaon derives our w. from the Persian, giving it the meaning of <i>murder</i>; Fl. to Levy Talm. Dict. III, p. 317ᵇ suggests <i>murdan</i>, to die.]"
+			]
+		}
+	]
+}

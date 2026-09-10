@@ -1,0 +1,40 @@
+{
+	"id": "L00280",
+	"slug": "לוליינוס",
+	"headword": {
+		"text": "לוּלְיָינוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "לוּלְיָא׳"
+		}
+	],
+	"page": {
+		"number": 699,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Lulianus</i> (popular corrupt. of Julianus) ",
+			"units": []
+		},
+		{
+			"gloss": " name of an influential man who suffered a martyr’s death together with one Papus. Sifra B’ḥuck., Par. 2, ch. V (ref. to <cite ref=\"Leviticus 26:19\">Lev. XXVI, 19</cite>, v. <cite ref=\"C00005\"><he>גֵּאֶה</he></cite>) <he>כגון פפוס בן יהודה ול׳ אלכסדרי וכ׳</he> like P. son of Judah and L. the Alexandrian and his associates. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:12:3\">Y. Taan. II, 66ᵃ</cite> top <he>יום … ל׳ ופ׳</he> the day on which L. and P. were put to death; Bab. ",
+				"<cite ref=\"Taanit 18b:8\">Taan. 18ᵇ</cite> <cite ref=\"L00280\"><he>לוּלְיָנ׳</he></cite>; v. fr., v. <cite ref=\"L00204\"><he>לוּדְקְיָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>ל׳ מלכא</he> King (emperor) <i>Julian</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 3:2:2\">Y. Ned. III, 37ᵈ</cite> bot.; (Y. Shebu. III, 34ᵈ <cite ref=\"D00334\"><he>דוקליטיאנוס</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

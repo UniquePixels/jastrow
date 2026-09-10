@@ -1,0 +1,31 @@
+{
+	"id": "C01071",
+	"slug": "גמש",
+	"headword": {
+		"text": "גְּמַשׁ"
+	},
+	"page": {
+		"number": 256,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>כמש</he>) <i>to contract, bend</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 67a:3\">Yoma 67ᵃ</cite> Ms. M. 2 (v. Rabb. D. S. a. l. note 20) <he>זימנין דגְמִישׁ רישיה ולא חזי ליה</he> sometimes the animal’s head (in falling) is bent, and he (the man) cannot see the chord."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּמֵּישׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C01070\">same</cite>. Ib. ed. <he>זימנין דג׳ ליה לרישיה ולאו אדעתיה</he> the animal may bend its head, and the man may not think of looking after the chord.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

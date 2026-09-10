@@ -1,0 +1,52 @@
+{
+	"id": "K00854",
+	"slug": "כניסה",
+	"headword": {
+		"text": "כְּנִיסָה"
+	},
+	"page": {
+		"number": 649,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00860\"><he>כָּנַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gathering, assembly</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 1:1\">Meg. I, 1</cite> <he>מקדימין ליום הכ׳</he> read the M’gillah in advance on the gathering (market) day before Purim. Ib. 4ᵇ; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>entering</i>, opp. <cite ref=\"J00527\"><he>יציאה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:1:15\">Y. Erub. V, 22ᶜ</cite>; <cite ref=\"Mishnah Middot 1:3\">Midd. I, 3</cite>, v. <cite ref=\"J00527\"><he>יְצִיאָה</he></cite>.—",
+				"<cite ref=\"Bava Metzia 104a:10\">B. Mets. 104ᵃ</cite> <he>בשעת כְּנִיסָתָן לחופה</he> when they were being led to the wedding chamber. ",
+				"<cite ref=\"Ketubot 12a:1\">Keth. 12ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Berakhot 4:2\">Ber. IV, 2</cite> <he>בכְנִיסָתוֹ לבה״מ</he> on his entering college (for teaching and judging). ",
+				"<cite ref=\"Bava Metzia 83b:1\">B. Mets. 83ᵇ</cite> <he>בכְנִיסָתוֹ</he> the time consumed in going home, v. <cite ref=\"Q00302\"><he>פּוֹעֵל</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>keeping in, detention</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 782:20\">Yalk. Num. 782</cite>, v. <cite ref=\"P01121\"><he>עֲצִירָה</he></cite>.—[<cite ref=\"Jerusalem Talmud Sheviit 7:1:3\">Y. Shebi. VII, beg. 37ᵇ</cite> <he>כניסות</he>, v. <cite ref=\"K00053\"><he>כְּבִיסָה</he></cite>.]"
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>recess, settle</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 97b:19\">Men. 97ᵇ</cite>, interch. with <cite ref=\"K00310\"><he>כּוֹנְסָה</he></cite> a. <cite ref=\"K00863\"><he>כְּנָסָה</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

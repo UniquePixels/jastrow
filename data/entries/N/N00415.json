@@ -1,0 +1,23 @@
+{
+	"id": "N00415",
+	"slug": "נוקשה",
+	"headword": {
+		"text": "נוּקְשֶׁה"
+	},
+	"page": {
+		"number": 890,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02219\"><he>קָשָׁה</he></cite>) <i>old, spoiled</i>, esp. <he>נ׳</he> (<cite ref=\"H01212\"><he>חמץ</he></cite>) <i>a leavened substance unfit for food</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 43a:19\">Pes. 43ᵃ</cite> <he>נ׳ בעיניה</he> spoiled leavened substance in its natural condition, opp. <he>ע״י תערובת</he> in a mixture. ",
+				"<cite ref=\"Menachot 54a:3\">Men. 54ᵃ</cite>; a. fr.—[Ar.: <he>נוּקְשָׁא</he>.]"
+			]
+		}
+	]
+}

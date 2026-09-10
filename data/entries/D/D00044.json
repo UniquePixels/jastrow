@@ -1,0 +1,25 @@
+{
+	"id": "D00044",
+	"slug": "דבבו",
+	"headword": {
+		"text": "דְּבָבוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּבָבוּתָא"
+		}
+	],
+	"page": {
+		"number": 276,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00043\">same</cite>, <i>hatred</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:5\">Targ. Gen. III, 5</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:21\">Targ. Is. XIV, 21</cite> ed. Lag. (ed. <cite ref=\"D00041\"><he>דבב</he></cite>)."
+			]
+		}
+	]
+}

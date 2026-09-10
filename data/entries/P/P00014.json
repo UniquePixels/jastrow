@@ -1,0 +1,104 @@
+{
+	"id": "P00014",
+	"slug": "עבד-2",
+	"headword": {
+		"text": "עֲבַד",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲבֵיד"
+		}
+	],
+	"page": {
+		"number": 1035,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00013\">same</cite> (corresp. to h. <cite ref=\"P01466\"><he>עָשָׂה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to do, labor; to make; to act</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:7\">Targ. Gen. I, 7</cite>. ",
+				"<cite ref=\"Onkelos Genesis 31:26\">Ib. XXXI, 26</cite>; a. v. fr.—",
+				"<cite ref=\"Berakhot 60b:3-12\">Ber. 60ᵇ</cite> <he>לעולם</he> … <he>כל דעביד רחמנא לטב</he> Ms. M. (ed. <he>לטב עביד</he>; v. Rabb. D. S. a. l. note 3) man should train himself always to say, Whatever the Merciful One does, is for good; <cite ref=\"Yalkut Shimoni on Nach 893:3\">Yalk. Job 893</cite> <he>כל … לטב עביד</he>. ",
+				"<cite ref=\"Temurah 4b:32\">Tem. 4ᵇ</cite> <he>אי עביד מהני</he>, v. <cite ref=\"E00676\"><he>הֲנִי</he></cite>. ",
+				"<cite ref=\"Yevamot 37a:2\">Yeb. 37ᵃ</cite> <he>מי עָבוּד רבנן תקנתא וכ׳</he> (not <he>עביד</he>) have the Rabbis adopted special measures for priests &c.? <cite ref=\"Yevamot 37a:3\">Ib.</cite> <he>עַבְדִּינָן כרבנן</he> we act (decide) in accordance with the opinion of the Rabbis. ",
+				"<cite ref=\"Ketubot 60b:10\">Keth. 60ᵇ</cite> <he>לא עַבְדֵי נשי דחנקן וכ׳</he> women will not do such a thing as strangling their children. ",
+				"<cite ref=\"Kiddushin 50a:8\">Kidd. 50ᵃ</cite> <he>לא ע׳ אינש דמשוי וכ׳</he> a man will not declare himself a wrongdoer; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to do, fare, prosper</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:8\">Lev. R. s. 5</cite>, end <he>מה את עָבֵיד</he> how art thou?; <he>ומה ארעא עֲבִידָא</he> and how does the field fare?; <he>מה תורין עַבְדִין</he> how are the oxen? <cite ref=\"Vayikra Rabbah 5:8\">Ib.</cite> <he>ע׳ לב טב</he> he assumes cheerfulness. ",
+				"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> <he>כל שיחתן … עַבְדַּת ארעא</he> all the talk of people turns on the land (material prosperity): ‘the land is doing well’ (crops promise to be good); ‘the land is not doing well’; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to spend time</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 8:5:5\">Y. Shebi. VIII, 38ᵇ</cite> top <he>עביד טמיר במערתא וכ׳</he> he remained hidden in a cave &c.; ib. IX, 38ᵈ. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:7\">Y. Shek. V, 48ᵈ</cite> top <he>עַבְדַת טמירא וכ׳</he> she (the ass) remained hidden with them &c.; <cite ref=\"Bereishit Rabbah 60:8\">Gen. R. s. 60</cite> <he>עבדת גבון</he>; a. fr.—<i>Part. pass.</i> <cite ref=\"P00044\"><he>עָבִיד</he></cite>; f. <cite ref=\"P00045\"><he>עֲבִידָא</he></cite> <i>made, liable to, likely, used to</i>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 3:7:13\">Y. Peah III, 17ᵈ</cite> bot. <he>היך ע׳</he> how did it happen (i.e. in what case would it make a practical difference for the slave)? <cite ref=\"Rosh Hashanah 22b:16\">R. Hash. 22ᵇ</cite>, a. e. <he>מילתא דע׳ לאיגלויי</he>, v. <cite ref=\"C00927\"><he>גְּלֵי</he></cite>. ",
+				"<cite ref=\"Shevuot 46a:15\">Shebu. 46ᵃ</cite>, v. <cite ref=\"C00569\"><he>גְּזַם</he></cite>; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַעֲבֵיד"],
+			"senses": [],
+			"stem": "Af."
+		},
+		{
+			"forms": ["עַבֵּיד"],
+			"senses": [
+				{
+					"gloss": "<i>to make, produce</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 32:10\">Targ. O. Ex. XXXII, 10</cite> <cite ref=\"P00014\"><he>אַעַבֵּיד</he></cite> ed. Berl. (oth. <cite ref=\"P00014\"><he>אַעֲבֵיד</he></cite>; Y. <he>אֶעְבַּד</he>). Ib. XXX, 37; a. fr.—",
+						"<cite ref=\"Vayikra Rabbah 28:6\">Lev. R. s. 28</cite>, end, v. infra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to prosper</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> <he>כל תפלתן … מרי תַעֲבִיד ארעא יכ׳</he> all the prayers of men turn on the earth (mundane affairs): Lord, make the land (crop) thrive, make the land prosper; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to work through</i>. Part. pass. <he>מְעַבַּד</he>, <cite ref=\"M02047\"><he>מְעַבְּדָא</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 116b:12\">B. Mets. 116ᵇ</cite> <he>טינא דמע׳</he> thoroughly kneaded clay."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְעֲבֵיד", "אִיעֲבֵיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be done; to be made, become</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 29:26\">Targ. Gen. XXIX, 26</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 8:4\">Targ. Koh. VIII, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 62:4\">Targ. Ps. LXII, 4</cite>; a. fr.—",
+						"<cite ref=\"Eichah Rabbah 2:16\">Lam. R. to II, 2</cite> <he>בעית לאִיעַבְדָּא וכ׳</he> (not <he>לאיבדא</he>, <he>לעיבדא</he>) dost thou want to be made a senator? <cite ref=\"Vayikra Rabbah 28:6\">Lev. R. s. 28</cite>, end <he>מאן דעַבֵּיד … אתע׳ וכ׳</he> he who made the comes …, is now to become a bather &c.; <cite ref=\"Esther Rabbah 10:4\">Esth. R. to VI, 10</cite> <he>האי גברא מְעַבֵּיד … עביד בלן</he> (corr. acc.); a. fr. [<cite ref=\"Zevachim 75b:18\">Zeb. 75ᵇ</cite> <he>דאיעבד</he>, read: <he>דאיערוב</he>, v. <cite ref=\"P01252\"><he>עֲרַב</he> I</cite>.]—V. <cite ref=\"D00671\"><he>דִּיעֲבַד</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

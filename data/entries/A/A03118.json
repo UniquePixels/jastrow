@@ -1,0 +1,23 @@
+{
+	"id": "A03118",
+	"slug": "אריסטון-2",
+	"headword": {
+		"text": "אֲרִיסְטוֹן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 120,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ariston</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 4:11\">Ḥall. IV, 11</cite>; <cite ref=\"Jerusalem Talmud Sheviit 6:4:7\">Y. Shebi. VI, end, 37ᵃ</cite> (a Syrian land-owner).—Y. Yeb. XVI, end, 16ᵃ <he>חד א׳</he> one Ariston. [‘<i>One of the</i> βουλὴ ἀριστῶν mentioned Cod. Theod. Lib. XII, Tit. 888, Frankel M’bo p. 65ᵃ.]"
+			]
+		}
+	]
+}

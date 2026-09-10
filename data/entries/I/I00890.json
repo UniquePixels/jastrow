@@ -1,0 +1,22 @@
+{
+	"id": "I00890",
+	"slug": "טרקא-1",
+	"headword": {
+		"text": "טַרְקָא"
+	},
+	"page": {
+		"number": 557,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00889\">preced.</cite>; cmp. Syr. <cite ref=\"I00887\"><he>טרק</he></cite>, P. Sm. 1528) <i>a castle, palace</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:24\">Targ. Prov. XXV, 24</cite> <he>וביתא ט׳</he> though the house be a palace (h. text <he>ובית חבר</he>)."
+			]
+		}
+	]
+}

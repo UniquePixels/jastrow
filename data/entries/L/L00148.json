@@ -1,0 +1,29 @@
+{
+	"id": "L00148",
+	"slug": "לדנא",
+	"headword": {
+		"text": "לְדָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִידְנָא"
+		}
+	],
+	"page": {
+		"number": 693,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = b. h. <cite ref=\"N00232\"><he>נָדָן</he></cite>, <i>sheath</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 21:27\">Targ. I Chr. XXI, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 20:8\">Targ. II Sam. XX, 8</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:51\">Targ. I Sam. XVII, 51</cite> (ed. Wil. <cite ref=\"N00624\"><he>נְדָ׳</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "H01232",
+	"slug": "חמש-1",
+	"headword": {
+		"text": "חָמֵשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲמִשָּׁה"
+		}
+	],
+	"page": {
+		"number": 480,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>five</i> (numeral letter <cite ref=\"E00001\"><he>ה׳</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 5:3\">Snh. V, 3</cite> <he>בחמש</he> (sub. <cite ref=\"U01645\"><he>שעות</he></cite>) during the fifth hour of the day. ",
+				"<cite ref=\"Mishnah Sanhedrin 5:3\">Ib.</cite> <he>בחמשה</he> (sub. <he>ימים</he>) on the fifth of the month.—",
+				"<cite ref=\"Shabbat 77b:7\">Sabb. 77ᵇ</cite> <he>חמשה אימות וכ׳</he> (sub. <he>מִינֵי</he>), v. <cite ref=\"A01325\"><he>אֵימָה</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Metzia 4:9\">B. Mets. IV, 9</cite> <he>תשלומי ארבעה וח׳</he> fines of the fourfold or fivefold value (<cite ref=\"Exodus 21:37\">Ex. XXI, 37</cite>); a. v. fr.—Pl. <he>חֲמִשִּׁים</he> (<cite ref=\"N00002\"><he>נ׳</he></cite>) <i>fifty</i>. ",
+				"<cite ref=\"Rosh Hashanah 21b:11\">R. Hash. 21ᵇ</cite>. ",
+				"<cite ref=\"Pirkei Avot 5:21\">Ab. V, 21</cite> <he>בן ח׳</he> at the age of fifty years; a. v. fr.—Denom. <he>חִמֵּשׁ</he> <i>to divide into five</i>.—<i>Part. pass.</i> <he>מְחוּמָּשׁ</he>; f. <he>מְחוּמֶּשֶׁת</he>, pl. <he>מְחוּמָּשׁוֹת</he>. ",
+				"<cite ref=\"Bava Batra 150a:3\">B. Bath. 150ᵃ</cite> <he>ובלבד שיהו מח׳</he> provided the minimum of wool required is equally divided between the five lambs.—<he>חֲמֵשׁ עֶשְׂרֵה</he> f.; <he>חֲמִשָּׁה עָשָׂר</he> m. (<he>ט״ו</he>) <i>fifteen</i>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:15\">Y. Sabb. VI, 8ᵇ</cite> (ref. to <he>וחמשים</he>, <cite ref=\"Exodus 13:18\">Ex. XIII, 18</cite>) <he>בח׳ ע׳ מיני וכ׳</he> with fifteen kinds of arms. ",
+				"<cite ref=\"Mishnah Taanit 4:8\">Taan. IV, 8</cite> <he>כח׳ ע׳ באב</he> like the celebration of the fifteenth of Ab; a. fr.—Constr. of <cite ref=\"H01232\"><he>חֲמִשָּׁה</he></cite>; <he>חֲמֵשֶׁת</he>. ",
+				"<cite ref=\"Kiddushin 30a:7\">Kidd. 30ᵃ</cite> <he>ח׳ אלפים</he> five thousand; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "H01664",
+	"slug": "חרטום-2",
+	"headword": {
+		"text": "חַרְטוֹם"
+	},
+	"page": {
+		"number": 501,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00637\"><he>חטם</he></cite>, with <cite ref=\"T00000\"><he>ר</he></cite> inserted) = <cite ref=\"H00301\"><he>חוֹטָם</he></cite>, <i>nose, beak</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 1:2\">Toh. I, 2</cite>. Sifra Aḥăré, Par. 8, ch. XII <he>פרט לח׳ וכ׳</he> except the beak, the nails, feathers &c. [<cite ref=\"Mishnah Tamid 4:3\">Tam. IV, 3</cite> Ar. (ed. <he>חוטמו</he>) the nostrils.]"
+			]
+		}
+	]
+}

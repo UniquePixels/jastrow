@@ -1,0 +1,32 @@
+{
+	"id": "E00119",
+	"slug": "הדייב",
+	"headword": {
+		"text": "הַדְיֵיב"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַדְיֵב"
+		},
+		{
+			"text": "חַ׳"
+		}
+	],
+	"page": {
+		"number": 333,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Adiabena</i>, a district of Assyria between the rivers Lycus and Caprus. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:27\">Targ. Jer. LI, 27</cite> (ed. Lag. <cite ref=\"H00001\"><he>ח׳</he></cite>; h. text <he>אשכנז</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:23\">Targ. Ez. XXVII, 23</cite> (h. text <cite ref=\"P00156\"><he>עדן</he></cite>).—",
+				"<cite ref=\"Bereishit Rabbah 37:3\">Gen. R. s. 37</cite> Ar. (for <he>ריפת</he>, <cite ref=\"Genesis 10:3\">Gen. X, 3</cite>; ed. <cite ref=\"E00127\"><he>הַדְיֵף</he></cite>); Y. Meg. I, 71ᵇ bot. <cite ref=\"E00123\"><he>הדיית</he></cite> (corr. acc.). Y. Sabb. XIV, beg. 14ᵇ <cite ref=\"E00123\"><he>הדיית</he></cite> (corr. acc.); Bab. ",
+				"<cite ref=\"Shabbat 121b\">Sabb. 121ᵇ</cite> <cite ref=\"H00001\"><he>ח׳</he></cite> (Ms. M. <cite ref=\"T00580\"><he>הריב</he></cite>, corr. acc.; v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Moed Katan 28a:3\">M. Kat. 28ᵃ</cite> <he>זוזא דמה׳</he> Ar. (ed. <he>זוג׳</he>); <cite ref=\"Niddah 21b:31\">Nidd. 21ᵇ</cite> <he>זוגא דמן ח׳</he> Z. of Ad.—",
+				"<cite ref=\"Yevamot 16b:7\">Yeb. 16ᵇ</cite> sq. <he>חבור זו ח׳</he> Ḥabor (<cite ref=\"II Kings 18:11\">II Kings XVIII, 11</cite>) is <i>Ḥ</i><i>adyab</i>."
+			]
+		}
+	]
+}

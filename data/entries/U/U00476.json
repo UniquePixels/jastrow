@@ -1,0 +1,72 @@
+{
+	"id": "U00476",
+	"slug": "שוע-2",
+	"headword": {
+		"text": "שׁוּעַ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1538,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00475\">same</cite> [<i>to smooth over</i>,] <i>to plaster</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 14:42\">Targ. O. Lev. XIV, 42</cite> <he>וִישׁוּעַ</he> (Kimḥi <he>וִישִׁיעַ</he>, v. Berl. Targ. O. II, p. 35; some ed. <he>ויסוע</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 27:2\">Targ. Y. Deut. XXVII, 2</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 27:4\">4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:12\">Targ. Ez. XIII, 12</cite>; a. e.—<i>Part. pass.</i> <he>שִׁיעַ</he> <i>smooth</i>. ",
+				"<cite ref=\"Chullin 47b\">Ḥull. 47ᵇ</cite> (expl. <he>דמיא לאופתא</he>) <he>יעָא דלית וכ׳ שֻׁד</he> when the lung is a smooth-surfaced mass, without incisions marking the lobes."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to card</i>. Part. pass. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 22:11\">Targ. Y. Deut. XXII, 11</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁיַּיע"],
+			"senses": [
+				{
+					"gloss": "<i>to plaster</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 47b:16\">Ab. Zar. 47ᵇ</cite> <he>דש׳ והדר שַׁיְּיעֵיה</he> when he plastered once and plastered it over again. ",
+						"<cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite> [read:] <he>אתי למֵישַׁיַּיע תרתין והוא שייע ארבע</he> one came to plaster two (squares of a wall), and he plastered four; <cite ref=\"Yalkut Shimoni on Torah 62:8\">Yalk. ib. 62</cite> <he>אתי למֵישַׁע חדא והוא שייע ארבע</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to slip</i>, v. <cite ref=\"U00475\">preced.</cite>",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְּשַׁע", "אִשְׁתַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be plastered, daubed</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 14:43\">Targ. O. Lev. XIV, 43</cite>; <cite ref=\"Onkelos Leviticus 14:48\">48</cite> (some ed. <cite ref=\"U01677\"><he>אִתָּשַׁע</he></cite>, v. <cite ref=\"U01677\"><he>שְׁעַע</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become a smooth mass</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 25b:13\">M. Kat. 25ᵇ</cite> <he>אִישְׁתָּעוּ</he>, v. <cite ref=\"M00894\"><he>מַחֲלָצַיָּיא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

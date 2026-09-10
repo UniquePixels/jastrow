@@ -1,0 +1,25 @@
+{
+	"id": "A02939",
+	"slug": "אקרא",
+	"headword": {
+		"text": "אַקְרָא"
+	},
+	"page": {
+		"number": 113,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (dialect. for <cite ref=\"H01569\"><he>חַקְרָא</he></cite> in Yer. dial. q. v.; cmp. var. lect. bel.) <i>fort</i>, designation of various, mostly Babyl. places. ",
+			"units": [
+				"<cite ref=\"Megillah 6a:10\">Meg. 6ᵃ</cite> <he>א׳ דתולבקני</he> (Ms. Oxf., L., F. <he>עקרא</he>; v. Rabb. D. S. a. l. note); <cite ref=\"Kiddushin 71b:15\">Kidd. 71ᵇ</cite>, v. <cite ref=\"V00211\"><he>תולבקני</he></cite>. [Rashi: <i>fortified ford</i>.] <cite ref=\"Bava Batra 127a:13\">B. Bath. 127ᵃ</cite>, <cite ref=\"Kiddushin 72a:11\">Kidd. 72ᵃ</cite>, v. <cite ref=\"A00311\"><he>אַגְמָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 86a:4\">B. Mets. 86ᵃ</cite> <he>מא׳ לאגמא</he> from Fort (Agma) to Agma (Var. lect. v. Rabb. D. S. a. l.). ",
+				"<cite ref=\"Bava Batra 73b:3\">B. Bath. 73ᵇ</cite>, v. <cite ref=\"E00088\"><he>הגרוניא</he></cite>. ",
+				"<cite ref=\"Makkot 10a\">Macc. 10ᵃ</cite>, v. <cite ref=\"O00993\"><he>סְלִיקוֹס</he></cite>; a. fr. [The Gr. ἄκρα, orig. <i>summit</i>, is a phonetic coincidence.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "A01351",
+	"slug": "אימרה",
+	"headword": {
+		"text": "אִימְּרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִימְּרָא"
+		}
+	],
+	"page": {
+		"number": 51,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " h. f. (v. <cite ref=\"A01350\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fringe, border, skirt;</i> trnsf. <i>the bordered garment</i>, (toga prætexta), <i>state garment</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 11b:8\">Taan. 11ᵇ</cite>; <cite ref=\"Avodah Zarah 34a:5\">Ab. Zar. 34ᵃ</cite> <he>חלוק לבן שאין בו אימרא</he> a white plain frock without border (without official distinction; cmp. toga pura). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:1:9\">Y. Kil. IX, 32ᵃ</cite> top; <cite ref=\"Tosefta Kilaim 5:19\">Tosef. ib. V, 19</cite> <he>א׳</he> (<cite ref=\"E00000\"><he>ה</he></cite>)<he>מפורסמת</he> a conspicuous border garment. Y. Kidd. IV, beg. 65ᵇ (play on <cite ref=\"A02060\"><he>אִמֵּר</he></cite> <cite ref=\"Ezra 2:59\">Ezra II, 59</cite>) <he>פירסמו וכ׳</he> they made themselves as conspicuous as the border on the frock. ",
+				"<cite ref=\"Shabbat 105a\">Sabb. 105ᵃ</cite>; <cite ref=\"Tosefta Shabbat 12:3\">Tosef. ib. XII</cite> (<cite ref=\"Tosefta Shabbat 13:1\">XIII</cite>), 1.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:23\">Y. Yoma I, 38ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Megillah 1:10:6\">Y. Meg. I, 72ᵃ</cite> bot. <he>אִימְּרַת חלוקי</he> the skirt of my frock; a. fr.—[<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to II, 17</cite> explain. <he>אִמְרָתוֹ</he> <cite ref=\"Eichah Rabbah 1:1\">ib.</cite>, <he>פורפירא</he>, v. <cite ref=\"B00459\"><he>בזע</he></cite>.] Pl. (of <cite ref=\"A00713\"><he>אוּמְּרִית</he></cite>) <he>אוּמְרִיּוֹת</he>. ",
+				"<cite ref=\"Mishnah Negaim 11:10\">Neg. XI, 10</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:7:2\">Y. M. Kat. I, 80ᵈ</cite> bot.; v. <cite ref=\"G00118\"><he>זָוַג</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " trnsf. <i>object of distinction, decoration</i> (play on <cite ref=\"A02027\"><he>אֲמִירָה</he> II</cite>); cmp. <cite ref=\"H00624\"><he>חְטִיבָה</he></cite>. Mekh. B’shall., Shirah, s. 3 (ref. to <he>האמר־</he> <cite ref=\"Deuteronomy 26:17\">Deut. XXVI, 17</cite>) <he>עשאני וכ׳</he> He made me (His) decoration (chosen people) &c.; <cite ref=\"Yalkut Shimoni on Torah 244\">Yalk. Ex. 244</cite> <cite ref=\"A02026\"><he>אְמִירָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

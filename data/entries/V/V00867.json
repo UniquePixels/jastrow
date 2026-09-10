@@ -1,0 +1,27 @@
+{
+	"id": "V00867",
+	"slug": "תקוה",
+	"headword": {
+		"text": "תִּקְוָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּקְוָוה"
+		}
+	],
+	"page": {
+		"number": 1689,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"S00308\"><he>קָוָה</he></cite>)<i>hope; term of time</i>. Y. Ber. IX, 13ᵇ bot. <he>כל זמן … ת׳ מת אבדה תִקְוָותוֹ</he> as long as a man lives, he has hope; when he dies, his hope is lost. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 1:4:3\">Y. Naz. I, end, 51ᶜ</cite> <he>הנותן ת׳ לנזירותו</he> he who sets a limit to his vow of nazariteship (even if it exceed a life time); a. e."
+			]
+		}
+	]
+}

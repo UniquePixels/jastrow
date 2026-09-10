@@ -1,0 +1,26 @@
+{
+	"id": "U00499",
+	"slug": "שופי-2",
+	"headword": {
+		"text": "שׁוֹפִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1539,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שָׁפָה</he> III) <i>ease, comfort, smoothness</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 4:6\">Nidd. IV, 6</cite> <he>דם הש׳</he> blood discharged in comfort (without travail), opp. <cite ref=\"S00667\"><he>קושי</he></cite>. ",
+				"<cite ref=\"Niddah 37b:41\">Ib. 37ᵇ</cite> <he>תרי בקושי וחד בש׳</he> twice with pain, and once in comfort; <cite ref=\"Jerusalem Talmud Megillah 1:8:2\">Y. Meg. I, 71ᵇ</cite> top <he>שתים בש׳ ואחת בקושי</he> (not <he>באושי</he>). ",
+				"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite>, beg. (play on <he>פ̇ישׁון</he>, <cite ref=\"Genesis 2:11\">Gen. II, 11</cite>) <he>מימיו מהלכין בש׳</he> its waters run smoothly; Yalk. ib. 21. ",
+				"<cite ref=\"Ketubot 20a\">Keth. 20ᵃ</cite> when he has been enjoying the usufruct <he>שלש שנים ובש׳</he> for three years, and that in comfort (without protest by claimants); a. e."
+			]
+		}
+	]
+}

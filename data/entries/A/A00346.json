@@ -1,0 +1,23 @@
+{
+	"id": "A00346",
+	"slug": "אגרומי",
+	"headword": {
+		"text": "אַגְרוֹמֵי"
+	},
+	"page": {
+		"number": 14,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a corrupt. of <he>אגרונומי</he>, cmp. <cite ref=\"A00343\"><he>אגרדמיס</he></cite> a. next. art.) <i>costum-collectors</i>, (cmp. Sm. Ant. s. v. Agoranomos). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 75:7\">Gen. R. s. 75</cite> ed. (Ar. <he>איגרמי</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "E00446",
+	"slug": "הינא-3",
+	"headword": {
+		"text": "הַיָנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"E00362\"><he>הַיָיא</he></cite> a. <cite ref=\"H00648\"><he>חַי</he></cite>) <i>quick-baked, half-baked</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 37a:17\">Pes. 37ᵃ</cite> <he>מצה ה׳</he> ed. a. Asheri (Ms. M. 2 <cite ref=\"N00003\"><he>נָא</he></cite>, v. Rabb. D. S. a. l. note 3); <cite ref=\"Menachot 78b\">Men. 78ᵇ</cite> Ms. (ed. <cite ref=\"N00003\"><he>נא</he></cite>; v. Rabb. D. S. a. l. note 4)."
+			]
+		}
+	]
+}

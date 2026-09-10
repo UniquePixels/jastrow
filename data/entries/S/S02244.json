@@ -1,0 +1,31 @@
+{
+	"id": "S02244",
+	"slug": "קשיט",
+	"headword": {
+		"text": "קַשִּׁיט"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַשִּׁיטָא"
+		},
+		{
+			"text": "קְשִׁ׳"
+		}
+	],
+	"page": {
+		"number": 1431,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02230\"><he>קְשַׁט</he></cite>) <i>straight, upright, true</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 32:4\">Targ. Deut. XXXII, 4</cite> (Y. ed. Vien. <cite ref=\"S02251\"><he>קָשִׁ׳</he></cite>; h. text <he>ישר</he>). Targ. Y. ib. VI, 5; a. e.—Pl. <he>קַשִּׁיטִין</he>, <cite ref=\"S02244\"><he>קְשִׁ׳</he></cite>. Targ. O. ib. IV, 8 (h. text <he>צדיק׳</he>). ",
+				"<cite ref=\"Onkelos Numbers 23:10\">Targ. Num. XXIII, 10</cite>; a. e."
+			]
+		}
+	]
+}

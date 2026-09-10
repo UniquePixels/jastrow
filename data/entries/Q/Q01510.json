@@ -1,0 +1,22 @@
+{
+	"id": "Q01510",
+	"slug": "פקפוקתא",
+	"headword": {
+		"text": "פִּקְפּוּקְתָּא"
+	},
+	"page": {
+		"number": 1211,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01509\">preced.</cite>) <i>breach</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:10\">Y. Snh. II, 20ᵇ</cite> (ref. to <cite ref=\"Q00318\"><he>פוקה</he></cite>, v. <cite ref=\"Q01509\">preced.</cite>) [read:] <he>אמרה ליה כד תיפוק פִּקְפּוּקְתָּךְ וכ׳</he> she (Abigail) said to him, when thou openest thy breach (offerest a weak point), they will say of thee that thou art a murderer."
+			]
+		}
+	]
+}

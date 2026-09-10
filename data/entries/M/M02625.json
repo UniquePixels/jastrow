@@ -1,0 +1,40 @@
+{
+	"id": "M02625",
+	"slug": "מרזחא",
+	"headword": {
+		"text": "מַרְזֵחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְזֵי׳"
+		}
+	],
+	"page": {
+		"number": 840,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"M02624\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 69a:15\">Keth. 69ᵃ</cite>, v. infra.—Pl. <he>מַרְזְחִין</he>, <he>מַרְזֵיחִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Amos 6:7\">Targ. Am. VI, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 25:2\">Targ. Y. I Num. XXV, 2</cite> (v. ",
+				"<cite ref=\"Sifrei Bamidbar 131\">Sifré Num. 131</cite>, quot. in <cite ref=\"M02624\">preced.</cite>).—Esp. (<i>banquet</i>) <i>exhilarating the mourner;</i> (<cite ref=\"B00754\"><he>בֵּית</he></cite>) <cite ref=\"M02894\"><he>בֵּי מ׳</he></cite> <i>the place of the mourners’ meal</i>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 16:5\">Targ. Jer. XVI, 5</cite>.—",
+				"<cite ref=\"Ketubot 69a:15\">Keth. 69ᵃ</cite> <he>מאן יתיב בי מ׳ וכ׳</he> who sits at the head at mourners’ meals? expl. ",
+				"<cite ref=\"Ketubot 69b:1\">ib. 69ᵇ</cite> <he>מהו מ׳ אֵבֶל</he> (<i>be</i>-) <i>marzeḥa</i> means (house of) mourning (ref. to Jer. l. c.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"M02622\"><he>מַרְזוֹחַ</he></cite>) pl. <he>מַרְזְחַיָּיא</he> <i>those who cheer the mourners</i>. Targ. II Esth. I, 3 ed. Frf. (v. <cite ref=\"M01893\"><he>מְסַחֲרַיָּא</he></cite>).—Y. Ber. III, 6ᵃ top (reprehending the excesses at mourners’ meals). <he>לאתקבלון … למחר מ׳</he> (not <he>מזרח׳</he>) after my death do not receive today mourning (condolence) and to-morrow merry-makers.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

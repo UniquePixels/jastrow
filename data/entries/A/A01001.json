@@ -1,0 +1,22 @@
+{
+	"id": "A01001",
+	"slug": "אחודתא",
+	"headword": {
+		"text": "אֲחוּדְתָּא"
+	},
+	"page": {
+		"number": 39,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A00996\"><he>אֲחַד</he></cite>) = <cite ref=\"A01009\"><he>אֲחוּזְתָּא</he></cite> <i>possession</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 27:7\">Targ. O. Num. XXVII, 7</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,176 @@
+{
+	"id": "Q01350",
+	"slug": "פסק-1",
+	"headword": {
+		"text": "פָּסַק"
+	},
+	"page": {
+		"number": 1199,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <he>פָּשַׂק</he>) [<i>to separate, part, distribute</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to divide, split, interrupt</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 27b:11\">Taan. 27ᵇ</cite>; <cite ref=\"Megillah 22a:10\">Meg. 22ᵃ</cite> <he>פּוֹסֵק</he> the reader divides (one verse), i.e. the first reads two verses and a half, leaving the other half to be read by his successor. ",
+				"<cite ref=\"Megillah 22a:6\">Ib.</cite> <he>לא התיר לי לִפְסוֹק וכ׳</he> he permitted me to cut a verse in two only in teaching the school children. ",
+				"<cite ref=\"Megillah 31b:8\">Ib. 31ᵇ</cite> <he>במשנה תורה פוסק</he> the chapter in Deuteronomy containing the curses (<cite ref=\"Deuteronomy 28:15-69\">Deut. XXVIII, 15—69</cite>) may be divided (to be read by two or more); a. fr.—[<cite ref=\"Bereishit Rabbah 10:2\">Gen. R. s. 10</cite> <he>כיון שפסקה</he>; <cite ref=\"Yalkut Shimoni on Torah 16\">Yalk. ib. 16</cite> <he>שפוסקה</he>, v. <cite ref=\"Q02195\"><he>פָּתַק</he></cite>.]—Part. pass. <cite ref=\"Q01249\"><he>פָּסוּק</he></cite>; f. <cite ref=\"Q01251\"><he>פְּסוּקָה</he></cite>. ",
+				"<cite ref=\"Mishnah Chullin 3:3\">Ḥull. III, 3</cite> <he>פְּסוּקַת הגרגרת</he>, v. <cite ref=\"C01265\"><he>גַּרְגֶּרֶת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"Q01249\"><he>פָּסוּק</he></cite>) <i>to recite a verse</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 15a\">Ḥag. 15ᵃ</cite>, sq. <he>פְּסוֹק לי פְּסוּקְךָ</he> (interch. with Chald. <he>פסוק לי פסוקיך</he>) recite to me thy Bible verse (recently learned)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H01896\"><he>חָתַךְ</he></cite>, <cite ref=\"C00573\"><he>גָּזַר</he></cite>) <i>to apportion, assign; to provide; to promise, agree</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 65a:1\">Keth. 65ᵃ</cite> <he>אין פּוֹסְקִין יינות לאשה</he> in decreeing alimentation for a woman we do not provide for wine. ",
+				"<cite ref=\"Ketubot 65a:6\">Ib.</cite> <he>כך תִּפְסְקוּ לבנותיכם</he> so much (and no more) may ye grant to your daughters. ",
+				"<cite ref=\"Ketubot 107a:1\">Ib. 107ᵃ</cite> <he>פוסקין מזונות לאשת איש</he> the court assigns alimentation (from the estate) to a deserted wife. ",
+				"<cite ref=\"Mishnah Ketubot 5:8\">Ib. V, 8</cite> <he>לא פ׳ … אלא וכ׳</he> only R. Y. decreed barley as a part of alimentation, because he lived near Edom. ",
+				"<cite ref=\"Mishnah Ketubot 5:8\">Ib.</cite> <he>פוסק לעומתן וכ׳</he> he must give her &c., v. <cite ref=\"P00281\"><he>עוּמָּה</he></cite>. Ib. VI, 2 <he>הפוסק מעות לחתנו</he> if a man agrees to pay a certain amount to his intended son-in-law (on the date of marriage). Ib. 3 <he>פָּסְקָה להכניס … הוא פוסק וכ׳</he> if she promises to bring to him one thousand Denars, he must assign to her (as settlement in the K’thubah) fifteen Manehs. Tosef. ib. XIII (XII), 1 <he>אם פָּסְקוּ לה … מה שפסקו פסקו</he> if the court has granted her (alimentation), what they have granted, is granted. Ib. <he>פסקה היא לעצמה</he> (not <he>על עצמה</he>) if she herself has promised (to bring her husband a certain sum, and now her father refuses to give it). Ib. <he>אבה פ׳ עלי וכ׳</he> my father has promised for me; what can I do (if he retracts)?; <cite ref=\"Mishnah Ketubot 13:5\">Keth. XIII, 5</cite>. Y. Kidd. IV, 65ᶜ top <he>פּוֹסְקֵי צדקה ברבים וכ׳</he> those who subscribe to a charity in public and refuse to pay; <cite ref=\"Taanit 8b\">Taan. 8ᵇ</cite>; a. v. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to fix a price; to buy on time</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 58a:10\">Gitt. 58ᵃ</cite> <he>אפדנו בכל ממון שפוסקין עליו</he> I will redeem him for any price that they may set on him. ",
+				"<cite ref=\"Mishnah Bava Metzia 5:7\">B. Mets. V, 7</cite> <he>אין פוסקין … עד שיצא השער</he> you dare not fix a price on crops (buy on time), until the market price has been published. ",
+				"<cite ref=\"Mishnah Bava Metzia 5:7\">Ib.</cite> <he>יצא השער פוסקין ואע״פ שאין לזה יש לזה</he> (missing in Y. ed.) when the market price is out, you may buy, for although he (the seller) has no goods as yet, others have. ",
+				"<cite ref=\"Mishnah Bava Metzia 5:7\">Ib.</cite> <he>פוסק עמו על הגדיש</he>, v. <cite ref=\"C00219\"><he>גָּדִישׁ</he></cite>; a. v. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " <he>פ׳ דברים</he> [<i>to split words</i>,] <i>to argue</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 44b:6\">Snh. 44ᵇ</cite> <he>פיסקון שפוסק דברים כלפי מעלה</he> Gabriel is surnamed Pisḳon, because he argues with the Lord."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": " (neut. verb) <i>to be cut off; to cease, be stopped</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:9\">Sot. IX, 9</cite> <he>משרבו … פסקו המים המרים … הפסיקן</he> when the faithless men became frequent, the application of the waters of jealousy ceased, and it was R. J. ben Z. that abolished them. ",
+				"<cite ref=\"Mishnah Sotah 9:12\">Ib. 12</cite> <he>פסקו אנשי אמונה</he> the men of faith ceased to exist. Tanḥ. Sh’moth 16 <he>אין אותה מצוה פוֹסֶקֶת מביתו</he> that good deed shall never cease from (being practiced in) his house. ",
+				"<cite ref=\"Bereishit Rabbah 52:1\">Gen. R. s. 52</cite> <he>פסקו העוברים והשבים</he> travellers ceased to pass by; a. v. fr."
+			],
+			"label": "6"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְסַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be split, cut in two, broken</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Kamma 11:15\">Tosef. B. Kam. XI, 15</cite>; <cite ref=\"Bava Kamma 119b\">B. Kam. 119ᵇ</cite> <he>הנ׳ במגירה</he> chips at planing, v. <cite ref=\"C01392\"><he>גָּרַר</he> I</cite>. ",
+						"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> <he>נשברה השדרה ונ׳ החוט שלה</he> if the spinal column is broken and the spinal cord severed. ",
+						"<cite ref=\"Shabbat 112a:9\">Sabb. 112ᵃ</cite> <he>סנדל שנִפְסְקוּ שתי אזניו</he> a sandal, both ears (loops) of which are torn off; <cite ref=\"Tosefta Keilim Batra 4:5\">Tosef. Kel. B. Bath. IV, 5</cite> <he>שנִתְפַּסְּקוּ</he>; <cite ref=\"Mishnah Kelim 26:4\">Kel. XXVI, 4</cite>; a. fr.—[<cite ref=\"Tosefta Mikvaot 3:5\">Tosef. Mikv. III, 5</cite>, sq. <he>ונפסקו</he>, v. <cite ref=\"Q02195\"><he>פָּתַק</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִפְסִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to separate, sever connection; to form a partition</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 38b\">Sot. 38ᵇ</cite> <he>אפי׳ מחיצה … אינה מַפְסֶקֶת בין וכ׳</he> not even an iron wall forms a partition between Israel and his father in heaven (worshippers form a congregation even if separated by a partition); <cite ref=\"Pesachim 85b\">Pes. 85ᵇ</cite>. ",
+						"<cite ref=\"Mishnah Peah 1:2\">Peah. I, 2</cite> <he>ואלו מַפְסִיקִין לפאה</he> the following things form a division of fields with regard to Peah: a brook &c. ",
+						"<cite ref=\"Avodah Zarah 52a\">Ab. Zar. 52ᵃ</cite> <he>את ה׳ הענין</he> the word <i>eth</i> (before <i>ĕlohehem</i> <cite ref=\"Deuteronomy 12:2\">Deut. XII, 2</cite>) divides the subject (so as not to allow an analogy between idolatrous utensils and the idols themselves), v. <cite ref=\"Q01351\">next w.</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to interrupt; to cause to cease; to leave off; to pause</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 2:2\">Ber. II, 2</cite> <he>בין ויאמר לאמת ויציב לא יַפְסִיק</he> between the last portion of the Sh’mʿa (<cite ref=\"Numbers 15:37-41\">Num. XV, 37-41</cite>) and ‘Ĕmeth V’yatsib’ one must not pause (interrupt the prayer to greet a person &c.). Ib. 14ᵃ <he>במגילה מהו שיפסיק</he> may one interrupt one’s self during the reading of the M’gillah? [Ib. also <he>פּוֹסֵק</he> <i>Kal</i>.] Ib. V, 1. ",
+						"<cite ref=\"Shemot Rabbah 2:6\">Ex. R. s. 2</cite> <he>עם כל הנביאים ה׳ מלדבר … לא ה׳ מימיו</he> with all other prophets the Lord ceased from speaking at times, but with Moses he never ceased. ",
+						"<cite ref=\"Taanit 30a:4\">Taan. 30ᵃ</cite> <he>סעודה המַפְסִיק בה</he> the meal with which one ceases (the last meal before beginning to fast, called <he>סעודה המַפְסֶקֶת</he>). Y. Nidd. I, 49ᶜ <he>והִפְסִיקָה שלש עונות</he> and ceased (to have menstruation) for three periods. ",
+						"<cite ref=\"Mishnah Megillah 3:6\">Meg. III, 6</cite> <he>אין מַפְסִיקִין בקללות וכ׳</he> in reading the curses (<cite ref=\"Leviticus 26:14-44\">Lev. XXVI, 14-44</cite>; <cite ref=\"Deuteronomy 28:15-69\">Deut. XXVIII, 15-69</cite>) you must not break off, but one person must read the whole &c. Ib. 31ᵇ <he>מקום שמפסיקין בשבת וכ׳</he> where they leave off reading on Sabbath morning, there they continue in the afternoon &c. ",
+						"<cite ref=\"Mishnah Sotah 9:9\">Sot. IX, 9</cite>, v. supra. ",
+						"<cite ref=\"Bereishit Rabbah 52\">Gen. R. s. 52</cite>, beg. <he>מה אני מפסיק צדקה מביתי</he> shall I allow charity to cease in my house (to fall into desuetude from want of opportunity)?; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cut sprays off, trim</i>, v. <cite ref=\"Q01227\"><he>פָּסַג</he></cite>.",
+					"units": [],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to dam</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Parah 5:9\">Tosef. Par. V</cite> (<cite ref=\"Tosefta Parah 4:9\">IV</cite>), 9 <he>מפסיק ומנגב</he> he makes a dam (cuts off the influx) and lays the cavity dry."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["פִּיסֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to trim</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Kamma 11:18\">Tosef. B. Kam. XI, 18</cite>, v. <cite ref=\"Q01227\"><he>פָּסַג</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to interrupt</i>.—Part. pass. <he>מְפוּסָּק</he>; pl. <he>מְפוּסָּקִין</he>. Y. Pes. X, 37ᶜ; Y. Sabb. VIII, beg. 11ᵃ <he>מהו לשתותן מפ׳</he> how about drinking them (the four cups of the Passover evening) in pauses (sipping)?, v. <cite ref=\"Q00765\"><he>פִּיסָּק</he></cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cut down, ruin; to cut to pieces</i>. Pesik. Naḥ., p. 128ᵃ <he>קיצצוהו ופִיסְּקוּהוּ</he> they cut it down and ruined it (the vineyard). ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 4\">Lam. R. to IV, 15</cite> <he>והיתה … עליהן ומְפַסַּקְתָּן</he> the carriage passed over them and dismembered them; Pesik. Vattom., p. 133ᵇ <he>ומפסקתה</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 266\">Yalk. Is. 266</cite> <he>והיתה … עליה ומְפַסַּקְתָּהּ</he>; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְפַּסֵּק"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּסֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be severed</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Keilim Batra 4:5\">Tosef. Kel. B. Bath. IV, 5</cite>, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (sub. <he>בעינים</he>, cmp. <cite ref=\"S02142\"><he>קרץ</he></cite>, <cite ref=\"Proverbs 10:10\">Prov. X, 10</cite>; <cite ref=\"Proverbs 6:13\">VI, 13</cite>) <i>to blink</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 5\">Deut. R. s. 5</cite> <he>עשה עצמו מִתְפַּסֵּק</he> he pretended to be blinking (Y. Sot. I, 16ᵈ bot., a. e. <he>עבד גרמיה חשש בעייניה</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

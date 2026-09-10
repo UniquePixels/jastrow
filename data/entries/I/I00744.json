@@ -1,0 +1,74 @@
+{
+	"id": "I00744",
+	"slug": "טרח-2",
+	"headword": {
+		"text": "טְרַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 551,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00743\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:11\">Targ. Koh. II, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 9:9\">Ib. IX, 9</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 11a:6\">B. Kam. 11ᵃ</cite> <he>בדנפשיה ט׳</he> he takes pains with what belongs to himself (for his own benefit). ",
+				"<cite ref=\"Chullin 83a:10\">Ḥull. 83ᵃ</cite> <he>דאורח ארעא למִטְרַח וכ׳</he> in the bridegroom’s family they generally take more trouble in preparing the wedding feast &c.; a. fr. [<cite ref=\"Sotah 7b:11\">Sot. 7ᵇ</cite> <he>ומטרח</he>, v. <cite ref=\"I00765\"><he>טְרִי</he></cite>.]—<i>Part. pass.</i> <cite ref=\"I00782\"><he>טָרִיחַ</he></cite>, f. <cite ref=\"I00783\"><he>טְרִיחָא</he></cite> <i>giving trouble, troublesome</i>. ",
+				"<cite ref=\"Nedarim 25a:14\">Ned. 25ᵃ</cite> <he>מילתא דלא ט׳</he> an easily intelligible expression. ",
+				"<cite ref=\"Chullin 51a:5\">Ḥull. 51ᵃ</cite>, a next w.—",
+				"<cite ref=\"Bava Metzia 112b:6\">B. Mets. 112ᵇ</cite> <he>ט׳ להו מילתא</he> (Ms. M. <he>ליה</he>) it is too troublesome for them (for him); a. e.—[<cite ref=\"Shabbat 82a\">Sabb. 82ᵃ</cite>, v. <cite ref=\"I00275\"><he>טְחַר</he></cite>.]—",
+				"<cite ref=\"Bava Kamma 80b\">B. Kam. 80ᵇ</cite> Ar., v. <cite ref=\"V00972\"><he>תְּרַח</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַטְרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to make ready for moving, to load</i> (cmp. <cite ref=\"I00616\"><he>טָעַן</he> II</cite>) <cite ref=\"Aramaic Targum to Job 37:11\">Targ. Job XXXVII, 11</cite> (h. text <he>יטריח</he>).).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to trouble</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 22b:13\">Meg. 22ᵇ</cite> <he>לא מַטְרַח ציבורא</he> Ms. M. (ed. <he>לא בעי למִיטְרַח</he>, read <he>למַטְרַח</he>, v. Rashi, a. Rabb. D. S. a. l. note) he would not trouble the congregation (to rise before him); <cite ref=\"Yalkut Shimoni on Torah 669\">Yalk. Lev. 669</cite>; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to beg persistently</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 16:2\">Lev. R. s. 16</cite> <he>א׳ עליה</he> he insisted upon his telling him.—Y. Peah I, 16ᵇ bot. <he>אין מַטְרְחַת עלוי</he> if you strain the chord too much."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיטְּרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be wearied</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 19:2\">Targ. Y. Num. XIX, 2</cite> <he>אִיטְרְחָא</he> (not <he>אַט׳</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be troublesome, difficult</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 24b:9\">Taan. 24ᵇ</cite> <he>מי איכא דמִיטְּרַה וכ׳</he> is it so hard a labor to the Lord?"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

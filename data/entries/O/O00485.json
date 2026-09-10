@@ -1,0 +1,23 @@
+{
+	"id": "O00485",
+	"slug": "סטיו-2",
+	"headword": {
+		"text": "סְטָיו"
+	},
+	"page": {
+		"number": 972,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>mosaic pavement</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:6\">Targ. Esth. I, 6</cite> (h. <cite ref=\"T00998\"><he>רצפה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 26:1\">Targ. Y. Lev. XXVI, 1</cite> <he>סַטְיוּ</he>."
+			]
+		}
+	]
+}

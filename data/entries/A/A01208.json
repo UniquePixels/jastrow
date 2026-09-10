@@ -1,0 +1,25 @@
+{
+	"id": "A01208",
+	"slug": "איטא",
+	"headword": {
+		"text": "אִיטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיטָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 47,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (ἦτα) <i>the letter</i> (η) of the Greek Alphabet, the numerical value of which is <i>eight;</i> used in the way of a phonetic play (ἤτω, or ἰτά as though an adj. verbale of ἰέναι) to indicate <i>going</i> or <i>death</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 14:2\">Gen. R. s. 14</cite>, beg. (proving that a seven months’ child can live, while an eight months’ child cannot) <he>מדידכון אנא ממטי איט״א אוכ״טא</he>, <he>לכון זיט״א אפ״טא</he> from your own (Greek) language I will prove it to you, ‘<i>Live</i> (ζήτω) <i>seven, Go, eight</i>’ (ζ = ἕπτα, η = ὄκτω). Y. Yeb. IV, 5ᵈ top; Tanḥ. B’midbar 18 (corr. acc.); Ibid. (ed. Buber) 21."
+			]
+		}
+	]
+}

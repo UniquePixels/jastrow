@@ -1,0 +1,23 @@
+{
+	"id": "Q00821",
+	"slug": "פיקר",
+	"headword": {
+		"text": "פַּיְקַר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1170,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. paigâr, Koh. in Ar. Compl. s. v.) <i>dissension, dispute</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 24b:7\">Taan. 24ᵇ</cite> <he>לא ליהוי פ׳ וכ׳</he> Ar. (ed. <he>לך עסק דברים …</he>) have no quarrel with those Jews."
+			]
+		}
+	]
+}

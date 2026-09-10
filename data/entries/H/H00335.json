@@ -1,0 +1,23 @@
+{
+	"id": "H00335",
+	"slug": "חולה-3",
+	"headword": {
+		"text": "חוֹלָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 433,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00319\"><he>חוּל</he></cite>; = b. h. <cite ref=\"M00828\"><he>מָחוֹל</he></cite>) <i>chorus of singers and dancers</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 2:4:5\">Y. Meg. II, 73ᵇ</cite> (ref. to <cite ref=\"H00761\"><he>חילה</he></cite>, <cite ref=\"Psalms 48:14\">Ps. XLVIII, 14</cite>) <he>עתיד … להיעשות ראש ח׳ וכ׳</he> the Lord will be chosen the leader of the chorus (choragus) &c.; <cite ref=\"Shir HaShirim Rabbah 1:3:3\">Cant. R. to I, 3</cite>; <cite ref=\"Shir HaShirim Rabbah 7:1:2\">VII, 1</cite> [read:] <he>לֵיעָשׂוֹת וכ׳</he>; <cite ref=\"Vayikra Rabbah 11:9\">Lev. R. s. 11</cite>, end <he>להיות ראש ח׳</he>; (<cite ref=\"Yalkut Shimoni on Nach 294\">Yalk. Is. 294</cite> <cite ref=\"M00828\"><he>מחול</he></cite>; <cite ref=\"Kohelet Rabbah 1:11:1\">Koh. R. to I, 11</cite> <cite ref=\"M00829\"><he>מחולה</he></cite>); <cite ref=\"Kohelet Rabbah 1:11:1\">ib.</cite> <he>לחילה לחו׳ כתיב</he> read <i>l’ḥolah</i>. Cant. R. l. c. <he>כח׳ שנעשה וכ׳</he> like the chorus which was arranged for us &c."
+			]
+		}
+	]
+}

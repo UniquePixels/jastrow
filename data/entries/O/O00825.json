@@ -1,0 +1,33 @@
+{
+	"id": "O00825",
+	"slug": "סיקריקון",
+	"headword": {
+		"text": "סִיקָרִיקוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִקָ׳"
+		}
+	],
+	"page": {
+		"number": 986,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a disguise of καισαρίκιον) <i>property confiscated by the Roman government</i>; (sub. <cite ref=\"D00633\"><he>דין</he></cite>) <i>the law concerning the purchase of confiscated property</i>; (sub. <he>בעל</he>) <i>the possessor of confiscated property</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 5:6\">Gitt. V, 6</cite> <he>לא היה ס׳ ביהודה וכ׳</he>, (expl. ",
+				"<cite ref=\"Gittin 55b:14\">ib. 55ᵇ</cite> <he>לא דנו בה דין ס׳</he>) in Judæa the law concerning the purchase of confiscated property was not applied to the estate of those killed in the war. ",
+				"<cite ref=\"Gittin 55b:14\">Ib.</cite> <he>מהרוגי … יש בה ס׳</he> after that period the law was applicable to Judæa. ",
+				"<cite ref=\"Gittin 55b:14\">Ib.</cite> <he>לקח מס׳ וחזר וכ׳</he> if one bought from the holder of confiscated property (the fiscus or whoever took possession of it) and then bought from the original owner, the purchase is invalid (as being obtained under pressure). ",
+				"<cite ref=\"Gittin 55b:14\">Ib.</cite> (later enactment) <he>הלוקח מס׳ נותן וכ׳</he> he who buys from the holder of confiscated property, must give the original owner one fourth (of the land or of the purchasing price), provided the original owner is unable to repurchase the entire land &c. ",
+				"<cite ref=\"Gittin 55b:14\">Ib.</cite> <he>אם שהתה בפני ס׳ וכ׳</he> if it has been in the hands of the holder twelve months, whoever is the first to buy, gets the title, but he must give one fourth &c. Ib. 58ᵇ <he>אין בו משום ס׳</he> the <i>sicaricon</i> law does not apply in this case. Ib. <he>אם כן עשית ס׳</he> if you decide thus, you create a <i>sicaricon</i> law (for Babylonia); Y. ib. V, 47ᵇ top [read:] <he>והיתה הארץ חלוטה ביד ס׳ ונמנעו מליקח</he> and the land was entirely in the hands of the government (or whoever took unlawful possession of it), and they (Jews) refrained from buying it; Tosef. ib. V (III), 1 sq. ",
+				"<cite ref=\"Mishnah Bikkurim 1:2\">Bicc. I, 2</cite> <he>הס׳ והגזלן וכ׳</he> (some ed. <he>סִקָרִיקִין</he> <i>pl.</i>) the holder of confiscated property or of illegally acquired land is not permitted to offer the first fruits in the Temple; a. fr."
+			]
+		}
+	]
+}

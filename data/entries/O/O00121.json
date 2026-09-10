@@ -1,0 +1,70 @@
+{
+	"id": "O00121",
+	"slug": "סגי-2",
+	"headword": {
+		"text": "סְגֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 954,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O00120\"><he>סַגֵּי</he></cite> (<cite ref=\"O00120\">preced.</cite>; cmp. meanings of <cite ref=\"P00059\"><he>עָבַר</he></cite>) <i>to progress, pass, walk</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 95a:3\">Snh. 95ᵃ</cite> <he>אורחא דבעא לסַגּוּיֵי … סְגָא וכ׳</he> a distance which one would have required ten days to make, he made in one day. ",
+						"<cite ref=\"Taanit 24a:4\">Taan. 24ᵃ</cite> <he>ועד השתא הוא דסגָּאִי</he> and I have been running until now. ",
+						"<cite ref=\"Shabbat 118b:13\">Sabb. 118ᵇ</cite> <he>דלא סָגֵינָא וכ׳</he> that I never walk a distance of four cubits with my head uncovered. ",
+						"<cite ref=\"Ketubot 62a:5\">Keth. 62ᵃ</cite> <he>לסַגּוּיֵי בהדיה</he>, v. <cite ref=\"M02307\"><he>מְצִי</he> I</cite>. ",
+						"<cite ref=\"Bava Batra 123a:19\">B. Bath. 123ᵃ</cite> <he>ומי שרי … לסגויי ברמאותא</he> are righteous men permitted to walk in the way of fraud (to deal fraudulently with a deceiver)? <cite ref=\"Eruvin 18b:3\">Erub. 18ᵇ</cite> <he>הי מינייהו סַגֵּי ברישא</he> which of them went ahead?; <he>זכר ס׳ וכ׳</he> the male (part of the double body) went ahead; <cite ref=\"Yalkut Shimoni on Nach 887:7\">Yalk. Ps. 887</cite> <he>סַגְיָא … מִסְתַּגְּיָא</he>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַסְגֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00120\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 8:6\">Targ. Jer. VIII, 6</cite>; <cite ref=\"Targum Jonathan on Jeremiah 23:10\">XXIII, 10</cite>.—",
+						"<cite ref=\"Shabbat 77b:8\">Sabb. 77ᵇ</cite> <he>עיזי מַסְגָּן ברישא</he> goats take the lead. ",
+						"<cite ref=\"Bava Kamma 60b:8\">B. Kam. 60ᵇ</cite> <he>מַסְגֵּי להדיא</he> passes openly, <he>מחבי חבויי ומסגי</he> passes secretly; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתְּגֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be marched, be set in motion</i>, v. supra.—Esp. <he>א׳ ליה</he> <i>he moved on</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 74a:1\">B. Bath. 74ᵃ</cite> <he>ולא הוה מִסְתְּגֵי לן</he> and we did not start; <he>לא מ׳ ליה</he> he (the camel) will not start. ",
+						"<cite ref=\"Bava Metzia 107b:14\">B. Mets. 107ᵇ</cite>, sq. <he>מ׳ להו</he> they will march along the river. ",
+						"<cite ref=\"Shabbat 7a\">Sabb. 7ᵃ</cite> <he>לא מ׳ להו בהדיא</he> they do not pass there openly (with ease); a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

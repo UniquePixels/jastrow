@@ -1,0 +1,25 @@
+{
+	"id": "B00879",
+	"slug": "בליתא",
+	"headword": {
+		"text": "בְּלִיתָא"
+	},
+	"page": {
+		"number": 173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00853\"><he>בלי</he></cite>) <i>rag, shred</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134a:12\">Sabb. 134ᵃ</cite>. ",
+				"<cite ref=\"Chullin 8b:6\">Ḥull. 8ᵇ</cite> <he>ב׳ דפרסא</he> a shred of a curtain (soft rag). ",
+				"<cite ref=\"Kiddushin 48b:12\">Kidd. 48ᵇ</cite> <he>צייר בב׳</he> tied up in a rag.—Pl. <cite ref=\"B00861\"><he>בְּלִיָּיתָא</he></cite>. ",
+				"<cite ref=\"Yevamot 120a:11\">Yeb. 120ᵃ</cite> (some ed. <cite ref=\"B00879\"><he>בליתא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "V01093",
+	"slug": "תשלום-1",
+	"headword": {
+		"text": "תַּשְׁלוּם"
+	},
+	"page": {
+		"number": 1704,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01348\"><he>שָׁלַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>payment, indemnity.—</i>Pl. <he>תַּשְׁלוּמִים</he>, <he>תַּשְׁלוּמִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 1:1\">B. Kam. I, 1</cite> <he>תַּשְׁלוּמֵי נזק</he>, v. <cite ref=\"N00461\"><he>נֵזֶק</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:2\">Ib. 2</cite> <he>חבתי בת׳</he> (Y. a. Bab. ed. 9ᵇ <he>בתשלומי נזקו</he>), v. <cite ref=\"H00231\"><he>חוּב</he></cite> h. Ib. 3 <he>הניזק והמזיק בת׳</he> the injured and the injurer may be subject to payment of indemnities; Tosef. ib. I, 3 <he>הניזק … בת׳ לשלם חצי נזק</he> they may be subject to payment in the event of half-damage having to be paid (v. Bab. ib. 15ᵃ). ",
+				"<cite ref=\"Tosefta Ketubot 3:5\">Tosef. Keth. III, 5</cite> <he>יום הכפורים הרי הוא כשבת לת׳</he> the Day of Atonement is like the Sabbath with regard to indemnification; <cite ref=\"Ketubot 30a:5\">Keth. 30ᵃ</cite> <he>מה שבת … ופטור מן הת׳ וכ׳</he> as he who does forbidden labor on the Sabbath forfeits his life, and is exempt from indemnity (if he did damage through his labor), so he &c. Sifra Emor Par. 14, ch. XX (ref. to <cite ref=\"Leviticus 24:21\">Lev. XXIV, 21</cite>) <he>מה מכה בהמה בת׳ אף … בת׳</he> as he who injures an animal pays damages, so he who injures a man has to pay an indemnity for the injured limb. Y. B. Bab. II, end, 3ᵃ <he>וייעשה מי שחלו עליו ת׳</he> let him be treated as one on whom rests the obligation to pay damages. Ib. <he>על … נתחייב מיתה מכאן והילך ת׳</he> let him be guilty of death for the first ear of corn (which he ignited on the Sabbath), and guilty of damages for the rest; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>complement</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 27a:36\">Ker. 27ᵃ</cite>, v. next w.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:5:3\">Y. Erub. II, 20ᵇ</cite> <he>מטלטלין בשני ת׳ לראשון</he> you may move things (on the Sabbath) within the second partition as far as would make up the legally allowed distance for the first partition."
+			],
+			"label": "2"
+		}
+	]
+}

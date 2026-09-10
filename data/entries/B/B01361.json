@@ -1,0 +1,32 @@
+{
+	"id": "B01361",
+	"slug": "בשל-3",
+	"headword": {
+		"text": "בָּשֵׁל"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּשֵׁלָה"
+		},
+		{
+			"text": "בְּשֵׁי׳"
+		}
+	],
+	"page": {
+		"number": 199,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"B01360\">preced.</cite>) <i>ripe, boiled, done</i>. <he>זרוע בשלה</he> the boiled shoulder due to the priest (<cite ref=\"Numbers 6:19\">Num. VI, 19</cite>). ",
+			"units": [
+				"<cite ref=\"Chullin 98a:18\">Ḥull. 98ᵃ</cite> bot. both derive it <he>מז׳ ב׳</he> from the process prescribed for the priest’s gift &c. ",
+				"<cite ref=\"Chullin 98b:1\">Ib. 98ᵇ</cite> top <he>אין ב׳ אלא שלמה</he> when it says, ‘the shoulder boiled’ it means entire (not carved). ",
+				"<cite ref=\"Chullin 98b:1\">Ib.</cite> <he>אין ב׳ אלא שנתבשל וכ׳</he> when it says, ‘He shall take &c. from the ram’ it means that it must be boiled joined to (or jointly with) the body of the ram. Tanḥ. Vayera 5 Abraham <he>בלעה בשילה</he> swallowed the fig ripe, i.e. spoke deliberately, opp. <cite ref=\"Q00041\"><he>פגה</he></cite>; <cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite> <he>אמר בישולה</he> (corr. acc.)."
+			]
+		}
+	]
+}

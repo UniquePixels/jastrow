@@ -1,0 +1,23 @@
+{
+	"id": "O01395",
+	"slug": "ספסירא-2",
+	"headword": {
+		"text": "סַפְסִירָא"
+	},
+	"page": {
+		"number": 1015,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"O01400\"><he>סַפְסָר</he></cite>, <i>accountant, a middleman, broker</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 42b:9\">B. Mets. 42ᵇ</cite> <he>ס׳ דזבין וכ׳</he> middleman who buys here and sells there (immediately). ",
+				"<cite ref=\"Bava Metzia 63b:5\">Ib. 63ᵇ</cite> <he>והא בעי למיתב זוזי לס׳</he> but would he not have had to pay the broker?, i.e. has he not the advantage of saving the broker’s fee?"
+			]
+		}
+	]
+}

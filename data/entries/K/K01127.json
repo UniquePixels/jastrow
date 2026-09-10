@@ -1,0 +1,24 @@
+{
+	"id": "K01127",
+	"slug": "כרוספדא",
+	"headword": {
+		"text": "כְּרוּסְפְּדָא"
+	},
+	"page": {
+		"number": 665,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κράσπεδον, mostly pl. κράσπεδα) <i>edge, border, fringe</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 15:38\">Targ. O. Num. XV, 38</cite> <he>כְּרוּסְפַּד כנפא</he> ed. Berl. (Mss. a. ed. <he>כרוספדא דכ׳</he>).—Pl. <he>כְּרוּסְפְּדִין</he>. ",
+				"<cite ref=\"Onkelos Numbers 15:38\">Ib.</cite>, sq. ",
+				"<cite ref=\"Onkelos Deuteronomy 22:12\">Targ. O. Deut. XXII, 12</cite>."
+			]
+		}
+	]
+}

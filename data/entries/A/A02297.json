@@ -1,0 +1,28 @@
+{
+	"id": "A02297",
+	"slug": "אנקליטון-1",
+	"headword": {
+		"text": "אֶנְקְלִיטוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אונק׳"
+		}
+	],
+	"page": {
+		"number": 88,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἡ ἔκκλητος, v. Sm. Ant. s. v. Appellatio) <i>appeal</i> from the decision of a court. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 49:9\">Gen. R. s. 49</cite> <he>תולין לו א׳</he> one is permitted to hang up against him i.e. to announce, an appeal—from the dux &c. ",
+				"<cite ref=\"Devarim Rabbah 9\">Deut. R. s. 9</cite> <he>ליתן לפניו אנקליטין</he> (read <he>ליתלות</he> a. <he>טון …</he>); <cite ref=\"Kohelet Rabbah 8:8:1\">Koh. R. to VIII, 8</cite> <he>שיתלה א׳</he> to appeal from his decision. Tanḥ. Thazr. 7 <he>שלא ירננו עליו אונק׳ וכ׳</he> (ed. Bub. 9 <he>יתנו</he>, read <he>יתלו</he>). V. <cite ref=\"A02298\">next w.</cite>"
+			]
+		}
+	]
+}

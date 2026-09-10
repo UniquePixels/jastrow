@@ -1,0 +1,28 @@
+{
+	"id": "C01146",
+	"slug": "גניסייא",
+	"headword": {
+		"text": "גְּנִיסַיָּיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּנוּ׳"
+		}
+	],
+	"page": {
+		"number": 260,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"C01145\">preced.</cite> a. <cite ref=\"C00766\"><he>גִּינִיסְיָא</he></cite>) <i>nobles, gentry</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 36:29\">Targ. Y. Gen. XXXVI, 29</cite> sq.; <cite ref=\"Deuteronomy 2:12\">Deut. II, 12</cite> (some ed. <he>סְיָיא …</he>, corr. acc.; h. text <cite ref=\"H01667\"><he>חֹרִי</he></cite>)."
+			]
+		}
+	]
+}

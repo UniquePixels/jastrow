@@ -1,0 +1,35 @@
+{
+	"id": "M02614",
+	"slug": "מרזב",
+	"headword": {
+		"text": "מַרְזֵב"
+	},
+	"page": {
+		"number": 840,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00462\"><he>רזב</he></cite>, transpos. of <cite ref=\"B01216\"><he>ברז</he></cite>; cmp. <cite ref=\"B01254\"><he>בָּרֵיז</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tube, spout;</i> esp. <i>the movable tube attached to the roof gutters</i> (<cite ref=\"M00745\"><he>מַזְחִילָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 3:6\">B. Bath. III, 6</cite> <he>המ׳ אין לו חזקה</he> no claim, based on undisturbed use, can be made for the special position of the pipe discharging the water into the neighbor’s yard; expl. ",
+				"<cite ref=\"Bava Batra 58b\">ib. 58ᵇ</cite>; Y. ib. III, end, 14ᵇ <he>מקום המ׳ בחצר יש … מקום קילוחו וכ׳</he> the right of a pipe for the discharge of water into the neighbor’s court can be claimed on the basis of undisturbed use, but not the special place of its discharge; (<cite ref=\"Tosefta Bava Batra 2:13\">Tosef. ib. II, 13</cite> <he>צינור</he>). ",
+				"<cite ref=\"Yevamot 75b:15\">Yeb. 75ᵇ</cite> <he>כמ׳</he> if the mutilated membrum has the shape of a spout (leaving the urinary canal unprotected). ",
+				"<cite ref=\"Shabbat 146b:8\">Sabb. 146ᵇ</cite> <he>גזירה משום מ׳</he> it is forbidden, lest he shape a regular tapping tube (v. <cite ref=\"B01217\"><he>בִּרְזָא</he> I</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a sort of <i>cape</i>, having the shape of a gutter, formed by throwing the edges of a garment over the shoulders backward. Ib. 147ᵃ, v. <cite ref=\"K00577\"><he>כִּיסָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

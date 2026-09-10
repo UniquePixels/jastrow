@@ -1,0 +1,49 @@
+{
+	"id": "H01244",
+	"slug": "חמתא-3",
+	"headword": {
+		"text": "חַמְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַמְּתָה"
+		}
+	],
+	"page": {
+		"number": 481,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.(b. h. <cite ref=\"H01238\"><he>חַמַּת</he></cite>; <he>חמם</he>)<i>Ḥamm’tha</i>, [<i>Ḥot Springs</i>], name of several Jewish places, esp. ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>Ḥ.</i> <i>, near Tiberias</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Megillah 1:1:4\">Y. Meg. I, 70ᵃ</cite> (expl. <he>חמת</he>, <cite ref=\"Joshua 19:35\">Josh. XIX, 35</cite>; Bab. ",
+						"<cite ref=\"Megillah 6a:1\">Meg. 6ᵃ</cite> top <he>חמת זו טבריא</he>). ",
+						"<cite ref=\"Tosefta Eiruvin 7:2\">Tosef. Erub. VII</cite> (<cite ref=\"Tosefta Eiruvin 5:2\">V</cite>), 2; Y. ib. V, 22ᵈ bot.; a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>Ḥ., near Geder</i>. [Meg. l, c. (expl. <he>חמת</he>, Josh. l. c.) <he>זו חמת גדר</he> Ms. M. 2 (ed. <he>חמי גרר</he>).] <cite ref=\"Jerusalem Talmud Eruvin 6:4:5\">Y. Erub. VI, 23ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Kiddushin 3:12:8\">Y. Kidd. III, 64ᵈ</cite> top.—",
+					"units": [],
+					"label": "b"
+				},
+				{
+					"gloss": " ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Sheviit 6:1:15\">Y. Shebi. VI, 36ᶜ</cite> bot. <he>ח׳ דפחל</he> <i>Ḥ. near Pella</i> (v. Neub. Géogr. p. 274).—",
+						"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <he>ח׳</he> (Neub. l. c. p. 115 <cite ref=\"H01245\"><he>חמתן</he></cite>) Emmaus in Judæa.—V. <cite ref=\"A01966\"><he>אִמָּאוּס</he></cite>."
+					],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

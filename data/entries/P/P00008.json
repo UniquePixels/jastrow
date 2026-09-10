@@ -1,0 +1,26 @@
+{
+	"id": "P00008",
+	"slug": "עב-2",
+	"headword": {
+		"text": "עָב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1034,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00007\">preced.</cite>) [<i>thick</i>,] <i>dark cloud</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 13:12\">Gen. R. s. 13</cite> <he>עב שהוא מעבב וכ׳</he> the cloud is called <i>ʿab</i>, because it makes the sky look thick (dark); <cite ref=\"Yalkut Shimoni on Torah 20:4\">Yalk. ib. 20</cite>; <cite ref=\"Jerusalem Talmud Taanit 3:3:5\">Y. Taan. III, 66ᶜ</cite> <he>שהוא מעבה את הרקיע</he>; a. e.—Pl. <he>עָבִים</he>. ",
+				"<cite ref=\"Taanit 3b:7\">Taan. 3ᵇ</cite> <he>הע׳ והרוחות שניות למטר</he> the clouded sky and the winds are (as blessings) secondary only to the rain. ",
+				"<cite ref=\"Taanit 20a:2\">Ib. 20ᵃ</cite> <he>נתקשרו שמים בע׳</he> the sky became covered with clouds. ",
+				"<cite ref=\"Taanit 20a:4\">Ib.</cite> <he>נתפזרו הע׳</he> the clouds dispersed; a. e."
+			]
+		}
+	]
+}

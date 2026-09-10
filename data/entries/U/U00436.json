@@ -1,0 +1,34 @@
+{
+	"id": "U00436",
+	"slug": "שום-4",
+	"headword": {
+		"text": "שׁוּם"
+	},
+	"page": {
+		"number": 1535,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00435\">same</cite>.—Part. <cite ref=\"U00903\"><he>שָׁיֵים</he></cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 9\">Lev. R. s. 9</cite> (ref. to <he>וְשָׂם</he>, <cite ref=\"Psalms 50:23\">Ps. L, 23</cite>, v. <cite ref=\"U00435\">preced.</cite>) <he>דשיים אורחיה סגי שוי</he> (some ed. <cite ref=\"U00221\"><he>שגי</he></cite>) he who calculates his way, will be worth much; <cite ref=\"Yalkut Shimoni on Nach 763\">Yalk. Ps. 763</cite> <he>שגי שוי</he>. ",
+				"<cite ref=\"Bava Kamma 47a:3-7\">B. Kam. 47ᵃ</cite> <he>פרה</he> … <he>שָׁיֵימְנָא לך</he> I injured a pregnant cow of thine, and I will estimate (and pay thee) the value of a pregnant cow; a. e.—Part. pass. <cite ref=\"U00436\"><he>שׁוּם</he></cite>; f. <cite ref=\"U00440\"><he>שׁוּמָא</he></cite>, v. <cite ref=\"U00435\">preced.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁיֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to tax, impose fine</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 1</cite> (expl. <he>יעיב</he>, <cite ref=\"Eichah Rabbah 2:4\">ib.</cite>) <he>איך ש׳ ה׳ ברוגזיה וכ׳</he> how heavily the Lord in his anger taxed the daughter of Zion!, v. <cite ref=\"H00231\"><he>חוּב</he></cite> ch., a. <cite ref=\"P00487\"><he>עִיב</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

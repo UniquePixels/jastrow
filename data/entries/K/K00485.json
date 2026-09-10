@@ -1,0 +1,29 @@
+{
+	"id": "K00485",
+	"slug": "כיבוס",
+	"headword": {
+		"text": "כִּיבּוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּבּוּס"
+		}
+	],
+	"page": {
+		"number": 630,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00067\"><he>כָּבַס</he></cite>) <i>washing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 11:3\">Zeb. XI, 3</cite>. ",
+				"<cite ref=\"Zevachim 94b:1\">Ib. 94ᵇ</cite>, v. <cite ref=\"K00935\"><he>כִּסְכּוּס</he></cite>; a. fr.—Pl. <he>כִּיבּוּסִים</he>, <he>כִּבּ׳</he>. ",
+				"<cite ref=\"Niddah 56b:16\">Nidd. 56ᵇ</cite> <he>בשעת כִּבּוּסֵיהֶן</he> when they are being washed."
+			]
+		}
+	]
+}

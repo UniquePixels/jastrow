@@ -1,0 +1,28 @@
+{
+	"id": "O01516",
+	"slug": "סרבל-2",
+	"headword": {
+		"text": "סַרְבֵּל"
+	},
+	"page": {
+		"number": 1022,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"O01515\">same</cite>. Part. pass. <cite ref=\"M02013\"><he>מְסַרְבַּל</he></cite>; f. <cite ref=\"M02172\"><he>מְסַרְבְּלָא</he></cite>; pl. <he>מְסַרְבְּלִין</he>; constr. <he>מְסַרְבְּלֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 11:8\">Targ. Y. I Num. XI, 8</cite> (O. <cite ref=\"L00526\"><he>לִישׁ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:26\">Targ. Ez. XVI, 26</cite>.—Y. Maas. Sh. IV, end, 55ᶜ <he>חמית … רגלי מסרבלא</he> (ed. Krot. <he>מסיבלא</he>, corr. acc.) I saw in my dream, that my foot was thick."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"O01517\">next w.</cite>) <i>to wrap up, cloak</i>. Part. pass. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Nahum 2:4\">Targ. Nah. II, 4</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

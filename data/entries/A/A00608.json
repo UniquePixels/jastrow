@@ -1,0 +1,28 @@
+{
+	"id": "A00608",
+	"slug": "אוזניות",
+	"headword": {
+		"text": "אוּזְנִיּוֹת",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אָזְנִיּוֹת"
+		}
+	],
+	"page": {
+		"number": 24,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (?) pl. (= <he>חזניות</he>, v. <cite ref=\"H00531\"><he>חִזָּיוֹן</he></cite> 2, a. <cite ref=\"H00533\"><he>חָזִיז</he></cite>; cmp. <cite ref=\"A00120\"><he>אֶבְיוֹנוֹת</he></cite> = <he>חֶבְיוֹנוֹת</he>) <i>lichen-dishes</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 7:13\">Tosef. Shebi. VII, 13</cite>. [El. Wil. emends <he>אהיניות</he> = <he>אהיני</he> whereas the context intimates a vegetable.]"
+			]
+		}
+	]
+}

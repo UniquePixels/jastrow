@@ -1,0 +1,30 @@
+{
+	"id": "Q02160",
+	"slug": "פתיח-2",
+	"headword": {
+		"text": "פְּתִיחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּתִיחָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1253,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Part. pass. of <cite ref=\"Q02144\"><he>פְּתַח</he></cite>) <i>open-eyed, seeing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 4:11\">Targ. Y. Ex. IV, 11</cite>.—",
+				"<cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite>, a. e. <he>והיה ההוא פ׳ וכ׳</he> and the seeing man led the blind man; <he>דין דהוה פ׳ וכ׳</he> he that was seeing became blind, v. <cite ref=\"Q02144\"><he>פְּתַח</he></cite>. ",
+				"<cite ref=\"Gittin 69a:3\">Gitt. 69ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

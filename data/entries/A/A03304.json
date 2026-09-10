@@ -1,0 +1,23 @@
+{
+	"id": "A03304",
+	"slug": "אשכבתא-2",
+	"headword": {
+		"text": "אַשְׁכַּבְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 128,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A03303\">preced.</cite>) <i>butcher’s shop</i>, <he>סכינא דא׳</he> <i>butcher’s dissecting knife</i> [Tosaf. <i>slaughtering knife</i>]. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 116a\">B. Mets. 116ᵃ</cite>; <cite ref=\"Shabbat 123b\">Sabb. 123ᵇ</cite>"
+			]
+		}
+	]
+}

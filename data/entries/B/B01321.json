@@ -1,0 +1,29 @@
+{
+	"id": "B01321",
+	"slug": "ברקאי-2",
+	"headword": {
+		"text": "בַּרְקַאי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 197,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m., v. <cite ref=\"B00390\"><he>בּוֹרְקַי</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " כְּפַר ב׳ <i>K’far Barkai</i>, in Palestine; cmp. <he>בורגתא</he>. ",
+			"units": [
+				"<cite ref=\"Pesachim 57a:11\">Pes. 57ᵃ</cite>; <cite ref=\"Pesachim 57b:2\">57ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "O01272",
+	"slug": "ססגונא",
+	"headword": {
+		"text": "סַסְגּוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַסְגְּוָו׳"
+		}
+	],
+	"page": {
+		"number": 1009,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <cite ref=\"O01270\"><he>סס</he></cite>, v. <cite ref=\"O00366\"><he>סוּס</he></cite> a. <cite ref=\"U00557\"><he>שׂוּשׂ</he></cite>, a. <cite ref=\"C00336\"><he>גַּוְנָא</he></cite>) [<i>of glistening color</i>,] <i>sasgona, sasg’vana</i> (Chald. rendition of <cite ref=\"V00388\"><he>תַּחַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " name of an animal the skin of which was used for covering the Tabernacle. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:5\">Targ. Ex. XXV, 5</cite>. ",
+				"<cite ref=\"Onkelos Exodus 26:14\">Ib. XXVI, 14</cite> (Y. <cite ref=\"O01272\"><he>ססגוו׳</he></cite>); a. e.—",
+				"<cite ref=\"Shabbat 28a:4\">Sabb. 28ᵃ</cite> <he>היינו דמתרגמינן ס׳ שסָס בגוונין הרבה</he> Ar. (ed. <he>ששָׂשׂ</he>) that is the reason why we translate (<i>tasḥash</i>) with <i>sasgona</i>, because it glistened with many colors."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a <i>color</i>, <i>scarlet</i> (v. P. Sm. 2682). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 7:2\">Targ. Cant. VII, 2</cite> <he>סנרלין דס׳</he> (not <he>דססוגונא</he>) scarlet shoes (cmp. ",
+				"<cite ref=\"Ezekiel 16:10\">Ez. XVI, 10</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

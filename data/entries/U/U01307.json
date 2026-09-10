@@ -1,0 +1,27 @@
+{
+	"id": "U01307",
+	"slug": "שליותא",
+	"headword": {
+		"text": "שְׁלָיוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁלְיוּתָא"
+		}
+	],
+	"page": {
+		"number": 1583,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"U01306\">same</cite>, <i>happiness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 49:19\">Targ. Y. I Gen. XLIX, 19</cite>.—[<cite ref=\"Targum Jerusalem, Genesis 49:1\">Targ. Y. II ib. 1</cite> <he>ש׳</he> quoted in Levy Targ. Dict., v. <cite ref=\"I00499\"><he>טְלָיוּתָא</he></cite>.]"
+			]
+		}
+	]
+}

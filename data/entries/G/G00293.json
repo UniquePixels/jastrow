@@ -1,0 +1,30 @@
+{
+	"id": "G00293",
+	"slug": "זיהרא-1",
+	"headword": {
+		"text": "זִיהֲרָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "זַהֲרָא"
+		}
+	],
+	"page": {
+		"number": 391,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זהר</he>) <i>moon, moon-light</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:19\">Targ. Y. Deut. IV, 19</cite> (O. <he>סיהרא</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 17:3\">Ib. XVII, 3</cite> <he>ז׳</he> Ar. (ed. <cite ref=\"O00001\"><he>ס׳</he></cite>); a. e.—",
+				"<cite ref=\"Kiddushin 81a\">Kidd. 81ᵃ</cite> <he>נפל ז׳ באיפומא</he> Ar. (ed. <cite ref=\"N00255\"><he>נהורא</he></cite>) moon-light fell through the opening (impluvium). Y. Taan. IV, end, 69ᶜ <he>אשלם ז׳</he> full-moon arrived.—V. <cite ref=\"G00106\"><he>זָהֲרָא</he></cite>."
+			]
+		}
+	]
+}

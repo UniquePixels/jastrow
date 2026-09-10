@@ -1,0 +1,43 @@
+{
+	"id": "R00229",
+	"slug": "צוציתא",
+	"headword": {
+		"text": "צוּצִיתָא"
+	},
+	"page": {
+		"number": 1270,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00432\"><he>צִיץ</he></cite> ch.; of <cite ref=\"N01091\"><he>נֵץ</he></cite> a. <cite ref=\"N00751\"><he>נִיצוֹץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " צ׳ דנורא <i>ray of light</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73a:8\">B. Bath. 73ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 337\">Yalk. Is. 337</cite>; <cite ref=\"Yalkut Shimoni on Nach 276:1\">Yalk. Jer. 276</cite> <he>צ׳ דנ׳ חוורתי</he> a ray of whitish light. ",
+				"<cite ref=\"Taanit 25a:11\">Taan. 25ᵃ</cite> <he>נפיק צ׳ דנ׳ וכ׳</he> a ray of light proceeded from his forehead; (Ms. M. also <he>צָצוּתָא</he>). ",
+				"<cite ref=\"Shabbat 56b:19\">Sabb. 56ᵇ</cite> <he>נתן דצ׳</he> Nathan ‘with the ray of light’ (a repentant sinner with a halo; oth. opin. whom an angel seized by his <i>forelock</i>, v. infra, afterwards known as (Mar) Ukba, the Resh Galutha; v. Rashi to <cite ref=\"Sanhedrin 31b\">Snh. 31ᵇ</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>forelock</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 42a:3\">Men. 42ᵃ</cite> <he>וצריך לפורדה כי צ׳ וכ׳</he> (Ms. R. 2, a. Rashi <cite ref=\"R00438\"><he>צִיצִי׳</he></cite>) he must separate it (the show-fringe) like the forelock of the gentiles; <cite ref=\"Yalkut Shimoni on Torah 750:5\">Yalk. Num. 750</cite> <he>ציצו׳</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>tail</i> of a mouse. ",
+			"units": [
+				"<cite ref=\"Shabbat 121b:3\">Sabb. 121ᵇ</cite> <he>נקוטו בצוּצִיתֵיה ואפקוה</he> (not <he>ואפקיה</he>) take it by its tail and carry it out; <cite ref=\"Beitzah 36b\">Bets. 36ᵇ</cite> (corr. acc.; v. Rabb. D. S. a. l. note 50)."
+			],
+			"label": "3"
+		}
+	]
+}

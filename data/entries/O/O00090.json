@@ -1,0 +1,53 @@
+{
+	"id": "O00090",
+	"slug": "סבר-7",
+	"headword": {
+		"text": "סְבַר",
+		"homograph": 4
+	},
+	"altHeadwords": [
+		{
+			"text": "סִבְרָא"
+		},
+		{
+			"text": "סִי׳"
+		},
+		{
+			"text": "סוֹבָרָא"
+		}
+	],
+	"page": {
+		"number": 952,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00089\">same</cite><i>hope</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:7\">Targ. Prov. XI, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:16\">Targ. Job V, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 13:12\">Targ. Prov. XIII, 12</cite> <cite ref=\"O00090\"><he>סַבְרָא</he></cite> ed. Wil.—",
+				"<cite ref=\"Aramaic Targum to Psalms 9:19\">Targ. Ps. IX, 19</cite> <cite ref=\"O00077\"><he>סוֹבָ׳</he></cite> (Bxt. <he>סבו׳</he>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 68:2\">Gen. R. s. 68</cite> <he>סִבְרִי</he>, v. <cite ref=\"B01259\"><he>בָּרְיָיא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 53\">Gen. R. s. 53</cite> <he>את לא אובדית סִיבְרָךְ וכ׳</he> (some ed. <he>סוֹכְרָךְ</he>) as thou didst not give up thy hope, so will I not suffer thy hope to be frustrated. Midr. Sam. ch. V; Yalk. ib. 86 (ref. to <he>אפסי</he>, <cite ref=\"I Samuel 2:10\">I Sam. II, 10</cite>) <he>אילין … דסוֹבְרֵיהוֹן פסיק מן ברייהון</he> that means the nations whose hope is cut off from their Creator (who have no faith); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " with <he>אפִּין</he>, <i>countenance</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:2\">Targ. Gen. XXXI, 2</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 35:2\">Gen. R. s. 35</cite>, v. <cite ref=\"A02598\"><he>אַפָּא</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 5:2\">Lev. R. s. 5</cite> <he>מאן יכיל למיחמי ס׳ אפוי וכ׳</he> who can ever see the face of Abba Judan?; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>opinion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:7:3\">Y. Ab. Zar. I, 40ᵃ</cite> <cite ref=\"O00546\"><he>סִיבְרָה</he></cite> (ed. Krot. <cite ref=\"O00393\"><he>סוּ׳</he></cite>), v. <cite ref=\"O00090\"><he>סְבַר</he> I</cite>, <i>Ithpa</i>"
+			],
+			"label": "3"
+		}
+	]
+}

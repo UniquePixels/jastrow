@@ -1,0 +1,25 @@
+{
+	"id": "V00372",
+	"slug": "תחלי",
+	"headword": {
+		"text": "תַּחְלֵי"
+	},
+	"page": {
+		"number": 1661,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. = h. <cite ref=\"U00667\"><he>שִׁחְלַיִים</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 107a:5\">B. Mets. 107ᵃ</cite> <he>הני ת׳ דבי כיתנא וכ׳</he> to take cress that grows among flax is not considered robbery. ",
+				"<cite ref=\"Shabbat 109b:7\">Sabb. 109ᵇ</cite> <he>ת׳ חיורתא</he> (<i>fem.</i>) white cress (pepperwort?). ",
+				"<cite ref=\"Shabbat 140a:8\">Ib. 140ᵃ</cite> <he>מעליא לת׳</he> is good to mix with cress; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "C00673",
+	"slug": "גיותן",
+	"headword": {
+		"text": "גֵּיוְתָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּאַוְתָן"
+		},
+		{
+			"text": "גֵּוְתָ׳"
+		}
+	],
+	"page": {
+		"number": 236,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00672\">preced.</cite>) <i>haughty, proud man</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 85:2\">Gen. R. s. 85</cite> <cite ref=\"C00670\"><he>גיו׳</he></cite>; Yalk. Dan. 1063 <cite ref=\"C00674\"><he>גאו׳</he></cite>.—Pl. <he>גֵּיוְתָנִין</he> &c. ",
+				"<cite ref=\"Shemot Rabbah 8\">Ex. R. s. 8</cite>; Tanḥ. Vaëra 9 <he>הג׳ שעושין וכ׳</he> the haughty who declare themselves as gods. ",
+				"<cite ref=\"Tractate Derekh Eretz Rabbah 2\">Treat. Der. Er. II</cite>, beg. <he>גֵּיפְתָנִין</he>, <cite ref=\"C00792\"><he>גֵּפְ׳</he></cite>."
+			]
+		}
+	]
+}

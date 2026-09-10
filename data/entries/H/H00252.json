@@ -1,0 +1,53 @@
+{
+	"id": "H00252",
+	"slug": "חובתא",
+	"headword": {
+		"text": "חוֹבְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹבְתָה"
+		}
+	],
+	"page": {
+		"number": 429,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"H00242\"><he>חוֹבָה</he></cite><i>debt</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 18:7\">Targ. Ez. XVIII, 7</cite> (ed. Wil. <cite ref=\"H00252\"><he>חוֹבָתָא</he></cite>, pl.). ",
+				"<cite ref=\"Targum Jonathan on II Kings 4:7\">Targ. II Kings IV, 7</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>obligation, duty</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 7:18\">Targ. Koh. VII, 18</cite> <he>נפק ית ידי חוֹבַת וכ׳</he>, v. <cite ref=\"H00242\"><he>חוֹבָה</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>guilt, sin, sin-offering</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 5:6\">Targ. Lev. V, 6</cite>, sq.—",
+				"<cite ref=\"Aramaic Targum to Psalms 109:7\">Targ. Ps. CIX, 7</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 5:5:4\">Y. Sot. V, 20ᶜ</cite> bot. <he>איידי ח׳ וכ׳</he>; <cite ref=\"Jerusalem Talmud Berakhot 9:5:7\">Y. Ber. IX, 14ᵇ</cite> bot. <he>הי דא חובתה</he>, v. <cite ref=\"H00242\"><he>חוֹבָה</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>disadvantage; condemning evidence</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 28b:12\">B. Mets. 28ᵇ</cite> <he>לא מייתי איניש ח׳ וכ׳</he> one is not supposed to offer evidence against himself.—Pl. <cite ref=\"H00252\"><he>חוֹבָתָא</he></cite>, v. supra.—",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:22\">Targ. Lam. IV, 22</cite> <he>חוֹבוֹתַיִךְ</he> (h. form)."
+			],
+			"label": "4"
+		}
+	]
+}

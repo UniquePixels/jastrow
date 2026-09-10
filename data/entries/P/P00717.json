@@ -1,0 +1,24 @@
+{
+	"id": "P00717",
+	"slug": "עכבית",
+	"headword": {
+		"text": "עַכָּבִית"
+	},
+	"page": {
+		"number": 1078,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. (<cite ref=\"P00712\"><he>עָכַב</he></cite>) <he>עַכָּבִיּוֹת</he> a species of edible <i>thistles, cardoon</i> (v. Löw, Pfl. p. 292). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> (ref. to <cite ref=\"Genesis 3:18\">Gen. III, 18</cite>) <he>קוץ אלו ע׳</he> <i>ḳots</i> is cardoon; (oth. opin.) <he>דרדר זו ע׳</he> <i>dardar</i> is cardoon; Yalk. ib. 32 <cite ref=\"P00726\"><he>עַכּוֹבִית</he></cite>. ",
+				"<cite ref=\"Beitzah 34a\">Bets. 34ᵃ</cite>; <cite ref=\"Tosefta Beitsah 3:19\">Tosef. ib. III, 19</cite>. ",
+				"<cite ref=\"Mishnah Oktzin 3:2\">Ukts. III, 2</cite>."
+			]
+		}
+	]
+}

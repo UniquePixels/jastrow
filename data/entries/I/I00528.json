@@ -1,0 +1,29 @@
+{
+	"id": "I00528",
+	"slug": "טמא-1",
+	"headword": {
+		"text": "טַמָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טָמָא"
+		}
+	],
+	"page": {
+		"number": 538,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>טעמא</he>, v. ",
+			"units": [
+				"<cite ref=\"Moed Katan 18a\">M. Kat. 18ᵃ</cite> quot. s. v. <cite ref=\"I00612\"><he>טַעֲמָא</he></cite>, a. T’shuboth G’onim ed. Cassel, p. 22ᵃ) <i>reason, argument</i> (on the cause of grief), <i>consolation</i>.—Pl. <cite ref=\"I00546\"><he>טַמַּיָּא</he></cite>, or <cite ref=\"I00157\"><he>טָמַיָּא</he></cite>.—בֵּי ט׳ <i>gathering of comforters around the mourner</i> in his house or at the place of worship. ",
+				"<cite ref=\"Berakhot 6b:14\">Ber. 6ᵇ</cite> <he>אגרא דבי ט׳ וכ׳</he> (Ar. <cite ref=\"I00529\"><he>טמא</he></cite>, Tshub. G’onim l. c. <he>טעמא</he>) the merit of attending the mourner’s gathering lies in the silence (which must be observed until the mourner begins to speak). ",
+				"<cite ref=\"Sanhedrin 113a:7\">Snh. 113ᵃ</cite> [read:] <he>למשאל ביה ט׳</he> (v. Rabb. D. S. a. l. note), v. <cite ref=\"I00612\"><he>טַעֲמָא</he></cite>."
+			]
+		}
+	]
+}

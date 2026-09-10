@@ -1,0 +1,28 @@
+{
+	"id": "A00074",
+	"slug": "אבון",
+	"headword": {
+		"text": "אַבּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אבין"
+		}
+	],
+	"page": {
+		"number": 4,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Abbun</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:1:3\">Y. Pes. IV, beg. 30ᶜ</cite>ᵈ (<he>ר׳ אל׳ בשם ר׳ אבין</he>; <he>ר׳ א׳ בשם ר׳ אל׳</he>); <cite ref=\"Jerusalem Talmud Taanit 1:6:4\">Y. Taan. I, 64ᶜ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:4:2\">Y. Shebu. VI, 37ᵃ</cite> bot—V. <cite ref=\"B00635\"><he>בּוּן</he></cite>."
+			]
+		}
+	]
+}

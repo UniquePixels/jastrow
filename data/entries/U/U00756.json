@@ -1,0 +1,35 @@
+{
+	"id": "U00756",
+	"slug": "שטם-1",
+	"headword": {
+		"text": "שָׂטַם"
+	},
+	"page": {
+		"number": 1554,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h; cmp. <he>טמם</he>) <i>to lie in wait for; to bear a grudge against, persecute</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite>, v. <cite ref=\"O01216\"><he>סִנְטֵר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:7\">Y. Ab. Zar. I, 39ᶜ</cite> (expl. <he>ריש̇ט̇ם̇</he>, <cite ref=\"Genesis 27:41\">Gen. XXVII, 41</cite>) <he>ש̇נאה ט̇מ̇ונה</he> hidden hatred. ",
+				"<cite ref=\"Pesikta Rabbati 13:1\">Pesik. R. s. 13</cite> <he>יוסף … יַיִּשְׂטְמוּהוּ והיו … ששוֹטְמָם וכ׳</he> his brothers sinned against Joseph, ‘and they persecuted him’ (<cite ref=\"Genesis 49:23\">Gen. XLIX, 23</cite>), and his brothers thought that he would persecute them as they did him; <he>אבל עשו כששְׂטָמוֹ ליעקב וכ׳</he> but when Esau persecuted Jacob &c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׂטַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be hated, persecuted</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14<sup>5</sup></cite> <he>זה נ׳ וזה נ׳</he> this one (Jacob) was hated (<cite ref=\"Genesis 27:41\">Gen. XXVII, 41</cite>), and that one (Joseph) was hated (ib. XLIX, 23)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

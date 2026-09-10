@@ -1,0 +1,21 @@
+{
+	"id": "H01710",
+	"slug": "חרך-4",
+	"headword": {
+		"text": "חֲרָךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 503,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>חֲרַכִּים</he>; <cite ref=\"H01710\"><he>חרך</he></cite>, cmp. <he>חרק</he> a. <he>חרם</he>)<i>lattice, latticed window</i>. Pesik. Haḥod., p. 49ᵇ <he>כשם … בין חלון לח׳</he> as there is a difference between (the light as it comes through) an open window and a latticed window, so &c.; <cite ref=\"Bamidbar Rabbah 11:8\">Num. R. s. 11</cite>; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>; <cite ref=\"Yalkut Shimoni on Nach 986:26\">Yalk. Cant. 986</cite> <he>בין חלון לחלון</he> (corr. acc.).—Pl. <he>חֲרַכִּים</he>, <he>חֲרַכִּין</he>,. ",
+			"units": ["<cite ref=\"Bereishit Rabbah 98:20\">Gen. R. s. 98</cite>."]
+		}
+	]
+}

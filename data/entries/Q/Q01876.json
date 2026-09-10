@@ -1,0 +1,22 @@
+{
+	"id": "Q01876",
+	"slug": "פרמקוס",
+	"headword": {
+		"text": "פַּרְמָקוֹס"
+	},
+	"page": {
+		"number": 1230,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (φαρμακός) <i>sorcerer</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 77:2\">Gen. R. s. 77</cite> Var. (text <cite ref=\"Q02008\"><he>פרקמוס</he></cite>, incorr.); <cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite>."
+			]
+		}
+	]
+}

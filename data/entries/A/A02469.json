@@ -1,0 +1,40 @@
+{
+	"id": "A02469",
+	"slug": "אסנא-2",
+	"headword": {
+		"text": "אַסָּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲסָנָא"
+		}
+	],
+	"page": {
+		"number": 95,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"O01193\"><he>סְנֶה</he></cite>, v. Ges. H. Dict. s. v.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thorn-bush, bramble</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 3:2\">Targ. Ex. III, 2</cite>; a. e.—",
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite> <he>א׳ א׳</he> Ms. M. (ed. <he>הסנה</he>, <he>הסנה</he>) Oh thornbush! <cite ref=\"Avodah Zarah 28a:13\">Ab. Zar. 28ᵃ</cite> <he>גירדא דא׳</he> parings of the bramble wood."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shrubbery fruit, bramble nut</i>. Ib.ᵇ <he>קשייתא דא׳</he> the stones of &c.—Pl. <he>אַסְנֵי</he> <i>a drink</i> made of shrubbery fruit(?). ",
+			"units": [
+				"<cite ref=\"Pesachim 107a\">Pes. 107ᵃ</cite> (Ms. M. <cite ref=\"A02438\"><he>אֲסִינֵי</he></cite>, Ms. M. 2 <he>אֲהִינֵי</he>; v. Rabb. D. S. a. l.)."
+			],
+			"label": "2"
+		}
+	]
+}

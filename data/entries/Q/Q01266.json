@@ -1,0 +1,23 @@
+{
+	"id": "Q01266",
+	"slug": "פסטלין",
+	"headword": {
+		"text": "פַּסְטְלִין"
+	},
+	"page": {
+		"number": 1194,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (adapt. of pastilli, as if from <he>פסל</he> or <he>פצל</he>) <i>lozenges, sugar pills</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 981\">Yalk. Cant. 981</cite>; <cite ref=\"Shemot Rabbah 41\">Ex. R. s. 41</cite> <cite ref=\"Q00793\"><he>פִּיצְטְלִין</he></cite>; cmp. <cite ref=\"A01555\"><he>אִיפִּסְטְלִין</he></cite>."
+			]
+		}
+	]
+}

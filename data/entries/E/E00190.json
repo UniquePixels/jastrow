@@ -1,0 +1,23 @@
+{
+	"id": "E00190",
+	"slug": "הוברים",
+	"headword": {
+		"text": "הוֹבְרִים"
+	},
+	"page": {
+		"number": 336,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. b. h. <i>astrological specula, horoscopes</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 20:5\">Num. R. s. 20</cite> <he>היה רואה בהוֹבְרָיו וכ׳</he> he saw in his horoscopes that &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "U00974",
+	"slug": "שינויא",
+	"headword": {
+		"text": "שִׁינּוּיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁנּ׳"
+		}
+	],
+	"page": {
+		"number": 1564,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <i>change, strangeness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 28:11\">Targ. Is. XXVIII, 11</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>answer, reply, solution</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 3b:1\">Sabb. 3ᵇ</cite> <he>דמשני לך ש׳ דלאו ש׳ הוא</he> he might give thee an answer which is no answer. ",
+				"<cite ref=\"Ketubot 98b:3\">Keth. 98ᵇ</cite> <he>ש׳ דשנינן ש׳ הוא</he> the solution which we have offered is the real solution; <cite ref=\"Pesachim 12b:16\">Pes. 12ᵇ</cite>; a. e.—Pl. <cite ref=\"U00973\"><he>שִׁינּוּיֵי</he></cite>, <cite ref=\"U00973\"><he>שִׁנּ׳</he></cite>. ",
+				"<cite ref=\"Niddah 26a:9\">Nidd. 26ᵃ</cite> <he>ומי איתנהו להני ש׳</he> have these replies any reality?, i.e. these fictitious cases can never occur. ",
+				"<cite ref=\"Yevamot 91b\">Yeb. 91ᵇ</cite>; <cite ref=\"Bava Batra 135a:3\">B. Bath. 135ᵃ</cite> <he>ואש׳ ניקום ונסמוך</he> can we stand and lean on harmonizing arguments (for legal decisions)?"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "P01002",
+	"slug": "עננא",
+	"headword": {
+		"text": "עָנְנָא"
+	},
+	"page": {
+		"number": 1096,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עֲנַן</he> I) <i>interpreter of clouds, augur</i>.—Pl. <he>עָנְנִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 2:6\">Targ. Is. II, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 27:9\">Targ. Jer. XXVII, 9</cite> <he>עָנְנֵיכוֹן</he> ed. Lag. (oth. ed. <he>עוֹנְנֵי׳</he>)."
+			]
+		}
+	]
+}

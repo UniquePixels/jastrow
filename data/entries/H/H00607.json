@@ -1,0 +1,129 @@
+{
+	"id": "H00607",
+	"slug": "חטט-1",
+	"headword": {
+		"text": "חָטַט"
+	},
+	"page": {
+		"number": 448,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to dig, cut out</i> (of the sucket), <i>hollow out</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 4:3\">Mikv. IV, 3</cite> <he>החוֹטֵט בצינור וכ׳</he> if one makes a cavity in a water pipe for the deposit of pebbles. ",
+				"<cite ref=\"Bereishit Rabbah 34:10\">Gen. R. s. 34</cite> <he>היה חוטט את וכ׳</he> the embryo would cut its way through &c. ",
+				"<cite ref=\"Kiddushin 24b:18\">Kidd. 24ᵇ</cite> <he>וחֲטָטָהּ</he> and he (the master) cut it (the eye) out."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to rake, clean a well</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 1:2\">M. Kat. I, 2</cite> <he>וחוֹטְטִין אותן</he> and you may clean the wells. ",
+				"<cite ref=\"Moed Katan 5a:3\">Ib. 5ᵃ</cite> <he>ח׳ … ואין חופרין וכ׳</he> you may clean …, but not dig (deepen) &c. [<cite ref=\"Moed Katan 5a:6\">Ib.</cite> <he>ולא חוטטין לתוכן</he> you must not rake pebbles into them; v., however vers. Ms. M., Rabb. D. S. a. l.]—Y. ib. 80ᵇ bot. <he>חוטטין אותן גרפין לון וכ׳</he> (not <he>חוטטן</he>) <i>ḥot’tin</i> means ‘they rake them’, as we read (Mikv. l. c.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to take sheaves out with a rake</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 1:8\">Succ. I, 8</cite> <he>החוטט בגדיש וכ׳</he> if one takes sheaves out of a stack, so as to form a shed (Succah). Ib. 15ᵃ"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִטֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to rake</i>. Y. Sabb. III, beg. 5ᶜ <he>צריך לחַטֵּט ביד וכ׳</he> he must rake (coals and ashes out of the oven) with a handle, which proves that he must clean thoroughly.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make holes, to pick</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Mikvaot 7:2\">Tosef. Mikv. VII</cite> (<cite ref=\"Tosefta Mikvaot 8:2\">VIII</cite>), 2 <he>אוצין צריך לחטט</he> Var. (ed. Zuck. <he>לחַטְחֵט</he>) if the holes in the baskets are filled up with grapes &c., one must clean them by picking. ",
+						"<cite ref=\"Bava Kamma 18a:2\">B. Kam. 18ᵃ</cite> <he>תרנגולין שהיו מְחַטְּטִין וכ׳</he> chickens that picked on the rope of a bucket. ",
+						"<cite ref=\"Tosefta Bava Metzia 8:30\">Tosef. B. Mets. VIII, 30</cite> <he>שמְחַטְּטִין את וכ׳</he> (Var. <he>שמְחַטְחֲטִין</he>) for they pick holes in the walls."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (with <he>אחר</he>) <i>to dig after, to trace with the knife</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 74b\">Ḥull. 74ᵇ</cite>; <cite ref=\"Tosefta Chullin 7:4\">Tosef. Ib. VII, 4</cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to trim</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 90a\">Sabb. 90ᵃ</cite>; <cite ref=\"Menachot 107a\">Men. 107ᵃ</cite>, v. <cite ref=\"M00849\"><he>מָחַט</he></cite>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["חִטְחֵט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00606\">same</cite>. Y. Orl. III, 63ᵃ <he>מצוי לחַטְחֵט אחריו</he> it is likely that they dig after it (to take it out of the ground); a. e. (v. supra).",
+					"units": []
+				}
+			],
+			"stem": "Pilp."
+		},
+		{
+			"forms": ["נֶחֱטַט"],
+			"senses": [
+				{
+					"gloss": "<i>to be dug out, picked out</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 24b:20\">Kidd. 24ᵇ</cite> <he>נֶחְטְטָה עינה</he> if the bird’s eye was picked out; <cite ref=\"Mishnah Zevachim 7:5\">Zeb. VII, 5</cite> (<cite ref=\"Zevachim 68b\">68ᵇ</cite>) Ar. (ed. <he>נסמית</he>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְחַטֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to be exhumed</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 63b:11\">Yeb. 63ᵇ</cite> <he>מתים מִתְחַטְּטִין</he> the dead are exhumed (by the Guebres)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["חוט"],
+			"senses": [
+				{
+					"gloss": "), <i>part.</i> <he>מְחוֹטֵט</he> (v. <cite ref=\"M00850\"><he>מַחַט</he></cite>) <i>stinging</i> (the eye), <i>dazzling</i>, v. infra.",
+					"units": []
+				}
+			],
+			"stem": "Polel."
+		},
+		{
+			"forms": ["הִתְחוֹטֵט"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut</i> (of jewels), <i>to be polished, glisten</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 12a\">Meg. 12ᵃ</cite> (play on <he>בה̇ט̇</he>, <cite ref=\"Esther 1:6\">Esth. I, 6</cite>) <he>אב̇נים שמִתְח̇וֹטְֹטוֹת על בעליהן וי״א אב̇נים המְח̇וֹטְֹטוֹת לעינים במקומן</he> Ms. F. (v. Rabb. D. S. a. l. note 5) stones which glisten on those who wear them, and some say, Stones which dazzle the eyes in the place where they are found."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "M03057",
+	"slug": "מתין-2",
+	"headword": {
+		"text": "מַתְיָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְתִין"
+		}
+	],
+	"page": {
+		"number": 862,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"M03025\"><he>מָתוּן</he></cite> , <i>slow, careful</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 24:12\">Targ. Y. I Lev. XXIV, 12</cite> (ed. Amst. <cite ref=\"M03053\"><he>מַתְיַין</he></cite>; Y. II <cite ref=\"M03025\"><he>מָתוּן</he></cite>); <cite ref=\"Targum Jonathan on Numbers 9:8\">Targ. Y. I Num. IX, 8</cite> <cite ref=\"M03057\"><he>מַתְיָן</he></cite> ed. Amst. (oth. <cite ref=\"M03056\"><he>מְתִין</he></cite>; Yr. II <cite ref=\"M03027\"><he>מתון</he></cite>).—Pl. <he>מְתִינִין</he>, <he>(מְתוּ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 9:8\">Ib.</cite> ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:12\">Targ. Cant. V, 12</cite>. [The form <cite ref=\"M03057\"><he>מַתְיָן</he></cite>, <cite ref=\"M03053\"><he>מַתְיַין</he></cite> fr. <he>מתי</he> = <he>מתח</he>.]"
+			]
+		}
+	]
+}

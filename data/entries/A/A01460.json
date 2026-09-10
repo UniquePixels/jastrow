@@ -1,0 +1,34 @@
+{
+	"id": "A01460",
+	"slug": "איסטרידא",
+	"headword": {
+		"text": "אִיסְטְרִידָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "איסטדירא",
+			"reconstructed": true
+		},
+		{
+			"text": "אִיסְתְּ׳"
+		},
+		{
+			"text": "אִצְטְ׳"
+		}
+	],
+	"page": {
+		"number": 55,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ispe. of <cite ref=\"O01536\"><he>סרד</he></cite>, cmp. <cite ref=\"O01606\"><he>סְרִיד</he></cite>, <cite ref=\"O01537\"><he>סְרָדָא</he></cite> &c.) <i>net-work</i>, esp. <i>rigging, sail-yard, sails</i>. [If the vers. <cite ref=\"A01417\"><he>אִיסְטְדִירָא</he></cite>, <cite ref=\"A02569\"><he>אִסְתְּדִירָא</he></cite>, v. Rabb. D. S. to <cite ref=\"Shabbat 111b:6\">Sabb. 111ᵇ</cite> note 2, be correct, it must be derived from <he>סדר</he>; cmp. b. h. <he>סִדְרוֹן</he>, <cite ref=\"O00203\"><he>סְדֵרָה</he></cite>.] <cite ref=\"Shabbat 111b:6\">Sabb. 111ᵇ</cite> <he>קטרא דקטרי באי׳</he> the loop which they make when attaching the sail to the rigging. ",
+			"units": [
+				"<cite ref=\"Shabbat 111b:6\">Ib.</cite> <he>ודאי׳ גופה</he> and the (permanent) knots in the rigging or ropes."
+			]
+		}
+	]
+}

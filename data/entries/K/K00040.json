@@ -1,0 +1,33 @@
+{
+	"id": "K00040",
+	"slug": "כבול-1",
+	"headword": {
+		"text": "כָּבוּל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 607,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. <i>Cabul</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " <he>אֶרֶץ כ׳</he> a district in Northern Palestine presented by Solomon to Hiram, king of Tyre. ",
+			"units": [
+				"<cite ref=\"Shabbat 54a:4\">Sabb. 54ᵃ</cite>, v. <cite ref=\"K00060\"><he>כָּבַל</he></cite>, <cite ref=\"K00061\"><he>כְּבַל</he></cite>, <cite ref=\"K00063\"><he>כַּבְלָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Cabul</i>, (<i>Kābūl</i>,) a place south-east of Accho. ",
+			"units": [
+				"<cite ref=\"Tosefta Moed Kattan 2:15\">Tosef. M. Kat. II, 15</cite>; <cite ref=\"Tosefta Shabbat 7\">Tosef. Sabb. VII (VIII), 17</cite>; <cite ref=\"Jerusalem Talmud Pesachim 4:1:13\">Y. Pes. IV, 30ᵈ</cite> top; Bab. ",
+				"<cite ref=\"Pesachim 51a\">Pes. 51ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

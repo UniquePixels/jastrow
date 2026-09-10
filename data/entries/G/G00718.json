@@ -1,0 +1,27 @@
+{
+	"id": "G00718",
+	"slug": "זרמית",
+	"headword": {
+		"text": "זַרְמִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְרָמִית"
+		}
+	],
+	"page": {
+		"number": 414,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= b. h. <he>זֶרֶם</he>; cmp. <he>זרב</he>, <cite ref=\"G00696\"><he>זרי</he></cite>) <i>shower, storm</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 4:6\">Targ. Is. IV, 6</cite> <cite ref=\"Targum Jonathan on Isaiah 28:2\">Ib. XXVIII, 2</cite>; a. e."
+			]
+		}
+	]
+}

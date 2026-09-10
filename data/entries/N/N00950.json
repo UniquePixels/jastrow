@@ -1,0 +1,30 @@
+{
+	"id": "N00950",
+	"slug": "נסכא-2",
+	"headword": {
+		"text": "נִסְכָּא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 917,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"N00949\">preced.</cite> wds.) <i>cast metal</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 59b\">Sabb. 59ᵇ</cite>, v. <cite ref=\"A02237\"><he>אֲנִיסְכָּא</he></cite>.—Esp. <i>a piece of silver</i> or <i>gold, bar</i>, opp. to <cite ref=\"M00965\"><he>מטבע</he></cite>, coined metal. ",
+				"<cite ref=\"Bava Kamma 96b:3\">B. Kam. 96ᵇ</cite> <he>האי מאן דגזיל נ׳ וכ׳</he> if one steals a piece of metal and makes it into coins. ",
+				"<cite ref=\"Bava Kamma 98a:2\">Ib. 98ᵃ</cite> <he>שבח לעניין נ׳</he> he profits by the increased value of the metal. ",
+				"<cite ref=\"Ketubot 110b:22\">Keth. 110ᵇ</cite> <he>ואימא נ׳</he> but may not ‘silver’ in the agreement mean metal (not coins)?; <cite ref=\"Menachot 107a:5\">Men. 107ᵃ</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 33b:8\">B. Bath. 33ᵇ</cite> <he>היינו נ׳ דר׳ אבא וכ׳</he> this is a case corresponding to that of a metal bar which R. Abba decided, the case being that one took by force a piece of metal &c.; <cite ref=\"Shevuot 32b:5\">Shebu. 32ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

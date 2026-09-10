@@ -1,0 +1,44 @@
+{
+	"id": "Q01551",
+	"slug": "פרגוד-1",
+	"headword": {
+		"text": "פַּרְגּוֹד"
+	},
+	"page": {
+		"number": 1214,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (paragauda, παραγώδης of Semitic origin; <cite ref=\"Q01547\"><he>פרג</he></cite> <i>to divide</i>, cmp. <cite ref=\"Q01688\"><he>פָּרוֹכֶת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>curtain</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 29:1\">Kel. XXIX, 1</cite> Maim. (R. S. <i>tunic</i>, v. infra).—Esp. (cmp. <cite ref=\"F00041\"><he>וִילוֹן</he></cite>) <i>the curtain of heaven</i>. ",
+				"<cite ref=\"Chagigah 15a:11\">Ḥag. 15ᵃ</cite> <he>כבר שמעתי מאחורי הפ׳ וכ׳</he> I have already heard from behind the Curtain, ‘Return, ye wayward children, all except Aḥer.’ <cite ref=\"Yoma 77a\">Yoma 77ᵃ</cite> Ms. M. (omitted in later editions; v. Rabb. D. S. a. l. note 3). ",
+				"<cite ref=\"Bava Metzia 59a:8\">B. Mets. 59ᵃ</cite> <he>שלשה אין הפ׳ ננעל בפניהם</he> there are three wrongs for which the Curtain is never closed (the outcries over them will not be unheeded).—Trnsf. <i>the court, royal attendants</i>. Mekh. Yithro, Baḥod., s. 2 <he>לא דומה שומע מפי פ׳ וכ׳</he> it is not the same to hear from the lips of attendants as to hear from the lips of the king himself; <cite ref=\"Yalkut Shimoni on Torah 276:7\">Yalk. Ex. 276</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a certain garment, tunic</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite> (expl. <he>כתנת הפסים</he>, <cite ref=\"Genesis 37:23\">Gen. XXXVII, 23</cite>). ",
+				"<cite ref=\"Mishnah Shekalim 3:2\">Shek. III, 2</cite>, v. <cite ref=\"H01484\"><he>חָפַת</he></cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A00589\"><he>אַוְורַקְסִין</he></cite>) a sort of <i>breeches</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 120a\">Sabb. 120ᵃ</cite> <he>שני פרגוד</he> Ms. M. (ed. <cite ref=\"Q01550\"><he>פרגד</he></cite>; Ar. <he>פַּרְגּוֹדִין</he>) two (a pair of) breeches; (Y. ib. XVI, 15ᵈ <cite ref=\"A00222\"><he>אבריקין</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

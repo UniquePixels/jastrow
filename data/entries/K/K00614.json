@@ -1,0 +1,39 @@
+{
+	"id": "K00614",
+	"slug": "כיפתא-1",
+	"headword": {
+		"text": "כִּיפְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֵּיפָא"
+		},
+		{
+			"text": "כִּיפָּא"
+		}
+	],
+	"page": {
+		"number": 636,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"K00603\"><he>כִּיפָּה</he></cite><i>vault, vaulted chamber; arcade</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:3\">Y. Snh. VII, 25ᵈ</cite> top <he>תפשיתון כיפ׳</he> the vaulted chamber (in the bath) seized them (kept them spell-bound). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 7:1:9\">Y. Naz. VII, 56ᵃ</cite> top <he>כ׳ דקסרין</he> the arcade of the gate of Caesarea (considered unclean); Y. Ber. III, 6ᵃ <he>כִּפְתָה דק׳</he>.—Pl. <cite ref=\"K00572\"><he>כִּיפִּין</he></cite>. Targ. II Esth. I, 5, v. <cite ref=\"K01044\"><he>כְּפַף</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bow, curve</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:12\">Targ. Job XLI, 12</cite> <he>דעביד כיפא</he> which forms a bow (in boiling over; h. text <he>ואגמן</he>); cmp. <cite ref=\"K00603\"><he>כִּיפָּה</he></cite> beg."
+			],
+			"label": "2"
+		}
+	]
+}

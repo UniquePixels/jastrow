@@ -1,0 +1,40 @@
+{
+	"id": "C01255",
+	"slug": "גרגר-1",
+	"headword": {
+		"text": "גִּרְגֵּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּירְגֵּר"
+		}
+	],
+	"page": {
+		"number": 264,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"C01302\"><he>גָּרוֹן</he></cite>, <cite ref=\"C01265\"><he>גַּרְגֶּרֶת</he></cite>) <i>to pour down the throat</i>, opp. <cite ref=\"U02078\"><he>שתה</he></cite> to set the lips to the vessel. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 9:4\">Par. IX, 4</cite>; <cite ref=\"Tosefta Parah 9:4\">Tosef. ib. IX</cite> (<cite ref=\"Tosefta Parah 8:6\">VIII</cite>), 6.—*<cite ref=\"Gittin 89a:3\">Gitt. 89ᵃ</cite> <he>גִּירְגְּרָה בשוק</he> if she quaffs outdoors; [Rashi: walks with outstretched neck (<cite ref=\"C01302\"><he>גָּרוֹן</he></cite>)]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " denom. of <cite ref=\"C01257\"><he>גַּרְגַּר</he></cite>) <i>to pick single berries</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 2:6\">Maasr. II, 6</cite> <he>מְגַרְגֵּר ואוכל</he> he may pick grapes (from the hanging cluster) and eat; <cite ref=\"Mishnah Maasrot 3:9\">ib. III, 9</cite>; Y. ib. II, 50ᵃ top."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"C01292\"><he>גְּרוֹגֶרֶת</he></cite>) <i>to let the olive shrivel</i> (on the tree or in the sun on the roof), <i>to mark out for shrivelling</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 36\">Ex. R. s. 36</cite> that olive—while it is yet on its tree, <he>מְגַרְגְּרִין אותו</he> they mark it out for shrivelling (in order to use it for the press). ",
+				"<cite ref=\"Mishnah Menachot 8:4\">Men. VIII, 4</cite> <he>מְגַרְגְּרוֹ בראש הזית</he> he lets it shrivel on the top of the olive tree; <he>מג׳ בראש הגג</he> in the sun on the roof; [for oth. opin. v. Rashi a. l.].—Ib. 86ᵃ <he>מְגרְגְּרוֹ תנן או מְגַלְגְּלוֹ תנן</he> does it read <i>m’garg’ro</i> (he lets it shrivel) or <i>m’galg’lo</i> (he lets it hang until it is fully rounded)?"
+			],
+			"label": "3"
+		}
+	]
+}

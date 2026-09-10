@@ -1,0 +1,98 @@
+{
+	"id": "D00891",
+	"slug": "דמי-1",
+	"headword": {
+		"text": "דמי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּמָה"
+		}
+	],
+	"page": {
+		"number": 313,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"D00903\"><he>דמם</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to mumble, think</i> (cmp. <cite ref=\"D00041\"><he>דבב</he></cite>); <i>to be silent</i>. Denom. (<cite ref=\"D00891\"><he>דִּימָה</he></cite>,) <cite ref=\"D00887\"><he>דָּמוּת</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to imagine, compare</i>. Denom. <cite ref=\"D00888\"><he>דְּמוּת</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"D00888\"><he>דְּמוּת</he></cite>) <i>to resemble, be like, to imitate</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 133b:6\">Sabb. 133ᵇ</cite> <he>הוי דוֹמֶה לו</he> imitate Him. ",
+				"<cite ref=\"Berakhot 29b:7\">Ber. 29ᵇ</cite> <he>שתפלתו דוֹמָה עליו וכ׳</he> to whom his prayer appears like a burden. ",
+				"<cite ref=\"Taanit 22b:5\">Taan. 22ᵇ</cite> <he>אין דורו דומה יפה</he> (v. Rabb. D. S. a. l. note 20) his generation was not considered worthy. ",
+				"<cite ref=\"Bava Kamma 92b\">B. Kam. 92ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 67\">Yalk. Jud. 67</cite> <he>ובן אדם לדו׳ לו</he> (not <he>ובני</he>) and man associates with his equal. Sifra Sh’mini Par. 10, ch. XII; <cite ref=\"Chullin 76b:17\">Ḥull. 76ᵇ</cite> <he>הַדּוֹמֶה</he> that which resembles the animal specified in the Bible (species); <he>הד׳ לַדּוֹמֶה</he> what resembles the animal classified with the animal specified in the Bible (genus); a. fr.—<he>אֵינוֹ דוֹמֶה</he> there is no resemblance, <i>you cannot compare</i>. ",
+				"<cite ref=\"Yevamot 64a\">Yeb. 64ᵃ</cite> <he>א׳ ד׳ תפלת … לתפלת וכ׳</he> you cannot compare the prayer of … to the prayer of &c. ",
+				"<cite ref=\"Shabbat 119b\">Sabb. 119ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Chullin 48b:9\">Ḥull. 48ᵇ</cite> <he>זו דוֹמָה לזו</he> these are analogous cases, v. Pi.—(<cite ref=\"M02911\"><he>משל</he></cite>) <he>למה הדבר דומה</he> (abbrev. <he>מלה״ד</he>, <he>לה״ד</he>) (a simile:) to what can this be compared?, a phrase introducing a simile. ",
+				"<cite ref=\"Taanit 25b:15\">Taan. 25ᵇ</cite>. ",
+				"<cite ref=\"Yoma 86b:8\">Yoma 86ᵇ</cite>; a. v. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְמָה"],
+			"senses": [
+				{
+					"gloss": " [",
+					"units": []
+				},
+				{
+					"gloss": " (b. h.) <i>to be silenced, undone</i>].].",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be compared, to be imagined; to appear in the disguise of; to seem</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 32b:5\">Kidd. 32ᵇ</cite> <he>כמה״ש נִדְמוּ לו</he> that they appeared to him as ministering angels; <he>נדמו לו לערביים</he> they appeared to him as if they were Arabs. ",
+						"<cite ref=\"Sukkah 52a\">Succ. 52ᵃ</cite> <he>צדיקים נ׳ להם כהר וכ׳</he> to the righteous sin will appear like a high mount; a. fr.—<cite ref=\"D00891\"><he>נִדְמֶה</he></cite> an animal <i>suspected</i> to be a hybrid or looking like one (cmp. <cite ref=\"D00871\"><he>דְּמַאי</he></cite>), esp. <i>a lamb looking like a kid</i>, and vice versa. ",
+						"<cite ref=\"Bekhorot 12a:14\">Bekh. 12ᵃ</cite> ‘a ewe which gave birth to what looked like a kid’. ",
+						"<cite ref=\"Chullin 38b:2\">Ḥull. 38ᵇ</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["דִּימָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to compare, judge from analogy</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 32:2\">Lev. R. s. 32</cite> <he>דִּמִּיתִיךָ להם</he> I made thee like them (beasts). ",
+						"<cite ref=\"Bava Batra 130b:8\">B. Bath. 130ᵇ</cite> <he>ובלבד שלא יְדַמֶּה וכ׳</he> but one must not decide ritual cases by analogy; v. ",
+						"<cite ref=\"Chullin 48b\">Ḥull. 48ᵇ</cite>"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to have an opinion</i> without authority to refer to. ",
+					"units": [
+						"<cite ref=\"Gittin 19a\">Gitt. 19ᵃ</cite>; <cite ref=\"Gittin 37a:13\">37ᵃ</cite> <he>מפני שאנו מְדַמִּין</he> because we have such an opinion.—<i>Part. pass.</i> <cite ref=\"M02593\"><he>מְדוּמֶּה</he></cite>, pl. <he>מְדוּמִּין</he>; <he>כמ׳ אני</he> <i>it seems to me</i>, <he>כמ׳ אנו</he> <i>it seems to us</i> &c. ",
+						"<cite ref=\"Menachot 18a\">Men. 18ᵃ</cite>. ",
+						"<cite ref=\"Taanit 23a\">Taan. 23ᵃ</cite>; a. fr.—Y. Ber. II, 5ᵇ bot. <he>כמ׳ הייתי</he> I thought."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

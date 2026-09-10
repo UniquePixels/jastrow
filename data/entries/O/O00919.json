@@ -1,0 +1,57 @@
+{
+	"id": "O00919",
+	"slug": "סכם-2",
+	"headword": {
+		"text": "סְכַם"
+	},
+	"page": {
+		"number": 991,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00918\">same</cite><i>to count, muster</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 26:63\">Targ. Y. Num. XXVI, 63</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to agree</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 4:23\">Targ. I Chr. IV, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 15:10\">Targ. Job XV, 10</cite> <he>סכמו בנא</he> Ms. (ed. Lag. <cite ref=\"O01101\"><he>סמכו</he></cite>, missing in oth. eds.). ",
+				"<cite ref=\"Targum Jonathan on Numbers 27:5\">Targ. Y. Num. XXVII, 5</cite> <he>ס׳ … על דעתיה וכ׳</he> he decided them in the sense of (his decision was approved by) the Lord."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְכֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to agree, approve</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 8:13\">Targ. Cant. VIII, 13</cite>.—",
+						"<cite ref=\"Gittin 6b:11\">Gitt. 6ᵇ</cite> <he>דא׳ מריה על ידיה</he> whose opinion the Lord approved. Y. Dem. I, 22ᵃ top <he>דלית הוא מַסְכְּמָה עימיה</he> that he did not share his opinion; a. e.—Part. pass. <he>מַסְכַּם</he>; f. <he>מַסְכְּמָא</he>. ",
+						"<cite ref=\"Eichah Rabbah 1:26\">Lam. R. to I, 2</cite> <he>הא חסילה והא מ׳ ע״י וכ׳</he> it is made final and confirmed by Jeremiah."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתְּכַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be agreed upon, to be decreed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 16:29\">Targ. Y. Num. XVI, 29</cite> (h. text <he>יִפָּקֵד</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

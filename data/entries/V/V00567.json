@@ -1,0 +1,23 @@
+{
+	"id": "V00567",
+	"slug": "תלא-3",
+	"headword": {
+		"text": "תָּלָא",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1670,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00566\">preced.</cite>) <i>hook</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 140b:3\">Sabb. 140ᵇ</cite> <he>ת׳ דבישרא</he> Ms. M. (ed. <cite ref=\"V00588\"><he>תַּלְיָא</he></cite>) a hook to suspend meat; <he>דכוורי</he> hook for fish (Rashi: <i>string</i> of meat &c.)."
+			]
+		}
+	]
+}

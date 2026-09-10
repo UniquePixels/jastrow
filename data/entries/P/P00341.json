@@ -1,0 +1,29 @@
+{
+	"id": "P00341",
+	"slug": "עוקצא",
+	"headword": {
+		"text": "עוּקְצָא"
+	},
+	"page": {
+		"number": 1057,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00340\">same</cite><i>sting, tail, spine</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 20:25\">Num. R. s. 20</cite> <he>לא מן דובשיך לא מן עוּקְצִיךְ</he> I want neither thy honey nor thy sting; <cite ref=\"Midrash Tehillim 1:19\">Midr. Till. to Ps. I, 5</cite> <he>מעוּקְצָךְ</he> … Y. Nâz. IX, 57ᵈ like fish that are fried, <he>רישיה דהן גבי עוּקְצֵיה דהן</he> the head of one by the side of the other’s tail. ",
+				"<cite ref=\"Berakhot 58b:11\">Ber. 58ᵇ</cite> <he>ע׳ דעקרבא</he> (Ar. <cite ref=\"P01164\"><he>עקוסא</he></cite>) the prick (tail) of the Scorpio. ",
+				"<cite ref=\"Eruvin 100b:12\">Erub. 100ᵇ</cite> <he>דאית להו ע׳</he> Ms. M. (ed. <he>דאית ליה עוּקְצֵי</he>; Ar. a. Ms. O. <cite ref=\"P00339\"><he>עוקסא</he></cite>) when they (the shoes) have spurs (pegs in the sole); a. e.—Pl. <he>עוּקְצֵי</he>, v. supra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>corner, recess</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Shabbat 106b:12\">Sabb. 106ᵇ</cite> <he>כל היכא דליכא ע׳ ע׳ וכ׳</he> (Ms. O. <he>אוקסי</he>) a vivarium which is not divided off in recesses is called a small vivarium; <cite ref=\"Beitzah 24a:11\">Bets. 24ᵃ</cite> (Ar. <he>אוקסי עוקסי</he>; v. Rabb. D. S. a. l. note 20)."
+			],
+			"label": "2"
+		}
+	]
+}

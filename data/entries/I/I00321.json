@@ -1,0 +1,27 @@
+{
+	"id": "I00321",
+	"slug": "טיול",
+	"headword": {
+		"text": "טִיּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִיּוּלָא"
+		}
+	],
+	"page": {
+		"number": 530,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00162\"><he>טול</he></cite>) <i>walking, going errands</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 29:15\">Targ. Job XXIX, 15</cite> <he>ט׳ רגליא</he> Ms. (ed. only <he>ט׳</he>; ed. Lag. <cite ref=\"I00321\"><he>טִיּיוּל</he></cite>), v. <cite ref=\"I00342\"><he>טַיָּיל</he></cite>."
+			]
+		}
+	]
+}

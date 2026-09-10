@@ -1,0 +1,54 @@
+{
+	"id": "N01233",
+	"slug": "נקף-1",
+	"headword": {
+		"text": "נָקַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 934,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נגף</he>)<i>to bring in close contact; to knock, strike against, wound</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 7b:15\">Ḥull. 7ᵇ</cite> <he>אין אדם נוֹקֵף וכ׳</he> no one on earth bruises his finger, unless it is decreed &c. ",
+				"<cite ref=\"Berakhot 7b\">Ber. 7ᵇ</cite>; <cite ref=\"Megillah 6b:6\">Meg. 6ᵇ</cite> <he>מי שלבו נוֹקְפוֹ</he> he whom his heart smites (who has no clear conscience). ",
+				"<cite ref=\"Niddah 3b\">Nidd. 3ᵇ</cite>, a. e. <he>לבו נוקפו ופורש</he> he may have scruples and separate himself entirely from his wife. ",
+				"<cite ref=\"Midrash Tehillim 9:4\">Midr. Till. to Ps. IX</cite>, v. <cite ref=\"N01237\"><he>נֶקֶף</he></cite>.—",
+				"<cite ref=\"Mishnah Maaser Sheni 5:15\">Maas. Sh. V, 15</cite>; <cite ref=\"Mishnah Sotah 9:10\">Sot. IX, 10</cite> <he>הנוֹקְפִים</he> those who knocked the sacrifices on their heads; expl. ",
+				"<cite ref=\"Sotah 48a\">ib. 48ᵃ</cite>; Y. ib. IX, 24ᵃ bot.—Part. pass. <cite ref=\"N01183\"><he>נָקוּף</he></cite>; f. <he>נְקוּפָה</he>; pl. <he>נְקוּפִים</he>, <he>נְקוּפִין</he>; <he>נְקוּפוֹת</he>. ",
+				"<cite ref=\"Tosefta Chullin 3:24\">Tosef. Ḥull. III, 24</cite> <he>ביצים נ׳ לקערה</he> eggs cracked open into a dish (<cite ref=\"Chullin 64a:4\">Ḥull. 64ᵃ</cite> <he>טרופות</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִנְקִיף", "הִקִּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to cause a knocking together</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 22b:3\">Sot. 22ᵇ</cite> (expl. <cite ref=\"N01239\"><he>נקפי</he></cite>) <he>המַנְקִיף את רגליו</he> he who knocks his feet against each other (by his mincing walk; Rashi: who causes his feet to strike against objects on the road); cmp. <cite ref=\"N01251\"><he>נָקַשׁ</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to bring closely together</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 7:6\">Bekh. VII, 6</cite> <he>שמַקִּיף</he>, v. <cite ref=\"N01251\"><he>נָקַשׁ</he></cite>. ",
+						"<cite ref=\"Mishnah Niddah 10:7\">Nidd. X, 7</cite> <he>ומַקֶּפֶת</he> and brings the vessel which contains the Ḥallah near the dough; <cite ref=\"Mishnah Tevul Yom 4:3\">T’bul Yom IV, 3</cite>, sq. ",
+						"<cite ref=\"Mishnah Beitzah 4:5\">Bets. IV, 5</cite> <he>ואין מַקִּיפִין שתי וכ׳</he> and you must not move two wine vessels together to put upon them &c.—Esp. (ritual law, in examining an organic defect found in a slaughtered animal) <i>to create a defect similar and near to the one found</i>, in order to ascertain whether the latter was not the result of an accident after slaughtering; in gen. <i>to compare</i>. ",
+						"<cite ref=\"Chullin 50a:13\">Ḥull. 50ᵃ</cite> <he>מַקִּיפִים בבני מעים</he> we may compare defects in entrails in which was found a perforation the origin of which is doubtful by making a hole next to it. ",
+						"<cite ref=\"Chullin 50a:16\">Ib.</cite> <he>מקיפין בקנה</he> we may compare defects in windpipes; a. fr.—",
+						"<cite ref=\"Kiddushin 40a:20\">Kidd. 40ᵃ</cite> <he>אין מקיפין בחילול השם</he> no comparing (balancing of sins against good deeds) is granted when the Name of God is profaned; (oth. interpret., v. <cite ref=\"N01235\"><he>נָקַף</he> II</cite>).—<i>Part. pass.</i> <cite ref=\"M00595\"><he>מוּקָּף</he></cite> <i>brought near</i>. ",
+						"<cite ref=\"Eruvin 30b\">Erub. 30ᵇ</cite>; <cite ref=\"Chullin 7a\">Ḥull. 7ᵃ</cite>; a. fr. <he>לתרום שלא מן המ׳</he> to take T’rumah out of a mass which is not in close neighborhood of those products which are to be redeemed; <cite ref=\"Mishnah Bikkurim 2:5\">Bicc. II, 5</cite>; <cite ref=\"Mishnah Terumot 4:3\">Ter. IV, 3</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

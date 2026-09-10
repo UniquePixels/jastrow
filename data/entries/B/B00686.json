@@ -1,0 +1,27 @@
+{
+	"id": "B00686",
+	"slug": "ביצית",
+	"headword": {
+		"text": "בִּיצִּית"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּצִית"
+		}
+	],
+	"page": {
+		"number": 164,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B01078\"><he>בִּצָּה</he></cite>) <i>dyke-boat, lighting boat</i>, Babylonian name for Palestinean <cite ref=\"D00189\"><he>דּוּגִית</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73a:7\">B. Bath. 73ᵃ</cite>; <cite ref=\"Tosefta Bava Batra 4:1\">Tosef. ib. IV, 1</cite> <cite ref=\"B01083\"><he>בּוּ׳</he></cite>; Y. ib. V, beg. 15ᵃ <cite ref=\"B01083\"><he>בו׳</he></cite> (v. Rabb. D. S. to B. Bath. l. c., note 5)."
+			]
+		}
+	]
+}

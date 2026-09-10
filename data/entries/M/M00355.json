@@ -1,0 +1,28 @@
+{
+	"id": "M00355",
+	"slug": "מהומה",
+	"headword": {
+		"text": "מְהוּמָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְהוּמָּה"
+		}
+	],
+	"page": {
+		"number": 737,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>הוּם</he> or <cite ref=\"E00622\"><he>הָמַם</he></cite>)<i>commotion, trouble</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:8\">Ab. V, 8</cite> <he>רעב של מ׳</he> a famine in consequence of (war) trouble. ",
+				"<cite ref=\"Kohelet Rabbah 12:12:1\">Koh. R. to XII, 12</cite> <he>מֵהֵמָּה מ׳ שכל … מ׳ הוא וכ׳</he> for <i>mehemmah</i> (<cite ref=\"Kohelet Rabbah 12:12:1\">ib.</cite>) read <i>m’hummah</i>, for whosoever brings more than the twenty four Biblical books to his house, brings trouble &c.; a. e. [<cite ref=\"Niddah 4a:36\">Nidd. 4ᵃ</cite> <he>המהומה׳</he>, v. <cite ref=\"M00346\"><he>מָהָה</he></cite>.]"
+			]
+		}
+	]
+}

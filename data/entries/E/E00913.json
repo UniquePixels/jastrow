@@ -1,0 +1,23 @@
+{
+	"id": "E00913",
+	"slug": "השג",
+	"headword": {
+		"text": "הֶשֵּׂג"
+	},
+	"page": {
+		"number": 369,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נָשַׂג</he>) <i>reaching</i>, <he>ה׳ יד</he> <i>regard to one’s wealth, the law regulating the payment of certain vows according to one’s means</i> (<cite ref=\"Leviticus 27:8\">Lev. XXVII, 8</cite>). ",
+			"units": [
+				"<cite ref=\"Arakhin 5a:33\">Arakh. 5ᵃ</cite> <he>נידין בה׳ יד</he> does he come under the law of &c.?—",
+				"<cite ref=\"Mishnah Arakhin 4:1\">Ib. IV, 1</cite> <he>ה׳ יד בנודר</he> the law of <i>hesseg yad</i> is regulated by the means of him who makes the vow; a. e."
+			]
+		}
+	]
+}

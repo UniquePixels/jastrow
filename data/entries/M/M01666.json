@@ -1,0 +1,27 @@
+{
+	"id": "M01666",
+	"slug": "ממיקנותא",
+	"headword": {
+		"text": "מְמִיקְנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְמִקְ׳"
+		}
+	],
+	"page": {
+		"number": 795,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01665\">preced.</cite>) <i>scorn</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:22\">Targ. Prov. I, 22</cite>; a. e.)."
+			]
+		}
+	]
+}

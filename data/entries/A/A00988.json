@@ -1,0 +1,26 @@
+{
+	"id": "A00988",
+	"slug": "אח-1",
+	"headword": {
+		"text": "אָח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 38,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>אחה</he>; cmp. <cite ref=\"A00017\"><he>אָב</he></cite>)<i>brother, kinsman; fellow, equal, fellow-believer</i> &c. ",
+			"units": [
+				"<cite ref=\"Megillah 11a:15\">Meg. 11ᵃ</cite> (play on <i>ăhashverosh</i>, Ahasverus) <he>אָׄחִׄיו ש̇ל ר̇אש̇ וכ׳</he> a brother (in cruelty) to the chief tyrant (Nebucadn.); a. fr.—Pl. <cite ref=\"A01035\"><he>אַחִים</he></cite>, <he>אַחִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 89:8\">Gen. R. s. 89</cite>, beg. (play on <i>āḥu</i>, <cite ref=\"Genesis 41:2\">Gen. XLI, 2</cite>) in years of plenty <he>הבריות נעשו א׳ וכ׳</he> people are brotherly to each other. ",
+				"<cite ref=\"Bereishit Rabbah 99:8\">Gen. R. s. 99</cite> <he>אחים דפחתא וכ׳</he> brothers to the degraded woman (Dinah), … but not to Joseph; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 8:1:1\">Cant. R. to VIII, 1</cite> <he>שני אחים</he> <i>brother and sister</i>"
+			]
+		}
+	]
+}

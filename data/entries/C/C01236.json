@@ -1,0 +1,22 @@
+{
+	"id": "C01236",
+	"slug": "גרבא",
+	"headword": {
+		"text": "גָּרְבָא"
+	},
+	"page": {
+		"number": 264,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01232\"><he>גרב</he></cite>) <i>plundering troop</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 60b\">Ber. 60ᵇ</cite> bot. <he>אתא ג׳ וגרביה למתא</he> Ar. (ed. <he>גייסא שבייה</he>) a troop came by night and carried the inhabitants off."
+			]
+		}
+	]
+}

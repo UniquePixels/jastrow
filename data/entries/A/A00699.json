@@ -1,0 +1,25 @@
+{
+	"id": "A00699",
+	"slug": "אומן-1",
+	"headword": {
+		"text": "אוֹמָן"
+	},
+	"page": {
+		"number": 27,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02038\"><he>אמן</he></cite>, <he>ימן</he>) prop. <i>straight line, leader</i>, hence (agric.) <i>the border-bed, outmost furrow</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 4:5\">Peah IV, 5</cite>. ",
+				"<cite ref=\"Mishnah Bava Metzia 7:4\">B. Mets. VII, 4</cite>. ",
+				"<cite ref=\"Mishnah Nedarim 4:4\">Ned. IV, 4</cite> (<cite ref=\"Nedarim 41b:8\">41ᵇ</cite>) <he>לא יעשה עמו בא׳</he> he must not work with him together in the border bed.—Pl. <he>אוֹמָנִיּוֹת</he>, [fr. <cite ref=\"A00710\"><he>אוֹמָנִית</he></cite>, sub. <cite ref=\"P01317\"><he>ערוגה</he></cite>, f.]. ",
+				"<cite ref=\"Bava Metzia 89b:1\">B. Mets. 89ᵇ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "B00052",
+	"slug": "בבא-2",
+	"headword": {
+		"text": "בָּבָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 136,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Baba</i> (ben Buta), a disciple of Shammai, blinded by Herod. ",
+			"units": [
+				"<cite ref=\"Bava Batra 3b\">B. Bath. 3ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Keritot 6:3\">Kerith. VI, 3</cite>. (Cmp. Jos. Ant. XV, 7, 10.)"
+			],
+			"label": "1"
+		}
+	]
+}

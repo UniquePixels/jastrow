@@ -1,0 +1,56 @@
+{
+	"id": "N00117",
+	"slug": "נגד-1",
+	"headword": {
+		"text": "נָגַד"
+	},
+	"page": {
+		"number": 871,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to draw</i> a line; denom. <cite ref=\"N00119\"><he>נֶגֶד</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגִּיד"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"N00119\"><he>נֶגֶד</he></cite>) <i>to show; to announce, tell; to testify</i>. Tanḥ. Tsav 13 <he>ומשם … והִגִּידָה לאהרן</he> from there Miriam learned it and told Aaron. Ib. <he>מַגִּיד שהכל מודים וכ׳</he> this shows (intimates) that all agreed as to her beauty. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 4:5\">Snh. IV, 5</cite> <he>להַגִּיד גדולתו וכ׳</he> to show the greatness &c. ",
+						"<cite ref=\"Sanhedrin 44b\">Ib. 44ᵇ</cite>, a. e. (ref. to <cite ref=\"Leviticus 5:1\">Lev. V, 1</cite>) <he>כיון שה׳ שוב אינו חוזר ומַגִּיד</he> after he has once testified, he cannot again testify, i.e. is not permitted to retract; a. v. fr.—[<cite ref=\"Pesachim 87a\">Pes. 87ᵃ</cite>, v. <cite ref=\"A00239\"><he>אָגַד</he></cite>.]—V. <cite ref=\"M00151\"><he>מַגִּיד</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּגַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be told, proclaimed</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 989:46\">Yalk. Koh. 989</cite> <he>שה׳ לה בסיני</he> the word which has been proclaimed at Sinai; a. e."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִגֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to oppose</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 63a\">Yeb. 63ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 23:1\">Yalk. Gen. 23</cite> (ref. to <he>כנגדו</he>, <cite ref=\"Genesis 2:18\">Gen. II, 18</cite>) <he>זכה כנגדו לא זכה מְנַגַּדְתּוֹ</he> if he is favored, she will be corresponding to (in harmony with) him, if not, she will oppose him (Rashi: ‘she will be a lash to him’, v. <cite ref=\"N00122\"><he>נִגְדָּא</he> II</cite>); Pirké’ d’R. El. ch. XII <he>א״ת כנגדו אלא לנגדו אם זכה תהיה לו עזר ואם לאו לנַגְּדוֹ להלחם</he> read not <i>k’negdo</i>, but <i>l’nagg’do</i>; if he is favored, she will be a help to him, if not, ‘to oppose him’, to fight."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

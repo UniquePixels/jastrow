@@ -1,0 +1,60 @@
+{
+	"id": "O01079",
+	"slug": "סמי-2",
+	"headword": {
+		"text": "סְמֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְמָא"
+		}
+	],
+	"page": {
+		"number": 999,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O01078\">same</cite> —V. <cite ref=\"O01080\"><he>סָמֵי</he></cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַמֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to close the eyes of; to blind</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 23:8\">Targ. Y. Ex. XXIII, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 21:26\">Ib. XXI, 26</cite>; a. e.—Y. Ber. II, 4ᵇ <he>עבור קומוי וסַמֵּי עיניה</he> (euphem. for <he>עיניך</he>) pass it (the idol) and blind thy eye (ignore it); Y. Shek. II, 47ᵃ top; Y. M. Kat. III, 83ᶜ bot. <he>ואַסְמֵי</he> (<i>Af.</i>). ",
+						"<cite ref=\"Rosh Hashanah 24b:9\">R. Hash. 24ᵇ</cite> <he>סמי עיניה דדין</he> put its eye out (destroy the form of the figure); a. e.—Trnsf. (cmp. <cite ref=\"C01120\"><he>גָּנַז</he></cite>) <i>to declare apocryphal, repudiate, cancel</i>. ",
+						"<cite ref=\"Bava Batra 77b:6\">B. Bath. 77ᵇ</cite> <he>אֵיסַמְּיָהּ</he> shall I cancel it (the Boraitha)?; <cite ref=\"Bava Batra 78b\">ib. 78ᵇ</cite> (not <he>איסמיא</he>); <cite ref=\"Yevamot 40a:26\">Yeb. 40ᵃ</cite> <he>אֲסַמְּיָיהּ</he>; <cite ref=\"Bava Kamma 91b\">B. Kam. 91ᵇ</cite>; a. e.—",
+						"<cite ref=\"Shabbat 52a:6\">Sabb. 52ᵃ</cite> <he>מאי חזית דמְסַמֵּית הא מקמי הא סמי הא קמי הא</he> what reason dost thou see to repudiate this opinion rather than the other? repudiate rather the other."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to bind, to act as an astringent</i>. Y. Shek. V, 48ᵈ (Bab. ed. to V, 1) <he>הידין … סמי למעיין</he> Ms. M. (v. Rabb. D. S. a. l. p. 43; ed. <cite ref=\"O01122\"><he>סמס</he></cite>, <he>ממסמס</he>) which wine is good for the bowels and which binds the bowels.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתְּמֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to become closed, get blind</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 12:2\">Targ. Koh. XII, 2</cite>.—Y. Peah VIII, end, 21ᵇ <he>עייניה … יִסְתַּמְּיָין</he> may the eyes of him who saw thee and gave thee nothing, become blind; Y. Shek. V, end, 49ᵇ. ",
+						"<cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> <he>ואִיסְתַּמְיַת</he> and she became blind. ",
+						"<cite ref=\"Vayikra Rabbah 22:4\">Ib.</cite> <he>דין דהוה פתיח א׳</he> he who was open-eyed got blind; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

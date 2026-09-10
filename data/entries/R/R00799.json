@@ -1,0 +1,23 @@
+{
+	"id": "R00799",
+	"slug": "צרף-3",
+	"headword": {
+		"text": "צְרַף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1304,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00798\">preced.</cite>) <i>junction</i>; (adv.) <i>in immediate succession</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:1:12\">Y. Pes. III, 30ᵃ</cite> top <he>טחן ליה צ׳</he> ground his flour for the Passover without interruption (without waiting for the millstones to cool off)."
+			]
+		}
+	]
+}

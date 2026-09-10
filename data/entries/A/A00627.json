@@ -1,0 +1,38 @@
+{
+	"id": "A00627",
+	"slug": "אוי-2",
+	"headword": {
+		"text": "אוי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אָוָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 24,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., √<he>אה</he>, cmp. <he>הא</he>; v. <cite ref=\"H00308\"><he>חָוָה</he></cite> , a. Ges. H. Dict. s. v. <cite ref=\"A00627\"><he>אָוָה</he> III</cite>) <i>to point, mark</i>. Denom. <cite ref=\"A00940\"><he>אוֹת</he> II</cite>, <he>תְּאָו</he>, <cite ref=\"V00015\"><he>תַּאֲוָה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְאַוֶּה"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"V00015\"><he>תַּאֲוָה</he></cite>, <he>תְּאָו</he>) <i>to mark, to mark out</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 12:7\">Koh. R. to XII, 7</cite> <he>התחיל מִתְאַוֶּה תאוים</he> he began to put up marks."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

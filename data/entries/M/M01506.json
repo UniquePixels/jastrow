@@ -1,0 +1,23 @@
+{
+	"id": "M01506",
+	"slug": "מלוח-2",
+	"headword": {
+		"text": "מַלּוּחַ"
+	},
+	"page": {
+		"number": 788,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M01523\"><he>מֶלַח</he></cite>)<i>a salt-plant, sea-purslane</i> (Halineus).—Pl. <he>מַלּוּחִים</he>, <he>מַלּוּחִין</he>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 66a:8\">Kidd. 66ᵃ</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>כל מי … אוכל מ׳ וכ׳</he> whoever believes in him (the Messiah), is contented to live on salt-plants &c."
+			]
+		}
+	]
+}

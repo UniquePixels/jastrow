@@ -1,0 +1,32 @@
+{
+	"id": "K00065",
+	"slug": "כבן-2",
+	"headword": {
+		"text": "כְּבַן"
+	},
+	"page": {
+		"number": 609,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00064\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K00028\"><he>כַּבֵּין</he></cite> <i>to fasten; to put on a</i> <cite ref=\"K00052\"><he>כְּבֵינְתָּא</he></cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 23:9\">Targ. Job XXIII, 9</cite> (h. text <he>יעטף</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 31:36\">Ib. XXXI, 36</cite> <he>אֲכַבְּנִינֵיה</he> Ms. Var. (ed. Lag. <he>אֲכַרְכִּינֵיה</he>, v. <cite ref=\"K01186\"><he>כְּרַךְ</he></cite>; oth. ed. <he>אֲכַרְבִּינֵיה</he>, v. <cite ref=\"K01076\"><he>כְּרב</he> I</cite>; ed. Wil. <he>אַרְכְּבִנֵיה</he>, v. <cite ref=\"T00746\"><he>רְכַב</he></cite>; h. text <cite ref=\"P00951\"><he>ענד</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

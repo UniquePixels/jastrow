@@ -1,0 +1,122 @@
+{
+	"id": "H00554",
+	"slug": "חזק-2",
+	"headword": {
+		"text": "חֲזַק"
+	},
+	"page": {
+		"number": 444,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H00553\">same</cite>.—<i>Part.</i> <i>pass.</i> <cite ref=\"H00554\"><he>חֲזִיק</he></cite> <i>tied up, bandaged</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:3:6\">Y. Ber. II, 4ᶜ</cite> top <he>דהוה ח׳ רישיה</he> when his head was tied up (with a turban); <cite ref=\"Pesikta Rabbati 22:1\">Pesik. R. s. 22</cite> (not <he>רישין</he>, v. notes in ed. Fr.). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:1:11\">Y. Pes. X, 37ᶜ</cite> <he>וח׳ רישיה וכ׳</he> and his head was tied up (or he felt like having a bandage around his head) &c.; <cite ref=\"Jerusalem Talmud Shekalim 3:2:5\">Y. Shek. III, 47ᶜ</cite> top <he>והוה חזוק</he> (read <cite ref=\"H00554\"><he>חזיק</he></cite>); <he>וחזק</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to take possession</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 52b:10\">B. Bath. 52ᵇ</cite>, sq. <he>חֲזַק וקני</he> take possession and acquire; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַזֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to fasten</i>.—",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 21:2\">Lev. R. s. 21</cite> [read] <he>חַזֵּק כפתוי</he> tighten his muzzle, v. <cite ref=\"K00615\"><he>כֵּיפְתָא</he></cite>.—<i>Part. pass.</i> <he>מְחַזַּק</he>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 50:1\">Targ. Y. Gen. L, 1</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחֲזֵיק"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"H00553\">preced.</cite> <i>Hif.;</i>",
+					"units": []
+				},
+				{
+					"gloss": " (with <cite ref=\"I00299\"><he>טיבו</he></cite> &c.) <i>to give credit to</i>. Y. Ber. II, 5ᵃ bot. <he>אנא מַחֲזִיק טיבו לראשי וכ׳</he> I give credit to my head, which bends of itself &c. Bab. ",
+					"units": [
+						"<cite ref=\"Berakhot 19a:1\">Ber. 19ᵃ</cite> <he>לאַחֲזוּקֵי ליה וכ׳</he> that due credit for the preservation of Israel be given to Moses."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to presume</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 46b:2\">Shebu. 46ᵇ</cite> <he>לאַחֲזוּקֵי אינש בגנבי לא מַחְזְקִינָן</he> we must not put a person in the category of thieves (on the charge of one individual); a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to adhere to, adopt</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 4a:10\">Ḥull. 4ᵃ</cite> <he>כיון דאַחֲזִיקוּ בהו א׳ בהו</he> since they (the Samaritans) have adopted it, they observe it (also for Israelites). ",
+						"<cite ref=\"Chullin 4a:11\">Ib.</cite> <he>אַחֲזוּק ולא א׳ וכ׳</he> as to their observance or non-observance of adopted unwritten customs for Israelites there are differences of opinion; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to take possession, to claim possession</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 29b:4\">B. Bath. 29ᵇ</cite> <he>כי היכי דלא תַחְזְקוּ אהדדי</he> ed. (differ. in Ms. M., v. Rabb. D. S. a. l.) that you might not claim possession against one another. ",
+						"<cite ref=\"Bava Batra 36a:3\">Ib. 36ᵃ</cite> <he>האי מאן דא׳ וכ׳</he> if one claims a field on the ground of possession, if it lies outside &c., v. <cite ref=\"C00303\"><he>גּוּדָּא</he> I</cite>. ",
+						"<cite ref=\"Bava Batra 36a:8\">Ib.</cite> <he>לא מַחְזְקֵי בן ולא מַחְזְקִינָן בהו</he> they have no claim of possession against us (for one might have been afraid to disturb them), and they have no claim against us (for, being wealthy, they might not have cared to drive one out); a. fr."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to be strong, encouraged</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 62a:11\">Gitt. 62ᵃ</cite> <he>אַחֲזוּקוּ</he> ‘be strong’ (a greeting to field laborers, v. <cite ref=\"H00553\">preced.</cite>)."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְחַזֵּק"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְחֲזֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to adhere to</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 4:13\">Targ. Prov. IV, 13</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be known, be under the presumption</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 19:33\">Targ. Y. Lev. XIX, 33</cite> (v. <cite ref=\"H00553\">preced.</cite>).—",
+						"<cite ref=\"Chullin 10b:11\">Ḥull. 10ᵇ</cite> <he>היכא דלא א׳</he> where no presumption (of leprosy) has as yet been formed. ",
+						"<cite ref=\"Sanhedrin 89b:10\">Snh. 89ᵇ</cite> <he>דמִיתְחֲזַק וכ׳</he> Ms. M. (ed. <he>מוחזק</he>) where one is approved (as a righteous prophet), it is different."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

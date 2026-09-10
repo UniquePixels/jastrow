@@ -1,0 +1,24 @@
+{
+	"id": "H01711",
+	"slug": "חרך-5",
+	"headword": {
+		"text": "חֲרָךְ",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 503,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01707\"><he>חָרַךְ</he></cite>) <i>parched grain;</i> <he>תגרי ח׳</he> vendors of parched grain who sold also spices &c.; <i>grocers</i> (κάπηλοι). ",
+			"units": [
+				"<cite ref=\"Pesachim 116a:4\">Pes. 116ᵃ</cite>; [oth. opin. vendors sitting behind <i>lattices</i>, v. preced.—Var. <cite ref=\"E00128\"><he>הָדֵךְ</he></cite>, v. <cite ref=\"D00242\"><he>דּוּךְ</he></cite>, <i>pounded spices</i>]."
+			]
+		}
+	]
+}

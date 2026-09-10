@@ -1,0 +1,25 @@
+{
+	"id": "G00016",
+	"slug": "זבוב",
+	"headword": {
+		"text": "זְבוּב"
+	},
+	"page": {
+		"number": 378,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>זבב</he>)<i>fly</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 121b:4\">Sabb. 121ᵇ</cite> <he>ז׳ שבארץ מצרים</he> the Egyptian fly (whose sting is dangerous). ",
+				"<cite ref=\"Tosefta Sotah 5:9\">Tosef. Sot. V, 9</cite>; <cite ref=\"Gittin 90a\">Gitt. 90ᵃ</cite>. Pesik. Zakhor, p. 26ᵇ <he>לז׳ שהוא וכ׳</he> (Amalek resembles) the fly which is greedy for a sore; a. fr.—Pl. <he>זְבוּבִים</he>, <he>זְבוּבִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:1:3\">Y. Sabb. XIV, beg. 14ᵇ</cite>; <cite ref=\"Tosefta Shabbat 12:4\">Tosef. ib. XII</cite> (<cite ref=\"Tosefta Shabbat 13:4\">XIII</cite>), 4. ",
+				"<cite ref=\"Ketubot 77b:6\">Keth. 77ᵇ</cite> <he>ז׳ של בעלי וכ׳</he> (not <he>זבובי</he>) flies which sucked from those afflicted with gonorrhœa (carrying contagion); a. fr."
+			]
+		}
+	]
+}

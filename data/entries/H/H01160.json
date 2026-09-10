@@ -1,0 +1,27 @@
+{
+	"id": "H01160",
+	"slug": "חמום-2",
+	"headword": {
+		"text": "חַמּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַמּוּמָה"
+		}
+	],
+	"page": {
+		"number": 476,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חמם</he>) <i>heated, rash</i>.—Pl. <he>חַמּוּמוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:3:5\">Y. Snh. VI, 23ᵇ</cite> bot. <he>היו ידיו ח׳</he> his hands were heated, i.e. he was very severe in executing judgment."
+			]
+		}
+	]
+}

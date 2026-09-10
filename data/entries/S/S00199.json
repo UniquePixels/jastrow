@@ -1,0 +1,36 @@
+{
+	"id": "S00199",
+	"slug": "קדשא",
+	"headword": {
+		"text": "קָדָשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְדָ׳"
+		}
+	],
+	"page": {
+		"number": 1321,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קדש</he>) [<i>cut out</i>,] <i>ear-ring, nose-ring</i> (b. h. . ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 42:11\">Targ. Job XLII, 11</cite>. ",
+				"<cite ref=\"Onkelos Genesis 24:22\">Targ. Gen. XXIV, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 8:24\">Targ. Jud. VIII, 24</cite>; a. fr.—Pl. <cite ref=\"S00200\"><he>קְדָשִׁין</he></cite>, <he>קְדָשַׁיָּא</he>, <he>קְדָשֵׁי</he>, <cite ref=\"S02203\"><he>קָ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 8:24\">Ib.</cite> (ed. Wil. <he>קָדְשֵׁי</he>). ",
+				"<cite ref=\"Onkelos Genesis 35:4\">Targ. O. Gen. XXXV, 4</cite> (ed. Amst. O. a. Y. <he>קַדָּ׳</he>). ",
+				"<cite ref=\"Onkelos Numbers 31:50\">Targ. O. Num. XXXI, 50</cite> ed. Berl. (ed. Vien. <he>קַדָּ׳</he>; Y. I <cite ref=\"S00146\"><he>קַדִּישַׁיָּא</he></cite>, Y. II <he>קַדְשַׁיָּא</he>; h. text <he>עגיל</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:22\">Targ. Prov. XI, 22</cite> <he>קָדָשַׁיָּה</he> ed. Lag. (oth. ed. <he>קדשי</he>, <he>קדשא</he>); a. fr.—Y. Sabb. VI, 8ᵇ bot. (transl. <he>עגיל</he>, v. supra) <he>קדשייא</he>. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>קדשיא</he> (transl. <he>לחשים</he>, <cite ref=\"Isaiah 3:20\">Is. III, 20</cite>), v. <cite ref=\"L00353\"><he>לְחִישָׁה</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 33:6\">Lev. R. s. 33</cite> <cite ref=\"S00200\"><he>קדשין</he></cite> (transl. <he>צמידים</he>, <cite ref=\"Ezekiel 23:42\">Ez. XXIII, 42</cite>); Yalk. Dan. 1061. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 687:2\">Yalk. Ps. 687</cite> <he>אנא נסיב שיריא וקדשיא</he> I shall take (Esther’s) chains and rings; <cite ref=\"Midrash Tehillim 22:5\">Midr. Till. to Ps. XXII</cite> ed. Bub. <he>שירייה וקדשייה</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "U02116",
+	"slug": "שתיתאה-2",
+	"headword": {
+		"text": "שְׁתִיתָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁתִיתַאי"
+		},
+		{
+			"text": "שְׁתִיתַי"
+		}
+	],
+	"page": {
+		"number": 1638,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U02071\"><he>שִׁתָּא</he></cite>) <i>sixth</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:31\">Targ. O. Gen. I, 31</cite> <he>תָי …</he> ed. Berl. (oth. ed. a. Y. <he>תָאי …</he>, not <he>תָאִי …</he>, <he>תָאֵי …</he>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 3:5\">Targ. II Sam. III, 5</cite>; a. fr.—<i>Fem.</i> <he>שְׁתִיתֵיתָא</he>. ",
+				"<cite ref=\"Onkelos Exodus 26:9\">Targ. Ex. XXVI, 9</cite>; a. e."
+			]
+		}
+	]
+}

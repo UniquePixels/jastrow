@@ -1,0 +1,37 @@
+{
+	"id": "E00016",
+	"slug": "האל",
+	"headword": {
+		"text": "הָאֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "הָאל"
+		}
+	],
+	"page": {
+		"number": 328,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"E00532\"><he>הָלָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>farther off, far</i> (of space). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 32:25\">Targ. Y. Gen. XXXII, 25</cite> <he>מן ה׳</he> on the other side of. ",
+				"<cite ref=\"Targum Jonathan on Numbers 17:2\">Targ. Y. Num. XVII, 2</cite> <he>לה׳</he> far away."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " לה׳ <i>onward</i> (of time). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 16:21\">Targ. Y. Ex. XVI, 21</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q01671",
+	"slug": "פרוטטות",
+	"headword": {
+		"text": "פְּרוֹטְטוֹת"
+	},
+	"page": {
+		"number": 1219,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"Q01667\"><he>פְּרוּטָה</he></cite>) [<i>drops</i>,] <i>uncoined pieces of metal used for change</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 46a:7\">B. Mets. 46ᵃ</cite> (Ar. <he>פרוטות</he>)."
+			]
+		}
+	]
+}

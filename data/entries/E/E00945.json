@@ -1,0 +1,23 @@
+{
+	"id": "E00945",
+	"slug": "התובתא",
+	"headword": {
+		"text": "הֲתוֹבְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 371,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>תּוּב</he> <i>Af.</i>) <i>argument, objection</i>.—Pl. <he>הֲתוֹבָתָה</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 4:2:8\">Y. Peah IV, 18ᵇ</cite> top <he>כל אילין ה׳ וכ׳</he> all objections which R. Z. brought forth. V. <cite ref=\"V00429\"><he>תְּיוּבְתָּא</he></cite>."
+			]
+		}
+	]
+}

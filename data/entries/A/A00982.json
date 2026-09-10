@@ -1,0 +1,47 @@
+{
+	"id": "A00982",
+	"slug": "אזן-2",
+	"headword": {
+		"text": "אֹזֶן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹזֶן"
+		}
+	],
+	"page": {
+		"number": 38,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;√<he>אז</he><i>to be pointed, cut</i>, cmp. <cite ref=\"H00502\"><he>חז</he></cite>, <he>גז</he>. v. <cite ref=\"A00568\"><he>אוּדְנָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ear</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 79b:8\">B. Kam. 79ᵇ</cite> <he>א׳ של מַטָּה</he> human ear, opp. Divine perception. Y. Sabb. I, 3ᵇ top; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>handle</i>. Cant. R. beg. <he>ולא הי׳ לה א׳ וכ׳</he> but had no handle and could not be carried; a. fr.—<i>Du.</i> <he>אָזְנַיִם</he> 1) <i>ears</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite>, beg. <he>א׳ לדרך</he> the road has ears (be on your guard in speaking); a. fr.—2) <i>handles</i>. ",
+				"<cite ref=\"Mishnah Kelim 4:3\">Kel. IV, 3</cite>, v. <cite ref=\"C00779\"><he>גיסטרא</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>אָזְנַיִם</he> or <he>בנות א׳</he> <i>swollen glands of the throat</i> (Rashi). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28b\">Ab. Zar. 28ᵇ</cite> <he>א׳</he>; Y. ib. II, 40ᵈ top; <cite ref=\"Jerusalem Talmud Shabbat 14:4:5\">Y. Sabb. XIV, 14ᵈ</cite> top <he>בנות א׳</he>."
+			],
+			"label": "3"
+		}
+	]
+}

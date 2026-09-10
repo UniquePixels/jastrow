@@ -1,0 +1,26 @@
+{
+	"id": "U01487",
+	"slug": "שמכא",
+	"headword": {
+		"text": "שַׁמְכָּא"
+	},
+	"page": {
+		"number": 1596,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"U00439\"><he>שׁוּם</he> III</cite>) <i>onion</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 60b\">Keth. 60ᵇ</cite> Ar. (ed. <cite ref=\"K00805\"><he>כמכא</he></cite>; Alf. <he>שמכי</he>).—Pl. <he>שַׁמְכֵּי</he>. ",
+				"<cite ref=\"Shabbat 110b:1\">Sabb. 110ᵇ</cite> top <he>ש׳ פרסאי</he> Persian (large) onions. ",
+				"<cite ref=\"Arakhin 19a:26\">Arakh. 19ᵃ</cite> <he>באתרא דתקלי ש׳ וכ׳</he> where they sell onions by the weight, he (that dedicates the weight of a certain person) can acquit himself of his vow even with onions. ",
+				"<cite ref=\"Kiddushin 52b\">Kidd. 52ᵇ</cite>, v. <cite ref=\"M00442\"><he>מוֹזָא</he></cite>. ",
+				"<cite ref=\"Sanhedrin 109b:2\">Snh. 109ᵇ</cite>"
+			]
+		}
+	]
+}

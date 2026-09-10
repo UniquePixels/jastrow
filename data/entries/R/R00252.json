@@ -1,0 +1,39 @@
+{
+	"id": "R00252",
+	"slug": "צורה",
+	"headword": {
+		"text": "צוּרָה"
+	},
+	"page": {
+		"number": 1271,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"R00242\"><he>צוּר</he></cite>)<i>form, shape, figure; painting</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:59\">Y. Sabb. VII, 10ᵈ</cite> <he>כלי צ׳</he> a vessel with raised figures, v. <cite ref=\"C00225\"><he>גָּדַל</he> II</cite>. Y. Shebi. VIII, 38ᵃ top [read:] <he>תבשיל שנתלקלה צוּרָתוֹ</he> a dish that has become defaced (looking repulsive). ",
+				"<cite ref=\"Tosefta Zevahim 7:6\">Tosef. Zeb. VII, 6</cite> <he>תעבר צוּרָתָהּ</he>; <cite ref=\"Mishnah Pesachim 7:9\">Pes. VII, 9</cite>, a. e. <he>תעובר צוּרָתוֹ</he> let its appearance be gone, i.e. wait until the flesh looks disfigured by beginning decay. ",
+				"<cite ref=\"Niddah 25b:52\">Nidd. 25ᵇ</cite> <he>צוּרַת פנים</he> the shape of a face. ",
+				"<cite ref=\"Bava Batra 54a:7\">B. Bath. 54ᵃ</cite> <he>הצר צ׳ וכ׳</he> if one draws a figure in the ground (or on the wall) of the estate of a deceased proselyte (as a symbol of possession). ",
+				"<cite ref=\"Bereishit Rabbah 73:5\">Gen. R. s. 73</cite> <he>עד שנשתנה צוּרָתָן</he> until their features had changed (beyond recognition). ",
+				"<cite ref=\"Bamidbar Rabbah 9:34\">Num. R. s. 9</cite>, beg. <he>צורת הולד</he> the features of the child (born in adultery); <he>צ׳ הנואף</he> the features of the adulterer. ",
+				"<cite ref=\"Mishnah Avodah Zarah 3:3\">Ab. Zar. III, 3</cite> <he>צורת חמה</he> a representation of the sun; <he>צ׳ דרקון</he> of a serpent (idolatrous emblems); a. fr.—Tosef. Meg. IV (III), 41, a. e. <he>המתרגם פסוק כצורתו</he> he who translates a Biblical verse as it is formed, i.e. word for word without regard to idiomatic differences.—",
+				"<cite ref=\"Taanit 16a:9\">Taan. 16ᵃ</cite> <he>אדם של צ׳</he> a stately person. ",
+				"<cite ref=\"Moed Katan 9a:23\">M. Kat. 9ᵃ</cite> <he>אנשים של צ׳</he> worthy men; Yalk. Joh. 31 <he>של צרות</he> (corr. acc.).—Pl. <he>צוּרוֹת</he>. Y. Ab. Zar. III, beg. 42ᵇ; <cite ref=\"Tosefta Shabbat 17:1\">Tosef. Sabb. XVII</cite> (<cite ref=\"Tosefta Shabbat 18:1\">XVIII</cite>), 1 <he>כתב המהלך תחת הצ׳ וכ׳</he> an inscription under paintings or busts; <cite ref=\"Shabbat 149a:13\">Sabb. 149ᵃ</cite> <he>הצורה</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 9:34\">Num. R. s. 9</cite> <he>צ׳ ביתך שחורות וכ׳</he> are the paintings in thy house portraits of black or of white persons? (<cite ref=\"Bereishit Rabbah 73:10\">Gen. R. s. 73</cite> <he>מראות</he>); a. e.—[<cite ref=\"Yalkut Shimoni on Torah 72:5\">Yalk. Gen. 72</cite> <he>צורות היאור</he>, v. <cite ref=\"R00613\"><he>צִנּוֹר</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>creature</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 24:1\">Gen. R. s. 24</cite>, beg. (ref. to <cite ref=\"Isaiah 29:16\">Is. XXIX, 16</cite>) <he>גדול … שמדמין צ׳ ליוצרה</he> great (bold) is the power of the prophets who represent the Creator under the form of the creature (by ref. to <cite ref=\"Daniel 8:16\">Dan. VIII, 16</cite>; <cite ref=\"Ezekiel 1:26\">Ez. I, 26</cite>); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

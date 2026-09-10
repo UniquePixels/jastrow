@@ -1,0 +1,109 @@
+{
+	"id": "U01266",
+	"slug": "שלח-2",
+	"headword": {
+		"text": "שְׁלַח"
+	},
+	"page": {
+		"number": 1580,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01265\">same</cite><i>to send, send off</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 13:2\">Targ. Num. XIII, 2</cite>. ",
+				"<cite ref=\"Onkelos Numbers 13:16\">Targ. O. ib. 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 44:3\">Targ. Ps. XLIV, 3</cite> Ms. (ed. <he>פסד׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 42:6\">Targ. Jer. XLII, 6</cite> <he>שָׁלְחִין</he> (not <he>שולחין</he>); a. fr.—Part. pass. <cite ref=\"U01309\"><he>שְׁלִיחַ</he></cite>; f. <cite ref=\"U01309\"><he>שְׁלִיחָא</he></cite>; pl. <he>שְׁלִיחִין</he>, <cite ref=\"U01309\"><he>שְׁלִיחָן</he></cite>. ",
+				"<cite ref=\"Obadiah 1:1\">Ob. I, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 44:26\">Targ. Is. XLIV, 26</cite> <he>שְׁלִיחוֹהִי</he> ed. Lag. (ed. Wil. <cite ref=\"U01268\"><he>שְׁלוּח׳</he></cite>). ",
+				"<cite ref=\"Targum of I Chronicles 14:15\">Targ. I Chr. XIV, 15</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 28a:11\">Ber. 28ᵃ</cite> <he>ש׳ להו וכ׳</he> R. J. sent them word to the school house; a. fr.—",
+				"<cite ref=\"Kohelet Rabbah 3:2:3\">Koh. R. to III, 2</cite> <he>שְׁלִיחְהוֹן דברייתא</he> the messenger of men (men’s guardian angel)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to throw off, undress, flay</i> (cmp. <cite ref=\"Q02063\"><he>פָּשַׁט</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 5:14\">Targ. Esth. V, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:11\">Targ. Is. XXXII, 11</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 29:34\">Targ. II Chr. XXIX, 34</cite>; a. fr.—Ber. l. c. <he>שְׁלַח מדך</he> take off thy cloak (v. <cite ref=\"M00231\"><he>מַדָּא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:11:4\">Y. Taan. III, end, 67ᵃ</cite> <he>הוה ש׳ מסאניה</he> he took off one shoe; <he>כד הוה ש׳ תריהון</he> when he had taken off both of them; a. fr.—Part. pass. as ab. ",
+				"<cite ref=\"Sotah 8b:5\">Sot. 8ᵇ</cite> (proverbial expression) <he>ש׳ ערטילאי וכ׳</he> undressed, naked, but with shoes on (a person cares more for shoes than for any other article of dress); <cite ref=\"Ketubot 65b:1\">Keth. 65ᵇ</cite> top <he>האי תנא ש׳ וכ׳</he> this Tannai (who gave the wife the right to ask for three pairs of shoes and one suit of clothes) seems to assume that a woman cares more for shoes &c. ",
+				"<cite ref=\"Kohelet Rabbah 5:10:1\">Koh. R. to V, 10</cite> <he>איך אינון אתיין שליחין וכ׳</he> (not <he>שלו׳</he>) how will they come (on resurrection day), naked, or dressed? <cite ref=\"Kohelet Rabbah 5:10:1\">Ib.</cite> <he>היך זרעתין ש׳ וכ׳</he> how didst thou plant them (the beans), undressed or dressed (in the pods)? a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁלֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to send; to send off, dismiss</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 16:21\">Targ. O. Lev. XVI, 21</cite>, sq. ",
+						"<cite ref=\"Onkelos Exodus 8:17\">Targ. O. Ex. VIII, 17</cite>; a. fr.—Part. pass. <he>מְשַׁלַּח</he>; f. <cite ref=\"M02807\"><he>מְשַׁלְּחָא</he></cite> &c. ",
+						"<cite ref=\"Onkelos Genesis 32:19\">Targ. O. Gen. XXXII, 19</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to strip, undress</i>. Y. R. Hash. II, 58ᵇ top <he>ובטול … יְשַׁלַּח</he> and in the shade of the fig tree he (the ox) would shed his skin (feeling warm, he would rub himself against the tree); <cite ref=\"Sanhedrin 18b:12\">Snh. 18ᵇ</cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 33b:6\">Sabb. 33ᵇ</cite> <he>הוו מְשַׁלְּחֵי מנייהו</he> used to put off their clothes. ",
+						"<cite ref=\"Shevuot 41a:12\">Shebu. 41ᵃ</cite> <he>צורבא דרבנן משלח וכ׳</he> may a scholar strip a man of his cloak? (i.e. should a scholar as such have any prerogatives in law?); a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַשְׁלַח"],
+			"senses": [
+				{
+					"gloss": "<i>to send off, let loose</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 8:17\">Targ. O. Ex. VIII, 17</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to strip, throw off; to flay</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 19:24\">Targ. I Sam. XIX, 24</cite>. ",
+						"<cite ref=\"Targum of II Chronicles 35:11\">Targ. II Chr. XXXV, 11</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 1:6\">Targ. Lev. I, 6</cite> (Y. II <he>ויחליש</he>). ",
+						"<cite ref=\"Onkelos Numbers 20:26\">Targ. Num. XX, 26</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתַּלַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to be sent, sent off</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 5:15\">Targ. Jud. V, 15</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 32:19\">Targ. Y. Gen. XXXII, 19</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be stripped; to shed the skin</i>. Ib. III, 21.—",
+					"units": [
+						"<cite ref=\"Chullin 59a:2\">Ḥull. 59ᵃ</cite> <he>מאן … מִישְׁתַּלַּח משכיה</he> he who eats three Tiḳlas of asafoetida on an empty stomach, will shed his skin; <he>ואי לא … מישת׳ משכאי</he> had I not sat in water, I should have &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

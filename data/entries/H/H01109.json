@@ -1,0 +1,104 @@
+{
+	"id": "H01109",
+	"slug": "חלץ-1",
+	"headword": {
+		"text": "חָלַץ"
+	},
+	"page": {
+		"number": 472,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., v. Ges. H. Dict.<sup>10</sup> s. v. <he>חלץ</he> I, II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to surround, fortify; to gird, arm</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 133:29\">Yalk. Gen. 133</cite> (fr. Midr. Vayis‛u) <he>חָלְצוּ עצמם</he> they armed themselves, v. <i>Pi.</i> a. <i>Hif.</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to untie, loosen, tear out; to strip, lay bare</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 22b:6\">M. Kat. 22ᵇ</cite> <cite ref=\"H00363\"><he>חוֹלֵץ</he></cite> one bares the shoulder (in mourning). ",
+				"<cite ref=\"Moed Katan 4a\">Ib. IV, 7</cite> (<cite ref=\"Moed Katan 24b:12\">24ᵇ</cite>) <he>חוֹלְצִין</he>. ",
+				"<cite ref=\"Bava Metzia 59b:7\">B. Mets. 59ᵇ</cite> <he>וח׳ מנעליו</he> and took his shoes off. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:6\">Y. M. Kat. III, 82ᵇ</cite> <he>חוֹלְצָן</he> he takes them (the T’fillin) off; <cite ref=\"Berakhot 23a\">Ber. 23ᵃ</cite>; Y. ib. II, 4ᶜ.—",
+				"<cite ref=\"Pesachim 4a\">Pes. 4ᵃ</cite>; <cite ref=\"Moed Katan 20b:1\">M. Kat. 20ᵇ</cite> <he>חֲלוֹץ לי מנעלי</he> take my shoes off. ",
+				"<cite ref=\"Chullin 90b:4\">Ḥull. 90ᵇ</cite> <he>חוֹלְצוֹ לתפוח</he> he takes the sinew out and puts it on the pile &c. ",
+				"<cite ref=\"Tosefta Negaim 6:10\">Tosef. Neg. VI, 10</cite> <he>בזמן שחוא חוֹלֵץ</he> when he has to tear out (a leprous stone), v. <cite ref=\"N01386\"><he>נָתַץ</he></cite>.—Y. Ab. Zar. II, end, 42ᵃ; <cite ref=\"Tosefta Avodah Zarah 4:8\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:8\">V</cite>), 8 <he>כדי שיהו חוֹלְצִין את גלעיניהן</he> in order to loosen the stones (of the olives); a. fr.—Part. pass. <cite ref=\"H01002\"><he>חָלוּץ</he></cite>, f. <cite ref=\"H01003\"><he>חֲלוּצָה</he></cite>, pl. <he>חֲלוּצִים</he>, f. <he>חֲלוּצוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:1:3\">Y. Sot. I, beg. 16ᵇ</cite> <he>וזרועותיה ח׳</he> her arms bared.—",
+				"<cite ref=\"Shabbat 137a\">Sabb. 137ᵃ</cite>, a. e. <he>חֲלָצַתּוֹ חמה</he> the fever left him.—Esp. <i>to perform the ceremony of taking off the Yabam’s shoe</i> (v. <cite ref=\"J00058\"><he>יָבָם</he></cite>); <he>ח׳ ביבמה</he> <i>to arrange the Ḥălitsah, to act as judge;</i> <he>ח׳ ל־</he> <i>to have the shoe taken off for refusing the leviratical marriage;</i> <he>ח׳ מ־</he> <i>to take the shoe off</i>. ",
+				"<cite ref=\"Yevamot 102a:8\">Yeb. 102ᵃ</cite> <he>כלום ראית שח׳ וכ׳</he> did you ever see him act as a judge at a <i>Ḥălitsah?</i> <cite ref=\"Mishnah Yevamot 4:1\">Ib. IV, 1</cite> <he>החוֹלֵץ ליבמתו וכ׳</he> if one gave <i>ḥălitsah</i> to his sister-in-law, and it was found out afterwards &c. ",
+				"<cite ref=\"Mishnah Yevamot 3:1\">Ib. III, 1</cite> <he>חוֹלְצוֹת ולא מתיבמות</he> they must be released by <i>ḥăl.</i>, but must not be married by the <i>yabam</i>. ",
+				"<cite ref=\"Mishnah Yevamot 12:1\">Ib. XII, 1</cite> <he>חָלְצָה במנעל</he> if she performed the ceremony with a leather shoe. ",
+				"<cite ref=\"Yevamot 102a:10\">Ib. 102ᵃ</cite> <he>חוֹלְצִין במנעל</he> you may have the ceremony performed with &c. ",
+				"<cite ref=\"Yevamot 102b:15\">Ib. 102ᵇ</cite> <he>שמא חָלְצָה סנדל לאחד וכ׳</he> perhaps she has performed the ceremony of <i>ḥal</i>. on one of the brothers. ",
+				"<cite ref=\"Yevamot 102b:21\">Ib.</cite> <he>החוֹלֶצֶת מן וכ׳</he> if one performed the ceremony on an adult … <cite ref=\"Yevamot 102b:15\">Ib.</cite> (ref. to <cite ref=\"Hosea 5:6\">Hos. V, 6</cite>) <he>מי כתיב ח׳ להם ה׳ מהם וכ׳</he> is it written, He had his shoe taken off by them (the Lord being the rejecting party)? It is written, He took their shoe off &c., v. <cite ref=\"H01110\">next w.</cite>; a. v. fr.—חֲלוּצָה <i>a woman released from leviratical marriage by ḥălitsah</i>. Ib. VII, 1. Ib. IV, 12 <he>חֲלוּצָתוֹ</he> his rejected sister-in-law; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחֶלַץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be peeled off</i>. Y. Sabb. XX, 17ᶜ bot. <he>ועורו נ׳</he> and his skin will peel itself off.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["חִלֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to extract, loosen, to deliver</i>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to gird, strengthen</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 102b:15\">Yeb. 102ᵇ</cite> (in a discussion about the meaning of <he>וחלצה</he>, <cite ref=\"Deuteronomy 25:9\">Deut. XXV, 9</cite>) <he>והכתיב יְחַלּץ עני</he> but do we not read (<cite ref=\"Job 36:15\">Job XXXVI, 15</cite>), He <i>girds</i> the poor? Answ. <he>יְחַלְּצוֹ מדינה וכ׳</he> It means, He will <i>deliver him</i> from the judgment &c. ",
+						"<cite ref=\"Job 36:15\">Ib.</cite> (after ref. to <he>יחליץ</he>, <cite ref=\"Isaiah 58:11\">Is. LVIII, 11</cite>) the root <he>חלץ</he> means both (girding and loosening), but here (Deut. l. c.), if it meant <i>tying on</i>, it would read <he>וחלצה נעלו ברגלו</he> she shall tie his shoe <i>on</i> his foot."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶחֱלִיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to loosen, untie;</i>",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to gird, arm;</i>",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to deliver;</i>",
+					"units": [],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to smoothen, give ease of mind</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> (ref. to <he>יחליץ</he>, Is. l. c.) <he>יזיין</he> (Ar. <he>ישלוף</he>) <he>ישמוט ישזיב ויניח</he> (which means) He shall <i>loosen</i> as in Deut. l. c., <i>gird</i> as ib. III, 18, <i>deliver</i> as in <cite ref=\"Psalms 140:2\">Ps. CXL, 2</cite>, and <i>give ease</i> as in the Sabbath prayer after meal <he>רצה והַחֲלִיצֵנוּ</he> be pleased to give us ease of mind. V. <cite ref=\"H01002\"><he>חִלּוּץ</he></cite>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

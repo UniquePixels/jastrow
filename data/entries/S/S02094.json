@@ -1,0 +1,23 @@
+{
+	"id": "S02094",
+	"slug": "קרמיד",
+	"headword": {
+		"text": "קַרְמִיד"
+	},
+	"page": {
+		"number": 1422,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κεραμίς, -ίδος) <i>roof-tile</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 1:3:3\">Y. Taan. I, 64ᵇ</cite> top <he>כדי שיודחו פני הק׳</he> (not <he>שידוחו</he>) so that the surface of the roof-tiles appears washed (by the rain); <cite ref=\"Jerusalem Talmud Berakhot 9:2:20\">Y. Ber. IX, 13ᵈ</cite> bot. <he>שיודחו פניה</he> (corr. acc.); <cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> (not <he>שידחו</he>).—Pl. <he>קִרְמִידִים</he>, <he>קִרְמִידִין</he>. Sifra M’tsorʿa, Par. 6, ch. IV <he>יכול אפי׳ ק׳ וכ׳</he> Ar. (ed. <cite ref=\"S01946\"><he>קרומדים</he></cite>, corr. acc.) lest you think that you may use also tiles or bricks. ",
+				"<cite ref=\"Tosefta Kelim Kamma 2:3\">Tosef. Kel. B. Kam. II, 3</cite> <he>הסילונות והקרמודין וכ׳</he> ed. Zuck. (oth. ed. <cite ref=\"S02095\"><he>קרמיון</he></cite>, corr. acc.) gutters or tiles in which &c."
+			]
+		}
+	]
+}

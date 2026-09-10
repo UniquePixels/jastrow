@@ -1,0 +1,23 @@
+{
+	"id": "A02478",
+	"slug": "אספדיכא",
+	"headword": {
+		"text": "אִסְפְּדִיכָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 95,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. <i>ispid-ab</i>; Arab <i>ispidaġ</i>, Perl. Et. St. p. 48) <i>white-lead</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite> <he>אלוא וא׳</he> Ar. (ed. <cite ref=\"A02493\"><he>אספירכא</he></cite>) aloes and white lead."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "M02204",
+	"slug": "מפחא",
+	"headword": {
+		"text": "מַפָּחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַפַּחְתָּא"
+		}
+	],
+	"page": {
+		"number": 820,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"M02203\">same</cite>; <he>מַפַּח נְפָשׁ</he>, <cite ref=\"M02206\"><he>מַפְּחַת</he></cite> <i>despair</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 11:20\">Targ. Job XI, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 17:11\">Targ. Is. XVII, 11</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:65\">Targ. Deut. XXVIII, 65</cite> <cite ref=\"M02206\"><he>מפחת</he></cite> (ed. Vien. <cite ref=\"M02206\"><he>מַפְּחַן</he></cite>, pl. constr.; Y. <cite ref=\"M02206\"><he>מִפְחַת</he></cite>).—[Pl. <he>מַפְּחִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 11:6\">Targ. Ps. XI, 6</cite> <he>מ׳ דאשתא</he>, v. <cite ref=\"N01026\"><he>נְפַח</he></cite>.]"
+			]
+		}
+	]
+}

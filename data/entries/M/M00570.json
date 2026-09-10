@@ -1,0 +1,25 @@
+{
+	"id": "M00570",
+	"slug": "מוץ-3",
+	"headword": {
+		"text": "מוֹץ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 746,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M02349\"><he>מָצַץ</he></cite>) [<i>sucked out, dry</i>,] <i>chaff</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 1:18\">Midr. Till. to Ps. I, 4</cite> <he>אם תאמר כמ׳ שבבקעה וכ׳</he> you might think ‘like the chaff’ in the valley in which there is yet some moisture &c. ",
+				"<cite ref=\"Bereishit Rabbah 83\">Gen. R. s. 83</cite>, end <he>התבן והקש והמ׳ וכ׳</he> the straw, the stubble and the chaff were disputing with one another. ",
+				"<cite ref=\"Midrash Tehillim 2\">Midr. Till. to Ps. II</cite>; a. e.—[<cite ref=\"Tosefta Terumot 3:17\">Tosef. Ter. III, 17</cite> <he>מן המ׳</he> ed. Zuck. from the <i>grain before it is threshed;</i> v., however, <cite ref=\"P01362\"><he>עֲרֵימָה</he></cite>.]"
+			]
+		}
+	]
+}

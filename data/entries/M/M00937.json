@@ -1,0 +1,25 @@
+{
+	"id": "M00937",
+	"slug": "מחרוזות",
+	"headword": {
+		"text": "מַחֲרוֹזוֹת"
+	},
+	"page": {
+		"number": 764,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"H01646\"><he>חָרַז</he></cite>) <i>strings</i> (of meat, fish &c.). ",
+			"units": [
+				"<cite ref=\"Tosefta Shekalim 3:10\">Tosef. Shek. III, 10</cite> <he>מ׳</he> if the meat found was on strings; Y. ib. VII, beg. 50ᶜ <he>אם היו מ׳</he>.—",
+				"<cite ref=\"Mishnah Bava Metzia 2:1\">B. Mets. II, 1</cite> <he>מ׳ של דגים</he> fish on strings. ",
+				"<cite ref=\"Tosefta Bava Metzia 2:1\">Tosef. ib. II, 1</cite> <he>מ׳ של קרדומות</he> axes strung together; a. e."
+			]
+		}
+	]
+}

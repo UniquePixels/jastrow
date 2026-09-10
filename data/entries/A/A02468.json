@@ -1,0 +1,27 @@
+{
+	"id": "A02468",
+	"slug": "אסנא-1",
+	"headword": {
+		"text": "אִסְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּסְנָא"
+		}
+	],
+	"page": {
+		"number": 94,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אסן</he> = h. <cite ref=\"H01403\"><he>חסֶן</he></cite>, <he>אָסָם</he>) <i>store-house, granary.—</i>Pl. <he>אִסְנַיָּיא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joel 1:17\">Targ. Joel I, 17</cite> (Var. <he>אוּסְ׳</he>, <cite ref=\"H00001\"><he>ח׳</he></cite>)."
+			]
+		}
+	]
+}

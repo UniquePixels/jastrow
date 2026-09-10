@@ -1,0 +1,29 @@
+{
+	"id": "R00714",
+	"slug": "צפר-4",
+	"headword": {
+		"text": "צְפַר",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "צִפְרָא"
+		}
+	],
+	"page": {
+		"number": 1298,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00713\">preced.</cite>) <i>circle, garland</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 1:6:3\">Y. Yoma I, end, 39ᵇ</cite> <he>וחוי ליה באצבעתיה צ׳ קבוטר</he> and he drew a circle with his finger to intimate that the name is <cite ref=\"S00034\"><he>קבוטר</he></cite> (with <cite ref=\"T00000\"><he>ר</he></cite>, and not <cite ref=\"S00033\"><he>קבוטל</he></cite>).—Pl. <he>צִפְרַיָּא</he>, <cite ref=\"R00030\"><he>צִי׳</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 9:18\">Koh. R. to IX, 18</cite> (expl. <he>הָאֹמְנוֹת</he>, <cite ref=\"II Kings 18:16\">II Kings XVIII, 16</cite>) <he>צ׳</he> golden wreaths (on the doors)."
+			]
+		}
+	]
+}

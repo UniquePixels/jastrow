@@ -1,0 +1,60 @@
+{
+	"id": "M00346",
+	"slug": "מהה",
+	"headword": {
+		"text": "מָהָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָהָא"
+		}
+	],
+	"page": {
+		"number": 736,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>מִיהָה</he>, <cite ref=\"M01100\"><he>מִיהֵא</he></cite> (v. <cite ref=\"M00809\"><he>מָחָה</he></cite>) <i>to dissolve, dilute;</i> (of clothes) <i>to make threadbare and ragged</i>.—Part. pass. <he>מְהוּהֶא</he>, f. <he>מְהוּהָא</he>, <cite ref=\"M00355\"><he>מְהוּהָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Tahorot 9:9\">Toh. IX, 9</cite> <he>מטלות מהוהה</he> ed. Dehr. (oth. ed. … <he>הא</he>) a tattered (scorched) piece of cloth; <cite ref=\"Niddah 56a:38\">Nidd. 56ᵃ</cite> <he>מטלית המהוהא</he>; <cite ref=\"Niddah 4a:36\">ib. 4ᵃ</cite> <he>המהומה׳</he> (corr. acc.). ",
+						"<cite ref=\"Mishnah Kelim 24:17\">Kel. XXIV, 17</cite> <he>מהוהה שטלייה וכ׳</he> a threadbare shred patched on a sound one (<cite ref=\"B01261\"><he>בְּרִיָּיה</he></cite>, v. <cite ref=\"B01239\"><he>בָּרִיא</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִמְהָה", "נִמְהָא"],
+			"senses": [
+				{
+					"gloss": "<i>to be tattered, fall to pieces</i>. Ib. XXVII, 12 ed. Dehr. <cite ref=\"M00346\"><he>נמהא</he></cite>, Mish. ed. <cite ref=\"M00346\"><he>נמהה</he></cite>; Talm. ed. <cite ref=\"M00857\"><he>נמחה</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִמְהָה", "הִמְהָא"],
+			"senses": [
+				{
+					"gloss": "<i>to dissolve; to crumble, sift</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maaser Sheni 5:1\">Maas. Sh. V, 1</cite> <he>מַמְהֶה ושופך</he> Ar. (ed. pr. <he>מַמְהֶא</he>; ed. <he>ממחה</he>) he dissolves (the lime) and pours it over the spot; <cite ref=\"Bava Kamma 69a:4\">B. Kam. 69ᵃ</cite> <he>ממהה</he> Ms. R. (ed. … <he>חה</he>). ",
+						"<cite ref=\"Zevachim 54a:8\">Zeb. 54ᵃ</cite> <he>מביא סיד</he> … <he>וממהא וכ׳</he> Ar. (ed. <he>וממחה</he>) takes lime, molten lead and pitch and mixes them and pours &c. Ohol. XVIII, 4 <he>וממהה</he> ed. Dehr. (Ar. <he>וממהא</he>, ed. … <he>חה</he>) and crumbles (and sifts the earth)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

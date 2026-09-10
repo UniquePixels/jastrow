@@ -1,0 +1,27 @@
+{
+	"id": "S00999",
+	"slug": "קים-1",
+	"headword": {
+		"text": "קִים"
+	},
+	"page": {
+		"number": 1362,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00374\"><he>קוּם</he></cite>) <i>standing;</i> (<i>it is</i>) <i>established, certain</i>; <he>ק׳ ל־</he> <i>to be certain, to know</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 136a:18\">Sabb. 136ᵃ</cite> <he>ק׳ לי ביה וכ׳</he> I am certain that its (the infant’s) months were complete (that it was no abortion). ",
+				"<cite ref=\"Avodah Zarah 76b:3\">Ab. Zar. 76ᵇ</cite> <he>מר ק׳ לי בגוויה וכ׳</he> I am sure about this gentleman (that he is a strict observer); about you I am not. ",
+				"<cite ref=\"Kiddushin 66a:2\">Kidd. 66ᵃ</cite> <he>אי לאו דק׳ ליה בנפשיה וכ׳</he> unless he was sure of himself that &c.; a. fr.—<he>ק׳ ליה בדרבה מיניה</he> (also <cite ref=\"S01434\"><he>קָם</he></cite>) he is sure of the larger portion of it, a proverbial expression for the rule, that <i>he who has committed two offences simultaneously, must be held answerable for the severer only</i>. ",
+				"<cite ref=\"Gittin 52b:15\">Gitt. 52ᵇ</cite> <he>מנסך קם ליה בדר׳ מ׳</he> he who uses his neighbor’s wine for idolatrous libation (and makes the remainder unavailabe), is exempt from making restitution for the wine, because he has to suffer the severer penalty, which is death. ",
+				"<cite ref=\"Gittin 53a:9\">Ib. 53ᵃ</cite> <he>משום דלא ק׳ ל׳ בדר׳ מ׳</he> because this is no case of a severer penalty (when he makes his neighbor’s wine unclean). ",
+				"<cite ref=\"Chullin 81b\">Ḥull. 81ᵇ</cite> <he>קם ל׳ בדר׳ מ׳</he> (Ms. M. <cite ref=\"S00009\"><he>קָאִים</he></cite>) he suffers the severer penalty (for slaughtering for idolatrous purposes, and is exempt from the penalty of stripes for slaughtering the dam and her child in one day); a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "I00064",
+	"slug": "טבל-3",
+	"headword": {
+		"text": "טָבַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 517,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"I00066\"><he>טֶבֶל</he></cite>) <i>to create Tebel, to make obligatory the setting aside of tithes&c</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 4:1:2\">Y. Maasr. IV, beg. 51ᵃ</cite> <he>אור טוֹבֵל</he> fire (roasting) makes subject to sacred gifts; <he>מלח טוֹבֶלֶת</he> salting makes subject &c.; a. fr.—<i>Part. part</i>. <he>טָבוּל</he> <i>that which is subject to sacred gifts, forbidden as Tebel</i>. ",
+				"<cite ref=\"Berakhot 47b:8\">Ber. 47ᵇ</cite> <he>טבל ט׳ מדרבנן</he> <i>Tebel</i> declared to be such by rabbinical enactment; a. e.—Pl. <he>טְבוּלִים</he>, <he>טְבוּלִין</he>. Y. Dem. VI, 25ᶜ bot., opp. <he>מתוקנים</he>. Ib. VII, 26ᵇ top <he>פירות ט׳</he> fruits of which the sacred gifts have not been set aside."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִטְבָּל"],
+			"senses": [
+				{
+					"gloss": "<i>to become</i>, or <i>to be declared Tebel</i>. Y. Maasr. I, end, 49ᵇ <he>טבל שנ׳ מדבריהן</he> <i>Tebel</i> which is declared to be such by rabbinical law, v. supra. Ib. IV, beg. 51ᵃ <he>נִטְבְּלוּ</he> the roasted ears became subject to tithes; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

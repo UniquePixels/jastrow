@@ -1,0 +1,23 @@
+{
+	"id": "I00772",
+	"slug": "טריבא",
+	"headword": {
+		"text": "טְרִיבָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 553,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טרב</he>, cmp. <cite ref=\"R00731\"><he>צרב</he></cite>) <i>an eruption, inflammation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 2:5\">Targ. Y. Ex. II, 5</cite>, constr. <he>טָרִיב בשרא</he>."
+			]
+		}
+	]
+}

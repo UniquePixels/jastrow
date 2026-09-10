@@ -1,0 +1,120 @@
+{
+	"id": "N00571",
+	"slug": "נטל-1",
+	"headword": {
+		"text": "נָטַל"
+	},
+	"page": {
+		"number": 899,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00490\"><he>טִלְטֵל</he></cite>)<i>to move, carry off; to receive, take</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 1:1\">B. Mets. I, 1</cite> <he>זה נוֹטֵל וכ׳</he> the one (of the claimants) gets three shares &c. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:4:4\">Y. Sot. I, 16ᵈ</cite> bot., a. e. <he>ומה שכר נָטְלוּ על כך</he> what reward did they get for it?—Sifra Sh’mini, beg. <he>מסיני נטלו להם</he> they got (their punishment) from Sinai. ",
+				"<cite ref=\"Shabbat 151b:5\">Sabb. 151ᵇ</cite> <he>טוֹל מה וכ׳</he> take away what thou hast put into me. ",
+				"<cite ref=\"Arakhin 16b\">Arakh. 16ᵇ</cite>; <cite ref=\"Bava Batra 15b:10\">B. Bath. 15ᵇ</cite> <he>טול קיסם מבין עיניך</he> (Ag. Hatt. <he>שיניך</he>) remove the chip from between thy eyes (teeth); <he>טול קורה וכ׳</he> remove the beam from &c. ",
+				"<cite ref=\"Mishnah Gittin 6:1\">Gitt. VI, 1</cite> <he>אף האומרת טול לי גטי</he> even if she says, get me my letter of divorce (instead of ‘receive for me’). ",
+				"<cite ref=\"Gittin 78a:14\">Ib. 78ᵃ</cite> <he>טְלִי גיטיך וכ׳</he> take up thy letter of divorce from the ground. ",
+				"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite>, end <he>נָטַלְתִּי עיני</he> I lifted up my eyes. ",
+				"<cite ref=\"Mishnah Berakhot 2:8\">Ber. II, 8</cite> <he>לא כל הרוצה לִיטּוֹל לו את השם יִטּוֹל</he> Y. ed., not every one who desires to assume a name, may assume it, i.e. not every one has a right to consider himself superior to the masses (v. <cite ref=\"J00173\"><he>יוֹהֲרָא</he></cite>); a. v. fr.—Part. pass. <cite ref=\"N00543\"><he>נָטוּל</he></cite>; f. <cite ref=\"N00545\"><he>נְטוּלָה</he></cite> <i>removed</i>. ",
+				"<cite ref=\"Mishnah Nedarim 11:12\">Ned. XI, 12</cite> (if a woman says) <he>נ׳ אני מן היהודים</he> I will be removed from (keep no company with) Jews; <he>יפר … ותהא נ׳ וכ׳</he> the husband may forbid the vow as far as it concerns himself, and (for the rest) let her be isolated &c.—",
+				"<cite ref=\"Sanhedrin 21b:5\">Snh. 21ᵇ</cite> <he>נְטוּלֵי טחול</he> persons who had their milt cut out (to make them fast runners).—V. <cite ref=\"N00545\"><he>נְטוּלָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"M01199\"><he>מים</he></cite>) <i>to pour water over one’s hands</i> for purification; <he>נ׳ לידים</he>, (ellipt.) <he>נ׳ ידים</he>, or only <he>נ׳</he> <i>to wash the hands</i> before and after meals, before prayer &c. ",
+			"units": [
+				"<cite ref=\"Tosefta Yadayim 1:1\">Tosef. Yad. I, 1</cite> <he>מי רביעית נוֹטְלִין לידים וכ׳</he> (Var. ed. Zuck., a. Mish. ",
+				"<cite ref=\"Mishnah Yadayim 1:1\">ib. I, 1</cite> <he>נותנין</he>) a quantity of one fourth of a Log of water may be used for pouring over the hands of one person &c. Ib. 13 <he>הנוֹטֵל לידים הנוטל מתכוין והנותן וכ׳</he> if a person had his hands washed, himself having the intention (of purification), while he who poured it had not. Ib. 2; Mish. ib. II, 3 <he>נ׳ את הראשונים</he> if he began to use the water for washing before the meal (v. <cite ref=\"M01199\"><he>מַיִם</he></cite>). ",
+				"<cite ref=\"Chullin 107a:2\">Ḥull. 107ᵃ</cite> <he>נוטלין ממנו לידים</he> you may use it for washing the hands; Tosef. l. c. 6. ",
+				"<cite ref=\"Mishnah Berakhot 8:2\">Ber. VIII, 2</cite>. ",
+				"<cite ref=\"Berakhot 51a:14\">Ib. 51ᵃ</cite> <he>אל תִּטּוֹל ידיך ממי וכ׳</he> have not water poured over thy hands by one who has not washed his hands &c. ",
+				"<cite ref=\"Chullin 105a:15\">Ḥull. 105ᵃ</cite> <he>נוטלין … בכלי</he> you must wash over a vessel (receiving the water); <he>ע״ג קרקע</he> on the floor; a. v. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיטַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be handled</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 17:1\">Sabb. XVII, 1</cite> (<cite ref=\"Shabbat 122b:9\">122ᵇ</cite>) <he>כל הכלים נִיטְּלִין בשבת</he> all vessels (implements, utensils &c.) may be handled on the Sabbath. Ib. 43ᵃ, a. e. <he>אין כלי נ׳ אלא לדבר הנ׳ בשבת</he> a utensil must not be handled on the Sabbath except for the protection of a thing which may be used on the Sabbath. ",
+						"<cite ref=\"Mishnah Parah 5:9\">Par. V, 9</cite> <he>והן יכולות להִנָּטֵל וכ׳</he> and they can be handled simultaneously; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be removed, be gone</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite>; <cite ref=\"Mishnah Chullin 3:2\">2</cite>, v. <cite ref=\"K00076\"><he>כָּבֵר</he> III</cite>. Ohol. II, 3 <he>כדי שיִנָּטֵל מן כ׳</he> as much of it as, if cut out from the skull of a living being, would cause death; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be used for washing hands</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Yadayim 2:7\">Tosef. Yad. II, 7</cite> <he>לא נִטְּלוּ מן הכלי</he> the water was not poured directly from the vessel; <he>לא ניטלו מן הרביעית</he> not poured from a vessel containing one fourth of a Log; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִטִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to throw; to put; to hang on, attach</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 5:9\">Gitt. V, 9</cite> <he>משתַּטִּיל המים</he> from the time she pours water on the flour. ",
+						"<cite ref=\"Mishnah Yoma 3:2\">Yoma III, 2</cite> <he>המַטִּיל מים</he> who urinates. ",
+						"<cite ref=\"Menachot 40b\">Men. 40ᵇ</cite> <he>ה׳ לבעלת וכ׳</he> if he attached the fringe (<cite ref=\"V00547\"><he>תְּכֵלֶת</he></cite>) to a three-cornered garment. ",
+						"<cite ref=\"Shabbat 42b:7\">Sabb. 42ᵇ</cite> <he>להַטִּיל ביצתה</he> to lay her eggs; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (of plants) <i>to assume the shape of, to develop</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:2\">Maasr. I, 2</cite> <he>משיַטִּילוּ שאור</he>, v. <cite ref=\"U00016\"><he>שְׂאוֹר</he></cite>; <cite ref=\"Mishnah Maasrot 1:2\">ib.</cite> <he>משיטילו גידין</he>, v. <cite ref=\"C00626\"><he>גִּיד</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּטָּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be thrown; to lie</i>. Part. <cite ref=\"M00463\"><he>מוּטָּל</he></cite>, f. <he>מוּטֶּלֶת</he>; pl. <he>מוּטָּלִים</he>, <he>מוּטָּלִין</he>; <he>מוּטָּלוֹת</he> ",
+					"units": [],
+					"senses": [
+						{
+							"gloss": " <i>lying</i>. ",
+							"units": [
+								"<cite ref=\"Kiddushin 82b:5\">Kidd. 82ᵇ</cite> <he>מ׳ ברעב</he> lies prostrated from starvation. ",
+								"<cite ref=\"Mishnah Berakhot 3:1\">Ber. III, 1</cite> <he>מי שמתו מ׳ לפניו</he> he whose dead relative lies before him; <cite ref=\"Berakhot 18a:3\">ib. 18ᵃ</cite> <he>כיון שמ׳ עליו לקוברו כמ׳ וכ׳</he> since the duty of burying rests upon him, it is the same as if the body were lying before him. ",
+								"<cite ref=\"Yevamot 37b\">Yeb. 37ᵇ</cite>, a. fr. <he>ממו</he>‌‌<he>ן המ׳ בספק</he>, v. <cite ref=\"O01407\"><he>סָפֵק</he></cite>; a. fr.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <he>מוּטֶּלֶת</he> <i>a garment provided with show-fringes</i>. Men. l. c. <he>הטיל למ׳</he> if he attached additional fringes to a garment provided &c.; a. fr.",
+							"units": [],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

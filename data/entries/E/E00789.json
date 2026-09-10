@@ -1,0 +1,64 @@
+{
+	"id": "E00789",
+	"slug": "הקדיש",
+	"headword": {
+		"text": "הֶקְדֵּישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶקְדֵּשׁ"
+		}
+	],
+	"page": {
+		"number": 364,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קדש</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>that which is dedicated to a sacred purpose</i>, esp. <i>sacred</i> or <i>Temple property</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 66b:10\">Yeb. 66ᵇ</cite> bot., a. fr. <he>ה׳ וכ׳</he> a pledged animal which the debtor dedicates as a sacrifice &c., v. <cite ref=\"Q01502\"><he>פָּקַע</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 60:3\">Gen. R. s. 60</cite> <he>ה׳ דמים</he>; <cite ref=\"Mishnah Arakhin 8:7\">Arakh. VIII, 7</cite> <he>ה׳ עילוי</he> dedication of the value of an object; opp. <he>ה׳ מזבח</he> dedication for the altar (allowing no redemption). ",
+				"<cite ref=\"Mishnah Arakhin 7:1\">Ib. VII, 1</cite> <he>אין מחשבין חדשים לה׳</he> months are not counted for redeeming dedicated property, i.e. fractions of a year count for a year in favor of the treasury. ",
+				"<cite ref=\"Kiddushin 2b:2\">Kidd. 2ᵇ</cite> <he>דאסר לה אכ״ע כה׳</he> because (by betrothing her to himself) he makes her forbidden to all other men like sacred property (v. <cite ref=\"S00192\"><he>קָדַשׁ</he></cite>). ",
+				"<cite ref=\"Taanit 24a:9\">Taan. 24ᵃ</cite> <he>הרי הן ה׳ עליך וכ׳</he> they shall be to thee sacred property (like charity funds); a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dedication</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 2a:31\">Arakh. 2ᵃ</cite>; <cite ref=\"Temurah 2a:19\">Tem. 2ᵃ</cite> <he>תחלת ה׳</he> a preliminary act of dedication, <he>סוף ה׳</he> the final dedication (laying hands on the animal’s head prior to sacrificing it). ",
+				"<cite ref=\"Temurah 9b:26\">Ib. 9ᵇ</cite>; <cite ref=\"Bava Metzia 54b:11\">B. Mets. 54ᵇ</cite> <he>ה׳ ראשון</he> the original dedication, <he>ה׳ שני</he> the substitution (for an animal which became defective); a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "—Pl. <he>הֶקְדֵּישׁוֹת</he>, <cite ref=\"E00789\"><he>הֶקְדֵּשׁ׳</he></cite> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>sacred objects</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 5:5\">Lev. R. s. 5</cite>; a. fr.—"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>laws concerning dedication</i>. Tosef. Erub. XI (VIII), 24; <cite ref=\"Vayikra Rabbah 5:5\">ib.</cite> ",
+					"units": [
+						"<cite ref=\"Mishnah Chagigah 1:9\">Ḥag. I, 9</cite> (ed. Zuck. <he>והקרקעות</he>, corr. acc.); a. e."
+					],
+					"label": "2"
+				}
+			]
+		}
+	]
+}

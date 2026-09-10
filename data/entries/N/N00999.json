@@ -1,0 +1,25 @@
+{
+	"id": "N00999",
+	"slug": "נענוע",
+	"headword": {
+		"text": "נִעֲנוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 921,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01000\"><he>נִעֲנֵעַ</he></cite>) <i>shaking</i> (the Lulab). ",
+			"units": ["<cite ref=\"Sukkah 37b:8\">Succ. 37ᵇ</cite>"]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "L00361",
+	"slug": "לחלח-1",
+	"headword": {
+		"text": "לִחְלֵחַ"
+	},
+	"page": {
+		"number": 703,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (redupl. of <he>לחח</he>, v. <cite ref=\"L00333\"><he>לַח</he></cite>) <i>to moisten</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְלַחְלֵחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be moistened</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite> (expl. <he>איש האדמה</he>, <cite ref=\"Genesis 9:20\">Gen. IX, 20</cite>) <he>שבשבילו נִתְלַחְלְחָה האדמה</he> since for his sake the ground became moist again (cmp. ",
+						"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite>, end, quot. s. v. <cite ref=\"C01325\"><he>גְּרִיד</he></cite>). Y. Sabb. IV, 6ᵈ bot. <he>יבישין שנִתְלַחְלְחוּ</he> dry (plants) which have been moistened again, opp. <he>לחין מחמת עצמן</he>, v. <cite ref=\"L00333\"><he>לַח</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

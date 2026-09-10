@@ -1,0 +1,27 @@
+{
+	"id": "R00487",
+	"slug": "צלהובא",
+	"headword": {
+		"text": "צַלְהוֹבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִלְהוּ׳"
+		}
+	],
+	"page": {
+		"number": 1282,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00486\">preced.</cite>) <i>flashing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Nahum 3:3\">Targ. Nah. III, 3</cite> (h. text <he>להב</he>)."
+			]
+		}
+	]
+}

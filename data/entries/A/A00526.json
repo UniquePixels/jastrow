@@ -1,0 +1,27 @@
+{
+	"id": "A00526",
+	"slug": "אוביסוס",
+	"headword": {
+		"text": "אוֹבִיסוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶוְוסוֹס"
+		}
+	],
+	"page": {
+		"number": 21,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ephesus</i>, city of Ionia in Asia Minor. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 1:5\">Targ. I Chr. I, 5</cite> <cite ref=\"A00521\"><he>אוֹב׳</he></cite> (var. lect.); Y. Meg. I, 71ᵇ <he>אוו׳</he> bot. (rendit. of <he>יון</he>); v. <he>מַקְדּוֹנְיָא</he>."
+			]
+		}
+	]
+}

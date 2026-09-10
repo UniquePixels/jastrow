@@ -1,0 +1,25 @@
+{
+	"id": "H01733",
+	"slug": "חרסית-2",
+	"headword": {
+		"text": "חַרְסִית",
+		"homograph": 2
+	},
+	"page": {
+		"number": 504,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חֶרֶס</he> I) <i>potter’s clay, clay-ground</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 5:1\">Maas. Sh. V, 1</cite> <he>בח׳</he> must be marked off with burned clay. ",
+				"<cite ref=\"Mishnah Chullin 6:7\">Ḥull. VI, 7</cite> <he>בח׳</he>; <cite ref=\"Chullin 88a:10\">ib. 88ᵃ</cite> <he>שחיקת ח׳</he> powdered burned clay. ",
+				"<cite ref=\"Mishnah Kelim 3:7\">Kel. III, 7</cite>; a. fr.—[<cite ref=\"Tosefta Terumot 9:3\">Tosef. Ter. IX, 3</cite> <he>חרסיות</he>, v. <cite ref=\"H01390\"><he>חָסִית</he> I</cite>.]"
+			]
+		}
+	]
+}

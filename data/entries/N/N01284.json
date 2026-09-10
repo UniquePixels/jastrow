@@ -1,0 +1,137 @@
+{
+	"id": "N01284",
+	"slug": "נשא-4",
+	"headword": {
+		"text": "נָשָׂא"
+	},
+	"page": {
+		"number": 937,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N00926\"><he>נָסָה</he></cite>)<i>to lift up, carry</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 35a:16\">Sot. 35ᵃ</cite> <he>נ׳ ארון את נוֹשְׂאָיו</he> the Ark carried its carriers. ",
+				"<cite ref=\"Pirkei Avot 6\">Ab. ch. VI</cite> <he>נוֹשֵׂא בעול וכ׳</he> helps his brother to bear his yoke. ",
+				"<cite ref=\"Mishnah Berakhot 3:1\">Ber. III, 1</cite> <he>נוֹשְׂאֵי המטה</he>, v. <cite ref=\"M00968\"><he>מִטָּה</he></cite>. ",
+				"<cite ref=\"Megillah 9a:15\">Meg. 9ᵃ</cite> (one of the changes in translating the Bible into Greek) <he>נוֹשֵׂא בני אדם</he> a carrier of men (for <cite ref=\"H01163\"><he>חֲמֹר</he></cite>, <cite ref=\"Exodus 4:20\">Ex. IV, 20</cite>); a. v. fr.—",
+				"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> <he>אני מרומם ונושא את ראשם</he> I will raise and elevate their head; v. infra.—<he>נ׳ כפים</he>, v. <cite ref=\"K00980\"><he>כַּף</he></cite>.—נ׳ פנים <i>to lift up the face, to respect, favor, spare, be partial</i>. ",
+				"<cite ref=\"Chagigah 14a:11\">Ḥag. 14ᵃ</cite> (expl. <he>נשוא פנים</he>, <cite ref=\"Isaiah 3:3\">Is. III, 3</cite>) <he>זה שנוֹשְׂאִין פ׳ לדורו בעבורו</he> he for whose sake his generation is favored in heaven. ",
+				"<cite ref=\"Shabbat 13b:1\">Sabb. 13ᵇ</cite> <he>שלא נ׳ פ׳ לתורה</he> who spared him not for the sake of his scholarship. ",
+				"<cite ref=\"Yoma 87a:2\">Yoma 87ᵃ</cite> <he>שנָשְׂאוּ לו פ׳ בעה״ז</he> that indulgence was shown him (by the Lord) in this world. ",
+				"<cite ref=\"Bamidbar Rabbah 11\">Num. R. s. 11</cite> <he>לא אֶשָּׂא פ׳ מפניך</he> shall I not favor thee for thy own sake? <cite ref=\"Bamidbar Rabbah 11\">Ib.</cite> <he>כשם שהם נוֹשְׂאִין לי וכ׳</he> as they (the Israelites) honor me (by saying grace even after a scanty meal), so do I favor them; a. fr.—נ׳ נפש אל <i>to lift up the soul to, to long for</i>. ",
+				"<cite ref=\"Midrash Tehillim 25:1\">Midr. Till. to Ps. XXV, 1</cite> <he>למה אתה נושא נפשך אלי</he> why dost thou lift up thy soul to me (why dost thou depend on me)?; <cite ref=\"Yalkut Shimoni on Nach 701\">Yalk. ib. 701</cite>.—נ׳ קרבן <i>to offer up a sacrifice</i>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 702:1\">Ib. 702</cite> <he>אדם חוטא ונושא ק׳</he> if a man sinned, he offered &c.; Midr. Till. l. c. <he>נושא ומביא ק׳</he> (corr. acc.)—Part. pass. <cite ref=\"N01293\"><he>נָשׂוּא</he></cite>, f. <he>נְשׂוּאָה</he> &c. Ib. <he>עכשו … הרי נפשנו נ׳ לך</he> now that we have no sacrifices, our soul is lifted up to thee."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lift, remove</i>. Pesik. R. l. c. (ref. to the double meaning of <he>נ׳</he>, <i>to raise</i> a. <i>to remove</i>) <he>לכו שְׂאוּ את ראשו</he> go and remove (or lift up) his head; a. fr.—נ׳ עון <i>to forgive</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:7\">Y. Snh. X, beg., 27ᶜ</cite> (ref. to <cite ref=\"Exodus 34:7\">Ex. XXXIV, 7</cite>) <he>נושא עוונות אין וכ׳</he> the text does not say, ‘removing iniquities’, but ‘removing iniquity’, the Lord takes away (from the scales) one bond of man’s sins, and the merits prevail &c.; <cite ref=\"Jerusalem Talmud Peah 1:1:57\">Y. Peah I, 16ᵇ</cite> bot. (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 400:2\">Yalk. Ex. 400</cite>; v. <cite ref=\"U00768\"><he>שְׁטַר</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 45:1\">Pesik. R. s. 45</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to take</i>, esp. <he>נ׳ ונתן</he> <i>to take and give, to deal; to transact, argue</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 31a:11\">Sabb. 31ᵃ</cite> <he>נָשָׂאתָ ונתת באמונה</he> hast thou (while on earth) been dealing honestly? <cite ref=\"Bava Metzia 48a:2\">B. Mets. 48ᵃ</cite> <he>הנושא ונותן בדברים</he> he who concludes a bargain verbally. Tanḥ. Sh’moth 18 <he>כשם שנושאין ונותנין בהלכה וכ׳</he> as well as they debate on the law below, so do they above. ",
+				"<cite ref=\"Bava Metzia 48a:2\">Ib.</cite> <he>שנושאין ונותנין בדין וכ׳</he> they argue in court, and the Lord argues with them; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " <he>נ׳ אשה</he>, or <he>נ׳</he> <i>to take a wife into one’s house, to marry</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 2:1\">Keth. II, 1</cite> <he>בתולה נְשָׂאתַנִי</he> thou hast married me as a virgin; <he>אלמנה נְשָׂאתִיךְ</he> I married thee as a widow. ",
+				"<cite ref=\"Yevamot 37b:18\">Yeb. 37ᵇ</cite> <he>לא יִשָּׂא אדם וכ׳</he> one may not marry in one country and go away &c. ",
+				"<cite ref=\"Mishnah Moed Katan 1:7\">M. Kat. I, 7</cite> <he>אין נושאין נשים וכ׳</he> no marriages may take place during the festive week; a. v. fr.—<i>Part. pass.</i> <cite ref=\"N01293\"><he>נָשׂוּי</he></cite> (followed by accus.) <i>having married</i>; f. <he>נְשׂוּאָה</he> (followed by <cite ref=\"L00000\"><he>ל</he></cite>) <i>being married to;</i> pl. <he>נְשׂוּאִים</he>, … <he>אִין</he>; <he>נְשׂוּאוֹת</he>. ",
+				"<cite ref=\"Mishnah Yevamot 3:6\">Yeb. III, 6</cite> <he>ואחד נ׳ נכרית</he> one of them has married a stranger. ",
+				"<cite ref=\"Mishnah Yevamot 3:6\">Ib.</cite> <he>ומתו הנ׳ את האחיות</he> and those brothers who had married two sisters died. Ib. I, 2 (2ᵇ) <he>היתה … נשואה לאחיו</he> Y. ed. (Mish. ed. <he>נשואת</he>, corr. acc.; Bab. ed. <he>נשואות</he>) if his daughter or … was married to &c.; a. fr.—Tosef. ib. VI, 5 <he>נָשׂאוּי</he>."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִישָּׂא"],
+			"senses": [
+				{
+					"gloss": "<i>to be lifted up, removed</i> &c. Pesik. R. l. c. <he>כבר … שיִנָּשְׂאוּ את ראשם וכ׳</he> it had been decreed that their head should be lifted (v. supra): turn its meaning and elevate their head.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " f. <he>נִישֵּׂאת</he>, <cite ref=\"N00795\"><he>נִשֵּׂ׳</he></cite>, <he>נִישֵּׂת</he>, <cite ref=\"J00472\"><he>נִיסֵּת</he></cite> <i>to be married</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 1:1\">Keth. I, 1</cite> <he>בתולה נ׳ וכ׳</he> a virgin’s marriage takes place on the fourth day of the week. ",
+						"<cite ref=\"Mishnah Ketubot 5:2\">Ib. V, 2</cite> <he>הגיע … ולא נִשְּׂאוּ</he> if the time set for marriage expired and they were not taken in marriage. ",
+						"<cite ref=\"Mishnah Yevamot 2:10\">Yeb. II, 10</cite> <he>מותרות לִינָּשֵׂא להם</he> they may marry them. ",
+						"<cite ref=\"Yevamot 88b:3\">Ib. 88ᵇ</cite> <he>הרי זו לא תִנָּשֵׂא ואם ניסת וכ׳</he> she must not marry again, and if she does &c.; <cite ref=\"Ketubot 22b\">Keth. 22ᵇ</cite>; a. v. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשִּׂיא"],
+			"senses": [
+				{
+					"gloss": "<i>to lift up, to announce by signals</i> (the New Moon). ",
+					"units": [
+						"<cite ref=\"Mishnah Rosh Hashanah 2:2\">R. Hash. II, 2</cite>, a. e. <he>מַשִּׂיאִין</he>, v. <cite ref=\"M02817\"><he>מַשּׂוּאָה</he></cite>. Y. ib. II, 58ᵃ top <he>אין משיאין לילי זמנו</he> we do not raise signals in the night of the regular New Moon (from the 29<sup>ᵗʰ</sup> to the 30<sup>ᵗʰ</sup>) &c.; a. fr.—Tosef. ib. II (I), 2 <he>מַסִּיעִין את החדש</he> ed. Zuck. (<he>משיא׳ על</he>, <he>מסיא׳</he>) we signalize the New Moon."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to transfer</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 11:11\">Deut. R. s. 11</cite> (ref. to <he>ישא</he>, Ps. IXXV, 5) <he>יַשִּׂיא ברכה לאחרים</he> he will bring blessing upon others."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to move, remove, pass</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Beitzah 3:7\">Bets. III, 7</cite> <he>מַשִּׂיאָהּ על גבי חברתה</he> he may pass one knife over the other (to whet it). ",
+						"<cite ref=\"Tosefta Parah 10:5\">Tosef. Par. X</cite> (<cite ref=\"Tosefta Parah 9:3\">IX</cite>), 3 <he>הִשִּׂיאוֹ לדבר אחר</he> he diverted his mind towards another subject; <cite ref=\"Mishnah Avodah Zarah 2:5\">Ab. Zar. II, 5</cite>. Y. ib. II, 41ᶜ bot. <he>היה לו להַשִּׂיאוֹ וכ׳</he>, v. <cite ref=\"E00919\"><he>הֶשֵּׂיאָה</he></cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to transfer, transcribe, translate</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 8:6\">Tosef. Sot. VIII, 6</cite> <he>הִשִּׂיאוּ את הכתב וכ׳</he> they transcribed the inscription on the stones in seventy languages; <cite ref=\"Sotah 35b:1\">Sot. 35ᵇ</cite>; Y. ib. VII, 21ᵈ bot."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to give away in marriage; to cause to marry</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 111b:7\">Keth. 111ᵇ</cite> <he>כל המַשִּׂיא בתו וכ׳</he> he who marries his daughter to a scholar. ",
+						"<cite ref=\"Ketubot 67b:1\">Ib. 67ᵇ</cite> top <he>מַשִּׂיאִין את היתומה וכ׳</he> we must first help the fatherless maiden to marry, and then the fatherless lad. ",
+						"<cite ref=\"Kiddushin 29a:10\">Kidd. 29ᵃ</cite> <he>האב חייב … ולהַשִּׂיאוֹ אשה</he> a father is bound to …, and to provide a wife for him; a. fr."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְנַשֵּׂא"],
+			"senses": [
+				{
+					"gloss": "<i>to be raised; to exalt one’s self, to boast</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 44a:7\">Ab. Zar. 44ᵃ</cite>, v. <cite ref=\"E00575\"><he>הָלַם</he></cite>. ",
+						"<cite ref=\"Berakhot 63b:20\">Ber. 63ᵇ</cite> <he>להִתְנַשֵּׂא</he>, v. <cite ref=\"N00091\"><he>נָבַל</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

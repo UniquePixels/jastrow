@@ -1,0 +1,25 @@
+{
+	"id": "A00676",
+	"slug": "אולמא-1",
+	"headword": {
+		"text": "אוּלָמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּלַמָּא"
+		}
+	],
+	"page": {
+		"number": 26,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00674\"><he>אוּלָם</he> I</cite> <cite ref=\"Targum Jonathan on I Kings 7:6\">Targ. I Kings VII, 6</cite>; a. fr.—",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 3:4\">Targ. II Chr. III, 4</cite> <he>אילם</he>, Var. <cite ref=\"A00678\"><he>אוּלְמָנָא</he></cite>.—Pl. <he>אוּלַמַּיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:22\">Targ. Ez. XL, 22</cite>; a. e."
+			]
+		}
+	]
+}

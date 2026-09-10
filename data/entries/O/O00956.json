@@ -1,0 +1,33 @@
+{
+	"id": "O00956",
+	"slug": "סלד",
+	"headword": {
+		"text": "סָלַד"
+	},
+	"page": {
+		"number": 993,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O01003\"><he>סָלַל</he> I</cite>, <he>סלח</he>)<i>to bound, rebound, shrink</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 5:9\">Makhsh. V, 9</cite> <he>מפני שהיא סוֹלֶדֶת לאחוריה</he> because the jet of a viscous mass, when poured out and stopped, bounds backward (and the connection with the mass in the unclean vessel is not suddenly severed, v. <cite ref=\"N00754\"><he>נִיצּוֹק</he></cite>). ",
+				"<cite ref=\"Gittin 57a:19\">Gitt. 57ᵃ</cite> <he>לובן ביצה סוֹלֵד מן האור</he> a stain on bed-clothes made by the white of an egg contracts (and hardens) when heated, opp. <cite ref=\"D00496\"><he>דיהה</he></cite> gets faint. ",
+				"<cite ref=\"Shabbat 40b:7\">Sabb. 40ᵇ</cite> <he>יד סולדת בו</he> when the hand put into it is spontaneously withdrawn (feeling the scald); <cite ref=\"Chullin 105b\">Ḥull. 105ᵇ</cite> top. Pesik. B’shall., p. 103ᵃ <he>ונפשו סולדת לאחוריה</he> his soul starts backward (he shrinks back in disgust of the smell); <cite ref=\"Bereishit Rabbah 51\">Gen. R. s. 51</cite> <he>ונפשו ס׳ עליו</he>; <cite ref=\"Midrash Tehillim 11\">Midr. Till. to Ps. XI</cite> ed. Bub. (oth. ed. <he>מסוללת</he>); <cite ref=\"Yalkut Shimoni on Torah 85\">Yalk. Gen. 85</cite>; (<cite ref=\"Yalkut Shimoni on Nach 655\">Yalk. Ps. 655</cite> <cite ref=\"S01789\"><he>קצה</he></cite>).—Sifra Emor ch. II, Par. 3; <cite ref=\"Bekhorot 43b:18\">Bekh. 43ᵇ</cite> <he>חוטמו סולד</he> one whose nose is turned up (snub-nosed)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִלֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to spring, sport</i> (euphem. for unnatural sexual gratification). Y. Gitt. VIII, 49ᶜ bot., v. <cite ref=\"O01003\"><he>סָלַל</he> I</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

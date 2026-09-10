@@ -1,0 +1,30 @@
+{
+	"id": "U00898",
+	"slug": "שייח",
+	"headword": {
+		"text": "שְׁיַיח"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁיָיחָא"
+		}
+	],
+	"page": {
+		"number": 1561,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U00858\"><he>שִׁיחַ</he></cite>, <i>pit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 35:7\">Targ. Ps. XXXV, 7</cite> (ed. Wil. <cite ref=\"U00362\"><he>שְׁיַח</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 9:19\">Targ. Y. Deut. IX, 19</cite> (ed. Vien. <cite ref=\"U00898\"><he>שִׁיַּיח</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 57:7\">Targ. Ps. LVII, 7</cite> (ed. Wil. <cite ref=\"U00859\"><he>שִׁיחָא</he></cite>); a. e.—Pl. <he>שְׁיָיהָן</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:85\">Ib. CXIX, 85</cite> Ms., v. <cite ref=\"U00347\"><he>שְׁוָוחָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M00256",
+	"slug": "מדוא",
+	"headword": {
+		"text": "מַדְוָא"
+	},
+	"page": {
+		"number": 733,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00235\"><he>דְּוֵי</he></cite>) <i>affliction</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite> <he>מַדְוָנָא</he> our affliction."
+			]
+		}
+	]
+}

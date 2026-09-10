@@ -1,0 +1,25 @@
+{
+	"id": "H00531",
+	"slug": "חזיון-1",
+	"headword": {
+		"text": "חִזָּיוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 443,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00530\">preced.</cite> wds.) <i>vision</i>.—Pl. <he>חֶזְיוֹנוֹת</he> (fem.). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 39b:7\">Snh. 39ᵇ</cite> (play on <he>והזנות</he>, <cite ref=\"I Kings 22:38\">I Kings XXII, 38</cite>) <he>כדי למרק שתי ח׳</he> Ms. M. (v. Rabb. D. S. a. l.) in order to polish (make clear) two visions. ",
+				"<cite ref=\"I Kings 22:38\">Ib.</cite> (play on <he>לתמו</he>, ib. 34) <he>כדי לתמם שתי ח׳</he> to fulfill two visions. ",
+				"<cite ref=\"Bereishit Rabbah 13:12\">Gen. R. s. 13</cite>; <cite ref=\"Yalkut Shimoni on Torah 20:5\">Yalk. ib. 20</cite> (ref. to <cite ref=\"H00533\"><he>חָזִיז</he></cite>, q. v.) <he>שעושה ח׳ ברקיע וכ׳</he> He creates (awe-inspiring) sights in the sky and causes holy inspiration to rest &c. [Ar. s. v. <he>אד</he>: <cite ref=\"H00538\"><he>חֲזִיזִיּוֹת</he></cite>, fr. <cite ref=\"H00522\"><he>חֲזיזִית</he></cite>, <i>breaks, splits</i>.]"
+			]
+		}
+	]
+}

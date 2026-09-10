@@ -1,0 +1,23 @@
+{
+	"id": "Q01485",
+	"slug": "פקיד",
+	"headword": {
+		"text": "פָּקִיד"
+	},
+	"page": {
+		"number": 1209,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q01449\"><he>פָּקַד</he></cite>)<i>appointed to examine, officer, commissioner.—</i>Pl. <he>פְּקִידִים</he>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> [read:] <he>הרבה פ׳ יש יש שנתפקד וכ׳</he> there are various kinds of commissioners (of the Lord), some are appointed &c., v. <cite ref=\"Q01449\"><he>פָּקַד</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 14:18\">Num. R. s. 14</cite> <he>וכבשים כנגד פ׳</he> and lambs were offered (<cite ref=\"Numbers 7:83\">Num. VII, 83</cite>) in behalf of the officers; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "S02087",
+	"slug": "קרם-1",
+	"headword": {
+		"text": "קָרַם"
+	},
+	"page": {
+		"number": 1421,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to contract, join</i>,] <i>to form a skin, cover</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Tevul Yom 2:10\">Tosef. T’bul Yom II, 10</cite> <he>חוט … שק׳ על וכ׳</he> if the film of an egg floated on the top of a pot; T’bul Yom III, 3. ",
+				"<cite ref=\"Mishnah Tevul Yom 3:3\">T’bul Yom III, 3</cite>. ",
+				"<cite ref=\"Mishnah Tevul Yom 3:3\">Ib.</cite> <he>קטניות שקָרְמוּ על וכ׳</he> cooked peas which formed a skin on the rim of a pot. ",
+				"<cite ref=\"Berakhot 25a:18\">Ber. 25ᵃ</cite> <he>כיון שקרמו פניה</he> when its surface formed a crust. ",
+				"<cite ref=\"Mishnah Menachot 7:3\">Men. VII, 3</cite> (<cite ref=\"Menachot 78b:1\">78ᵇ</cite>) <he>עד שלא קרמו בתנור</he> (v. Rabb. D. S. a. l. note 90) before the loaves had formed a slight crust in the oven. ",
+				"<cite ref=\"Mishnah Shabbat 1:10\">Sabb. I, 10</cite> <he>כדי שיִקְרְמוּ פניה וכ׳</he> in time for the cake to form a crust on the surface &c.; <he>שיִקְרוֹם התחתון וכ׳</he> for the bottom to form a crust; a. fr.—Part. pass. <cite ref=\"S01945\"><he>קָרוּם</he></cite>. ",
+				"<cite ref=\"Chullin 49b\">Ḥull. 49ᵇ</cite>; <cite ref=\"Tosefta Chullin 9:14\">Tosef. ib. IX, 14</cite>, v. <cite ref=\"V00337\"><he>תּוֹתָב</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְרִים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02086\">same</cite>. Y. Ter. X, 47ᵇ bot. <he>בצים שהִקְרִימוּ</he> (abortive) eggs which have formed a membrane. ",
+					"units": [
+						"<cite ref=\"Berakhot 40b\">Ber. 40ᵇ</cite>; <cite ref=\"Bava Batra 95b:13\">B. Bath. 95ᵇ</cite> <he>היין שה׳</he> wine which has formed a film; v. <cite ref=\"S02111\"><he>קָרַס</he></cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

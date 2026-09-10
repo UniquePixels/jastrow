@@ -1,0 +1,24 @@
+{
+	"id": "O01701",
+	"slug": "סתירה-1",
+	"headword": {
+		"text": "סְתִירָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1031,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סָתַר</he> I) <i>hiding</i>, <i>retirement</i>, esp. (with ref. to <cite ref=\"Numbers 5:13\">Num. V, 13</cite>) <i>a married woman’s retirement with a man under suspicious circumstances</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 2a\">Sot. 2ᵃ</cite> <he>קינוי וס׳</he> the husband’s jealousy (warning) and the wife’s retirement. ",
+				"<cite ref=\"Sotah 2b:21\">Ib.ᵇ</cite> a. fr."
+			]
+		}
+	]
+}

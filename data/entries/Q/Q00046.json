@@ -1,0 +1,25 @@
+{
+	"id": "Q00046",
+	"slug": "פגום-1",
+	"headword": {
+		"text": "פָּגוּם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1132,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00074\"><he>פָּגַם</he></cite>; cmp. <cite ref=\"Q00060\"><he>פְּגִימָה</he></cite>) <i>semicircular turret, niche in a city wall;</i> also <i>independent turret open on one side</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 5:1\">Erub. V, 1</cite> how do you define city limits (v. <cite ref=\"P00059\"><he>עָבַר</he></cite>)? <he>בית … פ׳ נכנס פ׳ יוצא</he> if (in a row of joined dwellings) one house stands outside the line and one inside, one turret (of the wall) is projected and one recedes. ",
+				"<cite ref=\"Eruvin 55a:5\">Ib. 55ᵃ</cite> <he>היה בית אחד יוצא כמין פ׳</he> if one house projects in the way of a turret (in a semicircle). Y. ib. V, 22ᵇ bot. [read:] <he>מן גו פ׳</he> measuring from the inside of the turret. ",
+				"<cite ref=\"Eruvin 55a:5\">Ib.</cite> <he>נותנין פ׳ לפ׳</he> we may allow an outer turret to a turret, i.e. we count the city limits from a turret which serves as a defence to a turret; a. e.—Pl. <he>פְּגוּמִים</he>. Erub. l. c.—Ch. <cite ref=\"Q00584\"><he>פִּיגְמָא</he></cite>.—V. <cite ref=\"Q00061\"><he>פְּגִימִין</he></cite>."
+			]
+		}
+	]
+}

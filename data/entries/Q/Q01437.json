@@ -1,0 +1,40 @@
+{
+	"id": "Q01437",
+	"slug": "פצל-2",
+	"headword": {
+		"text": "פְּצַל"
+	},
+	"page": {
+		"number": 1205,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01436\">same</cite>, <i>to peel, skim</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:7\">Y. Bets. V, 63ᵃ</cite>, v. <cite ref=\"K00003\"><he>כָּא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיפַּצֵּל"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיפְּצִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be split, branch off</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 71b\">Yoma 71ᵇ</cite>, a. e. <he>עמרא אִיפַּצּוּלֵי מִיפַּצְּלָא</he> wool (on the sheep) splits off (does not grow like stalks); <he>כיתנא נמי איפצולי מִפְּצִיל</he> but flax also splits!; v. <cite ref=\"K00651\"><he>כִּיתַּן</he></cite>. ",
+						"<cite ref=\"Chullin 59b:5\">Ḥull. 59ᵇ</cite> <he>היכא דמִיפַּצְּלָא לא דין וכ׳</he> when the horn is branched, there is no question (that the animal belongs to the beasts of chase, <cite ref=\"H00672\"><he>חַיָּה</he></cite>).—",
+						"<cite ref=\"Eruvin 29b\">Erub. 29ᵇ</cite>, v. <cite ref=\"B01093\"><he>בְּצַל</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

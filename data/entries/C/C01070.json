@@ -1,0 +1,20 @@
+{
+	"id": "C01070",
+	"slug": "גמרנא",
+	"headword": {
+		"text": "גַּמְרָנָא"
+	},
+	"page": {
+		"number": 256,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Denom. of <cite ref=\"C01067\"><he>גְּמָרָא</he></cite>) <i>a teacher of traditions</i>. ",
+			"units": ["<cite ref=\"Pesachim 105b:3\">Pes. 105ᵇ</cite>"]
+		}
+	]
+}

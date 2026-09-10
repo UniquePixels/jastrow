@@ -1,0 +1,46 @@
+{
+	"id": "J00468",
+	"slug": "יסף-1",
+	"headword": {
+		"text": "יָסַף"
+	},
+	"page": {
+		"number": 583,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A02475\"><he>אָסַף</he></cite>)",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הוֹסִיף</he> <i>to heap up, to add</i> (with <he>על</he>). ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 11:3\">Snh. XI, 3</cite> <he>להוֹסִיף על דברי וכ׳</he> thus adding to the words of the Scribes (against <cite ref=\"Deuteronomy 4:2\">Deut. IV, 2</cite>). Ib. 88ᵇ <he>ויש בו להו׳</he> when there is a possibility to add. Ib. <he>ואם ה׳ גורע</he> and if he did add, he diminishes (violates the law). Ib. 29ᵃ <he>המוֹסִיף</he>, v. <cite ref=\"C01379\"><he>גָּרַע</he> I</cite>. ",
+						"<cite ref=\"Tosefta Shabbat 6:17\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:17\">VII</cite>), 17 <he>והאומר הוֹסִיפוּ על השולחן</he> (not <he>ואומר</he>) and who (from superstition) says, Add (put one more) to the table; a. fr.—",
+						"<cite ref=\"Yalkut Shimoni on Torah 559:2\">Yalk. Lev. 559</cite> <he>מוֹסַפְנִי על וכ׳</he> (Sifra Metsora beg. <he>מוסיף אני</he>) I will add to what thou saidst."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִתּוֹסַף", "נִיתּ׳"],
+			"senses": [
+				{
+					"gloss": ", <i>Hithpa.</i> <he>הִתּוֹסַף</he> <i>to be added; to be added to, increase, wax</i>. Mekh. Bo. s. 16; <cite ref=\"Yalkut Shimoni on Torah 217\">Yalk. Ex. 217</cite> <he>והשני נ׳ לו</he> and the second name was added to the first (without abrogating the first). ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 7\">Ex. R. s. 7</cite>, beg. <he>נ׳ לו עוד וכ׳</he> two additional years (of imprisonment) were given him. ",
+						"<cite ref=\"Shabbat 152a\">Sabb. 152ᵃ</cite> <he>ת״ח</he> … <he>חכמתן מִתּוֹסֶפֶת עליהן</he> Ms. M. (ed. <he>חכמה נִיתּוֹסֶפֶת בהן</he>) when scholars grow old, their wisdom grows with their age; <cite ref=\"Shabbat 152a\">ib.</cite> <he>טפשותן מתוספת וכ׳</he>, v. <cite ref=\"I00685\"><he>טִפְּשׁוּת</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

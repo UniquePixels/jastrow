@@ -1,0 +1,28 @@
+{
+	"id": "Q00029",
+	"slug": "פארי-1",
+	"headword": {
+		"text": "פָּארֵי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1132,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>פררי</he>; <cite ref=\"Q02018\"><he>פְּרַר</he></cite>) <i>coarse bran</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 56b:7\">Gitt. 56ᵇ</cite> <he>אשקוהו מיא דפ׳</he> they gave him bran water to drink. ",
+				"<cite ref=\"Gittin 69a:12\">Ib. 69ᵃ</cite>, v. <cite ref=\"N01038\"><he>נַפְיָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 92b:1\">B. Bath. 92ᵇ</cite> (prov.) <he>מן מרי רשותך פ׳ איפרע</he> from a debtor of thine accept (even) bran in payment; <cite ref=\"Bava Kamma 46b:1\">B. Kam. 46ᵇ</cite>; <cite ref=\"Bava Metzia 118a:10\">B. Mets. 118ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 111b:12\">Pes. 111ᵇ</cite> <he>פ׳ בביתא קשי לעניותא</he> bran scattered in the house is bad for (brings) poverty. ",
+				"<cite ref=\"Bekhorot 8b:17\">Bekh. 8ᵇ</cite> (in a facetious conversation, v. <cite ref=\"B00133\"><he>בְּדִיאֵי</he></cite>) <he>אפשילו לי חבלי מפ׳ וכ׳</he> twist me ropes of bran, and &c."
+			]
+		}
+	]
+}

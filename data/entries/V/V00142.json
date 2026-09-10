@@ -1,0 +1,129 @@
+{
+	"id": "V00142",
+	"slug": "תוב-1",
+	"headword": {
+		"text": "תּוּב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1649,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"U00311\"><he>שׁוּב</he></cite>,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to go back, return, do again</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:7\">Targ. Gen. XIV, 7</cite>. ",
+				"<cite ref=\"Onkelos Genesis 18:10\">Targ. O. ib. XVIII, 10</cite> <he>מֵיתַב אֵיתוּב</he> ed. Berl. (ed. Vien. <he>מִתַּב אִתּוּב</he>); a. v. fr.—Part. <cite ref=\"V00007\"><he>תָּאֵב</he></cite>, <cite ref=\"V00007\"><he>תָּאֵיב</he></cite>; fr. which a verb <cite ref=\"V00005\"><he>תְּאֵב</he></cite>, <cite ref=\"V00020\"><he>תְּאֵיב</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 35:7\">Targ. Ez. XXXV, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 27:9\">Targ. I Sam. XXVII, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 8:3\">Targ. Y. Gen. VIII, 3</cite>; a. fr.—Usually <cite ref=\"V00407\"><he>תָּיֵב</he></cite>, <cite ref=\"V00142\"><he>תָּיֵיב</he></cite>; f. <cite ref=\"V00408\"><he>תָּיְבָא</he></cite>, <cite ref=\"V00516\"><he>תָּיְי׳</he></cite>; pl. <he>תָּיְבִין</he>, <he>תָּיְבֵי</he>, <cite ref=\"V00516\"><he>תָּיְי׳</he></cite>; <he>תָּיְבָן</he>, <cite ref=\"V00516\"><he>תָּיְי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Amos 9:1\">Targ. Am. IX, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 7:3\">Targ. I Sam. VII, 3</cite>. Targ. Gen. l. c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to restore</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>to go back on,</i>] <i>to bethink one’s self, regret</i>. Targ. O. a. Y. I <cite ref=\"Genesis 6:6\">Gen. VI, 6</cite>. ",
+			"units": [
+				"<cite ref=\"Genesis 6:7\">Ib. 7</cite>. ",
+				"<cite ref=\"Onkelos Exodus 32:14\">Targ. O. Ex. XXXII, 14</cite>; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָתֵיב", "אֲתֵיב"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"V00142\"><he>אֲתֵב</he></cite>, <cite ref=\"J00712\"><he>אוֹתִיב</he></cite>, <he>הֵתֵיב</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to lead back, turn; to give back, restore; to recompense</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 32:44\">Targ. Jer. XXXII, 44</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 19:8\">Targ. Ps. XIX, 8</cite>. ",
+						"<cite ref=\"Onkelos Numbers 25:11\">Targ. Num. XXV, 11</cite>. ",
+						"<cite ref=\"Onkelos Exodus 22:25\">Targ. Ex. XXII, 25</cite>. ",
+						"<cite ref=\"Onkelos Numbers 5:7\">Targ. O. Num. V, 7</cite> (Y. ed. Vien. <he>יִתּוּב</he> <i>Pe.</i>); a fr.—Part. pass. <cite ref=\"M03049\"><he>מְתֵיב</he></cite>. Targ. O. ib. 8 (ed. Vien. <he>מְתֵב</he>; Y. <he>מְיֵיתַב</he>(!)).— Trnsf. <i>to throw up, vomit</i>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 25:16\">Targ. Prov. XXV, 16</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to reconsider, bethink one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 32:12\">Targ. O. Ex. XXXII, 12</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to answer, reply, refute</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 13:26\">Targ. Num. XIII, 26</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 20:2\">Targ. Job. XX, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 50:11\">Targ. Is. L, 11</cite>; a. fr.—Esp. <i>to raise an objection, argue; to put a question</i>. ",
+						"<cite ref=\"Pesachim 2a\">Pes. 2ᵃ</cite>, a. fr. <he>מֵיתֵיבֵי</he> they (the disputing scholars) raised an objection. Y. Ter. III, 42ᵇ <he>מְתִיבִין קומי … ושתיק</he> they put the question before R. J., and he kept silence. Y. Peah IV, 18ᵇ top <he>התיב ר׳ זעירא וכ׳</he> R. Z. raised the question before &c. ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>כל אילין … מוֹתִיב</he>, v. <cite ref=\"E00945\"><he>הֲתוֹבְתָּא</he></cite>; (Y. Gitt. VIII, 49ᶜ top <he>מֵשִׁיב</he> h.). ",
+						"<cite ref=\"Shabbat 145a:1\">Sabb. 145ᵃ</cite> <he>הוא מותיב וכ׳</he>, v. <cite ref=\"Q01981\"><he>פְּרַק</he></cite>. Y. R. Hash. I, 56ᵈ bot. <he>הֲתִיבוּן וכ׳</he> they raised an objection &c. ",
+						"<cite ref=\"Bava Kamma 56b:13\">B. Kam. 56ᵇ</cite> bot. <he>אֵיתֵיבֵיה … לרבה</he> R. J. asked Rabbah. ",
+						"<cite ref=\"Vayikra Rabbah 11:7\">Lev. R. s. 11</cite> <he>אֵיתֵיבוּן וכ׳</he> they objected (by referring to the verse) &c. ",
+						"<cite ref=\"Vayikra Rabbah 11\">Ib.</cite> <he>מְתִיבוּן ליה</he> they argued against him. Y. Sabb. II, 5ᵃ bot. <he>מְתִיב בר קפרא וכ׳</he> Bar Ḳ. argued before R. Ḥ. the elder; <he>ומותיב לה והוא מְתַיֵּיב ליה</he> and he raised the argument, and he also answered it. Ib. VII, 9ᵇ top <he>וִיתִיבִינֵיה ר׳ וכ׳</he> and R. A. might have answered him &c.; <cite ref=\"Yoma 2a\">ib.</cite> <he>מן מה דלא מתיב וכ׳</he> because he did not answer him &c.; a. v. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["תַּיֵּיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00141\">same</cite>, <i>to answer, meet an objection</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתָּתַב"],
+			"senses": [
+				{
+					"gloss": ", <i>Ittof.</i> <he>אִתּוֹתַב</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be brought back, be returned, restored</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 42:28\">Targ. Gen. XLII, 28</cite>. ",
+						"<cite ref=\"Onkelos Exodus 10:8\">Targ. Ex. X, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Obadiah 1:15\">Targ. Ob. I, 15</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be answered; to be refuted</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 11:2\">Targ. Job XI, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 19:7\">Ib. XIX, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 53:7\">Targ. Is. LIII, 7</cite>; a. fr.—Y. Taan. IV, 67ᶜ <he>א״ל ולא כבר אִיתָּתְבַת</he> said he to him, hast thou not been answered before?; <he>א״ל ובגין דאִיתָּתְבִת תיבטל</he> said he, and because I have been answered, shall it (that prayer) be abolished?; Y. Ber. IV, 7ᶜ top. ",
+						"<cite ref=\"Pesachim 30b:2\">Pes. 30ᵇ</cite> <he>מאחר דאת׳ רבא וכ׳</he> (v. Rabb. D. S. a. l. note 8) now that R. bar I. has been refuted, why does Rab say &c.?; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

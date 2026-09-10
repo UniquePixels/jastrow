@@ -1,0 +1,23 @@
+{
+	"id": "U02001",
+	"slug": "שרעפים",
+	"headword": {
+		"text": "שַׂרְעַפִּים"
+	},
+	"page": {
+		"number": 1632,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; cmp. <he>סָעִיף</he>) [<i>ramifications</i>,] <he>שַׂרְעַפֵּי לֵב</he> <i>thoughts, doubts of the heart</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 92:3-4\">Midr. Till. to Ps. XCII</cite> <he>והיה … משמרו מכל רע ומכל ש׳ לב</he> and the Sabbath day guarded him from all evil and from all doubts of the heart; ed. Bub. <cite ref=\"O01657\"><he>סַרְעַפֵּי</he></cite>; <cite ref=\"Pirkei DeRabbi Eliezer 20\">Pirké d’R. El. ch. XX</cite> <he>ומנחמו מכל ס׳ לבו</he> and comforted (relieved) him of &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "O01338",
+	"slug": "ספור-2",
+	"headword": {
+		"text": "סָפוּר"
+	},
+	"page": {
+		"number": 1012,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01415\"><he>סָפַר</he></cite>), pl. <he>סְפוּרִים</he>, <he>סְפוּרִין</he> <i>the days which have to be counted</i> (<cite ref=\"Leviticus 15:28\">Lev. XV, 28</cite>), <i>legal calculation</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 30a:15\">Nidd. 30ᵃ</cite> <he>שלימו לה ס׳ דידה</he> her account is completed. ",
+				"<cite ref=\"Niddah 30a:17\">Ib.</cite> <he>בעינן ס׳ בפנינו</he> we (the judges) require the count before us, i.e. we count from the first day of her appearance before the ritual court; <cite ref=\"Niddah 69a:28\">ib. 69ᵃ</cite>"
+			]
+		}
+	]
+}

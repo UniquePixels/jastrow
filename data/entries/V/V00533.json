@@ -1,0 +1,33 @@
+{
+	"id": "V00533",
+	"slug": "תכיף",
+	"headword": {
+		"text": "תְּכֵיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּכֵף"
+		},
+		{
+			"text": "תְּכוֹף"
+		}
+	],
+	"page": {
+		"number": 1668,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00554\"><he>תְּכַף</he></cite>) [<i>seizing, overpowering</i>,] <he>בת׳</he> <i>suddenly, unawares</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 6:9\">Targ. O. Num. VI, 9</cite> <he>בתכיף שלו</he> (ed. Vien. <he>בתכף</he>; Y. <he>בתכוף</he>; h. text <he>פתע פתאם</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 1:15\">Targ. Job I, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 30:13\">Targ. Is. XXX, 13</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 4:42\">Targ. Y. II, Deut. IV, 42</cite>; a. e."
+			]
+		}
+	]
+}

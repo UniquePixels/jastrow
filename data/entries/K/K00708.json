@@ -1,0 +1,29 @@
+{
+	"id": "K00708",
+	"slug": "כלונס",
+	"headword": {
+		"text": "כְּלוֹנָס"
+	},
+	"page": {
+		"number": 640,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a sing. of κελεόντες, as if κελέονς) <i>beam of the loom</i>, in gen. <i>beam, pole</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 20:3\">Kel. XX, 3</cite> <he>קבעו בכ׳</he> if he inserted the transverse staff of the loom in the beam; <he>כסא שקבעו בכ׳</he> if one fixes a chair on the top of a beam; <cite ref=\"Tosefta Keilim Metsia 11:5\">Tosef. Kel. B. Mets. XI, 5</cite>. ",
+				"<cite ref=\"Mishnah Zavim 3:3\">Zab. III, 3</cite> <he>על הכ׳</he> Ar. (ed. <he>האכ׳</he>) was seated on a beam. ",
+				"<cite ref=\"Tosefta Keilim Batra 2:2\">Tosef. Kel. B. Bath. II, 2</cite> <he>כליניס</he> ed. Zuck. (corr. acc.). ",
+				"<cite ref=\"Tosefta Keilim Batra 7:2\">Ib. VII, 2</cite> <cite ref=\"K00727\"><he>כליונים</he></cite> ed. Zuck. (ed. <cite ref=\"K00740\"><he>כלינוס</he></cite>, corr. acc.). [<cite ref=\"Avot D'Rabbi Natan 24\">Ab. d’R. N. ch. XXIV</cite>, v. <cite ref=\"K00740\"><he>כָּלִינוֹס</he></cite>.]—Pl. <he>כְּלוֹנְסוֹת</he>, <he>כְּלוֹנְסִיּוֹת</he>, <he>כְּלוֹנְסָאוֹת</he>. ",
+				"<cite ref=\"Bava Batra 67b:3\">B. Bath. 67ᵇ</cite> (expl. <he>בתולות</he>) <he>כ׳ של ארז וכ׳</he> cedar beams supporting the transverse press beam. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 2:3\">R. Hash. II, 3</cite> (<cite ref=\"Rosh Hashanah 22b:12\">22ᵇ</cite>) <he>כלונסא׳</he> (Ms. M. 2 <he>קְלוֹנְסוֹת</he>). ",
+				"<cite ref=\"Sifrei Bamidbar 160:4\">Sifré Num. 160</cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 2:2\">Tosef. Kel. B. Bath. II, 2</cite>; a. e."
+			]
+		}
+	]
+}

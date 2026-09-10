@@ -1,0 +1,33 @@
+{
+	"id": "U01375",
+	"slug": "שלפוחית",
+	"headword": {
+		"text": "שַׁלְפּוּחִית"
+	},
+	"page": {
+		"number": 1587,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Shaf. of <he>נ־פח</he>, with anorg. <cite ref=\"L00000\"><he>ל</he></cite>) [<i>a saclike</i> <i>organ</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>womb</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 55b:8\">Ḥull. 55ᵇ</cite>, v. <cite ref=\"I00872\"><he>טַרְפַּחַת</he></cite>. ",
+				"<cite ref=\"Chullin 48a:1\">Ib. 48ᵃ</cite> top; <cite ref=\"Tosefta Chullin 3:10\">Tosef. ib. III, 10</cite> <cite ref=\"U01374\"><he>שלפוחות</he></cite> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the</i> (<i>bladderlike</i>) <i>gullet of a bird</i>. Pesik. Vattom., p. 132ᵇ <he>מביאה ש׳ של תרנגולת וכ׳</he> Ar. (ed. Bub. <he>שלוט׳</he>, corr. acc.; v. Bub. note 57) she took the gullet of a hen and filled it with balsam &c.; <cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite>, beg. Ar. (ed. <he>שפופרת של ביצה</he>); <cite ref=\"Eichah Rabbah 4:18\">Lam. R. to IV, 15</cite> <he>זפק</he>; <cite ref=\"Yalkut Shimoni on Nach 1032\">Yalk. ib. 1032</cite> <he>שלחופ׳</he> (corr. acc.).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "H00334",
+	"slug": "חולה-2",
+	"headword": {
+		"text": "חוֹלָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 433,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00333\">preced.</cite>) <i>evil, bad</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 5:12:1\">Koh. R. to V, 12</cite> <he>וכי יש רעה ח׳ וכ׳</he> is there a bad evil and a good evil?"
+			]
+		}
+	]
+}

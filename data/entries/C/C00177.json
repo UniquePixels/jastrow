@@ -1,0 +1,24 @@
+{
+	"id": "C00177",
+	"slug": "גדודית-2",
+	"headword": {
+		"text": "גְּדוּדִית",
+		"homograph": 2
+	},
+	"page": {
+		"number": 210,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גָּדַד</he> I; cmp. ",
+			"units": [
+				"<cite ref=\"Psalms 65:11\">Ps. LXV, 11</cite>) <i>ruins</i>. Pl. <he>גְּדוּדִיּוֹת</he>. ",
+				"<cite ref=\"Eruvin 5a\">Erub. V</cite>, I (52ᵇ) <he>ג׳ גבוהות וכ׳</he> (Ms. M. omits <he>גבוה׳</he>) debris ten palms high. Cmp. <cite ref=\"C00303\"><he>גּוּדָּא</he> I</cite>."
+			]
+		}
+	]
+}

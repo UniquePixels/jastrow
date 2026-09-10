@@ -1,0 +1,48 @@
+{
+	"id": "R00262",
+	"slug": "צות-1",
+	"headword": {
+		"text": "צוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָוַת"
+		}
+	],
+	"page": {
+		"number": 1272,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"R00071\"><he>צָבַת</he></cite>) <i>to join, follow; to attend</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6b\">Ber. 6ᵇ</cite>, <cite ref=\"Shabbat 30b\">Sabb. 30ᵇ</cite>, v. <cite ref=\"R00165\"><he>צָוָה</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵצִית"],
+			"senses": [
+				{
+					"gloss": "<i>to incline (the ear,); to listen</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 30\">Midr. Till. to Ps. XXX</cite>, end <he>הקב״ה מֵצִית לדבריהם</he> the Lord listens to their words (ref. to <cite ref=\"Malachi 3:16\">Mal. III, 16</cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["צוֹתֵת"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"U01511\"><he>שָׁמַע</he></cite> <i>Hif.</i>) to proclaim. Y. Sot. IX, beg., 23ᵇ <he>כי ימצא לא שתהא חוזר ומְצוֹתֵת עליו</he> ‘if there be found’ (<cite ref=\"Deuteronomy 21:1\">Deut. XXI, 1</cite>), this intimates, that thou need not go around and issue a proclamation about it (calling upon the people to inform the authorities of any slain body found).",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "B00335",
+	"slug": "בורא-2",
+	"headword": {
+		"text": "בּוּרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 149,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"B00333\"><he>בּוֹר</he> I</cite> <cite ref=\"Aramaic Targum to Proverbs 12:1\">Targ. Prov. XII, 1</cite>; <cite ref=\"Aramaic Targum to Proverbs 30:2\">XXX, 2</cite> (h. text <cite ref=\"B01063\"><he>בַּעַר</he></cite>).—Pl. [<he>בּוּרֵי</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 22:3\">Ib. XXII, 3</cite> Ms. a. ed. Ven. prob. a gloss for <he>ושברי</he>.] <cite ref=\"B00360\"><he>בּוּרַיָּא</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite>, beg. (opp. <he>חבריא</he>)."
+			]
+		}
+	]
+}

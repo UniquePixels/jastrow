@@ -1,0 +1,25 @@
+{
+	"id": "G00601",
+	"slug": "זעירא-2",
+	"headword": {
+		"text": "זְעֵירָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 407,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Z’era</i>, [also: <cite ref=\"G00586\"><he>זְעוּרָא</he></cite>, <he>רָה …</he>] name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 11:3:4\">Y. Ter. XI, 47ᵈ</cite> bot.; a. fr. (in Bab. <cite ref=\"G00419\"><he>זֵירָא</he></cite>).—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:6:6\">Y. Ber. VI, 10ᵈ</cite> top; a. e.—Ib. I, 3ᵃ top <he>ר׳ ז׳ תנאי</he>.—Ib. VIII, 12ᶜ top; <cite ref=\"Bereishit Rabbah 3:6\">Gen. R. s. 3</cite> <he>ר׳ ז׳ בר אבהו</he>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:4:16\">Y. Sabb. I, 3ᵈ</cite> <he>ר׳ ז׳ בר אבינא</he>. V. Fr. M’bo p. 77ᵇ, sq."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "C01104",
+	"slug": "גנוי",
+	"headword": {
+		"text": "גִּנּוּי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 257,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01131\"><he>גני</he></cite>, cmp. <cite ref=\"C01076\"><he>גְּנַאי</he></cite>) <i>shame</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 6:2:2\">Y. Yoma VI, 43ᶜ</cite> the order of confession is <he>עוו פשעו חטאו</he> in order not to mention <he>גִּנּוּיָין של ישראל</he> the shame of Israel (by bringing the name of Israel in direct connection with <he>פשעו</he> as the harshest of the three expressions)."
+			]
+		}
+	]
+}

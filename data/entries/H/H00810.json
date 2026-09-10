@@ -1,0 +1,31 @@
+{
+	"id": "H00810",
+	"slug": "חימרא",
+	"headword": {
+		"text": "חֵימָרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵימְ׳"
+		},
+		{
+			"text": "חִמָ׳"
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"H01223\"><he>חֵמָר</he></cite> , <i>asphalt</i> (from its dark color, Ges. H. Dict.<sup>10</sup> s. v.), used as <i>cement</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 11:3\">Targ. O. Gen. XI, 3</cite>. ",
+				"<cite ref=\"Onkelos Exodus 2:3\">Targ. Ex. II, 3</cite>.—Targ. II Esth. III, 3 <he>וריחא דגלגלוי כחוּמָרָא</he> ed. Lag. (oth. ed. <he>וריחא לגלוי בחו׳</he>, read: <he>דגַלּוֹי כח׳</he>) and the odor of its billows is like that of asphalt."
+			]
+		}
+	]
+}

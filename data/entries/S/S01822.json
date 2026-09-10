@@ -1,0 +1,40 @@
+{
+	"id": "S01822",
+	"slug": "קציצים",
+	"headword": {
+		"text": "קְצִיצִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְצִיצִין"
+		}
+	],
+	"page": {
+		"number": 1406,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S01836\"><he>קָצַץ</he></cite>, cmp. <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>) [<i>stores</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>capsules, pods</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 2:6\">Tosef. Shebi. II, 6</cite> <he>אם עשה ק׳ גמורין וכ׳</he> (Var. <cite ref=\"S01797\"><he>קְצוּצִים</he></cite>) if the plant has produced ripe capsules (or pods) before the New Year; Y. ib. II, 34ᵃ <cite ref=\"S01841\"><he>קְצָצִין</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>capsules containing Scriptural portions, T’fillin</i>, (v. <cite ref=\"S01821\">preced.</cite> 4). ",
+			"units": [
+				"<cite ref=\"Gittin 57b\">Gitt. 57ᵇ</cite> sq. <he>ארבעים סאה קְצִיצֵי תפלין וכ׳</he> Ar. (ed. <he>קְצוּצֵי</he>; Rashi to <cite ref=\"Sukkah 26b\">Succ. 26ᵇ</cite> <he>קיצוצי</he>) forty S’ahs of capsules of T’fillin were found on the heads of those slain at Bethar; <cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>קצוצי</he>; <cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 69ᵃ</cite> top <he>קצוצי</he>."
+			],
+			"label": "2"
+		}
+	]
+}

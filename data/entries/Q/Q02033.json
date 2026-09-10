@@ -1,0 +1,53 @@
+{
+	"id": "Q02033",
+	"slug": "פרשה-1",
+	"headword": {
+		"text": "פָּרָשָׁה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1243,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>separation, branching off</i>.—<he>פָּרָשַׁת דרכים</he>, <he>פרשת עיבור</he>, <i>cross-road</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 4:4\">Ber. IV, 4</cite>, v. <cite ref=\"P00491\"><he>עִיבּוּר</he></cite>. ",
+				"<cite ref=\"Sotah 21a:8\">Sot. 21ᵃ</cite> <he>הגיע לפ׳ דרכים וכ׳</he> when the traveller reaches the cross-road (where there is a guide-post), he is saved from all dangers. ",
+				"<cite ref=\"Sotah 21a\">Ib.</cite> <he>מהו פ׳ ד׳ וכ׳</he> what is meant by cross-road (in this parable)? A scholar on his dying day.—",
+				"<cite ref=\"Chullin 46a:4\">Ḥull. 46ᵃ</cite> <he>פ׳ ראשונה</he> the first branching off of the spinal column towards the legs, <he>שניה</he> the second branching off in the prolongation which forms the tail. ",
+				"<cite ref=\"Chullin 46a:4\">Ib.</cite> <he>פי פ׳</he> the starting point of the branching off; <he>פ׳ עצמה</he> the branch itself; a. e.—Pl. <he>פָּרָשׁוֹת</he>. Ib. 45ᵇ <he>עד היכך חוט השדרה … עד בין הפ׳</he> how far does the spinal cord go (the severance of which causes the animal to be <i>ṭ’refah</i>)?… To ‘between the ramifications’; <he>ליחוי לן מר בין הפ׳</he> show us the place called ‘between the ramifications’; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>crossing the ocean, sea-voyage</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 35\">Lev. R. s. 35</cite>, v. <cite ref=\"A02838\"><he>אַפְרָשָׁה</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (in writing) <i>division, section, Parashah, the weekly Scripture lesson</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 9b:29\">Ber. 9ᵇ</cite> <he>אשרי</he> … <he>חדא פ׳ היא</he> <i>Ashré</i> (<cite ref=\"Psalms 1\">Ps. I</cite>) and <i>Lammah rag’shu</i> (<cite ref=\"Psalms 2\">Ps. II</cite>) are one section (psalm). Ib. 63ᵃ <he>איזוהי פ׳ קטנה שכל וכ׳</he> which is the small section (verse) on which all essentials of the Law depend? (Answ. ",
+				"<cite ref=\"Proverbs 3:6\">Prov. III, 6</cite>) ‘In all thy ways &c.’ Ib. II, 2 (13ᵃ) <he>למה קדמה פרשת שמע וכ׳</he> Bab. ed. (Mish. a. Y. ed. only <cite ref=\"U01512\"><he>שמע</he></cite>) why is the section Sh’mʿa (<cite ref=\"Deuteronomy 6:4-9\">Deut. VI, 4-9</cite>) recited before V’hayah (ib. XI, 13-21)? <cite ref=\"Bava Batra 14b:12\">B. Bath. 14ᵇ</cite> <he>פרשת בלעם</he> the section treating of Balaam (<cite ref=\"Numbers 22:2\">Num. XXII, 2</cite>-XXIV, 25); a. v. fr.—Pl. <he>פָּרָשִׁיּוֹת</he> (fr. <cite ref=\"Q02037\"><he>פָּרָשׁוּת</he></cite>). ",
+				"<cite ref=\"Berakhot 9b:29\">Ber. 9ᵇ</cite> <he>י״ה פ׳</he> eighteen psalms. ",
+				"<cite ref=\"Bereishit Rabbah 90:2\">Gen. R. s. 90</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 24:9\">Lev. R. s. 24</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 1:12\">Tosef. Sabb. I, 12</cite> <he>תינוקות … פָּרָשִׁיּוֹתֵיהֶן</he> children and teacher may prepare their verses by lamp-light &c.; (Y. ib. I, 3ᵇ bot. <he>ראשי פסוקיהן</he>). ",
+				"<cite ref=\"Berakhot 8b:1\">Ber. 8ᵇ</cite> <he>המשלים פָּרָשִׁיּוֹתָיו עם הצבור</he> he who finishes the reading of the weekly lessons so as to keep up with the public reading in the synagogue. ",
+				"<cite ref=\"Megillah 29b:13\">Meg. 29ᵇ</cite> <he>לסדר פ׳ הוא חוזר</he> the interrupted order of Scriptural reading is taken up again; a. v. fr."
+			],
+			"label": "3"
+		}
+	]
+}

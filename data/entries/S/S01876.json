@@ -1,0 +1,34 @@
+{
+	"id": "S01876",
+	"slug": "קרא-4",
+	"headword": {
+		"text": "קְרָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרָאָה"
+		}
+	],
+	"page": {
+		"number": 1409,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01875\">preced.</cite>) = h. <cite ref=\"M02452\"><he>מִקְרָא</he></cite>, <i>Biblical verse</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite>.—",
+				"<cite ref=\"Berakhot 2a:8\">Ber. 2ᵃ</cite> <he>אק׳ קאי</he>, v. <cite ref=\"S00007\"><he>קָאֵי</he></cite>. ",
+				"<cite ref=\"Berakhot 27a:11\">Ib. 27ᵃ</cite> <he>אמר ק׳ וכ׳</he> the text reads <i>babboḳer</i> &c. ",
+				"<cite ref=\"Berakhot 29b:9\">Ib. 29ᵇ</cite> <he>מאי קראה</he> where is the Biblical passage to prove it? <cite ref=\"Sanhedrin 45b:8\">Snh. 45ᵇ</cite>; <cite ref=\"Sanhedrin 71a:13\">71ᵃ</cite>, a. e. <he>בעינן ק׳ וכ׳</he>, v. <cite ref=\"K01340\"><he>כְּתַב</he> I</cite>. ",
+				"<cite ref=\"Keritot 11b:77\">Ker. 11ᵇ</cite> bot. <he>ק׳ בעי</he> do we need a Bible verse for it?; a. v. fr.—",
+				"<cite ref=\"Berakhot 30b:2\">Ber. 30ᵇ</cite> <he>פוק קרא קְרָאָיךְ לברא</he> go out, read thy verse in the street, i.e. thy authority is not recognized at college; <cite ref=\"Ketubot 56a\">Keth. 56ᵃ</cite>; <cite ref=\"Yevamot 40a:24\">Yeb. 40ᵃ</cite> <he>קַרְיָיךְ</he>, v. <cite ref=\"S02051\"><he>קַרְיָיא</he></cite>.—Pl. <cite ref=\"S01882\"><he>קְרָאֵי</he></cite>. ",
+				"<cite ref=\"Moed Katan 3b:13\">M. Kat. 3ᵇ</cite> <he>והני … ק׳ נינהו</he> are these traditional rulings? are they not intimated in the Biblical text? <cite ref=\"Pesachim 4b:9\">Pes. 4ᵇ</cite> <he>תרי ק׳ כתיבי</he> there are two verses (seemingly contradictory); a. v. fr."
+			]
+		}
+	]
+}

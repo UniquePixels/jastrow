@@ -1,0 +1,28 @@
+{
+	"id": "Q01119",
+	"slug": "פלפלן",
+	"headword": {
+		"text": "פִּלְפְּלָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 1184,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01114\"><he>פִּלְפֵּל</he></cite>, with play on <cite ref=\"Q01117\"><he>פִּלְפָּל</he></cite>) <i>one skilled in arguing, debater</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:5:9\">Y. Hor. III, 48ᶜ</cite> top <he>הסודרן קודם לפיל׳</he> (Bab. ed. <he>סדרן … לפל׳</he>, not <he>לין …</he>) the systematic collector of traditions is preferable to the dialectician. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 3:5:9\">Ib.</cite> (Bab. ed.) <he>מאי את בעי מר׳ אימי דהוא סדרן והוא פ׳</he> (not <he>הפ׳</he>) what do you want of R. I., who is both a systematizer and a debater?; Y. ed. <he>מיתבעי מר׳ אימי הוא הפ׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

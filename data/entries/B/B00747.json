@@ -1,0 +1,41 @@
+{
+	"id": "B00747",
+	"slug": "בישני",
+	"headword": {
+		"text": "בֵּישָׁנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "ביישני"
+		}
+	],
+	"page": {
+		"number": 167,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00746\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>inhabitant</i> or <i>native of Beshan</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 24b\">Meg. 24ᵇ</cite> (ed. <he>בשיני</he>, Ms. M. <he>בשני</he>, corr. acc.).—Pl. <cite ref=\"B00747\"><he>בֵּישָׁנִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:6\">Y. Ber. II, 4ᵈ</cite> bot.; (Meg. l. c. <he>אנשי בית שאן</he>).—Ch. <he>בַּיישַׁנָאֵי</he>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:1:4\">Y. Meg. III, beg. 73ᵈ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>beshani</i>, name of a species of olives. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 7:1\">Peah VII, 1</cite> an olive called <he>ב׳ …</he> (Ms. M. <cite ref=\"B00759\"><he>ביי׳</he></cite>) beshani. Y. ib. 20ᵃ top <he>אית דבעי מימר ב׳ ממש וכ׳</he> some would say, it means really a beshani (named after Beshan), others would derive its name from the fact (v. <cite ref=\"B00394\"><he>בּוֹשׁ</he></cite>) that it shames its neighbor (trees by its richness). [Oth. opin. <i>a dry olive</i>, not used for manufacturing oil.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "I00409",
+	"slug": "טיף-3",
+	"headword": {
+		"text": "טִיף",
+		"homograph": 3
+	},
+	"page": {
+		"number": 533,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"I00412\"><he>טִיפָּה</he></cite>) <i>dripping;</i> <he>ט׳ ט׳</he> <i>constant dripping</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:11\">Pes. 111ᵇ</cite> <he>מאן דשתי ט׳ ט׳</he> one who drinks the drippings of wine. ",
+				"<cite ref=\"Avodah Zarah 30b:3\">Ab. Zar. 30ᵇ</cite> <he>מי ט׳ ט׳ אין וכ׳</he> (Ms. M. omits <cite ref=\"M01072\"><he>מי</he></cite>) to liquids which drip into a vessel the rule concerning uncovered liquids does not apply; <he>והוא דעביד ט׳ ט׳ בהדי ט׳ ט׳</he> Ms. M. (ed. <he>ט׳ להדי ט׳ ט׳ …</he>, v. Rabb. D. S. a. l. note) provided the drops follow each other without intermission."
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "U00796",
+	"slug": "שיבוקא",
+	"headword": {
+		"text": "שִׁיבּוּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבּ׳"
+		}
+	],
+	"page": {
+		"number": 1557,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00169\"><he>שְׁבַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>remission</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 2:1\">Targ. Job II, 1</cite> (ed. Wil. <he>שִׁבּוֹק</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 19:9\">Targ. Y. Num. XIX, 9</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>שִׁיבּוּקִין</he>, <cite ref=\"U00791\"><he>שִׁבּ׳</he></cite> <i>release</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 9:3\">Gitt. IX, 3</cite> (in a formula of a letter of divorce) <he>ספר תירוכין ואיגרת שב׳</he> (Y. ed. <he>שיב׳</he>) letter of divorce and deed of release. Ib. 85ᵇ <he>ולורכיה … דש׳ דמשמע תריכין ושביקין</he> and (in writing the letter of divorce) one must prolong the Vav of <i>tirukhin</i> and of <i>shibbuḳin</i>, lest it may be read <i>t’rikhin, sh’biḳin</i>"
+			],
+			"label": "2"
+		}
+	]
+}

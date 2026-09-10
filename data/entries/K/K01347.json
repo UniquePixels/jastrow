@@ -1,0 +1,28 @@
+{
+	"id": "K01347",
+	"slug": "כתוב-2",
+	"headword": {
+		"text": "כָּתוּב"
+	},
+	"page": {
+		"number": 680,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01339\"><he>כָּתַב</he></cite>) <i>Biblical verse, passage</i>; <he>הַכָּ׳</he> <i>the Bible text</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 18a\">Ḥag. 18ᵃ</cite>, a. fr. <he>במה הכ׳ מדבר</he> of what does the text speak? <cite ref=\"Chagigah 18a:9\">Ib.</cite> <he>הא לא מסרן הכ׳ אלא וכ׳</he> this proves that the Law intended to leave it to the discretion of the scholars to decide &c.—",
+				"<cite ref=\"Pesachim 3a:10\">Pes. 3ᵃ</cite> <he>עקם הכ׳ שמנה וכ׳</he> the text made a circumlocution of eight letters (more than would have been required). Sifra introd., beg. <he>בנין אב מכ׳ אחד</he> a standard rule derived from one verse. ",
+				"<cite ref=\"Pesachim 3a:10\">Ib.</cite> end <he>כ׳ אחד אומר וכ׳</he> one verse reads …, and another reads &c.; a. fr.—Pl. <he>כְּתוּבִים</he>, <he>כְּתוּבִין</he>. Sifra l. c. ",
+				"<cite ref=\"Sanhedrin 45b:12\">Snh. 45ᵇ</cite>; <cite ref=\"Meilah 11b:2\">Meïl. 11ᵇ</cite>, v. <cite ref=\"L00565\"><he>לָמַד</he></cite>; a. fr.—[<cite ref=\"Shemot Rabbah 20\">Ex. R. s. 20</cite>, v. <cite ref=\"K01341\"><he>כְּתָב</he></cite>.]—Esp. <i>K’thubim, Hagiographa</i>, the third part of the Bible. ",
+				"<cite ref=\"Ketubot 50a:13\">Keth. 50ᵃ</cite> <he>תורה נביאים וכ׳</he> (abbrev. <he>תנ״ך</he>) Pentateuch, Prophets and Hagiographa. ",
+				"<cite ref=\"Bava Batra 14b:11\">B. Bath. 14ᵇ</cite> <he>סידרן של כ׳ וכ׳</he> the order of the books of the Hagiographa is: Ruth &c. ",
+				"<cite ref=\"Megillah 31a:12\">Meg. 31ᵃ</cite> <he>ומשולש בכ׳</he> and for the third time intimated in the Hag.; a. fr."
+			]
+		}
+	]
+}

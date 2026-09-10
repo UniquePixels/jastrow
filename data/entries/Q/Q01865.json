@@ -1,0 +1,22 @@
+{
+	"id": "Q01865",
+	"slug": "פרכסין",
+	"headword": {
+		"text": "פְּרַכְסִין"
+	},
+	"page": {
+		"number": 1230,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (πρᾶξις) <i>practice, public life</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:7\">Y. B. Mets. II, 8ᶜ</cite> bot. <he>לא אתית … פ׳ דידכון וכ׳</he> (ed. <cite ref=\"Q01687\"><he>פרוכסין</he></cite>, <cite ref=\"K01121\"><he>כרוכסין</he></cite>, corr. acc.) I have come only to see your ways, how you deal, how you judge."
+			]
+		}
+	]
+}

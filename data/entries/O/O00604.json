@@ -1,0 +1,29 @@
+{
+	"id": "O00604",
+	"slug": "סיטומתא",
+	"headword": {
+		"text": "סִיטּוּמְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִטּ׳"
+		}
+	],
+	"page": {
+		"number": 977,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00495\"><he>סְטַם</he></cite>) <i>seal, signet ring</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 38:18\">Targ. Y. Gen. XXXVIII, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 8:2\">Targ. Esth. VIII, 2</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 74a:3\">B. Mets. 74ᵃ</cite> <he>האי ס׳ קניא</he> putting the seal (mark) on the wine bought gives possession."
+			]
+		}
+	]
+}

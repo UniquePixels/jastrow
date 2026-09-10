@@ -1,0 +1,30 @@
+{
+	"id": "C00540",
+	"slug": "גזזין",
+	"headword": {
+		"text": "גָּזְזִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוֹזְזִין"
+		}
+	],
+	"page": {
+		"number": 229,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= b. h. <he>גֹּזְזִים</he>; <he>גזז</he>) (<i>feast of</i>) <i>wool-shearing</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 38:12\">Targ. Gen. XXXVIII, 12</cite> <he>גָּזְזֵי</he> (Y. <cite ref=\"C00674\"><he>גּוֹ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 25:7\">Targ. I Sam. XXV, 7</cite> <cite ref=\"C00540\"><he>גזזין</he></cite> ed. Lag. (ed. <he>גוז׳</he>); <cite ref=\"Targum Jonathan on I Samuel 25:11\">11</cite> <he>גָּזְזַי</he>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 13:23\">Targ. II Sam. XIII, 23</cite> sq. <cite ref=\"C00526\"><he>גזוזין</he></cite> ed. Lag. (ed. <he>גְּזָז׳</he>)."
+			]
+		}
+	]
+}

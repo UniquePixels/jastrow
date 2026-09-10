@@ -1,0 +1,65 @@
+{
+	"id": "H00640",
+	"slug": "חטף-2",
+	"headword": {
+		"text": "חֲטַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲטֵיף"
+		}
+	],
+	"page": {
+		"number": 450,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00639\">same</cite><i>to seize, snatch</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 21:21\">Targ. Jud. XXI, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 20:33\">Targ. I Kings XX, 33</cite> <he>וחטפוהא מיניה</he> they snatched the word hastily from him (h. text <he>ויחלטו הממנו</he>); a. e.—",
+				"<cite ref=\"Bava Batra 33b:8\">B. Bath. 33ᵇ</cite>, sq. <he>דמִיחֲטַף חַטְפָהּ מיניה</he> that he took it from him forcibly. ",
+				"<cite ref=\"Chullin 133a:6\">Ḥull. 133ᵃ</cite> <he>היה חֲטִיפְנָא מתנתא</he> I used to take the priest’s gifts eagerly (v. <cite ref=\"H00013\"><he>חֲבַב</he></cite>). ",
+				"<cite ref=\"Eruvin 54a:4\">Erub. 54ᵃ</cite> <he>חֲטוֹף ואכול וכ׳</he> make haste and eat &c. (enjoy life, while you live)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to do violence, strain</i> (the text), <i>to misinterpret</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 22:26\">Targ. Ez. XXII, 26</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (of animals of prey) <i>to tear</i>. Targ. II Esth. I, 2 <he>דובין חטפין</he> (read: <he>דֵּיבִין</he>) the wolves (on Solomon’s throne) made an attempt to tear (the false witness). Ib. <he>למחטיף לבהון וכ׳</he>, as if to tear the hearts &c.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַטֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00639\">same</cite>. Ib. (of hawks).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַטַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be robbed, be snatched</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 13:2\">Targ. Prov. XIII, 2</cite>.—Y. Kidd. I, 60ᵇ top <he>והיא מִתְחַטְּפָא</he> and it is taken by force (confiscated)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

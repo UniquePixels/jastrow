@@ -1,0 +1,23 @@
+{
+	"id": "A01957",
+	"slug": "אלתוסבראות",
+	"headword": {
+		"text": "אַלְתּוּסְבְּרָאוֹת"
+	},
+	"page": {
+		"number": 73,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01766\"><he>אַל</he></cite> = <cite ref=\"P00757\"><he>עַל</he></cite>, a. <cite ref=\"V00757\"><he>תוס׳</he></cite>, v. <cite ref=\"V00244\"><he>תּוּסְבְּרָא</he></cite>; cmp. ",
+			"units": [
+				"<cite ref=\"I Chronicles 27:25\">I Chron. XXVII, 25</cite>); v. <cite ref=\"A01765\"><he>אַל־</he></cite>) <i>comes thesaurorum, chief-treasurer</i>. ",
+				"<cite ref=\"Midrash Tehillim 15:1\">Midr. Till. to Ps. XV</cite> <i>magor</i> (his resort, stores) that is <he>א׳ שלו</he> his (the Roman Emperor’s) chief treasurer (or plur. treasurers)."
+			]
+		}
+	]
+}

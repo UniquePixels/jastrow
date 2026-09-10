@@ -1,0 +1,22 @@
+{
+	"id": "P00061",
+	"slug": "עבר-3",
+	"headword": {
+		"text": "עֵבֶר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1040,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Eber</i>, a descendant of Shem, believed to have maintained schools (oracles) in connection with Shem. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 63:10\">Gen. R. s. 63</cite> (ref. to <cite ref=\"Genesis 25:22\">Gen. XXV, 22</cite>) <he>למדרשו של שם וע׳</he> to the school of Shem and Eber. ",
+				"<cite ref=\"Bereishit Rabbah 37:7\">Gen. R. s. 37</cite> <he>נביא גדול היה ע׳ וכ׳</he> E. was a great prophet, for he gave names alluding to coming events. ",
+				"<cite ref=\"Bereishit Rabbah 37:7\">Ib.</cite> s. 42 (expl. <he>העברי</he>, <cite ref=\"Genesis 14:13\">Gen. XIV, 13</cite>) <he>שהוא מבני בניו של ע׳</he> because he is a descendant of Eber; a. fr."
+			]
+		}
+	]
+}

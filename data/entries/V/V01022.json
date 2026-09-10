@@ -1,0 +1,36 @@
+{
+	"id": "V01022",
+	"slug": "תרנגול-2",
+	"headword": {
+		"text": "תַּרְנְגוֹל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּרְנְגוֹלָא"
+		},
+		{
+			"text": "תַּרְנַגְלָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1700,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V01021\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 50:11\">Targ. Ps. L, 11</cite>, v. <cite ref=\"B01153\"><he>בַּר</he></cite> I ch.; a. fr.—",
+				"<cite ref=\"Shabbat 78a\">Sabb. 78ᵃ</cite> <he>ת׳ ברא</he> Ms. M. (ed. <cite ref=\"V01024\"><he>תרנגולת</he></cite>), v. <cite ref=\"B01153\"><he>בַּר</he></cite> I ch. ",
+				"<cite ref=\"Vayikra Rabbah 5:5\">Lev. R. s. 5</cite> (ref. to <cite ref=\"C00129\"><he>גבר</he></cite>, <cite ref=\"Isaiah 22:17\">Is. XXII, 17</cite>) <he>כהדין ת׳ דהוה וכ׳</he> like the cock that moves about from place to place; <cite ref=\"Yalkut Shimoni on Nach 290\">Yalk. Is. 290</cite>. ",
+				"<cite ref=\"Yoma 20b:4\">Yoma 20ᵇ</cite> (expl. <he>קריאת הגבר</he>) <he>קרא ת׳</he> the cock has crowed; <cite ref=\"Jerusalem Talmud Sukkah 5:5:2\">Y. Succ. V, end, 55ᶜ</cite> <cite ref=\"V01024\"><he>תרנוגלא</he></cite>; <cite ref=\"Jerusalem Talmud Shekalim 5:1:15\">Y. Shek. V, 48ᵈ</cite> bot.; a. fr.—<i>Fem.</i> <cite ref=\"V01022\"><he>תַּרְנְגוֹלָא</he></cite>, <cite ref=\"V01024\"><he>תַּרְנְגוּלְתָּא</he></cite>. ",
+				"<cite ref=\"Gittin 55b:16\">Gitt. 55ᵇ</cite> <he>אתרנגולא ות׳ חריב וכ׳</he> on account of a cock and a hen Ṭur Malka was destroyed. ",
+				"<cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite>, v. <cite ref=\"U01126\"><he>שֶׂכְוִי</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 615:3\">Yalk. ib. 615</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 615:3\">Ib.</cite> <he>הדה ת׳ כד וכ׳</he> as long as her chicks are small, the hen calls them together &c. ",
+				"<cite ref=\"Midrash Tehillim 45:5\">Midr. Till. to Ps. XLV</cite> <he>ת׳ ברא</he> the hen of the prairie; a. fr."
+			]
+		}
+	]
+}

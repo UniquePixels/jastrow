@@ -1,0 +1,36 @@
+{
+	"id": "C00609",
+	"slug": "גיב-1",
+	"headword": {
+		"text": "גִּיב"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּב"
+		}
+	],
+	"page": {
+		"number": 234,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"C00031\"><he>גַּב</he></cite>; cmp. <he>דברים בגב</he> s. v. <cite ref=\"C00031\"><he>גַּב</he></cite>), <i>Pa.</i> <he>גַּיֵּיב</he> <i>to reply</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 80:1\">Gen. R. s. 80</cite> <he>מְגַּיֵּיב</he> will he be able to reply (argue)?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָגֵיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C00608\">same</cite>. Y. Ber. I, 3ᵇ top <he>מֵגִיב ליה חבריה</he> upon which his colleague remarked. Ib. IV, 8ᵇ top. Y. Kidd. I, 61ᵇ [read:] <he>אימיה … אמרה לכון אכין ואגיבונתה אכין … אמרה לון אכין ואגיבונה אכין</he> R. Tarfon’s mother spoke to you thus (as reported), and ye answered her accordingly; R. Yishmael’s mother spoke to us thus, and we &c. [<cite ref=\"Niddah 65b:31\">Nidd. 65ᵇ</cite> <he>דמגבי</he>, read <he>דמְגִיבֵי</he>; v. <cite ref=\"C00690\"><he>גִּיחַ</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

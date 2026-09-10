@@ -1,0 +1,20 @@
+{
+	"id": "H01255",
+	"slug": "חנואה",
+	"headword": {
+		"text": "חֶנְוָאָה"
+	},
+	"page": {
+		"number": 481,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01271\"><he>חָנוּת</he></cite>) <i>a frequenter of taverns, idler</i> (cmp. <cite ref=\"E00319\"><he>הַטְלֵיס</he></cite>). ",
+			"units": ["<cite ref=\"Pesachim 110b\">Pes. 110ᵇ</cite>"]
+		}
+	]
+}

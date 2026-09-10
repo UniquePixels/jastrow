@@ -1,0 +1,37 @@
+{
+	"id": "Q00802",
+	"slug": "פיקודא",
+	"headword": {
+		"text": "פִּיקּוּדָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּקּ׳"
+		}
+	],
+	"page": {
+		"number": 1169,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"Q00801\">same</cite><i>command</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 19:9\">Targ. Ps. XIX, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 27:26\">Targ. Y. Deut. XXVII, 26</cite>; a. e.—<i>Pl.</i> (<i>masc.</i>) <he>פִּיקּוּדַיָּיא</he>, <cite ref=\"Q01451\"><he>פִּיקּ׳</he></cite>. Targ. Ps. l. c. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:1\">Targ. Deut. XXVIII, 1</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>muster, count</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:3:4\">Y. Shek. I, 46ᵇ</cite> (ref. to <cite ref=\"Exodus 30:14\">Ex. XXX, 14</cite>) <he>כל דעבר על פ׳ יתן</he> all those who passed the mustering (<cite ref=\"Numbers 1\">Num. I</cite>) shall give (half a Shekel, exempting the tribe of Levi, acc. to <cite ref=\"Numbers 1:47\">Num. I, 47</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

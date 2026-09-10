@@ -1,0 +1,46 @@
+{
+	"id": "K00451",
+	"slug": "כח-3",
+	"headword": {
+		"text": "כֹּחַ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כֹּחָא"
+		},
+		{
+			"text": "כּוֹ׳"
+		}
+	],
+	"page": {
+		"number": 628,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"K00450\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:6\">Targ. Lam. I, 6</cite>.—",
+				"<cite ref=\"Beitzah 2b:6\">Bets. 2ᵇ</cite>, a. fr. (mostly in Hebrew form), v. supra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a <i>lizzard</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:30\">Targ. Lev. XI, 30</cite> (h. text <he>כח</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>בַּר כּוֹחָא</he> pr. n. m. <i>Bar-Koḥa</i>. Y. Sabb. XIV, 14ᵈ bot.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

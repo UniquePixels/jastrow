@@ -1,0 +1,50 @@
+{
+	"id": "S01744",
+	"slug": "קפיצה",
+	"headword": {
+		"text": "קְפִיצָה"
+	},
+	"page": {
+		"number": 1401,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01764\"><he>קָפַץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>leaping</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 22\">Midr. Till. to Ps. XXII</cite> <he>אותה ק׳</he> ed. Bub. (ed. <he>הקְפָצָה</he>), v. <cite ref=\"S01764\"><he>קָפַץ</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 687\">Yalk. ib. 687</cite>.—Pl. <he>קְפִיצוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:6:4\">Y. Succ. V, 55ᶜ</cite> top <he>היה … בקְפִיצוֹתָיו</he> prided himself on his leaping performances."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>miraculous translation from place to place</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 43a:11\">Erub. 43ᵃ</cite> <he>רקאזיל בק׳</he> he traversed a large distance by miraculous flight; <cite ref=\"Yevamot 116a\">Yeb. 116ᵃ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>skipping, intermission</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 11a:15\">Nidd. 11ᵃ</cite> <he>בלא ק׳</he> regularly.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Niddah 11a:15\">Ib.</cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " [<i>closing of lips</i>,] <i>mimic intimation of</i>, or <i>to a deaf and dumb person</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Gittin 71a:11\">Gitt. 71ᵃ</cite> <he>לא הלכו … ואחר קפיצותיו וכ׳</he> we follow his intimations by hints or motions of the lips or by writing only in the disposal of chattel, but not for letters of divorce."
+			],
+			"label": "4"
+		}
+	]
+}

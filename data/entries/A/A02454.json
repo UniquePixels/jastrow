@@ -1,0 +1,32 @@
+{
+	"id": "A02454",
+	"slug": "אסכלא-1",
+	"headword": {
+		"text": "אַסְכָּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַסְכָּלָה"
+		}
+	],
+	"page": {
+		"number": 94,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00910\"><he>סכל</he></cite>, √<cite ref=\"O00871\"><he>סך</he></cite>, cmp. ",
+			"units": [
+				"<cite ref=\"Genesis 48:14\">Gen. XLVIII, 14</cite>) <i>lattice-work of a fire place, grating, grille</i>. ",
+				"<cite ref=\"Mishnah Pesachim 7:2\">Pes. VII, 2</cite>. ",
+				"<cite ref=\"Pesachim 75a:2\">Ib. 75ᵃ</cite> <he>א׳ מנוקבת</he> (Ms. M. <cite ref=\"A01752\"><he>אִי׳</he></cite>) perforated grille (with holes in the upright bars for the spit to turn in, v. Rashi a. l.). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:2:2\">Y. Pes. VII, 34ᵃ</cite> bot. <he>צלי אסכלה</he> roasted over the grate.—Pl. <he>אַסְכָּלוֹת</he>. Sifré Num. s. 158.—<he>אַסְכָּלָאוֹת</he>. ",
+				"<cite ref=\"Avodah Zarah 75b\">Ab. Zar. 75ᵇ</cite>; Tanḥ. Ḥukk. 2.—<i>Chald.</i> pl. <he>אַסְכָּלָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 31:23\">Targ. Y. Num. XXXI, 23</cite>. Cmp. <cite ref=\"I00763\"><he>טַרְטְקָל</he></cite>. [Ἔσχαρα does not correspond in meaning.]"
+			]
+		}
+	]
+}

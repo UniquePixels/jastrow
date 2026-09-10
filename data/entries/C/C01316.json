@@ -1,0 +1,31 @@
+{
+	"id": "C01316",
+	"slug": "גרושין",
+	"headword": {
+		"text": "גֵּרוּשִׁין"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֵּירוּשִׁין"
+		}
+	],
+	"page": {
+		"number": 267,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"C01404\"><he>גרש</he></cite>) <i>sending off, divorce</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite>; Lam. R. introd. 4 (ref. to <cite ref=\"Genesis 3:23\">Gen. III, 23</cite> sq.) <he>דנתי אותו בשלוחין ובג׳</he> I punished him with expulsion and banishment.—",
+				"<cite ref=\"Gittin 64a:2\">Gitt. 64ᵃ</cite> <he>שליש אומר לגי׳</he> the trustee says (the letter has been given me not as a deposit but) as a letter of divorce which I was authorized by thy wife to receive in her behalf.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:16\">Y. Kidd. I, 58ᶜ</cite> top <he>גוים אין להן ג׳</he> the law of divorce (according to <cite ref=\"Deuteronomy 24:3\">Deut. XXIV, 3</cite>) does not apply to gentiles. ",
+				"<cite ref=\"Deuteronomy 24:3\">Ib.</cite> <he>או שאין להם ג׳ וכ׳</he> either they have not the institution of divorce, or either may divorce the other; <cite ref=\"Bereishit Rabbah 18:5\">Gen. R. s. 18</cite>; a. fr."
+			]
+		}
+	]
+}

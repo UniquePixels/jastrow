@@ -1,0 +1,22 @@
+{
+	"id": "M00677",
+	"slug": "מורתא",
+	"headword": {
+		"text": "מוּרְתָּא"
+	},
+	"page": {
+		"number": 751,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"M00605\"><he>מוֹר</he></cite>), <he>מ׳ שחיקתא</he> <i>a solution of pounded myrrh-gum</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:14\">Y. Ber. VI, 10ᵃ</cite> bot."
+			]
+		}
+	]
+}

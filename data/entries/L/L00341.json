@@ -1,0 +1,27 @@
+{
+	"id": "L00341",
+	"slug": "לחוש-2",
+	"headword": {
+		"text": "לָחוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְחוּשׁ"
+		}
+	],
+	"page": {
+		"number": 702,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"L00371\"><he>לָחַשׁ</he> I</cite>) <i>flaming, red</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 30:32\">Targ. Y. Gen. XXX, 32</cite>, sq. a. e. (O. <he>שחום</he>, h. text <he>חום</he>)."
+			]
+		}
+	]
+}

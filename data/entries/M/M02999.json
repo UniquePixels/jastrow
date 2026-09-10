@@ -1,0 +1,32 @@
+{
+	"id": "M02999",
+	"slug": "משתיתא-2",
+	"headword": {
+		"text": "מַשְׁתִּיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַשְׁתֵּי׳"
+		},
+		{
+			"text": "מַשְׁתֵּי"
+		}
+	],
+	"page": {
+		"number": 859,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שְׁתִי</he> II) <i>web</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 16:13\">Targ. Jud. XVI, 13</cite>, sq.—",
+				"<cite ref=\"Niddah 58a:39\">Nidd. 58ᵃ</cite>. ",
+				"<cite ref=\"Shemot Rabbah 42:8\">Ex. R. s. 42</cite>, end <he>משתי בישתא</he>, v. <cite ref=\"M01944\"><he>מַסֵּכָה</he> II</cite>."
+			]
+		}
+	]
+}

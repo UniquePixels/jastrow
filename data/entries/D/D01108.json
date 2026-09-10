@@ -1,0 +1,30 @@
+{
+	"id": "D01108",
+	"slug": "דרמסקוס",
+	"headword": {
+		"text": "דַּרְמֵסְקוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּרְמוּסְ׳"
+		},
+		{
+			"text": "דרומיס׳"
+		}
+	],
+	"page": {
+		"number": 324,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (<i>district of</i>) <i>Damascus</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite>, end <he>דרמו׳</he>; <cite ref=\"Yalkut Shimoni on Torah 78\">Yalk. ib. 78</cite> <he>דרמס׳</he> (expl. <he>הקיני</he>, <cite ref=\"Genesis 15:19\">Gen. XV, 19</cite>); <cite ref=\"Bava Batra 56a:9\">B. Bath. 56ᵃ</cite> <he>ערדיסקוס</he>."
+			]
+		}
+	]
+}

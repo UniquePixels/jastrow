@@ -1,0 +1,36 @@
+{
+	"id": "M01239",
+	"slug": "מיסב-1",
+	"headword": {
+		"text": "מִיסַּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵיסַב"
+		},
+		{
+			"text": "מֵסַב"
+		},
+		{
+			"text": "מְסַב"
+		}
+	],
+	"page": {
+		"number": 777,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00917\"><he>נְסַב</he></cite>) <i>taking, lifting up</i>.—<he>מ׳ אפין</he> = h. <he>משוא פנים</he>, <i>partiality</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 23:3\">Targ. Y. Ex. XXIII, 3</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Genesis 4:8\">Targ. Y. I Gen. IV, 8</cite> (not <cite ref=\"M03049\"><he>מתיב</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 28:21\">Targ. Prov. XXVIII, 21</cite> <he>מ׳ באפי</he> (read: <cite ref=\"A02668\"><he>אַפֵּי</he></cite>).—<he>מ׳ וּמִיתַּן</he> taking and giving, <i>dealing</i>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 9:4\">Targ. Is. IX, 4</cite>."
+			]
+		}
+	]
+}

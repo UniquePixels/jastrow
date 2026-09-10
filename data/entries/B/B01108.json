@@ -1,0 +1,32 @@
+{
+	"id": "B01108",
+	"slug": "בצר-4",
+	"headword": {
+		"text": "בֶּצֶר"
+	},
+	"page": {
+		"number": 185,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"B01087\"><he>בָּצִיר</he></cite> <i>crop</i>, trnsf. <i>means of support</i>, (<i>family-</i>) <i>trade</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 40\">Ex. R. s. 40</cite>, end <he>לעולם … מניח בִּצְרוֹ</he> one should never give up his trade; <cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite>, end <he>מחליף בְּצִירוֹ</he> (<cite ref=\"Arakhin 16a\">Arakh. 16</cite> <he>אומנותו ואומנות אבותיו</he>). Ex. R. l. c. (insert <cite ref=\"Job 22:24-25\">Job XXII, 24—25</cite> as text) the Lord says, <he>אני הוא בִצְרְכֶן … בִצְרָן וכ׳</he> I am your support, give ye never up your support (faith); but also the support of your fathers ye must not give up (labor) &c. Pesik. R. l. c. thou art our God <he>ובְצִירֵנוּ</he> and our support (ref. to <cite ref=\"Psalms 95:6\">Ps. XCV, 6</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pl. <cite ref=\"B01098\"><he>בְּצָרִים</he></cite> <i>fort</i>. Ex. R. l. c. (ref. to Job l. c.; cmp. Targ.) <he>שנעשה חומותיך</he> He will be thy fortification. [<cite ref=\"Yalkut Shimoni on Torah 811:1\">Yalk. Deut. 811</cite>, v. <cite ref=\"B00682\"><he>בִּיצּוּר</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

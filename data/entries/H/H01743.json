@@ -1,0 +1,23 @@
+{
+	"id": "H01743",
+	"slug": "חרפה",
+	"headword": {
+		"text": "חֶרְפָּה"
+	},
+	"page": {
+		"number": 505,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01739\"><he>חָרַף</he></cite>) [<i>paleness</i>,] <i>shame; revilement</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 80:8\">Gen. R. s. 80</cite>. ",
+				"<cite ref=\"Shabbat 88b\">Sabb. 88ᵇ</cite>, a. e. <he>שומעין חֶרְפָּתָן וכ׳</he> hear themselves reviled and answer not."
+			]
+		}
+	]
+}

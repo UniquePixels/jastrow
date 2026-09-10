@@ -1,0 +1,30 @@
+{
+	"id": "L00659",
+	"slug": "לץ-2",
+	"headword": {
+		"text": "לֵץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לֵיץ"
+		}
+	],
+	"page": {
+		"number": 716,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"L00312\"><he>לוּץ</he></cite>)<i>scorner, scoffer, frivolous person</i>. . ",
+			"units": [
+				"<cite ref=\"Sotah 42a:3\">Sot. 42ᵃ</cite> <he>כת ל׳</he> the class of scorners. ",
+				"<cite ref=\"Sanhedrin 101a:2\">Snh. 101ᵃ</cite>, v. <cite ref=\"K00846\"><he>כִּנּוֹר</he></cite>; a. fr.—<he>מושב ל׳</he> (<cite ref=\"Psalms 1:1\">Ps. I, 1</cite>) scorners’ gathering, <i>bad company</i>. ",
+				"<cite ref=\"Kiddushin 41a:1\">Kidd. 41ᵃ</cite> <he>מושבו מושב ל׳</he> his company is the bad company (meant in Ps. l. c.). ",
+				"<cite ref=\"Avodah Zarah 18b:16\">Ab. Zar. 18ᵇ</cite> (<he>אסור</he>) <he>מפני מ׳ ל׳</he> (is forbidden as) coming under the category of being in bad company; a. fr."
+			]
+		}
+	]
+}

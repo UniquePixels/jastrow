@@ -1,0 +1,20 @@
+{
+	"id": "B01305",
+	"slug": "ברס",
+	"headword": {
+		"text": "ברס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 196,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", Af. <he>אַבְרִיס</he> <i>to bray</i> (used of the wild ass when hungry). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:5\">Targ. Job VI, 5</cite> (Ms. <he>מַכְרִיס</he>, perh. a denom. of <cite ref=\"K01244\"><he>כֶּרֶס</he></cite> <i>stomach, appetite</i>)."
+			]
+		}
+	]
+}

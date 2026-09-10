@@ -1,0 +1,24 @@
+{
+	"id": "S02013",
+	"slug": "קרטסא",
+	"headword": {
+		"text": "קַרְטְסָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 1417,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a contraction of Cretensis, cmp. Κρητικόν, sub. ἱμάτιον) <i>a short and light linen dress</i>.—Pl. <he>קַרְטְסַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:23\">Targ. Is. III, 23</cite> (h. text <he>סדינים</he>)."
+			]
+		}
+	]
+}

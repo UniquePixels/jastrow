@@ -1,0 +1,43 @@
+{
+	"id": "C00053",
+	"slug": "גבוה",
+	"headword": {
+		"text": "גָּבוֹהַּ"
+	},
+	"page": {
+		"number": 204,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00052\">preced. ws.</cite>), constr. <cite ref=\"C00050\"><he>גְּבַהּ</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>high, exalted, elevated</i> &c. ",
+			"units": [
+				"<cite ref=\"Sotah 5a:18\">Sot. 5ᵃ</cite> among men <he>ג׳ רואה את הַגָּ׳ וכ׳</he> a high persou looks up to a higher one, but ignores the lower one. ",
+				"<cite ref=\"Bereishit Rabbah 22:13\">Gen. R. s. 22</cite> (ref. to <cite ref=\"Psalms 32:1\">Ps. XXXII, 1</cite>) happy is he <he>שהוא ג׳ מפשעו וכ׳</he> who is higher than (who controls) his sin, and whose sin is not higher than himself; a. fr.—",
+				"<cite ref=\"Sanhedrin 5b:10\">Snh. 5ᵇ</cite> (in Chald. diction) <he>אבוה … גְּבַהּ עינים הוה</he> this man’s (my) father was ambitious.—Fem. <he>גְּבוֹהָה</he>. ",
+				"<cite ref=\"Pirkei Avot 5:19\">Ab. V, 19</cite> <he>רוח ג׳</he> <i>haughtiness</i>, opp. <cite ref=\"N00858\"><he>נמוכה</he></cite>.—Pl. <he>גְּבוֹהִים</he>, f. <he>גְּבוֹהוֹת</he>. ",
+				"<cite ref=\"Esther Rabbah 8:5\">Esth. R. to IV, 7</cite> <he>הג׳ הושפלו</he> the high were lowered.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 6:1:8\">Y. Shebi. VI, 36ᶜ</cite> top <he>עיניו … היו ג׳</he> my father was ambitious, v. supra.—Esp. <he>הַגָּבוֹהַּ</he> <i>the Most High</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:9:3\">Y. Snh. VII, 25ᵇ</cite> top; ib.ᶜ top <he>בעבודתה בעבודת</he>(<cite ref=\"E00000\"><he>ה</he></cite>)<he>ג׳</he> with a service peculiar to it (that idol), or with a service prescribed for the worship of the Lord; <cite ref=\"Jerusalem Talmud Nazir 6:1:3\">Y. Naz. VI, beg. 54ᶜ</cite> <he>למלאכת הג׳</he> referring to a service prescribed for the worship of the Lord (but applied to an idol).—",
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:2:3\">Y. Ned. I, 37ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Nazir 1:1:6\">Y. Naz. I, beg. 51ᵃ</cite> <he>לשון ג׳ הוא</he> it is an expression alluding to Divinity, v. <cite ref=\"H01727\"><he>חֶרֶס</he></cite>.—לַגָּ׳ <i>for the Lord, on the altar</i>. ",
+				"<cite ref=\"Pesachim 3b:8\">Pes. 3ᵇ</cite> <he>אליה לג׳ סלקא</he> the fat-tail is offered on the altar; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an abnormally tall and slim person with shaking gait</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45b:8\">Bekh. 45ᵇ</cite> (explain. <he>קפח</he>, <cite ref=\"K00605\"><he>כיפח</he></cite> Mish.) <cite ref=\"C00053\"><he>גבוה</he></cite> ed. (Ar. <cite ref=\"C00067\"><he>גִּבֵּחַ</he></cite>).—Fem. <he>גְּבוֹהִית</he>. ",
+				"<cite ref=\"Bekhorot 45b:8\">Ib.</cite> (Ar. <cite ref=\"C00069\"><he>גִּבַּחַת</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

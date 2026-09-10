@@ -1,0 +1,55 @@
+{
+	"id": "Q01757",
+	"slug": "פרח-4",
+	"headword": {
+		"text": "פְּרַח",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּרְחָא"
+		},
+		{
+			"text": "פִּרְחָה"
+		},
+		{
+			"text": "פִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 1224,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01756\">same</cite><i>flower</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 30:37\">Targ. Y. Gen. XXX, 37</cite> (v. <cite ref=\"Q01755\"><he>פְּרַח</he> I</cite>). [<cite ref=\"Aramaic Targum to Job 20:3\">Targ. Job XX, 3</cite>, v. <cite ref=\"Q00176\"><he>פּוּחָא</he></cite>.]—Esp. <i>caper-blossom</i>, also <i>caper-tree</i>. ",
+				"<cite ref=\"Berakhot 40b:22\">Ber. 40ᵇ</cite> (expl. <cite ref=\"N01138\"><he>נצפה</he></cite>) <he>פרחה</he> (Ms. F. <cite ref=\"Q00851\"><he>פירחא</he></cite>). ",
+				"<cite ref=\"Berakhot 36a:15\">Ib. 36ᵃ</cite> <he>אדעתא דפ׳</he> for the sake of the caper. ",
+				"<cite ref=\"Berakhot 36b:6\">Ib. 36ᵇ</cite>, v. <cite ref=\"B00232\"><he>בּוּטִּיתָא</he></cite>; a. e.—Pl. <he>פִּרְחֵי</he>. ",
+				"<cite ref=\"Pesachim 111b:3-4\">Pes. 111ᵇ</cite> <he>טולי בי פ׳ רוחי</he> (the demons dwelling in) the shade of caper-trees are named <i>ruḥé</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a species of <i>locusts</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joel 1:4\">Targ. Joel I, 4</cite> (h. text <cite ref=\"J00400\"><he>ילק</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>palpitation of the heart</i>. ",
+			"units": ["<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite>"],
+			"label": "3"
+		},
+		{
+			"gloss": " *<i>that which is blown off, particle, crumb.—</i>Pl. <he>פִּרְחַיָּיא</he>. ",
+			"units": [
+				"<cite ref=\"Pesachim 110a:14\">Pes. 110ᵃ</cite> bot. (in an incantation) <he>פרח פִּרְחַיְיכִי</he> let the wind carry off your crumbs (with which you conjure; v., however, Rashi a. l.)."
+			],
+			"label": "4"
+		}
+	]
+}

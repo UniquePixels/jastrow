@@ -1,0 +1,22 @@
+{
+	"id": "O01340",
+	"slug": "ספורה",
+	"headword": {
+		"text": "סְפוֹרָה"
+	},
+	"page": {
+		"number": 1012,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"O01429\"><he>סְפֹרָה</he></cite>; <cite ref=\"O01415\"><he>סָפַר</he></cite>)<i>number</i>.—Pl. <he>סְפוֹרוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:4\">Y. Shek. V, beg. 48ᶜ</cite> (ref. to <cite ref=\"I Chronicles 2:55\">I Chr. II, 55</cite> they are named Sof’rim, <he>שעשו את התורה ס׳ ס׳</he> because they arranged the Law by numbers (as in <cite ref=\"Mishnah Terumot 1:1\">Ter. I, 1</cite>; <cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> etc.); Yalk. Chr. 1074 <cite ref=\"O01379\"><he>סְפִירוֹת</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M00843",
+	"slug": "מחזירה",
+	"headword": {
+		"text": "מַחְזִירָה"
+	},
+	"page": {
+		"number": 758,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00561\"><he>חֲזַר</he></cite>) = <cite ref=\"M00344\"><he>מַהֲדוֹרָא</he></cite>, <i>review, revision</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:1:21\">Y. Sabb. I, 2ᵈ</cite> (in a defective sentence) <he>במ׳ תניינא א״ל וכ׳</he> on reviewing again he said to him &c."
+			]
+		}
+	]
+}

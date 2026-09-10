@@ -1,0 +1,48 @@
+{
+	"id": "H00695",
+	"slug": "חיזוק",
+	"headword": {
+		"text": "חִיזּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִזּ׳"
+		}
+	],
+	"page": {
+		"number": 453,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00553\"><he>חָזַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>repairing, supporting</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:5:2\">Y. Erub. V, 22ᵈ</cite> bot. <he>לח׳ בתים וכ׳</he> (the handle of an axe wedged in between two buildings) was intended to support the houses, v. <cite ref=\"D00669\"><he>דִּיסְתְּקָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>effort, mental energy</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 32b:11\">Ber. 32ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 5:1\">Yalk. Josh. 5</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>fastening, stringent measures for the protection of the law</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 83b:15\">Keth. 83ᵇ</cite>, a. e. <he>חכמים עשו ח׳ לדבריהם וכ׳</he> the scholars protected their own enactments more than the biblical laws. ",
+				"<cite ref=\"Eruvin 3a:26\">Erub. 3ᵃ</cite> <he>סוכה דאורייתא לא בעי ח׳ וכ׳</he> the law of Succah being Biblical requires no protection, but that about &c. ",
+				"<cite ref=\"Ketubot 56b:5\">Keth. 56ᵇ</cite>; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

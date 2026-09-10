@@ -1,0 +1,23 @@
+{
+	"id": "N00654",
+	"slug": "ניטופתא",
+	"headword": {
+		"text": "נִיטּוֹפְתָּא"
+	},
+	"page": {
+		"number": 904,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00578\"><he>נְטַף</he></cite>) <i>drop</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73b:1\">B. Bath. 73ᵇ</cite>, v. <cite ref=\"N00578\"><he>נְטַף</he></cite>.—Pl. <he>נִיטּופְיָיתָא</he>. ",
+				"<cite ref=\"Gittin 69b:16\">Gitt. 69ᵇ</cite>"
+			]
+		}
+	]
+}

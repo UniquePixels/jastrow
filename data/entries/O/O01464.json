@@ -1,0 +1,28 @@
+{
+	"id": "O01464",
+	"slug": "סקורטיא",
+	"headword": {
+		"text": "סְקוֹרְטְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְקוֹרְטְיָה"
+		}
+	],
+	"page": {
+		"number": 1019,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (scortea, sub. vestis; v. <cite ref=\"A01501\"><he>אִיסְקוֹרְטְיָא</he></cite>) <i>leather coat;also leather apron</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:4\">Kel. XVI, 4</cite> (Maim. <i>leather table-cover</i>, v. <cite ref=\"R00435\"><he>צִיצָה</he></cite>). Ib. XXVI, 5 (6) <he>עור ס׳</he> the skin intended for a <i>scortea</i>. Ohol. VIII, 1 <he>ס׳</he> <i>a leather bed-sheet</i>. ",
+				"<cite ref=\"Tosefta Shabbat 5\">Tosef. Sabb. V (VI), 14. Ned. 55</cite>ᵇ, [read as:] Y. ib. VII, end, 40ᶜ; <cite ref=\"Tosefta Shabbat 4:3\">Tosef. ib. IV, 3</cite><cite ref=\"Nedarim 55b\">Ned. 55ᵇ</cite>, [read as:] Y. ib. VII, end, 40ᶜ; <cite ref=\"Tosefta Nedarim 4:3\">Tosef. ib. IV, 3</cite> <he>איסק׳</he>; a. e. [Ned. l. c. <he>מאי איסק׳ כיתונא דצלא</he> <i>scortea</i> is a leather coat.]"
+			]
+		}
+	]
+}

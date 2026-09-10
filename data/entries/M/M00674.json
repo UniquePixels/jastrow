@@ -1,0 +1,33 @@
+{
+	"id": "M00674",
+	"slug": "מורשא",
+	"headword": {
+		"text": "מוֹרְשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹרְשָׁה"
+		}
+	],
+	"page": {
+		"number": 751,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"T00718\"><he>רֵישָׁא</he></cite>) <i>projecting point</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 24a\">Ber. 24ᵃ</cite> <he>מ׳ דכובע</he> the top of the cap (the bag containing the T’fillin). ",
+				"<cite ref=\"Eruvin 76b:3\">Erub. 76ᵇ</cite>; <cite ref=\"Sukkah 8a:3\">Succ. 8ᵃ</cite> <he>מ׳ דקרנאתא</he> the projection of the corners (of a square inscribed in a circle). ",
+				"<cite ref=\"Bava Batra 3a:16\">B. Bath. 3ᵃ</cite> <he>מ׳ דקרנתא</he> the projections of a rough stone wall. ",
+				"<cite ref=\"Shabbat 77b:5\">Sabb. 77ᵇ</cite> <he>מ׳ קמא דכתית</he> the top of the scab, opp. <cite ref=\"E00212\"><he>הוּדְרָנָא</he></cite>. ",
+				"<cite ref=\"Shabbat 100b:10\">Ib. 100ᵇ</cite> <he>ודילמא מ׳ אית לה</he> Ms. M. perhaps the ground in the water has a projecting eminence (v. Tosaf. a. l.; ed. <he>והא מ׳ אית לה</he> but has not the ship a projecting point (a helm)?—",
+				"<cite ref=\"Chullin 17b:2\">Ḥull. 17ᵇ</cite> <he>מ׳ קמא וכ׳</he> the anterior edge of a notch in a knife cuts smoothly (the skin and flesh) and the posterior edge tears the vital parts (<cite ref=\"O00709\"><he>סימנים</he></cite>). ",
+				"<cite ref=\"Menachot 94b:3\">Men. 94ᵇ</cite> <he>מורשה עביד להו</he> (Rashi <cite ref=\"M00674\"><he>מורשא</he></cite>) he attache sto the shipshaped cake a projection."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "K01213",
+	"slug": "כרכמית",
+	"headword": {
+		"text": "כַּרְכְּמִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּרְ׳"
+		}
+	],
+	"page": {
+		"number": 670,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Kark’mith</i>, a freed woman. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 5:6\">Eduy. V, 6</cite>; <cite ref=\"Berakhot 19a:9\">Ber. 19ᵃ</cite>; <cite ref=\"Sifrei Bamidbar 7:1\">Sifré Num. 7</cite>;—",
+				"<cite ref=\"Yalkut Shimoni on Torah 706:3\">Yalk. Num. 706</cite>; <cite ref=\"Bamidbar Rabbah 9:28\">Num. R. s. 9</cite> <he>כור׳</he>. Y. Sot. II, end, 18ᵇ <he>כור׳ תוכיח</he> let the case of K. come in as evidence."
+			]
+		}
+	]
+}

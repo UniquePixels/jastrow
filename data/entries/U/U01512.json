@@ -1,0 +1,116 @@
+{
+	"id": "U01512",
+	"slug": "שמע-2",
+	"headword": {
+		"text": "שְׁמַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1599,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01511\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:5\">Targ. Gen. XXVII, 5</cite>. ",
+				"<cite ref=\"Onkelos Exodus 18:1\">Targ. Ex. XVIII, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 4:16\">Targ. Job IV, 16</cite>; a. v. fr.—Part. pass. <cite ref=\"U01474\"><he>שְׁמִיעַ</he></cite>; f. <cite ref=\"U01476\"><he>שְׁמִיעָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 29:3\">Targ. Ps. XXIX, 3</cite>, sq. ",
+				"<cite ref=\"Targum of II Chronicles 7:12\">Targ. II Chr. VII, 12</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 10:6:8\">Y. Ter. X, 47ᵇ</cite> bot. <he>אנא מה דשַׁמְעִית ואינון מה דשַׁמְעוּן</he> I report what I have heard, and they, what they have heard. ",
+				"<cite ref=\"Shabbat 46b:6\">Sabb. 46ᵇ</cite> <he>הא שַׁמְעִינָן ליה לר״ש וכ׳</he> have we not heard what R. S. says &c.? <cite ref=\"Jerusalem Talmud Sotah 7:1:5\">Y. Sot. VII, beg. 21ᵇ</cite>, v. <cite ref=\"A01923\"><he>אֲלִנִיסְטִי</he></cite>; a. v. fr.—<he>שמיע ל־</he> he has heard, <i>he knows of</i>. ",
+				"<cite ref=\"Eruvin 9b:7\">Erub. 9ᵇ</cite> <he>ור״י מי לא ש׳ ליה הא</he> but has R. J. not heard that (does he not know that Boraitha of R. Ḥiya)? <he>ש׳ ליה ולא סבר</he> (v. Rabb. D. S. a. l.) he knows of it, but does not accept it. ",
+				"<cite ref=\"Eruvin 10a:8\">Ib. 10ᵃ</cite>, a. fr. <he>לא ש׳ לי הא שמעתתא</he> this tradition is not known to me. ",
+				"<cite ref=\"Pesachim 34a:5\">Pes. 34ᵃ</cite> <he>מידי ש׳ לך בהא</he> do you know anything about this (hălakhah)?; a. v. fr.—Esp. <he>שמע מ־</he> <i>to understand from, to infer, prove</i>. ",
+				"<cite ref=\"Avodah Zarah 72b:6\">Ab. Zar. 72ᵇ</cite>, a. fr. <he>ש׳ מינה וכ׳</he> (abbrev. <he>ש״מ</he>) deduce from this that &c. ",
+				"<cite ref=\"Avodah Zarah 72b:6\">Ib.</cite> <he>שַׁמְעַת מינה וכ׳</he> wilt thou conclude from this that &c.? <cite ref=\"Avodah Zarah 72b:6\">Ib.</cite>, a. fr. <he>אלא מהא ליכא למִשְׁמַע מינה</he> but (the conclusion is,) you can derive nothing from this.—",
+				"<cite ref=\"Avodah Zarah 72b:6\">Ib.</cite>, a. fr. <he>תא שמע</he> (abbrev. <he>ת״ש</he>; v. <cite ref=\"A03397\"><he>אֲתָא</he></cite>) come and learn, i.e. derive it from the following. ",
+				"<cite ref=\"Shabbat 13b:3\">Sabb. 13ᵇ</cite> <he>ת״ש</he> … <he>ש״מ ואלו תנן ש״מ</he> I will prove it (from this Tosefta): ‘you must not …, and those are some of the halakhoth &c.’, which proves that the right version is ‘<i>and</i> those’: it stands proved. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:21\">Y. M. Kat. III, 83ᵃ</cite> top <he>נִישְׁמְעִינָהּ מן הדא</he> let us prove it from this; a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁמַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to make music; to sing</i>, v. <i>Af.</i>",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<cite ref=\"U01516\"><he>שַׁמְּעָא</he></cite>) <i>to minister to, be an attendant of</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 41b:5\">Ber. 41ᵇ</cite> <he>מאן … ונְשַׁמְּעִינָךְ</he> would that we had iron feet, that we could always wait on thee! <cite ref=\"Megillah 28b:16\">Meg. 28ᵇ</cite> <he>ניחא לי דאֲשַׁמְּעֵיה למר</he> (Ms. M. <he>דאשתמש ליה למר</he>, v. Rabb. D. S. a. l.) it gives me pleasure to be your servant; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַשְׁמַע"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to hear, cause to be heard, announce, proclaim</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 4:36\">Targ. Deut. IV, 36</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 52:7\">Targ. Is. LII, 7</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 26:7\">Targ. Ps. XXVI, 7</cite>; a. fr.—Esp. (interch. with <i>Pa.</i>) <i>to make music, play; to be a musician</i>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 29:5\">Targ. I Sam. XXIX, 5</cite> (Ms. <i>Pa.</i>). ",
+						"<cite ref=\"Targum of I Chronicles 15:16\">Targ. I Chr. XV, 16</cite>. ",
+						"<cite ref=\"Targum of I Chronicles 16:42\">Ib. XVI, 42</cite> <cite ref=\"M02927\"><he>מַשְׁמְעַיָּא</he></cite> ed. Lag. (ed. Rahmer <he>משמעייאה</he>, Var. <he>מַשְׁמְעַיָּה</he>; h. text <he>מַשְׁמִיעִים</he>) <i>musicians</i>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 150:5\">Targ. Ps. CL, 5</cite> <he>דמְשַׁמְּעִין לבדוחא</he> Ms. (ed. Lag. <he>דמשמעין בלחודיהון</he>; ed. Wil. a. oth. <he>דשמעין בלחודיהון</he>, corr. acc.). ",
+						"<cite ref=\"Aramaic Targum to Psalms 150:5\">Ib.</cite> <he>דמַשְׁ׳ ביבבא</he> (Ms. Pa.)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to give to understand; to teach, prove</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 2a:8\">Ber. 2ᵃ</cite> <he>מילתא … קא מַשְׁמַע לן וכ׳</he> (the Tannai in using such an expression) wants to teach us something by the way: when do the priests eat &c.; <he>והא קמשמע לן וכ׳</he> (abbrev. <he>קמ״ל</he>) and it is this he teaches us, that the sacrifice of atonement is not indispensable &c. Ib. 4ᵇ <he>לאפוקי … קמ״ל דחובה</he> in opposition to the opinion that the evening prayer is optional, he gives us to understand that it is obligatory. ",
+						"<cite ref=\"Shabbat 19a:3\">Sabb. 19ᵃ</cite> <he>מהו דתימא … קמ״ל</he> you may have thought (that the cases are different, because) this devolves upon him, and the other does not, therefore he teaches us (that they are the same). ",
+						"<cite ref=\"Shabbat 108a:2\">Ib. 108ᵃ</cite> <he>מאי קמ״ל</he> what does he teach us (is it not a matter of course)? <cite ref=\"Berakhot 21a:13\">Ber. 21ᵃ</cite> sq. <he>דאי אַשְׁמְעִינָן וכ׳</he>, v. <cite ref=\"R00774\"><he>צְרִיךְ</he></cite>; a. v. fr.—Part. pass. <cite ref=\"M02925\"><he>מַשְׁמֵע</he></cite> <i>a</i>) <i>understood</i>. ",
+						"<cite ref=\"Yevamot 102b:20\">Yeb. 102ᵇ</cite> <he>מ׳ הכי ומ׳ הכי</he> it may be understood thus (it may mean, ‘to take off’), and may be understood thus (it may mean, ‘to strengthen’); a. fr.—2) <i>inferred, proved; evidence</i>. ",
+						"<cite ref=\"Shabbat 84b:5\">Sabb. 84ᵇ</cite> <he>מאי מ׳</he> how is this proved (from the verse quoted)? <cite ref=\"Eruvin 65a:6\">Erub. 65ᵃ</cite> <he>מאי מ׳ וכ׳</he> what evidence is there &c.?, v. <cite ref=\"Q00314\"><he>פּוּק</he></cite>. ",
+						"<cite ref=\"Eruvin 65a:6\">Ib.</cite> <he>מַשְׁמְעֵי</he>, v. infra; a. fr.—V. <cite ref=\"M02925\"><he>מַשְׁמָע</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתַּמַּע"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּמַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be heard, let one’s self be heard</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 45:16\">Targ. Gen. XLV, 16</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 37:4\">Targ. Job XXXVII, 4</cite> Ms. (ed. <he>ישמע</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 77:19\">Targ. Ps. LXXVII, 19</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 95b:11\">Snh. 95ᵇ</cite> (prov.) <he>אגב אורחך … א׳</he> on thy road let thy enemy hear from thee, i.e. take revenge when occasion offers. ",
+						"<cite ref=\"Rosh Hashanah 27a:5\">R. Hash. 27ᵃ</cite> <he>תרתי … לא מִשְׁתַּמְּעֵי … משתמעי</he> two different sounds produced simultaneously by the same person are not distinctly perceived, but if produced by two persons, they are. Erub. l. c. <he>מכדי קראי מִשְׁתַּמְּעֵי בין למר וכ׳</he> Ms. M. (ed. <he>משמעי</he>, v. Rabb. D. S. a. l. note) since verses may be quoted in favor of the one as well as of the other, what is the practical difference between them?; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make one’s self subservient, obey; to surrender to the enemy, desert</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 25:11\">Targ. II Kings XXV, 11</cite> (h. text <he>נפלו</he>). ",
+						"<cite ref=\"Targum Jonathan on II Kings 7:4\">Ib. VII, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 18:45\">Targ. Ps. XVIII, 45</cite>; <cite ref=\"II Samuel 22:45\">II Sam. XXII, 45</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "B00919",
+	"slug": "בלשי",
+	"headword": {
+		"text": "בַּלְשִׁי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּלְשַׁיי"
+		}
+	],
+	"page": {
+		"number": 175,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בלש</he>) <i>detective, investigator, searching tax-commissioner, constable</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 7:1:3\">Y. Dem. VII, 26ᵃ</cite> <he>מקל ב׳</he> (not <cite ref=\"M01285\"><he>מיקל</he></cite>) the commissioner’s pointed staff (with which he searches). Y’lamd. to Gen. XXXVIII, 1 quot. in Ar. <he>בלשיי מסר וכ׳</he> the constable delivers the prisoner over to the executioner.—Pl. <cite ref=\"B00919\"><he>בַּלְשִׁין</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 15:4\">Kel. XV, 4</cite> <he>מקל הב׳</he>, v. supra.—<he>בַּלְשִׁיִּין</he>. Y’lamd. to Num. XXIII, 7. [Var. in Hai Gaon <he>בַּלְסַיי</he>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A03191",
+	"slug": "ארן-2",
+	"headword": {
+		"text": "אֹרֶן"
+	},
+	"page": {
+		"number": 123,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; √<he>אר</he>, cmp. <cite ref=\"A03048\"><he>אֶרֶז</he></cite>)<i>pine</i> (Assyr. <he>ארן</he> <i>cedar</i>, Schr. KAT p. 411).—Pl. <he>אֳרָנִים</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 3:8\">Par. III, 8</cite> (R. Hai Gaon <he>ארנן</he>). ",
+				"<cite ref=\"Rosh Hashanah 23a\">R. Hash. 23ᵃ</cite> <cite ref=\"A03038\"><he>אֲרוֹנִים</he></cite> (Var. <cite ref=\"P01330\"><he>עֲרוֹנִים</he></cite>). ",
+				"<cite ref=\"Bava Batra 81a\">B. Bath. 81ᵃ</cite> <cite ref=\"P00001\"><he>ע׳</he></cite>."
+			]
+		}
+	]
+}

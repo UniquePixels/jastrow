@@ -1,0 +1,28 @@
+{
+	"id": "U01024",
+	"slug": "שיפיות",
+	"headword": {
+		"text": "שִׁיפְיוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁפְ׳"
+		}
+	],
+	"page": {
+		"number": 1567,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שָׁפָה</he> III) <i>quiet, peace; compromise</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 4:2:6\">Y. Yeb. IV, 5ᵈ</cite> top <he>עושין ש׳ ביניהן וכ׳</he> we make a compromise between them, and divide the dead man’s estate (between the <i>yabam</i> and the son whose paternity is in doubt). ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 4:2:6\">Ib.</cite> <he>נמצאת אומר ש׳ באחין וכ׳</he> (not <he>לאחיו</he>) consequently, peace between brothers (a compromise between the <i>yabam</i> and the son who maybe is his deceased brother’s son) is a loss to the brothers (the succeeding sons, who will inherit only one half of the estate), opp. <cite ref=\"V00386\"><he>תחרות</he></cite>."
+			]
+		}
+	]
+}

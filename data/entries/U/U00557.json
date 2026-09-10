@@ -1,0 +1,40 @@
+{
+	"id": "U00557",
+	"slug": "שוש-1",
+	"headword": {
+		"text": "שׂוּשׂ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׂישׂ"
+		}
+	],
+	"page": {
+		"number": 1542,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be bright, quick, glad</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 28a:4\">Sabb. 28ᵃ</cite> <he>ששָׂשׂ בגוונין וכ׳</he> (Ar. <he>שסָס</he>), v. <cite ref=\"O01272\"><he>סַסְגּוֹנָא</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:9:4\">Cant. R. to I, 9</cite>; Mekh. B’shall. s. 6 (play on <he>לססתי</he>, Cant. l. c.) <he>כשם ששַׂשְׂתִּי על … כך</he> (<he>כמעט</he>) <he>ששתי על וכ׳</he> as I was quick to destroy the Egyptians, so I was (almost) ready to destroy Israel &c. Ib. 1 they praised God <he>שלא ראו … ושָׂשׂוּ וכ׳</he> that their enemies had not seen (the deaths among them), and rejoiced at their calamity. ",
+				"<cite ref=\"Bava Metzia 83b:11\">B. Mets. 83ᵇ</cite> <he>שִׂישׂוּ בני מעי שישו</he> rejoice, my entrails, rejoice! <cite ref=\"Sanhedrin 39b:6\">Snh. 39ᵇ</cite> <he>הוא אינו שָׂשׂ … מֵשִׂישׂ</he> the Lord himself does not rejoice (over the downfall of the wicked), but he causes others to rejoice; <he>דכתיב יָשִׂישׂ ולא כתיב יָשׂוּשׂ</he> for it is written (<cite ref=\"Deuteronomy 28:63\">Deut. XXVIII, 63</cite>) <i>yasis</i> (<i>Hif.</i>), and not <i>yasus</i> (Kal); <cite ref=\"Megillah 10b:24\">Meg. 10ᵇ</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵשִׂישׂ"],
+			"senses": [
+				{
+					"gloss": "<i>to gladden</i>. Ib., v. supra. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 7:19\">Koh. R. to VII, 19</cite> <he>כבד לחמה … הריאה מְשַׂשְׂתָּן</he> the liver is the organ of anger, the gall, of jealousy, the lungs gladden them again; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

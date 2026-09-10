@@ -1,0 +1,45 @@
+{
+	"id": "G00527",
+	"slug": "זמם-2",
+	"headword": {
+		"text": "זְמַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 403,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"G00526\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַזֵּים"],
+			"senses": [
+				{
+					"gloss": " = <cite ref=\"G00526\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 19:18\">Targ. Y. Deut. XIX, 18</cite> <he>דמַזְמִין</he> who rebut.—",
+						"<cite ref=\"Bava Kamma 73b:16\">B. Kam. 73ᵇ</cite> bot. <he>דאפכינהו ואַזְמִינְהוּ</he> they reversed their statement of the case and also testified to an alibi as to time and place."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתַּזֵּים", "אִיתַּזַּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be proven a false witness</i>. Ib. 73ᵃ <he>כי מִתַּזְּמֵי אטביחה</he> when they were proven false witnesses with reference to slaughtering; <he>ואִיתַּזְּמוּ להו אגניבה</he> and they are considered as false witnesses also with reference to stealing. Ib. <he>אטביחה דקא מִיתַּזְּמֵי אִיתַּזּוּם</he> as regards the testimony to slaughtering on which they were refuted, they are refuted; a. e.—<i>Ithpe.</i> <he>אִתְּזוֹם</he>. ",
+					"units": [
+						"<cite ref=\"Makkot 3b\">Macc. 3ᵇ</cite> <he>א׳ חד מינייהו</he> against one of them an alibi was proven."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "H01719",
+	"slug": "חרמא-2",
+	"headword": {
+		"text": "חָרְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָרְמָה"
+		}
+	],
+	"page": {
+		"number": 504,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (b. h.) <i>Hormah</i> (<i>Destruction</i>, v. <cite ref=\"H01718\">preced.</cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 21:3\">Targ. Num. XXI, 3</cite> (ed. Berl. <cite ref=\"H00472\"><he>חוּרְמָה</he></cite>). Targ. O. ib. XIV, 45 (ed. Berl. <he>חור׳</he>; Y. <cite ref=\"U01818\"><he>שֵׁצְיוּ</he></cite>)."
+			]
+		}
+	]
+}

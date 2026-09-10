@@ -1,0 +1,29 @@
+{
+	"id": "S00844",
+	"slug": "קטרת",
+	"headword": {
+		"text": "קְטֹרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְטוֹ׳"
+		}
+	],
+	"page": {
+		"number": 1353,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"S00823\"><he>קָטַר</he> I)</cite><i>incense</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 6a:62\">Ker. 6ᵃ</cite>, v. <cite ref=\"Q00616\"><he>פִּיטּוּם</he></cite>. ",
+				"<cite ref=\"Keritot 6b:64\">Ib. 6ᵇ</cite> <he>מה לשון ק׳</he>, v. <cite ref=\"S00823\"><he>קָטַר</he> I</cite>. ",
+				"<cite ref=\"Mishnah Shekalim 4:5\">Shek. IV, 5</cite> <he>מותר הק׳</he> the remaining supply of incense (in the Temple, not used during the year); a. fr."
+			]
+		}
+	]
+}

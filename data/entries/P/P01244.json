@@ -1,0 +1,47 @@
+{
+	"id": "P01244",
+	"slug": "ערב-3",
+	"headword": {
+		"text": "עָרַב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1110,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"P01243\">preced.</cite>; cmp. Assyr. ʿerêbu <i>to go in</i>, Del. Assyr. Handw., p. 126) <i>to go in</i>, (cmp. <cite ref=\"B00199\"><he>בּוֹא</he></cite>) <i>to set</i>.—Denom. <cite ref=\"P01251\"><he>עֶרֶב</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱרִיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P01243\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 14:3\">Neg. XIV, 3</cite> <he>ה׳ שמשו</he> when his (the leper’s seventh day’s) sun has set; <cite ref=\"Yevamot 74b\">Yeb. 74ᵇ</cite>; <cite ref=\"Pesachim 35a\">Pes. 35ᵃ</cite>; a. e.—V. <cite ref=\"E00722\"><he>הַעֲרֵב</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"P01251\"><he>עֶרֶב</he></cite>) <i>to be late, to do late in the day</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>, beg. (play on <he>שחרות כעורב</he>, <cite ref=\"Song of Songs 5:11\">Cant. V, 11</cite>) <he>מי שמשחיר ומַעֲרִיב בהן</he> who works at them (studies the words of the Law) early and late; <he>ע״י שהשחיר והע׳ בתורה</he> because he was engaged in the Law early and late; Cant. R. to l. c.; Midr. Sam. ch. V; a. e.—V. <cite ref=\"E00723\"><he>הַעֲרָבָה</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cause the evening to come</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 12a:13\">Ber. 12ᵃ</cite>, a. e. <he>מַעֲרִיב עֲרָבִים</he> (‘blessed be thou, O Lord,) who causest the evenings to advance’, name of one of the benedictions preceding the recitation of the evening Sh’mʿa."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

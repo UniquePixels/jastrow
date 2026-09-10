@@ -1,0 +1,25 @@
+{
+	"id": "C00793",
+	"slug": "גיפטי",
+	"headword": {
+		"text": "גִּיפְטִי"
+	},
+	"page": {
+		"number": 241,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Αἰγύπτιος) <i>Epyptian, Coptic</i>.—Pl. <cite ref=\"C00793\"><he>גִּיפְטִים</he></cite>. ",
+			"units": [
+				"<cite ref=\"Megillah 18a:19\">Meg. 18ᵃ</cite> <he>גיפטית לג׳</he> (Ar. <he>גפתית לגפתים</he>) to Egyptian Jews &c.—Fem. <cite ref=\"C00793\"><he>גִּיפְטִית</he></cite> <i>in Egyptian or Coptic language</i>. ",
+				"<cite ref=\"Megillah 18a:19\">Ib.</cite>—",
+				"<cite ref=\"Shabbat 115a:6\">Sabb. 115ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 115b\">Ib. 115ᵇ</cite> <he>תנא דג׳</he> the author of the rule concerning sacred writings in Egyptian &c. (<cite ref=\"Shabbat 115a:6\">ib.ᵃ</cite>). Cmp. <cite ref=\"C00659\"><he>גִּיוָוטָאֵי</he></cite>."
+			]
+		}
+	]
+}

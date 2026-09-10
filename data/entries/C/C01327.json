@@ -1,0 +1,27 @@
+{
+	"id": "C01327",
+	"slug": "גרידא-2",
+	"headword": {
+		"text": "גְּרֵידָא"
+	},
+	"page": {
+		"number": 268,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גרד</he>) [<i>stripped</i>,] <i>alone, mere, unqualified</i> (v. <cite ref=\"C01273\"><he>גַּרְדּוּם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 37a:12\">Ab. Zar. 37ᵃ</cite> <he>אם מתי ג׳</he> the mere formula ‘If I die’ (without qualification). ",
+				"<cite ref=\"Yevamot 20a:17\">Yeb. 20ᵃ</cite> <he>לא תעשה ג׳ הוא</he> it is merely a prohibitory law; a. fr.—Pl. <he>גְּרֵידֵי</he>. ",
+				"<cite ref=\"Yevamot 79b:18\">Ib. 79ᵇ</cite> <he>חייבי לאוין ג׳</he> trespassers of a mere prohibitory law, opp. <he>לאוין דשאר</he> referring to incest. ",
+				"<cite ref=\"Chullin 2b:9\">Ḥull. 2ᵇ</cite>; a. fr.—Fem. <cite ref=\"C01330\"><he>גְּרֵידְתָא</he></cite>. ",
+				"<cite ref=\"Sotah 32b:8\">Sot. 32ᵇ</cite> <he>אמירה ג׳</he> the expression <cite ref=\"A02060\"><he>אמר</he></cite> not qualified by <cite ref=\"P00970\"><he>ענה</he></cite>. ",
+				"<cite ref=\"Ketubot 73b:13\">Keth. 73ᵇ</cite> <he>טעות אשה אחת ג׳</he> a plain error concerning one woman (where you cannot say that the case may be considered as though concerning two different persons); a. fr.—[<cite ref=\"Targum Jerusalem, Exodus 14:25\">Targ. Y. II, Ex. XIV, 25</cite>, v. <cite ref=\"C01393\"><he>גְּרַר</he></cite>.]"
+			]
+		}
+	]
+}

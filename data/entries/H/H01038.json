@@ -1,0 +1,33 @@
+{
+	"id": "H01038",
+	"slug": "חליטא-3",
+	"headword": {
+		"text": "חֲלִיטָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלִיטָה"
+		},
+		{
+			"text": "חֲלוּ׳"
+		}
+	],
+	"page": {
+		"number": 468,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. ch. = h. or <cite ref=\"H00994\"><he>חָלוּט</he></cite> (v. <cite ref=\"H01020\"><he>חָלַט</he> I</cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:1:3\">Y. Ned. VI, beg. 39ᶜ</cite>; Y. Naz. V, 55ᶜ top. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:4:6\">Y. Ab. Zar. V, 44ᵈ</cite> bot. <cite ref=\"H01038\"><he>חֲלִיטָן</he></cite> their (the Samaritans’) <i>ḥalut</i>.—<i>Pl.</i> (fem.) <cite ref=\"H01037\"><he>חֲלִיטָתָא</he></cite>; (masc.) <he>חֲלִיטִין</he>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 13:6\">Targ. II Sam. XIII, 6</cite>; <cite ref=\"Targum Jonathan on II Samuel 13:8\">8</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Challah 1:3:14\">Y. Ḥall. I, 57ᵈ</cite> <he>ח׳ דשוק</he> <i>ḥ.</i> sold in the market (mixed with oil), v. <cite ref=\"A02549\"><he>אִסְקְרִיטִין</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Challah 1:3:14\">Ib.</cite> (expl. <he>חלת מסרת</he>) <he>ח׳ דמיי</he> water-<i>ḥ.</i> (for which <cite ref=\"Pesachim 37b:4\">Pes. 37ᵇ</cite> <he>חלוט של בעלי בתים</he>). ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:1:8\">Y. Erub. III, 20ᵈ</cite> <he>אכל חליטן</he> (read: <he>חליטין</he> or <cite ref=\"H01036\"><he>חליטא</he></cite>); <cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite>, beg. <cite ref=\"H00995\"><he>חֲלוּטִין</he></cite> (Ar. <he>אְלִיטִין</he>, dial. for <he>הֲ׳</he>)."
+			]
+		}
+	]
+}

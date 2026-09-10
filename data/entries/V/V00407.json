@@ -1,0 +1,29 @@
+{
+	"id": "V00407",
+	"slug": "תיב",
+	"headword": {
+		"text": "תִּיב"
+	},
+	"page": {
+		"number": 1663,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"V00142\"><he>תַּיֵּיב</he></cite>; <i>Af.</i> <cite ref=\"V00142\"><he>אָתֵיב</he></cite>, v. <cite ref=\"V00142\"><he>תּוּב</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S00615",
+	"slug": "קורלין",
+	"headword": {
+		"text": "קוֹרָלִין"
+	},
+	"page": {
+		"number": 1343,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (corallium, corallum) <i>corals</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:23\">Y. Sabb. VII, 10ᵃ</cite> <he>ההן דגזז … קרולין</he> (corr. acc.) he that cuts … corals (on the Sabbath)."
+			]
+		}
+	]
+}

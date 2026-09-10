@@ -1,0 +1,42 @@
+{
+	"id": "S01588",
+	"slug": "קנין-2",
+	"headword": {
+		"text": "קִנְיָן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִנְיָנָא"
+		},
+		{
+			"text": "קִנְיָי׳"
+		},
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1393,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01587\">same</cite><i>possession</i>, esp. <i>cattle</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:11\">Targ. Gen. XIV, 11</cite>, sq. (h. text <he>רכש</he>). ",
+				"<cite ref=\"Onkelos Genesis 14:19\">Targ. O. ib. 19</cite>; a. fr.—",
+				"<cite ref=\"Sotah 34b:13\">Sot. 34ᵇ</cite> <he>עבדא רעיא ושמן ק׳</he> it (the soil) produces pasture, and the cattle grows fat on it.—Pl. <he>קִנְיָנִין</he>, <cite ref=\"S01588\"><he>קִנְיָי׳</he></cite>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 38:12\">Targ. Ez. XXXVIII, 12</cite>, sq.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>agreement by symbol, the object exchanged to make the agreement binding</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 4:7\">Targ. Ruth. IV, 7</cite>, sq."
+			],
+			"label": "2"
+		}
+	]
+}

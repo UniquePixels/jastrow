@@ -1,0 +1,23 @@
+{
+	"id": "Q01032",
+	"slug": "פלטתא",
+	"headword": {
+		"text": "פְּלֵטָתָא"
+	},
+	"page": {
+		"number": 1180,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. = h. <cite ref=\"Q01051\"><he>פְּלֵיטָה</he></cite>, <i>escaped, remnants</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 265:1\">Yalk. Jer. 265</cite> <he>לא מן פ׳ דעמא דסדום אתון</he> are you not of the escaped of the people of Sodom?; Pesik. Shimʿu, p. 117ᵇ <cite ref=\"Q01001\"><he>פלטאתא</he></cite>."
+			]
+		}
+	]
+}

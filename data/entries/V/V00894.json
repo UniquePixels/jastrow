@@ -1,0 +1,46 @@
+{
+	"id": "V00894",
+	"slug": "תקלא-2",
+	"headword": {
+		"text": "תַּקְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוּקְ׳"
+		},
+		{
+			"text": "תַּקָּלָא"
+		},
+		{
+			"text": "תִּקְלָא"
+		},
+		{
+			"text": "תִּי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1691,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>תְּקַל</he> II) <i>stumbling, stumbling block, snare, offence</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 7:16\">Targ. Deut. VII, 16</cite> (Y. ed. Vien. <cite ref=\"V00314\"><he>תּוֹ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 4:16\">Targ. Prov. IV, 16</cite> (ed. Wil. <cite ref=\"V00056\"><he>תִּ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 16:18\">Ib. XVI, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 31:16\">Targ. Y. Num. XXXI, 16</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 19:14\">Targ. O. Lev. XIX, 14</cite> (ed. Vien. <cite ref=\"V00489\"><he>תַּקָּ׳</he></cite>; Y. <cite ref=\"V00894\"><he>תּוֹקְ׳</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 10:7\">Targ. Ex. X, 7</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 54a:4\">B. Bath. 54ᵃ</cite>, v. <cite ref=\"V00892\"><he>תְּקַל</he> II</cite>; a. e.—Pl. <he>תַּקְלִין</he>, <he>תַּקְלַיָּא</he>, <cite ref=\"V00489\"><he>תַּקָּ׳</he></cite>, <cite ref=\"V00894\"><he>תּוּקְ׳</he></cite>, <cite ref=\"V00489\"><he>תִּקְ׳</he></cite>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 34:30\">Targ. Job XXXIV, 30</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 40:24\">Ib. XL, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 64:6\">Targ. Ps. LXIV, 6</cite>; a. fr."
+			]
+		}
+	]
+}

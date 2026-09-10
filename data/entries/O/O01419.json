@@ -1,0 +1,28 @@
+{
+	"id": "O01419",
+	"slug": "ספר-5",
+	"headword": {
+		"text": "סְפָר"
+	},
+	"page": {
+		"number": 1017,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01415\"><he>סָפַר</he></cite>) [<i>mark</i>, <i>march</i>,] <i>boundary, border district</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 48b:14\">Yeb. 48ᵇ</cite> <he>עיר הסמוכה לס׳</he> a town near the boundary. ",
+				"<cite ref=\"Sotah 42a:16\">Sot. 42ᵃ</cite> <he>פעמים מדבר עמו אחת בס׳ וכ׳</he> the priest addressed the people twice, once on the border line (before entering the enemy’s land) and once before the battle. ",
+				"<cite ref=\"Tosefta Eiruvin 4:5\">Tosef. Erub. IV</cite> (<cite ref=\"Tosefta Eiruvin 3:5\">III</cite>), 5 <he>באו … הסמוכות לס׳</he> if the enemy invades towns near the boundary (of Palestine); Y. ib. IV, 21ᵈ bot.; Bab. ",
+				"<cite ref=\"Eruvin 45a\">ib. 45ᵃ</cite>. ",
+				"<cite ref=\"Eruvin 45a:15\">Ib.</cite> <he>ובבל כעיר הסמוכה לס׳ וכ׳</he> and Babylonia is (as regards the duty of defence) like a town near the boundary, which was interpreted to mean Neharde‘a. ",
+				"<cite ref=\"Bamidbar Rabbah 16:9\">Num. R. s. 16</cite> <he>מה ראה לישב לו על הס׳ וכ׳</he> what reason had he (Amalek) to settle on the border, on the way of the entrance of the Israelites into the land?; a. e.—<i>Pi.</i> <he>סְפָרִים</he>, constr. <he>סִפְרֵי</he>. ",
+				"<cite ref=\"Jerusalem Talmud Challah 2:1:7\">Y. Ḥall. II, 58ᵇ</cite> bot. <he>ס׳ א״י</he> Palestinian districts, <he>ס׳ חוצה לארץ</he> foreign districts (conquered by Israelites)."
+			]
+		}
+	]
+}

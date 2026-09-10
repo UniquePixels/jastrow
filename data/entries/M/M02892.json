@@ -1,0 +1,71 @@
+{
+	"id": "M02892",
+	"slug": "משך-3",
+	"headword": {
+		"text": "מְשַׁךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 853,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02891\">same</cite><i>to draw, carry along</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 9:20\">Targ. Y. Gen. IX, 20</cite> <he>דמושכיה נהרא וכ׳</he> (read: <he>דמַשְׁכֵיה</he>) which the river had carried along from &c.—",
+				"<cite ref=\"Zevachim 53b\">Zeb. 53ᵇ</cite>, a. e. <he>מַשְׁכוּ גברי לגברא</he> the many brought the single man over (to their opinion)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to attract</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 27b:8\">Ab. Zar. 27ᵇ</cite> <he>שאני מינות דמָשְּׁכָא</he> it is different with heresy, because it attracts (persuades, offers inducements)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (neut. verb) <cite ref=\"M02892\"><he>מְשׁךְ</he></cite>, <cite ref=\"M02878\"><he>מְשִׁיךְ</he></cite> <i>to run in a continuous line; to be prolonged, continued</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:35\">Targ. Y. Num. XXI, 35</cite>; <cite ref=\"Berakhot 54b:5\">Ber. 54ᵇ</cite> <he>מַשְׁכֵי שיניה</he> his teeth were prolonged. ",
+				"<cite ref=\"Horayot 12a:13\">Hor. 12ᵃ</cite> <he>כי היכי דמַשְׁכוּ מיא מַשְׁכָן וכ׳</he>. as the water runs continually, so may the traditions which you teach be continued. ",
+				"<cite ref=\"Horayot 12a:10\">Ib.</cite> <he>אי משיך נהוריה</he> (Rashi <cite ref=\"M02878\"><he>משיך</he></cite>) if the light continues to burn; <cite ref=\"Keritot 5b:116\">Ker. 5ᵇ</cite>.—[<cite ref=\"Keritot 5b:116\">Ib.</cite> <he>משכו שתא</he>, read: <cite ref=\"M01929\"><he>מסיק</he></cite>.]—",
+				"<cite ref=\"Pesachim 8a:5\">Pes. 8ᵃ</cite> <he>משיך נהוריה</he> the light (of a lamp or a candle) burns steadily, opp. <he>מיקטף איקטופי</he>. ",
+				"<cite ref=\"Avodah Zarah 2b:11\">Ab. Zar. 2ᵇ</cite> <he>משכי במלכותייהו</he> they will continue their rulership; <cite ref=\"Yalkut Shimoni on Nach 316\">Yalk. Is. 316</cite> <he>משכה מלכותייהו</he>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to take possession</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 48a:10\">B. Mets. 48ᵃ</cite> <he>עד דמָשֵׁיךְ</he> until he takes possession; <he>עד דמשך</he> until he has taken &c. Ib. 49ᵃ <he>מַשְׁכֵיה</he> he has taken possession of it; a. fr.—",
+				"<cite ref=\"Megillah 31a:7\">Meg. 31ᵃ</cite> <he>משך תורא</he> ‘take possession of the ox’ (mnemotechnical words to designate the order of Scriptural readings on the Passover days, ref. to <he>משכו</he>, <cite ref=\"Exodus 12:21\">Ex. XII, 21</cite>; <cite ref=\"U01054\"><he>שור</he></cite>, <cite ref=\"Leviticus 22:26\">Lev. XXII, 26</cite> &c.)."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִימְּשִׁיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be attracted, carried away, seduced</i>. Ab. Zar. l. c. <he>דאתי למִמְּשַׁךְ בתרייהו</he> he may be induced to follow them (the heretics). ",
+					"units": [
+						"<cite ref=\"Sanhedrin 70a:11\">Snh. 70ᵃ</cite> <he>משום אִימְּשׁוּכֵי הוא</he> it is in order to prevent being carried away (led to intemperance); <he>לא מִימְּשִׁיךְ</he> he will not be carried away (it has no attraction for him); <cite ref=\"Yalkut Shimoni on Torah 929\">Yalk. Deut. 929</cite>. ",
+						"<cite ref=\"Shabbat 147b\">Sabb. 147ᵇ</cite> <he>אי׳ בתרייהו</he> he was drawn after them, he indulged in the luxuries of the place; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"M02891\">preced.</cite> <i>Nif.</i>) <i>to withdraw</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 78b:11\">Pes. 78ᵇ</cite> <he>אי מִמְשְׁכֵי הני וכ׳</he> if these should withdraw (from their participation in the Passover sacrifice), it would remain fit for the others."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

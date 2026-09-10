@@ -1,0 +1,52 @@
+{
+	"id": "K00808",
+	"slug": "כמן-3",
+	"headword": {
+		"text": "כְּמַן"
+	},
+	"page": {
+		"number": 646,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K00807\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:13\">Targ. O. Ex. XXI, 13</cite>; a. fr.—Part. <cite ref=\"K00800\"><he>כָּמֵין</he></cite>, f. (<cite ref=\"K00810\"><he>כָּמְנָא</he></cite>) <cite ref=\"K00801\"><he>כָּמֵינָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:3\">Targ. Jer. IX, 3</cite> <he>מִכְמַן כ׳</he> (h. text <he>עקב יעקב</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:12\">Targ. Prov. VII, 12</cite>.—",
+				"<cite ref=\"Kohelet Rabbah 4:14:1\">Koh. R. to IV, 14</cite>; <cite ref=\"Midrash Tehillim 9:4\">Midr. Till. to Ps. IX</cite>, v. <cite ref=\"K01312\"><he>כַּשְׂכֵּשׂ</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּמֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to hide, cover</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 10:18\">Targ. Prov. X, 18</cite> <he>מְכַמֵּין</he> Ms. (ed. <he>מַכְמֵין</he> <i>Hif.</i>).—Part. pass. <he>מְכַמַּן</he> <i>lurking</i>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 3:10\">Targ. Lam. III, 10</cite> (ed. Amst. <he>מְכַמֵּן</he>; h. text <he>א̇רֵב</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַכְמִין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00807\">same</cite>, v. supra.—2) as <cite ref=\"K00807\">preced.</cite> ",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>Hif.</i> ",
+					"units": ["<cite ref=\"Sanhedrin 29b\">Snh. 29ᵇ</cite>."]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "H01610",
+	"slug": "חרוב-2",
+	"headword": {
+		"text": "חָרוֹב"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָרֵיב"
+		},
+		{
+			"text": "חָרוֹבָא"
+		},
+		{
+			"text": "חָרֵיבָא"
+		}
+	],
+	"page": {
+		"number": 499,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01609\">preced.</cite>) <i>ruined, desolate</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Haggai 1:4\">Targ. Hag. I, 4</cite>; <cite ref=\"Targum Jonathan on Haggai 1:9\">9</cite> (Levita <he>חריב</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 60:11\">Targ. Ps. LX, 11</cite> (ed. Wil. <cite ref=\"H00051\"><he>חֲ׳</he></cite>, Ms. <he>חריבא</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 26:19\">Targ. Ez. XXVI, 19</cite> <he>חרו׳</he> ed. Lag. (ed. Ven. I <cite ref=\"H01584\"><he>חֲרֵבָא</he></cite>, ed. Wil. <cite ref=\"H01582\"><he>חָרְבָא</he></cite>).—Pl. fem. <he>חֲרֵיבָן</he>, <cite ref=\"H01584\"><he>חֲרֵבָ׳</he></cite>, <he>חָרְבָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 36:38\">Targ. Ez. XXXVI, 38</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 36:35\">Ib. 35</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 61:4\">Targ. Is. LXI, 4</cite>; a. e."
+			]
+		}
+	]
+}

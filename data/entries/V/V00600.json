@@ -1,0 +1,39 @@
+{
+	"id": "V00600",
+	"slug": "תלמא-2",
+	"headword": {
+		"text": "תַּלְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּלָאמָא"
+		}
+	],
+	"page": {
+		"number": 1672,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Assyr. talîmu, Del. Assyr. Handw., p. 707) <i>twin</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּלְמִין", "תְּלָאמִין"],
+			"senses": [
+				{
+					"gloss": ". ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 49:5\">Targ. Y. I Gen. XLIX, 5</cite>, <cite ref=\"Targum Jerusalem, Genesis 49:5\">Targ. Y. II, Gen. XLIX, 5</cite> <he>אחין ת׳</he> twin-brothers (alike in character)."
+					]
+				}
+			],
+			"stem": "Pl."
+		}
+	]
+}

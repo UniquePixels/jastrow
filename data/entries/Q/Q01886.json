@@ -1,0 +1,29 @@
+{
+	"id": "Q01886",
+	"slug": "פרנוס-2",
+	"headword": {
+		"text": "פִּרְנוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 1231,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01897\"><he>פַּרְנֵס</he></cite>) <i>provision, sustenance; prosperity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 5:25\">Targ. I Kings V, 25</cite> (ed. Wil. <cite ref=\"Q00837\"><he>פַּרְ׳</he></cite>); <cite ref=\"Targum of II Chronicles 2:9\">Targ. II Chr. II, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 30:23\">Targ. Is. XXX, 23</cite> <he>פי׳</he> ed. Lag. (ed. Wil. <cite ref=\"Q00837\"><he>פַּרְ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Malachi 3:10\">Targ. Mal. III, 10</cite>."
+			]
+		}
+	]
+}

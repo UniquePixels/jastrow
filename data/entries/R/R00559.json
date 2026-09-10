@@ -1,0 +1,80 @@
+{
+	"id": "R00559",
+	"slug": "צמד-2",
+	"headword": {
+		"text": "צְמַד"
+	},
+	"page": {
+		"number": 1286,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00558\">same</cite><i>to join, attach, harness</i>. <i>Part. pass.</i> <cite ref=\"R00575\"><he>צָמִיד</he></cite>; f. <cite ref=\"R00576\"><he>צְמִידָא</he></cite>; pl. <he>צְמִידִין</he>, ",
+			"units": [],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>attached, harnessed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 19:19\">Targ. I Kings XIX, 19</cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>attached to, addicted to, in the habit of</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 3:23\">Lam. R. to III, 9</cite> <he>הוה צמיד עיית קינדלוי וכ׳</he> Ar. (ed. <he>הוה מסדרא וכ׳</he>; <cite ref=\"Jerusalem Talmud Maaser Sheni 5:2:3\">Y. Maas. Sh. V, 56ᵃ</cite> top <he>הוה עביד</he>) made it a habit to prepare his lights on Friday &c. (v. <cite ref=\"P00374\"><he>עוּת</he></cite> ch.). ",
+						"<cite ref=\"Vayikra Rabbah 26:9\">Lev. R. s. 26</cite> <he>הות צמידא אמרה נכ׳</he> (some ed. <cite ref=\"R00576\"><he>צְמִידָה</he></cite>) was addicted to evil talk."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>to bind up</i> (a broken limb). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 34:4\">Targ. Ez. XXXIV, 4</cite>; <cite ref=\"Targum Jonathan on Ezekiel 34:16\">16</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to narrow in, retain</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 53a:7\">B. Bath. 53ᵃ</cite> <he>דצ׳ לה מיא</he> (ed. Pes. a. oth. <he>דצאמת</he>, v. <cite ref=\"R00602\"><he>צְמַת</he></cite>) he retained (dammed) the water for the benefit of the field, opp. <cite ref=\"T00327\"><he>ארוח</he></cite> let the water spread."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַמֵּד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00558\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to bind up, heal, mend</i>. Part. pass. <he>מְצַמַּד</he>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 55a:1\">Ab. Zar. 55ᵃ</cite> <he>דאזלי כי מתברי … מְצַמְּדֵי</he> who go (to an idolatrous temple) broken (crippled), and come out healed; <cite ref=\"Yalkut Shimoni on Torah 289:1\">Yalk. Ex. 289</cite> <he>מצמידי</he> (corr. acc., or <he>מִיצַמְּדֵי</he> <i>Ithpe.</i>)."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִצְטְמִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be bound up, repaired</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 22b:15\">Ber. 22ᵇ</cite> <he>א׳ חצביה דר״נ</he> R. N.’s pitcher has been mended (the rule he laid down is restored again), opp. <he>אתבר</he>, v. <cite ref=\"H01496\"><he>חַצְבָּא</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

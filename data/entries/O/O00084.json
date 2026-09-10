@@ -1,0 +1,38 @@
+{
+	"id": "O00084",
+	"slug": "סבר-1",
+	"headword": {
+		"text": "סָבַר"
+	},
+	"page": {
+		"number": 951,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"U00173\"><he>שָׂבַר</he></cite><i>Pi.</i>; Saf. of <he>ברר</he>) [<i>to be bright</i>,] <i>to look for, be hopeful; to think, imagine. Part. pass</i>. <cite ref=\"O00045\"><he>סָבוּר</he></cite>; f. <he>סְבוּרָה</he>; pl. <he>סְבוּרִים</he>, <he>סְבוּרִין</he>; <he>סְבוּרוֹת</he> <i>hoping; thinking</i>. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> <he>היו … ס׳ עליו</he> the citizens were relying on him; (Yalk. ib. 598 <he>בטוחין</he>).—",
+				"<cite ref=\"Mishnah Ketubot 7:10\">Keth. VII, 10</cite> <he>ס׳ הייתי וכ׳</he> I was in hopes that I might be able to bear it. ",
+				"<cite ref=\"Gittin 56b:9\">Gitt. 56ᵇ</cite> <he>וכס׳ הרג וכ׳</he> and he was like thinking (he imagined) that &c., v. <cite ref=\"E00812\"><he>הָרַג</he></cite>; a. fr.—Tanḥ. P’kudé 3 <he>היו סוֹבְרִים וכ׳</he> (perh. to be read: <he>סבורים</he>) they thought that he (Adam) was their creator; <cite ref=\"Pirkei DeRabbi Eliezer 11:9\">Pirké d’R. El. ch. XI</cite> <he>כסבורין</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְבִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to brighten, illustrate, make clear</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 10:10\">Koh. R. to X, 10</cite> (ref. to Koh. l. c.) <he>אם נקהה … והוא אינו בא לידך להַסְבִּירוֹ בפניך וכ׳</he> if thy study has been dull to thee like iron (difficult), and he … does not come to thy side to make it clear before thee, denounce him with all thy might.—Esp. <he>ה׳ פנים</he> <i>to show a bright face; to be friendly; to encourage</i>. Ib. <he>ואין הרב מַסְבִּיר פ׳ לתלמיד</he> and the teacher does not show the pupil a kind face (will not relent); ib. <he>ואין הרב מסביר לתלמיד</he> (sub. <he>פנים</he>). Ib. <he>ואין הקב״ה מסביר פ׳ לדור</he> and the Lord does not look favorably at the generation. Y. Yoma VI, beg. 43ᵇ <he>שלא יהא הדיין מסביר פ׳ … ומעיז וכ׳</he> that the judge must not be friendly towards the one and severe towards the other (of the litigants). ",
+						"<cite ref=\"Midrash Tehillim 137:1\">Midr. Till. to Ps. CXXXVII</cite> <he>אלהיהן … וכיון שמַסְבִּירִין לו פ׳ וכ׳</he> their God is merciful, and as soon as they show him a kind face, he takes pity &c.; <cite ref=\"Pesikta Rabbati 28\">Pesik. R. s. 28</cite>. ",
+						"<cite ref=\"Berakhot 63b:7\">Ber. 63ᵇ</cite> <he>אני ואתה נַסְבִּיר פ׳ בהלכה</he> let us cheer each other up in the <i>halakhah</i> (by discussion). ",
+						"<cite ref=\"Berakhot 63b:7\">Ib.</cite> <he>כשם שאני הִסְבַּרְתִּי … הַסְבֵּר פ׳ וכ׳</he> as I have been kind to thee, so be thou kind (forgiving) to &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

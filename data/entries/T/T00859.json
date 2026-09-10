@@ -1,0 +1,35 @@
+{
+	"id": "T00859",
+	"slug": "רסס-1",
+	"headword": {
+		"text": "רָסַס"
+	},
+	"page": {
+		"number": 1484,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"T01001\"><he>רָצַץ</he></cite>), <i>Pi.</i> <he>רִיסֵּס</he> <i>to crush, break into small pieces</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 6:1:9\">Y. Naz. VI, 54ᵈ</cite> bot. <he>רִסְּסָן ואכלן</he> (or <he>רְסָסָן</he>) if he chopped them (the aṇts) and ate them (v. <cite ref=\"T00861\"><he>רָסַק</he></cite>). ",
+				"<cite ref=\"Mishnah Oktzin 2:5\">Ukts. II, 5</cite>, sq. <he>עד שׁיְרַסֵּס</he> until he has cracked or broken the shell (and taken out the contents); <cite ref=\"Tosefta Uktsin 2:15\">Tosef. ib. II, 15</cite> <he>אע״פ שרי׳ … לפרק</he> although he has cracked the shell, the connection is not considered broken until he begins to pick; <he>וביצה טרומיטא אע״פ שרי׳ וכ׳</he> (not <he>טרמיסא</he>) and in the case of a boiled-down egg (v. <cite ref=\"I00726\"><he>טרומיטא</he></cite>) the connection remains, although he has crushed it, until he begins to peel it; a. e.—Part. pass. <he>מְרוּסָּס</he>. ",
+				"<cite ref=\"Mishnah Shabbat 8:5\">Sabb. VIII, 5</cite> <he>אם היה עב או מר׳</he> if the reed is thick or cracked."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְרוֹסֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed, cracked</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 77a:7\">Ḥull. 77ᵃ</cite> <he>מִתְרוֹסֵס מהו</he> if the flesh covering the wound is lacerated, how is it? <cite ref=\"Sotah 11a:19\">Sot. 11ᵃ</cite> (play on <he>ר̇עמ̇ס̇ס̇</he>, <cite ref=\"Exodus 1:11\">Ex. I, 11</cite>) <he>ראשון ראשון מ̇תר̇וס̇ס̇</he> (Ar. s. v. <cite ref=\"Q00895\"><he>פיתום</he></cite>: <he>מתמסמס</he>) one building after the other was crushed (fell in); <cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

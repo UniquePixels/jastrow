@@ -1,0 +1,29 @@
+{
+	"id": "C00422",
+	"slug": "גומצא",
+	"headword": {
+		"text": "גּוּמָּצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּמְצָא"
+		}
+	],
+	"page": {
+		"number": 223,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>גּוּמָּץ</he>)<i>pit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 22:14\">Targ. Prov. XXII, 14</cite> Ms. (ed. <cite ref=\"C00413\"><he>גומאצא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 23:27\">Ib. XXIII, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:27\">Ib. XXVI, 27</cite> masc."
+			]
+		}
+	]
+}

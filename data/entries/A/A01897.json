@@ -1,0 +1,24 @@
+{
+	"id": "A01897",
+	"slug": "אלכסנדרית",
+	"headword": {
+		"text": "אֲלֶכְסַנְדְּרִית"
+	},
+	"page": {
+		"number": 71,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>Alexandrian</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:1\">Kel. XV, 1</cite> <he>ספינה א׳</he> Mish. ed. (Talm. ed. <he>ס׳ אלכסנדריא</he>) Alexandrian ship, i.e. Sea ship with water reservoirs. ",
+				"<cite ref=\"Shabbat 90a:3\">Sabb. 90ᵃ</cite>, a. e. <he>נתר א׳</he> Alex. nitron. ",
+				"<cite ref=\"Tosefta Niddah 4:17\">Tosef. Nidd. IV, 17</cite> Cleopatra <he>מלכת א׳</he> (ed. Zuck. <he>יס</he>—) Egyptian queen.—Pl. <cite ref=\"A01897\"><he>אֲלֶכְסַנְדְּרִיּוֹת</he></cite>, v. <cite ref=\"A01895\"><he>אֲלֶכְסַנְדְּרִי</he></cite>."
+			]
+		}
+	]
+}

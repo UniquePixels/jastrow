@@ -1,0 +1,27 @@
+{
+	"id": "A03069",
+	"slug": "ארטבן",
+	"headword": {
+		"text": "אַרְטְבַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְטְבָאן"
+		}
+	],
+	"page": {
+		"number": 118,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Artaban</i> (IV), the last Parthian king, friend of R. Judah han-Nasi. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:36\">Y. Peah I, 15ᵈ</cite> bot.; <cite ref=\"Bereishit Rabbah 35:3\">Gen. R. s. 35</cite>; <cite ref=\"Yalkut Shimoni on Torah 844:2\">Yalk. Deut. 844</cite>; Prov. 934.—V. <cite ref=\"A00474\"><he>אדרכן</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "C01212",
+	"slug": "גפף-2",
+	"headword": {
+		"text": "גְּפַף"
+	},
+	"page": {
+		"number": 262,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01211\">same</cite>, <i>to embrace</i>. Y. Erub. III, 20ᵈ bot.; VII, 24ᵈ top <he>נסתיה גְפַפְתֵּיה</he> she took him and hugged and kissed him &c.—",
+			"units": [
+				"<cite ref=\"Sanhedrin 82b:10\">Snh. 82ᵇ</cite> <he>גַּפְתָה לאמה</he> (<cite ref=\"Yalkut Shimoni on Torah 372\">Yalk. Num. 372</cite> <cite ref=\"C01218\"><he>גפתא</he></cite>) did she hug her mother there? [Rashi: she made her mother a prostitute.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּפֵּיף", "גָּפֵיף"],
+			"senses": [
+				{
+					"gloss": "<i>to embrace</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 29:13\">Targ. O. Gen. XXIX, 13</cite> <he>גָ׳</he> (Ms. a. Y. some ed. <cite ref=\"C00792\"><he>גַּפֵּ׳</he></cite>). Ib. XXXIII, 4; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to fold hands</i> (in idleness). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 4:5\">Targ. Koh. IV, 5</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

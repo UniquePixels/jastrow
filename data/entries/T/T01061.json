@@ -1,0 +1,28 @@
+{
+	"id": "T01061",
+	"slug": "רש",
+	"headword": {
+		"text": "רָשׁ"
+	},
+	"page": {
+		"number": 1498,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00669\"><he>יָרַשׁ</he></cite>) [<i>dispossessed</i>, cmp. <cite ref=\"D00798\"><he>דַּל</he></cite>,] <i>poor</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 34:11\">Lev. R. s. 34</cite> <he>רש מן הנכסים</he> the poor man is called <i>râsh</i>, because he is dispossessed of property. ",
+				"<cite ref=\"Vayikra Rabbah 34:11\">Ib.</cite> (ref. to <cite ref=\"Proverbs 29:13\">Prov. XXIX, 13</cite>) <he>זהו רש בתורה</he> this means one bare of learning. ",
+				"<cite ref=\"Proverbs 29:13\">Ib.</cite> (ref. to ib. XXII, 2) <he>אמר אותו רש לאותו עשיר</he> that poor (ignorant) man says to the rich man, teach me &c. ",
+				"<cite ref=\"Devarim Rabbah 9:2\">Deut. R. s. 9</cite> <he>אתמול … ועכשיו הוא מסיח כרש וכ׳</he> yesterday he (Moses) spoke like a rich man (ref. to <cite ref=\"Exodus 32:12\">Ex. XXXII, 12</cite>; <cite ref=\"Numbers 14:19\">Num. XIV, 19</cite>), but now he speaks like a poor man (begging, ref. to <cite ref=\"Deuteronomy 3:23\">Deut. III, 23</cite>); a. e.—Pl. <he>רָשִׁים</he>, <he>רָשִׁין</he>. ",
+				"<cite ref=\"Vayikra Rabbah 31:7\">Lev. R. s. 31</cite> (ref. to <cite ref=\"Song of Songs 7:6\">Cant. VII, 6</cite> <he>ודלת</he>) <he>הר׳ שבכם וכ׳</he> the poorest (in mind) among you are as precious to me as Elijah &c.; Cant. R. l. c. ",
+				"<cite ref=\"Megillah 11a:16\">Meg. 11ᵃ</cite> (play on <he>אחשורוֹשׁ</he>, <cite ref=\"Esther 1:1\">Esth. I, 1</cite>) <he>שהכל נעשו רשין בימיו</he> Ms. M. (ed. <he>רָאשִׁין</he>) all became poor in his days (with ref. to <cite ref=\"Esther 10:1\">Esth. X, 1</cite>). ",
+				"<cite ref=\"Kohelet Rabbah 5:7:1\">Koh. R. to V, 7</cite>, v. <cite ref=\"P01467\"><he>עֵשָׂו</he></cite>; a. fr."
+			]
+		}
+	]
+}

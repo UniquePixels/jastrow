@@ -1,0 +1,35 @@
+{
+	"id": "J00437",
+	"slug": "יני-2",
+	"headword": {
+		"text": "יְנִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 581,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A00736\"><he>אוֹנִי</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 18:12\">Targ. Ez. XVIII, 12</cite>. ",
+						"<cite ref=\"Onkelos Exodus 22:20\">Targ. O. Ex. XXII, 20</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 25:14\">Targ. Y. Lev. XXV, 14</cite> <he>לאוֹנָיָא</he> (not … <he>נַיָּא</he>); a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 53\">Gen. R. s. 53</cite> <he>דלא יהו מוֹנִין לה וכ׳</he> that they might not taunt her, calling her a barren woman."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

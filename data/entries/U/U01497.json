@@ -1,0 +1,31 @@
+{
+	"id": "U01497",
+	"slug": "שמן-2",
+	"headword": {
+		"text": "שְׁמֵן"
+	},
+	"page": {
+		"number": 1597,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01496\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּמֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to grow fat</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>אמר ליה זיל ואש׳ … ומִשְׁתַּמֵּן וכ׳</he> he said to the bird, go and grow fat, and come again, and it went and grew fat, and came again; Yalk. Zeph. 566."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

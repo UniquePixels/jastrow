@@ -1,0 +1,24 @@
+{
+	"id": "T00067",
+	"slug": "רבובה-2",
+	"headword": {
+		"text": "רְבוּבָה",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 1440,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. name of <i>a musical instrument</i>, a sort of <i>tambourine</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 49b\">Sot. 49ᵇ</cite> quot. in Ar. s. v. (ed. <cite ref=\"I00567\"><he>טנבורא</he></cite>; Mus. quotes <cite ref=\"T00755\"><he>רכובה</he></cite>; Ar. s. v. <he>אלית</he> quotes fr. Sot. l. c.: <cite ref=\"K00180\"><he>כובא</he></cite> as explan. of <cite ref=\"A01604\"><he>אירוס</he></cite>; Hai Gaon to <cite ref=\"Mishnah Kelim 15:6\">Kel. XV, 6</cite>: <he>דכובא</he> or <he>דכוכא</he>)."
+			]
+		}
+	]
+}

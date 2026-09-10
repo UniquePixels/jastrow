@@ -1,0 +1,46 @@
+{
+	"id": "B00499",
+	"slug": "בטח-2",
+	"headword": {
+		"text": "בְּטַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 156,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00498\">same</cite>.",
+			"units": [
+				"<cite ref=\"Taanit 22b:2\">Taan. 22ᵇ</cite> <he>הואיל וקא ב׳ בע״א</he> since he trusts in idols."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַבְטַח"],
+			"senses": [
+				{
+					"gloss": " = <cite ref=\"B00498\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 2:13\">Targ. Ruth II, 13</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְבְּטַח"],
+			"senses": [
+				{
+					"gloss": "<i>to feel safe</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 12:5\">Targ. Jer. XII, 5</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

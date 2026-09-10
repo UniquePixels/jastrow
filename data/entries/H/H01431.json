@@ -1,0 +1,28 @@
+{
+	"id": "H01431",
+	"slug": "חפורה-1",
+	"headword": {
+		"text": "חֲפוּרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲפִירָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 490,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01474\"><he>חָפַר</he></cite>) <i>pit</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 121a\">Yeb. 121ᵃ</cite>; <cite ref=\"Berakhot 33a\">Ber. 33ᵃ</cite> <he>חפי׳</he>; (<cite ref=\"Tosefta Yevamot 14:4\">Tosef. Yeb. XIV, 4</cite>; Y. ib. XVI, 15ᶜ <cite ref=\"B00329\"><he>בּוֹר</he></cite>)."
+			]
+		}
+	]
+}

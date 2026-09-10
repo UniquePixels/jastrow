@@ -1,0 +1,69 @@
+{
+	"id": "P01491",
+	"slug": "עשן-3",
+	"headword": {
+		"text": "עֲשַׁן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲשֵׁין"
+		}
+	],
+	"page": {
+		"number": 1126,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"A03332\"><he>אשן</he></cite>) <i>to be substantial, strong</i> (corresp. to h. <he>עזז</he>, v. <cite ref=\"P00385\"><he>עַז</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 52:9\">Targ. Ps. LII, 9</cite> <he>עֲשַׁן</he> Ms. (ed. <cite ref=\"P01478\"><he>עֲשִׁין</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 89:14\">Ib. LXXXIX, 14</cite> (ed. Wil. <he>תַּעְשֵׁן</he> <i>Af.</i>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַעְשֵׁן"],
+			"senses": [
+				{
+					"gloss": "<i>to strengthen, make substantial</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 8:28\">Targ. Prov. VIII, 28</cite> (ed. Wil. <he>אַעְשִׂין</he>, corr. acc.); a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְעַשֵּׁן"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְעֲשַׁן"],
+			"senses": [
+				{
+					"gloss": "<i>to become strong</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. Num. XXV, 8</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to exhibit one’s strength</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 68:29\">Targ. Ps. LXVIII, 29</cite> (h. text <cite ref=\"P00219\"><he>עוזה</he></cite>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to boast of one’s strength, be impudent</i>. Ib. IX, 20.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

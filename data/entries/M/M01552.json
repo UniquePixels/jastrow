@@ -1,0 +1,36 @@
+{
+	"id": "M01552",
+	"slug": "מליח",
+	"headword": {
+		"text": "מְלִיחַ"
+	},
+	"page": {
+		"number": 790,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01520\"><he>מָלַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>preserved in salt, pickled</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 113a:12\">Ḥull. 113ᵃ</cite> (<he>בשר</he>) <he>מ׳</he> salted meat, opp. <cite ref=\"V00827\"><he>תָּפֵל</he></cite>. ",
+				"<cite ref=\"Chullin 97b:4\">Ib. 97ᵇ</cite>, a. fr. <he>מ׳ … כרותח</he> what is preserved in salt, is ritually to be considered as if boiled or roasted; a. fr.—[Pl., v. <cite ref=\"M01520\"><he>מָלַח</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>salted relish, dessert</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 6:7\">Ber. VI, 7</cite>. ",
+				"<cite ref=\"Berakhot 44a:9\">Ib. 44ᵃ</cite> <he>כל סעודה שאין בה מ׳ וכ׳</he> Ms. M. (ed. <cite ref=\"M01521\"><he>מלח</he></cite>, corr. acc.; v. Rabb. D. S. a. l. note) a meal without salted preserves is no meal."
+			],
+			"label": "2"
+		}
+	]
+}

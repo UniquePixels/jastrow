@@ -1,0 +1,30 @@
+{
+	"id": "P00223",
+	"slug": "(עוזרד",
+	"headword": {
+		"text": "(עוּזְרָד"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּזְרָר",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1049,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00705\"><he>חִיזְרָר</he></cite> a. <cite ref=\"H00571\"><he>חַזְרָר</he></cite>; popularly conceived as a transposed reduplic. of <cite ref=\"G00597\"><he>זער</he></cite>) [<i>small and shrunk</i>,] <i>medlar, crab-apple; sorb-apple</i>. [<cite ref=\"Tosefta Kilaim 1:3\">Tosef. Kil. I, 3</cite> <cite ref=\"A00611\"><he>אוּזְרָד</he></cite>, v. <cite ref=\"H00705\"><he>חִיזְרָר</he></cite>.]—Pl. <he>עוּזְרָרִים</he>, <he>עוּזְרָרִין</he>, (<cite ref=\"P00223\"><he>עוּזְרָדִ׳</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:4\">Kil. I, 4</cite> (Y. ed. <he>עֻזְרָדִים</he>) sorb-apples (Maim.). ",
+				"<cite ref=\"Mishnah Maasrot 1:3\">Maasr. I, 3</cite> (Ms. M. <he>חזררין</he>, Y. ed. <he>חזרדין</he>). ",
+				"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite> (Y. ed. <he>עז׳</he>); <cite ref=\"Berakhot 40b:17\">Ber. 40ᵇ</cite>, expl. <he>טוּלְשֵׁי</he>; a. e."
+			]
+		}
+	]
+}

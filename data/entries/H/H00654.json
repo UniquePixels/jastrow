@@ -1,0 +1,28 @@
+{
+	"id": "H00654",
+	"slug": "חיבוט",
+	"headword": {
+		"text": "חִיבּוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִבּ׳"
+		}
+	],
+	"page": {
+		"number": 450,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00040\"><he>חָבַט</he></cite>) <i>laying down, pressing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 4:6\">Succ. IV, 6</cite> <he>יום ח׳ חריות</he> the day of laying down the twigs. ",
+				"<cite ref=\"Sukkah 43b\">Ib. 43ᵇ</cite>."
+			]
+		}
+	]
+}

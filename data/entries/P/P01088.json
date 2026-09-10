@@ -1,0 +1,26 @@
+{
+	"id": "P01088",
+	"slug": "עץ",
+	"headword": {
+		"text": "עֵץ"
+	},
+	"page": {
+		"number": 1101,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;v. <cite ref=\"P01114\"><he>עֲצֵי</he></cite>2) <i>tree, pole; wood</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 9:3\">Esth. R. to V, 12</cite> <he>לאחר שעשה העץ</he> after having made the gallows. ",
+				"<cite ref=\"Mishnah Tamid 2:3\">Tam. II, 3</cite>, a. fr. <he>עץ שמן</he> pine-wood. ",
+				"<cite ref=\"Bereishit Rabbah 15:7\">Gen. R. s. 15</cite> <he>אילן שעֵצוֹ נאכל וכ׳</he> a tree whose wood is as fit to eat as its fruit. Sifra Emor, Par. 12, ch. XVI, v. <cite ref=\"P01004\"><he>עָנָף</he></cite>; a. v. fr.—",
+				"<cite ref=\"Pesachim 30b:13\">Pes. 30ᵇ</cite> <he>עץ פרור</he> wooden pot-ladle.—Pl. <he>עֵצִים</he>; constr. <cite ref=\"P01114\"><he>עֲצֵי</he></cite>. Tam. l. c. <he>כל הע׳ כשרין וכ׳</he> all kinds of wood are fit for the altar pile. Ib. 5 <he>עצי תאנה</he> wood of a fig-tree. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 2:3\">R. Hash. II, 3</cite> <he>עצי שמן</he>, v. supra; a. v. fr."
+			]
+		}
+	]
+}

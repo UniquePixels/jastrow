@@ -1,0 +1,22 @@
+{
+	"id": "H00255",
+	"slug": "חוגתא",
+	"headword": {
+		"text": "חוּגְתָא"
+	},
+	"page": {
+		"number": 430,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00140\"><he>חֲגַג</he></cite>) <i>circle, limit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 8:27\">Targ. Prov. VIII, 27</cite>."
+			]
+		}
+	]
+}

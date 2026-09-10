@@ -1,0 +1,52 @@
+{
+	"id": "I00740",
+	"slug": "טרוקסימא",
+	"headword": {
+		"text": "טְרוֹקְסִימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְרוֹקְסִימוֹן"
+		},
+		{
+			"text": "טְרוֹכְסִימוֹן"
+		},
+		{
+			"text": "טרק׳"
+		},
+		{
+			"text": "טרכ׳"
+		}
+	],
+	"page": {
+		"number": 551,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τρώξιμον, τὰ τρώξιμα) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>whatever can be eaten raw</i>, applied to <i>kitchen vegetables</i>, esp. <i>endive</i> &c. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 3:5\">Lev. R. s. 3</cite> <he>אגודה אחת של טרוקסימא</he> (some ed. … <he>מון</he>) a bunch of vegetables. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:9:9\">Y. Pes. IV, 31ᵇ</cite>, sq. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:23\">Y. Sabb. VII, 10ᵃ</cite> <he>טריקס׳</he> ed. Krot. (corr. acc.).—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:5:2\">Y. Pes. II, 29ᶜ</cite> top (expl. <cite ref=\"P00270\"><he>עולשין</he></cite>); <cite ref=\"Jerusalem Talmud Kilayim 1:2:4\">Y. Kil. I, 27ᵃ</cite> top (some ed. <he>מין …</he>, pl.)—",
+				"<cite ref=\"Tosefta Terumot 4:5\">Tosef. Ter. IV, 5</cite> <he>טרקסמן</he> ed. Zuck. (Var. <he>טְרָכְסְמִין</he>, pl.) <cite ref=\"Tosefta Makhshirin 3:10\">Tosef. Makhsh. III, 10</cite> <cite ref=\"I00740\"><he>טרכ׳</he></cite>, contrad. to <cite ref=\"J00657\"><he>יֶרֶק</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. κῆπος) <i>kitchen-garden</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 35b\">Ber. 35ᵇ</cite> <he>היו … דרך ט׳ וכ׳</he> (Ms. M. <he>טרסק׳</he>; Ms. F. <he>טריבסמון</he>, corr. acc.) used to bring their fruits home (from the field to the barn) by the way of the kitchen-garden (in sight of the house) in order to make them subject to tithes; <cite ref=\"Gittin 81a\">Gitt. 81ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 938\">Yalk. Deut. 938</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

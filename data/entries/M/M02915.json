@@ -1,0 +1,31 @@
+{
+	"id": "M02915",
+	"slug": "משלחת",
+	"headword": {
+		"text": "מִשְׁלַחַת"
+	},
+	"page": {
+		"number": 855,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01265\"><he>שָׁלַח</he></cite>)<i>errand, message; substitution</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 14:6\">Num. R. s. 14</cite> <he>והיה זריז במִשְׁלַחְתּוֹ</he> and he (Naftali) was zealous in carrying out his mission. ",
+				"<cite ref=\"Kohelet Rabbah 8:8:1\">Koh. R. to VIII, 8</cite>. (expl. <cite ref=\"M02915\"><he>משלחת</he></cite>, <cite ref=\"Kohelet Rabbah 8:8:1\">ib.</cite>) <he>אין אדם וכ׳</he> (‘there is no substitution in war’,) none can say to the angel of death, let my slave or an inmate of my house go in my place."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>letting loose</i> (by divine dispensation), <i>visitation</i> (of wild beasts). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 7:9\">B. Mets. VII, 9</cite>; a. e., v. <cite ref=\"G00001\"><he>זְאֵב</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

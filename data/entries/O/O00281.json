@@ -1,0 +1,32 @@
+{
+	"id": "O00281",
+	"slug": "סוחר",
+	"headword": {
+		"text": "סוֹחֵר"
+	},
+	"page": {
+		"number": 962,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"O00281\"><he>סֹחֵר</he></cite>; <cite ref=\"O00465\"><he>סָחַר</he></cite>)<i>traveller, beggar</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 107a:15\">Snh. 107ᵃ</cite> <he>דומה לס׳ כותי</he> like a Samaritan beggar (v. ",
+				"<cite ref=\"Midrash Tehillim 19\">Midr. Till. to Ps. XIX</cite>, end, a <cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite>; Rashi: a Samaritan <i>peddler</i> that offers his goods by degrees, from the worse to the better)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>travelling merchant</i>, in gen. <i>merchant</i>. Tanḥ. Ki Thissa 2, v. <cite ref=\"O00218\"><he>סַהַר</he></cite>; a. e.—Pl. <he>סוֹחֲרִים</he>, <he>סוֹחֲרִין</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 84:22\">Gen. R. s. 84</cite> <he>אחיו … לס׳ וס׳ וכ׳</he> his brothers sold him (Joseph) to the Ishmaelites, the Ishmaelites to the merchants, and the merchants to the Midianites &c. ",
+				"<cite ref=\"Mishnah Shekalim 7:2\">Shek. VII, 2</cite> <he>סוֹחֲרֵי בהמה</he> cattle merchants (in Jerusalem); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

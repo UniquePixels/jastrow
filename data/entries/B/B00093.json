@@ -1,0 +1,40 @@
+{
+	"id": "B00093",
+	"slug": "בד-1",
+	"headword": {
+		"text": "בִּדְּ־"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּידְּ־"
+		}
+	],
+	"page": {
+		"number": 138,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " prefix (comp. of <cite ref=\"B00000\"><he>בְּ</he></cite> a. <he>דְּ</he> = h. <he>בְּשֶׁ־</he>, <cite ref=\"B01360\"><he>בְּשֶׁל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>concerning that</i> (<i>those</i>) <i>of; at the time of; treating of what refers to</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 112a:6\">Sabb. 112ᵃ</cite> <he>בדטייעי</he> in the case of those (sandals) of the travelling merchants (Arabs). ",
+				"<cite ref=\"Yoma 78b\">Yoma 78ᵇ</cite>, v. <cite ref=\"E00264\"><he>הוּצָא</he></cite>. ",
+				"<cite ref=\"Chullin 20a:1\">Ḥull. 20ᵃ</cite> <he>ומתני׳ בדלא אהדר</he> our Mishnah treats of a case when he did not turn. ",
+				"<cite ref=\"Gittin 49a:1\">Gitt. 49ᵃ</cite> <he>בדניזק וכ׳</he> we go in our assessment by (the property) of the injured; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>if, when</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 43:5\">Targ. Y. Gen. XLIII, 5</cite> <he>בִּדְּלֵית</he> <i>unless</i>. ",
+				"<cite ref=\"Onkelos Deuteronomy 9:4\">Targ. O. Deut. IX, 4</cite> <he>בִּדְּיִתְּבַר</he>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

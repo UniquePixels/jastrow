@@ -1,0 +1,23 @@
+{
+	"id": "O00798",
+	"slug": "סיפלני",
+	"headword": {
+		"text": "סִיפְלָנִי"
+	},
+	"page": {
+		"number": 985,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A02500\"><he>אִסְפְּלָנִית</he></cite>) <i>rag, compress, plaster</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:6:6\">Y. Kil. IX, end, 32ᵈ</cite>, v. <cite ref=\"M02645\"><he>מַרְטוּט</he></cite>. Y. Sot. IX, 23ᶜ bot. <he>מאן … יהב סופ׳ וכ׳</he> let him who wishes not to be recognized put a plaster on his nose &c. ",
+				"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>הוון … סיפליני וכ׳</he> (corr. acc.) they put plasters &c.; (<cite ref=\"Jerusalem Talmud Yevamot 16:3:2\">Y. Yeb. XVI, beg. 15ᶜ</cite> <he>איספלני</he>)."
+			]
+		}
+	]
+}

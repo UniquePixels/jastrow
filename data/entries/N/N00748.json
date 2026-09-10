@@ -1,0 +1,28 @@
+{
+	"id": "N00748",
+	"slug": "ניצויי",
+	"headword": {
+		"text": "נִיצּוּיֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִצּ׳"
+		}
+	],
+	"page": {
+		"number": 907,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. constr. (<cite ref=\"N01120\"><he>נְצֵי</he></cite>) <i>strife, rivalry</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 24b:1\">Meg. 24ᵇ</cite> top, v. <cite ref=\"N01120\"><he>נְצֵי</he></cite>."
+			]
+		}
+	]
+}

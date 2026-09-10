@@ -1,0 +1,44 @@
+{
+	"id": "K00568",
+	"slug": "כינוס",
+	"headword": {
+		"text": "כִּינּוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּנּ׳"
+		}
+	],
+	"page": {
+		"number": 633,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00860\"><he>כָּנַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gathering, piling up</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:5\">Kel. XV, 5</cite> <he>העשוי לכ׳</he> a vessel used for piling up (shovel &c.), opp. <he>לקבלה</he> as a receptacle. ",
+				"<cite ref=\"Niddah 49b:10\">Nidd. 49ᵇ</cite> <he>כ׳ ע״י הדחק</he> receiving (absorbing) liquids under pressure (through pores, perforations &c.) <cite ref=\"Bava Batra 68a:1\">B. Bath. 68ᵃ</cite> <he>בית כ׳ העצים</he> (Ms. O. <cite ref=\"K00309\"><he>כּוֹנֵס</he></cite>; <cite ref=\"Tosefta Bava Batra 3:3\">Tosef. ib. III, 3</cite> <cite ref=\"K00853\"><he>כְּנִיסַת</he></cite>) store-room for wood. ",
+				"<cite ref=\"Mishnah Sanhedrin 8:5\">Snh. VIII, 5</cite> <he>כ׳ לרשעים כו׳</he> gathering (living together) of the wicked is bad &c., opp. <cite ref=\"Q00609\"><he>פִּיזּוּר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:30\">Y. Kidd. I, 59ᵈ</cite> top <he>מקום כ׳ שיער</he> a spot of the body where hair grows in quantities. ",
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite> (ref. to <cite ref=\"Genesis 7:5\">Gen. VII, 5</cite>) <he>זה שיכון לכ׳ וכ׳</he> this is the execution of the command to gather in the animals. ",
+				"<cite ref=\"Midrash Tehillim 8:2\">Midr. Till. to Ps. VIII</cite> (ref. to <he>ויצר</he>, <cite ref=\"Genesis 2:19\">Gen. II, 19</cite>) <he>לשון כ׳</he> it means the gathering (the animals before Adam); <cite ref=\"Bereishit Rabbah 17:4\">Gen. R. s. 17</cite> <he>וכאן לכבוש</he> (corr. acc.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00865\"><he>כְּנֶסֶת</he></cite>) <i>retirement for prayer</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite>, beg. (ref. to <he>קבוציך</he>, <cite ref=\"Isaiah 57:13\">Is. LVII, 13</cite>) <he>כִּינּוּסוֹ וכ׳ בניו וכ׳</he> his (Jacob’s) and his sons’ prayers saved him &c.; <cite ref=\"Yalkut Shimoni on Torah 140\">Yalk. Gen. 140</cite>; <cite ref=\"Yalkut Shimoni on Nach 349\">Yalk. Is. 349</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

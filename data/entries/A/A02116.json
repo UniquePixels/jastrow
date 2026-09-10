@@ -1,0 +1,25 @@
+{
+	"id": "A02116",
+	"slug": "אנדיקוס",
+	"headword": {
+		"text": "אַנְדִּיקוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְדִּיקָס"
+		}
+	],
+	"page": {
+		"number": 81,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., a popular corrupt. of <i>ecdicus</i>, v. <cite ref=\"A00251\"><he>אֶגְדִּיקוֹס</he></cite> a. <cite ref=\"A02113\"><he>אַנְדִּיסְקֵי</he></cite>.",
+			"units": []
+		}
+	]
+}

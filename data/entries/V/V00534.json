@@ -1,0 +1,35 @@
+{
+	"id": "V00534",
+	"slug": "תכיפה",
+	"headword": {
+		"text": "תְּכִיפָה"
+	},
+	"page": {
+		"number": 1668,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00553\"><he>תָּכַף</he></cite>) [<i>junction, fastening</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stitch</i> or <i>knot</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 9:10\">Kil. IX, 10</cite> <he>התוכף ת׳ אחת</he> if one fastens two pieces together with only one stitch; <cite ref=\"Menachot 39a:2\">Men. 39ᵃ</cite>; <cite ref=\"Shabbat 54a:18\">Sabb. 54ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>immediate sequence.—</i>Pl. <he>תְּכִיפוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:30\">Y. Ber. I, 2ᵈ</cite> bot. <he>שלש ת׳ הן תכף וכ׳</he> three actions require immediateness; putting on of hands must be immediately followed by slaughtering &c.; Bab. ",
+				"<cite ref=\"Berakhot 42a:7\">Ber. 42ᵃ</cite>; <cite ref=\"Devarim Rabbah 2:10\">Deut. R. s. 2<sup>10</sup></cite>; <cite ref=\"Yalkut Shimoni on Torah 130:6\">Yalk. Gen. 130</cite> <he>תְּכֵפוֹת</he>; a. e.; v. <cite ref=\"V00555\"><he>תֵּכֶף</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

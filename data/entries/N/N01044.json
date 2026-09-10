@@ -1,0 +1,38 @@
+{
+	"id": "N01044",
+	"slug": "נפילה",
+	"headword": {
+		"text": "נְפִילָה"
+	},
+	"page": {
+		"number": 924,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01054\"><he>נָפַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>falling</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 8:6\">Sot. VIII, 6</cite>, a. e. v. <cite ref=\"N00702\"><he>נִיסָה</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 5:7\">B. Kam. V, 7</cite> (<cite ref=\"Bava Kamma 54b:6\">54ᵇ</cite>) <he>לנְפִילַת הבור</he> as to the laws relating to an animal falling into a pit (<cite ref=\"Exodus 21:33\">Ex. XXI, 33</cite> sq.). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:14\">Y. Ber. I, 3ᵈ</cite> top <he>שתסמכנו מנְפִילָתֵנוּ</he> that thou mayest support us in our downfall.—Pl. <he>נְפִילוֹת</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 1058:6\">Yalk. Esth. 1058</cite> (ref. to <cite ref=\"Esther 6:13\">Esth. VI, 13</cite>) <he>שתי נ׳ הללו למה</he> why this double use of <i>nafal?</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"M02200\"><he>מַפּוֹלֶת</he></cite>) <i>quantity of seed required for a field</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 5:1\">Peah V, 1</cite> <he>נותן לעניים</he> (<cite ref=\"B00000\"><he>ב</he></cite>) <he>כדי נ׳</he> (Y. ed. <he>נִפְלָהּ לעניים</he>) he must give to the poor as much as the field requires for seed (v. Maim. a. l.; oth. opin.: as much as is generally dropped at cutting); <cite ref=\"Bava Metzia 105b:12\">B. Mets. 105ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Bava Metzia 9:5\">Ib. IX, 5</cite> <he>אם יש בה כדי נ׳</he> (Y. ed. <he>נִיפְלָהּ</he>) if the field yields as much as is required for seed, expl. Y. ib. 12ᵃ <he>כדי הזרע הנופל בה</he>; <cite ref=\"Jerusalem Talmud Peah 5:1:7\">Y. Peah. V, 18ᵈ</cite> <he>כדי ניפלת</he> (corr. acc.).—[<cite ref=\"Jerusalem Talmud Orlah 1:1:10\">Y. Orl. I, 60ᵈ</cite> top <he>כדי נפילתה</he> R. S. to <cite ref=\"Mishnah Orlah 1:2\">Orl. I, 2</cite>, v. <cite ref=\"I00655\"><he>טְפִילָה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

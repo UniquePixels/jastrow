@@ -1,0 +1,24 @@
+{
+	"id": "Q01919",
+	"slug": "פרסה-1",
+	"headword": {
+		"text": "פַּרְסָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1233,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Persian mile</i> (<i>parasang</i>). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 82b:17\">B. Kam. 82ᵇ</cite>; <cite ref=\"Jerusalem Talmud Taanit 4:5:3\">Y. Taan. IV, 68ᶜ</cite>; a. fr.—Pl. <cite ref=\"Q01917\"><he>פַּרְסָאוֹת</he></cite>. ",
+				"<cite ref=\"Pesachim 93b:11\">Pes. 93ᵇ</cite>, sq.; a. e.—[<cite ref=\"Mishnah Sheviit 5:1\">Shebi. V, 1</cite>, a. e., v. <cite ref=\"Q01928\"><he>פַּרְסִי</he></cite>.]"
+			]
+		}
+	]
+}

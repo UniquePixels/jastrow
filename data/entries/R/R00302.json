@@ -1,0 +1,30 @@
+{
+	"id": "R00302",
+	"slug": "ציבתא-3",
+	"headword": {
+		"text": "צִיבְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִבְּתָא"
+		}
+	],
+	"page": {
+		"number": 1274,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"R00293\"><he>צִיבָּא</he> II</cite>, <i>chips, twigs</i> &c. ",
+			"units": [
+				"<cite ref=\"Shabbat 139b:17\">Sabb. 139ᵇ</cite> <he>לא ניהדק אינש צ׳ וכ׳</he> Ar. (Ms. O. <cite ref=\"R00022\"><he>צִבָּאתָא</he></cite>; ed. <cite ref=\"R00394\"><he>צינייתא</he></cite>, read: <cite ref=\"R00299\"><he>צִיבְיָיתָא</he></cite>; v. Rabb. D. S. a. l. note 60) one must not stuff chips into the mouth of a jug (to let wine run through them). ",
+				"<cite ref=\"Chullin 67a:11\">Ḥull. 67ᵃ</cite> <he>לא לשפי</he> … <he>בצבתא וכ׳</he> Ms. M. a. Ar. (ed. <he>בצבייתא</he>) one must not pour date-beer through chips &c. Ib. 105ᵇ <he>משום ציבתא</he> (Ms. M. <cite ref=\"R00294\"><he>צִיבְוָותָא</he></cite>, v. Rabb. D. S. a. l. note) on account of the chips (floating on top). ",
+				"<cite ref=\"Avodah Zarah 75b:1\">Ab. Zar. 75ᵇ</cite> top <he>דצ׳</he> bands made of shavings; <cite ref=\"Tamid 30a\">Tam. 30ᵃ</cite>. ",
+				"<cite ref=\"Sukkah 29a\">Succ. 29ᵃ</cite> a wind blew <he>וקא מייתי ציבותא</he> (Ms. M. 1 <cite ref=\"R00299\"><he>ציבייתא</he></cite>; Ms. M. 2 <cite ref=\"R00322\"><he>ציוותא</he></cite>, v. Rabb. D. S. a. l. note) and caused twigs and leaves (covering the Succah) to drop down (v. <cite ref=\"M02277\"><he>מְצוֹבִיתָא</he></cite>)."
+			]
+		}
+	]
+}

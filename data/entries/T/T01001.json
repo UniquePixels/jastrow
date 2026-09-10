@@ -1,0 +1,76 @@
+{
+	"id": "T01001",
+	"slug": "רצץ-1",
+	"headword": {
+		"text": "רָצַץ"
+	},
+	"page": {
+		"number": 1495,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to press, squeeze, crush</i>. Tanḥ. Ḥuck. 20 <he>נכנסו … ורָצְצוּ וכ׳</he> the rocks were moved into the caves and crushed all those warriors; <cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:6\">Cant. R. to I, 6</cite> (play on <cite ref=\"T00998\"><he>רִצְפָּה</he></cite>, <cite ref=\"Isaiah 6:6\">Is. VI, 6</cite>) <he>רוֹץ פֶּה רְצוֹץ פה וכ׳</he> <i>ritspah</i> means <i>rots peh</i>, crush the mouth of him (Isaiah) who spoke ill of my children; Tanḥ. Vayishl. 2; <cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> <he>רֹץ פה</he>; <cite ref=\"Yalkut Shimoni on Torah 764:10\">Yalk. Num. 764</cite>; <cite ref=\"Yalkut Shimoni on Nach 273:1\">Yalk. Is. 273</cite> <he>רַצֵּץ</he> (<i>Pi.</i>); <cite ref=\"Yalkut Shimoni on Nach 218:1\">Yalk. Kings 218</cite> <he>רצץ</he>. Cant. R. l. c. (play on <he>רְצָפִים</he> <cite ref=\"I Kings 19:6\">I Kings XIX, 6</cite>) [read:] <he>רץ פים רצוץ פיות וכ׳</he> crush the mouths of all who (like Elijah) speak ill of my children. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:1:8\">Y. Ab. Zar. II, 40ᶜ</cite> bot. <he>שלא יָרוֹץ את וכ׳</he> lest he (the gentile) break his (the Jew’s) skull. Y. Macc. II, beg. 31ᶜ <he>והושיט … ורְצָצָהּ</he> and a child put forth his hand (under the roller), and he crushed it. ",
+				"<cite ref=\"Beitzah 34a:2\">Bets. 34ᵃ</cite> <he>רְצָצַתָּהּ בהמה</he> a beast squeezed it (an animal, against a wall); <cite ref=\"Mishnah Chullin 3:3\">Ḥull. III, 3</cite> (<cite ref=\"Chullin 56a\">56ᵃ</cite>) Ms. M. (ed. <he>רִיצְּצַתָּהּ</he>, <i>Pi.</i>). ",
+				"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30<sup>17</sup></cite> <he>רָצְצוּ גפנים</he> they crushed the vines; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite> (ref. to <cite ref=\"Genesis 25:22\">Gen. XXV, 22</cite>) <he>שזה רַץ להרוג וכ׳</he> this one pressed to kill that one &c. ",
+				"<cite ref=\"Genesis 25:22\">Ib.</cite> <he>עשו רץ ומפרכס וכ׳</he> Esau pressed and struggled to get out."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיצֵּץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01000\">same</cite>. Ḥull. l. c., v. supra. Y. Kidd. IV, end, 66ᶜ <he>הטוב … רַצֵּץ את מוחו</he> the best of the serpents—crush its brain. Yalk. Kings l. c.; Yalk. Is. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 137:1\">Midr. Till. to Ps. CXXXVII</cite>; Yalk. ib. 884 they put their thumbs into their mouths <he>ומְרַצְּצִים אותם</he> and crushed them (with their teeth); <cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>ומרצצים ומקצצים אותם</he> crushed and bit them off; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to push, struggle</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 58:1\">Midr. Till. to Ps. LVIII</cite> (ref. to <he>ויתרצצו</he>, <cite ref=\"Genesis 25:22\">Gen. XXV, 22</cite>) <he>שהיה מְרַצֵּץ עם וכ׳</he> he (Esau) struggled with his brother in his mother’s womb."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵרֵץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01000\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to crush</i>. Y. Yeb. I, 3ᵃ bot. <he>הרי אתם … בשביל שיָרֵיצּוּ את מוחי</he> you place my head between two high mountains …, that they may crush my brain (you want me to decide between two great authorities); <cite ref=\"Tosefta Ohalot 18:18\">Tosef. Ohol. XVIII, 18</cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to press, rush in a crowd</i>. Tanḥ. Balak 4; <cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite> like the money-changer <he>שהכל מְרִיצִּים לו</he> to whom all rush (to have their coins examined).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְרוֹצֵץ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpol</i>. <he>נִתְרוֹצֵץ</he> <i>to press one another, struggle</i>. Tanḥ. Vayḥi 15 <he>כיון שנתְרוֹצְצוּ וכ׳</he> when the children struggled together within her.",
+					"units": []
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

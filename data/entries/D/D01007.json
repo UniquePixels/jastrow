@@ -1,0 +1,23 @@
+{
+	"id": "D01007",
+	"slug": "דקיתא-1",
+	"headword": {
+		"text": "דַּקִּיתָא"
+	},
+	"page": {
+		"number": 319,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. collect. noun (<he>דקק</he>) <i>young shoots</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 22:3\">Targ. Y. Gen. XXII, 3</cite> [read:] <he>ד׳ דתאנ׳</he> (= <he>מרביות של תאנה</he>, v. ",
+				"<cite ref=\"Tamid 29b\">Tam. 29ᵇ</cite>)."
+			]
+		}
+	]
+}

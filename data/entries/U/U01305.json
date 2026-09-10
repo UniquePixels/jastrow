@@ -1,0 +1,38 @@
+{
+	"id": "U01305",
+	"slug": "שליו-3",
+	"headword": {
+		"text": "שְׁלֵיו"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלֵיוָא"
+		},
+		{
+			"text": "שְׁלֵוָוא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1583,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01230\"><he>שָׁלֵו</he></cite>, <i>secure, unconcerned</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 21:23\">Targ. Job XXI, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 16:12\">Ib. XVI, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 20:20\">Ib. XX, 20</cite> (ed. Wil. <cite ref=\"U01303\"><he>שְׁלָיו</he></cite>); a. e.—<i>Fem.</i> <cite ref=\"U01306\"><he>שְׁלֵיוָא</he></cite>, <cite ref=\"U01241\"><he>שְׁלֵיוְיָא</he></cite>, <cite ref=\"U01241\"><he>שְׁלֵיוְתָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 7:7\">Targ. Zech. VII, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 22:21\">Targ. Jer. XXII, 21</cite> (ed. Wil. <cite ref=\"U01306\"><he>שְׁלֵיוַיָא</he></cite>; ed. Lag. <cite ref=\"U01237\"><he>שְׁלֵוָוא</he></cite>). ",
+				"<cite ref=\"Targum of I Chronicles 4:40\">Targ. I Chr. IV, 40</cite>; a. e.—Pl. <cite ref=\"U01327\"><he>שְׁלֵיוִין</he></cite>, <he>שְׁלֵוִין</he>; <cite ref=\"U01306\"><he>שְׁלֵיוָן</he></cite>, <he>שְׁלֵוו׳</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 12:6\">Targ. Job XII, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:9\">Targ. Is. XXXII, 9</cite>; <cite ref=\"Targum Jonathan on Isaiah 32:11\">11</cite>; <cite ref=\"Targum Jonathan on Isaiah 32:18\">18</cite>, v. <cite ref=\"U01306\">next w.</cite>"
+			]
+		}
+	]
+}

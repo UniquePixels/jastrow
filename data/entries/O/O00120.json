@@ -1,0 +1,80 @@
+{
+	"id": "O00120",
+	"slug": "סגי-1",
+	"headword": {
+		"text": "סְגֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 953,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"U00215\"><he>שָׂגָה</he></cite>, <cite ref=\"U00205\"><he>שָׂגָא</he></cite> ; Saf. of <cite ref=\"C00015\"><he>גאי</he></cite>; cmp. ",
+			"units": [
+				"<cite ref=\"Job 8:11\">Job VIII, 11</cite>) 1) <i>to swell, rise, grow, spread, increase, thrive</i>. ",
+				"<cite ref=\"Onkelos Leviticus 13:12\">Targ. Lev. XIII, 12</cite>. ",
+				"<cite ref=\"Onkelos Exodus 1:20\">Targ. Ex. I, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 92:13\">Targ. Ps. XCII, 13</cite>; a. fr.—Part. <cite ref=\"O00120\"><he>סָגֵי</he></cite>; f. <cite ref=\"O00125\"><he>סַגְיָא</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 9:9\">Targ. O. Ex. IX, 9</cite>, sq. ed. Berl. (ed. Vienna, a. Y. <cite ref=\"O00123\"><he>סַגִּי</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 13:42\">Targ. Lev. XIII, 42</cite>; a. fr.—Esth. R. introd. <he>מן דסְגוֹ דייני שיקרא סְגוּן וכ׳</he> when faithless judges are numerous, false witnesses are frequent; <he>מן דסגון … סָגִין ממונהן וכ׳</he> when informers are numerous, the cases of people’s properties being despoiled increase; <cite ref=\"Yalkut Shimoni on Nach 1044:1\">Yalk. Esth. 1044</cite> <he>מדסְגָן … סְגִיאוּ</he>; <cite ref=\"Yalkut Shimoni on Nach 920:10\">Yalk. Job 920</cite> <he>מדסגן … סְגִיאוּ</he>. ",
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (<cite ref=\"Sotah 49b:2\">49ᵇ</cite>) <he>יִסְגֵּא</he>, v. <cite ref=\"H00437\"><he>חוּצְפָּא</he></cite>; a. fr."
+			]
+		},
+		{
+			"gloss": " (= h. <cite ref=\"T00042\"><he>רַב</he></cite>) <i>to be sufficient</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 6a:9\">Snh. 6ᵃ</cite> <he>תִּסְגֵּי בתרי</he> let it be enough with two judges.—[Targ. II Esth. III, 3 <he>סגיתיה</he>, read <he>סַג יָתֵיה</he>, v. <cite ref=\"O00243\"><he>סוּג</he></cite> ch.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְגֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to enlarge, increase, make great; to have much, do much</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 3:16\">Targ. Gen. III, 16</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 44:13\">Targ. Ps. XLIV, 13</cite>. ",
+						"<cite ref=\"Onkelos Exodus 16:17\">Targ. Ex. XVI, 17</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 22:36\">Targ. II Sam. XXII, 36</cite>; a. fr.—",
+						"<cite ref=\"Yoma 88a:11\">Yoma 88ᵃ</cite> <he>סָגֵי ומַ סְגֵּי</he> he will grow and multiply (his descendants will be numerous)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["סַגֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00119\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 14:17\">Targ. O. Num. XIV, 17</cite> <cite ref=\"O00123\"><he>סַגִּי</he></cite> (imperative)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתְּגֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be multiplied; to increase</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 48:16\">Targ. Y. Gen. XLVIII, 16</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

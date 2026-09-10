@@ -1,0 +1,28 @@
+{
+	"id": "J00335",
+	"slug": "יין",
+	"headword": {
+		"text": "יַיִן"
+	},
+	"page": {
+		"number": 576,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>יון</he>; cmp. <cite ref=\"J00198\"><he>יָוֵן</he></cite>) [<i>thick, fermenting</i>,] <i>wine</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 70a:7\">Snh. 70ᵃ</cite> <he>י׳ חי</he>, v. <cite ref=\"H00648\"><he>חַי</he></cite>. ",
+				"<cite ref=\"Sifrei Bamidbar 23:1\">Sifré Num. 23</cite> (ref. to <cite ref=\"Numbers 6:3\">Num. VI, 3</cite>) <he>י׳ זה מזוג וכ׳</he> <i>yayin</i> means mixed wine, <i>shekhar</i> unmixed. ",
+				"<cite ref=\"Mishnah Avodah Zarah 5:1\">Ab. Zar. V, 1</cite>, a. fr. <he>יֵין נסך</he>, v. <cite ref=\"N00948\"><he>נֶסֶךְ</he></cite>.—",
+				"<cite ref=\"Chullin 4b\">Ḥull. 4ᵇ</cite>, a. e. <he>סתם יֵינָן</he>, v. <cite ref=\"O01707\"><he>סְתָם</he></cite>. ",
+				"<cite ref=\"Chullin 4b:12\">Ib.</cite> <he>יינן של נכרים</he> wine prepared or handled by gentiles; a. v. fr.—Pl. <he>יֵינוֹת</he>. ",
+				"<cite ref=\"Tosefta Avodah Zarah 4:1\">Tosef. Ab. Zar. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:1\">V</cite>), 1 sq. ",
+				"<cite ref=\"Ketubot 65a:2\">Keth. 65ᵃ</cite>, v. <cite ref=\"Q01350\"><he>פָּסַק</he></cite>; a. e."
+			]
+		}
+	]
+}

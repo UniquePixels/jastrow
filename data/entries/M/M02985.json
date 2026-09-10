@@ -1,0 +1,32 @@
+{
+	"id": "M02985",
+	"slug": "משש-2",
+	"headword": {
+		"text": "מְשַׁשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 858,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>מַשֵּׁישׁ</he> <cite ref=\"M02984\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 31:34\">Targ. O. Gen. XXXI, 34</cite>; <cite ref=\"Onkelos Genesis 31:37\">37</cite> (Y. <cite ref=\"Q02091\"><he>פשפש</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

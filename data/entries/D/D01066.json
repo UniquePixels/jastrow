@@ -1,0 +1,27 @@
+{
+	"id": "D01066",
+	"slug": "דרוסא",
+	"headword": {
+		"text": "דְּרוֹסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּרוֹסָה"
+		}
+	],
+	"page": {
+		"number": 322,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>D’rosa, D’rosah</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 4:5:6\">Y. Yoma IV, 41ᵈ</cite> top <he>ר׳ ד׳</he>; <cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <cite ref=\"D01066\"><he>דְּרוֹסַאי</he></cite>; <cite ref=\"Shir HaShirim Rabbah 3:10:3\">Cant. R. to III, 10</cite> <he>דרוסה</he>.—<he>בן ד׳</he>, v. <cite ref=\"A01688\"><he>אֲכִילָה</he></cite>."
+			]
+		}
+	]
+}

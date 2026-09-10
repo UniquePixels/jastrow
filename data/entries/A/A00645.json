@@ -1,0 +1,33 @@
+{
+	"id": "A00645",
+	"slug": "אוכלא-2",
+	"headword": {
+		"text": "אוּכְלָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 25,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01697\"><he>אכל</he></cite> = <cite ref=\"K00259\"><he>כּוּל</he></cite>) prop. <i>measure</i>, hence (cmp. <cite ref=\"K00523\"><he>כַּיְילָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a certain measure, Ukhla</i>, (basket); cmp. <cite ref=\"K00690\"><he>כְּלָה</he></cite>.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:7:2\">Y. Sot. I, 17ᵃ</cite> <he>תומן וחצי ת׳ וא׳</he> one Tuman (one eighth of a kab), and half a T. and one Ukhla; cmp. <cite ref=\"P00239\"><he>עוּכְלָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>basket</i>, v. <cite ref=\"A00529\"><he>אוּבְלָא</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

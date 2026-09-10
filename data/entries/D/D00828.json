@@ -1,0 +1,108 @@
+{
+	"id": "D00828",
+	"slug": "דלי-2",
+	"headword": {
+		"text": "דְּלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּלָא"
+		}
+	],
+	"page": {
+		"number": 309,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00827\">same</cite><i>to be suspended</i>. Part. pl. <he>דַּלְיָין</he> suspended. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:6\">Targ. Esth. I, 6</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to draw, raise</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 2:19\">Targ. Ex. II, 19</cite>. Targ. II Esth. I, 2 buckets <he>דדלו אבנא</he> which draw stone; a. fr. [<cite ref=\"Targum Jonathan on Numbers 14:14\">Targ. Y. Num. XIV, 14</cite> read <cite ref=\"M00263\"><he>מַדְלֵי</he></cite> Af.] [<cite ref=\"Pesachim 40a:3\">Pes. 40ᵃ</cite> <he>מדלייהו</he>, v. <cite ref=\"M00304\"><he>מַדְלָא</he></cite>.]"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to lift up</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 92b\">B. Kam. 92ᵇ</cite> <cite ref=\"D00838\"><he>דַּלְיַת</he></cite>, <he>דְּלִינָא</he>, v. <cite ref=\"D00351\"><he>דּוּרָא</he> IV</cite>.—",
+				"<cite ref=\"Berakhot 18a:13\">Ber. 18ᵃ</cite> <he>דַּלְיֵיה</he> (Yalk. Koh. 979; <cite ref=\"Yalkut Shimoni on Nach 152\">Yalk. Sam. 152</cite> <he>סלקיה</he>) lift it (the cloak) up. ",
+				"<cite ref=\"Kiddushin 81a:11\">Kidd. 81ᵃ</cite> <he>דַלְיֵיה וכ׳</he> he carried it by himself.—",
+				"<cite ref=\"Yevamot 92b:2\">Yeb. 92ᵇ</cite>; <cite ref=\"Bava Metzia 17b:3\">B. Mets. 17ᵇ</cite> <he>אי לאו דדְלָאִי לך וכ׳</he> had I not taken up (removed) the sherd for thee, thou wouldst never have found the pearl under it, i.e. but for my intimation you would not have reached the conclusion &c.; <cite ref=\"Makkot 21b\">Macc. 21ᵇ</cite>.—",
+				"<cite ref=\"Moed Katan 28b:10\">M. Kat. 28ᵇ</cite>, v. <cite ref=\"D00842\"><he>דְּלַל</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּלֵּי"],
+			"senses": [
+				{
+					"gloss": " (v. <he>דלל</he>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to relieve, lighten</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:51\">Targ. Y. Deut. XXXII, 51</cite> <he>ולא דַּלּוּ מיניה</he> (Var. <cite ref=\"D00813\"><he>דָּלוּ</he></cite>, fr. <cite ref=\"D00842\"><he>דְּלַל</he></cite>) and they would not relieve him (give him a respite). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:51\">Ib.</cite> <he>דַּלִּי מיני</he> (Var. <cite ref=\"D00829\"><he>דְּלִי</he></cite>) respite me.—",
+						"<cite ref=\"Megillah 13a:22\">Meg. 13ᵃ</cite> <he>דַּלֵּי כרגא</he> he lightened the taxes (<cite ref=\"Esther 2:18\">Esth. II, 18</cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lift up</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 6b:16\">Ber. 6ᵇ</cite> <he>דַּלּוּיֵי</he> lifting up the voice at funerals, v. <cite ref=\"D00842\"><he>דְּלַל</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַדְלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to lift, suspend</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 34a:8\">Sot. 34ᵃ</cite> <he>טעונא דמַדְלֵי וכ׳</he> a load which one can lift up and put on his shoulders, is the third portion of the weight he can carry."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִידְּלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be suspended</i>. Y. Sabb. XVI, end, 15ᵈ, a. e. <he>בגדך מִדְּלֵי</he> (sub. <cite ref=\"A03393\"><he>אַתְּ</he></cite>) doest thou depend on thy good luck?, v. <cite ref=\"C00156\"><he>גַּדָּא</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be elevated, high</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 8a:9\">Pes. 8ᵃ</cite> <he>דמִידַּלְיָא</he> (a bed) which stands on high legs (leaving space under it)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be relieved</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 16b:7\">B. Bath. 16ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 106:4\">Yalk. Gen. 106</cite> (prov.) (<he>מִידְּלֵי</he>) <he>א׳ יומא א׳ קצירא</he> when the day (sun) is high, the sick man is relieved."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

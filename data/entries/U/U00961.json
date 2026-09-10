@@ -1,0 +1,30 @@
+{
+	"id": "U00961",
+	"slug": "שימוש",
+	"headword": {
+		"text": "שִׁימּוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁמּ׳"
+		}
+	],
+	"page": {
+		"number": 1563,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01539\"><he>שָׁמַשׁ</he></cite>) <i>ministration, attendance</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 7b:7\">Ber. 7ᵇ</cite> <cite ref=\"U01445\"><he>שִׁמּוּשָׁהּ</he></cite>, v. <cite ref=\"L00479\"><he>לִימּוּד</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 6\">Ab. ch. VI</cite> <he>ש׳ חכמים</he> attendance of pupils on scholars. ",
+				"<cite ref=\"Bamidbar Rabbah 3\">Num. R. s. 3<sup>1</sup></cite> <he>שלא בחר … בשִׁימּוּשׁוֹ וכ׳</he> of all the tribes the Lord did not choose any to stand in his service but the sons of Levi. ",
+				"<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite> <he>היה שִׁמּוּשׁוֹ ערב לרבו</he> his ministration was pleasing to his master; a. e."
+			]
+		}
+	]
+}

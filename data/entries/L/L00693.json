@@ -1,0 +1,30 @@
+{
+	"id": "L00693",
+	"slug": "לקיש-1",
+	"headword": {
+		"text": "לָקִישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְקִישָׁא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 719,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Lakish, L’kisha</i>; <he>רבי שמעון בן ל׳</he>, abbrev. <cite ref=\"T00716\"><he>ריש</he></cite> <he>ל׳</he>, <he>ר״ל</he> R. Simeon ben Lakish (Resh Lakish) an Amora, contemporary and brother-in-law of R. Johanan by whom he was converted from a lawless life. ",
+			"units": [
+				"<cite ref=\"Chullin 56a:6\">Ḥull. 56ᵃ</cite>. ",
+				"<cite ref=\"Gittin 47a:4\">Gitt. 47ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 84a:17\">B. Mets. 84ᵃ</cite> <he>בר לקישא</he>; a. e."
+			]
+		}
+	]
+}

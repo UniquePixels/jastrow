@@ -1,0 +1,75 @@
+{
+	"id": "C01132",
+	"slug": "גני-2",
+	"headword": {
+		"text": "גְּנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּנָא"
+		}
+	],
+	"page": {
+		"number": 259,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01131\">same</cite>, <i>to be shaded, to lie down, sleep</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:21\">Targ. Job XL, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 24:13\">Targ. Y. Deut. XXIV, 13</cite>. Targ. II Esth. I, 4 <he>מיגני</he> to recline for meals, <i>to dine;</i> a. fr.—",
+				"<cite ref=\"Gittin 68a:11\">Gitt. 68ᵃ</cite> <he>וגְנָא</he> and fell asleep. ",
+				"<cite ref=\"Shabbat 65a:15\">Sabb. 65ᵃ</cite> did not allow his daughters <he>גַּנְיָאן גבי הדדי</he> (Ms. M. <he>דגַנְיָין</he>) to sleep together. ",
+				"<cite ref=\"Shabbat 129a:18\">Ib. 129ᵃ</cite> <he>ונִיגְנֵי וכ׳</he> let him lie in the sun. ",
+				"<cite ref=\"Yoma 78b:6\">Yoma 78ᵇ</cite> <he>וליגני</he> and let him sleep (in his sandals). ",
+				"<cite ref=\"Sanhedrin 109b:6\">Snh. 109ᵇ</cite> <he>גְּנִי אפוריא</he> lie down on the bed. Y. Taan. I, end, 64ᵇ <he>כותלא דגְנָאֵי ביה</he> a wall of a room in which people sleep; ib. IV, 64ᵈ bot. <he>דגַנְיֵי</he>.—",
+				"<cite ref=\"Bava Batra 58a\">B. Bath. 58ᵃ</cite> <he>גָּנֵי</he> Ar. (ed. <cite ref=\"C00028\"><he>גָּאנֵי</he></cite>) is lying. [<cite ref=\"Berakhot 59a\">Ber. 59ᵃ</cite> Ms. M., v. <cite ref=\"C01129\"><he>גְּנַח</he> I</cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּנֵּי"],
+			"senses": [
+				{
+					"gloss": " (with <he>על</he>) <i>to cover, protect</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 4:5\">Targ. Is. IV, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:15\">Targ. Y. Deut. XXVIII, 15</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַגְנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to lie down</i>. Targ. II Esth. I, 3 (2) <he>וא׳ וכ׳</he> and made them lie down (for meals),—Snh. l. c. they had a bed <he>דהוו מַגְנֵי עלה וכ׳</he> upon which they made strangers lie. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite>; Tanḥ. Korah 10 <he>ואַגְנִיתֵיה וכ׳</he> and made him lie down on his bed; Snh. l. c.—",
+						"<cite ref=\"Bava Metzia 84b\">B. Mets. 84ᵇ</cite> [read:] <he>אַגְנַיִין בעיליתאי</he> hide me, I pray, in my room (v. Rashi a. Rabb. D. S. a. l. note 7). ",
+						"<cite ref=\"Bava Metzia 84b\">Ib.</cite> [read:] <he>אגניתיה בעיליתיה</he> I kept his body in his room."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְגַּנֵּי", "אִיגַּנֵּי"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"C01131\">preced.</cite> Hithpa.) <i>to be disgraced, become repulsive</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 15:16\">Targ. II Chr. XV, 16</cite>.—Y. Ab. Zar. III, 42ᶜ bot. [read:] <he>דלא יהוון מִיתְגַּנִּין בי</he> that they may not be disgraced through me (be ashamed of me). ",
+						"<cite ref=\"Shabbat 140b:14\">Sabb. 140ᵇ</cite> <he>ואתי למִגַּנְיָא</he> and he may be disgraced. ",
+						"<cite ref=\"Shabbat 65a:9\">Ib. 65ᵃ</cite> <he>מידי דמִיגַּנְיָא ביה</he> something by which she is exposed. ",
+						"<cite ref=\"Ketubot 65b:4\">Keth. 65ᵇ</cite> <he>תִּתְגַּנִּי ותִתְגַּ׳</he> let her look repulsive (her husband being dead)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

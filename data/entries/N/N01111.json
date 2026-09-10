@@ -1,0 +1,23 @@
+{
+	"id": "N01111",
+	"slug": "נצח-4",
+	"headword": {
+		"text": "נֶצַח"
+	},
+	"page": {
+		"number": 928,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N01110\">preced.</cite>) <i>success, endurance</i>; (adv.) <i>forever</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 54a:14\">Erub. 54ᵃ</cite> <he>כל מקום שנאמר נ׳ וכ׳</he> wherever the Biblical text has the words <i>netsaḥ, selah</i>, or <i>vaʿed</i>, it means &c., v. <cite ref=\"E00754\"><he>הֶפְסֵק</he></cite>.—Pl. <he>נְצָחִים</he>. ",
+				"<cite ref=\"Midrash Tehillim 4:4\">Midr. Till. to Ps. IV</cite>, v. <cite ref=\"N00746\"><he>נִיצּוּחַ</he></cite>."
+			]
+		}
+	]
+}

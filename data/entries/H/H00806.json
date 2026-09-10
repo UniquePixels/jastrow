@@ -1,0 +1,28 @@
+{
+	"id": "H00806",
+	"slug": "חימוצתא",
+	"headword": {
+		"text": "חִימּוּצָתָא"
+	},
+	"page": {
+		"number": 457,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"H01212\"><he>חמץ</he></cite>, v. Ges. H. Dict.<sup>10</sup> s. v. <cite ref=\"H01212\"><he>חמץ</he></cite>; cmp. ",
+			"units": ["<cite ref=\"Isaiah 63\">Is. LXIII</cite>, "]
+		},
+		{
+			"gloss": "<i>scarlet-colored garments</i>, in gen. <he>ח׳ רוֹמְיָתָא</he> dyed Roman garments, contrad. to white (cmp. <cite ref=\"A00684\"><he>אוֹלָרִין</he></cite> a. <cite ref=\"B00347\"><he>בּוּרְדִּיקָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Moed Katan 23a:9\">M. Kat. 23ᵃ</cite> <he>ח׳ ר׳ סומקתא חדתי</he> ed. Ms. M. <he>חימוציאתא דרומי</he>, Ar. <cite ref=\"E00616\"><he>המיצתא</he></cite>, Mus. <he>חמיצתא</he>) Roman dyed garments, red and new."
+			],
+			"label": "1"
+		}
+	]
+}

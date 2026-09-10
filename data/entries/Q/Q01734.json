@@ -1,0 +1,22 @@
+{
+	"id": "Q01734",
+	"slug": "פרור-1",
+	"headword": {
+		"text": "פָּרוּר"
+	},
+	"page": {
+		"number": 1222,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <cite ref=\"Q00027\"><he>פארור</he></cite>; <he>פאר</he>) [<i>round</i>,] <i>pot</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:7\">Bets. I, 7</cite> (<cite ref=\"Beitzah 14a\">14ᵃ</cite>) <he>עץ הפ׳</he> a wooden pot ladle."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A02127",
+	"slug": "אנדרוניטין",
+	"headword": {
+		"text": "אַנְדְּרוֹנִיטִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְדְרוֹנִיטִיס"
+		}
+	],
+	"page": {
+		"number": 81,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀνδρωνῖτις) <i>banqueting hall, royal reception hall</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite> <he>אדריינטיס אני עושה אותה</he> Ar. ed. Koh. (ed. <cite ref=\"A01373\"><he>אינדרטין</he></cite>; corr. acc.) I shall make it into (use the vacant ground for the erection of) a banqueting hall. [The context forbids the identification of our w. with <cite ref=\"A02131\"><he>אַנְדְּרִיאַנְטוֹס</he></cite>.]"
+			]
+		}
+	]
+}

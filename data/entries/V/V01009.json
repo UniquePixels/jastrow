@@ -1,0 +1,23 @@
+{
+	"id": "V01009",
+	"slug": "תרכוס",
+	"headword": {
+		"text": "תַּרְכּוֹס"
+	},
+	"page": {
+		"number": 1699,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V01007\"><he>תרך</he></cite>) = <cite ref=\"I00832\"><he>טרכוס</he></cite> (v. <cite ref=\"I00838\"><he>טַרְכֵּשׁ</he></cite>), <i>dresser, bracket, counter</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:1:18\">Y. Sabb. I, 2ᵈ</cite> top <he>ת׳ שהוא עומד וכ׳</he> a <i>tarkos</i> (in front of a building) that stands in the public road … which is used to hand things from within to the street, and from the street to within.—[Ib. III, end, 6ᶜ bot.; Tanḥ. T’rumah, ed. Bub. 8, v. <cite ref=\"V00965\"><he>תְּרוֹנוֹס</he></cite>.]—Tosef. ib. XIV (XV), 2 <cite ref=\"V01058\"><he>תַּרְקוֹשׁ</he></cite>, v. <cite ref=\"I00838\"><he>טַרְכֵּשׁ</he></cite>.—Pl. <he>תַּרְכּוֹסִים</he>, <he>תַּרְכּוֹסִין</he>. ",
+				"<cite ref=\"Mishnah Kelim 24:5\">Kel. XXIV, 5</cite> <he>שלשה ת׳ של ספרין וכ׳</he> Ar. (ed. <cite ref=\"V00926\"><he>תרבוסין</he></cite>; Maim. Hilkhoth <cite ref=\"Mishnah Kelim 27:5\">Kelim XXVII, 5</cite> <he>תרכ׳</he>) there are three kinds of dressers (with regard to levitical cleanness): that of the barber shop, …, that at which people eat (v. Sm. Ant.<sup>3</sup> Engl. ed. s. v. Abacus) …, and that on which olives are spread; [Maim.: a sort of <i>leather chest</i>]."
+			]
+		}
+	]
+}

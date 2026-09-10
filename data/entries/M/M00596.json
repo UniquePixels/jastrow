@@ -1,0 +1,60 @@
+{
+	"id": "M00596",
+	"slug": "מוקצה",
+	"headword": {
+		"text": "מוּקְצֶה"
+	},
+	"page": {
+		"number": 747,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Part. Hof. of <cite ref=\"S01788\"><he>קָצָה</he></cite>) [<i>cut off, set aside, stored away</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a space back of the dwelling</i>, containing stored up wood, cattle in sheds &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 2:3\">Erub. II, 3</cite>; <cite ref=\"Eruvin 22a:17\">ib. 22ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Eruvin 10:8\">Ib. X, 8</cite>. ",
+				"<cite ref=\"Mishnah Beitzah 4:1\">Bets. IV, 1</cite> <he>עצים שבמ׳</he> wood in the <i>muktseh</i> (stored for the winter); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>store of fruits</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 3:2\">Maasr. III, 2</cite>. ",
+				"<cite ref=\"Mishnah Maasrot 1:5\">Ib. I, 5</cite> <he>עד שיעשה מ׳</he> until the melon is stored away. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 2:2:4\">Y. Ter. II, 41ᵈ</cite> top <he>היה נוטל … מן המ׳ על וכ׳</he> he took ten dry figs from the storage as tithes for ninety in the basket (designated for immediate use, v. <cite ref=\"K00757\"><he>כַּלְכָּלָה</he></cite>); (<cite ref=\"Menachot 54b\">Men. 54ᵇ</cite>; <cite ref=\"Menachot 55a\">55ᵃ</cite> <he>מקצוע</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"K00715\"><he>כלי</he></cite>) <i>the tool specially intended</i> (<i>for cutting figs</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 8:6\">Shebi. VIII, 6</cite>, v. <cite ref=\"H01585\"><he>חַרְבָּה</he></cite>; [Maim. <i>the shed where figs are spread for drying</i>.]."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>an animal set aside</i> (<i>in a shed</i>) <i>for a sacrifice</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 28b:50\">Tem. 28ᵇ</cite> <he>מ׳ לשבע שנים</he> set aside until it would be seven years old. ",
+				"<cite ref=\"Temurah 29a:26\">Ib. 29ᵃ</cite> <he>מניין למ׳ מן התורה</he> where in the Torah is <i>muktseh</i> intimated? (misunderstood by Abbaye as meaning, ‘where is it intimated that an animal must be kept in an enclosed space for some time before it can be offered on the altar?’—and corrected as meaning, ‘where is it intimated that an animal designated for idolatry is forbidden for the Jewish altar?’).—",
+				"<cite ref=\"Tosefta Avodah Zarah 5:10\">Tosef. Ab. Zar. V</cite> (<cite ref=\"Tosefta Avodah Zarah 6:10\">VI</cite>), 10 <he>איזה מ׳ מ׳ לע״ז וכ׳</he> what is meant by <i>m.</i> (as forbidden for the altar)? That which has been set aside (in a special place designated for the purpose) for idolatrous use, but if one merely devoted it by word of mouth &c. ",
+				"<cite ref=\"Mishnah Temurah 6:1\">Tem. VI, 1</cite>. Tosef. l. c. 9 <he>מאימתי נקרא מ׳ משנעשה וכ׳</he> when is an animal called <i>m.</i> (for idolatry)? From the time that an act (of dedication) has been done with it; <cite ref=\"Temurah 29a:26\">Tem. 29ᵃ</cite> (<cite ref=\"B00198\"><he>בו</he></cite>) <he>אין מ׳ אסור אלא עד שיעבדו</he> (v. Rashi’s first interpret.; second interpret.:) a <i>m.</i> remains forbidden only until it has been used for some work (whereby its designation for the idolatrous altar is annulled). ",
+				"<cite ref=\"Temurah 29a:12-26\">Ib.</cite> <he>אין מ׳ אסור … מעשה</he> a <i>m.</i> remains forbidden only until some act (as shearing its wool or some work) has been done with it; a. e.—4) (Sabbath law) <i>muktseh, that which is not counted on for use on the Sabbath or Holy Day</i> (v. <cite ref=\"M00475\"><he>מוּכָן</he></cite> s. v. <cite ref=\"K00296\"><he>כּוּן</he></cite>, a. <cite ref=\"E00302\"><he>הַזְמָנָה</he></cite>); <i>forbidden for use</i> or <i>handling</i>. ",
+				"<cite ref=\"Beitzah 2a:7\">Bets. 2ᵃ</cite> <he>מאי טעמייהו דב״ש מ׳ הוא</he> what reason had Beth Shammai (to permit the egg laid on the Holy Day by a hen which is kept for laying eggs and can, therefore, not be used for consumption on that day)? Is it not <i>muktseh?</i> <cite ref=\"Beitzah 2a:7\">Ib.</cite> <he>דאית ליה מ׳ אית ליה נולד</he> he who forbids <i>m.</i> forbids also <i>nolad</i> (v. <cite ref=\"J00367\"><he>יָלַד</he></cite>). ",
+				"<cite ref=\"Shabbat 44a:9\">Sabb. 44ᵃ</cite> <he>מ׳ מחמת מיאוס</he> not counted on (and therefore forbidden to handle) on account of its repulsiveness (e. g. an old clay candlestick); <he>מ׳ מחמת איסור</he> <i>m.</i> in consequence of a ritual prohibition (e. g. a candlestick which on the entrance of the Sabbath could not be moved because a light was burning on it). Ib. 157ᵃ <he>מ׳ מחמת חסרון כיס</he> not counted on for use on the Sabbath because the object is too expensive for a use for which it is not originally made; a. fr.—<i>Pl.</i> <he>מוּקְצִים</he>, <he>מוּקְצִין</he> <i>set apart, chosen</i>. ",
+				"<cite ref=\"Sifrei Bamidbar 85\">Sifré Num. 85</cite> (ref. to <he>בקצה</he>, <cite ref=\"Numbers 11:1\">Num. XI, 1</cite>) <he>במ׳ שבהם</he> the fire seized the distinguished among them (with ref. to <cite ref=\"S01814\"><he>קצין</he></cite>, <cite ref=\"Judges 11:11\">Jud. XI, 11</cite>; <cite ref=\"Yalkut Shimoni on Torah 732:1\">Yalk. Num. 732</cite> <he>בקצינים</he>).—<i>Fem.</i> <cite ref=\"M00596\"><he>מוּקְצָה</he></cite>, pl. <he>מוּקְצוֹת</he>. ",
+				"<cite ref=\"Shabbat 43b:1\">Sabb. 43ᵇ</cite> <he>והא מ׳ נינהו</he> are they not <i>muktseh</i> (because they are not intended for human food)?"
+			],
+			"label": "4"
+		}
+	]
+}

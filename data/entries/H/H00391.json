@@ -1,0 +1,31 @@
+{
+	"id": "H00391",
+	"slug": "חומר-2",
+	"headword": {
+		"text": "חוֹמֶר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹמֶר"
+		}
+	],
+	"page": {
+		"number": 436,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. Ar.) (<he>חָמַר</he> I; v. P. Sm. 1310 s. v. <cite ref=\"H00395\"><he>חומרא</he></cite>) [<i>whatever joins or is joined</i>,] <i>bead, little ball</i> (bulla) hung around the neck; <i>jewel, clasp, seal;</i> trnsf. <he>כמין ח׳</he> like a jewel, i.e. <i>a precious ethical principle</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Proverbs 1:9\">Prov. I, 9</cite>, a. <cite ref=\"M02523\"><he>מַרְגְּלִיתָא</he></cite>), <i>a symbol</i>. ",
+				"<cite ref=\"Kiddushin 22b:5\">Kidd. 22ᵇ</cite> <he>היה דורש כמין ח׳ …</he> interpreted this in a symbolical way (giving the practical Biblical law about perforating the slave’s ear an ethical signification); Mekh. Mishp, N’zik., s. 2 <he>כמו חומר</he> (Var. <he>אומר</he>, corr. acc.). ",
+				"<cite ref=\"Sotah 15a:13\">Sot. 15ᵃ</cite> <he>אדרשנה כמין ח׳</he> I shall interpret it symbolically.—Pl. <he>חֲמוּרוֹת</he> (fr. <he>חמור</he>, cmp. <cite ref=\"H01166\"><he>חֲמוּרְתָּא</he></cite>). ",
+				"<cite ref=\"Chullin 134b:18\">Ḥull. 134ᵇ</cite> <he>דורשי ח׳</he> (Ar. <he>הוֹמְרוֹת</he>) symbolizing interpreters."
+			]
+		}
+	]
+}

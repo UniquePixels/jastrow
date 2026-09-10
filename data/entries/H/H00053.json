@@ -1,0 +1,31 @@
+{
+	"id": "H00053",
+	"slug": "חביבא",
+	"headword": {
+		"text": "חֲבִיבָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבִיבָה"
+		}
+	],
+	"page": {
+		"number": 418,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥăbiba</i>, name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Yoma 10a:9\">Yoma 10ᵃ</cite>; <cite ref=\"Bava Metzia 85b:9\">B. Mets. 85ᵇ</cite> <he>רב ח׳ בר סורמקי</he> (Ms. M. <cite ref=\"H00057\"><he>חֲבִיבַי</he></cite>, v. Rabb. D. S. a. l. note).—",
+				"<cite ref=\"Bava Metzia 85b:9\">Ib.</cite> <he>אמר רב ח׳</he> (v. Rabb. D. S. l. c.). ",
+				"<cite ref=\"Shabbat 54b:20\">Sabb. 54ᵇ</cite>, a. e., v. <cite ref=\"G00138\"><he>זָוָוא</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:1:10\">Y. Meg. I, 70ᵇ</cite> top <he>ר׳ חביבה</he>; a. fr.—V. Fr. M’bo p. 79ᵇ"
+			]
+		}
+	]
+}

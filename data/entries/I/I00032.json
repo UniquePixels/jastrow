@@ -1,0 +1,32 @@
+{
+	"id": "I00032",
+	"slug": "טבוח",
+	"headword": {
+		"text": "טָבוֹחַ"
+	},
+	"page": {
+		"number": 516,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (infin. of <cite ref=\"I00041\"><he>טָבַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>slaughtering and preparing the pilgrim’s offering</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 2:4\">Ḥag. II, 4</cite> (<cite ref=\"Chagigah 17a:3\">17ᵃ</cite>) <he>יום ט׳ וכ׳</he> the slaughtering day is observed after the Sabbath. Y. ib. 78ᵃ bot. <he>יומה הוא טְבוֹחָהּ</he> its day (the festive day itself) is its slaughtering day."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Taboaḥ</i>, name of a windstorm (demon). ",
+			"units": ["<cite ref=\"Shabbat 129b:7\">Sabb. 129ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

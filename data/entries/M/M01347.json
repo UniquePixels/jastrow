@@ -1,0 +1,23 @@
+{
+	"id": "M01347",
+	"slug": "מכבנתא",
+	"headword": {
+		"text": "מַכְבַּנְתָּא"
+	},
+	"page": {
+		"number": 781,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (<cite ref=\"K00065\"><he>כְּבַן</he></cite>) = h. <cite ref=\"K00051\"><he>כְּבֵינָה</he></cite>, <i>brooch, buckle</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 62a:17\">Sabb. 62ᵃ</cite>, expl. <cite ref=\"K00256\"><he>כּוֹכְלִיאָר</he></cite>.—",
+				"<cite ref=\"Shabbat 156b:4\">Ib. 156ᵇ</cite>, v. <cite ref=\"D00323\"><he>דּוּץ</he> II</cite>."
+			]
+		}
+	]
+}

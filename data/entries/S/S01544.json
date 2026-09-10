@@ -1,0 +1,24 @@
+{
+	"id": "S01544",
+	"slug": "קנון",
+	"headword": {
+		"text": "קָנוֹן"
+	},
+	"page": {
+		"number": 1389,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"S01535\"><he>קָנֶה</he></cite>) <i>a reed basket</i>, contrad. to <cite ref=\"O00948\"><he>סַל</he></cite>, a common wicker basket. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 3:7\">M. Kat. III, 7</cite>. ",
+				"<cite ref=\"Mishnah Beitzah 1:8\">Bets. I, 8</cite> (<cite ref=\"Beitzah 14b\">14ᵇ</cite>) (missing in Ms. M.; v. Rabb. D. S. a. l. note); Tosef. ib. I, 20; Y. Maasr. IV, 51ᵇ bot.; a. e.—Pl. <he>קְנוֹנִים</he>, <he>קְנוֹנִין</he>. ",
+				"<cite ref=\"Mishnah Kelim 16:3\">Kel. XVI, 3</cite>; <cite ref=\"Tosefta Keilim Metsia 5:13\">Tosef. Kel. B. Mets. V, 13</cite> (not <he>קני׳</he>)."
+			]
+		}
+	]
+}

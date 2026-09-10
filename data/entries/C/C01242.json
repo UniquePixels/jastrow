@@ -1,0 +1,51 @@
+{
+	"id": "C01242",
+	"slug": "גרג",
+	"headword": {
+		"text": "גְּרַג"
+	},
+	"page": {
+		"number": 264,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to incite, stir up</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:12\">Targ. Prov. X, 12</cite>; <cite ref=\"Aramaic Targum to Proverbs 29:22\">XXIX, 22</cite> (h. text <cite ref=\"P01455\"><he>ערר</he></cite>, <he>גרה</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:3\">Ib. VI, 3</cite> <he>גָּרֵג הכיל חברך</he> ed. Lag. (Var. <cite ref=\"E00036\"><he>הביל</he></cite>, <he>חביל</he>) stir up, now, thy friend (for whom thou hast vouched), v. Peshittô a. Syr. Hexapla."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be excited, impatient</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 37:1\">Targ. Ps. XXXVII, 1</cite>; <cite ref=\"Aramaic Targum to Psalms 37:7\">7</cite>; <cite ref=\"Aramaic Targum to Psalms 37:8\">8</cite> (Ms. <he>תִּגְרַג</he> Pe., h. text <he>תתחר</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. P. Sm. 773, s. v. <cite ref=\"C01242\"><he>גרג</he></cite> 2, cmp. <cite ref=\"C01245\"><he>גַּרְגּוּתְנִי</he></cite>, <cite ref=\"A03029\"><he>אֲרוּכָה</he> II</cite>) <i>to cover with scurf, heal up</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:24\">Targ. Job XXX, 24</cite> <he>יְגָרֵג מחתיה</he> he will heal up the wound he has inflicted."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>גָּרֵיג</he> (= <he>גרגר</he>) <i>to be rough, to roughen</i>, whence ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

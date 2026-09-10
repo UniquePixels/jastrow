@@ -1,0 +1,28 @@
+{
+	"id": "M02919",
+	"slug": "משלם",
+	"headword": {
+		"text": "מִשְׁלָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 856,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01351\"><he>שְׁלַם</he></cite>) <i>completion, end</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 1:4\">Targ. Job I, 4</cite>.—",
+				"<cite ref=\"Bava Metzia 67b\">B. Mets. 67ᵇ</cite>, a. e. <he>במִשְׁלַם שניא אילין</he> after the lapse of so and so many years, v. <cite ref=\"M02910\"><he>מַשְׁכַּנְתָּא</he></cite>."
+			]
+		}
+	]
+}

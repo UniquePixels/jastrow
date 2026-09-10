@@ -1,0 +1,38 @@
+{
+	"id": "C01388",
+	"slug": "גרף-1",
+	"headword": {
+		"text": "גָּרַף"
+	},
+	"page": {
+		"number": 271,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"C01392\"><he>גרר</he></cite>) <i>to scrape, sweep,</i> esp. <i>to remove ashes and coal from the stove; to scrape together, collect</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 8:11\">Kel. VIII, 11</cite> <he>היתה גוֹרְפָתוֹ</he> if while she was sweeping it (the stove) &c. ",
+				"<cite ref=\"Mishnah Shabbat 3:1\">Sabb. III, 1</cite> <he>עד שיִגְרוֹף</he> not before he has swept it.—",
+				"<cite ref=\"Jerusalem Talmud Peah 7:3:14\">Y. Peah VII, 20ᵇ</cite> top (ref. to <cite ref=\"Joel 1:17\">Joel I, 17</cite>) <he>תחת שהיינו גוֹרְפִים וכ׳</he> in place of collecting honey (from beehives or trees), we collected foul matter. ",
+				"<cite ref=\"Mishnah Shabbat 17:2\">Sabb. XVII, 2</cite> <he>לִגְרוֹף בה וכ׳</he> to grab with it the figs out of the barrel; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 67:11\">Gen. R. s. 67</cite> <he>גּוֹרֶפֶת מחוטמה</he> blowing her nose (v. <cite ref=\"C01392\"><he>גָּרַר</he></cite>).—<i>Part. pass.</i> <cite ref=\"C01310\"><he>גָּרוּף</he></cite>, f. <cite ref=\"C01298\"><he>גְּרוּפָה</he></cite> <i>cleared</i> of ashes &c., <i>swept</i>. ",
+				"<cite ref=\"Mishnah Shabbat 3:4\">Sabb. III, 4</cite>, v. <cite ref=\"A02181\"><he>אַנְטִיכִי</he></cite>; a. fr.—[<cite ref=\"Bereishit Rabbah 53\">Gen. R. s. 53</cite> <he>ג׳ מביתו של וכ׳</he> (Isaac is) the refuse of &c., comment.; v., however, <cite ref=\"C01310\"><he>גְּרוֹף</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גֵּירַף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C01387\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Keritot 7b\">Kerith. 7ᵇ</cite>; Y. Snh. VII, 25ᵇ top, v. <cite ref=\"C00237\"><he>גָּדַף</he></cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

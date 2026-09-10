@@ -1,0 +1,22 @@
+{
+	"id": "A01700",
+	"slug": "אכלא",
+	"headword": {
+		"text": "אַכָּלָא"
+	},
+	"page": {
+		"number": 63,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01697\"><he>אכל</he></cite>) <i>eater</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 14:14\">Targ. Jud. XIV, 14</cite>."
+			]
+		}
+	]
+}

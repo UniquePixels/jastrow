@@ -1,0 +1,39 @@
+{
+	"id": "H00915",
+	"slug": "חכי-1",
+	"headword": {
+		"text": "חכי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָכָה"
+		}
+	],
+	"page": {
+		"number": 461,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.), <i>Pi.</i> <cite ref=\"H00911\"><he>חִכָּה</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"H00911\"><he>חַכָּה</he></cite>) <i>to insert a hook, to fish with the angle, to fasten</i>. Y. Sabb. IV, end, 7ᶜ <he>אם לחַכּוֹת בו</he> if it is a <i>sûgar</i> (v. <cite ref=\"O00256\"><he>סוּגַר</he></cite>) with which to fasten a dog (by inserting the hook of a chain), opp. <he>בשביל שלא לאכול</he> one intended to prevent from eating (a muzzle); <cite ref=\"Jerusalem Talmud Beitzah 2:8:2\">Y. Bets. II, end, 61ᵈ</cite> (not <he>להכות</he>). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 81a:1\">B. Kam. 81ᵃ</cite> <he>ומְחַכִּין בימה וכ׳</he> and that people be free to fish with the angle in the lake of Tiberias."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>to lie in wait</i> (v. ",
+			"units": [
+				"<cite ref=\"Hosea 6:9\">Hos. VI, 9</cite>); <i>to wait for, hope, be anxious for</i> (with <cite ref=\"L00000\"><he>ל</he></cite>). ",
+				"<cite ref=\"Sanhedrin 97b:9\">Snh. 97ᵇ</cite> (fr. ",
+				"<cite ref=\"Habakkuk 2:3\">Hab. II, 3</cite>) <he>הַכֵּה לו</he> wait for it (the redemption); <cite ref=\"Habakkuk 2:3\">ib.</cite> <he>אנו מְחַכִּין והוא אינו מְחַכֶּה</he> we are anxious, but He is not (ref. to <cite ref=\"Isaiah 30:18\">Is. XXX, 18</cite>). ",
+				"<cite ref=\"Pesikta Rabbati 34:1\">Pesik. R. s. 34</cite>; Yalk. Zeph. 567; a. e. [<cite ref=\"Yalkut Shimoni on Torah 604:2\">Yalk. Lev. 604</cite> <he>מחכה</he>, v. <he>הָקָה</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

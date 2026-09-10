@@ -1,0 +1,33 @@
+{
+	"id": "A01933",
+	"slug": "אלף-2",
+	"headword": {
+		"text": "אֲלַף",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אַלַּף"
+		},
+		{
+			"text": "אַלְפָא"
+		}
+	],
+	"page": {
+		"number": 72,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A01932\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 38:25\">Targ. O. Ex. XXXVIII, 25</cite> <cite ref=\"A01933\"><he>אַלַּף</he></cite> ed. Berl. (Y. <he>אלפא</he>); a. fr.—",
+				"<cite ref=\"Sanhedrin 95b:6\">Snh. 95ᵇ</cite> <he>חד א׳</he> one thousand. ",
+				"<cite ref=\"Bekhorot 8b:14\">Bekh. 8ᵇ</cite> <he>מאה א׳ זוזי</he> one hundred thousand zuz; a. fr.—Pl. <he>אַלְפִין</he>, <cite ref=\"A01903\"><he>אַלְפַיָּא</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 38:26\">Targ. Ex. XXXVIII, 26</cite>; a. fr. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 18:8\">Targ. I Sam. XVIII, 8</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Demai 7:6:2\">Y. Dem. VII, 26ᵇ</cite> bot.; a. fr."
+			]
+		}
+	]
+}

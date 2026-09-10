@@ -1,0 +1,56 @@
+{
+	"id": "H00396",
+	"slug": "חומרתא",
+	"headword": {
+		"text": "חוּמַרְתָּא"
+	},
+	"page": {
+		"number": 436,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00395\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a ball</i> (bulla), <i>bead, charm</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 57b:9\">Sabb. 57ᵇ</cite> (expl. <cite ref=\"I00149\"><he>טוטפת</he></cite>) <he>ח׳ דקטיפתא</he> a charm containing balsam. ",
+				"<cite ref=\"Shabbat 62a:17\">Ib. 62ᵃ</cite> (expl. <cite ref=\"K00258\"><he>כוכלת</he></cite>); <cite ref=\"Gittin 69b:14\">Gitt. 69ᵇ</cite> <he>ח׳ דפילון</he> a charm containing phyllon. ",
+				"<cite ref=\"Moed Katan 12b:12\">M. Kat. 12ᵇ</cite>; <cite ref=\"Eruvin 69a:9\">Erub. 69ᵃ</cite> <he>ח׳ דמדושא</he> (Ms. O. <he>מר׳</he>) a <i>bulla</i> containing a jewel for sealing (differ. opin. v. Rashi to Erub. l. c.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bud</i>, (<i>ball</i>). ",
+			"units": [
+				"<cite ref=\"Gittin 69a:12\">Gitt. 69ᵃ</cite> bot. <he>ח׳ דכשותא</he> the bud of cuscuta."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>weight-stone, lever</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 67b:3\">B. Bath. 67ᵇ</cite> (expl. <he>גלגל</he>) <he>ח׳</he> the weight used for hoisting the beams of the press. ",
+				"<cite ref=\"Zevachim 21b:11\">Zeb. 21ᵇ</cite> <he>בחוּמַרְתֵּיה</he> with its wheel work."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>smoothing weight</i> in the laundry. ",
+			"units": ["<cite ref=\"Ketubot 10b:1\">Keth. 10ᵇ</cite> top."],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>stone or sand in the bladder</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:18\">Gitt. 69ᵇ</cite> bot. <he>ח׳ דנפקא מיניה</he> the stony substance which he passes."
+			],
+			"label": "5"
+		}
+	]
+}

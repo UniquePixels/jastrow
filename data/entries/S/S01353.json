@@ -1,0 +1,24 @@
+{
+	"id": "S01353",
+	"slug": "קלל-1",
+	"headword": {
+		"text": "קָלָל"
+	},
+	"page": {
+		"number": 1377,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S01334\"><he>קָלִיל</he></cite>) <i>a vessel</i>, esp. <i>the pitcher containing the ashes of the red cow</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 3:3\">Par. III, 3</cite>; <cite ref=\"Mishnah Parah 10:3\">X, 3</cite> <he>ק׳ של חטאת</he> the vessel containing the ashes for lustration; <cite ref=\"Tosefta Parah 9:5\">Tosef. ib. IX</cite> (<cite ref=\"Tosefta Parah 10:5\">X</cite>), 5; a. e.—Pl. <he>קְלָלוֹת</he>. ",
+				"<cite ref=\"Mishnah Parah 10:4\">Par. X, 4</cite>. ",
+				"<cite ref=\"Tosefta Parah 3:4\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Parah 2:4\">II</cite>), 4 <he>קְלִילִיּוֹת</he> (Var. <cite ref=\"S01267\"><he>קלולי</he></cite>; R. S. to <cite ref=\"Mishnah Parah 3:3\">Par. III, 3</cite> <cite ref=\"S00963\"><he>קילולות</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

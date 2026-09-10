@@ -1,0 +1,28 @@
+{
+	"id": "V00277",
+	"slug": "תורא-2",
+	"headword": {
+		"text": "תַּוָּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּוָּו׳"
+		}
+	],
+	"page": {
+		"number": 1656,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"V00274\"><he>תּוֹר</he> III</cite>) <i>ox-driver, plougher with oxen:—Pl</i>. <he>תַּוָּרֵי</he>, <cite ref=\"V00277\"><he>תַּוָּו׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 30a:1\">B. Mets. 30ᵃ</cite> <he>בתורי וכ׳</he> (R. Ḥan. in Tosaf. <he>בתוו׳</he>) it refers to ploughers with oxen (left without superintendence), who may do much damage (Rashi: <he>בתוֹרֵי</he> when ploughing with oxen); <cite ref=\"Chullin 84b\">Ḥull. 84ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 73a:8\">B. Mets. 73ᵃ</cite> <he>בתורי דנפיש וכ׳</he> when the orchard (of which the fruits are sold on the tree) is ploughed by ox-drivers (or <he>בתוֹרֵי</he> with oxen), when the risk to the trees is great; (R. Ḥan. in Tosaf.: <he>בתוורי</he> it refers to cattle-dealers who, buying the calves before they are born, run great risks)."
+			]
+		}
+	]
+}

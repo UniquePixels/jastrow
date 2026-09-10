@@ -1,0 +1,57 @@
+{
+	"id": "S01749",
+	"slug": "קפל-4",
+	"headword": {
+		"text": "קְפַל",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1402,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to scrape off</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 4b:1\">B. Bath. 4ᵇ</cite> <he>דקָפֵיל ליה חבריה וכ׳</he> (Rashi: <he>מְקַפֵּל</he>; Ms. M. <he>מְקַפּיל</he>) the neighbor might scrape off (the clay) &c. ",
+				"<cite ref=\"Bava Batra 4b:1\">Ib.</cite> <he>מקפיל ליה</he> Ms. M. (ed. <he>קליף ליה</he>, v. Rabb. D. S. a. l. note)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to dig, unearth</i> (esp. used of grave robbers). ",
+			"units": [
+				"<cite ref=\"Shabbat 152b:9\">Sabb. 152ᵇ</cite> <he>הנהו קפולאי דהוו קָפְלֵי וכ׳</he> grave robbers that were unearthing (bodies) in the field of &c.; <cite ref=\"Yalkut Shimoni on Nach 376:1\">Yalk. Ez. 376</cite>; <cite ref=\"Yalkut Shimoni on Torah 33:1\">Yalk. Gen. 33</cite> <he>מְקַפְּלֵי</he>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S01746\"><he>קַפֵּל</he></cite> same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיקְּפִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be peeled off</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 44a\">Ḥull. 44ᵃ</cite> [read:] <he>דאִיקְּפוּל אִיקְּפוּלֵי</he> the gullet and windpipe were loosened by peeling, opp. <he>דאפרוק איפרוקי</he> they were torn off forcibly."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "C00356",
+	"slug": "גוחכא",
+	"headword": {
+		"text": "גּוּחֲכָא"
+	},
+	"page": {
+		"number": 220,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00590\"><he>גחך</he></cite>) <i>laughter, sneer</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 14:13\">Targ. Prov. XIV, 13</cite> (h. text <cite ref=\"U00699\"><he>שְׂחֹק</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 79:4\">Targ. Ps. LXXIX, 4</cite> (ed. Vien. <cite ref=\"C00674\"><he>גּוֹ׳</he></cite>, Ms. <he>גִּי׳</he>; h. text <cite ref=\"S01377\"><he>קלס</he></cite>)."
+			]
+		}
+	]
+}

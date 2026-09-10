@@ -1,0 +1,31 @@
+{
+	"id": "H00305",
+	"slug": "חוטרא-2",
+	"headword": {
+		"text": "חוּטְרָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּטְרָה"
+		},
+		{
+			"text": "חוּטְרַיָּה"
+		}
+	],
+	"page": {
+		"number": 431,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ḥutra, Ḥutraya</i>, near Nehardea. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:8:2\">Y. Sabb. I, 4ᵃ</cite> bot. Ib. V, end, 7ᶜ R. Idi <he>דחוטריה</he>; <cite ref=\"Jerusalem Talmud Beitzah 2:8:3\">Y. Bets. II, end, 61ᵈ</cite> <he>דחוטר׳</he>."
+			]
+		}
+	]
+}

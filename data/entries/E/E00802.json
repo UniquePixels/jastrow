@@ -1,0 +1,24 @@
+{
+	"id": "E00802",
+	"slug": "הקצה-2",
+	"headword": {
+		"text": "הֲקָצָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 364,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00529\"><he>קוּץ</he></cite>, <cite ref=\"S01836\"><he>קָצַץ</he></cite>) <i>cutting</i>, <he>הֲקָצַת שפתים</he> (cmp. ",
+			"units": [
+				"<cite ref=\"Proverbs 16:30\">Prov. XVI, 30</cite>) cutting the lips, i.e. contracting the mouth for a blasphemous expression. ",
+				"<cite ref=\"Sanhedrin 65a\">Snh. 65ᵃ</cite> Ar. a. Ms. K. (ed. <he>עקימת</he>, v. <cite ref=\"P01179\"><he>עֲקִימָה</he></cite>)."
+			]
+		}
+	]
+}

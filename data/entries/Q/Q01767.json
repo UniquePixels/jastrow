@@ -1,0 +1,39 @@
+{
+	"id": "Q01767",
+	"slug": "פרט-5",
+	"headword": {
+		"text": "פְּרָט"
+	},
+	"page": {
+		"number": 1224,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01766\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>that which is singled out, specification, explicit statement</i>, opp. <cite ref=\"K00760\"><he>כְּלָל</he></cite>. Sifra introd., v. <cite ref=\"K00760\"><he>כְּלָל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 54b:20\">B. Kam. 54ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 5:14\">Deut. V, 14</cite>) <he>מה הפ׳ מפורש בעלי חיים וכ׳</he> as the explicit specification (thy ox and thy ass) mentions animated beings, so the general expression (and all thy <i>b’hemah</i>) refers to all kinds of animals (including birds). ",
+				"<cite ref=\"Bava Batra 123a:21\">B. Bath. 123ᵃ</cite> <he>בפְרָטָן</he> in the detailed account of them, v. <cite ref=\"K00760\"><he>כְּלָל</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> (ref. to <cite ref=\"I Chronicles 25:3\">I Chr. XXV, 3</cite>) <he>חמשה בפ׳ ובכללן ששה</he> in the specification there are five (sons of Jeduthun), and in the summing up it says ‘six’; Midr. Sam. ch. XXXII <he>בפְרָטִים חמשה ובכלל ששה</he>; a. v. fr.—Pl. <he>פְּרָטוֹת</he>, <he>פְּרָטִים</he>. ",
+				"<cite ref=\"Sotah 37b:3\">Sot. 37ᵇ</cite> <he>כללות … ופ׳ באוהל מועד</he> general principles were proclaimed at Sinai, and detailed laws in the Tabernacle; <cite ref=\"Chagigah 6a\">Ḥag. 6ᵃ</cite> sq. ",
+				"<cite ref=\"Shemot Rabbah 32\">Ex. R. s. 32</cite>, beg. Midr. Sam. l. c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>פ׳ ל־</he> [<i>this is especially mentioned as against</i>], <i>to the exclusion of</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 30b:69\">Arakh. 30ᵇ</cite>; <cite ref=\"Sanhedrin 86a:6\">Snh. 86ᵃ</cite>, v. <cite ref=\"M02262\"><he>מָצָא</he></cite>. ",
+				"<cite ref=\"Bava Kamma 64b:11\">B. Kam. 64ᵇ</cite> <he>פ׳ למרשיע את עצמו</he> this excludes (exempts from the fine) him who accuses himself; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

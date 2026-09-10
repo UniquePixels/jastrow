@@ -1,0 +1,25 @@
+{
+	"id": "A03391",
+	"slug": "א״ת",
+	"headword": {
+		"text": "א״ת"
+	},
+	"altHeadwords": [
+		{
+			"text": "א״ת ב״ש"
+		}
+	],
+	"page": {
+		"number": 131,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>Athbash</i>, a method of interchanging the first letter of the Alphabet (<cite ref=\"A00000\"><he>א</he></cite>) with the last (<cite ref=\"V00000\"><he>ת</he></cite>), the second (<cite ref=\"B00000\"><he>ב</he></cite>) with the last but one (<cite ref=\"U00489\"><he>ש</he></cite>), the third from the beginning (<cite ref=\"C00000\"><he>ג</he></cite>) with the third from the end (<cite ref=\"T00000\"><he>ר</he></cite>), &c. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13:16\">Num. R. s. 13</cite>.—",
+				"<cite ref=\"Bamidbar Rabbah 18:21\">Num. R. s. 18</cite> <he>ששך באת״בש בבל</he> Sheshach (<cite ref=\"Jeremiah 25:26\">Jer. XXV, 26</cite>) represents Babel by the rule of <i>athbash</i>"
+			]
+		}
+	]
+}

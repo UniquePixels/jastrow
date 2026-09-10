@@ -1,0 +1,23 @@
+{
+	"id": "T00668",
+	"slug": "ריע-1",
+	"headword": {
+		"text": "רִיעַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1475,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רְעֵי</he> I) <i>eaten up, cropped</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאתינ׳</he> 6) <he>חד גבה דאורחה ר׳ וכ׳</he> one side of the road is cropped (by the camel that passed), and the other is not."
+			]
+		}
+	]
+}

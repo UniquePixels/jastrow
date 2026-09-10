@@ -1,0 +1,23 @@
+{
+	"id": "S01406",
+	"slug": "קלפונין",
+	"headword": {
+		"text": "קַלְפּוֹנִין"
+	},
+	"page": {
+		"number": 1381,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (καλλίφωνοι) (<i>young men</i>) <i>with fine voices</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 15:20\">Targ. I Chr. XV, 20</cite> (ed. Beck. <he>קִ׳</he>; h. text <cite ref=\"P00825\"><he>עלמות</he></cite>, cmp. <cite ref=\"P00821\"><he>עֶלֶם</he></cite>)."
+			]
+		}
+	]
+}

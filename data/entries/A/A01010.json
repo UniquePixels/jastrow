@@ -1,0 +1,20 @@
+{
+	"id": "A01010",
+	"slug": "אחויה",
+	"headword": {
+		"text": "אַחֲוָיָה"
+	},
+	"page": {
+		"number": 39,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00308\"><he>חוי</he></cite>) <i>telling, interpretation</i>. ",
+			"units": ["<cite ref=\"Daniel 5:12\">Dan. V, 12</cite>."]
+		}
+	]
+}

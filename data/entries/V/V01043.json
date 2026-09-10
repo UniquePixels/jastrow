@@ -1,0 +1,32 @@
+{
+	"id": "V01043",
+	"slug": "תרף-1",
+	"headword": {
+		"text": "תָּרַף"
+	},
+	"page": {
+		"number": 1701,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Taf.</i> of <cite ref=\"T00931\"><he>רָפָה</he></cite>), <i>Hif.</i> <he>חִתְרִיף</he> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to make soft</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 1:8\">Tosef. Shebi. I, 8</cite> <he>לא יקנח … מפני שמַתְרִיפוֹ</he> ed. Zuck. (oth. ed. <he>שמתרין</he>, <he>שמתרן</he>) (in the Sabbatical year) one must not smear resin over a root (of a bulbous plant), because it makes it softer (advances its ripening)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to rot, decay; to become weak</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 19b:12\">B. Bath. 19ᵇ</cite> <he>בשהִתְרִיפוּ</he> when the dates are rotten. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 5:7:6\">Y. B. Kam. V, end, 5ᵃ</cite> <he>בשהתריפו מחמת אוירו</he> when the animals grew sick from the air in the pit (v. <cite ref=\"E00042\"><he>הֶבֶל</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

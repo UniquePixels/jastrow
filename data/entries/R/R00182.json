@@ -1,0 +1,32 @@
+{
+	"id": "R00182",
+	"slug": "צוות-2",
+	"headword": {
+		"text": "צְוַות"
+	},
+	"page": {
+		"number": 1267,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"R00072\"><he>צְבַת</he></cite> a. <cite ref=\"R00262\"><he>צוּת</he></cite>) <i>to join, attach</i>. [<cite ref=\"Bava Metzia 29b\">B. Mets. 29ᵇ</cite> <he>צוית</he> Ms. F., <he>מצוית</he> Ms. R. 2, v. <cite ref=\"R00223\"><he>צְוַץ</he></cite>].",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיצְטַוֵּות"],
+			"senses": [
+				{
+					"gloss": "<i>to be attached</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 80a:3\">B. Bath. 80ᵃ</cite> <he>אמה דמִיצְטַוְּתָא אברתא וכ׳</he> (Ar. <he>דמיצטב׳</he>) the mother bird will be attached to the daughter bird and to the mate that we leave with her, <he>איהי נמי תִיצְטַוַּות וכ׳</he> (not <he>תיצטוה</he>, v. Rabb. D. S. a. l. note 300-400) she (the daughter), too, will remain attached to her mother &c. ",
+						"<cite ref=\"Bava Batra 80a:3\">Ib.</cite> <he>אמה אברתה מיצטוותא וכ׳</he> the mother remains attached to the daughter, but not so the daughter &c."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

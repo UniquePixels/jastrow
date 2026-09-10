@@ -1,0 +1,23 @@
+{
+	"id": "U00240",
+	"slug": "שגרונייה",
+	"headword": {
+		"text": "שִׁגְרוֹנַיָּיה"
+	},
+	"page": {
+		"number": 1523,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>שְׁגַר</he> I) [<i>rivulets</i>,] <i>slopes</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:8:2\">Y. Bicc. I, end, 64ᵇ</cite> <he>מאן דמקדר אילין ש׳ דבישן מינהן</he> he who measures (v. <cite ref=\"S00168\"><he>קָדַר</he> I</cite>) the slopes of Beshan (will find that) they are part of them (of the regions flowing with milk and honey)."
+			]
+		}
+	]
+}

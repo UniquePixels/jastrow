@@ -1,0 +1,44 @@
+{
+	"id": "U00185",
+	"slug": "שבש-1",
+	"headword": {
+		"text": "שָׁבַשׁ"
+	},
+	"page": {
+		"number": 1518,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>שבשב</he>, cmp. <he>שׁוֹבָב</he>) <i>to run in all directions, blunder</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁבֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to entangle, confound; part. pass</i>. <cite ref=\"M02831\"><he>מְשׁוּבָּשׁ</he></cite>; f. <he>מְשׁוּבֶּשֶׁת</he> <i>thrown into confusion</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yevamot 16:7\">Yeb. XVI, 7</cite>, v. <cite ref=\"C00708\"><he>גַּיָּיס</he></cite>. ",
+						"<cite ref=\"Vayikra Rabbah 35\">Lev. R. s. 35</cite>; <cite ref=\"Shir HaShirim Rabbah 6:11\">Cant. R. to VI, 11</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּבֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be entangled</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 18:12\">Midr. Till. to Ps. XVIII, 11</cite> <he>וטלפות סוסיהן מִשְׁתַּבְּשׁוֹת</he> ed. Bub. (oth. ed. <he>משתמטות</he>) and the hoofs of their horses were entangled (caught in the mud)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

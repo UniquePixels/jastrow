@@ -1,0 +1,46 @@
+{
+	"id": "S02200",
+	"slug": "קרש-4",
+	"headword": {
+		"text": "קְרַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרֵישׁ"
+		}
+	],
+	"page": {
+		"number": 1428,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02199\">same</cite> (neut. verb) <i>to congeal, become solid</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 14:22\">Targ. Y. Ex. XIV, 22</cite> <he>קַרְשׁוּן</he> (not <he>קרשוון</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cause to congeal, curdle; to freeze</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 10:10\">Targ. Job X, 10</cite>.—V. <cite ref=\"S02083\"><he>קַרִישׁ</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִקְּרִישׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02199\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Chullin 120a:24\">Ḥull. 120ᵃ</cite> <he>דא׳</he> some ed. (oth. <he>דקַרִישׁ</he>), v. <cite ref=\"H00962\"><he>חָלָא</he> III</cite>"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

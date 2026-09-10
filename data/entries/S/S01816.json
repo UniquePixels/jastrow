@@ -1,0 +1,41 @@
+{
+	"id": "S01816",
+	"slug": "קציעה-1",
+	"headword": {
+		"text": "קְצִיעָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1405,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01828\"><he>קָצַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cutting and packing figs, fig-harvest</i>. ",
+			"units": ["<cite ref=\"Mishnah Maasrot 2:7\">Maasr. II, 7</cite>; a. e."],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>קְצִיעוֹת</he> <i>figs packed</i> or <i>to be packed</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 4:10\">Ter. IV, 10</cite> <he>בדורס ליטרא ק׳ וכ׳</he> if one has packed a litra of figs (of T’rumah) on top of a barrel and knows not of which; <cite ref=\"Tosefta Terumot 5:11\">Tosef. ib. V, 11</cite>; <cite ref=\"Beitzah 3b:18\">Bets. 3ᵇ</cite>; <cite ref=\"Zevachim 73a:2\">Zeb. 73ᵃ</cite>. ",
+				"<cite ref=\"Taanit 28a:7\">Taan. 28ᵃ</cite>; Tosef. ib. IV (III), 7 <he>לעשות ק׳ הללו שתי וכ׳</he> to make of these figs two balls; Y. ib. IV, 68ᵇ bot.; a. e.—[<cite ref=\"Mishnah Maasrot 3:4\">Maasr. III, 4</cite>; <cite ref=\"Bava Metzia 21b:13\">B. Mets. 21ᵇ</cite>, v. <cite ref=\"S01821\"><he>קְצִיצָה</he></cite>.]"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>store, capsule</i>,] <i>a compartment of the T’fillin</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 4:1\">Tosef. Kel. B. Bath. IV, 1</cite> <he>משיתיר … בין ק׳ וכ׳</he> when he detaches one compartment from the other on three sides; [El. Wil. emends: <cite ref=\"S01821\"><he>קְצִיצָה</he></cite> q. v.]—[<cite ref=\"Jerusalem Talmud Nedarim 3:5:2\">Y. Ned. III, 38ᵃ</cite> <he>קציעות</he>, v. <cite ref=\"S01793\"><he>קָצוֹעַ</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

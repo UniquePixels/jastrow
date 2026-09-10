@@ -1,0 +1,35 @@
+{
+	"id": "T00288",
+	"slug": "רהיטני",
+	"headword": {
+		"text": "רְהִיטְנִי"
+	},
+	"page": {
+		"number": 1454,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"T00287\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a tool for planing wood</i> &c. (so named from the grooves in which it runs), <i>chisel</i>, differ. fr. <cite ref=\"M00172\"><he>מְגֵירָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 2:2\">Tosef. Kel. B. Bath. II, 2</cite>. ",
+				"<cite ref=\"Tosefta Bava Kamma 11:15\">Tosef. B. Kam. XI, 15</cite>; <cite ref=\"Bava Kamma 119b:17\">B. Kam. 119ᵇ</cite> <he>היוצא … ומתחת הר׳ וכ׳</he> chips falling from under the borer and the chisel belong to the carpenter."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. ξυστήρ a. ξύριον) <i>a tool for shaving hair, an instrument</i> with which the hairs are removed singly, differ. fr. <cite ref=\"V00793\"><he>תַּעַר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:5\">Macc. III, 5</cite>; <cite ref=\"Nazir 40b\">Naz. 40ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

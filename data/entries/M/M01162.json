@@ -1,0 +1,42 @@
+{
+	"id": "M01162",
+	"slug": "מילא-2",
+	"headword": {
+		"text": "מֵילָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מִילָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 773,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (v. <cite ref=\"M01196\"><he>מֵילַת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a lock of wool, woolly substance</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 17a\">Nidd. 17ᵃ</cite> <he>מ׳ פרהבא</he> cotton, Rashi (oth. opin.: lock of clean and soft wool)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fine wool; a cloak of fine wool</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:11\">Targ. O. Gen. XLIX, 11</cite> <he>מֵ׳ מֵ׳</he> (ed. Berl. <he>מִ׳ מִ׳</he>; Var. <he>מֵילַת מֵילַת</he>; <he>מֵילָא מֵילַת</he>) all woolen. ",
+				"<cite ref=\"Targum Jonathan on Hosea 2:7\">Targ. Hos. II, 7</cite>; a. e.—[<cite ref=\"Tosefta Shabbat 5:14\">Tosef. Sabb. V</cite> (<cite ref=\"Tosefta Shabbat 6:14\">VI</cite>), 14, v. <cite ref=\"H01178\"><he>חֲמִילָה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "E00132",
+	"slug": "הדם-2",
+	"headword": {
+		"text": "הַדָּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַדָּמָא"
+		}
+	],
+	"page": {
+		"number": 333,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"E00131\">preced.</cite>) <i>part, member</i>.—Pl. <he>הַדָּמִין</he>, <he>הַדָּמֵי</he>. ",
+			"units": [
+				"<cite ref=\"Daniel 2:5\">Dan. II, 5</cite>; <cite ref=\"Daniel 3:29\">III, 29</cite>.—",
+				"<cite ref=\"Gittin 67b:20\">Gitt. 67ᵇ</cite>, v. <cite ref=\"E00131\">preced.</cite>"
+			]
+		}
+	]
+}

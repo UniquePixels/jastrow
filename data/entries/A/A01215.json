@@ -1,0 +1,31 @@
+{
+	"id": "A01215",
+	"slug": "איטליא",
+	"headword": {
+		"text": "אִיטַלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיטַלְיָה"
+		}
+	],
+	"page": {
+		"number": 47,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Italy</i>, esp. the southern part of the peninsula, called Magna Graecia. ",
+			"units": [
+				"<cite ref=\"Megillah 6b:11\">Meg. 6ᵇ</cite> ed. Ven. (omitt. in later ed.) <he>א׳ של יון זה כרך גדול של רומי וכ׳</he> (Ms. M. <he>שברומי</he> v. Rabb. D. S. a. l.) Greek Italy, that means the great city of Rome &c. ",
+				"<cite ref=\"Bereishit Rabbah 37:1\">Gen. R. s. 37</cite> beg. ",
+				"<cite ref=\"Bereishit Rabbah 67:6\">Gen. R. s. 67</cite> <he>איטאליה</he>.—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:7\">Targ. Ezek. XXVII, 7</cite>; a. e.—",
+				"<cite ref=\"Targum of I Chronicles 1:7\">Targ. I Chr. I, 7</cite> <cite ref=\"A01091\"><he>אִיטַלְיוֹן</he></cite>."
+			]
+		}
+	]
+}

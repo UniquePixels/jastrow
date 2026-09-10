@@ -1,0 +1,23 @@
+{
+	"id": "Q01728",
+	"slug": "פרוקויסטורין",
+	"headword": {
+		"text": "פְּרוֹקְוִיסְטוֹרִין"
+	},
+	"page": {
+		"number": 1221,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (proquæstors) <i>proquæstors, magistrates associated with the procurator in the administration of a province</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 17:2\">Midr. Till. to Ps. XVII</cite> <he>שמא אם משלח להם פ׳ וכ׳</he> (not <he>פרוסטקוסרין</he>; ed. Bub. <cite ref=\"A03137\"><he>ארכון</he></cite>) but if a king sends proquæstors to a province to collect from them one hundred litras of gold …, are they empowered to allow a reduction?"
+			]
+		}
+	]
+}

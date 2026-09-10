@@ -1,0 +1,24 @@
+{
+	"id": "D00066",
+	"slug": "דביתא",
+	"headword": {
+		"text": "דְּבֵיתָא"
+	},
+	"page": {
+		"number": 277,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Difel noun of <cite ref=\"B00754\"><he>בֵּיתָא</he></cite>, v. letter <cite ref=\"D00000\"><he>ד</he></cite>) [<i>of the house</i>,] <i>wife</i>, only with suff. of person. pron. <he>דְּבִיתְהוּ ד־</he> <i>the wife of</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 27b\">Ber. 27ᵇ</cite>. ",
+				"<cite ref=\"Taanit 23b\">Taan. 23ᵇ</cite> <he>ד׳ דמר</he> your wife; a. v. fr.—דְּבִיתְכִי <i>thy wife</i>. ",
+				"<cite ref=\"Nedarim 51a\">Ned. 51ᵃ</cite>"
+			]
+		}
+	]
+}

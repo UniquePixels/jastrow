@@ -1,0 +1,40 @@
+{
+	"id": "A00083",
+	"slug": "אבזקת",
+	"headword": {
+		"text": "אַבְזָקַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבְזָקָא"
+		},
+		{
+			"text": "אַבְזָקָה"
+		}
+	],
+	"page": {
+		"number": 4,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בזק</he>) <i>breaking, crumbling, corrosion</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a foot-disease in animals</i> believed to arise from vermin in consequence of a stroke of lightning; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>moth-eaten condition of garments</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 78b:12\">B. Mets. 78ᵇ</cite> (expl. <he>הבריקה</he> Mish.) <cite ref=\"A00083\"><he>אבזקת</he></cite> (Rashi <cite ref=\"A00083\"><he>אבזקא</he></cite>, Ms. M. <he>אבוק</he>, corr. <cite ref=\"G00000\"><he>ז</he></cite> for <cite ref=\"F00000\"><he>ו</he></cite>; cmp. Y. ib. VI, 11ᵃ top. s. v. <cite ref=\"B00460\"><he>בָּזָק</he></cite>) atrophy or paralysis of the feet. Ib. <he>א׳ במילת׳ וכ׳</he> the moths are in the royal wardrobe."
+			],
+			"label": "2"
+		}
+	]
+}

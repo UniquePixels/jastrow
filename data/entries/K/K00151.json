@@ -1,0 +1,56 @@
+{
+	"id": "K00151",
+	"slug": "כהה",
+	"headword": {
+		"text": "כֵּהֶה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֵּו׳"
+		},
+		{
+			"text": "כֵּהָה"
+		},
+		{
+			"text": "כֵּי׳"
+		}
+	],
+	"page": {
+		"number": 614,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"K00150\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (of light) <i>dim</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 31:12\">Gen. R. s. 31</cite> <he>בשעה שהיא כ׳</he> when it (the jewel) shone faintly.—Pl. <he>כֵּהִים</he>, <cite ref=\"K00154\"><he>כֵּהוֹת</he></cite>, <cite ref=\"K00151\"><he>כֵּי׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 31:12\">Ib.</cite>; <cite ref=\"Jerusalem Talmud Pesachim 1:1:7\">Y. Pes. I, beg. 27ᵃ</cite> <he>בשעה שהיו כ׳ וכ׳</he> when the lights burned dimly, we knew it was day-time. Ib. 27ᵇ top <he>בשעה שהיו כיהות</he> when the jewels were dim.—Pesik. Kumi, p. 145ᵇ (ref. to <he>כ̇ה̇חלנות</he> <cite ref=\"Ezekiel 40:25\">Ez. XL, 25</cite>) <he>חלונות כ׳ היו</he> the windows were dim (stained glass). ",
+				"<cite ref=\"Chagigah 16a:9\">Ḥag. 16ᵃ</cite> <he>עיניו כ׳</he> his eyes will grow dim; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of leprosy) <i>faint, dull</i>, opp. <cite ref=\"P00396\"><he>עזה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 2:1\">Neg. II, 1</cite>, v. <cite ref=\"B00194\"><he>בַּהֶרֶת</he></cite>. ",
+				"<cite ref=\"Mishnah Negaim 2:2\">Ib. 2</cite> <he>לפי שהכ׳ נראית עזה</he> because (in the early morning &c.) the faint spot appears bright; Sifra Thazr., Neg., <cite ref=\"Mishnah Parah 2\">Par. II</cite>, ch. II.—",
+				"<cite ref=\"Jerusalem Talmud Shevuot 1:1:5\">Y. Shebu. I, 32ᵈ</cite> <he>הִכְהָה טמא הִכְ׳ מן הַכֵּ׳ טהור</he> if it grows one shade fainter, it is unclean, but when it grows fainter than the next fainter shade, it is clean; Sifra l. c. ed. Ven.; <cite ref=\"Yalkut Shimoni on Torah 551:1\">Yalk. Lev. 551</cite> <he>כִּיהָה מן הכֵּ׳</he>; Y. l. c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (trnsf.) <i>doubtful</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 19a:28\">Nidd. 19ᵃ</cite>; <cite ref=\"Nazir 65b:6\">Naz. 65ᵇ</cite>; <cite ref=\"Sanhedrin 87b:14\">Snh. 87ᵇ</cite>; <cite ref=\"Ketubot 75b:4\">Keth. 75ᵇ</cite> <he>ר׳ י׳ אומר כ׳</he> R. Josh. says, It is doubtful; (<cite ref=\"Mishnah Negaim 4:11\">Neg. IV, 11</cite> <he>ר׳ י׳ קֵיהָה</he> or <cite ref=\"K00156\"><he>כִּיהָה</he></cite>, v. <cite ref=\"K00156\"><he>כהי</he></cite>, <cite ref=\"S00203\"><he>קהי</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

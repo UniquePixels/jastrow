@@ -1,0 +1,22 @@
+{
+	"id": "A03340",
+	"slug": "אשפר",
+	"headword": {
+		"text": "אֶשְׁפָּר"
+	},
+	"page": {
+		"number": 130,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>שפר</he>, cmp. <cite ref=\"U00511\"><he>שׁוּפְרָא</he></cite>)<i>a goodly piece</i> (cmp. <cite ref=\"D01149\"><he>דָּשְׁנָא</he></cite>), <i>a certain quantity of meat, eshpar</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 36b:15\">Pes. 36ᵇ</cite> <he>א׳ אחד וכ׳</he> an eshpar is one sixth of a bullock (as if composed of <cite ref=\"U02056\"><he>שש</he></cite> and <cite ref=\"Q01526\"><he>פר</he></cite>; cmp. <cite ref=\"A02517\"><he>אֶסְפָּר</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "N01240",
+	"slug": "נקצא",
+	"headword": {
+		"text": "נִקְצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 935,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קצץ</he>) <i>piece, splinter</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 26:8\">Targ. Prov. XXVI, 8</cite> <he>נ׳ דטסא</he> ed. (ed. Lag. a. oth. <cite ref=\"N00713\"><he>ניסקא</he></cite>, transp. of <he>ניקסא</he>, cmp. <cite ref=\"S01056\"><he>קֵיסָא</he></cite>) a splinter of foil (<i>mica</i>; h. text <he>צרור אבן</he>)."
+			]
+		}
+	]
+}

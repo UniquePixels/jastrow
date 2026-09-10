@@ -1,0 +1,36 @@
+{
+	"id": "G00082",
+	"slug": "זהה-1",
+	"headword": {
+		"text": "זָהַהּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָחַח"
+		}
+	],
+	"page": {
+		"number": 381,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to glisten</i>,] <i>to be proud, wanton</i>.—Denom. <cite ref=\"G00086\"><he>זָהוֹהַּ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזְהִיהַּ", "הִזְחִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to charge one with wantonness</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 7a:2\">Ḥull. 7ᵃ</cite>, <he>אין מַזְהִיהִין אותו</he> Ar., (ed. <he>מַזְחִיחִין</he>) you must not reproach him as a haughty person, v. <cite ref=\"G00576\"><he>זָנַח</he></cite> a. <cite ref=\"G00152\"><he>זוּחַ</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

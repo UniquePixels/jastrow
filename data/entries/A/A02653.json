@@ -1,0 +1,23 @@
+{
+	"id": "A02653",
+	"slug": "אפחא",
+	"headword": {
+		"text": "אֵפְּחָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 101,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., const. (<he>נפח</he>) <he>אַפְּחַת</he>, with <cite ref=\"T00346\"><he>רוּחָא</he></cite> <i>grief, cause of grief</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 26:35\">Targ. Y. II, Gen. XXVI, 35</cite> ed. (Ar. <he>רָפְחַן</he>)."
+			]
+		}
+	]
+}

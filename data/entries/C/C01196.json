@@ -1,0 +1,40 @@
+{
+	"id": "C01196",
+	"slug": "גף-2",
+	"headword": {
+		"text": "גַּף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 262,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<he>גנף</he>, cmp. <cite ref=\"K00873\"><he>כָּנָף</he></cite> a. <cite ref=\"K00980\"><he>כַּף</he></cite>; v. <cite ref=\"A00332\"><he>אֲגַף</he></cite>) [<i>bent, joint</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the long portion of the wing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 7:5\">Zeb. VII, 5</cite> <he>שיבש גַּפָּהּ</he> (Talm. ed. 68ᵇ <he>שיבשה</he>, v. Rabb. D. S. a. l.) whose wing is withered. ",
+				"<cite ref=\"Chullin 57a:3\">Ḥull. 57ᵃ</cite> <he>שמוטת גף</he> a bird whose wing is dislocated.—<i>Du.</i> <he>גַּפַּיִּם</he>, <he>גַּפַּיִּים</he>. ",
+				"<cite ref=\"Mishnah Chullin 3:4\">Ib. III, 4</cite> <he>נשתברו גַּפֶּיהָ</he> whose wings are broken, contrad. to <he>כנפ׳</he> wing feathers."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>arms, shoulders</i> of a human being. Ohol. VII, 4 <he>ניטלת בג׳</he> carried by her arms (put around the necks of her supporters); v. <cite ref=\"A00332\"><he>אֲגַף</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>handles</i> of a vessel, <i>sides</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 8:3\">Kel. VIII, 3</cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 10:5\">Tosef. Kel. B. Mets. X, 5</cite>; a. e.—V. <cite ref=\"C00787\"><he>גֵּיף</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "C00495",
+	"slug": "גוריון",
+	"headword": {
+		"text": "גּוּרְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּרְיָין"
+		},
+		{
+			"text": "גּוּרְיָן"
+		}
+	],
+	"page": {
+		"number": 227,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Guryon, Guryan</i>. ",
+			"units": []
+		},
+		{
+			"gloss": " a Tannai (Abba) G. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:13\">Kidd. IV, 13</cite>.—2) an Amora. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:19\">Y. M. Kat. III, 82ᵈ</cite> bot.; a. fr.—3) G. of Isporak. ",
+				"<cite ref=\"Temurah 30b:42\">Tem. 30ᵇ</cite>; <cite ref=\"Bava Kamma 93b:18\">B. Kam. 93ᵇ</cite> sq."
+			],
+			"label": "1"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "S00061",
+	"slug": "קבל-5",
+	"headword": {
+		"text": "קְבַל",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "קְבֵיל"
+		}
+	],
+	"page": {
+		"number": 1309,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"S00060\">preced.</cite>) [<i>to be thick</i>,] <i>to be misty, dark</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 3:6\">Targ. Mic. III, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 13:10\">Targ. Is. XIII, 10</cite>; a. e.—Part. <cite ref=\"S00051\"><he>קָבֵיל</he></cite>, <he>קָבֵל</he>, <he>קְבִילָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 139:11\">Targ. Ps. CXXXIX, 11</cite> (not <cite ref=\"S01557\"><he>קַ׳</he></cite>, <cite ref=\"S02203\"><he>קֳ׳</he></cite>; h. text <cite ref=\"A00841\"><he>אוֹר</he></cite>!). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 14:57\">Targ. Y. Lev. XIV, 57</cite> <he>יומא ק׳</he> a cloudy day, opp. <cite ref=\"N00268\"><he>נהירא</he></cite>; a. e.—V. <cite ref=\"S00062\">next art.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְבֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to darken</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 5:8\">Targ. Am. V, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 8:9\">Ib. VIII, 9</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

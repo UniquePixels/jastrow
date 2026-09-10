@@ -1,0 +1,29 @@
+{
+	"id": "S01991",
+	"slug": "קרטובלא",
+	"headword": {
+		"text": "קַרְטוּבְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְטַבְלָא"
+		}
+	],
+	"page": {
+		"number": 1416,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a Babyl. corrupt. of <cite ref=\"S00697\"><he>קָטָבוֹלְיָא</he></cite>) <i>leather cover, spread</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 79a\">Sabb. 79ᵃ</cite> bot. <he>ההיא בק׳</he> (Ms. M. <he>בקורטבלא</he>, Ar. <he>בקרטב׳</he>) this refers to a leather spread. ",
+				"<cite ref=\"Chagigah 24a:3\">Ḥag. 24ᵃ</cite> <he>שצברן ע״ג קרטב׳</he> (Ms. M. <cite ref=\"S00698\"><he>קָטָבְלָא</he></cite>) he piled them on a leather spread. ",
+				"<cite ref=\"Niddah 28a:12\">Nidd. 28ᵃ</cite> <he>שרפו ע״ג קטבלא</he> he burned the corpse on a leather spread (which is not consumed in fire)."
+			]
+		}
+	]
+}

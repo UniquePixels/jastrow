@@ -1,0 +1,23 @@
+{
+	"id": "C00285",
+	"slug": "גובלאי",
+	"headword": {
+		"text": "גּוּבְלָאֵי"
+	},
+	"page": {
+		"number": 217,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <he>גַּבְלָא</he>) <i>of Gabla, Idumeans</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 83:8\">Targ. Ps. LXXXIII, 8</cite> ed. (Var. <cite ref=\"C00290\"><he>גּוּבְנָאֵי</he></cite>, Ms. <cite ref=\"C00616\"><he>גִּיבְלֵי</he></cite>)."
+			]
+		}
+	]
+}

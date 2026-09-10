@@ -1,0 +1,34 @@
+{
+	"id": "A00718",
+	"slug": "אינא-1",
+	"headword": {
+		"text": "אַיְנָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אַוְונָא"
+		},
+		{
+			"text": "אֲוָונָא"
+		}
+	],
+	"page": {
+		"number": 28,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A00717\">foreg. ws.</cite>; cmp. <he>גנן</he>, <cite ref=\"H01254\"><he>חָנָה</he></cite>, <cite ref=\"H00402\"><he>חוּן</he></cite>, a. <cite ref=\"P00297\"><he>עוֹנָה</he></cite>, <cite ref=\"M02083\"><he>מָעוֹן</he></cite>) [circle], <i>night-lodging, station</i> for travellers (v. Sm. Ant. s. v. Mansio). ",
+			"units": [
+				"<cite ref=\"Nazir 7a:6\">Naz. 7ᵃ</cite> <he>כל אוו׳ וא׳</he> every station. ",
+				"<cite ref=\"Bava Metzia 79b\">B. Mets. 79ᵇ</cite>; <cite ref=\"Avodah Zarah 65a:15\">Ab. Zar. 65ᵃ</cite> <he>מא׳ לא׳</he> from station to station.—",
+				"<cite ref=\"Devarim Rabbah 6\">Deut. R. s. 6</cite> she dared to bring disorder into <he>אוננא של מלך</he> (read <he>אוונא</he> or <cite ref=\"A00582\"><he>אַוְונָה</he></cite>, v. infra) the royal head quarters. Pl. <he>אַוְונִין</he>, <he>אֲוָונִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:32\">Targ. Is. X, 32</cite> (ed. Vien. <cite ref=\"A00743\"><he>אַוְנִין</he></cite>). [<cite ref=\"Shabbat 157b\">Sabb. 157ᵇ</cite> <he>אוונא</he>, v. <cite ref=\"A00569\"><he>אוּדְנָא</he> II</cite>.] [Comment. use h. forms <cite ref=\"A00582\"><he>אַוְונָה</he></cite>, pl. <he>אַוְונוֹת</he>.]"
+			]
+		}
+	]
+}

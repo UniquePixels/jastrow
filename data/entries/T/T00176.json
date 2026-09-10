@@ -1,0 +1,29 @@
+{
+	"id": "T00176",
+	"slug": "רגז-4",
+	"headword": {
+		"text": "רְגַז",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְגוֹז"
+		}
+	],
+	"page": {
+		"number": 1447,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00175\">preced.</cite>) <i>anger, wrath</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 9:20\">Targ. Deut. IX, 20</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 29:27\">Ib. XXIX, 27</cite>; a. e."
+			]
+		}
+	]
+}

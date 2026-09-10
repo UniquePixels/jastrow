@@ -1,0 +1,44 @@
+{
+	"id": "Q00620",
+	"slug": "פיטוס",
+	"headword": {
+		"text": "פִּיטּוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיטָּס"
+		}
+	],
+	"page": {
+		"number": 1161,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (freq. <cite ref=\"Q00616\"><he>פִּיטּוּם</he></cite>, <cite ref=\"Q00627\"><he>פִּיטָּם</he></cite>) c. (<he>פטס</he> <i>to expand</i>, cmp. <cite ref=\"Q00535\"><he>פָּטַם</he></cite> 2) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a large cylindrical vessel, cask</i> or <i>tub</i> of earthen material (corresp. to πίθος, a. to dolium; v. Sm. Ant.<sup>3</sup> Engl. ed., s. v. Dolium). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 4:12\">B. Mets. IV, 12</cite> (<cite ref=\"Bava Metzia 60a:4\">60ᵃ</cite>) <he>התגר … פיטם אחד</he> (Bab. ed. <cite ref=\"Q00616\"><he>פיטום</he></cite>; Y. ed. Ven. a. Mish. ed. Nap. <he>פיטס</he>; v. Rabb. D. S. a. l. note 400) a merchant may buy wine from several presses and put it into one cask. ",
+				"<cite ref=\"Ketubot 111b\">Keth. 111ᵇ</cite> in the days to come <he>מביא ענבה … כפ׳ גדול</he> one will bring in one cluster of grapes on a wagon or in a boat and place it in a corner of his house, and take his supply of wine from it, as if it were a large jar; <cite ref=\"Sifrei Devarim 317:7\">Sifré Deut. 317</cite> <he>כשותה מן הפיטום</he>; <cite ref=\"Yalkut Shimoni on Torah 944\">Yalk. ib. 944</cite> <he>ומסתפק והולך מן הפטים</he> (read <he>כמן הפ׳</he>); <cite ref=\"Yalkut Shimoni on Torah 160:1\">Yalk. Gen. 160</cite> <he>בפ׳ גדול</he> (corr. acc.). ",
+				"<cite ref=\"Mishnah Rosh Hashanah 3:7\">R. Hash. III, 7</cite> (<cite ref=\"Rosh Hashanah 27b\">27ᵇ</cite>) <he>הפיטם</he> (Bab. ed. <he>הפיטס</he>; Ms. M. <he>הפיטם</he>, v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Tosefta Ohalot 10:3\">Tosef. Ohol. X, 3</cite> <he>פ׳ שהוא עומד וכ׳</he> <i>a piṭṭus</i> (<i>pithos</i>) standing in a room and reaching from the floor to the ceiling. ",
+				"<cite ref=\"Tosefta Kelim Kamma 4:16\">Tosef. Kel. B. Kam. IV, 16</cite> <he>פיטים שקירו וכ׳</he> (corr. acc.) a large tub to which one made a cover to use it as a stove, and which he plastered over with clay. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 3:1:3\">Y. Bets. III, 62ᵃ</cite> top <he>צד הוא בפיטס</he> he may catch an animal (on the Holy Day) by chasing it into a tub; Y. Sabb. III, 14ᵃ bot. <he>בפיתם</he> (read <he>ס …</he>). ",
+				"<cite ref=\"Tosefta Tevul Yom 2:3\">Tosef. T’bul Yom II, 3</cite> <cite ref=\"Q00897\"><he>פִּיתוֹס</he></cite>.—Pl. <he>פִּיטְּסִין</he>, <cite ref=\"Q00616\"><he>פִּטְּ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 3:6\">Kel. III, 6</cite> <he>שטופלין בה הפ׳</he> (Ar. <he>הפדיסין</he>) wherewith they line the tubs. ",
+				"<cite ref=\"Beitzah 15b:10\">Bets. 15ᵇ</cite> <he>הללו בעלי פ׳</he> those (the first to leave the lecture room) are owners of tubs of wine, contrad. to <cite ref=\"H00080\"><he>חבית</he></cite> &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a vessel made of brittle clay and requiring lining</i>.—Pl. <he>פִּיטְּסוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 6:2\">B. Bath. VI, 2</cite> (<cite ref=\"Bava Batra 93b:14\">93ᵇ</cite>) <he>קנקנים בשרון … פיטסות למאה</he> (Ms. H. a. R. <cite ref=\"Q00196\"><he>פּוֹטְסוֹת</he></cite>; Mish. ed. <he>פִּיטַסְיָאוֹת</he>, Y. ed. <he>פִּיטְסָאוֹת</he>) if a man buys jugs (<he>קנקנים</he>) in Sharon, he must accept ten thin jugs for every hundred; ib. 97ᵇ, expl. <he>נאות ומגופרות</he>, v. <cite ref=\"N00004\"><he>נָא</he> II</cite>; Tosef. ib. VI, 3, sq. <cite ref=\"Q00196\"><he>פוטסות</he></cite> ed. Zuck. (oth. ed. <he>פוניסות</he>, <cite ref=\"Q00725\"><he>פינוסות</he></cite>, corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

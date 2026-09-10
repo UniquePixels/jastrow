@@ -1,0 +1,23 @@
+{
+	"id": "C00644",
+	"slug": "גידל-2",
+	"headword": {
+		"text": "גִּידֵּל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 235,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גדל</he>, Pi.) <i>pupil</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 84\">Yalk. Gen. 84</cite> <he>ג׳ בית אברהם וכ׳</he> (<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite> <he>בביתו של א״א</he>, corr. acc.) he (Lot) was a pupil of the house of Abraham; v. Tanḥ. ed. Bub., Vayera 15."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "N00570",
+	"slug": "נטישה",
+	"headword": {
+		"text": "נְטִישָׁה"
+	},
+	"page": {
+		"number": 899,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00589\"><he>נָטַשׁ</he></cite>) <i>renunciation, giving up</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 6:1:3\">Y. Peah VI, beg. 19ᵇ</cite> (ref. to <cite ref=\"Exodus 23:11\">Ex. XXIII, 11</cite>) <he>יש לך נ׳ אחרת כזו</he> there is another resignation like this (<cite ref=\"E00759\"><he>הֶפְקֵר</he></cite>). ",
+				"<cite ref=\"Exodus 23:11\">Ib.</cite> <he>נ׳ מיעוט וכ׳</he> the superfluous <he>ונטשתה</he> (Ex. l. c.) intimates a limitation: <i>this</i> you must resign indiscriminately for the benefit of the poor or of the rich, but &c."
+			]
+		}
+	]
+}

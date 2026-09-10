@@ -1,0 +1,28 @@
+{
+	"id": "V00410",
+	"slug": "תיבורא",
+	"headword": {
+		"text": "תִּיבּוּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּבּ׳"
+		}
+	],
+	"page": {
+		"number": 1663,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00071\"><he>תְּבַר</he></cite>) <i>breaking, shattering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:14\">Targ. Is. XXX, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 5:20\">Targ. II Sam. V, 20</cite>; <cite ref=\"Targum of I Chronicles 14:11\">Targ. I Chr. XIV, 11</cite>."
+			]
+		}
+	]
+}

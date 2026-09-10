@@ -1,0 +1,27 @@
+{
+	"id": "A00214",
+	"slug": "אברומא",
+	"headword": {
+		"text": "אברומא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אבדומא"
+		}
+	],
+	"page": {
+		"number": 9,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>hash or brine of a certain fish</i> (Ἀβραμίς?). ",
+			"units": [
+				"<cite ref=\"Sukkah 18a:13\">Succ. 18ᵃ</cite> (Ms. M. a. ed. <he>אבד׳</he>, v. Rabb. D. S. a. l.) [Rashi: ‘<i>a very small fish</i>’.]"
+			]
+		}
+	]
+}

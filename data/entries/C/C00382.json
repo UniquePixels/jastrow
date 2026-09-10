@@ -1,0 +1,34 @@
+{
+	"id": "C00382",
+	"slug": "גולגלתא",
+	"headword": {
+		"text": "גּוּלְגַּלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּלְגּוּלְ׳"
+		}
+	],
+	"page": {
+		"number": 221,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00381\">same</cite><i>skull, head</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:16\">Targ. Ex. XVI, 16</cite>; a. fr. Targ. II Esth. III, 9 <cite ref=\"C00382\"><he>גּוּלְגְּלָתָא</he></cite>.—",
+				"<cite ref=\"Tamid 32b:21\">Tam. 32ᵇ</cite> <he>והבו ליה ג׳ חדא</he> they gave him (Alexander the Great) a skull. ",
+				"<cite ref=\"Tamid 32b:21\">Ib.</cite> <he>ג׳ דעינא</he>, v. <cite ref=\"C00872\"><he>גַּלְגְּלָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>capitation tax</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 8a:5\">B. Bath. 8ᵃ</cite>; <cite ref=\"Nedarim 62b:2\">Ned. 62ᵇ</cite> <he>כסף ג׳</he>, v. <cite ref=\"B00824\"><he>בְּלוֹ</he></cite>. Pesik. Shek. p. 11ᵃ <he>גּוּלְגַּלְתֵּיךְ</he> thy capitation tax (for the Roman government); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

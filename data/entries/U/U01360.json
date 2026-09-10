@@ -1,0 +1,24 @@
+{
+	"id": "U01360",
+	"slug": "שלמים",
+	"headword": {
+		"text": "שְׁלָמִים"
+	},
+	"page": {
+		"number": 1587,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; v. <cite ref=\"U01251\"><he>שָׁלוֹם</he></cite>; sub. <he>זבח</he>) <i>peace-offering</i>. Sifra Vayikra, N’dabah, Par. 13, ch. XVI, v. <cite ref=\"U01350\"><he>שָׁלֵם</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 1:2\">Zeb. I, 2</cite> <he>שׂשחטן לשם ש׳</he> which were killed as peace-offerings. ",
+				"<cite ref=\"Mishnah Zevachim 5:5\">Ib. V, 5</cite> <he>זבחי שַׁלְמֵי ציבור</he> congregational peace-offerings; a. v. fr."
+			]
+		}
+	]
+}

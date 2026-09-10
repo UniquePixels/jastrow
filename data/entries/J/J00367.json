@@ -1,0 +1,107 @@
+{
+	"id": "J00367",
+	"slug": "ילד-1",
+	"headword": {
+		"text": "יָלַד"
+	},
+	"page": {
+		"number": 577,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"B00850\"><he>בָּלַט</he></cite>) <i>to bear, bring forth; to beget</i>, v. <cite ref=\"J00187\"><he>יוֹלֵד</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 7:5\">Yeb. VII, 5</cite> <he>יָלְדָה הימנו בן</he> she had a son from him. ",
+				"<cite ref=\"Mishnah Yevamot 7:5\">Ib.</cite> <he>י׳ תאכל וכ׳</he> after she has given birth, she may eat (T’rumah). ",
+				"<cite ref=\"Sanhedrin 52a:2\">Snh. 52ᵃ</cite> <he>ארור שזו י׳</he> cursed he who begot this woman. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 146:4\">Yalk. Sam. 146</cite> <he>והיא ילדה מהם</he> and she was with child from them (the male demons); <he>והיו יוֹלְדוֹת ממנו</he> and they (the female demons) were with child from him (Adam); <cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> <he>מולידות</he> (corr. acc., or <he>מוּלָדוֹת</he> <i>Hof.</i>). ",
+				"<cite ref=\"Sotah 11b:14\">Sot. 11ᵇ</cite> <he>בשעה שכורעת לֵילֵד</he> when she kneels down to give birth; a. v. fr.—<i>Part. pass.</i> <cite ref=\"J00375\"><he>יָלוּד</he></cite> <i>born;</i> <he>יְלוּד אשה</he> born of woman, <i>human being</i>. ",
+				"<cite ref=\"Shabbat 88b\">Sabb. 88ᵇ</cite>; a. fr.—V. <cite ref=\"J00187\"><he>יוֹלֵד</he></cite>, <cite ref=\"J00188\"><he>יוֹלֵדָה</he></cite>, <cite ref=\"J00188\"><he>יוֹלֶדֶת</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נוֹלַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be born, to originate</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Beitzah 1:1\">Bets. I, 1</cite> <he>ביצה שנוֹלְדָה וכ׳</he> an egg which was laid on a Holy Day. ",
+						"<cite ref=\"Mishnah Bekhorot 2:3\">Bekh. II, 3</cite> <he>נ׳ להם מום וכ׳</he> a permanent blemish appeared on them. ",
+						"<cite ref=\"Mishnah Bekhorot 5:3\">Ib. V, 3</cite> <he>כשיִוָּלֵד לו וכ׳</he> when another blemish shall have appeared. ",
+						"<cite ref=\"Tosefta Ketubot 7:10\">Tosef. Keth. VII, 10</cite> [read:] <he>שדרכן לִיוָּלֵד</he> which ordinarily appear; Y. ib. VII, end, 31ᵈ <he>להִיוָּלֵד</he>. ",
+						"<cite ref=\"Shabbat 137a:26\">Sabb. 137ᵃ</cite> <he>יום הִוָּלְדוֹ</he> his day of birth; a. v. fr.—",
+						"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>כל חדש שלא נ׳</he>, v. <cite ref=\"M00491\"><he>מוֹלָד</he></cite>.—<i>Part.</i> <he>נוֹלָד</he> <i>forthcoming, future event, result</i>. ",
+						"<cite ref=\"Pirkei Avot 2:9\">Ab. II, 9</cite> <he>הרואה את הנ׳</he> he who considers what may result (from his actions); <cite ref=\"Tamid 32a\">Tam. 32ᵃ</cite>. ",
+						"<cite ref=\"Mishnah Nedarim 3:9\">Ned. III, 9</cite> <he>הנודר מן היִלּוֹדִים מותר בנוֹלָדִים</he> if one foreswears enjoyment of the <i>yillodim</i> (those born), he is permitted to derive benefits from those born after his vow (v. ",
+						"<cite ref=\"Mishnah Nedarim 3:9\">Ib.</cite> ",
+						"<cite ref=\"Nedarim 30b\">ib. 30ᵇ</cite>).—Esp. "
+					],
+					"senses": [
+						{
+							"gloss": " (in festive ritual) <i>nolad, an object which became available for use on a Holy Day</i>. ",
+							"units": [
+								"<cite ref=\"Beitzah 2a:7\">Bets. 2ᵃ</cite> <he>אית ליה נ׳</he> holds to the opinion that <i>nolad</i> is forbidden to be used on the Holy Day, v. <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>. ",
+								"<cite ref=\"Shabbat 29a\">Sabb. 29ᵃ</cite> <he>מעיקרא כלי … והוה ליה נ׳ ואסור</he> before it was broken, it was a vessel (and not designated for fuel), and now it is a broken vessel and, therefore, is a <i>nolad</i> and must not be used as fuel. ",
+								"<cite ref=\"Eruvin 46a:1\">Erub. 46ᵃ</cite> top <he>כ״ש דהוו להו נ׳ וכ׳</he> so much the more they must be considered as <i>nolad</i> &c.; a. fr.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " (in votive law) <i>nolad, a novel incident</i> which changes the aspects of a vow and eventually nullifies it. ",
+							"units": [
+								"<cite ref=\"Mishnah Nedarim 9:2\">Ned. IX, 2</cite> <he>פותחין בנ׳</he> the court in trying to absolve him may open the questions by pointing out a circumstance since occurred. ",
+								"<cite ref=\"Mishnah Nedarim 9:3\">Ib. 3</cite> <he>יש … שהן כנ׳ ואינן כנ׳</he> there are incidents which are and yet are not like <i>nolad</i>, i.e. incidents which may have been anticipated by the vowing person; a. fr."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוֹלִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to beget</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Yevamot 10:4\">Tosef. Yeb. X, 4</cite> <he>מפני שמוֹלִיד</he> because he is capable of begetting children. Cant. R. beg. <he>את מוצא צדיק מוליד וכ׳</he> you will find cases of a righteous man having a righteous son &c. ",
+						"<cite ref=\"Shemot Rabbah 1:24\">Ex. R. s. 1</cite> <he>ולריק ישראל מוֹלִידִים</he> shall Israelites beget in vain?; a. v. fr.—[<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> <he>מולידות</he>, v. supra. ",
+						"<cite ref=\"Ketubot 72b:5\">Keth. 72ᵇ</cite> <he>מולידיו</he>, v. <cite ref=\"J00187\"><he>יוֹלֵד</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to bear living brood</i>, opp. to laying eggs. ",
+					"units": [
+						"<cite ref=\"Bekhorot 7b\">Bekh. 7ᵇ</cite>, v. <cite ref=\"J00445\"><he>יָנַק</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["יִלֵּד", "יִילֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to assist in birth, to deliver</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 18:3\">Sabb. XVIII, 3</cite> <he>מְיַלְּדִין את האשה וכ׳</he> you may deliver a woman on the Sabbath; ib. 129ᵇ <he>מְיַילְּדִים את החיה</he> Ms. M. (ed. <he>מיי׳ את הוולד</he> you may take the child). ",
+						"<cite ref=\"Mishnah Avodah Zarah 2:1\">Ab. Zar. II, 1</cite> (<cite ref=\"Avodah Zarah 26a:4\">26ᵃ</cite>) <he>לא תְיַלֵּד וכ׳</he> must not deliver a gentile woman; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to rear</i>. Ib. <he>מפני שמְיַלֶּדֶת וכ׳</he> because she rears a child for idolatry; a. e.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

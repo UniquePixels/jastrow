@@ -1,0 +1,32 @@
+{
+	"id": "S01495",
+	"slug": "קמר-2",
+	"headword": {
+		"text": "קְמַר"
+	},
+	"page": {
+		"number": 1387,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01494\">same</cite>, <i>to bend</i>; (cmp. <he>כפת</he>, <he>כפף</he>) <i>to tie</i>.—Denom. <cite ref=\"S01452\"><he>קָמוֹר</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַמֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to girdle</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 2:10\">Targ. Lam. II, 10</cite> <he>קַמָּארוּ</he> ed. Lag. (oth. ed. <he>קְמַרוּ</he> <i>Pe.</i>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 65:13\">Targ. Ps. LXV, 13</cite>.—[Zend <i>ḳamara, arch, girdle</i>, Greek καμάρα, of Semitic origin.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

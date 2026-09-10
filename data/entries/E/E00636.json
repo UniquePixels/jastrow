@@ -1,0 +1,29 @@
+{
+	"id": "E00636",
+	"slug": "המסס",
+	"headword": {
+		"text": "הֶמְסֵס"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָסָס"
+		}
+	],
+	"page": {
+		"number": 356,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01978\"><he>מָסַס</he></cite>) [<i>the dissolving</i> (<i>digesting</i>) <i>receptacle</i>,] <i>the first stomach of ruminants</i>, cmp. <cite ref=\"E00045\"><he>הַבְלִילָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> <cite ref=\"E00636\"><he>המסס</he></cite> (= <he>הַהֶ׳</he>, or <cite ref=\"E00636\"><he>הַמָּסָס</he></cite>). ",
+				"<cite ref=\"Vayikra Rabbah 4:4\">Lev. R. s. 4</cite>; <cite ref=\"Midrash Tehillim 103:1\">Midr. Till. to Ps. CIII</cite>, beg. <he>המ׳ לטחון</he> the first stomach has the function of grinding (the food). ",
+				"<cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite>; <cite ref=\"Kohelet Rabbah 12:3:1\">Koh. R. to XII, 3</cite> ‘the grinders’ (<cite ref=\"Kohelet Rabbah 12:3:1\">ib.</cite>) <he>זו ה׳</he> that is the stomach. [From later usage, e.g. Tur Yoré Deah 49, and from its Chald. equivalent it would seem that our w. is <cite ref=\"E00636\"><he>הֶמְסֵס</he></cite>, and the definite article fused with the <cite ref=\"E00000\"><he>ה</he></cite> of the noun.]"
+			]
+		}
+	]
+}

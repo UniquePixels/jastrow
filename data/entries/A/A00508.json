@@ -1,0 +1,29 @@
+{
+	"id": "A00508",
+	"slug": "אהלית",
+	"headword": {
+		"text": "אָהֳלִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָהֳולִית"
+		}
+	],
+	"page": {
+		"number": 20,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אהל</he>) <i>a group of tents, encampment;</i> only in Pl. <he>אָהֳלִיּוֹת</he> (= <i>castra</i>) <i>camps</i>. (Always in connection with <cite ref=\"B01081\"><he>בצוצריות</he></cite> or <cite ref=\"S01653\"><he>קסטרא</he></cite> fortifications). ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:13\">Cant. R. to II, 13</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 624:1\">Yalk. Ps. 624</cite> <he>אהו׳</he>. ",
+				"<cite ref=\"Vayikra Rabbah 1:11\">Lev. R. s. 1</cite>; a. e. [Cmp. <cite ref=\"B01081\"><he>בְּצוֹצְרִיּוֹת</he></cite> a. <cite ref=\"C01169\"><he>גַּסְטְרָא</he></cite> as to versions.]"
+			]
+		}
+	]
+}

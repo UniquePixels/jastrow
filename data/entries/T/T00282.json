@@ -1,0 +1,27 @@
+{
+	"id": "T00282",
+	"slug": "רהטון",
+	"headword": {
+		"text": "רִהֲטוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1454,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00281\">preced.</cite> wds.) <i>road, marching route</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 32b:16\">Ber. 32ᵇ</cite> <he>על כל חיל וחיל בראתי שלשים ר׳ ועל כל ר׳ ור׳ בראתי בו שלשים לגיון וכ׳</he> Ms. M. for each army (of stars in the signs of the Zodiac) I created thirty routes, and for each route I created in it (the sign) thirty legions &c., v. <cite ref=\"S01993\"><he>קָרְטוֹן</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 332\">Yalk. Is. 332</cite> <cite ref=\"T00609\"><he>רִיהֲ׳</he></cite>."
+			]
+		}
+	]
+}

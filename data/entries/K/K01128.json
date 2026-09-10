@@ -1,0 +1,22 @@
+{
+	"id": "K01128",
+	"slug": "כרוספדאי",
+	"headword": {
+		"text": "כְּרוּסְפְּדַאי"
+	},
+	"page": {
+		"number": 665,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Crusp’day</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 69a:9\">Snh. 69ᵃ</cite> (v. <cite ref=\"S01958\"><he>קרוספדאי</he></cite>, a. <cite ref=\"K01174\"><he>כְּרִיסְפָּא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "D00987",
+	"slug": "דקדוק",
+	"headword": {
+		"text": "דִּקְדּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיקְ׳"
+		}
+	],
+	"page": {
+		"number": 318,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00989\"><he>דִּקְדֵּק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>crushing, humiliation, suffering.—</i>Pl. <he>דִּקְדּוּקִים</he>. ",
+			"units": [
+				"<cite ref=\"Eruvin 41b:14\">Erub. 41ᵇ</cite> <he>דִּקְדּוּקֵי עניות</he> the sufferings of poverty."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>nicety, fine point, subtility, detail, minuteness</i>; [in later Hebr.: <i>grammar</i>]. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 6:11\">Ab. ch. VI</cite> <he>ד׳ חברים</he> the fine points discussed among scholars. ",
+				"<cite ref=\"Sanhedrin 99a:1\">Snh. 99ᵃ</cite> <he>חוץ מד׳ זה</he> except this single point (in the adopted interpretation of the Law). ",
+				"<cite ref=\"Bekhorot 30b:4\">Bekh. 30ᵇ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:5\">Y. Ber. II, 4ᵈ</cite> <he>אלו צריכין ד׳</he> (not <cite ref=\"R00773\"><he>צריך</he></cite>) the following pairs of words require special care in pronouncing; <cite ref=\"Devarim Rabbah 2:37\">Deut. R. s. 2</cite> <he>ד׳ אותיות</he>.—Pl. as above, constr. <cite ref=\"D00987\"><he>דִּקְדּוּקֵי</he></cite>, <cite ref=\"D00987\"><he>דּיקְ׳</he></cite>. ",
+				"<cite ref=\"Chullin 4a:6\">Ḥull. 4ᵃ</cite> <he>ד׳ מצות</he> the details of ritual laws. ",
+				"<cite ref=\"Sukkah 28a:6\">Succ. 28ᵃ</cite> <he>ד׳ תורה</he> the subtile points in the interpretation of Biblical laws, <he>ד׳ סופרים</he> the special points in rabbinical enactments. ",
+				"<cite ref=\"Vayikra Rabbah 22:10\">Lev. R. s. 22</cite> <he>שני ד׳ שחיטה וכ׳</he> there are two defined rules concerning the cutting of animals. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:8:8\">Y. Yoma III, 41ᵃ</cite>; <cite ref=\"Jerusalem Talmud Sotah 2:2:7\">Y. Sot. II, 18ᵃ</cite> <he>כל ד׳ הפרשה</he> all the particulars of the section; <cite ref=\"Tosefta Sotah 2:1\">Tosef. ib. II, 1</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

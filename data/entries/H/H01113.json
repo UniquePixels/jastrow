@@ -1,0 +1,45 @@
+{
+	"id": "H01113",
+	"slug": "חלק-2",
+	"headword": {
+		"text": "חָלָק"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָלוּק"
+		}
+	],
+	"page": {
+		"number": 473,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01112\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>smooth, blank</i> (paper); <i>empty</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:2:6\">Y. Sabb. VIII, 11ᵇ</cite> <he>אם יש בו ח׳ וכ׳</he> if there is blank space on it enough for &c. ",
+				"<cite ref=\"Sanhedrin 17a:6\">Snh. 17ᵃ</cite> <he>ושנים הניח ח׳</he> and two ballots he left blank; a. fr.—<he>יצא ח׳</he> (= <he>ריקם</he>) <i>to go out without having effected anything</i>. ",
+				"<cite ref=\"Sifrei Bamidbar 131:1\">Sifré Num. 131</cite> <cite ref=\"H01005\"><he>חלוק</he></cite> ed.; <cite ref=\"Yalkut Shimoni on Torah 631:1\">Yalk. Lev. 631</cite> (<cite ref=\"Yalkut Shimoni on Torah 178:2\">Yalk. Ex. 178</cite> <he>ריקם</he>); <cite ref=\"Yalkut Shimoni on Nach 517:1\">Yalk. Hos. 517</cite> <cite ref=\"H01005\"><he>חלוק</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 11:6\">Gen. R. s. 11</cite> <he>להוציאך ח׳ אי אפשר</he> I cannot dismiss you without an answer; a. e.—Fem. <he>חֲלָקָה</he>. ",
+				"<cite ref=\"Mishnah Kelim 24:7\">Kel. XXIV, 7</cite> <he>וח׳</he> and a plain board (without a receptacle). ",
+				"<cite ref=\"Mishnah Middot 2:5\">Midd. II, 5</cite>; <cite ref=\"Sukkah 51b:10\">Succ. 51ᵇ</cite> <he>ח׳ היתה בראשונה</he> formerly the compartment was plain (without a guarded balcony), v. <cite ref=\"B01080\"><he>בְּצוֹצְרָה</he></cite>.—Pl. <he>חֲלָקוֹת</he>. ",
+				"<cite ref=\"Tosefta Ohalot 15:1\">Tosef. Ohol. XV, 1</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>division</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 7a:53\">Kerith. 7ᵃ</cite>, a. fr. <he>אך ח׳</he>, v. <cite ref=\"A01661\"><he>אַךְ</he></cite> I [prob. to be read: <cite ref=\"H01113\"><he>חַלֵּק</he></cite>, divide!]"
+			],
+			"label": "2"
+		}
+	]
+}

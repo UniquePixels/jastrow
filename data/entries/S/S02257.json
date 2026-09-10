@@ -1,0 +1,29 @@
+{
+	"id": "S02257",
+	"slug": "קשקש-2",
+	"headword": {
+		"text": "קַשְׁקֵשׁ"
+	},
+	"page": {
+		"number": 1432,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02256\">same</cite><i>to knock, strike, ring</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 43:33\">Targ. Y. Gen. XLIII, 33</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to hoe</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 44b:6\">Succ. 44ᵇ</cite> <he>לקַשְׁקוּשֵׁי כרמיא</he> Ms. M. (ed. <he>כרמים</he>) to hoe in vineyards. ",
+				"<cite ref=\"Sukkah 44b:6\">Ib.</cite> <he>ומְקַשְׁקְשִׁין בכרמיא</he> and hoe in &c. ",
+				"<cite ref=\"Sukkah 44b:7\">Ib.</cite> <he>וקַשְׁקוּשֵׁי מי שרי</he> is it permitted to hoe (in the Sabbatical year)?; (<cite ref=\"Moed Katan 3a:10\">M. Kat. 3ᵃ</cite> <he>וקִשְׁקוּשׁ בשביעית וכ׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

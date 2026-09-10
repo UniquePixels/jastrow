@@ -1,0 +1,29 @@
+{
+	"id": "M00180",
+	"slug": "מגל-2",
+	"headword": {
+		"text": "מַגַּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַגְּלָא"
+		},
+		{
+			"text": "מַגָּ׳"
+		}
+	],
+	"page": {
+		"number": 728,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00179\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 16:9\">Targ. Deut. XVI, 9</cite>; <cite ref=\"Onkelos Deuteronomy 23:26\">XXIII, 26</cite> (h. text <he>חרמש</he>).—",
+				"<cite ref=\"Taanit 31a:4\">Taan. 31ᵃ</cite> <he>יום תבר מגל</he> the day of breaking the <i>maggal</i> (suspending the chopping of wood for the Temple).—Pl. <he>מַגָּלִין</he>, <he>מַגָּלֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 2:4\">Targ. Is. II, 4</cite>; <cite ref=\"Micah 4:3\">Mic. IV, 3</cite>; <cite ref=\"Joel 4:10\">Joel IV, 10</cite> (h. text <he>מזמרות</he>)."
+			]
+		}
+	]
+}

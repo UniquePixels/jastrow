@@ -1,0 +1,62 @@
+{
+	"id": "U01167",
+	"slug": "שכלל-2",
+	"headword": {
+		"text": "שַׁכְלֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁכְלֵיל"
+		}
+	],
+	"page": {
+		"number": 1574,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01166\">same</cite><i>to finish, decorate</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 31:17\">Targ. Y. Ex. XXXI, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:4\">Targ. Ez. XXVII, 4</cite>; <cite ref=\"Targum Jonathan on Ezekiel 27:11\">11</cite>; a. fr.—<i>Part. pass.</i> <he>מְשַׁכְלַל</he>; f. <he>מְשַׁכְלְלָא</he> <i>perfect</i>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:3\">Ib. 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 28:12\">Ib. XXVIII, 12</cite> (ed. Wil. <he>מְשֻׁכְלַל</he>, Hebr.); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fasten, establish, found</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 42:5\">Targ. Is. XLII, 5</cite> (h. text <he>רקע</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 2:8\">Targ. I Sam. II, 8</cite> (h. text <he>וישת</he>). Targ. ",
+				"<cite ref=\"Habakkuk 2:12\">Hab. II, 12</cite> (h. text <he>כונן</he>); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּכְלֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to be finished, decorated</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 2:1\">Targ. O. Gen. II, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 6:38\">Targ. I Kings VI, 38</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 119:96\">Targ. Ps. CXIX, 96</cite> <he>דאשתרי וא׳</he> ed. Lag. (ed. Wil. <he>דאשתדל ואשתכל</he>, corr. acc.) that which was begun and has been finished; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be founded</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 6:37\">Targ. I Kings VI, 37</cite> (h. text <he>יסד</he>). ",
+						"<cite ref=\"Targum Jonathan on Haggai 2:18\">Targ. Hag. II, 18</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "S00325",
+	"slug": "קולבון",
+	"headword": {
+		"text": "קוֹלְבּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָלְ׳"
+		}
+	],
+	"page": {
+		"number": 1327,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κόλλυβος) <i>rate of exchange, agio</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 1:6\">Shek. I, 6</cite> <he>ואלו שחייבין בקו׳</he> Y. ed. (Mish. a. Bab. ed. <he>בקל׳</he>) the following persons are bound to pay agio (on their half-Shekel). Ib. 7 <he>וכמה הוא ק׳ וכ׳</he> and how much is the agio? A M’ʿah silver. Y. ib. 46ᵇ <he>קוֹלְבָּנוֹ תורה</he> (Bab. ed. <he>קל׳</he>) the premium he has to pay is intimated in the Torah (<cite ref=\"Exodus 30:13\">Ex. XXX, 13</cite>, because he has to pay the silver value of half a Shekel). ",
+				"<cite ref=\"Exodus 30:13\">Ib.</cite> bot.; Tosef. ib. I, 8; a. e.—",
+				"<cite ref=\"Bekhorot 50a:5\">Bekh. 50ᵃ</cite> <he>ק׳ לפרוטרוט</he> (not <he>קיל׳</he>) the dipondium is agio (an addition) to the units (making fifty, as a round sum, instead of forty-eight, v. Tosaf. a. l.).—Pl. <he>קוֹלְבּוֹנִין</he>, <he>קוֹלְבּוֹנוֹת</he>, <cite ref=\"S01246\"><he>קָלְבּוֹ׳</he></cite>. Tosef. Shek. l. c. <he>חייב שני ק׳</he> is bound to pay double the agio. Ib. <he>וק׳ אלו מה עושין להם</he> and what is done with those agios? <cite ref=\"Mishnah Shekalim 1:6\">Shek. I, 6</cite> <he>ק׳</he>, a. <cite ref=\"S00328\"><he>קוֹלְבָּנ׳</he></cite> Y. ed. (Mish. ed. <he>קלבו׳</he>; Bab. ed. <he>קולבנ׳</he>)."
+			]
+		}
+	]
+}

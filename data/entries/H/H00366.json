@@ -1,0 +1,39 @@
+{
+	"id": "H00366",
+	"slug": "חולת",
+	"headword": {
+		"text": "חוֹלַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹלִית"
+		}
+	],
+	"page": {
+		"number": 435,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חוֹל</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sand-plain, sterile shore-land</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 3:2\">Arakh. III, 2</cite> (<cite ref=\"Arakhin 14a:13\">14ᵃ</cite>) <he>חולת המחוז</he> the sand-plain of the Maḥoz (district of Samaria), opp. to pleasure gardens of Sebaste; Tosef. ib. II, 8 <he>חולית של מחוזא</he>. Ib. <he>חולית של יבנה</he>, opp. to pleasure gardens of Jericho. [Comment. take our w. fr. <cite ref=\"H00325\"><he>חוֹל</he> III</cite>: <i>the surroundings of a town, promenade</i>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>ח׳ אנטוכיא</he> pr. n. pl. <i>the Harbor</i> [<i>Suburb</i>] <i>of Antiochia</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:4:3\">Y. Hor. III, 48ᵃ</cite> bot.; <cite ref=\"Devarim Rabbah 4\">Deut. R. s. 4</cite> <he>חוּלְתָּא של א׳</he> (ed. Wil. <cite ref=\"H00795\"><he>חִילְתָּה</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 956\">Yalk. Prov. 956</cite>; <cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> <he>חולות א׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

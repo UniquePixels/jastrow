@@ -1,0 +1,38 @@
+{
+	"id": "N00004",
+	"slug": "נא-2",
+	"headword": {
+		"text": "נָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 865,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(also adverb)(b. h.; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hurried, half-done</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 41a:22\">Pes. 41ᵃ</cite> bot. <he>אכלו נא</he> if he ate it (the Passover lamb) half-done. ",
+				"<cite ref=\"Pesachim 41b:11\">Ib.ᵇ</cite> <he>ישנו בבל תאכל נא</he> is subject to the law (<cite ref=\"Exodus 12:9\">Ex. XII, 9</cite>) &c. ",
+				"<cite ref=\"Tosefta Makkot 4:1\">Tosef. Macc. IV</cite> (<cite ref=\"Tosefta Makkot 3:1\">III</cite>), 1, contrad. to <cite ref=\"H00648\"><he>חַי</he></cite>. ",
+				"<cite ref=\"Menachot 78b:12\">Men. 78ᵇ</cite> <he>מצה נא</he>, v. <cite ref=\"E00446\"><he>הַיָנָא</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>slender, fine, brittle.—</i>Pl. <he>נָאִין</he>; f. <cite ref=\"N00016\"><he>נָאוֹת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kelim Kamma 2:9\">Tosef. Kel. B. Kam. II, 9</cite> [read with R. S. to <cite ref=\"Mishnah Kelim 3:2\">Kel. III, 2</cite>:] <he>הוסקו והנאין</he> (= <he>והן נאין</he>) if the vessels were heated but turned out brittle. B. Bath, 97ᵇ (expl. <he>פיטסות</he>, <cite ref=\"Mishnah Kelim 6:2\">ib. VI, 2</cite>) <he>נאות ומגופרות</he> thin, but lined with pitch; Tosef. ib. VI, 3."
+			],
+			"label": "2"
+		}
+	]
+}

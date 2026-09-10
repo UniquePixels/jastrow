@@ -1,0 +1,39 @@
+{
+	"id": "V00719",
+	"slug": "תנאי-1",
+	"headword": {
+		"text": "תְּנַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּנַּיי"
+		}
+	],
+	"page": {
+		"number": 1679,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00721\"><he>תָּנָה</he></cite>) [<i>alternative,</i>] <i>stipulation, condition, agreement</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 19b:1\">Keth. 19ᵇ</cite> <he>ת׳ היו דברינו</he> if witnesses say, the transaction to which we have testified was made dependent on a (verbal) condition (and we do not know that it has been fulfilled). ",
+				"<cite ref=\"Ketubot 19b:6\">Ib.</cite> <he>או דילמא ת׳ מילתא וכ׳</he> or is a statement concerning a condition something different (from a statement concerning a trust, v. <cite ref=\"A02041\"><he>אְמָנָה</he></cite>)? <cite ref=\"Ketubot 19b:7\">Ib.</cite> <he>עד אחד אומר ת׳ … אינו ת׳</he> if one of the witnesses says, there was a condition, and the other says, there was none. ",
+				"<cite ref=\"Mishnah Kiddushin 3:4\">Kidd. III, 4</cite> <he>כל ת׳ שאינו … אינו ת׳</he> a stipulation of conditions which is not like the stipulations concerning the sons of Gad and Reuben (stating both alternatives, <cite ref=\"Numbers 32:20-23\">Num. XXXII, 20-23</cite>; <cite ref=\"Numbers 32:29-30\">29-30</cite>) is not valid. Ib. 61ᵃ, sq. <he>ת׳ כפול</he> a double stipulation, an agreement stating both alternatives and their eventual consequences. ",
+				"<cite ref=\"Gittin 75a:12\">Gitt. 75ᵃ</cite> <he>ת׳ קודם למעשה</he> the condition (in the agreement) preceding the act (e.g. ‘if such and such a thing is done, this shall be thy letter of divorce’, not, ‘this shall be thy letter of divorce, if such and such a thing is done’). ",
+				"<cite ref=\"Gittin 75a:14\">Ib.</cite> <he>ת׳ בדבר אחד ומעשה וכ׳</he> if the condition concerns one thing, and the consequence another thing (e.g. if you go with your brethren to conquer, you shall have the trans-Jordanic lands); <cite ref=\"Gittin 75b:1\">ib.ᵇ</cite> <he>הכא דת׳ ומעשה בדבר אחד</he> whereas in this case (‘this shall be thy letter of divorce on condition that thou wilt return to me the paper on which the letter of divorce is written) condition and consequence concern the same thing. ",
+				"<cite ref=\"Mishnah Ketubot 9:1\">Keth. IX, 1</cite> <he>כל המתנה … תְּנָאוֹ בטל</he> if one makes a stipulation which is contrary to what is written in the Torah, his stipulation is void; Y. ib. 32ᵈ bot. <he>בת׳ גוף אבל בת׳ ממון וכ׳</he> this refers only to a condition concerning one’s person (personal rights or duties), but as to a condition concerning money (monetary rights or claims), the agreement (waiving the claim) is valid; <cite ref=\"Jerusalem Talmud Kiddushin 1:2:25\">Y. Kidd. I, 59ᶜ</cite> <he>תניי גוף</he>; <cite ref=\"Jerusalem Talmud Kiddushin 1:2:25\">ib.</cite> <he>תְּנָייוֹ</he>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:25\">Ib.</cite> <he>ת׳ אפשר … בסופו</he> a condition which he may finally fulfill (depending upon himself). ",
+				"<cite ref=\"Shemot Rabbah 21\">Ex. R. s. 21</cite>, v. infra; a. fr.—Pl. <he>תְּנָאִים</he>, <he>תְּנָאִין</he>, <he>תְּנָיִים</he>, <cite ref=\"V00745\"><he>תְּנָיִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 5:1:3\">Y. B. Bath. V, beg. 15ᵃ</cite> <he>כתְנָאֵי יהושוע</he>; <cite ref=\"Bava Kamma 80b:17\">B. Kam. 80ᵇ</cite> a. e., v. <cite ref=\"J00135\"><he>יְהוֹשׁוּעַ</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 5:5\">Gen. R. s. 5</cite> <he>ת׳ התנה הקב״ה וכ׳</he> the Lord (at creation) made stipulations with the sea, that it should be divided before Israel, as it is written (<cite ref=\"Exodus 14:27\">Ex. XIV, 27</cite>), ‘and the sea returned … to its former condition <he>(לְאֵיתָנוֹ</he>), <he>לת׳ שהתנה עמו</he> to the stipulations which &c.; <cite ref=\"Shemot Rabbah 21:6\">Ex. R. s. 21</cite> <he>לתְנָאוֹ שהתניתי עמו</he> to the condition which I stipulated with it. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:1:7\">Y. Sot. VII, beg. 21ᵇ</cite> <he>כת׳ שבלבינו לא כת׳ וכ׳</he> (we administer the oath to thee) according to the conditions in our mind, not according to the conditions (mental reservations) in thy mind. ",
+				"<cite ref=\"Yoma 2a:4\">Ib.</cite> <he>שלא יאמרו יש ת׳ לשבועות</he> that people should not say, mental reservations in oaths are permissible. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:18\">Y. Kidd. I, 58ᶜ</cite> <he>בתניים שבו קידש</he> he betrothed her by the stipulations in the document (although the material on which it was written was forbidden for use), opp. <he>בגופו</he> with the object itself; a. fr."
+			]
+		}
+	]
+}

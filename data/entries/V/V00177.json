@@ -1,0 +1,31 @@
+{
+	"id": "V00177",
+	"slug": "תווך-3",
+	"headword": {
+		"text": "תִּוֵּוךְ"
+	},
+	"page": {
+		"number": 1651,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "(denom. of <cite ref=\"V00176\">preced.</cite>) <i>to divide in the middle, to halve</i>. Y. Ber. I, 2ᵈ bot. (expl. <he>התיכונה</he> <cite ref=\"Judges 7:19\">Jud. VII, 19</cite>) <he>הן מְתַוְּוכוֹת הלילה</he>(<cite ref=\"U00489\"><he>ש</he></cite>) <he>סופה של שנייה וראשה של שלישית</he> it means the latter part of the second and the first part of the third watch, which divide the night in half; <cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 18</cite>.—<i>Part. pass.</i> <he>מְתוּוָּךְ</he>; f. <he>מְתוּוֶּכֶת</he> <i>being between</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2\">Ib.</cite> introd. (R. Josh. 2) (ref. to <cite ref=\"Ezekiel 21:26\">Ez. XXI, 26</cite>) <he>שהיא מת׳ בין שני וכ׳</he> which lies between two roads (where two roads meet), one leading to &c.; <cite ref=\"Kohelet Rabbah 12:7\">Koh. R. to XII, 7</cite> <he>שמת׳ לשני וכ׳</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 361\">Yalk. Ez. 361</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

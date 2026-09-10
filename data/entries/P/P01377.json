@@ -1,0 +1,44 @@
+{
+	"id": "P01377",
+	"slug": "ערך-3",
+	"headword": {
+		"text": "עֵרֶךְ"
+	},
+	"page": {
+		"number": 1118,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01376\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>order, arrangement</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 22b:3\">Ned. 22ᵇ</cite> <he>שעֶרְכָּהּ של ארץ ישראל הוא</he> because it (the Book of Joshua) contains the arrangement of the Land of Israel.—Pl. <he>עֲרָכִים</he>, constr. <cite ref=\"P01381\"><he>עֶרְכֵי</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 6:4:2\">Cant. R. to VI, 4</cite>; Pesik. Vayhi, p. 7ᵃ sq. <he>שש ע׳ המשנה</he>, v. <cite ref=\"M02941\"><he>מִשְׁנָה</he></cite>.—ע׳ המלחמה <i>order of battle, arrangements proclaimed before the battle</i> (v. <cite ref=\"M02181\"><he>מַעַרְכִים</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:1:3\">Y. Sot. VIII, beg. 22ᵇ</cite> (ref. to Mish. ",
+				"<cite ref=\"Mishnah Sotah 8:6\">ib. VIII, 6</cite>) <he>אבל בע׳ המ׳ מספקין וכ׳</he> but in connection with the proclamation of the regulations of battle (the Mishnah says only), ‘they have to supply water &c.’ <cite ref=\"Mishnah Sotah 8:6\">Ib.</cite> <he>אף בע׳ המ׳ כן</he> the same is the case with ordinances of battle (they must be proclaimed in Hebrew). Bab. ",
+				"<cite ref=\"Sotah 43b:9\">Sot. 43ᵇ</cite> <he>אין חוזרין עליו מע׳ המ׳</he> they are not entitled to leave the army on that account. ",
+				"<cite ref=\"Sotah 44b\">Ib. 44ᵇ</cite>; <cite ref=\"Menachot 36a\">Men. 36ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>valuation, assessment, value of a person or animal dedicated to the sanctuary; vow of value</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 7b:59\">Arakh. 7ᵇ</cite> <he>ואמר עֶרְכִּי עלי</he> if he says, I vow my own value. ",
+				"<cite ref=\"Mishnah Arakhin 4:1\">Ib. IV, 1</cite> <he>הע׳ בזמן הע׳</he> the valuation is regulated by the time of the vow (irrespective of the value at the time of paying the vow); <cite ref=\"Mishnah Arakhin 4:4\">ib. 4</cite> <he>נותן כזמן הע׳</he> he pays according to the value at the time of the vow. ",
+				"<cite ref=\"Mishnah Arakhin 4:4\">Ib.</cite> <he>נותן ע׳ זקן</he> he pays the value of an old man (<cite ref=\"Leviticus 27:7\">Lev. XXVII, 7</cite>); <he>ע׳ ילד</he> the value of a child (ib. 6); a. fr.—Pl. <he>עֲרָכִים</he>, <he>עֲרָכִין</he>. Ib. II, 1 <he>אין בע׳ וכ׳</he> (Var. <he>נֶעֱרָכִין</he>, v. <cite ref=\"P01375\"><he>עָרַךְ</he></cite>) in vows of value nothing is valued at less than a Selʿa &c.; ib. 7ᵇ <he>כל ע׳ שאתה מעריך וכ׳</he> all values which you assess shall be no less than &c. Ib. IV, 1 <he>והע׳ בנערך</he> the vows of value are regulated by the condition of the person whose value is vowed. Ib. III, 1 <he>יש בע׳ להקל וכ׳</he> in the laws regulating the dedication of values there is a lenient and a rigorous side. Ib. 2ᵃ, a. e. <he>כל שישנו בדמים ישנו בע׳ … אינו בע׳</he> he whose person has a value, can vow the value of a person or an animal, but he whose person has no value cannot. ",
+				"<cite ref=\"Keritot 13b:64\">Kerith. 13ᵇ</cite> <he>דמין וע׳</he>, v. <cite ref=\"D00897\"><he>דָּמִים</he></cite>. Tanḥ. ",
+				"<cite ref=\"Leviticus 6:23\">B’ḥuck. 6</cite> <he>פרשת ע׳</he> the section treating of vows of value. ",
+				"<cite ref=\"Leviticus 6:23\">Ib.</cite> <he>בזכות הע׳ אני מציל וכ׳</he> as a reward for your offerings of values, I will save you &c.; a. fr.—<i>ʿĂrakhin</i>, name of a treatise of Mishnah, Tosefta and Talmud Babli, of the Order of Kodashim.—[<he>ערכין</he>, <cite ref=\"Gittin 44a\">Gitt. 44ᵃ</cite> Ar., v. <cite ref=\"P01381\"><he>עַרְכִי</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

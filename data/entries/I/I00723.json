@@ -1,0 +1,27 @@
+{
+	"id": "I00723",
+	"slug": "טרוזא",
+	"headword": {
+		"text": "טְרוּזָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְרִיזָא"
+		}
+	],
+	"page": {
+		"number": 550,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00741\"><he>טרז</he></cite> = <cite ref=\"I00713\"><he>טרד</he> I</cite>, cmp. <cite ref=\"I00723\"><he>טרוזא</he></cite> P. Sm. 1512) [<i>moist, cool</i>,] a kind of <i>cucumber</i> or <i>melon</i> eaten for medicinal purposes. ",
+			"units": [
+				"<cite ref=\"Shabbat 109a\">Sabb. 109ᵃ</cite> (Ar. <he>טרי׳</he>, ed. Sonc. <cite ref=\"I00776\"><he>טריד</he></cite>)."
+			]
+		}
+	]
+}

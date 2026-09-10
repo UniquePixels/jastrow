@@ -1,0 +1,72 @@
+{
+	"id": "U00047",
+	"slug": "שאר-1",
+	"headword": {
+		"text": "שָׁאַר"
+	},
+	"page": {
+		"number": 1508,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to swell, rise; to run over;</i> (cmp. <cite ref=\"J00746\"><he>יָתַר</he></cite>, <cite ref=\"P00158\"><he>עָדַף</he></cite>) <i>to remain over</i>. Denom. <cite ref=\"M02804\"><he>מִשְׁאֶרֶת</he></cite>, <cite ref=\"U00051\"><he>שְׁאָר</he></cite>, <cite ref=\"U00050\"><he>שְׁאֵר</he></cite> &c.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁאָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be left over, reserved, preserved, spared</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 76\">Gen. R. s. 76</cite> (ref. to <cite ref=\"Genesis 32:9\">Gen. XXXII, 9</cite>) <he>אלו אחינו … אע״פ שנִשְׁאֲרוּ לפליטה וכ׳</he> this refers to our brethren in the diaspora …; although they have been spared for escape (from Roman persecution), yet they fasted for us (Palestinians) &c. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:13:4\">Cant. R. to II, 13</cite> <he>הנִשְׁאָרִים</he> the survivors of the Messianic days; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["שֵׁיאֵר"],
+			"senses": [
+				{
+					"gloss": ",) <cite ref=\"U00908\"><he>שִׁיֵּיר</he></cite> <i>to leave over, reserve</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 9:6\">B. Bath. IX, 6</cite> <he>שכיב … וש׳ וכ׳</he> if an ill person donated all his property to others and reserved some land for himself, his donation is valid (even if he recovers). ",
+						"<cite ref=\"Bava Batra 148a:4\">Ib. 148ᵃ</cite> <he>דקל לאחד וש׳ פירותיו לפניו ש׳ מקום פירי</he> if he donated a palm-tree (for the wood of it) to a person, and reserved its fruit for himself, he meant to reserve for himself the place whereon the fruit grows (the branches). ",
+						"<cite ref=\"Bava Batra 148a:4\">Ib.</cite> <he>כל … בעין יפה מְשַׁיֵּיר</he> whatever one reserves for one’s self, one reserves liberally; a. v. fr.—Part. pass. <he>מְשׁוֹאָר</he>, <he>(מְשׁוּיָּיר</he>). Y. Pes. VII, 35ᵃ top <he>לא עשה בה המש׳ כיוצא</he> the law does not treat that which is left over (of the sacrifice) like that which has been carried outside of its limits. ",
+						"<cite ref=\"Mishnah Peah 3:3\">Peah III, 3</cite> <he>נותּן מן המש׳ על מה ששייר</he> he must give to the poor out of the remainder in proportion to that which he left over; <he>נותן מן המש׳ על הכל</he> he must give out of the remainder a quantity corresponding to the whole (including that which he has taken out before); a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁאִיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00046\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 9:10\">Midr. Till. to Ps. IX</cite> <he>שלא להַשְׁאִיר זכר וכ׳</he> that he will not leave a remainder of the memory of Amalek; Yalk. ib. 642 <he>להשאר</he> (corr. acc.); a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשְׁתַּיֵּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to be left over</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> <he>ניטל … ולא נ׳ וכ׳</he> if the liver of a slaughtered animal is found consumed without any part of it left. ",
+						"<cite ref=\"Yoma 77a:3\">Yoma 77ᵃ</cite> <he>לא נִשְׁתַּיְירוּ משונאיהן וכ׳</he> no remnant or survivor would have been left of the enemies of Israel (euphem. for ‘of Israel’); a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

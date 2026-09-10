@@ -1,0 +1,33 @@
+{
+	"id": "M02270",
+	"slug": "מצדתא",
+	"headword": {
+		"text": "מְצַדְתָּא"
+	},
+	"page": {
+		"number": 823,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02269\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>net</i>, v. <cite ref=\"M02268\"><he>מְצָדָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fort</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 24:1\">Targ. I Sam. XXIV, 1</cite> (h. text <cite ref=\"M02267\"><he>מצדות</he></cite>); a. e.—Pl. <he>מְצָדָאתָא</he>, <he>מְצָדָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:41\">Targ. Jer. XLVIII, 41</cite>.—V. <cite ref=\"M02283\"><he>מְצוּדְתָּא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

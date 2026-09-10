@@ -1,0 +1,23 @@
+{
+	"id": "H01713",
+	"slug": "חרכייא",
+	"headword": {
+		"text": "חֲרָכַיָּיא"
+	},
+	"page": {
+		"number": 503,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"H01708\"><he>חֲרַךְ</he></cite>) [<i>burnings</i>,] <i>hărakhaya</i>, a verbal substitute of <cite ref=\"H01709\"><he>חֵרֶךְ</he></cite>, q. v. ",
+			"units": [
+				"<cite ref=\"Nedarim 10b\">Ned. 10ᵇ</cite>, Rashi (ed. <he>חֲרָכִים</he>) v. <cite ref=\"H01763\"><he>חֲרָקַיָּיא</he></cite>."
+			]
+		}
+	]
+}

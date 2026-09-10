@@ -1,0 +1,54 @@
+{
+	"id": "J00388",
+	"slug": "יליף",
+	"headword": {
+		"text": "יְלֵיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְלִיף"
+		}
+	],
+	"page": {
+		"number": 579,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A01933\"><he>אֲלַף</he></cite>) <i>to get accustomed, to learn</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:3\">Targ. Prov. XXX, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 12:16\">Targ. Jer. XII, 16</cite> <he>מֵילַף יֵלְפוּן</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:25\">Targ. Prov. XI, 25</cite>; a. fr.—",
+				"<cite ref=\"Pirkei Avot 1:13\">Ab. I, 13</cite> <he>ודלא יָלֵיף</he> he who does not study (the Law). ",
+				"<cite ref=\"Yevamot 57a\">Yeb. 57ᵃ</cite>, a. fr. <he>יַלְפִינָן</he> we derive; a. v. fr.—Part. pass. <cite ref=\"J00388\"><he>יְלִיף</he></cite>, f. <he>יְלִיפָא</he> <i>accustomed, used to</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:4:3\">Y. Sot. I, 16ᵈ</cite> bot. <he>הוה י׳ דריש וכ׳</he> used to preach &c. ",
+				"<cite ref=\"Yoma 2a:10\">Ib.</cite> <he>והוה … יְלִיפָה שמעה קליה</he> and there was there a certain woman who made it a habit to listen to him; (<cite ref=\"Vayikra Rabbah 9\">Lev. R. s. 9</cite> <cite ref=\"J00529\"><he>יציבא</he></cite>, corr. acc.); a. fr.—[<cite ref=\"Bava Metzia 100b:1\">B. Mets. 100ᵇ</cite>, <he>בדיילפי</he>, v. <cite ref=\"L00303\"><he>לוּף</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַלֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to teach</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 15:3\">Targ. Job XV, 3</cite>; a. e.—Y. Ḥag. II, 78ᵃ top <he>מֵילֵיף ומְיַלְּפָה</he> to learn (from you) and to teach (you)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אוֹלֵיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00387\">same</cite>, v. <cite ref=\"A01933\"><he>אֲלַף</he></cite>.—Y. Shebi. V, end, 36ᵃ <he>ולא כן אוֹלְפָן רבי</he> did you not teach us thus?; Y. Dem. I, 22ᵃ top <he>אילפן</he> (corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

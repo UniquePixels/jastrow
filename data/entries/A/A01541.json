@@ -1,0 +1,23 @@
+{
+	"id": "A01541",
+	"slug": "איפוס",
+	"headword": {
+		"text": "אֵיפוּס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 58,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אפס</he>, √<cite ref=\"A02595\"><he>אף</he></cite>, cmp. <cite ref=\"A00077\"><he>אֵבוּס</he></cite>) <i>fodder, feed</i>. Pl. <cite ref=\"A01606\"><he>אֵיפוּסִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 78:12\">Midr. Till. to Ps. LXXVIII, 52</cite> <he>איפוסֵיהֶן אין מתקנין …</he> their feed is not prepared for them; (<cite ref=\"Shemot Rabbah 24\">Ex. R. s. 24</cite>, in a passage otherwise miscopied, <cite ref=\"A02614\"><he>אפוטיקון</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "H00463",
+	"slug": "חורוור",
+	"headword": {
+		"text": "חֲוַרְוָור"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲוַורְוָר"
+		}
+	],
+	"page": {
+		"number": 440,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00443\"><he>חָוַר</he></cite>, v. Sm. 1231) <i>white spots on the cornea</i> (λεύκωμα). ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:3\">Bekh. VI, 3</cite> (<cite ref=\"Bekhorot 38b:12\">38ᵇ</cite>; Mish. ed. <cite ref=\"H00462\"><he>חורוד</he></cite>, v. Koh. Ar. Compl. s. v.); v. <cite ref=\"F00094\"><he>וָרִיר</he></cite>. Cmp. <cite ref=\"H00687\"><he>חִיוַּרְוָרַיָּא</he></cite>."
+			]
+		}
+	]
+}

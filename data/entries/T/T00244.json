@@ -1,0 +1,37 @@
+{
+	"id": "T00244",
+	"slug": "רדי-4",
+	"headword": {
+		"text": "רְדֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְדָא"
+		}
+	],
+	"page": {
+		"number": 1452,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>רַדֵּי</he> <cite ref=\"T00243\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 26:26\">Targ. Y. Lev. XXVI, 26</cite> <he>ומְרַדְּיָין</he> (some ed. <he>ומדדין</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

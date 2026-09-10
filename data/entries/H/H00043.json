@@ -1,0 +1,24 @@
+{
+	"id": "H00043",
+	"slug": "חבט-4",
+	"headword": {
+		"text": "חֶבֶט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 417,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00040\"><he>חָבַט</he></cite>, v. <i>Nif.</i>) <i>shock, lesion through a fall</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 50b:5\">B. Kam. 50ᵇ</cite> <he>לחֲבָטוֹ</he>, v. <cite ref=\"E00042\"><he>הֶבֶל</he></cite>. ",
+				"<cite ref=\"Bava Kamma 50b:5\">Ib.</cite> <he>חבטו קרקע וכ׳</he> (not <cite ref=\"H00045\"><he>חבטה</he></cite> or <cite ref=\"H00044\"><he>חבטא</he></cite>, v. Rabb. D. S. a. l. note 1; <cite ref=\"Yalkut Shimoni on Torah 341:16\">Yalk. Ex. 341</cite>) as to the shock which the animal suffered, it is the natural ground which injured it, v. <cite ref=\"S02174\"><he>קַרְקַע</he></cite>"
+			]
+		}
+	]
+}

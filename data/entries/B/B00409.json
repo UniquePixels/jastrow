@@ -1,0 +1,24 @@
+{
+	"id": "B00409",
+	"slug": "בזאי",
+	"headword": {
+		"text": "בִּזָּאֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 151,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"B00561\"><he>בִּיזָּא</he></cite>, <cite ref=\"B00571\"><he>בִּיזְעָא</he></cite>) <i>clefts, breaches</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 95a:8\">Snh. 95ᵃ</cite> <he>נפק לִשְׂכּוֹר ב׳</he> (Var. <he>לשַׂכַּר</he>, v. Rabb. D. S. a. l. note) he went out to fill up breaches, v. <cite ref=\"O00941\"><he>סְכַר</he></cite>. [Oth. opin. <he>שכר ב׳</he> name of a place; <cite ref=\"Yalkut Shimoni on Nach 155:4\">Yalk. Sam. 155</cite> <cite ref=\"B00741\"><he>כפר ב׳</he></cite>, ed. Salon. <he>שכר ב׳</he>, v. Rabb. l. c.]"
+			]
+		}
+	]
+}

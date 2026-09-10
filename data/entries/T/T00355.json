@@ -1,0 +1,36 @@
+{
+	"id": "T00355",
+	"slug": "רוטבא",
+	"headword": {
+		"text": "רוֹטְבָא"
+	},
+	"page": {
+		"number": 1459,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00354\">same</cite><i>moisture</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:38\">Targ. Y. Lev. XI, 38</cite> <he>ברוֹטְבָהּ</he> (not <he>בֵה …</he>) (of the condition of a fresh corpse)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>liquid</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 4:5\">Targ. II Chr. IV, 5</cite> <he>בר׳</he> as liquid measure."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>sap, marrow, juice</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 32:4\">Targ. Ps. XXXII, 4</cite> (h. text <he>לשד</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 15:27\">Targ. Job XV, 27</cite> (h. text <he>פימה</he>); a. e.—Pl. <he>רוֹטְבַיָּא</he>, <he>רוֹטְבִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 11:11\">Targ. Y. Lev. XI, 11</cite> <he>רוֹטְבֵיהוֹן</he> (not <he>רועדיהון</he>), v. <cite ref=\"R00449\"><he>צִיר</he></cite> I ch.—[<cite ref=\"Aramaic Targum to Psalms 73:7\">Targ. Ps. LXXIII, 7</cite> <he>ורוטביהון</he> Ms., read: <he>וח׳</he>, v. <cite ref=\"H00300\"><he>חוֹטְבָא</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

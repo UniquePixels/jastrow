@@ -1,0 +1,35 @@
+{
+	"id": "P01071",
+	"slug": "עפף-2",
+	"headword": {
+		"text": "עֲפַף"
+	},
+	"page": {
+		"number": 1100,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"P00311\"><he>עוּף</he> I</cite>) <i>to double, bend, curve</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 2:4\">Targ. Is. II, 4</cite>; <cite ref=\"Micah 4:3\">Mic. IV, 3</cite> <he>וִיעַפְפוּן</he> (Levita <he>ויעוֹפְפוּן</he>, <i>Pol.</i> of <cite ref=\"P00311\"><he>עוף</he></cite>; h. text <he>כתת</he>).—",
+				"<cite ref=\"Shabbat 134a\">Sabb. 134ᵃ</cite> <he>לעַפְפֵיה</he>, Rashi, v. <cite ref=\"P00637\"><he>עִיף</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַפֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to double, roll up</i>. Part. pass. <he>מְעַפַּף</he>; f. <he>מְעַפְּפָא</he>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 19:6\">Targ. I Kings XIX, 6</cite> <he>חררא מע׳</he> a rolled up cake (h. text <he>עגת רצפים</he>).—",
+						"<cite ref=\"Chullin 51b:14\">Ḥull. 51ᵇ</cite> <he>עוף ומעפף</he> (not <he>ומעופף</he>), v. <cite ref=\"P00637\"><he>עִיף</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

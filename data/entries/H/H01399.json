@@ -1,0 +1,43 @@
+{
+	"id": "H01399",
+	"slug": "חסם-3",
+	"headword": {
+		"text": "חָסַם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 488,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>חסל</he>) <i>to peel, scrape, to polish, glaze, harden</i> (<i>steel</i>). ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 6:10\">Tosef. Shebi. VI, 10</cite>; Y. ib. VIII, 38ᵇ bot. <he>אין חוֹסְמִין וכ׳</he> you must not use it for glazing stoves or ranges. ",
+				"<cite ref=\"Tosefta Beitsah 3:16\">Tosef. Bets. III, 16</cite> <he>כדי לחוֹסְמָן</he> for the purpose of glazing them; <cite ref=\"Beitzah 34a:1\">Bets. 34ᵃ</cite> <he>לחַסְּמָן</he> (<i>Pi.</i>).—Y. M. Kat. I, end, 81ᵃ, v. infra.—[<cite ref=\"Tosefta Demai 4:12\">Tosef. Dem. IV, 12</cite> <he>משיחסום</he>, read: <he>משיתנם</he>?]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיסֵּם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01398\">same</cite>. Bets. l. c., v. supra. Ib. <he>מפני שצריך לחַסְּמָן</he> because it is necessary to glaze the tiles (by heating them).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַסֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be glazed</i>. Y. M. Kat. I, end, 81ᵃ [read:] <he>ואין מפיגין אותן בצונן כדי שיִתְחַסְּמוּ</he> nor must you cool them off suddenly in order that they may be glazed (hardened). V. <cite ref=\"H00833\"><he>חִיסּוּם</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M02046",
+	"slug": "מעבדא-1",
+	"headword": {
+		"text": "מַעְבָּדָא"
+	},
+	"page": {
+		"number": 812,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00016\"><he>עֲבַד</he></cite>) <i>doing</i>.—Pl. <he>מַעְבָּדִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 34:25\">Targ. Job XXXIV, 25</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"id": "N01071",
+	"slug": "נפץ-2",
+	"headword": {
+		"text": "נְפַץ"
+	},
+	"page": {
+		"number": 925,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01070\">same</cite><i>to scatter, shake out</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:20\">Targ. O. Gen. XXIV, 20</cite> (ed. Berl. <he>נְפַצַּת</he>). ",
+				"<cite ref=\"Targum Jonathan on Judges 6:38\">Targ. Jud. VI, 38</cite> ed. Lag. (ed. <he>נפק</he>, incorr.).—",
+				"<cite ref=\"Niddah 31a:32\">Nidd. 31ᵃ</cite> (prov.) <he>פּוּץ מלחא ושדי וכ׳</he> shake the salt off, and throw the meat to the dog (when life escapes, the body decays). ",
+				"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite> (ref. to <he>נפצה</he>, <cite ref=\"Genesis 9:19\">Gen. IX, 19</cite>) <he>לדגה … דנַפְצָה עוברה וכ׳</he> like a large fish that scatters its roe &c.; a. e.—",
+				"<cite ref=\"Sanhedrin 67b:14\">Snh. 67ᵇ</cite> <he>דנָפֵיץ</he> (Rashi <he>מְנַפֵּץ</he>) he scattered, i.e. <i>blew his nose</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to shatter, break</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 7:19\">Targ. Jud. VII, 19</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to beat, hatchel</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 20b\">Yoma 20ᵇ</cite>, v. <cite ref=\"A00338\"><he>אֲגַר</he> II</cite>.—Part. pass. <cite ref=\"N01071\"><he>נְפִיץ</he></cite>. ",
+				"<cite ref=\"Chullin 51b:15\">Ḥull. 51ᵇ</cite>, a. e. <he>כיתנא דדייק ולא נ׳</he> flax which has been pounded, but not carded (freed of hard substances)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to snap</i> a chalked cord for marking. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 44:13\">Targ. Is. XLIV, 13</cite>."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַפֵּיץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01070\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 51:34\">Targ. Jer. LI, 34</cite>.—",
+						"<cite ref=\"Targum Jonathan on Jeremiah 23:29\">Ib. XXIII, 29</cite>, v. <cite ref=\"N01065\"><he>נְפַע</he></cite>.—",
+						"<cite ref=\"Aramaic Targum to Esther 1:11\">Targ. Esth. I, 11</cite> <he>ומְנַפְּסָן</he>.—Part. pass. <he>מְנַפַּץ</he>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 27:9\">Targ. Is. XXVII, 9</cite>.—",
+						"<cite ref=\"Bava Kamma 93b:12\">B. Kam. 93ᵇ</cite> <he>נַפְּצֵיה נַפּוּצֵי</he>, v. <cite ref=\"O01664\"><he>סְרַק</he> II</cite>. ",
+						"<cite ref=\"Shabbat 147a:2\">Sabb. 147ᵃ</cite> <he>מְנַפְּצֵי גלימייהו</he> shaking their cloaks. ",
+						"<cite ref=\"Shabbat 147a\">Ib.</cite> <he>נַפּוּצוּ וכ׳</he> shake them in his face. ",
+						"<cite ref=\"Chullin 113a:10\">Ḥull. 113ᵃ</cite> <he>ומְנַפֵּיץ ליה</he> and shakes the salt off. ",
+						"<cite ref=\"Chullin 76b:3\">Ib. 76ᵇ</cite> <he>נַפְּצֵיה וכ׳</he> he split it, and found two nerves; a. e.—[<cite ref=\"Bava Batra 45a\">B. Bath. 45ᵃ</cite> <he>מפצי</he>; <cite ref=\"Ketubot 91b\">Keth. 91ᵇ</cite>, sq. <he>מפצינא</he>, v. <cite ref=\"Q01420\"><he>פְּצָא</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

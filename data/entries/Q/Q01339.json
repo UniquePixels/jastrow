@@ -1,0 +1,64 @@
+{
+	"id": "Q01339",
+	"slug": "פסס-1",
+	"headword": {
+		"text": "פָּסַס"
+	},
+	"page": {
+		"number": 1198,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be cut off, be gone</i>. Tanḥ. Haăz. 7 (play on <he>נח̇ב̇י בן ופ̇ס̇י</he>, <cite ref=\"Numbers 13:14\">Num. XIII, 14</cite>) <he>החב̇יא האמת ופַ֗סָּ֗ה האמונה מפיו</he> he hid the truth, and faith was gone from his mouth.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cut into stripes, divide</i>, v. <cite ref=\"Q01223\"><he>פַּס</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to distribute</i> (<i>with the shovel</i>, v. <cite ref=\"Q01223\"><he>פַּס</he></cite> ch. 4). ",
+			"units": [
+				"<cite ref=\"Tosefta Uktsin 1:5\">Tosef. Ukts. I, 5</cite> <he>תבואה שפְּסָסָהּ בגורן</he> (Var. ed. Zuck. <he>שנִפְסְסָה</he>) grain which one distributed in the barn (forming separate piles). ",
+				"<cite ref=\"Mishnah Oktzin 1:5\">Ukts. I, 5</cite> <he>שפְּסָסָן</he> Ar. s. v. <cite ref=\"Q01345\"><he>פספס</he></cite> (v. <cite ref=\"B01007\"><he>בָּסַס</he></cite>).—",
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite> [read:] <he>והיה פוֹסְסָן מן הצד</he> and he shovelled them (the excrements) sideways (out into the water); <cite ref=\"Yalkut Shimoni on Torah 54:1\">Yalk. ib. 54</cite> <he>והיה פותחין</he> (corr. acc.), v. <cite ref=\"S00843\"><he>קָטָרַקְטִין</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְסַס"],
+			"senses": [
+				{
+					"gloss": "<i>to be spread, shovelled</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵפֵיס", "הֵיפֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to distribute, spread</i>; <he>ה׳ מורסא</he> <i>to distribute an ulcer by manipulation, to pass over with the hand</i> (<cite ref=\"Q01223\"><he>פַּס</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Eduyot 2:5\">Eduy. II, 5</cite>; <cite ref=\"Tosefta Eduyot 1:8\">Tosef. ib. I, 8</cite> <he>המֵיפֵיס מורסא וכ׳</he> he who manipulates an abscess on the Sabbath, if for the purpose (of peeling or) of making a head to it as the physicians do &c.; <cite ref=\"Shabbat 107b\">Sabb. 107ᵇ</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"Q00741\"><he>פִּיס</he></cite>) <i>to break, weaken</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 107a\">Pes. 107ᵃ</cite>, v. <cite ref=\"Q00741\"><he>פִּיס</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

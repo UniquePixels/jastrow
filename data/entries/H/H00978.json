@@ -1,0 +1,28 @@
+{
+	"id": "H00978",
+	"slug": "חלבצין",
+	"headword": {
+		"text": "חַלְבֵּצִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַלְבֵּי׳"
+		}
+	],
+	"page": {
+		"number": 464,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (compound of <cite ref=\"H00966\"><he>חָלָב</he></cite> a. <cite ref=\"B00679\"><he>בֵּיצָה</he></cite>) <i>bulb of ornithogalum</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:2\">Shebi. VII, 2</cite>; expl. Y. ib. 37ᵇ bot. <he>בֵּיצֵי נֵץ חָלָב</he> eggs (bulbs) of &c., v. <cite ref=\"H00966\"><he>חָלָב</he></cite>; <cite ref=\"Tosefta Shevi'it 5:6\">Tosef. ib. V, 6</cite>; <cite ref=\"Niddah 62a:17\">Nidd. 62ᵃ</cite> <he>הַלְּבֵיצִין</he> (absorbing <cite ref=\"H00000\"><he>ח</he></cite>); <cite ref=\"Shabbat 90a\">Sabb. 90ᵃ</cite> <he>החל׳</he>. ",
+				"<cite ref=\"Tosefta Kilaim 3:12\">Tosef. Kil. III, 12</cite> <he>הלבוצין</he>."
+			]
+		}
+	]
+}

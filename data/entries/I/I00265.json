@@ -1,0 +1,28 @@
+{
+	"id": "I00265",
+	"slug": "טחיי",
+	"headword": {
+		"text": "טְחָיֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְחָאֵי"
+		}
+	],
+	"page": {
+		"number": 528,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>טחא</he>, cmp. <cite ref=\"I00140\"><he>טוּחַ</he> I</cite>) <i>cakes smeared with oil</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 119a:2\">Sabb. 119ᵃ</cite>; <cite ref=\"Chullin 111a:7\">Ḥull. 111ᵃ</cite> <he>תלת סאוי ט׳</he> three S’ah of flour made into glistening cakes."
+			]
+		}
+	]
+}

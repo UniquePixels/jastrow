@@ -1,0 +1,32 @@
+{
+	"id": "C01191",
+	"slug": "געל-2",
+	"headword": {
+		"text": "גְּעַל"
+	},
+	"page": {
+		"number": 261,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01190\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְגָּעַל</he>, <i>Ithpe.</i> <cite ref=\"C00960\"><he>אִתְגְּעַל</he></cite>, <he>אִיגְּעַל</he> <i>to be polluted, soiled</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 1:6\">Targ. Is. I, 6</cite>.—<i>Part. pass. Af</i>. <he>מַגְעַל</he>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 6:5\">Ib. VI, 5</cite>; <cite ref=\"Targum Jonathan on Isaiah 28:8\">XXVIII, 8</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

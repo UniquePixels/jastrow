@@ -1,0 +1,26 @@
+{
+	"id": "Q01243",
+	"slug": "פסולא-1",
+	"headword": {
+		"text": "פְּסוּלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1193,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. <cite ref=\"Q01242\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 22:10\">Targ. Y. I Gen. XXII, 10</cite> (ed. Vien. <cite ref=\"Q01246\"><he>פְּסוּלָה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 6:4\">Targ. Y. I Deut. VI, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 22:27\">Targ. II Sam. XXII, 27</cite>, v. <cite ref=\"Q01287\"><he>פְּסִילָא</he></cite>; a. e.—",
+				"<cite ref=\"Ketubot 62b:7\">Keth. 62ᵇ</cite> <he>חס ושלום פ׳ איכא</he> is there, which God forbid, a blemish in the family?—Pl. <he>פְּסוּלַיָּיא</he>. Y. Kidd. III, 64ᵈ top <he>הב דעתך דאית תמן מן אינון פ׳ וכ׳</he> be careful, for disqualifications (persons disqualified for intermarriage) are there, that thou connect not thyself with them."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "G00525",
+	"slug": "זמית",
+	"headword": {
+		"text": "זָמִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "זוֹמִית"
+		}
+	],
+	"page": {
+		"number": 403,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זום</he> = <he>זהם</he>; Syr. <he>זמיתא</he>, P. Sm. 1134) [<i>foam</i>,] name of <i>a brine</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 36a\">Ber. 36ᵃ</cite>; <cite ref=\"Berakhot 40b\">40ᵇ</cite> (Ms. F. <he>זו׳</he>); <cite ref=\"Nedarim 55b\">Ned. 55ᵇ</cite> <he>זו׳</he>."
+			]
+		}
+	]
+}

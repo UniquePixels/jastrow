@@ -1,0 +1,25 @@
+{
+	"id": "T00418",
+	"slug": "רועה",
+	"headword": {
+		"text": "רוֹעֶה"
+	},
+	"page": {
+		"number": 1462,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"T00418\"><he>רֹעֶה</he></cite>; <cite ref=\"T00881\"><he>רָעָה</he></cite>)<i>shepherd, herdsman</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 5b:2\">B. Mets. 5ᵇ</cite>; <cite ref=\"Sanhedrin 25b:23\">Snh. 25ᵇ</cite> <he>סתם ר׳ פסול</he> as a rule a herdsman (unless ascertained to be conscientious) is disqualified as witness. ",
+				"<cite ref=\"Sanhedrin 25b:23\">Ib.</cite> <he>ר׳ שאמרו אחד רוֹעֵה בהמה וכ׳</he> the shepherd who they said was unfit for legal action means both the shepherd of small cattle as well as the oxherd; a. v. fr.—Pl. <he>רוֹעִים</he>, <he>רוֹעִין</he>. ",
+				"<cite ref=\"Sanhedrin 25b:11\">Ib.</cite> <he>הוסיפו עליהן הר׳</he> the Rabbis added to them (the list of the disqualified) the shepherds. ",
+				"<cite ref=\"Mishnah Sanhedrin 3:2\">Ib. III, 2</cite> <he>נאמנין</he> … <he>רוֹעֵי בקר</he> I accept as judges three oxherds; a. v. fr."
+			]
+		}
+	]
+}

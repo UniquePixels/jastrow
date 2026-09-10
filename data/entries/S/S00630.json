@@ -1,0 +1,23 @@
+{
+	"id": "S00630",
+	"slug": "קורפדייא",
+	"headword": {
+		"text": "קוּרְפְּדַיָּיא"
+	},
+	"page": {
+		"number": 1343,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (cmp. <cite ref=\"S00629\">preced.</cite>) <i>long and narrow jars</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 4:1:2\">Y. Bets. IV, beg. 62ᵇ</cite> <he>אילין ק׳ דקיקתה וכ׳</he> the slender jars two or three of which can be carried in one hand."
+			]
+		}
+	]
+}

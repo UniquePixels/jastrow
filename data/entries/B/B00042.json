@@ -1,0 +1,31 @@
+{
+	"id": "B00042",
+	"slug": "באר-2",
+	"headword": {
+		"text": "בְּאַר"
+	},
+	"page": {
+		"number": 135,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"B00041\"><he>בָּאֵר</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:5\">Y. M. Kat. III, 83ᵇ</cite> top <he>לא חכמין מְבָאֲרָה</he> know not how to make clear (argue)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

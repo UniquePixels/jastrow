@@ -1,0 +1,44 @@
+{
+	"id": "C00804",
+	"slug": "גיר-2",
+	"headword": {
+		"text": "גִּיר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 241,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"C01225\"><he>גִּר</he></cite>; <cite ref=\"C01392\"><he>גרר</he></cite> or <cite ref=\"C00474\"><he>גור</he></cite> <i>to boil, effervesce</i>, v. H., v. H. Dict. s. v.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lime</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 80b\">Sabb. 80ᵇ</cite> <he>ביצת הג׳</he> Ar. (ed. <he>הסיד</he>), v. <cite ref=\"B00679\"><he>בֵּיצָה</he></cite>.—Denom. <cite ref=\"C00713\"><he>גִּיֵּיר</he></cite> <i>to plaster</i>. ",
+				"<cite ref=\"Eichah Rabbah 2:8\">Lam. R. to IV, 11</cite> Ar. (ed. <he>סייד</he>).—",
+				"<cite ref=\"Chullin 88b\">Ḥull. 88ᵇ</cite> bot. <he>הג׳ והזרניך</he> quot. in Rashi to <cite ref=\"Exodus 16:14\">Ex. XVI, 14</cite> (ed. only <he>הז׳</he>) powdered lime and orpiment."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ink-stone</i>, or <i>sulphate of iron</i> (<i>sory</i>). ",
+			"units": [
+				"<cite ref=\"Beitzah 15a:6\">Bets. 15ᵃ</cite> <he>ביצת הג׳</he> a lump of ink-stone (for blackening leather).—In gen. <i>powder</i>, in compounds <cite ref=\"C00811\"><he>גִּירְגִּבְסִין</he></cite> <i>powder of gypsum;</i> <he>גִּירְקְרָרִין</he> <i>wax dust</i>, v. <cite ref=\"A00293\"><he>אַגֵּין</he></cite>. Y. Sabb. VII, 10ᵇ bot. (perh. to be read in two words: lime, gypsum &c.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>froth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 8:7\">Men. VIII, 7</cite> (<cite ref=\"Menachot 87a:2\">87ᵃ</cite>) <he>זרק הג׳</he> (Mish. <he>ז׳ את הגיד</he>, corr. acc.) if the froth (of the fermenting wine) burst forth; Tosef. ib. IX, 11 <he>ג׳ של שמרים</he>."
+			],
+			"label": "3"
+		}
+	]
+}

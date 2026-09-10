@@ -1,0 +1,28 @@
+{
+	"id": "C00825",
+	"slug": "גירוע-2",
+	"headword": {
+		"text": "גֵּירוּעַ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גֵּרוּעַ"
+		}
+	],
+	"page": {
+		"number": 242,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גָּרַע</he> II) <i>the formation of globules</i> or <i>kernels</i> in the grape. ",
+			"units": [
+				"<cite ref=\"Berakhot 36b:10\">Ber. 36ᵇ</cite>; <cite ref=\"Pesachim 53a:1\">Pes. 53ᵃ</cite> <he>הוא בוסר הוא ג׳</he>, v. <cite ref=\"B00294\"><he>בּוֹסֶר</he></cite>."
+			]
+		}
+	]
+}

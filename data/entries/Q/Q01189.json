@@ -1,0 +1,117 @@
+{
+	"id": "Q01189",
+	"slug": "פני-2",
+	"headword": {
+		"text": "פְּנֵי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּנָא"
+		}
+	],
+	"page": {
+		"number": 1188,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01188\">same</cite><i>to turn to</i> or <i>from; to go</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 24:49\">Targ. Y. Gen. XXIV, 49</cite> (O. <i>Ithpe.</i>). ",
+				"<cite ref=\"Onkelos Deuteronomy 29:17\">Targ. O. Deut. XXIX, 17</cite> (Y. I <i>Ithpe.</i>). ",
+				"<cite ref=\"Onkelos Genesis 24:63\">Targ. O. Gen. XXIV, 63</cite> <he>למִפְנֵי רמשא</he> (ed. Amst. <he>למִפַּנֵּי</he> <i>Ithpa.</i>) towards evening; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>; <cite ref=\"Yalkut Shimoni on Torah 30:2\">Yalk. ib. 30</cite> <he>כמִפְנֵי רמשא</he> at the turn (approach) of the evening. ",
+				"<cite ref=\"Bereishit Rabbah 63:6\">Gen. R. s. 63</cite> <he>שלח … מִפְנֵי רמשא דערובתא</he> sent letters to Tiberias (to reach the elders) towards the evening of Friday; (Y. Ter. VIII, 46ᵇ bot. <he>בערובתא עם מטמעי שמשא</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to remove, empty</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to ease one’s self</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 62a:18\">Ber. 62ᵃ</cite> <he>דבעינא למִפְנֵי</he> (Ms. F. <he>לאַפְנוּיֵי</he> <i>Af.</i>)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּנֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to clear, empty, remove</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 24:20\">Targ. Y. Gen. XXIV, 20</cite> Ar. (ed. <he>ורוקינת</he>; h. text <he>ותער</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 80:10\">Targ. Ps. LXXX, 10</cite> (ed. Wil. <cite ref=\"Q01198\"><he>פָּנִי׳</he></cite> <i>Pe.</i>). ",
+						"<cite ref=\"Onkelos Genesis 24:31\">Targ. O. Gen. XXIV, 31</cite> (Y. <i>Pe.</i>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 40:3\">Targ. Is. XL, 3</cite>; a. fr.—<i>Part. pass.</i> <he>מְפַנָּא</he> <i>clear, levelled</i>. ",
+						"<cite ref=\"Onkelos Genesis 14:17\">Targ. Gen. XIV, 17</cite> (O. ed. Vien. <he>מַפְנָא</he> <i>Af.</i>).—Ber. l. c. <he>פַּנּוּ לי דוכתא</he> Ms. M. (ed. <cite ref=\"Q01189\"><he>פַּנִּי</he></cite>, v. Rabb. D. S. a. l. note) clear a place for me. ",
+						"<cite ref=\"Taanit 20b:7\">Taan. 20ᵇ</cite> <he>בעי לפַנּוּיֵיה</he> wanted to remove it (the wine); <he>משכיה בשמעתא עד דפַנְּיֵיה</he> he kept him engaged in discussion on a tradition until he had removed it. ",
+						"<cite ref=\"Eichah Rabbah 5:1\">Lam. R. to V, 1</cite> (expl. <he>ערו</he>, <cite ref=\"Psalms 137:7\">Ps. CXXXVII, 7</cite>) <he>פַּנּוּן פנון</he> clear, clear (the place, with ref. to <he>ותער</he>, <cite ref=\"Genesis 24:20\">Gen. XXIV, 20</cite>, v. supra), contrad. to <cite ref=\"Q00091\"><he>פגר</he></cite>; Pesik. Zakhor, p. 26ᵃ <cite ref=\"Q00012\"><he>פאטן</he></cite> (read <he>פָּאנוּן</he>); ib. ʿÃniya, p. 135ᵃ; <cite ref=\"Pesikta Rabbati 32\">Pesik. R. s. 32</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to free, acquit</i>. Y. Ber. IX, 13ᵃ sq. <he>פַּנִּינָן יתיה</he>, v. <cite ref=\"D00500\"><he>דֵּיו</he></cite>. Y. Taan. I, 64ᵇ bot. <he>מה מיעבד ומְפַנִּינֵיה</he> what to do in order to release him (from prison); <he>הא לך פַּנְּיִי בעליך</he> here is money for thee, release thy husband; a. e.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to ease one’s self</i>. Y. Sabb. VI, 8ᶜ bot. <he>עאל לפַנּוּיֵיה</he> (not <he>לפונייה</he>) went to ease himself (v. infra).",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to turn, direct; to take aside</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 3:27\">Targ. II Sam. III, 27</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 6:10\">Ib. VI, 10</cite>. ",
+						"<cite ref=\"Targum Jonathan on Joshua 24:23\">Targ. Josh. XXIV, 23</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to vacate, free</i> (one’s mind); <i>to take time</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Nahum 2:9\">Targ. Nah. II, 9</cite> <he>לית דמַפְנֵי וכ׳</he> none take time to stand still.—Esp. <i>to make a text free for interpretation, to use as</i> <he>מוּפְנֶה</he> (v. <cite ref=\"Q01188\">preced.</cite>). ",
+						"<cite ref=\"Niddah 22b:48\">Nidd. 22ᵇ</cite> <he>ויברא לגופיה וייצר לאַפְנוּיֵי</he> <i>vayibra</i> (<cite ref=\"Genesis 1:27\">Gen. I, 27</cite>) is needed for its own sake (to state the fact), <i>vayitser</i> (ib. II, 7) is to be used for interpretation. ",
+						"<cite ref=\"Shabbat 64a:6-17\">Sabb. 64ᵃ</cite> <he>בגד ועור … שמע מינה לאפנויי</he> what need was there to mention ‘garment and skin’ again in connection with creeping things? Learn from it, that it is to be used for exegetical purposes. ",
+						"<cite ref=\"Shabbat 64a:6-17\">Ib.</cite>; <cite ref=\"Sanhedrin 40b:4\">Snh. 40ᵇ</cite> <he>לאי אפנויי וכ׳</he>, v. <cite ref=\"L00016\"><he>לַאי</he></cite>; a. fr.—Part. pass. <cite ref=\"M02224\"><he>מַפְנֵי</he></cite>. Sabb. l. c. <he>מ׳ דאי לא מ׳ וכ׳</he> Ms. M. (ed. <he>ומופנה דאי לאו מופנה</he>) it is free for exegesis, for if it were not free (but needed for its own sake) &c. Ib. <he>דמת נמי אפנויי מ׳</he> ed. Sonc. a. Ven. (v. Rabb. D. S. a. l. note 10; ed. <he>מופנה</he>) ‘garment and skin’ in connection with corpses is likewise (unnecessary, and) free for exegesis; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to ease one’s self</i>. Ib. 140ᵇ <he>לא תִיפְנוּן היכא דמַפְני וכ׳</he> do not go out to the same place that your men use &c. ",
+					"units": ["<cite ref=\"Berakhot 62a\">Ber. 62ᵃ</cite>, v. supra."],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפְּנֵי", "אִיפְּנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to turn; to go away</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 3:3\">Targ. Ex. III, 3</cite> sq. ",
+						"<cite ref=\"Targum Jonathan on Judges 19:8\">Targ. Jud. XIX, 8</cite>; a. fr.—",
+						"<cite ref=\"Kiddushin 65a:6\">Kidd. 65ᵃ</cite> <he>עד דמִיפְּני פיסחא</he> (prob. to be read: <he>עד מ׳</he>) until Passover is past."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"id": "H00108",
+	"slug": "חבר-2",
+	"headword": {
+		"text": "חֲבַר"
+	},
+	"page": {
+		"number": 421,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to fasten, join</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:69\">Targ. Ps. CXIX, 69</cite> (Ms. <he>חָבְרוּ</he> <i>Pe.</i>; h. text <he>טפלו</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to combine against</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 16:4\">Targ. Job XVI, 4</cite> (h. text <he>אחבירה</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to charm</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 18:11\">Targ. Y. I Deut. XVIII, 11</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to wound</i>, v. infra. [Y. Maas. Sh. V, 56ᵇ bot., v. <cite ref=\"H00951\"><he>חֲכַר</he></cite>.]",
+			"units": [],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H00109\"><he>חַבֵּר</he></cite> ch. same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַבַּר", "אִיחַבַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to associate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 4:17\">Targ. Hos. IV, 17</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be wounded</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 5b:3\">Keth. 5ᵇ</cite> <he>דם מיפקד פקיד או חַבּוּרֵי אִיחַבַּר</he> is the blood (in the womb) stored up, or is it the result of a wound?; <cite ref=\"Ketubot 6a:6\">ib. 6ᵃ</cite> <he>דם חבורי מִיחַבַּר</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

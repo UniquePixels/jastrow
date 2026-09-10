@@ -1,0 +1,29 @@
+{
+	"id": "S00067",
+	"slug": "קבלא-3",
+	"headword": {
+		"text": "קִבְלָא",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳",
+			"homograph": 4
+		}
+	],
+	"page": {
+		"number": 1310,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S00059\"><he>קְבַל</he> II</cite>) <i>woe, pain</i>.—Pl. <he>קִבְלֵי</he>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 2:20:1\">Koh. R. to II, 20</cite> <he>בר קִיבְלַיי</he> O, thou son (cause) of my woes!; <cite ref=\"Vayikra Rabbah 25:6\">Lev. R. s. 25</cite> <he>קבלוי</he> (corr. acc.)."
+			]
+		}
+	]
+}

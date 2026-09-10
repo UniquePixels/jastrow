@@ -1,0 +1,24 @@
+{
+	"id": "A02927",
+	"slug": "אקניותא",
+	"headword": {
+		"text": "אַקְנָיוּתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 112,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קני</he> II) <i>being provoked</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 1:16\">Targ. I Sam. I, 16</cite> (v. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 1:16\">ib.</cite> v. 6)."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "A03325",
+	"slug": "אשמא-2",
+	"headword": {
+		"text": "אֲשָׁמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָשָׁמָא"
+		},
+		{
+			"text": "אַשְׁמָא"
+		}
+	],
+	"page": {
+		"number": 129,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"A03323\"><he>אָשָׁם</he></cite>) <i>guilt, guilt-offering</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 5:15\">Targ. O. Lev. V, 15</cite>; a. fr.—Pl. <he>אֲשָׁמִין</he>. ",
+				"<cite ref=\"Targum of II Chronicles 28:10\">Targ. II Chron. XXVIII, 10</cite>."
+			]
+		}
+	]
+}

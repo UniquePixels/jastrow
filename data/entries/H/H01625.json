@@ -1,0 +1,25 @@
+{
+	"id": "H01625",
+	"slug": "חרוכא",
+	"headword": {
+		"text": "חֲרוֹכָא"
+	},
+	"page": {
+		"number": 499,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01708\"><he>חֲרַךְ</he></cite>) <i>burned, charred meat</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 32b:11\">Bets. 32ᵇ</cite> <he>ואזדהר מח׳</he> but guard against its becoming charred (by touching a solid object in the oven). ",
+				"<cite ref=\"Pesachim 41a:15\">Pes. 41ᵃ</cite> <he>דשוייה ח׳</he> Ms. M. (ed. <he>דשויא</he>) he made (the Passover lamb) charred meat (instead of roast). ",
+				"<cite ref=\"Zevachim 106a:7\">Zeb. 106ᵃ</cite>; <cite ref=\"Yoma 68b:6\">Yoma 68ᵇ</cite> <he>דשויא ח׳</he> if it has been reduced to lumps of charred flesh (instead of being burnt to ashes), v. <cite ref=\"N01379\"><he>נָתַךְ</he></cite>.—",
+				"<cite ref=\"Bava Metzia 85a\">B. Mets. 85ᵃ</cite> they surnamed R. Zeira <he>ח׳ קטיו שקיה</he> Ms. M. (ed. <he>קטין חֲרִיךְ ש׳</he>) the burnt one with dwarfed legs: <cite ref=\"Sanhedrin 37a\">Snh. 37ᵃ</cite> <cite ref=\"H01679\"><he>חֲרִיכָא</he></cite> (early prints <he>חרו׳</he>); (<cite ref=\"Berakhot 46a:1\">Ber. 46ᵃ</cite> <he>קטינא חריך שקי</he>).—[<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>כפר חרוכא</he>, some ed., v. <cite ref=\"H01614\"><he>חֲרוּבָא</he> II</cite>.]"
+			]
+		}
+	]
+}

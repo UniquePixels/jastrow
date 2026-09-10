@@ -1,0 +1,38 @@
+{
+	"id": "H00962",
+	"slug": "חלא-4",
+	"headword": {
+		"text": "חָלָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלָא"
+		},
+		{
+			"text": "חַל"
+		}
+	],
+	"page": {
+		"number": 463,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00319\"><he>חול</he></cite> or <cite ref=\"H01073\"><he>חלל</he></cite>) [<i>turned, spoiled</i>,] <i>vinegar</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 6:3\">Targ. O. Num. VI, 3</cite> <cite ref=\"H00962\"><he>חַל</he></cite>; Y. <cite ref=\"H00963\"><he>חֲלָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:22\">Targ. Ps. LXIX, 22</cite> <cite ref=\"H01406\"><he>חָ׳</he></cite> ed. (Ms. <cite ref=\"H00051\"><he>חֲ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:20\">Targ. Prov. XXV, 20</cite> <cite ref=\"H00960\"><he>חלא</he></cite> ed. Lag. (ed. <cite ref=\"H00795\"><he>חֵילָא</he></cite>, Ms. <cite ref=\"H00260\"><he>חוֹ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ruth 2:14\">Targ. Ruth II, 14</cite>.—",
+				"<cite ref=\"Avodah Zarah 12b:3\">Ab. Zar. 12ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 39:11\">Gen. R. s. 39</cite>, v. <cite ref=\"G00174\"><he>זוּל</he></cite> I ch.—",
+				"<cite ref=\"Chullin 120a\">Ḥull. 120ᵃ</cite> <he>ח׳ דקריש</he> Ar. (ed. <he>חלב</he>) a jellied vinegar sauce of meat; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:4:5\">Y. Maasr. III, 50ᵈ</cite> bot. <he>ח׳ בר חמרא</he> a deteriorated son, v. <cite ref=\"H00384\"><he>חוֹמֶץ</he></cite>; <cite ref=\"Chullin 105a:10\">Ḥull. 105ᵃ</cite>. [Y. Ter. VII, 45ᵈ bot. <he>בחלא</he>, read: <he>בחַקְלָא</he>.]"
+			]
+		}
+	]
+}

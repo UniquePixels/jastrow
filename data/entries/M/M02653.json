@@ -1,0 +1,65 @@
+{
+	"id": "M02653",
+	"slug": "מרי-4",
+	"headword": {
+		"text": "מְרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרָא"
+		}
+	],
+	"page": {
+		"number": 842,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02652\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A02066\"><he>אַמְרֵי</he></cite> <i>to provoke</i>. [<cite ref=\"Targum Jonathan on Zechariah 12:10\">Targ. Zech. XII, 10</cite>, v. <cite ref=\"M02774\"><he>מְרר</he></cite>].—",
+					"units": [
+						"<cite ref=\"Sotah 35b:1\">Sot. 35ᵇ</cite> top <he>מאן אַמְרִיךְ דאִימַּרְיַית</he> (Ar. ed. Koh. s. v. <cite ref=\"A02060\"><he>אמר</he></cite>: <he>אימרייך דאימרת</he>, corr. acc.) who provoked thee that thou didst get angry?; <cite ref=\"Bamidbar Rabbah 5:7\">Num. R. s. 5</cite>, end.—",
+						"<cite ref=\"Bereishit Rabbah 42:8\">Gen. R. s. 42</cite> (play on <he>א̇מ̇ר̇פל̇</he>) <he>דא̇מ̇ר̇י וא̇פ̇ל̇י וכ׳</he> he provoked and made sport of &c."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִימְּרֵי", "אִמְּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to get angry</i>. Num. R. l. c. <he>דאִמַּרְיַת</he>; Sot. l. c., v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to quarrel, rebel</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 84b:10\">B. Mets. 84ᵇ</cite> <he>אִימַּרְיָא</he> Ms. M., v. <cite ref=\"M02530\"><he>מְרַד</he></cite>.—",
+						"<cite ref=\"Chullin 58b:3\">Ḥull. 58ᵇ</cite> <he>אִימְּרָאִי</he> … <he>לבקא</he> Ar., v. <cite ref=\"B01111\"><he>בַּקָּא</he></cite> (ed. <he>אִימְּרָא … מב׳</he> she ran away in anger from &c., v. <cite ref=\"M02530\"><he>מְרַד</he></cite>). ",
+						"<cite ref=\"Ketubot 63b:1\">Keth. 63ᵇ</cite> <cite ref=\"A01349\"><he>אימראי</he></cite> quot. in Rashi to <cite ref=\"Job 39:18\">Job XXXIX, 18</cite> (ed. <he>אימרדה</he>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to refuse to abide by a bargain</i>; <i>to retract</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 77a:7\">B. Mets. 77ᵃ</cite> <he>אייקרא … ואִימְּרוּ פועלים</he> labor became dearer, and the laborers struck. ",
+						"<cite ref=\"Bava Metzia 77a:11\">Ib.</cite> <he>ואימרי בעה״ב</he> Ar. (ed. <he>ואימר</he>, fr. <cite ref=\"J00423\"><he>ימר</he></cite>, v. <cite ref=\"M00603\"><he>מוּר</he> I</cite>) and the employer refused &c."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "O00554",
+	"slug": "סיגו",
+	"headword": {
+		"text": "סֵיגוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "סֵגוּ"
+		}
+	],
+	"page": {
+		"number": 975,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (constr. of <he>סֵיגְוָא</he>; <cite ref=\"O00121\"><he>סְגֵי</he> I</cite>) <i>plenty of, much; very</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 13:3\">Targ. Prov. XIII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 15:23\">Ib. XV, 23</cite> (ed. Wil. <cite ref=\"O00106\"><he>סְגוּ</he></cite>).—Pl. <he>סֵיגוּיֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 5:13\">Targ. Is. V, 13</cite> <he>סֵיגוּיֵהוֹן</he> ed. Lag. (ed. Wil. <he>סִגְוְהוֹן</he>, sing.) their multitudes (h. text <he>הֲמֹנוֹ</he>)."
+			]
+		}
+	]
+}

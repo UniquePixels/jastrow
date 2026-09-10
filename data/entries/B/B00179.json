@@ -1,0 +1,56 @@
+{
+	"id": "B00179",
+	"slug": "בהל-2",
+	"headword": {
+		"text": "בְּהַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּהֵיל"
+		}
+	],
+	"page": {
+		"number": 142,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00178\">same</cite>.—<i>Pa.</i> <cite ref=\"B00179\"><he>בּהֵיל</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be precocious, inconsiderate, hasty</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 5:1\">Targ. Koh. V, 1</cite>; a. e."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְבַּהֵל"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְבְּהִיל", "אִיתְבְּהַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be hurried, to hurry</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 2:9\">Targ. Esth. II, 9</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be agitated</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 28:21\">Targ. I Sam. XXVIII, 21</cite>; a. fr.—Y. Keth. I, 25ᵃ is it possible that the whole town <he>מִתְבַּהֲלָה וכ׳</he> was excited on account of Naomi?"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

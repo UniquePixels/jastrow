@@ -1,0 +1,23 @@
+{
+	"id": "U00889",
+	"slug": "שיטתא-2",
+	"headword": {
+		"text": "שִׁיטָּתָא"
+	},
+	"page": {
+		"number": 1560,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (cmp. <cite ref=\"U00386\"><he>שׁוֹטִיתָא</he></cite>) <i>posts, legs</i> of a bedstead. Y. Maas. Sh. IV, end, 55ᶜ <he>ארבעתי ארזי … שִׁיטָּתֵיה דערסא</he> (not <he>דערסי</he>; prob. to be read: <he>שִׁיטָתָה</he>) the four cedars (in your dream) mean the four posts of the bed; <cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<he>חד כות׳</he> 2) <cite ref=\"U00427\"><he>שולטתא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>ארבעה שיקמין … שִׁיטְוָתָא וכ׳</he> the four sycamore trees mean the four legs of the bed; Y. l. c. <cite ref=\"K00395\"><he>כורעתא</he></cite>."
+			]
+		}
+	]
+}

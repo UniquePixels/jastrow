@@ -1,0 +1,42 @@
+{
+	"id": "C01081",
+	"slug": "גנב-4",
+	"headword": {
+		"text": "גַּנָּב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּנָּבָא"
+		}
+	],
+	"page": {
+		"number": 257,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"C01080\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 22:1\">Targ. Ex. XXII, 1</cite>; a. e.—",
+				"<cite ref=\"Berakhot 5b:20\">Ber. 5ᵇ</cite> (prov.) <he>בתר ג׳ גנוב וכ׳</he> steal after the thief (take thine own stealthily from him), and thou hast a taste (of theft), v. <cite ref=\"C01078\"><he>גָּנַב</he></cite>. ",
+				"<cite ref=\"Sanhedrin 22a:14\">Snh. 22ᵃ</cite> (prov.) <he>חסריה לג׳ נפשיה וכ׳</he> when strength fails the thief, he pretends to be honest.—Pl. <he>גַּנָּבִין</he>, <he>גַּנָּבַיָּא</he>, <he>גַּנְּבֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:13\">Targ. Y. Ex. XX, 13</cite>; a. fr.—",
+				"<cite ref=\"Avodah Zarah 70a:10\">Ab. Zar. 70ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 109a:16\">Snh. 109ᵃ</cite>, v. <cite ref=\"A03393\"><he>אַתְּ</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cunning</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 133a:4\">B. Bath. 133ᵃ</cite>, v. <cite ref=\"C01079\"><he>גְּנַב</he></cite> <i>Pa.</i>"
+			],
+			"label": "2"
+		}
+	]
+}

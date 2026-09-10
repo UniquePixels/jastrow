@@ -1,0 +1,27 @@
+{
+	"id": "V00853",
+	"slug": "תפקן",
+	"headword": {
+		"text": "תַּפְקָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר תַּפְקָן"
+		}
+	],
+	"page": {
+		"number": 1689,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar Tafkòan</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 10:5:3\">Y. Keth. X, end, 34ᵃ</cite>"
+			]
+		}
+	]
+}

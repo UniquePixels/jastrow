@@ -1,0 +1,23 @@
+{
+	"id": "R00801",
+	"slug": "צרפית-1",
+	"headword": {
+		"text": "צָרְפִית",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1304,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"R00260\"><he>צוֹרֵף</he></cite>) <i>belonging to the goldsmith’s shop</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 7:10\">Tosef. Kel. B. Mets. VII, 10</cite>, v. <cite ref=\"V00397\"><he>תַּחְתִּית</he></cite>."
+			]
+		}
+	]
+}

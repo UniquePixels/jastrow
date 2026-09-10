@@ -1,0 +1,28 @@
+{
+	"id": "M00795",
+	"slug": "מחבא-2",
+	"headword": {
+		"text": "מַחֲבֵא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַחֲבוֹא"
+		}
+	],
+	"page": {
+		"number": 757,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00794\">preced.</cite>) <i>a rod with which hidden olives are knocked down</i> (Maim.); [<i>the working men searching after the hidden olives</i> (other comment.)]. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 7:2\">Peah VII, 2</cite> <he>משתלך המ׳</he> (Bart. <he>המחבוא</he>; Ms. M. <he>משתהלך</he>) from the time the <i>maḥăbé</i> is gone; Y. ib. 20ᵃ bot. <he>הלכה המ׳</he> (ed. Ven. <cite ref=\"E00402\"><he>הילכא</he></cite>); expl. <he>משיניח את הכרכר</he> (v. <cite ref=\"K01220\"><he>כַּרְכָּר</he></cite> 2) when he lays down the searching rod; v. <cite ref=\"M00796\">next w.</cite>"
+			]
+		}
+	]
+}

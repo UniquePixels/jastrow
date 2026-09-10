@@ -1,0 +1,46 @@
+{
+	"id": "U01543",
+	"slug": "שמשא-1",
+	"headword": {
+		"text": "שִׁמְשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1602,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"U01542\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 1:16\">Targ. Y. Gen. I, 16</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 49:27\">Targ. Y. II ib. XLIX, 27</cite>. ",
+				"<cite ref=\"Onkelos Numbers 25:4\">Targ. Num. XXV, 4</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 84a:5\">B. Bath. 84ᵃ</cite>, v. <cite ref=\"O00358\"><he>סוּמַּקְתִּי</he></cite>. ",
+				"<cite ref=\"Shabbat 129a:20\">Sabb. 129ᵃ</cite> <he>ניגני בש׳</he> let him lie in the sun. ",
+				"<cite ref=\"Shabbat 129a:20\">Ib.</cite> <he>דמעלי ביה ש׳</he>, v. <cite ref=\"M02133\"><he>מַעֲלֵי</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 68:10\">Gen. R. s. 68</cite> (ref. to <cite ref=\"Genesis 28:11\">Gen. XXVIII, 11</cite>) <he>ששמע קולן … אתא ש׳ אתא ש׳</he> he heard the angels say …, the sun has come (Jacob, with ref. to <cite ref=\"Genesis 37:9\">Gen. XXXVII, 9</cite>); a. fr.—<i>Pl.</i> <he>שִׁמְשָׁתָא</he>, <he>שִׁמְשַׁיָּא</he>, <cite ref=\"U01549\"><he>שִׁמְשֵׁי</he></cite>.—<he>ביני ש׳</he> (<he>בין</he>, <he>בי</he>) <i>at twilight</i> (v. <cite ref=\"U01542\">preced.</cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 49:27\">Targ. Y. I Gen. XLIX, 27</cite>. ",
+				"<cite ref=\"Onkelos Exodus 12:6\">Targ. Ex. XII, 6</cite> (h. text <he>בין הערבים</he>); a. fr.—Esp. <he>בי שמשא</he>, pl. <he>בי שמשי</he> (sub. <he>דמעלי שבתא</he>) <i>Friday evening, Sabbath eve</i>. ",
+				"<cite ref=\"Ketubot 103a:29\">Keth. 103ᵃ</cite> <he>כל בי שמשי הוי וכ׳</he> every Sabbath eve he used to come home; <he>ההיא בי שמשא וכ׳</he> one Friday evening a neighbor came &c. ",
+				"<cite ref=\"Berakhot 43b:19\">Ber. 43ᵇ</cite> <he>בקדושא דבי ש׳</he> by partaking of the wine at the Ḳiddush (v. <cite ref=\"S00873\"><he>קִידּוּשׁ</he></cite>) on Friday night; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H01152\"><he>חַמָּה</he></cite>) <i>fever</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 67b:13\">Gitt. 67ᵇ</cite> <he>ש׳ בת יומא</he> diurnal fever; <he>בת תלתא יומי</he> tertiary fever; <he>ש׳ עתיקתא</he> chronic fever; a. e.—Pl. <he>שִׁמְשִׁין</he> <i>red, inflammation</i>. Esth. R. introd. to II, 1 (R. Azariah) transl. <he>חכללות עינים</he>, <cite ref=\"Proverbs 23:29\">Prov. XXIII, 29</cite>) <he>ש׳ דעינין</he> inflammation of the eyes; <cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite> <cite ref=\"U01550\"><he>שמשמין</he></cite>; (<cite ref=\"Yalkut Shimoni on Nach 960\">Yalk. Prov. 960</cite> <cite ref=\"O01132\"><he>סמקן</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

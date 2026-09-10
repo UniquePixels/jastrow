@@ -1,0 +1,51 @@
+{
+	"id": "O00294",
+	"slug": "סוך-1",
+	"headword": {
+		"text": "סוּךְ"
+	},
+	"page": {
+		"number": 963,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N00946\"><he>נָסַךְ</he></cite>)<i>to pour</i> (<i>oil</i>), <i>to anoint; to oil</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 1:3\">Dem. I, 3</cite> <he>שמן לָסוּךְ בו וכ׳</he> oil for vessels. ",
+				"<cite ref=\"Mishnah Demai 1:4\">Ib. 4</cite> <he>שהגרדי סָךְ וכ׳</he> with which the weaver oils his fingers. ",
+				"<cite ref=\"Mishnah Shabbat 8:1\">Sabb. VIII, 1</cite> <he>כדי לסוך אבר קטן</he> as much as required to rub one small limb. ",
+				"<cite ref=\"Tosefta Terumot 10:10\">Tosef. Ter. X, 10</cite> <he>לא יָסוּךְ כהן שמן וכ׳</he> a priest must not pour oil of T’rumah on a marble plate &c. ",
+				"<cite ref=\"Tosefta Terumot 10:11\">Ib. 11</cite> <he>ואין סָכִין בו מנעל וכ׳</he> nor must you use it for oiling a shoe &c. ",
+				"<cite ref=\"Mishnah Sheviit 2:5\">Shebi. II, 5</cite> <he>סָכִין את הפגים וכ׳</he> you may pour oil on green figs and pierce them (to accelerate ripening); a. fr.—Part. pass. <cite ref=\"O00294\"><he>סוּךְ</he></cite>; f. <cite ref=\"O00300\"><he>סוּכָה</he></cite>; pl. <he>סוּכִים</he>, <he>סוּכִין</he>; <cite ref=\"O00302\"><he>סוּכוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:3:6\">Y. Bicc. I, 63ᵈ</cite> bot. <he>תאנים ס׳ וכ׳</he> figs which have been oiled and pierced."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵסִיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00293\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 165:2\">Yalk. Ex. 165</cite> <he>הסלע … מֵסִיךְ … כחיה שהיא מְסֶכֶת את בנה</he> (not <he>ממסכת</he>) the rock by their side anointed them with oil like a confined woman that anoints her child; <cite ref=\"Pirkei DeRabbi Eliezer 42:9\">Pirké d’R. El. ch. XLII</cite> <he>מניק … מניקה</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִיסַּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be oiled, perfumed</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Terumot 10:10\">Tosef. Ter. X, 10</cite> <he>אין הזר … אע״פ שנ׳ ממנו</he> the non-priest need not hesitate to rub it (on the priest’s body), although he himself (his hand) is perfumed thereby.—[<i>Nithpol</i>. <he>נִסְתּוֹכָךְ</he>, v. <cite ref=\"O00905\"><he>סָכַךְ</he> II</cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

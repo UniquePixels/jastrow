@@ -1,0 +1,40 @@
+{
+	"id": "G00153",
+	"slug": "זוח-3",
+	"headword": {
+		"text": "זוּחַ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זָחַח"
+		}
+	],
+	"page": {
+		"number": 385,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <he>זחח</he>; cmp. <cite ref=\"G00217\"><he>זוּעַ</he></cite>)<i>to be unsteady, move</i>.—Part. <cite ref=\"G00242\"><he>זָח</he></cite> <i>faint-hearted, distracted</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 69b\">Keth. 69ᵇ</cite>; <cite ref=\"Moed Katan 28b\">M. Kat. 28ᵇ</cite>; Yalk. Am. 545, v. <cite ref=\"M02477\"><he>מַר</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵזִיחַ"],
+			"senses": [
+				{
+					"gloss": " or <cite ref=\"G00153\"><he>הֵזֵיחַ</he></cite> <i>to remove, to cause to move, to force one to yield</i> to others’ opinions. ",
+					"units": [
+						"<cite ref=\"Chullin 7a:2\">Ḥull. 7ᵃ</cite> <he>אין מְזִיחִין אותו</he> (with ref. to <he>יִזַּח</he>, <cite ref=\"Exodus 28:28\">Ex. XXVIII, 28</cite>) we do not make him give up his opinion; v. <cite ref=\"G00082\"><he>זָהַהּ</he></cite>.—",
+						"<cite ref=\"Ketubot 10b:12\">Keth. 10ᵇ</cite> <he>מזבח מֵזִיחַ</he> (or <he>מֵזִיח</he>) the altar removes (evil decrees)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

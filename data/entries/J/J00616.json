@@ -1,0 +1,37 @@
+{
+	"id": "J00616",
+	"slug": "ירושה",
+	"headword": {
+		"text": "יְרוּשָּׁה"
+	},
+	"page": {
+		"number": 595,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>יְרֻשָּׁה</he>; <cite ref=\"J00669\"><he>יָרַשׁ</he></cite>)<i>conquest, taking possession</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 107:1\">Sifré Num. 107</cite> (ref. to <cite ref=\"Numbers 15:18\">Num. XV, 18</cite>) <he>אחר י׳ וישיבה וכ׳</he> the text means after conquering and settling in the land (proving from <cite ref=\"Deuteronomy 11:31\">Deut. XI, 31</cite>); <cite ref=\"Kiddushin 37b:8\">Kidd. 37ᵇ</cite>. ",
+				"<cite ref=\"Kiddushin 37a:13\">Ib. 37ᵃ</cite> <he>מושב לאחר י׳ וישיבה משמע</he> the word <i>dwelling</i> (e.g. ",
+				"<cite ref=\"Leviticus 23:14\">Lev. XXIII, 14</cite>) means after conquest &c. Ib. 38ᵃ; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>inheritance, heirloom</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:12\">Ab. II, 12</cite> <he>שאינה י׳ לך</he> for it (the knowledge of the Law) does not come to thee by inheritance (without toil). ",
+				"<cite ref=\"Nedarim 81a:3\">Ned. 81ᵃ</cite> that it may not be said <he>י׳ היא להם</he> scholarship comes to them by inheritance. ",
+				"<cite ref=\"Sifrei Devarim 345:2\">Sifré Deut. 345</cite> (ref. to <cite ref=\"Deuteronomy 33:4\">Deut. XXXIII, 4</cite>) <he>שומע אני י׳ לבני מלכים וכ׳</he> I might understand, it is an inheritance of the sons of the nobles &c. ",
+				"<cite ref=\"Deuteronomy 33:4\">Ib.</cite> <he>לִירוּשָּׁתִי אני חוזר</he> I am returning to my own heirloom; <cite ref=\"Shemot Rabbah 33:7\">Ex. R. s. 33</cite> <he>לִירוּשַּׁת אבותי</he> to my paternal heirloom. ",
+				"<cite ref=\"Bava Batra 110b:2\">B. Bath. 110ᵇ</cite> <he>בת י׳</he> having the right of inheritance. ",
+				"<cite ref=\"Bava Batra 113b:2\">Ib. 113ᵇ</cite> <he>י׳ ראשונה</he> the first succession (direct heirs, children &c.); <he>י׳ שנייה</he> indirect heirs (brothers &c.); a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "U01590",
+	"slug": "שניא",
+	"headword": {
+		"text": "שַׁנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁנְיָיא"
+		}
+	],
+	"page": {
+		"number": 1606,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01586\"><he>שְׁנֵי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>different, a different thing</i>.—[<cite ref=\"Aramaic Targum to Proverbs 10:14\">Targ. Prov. X, 14</cite> <cite ref=\"U01590\"><he>שניא</he></cite> some ed., read: <cite ref=\"U01818\"><he>שֵׁצְיָא</he></cite>].—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:2\">Y. Dem. I, 21ᵈ</cite> bot. [read] <he>לא ש׳ הוא דבר … הוא וכ׳</he> it makes no difference, (it is all the same) whether it is a plant the seed of which disappears (must be renewed every year) or &c. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:4:12\">Y. Pes. V, 32ᶜ</cite> <he>לא ש׳ היא … היא וכ׳</he> it is all the same whether one slaughters a Passover sacrifice as a peace-offering or the reverse. Ib. X, end, 37ᵈ <he>ש׳ היא</he> it is a different case; a. fr.—[V. <cite ref=\"U00038\"><he>שָׁאנֵי</he></cite>, s. v. <cite ref=\"U01586\"><he>שְׁנֵי</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>strange thing, folly</i>.—Pl. <cite ref=\"U01602\"><he>שַׁנְיָן</he></cite>, <cite ref=\"U01594\"><he>שַׁנְיָין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:10\">Targ. Is. XXX, 10</cite> (h. text <he>מהתלות</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

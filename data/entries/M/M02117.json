@@ -1,0 +1,28 @@
+{
+	"id": "M02117",
+	"slug": "מעיסה",
+	"headword": {
+		"text": "מְעִיסָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַמְעָסָה"
+		}
+	],
+	"page": {
+		"number": 816,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מעס</he>, denom. of <cite ref=\"P00629\"><he>עִיסָה</he></cite>) <i>a paste made of flour on which boiling water is poured</i>, contrad. to <cite ref=\"H01038\"><he>חֲלִיטָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 1:6\">Ḥall. I, 6</cite>; <cite ref=\"Pesachim 37b:5\">Pes. 37ᵇ</cite> (Ms. O. <he>המעסה</he>); <cite ref=\"Mishnah Eduyot 5:2\">Eduy. V, 2</cite> (Ms. M. <he>המעסה</he>); a. e., v. <cite ref=\"H01040\"><he>חֲלִיטָה</he> II</cite>. ",
+				"<cite ref=\"Tosefta Challah 1:2\">Tosef. Ḥall. I, 2</cite> <he>המְעִיסָא</he>."
+			]
+		}
+	]
+}

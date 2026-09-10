@@ -1,0 +1,26 @@
+{
+	"id": "B00932",
+	"slug": "בן",
+	"headword": {
+		"text": "בֵּן"
+	},
+	"page": {
+		"number": 176,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"B00932\"><he>בֶּן</he></cite> (b. h.; <cite ref=\"B00942\"><he>בנה</he></cite>) <i>offspring, son, child</i>. <he>שבוע הב׳</he> the male child’s week, a disguise for <i>circumcision day</i>, adopted during the Hadrianic persecutions. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 32b:12\">Snh. 32ᵇ</cite>; <cite ref=\"Jerusalem Talmud Ketubot 1:5:2\">Y. Keth. I, 25ᶜ</cite>; a. e.—<he>ישוע הב׳</he> a disguise for <he>פִּדְיוֹן הבן</he>. ",
+				"<cite ref=\"Bava Kamma 80a:10\">B. Kam. 80ᵃ</cite>.—… <he>בְּנוֹ של</he> the son of, v. <cite ref=\"U01197\"><he>שֶׁל</he></cite>. <he>בְּנָן של קדושים</he> descendant of holy men. ",
+				"<cite ref=\"Avodah Zarah 50a\">Ab. Zar. 50ᵃ</cite>; a. e.—Pl. <he>בָּנִים</he>, constr. <cite ref=\"B00944\"><he>בְּנֵי</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 3:14\">Ab. III, 14</cite> <he>ב׳ למקום</he> chosen children of God. ",
+				"<cite ref=\"Bereishit Rabbah 82:15\">Gen. R. s. 82</cite> <he>בָּנֶיהָ של תורה</he> children (followers) of the Law.—Trnsf. <i>belonging to, fit for</i> &c.; e.g. <he>בני גולה</he> those belonging to the colony of exiles, Babylonians &c.; <he>בני גליל</he> Galileans; <he>בני אכילה</he> things fit to be eaten &c. [For such compounds as are not self-evident, see the respective determinants.] [<he>בני פיקרין</he>, v. <cite ref=\"B00958\"><he>בְּנִיפיקָרִין</he></cite>.]"
+			]
+		}
+	]
+}

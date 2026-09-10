@@ -1,0 +1,24 @@
+{
+	"id": "U01225",
+	"slug": "שלהי-2",
+	"headword": {
+		"text": "שַׁלְהֵי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1578,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01224\">preced.</cite>) = <cite ref=\"M02914\"><he>משלהי</he></cite>, <i>tired</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 21:12\">Targ. I Chr. XXI, 12</cite>.—Pl. <cite ref=\"U01224\"><he>שַׁלְהֵי</he></cite>. ",
+				"<cite ref=\"Berakhot 6a:5\">Ber. 6ᵃ</cite> <he>הני ברכי דש׳</he> (Ms. M. margin <he>דמשלהי</he>) those knees that are wearied."
+			]
+		}
+	]
+}

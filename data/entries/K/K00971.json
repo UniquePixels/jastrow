@@ -1,0 +1,41 @@
+{
+	"id": "K00971",
+	"slug": "כעס-2",
+	"headword": {
+		"text": "כְּעַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּעֵיס"
+		}
+	],
+	"page": {
+		"number": 656,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K00970\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 112:10\">Targ. Ps. CXII, 10</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 7:2:7\">Y. Ber. VII, 11ᵇ</cite> bot. <he>שמע … מלכא וכ׳</he> King Jannai heard of it and became angry; <cite ref=\"Bereishit Rabbah 91:3\">Gen. R. s. 91</cite>; a. fr.—[<cite ref=\"Targum Jonathan on Genesis 38:15\">Targ. Y. Gen. XXXVIII, 15</cite> <he>כְּעִיסַת אפין</he> angry-looking, morose (h. text <he>כסתה פניה</he>); prob. a. corrupt. of <he>כַּסִּיאַת</he>, and <cite ref=\"T00499\"><he>רחים</he></cite>, at the end of the sentence, to be read <cite ref=\"H00917\"><he>חכים</he></cite>; cmp. ",
+				"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite>]."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַכְעַס"],
+			"senses": [
+				{
+					"gloss": "<i>to provoke to anger</i>; <cite ref=\"A00006\"><he>א׳</he></cite> (<cite ref=\"P00175\"><he>עובדא</he></cite>) <he>קדם</he> <i>to act provokingly, defiantly against</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 32:19\">Targ. Y. II, Deut. XXXII, 19</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 32:21\">Ib. 21</cite>.—Esth. R. introd. <he>מדאַכְעֲסוּ … עובדיהון וכ׳</he> when the beloved children (Israel) defied &c.; (<cite ref=\"Yalkut Shimoni on Nach 1044\">Yalk. Esth. 1044</cite>; <cite ref=\"Yalkut Shimoni on Nach 920\">Yalk. Job 920</cite> <he>ארגיזו</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

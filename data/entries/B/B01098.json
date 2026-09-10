@@ -1,0 +1,27 @@
+{
+	"id": "B01098",
+	"slug": "בצלים",
+	"headword": {
+		"text": "בְּצָלִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲלֵי בְּצָלִים"
+		}
+	],
+	"page": {
+		"number": 184,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ăle B’tsalim</i> (Onion Leaves). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot. Miriam, the daughter of A. B. (prob. a nickname)."
+			]
+		}
+	]
+}

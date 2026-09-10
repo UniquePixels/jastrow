@@ -1,0 +1,29 @@
+{
+	"id": "P00652",
+	"slug": "עיקא-1",
+	"headword": {
+		"text": "עָיְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָיְי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1074,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00651\">preced.</cite>), constr. <cite ref=\"P01452\"><he>עַיְקַת</he></cite>, <i>narrow, sorrowful</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 1:15\">Targ. I Sam. I, 15</cite> (ed. Lag. a. oth. <cite ref=\"P01231\"><he>עָקַת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 54:6\">Targ. Is. LIV, 6</cite>."
+			]
+		}
+	]
+}

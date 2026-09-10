@@ -1,0 +1,48 @@
+{
+	"id": "H01646",
+	"slug": "חרז-1",
+	"headword": {
+		"text": "חָרַז"
+	},
+	"page": {
+		"number": 500,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to bore holes, to carry thread through a hole</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to squeeze into</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:10\">Cant. R. to I, 10</cite> (ref. to <he>בחרוזים</he> <cite ref=\"Shir HaShirim Rabbah 1:10\">ib.</cite>) <he>שחוֹרְזִים צואריהם וכ׳</he> (not <he>שחוזרין</he>) who squeeze their necks (through window holes, open doors &c.) to hear the words of the Law (v. ",
+				"<cite ref=\"Yoma 35b\">Yoma 35ᵇ</cite>; <cite ref=\"Berakhot 6b\">Ber. 6ᵇ</cite>; v. <cite ref=\"D00231\"><he>דּוּחֲקָא</he></cite>); Yalk. ib. 983 <he>שהם חוזרים אחרי וכ׳</he> (read: <he>חוֹרְזִים אחוֹרֵי</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to string</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 20:9\">Ex. R. s. 20</cite> <he>ישב וח׳ וכ׳</he> he sat down and strung (assorting) the larger pearls separately &c.—Part. pass. <cite ref=\"H01621\"><he>חָרוּז</he></cite>, pl. <he>חֲרוּזִים</he>, <he>חֲרוּזִין</he>. Cant. R. l. c. [read:] <he>אלו ע׳ זקנים שהיו חֲרוּזִים אחריהם כליניא וכ׳</he> (v. Yalk. l. c.) those are the seventy elders who were strung (arranged) behind them (Moses and Aaron) like a string of pearls.—",
+				"<cite ref=\"Chullin 95b:15\">Ḥull. 95ᵇ</cite> <he>בחרוזין</he> (Ar. <he>חֲרִיזִים</he>, noun) if the pieces of meat are strung together. ",
+				"<cite ref=\"Eichah Rabbah 5\">Lam. R. to V, 13</cite> <he>ג׳ מאות … ח׳ וכ׳</he> three hundred children were found strung up on the branches of one tree.—Trnsf. <i>to draw parallels between Biblical passages, to explain one passage by another</i>. Cant. R. l. c. <he>הייתי יושב וחוֹרֵז וכ׳</he> I was sitting and comparing verses of the Pentateuch, and Pentateuch with Prophets &c.—Ib. <he>שהיו חוֹרְזִים וכ׳</he>; Yalk. l. c. <he>חוזרים</he> (corr. acc.). Cant. R. l. c. <he>שהן חֲרוּזוֹת וכ׳</he> which are strung together (illustrate one another)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחֱרִיז"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01645\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite> <he>מַחֲרִיז ד״ת וכ׳</he> I was comparing &c."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "M02135",
+	"slug": "מעליותא",
+	"headword": {
+		"text": "מַעַלְיוּתָא"
+	},
+	"page": {
+		"number": 817,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02134\">preced.</cite>) <i>perfection, excellence; improvement</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 45b:8\">Shebu. 45ᵇ</cite> <he>מאי מ׳</he> wherein consists the excellence (of the argument)?, v. <cite ref=\"M02134\">preced.</cite> ",
+				"<cite ref=\"Menachot 43a:6\">Men. 43ᵃ</cite> <he>אי אישתני למ׳</he> Ms. M. (ed. <he>אשתנאי</he>) if it changed for the better. ",
+				"<cite ref=\"Berakhot 56a:2\">Ber. 56ᵃ</cite> <he>מפשר ליה למ׳</he>, v. <cite ref=\"C01339\"><he>גְּרִיעוּתָא</he></cite>. ",
+				"<cite ref=\"Chullin 5b:6\">Ḥull. 5ᵇ</cite> <he>מ׳ היא</he> does it imply perfection?; a. fr."
+			]
+		}
+	]
+}

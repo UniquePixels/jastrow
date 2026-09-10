@@ -1,0 +1,47 @@
+{
+	"id": "J00496",
+	"slug": "יעקב",
+	"headword": {
+		"text": "יַעֲקֹב"
+	},
+	"page": {
+		"number": 585,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Jacob</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " J. the patriarch. ",
+			"units": [
+				"<cite ref=\"Berakhot 13a:1\">Ber. 13ᵃ</cite> <he>לא שיעקר י׳ וכ׳</he> not that the name Jacob should be entirely abandoned, but &c., v. <cite ref=\"I00662\"><he>טָפֵל</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 1:15\">Gen. R. s. 1</cite>; a. v. fr.—2) R. J., name of a Tannai (or of several Tannaim, v. Fr. Darkhe Mish. p. 202). ",
+				"<cite ref=\"Pirkei Avot 4:16\">Ab. IV, 16</cite>. ",
+				"<cite ref=\"Pesachim 84a:14\">Pes. 84ᵃ</cite>; <cite ref=\"Sanhedrin 63b:2\">Snh. 63ᵇ</cite>, a. e., v. <cite ref=\"U01408\"><he>שֵׁם</he></cite>. ",
+				"<cite ref=\"Chullin 45b:11\">Ḥull. 45ᵇ</cite>.—",
+				"<cite ref=\"Horayot 13b:14\">Hor. 13ᵇ</cite> <he>ר׳ י׳ בן קרשי</he>; <cite ref=\"Jerusalem Talmud Pesachim 10:1:3\">Y. Pes. X, beg. 37ᵇ</cite> <he>ר׳ י׳ בן קורשיי</he>.—3) R. J., name of many Amoraim, esp. "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " R. J. of K’far Nibburaya. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:18\">Y. Bicc. III, 65ᵈ</cite> top, a. fr., v. <cite ref=\"N00058\"><he>נִבּוּרַיָּא</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " R. J. b. Idi. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Berakhot 2:1:16\">Y. Ber. II, 4ᵇ</cite>; <cite ref=\"Jerusalem Talmud Shekalim 2:5:4\">Y. Shek. II, 47ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Moed Katan 3:7:18\">Y. M. Kat. III, 83ᶜ</cite> bot.; Midr. Sam. ch. XIX; <cite ref=\"Yevamot 96b:17\">Yeb. 96ᵇ</cite>; a. fr.—V. Fr. M’bo p. 104ᵃ, sq.—4) J. the bathing master (?). ",
+						"<cite ref=\"Jerusalem Talmud Berakhot 2:3:6\">Y. Ber. II, 4ᶜ</cite> top <he>עד י׳ תרמוסרא היה לובשן</he> until he came to the station of J. &c. he kept the T’fillin on; <cite ref=\"Pesikta Rabbati 22:1\">Pesik. R. s. 22</cite> <he>עד יעקר תורמוסא</he>.—5) J. of K’far Sikhnaya, a disciple of Jesus of Nazareth. ",
+						"<cite ref=\"Avodah Zarah 17a\">Ab. Zar. 17ᵃ</cite>; a. e.; v. <cite ref=\"O00928\"><he>סִכְנַיָּא</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

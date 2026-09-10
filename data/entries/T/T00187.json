@@ -1,0 +1,41 @@
+{
+	"id": "T00187",
+	"slug": "רגיגתא",
+	"headword": {
+		"text": "רְגִיגְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְגִגְ׳"
+		}
+	],
+	"page": {
+		"number": 1448,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00186\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>desire, longing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 21:3\">Targ. Ps. XXI, 3</cite> <cite ref=\"T00186\"><he>רְגִיגַת</he></cite> (ed. Lag. a. oth. <he>רִגְגַת</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 38:10\">Ib. XXXVIII, 10</cite> (ed. Wil. <he>רַגִ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:20\">Ib. CXIX, 20</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pleasure, joy</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 21:20\">Targ. II Chr. XXI, 20</cite>.—[<cite ref=\"Aramaic Targum to Psalms 19:15\">Targ. Ps. XIX, 15</cite> <he>רגגת</he> ed. Wil., read: <he>רננת</he>, v. <cite ref=\"T00849\"><he>רְנָנָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

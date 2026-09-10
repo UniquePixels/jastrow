@@ -1,0 +1,45 @@
+{
+	"id": "O00190",
+	"slug": "סדן-2",
+	"headword": {
+		"text": "סַדָּן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סַדָּנָא",
+			"homograph": 1
+		},
+		{
+			"text": "סְדָנָא"
+		}
+	],
+	"page": {
+		"number": 957,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"O00189\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 18:3\">Targ. Jer. XVIII, 3</cite> (h. text <he>אבנים</he>).—",
+				"<cite ref=\"Chullin 16a\">Ḥull. 16ᵃ</cite> <he>ס׳ דפחרא</he> Ar. (ed. <cite ref=\"O01642\"><he>סרנא</he></cite>) the potter’s block (wheel turned by hand); <he>ס׳ דמיא</he> wheel turned by water. ",
+				"<cite ref=\"Pesachim 94b\">Pes. 94ᵇ</cite> <he>כי ס׳ דריחיא</he> Ms. M. 2 a. Ar. (ed. <he>כבוצינא</he>) like the movement of the block of the mill (millstone, the pivot remaining stationary, v. <cite ref=\"B00311\"><he>בּוּצִינָא</he></cite>). Ib. 28ᵃ, v. <cite ref=\"O00175\"><he>סַדָּא</he></cite>. ",
+				"<cite ref=\"Kiddushin 27b:4\">Kidd. 27ᵇ</cite> <he>ס׳ דארעא חד הוא</he> the land (although consisting of disconnected fields) is one block (by taking symbolical possession of one field, you take possession of the whole complex contracted for); <cite ref=\"Bava Kamma 12b:3\">B. Kam. 12ᵇ</cite> (Ms. M. <cite ref=\"Q01881\"><he>פרנא</he></cite>).—",
+				"<cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> <he>והוה ביה חד ס׳</he> there was in the garden one sycamore trunk; <cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite> <cite ref=\"O00184\"><he>סדיין</he></cite> (a. otherwise corrupted; corr. acc.).—[<cite ref=\"Pesachim 113a\">Pes. 113ᵃ</cite> <he>בי סדנא</he> Ar., v. <cite ref=\"O00261\"><he>סוּדָנָא</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (perh. an adaptation of Latin <i>essedum</i>) <i>travelling carriage</i>.—Pl. <he>סַדָּנֵי</he>, <he>סְדָנֵי</he>, <he>סְדָנַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 45:19\">Targ. Y. Gen. XLV, 19</cite>; <cite ref=\"Targum Jonathan on Genesis 45:21\">21</cite>; <cite ref=\"Targum Jonathan on Genesis 45:27\">27</cite> (ed. Amst. a. oth. <he>סר׳</he>, with <cite ref=\"T00000\"><he>ר</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

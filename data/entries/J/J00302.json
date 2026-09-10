@@ -1,0 +1,58 @@
+{
+	"id": "J00302",
+	"slug": "יחס-2",
+	"headword": {
+		"text": "יְחַס"
+	},
+	"page": {
+		"number": 575,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to nobilize, distinguish</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 25:13\">Targ. Y. Num. XXV, 13</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to trace, to record</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 12b\">Meg. 12ᵇ</cite> [read:] <he>אי לְיַחוּסֵיח קאתי לְיַחֲסֵיה וליזיל וכ׳</he> (v. Rabb. D. S. a. l. note) if the text (<cite ref=\"Esther 2:5\">Esth. II, 5</cite>) were intended to give Mordecai’s genealogy, it ought to trace him back to Benjamin. ",
+				"<cite ref=\"Yevamot 62a:15\">Yeb. 62ᵃ</cite> <he>יַחְסִינְהוּ בשמייהו וכ׳</he> he recorded them by their names and those of their fathers &c."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>ַ</he><cite ref=\"H01328\"><he>חֵס</he></cite> same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיָיחַס"],
+			"senses": [
+				{
+					"gloss": "<i>to be enrolled, recorded</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 1:18\">Targ. Num. I, 18</cite> (h. text <he>ויתילדו</he>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 21:12\">Targ. Y. Gen. XXI, 12</cite>. ",
+						"<cite ref=\"Targum of I Chronicles 5:1\">Targ. I Chr. V, 1</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

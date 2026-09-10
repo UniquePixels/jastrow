@@ -1,0 +1,49 @@
+{
+	"id": "T00655",
+	"slug": "ריס-2",
+	"headword": {
+		"text": "רִיס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1475,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00411\"><he>רוס</he></cite> = <cite ref=\"T00427\"><he>רוץ</he></cite>) [<i>course</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ris</i>, a measure of length, 2/15 of a mile (stadium). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 33a:5\">B. Mets. 33ᵃ</cite> (Ar. <cite ref=\"T00411\"><he>רוס</he></cite>, expl. as numerical value <he>רו״ס</he> = 266 cubits). ",
+				"<cite ref=\"Mishnah Bava Kamma 7:7\">B. Kam. VII, 7</cite> (<cite ref=\"Bava Kamma 79b:14\">79ᵇ</cite>) <he>שלשים ר׳</he> thirty <i>ris</i> (four miles). Ib. 83ᵃ; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>race-course</i> (stadium), <i>arena</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:3:1\">Cant. R. to I, 3</cite> <he>בית מדרשו … כמין ר׳</he> the college hall of R. El. was shaped like an arena (an oblong with seats on both sides).—Pl. <he>רִיסִים</he>. Y. B. Mets. V, 10ᶜ bot. (in Chald. dict.) <he>אילין דמפרשין לר׳</he>, v. <cite ref=\"S01643\"><he>קסוסטבן</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>ר׳ של עין</he> (v. <cite ref=\"H01690\"><he>חָרִיץ</he></cite>) <i>eye-lid with eye-lashes</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:2\">Bekh. VI, 2</cite> (<cite ref=\"Bekhorot 38a\">38ᵃ</cite>), v. <cite ref=\"H01690\"><he>חָרִיץ</he></cite>. ",
+				"<cite ref=\"Bekhorot 38b:1\">Bekh. 38ᵇ</cite> top <he>מאי הר׳ … תורא וכ׳</he> what is <i>haris?</i>… The outer row of the eye. Sifra Emor, ch. VI, Par. 7 (expl. <cite ref=\"H01634\"><he>חרוץ</he></cite>, <cite ref=\"Leviticus 22:22\">Lev. XXII, 22</cite>) <he>ר׳ של עיניו וכ׳</he> one whose eye-lid is perforated, nipped, or split.—Pl. as ab., constr. <he>רִיסֵי</he>. ",
+				"<cite ref=\"Bekhorot 43b:10\">Bekh. 43ᵇ</cite> <he>שנשרו ר׳ עיניו</he> whose eye-lids are hairless. ",
+				"<cite ref=\"Sanhedrin 104b:15\">Snh. 104ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Negaim 8:6\">Neg. VIII, 6</cite>. ",
+				"<cite ref=\"Kiddushin 31a:2\">Kidd. 31ᵃ</cite> <he>מבין ר׳ עיניך וכ׳</he> from thy eye-lids can be seen that thou art a widow’s son. ",
+				"<cite ref=\"Horayot 12a:13\">Hor. 12ᵃ</cite> <he>נותנין … ר׳ עיניו</he> they put the oil of anointment between his eye-lids; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

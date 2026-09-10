@@ -1,0 +1,59 @@
+{
+	"id": "B00178",
+	"slug": "בהל-1",
+	"headword": {
+		"text": "בָּהַל"
+	},
+	"page": {
+		"number": 142,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בה</he> , v. <cite ref=\"B00170\"><he>בהי</he></cite>) <i>to hurry, be excited, anxious</i>. Part. pass. <cite ref=\"B00165\"><he>בָּהוּל</he></cite> <i>excited, pressed</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 11a\">Pes. 11ᵃ</cite> sq. <he>אדם ב׳ הוא וכ׳</he> man is excited when his property is at stake. ",
+				"<cite ref=\"Pesachim 72b:21\">Ib. 72ᵇ</cite> <he>זמנו ב׳</he> his time (for doing the thing) is pressed (it cannot be postponed). ",
+				"<cite ref=\"Yoma 85a\">Yoma 85ᵃ</cite>, a. e. <he>ב׳ על מתו</he> anxious to save his dead relative from the fire."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיהֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to agitate, frighten</i>. Y. Yoma VI, 43ᶜ bot. <he>למה אתה מְבַהֲלֵינוּ</he> why dost thou agitate us.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְבָּהֵל", "נִתְבָּהֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to be excited, confounded</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14:6\">Num. R. s. 14</cite> (ref. to <i>tibbahel</i>, <cite ref=\"Ecclesiastes 8:3\">Koh. VIII, 3</cite>) <he>אל תִּתְבָּהֵל וכ׳</he> be not intimidated by his wrath, <cite ref=\"Ecclesiastes 8:3\">Ib.</cite> <he>לא נ׳ מן מעשיה</he> he was not carried away by her (tempting) actions. ",
+						"<cite ref=\"Ecclesiastes 8:3\">Ib.</cite> <he>לא נ׳ מפנאי וכ׳</he> he was not confounded on account of his being alone in the house. ",
+						"<cite ref=\"Pesikta Rabbati 36:1\">Pesik. R. s. 36</cite> <he>מתרעשים ומִתְבַּהֲלִים</he> were in commotion and alarm.—"
+					]
+				}
+			],
+			"stem": "Hithpa. a. Nithpa."
+		},
+		{
+			"forms": ["מוּבְהָל"],
+			"senses": [
+				{
+					"gloss": ", or Pual <he>מְבוֹהָל</he> <i>confounded, hard to pronounce</i> or <i>remember</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 14b\">Gitt. 14ᵇ</cite> <he>שמותיהן מוב׳ וכ׳</he> Ar. (ed. <he>מבו׳</he>) their names are bewildering, beginning with Arda, Arta, Phile.—[<cite ref=\"Devarim Rabbah 9\">Deut. R. s. 9</cite> <he>דעתו מובלגת</he>, read <he>מוּבְהֶלֶת</he> his mind is confused, he cannot collect himself for prayer.]"
+					]
+				}
+			],
+			"stem": "Part. Hof."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "J00249",
+	"slug": "יושן",
+	"headword": {
+		"text": "יוֹשֶׁן"
+	},
+	"page": {
+		"number": 572,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00699\"><he>יָשָׁן</he></cite>) <i>former condition, original usage</i> (cmp. <cite ref=\"A01655\"><he>אֵיתָן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 19a:12\">Snh. 19ᵃ</cite> <he>החזיר … הדבר ליוֹשְׁנוֹ</he> restored the usage to its original state; Y. ib. II, 20ᵃ bot.; <cite ref=\"Jerusalem Talmud Berakhot 3:2:5\">Y. Ber. III, 6ᵇ</cite> <he>חזרו הדברים ליוֹשְׁנָן</he>; <cite ref=\"Ketubot 8b:13\">Keth. 8ᵇ</cite> <he>החזירו הדבר ליוֹשְׁנוֹ</he> (not <he>ליושנה</he>). ",
+				"<cite ref=\"Kiddushin 66a:12\">Kidd. 66ᵃ</cite> <he>עד שבא … והחזיר את התורה ליוֹשְׁנָהּ</he> until Simon b. Sh. came and restored the Law to its former authority. ",
+				"<cite ref=\"Yoma 69b\">Yoma 69ᵇ</cite>, v. <cite ref=\"P00480\"><he>עֲטָרָה</he></cite>; <cite ref=\"Jerusalem Talmud Berakhot 7:3:9\">Y. Ber. VII, 11ᶜ</cite>; a. e."
+			]
+		}
+	]
+}

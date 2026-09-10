@@ -1,0 +1,27 @@
+{
+	"id": "G00490",
+	"slug": "זלחא",
+	"headword": {
+		"text": "זִלְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִילְחָא"
+		}
+	],
+	"page": {
+		"number": 401,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00489\">same</cite>, <i>sprinkling, gurgling, jet</i> of water. ",
+			"units": [
+				"<cite ref=\"Shabbat 95a:5\">Sabb. 95ᵃ</cite> <he>שרי זי׳</he> permitted sprinkling the floors on the Sabbath. ",
+				"<cite ref=\"Megillah 28b:7\">Meg. 28ᵇ</cite> <he>ז׳ דמטרא</he> a shower.—Pl. constr. (<cite ref=\"G00356\"><he>זַלְ׳</he></cite>) <he>זִלְחֵי</he>, <cite ref=\"G00538\"><he>זִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 28:11\">Targ. Job XXVIII, 11</cite> Regia (ed. <he>קלילי</he>, h. text <cite ref=\"B00776\"><he>בכי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 42:8\">Targ. Ps. XLII, 8</cite> <he>ז׳ מרזביין</he> the gurgling of gutters, v. <cite ref=\"G00488\"><he>זְלַח</he></cite> <i>Ithpe.</i>"
+			]
+		}
+	]
+}

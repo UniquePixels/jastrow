@@ -1,0 +1,38 @@
+{
+	"id": "U00674",
+	"slug": "שחמא",
+	"headword": {
+		"text": "שִׁחְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1549,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00673\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (adj.) <i>dark, black</i>.—Pl. <he>שִׁחְמֵי</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>, v. <cite ref=\"U00673\">preced.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (noun) <i>blackness, black spot; tarnish</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 49a:14\">B. Kam. 49ᵃ</cite> <he>כל היכי דסליק ביה ש׳ לולד</he> whenever he struck her so that the black mark (bruise) could be communicated to the embryo (excluding a blow on her hand or foot); <cite ref=\"Yalkut Shimoni on Torah 335:9\">Yalk. Ex. 335</cite>. ",
+				"<cite ref=\"Bava Kamma 96b:5\">B. Kam. 96ᵇ</cite> <he>מידע ידיע שִׁיחְמַיְיהוּ</he> (Ms. H. <he>שִׁחְמַיְהוּ</he>) (when he makes the coins which he blackened look new again,) their tarnish remains noticeable."
+			],
+			"label": "2"
+		}
+	]
+}

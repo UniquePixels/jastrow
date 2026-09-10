@@ -1,0 +1,43 @@
+{
+	"id": "C01123",
+	"slug": "גנזא",
+	"headword": {
+		"text": "גִּנְזָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּנִיז"
+		},
+		{
+			"text": "גְּנַז"
+		}
+	],
+	"page": {
+		"number": 258,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"C01122\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 25:29\">Targ. I Sam. XXV, 29</cite> <cite ref=\"C01121\"><he>גְּנַז</he></cite>; <cite ref=\"Targum Jonathan on Deuteronomy 31:16\">Targ. Y. Deut. XXXI, 16</cite> <cite ref=\"C01139\"><he>גְּנִיז</he></cite>.—Pl. <he>גִּנְזִין</he>, <he>גִּנְזֵי</he>, <he>גְּנִיזַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:13\">Targ. Ps. CIV, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 13:15\">Targ. Hos. XIII, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:19\">Targ. Y. Deut. XXXIII, 19</cite> the hidden treasures.—",
+				"<cite ref=\"Kohelet Rabbah 11:1\">Koh. R. to XI, 1</cite> [read:] <he>ועול לבי גנזי דידי וכ׳</he> and go into my treasury and take from there seven suits of clothes."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>garments kept in the royal treasury</i> (cmp. Koh. R. l. c., a. <cite ref=\"I00742\"><he>טַרְזַיָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:3\">Targ. Esth. I, 3</cite> <he>גנזי מילתא</he> fine woolen garments. [<cite ref=\"Avodah Zarah 35b\">Ab. Zar. 35ᵇ</cite>, v. <cite ref=\"C00328\"><he>גַּוָּוזָא</he> I</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

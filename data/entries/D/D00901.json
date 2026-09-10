@@ -1,0 +1,32 @@
+{
+	"id": "D00901",
+	"slug": "דמכא",
+	"headword": {
+		"text": "דַּמְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּמְכָא"
+		},
+		{
+			"text": "דּוּמְ׳"
+		}
+	],
+	"page": {
+		"number": 314,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00900\">preced.</cite>) <i>sleep; couch</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 132:4\">Targ. Ps. CXXXII, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:16\">Targ. Y. Deut. XXVIII, 16</cite>; a. e.—Pl. <he>דַּמְכִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 149:5\">Targ. Ps. CXLIX, 5</cite> <he>דַּמכיהון</he> Ms. (ed. <cite ref=\"D00873\"><he>דִּמְ׳</he></cite>) their resting places."
+			]
+		}
+	]
+}

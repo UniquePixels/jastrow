@@ -1,0 +1,52 @@
+{
+	"id": "H00706",
+	"slug": "חיטא",
+	"headword": {
+		"text": "חִיטָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִטָּא"
+		},
+		{
+			"text": "חִיטַּיָּיא"
+		},
+		{
+			"text": "חִיטִּין"
+		},
+		{
+			"text": "חִיטֵּי"
+		},
+		{
+			"text": "חִטּ׳"
+		}
+	],
+	"page": {
+		"number": 453,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (= h. <cite ref=\"N00555\"><he>הִטָּה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wheat</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 21:20\">Targ. I Chr. XXI, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 81:17\">Targ. Ps. LXXXI, 17</cite>; a. e.—",
+				"<cite ref=\"Berakhot 58b:3\">Ber. 58ᵇ</cite> <cite ref=\"H00616\"><he>חִטֵּי</he></cite>.—",
+				"<cite ref=\"Berakhot 64a:3\">Ib. 64ᵃ</cite>; <cite ref=\"Bava Batra 145b:8\">B. Bath. 145ᵇ</cite>; <cite ref=\"Horayot 14a:4\">Hor. 14ᵃ</cite> (prov.) <he>הכל צריכין למרי ח׳</he> all people depend on the owners of wheat, i.e. sound learning is the bread, while dialectics and homiletics are the spices of study; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>glands, nipples, protuberances</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 18b:10\">Ḥull. 18ᵇ</cite> <he>פגע בח׳</he> if, in slaughtering, the knife struck the glands near the windpipe. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot. <he>ח׳ ביזייא</he> the nipples of the breasts; Y. Snh. VI, 23ᶜ bot. <he>ח׳ מחייא</he> (corr. acc.). V. <cite ref=\"H01277\"><he>חִנְטָא</he></cite> a. <cite ref=\"H00715\"><he>חִיטְּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

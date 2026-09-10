@@ -1,0 +1,36 @@
+{
+	"id": "T00217",
+	"slug": "רגע-1",
+	"headword": {
+		"text": "רָגַע"
+	},
+	"page": {
+		"number": 1450,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to move, swing; to balance</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְגִּיעַ"],
+			"senses": [],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["רִגֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to move</i> from place to place; (of an infant) <i>to crawl</i>. Y. Kidd. IV, 65ᵈ bot.; Y. B. Bath. III, beg. 13ᵈ <he>תינוק המַרְגִּיעַ</he> a (foundling) infant which can leave the place where it was put down. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 846:1\">Yalk. Ps. 846</cite> <he>וראו אותו מְרַגֵּעַ על וכ׳</he> they saw him crawl on hands and feet with a reed in his mouth &c. (playing with his child); <cite ref=\"Midrash Tehillim 92:1\">Midr. Till. to Ps. XCII, 15</cite> ed. Bub. <cite ref=\"M02192\"><he>מַרְגִּיעַ</he></cite> (missing in eds.)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"id": "G00583",
+	"slug": "זנק",
+	"headword": {
+		"text": "זָנַק"
+	},
+	"page": {
+		"number": 407,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to squirt, sputter, eject with force</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 59b:9\">Nidd. 59ᵇ</cite> <he>במְזַנֶּקֶת</he> it means a woman discharging urin in a gush. ",
+				"<cite ref=\"Chullin 38a:13\">Ḥull. 38ᵃ</cite> <he>זִינְּקָה</he> the animal’s blood sputtered (when its jugular arteries were cut). ",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:5:4\">Y. Yoma I, 39ᵃ</cite> bot. <he>חוטמו מְזַנֵּק תולעים</he> his nose discharging worms."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to make a persons’ mouth water</i>,] <i>to make a person sick by withholding from him a desired dish</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 16\">Ex. R. s. 16</cite>, end <he>אתם זִינַּקְתֶּם את בני וכ׳</he> ye made my children sick by withholding from them meat, when ye ate &c."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>זִינֵּק</he> (b. h.) ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזְנִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to drop, to pour</i>. Y. Sabb. VIII, 11ᵇ bot. <he>במַזְנִיק שנו</he> the Mishnah means when one uses pitch or sulphur in a liquid state.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

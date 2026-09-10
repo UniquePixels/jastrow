@@ -1,0 +1,40 @@
+{
+	"id": "T00427",
+	"slug": "רוץ",
+	"headword": {
+		"text": "רוּץ"
+	},
+	"page": {
+		"number": 1463,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to run</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 153b:10\">Sabb. 153ᵇ</cite> <he>רָץ תחתיה וכ׳</he> he must run under it (with the burden on his shoulders) until he reaches his home, opp. <he>קלי קלי</he>. ",
+				"<cite ref=\"Berakhot 6b:10\">Ber. 6ᵇ</cite> <he>לעולם יָרוּץ אדם וכ׳</he> man should always run to hear the word of the <i>hălakhah</i>, even on the Sabbath. ",
+				"<cite ref=\"Pesachim 112a\">Pes. 112ᵃ</cite>; <cite ref=\"Pirkei Avot 5:20\">Ab. V, 20</cite> <he>רץ כצבי</he> quick like a deer. ",
+				"<cite ref=\"Sanhedrin 96a:8\">Snh. 96ᵃ</cite> <he>יכול אני לָרוּץ וכ׳</he> I can run for three parasangs in front of horses. ",
+				"<cite ref=\"Sanhedrin 96a:9\">Ib.</cite> <he>ומה בשכר … שרץ</he> thou wonderest at the reward for four steps which that wicked man (Baladan) ran for my honor’s sake; <he>שרָצוּ לפני וכ׳</he> who ran before me like horses; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵרִיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to make run, hasten</i>. Mekh. B’shall., Shir., s. 2 <he>למה רַצְתָּ … מצרי הֱרִיצַנִי וכ׳</he> why didst thou run after my children?, and he (the horse) says, the Egyptian made me run against my will; <he>הסוס הריצני וכ׳</he> the horse carried me swiftly against my will. Ib. ",
+					"units": [
+						"<cite ref=\"Exodus 2\">B’shall., s. 2</cite> <he>שהיו מְרִיצִים המרכבה</he> who drove the chariot. Y. Shek. VIII, 51ᵃ bot. <he>מְרִיצִין</he>, v. <cite ref=\"M02677\"><he>מְרִיצָה</he></cite>. ",
+						"<cite ref=\"Kohelet Rabbah 12:6:1\">Koh. R. to XII, 6</cite> (play on <he>ותרץ</he>, <cite ref=\"Kohelet Rabbah 12:6:1\">ib.</cite>) <he>ומְרִיצָה וכ׳</he>, v. <cite ref=\"C00885\"><he>גָּלָה</he></cite>; <cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite> <he>ומריקה</he> (corr. acc.). ",
+						"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> <he>אר̇ץ̇ כנגד … שהיא מר̇יצ̇ה וכ׳</he> the earth is called <i>erets</i>, corresponding to the spring season, when she hastens her fruits to come forth. ",
+						"<cite ref=\"Vayikra Rabbah 28:6\">Lev. R. s. 28</cite> <he>דברים שהן מריצין לבני מעים</he> things which make the bowels run (loosen the bowels); <cite ref=\"Yalkut Shimoni on Nach 344:2\">Yalk. Ez. 344</cite>; <cite ref=\"Pesikta Rabbati 18:1\">Pesik. R. s. 18</cite> <he>מצירים</he> (corr. acc.); (Pesik. Haʿomer, p. 71 <he>משלשלום</he>); a. fr.—[<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>; Tanḥ. Balak 4 <he>הכל מריצים</he>, v. <cite ref=\"T01001\"><he>רָצַץ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

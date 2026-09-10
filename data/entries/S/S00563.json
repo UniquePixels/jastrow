@@ -1,0 +1,35 @@
+{
+	"id": "S00563",
+	"slug": "קורא-3",
+	"headword": {
+		"text": "קוֹרָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1341,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נְקַר</he> I) [<i>picker</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heron</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 64:10\">Gen. R. s. 64</cite>, end; <cite ref=\"Yalkut Shimoni on Torah 111:15\">Yalk. ib. 111</cite>, v. <cite ref=\"M02400\"><he>מַקּוֹרָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>young bird</i>.—Pl. <cite ref=\"S00342\"><he>קוֹרִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 34:15\">Targ. Is. XXXIV, 15</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

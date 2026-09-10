@@ -1,0 +1,22 @@
+{
+	"id": "R00014",
+	"slug": "צאתא",
+	"headword": {
+		"text": "צָאתָא"
+	},
+	"page": {
+		"number": 1257,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00149\"><he>צוֹאָה</he></cite>, <i>filth, turpitude</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:12\">Targ. Prov. XXX, 12</cite>. [<cite ref=\"Aramaic Targum to Proverbs 11:7\">Ib. XI, 7</cite> some ed., oth. <cite ref=\"P00006\"><he>עָאתָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "P00298",
+	"slug": "עוני-1",
+	"headword": {
+		"text": "עוֹנִי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עֹנִי"
+		}
+	],
+	"page": {
+		"number": 1055,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00972\"><he>עָנָה</he> II</cite> , v. <cite ref=\"P00295\"><he>עוֹנָה</he> II</cite>) <i>misery, poverty, privation</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:9\">Ab. IV, 9</cite> <he>כל המקיים … מע׳ וכ׳</he> he who fulfills the Law in spite of poverty, shall finally do so in wealth; <he>וכל המבטל … סופו לבטלה מע׳</he> and he who neglects the Law on account of his wealth, shall finally neglect it from poverty. ",
+				"<cite ref=\"Moed Katan 17b:2\">M. Kat. 17ᵇ</cite>, a. e. <he>כל מקום … או מיתה או ע׳</he> wherever the scholars put their eyes (upon a person, i.e. decreed the ban), there follows either death or poverty. ",
+				"<cite ref=\"Midrash Tehillim 5:4\">Midr. Till. to Ps. V</cite> (ref. to <cite ref=\"I Chronicles 22:13\">I Chr. XXII, 13</cite>) <he>בעָנְיִי בצער וכ׳</he> what does ‘in my misery’ mean? In the pain which I suffered about it. ",
+				"<cite ref=\"Sifrei Devarim 130:5\">Sifré Deut. 130</cite> (ref. to <cite ref=\"Deuteronomy 16:3\">Deut. XVI, 3</cite>) <he>למה נקרא לחם ע׳ על שם עינוי וכ׳</he> why is it called bread of misery? For the affliction which they suffered in Egypt; a. fr.—[<cite ref=\"Pesachim 36b:13\">Pes. 36ᵇ</cite> <he>תיפוק ליה מלחם ע׳ … באוני</he> derive it (that you dare not use second tithes for unleavened bread to be eaten with the Passover lamb) from the expression ‘bread of misery’, which intimates ‘that which it is permitted to eat in mourning (to the exclusion of second tithes, v. ",
+				"<cite ref=\"Deuteronomy 26:14\">Deut. XXVI, 14</cite>); ib.ᵃ <he>לחם ע׳ מה שנאכל באנינות</he>. Ib., a. e. <he>לחם ע׳ לחם שעונין עליו וכ׳</he> ‘bread of recitation’, bread over which they recite many words (the Hagadah, Hallel &c.).]"
+			]
+		}
+	]
+}

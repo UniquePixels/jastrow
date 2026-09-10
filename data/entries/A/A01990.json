@@ -1,0 +1,23 @@
+{
+	"id": "A01990",
+	"slug": "אמה-2",
+	"headword": {
+		"text": "אָמָה"
+	},
+	"page": {
+		"number": 75,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"A01961\"><he>אֵם</he></cite>; cmp. <cite ref=\"A01989\">preced.</cite>) <i>hand-maid</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 12b\">Sot. 12ᵇ</cite>, v. <cite ref=\"A01989\">preced.</cite>; a. e.—Pl. <cite ref=\"A01993\"><he>אֲמָהוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:5\">Y. Snh. II, 20ᵇ</cite> bot.; v. <cite ref=\"A01961\"><he>אֵם</he></cite>; a. e."
+			]
+		}
+	]
+}

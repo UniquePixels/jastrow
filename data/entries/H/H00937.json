@@ -1,0 +1,29 @@
+{
+	"id": "H00937",
+	"slug": "חכך-3",
+	"headword": {
+		"text": "חֲכַךְ"
+	},
+	"page": {
+		"number": 462,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"M01387\"><he>אִתְחַכֵּךְ</he></cite> as <cite ref=\"H00936\">preced.</cite> <i>Hithpa.</i> ",
+					"units": ["<cite ref=\"Bava Kamma 44a\">B. Kam. 44ᵃ</cite>."]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

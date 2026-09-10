@@ -1,0 +1,24 @@
+{
+	"id": "J00402",
+	"slug": "ילתא",
+	"headword": {
+		"text": "יַלְתָּא"
+	},
+	"page": {
+		"number": 579,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f. (= <cite ref=\"A01316\"><he>אֲיַלְתָּא</he></cite>) <i>Yalta</i>, wife of R. Naḥman, daughter of a Resh G’lutha. ",
+			"units": [
+				"<cite ref=\"Gittin 67b:17\">Gitt. 67ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 51b:7\">Ber. 51ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 54b:12\">Sabb. 54ᵇ</cite> <he>עשיתה י׳</he> thou treatest that animal as if she were Yalta."
+			]
+		}
+	]
+}

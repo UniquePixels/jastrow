@@ -1,0 +1,29 @@
+{
+	"id": "Q01627",
+	"slug": "פרוה",
+	"headword": {
+		"text": "פַּרְוָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְוָוה"
+		}
+	],
+	"page": {
+		"number": 1217,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Parva</i>, name of a Persian builder and magian, from whom a compartment in the Temple was supposed to have been named: <he>לִשְׁכַּת הַפּ׳</he> or <cite ref=\"Q00053\"><he>בֵּית הַפַּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 5:3\">Midd. V, 3</cite>. ",
+				"<cite ref=\"Mishnah Yoma 3:3\">Yoma III, 3</cite>; <cite ref=\"Mishnah Yoma 3:6\">6</cite>; <cite ref=\"Tosefta Yoma 1:20\">Tosef. ib. I, 20</cite>. ",
+				"<cite ref=\"Yoma 35a:1\">Yoma 35ᵃ</cite>, v. <cite ref=\"A01980\"><he>אַמְגּוּשָׁא</he></cite>; <cite ref=\"Chullin 62b\">Ḥull. 62ᵇ</cite>, v. <cite ref=\"Q01608\"><he>פַּרְוָא</he></cite>. [Our w. is perh. identical with <cite ref=\"Q01638\"><he>פַּרְוָור</he></cite>.]"
+			]
+		}
+	]
+}

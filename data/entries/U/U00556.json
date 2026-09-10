@@ -1,0 +1,23 @@
+{
+	"id": "U00556",
+	"slug": "שורתא",
+	"headword": {
+		"text": "שׁוּרְתָא"
+	},
+	"page": {
+		"number": 1542,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U00544\"><he>שׁוּרָה</he></cite>, <i>row, line</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 18:20\">Targ. Y. Ex. XVIII, 20</cite> <he>שׁוּרַת דינא</he>; <he>מלגיו לש׳</he>, v. <cite ref=\"U00544\"><he>שׁוּרָה</he></cite>.—Pl. <cite ref=\"U00545\"><he>שׁוּרָוָון</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 33:27\">Targ. Job XXXIII, 27</cite> Ms. Var. <he>יעביד ש׳ וכ׳</he> let him form lines of men (h. text <cite ref=\"J00703\"><he>יָשֹׁר</he></cite>), v. <cite ref=\"U00544\"><he>שׁוּרָה</he></cite>."
+			]
+		}
+	]
+}

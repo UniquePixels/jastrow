@@ -1,0 +1,30 @@
+{
+	"id": "H00249",
+	"slug": "חובר",
+	"headword": {
+		"text": "חוֹבֵר"
+	},
+	"page": {
+		"number": 429,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00107\"><he>חָבַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) <i>charmer</i>, v. <cite ref=\"H00107\"><he>חָבַר</he></cite> 3). 3).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>assistant, partner</i>, v. <cite ref=\"H00107\"><he>חָבַר</he></cite> 1).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "N00425",
+	"slug": "נזבא",
+	"headword": {
+		"text": "נִזְבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִיזְ׳"
+		}
+	],
+	"page": {
+		"number": 890,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>nizba</i>, supposed to be a <i>measure of length</i>, the height of a fist with the thumb. ",
+			"units": [
+				"<cite ref=\"Menachot 69b:6\">Men. 69ᵇ</cite> <he>רום נ׳ חיטי</he> Ms. M. (ed. <cite ref=\"K00515\"><he>כיזבא</he></cite>, v. Rabb. D. S. a. l. note) a layer of wheat of the height of a <i>nizba</i>; [for oth. vers., v. <cite ref=\"T00341\"><he>רוּזִינְקָא</he></cite>]."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "H00203",
+	"slug": "חדסראה",
+	"headword": {
+		"text": "חַדְסְרָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַדְסְרַאי"
+		}
+	],
+	"page": {
+		"number": 426,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00202\">preced.</cite>) <i>the eleventh</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 24:12\">Targ. I Chr. XXIV, 12</cite> (ed. Lag. two words). ",
+				"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. Num. XXV, 8</cite> (ed. Amst. <cite ref=\"H00203\"><he>חַדְסְרָאֵי</he></cite>)."
+			]
+		}
+	]
+}

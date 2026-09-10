@@ -1,0 +1,28 @@
+{
+	"id": "N01060",
+	"slug": "נפלא-3",
+	"headword": {
+		"text": "נִפְלָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "נִפְלָאָה"
+		},
+		{
+			"text": "נִפְלָאוֹת"
+		}
+	],
+	"page": {
+		"number": 925,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"Q00925\"><he>פָּלָא</he></cite>) <i>miracles</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 106:1\">Midr. Till. to Ps. CVI</cite>; v. <cite ref=\"Q00926\"><he>פֶּלֶא</he></cite>."
+			]
+		}
+	]
+}

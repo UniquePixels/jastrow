@@ -1,0 +1,28 @@
+{
+	"id": "Q02121",
+	"slug": "פתגא",
+	"headword": {
+		"text": "פְּתָגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּתָאגָא"
+		}
+	],
+	"page": {
+		"number": 1250,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פתג</he> <i>to cut, divide</i>; cmp. etymol. of <cite ref=\"B00074\"><he>בֶּגֶד</he></cite>) <i>piece of cloth, sheet, cloak</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 31:24\">Targ. Prov. XXXI, 24</cite> (h. text <cite ref=\"O00185\"><he>סָדִין</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 22:19\">Targ. Ps. XXII, 19</cite> <he>פתאגִי</he> Ms. (Ar. <he>פתגי</he>; ed. Lag. <cite ref=\"Q02115\"><he>פְּתָאגַאי</he></cite> pl.; ed. Wil. <he>פתנֵי</he>, read <he>פתגי</he>)."
+			]
+		}
+	]
+}

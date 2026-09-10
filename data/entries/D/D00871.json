@@ -1,0 +1,29 @@
+{
+	"id": "D00871",
+	"slug": "דמאי",
+	"headword": {
+		"text": "דְּמַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּמַי"
+		}
+	],
+	"page": {
+		"number": 312,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00891\"><he>דמי</he></cite>) <i>suspicion, talk</i>, whence (cmp. <cite ref=\"D00277\"><he>דּוּמָה</he></cite>, <cite ref=\"U02084\"><he>שְׁתוֹקִי</he></cite>) <i>D’mai</i>, fruits about which there is a suspicion as to the tithes therefrom being properly taken, opp. <cite ref=\"F00014\"><he>וַדַּאי</he></cite>. Y. Maas. Sh. V, end, 56ᵈ [read:] <he>דמאי דְּמַי תיקן דְּמַי לא תיקן</he> <i>D’mai</i> means, There is a talk that he has given the tithes, there is a talk that he has not; <cite ref=\"Jerusalem Talmud Sotah 9:11:10\">Y. Sot. IX, 24ᵇ</cite> top <he>ומי לא תיקן</he> (read <cite ref=\"D00894\"><he>דְּמַי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:4:2\">Y. Dem. II, 22ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Shekalim 5:1:7\">Y. Shek. V, 48ᵈ</cite> top <he>ארימתון דְּמַיָּין</he> have you set apart what is due of them (the barley) according to the law of D’mai?—",
+				"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite>. ",
+				"<cite ref=\"Mishnah Demai 1:3\">Ib. 3</cite> <he>פטור מן הד׳</he> is exempt from the law of D’mai (no tithes required of them on account of doubt); a. fr.—<i>D’mai</i>, name of a treatise of <i>Mishnah</i>, <i>Tosefta</i> a. <i>Y’rushalmi</i> of the Order of <i>Z’raïm</i>. [Not to be confounded with <cite ref=\"D00871\"><he>דְּמַאי</he></cite> = <cite ref=\"D00871\"><he>ד־מאי</he></cite> <i>of what</i>.]"
+			]
+		}
+	]
+}

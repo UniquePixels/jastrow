@@ -1,0 +1,40 @@
+{
+	"id": "A00211",
+	"slug": "אברוורי",
+	"headword": {
+		"text": "אַבְרַוְורֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבְרוּרֵי"
+		}
+	],
+	"page": {
+		"number": 9,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (denom. of <cite ref=\"A00199\"><he>אבר</he></cite>, cmp. <he>חברורי</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A00200\"><he>אָבַר</he></cite> Pi.) <i>wings</i> or <i>corners of city walls</i> (h. <cite ref=\"Q01164\"><he>פִּנָּה</he></cite>), <i>pinnacles, mural turrets</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 11a:2\">Sabb. 11ᵃ</cite> ed. (Ar. <he>אברוארי</he>, read <he>אבראורי</he>; Ms. M. <he>אַוְרַוְרֵי</he>; Var. lect. v. Rabb. D. S. a. l. note) "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"A00202\"><he>אֵבֶר</he></cite> a. <cite ref=\"H00110\"><he>חֶבֶר</he></cite>) <i>balance, freight arranged for balancing, ballast</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 24b:1\">B. Bath. 24ᵇ</cite> <he>אימור באברוו׳ הוו מנחי</he> Ms. M. (ed. <he>באברו׳</he>) I may say, the small kegs were placed among the large for balancing purposes."
+			],
+			"label": "2"
+		}
+	]
+}

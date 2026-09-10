@@ -1,0 +1,30 @@
+{
+	"id": "V00331",
+	"slug": "תושלימא",
+	"headword": {
+		"text": "תּוּשְׁלֵימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוּשְׁלָמָא"
+		}
+	],
+	"page": {
+		"number": 1659,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01351\"><he>שְׁלַם</he></cite>) <i>payment, retribution</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 34:8\">Targ. Is. XXXIV, 8</cite> (ed. Lag. <he>תושלמיא</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 13:19\">Targ. Jer. XIII, 19</cite> <cite ref=\"V00331\"><he>תּוּשְׁלֵימַת</he></cite> constr. (ed. Lag. <cite ref=\"V00331\"><he>תּוּשְׁלָמַת</he></cite>). ",
+				"<cite ref=\"Targum of II Chronicles 32:25\">Targ. II Chr. XXXII, 25</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:32\">Targ. O. Deut. XXXII, 32</cite> (ed. Berl. <cite ref=\"V00314\"><he>תּוֹ׳</he></cite>; ed. Vien. <cite ref=\"V00328\"><he>תֻּשְׁ׳</he></cite>; Y. <cite ref=\"V00332\"><he>תּוּשְׁלָמוּתְ׳</he></cite> <i>pl.</i>!); a. e."
+			]
+		}
+	]
+}

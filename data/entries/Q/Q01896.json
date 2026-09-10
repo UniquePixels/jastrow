@@ -1,0 +1,43 @@
+{
+	"id": "Q01896",
+	"slug": "פרנס-1",
+	"headword": {
+		"text": "פִּרְנֵס"
+	},
+	"page": {
+		"number": 1231,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (enlargement of <cite ref=\"Q01879\"><he>פָּרַן</he></cite>) <i>to endow, provide, sustain, cultivate</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 69b:9\">B. Mets. 69ᵇ</cite> <he>אֲפַרְנְסֶנָּה</he> I will improve the field, v. <cite ref=\"Q01879\"><he>פָּרַן</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 43\">Ex. R. s. 43</cite>, end <he>לך פַּרְנְסָהּ ועשה וכ׳</he> go and improve it, and make a vineyard of it. ",
+				"<cite ref=\"Mishnah Ketubot 5:2\">Keth. V, 2</cite> <he>נותנין … לפַרְנֵס את עצמה</he> a betrothed maiden is given twelve months time … to make her outfit; <he>כך … לפרנס את עצמו</he> so is the man allowed a certain time to prepare himself. ",
+				"<cite ref=\"Tosefta Bava Metzia 7:6\">Tosef. B. Mets. VII, 6</cite> <he>פַּרְנֵס לי מלאכה וכ׳</he> provide work for me on thy own property, or give me my wages &c.; a. fr.—Esp. <i>to provide with the necessaries of life; to support</i> (from the charities). ",
+				"<cite ref=\"Bava Batra 8a:8\">B. Bath. 8ᵃ</cite> <he>במה אֲפַרְנֶסְךָ</he> on what claim shall I support thee?; <he>פַּרְנְסֵנִי ככלב וכ׳</he> support me as you would a dog or a raven. ",
+				"<cite ref=\"Gittin 61a:5\">Gitt. 61ᵃ</cite> <he>מְפַרְנְסִין עניי נכרים וכ׳</he> we are bound to support the gentile poor equally with the Jewish poor because of ‘the ways of peace’, v. <cite ref=\"D01096\"><he>דֶּרֶךְ</he></cite>; <cite ref=\"Tosefta Gittin 5:4\">Tosef. ib. V</cite> (<cite ref=\"Tosefta Gittin 3:4\">III</cite>), 4; a. v. fr.—",
+				"<cite ref=\"Bava Batra 14a:11\">B. Bath. 14ᵃ</cite> <he>פִּירְנַסְתָּה … צא ופַרְנֵס ארון לרחבו</he> thou hast made provision (explained how) to fill up the Ark in its length, go and fill it in its width."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְפַּרְנֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to be provided for, be supported; to support one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kiddushin 4:14\">Kidd. IV, 14</cite> <he>והן מִתְפַּרְנְסִין שלא בצער</he> and they (beasts and birds) are provided for without any trouble of their own; <he>אינו דין שאֶתְפַּרְנֵס וכ׳</he> might it not be a proper inference that I (a human being) ought to be sustained without trouble? <cite ref=\"Ketubot 67b:8\">Keth. 67ᵇ</cite> <he>אין לו ואינו רוצה להִתְפּרְנֵס וכ׳</he> if a person has no means and refuses to be supported (from the charities). ",
+						"<cite ref=\"Ketubot 67b:9\">Ib.</cite> <he>יש לו ואינו ואינו רוצה להתפרנס</he> if a person has means but refuses to supply himself with the necessaries of life (preferring to starve himself). ",
+						"<cite ref=\"Berakhot 28a:9\">Ber. 28ᵃ</cite> <he>אי אתה יודע … מִתְפַּרְנְסִים וכ׳</he> thou knowest nothing of the trouble of the scholars,—how they support themselves and what they live on. ",
+						"<cite ref=\"Ketubot 68a:9\">Keth. 68ᵃ</cite> <he>הבנות ניזונות וּמִתְפַּרְנְסוֹת וכ׳</he> daughters must be fed and provided for (clothed) from their father’s estate. ",
+						"<cite ref=\"Berakhot 3b:29\">Ber. 3ᵇ</cite> <he>לכו והִתְפַּרְנְסוּ זה מזה</he> go and support yourselves by dealing with one another; a. v. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

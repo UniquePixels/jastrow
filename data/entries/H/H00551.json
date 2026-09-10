@@ -1,0 +1,59 @@
+{
+	"id": "H00551",
+	"slug": "חזן",
+	"headword": {
+		"text": "חַזָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָזָן"
+		}
+	],
+	"page": {
+		"number": 444,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00525\"><he>חזי</he></cite>) <i>superintendent, officer</i>; ",
+			"units": []
+		},
+		{
+			"gloss": " (school) <i>governor</i> superintending children at their studies. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:3\">Sabb. I, 3</cite> <he>הח׳ רואה וכ׳</he> on Friday night the governor may look in where the children read, but must not read himself."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (in collegiate debates) <i>one who announces the order of proceedings, crier, janitor</i> &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:33\">Y. Ber. IV, 7ᵈ</cite> top <he>אמרו לר׳ זינון הח׳ וכ׳</he> they said to R. Zinon the ḥazan, ‘Say, Commence’ (the debate)!"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (in synagogue) <i>superintendent at prayer-meetings</i>, giving the signals for responses, assigning seats &c., <i>sexton</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 51b:6\">Succ. 51ᵇ</cite> <he>וח׳ הכנסת וכ׳</he> and the sexton stood upon it with the flag in his hand. ",
+				"<cite ref=\"Mishnah Yoma 7:1\">Yoma VII, 1</cite>; <cite ref=\"Mishnah Sotah 7:8\">Sot. VII, 8</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (in court) <i>crier, sheriff</i> (collecting the votes, executing punishment). ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:12\">Macc. III, 12</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:4:6\">Y. Sot. VII, 21ᵈ</cite> top.—Pl. <he>חַזָּנִים</he>, (<cite ref=\"H00552\"><he>חֲזָ׳</he></cite>) <he>חַזָּנִין</he>. ",
+				"<cite ref=\"Mishnah Tamid 5:3\">Tam. V, 3</cite> (Temple sextons).—",
+				"<cite ref=\"Tosefta Sanhedrin 9:1\">Tosef. Snh. IX, 1</cite> <he>הח׳ קורין וכ׳</he> the criers call out each judge’s name (to take his vote); Y. ib. V, end, 23ᵃ <he>חַזָּנֵי כנסיות</he>. ",
+				"<cite ref=\"Makkot 23a:10\">Macc. 23ᵃ</cite> <he>אין מעמידין ח׳ וכ׳</he> we must appoint as constables (for punishing) men of lesser physical strength &c. ",
+				"<cite ref=\"Shabbat 56a:16\">Sabb. 56ᵃ</cite>"
+			],
+			"label": "4"
+		}
+	]
+}

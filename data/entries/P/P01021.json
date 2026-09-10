@@ -1,0 +1,47 @@
+{
+	"id": "P01021",
+	"slug": "ענתא-1",
+	"headword": {
+		"text": "עַנְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּ׳"
+		},
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1097,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P00297\"><he>עוֹנָה</he> I</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>marital duty</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:10\">Targ. O. Ex. XXI, 10</cite> <cite ref=\"P01024\"><he>עַנְתָהּ</he></cite> ed. Berl. (oth. eds. <cite ref=\"P00698\"><he>עוּ׳</he></cite>, <cite ref=\"P00285\"><he>עוֹ׳</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>time</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:5:8\">Y. Ber. II, 5ᵃ</cite> bot. <he>ע׳ דצלותא</he> the time for prayer. Ib. III, 6ᵃ bot. <he>ע׳ דמיכלא</he> the time for meals. ",
+				"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> <he>מן עו׳ דיהבת וכ׳</he> from the moment thou didst put thy hand on it. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:4\">Cant. R. to IV, 4</cite> <he>בההיא ע׳ נשתתק וכ׳</he> in that moment (then) the Samaritan was silenced. ",
+				"<cite ref=\"Bamidbar Rabbah 9:50\">Num. R. s. 9</cite> <he>הא עַנְתִיךְ</he> this is thy opportunity, v. <cite ref=\"P00990\"><he>עַנְיְיתָא</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 11:2:1\">Koh. R. to XI, 2</cite> <he>הא ע׳ מייתון יתיה</he> this is the opportunity to bring him. ",
+				"<cite ref=\"Kohelet Rabbah 11:2:1\">Ib.</cite> <he>ענתה דמלעי</he> the time for studying; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

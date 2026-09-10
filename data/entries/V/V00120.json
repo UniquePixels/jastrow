@@ -1,0 +1,31 @@
+{
+	"id": "V00120",
+	"slug": "תהום-2",
+	"headword": {
+		"text": "תְּהוֹם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּהוֹמָא"
+		}
+	],
+	"page": {
+		"number": 1648,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00119\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:2\">Targ. Gen. I, 2</cite>. ",
+				"<cite ref=\"Onkelos Genesis 7:11\">Ib. VII, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 42:8\">Targ. Ps. XLII, 8</cite>; a. fr.—",
+				"<cite ref=\"Taanit 25b:9\">Taan. 25ᵇ I</cite> saw Ridia (v. <cite ref=\"T00607\"><he>רִידְיָא</he></cite>) <he>וקיימא בין ת׳ תתאה לת׳ עילאה …</he> standing between the lower depth (of the earth), and the upper depth (of the heavens); <he>לת׳ עילאה וכ׳</he> to the upper <i>t’hom</i> he said, distil thy waters; to the lower depth he said, let thy waters spring forth. ",
+				"<cite ref=\"Sukkah 53a:12\">Succ. 53ᵃ</cite>, v. <cite ref=\"S01694\"><he>קְפָא</he></cite>; a. fr.—Pl. <he>תְּהוֹמִין</he>, <he>תְּהוֹמַיָּא</he>, <he>תְּהוֹמֵי</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 8:7\">Targ. Deut. VIII, 7</cite>. ",
+				"<cite ref=\"Onkelos Exodus 15:5\">Targ. Ex. XV, 5</cite>; <cite ref=\"Onkelos Exodus 15:8\">8</cite>; a. fr."
+			]
+		}
+	]
+}

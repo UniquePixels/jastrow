@@ -1,0 +1,22 @@
+{
+	"id": "A00810",
+	"slug": "אופל",
+	"headword": {
+		"text": "אוֹפֶל"
+	},
+	"page": {
+		"number": 31,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"A02733\"><he>אֹפֶל</he></cite>)<i>darkness</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 89\">Gen. R. s. 89</cite>, beg. v. <cite ref=\"A02685\"><he>אֲפֵילָה</he></cite>."
+			]
+		}
+	]
+}

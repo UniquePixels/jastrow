@@ -1,0 +1,43 @@
+{
+	"id": "M02796",
+	"slug": "משא-2",
+	"headword": {
+		"text": "מַשָּׂא"
+	},
+	"page": {
+		"number": 848,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " m (b. h.; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>carrying</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 1:1\">Kel. I, 1</cite> <he>מטמאין במ׳</he> make the carrier unclean. ",
+				"<cite ref=\"Mishnah Kelim 1:3\">Ib. 3</cite> <he>ששוה מַגָּעוֹ למַשָּׂאוֹ</he> the touch of which has the same effect as the carrying of it; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " מ׳ ומַתָּן <i>carrying and giving, business, dealings; worldly affairs</i>; <i>intercourse</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 120a\">Sabb. 120ᵃ</cite> <he>במ׳ ומ׳</he> in worldly affairs, opp. <he>בדברי תורה</he>. ",
+				"<cite ref=\"Kiddushin 35a:10\">Kidd. 35ᵃ</cite> <he>איש דבר מ׳ ומ׳</he> a man (has the protection of the law) because he is engaged in business. ",
+				"<cite ref=\"Yoma 86a:13\">Yoma 86ᵃ</cite> <he>מַשָּׂאוֹ ומַתָּנוֹ וכ׳</he> his dealings with men; a. fr.—",
+				"<cite ref=\"Kiddushin 30b:5\">Kidd. 30ᵇ</cite> <he>כל משאו ומתנו בך</he> he (the tempter) will always be busy with thee."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>burden</i>. Tanḥ. B’midb. 2, v. <cite ref=\"M02816\"><he>מַשּׂוֹא</he></cite>.—Trnsf. <i>burden of prophecy</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44:6\">Gen. R. s. 44</cite> <he>עשרה לשונות נקראת נבואה … מ׳ וכ׳</he> prophecy goes by ten names: ‘vision’ … ‘burden’ &c.; <cite ref=\"Bereishit Rabbah 44:6\">ib.</cite> <he>רבנן אמרי מ׳ כמשמעו וכ׳</he> the Rabbis say, the severest of all is <i>massa</i>, as its name indicates (burden) &c.; <cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite>; a. e.—Pl. <he>מַשָּׂאוֹת</he>. ",
+				"<cite ref=\"Gittin 71a\">Gitt. 71ᵃ</cite> <he>מ׳ ומתנות</he> business transactions."
+			],
+			"label": "3"
+		}
+	]
+}

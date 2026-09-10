@@ -1,0 +1,27 @@
+{
+	"id": "K00882",
+	"slug": "כנשא",
+	"headword": {
+		"text": "כִּנְשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּי׳"
+		}
+	],
+	"page": {
+		"number": 651,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00881\">preced.</cite>) <i>gathering, people</i>.—Pl. <cite ref=\"K00091\"><he>כִּנְשָׁן</he></cite>, <cite ref=\"K00030\"><he>כִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 17:16\">Targ. O. Gen. XVII, 16</cite> (Y. <he>כִּנְשִׁין</he> m.; h. text <he>גוים</he>)."
+			]
+		}
+	]
+}

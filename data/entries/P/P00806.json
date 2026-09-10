@@ -1,0 +1,34 @@
+{
+	"id": "P00806",
+	"slug": "עלילותא",
+	"headword": {
+		"text": "עֲלִילוּתָא"
+	},
+	"page": {
+		"number": 1083,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P00804\"><he>עֲלִילָה</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>doing, disposition</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 859:2\">Yalk. Ps. 859</cite> <he>הוי בר נשא … עֲלִילוּתֵיה וכ׳</he> (not <he>יהוי</he>) O man, how the Merciful deals with thee!"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>indirectness, perverseness</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 88b:1\">Sabb. 88ᵇ</cite> <he>דסגן בע׳</he> those who walk perverse ways, opp. <he>בשלימותא</he>."
+			],
+			"label": "2"
+		}
+	]
+}

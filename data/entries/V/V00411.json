@@ -1,0 +1,33 @@
+{
+	"id": "V00411",
+	"slug": "תיבותא-1",
+	"headword": {
+		"text": "תֵּיבוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תֵּיבוֹ׳"
+		},
+		{
+			"text": "תֵּב׳"
+		}
+	],
+	"page": {
+		"number": 1663,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"V00035\"><he>תֵּבָה</he></cite>, <i>chest, box; ark</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 2:3\">Targ. Ex. II, 3</cite>; <cite ref=\"Onkelos Exodus 2:5\">5</cite> (O. ed. Berl. <cite ref=\"V00411\"><he>תֵּיבוֹ׳</he></cite>) <cite ref=\"Onkelos Genesis 6:14\">Targ. Gen. VI, 14</cite>; <cite ref=\"Onkelos Genesis 6:16\">16</cite>; a. e.—",
+				"<cite ref=\"Ketubot 106a:3\">Keth. 106ᵃ</cite> <he>עבד ת׳ וכ׳</he> he made a box, and sat (in it) before him (Elijah), until he had finished his teaching. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:3:5\">Y. Ber. V, 9ᶜ</cite> <he>עבר חד קומי ת׳</he> a man passed before the ark (recited the prayers, v. <cite ref=\"V00035\"><he>תֵּבָה</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:6\">Y. Kidd. I, 61ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Peah 1:1:22\">Y. Peah I, 15ᶜ</cite> top <he>מפתחא דת׳ הוה וכ׳</he> the key of the box (containing the jewel) was on his father’s finger; a. e."
+			]
+		}
+	]
+}

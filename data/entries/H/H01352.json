@@ -1,0 +1,24 @@
+{
+	"id": "H01352",
+	"slug": "חסוך-1",
+	"headword": {
+		"text": "חֲסוֹךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 486,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01393\"><he>חֲסַךְ</he></cite>) <i>sparing, clemency</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 30:11\">Targ. Jer. XXX, 11</cite>; <cite ref=\"Targum Jonathan on Jeremiah 46:28\">XLVI, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 10:24\">Ib. X, 24</cite> ed. Lag. a. Rashi (ed. <cite ref=\"H01848\"><he>חֲשׂוֹךְ</he></cite>, not <cite ref=\"U00431\"><he>הֲשׁ׳</he></cite>)."
+			]
+		}
+	]
+}

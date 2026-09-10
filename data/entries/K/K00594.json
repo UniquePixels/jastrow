@@ -1,0 +1,30 @@
+{
+	"id": "K00594",
+	"slug": "כיסתא-2",
+	"headword": {
+		"text": "כִּיסְתָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיסְּ׳"
+		}
+	],
+	"page": {
+		"number": 634,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00950\"><he>כְּסַס</he></cite>) <i>fodder</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:25\">Targ. O. Gen. XXIV, 25</cite>; <cite ref=\"Onkelos Genesis 24:32\">32</cite> (v. Berl. Targ. O. II, p. 9; Targ. Y. <cite ref=\"A02510\"><he>אספסתא</he></cite>, Ar. <cite ref=\"K00891\"><he>כַּסָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Judges 19:19\">Targ. Jud. XIX, 19</cite>; <cite ref=\"Targum Jonathan on Judges 19:21\">21</cite> (some ed. <he>כִּסְתָא</he>); a. e.—",
+				"<cite ref=\"Bava Metzia 85a:4\">B. Mets. 85ᵃ</cite> <he>כדהוה רמי כ׳ וכ׳</he> when casting fodder for the animal."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "H01757",
+	"slug": "חרצנה",
+	"headword": {
+		"text": "חַרְצָנָה"
+	},
+	"page": {
+		"number": 506,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01756\">preced.</cite>; collect. noun) <i>kernels</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:2:3\">Y. Maasr. I, 48ᵈ</cite> <he>שתהא ח׳ שלהן וכ׳</he> their kernels must be seen through the berries."
+			]
+		}
+	]
+}

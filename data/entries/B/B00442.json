@@ -1,0 +1,48 @@
+{
+	"id": "B00442",
+	"slug": "בזיונא-2",
+	"headword": {
+		"text": "בִּזְיוּנָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיזְיוּנָא"
+		},
+		{
+			"text": "בֵּי זְיוּנָא"
+		},
+		{
+			"text": "בֵּי זְיָינָא"
+		}
+	],
+	"page": {
+		"number": 153,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00536\"><he>בֵּי</he></cite> a. <cite ref=\"G00315\"><he>זְיוּנָא</he></cite>; v. <cite ref=\"G00193\"><he>זוּן</he> II</cite> a. <cite ref=\"G00340\"><he>זְיָינָא</he> II</cite>) <i>place</i> or <i>means of detention</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>prison</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56a\">Ber. 56ᵃ</cite> Ms., v. <cite ref=\"B00140\"><he>בְּדַיְינֵי</he></cite>. ",
+				"<cite ref=\"Eruvin 11b\">Erub. 11ᵇ</cite> <he>קם אבבא דבי זיינא</he> Ar. (in ed. last two words omitted) placed himself at the prison gate.—Pl. <cite ref=\"B00450\"><he>בִּזְיוּנֵי</he></cite>. ",
+				"<cite ref=\"Shabbat 32a:2\">Sabb. 32ᵃ</cite> (prov.) at the gate of shops (you have) many friends …, <he>אבב ב׳ וכ׳</he> (Ms. Oxf. <he>אבי ב׳</he>) at the prison gate—no friends &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (pl. as a sing. noun) <i>lock, clasp, buckle</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 57b:16\">Sabb. 57ᵇ</cite> what is <i>ist’ma?</i> Answ. <he>בזיוני</he>. What is <i>bizyuné?</i> Answ. <he>כליא פרוחי</he> what imprisons the flying (curls), v. <cite ref=\"A01445\"><he>אִיסְטְמָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

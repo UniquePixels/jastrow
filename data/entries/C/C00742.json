@@ -1,0 +1,28 @@
+{
+	"id": "C00742",
+	"slug": "גימטריון",
+	"headword": {
+		"text": "גִּימַטְרְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּימַטְרִיקוֹן"
+		}
+	],
+	"page": {
+		"number": 239,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (γραμματεῖον, γραμματικόν) <cite ref=\"C00741\">same</cite>, <i>cifer-writing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 3:10:4\">Y. Taan. III, 67ᵃ</cite> <he>לישן גימטריון וכ׳</he>, v. <cite ref=\"A02795\"><he>אֶפְרָא</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 43:1\">Pesik. R. s. 43</cite> <he>לשון גימטריקון הוא ת̇ה̇ו̇ הוא א̇ס̇ף̇</he> it is cipher speech, <i>Toḥu</i> (<cite ref=\"I Samuel 1:1\">I Sam. I, 1</cite>) is (in <cite ref=\"A03391\"><he>א״ת ב״ש</he></cite>) <i>Asaf</i>."
+			]
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"id": "U00160",
+	"slug": "שבע-6",
+	"headword": {
+		"text": "שָׂבֵעַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1516,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O00028\"><he>סָבָא</he> III</cite>)<i>to be filled, to have plenty, be satisfied</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 113b:11\">Sabb. 113ᵇ</cite> (ref. to <cite ref=\"Ruth 2:14\">Ruth II, 14</cite>) <he>ותאכל בעולם הזה ותִשְׂבַּע וכ׳</he> she (Israel) will eat in this world, will have plenty in the Messianic days, and leave over for the hereafter. ",
+				"<cite ref=\"Sukkah 52b:6\">Succ. 52ᵇ</cite>, v. <cite ref=\"T00871\"><he>רָעֵב</he> II</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׂבִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to satisfy</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 76\">Gen. R. s. 76</cite>, end <he>כדי להַשְׂבִּיעַ עיניו וכ׳</he> in order to satisfy the eyes of the wicked man. Y. Keth. V, 30ᵇ <he>הִשְׂבִּיעָתוֹ</he>; Succ. l. c. <he>מַשְׂבִּיעוֹ</he>, v. <cite ref=\"T00871\"><he>רָעֵב</he> II</cite>. ",
+						"<cite ref=\"Sanhedrin 100a\">Snh. 100ᵃ</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 29b:7\">Ib. 29ᵇ</cite> <he>אדם עשוי שלא להשביע את עצמו</he> man is wont not to declare himself wealthy (to disclaim wealth, by saying that he is in debt, even if he is not); <he>כשם שאדם … שלא להשביע את בניו</he> as man is wont to disclaim wealth for himself, so is he likely to disclaim it for his heirs (therefore an ante-mortem confession of indebtedness does not establish a claim against heirs)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["שִׂבֵּעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00159\">same</cite>.—Part. pass. <he>מְשׂוּבָּע</he>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 29:8\">Lev. R. s. 29</cite> (play on <he>השביעי</he>, <cite ref=\"Leviticus 23:24\">Lev. XXIII, 24</cite>) <he>שהוא מש׳ בכל וכ׳</he> a month which is plentiful in every thing &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׂתַּבֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be satiated, sick</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14:12\">Num. R. s. 14</cite> <he>עתיד להִשְׂתַּבּעַ</he>, v. <cite ref=\"O00549\"><he>סִיג</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

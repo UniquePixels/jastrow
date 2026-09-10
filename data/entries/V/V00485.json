@@ -1,0 +1,28 @@
+{
+	"id": "V00485",
+	"slug": "תיקי",
+	"headword": {
+		"text": "תֵּיקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תֵּקֵי"
+		}
+	],
+	"page": {
+		"number": 1666,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>קו</he>, apocope of <he>קום</he>; cmp. <cite ref=\"S00003\"><he>קָא</he></cite>) <i>door posts</i> (cmp. Syr. <cite ref=\"S01000\"><he>קימא</he></cite> P. Sm. 3533). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 6:9\">Targ. Y. Deut. VI, 9</cite> (ed. Vien. <cite ref=\"V00485\"><he>תַּקֵּי</he></cite>); <cite ref=\"Targum Jonathan on Deuteronomy 11:20\">XI, 20</cite>; <cite ref=\"Aramaic Targum to Song of Songs 8:3\">Targ. Cant. VIII, 3</cite> (ed. Vien. <cite ref=\"V00485\"><he>תֵּיקִי</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

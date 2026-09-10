@@ -1,0 +1,30 @@
+{
+	"id": "N01018",
+	"slug": "נפה-1",
+	"headword": {
+		"text": "נָפָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 922,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>נִיפָּה</he>, v. <cite ref=\"N01036\"><he>נפי</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

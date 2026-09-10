@@ -1,0 +1,28 @@
+{
+	"id": "A01219",
+	"slug": "איטלקי",
+	"headword": {
+		"text": "אִיטַלְקִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיטַלְקִית"
+		}
+	],
+	"page": {
+		"number": 47,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A01215\"><he>אִיטַלְיָא</he></cite>) <i>Italian</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:1\">Kidd. I, 1</cite> <he>איסר הא׳</he> <i>As Italicus</i>, Italian as. ",
+				"<cite ref=\"Mishnah Sanhedrin 8:2\">Snh. VIII, 2</cite> <he>באיטלקי</he> Y. ed. (Bab. <he>הא׳</he>, corr. acc.); <cite ref=\"Vayikra Rabbah 37:3\">Lev. R. s. 37</cite> <he>באיטלקית</he> in Italian measure. Y. Sabb. XVIII, beg. 16ᶜ; a. e."
+			]
+		}
+	]
+}

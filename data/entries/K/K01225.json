@@ -1,0 +1,28 @@
+{
+	"id": "K01225",
+	"slug": "כרכשתא-1",
+	"headword": {
+		"text": "כַּרְכַּשְׁתָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְקַשְׁתָּא"
+		}
+	],
+	"page": {
+		"number": 671,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>כַּרְכֵּשׁ</he> II) <i>the shepherd’s bell</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 52a:5\">B. Kam. 52ᵃ</cite> (expl. <cite ref=\"M02898\"><he>משכוכית</he></cite>) <he>כ׳</he> Ms. M. (Ms. R. <he>כרכוש׳</he>, v. Rabb. D. S. a. l. note; ed. <he>קרק׳</he>)."
+			]
+		}
+	]
+}

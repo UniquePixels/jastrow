@@ -1,0 +1,36 @@
+{
+	"id": "A02777",
+	"slug": "אפקותא",
+	"headword": {
+		"text": "אַפְקוֹתָא"
+	},
+	"page": {
+		"number": 107,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A02775\"><he>אפק</he></cite>, v. <cite ref=\"A02705\"><he>אָפִיק</he></cite>) <i>that which branches off the trunk</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>neck</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 7:30\">Targ. Y. Lev. VII, 30</cite> (<cite ref=\"Targum Jonathan on Leviticus 7:20\">20</cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 4:18\">Targ. I Sam. IV, 18</cite> Ar. (Var. <he>אפרק׳</he>, <cite ref=\"Q01569\"><he>פרק׳</he></cite>, <cite ref=\"Q01473\"><he>פקותא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " א׳ דדיקלא <i>that portion of the palm-tree where the ramification starts</i> (Oth. opin. <i>the ramification, upper portion</i>). ",
+			"units": [
+				"<cite ref=\"Sukkah 13a:3\">Succ. 13ᵃ</cite>. ",
+				"<cite ref=\"Niddah 24a:16\">Nidd. 24ᵃ</cite> <he>אַפְקְתָא וכ׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

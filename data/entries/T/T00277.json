@@ -1,0 +1,31 @@
+{
+	"id": "T00277",
+	"slug": "רהט-1",
+	"headword": {
+		"text": "רָהַט"
+	},
+	"page": {
+		"number": 1454,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"D00322\"><he>דוּץ</he></cite>) <i>to run.—Part. pass</i>. <he>רָהוּט</he>; pl. <he>רְהוּטִים</he> <i>hurried, running</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:17:2\">Cant. R. to I, 17</cite> (ref. to <he>ורהיטנו</he> <cite ref=\"Shir HaShirim Rabbah 1:17:2\">ib.</cite>) <he>מקום שהכהנים ר׳ בברותים</he> the place where the priests ran (at service) was laid out with cypresses (ref. to <cite ref=\"I Kings 6:15\">I Kings VI, 15</cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְהִיט"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"T00286\"><he>רָהִיט</he></cite>) <i>to lay rafters</i>. Ib. <he>למדה תורה … מקרה … ומַרְהִיט בברותים</he> the text (Cant. l. c.) teaches a practical lesson that man should use cedars for roofing and cypresses for the rafters.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

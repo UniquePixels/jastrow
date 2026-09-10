@@ -1,0 +1,58 @@
+{
+	"id": "H00013",
+	"slug": "חבב-2",
+	"headword": {
+		"text": "חֲבַב"
+	},
+	"page": {
+		"number": 416,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to love, honor</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:8\">Targ. Prov. IV, 8</cite> <he>חַבִּבְיָהּ</he> honor her. ",
+				"<cite ref=\"Onkelos Deuteronomy 33:3\">Targ. O. Deut. XXXIII, 3</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make beloved</i>. Targ. Y. ib.—",
+			"units": [
+				"<cite ref=\"Shabbat 130a\">Sabb. 130ᵃ</cite> is it <he>משום חַבּוּבֵי מצוה</he> (Rashi <cite ref=\"H00653\"><he>חִיבּוּב</he></cite>) in order to show the high appreciation of the ceremony (of circumcision)?—",
+				"<cite ref=\"Shabbat 130a:5\">Ib.</cite> <he>אלא לחַבּיּבֵי</he> (Ms. M. <he>לחַבֵּב</he>). ",
+				"<cite ref=\"Chullin 133a:5\">Ḥull. 133ᵃ</cite> <he>חבובי קא מְחַבֵּב וכ׳</he> does he (by taking hastily) prove his anxiety for the divine command, or &c.?"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H00051\"><he>חַבֵּיב</he></cite> same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְחַבֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be tied together</i> (in affection). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 18:1\">Targ. I Sam. XVIII, 1</cite> (h. text <he>נקשרה</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

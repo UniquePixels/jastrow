@@ -1,0 +1,35 @@
+{
+	"id": "T00829",
+	"slug": "רמס-1",
+	"headword": {
+		"text": "רָמַס"
+	},
+	"page": {
+		"number": 1483,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to tread, stamp</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 5:2:3\">Y. Peah V, beg. 18ᵈ</cite> <he>רוֹמֵס הייתי זתים וכ׳</he> I was stamping olives with R. Ḥiya &c.; ib. VI, 19ᶜ bot.; ib. VII, end, 20ᶜ. ",
+				"<cite ref=\"Kiddushin 66a:11\">Kidd. 66ᵃ</cite> <he>רוֹמְסֵם</he> crush them (the Pharisees); a. fr.—Part. pass. <he>רָמוּס</he>; f. <he>רְמוּסָה</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:3:12\">Y. Ber. IV, 8ᵃ</cite> <he>הר׳ ביד עריצים</he> (the city of Jerusalem) which is trodden down by tyrants."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִמֵּס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00828\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite> <he>והיה קרון … ומְרַמַּסְתָּן</he> (not <he>ומרמסן</he>) the carriage passed over them and crushed them to death; (<cite ref=\"Eichah Rabbah 4:18\">Lam. R. to IV, 15</cite> <he>ומפסקתן</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

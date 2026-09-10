@@ -1,0 +1,27 @@
+{
+	"id": "P01157",
+	"slug": "עקוב",
+	"headword": {
+		"text": "עָקוֹב"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָקֹב"
+		}
+	],
+	"page": {
+		"number": 1105,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01143\"><he>עָקַב</he></cite>) [<i>crooked, tricky</i>,] <i>aḳob</i>, a thing believed to prevent (or absorb) rain. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108b:3\">Snh. 108ᵇ</cite> <he>יש לנו</he> … <he>ע׳ שמו</he> Ar. (ed. <he>ועקב</he>) we have something, its name is ʿa.; <cite ref=\"Yalkut Shimoni on Nach 906:8\">Yalk. Job 906</cite> <he>ועקב</he>; v. <cite ref=\"P01166\"><he>עָקוֹשׁ</he></cite>. Cmp. <cite ref=\"A01887\"><he>אִלִּיתָא</he></cite>."
+			]
+		}
+	]
+}

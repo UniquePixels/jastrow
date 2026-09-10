@@ -1,0 +1,33 @@
+{
+	"id": "N00031",
+	"slug": "נאקה-2",
+	"headword": {
+		"text": "נְאָקָה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נָקָא"
+		},
+		{
+			"text": "אֲנָקָה"
+		}
+	],
+	"page": {
+		"number": 867,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"N00030\">preced.</cite>; cmp. <cite ref=\"P01008\"><he>ענק</he></cite>) [<i>longnecked</i>,] <i>camel</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 23:2\">Kel. XXIII, 2</cite> (Ar. <cite ref=\"N01193\"><he>נקה</he></cite>); Sifra M’tsora, Zab., Par. 2, ch. III <cite ref=\"N01193\"><he>נקה</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 2:7\">Tosef. Kel. B. Bath. II, 7</cite> <he>ישיבת הנקה</he> the seat (saddle) on the camel’s back. ",
+				"<cite ref=\"Mishnah Shabbat 5:1\">Sabb. V, 1</cite> (<cite ref=\"Shabbat 51b:14\">51ᵇ</cite>) <he>נא׳</he> (Ms. M. <he>אנ׳</he>; Y. ed. <cite ref=\"N01193\"><he>הנקה</he></cite>); Y. Bets. II, 61ᶜ bot. <cite ref=\"N01193\"><he>הנקה</he></cite>."
+			]
+		}
+	]
+}

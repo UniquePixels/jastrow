@@ -1,0 +1,34 @@
+{
+	"id": "O00921",
+	"slug": "סכן-1",
+	"headword": {
+		"text": "סָכַן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 991,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;<i>Saf.</i> of <he>כון</he>, <cite ref=\"K00859\"><he>כנן</he></cite>; cmp. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 22:30\">Targ. Y. Num. XXII, 30</cite>) <i>to arrange, manage</i>.—Denom. (b. h.) <cite ref=\"O00921\"><he>סֹכֵן</he></cite>; <cite ref=\"M01950\"><he>מִסְכֵּן</he></cite> q. v."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִכֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to supply</i> (rations to the poor); <i>to give niggardly</i>.—Part. pass. <cite ref=\"M01868\"><he>מְסוּכָּן</he></cite>. ",
+					"units": [
+						"<cite ref=\"Midrash Mishlei 22\">Midr. Prov. ch. XXII</cite>, v. <cite ref=\"M01948\"><he>מִסְכֵֹּן</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "P01196",
+	"slug": "עקלקלות",
+	"headword": {
+		"text": "עֲקַלְקַלּוֹת"
+	},
+	"page": {
+		"number": 1106,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.(b. h.; <cite ref=\"P01190\"><he>עָקַל</he></cite>)<i>tortuous ways, perverseness</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 26a:10\">Snh. 26ᵃ</cite>; <cite ref=\"Jerusalem Talmud Sheviit 4:1:6\">Y. Shebi. IV, 35ᵃ</cite>, a. e., v. <cite ref=\"P01192\"><he>עֵקֶל</he></cite>."
+			]
+		}
+	]
+}

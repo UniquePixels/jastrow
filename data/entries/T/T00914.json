@@ -1,0 +1,102 @@
+{
+	"id": "T00914",
+	"slug": "רעע-1",
+	"headword": {
+		"text": "רָעַע"
+	},
+	"page": {
+		"number": 1488,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to bring in close contact</i>, v. <cite ref=\"T00670\"><he>רֵיעַ</he></cite>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to strike against, shatter, impair.—Part. pass</i>. <he>רָעוּעַ</he>; f. <he>רְעוּעָה</he>; pl. <he>רְעוּעִים</he>, <he>רְעוּעִין</he>; <he>רְעוּעוֹת</he> <i>impaired, defective; in a ruinous state, threatening</i>, opp. <he>בריא</he> sound. ",
+			"units": [
+				"<cite ref=\"Kiddushin 39b:12\">Kidd. 39ᵇ</cite> <he>סולם ר׳</he> a broken ladder. ",
+				"<cite ref=\"Mishnah Kelim 3:5\">Kel. III, 5</cite> <he>הר׳</he> a cracked vessel. ",
+				"<cite ref=\"Taanit 20b:4\">Taan. 20ᵇ</cite> <he>מפולת שאמרו בריאות ולא ר׳</he> the falling of houses which they mention (<cite ref=\"Mishnah Taanit 3:4\">ib. III, 4</cite>) means the falling of sound buildings, but not of such as were out of repair; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (neut. verb) <cite ref=\"T00864\"><he>רַע</he></cite>, imperf. <cite ref=\"J00650\"><he>יֵרַע</he></cite> <i>to be injurious, evil</i>; <he>רע ל־</he> <i>to grieve, displease</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 84b:18\">B. Mets. 84ᵇ</cite> <he>בני אל ירע לך</he> my son, let it not grieve thee; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רֵעַע"],
+			"senses": [
+				{
+					"gloss": "<i>to shatter, break</i>.—Part. pass. <he>מְרוֹעָע</he>; f. <he>מְרוֹעַעַת</he>; pl. <he>מְרוֹעָעִים</he>, <he>מְרוֹעָעִין</he>; <he>מְרוֹעָעוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 3:2:2\">Koh. R. to III, 2</cite> <he>השרוי בבית המר׳</he> he who dwells in a threatening house; Y. Sabb. II, 5ᵇ top <he>מְרוֹעֲרַע</he> (fr. <cite ref=\"T00920\"><he>רִעְרֵעַ</he></cite>). ",
+						"<cite ref=\"Bereishit Rabbah 32:3\">Gen. R. s. 32</cite> <he>קנקנים מר׳</he>, v. <cite ref=\"S01614\"><he>קַנְקָן</he> I</cite>. Y. Taan. III, 66ᵈ top <he>מְרוֹעֲרָעִים</he> threatening buildings; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְרָעֵעַ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְרָעֵעַ"],
+			"senses": [
+				{
+					"gloss": ", <i>Hithpol</i>. <cite ref=\"T00914\"><he>הִתְרוֹעֵעַ</he></cite>, <i>Nithpol</i>. <cite ref=\"T00914\"><he>נִתְרוֹעֵעַ</he></cite> <i>to be shaken, cracked, become defective</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 53b\">Men. 53ᵇ</cite> (ref. to <cite ref=\"Jeremiah 11:16\">Jer. XI, 16</cite>) <he>מקול מיליהן … נִיתְרָעֲעוּ דליותיהן וכ׳</he> from the sound of the words of the spies were the branches (young men) of Israel broken; <cite ref=\"Yalkut Shimoni on Nach 289:1\">Yalk. Jer. 289</cite> <he>נרתעו</he> (read: <he>נִתְרָעוּ</he>). ",
+						"<cite ref=\"Sotah 48a\">Sot. 48ᵃ</cite> (play on <cite ref=\"P01305\"><he>ערה</he></cite>, <cite ref=\"Zephaniah 2:14\">Zeph. II, 14</cite>) <he>אפי׳ בית … מִתְרוֹעֵעַ</he> even a house which lies in a thicket of cedars will be shaken; <cite ref=\"Yalkut Shimoni on Nach 292:3\">Yalk. Is. 292</cite> <he>מתנועע</he> (corr. acc.). Y. Snh. X, 27ᵈ bot. <he>לכיפה … כיון שנִתְרוֹעֲעָה אחת מהן נִתְרוֹעֲעוּ כולן</he> like a heap of stones, when one of them is shaken (disturbed), all of them are shaken; Y. M. Kat. III, 83ᶜ <he>שנִתְרַעְרְעָה … נִתְרַעְרְעוּ</he> (fr. <cite ref=\"T00921\"><he>רערע</he></cite>); <cite ref=\"Bereishit Rabbah 100:7\">Gen. R. s. 100</cite> <he>וכולה מִתְרוֹעַעַת</he>; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הֵרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to shake, impair</i>. Y. Shebi. X, 39ᵈ top <he>מֵירַע כוחן</he> it impairs their prerogatives; <cite ref=\"Yoma 2a\">ib.</cite> <cite ref=\"M00671\"><he>מוֹרַע</he></cite> (fr. <cite ref=\"J00650\"><he>יָרַע</he></cite>). Y. Pes. VII, 34ᵈ top <he>שהוֹרַעְתָּ כחו וכ׳</he> whose standing thou declarest impaired in the case of an ascertained uncleanness. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 8\">Ex. R. s. 8</cite> <he>הֵרֵעוּ לנפשם</he> they did harm to themselves; a. e.—V. <cite ref=\"E00891\"><he>הֲרָעָה</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be evil</i>; <he>ה׳ ל־</he> <i>to displease</i>. Tanḥ. Sh’laḥ 5; <cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16<sup>7</sup></cite> <he>וה׳ לאביו</he> and it displeased his father; a. e.—[",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to join, combine</i>, v. <cite ref=\"T00881\"><he>רָעָה</he></cite> <i>Pi.</i>]",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּרַע"],
+			"senses": [
+				{
+					"gloss": ", or <cite ref=\"T00914\"><he>הוֹרַע</he></cite> (fr. <cite ref=\"J00650\"><he>יָרַע</he></cite>) <i>to be shaken, impaired</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 20b\">Kidd. 20ᵇ</cite>, sq. <he>ה׳ כחו</he> his prerogative is impaired, v. <cite ref=\"J00500\"><he>יָפֶה</he></cite>. ",
+						"<cite ref=\"Bava Kamma 44a\">B. Kam. 44ᵃ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

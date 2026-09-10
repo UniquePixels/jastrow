@@ -1,0 +1,33 @@
+{
+	"id": "C00231",
+	"slug": "גדם-1",
+	"headword": {
+		"text": "גָּדַם"
+	},
+	"page": {
+		"number": 213,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"C00166\"><he>גדד</he> I</cite>) <i>to lop off, stump</i>.—Part. pass. <cite ref=\"C00187\"><he>גָּדוּם</he></cite>, f. <cite ref=\"C00188\"><he>גְּדוּמָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Zevachim 62b\">Zeb. 62ᵇ</cite> <he>אמה ג׳</he> (<cite ref=\"Jerusalem Talmud Yoma 4:4:4\">Y. Yoma IV, 41ᶜ</cite> bot. <he>גְּמוּדָה</he>) a reduced cubit, v. <cite ref=\"A01989\"><he>אַמָּה</he></cite>. [<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite> <he>אמה ג׳</he>, read <cite ref=\"C01298\"><he>גְּרוּמָה</he></cite>, v. <cite ref=\"C01349\"><he>גָּרַם</he></cite>.] <cite ref=\"Tosefta Bekhorot 5:4\">Tosef. Bekh. V, 4</cite> <he>אצבעותיו גְּדוּמוֹת</he> ed. Zuck. (Var. <he>גרומות</he>) with stump-like fingers."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְגַּדֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut off, lopped</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 21a:8\">Taan. 21ᵃ</cite> <he>ידי … יִתְגַּדְּמוּ</he> may my hands … be stumped (through sickness)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

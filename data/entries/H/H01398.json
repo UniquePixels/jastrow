@@ -1,0 +1,35 @@
+{
+	"id": "H01398",
+	"slug": "חסם-2",
+	"headword": {
+		"text": "חֲסַם"
+	},
+	"page": {
+		"number": 488,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01397\">same</cite>, <i>to muzzle</i>; trnsf. <i>to silence</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 35a:5\">Sot. 35ᵃ</cite> <he>וחַסְמִין לי</he> and they will silence me. ",
+				"<cite ref=\"Sanhedrin 32b\">Snh. 32ᵇ</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַסַּם"],
+			"senses": [
+				{
+					"gloss": "<i>Ithpe.</i> <cite ref=\"H01398\"><he>אִתְחֲסַם</he></cite>, <cite ref=\"H01708\"><he>אִיחֲ׳</he></cite> <i>to be muzzled, silenced</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 32:9\">Targ. Ps. XXXII, 9</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 107:42\">Ib. CVII, 42</cite>.—Snh. l. c. <he>ולִיחַסְּמוּ</he> let them be silenced (intimidated)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

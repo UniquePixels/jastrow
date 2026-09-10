@@ -1,0 +1,38 @@
+{
+	"id": "P00450",
+	"slug": "עטיפה-2",
+	"headword": {
+		"text": "עֲטִיפָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1063,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00469\"><he>עָטַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wrapping one’s self up</i> in mourning. ",
+			"units": [
+				"<cite ref=\"Moed Katan 24a:8\">M. Kat. 24ᵃ</cite> <he>כל ע׳ שאינה כעֲטִיפַת וכ׳</he> a covering which is not like the covering of the Ishmaelites (up to the lip) is not a mourner’s covering."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>putting on a cloak, upper garment</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 8:7:8\">Y. Peah VIII, 21ᵇ</cite> top <he>כעֲטִיפָתֵנוּ בחול וכ׳</he> as we dress on week days, so do we on the Sabbath (we have no change of cloaks); <cite ref=\"Ruth Rabbah 5:12\">Ruth R. to III, 3</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 11:2\">Gen. R. s. 11</cite>, beg. <he>ברכו בע׳</he> he blessed it (the Sabbath) with the distinction of a special cloak; Yalk. ib. 16. ",
+				"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite> <he>שינו עֲטִיפָתָן וכ׳</he> changed their (Jewish) cloaks in days of persecution; <cite ref=\"Yalkut Shimoni on Torah 136\">Yalk. ib. 136</cite>; <cite ref=\"Yalkut Shimoni on Nach 263\">Yalk. Is. 263</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:9:1\">Cant. R. to V, 9</cite> <he>מלך בשר ודם מעֲטִיפָתוֹ ניכר</he> a human king is distinguished by his cloak. Treat. Der. Er. Zuta ch. V <he>בארבעה … ובעטיפתן</he> by four things are scholars recognized … by their cloaks; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

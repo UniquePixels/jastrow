@@ -1,0 +1,24 @@
+{
+	"id": "I00453",
+	"slug": "טירפא",
+	"headword": {
+		"text": "טִירְפָּא"
+	},
+	"page": {
+		"number": 535,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00864\"><he>טְרַף</he></cite>) <i>document conferring the right of seizure of a debtor’s property sold after the loan</i>, v. <cite ref=\"A00475\"><he>אַדְרַכְתָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 169a:5\">B. Bath. 169ᵃ</cite> <he>כל ט׳ וכ׳</he> a <i>tirpa</i> which fails to contain the words, ‘We have torn the note of indebtedness’ &c. ",
+				"<cite ref=\"Bava Kamma 9a:5\">B. Kam. 9ᵃ</cite> <he>אחוי טִירְפָּךְ וכ׳</he> show thy <i>t.</i>, and I shall pay thee. ",
+				"<cite ref=\"Ketubot 95a:1\">Keth. 95ᵃ</cite> top."
+			]
+		}
+	]
+}

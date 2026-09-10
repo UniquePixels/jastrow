@@ -1,0 +1,30 @@
+{
+	"id": "R00532",
+	"slug": "צלמנא",
+	"headword": {
+		"text": "צַלְמָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִילְמָ׳"
+		}
+	],
+	"page": {
+		"number": 1285,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"R00526\"><he>צֶלֶם</he></cite>) <i>image, statuary, idol</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 18:17\">Targ. Jud. XVIII, 17</cite> (ed. Lag. <cite ref=\"R00360\"><he>צִילְמָא</he></cite>).—Pl. <he>צַלְמָנִין</he>, <he>צַלְמָנַיָּא</he>, <cite ref=\"R00504\"><he>צִילְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 13:2\">Targ. Hos. XIII, 2</cite> (ed. Lag. <he>צלמין</he>). ",
+				"<cite ref=\"Onkelos Genesis 31:19\">Targ. Gen. XXXI, 19</cite>; a. e.—",
+				"<cite ref=\"Moed Katan 25b:13\">M. Kat. 25ᵇ</cite>, v. <cite ref=\"M00894\"><he>מַחֲלָצַיָּא</he></cite>."
+			]
+		}
+	]
+}

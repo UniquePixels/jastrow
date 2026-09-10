@@ -1,0 +1,31 @@
+{
+	"id": "C00629",
+	"slug": "גידא-3",
+	"headword": {
+		"text": "גִּידָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּידְדָא"
+		}
+	],
+	"page": {
+		"number": 234,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00166\"><he>גדד</he></cite>, v. <cite ref=\"C00153\"><he>גַּד</he> I</cite>) <i>worm-wood, bitter herb</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 5:7\">Targ. Am. V, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:4\">Targ. Prov. V, 4</cite> <he>גידדא</he> ed. Lag. (ed. <he>גיררא</he>, <cite ref=\"C00809\"><he>גירא</he></cite>, corr. acc.; Ar. <cite ref=\"C00645\"><he>גִּידֵּי</he></cite> pl.).—Pl. <cite ref=\"C00765\"><he>גִּידִּין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:14\">Targ. Jer. IX, 14</cite> Ar. (ed. <he>גירין</he>, corr. acc.). Ib. XXIII, 15; a. e.—(In h. diction) <cite ref=\"Yalkut Shimoni on Torah 126\">Yalk. Gen. 126</cite>, v. <cite ref=\"C00153\"><he>גַּד</he> I</cite>. Tanḥ. B’shall., ed. Bub. 22 (play on <cite ref=\"C00151\"><he>גד</he></cite>) <he>שהיה בפיהם כג׳ מרין</he> the manna was in their (the gentiles’) mouths like bitter worm-wood. ",
+				"<cite ref=\"Shabbat 87a:8\">Sabb. 87ᵃ</cite> (play on <he>ויג̇ד̇</he>, <cite ref=\"Exodus 19:9\">Ex. XIX, 9</cite>) <he>דברים שקשין לאדם כגִֹידִֹּין</he> words (of warning against punishment) which are as hard (distasteful) to man as worm-wood. [<cite ref=\"Targum Jonathan on Genesis 49:23\">Targ. Y. I Gen. XLIX, 23</cite>, <cite ref=\"Targum Jerusalem, Genesis 49:23\">Targ. Y. II, Gen. XLIX, 23</cite> <he>גידין</he>, <he>גידיא</he> some ed., read <he>גיר׳</he>, v. <cite ref=\"C00806\"><he>גִּיר</he> III</cite>.]"
+			]
+		}
+	]
+}

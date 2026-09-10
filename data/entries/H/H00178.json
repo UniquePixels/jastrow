@@ -1,0 +1,29 @@
+{
+	"id": "H00178",
+	"slug": "חדו",
+	"headword": {
+		"text": "חֵדוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵי׳"
+		}
+	],
+	"page": {
+		"number": 425,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00190\"><he>חדי</he></cite>) <i>joy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 32:14\">Targ. Is. XXXII, 14</cite>.—",
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:8\">Cant. R. to I, 4</cite>, v. <cite ref=\"H00188\"><he>חֶדְוְתָא</he></cite>. ",
+				"<cite ref=\"Berakhot 55a:15\">Ber. 55ᵃ</cite> <he>חֶדְוֵיה</he>, v. <cite ref=\"M02039\"><he>מִסְתְּיָּיא</he></cite>."
+			]
+		}
+	]
+}

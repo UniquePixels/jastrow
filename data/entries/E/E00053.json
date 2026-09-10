@@ -1,0 +1,38 @@
+{
+	"id": "E00053",
+	"slug": "הברה-2",
+	"headword": {
+		"text": "הֲבָרָה"
+	},
+	"page": {
+		"number": 330,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>הבר</he>, cmp. <cite ref=\"E00038\"><he>הֲבִירָא</he></cite>; Neo-Syr. <cite ref=\"E00050\"><he>הברא</he></cite> P. Sm. 1185 bot.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>confused sound</i> (contrad. to tune), <i>noise</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 19b:15\">Yoma 19ᵇ</cite> <he>כדי שישמע … קול ה׳</he> that the Highpriest might hear the reverberating noise (of people awake at night). ",
+				"<cite ref=\"Mishnah Rosh Hashanah 3:7\">R. Hash. III, 7</cite> <he>ואם קול ה׳ וכ׳</he> but if he heard only an indistinct sound (echo, opp. <he>קול שופר</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>report, rumor</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:13\">Y. Dem. I, 22ᵃ</cite> <he>נפלה ה׳ בעיר</he> the report spread in town. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 4:4:2\">Y. R. Hash. IV, 59ᵇ</cite> bot. <he>נפלה ה׳ וכ׳</he> an alarm spread. ",
+				"<cite ref=\"Gittin 89a:14\">Gitt. 89ᵃ</cite> <he>שמעו קול ה׳</he> they heard only an indistinct rumor (gossip). ",
+				"<cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite>; a. fr. [In modern Hebrew <he>ה׳</he> <i>syllable</i>.]"
+			],
+			"label": "2"
+		}
+	]
+}

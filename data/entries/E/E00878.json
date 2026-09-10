@@ -1,0 +1,29 @@
+{
+	"id": "E00878",
+	"slug": "הרמיך",
+	"headword": {
+		"text": "הַרְמֵיךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַרְמֵךְ"
+		}
+	],
+	"page": {
+		"number": 368,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (<i>Be</i>) <i>Harmekh</i> in Babylonia. ",
+			"units": [
+				"<cite ref=\"Gittin 60b\">Gitt. 60ᵇ</cite> <he>בי ה</he> Ar. (ed. <cite ref=\"H00285\"><he>בי ח׳</he></cite>). ",
+				"<cite ref=\"Moed Katan 4b\">M. Kat. 4ᵇ</cite> <he>הרמיך</he> Ms. M. (ed. <he>בר המדך</he>). ",
+				"<cite ref=\"Zevachim 2b\">Zeb. 2ᵇ</cite> <cite ref=\"H00285\"><he>בי ח׳</he></cite> (v. Rabb. D. S. a. l. note 6)."
+			]
+		}
+	]
+}

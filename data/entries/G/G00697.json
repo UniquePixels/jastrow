@@ -1,0 +1,25 @@
+{
+	"id": "G00697",
+	"slug": "זרי-2",
+	"headword": {
+		"text": "זרי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זְרָא"
+		}
+	],
+	"page": {
+		"number": 413,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00696\">same</cite>, <i>to scatter</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:20\">Targ. O. Ex. XXXII, 20</cite> (Var. <cite ref=\"D01029\"><he>דרא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"id": "T00535",
+	"slug": "רחץ-1",
+	"headword": {
+		"text": "רָחַץ"
+	},
+	"page": {
+		"number": 1468,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to bathe, wash</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 122a:10\">Sabb. 122ᵃ</cite> <he>מותר לִרְחוֹץ בה מיד</he> it is permitted to bathe in it immediately (after the exit of the Sabbath); ib. 151ᵃ; <cite ref=\"Mishnah Makhshirin 2:5\">Makhsh. II, 5</cite> <he>רוֹחֵץ מיד</he>. ",
+				"<cite ref=\"Berakhot 15a:3\">Ber. 15ᵃ</cite> <he>מי שאין … לרחוץ ידיו</he> (Ms. M. <he>ליטול</he>) he that has no water with which to wash his hands (before prayer). ",
+				"<cite ref=\"Tosefta Ketubot 7:6\">Tosef. Keth. VII, 6</cite> <he>ורוֹחֶצֶת במרחץ עם כל אדם</he> a woman that bathes in a bath-house with all kind of people (loses her jointure). Y. ib. VII, 31ᵇ bot. (as a case for divorce) <he>הדירה שלא תִרְחֲצִי וכ׳</he> if he bound her by a vow (saying), thou shalt not bathe in a bath-house; a. fr.—Part. pass. <cite ref=\"T00486\"><he>רָחוּץ</he></cite>. ",
+				"<cite ref=\"Zevachim 17b:7\">Zeb. 17ᵇ</cite> <he>שלא רְחוּץ ידים וכ׳</he> not having washed his hands and feet (before a sacred function); <cite ref=\"Tosefta Menahot 1:9\">Tosef. Men. I, 9</cite>. ",
+				"<cite ref=\"Tosefta Menahot 1:12\">Ib. 12</cite> <he>שלא רחוץ</he>, Var. <he>ולא רָחְצוּ</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְחִיץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00534\">same</cite>, <i>to wash, cleanse</i>. Ib. 10 <he>משפשף ומַרְחִיץ</he> he rubs and washes (hands and feet). Ber. l. c. (ref. to <cite ref=\"Psalms 26:6\">Ps. XXVI, 6</cite>) <he>דכתיב אֶרְחַץ ולא אַרְחִיץ</he> (v. Ms. M., Rabb. D. S. a. l.) it is written <i>erḥats</i> (I bathe), and not <i>arḥits</i> (I cleanse), i.e. washing of hands as a symbolical act is equal to immersion. Y. Keth. V, 30ᵃ bot. <he>ומַרְחֶצֶת לו וכ׳</he> she must bathe his feet (personally attend to his foot-bath). ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 988:3\">Yalk. Cant. 988</cite> <he>שמַרְחִיצִין את ישראל וכ׳</he> who cleanse Israel from sins; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to bathe</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13<sup>2</sup></cite> <he>עתיד … ולהַרְחִיצָם בנחלי חלב</he> the Lord shall cause them to drink …, and to bathe in rivers of milk. Sabb. l. c.; Makhsh. l. c. <he>מרחץ המרחצת בשבת</he> a bath-house that allows bathing (is heated and open) on the Sabbath. Y. Ber. II, 4ᶜ bot. <he>מרחץ ואע״פ שאינה מרחצת</he> a bath-house, even if it is not in use."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["רִיחֵץ"],
+			"senses": [
+				{
+					"gloss": "<i>to cleanse</i>.—Part. pass. <he>מְרוּחָץ</he>; pl. <he>מְרוּחָצִין</he>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:4:1\">Cant. R. to IV, 4</cite> <he>שהיו כולן מר׳ מן העונות</he> they were all cleansed of their sins."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִרְחַץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be cleansed</i>. Yalk. Cant. l. c. <he>שהטיף … ונִרְחֲצוּ מעונותיהם</he> the Lord dropped dew upon them, and they were cleansed of their sins.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

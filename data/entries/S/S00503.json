@@ -1,0 +1,52 @@
+{
+	"id": "S00503",
+	"slug": "קופה-3",
+	"headword": {
+		"text": "קוּפָּה"
+	},
+	"page": {
+		"number": 1338,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קפף</he>, v. <cite ref=\"K01043\"><he>כָּפַף</he></cite>; cmp. <cite ref=\"K00603\"><he>כִּיפָּה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heap, pile</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 22b:19\">Yoma 22ᵇ</cite> <he>אלא אם כן ק׳ של שרצים וכ׳</he> unless a heap of reptiles hangs behind him, v. <cite ref=\"Q01898\"><he>פַּרְנָס</he></cite>. ",
+				"<cite ref=\"Berakhot 32a:9\">Ber. 32ᵃ</cite>, v. <cite ref=\"N00271\"><he>נָהַם</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>archway, vault</i>, v. <cite ref=\"K00603\"><he>כִּיפָּה</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"K01019\"><he>כְּפִיפָה</he></cite>) <i>basket, large vessel</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:34\">Y. Ber. I, 3ᵃ</cite> <he>ק׳ מלאה וכ׳</he> a basket full of bones. ",
+				"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> <he>הבא קוּפָּתְךָ וכ׳</he> bring thy tub and measure (fill it); <cite ref=\"Jerusalem Talmud Sukkah 1:5:4\">Y. Succ. I, 52ᵇ</cite> bot. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 10:2:3\">Y. Sabb. X, 12ᶜ</cite> top <he>ק׳ פרוצה</he> a basket which is broken through (the contents of which protrude). Bab. ",
+				"<cite ref=\"Shabbat 91b:9\">Sabb. 91ᵇ</cite> <he>קוּפַּת הרוכלין</he> a spice-dealers’ basket. ",
+				"<cite ref=\"Gittin 67a:8\">Gitt. 67ᵃ</cite> <he>ר׳ יוחנן</he> … <he>קופת הרוכלים</he> R. Joḥ. ben Nuri is a spice-peddlars’ basket (ready in all branches of learning); <he>ר׳ … ק׳ של בשמים</he> R. El. is a spice box; <cite ref=\"Avot D'Rabbi Natan 18:4\">Ab. d’R. N. ch. XVIII</cite>; <cite ref=\"Avot D'Rabbi Natan 18:3\">ib.</cite> <he>ק׳ של הלכות</he> a basket (or a pile) of laws (an erudite scholar). ",
+				"<cite ref=\"Mishnah Ketubot 6:4\">Keth. VI, 4</cite> <he>החתן … עשרה דינרין לק׳ וכ׳</he> the bridegroom must obligate himself to give his wife ten Denars for the <i>ḳuppah</i> for each Maneh (which she brings in), expl. ",
+				"<cite ref=\"Ketubot 66b:7\">ib. 66ᵇ</cite> <he>ק׳ של בשמים</he> for perfumes; a. v. fr.—",
+				"<cite ref=\"Tosefta Keilim Batra 3:7\">Tosef. Kel. B. Bath. III, 7</cite> <he>קיפה</he> (corr. acc.).—Esp. <i>ḳuppah</i>, the communal fund for dispensing sustenance to the poor every Friday, contrad. to <cite ref=\"V00671\"><he>תמחוי</he></cite>. ",
+				"<cite ref=\"Bava Batra 8b:7\">B. Bath. 8ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Peah 8:7\">Peah VIII, 7</cite> <he>לא יטול מן הק׳</he> must not take support from the <i>ḳuppah</i>; a. e.—Pl. <he>קוּפּוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:4:6\">Y. Ab. Zar. I, 39ᵈ</cite> <he>היה למוד … ק׳ והוציא עשר</he> if one was in the habit of exhibiting five baskets with goods, and exhibited ten (on account of the gentile festival). ",
+				"<cite ref=\"Tosefta Ma'aser Sheni 1:10\">Tosef. Maas. Sh. I, 10</cite> <he>אם היו ק׳</he> if the dates are in baskets, opp. <he>של פטליא</he> in bales; a. fr.—",
+				"<cite ref=\"Tosefta Keilim Metsia 8:2\">Tosef. Kel. B. Mets. VIII, 2</cite> <he>מעקה שבמגדל והק׳ שבו</he> R. S. to <cite ref=\"Mishnah Kelim 18:2\">Kel. XVIII, 2</cite> (ed. <cite ref=\"S00483\"><he>קוסת</he></cite>) the railing attached to a turret (spice-box) and the cupolas thereon (cmp. <cite ref=\"A02901\"><he>אֲקוּנְבִּי</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

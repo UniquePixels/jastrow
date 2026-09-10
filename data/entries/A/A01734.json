@@ -1,0 +1,28 @@
+{
+	"id": "A01734",
+	"slug": "אכסן-2",
+	"headword": {
+		"text": "אַכְסָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַכְסְנָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 64,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transpos. of <he>אסכנא</he>, v. <cite ref=\"O00873\"><he>סִכָּא</he></cite>; h. <i>weaver’s pin</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 16:13\">Targ. Jud. XVI, 13</cite>; <cite ref=\"Targum Jonathan on Judges 16:14\">14</cite>; a. fr.—*<cite ref=\"Shabbat 151b\">Sabb. 151ᵇ</cite> <he>אפי׳ מליא כא׳ דגרדאי</he> Ms. Oxf. a. Ar. (ed. <he>כאביסנא</he>; Ms. M. <he>מלי אכסניא וגרדאי</he>) even if the painting stick is as thick (with paint) as a weaver’s pin."
+			]
+		}
+	]
+}

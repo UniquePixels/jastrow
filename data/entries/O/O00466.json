@@ -1,0 +1,107 @@
+{
+	"id": "O00466",
+	"slug": "סחר-2",
+	"headword": {
+		"text": "סְחַר"
+	},
+	"page": {
+		"number": 971,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00465\">same</cite><i>to go around, turn</i> (corresp. to h. <cite ref=\"O00030\"><he>סָבַב</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:5\">Targ. Koh. XII, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 3:2\">Targ. Cant. III, 2</cite> (ed. Vien. <i>Af.</i>); a. fr. (V. <i>Af.</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to trade</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 52:12\">Gen. R. s. 52</cite> <he>אזלת … סַחְרת בה וכ׳</he> thou wentest to Egypt and tradedst with her (Sarah), thou hast come here and tradest with her."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַחַר"],
+			"senses": [
+				{
+					"gloss": "<i>to go around</i>. Targ. Koh. l. c. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 1:6\">Targ. Lam. I, 6</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַסְחַר"],
+			"senses": [
+				{
+					"gloss": "<i>to surround, enclose</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 6:3\">Targ. Josh. VI, 3</cite>; <cite ref=\"Targum Jonathan on Joshua 6:11\">11</cite>; <cite ref=\"Targum Jonathan on Joshua 6:14\">14</cite> (interch. with Pe.); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to go about</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 17:9\">Targ. II Chr. XVII, 9</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to lead about, to move</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 13:18\">Targ. O. Ex. XIII, 18</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 5:8\">Targ. I Sam. V, 8</cite>; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"O00030\"><he>סָבַב</he></cite> <i>Hif.</i>) <i>to recline around the table</i>, <i>to dine</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 32:6\">Targ. Ex. XXXII, 6</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 20:5\">Targ. I Sam. XX, 5</cite>; a. fr. "
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתַּחַר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִסְתְּחַר"],
+			"senses": [
+				{
+					"gloss": "<i>to turn around, turn to</i> or <i>from, to be carried around</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 42:24\">Targ. O. Gen. XLII, 24</cite>. ",
+						"<cite ref=\"Onkelos Exodus 10:10\">Targ. O. Ex. X, 10</cite> (v. Berl. Targ. O. II, p. 22). ",
+						"<cite ref=\"Onkelos Numbers 34:4\">Targ. O. Num. XXXIV, 4</cite>, sq. (some ed. <i>Pe.</i>, others <i>Af.</i>). ",
+						"<cite ref=\"Targum Jonathan on I Samuel 5:8\">Targ. I Sam. V, 8</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be seated at the table</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 1:1\">Targ. Ps. I, 1</cite>. ",
+						"<cite ref=\"Onkelos Genesis 27:19\">Targ. Gen. XXVII, 19</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

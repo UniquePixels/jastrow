@@ -1,0 +1,23 @@
+{
+	"id": "P00789",
+	"slug": "עלטה",
+	"headword": {
+		"text": "עֲלָטָה"
+	},
+	"page": {
+		"number": 1081,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; עלט <i>to wrap up</i>) <i>darkness, mist</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53b:13\">Erub. 53ᵇ</cite> <he>מגידי בע׳</he>, v. <cite ref=\"G00080\"><he>זָהָב</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 44:21\">Gen. R. s. 44</cite>, v. <cite ref=\"A02021\"><he>אֲמִיטְתָא</he></cite>."
+			]
+		}
+	]
+}

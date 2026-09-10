@@ -1,0 +1,56 @@
+{
+	"id": "M01784",
+	"slug": "מנימין",
+	"headword": {
+		"text": "מִנְיָמִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִנְיָי׳"
+		},
+		{
+			"text": "מִינְ׳"
+		}
+	],
+	"page": {
+		"number": 801,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Minyamin</i>, name of several persons; ",
+			"units": []
+		},
+		{
+			"gloss": " M., an Egyptian proselyte. ",
+			"units": [
+				"<cite ref=\"Tosefta Kiddushin 5:4\">Tosef. Kidd. V, 4</cite>; (<cite ref=\"Sifrei Devarim 253:3\">Sifré Deut. 253</cite> <he>בנימין</he>); <cite ref=\"Sotah 9a:9\">Sot. 9ᵃ</cite>; <cite ref=\"Yevamot 78a:13\">Yeb. 78ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>מ׳ בר איהי</he>. ",
+			"units": [
+				"<cite ref=\"Megillah 28a\">Meg. 28ᵃ</cite> (Ms. M. <he>בנ׳ בר איתי</he>; v. Rabb. D. S. a. l. note)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Niddah 65a:16\">Nidd. 65ᵃ</cite>, v. <cite ref=\"C01126\"><he>גִּנְזַכָּיָיה</he></cite>"
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28b\">Ab. Zar. 28ᵇ</cite>, v. <cite ref=\"M01774\"><he>מִנְיוֹמִי</he></cite>"
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "R00141",
+	"slug": "צהלה",
+	"headword": {
+		"text": "צְהָלָה"
+	},
+	"page": {
+		"number": 1264,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00140\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>shouting, rejoicing</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:4\">Num. R. s. 10</cite> <he>צַהֲלַת שמחת בית וכ׳</he> the joyful shouting at the dedication of the Temple &c.; <cite ref=\"Midrash Mishlei 31:1\">Midr. Prov. to XXXI, 5</cite>, v. <cite ref=\"B00826\"><he>בְּלוּזְמָא</he></cite>. ",
+				"<cite ref=\"Midrash Mishlei 31:1\">Ib.</cite> <he>והיתה צ׳ ומשחקת וכ׳</he>, read: <he>והיתה צ׳ ושמחה ושמחת וכ׳</he> and there was shouting and joy (on account of the daughter of Pharaoh) and the rejoicing over the dedication &c.— "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " צהלת סוסים <i>neighing of war-horses</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 8:1\">Sot. VIII, 1</cite>; <cite ref=\"Sifrei Devarim 192\">Sifré Deut. 192</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

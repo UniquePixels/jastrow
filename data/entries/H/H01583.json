@@ -1,0 +1,29 @@
+{
+	"id": "H01583",
+	"slug": "חרב-7",
+	"headword": {
+		"text": "חָרֶב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חַרְבָּא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 498,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01577\"><he>חרב</he></cite>) <i>dry eruption</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:27\">Targ. Y. Deut. XXVIII, 27</cite> Ar. ed. Koh. <cite ref=\"H01577\"><he>חרב</he></cite> (oth. ed. <cite ref=\"H01582\"><he>חרבא</he></cite>, <he>חרבונא</he>; Targ. ed. <cite ref=\"C01236\"><he>גרבא</he></cite>; h. text <cite ref=\"C01232\"><he>גרב</he></cite>)."
+			]
+		}
+	]
+}

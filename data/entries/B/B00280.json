@@ -1,0 +1,26 @@
+{
+	"id": "B00280",
+	"slug": "בון-1",
+	"headword": {
+		"text": "בּוּן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 146,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bun</i>, abbrev. of <cite ref=\"A00074\"><he>אַבּוּן</he></cite>; name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:4:10\">Y. Shek. IV, end, 48ᶜ</cite> <he>ר׳ אבון ור׳ ב׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:4:12\">Y. Ber. III, 6ᶜ</cite> <he>בין</he> some ed. (corr. acc.); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:1:8\">Y. R. Hash. I, 56ᶜ</cite> top, a. fr. R. B. bar Ḥiya.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:4\">Y. Ter. VIII, 45ᶜ</cite>, a. fr. R. B. bar Kahana; v. Fr. M’bo p. 67ᵇ sq."
+			]
+		}
+	]
+}

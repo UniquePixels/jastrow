@@ -1,0 +1,31 @@
+{
+	"id": "R00583",
+	"slug": "צמם",
+	"headword": {
+		"text": "צָמַם"
+	},
+	"page": {
+		"number": 1288,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be pressed together, be restrained</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵצֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to restrain; to tie up</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:1\">Cant. R. to IV, 1</cite> (ref. to <he>צמתך</he>, <cite ref=\"Shir HaShirim Rabbah 4:1\">ib.</cite>) <he>האשה הזאת כשמֵצֶמֶּת שערה וכ׳</he> as a woman ties up her hair behind, and this is an ornament to her, so the Great Sanhedrin sat behind the Temple &c."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

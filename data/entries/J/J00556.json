@@ -1,0 +1,46 @@
+{
+	"id": "J00556",
+	"slug": "יקד-1",
+	"headword": {
+		"text": "יָקַד"
+	},
+	"page": {
+		"number": 591,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N01162\"><he>נָקַד</he> I</cite>) [<i>to penetrate</i>,] <i>to burn; to be on fire</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 808:2\">Yalk. Deut. 808</cite> <he>אתמול יָקְדוּ גְדִישָׁיו</he> (not <he>גדישי</he>) the other day their stacks were on fire.—V. <cite ref=\"M00581\"><he>מוֹקֵד</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חוּקַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be kept burning; to be burnt into</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 115a\">Ḥull. 115ᵃ</cite>; <cite ref=\"Kiddushin 56b\">Kidd. 56ᵇ</cite>; Y. Pes. II, beg. 28ᶜ (ref. to <cite ref=\"Deuteronomy 22:9\">Deut. XXII, 9</cite>) <he>פן תק̇ד̇ש̇ פן תּוּק̇ד̇ אש̇</he> ‘lest it may become sacred (forbidden) property’, lest a fire must be lighted (for burning it). Part. <cite ref=\"M00581\"><he>מוּקָד</he></cite>. Tanḥ. Tsav. 14 <he>האש המ׳ על המזבח וכ׳</he> the fire entertained on the altar will atone for him. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 479\">Yalk. Lev. 479</cite>, end, v. infra."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִתּוֹקַד"],
+			"senses": [
+				{
+					"gloss": "<i>to burn itself into</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 7:6\">Lev. R. s. 7</cite> (ref. to <cite ref=\"Leviticus 6:2\">Lev. VI, 2</cite>) it does not say ‘the fire of the altar shall be kept burning <i>on</i> it, but <i>in</i> it, <he>האש היתה מִתּוֹקֶדֶת בו</he> the fire was burning itself into it (the altar); Yalk. l. c. <he>המזבח היה מוּקָד באש</he> the altar was burned into by the fire. Lev. R. l. c. <he>קרוב … היתה האש מִתּוֹקֶדֶת בו וכ׳</he> for nearly one hundred and sixteen years was the fire burning itself into it, (and yet) its wood was not consumed &c."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

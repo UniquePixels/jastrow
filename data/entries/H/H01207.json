@@ -1,0 +1,25 @@
+{
+	"id": "H01207",
+	"slug": "חמס-4",
+	"headword": {
+		"text": "חָמָס"
+	},
+	"page": {
+		"number": 478,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01206\">preced.</cite>) <i>violence, extortion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 4:2:2\">Y. B. Mets. IV, 9ᶜ</cite> bot. (ref. to <cite ref=\"Genesis 6:13\">Gen. VI, 13</cite>) <he>מה היה חֲמָסָן</he> what was the nature of their violence? <cite ref=\"Bereishit Rabbah 31:6\">Gen. R. s. 31</cite> (distinction between <he>ח׳</he> a. <cite ref=\"C00560\"><he>גֶּזֶל</he></cite>); a. e.—Pl. <he>חֲמָסִים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 65:13\">Gen. R. s. 65</cite> … <he>שלא גזילות ח׳</he> that thou wilt not give me to eat what has been obtained by robbery or extortion. ",
+				"<cite ref=\"Vayikra Rabbah 2:7\">Lev. R. s. 2</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 3:9:1\">Koh. R. to III, 9</cite>; a. e."
+			]
+		}
+	]
+}

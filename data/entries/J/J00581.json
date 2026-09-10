@@ -1,0 +1,126 @@
+{
+	"id": "J00581",
+	"slug": "יקר-2",
+	"headword": {
+		"text": "יְקַר"
+	},
+	"page": {
+		"number": 592,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00580\">same</cite>.<i>to be heavy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 38:5\">Targ. Ps. XXXVIII, 5</cite> <he>יְקַרוּ</he> (Ms. <cite ref=\"J00576\"><he>יקירו</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 33:7\">Targ. Job XXXIII, 7</cite> (some ed. <cite ref=\"J00581\"><he>אַיְקַר</he></cite> <i>Af.</i>). ",
+				"<cite ref=\"Onkelos Genesis 48:10\">Targ. Gen. XLVIII, 10</cite>; <cite ref=\"Onkelos Exodus 17:12\">Targ. O. Ex. XVII, 12</cite> <he>יְקָרָן</he>, ed. Berl. <cite ref=\"J00584\"><he>יְקָרָא</he></cite>, v. Berl. Targ. O. II, p. 17); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be dear, precious</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 26:21\">Targ. I Sam. XXVI, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 1:13\">Targ. II Kings I, 13</cite>, sq.; a. fr.—",
+				"<cite ref=\"Bava Metzia 64a:11\">B. Mets. 64ᵃ</cite> <he>אי יַקְרָא וכ׳</he>, v. <cite ref=\"G00173\"><he>זוּל</he> I</cite>, ch."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַקַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to make heavy</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 3:7\">Targ. Lam. III, 7</cite> (ed. Amst. <cite ref=\"J00581\"><he>יְקַר</he></cite>, corr. acc.). ",
+						"<cite ref=\"Targum Jonathan on Zechariah 7:11\">Targ. Zech. VII, 11</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to honor, hold dear</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 5:2\">Targ. Is. V, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 58:13\">Ib. LVIII, 13</cite>; a. fr. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 25:27\">Targ. Prov. XXV, 27</cite> <he>מילי מְיַקְּרָתָא</he> honoring words (flatteries).—",
+						"<cite ref=\"Kohelet Rabbah 2:20\">Koh. R. to II, 20</cite>; <cite ref=\"Vayikra Rabbah 25:5\">Lev. R. s. 25</cite> <he>תְּיַקְּרִינֵיה</he>, v. <cite ref=\"M00598\"><he>מוֹקְרָא</he> I</cite>; a. e.—[<cite ref=\"Bereishit Rabbah 17:3\">Gen. R. s. 17</cite> <he>מיקרך</he>, v. <cite ref=\"J00584\"><he>יְקָרָא</he></cite>.]"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to offer, present</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 43:23\">Targ. Is. XLIII, 23</cite> (not <cite ref=\"J00588\"><he>יְקרְתָּא</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 3:9\">Targ. Prov. III, 9</cite>; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אוֹקִיר", "אַיְקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to honor, treat with regard</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 15:4\">Targ. Ps. XV, 4</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 2:30\">Targ. I Sam. II, 30</cite>; a. e.—",
+						"<cite ref=\"Bava Metzia 59a:11\">B. Mets. 59ᵃ</cite> <he>אוֹקִירוּ לנשייכו וכ׳</he> honor your wives (in dress &c.), in order that you may be blessed with wealth. ",
+						"<cite ref=\"Berakhot 48a:5\">Ber. 48ᵃ</cite> <he>לא את קא מוֹקְרַת קָא מוֹקְרָא לי</he> … Ms. M. (ed. <he>היא דמְיַקְּרָא לי …</he>) it is not thou that honorest me, but it is the Law that honors me. Y. Kidd. I, 61ᵇ <he>הלואי</he> … <he>דאוֹקְרִינוּן ואירת ג״ע</he> Oh, that I had father and mother (alive) that I might honor them and inherit paradise; Y. Peah I, 15ᶜ bot. <he>דאַיְקְרִינְהון ונירת וכ׳</he>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to offer</i>. Y. Bets. V, end 63ᵇ <he>אוֹקְרֵיה חד סרקיי כמהין</he> a Saracen sent him mushrooms as a present (on a Holy Day). Y. B. Bath. II, end, 13ᶜ <he>אוֹקְרַת תאנין וכ׳</he> brought R. … figs as a present; a. fr.—[",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be heavy</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 33:17\">Targ. Job XXXIII, 17</cite>, v. supra.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְיַיקַּר", "אִיַּיקַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to become heavy, burdensome</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 1:14\">Targ. Lam. I, 14</cite>. ",
+						"<cite ref=\"Onkelos Exodus 7:14\">Targ. O. Ex. VII, 14</cite> (h. text <cite ref=\"K00030\"><he>כבד</he></cite>); a. e.—[<cite ref=\"Avodah Zarah 46b:9\">Ab. Zar. 46ᵇ</cite> <he>אייקר ליה תלמודא</he> ed., Ms. M. <he>איעקר גמריה</he>, v. <cite ref=\"P01214\"><he>עֲקַר</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be honored, to honor one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 6:20\">Targ. II Sam. VI, 20</cite>. ",
+						"<cite ref=\"Onkelos Exodus 14:17\">Targ. Ex. XIV, 17</cite>, sq.; a. fr.—",
+						"<cite ref=\"Sanhedrin 46b:21\">Snh. 46ᵇ</cite> <he>כי היכי דמִיַּיקַּר וכ׳</he> (Ms. M. <cite ref=\"M01784\"><he>מִתְיַי׳</he></cite>, <he>לִיתְיַי׳</he> &c.) that Abraham be honored through her (at her funeral). ",
+						"<cite ref=\"Sanhedrin 46b:24\">Ib.</cite> <he>לִיַּיקְּרוּ בך … דמִתְיַיקְּרֵי וכ׳</he> Israel will be honored through thee (at thy funeral), as they were honored at the funerals of thy ancestors. ",
+						"<cite ref=\"Megillah 28a:13\">Meg. 28ᵃ</cite> <he>אִתְיַיקּוּרֵי דמתייקרי בי</he> they desire to be honored by me (by inviting me); a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to rise in value</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 103a:4\">B. Kam. 103ᵃ</cite> <he>איי׳ כיתנא</he> flax grew dearer. ",
+						"<cite ref=\"Berakhot 5b\">Ber. 5ᵇ</cite>; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

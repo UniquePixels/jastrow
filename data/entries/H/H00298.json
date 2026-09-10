@@ -1,0 +1,48 @@
+{
+	"id": "H00298",
+	"slug": "חוט-6",
+	"headword": {
+		"text": "חוּט",
+		"homograph": 3
+	},
+	"page": {
+		"number": 431,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00297\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thread, chord, strap; sinew</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 29:3\">Kel. XXIX, 3</cite> <he>ח׳ משקולת</he> chord of the plumb-line; <cite ref=\"Mishnah Kelim 29:4\">ib. 4</cite> <he>ח׳ מאזנים</he> of the balances.—",
+				"<cite ref=\"Yevamot 121b\">Yeb. 121ᵇ</cite>, a. fr. <he>ח׳ השערה</he> a single hair, v. <cite ref=\"D00989\"><he>דִּקְדֵּק</he></cite>.—",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite>, a fr. <he>ח׳ השדרה</he> the spinal chord.—",
+				"<cite ref=\"Chagigah 12b:8\">Ḥag. 12ᵇ</cite> <he>הקב״ה … ח׳ של חסד</he> the Lord strings around him a chord of grace (protection). ",
+				"<cite ref=\"Megillah 13a:12\">Meg. 13ᵃ</cite> <he>ח׳ של חסד וכ׳</he> a chord of (divine) grace was strung &c. ",
+				"<cite ref=\"Menachot 39a:3\">Men. 39ᵃ</cite> <he>נפסק הח׳ מעיקרו</he> the twining thread of the show-fringes is broken at the top. ",
+				"<cite ref=\"Menachot 39a:6\">Ib.</cite> <he>ח׳ של כרך</he> the thread used for twining; a. fr.—Y. Sabb. VI, 8ᵇ bot. <he>חוטמה וכ׳</he>, read: <he>חוט דומה לשערה</he> a band (of hair) resembling her own hair.—Pl. <he>חוּטִים</he>, <cite ref=\"H00293\"><he>חוּטִין</he></cite>. ",
+				"<cite ref=\"Sanhedrin 52a:19\">Snh. 52ᵃ</cite>, a. e. <he>שני ח׳ של אש</he> two threads (lines) of fire. ",
+				"<cite ref=\"Vayikra Rabbah 14:8\">Lev. R. s. 14</cite>, v. <cite ref=\"G00093\"><he>זְהוֹרִית</he></cite>.—",
+				"<cite ref=\"Menachot 39b:7\">Men. 39ᵇ</cite> <he>חוּטֵי צמר</he> woolen threads (as show-fringes). ",
+				"<cite ref=\"Mishnah Shabbat 6:5\">Sabb. VI, 5</cite> <he>חוטי שיער</he> bands made of hair. ",
+				"<cite ref=\"Mishnah Shabbat 6:6\">Ib. 6</cite> <he>בח׳ וכ׳</he> with threads … in their ears (in place of earrings). ",
+				"<cite ref=\"Chullin 93a:7\">Ḥull. 93ᵃ</cite> <he>ח׳ שביד</he> the veins of the fore-foot; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (Geogr.) <i>air-line</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 2:12\">Tosef. Ter. II, 12</cite>. ",
+				"<cite ref=\"Tosefta Terumot 2:13\">Ib. 13</cite> <he>מן הח׳ ולפנים וכ׳</he> what is inside (East) of the line is considered as belonging to the land of Israel.—[<cite ref=\"Tosefta Keilim Batra 5:14\">Tosef. Kel. B. Bath. V, 14</cite> <he>יוצאת החוט</he>, v. <cite ref=\"H00430\"><he>חוּץ</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

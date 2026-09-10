@@ -1,0 +1,129 @@
+{
+	"id": "U00031",
+	"slug": "שאל-2",
+	"headword": {
+		"text": "שְׁאַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁאֵיל"
+		},
+		{
+			"text": "שְׁיֵיל"
+		},
+		{
+			"text": "שְׁיֵל"
+		}
+	],
+	"page": {
+		"number": 1507,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00030\">same</cite><i>to ask, inquire, beg</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 3:11\">Targ. II Kings III, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 19:4\">Targ. I Kings XIX, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:30\">Targ. Job XXXI, 30</cite> <he>למִשְׁאַל</he> Ms. (ed. <he>למִשְׁיַיל</he>, <he>למִשְׁיַל</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:1\">Targ. Y. Deut. I, 1</cite> <he>שַׁיְילְתוּן</he> (ed. Vien. <he>שַׁיְילַתַּוּן</he>, read: <he>שַׁיַּילְתּוּן</he>, <i>Pa</i>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 137:3\">Targ. Ps. CXXXVII, 3</cite>; a. fr.—<he>ש׳ לשלם</he>, <he>ש׳ בשלם</he>, v. <cite ref=\"U01351\"><he>שְׁלָם</he></cite>.—",
+				"<cite ref=\"Shabbat 20b:2\">Sabb. 20ᵇ</cite>; <cite ref=\"Shabbat 21a:3\">21ᵃ</cite> <he>שְׁאִילְתִּינְהוּ לכל וכ׳</he>, v. <cite ref=\"N00484\"><he>נָחוֹתָא</he></cite>. ",
+				"<cite ref=\"Shabbat 30a:3\">Ib. 30ᵃ</cite> <he>שׁאוּל שאילה זו וכ׳</he> they asked the following question &c., v. <cite ref=\"P00565\"><he>עֵיל</he></cite>. ",
+				"<cite ref=\"Taanit 21a:5\">Taan. 21ᵃ</cite> <he>אי איכא דשָׁאֵיל לי וכ׳</he> if any one were to ask me a question from the Mishnah of &c. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:13\">Y. Shebi. VII, 37ᶜ</cite> top <he>הא גברא מִישְׁאֲלִינֵיה אתא שַׁאֲלוּנֵיה וכ׳</he> (not <he>מישאלינית</he>) here is a man whom you night ask; he came, and they asked; a. fr.—Part. pass. <cite ref=\"U00023\"><he>שְׁאִיל</he></cite>. ",
+				"<cite ref=\"Shabbat 30b:2\">Sabb. 30ᵇ</cite> <he>ולענין שאילה דשְׁאִילְנָא קדמיכון</he> and as to the question which I have been asked in your presence; [Rashi: <he>דשָׁאֵילְנָא</he> which I asked, a courteous phrase for ‘which you asked of me’]; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to borrow</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 22:13\">Targ. Ex. XXII, 13</cite>; a. fr.—[<cite ref=\"Onkelos Exodus 12:36\">Targ. O. ib. XII, 36</cite>, v. infra <i>Af.</i>]—",
+				"<cite ref=\"Bava Metzia 97a:10\">B. Mets. 97ᵃ</cite> <he>ההוא גברא דש׳ וכ׳</he> a man borrowed a cat from his neighbor &c. ",
+				"<cite ref=\"Bava Metzia 97a:10\">Ib.</cite> <he>האי … למִישְׁאַל מידי וכ׳</he> if one wishes to borrow an object from his neighbor and be free from responsibility for an accident &c. ",
+				"<cite ref=\"Bava Metzia 97a:7\">Ib.</cite> <he>נימא ליה שְׁאֵיל וכ׳</he> let him (the lender) say to him, first take what you want to borrow, and then &c. ",
+				"<cite ref=\"Yevamot 120b:4\">Yeb. 120ᵇ</cite> <he>לא שָׁיְילֵי</he> (not <he>שיולי</he>); <cite ref=\"Bava Metzia 27b:8\">B. Mets. 27ᵇ</cite> <he>לא שְׁאִילֵי</he>, v. <cite ref=\"O01444\"><he>סְקַב</he></cite>; a. fr.—Part. pass. as ab. ",
+				"<cite ref=\"Bava Metzia 97a:10\">Ib. 97ᵃ</cite> <he>שאיל לן מר</he> you (as teacher) are loaned to us, i.e. you are in our service, and if we borrow an object from you, we are not responsible, it being <he>שאילה בבעלים</he>, v. <cite ref=\"U00026\"><he>שְׁאִילָה</he></cite>. ",
+				"<cite ref=\"Bava Metzia 97a:10\">Ib.</cite> <he>אתון שְׁאִילְתּוּן לי</he> you are in my service. ",
+				"<cite ref=\"Bava Metzia 97a:10\">Ib.</cite> <he>איהו ש׳ להו … אינהו שְׁאִילוּ ליה וכ׳</he> he (the teacher) is in their (the scholar’s) service on the Kallah day (v. <cite ref=\"K00691\"><he>כַּלָּה</he></cite>); they are in his on any other day; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 65:15\">Gen. R. s. 65</cite> <he>לא שאיל הוא לה ולא שְׁאִילָה היא ליה</he> (some ed. <he>שאול … שאולה</he>) he is not loaned to her, nor she to him, i.e. the simile does not fit the application, nor the application the simile."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁיֵּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00030\">same</cite>, <i>to ask, borrow</i> &c. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 12:35\">Targ. Y. Ex. XII, 35</cite>; a. e.—",
+						"<cite ref=\"Beitzah 19a:7\">Bets. 19ᵃ</cite> <he>אתא … לשַׁיּוּלֵי וכ׳</he> he came before the Rabbis to ask &c. ",
+						"<cite ref=\"Chullin 3b:10\">Ḥull. 3ᵇ</cite> <he>דליתיה קמן דלִישַׁיְּילֵיה</he> when he is not before us so that we could ask him. ",
+						"<cite ref=\"Tamid 32a:26\">Tam. 32ᵃ</cite> <he>מְשַׁיַּילְנָא לכו</he> I am asking you; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lend</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 12:36\">Targ. Y. Ex. XII, 36</cite>.—",
+						"<cite ref=\"Taanit 21b:4\">Taan. 21ᵇ</cite>, v. <cite ref=\"G00037\"><he>זְבִילָא</he></cite>. ",
+						"<cite ref=\"Taanit 21b:8\">Ib.</cite> <he>דמחממת … ומְשַׁיְּילָא וכ׳</he> who heated her oven and let her neighbors use it; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַשְׁאֵיל", "אוֹשֵׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to lend</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 12:36\">Targ. O. Ex. XII, 36</cite> ed. Berl. (ed. Vien. <he>שאילינון</he>, corr. acc.); a. e.—Yeb. l. c. <he>ולא מוֹשְׁלֵי</he>, v. <cite ref=\"N00519\"><he>נְחַשׁ</he> I</cite>. ",
+						"<cite ref=\"Bava Metzia 116a:7\">B. Mets. 116ᵃ</cite> <he>דעביד לאוֹשׁוּלֵי וכ׳</he> which it is customary to lend and hire out; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתָּאַל"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּאֵיל", "אִתְּשִׁיל"],
+			"senses": [
+				{
+					"gloss": " (with <he>מ־</he>) <i>to take leave of absence</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 20:6\">Targ. I Sam. XX, 6</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <cite ref=\"B00000\"><he>ב־</he></cite>) <i>to allow one’s self to be inquired of; to answer, issue an oracle</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 14:3\">Targ. Ez. XIV, 3</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Numbers 24:1\">Targ. Y. II, Num. XXIV, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 65:1\">Targ. Is. LXV, 1</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (with <he>ל־</he>) <i>to bring a case up for decision, to ask</i>. Y. Maasr. II, beg. 49ᶜ <he>אִשְׁתָּאֲלִית לאילין וכ׳</he> I asked those of the house of &c. Y. Sabb. XII, 13ᶜ bot., <he>אִשְׁתַּאֲלַת לר׳ שמעון וכ׳</he> R. S. b. L. was asked. Ib. VI, 8ᵃ <he>ואִיתְשְׁלַת לר׳ ומר וכ׳</he> when the case was brought before Rabbi, he said &c.; a. fr.—Esp. <i>to come before a scholar for absolution from a vow</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 90a:7\">Ned. 90ᵃ</cite> <he>אי בעי על נדרו איתשיל ברישא וכ׳</he> if he so desires, he may ask first for absolution from his vow of abstinence, or if he chooses, he may ask first for absolution from his nazaritic vow; <cite ref=\"Nedarim 90a:4\">ib.</cite> <he>נִיתְּשִׁיל</he>; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

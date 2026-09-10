@@ -1,0 +1,23 @@
+{
+	"id": "G00100",
+	"slug": "זהירות",
+	"headword": {
+		"text": "זְהִירוּת"
+	},
+	"page": {
+		"number": 381,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"G00097\"><he>זָהִיר</he></cite>) <i>strictness, care</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 20b:10\">Ab. Zar. 20ᵇ</cite> <he>תורה מביאה לידי ז׳ וכ׳</he> study leads to strictness, strictness to zeal (differ. vers., v. Rabb. D. S. a. l., note, a. ",
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A01976",
+	"slug": "אמבטיתא",
+	"headword": {
+		"text": "אַמְבְּטִיתָא"
+	},
+	"page": {
+		"number": 75,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (deriv. of <he>אמבטי</he>) <i>water of the bath-tub, waste of the bath-tub</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:6:5\">Y. Sabb. VIII, 11ᶜ</cite> <he>ההן דמשזג</he> (<he>גו</he>) <he>א׳ וכ׳</he> he who washes (his anus) in &c., is liable to a disease of the rectum."
+			]
+		}
+	]
+}

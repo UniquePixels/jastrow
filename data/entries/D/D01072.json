@@ -1,0 +1,23 @@
+{
+	"id": "D01072",
+	"slug": "דרוקא",
+	"headword": {
+		"text": "דְּרוּקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 322,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. Lat. drungus, v. Sachs Beitr. I, p. 96) <i>a troop of soldiers</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 62a\">Keth. 62ᵃ</cite> <he>ד׳ דמלכא</he> Ar. (ed. <cite ref=\"Q01817\"><he>פריסתקא</he></cite>)."
+			]
+		}
+	]
+}

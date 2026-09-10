@@ -1,0 +1,31 @@
+{
+	"id": "H00803",
+	"slug": "חימוץ",
+	"headword": {
+		"text": "חִימּוּץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִמּ׳"
+		}
+	],
+	"page": {
+		"number": 457,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חָמֵץ</he> I) <i>becoming sour, fermentation, leavening</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 39b:16\">Pes. 39ᵇ</cite> <he>שאינן באין לידי ח׳</he> which will not ferment (so as to become <cite ref=\"H01212\"><he>חָמֵץ</he></cite>). ",
+				"<cite ref=\"Pesachim 39b:16\">Ib.</cite>, sq. (in Chald. diction) <he>ואתי לידי ח׳</he> and may ferment. ",
+				"<cite ref=\"Beitzah 7b:8\">Bets. 7ᵇ</cite> <he>שחִמּוּצוֹ קשה</he> which is a strong leavening agent. ",
+				"<cite ref=\"Jerusalem Talmud Challah 1:1:5\">Y. Ḥall. I, beg. 57ᵃ</cite> <he>אין חִימּוּצוֹ חמץ ברור</he> the fermentation which it produces is not real leavening. ",
+				"<cite ref=\"Niddah 63a:38\">Nidd. 63ᵃ</cite> <he>כמה חִמּוּצָן</he> how long must urin stand to be considered as fermenting?—Pl. <he>חִימּוּצִין</he> <i>salads</i>, v. <cite ref=\"H00389\"><he>חוּמְצָן</he></cite>."
+			]
+		}
+	]
+}

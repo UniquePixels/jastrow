@@ -1,0 +1,22 @@
+{
+	"id": "V00634",
+	"slug": "תלתי",
+	"headword": {
+		"text": "תִּלְתָּי"
+	},
+	"page": {
+		"number": 1674,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00626\"><he>תְּלַת</he></cite>) (<i>by the</i>) <i>tierce, large measure</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 80:6\">Targ. Ps. LXXX, 6</cite>; v. <cite ref=\"V00627\"><he>תִּלְתָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "B01045",
+	"slug": "בעיטה",
+	"headword": {
+		"text": "בְּעִיטָה"
+	},
+	"page": {
+		"number": 181,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01034\"><he>בעט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>kicking</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 1:1:4\">Y. B. Kam. I, beg. 2ᵃ</cite> (of animals). Bab. ",
+				"<cite ref=\"Bava Kamma 27b:10\">B. Kam. 27ᵇ</cite> <he>לב׳ חמש</he> for kicking with one’s foot &c. "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>beating</i> (with one’s fist). ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 6:5\">Men. VI, 5</cite> (<cite ref=\"Menachot 76a:1\">76ᵃ</cite>) <he>שיפה וב׳ בחטין</he> rubbing and beating refer to the preparation of the wheat of the meat-offering (prior to grinding); R. Y. says <he>בבצק</he> (Mish. <cite ref=\"A02595\"><he>אף</he></cite> incorr.) beating refers to the dough. ",
+				"<cite ref=\"Menachot 76a:1\">Ib.</cite> ",
+				"<cite ref=\"Menachot 76a:1\">Ib.</cite> Var. <he>שיפה בחיטים וב׳ בבצק</he>; Tosef. ib. VIII, 14."
+			],
+			"label": "2"
+		}
+	]
+}

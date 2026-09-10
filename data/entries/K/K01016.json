@@ -1,0 +1,33 @@
+{
+	"id": "K01016",
+	"slug": "כפין",
+	"headword": {
+		"text": "כָּפִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפִינָא"
+		}
+	],
+	"page": {
+		"number": 659,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01034\"><he>כְּפַן</he></cite>) <i>hungry, starving</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 107:9\">Targ. Ps. CVII, 9</cite>; a. e.—V. <cite ref=\"K01034\"><he>כְּפַן</he> I</cite>.—",
+				"<cite ref=\"Megillah 7b:5\">Meg. 7ᵇ</cite> (prov.) <he>כ׳ עניא ולא ידע</he> the poor man is hungry and knows it not (until food is placed before him). ",
+				"<cite ref=\"Kohelet Rabbah 5:12\">Koh. R. to V, 12</cite> ‘an evil disease’ <he>מסכן ותשיש ערטיל וכ׳</he> one poor and feeble (unable to work), naked (unfit to go out) and hungry (v. <cite ref=\"D00112\"><he>דגלוס</he></cite>).—",
+				"<cite ref=\"Berakhot 58b:3\">Ber. 58ᵇ</cite>; a. fr.—Pl. <he>כְּפִינִין</he>, <cite ref=\"K01017\"><he>כְּפִינֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:5\">Targ. Job V, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:5\">Targ. Ps. CVII, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:36\">Ib. 36</cite> <he>כפינין</he> Ms. (ed. Lag. <he>כפינים</he>, oth. <cite ref=\"K01037\"><he>כָּפְנִים</he></cite>!)"
+			]
+		}
+	]
+}

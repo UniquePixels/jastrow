@@ -1,0 +1,40 @@
+{
+	"id": "A01894",
+	"slug": "אלכסנדרוס",
+	"headword": {
+		"text": "אֲלֶכְסַנְדְּרוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲלַכְ׳"
+		}
+	],
+	"page": {
+		"number": 70,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Alexander</i>. ",
+			"units": []
+		},
+		{
+			"gloss": " A. the Great, <cite ref=\"M00584\"><he>מוקדון</he></cite> the Macedonian. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 6:8\">Targ. Cant. VI, 8</cite>; Targ. II, <cite ref=\"Esther 1:2\">Esth. I, 2</cite>.—",
+				"<cite ref=\"Tamid 31b:48\">Tam. 31ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a judge and of a robber. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:20\">Y. Ber. IX, 13ᵇ</cite> top (for <cite ref=\"A01896\"><he>אלכסנדריאה</he></cite> <cite ref=\"Jerusalem Talmud Berakhot 9:1:20\">ib.</cite> read our w.)."
+			],
+			"label": "2"
+		}
+	]
+}

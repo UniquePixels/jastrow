@@ -1,0 +1,23 @@
+{
+	"id": "S00132",
+	"slug": "קדיא-1",
+	"headword": {
+		"text": "קַדְיָא"
+	},
+	"page": {
+		"number": 1315,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Ḳadia</i>, name of an unclean bird, <i>Little Owl</i> (?). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:17\">Targ. O. Lev. XI, 17</cite>; <cite ref=\"Deuteronomy 14:16\">Deut. XIV, 16</cite> ed. Berl. a. early eds. (later eds. <cite ref=\"S02026\"><he>קריא</he></cite>; h. text <cite ref=\"K00314\"><he>כּוֹס</he></cite>, v. <cite ref=\"R00105\"><he>צַדְיָא</he> II</cite>).—",
+				"<cite ref=\"Berakhot 57b\">Ber. 57ᵇ</cite> <he>קד׳</he> Ms. M. (ed. <he>קר׳</he>, v. Rabb. D. S. a. l. note 8); <cite ref=\"Niddah 23a\">Nidd. 23ᵃ</cite> Ms. (v. Rabb. D. S. l. c.; ed. <he>קר׳</he>)."
+			]
+		}
+	]
+}

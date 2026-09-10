@@ -1,0 +1,23 @@
+{
+	"id": "M01356",
+	"slug": "מכולין",
+	"headword": {
+		"text": "מְכוֹלִין"
+	},
+	"page": {
+		"number": 781,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"K00259\"><he>כּוּל</he></cite>, <cite ref=\"K00759\"><he>כְּלַל</he></cite>; cmp. <cite ref=\"K00532\"><he>כּילָה</he></cite>) <i>curtain, cover</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 23:7\">Targ. II Kings XXIII, 7</cite> (Ar. <he>מְכִילִין</he>)."
+			]
+		}
+	]
+}

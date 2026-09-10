@@ -1,0 +1,39 @@
+{
+	"id": "N00566",
+	"slug": "נטיר-2",
+	"headword": {
+		"text": "נְטִיר"
+	},
+	"page": {
+		"number": 899,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ",
+			"units": []
+		},
+		{
+			"gloss": " part. pass. of <cite ref=\"N00584\"><he>נְטַר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (<cite ref=\"N00584\"><he>נְטַר</he></cite>) <i>observance, worth observing</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:42\">Targ. O. Ex. XII, 42</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " בִּנְ׳ <i>in secret</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 4:12\">Targ. Job IV, 12</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

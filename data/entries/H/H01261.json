@@ -1,0 +1,26 @@
+{
+	"id": "H01261",
+	"slug": "חנוכתא",
+	"headword": {
+		"text": "חֲנוּכְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲנֻכְּ׳"
+		}
+	],
+	"page": {
+		"number": 481,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01260\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 7:84\">Targ. Num. VII, 84</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 30:1\">Targ. Ps. XXX, 1</cite>; a. e.—Y. M. Kat. III, end, 83ᵈ. ",
+				"<cite ref=\"Shabbat 45a:2\">Sabb. 45ᵃ</cite>"
+			]
+		}
+	]
+}

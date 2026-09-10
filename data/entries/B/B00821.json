@@ -1,0 +1,30 @@
+{
+	"id": "B00821",
+	"slug": "בלדר",
+	"headword": {
+		"text": "בַּלְדָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּלְדָּר"
+		}
+	],
+	"page": {
+		"number": 171,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (veredarius, βερεδάριος, with change of liquida) <i>courier</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:5\">Y. Taan. IV, 68ᶜ</cite> bot. <he>ביום ולילה נפק בלדרה וכ׳</he> could the courier go in one day and night from Jerusalem to Tyre? <cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 78:12\">Gen. R. s. 78</cite>; a. e.—Pl. <he>בּוּלְּדָּרִין</he>, <he>בּוּלְדָּארִין</he>. ",
+				"<cite ref=\"Esther Rabbah 2:13\">Esth. R. to I, 8</cite> <he>הכתבים והב׳</he> (strike out either of the two, v. Pesik. Shek. p. 14ᵃ, <cite ref=\"Shir HaShirim Rabbah 3:4\">Cant. R. to III, 4</cite>). ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4\">Ib.</cite> <he>ושלח בולדארין והחזיר וכ׳</he> and sent couriers (after them) and had the letters brought back."
+			]
+		}
+	]
+}

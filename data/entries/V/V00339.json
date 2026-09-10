@@ -1,0 +1,36 @@
+{
+	"id": "V00339",
+	"slug": "תותב-3",
+	"headword": {
+		"text": "תּוֹתַב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹתָבָא"
+		},
+		{
+			"text": "תּוֹתָבָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1659,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יְתַב</he>) = h. <cite ref=\"V00324\"><he>תּוֹשָׁב</he></cite>, <i>settler, immigrant</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 23:4\">Targ. Gen. XXIII, 4</cite> (Y. ed. Vien. <cite ref=\"V00337\"><he>תּוֹתֵב</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 12:45\">Targ. Ex. XII, 45</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 17:7\">Lev. R. s. 17</cite>, end; Lam. R. introd. (R. Josh. 1), v. <cite ref=\"B00589\"><he>בִּיָיא</he> II</cite>.—Pl. <he>תּוֹתָבִין</he>, <he>תּוֹתָבַיָּא</he>. ",
+				"<cite ref=\"Onkelos Leviticus 25:23\">Targ. Lev. XXV, 23</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 25:45\">Ib. 45</cite> (ed. Vien. O. <he>תּוֹתְ׳</he>; Y. <he>תּוּתְ׳</he>); a. fr."
+			]
+		}
+	]
+}

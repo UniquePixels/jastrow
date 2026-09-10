@@ -1,0 +1,23 @@
+{
+	"id": "H00283",
+	"slug": "חוזאה-1",
+	"headword": {
+		"text": "חוֹזָאָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 430,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חזיּ</he>) <i>a visionary, fiction-teller</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 105b:3\">Pes. 105ᵇ</cite> <he>לא ח׳ אנא ולא חכימא אנא</he> Ms. M. (ed. <he>לא חכימאה … ח׳ וכ׳</he>, v. Rabb. D. S. a. l.) I am neither a poet (inventing a story) nor a speculator. [Rashi explains: <cite ref=\"M00151\"><he>מַגִּיד</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "A03173",
+	"slug": "ארמותא",
+	"headword": {
+		"text": "אָרָמוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרָ׳"
+		}
+	],
+	"page": {
+		"number": 122,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רום</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>raising, rising</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 19:16\">Targ. Is. XIX, 16</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>waving, heave-offering</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 29:27\">Targ. O. Ex. XXIX, 27</cite>; a. e.—Pl. <cite ref=\"A03173\"><he>אֲרַמְוָתָא</he></cite>, const. <he>אֲרַמְוָת</he>. ",
+				"<cite ref=\"Onkelos Numbers 18:11\">Targ. O. Num. XVIII, 11</cite> (Var. <he>אֲרָמוּת</he> sing.)."
+			],
+			"label": "2"
+		}
+	]
+}

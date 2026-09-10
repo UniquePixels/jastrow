@@ -1,0 +1,29 @@
+{
+	"id": "J00544",
+	"slug": "יצף-2",
+	"headword": {
+		"text": "יָצַף"
+	},
+	"page": {
+		"number": 589,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"R00216\"><he>צוף</he></cite>) [<i>to flow, melt</i>,] <i>to be troubled, afraid</i> (cmp. <he>דאב</he>, <he>דאג</he>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִצֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to trouble, discourage</i>. Tanḥ. ed. Bub. Vayera 48 (quoted in ‘Rashi’ to <cite ref=\"Bereishit Rabbah 56:4\">Gen. R. s. 56</cite>) [read:] <he>הוא בא לְיַצֵּף אותך אבל הקב״ה יִיצֶף לנו וכ׳</he> he (Satan) comes to discourage thee, but the Lord will look out (v. <cite ref=\"R00672\"><he>צָפָה</he></cite>) for us, as it is said, God will see &c. (<cite ref=\"Genesis 22:8\">Gen. XXII, 8</cite>); (Tanḥ. Vayera 22 <he>אל תשגיח עליו שאינו בא אלא ליעף לנו</he>, prob. to be read: <he>לְיַצֵּף</he>); <cite ref=\"Pesikta Rabbati 40\">Pesik. R. s. 40</cite> <he>לְיַ׳ לך</he>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

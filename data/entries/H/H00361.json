@@ -1,0 +1,22 @@
+{
+	"id": "H00361",
+	"slug": "חולפנא",
+	"headword": {
+		"text": "חוּלְפָנָא"
+	},
+	"page": {
+		"number": 434,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. (<he>חלף</he>) <he>חוּלְפַן</he> <i>value received in exchange</i> (h. <cite ref=\"M00879\"><he>מְחִיר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 23:19\">Targ. O. Deut. XXIII, 19</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "E00028",
+	"slug": "הבדלה",
+	"headword": {
+		"text": "הַבְדָּלָה"
+	},
+	"page": {
+		"number": 329,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00150\"><he>בָּדַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cutting apart</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 20b:10\">Ḥull. 20ᵇ</cite> <he>מצות ה׳</he> the law ordering the separation of the head from the body (<cite ref=\"Leviticus 1:15\">Lev. I, 15</cite>). ",
+				"<cite ref=\"Leviticus 1:15\">Ib.</cite> <he>ישנו בה׳</he> must be cut apart; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>separation</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 3:6\">Gen. R. s. 3</cite> <he>ויבדל ה׳ ממש</he> <i>vayyabdel</i> (<cite ref=\"Genesis 1:4\">Gen. I, 4</cite>) means real separation (in space, not logical differentiation). ",
+				"<cite ref=\"Chagigah 15a:4\">Ḥag. 15ᵃ</cite> <he>ה׳ … דהואי</he> the separation (of the waters) took place on the second day."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Habdalah</i>, a formula of prayer for the exit of the Sabbath or Festivals, v. <cite ref=\"A00042\"><he>אַבְדָּלָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 8:5\">Ber. VIII, 5</cite>; a. fr.—Pl. <he>הַבְדָּלוֹת</he> <i>the distinctions referred to in the Habdalah</i>. ",
+				"<cite ref=\"Chullin 26b:18\">Ḥull. 26ᵇ</cite> bot.; <cite ref=\"Pesachim 104a:7\">Pes. 104ᵃ</cite> <he>סדר ה׳</he> the order of the subjects of distinction. ",
+				"<cite ref=\"Pesachim 104a:7\">Ib.</cite> <he>מעין ה׳ האמורות וכ׳</he> corresponding to the distinctions mentioned in the Bible (<cite ref=\"Leviticus 10:10\">Lev. X, 10</cite> &c.)."
+			],
+			"label": "3"
+		}
+	]
+}

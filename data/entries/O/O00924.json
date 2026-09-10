@@ -1,0 +1,56 @@
+{
+	"id": "O00924",
+	"slug": "סכן-4",
+	"headword": {
+		"text": "סְכֵן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְכֵין"
+		}
+	],
+	"page": {
+		"number": 991,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00923\">same</cite> <cite ref=\"Jerusalem Talmud Sheviit 4:2:10\">Y. Shebi. IV, 35ᵇ</cite> top <he>וסכין</he> and got himself into trouble. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:9\">Y. Ab. Zar. II, 40ᵈ</cite> bot. <he>רחם … וס׳</he> fell in love with a woman …, and became dangerously ill.; <cite ref=\"Jerusalem Talmud Shabbat 14:4:7\">Y. Sabb. XIV, 14ᵈ</cite> bot. Y. Ab. Zar. l. c. <he>ומשתי ולא יִסְכַּן</he> and let him drink it, that he may not get ill. Y. Shek. V, 48ᵈ <he>בעינה סַכְנַת</he> she was in danger of losing her eye-sight; <he>בימה ס׳</he> she was in danger of drowning &c., v. <cite ref=\"O00923\">preced.</cite> ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:13\">Y. Ab. Zar. III, 42ᶜ</cite> <he>וסַכְנָן נפשתא</he> (not <he>וסכנתן</he>) human lives were in danger; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַכֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to expose to danger; to hurt; to mislead, bring into trouble</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 25b:24\">Ber. 25ᵇ</cite> <he>סַכַּנְתּוּן לברי</he> you might have brought my son into trouble (by causing him to sin unawares). ",
+						"<cite ref=\"Shabbat 116a:10\">Sabb. 116ᵃ</cite> <he>בעו לסַכּוּנֵיה</he> they tried to give him trouble; a. fr.—Part. pass. <cite ref=\"M01948\"><he>מְסַכַּן</he></cite>; f. <cite ref=\"M01950\"><he>מְסַכְּנָא</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 22:5\">Targ. II Sam. XXII, 5</cite>.—Y. Peah VIII, 21ᵃ top <he>עד דהוא מצמית לון הוא מס׳</he> until he gets them together for a meeting, he might be in danger (of starving)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּכֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be exposed to danger, be hurt; to be in trouble</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 25:3\">Targ. Y. Deut. XXV, 3</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 119:109\">Targ. Ps. CXIX, 109</cite>.—",
+						"<cite ref=\"Pesachim 112b\">Pes. 112ᵇ</cite> <he>וא׳ ליה</he> and he might be injured; <cite ref=\"Pesachim 112b:10\">ib.</cite> <he>ומִסְתַּכֵּן</he>. ",
+						"<cite ref=\"Ketubot 61a:13\">Keth. 61ᵃ</cite> <he>אי לאו … אִסְתַּכְּנִי</he> if he had not given it to me, I should have become seriously ill; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

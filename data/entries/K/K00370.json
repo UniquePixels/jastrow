@@ -1,0 +1,23 @@
+{
+	"id": "K00370",
+	"slug": "כורבלין",
+	"headword": {
+		"text": "כּוֹרַבְלִין"
+	},
+	"page": {
+		"number": 625,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (χοραύλης) <i>flute-players accompanying the chorus of dancers</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 23\">Gen. R. s. 23</cite>; s. 50 (variously corrupted), v. <cite ref=\"A00450\"><he>אִדְרַבְלָא</he></cite>."
+			]
+		}
+	]
+}

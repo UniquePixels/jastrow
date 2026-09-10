@@ -1,0 +1,31 @@
+{
+	"id": "Q00859",
+	"slug": "פירכוס-1",
+	"headword": {
+		"text": "פִּירְכּוּס",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְקוּס"
+		},
+		{
+			"text": "פִּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1171,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פִּרְכֵּס</he> I) <i>painting, dyeing the hair</i>; trnsf. <i>giving a fraudulent appearance, deception</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 60b:5\">B. Mets. 60ᵇ</cite> <he>פ׳ דאדם מאי היא</he> what is (in a legal sense) deception in selling a human being? (Answ. dyeing a slave’s hair). Y. ib. IV, end, 9ᵈ <he>יש פירק׳ בכלים</he> (not <he>כאוכלין</he>) giving a deceptive appearance to garments is forbidden <cite ref=\"Ketubot 17a:2\">Keth. 17ᵃ</cite> <he>לא פ׳</he> there is no paint (deception), v. <cite ref=\"K00238\"><he>כּוֹחָל</he></cite>; <cite ref=\"Sanhedrin 14a:11\">Snh. 14ᵃ</cite> <cite ref=\"Q00863\"><he>פירכס</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

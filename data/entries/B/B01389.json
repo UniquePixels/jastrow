@@ -1,0 +1,43 @@
+{
+	"id": "B01389",
+	"slug": "בתירא",
+	"headword": {
+		"text": "בְּתֵירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּתֵירָה"
+		},
+		{
+			"text": "בְּתֵרָה"
+		}
+	],
+	"page": {
+		"number": 201,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>B’therah;</i> ",
+			"units": []
+		},
+		{
+			"gloss": " father of R. Judah of Netsibin. ",
+			"units": [
+				"<cite ref=\"Yevamot 102a:8\">Yeb. 102ᵃ</cite>; <cite ref=\"Pesachim 3b:12\">Pes. 3ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>בני ב׳</he> B’ne B., a scholarly family of Babylonian descent, much favored by Herod. ",
+			"units": [
+				"<cite ref=\"Pesachim 66a:3\">Pes. 66ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 85a:1\">B. Mets. 85ᵃ</cite> top."
+			],
+			"label": "2"
+		}
+	]
+}

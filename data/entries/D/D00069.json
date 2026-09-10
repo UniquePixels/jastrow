@@ -1,0 +1,39 @@
+{
+	"id": "D00069",
+	"slug": "דבלול",
+	"headword": {
+		"text": "דַּבְלוּל"
+	},
+	"page": {
+		"number": 277,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>רַּבְלוּלִין</he> (denom. of <cite ref=\"D00068\"><he>דְּבֵלָה</he></cite>, cmp. σῦκον, συκῆ, ficus) <i>piles, excrescences;</i> trnsf. <i>lumps</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 9:2\">Tosef. Kel. B. Mets. IX, 2</cite> <he>היו ד׳ יוצאין וכ׳</he> (cmp. <cite ref=\"M02106\"><he>מֵעַיִין</he></cite> <cite ref=\"Tosefta Keilim Metsia 9:2\">ib.</cite>) if lumps of upholstery protrude from the couch. ",
+				"<cite ref=\"Tosefta Keilim Metsia 7:11\">Ib. VII, 11</cite> <he>היו ד׳ … הימנה</he> if lumps or irregular pieces of reeds hang down from the matting.—Denom. <cite ref=\"M00258\"><he>מְדוּבְלָל</he></cite> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>lumpy</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 3:4\">Bekh. III, 4</cite> <he>הצמר המ׳</he> (Talm. ed. 25ᵇ <he>המדולדל</he>) the clumps in the wool.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (cmp. Arab. <i>dubal</i>) <i>melancholy, miserable-looking</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sukkah 2:2\">Succ. II, 2</cite> <he>סוכה המְדוּבְלֶלֶת</he> a miserable looking Succah, expl. ib. 22ᵃ (by Rab) as <he>ענייה</he> or <he>מדולדלת</he> (Y. ib. 52ᵇ bot. <he>מדוללת</he>, v. <cite ref=\"D00841\"><he>דָּלַל</he></cite> a. <cite ref=\"D00807\"><he>דִּלְדֵּל</he></cite>) beggarly, thinned; (by Samuel) as <he>קנה עולה וקנה יורד</he> or <he>מבולבלת</he> disarranged."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "T00736",
+	"slug": "ריתות",
+	"headword": {
+		"text": "רִיתּוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִתּ׳"
+		}
+	],
+	"page": {
+		"number": 1478,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01148\"><he>רָתַת</he></cite>) <i>trembling; weakness, failing</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite> (ref. to <cite ref=\"Hosea 13:1\">Hos. XIII, 1</cite>) <he>כדבר ירבעם רִיתּוּתוֹ של וכ׳</he> when Jeroboam spoke of Solomon’s failing (with regard to women); <cite ref=\"Yalkut Shimoni on Nach 320:1\">Yalk. Jer. 320</cite>."
+			]
+		}
+	]
+}

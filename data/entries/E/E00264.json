@@ -1,0 +1,49 @@
+{
+	"id": "E00264",
+	"slug": "הוצא-1",
+	"headword": {
+		"text": "הוּצָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 340,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00262\"><he>הוץ</he></cite>; cmp. <cite ref=\"H00429\"><he>חוץ</he></cite>, <cite ref=\"P00322\"><he>עוץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (adj.) <i>prickly</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 80a\">B. Kam. 80ᵃ</cite> <he>שרצא ה׳</he> Ms. M. (ed. <cite ref=\"H01753\"><he>חרצא</he></cite>) a prickly creeping animal, v. <cite ref=\"H01648\"><he>חרְזָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the long and thin foliage of a palm-branch spreading from the stem</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 32a:4\">Succ. 32ᵃ</cite> a <i>Lulab</i> <he>דסליק בחד ה׳</he> which spreads its foliage on one side only.—Pl. <he>הוּצֵי</he>. ",
+				"<cite ref=\"Bava Kamma 96a:10\">B. Kam. 96ᵃ</cite> if one stole a palm-branch <he>ועבדינהו ה׳</he> and tore it into leaves. ",
+				"<cite ref=\"Yoma 78b:1\">Yoma 78ᵇ</cite> <he>בדה׳</he> in shoes made of &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>prickly shrubbery used as fence, hedge</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 92a:17\">B. Kam. 92ᵃ</cite> (prov.) <he>בהדי ה׳ לקי כרבא</he> with the shrub the cabbage is smitten (the good suffer with the bad). ",
+				"<cite ref=\"Nedarim 49b:6\">Ned. 49ᵇ</cite> <he>אכיל בה׳</he> ate with a thorn (as a fork). ",
+				"<cite ref=\"Nedarim 91b:3-7\">Ib. 91ᵇ</cite> <he>פרטיה … לה׳ וכ׳</he> the lover parted the hedge and ran off. ",
+				"<cite ref=\"Bava Batra 4a:10\">B. Bath. 4ᵃ</cite> <he>דנהיגי בה׳ ודפנא</he> where it is customary to make fences with shrubbery or bay-trees.—",
+				"<cite ref=\"Bava Batra 4b:6\">Ib. 4ᵇ</cite> <he>ה׳ לית ליה וכ׳</he> where they use hedges for fences, the exclusive ownership of one neighbor can only be secured by a deed.—Pl. <he>הוּצֵי</he>. ",
+				"<cite ref=\"Bava Batra 4b:6\">Ib.</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

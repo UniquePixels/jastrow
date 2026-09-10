@@ -1,0 +1,42 @@
+{
+	"id": "G00064",
+	"slug": "זגי",
+	"headword": {
+		"text": "זְגֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְגָא"
+		}
+	],
+	"page": {
+		"number": 380,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to lie down, recline</i>. ",
+			"units": [
+				"<cite ref=\"Meilah 14b:14\">Meïl. 14ᵇ</cite> <he>דילמא בעי למִיזְגָא וזגא עלייהו</he> he may desire to lie down and will lie down on them. ",
+				"<cite ref=\"Gittin 47a:6\">Gitt. 47ᵃ</cite> <he>למִזְגָא עליה</he> to recline on (while eating). ",
+				"<cite ref=\"Pesachim 108a:11\">Pes. 108ᵃ</cite> <he>זְגִינָן אבירכי וכ׳</he> we reclined (at the Passover meal) against the knees &c.—",
+				"<cite ref=\"Shabbat 124b:19\">Sabb. 124ᵇ</cite> <he>חזו למזגא עלייהו</he> they may be used for sitting on them (when seats are improvised). ",
+				"<cite ref=\"Sanhedrin 85b:21\">Snh. 85ᵇ</cite> <he>דז׳ עליה</he> he leaned on him. [Tanḥ. Ki Thetsé 6, a. e. <he>למזגי</he>, v. <cite ref=\"C00541\"><he>גְּזֵי</he></cite>.] [<cite ref=\"Targum Jonathan on Deuteronomy 10:22\">Targ. Y. Deut. X, 22</cite> <he>למזגי</he> ed. pr., v. <cite ref=\"M01845\"><he>מִסְגֵּי</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַזְגֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to lay down</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 119a:1\">Sabb. 119ᵃ</cite> top <he>לא מַזְגִּינָא וכ׳</he> some ed. <he>מַזִּיגְנָא</he> <i>Pa.</i>) I do not rest my head upon my pillow before &c."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

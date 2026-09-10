@@ -1,0 +1,25 @@
+{
+	"id": "M00321",
+	"slug": "מדף-3",
+	"headword": {
+		"text": "מִדָּף"
+	},
+	"page": {
+		"number": 735,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00237\"><he>נָדַף</he></cite>) <i>indirect contact by shaking, breathing &c</i>. (cmp. <cite ref=\"M00334\"><he>מִדְרָס</he></cite>, <cite ref=\"E00471\"><he>הֶיסֵּט</he></cite>).—Esp. <he>טומאת מ׳</he>, or <he>מ׳</he> <i>the uncleanness of an object arising from an unclean person’s indirect contact; the object thus made unclean; uncleanness of a minor degree</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 4a:40\">Nidd. 4ᵃ</cite> <he>ומ׳</he> (<cite ref=\"I00529\"><he>טמא</he></cite>) <he>נתון תחתיו</he> (<cite ref=\"Tosefta Tahorot 4:4\">Tosef. Toh. IV, 4</cite> <cite ref=\"M00334\"><he>מדרס</he></cite>) and an object of minor uncleanness rests under it. Sifra M’tsorʿa, <cite ref=\"Mishnah Zavim 4:6\">Zabim, ch. IV</cite>, Par. 3 <he>עושה תחתיו מ׳</he> he makes the things under him (e. g. cushions directly under his head) unclean as a <i>middaf;</i> a. e.—Pl. <he>מִדָּפוֹת</he> <i>laws concerning middaf</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 5:2:8\">Y. Sot. V, 20ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 2:3:6\">Y. Dem. II, 23ᵃ</cite> top.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:18\">Y. Sabb. VII, 9ᵈ</cite> bot. <he>מהו מ׳ מגעות</he> what kind of <i>middafoth?</i> Contact."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "A00685",
+	"slug": "אום",
+	"headword": {
+		"text": "אוּם"
+	},
+	"page": {
+		"number": 26,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A01961\"><he>אֵם</he></cite>; cmp. <cite ref=\"U00436\"><he>שׁוּם</he></cite>, <cite ref=\"U01408\"><he>שֵׁם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mother</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 11:1:6\">Y. Yeb. XI, 11ᵈ</cite> top. <he>א׳ זכר</he> the mother of the male side, father-in-law’s mother; <he>א׳ נקבה</he> mother-in-law’s mother."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>substance, bulk,</i> as <i>the cluster of olives</i> (contrad. to leaves); <i>the starting point</i> of leprosy. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 9:8\">Toh. IX, 8</cite> <he>אם היה נוגע בא׳</he> if the reptile touched the cluster. ",
+				"<cite ref=\"Mishnah Negaim 1:5\">Neg. I, 5</cite> <he>הלכה לה הא׳</he> the original leprosy has disappeared."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>womb</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite> end, Ar. (ed. <cite ref=\"A01961\"><he>אֵם</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

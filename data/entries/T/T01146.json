@@ -1,0 +1,57 @@
+{
+	"id": "T01146",
+	"slug": "רתק",
+	"headword": {
+		"text": "רָתַק"
+	},
+	"page": {
+		"number": 1504,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"T01138\"><he>רָתַךְ</he></cite>)<i>to join</i>; (denom. <cite ref=\"M02793\"><he>מרתק</he></cite>, v. <cite ref=\"M02786\"><he>מַרְתּוֹקָא</he></cite>; <i>knuckles, fist</i>, whence:) <cite ref=\"T01146\"><he>רָתַק</he></cite> (cmp. <cite ref=\"O00502\"><he>סָטַר</he></cite>) <i>to strike with the knuckles</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Zavim 4:1\">Tosef. Zab. IV, 1</cite> <he>רוֹתְקוֹ</he> ed. Zuck. (ed. <he>התקו</he>, corr. acc.) if he knuckles him, contrad. to <cite ref=\"V00905\"><he>תָּקַע</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְתִּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to knock</i>. Y. Ber. I, 2ᵈ bot. <he>בא וה׳ על פתחו וכ׳</he> (not <he>והרחיק</he>) came and knocked at the king’s door. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 33\">Ex. R. s. 33</cite> (ref. to <cite ref=\"Song of Songs 5:2\">Cant. V, 2</cite>) <he>אני ישנה … והקב״ה מַרְתִּיק עליו</he> (not <cite ref=\"P00790\"><he>עלי</he></cite>) ‘I (Israel) was asleep’ after making the golden calf, but ‘my heart awoke’, when the Lord knocked at it, … ‘open unto me &c.’ <cite ref=\"Shemot Rabbah 27\">Ex. R. s. 27</cite> <he>כשנגלה … שלא ה׳ עליה</he> when the Lord revealed himself at Mount Sinai, there was not a nation at whose doors he did not knock, but they declined &c. Pesik. Aḥăré, p. 176ᵃ <he>שאם יַרְתִּיק וכ׳</he> Ar. (ed. <he>יְרַתֵּק</he> <i>Pi.</i>) if he knocks, they will open for him (if he studies, he will enter into the interior of learning), if for Talmud &c.; <cite ref=\"Vayikra Rabbah 21:5\">Lev. R. s. 21</cite> <he>ירתק</he>; a. e.—2) (with <he>אחר</he>) <i>to shake the fist at, to rebel</i>. ",
+						"<cite ref=\"Bereishit Rabbah 45:5\">Gen. R. s. 45</cite> <he>כל מי שה׳ אחר מדת הדין וכ׳</he> whosoever rebelled against divine justice, did not come out unscathed from under its hands."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["רִתֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to knock</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִרְתָּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be joined, welded</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite> (expl. <cite ref=\"M03007\"><he>מתאימות</he></cite>, <cite ref=\"Shir HaShirim Rabbah 4:4\">ib.</cite>) <he>אלו שתי … כמין שתים נִרְתָּקוֹת</he> (not <cite ref=\"N01278\"><he>נרתיקות</he></cite>) this refers to the two cord-like chains of gold which came forth from the breast-plate, and which appeared like two welded together."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

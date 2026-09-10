@@ -1,0 +1,28 @@
+{
+	"id": "D00525",
+	"slug": "דיופטין",
+	"headword": {
+		"text": "דְּיוֹפְטִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּיוֹפִיטִין"
+		}
+	],
+	"page": {
+		"number": 297,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (διαβήτης = circinus, cmp. <cite ref=\"D00505\"><he>דְּיוֹבִיט</he></cite>) <i>compasses</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 7:1\">Sifré Deut. 7</cite> ye need no arms, <he>אלא קובע ד׳ ומחלק</he> but one has only to put up compasses and divide (the land in shares); <cite ref=\"Yalkut Shimoni on Torah 801:9\">Yalk. ib. 801</cite> <he>לא קובע ד׳</he> (some ed. <he>יופיטיו</he>, corr. acc.); <cite ref=\"Targum Jonathan on Deuteronomy 1:8\">Targ. Y. Deut. I, 8</cite> <he>קבעו דִּיפְטַיָּא וכ׳</he> (<cite ref=\"D00681\"><he>דִּפְ׳</he></cite>) put up the compasses &c."
+			]
+		}
+	]
+}

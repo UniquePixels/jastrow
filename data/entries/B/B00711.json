@@ -1,0 +1,47 @@
+{
+	"id": "B00711",
+	"slug": "בירור",
+	"headword": {
+		"text": "בֵּירוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּרוּר"
+		}
+	],
+	"page": {
+		"number": 166,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ברר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>clearness, correct sense</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 658:3\">Yalk. Ps. 658</cite> <he>ב׳ של הלכה</he> (cmp. <cite ref=\"B00359\"><he>בּוֹרִי</he></cite>) the true sense of the law."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "Pl. <cite ref=\"B00707\"><he>בֵּירוּרִין</he></cite>, <he>בֵּר׳</he> <i>arbitration</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 1:8\">B. Mets. I, 8</cite>, a. e. <he>שטרי ב׳</he> documents referring to the choice of arbiters, v. <cite ref=\"S00400\"><he>קוֹמְפְּרוֹמִיסִין</he></cite>; [anoth. opin. ",
+				"<cite ref=\"Bava Metzia 20a:7\">ib. 20ᵃ</cite> <he>שטרי טענתא</he> records of evidences, minutes of court proceedings]."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " בֵּרוּרֵי המדות <i>exact account of wine measures</i>, whence, <i>the surplus in the shopkeeper’s wine account</i> arising from measuring quickly and not allowing the wine to settle in the measures. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 3:8\">Bets. III, 8</cite> (<cite ref=\"Beitzah 29a:16\">29ᵃ</cite>) ed. (properly omitted in Ms. M., v. Rashi a. l.; Var. in Rashi Ms. <he>בֵּרוּצֵי</he>). Ib. 29ᵃ three hundred <i>gereb</i> (v. <cite ref=\"C01232\"><he>גרב</he></cite>) of wine <he>מב׳ המ׳</he> from the surplus found in his account."
+			],
+			"label": "3"
+		}
+	]
+}

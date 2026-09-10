@@ -1,0 +1,29 @@
+{
+	"id": "H00220",
+	"slug": "חדשה-1",
+	"headword": {
+		"text": "חֲדָשָׁה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 427,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. fem. of <cite ref=\"H00218\"><he>חָדָשׁ</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dedication of a new building</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 229\">Sifré Deut. 229</cite> (ref. to <he>חדש</he>, <cite ref=\"Deuteronomy 22:8\">Deut. XXII, 8</cite>) <he>משעת חֲדָשָׁתוֹ וכ׳</he> (Yalk. ib. 930 <he>חִדּוּשׁוֹ</he>) you must make a battlement as soon as you dedicate it (not delay)."
+			],
+			"label": "2"
+		}
+	]
+}

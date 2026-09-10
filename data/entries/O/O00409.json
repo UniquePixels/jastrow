@@ -1,0 +1,42 @@
+{
+	"id": "O00409",
+	"slug": "סור-2",
+	"headword": {
+		"text": "סוּר"
+	},
+	"page": {
+		"number": 969,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00408\">same</cite><i>to turn</i>, esp. <he>ס׳ סכינא</he> (v. ",
+			"units": [
+				"<cite ref=\"Chullin 17b\">Ḥull. 17ᵇ</cite>, quot. s. v. <cite ref=\"I00210\"><he>טוּפְרָא</he></cite>) <i>to turn the slaughtering knife on all sides, to examine</i>. ",
+				"<cite ref=\"Eruvin 63a:2\">Erub. 63ᵃ</cite> <he>רבינא סַר סכינא וכ׳</he> R. examined the slaughterer’s knife (assumed the rabbinical function of superintending the slaughtering) in Babylonia. ",
+				"<cite ref=\"Chullin 18a:3\">Ḥull. 18ᵃ</cite> <he>דלא סר וכ׳</he> who failed to examine his knife before an authorised scholar."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go around, visit, superintend</i>, esp. <he>ס׳ ניכסיה</he> (or <he>ארעיה</he>) <i>to superintend one’s estate, examine, watch laborers</i> &c.—Part. <he>סָיֵיר</he>. Ib. 105ᵃ <he>מאן דסייר ניכסיה וכ׳</he> (Ar. <he>סָאֵיר</he>) he who goes around examining his property every day. Ib. <he>וכ׳ אבא הוה ס׳ … ואנא לא סָיִירְנָא</he> my father used to examine his estate twice a day, but I do it only once a day.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַיֵּיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00408\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 76b\">B. Mets. 76ᵇ</cite>, sq. [read:] <he>סַיְּירָהּ לארעיה וכ׳</he> (v. Rabb. D. S. a. l. note) he visited his fields &c. ",
+						"<cite ref=\"Gittin 38b\">Gitt. 38ᵇ</cite> <he>דמְסַיְּירֵי וכ׳</he> Rashi (ed. <he>דסָיְירֵי</he>) those who examine their property on the Sabbath; a. e.—V. <cite ref=\"O01293\"><he>סְעַר</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

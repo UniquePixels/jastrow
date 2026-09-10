@@ -1,0 +1,44 @@
+{
+	"id": "S01348",
+	"slug": "קליפה",
+	"headword": {
+		"text": "קְלִיפָה"
+	},
+	"page": {
+		"number": 1377,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01402\"><he>קָלַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>peeling, scaling</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 76a:15\">Pes. 76ᵃ</cite> <he>סגי ליה בק׳</he> it is sufficiently remedied by paring the surface. ",
+				"<cite ref=\"Pesachim 76a:15\">Ib.</cite> <he>ק׳ מיהא ניבעי</he> let it at least be pared; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>scale, husk, skin</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 95b:5\">Snh. 95ᵇ</cite> <he>שריון ק׳</he> (= <he>ש׳ קשקשים</he>, <cite ref=\"I Samuel 17:5\">I Sam. XVII, 5</cite>) a scaly coat of mail. ",
+				"<cite ref=\"Mishnah Niddah 3:2\">Nidd. III, 2</cite>; <cite ref=\"Tosefta Niddah 4:2\">Tosef. ib. IV, 2</cite> <he>המפלת מין ק׳</he> an abortion that has the appearance of a mass of membranes. Ohol. VI, 5, sq. <he>כקְלִיפַת השום</he> as thin as the husk of garlic. ",
+				"<cite ref=\"Avodah Zarah 76a:17\">Ab. Zar. 76ᵃ</cite> <he>עד שתשיר קְלִיפָתָן</he> until the crusty accretion of the vessels falls off (by exposure to heat); a. fr.—",
+				"<cite ref=\"Bekhorot 58a:15\">Bekh. 58ᵃ</cite> <he>כל … כק׳ השום וכ׳</he> all Jewish scholars appear to me (as paltry) as the husk of garlic, except &c.—[<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite> <he>קליפת בצלים</he>, v. <cite ref=\"S01403\"><he>קְלַף</he></cite>.]—Pl. <he>קְלִיפוֹת</he>, <he>קְלִיפִים</he>, <he>קְלִיפין</he>. ",
+				"<cite ref=\"Tosefta Niddah 4:3\">Tosef. Nidd. IV, 3</cite> <he>כמין קליפין אדומין</he> (masc.); <he>כמין קליפות אדומות</he> the appearance of red membranes. ",
+				"<cite ref=\"Shir HaShirim Rabbah 6:11\">Cant. R. to VI, 11</cite> <he>מה אגוז … שתי ק׳ וכ׳</he> as the nut has two shells &c. ",
+				"<cite ref=\"Mishnah Shabbat 9:5\">Sabb. IX, 5</cite> <he>קְלִיפֵי רמונים</he> shells of pomegranates. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 5:3:2\">Y. Ter. V, end, 43ᵈ</cite> <he>קילפי איסור</he> (read: <he>קליפי</he>) shells of forbidden fruits. ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite>, v. <cite ref=\"S00695\"><he>קֶטֶב</he></cite>; a. e.—",
+				"<cite ref=\"Pesachim 112b:9\">Pes. 112ᵇ</cite> (in Chald. dict.) <he>מאן דמדרך אקליפים</he> (some ed. <he>אקְלִיפַיָּא</he>; Ms. M. <he>אקליפי דבצים</he>) he that treads on egg-shells.—[In later mystic literature <cite ref=\"S01348\"><he>קליפה</he></cite>, pronounced <cite ref=\"S01348\"><he>קְלִיפָּה</he></cite>, a certain <i>class of demons</i>, cmp. Num. R. l. c.]"
+			],
+			"label": "2"
+		}
+	]
+}

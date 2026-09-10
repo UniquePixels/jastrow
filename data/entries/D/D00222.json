@@ -1,0 +1,27 @@
+{
+	"id": "D00222",
+	"slug": "דוותא-2",
+	"headword": {
+		"text": "דָּוְותָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּוְתָא"
+		}
+	],
+	"page": {
+		"number": 284,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= h. <cite ref=\"D00204\"><he>דָּוָה</he></cite>; v. <cite ref=\"D00173\"><he>דּוֹבָא</he></cite>) <i>a menstruating woman</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 31:23\">Targ. Y. Num. XXXI, 23</cite> (some ed. <cite ref=\"D00394\"><he>דְּוָתָא</he></cite>)."
+			]
+		}
+	]
+}

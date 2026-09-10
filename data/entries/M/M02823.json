@@ -1,0 +1,23 @@
+{
+	"id": "M02823",
+	"slug": "משוח-2",
+	"headword": {
+		"text": "מָשׁוֹחַ"
+	},
+	"page": {
+		"number": 849,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>מָשַׁח</he> II) <i>surveyor</i>.—Pl. <he>מָשׁוֹחוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 4:11\">Erub. IV, 11</cite>, v. <cite ref=\"M02271\"><he>מָצָה</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 14:3\">Kel. XIV, 3</cite> <he>יתדות המ׳</he> the surveyors’ marking pins; <he>שלשלת של מ׳</he> their measuring chains; <cite ref=\"Tosefta Keilim Metsia 2:3\">Tosef. Kel. B. Mets. II, 3</cite> <cite ref=\"M00683\"><he>מושיחות</he></cite>."
+			]
+		}
+	]
+}

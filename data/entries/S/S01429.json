@@ -1,0 +1,24 @@
+{
+	"id": "S01429",
+	"slug": "קלת-2",
+	"headword": {
+		"text": "קֶלֶת"
+	},
+	"page": {
+		"number": 1383,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"S00346\"><he>קוּלִית</he></cite>, <cite ref=\"S00950\"><he>קִיל</he> I</cite>) <i>the framework under the millstone</i> to receive the flour-dust; [Rashi = <cite ref=\"A02830\"><he>אפרכסת</he></cite> <i>hopper</i>]. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 1:3\">Tosef. B. Bath. I, 3</cite>; <cite ref=\"Bava Batra 20b\">B. Bath. 20ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 4:3\">Ib. IV, 3</cite>. ",
+				"<cite ref=\"Mishnah Zavim 4:3\">Zab. IV, 3</cite>; a. e."
+			]
+		}
+	]
+}

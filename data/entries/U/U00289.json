@@ -1,0 +1,46 @@
+{
+	"id": "U00289",
+	"slug": "שדרה",
+	"headword": {
+		"text": "שִׁדְרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1526,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"U00285\"><he>שְׁדַר</he> II</cite>) [<i>twisted cord</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>spinal column</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:2\">Ḥull. III, 2</cite> <he>נשברה הש׳ ולא וכ׳</he> if the spinal column is broken, but its cord is not severed. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ib. 1</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 28:3\">Gen. R. s. 28</cite>, beg., a. e. <he>לוז של ש׳</he>, v. <cite ref=\"L00226\"><he>לוּז</he> II</cite>. ",
+				"<cite ref=\"Shabbat 147b:16\">Sabb. 147ᵇ</cite> <he>חומרי ש׳</he> Rashi (ed. <he>שדרא</he>) the knots of the spine(vertebræ). Ohol. I, 8, v. <cite ref=\"H00347\"><he>חוּלְיָא</he> I</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 16a:22\">B. Kam. 16ᵃ</cite> <he>שִׁדְרוֹ של אדם</he> a man’s spine. ",
+				"<cite ref=\"Berakhot 55a\">Ber. 55ᵃ</cite>; <cite ref=\"Shabbat 81a:8\">Sabb. 81ᵃ</cite> <he>שדרו של דג</he> the back-bone of a fish.—Pl. <he>שִׁדְרָאוֹת</he>. ",
+				"<cite ref=\"Niddah 24a:65\">Nidd. 24ᵃ</cite>; <cite ref=\"Mishnah Bekhorot 7:2\">Bekh. VII, 2</cite>; <cite ref=\"Chullin 60b:7\">Ḥull. 60ᵇ</cite>, v. <cite ref=\"C00031\"><he>גַּב</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stem, rib</i> of a plant. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 30:14\">Lev. R. s. 30</cite> <he>הש׳ של לולב דומה לש׳ וכ׳</he> the rib of the palm-branch resembles the spinal column of man. ‘<cite ref=\"Mishnah Oktzin 1:2\">Ukts. I, 2</cite> <he>הש׳ של שבולת</he> the stem of an ear (of wheat). ",
+				"<cite ref=\"Chullin 119b\">Ḥull. 119ᵇ</cite> <he>בש׳</he> it refers to the stem of an ear of wheat, v. <he>שׁוֹמֵר</he>; a. fr.—V. <cite ref=\"U00608\"><he>שִׁזְרָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

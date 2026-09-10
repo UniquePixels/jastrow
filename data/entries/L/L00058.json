@@ -1,0 +1,24 @@
+{
+	"id": "L00058",
+	"slug": "לבורניקיא",
+	"headword": {
+		"text": "לְבוּרְנִיקַיָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 688,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Liburnicus, cmp. Liburnici cuculli, Sm. Ant. s. v. Cucullus) <i>Liburnian mantles</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:22\">Targ. Is. III, 22</cite> (h. text <he>מטפחות</he>); ed. Wil. a. Bxt. <he>שושיפיא ל׳</he>, taking <he>ל׳</he> as an adjective: <i>Liburnian clothes</i>; (ed. Lag. <he>ול׳</he>; Var. <he>וּלבוֹרְנְקָיָא</he>, <he>וּלְבוֹרְנַקְיָא</he>; Ar. reads <cite ref=\"B01303\"><he>ברנקיא</he></cite> to which cmp. <cite ref=\"B00376\"><he>בּוּרְנִי</he> I</cite>)."
+			]
+		}
+	]
+}

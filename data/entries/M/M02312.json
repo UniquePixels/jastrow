@@ -1,0 +1,37 @@
+{
+	"id": "M02312",
+	"slug": "מציאה",
+	"headword": {
+		"text": "מְצִיאָה"
+	},
+	"page": {
+		"number": 826,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02262\"><he>מָצָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " <i>finding, discovery</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:1:6\">Y. Sot. I, beg. 16ᵇ</cite> (ref. to <he>מצא</he>, <cite ref=\"Deuteronomy 24:1\">Deut. XXIV, 1</cite>) <he>אין מ׳ בכל מקום וכ׳</he> ‘finding’ means everywhere ascertaining through witnesses."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>something found</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 5:3\">Gitt. V, 3</cite> <he>המוצא מ׳ לא ישבע</he> the finder of a lost object cannot be made subject to an oath (if the owner claims more). ",
+				"<cite ref=\"Bava Metzia 8a:22\">B. Mets. 8ᵃ</cite>, v. <cite ref=\"C00049\"><he>גָּבַהּ</he></cite>; a. fr.—Pl. <he>מְצִיאוֹת</he>. ",
+				"<cite ref=\"Mishnah Bava Metzia 2:1\">Ib. II, 1</cite> <he>אלו מ׳ שלו וכ׳</he> the following things if found belong to the finder, and the following must be published; a. fr.—Trnsf. <i>precious things</i>.—Pl. as ab. ",
+				"<cite ref=\"Bereishit Rabbah 50:10\">Gen. R. s. 50</cite> (ref. to <he>הנמצאות</he>, <cite ref=\"Genesis 19:15\">Gen. XIX, 15</cite>) <he>שתי מ׳ וכ׳</he> two precious acquisitions, Ruth &c.; <cite ref=\"Genesis 19:15\">ib.</cite> s. 41; Yalk. ib. 70; 84."
+			],
+			"label": "2"
+		}
+	]
+}

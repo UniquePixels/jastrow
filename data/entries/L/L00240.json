@@ -1,0 +1,33 @@
+{
+	"id": "L00240",
+	"slug": "לוט-5",
+	"headword": {
+		"text": "לְוָט"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְוָוט"
+		},
+		{
+			"text": "לְוָוטָא"
+		}
+	],
+	"page": {
+		"number": 696,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00239\">preced.</cite>) <i>curse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 13:1\">Targ. Is. XIII, 1</cite>. ",
+				"<cite ref=\"Onkelos Numbers 5:21\">Targ. Num. V, 21</cite>. ",
+				"<cite ref=\"Onkelos Exodus 9:28\">Targ. Ex. IX, 28</cite> <he>קלין דל׳</he> (h. text <he>קלת</he>); Y. ib. 34; a. fr.—Pl. <he>לְוָטִין</he>, <he>לְוָטַיָּא</he>, <cite ref=\"L00258\"><he>לְוָו׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 27:12\">Targ. Gen. XXVII, 12</cite>, sq.; a. e."
+			]
+		}
+	]
+}

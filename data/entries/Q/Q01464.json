@@ -1,0 +1,29 @@
+{
+	"id": "Q01464",
+	"slug": "פקוסים-2",
+	"headword": {
+		"text": "פִּקּוּסִים",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּקּוּסִין"
+		}
+	],
+	"page": {
+		"number": 1208,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>פָּקַס</he> II, v. <cite ref=\"Q00815\"><he>פִּיקָס</he></cite>) <i>coils, excrescences</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41\">Gen. R. s. 41</cite> ‘Rashi’, v. <cite ref=\"O00811\"><he>סִיקוֹסִים</he> II</cite>."
+			]
+		}
+	]
+}

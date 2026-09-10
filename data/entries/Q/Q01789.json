@@ -1,0 +1,42 @@
+{
+	"id": "Q01789",
+	"slug": "פרידא-1",
+	"headword": {
+		"text": "פְּרִידָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1225,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"Q01573\"><he>פְּרַד</he></cite>) [<i>broken loose, brittle</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " (collect. noun) <i>pebbles, coarse sand</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 5:5\">Targ. Lam. V, 5</cite>.—Pl. <he>פְּרִידִין</he>, <he>פְּרִידַיָּיא</he>, <cite ref=\"Q01791\"><he>פְּרִידָן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:16\">Ib. III, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:10\">Targ. Job XXXVIII, 10</cite> ed. Lag. (oth. ed. <he>פְּרִירַיָּא</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 48:19\">Targ. Is. XLVIII, 19</cite> <he>כפְרוּדוֹהִי</he> Kimḥi (ed. Lag. <he>כפְרִירוֹהִי</he>; ed. Wil. <he>כפֵירוּדוֹהִי</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>single berry.—</i>Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 25:5\">Targ. Y. Lev. XXV, 5</cite> <cite ref=\"T00240\"><he>רדופיכון</he></cite>, read: <he>פַּרוּדֵיכוֹן</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>jujube berry</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69a:10\">Gitt. 69ᵃ</cite> (oth. opin. <i>lazarwort</i>; Rashi <cite ref=\"Q01791\"><he>פרידה</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

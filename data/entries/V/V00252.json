@@ -1,0 +1,32 @@
+{
+	"id": "V00252",
+	"slug": "תועיבא",
+	"headword": {
+		"text": "תּוֹעֵיבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹעֵיבְתָּא"
+		}
+	],
+	"page": {
+		"number": 1655,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"V00251\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 41:24\">Targ. Is. XLI, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 44:19\">Ib. XLIV, 19</cite> (ed. Wil. <cite ref=\"V00249\"><he>תּוֹעֲבָא</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 18:22\">Targ. O. Lev. XVIII, 22</cite> <cite ref=\"V00252\"><he>תועיבא</he></cite> ed. Berl. (ed. Vien. <cite ref=\"V00251\"><he>תּוֹעֲבָתָא</he></cite>, read: <cite ref=\"V00251\"><he>תּוֹעַבְתָּא</he></cite>); a. fr.—Pl. <cite ref=\"V00252\"><he>תּוֹעֵיבָן</he></cite>, <cite ref=\"V00251\"><he>תּוֹעֲבָתָא</he></cite>, <he>תּוֹעֵי׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 8:6\">Targ. Ez. VIII, 6</cite>; <cite ref=\"Targum Jonathan on Ezekiel 8:13\">13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 6:11\">Ib. VI, 11</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:16\">Targ. O. Deut. XXXII, 16</cite> ed. Berl. (oth. ed. <cite ref=\"V00252\"><he>תּוֹעֵיבְתָּא</he></cite>, <cite ref=\"V00251\"><he>תּוֹעֶבְתָּא</he></cite>); a. fr."
+			]
+		}
+	]
+}

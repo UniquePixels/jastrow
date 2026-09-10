@@ -1,0 +1,23 @@
+{
+	"id": "C01357",
+	"slug": "גרמטיון",
+	"headword": {
+		"text": "גְּרַמַּטְיוֹן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 270,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (γραμματεῖον) <i>bond, document</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15\">Ex. R. s. 15</cite> <cite ref=\"C01368\"><he>גרמסיון</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

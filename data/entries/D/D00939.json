@@ -1,0 +1,23 @@
+{
+	"id": "D00939",
+	"slug": "דסקא",
+	"headword": {
+		"text": "דַּסְקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 315,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., an assumed word for <cite ref=\"I00593\"><he>טַסְקָא</he></cite> q. v. ",
+			"units": [
+				"<cite ref=\"Kiddushin 70b:2\">Kidd. 70ᵇ</cite> (criticising the spelling <he>דסקא</he> for <cite ref=\"D00656\"><he>דיסקא</he></cite>, in a summons issued by R. Naḥman) <he>הא גברא והא ד׳</he> this word (<cite ref=\"C00000\"><he>ג</he></cite>, <cite ref=\"B00000\"><he>ב</he></cite>, <cite ref=\"T00000\"><he>ר</he></cite>, a. <cite ref=\"A00000\"><he>א</he></cite>) is read <i>gabra</i> and so this word (<cite ref=\"D00000\"><he>ד</he></cite>, <cite ref=\"O00000\"><he>ס</he></cite>, <cite ref=\"S00000\"><he>ק</he></cite> a. <cite ref=\"A00000\"><he>א</he></cite>) must be read <i>daska</i> (which you must have meant for <i>taska</i>)."
+			]
+		}
+	]
+}

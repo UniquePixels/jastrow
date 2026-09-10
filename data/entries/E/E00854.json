@@ -1,0 +1,50 @@
+{
+	"id": "E00854",
+	"slug": "הרחק",
+	"headword": {
+		"text": "הַרְחֵק"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶרְחֵק"
+		}
+	],
+	"page": {
+		"number": 367,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"T00538\"><he>רָחַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>distance</i>.—<he>ה׳ עדות</he> ",
+			"units": [],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>an unlawful space between a deed and the signatures of the witnesses</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Gittin 1:4:3\">Y. Gitt. I, 43ᶜ</cite> bot. <he>עדים פסולין אינן נעשין כה׳ ע׳</he> the signatures of disqualified witnesses, between qualified ones, are not to be looked upon as if they were a blank creating an unlawful distance; ib. IX, 50ᶜ; ib. VIII, end, 49ᵈ (insert: <he>עדים פסולים אינן</he>).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>distance of relationship</i>, i.e. <i>testimony not objectionable on account of kinship</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Ketubot 2:7:4\">Y. Keth. II, 26ᵈ</cite> top [read:] <he>ואם אין את מאמינו שהוא בנו יעשה כה׳ ע׳ וכ׳</he> and if you do not believe him that he is his son, let his statement (that he is a priest) be considered a stranger’s testimony &c."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>a precautionary measure, a preventive law</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:4:10\">Y. Maasr. I, 49ᵇ</cite> top."
+			],
+			"label": "2"
+		}
+	]
+}

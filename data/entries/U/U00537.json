@@ -1,0 +1,38 @@
+{
+	"id": "U00537",
+	"slug": "שור-5",
+	"headword": {
+		"text": "שׁוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּרָא"
+		}
+	],
+	"page": {
+		"number": 1541,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00536\">same</cite><i>wall, fortification</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:6\">Targ. O. Gen. XLIX, 6</cite> (Y. I <cite ref=\"U00538\"><he>שׁוֹר</he></cite>; v. <cite ref=\"U00536\">preced.</cite>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:8\">Targ. Lam. II, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:28\">Targ. Prov. XXV, 28</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 2:12\">Lam. R. to II, 8</cite> (expl. <he>חל וחומה</he>, <cite ref=\"Eichah Rabbah 2:12\">ib.</cite>) <he>ש׳ ובר ש׳</he> the large circumvallation and the smaller wall; <cite ref=\"Pesachim 86a:13\">Pes. 86ᵃ</cite>; Y. ib. VII, 35ᵇ bot. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 2:3:6\">Y. B. Bath. II, 13ᵇ</cite> bot. <he>ש׳ דחמץ</he> the wall of Emesa; M.",
+				"<cite ref=\"Moed Katan 26a:10\">M. Kat. 26ᵃ</cite> <he>ש׳ דלודקיא</he> the wall of Laodicea; a. fr.—Pl. <he>שׁוּרִין</he>, <he>שׁוּרַיָּא</he>. ",
+				"<cite ref=\"Onkelos Exodus 14:22\">Targ. Ex. XIV, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 25:4\">Targ. II Kings XXV, 4</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:52\">Targ. O. Deut. XXVIII, 52</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"U00544\"><he>שׁוּרָה</he></cite>) <i>line, road</i>. Y. Keth. VII, 31ᶜ, v. <cite ref=\"Q00416\"><he>פּוּתְיָא</he></cite>.—V. <cite ref=\"U00556\"><he>שׁוּרְתָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "H00722",
+	"slug": "חייב-1",
+	"headword": {
+		"text": "חַיָּיב"
+	},
+	"page": {
+		"number": 454,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00231\"><he>חוּב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>debtor</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 12b:18\">B. Mets. 12ᵇ</cite> <he>בשח׳ מודה</he> when the debtor admits (that the note has not been paid); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<i>he is</i>) <i>bound</i>, (<i>he is</i>) <i>guilty</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 4:7\">Peah IV, 7</cite> <he>ח׳</he> he is bound (to leave the poor man’s corner). ",
+				"<cite ref=\"Ketubot 30b:3\">Keth. 30ᵇ</cite> <he>ולרבא ח׳</he> and according to Raba’s opinion he must pay; a. v. fr.—",
+				"<cite ref=\"Mishnah Shabbat 1:1\">Sabb. I, 1</cite> <he>ח׳</he> is guilty (of Sabbath-breaking, eventually bound to bring a guilt-offering); a. v. fr.—Pl. <he>חַיָּיבִין</he>. ",
+				"<cite ref=\"Mishnah Berakhot 3:1\">Ber. III, 1</cite> <he>ח׳</he> are bound (to read the Sh’ma); a. fr.—<i>Fem.</i> <he>חַיֶּיבֶת</he>. ",
+				"<cite ref=\"Chagigah 4a:5\">Ḥag. 4ᵃ</cite>, a. e. <he>שהאשה ח׳ בה</he> which woman is bound to observe; a. fr.—Pl. <he>חַיָּיבוֹת</he>. ",
+				"<cite ref=\"Chagigah 4a:5\">Ib.</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>wicked</i>.—<i>Fem.</i> as ab. Mekh. B’shall. s. 1 <he>מלכות ח׳</he> wicked government (usu. <cite ref=\"T01104\"><he>רְשָׁעָה</he></cite>).",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

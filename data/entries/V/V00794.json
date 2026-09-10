@@ -1,0 +1,26 @@
+{
+	"id": "V00794",
+	"slug": "תערובת",
+	"headword": {
+		"text": "תַּעֲרוּבֶת"
+	},
+	"page": {
+		"number": 1684,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָרַב</he> I) <i>mixture, combination</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 8:2:3\">Y. Kil. VIII, 31ᶜ</cite> top <he>את אסור בתַעֲרוּבָתָן</he> (not <he>אוסר</he>) thou art forbidden to wear them (wool and linen) when they are mixed (woven together). ",
+				"<cite ref=\"Jerusalem Talmud Challah 2:3:7\">Y. Ḥall. II, end, 58ᵈ</cite> <he>דבר שהוא מקפיד על תַּעֲרוּבָתוֹ</he> a thing about the mixing of which he is particular (which he does not care to have mixed with something else). ",
+				"<cite ref=\"Pesachim 30a:3\">Pes. 30ᵃ</cite> <he>על ידי ת׳</he> in a mixture, opp. <he>בעיניה</he> in its natural state; a. fr.—Pl. <cite ref=\"V00794\"><he>תַּעֲרוּבוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:3\">Y. Shek. VI, 50ᵃ</cite> top <he>מי ת׳</he> mixed waters (not pure well water). ",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:27\">Y. Yoma I, 38ᵈ</cite> bot. <he>מפני הת׳</he> to avoid mixing up (of the moneys); (<cite ref=\"Jerusalem Talmud Shekalim 6:4:2\">Y. Shek. VI, end, 50ᵇ</cite> <i>sing.</i>); a. e."
+			]
+		}
+	]
+}

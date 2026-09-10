@@ -1,0 +1,28 @@
+{
+	"id": "Q00908",
+	"slug": "פיתתא",
+	"headword": {
+		"text": "פִּיתְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּתְּ׳"
+		}
+	],
+	"page": {
+		"number": 1173,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02214\"><he>פְּתַת</he></cite>) <i>piece</i> (<i>of bread</i>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 28:21\">Targ. Prov. XXVIII, 21</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:13\">Y. Ab. Zar. II, 41ᵃ</cite> bot., v. <cite ref=\"Q00888\"><he>פִּיתָּא</he></cite>."
+			]
+		}
+	]
+}

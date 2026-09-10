@@ -1,0 +1,38 @@
+{
+	"id": "K00884",
+	"slug": "כנתא",
+	"headword": {
+		"text": "כַּנְתָא"
+	},
+	"page": {
+		"number": 652,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00859\"><he>כנן</he></cite>) <i>winding, convolution</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " (sub. <he>דמעיא</he>) <i>ileum</i>, the third division of the small intestines. ",
+			"units": [
+				"<cite ref=\"Chullin 48b\">Ḥull. 48ᵇ</cite>; <cite ref=\"Chullin 113a\">113ᵃ</cite>, v. <cite ref=\"E00108\"><he>הֲדוּרָא</he></cite>. ",
+				"<cite ref=\"Gittin 69a:10\">Gitt. 69ᵃ</cite> <he>כ׳ פטירתא</he> the ileum of a first-born.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 976:12\">Yalk. Koh. 976</cite> (counting ten stations of the digestive process) <he>מכרוכא עבה לכְנַת מעיא</he> from the large winding (jejunum) to the ileum (corresp. to <cite ref=\"O01223\"><he>סני</he></cite>(<cite ref=\"A00000\"><he>א</he></cite>) <cite ref=\"D00473\"><he>דיבי</he></cite>, <cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite>, a. ",
+				"<cite ref=\"Kohelet Rabbah 7:19\">Koh. R. to VII, 19</cite>). [Koh. R. l. c. <he>כנת מעיא</he> some ed., read <he>בנת</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K01187\"><he>כֶּרֶךְ</he></cite>, <cite ref=\"A01972\"><he>אִמְבּוּרְקְלוֹן</he></cite>) <i>wrapper</i> of loosely woven matting. ",
+			"units": [
+				"<cite ref=\"Sukkah 20b:5\">Succ. 20ᵇ</cite> <he>חזו לכ׳ דפירי</he> Ar. (ed. <he>לכינ׳</he>, Ms. M. <he>לבנ׳</he>; v. Rabb. D. S. a. l. note) are fit for baling fruits. ",
+				"<cite ref=\"Ketubot 105b:15\">Keth. 105ᵇ</cite> <he>כ׳ דפירי</he> a bale of fruits, <he>כ׳ דגלדני</he> of small fish."
+			],
+			"label": "2"
+		}
+	]
+}

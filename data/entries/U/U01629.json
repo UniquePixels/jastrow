@@ -1,0 +1,66 @@
+{
+	"id": "U01629",
+	"slug": "שעבד-2",
+	"headword": {
+		"text": "שַׁעְבֵּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁעְבֵּיד"
+		}
+	],
+	"page": {
+		"number": 1609,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01628\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 12:5\">Targ. O. Gen. XII, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 10:8\">Targ. Jud. X, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Nahum 1:12\">Targ. Nah. I, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 3:7\">Targ. Y. Ex. III, 7</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 13a:14\">B. Mets. 13ᵃ</cite> <he>שַׁעְבֵּיד נפשיה</he> he bound himself (made himself responsible). ",
+				"<cite ref=\"Gittin 49b:20\">Gitt. 49ᵇ</cite> <he>כל לגביה בריה שַׁעְבּוּרֵי מְשַׁעְבֵּד נפשיה</he> for his son’s sake a man makes himself responsible. ",
+				"<cite ref=\"Avodah Zarah 2b:11\">Ab. Zar. 2ᵇ</cite>, v. infra; a. fr.—Part. pass. <he>מְשַׁעְבַּד</he>; f. <he>מְשַׁעְבְּדָא</he>; pl. <he>מְשַׁעְבְּדִין</he>, <he>מְשַׁעְבְּדֵי</he>; <he>מְשַׁעְבְּדָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 9:25\">Targ. Y. Gen. IX, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:7\">Targ. Ez. XVI, 7</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 73b:6\">B. Mets. 73ᵇ</cite> <he>לטסקא מש׳</he>, v. <cite ref=\"I00593\"><he>טַסְקָא</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 16:1\">Lev. R. s. 16</cite> <he>אמהן מש׳</he> maiden forced into servitude, v. <cite ref=\"K00142\"><he>כָּדַן</he></cite>; Pesik. Vattom., p. 133ᵇ <he>חמרין משעבדין</he> (corr. acc.); <cite ref=\"Eichah Rabbah 4:18\">Lam. R. to IV, 15</cite>; a. fr.—<he>משעבדי</he> (sub. <cite ref=\"N00842\"><he>נכסין</he></cite>) <i>encumbered property</i>, opp. <he>בני חרי</he>, v. <cite ref=\"U01628\">preced.</cite> ",
+				"<cite ref=\"Bava Metzia 12b:18\">B. Mets. 12ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 13b:2\">Ib. 13ᵇ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּעְבֵּד"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"L00000\"><he>ל</he></cite>) <i>to be subjected, enslaved, to serve; to be pledged, responsible</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 33:13\">Targ. II Chr. XXXIII, 13</cite>. ",
+						"<cite ref=\"Onkelos Genesis 25:23\">Targ. Gen. XXV, 23</cite>. ",
+						"<cite ref=\"Onkelos Genesis 27:29\">Ib. XXVII, 29</cite>; a. fr.—",
+						"<cite ref=\"Bava Kamma 20b:10\">B. Kam. 20ᵇ</cite> <he>ביתא לעלייה מִשְׁתַּעְבַּד</he> the house (the lower story) is pledged to the upper story, i.e. the owner of the lower story is bound to keep it in a condition to support the upper story. ",
+						"<cite ref=\"Bava Kamma 40b:7\">Ib. 40ᵇ</cite> <he>כי היכא דמִשְׁתַּעְבַּדְנָא לדידך וכ׳</he> as well as I am obliged to pay thee, I am obliged to pay him. ",
+						"<cite ref=\"Gittin 49b:17\">Gitt. 49ᵇ</cite> <he>משתעבד</he> he is responsible. ",
+						"<cite ref=\"Bava Batra 55a:4\">B. Bath. 55ᵃ</cite> <he>מִשְׁתַּעְבְּדֵי לכרגא</he>, v. <cite ref=\"K01089\"><he>כַּרְגָּא</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to enslave, oppress</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 2b:11\">Ab. Zar. 2ᵇ</cite> <he>הנך אִישְׁתַּעְבְּדוּ בישראל אנן לא שַׁעְבְּדָן בישראל</he> Ms. M. (ed. <he>שִׁעְבַּדְנוּ</he> h. form) these nations have persecuted Israel, we have not &c. ",
+						"<cite ref=\"Bava Metzia 73b:7\">B. Mets. 73ᵇ</cite> <he>ומִשְׁתַּעְבְּדֵי בהו וכ׳</he> Tosaf. (ed. <he>ומשעבדי</he>), v. <cite ref=\"K01089\"><he>כַּרְגָּא</he></cite>. ",
+						"<cite ref=\"Bava Batra 55a:4\">B. Bath. 55ᵃ</cite> <he>משתעבדי</he>, v. <cite ref=\"K01089\"><he>כרגא</he></cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

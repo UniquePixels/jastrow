@@ -1,0 +1,28 @@
+{
+	"id": "D00770",
+	"slug": "דכותא",
+	"headword": {
+		"text": "דְּכוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּכוּ"
+		}
+	],
+	"page": {
+		"number": 307,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00771\"><he>דכי</he></cite>) <i>purity, levitical cleanness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 12:4\">Targ. Lev. XII, 4</cite>; a. e. [<cite ref=\"Targum Jonathan on Leviticus 12:6\">Targ. Y. ib. 6</cite> <cite ref=\"D00773\"><he>דְּכִיתָא</he></cite>.]—Pl. <cite ref=\"D00130\"><he>דַּכְוָותָא</he></cite>, <he>דַּכְוָ׳</he> <i>affairs concernig levitical cleanness</i>. ",
+				"<cite ref=\"Targum of I Chronicles 23:28\">Targ. I Chr. XXIII, 28</cite>."
+			]
+		}
+	]
+}

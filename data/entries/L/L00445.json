@@ -1,0 +1,23 @@
+{
+	"id": "L00445",
+	"slug": "ליטירין",
+	"headword": {
+		"text": "לִיטִירִין"
+	},
+	"page": {
+		"number": 706,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (perh. a disguise of <he>דִּילָטוֹרִין</he>, or of <he>רִיטוֹרִין</he>, v. <cite ref=\"L00018\"><he>לְאִיטוֹר</he></cite>) <i>informers</i> or <i>advocates</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 3:2:6\">Y. Meg. III, 74ᵃ</cite> bot. (in a secret letter) <he>כבר פיסנו לשלשה ל׳</he> we have won over three informers (or speakers)."
+			]
+		}
+	]
+}

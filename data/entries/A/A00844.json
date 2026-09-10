@@ -1,0 +1,24 @@
+{
+	"id": "A00844",
+	"slug": "אור-5",
+	"headword": {
+		"text": "אוּר",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 32,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"P00343\"><he>עוּר</he></cite> q. v.) <i>chaff</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:5\">Y. Ab. Zar. II, 40ᵈ</cite> <he>א׳ דשערין</he> chaff of barley; (Y. Sabb. XIV, 14ᵈ <he>עור דסערין</he>)."
+			]
+		}
+	]
+}

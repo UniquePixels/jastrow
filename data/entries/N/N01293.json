@@ -1,0 +1,23 @@
+{
+	"id": "N01293",
+	"slug": "נשוא",
+	"headword": {
+		"text": "נָשׂוּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 938,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01284\"><he>נָשָׂא</he></cite>) <i>burden</i>, <i>affairs</i> (v. <cite ref=\"M02816\"><he>מַשּׂוֹא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 3:8\">Num. R. s. 3</cite> <he>נשא נְשׂוּאָן של וכ׳</he> (some ed. <cite ref=\"N01294\"><he>נְשׂוּאִין</he></cite>, pl.) he administered the affairs of Israel.—V. <cite ref=\"N01284\"><he>נָשָׂא</he></cite>"
+			]
+		}
+	]
+}

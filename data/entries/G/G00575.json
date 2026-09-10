@@ -1,0 +1,27 @@
+{
+	"id": "G00575",
+	"slug": "זנותא",
+	"headword": {
+		"text": "זְנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְנוּ"
+		}
+	],
+	"page": {
+		"number": 406,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"G00574\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 33:2\">Targ. Y. Gen. XXXIII, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 4:11\">Targ. Hos. IV, 11</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Job 36:14\">Targ. Job XXXVI, 14</cite> <he>מרי ז׳</he> keepers of brothels.—",
+				"<cite ref=\"Sotah 3b:11\">Sot. 3ᵇ</cite> <he>ז׳ בביתא וכ׳</he> faithlessness in the house is like a worm in poppy-plants."
+			]
+		}
+	]
+}

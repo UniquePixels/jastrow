@@ -1,0 +1,28 @@
+{
+	"id": "G00155",
+	"slug": "זוחל",
+	"headword": {
+		"text": "זוֹחַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "זוֹחֲלָא"
+		}
+	],
+	"page": {
+		"number": 385,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00247\"><he>זחל</he></cite>) <i>creeper, worm</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:35\">Targ. Y. I Num. XXI, 35</cite>.—Tanḥ. Ki Thetsé 9, v. <cite ref=\"G00250\"><he>זַחֲלָא</he></cite>.—Pl. <he>זוֹחֲלִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Micah 7:17\">Targ. Mic. VII, 17</cite> (ed. Lag. a. oth. <he>זָחֳלֵי</he>); a. e. V. <cite ref=\"G00250\"><he>זַחֲלָא</he></cite>."
+			]
+		}
+	]
+}

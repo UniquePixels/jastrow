@@ -1,0 +1,38 @@
+{
+	"id": "M01269",
+	"slug": "מיפקא",
+	"headword": {
+		"text": "מִיפְּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִפְקָא"
+		}
+	],
+	"page": {
+		"number": 778,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01075\"><he>נְפַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>exit, end</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 34:22\">Targ. Ex. XXXIV, 22</cite> (ed. Berl. <he>מִיפְּקַהּ</he>; cod. 7 <he>מַפְּקָהּ</he>; oth. <cite ref=\"M02238\"><he>מִפְקָא</he></cite>, <he>מִפְקַת</he>; v. Berl. Targ. O. II, p. 31); ib. XXIII, 16.—Pl. <he>מִיפְּקֵי</he>, <he>מִפְקֵי</he>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:4:15\">Y. Ter. VIII, 46ᵇ</cite> bot., sq. <he>במ׳ שובתא</he> = h. <he>מוצאי שבת</he>, v. <cite ref=\"M00573\"><he>מוֹצָא</he> III</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>going out</i>, v. <cite ref=\"M02127\"><he>מֵעֲלָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "J00442",
+	"slug": "יניק",
+	"headword": {
+		"text": "יַנִּיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָנִיק"
+		},
+		{
+			"text": "יָנִיקָא"
+		}
+	],
+	"page": {
+		"number": 581,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"J00433\"><he>יָנוֹקָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>suckling, child; young</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 15:3\">Targ. I Sam. XV, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 8:20\">Targ. Jud. VIII, 20</cite> (h. text <cite ref=\"N01006\"><he>נער</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 65:20\">Targ. Is. LXV, 20</cite> <he>י׳ ימין</he> (h. text <he>עול ימים</he>); a. fr.—",
+				"<cite ref=\"Kiddushin 32b:14\">Kidd. 32ᵇ</cite> <he>י׳ וחכים</he> young but wise; a, fr.—Pl. <he>יַנִּיקַיָּא</he>. ",
+				"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite>, beg. (translating <he>עויליהם</he>, <cite ref=\"Job 21:11\">Job XXI, 11</cite>) <he>יַנִּיקֵיהוֹן</he> their young ones (v. ",
+				"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite>; <cite ref=\"Yalkut Shimoni on Nach 908\">Yalk. Job. 908</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"J00210\"><he>יוֹנֶקֶת</he></cite>) <i>branch, twig</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 80:12\">Targ. Ps. LXXX, 12</cite> <he>יַנִּיקָהָא</he> (Ms. <he>ינקיהא</he>; h. text <he>יוֹנְקוֹתֶיהָ</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "P01513",
+	"slug": "עשרתי",
+	"headword": {
+		"text": "עֲשַׂרְתֵּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִישַׂרְתֵּי"
+		}
+	],
+	"page": {
+		"number": 1127,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"P01512\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 9:10\">Targ. Esth. IX, 10</cite>; <cite ref=\"Aramaic Targum to Esther 9:12\">12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 2:2\">Targ. Y. Gen. II, 2</cite> (ed. Vien. <cite ref=\"P00705\"><he>עִישְׂרְתֵי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:13\">Targ. Y. Deut. IV, 13</cite> <cite ref=\"P00705\"><he>עִישַׂרְתֵּי</he></cite>; a. e."
+			]
+		}
+	]
+}

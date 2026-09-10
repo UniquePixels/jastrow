@@ -1,0 +1,133 @@
+{
+	"id": "S02235",
+	"slug": "קשי-1",
+	"headword": {
+		"text": "קשי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָשָׁה"
+		}
+	],
+	"page": {
+		"number": 1430,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be stiff, hard, difficult</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:15\">Y. Ber. I, 2ᶜ</cite> top <he>קָשְׁתָה על דעתך</he> this is difficult according to (not reconcilable with) thy opinion; <cite ref=\"Jerusalem Talmud Berakhot 1:1:15\">ib.</cite> <he>למה א״ל קשתה</he> (not <he>קשתיה</he>) why did he say to him, it is difficult?—V. <cite ref=\"S02221\"><he>קָשֶׁה</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִישָּׁה"],
+			"senses": [
+				{
+					"gloss": " (<he>קִישְּׁתָה</he>, with <he>לילד</he> or without) <i>to have hard labor in travailing</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 4:1\">Ḥull. IV, 1</cite> <he>בהמה המְקַשָּׁה לילד וכ׳</he> if an animal is in labor, and &c., v. <cite ref=\"P00182\"><he>עוּבָּר</he></cite>. ",
+						"<cite ref=\"Mishnah Niddah 4:4\">Nidd. IV, 4</cite> <he>קִשְּׁתָה שלשה וכ׳</he> if she was in pain for three days within eleven days; <cite ref=\"Tosefta Niddah 5:8\">Tosef. ib. V, 8</cite> <cite ref=\"S01225\"><he>קִישֵּׁת</he></cite>, <he>קִשֵּׁת</he>. ",
+						"<cite ref=\"Tosefta Niddah 5:10\">Ib. 10</cite>; a. fr.—[<cite ref=\"Bereishit Rabbah 61:5\">Gen. R. s. 61</cite> <he>שהיו מקשין וכ׳</he>, read: <he>מקישין</he>, v. <cite ref=\"N01251\"><he>נָקַשׁ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִקְשָׁה"],
+			"senses": [
+				{
+					"gloss": "<i>to stiffen, harden</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 13b:3\">Nidd. 13ᵇ</cite> <he>המַקְשֶׁה עצמו וכ׳</he> he who causes erection wilfully. ",
+						"<cite ref=\"Shemot Rabbah 11:2\">Ex. R. s. 11</cite> <he>הרשע הזה ה׳ את לבו וכ׳</he> this wicked (Pharaoh) hardened his heart against the first three signs; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become hard</i>. Y. Pes. VI, 35ᵇ top <he>שסופו להַקְשׁוֹת</he> which gets hard in the course of time. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 2:10\">Shebi. II, 10</cite> <he>אם הִקְשׁוּ וכ׳</he> (Y. ed. a. Bart. <he>הוּקְשׁוּ</he> <i>Hof.</i>) if they became hard (dry) and unfit for man to eat before New Year. (Y. ib. 34ᵃ bot. <he>הקשו</he> a. <he>הוקשו</he>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be severe</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite>, opp. <cite ref=\"T01129\"><he>ריתה</he></cite>, v. <cite ref=\"T01117\"><he>רָתָה</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּקְשֶׁה"],
+			"senses": [
+				{
+					"gloss": "<i>to become hard</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be found hard, distasteful</i>. Tanḥ. Sh’laḥ 5; <cite ref=\"Bamidbar Rabbah 16:22\">Num. R. s. 16</cite> <he>ה׳ הדבר והרע וכ׳</he> the thing was distasteful to and displeased his father.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְקַשֶּׁה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְקַשֶּׁה"],
+			"senses": [
+				{
+					"gloss": "<i>to suffer severely</i> (in travailing). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite> <he>נִתְקַשֵּׁת אמו וכ׳</he> his mother was in hard labor at his birth."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become hard, stiff</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Niddah 6:4\">Tosef. Nidd. VI, 4</cite> <he>משׁיִתְקַשּׁוּ</he>, v. <cite ref=\"S02256\"><he>קִשְׁקֵשׁ</he> I</cite>, a. II. ",
+						"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite>, a. <he>שׁנִתְקַשֵּׁיתָה</he>, v. <cite ref=\"S02242\"><he>קַשְׁיוּת</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to find one’s self in difficulty, to be perplexed, unable to understand</i> or <i>remember</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 15:16\">Num. R. s. 15</cite> beg. <he>נ׳ משה במעשה וכ׳</he> Moses found the work of the candlestick more difficult to understand than &c.; <he>כיון שנ׳ אמר וכ׳</he> when he still could not remember it, the Lord said &c. ",
+						"<cite ref=\"Bamidbar Rabbah 15:16\">Ib.</cite><sup>10</sup>; Tanḥ. B’haʿăl. 6 <he>נִתְקַשֵּׁיתִי לעשותה</he> I could not understand how to do it. ",
+						"<cite ref=\"Bamidbar Rabbah 15:16\">Ib.</cite> <he>נ׳ על משה</he> it was too difficult for Moses; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to be reluctant, strive against</i>. Tanḥ. Sh’moth 18 <he>כמה נ׳ יונה שלא וכ׳</he> how hard did Jonah strive not to go on his mission. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 9:9\">Deut. R. s. 9</cite> <he>מִתְקַשֶּׁה כנגדו</he> (the sun) refused to obey; a. e."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to make one’s self obnoxious</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite>; Yalk. Chr. 1073 (play on <cite ref=\"J00590\"><he>יקשן</he></cite>, <cite ref=\"Genesis 25:2\">Gen. XXV, 2</cite>) <he>שהיו מִתְקַשִּׁין בעולם</he> they were obnoxious to the world (were hard to deal with); (<cite ref=\"Midrash Tehillim 92:7\">Midr. Till. to Ps. XCII</cite> ed. Bub. <he>שהיו בני אדם קשין</he>)."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

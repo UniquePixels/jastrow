@@ -1,0 +1,37 @@
+{
+	"id": "A03057",
+	"slug": "ארזלא",
+	"headword": {
+		"text": "אַרְזְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּרְזִילָא"
+		},
+		{
+			"text": "אַרְזִילָא"
+		},
+		{
+			"text": "עַרְסַל"
+		},
+		{
+			"text": "עַרְסְלָא"
+		}
+	],
+	"page": {
+		"number": 117,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dimin. of <cite ref=\"P01404\"><he>עֶרֶס</he></cite>, <cite ref=\"P01404\"><he>עַרְסָא</he></cite>) <i>cradle, hammock</i> for watchmen in gardens. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 1:8\">Targ. Is. I, 8</cite>; <cite ref=\"Targum Jonathan on Isaiah 24:20\">XXIV, 20</cite> (h. <he>מלונה</he>).—",
+				"<cite ref=\"Eruvin 25b:1\">Erub. 25ᵇ</cite> <he>דעבידא כי אר׳</he> Ar. (ed. <he>אור׳</he>; Rashi <he>ארזי׳</he>; Tosaf. <he>ערס׳</he>) the roof of the shed has the shape of a cradle, i. e both sides slanting towards the centre."
+			]
+		}
+	]
+}

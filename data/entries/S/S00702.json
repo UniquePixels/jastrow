@@ -1,0 +1,23 @@
+{
+	"id": "S00702",
+	"slug": "קטבלימטין",
+	"headword": {
+		"text": "קָטָבְלִימָטִין"
+	},
+	"page": {
+		"number": 1346,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (καταβλήματα) <i>proceeds of taxes</i> (v. Sm. Ant. s. v. Eisphora). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> <he>אותו … חייב ק׳</he> that (deposed) banker owes the proceeds (which he had failed to deliver)."
+			]
+		}
+	]
+}

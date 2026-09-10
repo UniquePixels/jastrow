@@ -1,0 +1,49 @@
+{
+	"id": "N00953",
+	"slug": "נסס",
+	"headword": {
+		"text": "נְסַס"
+	},
+	"page": {
+		"number": 917,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"N00953\"><he>נָסַס</he></cite>) [<i>to pine away</i>,] <i>to be sick</i>; trnsf. <i>to be troubled</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 4:17\">Targ. Esth. IV, 17</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַסֵּיס"],
+			"senses": [
+				{
+					"gloss": "<i>to trouble</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 4:28\">Targ. II Kings IV, 28</cite> (h. text <he>תשלה</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְנַסֵּיס", "אִתְנַס"],
+			"senses": [
+				{
+					"gloss": ", <he>אִינַּס</he>, <i>Ithpe.</i> <cite ref=\"N00953\"><he>אִתְנְסִיס</he></cite>, <he>אִינְּסִיס</he> <i>to be troubled; to grieve; to be weak</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 45:5\">Targ. Gen. XLV, 5</cite>. ",
+						"<cite ref=\"Onkelos Genesis 34:7\">Ib. XXXIV, 7</cite> (O. ed. Berl. <he>אִתְנַסִּיאוּ</he>; v. Berl. Mass., p. 77). ",
+						"<cite ref=\"Targum of II Chronicles 16:10\">Targ. II Chr. XVI, 10</cite>; a. e.—",
+						"<cite ref=\"Shabbat 145b\">Sabb. 145ᵇ</cite>; <cite ref=\"Gittin 56a\">Gitt. 56ᵃ</cite>; v. <cite ref=\"A01657\"><he>אִיתְנִיס</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 50:8\">Gen. R. s. 50</cite> (expl. <he>וילאו</he>, <cite ref=\"Genesis 19:11\">Gen. XIX, 11</cite>) <he>אִינַּסּוּן</he> or <he>אִינְּסוּן</he> they became weak."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

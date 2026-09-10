@@ -1,0 +1,32 @@
+{
+	"id": "H01273",
+	"slug": "חנט-1",
+	"headword": {
+		"text": "חָנַט"
+	},
+	"page": {
+		"number": 482,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to assume shape, form a texture;</i> (of trees) <i>to show a distinct shape of fruits, to form fruits;</i> (of fruits and leaves) <i>to assume a distinct shape</i> (v. <cite ref=\"H01278\"><he>חֲנָטָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 14b:8\">R. Hash. 14ᵇ</cite> <he>אתרוג שחָנְטוּ פירותיו</he> Ms. M. (ed. <he>פירותיה</he>) an Ethrog-tree whose fruits were formed before the fifteenth of Shebat. ",
+				"<cite ref=\"Rosh Hashanah 14b\">Ib.</cite> <he>אילן שחנטו וכ׳</he> a tree whose fruits &c. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:1:3\">Y. Shebi. V, beg. 35ᵈ</cite> <he>אילן שח׳</he> a tree which formed fruits. ",
+				"<cite ref=\"Tosefta Shevi'it 4:20\">Tosef. Shebi. IV, 20</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to be handsome;</i> (Arab.) <i>to be red</i>,] <i>to make handsome</i>, or <i>flagrant</i>, esp. <i>toembalm</i>. ",
+			"units": ["<cite ref=\"Bereishit Rabbah 100:3\">Gen. R. s. 100</cite>."],
+			"label": "2"
+		}
+	]
+}

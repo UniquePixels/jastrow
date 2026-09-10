@@ -1,0 +1,42 @@
+{
+	"id": "H00902",
+	"slug": "חיתום",
+	"headword": {
+		"text": "חִיתּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִתּ׳"
+		}
+	],
+	"page": {
+		"number": 461,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01899\"><he>חָתַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>signature</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 10:8\">B. Bath. X, 8</cite> <he>לאחר ח׳ שטרות</he> after the deeds were signed. ",
+				"<cite ref=\"Bava Batra 176a:7\">Ib. 176ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>ברכות</he>) <he>ח׳</he> <i>the formula with which a prayer closes, concluding benediction</i> (‘Blessed be thou, O Lord. who &c.’). ",
+			"units": [
+				"<cite ref=\"Berakhot 12a:15\">Ber. 12ᵃ</cite> <he>הכל הולך אחר ח׳ ב׳</he> Ms. M. (ed. only <he>הח׳</he>) the concluding formula decides the appropriateness of a prayer. ",
+				"<cite ref=\"Berakhot 12a:12\">Ib.</cite> <he>או אחר ח׳ ב׳ אזלינן</he> Ms. M. (ed. <cite ref=\"H01888\"><he>חתימה</he></cite>) or do we go by the concluding phrase?—Pl. <he>חִיתּוּמִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:23\">Y. Ber. I, 3ᵈ</cite> bot. <he>אחר חִיתּוּמֵיהֶן</he> according to their conclusions; (<cite ref=\"Jerusalem Talmud Berakhot 1:5:23\">ib.</cite> <he>חוֹתְמוֹתֵיהֶן</he>, v. <cite ref=\"H00498\"><he>חוֹתָם</he></cite>); <cite ref=\"Jerusalem Talmud Taanit 2:3:2\">Y. Taan. II, 65ᶜ</cite> bot."
+			],
+			"label": "2"
+		}
+	]
+}

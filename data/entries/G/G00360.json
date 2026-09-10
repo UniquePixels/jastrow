@@ -1,0 +1,22 @@
+{
+	"id": "G00360",
+	"slug": "זימא",
+	"headword": {
+		"text": "זִימָא"
+	},
+	"page": {
+		"number": 394,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <cite ref=\"G00366\"><he>זִימֵי</he></cite> (v. <he>זמם</he> III) <i>secretory vessels, nostrils, gils</i> (Syr. <cite ref=\"G00184\"><he>זומא</he></cite> P. Sm. 1101). ",
+			"units": [
+				"<cite ref=\"Bava Batra 74a:7\">B. Bath. 74ᵃ</cite> <he>זִימֵיה</he> (Var. <cite ref=\"A00782\"><he>אַוְסֵיה</he></cite>, v. Rashb. a. l.; Ms. O. <he>זהוריה</he>, Ms. H. <he>קימיה</he>, a. oth. Var., v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

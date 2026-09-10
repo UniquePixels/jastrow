@@ -1,0 +1,27 @@
+{
+	"id": "M02110",
+	"slug": "מעיל-3",
+	"headword": {
+		"text": "מְעִיל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְעִילָא"
+		}
+	],
+	"page": {
+		"number": 815,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02109\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 2:19\">Targ. I Sam. II, 19</cite>. ",
+				"<cite ref=\"Onkelos Exodus 28:4\">Targ. Ex. XXVIII, 4</cite>; a. fr.—Pl. <he>מְעִילִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 26:16\">Targ. Ez. XXVI, 16</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "R00573",
+	"slug": "צמי",
+	"headword": {
+		"text": "צְמֵי"
+	},
+	"page": {
+		"number": 1288,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>צמצם</he>) <i>to reduce, clip, trim</i> (nails). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:12\">Targ. Y. Deut. XXI, 12</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַצְמֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00572\">same</cite>. Y. M. Kat. III, 82ᵃ <he>יתיב מַצְמֵי וכ׳</he> (perh. <he>מִצְמֵי</he> <i>Pe.</i>) sat trimming his nails.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["צַמֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to suffer want, afflict</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 81:8\">Targ. Ps. LXXXI, 8</cite> <he>צַמַּית</he> ed. Lag. (oth. ed. <he>ענית</he>; h. text <he>אענך</he>; v. <cite ref=\"R00196\"><he>צוּם</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "L00038",
+	"slug": "לבב-1",
+	"headword": {
+		"text": "לֵבָב"
+	},
+	"page": {
+		"number": 687,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) = <cite ref=\"L00030\"><he>לֵב</he></cite>, <i>heart</i>; (in rabbinical homiletics) <i>double heart, seat of two opposite inclinations</i> (v. <cite ref=\"J00550\"><he>יֵצֶר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 9:5\">Ber. IX, 5</cite> (ref. to <cite ref=\"Deuteronomy 6:5\">Deut. VI, 5</cite>) <he>בכל לְבָבְךָ בשני יצריך וכ׳</he> ‘with all thy heart’ means with both thy inclinations &c. (i.e. break thy evil inclination for the love of God). ",
+				"<cite ref=\"Bereishit Rabbah 48:11\">Gen. R. s. 48</cite> (ref. to <cite ref=\"Genesis 18:5\">Gen. XVIII, 5</cite>) <he>וסעדו לְבַבְכֶם אין וכ׳</he> it does not say here, ‘comfort ye your <i>l’bab</i>, but your <i>leb</i>’, which intimates that the evil inclination has no power over angels; a. e.—[Pesik. S’liḥ., p. 166ᵃ, v. next w.]—Pl. f. <he>לְבָבוֹת</he>. Tanḥ. Ki Thabo 1 (ref. to <cite ref=\"Deuteronomy 26:16\">Deut. XXVI, 16</cite>) <he>בשעה שאתם מתפללים … שתי ל׳ וכ׳</he> when you pray before the Lord, you shall not have two hearts, one for the Lord, and one for another thing (idol); ib. 2. ",
+				"<cite ref=\"Mishnah Sotah 1:8\">Sot. I, 8</cite> <he>גנב ג׳ ל׳</he> (Bab. ed. p. 9ᵇ <he>גנבות</he>) he deceived three hearts (v. <cite ref=\"C01078\"><he>גָּנַב</he></cite>). ",
+				"<cite ref=\"Bava Batra 12b:7\">B. Bath. 12ᵇ</cite> before eating and drinking man has <he>שתי ל׳ וכ׳</he> two hearts (his thoughts are not clearly defined) &c. (ref. to <cite ref=\"Job 11:12\">Job XI, 12</cite> ‘a hollow man is divided at heart’)."
+			]
+		}
+	]
+}

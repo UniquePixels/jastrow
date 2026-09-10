@@ -1,0 +1,36 @@
+{
+	"id": "P01057",
+	"slug": "עסקן",
+	"headword": {
+		"text": "עַסְקָן"
+	},
+	"page": {
+		"number": 1099,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01056\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>experimenter, observer of nature</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 57b:10\">Ḥull. 57ᵇ</cite> <he>ע׳ בדברים היה וכ׳</he> he used to make experiments, and he made one to disprove R. Judah’s theory. ",
+				"<cite ref=\"Chullin 57b:10\">Ib.</cite> <he>מאי ע׳ בדברים</he> why was he called an experimenter? <cite ref=\"Vayikra Rabbah 19:1\">Lev. R. s. 19</cite> (in Chald. dict.) <he>ר׳ אסי הוה ע׳</he> R. A. used to experiment. ",
+				"<cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> <he>ר״ש הוה ע׳ בדברים</he>; <cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite> <cite ref=\"P00310\"><he>עוֹסְקָן</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>busy, moving automatically</i>.—<i>Fem.</i> <he>עַסְקָנִית</he>; pl. <he>עַסְקָנִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Sukkah 26b:7\">Succ. 26ᵇ</cite> <he>ידים ע׳ הן</he> hands are busy, i.e. touch things automatically."
+			],
+			"label": "2"
+		}
+	]
+}

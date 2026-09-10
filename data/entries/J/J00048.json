@@ -1,0 +1,34 @@
+{
+	"id": "J00048",
+	"slug": "יבל-1",
+	"headword": {
+		"text": "יָבַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 561,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to break through, come forth, run, flow</i>.—V. <cite ref=\"J00038\"><he>יְבוּל</he></cite>, <cite ref=\"J00051\"><he>יִבְלָא</he></cite> &c.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹבִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to lead; to carry, bring</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 43:28\">Sifré Deut. 43</cite> (ref. to <he>יבולה</he>, <cite ref=\"Deuteronomy 11:17\">Deut. XI, 17</cite>) <he>אף לא מה שאתה מוֹבִיל לה</he> not even as much as thou carriest to it (as seed); Yalk. ib. 869. ",
+						"<cite ref=\"Rosh Hashanah 9b\">R. Hash. 9ᵇ</cite>, v. <cite ref=\"D00342\"><he>דּוּר</he></cite> ch.—<i>Part. pass.</i> <cite ref=\"M00393\"><he>מוּבָל</he></cite> <i>one carried, unable to move, feetless</i> &c. ",
+						"<cite ref=\"Mishnah Tahorot 7:5\">Toh. VII, 5</cite> <he>אפי׳ מ׳ אפי׳ כפות</he> even if he is unable to move, even if he is tied; <cite ref=\"Tosefta Tahorot 8:7\">Tosef. ib. VIII, 7</cite> <he>והלה מוּוָל או כפות</he> ed. Zuck. (ed. <he>ממלאו</he>, read: <he>מוול או</he>); Y. Ḥag. II, end, 78ᶜ <he>אפי׳ מאכל ואפי׳ כסות</he> (corr. acc.). [For <cite ref=\"J00048\"><he>הוֹבִיל</he></cite> <i>to study</i>, v. <cite ref=\"B00612\"><he>בִּיל</he></cite> h.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

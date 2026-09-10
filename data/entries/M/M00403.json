@@ -1,0 +1,27 @@
+{
+	"id": "M00403",
+	"slug": "מוגרה",
+	"headword": {
+		"text": "מוֹגֵרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹגֶרֶת"
+		}
+	],
+	"page": {
+		"number": 738,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אָגַר</he> I) <i>storage, stored up provision, magazine</i>.—Pl. <he>מוֹגֵרוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 1:10\">Tosef. Dem. I, 10</cite> he who buys <he>מן המוֹגֵירוֹת בצידון</he> ed. Zuck. (Var. <he>מְגֵר׳</he>, <cite ref=\"M00229\"><he>מגרת</he></cite>) from the stores in Zidon; Y. ib. I, 22ᵃ bot. <cite ref=\"M00143\"><he>מְגוֹרֶת</he></cite>. Tosef. l. c. <he>מוגורות בצור</he> ed. Zuck. (Var. <he>מוגירות</he>, <he>מְגוֹרוֹת</he>; Y. l. c. <cite ref=\"M00143\"><he>מגורת</he></cite>), opp. <cite ref=\"H01230\"><he>חַמֶּרֶת</he></cite>."
+			]
+		}
+	]
+}

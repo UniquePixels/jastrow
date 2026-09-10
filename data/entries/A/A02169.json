@@ -1,0 +1,40 @@
+{
+	"id": "A02169",
+	"slug": "אנטונינוס",
+	"headword": {
+		"text": "אַנְטוֹנִינוֹס"
+	},
+	"page": {
+		"number": 83,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Antoninus</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a Roman emperor freq. mentioned as a friend of R. Judah Han-Nassi, and supposed to be Ant. Alexander Severus (Graetz) or Ant. Marcus Aurelius (Rap. a. oth.). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 10a:13\">Ab. Zar. 10ᵃ</cite> <he>אסוירוס בר א׳</he> Severus son of A.; <cite ref=\"Avodah Zarah 10b:16\">Ib.ᵇ</cite> A. son of Severus.—",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:11:4\">Y. Meg. I, 72ᵇ</cite> bot. <he>אית מילין וכ׳</he> there is one report that A. embraced the Jewish religion, another &c.—Y. Snh. X, 29ᶜ <he>אנטוני׳</he> a. <he>אנטולי׳</he>; cmp. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:3\">Y. Kil. IX, 32ᵇ</cite> top.—",
+				"<cite ref=\"Kohelet Rabbah 9:10:2\">Koh. R. to IX, 10</cite> <he>אנטלימוס וכ׳</he> (corr. acc.)"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>א׳ זעירא</he> A. junior, grandson of the former. Ibid. to X, 5.—[",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (?) a Roman general mentioned in conversation with R. Joh. b. Zaccai; v. <cite ref=\"A00319\"><he>אגניטוס</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

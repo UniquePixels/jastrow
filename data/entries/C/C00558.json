@@ -1,0 +1,40 @@
+{
+	"id": "C00558",
+	"slug": "גזל-1",
+	"headword": {
+		"text": "גָּזַל"
+	},
+	"page": {
+		"number": 230,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to tear away, rob</i> (with accus. of person or of object); <i>to take illegitimately</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 10:5\">B. Kam. X, 5</cite> <he>הגּוֹזֵל שדה מ־</he> he who robs a field from his neighbor (takes forcible possession). ",
+				"<cite ref=\"Mishnah Bava Kamma 10:6\">Ib. 6</cite> <he>הגוזל את וכ׳</he> he who robs his neighbor (takes illegitimately what belongs to his neighbor). ",
+				"<cite ref=\"Mishnah Bava Kamma 10:7\">Ib. 7</cite> <he>גְּזַלְתִּיךָ</he> I have wronged thee (and owe thee retribution). ",
+				"<cite ref=\"Berakhot 35b:2\">Ber. 35ᵇ</cite> <he>כאילו גוֹזֵל להקב״ה</he> as though he robbed the Lord. ",
+				"<cite ref=\"Taanit 16a:13\">Taan. 16ᵃ</cite> <he>ג׳ מריש ובנאו בבירה</he> if one robbed a beam and placed it in a large building; a. v. fr.—<i>Part.</i> <he>גּוֹזֵל</he> <i>robber</i>, pl. <cite ref=\"C00344\"><he>גּוֹזְלִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 3:5:2\">Y. B. Bath. III, 14ᵃ</cite> bot. <he>האומנין והג׳ וכ׳</he> mechanics (who take working material to their homes) and robbers cannot claim the right of possession, v. <cite ref=\"H00556\"><he>חֲזָקָה</he></cite>.—<i>Part. pass.</i> <he>גָּזוּל</he> <i>robbed, illegitimately acquired</i>. ",
+				"<cite ref=\"Mishnah Sukkah 3:1\">Succ. III, 1</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְזַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be robbed</i> (of object taken, or of person deprived). ",
+					"units": [
+						"<cite ref=\"Bava Kamma 95a:11\">B. Kam. 95ᵃ</cite>, a. e. <he>קרקע אינה נִגְזֶלֶת</he> landed property cannot be robbed, i.e. can never become legitimate property by the law of limitation, v. <cite ref=\"J00009\"><he>יִאוּשׁ</he></cite>.—Part. <cite ref=\"N00144\"><he>נִגְזָל</he></cite> <i>the person robbed</i> of his property, <i>claimant</i>. ",
+						"<cite ref=\"Mishnah Shevuot 7:1\">Shebu. VII, 1</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

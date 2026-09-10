@@ -1,0 +1,33 @@
+{
+	"id": "N01147",
+	"slug": "נצר-6",
+	"headword": {
+		"text": "נֵצֶר",
+		"homograph": 4
+	},
+	"page": {
+		"number": 930,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Netsar</i>, one of the alleged disciples of Jesus of Nazareth. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 43a:24\">Snh. 43ᵃ</cite> Ms. M. a. ed. Ven. (omitted in later edit., v. <cite ref=\"B00284\"><he>בּוּנִי</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " בֶּן נ׳ <i>Ben-Netsar</i> (<i>son of Nassor</i>) name of a chief of robbers who became founder of a dynasty, i.e. <i>Odenathus</i> of Palmyra (v. Cyclop. Brit. s. v. Palmyra, Ersch u. Gruber II, Vol. 27, p. 185, Fürst Gloss., p. 145). ",
+			"units": [
+				"<cite ref=\"Ketubot 51b:19\">Keth. 51ᵇ</cite> (opp. to <he>מלכות אחשורוש</he> the legitimate Persian dynasty). ",
+				"<cite ref=\"Bereishit Rabbah 76:6\">Gen. R. s. 76</cite>; Yalk. Dan. 1064 <he>בן נָצוֹר</he>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:4:13\">Y. Ter. VIII, 46ᵇ</cite> bot. <he>בר ניצור</he>."
+			],
+			"label": "2"
+		}
+	]
+}

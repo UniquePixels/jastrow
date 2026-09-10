@@ -1,0 +1,24 @@
+{
+	"id": "Q02175",
+	"slug": "פתיתה",
+	"headword": {
+		"text": "פְּתִיתָה"
+	},
+	"page": {
+		"number": 1254,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02174\">preced.</cite>) <i>breaking in pieces</i>. Sifra Vayikra, N’dab., Par. 10, ch. XII <he>וכל פ׳ בכזתים</he>, v. <cite ref=\"Q02174\">preced.</cite> ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 6:4\">Men. VI, 4</cite> <he>טעונית פ׳</he> require to be broken in pieces; <he>אין בהם פ׳</he> no breaking in pieces is applied to them; Sifra l. c.; a. e.—",
+				"<cite ref=\"Bava Kamma 19b\">B. Kam. 19ᵇ</cite> bot. <he>בבהמה ופ׳</he> Ar. s. v. <cite ref=\"Q02110\"><he>פת</he></cite> (ed. <he>ובפתורא</he>) it means a domestic animal when it ate pieces in a broth.—Pl. <he>פְּתִיתוֹת</he> <i>the function of the breaking in pieces of the meal-offering</i>. ",
+				"<cite ref=\"Menachot 18b\">Men. 18ᵇ</cite>; <cite ref=\"Chullin 132b\">Ḥull. 132ᵇ</cite>"
+			]
+		}
+	]
+}

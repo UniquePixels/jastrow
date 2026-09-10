@@ -1,0 +1,41 @@
+{
+	"id": "D00442",
+	"slug": "די-1",
+	"headword": {
+		"text": "דִּי"
+	},
+	"page": {
+		"number": 293,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(h. <cite ref=\"G00078\"><he>זֶה</he></cite>, cmp. <cite ref=\"D00632\"><he>דֵּין</he></cite>; corresp. to h. <cite ref=\"A03347\"><he>אֲשֶׁר</he></cite>, <cite ref=\"U01197\"><he>שֶׁל</he></cite>, <cite ref=\"U00002\"><he>שֶׁ־</he></cite>)<i>who, which, where, whom</i> &c. ",
+			"units": [
+				"<cite ref=\"Daniel 4:5\">Dan. IV, 5</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Genesis 24:27\">Targ. Gen. XXIV, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 73:27\">Targ. Ps. LXXIII, 27</cite>; a. fr.—Mostly as prefix: <cite ref=\"D00445\"><he>דִּי־</he></cite>, <he>דִּ־</he>, <cite ref=\"D00002\"><he>דְּ־</he></cite>, v. <cite ref=\"D00002\"><he>דְּ־</he></cite>.—With personal pronouns <he>דִּידִי</he>, <cite ref=\"D00595\"><he>דִּילִי</he></cite>; <he>דִּידָךְ</he>, <he>דִּידֵיךְ</he>, <cite ref=\"D00595\"><he>דִּילָךְ</he></cite>, <he>דִּילִיךְ</he>; <he>דִּידֵיה</he>, <he>דִּידָהּ</he>, <he>דִּילֵיה</he>, <he>דִּילָהּ</he>; <he>דִּידָן</he>, <he>דִּילָן</he>; <he>דִּידְכוֹן</he>, <cite ref=\"D00839\"><he>דִּלְכוֹן</he></cite>, <he>דִּידְכוּ</he>, <he>דִּידְכֶן</he>; <he>דִּידְהוֹן</he>, <he>דִּידְהוּ</he>, <he>דִּידְהִי</he> <i>mine, thine</i> &c. ",
+				"<cite ref=\"Onkelos Genesis 31:16\">Targ. O. Gen. XXXI, 16</cite> <he>דילנא</he> (Y. <he>די לנא</he>). Targ. O. ib. XXXIII, 9; a. fr.—",
+				"<cite ref=\"Bava Batra 4b:2\">B. Bath. 4ᵇ</cite> <he>דידי ודידיה הוא</he> it is mine and his. ",
+				"<cite ref=\"Bava Batra 4b:4\">Ib.</cite> <he>עבד דידיה</he> he made the <i>ḥazith</i> on his side, v. <cite ref=\"H00547\"><he>חָזִית</he></cite>. ",
+				"<cite ref=\"Berakhot 2b:19\">Ber. 2ᵇ</cite> <he>בין השמשות דידך</he> thy definition of <i>ben hash-sh’mashoth</i>. ",
+				"<cite ref=\"Tamid 32a:51\">Tam. 32ᵃ</cite> <he>דידי טבא מדידכו</he> my advice is better than yours. ",
+				"<cite ref=\"Gittin 84b:10\">Gitt. 84ᵇ</cite> <he>דילכון</he> your countryman (Rab Kahăna). ",
+				"<cite ref=\"Bava Kamma 117b:3\">B. Kam. 117ᵇ</cite> <he>דילכון אמרי דילהון היא</he> I believed (learning) was yours (the Palestineans’); but it is theirs (the Babylonians’); <cite ref=\"Sukkah 44a\">Succ. 44ᵃ</cite> <cite ref=\"D00839\"><he>דִּלְכוֹן</he></cite>, <cite ref=\"D00839\"><he>דִּלְהוֹן</he></cite>.—",
+				"<cite ref=\"Chullin 42b:1\">Ḥull. 42ᵇ</cite> <he>תנא דידן</he> the author or compiler of our Mishnah. ",
+				"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite> <he>ר״י דידיה אמר</he> R. J. said in his own name. ",
+				"<cite ref=\"Avodah Zarah 17a:6\">Ab. Zar. 17ᵃ</cite> <he>פליגא דידיה אדידיה</he> there is a discrepancy between two opinions of his. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 78ᵃ</cite> top <he>מן דידכֶן</he>; <cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> bot. <he>מן דידכון</he> one of yours."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that</i> (<i>quod</i>). ",
+			"units": [
+				"<cite ref=\"Daniel 4:3\">Dan. IV, 3</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:1:11\">Y. Taan. IV, 67ᶜ</cite> bot. <he>די תעניתא</he> that it is a fast-day."
+			],
+			"label": "2"
+		}
+	]
+}

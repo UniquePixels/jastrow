@@ -1,0 +1,22 @@
+{
+	"id": "M02549",
+	"slug": "מרדיא-2",
+	"headword": {
+		"text": "מָרְדְּיָא"
+	},
+	"page": {
+		"number": 837,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00242\"><he>רְדֵי</he></cite>) <i>ploughshare</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 141:7\">Targ. Ps. CXLI, 7</cite> (ed. Wil. <he>מְרָדַיָא</he>, corr. acc.)."
+			]
+		}
+	]
+}

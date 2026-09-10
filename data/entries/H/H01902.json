@@ -1,0 +1,38 @@
+{
+	"id": "H01902",
+	"slug": "חתן-1",
+	"headword": {
+		"text": "חָתַן"
+	},
+	"page": {
+		"number": 514,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., cmp. <cite ref=\"H01901\">preced.</cite>) <i>to tie, connect, to covenant</i> (Assyr. <i>ḫatânu, to protect</i>. Friedr. Del. Proleg. p. 91).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְחַתֵּן"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַתֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to become connected, to enter into the family, to intermarry</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 82a:4\">Snh. 82ᵃ</cite> <he>כאלו מִתְחַתֵּן בע״א</he> as if he connected himself with idols. ",
+						"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite>, beg. <he>שנ׳ ביהודית וכ׳</he> who married Judith &c. ",
+						"<cite ref=\"Sifrei Devarim 52\">Sifré Deut. 52</cite>, a. e. <he>שנ׳ … עם וכ׳</he> when Solomon married the daughter of Pharaoh; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

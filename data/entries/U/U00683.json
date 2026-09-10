@@ -1,0 +1,23 @@
+{
+	"id": "U00683",
+	"slug": "שחפא-2",
+	"headword": {
+		"text": "שַׁחְפָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1549,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שְׁחַף</he> I) <i>rubbish</i>.—Pl. <he>שַׁחְפֵּי</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110a:2\">Sabb. 110ᵃ</cite> <he>ש׳ דקניא</he> Ms. O. a. Ar. (ed. only <he>ש׳</he>) refuse of reeds."
+			]
+		}
+	]
+}

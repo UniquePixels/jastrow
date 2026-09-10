@@ -1,0 +1,28 @@
+{
+	"id": "A00649",
+	"slug": "אוכמא",
+	"headword": {
+		"text": "אוּכְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּכְמְתָא"
+		}
+	],
+	"page": {
+		"number": 25,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A00648\">foreg.</cite>) <i>black color, darkness; distress</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 22:22\">Targ. Y. Lev. XXII, 22</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:8\">Targ. Lam. IV, 8</cite>."
+			]
+		}
+	]
+}

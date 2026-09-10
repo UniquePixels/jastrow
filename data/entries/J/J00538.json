@@ -1,0 +1,43 @@
+{
+	"id": "J00538",
+	"slug": "יצירה",
+	"headword": {
+		"text": "יְצִירָה"
+	},
+	"page": {
+		"number": 589,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00537\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>formation, creation</i>; <i>nature</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 85a:11\">Yoma 85ᵃ</cite> <he>לענין י׳</he> as regards the stages of embryonic formation. ",
+				"<cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite>, beg. <he>כשם שיְצִירָתוֹ של אדם וכ׳</he> as well as the creation of man took place after that of the animals, so is the law concerning man (Lev. XII—XV) issued after that concerning animals (<cite ref=\"Vayikra Rabbah 14\">ib.</cite> XI). ",
+				"<cite ref=\"Vayikra Rabbah 14\">Ib.</cite> <he>יְצִירת הוולד</he> the formation (development) of the embryo.—",
+				"<cite ref=\"Sotah 2a:9\">Sot. 2ᵃ</cite>; <cite ref=\"Sanhedrin 22a:21\">Snh. 22ᵃ</cite> <he>ארבעים יום קודם י׳ הוו׳ וכ׳</he> forty days before the embryo is formed, a divine voice goes forth &c. ",
+				"<cite ref=\"Niddah 22b:48\">Nidd. 22ᵇ</cite> <he>דנין י׳ מי׳</he> we may draw an analogy between animals concerning whose formation the verb <he>יצר</he> is used (contrad. to <cite ref=\"B01157\"><he>ברא</he></cite>). ",
+				"<cite ref=\"Ketubot 8a:9\">Keth. 8ᵃ</cite> <he>חדא י׳ הואי</he> there was one act of formation for Adam und Eve (male and female persons combined, v. ",
+				"<cite ref=\"Eruvin 18a\">Erub. 18ᵃ</cite>); a. fr.—Pl. <he>יְצִירוֹת</he>. ",
+				"<cite ref=\"Eruvin 18a\">Ib.</cite> <he>שתי י׳ הואי</he> there were two different formations. ",
+				"<cite ref=\"Bereishit Rabbah 14:5\">Gen. R. s. 14</cite> (ref. to <he>וייצר</he> with two <cite ref=\"J00000\"><he>י</he></cite>, <cite ref=\"Genesis 2:7\">Gen. II, 7</cite>) <he>שתי י׳ וכ׳</he> two formations, one referring to Adam, the other to Eve; <he>יצירה לשבעה וכ׳</he> there is a viable birth at seven months, and one at nine months. ",
+				"<cite ref=\"Genesis 2:7\">Ib.</cite> <he>שתי י׳ יצירה מן התחתונים וכ׳</he> two creations, one partaking of the nature of earthly creatures, the other of heavenly beings. Y. Yeb. II, 5ᶜ bot."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>י׳</he> or <he>בית חי׳</he> (v. <cite ref=\"J00228\"><he>יוֹצֵר</he></cite>) <i>potter’s workshop</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kelim Kamma 3:8\">Tosef. Kel. B. Kam. III, 8</cite>.—Y. B. Mets. VIII, end, 11ᵈ <he>בית היוצרה</he> (corr. acc.); <cite ref=\"Tosefta Bava Metzia 8:27\">Tosef. B. Mets. VIII, 27</cite> <he>וי׳ אין פחות וכ׳</he> ed. Zuck. (Var. <he>וצירה</he>) a pottery is rented on no less than twelve months’ notice."
+			],
+			"label": "2"
+		}
+	]
+}

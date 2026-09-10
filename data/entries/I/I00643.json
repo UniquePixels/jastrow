@@ -1,0 +1,52 @@
+{
+	"id": "I00643",
+	"slug": "טפי-2",
+	"headword": {
+		"text": "טְפֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טְפָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 546,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= h. <cite ref=\"R00672\"><he>צָפָה</he></cite>, v. <cite ref=\"I00195\"><he>טוּף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to float</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 26:28\">Targ. Y. Ex. XXVI, 28</cite> <he>והוה טָפֵי</he> (not <he>והות</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to flood</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:20\">Y. Snh. X, 29ᵃ</cite> bot. <he>ובעי מִטְפָא עלמא</he> and wanted to inundate the world."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַטְפֵי"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"I00411\"><he>טִיפָּא</he></cite>) <i>to drop</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 15:8\">Targ. Job XV, 8</cite> some ed. (v. <cite ref=\"I00675\"><he>טְפַף</he> II</cite>)."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

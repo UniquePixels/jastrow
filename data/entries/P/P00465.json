@@ -1,0 +1,31 @@
+{
+	"id": "P00465",
+	"slug": "עטם",
+	"headword": {
+		"text": "עֲטַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִטְמָא"
+		},
+		{
+			"text": "עִיטְ׳"
+		}
+	],
+	"page": {
+		"number": 1063,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"A01098\"><he>אַטְמָא</he></cite>, <i>flank</i>. Targ. II Esth. I, 2 <he>עִיטְמֵיה</he> ed. Lag. (oth. ed. <he>איטמיה</he>).—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:4:14\">Y. Meg. I, 70ᵈ</cite> <he>חד ע׳</he> (not <cite ref=\"H00172\"><he>חדא</he></cite>) one flank; (Bab. ",
+				"<cite ref=\"Megillah 7a:21\">ib. 7ᵃ</cite> bot. <he>אטמא דעיגלא</he>)."
+			]
+		}
+	]
+}

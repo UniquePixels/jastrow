@@ -1,0 +1,22 @@
+{
+	"id": "P00641",
+	"slug": "עיפושא",
+	"headword": {
+		"text": "עִיפּוּשָׁא"
+	},
+	"page": {
+		"number": 1073,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01087\"><he>עֲפַשׁ</he></cite>) <i>mouldering</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 40a:8\">Pes. 40ᵃ</cite> <he>אכיל נהמא דע׳</he> he eats mouldy bread."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "B00648",
+	"slug": "ביניין-1",
+	"headword": {
+		"text": "בֵּינַיִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּינַיִן"
+		},
+		{
+			"text": "בֵּינַיִם"
+		}
+	],
+	"page": {
+		"number": 163,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>בין</he>) <i>intervals</i>, empty spaces between the rows of vine. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:3:2\">Y. Kil. IV, 29ᶜ</cite> top (R. S. to <cite ref=\"Mishnah Kilayim 4:5\">Kil. IV, 5</cite> <cite ref=\"B00648\"><he>בינים</he></cite>). ",
+				"<cite ref=\"Mishnah Kilayim 4:5\">Ib.</cite> beg. 29ᵃ, v. <cite ref=\"K01231\"><he>כַּרְמוֹן</he></cite>. Cmp. <cite ref=\"B01381\"><he>בַּתְוָותָא</he></cite>."
+			]
+		}
+	]
+}

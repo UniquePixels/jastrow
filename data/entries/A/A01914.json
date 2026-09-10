@@ -1,0 +1,24 @@
+{
+	"id": "A01914",
+	"slug": "אלמון-2",
+	"headword": {
+		"text": "אַלְמוֹן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 71,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"A01919\"><he>אַלְמָן</he></cite> , v. <he>אלם</he>) [<i>tied up, secluded;</i> cmp. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 21:3\">Targ. I Sam. XXI, 3</cite> <cite ref=\"I00553\"><he>טמיר</he></cite> for h. <he>אלמני</he>] <i>widower</i>. ",
+				"<cite ref=\"Ketubot 7b\">Keth. 7ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

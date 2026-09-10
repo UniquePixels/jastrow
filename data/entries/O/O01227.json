@@ -1,0 +1,30 @@
+{
+	"id": "O01227",
+	"slug": "סניא-3",
+	"headword": {
+		"text": "סַנְיָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "סְנֵיָא"
+		}
+	],
+	"page": {
+		"number": 1007,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"O01193\"><he>סְנֶה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 3:4\">Targ. Y. Ex. III, 4</cite>, sq.—",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:6\">Cant. R. to I, 1</cite> (prov.) <he>מן ס׳ נפיק וורדא</he> (some ed. <he>נפקא ורדא</he>) from a thorn-bush comes forth a rose (good children of a bad father); <cite ref=\"Yalkut Shimoni on Nach 134:1\">Yalk. Sam. 134</cite> <he>ס׳ דאפיק וכ׳</he> (not <cite ref=\"O00895\"><he>סכיא</he></cite>) a thorn which produced a rose.—Pl. <he>סַנַיָּיא</he>, <cite ref=\"O01227\"><he>סַנַיָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:16\">Targ. Y. Deut. XXXIII, 16</cite> (prob. to be read <he>סַנְיָיא</he> sing.).—[<cite ref=\"Aramaic Targum to Proverbs 8:19\">Targ. Prov. VIII, 19</cite> <cite ref=\"O01227\"><he>סניא</he></cite> for <cite ref=\"O00123\"><he>סגיא</he></cite>, v. <cite ref=\"C00076\"><he>גַּבְיָא</he> I</cite>.]"
+			]
+		}
+	]
+}

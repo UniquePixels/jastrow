@@ -1,0 +1,28 @@
+{
+	"id": "S02026",
+	"slug": "קריא-1",
+	"headword": {
+		"text": "קַרְיָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1419,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02025\">same</cite><i>accident, mishap</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:14\">Targ. Prov. XVII, 14</cite> quot. Levy Targ. Dict. (ed. Lag. <cite ref=\"S00133\"><he>קדיא</he></cite>; ed. <cite ref=\"A02865\"><he>אצטדיא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " constr. <cite ref=\"S02019\"><he>קְרֵי</he></cite> <i>pollution</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 23:11\">Targ. O. Deut. XXIII, 11</cite> ed. Berl. (ed. Vien. = h. text <cite ref=\"S02020\"><he>קְרֵה</he></cite>; oth. ed. <he>סואבת</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

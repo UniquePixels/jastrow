@@ -1,0 +1,35 @@
+{
+	"id": "A00658",
+	"slug": "אול",
+	"headword": {
+		"text": "אֲוַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָוָול"
+		},
+		{
+			"text": "אֲוַול"
+		},
+		{
+			"text": "אֱוִילָא"
+		}
+	],
+	"page": {
+		"number": 25,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אול</he> <i>to circle</i>, v. <cite ref=\"H00319\"><he>חוּל</he></cite>, <he>עול</he>, cmp. <cite ref=\"P00266\"><he>עוֹלָם</he></cite>, <cite ref=\"V00369\"><he>תְּחִלָּה</he></cite>) <i>beginning, early season</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 9:10\">Targ. Hos. IX, 10</cite>; a. e.—<he>מן א׳</he> from the beginning (of the world). ",
+				"<cite ref=\"Aramaic Targum to Job 20:4\">Targ. Job. XX, 4</cite>; a. fr.—לאויל <i>to</i> (<i>its</i>) <i>previous condition</i>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:55\">Targ. Ez. XVI, 55</cite> (some ed. <he>לְאַוְלְהַן</he>). Cmp. <he>אלל</he>."
+			]
+		}
+	]
+}

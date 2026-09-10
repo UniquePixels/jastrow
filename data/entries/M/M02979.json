@@ -1,0 +1,28 @@
+{
+	"id": "M02979",
+	"slug": "משרשיא",
+	"headword": {
+		"text": "מְשַׁרְשְׁיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְשַׁרְשְׁיָה"
+		}
+	],
+	"page": {
+		"number": 858,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>M’sharsh’ya</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 63b:10\">Snh. 63ᵇ</cite>. ",
+				"<cite ref=\"Keritot 6a:5\">Ker. 6ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q01539",
+	"slug": "פראלוקין",
+	"headword": {
+		"text": "פָּרָאלַוְקִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1213,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (παραλευκός, -όν) [<i>whitish</i>,] name of a <i>gem</i> in the high priest’s breastplate (corresp. to <he>שֹׁהַם</he>). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 38:8\">Ex. R. s. 38</cite>, end [perh. a corrupt. of <cite ref=\"B00707\"><he>בירולין</he></cite> βηρύλλιον, v. LXX, <cite ref=\"Exodus 28:20\">Ex. XXVIII, 20</cite>]."
+			]
+		}
+	]
+}

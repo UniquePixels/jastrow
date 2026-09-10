@@ -1,0 +1,22 @@
+{
+	"id": "E00200",
+	"slug": "הוגנס",
+	"headword": {
+		"text": "הוּגְנֵס"
+	},
+	"page": {
+		"number": 337,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>היּגְנֵסִין</he> (εὐγενής, v. <cite ref=\"A00027\"><he>אבגינוס</he></cite>) <i>of noble birth</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 48:1\">Gen. R. s. 48</cite> <he>הגונין</he> … <he>הוגנסין</he> Ar. (ed. <he>ב״א גדולים … מהוגנין</he>)."
+			]
+		}
+	]
+}

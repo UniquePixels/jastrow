@@ -1,0 +1,32 @@
+{
+	"id": "Q01099",
+	"slug": "פלס",
+	"headword": {
+		"text": "פְּלַס"
+	},
+	"page": {
+		"number": 1183,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q01126\"><he>פָּלַשׁ</he> I</cite>) <i>to split, pick to pieces</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 19b:17\">B. Kam. 19ᵇ</cite> <he>ההוא חמרא … ופַלְסֵיה לסלא</he> an ass ate (a neighbor’s) bread and picked the basket to pieces. ",
+				"<cite ref=\"Bava Kamma 19b:17\">Ib.</cite> <he>אכיל והדר פָּלֵיס</he> he eats first and then picks to pieces."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּלֵּיס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01098\">same</cite>. Ib. <he>אורחיה נמי לפַלּוּסֵי סלא</he> it is also his habit to demolish a basket.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "A01154",
+	"slug": "אידא-3",
+	"headword": {
+		"text": "אִידָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אַיְדָא"
+		}
+	],
+	"page": {
+		"number": 45,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"J00094\"><he>ידא</he></cite>; v. <cite ref=\"A00007\"><he>אִ־</he></cite>) <i>hand</i> (only in Targ. Y.). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 9:26\">Targ. Y. Deut. IX, 26</cite>; a. fr.—Pl. <he>אִידַיָּא</he>, <he>אַיְדַיָּא</he>, <cite ref=\"A01159\"><he>אִידֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 24:4\">Targ. Ps. XXIV, 4</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "H01831",
+	"slug": "חשיבא",
+	"headword": {
+		"text": "חֲשִׁיבָא"
+	},
+	"page": {
+		"number": 510,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01806\"><he>חֲשַׁב</he></cite>) <i>prominent person, notable</i>. . ",
+			"units": [
+				"<cite ref=\"Gittin 58a:5\">Gitt. 58ᵃ</cite> <he>ח׳ דרומאי</he> the Roman notables. ",
+				"<cite ref=\"Gittin 56b:3\">Ib. 56ᵇ</cite> [read:] <he>ואימנו להו ח׳ דר׳ לאותיבך וכ׳</he> and the Roman nobility resolved to place thee at their head; <cite ref=\"Yalkut Shimoni on Nach 953:13\">Yalk. Prov. 953</cite>."
+			]
+		}
+	]
+}

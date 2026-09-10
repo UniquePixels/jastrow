@@ -1,0 +1,35 @@
+{
+	"id": "J00711",
+	"slug": "ית",
+	"headword": {
+		"text": "יַת"
+	},
+	"page": {
+		"number": 602,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A01639\"><he>אִית</he></cite>) [<i>being, existence</i>,] a particle ",
+			"units": []
+		},
+		{
+			"gloss": " indicating the objective case (= h. <cite ref=\"A03395\"><he>אֵת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:1\">Targ. Gen. I, 1</cite>; a. v. fr.—With pronominal suffixes: <cite ref=\"J00726\"><he>יָתִי</he></cite> <i>me</i>, <cite ref=\"J00742\"><he>יָתָךְ</he></cite>, <cite ref=\"J00732\"><he>יָתִיךְ</he></cite> <i>thee</i> &c. ",
+				"<cite ref=\"Onkelos Deuteronomy 4:14\">Targ. Deut. IV, 14</cite>. ",
+				"<cite ref=\"Onkelos Genesis 12:12\">Targ. Gen. XII, 12</cite>. ",
+				"<cite ref=\"Onkelos Genesis 50:21\">Ib. L, 21</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with pronominal suffix of the third person) <i>he himself, this one</i> &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:17\">Y. Bicc. III, 65ᵈ</cite> top <he>אמר יָתֵיה דמן רבנן</he> said he (who was before mentioned as) one of the scholars. ",
+				"<cite ref=\"Bereishit Rabbah 9\">Gen. R. s. 9</cite>, beg.; <cite ref=\"Kohelet Rabbah 3:11\">Koh. R. to III, 11</cite>, a. e. <he>יַתְהוֹן</he> those (opp. to <cite ref=\"D00633\"><he>דין</he></cite>), v. <cite ref=\"E00676\"><he>הֲנִי</he></cite>.—With prepositional prefix: <cite ref=\"F00098\"><he>וַת</he></cite>, v. <cite ref=\"K00412\"><he>כְּוָת</he></cite>, <cite ref=\"L00327\"><he>לְוָת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

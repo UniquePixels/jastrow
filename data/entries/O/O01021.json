@@ -1,0 +1,31 @@
+{
+	"id": "O01021",
+	"slug": "סלף-2",
+	"headword": {
+		"text": "סְלַף"
+	},
+	"page": {
+		"number": 996,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O01020\">same</cite> Part. pass. <cite ref=\"O00990\"><he>סָלִיף</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:10\">Targ. Prov. X, 10</cite> Ms. (ed. <cite ref=\"O00990\"><he>סַלִּיף</he></cite> adj.).—[<cite ref=\"Aramaic Targum to Job 34:29\">Targ. Job XXXIV, 29</cite> <he>ויסלף</he> ed. Lag., read <he>ויסלק</he>, v. <cite ref=\"O01026\"><he>סְלֵק</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִסְתְּלִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be distorted</i>. Targ. II Esth. VI, 10.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "U01177",
+	"slug": "שכניה-1",
+	"headword": {
+		"text": "שְׁכַנְיָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1575,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U01152\"><he>שְׁכִינָא</he></cite>) <i>one having abnormally long eye-brows</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bekhorot 5:2\">Tosef. Bekh. V, 2</cite>, sq., expl. <he>שגביניו שוכבין</he>; (<cite ref=\"Bekhorot 44a\">Bekh. 44ᵃ</cite> <cite ref=\"U01119\"><he>שכבנא</he></cite>)."
+			]
+		}
+	]
+}

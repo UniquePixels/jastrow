@@ -1,0 +1,22 @@
+{
+	"id": "D00683",
+	"slug": "דיפריאות",
+	"headword": {
+		"text": "דִּיפְרִיאוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 304,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"D00681\"><he>דִּיפְרָא</he></cite>) prop. <i>bearing twice a year</i>, in gen. <i>several crops in one year</i>. Tanḥ. T’tsavveh, ed. Bub., 10 <he>והיא עושה לי שלש ד׳ כל שנה</he> (Ms. R. <he>דופריות</he>, Tanḥ. ib. 13 <he>רפואות</he>, ed. Amst. <cite ref=\"T00929\"><he>רפאיות</he></cite>; Yalk. Hab. 565 <cite ref=\"R00221\"><he>צופריאות</he></cite>) and it brings me three crops every year.",
+			"units": []
+		}
+	]
+}

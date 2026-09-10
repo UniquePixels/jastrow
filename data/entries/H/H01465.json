@@ -1,0 +1,46 @@
+{
+	"id": "H01465",
+	"slug": "חפף-2",
+	"headword": {
+		"text": "חֲפַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּף"
+		}
+	],
+	"page": {
+		"number": 492,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", <i>Polel</i> <he>חוֹפֵף</he> ch. same. Targ. Y. I. ",
+			"units": [
+				"<cite ref=\"Deuteronomy 32:11\">Deut. XXXII, 11</cite> <cite ref=\"H01419\"><he>חָפָא</he></cite>. (Y. II <he>מחסחף</he>, read: <he>מְחַפְחֵף</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחוֹפֵף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01464\">same</cite>. Targ. O. ib. (h. text <he>ירחף</he>).",
+					"units": []
+				}
+			],
+			"stem": "Ithpol."
+		},
+		{
+			"forms": ["חַפְחֵף"],
+			"senses": [
+				{
+					"gloss": ", v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Palp."
+		}
+	]
+}

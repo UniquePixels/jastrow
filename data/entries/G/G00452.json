@@ -1,0 +1,61 @@
+{
+	"id": "G00452",
+	"slug": "זכות",
+	"headword": {
+		"text": "זְכוּת"
+	},
+	"page": {
+		"number": 398,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00443\"><he>זָכָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>acquittal, favorable judgment, plea in defence</i>.—לִמֵּד ז׳ <i>to plead in favor of the defendant</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 4:1\">Snh. IV, 1</cite> <he>הכל מלמדין ז׳</he> all are permitted to plead for the defendant. ",
+				"<cite ref=\"Mishnah Sanhedrin 4:1\">Ib.</cite> <he>פותחין לז׳</he> the opening argument must be for the defence. ",
+				"<cite ref=\"Mishnah Sanhedrin 4:1\">Ib.</cite> <he>מטין על פי אחד לז׳</he> a majority of one is sufficient for acquittal; a. fr.—",
+				"<cite ref=\"Pirkei Avot 1:6\">Ab. I, 6</cite> <he>הוי דן … לכף ז׳</he> judge every man with an inclination in his favor. ",
+				"<cite ref=\"Shabbat 32a:7\">Sabb. 32ᵃ</cite> <he>הבא ז׳ והפטר</he> bring pleaders in thy favor (good deeds) and be acquitted; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>doing good, blessing</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 29a:11\">Taan. 29ᵃ</cite>, a. fr. <he>מגלגלין ז׳</he>, v. <cite ref=\"C00869\"><he>גִּלְגֵּל</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Nazir 7:1:20\">Y. Naz. VII, 56ᵃ</cite> bot. <he>נתכוונתי לז׳</he> I had the intention of doing good; <cite ref=\"Tractate Semachot 4:34\">Treat. S’maḥ. IV</cite>, end. [<cite ref=\"Tractate Semachot 4:34\">Ib.</cite> <he>תחלת זכותי</he>, read: <he>תשמישי</he>.]"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the protecting influence of good conduct, merit</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:50\">Y. Peah I, 16ᵇ</cite> top <he>הז׳ יש לה קרן וכ׳</he> good deeds have a capital and interests (reward the author and protect his offspring).—",
+				"<cite ref=\"Rosh Hashanah 11a:8\">R. Hash. 11ᵃ</cite> <he>בז׳ אבות</he> for the sake of the Patriarchs; <he>בז׳ אימהות</he> for the sake of the Mothers (Sarah &c.). ",
+				"<cite ref=\"Berakhot 27b:22\">Ber. 27ᵇ</cite> <he>לית ליה ז׳ אבות</he> has no distinguished ancestry to rely on. ",
+				"<cite ref=\"Bereishit Rabbah 44:16\">Gen. R. s. 44</cite> <he>זְכוּתְךָ עומדת וכ׳</he> thy guarding influence shall stand by them. ",
+				"<cite ref=\"Sanhedrin 12a:6\">Snh. 12ᵃ</cite> <he>בז׳ הרחמים ובזְכוּתָם</he> through Divine mercy and their own merits; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>advantage, privilege, benefit</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 19a:12\">B. Mets. 19ᵃ</cite> <he>ז׳ הוא לעבד וכ׳</he> liberty is a benefit to the slave. ",
+				"<cite ref=\"Tosefta Gittin 1:5\">Tosef. Gitt. I, 5</cite> <he>היאך נמצא ז׳ וכ׳</he> ed. Zuck. (Var. <he>מפני מה זכין</he>) how dare we obtain a benefit for this slave?; a. fr.—Pl. <he>זָכִיּוֹת</he>. ",
+				"<cite ref=\"Yoma 86b\">Yoma 86ᵇ</cite> <he>זדונות נעשו לו כז׳</he> wilful wrongs are accounted to him (who repents) as though they were merits. ",
+				"<cite ref=\"Taanit 20b:8\">Taan. 20ᵇ</cite> <he>מנכין לו מזָכִיּוֹתָיו</he> it is deducted from the rewards for his good deeds. ",
+				"<cite ref=\"Shemot Rabbah 38:8\">Ex. R. s. 38</cite>, end; a. fr."
+			],
+			"label": "4"
+		}
+	]
+}

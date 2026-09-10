@@ -1,0 +1,27 @@
+{
+	"id": "I00782",
+	"slug": "טריח-1",
+	"headword": {
+		"text": "טָרֵיחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "טָרֵחַ"
+		}
+	],
+	"page": {
+		"number": 553,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00743\"><he>טָרַח</he></cite>) <i>troublesome, laborious</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:1:2\">Y. M. Kat. I, beg., 80ᵃ</cite> <he>דבר שאינו ט׳</he> (<cite ref=\"Jerusalem Talmud Sheviit 2:7:7\">Y. Shebi. II, end, 34ᵇ</cite> <cite ref=\"I00223\"><he>טורח</he></cite>)."
+			]
+		}
+	]
+}

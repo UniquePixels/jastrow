@@ -1,0 +1,34 @@
+{
+	"id": "V00703",
+	"slug": "תמר-1",
+	"headword": {
+		"text": "תָּמַר"
+	},
+	"page": {
+		"number": 1678,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"V00704\"><he>תִּמֵּר</he></cite> (denom. of <cite ref=\"V00706\"><he>תָּמָר</he></cite>) <i>to rise straight up</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 28b:14\">Yoma 28ᵇ</cite> <he>תימור של לבנה מְתַמֵּר ועולה כמקל</he> the light-column of the moon rises straight up like a stick; opp. <he>מפציע</he> (v. <cite ref=\"Q01439\"><he>פָּצַע</he></cite>); Y. ib. III, beg. 40ᵇ. Bab. ",
+						"<cite ref=\"Yoma 38a:10\">ib. 38ᵃ</cite> <he>של הללו מתמר וכ׳</he> the smoke of the frankincense prepared by those (of the house of Abṭinas) went straight up &c.; <cite ref=\"Shir HaShirim Rabbah 1:14:3\">Cant. R. to I, 14</cite> <he>מְתַמֶּרֶת</he>; <cite ref=\"Jerusalem Talmud Shekalim 5:1:22\">Y. Shek. V, 49ᵃ</cite> top; <cite ref=\"Tosefta Yoma 2:6\">Tosef. Yoma II, 6</cite>. Tanḥ. T’tsav. 15 <he>כשהיה ענן הקטרת מתמר וכ׳</he> when (on the Day of Atonement) the cloud of the incense rose straight up …, he knew that Israel’s sins were forgiven. ",
+						"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> <he>קוצין … אליהם יוצאים ומְתַמְּרִים וכ׳</he> thorns are not sown …, but grow forth of themselves and rise high up, but wheat &c.; <cite ref=\"Yalkut Shimoni on Torah 79\">Yalk. ib. 79</cite> (corr. acc.). ",
+						"<cite ref=\"Ketubot 111b:12\">Keth. 111ᵇ</cite> <he>עתידה חטה שתְּתַמֵּר כדקל וכ׳</he> in the latter days wheat shall sprout forth and rise like palms on mountain tops; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

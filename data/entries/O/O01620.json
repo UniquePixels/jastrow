@@ -1,0 +1,35 @@
+{
+	"id": "O01620",
+	"slug": "סריס",
+	"headword": {
+		"text": "סָרִיס"
+	},
+	"page": {
+		"number": 1027,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <i>impotent, castrate; eunuch</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 8:4\">Yeb. VIII, 4</cite> <he>סְרִיס אדם</he> one emasculated by man, a castrate, opp. to <he>סְ׳ חמה</he>, v. <cite ref=\"H01152\"><he>חַמָּה</he></cite>. ",
+				"<cite ref=\"Yevamot 80a:6\">Ib. 80ᵃ</cite> <he>יביאו ראיה … והוא הס׳</he> they shall bring evidence that he is twenty years old (without showing the symptoms of maturity), and this is the legal <i>saris</i>. ",
+				"<cite ref=\"Yevamot 80a:8\">Ib.</cite> <he>נעשה ס׳ למפרע</he> he is considered as having been a <i>saris</i> at the time of the deed (and legally responsible), opp. <cite ref=\"S00794\"><he>קטן</he></cite>. ",
+				"<cite ref=\"Yevamot 80a:14\">Ib.</cite> <he>סימני ס׳ וכ׳</he> persons with the symptoms of impotency … are not legally proceeded against (as responsible persons) until they are twenty years of age; a. v. fr.—Pl. <he>סָרִיסִים</he>, <he>סָרִיסִין</he>. ",
+				"<cite ref=\"Sanhedrin 93b:15\">Snh. 93ᵇ</cite> <he>ס׳ ממש</he> real castrates (<cite ref=\"O01620\"><he>סריס</he></cite> in the real sense). ",
+				"<cite ref=\"Devarim Rabbah 3:6\">Deut. R. s. 3</cite>, v. <cite ref=\"O01571\"><he>סָרַח</he> II</cite>; a. e.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (homilet., v. <cite ref=\"O01648\"><he>סָרַס</he> II</cite>) <i>mediator</i>, <i>manager</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 11:3\">Num. R. s. 11</cite>; <cite ref=\"Shir HaShirim Rabbah 3:7:3\">Cant. R. to III, 7</cite>, v. <cite ref=\"M00564\"><he>מוּפְלָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

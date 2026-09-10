@@ -1,0 +1,45 @@
+{
+	"id": "H00692",
+	"slug": "חיותא-2",
+	"headword": {
+		"text": "חֵיוְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵיוְו׳"
+		}
+	],
+	"page": {
+		"number": 453,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00691\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"H00674\"><he>חֵיוָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 9:5\">Targ. Y. Gen. IX, 5</cite> <cite ref=\"H00691\"><he>חַיּוּתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 38:13\">Targ. Is. XXXVIII, 13</cite>.—",
+				"<cite ref=\"Sanhedrin 74b:10\">Snh. 74ᵇ</cite>, v. <cite ref=\"H00674\"><he>חֵיוָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 5a:14\">B. Mets. 5ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 93a:20\">Ib. 93ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 29b:8\">B. Bath. 29ᵇ</cite> <he>אוקומי בה ח׳</he> to place cattle there for grazing. ",
+				"<cite ref=\"Vayikra Rabbah 13:5\">Lev. R. s. 13</cite>; <cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite>, v. <cite ref=\"M01375\"><he>מְכֵי</he></cite>.—Pl. <cite ref=\"H00692\"><he>חֵיוָתָא</he></cite>, constr. <cite ref=\"H00674\"><he>חֵיוַות</he></cite>; <he>חֵיוָון</he>, v. <cite ref=\"H00674\"><he>חֵיוָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"H00691\">preced.</cite>) <i>living, provision</i>.—Pl. <cite ref=\"H00682\"><he>חֵיוָותָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 35:11\">Targ. Y. Num. XXXV, 11</cite> <he>בתי ח׳</he> ed. pr. (ed. <cite ref=\"H00697\"><he>חיזותא</he></cite>, corr. acc.) deposits of breadstuff (v. <cite ref=\"M00862\"><he>מִחְיָה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

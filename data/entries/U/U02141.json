@@ -1,0 +1,66 @@
+{
+	"id": "U02141",
+	"slug": "שתת-3",
+	"headword": {
+		"text": "שָׁתַת",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1640,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v.<cite ref=\"U02093\"><he>שָׁתַה</he> II</cite>) <i>to lay the foundation of, start</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתִּית"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U02140\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 11:3\">Midr. Till. to Ps. XI, 3</cite> <he>אם הצדיקים שהִשְׁתִּיתוּ עולמך וכ׳</he>, v. <cite ref=\"Q00090\"><he>פָּגַר</he></cite> "
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּשְׁתַּת"],
+			"senses": [
+				{
+					"gloss": "<i>to be founded</i>. Ib. <he>אם אבן שתיה שממנה ה׳ העולם וכ׳</he> if the wicked come and destroy the foundation stone (v. <cite ref=\"U02100\"><he>שְׁתִיָּה</he> II</cite>) from which the world was started &c. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite>; <cite ref=\"Yoma 54b\">Yoma 54ᵇ</cite>, v. <cite ref=\"U02100\"><he>שְׁתִיָּה</he> II</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["שׁוּתָּת"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U02140\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 26b:8\">Snh. 26ᵇ</cite> (play on <he>תוש̇יה</he>, <cite ref=\"Isaiah 28:29\">Is. XXVIII, 29</cite>, as a name of the Torah) <he>דברים של ת̇והו שהעולם מְשׁוֹּתָּת עליהן</he> mere words, and yet the world is built upon them; <cite ref=\"Yalkut Shimoni on Nach 653\">Yalk. Ps. 653</cite> <cite ref=\"U02141\"><he>שׁוּתָּת</he></cite>."
+					]
+				}
+			],
+			"stem": "Pu."
+		},
+		{
+			"forms": ["נִשְׁתַּת"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U02140\">same</cite>. Tanḥ. K’doshim 10; <cite ref=\"Tosefta Yoma 3:6\">Tosef. Yoma III</cite> (<cite ref=\"Tosefta Yoma 2:6\">II</cite>), 6 (ed. Zuck. <cite ref=\"U02093\"><he>נִשְׁתָּה</he></cite>, v. <cite ref=\"U02093\"><he>שָׁתָה</he> II</cite>).",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

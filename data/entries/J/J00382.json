@@ -1,0 +1,30 @@
+{
+	"id": "J00382",
+	"slug": "ילידתא",
+	"headword": {
+		"text": "יָלֵידְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְלֵיד׳"
+		}
+	],
+	"page": {
+		"number": 579,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"J00188\"><he>יוֹלֵדָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 12:7\">Targ. Lev. XII, 7</cite> (O. ed. Amst. <he>יַלִּדְ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:3\">Targ. Is. XXI, 3</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 6) <he>ירחי ביטנתא די׳</he> (not <he>דילדיתא</he>), v. <cite ref=\"B00585\"><he>בִּיטְנָתָא</he></cite>.—Pl. <cite ref=\"J00382\"><he>יְלֵידָתָא</he></cite>, <he>יְלֵדָ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 13:8\">Targ. Is. XIII, 8</cite> <cite ref=\"K00751\"><he>כִּילֵ׳</he></cite> (ed. Wil. <cite ref=\"K00716\"><he>כְּלֵ׳</he></cite>; h. text sing.)"
+			]
+		}
+	]
+}

@@ -1,0 +1,100 @@
+{
+	"id": "F00115",
+	"slug": "ותר-1",
+	"headword": {
+		"text": "וָתַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "וָותַר"
+		}
+	],
+	"page": {
+		"number": 376,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"J00746\"><he>יָתַר</he></cite>) <i>to be plentiful</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:4:2\">Y. Succ. V, 55ᶜ</cite> (ref. to <cite ref=\"Jeremiah 2:13\">Jer. II, 13</cite>) <he>הא וָותְרוּ לאלף</he> (not <he>וותרה</he>) were they not numerous up to a thousand?; <cite ref=\"Shir HaShirim Rabbah 1:6:2\">Cant. R. to I, 6</cite> <he>הא וותרו למאד</he> (read: <he>למֵאָה</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["וִיתֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to do more than justice requires, to be liberal; to forego one’s rights</i>. Y. Ned. I, beg. 39ᵃ if they had agreed <he>על מנת לוַותֵּר</he> to yield their rights (to allow each other the use of the entire court). ",
+					"units": [
+						"<cite ref=\"Bava Batra 126a:2\">B. Bath. 126ᵃ</cite> <he>בכור … ו׳</he> if a first-born accepted an equal share (of a field) with his brothers, he has renounced his privilege; Y. Keth. IV, end, 29ᵇ <he>חזקה וייתר</he> (read: <cite ref=\"F00115\"><he>וִויתֵּר</he></cite>). ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>וִיתֵּירָה</he> (= <he>וִיתְּרָה</he>). ",
+						"<cite ref=\"Bava Kamma 9a:14\">B. Kam. 9ᵃ</cite> <he>ו׳</he> he has renounced his rights (cannot resort to his co-heirs for redress). ",
+						"<cite ref=\"Ruth Rabbah 2:13\">Ruth R. to I, 8</cite> <he>שוִיתְּרוּ לה וכ׳</he> they relinquished their claim on her &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be indulgent, forgive</i>. Y. Ḥag. I, 76ᶜ <he>ו׳ הקב״ה על וכ׳</he> the Lord overlooked Israel’s idolatry, but did not &c.; Lam. R. introd. (R. Abba 2). Y. Sot. V, end, 20ᵈ <he>שהיה מְוַותֵּר על קללתו</he> he pardoned those who cursed him. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 9\">Deut. R. s. 9</cite> <he>נְוַותֵּר לו עוד יום וכ׳</he> (not <cite ref=\"P00114\"><he>עד</he></cite>) let us give him a respite of one day or two.—",
+						"<cite ref=\"Bamidbar Rabbah 21:5\">Num. R. s. 21</cite> <he>לא יהא אדם מוותר על התורה</he> man must not be more liberal than the Law; a. fr.—",
+						"<cite ref=\"Mishnah Sanhedrin 11:5\">Snh. XI, 5</cite> (<cite ref=\"Sanhedrin 89a:8\">89ᵃ</cite>) <he>המוו׳ על דברי נביא</he> he who disobeys a prophet from mere soft-heartedness (v. ",
+						"<cite ref=\"I Kings 20:35\">I Kings XX, 35</cite>, sq.)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to give additional space to a plant</i> by removing surrounding plants, <i>to make open space</i>. Y. Shebi. II, 33ᵈ top <he>מְוַותְּרִין בגפנים</he> you may clear (in the Sabbatical year) between the grape vines; <cite ref=\"Yoma 2a\">ib.</cite> <he>מקום שׁנהגו לוותר וכ׳</he> where it is customary to clear before the festive month; <cite ref=\"Tosefta Shevi'it 1:7\">Tosef. Shebi. I, 7</cite> <he>מְוַתְּרִין</he>; <cite ref=\"Tosefta Shevi'it 1:7\">ib.</cite> <he>להתיר</he> ed. Zuck. (read: <he>לוַותֵּיר</he>).",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִוָּותֵר"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"N01392\"><he>נָתַר</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be let loose, set free</i>. Midr. P’tirath Mosheh <he>אֶוָּותֵר</he> (Jellinek Beth-ham-Midrash I, 125; v. Lattes Saggio 107).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be outlawed</i>, v. infra. ",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְוַתַּר"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"J00746\"><he>נִתְוַתֵּר</he></cite> (v. <cite ref=\"N01392\"><he>נָתַר</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to become loose</i> (of bowels).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be declared free, be outlawed</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> <he>נִתְוַתְּרוּ מעיו וכ׳</he> (<cite ref=\"Yalkut Shimoni on Nach 288:1\">Yalk. Is. 288</cite> <he>נתרזו בני מ׳</he>) his bowels were loose that whole night. ",
+						"<cite ref=\"Bava Kamma 50a\">B. Kam. 50ᵃ</cite> bot. <he>יִתְוַותְּרוּ חייו</he> Ms. M. (ed. <he>יִוָּתְרוּ</he>, <i>Nif.</i>, v. supra) his life shall be let loose i.e. shall be outlawed; Ar. ed. Koh. <he>יִתְיַתְּרוּן מעיו וחייו</he> (v. Rabb. D. S. a. l. note); Tanḥ. Ki Thissa 26 <he>יתותרון בני מעיו</he> his bowels &c., v. <cite ref=\"F00116\">next w.</cite>; <cite ref=\"Yalkut Shimoni on Nach 648\">Yalk. Ps. 648</cite> <he>יִוָּתְרוּ חייו</he> his life be outlawed."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

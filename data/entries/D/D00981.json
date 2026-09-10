@@ -1,0 +1,23 @@
+{
+	"id": "D00981",
+	"slug": "דציא",
+	"headword": {
+		"text": "דָּצְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 317,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00980\"><he>דצי</he></cite>, sec. r. of <cite ref=\"D00321\"><he>דּוּץ</he> I</cite>) <i>cheering up</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:22\">Targ. Prov. VI, 22</cite> <he>דַּצְיָיךְ</he> Ms. (ed. <he>רציך</he>; h. text <he>תשיחך</he>)."
+			]
+		}
+	]
+}

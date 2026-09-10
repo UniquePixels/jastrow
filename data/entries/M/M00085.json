@@ -1,0 +1,23 @@
+{
+	"id": "M00085",
+	"slug": "מבינא",
+	"headword": {
+		"text": "מְבִינָא"
+	},
+	"page": {
+		"number": 725,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>מלבינא</he>; <cite ref=\"L00000\"><he>ל</he></cite> rejected as in <cite ref=\"M02410\"><he>מֶקַח</he></cite>, fr. <cite ref=\"L00674\"><he>לָקַח</he></cite>, cmp. <cite ref=\"M02003\"><he>מַסְקָנָא</he></cite> fr. <cite ref=\"N00958\"><he>נְסַק</he></cite>; v. <cite ref=\"L00095\"><he>לָבַן</he> II</cite>) <i>broom</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 14:23\">Targ. Is. XIV, 23</cite> (some ed. incorr. <he>מכ׳</he>).—",
+				"<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite> end <he>אומרת אשאיל לי מְבִינָיךְ וכ׳</he> (not <cite ref=\"M00089\"><he>מבנייך</he></cite>, <cite ref=\"M00089\"><he>מבניך</he></cite>) wanted to say, Lend me thy broom, and she said, Lend me <he>מְטַאֲטֵיךְ</he>; [<cite ref=\"Jerusalem Talmud Megillah 2:1:3\">Y. Meg. II, 73ᵃ</cite> bot. <cite ref=\"A01774\"><he>אלבינה</he></cite>; correct etymol. s. v. <cite ref=\"A01774\"><he>אַלְבִּינָא</he></cite>]."
+			]
+		}
+	]
+}

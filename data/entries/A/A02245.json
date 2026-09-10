@@ -1,0 +1,24 @@
+{
+	"id": "A02245",
+	"slug": "אנך-2",
+	"headword": {
+		"text": "אֲנָךְ",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 85,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02244\">preced.</cite> 2)) <i>grief, wrong</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 59a:8\">B. Mets. 59ᵃ</cite> all gates are sometimes closed except the gates (of prayer) of those wronged by men (v. <cite ref=\"A00722\"><he>אוֹנָאָה</he></cite>), for it says, (<cite ref=\"Amos 7:3\">Amos VII, 3</cite>) “Behold the Lord stands on the wall of <i>anakh</i> and in his hand he holds <i>anakh</i> (oppression).” <cite ref=\"Amos 7:3\">Ib.</cite> <he>אונאה דכתיב ובידו א׳</he> the Lord hears the prayer of the wronged, for it says &c.; v. <cite ref=\"A00746\"><he>אוֹנָיָתָא</he></cite>."
+			]
+		}
+	]
+}

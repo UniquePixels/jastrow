@@ -1,0 +1,23 @@
+{
+	"id": "O00507",
+	"slug": "סטרומטין",
+	"headword": {
+		"text": "סִטְרוֹמָטִין"
+	},
+	"page": {
+		"number": 973,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (στρώματα) <i>covering for a couch, mattresses</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 3:9:1\">Koh. R. to III, 9</cite> (not <cite ref=\"O00512\"><he>סטרמוסין</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "V01104",
+	"slug": "תשע-1",
+	"headword": {
+		"text": "תָּשַׁע"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּשֵּׁעַ"
+		}
+	],
+	"page": {
+		"number": 1704,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"V01105\">next w.</cite>) <i>to divide by nine</i>.—Part. pass. <cite ref=\"M03038\"><he>מְתוּשָּׁע</he></cite>; pl. <he>מְתוּשָּׁעִים</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 1:3:3\">Y. Shebi. I, 33ᵇ</cite> <he>ובלבד שלא יפחות מחשבון מת׳</he> provided that there be no less than the quantity (of one Kikkar) divided by nine, i.e. that none of the nine trees yield less than one-ninth of a Kikkar."
+			]
+		}
+	]
+}

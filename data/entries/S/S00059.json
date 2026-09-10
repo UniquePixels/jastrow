@@ -1,0 +1,38 @@
+{
+	"id": "S00059",
+	"slug": "קבל-3",
+	"headword": {
+		"text": "קָבַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1309,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H00084\"><he>חבל</he></cite>) <i>to feel oppressed; to cry</i>; (cmp. <cite ref=\"R00185\"><he>צָוַח</he></cite>) <i>to complain, bring charges</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yadayim 4:6\">Yad. IV, 6</cite> <he>קוֹבְלִין אנו עליכם</he> we cry out against you (we say, ‘woe unto you’). ",
+				"<cite ref=\"Mishnah Yadayim 4:8\">Ib. 8</cite> <he>קוֹבֵל אני עליכם</he> I accuse you. ",
+				"<cite ref=\"Bereishit Rabbah 96:5\">Gen. R. s. 96</cite> (ref. to <he>ויקרבו</he>, <cite ref=\"Genesis 47:29\">Gen. XLVII, 29</cite>, v. <cite ref=\"S01883\"><he>קָרַב</he></cite>) <cite ref=\"A02060\"><he>אמר</he></cite> [<he>לו</he>] <he>הקב״ה היום קובל עליך לומר בי הוא יקום</he> (not <cite ref=\"K00473\"><he>כי</he></cite>) the Lord said to him, the day brings suit against thee (summons thee before court) saying, with me (on this day) he shall stand (before the throne of justice); Tanḥ. Vayḥi 2; <cite ref=\"Yalkut Shimoni on Nach 168\">Yalk. Kings 168</cite>. ",
+				"<cite ref=\"Devarim Rabbah 9:9\">Deut. R. s. 9</cite> (ref. to <cite ref=\"Deuteronomy 31:14\">Deut. XXXI, 14</cite> <he>הן קרבו</he>) <he>היום קבל לפני הקב״ה וכ׳</he> (some ed. <he>קובל</he>) the day cried out before the Lord saying, O Lord, I will not move, I will not set, and Moses shall live; Yalk. ib. 941 <he>כאדם שאומר פלוני קובל … כך היום קובל וכ׳</he> (not <he>קיבל</he>) as one says, that man is bringing charges against thee …, so (the Lord said,) the day is summoning thee, but the sun said, I will not move &c. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:22\">Y. Peah I, 15ᶜ</cite> <he>אמו של</he> … <he>וקָבְלָה עליו לרבותינו וכ׳</he> R. Yishmael’s mother … came and complained of him before our teachers, saying &c.; <cite ref=\"Jerusalem Talmud Kiddushin 1:7:6\">Y. Kidd. I, 61ᵇ</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְבִּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00058\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Avot D'Rabbi Natan 16:2\">Ab. d’R. N. ch. XVI</cite> <he>הִקְבִּילָה וכ׳</he> she complained to her mistress."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

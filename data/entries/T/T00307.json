@@ -1,0 +1,31 @@
+{
+	"id": "T00307",
+	"slug": "רובי-2",
+	"headword": {
+		"text": "רוֹבִי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רוֹבְיָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1455,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>fenugreek</i>, (oth. opin. <i>flax-seed</i>). ",
+			"units": [
+				"<cite ref=\"Keritot 6a:4\">Ker. 6ᵃ</cite> <he>יהא רגיל … ורובי וכ׳</he> (Rashi <he>ורוביא</he>) one should make it a habit at the beginning of a year to eat pumpkin, fenugreck &c.; <cite ref=\"Horayot 12a\">Hor. 12ᵃ</cite>. ",
+				"<cite ref=\"Chullin 52a:5\">Ḥull. 52ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite>, v. <cite ref=\"C00806\"><he>גִּיר</he> III</cite>."
+			]
+		}
+	]
+}

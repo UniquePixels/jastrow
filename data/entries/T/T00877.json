@@ -1,0 +1,31 @@
+{
+	"id": "T00877",
+	"slug": "רעד-1",
+	"headword": {
+		"text": "רָעַד"
+	},
+	"page": {
+		"number": 1486,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to tremble</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְעִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to shake</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makhshirin 1:2\">Makhsh. I, 2</cite>, sq. <he>המַרְעִיד את האילן</he> if one shakes a tree; <cite ref=\"Tosefta Makhshirin 1:1\">Tosef. ib. I, 1</cite>, sq.—[<cite ref=\"Sifrei Bamidbar 11:1\">Sifré Num. 11</cite> <he>ומרעדים את העין</he>. v. <cite ref=\"P01418\"><he>עִרְעֵר</he> II</cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

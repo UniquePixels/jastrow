@@ -1,0 +1,22 @@
+{
+	"id": "A00400",
+	"slug": "אדימא",
+	"headword": {
+		"text": "אֲדִימָּא"
+	},
+	"page": {
+		"number": 16,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= h. <cite ref=\"A00382\"><he>אָדוֹם</he></cite>) <i>red, full of sap, fresh</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 24b\">Bets. 24ᵇ</cite>, Rashi; v. however, <cite ref=\"E00131\"><he>הֲדַם</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "U01854",
+	"slug": "שקיא-2",
+	"headword": {
+		"text": "שָׁקְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁ׳"
+		},
+		{
+			"text": "שָׁקֵי"
+		}
+	],
+	"page": {
+		"number": 1622,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01853\">preced.</cite> wds.) <i>butler</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 40:1\">Targ. O. Gen. XL, 1</cite>; <cite ref=\"Onkelos Genesis 40:5\">5</cite>; a. e.—",
+				"<cite ref=\"Bava Kamma 92b:10\">B. Kam. 92ᵇ</cite> (prov.) <he>חמרא למרא טיבותא לשָׁקְיֵיה</he> (Ms. M. <he>דשָׁקְיָה</he>) the wine belongs to the owner, the credit for it is given to his butler (is the butler’s).—רַב שָׁקי <i>chief butler</i>. ",
+				"<cite ref=\"Onkelos Genesis 40:2\">Targ. Gen. XL, 2</cite>. ",
+				"<cite ref=\"Onkelos Genesis 40:9\">Targ. O. ib. 9</cite> (Y. <he>רב מזוגייא</he>); a. e."
+			]
+		}
+	]
+}

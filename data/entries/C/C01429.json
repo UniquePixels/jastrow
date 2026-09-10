@@ -1,0 +1,21 @@
+{
+	"id": "C01429",
+	"slug": "גת-1",
+	"headword": {
+		"text": "גַּת",
+		"homograph": 1
+	},
+	"page": {
+		"number": 274,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Gath</i> in Philistea. ",
+			"units": ["<cite ref=\"Sanhedrin 102a:10\">Snh. 102ᵃ</cite>; a. e."]
+		}
+	]
+}

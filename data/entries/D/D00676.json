@@ -1,0 +1,23 @@
+{
+	"id": "D00676",
+	"slug": "דיפלא",
+	"headword": {
+		"text": "דִּיפְּלָא"
+	},
+	"page": {
+		"number": 303,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (dupla, sub. pecunia) <i>a double price</i>, in gen. (= mulcta, v. Du Cange s. v.) <i>fine</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:6:5\">Y. Ab. Zar. I, 39ᵈ</cite> bot.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:14\">Y. Sabb. VI, end, 8ᵈ</cite> <he>מאן גרם ליה ד׳</he> (not <cite ref=\"D00675\"><he>דיפל</he></cite>) what was the cause of his being fined?; v. <he>מוֹבְסָא</he>."
+			]
+		}
+	]
+}

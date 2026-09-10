@@ -1,0 +1,31 @@
+{
+	"id": "T01145",
+	"slug": "רתף",
+	"headword": {
+		"text": "רָתַף"
+	},
+	"page": {
+		"number": 1504,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"T01138\"><he>רָתַךְ</he></cite>, a. b. h. <cite ref=\"T01141\"><he>רָתַם</he></cite>) <i>to join</i>. Denom. <cite ref=\"M02791\"><he>מַרְתֵּף</he></cite> (cmp. <cite ref=\"K00694\"><he>כְּלוּב</he></cite>, <cite ref=\"A01702\"><he>אַכְלְבָא</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִתֵּף"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"M02791\"><he>מַרְתֵּף</he></cite>) <i>to store</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Metzia 8:30\">Tosef. B. Mets. VIII, 30</cite> <he>לא יְרַתֵּף על גבו יין מפני שטוען וכ׳</he> ed. Zuck. he must not store wine over it, because he overloads the walls; (oth. ed. <he>לא ירתף מפני שמכחישין וכ׳</he> he must not turn the dwelling into a store house, because they (the stored things) weaken &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

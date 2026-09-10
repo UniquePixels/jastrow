@@ -1,0 +1,39 @@
+{
+	"id": "R00744",
+	"slug": "צרה-3",
+	"headword": {
+		"text": "צָרָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1300,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"R00727\"><he>צַר</he></cite>) fem. of <cite ref=\"R00727\"><he>צַר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>anguish, trouble, distress, persecution</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 9b:7\">Ber. 9ᵇ</cite> <he>דיה לצ׳ בשעתה</he> time enough for the trouble when it comes (‘sufficient unto the day is the evil thereof’). ",
+				"<cite ref=\"Berakhot 63a:22\">Ib. 63ᵃ</cite> (ref. to <cite ref=\"Proverbs 24:10\">Prov. XXIV, 10</cite>) <he>כל המרפה … ביום צ׳</he> he who neglects the words of the Law, has no strength on the day of trouble. ",
+				"<cite ref=\"Pesachim 117a:20\">Pes. 117ᵃ</cite> <he>על כל צ׳ וצ׳ וכ׳</he> in every trouble that may not come (euphem. for: that comes) upon them. ",
+				"<cite ref=\"Yevamot 63b:15\">Yeb. 63ᵇ</cite> (from Ben Sira) <he>אל תצר צָרת מחר וכ׳</he> worry not about to-morrow’s trouble, for thou knowest not what the day may beget. ",
+				"<cite ref=\"Sotah 12a:7\">Sot. 12ᵃ</cite> (play on <he>צֶרֶת</he>, <cite ref=\"I Chronicles 4:7\">I Chr. IV, 7</cite>) <he>שנעשית צ׳ וכ׳</he> because she was a trouble (an object of envy) to her companions. ",
+				"<cite ref=\"Mishnah Sanhedrin 4:5\">Snh. IV, 5</cite> <he>שמא תאמרו מה לנו ולצ׳ וכ׳</he> lest you say, why should we undergo this trouble (of giving testimony)? &c. ",
+				"<cite ref=\"Bereishit Rabbah 81:2\">Gen. R. s. 81</cite> <he>וכיון שראה שצָרָתוֹ צ׳</he> and when he saw that his trouble was a real trouble (when he felt greatly embarrassed). ",
+				"<cite ref=\"Bereishit Rabbah 81:2\">Ib.</cite> <he>אל תזכירני צָרָתִיִ</he> do not cause me to mention my trouble. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4\">Cant. R. to III, 4</cite> (ref. to <cite ref=\"Isaiah 21:2\">Is. XXI, 2</cite>) <he>כבר נתעלה צָרָתָהּ של עילם … כבר נוצרה צרתה וכ׳</he> (not <he>נתעלם</he>) the anguish which Elam has to bring has already been brought up (prepared), … the anguish through Media has already been created; a. v. fr.—Pl. <he>צָרוֹת</he>. ",
+				"<cite ref=\"Berakhot 13a:3\">Ber. 13ᵃ</cite> <he>צ׳ אחרונות וכ׳</he> the later troubles make us forget the earlier; <cite ref=\"Jerusalem Talmud Sotah 9:12:4\">Y. Sot. IX, 24ᵇ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:5:3\">Y. Meg. I, 70ᵈ</cite> <he>לא דיינו הצ׳ … צרתו של המן</he> have we not enough with the persecutions that visit us (on account of which we hold fast-days), that you want to impose upon us (the fast in commemoration of) the persecution by Haman? <cite ref=\"Sanhedrin 97a\">Snh. 97ᵃ</cite>; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

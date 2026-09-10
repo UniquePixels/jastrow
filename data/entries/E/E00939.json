@@ -1,0 +1,25 @@
+{
+	"id": "E00939",
+	"slug": "השרשה",
+	"headword": {
+		"text": "הַשְׁרָשָׁה"
+	},
+	"page": {
+		"number": 370,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U02038\"><he>שָרַשׁ</he></cite>, <i>Hif.</i>) <i>taking root</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 55a:11\">Pes. 55ᵃ</cite> <he>ובה׳</he> and as to counting the third day after planting for taking root. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:5:2\">Y. Shebi. II, 34ᵃ</cite> top <he>אחר ה׳</he> we go by the date of taking root. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:9:2\">Y. Kil. I, 27ᵇ</cite> <he>אינו רוצה בהַשְׁרָשָׁתָן</he> he has no interest in their taking root; <cite ref=\"Jerusalem Talmud Maasrot 5:2:6\">Y. Maasr. V, 51ᵈ</cite> top. ",
+				"<cite ref=\"Menachot 69a:3\">Men. 69ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

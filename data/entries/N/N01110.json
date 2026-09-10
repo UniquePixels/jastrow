@@ -1,0 +1,27 @@
+{
+	"id": "N01110",
+	"slug": "נצח-3",
+	"headword": {
+		"text": "נִצֵּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִצַּחַת"
+		}
+	],
+	"page": {
+		"number": 928,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N01109\">preced.</cite>) <i>successful, convincing, irrefutable</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 105a:2\">Snh. 105ᵃ</cite> (ref. to <cite ref=\"Jeremiah 8:5\">Jer. VIII, 5</cite>) <he>תשובה נ׳ השיבה וכ׳</he> the congregation of Israel defeated the prophets with an irrefutable argument."
+			]
+		}
+	]
+}

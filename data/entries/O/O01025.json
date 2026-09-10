@@ -1,0 +1,74 @@
+{
+	"id": "O01025",
+	"slug": "סלק-1",
+	"headword": {
+		"text": "סָלַק"
+	},
+	"page": {
+		"number": 996,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to go up, go away</i>.—[",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pile up</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 2:1\">Tam. II, 1</cite> <he>סוֹלְקִין</he> Talm. ed., v. <cite ref=\"O01257\"><he>סָנַק</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִילֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to remove; to cause cessation, suspend</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 20:4\">Sabb. XX, 4</cite> <he>גורפין … ומְסַלְּקִין לצדדין</he> you may rake … and remove to the corners. ",
+						"<cite ref=\"Mishnah Niddah 4:7\">Nidd. IV, 7</cite>, a. e. <he>מְסַלֶּקֶת</he> suspends, v. <cite ref=\"H01600\"><he>חֲרָדָה</he></cite>. ",
+						"<cite ref=\"Shemot Rabbah 3:7\">Ex. R. s. 3</cite> <he>סִלַּקְתָּ אותו</he> thou hast discarded him (omitted to mention him in connection with the Lord); a. fr.—Part. pass. <he>מְסוּלָּק</he>; f. <he>מְסוּלֶּקֶת</he>; pl. <he>מְסוּלָּקִים</he>, <he>מְסוּלָּקִין</he>; <he>מְסוּלָּקוֹת</he>. ",
+						"<cite ref=\"Niddah 68b:18\">Nidd. 68ᵇ</cite> <he>דמיה מס׳</he> her menstruation is suspended. Y. Keth. IX, beg. 32ᵈ if one uses the expression <he>ידיי מס׳ וכ׳</he> my hands are removed, my feet are removed from this field, he has said nothing (has not thereby renounced his rights); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lift up, raise,</i> esp. <i>to tuck up the trail of a garment</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 18b:6\">Zeb. 18ᵇ</cite> <he>מרושלין שסִילְּקָן … כשרין</he> trailing (priestly) garments when tucked up by the belt, are fit for service; a. e.—<i>Part. pass.</i> as ab. <i>lifted up, too short</i>. ",
+						"<cite ref=\"Tosefta Menahot 1:8\">Tosef. Men. I, 8</cite>; <cite ref=\"Zevachim 18a:11\">Zeb. 18ᵃ</cite>, sq., v. <cite ref=\"T01089\"><he>רָשַׁל</he></cite>. "
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְתַּלֵּק"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִסְתַּלֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be dismissed, removed; to rise</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 54b\">Erub. 54ᵇ</cite> <he>נ׳ אהרן וכ׳</he> Aaron was dismissed (got up) and took his seat to the left of Moses; <he>נִסְתַּלְּקוּ בניו</he> when his sons were dismissed. ",
+						"<cite ref=\"Yevamot 64a:1\">Yeb. 64ᵃ</cite> <he>גורם … שתִּסְתַּלֵּק מישראל</he> causes the Divine Presence to withdraw from Israel. ",
+						"<cite ref=\"Vayikra Rabbah 34:8\">Lev. R. s. 34</cite> <he>וראשון ראשון מִסְתַּלֵּק</he> and one after the other rose (from the meal). ",
+						"<cite ref=\"Pirkei Avot 1:16\">Ab. I, 16</cite> <he>עשה לך רב והִסְתַּלֵּק מן הספק</he> get thyself a teacher so as to be removed from (to escape) doubt; a. fr.—Esp. (with or without <he>מן העולם</he>) <i>to be called away</i> from this world, <i>to die</i>. ",
+						"<cite ref=\"Tosefta Chagigah 2:5\">Tosef. Ḥag. II, 5</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 62\">Gen. R. s. 62</cite> <he>הקב״ה יודע … להִסְתַּלֵּק העולם ומְסַלְּקָן</he> the Lord knows when it is time for the righteous to be called away …, and he does call them away. ",
+						"<cite ref=\"Shemot Rabbah 52\">Ex. R. s. 52</cite> <he>היה מִסְתַּלֵּק וכ׳</he> was about to die; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

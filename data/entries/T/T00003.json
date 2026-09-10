@@ -1,0 +1,29 @@
+{
+	"id": "T00003",
+	"slug": "ראג",
+	"headword": {
+		"text": "רָאֵג"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָאֵיג"
+		}
+	],
+	"page": {
+		"number": 1434,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. of <he>רוג</he> = <cite ref=\"T00158\"><he>רְגַג</he></cite>) <i>desirous for, coveting, anxious for</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:12\">Targ. Prov. XII, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:26\">Ib. XXI, 26</cite>.—<i>Fem.</i> <he>רָיְגָא</he>, <he>רָיְיגָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:10\">Ib. 10</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "U00156",
+	"slug": "שבע-2",
+	"headword": {
+		"text": "שְׁבַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוֹבַע"
+		},
+		{
+			"text": "שִׁבְעָא"
+		},
+		{
+			"text": "שִׁבְעָה"
+		},
+		{
+			"text": "שַׁ׳"
+		},
+		{
+			"text": "שׁוּ׳"
+		},
+		{
+			"text": "שִׁבְעָתֵי"
+		}
+	],
+	"page": {
+		"number": 1515,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. <cite ref=\"U00155\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 5:7\">Targ. Gen. V, 7</cite>. ",
+				"<cite ref=\"Onkelos Genesis 4:24\">Ib. IV, 24</cite> (O. ed. Vien. <cite ref=\"U00164\"><he>שִׁבְעָה</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 29:27\">Ib. XXIX, 27</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 11:26\">Targ. Y. II, Num. XI, 26</cite> <he>שׁוֹבְעָתֵי</he>; a. fr.—Y. Kil. IV, beg. 29ᵃ <he>חמש שורין מן שו׳ שו׳</he> five rows of seven trees each. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:4:5\">Y. Sabb. I, 3ᶜ</cite> bot. <he>אלו שגזרו … שובעה אינון</he> those laws which they decreed by majority of votes, were seven; a. fr.—Pl. <he>שַׁבְעִין</he>, <cite ref=\"U00067\"><he>שִׁבְ׳</he></cite>, <cite ref=\"U00323\"><he>שׁוּבְ׳</he></cite> <i>seventy</i>. ",
+				"<cite ref=\"Onkelos Genesis 5:12\">Targ. Gen. V, 12</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "I00731",
+	"slug": "טרוף-1",
+	"headword": {
+		"text": "טָרוּף"
+	},
+	"page": {
+		"number": 551,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"I00863\"><he>טָרָף</he></cite>) <i>covered with leaves</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Negaim 8:2\">Tosef. Neg. VIII, 2</cite>, v. <cite ref=\"I00862\"><he>טֶרֶף</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (part. pass. of <cite ref=\"I00859\"><he>טָרַף</he></cite>, cmp. <i>Pi.</i>) <i>disfigured by irregular spots;</i> (oth. opin.) <i>chopped, full of incisions;</i> (oth. opin.) <i>planed, smooth</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 25a:16\">Ned. 25ᵃ</cite>; <cite ref=\"Shevuot 29b:3\">Shebu. 29ᵇ</cite> (ref. to one swearing that he had seen a serpent ‘like the beam of an oil press’) <he>בט׳</he> he meant ‘spotted’ like a beam &c. ",
+				"<cite ref=\"Shevuot 29b:3\">Ib.</cite> (in answer to the argument <he>כולהו נחשי מיטרף טריפין</he> (or <he>טריפי</he>, not <he>טרפי</he>) that all serpents are ‘spotted’) <he>בשגבו ט׳</he> (Ms. M. <he>שבגבו</he>) he meant a serpent spotted on the back (and not only around the neck). Ned. l. c. <he>קורת … גבו ט׳</he> (read <he>גבה</he>) the back of a press beam may be spotted (i.e. no objection of the purchaser is valid based on the spotted condition of the beam); according to the opinion: <he>ט׳</he> = <i>planed</i>, all beams must be planed, (otherwise the purchaser has a right to reject).—[Other meanings, v. <cite ref=\"I00859\"><he>טָרַף</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

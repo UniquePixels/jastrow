@@ -1,0 +1,29 @@
+{
+	"id": "P00404",
+	"slug": "עזז-2",
+	"headword": {
+		"text": "עֲזַז"
+	},
+	"page": {
+		"number": 1061,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְעַזַּז</he> same, v. <cite ref=\"P00403\">preced.</cite>",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

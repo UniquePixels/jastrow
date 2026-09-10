@@ -1,0 +1,32 @@
+{
+	"id": "K00358",
+	"slug": "כופתא-1",
+	"headword": {
+		"text": "כּוּפְתָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 624,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"K00357\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 77b:10\">Sabb. 77ᵇ</cite> (phon. etymol.) <he>כ׳ כ̇וף̇ ות̇יב</he> invert and sit on it."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>prisoner’s stocks</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 20:2\">Targ. Jer. XX, 2</cite> Ar. (h. text <he>מהפכת</he>), v. <cite ref=\"K00615\"><he>כֵּיפְתָא</he></cite>. [<cite ref=\"Bava Batra 73b:2\">B. Bath. 73ᵇ</cite>, v. <cite ref=\"K01004\"><he>כַּפּוּתָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

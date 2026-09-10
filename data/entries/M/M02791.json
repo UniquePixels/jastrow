@@ -1,0 +1,24 @@
+{
+	"id": "M02791",
+	"slug": "מרתף",
+	"headword": {
+		"text": "מַרְתֵּף"
+	},
+	"page": {
+		"number": 848,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01145\"><he>רָתַף</he></cite>) <i>store-room, cellar</i> where vessels are stored in rows and layers. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 1:1\">Pes. I, 1</cite> <he>שתי שורות על פני כל המ׳</he> the two rows of piled vessels in front of the cellar. ",
+				"<cite ref=\"Sanhedrin 108a:18\">Snh. 108ᵃ</cite> <he>מ׳ של חומץ</he> a store-room for vinegar. ",
+				"<cite ref=\"Vayikra Rabbah 24:8\">Lev. R. s. 24</cite>, end; a. fr."
+			]
+		}
+	]
+}

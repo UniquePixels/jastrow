@@ -1,0 +1,28 @@
+{
+	"id": "C01010",
+	"slug": "גמומסית",
+	"headword": {
+		"text": "גְּמוּמָסִית",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּמָּסִית"
+		}
+	],
+	"page": {
+		"number": 252,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גמס</he>, <i>to couple;</i> cmp. <cite ref=\"C01012\"><he>גמז</he></cite>) <i>coupling song</i>, a sarcastic adaptation of γάμος, to deride the <i>hymenean songs</i> in their licentious application to sodomy and to copulation of animals (cmp. <cite ref=\"A01548\"><he>אִיפּוֹתּוֹרוֹס</he></cite>).—Pl. <cite ref=\"C01010\"><he>גְּמוּמָסִיּוֹת</he></cite>, <he>גּוּמָּסִיּוֹת</he> (Ar. ed. Koh. <he>גַּמְסָסִיּוֹת</he>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 26:5\">Gen. R. s. 26</cite> the generation of the flood were not doomed to destruction <he>עד שכתבו ג׳ לזכר ולבהמה</he> until they composed hymenean songs for sodomy &c.; Tanḥ., ed. Bub., <cite ref=\"Genesis 22\">B’resh. 22</cite> <cite ref=\"C01034\"><he>גמיקיסום</he></cite>; <cite ref=\"Genesis 33\">33</cite> <he>קמיסמסין</he>, Var. <he>קמיסקסין</he>, Y’lamd. quot. in Ar. <cite ref=\"C01030\"><he>גמיסיקין</he></cite>—(perversions arisen from confounding our w. with <cite ref=\"C01033\"><he>גַּמִּיקִין</he></cite> q. v.); <cite ref=\"Yalkut Shimoni on Torah 43:1\">Yalk. Gen. 43</cite> <he>גממטיות</he> (corr. acc.).; <cite ref=\"Vayikra Rabbah 23:9\">Lev. R. s. 23</cite> <he>גומסיות לזכר ולנקבה</he> (corr. acc.)."
+			]
+		}
+	]
+}

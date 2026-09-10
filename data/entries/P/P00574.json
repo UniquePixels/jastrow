@@ -1,0 +1,43 @@
+{
+	"id": "P00574",
+	"slug": "עילויא",
+	"headword": {
+		"text": "עִילּוּיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִלּ׳"
+		}
+	],
+	"page": {
+		"number": 1070,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00573\">same</cite><i>rise, improved stage</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 36a:7\">Ber. 36ᵃ</cite> <he>אית ליה ע׳ אחרינא בפת</he> (flour) is capable of a still higher stage by being made into bread; <he>לית ליה ע׳ אחרינא</he> (oil) has no higher stage. Ib. 35ᵇ <he>דאשתני לע׳</he> (wine) which has changed (from grapes) to a higher stage. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:4:4\">Y. Ab. Zar. V, 44ᵈ</cite>, v. <cite ref=\"J00574\"><he>יַקִּיר</he></cite> ch."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>valuation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 28:13\">Targ. Job XXVIII, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 27:2\">Targ. Y. Lev. XXVII, 2</cite> (ed. Vien. <he>עִילוֹי</he>); <cite ref=\"Targum Jonathan on Leviticus 27:3\">ib. 3</cite> (ed. Vien. <he>עֲלוֹיֵיה</he>; <cite ref=\"Targum Jonathan on Leviticus 27:4\">ib. 4</cite>, sq. <he>עֲלוֹיָהּ</he>, <he>עִילוֹיָהּ</he>, corr. acc.).—",
+				"<cite ref=\"Bava Batra 12b:12\">B. Bath. 12ᵇ</cite> <he>מעלינן ליה ע׳ וכ׳</he> (Ms. M. <he>מעלינן עליה וכ׳</he>) we value it as high as &c. ",
+				"<cite ref=\"Kiddushin 42b:5\">Kidd. 42ᵇ</cite> <he>פלוג בע׳</he> they divided the estate according to value, opp. <he>במשחתא</he> by measure (irrespective of value)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the best thing</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 50b:3\">Keth. 50ᵇ</cite> <he>עילוייא דאב</he>, v. <cite ref=\"P00794\"><he>עְלִיָּה</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

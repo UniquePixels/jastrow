@@ -1,0 +1,28 @@
+{
+	"id": "L00534",
+	"slug": "ליתא",
+	"headword": {
+		"text": "לֵיתָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "לַיְתָא"
+		}
+	],
+	"page": {
+		"number": 710,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " m. ch. = h. <cite ref=\"L00523\"><he>לַיִשׁ</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:9\">Targ. Gen. XLIX, 9</cite> (h. text <he>לביא</he>). ",
+				"<cite ref=\"Onkelos Numbers 23:24\">Targ. Num. XXIII, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 28:8\">Targ. Job XXVIII, 8</cite> (h. text <cite ref=\"L00371\"><he>לחש</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 19:2\">Targ. Ez. XIX, 2</cite> (h. text <cite ref=\"L00069\"><he>לְבִיָּא</he></cite>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "U01699",
+	"slug": "שעתא",
+	"headword": {
+		"text": "שַׁעְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁעֲתָא"
+		},
+		{
+			"text": "שָׁעָא"
+		},
+		{
+			"text": "שָׁעָה"
+		}
+	],
+	"page": {
+		"number": 1613,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U01634\"><he>שָׁעָה</he></cite>, <i>while, time; hour</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 5:26\">Targ. II Kings V, 26</cite> (ed. Wil. <he>שעה</he>). ",
+				"<cite ref=\"Onkelos Exodus 33:5\">Targ. Ex. XXXIII, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 23:5\">Targ. Y. ib. XXIII, 5</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 64a:15\">Ber. 64ᵃ</cite> <he>אצטריכא להו ש׳</he> the time needed them (circumstances required one of them as chief of the college); <cite ref=\"Bekhorot 31a:5\">Bekh. 31ᵃ</cite>, v. <cite ref=\"R00787\"><he>צְרֵךְ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 2:4:5\">Y. Bets. II, 61ᶜ</cite> top, a. e. <he>בשַׁעְתָּהּ</he> in its proper time, v. <cite ref=\"C00423\"><he>גּוּמְרָא</he></cite>. ",
+				"<cite ref=\"Berakhot 7a:4\">Ber. 7ᵃ</cite> <he>כי … ש׳ אלטייה</he> when that moment comes, I will curse him; <he>כי … ש׳ ניים</he> when that moment came, he was asleep. ",
+				"<cite ref=\"Berakhot 7a:4\">Ib.</cite> <he>כל ש׳ וש׳</he> at all times. ",
+				"<cite ref=\"Berakhot 7a:4\">Ib.</cite> <he>כל ש׳</he> any other time; <he>בההיא ש׳</he> but at that special time; <cite ref=\"Avodah Zarah 4b:14\">Ab. Zar. 4ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 11b:10\">Pes. 11ᵇ</cite> <he>פלגא דש׳</he> half an hour; a. fr.—Pl. <he>שָׁעַיָּא</he>, <he>שָׁעִין</he>, <cite ref=\"U01653\"><he>שָׁעֵי</he></cite>; (<cite ref=\"U01699\"><he>שָׁעָתָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 20:11\">Targ. II Kings XX, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 7:18\">Targ. Job VII, 18</cite> (not <cite ref=\"U01699\"><he>שָׁעֲתָא</he></cite>); a. fr.—Ber. l. c.; Ab. Zar. l. c. <he>בהנך תלת ש׳ וכ׳</he> during those first three hours (of the day) &c.; a. fr."
+			]
+		}
+	]
+}

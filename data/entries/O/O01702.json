@@ -1,0 +1,25 @@
+{
+	"id": "O01702",
+	"slug": "סתירה-2",
+	"headword": {
+		"text": "סְתִירָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1031,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סָתַר</he> II) <i>tearing down, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 31b:12\">Meg. 31ᵇ</cite> <he>סְתִירַת זקנים … ס׳</he> the tearing down of the old is building, the building of the young is tearing down; <cite ref=\"Nedarim 40a:7\">Ned. 40ᵃ</cite>; <cite ref=\"Tosefta Avodah Zarah 1:19\">Tosef. Ab. Zar. I, 19</cite>. ",
+				"<cite ref=\"Tosefta Menahot 9:14\">Tosef. Men. IX, 14</cite> <he>ושל ס׳ מכל מקום</he> ed. Zuck. (Var. <cite ref=\"O01690\"><he>סְתוֹר</he></cite> or <cite ref=\"O01690\"><he>סִתּוּר</he></cite>) and wood of any kind taken from a torn-down building (or a broken vessel; v. Sifra Vayikra, N’dab., Par. 4, ch. VI; <cite ref=\"Menachot 22a:2-3\">Men. 22ᵃ</cite> <he>עצים … שלא נשתמש בהן הדיוט</he>).—Trnsf. <i>discontinuance; cancelling</i>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 2:10:3\">Y. Naz. II, end, 52ᵇ</cite> <he>סתירת תער כס׳ ממש</he> the interruption of a Nazarite’s vow brought about by cutting his hair, is like a real annulment (so that he has to begin his nazariteship anew). Ib. V, 55ᵇ top <he>לס׳ שלש</he> for cancelling the nazariteship (the obligation to begin it over again), the cutting of at least three hairs is required; v. <cite ref=\"O01713\"><he>סָתר</he> II</cite>."
+			]
+		}
+	]
+}

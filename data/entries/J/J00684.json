@@ -1,0 +1,36 @@
+{
+	"id": "J00684",
+	"slug": "ישוע",
+	"headword": {
+		"text": "יֵשׁוּעַ"
+	},
+	"page": {
+		"number": 600,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Jeshua</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " name of several persons. ",
+			"units": [
+				"<cite ref=\"Mishnah Yadayim 3:5\">Yad. III, 5</cite> Bab. ed. (Mish. <cite ref=\"J00135\"><he>יהושע</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:14\">Y. M. Kat. III, 82ᶜ</cite> <he>יֵישׁ׳</he>.—",
+				"<cite ref=\"Tosefta Chullin 2:22\">Tosef. Ḥull. II, 22</cite>; <cite ref=\"Tosefta Chullin 2:25\">25</cite>; v. <cite ref=\"J00680\"><he>יֵשׁוּ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub <cite ref=\"M02930\"><he>מִשְׁמָר</he></cite>) <i>the priestly division of Jeshua</i> which was the ninth in the order of divisions on duty each week (<cite ref=\"I Chronicles 24:7-18\">I Chr. XXIV, 7—18</cite>). Pesik. Haomer, p. 69ᵇ; <cite ref=\"Pesikta Rabbati 18:1\">Pesik. R. s. 18</cite>; <cite ref=\"Kohelet Rabbah 1:3:1\">Koh. R. to I, 3</cite>; <cite ref=\"Yalkut Shimoni on Torah 643:16\">Yalk. Lev. 643</cite> [read:] <he>אימתי הן תמימות בזמן שיש י׳ ושכניה ביניהם</he> when are the seven weeks between Passover and Pentecost ‘complete’ (<cite ref=\"Leviticus 23:15\">Lev. XXIII, 15</cite>), i.e. beginning and ending with the week? When the divisions of J. and Shekhania are between them, i.e. when there are ten Sabbaths between the first of the month of Nisan on the first Sabbath of which the turn commences, and the sixth of Sivan.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Jeshua</i> (redemption), a disguise for <cite ref=\"Q00121\"><he>פִּדְיוֹן</he></cite>; v. <cite ref=\"B00932\"><he>בֵּן</he></cite>. ",
+			"units": ["<cite ref=\"Bava Kamma 80a:15\">B. Kam. 80ᵃ</cite>"],
+			"label": "3"
+		}
+	]
+}

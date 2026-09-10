@@ -1,0 +1,29 @@
+{
+	"id": "S00215",
+	"slug": "קו-2",
+	"headword": {
+		"text": "קַו"
+	},
+	"page": {
+		"number": 1323,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"S00308\"><he>קָוָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circle, zone</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 12a:7\">Ḥag. 12ᵃ</cite> <he>תהו קו ירוק וכ׳</he> <i>tohu</i> (<cite ref=\"Genesis 1:2\">Gen. I, 2</cite>) is the green (or yellow) circle which surrounds the whole world (the horizon); <cite ref=\"Yalkut Shimoni on Nach 185:5\">Yalk. Kings 185</cite> (ref. to <cite ref=\"I Kings 7:23\">I Kings VII, 23</cite>) <he>זה קו ירוק וכ׳</he> this is typical of the green circle &c. ",
+				"<cite ref=\"Bamidbar Rabbah 13:14\">Num. R. s. 13</cite> <he>קו הים שעשה וכ׳</he> the circle encompassing the basin which Solomon made (I Kings l. c.); a. e.— [<i>cavity</i>,] <i>the lower part of a trumpet</i>. ",
+				"<cite ref=\"Mishnah Kelim 11:7\">Kel. XI, 7</cite>, v. <he>קב</he>.—[Tanḥ. Aḥăré 1 <he>קו שררתיה</he>, v. <cite ref=\"S00674\"><he>קוֹשַׁרְתָּא</he></cite>.]"
+			],
+			"label": "1"
+		}
+	]
+}

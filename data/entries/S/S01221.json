@@ -1,0 +1,25 @@
+{
+	"id": "S01221",
+	"slug": "קישקושא-1",
+	"headword": {
+		"text": "קִישְׁקוּשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִשְׁ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1370,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01220\">same</cite>.—Pl. <cite ref=\"S02255\"><he>קִישְׁקוּשֵׁי</he></cite>, <cite ref=\"S01220\"><he>קִשְׁ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 3a:11\">M. Kat. 3ᵃ</cite>; <cite ref=\"Sukkah 44b:7\">Succ. 44ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 354:2\">Yalk. Ex. 354</cite> <he>תרי ק׳ הוו וכ׳</he> there are two kinds of hoeing, one intended to make the tree stronger &c., v. <cite ref=\"Q00665\"><he>פִּילָא</he> III</cite>."
+			]
+		}
+	]
+}

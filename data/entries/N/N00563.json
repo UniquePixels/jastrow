@@ -1,0 +1,42 @@
+{
+	"id": "N00563",
+	"slug": "נטיעה",
+	"headword": {
+		"text": "נְטִיעָה"
+	},
+	"page": {
+		"number": 899,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00575\"><he>נָטַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>planting; plant</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 6:11:1\">Cant. R. to VI, 11</cite> <he>בשעת נְטִיעָתָן</he> when you plant them. ",
+				"<cite ref=\"Berakhot 35a:18\">Ber. 35ᵃ</cite> <he>בר נ׳</he> that which belongs to the vegetable Kingdom. ",
+				"<cite ref=\"Sanhedrin 68a:6\">Snh. 68ᵃ</cite> <he>נְטִיעַת קישואין</he> planting of cucumbers; a. fr.—Esp. <i>young tree, shoot</i>. ",
+				"<cite ref=\"Beitzah 25b:4\">Bets. 25ᵇ</cite> <he>נ׳ מקטע וכ׳</he> the law concerning young trees (<cite ref=\"P01387\"><he>עָרְלָה</he></cite>) cuts off the feet of the butchers (ought to teach them patience, so as not to use meat before flaying and dissecting). ",
+				"<cite ref=\"Mishnah Sheviit 1:8\">Shebi. I, 8</cite> <he>נ׳ כשמה</he> by ‘a young plant’ (with reference to the Sabbatical year law) we understand what its name indicates (during the first year). Y. ib. 33ᵇ bot. <he>נ׳ מעין עשר</he> as to young shoots the proportion of ten to a field of a S’ah’s size is required, v. infra; a. fr.—Pl. <he>נְטִיעוֹת</he>. Cant. R. l. c. <he>כחן של נ׳ וכ׳</he> the endurance of young plants and the beauty &c., v. <cite ref=\"G00299\"><he>זִיו</he></cite>. ",
+				"<cite ref=\"Mishnah Sheviit 1:6\">Shebi. I, 6</cite> <he>עשר נ׳ מפוזרות וכ׳</he> if ten young trees are scattered over a field of one S’ah’s size, we may plough the entire field for their sake (on the eve of the Sabbatical year); <cite ref=\"Sukkah 34a:2\">Succ. 34ᵃ</cite>, a. e. <he>עשר נ׳</he> the law concerning young trees in a field &c. ",
+				"<cite ref=\"Taanit 5b:12\">Taan. 5ᵇ</cite> bot. <he>יהי רצון שכל נ׳ שנוטעין וכ׳</he> may all shoots taken from thee be like thyself. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:1:6\">Y. Yeb. I, 2ᵇ</cite> <he>חמש נ׳ נטע</he> he planted five shoots, had five sons; a. fr.—",
+				"<cite ref=\"Chagigah 14b:9\">Ḥag. 14ᵇ</cite>, a. e. <he>קיצץ בנ׳</he> he mutilated the shoots (of the garden of religion, v. <cite ref=\"Q01590\"><he>פַּרְדֵּס</he></cite>), i.e. became irreligious, v. <cite ref=\"S01836\"><he>קָצַץ</he></cite>.—Mekh. B’shall., Shir. s. 10, v. <cite ref=\"N01377\"><he>נְתִיצָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pitching a tent, putting up a temporary structure</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 5b:13\">Meg. 5ᵇ</cite>, a. e., v. <cite ref=\"A01676\"><he>אַכְוַרְנְקָא</he></cite>, a. <cite ref=\"N00575\"><he>נָטַע</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "A02376",
+	"slug": "אסטלא",
+	"headword": {
+		"text": "אִסְטְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִצְטְלָא"
+		},
+		{
+			"text": "אִסְטוֹלָא"
+		},
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 90,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Ispe. noun of <cite ref=\"I00468\"><he>טל</he></cite>, <cite ref=\"I00509\"><he>טלל</he></cite>; cmp. <cite ref=\"I00504\"><he>טַלִּית</he></cite>) <i>robe, garment</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 9:23\">Targ. Y. Gen. IX, 23</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 128a:10\">Sabb. 128ᵃ</cite> <he>א׳ הראוייה לו</he> a robe becoming his position. ",
+				"<cite ref=\"Moed Katan 28b:7\">M. Kat. 28ᵇ</cite> (prov.) <he>שיול א׳ וכ׳</he> the grave is a fine robe for the freeman whose outfit is complete (well becoming old and virtuous age). ",
+				"<cite ref=\"Bava Metzia 17a:8\">B. Mets. 17ᵃ</cite>; a. e.—Pl. <cite ref=\"A02379\"><he>אִסְטְלִין</he></cite>, <cite ref=\"A02379\"><he>אִסְטְלֵי</he></cite>, <he>אִסְטַלְוָון</he>, <cite ref=\"A01411\"><he>אִצְ׳</he></cite> &c. <he>א׳ דלבושין</he> <i>a suit of clothes</i>. ",
+				"<cite ref=\"Onkelos Genesis 45:22\">Targ. Gen. XLV, 22</cite>; (ed. Berl. <he>אוּסְטְלַוָּן</he>; <cite ref=\"Onkelos Genesis 45:22\">ib.</cite> Y. <he>אסטלוי ולבוש</he>, read <he>אסטלי דלבוש</he>).—Y. Ber. III, 6ᵈ bot. (v. margin. note ed. Krot.). ",
+				"<cite ref=\"Moed Katan 24a\">M. Kat. 24ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:25\">Y. Snh. X, 29ᵇ</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 11:1\">Koh. R. to XI, 1</cite> <he>א׳ דלבושן</he> v. supra.—Cmp. <cite ref=\"A02381\"><he>אִסְטַלִּית</he></cite>.—[<cite ref=\"Jerusalem Talmud Shekalim 3:3:3\">Y. Shek. III, 47ᶜ</cite> bot. <he>אסטלי של זהב</he>, read <he>אִיסְטְרֵי</he>; v. <cite ref=\"A01521\"><he>אִיסְתִּירָא</he></cite>.] [Although our w. coincides, in meaning and sound, with στολή in its poëtic and older sense as ‘an outfit’, yet the form of its Hebrew equivalent (<cite ref=\"A02381\"><he>אסטלית</he></cite>) and the laws regulating the borrowing of words, as well as its appearance in so remote a dialect as the Mandaic (as <he>עצטלא</he>) forbid the derivation from the Greek.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "M00603",
+	"slug": "מור-2",
+	"headword": {
+		"text": "מוּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 748,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A02025\"><he>אָמֵיר</he></cite> (<i>Pa.</i> <cite ref=\"J00423\"><he>יַמֵּר</he></cite>) same. ",
+					"units": [
+						"<cite ref=\"Temurah 2b:31\">Tem. 2ᵇ</cite> <he>אֲמוּרֵי נמי מֵמִיר</he> he has also the power to exchange (v. <cite ref=\"M00602\">preced.</cite>). ",
+						"<cite ref=\"Temurah 10b:30\">Ib. 10ᵇ</cite> <he>אֵימוּרֵי הוא דלא מְיַמֵּר וכ׳</he> (Rashi <cite ref=\"A02007\"><he>אמורי</he></cite>) he has no power to exchange, but to dedicate he has. [<cite ref=\"Bava Metzia 77a:6\">B. Mets. 77ᵃ</cite> <he>אימר</he>. <cite ref=\"A01349\"><he>אימרו</he></cite>, v. <cite ref=\"M02651\"><he>מְרִי</he></cite>.—[V. <cite ref=\"A02008\"><he>אֲמוּרְיָא</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "U01514",
+	"slug": "שמע-4",
+	"headword": {
+		"text": "שֵׁמַע"
+	},
+	"page": {
+		"number": 1599,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01511\"><he>שָׁמַע</he></cite>)<i>report, fame</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite>, end <he>היו … שומעים שִׁמְעֲכֶם וכ׳</he> the nations heard of your fame and were afraid; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"M02924\"><he>מִשְׁמָע</he></cite> <i>understanding, meaning</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 142:3\">Sifré Num. 142</cite> (ref. to <cite ref=\"Numbers 28:3\">Num. XXVIII, 3</cite>) <he>כשִׁמְעוֹ וכ׳</he> (trad. pronunc. <he>כִּשְׁמָעוֹ</he>) according to its literal meaning, two each day."
+			],
+			"label": "2"
+		}
+	]
+}

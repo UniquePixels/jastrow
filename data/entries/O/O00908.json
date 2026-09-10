@@ -1,0 +1,34 @@
+{
+	"id": "O00908",
+	"slug": "סככה",
+	"headword": {
+		"text": "סְכָכָה"
+	},
+	"page": {
+		"number": 990,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00907\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>covering the Succah</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 6b:12\">Succ. 6ᵇ</cite> <he>ס׳ בעיא קרא</he> that the Succah must be covered does require a special intimation, v. <cite ref=\"O00907\">preced.</cite>; <cite ref=\"Zevachim 38a:1\">Zeb. 38ᵃ</cite> <he>וחד לס׳</he> (Rashi: <he>לסְכָךְ</he>) and one ‘succoth’ in the text is needed for intimating that the Succah must be covered."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>סְכָכוֹת</he> (v. <cite ref=\"O00906\"><he>סְכָךְ</he></cite>) the case of <i>overhanging boughs</i> in one of which there is a seat of uncleanness. Ohol. VIII, 2, expl. <he>אילן המיסך וכ׳</he>, v. <cite ref=\"O00903\"><he>סָכַךְ</he></cite>; Tosef. ib. IX, 3; <cite ref=\"Mishnah Nazir 7:3\">Naz. VII, 3</cite>; <cite ref=\"Nazir 54b\">ib. 54ᵇ</cite>, a. e. ",
+			"units": [
+				"<cite ref=\"Niddah 68b:48\">Nidd. 68ᵇ</cite> <he>נזיר שהילך</he> (<he>ע״ג</he>) <he>ס׳ וכ׳</he> a Nazarite that passed over unclean boughs or protruding stones; <cite ref=\"Tosefta Niddah 9:13\">Tosef. ib. IX, 13</cite>, <he>יושב ע״ג סכך</he> (v. <cite ref=\"O00906\"><he>סְכָךְ</he></cite>); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

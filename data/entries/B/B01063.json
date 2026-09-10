@@ -1,0 +1,62 @@
+{
+	"id": "B01063",
+	"slug": "בער-2",
+	"headword": {
+		"text": "בְּעַר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּעֵיר"
+		}
+	],
+	"page": {
+		"number": 182,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01062\">same</cite>.<i>to burn</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 3:2\">Targ. O. Ex. III, 2</cite> <cite ref=\"B01062\"><he>בָּעַר</he></cite> ed. Berl. (oth. ed. <cite ref=\"B01063\"><he>בָּעֵר</he></cite>, Part). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 62:1\">Targ. Is. LXII, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 18:9\">Targ. Ps. XVIII, 9</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to remove; to dispose of</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 5b:15\">Pes. 5ᵇ</cite> <he>בְּעִירוּ חמירא וכ׳</he> dispose ye of the leavened bread of the (gentile) soldiers (deposited with you)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to enkindle, ignite</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 35:3\">Targ. Ex. XXXV, 3</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 6:5\">Targ. O. Lev. VI, 5</cite> (Mss. a. some ed. <he>יַבְעֵר</he> Af.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַבְעֵר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B01062\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 6:5\">Targ. O. Lev. VI, 5</cite> (v. supra). *<cite ref=\"Targum Jonathan on Genesis 15:17\">Targ. Y. I Gen. XV, 17</cite> <he>מַבְעִיר שביבין</he>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

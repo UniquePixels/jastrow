@@ -1,0 +1,23 @@
+{
+	"id": "H00074",
+	"slug": "חביץ-2",
+	"headword": {
+		"text": "חָבִיץ"
+	},
+	"page": {
+		"number": 419,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00102\"><he>חבץ</he></cite>) <i>a dish of flour, honey and oil beaten into a pulp;</i> <he>חֲ׳ קדרה</he> a <i>ḥabits</i> boiled in a pot. ",
+			"units": [
+				"<cite ref=\"Berakhot 36b:18\">Ber. 36ᵇ</cite>, v. <cite ref=\"A00218\"><he>אַבְרוֹשַׁךְ</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 48:12\">Gen. R. s. 48</cite>."
+			]
+		}
+	]
+}

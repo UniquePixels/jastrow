@@ -1,0 +1,142 @@
+{
+	"id": "K00082",
+	"slug": "כבש-2",
+	"headword": {
+		"text": "כְּבַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּבֵישׁ"
+		}
+	],
+	"page": {
+		"number": 610,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00081\">same</cite><i>to press, grade, make a path</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 19:12\">Targ. Job XIX, 12</cite> (h. text <cite ref=\"O01003\"><he>סלל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 40:3\">Targ. Is. XL, 3</cite>; a. e.— Part. pass. <cite ref=\"K00055\"><he>כָּבִישׁ</he></cite>, f. <cite ref=\"K00055\"><he>כְּבִישָׁא</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 20:19\">Targ. O. Num. XX, 19</cite> (not <he>כְּבָשָׁא</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 11:16\">Targ. Is. XI, 16</cite>; a. e.—Pl. <he>כְּבִישִׁין</he> <i>dams</i>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 19:10\">Ib. XIX, 10</cite>.—",
+				"<cite ref=\"Eruvin 34b:8\">Erub. 34ᵇ</cite> <he>כְּבוּשׁוּ כבשי וכ׳</he> make a dam (or embankment) in the reed-marshes."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to press on, to put on</i> (<i>the head</i>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 8:13\">Targ. Y. Lev. VIII, 13</cite> (h. text <he>חבש</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to bind, fillet; to inlay</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 38:28\">Targ. Y. Ex. XXXVIII, 28</cite> (h. text <he>חשק</he>; O. <i>Pa.</i>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 54:11\">Targ. Is. LIV, 11</cite>.—Part. pass. as ab.; pl. f. <cite ref=\"K00057\"><he>כְּבִישָׁן</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (with <he>על</he>) <i>to tread upon, to stamp out</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 7:19\">Targ. Mic. VII, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:5\">Targ. Esth. I, 5</cite>."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " (interch. with <i>Pa.</i>) <i>to suppress, oppress; to conquer, force; to violate</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 8:21\">Targ. Josh. VIII, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 4:6\">Targ. Ps. IV, 6</cite>. Targ. II Esth. VII, 8; a. fr.—Part. pass. as ab. ",
+				"<cite ref=\"Targum Jonathan on Hosea 5:11\">Targ. Hos. V, 11</cite>.—",
+				"<cite ref=\"Zevachim 73b:1\">Zeb. 73ᵇ</cite>, <he>נִיכְבְּשִׁינְהוּ</he>, v. <cite ref=\"N00307\"><he>נוּד</he></cite> ch. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:3:4\">Y. Sabb. IV, end, 7ᵃ</cite> <he>דילמא לא כ׳ צינתה</he> will it (the band around the head) not overcome (counter-act the effect of) the cold?"
+			],
+			"label": "5"
+		},
+		{
+			"gloss": "<i>to withhold, detain</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 29:22\">Targ. Y. II, Gen. XXIX, 22</cite>.—",
+				"<cite ref=\"Niddah 39b\">Nidd. 39ᵇ</cite> a hen that laid one day <he>וכַבְשָׁה יומא וכ׳</he> and held back (failed to lay) one day &c."
+			],
+			"label": "6"
+		},
+		{
+			"gloss": "<i>to hide</i> (the face); <i>to close</i> (the eyes). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 3:6\">Targ. Ex. III, 6</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 20:4\">Targ. Lev. XX, 4</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Deuteronomy 22:1\">Targ. O. Deut. XXII, 1</cite> ed. Berl. (ed. <i>Ithpe.</i>); ib. 4 (sub. <he>עינין</he>).—",
+				"<cite ref=\"Bava Batra 40b:3\">B. Bath. 40ᵇ</cite> <he>כְּבִישְׁנָא לשטר וכ׳</he> I shall hide the deed of mortgage."
+			],
+			"label": "7"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּבֵּישׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00081\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 16:32\">Targ. Prov. XVI, 32</cite> <he>מְכַבֵּישׁ</he> Ms. (ed. <cite ref=\"M01346\"><he>מַכְבֵּישׁ</he></cite> <i>Af.</i>) who conquers. ",
+						"<cite ref=\"Targum Jonathan on Joshua 8:19\">Targ. Josh. VIII, 19</cite>.—",
+						"<cite ref=\"Onkelos Exodus 38:28\">Targ. O. Ex. XXXVIII, 28</cite> (v. supra). ",
+						"<cite ref=\"Aramaic Targum to Lamentations 3:34\">Targ. Lam. III, 34</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 95a:4\">Snh. 95ᵃ</cite> <he>דכַבְּשִׁית בתקוף ידי</he> which I conquered with the strength of my hand; [<cite ref=\"Sanhedrin 95a:4\">ib.</cite> <he>כבשית כל מדינתי</he>, read <he>כנשית</he>;] <cite ref=\"Yalkut Shimoni on Nach 284\">Yalk. Is. 284</cite>.—Part. pass. <cite ref=\"M01350\"><he>מְכַבַּשׁ</he></cite>, f. <he>מְכַבְּשָׁא</he>; pl. <he>מְכַבְּשִׁין</he>; <he>מְכַכְּשָׁן</he>. ",
+						"<cite ref=\"Onkelos Exodus 38:17\">Targ. Ex. XXXVIII, 17</cite> (h. text <he>מחשקים</he>). ",
+						"<cite ref=\"Onkelos Exodus 27:17\">Ib. XXVII, 17</cite> (not <he>מְכֻבָּשִׁין</he>, v. O. ed. Berl.). ",
+						"<cite ref=\"Targum Jonathan on Amos 6:4\">Targ. Am. VI, 4</cite>.—",
+						"<cite ref=\"Targum Jonathan on Jeremiah 18:15\">Targ. Jer. XVIII, 15</cite> (h. text <cite ref=\"O00965\"><he>סלולה</he></cite>); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַכְבֵּישׁ"],
+			"senses": [
+				{
+					"gloss": ", v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְכְּבֵישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be conquered; to be subdued, oppressed</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 32:22\">Targ. Num. XXXII, 22</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 16:9\">Targ. Y. Gen. XVI, 9</cite> (some ed. <he>אתכנעי</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (of the face) <i>to be sunk</i> (in fear, shame), <i>to grieve</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 4:5\">Targ. Gen. IV, 5</cite>; <cite ref=\"Onkelos Genesis 4:6\">6</cite> (h. text <he>נפל</he>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to withdraw one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 22:1\">Targ. O. Deut. XXII, 1</cite>, v. supra."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

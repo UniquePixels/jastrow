@@ -1,0 +1,23 @@
+{
+	"id": "R00782",
+	"slug": "צריפה-1",
+	"headword": {
+		"text": "צְרִיפָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1302,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00797\"><he>צָרַף</he></cite>) <i>smelting</i>; trnsf. <i>purification through trials, chastisement</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 119:24\">Midr. Till. to Ps. CXIX, 81</cite> <he>יש צ׳ וכ׳</he> is there a greater trial than this?"
+			]
+		}
+	]
+}

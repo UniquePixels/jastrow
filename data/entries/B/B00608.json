@@ -1,0 +1,23 @@
+{
+	"id": "B00608",
+	"slug": "בייתות",
+	"headword": {
+		"text": "בַּיָיתוֹת"
+	},
+	"page": {
+		"number": 161,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (denom. of <cite ref=\"B00753\"><he>בַּיִת</he></cite>) <i>animals lodged</i> (at certain seasons) <i>in sheds within town-limits</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 5:7\">Bets. V, 7</cite> (<cite ref=\"Beitzah 40a:16\">40ᵃ</cite>, Ms. M. <he>ביאתות</he>); <cite ref=\"Shabbat 45b:2\">Sabb. 45ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

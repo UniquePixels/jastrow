@@ -1,0 +1,22 @@
+{
+	"id": "C01100",
+	"slug": "גנובא-2",
+	"headword": {
+		"text": "גְּנוּבָא"
+	},
+	"page": {
+		"number": 257,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גנב</he>) <i>stolen, secret</i>. Pl. <he>גְּנוּבַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 9:17\">Targ. Prov. IX, 17</cite> (Ms. <he>גְּנִיבֵי</he>)."
+			]
+		}
+	]
+}

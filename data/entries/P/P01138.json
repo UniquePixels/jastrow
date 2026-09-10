@@ -1,0 +1,23 @@
+{
+	"id": "P01138",
+	"slug": "עצרתא-2",
+	"headword": {
+		"text": "עֲצַרְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1104,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01131\"><he>עֲצַר</he></cite>) <i>vat</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:10\">Targ. Esth. I, 10</cite>."
+			]
+		}
+	]
+}

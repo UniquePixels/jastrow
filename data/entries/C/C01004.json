@@ -1,0 +1,33 @@
+{
+	"id": "C01004",
+	"slug": "גמדא-2",
+	"headword": {
+		"text": "גַּמְדָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 252,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>Gamda;</i>",
+			"units": []
+		},
+		{
+			"gloss": " pr. n. m. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 72a:7\">B. Kam. 72ᵃ</cite> Rab. G.—",
+				"<cite ref=\"Pesachim 64a:10\">Pes. 64ᵃ</cite>; <cite ref=\"Pesachim 73b:14\">73ᵇ</cite>; <cite ref=\"Chullin 30a:6\">Ḥull. 30ᵃ</cite> R. Ḥiya bar G."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " G., name of a river or canal in Babylonia. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 39a:6\">Ab. Zar. 39ᵃ</cite>; <cite ref=\"Sukkah 18a:15\">Succ. 18ᵃ</cite> <he>נהר ג׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

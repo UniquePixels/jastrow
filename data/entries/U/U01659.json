@@ -1,0 +1,48 @@
+{
+	"id": "U01659",
+	"slug": "שעיר-1",
+	"headword": {
+		"text": "שָׂעִיר"
+	},
+	"page": {
+		"number": 1610,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01682\"><he>שָׂעַר</he></cite>)<i>goat</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 6:2\">Yoma VI, 2</cite> <he>ש׳ המשתלח</he>, v. <cite ref=\"U01265\"><he>שָׁלַח</he></cite>. ",
+				"<cite ref=\"Mishnah Yoma 6:7\">Ib. 7</cite> <he>פר וש׳ הנשרפין</he> the bullock and the goat designated to be burnt. ",
+				"<cite ref=\"Mishnah Zevachim 5:1\">Zeb. V, 1</cite>; a. fr.—Pl. <he>שְׂעִירִים</he>, <he>שְׂעִירִין</he>. ",
+				"<cite ref=\"Mishnah Zevachim 5:2\">Ib. 2</cite>. ",
+				"<cite ref=\"Mishnah Yoma 6:1\">Yoma VI, 1</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>demon</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 25a:8\">B. Bath. 25ᵃ</cite>, v. <cite ref=\"O01295\"><he>סָעַר</he> II</cite>. ",
+				"<cite ref=\"Berakhot 64a:15\">Ber. 64ᵃ</cite> <he>ש׳ בש׳ מיחלף</he> goat and demon may interchange (both going by the name of <i>saʿir</i>).— Pl. as ab. ",
+				"<cite ref=\"Vayikra Rabbah 22:8\">Lev. R. s. 22</cite>, v. <cite ref=\"U00251\"><he>שֵׁד</he></cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>shower</i>. Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 306:32\">Sifré Deut. 306</cite> (ref. to <cite ref=\"Deuteronomy 32:2\">Deut. XXXII, 2</cite>) <he>מה ש׳ הללו וכ׳</he> as the showers come down on the plants &c.; Yalk. ib. 942, v. <cite ref=\"O01295\"><he>סָעַר</he> II</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>hairy</i>. ",
+			"units": ["<cite ref=\"Bereishit Rabbah 65:13\">Gen. R. s. 65</cite>."],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "P00629",
+	"slug": "עיסה",
+	"headword": {
+		"text": "עִיסָה"
+	},
+	"page": {
+		"number": 1072,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01049\"><he>עסס</he></cite>) <i>started dough</i> (contrad. to <cite ref=\"B01104\"><he>בצק</he></cite> risen dough), <i>quantity of flour used for one person’s meal</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 83b:1\">Erub. 83ᵇ</cite> <he>כמה עִיסַת המדבר</he> how much is the <i>ʿisah</i> of the desert? <cite ref=\"Mishnah Makhshirin 2:8\">Makhsh. II, 8</cite> <he>פת ע׳</he> bread made of started dough (of pure flour), opp. <he>פת קיבר</he>. ",
+				"<cite ref=\"Tosefta Challah 1:4\">Tosef. Ḥall. I, 4</cite> <he>העושה ע׳ לאוכלה בבצק</he> if one starts dough with the intention to eat it as dough when it is risen. Y. ib. II, end, 58ᵈ <he>דרך ע׳</he> the way dough is made (of pure flour). Ib. <he>עִיסָתוֹ מרובה</he> his (the baker’s) dough is a large quantity. Ib. <he>עינה יפה בעִיסָתָהּ</he>, v. <cite ref=\"P00601\"><he>עַיִן</he></cite>; a. v. fr.—Pl. <cite ref=\"P01039\"><he>עִיסוֹת</he></cite>. Erub. l. c. (ref. to <cite ref=\"Numbers 15:20\">Num. XV, 20</cite>) <he>כדי עִיסוֹתֵיכֶם</he> a quantity large enough for your dough (for immediate use); <he>וכמה עיסותיכם וכ׳</he> and how large is that quantity? As much as the <i>ʿisa</i> of the desert. ",
+				"<cite ref=\"Avodah Zarah 68a:11\">Ab. Zar. 68ᵃ</cite>. ",
+				"<cite ref=\"Sotah 30a:14\">Sot. 30ᵃ</cite>; a. fr.—Trnsf. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>the human body, sensuality</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 13\">Lev. R. s. 13</cite>, v. <cite ref=\"N01336\"><he>נָשַׁף</he></cite>. ",
+						"<cite ref=\"Berakhot 17a:2\">Ber. 17ᵃ</cite> <he>גלוי … ומי מעכב שאור שבע׳</he> it is revealed and known to thee, that it is our will to do thy will, and what prevents it? The leaven in the dough (the fermenting passion). ",
+						"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite> (ref. to <cite ref=\"Genesis 8:21\">Gen. VIII, 21</cite>) <he>עלובה היא הע׳ שנחתומה וכ׳</he> it is poor dough which the baker (that sells it) declares to be bad; a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>a mixed family, a family suspected of containing an alien admixture, ʿisah</i>, (opp. <he>סולת נקיה</he>, v. <cite ref=\"O01044\"><he>סֹלֶת</he></cite>). ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Ketubot 1:9:3\">Y. Keth. I, 25ᵈ</cite> top; <cite ref=\"Tosefta Kiddushin 5:2\">Tosef. Kidd. V, 2</cite> <he>איזוהי ע׳</he> (<he>כשירה</he>) <he>כל וכ׳</he> what <i>ʿisah</i> is it the issue of which is admitted to priesthood? In which there is no suspicion of an admixture of <i>n’thinim</i> &c.; <cite ref=\"Ketubot 14a:10\">Keth. 14ᵃ</cite> <he>איזוהי אלמנת ע׳</he> (strike out <he>אלמנת</he>, v. Tosaf. a. l.). Tosef. l. c. <he>מפני מה אמרו ע׳ פסולה וכ׳</he> why, then, has it been declared that a woman of an <i>ʿisah</i> family is prohibited from marrying into priesthood? Because suspected <i>ḥălalim</i> (v. <cite ref=\"H01077\"><he>חָלָל</he> II</cite>) are mixed up with it. ",
+						"<cite ref=\"Mishnah Eduyot 8:3\">Eduy. VIII, 3</cite>, a. fr. <he>אלמנת ע׳</he> the widow of one belonging to an <i>ʿisah</i> family. ",
+						"<cite ref=\"Mishnah Eduyot 8:3\">Ib.</cite> <he>ע׳ כשירה לטמא וכ׳</he> a member of an <i>ʿisah</i> family may serve (through intermarriage) to make clean as well as to make unclean, v. <cite ref=\"M02388\"><he>מִקְוֶה</he></cite>; a. fr.—",
+						"<cite ref=\"Yalkut Shimoni on Torah 808:2\">Yalk. Deut. 808</cite> <he>עמדו … וערבו את הע׳</he> (not <he>וערכו</he>) the daughters of Lot arose and mixed the dough (had incestuous intercourse)."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

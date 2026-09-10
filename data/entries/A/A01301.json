@@ -1,0 +1,28 @@
+{
+	"id": "A01301",
+	"slug": "אילך",
+	"headword": {
+		"text": "אֵילֵךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילַךְ"
+		}
+	],
+	"page": {
+		"number": 49,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(ch.  a. <i>hither, thither</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 22:4\">Targ. Y. Num. XXII, 4</cite>.—(<he>מכן</he>) <he>מכאן וא׳</he> from now and further on, i.e. <i>after that</i>. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:14\">Targ. Esth. II, 14</cite>. ",
+				"<cite ref=\"Mishnah Berakhot 1:2\">Ber. I, 2</cite>; a. fr.—",
+				"<cite ref=\"Menachot 28b:14\">Men. 28ᵇ</cite> <he>אחד א׳ ואחד א׳</he> one in this, another in that direction. ",
+				"<cite ref=\"Eruvin 55b:10\">Erub. 55ᵇ</cite>. [Diff. from. <cite ref=\"A01889\"><he>אִלֵּךְ</he></cite>.] V. <cite ref=\"E00401\"><he>הֵילֵךְ</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"id": "L00647",
+	"slug": "לפף-2",
+	"headword": {
+		"text": "לְפַף"
+	},
+	"page": {
+		"number": 715,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to swathe, bandage, wrap</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 15:2\">Targ. Y. Ex. XV, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:22\">Targ. Lam. II, 22</cite> <he>לפיפית</he> (some ed. <he>לפפית</he>).—",
+				"<cite ref=\"Shabbat 66b\">Sabb. 66ᵇ</cite>; <cite ref=\"Shabbat 147b:16\">147ᵇ</cite> <he>לַפּוּפֵי ינוקא</he> to swathe a new-born child.—Part. pass. (<he>מְלַפַף</he>) <he>מְלַפַּף</he>. ",
+				"<cite ref=\"Targum of II Chronicles 34:15\">Targ. II Chr. XXXIV, 15</cite> (of a scroll, v. <cite ref=\"L00646\">preced.</cite>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:20\">Targ. Lam. II, 20</cite> (Ar. <he>מִתְלַ׳</he> <i>Ithpa.</i>).—Trnsf. <i>to handle in the way a child is swathed, to turn clay, mould, shape</i> (cmp. <cite ref=\"P01091\"><he>עָצַב</he></cite>). ",
+				"<cite ref=\"Bava Metzia 74a:12\">B. Mets. 74ᵃ</cite> <he>והא מחוסר לַפּוּפֵי ויבושי וכ׳</he> does it not require moulding, drying, putting into the stove &c. ",
+				"<cite ref=\"Bava Metzia 74a\">Ib.</cite> <he>כגון דמְלַפְּפַן ומיבשן</he> Ms. M. (ed. <he>דמלפפה ויבישו</he>, corr. acc.) when they have been moulded and dried."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to join, couple, loop</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 36:10\">Targ. Ex. XXXVI, 10</cite>. ",
+				"<cite ref=\"Onkelos Exodus 36:18\">Ib. 18</cite> <he>ללָפָפָא</he> (Var. <he>ללַפְפָא</he>, <he>ללַפָּפָא</he>); a. fr.—Part. pass. <he>מְלָפַף</he>, <he>מְלַפַּף</he>. ",
+				"<cite ref=\"Onkelos Exodus 26:3\">Ib. XXVI, 3</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"L00639\"><he>לַפֵּיף</he></cite> (interch. with <cite ref=\"L00639\"><he>לָפֵיף</he></cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְלַפַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be swathed</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

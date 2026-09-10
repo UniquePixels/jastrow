@@ -1,0 +1,67 @@
+{
+	"id": "H01440",
+	"slug": "חפי-2",
+	"headword": {
+		"text": "חפי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָפָה"
+		}
+	],
+	"page": {
+		"number": 491,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01464\"><he>חפף</he> I</cite>)<i>to cover, spread over</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:7\">Ḥull. III, 7</cite> <he>וכנפיו חוֹפִין וכ׳</he> and whose wings cover the largest portion of its body. ",
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (<cite ref=\"Sotah 49a:17\">49ᵃ</cite>) <he>וחָפוּ ראשם</he> and covered their heads (in shame).—Part. pass. <he>חָפוּי</he>. ",
+				"<cite ref=\"Esther Rabbah 10:6\">Esth. R. to VI, 12</cite> <he>וחֲפוּי ראש וכ׳</he> and his head covered (in shame) over what had happened to him; <cite ref=\"Megillah 16a\">Meg. 16ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bend, curve</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 47a:19\">Yoma 47ᵃ</cite> <he>חוֹפֶה שלש וכ׳</he> he bends three of his fingers (grasping with them) up to &c.; cmp. <cite ref=\"H01458\"><he>חָפַן</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיפָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to cover, strew over</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Kilaim 1:15\">Tosef. Kil. I, 15</cite> <he>המְחַפֶּה</he> who covers up (mixed seeds with earth); <cite ref=\"Moed Katan 2b\">M. Kat. 2ᵇ</cite>; <cite ref=\"Makkot 21b\">Macc. 21ᵇ</cite>. ",
+						"<cite ref=\"Makkot 21b:4\">Ib.</cite> <he>החופה</he> ed. (Ms. M. <he>המח׳</he>). Y. Kil. VII, 31ᵇ <he>לא במחפה</he> is it not because in plowing over he covers the seeds up? <cite ref=\"Mishnah Sheviit 4:5\">Shebi. IV, 5</cite> <he>לא יְהַפֵּהוּ בעפר</he> he must not cover it (the cut) with loose ground, opp. to (<cite ref=\"K00915\"><he>כסה</he></cite>) covering with stones. Y. Taan. II, beg. 65ᵃ <he>אבותינו חִיפּוּ … חִיפִּינוּ וכ׳</he> our ancestors covered it (the reader’s desk) with gold, and we with dust. ",
+						"<cite ref=\"Niddah 16a\">Nidd. 16ᵃ</cite> <he>ותְחַפֶּנָּהּ וכ׳</he> and semen virile may have covered it up; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cover over, to protect from justice, to be partial</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 39a:19\">Shebu. 39ᵃ</cite> <he>מפני שמְחַפִּין עליו</he> because they (the publican’s or robber’s relations) protect him. ",
+						"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30</cite> <he>היו מְחַפִּין אותו</he> tried to protect him; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"C00039\"><he>גָּבַב</he></cite>) [<i>to heap up words</i>,] <i>to invent fictions</i> (v. ",
+					"units": [
+						"<cite ref=\"II Kings 17:9\">II Kings XVII, 9</cite>). ",
+						"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> (play on <he>הפים</he>, <cite ref=\"Bereishit Rabbah 46:21\">ib. XLVI, 21</cite>) <he>שחִיפּוּ עליו דברים וכ׳</he> about whom they invented a fiction (<cite ref=\"Genesis 37:3\">Gen. XXXVII, 3</cite>)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,131 @@
+{
+	"id": "H01098",
+	"slug": "חלף-1",
+	"headword": {
+		"text": "חָלַף"
+	},
+	"page": {
+		"number": 471,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>חלב</he>, <cite ref=\"H01081\"><he>חלם</he></cite>) [<i>to be smooth, glistening, sharp-edged</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut</i>. Denom. <cite ref=\"H01055\"><he>חַלִּיף</he></cite>, <cite ref=\"H00780\"><he>חֵילֶף</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp <cite ref=\"C00338\"><he>גּוּז</he></cite>) <i>to pass by, be gone</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:4\">Num. R. s. 10</cite> (ref. to <cite ref=\"H01001\"><he>חלוף</he></cite>, <cite ref=\"Proverbs 31:8\">Prov. XXXI, 8</cite>) <he>שח׳ והלך וכ׳</he> of him who passed away and went &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to change, exchange</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:5\">Y. Ber. II, 5ᶜ</cite> top <he>נַחֲלוֹף את וכ׳</he> let us change our meeting-place. ",
+				"<cite ref=\"Mishnah Demai 3:5\">Dem. III, 5</cite> <he>חשודה לַחֲלוֹף</he> (Y. ed. <he>לחַלֵּף</he>, <i>Pi.</i>) suspected of exchanging (the provision in her trust). Ib. 6 <he>לח׳ את המתקלקל</he> to replace what has been spoiled; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִלֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01097\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 148:9\">Yalk. Gen. 148</cite> <he>מי מְחַלְּפוֹ</he> who will replace him? (v. <cite ref=\"H01058\"><he>חֲלִיפִין</he></cite>). ",
+						"<cite ref=\"Mishnah Demai 3:5\">Dem. III, 5</cite>, v. supra; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["הֶחֱלִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to exchange, barter</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 8:4\">B. Mets. VIII, 4</cite> <he>המַחֲלִיף פרה ב־</he> if one exchanges a cow for an ass.—Dem. l. c. <he>חשודה להַחֲלִיף</he>, v. supra; <cite ref=\"Chullin 6b:1\">Ḥull. 6ᵇ</cite> <he>חשודה מַחֲלֶפֶת</he>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to drive young shoots, to grow again</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 100b\">Erub. 100ᵇ</cite>; a. e., v. <cite ref=\"C00571\"><he>גֶּזַע</he></cite>. ",
+						"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>מַחֲלִיף וכ׳</he>, v. <cite ref=\"C00537\"><he>גָּזַז</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to change; to reverse</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 9a:8\">Erub. 9ᵃ</cite> <he>ובלבד שלא יַחֲלִיפוּ</he> provided they do not change carriers. ",
+						"<cite ref=\"Shabbat 8b\">Sabb. 8ᵇ</cite>; a. fr.—",
+						"<cite ref=\"Eruvin 99a:14\">Erub. 99ᵃ</cite> <he>לעולם לא תַחֲלִיף</he> it is not necessary to reverse (the authorities; <cite ref=\"Beitzah 3b\">Bets. 3ᵇ</cite>, a. e. <he>תיפוך</he>, v. <cite ref=\"A02728\"><he>אֲפַךְ</he></cite>).—Part. pass. <he>מוּחֲלָף</he>, f. <he>מוּחֲלֶפֶת</he>. ",
+						"<cite ref=\"Beitzah 3b\">Ib.</cite> <he>מ׳ השיטה</he> the statement must be reversed (the authorities for the two opinions must be exchanged); <cite ref=\"Beitzah 3a\">Bets. 3ᵃ</cite>"
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to be ambiguous, to equivocate</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 92a\">Snh. 92ᵃ</cite>; a. e. <he>כל המחליף וכ׳</he> he who equivocates in his speech, is like an idolater."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נֶחֱלַף"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְחַלֵּף"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"H01073\"><he>נִתְחַלֵּף</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be exchanged, mixed up</i>. Y. Pes. VI, 33ᶜ bot. <he>דבר שאין דרכו</he> (<he>לֵחָלֵף</he>) <he>לִיתְחַלֵּף</he> a thing which is not likely to be exchanged (by mistake); <cite ref=\"Yoma 2a\">ib.</cite> <he>להִתְחַלֵּיף</he>; ib.ᵈ top. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 17b:8\">Ab. Zar. 17ᵇ</cite> <he>מעות … נִתְחַלְּפוּ לי וכ׳</he> money set aside for Purim was mixed up with money &c. ",
+						"<cite ref=\"Niddah 52a:61\">Nidd. 52ᵃ</cite> <he>ונִתְחַלְּפָה לך וכ׳</he> and thou madest a mistake between <i>Iyob</i> and <i>oyeb;</i> <cite ref=\"Bava Batra 16a:17\">B. Bath. 16ᵃ</cite> <he>ונתחלף</he>. ",
+						"<cite ref=\"Bava Batra 16a\">Ib.</cite> <he>לא נ׳ לי</he> I make no mistake; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to change</i> (<i>in appearance</i>). ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 29:1\">Pesik. R. s. 29</cite> (—30—30) <he>נִתְחַלַּפְתֶּם מן הרעב</he> you have changed (beyond recognition) through starvation; <he>יש לכם להִתְחַלֵּף וכ׳</he> you will change through plenty. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 133:4\">Yalk. Gen. 133</cite> <he>מאיזה שם אני מִתְחַלֵּף</he> (prob. <he>לאיזה</he>) what name I may be ordered to assume in turn."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be succeeded, relieved, transferred</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>, end <he>נתח׳ המלך</he> the king has been succeeded (displaced; <cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>, beg. <he>מת וכ׳</he>). ",
+						"<cite ref=\"Yalkut Shimoni on Torah 813:1\">Yalk. Deut. 813</cite> <he>כיון שנ׳ וכ׳</he> when the governor was recalled and another &c. ",
+						"<cite ref=\"Bamidbar Rabbah 5\">Num. R. s. 5</cite>, beg. <he>להִתְחַלֵּף מעבודה וכ׳</he> to be transferred from one service to another. Y. Taan. II, beg. 65ᵃ <he>היו מִתְחַלְּפִין עליה</he> took turns in guarding it."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "L00112",
+	"slug": "לבס",
+	"headword": {
+		"text": "לֶבֶס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 691,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (λέβης; cmp., however, <cite ref=\"L00643\"><he>לֶפֶס</he></cite>) <i>caldron</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 14:1\">Kel. XIV, 1</cite> (Var. <cite ref=\"L00643\"><he>לפס</he></cite>); <cite ref=\"Tosefta Keilim Metsia 4:1\">Tosef. Kel. B. Mets. IV, 1</cite> <he>הל׳ כדי וכ׳</he> the caldron (if defective) must be capable of serving as a receptacle for cups (in order to be fit for uncleanness).—Pl. <cite ref=\"L00077\"><he>לְבִיסִין</he></cite>. ",
+				"<cite ref=\"Sifrei Bamidbar 158\">Sifré Num. 158</cite> <cite ref=\"L00543\"><he>לכוסין</he></cite> (corr. acc.; Pesik. Zutr. Matt., p. 279 ed. Bub. <cite ref=\"L00631\"><he>לפוסין</he></cite>); v. <cite ref=\"L00076\"><he>לְבִיסַיָּא</he></cite>."
+			]
+		}
+	]
+}

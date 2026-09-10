@@ -1,0 +1,24 @@
+{
+	"id": "B00342",
+	"slug": "בורגני",
+	"headword": {
+		"text": "בּוּרְגָּנִי"
+	},
+	"page": {
+		"number": 149,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"B00338\"><he>בורגין</he></cite>) <i>keeper</i> or <i>resident of a station house</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 10:2\">Midr. Till. to Ps. X, 1</cite> when it grew dark, <he>בא לו הבורגן</he> (read … <he>ני</he>) the <i>burgani</i> came to him. ",
+				"<cite ref=\"Midrash Tehillim 10:2\">Ib.</cite> <he>חזר … אצל הב׳</he> he turned back and came to the <i>burgani</i>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:1:9\">Y. Ab. Zar. IV, 43ᵈ</cite> <he>אתא גביה בורגנה</he> ed. Krot. (oth. ed. <cite ref=\"B00343\"><he>בורגנרה</he></cite>, read <cite ref=\"B00342\"><he>בורגני</he></cite> or <he>בורגרי</he>) a station guardsman (burgarius) came to him."
+			]
+		}
+	]
+}

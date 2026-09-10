@@ -1,0 +1,101 @@
+{
+	"id": "K00469",
+	"slug": "כחש-1",
+	"headword": {
+		"text": "כָּחַשׁ"
+	},
+	"page": {
+		"number": 629,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>כחד</he>; cmp. <cite ref=\"H01366\"><he>חֲסִי</he></cite>, <cite ref=\"H01367\"><he>חַסְיָא</he></cite> &c.)<i>to fail, be reduced, be lean</i>, opp. <he>בריא</he>, <cite ref=\"U01496\"><he>שמן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 34a:11\">B. Kam. 34ᵃ</cite> <he>כ׳ כשעת וכ׳</he> if the injured ox became reduced after being wounded, damage is assessed according to the value at the time of standing before court; Y. ib. III, end, 3ᵈ <cite ref=\"K00469\"><he>הִכְחִישׁ</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 53:3\">Gen. R. s. 53</cite> (ref. to <cite ref=\"Habakkuk 3:17\">Hab. III, 17</cite>) <he>כּוֹחֲשִׁים היו</he> (Sarah’s face) was haggard (and the announcement of the angels made it shine like olive oil); Yalk. Hab. 565 <he>כְּחוּשִׁים</he>; [oth. interpret., v. infra].—<i>Part. pass.</i> <cite ref=\"K00458\"><he>כָּחוּשׁ</he></cite>, f. <he>כְּחוּשָׁה</he>; pl. <he>כְּחוּשִׁים</he>, <he>כְּחוּשׁוֹת</he> <i>lean, reduced, weak</i>. ",
+				"<cite ref=\"Sanhedrin 78a:1\">Snh. 78ᵃ</cite> <he>כח כ׳</he> a weak force. ",
+				"<cite ref=\"Chullin 97a\">Ḥull. 97ᵃ</cite> (in Chald. diction). ",
+				"<cite ref=\"Bava Kamma 6b:14\">B. Kam. 6ᵇ</cite> <he>אכל כ׳</he> if he ate fruits of a garden-bed with scanty fruits; <cite ref=\"Gittin 48b\">Gitt. 48ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00439\"><he>כָּזַב</he></cite>) <i>to be false</i>. Gen. R. l. c. <he>כּוֹחֲשִׁים היו</he> were they (the angels) false (deceiving)?—",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְחִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be reduced, fail, deteriorate</i>. Y. B. Kam. l. c., v. supra.—",
+					"units": [
+						"<cite ref=\"Meilah 17a:32-42\">Meïl. 17ᵃ</cite> <he>מי שיש … יַכְחִישׁ וכ׳</he> if you have an enemy, do you desire him to be weak or strong? <cite ref=\"Meilah 17a:29-46\">Ib.</cite> <he>ימולו … ויַכְחִישׁוּ</he> let their children be circumcised …, and they will become weak. ",
+						"<cite ref=\"Yevamot 34b:4\">Yeb. 34ᵇ</cite> <he>ויַכְחִישׁ יופיה</he> her beauty may be ruined. Y. M. Kat. I, beg. 80ᵃ <he>עמדה מלהַכְחִישׁ</he> if the field ceased to deteriorate; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lessen, reduce, ruin, weaken</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 70a:19\">Gitt. 70ᵃ</cite> <he>ג׳ … מַכְחִישִׁים כחו וכ׳</he> three things lessen a man’s energies. ",
+						"<cite ref=\"Sanhedrin 84b\">Snh. 84ᵇ</cite> <he>הִכְחִישָׁהּ באבנים</he> he ruined the animal by loading stones upon her (without causing a wound). Y. B. Kam. l. c. <he>הִכְחִישׁוֹ חמשים וכ׳</he> he lessened his (the ox’s) value by fifty Zuz. ",
+						"<cite ref=\"Esther Rabbah 1:1\">Esth. R. to I, 1</cite> (play on <he>אח̇ש̇ור̇ש̇</he>) <he>שהכח̇יש̇ ר̇אש̇ן וכ׳</he> he caused haggardness to the heads of &c. ",
+						"<cite ref=\"Shabbat 22a:7\">Sabb. 22ᵃ</cite> <he>מַכְחִישׁ מצוה</he> he impairs the religious act (lessens the brightness of the Ḥănuckah lights). ",
+						"<cite ref=\"Sanhedrin 67b\">Snh. 67ᵇ</cite>; <cite ref=\"Chullin 7b\">Ḥull. 7ᵇ</cite>, v. <he>כְּשָׁפִים</he>; a. fr.—[<cite ref=\"Yalkut Shimoni on Nach 627\">Yalk. Ps. 627</cite> <cite ref=\"K00881\"><he>אַכְחֵישׁ</he></cite>, v. <cite ref=\"K00970\"><he>כָּעַס</he></cite>.]"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to declare false, deny, contradict</i>, v. <cite ref=\"E00505\"><he>הַכְחָשָׁה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Ketubot 20a:1\">Keth. 20ᵃ</cite> <he>כשם שאין מזימין … אין מַכְחִישִׁין וכ׳</he> as an evidence of alibi cannot be taken up except by confrontation, so cannot contradictory evidence &c. ",
+						"<cite ref=\"Berakhot 27b:18\">Ber. 27ᵇ</cite> <he>יכול החי להַבְחִישׁ וכ׳</he> can the living contradict the living? <cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite>, beg. <he>מפני מה אתה מַכְחִישֵׁנִי וכ׳</he> why dost thou contradict me (declare me wrong) in the presence of my servant?—Sifra introd., v. <cite ref=\"K01257\"><he>כָּרַע</he></cite>; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["כִּיחֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be false; to flatter</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 356\">Sifré Deut. 356</cite> <he>בשעת מְכַחֲשִׁים להם …</he> when the Israelites prosper, the nations flatter them; Yalk. Deut. 967."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הוּכְחָשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be contradicted, rebutted</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 74b:8\">B. Kam. 74ᵇ</cite> <he>עדים שהוּכְחֲשׁוּ בנפש</he> witnesses that have been contradicted in a capital case.—",
+						"<cite ref=\"Bava Kamma 74b:5\">Ib.</cite> <he>מוּכְחָשִׁין</he> witnesses whose evidence has been contradicted (but not rebutted through an alibi). Keth. l. c. <he>עדות מוּכְחֶשֶׁת</he> a rebutted evidence; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְכַּחֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to contradict each other</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 37:10\">Sifré Deut. 37</cite> <he>מִתְכַּחֲשׁוֹת</he>; v., however, <cite ref=\"K01391\"><he>כָּתַשׁ</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

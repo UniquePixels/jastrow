@@ -1,0 +1,28 @@
+{
+	"id": "J00116",
+	"slug": "יהבית",
+	"headword": {
+		"text": "יְהָבִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַהֲבַת"
+		}
+	],
+	"page": {
+		"number": 566,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. constr. (<cite ref=\"J00115\">preced.</cite> wds.) <i>giving; share, dispensation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 5:10\">Targ. Koh. V, 10</cite> <he>יהבית אגרהא</he> = h. <he>מַתַּן שָׂכַר</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 11:6\">Targ. Ps. XI, 6</cite> (h. text <he>מנת</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "S01181",
+	"slug": "קיריוסים",
+	"headword": {
+		"text": "קִירְיוֹסִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִירִיוֹסִין"
+		},
+		{
+			"text": "קִרְ׳"
+		}
+	],
+	"page": {
+		"number": 1369,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (curiosi) <i>detectives, spies</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> <he>קריוסי הושיב וכ׳</he> (corr. acc.) Joseph placed agents in the palace. ",
+				"<cite ref=\"Pesikta Rabbati 8:1\">Pesik. R. s. 8</cite> <he>כשם שלמלכי בו״ד ק׳ … כך יש לפני הקב״ה ק׳ וכ׳</he> as human kings have agents who report …, so are agents before the Lord &c.; <he>ואלו הן הק׳ … זו הנפש וכ׳</he> and these are the Lord’s agents, the soul that reports to the angel &c.—Denom. <he>קִרְיוֹסוּת</he> <i>report of agents</i>. ",
+				"<cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite> <he>יש קול קריאסות לטובה</he> … <he>ויש קול קריאסות לרעה וכ׳</he> Ar. (corr. acc., a. omit <he>קול</he>; ed. <he>יש קול יוצא וכ׳</he>) there is a report of agents for good (<cite ref=\"Deuteronomy 5:25\">Deut. V, 25</cite>) …, and a report of agents for evil (ib. I, 34); <cite ref=\"Kohelet Rabbah 10:20:1\">Koh. R. to X, 20</cite> <he>יש קרסיות וכ׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

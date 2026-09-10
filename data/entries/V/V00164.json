@@ -1,0 +1,43 @@
+{
+	"id": "V00164",
+	"slug": "תוהא",
+	"headword": {
+		"text": "תִּוְהָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּוְו׳"
+		},
+		{
+			"text": "תִּיוְ׳"
+		}
+	],
+	"page": {
+		"number": 1651,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00163\">same</cite><i>anxiety, terror; disgust</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:33\">Targ. O. Gen. XXVII, 33</cite> (some ed. <cite ref=\"V00164\"><he>תְּוָהָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:41\">Targ. Ps. LXXVIII, 41</cite>, v. <cite ref=\"V00162\"><he>תְּיַהּ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of a building) <i>threatening condition, indications of dilapidation</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 3b:12\">B. Bath. 3ᵇ</cite> <he>חזי בה ת׳</he> they notice signs of ruin on it."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>mishap</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 73a:7\">B. Mets. 73ᵃ</cite> <he>כיון דהוה ביה ת׳ לא וכ׳</he> (not <he>דהוי</he>, v. Rabb. D. S. a. l. note 300) since a mishap may befall it (and the buyer must take the risk), the transaction has not the appearance of an advance of money for a consideration (of usury, v. <cite ref=\"A00339\"><he>אַגְרָא</he> I</cite>); Rashi: <i>cause for regret</i>].—[<cite ref=\"Kohelet Rabbah 1:7\">Koh. R. to I, 7</cite>, v. <cite ref=\"V00174\"><he>תּוּוָיי</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

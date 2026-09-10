@@ -1,0 +1,90 @@
+{
+	"id": "S01483",
+	"slug": "קמץ-1",
+	"headword": {
+		"text": "קָמַץ"
+	},
+	"page": {
+		"number": 1386,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to compress, close the hand, grasp</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 7:2\">Pes. VII, 2</cite> <he>יִקְמוֹץ את מקומו</he> he must grab (take a handful of the flour from) its place (where the juice has dripped on it).—Esp. <i>to take a fistful</i> (<cite ref=\"S00401\"><he>קוֹמֶץ</he></cite>) <i>of the meal-offering</i> (by bending three fingers over to the wrist and striking the flour off with the thumb on top and with the little finger below). Sifra Vayikra, N’dab., ch. X, Par. 9 <he>יכול יקמוץ וכ׳</he> you may think he may grab with the tips of his fingers. Ib. <he>יכול מצוה שיִקְמְצֶנָּה … קְמָצָהּ וכ׳</he> you may think the proper thing is for the priest to take off the fistful, but if a layman did it, it is legal. ",
+				"<cite ref=\"Mishnah Menachot 2:1\">Men. II, 1</cite> <he>הקוֹמֵץ את וכ׳</he> if the priest takes a grab of the meal-offering with the intention of eating &c.; a. fr.—<i>Part. pass.</i> <cite ref=\"S01451\"><he>קָמוּץ</he></cite> <i>closed</i>. Cant. R. to VIII, 14 <he>צבי … ועינו אחת קְמוּצָה</he> the deer when sleeping has one eye open and one closed."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to leap</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 685\">Yalk. Ps. 685</cite> <he>קומץ כאיל</he>, v. <cite ref=\"S01764\"><he>קָפַץ</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְמִיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to perform the</i> <cite ref=\"S01474\"><he>קְמִיצָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 3:6\">Lev. R. s. 3</cite> <he>ה׳ ואכל וכ׳</he> he took the handful for the altar, and ate the rest."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִקְמָץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be grabbed from</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Menachot 3:3\">Men. III, 3</cite> <he>שתי … שלא נִקְמְצוּ וכ׳</he> two meal-offerings which were mixed up before the altar’s share had been taken off. ",
+						"<cite ref=\"Menachot 18b:12\">Ib. 18ᵇ</cite> <he>בנִקְמָצוֹת</he> concerning such offerings as are subject to <cite ref=\"S01474\"><he>קְמִיצָה</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["קִימֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to scrape off</i> (with bent fingers). ",
+					"units": [
+						"<cite ref=\"Chullin 50a:4\">Ḥull. 50ᵃ</cite> <he>מְקַמְּצִין</he> you must take off a little from the surface.—Trnsf. <i>to take off a share</i>. ",
+						"<cite ref=\"Bava Batra 106b:6\">B. Bath. 106ᵇ</cite> <he>שני אחין שחלקו … מקמצין</he> if two brothers divide an estate, and then a third brother comes from abroad …, they have to give him each a share from their portion, opp. <he>בטלה מחלוקת</he> the division is null and void (and a new division by lot has to be made); <cite ref=\"Bava Batra 107a\">ib. 107ᵃ</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to scrape together, collect</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite> <he>מְקַמֵּץ</he> (not <he>מקמיץ</he>), v. <cite ref=\"O01592\"><he>סַרְֹטָן</he></cite>. ",
+						"<cite ref=\"Mishnah Ketubot 7:10\">Keth. VII, 10</cite> <he>אלו … והמקמץ</he> the following are those whom the court forces to release their wives, … and the scraper; expl. ",
+						"<cite ref=\"Ketubot 77a:11\">ib. 77ᵃ</cite> <he>המקבץ צואת כלבים</he> he that collects excrements of dogs; (another interpret.) <he>המק׳ זה בורסי</he> ‘the scraper’ (of excrements) means the tanner; Tosef. ib. VII, 11 <he>המקמץ את הצואה</he> (not <he>הצועה</he>) who collects excrements; Y. ib. VII, end, 31ᵈ. ",
+						"<cite ref=\"Chagigah 4a\">Ḥag. 4ᵃ</cite>; <cite ref=\"Chagigah 7b\">7ᵇ</cite>"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be parsimonious</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 46a:8\">Ḥull. 46ᵃ</cite> <he>וסימניך עשירין מקמצין</he> and as a mnemonical sign (to remember which of the two it was that threw the liver away, and which used it) it may serve thee: ‘the rich are parsimonious’ (R. Simon who was rich used it); <cite ref=\"Menachot 86a\">Men. 86ᵃ</cite>"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

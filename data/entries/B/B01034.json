@@ -1,0 +1,50 @@
+{
+	"id": "B01034",
+	"slug": "בעט-3",
+	"headword": {
+		"text": "בְּעַט"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּעֵיט"
+		}
+	],
+	"page": {
+		"number": 180,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01033\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 4:16\">Targ. Hos. IV, 16</cite>; a. e.—Y. Sabb. VII, 11ᵃ bot.; <cite ref=\"Jerusalem Talmud Shekalim 3:2:9\">Y. Shek. III, 47ᶜ</cite> <he>ב׳ ביה</he> rejected his authority."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּעֵט", "בַּעֵיט"],
+			"senses": [
+				{
+					"gloss": "<i>to tread</i> (<i>grapes</i>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 1:15\">Targ. Lam. I, 15</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבְּעִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to be trodden</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joel 4:13\">Targ. Joel IV, 13</cite>; <cite ref=\"Targum Jonathan on Isaiah 63:3\">Targ. Is. LXIII, 3</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

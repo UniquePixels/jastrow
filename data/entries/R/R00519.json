@@ -1,0 +1,83 @@
+{
+	"id": "R00519",
+	"slug": "צלל-1",
+	"headword": {
+		"text": "צָלַל"
+	},
+	"page": {
+		"number": 1284,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00509\"><he>טלל</he></cite>)<i>to move, shake, hang over</i>; denom. <cite ref=\"R00475\"><he>צֵל</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to turn, circle, roll</i> (v. ",
+			"units": [
+				"<cite ref=\"Judges 7:13\">Jud. VII, 13</cite>); <i>to eddy, sink</i>. ",
+				"<cite ref=\"Kohelet Rabbah 12:7\">Koh. R. to XII, 7</cite>; <cite ref=\"Jerusalem Talmud Berakhot 4:1:20\">Y. Ber. IV, 7ᵇ</cite> bot., a. e. (ref. to <he>צולה</he>, <cite ref=\"Isaiah 44:27\">Is. XLIV, 27</cite>) why is Babylonia called <i>tsulah</i>, <he>ששם צָלְלוּ מיתי וכ׳</he> because there sank the corpses of the generation of the flood; Lam. R. introd. (R. Josh. 2) <he>צללו מי מבול</he> (corr. acc.); v. infra.—3) (cmp. <cite ref=\"U01877\"><he>שָׁקַע</he></cite>) <i>to settle, be clear; to clarify</i>. ",
+				"<cite ref=\"Tosefta Niddah 3:11\">Tosef. Nidd. III, 11</cite> <he>צָלְלוּ לא יחזור וכ׳</he> if the mixture has settled (become clear), he must not stir it up again; <cite ref=\"Niddah 20a:91\">Nidd. 20ᵃ</cite>, v. <cite ref=\"P00749\"><he>עָכַר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 1:2:7\">Y. Keth. I, 25ᵇ</cite> bot. <he>וחוזרת וצוֹלֶלֶת</he>, v. <he>צָכַר</he>. ",
+				"<cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite>, end <he>וצָלַלְנוּ</he>, v. <he>צָכַר</he>; a. e.—Part. pass. <he>צָלוּל</he>; f. <he>צְלוּלָה</he>; pl. <he>צְלוּלִים</he>, <he>צְלוּלִין</he>; <he>צְלוּלוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 80\">Ib.</cite> <he>צ׳ היתה</he>, v. <he>צָכַר</he>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 5:3:2\">Y. Ter. V, end, 43ᵈ</cite> <he>יין צ׳</he> clarified wine. ",
+				"<cite ref=\"Shabbat 109a:3\">Sabb. 109ᵃ</cite>; <cite ref=\"Shabbat 139b:12\">139ᵇ</cite>; a. fr.—Pesik. Haʿomer, p. 71ᵃ (play on <he>צלול</he>, K’ri <cite ref=\"R00518\"><he>צליל</he></cite>, <cite ref=\"Judges 7:13\">Jud. VII, 13</cite>) <he>על שצלול היה אותו הדור וכ׳</he> (not <he>על שצלל עליהם</he>, v. Rashi to Jud. l. c.) because that generation was cleared (bared) of righteous men; <cite ref=\"Pesikta Rabbati 18:1\">Pesik. R. s. 18</cite> <he>שצליל עליהם</he> corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 62:1\">Yalk. Jud. 62</cite>, <cite ref=\"Yalkut Shimoni on Torah 643:17\">Yalk. Lev. 643</cite> (corr. acc.).—["
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to glisten, be bright</i>; (of sound) <i>to vibrate, ring</i>; v. <cite ref=\"M02318\"><he>מְצִילָּה</he></cite>, <cite ref=\"R00543\"><he>צִלְצֵל</he></cite> &c.]",
+			"units": [],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְלָל", "נָצַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be cleared</i>. Y. Nidd. II, end, 50ᵇ <he>יִצָּלְלוּ ולא יעכרו</he>, v. <cite ref=\"P00749\"><he>עָכַר</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 20:2\">Sabb. XX, 2</cite> (<cite ref=\"Shabbat 139b:12\">139ᵇ</cite>) <he>שיִצַּלּוּ</he> (Bab. ed. <he>שיִצּוֹלּוּ</he>; v. Rabb. D. S. a. l. note 20) that they (the dregs) may settle."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵיצֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to become clear, settle</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 8:11\">Par. VIII, 11</cite> <he>עד שתָּצֵל</he> until it is settled."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"R00475\"><he>צֵל</he></cite>) <i>to shade</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 50a\">Pes. 50ᵃ</cite> (ref. to <he>מצלות</he>, <cite ref=\"Zechariah 14:20\">Zech. XIV, 20</cite>) there will be an addition to the sacred precincts of Jerusalem <he>עד שהסוס רץ ומֵיצֵל</he> Ms. M. (ed. <he>ומֵצֵיל</he>; Rashi: <he>עד שעה שהסרס וכ׳</he>) as far as a horse can run (from sunrise) until it gives shade (casts its shadow under itself, i.e. till noon-time; Y. ib. III, end, 30ᵇ <he>עד מקום שהסוס רץ ואינו עושה צל</he>); Bab. l. c. <he>כל ביזה … עד שהסוס רץ ומיצל וכ׳</he> whatever booty Israel will make (from morning) to the time &c., will be sacred &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִצְטַלֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be sunk, dumped</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 113b:13\">Zeb. 113ᵇ</cite> <he>שכל מתי מבול נִצְטַלְּלוּ לשם</he> Ms. R. a. K. (ed. <he>נִצְתַּלְּלוּ שם</he>) because all the corpses of the flood were dumped there (in Babylonia); <cite ref=\"Shabbat 113b\">Sabb. 113ᵇ</cite>; v. supra."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

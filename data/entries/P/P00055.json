@@ -1,0 +1,23 @@
+{
+	"id": "P00055",
+	"slug": "עבית",
+	"headword": {
+		"text": "עָבִית",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1038,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <he>עֲבִיּוֹת</he> (<he>עָבַת</he>; cmp. <cite ref=\"P00036\"><he>עֲבוֹת</he></cite>) <i>engines for hurling missiles by means of twisted fibres, ropes &c</i>. (Lat. tormenta). ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 4:22\">Lam. R. to IV, 19</cite>, v. <cite ref=\"D00856\"><he>דָּלַק</he></cite>."
+			]
+		}
+	]
+}

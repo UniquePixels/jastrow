@@ -1,0 +1,59 @@
+{
+	"id": "O01714",
+	"slug": "סתר-4",
+	"headword": {
+		"text": "סְתַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1033,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01713\">same</cite><i>to tear down, destroy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 7:5\">Targ. Y. Deut. VII, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 1:19\">Targ. Jer. I, 19</cite>; a. fr.—",
+				"<cite ref=\"Taanit 20b:11\">Taan. 20ᵇ</cite> <he>כל אשיתא … הווה ס׳ לה</he> every threatening wall he ordered to be torn down. ",
+				"<cite ref=\"Bava Batra 3b:13\">B. Bath. 3ᵇ</cite> <he>לא לִיסְתּוֹר וכ׳</he> one must not tear down a synagogue before having built another one. ",
+				"<cite ref=\"Bava Batra 3b:9\">Ib.</cite> <he>סֵתְרֵי ובנו</he>, v. <cite ref=\"O01684\"><he>סִתְוָא</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to unravel, wind up</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 60a\">Ḥull. 60ᵃ</cite>, v. <cite ref=\"D00268\"><he>דַּוְלָלָא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַתֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01713\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 15:25\">Targ. Prov. XV, 25</cite> (Var. ed. Lag. <he>נסטר</he>, corr. acc.). ",
+						"<cite ref=\"Targum Jonathan on II Kings 11:18\">Targ. II Kings XI, 18</cite>; a. e.—",
+						"<cite ref=\"Yevamot 116b:4\">Yeb. 116ᵇ</cite> <he>קרע סַתְּרִי מזייך …</he> rend thy garments, disarrange thy hair (in mourning). ",
+						"<cite ref=\"Nedarim 50b:7\">Ned. 50ᵇ</cite> <he>עד דמְסַתְּרִין וכ׳</he> until the people of his household disarranged their hair for him (in sympathy with his pain)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּתַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn down</i>. Meg. Taan. ch. VIII, v. <cite ref=\"O00428\"><he>סוֹרִיגָא</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

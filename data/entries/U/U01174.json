@@ -1,0 +1,54 @@
+{
+	"id": "U01174",
+	"slug": "שכן-2",
+	"headword": {
+		"text": "שְׁכַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁכֵין"
+		}
+	],
+	"page": {
+		"number": 1575,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01173\">same</cite><i>to dwell, sit, nest</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 104:12\">Targ. Ps. CIV, 12</cite> Ms. (ed. <he>יִשְׁרוּן</he>).—",
+				"<cite ref=\"Bereishit Rabbah 65:12\">Gen. R. s. 65</cite> <he>וכל עוף דש׳ וכ׳</he> and whatever bird will nest with it (the starling, v. <cite ref=\"G00692\"><he>זַרְזִיר</he> II</cite>), to its kind will it belong; <cite ref=\"Yalkut Shimoni on Nach 794:2\">Yalk. Ps. 794</cite> <he>דיִשְׁכּוֹן</he>; <cite ref=\"Yalkut Shimoni on Nach 794:1-2\">ib.</cite> <he>אתא … וש׳ גביה</he> the Egyptian raven came and joined it; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to rest, settle</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 26b:2\">Ḥull. 26ᵇ</cite> <he>שָׁכְנֵי תיתאי</he>, v. <cite ref=\"S01731\"><he>קְפֵי</he></cite>. ",
+				"<cite ref=\"Chullin 111b:3\">Ib. 111ᵇ</cite>, v. <cite ref=\"S01731\"><he>קְפֵי</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁכֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to dwell</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 3:10\">Targ. Cant. III, 10</cite> (not <he>דשְׁכֵין</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to fix, appoint</i>. Y. Ab. Zar. I, 39ᵈ top <he>שַׁכְּנִית</he>, v. <cite ref=\"A03242\"><he>ארקליס</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

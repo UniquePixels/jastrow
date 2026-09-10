@@ -1,0 +1,29 @@
+{
+	"id": "B00507",
+	"slug": "בטיטא",
+	"headword": {
+		"text": "בְּטִיטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹטִיטָה"
+		}
+	],
+	"page": {
+		"number": 156,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00502\"><he>בְּטַט</he></cite>) <i>cleft, grotto; ruins</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 31:11\">Gen. R. s. 31</cite> <he>בהדא ב׳ דטבריה</he> Ar. (ed. <cite ref=\"B01083\"><he>בו׳</he></cite>) in the grotto (or ruins) of Tiberias; cmp. <cite ref=\"A01928\"><he>אִלְסִיס</he></cite>.—*Pl. <he>בּוֹטִיטָתָא</he>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 1:1:7\">Y. Pes. I, beg. 27ᵃ</cite> <he>בוטיתא דסדרא רבא</he> (corr. acc.) the ruins of the large colonnade (of Tiberias); cmp. ",
+				"<cite ref=\"Midrash Tehillim 93\">Midr. Till. to Ps. XCIII</cite>, s. v. <cite ref=\"D00679\"><he>דִּיפְּלֵי</he></cite>."
+			]
+		}
+	]
+}

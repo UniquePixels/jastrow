@@ -1,0 +1,58 @@
+{
+	"id": "Q02064",
+	"slug": "פשט-2",
+	"headword": {
+		"text": "פְּשַׁט"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּשֵׁיט"
+		}
+	],
+	"page": {
+		"number": 1246,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q02063\">same</cite><i>to stretch, stretch forth; to straighten</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 22:10\">Targ. Y. Gen. XXII, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 38:28\">Ib. XXXVIII, 28</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:19\">Targ. Prov. XXXI, 19</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:18\">Ib. XXVI, 18</cite>, v. <cite ref=\"B01354\"><he>בְּשַׁט</he></cite>.—",
+				"<cite ref=\"Rosh Hashanah 26b:12\">R. Hash. 26ᵇ</cite> <he>כמה דפָשֵׁיט איניש וכ׳</he> the more man straightens his mind (removes all duplicity, v. <cite ref=\"Q02063\">preced.</cite>), the better it is, opp. <he>כייף</he> bends, humbles.—Part. pass. <he>פָּשִׁיט</he>; f. <cite ref=\"Q02072\"><he>פְּשִׁיטָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 26:28\">Targ. Y. Ex. XXVI, 28</cite> (ed. Amst. <he>פַּשִּׁיט</he>). Targ. II Esth. V, 1."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to strip, tear, flay</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 23:24\">Targ. Y. II, Num. XXIII, 24</cite>.—",
+				"<cite ref=\"Pesachim 113a:3\">Pes. 113ᵃ</cite> <he>פְּשׁוֹט</he>; <cite ref=\"Bava Batra 110a\">B. Bath. 110ᵃ</cite>, v. <cite ref=\"N00589\"><he>נְטַשׁ</he> I</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (neut. verb) <i>to be stretched forth, reach out</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 8:8:12\">Y. Peah VIII, end, 21ᵇ</cite> <he>ידיה דלא פַשְׁטַן מיתן וכ׳</he> may these hands which did not reach out to give thee, be cut off."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to explain, teach; to deduce</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 17:3\">Gen. R. s. 17</cite> <he>הוון יתבין פַּשְטִין וכ׳</he> he and R. … sat teaching; <cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite>. ",
+				"<cite ref=\"Bava Metzia 18b:2\">B. Mets. 18ᵇ</cite> <he>וקא פשיט רבא דיחזיר</he> and Raba decided that restitution must be made. ",
+				"<cite ref=\"Kiddushin 9b:2\">Kidd. 9ᵇ</cite> <he>בתר דבעיא הדר פַּשְׁטָהּ</he> after having raised the question, he met it again himself. ",
+				"<cite ref=\"Berakhot 2b:4\">Ber. 2ᵇ</cite> <he>והדר פשטו לה מברייתא</he> and then they solved the question by deduction from a Boraitha. ",
+				"<cite ref=\"Horayot 13b:14\">Hor. 13ᵇ</cite> <he>פ׳ גרס ותנא וכ׳</he> he explained (the subject to himself), and committed it to memory again and again. ",
+				"<cite ref=\"Bava Metzia 90b:7\">B. Mets. 90ᵇ</cite> <he>פְּשׁוֹט מהא חדא</he> derive from this (Boraitha) one answer to the questions before us. ",
+				"<cite ref=\"Kiddushin 25a:2\">Kidd. 25ᵃ</cite> <he>מי בעיתו … ולא פְשִׁיטְנָא לכו</he> did you ever ask me anything that I did not explain to you?; a. fr.—V. <cite ref=\"Q02072\"><he>פְּשִׁיטָא</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

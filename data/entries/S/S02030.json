@@ -1,0 +1,45 @@
+{
+	"id": "S02030",
+	"slug": "קריאה",
+	"headword": {
+		"text": "קְרִיאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרִיָּיה"
+		}
+	],
+	"page": {
+		"number": 1419,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S02018\"><he>קָרָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>call</i>. Sifra Vayikra, Par. 1 (ref. to <cite ref=\"Leviticus 1:1\">Lev. I, 1</cite>) <he>הקדים ק׳ לדיבור</he> the Lord sent the call in advance of the speech. ",
+			"units": [
+				"<cite ref=\"Leviticus 1:1\">Ib.</cite> <he>על כל ק׳ הוא אומר הנני</he> to every call he responded with ‘here am I.’ <cite ref=\"Devarim Rabbah 11\">Deut. R. s. 11</cite>, beg. <he>חתם יצחק בק׳</he> Isaac closed his blessings with a call (<cite ref=\"Genesis 28:1\">Gen. XXVIII, 1</cite>); <he>אני … אלא בק׳</he> I will commence with a call (ib. XLIX, 1); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>reading</i> esp. from the Scriptures. <he>קְרִיאַת שמע</he> (<cite ref=\"S02041\"><he>קְרִיַּת</he></cite>) (abbrev. <he>ק״ש</he>), or <he>ק׳</he> (sub. <cite ref=\"U01512\"><he>שמע</he></cite>) <i>the recitation of Sh’mʿa</i> (<cite ref=\"Deuteronomy 6:4-9\">Deut. VI, 4-9</cite>; <cite ref=\"Deuteronomy 11:13-21\">XI, 13-21</cite>; <cite ref=\"Numbers 15:37-41\">Num. XV, 37-41</cite>) in the morning and in the evening prayer. ",
+			"units": [
+				"<cite ref=\"Berakhot 13b:11\">Ber. 13ᵇ</cite> <he>מצות ק׳</he> the duty of reciting, contrad. to <he>מצות כונה</he>, v. <cite ref=\"K00303\"><he>כַּוָּנָה</he></cite>. ",
+				"<cite ref=\"Berakhot 13b:11\">Ib.</cite> <he>זו ק״ש של ר׳ וכ׳</he> this (the verse <cite ref=\"Deuteronomy 6:4\">Deut. VI, 4</cite>) was all that R. Judah han-Nasi read (when engaged in teaching); a. fr.—V. <cite ref=\"U01513\"><he>שְׁמַע</he> II</cite>.—<he>קריאת המגלה</he> the recitation of the Book of Esther. ",
+				"<cite ref=\"Mishnah Megillah 1:4\">Meg. I, 4</cite>; a. fr.—",
+				"<cite ref=\"Megillah 14a:8\">Ib. 14ᵃ</cite> <he>קְרִיָּיתָהּ זו הלילא</he> (not <he>קרייתא</he>), v. <cite ref=\"E00574\"><he>הַלֵּלָא</he></cite>.—",
+				"<cite ref=\"Makkot 18b:10\">Macc. 18ᵇ</cite> <he>הראויין לק׳</he> those first-fruits which are fit for reciting over them (<cite ref=\"Deuteronomy 26:3\">Deut. XXVI, 3</cite> sq.); a. fr.—Pl. <he>קְרִיאוֹת</he>, <he>קְרִיּוֹת</he>. ",
+				"<cite ref=\"Devarim Rabbah 4:1\">Deut. R. s. 4</cite>, beg. <he>מהו לקרות … בק׳ הרבה</he> how about reading ‘the reproofs’ (<cite ref=\"V00202\"><he>תּוֹכָחָה</he></cite>) by several calls (by calling up several persons successively). ",
+				"<cite ref=\"Devarim Rabbah 4:1\">Ib.</cite> <he>אם יקראו … ק׳ הרבה וכ׳</he> if they do read … by several calls, each called-up person should not recite the benediction before and after &c.—Cmp. <cite ref=\"S01941\"><he>קְרוּיוֹת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

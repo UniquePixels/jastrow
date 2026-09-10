@@ -1,0 +1,43 @@
+{
+	"id": "K00084",
+	"slug": "כבש-4",
+	"headword": {
+		"text": "כֶּבֶשׁ"
+	},
+	"page": {
+		"number": 611,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " m (b. h.; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>press</i>.—Pl. <he>כְּבָשִׁים</he>, <he>כְּבָשִׁין</he>. Pesik. Eth. Korb., p. 61ᵇ (play on <he>כבשים</he>, <cite ref=\"Numbers 28:3\">Num. XXVIII, 3</cite>) <he>כ׳ שהן כובשין וכ׳</he> (the sacrifices are) presses, for they suppress the sins &c.; <cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ascent, grade, landing bridge</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zavim 3:1\">Zab. III, 1</cite>; <cite ref=\"Mishnah Zavim 3:3\">3</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 16:8\">Sabb. XVI, 8</cite>; a. e.—Esp. <i>the inclined plane leading to the altar</i>. ",
+				"<cite ref=\"Mishnah Middot 3:3\">Midd. III, 3</cite>. ",
+				"<cite ref=\"Mishnah Zevachim 5:3\">Zeb. V, 3</cite>; a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Zevachim 62b:4\">Ib. 62ᵇ</cite>. ",
+				"<cite ref=\"Zevachim 63a:1\">Ib. 63ᵃ</cite> <he>כל כִּבְשִי כבשים … חוץ של מזבח וכ׳</he> all grades of ascents (in the Temple) were at the rate of three cubits per one cubit (of vertical elevation), except the ascent of the altar which was at the rate of three cubits and a half and &c.; (for Var. lect. v. Rabb. D. S. a. l., and Tosaf. a. l. a. ",
+				"<cite ref=\"Menachot 41b\">Men. 41ᵇ</cite> s. v. <cite ref=\"A02971\"><he>ארבעה</he></cite>); Y. Erub. II, 24ᵇ bot., v. <cite ref=\"K00486\"><he>כִּיבּוּשׁ</he></cite> h.—Lam. R. introd. (R. Josh. 2); <cite ref=\"Kohelet Rabbah 12:7:1\">Koh. R. to XII, 7</cite> (expl. <cite ref=\"D00695\"><he>דָּיֵק</he></cite>, <cite ref=\"Ezekiel 21:27\">Ez. XXI, 27</cite>) <he>כ׳</he> <i>embankments</i> round a besieged city (Lat. agger, v. <cite ref=\"K00198\"><he>כּוֹבֵשׁ</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>preserving fruit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 2:6\">Ter. II, 6</cite> <he>זיתי כ׳</he> olives good for preserves, opp. <he>זתי שמן</he>.—<i>Pl.</i> as ab. <i>pressed, preserved vegetables</i> &c., <cite ref=\"Mishnah Sheviit 9:5\">Shebi. IX, 5</cite> <he>הכובש שלשה כ׳ וכ׳</he> if one puts three sorts of pressed vegetables into one vessel. ",
+				"<cite ref=\"Shabbat 108b\">Sabb. 108ᵇ</cite>; a. e.—[<cite ref=\"Bereishit Rabbah 66\">Gen. R. s. 66</cite> <he>כבשיהן</he> some ed., v. <cite ref=\"K00486\"><he>כִּיבּוּשׁ</he></cite> h.]"
+			],
+			"label": "3"
+		}
+	]
+}

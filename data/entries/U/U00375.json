@@ -1,0 +1,57 @@
+{
+	"id": "U00375",
+	"slug": "שוט-4",
+	"headword": {
+		"text": "שׁוּט",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1531,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00374\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:34\">Targ. Gen. XXV, 34</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 10:27\">Targ. I Sam. X, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:42\">Ib. XVII, 42</cite> <he>שַׁטְיֵה</he> (fr. <cite ref=\"U00745\"><he>שטי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:25\">Targ. Prov. I, 25</cite> <he>ושַׁטְתּוּן</he> Ms. (ed. <he>ושניתון</he>); a. fr.—Part. <cite ref=\"U00729\"><he>שָׁט</he></cite>, <cite ref=\"U00017\"><he>שָׁאֵט</he></cite>, <cite ref=\"U00021\"><he>שָׁיֵיט</he></cite>, <cite ref=\"U00878\"><he>שָׁיֵט</he></cite>; f. <he>שָׁיְיטָא</he>; pl. <he>שָׁיְיטִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:12\">Ib. XI, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 23:9\">Ib. XXIII, 9</cite> (ed. Wil. <cite ref=\"U00878\"><he>שְׁיֵט</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:7\">Ib. I, 7</cite>; a. fr.—Part. pass. <cite ref=\"U00878\"><he>שִׁיט</he></cite>, <cite ref=\"U00729\"><he>שָׁט</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 16:31\">Targ. I Kings XVI, 31</cite> (h. text <he>נקל</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 15:9\">Targ. I Sam. XV, 9</cite> (h. text <he>נמבזה</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 15:4\">Targ. Ps. XV, 4</cite> (h. text <he>נבזה</he>); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָשֵׁיט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00374\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 12:10\">Targ. II Sam. XII, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 15:20\">Targ. Prov. XV, 20</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 19:16\">Ib. XIX, 16</cite> (ed. Lag. <he>מוֹשִׁיט</he>, cmp. <he>מוקים</he> fr. <he>קום</he>); a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְשָׁט"],
+			"senses": [
+				{
+					"gloss": "<i>to be despised</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 2:30\">Targ. I Sam. II, 30</cite> <he>יִתְשָׁטוּן</he> (ed. Lag. <he>יִשְׁתָּטוּן</he>, Var. <he>ישטתון</he>, prob. meant for <he>יתשט׳</he>; h. text <he>יקלו</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "K01222",
+	"slug": "כרכש-1",
+	"headword": {
+		"text": "כַּרְכֵּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְכֵּישׁ",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 670,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (reduplic. of <he>כרש</he>, v. <cite ref=\"K01131\"><he>כְּרוֹשְׁיָיתָא</he></cite> a. <cite ref=\"K01244\"><he>כֶּרֶס</he></cite>",
+			"units": []
+		},
+		{
+			"gloss": "<i>to hollow out</i>, v. <cite ref=\"K01203\"><he>כַּרְכּוּשְׁתָּא</he></cite>, <cite ref=\"K01224\"><he>כַּרְכְּשָׁא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. b. h. <he>קרס</he>) <i>to bend, bow</i>.—<he>רישא</he>(<cite ref=\"B00000\"><he>ב</he></cite>) <he>כ׳</he> <i>to nod assent</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 65b:4\">Erub. 65ᵇ</cite> <he>כ׳</he> … <he>רישיה</he> R. nodded &c. ",
+				"<cite ref=\"Niddah 42a\">Nidd. 42ᵃ</cite> <he>כ׳ ליה ברישיה</he> showed his approval of it by nodding; <cite ref=\"Bava Batra 143a\">B. Bath. 143ᵃ</cite> top."
+			],
+			"label": "2"
+		}
+	]
+}

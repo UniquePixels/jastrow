@@ -1,0 +1,24 @@
+{
+	"id": "M02692",
+	"slug": "מריש",
+	"headword": {
+		"text": "מָרֵישׁ"
+	},
+	"page": {
+		"number": 843,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>מארש</he>, v. <cite ref=\"A03210\"><he>אָרַס</he></cite>; cmp. Targ. of <he>מורשי</he>, <cite ref=\"Job 17:11\">Job XVII, 11</cite>: <he>לוחי</he>) <i>joist, beam</i> (cmp. <cite ref=\"K01300\"><he>כְּשׁוּרָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 5:5\">Gitt. V, 5</cite> <he>המ׳ הגזול וכ׳</he> an illegally taken joist which was placed in a group of buildings. ",
+				"<cite ref=\"Bava Kamma 66b:16\">B. Kam. 66ᵇ</cite> (ref. to Gitt. l. c.) <he>והרי מ׳ כשורא וכ׳</he> here is the case of the <i>maresh</i> (where the stolen object changed its name), before it was placed it was named <cite ref=\"K01300\"><he>כשורא</he></cite>, and now it is <cite ref=\"I00511\"><he>טללא</he></cite> (ceiling); a. fr.—Pl. <he>מָרֵישׁוֹת</he>. Ib. 67ᵃ, v. <cite ref=\"P00173\"><he>עוֹב</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 1:3:4\">Y. B. Bath. I, beg. 12ᵈ</cite> <he>תיפתר ע״י מָרֵישָׁיו</he> it means (a protection) by means of its timber (roofing)."
+			]
+		}
+	]
+}

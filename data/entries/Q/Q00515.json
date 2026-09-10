@@ -1,0 +1,34 @@
+{
+	"id": "Q00515",
+	"slug": "פטיליק",
+	"headword": {
+		"text": "פּטִילִיק",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּטִילִיקוֹן"
+		},
+		{
+			"text": "פְּטִילִיקִי"
+		}
+	],
+	"page": {
+		"number": 1155,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a denom. of πάτελλα, patella, otherwise not recorded) <i>a dish, course</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:22\">Lam. R. to III, 16</cite> <he>פ׳ דאת מייתי וכ׳</he> a course that you offer us once, you must not offer again. ",
+				"<cite ref=\"Eichah Rabbah 1:22\">Ib.</cite> <he>אכל מכל פ׳ חד פת</he> (Ar. <cite ref=\"Q01221\"><he>פס</he></cite>) he ate of every course a piece. ",
+				"<cite ref=\"Eichah Rabbah 1:22\">Ib.</cite> <he>מחדא פטיליקי … חדא פתיתא</he> of each dish you took one little piece. ",
+				"<cite ref=\"Bereishit Rabbah 74:4\">Gen. R. s. 74</cite> <he>פטילקון טב הוא נסיב ליה</he> Ar. ed. Koh. (ed. <cite ref=\"Q00522\"><he>פטיקלין</he></cite>) when we had a good dish, he (Laban) took it; Yalk. ib. 130 <cite ref=\"Q00534\"><he>פטליקין</he></cite>.—Pl. <cite ref=\"Q00515\"><he>פְּטִילִיקִין</he></cite>. Lam. R. l. c. (Ar. <he>עיגולין</he>)."
+			]
+		}
+	]
+}

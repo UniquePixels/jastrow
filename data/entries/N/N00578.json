@@ -1,0 +1,44 @@
+{
+	"id": "N00578",
+	"slug": "נטף-2",
+	"headword": {
+		"text": "נְטַף"
+	},
+	"page": {
+		"number": 901,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00577\">same</cite><i>to drip</i>. Part. <he>נָטֵיף</he>, <cite ref=\"N00577\"><he>נָטֵף</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:15\">Targ. Prov. XXVII, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 72:6\">Targ. Ps. LXXII, 6</cite> <he>דנָטְפִין</he> (ed. Wil. <he>דנָטְפֵי</he>).—",
+				"<cite ref=\"Bava Batra 73b:1\">B. Bath. 73ᵇ</cite> <he>לא נַטְפָא ניטופתא וכ׳</he> not a drop fell to the ground.—<he>נָטְפֵי</he> (= h. <he>נוטפים</he>, v. <cite ref=\"N00577\">preced.</cite>) <i>dripping rain water</i>, contrad. to <he>שפכי</he> rain water collected in spouts (v. <cite ref=\"M02614\"><he>מַרְזֵב</he></cite>). ",
+				"<cite ref=\"Bava Batra 6a:12\">Ib. 6ᵃ</cite> <he>אחזיק לנ׳ וכ׳</he> if one has the right to let the dripping water from his roof run into his neighbor’s yard, he may make spouts and gutters &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"I00195\"><he>טוּף</he></cite>) <i>to turn up, lift</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 60a:3\">Keth. 60ᵃ</cite> (to a woman who had her eyes cast down in order not to look at her child) <he>נְטוֹף עיניך</he> Rashi (ed. <he>נטף</he>) turn thy eyes up (look freely around)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַטֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to drop</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 68:9\">Targ. Ps. LXVIII, 9</cite>; a. e.—V. <cite ref=\"I00195\"><he>טוּף</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

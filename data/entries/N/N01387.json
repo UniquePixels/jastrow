@@ -1,0 +1,89 @@
+{
+	"id": "N01387",
+	"slug": "נתק-1",
+	"headword": {
+		"text": "נָתַק"
+	},
+	"page": {
+		"number": 945,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N01386\">preced.</cite> a. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to break loose; tear out</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:5:2\">Y. Shebi. IV, 35ᵇ</cite> bot. <he>מקום שנהגו לקוץ יִתּוֹק לִתּוֹק וכ׳</he> where it is customary to cut the reeds, let him pluck them; where it is customary to pluck them &c.; <cite ref=\"Tosefta Shevi'it 3:19\">Tosef. ib. III, 19</cite> Var. <he>יִתּוֹךְ לִתּוֹךְ</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:6:2\">Cant. R. to VIII, 6</cite> (ref. to <cite ref=\"Jeremiah 22:24\">Jer. XXII, 24</cite>) <he>שהוא נוֹתֵק מלכות וכ׳</he> that he will tear the Davidic kingdom out of his hand; <cite ref=\"Jeremiah 22:24\">ib.</cite> <he>משם אני נותק וכ׳</he> from there I shall tear loose the kingdom &c.; Pesik. Shub., p. 163ᵃ. ",
+				"<cite ref=\"Bekhorot 33b:16\">Bekh. 33ᵇ</cite> <he>נותק</he> he who tears loose (testicles and throws them away); <he>נותק אחר כורת</he> who removes them after one has cut them (tearing off the roots). Sifra Thazr., <cite ref=\"Mishnah Negaim 7\">Neg., ch. VII</cite>, Par. 5 <he>אם נְתָקוֹ אדם</he> if a man made it bald (<cite ref=\"N01389\"><he>נֶתֶק</he></cite>); (R. S. to <cite ref=\"Mishnah Negaim 3:5\">Neg. III, 5</cite> <he>אם נִיתְּקוּ בידי אדם</he>, Nif.); a. e.—<i>Part. pass.</i> <he>נָתוּק</he> (b. h.) <i>an animal whose testicles have been forcibly removed</i>; [oth. opin.: <i>whose membrum has been mutilated by a violent severance</i>]. Sifra Emor, Par. 7, ch. VII; <cite ref=\"Tosefta Yevamot 10:5\">Tosef. Yeb. X, 5</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cause oozing, to secrete</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 3:13\">Tosef. Ter. III, 13</cite> <he>ענבים רכות ונוֹתְקוֹת … ואינן נוֹתְקִין וכ׳</he> grapes are soft and let their juice ooze out (when packed), but olives are hard and do not let their oil ooze out.; Y. ib. III, 42ᵇ top, v. <cite ref=\"D00496\"><he>דֵּיהֶא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיתֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to tear loose</i>. Cant. R. l. c. (ref. to Jer. l. c.) <he>אֲנַתֶּקְךָ אין … אֲתַקֶּנְךָ</he> it does not say <i>ănatteḳkha</i> (I shall tear thee loose), but (it may be read) <i>athaḳḳenkha</i> (I shall restore thee, v. <cite ref=\"V00899\"><he>תָּקַן</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 303:1\">Yalk. Jer. 303</cite> <he>אַתֶּקְךָ</he> (<i>Hif.</i>); Pesik. l. c.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " [<i>to tear, pull</i>] <i>to remonstrate, protest</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 115\">Sifré Num. 115</cite>; <cite ref=\"Yalkut Shimoni on Torah 750:13\">Yalk. Num. 750</cite> <he>התחיל הבן ההוא מְנַתֵּק</he> that son began to protest (against doing slave’s work); <he>התחילו ישראל מְנַתְּקִים</he> the Israelites remonstrated (against the laws imposed upon them); v. infra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִיתַּק", "נִיתּוֹק"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn loose; to fall out</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 123b:19\">Ḥull. 123ᵇ</cite> <he>שומר העשוי לִנָּתֵק מאליו</he> a protection (cover) which it likely to come off of itself. ",
+						"<cite ref=\"Niddah 65a:23\">Nidd. 65ᵃ</cite> <he>כיון שנִתְּקוּ שניו וכ׳</he> when a man’s teeth are gone; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " [<i>to tear one’s self loose</i>,] <i>to remonstrate, be discontented</i>. Sifra Aḥăré, Par. 9, ch. XIII <he>גלוי … לִינָּתֵק בעריות</he> it was known before the Lord that they would bear unwillingly the restrictive laws concerning sexual relations; <he>נִיתְּקוּ בעריות</he> they did remonstrate &c. (ref. to <cite ref=\"Numbers 11:10\">Num. XI, 10</cite>; v. ",
+					"units": [
+						"<cite ref=\"Shabbat 130a\">Sabb. 130ᵃ</cite>; <cite ref=\"Yoma 75a\">Yoma 75ᵃ</cite>); <cite ref=\"Yalkut Shimoni on Torah 590\">Yalk. Lev. 590</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be shifted, transformed, modified</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 5b:14\">Zeb. 5ᵇ</cite>, a. fr. <he>אשם שנ׳ לרעיה</he> an animal dedicated as a guilt-offering which (on account of its owner’s death &c.) has been condemned to pasture until natural death (v. <cite ref=\"O00003\"><he>סָאַב</he></cite>).—Y. Naz. IV, end, 53ᶜ <he>משנ׳ מלא תעשה לעשה</he> since it (the cutting of the hair which is forbidden to the Nazarite) has gone over from a prohibition to a positive duty (<cite ref=\"Numbers 6:18\">Num. VI, 18</cite>).—<he>לאו שנ׳ לעשה</he> a prohibition transformed into a command, i.e. a prohibitive law the transgression of which must be repaired by a succeeding act, e.g. (<cite ref=\"Leviticus 19:13\">Lev. XIX, 13</cite>) ‘thou shalt not rob’, and (ib. V, 23) ‘he shall make restitution.’ <cite ref=\"Chullin 141a\">Ḥull. 141ᵃ</cite> (for which <cite ref=\"Mishnah Chullin 12:4\">ib. XII, 4</cite> <he>מצות לא תעשה שיש בה קום עשה</he>). ",
+						"<cite ref=\"Yoma 85b:13\">Yoma 85ᵇ</cite> <he>לא תעשה שנ׳ לעשה</he>; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (v. Kal 2) <i>to enter a stage of moist decomposition</i>. Y. Naz. VII, 56ᵇ, v. <cite ref=\"N01133\"><he>נֵצֶל</he></cite>.—5) (denom. of <cite ref=\"N01389\"><he>נֶתֶק</he></cite>) <i>to become hairless and blanched, to be afflicted with</i> <cite ref=\"N01389\"><he>נֶתֶק</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 10:9\">Neg. X, 9</cite> <he>ונ׳ כל ראשו</he> and his entire head became bald (v. <cite ref=\"S01984\"><he>קָרַחַת</he></cite>). Sifra Thazr. l. c. <he>את שני׳ נתק בתוך נתק</he> a person that became afflicted with a bald spot within a patch of hair surrounded by baldness (<cite ref=\"Mishnah Negaim 10:7\">Neg. X, 7</cite> <he>שני נְתָקִין זה לפנים מזה</he>; a. fr.)."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

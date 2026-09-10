@@ -1,0 +1,24 @@
+{
+	"id": "T00654",
+	"slug": "ריס-1",
+	"headword": {
+		"text": "רִיס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1475,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>רסיס</he>; <cite ref=\"T00859\"><he>רָסַס</he></cite>, v. <cite ref=\"T00860\"><he>רְסַס</he></cite> 2; cmp. <cite ref=\"A03208\"><he>אֶרֶס</he></cite>) <i>drop, poison</i>. Pesik. Shek., p. 13ᵇ <he>כרִיסָהּ של עכנא</he> like the poison of a snake. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:14\">Gen. R. s. 98</cite> <he>רִיסוֹ מחלחל וכ׳</he> (some ed. <cite ref=\"A03111\"><he>אריסה</he></cite>), v. <cite ref=\"H01018\"><he>חִלְחֵל</he></cite>. ",
+				"<cite ref=\"Ruth Rabbah 6:4\">Ruth R. to III, 13</cite>; Y. Snh. X, 28ᵈ top, v. <cite ref=\"H00925\"><he>חֲכִינָה</he></cite>; a. e."
+			]
+		}
+	]
+}

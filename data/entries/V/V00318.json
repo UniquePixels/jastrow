@@ -1,0 +1,23 @@
+{
+	"id": "V00318",
+	"slug": "תורקין",
+	"headword": {
+		"text": "תּוֹרָקִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1658,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (θωράκιον) <i>parapet, tower</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:6\">Targ. Prov. VII, 6</cite> ed. Lag. (Ms. <cite ref=\"V00295\"><he>תּוֹרִיקִין</he></cite>, perh. <cite ref=\"V00295\"><he>תּוֹדִיקִין</he></cite> (fr. <cite ref=\"D00325\"><he>דּוּק</he></cite>)?; ed. Wil. <he>הרכין</he>; h. text <he>אשנב</he>)."
+			]
+		}
+	]
+}

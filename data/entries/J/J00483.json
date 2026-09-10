@@ -1,0 +1,41 @@
+{
+	"id": "J00483",
+	"slug": "יעידה",
+	"headword": {
+		"text": "יְעִידָה"
+	},
+	"page": {
+		"number": 584,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00476\"><he>יָעַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"J00480\"><he>יִעוּד</he></cite>. ",
+			"units": [
+				"<cite ref=\"Arakhin 25b\">Arakh. 25ᵇ</cite> the son stands in the place of his father <he>לי׳ ולעבד וכ׳</he> (Rashi: <he>לִיעָדָה</he>) with reference to acquiring his father’s handmaid as his wife and taking possession of the Hebrew slave for the ensuing term; <cite ref=\"Kiddushin 17b\">Kidd. 17ᵇ</cite> <he>ליעי׳</he> Ar. (ed. <cite ref=\"L00404\"><he>לִיעָ׳</he></cite>); <cite ref=\"Bava Batra 108b\">B. Bath. 108ᵇ</cite> <he>ליעי׳</he> Ms. M. (ed. <cite ref=\"L00404\"><he>לִיעָ׳</he></cite>); Sifra B’ḥuck. Par. 4, ch. X; <cite ref=\"Yalkut Shimoni on Torah 677:4\">Yalk. Lev. 677</cite> <cite ref=\"L00404\"><he>לִיעָ׳</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (ref. to <cite ref=\"Exodus 29:42\">Ex. XXIX, 42</cite> <he>אִוָּעֵד</he>) <i>appointment, divine call</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 14:21\">Num. R. s. 14</cite>, end; Sifra Vayikra <cite ref=\"Mishnah Parah 1\">Par. I</cite>, ch. II."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (= <cite ref=\"E00203\"><he>הוֹדָאָה</he></cite>) <i>statement of facts, testimony</i>. Ib. ch. II, Par. 2 <he>יְעִידַת עד אחד</he> the statement of one witness (opinion of one expert; v. ",
+			"units": [
+				"<cite ref=\"Temurah 28a\">Tem. 28ᵃ</cite>); <he>י׳ שני עדים</he> the statement of two witnesses."
+			],
+			"label": "3"
+		}
+	]
+}

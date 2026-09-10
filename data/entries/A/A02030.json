@@ -1,0 +1,23 @@
+{
+	"id": "A02030",
+	"slug": "אמיתי",
+	"headword": {
+		"text": "אֲמִיתִּי"
+	},
+	"page": {
+		"number": 77,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02072\"><he>אמת</he></cite>) <i>true, truthful</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 7:3:9\">Y. Ber. VII, 11ᶜ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 70\">Gen. R. s. 70</cite> do ye not admit <he>יעקב א׳</he> that Jacob was truthful? <cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite>. [In later Hebrew: <i>real</i>.]"
+			]
+		}
+	]
+}

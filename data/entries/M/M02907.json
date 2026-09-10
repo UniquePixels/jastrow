@@ -1,0 +1,24 @@
+{
+	"id": "M02907",
+	"slug": "משכן-4",
+	"headword": {
+		"text": "מִשְׁכָּן"
+	},
+	"page": {
+		"number": 855,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01173\"><he>שָׁכַן</he></cite>)<i>dwelling,</i> esp. <i>the sanctuary of the desert, the Tabernacle</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 2a:14\">Erub. 2ᵃ</cite>, v. <cite ref=\"M02384\"><he>מִקְדָּשׁ</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 12:16\">Num. R. s. 12</cite>; a. v. fr.—Pl. <he>מִשְׁכָּנוֹת</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 12:16\">Ib.</cite>; a. fr."
+			]
+		}
+	]
+}

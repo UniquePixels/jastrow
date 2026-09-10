@@ -1,0 +1,41 @@
+{
+	"id": "U01158",
+	"slug": "שכל-1",
+	"headword": {
+		"text": "שָׂכַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1574,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"O00909\"><he>סָכַל</he> I</cite>) <i>to be bright</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׂכִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be wise, understand; to consider, deliberate</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Mishlei 1:3\">Midr. Prov. to I, 3</cite> <he>כיון … צריך להַשְׂכִּיל היאך וכ׳</he> when a man is appointed judge, he must deliberate how to acquit the innocent &c.; <he>צריך להשכיל ולדקדק וכ׳</he> he must study and investigate the law, that he may not sin or lead to sin; Yalk. ib. 929 <he>צריך להשכיל היאך לדקדק וכ׳</he> he must deliberate how to carry out the law exactly &c. ",
+						"<cite ref=\"Midrash Tehillim 32:1\">Midr. Till. to Ps. XXXII</cite> (ref. to <cite ref=\"I Samuel 18:14\">I Sam. XVIII, 14</cite>, sq.) <he>ומפני שהיה מַשְׂכִּיל היה כסוי חטאה</he> and because he was wise, his sin was covered; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to look towards, face</i>; (cmp. <cite ref=\"O00918\"><he>סָכַם</he></cite>, a. <cite ref=\"K00296\"><he>כּוּן</he></cite>) <i>to be directed</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14:21\">Num. R. s. 14<sup>5</sup></cite>; <cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> (ref. to <he>שִׂכֵּל את ידיו</he>, <cite ref=\"Genesis 48:14\">Gen. XLVIII, 14</cite>) <he>הִשְׂכִּילוּ ידיו … לרוח הקדש</he> Jacob’s hands were directed towards (pointed to) the holy spirit."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

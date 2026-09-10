@@ -1,0 +1,23 @@
+{
+	"id": "I00769",
+	"slug": "טריא-2",
+	"headword": {
+		"text": "טַרְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 552,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00765\"><he>טְרִי</he></cite>) <i>dripping;</i> <he>מֵי ט׳</he> a sort of <i>ink</i>, prob. from wine-lees (v. Löw Graph. Requisiten, p. 158, p. 161). ",
+			"units": [
+				"<cite ref=\"Gittin 19a:14\">Gitt. 19ᵃ</cite>; <cite ref=\"Shabbat 104b:4\">Sabb. 104ᵇ</cite> (early eds. <cite ref=\"M01134\"><he>מיטריא</he></cite> in one w.; Rashi: ‘juice of a certain fruit’, oth. opin. ‘rain water’)."
+			]
+		}
+	]
+}

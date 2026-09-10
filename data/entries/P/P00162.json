@@ -1,0 +1,25 @@
+{
+	"id": "P00162",
+	"slug": "עדק-3",
+	"headword": {
+		"text": "עֲדָק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1045,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00161\"><he>עדק</he></cite>; cmp. <cite ref=\"H00205\"><he>חָדַק</he></cite>, a. <cite ref=\"P00161\">preced.</cite> wds.) <i>something squeezed together, compress</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 54b:11\">Sabb. 54ᵇ</cite> <he>טומנין לה ע׳ וכ׳</he> Ar. (ed. <cite ref=\"P00419\"><he>עֲזָק</he></cite>; Ms. O. <cite ref=\"P01444\"><he>עֲרָק</he></cite>, v. Rabb. D. S. a. l. note 70) we dip a compress in oil for her and put it &c.—Pl. <he>עֲדָקִין</he>. ",
+				"<cite ref=\"Shabbat 54b:11\">Ib.</cite> <he>שני ע׳ בשמן</he> (not <he>של שמן</he>; ed. <he>עֲזָקִין</he>, v. Rabb. D. S. a. l. note 90).—[<he>עדקין</he>, <cite ref=\"Targum Jonathan on Ezekiel 27:19\">Targ. Ezek. XXVII, 19</cite> some ed., v. <cite ref=\"P01445\"><he>עַרְקָא</he></cite>.—",
+				"<cite ref=\"Sanhedrin 11b\">Snh. 11ᵇ</cite>, v. <cite ref=\"D00942\"><he>דַּעְדַּק</he></cite>.]"
+			]
+		}
+	]
+}

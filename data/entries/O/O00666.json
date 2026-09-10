@@ -1,0 +1,27 @@
+{
+	"id": "O00666",
+	"slug": "סיליקראות",
+	"headword": {
+		"text": "סִילִיקְרָאוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִילִקְרָ׳"
+		}
+	],
+	"page": {
+		"number": 980,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a denom. of <he>סִילִיקָר</he> = <he>סִירִי׳</he>, sericarius, sub. textor) <i>silk-weaver’s trade</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 25:1\">Pesik. R. s. 25</cite>; [<cite ref=\"Midrash Tehillim 8\">Midr. Till. to Ps. VIII</cite>, ed. Bub. <he>סריקה שירקירים</he> (note: <he>סריקה סירקיריס</he>) read: <he>סִירִיקָרְיוּס</he>, sub. <cite ref=\"A00708\"><he>אומנות</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 639\">Yalk. Ps. 639</cite> <cite ref=\"O00860\"><he>סירקי</he></cite>, <he>סיריקי</he>, read: <cite ref=\"O00852\"><he>סִירִיקָר</he></cite>].—V. <he>סרקאריס</he>."
+			]
+		}
+	]
+}

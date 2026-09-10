@@ -1,0 +1,57 @@
+{
+	"id": "I00250",
+	"slug": "טוש-3",
+	"headword": {
+		"text": "טוּשׁ"
+	},
+	"page": {
+		"number": 527,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00249\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:40\">Targ. Y. Deut. XXVIII, 40</cite> <he>תטושון</he> Ar. (ed. <he>תשוטון</he>, corr. acc. or <he>תשועון</he>, v. <cite ref=\"U00475\"><he>שׁוּע</he></cite>) you will oint yourselves. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 14:42\">Targ. Y. II, Lev. XIV, 42</cite> <he>ויטשון</he> (read <he>וִיטוּשׁוּן</he>) shall plaster over; (Targ. Y. I <he>ויִתְטַשׁ</he> <i>Ithpa.</i>).—",
+				"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite>, end <he>וטָשִׁין מותיה</he> (not <he>וטושין</he>) and paste the plaster on its scull."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְטַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be plastered</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 14:43\">Targ. Y. Lev. XIV, 43</cite>; <cite ref=\"Targum Jonathan on Leviticus 14:48\">48</cite>; v. supra."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["טַשְׁטֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to smear over, to make muddy</i>. Part. pass. <he>מְטַשְׁטַשׁ</he>; v. infra.",
+					"units": []
+				}
+			],
+			"stem": "Palp."
+		},
+		{
+			"forms": ["אִיטַּשְׁטֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be smeared over, to be made muddy</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 16:16\">Targ. Job. XVI, 16</cite> <he>מִטַּ׳</he> Ms. (ed. <he>מְטַ׳</he>; h. text <he>חמרמר׳</he>); <cite ref=\"Aramaic Targum to Psalms 46:4\">Targ. Ps. XLVI, 4</cite> (h. text <he>חמר</he>; cmp. <cite ref=\"H01229\"><he>חֵמָרָא</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

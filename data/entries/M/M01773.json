@@ -1,0 +1,118 @@
+{
+	"id": "M01773",
+	"slug": "מני-6",
+	"headword": {
+		"text": "מְנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְנָא"
+		}
+	],
+	"page": {
+		"number": 800,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01772\">same</cite><i>to count</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:9\">Targ. Ps. LXXVIII, 9</cite> <cite ref=\"M01734\"><he>מנו</he></cite> (<cite ref=\"L00000\"><he>ל</he></cite>)<he>קיצא</he> (ed. Lag. <he>מיני</he>, corr. acc.) they calculated the term (of redemption). ",
+				"<cite ref=\"Onkelos Numbers 1:44\">Targ. Num. I, 44</cite>; <cite ref=\"Onkelos Numbers 1:49\">49</cite>; a. fr.—",
+				"<cite ref=\"Menachot 66a:16\">Men. 66ᵃ</cite> <he>למִימְנֵי יומי וכ׳</he> to count the days … and the weeks (of the ʿOmer. ",
+				"<cite ref=\"Menachot 66a:16\">Ib.</cite> <he>רבנן … מְנוֹ יוֹמֵי וכ׳</he> Ms. M. (ed. <cite ref=\"M01772\"><he>מני</he></cite>) the scholars of … counted the days but not the weeks. ",
+				"<cite ref=\"Chullin 60b:3\">Ḥull. 60ᵇ</cite> <he>לִימְנוּ בך וכ׳</he> the Israelites shall count days and years after thee (the moon); a. fr.—[<cite ref=\"Yalkut Shimoni on Nach 337\">Yalk. Is. 337</cite> <he>דמניין</he>, v. <cite ref=\"M00395\"><he>מוּג</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to appoint</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַנֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to appoint, ordain</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 41:33\">Targ. O. Gen. XLI, 33</cite>, sq. (Y. <i>Pe.</i>); a. fr.—Y. Bicc. III, 65ᶜ bot. <he>הוון בעיין מְמַנִּיתֵיה</he> they wanted to ordain him; ib.ᵈ top <he>מְמַנְּיֵיה</he>. ",
+						"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>ומַנּוּנֵיה</he> and they ordained him. ",
+						"<cite ref=\"Sotah 40a:8\">Sot. 40ᵃ</cite> <he>אִימְּנוּ רבנן עליה לממנייה ברישא</he> the scholars agreed to appoint him first; a. fr.—<i>Part. pass.</i> <cite ref=\"M03085\"><he>מְמַנָּא</he></cite>, <he>מְמַנִּי</he>; pl. <he>מְמַנָּן</he> <i>appointed; officer</i> (v. <cite ref=\"M01653\"><he>מְמוּנֶּה</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Numbers 2:5\">Targ. Y. Num. II, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 37:13\">Targ. Jer. XXXVII, 13</cite>. ",
+						"<cite ref=\"Targum of I Chronicles 9:19\">Targ. I Chr. IX, 19</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to assign, commit</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 31:6\">Targ. Ps. XXXI, 6</cite>. (h. text <cite ref=\"Q01450\"><he>אפקיד</he></cite>). ",
+						"<cite ref=\"Targum of II Chronicles 12:10\">Targ. II Chr. XII, 10</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַמְנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to register, enter, designate for a share</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 89a:18\">Pes. 89ᵃ</cite> <he>דאַמְנִינְהוּ מעיקרא</he> that he had originally designated them for participation in the Passover meal; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to take a vote</i>. Ib. 52ᵃ <he>מַמְנוּ</he> Ms. M. (ed. <he>ממינן</he>, read <he>מַמְנִין</he>), v. <cite ref=\"N00122\"><he>נִגְדָּא</he> II</cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְמַנִּי", "אִתְמַנָּא"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְמְנִי", "אִימְּנִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be numbered, counted; to vote</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 2:33\">Targ. Num. II, 33</cite>; a. fr.—",
+						"<cite ref=\"Sotah 40a:7\">Sot. 40ᵃ</cite>, v. supra. ",
+						"<cite ref=\"Gittin 56b\">Gitt. 56ᵇ</cite> <he>ואִימְּנוּ להו חשיבי וכ׳</he> (not <he>ואמינא … חשיבא</he>) the nobles of Rome have agreed to place thee at the head; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be appointed; to be ordained</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 110:4\">Targ. Ps. CX, 4</cite>; <cite ref=\"Aramaic Targum to Psalms 110:6\">6</cite>; a. fr.—Y. Bicc. l. c. <he>חד מן אילין דמיתמני בכסף</he> (read: <he>דמִיתְמַנִּין</he>) one of those ordained for money’s sake. ",
+						"<cite ref=\"Yoma 2a:8\">Ib.</cite> (adapting <cite ref=\"Habakkuk 2:19\">Hab. II, 19</cite>) <he>לא בכספייא אי׳ וכ׳</he> has he not been ordained for money? &c. ",
+						"<cite ref=\"Habakkuk 2:19\">Ib.</cite> <he>לא קבל עלוי מִתְמַנֵּי</he> he would not allow himself to be ordained; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be designated for a share</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 12:4\">Targ. O. Ex. XII, 4</cite>.—",
+						"<cite ref=\"Pesachim 89a\">Pes. 89ᵃ</cite> <he>ונִימְּנִינְהוּ בהדי כל חד וחד</he> Ms. M. (Ms. O. <he>ונִימְּנֵי כל חד וחד בהדיה</he>; ed. <he>ונימני עילויה הני וכ׳</he>, read <he>עילוי דהני</he>; v. Rabb. D. S. a. l. note) and let them be designated as participants with each of them (and let each of them be designated &c.). ",
+						"<cite ref=\"Pesachim 89a:18\">Ib.</cite> <he>בתר דשחיט מי קא מתמני</he> after the lamb is slaughtered how can he be entered? <cite ref=\"Pesachim 60b:10\">Ib. 60ᵇ</cite> <he>ומִימְּנוּ עילויה אחריני</he> (v. Rabb. D. S. a. l. note 200) and other persons will be entered for a share in it; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

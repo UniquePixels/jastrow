@@ -1,0 +1,24 @@
+{
+	"id": "M00964",
+	"slug": "מטבחים",
+	"headword": {
+		"text": "מִטְבָּחִים"
+	},
+	"page": {
+		"number": 765,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"I00041\"><he>טָבַח</he></cite>) <i>slaughtering</i>; <he>בית המ׳</he> <i>slaughtering place</i> (in the Temple). ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 3:5\">Midd. III, 5</cite> (Mish. ed. <cite ref=\"M00964\"><he>מִטְבָּחַיִים</he></cite>). ",
+				"<cite ref=\"Pirkei Avot 5:5\">Ab. V, 5</cite> (Strack a. other pointed ed. read <cite ref=\"M00964\"><he>מַטְבָּחַיִם</he></cite>)."
+			]
+		}
+	]
+}

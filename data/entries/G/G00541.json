@@ -1,0 +1,42 @@
+{
+	"id": "G00541",
+	"slug": "זמר-3",
+	"headword": {
+		"text": "זָמַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 405,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00526\"><he>זָמַם</he> I</cite>)<i>to tingle, make music, sing</i>. V. <cite ref=\"G00544\"><he>זֶמֶר</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִמֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to sing one’s praise</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:16\">Cant. R. to II, 16</cite> <he>הוא זִמְּרַנִי … זִמַּרְתִּיו</he> (or <he>זְמָרַנִי</he>, <he>זְמַרְתִּיו</he>) He praised me, and I &c.—",
+						"<cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite>, end (expl. <he>מזמרת</he>, <cite ref=\"Genesis 43:11\">Gen. XLIII, 11</cite>) <he>דברים שהן מְזַמְּרִין וכ׳</he> things which men praise all over the world."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to review a lesson in recitative chant</i> (v. <cite ref=\"G00554\"><he>זִמְרָה</he></cite>). ",
+					"units": [
+						"<cite ref=\"Sanhedrin 99b:1\">Snh. 99ᵇ</cite> top <he>זַמֵּר בכל יום</he> chant every day; <cite ref=\"Tosefta Ohalot 16:8\">Tosef. Ohol. XVI, 8</cite> <he>זַ׳ בי תדירה זַ׳</he> (the Law says) review me steadily &c.; <cite ref=\"Tosefta Ohalot 16:8\">ib.</cite> ",
+						"<cite ref=\"Mishnah Parah 4:7\">Par. IV</cite> (<cite ref=\"Mishnah Parah 3:7\">III</cite>), 7; cmp. <cite ref=\"C01067\"><he>גְּמָרָא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

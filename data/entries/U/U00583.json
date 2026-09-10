@@ -1,0 +1,26 @@
+{
+	"id": "U00583",
+	"slug": "שותא-4",
+	"headword": {
+		"text": "שׁוּתָּא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּתָא"
+		}
+	],
+	"page": {
+		"number": 1544,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ") f. (= <cite ref=\"U00371\"><he>שוחתא</he></cite>; cmp. <cite ref=\"U00362\"><he>שׁוּחַ</he></cite>) <i>trap</i> made of <i>frame work</i> or <i>a block</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 117a:17\">B. Kam. 117ᵃ</cite> <he>ההוא ש׳ דהוו וכ׳</he> two men had a dispute about a trap (and the animals caught in it). ",
+				"<cite ref=\"Shabbat 124b:4\">Sabb. 124ᵇ</cite> <he>אייתו ליה ש׳ וכ׳</he> bring a trap for Kahana to sit on; <he>הכי אמר להו שקולו ש׳ וכ׳</he> thus he said to them, remove the trap to make room for Kahana."
+			]
+		}
+	]
+}

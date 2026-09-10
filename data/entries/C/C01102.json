@@ -1,0 +1,33 @@
+{
+	"id": "C01102",
+	"slug": "גנובתא-2",
+	"headword": {
+		"text": "גְּנוּבְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 257,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גנב</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>theft, stolen object</i>, v. <cite ref=\"C01137\"><he>גְּנֵיבוּתָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fallacy, fallacious reply</i> (v. <cite ref=\"C01078\"><he>גָּנַב</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 44b:10\">Ab. Zar. 44ᵇ</cite> <he>מאי גְּנוּבְתֵּיה</he> wherein lies the fallacy of his answer? <cite ref=\"Avodah Zarah 44b:10\">Ib.</cite> <he>גְּנוּבְתָּהּ מהכא</he> its fallacy comes in from here (consists in this)."
+			],
+			"label": "2"
+		}
+	]
+}

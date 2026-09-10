@@ -1,0 +1,23 @@
+{
+	"id": "C00847",
+	"slug": "גיתי",
+	"headword": {
+		"text": "גֵּיתֵי"
+	},
+	"page": {
+		"number": 243,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"C00846\">preced.</cite>, cmp. <cite ref=\"C00020\"><he>גֵּאִים</he></cite>) <i>haughtiness, tyranny</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 114a:12\">B. Kam. 114ᵃ</cite> <he>דדייני בג׳</he> (Rashi <he>בגֵיוְתָא</he>, Ms. H. <he>בגֵּיוְתָה</he>, Ms. R. <he>בגֵוְתֵי</he>, v. Rabb. D. S. a. l. note 2 for Var. lect.) whom they (the gentile judges) convict tyrannically (not listening to arguments), opp. to Jewish judges who go by argument, points of law &c. [Rashi a. v. <cite ref=\"M00156\"><he>מגיזתא</he></cite>, <cite ref=\"Bava Metzia 30b\">B. Mets. 30ᵇ</cite>, quotes our w. <cite ref=\"C00689\"><he>גִּיזְתַּיָּא</he></cite>; Ms. F. has <he>גִּיזְתֵּי</he>, fr. <he>גזז</he> with, anomalous pl. <i>arbitrary decisions</i>, v. <cite ref=\"M00156\"><he>מְגִיזְתָּא</he></cite>.]"
+			]
+		}
+	]
+}

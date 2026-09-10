@@ -1,0 +1,23 @@
+{
+	"id": "V00013",
+	"slug": "תאוביא",
+	"headword": {
+		"text": "תְּאוּבַיָּא"
+	},
+	"page": {
+		"number": 1641,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>תּוּב</he> I) <i>those returning, coming</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:33\">Targ. Y. I Gen. XXI, 33</cite>."
+			]
+		}
+	]
+}

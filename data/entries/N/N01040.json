@@ -1,0 +1,25 @@
+{
+	"id": "N01040",
+	"slug": "נפיחה",
+	"headword": {
+		"text": "נְפִיחָה"
+	},
+	"page": {
+		"number": 923,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01025\"><he>נָפַח</he></cite>) <i>blowing, breath</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:5:7\">Y. Sabb. II, 5ᵃ</cite> bot. <he>הבעיר וכיבה בנ׳ אחת</he> if he ignited and extinguished in one continued act of blowing. ",
+				"<cite ref=\"Bereishit Rabbah 14:8\">Gen. R. s. 14</cite>, end <he>בעולם הזה בנ׳ וכ׳</he> in this world the breath of life is put in by blowing (<cite ref=\"Genesis 2:7\">Gen. II, 7</cite>), … but in the coming world by placing (<cite ref=\"Ezekiel 37:6\">Ez. XXXVII, 6</cite>). ",
+				"<cite ref=\"Ezekiel 37:6\">Ib.</cite> <he>ומה אם זה שעשוי בנְפִיחָתוֹ של בשר ודם וכ׳</he> if this (glass) which is produced by the blowing of a human being, can be restored (when broken) &c.; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:7:4\">Y. Meg. III, 74ᵇ</cite> bot. <he>בנ׳ אחת</he> in one breath (v. <cite ref=\"N01314\"><he>נְשִׁימָה</he></cite>).—[<cite ref=\"Ruth Rabbah 5:12\">Ruth R. to III, 3</cite> <he>אזל נפיחה</he>, v. <cite ref=\"N01037\"><he>נְפֵי</he></cite>.]"
+			]
+		}
+	]
+}

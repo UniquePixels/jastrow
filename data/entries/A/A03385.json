@@ -1,0 +1,27 @@
+{
+	"id": "A03385",
+	"slug": "אשתממו",
+	"headword": {
+		"text": "אִשְׁתְּמָמוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִשְׁתְּמָמוּתָא"
+		}
+	],
+	"page": {
+		"number": 131,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שמם</he>) <i>desolation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zephaniah 2:13\">Targ. Zeph. II, 13</cite>; a. e."
+			]
+		}
+	]
+}

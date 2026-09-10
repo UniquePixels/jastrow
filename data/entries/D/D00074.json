@@ -1,0 +1,43 @@
+{
+	"id": "D00074",
+	"slug": "דבק-3",
+	"headword": {
+		"text": "דֶּבֶק"
+	},
+	"page": {
+		"number": 278,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"D00073\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>glue, paste</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:11\">Y. Meg. I, 71ᵈ</cite> top, v. <cite ref=\"D00072\"><he>דָּבַק</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 8:4\">Sabb. VIII, 4</cite>, v. <cite ref=\"U00193\"><he>שַׁבְשֶׁבֶת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>junction</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 50a:17\">Ḥull. 50ᵃ</cite> <he>מקום הד׳</he> the place where the entrails adhere to the hip.—Pl. <he>דְּבָקִים</he> <i>followers</i>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 824:3\">Yalk. Deut. 824</cite> <he>אתם ודִבְקֵיכֶם</he> ye and your followers."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>nexus, cause</i>. Pl. as above; constr. <he>דִּבְקֵי</he>, <he>דִּיבְ׳</he>.—<he>ד׳ מיתה</he> duties the neglect of which is the cause of premature death. ",
+			"units": [
+				"<cite ref=\"Shabbat 32a:7\">Sabb. 32ᵃ</cite> (a Variant of <he>בדקי</he>, v. <cite ref=\"B00157\"><he>בֶּדֶק</he></cite>); Y. ib. II, 5ᵇ bot.; <cite ref=\"Tosefta Shabbat 2:10\">Tosef. ib. II, 10</cite> <cite ref=\"D00072\"><he>דיבק</he></cite> ed. Zuck. (corr. acc.); <cite ref=\"Berakhot 31b:6\">Ber. 31ᵇ</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "S00189",
+	"slug": "קדריתא",
+	"headword": {
+		"text": "קַדְרִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַדָּרֵיתָא"
+		}
+	],
+	"page": {
+		"number": 1319,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קְדַר</he> II) <i>black</i>; trnsf. <i>miserable</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:6\">Targ. Cant. I, 6</cite>."
+			]
+		}
+	]
+}

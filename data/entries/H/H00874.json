@@ -1,0 +1,28 @@
+{
+	"id": "H00874",
+	"slug": "חירוף",
+	"headword": {
+		"text": "חֵירוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִרוּף"
+		}
+	],
+	"page": {
+		"number": 460,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01739\"><he>חָרַף</he></cite>) <i>blasphemy</i>.—Pl. <cite ref=\"H00875\"><he>חֵירוּפִין</he></cite>, <cite ref=\"H00875\"><he>חֵר׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 41\">Ex. R. s. 41</cite>, beg. ",
+				"<cite ref=\"Vayikra Rabbah 7\">Lev. R. s. 7</cite>; a. fr."
+			]
+		}
+	]
+}

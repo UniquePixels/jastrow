@@ -1,0 +1,42 @@
+{
+	"id": "P00774",
+	"slug": "עלוב",
+	"headword": {
+		"text": "עָלוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲלוּבָה"
+		}
+	],
+	"page": {
+		"number": 1080,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00765\"><he>עָלַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>insulted, humbled, submissive, lowly; ill-fated, poor</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 29a:6\">Meg. 29ᵃ</cite> <he>ע׳ ואינו ע׳ מי נדחה מפני מי</he> if one is submissive, and the other is not, which will yield?; <cite ref=\"Taanit 16a:12\">Taan. 16ᵃ</cite> (v. Rabb. D. S. a. l. note 50); <cite ref=\"Yalkut Shimoni on Nach 551:1\">Yalk. Jon. 551</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 40:1\">Pesik. R. s. 40</cite> <he>הא ע׳ בן של ע׳</he> O, thou hapless one, son of a hapless mother!; Tanḥ. Vayera 22; ed. Bub. 46; (<cite ref=\"Bereishit Rabbah 56:4\">Gen. R. s. 56</cite> <he>ברא דעלובתא</he>). ",
+				"<cite ref=\"Sifrei Devarim 306:1\">Sifré Deut. 306</cite>; <cite ref=\"Yalkut Shimoni on Nach 938:4\">Yalk. Prov. 938</cite> (ref. to <cite ref=\"Proverbs 6:6\">Prov. VI, 6</cite>) <he>ע׳ היה האדם הזה שצריך ללמוד … ע׳ היה וכ׳</he> (<he>ע׳ הוא</he>) it was a (sufficient) humiliation for man that he had to learn from the ant; had he learned and acted (accordingly), he would have been sufficiently humbled, but he was to have learned, and did not. ",
+				"<cite ref=\"Bereishit Rabbah 34:10\">Gen. R. s. 34</cite>, v. <cite ref=\"P00629\"><he>עִיסָה</he></cite>.—Pl. <he>עֲלוּבִים</he>, <he>עֲלוּבִין</he>. ",
+				"<cite ref=\"Shabbat 88b:2\">Sabb. 88ᵇ</cite>, v. <cite ref=\"P00765\"><he>עָלַב</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 45:4\">Gen. R. s. 45</cite>, end, v. <cite ref=\"P00767\"><he>עֶלְבּוֹן</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P00766\"><he>עֲלַב</he></cite> <i>Ithpe.</i> 2) <i>arrogant, insolent</i>. Sabb. l. c. <he>ע׳ כלה מזנה</he> impudent is &c., v. <cite ref=\"G00569\"><he>זָנָה</he></cite>; <cite ref=\"Shir HaShirim Rabbah 8:5:1\">Cant. R. to VIII, 5</cite>; <cite ref=\"Gittin 36b:11\">Gitt. 36ᵇ</cite> (quoted to prove the meaning of <cite ref=\"P00249\"><he>עוּלְבָּנָא</he></cite> = <cite ref=\"H00437\"><he>חוּצְפָּא</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

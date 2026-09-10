@@ -1,0 +1,23 @@
+{
+	"id": "S00750",
+	"slug": "קטין-1",
+	"headword": {
+		"text": "קַטִּין",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḳaṭṭin</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:10\">Yoma III, 10</cite> (<cite ref=\"Yoma 37a:15\">37ᵃ</cite>) <he>בן ק׳</he> (Ms. O. <cite ref=\"S00794\"><he>קטן</he></cite>) Ben Ḳ.; Tosef. ib. II, 2; <cite ref=\"Jerusalem Talmud Shekalim 5:1:2\">Y. Shek. V, beg. 48ᶜ</cite>"
+			]
+		}
+	]
+}

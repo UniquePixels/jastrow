@@ -1,0 +1,24 @@
+{
+	"id": "M01698",
+	"slug": "מנא-1",
+	"headword": {
+		"text": "מְנָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מָנָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 796,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>who?, what?</i>, v. <cite ref=\"M01696\"><he>מַן</he> II</cite>.",
+			"units": []
+		}
+	]
+}

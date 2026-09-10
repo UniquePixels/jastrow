@@ -1,0 +1,30 @@
+{
+	"id": "D00007",
+	"slug": "דאבונא",
+	"headword": {
+		"text": "דָּאבוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּבוֹנָא"
+		},
+		{
+			"text": "דָּוָונָא"
+		}
+	],
+	"page": {
+		"number": 275,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"D00006\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:14\">Targ. Job XLI, 14</cite> (<he>דאב׳</he> fem., h. text <he>דאבה</he>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 13:3\">Targ. Ps. XIII, 3</cite> <he>דב׳</he> Ms. (ed. <he>דוו׳</he>; h. text <cite ref=\"J00081\"><he>יגון</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 21:30\">Targ. Y. Num. XXI, 30</cite> <he>בִּדְבוֹ׳</he> (some ed. <he>כְּדָ׳</he>, h. text <cite ref=\"D00466\"><he>דיבון</he></cite>, cmp. ",
+				"<cite ref=\"Bava Batra 79a\">B. Bath. 79ᵃ</cite>, s. v. <cite ref=\"D00005\"><he>דָּאַב</he></cite>); a. e."
+			]
+		}
+	]
+}

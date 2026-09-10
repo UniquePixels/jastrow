@@ -1,0 +1,31 @@
+{
+	"id": "A00995",
+	"slug": "אחד-2",
+	"headword": {
+		"text": "אָחַד"
+	},
+	"page": {
+		"number": 38,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"H00256\"><he>חוּד</he></cite>, v. <he>חוּד</he> I) <i>to join, close</i>. <i>Part. pass.</i> <he>אָחוּד</he>, pl. <he>אֲחוּדִים</he>",
+			"units": []
+		},
+		{
+			"gloss": "<i>closed up, mysterious</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 62:6\">Yalk. Gen. 62</cite>, v. <cite ref=\"A00994\">foreg.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>joined, united</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 38:6\">Gen. R. s. 38</cite> (ref. to <cite ref=\"Genesis 11:1\">Gen. XI, 1</cite>, v. <cite ref=\"A00994\">foreg.</cite>) <he>דברים א׳</he> common goods, communism."
+			],
+			"label": "2"
+		}
+	]
+}

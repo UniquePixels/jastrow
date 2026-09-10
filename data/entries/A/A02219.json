@@ -1,0 +1,27 @@
+{
+	"id": "A02219",
+	"slug": "אניאקא",
+	"headword": {
+		"text": "אַנְיָאקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְיָיקָא"
+		}
+	],
+	"page": {
+		"number": 84,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (v. <cite ref=\"A00742\"><he>אוּנְיָיקִי</he></cite>) an abbreviation of <he>בית אונייקי</he>, <i>Bithynia</i>, a district of Asia Minor. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 46b:10\">B. Mets. 46ᵇ</cite> <he>דינר א׳</he> the Denars issued in Bithynia; v. <cite ref=\"A02104\"><he>אַנִּגְרָא</he></cite> for var. lect."
+			]
+		}
+	]
+}

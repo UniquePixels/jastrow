@@ -1,0 +1,24 @@
+{
+	"id": "M00206",
+	"slug": "מגפתא",
+	"headword": {
+		"text": "מַגֵּפְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַגֵּיפְ׳"
+		}
+	],
+	"page": {
+		"number": 730,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h. <cite ref=\"M00204\"><he>מַגֵּפָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 25:8\">Targ. Y. II, Num. XXV, 8</cite> <he>פָתָא …</he> (corr. acc.)."
+			]
+		}
+	]
+}

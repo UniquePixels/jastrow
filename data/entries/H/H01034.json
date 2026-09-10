@@ -1,0 +1,27 @@
+{
+	"id": "H01034",
+	"slug": "חליז-1",
+	"headword": {
+		"text": "חִלִּיז"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִילִּ׳"
+		}
+	],
+	"page": {
+		"number": 468,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01013\"><he>חִלָּזוֹן</he></cite>) <i>one afflicted with an eye-disease called</i> <cite ref=\"H01013\"><he>חִלָּזוֹן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:20\">Targ. O. Lev. XXI, 20</cite> (ed. Berl. <cite ref=\"H01053\"><he>חִלִּין</he></cite>, v. Berl. Masorah p. 72)."
+			]
+		}
+	]
+}

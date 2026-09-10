@@ -1,0 +1,28 @@
+{
+	"id": "Q00003",
+	"slug": "פאבי",
+	"headword": {
+		"text": "פָּאבִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיאָבִי"
+		}
+	],
+	"page": {
+		"number": 1130,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f. (Φοίβη) <i>Pabi, Piabi</i>, mother of a priest Ishmael. ",
+			"units": [
+				"<cite ref=\"Tosefta Yoma 1:21\">Tosef. Yoma I, 21</cite> (ed. Zuck. <he>פואבי</he>, Var. <he>פא׳</he>, <he>פיא׳</he>); Y. ib. III, 40ᵈ top <he>פיא׳</he>; Bab. ",
+				"<cite ref=\"Yoma 35b:4\">ib. 35ᵇ</cite> <he>פא׳</he> (Ms. M. <he>פיא׳</he>); a. e.; v. <cite ref=\"J00694\"><he>יִשְׁמָעאֵל</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"id": "C00455",
+	"slug": "גוף-1",
+	"headword": {
+		"text": "גּוּף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 224,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", perf. a. part. <cite ref=\"C01195\"><he>גָּף</he></cite> (= <cite ref=\"C01211\"><he>גָּפַף</he></cite>) [<i>to join</i> body to body,] <i>to squeeze, cork, bung</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 6b\">Nidd. 6ᵇ</cite> <he>היתה גָּפָה וכ׳</he> was corking (pitching) wine jugs. ",
+				"<cite ref=\"Moed Katan 11b:7\">M. Kat. 11ᵇ</cite> <he>כדו לָגוֹף</he> we take for the mourner his wine jug for corking. [<cite ref=\"Moed Katan 11b:7\">Ib.</cite> Mish. ",
+				"<cite ref=\"Mishnah Moed Katan 2:1\">ib. II, 1</cite> <he>וגף</he>, omitted in Ms. M., v. Rabb. D. S. a. l. note.] <cite ref=\"Mishnah Maaser Sheni 3:12\">Maas. Sh. III, 12</cite> <he>אע״פ שגָּפָן</he>; <cite ref=\"Tosefta Ma'aser Sheni 2:18\">Tosef. ib. II, 18</cite> <he>שגָּפָם</he> (Var. <he>גּוֹפָם</he> fr. <cite ref=\"C01200\"><he>גָּפָה</he></cite>) though he corked them; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּיֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to embrace, hug</i>. Y. Yoma III, 41ᵃ <he>גִּיְּיפוֹ</he> he put his arms around it.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵגִיף"],
+			"senses": [
+				{
+					"gloss": " (<cite ref=\"Nehemiah 7:3\">Neh. VII, 3</cite>) <i>to fill up</i> (a hole), <i>close</i> (a door), <i>fasten</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 6:1\">Par. VI, 1</cite>. Ohol. XIII, 3 <he>הֵגִיפָהּ ולא וכ׳</he> he filled the hole out but not entirely. ",
+						"<cite ref=\"Mishnah Zavim 3:2\">Zab. III, 2</cite> <he>מֵגִיפִין או פותחין</he> if both close or open a door simultaneously. ",
+						"<cite ref=\"Tosefta Ohalot 14:1\">Tosef. Ohol. XIV, 1</cite>; a. e.—Part. pass. <he>מוּגָף</he> fastened. Y. Keth. VII, 31ᶜ <he>מ׳ צריכה</he> if the door (behind the suspected couple) was closed (but not locked), it is doubtful (whether the woman is to be considered a <i>Sotah</i>, v. <cite ref=\"O00286\"><he>סוֹטָה</he></cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

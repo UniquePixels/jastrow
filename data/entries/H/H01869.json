@@ -1,0 +1,71 @@
+{
+	"id": "H01869",
+	"slug": "חשש-2",
+	"headword": {
+		"text": "חֲשַׁשׁ"
+	},
+	"page": {
+		"number": 512,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01868\">same</cite><i>to suffer</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:16\">Y. M. Kat. III, 82ᵈ</cite> top <he>פומיה הוא ח׳</he> he has an ailing on his mouth (and therefore ties it up). ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:16:2\">Cant. R. to II, 16</cite> <he>ועבד ח׳ וכ׳</he> and continued suffering with fever for three years; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be affected, troubled; to care, apprehend</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 28:17\">Targ. Prov. XXVIII, 17</cite> <he>דחָשֵׁישׁ וכ׳</he> he who is troubled (feels compunction) about blood-guiltiness (h. text <he>עשק</he>); a. e.—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:11\">Y. M. Kat. III, 81ᵈ</cite> bot. <he>צריך את חשש על נפשך</he> thou must mind the excommunication for thy soul’s sake. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:11\">Ib.</cite> <he>חַשׁ על נפשיה</he> he minded the excommunication. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:11\">Ib.</cite> <he>וחַשּׁוּן אילין על אילין</he> they minded each the other’s excommunication. ",
+				"<cite ref=\"Ketubot 26b:2\">Keth. 26ᵇ</cite> <he>במֵיחַשׁ לזילותא וכ׳</he> they differ as to providing against the disregard of the court; a. fr. (interch. with <cite ref=\"H00488\"><he>חוּשׁ</he></cite>)—["
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (= <cite ref=\"H01801\"><he>חֲשָׁא</he></cite>) <i>to whisper, hiss</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 6:29\">Targ. Jer. VI, 29</cite> <cite ref=\"H01800\"><he>חַשׁ</he></cite> (ed. Wil. <cite ref=\"H01801\"><he>חֲשָׁא</he></cite>).]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְחֲשַׁשׁ", "אִיחֲ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to become sick</i>. Cant. R. l. c. <he>אתח׳ ר׳ חנינא</he> (Var. <cite ref=\"H01761\"><he>אִחֲ׳</he></cite>; ed. Wil. <he>אתשש</he>, corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["חַשְׁחֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to feel</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 11:12\">Targ. Y. Num. XI, 12</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to care for</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 141:1\">Targ. Ps. CXLI, 1</cite> Regia (ed. <cite ref=\"H00890\"><he>חִישׁ</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Palp."
+		}
+	]
+}

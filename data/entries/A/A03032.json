@@ -1,0 +1,22 @@
+{
+	"id": "A03032",
+	"slug": "ארומאה",
+	"headword": {
+		"text": "אֲרוֹמָאָה"
+	},
+	"page": {
+		"number": 116,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. <i>Roman</i>. Pl. <he>אֲרוֹמָאֵי</he>. ",
+			"units": [
+				"<cite ref=\"Gittin 17a\">Gitt. 17ᵃ</cite>; cmp. <cite ref=\"A03167\"><he>אֲרַמָּאָה</he></cite>."
+			]
+		}
+	]
+}

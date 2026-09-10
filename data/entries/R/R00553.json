@@ -1,0 +1,30 @@
+{
+	"id": "R00553",
+	"slug": "צמא-1",
+	"headword": {
+		"text": "צָמֵא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "צְמֵאָה"
+		}
+	],
+	"page": {
+		"number": 1286,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) [<i>shrunk</i>,] <i>parched, thirsty</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 22b:19\">Taan. 22ᵇ</cite> <he>לא שכורה ולא צ׳</he> that the ground be neither drunk (oversated) nor thirsty; a. e.—Pl. <he>צְמֵאִים</he>, <he>צְמֵאִין</he>; <he>צְמֵאוֹת</he>. ",
+				"<cite ref=\"Midrash Tehillim 109:13\">Midr. Till. to Ps. CXVIII, 19</cite> <he>משקה צ׳ הייתי</he> I used to give drink to the thirsty; <he>והם אומרים לו זה השער לה׳ משקה צ׳ הכנס בו</he> ed. Bub. and they (in heaven) say to him, ‘this is the gate of the Lord’, thou, who hast been a giver of drink to the thirsty, enter thereby. ",
+				"<cite ref=\"Midrash Tehillim 22:10\">Midr. Till. to Ps. XXII</cite> <he>וכשצ׳ כל החיות וכ׳</he> and when they are thirsty, all the beasts gather around her (the hind) &c.; a. e."
+			]
+		}
+	]
+}

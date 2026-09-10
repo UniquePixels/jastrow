@@ -1,0 +1,28 @@
+{
+	"id": "S01332",
+	"slug": "קליטה-1",
+	"headword": {
+		"text": "קְלִיטָה"
+	},
+	"page": {
+		"number": 1376,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01307\"><he>קָלַט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>receiving, offering an asylum</i>. ",
+			"units": [
+				"<cite ref=\"Makkot 13a:2\">Macc. 13ᵃ</cite> <he>מר סבר לכם לק׳ וכ׳</he> one scholar is of the opinion, ‘unto you’ (<cite ref=\"Numbers 35:12\">Num. XXXV, 12</cite>) means yours merely as an asylum (<cite ref=\"M02427\"><he>מקלט</he></cite>, where the refugees have to support themselves), the other is of the opinion, ‘yours’ for all your needs.—2) (of a graft) <i>taking root</i>. ",
+				"<cite ref=\"Rosh Hashanah 10b\">R. Hash. 10ᵇ</cite>"
+			],
+			"label": "1"
+		}
+	]
+}

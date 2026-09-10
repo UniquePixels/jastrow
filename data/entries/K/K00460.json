@@ -1,0 +1,34 @@
+{
+	"id": "K00460",
+	"slug": "כחיש",
+	"headword": {
+		"text": "כָּחִישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּחִישָׁא"
+		},
+		{
+			"text": "כְּחִישְׁתָּא"
+		}
+	],
+	"page": {
+		"number": 628,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00470\"><he>כְּחַשׁ</he></cite>) <i>lean, weak</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 24b:13\">Kidd. 24ᵇ</cite> <he>נהורא כ׳</he> feeble eye-sight, opp. <he>בריא</he> normal. ",
+				"<cite ref=\"Bava Batra 155b:4\">B. Bath. 155ᵇ</cite> <he>אי כ׳ … ליברי</he> if he is lean, we let him be fattened. ",
+				"<cite ref=\"Bava Metzia 105b:10\">B. Mets. 105ᵇ</cite> <he>הוה כ׳ ארעא</he> the soil was exhausted, opp. <he>שמינא</he>.—Pl. <he>כְּחִישִׁין</he>, f. <cite ref=\"K00460\"><he>כְּחִישָׁתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 41:27\">Targ. Y. Gen. XLI, 27</cite>.—",
+				"<cite ref=\"Bava Kamma 118b:21\">B. Kam. 118ᵇ</cite>, opp. <he>ברייתא</he>."
+			]
+		}
+	]
+}

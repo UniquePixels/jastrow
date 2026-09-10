@@ -1,0 +1,47 @@
+{
+	"id": "H01418",
+	"slug": "חף-2",
+	"headword": {
+		"text": "חָף",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 490,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. b. h. <cite ref=\"H01417\"><he>חֹף</he></cite>; <cite ref=\"H01464\"><he>חפף</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>border, shore</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13:17\">Num. R. s. 13</cite> (ref. to <cite ref=\"Numbers 7:26\">Num. VII, 26</cite>) <he>אין כף אלא חף וכ׳</he> <i>Kaf</i> (bowl) means the same as <i>ḥaf</i> (shore), as it is said (<cite ref=\"Psalms 98:8\">Ps. XCVIII, 8</cite>) rivers strike the <i>Kaf</i>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H00841\"><he>חִיפָּא</he></cite>) [<i>rim, ridge</i>,] <i>ward of a lock</i> (<cite ref=\"Q00414\"><he>פותחת</he></cite>); <i>bit of a key</i> (corresponding to the ward); <i>pivot of a door</i> (v. Sm. Ant. s. vv. Cardo, Clavis). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:6\">Sabb. VIII, 6</cite> <he>כדי … חף</he> bone large enough to make of it a <i>ḥaf</i>; expl. ",
+				"<cite ref=\"Shabbat 81a:2\">ib. 81ᵃ</cite> <he>חַפֵּי פותחת</he> the rims (ward) of a lock; Y. ib. 11ᵇ bot <he>מהו חף סרגיד</he> what <i>ḥaf</i> is meant? (Answ.) the key-ward; <cite ref=\"Shabbat 81a:1\">ib.</cite> <he>תמן היא עביד חף בלוט וכ׳</he> (not <cite ref=\"K00700\"><he>כלוט</he></cite>) there (<cite ref=\"Mishnah Kelim 14:8\">Kel. XIV, 8</cite>) he (R. Judah) uses <i>ḥaf</i> in the sense of a key-bit, and here (Sabb. l. c.) in the sense of a key-ward."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the border of a web</i>, used for starting a new web by fastening the warp to it. Y. ib. VII, 10ᶜ, v. <cite ref=\"N00787\"><he>נִיר</he> IV</cite>.—Pl. <he>חַפִּים</he>, <he>חַפִּין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:6\">Kel. XIII, 6</cite> <he>פותחת של עץ וח׳ וכ׳</he> if the lock is of wood and its key-bits of metal (ed. Dehr. <he>חָפִין</he>). ",
+				"<cite ref=\"Mishnah Kelim 14:8\">Ib. XIV, 8</cite> <he>ניטלו ח׳</he> if the teeth of the bit are broken off (damaged). ",
+				"<cite ref=\"Shabbat 81a:1\">Sabb. 81ᵃ</cite>, v. supra. Y. ib. IV, 7ᵃ top <he>חַפֵּי לסוטות</he> borders used for weaving veils. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:10\">Cant. R. to III, 10</cite> (expl. <he>פתות</he>, <cite ref=\"I Kings 7:50\">I Kings VII, 50</cite>) <cite ref=\"H01449\"><he>חפיפות</he></cite>, read: <he>חַפֵּי פותחות</he> the pivots; (<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> <he>בלוטין שבפותחות</he>, v. <cite ref=\"B00827\"><he>בָּלוּט</he></cite>).—",
+				"<cite ref=\"Mishnah Kelim 11:4\">Kel. XI, 4</cite> <he>הַפִּין</he> = <he>החפין</he>."
+			],
+			"label": "3"
+		}
+	]
+}

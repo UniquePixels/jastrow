@@ -1,0 +1,41 @@
+{
+	"id": "B00359",
+	"slug": "בורי-2",
+	"headword": {
+		"text": "בּוֹרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֳּרִי"
+		}
+	],
+	"page": {
+		"number": 150,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B01239\"><he>בָּרִי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strength, health, normal condition</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 7:1:9\">Y. Gitt. VII, 48ᶜ</cite> bot. <he>נשתתק מתוך בּוֹרְיוֹ</he> lost his speech while in his normal health (suddenly), opp. <he>מתון חוליו</he>. ",
+				"<cite ref=\"Jerusalem Talmud Niddah 1:3:7\">Y. Nidd. I, 49ᵇ</cite>; <cite ref=\"Jerusalem Talmud Ketubot 5:6:4\">Y. Keth. V, 30ᵃ</cite> bot. <he>פירש מתוך</he> (<he>בָּרְיוֹ</he>) <he>בוריו</he> the child ceased to suck while in normal health. Mekh. Mishp. N’zikin. 6; <cite ref=\"Jerusalem Talmud Ketubot 4:4:6\">Y. Keth. IV, 28ᶜ</cite> top (expl. <he>על משענתו</he> <cite ref=\"Exodus 21:19\">Ex. XXI, 19</cite> ‘on his own support’) <he>על בוריו</he> restored to his former health. Mekh. l. c. 13 <he>על בריו</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " cmp. <cite ref=\"A03348\"><he>אָשַׁר</he></cite>) <i>certainty, evidence, assertion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:4:2\">Y. Sot. I, 16ᵈ</cite> <he>עמדי על בורייך</he> stand by thy assertion (be not intimidated). ",
+				"<cite ref=\"Bereishit Rabbah 70:14\">Gen. R. s. 70</cite> <he>מעמידין אותו על בוריו</he> they establish it (the law) on its strength, i.e. arrive at a final decision."
+			],
+			"label": "2"
+		}
+	]
+}

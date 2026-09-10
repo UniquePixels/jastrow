@@ -1,0 +1,50 @@
+{
+	"id": "P00016",
+	"slug": "עבד-4",
+	"headword": {
+		"text": "עֲבַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲבֵד"
+		},
+		{
+			"text": "עֲבֵיד",
+			"homograph": 2
+		},
+		{
+			"text": "עַבְדָּא"
+		}
+	],
+	"page": {
+		"number": 1035,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"P00015\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 9:25\">Targ. Gen. IX, 25</cite> (O. ed. Berl. <cite ref=\"P00014\"><he>עַבַד</he></cite>; ed. Vien. <cite ref=\"P00015\"><he>עֶבֶד</he></cite>). Ib. 26; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 86:3\">Gen. R. s. 86</cite> <he>ע׳ זבין … ע׳ לתרויהון</he> a slave (Potiphar) buys, the son of a handmaid (the Ishmaelite) sells, and the free man (Joseph) is the slave of both; <cite ref=\"Kohelet Rabbah 10:7:1\">Koh. R. to X, 7</cite>. ",
+				"<cite ref=\"Gittin 13a:1\">Gitt. 13ᵃ</cite>, a. e. <he>ע׳ בהפקרא וכ׳</he>, v. <cite ref=\"E00760\"><he>הֶפְקֵרָא</he></cite>; a. fr.—[<cite ref=\"Jerusalem Talmud Berakhot 4:1:27\">Y. Ber. IV, 7ᶜ</cite> <he>נפק ע׳</he>, read: <cite ref=\"P00175\"><he>עוּבְדָּא</he></cite>.]—Pl. <he>עַבְדִּין</he>, <he>עַבְדַּיָּא</he>, <he>עַבְדֵּי</he>. ",
+				"<cite ref=\"Onkelos Genesis 24:25\">Targ. Gen. XXIV, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 54:17\">Targ. Is. LIV, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 12:9\">Targ. Prov. XII, 9</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 97a:5\">B. Kam. 97ᵃ</cite> <he>הוה תקיף ע׳ דאינשי וכ׳</he> used to seize slaves of men against whom he had a claim &c. ",
+				"<cite ref=\"Kiddushin 70a:12\">Kidd. 70ᵃ</cite> <he>רגיל דקרי אינשי ע׳</he> he is in the habit of calling people slaves; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>worshipper</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 62b:3\">Ned. 62ᵇ</cite> <he>ע׳ דנורא</he> fire-worshipper (Geber); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

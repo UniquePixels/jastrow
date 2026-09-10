@@ -1,0 +1,24 @@
+{
+	"id": "B00966",
+	"slug": "בנרייתא",
+	"headword": {
+		"text": "בַּנַּרְיָיתָא"
+	},
+	"page": {
+		"number": 177,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. ch. <cite ref=\"B00965\">same</cite>.",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 7:3:2\">Y. B. Kam. VII, end 6ᵃ</cite> <he>אנא נסיב בַּנַּרְיָיתֵיה</he> I will carry his bathing clothes (i.e. I will be his servant; cmp. ",
+				"<cite ref=\"Bava Metzia 41a\">B. Mets. 41ᵃ</cite>; <cite ref=\"Eruvin 27b\">Erub. 27ᵇ</cite>; <cite ref=\"Sanhedrin 62b\">Snh. 62ᵇ</cite>)."
+			]
+		}
+	]
+}

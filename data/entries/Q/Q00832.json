@@ -1,0 +1,23 @@
+{
+	"id": "Q00832",
+	"slug": "פירוג-2",
+	"headword": {
+		"text": "פֵּירוּג",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1170,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (<cite ref=\"Q00831\">preced.</cite>) <i>Perug</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 4:11\">Targ. I Chr. IV, 11</cite> (h. text <cite ref=\"M00879\"><he>מחיר</he></cite>)."
+			]
+		}
+	]
+}

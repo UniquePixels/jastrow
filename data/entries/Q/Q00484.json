@@ -1,0 +1,28 @@
+{
+	"id": "Q00484",
+	"slug": "פחרא",
+	"headword": {
+		"text": "פַּחָרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּחֲרָא"
+		}
+	],
+	"page": {
+		"number": 1153,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00483\">preced.</cite>) <i>potter</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 29:16\">Targ. Is. XXIX, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 30:14\">Ib. XXX, 14</cite> (not <cite ref=\"Q00484\"><he>פַּחֲרָא</he></cite>); a. e."
+			]
+		}
+	]
+}

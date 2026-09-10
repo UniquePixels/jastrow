@@ -1,0 +1,42 @@
+{
+	"id": "B00484",
+	"slug": "בחר-2",
+	"headword": {
+		"text": "בְּחַר"
+	},
+	"page": {
+		"number": 155,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00483\">same</cite><i>to try, test</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 17:10\">Targ. Jer. XVII, 10</cite> (h. text <he>בחן</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to choose, select</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 33:12\">Targ. Ps. XXXIII, 12</cite>.—Part. <cite ref=\"B00483\"><he>בָּחֵר</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 15:5\">Targ. Job XV, 5</cite> (not <cite ref=\"B00476\"><he>בָּחִיר</he></cite>).—V. <cite ref=\"B00476\"><he>בְּחִיר</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַבְחַר"],
+			"senses": [
+				{
+					"gloss": "<i>to pick out</i>. Y. Sabb. VII, 10ᵃ bot. <he>כד מַבְחַר בקלופייתא</he> when one picks out (the pieces of garlick) in the husks. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>כד מכחד</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

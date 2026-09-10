@@ -1,0 +1,33 @@
+{
+	"id": "O00942",
+	"slug": "סכר-3",
+	"headword": {
+		"text": "סְכַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 993,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O00941\"><he>סַכַּר</he></cite> a. <i>Po</i>. <cite ref=\"O00308\"><he>סוֹכַר</he></cite> (cmp. <cite ref=\"O00085\"><he>סְבַר</he></cite> III a. <cite ref=\"K01152\"><he>כְּרֵי</he></cite>) [<i>to bore, dig</i>,] <i>to let blood</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 67b:13\">Gitt. 67ᵇ</cite> <he>לשימשא … בת תרי יומי סַכּוּרֵי</he> for sunstroke … on the second day blood-letting is indicated (some ed. <cite ref=\"O00648\"><he>סִיכּוּרֵי</he></cite> <i>pl.</i> noun). ",
+						"<cite ref=\"Pesachim 112a\">Pes. 112ᵃ</cite>, a. e. <he>מְסוֹכַר</he> (interch. with <cite ref=\"O00087\"><he>סְבַר</he> III</cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"id": "N00028",
+	"slug": "נאץ",
+	"headword": {
+		"text": "נָאַץ"
+	},
+	"page": {
+		"number": 866,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A00820\"><he>אוּץ</he></cite>) [<i>to press, stamp</i> in anger, v. ",
+			"units": [
+				"<cite ref=\"Deuteronomy 32:19\">Deut. XXXII, 19</cite>,] <i>to be indignant</i>; <i>to be bold</i>; (act. verb) <i>to reject, insult, blaspheme</i>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיאֵץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00027\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Ketubot 8b\">Keth. 8ᵇ</cite> (ref. to Deut. l. c.) [read:] <he>דור שאבות מְנָאֲצִים לו הקב״ה וכ׳</he> a generation in which the parents insult him, the Lord will &c.; <cite ref=\"Yalkut Shimoni on Torah 945:11\">Yalk. Deut. 945</cite> <he>מְנָאֲצִין בו וכ׳</he>.…—",
+						"<cite ref=\"Sifrei Devarim 320:1\">Sifré Deut. 320</cite> <he>מנאצים לפניו</he>, v. <cite ref=\"N00010\"><he>נָאֶה</he></cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> <he>כל מי שני׳ לאלהים נעשה זר</he> whoever insults God becomes an outcast (leper). ",
+						"<cite ref=\"Bamidbar Rabbah 7:4\">Ib.</cite> <he>הם נִאֲצוּ אותי</he> they insulted me. ",
+						"<cite ref=\"Bamidbar Rabbah 7:5\">Ib.</cite> <he>מי שמְנָאֵץ בדברי תורה</he> who makes bold with the words of the Law (blasphemes); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to threaten</i>. Mekh. B’shall., Shir., s. 7 <he>חמשה … מנאץ וכ׳</he> five things did Pharaoh threaten to do; <cite ref=\"Yalkut Shimoni on Torah 249\">Yalk. Ex. 249</cite>. Mekh. l. c.; <cite ref=\"Yalkut Shimoni on Torah 250:1\">Yalk. Ex. 250</cite> <he>היה עומד ומנ׳ אחר וכ׳</he> stood threatening at the palace &c.; a. e.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְנָאֵץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be insulted</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 74:4\">Midr. Till. to Ps. LXXIV</cite>, end <he>עשה בשביל … שמתחרף ומִתְנָאֵץ בעולם</he> do it for the sake of thy great and holy Name which is blasphemed and insulted in the world; a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

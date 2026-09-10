@@ -1,0 +1,23 @@
+{
+	"id": "K00050",
+	"slug": "כבינא",
+	"headword": {
+		"text": "כְּבֵינָא"
+	},
+	"page": {
+		"number": 608,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(Ar. <cite ref=\"K00042\"><he>כְּבוּנָא</he></cite>) (part. pass. of <he>כבן</he>) = h. <he>רחל הכבונה</he> (v. <cite ref=\"K00064\"><he>כָּבַן</he></cite>) <i>a sheep wearing a wrap, fine sheep</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:18\">Targ. Ez. XXVII, 18</cite> (cmp. ",
+				"<cite ref=\"Shevuot 6b\">Shebu. 6ᵇ</cite>, s. v. <cite ref=\"K00064\"><he>כָּבַן</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "O00471",
+	"slug": "סחרני",
+	"headword": {
+		"text": "סַחֲרָנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַחֲרוֹנֵי"
+		}
+	],
+	"page": {
+		"number": 972,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. constr. (<cite ref=\"O00470\">preced.</cite>) <i>neighborhood, neighbors of</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:17\">Targ. Jer. XLVIII, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 33:13\">Ib. XXXIII, 13</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 152a:3\">Sabb. 152ᵃ</cite> <he>סחרוני גלידן</he> (Ms. M. <he>סַחֲרָנוֹהִי</he>; Ms. O. <he>סַחֲרוֹנוֹהִי</he>), v. <cite ref=\"C00878\"><he>גְּלַד</he></cite>."
+			]
+		}
+	]
+}

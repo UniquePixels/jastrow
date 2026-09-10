@@ -1,0 +1,36 @@
+{
+	"id": "D00220",
+	"slug": "דוושא",
+	"headword": {
+		"text": "דַּוְושָׁא"
+	},
+	"page": {
+		"number": 284,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00389\"><he>דּוּשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>treading, passage</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 81b:2\">Sabb. 81ᵇ</cite> <he>משום ד׳</he> because of treading down (injuring a neighbor’s field). ",
+				"<cite ref=\"Bava Batra 22b:9\">B. Bath. 22ᵇ</cite> <he>ד׳ דהכא וכ׳</he> the passage between the walls (stamping the ground) is beneficial to both buildings."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ordinary course, habit</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 116b:9\">B. Kam. 116ᵇ</cite> <he>דַוְושֵׁיה נקיט ואזיל</he> he (the boatman) took his wonted course. ",
+				"<cite ref=\"Berakhot 16a\">Ber. 16ᵃ</cite> <he>דוושיה נקיט</he> Ar. (ed. <he>סרכיה</he>) he followed his habit (in recitation)."
+			],
+			"label": "2"
+		}
+	]
+}

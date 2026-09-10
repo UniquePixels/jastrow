@@ -1,0 +1,40 @@
+{
+	"id": "K01219",
+	"slug": "כרכר-2",
+	"headword": {
+		"text": "כַּרְכָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כרכד"
+		}
+	],
+	"page": {
+		"number": 670,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01218\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>whorl</i> of the spindle (vorticulus), also <i>shuttle</i> (v. Sm. Ant. s. v. Tela). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:6\">Sabb. VIII, 6</cite> (<cite ref=\"Shabbat 81a:1\">81ᵃ</cite>) <he>ראש הכ׳</he> (Y. ed. a. Mish. Pes. <he>הכרכד</he>, v. Rabb. D. S. a. l. note) the top of the whorl; Y. ib. XVII, 16ᵇ. Bab. ib. 123ᵃ <he>תוחכין בכוש או בכ׳</he> (Ms. M. <he>בכַרְכִּיר</he>) you stick it up with a reed or a whorl; Y. l. c. top. Tosef. ib. IX (X) 10; <cite ref=\"Shabbat 92b\">Sabb. 92ᵇ</cite>; Sifra Vayikra, Ḥobah, ch. IX, Par. 7, v. <cite ref=\"L00124\"><he>לָגַז</he></cite>. ",
+				"<cite ref=\"Sifrei Devarim 96:2\">Sifré Deut. 96</cite>; <cite ref=\"Mishnah Avodah Zarah 3:9\">Ab. Zar. III, 9</cite> (<cite ref=\"Avodah Zarah 49b:3\">49ᵇ</cite>) <he>נטל הימנה כ׳</he> Ms. M. (ed. <cite ref=\"K01202\"><he>כַּרְכּוֹר</he></cite>, Var. <cite ref=\"K00633\"><he>כִּירְכּוּר</he></cite>, v. Rabb. D. S. a. l. note) if one took from it (the Asherah) a piece to use it as a shuttle; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>turner</i>,] <i>a rod used for shaking olives down</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 7:2:7\">Y. Peah VII, 20ᵃ</cite> <cite ref=\"B01295\"><he>ברכר</he></cite>, <cite ref=\"B01295\"><he>ברכרה</he></cite>, read: <cite ref=\"K01220\"><he>כַּרְכָּר</he></cite>, <cite ref=\"K01220\"><he>כַּרְכָּרָה</he></cite> (f.), v. <cite ref=\"M00794\"><he>מחֲבֵא</he></cite> a. <cite ref=\"M00796\"><he>מַחֲבוֹא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

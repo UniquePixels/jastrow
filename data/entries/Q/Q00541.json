@@ -1,0 +1,30 @@
+{
+	"id": "Q00541",
+	"slug": "פטפוט",
+	"headword": {
+		"text": "פִּטְפּוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיטְ׳"
+		}
+	],
+	"page": {
+		"number": 1156,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פטט</he>, cmp. <cite ref=\"Q02214\"><he>פתת</he></cite>) [<i>something minute, tender</i>,] <i>one of the clay pins forming a sort of tripod for the support of a pot, peg</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:4\">Sabb. VIII, 4</cite> <he>כדי לעשות פ׳</he> a quantity of clay large enough for a peg.—[<cite ref=\"Yalkut Shimoni on Torah 785:40\">Yalk. Num. 785</cite> <he>פּוּט של מנורה</he> the peg for a candlestick v., however, quot. fr. Sifré Zuṭṭa in R. S. to <cite ref=\"Mishnah Kelim 11:2\">Kel. XI, 2</cite>.]—Pl. <he>פִּטְפּוּטִים</he>, <cite ref=\"Q00545\"><he>פִּטְפּוּטִין</he></cite>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>, (<cite ref=\"Q00545\"><he>פִּטְפְּטִין</he></cite>). ",
+				"<cite ref=\"Shabbat 102b:6\">Sabb. 102ᵇ</cite> <he>עני עושה פִּיטְפּוּטֵי כירה קטנה וכ׳</he> a poor man makes pegs for a small stove to put on it a small pot (which is also called building). ",
+				"<cite ref=\"Mishnah Kelim 5:11\">Kel. V, 11</cite> <he>עשה לה פ׳</he> if he made legs for the stove (so that it no longer rests immediately on the ground); <cite ref=\"Tosefta Kelim Kamma 4:20\">Tosef. Kel. B. Kam. IV, 20</cite>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 5:1\">Ib. V, 1</cite> <he>שלשה … פטפט׳ שנתנן וכ׳</he> three pegs, three pins or three legs stuck in the ground and joined with clay to put a pot on them; <cite ref=\"Mishnah Kelim 6:1\">Kel. VI, 1</cite>. Tosef. l. c. 7 <he>פטפוטי</he> (read <he>טין …</he>). Ib. 8. Ib. 9 <he>ארבעה פטפוטי כירה וכ׳</he> four legs of a stove &c.; a. e."
+			]
+		}
+	]
+}

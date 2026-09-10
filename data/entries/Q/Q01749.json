@@ -1,0 +1,31 @@
+{
+	"id": "Q01749",
+	"slug": "פרזל-1",
+	"headword": {
+		"text": "פַּרְזֵל"
+	},
+	"page": {
+		"number": 1223,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Parel</i> of <cite ref=\"Q00429\"><he>פזל</he></cite>) <i>to turn, twist</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיפַּרְזֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to twist one’s self, to struggle</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 68a:12\">Gitt. 68ᵃ</cite> <he>הוה קא מִיפַּרְזֵל</he> he struggled (to get rid of the chain)."
+					]
+				}
+			],
+			"stem": "Ithpar."
+		}
+	]
+}

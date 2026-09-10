@@ -1,0 +1,23 @@
+{
+	"id": "B01380",
+	"slug": "בתה",
+	"headword": {
+		"text": "בָּתָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 200,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.; = <he>בהה</he>, v. <cite ref=\"B00170\"><he>בהי</he></cite>) <i>desolation</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 31:5\">Gen. R. s. 31</cite>; <cite ref=\"Yalkut Shimoni on Torah 51:2\">Yalk. ib. 51</cite> (ref. to <he>קץ … בא וכ׳</he> <cite ref=\"Genesis 6:13\">Gen. VI, 13</cite>) their term has come <he>לעשות ב׳</he> to make (the earth) a waste."
+			]
+		}
+	]
+}

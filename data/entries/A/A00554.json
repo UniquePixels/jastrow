@@ -1,0 +1,27 @@
+{
+	"id": "A00554",
+	"slug": "אוד-2",
+	"headword": {
+		"text": "אוּד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּדָא"
+		}
+	],
+	"page": {
+		"number": 22,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00553\">same</cite>, also <i>fire-brand</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 4:11\">Targ. Am. IV, 11</cite>; a. e.—Pl. <cite ref=\"J00101\"><he>אוּדֵי</he></cite>, <cite ref=\"A00557\"><he>אוּדַיָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 7:4\">Targ. Is. VII, 4</cite>.—",
+				"<cite ref=\"Sanhedrin 93a:17\">Snh. 93ᵃ</cite> (prov. concerning bad company) <he>תרי א׳ וכ׳</he> two dry pieces of wood and a green one between &c."
+			]
+		}
+	]
+}

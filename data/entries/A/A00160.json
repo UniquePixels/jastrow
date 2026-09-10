@@ -1,0 +1,30 @@
+{
+	"id": "A00160",
+	"slug": "אבלא-2",
+	"headword": {
+		"text": "אֶבְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶבְלָה"
+		},
+		{
+			"text": "אִיבְלָא"
+		}
+	],
+	"page": {
+		"number": 7,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h. <cite ref=\"A00157\"><he>אֵבֶל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 50:11\">Targ. Gen. L, 11</cite> (Var. <he>אִיבְלָא אָבֵל</he>). ",
+				"<cite ref=\"Onkelos Genesis 50:11\">Ib.</cite> O. XXVII, 41; a. e. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 10:19\">Targ. Y. II, Lev. X, 19</cite> <cite ref=\"A00130\"><he>אֲבֵילָא</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 27:4\">Gen. R. s. 27</cite> (prov.) comes joy, rejoice; <he>בשעת א׳ א׳</he> comes mourning, mourn."
+			]
+		}
+	]
+}

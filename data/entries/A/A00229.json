@@ -1,0 +1,29 @@
+{
+	"id": "A00229",
+	"slug": "אברקין",
+	"headword": {
+		"text": "אַבְרְקִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרַקִּין"
+		}
+	],
+	"page": {
+		"number": 10,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"B01314\"><he>ברק</he></cite> = <he>פרק</he>; cmp. <he>בקר</he> = <he>פקר</he>, v. <cite ref=\"A02789\"><he>אפקרסין</he></cite>) <i>underclothes, inexpressibles, breeches</i> (cmp. Lat. bracæ, braccæ—of Oriental origin). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 16:5:2\">Y. Sabb. XVI, 15ᵈ</cite> <he>שני א׳</he> Ar. (ed. Krot. <cite ref=\"A00222\"><he>אַבְרִיקִין</he></cite>; Bab. ",
+				"<cite ref=\"Shabbat 120a\">Sabb. 120ᵃ</cite> <he>וב׳ פרגד</he>, Ms. M. <cite ref=\"Q01551\"><he>פרגוד</he></cite>, Ar. <he>פרגודין</he>; Rashi <i>genouilliers</i>, a. German <i>Kniehosen</i>). Y’lamd. B’resh. quot. in Ar. (expl. <he>פטישיהון</he> <cite ref=\"Daniel 3:21\">Dan. III, 21</cite>) <he>ב׳ הנתונות וכ׳</he> (fem.) the underclothes put around their loins."
+			]
+		}
+	]
+}

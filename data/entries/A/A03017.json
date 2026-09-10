@@ -1,0 +1,28 @@
+{
+	"id": "A03017",
+	"slug": "ארוגנוטיס",
+	"headword": {
+		"text": "אֲרוֹגְנַוְטֵיס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרוֹגְנַוְטֵין"
+		}
+	],
+	"page": {
+		"number": 116,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀρωγοναύτης sub. δαίμων) <i>helper of sailors, Arogonautes</i>, a demon. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite>; Y. Ter. VIII, 46ᶜ top; <cite ref=\"Yalkut Shimoni on Torah 110\">Yalk. Gen. 110</cite>, variously corrupted <cite ref=\"A02989\"><he>ארגינטין</he></cite>, <cite ref=\"A02989\"><he>ארגיניטון</he></cite>, <he>ארגניטין</he>, <cite ref=\"A02100\"><he>אנגיטריס</he></cite>."
+			]
+		}
+	]
+}

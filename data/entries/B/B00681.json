@@ -1,0 +1,29 @@
+{
+	"id": "B00681",
+	"slug": "ביצועא",
+	"headword": {
+		"text": "בִּיצּוּעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיצְעָא"
+		}
+	],
+	"page": {
+		"number": 164,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01101\"><he>בְּצַע</he></cite>) <i>piece, morsel, crumb.—</i>Pl. <he>בִּיצּוּעִין</he>, <cite ref=\"B00680\"><he>בִּיצּוּעֵי</he></cite>, <cite ref=\"B00689\"><he>בִּיצְעֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 2:6\">Targ. O. Lev. II, 6</cite>; a. e.—",
+				"<cite ref=\"Shabbat 140b:8\">Sabb. 140ᵇ</cite> <he>לא ליבצע ב׳</he> he must not eat it by morsels (but enough at a time). ",
+				"<cite ref=\"Sukkah 26a:10\">Succ. 26ᵃ</cite> <he>תרתי או תלת ביצעי</he> Ms. M. (ed. <he>ביעי</he>, v. Rashi a. l.) two or three morsels."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "O00110",
+	"slug": "סגול",
+	"headword": {
+		"text": "סְגוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגוֹלָא"
+		},
+		{
+			"text": "סְגוֹלָה"
+		}
+	],
+	"page": {
+		"number": 953,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00148\"><he>סְגַל</he></cite>) = h. <cite ref=\"A03307\"><he>אֶשְׁכֹּל</he></cite>, <i>cluster</i> of grapes. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 13:23\">Targ. Y. II, Num. XIII, 23</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 13:23\">Ib.</cite>, sq. <he>נחל סגולא</he> Ar. (ed. … <he>לה</he>). ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 1:24\">Targ. Y. II, Deut. I, 24</cite> <he>נחלי סגולה</he>.—Y. Peah VII, 20ᵇ top <he>ההוא ס׳ וכ׳</he> that (much spoken of) cluster in the vineyard. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>הדין תורא דאת סבר הוא ס׳</he> that ox which you think you see (at a distance), is a cluster.—Pl. <he>סְגוֹליָּיא</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 40:12\">Targ. Y. I Gen. XL, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 40:10\">Targ. Y. ib. 10</cite>."
+			]
+		}
+	]
+}

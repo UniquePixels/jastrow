@@ -1,0 +1,29 @@
+{
+	"id": "T00844",
+	"slug": "רנה",
+	"headword": {
+		"text": "רִנָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1484,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00847\"><he>רָנַן</he></cite>)<i>chant, song</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 70a:8\">Yoma 70ᵃ</cite>; <cite ref=\"Sotah 41a:14\">Sot. 41ᵃ</cite>. ",
+				"<cite ref=\"Shemot Rabbah 47:5\">Ex. R. s. 47</cite> <he>ר׳ של תורה</he>, v. <cite ref=\"T00650\"><he>רִינּוּן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 4:1:2\">Y. Succ. IV, 54ᵃ</cite> top <he>בר׳</he> using the verb <cite ref=\"T00847\"><he>רָנַן</he></cite>; a. fr."
+			]
+		}
+	]
+}

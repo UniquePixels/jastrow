@@ -1,0 +1,29 @@
+{
+	"id": "O00783",
+	"slug": "סיפוג",
+	"headword": {
+		"text": "סִיפּוּג"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִפּ׳"
+		}
+	],
+	"page": {
+		"number": 985,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01313\"><he>סָפַג</he></cite>) <i>absorption, drying</i> after a bath. ",
+			"units": [
+				"<cite ref=\"Mishnah Zavim 1:4\">Zab. I, 4</cite> <he>כדי טבילה וס׳</he> (not <he>וסיפג</he>) long enough to bathe and dry one’s self; <cite ref=\"Tosefta Zavim 1:9\">Tosef. ib. I, 9</cite> (not <he>סופג</he>); <cite ref=\"Tosefta Zavim 1:12\">12</cite>, sq.; a. e.—Pl. <he>סִיפּוּגִים</he>, <he>סִיפּוּגִין</he>, <cite ref=\"O00783\"><he>סִפּ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Zavim 1:5\">Zab. I, 5</cite> <he>שתי טבילות ושני ס׳</he> as much time as is required for twice bathing and getting dry. ",
+				"<cite ref=\"Tosefta Zavim 1:10\">Tosef. ib. I, 10</cite> <cite ref=\"O00781\"><he>סיפגים</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

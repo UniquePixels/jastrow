@@ -1,0 +1,28 @@
+{
+	"id": "Q00773",
+	"slug": "פיסתקא",
+	"headword": {
+		"text": "פִּיסְתְּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִסְ׳"
+		}
+	],
+	"page": {
+		"number": 1168,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q00756\"><he>פִּיסְטְקִין</he></cite>) <i>pistachio-nut</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 59a:17\">Gitt. 59ᵃ</cite> <he>כפ׳ ופלגיה דפ׳</he> (not <he>ופלגי</he>) compressed to the size respectively of a pistachio-nut and half a pistachio-nut (Rashi: <i>acorn</i>). Pl. <cite ref=\"Q01371\"><he>פִּיסְתְּקִין</he></cite>, <he>פִּיסְתְּקַיָּה</he>, <cite ref=\"Q00753\"><he>פִּסְ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:4:6\">Y. Kil. I, 27ᵃ</cite> bot. Ar., v. <cite ref=\"Q00756\"><he>פִּיסְטְקִין</he></cite>. Ib. 27ᵇ <he>הוה משקי פ׳ בשביל למתקן</he> (not <he>פרסתקי׳ … למתקה</he>) put pistachio-nuts in boiled wine to sweeten them."
+			]
+		}
+	]
+}

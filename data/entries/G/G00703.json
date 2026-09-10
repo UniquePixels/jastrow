@@ -1,0 +1,42 @@
+{
+	"id": "G00703",
+	"slug": "זריז-1",
+	"headword": {
+		"text": "זָרִיז"
+	},
+	"page": {
+		"number": 413,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00685\"><he>זָרַז</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"G00687\"><he>זֶרֶז</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"G00700\"><he>זָרִיד</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (adj.) <i>strong, quick; scrupulous; industrious</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 70b:4\">Snh. 70ᵇ</cite> <he>בן ז׳</he> a healthy child; <cite ref=\"Bamidbar Rabbah 10:25\">Num. R. s. 10</cite> <cite ref=\"G00677\"><he>זָרוּז</he></cite>.—",
+				"<cite ref=\"Tosefta Bekhorot 6:10\">Tosef. Bekh. VI, 10</cite> <he>אם היה בנו ז׳</he> if his son is a bright student; <cite ref=\"Kiddushin 29b:11\">Kidd. 29ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 50b:10\">Pes. 50ᵇ</cite> <he>יש ז׳ ונשכר</he> one is industrious and will be rewarded &c.; <cite ref=\"Tosefta Yevamot 4:8\">Tosef. Yeb. IV, 8</cite>, opp. <cite ref=\"U01771\"><he>שפל</he></cite> lazy.; a. fr.—Pl. <he>זְרִיזִין</he>, fem. <cite ref=\"G00706\"><he>זְרִיזוֹת</he></cite>. ",
+				"<cite ref=\"Pesachim 4a:6\">Pes. 4ᵃ</cite>, a. e. <he>ז׳ מקדימיי למצרת</he> the zealous do their religious duty as early as possible. ",
+				"<cite ref=\"Shabbat 20a:6\">Sabb. 20ᵃ</cite>, a. fr. <he>כהנים ז׳ הן</he> priests are presumed to be scrupulous.—",
+				"<cite ref=\"Pesachim 89a:22\">Pes. 89ᵃ</cite>, a. e. <he>נמצאו בנות ז׳ וכ׳</he> the daughters proved to be zealous &c.; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

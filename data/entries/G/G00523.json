@@ -1,0 +1,23 @@
+{
+	"id": "G00523",
+	"slug": "זמירה-1",
+	"headword": {
+		"text": "זְמִירָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 403,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זָמַר</he> I) <i>pruning the vine</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 8:1:11\">Y. Kil. VIII, 31ᶜ</cite> top; <cite ref=\"Jerusalem Talmud Shabbat 7:2:22\">Y. Sabb. VII, 10ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

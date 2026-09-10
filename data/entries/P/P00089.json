@@ -1,0 +1,99 @@
+{
+	"id": "P00089",
+	"slug": "עגל-1",
+	"headword": {
+		"text": "עָגַל"
+	},
+	"page": {
+		"number": 1041,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be round; to roll; to circle</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 85b:4\">Sabb. 85ᵇ</cite> <he>ועוֹגֵל בה חמשה</he> and inscribes in it a circle of five in diameter."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶעֱגַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be rounded</i>. Y. Ab. Zar. II, 41ᵇ <he>הוא נסלל ונע׳</he> the cut in the skin of an animal (whose heart has been taken out while alive) rebounds and becomes rounded.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["עִגֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to draw a circle</i>. Part. <cite ref=\"M02062\"><he>מְעַגֵּל</he></cite>, v. <cite ref=\"H00404\"><he>חוֹנִי</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Taanit 3:8\">Taan. III, 8</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to roll, press, make even</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:8\">Maasr. I, 8</cite> <he>המגורה משיְעַגֵּל</he> when the figs are stored in a bin, they are subject to tithes when he has pressed them. ",
+						"<cite ref=\"Mishnah Maasrot 1:8\">Ib.</cite> <he>היה דש … ומעגל וכ׳</he> if after treading figs in a vessel or pressing in a bin &c. ",
+						"<cite ref=\"Mishnah Makkot 2:1\">Macc. II, 1</cite> <he>היה מֹעגל במעגילה</he> if he was levelling the roof with a roller, v. <cite ref=\"M02061\"><he>מַעֲגִילָה</he></cite>; Y. ib. II, beg. 31ᶜ (also <cite ref=\"M02060\"><he>מַעֲגִיל</he></cite>, <i>Hif.</i>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to roll on an oiled surface, to smooth a person’s skin</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Terumot 10:10\">Tosef. Ter. X, 10</cite> <he>ומְעַגְּלוֹ על גביו</he> and oints it (the child) by rolling it on his own body; Y. Maas. Sh. II, 53ᶜ top <he>ומעגלו ע״ג מיעיו</he>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to round off, form a round body</i>, v. infra.",
+					"units": [],
+					"label": "4"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶעֱגִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to round off, form a round body</i>. Ohol. VII, 4 <he>עד שיַעֲגִילוּ ראש כפיקה</he>; Tosef. ib. VIII, 8 <he>שעִגְּלוּ וכ׳</he> (v. R. S. to Ohol. l. c.), v. <cite ref=\"Q00797\"><he>פִּיקָא</he> I</cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to roll</i>, v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְעַגֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to form globules</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 56a:9\">Nidd. 56ᵃ</cite> <he>מה רוק שמִתְעַגֵּל ויוצא וכ׳</he> as the secretion in the mouth is formed in globules on being discharged &c.; <cite ref=\"Niddah 19b\">ib. 19ᵇ</cite>"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to roll one’s self on an oiled surface, to smooth one’s skin</i>. Tosef. Ter. l. c. <he>על טבלה של שייש להִתְעַגֵּל עליה</he> on a marble plate to anoint himself upon it. Ib. 11; <cite ref=\"Tosefta Shabbat 3:17\">Tosef. Sabb. III</cite> (<cite ref=\"Tosefta Shabbat 4:17\">IV</cite>), 17; a. e.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "A01049",
+	"slug": "אחראי",
+	"headword": {
+		"text": "אַחֲרָאִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַחֲרָיִי"
+		}
+	],
+	"page": {
+		"number": 41,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01048\">foreg.</cite> wds.) prop. <i>designated to step behind, substitute;</i> hence, <i>he who</i> (or <i>that which</i>) <i>is gone back to, obligated, pledged; surety, guarantor.—</i>Pl. <cite ref=\"A01049\"><he>אַחֲרָאִים</he></cite>, <cite ref=\"A01054\"><he>אַחֲרָיִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 3:5\">Dem. III, 5</cite> <he>אין אנו א׳ וכ׳</he> we are not responsible for deceivers. ",
+				"<cite ref=\"Mishnah Pesachim 9:9\">Pes. IX, 9</cite> <he>אינן אחראין זה לזה</he> they are not responsible to one another (need not care for each other). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 8:5:2\">Y. Keth. VIII, end, 32ᵇ</cite>, a. fr. <he>כל נכסיו א׳</he> all his landed property is pledged for &c."
+			]
+		}
+	]
+}

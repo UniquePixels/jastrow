@@ -1,0 +1,24 @@
+{
+	"id": "Q01805",
+	"slug": "פרייפרין",
+	"headword": {
+		"text": "פִּרְיָיפְרִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1226,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (φορειαφόροι) <i>carriers of the</i> (<i>bridal</i>) <i>litter</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 6:1\">B. Mets. VI, 1</cite> (<cite ref=\"Bava Metzia 75b:15\">75ᵇ</cite>) <he>השוכר … להביא פ׳ וכ׳</he> (Ms. M. <he>רייפרין</he>, corr. acc.; Ms. H. <he>אפירפרין</he>; Y. ed. <he>פרייא פרין</he>, Ms. R. <he>פירי אפירין</he>, read: <cite ref=\"Q01805\"><he>פִּרְיָיאפְרִין</he></cite>; Ms. F. a. Mish. Nap. <cite ref=\"Q00857\"><he>פירייפרין</he></cite>; Alf. <he>פַּרְפִּירִין</he>, v. <cite ref=\"Q00779\"><he>פֵּיפוּר</he></cite>) if one hires an ass-driver or a wagoner to bring litter-carriers and pipers &c. [In Y. ed. a. Mish. Nap. <he>להביא</he> is omitted.]"
+			]
+		}
+	]
+}

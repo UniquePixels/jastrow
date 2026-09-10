@@ -1,0 +1,82 @@
+{
+	"id": "G00650",
+	"slug": "זקף-2",
+	"headword": {
+		"text": "זְקַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְקוֹף"
+		}
+	],
+	"page": {
+		"number": 410,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00649\">same</cite><i>to put up, rear, erect, raise</i> (arms, head &c.). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:45\">Targ. Gen. XXXI, 45</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 17:11\">Targ. Y. Ex. XVII, 11</cite> <cite ref=\"G00632\"><he>זָקֵיף</he></cite>; a. fr.—",
+				"<cite ref=\"Beitzah 22a:6\">Bets. 22ᵃ</cite> <he>ז׳ לה לשרגא</he> he put the lamp up. ",
+				"<cite ref=\"Moed Katan 25a:21\">M. Kat. 25ᵃ</cite> <he>זַקְפֵיה לארוניה</he> he set his coffin upright.—<i>Part. pass.</i> <cite ref=\"G00632\"><he>זְקִיף</he></cite> q. v."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stand erect</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 29:8\">Targ. Job XXIX, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 24:24\">Ib. XXIV, 24</cite> <he>זקופו</he> Ms. (ed. <he>אוריכו</he>) stand undiscouraged (wait)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to hang up</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 10:10\">Targ. I Chr. X, 10</cite>; a. e.—Part. pass. <cite ref=\"G00632\"><he>זְקִיף</he></cite> <i>hanged</i>. ",
+				"<cite ref=\"Bava Metzia 59b:15\">B. Mets. 59ᵇ</cite>, v. <cite ref=\"D00540\"><he>דְּיוּקְתָּא</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַזְקֵיף"],
+			"senses": [
+				{
+					"gloss": "<i>to elevate</i>, <cite ref=\"Aramaic Targum to Psalms 30:2\">Targ. Ps. XXX, 2</cite> (Regia <i>Pe.</i>; h. text <he>דלה</he>).",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִזְדַּקֵּיף"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִזְדְּקֵיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be erect, to rise</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 37:7\">Targ. Gen. XXXVII, 7</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 21:14\">Targ. Ps. XXI, 14</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be hanged</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 16b:10\">Meg. 16ᵇ</cite> <he>אִזְדַּקִּיפוּ</he>, v. <cite ref=\"G00634\"><he>זְקִיפָא</he> II</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

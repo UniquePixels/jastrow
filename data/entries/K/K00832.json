@@ -1,0 +1,23 @@
+{
+	"id": "K00832",
+	"slug": "כנדא-1",
+	"headword": {
+		"text": "כַּנְדָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 648,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κάνδυς, Pers.) <i>a gown</i> with wide sleeves.—Pl. <he>כַּנְדֵּי</he>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 24a\">M. Kat. 24ᵃ</cite> <he>תליסר כ׳ מאני</he> Ar. (ed. <he>תריסר מני</he>; Ms. M. <he>תל׳ בגדי מני</he>, <cite ref=\"M01772\"><he>מני</he></cite> being a gloss to our w.)."
+			]
+		}
+	]
+}

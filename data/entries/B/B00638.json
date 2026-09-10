@@ -1,0 +1,35 @@
+{
+	"id": "B00638",
+	"slug": "בין-4",
+	"headword": {
+		"text": "בֵּין"
+	},
+	"page": {
+		"number": 163,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch., usu. pl. <cite ref=\"B00646\"><he>בֵּינֵי</he></cite> ch. same. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:6\">Targ. Gen. I, 6</cite>; a. fr.—",
+				"<cite ref=\"Chullin 114a\">Ḥull. 114ᵃ</cite>; <cite ref=\"Shabbat 132b:11\">Sabb. 132ᵇ</cite> <he>אתיא מִבֵּינַיָּיא</he> from between the two (from both cases combined) it may be concluded.—<he>מאי בֵינַיְיהוּ</he> (abbr. <he>מ״ב</he>) wherein do they differ? <he>איכא בינייהו</he> (abbr. <he>א״ב</he>) they differ as to … <cite ref=\"Bava Metzia 15b:16\">B. Mets. 15ᵇ</cite>; a. v. fr.—<he>ביני וביני</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>in the meantime</i>. ",
+					"units": ["<cite ref=\"Yevamot 71b:4\">Yeb. 71ᵇ</cite>; a. fr.—"],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>the difference between</i> (these and other goods). ",
+					"units": [
+						"<cite ref=\"Beitzah 7a:15\">Bets. 7ᵃ</cite>; a. fr.—",
+						"<cite ref=\"Chullin 47a:4\">Ḥull. 47ᵃ</cite> <he>ההוא ב׳ וב׳</he> a case (of an abnormal lobe) between the normal lungs. [<cite ref=\"Targum Jonathan on Amos 9:9\">Targ. Am. IX, 9</cite> <he>מִבֵּינָהּ</he>, Var. <cite ref=\"M00085\"><he>מבינא</he></cite>, read <he>מִבֵּינֵיה</he> from between its meshes.]"
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "I00089",
+	"slug": "טבריוס",
+	"headword": {
+		"text": "טְבִרְיוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְבִירְ׳"
+		}
+	],
+	"page": {
+		"number": 519,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Tiberius</i>, the Roman emperor. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 758:3\">Yalk. Ps. 758</cite> (not … <he>ת</he>); <cite ref=\"Bereishit Rabbah 23\">Gen. R. s. 23</cite> <cite ref=\"I00306\"><he>טיביריאוס</he></cite>, <cite ref=\"I00308\"><he>טיבריאוס</he></cite>, v. <cite ref=\"I00088\">preced.</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "D00696",
+	"slug": "דיקא-1",
+	"headword": {
+		"text": "דֵּיקָא"
+	},
+	"page": {
+		"number": 304,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00695\">preced.</cite>) <i>evidence by conclusion</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 154b:14\">Sabb. 154ᵇ</cite>, a. fr. <he>ד׳ נמי</he> there is also an evidence, i.e. I can also prove it. V. <cite ref=\"D00567\"><he>דַּיְיקָא</he></cite>."
+			]
+		}
+	]
+}

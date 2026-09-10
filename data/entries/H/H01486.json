@@ -1,0 +1,50 @@
+{
+	"id": "H01486",
+	"slug": "חפתא",
+	"headword": {
+		"text": "חֵפְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵי׳"
+		}
+	],
+	"page": {
+		"number": 493,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"H01483\"><he>חֵפֶת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 75:5\">Gen. R. s. 75</cite> <he>יהיבתיה בחֵפְתִי</he> (<he>בחי׳</he>) I put him in my pocket, i.e. I outwitted him.—Denom. <cite ref=\"H01485\"><he>חֲפַת</he></cite>, part. pass. pl. <he>חֲפִיתִין</he> <i>bosomed</i>. ",
+				"<cite ref=\"Bereishit Rabbah 75:5\">Ib.</cite> s. 100; <cite ref=\"Jerusalem Talmud Kilayim 9:3:5\">Y. Kil. IX, 32ᵇ</cite> top (<he>מאנין</he>) <he>חיורין ח׳</he> white, bosomed garments; <cite ref=\"Jerusalem Talmud Ketubot 12:3:4\">Y. Keth. XII, 35ᵃ</cite> top <he>חפותין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:15\">Y. M. Kat. III, 83ᶜ</cite> top (expl. <he>סנטיריה</he>) <he>מאנין רלא ח׳</he> garments without bosoms; (<cite ref=\"Bereishit Rabbah 100:5\">Gen. R. s. 100</cite> <he>דלא בזיעין</he>, v. <cite ref=\"O01218\"><he>סַנְטֵרָא</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחֲפַת"],
+			"senses": [
+				{
+					"gloss": "<i>to put in the bosom</i>, i.e. <i>to outwit</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 80:8\">Gen. R. s. 80</cite> <he>סברון למַחֲפַת ואִתְחַפְּתוּן</he> they intended to outwit (Jacob), and they were outwitted."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְחַפֵּת"],
+			"senses": [
+				{
+					"gloss": "<i>to be outwitted</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

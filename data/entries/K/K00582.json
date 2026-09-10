@@ -1,0 +1,39 @@
+{
+	"id": "K00582",
+	"slug": "כיסויא",
+	"headword": {
+		"text": "כִּיסּוּיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּסּ׳"
+		}
+	],
+	"page": {
+		"number": 634,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00581\">same</cite><i>covering, roofing</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 22b:8\">Taan. 22ᵇ</cite> <he>ככ׳ דתנורא</he> (Ms. M. <he>כי כיסתא</he>, corr. acc.) as high up as the arch of the oven."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cover, cloak</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 68a:10\">Keth. 68ᵃ</cite> <he>לבושא וכ׳</he> garment and wrap.—Pl. <he>כִּיסּוּיִין</he>. Targ. II Esth. VI, 10 [read:] <he>מן כִּיסּוּיַי</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>secret</i>.—Pl. fem. <he>כִּיסּוּיָין</he>, <cite ref=\"K00581\"><he>כִּסּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 11:6\">Targ. Job XI, 6</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

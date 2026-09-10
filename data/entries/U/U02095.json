@@ -1,0 +1,28 @@
+{
+	"id": "U02095",
+	"slug": "שתי-6",
+	"headword": {
+		"text": "שְׁתִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֶׁתִי"
+		}
+	],
+	"page": {
+		"number": 1637,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U02094\">preced.</cite>) <i>warp</i>; trnsf. <i>longitudinal direction</i>, v. <cite ref=\"P01254\"><he>עֵרֶב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:3\">Y. Shek. VI, 50ᵃ</cite> top <he>כחוט של ש׳</he> as thin as a thread of the warp. ",
+				"<cite ref=\"Mishnah Mikvaot 6:9\">Mikv. VI, 9</cite> <he>כותל … שנסדק לש׳</he> a wall … which is cracked lengthwise; a. fr.—ש׳ וערב <i>crosswise</i>, v. <cite ref=\"P01254\"><he>עֵרֶב</he></cite>."
+			]
+		}
+	]
+}

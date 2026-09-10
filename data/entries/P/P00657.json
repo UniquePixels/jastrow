@@ -1,0 +1,28 @@
+{
+	"id": "P00657",
+	"slug": "עיקולא",
+	"headword": {
+		"text": "עִיקּוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִקּ׳"
+		}
+	],
+	"page": {
+		"number": 1074,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>עִיקּוּלֵי</he>, (<cite ref=\"P01191\"><he>עֲקַל</he></cite>) <cite ref=\"P00657\"><he>עִקּ׳</he></cite> <i>curves, small bays</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 97a\">Keth. 97ᵃ</cite> <he>איגלאי … בע׳ הוו קיימי</he> it turned out that the ship (carrying provisions) was waiting in the bays (until the high water would subside, and it could go to harbor). ",
+				"<cite ref=\"Avodah Zarah 34b:5\">Ab. Zar. 34ᵇ</cite> <he>התם ע׳ ופשורי איכא</he> there (along the coast from Tyre to Accho) are bays (formed by protruding rocks) and shallow waters caused by melting snows."
+			]
+		}
+	]
+}

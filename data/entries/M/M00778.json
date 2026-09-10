@@ -1,0 +1,22 @@
+{
+	"id": "M00778",
+	"slug": "מזקפתא",
+	"headword": {
+		"text": "מַזְקַפְתָּא"
+	},
+	"page": {
+		"number": 756,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00650\"><he>זְקַף</he></cite>) <i>brushing up</i> an animal’s hair to give it a delusive appearance of fatness. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 60b:3\">B. Mets. 60ᵇ</cite> (expl. <he>משרביטין</he>)."
+			]
+		}
+	]
+}

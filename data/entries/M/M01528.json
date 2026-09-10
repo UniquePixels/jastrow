@@ -1,0 +1,27 @@
+{
+	"id": "M01528",
+	"slug": "מלחא-3",
+	"headword": {
+		"text": "מַלְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִגְּדַּל מַלְחָא"
+		}
+	],
+	"page": {
+		"number": 789,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Tower of Malḥa</i>, near Caesaraea (v. Hildesh. Beitr. p. 9). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:9\">Y. Dem. II, 22ᶜ</cite>"
+			]
+		}
+	]
+}

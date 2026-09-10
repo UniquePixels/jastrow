@@ -1,0 +1,56 @@
+{
+	"id": "N01055",
+	"slug": "נפל-2",
+	"headword": {
+		"text": "נְפַל"
+	},
+	"page": {
+		"number": 924,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N01054\">same</cite> <cite ref=\"Targum Jonathan on II Samuel 1:4\">Targ. II Sam. I, 4</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 11:3\">Targ. Koh. XI, 3</cite> <he>למִנְפַּל</he>; a. v. fr.—Imperat. <cite ref=\"Q00660\"><he>פִּיל</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 50:11\">Targ. Is. L, 11</cite>.—Part. <cite ref=\"N01041\"><he>נָפֵיל</he></cite>, part. pass. <cite ref=\"N01043\"><he>נְפִיל</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:5\">Targ. Prov. XI, 5</cite> (ed. Wil. <cite ref=\"N01055\"><he>נְפַל</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 145:14\">Targ. Ps. CXLV, 14</cite>; a. e.—",
+				"<cite ref=\"Chullin 51a:10\">Ḥull. 51ᵃ</cite> <he>אי נְפוּל לארעא</he> if they were thrown down (violently). ",
+				"<cite ref=\"Chullin 51b\">Ib.ᵇ</cite>, v. <cite ref=\"N00160\"><he>נְגִיחוּתָא</he></cite>. ",
+				"<cite ref=\"Nedarim 65b:3\">Ned. 65ᵇ</cite> <he>כל דמעני לאו עלי נפיל</he> not every one that becomes poor, falls on me (for support). ",
+				"<cite ref=\"Bava Metzia 105a:7\">B. Mets. 105ᵃ</cite> <he>בזרא דנ׳ נ׳</he> a seed (of weeds) once fallen, has fallen (cannot be destroyed by the plough). ",
+				"<cite ref=\"Megillah 15b:21\">Meg. 15ᵇ</cite> <he>נַפְלָה ליה מילתא בדעתיה</he> something (a suspicion) had entered his mind; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפֵּיל"],
+			"senses": [
+				{
+					"gloss": ", as <cite ref=\"N01054\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:28\">Targ. Ps. LXXVIII, 28</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 21:22\">Targ. Y. Ex. XXI, 22</cite>; a. fr.—",
+						"<cite ref=\"Chullin 42a:1\">Ḥull. 42ᵃ</cite> top <he>אַפּוּלֵי אפיל</he> (read <cite ref=\"A02735\"><he>אַפְּלָא</he></cite>) she may have miscarried. ",
+						"<cite ref=\"Sanhedrin 109b:3\">Snh. 109ᵇ</cite> <he>ומַפְּלָא ליה</he> and she miscarried through his fault; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִינְּפִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be upset, fall in</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 2a:5\">M. Kat. 2ᵃ</cite> <he>דאתי לאִינְּפוּלֵי</he> a caving in (of the ground through which the water makes a road) might occur; <cite ref=\"Moed Katan 2b\">ib.ᵇ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

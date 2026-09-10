@@ -1,0 +1,29 @@
+{
+	"id": "H00140",
+	"slug": "חגג-2",
+	"headword": {
+		"text": "חֲגַג"
+	},
+	"page": {
+		"number": 424,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00139\">same</cite><i>to turn, draw a circle</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 8:27\">Targ. Prov. VIII, 27</cite> (Ms. <cite ref=\"H00154\"><he>חֲגַל</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to celebrate a festival; to feast</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 16:15\">Targ. O. Deut. XVI, 15</cite> <he>תֵּיחוֹג</he> (Y. <he>תְּחַגּוּן</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 30:16\">Targ. I Sam. XXX, 16</cite>.—",
+				"<cite ref=\"Chagigah 10b:2\">Ḥag. 10ᵇ</cite> <he>חוֹגוּ חגא</he>, v. <cite ref=\"H00134\"><he>חַגָּא</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q00519",
+	"slug": "פטימא-2",
+	"headword": {
+		"text": "פַּטִּימָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1155,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Paṭṭima</i> (<i>Fatima</i>), name of Ishmael’s second wife. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:21\">Targ. Y. Gen. XXI, 21</cite>; v. <cite ref=\"P00148\"><he>עֲדִישָׁא</he></cite>."
+			]
+		}
+	]
+}

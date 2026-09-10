@@ -1,0 +1,27 @@
+{
+	"id": "A03420",
+	"slug": "אתכנעו",
+	"headword": {
+		"text": "אִתְכְּנָעוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִתְכְּנָעוּתָא"
+		}
+	],
+	"page": {
+		"number": 133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00866\"><he>כְּנַע</he></cite>) <i>humiliation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 3:25\">Targ. Jer. III, 25</cite>; a. e."
+			]
+		}
+	]
+}

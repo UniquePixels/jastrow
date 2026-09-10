@@ -1,0 +1,30 @@
+{
+	"id": "A01074",
+	"slug": "אטונא",
+	"headword": {
+		"text": "אֵטוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַטּוּנָא"
+		}
+	],
+	"page": {
+		"number": 42,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. b. h. <he>אֵטוּן</he>; prob. fr. <cite ref=\"I00152\"><he>טוה</he></cite> <i>to spin;</i> for oth. etym. v. Ges. H. Dict. s. v. <he>אטן</he>) <i>rope, chord</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 2:15\">Targ. Josh. II, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 30:11\">Targ. Job. XXX, 11</cite> (ed. give all var. combined, v. <cite ref=\"U00572\"><he>שׁוֹשַׁלְתָּא</he></cite>).—",
+				"<cite ref=\"Rosh Hashanah 23a:9\">R. Hash. 23ᵃ</cite> <he>א׳ דכיתנא</he> (some ed. <he>אטוני</he> pl.) flaxrope.—Pl. <he>אֵטוּנִין</he>, (<he>אַטּ׳</he>) <he>אֵטוּנַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 20:31\">Targ. I Kings XX, 31</cite>; a. fr. [<cite ref=\"Tosefta Ma'asrot 3:8\">Tosef. Maasr. III, 8</cite> <he>אטונין</he> ed., ed. Zuck. <he>עטינין</he>, Var. <cite ref=\"A01086\"><he>אטינין</he></cite> q. v.]"
+			]
+		}
+	]
+}

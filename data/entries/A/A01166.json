@@ -1,0 +1,23 @@
+{
+	"id": "A01166",
+	"slug": "אידן",
+	"headword": {
+		"text": "אִידָּן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 45,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אדד</he>, v. <cite ref=\"A00571\"><he>אוּדְרָא</he></cite>) <i>low-cotton</i>, &c., esp. <i>bast twisted for a wick</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:1\">Sabb. II, 1</cite>, expl. in Babli (20ᵇ) <he>אחוינא</he>, v. <cite ref=\"A01007\"><he>אַחְוָונָא</he></cite> 3), in Y. (4ᶜ) <he>עידניתא</he>."
+			]
+		}
+	]
+}

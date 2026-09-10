@@ -1,0 +1,39 @@
+{
+	"id": "B00772",
+	"slug": "בכורה-2",
+	"headword": {
+		"text": "בְּכוֹרָה"
+	},
+	"page": {
+		"number": 169,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>בכר</he>)<i>first-born</i>. Pl. <he>בְּכוֹרוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 18:5\">Ex. R. s. 18</cite> <he>הנקבות הב׳</he> the first-born females (in Egypt)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>first birth, birth-right</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 123a:13\">B. Bath. 123ᵃ</cite> <he>נטל ב׳ מראובן וכ׳</he> took the birth-right from Reuben and gave it to Joseph. ",
+				"<cite ref=\"Bava Batra 123a:13\">Ib.</cite> <he>ראויה היתה ב׳ וכ׳</he> the first birth (of Jacob’s children) was destined to issue from Rachel. ",
+				"<cite ref=\"Bava Batra 124a:5\">Ib. 124ᵃ</cite> <he>חלק ב׳</he> the share of the first-born; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the law appertaining to first-born animals</i>, v. <cite ref=\"B00769\"><he>בְּכוֹר</he></cite>.—",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 1:1\">Bekh. I, 1</cite> <he>חייב בב׳</he> is subject to the law &c., <he>פטור מן הב׳</he> is exempt from &c.; a. v. fr.—Pl. <he>בְּכוֹרוֹת</he>, v. supra a. <cite ref=\"B00769\"><he>בְּכוֹר</he></cite>.—<i>B’khoroth</i> (Bekh.), name of a Talmudic treatise, belonging to the order of Kodashim <he>(קדשים</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

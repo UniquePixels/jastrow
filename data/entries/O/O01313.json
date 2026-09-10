@@ -1,0 +1,91 @@
+{
+	"id": "O01313",
+	"slug": "ספג-1",
+	"headword": {
+		"text": "סָפַג"
+	},
+	"page": {
+		"number": 1011,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"O01323\"><he>סְפוֹג</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to swallow, absorb</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:3\">Cant. R. to VII, 3</cite> <he>מה חטה זו סוֹפֶגֶת … סוֹפְגִין וכ׳</he> as the wheat (flour) absorbs (water), so Israel absorbs &c. ",
+				"<cite ref=\"Pirkei Avot 5:15\">Ab. V, 15</cite>, v. <cite ref=\"O01323\"><he>סְפוֹג</he></cite>; a. e.—Trnsf. (cmp. <cite ref=\"L00663\"><he>לָקָה</he></cite>, <cite ref=\"B00899\"><he>בְּלַע</he></cite>) <i>to receive lashes, be punished</i>. ",
+				"<cite ref=\"Mishnah Temurah 1:1\">Tem. I, 1</cite>, a. fr. <he>סוֹפֵג את הארבעים</he> receives forty (thirty-nine) lashes. ",
+				"<cite ref=\"Mishnah Nazir 4:3\">Naz. IV, 3</cite> <he>אם אינה סופגת … תִּסְפּוֹג וכ׳</he> if she cannot receive the Biblical punishment, let her receive the punishment for rebellion; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to use a</i> <cite ref=\"O01323\"><he>סְפוֹג</he></cite>, <i>to wipe, dry</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 22:1\">Sabb. XXII, 1</cite> <he>לא יִסְפּוֹג</he> (Ar. <he>יְסַפֵּג</he> <i>Pi.</i>) he must not put down a sponge (to absorb the spilt wine). ",
+				"<cite ref=\"Mishnah Zevachim 6:5\">Zeb. VI, 5</cite> <he>סְפָגוֹ במלח</he> he dried the dripping head of the sacrifice by rubbing salt on it. ",
+				"<cite ref=\"Tosefta Zevahim 7:10\">Tosef. ib. VII, 10</cite> <he>מלח ולא ס׳ ס׳ וכ׳</he> if he put salt on but did not dry it, or if he dried it without putting salt on; a. e.—",
+				"<cite ref=\"Shabbat 145a\">Sabb. 145ᵃ</cite> <he>לסוֹפְגָן במלח</he> Ar. (ed. <he>לסופתן</he>, v. <cite ref=\"O01437\"><he>סָפַת</he></cite>).—[<cite ref=\"Tosefta Zavim 1:9\">Tosef. Zab. I, 9</cite> <he>וסופג</he>, read: <he>וסִפּוּג</he>.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 840\">Yalk. Deut. 840</cite> <he>סופגין</he>, read: <he>סופנין</he>, v. <cite ref=\"O01386\"><he>סָפַן</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיפֵּג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01312\">same</cite>; v. supra, a. infra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְפִּיג"],
+			"senses": [
+				{
+					"gloss": "<i>to wipe, dry</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 7b:10\">Men. 7ᵇ</cite> <he>וטבל ולא מַסְפִּיג</he> (Rashi: <he>מְסַפֵּג</he> <i>Pi.</i>) he must dip (<cite ref=\"Leviticus 4:6\">Lev. IV, 6</cite>) but not wipe, i.e. there must be blood enough in the vessel to dip the finger into it; <cite ref=\"Yalkut Shimoni on Torah 469\">Yalk. Lev. 469</cite>; <cite ref=\"Zevachim 93b:7\">Zeb. 93ᵇ</cite> <he>מְסַפֵּג</he>. ",
+						"<cite ref=\"Bamidbar Rabbah 17:2\">Num. R. s. 17</cite> <he>נטלו והִסְפִּיגוֹ</he> he took it (the flayed ram) and wiped it (with salt, v. supra); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to receive drippings, collect</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> <he>כשרף הזה … עד שמַסְפִּיגִין אותו</he> like resin which scarcely begins to ooze out, when arrangements are made to collect it; Tanḥ. B’midb. 16 (not <he>השבט</he>); ed. Bub. ib. 19; Yalk. Ezra 1067."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִסְתַּפֵּג"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִסְתַּפֵּג"],
+			"senses": [
+				{
+					"gloss": "<i>to be wiped off, dried</i>. Num. R. l. c. <he>כאילו יצחק מִסְתַּפֵּג לפניך</he> as if Isaac’s blood had been wiped off. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 22:5\">Sabb. XXII, 5</cite> <he>הריחץ … ונ׳</he> if one bathed … and dried himself &c. ",
+						"<cite ref=\"Mishnah Shabbat 22:5\">Ib.</cite> <he>מִסְתַּפְּגִין וכ׳</he> wipe themselves with one sheet. ",
+						"<cite ref=\"Mishnah Yoma 3:4\">Yoma III, 4</cite>. ",
+						"<cite ref=\"Tosefta Zavim 1:9\">Tosef. Zab. I, 9</cite> <he>כדי … ויִסְתַּפֵּג</he> time enough for a person to bathe, come up and dry himself; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

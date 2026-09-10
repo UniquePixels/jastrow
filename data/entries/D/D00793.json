@@ -1,0 +1,54 @@
+{
+	"id": "D00793",
+	"slug": "דכר-2",
+	"headword": {
+		"text": "דְּכַר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּכְרָא"
+		},
+		{
+			"text": "דּוּכְ׳"
+		},
+		{
+			"text": "דִּיכְ׳"
+		}
+	],
+	"page": {
+		"number": 308,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"G00468\"><he>זָכָר</he></cite> [<i>marked</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>male, man</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:27\">Targ. Gen. I, 27</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite> <cite ref=\"D00830\"><he>בר דְּ׳</he></cite> male offspring, opp. <he>ברתא נוקבא</he>. ",
+				"<cite ref=\"Beitzah 7a:3\">Bets. 7ᵃ</cite> <he>ביעי דדִכְ׳</he> eggs originating from fructification by a cock, opp. <he>דספנא וכ׳</he> from self-friction. ",
+				"<cite ref=\"Pesachim 56a:4\">Pes. 56ᵃ</cite> <he>כופרא די׳</he>, v. <cite ref=\"K00348\"><he>כּוּפְרָא</he> III</cite>.—Pl. <he>דִּכְרִין</he>, <he>דִּכְרַיָּא</he>, <he>דִּכְרֵי</he>, <cite ref=\"D00763\"><he>דִּי׳</he></cite>, <cite ref=\"D00162\"><he>דּוּ</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 13:15\">Targ. Ex. XIII, 15</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Ketubot 4:10\">Keth. IV, 10</cite> (<cite ref=\"Ketubot 52b:7\">52ᵇ</cite>) <he>בנין דיכרין</he> male issue, opp. <he>בנן נוקבן</he>. Gen. R. l. c. <he>הוא מן ד׳ וכ׳</he> he is a descendant of Judah by the male side."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <he>דענא</he>) <i>the male of the flock, ram</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 28:11\">Targ. Num. XXVIII, 11</cite>; a. fr.—<i>Pl.</i> as above. ",
+				"<cite ref=\"Onkelos Exodus 29:1\">Targ. Ex. XXIX, 1</cite>; a. fr.—",
+				"<cite ref=\"Chullin 51a:11\">Ḥull. 51ᵃ</cite> <he>הנהו ד׳ וכ׳</he> wethers which thieves carried off (by throwing them over the fence)—",
+				"<cite ref=\"Bereishit Rabbah 70:19\">Gen. R. s. 70</cite>, end, v. <cite ref=\"D00796\"><he>דִּכְרָנִי</he></cite>. [<he>עינבי דיכרין</he>, v. <cite ref=\"K01124\"><he>כְּרוּמָא</he></cite> a. <cite ref=\"K01097\"><he>כְּרַהּ</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

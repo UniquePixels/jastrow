@@ -1,0 +1,29 @@
+{
+	"id": "B00947",
+	"slug": "בניה",
+	"headword": {
+		"text": "בַּנָּיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּנָּיָיה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 177,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"B00935\"><he>בַּנַּאי</he></cite> , <i>builder</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:5:3\">Y. Yoma III, 40ᶜ</cite>; <cite ref=\"Jerusalem Talmud Gittin 7:3:5\">Y. Gitt. VII, 48ᵈ</cite> bot.; <cite ref=\"Jerusalem Talmud Bava Batra 8:8:2\">Y. B. Bath. VIII, 16ᶜ</cite> top <he>ב׳ דאורייתא</he> a builder of the law (forming ingenious conclusions).—Pl. <cite ref=\"B00937\"><he>בַּנָּיִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:11\">Y. Ber. IX, 13ᵃ</cite> top; v. <cite ref=\"A00702\"><he>אוּמַן</he></cite>."
+			]
+		}
+	]
+}

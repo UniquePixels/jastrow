@@ -1,0 +1,36 @@
+{
+	"id": "U00976",
+	"slug": "שינוקא",
+	"headword": {
+		"text": "שִׁינּוּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁנּ׳"
+		},
+		{
+			"text": "שִׁירְנ׳"
+		},
+		{
+			"text": "שִׁרְנ׳"
+		}
+	],
+	"page": {
+		"number": 1564,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01611\"><he>שְׁנַק</he></cite>) <i>strangulation;</i> trnsf. <i>anguish</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 7:15\">Targ. Job VII, 15</cite> Ms. (ed. <cite ref=\"U01069\"><he>שר׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:27\">Targ. Prov. I, 27</cite> (ed. Wil. <he>שִׁנוֹ׳</he>; h. text <he>צוקה</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 21:15\">Targ. Y. Ex. XXI, 15</cite>, sq.; <cite ref=\"Targum Jonathan on Leviticus 20:10\">Targ. Y. Lev. XX, 10</cite>, v. <cite ref=\"O00265\"><he>סוּדָרָא</he></cite>; a. e.—Pl. <he>שִׁינּוּקִין</he>, <cite ref=\"U00973\"><he>שִׁנּ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 25:17\">Targ. Ps. XXV, 17</cite> <he>שִׁינּוּקַי</he> Ms. (ed. <he>קִי …</he>, <he>קֵי …</he>, corr. acc.)."
+			]
+		}
+	]
+}

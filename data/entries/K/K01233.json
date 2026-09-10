@@ -1,0 +1,36 @@
+{
+	"id": "K01233",
+	"slug": "כרמל",
+	"headword": {
+		"text": "כַּרְמֶל"
+	},
+	"page": {
+		"number": 671,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"K01229\"><he>כֶּרֶם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a well-cultivated plot</i>; whence (sub. <cite ref=\"C01404\"><he>גרש</he></cite>) (<i>grist of</i>) <i>early ripened and tender barley</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 66b:7\">Men. 66ᵇ</cite>; Sifra Vayikra, N’dabah, ch. XIV, Par. 13 (ref. to <cite ref=\"Leviticus 2:14\">Lev. II, 14</cite>). <he>כ̇ר̇מ̇ל̇ ר̇ך̇ ומ̇ל̇</he> soft yet brittle; <cite ref=\"Jerusalem Talmud Shabbat 1:1:24\">Y. Sabb. I, 2ᵈ</cite> bot. [read:] <he>רך מל לא לח וכ׳</he> soft yet brittle, neither green nor dry, but between the two. Sifra l. c.; Men. l. c. (another explan.) <he>כ̇ר̇ מ̇ל̇א</he> rounded and full."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. <i>Carmel</i>; (prob. everywhere) <i>Mount Carmel</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:6:5\">Y. Succ. III, 53ᵈ</cite> <he>כשעוה וכשושנת כ׳</he> of the color of wax or of the lily of Carmel (v. <cite ref=\"J00667\"><he>יְרַקְרַק</he></cite>); (<cite ref=\"Tosefta Negaim 1:5\">Tosef. Neg. I, 5</cite> <he>כשעוה וכקורמל</he>, Var. <he>וכקורמן</he>; R. S. to <cite ref=\"Mishnah Negaim 11:4\">Neg. XI, 4</cite> <he>וכקורמין</he>).—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:13\">Y. Ber. I, 2ᵇ</cite> bot. <he>ראש הר הכ׳</he>; <cite ref=\"Shabbat 35a:6\">Sabb. 35ᵃ</cite> <he>ראש הכ׳</he> (Ms. M. <he>ראש הר הכ׳</he>) the summit of M. C. ",
+				"<cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite>; Mekh. Yithro, Baḥod., s. 5 (alluding to <cite ref=\"Jeremiah 46:18\">Jer. XLVI, 18</cite>) <he>תבור … וכ׳ מאספמיא</he> Tabor came (to the desert for the law-giving) from Beth-Elim and C. from Ispamia; <cite ref=\"Megillah 29a\">Meg. 29ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

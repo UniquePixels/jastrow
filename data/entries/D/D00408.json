@@ -1,0 +1,40 @@
+{
+	"id": "D00408",
+	"slug": "דחיה",
+	"headword": {
+		"text": "דְּחִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּחִיָּיה"
+		}
+	],
+	"page": {
+		"number": 292,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00407\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thrusting, knocking down</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 45a:14\">Snh. 45ᵃ</cite> (ref. to <he>דוחפו</he>, Mish. ",
+				"<cite ref=\"Mishnah Sanhedrin 6:4\">ib. VI, 4</cite>) <he>מניין שבד׳</he> whence do we derive the law that he must be knocked down?; Y. ib. VI, 23ᶜ top <he>מניין שטעון ד׳</he>.—Pl. <he>דְּחִיּיוֹת</he>, <he>דְּחִיּוֹת</he>. Ib."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>postponement, suspension</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 19:1:2\">Y. Sabb. XIX, beg. 16ᵈ</cite> <he>עיקר דְּחִיָּיתָן וכ׳</he> what they chiefly supersede is the Sabbath and that which is required for their execution is labor (otherwise forbidden).—[<he>דְּחִיּוֹת</he> in later Hebr. literature: <i>the reasons for shifting the first day of Tishri</i> in the Jewish calendar.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "K00047",
+	"slug": "כבי-1",
+	"headword": {
+		"text": "כבי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּבָה"
+		},
+		{
+			"text": "כָּבָא"
+		}
+	],
+	"page": {
+		"number": 607,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K00004\"><he>כאב</he></cite>)<i>to grow dim, to be extinguished, go out</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 21a:12\">Sabb. 21ᵃ</cite> <he>כָּבְתָה זקוק לה</he> if the Ḥănuckah light went out, he is bound to attend to it. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 2:2:3\">Y. Yoma II, 39ᵈ</cite> <he>קטורת שכָּבַת</he> frankincense which went out (was not entirely burnt). ",
+				"<cite ref=\"Shabbat 30b:2\">Sabb. 30ᵇ</cite> <he>מוטב תִּכְבֶּה נרו וכ׳</he> it is better that a human light (candle) be extinguished, than that God’s light (life) be extinguished; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיבָּה", "(כִּיבָּא) כִּבָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to extinguish</i>. Ib.ᵃ <he>לא יְכַבֶּה ואם כִּבָּה פטור</he> he must not put it out, but if he did &c. Ib. II, 5 <he>המְכַבֶּה את הנר</he> he who puts the (Sabbath) lamp out. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 68:10\">Gen. R. s. 68</cite> (play on <he>כי בא</he>, <cite ref=\"Genesis 28:11\">Gen. XXVIII, 11</cite>) <he>כִּיבָּא השמש</he> (some ed. <cite ref=\"K00047\"><he>כיבה</he></cite>) He extinguished the sun (made the sun set earlier). ",
+						"<cite ref=\"Tosefta Shabbat 13:9\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:9\">XIV</cite>), 9 <he>נכרי שבא לכַבּוֹת אין אומ׳ לו כַּבֵּה ואל תְּכַבֶּה</he> if a gentile comes (on the Sabbath) to extinguish (a fire), we say to him neither ‘extinguish’ nor ‘do not’. Gen. R. l. c. <he>אמר המלך כַּבּוּ וכ׳</he> (not <he>כיבו</he>) said the king, put out &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

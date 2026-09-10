@@ -1,0 +1,59 @@
+{
+	"id": "J00627",
+	"slug": "ירי-1",
+	"headword": {
+		"text": "ירי"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָרָה"
+		}
+	],
+	"page": {
+		"number": 596,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A03078\"><he>אֲרִי</he> I</cite>)<i>to permeate, penetrate; to shoot forth</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 43a\">Nidd. 43ᵃ</cite>; <cite ref=\"Chagigah 15a\">Ḥag. 15ᵃ</cite> [read:] <he>כל … שאינו יוֹרֶה כחץ אינה מזרעת</he> (Ms. M. <he>אינו מוליד</he>; Ms. M. 2 <he>שאינה יוֹרָה</he>, v. Rabb. D. S. a. l. note) a spermatic emission which does not permeate (shoot forth) like an arrow, cannot fructify; <cite ref=\"Yevamot 65a:6\">Yeb. 65ᵃ</cite> <he>היא קיימא לה בי׳ כחץ</he> she can feel it whether the emission is permeating &c. ",
+				"<cite ref=\"Sifrei Devarim 42\">Sifré Deut. 42</cite> <he>יוֹרֶה שמתכון … יורד וכ׳</he> the rain is called <i>yoreh</i> (shooting), for it is aimed at the earth with deliberation, and does not come down in a storm; <cite ref=\"Taanit 6a:2\">Taan. 6ᵃ</cite> <he>יורה שיורד בנחת</he>.—2) <i>to throw, shoot</i>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 133\">Yalk. Gen. 133</cite> <he>לִירוֹת בב׳ ידיו</he> to throw spears with both hands; v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to permeate</i>. Sifré l. c. <he>שמוֹרֶה ומרוה הארץ וכ׳</he> for it (the <i>yoreh</i>, v. supra) pervades and satisfies the earth and gives her drink down to the deep (Taan. l. c., <cite ref=\"Yalkut Shimoni on Torah 863\">Yalk. Deut. 863</cite> only <he>שמַרְוֶה</he>).—[Y. Maasr. I, 49ᵃ top <he>משיורו וכ׳</he>, read: <he>משיִרְווּ</he>, v. <cite ref=\"T00322\"><he>רָוָה</he></cite> a. <cite ref=\"M02585\"><he>מַרְוִית</he></cite>.]",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to point, aim at, shoot, cast</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 18</cite> <he>שלש … הוֹרוּ בו</he> three hundred arrows did they shoot into his body; Y. Kidd. I, 61ᵃ bot. <he>יורו במשיח וכ׳</he> (read: <he>הורו</he> or <he>יָירוּ</he>, <i>Kal</i>). Yalk. Gen. l. c. (fr. Midr. Vayisu) <he>היה מוֹרֶה חניתית וכ׳</he> he threw spears with both hands &c. ",
+						"<cite ref=\"Shemot Rabbah 3:15\">Ex. R. s. 3</cite> (ref. to <he>והיריתיך</he>, <cite ref=\"Exodus 4:12\">Ex. IV, 12</cite>) <he>מורה אני וכ׳</he> I shall shoot my words into thy mouth like an arrow; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to point out, to direct, teach, instruct; to decide</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Horayot 1:1\">Hor. I, 1</cite> <he>הוֹרוּ ב״ד וכ׳</he> if a court has (through error) directed to transgress one of the commands &c. ",
+						"<cite ref=\"Mishnah Horayot 1:2\">Ib. 2</cite> <he>ה׳ ב״ד וידעו וכ׳</he> if a court has given a decision and finding out its mistake reversed it. ",
+						"<cite ref=\"Mishnah Yevamot 10:2\">Yeb. X, 2</cite> <he>הוֹרוּהָ ב״ד לינשא</he> if a court instructed her that she may marry again. ",
+						"<cite ref=\"Berakhot 31b\">Ber. 31ᵇ</cite>; <cite ref=\"Eruvin 63a:20\">Erub. 63ᵃ</cite> <he>כל המוֹרֶה הלכה בפני וכ׳</he> whoever decides a law-point in the presence of his teacher. ",
+						"<cite ref=\"Pirkei Avot 5:8\">Ab. V, 8</cite> <he>המוֹרִים בתורה וכ׳</he> who decide in religious matters against the law (by means of sophistry). ",
+						"<cite ref=\"Shabbat 19b\">Sabb. 19ᵇ</cite> <he>ה׳</he> … <he>כר׳ וכ׳</he> R. … decided in agreement with the opinion of &c.; a. fr. [<cite ref=\"Eruvin 65a:10\">Erub. 65ᵃ</cite> (a citation, from Sirach X, 26?; v., however, Rabb. D. S. a. l. note 70) <he>בצר אל יוֹרֶה</he> he who is in trouble, should give no opinion—applied by analogy to prayer in an unsettled condition of mind.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "M02070",
+	"slug": "מעה-1",
+	"headword": {
+		"text": "מְעָה"
+	},
+	"page": {
+		"number": 813,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.  ",
+			"units": [
+				"<cite ref=\"Isaiah 48:19\">Is. XLVIII, 19</cite>, v. Targ.; cmp. <cite ref=\"M02071\">next w.</cite>) [<i>grain</i> of sand &c.) <i>m’ah</i>, (cmp. <cite ref=\"C01320\"><he>גֵּרָה</he></cite>) "
+			]
+		},
+		{
+			"gloss": "<i>a weight</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:2:2\">Y. Kil. I, 27ᵃ</cite> top <he>מ׳ אחת וכ׳</he> one m’ah’s weight from the top of a melon, cucumber &c.; [R. S. to <cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite>: one <i>seed</i> taken from the top &c., v. next w.].—",
+				"<cite ref=\"Vayikra Rabbah 17:1\">Lev. R. s. 17</cite> <he>מ׳ אחת עבה ומ׳ וכ׳</he> one m’ah’s weight of coarse thread &c.; (<cite ref=\"Midrash Tehillim 73\">Midr. Till. to Ps. LXXIII, 4</cite> <cite ref=\"M00974\"><he>מַטְוֶה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a coin</i>, corresp. to the Tyrian Obolus (v. Zuckerm. Talm. Münz. p. 4). ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 5:12\">Tosef. B. Bath. V, 12</cite> <he>שש מ׳ כסף וכ׳</he> six m’ah silver make one denar; <he>מ׳ כסף שני וכ׳</he> one m. silver is equal to two dupondia; <cite ref=\"Jerusalem Talmud Kiddushin 1:1:20\">Y. Kidd. I, 58ᵈ</cite>; Bab. ",
+				"<cite ref=\"Kiddushin 12a:9\">Kidd. 12ᵃ</cite>; <cite ref=\"Bekhorot 50a:3\">Bekh. 50ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:1:2\">Y. Shebu. VI, beg. 36ᵈ</cite>; a. fr.—Pl. <cite ref=\"M02113\"><he>מָעִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:1:2\">Ib.</cite>; a. fr.—<he>מָעוֹת</he> in gen. <i>small coins, money</i>. ",
+				"<cite ref=\"Mishnah Bava Metzia 4:1\">B. Mets. IV, 1</cite>, v. <cite ref=\"S01533\"><he>קָנָה</he></cite>. ",
+				"<cite ref=\"Pesachim 50b:8\">Pes. 50ᵇ</cite> <he>מ׳ הבאות ממדינת הים</he> proceeds from trans-oceanic traffic. ",
+				"<cite ref=\"Pesachim 50b:9\">Ib.</cite> <he>מְ׳ יתומים</he> orphans’ money (invested at half-profits between executor and orphans). ",
+				"<cite ref=\"Avodah Zarah 17b:8\">Ab. Zar. 17ᵇ</cite> <he>מ׳ של פורים</he> money laid aside for Purim enjoyments; <he>מ׳ של צדקה</he> charity fund. ",
+				"<cite ref=\"Avodah Zarah 17b:8\">Ib.</cite> <he>לא יתן אדם מְעוֹתָיו וכ׳</he> one must not give his contribution to the charity fund, unless its manager be &c.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

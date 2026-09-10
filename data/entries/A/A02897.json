@@ -1,0 +1,27 @@
+{
+	"id": "A02897",
+	"slug": "אקווא",
+	"headword": {
+		"text": "אַקְוָוא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַקְהָא"
+		}
+	],
+	"page": {
+		"number": 112,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00203\"><he>קהי</he></cite>) <i>what blunts or loosens the teeth, weakening;</i> fig. (v. Mekh. Bo 18, end) <i>refutation, arguments</i>. Pl. <cite ref=\"A01808\"><he>אַקְוָותָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Yevamot 110b:12\">Yeb. 110ᵇ</cite> <he>יתבי וקמקוו א׳</he> (Rashi Var. <he>מקהו אַקְהָתָא</he>) they were sitting and raising arguments. Cmp. <cite ref=\"A02894\"><he>אַקְהָיוּתָא</he></cite>."
+			]
+		}
+	]
+}

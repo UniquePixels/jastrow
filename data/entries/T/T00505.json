@@ -1,0 +1,27 @@
+{
+	"id": "T00505",
+	"slug": "רחיצה",
+	"headword": {
+		"text": "רְחִיצָה"
+	},
+	"page": {
+		"number": 1466,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00535\"><he>רָחַץ</he></cite>) <i>washing, bathing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 8:1\">Yoma VIII, 1</cite>. ",
+				"<cite ref=\"Mishnah Challah 1:9\">Ḥall. I, 9</cite> <he>רְחִיצַת ידים</he> washing the hands. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 7:4:3\">Y. Naz. VII, end, 56ᵈ</cite> <he>על רחיצת גופו</he> for omitting to bathe his body. ",
+				"<cite ref=\"Bamidbar Rabbah 14:1\">Num. R. s. 14<sup>1</sup></cite> <he>שרפאתיו ע״י רחיצת הירדן</he> whom I cured by bathing in the Jordan. ",
+				"<cite ref=\"Bamidbar Rabbah 14:1\">Ib.</cite> <he>שהסרתי … ע״י רחיצת וכ׳</he> whom I saved from drowning through the bathing of Pharaoh’s daughter. ",
+				"<cite ref=\"Bamidbar Rabbah 14:1\">Ib.</cite> <he>גחזי שלקה ע״י ר׳</he> Gehazi who was punished on the occasion of (Naaman’s) bathing; a. fr."
+			]
+		}
+	]
+}

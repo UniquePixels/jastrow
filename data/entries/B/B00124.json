@@ -1,0 +1,23 @@
+{
+	"id": "B00124",
+	"slug": "בדוקי",
+	"headword": {
+		"text": "בְּדוּקִי"
+	},
+	"page": {
+		"number": 139,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בדק</he>) <i>one requiring examination</i>, i.e. <i>one whose father is unknown</i>, usually <cite ref=\"U02084\"><he>שְׁתוּקִי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:2\">Kidd. IV, 2</cite> Abba Saul called the <i>sh’thuki</i> <he>ב׳</he> <i>b’duki</i>. Y. ib. II, 65ᵈ bot.; Bab. ",
+				"<cite ref=\"Kiddushin 74a:6\">ib. 74ᵃ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "M03072",
+	"slug": "מתכת",
+	"headword": {
+		"text": "מַתֶּכֶת"
+	},
+	"page": {
+		"number": 862,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01379\"><he>נָתַךְ</he></cite>) [<i>molten</i>] <i>metal</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:6\">Kel. XIII, 6</cite> <he>עץ המשמש את המ׳</he> the wooden part of a utensil which is subservient to the metallic part. ",
+				"<cite ref=\"Mishnah Kelim 13:7\">Ib. 7</cite> <he>עשאו של מ׳</he> he replaced it by a metallic tooth; a. v. fr.—Pl. <cite ref=\"M03070\"><he>מַתָּכוֹת</he></cite>.—<he>כְּלֵי מ׳</he> metallic vessels, utensils, tools &c. ",
+				"<cite ref=\"Mishnah Kelim 14:1\">Ib. XIV, 1</cite>. ",
+				"<cite ref=\"Mishnah Chullin 1:6\">Ḥull. I, 6</cite>; a. v. fr."
+			]
+		}
+	]
+}

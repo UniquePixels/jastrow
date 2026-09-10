@@ -1,0 +1,31 @@
+{
+	"id": "O00616",
+	"slug": "סייג-1",
+	"headword": {
+		"text": "סְיָיג"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְיָג"
+		}
+	],
+	"page": {
+		"number": 978,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סוּג</he> I) <i>fence, hedge</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Orlah 1:1\">Orl. I, 1</cite> <he>הנוטע לס׳</he> he that plants for the sake of forming a hedge (not for the fruit); a. fr.—Trnsf. (cmp. <cite ref=\"C00246\"><he>גֶּדֶר</he></cite>) <i>guard, preventive measure, protection</i>. ",
+				"<cite ref=\"Niddah 3b:23\">Nidd. 3ᵇ</cite> … <he>ומיהו עשה ס׳ לדבריך דעבדינן ס׳</he> but at least set a guard to thy words (add a restriction), for wherein does this case differ from other Biblical laws around which we (the Rabbis) place a fence? Y. ib. I, beg. 48ᵈ. ",
+				"<cite ref=\"Avot D'Rabbi Natan 1:7\">Ab. d’R. N. ch. I</cite>, v. <cite ref=\"O00242\"><he>סוּג</he> I</cite>. ",
+				"<cite ref=\"Pirkei Avot 1:1\">Ab. I, 1</cite> <he>עשו ס׳ לתורה</he> make a fence around the Law. ",
+				"<cite ref=\"Pirkei Avot 3:13\">Ib. III, 13</cite> <he>מסורת ס׳ וכ׳</he>, v. <cite ref=\"M01884\"><he>מַסּוֹרֶת</he></cite>; <he>מעשרות ס׳ לעושר</he> tithe-giving is a preserver of wealth; <he>נדרים ס׳ וכ׳</he> vows are a help to self-control; <he>ס׳ לחכמה וכ׳</he> a protection of wisdom is silence; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A02594",
+	"slug": "אערעא",
+	"headword": {
+		"text": "אֲעַרְעָא"
+	},
+	"page": {
+		"number": 99,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01410\"><he>ערע</he></cite>) <i>occurrence, adversity</i>.—Pl. <cite ref=\"A02594\"><he>אֲעַרְעָן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 34:20\">Targ. Ps. XXXIV, 20</cite> Ms.; v. <cite ref=\"A03220\"><he>אִרְעָא</he></cite>."
+			]
+		}
+	]
+}

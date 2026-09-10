@@ -1,0 +1,25 @@
+{
+	"id": "K01305",
+	"slug": "כשיל",
+	"headword": {
+		"text": "כַּשִּׁיל"
+	},
+	"page": {
+		"number": 675,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01313\"><he>כָּשַׁל</he></cite>)<i>a carpenter’s tool for chipping, axe</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 10:10\">B. Kam. X, 10</cite> <he>ובכ׳ של בעה״ב</he> when working with the axe, the chips belong to the owner, contrad. to <cite ref=\"M02159\"><he>מעצד</he></cite>. ",
+				"<cite ref=\"Bava Kamma 119b:18\">Ib. 119ᵇ</cite>, v. <cite ref=\"H01522\"><he>חֲצִינָא</he></cite>.—Pl. <he>כַּשִּׁילִים</he>, <he>כַּשִּׁילִין</he>. ",
+				"<cite ref=\"Mishnah Sotah 8:6\">Sot. VIII, 6</cite> <he>כ׳ של ברזל</he> iron axes (as a weapon in war). ",
+				"<cite ref=\"Sifrei Devarim 337:1\">Sifré Deut. 337</cite> <cite ref=\"K01316\"><he>כשלים</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "N00567",
+	"slug": "נטיר-3",
+	"headword": {
+		"text": "נָטֵיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָטֵר"
+		}
+	],
+	"page": {
+		"number": 899,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00566\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " part. of <cite ref=\"N00584\"><he>נְטַר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>guardsman</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 127:1\">Targ. Ps. CXXVII, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 121:4\">Ib. CXXI, 4</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

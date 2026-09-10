@@ -1,0 +1,23 @@
+{
+	"id": "G00049",
+	"slug": "זבלגן",
+	"headword": {
+		"text": "זַבְלְגָן"
+	},
+	"page": {
+		"number": 379,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00477\"><he>זָלַג</he></cite>, with inserted <cite ref=\"B00000\"><he>ב</he></cite> = <he>זולגן</he>, cmp. <cite ref=\"G00029\"><he>זבזגא</he></cite> a. <cite ref=\"G00050\">next w.</cite>) <i>blear-eyed</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 24b:12\">Meg. 24ᵇ</cite>.—Pl. <he>זַבְלְגָנִים</he>, <he>זַבְלְגָנִין</he>. ",
+				"<cite ref=\"Bekhorot 43b:9\">Bekh. 43ᵇ</cite>; <cite ref=\"Tosefta Bekhorot 5:2\">Tosef. ib. V, 2</cite>."
+			]
+		}
+	]
+}

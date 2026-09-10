@@ -1,0 +1,27 @@
+{
+	"id": "A00924",
+	"slug": "אושכפא",
+	"headword": {
+		"text": "אוּשְׁכָּפָא"
+	},
+	"page": {
+		"number": 35,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= h. <cite ref=\"U01180\"><he>שַׁכָּף</he></cite>; <cite ref=\"U01180\"><he>שכף</he></cite>, √<he>כף</he>, cmp. <cite ref=\"A00654\"><he>אוּכָּף</he></cite>) <i>worker in leather, saddler, shoemaker</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 68b:2\">Git. 68ᵇ</cite>.—Pl. <cite ref=\"A00923\"><he>אוּשְׁכָּפֵי</he></cite>. ",
+				"<cite ref=\"Shabbat 112a:6\">Sabb. 112ᵃ</cite> the travellers’ sandals <he>דקטרי א׳</he> which the shoemakers knot (tightly). ",
+				"<cite ref=\"Shabbat 104b:3\">Ib. 104ᵇ</cite> <he>חרתא דא׳</he> the blacking used by shoemakers. ",
+				"<cite ref=\"Shabbat 123b:7\">Ib. 123ᵇ</cite> <he>חרבא דא׳</he> the leather dressers’ knife. ",
+				"<cite ref=\"Pesachim 42b:16\">Pes. 42ᵇ</cite> <he>פרורא דא׳</he> the shoemakers’ paste. ",
+				"<cite ref=\"Pesachim 113b:1\">Ib. 113ᵇ</cite>"
+			]
+		}
+	]
+}

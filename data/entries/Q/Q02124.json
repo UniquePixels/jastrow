@@ -1,0 +1,32 @@
+{
+	"id": "Q02124",
+	"slug": "פתגם",
+	"headword": {
+		"text": "פִּתְגָּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּתְגָּמָא"
+		}
+	],
+	"page": {
+		"number": 1250,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"Q02124\"><he>פִּתְגָּם</he></cite>; <he>פתג</he>, v. <cite ref=\"Q02121\"><he>פְּתָגָא</he></cite>, cmp. <he>פסק</he>, <he>גזר</he> a. derivatives)<i>decree; word; affair, event</i> (= h. <cite ref=\"D00077\"><he>דָּבָר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 21:24\">Targ. Num. XXI, 24</cite>, a. fr. (<he>כפ׳</he>) <he>לפ׳ דחרב</he> according to the law of war (h. text <he>לפי</he>).—",
+				"<cite ref=\"Targum Jonathan on Isaiah 8:10\">Targ. Is. VIII, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 9:7\">Ib. IX, 7</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 24:1\">Targ. Deut. XXIV, 1</cite> <he>עֲבֵרַת פ׳</he> (h. text <he>ערות דבר</he>). ",
+				"<cite ref=\"Onkelos Genesis 20:10\">Targ. Gen. XX, 10</cite>; a. fr.—Pl. <he>פִּתְגָּמִין</he>, <he>פִּתְגָּמַיָּא</he>. ",
+				"<cite ref=\"Onkelos Exodus 34:27\">Targ. O. Ex. XXXIV, 27</cite>; a. fr."
+			]
+		}
+	]
+}

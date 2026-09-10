@@ -1,0 +1,29 @@
+{
+	"id": "D00080",
+	"slug": "דברא-1",
+	"headword": {
+		"text": "דַּבָּרָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּבָרָא"
+		}
+	],
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דבר</he>, cmp. <cite ref=\"N00250\"><he>נָהַג</he></cite>) <i>drive, way of moving</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 9:20\">Targ. II Kings IX, 20</cite>.—Pl. <he>דַּבָּרִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 5:20\">Targ. Jud. V, 20</cite> <he>כבשי ד׳</he> (h. text <he>מְסִלּוֹת</he>)."
+			]
+		}
+	]
+}

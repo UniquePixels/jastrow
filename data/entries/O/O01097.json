@@ -1,0 +1,158 @@
+{
+	"id": "O01097",
+	"slug": "סמך-1",
+	"headword": {
+		"text": "סָמַךְ"
+	},
+	"page": {
+		"number": 1000,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to close, join</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to pack, make close, stamp</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 3:8\">Shebi. III, 8</cite> <he>לא יִסְמוֹךְ בעפר</he> one should not support the dam by packing earth upon it, v. <cite ref=\"O00063\"><he>סָבַךְ</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 5\">Gen. R. s. 5</cite> <he>סְמָבָן וכ׳</he> he crowded them between &c. (<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <cite ref=\"U01496\"><he>שָׂמָן</he></cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to support, stem</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 136:6\">Midr. Till. to Ps. CXXXVI</cite>, <he>עוג היה … וסוֹמְכוֹ</he> Og broke a mountain loose and threw it on the Israelites …, Moses took a pebble and mentioned the Holy Name over it and stemmed its fall; <he>הידים שכך סוֹמְכוֹת</he> the hands which thus stem (the mountain); <cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite>, end; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to bring close, to join</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:2:2\">Y. Sabb. III, 5ᵈ</cite> bot. <he>אפי׳ לִסְמוֹךְ לו</he> even to place a vessel close to it (to be warmed); Bab. ",
+				"<cite ref=\"Shabbat 38b\">Sabb. 38ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:3:2\">Y. Kil. II, 27ᵈ</cite> <he>סוֹמְכִין עומרין וכ׳</he> you may put packed sheaves by the side of &c. ",
+				"<cite ref=\"Mishnah Kilayim 2:7\">Kil. II, 7</cite> <he>לסמוך לו וכ׳</he> to plant closely adjoining to it &c. ",
+				"<cite ref=\"Mishnah Kilayim 2:8\">Ib. 8</cite>; a. fr.—Esp. (sub. <he>יד</he>) "
+			],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>to press hands on the head of a sacrifice</i> (to indicate ownership). ",
+					"units": [
+						"<cite ref=\"Mishnah Menachot 9:8\">Men. IX, 8</cite> <he>הכל סוֹמְכִין וכ׳</he> all persons are entitled to lay hands on their sacrifices, except &c. ",
+						"<cite ref=\"Mishnah Chagigah 2:2\">Ḥag. II, 2</cite> <he>שלא לסמוך</he> that the laying on of hands must not be done on the Holy Days. ",
+						"<cite ref=\"Mishnah Chagigah 2:3\">Ib. 3</cite> <he>ואין סומכין עליהם</he> but hands must not be laid on them; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>to lay hands on the head of a scholar</i>, in gen. <i>to ordain</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 14a\">Snh. 14ᵃ</cite> the government decreed <he>שכל הסומך יהרג וכ׳</he> that whosoever ordained a scholar should be put to death, and whosoever be ordained should be put to death, <he>ועיר שסומכין וכ׳</he> and the town wherein the ordination takes place &c. ",
+						"<cite ref=\"Sanhedrin 14a:2\">Ib.</cite> <he>וס׳ שם חמשה וכ׳</he> and he ordained there five elders. ",
+						"<cite ref=\"Sanhedrin 14a:4\">Ib.</cite> <he>ר״מ לא סְמָכוֹ ר״ע</he> that R. Akiba never ordained R. M.—",
+						"<cite ref=\"Sanhedrin 14a:6\">Ib.</cite> <he>סומכין בארץ ונִסְמָכִין וכ׳</he> if those ordaining stand on Palestinean ground, and those to be ordained outside of Palestine; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>to lean, to rely</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 9a\">Ber. 9ᵃ</cite>, a. fr., v. <cite ref=\"K00128\"><he>כְּדָיי</he></cite>. ",
+				"<cite ref=\"Eruvin 65b:21\">Erub. 65ᵇ</cite> <he>נִסְמוֹךְ על וכ׳</he> let us rely on the opinion of &c.; a. fr.—Trnsf. "
+			],
+			"label": "4",
+			"senses": [
+				{
+					"gloss": " <i>to support; to find support for an opinion</i> or <i>a rule</i>, (v. <cite ref=\"A02466\"><he>אַסְמַכְתָּא</he></cite>). ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Sheviit 10:2:2\">Y. Shebi. X, 39ᶜ</cite> bot. (ref. to <cite ref=\"Deuteronomy 15:3\">Deut. XV, 3</cite>) <he>מיכן סָמְכוּ לפרוזבול וכ׳</he> here they found a support for the <i>prosbol</i> as a Biblical institution, expl. <he>בשהתקין הלל סְמָכוּהוּ וכ׳</he> when Hillel had instituted it, they supported it by reference to &c.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (with <he>ענין</he>) <i>to bring under the same rule laws which are joined in the Biblical text</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 4a:5\">Yeb. 4ᵃ</cite> (ref. to <cite ref=\"Exodus 22:17\">Ex. XXII, 17</cite> a. ",
+						"<cite ref=\"Exodus 22:18\">18</cite>) <he>סמכו עניין לו וכ׳</he> they brought the subject (verse 17) close to it (verse 18) (to intimate) as the punishment for the one is stoning, so is it for the other. ",
+						"<cite ref=\"Exodus 22:18\">Ib.</cite> <he>וכי מפני שסמכו וכ׳</he> can we put a person to death on an intimation suggested merely by the neighborhood of two subjects? (v. <he>סְמוּכִים</he>, infra).—<i>Part. pass.</i> <cite ref=\"O01067\"><he>סָמוּךְ</he></cite>; f. <cite ref=\"O01067\"><he>סְמוּכָה</he></cite>; pl. <he>סְמוּכִים</he>, <he>סְמוּכִין</he>; <cite ref=\"O01068\"><he>סְמוּכוֹת</he></cite> a) <i>near, close by</i>. ",
+						"<cite ref=\"Megillah 3b:3\">Meg. 3ᵇ</cite> <he>וכל הס׳ לו</he> and all (the inhabited area) adjoining it. ",
+						"<cite ref=\"Menachot 98a\">Men. 98ᵃ</cite>, a. e. <he>על בס׳</he> the preposition <i>ʿal</i> means <i>immediately on</i>. ",
+						"<cite ref=\"Sifrei Bamidbar 131:1\">Sifré Num. 131</cite> <he>הרבה פרשיות ס׳ וכ׳</he> many sections (in the Torah) adjoin one another, and yet are (mentally) as far from one another &c. ",
+						"<cite ref=\"Mishnah Shabbat 1:2\">Sabb. I, 2</cite> <he>ס׳ למנחה</he> near Minḥah time; a. v. fr.—Esp. <he>סְמוּכִין</he>, <he>סְמוּכִים</he> <i>the interpretation founded on the fact of local junction of texts</i> (v. supra). Yeb. l. c. <he>ס׳ מן התורה מנין</he> where is it intimated that Biblical texts are to be interpreted on the basis of proximity? Answ. (ref. to <cite ref=\"Psalms 111:8\">Ps. CXI, 8</cite>): they are arranged &c. ",
+						"<cite ref=\"Psalms 111:8\">Ib.</cite> <he>מאן דלא דריש ס׳</he> he who does not adopt the interpretation based on textual proximity. ",
+						"<cite ref=\"Berakhot 10a:10\">Ber. 10ᵃ</cite>; a. fr.—b) <i>strong</i>, <i>hardened</i>. ",
+						"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite> <he>לבה ס׳ עליהם</he> her heart is hardened towards them (and their presence will prevent her from confessing her guilt); cmp. <cite ref=\"C00445\"><he>גּוּס</he> I</cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְמַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be adjoined</i>. Ber. l. c. <he>למה נִסְמְכָה וכ׳</he> why has the section referring to Absalom (<cite ref=\"Psalms 3\">Ps. III</cite>) been joined to that relating to Gog and Magog (<cite ref=\"Psalms 2\">Ps. II)? Tanḥ. Ḥuck. 20</cite> <he>ונ׳ להר וכ׳</he> and is close to the mountain opposite. ",
+					"units": ["<cite ref=\"Moed Katan 28a\">M. Kat. 28ᵃ</cite>; a. fr."],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be ordained</i>. Snh. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Yoma 87a:5\">Yoma 87ᵃ</cite> <he>שראויין לִיסָּמֵךְ</he> who are worthy to be ordained; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["סִימֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to support</i>, <i>prop</i>. Y. Maasr. II, 50ᵃ top <he>המְסַמֵּךְ בגפנים</he> he who props vines. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 244:4\">Yalk. Ex. 244</cite> <he>עוזר ומסמך אתה וכ׳</he> thou art a helper and supporter to all &c.; a. e.—Part. pass. <he>מְסוּמָּךְ</he>, pl. <he>מְסוּמָּכִין</he>. ",
+						"<cite ref=\"Mishnah Kelim 2:2\">Kel. II, 2</cite> <he>יושבין שלא מ׳</he> (vessels or fragments of vessels) resting without the need of a support."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְמִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to pack, tread</i>. Y. Maasr. l. c. <he>ברגליו מַסְמִיךְ</he> working with his feet is he who packs (sheaves &c.; Y. B. Mets. VII, beg. 11ᵇ <he>מקמץ</he>).",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִסְתַּמֵּךְ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִסְתַּמֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to lean one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite>, end <he>היתה מִסְתַּמֶּכֶת על וכ׳</he> was leaning on her handmaid. ",
+						"<cite ref=\"Sifrei Bamidbar 131:2\">Sifré Num. 131</cite> <he>והיה מִסְתַּמֵּךְ וכ׳</he> and he went off leaning on his stick; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

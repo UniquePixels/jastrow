@@ -1,0 +1,23 @@
+{
+	"id": "B00920",
+	"slug": "בלשפט",
+	"headword": {
+		"text": "בֵּלְשָׁפָט"
+	},
+	"page": {
+		"number": 175,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Belshafat</i> (contr. of <cite ref=\"A01881\"><he>בי אלישפט</he></cite>), a staple town in Susiana (Khazistan), Syriac name <i>Beth-Lapetha = Ahwaz</i> (Neub. Géogr. p. 380). ",
+			"units": [
+				"<cite ref=\"Taanit 22a\">Taan. 22ᵃ</cite> <he>בי לפט</he> ed. (Var. <cite ref=\"B00623\"><he>בילפט</he></cite>, <cite ref=\"B00278\"><he>בולשפטי</he></cite>, v. Rabb. D. S. a. l. note 8). ",
+				"<cite ref=\"Bava Metzia 73b\">B. Mets. 73ᵇ</cite> <cite ref=\"G00181\"><he>זולשפט</he></cite> ed. (Ar. <cite ref=\"L00285\"><he>לולשפט</he></cite>, Ms. H. <cite ref=\"B00920\"><he>בלשפט</he></cite>); <cite ref=\"Bava Batra 98a\">B. Bath. 98ᵃ</cite> <he>וול שפט</he> ed. (Ar. <he>לולש׳</he>; Ms. M. <he>ולשפט</he>; Var. <he>ויל שפט</he>, <he>וילש׳</he>, <he>לישפט</he>, <he>בי לישפט</he>, v. Rabb. D. S. a. l. note). [Yoḥăsin s. v. <cite ref=\"B01332\"><he>ברוקא</he></cite>: <cite ref=\"A01881\"><he>בי אלישפט</he></cite>.]"
+			]
+		}
+	]
+}

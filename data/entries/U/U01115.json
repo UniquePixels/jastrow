@@ -1,0 +1,50 @@
+{
+	"id": "U01115",
+	"slug": "שכב-2",
+	"headword": {
+		"text": "שְׁכֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁכוּב"
+		},
+		{
+			"text": "שְׁכֵיב"
+		}
+	],
+	"page": {
+		"number": 1570,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01114\">same</cite>, <i>to lie down; to die; to lie with</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 24:12\">Targ. O. Deut. XXIV, 12</cite>, sq. ",
+				"<cite ref=\"Onkelos Genesis 26:10\">Targ. Gen. XXVI, 10</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 15:24\">Targ. O. Lev. XV, 24</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:30\">Targ. O. Deut. XXVIII, 30</cite>; a. fr.—Part. pass. <cite ref=\"U01144\"><he>שָׁכִיב</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 4:9\">Targ. Ezek. IV, 9</cite>; a. fr.—V. <cite ref=\"U01144\"><he>שָׁכִיב</he></cite>.—",
+				"<cite ref=\"Yevamot 46a:13\">Yeb. 46ᵃ</cite> <he>איכו שְׁכִיבִי לא וכ׳</he> I might have died without telling you this thing; <cite ref=\"Bava Metzia 73b:7\">B. Mets. 73ᵇ</cite> <he>השתא איכו שְׁכִיבְנָא</he> (not <cite ref=\"U01144\"><he>שכיבא</he></cite>); <cite ref=\"Avodah Zarah 55a:9\">Ab. Zar. 55ᵃ</cite> (corr. acc.; v. Rabb. D. S. a. l. note 10). ",
+				"<cite ref=\"Yevamot 24b\">Yeb. 24ᵇ</cite>, a. e. <he>כי ניים ושָׁכִיב</he>, v. <cite ref=\"N00367\"><he>נוּם</he></cite> ch. ",
+				"<cite ref=\"Bava Metzia 85a:8\">B. Mets. 85ᵃ</cite> <he>לא ש׳ אינש וכ׳</he> no one died before his time. ",
+				"<cite ref=\"Bava Kamma 91b:19\">B. Kam. 91ᵇ</cite>; <cite ref=\"Bava Batra 26a:7\">B. Bath. 26ᵃ</cite> <he>לא ש׳ וכ׳</he> my son Shikhḥat died (early) for no other sin than that he cut down a fig tree before its time; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּכַּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be lain with, be ravished</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Zechariah 14:2\">Targ. Zech. XIV, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 13:16\">Targ. Is. XIII, 16</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

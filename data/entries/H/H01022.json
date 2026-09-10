@@ -1,0 +1,75 @@
+{
+	"id": "H01022",
+	"slug": "חלט-3",
+	"headword": {
+		"text": "חָלַט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 467,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01109\"><he>חָלַץ</he></cite>) [<i>to surround, tie up</i> (corresp. to b. h. <he>צמת</he>),] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to make final</i>. <i>Part. pass.</i> <cite ref=\"H00994\"><he>חָלוּט</he></cite>, f. <he>חֲלוּטָה</he> <i>permanently sold, irredeemable</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 9:4\">Arakh. IX, 4</cite> <he>הגיע … היה ח׳ וכו׳</he> (Talm. ed. 31ᵃ <he>היתה ח׳</he>, read: <he>חלוטה</he>) when the last day … had passed and it (the house) was not redeemed, it was his forever …, for we read <he>לצמיתות</he> (<cite ref=\"Leviticus 25:30\">Lev. XXV, 30</cite>); (Tosef. ib. V, 10 <he>צמת</he>). Arakh. l. c. <he>בראשונה … שיהא ח׳ לו</he> formerly the purchaser used to hide himself on the last day … in order that it might become his irredeemably; Sifra B’har ch. V, Par. 4 <he>שתהא חלוטה לו</he>. ",
+				"<cite ref=\"Arakhin 31b:19\">Arakh. 31ᵇ</cite> <he>למי ח׳</he> to which (of the two buyers) did it belong finally?; a. fr.—V. <cite ref=\"H00995\"><he>חֲלוּטִין</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pass final judgment on a leper</i> after probationary enclosure (<cite ref=\"Leviticus 13\">Lev. XIII</cite>). ",
+			"units": [
+				"<cite ref=\"Zevachim 102a:1\">Zeb. 102ᵃ</cite> <he>אני מסגירה ואני חוֹלְטָהּ וכ׳</he> I will lock her up, declare her a leper and discharge her."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחֱלִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to pass final judgment, to make valid; to adjudicate</i>. Y. Dem. VII, beg. 26ᵃ <he>צריך להַחֲלִיט וכ׳</he> he must make the consecrating conditions valid by speech. Y. Keth. X, 33ᵈ bot. <he>אי זה … להַחֲלִיט מַחֲלִיטִין</he> which of them the court chooses to declare valid, it may &c. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 61:7\">Gen. R. s. 61</cite> <he>שלא תַחֲלִיט להם וכ׳</he> lest thou surrender the country to them (through bad argument); <cite ref=\"Yalkut Shimoni on Torah 110\">Yalk. ib. 110</cite> (insert <cite ref=\"L00167\"><he>להם</he></cite>). Y. Ab. Zar. I, 39ᵇ top <he>גסות … היא הֶחֱלִיטָתוֹ</he> his haughtiness made Jerob. a confirmed sinner; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to declare a person a leper</i>. Y. M. Kat. I, 80ᶜ bot. <he>מטמא ומַחֲלִיט</he> declares him unclean and this a decided leper; <he>ורבנן … ומַחֲלִיטִין</he> and the Rabbis say, he must be examined as if it were a new case, but at all events they declare &c.—<i></i>",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>Part. pass.</i> <he>מוּחֲלָט</he>, f. <he>מוּחֲלֶטֶת</he> ",
+					"units": [],
+					"senses": [
+						{
+							"gloss": " <i>irrevocable, confirmed</i>. ",
+							"units": [
+								"<cite ref=\"Yoma 86b:17\">Yoma 86ᵇ</cite> <he>תשובת המוּחֲלָטִין</he> the repentance of the confirmed sinners.—"
+							],
+							"label": "1"
+						},
+						{
+							"gloss": " <i>the declared leper</i>, opp. to <he>מוּסְגָּר</he>. ",
+							"units": [
+								"<cite ref=\"Mishnah Megillah 1:7\">Meg. I, 7</cite>. ",
+								"<cite ref=\"Yevamot 103b\">Yeb. 103ᵇ</cite>. ",
+								"<cite ref=\"Tosefta Nazir 6:1\">Tosef. Naz. VI, 1</cite> <he>מ׳ בספק</he> one declared a leper from doubt; Y. ib. VIII, end, 57ᵇ; a. fr."
+							],
+							"label": "2"
+						}
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

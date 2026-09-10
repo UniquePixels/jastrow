@@ -1,0 +1,40 @@
+{
+	"id": "H01884",
+	"slug": "חתי-4",
+	"headword": {
+		"text": "חֲתִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲתָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 512,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01883\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:14\">Targ. Is. XXX, 14</cite>.—Part. <he>חָאתֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:22\">Targ. Prov. XXV, 22</cite> ed. Lag. (oth. ed. <cite ref=\"H01882\"><he>חָתֵי</he></cite>).—"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַתֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to stir</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 38b:4\">Ab. Zar. 38ᵇ</cite> <he>וחַתֵּה בה חַתּוּיֵי</he> ed. (v. Rabb. D. S. a. l. note 8), v. <cite ref=\"H01669\"><he>חֲרֵי</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

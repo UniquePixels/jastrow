@@ -1,0 +1,31 @@
+{
+	"id": "S00286",
+	"slug": "קוט-1",
+	"headword": {
+		"text": "קוּט"
+	},
+	"page": {
+		"number": 1326,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"S00533\"><he>קוּץ</he> I</cite>) [<i>to shrink</i>,] <i>to feel aversion, be disgusted</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נָקוֹט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00285\">same</cite>. Pesik. B’shall., p. 81ᵇ <he>לא הספיק … עד שנָקְטָה נפשו עליו</he> (for <he>נָקוֹטָה</he>, v. ",
+					"units": [
+						"<cite ref=\"Job 10:1\">Job X, 1</cite>) he had not eaten much of the foul things, when he felt disgust; <cite ref=\"Yalkut Shimoni on Torah 225\">Yalk. Ex. 225</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

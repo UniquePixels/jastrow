@@ -1,0 +1,58 @@
+{
+	"id": "J00575",
+	"slug": "יקיר-2",
+	"headword": {
+		"text": "יַקִּיר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "יַקִּירָא"
+		}
+	],
+	"page": {
+		"number": 591,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch, <cite ref=\"J00574\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heavy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 38:5\">Targ. Ps. XXXVIII, 5</cite> (some ed. <he>יקר</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 27:3\">Targ. Prov. XXVII, 3</cite>.—",
+				"<cite ref=\"Onkelos Exodus 4:10\">Targ. O. Ex. IV, 10</cite>; <cite ref=\"Onkelos Exodus 6:12\">VI, 12</cite> <he>י׳ ממלל</he> heavy of speech.—",
+				"<cite ref=\"Shabbat 59a:8\">Sabb. 59ᵃ</cite> <he>די׳</he> when the shoe is too heavy for running."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dear, precious</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 36:8\">Targ. Ps. XXXVI, 8</cite> (ed. Lag. <he>יקר</he>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:25\">Y. Kidd. I, 58ᵈ</cite> <he>כספא זליל כספא י׳</he> silver falls or rises in price (copper being the standard) <he>נחשא י׳ וכ׳</he> it is copper that falls or rises (silver being the standard). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:4:4\">Y. Ab. Zar. V, 44ᵈ</cite> <he>אין הוה עילויה י׳</he> if the higher price (paid for Jewish wine) is very great; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>honored, worthy</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:58\">Targ. Deut. XXVIII, 58</cite>.—",
+				"<cite ref=\"Kohelet Rabbah 11:1:1\">Koh. R. to XI, 1</cite> <he>וי׳ מאומתך</he> and worthier than the rest of thy people; a. e.—Pl. <he>יַקִּירִין</he>, <he>יַקִּירִי</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 23:8\">Targ. Is. XXIII, 8</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 3:5\">Targ. Ez. III, 5</cite>. ",
+				"<cite ref=\"Onkelos Numbers 22:15\">Targ. Num. XXII, 15</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 21b:8\">B. Mets. 21ᵇ</cite> <he>אגב די׳</he> because they are weighty; a. fr.—<i>Fem.</i> <cite ref=\"J00575\"><he>יַקִּירָא</he></cite>, <cite ref=\"J00741\"><he>יַקִּירְתָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:15\">Targ. Prov. III, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:26\">Ib. VI, 26</cite>; a. e.—Pl. <he>יַקִּירָתָא</he>. ",
+				"<cite ref=\"Targum of II Chronicles 32:27\">Targ. II Chr. XXXII, 27</cite> (ed. Lag. <cite ref=\"J00588\"><he>יקרתא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:17\">Targ. Is. III, 17</cite> <he>יְקִירַת וכ׳</he> ed. Lag. (oth. ed. <he>יִקְרַת</he>) the nobles of the daughters &c."
+			],
+			"label": "3"
+		}
+	]
+}

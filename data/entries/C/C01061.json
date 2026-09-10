@@ -1,0 +1,45 @@
+{
+	"id": "C01061",
+	"slug": "גמר-1",
+	"headword": {
+		"text": "גָּמַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 254,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C01063\"><he>גִּמֵּר</he></cite> (denom. of <cite ref=\"M00401\"><he>מוּגְמָר</he></cite>, v. <cite ref=\"C00423\"><he>גּוּמְרָא</he></cite>) <i>to perfume (clothes) with burned spices</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 22b:10\">Bets. 22ᵇ</cite> <he>לְגַמֵּר</he> for the purpose of perfuming clothes. ",
+						"<cite ref=\"Berakhot 53a\">Ber. 53ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְגַּמֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be perfumed, soaked with perfume</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 18a\">Sabb. 18ᵃ</cite> you may put <i>mugmar</i> under the clothes on the eve of Sabbath, <he>ומִתְגַּמְּרִין והולכין וכ׳</he> and the process of soaking is continued during the entire Sabbath day. Bets. l. c. <he>הבית מִתְגַּמֵּר מאליו</he> the room is perfumed of itself."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

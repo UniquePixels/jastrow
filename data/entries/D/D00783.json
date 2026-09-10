@@ -1,0 +1,32 @@
+{
+	"id": "D00783",
+	"slug": "דכן-2",
+	"headword": {
+		"text": "דָּכַן"
+	},
+	"page": {
+		"number": 307,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>דִּיכֵּן</he> (cmp. <he>דכך</he>) <i>to pound</i> bulbous plants in the ground in order to stop the growth of the tuber (differ. fr. <cite ref=\"T00768\"><he>ריכן</he></cite>, v. <cite ref=\"T00768\"><he>רָכַן</he></cite>). Y. Shebi. V, 35ᵈ bot. <he>דִּיכְּנוֹ וכ׳</he> he crushed the tuber in the Sabbatical year and took it out after &c. [<cite ref=\"Tosefta Shevi'it 2:10\">Tosef. ib. II, 10</cite> <he>לדכן</he> Var., read with ed. Zuck. <he>לרכן</he>; cmp. Y. ib. 36ᵃ top.]—Part. pass. <he>מְדוּכָּן</he>, pl. <he>מְדוּכָּנִין</he>. ",
+					"units": [
+						"<cite ref=\"Nedarim 58a\">Ned. 58ᵃ</cite> <he>במד׳</he> it treats of onions which had been pounded in the preceding agricultural year; <cite ref=\"Jerusalem Talmud Sheviit 6:3:5\">Y. Shebi. VI, end, 37ᵃ</cite> <he>במורכנין</he> (corr. acc.).—",
+						"<cite ref=\"Bereishit Rabbah 5\">Gen. R. s. 5</cite>, v. <cite ref=\"D00779\"><he>דָּכַךְ</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

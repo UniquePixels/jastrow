@@ -1,0 +1,23 @@
+{
+	"id": "M00728",
+	"slug": "מזוגא",
+	"headword": {
+		"text": "מָזוֹגָא"
+	},
+	"page": {
+		"number": 753,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00713\"><he>מְזַג</he></cite>) <i>wine-mixer, butler</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 40:5\">Targ. Y. Gen. XL, 5</cite>; a. e.—Y. Sabb. I, 3ᵃ bot.—Pl. <he>מְזוֹגַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 40:1\">Targ. Y. Gen. XL, 1</cite>; a. e."
+			]
+		}
+	]
+}

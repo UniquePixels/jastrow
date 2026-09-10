@@ -1,0 +1,26 @@
+{
+	"id": "H00467",
+	"slug": "חורי-1",
+	"headword": {
+		"text": "חוֹרֵי"
+	},
+	"page": {
+		"number": 440,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. constr. = <cite ref=\"A01019\"><he>אֲחוֹרֵי</he></cite> (v. <cite ref=\"A01018\"><he>אֲחוֹרָא</he></cite>) <i>behind, after</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:2:5\">Y. Shebi. IV, 35ᵃ</cite> bot. <he>פרי ח׳ חמרא וכ׳</he> running after (driving) an ass on a Sabbath (being forced to public labor). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:12\">Y. Snh. I, 18ᶜ</cite> bot. [read:] <he>קם ליה מן חוֹרוֹי מצלי</he> (<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:3\">Y. R. Hash. II, 58ᵇ</cite> top <he>מן אחורויי</he>) stood up from behind him to pray. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:6:3\">Y. Sot. VII, end, 22ᵃ</cite> <he>לח׳ פרוכתא</he>, v. <cite ref=\"C00368\"><he>גּוּל</he></cite> ch.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:5:4\">Y. Ber. II, 5ᵃ</cite> bot. <he>תרין … לחוֹרוֹיי</he> two thirds of the load on his back; a. fr."
+			]
+		}
+	]
+}

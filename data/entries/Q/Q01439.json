@@ -1,0 +1,94 @@
+{
+	"id": "Q01439",
+	"slug": "פצע-1",
+	"headword": {
+		"text": "פָּצַע"
+	},
+	"page": {
+		"number": 1205,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"Q01438\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to split, crack</i> or <i>squeeze open; to wound</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 93a:9\">B. Kam. 93ᵃ</cite> <he>הכני פְּצָעֵנִי על מנת לפטור פטור</he> (if one said to one’s neighbor) strike me, wound me, with the condition that thou be free (from indemnity): he is free. ",
+				"<cite ref=\"Bava Kamma 93a:9\">Ib.</cite> <he>הכני פצעני על מנת לפטור וכ׳</he> (if he said) ‘strike me, wound me’, (and he is aked,) with the condition that I shall be free?, and he answers, yes. ",
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>הפּוֹצֵעַ שני חוטין</he> he who divides off two threads (on the loom). ",
+				"<cite ref=\"Tosefta Shabbat 8:21\">Tosef. ib. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:21\">IX</cite>), 21 <he>כדי לִפְצוֹעַ וכ׳</he> large enough to divide with it two threads (on each side) at a time. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 38:5\">Yalk. Gen. 38</cite> <he>פְּצַעְתִּיו</he>, v. <cite ref=\"Q01441\"><he>פֶּצַע</he></cite>. ",
+				"<cite ref=\"Shabbat 75a:5\">Sabb. 75ᵃ</cite> <he>הצד חלזון והפּוֹצְעוֹ</he> he who catches a snail and breaks it open (squeezes it out); <cite ref=\"Tosefta Shabbat 8:2\">Tosef. ib. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:2\">IX</cite>), 2 <he>לפצעו</he> (corr. acc.). Sabb. l. c. <he>שפְּצָעוֹ מת</he> when he squeezed it out after it was dead. Y. ib. XVII, beg. 16ᵃ <he>לִפְצוֹעַ בו אגוזים</he> to open nuts with it. ",
+				"<cite ref=\"Tosefta Kelim Kamma 1:6\">Tosef. Kel. B. Kam. I, 6</cite> <he>פּוֹצְעִין את מוחו וכ׳</he> (not <he>פצעין</he>), v. <cite ref=\"C00576\"><he>גֶּזֶר</he></cite>; a. fr.—Part. pass. <he>פָּצוּעַ</he>; pl. <he>פְּצוּעִים</he>, <he>פְּצוּעִין</he>. Teb. Yom III, 6 <he>זיתים פ׳</he> burst olives. ",
+				"<cite ref=\"Mishnah Terumot 10:7\">Ter. X, 7</cite> <he>פְּצוּעֵי תרומה</he> burst olives set aside for priests’ gifts; a. e.—Esp. <he>פְּצוּעַ דַּכָּא</he> (<he>פְּ׳ דַּכָּה</he>) <i>one whose testicles are crushed</i> (forbidden to marry, <cite ref=\"Deuteronomy 23:2\">Deut. XXIII, 2</cite>). ",
+				"<cite ref=\"Mishnah Yevamot 8:1\">Yeb. VIII, 1</cite>. ",
+				"<cite ref=\"Mishnah Yevamot 8:2\">Ib. 2</cite> <he>איזה פ׳ ד׳ כל שנִפְצְעוּ וכ׳</he> what is meant by <i>p’tsuʿa dakka</i>? One whose testicles, one or both, are crushed. ",
+				"<cite ref=\"Yevamot 75b:2\">Ib. 75ᵇ</cite> <he>פ׳ ד׳ בידי שמים כשר</he> one whose testicles are crushed from a natural cause (not through human action) is permitted to marry. ",
+				"<cite ref=\"Yevamot 75b:2\">Ib.</cite> (ref. to Deut. l. c.) <he>היינו דקרינן פְּצוּעַ ולא קרינן פְּצִיעַ</he> Ar. it is therefore (to indicate human action) that the text has <i>p’tsuʿa</i>, (one that has been mashed) and not p’tsiʿa (one who is mashed); [ed. <he>פצוע … הַפָּצוּעַ …</he>, v. Rashi]. Ib. <he>פ׳ בכולן</he> the expression ‘mashed’ refers to all parts of the genitals."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to divide the ends of a web, fringe</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 40b:8\">Men. 40ᵇ</cite> <he>כיון שפָּצְעוּ בה שלשה</he> (Ms. M. <he>שצבעו</he>, Mss. R. a. K. <he>שבצעו</he>, v. Rabb. D. S. a. l. note) as soon as they had fringed three fingers’ lengths of it."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיצֵּעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01438\">same</cite>. Y. Maasr. I, end, 49ᵇ <he>זית שפִּיצְּעוּ וכ׳</he> olives which they opened with unclean hands; <cite ref=\"Tosefta Tahorot 10:11\">Tosef. Toh. X, 11</cite> <he>שפצעו</he>; <cite ref=\"Shabbat 145a:3\">Sabb. 145ᵃ</cite> <he>המְפַצֵּעַ בזתיס וכ׳</he>; a. e.; v. infra <i>Hif</i>",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְצַע"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְפַּצֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be split, squeezed open, crushed; to be wounded</i>. Y. Taan. I, 63ᵈ top <he>נ׳ בנו</he> his son was wounded (or had a fracture). Yeb. l. c.; a. e.—",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 10:2\">Num. R. s. 10</cite> (ref. to <cite ref=\"Proverbs 23:29\">Prov. XXIII, 29</cite>) <he>זו הזונה … נִפְצַעַת וכ׳</he> that is the adulteress who is wounded with wounds of love, ‘for naught’, without any wound through her husband. ",
+						"<cite ref=\"Mishnah Orlah 3:8\">Orl. III, 8</cite> <he>נִתְפַּצְּעוּ האגוזים</he> if the nuts (in the mixture) were cracked; <cite ref=\"Tosefta Terumot 5:10\">Tosef. Ter. V, 10</cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הִפְצִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to split</i>. Y. Shek. VI, beg. 49ᶜ <he>מַפְצִיעַ עצים</he> splitting wood. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 9:6\">Snh. IX, 6</cite> <he>מַפְצִיעִין את מוחו וכ׳</he>; Y. ib. X, 28ᵈ bot. <he>ומְפַצְּעִין וכ׳</he>, v. <cite ref=\"C00576\"><he>גֶּזֶר</he></cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to branch off, spread, scatter</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 28b:14\">Yoma 28ᵇ</cite> <he>תימור של חמה מַפְצִיעַ לכאן ולכאן</he> the light-column of the dawn irradiates in all directions, opp. to <he>מתמר ועולה כמקל</he>, v. <cite ref=\"V00703\"><he>תָּמַר</he></cite>. ",
+						"<cite ref=\"Yoma 38a:10\">Ib. 38ᵃ</cite> <he>של הללו מפציע וכ׳</he> the smoke column of the frankincense prepared by them branched off in all directions. ",
+						"<cite ref=\"Yoma 29a\">Ib. 29ᵃ</cite>, v. <cite ref=\"Q01436\"><he>פָּצַל</he></cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

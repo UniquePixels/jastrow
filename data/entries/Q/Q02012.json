@@ -1,0 +1,27 @@
+{
+	"id": "Q02012",
+	"slug": "פרקס-1",
+	"headword": {
+		"text": "פַּרְקֵס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּרְקֵס"
+		}
+	],
+	"page": {
+		"number": 1241,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01980\"><he>פָּרַק</he></cite>, <i>Pales</i>) = <cite ref=\"Q01523\"><he>פַּקְרֵס</he></cite>, <i>underwear, shirt</i>. ",
+			"units": [
+				"<cite ref=\"Tractate Derekh Eretz Rabbah 10:1\">Treat. Der. Er. ch. X</cite> (<cite ref=\"Q00876\"><he>פּוּרְ׳</he></cite>) <he>פַּרְקְסוֹ התחתונה</he> his undershirt."
+			]
+		}
+	]
+}

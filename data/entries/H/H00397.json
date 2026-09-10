@@ -1,0 +1,35 @@
+{
+	"id": "H00397",
+	"slug": "חומש",
+	"headword": {
+		"text": "חוֹמֶשׁ"
+	},
+	"page": {
+		"number": 436,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"H00397\"><he>חֹמֶשׁ</he></cite>; <he>חמש</he>)<i>one fifth</i>, esp. one fifth of the value to be added as <i>fine</i> on restoring misappropriated property or redeeming dedicated property (<cite ref=\"Leviticus 5:16\">Lev. V, 16</cite>; <cite ref=\"Leviticus 5:24\">24</cite>; <cite ref=\"Leviticus 27:27\">XXVII, 27</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 9:6\">B. Kam. IX, 6</cite>. ",
+				"<cite ref=\"Bava Metzia 54a:10\">B. Mets. 54ᵃ</cite> <he>חוֹמְשׁוֹ של קרן</he> the fifth part of the principal (assessed value), i.e. one plus one fifth, v. <cite ref=\"H00398\">next w.</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Ḥomesh, one of the five books of Moses</i>, also <i>one of the five books of Psalms</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 36b:1\">Sot. 36ᵇ</cite> <he>ח׳ הפיקודים</he> the Book of Numbers; <he>ח׳ שני</he> the Book of Exodus; a. fr.—Pl. <he>חוֹמָשִׁים</he>, <he>חוֹמָשִׁין</he>. ",
+				"<cite ref=\"Mishnah Bava Metzia 6:8\">B. Mets. VI, 8</cite> <he>חמשה ח׳ הן</he> there are five things to which the law ordaining the addition of one fifth applies.—",
+				"<cite ref=\"Chagigah 14a:11\">Ḥag. 14ᵃ</cite> <he>חמשה חוֹמְשֵׁי תורה</he> the five books of the Law. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:1:10\">Y. Meg. III, 74ᵃ</cite> top <he>ח׳</he> single parts of the Pentateuch. ",
+				"<cite ref=\"Kiddushin 33a:6\">Kidd. 33ᵃ</cite> <he>שני ח׳</he> two books of the Psalms."
+			],
+			"label": "2"
+		}
+	]
+}

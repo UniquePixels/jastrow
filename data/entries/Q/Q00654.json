@@ -1,0 +1,27 @@
+{
+	"id": "Q00654",
+	"slug": "פייס-1",
+	"headword": {
+		"text": "פַּיָּיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּאיָיס"
+		}
+	],
+	"page": {
+		"number": 1162,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00741\"><he>פִּיס</he></cite>) <i>brittle stone</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 81a:7\">Sabb. 81ᵃ</cite> <he>פייס</he> Ms. O. (ed. <he>פאיי׳</he>; Ms. M. <cite ref=\"Q00574\"><he>פַּיָּאס</he></cite>; v. Rabb. D. S. a. l. note), expl. <he>כרשיני בבלייתא</he>, v. <cite ref=\"K01274\"><he>כַּרְשִׁינָא</he> I</cite>."
+			]
+		}
+	]
+}

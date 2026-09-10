@@ -1,0 +1,37 @@
+{
+	"id": "B01318",
+	"slug": "ברקא-1",
+	"headword": {
+		"text": "בַּרְקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 197,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01314\"><he>ברק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (adj.) <i>shining, white</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 98a:14\">Snh. 98ᵃ</cite> <he>סוסיא ב׳</he> a white horse, v. <cite ref=\"B00045\"><he>בָּארַג</he></cite>.—Pl. <he>בַּרְקֵי</he>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 8:4:4\">Y. B. Bath. VIII, 16ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Kiddushin 1:5:8\">Y. Kidd. I, 60ᶜ</cite> bot. he let him ride <he>אתרי ריכשי ב׳</he> on two white steeds (i.e. the donator gave him a doubly fortified document; another opin.: he made him ride on two …, which run in different directions, i.e. the document is invalid; v. explan. ibid., cmp. ",
+				"<cite ref=\"Bava Batra 152a\">B. Bath. 152ᵃ</cite>, <cite ref=\"Ketubot 55a\">Keth. 55ᵃ</cite>. ",
+				"<cite ref=\"Gittin 69a:2\">Gitt. 69ᵃ</cite> <he>שודרא ב׳</he> a string of white hair. ",
+				"<cite ref=\"Shabbat 67a:1\">Sabb. 67ᵃ</cite>; <cite ref=\"Avodah Zarah 28b:5\">Ab. Zar. 28ᵇ</cite> <he>נירא ב׳</he> a white thread (of hair)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (as a noun) <i>something white, white thread</i>. Ib. <he>וליתוב ב׳ וכ׳</he> and let him put a white thread around one end. Ib. <he>פתילי ב׳</he> Ms. M. (ed. <he>פתילתא ביקרא</he>, corr. acc.) strings of white stuff.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

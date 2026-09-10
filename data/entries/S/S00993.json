@@ -1,0 +1,29 @@
+{
+	"id": "S00993",
+	"slug": "קילקלין",
+	"headword": {
+		"text": "קִילְקִלִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִילְקִילִּ׳"
+		}
+	],
+	"page": {
+		"number": 1361,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (an adaptation of cancelli; reduplic. of <cite ref=\"S00950\"><he>קִיל</he> I</cite>; cmp. <cite ref=\"S00340\"><he>קוֹלְיָינִין</he></cite>) <i>curtained enclosures, compartments</i>. Pesik. Vayḥi, p. 8ᵃ, v. <cite ref=\"S00340\"><he>קוֹלְיָינִין</he></cite>.—Esp. <i>the curtained enclosures of an idolatrous temple</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 51b:15\">Ab. Zar. 51ᵇ</cite> <he>כל שהוא לפנים מן הק׳ וכ׳</he> (Ar. <cite ref=\"S01293\"><he>קלוקלון</he></cite>, <cite ref=\"S00361\"><he>קולקלון</he></cite>, corr. acc.) whatever is found within the enclosures is forbidden, even if it be water or salt; whatever is outside &c. ",
+				"<cite ref=\"Avodah Zarah 51b:15\">Ib.</cite> <he>אין ק׳ לא לפעור וכ׳</he> no difference is made between things within and without the enclosures as regards the idol Peor &c.—Cmp. <cite ref=\"S01610\"><he>קַנְקָל</he></cite>."
+			]
+		}
+	]
+}

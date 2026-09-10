@@ -1,0 +1,22 @@
+{
+	"id": "S01309",
+	"slug": "קלטא-1",
+	"headword": {
+		"text": "קַלְטָא"
+	},
+	"page": {
+		"number": 1375,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01308\">preced.</cite>) <i>reception, asylum</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 35:25\">Targ. Y. Num. XXXV, 25</cite>, sq. <he>קַלְטֵיה</he> (h. text <he>מקלטו</he>)."
+			]
+		}
+	]
+}

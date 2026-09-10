@@ -1,0 +1,26 @@
+{
+	"id": "M02972",
+	"slug": "משרה",
+	"headword": {
+		"text": "מִשְׁרָה"
+	},
+	"page": {
+		"number": 858,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01936\"><he>שָׁרָה</he></cite>)<i>infusion; steeping</i>; <he>משְׁרַת ענבים</he> <i>infusion of grapes</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 44a:14\">Pes. 44ᵃ</cite> <he>האי משרת וכ׳</he> this additional specification of <i>mishrath</i> (<cite ref=\"Numbers 6:3\">Num. VI, 3</cite>) &c.; a. e.—",
+				"<cite ref=\"Tosefta Shevi'it 6:25\">Tosef. Shebi. VI, 25</cite>, v. <cite ref=\"K00053\"><he>כְּבִיסָה</he></cite>.—",
+				"<cite ref=\"Bava Kamma 102a:7\">B. Kam. 102ᵃ</cite>, a. e. <he>לאכלה ולא למ׳</he> you may use the products of the Sabbatical year ‘for eating’ (<cite ref=\"Leviticus 25:6\">Lev. XXV, 6</cite>), but not as substances for steeping, v. <cite ref=\"M01497\"><he>מְלוּגְמָא</he></cite>; a. fr.—Esp. <i>a pond for steeping flax</i> &c. ",
+				"<cite ref=\"Mishnah Bava Batra 2:10\">B. Bath. II, 10</cite> <he>מרחיקין את המ׳ וכ׳</he> you must keep your pond removed from your neighbor’s vegetable garden &c. ",
+				"<cite ref=\"Bava Batra 18b:8\">Ib. 18ᵇ</cite> <he>מ׳ וירקא</he> the legal distance between a pond and your neighbor’s vegetable garden; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "S01240",
+	"slug": "קלאילן",
+	"headword": {
+		"text": "קְלָאִילָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלָא אִילָּן"
+		}
+	],
+	"page": {
+		"number": 1371,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְלָא</he> II a. <cite ref=\"A01306\"><he>אִילָּן</he></cite>) [<i>ashes of a tree</i>,] <i>a vegetable blue dye</i>, an imitation of the genuine purple-blue (<cite ref=\"V00547\"><he>תְּכֵלֶת</he></cite>); [Ar.: <i>indigo</i>, an adaptation of καλλάΐνον, callainum, Sachs, Beitr. I, p. 132]; <i>woolen threads dyed with ḳ’la-illan</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Avodah Zarah 6:1\">Tosef. Ab. Zar. VI</cite> (<cite ref=\"Tosefta Avodah Zarah 7:1\">VII</cite>), 1 <he>ק׳ שדשו בעצי וכ׳</he> <i>ḳ’la-illan</i> wool which has been stamped with wood of an <i>ăsherah</i> (<cite ref=\"A03355\"><he>אֲשֵׁרָה</he></cite>) must be burnt; others say, it is under the restriction of the law until it resumes its natural color (by washing &c.). ",
+				"<cite ref=\"Meilah 13a:17\">Meïl. 13ᵃ</cite> <he>הדש קלעילון בשדה וכ׳</he> Ar. (ed. <cite ref=\"S01400\"><he>קלעילין</he></cite>) he that stamps <i>ḳ’laillan</i> wool in a field belonging to the Temple. ",
+				"<cite ref=\"Bava Kamma 93b\">B. Kam. 93ᵇ</cite> <he>בק׳ א׳ דלא עבר</he> a <i>ḳ.</i> dye which cannot be removed with soap (v. <cite ref=\"R00676\"><he>צָפוֹן</he> I</cite>). ",
+				"<cite ref=\"Bava Metzia 61b:7\">B. Mets. 61ᵇ</cite> <he>מי שתולה ק׳ א׳ בבגדו וכ׳</he> he that attaches <i>ḳ.</i> threads to his garment and says, it is <i>t’kheleth</i>. ",
+				"<cite ref=\"Menachot 41b:3\">Men. 41ᵇ</cite> <he>טלית שכולה … מן ק׳ א׳</he> if a cloak is entirely of purple wool, any threads of a different color may be used as show-fringes, except <i>ḳ.</i> (because it may be mistaken for <i>t’kheleth</i>). ",
+				"<cite ref=\"Tosefta Kilaim 5:26\">Tosef. Kil. V, 26</cite> <he>ק׳ א׳ וכ׳</he> (Var. <he>קלע אילן</he>) threads of <i>ḳ.</i> (used in place of <i>t’kheleth</i>) … are not subject to the laws of mixed materials (<cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>)."
+			]
+		}
+	]
+}

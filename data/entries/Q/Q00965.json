@@ -1,0 +1,30 @@
+{
+	"id": "Q00965",
+	"slug": "פלוגתא-2",
+	"headword": {
+		"text": "פְּלוּגְתָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּלוּגְתָּה"
+		}
+	],
+	"page": {
+		"number": 1177,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>P’lugta</i>, near Tiberias. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 9:24\">Num. R. s. 9</cite> <he>כגון הדה בית מעון שיורדים לה מפ׳ וכ׳</he> like Beth-Maʿon to which they go down when coming from P., and up from Tiberias; (<cite ref=\"Bereishit Rabbah 85:6\">Gen. R. s. 85</cite> <he>כפר שובתי</he>; Y. Sot. I, 17ᵃ bot. <cite ref=\"Q01033\"><he>פלטתה</he></cite>). ",
+				"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> (ref. to <cite ref=\"Amos 6:6\">Am. VI, 6</cite>) they got their wine <he>מפ̇ל̇וג̇ת̇א שעל יינם נתפ̇ת̇ו וג̇ל̇ו וכ׳</he> from P., for on account of their wine the ten tribes were led astray, and had to go into exile (v. <cite ref=\"Q02128\"><he>פְּתוּגְתָּא</he></cite>); <cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite>; Yalk. Am. 545. ",
+				"<cite ref=\"Shabbat 147b\">Sabb. 147ᵇ</cite> <he>חמרא דפרוגייתא</he> (<he>דפרוגיתא</he>)."
+			]
+		}
+	]
+}

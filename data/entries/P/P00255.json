@@ -1,0 +1,58 @@
+{
+	"id": "P00255",
+	"slug": "עולים",
+	"headword": {
+		"text": "עוּלֵים"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּלֵימָא"
+		},
+		{
+			"text": "עוּלֵם"
+		},
+		{
+			"text": "עוּלֵמָא"
+		}
+	],
+	"page": {
+		"number": 1051,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00819\"><he>עֲלֵם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strong, powerful</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:7\">Y. Ber. II, 5ᶜ</cite> <he>כהנא הוה ע׳ סגין</he> Kahăna was very powerful (in mysteries)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>young, young man;</i> (cmp. <cite ref=\"N01009\"><he>נַעַר</he></cite>) <i>servant</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 35:27\">Targ. II Chr. XXXV, 27</cite> (contrad. to <cite ref=\"I00492\"><he>טלי</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 41:12\">Targ. O. Gen. XLI, 12</cite> (Y. <he>טליא</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:55\">Targ. I Sam. XVII, 55</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 2:13\">Ib. II, 13</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 72b:4\">Keth. 72ᵇ</cite> <he>ע׳ אייתי וכ׳</he> boy, get me the spindle; <cite ref=\"Sanhedrin 95a:7\">Snh. 95ᵃ</cite> <cite ref=\"P00821\"><he>עֶלֶם</he></cite> (Ms. F. <he>עולימא</he>); a. e.—Pl. <cite ref=\"P00258\"><he>עוּלֵימִין</he></cite>, <cite ref=\"P00258\"><he>עוּלֵימַיָּא</he></cite>, <he>עוּלֵימֵי</he>, <cite ref=\"P00257\"><he>עוּלֵמ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 2:33\">Targ. I Sam. II, 33</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 16:11\">Ib. XVI, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:2\">Targ. Esth. II, 2</cite> (not <he>עוֹלְמֵי</he>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 79:4\">Gen. R. s. 79</cite> (play on <he>אלמתיו</he>, <cite ref=\"Psalms 126:6\">Ps. CXXVI, 6</cite>) <he>אתא טעון ע׳ ועוּלֵמִיתָא</he> he (Jacob) came laden with young men (sons) and a girl (daughter); Midr. Till. to Ps. l. c. <he>ועולמין עולמיתא</he> ed. Bub. (oth. ed. <he>עוּלֵמֵי ועולמותי</he>, corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 881:2\">Yalk. Ps. 881</cite> <he>עוּלֵימֵי ועולימות</he> (read: <he>ועוּלֵימִית</he>); <cite ref=\"Yalkut Shimoni on Torah 133:1\">Yalk. Gen. 133</cite> <he>עולמי ועולמי׳ …</he>—<i>Fem.</i> <cite ref=\"P00256\"><he>עוּלֵימָא</he></cite>, <cite ref=\"P00259\"><he>עוּלֵימִיתָא</he></cite>, <cite ref=\"P00259\"><he>עוּלֵימְתָּא</he></cite>, <cite ref=\"P00257\"><he>עוּלֵמִ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 24:14\">Targ. O. Gen. XXIV, 14</cite> (ed. Amst. <cite ref=\"P00259\"><he>עוּלֶמְתָּא</he></cite>); a. fr.—Gen. R. l. c., a. e., v. supra.—Pl. <cite ref=\"P00256\"><he>עוּלֵימָן</he></cite>, <cite ref=\"P00259\"><he>עוּלֵימתָא</he></cite>, <cite ref=\"P00257\"><he>עוּלֵמָ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 8:5\">Targ. Zech. VIII, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:9\">Targ. Esth. II, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:2\">Ib. 2</cite> (ed. Vien. <cite ref=\"P00826\"><he>עֻלֵּמָן</he></cite>); Targ. II <cite ref=\"Aramaic Targum to Esther 2:2\">ib.</cite> <cite ref=\"P00810\"><he>עֲלֵימָן</he></cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:12\">Y. M. Kat. III, 83ᵇ</cite> bot., v. <cite ref=\"P00809\"><he>עֲלִימוּת</he></cite>.—V. next wds."
+			],
+			"label": "2"
+		}
+	]
+}

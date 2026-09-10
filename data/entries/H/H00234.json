@@ -1,0 +1,29 @@
+{
+	"id": "H00234",
+	"slug": "חוב-4",
+	"headword": {
+		"text": "חוֹב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 429,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"H00008\"><he>חֹב</he></cite>; <cite ref=\"H00012\"><he>חבב</he></cite>)<i>bosom</i>, trnsf. <i>the full ramification of a tree</i>, opp. <cite ref=\"H00256\"><he>חוּד</he></cite> the point, the body of the tree reaching above the main branches. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 81a:9\">B. Kam. 81ᵃ</cite> bot. <he>חוּבּוֹ של אילן</he> Ar., Ms. H. a. F. (Rashi version: <he>חיבו</he>; ed. <cite ref=\"A01121\"><he>אִיבּוֹ</he></cite>, v. <cite ref=\"A00016\"><he>אֵב</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>seam, rim</i>.—Pl. <cite ref=\"H00351\"><he>חוּבִּין</he></cite>. Ib. 119ᵇ top <he>ולא … שלשה ח׳</he> he must not use (of the cloth for stretching and hackling) more than three widths of a seam; [Tosef. ib. XI, 13 ed. Zuck. <he>חכין</he>, also some Mss. B. Kam. l. c., Ms. F. a. R. <cite ref=\"H00069\"><he>חֻבִּין</he></cite>, v. Rabb. D. S. a. l., note; v. <cite ref=\"H00911\"><he>חַכָּה</he></cite>].",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

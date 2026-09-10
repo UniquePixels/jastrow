@@ -1,0 +1,31 @@
+{
+	"id": "C00773",
+	"slug": "גיס-2",
+	"headword": {
+		"text": "גִּיס",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּיֵיס"
+		}
+	],
+	"page": {
+		"number": 240,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גּוּס</he> II) <i>intimate, familiar</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 85b:7\">Keth. 85ᵇ</cite> <he>ואי … דגִ׳ ביה הא גִ׳ ביה</he> (Ar. … <he>דגייס … גָס ביה</he>) but if it is one who is familiar with him (so as to use his name without a title), then, we may say, he spoke of him in a familiar way.—Fem. <cite ref=\"C00710\"><he>גָּיְיסָא</he></cite>. ",
+				"<cite ref=\"Kiddushin 81a:13\">Kidd. 81ᵃ</cite> <he>ג׳ ביה</he> she was on familiar terms with him.—Pl. <he>גִּיסֵי</he>, <he>גָיְיסֵי</he>. ",
+				"<cite ref=\"Kiddushin 33a:16\">Ib. 33ᵃ</cite> <he>דגִי׳ בה רבנן</he> where scholars are a familiar sight (and no attention is paid them). ",
+				"<cite ref=\"Ketubot 28a:5\">Keth. 28ᵃ</cite> <he>גיי׳ בהדדי</he> they are intimate with each other."
+			]
+		}
+	]
+}

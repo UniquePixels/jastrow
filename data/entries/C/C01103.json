@@ -1,0 +1,28 @@
+{
+	"id": "C01103",
+	"slug": "גנוגנית",
+	"headword": {
+		"text": "גְּנוֹגְנִית",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּנוֹגֶנֶת"
+		}
+	],
+	"page": {
+		"number": 257,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גנן</he>, cmp. <cite ref=\"C01106\"><he>גִּנּוּן</he></cite>) a sort of <i>parasol made of osier</i> and used by field laborers. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite> <he>גנוגנת העני</he> Ar. (Mish. <cite ref=\"C01103\"><he>גְּנוֹגְנוֹת</he></cite> pl., Talm. ed. <cite ref=\"C01103\"><he>גנוגנית</he></cite>, Maim. comment. ed. Derenbourg <cite ref=\"C01112\"><he>גְּנוֹנֶת</he></cite>). [Ar. a. R. S.: <i>the poor man’s bag</i>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"id": "H01779",
+	"slug": "חרש-4",
+	"headword": {
+		"text": "חֲרַשׁ"
+	},
+	"page": {
+		"number": 507,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (v. <cite ref=\"H01778\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be entangled</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:17\">Targ. Job VIII, 17</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be choked, obstructed, deaf</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 81:2\">Gen. R. s. 81</cite> (prov.) <he>מהולתך חַרְשָׁה וכ׳</he> if thy sieve is choked, knock at it (when you are forgetful of your duties, the Lord will remind you through affliction); v. <cite ref=\"I00907\"><he>טְרַשׁ</he> II</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to practice witchcraft</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 86:5\">Gen. R. s. 86</cite> <he>באתר דחרשין חֲרִישִׁין</he> where there are sorcerers witchcraft is practiced."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַרֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to entangle, inure</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 13:20\">Targ. Ez. XIII, 20</cite> (h. text <he>צדד</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַרֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be entangled, confounded</i>. Y. Ḥag. II, 77ᶜ top (expl. <he>תאלמנה</he>, <cite ref=\"Psalms 31:19\">Ps. XXXI, 19</cite>) <he>יִתְחַרְשָׁן וכ׳</he> may their lips be confounded, crushed, silenced, cmp. <cite ref=\"A01906\"><he>אִלֵּם</he></cite> a. <cite ref=\"H01784\"><he>חֵרֵשׁ</he></cite>; <cite ref=\"Bereishit Rabbah 1:5\">Gen. R. s. 1</cite> (corr. acc.)",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "K00398",
+	"slug": "כוש-1",
+	"headword": {
+		"text": "כּוּשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 626,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"K00314\"><he>כּוֹס</he></cite>, <cite ref=\"K00576\"><he>כִּיס</he></cite>) [<i>something hollow</i>,] <i>reed</i>, esp. reed used as <i>spindle</i> (v. Ar. s. v.); also as <i>fork</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 82a:9\">Yoma 82ᵃ</cite> <he>תוחבין לה כ׳ ברוטב</he> we put for her a reed into the juice (and let her suck it); Tosef. ib. V (IV), 4 (corr. acc.). ",
+				"<cite ref=\"Shabbat 123a\">Sabb. 123ᵃ</cite>; Y. ib. XVII, 16ᵇ top, v. <cite ref=\"K01220\"><he>כַּרְכָּר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:1:10\">Y. Erub. III, 20ᵈ</cite> bot. <he>לתחוב בכ׳ ובקיסם</he> to stick it on a reed or a chip. ",
+				"<cite ref=\"Mishnah Kelim 9:8\">Kel. IX, 8</cite> <he>מלא כ׳</he> the size of a reed. ",
+				"<cite ref=\"Tosefta Keilim Metsia 6:12\">Tosef. Kel. B. Mets. VI, 12</cite> <he>בכ׳ בכ׳ הבינוני</he> wherever the size of a reed (or spindle) is mentioned, a middle-sized reed is meant. ",
+				"<cite ref=\"Mishnah Kelim 9:7\">Kel. IX, 7</cite> <he>כ׳ שבלע את הצנורא</he> a reed in which the iron hook has disappeared. ",
+				"<cite ref=\"Mishnah Parah 12:8\">Par. XII, 8</cite>; <cite ref=\"Tosefta Parah 12:8\">Tosef. ib. XII</cite> (<cite ref=\"Tosefta Parah 11:16\">XI</cite>), 16, v. <cite ref=\"A02965\"><he>אָרְבָּן</he></cite>; a. fr.—Pl. <cite ref=\"K00402\"><he>כּוּשִׁין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:2:4\">Y. Yeb. XII, 12ᵈ</cite> bot. (in Chald. diction, in a disguised answer to a ritual question propounded to R. Akiba by a pretended street vendor) <he>אית לך כ׳ אית לך כשר</he> hast thou spindles? hast thou ‘<i>Kasher</i>’? (play on <he>כִּישׁוֹר</he>, v. <cite ref=\"K00311\"><he>כּוּנְשְׁרָא</he></cite>; intimating ‘It is legal’)."
+			]
+		}
+	]
+}

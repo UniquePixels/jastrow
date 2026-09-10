@@ -1,0 +1,36 @@
+{
+	"id": "N01137",
+	"slug": "נצף",
+	"headword": {
+		"text": "נְצַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְצֵיף"
+		}
+	],
+	"page": {
+		"number": 929,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"R00707\"><he>צפצף</he></cite>) <i>to chirp, squeal</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 29:4\">Targ. Is. XXIX, 4</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַצֵּיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01136\">same</cite>. Ib. XXXVIII, 14 (some ed. <he>מַנְצֵיף</he> <i>Af.</i>). Ib. XIII, 22; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

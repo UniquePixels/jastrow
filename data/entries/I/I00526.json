@@ -1,0 +1,23 @@
+{
+	"id": "I00526",
+	"slug": "טלריתא",
+	"headword": {
+		"text": "טְלָרִיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 538,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (prob. dial. for <he>טלל׳</he>, <cite ref=\"I00509\"><he>טלל</he></cite>, cmp. Syr. <he>טלרא</he> P. Sm. 1482) <i>soldier’s iron shoe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 2:5\">Targ. I Kings II, 5</cite> (h. text <he>מנעל</he>)."
+			]
+		}
+	]
+}

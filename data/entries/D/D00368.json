@@ -1,0 +1,22 @@
+{
+	"id": "D00368",
+	"slug": "דורכא",
+	"headword": {
+		"text": "דּוֹרְכָא"
+	},
+	"page": {
+		"number": 290,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דרך</he>) <i>threshing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 25:4\">Targ. Y. II, Deut. XXV, 4</cite> <he>דּוֹרְכֵיה</he> (Y. I <he>דָּרְכֵיה</he>, h. text <cite ref=\"D00737\"><he>דיש</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "S00489",
+	"slug": "קוף-3",
+	"headword": {
+		"text": "קוֹף"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹפָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1337,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00488\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Nedarim 50b:2\">Ned. 50ᵇ</cite>. ",
+				"<cite ref=\"Bava Kamma 101a:11\">B. Kam. 101ᵃ</cite> <he>וקאתי קוף וכ׳</he> and an ape came and dyed the (stolen) wool (with dye stolen from another person). ",
+				"<cite ref=\"Bava Kamma 101a:10\">Ib.</cite> <he>כגון שצבע בהו קופא</he> ed. he painted a (stolen) ape with the stolen paint (so that he improved nothing thereby); [oth. opin. <he>קוִּפָּא</he> <i>basket;</i> Ms. M. <he>קופה</he>, v. Rabb. D. S. a. l. note 1].—Pl. <he>קוֹפִין</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 10:22\">Targ. I Kings X, 22</cite>; <cite ref=\"Targum of II Chronicles 9:21\">Targ. II Chr. IX, 21</cite>."
+			]
+		}
+	]
+}

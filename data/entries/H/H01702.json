@@ -1,0 +1,23 @@
+{
+	"id": "H01702",
+	"slug": "חרישה-3",
+	"headword": {
+		"text": "חֲרִישָׁה",
+		"homograph": 3
+	},
+	"page": {
+		"number": 503,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00482\"><he>חוֹרֶשׁ</he></cite>) <i>thicket</i>, only in <he>חֲרִישַׁת קנים</he> <i>a thicket of reeds</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite>, beg.; Koh. R. to II, 12; (<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite> <he>חורשא של וכ׳</he>); v. <cite ref=\"H00891\"><he>חִישָׁה</he></cite>."
+			]
+		}
+	]
+}

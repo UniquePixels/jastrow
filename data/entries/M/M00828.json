@@ -1,0 +1,38 @@
+{
+	"id": "M00828",
+	"slug": "מחול",
+	"headword": {
+		"text": "מָחוֹל"
+	},
+	"page": {
+		"number": 758,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00319\"><he>חוּל</he></cite>) [<i>circle</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>untilled ground surrounding the vineyard</i> (between the vines and the fence). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 4:1\">Kil. IV, 1</cite>, sq. <he>מְחוֹל הכרם</he>; <cite ref=\"Eruvin 3b:18\">Erub. 3ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:1:7\">Y. Kil. IV, 29ᵇ</cite> top <he>ולא מ׳ לכרם קטן</he> nor does the law concerning the planting of the <i>maḥol</i> apply to a small vineyard. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:1:7\">Ib.</cite> <he>יש לו מ׳</he> the law does apply to it. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:1:7\">Ib.</cite> <he>ניטל המ׳</he> (prob. to be read <cite ref=\"B00515\"><he>בטל</he></cite>) it has no more the nature of a <i>maḥol</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>chorus of singers and dancers</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 31a:9\">Taan. 31ᵃ</cite> <he>לעשות מ׳</he> to arrange a chorus. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 294\">Yalk. Is. 294</cite>, v. <cite ref=\"H00335\"><he>חוֹלָה</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

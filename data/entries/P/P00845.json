@@ -1,0 +1,23 @@
+{
+	"id": "P00845",
+	"slug": "עלת",
+	"headword": {
+		"text": "עַלַּת"
+	},
+	"page": {
+		"number": 1085,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00815\"><he>עלל</he></cite>) [<i>turning about</i>,] <i>ladle</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53b:10\">Erub. 53ᵇ</cite> (in enigmatic speech) <he>ע׳ נקפת וכ׳</he>, v. <cite ref=\"N01233\"><he>נְקַף</he> I</cite>. ",
+				"<cite ref=\"Eruvin 53b:10\">Ib.</cite> [read:] <he>יעדי כתר … ותיקפי ע׳ בכד וכ׳</he> (v. Rabb. D. S. a. l. note) shall the crown (stopper) of another (jug) be removed, that the ladle may float like a ship &c.?"
+			]
+		}
+	]
+}

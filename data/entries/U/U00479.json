@@ -1,0 +1,23 @@
+{
+	"id": "U00479",
+	"slug": "שועא-1",
+	"headword": {
+		"text": "שׁוּעָא"
+	},
+	"page": {
+		"number": 1538,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00475\"><he>שׁוּעַ</he></cite> or <cite ref=\"U01677\"><he>שְׁעַע</he></cite>; cmp. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 26:4\">Targ. Ez. XXVI, 4</cite> s. v. <cite ref=\"U01657\"><he>שְׁעִיעוּתָא</he></cite>) <i>smooth rock</i>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:19\">Targ. Prov. XXX, 19</cite> h. text <cite ref=\"R00240\"><he>צור</he></cite>)."
+			]
+		}
+	]
+}

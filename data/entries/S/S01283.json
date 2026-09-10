@@ -1,0 +1,29 @@
+{
+	"id": "S01283",
+	"slug": "קלוסנטרין",
+	"headword": {
+		"text": "קְלוּסַנְטְרִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלוּסַנְתְּרִ׳"
+		}
+	],
+	"page": {
+		"number": 1373,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a corrupt. of γελοιαστήρ = γελοιαστής) <i>jesters, buffoons, king’s fools</i> (v. <cite ref=\"S01388\"><he>קְלַסְתָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:21\">Targ. Esth. II, 21</cite> <he>תרין ק׳</he> two merry-makers, opp. <cite ref=\"B00787\"><he>בַּכְיָן</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 1053:35\">Yalk. Esth. 1053</cite> (in Hebr. dict.) <he>קלוסנט׳</he> (some ed. <cite ref=\"S01280\"><he>קְלוֹסְטְרִין</he></cite>, <he>קְלִיסְטְ׳</he>), opp. <cite ref=\"B01170\"><he>בַּרְבָּרִי</he></cite> (v., however, <cite ref=\"S01387\"><he>קְלַסְרִיקִין</he></cite>)."
+			]
+		}
+	]
+}

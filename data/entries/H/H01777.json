@@ -1,0 +1,50 @@
+{
+	"id": "H01777",
+	"slug": "חרש-2",
+	"headword": {
+		"text": "חָרַשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 507,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to engrave, draw, design</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:16:1\">Koh. R. to I, 16</cite> <he>הלב חוֹרֵשׁ</he> the heart designs."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to plough</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:9\">Macc. III, 9</cite> <he>יש חוֹרֵשׁ תלם וכ׳</he> one may plough one bed and &c. ",
+				"<cite ref=\"Taanit 29a\">Taan. 29ᵃ</cite> <he>וח׳ את העיר</he> Ms. M. and passed the plough over the city of Jerusalem. ",
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite>; a. fr.—Trnsf. <i>to have sexual intercourse</i>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:1:6\">Y. Yeb. I, 2ᵇ</cite> top. ",
+				"<cite ref=\"Bereishit Rabbah 98:4\">Gen. R. s. 98</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְרַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be ploughed over</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Taanit 4:6\">Taan. IV, 6</cite> <he>נֶחְרְשָׁה העיר</he> the plough was passed over the city of Jerusalem; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

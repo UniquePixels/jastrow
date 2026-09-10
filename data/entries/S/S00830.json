@@ -1,0 +1,36 @@
+{
+	"id": "S00830",
+	"slug": "קטרג-1",
+	"headword": {
+		"text": "קִטְרֵג"
+	},
+	"page": {
+		"number": 1353,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (a transposed denom. of <cite ref=\"S00738\"><he>קָטֵיגוֹר</he></cite>) <i>to denounce, bring charges; to incite anger against</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:6:2\">Y. Sabb. II, 5ᵇ</cite> top <he>אין השטן מְקַטְרֵג וכ׳</he> Satan brings charges against man only in the hour of danger. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:6:2\">Ib.</cite> <he>בשלשה … מצוי לקַטְרֵג</he> on three occasions Satan is ready to bring charges; <cite ref=\"Kohelet Rabbah 3:2\">Koh. R. to III, 2</cite> (not <he>למקטרוג</he>). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:6:7\">Y. Snh. II, 20ᶜ</cite> bot. <he>קִיטְרְגוֹ</he>, v. <cite ref=\"J00158\"><he>יו״ד</he></cite>; <cite ref=\"Shir HaShirim Rabbah 5:11:3\">Cant. R. to V, 11</cite>; <cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite>, end <he>עמד הדיין … והמְקַטְרֵג הולך וכ׳</he> when the judge rises, the advocate is silenced, and the accuser goes to carry out his mission (of punishment). ",
+				"<cite ref=\"Esther Rabbah 7:12\">Esth. R. to III, 8</cite> <he>כל מה שהיה המן מקטרג וכ׳</he> against every charge that Haman preferred against Israel here below, Michael spoke in their defence above. ",
+				"<cite ref=\"Midrash Tehillim 74:2\">Midr. Till. to Ps. LXXIV</cite> (ref. to <cite ref=\"Isaiah 66:6\">Is. LXVI, 6</cite>) <he>ההיכל מקטרג</he> (ed. Bub.) the destroyed Temple is the accuser; <he>ומהו מק׳ וכ׳</he> and what does it say in the way of accusation? Hear the voice of the Lord &c.; Yalk. ib. 809; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְקַטְרֵג"],
+			"senses": [
+				{
+					"gloss": "<i>to be denounced</i>. Esth. R. l. c. <he>אין בניך מִתְקַטְרְגִין וכ׳</he> thy children are denounced (by Haman) not for worshipping idols, nor for unchastity or bloodshed, but they are denounced only because they observe thy laws.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

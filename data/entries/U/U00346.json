@@ -1,0 +1,27 @@
+{
+	"id": "U00346",
+	"slug": "שווח-4",
+	"headword": {
+		"text": "שַׁוַּוח"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁוַּח"
+		}
+	],
+	"page": {
+		"number": 1530,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00345\">preced.</cite>) <i>low-spirited, worrying</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 22:29\">Targ. Job XXII, 29</cite> <he>ש׳ בסורחנא</he> troubled on account of sin (Ms. <he>שְׁוַוח בעיני בירייתא</he> low in the sight of men; h. text <he>שח עינים</he>)."
+			]
+		}
+	]
+}

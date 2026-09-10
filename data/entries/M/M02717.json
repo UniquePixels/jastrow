@@ -1,0 +1,31 @@
+{
+	"id": "M02717",
+	"slug": "מרמירא",
+	"headword": {
+		"text": "מַרְמִירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְמֵי׳"
+		}
+	],
+	"page": {
+		"number": 844,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (marmor, μάρμαρος) <i>marble</i>, in gen. <i>polished stone</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 9:9\">Targ. Y. Deut. IX, 9</cite>, sq.; a. e.—Pl. <he>מַרְמִירִין</he>, <he>מַרְמִירַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 5:19\">Ib. V, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:6\">Targ. Esth. I, 6</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 29:2\">Targ. I Chr. XXIX, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:9\">Targ. Lam. III, 9</cite>.—V. <cite ref=\"M02723\"><he>מַרְמָרָא</he></cite>."
+			]
+		}
+	]
+}

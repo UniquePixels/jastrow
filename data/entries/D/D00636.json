@@ -1,0 +1,45 @@
+{
+	"id": "D00636",
+	"slug": "דין-6",
+	"headword": {
+		"text": "דִּין",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּינָא"
+		}
+	],
+	"page": {
+		"number": 301,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00635\">same</cite><i>law, decision; cause</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 58:6\">Targ. Is. LVIII, 6</cite>, v. <cite ref=\"M01901\"><he>מַסְטֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:8\">Targ. Prov. XX, 8</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 45:5\">Gen. R. s. 45</cite> <he>יבעי דִּינִי גבך</he> may my cause be required at thy hands, i.e. you wronged me, cmp. <cite ref=\"D00711\"><he>דִּיקְיוֹן</he></cite>.—",
+				"<cite ref=\"Sanhedrin 8a:9\">Snh. 8ᵃ</cite> <he>יומא דד׳</he> court day. ",
+				"<cite ref=\"Bava Kamma 39a:7\">B. Kam. 39ᵃ</cite>; <cite ref=\"Bava Metzia 117b\">B. Mets. 117ᵇ</cite> <he>נחית לעומקיה דד׳</he> he enters into the depth of the case before him. ",
+				"<cite ref=\"Bava Batra 173b:4\">B. Bath. 173ᵇ</cite> <he>ד׳ דפרסאי</he> Persian law (arbitrary). ",
+				"<cite ref=\"Bava Kamma 113a:1\">B. Kam. 113ᵃ</cite>, a. fr. <he>ד׳ דמלכותא ד׳</he> the law of the (secular) government is law (must supersede the Jewish law in civil affairs). ",
+				"<cite ref=\"Bava Metzia 83a:10\">B. Mets. 83ᵃ</cite> <he>ד׳ הכי</he> is this the law? <cite ref=\"Berakhot 5b:17\">Ber. 5ᵇ</cite> <he>דעביד ד׳ בלא ד׳</he> that He will pass sentence without justice (punish without cause). ",
+				"<cite ref=\"Niddah 69a:48\">Nidd. 69ᵃ</cite>, v. <cite ref=\"C00923\"><he>גַּלְחִי</he></cite>. ",
+				"<cite ref=\"Gittin 56b:18\">Gitt. 56ᵇ</cite> bot. <he>ד׳ דההוא גברא במאי</he> what is this man’s (thy) punishment (in the nether world)? <cite ref=\"Vayikra Rabbah 27:6\">Lev. R. s. 27</cite> <he>אילו הוה הדין ד׳ וכ׳</he> if such a case would come up in your country. ",
+				"<cite ref=\"Vayikra Rabbah 27:1\">Ib.</cite> <he>דִּינְכוֹן אתיתי למחמי</he> (Tanḥ. Emor 6 <cite ref=\"D00693\"><he>דיציבון</he></cite>, read: <he>דִּינֵיכוֹן</he> pl.) I came to see your administration of the law; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>contest, quarrel</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:1\">Targ. Prov. XVII, 1</cite>; a. fr.—Pl. <he>דִּינִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 13:7\">Targ. Y. Gen. XIII, 7</cite> [read:] <he>והוו דינין</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 1:10\">Targ. Y. Ex. I, 10</cite> <he>בהלין ד׳</he> by what laws; a. fr.—[Y. Keth. IX, 33ᵇ bot. <he>דין מוגמרין</he>, v. <cite ref=\"D00450\"><he>דִּיאֲטַגְמָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

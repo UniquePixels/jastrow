@@ -1,0 +1,26 @@
+{
+	"id": "M01823",
+	"slug": "מס-2",
+	"headword": {
+		"text": "מַס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 803,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <he>מנס</he>; <he>נסה</he> = <he>נשא</he>) <i>impost, tribute, tax</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>שרתי</he>, v. <cite ref=\"L00579\"><he>לָמַס</he></cite> a. <cite ref=\"M01825\"><he>מַסָּא</he> I</cite>.—Pl. <cite ref=\"M01245\"><he>מִסִּים</he></cite>, <cite ref=\"M01245\"><he>מִסִּין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:18\">Y. Dem. II, 22ᵈ</cite> top <he>מעלי מ׳ כמי שנתכבשו</he> the places which were made tributary (under Joshua) are considered as conquered (belonging to the Holy Land); <cite ref=\"Jerusalem Talmud Sheviit 6:1:13\">Y. Shebi. VI, 36ᶜ</cite> bot. <he>בעלי סיסין</he> (corr. acc.); <cite ref=\"Bereishit Rabbah 98:12\">Gen. R. s. 98</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 33\">Lev. R. s. 33</cite>, end <he>לא למסגד אלא למפלח במ׳ וכ׳</he> (this <he>ועבדתם</he>, <cite ref=\"Deuteronomy 4:28\">Deut. IV, 28</cite>) does not mean ‘to worship’ but ‘to serve’ by paying imposts, <i>annonae</i> &c. ",
+				"<cite ref=\"Deuteronomy 4:28\">Ib.</cite>; <cite ref=\"Shir HaShirim Rabbah 2:14\">Cant. R. to II, 14</cite> <he>אם למ׳ … את מלך עלינו וכ׳</he> (some ed. <he>לפסים</he>) if it be a question of taxes … thou art king over us … (we recognize thy sovereignty) …, but &c."
+			]
+		}
+	]
+}

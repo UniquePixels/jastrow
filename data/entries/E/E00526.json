@@ -1,0 +1,57 @@
+{
+	"id": "E00526",
+	"slug": "הכשיר",
+	"headword": {
+		"text": "הֶכְשֵׁיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶכְשֵׁר"
+		}
+	],
+	"page": {
+		"number": 351,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01324\"><he>כָּשֵׁר</he></cite>) <i>preparation; fitness</i>, esp. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>direct cause, responsibility</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 1:2\">B. Kam. I, 2</cite> <he>חבתי</he> … <he>כה׳ כל נזקו</he> I am bound to pay such compensation as though I had been the entire cause of the damage. Y. ib. 2ᵃ <he>לה׳ נזקין</he> it refers to responsibility for damage, opp. <he>נזקי גופו</he> infliction of bodily injuries; <cite ref=\"Jerusalem Talmud Gittin 5:1:2\">Y. Gitt. V, beg. 46ᶜ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>finishing</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 14:1\">Gen. R. s. 14</cite> <he>הֶכְשֵׁירוֹ באור</he> (an earthen or glass vessel) is finished in fire."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>that which makes a thing legal, that which is ritually fit</i> (v. <cite ref=\"K01324\"><he>כָּשֵׁר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 3:2:2\">Y. Gitt. III, 44ᵈ</cite> <he>מפסולו את למד הכשירו</he> from what makes a letter of divorce invalid you can learn what makes it valid. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:3:5\">Y. Pes. V, 32ᵇ</cite> top <he>לבור פסולו מתיך הכשירו</he> to distinguish the unfit element of it from the fit element."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (levitical law) <i>fitness to become unclean</i> (which arises from contact with certain liquids), <i>cause of fitness</i> (<he>הוכשר לקבל טומאה</he>, v. <cite ref=\"K01324\"><he>כָּשֵׁר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Chullin 36b:5\">Ḥull. 36ᵇ</cite> <he>עשאוהו כה׳ מים</he> they declared it (slaughtering, pressing grapes) to be equal in its effect to the fitness for uncleanness which arises from contact with liquids. ",
+				"<cite ref=\"Chullin 121a:19\">Ib. 121ᵃ</cite> <he>ה׳ מים ממקום אחר</he> the liquids which produce the fitness to become unclean must come from without. ",
+				"<cite ref=\"Chullin 121a:19\">Ib.</cite> <he>ה׳ למה לי</he> why should contact with liquids be necessary at all? <cite ref=\"Chullin 121a:19\">Ib.</cite> <he>צריך ה׳</he> requires contact with liquids in order to become fit &c. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 7:6:2\">Y. Kil. VII, end, 31ᵃ</cite>; <cite ref=\"Shabbat 95b:1\">Sabb. 95ᵇ</cite> <he>ה׳ זרעים</he> (v. Rabb. D. S. a. l.) the requirement that the plants (in the pot) must come in contact with liquids in order to be fit for uncleanness; a. fr."
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "M00230",
+	"slug": "מד",
+	"headword": {
+		"text": "מִדְּ־"
+	},
+	"page": {
+		"number": 730,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", a prefix, = <he>מִן דְּ־</he>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>than that</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 14:12\">Targ. O. Ex. XIV, 12</cite> <he>מִדְּנִימוּת</he> (ed. Amst. <he>מֵדִנְמוּת</he>, corr. acc.); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>from the time that; from the fact that; since, because</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 48:15\">Targ. Gen. XLVIII, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 1:12\">Targ. I Sam. I, 12</cite>. ",
+				"<cite ref=\"Onkelos Exodus 14:11\">Targ. O. Ex. XIV, 11</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 2b:4\">Ber. 2ᵇ</cite> <he>מִדְּקָתָנִי … שמע מינה וכ׳</he> from the fact that the Boraitha says … we conclude that &c. ",
+				"<cite ref=\"Berakhot 15b\">Ib. 15ᵇ</cite> … <he>מדקתני סיפא … מכלל</he> since the second clause reads, ‘R. Judah says &c.’, we must conclude that the first clause does not express R. Judah’s opinion.—",
+				"<cite ref=\"Gittin 19b:20\">Gitt. 19ᵇ</cite> <he>מִדְּהָא הואי וכ׳</he> since one (of the papers found) was undoubtedly there (before the letter of divorce was thrown there), the other was surely there, too, and the letter of divorce may have been carried off by mice. ",
+				"<cite ref=\"Bava Metzia 83b:9\">B. Mets. 83ᵇ</cite> <he>מִדְּחָצִיף כולי האי</he> since he is so bold.—<he>מדאורייתא</he>, <he>מדרבנן</he>, v. <cite ref=\"A00894\"><he>אוֹרַיְיתָא</he></cite>.—",
+				"<cite ref=\"Gittin 37a\">Gitt. 37ᵃ</cite>, a. fr. <he>מִדְּרַבִּי וכ׳</he> as concluded from what R … said; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

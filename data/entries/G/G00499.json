@@ -1,0 +1,60 @@
+{
+	"id": "G00499",
+	"slug": "זלל-2",
+	"headword": {
+		"text": "זְלַל"
+	},
+	"page": {
+		"number": 402,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00498\">same</cite>, <i>to be of little value, disregarded</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 3:21\">Targ. Prov. III, 21</cite> <he>לא נִזַל בעינך</he> (h. text <he>ילזו</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 4:21\">Ib. IV, 21</cite> <he>לא נִיזְלָן בעיניך</he> Var. ed. Lag. a. oth. ed. (ed. Lag. <he>בעיניך</he>, v. <cite ref=\"G00491\"><he>זְלֵי</he></cite>; h. text <he>יליזו מ־</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַלְזֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to disregard, despise</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 27:16\">Targ. Y. Deut. XXVII, 16</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 16:4\">Targ. Y. Gen. XVI, 4</cite> <he>זלזלת</he> (ed. pr. <he>זַלְּלַת</he>) she disregarded.—",
+						"<cite ref=\"Chullin 133a:5\">Ḥull. 133ᵃ</cite> <he>זַלְזוּלֵי קא מְזַלְזֵל וכ׳</he> does he show that he treats religious observances with disrespect?, opp. <cite ref=\"H00012\"><he>חבב</he></cite>.—",
+						"<cite ref=\"Avodah Zarah 35a:9\">Ab. Zar. 35ᵃ</cite> <he>ואתי לזַלְזוּלֵי בה</he> Ms. M. (ed. <he>לזִילְזוּלָא</he>) and he may be induced to disregard it; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to count the lowest price</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 52b:13\">B. Mets. 52ᵇ</cite> <he>מְזַלְזְלִינָן במעשר שני</he> in redeeming second tithes we are permitted to count closely. ",
+						"<cite ref=\"Bava Metzia 52b:14\">Ib.</cite> <he>תרי זילי לא מז׳</he> two lowerings of value must not be applied to it (to value closely and then to count a defective coin for full)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Palp."
+		},
+		{
+			"forms": ["אִיזְרַּלְזֵל"],
+			"senses": [
+				{
+					"gloss": "; contr. <cite ref=\"G00499\"><he>אִיזַּלְזֵל</he></cite> <i>to be despised; to lower one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 40:4\">Targ. Job XL, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 9:16\">Targ. Koh. IX, 16</cite>.—",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:16\">Targ. Y. Deut. XXVIII, 16</cite>."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

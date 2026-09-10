@@ -1,0 +1,45 @@
+{
+	"id": "H00475",
+	"slug": "חורן-2",
+	"headword": {
+		"text": "חוֹרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹרָנָא"
+		},
+		{
+			"text": "חוֹרָנָה"
+		},
+		{
+			"text": "חֲרָ׳"
+		},
+		{
+			"text": "חֲרִינָה"
+		}
+	],
+	"page": {
+		"number": 440,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"A01060\"><he>אוֹחֲרָן</he></cite>, <i>another, next; last</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 19:6\">Targ. Y. Lev. XIX, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 9:6\">Targ. Y. Ex. IX, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 20:18\">Targ. Job XX, 18</cite>; a. e.—Y. Pes. VI, 33ᵃ bot. <he>דח׳ מקדש וכ׳</he> that another man will sanctify &c. ",
+				"<cite ref=\"Jerusalem Talmud Peah 2:4:8\">Y. Peah II, 17ᵃ</cite> bot. <he>וחרנה אמר</he> and the other (scholar) says; <cite ref=\"Jerusalem Talmud Terumot 2:1:17\">Y. Ter. II, 41ᶜ</cite> top <he>וחרינה</he>; a. fr.—Pl. <he>חוֹרָנִין</he>, <cite ref=\"H00465\"><he>חוֹרוֹנִין</he></cite>. ",
+				"<cite ref=\"Targum of I Chronicles 23:17\">Targ. I Chr. XXIII, 17</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Peah 8:8:7\">Y. Peah VIII, 21ᵇ</cite> top <he>לח׳</he> to other people (not himself).—<i>Fem.</i> <he>חוֹרָנַיְתָא</he>, <he>חוֹרָנַיְי׳</he>, <cite ref=\"H01723\"><he>חוֹרַנְתָּא</he></cite> (… <he>תָּה</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 21:10\">Targ. Y. Ex. XXI, 10</cite> (ed. Amst. <cite ref=\"A00618\"><he>אוֹחְרַנְתָּא</he></cite>). ",
+				"<cite ref=\"Targum of II Chronicles 3:12\">Targ. II Chr. III, 12</cite>; a. e.—Y. Sabb. II, 5ᵃ sq. <he>ח׳ למה</he> why the other sacrifice?—Pl. <he>חוֹרַנְיָין</he>, <he>חוֹרַנְיָיתָא</he>. ",
+				"<cite ref=\"Targum of I Chronicles 23:27\">Targ. I Chr. XXIII, 27</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 10:6:3\">Y. Sabb. X, end, 12ᵈ</cite>; a. fr."
+			]
+		}
+	]
+}

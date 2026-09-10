@@ -1,0 +1,32 @@
+{
+	"id": "I00052",
+	"slug": "טביחה",
+	"headword": {
+		"text": "טְבִיחָה"
+	},
+	"page": {
+		"number": 516,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00041\"><he>טָבַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>slaughtering;</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>digestion</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 3:3\">Bets. III, 3</cite> <he>בית טְבִיחָתָהּ</he> the place where it is cut (neck); <cite ref=\"Beitzah 25a:15\">ib. 25ᵃ</cite> <he>מאי לאו מבית ט׳ ממש וכ׳</he> does this not mean actually from the place etc.? No, <he>ממקום שטובחת וכ׳</he> v. <cite ref=\"I00041\"><he>טָבַח</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

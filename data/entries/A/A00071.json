@@ -1,0 +1,24 @@
+{
+	"id": "A00071",
+	"slug": "אבולאי",
+	"headword": {
+		"text": "אִבּוּלָאֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 4,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"A00070\">foreg.</cite>) <i>city-gate-guards, police</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 67b:13\">Nidd. 67ᵇ</cite> <he>משום א׳</he> on account of the rude conduct of &c. [Rashi = <cite ref=\"A00072\"><he>אבולי</he></cite> dangerous, cavern-like entrances to the bath-house.]"
+			]
+		}
+	]
+}

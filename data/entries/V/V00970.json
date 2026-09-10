@@ -1,0 +1,36 @@
+{
+	"id": "V00970",
+	"slug": "תרז-1",
+	"headword": {
+		"text": "תָּרַז"
+	},
+	"page": {
+		"number": 1697,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00712\"><he>טרד</he></cite>), <i>Hif.</i> <he>הִתְרִיז</he> <i>to squirt, splash; to have diarrhœa, commit a nuisance</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 38a:6\">Ḥull. 38ᵃ</cite> <he>במַתְרֶזֶת</he> when the animal discharges with a splash, opp. <he>בשותתת</he>, v. <cite ref=\"U02140\"><he>שָׁתַת</he> I</cite>. ",
+				"<cite ref=\"Bava Kamma 47b\">B. Kam. 47ᵇ</cite> <he>אכל חטין וה׳ ומת</he> the animal ate wheat, and got diarrhœa and died; <cite ref=\"Bava Metzia 90a:12\">B. Mets. 90ᵃ</cite> <he>היתה אוכלת ומתרזת</he>. ",
+				"<cite ref=\"Sukkah 53b\">Succ. 53ᵇ</cite>; <cite ref=\"Yoma 77a:1\">Yoma 77ᵃ</cite> <he>ומַתְרִיזִין</he>, v. <cite ref=\"Q01943\"><he>פָּרַע</he></cite>; <cite ref=\"Kiddushin 72b:7\">Kidd. 72ᵇ</cite> <he>ומתריזין עצמם</he> (corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְרַז"],
+			"senses": [
+				{
+					"gloss": "<i>to be shocked, frightened; to be seized with a panic</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 1\">Lev. R. s. 1</cite> <he>ונִתְרָזִין מתוך וכ׳</he>, v. <cite ref=\"Q01203\"><he>פַּנִּיקְטִין</he></cite>; Tanḥ. T’rum. 9 <he>ונתרזין בתוך אהליהם</he> (not <he>לתוך</he>) and be panic-stricken in their camps. ",
+						"<cite ref=\"Vayikra Rabbah 1\">Ib.</cite> <he>והן נתרזין</he> and they were frightened."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

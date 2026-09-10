@@ -1,0 +1,26 @@
+{
+	"id": "A02082",
+	"slug": "אן-3",
+	"headword": {
+		"text": "אָן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַן"
+		}
+	],
+	"page": {
+		"number": 80,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A02081\">same</cite>; (interrog.) <i>where?</i> <cite ref=\"Onkelos Genesis 4:9\">Targ. Gen. IV, 9</cite>; a. e.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 8:1:9\">Y. Yoma VIII, 44ᵈ</cite> bot. <he>אן מן הדה</he> (read … <he>מן אן</he>) wherefrom this? i.e. where is your authority? <cite ref=\"Jerusalem Talmud Yevamot 12:6:2\">Y. Yeb. XII, 12ᵈ</cite> bot. <he>ההן סבא לְאָן ליך</he> of what use is this old man to thee?; a. e.—(relat.) <i>where, wherever</i>. ",
+				"<cite ref=\"Vayikra Rabbah 27:6\">Lev. R. s. 27</cite> beg. <he>א׳ את יהיב וכ׳</he> (<cite ref=\"Yalkut Shimoni on Nach 727:1\">Yalk. Ps. 727</cite> <he>הן</he>) wherever thou givest, thou givest abundantly."
+			]
+		}
+	]
+}

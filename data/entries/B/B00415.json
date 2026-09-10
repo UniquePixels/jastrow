@@ -1,0 +1,28 @@
+{
+	"id": "B00415",
+	"slug": "בזבזיה",
+	"headword": {
+		"text": "בַּזְבְּזַיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּזְבְּזַיָּיה"
+		}
+	],
+	"page": {
+		"number": 152,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. [<i>breakers</i>], name of messengers from Sodom [or Edom]; a word in a charm formula. ",
+			"units": [
+				"<cite ref=\"Shabbat 67a:6\">Sabb. 67ᵃ</cite> (ed. <he>בז בזייה</he>, v. Rabb. D. S. a. l.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "M01402",
+	"slug": "מכמורת",
+	"headword": {
+		"text": "מִכְמוֹרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִכְמֶרֶת"
+		}
+	],
+	"page": {
+		"number": 783,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; כמר <i>to hide</i>) <i>trap, small fisher’s net</i>, contrad. to <cite ref=\"H01716\"><he>חֵרֶם</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:1:11\">Y. Pes. IV, 30ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Moed Katan 2:5:3\">Y. M. Kat. II, end, 81ᵇ</cite> <he>צד הוא במ׳</he> one may fish with the small net. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 16:4:2\">Y. Yeb. XVI, 15ᵈ</cite> top (prob. to be read: <he>רוֹת …</he> pl.), v. <cite ref=\"K00817\"><he>כָּמַר</he></cite>.—Pl. <cite ref=\"M01402\"><he>מִכְמוֹרוֹת</he></cite>, <cite ref=\"M01424\"><he>מִכְמוֹרִין</he></cite>, <he>מִכְמֵרוֹת</he>. ",
+				"<cite ref=\"Tosefta Beitsah 3:1\">Tosef. Bets. III, 1</cite>; Y. ib. 62ᵃ top. ",
+				"<cite ref=\"Yevamot 121a:15\">Yeb. 121ᵃ</cite> <he>מכמורין</he>; <cite ref=\"Tosefta Yevamot 14:6\">Tosef. ib. XIV, 6</cite> <he>מכמרות</he> (Var. <he>מכמרראות</he>, read <he>מַכְמוֹרָאוֹת</he>, fr. <he>מַכְמוֹרִית</he>). ",
+				"<cite ref=\"Mishnah Kelim 23:5\">Kel. XXIII, 5</cite>. ",
+				"<cite ref=\"Mishnah Makhshirin 5:7\">Makhsh. V, 7</cite>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 51:13\">Pirké d’R. El. ch. LI</cite> <he>נאחזין במכמרותיהם</he> will be caught in the nets laid for them; a. e."
+			]
+		}
+	]
+}

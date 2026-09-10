@@ -1,0 +1,42 @@
+{
+	"id": "J00512",
+	"slug": "יפע-2",
+	"headword": {
+		"text": "יְפַע"
+	},
+	"page": {
+		"number": 586,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00511\">same</cite>, <i>to appear, rise</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:4\">Targ. Job III, 4</cite> <he>תֵּפַע</he> (<he>תֵּיפַע</he>; h. text <he>תּוֹפַע</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹפַע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00511\">same</cite>. Ib. X, 3 <he>אוֹפַעְתָּ</he> thou appearest (approving, h. text <he>הופעת</he>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 80:2\">Targ. Ps. LXXX, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 94:1\">Ib. XCIV, 1</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to send forth</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 37:15\">Targ. Job XXXVII, 15</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

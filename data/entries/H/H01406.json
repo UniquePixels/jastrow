@@ -1,0 +1,47 @@
+{
+	"id": "H01406",
+	"slug": "חסף-2",
+	"headword": {
+		"text": "חֲסַף",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חַסְפָּא"
+		},
+		{
+			"text": "חִ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 489,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01405\">preced.</cite>) (= h. <cite ref=\"H01776\"><he>חֶרֶשׂ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rough clay</i>, <he>מאנא דח׳</he> <i>clay vessel</i> (common and easily broken). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:33\">Targ. O. Lev. XI, 33</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>something with which to peel or scrape</i>,] <i>fragment of a vessel, potsherd</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 26:23\">Targ. Prov. XXVI, 23</cite>.—",
+				"<cite ref=\"Yevamot 92b:8\">Yeb. 92ᵇ</cite>, a. e., v. <cite ref=\"D00828\"><he>דְּלֵי</he></cite>. ",
+				"<cite ref=\"Kiddushin 18a:13\">Kidd. 18ᵃ</cite> (prov.) <he>נקיט … יהיבנא ליה ח׳</he> he had a pearl in his hand, and we give him a sherd, i.e. for a valuable object we give him a valueless paper; a. fr.—Pl. <he>חַסְפִּין</he>, <cite ref=\"H01406\"><he>חִ׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 14:7\">Gen. R. s. 14</cite>, v. <cite ref=\"D00073\"><he>דְּבַק</he></cite>; <cite ref=\"Midrash Tehillim 2:1\">Midr. Till. to Ps. II</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

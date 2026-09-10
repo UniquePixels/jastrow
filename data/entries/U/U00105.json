@@ -1,0 +1,47 @@
+{
+	"id": "U00105",
+	"slug": "שבט-4",
+	"headword": {
+		"text": "שְׁבַט"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבְטָא"
+		},
+		{
+			"text": "שֵׁיבַט"
+		},
+		{
+			"text": "שִׁיבְטָא"
+		},
+		{
+			"text": "שׁוּ׳"
+		}
+	],
+	"page": {
+		"number": 1513,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00104\">same</cite><i>rod, staff</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 22:8\">Targ. Prov. XXII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:13\">Ib. X, 13</cite> (Ar. a. Levita <cite ref=\"U00496\"><he>שׁוּפְטָא</he></cite>). Ib. XXVI, 3; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:4:8\">Y. Shek. IV, 48ᵇ</cite> bot., v. <cite ref=\"K01220\"><he>כַּרְכָּרָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tribe</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 26:32\">Targ. I Chr. XXVI, 32</cite>. ",
+				"<cite ref=\"Onkelos Numbers 1:4\">Targ. Num. I, 4</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 115b:1\">B. Bath. 115ᵇ</cite> <he>גמירי … ש׳</he> there is a tradition that no tribe shall ever be extinct; a. e.—Pl. <he>שִׁבְטִין</he>, <he>שִׁבְטַיָּא</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 1:16\">Targ. Num. I, 16</cite>. ",
+				"<cite ref=\"Onkelos Genesis 49:28\">Targ. Gen. XLIX, 28</cite>, a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

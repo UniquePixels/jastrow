@@ -1,0 +1,35 @@
+{
+	"id": "P01536",
+	"slug": "עתיר",
+	"headword": {
+		"text": "עַתִּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַתִּירָא"
+		}
+	],
+	"page": {
+		"number": 1129,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01546\"><he>עֲתַר</he></cite>) = h. <cite ref=\"P01482\"><he>עָשִׁיר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 12:1\">Targ. II Sam. XII, 1</cite>, sq.; a. fr.—",
+				"<cite ref=\"Bava Batra 145b:8\">B. Bath. 145ᵇ</cite>, v. <cite ref=\"K00814\"><he>כְּמָס</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 7:2:4\">Y. Shebu. VII, 37ᵈ</cite> [<he>אית</he>] <he>ע׳ גו שוקא ומסכן גו ביתא ע׳ וכ׳</he> a man may appear rich in the street and be poor at home, be rich at home and appear poor in the street. ",
+				"<cite ref=\"Shabbat 113b:11\">Sabb. 113ᵇ</cite>; <cite ref=\"Bava Batra 85a\">B. Bath. 85ᵃ</cite> <he>ע׳ משבור וכ׳</he> richer than king Shabur; a. fr.—Pl. <he>עַתִּירִין</he>, <he>עַתִּירַיָּא</he>, <he>עַתִּירֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 11:16\">Targ. Zech. XI, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 45:13\">Targ. Ps. XLV, 13</cite>; a. fr.—",
+				"<cite ref=\"Gittin 56a:8\">Gitt. 56ᵃ</cite> <he>הוו בה הנהו תלתא ע׳</he> there (in Jerusalem) were these three men. ",
+				"<cite ref=\"Beitzah 32b:3\">Bets. 32ᵇ</cite> <he>ע׳ בבל יורדי וכ׳</he> the rich in Babylonia are bound to go down to Gehenna; a. fr.—Fem. <cite ref=\"P01536\"><he>עַתִּירָא</he></cite>, <cite ref=\"P01539\"><he>עַתִּירָה</he></cite>, <cite ref=\"P01541\"><he>עַתִּירְתָּא</he></cite>. Targ. II Esth. I, 16.—Gitt. l. c. <he>מרתא … ע׳ דירושלם הויא</he> Martha … was the richest woman of Jerusalem. ",
+				"<cite ref=\"Taanit 10a:10\">Taan. 10ᵃ</cite> <he>עתירה בבל</he>, v. <cite ref=\"H01498\"><he>חֲצַד</he> I</cite>; a. e."
+			]
+		}
+	]
+}

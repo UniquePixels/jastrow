@@ -1,0 +1,37 @@
+{
+	"id": "H00112",
+	"slug": "חבר-6",
+	"headword": {
+		"text": "חַבָּר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חַבָּרָא"
+		}
+	],
+	"page": {
+		"number": 422,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00111\">same</cite><i>charmer</i>, v. <cite ref=\"H00032\"><he>חַבּוּרָא</he> II</cite>.—",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite>; <cite ref=\"Yalkut Shimoni on Nach 972:1\">Yalk. Koh. 972</cite> <he>אתא חד חבר</he> (<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite>; <cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite> <cite ref=\"C00129\"><he>גבר</he></cite>, corr. acc.) a charmer (of snakes) came; Tanḥ. Ḥuck. 1.—Pl. <he>חַבָּרַיָּא</he>. ",
+				"<cite ref=\"Sanhedrin 65b:17\">Snh. 65ᵇ</cite> <he>מן ח׳ את</he> thou art a creation of the charmers."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Parsee</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 16b\">Gitt. 16ᵇ</cite>, sq. <he>אתא ההוא ח׳ וכ׳</he> a Parsee came and took the lamp from them.—Pl. <he>חַבָּרֵי</he>. ",
+				"<cite ref=\"Shabbat 45a:2\">Sabb. 45ᵃ</cite> <he>מקמי ח׳</he> from fear of the Parsees (that they might see the lights). ",
+				"<cite ref=\"Yevamot 63b:9\">Yeb. 63ᵇ</cite> <he>אתו ח׳ לבבל</he> the Parsees have entered the Jewish colonies of Babylonia. ",
+				"<cite ref=\"Beitzah 6a:5\">Bets. 6ᵃ</cite> but nowadays <he>דאיכא ח׳</he> when there are Parsees (forcing to public labors)."
+			],
+			"label": "2"
+		}
+	]
+}

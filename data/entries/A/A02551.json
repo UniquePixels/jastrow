@@ -1,0 +1,100 @@
+{
+	"id": "A02551",
+	"slug": "אסר-2",
+	"headword": {
+		"text": "אֲסַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָסַר"
+		}
+	],
+	"page": {
+		"number": 98,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A02550\">same</cite><i>to chain, imprison</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 17:4\">Targ. II Kings XVII, 4</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bind by spell, charm</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 58:6\">Targ. Ps. LVIII, 6</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to tie up, put on</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 49:11\">Targ. Y. Gen. XLIX, 11</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 86b:19\">B. Mets. 86ᵇ</cite> <he>דקא א׳ ושרי</he> that he tied up (his wound) and untied it. ",
+				"<cite ref=\"Shabbat 81b:6\">Sabb. 81ᵇ</cite> <he>אֲסַרְתָּהּ לארבא</he> she tied (stopped) the ship (by magic spell)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to bind the bowels, check diarrhœa</i>. ",
+			"units": ["<cite ref=\"Gittin 69b:9\">Gitt. 69ᵇ</cite> <he>למֵיסַר</he>."],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>to forbid</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 109b:12\">Ḥull. 109ᵇ</cite> <he>כל דא׳ לן וכ׳</he>, v. <cite ref=\"A02550\">preced.</cite>; a. v. fr. ",
+				"<cite ref=\"Chullin 111b:2\">Ib. 111ᵇ</cite>; <cite ref=\"Chullin 112a\">112ᵃ</cite>, a. fr. <cite ref=\"A02445\"><he>אָסִיר</he></cite>, <cite ref=\"A02438\"><he>אֲסִירֵי</he></cite> <i>it is, they are, forbidden</i>.—",
+				"<cite ref=\"Avodah Zarah 37b:5\">Ab. Zar. 37ᵇ</cite> <he>יוסף אָסְרָא מיבעי ליה</he> he ought to be called, ‘Joseph the forbidder.’—",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:4:10\">Y. Meg. I, 70ᶜ</cite> bot. <he>לוֹסַר לפניו</he> to forbid fasting on the day preceding."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": " *<i>to bind one’s self by vowing a fast</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Numbers 30:3\">Num. XXX, 3</cite>), or <i>to be bound</i>. Meg. Taan. XII, end, quoted and discussed <cite ref=\"Taanit 12a:7\">Taan. 12ᵃ</cite> (v. Var. lect. in Rabb. D. S. a. l. a. notes)."
+			],
+			"label": "6"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to tie</i> (sheaves). ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 37:7\">Targ. O. Gen. XXXVII, 7</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְאַסַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be imprisoned</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 42:19\">Targ. Gen. XLII, 19</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (in Talm.) <i>Ithpe.</i> <he>אִיתְּסַר</he> <i>to be forbidden</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 11:10\">Targ. Y. Num. XI, 10</cite>.—",
+						"<cite ref=\"Chullin 101b:10\">Ḥull. 101ᵇ</cite> <he>ליתסר</he> let it be forbidden. ",
+						"<cite ref=\"Chullin 115a:1\">Ib. 115ᵃ</cite> <he>מעשה שבת ליתסרו</he> what has been prepared on the Sabbath ought to be forbidden. ",
+						"<cite ref=\"Yevamot 33a:2\">Yeb. 33ᵃ</cite> <he>קא מיתסר במלאכה</he> he is forbidden from doing labor; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "U02058",
+	"slug": "ששיין",
+	"headword": {
+		"text": "שַׁשְׁיַין"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁשְׁיַן"
+		}
+	],
+	"page": {
+		"number": 1636,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. = <cite ref=\"A03296\"><he>אֲשִׁישְׁיַין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 16:31\">Targ. Y. I Ex. XVI, 31</cite> <he>כש׳</he> Ar. (ed. <he>כאש׳</he>). ",
+				"<cite ref=\"Targum Jerusalem, Numbers 11:8\">Targ. Y. II, Num. XI, 8</cite> Ar. (ed. <he>בש׳</he>, strike out <cite ref=\"B00000\"><he>ב</he></cite>)."
+			]
+		}
+	]
+}

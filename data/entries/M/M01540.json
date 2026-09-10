@@ -1,0 +1,24 @@
+{
+	"id": "M01540",
+	"slug": "מלטיתא",
+	"headword": {
+		"text": "מַלְטִיתָא"
+	},
+	"page": {
+		"number": 789,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מלט</he>; cmp. <cite ref=\"B00263\"><he>בּוּלְטִיתָא</he></cite>) <i>crumbling, corrosion</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:4\">Targ. Prov. XII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:30\">Ib. XIV, 30</cite> <cite ref=\"M01540\"><he>מִלְטֵיתָא</he></cite> (Var. ed. Lag. <cite ref=\"N00655\"><he>ניטליתא</he></cite>, cler. error). ",
+				"<cite ref=\"Targum of I Chronicles 14:1\">Targ. I Chr. XIV, 1</cite>."
+			]
+		}
+	]
+}

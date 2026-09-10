@@ -1,0 +1,33 @@
+{
+	"id": "A00318",
+	"slug": "אגנא",
+	"headword": {
+		"text": "אַגָּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲגָנָא"
+		}
+	],
+	"page": {
+		"number": 13,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>אַגָּן</he> , v. <cite ref=\"A00544\"><he>אוֹגֶן</he></cite>) <i>basin, kettle</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110a:4\">Sabb. 110ᵃ</cite> <he>א׳ דתיחלא</he> a basin filled with cress. ",
+				"<cite ref=\"Avodah Zarah 31a:10\">Ab. Zar. 31ᵃ</cite> <he>א׳ אפומא וכ׳</he> Ms. M. (ed. <he>דפ׳</he>) a basin-like vessel placed over the opening of the cask. ",
+				"<cite ref=\"Pesachim 45b:9\">Pes. 45ᵇ</cite>.—",
+				"<cite ref=\"Berakhot 22a:8\">Ber. 22ᵃ</cite> <he>בא׳ דמיא</he> in a bath tub.—Pl. <he>אַגָּנִין</he>, <cite ref=\"C01132\"><he>אַגָּנֵי</he></cite>, <he>אֲנָ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 65:11\">Targ. Is. LXV, 11</cite>.—",
+				"<cite ref=\"Pesachim 30b:11\">Pes. 30ᵇ</cite> <he>א׳ דמחוזא</he> the kneading basins of Mâḥuza.—<he>מֵישַׁר אֲגָנַיָיא</he> pr. n. pl. ",
+				"<cite ref=\"Targum Jonathan on Judges 4:11\">Targ. Jud. IV, 11</cite>; <cite ref=\"Jerusalem Talmud Megillah 1:1:7\">Y. Meg. I, 70ᵃ</cite> bot. <he>אגנייא דקדש</he>, later name of <he>בצענים</he> <i>pools of Kadesh</i>. [<cite ref=\"Bava Kamma 61b\">B. Kam. 61ᵇ</cite> <he>אגני דארעא</he> Ms. R., <i>ponds of the field</i>, v. <cite ref=\"B00012\"><he>בָּאגָנָא</he></cite> a. <cite ref=\"N00007\"><he>נָאגָנָא</he></cite>.]"
+			]
+		}
+	]
+}

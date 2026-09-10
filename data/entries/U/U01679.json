@@ -1,0 +1,34 @@
+{
+	"id": "U01679",
+	"slug": "שער-1",
+	"headword": {
+		"text": "שָׁעַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1612,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"U01686\"><he>שַׁעַר</he></cite>)<i>to keep the gate</i>.—V. <cite ref=\"U00486\"><he>שׁוֹעֵר</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיעֵר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01678\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Arakhin 11b:9\">Arakh. 11ᵇ</cite> <he>משורר ששי׳ בשל חבירו</he> a Levite chorister that helped in attending to the gate in his neighbor’s stead.—Part. <he>מְשׁוֹעֵר</he>; pl. <he>מְשׁוֹעֲרִים</he> (formed by analogy to <cite ref=\"M02843\"><he>מְשׁוֹרֵר</he></cite>, v. <cite ref=\"U01054\"><he>שִׁיר</he> I</cite>). ",
+						"<cite ref=\"Arakhin 11b:57\">Ib.</cite> <he>מש׳ ששורר</he>, v. <cite ref=\"U01054\"><he>שִׁיר</he> I</cite>. ",
+						"<cite ref=\"Arakhin 11b:17\">Ib.</cite> <he>ולא מן המש׳</he> (<cite ref=\"Sifrei Bamidbar 116:1\">Sifré Num. 116</cite>; <cite ref=\"Yalkut Shimoni on Torah 752:9\">Yalk. ib. 752</cite> <he>השׁוֹעֲרִים</he>), v. <cite ref=\"U01054\"><he>שִׁיר</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

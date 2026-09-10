@@ -1,0 +1,21 @@
+{
+	"id": "H01041",
+	"slug": "חליטה-3",
+	"headword": {
+		"text": "חֲלִיטָה",
+		"homograph": 3
+	},
+	"page": {
+		"number": 468,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָלַט</he> II, v. <cite ref=\"E00307\"><he>הֶחְלֵט</he></cite>) <i>the priest’s final decision on leprosy</i>. Sifra Thazr. Par. 3, ch. IV <he>לאחר חֲלִיטַת מחיה וכ׳</he> (R. S. to <cite ref=\"Mishnah Negaim 8:1\">Neg. VIII, 1</cite> <cite ref=\"H00993\"><he>חִלּוּט</he></cite>) immediately after having originally declared it unclean on account of a sound spot in the sore (<cite ref=\"Leviticus 13:10\">Lev. XIII, 10</cite>, sq.). [<cite ref=\"Leviticus 13:10\">Ib.</cite> <he>החלט מחיה</he>].",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "P00698",
+	"slug": "עיררה",
+	"headword": {
+		"text": "עִירְרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּ׳"
+		}
+	],
+	"page": {
+		"number": 1077,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00343\"><he>עוּר</he></cite>) [<i>waker</i>,] a sort of <i>clepsydra</i> used in sick rooms. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 10:13:3\">Y. Erub. X, end, 26ᵈ</cite> (expl. <cite ref=\"A03232\"><he>עֲדָק</he></cite>). V. <cite ref=\"S00555\"><he>קוֹקְנִיתָה</he></cite>."
+			]
+		}
+	]
+}

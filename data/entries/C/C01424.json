@@ -1,0 +1,36 @@
+{
+	"id": "C01424",
+	"slug": "גשרא",
+	"headword": {
+		"text": "גִּשְׁרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּישְׁרא"
+		}
+	],
+	"page": {
+		"number": 274,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01423\">same</cite><i>board, joist</i> (cmp. <cite ref=\"K01300\"><he>כָּשׁוֹרָא</he></cite>).—Pl. <he>גִּשְׁרִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:5\">Targ. Ezek. XXVII, 5</cite> Levita (ed. <he>גִּשְׁרִיךְ</he>, <he>גִּשְׁרָךְ</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bridge</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 59b\">Ber. 59ᵇ</cite> he who sees the Euphrates <he>אג׳ דבבל</he> from the bridge (or ferry) of Babylon; a. fr.—Pl. <he>גִּשְׁרַיָּא</he>, <he>גִּשְׁרֵי</he>, <cite ref=\"C01427\"><he>גִּיֹשְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:26\">Targ. Y. I Ex. XX, 26</cite>. ",
+				"<cite ref=\"Targum Jonathan on Nahum 2:7\">Targ. Nah. II, 7</cite> (h. text <cite ref=\"U01692\"><he>שערי</he></cite>).—",
+				"<cite ref=\"Bava Kamma 113b:13\">B. Kam. 113ᵇ</cite>, v. <cite ref=\"C01422\"><he>גְּשַׁר</he></cite>. ",
+				"<cite ref=\"Bava Batra 73b:1\">B. Bath. 73ᵇ</cite>.—[<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite> top <he>וז׳ סיכי מז׳ גָּשׁוֹרֵי</he> (Ms. M. <he>גשרי</he>)—prob. a Var. of preceding <he>וז׳ ציבי מז׳ כשורי</he>, v. <cite ref=\"K01300\"><he>כָּשׁוֹרָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

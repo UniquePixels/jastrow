@@ -1,0 +1,33 @@
+{
+	"id": "P01475",
+	"slug": "עשי-2",
+	"headword": {
+		"text": "עֲשֵׂי"
+	},
+	"page": {
+		"number": 1125,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עַשֵּׂי</he> <cite ref=\"P01474\">same</cite>, <i>to force</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 88b:5\">Gitt. 88ᵇ</cite> <he>בני עַשּׂוּיֵי</he> lawfully qualified to force (a divorce). ",
+						"<cite ref=\"Ketubot 50a:1\">Keth. 50ᵃ</cite> <he>עַשִּׂיתִינְהוּ לזניה</he> (read: <he>לזוניה</he>) I caused them (persuaded them, v. Tosaf. a. l.) to support him. ",
+						"<cite ref=\"Ketubot 50a:1\">Ib.</cite> <he>אי אמרת … משום הכי עַשְּׂיִינְהוּ וכ׳</he> if the law is that they are not bound to support him, then he had to persuade them; but if the law requires them to do it, what necessity was there to persuade them? Ib. 53ᵃ <he>לעַשּׂוּיֵיה נמי</he> is it also permitted to influence him? Ib. <he>מי … עול ועַשְּׂיֵיה עול ולא תְעַשְּׂיֵיה וכ׳</he> did I say to thee, go in and influence him? I said, go, but do not influence him. Ib. <he>היינו עשייה</he> (read: <he>עַשּׂוּיֵיה</he>), v. <cite ref=\"P01468\"><he>עִשּׂוּי</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

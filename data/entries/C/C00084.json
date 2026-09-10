@@ -1,0 +1,33 @@
+{
+	"id": "C00084",
+	"slug": "גביי",
+	"headword": {
+		"text": "גַּבָּיי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּבַּאי"
+		}
+	],
+	"page": {
+		"number": 206,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00073\"><he>גבי</he></cite>) <i>collector</i> of taxes or charities, <i>treasurer, manager</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 65b:3\">Ned. 65ᵇ</cite> when one is reduced to poverty, <he>אינו נופל לידי ג׳ תחלה</he> he does not at once fall into the hands of the public almoner (but is taken care of by his friends). ",
+				"<cite ref=\"Jerusalem Talmud Demai 2:3:7\">Y. Dem. II, 23ᵃ</cite> top; <cite ref=\"Tosefta Demai 3:4\">Tosef. ib. III, 4</cite> <he>חבר שנעשה ג׳</he> if a <i>ḥaber</i> (socius, v. <cite ref=\"H00109\"><he>חָבֵר</he></cite> 3) becomes a collector (publican), he is expelled from the order; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 16:4:4\">Y. Sabb. XVI, end, 15ᵈ</cite>; <cite ref=\"Jerusalem Talmud Yoma 8:5:8\">Y. Yoma VIII, 45ᵇ</cite>; Y. Ned. IV, 38ᶜ <he>הניחו לַגַּ׳ שיגבה וכ׳</he> let the collector collect his debt, i.e. let the divine agency do its mission.—Pl. <he>גַּבָּאִים</he>, <he>גַּבָּאִין</he>. ",
+				"<cite ref=\"Tosefta Bava Metzia 8:26\">Tosef. B. Mets. VIII, 26</cite> <he>הג׳ והמוכסים וכ׳</he> for tax and custom collectors it is difficult to make reparation; <cite ref=\"Bava Kamma 94b\">B. Kam. 94ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Demai 3:17\">Tosef. Dem. III, 17</cite> <he>גַּבָּאֵי צדקה</he> collectors or managers of charity.—",
+				"<cite ref=\"Pirkei Avot 3:16\">Ab. III, 16</cite> <he>הג׳ מחזירים וכ׳</he> the collectors (divine agencies of justice) go around every day; a. fr.—Chald. <he>גַּבּוֹיָיא</he>, pl. <cite ref=\"C00054\"><he>גַּבּוֹיִין</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 4:7\">Targ. Esth. IV, 7</cite> (Bxt. a. oth. <he>גַּבָּאִין</he>). [<cite ref=\"M00108\"><he>גַּבְיָיא</he></cite>, v. <cite ref=\"C00076\"><he>גַּבְיָא</he> I</cite>.]"
+			]
+		}
+	]
+}

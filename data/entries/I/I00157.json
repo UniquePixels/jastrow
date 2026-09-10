@@ -1,0 +1,24 @@
+{
+	"id": "I00157",
+	"slug": "טויא",
+	"headword": {
+		"text": "טָוַיָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 523,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"I00153\"><he>טְוִי</he></cite>) <i>spinning animals, spiders</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 25:8\">Lev. R. s. 25</cite> (expl. <he>בטחות</he>, <cite ref=\"Job 38:36\">Job XXXVIII, 36</cite>) <he>בט׳</he> (Ar. <he>בטיטויא</he>; cmp. LXX Job. l. c.); v., however, <cite ref=\"B00495\"><he>בִּטְוַיָּא</he></cite>."
+			]
+		}
+	]
+}

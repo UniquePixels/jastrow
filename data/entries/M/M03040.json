@@ -1,0 +1,50 @@
+{
+	"id": "M03040",
+	"slug": "מתח-2",
+	"headword": {
+		"text": "מְתַח"
+	},
+	"page": {
+		"number": 861,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M03039\">same</cite> <cite ref=\"Aramaic Targum to Psalms 104:2\">Targ. Ps. CIV, 2</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 64:4\">Ib. LXIV, 4</cite> Ms. (ed. <he>משחו</he>, v. <cite ref=\"M02848\"><he>מְשַׁח</he> II</cite>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 50:4\">Ib. L, 4</cite>; a. e.—Part. pass. <he>מְתִיחַ</he>, <cite ref=\"M01553\"><he>מְתִיחָא</he></cite> (<he>מְתוּ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 7:13\">Ib. VII, 13</cite>; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite>, a. e., v. <cite ref=\"G00739\"><he>זַרְתָּא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַמְתַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M03039\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 107b:14\">B. Mets. 107ᵇ</cite> <he>משום אַמְתּוּחֵי אשליהן</he> for pulling their ropes (to drag boats), v. <cite ref=\"K01382\"><he>כַּתְפָּא</he></cite>. ",
+						"<cite ref=\"Bava Metzia 107b\">Ib.</cite> <he>אי מַמְתְּחֵי וכ׳</he> (v. Rabb. D. S. a. l. note) if they can pull their ropes all along the shore, they will walk there. ",
+						"<cite ref=\"Ketubot 85a\">Keth. 85ᵃ</cite>, v. <cite ref=\"A03316\"><he>אַשְׁלָא</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְמְתַח"],
+			"senses": [
+				{
+					"gloss": "<i>to extend, spread</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 15:29\">Targ. Job XV, 29</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

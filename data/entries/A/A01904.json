@@ -1,0 +1,27 @@
+{
+	"id": "A01904",
+	"slug": "אלם-1",
+	"headword": {
+		"text": "אָלַם"
+	},
+	"page": {
+		"number": 71,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אל</he> , v. <cite ref=\"A01898\"><he>אָלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [to surround]; <i>to connect, tie</i> (cmp. <he>אסר</he>. <cite ref=\"H00156\"><he>חגר</he></cite>); intr. <i>to be tied up, excluded, lonely, mute;</i> v. <cite ref=\"A01906\"><he>אִלֵּם</he></cite>, <cite ref=\"A01914\"><he>אַלְמוֹן</he> II</cite>, <cite ref=\"A01920\"><he>אַלְמָנָה</he></cite>, <cite ref=\"A00674\"><he>אוּלָם</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to grow, be strong</i>, v. <cite ref=\"A01905\"><he>אֲלַם</he></cite>. Cmp. <cite ref=\"A01913\"><he>אַלְמוֹן</he> I</cite>. [Cmp. <he>אֵלֶם</he> <cite ref=\"Psalms 58:2\">Ps. LVIII, 2</cite>; <cite ref=\"Psalms 70\">LXX</cite> ἄρα, a. v. <cite ref=\"A00674\"><he>אוּלָם</he> I</cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

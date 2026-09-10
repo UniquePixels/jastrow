@@ -1,0 +1,39 @@
+{
+	"id": "S01840",
+	"slug": "קצצים",
+	"headword": {
+		"text": "קְצָצִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְצָצִין"
+		}
+	],
+	"page": {
+		"number": 1408,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S01839\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cut plants, timber</i>, &c. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 225:10\">Yalk. Ex. 225</cite>, v. <cite ref=\"S01839\">preced.</cite> ",
+				"<cite ref=\"Tosefta Bava Kamma 3:2\">Tosef. B. Kam. III, 2</cite> if a man cut his neighbor’s plants, the latter has no right to say, <he>טול את הק׳ וכ׳</he> take thou the cut plants and restore to me the plants, but we assess the value &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>capsules, pods</i>, v. <cite ref=\"S01822\"><he>קְצִיצִים</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

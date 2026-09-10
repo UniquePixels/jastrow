@@ -1,0 +1,25 @@
+{
+	"id": "G00270",
+	"slug": "זיבות",
+	"headword": {
+		"text": "זִיבוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָבוּת"
+		}
+	],
+	"page": {
+		"number": 391,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זוב</he>) <i>gonorrhea</i>. ",
+			"units": ["<cite ref=\"Vayikra Rabbah 18:4\">Lev. R. s. 18</cite>."]
+		}
+	]
+}

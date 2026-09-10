@@ -1,0 +1,27 @@
+{
+	"id": "A01490",
+	"slug": "איספרגל",
+	"headword": {
+		"text": "אִיסְפַּרְגַּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אספרלג"
+		}
+	],
+	"page": {
+		"number": 56,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Arab. safar-ḡel) <i>ispargal</i>, name of a fruit (called Persæa, Περσαία), <i>plum;</i> others: <i>quince</i>.—Pl. <he>אִיסְפַּרְגְּלִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:2:11\">Y. Maasr. I, 48ᵈ</cite> bot.; <cite ref=\"Jerusalem Talmud Kilayim 1:4:2\">Y. Kil. I, 27ᵃ</cite>, explain. <he>פרישין</he> = persæa. V. Löw Pfl. pp. 144, 289, a. Sm. Ant. s. v. <i>Persæa</i>"
+			]
+		}
+	]
+}

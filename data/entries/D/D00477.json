@@ -1,0 +1,27 @@
+{
+	"id": "D00477",
+	"slug": "דיבקא",
+	"headword": {
+		"text": "דִּיבְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּבְקָא"
+		}
+	],
+	"page": {
+		"number": 295,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דבק</he>) <i>joining, combination</i>. ",
+			"units": [
+				"<cite ref=\"Meilah 16b\">Meïl. 16ᵇ</cite> <he>האי ד׳ דידך היא</he> Ar. (ed. <cite ref=\"D00533\"><he>דְּיוּקָא</he></cite>) this is merely thy own combination (that Rab’s opinion was delivered in connection with the Mishnah), but Rab himself recited merely a tradition (without reference to that special clause of the Mishnah)."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "F00089",
+	"slug": "ורדינא-2",
+	"headword": {
+		"text": "וַרְדִּינָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "וַרְדַּנְיָא"
+		},
+		{
+			"text": "וַרְדּוּנְיָא"
+		}
+	],
+	"page": {
+		"number": 375,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Vardina</i> (<i>Vardania, Vardunia</i>), a town in Babylonia, near Be-Berai. ",
+			"units": [
+				"<cite ref=\"Sotah 10a:18\">Sot. 10ᵃ</cite> <cite ref=\"F00086\"><he>וַארְדּוּנְיָא</he></cite> ed. (some ed. <he>וַורְדּוּנֵי</he>, Ar. <he>וורדינא</he>). ",
+				"<cite ref=\"Eruvin 49a:11\">Erub. 49ᵃ</cite> <he>אנשי ורדינא</he> (Ms. M. incorr. <cite ref=\"F00090\"><he>ורדינאה</he></cite>, Ms. O. <cite ref=\"F00089\"><he>ורדניא</he></cite>, v. Rabb. D. S. a. l. note; B. Ḥănanel: <cite ref=\"F00085\"><he>וורדאן</he></cite>, v. Berl. Beitr. Geogr. p. 34, note 3) the men of V. (known for their stinginess). V. <cite ref=\"F00085\"><he>וַרְדָּאן</he></cite>."
+			]
+		}
+	]
+}

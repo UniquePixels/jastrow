@@ -1,0 +1,23 @@
+{
+	"id": "P00295",
+	"slug": "עונה-2",
+	"headword": {
+		"text": "עוֹנָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1054,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָנָה</he> II; cmp. <cite ref=\"P00611\"><he>עִינּוּי</he></cite>) <i>trouble, suffering</i>. Sifra B’ḥuck., Par. 2, ch. VIII (play on <he>יען וביען</he>, <cite ref=\"Leviticus 26:43\">Lev. XXVI, 43</cite>) <he>ע׳ של מדבר</he> (<cite ref=\"Yalkut Shimoni on Torah 675:17\">Yalk. Lev. 675</cite> <he>עוֹנוֹת</he>) the privations in the desert; <he>ע׳ של בעל פעור</he> (Yalk. l. c. <he>של פעור</he>) the suffering attendant upon the worship of Baal (<cite ref=\"Numbers 25:3\">Num. XXV, 3</cite>, <cite ref=\"Psalms 106:28\">Ps. CVI, 28</cite>, sq.); <he>ע׳ של מלכי האמורי</he> the suffering from the Emorite kings (<cite ref=\"Judges 2\">Jud. II</cite>, sq.).—Pl. <he>עוֹנוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 17:1\">Lev. R. s. 17</cite> (play on <he>ח̇ר̇צ̇ב̇ות</he>, <cite ref=\"Psalms 73:4\">Ps. LXXIII, 4</cite>, v. <cite ref=\"E00840\"><he>הִרְהֵר</he></cite>) <he>ולא צ̇ב̇יתים בע׳</he> I did not make them swell from sufferings; <cite ref=\"Psalms 73:4\">ib.</cite> <he>אין להם ציבים של ע׳ וכ׳</he> they (the wicked) have no swellings (accumulations) of sufferings with which they die (so as to atone for their sins) &c.; <cite ref=\"Yalkut Shimoni on Nach 808:9\">Yalk. Ps. 808</cite>."
+			]
+		}
+	]
+}

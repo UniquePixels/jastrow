@@ -1,0 +1,34 @@
+{
+	"id": "A01451",
+	"slug": "איסטפלינין",
+	"headword": {
+		"text": "אִיסְטַפְלִינִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְטַפְנִינֵי"
+		},
+		{
+			"text": "אִיסְתַּפְנִינֵי"
+		}
+	],
+	"page": {
+		"number": 55,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (σταφυλῖνος, οι, Syr. <he>אסטפלינין</he> P. Sm. 301, prob. of Semit. orig., rad. <he>טפל</he>) <i>a kind of carrot, parsnip</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 2:4:11\">Y. Maasr. II, end, 50ᵃ</cite> bot. ",
+				"<cite ref=\"Jerusalem Talmud Challah 4:3:3\">Y. Ḥall. IV, 60ᵃ</cite> top <cite ref=\"A01460\"><he>אִיסְתַּ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Challah 4:3:3\">Ib.</cite> <cite ref=\"A01447\"><he>איסטנינותיא</he></cite> read <he>איסטפנינִיתֵיה</he> his parsnip. Y. Kil. I, 27ᵃ bot. <he>אסטפלינון</he> R. Sims. to <cite ref=\"Mishnah Kilayim 1:4\">Kil. I, 4</cite> (ed. corrupt). ",
+				"<cite ref=\"Tosefta Uktsin 1:1\">Tosef. Ukts. I, 1</cite> <he>אסטפונין</he>."
+			]
+		}
+	]
+}

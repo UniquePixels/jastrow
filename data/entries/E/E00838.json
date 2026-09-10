@@ -1,0 +1,44 @@
+{
+	"id": "E00838",
+	"slug": "הרהור",
+	"headword": {
+		"text": "הִרְהוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִירְ׳"
+		}
+	],
+	"page": {
+		"number": 366,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00840\"><he>הִרְהֵר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thought, meditation</i>, opp. <cite ref=\"D00470\"><he>דיבור</he></cite> loud recitation. ",
+			"units": [
+				"<cite ref=\"Berakhot 20b:17\">Ber. 20ᵇ</cite> <he>ה׳ כדיבור דמי</he> reviewing in mind (a Biblical passage &c.) is as good as loud recitation. ",
+				"<cite ref=\"Shabbat 150a:6\">Sabb. 150ᵃ</cite> (ref. to <cite ref=\"Isaiah 58:13\">Is. LVIII, 13</cite>) <he>דיבור אסור ה׳ וכ׳</he> talking (business on the Sabbath) is forbidden, thinking (planning) is permitted."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>heated imagination</i>, esp. <i>impure fancies</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 12b:3\">Ber. 12ᵇ</cite> <he>ה׳ עבירה</he> unchaste imagination, <he>ה׳ ע״ז</he> idolatrous fancy. ",
+				"<cite ref=\"Niddah 13b:12\">Nidd. 13ᵇ</cite> <he>המביא עצמו לידי ה׳</he> who allows sinful fancies to take a hold of him. ",
+				"<cite ref=\"Mishnah Zavim 2:2\">Zab. II, 2</cite>; a. fr.—Pl. <he>הִרְהוּרִים</he>. ",
+				"<cite ref=\"Yoma 29a:1\">Yoma 29ᵃ</cite> top <he>הִרְהוּרֵי עבירה וכ׳</he> sinful (obscene) imaginations are more injurious to health than the sin itself. ",
+				"<cite ref=\"Esther Rabbah 7:1\">Esth. R. to III, 1</cite> (play on aḥar) <he>הרהורי דברים היו שם</he> plans (schemes) were there."
+			],
+			"label": "2"
+		}
+	]
+}

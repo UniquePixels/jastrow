@@ -1,0 +1,22 @@
+{
+	"id": "B00169",
+	"slug": "בהותא",
+	"headword": {
+		"text": "בָּהוּתָא"
+	},
+	"page": {
+		"number": 142,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00170\"><he>בהי</he></cite>) <i>confusion</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 26:21\">Targ. Prov. XXVI, 21</cite> ed. Wil. (Ms. <cite ref=\"B00169\"><he>בְּהַוְתָא</he></cite>; oth. ed. <cite ref=\"K00155\"><he>כהותא</he></cite>)."
+			]
+		}
+	]
+}

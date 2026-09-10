@@ -1,0 +1,79 @@
+{
+	"id": "N00848",
+	"slug": "נכש-1",
+	"headword": {
+		"text": "נָכַשׁ"
+	},
+	"page": {
+		"number": 912,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>כשכש</he>, <cite ref=\"S02257\"><he>קשקש</he></cite>) <i>to come in near contact</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיכֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"M01365\"><he>מַכּוֹשׁ</he> I</cite>) <i>to weed; to lop</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kilayim 2:5\">Kil. II, 5</cite> <he>אין מחייבין אותו לנַכֵּשׁ</he> the law does not bind him to pluck out (the plants which grow among the fenugrec). ",
+						"<cite ref=\"Mishnah Kilayim 2:5\">Ib.</cite> <he>ואם נִכֵּשׁ</he> (Y. ed. <he>ני׳</he>) but if he did &c. Tosef. ib. I, 15 <he>והמְנַכֵּשׁ</he> and he who does the weeding (in a field of mixed seeds); <cite ref=\"Moed Katan 2b\">M. Kat. 2ᵇ</cite>; a. fr. [<cite ref=\"Bava Batra 54a\">B. Bath. 54ᵃ</cite> Ms. R., v. <cite ref=\"M01365\"><he>מַכּוֹשׁ</he> I</cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִכִּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to strike, wound, sting</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 30b\">B. Mets. 30ᵇ</cite>; <cite ref=\"Bava Batra 88a\">B. Bath. 88ᵃ</cite> <he>הִבִּישָׁהּ</he> if he struck the lost beast which he took in charge. ",
+						"<cite ref=\"Bereishit Rabbah 30\">Gen. R. s. 30</cite>, beg. <he>הִכִּישׁוֹ ארי וכ׳</he> a lion struck and crippled him. ",
+						"<cite ref=\"Bava Metzia 78a\">B. Mets. 78ᵃ</cite> <he>הִכִּישָׁהּ נחש</he> a serpent bit her."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause injury by contact</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 23b:9\">B. Kam. 23ᵇ</cite> <he>מַכִּישׁ</he> (Ms. H. <cite ref=\"M02878\"><he>משיך</he></cite>) he who caused a neighbor’s death by bringing the serpent’s tooth in contact with his neighbor’s body; <cite ref=\"Sanhedrin 78a\">Snh. 78ᵃ</cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 944:8\">Yalk. Deut. 944</cite> <he>שמַכִּישִׁין</he>, v. <cite ref=\"S00436\"><he>קונטרינים</he></cite>; <cite ref=\"Sifrei Devarim 317:5\">Sifré Deut. 317</cite> <he>שמכינים</he> (corr. acc.)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"M01365\"><he>מַכּוֹשׁ</he> I</cite>) <i>to insert the hoe</i> or <i>spade</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 54a\">B. Bath. 54ᵃ</cite>, v. <cite ref=\"M01365\"><he>מַכּוֹשׁ</he> I</cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְנַכֵּשׁ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִכּוֹשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be hoed for</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> <he>הקוצים … לא מִתְנַכְּשִׁין ולא נזרעין וכ׳</he> for thorns there is neither hoeing (digging over) nor sowing, but they grow of themselves, while wheat &c.; <cite ref=\"Yalkut Shimoni on Torah 79:3\">Yalk. ib. 79</cite> <he>לא נִכּוֹשִׁין ולא נחרשים וכ׳</he> neither digging, nor ploughing, nor sowing &c."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

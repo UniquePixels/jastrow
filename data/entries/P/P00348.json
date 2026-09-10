@@ -1,0 +1,33 @@
+{
+	"id": "P00348",
+	"slug": "עור-7",
+	"headword": {
+		"text": "עַוֵּר"
+	},
+	"page": {
+		"number": 1058,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00347\">same</cite> <cite ref=\"Targum Jonathan on II Kings 25:7\">Targ. II Kings XXV, 7</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 23:8\">Targ. O. Ex. XXIII, 8</cite> <cite ref=\"M02078\"><he>מְעַוֵּר</he></cite> (ed. Berl. <he>מְעַוַר</he>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעַוֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to get blind</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 77b:9\">Sabb. 77ᵇ</cite> <he>מִתְעַוְּרָא</he> would get blind."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

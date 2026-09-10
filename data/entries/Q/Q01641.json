@@ -1,0 +1,22 @@
+{
+	"id": "Q01641",
+	"slug": "פרוז",
+	"headword": {
+		"text": "פָּרוּז"
+	},
+	"page": {
+		"number": 1218,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01744\"><he>פָּרז</he></cite>) = b. h. <he>פְּרָזִי</he>, <i>one residing in an open place</i>, opp. <cite ref=\"M00595\"><he>מוקף</he></cite>. ",
+			"units": [
+				"<cite ref=\"Megillah 19a:7\">Meg. 19ᵃ</cite> <he>פ׳ בן יומו קרוי פ׳</he> one living in an open place for that one day (Purim) is called a <i>paruz</i> (bound to celebrate the fourteenth day of Adar, <cite ref=\"Esther 9:19\">Esth. IX, 19</cite>); Y. ib. II, 73ᵇ top <he>פ׳ הוא באותה שעה</he> (not <cite ref=\"E00230\"><he>היה</he></cite>) he is a <i>paruz</i> for the time being."
+			]
+		}
+	]
+}

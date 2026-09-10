@@ -1,0 +1,91 @@
+{
+	"id": "O00211",
+	"slug": "סהד-2",
+	"headword": {
+		"text": "סְהֵד"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְהֵיד"
+		}
+	],
+	"page": {
+		"number": 959,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"P00198\"><he>עוּד</he></cite>, a. <cite ref=\"F00015\"><he>וָדָה</he></cite>; Sam. <he>סעד</he>, <he>סהד</he>, v. Sam. Pent. ",
+			"units": [
+				"<cite ref=\"Genesis 31:52\">Gen. XXXI, 52</cite>; cmp. also <he>סעד</he> = <cite ref=\"P00111\"><he>עַד</he></cite> <cite ref=\"Genesis 7:16\">ib. VII, 16</cite>; for interch. of <cite ref=\"P00000\"><he>ע</he></cite> a. <cite ref=\"F00000\"><he>ו</he></cite> a. <cite ref=\"E00000\"><he>ה</he></cite>, v. letters <cite ref=\"E00000\"><he>ה</he></cite> a. <cite ref=\"F00000\"><he>ו</he></cite>) <i>to be sure, be present; to witness</i>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְהֵיד", "אַסְהֵד"],
+			"senses": [
+				{
+					"gloss": " (corresp. to b. h. <cite ref=\"P00198\"><he>הֵעִיד</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to testify</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 20:13\">Targ. O. Ex. XX, 13</cite>; a. fr.—",
+						"<cite ref=\"Ketubot 21a:4\">Keth. 21ᵃ</cite> <he>א׳ אחתימות</he> v. <cite ref=\"H01889\"><he>חֲתִימוּתָא</he></cite>. ",
+						"<cite ref=\"Ketubot 21a:7\">Ib.</cite> <he>לא צריך איהו לאַסְהוּדֵי וכ׳</he> he would not need to identify his own signature; <he>ואזל איהו והאי ומַסְהֲדֵי וכ׳</he> (or <he>ומְסַהֲדֵי</he> <i>Pa.</i>) and thus he and the other man might identify the signature of that man (the deceased); a. v. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to call to witness; to give warning</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 4:26\">Targ. Deut. IV, 26</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 81:9\">Targ. Ps. LXXXI, 9</cite>. ",
+						"<cite ref=\"Targum of II Chronicles 33:10\">Targ. II Chr. XXXIII, 10</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["סַהֵד", "שַׂהֵד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00210\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to testify</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 20:13\">Targ. Y. Ex. XX, 13</cite>; a. e.—",
+						"<cite ref=\"Ketubot 21a:4\">Keth. 21ᵃ</cite> <he>מְסַהֲדֵי</he>, v. supra. Y. Snh. I, 18ᵇ top <he>איתא שַׂהַד עלי</he> come, testify in my behalf. Y. Shebu. VI, end, 37ᵇ <he>כאינש … דלא יְשַׂהֲדוּן</he> like one that ties up the mouth of witnesses that they may not testify; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to warn</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 43:3\">Targ. Y. Gen. XLIII, 3</cite> <he>מְסַהֲדָא אַסְהֵיד</he>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתַּסְהַד"],
+			"senses": [
+				{
+					"gloss": "<i>warning has been given</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 21:29\">Targ. Ex. XXI, 29</cite>."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

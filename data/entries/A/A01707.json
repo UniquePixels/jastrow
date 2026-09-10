@@ -1,0 +1,24 @@
+{
+	"id": "A01707",
+	"slug": "אכלושי",
+	"headword": {
+		"text": "אָכְלוֹשֵׂי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 64,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <he>אוֹכְלוֹסָא</he>) <i>public laborers, working men</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 77a:5\">B. Mets. 77ᵃ</cite>; v., however, <cite ref=\"A00165\"><he>אַבְלוֹשֵׁי</he></cite>."
+			]
+		}
+	]
+}

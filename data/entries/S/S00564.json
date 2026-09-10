@@ -1,0 +1,24 @@
+{
+	"id": "S00564",
+	"slug": "קורא-4",
+	"headword": {
+		"text": "קוֹרָא",
+		"homograph": 4
+	},
+	"page": {
+		"number": 1341,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S00587\"><he>קוֹרָה</he></cite>, <i>beam</i>. ",
+			"units": [
+				"<cite ref=\"Tamid 30a:1\">Tam. 30ᵃ</cite> <he>ק׳ עבדא וכ׳</he> it will produce a (trunk fit for a) beam, but no fruits.—",
+				"<cite ref=\"Mishnah Kelim 11:2\">Kel. XI, 2</cite>, v. <cite ref=\"S00586\"><he>קוֹרָה</he> III</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "O00094",
+	"slug": "סברותא",
+	"headword": {
+		"text": "סַבָּרוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְבַרְתָּא"
+		},
+		{
+			"text": "סִיבַּרְ׳"
+		}
+	],
+	"page": {
+		"number": 953,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"O00090\"><he>סִבְרָא</he></cite>, <i>hope</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 9:11\">Targ. Ps. IX, 11</cite> <he>סַבָּרוּתָךְ</he> (Ms. <cite ref=\"O00077\"><he>סוֹבָ׳</he></cite>) the hope placed in thee. ",
+				"<cite ref=\"Aramaic Targum to Job 11:20\">Targ. Job XI, 20</cite> <he>סְבַרְתְּהוֹן</he> ed. Wil. (ed. Lag. <cite ref=\"O00094\"><he>סיבר׳</he></cite>); a. e."
+			]
+		}
+	]
+}

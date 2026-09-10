@@ -1,0 +1,29 @@
+{
+	"id": "V00400",
+	"slug": "תיאבון",
+	"headword": {
+		"text": "תֵּיאָבוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "תֵּאָ׳"
+		}
+	],
+	"page": {
+		"number": 1663,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00004\"><he>תָּאַב</he></cite>) <i>desire, appetite</i>; <he>לת׳</he> <i>to satisfy the appetite</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 84a:18-19\">Ḥull. 84ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 14:26\">Deut. XIV, 26</cite>, <cite ref=\"V00015\"><he>תאוה</he></cite>) <he>למדה … אלא לת׳</he> the Torah here teaches a sanitary rule, that man should not eat meat unless he has special appetite for it; <cite ref=\"Tosefta Arakhin 4:26\">Tosef. Arakh. IV, 26</cite>. ",
+				"<cite ref=\"Pesachim 120a:1\">Pes. 120ᵃ</cite> (in Chald. dict.) <he>דקאכיל לת׳</he> when he eats with appetite (when he begins the meal); a. e.—Esp. (with ref. to forbidden food) <he>לת׳</he> on account of an irresistible appetite, opp. <he>להכעיס</he>, v. <cite ref=\"M00525\"><he>מוּמָר</he></cite>. ",
+				"<cite ref=\"Sanhedrin 27a:8\">Snh. 27ᵃ</cite> <he>מומר … לת׳</he> a non-conformist who eats unslaughtered meat merely to satisfy his appetite (because it is cheaper than the slaughtered, Rashi); a. fr."
+			]
+		}
+	]
+}

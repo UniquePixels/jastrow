@@ -1,0 +1,23 @@
+{
+	"id": "O00712",
+	"slug": "סימנא",
+	"headword": {
+		"text": "סִימָנָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 982,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"O00684\"><he>סִימָא</he> II</cite>, <i>treasure</i>.—Pl. <he>סִימָנַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:19\">Targ. Y. I Deut. XXXIII, 19</cite>, v. <cite ref=\"O00684\"><he>סִימָא</he> II</cite>."
+			]
+		}
+	]
+}

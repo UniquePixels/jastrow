@@ -1,0 +1,32 @@
+{
+	"id": "D00166",
+	"slug": "דואג",
+	"headword": {
+		"text": "דּוֹאֵג"
+	},
+	"page": {
+		"number": 282,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.(b. h. <cite ref=\"D00009\"><he>דֹּאֵג</he></cite>)<i>Doeg</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the servant of Saul. ",
+			"units": ["<cite ref=\"Sanhedrin 106b:21\">Snh. 106ᵇ</cite>; a. e."],
+			"label": "1"
+		},
+		{
+			"gloss": " one D. ben Joseph. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite>; Sifra <cite ref=\"Leviticus 6\">B’ḥuck. ch. VI</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

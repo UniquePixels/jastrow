@@ -1,0 +1,21 @@
+{
+	"id": "A01123",
+	"slug": "איבול-1",
+	"headword": {
+		"text": "אִיבּוּל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 44,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00153\"><he>אבל</he></cite>) <i>mourning;</i> v. <cite ref=\"A00133\"><he>אֲבֵילוּת</he></cite>. ",
+			"units": ["<cite ref=\"Mishnah Yevamot 4:10\">Yeb. IV, 10</cite>; a. e."]
+		}
+	]
+}

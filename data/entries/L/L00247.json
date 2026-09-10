@@ -1,0 +1,113 @@
+{
+	"id": "L00247",
+	"slug": "לוי-1",
+	"headword": {
+		"text": "לוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לָוָה"
+		}
+	],
+	"page": {
+		"number": 697,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to join, be connected</i>, v. <i>Piel</i>, a. <cite ref=\"L00256\"><he>לְוָיָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Sm. Ant. s. v. Nexum) <i>to assume an obligation; to borrow</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 41b\">Shebu. 41ᵇ</cite>; <cite ref=\"Ketubot 88a:10\">Keth. 88ᵃ</cite>; <cite ref=\"Bava Batra 6a:6\">B. Bath. 6ᵃ</cite> <he>האומר לא לָוִיתִי וכ׳</he> he who (being sued for a loan duly testified by witnesses) says, ‘I have not contracted any loan’, is considered as admitting that he has not paid. ",
+				"<cite ref=\"Chullin 84a:22\">Ḥull. 84ᵃ</cite> <he>כגון אנו לווִֹין אוכלין</he> (delicate persons) like ourselves may buy food on credit. ",
+				"<cite ref=\"Bava Metzia 72b:15\">B. Mets. 72ᵇ</cite> <he>אין לווִֹין על שער וכ׳</he> (also <he>לוִֹין</he>) you must not borrow money with the choice of repaying in grain at the present price; (another defin., v. Rashi a. l.). ",
+				"<cite ref=\"Beitzah 15b:18\">Bets. 15ᵇ</cite> <he>לְווּ עלי</he> make a loan on my (the Lord’s) account; a. v. fr.—Esp. <cite ref=\"L00247\"><he>לווֶֹה</he></cite>, <he>לוֶֹה</he> <i>debtor</i>, opp. to <cite ref=\"M01499\"><he>מַלְוֶה</he></cite> creditor. ",
+				"<cite ref=\"Shevuot 47a:7\">Shebu. 47ᵃ</cite> <he>מת ל׳ בחיי מ׳</he> if the debtor died before the creditor; a. fr.—Pl. <he>לווִֹין</he>. ",
+				"<cite ref=\"Shevuot 47b:11\">Ib.ᵇ</cite> <he>שני מלווין ושני ל׳</he> two (different) creditors and two debtors."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִוָּה", "לִוָּוה"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"L00031\"><he>לִי׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to order an escort for protection</i>, v. <cite ref=\"L00256\"><he>לְוָיָה</he></cite>. Tanḥ. Bal. 12; <cite ref=\"Bamidbar Rabbah 20:23\">Num. R. s. 20</cite> <he>ל׳ להם ענני וכ׳</he> He appointed the clouds of glory to escort them. ",
+					"units": [
+						"<cite ref=\"Sotah 46b:14\">Sot. 46ᵇ</cite> <he>בשביל … של׳ פרעה וכ׳</he> for the sake of the four steps which Pharaoh ordered his men to escort Abraham &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to escort, to walk a distance with a departing guest; to follow</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 119b:5\">Sabb. 119ᵇ</cite> <he>שני מה״ש מְלַוִּין לו וכ׳</he> two ministering angels escort man to his house on the Sabbath eve. Sot. l. c. <he>כל שאינו מְלַוֶּה ומִתְלַוֶּה וכ׳</he> whoever omits to escort a guest or (as a guest) declines an escort, is regarded as if he had shed blood; <he>שאילמלא לִיוּוּהוּ וכ׳</he> for if the men of Jericho had escorted Elisha &c. ",
+						"<cite ref=\"Kohelet Rabbah 5:17:1\">Koh. R. to V, 17</cite> <he>ומה מְלַוֵּהוּ וכ׳</he> and what does escort him (to the grave)? Merits and good deeds; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְלַוֶּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְלַוֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to join the company of, to associate</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 104\">Midr. Till. to Ps. CIV, 26</cite> (play on <cite ref=\"L00262\"><he>לויתן</he></cite>, <cite ref=\"Midrash Tehillim 104\">ib.</cite>) <he>כל מי שמִתְלַוֶּה עמהן עתיד להיעשות וכ׳</he> whosoever joins them (the Romans) will be made sport of with them in future days. ",
+						"<cite ref=\"Midrash Tehillim 104\">Ib.</cite> <he>כל מי שמתלוה עמהן עתיד הקב״ה וכ׳</he> him who joins them (the scholars), the Lord will cause to rejoice with them &c.; <cite ref=\"Yalkut Shimoni on Nach 862:26\">Yalk. ib. 862</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 63:14\">Gen. R. s. 63</cite>, end; <cite ref=\"Yalkut Shimoni on Torah 111:4\">Yalk. ib. 111</cite> <he>שנתלוה עמו קלונו וכ׳</he> the disgrace of starvation was made his companion. Tanḥ. Vayishl. 3 <he>להִתְלַוּוֹת לו</he> to be his escort; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be escorted, to accept escort</i>. Sot. l. c., v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הִלְוָה"],
+			"senses": [
+				{
+					"gloss": "<i>to escort</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 18a:12\">Ber. 18ᵃ</cite> <he>ואם הִלְוָהוּ</he> if he does escort him (the dead)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lend</i>. EX. R. s. 31 <he>מַלְוֶה ברבית</he> lends on interest; <he>מ׳ שלא ברבית</he> without interest. Ib. <he>שלא יַלְווּ וכ׳</he> that they must not lend &c. Ib. <he>ראו כמה הִלְוֵיתִי ואיני … ומה הִלְוְותָה הארץ וכ׳</he> see how much I lend (to man,) without taking interest, and what the earth lends &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 5:1\">B. Mets. V, 1</cite> <he>המלוה סלע בחמשה וכ׳</he> he who lends a Sela to get five Denars in return. ",
+						"<cite ref=\"Bava Metzia 62b:9\">Ib. 62ᵇ</cite> <he>הַלְוֵינִי מנה</he> lend me a Maneh.—",
+						"<cite ref=\"Bava Kamma 94b\">B. Kam. 94ᵇ</cite> <he>מַלְיֵי רבית</he> (a. <he>ברבית</he>) those who lend on interest; <cite ref=\"Bava Metzia 62a\">B. Mets. 62ᵃ</cite>; a. fr.—מַלְוֶה <i>creditor</i>, v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

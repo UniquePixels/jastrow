@@ -1,0 +1,29 @@
+{
+	"id": "V00165",
+	"slug": "תוהו-1",
+	"headword": {
+		"text": "תּוֹהוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "תֹּהוּ"
+		}
+	],
+	"page": {
+		"number": 1651,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"V00116\"><he>תָּהָה</he></cite>)<i>waste, desolation; vanity, idleness</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 97a:14\">Snh. 97ᵃ</cite> <he>שני אלפים ת׳ וכ׳</he> two thousand years the world was waste &c. ",
+				"<cite ref=\"Sanhedrin 26b:8\">Ib. 26ᵇ</cite>, v. <cite ref=\"U02141\"><he>שָׁתַת</he> II</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 2:5\">Gen. R. s. 2</cite> (ref. to <cite ref=\"Genesis 1:2\">Gen. I, 2</cite>) <he>זה קין … לת׳ ובהו</he> this refers to Cain who wanted to reduce the world to waste and desolation; a. fr."
+			]
+		}
+	]
+}

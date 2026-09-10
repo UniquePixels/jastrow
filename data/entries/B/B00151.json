@@ -1,0 +1,32 @@
+{
+	"id": "B00151",
+	"slug": "בדל-2",
+	"headword": {
+		"text": "בְּדַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּדֵיל"
+		}
+	],
+	"page": {
+		"number": 140,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  as h. Kal. (neut.) <cite ref=\"Chullin 116b:5\">Ḥull. 116ᵇ</cite> <he>וכ׳ בדלינן</he> we abstain from them. ",
+			"units": [
+				"<cite ref=\"Chullin 116b:5\">Ib.</cite> <he>לא בדילי וכ׳</he> do not abstain; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (as <cite ref=\"B00150\">foreg.</cite> Hif. 2) <i>to say Habdalah</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 40b:14\">Erub. 40ᵇ</cite> <he>מי בדלת</he> hast thou said Habd.? … <he>אין בדילנא</he> yes, I have &c."
+			],
+			"label": "2"
+		}
+	]
+}

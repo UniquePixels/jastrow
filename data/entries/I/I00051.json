@@ -1,0 +1,25 @@
+{
+	"id": "I00051",
+	"slug": "טביומי",
+	"headword": {
+		"text": "טַבְיוֹמִי"
+	},
+	"page": {
+		"number": 516,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Tabyomi</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 97a:6\">Snh. 97ᵃ</cite> <he>רב טבות … וא״ל רב ט׳</he> his name was R. Tabuth, some say, R. Tabyomi. ",
+				"<cite ref=\"Kiddushin 14b:12\">Kidd. 14ᵇ</cite>. ",
+				"<cite ref=\"Menachot 70a:14\">Men. 70ᵃ</cite> <he>ט׳ בר קיסנא</he> (Ms. M. <cite ref=\"I00113\"><he>טובי</he></cite>, v. Rabb. D. S. a. l. note).—",
+				"<cite ref=\"Bereishit Rabbah 4:6\">Gen. R. s. 4</cite>. Ex. R. s. 93, end."
+			]
+		}
+	]
+}

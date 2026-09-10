@@ -1,0 +1,24 @@
+{
+	"id": "S00753",
+	"slug": "קטינא-2",
+	"headword": {
+		"text": "קַטִּינָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḳaṭṭina</i>, name of an Amora. ",
+			"units": [
+				"<cite ref=\"Berakhot 59a:6\">Ber. 59ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 79a:12\">B. Mets. 79ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

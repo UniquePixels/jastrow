@@ -1,0 +1,27 @@
+{
+	"id": "L00402",
+	"slug": "ליא-2",
+	"headword": {
+		"text": "לַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לַיָּיא"
+		}
+	],
+	"page": {
+		"number": 705,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Laya</i>, abbrev. of <i>Ilai, Hilai</i> (v. Fr. M’bo, p. 75ᵇ). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:7\">Y. Ber. II, 5ᶜ</cite>. Ib. III, 6ᵈ top; a. fr."
+			]
+		}
+	]
+}

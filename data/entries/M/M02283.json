@@ -1,0 +1,30 @@
+{
+	"id": "M02283",
+	"slug": "מצודתא",
+	"headword": {
+		"text": "מְצוּדְתָּא"
+	},
+	"page": {
+		"number": 823,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"M02281\"><he>מְצוּדָה</he></cite><i>net, trap</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:6:4\">Y. Kil. I, 27ᵃ</cite> bot. <he>הכא פרס כהנא מְצוּדְתֵּיה וכ׳</he> herewith Kahăna laid his net for Resh Lakish and caught him; <cite ref=\"Bereishit Rabbah 7\">Gen. R. s. 7</cite>, end (some ed. <he>מְצַדְתֵּיה</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stronghold.—</i>Pl. <cite ref=\"M02283\"><he>מְצוּדָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:2\">Targ. Jud. VI, 2</cite> (ed. Lag. <he>מְצָדָאתָא</he>). V. <cite ref=\"M02270\"><he>מְצַדְתָּא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

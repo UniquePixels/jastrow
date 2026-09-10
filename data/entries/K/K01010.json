@@ -1,0 +1,23 @@
+{
+	"id": "K01010",
+	"slug": "כפייה",
+	"headword": {
+		"text": "כְּפִיָיה"
+	},
+	"page": {
+		"number": 658,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01007\"><he>כָּפָה</he></cite>) <i>inverting</i>, <he>כְּפִיַית המטה</he> the lowering of the couch in mourning. ",
+			"units": [
+				"<cite ref=\"Moed Katan 15a:25\">M. Kat. 15ᵃ</cite> bot. <he>אבל חייב בכ׳ המ׳</he> a mourner is bound to have his couch lowered. ",
+				"<cite ref=\"Tosefta Moed Kattan 2:9\">Tosef. ib. II, 9</cite> <he>מי שקיים כ׳ המ׳ וכ׳</he> he who has been observing the lowering of the couch for three days &c., needs not invert it &c. Y. ib. III, 83ᵃ; a. fr."
+			]
+		}
+	]
+}

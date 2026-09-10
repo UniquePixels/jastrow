@@ -1,0 +1,28 @@
+{
+	"id": "S01611",
+	"slug": "קנקל-2",
+	"headword": {
+		"text": "קַנְקַל"
+	},
+	"page": {
+		"number": 1394,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01610\">same</cite><i>grating, network</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 27:4\">Targ. Y. I Ex. XXVII, 4</cite>; (Y. II <he>קלקל</he>; h. text <cite ref=\"M01348\"><he>מכבר</he></cite>). Ib. 5; a. e.—Pl. <he>קַנְקַלֵּי</he>. Ib. XXXVIII, 30 (with sing. meaning)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>קַנְקְלִין</he>, <he>קַנְקְלַיָּא</he>, <cite ref=\"S00089\"><he>קִי׳</he></cite> <i>lattice-work, bars, enclosures</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:50\">Lam. R. to I, 5</cite> <he>יהבוניה לגיו … ק׳</he> they put him within the seven bars (showed him royal honors). Pesik. B’shall. p. 86ᵇ <he>כאילין קינקילייא</he> the piles of water in the Red Sea between which the Israelites passed were like those latticed bars; <cite ref=\"Yalkut Shimoni on Nach 152:2\">Yalk. Sam. 152</cite> <he>קנקיליא</he>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:5:5\">Y. Shebi. II, 34ᵃ</cite> (expl. <cite ref=\"V01017\"><he>תִּרְמֵל</he></cite>) <he>עבדון קנקולין</he> (corr. acc.) when the bean plants begin to form gratings (the stalks being closely interwoven; cmp. <cite ref=\"S01344\"><he>קְלִיעָה</he></cite> a. <cite ref=\"P00035\"><he>עָבוֹת</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "N00441",
+	"slug": "נזייתא",
+	"headword": {
+		"text": "נִזְיָיתָא"
+	},
+	"page": {
+		"number": 891,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (cmp. <cite ref=\"G00217\"><he>זוּעַ</he></cite>, a. <cite ref=\"G00431\"><he>זֵיתָא</he> I</cite>, II) <i>beer in the process of brewing, brewage</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 31b\">Ab. Zar. 31ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 20a:10\">Pes. 20ᵃ</cite> <he>וסימנך נ׳</he> and the mnemonical word (for remembering the order of the objects named) is the brewing process (‘vessel’, ‘eatable’ (dates), ‘liquid’). ",
+				"<cite ref=\"Pesachim 113a\">Ib. 113ᵃ</cite> <he>לבי נ׳ רהוט</he> Ar. a. Ms. M. 2 (ed. <cite ref=\"O00261\"><he>סודנא</he></cite>) run to the brewery, v. <cite ref=\"H00992\"><he>חֲלוּז</he></cite>. ",
+				"<cite ref=\"Sukkah 20b:5\">Succ. 20ᵇ</cite> <he>חזו לנִזְיָאתָא</he> they (the mats) are fit for covering up the brewing vat. ",
+				"<cite ref=\"Ketubot 6a\">Keth. 6ᵃ</cite>, a. e., v. <cite ref=\"M01870\"><he>מְסוֹכְרָיָא</he></cite>. ",
+				"<cite ref=\"Bava Kamma 35a:5\">B. Kam. 35ᵃ</cite> <he>פתקיה</he> (<he>פסקיה</he>) <he>לנ׳ וכ׳</he> (= <he>לבי נ׳</he>) he burst the vat open and drank the beer, and was cured."
+			]
+		}
+	]
+}

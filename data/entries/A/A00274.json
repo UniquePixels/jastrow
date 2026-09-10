@@ -1,0 +1,23 @@
+{
+	"id": "A00274",
+	"slug": "אגוסטלי",
+	"headword": {
+		"text": "אָגוּסְטָלִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 12,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Augustalis). <i>Præfectus Augustalis</i>, title of the prefect of Egypt. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1\">Gen. R. s. 1</cite>. ed. (Var. <cite ref=\"A00270\"><he>אגוסטולי</he></cite>, Ar. <cite ref=\"A00273\"><he>אגוסטלא</he></cite>)."
+			]
+		}
+	]
+}

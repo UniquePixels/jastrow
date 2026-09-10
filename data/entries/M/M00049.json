@@ -1,0 +1,37 @@
+{
+	"id": "M00049",
+	"slug": "מאס-1",
+	"headword": {
+		"text": "מָאַס"
+	},
+	"page": {
+		"number": 723,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>מסס</he>) [<i>to melt, faint</i>,] (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to be tired of, loathe;</i> (with accus.) <i>to cast away, reject</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 8a:4\">Ber. 8ᵃ</cite> <he>אין הקב״ה מוֹאֵס בתפלתו וכ׳</he> the Lord never tires of the prayer of assemblies. Sifra <cite ref=\"Leviticus 3\">B’ḥuck. ch. III</cite>, Par. 2 <he>מואס באחרים</he> despises others (for being his betters); (<cite ref=\"Leviticus 3\">ib.</cite> <he>מואס אחרים</he>, corr. acc.). Tanḥ. ",
+				"<cite ref=\"Exodus 11\">Mishp. 11</cite> <he>כבר מָאֲסָן וכ׳</he> their god has rejected them; <cite ref=\"Shemot Rabbah 31:10\">Ex. R. s. 31</cite>. ",
+				"<cite ref=\"Shemot Rabbah 31:10\">Ib.</cite> <he>אמת שמָאַסְתָּ וכ׳</he> is it true that thou hast rejected thy son?; a. fr.—Part. pass. <cite ref=\"M00013\"><he>מָאוּס</he></cite>, f. <cite ref=\"M00014\"><he>מְאוּסָה</he></cite>; pl. <he>מְאוּסִים</he>, <he>מְאוּסִין</he>; <he>מְאוּסוֹת</he>. ",
+				"<cite ref=\"Midrash Tehillim 75:4\">Midr. Till. to Ps. LXXV, 9</cite> (play on <he>כמס</he>, <cite ref=\"Deuteronomy 32:34\">Deut. XXXII, 34</cite>) <he>כמוס למאוסים</he> reserved for the rejected (nations; differ. in <cite ref=\"Sifrei Devarim 324\">Sifré Deut. 324</cite>). ",
+				"<cite ref=\"Tractate Derekh Eretz Rabbah 2\">Der. Er. ch. II</cite> <he>המ׳ בעיניהם</he> those who are despised in their own eyes (think little of themselves); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְאָס"],
+			"senses": [
+				{
+					"gloss": "<i>to be repulsive, loathsome; to be rejected</i>. Sifra B’ḥuck. Par. 2, ch. VIII (ref. to <cite ref=\"Leviticus 26:44\">Lev. XXVI, 44</cite>) <he>וכי … שלא נִמְאֲסוּ ושלא נגעלו</he> what has been left to them so that (it might be said) they were not cast away and loathed?; <cite ref=\"Yalkut Shimoni on Torah 675:17\">Yalk. Lev. 675</cite> (corr. acc.). ",
+					"units": [
+						"<cite ref=\"Chagigah 5a\">Ḥag. 5ᵃ</cite> <he>ונ׳</he> and becomes loathsome (creates aversion to his neighbor).—V. <cite ref=\"M01078\"><he>מִיאוּס</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

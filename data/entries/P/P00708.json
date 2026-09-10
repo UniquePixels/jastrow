@@ -1,0 +1,28 @@
+{
+	"id": "P00708",
+	"slug": "עיתא-1",
+	"headword": {
+		"text": "עִיתָּא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיתָּה"
+		}
+	],
+	"page": {
+		"number": 1077,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P01522\"><he>עֵת</he></cite>, <i>time</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 47\">Gen. R. s. 47</cite>, end <he>בההיא ע׳</he> on that occasion; (Yalk. ib. 82 <he>עונת</he>, read: <cite ref=\"P00309\"><he>עוֹנְתָא</he></cite>).—V. <cite ref=\"P01021\"><he>עַנְתָא</he></cite>."
+			]
+		}
+	]
+}

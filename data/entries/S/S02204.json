@@ -1,0 +1,30 @@
+{
+	"id": "S02204",
+	"slug": "קרתא-2",
+	"headword": {
+		"text": "קָרְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֹרָ׳"
+		},
+		{
+			"text": "קָרְתָּא"
+		}
+	],
+	"page": {
+		"number": 1428,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S02194\"><he>קְרַר</he></cite>) <i>cold</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:20\">Targ. Prov. XXV, 20</cite> (ed. Lag. <he>קור׳</he>)."
+			]
+		}
+	]
+}

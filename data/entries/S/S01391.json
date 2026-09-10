@@ -1,0 +1,50 @@
+{
+	"id": "S01391",
+	"slug": "קלע-2",
+	"headword": {
+		"text": "קְלַע"
+	},
+	"page": {
+		"number": 1380,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַקְלַע</he> <cite ref=\"S01390\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 17:49\">Targ. I Sam. XVII, 49</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 10:19\">Targ. Y. Ex. X, 19</cite> <he>אקלע</he> Ar. (ed. <cite ref=\"I00525\"><he>טלק</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיקְּלַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be thrown; to happen to come, happen to fall</i> (<i>on a certain day</i>). ",
+					"units": [
+						"<cite ref=\"Chullin 110a\">Ḥull. 110ᵃ</cite> <he>א׳ לסורא וכ׳</he> happened to come to Sura on the eve of &c. ",
+						"<cite ref=\"Chullin 110a:5\">Ib.</cite> <he>אִיקְלְעוּ לבי וכ׳</he> happened to come to the house (were the guests) of &c. ",
+						"<cite ref=\"Pesachim 46b:5\">Pes. 46ᵇ</cite> <he>הואיל ומִיקְלְעֵי וכ׳</he> since guests may happen to come to him. ",
+						"<cite ref=\"Nedarim 8a:7\">Ned. 8ᵃ</cite> <he>עד דמִקְלְעֵי ליה וכ׳</he> until ten persons … pass by him. ",
+						"<cite ref=\"Rosh Hashanah 20a:4\">R. Hash. 20ᵃ</cite> <he>דא׳ יום שלשים וכ׳</he> if the thirtieth day happens to fall on a Sabbath. ",
+						"<cite ref=\"Berakhot 53b:12\">Ber. 53ᵇ</cite> <he>אי מִקְּלַע לי ממילא</he> if I happen to get it. ",
+						"<cite ref=\"Shabbat 117b:10\">Sabb. 117ᵇ</cite> <he>כי מיקלע להו וכ׳</he> if they by chance had bread that had been used for an ʿErub (<cite ref=\"P00680\"><he>עֵירוּב</he></cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

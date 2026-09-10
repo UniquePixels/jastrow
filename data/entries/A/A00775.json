@@ -1,0 +1,43 @@
+{
+	"id": "A00775",
+	"slug": "אונקלי-1",
+	"headword": {
+		"text": "אוּנְקְלַי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 30,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " <he>אָנְקְלַי</he> f. (<cite ref=\"A02285\"><he>אנק</he></cite>, with <cite ref=\"L00000\"><he>ל</he></cite> format.; = <cite ref=\"A00764\"><he>אוּנְקַי</he></cite>; corresp. to b. h. <cite ref=\"L00275\"><he>לוּלַי</he></cite>; Greek adapt. ἀγκολη, LXX <cite ref=\"Exodus 26:10\">Ex. XXVI, 10</cite>; cmp. <cite ref=\"A00736\"><he>אוֹנִי</he></cite> as to contact of the two languages) prop. <i>little</i> (<i>camel’s</i>) <i>neck</i>, hence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hook, rack</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:2\">Kel. XII, 2</cite> <he>א׳ של כתפין</he> Ar. (ed. <he>אונקליות</he>, <he>אונקלין</he> with adject. in the sing., corr. acc.) the carriers’ hook attached to their yoke, pole &c. ",
+				"<cite ref=\"Mishnah Kelim 12:2\">Ib.</cite> <he>א׳ של דרגש</he> the hook of the bedstead (used for fastening the girths to the posts); <he>של נקליטין</he> the rack of the bed-curtain, v. <cite ref=\"N01224\"><he>נַקְלִיטִין</he></cite>. Ib. 3 <he>א׳ שבכותלים</he> hook attached to walls.—",
+				"<cite ref=\"Mishnah Tevul Yom 4:6\">T’bul Yom IV, 6</cite> <he>ואנ׳ שלהם קיימת</he> and the hook (attached to the now broken yoke) remained unimpaired; a. fr.—Pl. <cite ref=\"A00771\"><he>אוּנְקְלָאוֹת</he></cite>, <he>אָנְקְ׳</he>, (<he>אונקלין</he>) <he>אוּנְקְלִיּוֹת</he>. ",
+				"<cite ref=\"Mishnah Tamid 3:5\">Tam. III, 5</cite>; Mid. III, 5; a. fr.—Kel. l. c.; <cite ref=\"Tosefta Keilim Metsia 2:4\">Tosef. Kel. B. Mets. II, 4</cite>; v. <cite ref=\"A00764\"><he>אוּנְקַי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [cmp. ἀγκαλίς in S.] <i>the load carried on the hook, the farmer’s load of sheaves or bunches;</i> cmp. <cite ref=\"B00834\"><he>בלונקי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'aser Sheni 4:10\">Tosef. Maas. Sh. IV, 10</cite>. <he>כל הא׳</he> the whole load. [<cite ref=\"Tosefta Ma'aser Sheni 4:11\">Ib. 11</cite> <cite ref=\"A00762\"><he>אונקולין</he></cite>, <cite ref=\"A00775\"><he>אונקלי</he></cite>, read with ed. Zuck. <he>אינפולי</he>]."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " Trnsf. (medic.) <i>bent cartilage</i>, esp. <i>the cartilage</i> (cart. ensiformis) <i>at the end of the sternum which, being bent inside, presses on the stomach and creates nausea</i> &c. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 29a:4\">Ab. Zar. 29ᵃ</cite> <he>מעלין א׳ וכ׳</he> you are permitted to lift the cartilage on the Sabbath (by means of a bandage &c.). ",
+				"<cite ref=\"Avodah Zarah 29a:4\">Ib.</cite> <he>מאי א׳ וכ׳</he> what <i>unklay</i> is meant? Ans. the cartilage in front of the heart; v. <he>אִיסְתּוֹמְכָא</he>."
+			],
+			"label": "3"
+		}
+	]
+}

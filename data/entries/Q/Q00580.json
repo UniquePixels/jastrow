@@ -1,0 +1,40 @@
+{
+	"id": "Q00580",
+	"slug": "פיגור",
+	"headword": {
+		"text": "פִּיגּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּגּ׳"
+		}
+	],
+	"page": {
+		"number": 1159,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. constr. ",
+			"units": []
+		},
+		{
+			"gloss": " (<he>פְּגַר</he> I) <i>breaking, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 24:12\">Targ. Is. XXIV, 12</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>פְּגַר</he> II, v. <cite ref=\"Q00094\"><he>פֶּגֶר</he></cite>) <i>decay</i>, only in connection with <he>טעוותא</he> (rendering h. . ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 6:4\">Targ. Ez. VI, 4</cite>; <cite ref=\"Targum Jonathan on Ezekiel 6:5\">5</cite>; <cite ref=\"Targum Jonathan on Ezekiel 6:13\">13</cite> (Bxt. <cite ref=\"Q00577\"><he>פיגול</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 26:30\">Targ. O. Lev. XXVI, 30</cite> ed. Berl. (oth. ed. <he>פִּגְרֵי</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

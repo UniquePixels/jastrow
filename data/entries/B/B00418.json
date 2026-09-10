@@ -1,0 +1,23 @@
+{
+	"id": "B00418",
+	"slug": "בזבנא",
+	"headword": {
+		"text": "בַּזְבָּנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 152,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. bâzwân, bâzbân, Perl. Et. St. p. 117) <i>collector of bridge toll</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 167a:3\">B. Bath. 167ᵃ</cite> Ar. (ed. <he>בזבי׳</he>; Ms. M. <cite ref=\"B00441\"><he>בזיונא</he></cite>; for oth. var. v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "B00550",
+	"slug": "ביבריא",
+	"headword": {
+		"text": "בִּיבָרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיבָרְיָיא"
+		}
+	],
+	"page": {
+		"number": 159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (pl. of vivarium, v. <cite ref=\"B00548\"><he>בִּיבָר</he></cite>) <i>animals kept in the vivarium, game</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite>; Pesik. Eth Korb. p. 58ᵇ; Yalk. Num. 777; Kings 176; <cite ref=\"Kohelet Rabbah 2:7\">Koh. R. to II, 7</cite> (corrupted <he>ציב׳</he>, <he>ברב׳</he> &c.; expl. <he>בַּרְבֻּרִים אֲבֻסִים</he> <cite ref=\"I Kings 5:3\">I Kings V, 3</cite> <i>chosen, fattened</i>) <he>מיני ב׳</he> various kinds of game (deer &c.) from the vivarium. V. <cite ref=\"B01172\"><he>בַּרְבַּרְיָא</he></cite>, end."
+			]
+		}
+	]
+}

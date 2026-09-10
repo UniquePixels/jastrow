@@ -1,0 +1,32 @@
+{
+	"id": "V00908",
+	"slug": "תקף-1",
+	"headword": {
+		"text": "תָּקַף"
+	},
+	"page": {
+		"number": 1693,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <he>קפף</he>, cmp. <cite ref=\"V00553\"><he>תָּכַף</he></cite>)<i>to seize, overpower</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 54a:2\">Yeb. 54ᵃ</cite> <he>ותְקָפַתּוֹ יבמתו</he> (not <he>ותקפתה</he>) and his sister-in-law seized (forced) him. ",
+				"<cite ref=\"Yevamot 54a\">Ib.</cite> <he>תְּקָפוּהוּ נכרים וכ׳</he> gentiles seized him, and coupled them. ",
+				"<cite ref=\"Bava Metzia 6a:16\">B. Mets. 6ᵃ</cite> <he>תְּקָפָהּ אחד בפנינו</he> if one (of the two litigants) seized it (the object in dispute) in the presence of the court. ",
+				"<cite ref=\"Bava Metzia 6b:3\">Ib.ᵇ</cite> <he>תְּקָפוֹ כהן</he> if a priest seized it (the lamb of doubtful first birth). ",
+				"<cite ref=\"Avodah Zarah 23a:8\">Ab. Zar. 23ᵃ</cite> <he>יצרו תוֹקְפוֹ</he> his passion overpowers him. ",
+				"<cite ref=\"Midrash Tehillim 19:16\">Midr. Till. to Ps. XIX, 14</cite> (ref. to <cite ref=\"A01653\"><he>איתם</he></cite> <cite ref=\"Midrash Tehillim 19:16\">ib.</cite>, with play on <cite ref=\"A01655\"><he>איתן</he></cite>) <he>אלו תוֹקְפֵי עבירות</he> this refers to those who conquer sin; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <he>על</he>) <i>to rest heavily upon, be hard</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 3:8\">Ab. III, 8</cite> <he>תָּקְפָה עליו משנתו</he> if his study was too hard for him (and therefore he forgot again what he had learned); <cite ref=\"Menachot 99b\">Men. 99ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

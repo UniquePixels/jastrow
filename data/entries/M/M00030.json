@@ -1,0 +1,22 @@
+{
+	"id": "M00030",
+	"slug": "מאיסותא",
+	"headword": {
+		"text": "מְאִיסוּתָא"
+	},
+	"page": {
+		"number": 722,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00028\"><he>מְאִיס</he></cite>) <i>repulsiveness</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 69a:13\">Men. 69ᵃ</cite> <he>משום מ׳ הוא</he> … <he>אזדא למְאִיסוּתַיְהוּ וכ׳</he> Ms. R. (ed. <he>דמאיסותא</he>) is it on account of repulsiveness (that they must not be used for offerings), and when they have been sown, their repulsiveness is gone, or &c.?"
+			]
+		}
+	]
+}

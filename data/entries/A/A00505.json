@@ -1,0 +1,23 @@
+{
+	"id": "A00505",
+	"slug": "אהלויא",
+	"headword": {
+		"text": "אָהֳלוֹיָא"
+	},
+	"page": {
+		"number": 20,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00504\">foreg.</cite>) <i>dealer in aloë</i> (prob. in b. h. , <i>perfumes</i>). . ",
+			"units": [
+				"<cite ref=\"Nedarim 91b:1\">Ned. 91ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 81a:14\">B. Mets. 81ᵃ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"id": "Q01309",
+	"slug": "פסיפס-1",
+	"headword": {
+		"text": "פְּסִיפָּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּסְפָּס"
+		},
+		{
+			"text": "פִּיסְ׳"
+		}
+	],
+	"page": {
+		"number": 1196,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01339\"><he>פָּסַס</he></cite>, cmp. <cite ref=\"Q01302\"><he>פְּסִיסִית</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cut and polished stone block</i>, used for paving floors, <i>stone pavement, mosaic</i>. ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 28:10\">Ab. d’R. N. ch. XXVIII</cite> <he>אבן פסי׳ שיש וכ׳</he> ed. Schechter (ed. <he>פיספס</he>) a paving block which has four polished sides (a metaphor for a many-sided scholar). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:32\">Y. Sabb. VII, 10ᵇ</cite> top <he>בשאין שם פ׳</he> where there is no stone pavement. Ib. XII, beg. 13ᶜ (Chald. dict.) <he>מקטע פ׳</he> he who trims a paving stone (or die, v. infra). ",
+				"<cite ref=\"Shemot Rabbah 10:7\">Ex. R. s. 10</cite> <he>בתיהם של גדולים … בשיש בפ׳</he> the houses of the nobles which were paved with marble or blocks; <cite ref=\"Yalkut Shimoni on Nach 102:1\">Yalk. Sam. 102</cite> <he>בתי השיש והפִּסְפְּסִים</he> (pl.); <cite ref=\"Yalkut Shimoni on Nach 820:10\">Yalk. Ps. 820</cite> <he>בתי השיש ובתי הפ׳</he> (<cite ref=\"Midrash Tehillim 105:10\">Midr. Till. to Ps. CV</cite> <he>בתי הסיפים</he>, v. <cite ref=\"O01308\"><he>סַף</he></cite>). ",
+				"<cite ref=\"Devarim Rabbah 1:25\">Deut. R. s. 1</cite> <he>ואם בפ׳ הפ׳ וכ׳</he> and if (she wipes her hands) on the pavement, the pavement will be blackened, but her hands will not be clean; a. e.—Pl. <he>פְּסִיפְסִים</he>, <he>פְּסִיפְסִין</he>, <he>פִּסְפְּ׳</he>, <cite ref=\"Q01229\"><he>פִּיסְ׳</he></cite>. Yalk. Sam. l. c.; Yalk. Ps. l. c., v. supra. ",
+				"<cite ref=\"Mishnah Middot 1:6\">Midd. I, 6</cite> <he>ראשי פסי׳ וכ׳</he> Var. in Ar. s. v. <cite ref=\"Q02091\"><he>פשפש</he></cite> (Mish. ed. <he>פספ׳</he>; Talm. ed. <he>פישפשין</he>) the ends of the flag-stones in the pavement indicated the mark between the sacred and the secular grounds; [comment.: blocks on the ceiling]; ib. II, 6; a. e.—[<cite ref=\"Tosefta Zevahim 7:1\">Tosef. Zeb. VII, 1</cite> <he>פסיפסין</he>, Var. <he>פסיפיסין</he>, v. <cite ref=\"Q02091\"><he>פִּשְׁפָשׁ</he> I</cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cube, die</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:7:2\">Y. R. Hash. I, 57ᶜ</cite> top (expl. <he>המשחק בקוביא</he>) <he>המשחק בפסי׳</he> he who plays with dice; <cite ref=\"Sanhedrin 25b\">Snh. 25ᵇ</cite>, a. e. <he>בפיספ׳</he> (Rashi: blocks of wood); Y. l. c. <he>משישבור את פְּסִיפְסָיו</he> (he is not reinstated from his civil disabilities,) until he breaks his dice; Snh. l. c. <he>משישברו את פִּיסְפְּסֵיהֶן</he>; Y. Shebu. VII, 37ᵈ bot. <he>פִּיסְפְּסָיו</he>; <cite ref=\"Jerusalem Talmud Sanhedrin 3:5:2\">Y. Snh. III, beg., 21ᵃ</cite> (also <cite ref=\"Q02080\"><he>פְּשִׂיפְשִׂין</he></cite>). ",
+				"<cite ref=\"Midrash Tehillim 26:8\">Midr. Till. to Ps. XXVI, 10</cite> <he>אלי המשחקין בפספ׳ וכ׳</he> that means those who play with dice, who calculate (throw) with the left hand and press with the right hand, and rob and wrong one another; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>check</i> (in garments), <i>square</i>, or <i>stripe</i> (cmp. <cite ref=\"Q01223\"><he>פַּס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 11:7\">Neg. XI, 7</cite> <he>והרי הוא פסי׳ יחידי</he> ed. Dehr. (ed. <cite ref=\"Q01345\"><he>פספס</he></cite>) suppose there is only one (white) stripe in the whole garment?—Pl. as ab. ",
+				"<cite ref=\"Mishnah Negaim 11:7\">Ib.</cite> <he>קייטא שיש בה פ׳ צבועים וכ׳</he> a pieced sheet in which there are checkers colored and white; Tosef. ib. V, 10. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 927:8\">Yalk. Job 927</cite> <he>פספסין הדֵּיהוֹת שלו מכחות וכ׳</he> (or <he>הדּוּחוֹת</he>, not <he>פספסי הרוחות</he>) the faintest checkers (or stripes) of the Leviathan’s skin outshine the sun (v. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 653:4\">Yalk. Lev. 653</cite>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>voting tablet, verdict</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2:25\">Lam. R. to II, 1</cite>, v. <cite ref=\"H00900\"><he>חִיתּוּךְ</he></cite>.—[The contact between the Hebrew and Greek languages influenced the form <he>פסיפס</he> and the coincidence of some meanings of our word with ψῆφος <i>pebble</i>.]"
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "P00821",
+	"slug": "עלם-4",
+	"headword": {
+		"text": "עֶלֶם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1084,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00820\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>secret</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:6:8\">Y. Yoma III, 40ᵈ</cite> bot.; <cite ref=\"Pesachim 50a:9\">Pes. 50ᵃ</cite> (ref. to <he>לעלם</he>, <cite ref=\"Exodus 2:15\">Ex. II, 15</cite>) <he>לע׳ כתיב</he> it is so written that you may read <i>l’‘elem</i> (this is my name for secrecy).—Pl. <cite ref=\"P00825\"><he>עֲלָמוֹת</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 9:21\">Midr. Till. to Ps. IX, 1</cite> (play on <cite ref=\"P00825\"><he>עלמות</he></cite>, <cite ref=\"Midrash Tehillim 9:21\">ib.</cite>) <he>על הע׳ שהבן עושה וכ׳</he> on the secret sins which the child (of God) commits and which the Day of Atonement comes to atone for &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>forgetfulness</i>, v. <cite ref=\"E00717\"><he>הֵעָלֵם</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "Q00377",
+	"slug": "פורענותא",
+	"headword": {
+		"text": "פּוּרְעָנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּרְעָנוּ"
+		}
+	],
+	"page": {
+		"number": 1148,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00376\">same</cite><i>repayment, reciprocation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:17\">Targ. Prov. XIX, 17</cite>.—",
+				"<cite ref=\"Moed Katan 22b:10\">M. Kat. 22ᵇ</cite> Ms. M. (ed. <cite ref=\"Q00378\"><he>פּוּרְעַנְתָּא</he></cite>), v. <cite ref=\"A03122\"><he>אֲרִישְׂתָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>punishment, evil dispensation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:24\">Targ. Y. Deut. XXVIII, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:19\">Targ. Jer. XIV, 19</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 14b:11\">B. Bath. 14ᵇ</cite> <he>אתחולי בפ׳ וכ׳</he> we must not begin with evil events (not place the Book of Job at the head of the Hagiographa); ib. 108ᵃ (ref. to Mish. ib. VIII, 1) <he>אתחולי בפ׳ וכ׳</he> we must not place the case of evil (of parents surviving their children) first. Ib. 14ᵇ (<he>והא</he>)<he>רות נמי פ׳ הוא</he> Ms. O. a. R. (v. Rabb. D. S. a. l. note 2) but does not the Book of Ruth likewise contain a tale of evil dispensations? (Answ.) <he>פ׳ היא דאית לה אחרית</he> Ms. H. (ed. <he>פורענות דאית ליה וכ׳</he>) it is a tale of misfortune which ends well; a. e.—Pl. <he>פּוּרְעַנְוָון</he>, <he>פּוּרְעַנְוָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 25:17\">Targ. Ez. XXV, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 14:21\">Ib. XIV, 21</cite> ed. Lag. (oth. ed. <he>פּוּרְעָנִין</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

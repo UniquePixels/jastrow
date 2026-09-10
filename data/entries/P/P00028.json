@@ -1,0 +1,28 @@
+{
+	"id": "P00028",
+	"slug": "עבוט",
+	"headword": {
+		"text": "עֲבוֹט"
+	},
+	"page": {
+		"number": 1036,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00038\"><he>עָבַט</he></cite>; cmp. <he>עָבַת</he> s. v. <cite ref=\"P00036\"><he>עֲבוֹת</he></cite>) [<i>fastening;</i> cmp. <cite ref=\"H00556\"><he>חֲזָקָה</he></cite>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pledge</i>, <i>security</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 114b:5\">B. Mets. 114ᵇ</cite> (expl. ",
+				"<cite ref=\"Deuteronomy 24:12\">Deut. XXIV, 12</cite>) <he>לא תשכב ועֲבוֹטוֹ אצלך</he> thou must not go to bed with his pledge with thee.—2) = <cite ref=\"P00046\"><he>עָבִיט</he></cite> <i>saddle, saddle-bag</i>. [<cite ref=\"Tosefta Ma'asrot 3:13\">Tosef. Maasr. III, 13</cite>, v. <cite ref=\"P00046\"><he>עָבִיט</he></cite>.]—Pl. <he>עֲבוֹטוֹת</he> <i>saddle cushions, rugs</i> &c., <i>baggage</i>. Tanḥ. Emor, ed. Bub. 26, note 188 <he>אתה יודע שאין לי זהב א״ל ותן לי ע׳ נתן לו טפיטוס וכ׳</he> thou knowest that I have no gold. Said he to him, then give me the baggage, and he gave him a rug and other garments that he had robbed him of; <cite ref=\"Tosefta Ma'asrot 3:13\">ib.</cite> <he>תן לי אותן ע׳ שנטלת ממני</he> give me that baggage which thou hast taken from me; <he>נתן לו אותו זהב ואותן ע׳ מקצת</he> he gave him that gold (of which he had robbed him) and the baggage, but only a part thereof; Tanḥ. Emor 18 <he>עֲבִיטוֹת</he>."
+			],
+			"label": "1"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "K00060",
+	"slug": "כבל-1",
+	"headword": {
+		"text": "כָּבַל"
+	},
+	"page": {
+		"number": 608,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to press, to impede</i>, whence <cite ref=\"K00062\"><he>כֶּבֶל</he></cite> <i>the foot-chain</i>; denom. <cite ref=\"K00060\"><he>כָּבַל</he></cite>] <i>to chain</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 87:10\">Gen. R. s. 87</cite> <he>כּוֹבַלְתְּךָ אני</he> I have the power to put thee in chains. Tanḥ. Thazr. 8 <he>מביא וכוֹבְלוֹ …</he> he orders chains and chains him.—<i>Part. pass.</i> <cite ref=\"K00040\"><he>כָּבוּל</he></cite>, f. <he>כְּבוּלָה</he>, pl. <cite ref=\"K00990\"><he>כְּבוּלוֹת</he></cite> <i>tied, prevented</i>, esp. <i>sheep prevented from conceiving by having their tails tied down</i>. ",
+				"<cite ref=\"Mishnah Shabbat 5:2\">Sabb. V, 2</cite> <he>רחלות יוצאות … כ׳</he> ewes may be led out (on the Sabbath) … tied up; Tosef. ib. IV (V), 1 <he>כ׳ שלא יעלה עליהן זכר</he>. ",
+				"<cite ref=\"Shabbat 54a:4\">Sabb. 54ᵃ</cite> <he>מאי כ׳ שכּוֹבְלִין אליה וכ׳</he> Ms. M. (ed. <he>שמְכַבְּלִין</he>) what is <i>k’buloth</i>? They tie their tails downward &c. ",
+				"<cite ref=\"Shabbat 54a:2\">Ib.</cite> <he>מאי משמע דהאי כבול וכ׳</he> where is the evidence that <i>kabul</i> has the meaning of sterility? (Answ. ref. to <cite ref=\"I Kings 9:13\">I Kings IX, 13</cite>, v. <cite ref=\"K00061\">next w.</cite>); Y. ib. V, 7ᵇ bot."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיבֵּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00059\">same</cite>, v. supra.—<i>Part.</i> <i>pass.</i> <he>מְכוּבָּל</he>. Sabb. l. c. the district was called Cabul, <he>שהיו בה ב״א שמְכוּבָּלִין בכסף וכ׳</he> because there were people there who were chained with silver and gold.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

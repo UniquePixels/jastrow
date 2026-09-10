@@ -1,0 +1,28 @@
+{
+	"id": "A02620",
+	"slug": "אפוליא",
+	"headword": {
+		"text": "אַפּוּלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אפיליא",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 100,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Apulia</i>, the country in the S. E. of Italy. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:6\">Targ. Ezek. XXVII, 6</cite> some ed., oth. ed. a. Ar. <cite ref=\"A01215\"><he>אִיטַלְיָא</he></cite> (h. text <he>כתיים</he>)."
+			]
+		}
+	]
+}

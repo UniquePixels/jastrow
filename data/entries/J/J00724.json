@@ -1,0 +1,37 @@
+{
+	"id": "J00724",
+	"slug": "יתוש",
+	"headword": {
+		"text": "יַתּוּשׁ"
+	},
+	"page": {
+		"number": 603,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (fr. <cite ref=\"V01110\"><he>תָּשַׁשׁ</he></cite>?) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mosquito</i> or <i>gnat</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 56b:15\">Gitt. 56ᵇ</cite> <he>בא י׳ ונכנס וכ׳</he> a mosquito came and entered his (Titus’) nose; <cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite>; <cite ref=\"Vayikra Rabbah 22:3\">Lev. R. s. 22</cite>. ",
+				"<cite ref=\"Shabbat 77b:6\">Sabb. 77ᵇ</cite> <he>י׳ לנחש</he> the mosquito (an application of a pulp made of mosquitos) is a remedy for a serpent’s bite. ",
+				"<cite ref=\"Shabbat 77b:6\">Ib.</cite> <he>אימת י׳ על הפיל</he> the fear which the elephant has of the <i>yattush</i>, v. <cite ref=\"A01325\"><he>אֵימָה</he></cite>. ",
+				"<cite ref=\"Sanhedrin 38a:13\">Snh. 38ᵃ</cite>; <cite ref=\"Vayikra Rabbah 14:1\">Lev. R. s. 14</cite>, beg. <he>י׳ קדמך וכ׳</he> the <i>y.</i> has been created before thee (man); a. e.—Pl. <he>יַתּוּשִׁים</he>, <he>יַתּוּשִׁין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 5:9\">Gen. R. s. 5</cite> (ref. to <cite ref=\"Genesis 3:17\">Gen. III, 17</cite>) <he>דברים ארורים כגון י׳ ופרעושין וכ׳</he> cursed things like gnats, fleas and flies; a. fr.—",
+				"<cite ref=\"Tosefta Shabbat 12:4\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:4\">XIII</cite>), 4 <he>זבובין וי׳</he>; Y. ib. XIV, beg. 14ᵇ <he>ותושין</he> (corr. acc.), v. <cite ref=\"H00145\"><he>חָגָז</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a bug</i> (<i>on a fruit</i>). Sifra Sh’mini Par. 10, ch. XII; <cite ref=\"Chullin 67b:2\">Ḥull. 67ᵇ</cite>; a. e., v. <cite ref=\"K00744\"><he>כָּלִיס</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

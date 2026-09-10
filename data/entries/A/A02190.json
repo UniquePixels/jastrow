@@ -1,0 +1,31 @@
+{
+	"id": "A02190",
+	"slug": "אנטיפטריס",
+	"headword": {
+		"text": "אַנְטִיפַּטְרִיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְטִיפַּטְרִס"
+		},
+		{
+			"text": "אנטיפרס"
+		}
+	],
+	"page": {
+		"number": 83,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Antipatris</i>, a town north-north-west of Jerusalem, founded by Herod the Great and named after his father. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 7:7\">Gitt. VII, 7</cite> (<cite ref=\"Gittin 76a:20\">76ᵃ</cite>) (the second <cite ref=\"I00000\"><he>ט</he></cite> freq. dropped). Y. B. Mets. VII, end, 11ᶜ. Y. Taan. IV, 69ᵇ top … <he>פריס</he>; a. fr. ",
+				"<cite ref=\"Tosefta Gittin 7:9\">Tosef. Gitt. VII</cite> (<cite ref=\"Tosefta Gittin 5:9\">V</cite>), 9 <cite ref=\"A02195\"><he>אנטיפרוס</he></cite>, <he>פטרוס …</he>, (corr. acc.)"
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "S01321",
+	"slug": "קלי-8",
+	"headword": {
+		"text": "קָלִי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלֵי",
+			"homograph": 2
+		},
+		{
+			"text": "קַלְיָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1375,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01320\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 23:14\">Targ. Lev. XXIII, 14</cite> (Y. ed. Amst. <cite ref=\"S01317\"><he>קְלִי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ruth 2:14\">Targ. Ruth II, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:17\">Targ. I Sam. XVII, 17</cite> (some ed. <cite ref=\"S01322\"><he>קָלְיָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 25:18\">Ib. XXV, 18</cite> (ed. Wil. <cite ref=\"S01321\"><he>קָלַיָּא</he></cite> pl.).—V. <cite ref=\"S00337\"><he>קוּלְיָא</he> I</cite>."
+			]
+		}
+	]
+}

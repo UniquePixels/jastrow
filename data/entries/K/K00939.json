@@ -1,0 +1,24 @@
+{
+	"id": "K00939",
+	"slug": "כסכסייה",
+	"headword": {
+		"text": "כַּסְכְּסַיָּיה"
+	},
+	"page": {
+		"number": 654,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"K00938\">preced.</cite>) <i>makers of confusion, of strife</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Isaiah 19:2\">Is. XIX, 2</cite>), allegorical name of messengers from Sodom (Edom), v. <cite ref=\"B00415\"><he>בַּזְבְּזַיָּיה</he></cite>. ",
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite> Ms. M. (ed. <he>כס כסיא</he>, read: <cite ref=\"K00939\"><he>כַּסְכְּסַיָּא</he></cite>)."
+			]
+		}
+	]
+}

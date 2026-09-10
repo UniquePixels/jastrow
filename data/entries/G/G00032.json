@@ -1,0 +1,25 @@
+{
+	"id": "G00032",
+	"slug": "זביד",
+	"headword": {
+		"text": "זְבִיד"
+	},
+	"page": {
+		"number": 378,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Z’bid</i>, name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Berakhot 46b:5\">Ber. 46ᵇ</cite>, a. fr. (Z. bar Levi).—",
+				"<cite ref=\"Berakhot 38a:16\">Ib. 38ᵃ</cite>.—",
+				"<cite ref=\"Avodah Zarah 56a:6\">Ab. Zar. 56ᵃ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:3:3\">Y. Sabb. I, 3ᵇ</cite>, v. <cite ref=\"G00033\">next w.</cite>"
+			]
+		}
+	]
+}

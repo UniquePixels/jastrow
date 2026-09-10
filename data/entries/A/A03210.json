@@ -1,0 +1,58 @@
+{
+	"id": "A03210",
+	"slug": "ארס-3",
+	"headword": {
+		"text": "אָרַס"
+	},
+	"page": {
+		"number": 124,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. ארשׂ Pi.; √<he>אר</he> , v. <he>ארר</he>) <i>to bind, join; to betroth</i>. Part. pass. <cite ref=\"A03041\"><he>אָרוּס</he></cite>, f. <he>אֲרוּסָה</he> <i>betrothed, engaged</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 13b:17\">Keth. 13ᵇ</cite> <he>אָרוּס וַאֲרוּסָתוֹ</he> a betrothed couple. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:5\">Y. Ḥag. II, 77ᵈ</cite> <he>אֲרוּסִי</he> my betrothed, i.e. my beloved citizen."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אֵרַס", "אֵירַס"],
+			"senses": [
+				{
+					"gloss": "<i>to betroth to one’s self, engage in marriage</i>. Y. Bets. V, 63ᵃ bot. <he>לְאָרֵס</he>. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>הא לארס יְאָרֵס</he> but betroth he may; a. fr.—",
+						"<cite ref=\"Mishnah Yevamot 6:4\">Yeb. VI, 4</cite> <he>אירס וכ׳</he> he betrothed a widow. ",
+						"<cite ref=\"Mishnah Ketubot 1:6\">Keth. I, 6</cite> <he>אֵרַסְתַּנִי</he>, <he>אֵרַסְתִּיךְ</he>; a. fr. [As to the legal status of betrothal, v. <cite ref=\"A03043\"><he>אֵרוּסִין</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to give away in betrothal</i> (of the bride’s father). Ib. IV, 2.—Part. pass. <he>מְאוֹרָסָה</he>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 7:9\">Snh. VII, 9</cite>; a. fr.—",
+						"<cite ref=\"Shemot Rabbah 33\">Ex. R. s. 33</cite> (play on <i>morashah</i>, <cite ref=\"Deuteronomy 33:4\">Deut. XXXIII, 4</cite>).—"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְאָרְסָה", "נִתְאָרְסָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be betrothed</i> (only of the woman). ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 3:3\">Keth. III, 3</cite>; a. e.—",
+						"<cite ref=\"Mishnah Yevamot 4:10\">Yeb. IV, 10</cite> <he>הנשואות יִתְאָרְסוּ וכ׳</he> those who have been married before, may get betrothed (before the expiration of three months after separation from their husbands by death or divorce), and those who have been betrothed (and not yet married), may get married (during the above term)."
+					]
+				}
+			],
+			"stem": "Hithpa. a. Nithpa."
+		}
+	]
+}

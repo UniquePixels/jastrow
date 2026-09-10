@@ -1,0 +1,30 @@
+{
+	"id": "O01361",
+	"slug": "ספינתא",
+	"headword": {
+		"text": "סְפִינְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְפִינָא"
+		}
+	],
+	"page": {
+		"number": 1013,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01360\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 9:26\">Targ. I Kings IX, 26</cite>, sq. <he>ספינא</he> Bxt. (ed. <cite ref=\"O01361\"><he>סְפִינְתָּא</he></cite> collect. noun; ed. Wil. <cite ref=\"O01361\"><he>סְפִינָתָא</he></cite>, <i>pl.</i>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 10:22\">Ib. X, 22</cite>.—",
+				"<cite ref=\"Taanit 21a:5\">Taan. 21ᵃ</cite> <he>אסקריא דס׳</he>, v. <cite ref=\"A02546\"><he>אִסְקַרְיָא</he></cite>. ",
+				"<cite ref=\"Nedarim 50a:7\">Ned. 50ᵃ</cite>, v. <cite ref=\"A01266\"><he>אֵילָא</he></cite>; a. e.—<i>Pl.</i> <cite ref=\"O01359\"><he>סְפִינָן</he></cite>, <cite ref=\"O01361\"><he>סְפִינָתָא</he></cite>, constr. <cite ref=\"O01359\"><he>סְפִינַת</he></cite>, <he>סְפִינֵי</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:68\">Targ. O. Deut. XXVIII, 68</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 22:49\">Targ. I Kings XXII, 49</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 23:1\">Targ. Is. XXIII, 1</cite>; a. fr."
+			]
+		}
+	]
+}

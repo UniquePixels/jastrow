@@ -1,0 +1,42 @@
+{
+	"id": "R00699",
+	"slug": "צפירה",
+	"headword": {
+		"text": "צְפִירָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1297,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <i>circle, turn; crown</i>; <cite ref=\"R00711\"><he>צָפַר</he></cite>, v. <cite ref=\"R00713\"><he>צְפַר</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circuit</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:10:6\">Y. Erub. I, end, 19ᵈ</cite> (ref. to <he>ויצפר</he>, <cite ref=\"Judges 7:3\">Jud. VII, 3</cite>) <he>ולמה הן חוזרין בצ׳</he> and why were they to go home on a circuitous route?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>circle, suite of body-guards</i>. Mekh. B’shall., Shir., s. 3; <cite ref=\"Yalkut Shimoni on Torah 244:1-6\">Yalk. Ex. 244</cite> <he>מלך … ועליו צ׳ מקיפתו וכ׳</he> a king that enters a city, and about him is a circle of guards that surrounds him, and his mighty men &c.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a round of twist, border</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 5:5\">Tosef. Kel. B. Mets. V, 5</cite> <he>סרוד של צ׳</he> (ed. Zuck. <cite ref=\"R00685\"><he>צפורה</he></cite>) a frame with a rim (of plaited ropes &c.), if it has handles, is susceptible of uncleanness. ",
+				"<cite ref=\"Mishnah Kelim 16:3\">Kel. XVI, 3</cite> <he>משיעשה בו צ׳ אחת</he> as soon as he has woven around it one round (as a rim); <cite ref=\"Tosefta Keilim Metsia 5:13\">Tosef. Kel. B. Mets. V, 13</cite> <he>צבירה אחת חוץ מזה וכ׳</he> (corr. acc.) one round besides the rims of the web itself. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:2:3\">Y. Sabb. VIII, 11ᵇ</cite> top <he>באילין קשייא כדי לעשות צ׳</he> of hard palm-leaves (used for ropes, v. <cite ref=\"A02764\"><he>אַפְסְקִימָא</he></cite>) as many as are required to make a border; a. e.—Pl. <he>צְפִירוֹת</he>. Kel. l. c.; Tosef. l. c. <he>צבירות</he> (corr. acc.)."
+			],
+			"label": "3"
+		}
+	]
+}

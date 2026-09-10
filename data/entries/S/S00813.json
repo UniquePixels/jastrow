@@ -1,0 +1,33 @@
+{
+	"id": "S00813",
+	"slug": "קטף-4",
+	"headword": {
+		"text": "קְטַף",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטְפָא"
+		},
+		{
+			"text": "קִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1352,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S00812\">same</cite> <cite ref=\"Onkelos Genesis 37:25\">Targ. Gen. XXXVII, 25</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 43:11\">Ib. XLIII, 11</cite> (Y. <cite ref=\"S00811\"><he>קָטָף</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 30:34\">Targ. Y. I Ex. XXX, 34</cite> (Y. II ed. Vien. <cite ref=\"S00694\"><he>קְטַב</he></cite>, corr. acc.; h. text <he>נטף</he>); a. e.—",
+				"<cite ref=\"Avodah Zarah 35b\">Ab. Zar. 35ᵇ</cite> <he>ק׳ דגוזא</he>, v. <cite ref=\"C00328\"><he>גַּוָּוזָא</he> I</cite>; <he>ק׳ דפירי</he> the sap which flows out of incisions in fruits; <cite ref=\"Niddah 8b:12\">Nidd. 8ᵇ</cite>. ",
+				"<cite ref=\"Niddah 8b:12\">Ib.</cite> <he>ק׳ פירא</he> resin is considered as fruit (v. <cite ref=\"S00812\">preced.</cite>). ",
+				"<cite ref=\"Berakhot 48a:3\">Ber. 48ᵃ</cite> <he>מקִּטְפֵיה</he>, v. <cite ref=\"B00311\"><he>בּוּצִינָא</he></cite>; a. e."
+			]
+		}
+	]
+}

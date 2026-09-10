@@ -1,0 +1,23 @@
+{
+	"id": "Q01431",
+	"slug": "פציחאי",
+	"headword": {
+		"text": "פַּצִּיחָאֵי"
+	},
+	"page": {
+		"number": 1205,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q01430\">preced.</cite>) <i>inhabitants of unwalled places</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 9:19\">Targ. Esth. IX, 19</cite>."
+			]
+		}
+	]
+}

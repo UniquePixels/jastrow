@@ -1,0 +1,23 @@
+{
+	"id": "D00832",
+	"slug": "דליל-1",
+	"headword": {
+		"text": "דָּלִיל"
+	},
+	"page": {
+		"number": 310,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דלל</he>, cmp. <cite ref=\"D00807\"><he>דִּלְדֵּל</he></cite>) <i>anything irregularly wound, tangle; tow, oakum</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 2:1\">B. Kam. II, 1</cite> <he>היה ד׳ קשור וכ׳</he> (Ms. M. a. Var. noticed in comment. <cite ref=\"D00829\"><he>דֳּלִי</he></cite>) if the cock’s feet were entangled &c. ",
+				"<cite ref=\"Bava Kamma 19b:10\">Ib. 19ᵇ</cite> <he>בעל הד׳</he> the owner of the tangled material."
+			]
+		}
+	]
+}

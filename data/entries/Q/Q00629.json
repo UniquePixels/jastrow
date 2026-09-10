@@ -1,0 +1,34 @@
+{
+	"id": "Q00629",
+	"slug": "פיטמא-2",
+	"headword": {
+		"text": "פִּיטְמָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיטְמָה"
+		},
+		{
+			"text": "פִּטְ׳"
+		}
+	],
+	"page": {
+		"number": 1161,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>פָּטַם</he> 1) [<i>pestle, mortar</i>] <i>a protuberance on the blossom-end of fruits</i> having the appearance of a pestle seated in a mortar (cmp. <cite ref=\"B00248\"><he>בּוּכְנָה</he></cite>); <i>the upper portion of a fruit</i>, v. <cite ref=\"Q00619\"><he>פִּיטּוֹמֶת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 3:6\">Succ. III, 6</cite> <he>נטלה פִטְמָתוֹ</he> if the pestlelike protuberance of an Ethrog is taken out; expl. Y. ib. III, 53ᵈ <he>תמן אמרין שושנתו</he> there (in Babylonia) they say, ‘its lily’; Bab. ",
+				"<cite ref=\"Sukkah 35b\">ib. 35ᵇ</cite>, v. <cite ref=\"B00248\"><he>בּוּכְנָה</he></cite> (v. Rashi a. l.). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:2:2\">Y. Kil. I, 27ᵃ</cite> top <he>פיטמה של אבטיח</he> (v. <cite ref=\"M02070\"><he>מְעָה</he></cite>) the upper portion of a melon (containing the carpels). ",
+				"<cite ref=\"Mishnah Oktzin 2:3\">Ukts. II, 3</cite> <he>הפיטמא של רמון</he> (ed. Dehr. <he>הפטמה</he>) the top-piece of a pomegranate."
+			]
+		}
+	]
+}

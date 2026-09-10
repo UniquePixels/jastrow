@@ -1,0 +1,32 @@
+{
+	"id": "B01250",
+	"slug": "בריונא",
+	"headword": {
+		"text": "בַּרְיוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּירְיוֹנָא"
+		}
+	],
+	"page": {
+		"number": 193,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B01154\"><he>בְּרָא</he></cite> Ithpe. 3, cmp. <cite ref=\"B01252\"><he>בַּרְיוּתָא</he></cite>) <i>rebel, outlaw, highway-man</i>.—Pl. <cite ref=\"B01250\"><he>בַּרְיוֹנֵי</he></cite>, <cite ref=\"B00125\"><he>בִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Gittin 56a:15\">Gitt. 56ᵃ</cite> <he>הנהו ב׳</he> those rebels (the war party during the last siege of Jerusalem by the Romans). ",
+				"<cite ref=\"Gittin 56a:15\">Ib.</cite> Abba Sikra <he>ריש ב׳</he> chief of the rebels.—",
+				"<cite ref=\"Berakhot 10a:2\">Ber. 10ᵃ</cite> <he>הנהו ב׳ דהוו וכ׳</he> there were some highway-men living in the neighborhood of &c. ",
+				"<cite ref=\"Taanit 23b:7\">Taan. 23ᵇ</cite> <he>א״נ הנהו בי׳ וכ׳</he> ed. (omitted in Ms. M. a. oth.). ",
+				"<cite ref=\"Taanit 24a\">Ib. 24ᵃ</cite> <he>הנך ב׳</he> Ms. M. (ed. <he>בני מאתיה</he>, v. Rabb. D. S. l. note 2). ",
+				"<cite ref=\"Sanhedrin 37a:8\">Snh. 37ᵃ</cite> <he>בַּרְייוֹ׳</he>; a. fr."
+			]
+		}
+	]
+}

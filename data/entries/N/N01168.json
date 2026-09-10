@@ -1,0 +1,29 @@
+{
+	"id": "N01168",
+	"slug": "נקדן",
+	"headword": {
+		"text": "נַקְדָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "נוֹקְדָן"
+		}
+	],
+	"page": {
+		"number": 931,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נָקַד</he> I) <i>a punctilious person, caviller</i>. ",
+			"units": [
+				"<cite ref=\"Tractate Derekh Eretz Zuta 6:4\">Der. Er. Zuta ch. VI</cite> <cite ref=\"N01053\"><he>נוֹ׳</he></cite>).—Pl. <he>נַקְדָּנִין</he>, <cite ref=\"N01169\"><he>נוֹקְדָ׳</he></cite>. ",
+				"<cite ref=\"Tosefta Berakhot 5:18\">Tosef. Ber. V, 18</cite> <he>והנו׳ תופשין וכ׳</he> ed. Zuck. (Var. <he>והנקד׳</he>) the cavillers (overscrupulous) take him to task for it; Y. ib. VII, 11ᶜ top <he>הנו׳</he> (ed. Lehm. <he>חניקרנין</he>); Bab. ",
+				"<cite ref=\"Berakhot 50a\">ib. 50ᵃ</cite> <he>נקד׳</he> (Ar. <he>נקר׳</he>), v. <cite ref=\"N01249\"><he>נַקְרָן</he></cite>."
+			]
+		}
+	]
+}

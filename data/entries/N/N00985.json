@@ -1,0 +1,23 @@
+{
+	"id": "N00985",
+	"slug": "נעיץ",
+	"headword": {
+		"text": "נָעִיץ"
+	},
+	"page": {
+		"number": 920,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01002\"><he>נָעַץ</he></cite>) <i>a wedge-like ditch</i>.—Pl. <he>נְעִיצִים</he>, <he>נְעִיצִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 5:5\">B. Kam. V, 5</cite> (<cite ref=\"Bava Kamma 50b:14\">50ᵇ</cite>). ",
+				"<cite ref=\"Mishnah Mikvaot 5:6\">Mikv. V, 6</cite>; a. e."
+			]
+		}
+	]
+}

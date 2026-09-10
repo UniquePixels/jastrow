@@ -1,0 +1,35 @@
+{
+	"id": "J00755",
+	"slug": "יתרון",
+	"headword": {
+		"text": "יִתְרוֹן"
+	},
+	"page": {
+		"number": 605,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00746\"><he>יָתַר</he></cite>)<i>surplus, difference</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 2:13:1\">Koh. R. to II, 13</cite> <he>כשם שיש י׳ בין וכ׳</he> as there is a difference between light &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>addition</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> (ref. to <cite ref=\"Ecclesiastes 5:8\">Koh. V, 8</cite>) <he>אפי׳ דברים … י׳ למ״ת</he> even what thou deemest to be an addition to the original Law (<cite ref=\"Kohelet Rabbah 5:8:4\">Koh. R. to V, 8</cite>, a. e. <he>מיותרין</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>superfluity, useless thing</i>. Ib. <he>אפי׳ … י׳ בעולם</he> even what thou mightest deem to be mere useless creatures (<cite ref=\"Kohelet Rabbah 5:8:4\">Koh. R. to V, 8</cite>, a. e. <he>מיותרין</he>), v. <cite ref=\"J00746\"><he>יָתַר</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

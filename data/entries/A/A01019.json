@@ -1,0 +1,30 @@
+{
+	"id": "A01019",
+	"slug": "אחורי",
+	"headword": {
+		"text": "אֲחוֹרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹחֲרִי"
+		}
+	],
+	"page": {
+		"number": 39,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <cite ref=\"A01061\"><he>אֲחֶרֶת</he></cite>) <i>another, something else</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shevuot 4:5:2\">Y. Shebu. IV, 35ᵈ</cite> top <he>איתא או׳</he> another woman (wife). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:15\">Y. Ber. IX, 13ᵃ</cite> bot. <he>שיטה או׳</he> another method, <cite ref=\"Vayikra Rabbah 14:3\">Lev. R. s. 14</cite>, beg. <he>אמר או׳</he> said differently. Y. Meg. II, 74ᵃ top <he>אחו׳</he> another (scroll). ",
+				"<cite ref=\"Bereishit Rabbah 76:8\">Gen. R. s. 76</cite> <he>אחו׳</he> another (word, in reply). [Targ. <cite ref=\"A00616\"><he>אוֹחֲרִי</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 26:21\">Targ. Gen. XXVI, 21</cite>; a. fr.]—[<cite ref=\"Daniel 2:39\">Dan. II, 39</cite>; <cite ref=\"Daniel 7:5\">VII, 5</cite>; <cite ref=\"Daniel 7:6\">6</cite>; <cite ref=\"A01051\"><he>אָחֳרִי</he></cite>.] V. <cite ref=\"H00468\"><he>חוֹרִי</he></cite>."
+			]
+		}
+	]
+}

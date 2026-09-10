@@ -1,0 +1,24 @@
+{
+	"id": "Q00961",
+	"slug": "פלוג-1",
+	"headword": {
+		"text": "פְּלוּג"
+	},
+	"page": {
+		"number": 1177,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00935\"><he>פְּלַג</he></cite>) <i>a portion</i> (of meat). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 6:19\">Targ. II Sam. VI, 19</cite>; <cite ref=\"Targum of I Chronicles 16:3\">Targ. I Chr. XVI, 3</cite> (ed. Lag. <cite ref=\"Q00935\"><he>פלג</he></cite>; h. text <he>אשפר</he>).—Pl. <he>פְּלוּגֵי</he>. ",
+				"<cite ref=\"Megillah 7b:4\">Meg. 7ᵇ</cite> <he>אכלי בהו שתין פ׳</he> I ate sixty portions of them. ",
+				"<cite ref=\"Yoma 83b\">Yoma 83ᵇ</cite> <he>אהדרוהו פ׳ וצעי</he> Ms. M. 2 a. Ar. (Ms. M. 1 <cite ref=\"Q00928\"><he>פְּלָאגֵי</he></cite>) they placed fine portions and dishes around him (v., however, <cite ref=\"L00184\"><he>לוּגָּא</he></cite>)."
+			]
+		}
+	]
+}

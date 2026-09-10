@@ -1,0 +1,19 @@
+{
+	"id": "O01234",
+	"slug": "סניגרון-1",
+	"headword": {
+		"text": "סְנִיגְרוֹן"
+	},
+	"page": {
+		"number": 1007,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", a corrupt. of <cite ref=\"O00573\"><he>סִיגָרוֹן</he></cite>(<he>אָכְ</he>). ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 6:3\">Tosef. Shebi. VI, 3</cite>; <cite ref=\"Tosefta Terumot 9:10\">Tosef. Ter. IX, 10</cite>; v. <cite ref=\"A01723\"><he>אָכְסִיגָרוֹן</he></cite>"
+			]
+		}
+	]
+}

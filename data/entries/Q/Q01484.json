@@ -1,0 +1,23 @@
+{
+	"id": "Q01484",
+	"slug": "פקי",
+	"headword": {
+		"text": "פָּקֵי"
+	},
+	"page": {
+		"number": 1209,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q00314\"><he>פּוּק</he></cite>; v. <cite ref=\"A02640\"><he>אֲפוּקֵי</he></cite>) <i>exit, end</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 9:5:4\">Y. B. Bath. IX, 17ᵃ</cite> <he>פ׳ שמיטתא</he> the end of the Sabbatical year (the beginning of the new Sabbatical period)."
+			]
+		}
+	]
+}

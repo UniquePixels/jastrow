@@ -1,0 +1,24 @@
+{
+	"id": "C00020",
+	"slug": "גאים-2",
+	"headword": {
+		"text": "גֵּאִים"
+	},
+	"page": {
+		"number": 202,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (abstract noun, v. <cite ref=\"C00005\"><he>גֵּאֶה</he></cite>; cmp. <cite ref=\"H00736\"><he>חַיִים</he></cite>) <i>loftiness, excellence;</i> (in a bad sense) <i>haughtiness</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 92a:5\">Ḥull. 92ᵃ</cite> (play on <he>ש̇ר̇י̇ג̇י̇ם̇</he>, <cite ref=\"Genesis 40:10\">Gen. XL, 10</cite>) <he>שלשה ש̇ר̇י̇ ג̇</he>' <he>בכל וכ׳</he> the three princes of excellence (influential patrons of Israel) in every generation (in Palestine under the Roman, in Babylon under the Parthian government).—",
+				"<cite ref=\"Berakhot 10b\">Ber. 10ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 616:4\">Yalk. Lev. 616</cite> (ref. to <cite ref=\"I Kings 14:9\">I Kings XIV, 9</cite>) <he>א״ת גַּוֶּךָ אלא גֵּאֶיךָ</he> read not <i>gavvekha</i> (thy body), but <i>geekha</i>, thy swelling or pride (applied to taking a meal before prayer), v. <cite ref=\"C00004\"><he>גָּאָה</he></cite>."
+			]
+		}
+	]
+}

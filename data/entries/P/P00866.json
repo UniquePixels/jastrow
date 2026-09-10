@@ -1,0 +1,57 @@
+{
+	"id": "P00866",
+	"slug": "עמוד-1",
+	"headword": {
+		"text": "עַמּוּד"
+	},
+	"page": {
+		"number": 1087,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00859\"><he>עָמַד</he> II)</cite><i>column, stand</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1:31\">Ex. R. s. 1</cite>, <he>ע׳ השן</he> an ivory column. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:13\">Y. Ber. IX, 13ᵃ</cite> <he>אדם … ועומד אחורי הע׳ וכ׳</he> a man enters a synagogue and stands behind a stand praying silently, and the Lord listens. Bab. ",
+				"<cite ref=\"Berakhot 28b:8\">Ber. 28ᵇ</cite> (of R. Joḥănan) <he>ע׳ הימיני</he> thou right-hand pillar (cmp. ",
+				"<cite ref=\"I Kings 7:21\">I Kings VII, 21</cite>). ",
+				"<cite ref=\"Shemot Rabbah 2\">Ex. R. s. 2</cite>, end (ref. to <he>הנני</he>, <cite ref=\"Exodus 3:5\">Ex. III, 5</cite>) <he>במקום עַמּוּדוֹ של עולם וכ׳</he> thou standest in the place of the pillar of the world; Abraham said, here am I, and so dost thou; Tanḥ. Sh’moth 19; a. fr.—Trnsf. (v. <cite ref=\"M02143\"><he>מַעֲמַד</he></cite>) <i>the group of people belonging to the maʿămad</i>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:1:16\">Y. Taan. IV, 67ᵈ</cite> bot.; <cite ref=\"Jerusalem Talmud Pesachim 4:1:3\">Y. Pes. IV, beg. 30ᶜ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cylinder around which a scroll is rolled, handle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yadayim 3:4\">Yad. III, 4</cite> <he>אינו … עד שיעשה לו ע׳</he> does not make the hands unclean, until he fastens a handle to it. ",
+				"<cite ref=\"Bava Batra 13b:12\">B. Bath. 13ᵇ</cite> <he>כדי לגול ע׳</he> blank margin wide enough to roll around the cylinder. ",
+				"<cite ref=\"Bava Batra 14a:4\">Ib. 14ᵃ</cite> <he>ספר תורה … ועושה לו ע׳ אילך ואילך</he> a scroll of the Law is rolled (on both sides) towards the middle of it, therefore it must have a handle on each side; <cite ref=\"Jerusalem Talmud Megillah 1:9:12\">Y. Meg. I, 71ᵈ</cite>; a. fr.—Pl. <he>עַמּוּדִים</he>, <he>עַמּוּדִין</he>. Ib.ᶜ top; <cite ref=\"Sanhedrin 22a:5\">Snh. 22ᵃ</cite>, v. <cite ref=\"F00004\"><he>וא״ו</he></cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " ע׳ השחר <i>the morning dawn</i>. ",
+			"units": ["<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite>; a. fr."],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>the fecal mass in the rectum;</i> also <i>the jet of urine when being discharged</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 62b:5\">Ber. 62ᵇ</cite>; <cite ref=\"Berakhot 25a:16\">25ᵃ</cite> <he>ע׳ החוזד וכ׳</he> a suppressed discharge produces dropsy. ",
+				"<cite ref=\"Berakhot 25a:16\">Ib.</cite> <he>כנגד ע׳ בלבד</he> only in the sight of urine at its discharge; a. e."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " (bot.) <i>the central stalk of onions</i> &c., <i>the scape</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 1:2\">Ukts. I, 2</cite> <he>הע׳ שהוא מכוון וכ׳</he> the scape as far as it is surrounded by the edible part, the scape within the bulb; <cite ref=\"Mishnah Oktzin 1:3\">ib. 3</cite> <he>הע׳ שאינו מכוון וכ׳</he> that part of the scape which protrudes above the bulb.—[<cite ref=\"Mishnah Bava Batra 4:5\">B. Bath. IV, 5</cite> <he>עמודין</he>, v. <cite ref=\"P00736\"><he>עֲכִירִים</he></cite>.]"
+			],
+			"label": "5"
+		}
+	]
+}

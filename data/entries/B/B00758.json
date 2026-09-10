@@ -1,0 +1,52 @@
+{
+	"id": "B00758",
+	"slug": "ביתוס",
+	"headword": {
+		"text": "בַּיְתוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּיְיתוֹס"
+		}
+	],
+	"page": {
+		"number": 168,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Βοηθός) <i>Boëthus;</i>",
+			"units": []
+		},
+		{
+			"gloss": " the founder of a sect similar to that of the Sadducees, named <he>בַּיְיתוֹסִין</he> <i>Boëthusians</i>. Ab. d’R. Nath. ch. V.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " father of one Martha or Miriam, a rich woman in the days of the siege of Jerusalem by Titus. ",
+			"units": [
+				"<cite ref=\"Gittin 56a:11\">Gitt. 56ᵃ</cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <cite ref=\"M02671\"><he>מרים</he></cite>; Y. Keth. V, 30ᵇ bot. <he>מרתא</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " B. ben Zonin. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 5:2:1\">Y. B. Mets. V, 10ᵇ</cite> top; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " R. B.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 6:4:5\">Y. Erub. VI, 23ᶜ</cite> bot."
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "J00612",
+	"slug": "ירוקנא",
+	"headword": {
+		"text": "יֵרוֹקָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְרָקוֹנָא"
+		}
+	],
+	"page": {
+		"number": 595,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.; <i>pl.</i> <he>יֵרוֹקָנִין</he>, <he>יְרָקוֹנִין</he> (<cite ref=\"J00611\">preced.</cite> arts.) <i>various herbs</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 4:39\">Targ. II Kings IV, 39</cite> (ed. Lag. <he>ירקונין</he>, some ed. <he>יַרְקָנִין</he>).—",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:1:8\">Y. Meg. IV, 74ᵈ</cite> <he>חד מחזר פטירין עם ירקונין</he> one scholar made a translator read over again who translated (<cite ref=\"Exodus 12:8\">Ex. XII, 8</cite>) ‘unleavened bread with herbs’ (in place of <he>מרורין</he> bitter herbs); <cite ref=\"Jerusalem Talmud Bikkurim 3:4:10\">Y. Bicc. III, end, 65ᵈ</cite> (corr. in accord. with Y. Meg. l. c.)."
+			]
+		}
+	]
+}

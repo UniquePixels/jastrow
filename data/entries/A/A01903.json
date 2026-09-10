@@ -1,0 +1,23 @@
+{
+	"id": "A01903",
+	"slug": "אלליא",
+	"headword": {
+		"text": "אַלְלַיָּא"
+	},
+	"page": {
+		"number": 71,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"A01902\">preced.</cite>) <i>woe-makers</i>, a word coined for playing on <he>הוֹלְלִים</he> (<cite ref=\"Psalms 75:5\">Ps. LXXV, 5</cite>, a. e.). ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite>; a. e.; v. <cite ref=\"F00044\"><he>וַויָּנַיָּיא</he></cite> for correct vers."
+			]
+		}
+	]
+}

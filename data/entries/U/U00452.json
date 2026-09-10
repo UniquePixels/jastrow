@@ -1,0 +1,24 @@
+{
+	"id": "U00452",
+	"slug": "שומענא",
+	"headword": {
+		"text": "שׁוּמְעָנָא"
+	},
+	"page": {
+		"number": 1536,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01512\"><he>שְׁמַע</he></cite>) <i>reputation</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 25b\">Meg. 25ᵇ</cite>, v. <cite ref=\"O01224\"><he>סְנֵי</he></cite>. ",
+				"<cite ref=\"Megillah 25b:18\">Ib.</cite> <he>דשפיר שׁוּמְעָנֵיה</he> who is well spoken of. ",
+				"<cite ref=\"Moed Katan 17a\">M. Kat. 17ᵃ</cite>"
+			]
+		}
+	]
+}

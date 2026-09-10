@@ -1,0 +1,29 @@
+{
+	"id": "U00643",
+	"slug": "שחי-5",
+	"headword": {
+		"text": "שֶׁחִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁיחִי"
+		}
+	],
+	"page": {
+		"number": 1547,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00613\"><he>שָׁחָה</he></cite>) <i>bend</i>, esp. <he>בית הש׳</he> (or sub. <he>בית</he>) <i>arm-pit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 2:4\">Neg. II, 4</cite> <he>כאורגת בעומדין לש׳ ליד הימנית</he> (a woman is placed) in the position of a weaver at an upright loom, for the sake of examining the pit of the right arm; Sifra Thazr., Neg., Par. 3, ch. IV <he>כמוסק בבית הש׳</he> in the position of one taking olives down, for examining the arm-pit; <cite ref=\"Vayikra Rabbah 15:9\">Lev. R. s. 15</cite>; <cite ref=\"Yalkut Shimoni on Torah 551:12\">Yalk. ib. 551</cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:7\">Snh. VII, 7</cite> <he>המדבר משִׁחְיוֹ</he>, v. <cite ref=\"Q00895\"><he>פִּיתוֹם</he> II</cite>; Y. ib. 25ᶜ <he>משִׁיחְיוֹ</he>. ",
+				"<cite ref=\"Nazir 58b\">Naz. 58ᵇ</cite>; a. fr.—<he>הש׳</he> (<he>בית</he>) <cite ref=\"A02072\"><he>אמת</he></cite>, v. <cite ref=\"A01989\"><he>אַמָּה</he></cite>.—Pl. <he>שְׁחָיִים</he>, constr. <he>שִׁחְיֵי</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. Pesik. B’shall., p. 87ᵃ <he>תחת בית שִׁיחְיֵהֶם</he>, v. <cite ref=\"K00120\"><he>כַּדּוֹרִית</he></cite>; <cite ref=\"Midrash Tehillim 16:3\">Midr. Till. to Ps. XVI</cite> <he>שִׁיחְיֵהֶן</he>; <cite ref=\"Yalkut Shimoni on Nach 667:4\">Yalk. Ps. 667</cite>; <cite ref=\"Shir HaShirim Rabbah 2:7:1\">Cant. R. to II, 7</cite> <he>תחת שיחיהן</he> (some ed. <he>שיחתן</he>, corr. acc.)."
+			]
+		}
+	]
+}

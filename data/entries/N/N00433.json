@@ -1,0 +1,50 @@
+{
+	"id": "N00433",
+	"slug": "נזי",
+	"headword": {
+		"text": "נזי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָזָה"
+		}
+	],
+	"page": {
+		"number": 890,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00217\"><he>זוּעֵ</he></cite>, a. <cite ref=\"N00214\"><he>נָדָה</he></cite>, <cite ref=\"N00224\"><he>נְדֵי</he> II)</cite><i>to move, shake; to drip</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to sprinkle</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 5:3\">Yoma V, 3</cite> <he>וה׳ ממנו וכ׳</he> and sprinkled from it once upward &c. ",
+						"<cite ref=\"Mishnah Yoma 5:3\">Ib.</cite> <he>ולא היה מתכוין להַזּוֹת</he> and he did not aim at definite points in sprinkling. ",
+						"<cite ref=\"Tosefta Tahorot 8:12\">Tosef. Toh. VIII, 12</cite> <he>שבא להזות</he> who comes asking to be sprinkled upon; <he>אין מַזִּין עליו וכ׳</he> we do not sprinkle upon him &c. ",
+						"<cite ref=\"Mishnah Parah 12:8\">Par. XII, 8</cite> <he>לא יַזֶּה וכ׳</he> he must not sprinkle upon the spindle and the whorl separately; a. fr.—Trnsf. <i>to have a cleansing influence</i>. ",
+						"<cite ref=\"Tosefta Demai 1:14\">Tosef. Dem. I, 14</cite>; <cite ref=\"Tosefta Makhshirin 3:15\">Tosef. Makhsh. III, 15</cite> <he>טהור אחד מַוֶּה על וכ׳</he> one clean person has a cleansing influence on one hundred unclean persons; Y. Dem. III, 23ᶜ bot."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּזָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be sprinkled</i>. Par. l. c. <he>ואם הזה מוּזֶּה</he> but if he has sprinkled (on each separately), it is sprinkled (the lustration is valid).",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

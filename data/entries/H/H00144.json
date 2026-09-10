@@ -1,0 +1,30 @@
+{
+	"id": "H00144",
+	"slug": "חגורה",
+	"headword": {
+		"text": "חֲגוֹרָה"
+	},
+	"page": {
+		"number": 424,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H00156\"><he>חגר</he></cite>)<i>girding, wearing apparel for travelling, outfit</i>.—Pl. <he>חֲגוֹרוֹת</he>, constr. <he>חֲגוֹרֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19:6\">Gen. R. s. 19</cite> (ref. to <cite ref=\"Genesis 3:7\">Gen. III, 7</cite>) <he>חגורה אין … אלא חגורות חגורי חגורות</he> it does not say <i>ḥagorah</i> (a girdle) but <i>ḥăgoroth</i> which means sets of outfits; [Ar. <he>חגור חגורי חגורות</he>]; v. <cite ref=\"A02374\"><he>אִסְטְכִיוָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an enclosure, rope-fence</i>, contrad. to <cite ref=\"M00872\"><he>מְחִיצָה</he></cite> a. <cite ref=\"Q01297\"><he>פַּסִּין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 2:4\">Erub. II, 4</cite> (Ar. <cite ref=\"H00153\"><he>חֲגִירָה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

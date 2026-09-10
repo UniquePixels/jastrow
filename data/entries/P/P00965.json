@@ -1,0 +1,34 @@
+{
+	"id": "P00965",
+	"slug": "ענותן-1",
+	"headword": {
+		"text": "עִנְוְתָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִנְוְו׳"
+		},
+		{
+			"text": "עִינְ׳"
+		}
+	],
+	"page": {
+		"number": 1092,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (formed fr. <cite ref=\"P00958\"><he>עֲנָוָה</he></cite>) = <cite ref=\"P00984\"><he>עָנָיו</he></cite>, <i>humble, forbearing, kind</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 88b:8\">Snh. 88ᵇ</cite> <he>ע׳ ושפל ברך</he> forbearing and low-kneed (polite). ",
+				"<cite ref=\"Shabbat 30b:12\">Sabb. 30ᵇ</cite> bot. <he>לעולם יהא אדם ע׳ וכ׳</he> one should always be meek (patient) like Hillel, opp. <cite ref=\"S01702\"><he>קפדן</he></cite> impatient; (<cite ref=\"Avot D'Rabbi Natan 15\">Ab. d’R. N. ch. XV</cite> <cite ref=\"P00953\"><he>עָנָו</he></cite>). ",
+				"<cite ref=\"Shabbat 31a:9\">Sabb. 31ᵃ</cite> <he>עי׳ הלל ינוחו וכ׳</he> O thou forbearing Hillel, blessings rest upon thy head; a. fr.—Pl. <he>עִנְוְתָנִין</he>, <cite ref=\"P00965\"><he>עִנְוְו׳</he></cite>, <cite ref=\"P00965\"><he>עִינְ׳</he></cite>. ",
+				"<cite ref=\"Bava Metzia 84b:19\">B. Mets. 84ᵇ</cite> bot. <he>שלשה ע׳ הן</he> three persons are known for their humility. ",
+				"<cite ref=\"Avot D'Rabbi Natan 7:2\">Ab. d’R. N. ch. VII</cite> <he>בזמן … ענוותן ובני ביתו ע׳ וכ׳</he> when a man is kind (to strangers), and his household kind &c.; a. e."
+			]
+		}
+	]
+}

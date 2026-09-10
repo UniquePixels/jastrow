@@ -1,0 +1,56 @@
+{
+	"id": "V00123",
+	"slug": "תהי-2",
+	"headword": {
+		"text": "תְּהֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּהָא"
+		},
+		{
+			"text": "תְּהַהּ"
+		},
+		{
+			"text": "תְּהֵו"
+		}
+	],
+	"page": {
+		"number": 1648,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00122\">same</cite><i>to gaze, be astonished, be waste</i>.—Part. <cite ref=\"V00124\"><he>תָּהֵי</he></cite>; f. <cite ref=\"V00124\"><he>תָּהֲיָא</he></cite>, <he>תָּהֲיָה</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 1:2\">Targ. Y. Gen. I, 2</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Exodus 12:42\">Targ. Y. II, Ex. XII, 42</cite>; a. e.—",
+				"<cite ref=\"Eruvin 66a:4\">Erub. 66ᵃ</cite> <he>ת׳ בה ר׳ אלעזר</he> R. El. marvelled at it. ",
+				"<cite ref=\"Eruvin 66a:1\">Ib.</cite> <he>תְּהוּ בה וכ׳</he> the Nehardeans were astonished at it. ",
+				"<cite ref=\"Pesachim 50b:7\">Pes. 50ᵇ</cite> <he>תהו ביה אינשי</he> people gaze at him with ill-will (Ms. M. <he>תַּוְוהוּ בהו</he> fr. <cite ref=\"V00162\"><he>תְּוַהּ</he></cite>). ",
+				"<cite ref=\"Niddah 66a:39\">Nidd. 66ᵃ</cite> <he>כי היכי דתַהֲווּ עלך … נִתְהֲוִי עלך וכ׳</he>, v. <cite ref=\"C00777\"><he>גִּיסָא</he> III</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pause, regret, repent</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 5:5\">Targ. Y. Lev. V, 5</cite>; <cite ref=\"Targum Jonathan on Leviticus 5:24\">24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:5\">Targ. Cant. V, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 13:17\">Targ. Y. Ex. XIII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:25\">Targ. Prov. XX, 25</cite> (ed. <cite ref=\"V00105\"><he>תדיא</he></cite>, <cite ref=\"H00191\"><he>חדיא</he></cite>, corr. acc.).—Y. Ḥall. II, beg. 58ᵇ <he>מן דנפקית תְּהֵית דלא אמרית וכ׳</he> (not <he>דנפקות</he>) when I was gone, I was sorry that I had not said to him &c. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:3:7\">Y. Sabb. I, 3ᵇ</cite> bot. <he>שרי ת׳ ביה</he> he began to bethink himself (of what he had done). ",
+				"<cite ref=\"Nedarim 21b:9\">Ned. 21ᵇ</cite> <he>כדו תְּהֵית</he> dost thou now regret (that thou hast vowed)? Y. ib. IX, 41ᵇ bot. <he>ר״י פתח ות׳</he> R. J. offered an opening (for the purpose of absolving from a vow), and he (the vower) expressed his regret; [read:] <he>ואילולי דו ת׳ הו אתי</he> but if he were not sorry for his vow, would he have come (before the teacher for absolution)?; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to smell</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 105a:13\">Keth. 105ᵃ</cite>, v. <cite ref=\"A01978\"><he>אִמְבְּרָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 22a:6\">B. Bath. 22ᵃ</cite> <he>פוק תְּהֵי וכ׳</he>, v. <cite ref=\"S01616\"><he>קַנְקַנָּא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

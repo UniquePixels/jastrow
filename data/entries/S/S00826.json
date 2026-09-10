@@ -1,0 +1,48 @@
+{
+	"id": "S00826",
+	"slug": "קטר-4",
+	"headword": {
+		"text": "קְטַר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קְטֵיר"
+		}
+	],
+	"page": {
+		"number": 1353,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00825\">same</cite>, <i>to tie</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 15:4\">Targ. Jud. XV, 4</cite>. ",
+				"<cite ref=\"Onkelos Genesis 38:28\">Targ. Gen. XXXVIII, 28</cite>; a. fr.—Part. pass. <cite ref=\"S00770\"><he>קְטִיר</he></cite>; f. <cite ref=\"S00748\"><he>קְטִירָא</he></cite>, <he>קְטִירַת</he> &c. ",
+				"<cite ref=\"Targum Jonathan on Genesis 22:4\">Targ. Y. ib. XXII, 4</cite> (ed. Amst. <cite ref=\"S00823\"><he>קָטֵר</he></cite>, read: <cite ref=\"S00823\"><he>קָטִר</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:15\">Targ. Prov. XXII, 15</cite>; a. fr.—",
+				"<cite ref=\"Kohelet Rabbah 3:2:2\">Koh. R. to III, 2</cite> [read:] <he>הן דאת קָטֵיר לולבך קְטֹר אלפך</he> when thou tiest thy Lulab, tie thy ship; <cite ref=\"Bereishit Rabbah 6:5\">Gen. R. s. 6</cite>, a. e., v. <cite ref=\"L00271\"><he>לוּלָבָא</he></cite>. ",
+				"<cite ref=\"Berakhot 16a:3\">Ber. 16ᵃ</cite>, v. <cite ref=\"C01107\"><he>גְּנוּנָא</he></cite>. ",
+				"<cite ref=\"Bekhorot 31a:5\">Bekh. 31ᵃ</cite> <he>דאתו קטיר</he>, v. <cite ref=\"V00562\"><he>תַּכְתַּקָּא</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 9:10\">Koh. R. to IX, 10</cite> <he>אייתון … וקַטְרוּ ברגלי</he> get a rope and tie it to my feet. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 10:10:3\">Y. Erub. X, 26ᶜ</cite> top <he>קטיר בגמי</he> (not <cite ref=\"S00823\"><he>קטר</he></cite>) tied with reed-grass. Y. Gitt. IV, 46ᵃ (we must not help captives to escape) <he>מפני … דלא יהוון קַטְרִינוֹן</he> this law is made for the benefit of the (remaining) captives, that they (the captors) may not chain them; a. fr.—2) (v. <cite ref=\"S02264\"><he>קָשַׁר</he></cite>) <i>to gather, be covered</i>. ",
+				"<cite ref=\"Berakhot 59a\">Ber. 59ᵃ</cite>, v. <cite ref=\"P00488\"><he>עֵיבָא</he></cite> a. <cite ref=\"P01001\"><he>עֲנָנָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַטֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00825\">same</cite>. Part. pass. <he>מְקַטַּר</he>, <he>מְקַטְּרָא</he> &c. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 46:22\">Targ. Ez. XLVI, 22</cite> <he>מְקַטְּרָן</he> fenced in (v. <cite ref=\"S00825\">preced.</cite>).—Y. Ned. VI, 39ᵈ top <he>חלבא מקטרא</he> bound (curdled) milk, v. <cite ref=\"S00376\"><he>קוֹם</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

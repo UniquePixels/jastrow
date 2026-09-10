@@ -1,0 +1,24 @@
+{
+	"id": "C00579",
+	"slug": "גזראי",
+	"headword": {
+		"text": "גְּזָרָאֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 232,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>גזר</he>) <i>persecutors</i> (v. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 32:33\">Targ. Y. II, Deut. XXXII, 33</cite>."
+			]
+		}
+	]
+}

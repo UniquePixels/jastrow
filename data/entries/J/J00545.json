@@ -1,0 +1,54 @@
+{
+	"id": "J00545",
+	"slug": "יצף-3",
+	"headword": {
+		"text": "יְצֵף"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְצֵיף"
+		}
+	],
+	"page": {
+		"number": 589,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00544\">same</cite>, <i>to be afraid</i> (h. <cite ref=\"D00010\"><he>דָּאַג</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 57:11\">Targ. Is. LVII, 11</cite> <he>ית מן יְצֵיפְתְּ</he> (Buxt. <he>יְצַפְתְּ</he>) of whom wast thou afraid?—",
+				"<cite ref=\"Targum Jonathan on I Samuel 9:5\">Targ. I Sam. IX, 5</cite> <he>ויֵיצִיף</he> ed. Lag. (some ed. <he>ויַצִיף</he>); <cite ref=\"Targum Jonathan on I Samuel 10:2\">ib. X, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 62:16\">Targ. Jer. LXII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 38:19\">Ib. XXXVIII, 19</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַצֵּף", "יַצַּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00544\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 31:11\">Targ. Jer. XXXI, 11</cite> (h. text <he>דאב</he>).—Y. Taan. II, 65ᵇ top <he>נפח צפונה יַצַּף לבניך</he> (read <he>ללבניך</he> or <he>לבניניך</he>) when the northern wind blows, be anxious for thy bricks (thy buildings). ",
+						"<cite ref=\"Bereishit Rabbah 56:4\">Gen. R. s. 56</cite> <he>יצף לההוא גברא וכ׳</he> beware of that man (Satan), v. <cite ref=\"C01192\"><he>גְּעַר</he></cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיְצֵיף"],
+			"senses": [
+				{
+					"gloss": "<i>to trouble one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 38:19\">Targ. Ps. XXXVIII, 19</cite> (ed. Lag. <he>אִתְיַיצֵּף</he>; h. text <he>אדאג</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

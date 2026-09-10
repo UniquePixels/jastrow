@@ -1,0 +1,31 @@
+{
+	"id": "U01552",
+	"slug": "שמת",
+	"headword": {
+		"text": "שְׁמַת"
+	},
+	"page": {
+		"number": 1603,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>שמם</he>) <i>to be still, desolate</i>.—Denom. <cite ref=\"U01553\"><he>שַׁמְתָּא</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁמֵּית"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"U01553\"><he>שַׁמְתָּא</he></cite>) <i>to excommunicate, accurse</i> <cite ref=\"Moed Katan 16a:6\">M. Kat. 16ᵃ</cite> <he>מנלן דמְשַׁמְּתִינָן</he> whence do we derive the authority to excommunicate (persons refusing to obey the summons of the court)? <cite ref=\"Moed Katan 16a:6\">Ib.</cite>; <cite ref=\"Shevuot 36a:4\">Shebu. 36ᵃ</cite> <he>שַׁמְּתֵיה וכ׳</he>, v. <cite ref=\"U01023\"><he>שִׁיפוֹרָא</he></cite>. M. Kat. l. c. <he>הנהו בי תלתא דמְשַׁמְּתֵי לא אתו וכ׳</he> Ms. M. (ed. <he>דשַׁמִּיתוּ</he>) when a court of three has declared a ban, another court of three cannot raise it. Ib. 17ᵃ <he>ברישא מְשַׁמֵּית וכ׳</he> first he banned himself, and then him (the guilty scholar); a. fr.—Part. pass. (h. form) <cite ref=\"M02835\"><he>מְשׁוּמָּת</he></cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 67a:8\">Sabb. 67ᵃ</cite> (in an incantation) <he>ליטא תבור ומש׳</he> cursed, broken, and banned."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

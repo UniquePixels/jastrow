@@ -1,0 +1,37 @@
+{
+	"id": "M02392",
+	"slug": "מקולין",
+	"headword": {
+		"text": "מְקוּלִין"
+	},
+	"page": {
+		"number": 829,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (macellum, μάκελλον) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>slaughter-house</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 86\">Gen. R. s. 86</cite>, beg.; <cite ref=\"Midrash Tehillim 105:5\">Midr. Till. to Ps. CV, 16</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>meat-market, provision-market</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 95a:6\">Ḥull. 95ᵃ</cite> <he>מ׳ וטבחי ישראל</he> if there are meat-stands (kept by gentiles) in a place where the butchers are Jews. ",
+				"<cite ref=\"Chullin 92b:1\">Ib. 92ᵇ</cite> top <he>אין שוקלין בשר המת במ׳</he> they (the gentiles) do not retail carrion in the markets; a. fr.—[<cite ref=\"Sifrei Bamidbar 131:2\">Sifré Num. 131</cite> <he>בנו להם מקולים</he> they erected markets for them (Var. <he>קְלָעִים</he>), v. <cite ref=\"S01396\"><he>קֶלַע</he> III</cite>.]—",
+				"<cite ref=\"Jerusalem Talmud Chagigah 1:1:20\">Y. Ḥag. I, 76ᵇ</cite> top <he>אפי׳ ממְקִילוֹן</he> even if you have to buy your meat in the market (having no sacrifice of your own)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "O01630",
+	"slug": "סריקותא-1",
+	"headword": {
+		"text": "סְרִיקוּתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1027,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סְרַק</he> II) <i>comb</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 20b:30\">Nidd. 20ᵇ</cite> (Ar. ed. pr. <cite ref=\"O01628\"><he>סריקוסתא</he></cite>)."
+			]
+		}
+	]
+}

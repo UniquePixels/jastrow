@@ -1,0 +1,27 @@
+{
+	"id": "V00128",
+	"slug": "תהפוכה",
+	"headword": {
+		"text": "תַּהְפּוּכָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּהְפּוֹכֶת"
+		}
+	],
+	"page": {
+		"number": 1649,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>תַּהְפֻּכוֹת</he> pl.; <cite ref=\"E00740\"><he>הָפַךְ</he></cite>)<i>perverseness</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 320:5\">Sifré Deut. 320</cite>; <cite ref=\"Yalkut Shimoni on Torah 945:12\">Yalk. ib. 945</cite> (ref. to <cite ref=\"Deuteronomy 32:20\">Deut. XXXII, 20</cite>) <he>דור ת׳ … אלא דור תַּהְפּוּכוֹת</he> it does not say, ‘a generation of perverseness’ (in the singular), but, ‘a generation of perversenesses’ &c."
+			]
+		}
+	]
+}

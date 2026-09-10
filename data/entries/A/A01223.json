@@ -1,0 +1,23 @@
+{
+	"id": "A01223",
+	"slug": "איטן",
+	"headword": {
+		"text": "אִיטָּן"
+	},
+	"page": {
+		"number": 47,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אטט</he>; cmp. <cite ref=\"H00608\"><he>חטט</he></cite>, a. <he>אָטָט</he>) <i>calamus</i>, a reed used for writing (cmp. b. h. <cite ref=\"P00435\"><he>עֵט</he></cite>). ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 3:14\">Tosef. Kil. III, 14</cite> Var. ed. Zuck. (text <cite ref=\"A00623\"><he>אוטם</he></cite>, prob. <he>אִיטִּים</he>). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 5:7:4\">Y. Kil. V, end, 30ᵃ</cite> <cite ref=\"H00712\"><he>חִיטִּין</he></cite>. V. <cite ref=\"E00358\"><he>הִיטְּנֵי</he></cite>."
+			]
+		}
+	]
+}

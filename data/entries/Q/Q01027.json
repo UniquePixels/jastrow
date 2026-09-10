@@ -1,0 +1,26 @@
+{
+	"id": "Q01027",
+	"slug": "פלטר-2",
+	"headword": {
+		"text": "פַּלְטֵר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1180,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πωλητήρ, πωλητήριον) <i>shop-keeper</i>, esp. <i>seller of bakers’ ware; shop</i>, esp. <i>bakery-shop</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 4:9\">Ab. Zar. IV, 9</cite> (<cite ref=\"Avodah Zarah 55b:2\">55ᵇ</cite>) <he>מוליכין עמו פת לפ׳</he> you may carry your own bread with his (the non-observant baker’s) to the shop-keeper. ",
+				"<cite ref=\"Mishnah Demai 5:4\">Dem. V, 4</cite> <he>הלוקח מן הפ׳ וכ׳</he> he who buys bread at the shop (which contains bread of different batches) must give tithes of each form separately, contrad. to <cite ref=\"M01807\"><he>מנפול</he></cite>. Y. Shek. VII, beg. 51ᵃ, a. e. <he>לוקח מן הפ׳</he>, v. <cite ref=\"O00584\"><he>סִידְקִי</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:16\">Y. Shebi. VII, 37ᶜ</cite> top <he>ובלבד שלא יעשה פליטר</he> (not <he>יעשו</he>; R. S. to ib. VII, 3 <cite ref=\"Q01026\"><he>פלטר</he></cite>) provided he is not made (their regular) shop-keeper (selling at the same place, at all times). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:6\">Cant. R. to I, 6</cite> <he>שנמכרת חוץ לפ׳</he> (not <he>לפלטיא</he>), v. <cite ref=\"S00864\"><he>קַיבָר</he></cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "Q01738",
+	"slug": "פרוש-1",
+	"headword": {
+		"text": "פָּרוּשׁ"
+	},
+	"page": {
+		"number": 1222,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>seceder.—</i>Pl. <he>פְּרוּשִׁים</he>, <he>פְּרוּשִׁין</he>. ",
+			"units": [
+				"<cite ref=\"Pesachim 70b:7\">Pes. 70ᵇ</cite> <he>ואנן טעמא דפ׳ וכ׳</he> must we follow up the argument of seceders (that left the college and established a school of their own)?, v. <cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>. [<cite ref=\"Tosefta Berakhot 3:25\">Tosef. Ber. III, 25</cite> <he>כולל של מינים בשל פ׳</he> combines the prayer against the heretics with that against the renegades; Y. ib. II, 5ᵃ top <he>רשעים</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>discreet, abstemious, saintly, pure</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 24:9\">Lev. R. s. 24</cite> (ref. to <cite ref=\"Leviticus 19:2\">Lev. XIX, 2</cite>) <he>כשם שאני פ׳ כך תהיו פרושים וכ׳</he> as I (the Lord) am pure, so be you pure; as I am holy, so be you holy.—Pl. as ab. Sifra K’dosh. beg. (expl. <he>קדשים</he>, Lev. l. c.) <he>פ׳ היו</he> be self-restraining. ",
+				"<cite ref=\"Tosefta Sotah 15:11\">Tosef. Sot. XV, 11</cite>; <cite ref=\"Bava Batra 60b:11\">B. Bath. 60ᵇ</cite> <he>כשחרב … רבו פ׳ וכ׳</he> after the destruction of the Temple the abstemious in Israel who refused to eat meat increased &c.—Esp. <i>Parush, Pharisee</i>, a strict observer of the Mosaic Law and the Rabbinical regulations. ",
+				"<cite ref=\"Tosefta Shabbat 1:15\">Tosef. Sabb. I, 15</cite>; <cite ref=\"Shabbat 13a:2\">Sabb. 13ᵃ</cite> <he>לא יאכל זב פ׳ עם זב עם הארץ</he> an observant gonorrhœist should not dine with an ignorant gonorrhœist (who is suspected of disregarding the laws concerning tithes, levitical cleanness &c., v. <cite ref=\"H00109\"><he>חָבֵר</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:7\">Y. Ber. IX, 14ᵇ</cite> bot. (speaking of the various kinds of Pharisees) <he>אין לך … פְּרוּשׁ אהבה כאברהם</he> of all of them none is beloved except the Pharisee from love (of God) like Abraham; <cite ref=\"Jerusalem Talmud Sotah 5:5:4\">Y. Sot. V, 20ᶜ</cite> bot.; Bab. ",
+				"<cite ref=\"Sotah 22b:2\">Sot. 22ᵇ</cite> <he>פ׳ מאהבה</he> a Pharisee from love (of reward, Rashi); <he>פ׳</he> (<cite ref=\"M00000\"><he>מ</he></cite>)<cite ref=\"J00592\"><he>יראה</he></cite> from fear (of punishment); <he>פ׳ שיכמי</he>, <he>ניקפי</he> &c., v. respective determinants.—Pl. as ab. ",
+				"<cite ref=\"Sotah 22b:2\">Ib.</cite> <he>אל תתיראי מן הפ׳ וכ׳</he> be not afraid of the Pharisees or of the non-Pharisees, but of the painted (the hypocrites) &c.—<he>מכת פ׳</he>, v. <cite ref=\"M01352\"><he>מַכָּה</he></cite>.—",
+				"<cite ref=\"Kiddushin 66a:9\">Kidd. 66ᵃ</cite> <he>לבם של פ׳ עליך</he> the Pharisees are opposed to thee in their hearts; a. fr.—Fem. <cite ref=\"Q01740\"><he>פְּרוּשָׁה</he></cite>. ",
+				"<cite ref=\"Mishnah Sotah 3:4\">Sot. III, 4</cite> <he>אשה פ׳</he> <i>a sactimonious woman</i>, expl. ",
+				"<cite ref=\"Sotah 22a:11\">ib. 22ᵃ</cite> <he>כגון יוחני וכ׳</he>, v. <cite ref=\"J00179\"><he>יוֹחָנִי</he></cite> 2."
+			],
+			"label": "2"
+		}
+	]
+}

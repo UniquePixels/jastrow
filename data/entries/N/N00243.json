@@ -1,0 +1,34 @@
+{
+	"id": "N00243",
+	"slug": "נדר-5",
+	"headword": {
+		"text": "נְדַר",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "נִדְרָא"
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 880,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00242\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 11:36\">Targ. Jud. XI, 36</cite>. ",
+				"<cite ref=\"Onkelos Numbers 30:3\">Targ. Num. XXX, 3</cite>; a. fr.—",
+				"<cite ref=\"Nedarim 8b:2\">Ned. 8ᵇ</cite>, v. <cite ref=\"F00007\"><he>וָאלִי</he></cite>. ",
+				"<cite ref=\"Nedarim 8b:2\">Ib.</cite> <he>רבינא הוה לה נ׳ וכ׳</he> the wife of R. had made a vow. ",
+				"<cite ref=\"Sanhedrin 109b:6\">Snh. 109ᵇ</cite> <he>נ׳ נַדְרִי</he> I have vowed; a. fr.—Pl. <he>נִדְרִין</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 76:12\">Targ. Ps. LXXVI, 12</cite>. ",
+				"<cite ref=\"Onkelos Numbers 30:12\">Targ. Num. XXX, 12</cite>; a. fr."
+			]
+		}
+	]
+}

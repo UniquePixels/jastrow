@@ -1,0 +1,80 @@
+{
+	"id": "H00560",
+	"slug": "חזר-1",
+	"headword": {
+		"text": "חָזַר"
+	},
+	"page": {
+		"number": 446,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to go around</i> (searching). ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 7:8:1\">Koh. R. to VII, 8</cite> <he>הוא חוֹזֵר עליה</he> he searches it again (tries to recover his scholarship); <cite ref=\"Kohelet Rabbah 7:8:1\">ib.</cite> <he>יכול הוא לַחֲזוֹר עליה</he> he may recover it; a. e.; v. infra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to turn around, return; to retract, repent</i>. Ib. <he>חֲזוֹר בך</he> come back (repent)! <cite ref=\"Mishnah Eduyot 5:6\">Eduy. V, 6</cite> <he>חזור בך</he> withdraw thy opposition.—",
+			"units": [
+				"<cite ref=\"Mishnah Demai 4:1\">Dem. IV, 1</cite> <he>חָזְרָה למקומה</he> came back to its place (was mixed up again). ",
+				"<cite ref=\"Mishnah Maaser Sheni 1:5\">Maas. Sh. I, 5</cite> <he>יֶחְזְרוּ דמים וכ׳</he> the money shall return to its former condition, i.e. the sale is annulled, and the money has again its sacred character. ",
+				"<cite ref=\"Keritot 8a:12\">Ker. 8ᵃ</cite> <he>נַחֲזוֹר על הראשונות</he> let us go back to what was said first. ",
+				"<cite ref=\"Shabbat 118b\">Sabb. 118ᵇ</cite>; <cite ref=\"Arakhin 15b:102\">Arakh. 15ᵇ</cite> <he>מימי</he> … <he>וחָזַרְתִּי לאחורי</he> I never said a word (about a fellowman) on which I went back (when confronted with him). ",
+				"<cite ref=\"Kiddushin 59a:12\">Kidd. 59ᵃ</cite> <he>וחָזְרָה בה</he> and she reconsiders (her consent to be married); <he>חוֹזֶרֶת</he> she may do so; <cite ref=\"Gittin 32b\">Gitt. 32ᵇ</cite>. ",
+				"<cite ref=\"Gittin 32b:7\">Ib.</cite> <he>חוזר ומגרש בו</he> dare he use the same letter of divorce again (after he has revoked it)? <cite ref=\"Mishnah Terumot 4:3\">Ter. IV, 3</cite> <he>ח׳ והוסיף</he> then again he added. ",
+				"<cite ref=\"Mishnah Gittin 4:5\">Gitt. IV, 5</cite> <he>חָזְרוּ לומר</he> then again they said (added); a. v. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיזֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to go around from one to the other</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 53a:9\">Yeb. 53ᵃ</cite> <he>צריכה לְחַזֵּר על וכ׳</he> she must apply to all the brothers successively; (ib. 26ᵇ; 51ᵇ <he>לַחֲזוֹר</he>). Y. Taan. IV, 68ᵃ bot. <he>חִיזַּרְנוּ על כל וכ׳</he> we searched the whole Bible; Y. Ab. Zar. I, beg. 39ᵃ <he>חי׳ בכל וכ׳</he>; (Sifré Deut. s. 1 <he>חָזַרְנוּ</he>). Y. B. Bath. VIII, 16ᶜ top, v. <cite ref=\"D00458\"><he>דיאתימון</he></cite>. ",
+						"<cite ref=\"Kiddushin 2b:13\">Kidd. 2ᵇ</cite> <he>לחַזֵּר על אשה</he> to go around in search of a wife (to woo). ",
+						"<cite ref=\"Kiddushin 2b:13\">Ib.</cite> <he>מי חוֹזֵר על מי</he> (Kal) which of them goes around &c.?; <cite ref=\"Niddah 31b:46\">Nidd. 31ᵇ</cite> <he>מי מְחַזֵּר וכ׳</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶחֱזִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to restore, give back</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 27b:2\">Ber. 27ᵇ</cite> <he>המַחֲזִיר שלים לרבו</he> he who returns the plain salutation (<i>shalom</i>) of his teacher (without adding, ‘My teacher’). ",
+						"<cite ref=\"Berakhot 32b\">Ib. 32ᵇ</cite> <he>לא ה׳ לו שלום</he> did not answer his greeting. ",
+						"<cite ref=\"Bava Metzia 7b:8\">B. Mets. 7ᵇ</cite> <he>יַחֲזִיר לאשה</he> he must restore (the lost document) to the wife. ",
+						"<cite ref=\"Ketubot 73b:17\">Keth. 73ᵇ</cite> <he>והֶחֱזִירָהּ</he> and re-married her; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to revoke; to reconsider, to grant a new trial</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 6:3\">Gitt. VI, 3</cite> <he>אם רצה להַחֲזִיר לא יַחֲזִיר</he> if the husband wants to revoke the letter of divorce, he cannot do so.—",
+						"<cite ref=\"Mishnah Sanhedrin 4:1\">Snh. IV, 1</cite> <he>דיני נפשות מַחֲזִירִין וכ׳</he> in capital cases verdicts may be reconsidered in favor of the defendant. ",
+						"<cite ref=\"Mishnah Sanhedrin 6:1\">Ib. VI, 1</cite> <he>מחזירין</he> the convict is brought back for a new trial; a. fr.—[<cite ref=\"Sanhedrin 33b:12\">Ib. 33ᵇ</cite> <he>חוזר</he>, <he>אין מחזירין</he> Ms. F. (ed. <he>חוזרין</he>).]—",
+						"<cite ref=\"Mishnah Eduyot 5:7\">Eduy. V, 7</cite> <he>החזרת בך</he>, Mish. ed. <cite ref=\"H00572\"><he>חָזַרְתָּ</he></cite>, v. supra."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to make one read over, to cause correction</i>. Y. Meg. IV, 74ᵈ <he>מחזירין אותו</he> we order him to read it over again correctly. ",
+					"units": ["<cite ref=\"Berakhot 29a\">Ber. 29ᵃ</cite>; a. fr."],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

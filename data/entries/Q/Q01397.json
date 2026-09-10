@@ -1,0 +1,33 @@
+{
+	"id": "Q01397",
+	"slug": "פער-2",
+	"headword": {
+		"text": "פְּעַר"
+	},
+	"page": {
+		"number": 1203,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01396\">same</cite>, <i>to uncover</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 25:1\">Targ. Y. I Num. XXV, 1</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּעֵר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01396\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 51b:16\">Ab. Zar. 51ᵇ</cite> <he>השתא פַּעוּרֵי מְפַעֲרִין קמיה וכ׳</he> since they commit nuisances before him (Peor) as a mode of worship, should not offering salt and water be considered as worship?"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

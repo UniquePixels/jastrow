@@ -1,0 +1,31 @@
+{
+	"id": "J00032",
+	"slug": "יבבא-2",
+	"headword": {
+		"text": "יַבָּבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַבָּבוּתָא"
+		},
+		{
+			"text": "יַבַּבְתָּא"
+		}
+	],
+	"page": {
+		"number": 560,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00031\">preced. art.</cite>) <i>sounding an alarm, alarm</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 29:1\">Targ. Num. XXIX, 1</cite>, quoted <cite ref=\"Rosh Hashanah 33b:10\">R. Hash. 33ᵇ</cite>. ",
+				"<cite ref=\"Onkelos Numbers 10:5\">Targ. O. Num. X, 5</cite> sq. <cite ref=\"J00036\"><he>יַבַּבְתָּא</he></cite> ed. Berl. (oth. ed. <cite ref=\"J00031\"><he>יבבא</he></cite>, Y. ed. <cite ref=\"J00036\"><he>יַבֶּבְתָּא</he></cite>). Y. ib. 10 <he>יַבָּבוּ׳</he>; a. fr."
+			]
+		}
+	]
+}

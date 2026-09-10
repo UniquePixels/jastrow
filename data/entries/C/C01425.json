@@ -1,0 +1,66 @@
+{
+	"id": "C01425",
+	"slug": "גשש-1",
+	"headword": {
+		"text": "גָּשַׁשׁ"
+	},
+	"page": {
+		"number": 274,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"C00502\"><he>גּוּשׁ</he></cite>) <i>to touch a substance, to strike against</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 2:2\">Ḥall. II, 2</cite>; Y. ib. 58ᶜ top <he>הספינה גוֹשֶׁשֶׁת</he> the ship touches the ground (in harbor)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּישֵּׁשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to feel, grope</i>. Y. Yoma V, 42ᶜ <he>היה מְגַשֵּׁשׁ וכ׳</he> entered groping &c.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["גִּשְׁגֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"S02257\"><he>קשקש</he></cite>, <he>כשכש</he>) <i>to beat, ring</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 8\">Lev. R. s. 8</cite> (ref. to <cite ref=\"Judges 13:25\">Jud. XIII, 25</cite>, cmp. <he>פַּעֲמֹן</he>) <he>התחיל רוה״ק לגַשְׁגֵּשׁ וכ׳</he> the holy spirit began to ring in Samson."
+					]
+				}
+			],
+			"stem": "Pilp."
+		},
+		{
+			"forms": ["הִתְגַּשֵּׁשׁ"],
+			"senses": [
+				{
+					"gloss": ", <i>Hithpol</i>. <he>הִתְגּוֹשֵׁשׁ</he>, <i>Hithpalp</i>. <he>הִתְגַּשְׁגֵּשׁ</he>, <i>Nithpa.</i> <he>נִתְגַּשֵּׁשׁ</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to wrestle, fight</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite>; s. 77; <cite ref=\"Shir HaShirim Rabbah 3:6\">Cant. R. to III, 6</cite>. ",
+						"<cite ref=\"Shemot Rabbah 28\">Ex. R. s. 28</cite>, beg."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to exercise one’s strength, practice</i>. Pesik. S’liḥoth. p. 166ᵃ <he>גבור שהוא מִתְגּוֹשֵׁש וכ׳</he> a warrior practicing on a stone-cutter’s stone.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

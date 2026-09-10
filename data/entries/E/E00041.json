@@ -1,0 +1,31 @@
+{
+	"id": "E00041",
+	"slug": "הבל-2",
+	"headword": {
+		"text": "הֲבַל"
+	},
+	"page": {
+		"number": 329,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (= b. h. <cite ref=\"E00040\"><he>הָבַל</he></cite>, denom. of <cite ref=\"E00043\"><he>הַבְלָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to do vain things</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 27:12\">Targ. Job XXVII, 12</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be wanton, to sport</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 62:11\">Targ. Ps. LXII, 11</cite> <he>תְהַבְלוּן</he> ed. Wil. (Bxt. <he>תִתְהַבְּלוּן</he> <i>Ithpa.</i>; ed. Lag. <he>תקבלון</he>, Ms. <he>תתחבלון</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

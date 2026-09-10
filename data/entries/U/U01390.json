@@ -1,0 +1,36 @@
+{
+	"id": "U01390",
+	"slug": "שלשה",
+	"headword": {
+		"text": "שְׁלשָׁה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁלשׁ"
+		}
+	],
+	"page": {
+		"number": 1589,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>three</i>; constr. <cite ref=\"U01404\"><he>שְׁלשֶׁת</he></cite>; <cite ref=\"U01387\"><he>שְׁלשׁ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 9:2\">Shebi. IX, 2</cite>, v. <cite ref=\"A03230\"><he>אֶרֶץ</he></cite>. ",
+				"<cite ref=\"Eruvin 40b\">Erub. 40ᵇ</cite>, a. fr. <he>ש׳ רגלים</he>, v. <cite ref=\"T00204\"><he>רֶגֶל</he></cite>. ",
+				"<cite ref=\"Eruvin 41b:12\">Ib. 41ᵇ</cite> <he>ש׳ דברים מעבירין וכ׳</he>, v. <cite ref=\"P00059\"><he>עָבַר</he></cite>. ",
+				"<cite ref=\"Eruvin 41b:14\">Ib.</cite> <he>ש׳ אין רואין וכ׳</he> three classes of men will not see the face of Gehenna (having expiated their sins in this world): those afflicted with extreme poverty &c. ",
+				"<cite ref=\"Rosh Hashanah 10a:5\">R. Hash. 10ᵃ</cite>, a. fr. <cite ref=\"U01385\"><he>בן ש׳</he></cite> three years old (in its third year). ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:10:2\">Y. Succ. I, end, 52ᶜ</cite> <he>שְׁלָשְׁתָּן</he> all three of them. ",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15<sup>27</sup></cite> <he>שְׁלָשְׁתּנוּ</he> all three of us; a. v. fr.—Pl. <he>שְׁלשִׁים</he> <i>thirty</i>. R. Hash. l. c. <he>בן עשרים … וש׳ יום</he> twenty-four months and thirty days old. ",
+				"<cite ref=\"Niddah 45a:56\">Nidd. 45ᵃ</cite> <he>ש׳ יום בשנה וכ׳</he> thirty days of a year count for an entire year; a. v. fr.—Esp. <i>sh’loshim, thirty days of mourning observances for a deceased relative</i>. ",
+				"<cite ref=\"Moed Katan 20a:16\">M. Kat. 20ᵃ</cite> <he>נוהגת שבעה וש׳</he> the laws of mourning observances of seven days and of thirty days apply to it. ",
+				"<cite ref=\"Moed Katan 20a:16\">Ib.</cite> <he>ישב עליו שבעה וש׳</he> he observed for him <i>shibʿah</i> and <i>sh’loshim</i>; a. fr."
+			]
+		}
+	]
+}

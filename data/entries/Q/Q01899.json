@@ -1,0 +1,31 @@
+{
+	"id": "Q01899",
+	"slug": "פרנס-4",
+	"headword": {
+		"text": "פַּרְנָס",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְנָסָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1231,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01898\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 34:5\">Targ. Ez. XXXIV, 5</cite> (h. text <he>רעה</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 22:15\">Targ. Is. XXII, 15</cite> (h. text <cite ref=\"O00921\"><he>סכן</he></cite>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Peah 8:6:7\">Y. Peah VIII, 21ᵃ</cite> <he>ר״ע בעון ממניתיה פ׳ וכ׳</he> when they wanted to appoint R. A. a manager &c. ",
+				"<cite ref=\"Arakhin 17a:11\">Arakh. 17ᵃ</cite> <he>אי מעלי דרא מעלי פ׳</he> if the generation is good, the leader is good; a. fr.—Pl. <he>פַּרְנָסִין</he>, <he>פַּרְנָסַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 11:7\">Targ. Zech. XI, 7</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 34:7\">Targ. Ez. XXXIV, 7</cite>, sq.; a. fr.—Y. Peah l. c. <he>בעא מוקמה לון פ׳ וכ׳</he> wanted to appoint managers for them, but none would accept; Y. Shek. V, 48ᵈ bot. Ib. 49ᵃ bot.; a. fr."
+			]
+		}
+	]
+}

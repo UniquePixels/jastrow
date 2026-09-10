@@ -1,0 +1,30 @@
+{
+	"id": "B00571",
+	"slug": "ביזעא",
+	"headword": {
+		"text": "בִּיזְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיזְעָה"
+		}
+	],
+	"page": {
+		"number": 160,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00459\"><he>בזע</he></cite>) <i>rent, split, cleft</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 70a:2\">Ab. Zar. 70ᵃ</cite> <he>הוה ב׳ בדשא</he> there was a crack in the door. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:14:1\">Cant. R. to IV, 14</cite> (<cite ref=\"Kohelet Rabbah 10:18\">Koh. R. to X, 18</cite> <cite ref=\"B01123\"><he>בקיעה</he></cite>), v. <cite ref=\"A01870\"><he>אָלִיס</he></cite>; <cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>, v. <cite ref=\"B00560\"><he>בִּיזָּא</he> I</cite>.—Pl. <cite ref=\"B00570\"><he>בִּיזְעֵי</he></cite>. ",
+				"<cite ref=\"Taanit 21b\">Taan. 21ᵇ</cite> <he>דאית ביה ב׳ ב׳</he> Ar. s. v. <he>כסילתא</he> (ed. <he>קרנא דהוה בזיע</he>, Ms. M. v. Rabb. D. S. a. l.), v. <cite ref=\"K00325\"><he>כּוֹסִילְתָּא</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite> <he>אזלי וחזאי תרי ב׳</he>; <cite ref=\"Sanhedrin 110a:17\">Snh. 110ᵃ</cite>, v. <cite ref=\"B00560\"><he>בִּיזָּא</he> I</cite>."
+			]
+		}
+	]
+}

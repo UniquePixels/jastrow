@@ -1,0 +1,23 @@
+{
+	"id": "T00987",
+	"slug": "רציעה",
+	"headword": {
+		"text": "רְצִיעָה"
+	},
+	"page": {
+		"number": 1494,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00991\"><he>רָצַע</he></cite>) <i>boring</i>, esp. <i>the boring through of the Hebrew bondsman’s ear</i> (according to <cite ref=\"Exodus 21:6\">Ex. XXI, 6</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:2\">Kidd. I, 2</cite> <he>הנרצע נקנה בר׳</he> the slave that has his ear bored through is taken possession of by the act of boring. ",
+				"<cite ref=\"Kiddushin 17b:5\">Ib. 17ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 15:17\">Deut. XV, 17</cite>) <he>אתה … או אינו אלא לר׳</he> you say, ‘and also to thy maid-servant thon shalt do likewise’ refers to the outfit (of the released slave), may it not refer to the boring? Ib. 16ᵇ <he>אין ר׳ באשה</he> the law of boring through the ear does not apply to a woman. Ib. <he>יובל של ר׳</he> the jubilee year for the slave that had his ear bored through (having declined to go free in his seventh year); a. fr."
+			]
+		}
+	]
+}

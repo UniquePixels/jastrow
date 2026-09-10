@@ -1,0 +1,29 @@
+{
+	"id": "S00970",
+	"slug": "קילופא",
+	"headword": {
+		"text": "קִילּוּפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִלּ׳"
+		}
+	],
+	"page": {
+		"number": 1360,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01403\"><he>קְלַף</he></cite>) <i>peeling, decortication</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:37\">Targ. O. Gen. XXX, 37</cite> <he>קִילּוּף</he> constr. (h. text <he>מחשף</he>).—",
+				"<cite ref=\"Bava Batra 4b:2\">B. Bath. 4ᵇ</cite>, v. <cite ref=\"S01098\"><he>קִיפּוּלָא</he></cite>.—Pl. <he>קִילּוּפֵי</he>, <cite ref=\"S01351\"><he>קִלּוּ׳</he></cite>, <cite ref=\"S01351\"><he>קִלּוֹ׳</he></cite> <i>scab</i>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 13:2\">Targ. Y. I Lev. XIII, 2</cite> (Y. II <cite ref=\"S01405\"><he>קַלְפָא</he></cite>); 6; 7; a. e.—[<cite ref=\"Pesachim 119a\">Pes. 119ᵃ</cite> <he>קִלּוּפֵי</he> Rashi, v. <cite ref=\"S01405\"><he>קַלְפָא</he></cite>.]"
+			]
+		}
+	]
+}

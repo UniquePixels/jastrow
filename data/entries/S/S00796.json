@@ -1,0 +1,72 @@
+{
+	"id": "S00796",
+	"slug": "קטן-3",
+	"headword": {
+		"text": "קָטֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָטַן"
+		}
+	],
+	"page": {
+		"number": 1350,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be short, small, inferior</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 76\">Gen. R. s. 76</cite> (expl. <he>קטנתי</he>, <cite ref=\"Genesis 32:11\">Gen. XXXII, 11</cite>) <he>איני כדאי … כדאי אני אכל קָטֹנְתִּי מכל וכ׳</he> I am not deserving (of any of the mercies &c.); R. L. says, I am deserving, but I am too small for (unworthy of) <i>all</i> the mercies &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְטִין"],
+			"senses": [
+				{
+					"gloss": "<i>to make small; to subordinate</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 90b:4\">B. Bath. 90ᵇ</cite> <he>מַקְטִינֵי איפה</he> those who make the Ephah (measure) small (<cite ref=\"Amos 8:5\">Am. VIII, 5</cite>). Y. Sot. IX, 24ᵇ Samuel was surnamed ‘the small’, <he>לפי שהוא מַקְטִין את עצמו</he> because he made himself small (bore himself humbly). ",
+						"<cite ref=\"Bereishit Rabbah 37:7\">Gen. R. s. 37</cite> (play on <he>יקטן</he>, <cite ref=\"Genesis 10:25\">Gen. X, 25</cite>) <he>מקטין את עסקיו</he> made his affairs small (was contented with subordinate services); <he>מקטין את עצמו ואת עסקיו</he> subordinated himself and his affairs, v. <cite ref=\"R00661\"><he>צָעַר</he></cite>. ",
+						"<cite ref=\"Megillah 11a\">Meg. 11ᵃ</cite>, v. <cite ref=\"S00798\"><he>קַטְנוּת</he></cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to grow smaller, be narrower</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 31:7\">Lev. R. s. 31</cite> <he>מַקְטִינוֹת</he>, v. <cite ref=\"T00473\"><he>רָחב</he></cite>; Pesik. Ḳumi, p. 145ᵃ; ib. 145ᵇ <he>מקיטנות</he> (corr. acc.)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּקְטָן"],
+			"senses": [
+				{
+					"gloss": "<i>to shrink</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 81b:16\">Snh. 81ᵇ</cite> <he>עד שיוּקְטָן</he>, v. <cite ref=\"M02115\"><he>מַעְיָן</he></cite>."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִתְקַטֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be reduced, become less</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 15:5\">Tosef. Sot. XV, 5</cite> Var. <he>משמת … נִתְקַטְּנָה חסידות וכ׳</he> when Abba José ben Ḳiṭnith died, piety became rare in Israel; v. <cite ref=\"S00900\"><he>קִיטּוּנְתָּא</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

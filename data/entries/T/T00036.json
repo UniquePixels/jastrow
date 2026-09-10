@@ -1,0 +1,31 @@
+{
+	"id": "T00036",
+	"slug": "ראשית",
+	"headword": {
+		"text": "רֵאשִׁית"
+	},
+	"page": {
+		"number": 1438,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; denom. of <cite ref=\"T00031\"><he>רֹאשׁ</he></cite>)<i>beginning; firstling, first gift</i>.—<he>בר׳</he>, v. <cite ref=\"B01162\"><he>בְּרֵאשִׁית</he></cite>.—",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 11:1\">Ḥull. XI, 1</cite>, a. e., v. <cite ref=\"C00513\"><he>גֵּז</he></cite>. ",
+				"<cite ref=\"Chullin 136b:18\">Ib. 136ᵇ</cite> <he>ר׳ ששיריה ניכרין</he> a first gift the remainder of which is distinguishable (not the entire mass); <cite ref=\"Chullin 136b:9\">ib.</cite> <he>כל גזיי ר׳</he> all my shorn wool be dedicated as priest’s gift; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>magistracy, office</i>. Y. R. Hash. I, 57ᵇ bot. <he>והעכירו מרֵאשִׁיתוֹ</he> he removed him (the chief magistrate of Gadara) from his office; (Bab. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 22a:1\">ib. 22ᵃ</cite> <he>מגדולתו</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

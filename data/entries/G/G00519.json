@@ -1,0 +1,24 @@
+{
+	"id": "G00519",
+	"slug": "זמינא-1",
+	"headword": {
+		"text": "זְמִינָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 402,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00536\"><he>זְמַן</he></cite>) <i>invited guest</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 24a\">Ned. 24ᵃ</cite>.—<i>Pl.</i> <he>זְמִינַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 9:22\">Targ. I Sam. IX, 22</cite> (ed. Wil. <he>זַמְנ׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

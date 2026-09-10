@@ -1,0 +1,46 @@
+{
+	"id": "J00500",
+	"slug": "יפה-1",
+	"headword": {
+		"text": "יָפֶה"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָפָה"
+		}
+	],
+	"page": {
+		"number": 585,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.; pl. <he>יָפִין</he>, <he>יָפוֹת</he> (b. h.; <he>יפי</he> <i>to join</i>,  [<i>well-joined</i>, cmp. <cite ref=\"K01324\"><he>כָּשֵׁר</he></cite>, <cite ref=\"J00004\"><he>יָאֶה</he></cite> a. Arab. <i>wafa</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>appropriate; strong, healthy; handsome, beautiful, fine</i> (of build); <i>auspicious</i>; (adv.) <i>well, right</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 66b:5\">Ned. 66ᵇ</cite> (an ambiguous expression, v. <cite ref=\"M00515\"><he>מוּם</he></cite>) <he>עד שתראי מום י׳ שביך וכ׳</he> until thou showest to R. … ‘an appropriate blemish’ (or ‘something handsome’) in thee; <he>י׳ קורין וכ׳</he> it was nice (appropriate) that they named her <i>lakhlukhith</i> (aversion). ",
+				"<cite ref=\"Berakhot 4a:9\">Ber. 4ᵃ</cite> <he>י׳ דנתי</he> have I well argued (was I right)?; <he>י׳ חייבתי</he> was I right in convicting?—Ib. 34ᵃ, a. e. <he>רובן קשה ומיעוטן י׳</he> a large dose of them is injurious, a small one wholesome (or becoming). Ib. 39ᵃ <he>י׳ ללב וטוב וכ׳</he> wholesome for the heart, and good &c. Ib. 56ᵇ <he>י׳ לו</he> or <he>י׳</he> is an auspicious dream; a. v. fr.—<he>דעת יָפָה</he>, v. <cite ref=\"D00950\"><he>דַּעַת</he></cite>.—יָדַיִם יָפוֹת <i>skilled hands</i> for grabbing. ",
+				"<cite ref=\"Pesachim 89b\">Pes. 89ᵇ</cite> members of a Passover party <he>שהיו ידיו של אחד מהן י׳</he> one of whom is extremely quick (in taking and eating); <cite ref=\"Tosefta Pesachim 7:10\">Tosef. ib. VII, 10</cite> <he>רפות</he> ed. Zuck. (corr. acc.). Sifra K’dosh. Par. 1, ch. III <he>אפי׳ בריא אפי׳ ידיו י׳</he> even if (among the poor coming for their share in the harvest) he (who insists on grabbing instead of distributing) is very strong, very skillful.—כֹּחַ יָפֶה <i>a strong legal right, privilege, prerogative</i>. ",
+				"<cite ref=\"Kiddushin 21a:4\">Kidd. 21ᵃ</cite> <he>י׳ כחו ליגאל לעולם</he> the privilege of its redemption remains unimpaired forever (up to the jubilee year); <he>י׳ … בשנה שנייה</he> the privilege of redemption in the second year is unimpaired; opp. <he>הורע כחו</he>. ",
+				"<cite ref=\"Shevuot 48a:16\">Shebu. 48ᵃ</cite> <he>י׳ כח הבן וכ׳</he> the son’s prerogative is stronger (more extended) than that of his deceased father was; <cite ref=\"Chullin 49b:14\">Ḥull. 49ᵇ</cite>; a. fr.—Ohol. XVIII, 6; <cite ref=\"Mishnah Zavim 3:1\">Zab. III, 1</cite>, v. <cite ref=\"K00450\"><he>כֹּחַ</he></cite>.—יְפַת תֹּאַר <i>handsome woman</i>, esp. (ref. to <cite ref=\"Deuteronomy 21:10\">Deut. XXI, 10</cite> sq.) <i>a gentile captive</i> with whom the captor has had intercourse before deciding on converting and making her his legitimate wife. ",
+				"<cite ref=\"Kiddushin 21b\">Kidd. 21ᵇ</cite> <he>כהן מהו בי׳ ת׳</he> is a priest permitted to marry a gentile captive?—",
+				"<cite ref=\"Sanhedrin 21a\">Snh. 21ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 107a\">Ib. 107ᵃ</cite> <he>כל הנושא י׳ ת׳ וכ׳</he> he who marries a gentile captive will have a rebellious son (ref. to Deut. l. c. a. ib. 18 sq.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"I00108\"><he>טוֹב</he></cite>) <i>worth, valued</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 8:3\">Keth. VIII, 3</cite> (<cite ref=\"Ketubot 79b\">79ᵇ</cite>) <he>שמין אותה כמה היא יָפָה וכ׳</he> (Mish. … <he>אותן … הן יָפִין</he>) we assess the land how much it is worth with the fruits and how much without. Ib. III, 7; a. fr.—Denom."
+			],
+			"label": "2"
+		}
+	]
+}

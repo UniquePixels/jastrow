@@ -1,0 +1,51 @@
+{
+	"id": "J00114",
+	"slug": "יהב",
+	"headword": {
+		"text": "יְהַב"
+	},
+	"page": {
+		"number": 565,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(h. <cite ref=\"J00114\"><he>יָהַב</he></cite>)<i>to give</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:12\">Targ. Gen. III, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 3:19\">Targ. Job III, 19</cite> <he>יֵיהַב</he> Ms. (ed. <he>יָהִיב</he>, ed. Wil. <he>יְהִיב</he>); a. fr.—Part. pass. <he>יְהִיב</he>. ",
+				"<cite ref=\"Onkelos Numbers 3:9\">Targ. Num. III, 9</cite>; a. fr.—Imperative <cite ref=\"E00023\"><he>הַב</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 30:26\">Targ. Gen. XXX, 26</cite>; a. fr.—Y. Ber. VIII, 11ᵇ bot., a. fr. <he>י׳ ליה מילא</he> gave him assurance of safety. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>יהב את פלגא</he> (read as:) <cite ref=\"Jerusalem Talmud Nazir 5:3:4\">Y. Naz. V, end, 54ᵇ</cite> <he>הב וכ׳</he> give thou half of it. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 5:3:4\">Ib.</cite> [read:] <he>אמר דיֵיבִין ליה יַהֲבוּ ליה ואכל</he> he ordered that they give him (to eat); they gave him, and he ate. ",
+				"<cite ref=\"Kiddushin 9a:1\">Kidd. 9ᵃ</cite> <he>אי יהבינא לך וכ׳</he> (read: <he>יַהֲבִינָהּ</he>) if I give it to thee, wilt thou be betrothed unto me? Said she <he>הָבָהּ מֵיהֲבָהּ</he> give it; <he>כל הבה מיהבה וכ׳</he> all such phrases as ‘give it’, mean nothing (do not mean assent to the proposal); a. v. fr.—<he>נסב וי׳</he> (h. = <he>נשא ונתן</he>) <i>to deal</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:6\">Cant. R. to III, 6</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:15\">Y. Shebi. VII, 37ᶜ</cite> top; a. e.—",
+				"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>, v. infra.—2) <i>to put, place</i>. ",
+				"<cite ref=\"Onkelos Exodus 16:33\">Targ. Ex. XVI, 33</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 12:3:10\">Y. Keth. XII, 35ᵃ</cite> bot. <he>אין אנן יַהֲבִין ליה נֵיהֲבֵיה וכ׳</he> if we put him (his coffin) anywhere, we must put him with R. &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְרַהַב"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְיְהַב", "אִתְיְהֵיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be given</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 9:5\">Targ. Is. IX, 5</cite>. ",
+						"<cite ref=\"Onkelos Exodus 5:16\">Targ. Ex. V, 16</cite>; a. fr.—",
+						"<cite ref=\"Kiddushin 7a\">Kidd. 7ᵃ</cite> <he>משום דא׳ למחילה</he> because it (money or money’s worth) may be given away without consideration; v. <cite ref=\"N01384\"><he>נָתַן</he></cite>.—[<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> … <he>תתיהב דיהבת וכ׳</he>, read: <he>תִּתְיַתַּב … דיַתְּבַת</he>, v. <cite ref=\"J00713\"><he>יְתֵב</he> I</cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

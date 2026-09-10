@@ -1,0 +1,24 @@
+{
+	"id": "H00094",
+	"slug": "חבלה-2",
+	"headword": {
+		"text": "חֲבָלָה"
+	},
+	"page": {
+		"number": 420,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00083\"><he>חָבַל</he></cite>) <i>injury, mayhem; damages for mayhem</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 87a:13\">B. Kam. 87ᵃ</cite> <he>ח׳ למי</he> to whom belong the damages? <cite ref=\"Bava Kamma 91a:3-22\">Ib. 91ᵃ</cite> bot. <he>כי לא … לח׳ דחסריה ממונא</he> we disallow payment in instalments only for the injury, because he caused a loss of money (to the wounded person); a. fr.—Pl. <he>חֲבָלוֹת</he>. ",
+				"<cite ref=\"Bava Kamma 91a:3-22\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Sanhedrin 1:1\">Snh. I, 1</cite>, v. <cite ref=\"C00549\"><he>גְּזֵילָה</he></cite>; a. fr."
+			]
+		}
+	]
+}

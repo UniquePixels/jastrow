@@ -1,0 +1,45 @@
+{
+	"id": "T01018",
+	"slug": "רקד-1",
+	"headword": {
+		"text": "רָקַד"
+	},
+	"page": {
+		"number": 1496,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.), <i>Pi.</i> <he>רִקֵּד</he> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to dance</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 5:2\">Bets. V, 2</cite> <he>ולא מְרַקְּדִין</he> nor dare you dance (on the Sabbath and Holy Days). ",
+				"<cite ref=\"Ketubot 16b:4\">Keth. 16ᵇ</cite> <he>רִקְּדוּ לפניה</he> (or <he>רָקְדוּ</he>) if there is evidence that they danced before her (at the wedding procession, which proves that she married a virgin). ",
+				"<cite ref=\"Ketubot 16b:4\">Ib.</cite> bot. <he>כיצד מְרַקְּדִין לפני הכלה</he> what do we sing in her praise when dancing before a bride? <cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20<sup>11</sup></cite> <he>בשעה … השטן מְרַקֵּד לו וכ׳</he> when a man plans a sin, Satan dances to him (cheering him), until he has done it; a. fr.—V. <cite ref=\"T00695\"><he>רִיקּוּד</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to sift</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְקִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to shake</i> (in the sieve), <i>to sift</i>. Y. Ber. IX, 13ᶜ top; Tosef. Ber. VII (VI), 2. Y. Shebi. V, end, 36ᵃ <he>לא … מַרְקִידִין עמו</he> you must not winnow, or grind, or sift flour together with him. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> (<cite ref=\"Shabbat 73a\">73ᵃ</cite>) <he>המְרַקֵּד</he> he who sifts flour (on the Sabbath); a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

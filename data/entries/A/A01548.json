@@ -1,0 +1,23 @@
+{
+	"id": "A01548",
+	"slug": "איפותורוס",
+	"headword": {
+		"text": "אִיפּוֹתוֹרוֹס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 58,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἱπποθόρος, sub. νόμος, <he>שירת</he>) <i>a tune played to mares on being covered</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:9\">Cant. R. to I, 9</cite> (being asked why they rushed into the water, the horses said) <he>א׳ נעשית לכם בים</he> (ed. <cite ref=\"A01572\"><he>איפתיסיס</he></cite>, <cite ref=\"A01572\"><he>איפתוסים</he></cite>, <cite ref=\"A01567\"><he>אפ׳</he></cite> corr. acc.) a hippothoros is prepared for you in the Sea (a satire on Egyptian lasciviousness)."
+			]
+		}
+	]
+}

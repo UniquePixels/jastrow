@@ -1,0 +1,28 @@
+{
+	"id": "M01415",
+	"slug": "מכנסים",
+	"headword": {
+		"text": "מִכְנָסַיִם"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִכְנָסַיִים"
+		}
+	],
+	"page": {
+		"number": 783,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. (b. h.; <cite ref=\"K00860\"><he>כָּנַס</he></cite>) [<i>clothes of retirement</i>,] <i>undergarment, drawers</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 7:5\">Yoma VII, 5</cite>. ",
+				"<cite ref=\"Yoma 23b:12\">Ib. 23ᵇ</cite> <he>שלא יהא דבר קודם למ׳</he> that there must be no garment put on before (under) the drawers; a. fr."
+			]
+		}
+	]
+}

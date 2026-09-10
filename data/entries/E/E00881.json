@@ -1,0 +1,28 @@
+{
+	"id": "E00881",
+	"slug": "הרמנא",
+	"headword": {
+		"text": "הַרְמָנָא"
+	},
+	"page": {
+		"number": 368,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01772\"><he>מני</he></cite>, with preform. <cite ref=\"E00808\"><he>הר</he></cite>, cmp. <cite ref=\"E00898\"><he>הרפתקי</he></cite>) <i>appointment to office, authority, royal patent</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 1:12\">Targ. Job I, 12</cite>; <cite ref=\"Aramaic Targum to Job 2:7\">II, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 17:11\">Targ. Y. Num. XVII, 11</cite>.—",
+				"<cite ref=\"Berakhot 58a:13\">Ber. 58ᵃ</cite> holding court <he>בלא ה׳ דמלכא</he> without royal appointment. ",
+				"<cite ref=\"Bava Metzia 84a:2\">B. Mets. 84ᵃ</cite> <he>ה׳ דמלכא הוא</he> (Ms. R. 2 <he>הור׳</he>) it is a royal appointment (which I cannot decline). ",
+				"<cite ref=\"Chullin 57b:12\">Ḥull. 57ᵇ</cite> <he>ה׳ דמלכא לא ליבעו</he> would they not have asked for royal authority? <cite ref=\"Chullin 57b:12\">Ib.</cite> <he>ה׳ דמלכא הוו נקיטי</he> they were in possession &c.; (Ar. ed. Koh. the king was among them <he>ומה׳ דמלכא עבוד</he> and they did it by royal authority). ",
+				"<cite ref=\"Bava Batra 46b:5\">B. Bath. 46ᵇ</cite>, v. next w.—<i>Trnsf</i>. (cmp. <cite ref=\"T01079\"><he>רָשׁוּת</he></cite>) <i>office, bureau</i>, esp. <i>Resh Galutha’s office</i>. ",
+				"<cite ref=\"Eruvin 59a:9\">Erub. 59ᵃ</cite> <he>משום דשכיחי רבנן גבי ה׳</he> (v. Rabb. D. S. a. l. note 300) because scholars are accustomed to meet at the Resh Galutha’s office (Ar. <cite ref=\"S00213\"><he>קהרמנא</he></cite>)."
+			]
+		}
+	]
+}

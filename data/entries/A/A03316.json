@@ -1,0 +1,31 @@
+{
+	"id": "A03316",
+	"slug": "אשלא-2",
+	"headword": {
+		"text": "אַשְׁלָא"
+	},
+	"page": {
+		"number": 128,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שלי</he> <i>to draw up</i>) <i>rope, tow; net</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 18:10\">Targ. Job XVIII, 10</cite>; a. e. ",
+				"<cite ref=\"Gittin 69a:5\">Gitt. 69ᵃ</cite> <he>א׳ דפוריא עתיקא</he> a rope of an old litter. ",
+				"<cite ref=\"Ketubot 85a:1\">Keth. 85ᵃ</cite> <he>ממתח לה בא׳</he> he pulled it with a rope. ",
+				"<cite ref=\"Bava Kamma 116b:9\">B. Kam. 116ᵇ</cite> <he>חד א׳</he> one rope’s length away from the shore.—Pl. <cite ref=\"U01293\"><he>אַשְׁלֵי</he></cite>, <cite ref=\"A00926\"><he>אַשְׁלַיָּא</he></cite>, <he>אֲשַׁלְוָון</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:31\">Targ. Job XXXVIII, 31</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 10:26\">Targ. Y. Gen. X, 26</cite>; a. e. [<cite ref=\"Targum of I Chronicles 1:20\">Targ. I Chr. I, 20</cite> <cite ref=\"A00926\"><he>אוּשְׁלַיָּא</he></cite>.]—B. Kam. l. c.—",
+				"<cite ref=\"Sukkah 16a:2\">Succ. 16ᵃ</cite> <he>משדא א׳</he> to twist ropes for a couch. ",
+				"<cite ref=\"Bava Metzia 107b:16\">B. Mets. 107ᵇ</cite>; v. <cite ref=\"M03040\"><he>מְתַח</he></cite>.—",
+				"<cite ref=\"Bekhorot 8b:16\">Bekh. 8ᵇ</cite> <he>אייתו א׳ וכ׳</he> bring ye ropes and measure. ",
+				"<cite ref=\"Ketubot 67a\">Keth. 67ᵃ</cite>, v. <cite ref=\"S01457\"><he>קמחוניא</he></cite>."
+			]
+		}
+	]
+}

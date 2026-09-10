@@ -1,0 +1,36 @@
+{
+	"id": "U01171",
+	"slug": "שכם-4",
+	"headword": {
+		"text": "שְׁכֶם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1575,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.)",
+			"units": []
+		},
+		{
+			"gloss": " pr. n. m. <i>Shechem</i>, son of Hamor the Hivite. ",
+			"units": [
+				"<cite ref=\"Makkot 11a:16\">Macc. 11ᵃ</cite>, a. e., v. <cite ref=\"C00574\"><he>גְּזַר</he></cite>. ",
+				"<cite ref=\"Sotah 22b:3\">Sot. 22ᵇ</cite>, v. <cite ref=\"U00928\"><he>שִׁיכְמִי</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. <i>Shechem</i> in Mount Ephraim. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 97:6\">Gen. R. s. 97</cite>, end (ref. to <cite ref=\"Genesis 48:22\">Gen. XLVIII, 22</cite>, v. <cite ref=\"U01170\">preced.</cite>) <he>זו ש׳ ודאי</he> it means Shechem in reality. ",
+				"<cite ref=\"Genesis 48:22\">Ib.</cite> (in a corrupt passage) <he>לפיכך תהא הש׳ בחלקך</he> therefore shall the district of Sh. (or the mountain range, v. <cite ref=\"U01170\">preced.</cite>) be in thy share. ",
+				"<cite ref=\"Genesis 48:22\">Ib.</cite> <he>בש׳ נפרצה וכ׳</he> in Sh. did unchastity break out, and thou didst fence it in (setting the example of chastity), therefore &c. ",
+				"<cite ref=\"Bamidbar Rabbah 23\">Num. R. s. 23</cite>, v. <cite ref=\"N00733\"><he>נִיפּוֹלִין</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

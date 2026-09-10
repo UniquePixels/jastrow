@@ -1,0 +1,33 @@
+{
+	"id": "B00336",
+	"slug": "בורא-3",
+	"headword": {
+		"text": "בּוּרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 149,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (doubtful) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>little cavity, hole</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 103a\">Sabb. 103ᵃ</cite> <he>לב׳ דקרא</he> Ar. (ed. Koh. <he>לבֵירָא</he>, ed. <cite ref=\"B00572\"><he>בִּיזְרָא</he></cite> q. v.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>female’s pudenda</i>. Ib. 140ᵇ Rashi, Var. (prob. cler. error; ed. <cite ref=\"K00366\"><he>כורא</he></cite>), v. <cite ref=\"B00468\"><he>בִּזְרָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

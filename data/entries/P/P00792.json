@@ -1,0 +1,22 @@
+{
+	"id": "P00792",
+	"slug": "עלי-3",
+	"headword": {
+		"text": "עֱלִי"
+	},
+	"page": {
+		"number": 1082,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00772\"><he>עָלָה</he></cite>)<i>pestle</i>. Y. Peah I, 17ᵃ top [read:] <he>כותש כעלי במכתש</he>, v. <cite ref=\"K01391\"><he>כָּתַשׁ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:5\">Bets. I, 5</cite>; <cite ref=\"Beitzah 10a:15\">ib. 10ᵃ</cite>; <cite ref=\"Shabbat 123a:4\">Sabb. 123ᵃ</cite>"
+			]
+		}
+	]
+}

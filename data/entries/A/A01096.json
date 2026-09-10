@@ -1,0 +1,22 @@
+{
+	"id": "A01096",
+	"slug": "אטלקותא",
+	"headword": {
+		"text": "אִטְלָקוּתא"
+	},
+	"page": {
+		"number": 43,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00525\"><he>טלק</he></cite>) <i>being thrown</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:4\">Targ. Job. III, 4</cite> <he>באִטְלָקוּתֵיה</he> (Var. <he>אִיטַלָּ׳</he>) on his being thrown."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "Q00322",
+	"slug": "פוקלא",
+	"headword": {
+		"text": "פּוּקְלָא"
+	},
+	"page": {
+		"number": 1146,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01493\"><he>פקל</he></cite>) <i>pod</i> or <i>capsule of a plant, boll</i> (of flax).—Pl. <cite ref=\"Q00284\"><he>פּוּקְלִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 9:31\">Targ. Y. I Ex. IX, 31</cite> (h. text <cite ref=\"C00124\"><he>גבעול</he></cite>).—[<cite ref=\"Niddah 17a\">Nidd. 17ᵃ</cite>, v. <cite ref=\"Q01460\"><he>פְּקוֹלִין</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"id": "V00943",
+	"slug": "תרגם-1",
+	"headword": {
+		"text": "תִּרְגֵּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 1695,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (late b. h.;<i>to speak aloud</i>, Assyr.) <i>to deliver, proclaim</i> (v. ",
+			"units": [
+				"<cite ref=\"Ezra 4:7\">Ezra IV, 7</cite>). ",
+				"<cite ref=\"Vayikra Rabbah 9:5\">Lev. R. s. 9</cite> (ref. to <cite ref=\"Proverbs 14:9\">Prov. XIV, 9</cite> <he>יליץ</he>) <he>הטיפש הזה מְתַרְגֵּם חובתו בפיו וכ׳</he> that fool proclaims his guilt with his own mouth and says, am I not bound to bring a sin-offering &c.?—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>to explain, interpret</i>, act as an Amora (v. <cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite>); ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " (at public service) <i>to translate orally</i> (<i>in Aramaic</i>) <i>what has been read from the Scriptures in the original</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:19\">Y. Bicc. III, 65ᵈ</cite> top <he>תי׳ ר׳ וכ׳</he> R. Jacob … (having to act as an Amora to an ignorant teacher) interpreted (the verse <cite ref=\"Habakkuk 2:19\">Hab. II, 19</cite>) &c. ",
+						"<cite ref=\"Jerusalem Talmud Sukkah 5:3:3\">Y. Succ. V, 55ᵇ</cite> bot. <he>מהו מפקיעין תי׳ ר׳ … מפשילים</he> what is <i>mafḳiʿin</i>? R. H. (as Amora) before R. J. explained it by the word <i>mafshilim</i> (v. <cite ref=\"Q02083\"><he>פָּשַׁל</he></cite>). ",
+						"<cite ref=\"Bava Batra 88a:3\">B. Bath. 88ᵃ</cite> <he>אני וארי תִּרְגֵּימְנוּהָ</he> (prob. to be read: <he>תִּירְגַּמְ׳</he>) I and the lion in our company (a great scholar) have explained it; (<cite ref=\"Sanhedrin 8b\">Snh. 8ᵇ</cite>; <cite ref=\"Shabbat 111b\">Sabb. 111ᵇ</cite> <cite ref=\"V00942\"><he>תַּרְגִּימְנָא</he></cite>, <he>תַּרְגִּימְנָהּ</he> Chald.). Ib. 53ᵃ <he>ישר וכן תִּרְגְּמָהּ וכ׳</he> it is right, and so did Aryokh (Samuel) teach it (as Amora) in Babylonia. ",
+						"<cite ref=\"Kiddushin 49a:11\">Kidd. 49ᵃ</cite>; Tosef. Meg. IV (III), 41 <he>המְתַרְגֵּם וכ׳</he>, v. <cite ref=\"R00252\"><he>צוּרָה</he></cite>. ",
+						"<cite ref=\"Mishnah Megillah 4:6\">Meg. IV, 6</cite> <he>קטן … ומתרגם</he> a minor may read from the Law and translate; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִיתַּרְגֵּם", "הִתַּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be translated, interpreted</i>. Ib. 10 <he>מִיתַּרְגֵּם</he>; <he>מִיתַּרְגְּמִין</he>; Tosef. ib. IV (III), 31 <he>מִתַּ׳</he>, v. <cite ref=\"S02018\"><he>קָרָא</he></cite>; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

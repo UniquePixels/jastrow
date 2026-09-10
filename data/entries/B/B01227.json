@@ -1,0 +1,24 @@
+{
+	"id": "B01227",
+	"slug": "ברזל-1",
+	"headword": {
+		"text": "בַּרְזֶל"
+	},
+	"page": {
+		"number": 191,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"B01216\"><he>ברז</he></cite>)<i>iron, iron tool</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 75:10\">Gen. R. s. 75</cite> <he>לובשי ב׳</he> clad in iron armor; a. fr.—צאן ב׳ <i>flock sold to payment in terms</i> under the condition that the young be divided until the payment in full has taken place. ",
+				"<cite ref=\"Mishnah Bekhorot 2:4\">Bekh. II, 4</cite>, v. <cite ref=\"F00061\"><he>וָלָד</he></cite>.—(<cite ref=\"N00842\"><he>נכסי</he></cite>) <he>עבדי צאן ב׳</he> <i>mort-main</i>, wife’s estate held by her husband, which, in case of her death or divorce, he must restore <i>in specie</i>, being responsible whith all his landed property for loss or deterioration. ",
+				"<cite ref=\"Mishnah Yevamot 7:1\">Yeb. VII, 1</cite>; a. fr.; v. <cite ref=\"N00841\"><he>נְכָסִים</he></cite>."
+			]
+		}
+	]
+}

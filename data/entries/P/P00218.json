@@ -1,0 +1,28 @@
+{
+	"id": "P00218",
+	"slug": "עוזא-1",
+	"headword": {
+		"text": "עִוּזָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עֻזָּא"
+		}
+	],
+	"page": {
+		"number": 1049,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"P00217\">preced.</cite>) name of <i>a bird of prey</i>, prob. <i>sea-eagle</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:13\">Targ. Y. Lev. XI, 13</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 14:12\">Targ. Y. I Deut. XIV, 12</cite> (h. text <he>פרס</he>).—V. <cite ref=\"P00220\"><he>עוּזְיָא</he></cite>, a. <cite ref=\"P01237\"><he>עַר</he></cite>."
+			]
+		}
+	]
+}

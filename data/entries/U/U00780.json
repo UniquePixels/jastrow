@@ -1,0 +1,37 @@
+{
+	"id": "U00780",
+	"slug": "שיבא-1",
+	"headword": {
+		"text": "שִׁיבָּא"
+	},
+	"page": {
+		"number": 1556,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U00065\"><he>שָׁבַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>chip</i>. ",
+			"units": [
+				"<cite ref=\"Horayot 3b:10\">Hor. 3ᵇ</cite>, v. <cite ref=\"K01300\"><he>כָּשׁוֹרָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 36b:3\">B. Bath. 36ᵇ</cite> <he>מימר אמד כל ש׳ וש׳ דכרבא וכ׳</he> (Ms. M. <he>שִׁיבֵּי</he>, <i>pl.</i>, v. Rashb. a. l.) (the owner of a field which he allows another man to plough) may think, let every chip of the plough go into it (the soil), i.e. he does not care to protest as long as his neighbor derives no benefit from his field; [anoth. opin., v. infra].—",
+				"<cite ref=\"Avodah Zarah 69b\">Ab. Zar. 69ᵇ</cite>, v. <cite ref=\"U00901\"><he>שַׁיְיכָא</he></cite>.—<i>Pl.</i> <he>שִׁיבֵּי</he>. B. Bath. l. c., v. supra. ",
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite> Ar. (ed. <cite ref=\"R00001\"><he>צ׳</he></cite>), v. <cite ref=\"K01300\"><he>כָּשׁוֹרָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>incision, groove</i>. B. Bath. l. c. <he>כל ש׳ וש׳ וכ׳</he> let every incision that the plough makes go into it (the soil).—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Pesachim 74a:2\">Pes. 74ᵃ</cite> <he>איידי דאית ליה ש׳</he> because palm wood has grooves &c."
+			],
+			"label": "2"
+		}
+	]
+}

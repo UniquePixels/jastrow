@@ -1,0 +1,33 @@
+{
+	"id": "H01820",
+	"slug": "חשוך-1",
+	"headword": {
+		"text": "חָשׁוּךְ"
+	},
+	"page": {
+		"number": 509,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01847\"><he>חָשַׁךְ</he></cite>)<i>dark, black</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 8a:10\">Ab. Zar. 8ᵃ</cite>, v. <cite ref=\"H01847\"><he>חָשַׁךְ</he></cite>.—Pl. <he>חֲשׁוּכִּים</he>, <he>כִּין …</he>; f. <he>חֲשׁוּכּוֹת</he>. ",
+				"<cite ref=\"Mishnah Bekhorot 7:5\">Bekh. VII, 5</cite> (expl. <he>מרוח אשך</he>, <cite ref=\"Leviticus 21:20\">Lev. XXI, 20</cite>) <he>שמראיו ח׳</he> whose complexion is very dark. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 258\">Yalk. Ex. 258</cite> <he>פנים ח׳</he> dark (frowning) countenance; Mekh. B’shall., Vayassa, s. 2 <he>חֲשֵׁכוֹת</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>obscured, benighted</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite>, beg. (ref. to <cite ref=\"Proverbs 22:29\">Prov. XXII, 29</cite>) <he>פרעה הח׳</he> Pharaoh, the benighted.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite> (ref. to Prov. l. c.) <he>לפני ח׳ אלו הרשעים</he> ‘before the benighted’ that means the wicked."
+			],
+			"label": "2"
+		}
+	]
+}

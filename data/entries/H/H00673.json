@@ -1,0 +1,38 @@
+{
+	"id": "H00673",
+	"slug": "חיה-3",
+	"headword": {
+		"text": "חַיָּה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 451,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00671\"><he>חָיָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>recovering</i>,] <i>lying-in woman, woman in confinement</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 8:1\">Yoma VIII, 1</cite> <he>הח׳ תנעול וכ׳</he> a woman after confinement may wear shoes (on the Day of Atonement). ",
+				"<cite ref=\"Berakhot 54b:21\">Ber. 54ᵇ</cite> <he>חולה ח׳ וכ׳</he> a sick person, a lying-in &c.; a. fr.—Pl. <cite ref=\"H00690\"><he>חַיּוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:7\">Y. Kil. IX, 32ᵇ</cite> bot.; <cite ref=\"Bereishit Rabbah 96:5\">Gen. R. s. 96</cite>, end <he>אי לכם ח׳ וכ׳</he> woe to you, lying-in women in Palestine; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>physician</i>,] <i>midwife</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 7:2\">Tosef. B. Bath. VII, 2</cite> <he>נאמנת ח׳ וכ׳</he> the midwife is an admissible witness as to which (of twins) was the first-born; Y. Kidd. IV, 69ᵈ bot.; Y. B. Bath. III, beg. 13ᵈ <he>הח׳ בשעה וכ׳</he> the midwife (is an admissible witness) only as long as she is seated by the obstetric chair (not after she left the mother). Y. Yeb. XVI, end, 16ᵃ <he>עשו אותו כח׳ וכ׳</he> they place him in the same category as a midwife whose testimony is valid on the spot; a. e.—Pl. as ab. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:5:1\">Cant. R. to IV, 5</cite> <he>מרים</he> … <he>חַיּוֹתֵיהֶן וכ׳</he> Miriam … were the midwives of Israel; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

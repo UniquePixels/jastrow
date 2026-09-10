@@ -1,0 +1,32 @@
+{
+	"id": "P01209",
+	"slug": "עקף-1",
+	"headword": {
+		"text": "עָקַף"
+	},
+	"page": {
+		"number": 1107,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"P01143\"><he>עָקַב</he></cite>) [<i>to bend, go around</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to circumvent; to seek occasion against</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 5:1:7\">Y. Gitt. V, 46ᶜ</cite> bot. <he>ומלוה … ועוֹקֵף ונוטלה ממנו</he> he will lend him money and seek an opportunity to take it (the coveted field) from him; (<cite ref=\"Tosefta Ketubot 12:2\">Tosef. Keth. XII, 2</cite> <he>וקופץ</he>, v. ",
+				"<cite ref=\"Gittin 49b\">Gitt. 49ᵇ</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go beyond, supersede</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:30\">Y. Kidd. I, 59ᵈ</cite> top <he>בשלשה מקומות ההלכה עוֹקֶפֶת למקרא וכ׳</he> (not <he>התורה</he>) on three occasions the practice supersedes the Biblical text, and on one the legitimate interpretation of the text (ignoring the rules of interpretation); <cite ref=\"Sotah 16a\">Sot. 16ᵃ</cite>, v. <cite ref=\"P01143\"><he>עָקַב</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

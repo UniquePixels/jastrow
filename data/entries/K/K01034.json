@@ -1,0 +1,56 @@
+{
+	"id": "K01034",
+	"slug": "כפן-2",
+	"headword": {
+		"text": "כְּפַן",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפֵין"
+		}
+	],
+	"page": {
+		"number": 660,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"K01033\">same</cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to bend</i>.—Part. pass. <cite ref=\"K01016\"><he>כָּפִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:17\">Targ. Job XL, 17</cite> (ed. Lag. <cite ref=\"K01044\"><he>כפיף</he></cite>, ed. Wil. <he>כפף</he>, Ms. <cite ref=\"K00016\"><he>כאיף</he></cite>; h. text <he>יחפץ</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pine</i> (for food), <i>to starve</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 34:11\">Targ. Ps. XXXIV, 11</cite>. ",
+				"<cite ref=\"Onkelos Genesis 41:55\">Targ. Gen. XLI, 55</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 62b:2\">Ber. 62ᵇ</cite> (prov.) <he>עד דכַפְנַת אכול</he> eat while thou art hungry (delay nothing). ",
+				"<cite ref=\"Pesachim 107b:7\">Pes. 107ᵇ</cite> bot. <he>כי היכי דאגיר׳ ואִכְפַן אמצה וכ׳</he> Ms. M. (read: <he>דאיגרר</he>, v. Rabb. D. S. a. l. note; ed. <he>דניגרריה לליביה</he>) that I may get an appetite and be eager for the <i>Matsah</i> in the evening. ",
+				"<cite ref=\"Bava Metzia 83a:10\">B. Mets. 83ᵃ</cite> <he>וכְפִינָן</he> and we are hungry; a. fr.—[<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite> <he>כַּפְנָאִי</he> I am hungry (?).]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַכְפֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to hunger</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 8:3\">Targ. Deut. VIII, 3</cite>; a. e.—",
+						"<cite ref=\"Shabbat 33a:12\">Sabb. 33ᵃ</cite> <he>מַכְפֵּין נפשיה</he> he starved himself (and grew sick in consequence)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

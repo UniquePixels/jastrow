@@ -1,0 +1,29 @@
+{
+	"id": "S01848",
+	"slug": "קצרא-1",
+	"headword": {
+		"text": "קַצְרָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַצְרָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1408,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"S01847\">preced.</cite>) pr. n. m. <i>Ḳatsra</i> (<i>Fuller</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:6\">Y. Kil. IX, 32ᵇ</cite>; <cite ref=\"Jerusalem Talmud Ketubot 12:3:6\">Y. Keth. XII, 35ᵃ</cite>; <cite ref=\"Kohelet Rabbah 7:11:1\">Koh. R. to VII, 11</cite>.—",
+				"<cite ref=\"Esther Rabbah 4:1\">Esth. R. to I, 13</cite> <he>ר׳ יוסי בר ק׳</he> (some ed. <cite ref=\"S01856\"><he>קַצְרַת</he></cite>); <cite ref=\"Bereishit Rabbah 72\">Gen. R. s. 72</cite> <he>בן קוצרי</he>; <cite ref=\"Shir HaShirim Rabbah 6:4\">Cant. R. to VI, 4</cite> <he>בר קסרין</he>; Pesik. Vayhi, p. 9ᵃ <he>ר׳ יוסי ובר קצה</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 10:1:8\">Y. B. Bath. X, 17ᶜ</cite> <he>ר׳ יסא קוצירא</he>. ",
+				"<cite ref=\"Shabbat 151b:17\">Sabb. 151ᵇ</cite> bot. <he>ר׳ יוסי בן קְצַרְתָּה</he> (Ms. M. <cite ref=\"S01856\"><he>קצרתא</he></cite>). Midr. Sam. ch. XXVI <he>ר׳ יצחק בר קצרתה</he>; <cite ref=\"Jerusalem Talmud Rosh Hashanah 1:1:5\">Y. R. Hash. I, 56ᵇ</cite> <he>בר קצצתה</he>."
+			]
+		}
+	]
+}

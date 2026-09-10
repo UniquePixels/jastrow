@@ -1,0 +1,21 @@
+{
+	"id": "S01947",
+	"slug": "קרומטסין",
+	"headword": {
+		"text": "קְרוּמְטַסִּין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1414,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <cite ref=\"S01945\"><he>קְרוּם</he></cite> a. <cite ref=\"I00585\"><he>טַס</he></cite>) <i>cover</i> (or <i>color</i>) <i>of gold foils</i>, name of a jewel in the high priest’s breastplate (corresp. to b. h. <he>תרשיש</he>; χρυσόλιθος, LXX <cite ref=\"Exodus 28:20\">Ex. XXVIII, 20</cite>; Targ. <he>כרום ימא</he>). ",
+			"units": ["<cite ref=\"Shemot Rabbah 38\">Ex. R. s. 38</cite>, end."]
+		}
+	]
+}

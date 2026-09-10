@@ -1,0 +1,40 @@
+{
+	"id": "K01358",
+	"slug": "כתיבה",
+	"headword": {
+		"text": "כְּתִיבָה"
+	},
+	"page": {
+		"number": 681,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01339\"><he>כָּתַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>writing</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 104b:9\">Sabb. 104ᵇ</cite> <he>כ׳ היא אלא וכ׳</he> it is a writing, and what is needed to make it one word is bringing the two ends of the papers close together. ",
+				"<cite ref=\"Menachot 34a:13\">Men. 34ᵃ</cite> <he>כ׳ הנוהגת לדורות</he> a mode of writing used at all times (not stone inscriptions). ",
+				"<cite ref=\"Shabbat 103a:9\">Sabb. 103ᵃ</cite> <he>אין דרך כ׳ בכך</he> this (using the left hand) is not the way of writing. ",
+				"<cite ref=\"Shabbat 103b:13\">Ib.ᵇ</cite> (ref. to <he>וכ̇ת̇ב̇ת̇ם̇</he>, <cite ref=\"Deuteronomy 6:9\">Deut. VI, 9</cite>) <he>שתהא כ̇ת̇יב̇ה ת̇מ̇ה</he> that the writing must be perfect. Ib. 105ᵃ (expl. <he>א̇נ̇כ̇י̇</he>, <cite ref=\"Exodus 20:2\">Ex. XX, 2</cite>, v. <cite ref=\"A02248\"><he>אָנֹכִי</he></cite>) <he>א̇מירה נ̇עימה כ̇</he>' <he>י̇היבה</he> a sweet proclamation, a writing, a gift; <cite ref=\"Yalkut Shimoni on Torah 81:7\">Yalk. Gen. 81</cite>. ",
+				"<cite ref=\"Gittin 17b:7\">Gitt. 17ᵇ</cite> <he>משעת כ׳ ועד וכ׳</he> from the time the letter of divorce was written to the time of its delivery. ",
+				"<cite ref=\"Gittin 45b:6\">Ib. 45ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 6:8-9\">Deut. VI, 8—9</cite>) <he>כל שישנו בקשירה ישנו בכ׳</he> only he who is under the obligation of binding (the T’fillin on his arm), is fit for writing (the scrolls of the Law &c.). ",
+				"<cite ref=\"Ketubot 102b:7\">Keth. 102ᵇ</cite> <he>וקרי ליה לאמירה כ׳</he> and is ‘saying’ (verbal declaration) called ‘writing’ (consignment)?; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the word</i> <he>כתב</he> <i>in Biblical texts</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 16a:4\">Ber. 16ᵃ</cite> <he>בין כ׳ לכ׳ וכ׳</he> if a person in reading the Sh’ma is in doubt as to whether he is at <he>וכתבתם</he> (of <cite ref=\"Deuteronomy 6:9\">Deut. VI, 9</cite>) or at <he>וכתבתם</he> (of ib. XI, 20), he must go back to the first <he>וכתבתם</he>; Y. ib. II, 5ᵃ <cite ref=\"K01359\"><he>כתיבת</he></cite> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

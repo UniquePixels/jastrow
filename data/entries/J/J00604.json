@@ -1,0 +1,32 @@
+{
+	"id": "J00604",
+	"slug": "ירוד-2",
+	"headword": {
+		"text": "יָרוֹד",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "יָארוֹד"
+		},
+		{
+			"text": "יָי׳"
+		}
+	],
+	"page": {
+		"number": 594,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. [prob. to be read: <cite ref=\"J00615\"><he>יָרוֹר</he></cite>; v. <cite ref=\"H00466\"><he>חֲוַרְוָר</he></cite> a. <cite ref=\"F00094\"><he>וָרִיר</he></cite>] <i>white spot in the eye</i> (<i>leucoma</i>). ",
+			"units": [
+				"<cite ref=\"Shabbat 78a\">Sabb. 78ᵃ</cite> <he>יא׳</he> ed. (Ar. <he>יר׳</he>; Ms. O. <cite ref=\"J00005\"><he>יָי׳</he></cite>; Tosef. ib. VIII (IX), 8 <cite ref=\"H00274\"><he>חֲוַורְוָאר</he></cite> ed. Zuck., Var. <he>חוורד</he>, <cite ref=\"H01618\"><he>חרוד</he></cite>, Rashi to Sabb. l. c. quotes <cite ref=\"H00466\"><he>חֲוַרְוָר</he></cite>)."
+			]
+		}
+	]
+}

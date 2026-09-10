@@ -1,0 +1,44 @@
+{
+	"id": "M03063",
+	"slug": "מתיקה",
+	"headword": {
+		"text": "מְתִיקָה"
+	},
+	"page": {
+		"number": 862,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M03099\"><he>מָתַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sweet taste</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:16\">Y. Ber. V, 9ᵃ</cite> top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>seasoning, relish</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 7:1\">B. Mets. VII, 1</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " מיני מ׳ <i>sweetmeats, delicacies; sweet drinks</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 85a:19\">B. Kam. 85ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 2:5:2\">Y. Orl. II, 62ᵇ</cite> top. ",
+				"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> <he>מיני מתוקים</he>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 7:1:6\">Y. Ned. VII, 40ᵇ</cite> bot. <he>הנודר מן התירוש אסור בכל מיני מ׳</he> he who vows abstinence from <i>tirosh</i>, is forbidden all kinds of sweet (unfermented) drinks; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

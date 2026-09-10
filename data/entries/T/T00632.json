@@ -1,0 +1,24 @@
+{
+	"id": "T00632",
+	"slug": "ריטלין",
+	"headword": {
+		"text": "רִיטְלִין"
+	},
+	"page": {
+		"number": 1474,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (transpos. of <cite ref=\"L00447\"><he>לִיטְרָא</he></cite>) <i>Librae</i> (<i>pounds</i>), v. <cite ref=\"L00447\"><he>לִיטְרָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:10:2\">Y. Keth. V, 30ᵇ</cite> bot. (ref. to <he>מנה דבילה</he> Mish. ",
+				"<cite ref=\"Mishnah Ketubot 5:12\">ib. V, 12</cite>) <he>אמר רב מנא ארבע ר׳</he> (not <he>וארבע</he>) R. M. says, it means four pounds (of figs)."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "T00151",
+	"slug": "רבתא",
+	"headword": {
+		"text": "רַבְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַבְּתָה"
+		}
+	],
+	"page": {
+		"number": 1446,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " fem. of <cite ref=\"T00042\"><he>רַבָּא</he></cite>, q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>great city, capital</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Nahum 3:8\">Targ. Nah. III, 8</cite>, v. infra.—",
+				"<cite ref=\"Bereishit Rabbah 1:1\">Gen. R. s. 1</cite>, beg. (play on <cite ref=\"A01999\"><he>אמון</he></cite>, <cite ref=\"Proverbs 8:30\">Prov. VIII, 30</cite>) <he>ואית … אמון ר׳</he> and some say, <i>amon</i> means the capital; <he>אמון ר׳ כמה וכ׳</he> <i>amon</i> means capital, as we read (Nah. l. c.), ‘art thou better than No Amon? which is translated, <he>האת … ר׳ וכ׳</he> art thou better than Alexandria, the capital?"
+			],
+			"label": "2"
+		}
+	]
+}

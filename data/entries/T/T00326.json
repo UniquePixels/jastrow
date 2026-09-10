@@ -1,0 +1,93 @@
+{
+	"id": "T00326",
+	"slug": "רווח-1",
+	"headword": {
+		"text": "רָוַוח"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָוַח"
+		}
+	],
+	"page": {
+		"number": 1456,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be wide, roomy; to spread</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:4:3\">Y. Snh. I, 19ᶜ</cite> top <he>משם התורה יוצאה ורווַֹחַת וכ׳</he> from there (the hall of the Sanhedrin) the law went forth and spread (with authority) for all Israel; Tosef. ib. VII, 1; <cite ref=\"Tosefta Chagigah 2:9\">Tosef. Ḥag. II, 9</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:6:3\">Y. Yeb. I, 3ᵃ</cite> bot. <he>ראה … רווחת בישראל</he> see how this decision will spread (what its effect will be) in Israel; a. e.—Part. pass. <he>רָווּחַ</he>; pl. <he>רְווּחִים</he>. ",
+				"<cite ref=\"Pirkei Avot 5:5\">Ab. V, 5</cite>, a. e. <he>משתחוים</he>, <he>ר׳</he>, v. <cite ref=\"R00705\"><he>צָפַף</he></cite>; [Mish. ed. <he>רְוָחִים</he>, pl. of <cite ref=\"T00343\"><he>רָוָח</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רוּוָּח"],
+			"senses": [
+				{
+					"gloss": "<i>to be placed wide apart</i>.—Part. <he>מְרוּוָּח</he>; f. <he>מְרוּוַּחַת</he>; pl. <he>מְרוּוָּחִים</he>, <he>מְרוּוָּחִין</he>; <he>מְרוּוָּחוֹת</he> (or <he>מְרֻיָּו׳</he>). Y. Shebi. II, end, 34ᵇ <he>במר׳</he> when the trees are planted wide apart, opp. <he>רצופין</he>; Y. M. Kat. I, 80ᶜ top; a. e.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be wide and flat</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 7:23\">Koh. R. to VII, 23</cite> <he>מקום מר׳</he>, v. <cite ref=\"T00328\"><he>רֶוַוח</he></cite>. ",
+						"<cite ref=\"Tosefta Keilim Metsia 8:6\">Tosef. Kel. B. Mets. VIII, 6</cite> <he>לשונות מר׳</he> R. S. to <cite ref=\"Mishnah Kelim 18:5\">Kel. XVIII, 5</cite> wide and flat straps (comfortable to lie on), v. <cite ref=\"L00232\"><he>לוּחַ</he> I</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["הִרְוִיחַ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"T00343\"><he>רֶוַח</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be relieved</i>; ",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make profit</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 13:12\">Gen. R. s. 13</cite> <he>משא … מַרְוִיחִין</he> commerce is prosperous, and the dealers make profit; <he>אף … מרויחין</he> even the lepers feel relieved; Yalk. ib. 20. ",
+						"<cite ref=\"Bereishit Rabbah 39:1\">Gen. R. s. 39</cite> <he>החולה … ומַרְוִיחַ</he> the sick man saw him (Abraham) and felt better. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 843:15\">Yalk. Ps. 843</cite>, v. <cite ref=\"T00328\"><he>רֶוַוח</he></cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cause relief</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 34:1\">Lev. R. s. 34</cite> <he>מרויחין לו</he> they (the visitors) bring him some relief; <cite ref=\"Midrash Tehillim 41:2\">Midr. Till. to Ps. XLI</cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְרַוֵּוחַ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְרַוֵּוחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be relieved, be in comfortable circumstances</i>. Lev. R. l. c. <he>לכשאתה מִתְרַוּוֵחַ וכ׳</he> when thou art in better circumstances, thou wilt repay me.—[Ib., a. e. <he>נתרווח העולם</he>, read: <cite ref=\"T00358\"><he>נִתְרַוֶּוה</he></cite>, v. <cite ref=\"T00322\"><he>רָוָה</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

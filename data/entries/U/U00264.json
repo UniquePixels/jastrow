@@ -1,0 +1,32 @@
+{
+	"id": "U00264",
+	"slug": "שדוכא",
+	"headword": {
+		"text": "שַׁדּוֹכָא"
+	},
+	"page": {
+		"number": 1524,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00274\"><he>שְׁדַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>quiet, peaceable</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 4:40\">Targ. I Chr. IV, 40</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>peace, rest</i>. Ib. XXII, 9 (ed. Wil. <cite ref=\"U00264\"><he>שְׁדוֹכָא</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

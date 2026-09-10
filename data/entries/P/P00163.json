@@ -1,0 +1,71 @@
+{
+	"id": "P00163",
+	"slug": "עדר-1",
+	"headword": {
+		"text": "עָדַר"
+	},
+	"page": {
+		"number": 1045,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"C00244\"><he>גָּדַר</he></cite> a. <cite ref=\"P00122\"><he>עָדַד</he></cite>)<i>to strip</i>.—Part. pass. <cite ref=\"P00126\"><he>עָדוּר</he></cite>; f. <he>עֲדוּרָה</he>, v. <cite ref=\"A00441\"><he>אָדַר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pluck, clear</i> (of weeds); <i>to hoe; to pick</i> (figs, cmp. <cite ref=\"A03013\"><he>אָרָה</he></cite>); [b. h. also: <i>to sift</i> an army, <i>to discharge the unfit</i> &c., <i>to muster out</i>, v. ",
+			"units": [
+				"<cite ref=\"I Chronicles 12:34\">I Chr. XII, 34</cite>; <cite ref=\"I Chronicles 12:39\">39</cite>]. ",
+				"<cite ref=\"Mishnah Negaim 2:4\">Neg. II, 4</cite>; Sifra Thazr., Neg., Par. 3, ch. IV <he>כעוֹדֵר</he> in the position of one hoeing; <he>כעודר בבית הסתרים</he> the position of one hoeing is required for the examination of the posteriors. ",
+				"<cite ref=\"Tosefta Ma'asrot 2:14\">Tosef. Maasr. II, 14</cite> <he>פועלים שהיו עוֹדְרִין בתאנים</he> laborers engaged in picking figs; <cite ref=\"Bava Metzia 89b\">B. Mets. 89ᵇ</cite> (Ar. <he>אורין</he>, v. <cite ref=\"A03013\"><he>אָרָה</he></cite>). ",
+				"<cite ref=\"Bava Metzia 89b\">Ib.</cite> <he>לַעֲדוֹר ולקשקש וכ׳</he> Rashi (ed. <he>לעַדֵּר</he>, <i>Pi.</i>) to hoe and to cover up the roots of olive trees. ",
+				"<cite ref=\"Bava Kamma 119b:19\">B. Kam. 119ᵇ</cite> <he>עוֹדְרֵי ירקות</he> engaged in thinning vegetables (cmp. <cite ref=\"D00841\"><he>דָּלַל</he></cite>); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִדֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00162\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Tosefta Ma'asrot 2:13\">Tosef. Maasr. II, 13</cite> <he>מְעַדְּרִין בשדה</he> engaged in hoeing a field. ",
+						"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite> better is he who rents one field <he>ומזבלה ומְעַדְּרָהּ וכ׳</he> and manures and hoes it &c. Y. Maasr. III, end, 51ᵃ <he>והוא שעי׳ רובה</he> provided he broke the ground of the larger portion of the court; a. fr.—[<cite ref=\"Tosefta Makhshirin 1:3\">Tosef. Makhsh. I, 3</cite> <he>מעודר</he>, ed. Zuck. <he>מעודרון</he>, v. <cite ref=\"P00198\"><he>עוּד</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֶעֱדַר", "נֶעְדַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be hoed, to be prepared for tillage</i>. Y. l. c. <he>והיא שתהא נעדרת</he> provided the ground of the court has been broken (before sowing). Ib. 50ᵈ bot. <he>חצר שהיא נעדרת ונזרעת</he> R. S. to <cite ref=\"Mishnah Maasrot 3:9\">Maasr. III, 9</cite> (ed. only <he>נעדרת</he>) a court which has been hoed up and planted with seeds; a. e.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be cast out, rejected, banished</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (<cite ref=\"Sotah 49b:3\">49ᵇ</cite>) <he>והאמת תהא נעדרת</he> and Truth shall be banished (fr. ",
+						"<cite ref=\"Isaiah 59:15\">Is. LIX, 15</cite>); <cite ref=\"Sanhedrin 97a:1\">Snh. 97ᵃ</cite>; <cite ref=\"Shir HaShirim Rabbah 2:13\">Cant. R. to II, 13</cite>; v. <cite ref=\"P00166\"><he>עֵדֶר</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to withdraw one’s self, fail</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 31\">Lev. R. s. 31</cite>; <cite ref=\"Midrash Tehillim 19:1\">Midr. Till. to Ps. XIX</cite>; <cite ref=\"Yalkut Shimoni on Nach 673:1\">Yalk. ib. 673</cite> (expl. ",
+						"<cite ref=\"Zephaniah 3:5\">Zeph. III, 5</cite>), v. <cite ref=\"Q01351\"><he>פְּסַק</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

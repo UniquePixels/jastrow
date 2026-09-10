@@ -1,0 +1,22 @@
+{
+	"id": "S00225",
+	"slug": "קובטרא",
+	"headword": {
+		"text": "קוּבְטָרָא"
+	},
+	"page": {
+		"number": 1323,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"S00222\"><he>קובטאות</he></cite>; cmp. <cite ref=\"H01042\"><he>חֲלִיטָר</he></cite> a. <cite ref=\"H01038\"><he>חֲלִיטָא</he> III</cite>) <i>maker of pickles</i> or <i>sauces.—</i>Pl. <he>קוּבְטָרַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:1:10\">Y. Ab. Zar. II, 40ᶜ</cite> bot. <he>ק׳ אלפון וכ׳</he> the (Jewish) sauce-makers taught (gentiles) their trade, and were ruined; [comment. <i>jewellers</i>.]"
+			]
+		}
+	]
+}

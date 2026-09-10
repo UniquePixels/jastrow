@@ -1,0 +1,24 @@
+{
+	"id": "V00438",
+	"slug": "תייר-1",
+	"headword": {
+		"text": "תַּיָּיר"
+	},
+	"page": {
+		"number": 1664,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00271\"><he>תּוּר</he></cite>) <i>spy, scout, guide</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 116b:4\">B. Kam. 116ᵇ</cite> <he>ואם שכרו ת׳ וכ׳</he> if the caravan hired a scout to go before it; <cite ref=\"Tosefta Bava Metzia 7:13\">Tosef. B. Mets. VII, 13</cite>; Y. ib. VI, end, 11ᵃ. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:11\">Y. Yoma I, 38ᵇ</cite>, a. e. <he>הת׳ הגדול</he>, v. <cite ref=\"V00271\"><he>תּוּר</he> I</cite>; a. fr.—Pl. <he>תַּיָּירִים</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 983:10\">Yalk. Cant. 983</cite> (play on <he>בתורים</he>, <cite ref=\"Song of Songs 1:10\">Cant. I, 10</cite>) <he>שני תורת נעשו ת׳ טובים לישראל</he> (read: <he>שתי תורות</he>) two laws (the written and the oral) became good guides for Israel."
+			]
+		}
+	]
+}

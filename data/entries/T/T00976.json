@@ -1,0 +1,48 @@
+{
+	"id": "T00976",
+	"slug": "רצון",
+	"headword": {
+		"text": "רָצוֹן"
+	},
+	"page": {
+		"number": 1492,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00974\"><he>רָצָה</he></cite>)<i>desire, will, good-will</i>. Tanḥ. Ki Thissa 27 <he>כשאהיה אני עליהם אתה הוי בר׳ … אני בר׳</he> when I am angry with them, be thou in a conciliatory mood; and when thou art angry, I will be conciliatory, v. <cite ref=\"T00974\"><he>רָצָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:4\">Ab. II, 4</cite> <he>עשה רְצוֹנוֹ כרְצוֹנְךָ וכ׳</he> do his (God’s) will as being thy will, in order that he may do thy desire as being his own; <he>בטל רצונך וכ׳</he>, v. <cite ref=\"B00515\"><he>בָּטֵל</he> I</cite>. ",
+				"<cite ref=\"Tosefta Berakhot 3:7\">Tosef. Ber. III, 7</cite> <he>עשה רצונך וכ׳</he> do thou thy will in the heavens above; <cite ref=\"Berakhot 29b:17\">Ber. 29ᵇ</cite>; a. v. fr.—<he>יהי ר׳</he> (abbrev. <he>יה״ר</he>) be it the will (of God), v. <cite ref=\"T00884\"><he>רַעֲוָא</he></cite>. ",
+				"<cite ref=\"Berakhot 28b:10\">Ib. 28ᵇ</cite>. ",
+				"<cite ref=\"Taanit 5b:12\">Taan. 5ᵇ</cite>, sq.; a. v. fr.—<he>יהי ר׳ מלפניך</he> (abbrev. <he>יר״מ</he>) be it thy will. ",
+				"<cite ref=\"Berakhot 60a:28\">Ber. 60ᵃ</cite>; a. fr.—בר׳ <i>willingly</i>, opp. <he>באונס</he>. ",
+				"<cite ref=\"Ketubot 9a\">Keth. 9ᵃ</cite>; a. fr.—לר׳ "
+			],
+			"senses": [
+				{
+					"gloss": " <i>acceptable</i>. Sifra Vayikra, N’dab., ch. III, Par. 3 (ref. to <cite ref=\"Leviticus 1:3\">Lev. I, 3</cite>) <he>כשם שאם אינו תמים אינו לר׳ וכ׳</he> as a sacrifice is not acceptable when it is not perfect &c.; a. e.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>intentionally</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makhshirin 6:8\">Makhsh. VI, 8</cite> <he>מטמא לר׳ ושלא לר׳</he> makes susceptible of uncleanness whether it is discharged intentionally (by milking) or unintentionally (by spontaneous dripping); <cite ref=\"Mishnah Makhshirin 6:8\">ib.</cite> <he>המשקין … לר׳</he> the liquids which come out of them with man’s intention (by pressing); <cite ref=\"Shabbat 143b\">Sabb. 143ᵇ</cite>, sq.; a. fr.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>welcome</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makhshirin 1:1\">Makhsh. I, 1</cite> <he>כל משקה שתחלתו לר׳ וכ׳</he> a liquid the contact with which is welcome at first (e.g. rain washing utensils), though finally it may be unwelcome (injurious)."
+					],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

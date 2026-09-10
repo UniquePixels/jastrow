@@ -1,0 +1,38 @@
+{
+	"id": "Q00396",
+	"slug": "פורתא-2",
+	"headword": {
+		"text": "פּוֹרְתָּא"
+	},
+	"page": {
+		"number": 1148,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00395\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fragment, portion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:5:8\">Y. Ber. II, 5ᵃ</cite> bot. <he>קטר פּוֹרְתֵּיה לפורתיה</he> he tied his (R. Jacob’s) portion to his own. ",
+				"<cite ref=\"Gittin 34b:6\">Gitt. 34ᵇ</cite> <he>קרו … ופ׳ שרה</he> they called her Miriam, but a portion (some few people) called her Sarah; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a little</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 70a:14\">Kidd. 70ᵃ</cite>, v. <cite ref=\"C00437\"><he>גּוּנְדְּרִיתָא</he></cite>. ",
+				"<cite ref=\"Gittin 56b:7\">Gitt. 56ᵇ</cite>, v. <cite ref=\"E00782\"><he>הַצָּלָה</he></cite>. ",
+				"<cite ref=\"Gittin 56b:7\">Ib.</cite> <he>עד דרווח מיעיה פ׳ פ׳</he> until his (shrunken) bowels gradually extended. ",
+				"<cite ref=\"Bava Metzia 118a:4\">B. Mets. 118ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

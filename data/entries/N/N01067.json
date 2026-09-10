@@ -1,0 +1,31 @@
+{
+	"id": "N01067",
+	"slug": "נפף-2",
+	"headword": {
+		"text": "נְפַף"
+	},
+	"page": {
+		"number": 925,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>נַפֵּף</he> (<cite ref=\"N01066\">preced.</cite>) <i>to fan, inspire</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 134a\">Sabb. 134ᵃ</cite>, v. <cite ref=\"N01068\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

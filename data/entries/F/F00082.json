@@ -1,0 +1,24 @@
+{
+	"id": "F00082",
+	"slug": "ורד-1",
+	"headword": {
+		"text": "וֶרֶד",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 375,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00597\"><he>ירד</he></cite>; cmp. <cite ref=\"M00620\"><he>מוֹרָד</he> I</cite>) <i>valley</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 23:3\">Lev. R. s. 23</cite>; <cite ref=\"Shir HaShirim Rabbah 2:2:3\">Cant. R. to II, 2</cite> <he>שושנה אחת של ו׳</he> a lily of the valley (<he>שושנת העמקים</he>, <cite ref=\"Song of Songs 2:1\">Cant. II, 1</cite>)."
+			]
+		}
+	]
+}

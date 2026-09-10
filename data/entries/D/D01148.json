@@ -1,0 +1,33 @@
+{
+	"id": "D01148",
+	"slug": "דשן-2",
+	"headword": {
+		"text": "דֶּשֶׁן"
+	},
+	"page": {
+		"number": 326,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"D01147\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fat, honorary gift</i>, v. <cite ref=\"D01149\">next w.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ashes</i> (of burnt flesh &c.). ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 5:2\">Zeb. V, 2</cite>, a. fr. <cite ref=\"E00590\"><he>בֵּית הד׳</he></cite> the place where the ashes of sacrifices were deposited.—Pl. <he>דְּשָׁנִין</he>. ",
+				"<cite ref=\"Zevachim 104b:3\">Ib. 104ᵇ</cite> <he>שלש בֵּית הַדְּשָׁנִין</he>(!)"
+			],
+			"label": "2"
+		}
+	]
+}

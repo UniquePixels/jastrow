@@ -1,0 +1,26 @@
+{
+	"id": "B01196",
+	"slug": "ברוך",
+	"headword": {
+		"text": "בָּרוּךְ",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּי בָּרוּךְ"
+		}
+	],
+	"page": {
+		"number": 190,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ברך</he>, v. <cite ref=\"B00536\"><he>בֵּי</he></cite>) <i>the neck</i> of an animal, so named from the benediction (<cite ref=\"B01196\"><he>בָּרוּךְ</he></cite>) which precedes the ritual slaughtering.",
+			"units": []
+		}
+	]
+}

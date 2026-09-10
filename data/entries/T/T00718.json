@@ -1,0 +1,72 @@
+{
+	"id": "T00718",
+	"slug": "ריש-2",
+	"headword": {
+		"text": "רֵישׁ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רֵישָׁא"
+		},
+		{
+			"text": "רֹאשׁ"
+		},
+		{
+			"text": "רֵאשָׁא"
+		},
+		{
+			"text": "רֵאשָׁה"
+		}
+	],
+	"page": {
+		"number": 1477,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"T00031\"><he>רֹאשׁ</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>head, chief</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 40:16\">Targ. Gen. XL, 16</cite>. ",
+				"<cite ref=\"Onkelos Exodus 14:8\">Targ. O. Ex. XIV, 8</cite>, v. <cite ref=\"C00927\"><he>גְּלֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 30:23\">Ib. XXX, 23</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 33:20\">Targ. Y. II, Deut. XXXIII, 20</cite> <he>ראשא</he>. ",
+				"<cite ref=\"Targum of I Chronicles 5:12\">Targ. I Chr. V, 12</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 5:24\">Targ. Lev. V, 24</cite>; a. fr.—Y. Sabb. I, 4ᵃ top <he>אילולא … רֵישִׁי וכ׳</he> but for fear of putting my head between lions (v. <cite ref=\"A03081\"><he>אַרְיָא</he></cite>), I should have given a reason. ",
+				"<cite ref=\"Chullin 11a:6\">Ḥull. 11ᵃ</cite> (mixed dict.) <he>ר׳ של עולה</he> the head of a burnt-offering. ",
+				"<cite ref=\"Shabbat 55a:2\">Sabb. 55ᵃ</cite> <he>ר׳ דרֵישָׁךְ</he>, v. <cite ref=\"H01179\"><he>חמִּים</he></cite>; <cite ref=\"Jerusalem Talmud Niddah 3:3:6\">Y. Nidd. III, 50ᵈ</cite> <he>רֵישֵׁיה דרישך</he>, v. <cite ref=\"K00204\"><he>כָּוָה</he></cite>. ",
+				"<cite ref=\"Moed Katan 25a:10-15\">M. Kat. 25ᵃ</cite> <he>לא הוה … רֵישִׁין מיניה</he> we could not raise our head before him. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:7:1\">Cant. R. to VII, 7</cite> <he>ראשה</he>, v. <cite ref=\"N00050\"><he>נָבוֹז</he></cite>; a. v. fr.—<he>ר׳ גלותא</he>, <he>ר׳ מתיבתא</he> &c., v. respective determinants.—Pl. <he>רֵישִׁין</he>, <he>רֵישַׁיָּא</he>, <he>רֵישֵׁי</he>, <cite ref=\"T00030\"><he>רָאשׁ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 1:13\">Targ. Deut. I, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 9:9\">Targ. Is. IX, 9</cite> (some ed. <cite ref=\"T01087\"><he>רָשַׁ׳</he></cite>, <cite ref=\"T01085\"><he>רַשַּׁ׳</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 2:10\">Targ. Gen. II, 10</cite>; a. fr.—",
+				"<cite ref=\"Menachot 37a:7\">Men. 37ᵃ</cite> <he>אתיליד … תרי ר׳</he> a child with two heads was born to me. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:25\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>כד מפרכייא ברָאשַׁיָּיא</he> when she crushes the heads of onions. ",
+				"<cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite> <he>רָאשֵׁי אומין</he> chiefs of nations. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:2:6\">Y. Sabb. IV, 7ᵃ</cite> top <he>תחותי רֵשֵׁיכוֹן</he> (not <he>תוחתי רשיבון</he>) under your heads; a. fr.—V. <cite ref=\"T00732\"><he>רֵישְׁתָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>beginning, first thing, firstling</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 11:12\">Targ. O. Deut. XI, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:2\">Targ. Prov. VIII, 2</cite>. ",
+				"<cite ref=\"Onkelos Numbers 15:20\">Targ. O. Num. XV, 20</cite>; a. fr.—<he>ר׳ ירחא</he>, <he>ר׳ שתא</he> &c., v. respective determinants.—מר׳ <i>at first, formerly</i>. ",
+				"<cite ref=\"Chullin 105b:5\">Ḥull. 105ᵇ</cite> <he>מר׳ הוה אמינא וכ׳</he> formerly I thought &c. ",
+				"<cite ref=\"Ketubot 105b\">Keth. 105ᵇ</cite>; a. fr.—Esp. <he>רישא</he> <i>the first clause</i> of a Mishnah, a verse &c. ",
+				"<cite ref=\"Chullin 94b:8\">Ḥull. 94ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 86a:1\">Sabb. 86ᵃ</cite>; a. fr., v. <cite ref=\"O00779\"><he>סֵיפָא</he></cite>, a. <cite ref=\"M02324\"><he>מְצִיעֲתָא</he></cite>.—(<cite ref=\"T00031\"><he>רֹאשׁ</he></cite>) <he>רֵישׁ מַיָּא</he> pr. n. pl. <i>Resh Maya (Spring)</i>. ",
+				"<cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite>, a. e., v. <cite ref=\"C01194\"><he>גַּעְתּוֹן</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

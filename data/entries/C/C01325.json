@@ -1,0 +1,27 @@
+{
+	"id": "C01325",
+	"slug": "גריד-2",
+	"headword": {
+		"text": "גְּרִיד"
+	},
+	"page": {
+		"number": 268,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גרד</he>) [<i>rind, crust</i>, cmp. <cite ref=\"C01235\"><he>גָּרָב</he></cite>,] <i>the parched surface of the field, arid land, unbroken</i> or <i>untilled ground</i>.—ימי הג׳ <i>dry season, summer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 5:10\">B. Mets. V, 10</cite>.—",
+				"<cite ref=\"Mishnah Bava Metzia 5:10\">Ib.</cite> <he>חרוש עמי בג׳</he> plough thou with me in dry ground (in summer), opp. <cite ref=\"T00101\"><he>רְבִיעָה</he></cite>.—מקום הג׳ <i>dry ground</i>, opp. <he>מקום הטיט</he> (<he>הטינא</he>) muddy ground. ",
+				"<cite ref=\"Pesachim 55a\">Pes. 55ᵃ</cite>; <cite ref=\"Jerusalem Talmud Kilayim 2:2:2\">Y. Kil. II, 27ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Challah 1:1:25\">Y. Ḥall. I, 57ᶜ</cite>.—",
+				"<cite ref=\"Moed Katan 6b:8\">M. Kat. 6ᵇ</cite> <he>שדה ג׳</he>, opp. <he>מטוננת</he>.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:6:5\">Y. Kil. II, 28ᵃ</cite> bot. <he>ג׳</he> unbroken ground between tilled fields. ",
+				"<cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite>, end <he>נעשה כג׳ וכ׳</he> (the earth, after the flood had subsided) became like hard unbroken ground; they planted but nothing would grow."
+			]
+		}
+	]
+}

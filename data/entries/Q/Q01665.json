@@ -1,0 +1,34 @@
+{
+	"id": "Q01665",
+	"slug": "פרוחא",
+	"headword": {
+		"text": "פָּרוֹחָא"
+	},
+	"page": {
+		"number": 1219,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01755\"><he>פְּרַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mosquito</i> or <i>gnat</i>.—Pl. <he>פָּרוֹחֵי</he>. ",
+			"units": [
+				"<cite ref=\"Niddah 17a:8\">Nidd. 17ᵃ</cite>, v. <cite ref=\"B00034\"><he>בָּאלֵי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>flying hair, curl</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Shabbat 57b:16\">Sabb. 57ᵇ</cite> v. <cite ref=\"B00442\"><he>בִּזְיוּנָא</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

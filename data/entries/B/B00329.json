@@ -1,0 +1,52 @@
+{
+	"id": "B00329",
+	"slug": "בור-2",
+	"headword": {
+		"text": "בּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיר"
+		}
+	],
+	"page": {
+		"number": 148,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. as <cite ref=\"B00328\">preced.</cite> Kal. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 47:19\">Targ. O. Gen. XLVII, 19</cite>.—Part. <cite ref=\"B00599\"><he>בָּיִיר</he></cite>. ",
+				"<cite ref=\"Taanit 6b:5\">Taan. 6ᵇ</cite> <he>לא בָּיְירֵי וכ׳</he> the halls (academies) are not empty (oth. expl.: the gardens do not lie waste). ",
+				"<cite ref=\"Vayikra Rabbah 1:15\">Lev. R. s. 1</cite>, beg. he sees <he>חקליה בָּיְירָה וכ׳</he> (Var. <he>ביירא</he>) his field waste (in the Sabbath year) &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹבֵיר"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B00328\">preced.</cite> Hif.—",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 9:3\">B. Mets. IX, 3</cite>; <cite ref=\"Bava Metzia 104b:9\">Ib. 104ᵇ</cite> <he>אי מוֹבַרְנָא לה</he> if I should let it lie waste."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְּבָר"],
+			"senses": [
+				{
+					"gloss": "<i>to become empty</i> (<i>stupid</i>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 10:14\">Targ. Jer. X, 14</cite> (h. text <he>נבער</he>)."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "I00162",
+	"slug": "טול-2",
+	"headword": {
+		"text": "טוּל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 523,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to walk about, to be at leisure, to enjoy one’s self</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 102a:17\">Snh. 102ᵃ</cite> <he>נְטַיֵּיל בג״ע</he> we shall walk about in paradise. ",
+				"<cite ref=\"Sukkah 28b:9\">Succ. 28ᵇ</cite> <he>ומְטַיֵּיל בסוכה</he> and enjoys himself &c. ",
+				"<cite ref=\"Tosefta Shabbat 16:18\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:18\">XVII</cite>), 18; <cite ref=\"Tosefta Beitsah 2:10\">Tosef. Bets. II, 10</cite>, v. <cite ref=\"I00822\"><he>טְרִיקְלִין</he></cite>. Tanḥ. Ki Thissa 3; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make walk</i>. Ib. <he>טִיַּילְתַּנִי עמך</he> thou madest me walk by thy side.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"I00341\"><he>טִיֵּיל</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

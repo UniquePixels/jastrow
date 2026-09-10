@@ -1,0 +1,31 @@
+{
+	"id": "O00148",
+	"slug": "סגל-2",
+	"headword": {
+		"text": "סְגַל"
+	},
+	"page": {
+		"number": 955,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <i>to be round</i>, v. next wds.—[<cite ref=\"Aramaic Targum to Psalms 41:4\">Targ. Ps. XLI, 4</cite> <he>יסגל</he> Ms., read as in ed. <he>יתגלי</he>, v. ",
+			"units": ["<cite ref=\"Nedarim 40a\">Ned. 40ᵃ</cite>.]"]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַגֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to lay by, save</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 7:12\">Midr. Till. to Ps. VII</cite> <he>כל מה דאנא מְסַגֵּל את נסבא</he> whatever I may save, thou shalt have; [read:] <he>הן אינון כל מה דסַגְּלִית</he> where is all that I have saved?; <cite ref=\"Yalkut Shimoni on Torah 56\">Yalk. Gen. 56</cite> (not <he>דסגילות</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

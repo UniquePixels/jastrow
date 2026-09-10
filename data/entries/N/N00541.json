@@ -1,0 +1,27 @@
+{
+	"id": "N00541",
+	"slug": "נטוזא",
+	"headword": {
+		"text": "נָטוֹזָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר נָטוֹזָא"
+		}
+	],
+	"page": {
+		"number": 898,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar Naṭoza</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:8\">Y. Ter. VIII, 45ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:6\">Y. Ab. Zar. II, 41ᵃ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M01807",
+	"slug": "מנפול",
+	"headword": {
+		"text": "מָנְפּוֹל"
+	},
+	"page": {
+		"number": 802,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (μονοπώλιον) <i>a trading mart enjoying a monopoly</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 5:4\">Dem. V, 4</cite> <he>בלוקח מן המ׳</he> when he buys (loaves of bread) in a monopolized market (where the numbers of bakers and of retailers are limited). Y. ib. 24ᵈ top <he>איזהו מ׳ וכ׳</he> what sort of a mart? Where there are nine sellers supplied by eight bakers, so that eight may have bought from one baker severally, but one baker must necessarily have supplied at least two sellers."
+			]
+		}
+	]
+}

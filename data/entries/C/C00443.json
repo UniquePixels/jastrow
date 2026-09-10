@@ -1,0 +1,23 @@
+{
+	"id": "C00443",
+	"slug": "גונכא",
+	"headword": {
+		"text": "גּוּנְכָא"
+	},
+	"page": {
+		"number": 224,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>bed-cloth, blanket</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 4:18\">Targ. Jud. IV, 18</cite> (h. text <cite ref=\"U01467\"><he>שמיכה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 8:15\">Targ. II Kings VIII, 15</cite> (h. text <cite ref=\"M01348\"><he>מכבר</he></cite>). [Var. <cite ref=\"C00430\"><he>גּוּנְבָא</he></cite>.]"
+			]
+		}
+	]
+}

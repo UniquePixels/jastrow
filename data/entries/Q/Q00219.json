@@ -1,0 +1,31 @@
+{
+	"id": "Q00219",
+	"slug": "פולחן-2",
+	"headword": {
+		"text": "פּוּלְחָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּלְחָנָא"
+		}
+	],
+	"page": {
+		"number": 1141,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (sometimes f.) (<cite ref=\"Q00991\"><he>פְּלַח</he></cite>) <i>servitude, service</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 29:18\">Targ. Ez. XXIX, 18</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 26:6\">Targ. Deut. XXVI, 6</cite> (O. ed. Vien. <cite ref=\"Q00696\"><he>פָּלְ׳</he></cite>); a. fr.—Esp. <i>priestly service, Temple service, worship</i>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 24:5\">Targ. Y. Ex. XXIV, 5</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Numbers 23:1\">Targ. Y. Num. XXIII, 1</cite>, a. e. <he>פ׳ נוכראה</he> = h. <he>עבודה זרה</he>, idolatry.—Y. Ber. IV, beg. 7ᵃ (ref. to <he>פלח</he>. ",
+				"<cite ref=\"Daniel 6:17\">Dan. VI, 17</cite>) (in Hebr. dict.) <he>וכי יש פ׳ בבבל וכ׳</he> was there Temple service in Babylonia? But … it means prayer."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "O00590",
+	"slug": "סיוטא",
+	"headword": {
+		"text": "סְיוּטָא"
+	},
+	"page": {
+		"number": 977,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O00283\"><he>סוּט</he></cite>, <i>Ithpe.</i>) <i>fright</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 37b:10\">B. Kam. 37ᵇ</cite> <he>הך שופר קמא ס׳ בעלמא וכ׳</he> that first goring when the animal heard the sound of a trumpet, was merely due to the fright which seized it. ",
+				"<cite ref=\"Yoma 22b:18\">Yoma 22ᵇ</cite> <he>חזא ס׳ בחלמיה</he> saw a panic in his dream (frightening demons, Rashi); <cite ref=\"Yalkut Shimoni on Nach 117:3\">Yalk. Sam. 117</cite>."
+			]
+		}
+	]
+}

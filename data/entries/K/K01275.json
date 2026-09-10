@@ -1,0 +1,30 @@
+{
+	"id": "K01275",
+	"slug": "כרשינה-1",
+	"headword": {
+		"text": "כַּרְשִׁינָה",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְשִׁינָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 673,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"K01177\"><he>כְּרֵישָׁה</he></cite>) <i>a porraceous plant</i>.—<he>בורית כ׳</he> an alkaline solution of <i>carshina</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 6a:52\">Ker. 6ᵃ</cite>; <cite ref=\"Jerusalem Talmud Yoma 4:5:2\">Y. Yoma IV, 41ᵈ</cite>.—Pl. <cite ref=\"K01277\"><he>כַּרְשִׁינִים</he></cite>, <he>כַּרְשִׁינִין</he>. ",
+				"<cite ref=\"Mishnah Shabbat 1:5\">Sabb. I, 5</cite> (<cite ref=\"Shabbat 17b:6\">17ᵇ</cite>) <he>אין שורין … וכ׳ אלא וכ׳</he> (shortly before Sabbath) we must not lay in ink-material, … or alkaline plants; [comment. refer to next w.]."
+			]
+		}
+	]
+}

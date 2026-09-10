@@ -1,0 +1,52 @@
+{
+	"id": "H00533",
+	"slug": "חזיז-1",
+	"headword": {
+		"text": "חָזִיז"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲזִיז"
+		}
+	],
+	"page": {
+		"number": 443,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"H00522\"><he>חֲזָזִית</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cloud with uneven surface</i> (like scabs or swollen lumps), <i>cumulus</i> (which brings rain). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 13:12\">Gen. R. s. 13</cite> (allegorical explanation), v. <cite ref=\"H00531\"><he>חִזָּיוֹן</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:3:5\">Y. Taan. III, 66ᶜ</cite> bot., v. preced.—Bab. ",
+				"<cite ref=\"Taanit 9b:6\">ib. 9ᵇ</cite>.—Pl. <he>חֲזִיזִים</he>. ",
+				"<cite ref=\"Taanit 9b:6\">Ib.</cite> <he>מאי ח׳</he> what are <i>ḥazizim</i> (<cite ref=\"Zechariah 10:1\">Zech. X, 1</cite>)? Answ. <cite ref=\"Q00339\"><he>פורחות</he></cite> eruptions (defined: ‘a thin under a thick cloud’)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [Readings vary between <cite ref=\"H00533\"><he>חזיז</he></cite> a. <cite ref=\"H00502\"><he>חִזִּין</he></cite>, pl. of <cite ref=\"H00502\"><he>חֵז</he></cite>] <i>lichen</i>, used as food (Lecantora esculenta). ",
+			"units": [
+				"<cite ref=\"Eruvin 28a\">Erub. 28ᵃ</cite>, v. <cite ref=\"H00532\"><he>חִזָּיוֹן</he> II</cite>.—",
+				"<cite ref=\"Bava Kamma 119b:20\">B. Kam. 119ᵇ</cite> <he>כשות וח׳ וכ׳</he> the law of robbery does not apply to cuscuta and lichen. ",
+				"<cite ref=\"Ketubot 60b\">Keth. 60ᵇ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [Readings vary as ab.] <i>young blades of grain</i> used for pasture. ",
+			"units": [
+				"<cite ref=\"Taanit 5a:7\">Taan. 5ᵃ</cite> <he>אוכל ח׳ מן התלמים</he> Ms. M. (some ed. <he>הזיז</he>) eats the young green from the furrows. ",
+				"<cite ref=\"Bava Kamma 58b:18\">B. Kam. 58ᵇ</cite> bot. [<cite ref=\"Tosefta Ohalot 13:11\">Tosef. Ohol. XIII, 11</cite> <he>שני חזיזין</he>, read: <he>הזיזין</he>, v. <cite ref=\"G00322\"><he>זִיז</he> II</cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

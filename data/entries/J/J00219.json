@@ -1,0 +1,39 @@
+{
+	"id": "J00219",
+	"slug": "יוסף",
+	"headword": {
+		"text": "יוֹסֵף"
+	},
+	"page": {
+		"number": 571,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Joseph</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Jacob. ",
+			"units": [
+				"<cite ref=\"Bava Batra 123a:13\">B. Bath. 123ᵃ</cite>, v. <cite ref=\"B00772\"><he>בְּכוֹרָה</he></cite>. ",
+				"<cite ref=\"Mishnah Sotah 1:9\">Sot. I, 9</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 30:10\">Gen. R. s. 30</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Tannaim and Amoraim, v. <cite ref=\"J00217\"><he>יוֹסֵי</he></cite>",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Shabbat 119a:5\">Sabb. 119ᵃ</cite> <he>י׳ מוקיר שבי</he> Joseph, the honorer of the Sabbaths.—Ib. 130ᵃ J. Rishba (the fowler).—",
+				"<cite ref=\"Bereishit Rabbah 65:22\">Gen. R. s. 65</cite>, v. <cite ref=\"J00217\"><he>יוֹסֵי</he></cite>"
+			],
+			"label": "3"
+		}
+	]
+}

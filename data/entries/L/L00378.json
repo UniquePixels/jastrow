@@ -1,0 +1,30 @@
+{
+	"id": "L00378",
+	"slug": "לחתא",
+	"headword": {
+		"text": "לִחֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיחֲתָא"
+		},
+		{
+			"text": "לוּ׳"
+		}
+	],
+	"page": {
+		"number": 705,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"L00342\"><he>לֶחִי</he></cite>, <cite ref=\"L00344\"><he>לִחְיָא</he></cite>), <he>ל׳ דכרעא</he> <i>the splint-bone, the outer, smaller bone of the leg, fibula</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 103a:9\">Yeb. 103ᵃ</cite> <he>האי מאן דסגי על ל׳ דכרעיה</he> Ar. ed. Koh. (Var. <he>לו׳</he>; ed. <cite ref=\"L00031\"><he>לִי׳</he></cite>) he who walks on his splint-bone (his feet being turned outward so as to form an obtuse angle)."
+			]
+		}
+	]
+}

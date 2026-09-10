@@ -1,0 +1,20 @@
+{
+	"id": "A02121",
+	"slug": "אנדרוגינוס",
+	"headword": {
+		"text": "אַנְדְּרוֹגִינוֹס"
+	},
+	"page": {
+		"number": 81,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀνδρόγυνος) <i>hermaphrodite</i>. ",
+			"units": ["<cite ref=\"Mishnah Bikkurim 1:5\">Bicc. I, 5</cite>; a. fr."]
+		}
+	]
+}

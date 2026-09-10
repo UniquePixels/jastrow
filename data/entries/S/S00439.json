@@ -1,0 +1,24 @@
+{
+	"id": "S00439",
+	"slug": "קוניא-1",
+	"headword": {
+		"text": "קוֹנְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1335,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κονία) <i>powdered lime, plaster</i>; (in Talmud Babli:) <i>molten lead, glaze</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 54a\">Zeb. 54ᵃ</cite>, v. <cite ref=\"M00346\"><he>מָהָה</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 33b:11\">Ab. Zar. 33ᵇ</cite> <he>מאני דק׳</he> glazed vessels; <cite ref=\"Pesachim 30b\">Pes. 30ᵇ</cite>; <cite ref=\"Ketubot 107b\">Keth. 107ᵇ</cite>. Ḥull. 147ᵇ, v. <cite ref=\"R00647\"><he>צָעָא</he></cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "U01914",
+	"slug": "שרב-4",
+	"headword": {
+		"text": "שְׁרַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁרָבָא"
+		},
+		{
+			"text": "שׁוּרְבָּא"
+		}
+	],
+	"page": {
+		"number": 1627,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01913\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 4:6\">Targ. Is. IV, 6</cite> (h. text <cite ref=\"H01577\"><he>חרב</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 25:4\">Ib. XXV, 4</cite> <he>מִשְּׁ׳</he> (ed. Wil. <he>מַשְׁרָב</he>, corr. acc.). ",
+				"<cite ref=\"Onkelos Genesis 31:40\">Targ. O. Gen. XXXI, 40</cite> (ed. Berl. <cite ref=\"U01914\"><he>שָׁרְבָא</he></cite>, ed. Vien. <cite ref=\"U01069\"><he>שַׁרְ׳</he></cite>; Y. <cite ref=\"U01964\"><he>שְׁרִיבָא</he></cite>). Targ. Y. II ib. VIII, 22 <he>שורבא</he> (h. text <cite ref=\"H01133\"><he>חֹם</he></cite>); a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 16:8\">Lev. R. s. 16</cite> <he>תשתזיב מן ש׳</he> mayest thou be saved from the effects of the heat; Y. Snh. X, 29ᶜ bot. <he>ישזבינך מן הדין ש׳ וכ׳</he> may God save thee from the heat that goes out over the world; a. e."
+			]
+		}
+	]
+}

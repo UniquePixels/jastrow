@@ -1,0 +1,54 @@
+{
+	"id": "S00202",
+	"slug": "קהה",
+	"headword": {
+		"text": "קֵהֶה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֵי׳"
+		}
+	],
+	"page": {
+		"number": 1321,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"S00203\"><he>קֵהָה</he></cite>, <cite ref=\"S00030\"><he>קֵי׳</he></cite> f. (<cite ref=\"S00201\">preced.</cite>; cmp. <cite ref=\"K00151\"><he>כֵּהֶה</he></cite>) <i>dull, faint</i>; ",
+			"units": []
+		},
+		{
+			"gloss": " (of cutting tools) <i>blunt</i>; (of teeth) <i>blunt and loose.—</i>Pl. <he>קֵהִים</he>, <he>קֵהִין</he>, <cite ref=\"S00030\"><he>קֵי׳</he></cite>; <he>קֵהוֹת</he>, <cite ref=\"S00030\"><he>קֵי׳</he></cite>. Midr. Sam. ch. XVI as with the grape vine <he>כל מי … שיניו ק׳ וכ׳</he> he that eats of its unripe fruit, will have his teeth set on edge, so it is with Israel &c.; <cite ref=\"Vayikra Rabbah 36:2\">Lev. R. s. 36</cite> (corr. version after Midr. Sam.).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (of limbs) <i>wearied, benumbed</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 8:1:5\">Y. Yoma VIII, 44ᵈ</cite> <he>בבא מן … ק׳ עליו</he> in the case of one that had come from a journey, and his feet were benumbed; Y. Ber. II, 5ᵇ bot.; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>tough, hard, unyielding</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 7b:14\">Taan. 7ᵇ</cite> (ref. to <cite ref=\"Ecclesiastes 10:10\">Koh. X, 10</cite>) <he>אם ראית רקיע שק׳ כברזל וכ׳</he> when thou seest the sky as tough as iron not sending down dew or rain; Yalk. Koh. 979 <he>אם … דור שהשמים קהין וכ׳</he> when thou seest a generation over which the heavens are as tough &c. ",
+				"<cite ref=\"Pirkei Avot 4:20\">Ab. IV, 20</cite> <he>ענבים קהות</he> hard (unripe) grapes, opp. <he>בשולות</he>.—Trnsf. (of intellectual subjects) <i>tough, difficult, unsolvable</i>. Yalk. l. c. <he>אם … שתלמודו ק׳ עליו כברזל</he> when thou seest a student to whom his lesson is as tough as iron (<cite ref=\"Taanit 8a:1\">Taan. 8ᵃ</cite> <he>שלמודו קשה</he>; Ms. M. <he>כהה</he>). ",
+				"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> <he>והמעשה שהיה ק׳ וכ׳</he> and when a case was too difficult for me to decide, I asked &c.; <cite ref=\"Yalkut Shimoni on Nach 917:3\">Yalk. Job 917</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:11:2\">Cant. R. to IV, 11</cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>fainting, having a morbid appetite</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:6:8\">Y. Shebi. IV, end, 35ᶜ</cite> <he>שכן דרך הק׳ אוכלות אותו</he> for craving women are in the habit of eating it (the unripe grape)."
+			],
+			"label": "4"
+		}
+	]
+}

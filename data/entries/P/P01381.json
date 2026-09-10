@@ -1,0 +1,25 @@
+{
+	"id": "P01381",
+	"slug": "ערכי",
+	"headword": {
+		"text": "עַרְכִי"
+	},
+	"page": {
+		"number": 1119,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01375\"><he>עָרַךְ</he></cite>; an adapt. of ἀρχή, ἀρχεῖον) <i>recorder’s office</i> for pedigree, deeds of sale &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:5\">Kidd. IV, 5</cite> <he>בע׳ הישנה</he>, v. <cite ref=\"A03140\"><he>אַרְכִי</he> I</cite>.—Pl. <cite ref=\"P01379\"><he>עַרְכָאוֹת</he></cite>. ",
+				"<cite ref=\"Gittin 44a:10\">Gitt. 44ᵃ</cite> <he>כותב ומעלה בע׳ וכ׳</he> (Ar. <he>בערכין</he>) he writes (a deed of sale) and has it recorded in the office of gentiles (Romans); <cite ref=\"Avodah Zarah 13a:7\">Ab. Zar. 13ᵃ</cite> <he>בע׳ שלהן</he>; <cite ref=\"Tosefta Avodah Zarah 1:8\">Tosef. ib. I, 8</cite> <he>בעַרְכָאִים</he>; <cite ref=\"Tosefta Moed Kattan 2\">Tosef. M. Kat. II</cite>, (I), 1 <he>בעַרְכָיִים</he>. ",
+				"<cite ref=\"Mishnah Gittin 1:5\">Gitt. I, 5</cite>; <cite ref=\"Tosefta Gittin 1:4\">Tosef. ib. I, 4</cite> <he>שטרות העולים בע׳ וכ׳</he> (Var. <he>בעַרְכָיוֹת</he>) deeds entered in gentile offices. ",
+				"<cite ref=\"Tosefta Bava Batra 8:2\">Tosef. B. Bath. VIII, 2</cite> <he>כתב והעלה להם בערכאים זכה להם הערכיים</he> if he wrote (a deed of donation for ten persons) and had it recorded for them in the office, the office took possession in their behalf; <cite ref=\"Tosefta Bava Batra 8:3\">ib. 3</cite> <he>עַרְכָאִין … עַרְכָיִין</he>; a. e."
+			]
+		}
+	]
+}

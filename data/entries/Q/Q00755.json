@@ -1,0 +1,23 @@
+{
+	"id": "Q00755",
+	"slug": "פיסטליות",
+	"headword": {
+		"text": "פִּיסְטַלְיוֹת"
+	},
+	"page": {
+		"number": 1167,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (an adapt. of ἐπιστύλια, as if a reduplic. of <cite ref=\"Q01325\"><he>פָּסַל</he></cite>) <i>lintels on the top of a pillar, epistyles</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:14\">Y. Succ. I, 52ᵃ</cite> bot. [read:] <he>ארבעה עמודים ועליהם ארבע פ׳</he> (Mus. <he>אפיס׳</he>) four columns and on top of them four epistyles (extending beyond the columns); <cite ref=\"Jerusalem Talmud Eruvin 1:9:6\">Y. Erub. I, 19ᶜ</cite> <he>פִּצְטַלְיוֹת</he>."
+			]
+		}
+	]
+}

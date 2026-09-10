@@ -1,0 +1,27 @@
+{
+	"id": "A03004",
+	"slug": "ארדיכל",
+	"headword": {
+		"text": "אַרְדִּיכָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְדְּכָל"
+		}
+	],
+	"page": {
+		"number": 115,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "; ch. form <cite ref=\"A03005\"><he>אַרְדִּיכְלָא</he></cite> (<he>אדר׳</he>) m. (prob. from a place or country, cmp. <cite ref=\"A02980\"><he>אַרְגּוּבְלָא</he></cite>) <i>artist, artisan</i> (v. P. Sm. 370 s. v., a. derivat.) esp. <i>architect, key-stone-setter</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 118b:2\">B. Mets. 118ᵇ</cite> <he>בנאי … לא׳</he> (ed. <he>אדרי׳</he>) when the builder has handed the key-stone over to the architect (to set it). Y. ib. X, end, 12ᶜ <he>ארדכל</he>. ",
+				"<cite ref=\"Bereishit Rabbah 8:3\">Gen. R. s. 8</cite> <cite ref=\"A03173\"><he>אר׳</he></cite>; <cite ref=\"Bereishit Rabbah 8:3\">ib.</cite> s. 27 <cite ref=\"D00792\"><he>אד׳</he></cite>.—Pl. <he>ארְדִּיכְלִין</he>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 5:11\">Targ. II Sam. V, 11</cite> (h. text <he>חרשי אבן קיר</he>); a. e.—",
+				"<cite ref=\"Eruvin 26a\">Erub. 26ᵃ</cite> <he>אַרְדַּ׳</he> Ar. (Ms. M. <he>דאַרְדַּכְלֵי</he>; ed. <he>אדר׳</he>).—<he>אַרְדִּיכְלַיָּא</he> <cite ref=\"Aramaic Targum to Psalms 118:22\">Targ. Ps. CXVIII, 22</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "I00537",
+	"slug": "טמועא",
+	"headword": {
+		"text": "טְמוֹעָא"
+	},
+	"page": {
+		"number": 539,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00560\"><he>טְמַע</he></cite>) <i>sinking, sun-set</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 104:19\">Targ. Ps. CIV, 19</cite> <he>טְמוֹעֵיה</he> (Ms. <he>טַמּוּ׳</he>)."
+			]
+		}
+	]
+}

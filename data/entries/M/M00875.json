@@ -1,0 +1,43 @@
+{
+	"id": "M00875",
+	"slug": "מחיצתא",
+	"headword": {
+		"text": "מְחִיצְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְחִיצְתָא"
+		}
+	],
+	"page": {
+		"number": 761,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"M00874\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>partition, division</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 92a:10\">Erub. 92ᵃ</cite> <he>דמינכרא מ׳</he> (v. Rabb. D. S. a. l. note 60) the partition between the two areas are distinguishable (v. <cite ref=\"M00872\"><he>מְחִיצָה</he></cite>). ",
+				"<cite ref=\"Shabbat 101a:4\">Sabb. 101ᵃ</cite>, a. fr. <he>גיד אחית מ׳</he> imagine the partition continued downward. ",
+				"<cite ref=\"Eruvin 89a:16\">Erub. 89ᵃ</cite> <he>גיד אסיק מחיצותא</he> imagine the partition continued upward, v. <cite ref=\"N00118\"><he>נְגַד</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(also <cite ref=\"M00870\"><he>מְחִיצָא</he></cite>) <i>compartment, wing, extension</i> (cmp. <cite ref=\"C00580\"><he>גִּזְרָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 6:6\">Targ. I Kings VI, 6</cite> (not <he>מְחִיצָ׳</he>; h. text <cite ref=\"J00532\"><he>יציע</he></cite>, <he>צלע</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 41:5\">Targ. Ez. XLI, 5</cite>; <cite ref=\"Targum Jonathan on Ezekiel 41:8\">8</cite>, sq.; a. fr.—Pl. <cite ref=\"M00875\"><he>מְחִיצָתָא</he></cite>, <he>מְחִיצַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 41:6\">Ib. 6</cite>, sq. Targ. I Kings l. c. Ib. 15, sq.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

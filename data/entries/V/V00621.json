@@ -1,0 +1,52 @@
+{
+	"id": "V00621",
+	"slug": "תלש-1",
+	"headword": {
+		"text": "תָּלַשׁ"
+	},
+	"page": {
+		"number": 1673,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to tear, pluck, detach</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 5:1:9\">Y. Snh. V, 22ᵈ</cite> top <he>משום תּוֹלֵשׁ</he>, v. <cite ref=\"S02266\"><he>קָשַׁשׁ</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 5:1:9\">Ib.</cite> (ref. to <cite ref=\"Numbers 15:32\">Num. XV, 32</cite>) <he>מלמד שמצאוהו תולש וכ׳</he> the text intimates that they found him tear wood (uproot shrubs) out of the ground; <cite ref=\"Shabbat 96b\">Sabb. 96ᵇ</cite>; <cite ref=\"Sifrei Bamidbar 113\">Sifré Num. 113</cite>. ",
+				"<cite ref=\"Beitzah 3a:1\">Bets. 3ᵃ</cite> <he>גזרה … ויִתְלוֹשׁ</he> we apprehend, lest he may climb up and pluck. ",
+				"<cite ref=\"Mishnah Bava Kamma 8:6\">B. Kam. VIII, 6</cite> <he>ת׳ בשערו</he> if one plucks his neighbor’s hair. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:23\">Y. Sabb. VII, 10ᵃ</cite> <he>התולש והאורה</he> he who plucks (fruit) or picks (figs); a. fr.—<i>Part. pass.</i> <he>תָּלוּשׁ</he>; f. <he>תְּלוּשָׁה</he> &c. <i>detached, loose</i>, opp. <he>מחובר</he> fixed, immovable. ",
+				"<cite ref=\"Chullin 15b:15\">Ḥull. 15ᵇ</cite> <he>ת׳ ולבסוף חיברו</he> an object originally loose which one afterwards fixed. ",
+				"<cite ref=\"Mishnah Bava Metzia 7:2\">B. Mets. VII, 2</cite> <he>העושה … ת׳ מן הקרקע וכ׳</he> the journeyman that works … on what is detached from the ground &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תִּלֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00620\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 6:4\">Yoma VI, 4</cite> <he>היו מְתַלְּשִׁים בשערו</he> they used to pull the hair of the scapegoat; <cite ref=\"Tosefta Yoma 4:13\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Yoma 3:13\">III</cite>), 13. ",
+						"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite> <he>ומְתַלְּשִׁין ארזי וכ׳</he> (not <he>מתליש׳</he>) they tore cedars of Lebanon out while walking; <cite ref=\"Yalkut Shimoni on Torah 61:9\">Yalk. ib. 61</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְלַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be plucked, detached</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 5:6\">Mikv. V, 6</cite> <he>גל שנ׳</he> if a wave was detached (was thrown on the shore, and its connection with the sea severed); <cite ref=\"Tosefta Mikvaot 4:5\">Tosef. ib. IV, 5</cite>. Y. Ḥag. I, 76ᶜ <he>אם … שנִתְלְשׁוּ וכ׳</he> when thou seest Palestinian townships torn away from their places (their inhabitants driven out), know that they failed to maintain teachers &c.; Lam. R. introd. (R. Abba 2) <he>נִתְלָשׁוֹת</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

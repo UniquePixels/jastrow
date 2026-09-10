@@ -1,0 +1,38 @@
+{
+	"id": "T00221",
+	"slug": "רגף",
+	"headword": {
+		"text": "רְגַף"
+	},
+	"page": {
+		"number": 1450,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to stir, shake</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְרְגֵיף"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְרַגֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be stirred up, shaken</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 22:8\">Targ. II Sam. XXII, 8</cite>; <cite ref=\"Aramaic Targum to Psalms 18:8\">Targ. Ps. XVIII, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 1:2\">Targ. Is. I, 2</cite> <he>איתרגפת</he> ed. Lag. (ed. Wil. <he>אתרגישת</he>; ed. Ven. I <he>אתרגימת</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 34:20\">Targ. Job XXXIV, 20</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

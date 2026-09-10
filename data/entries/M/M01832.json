@@ -1,0 +1,28 @@
+{
+	"id": "M01832",
+	"slug": "מסאנא-1",
+	"headword": {
+		"text": "מְסָאנָא"
+	},
+	"page": {
+		"number": 803,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סאן</he> <i>to tread;</i> v. <cite ref=\"O00724\"><he>סֵינָא</he></cite>) <i>shoe</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 60:10\">Targ. Ps. LX, 10</cite> (ed. Wil. <cite ref=\"M01973\"><he>מְסָנַי</he></cite> <i>pl.</i>); a. e.—",
+				"<cite ref=\"Gittin 56a:12\">Gitt. 56ᵃ</cite> <he>הוה שליפא מ׳</he> she happened to be barefooted. ",
+				"<cite ref=\"Gittin 56b:3\">Ib. 56ᵇ</cite> <he>הוה סיים חד מ׳</he> (not <he>מסאני</he>) he had put on one shoe. ",
+				"<cite ref=\"Kiddushin 49a:5\">Kidd. 49ᵃ</cite>, v. <cite ref=\"K01260\"><he>כַּרְעָא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 41:2\">Gen. R. s. 41</cite>, beg.; s. 52, end, v. <cite ref=\"I00170\"><he>טוֹלְמִיסִין</he></cite>; a. e.—<i>Pl.</i> <he>מְסָאנֵי</he>. ",
+				"<cite ref=\"Eichah Rabbah 1:31\">Lam. R. to I, 5</cite> <he>תרין מְסָאנַי</he> both my shoes. ",
+				"<cite ref=\"Taanit 22a:4\">Taan. 22ᵃ</cite> <he>מ׳ אוכמי</he> black shoes (worn by gentiles).—Contr. <cite ref=\"M01973\"><he>מְסַן</he></cite>, <cite ref=\"M01973\"><he>מְסָנָא</he></cite>, q. v."
+			]
+		}
+	]
+}

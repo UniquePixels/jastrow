@@ -1,0 +1,27 @@
+{
+	"id": "T00233",
+	"slug": "רדד-3",
+	"headword": {
+		"text": "רֶדֶד"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָדָד"
+		}
+	],
+	"page": {
+		"number": 1451,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00232\">preced.</cite>) <i>that part of the canvas which lies flat on the ground</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 8:1\">Tosef. Ohol. VIII, 1</cite> <he>כזית … תחת הר׳</he> (not <he>על</he>) an olive’s size of a corpse which lies under the flat canvas."
+			]
+		}
+	]
+}

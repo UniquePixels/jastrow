@@ -1,0 +1,71 @@
+{
+	"id": "P01091",
+	"slug": "עצב-1",
+	"headword": {
+		"text": "עָצַב"
+	},
+	"page": {
+		"number": 1101,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut, form, shape</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"J00078\"><he>יָגָה</he></cite> a. <cite ref=\"J00081\"><he>יָגוֹן</he></cite>) <i>to cut, grieve, pain</i>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִיצֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to shape, handle</i>, esp. <i>to straighten an infant’s body by manipulation</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 22:6\">Sabb. XXII, 6</cite> <he>אין מְעַצְּבִין את הקטן</he> you must not manipulate a child (on the Sabbath), expl. ib. 147ᵇ <he>בחומרי שדרה</he> straightening the vertebra (v. <cite ref=\"L00647\"><he>לְפַף</he></cite>). ",
+						"<cite ref=\"Tosefta Keilim Metsia 2:9\">Tosef. Kel. B. Mets. II, 9</cite> <he>שהוא מְעַצֵּב עליה וכ׳</he> because he (the surgeon) manipulates children thereon."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶעֱצִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to grieve</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 44:9\">Gen. R. s. 44</cite> (ref. to <cite ref=\"Psalms 139:24\">Ps. CXXXIX, 24</cite>) <he>אם עתיד …</he> (<cite ref=\"F00000\"><he>ו</he></cite>)<he>להַעֲצִיבְךָ וכ׳</he> if it be my destiny to rear children who are to grieve thee, it is better that thou shouldst lead me in the way of the world (death); (<cite ref=\"Yalkut Shimoni on Nach 888:8\">Yalk. Ps. 888</cite> <he>ולהכעיסך</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְעַצֵּב"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַצֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be grieved, mourn</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 38b\">Snh. 38ᵇ</cite> <he>שמח בתורתו ונ׳ במיתתו</he> he rejoiced over his (R. ‘Ăkiba’s) learning, and mourned over his death (predestined martyrdom)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

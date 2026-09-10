@@ -1,0 +1,64 @@
+{
+	"id": "T00908",
+	"slug": "רעם-1",
+	"headword": {
+		"text": "רָעַם"
+	},
+	"page": {
+		"number": 1487,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>רעד</he>) [<i>to vibrate</i>,] <i>to thunder, rumble, roar</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְעִים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00907\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Avot D'Rabbi Natan 33:2\">Ab. d’R. N. ch. XXXIII</cite> ed. Schechter <he>מצרים הִרְעִימוּ עליהם בקולם אף הקב״ה ה׳ עליהם קולו</he> the Egyptians roared at (threatened) them with their voices, so did the Lord cause his voice to roar at them (<cite ref=\"II Samuel 22:14\">II Sam. XXII, 14</cite>); (oth. ed. <he>ה׳ עליהם בקול על הים</he>, ref. to <cite ref=\"Job 37:5\">Job XXXVII, 5</cite>). Midr. Sam. ch. V <he>אם עולים … אני מַרְעִים בקולי וכ׳</he> if they rise up to heaven, from there I will thunder with my voice and throw them down; <cite ref=\"Yalkut Shimoni on Nach 86:3\">Yalk. Sam. 86</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to thunder</i>, v. supra.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cause to murmur</i>. Ib. 77 (ref. to <he>הרעמה</he>, <cite ref=\"I Samuel 1:6\">I Sam. I, 6</cite>) <he>את מַרְעֶמֶת אותה וכ׳</he> thou makest her ‘thunder’ against me, … there are no thunders which are not followed by (fructifying) rain, I will visit her at once; <cite ref=\"Pesikta Rabbati 43:1\">Pesik. R. s. 43</cite> <he>מְתַרְעֶמֶת</he> (fr. <cite ref=\"V01040\"><he>תִּרְעֵם</he></cite>). ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 43:1\">Ib.</cite> <he>בעבור הַרְעִימָהּ על אלהים לטובתה</he> in order to make her murmur against God (complain in prayer) for her own good."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְרָעֵם"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"V01034\"><he>תַּרְעוּמֶת</he></cite>) <i>to be excited, rebel, be discontented</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 6a:6\">Meg. 6ᵃ</cite> <he>זבולון מִתְרַעֵם על מדותיו היה</he> Zebulun was dissatisfied with the measures he received (the share of the land allotted to him)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be disturbed, get into commotion</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>כולם מִתְרַעֲמִים ומרגישים</he> all the nuts in the pile are disturbed and in commotion; <cite ref=\"Yalkut Shimoni on Nach 992:10\">Yalk. Cant. 992</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

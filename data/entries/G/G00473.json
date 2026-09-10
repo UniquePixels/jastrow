@@ -1,0 +1,52 @@
+{
+	"id": "G00473",
+	"slug": "זכריה",
+	"headword": {
+		"text": "זְכַרְיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְכַרְיָהוּ"
+		}
+	],
+	"page": {
+		"number": 400,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Zechariah</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the prophet-priest slain in the Temple court (<cite ref=\"II Chronicles 24:20\">II Chr. XXIV, 20</cite>, sq.). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 2:20\">Targ. Lam. II, 20</cite>.—",
+				"<cite ref=\"Gittin 57b:4\">Gitt. 57ᵇ</cite>; <cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 69ᵃ</cite> bot.; <cite ref=\"Eichah Rabbah 2:23\">Lam. R. to II, 2</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Zechariah</i>, the prophet. ",
+			"units": [
+				"<cite ref=\"Eruvin 21a:17\">Erub. 21ᵃ</cite>. ",
+				"<cite ref=\"Makkot 24b:4\">Macc. 24ᵇ</cite>. ",
+				"<cite ref=\"Sanhedrin 99a:4\">Snh. 99ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " Z. ben <i>K’butal,</i> a survivor of the Second Temple. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 1:6\">Yoma I, 6</cite>; <cite ref=\"Yoma 19b:6\">ib. 19ᵇ</cite> (v. Rabb. D. S. a. l. notes 3, 4).—4) R. Z. son of Eucolus, a Tannai. ",
+				"<cite ref=\"Tosefta Shabbat 16:8\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:6\">XVII</cite>), 6, v. <cite ref=\"A00196\"><he>אֶבְקוֹלָס</he></cite>; <cite ref=\"Gittin 56a:5\">Gitt. 56ᵃ</cite>; a. e.—5) R. Z., the butcher’s son, a Tannai. ",
+				"<cite ref=\"Mishnah Eduyot 8:2\">Eduy. VIII, 2</cite>. ",
+				"<cite ref=\"Bava Batra 111a:10\">B. Bath. 111ᵃ</cite>; a. e.—6) name of several Amoraim. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:1:26\">Y. Snh. I, 18ᵇ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 1:1:9\">Y. Pes. I, 27ᵇ</cite> top; Y. Sot. I, 16ᵈ <cite ref=\"G00013\"><he>זבדיה</he></cite>; <cite ref=\"Bamidbar Rabbah 9:20\">Num. R. s. 9</cite> <he>זכר׳</he>.—",
+				"<cite ref=\"Sanhedrin 67b:5\">Snh. 67ᵇ</cite>; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

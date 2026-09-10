@@ -1,0 +1,37 @@
+{
+	"id": "C00560",
+	"slug": "גזל-3",
+	"headword": {
+		"text": "גָּזֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֶּזֶל"
+		}
+	],
+	"page": {
+		"number": 230,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"C00560\"><he>גָּזֵל</he></cite>; <cite ref=\"C00559\"><he>גזל</he></cite>)<i>robbery, wrong, oppression</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 32b:9\">Sabb. 32ᵇ</cite> <he>בעוון ג׳ וכ׳</he> as a punishment for the crime of oppression, the locust rises &c. (ref. to <cite ref=\"Amos 4:1\">Am. IV, 1</cite> a. ",
+				"<cite ref=\"Amos 4:9\">9</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 31:5\">Gen. R. s. 31</cite>, beg. <he>שׁטופים בזימה ובג׳</he> steeped in lust and violence. ",
+				"<cite ref=\"Pesachim 113b\">Pes. 113ᵇ</cite> Canaan bequeathed to his sons … <he>אהבו את הג׳</he> love ye violence. ",
+				"<cite ref=\"Bava Kamma 80b:5\">B. Kam. 80ᵇ</cite> <he>אין בו משום ג׳</he> the law of robbery does not apply to it (it is not private property). ",
+				"<cite ref=\"Eruvin 100b\">Erub. 100ᵇ</cite> we should have learned <he>ג׳ מנמלה</he> the regard of property from the ant. ",
+				"<cite ref=\"Bava Kamma 109a:6\">B. Kam. 109ᵃ</cite> <he>עד שיוציא גְּזֵילוֹ וכ׳</he> until he dispossesses himself of his robbery. ",
+				"<cite ref=\"Bava Kamma 109a:8\">Ib.</cite> <he>שיוציא גזילה</he> (corr. acc.). ",
+				"<cite ref=\"Bava Kamma 109b:9\">Ib.ᵇ</cite> <he>גזילו יוצא וכ׳</he> his robbery must go out of his possession. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:3\">Y. B. Mets. II, 8ᶜ</cite> <he>גזילו של גוי וכ׳</he> what has been illegitimately taken from a gentile, is forbidden (must be restored). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 4:2:4\">Y. Gitt. IV, 45ᶜ</cite> <he>מפני ג׳ השבט</he> in order to protect the (priestly) tribe from loss; <cite ref=\"Jerusalem Talmud Orlah 2:1:15\">Y. Orl. II, 61ᵈ</cite> bot. <he>מפני גיל השבט</he> (corr. acc.); a. fr."
+			]
+		}
+	]
+}

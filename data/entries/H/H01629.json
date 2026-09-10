@@ -1,0 +1,23 @@
+{
+	"id": "H01629",
+	"slug": "חרון",
+	"headword": {
+		"text": "חָרוֹן"
+	},
+	"page": {
+		"number": 499,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01607\"><he>חָרָה</he></cite>)<i>anger</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 70:10\">Gen. R. s. 70</cite> (play on <he>מחרן</he>, <cite ref=\"Genesis 29:4\">Gen. XXIX, 4</cite>) <he>מחֲרוֹנוֹ של וכ׳</he> we flee from the anger of the Lord; Yalk. ib. 123. ",
+				"<cite ref=\"Zevachim 102a:10\">Zeb. 102ᵃ</cite> <he>כל חרון אף וכ׳</he> wherever in the Scriptures the expression ‘anger of the Lord’ is used, there remains a lasting mark of it; <cite ref=\"Yalkut Shimoni on Torah 173:1\">Yalk. Ex. 173</cite>."
+			]
+		}
+	]
+}

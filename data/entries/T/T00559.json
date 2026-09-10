@@ -1,0 +1,39 @@
+{
+	"id": "T00559",
+	"slug": "רטי",
+	"headword": {
+		"text": "רטי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָטָה"
+		}
+	],
+	"page": {
+		"number": 1471,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"T00549\"><he>רָטַב</he></cite>) <i>to moisten, sprinkle, soften</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Tahorot 5:16\">Tosef. Toh. V, 16</cite> <he>הרוֹטֶה פשתנו</he> (ed. Zolk. <he>הרוטב</he>) he who wets (squirts) his flax (to make it soft for spinning). ",
+				"<cite ref=\"Tosefta Tahorot 4:11\">Ib. IV, 11</cite> <he>אף הרוֹטֵיהוּ וכ׳</he> ed. Zuck. (Var. <he>הסוטיהו</he>, corr. acc.; ed. Zolk. <he>הרטיבין</he>, read: <he>הרוֹטְבוֹ</he>) he who wets it (the flax spun by a menstruant) is likewise unclean on account of his mouth (coming in contact with it through the medium of the liquid in squirting)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְטָה"],
+			"senses": [
+				{
+					"gloss": " [<i>to cause dripping</i>,] <i>to wring, press</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 21\">Ex. R. s. 21</cite> <he>ה׳ אותי בידו</he> he caused me to be wrong out in his (Satan’s) hand (with ref. to <he>יִרְטֵנִי</he>, <cite ref=\"Job 16:11\">Job XVI, 11</cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

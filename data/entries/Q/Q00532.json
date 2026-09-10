@@ -1,0 +1,33 @@
+{
+	"id": "Q00532",
+	"slug": "פטליא",
+	"headword": {
+		"text": "פְּטַלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּטַלְיָה"
+		},
+		{
+			"text": "פְּטִילְ׳"
+		}
+	],
+	"page": {
+		"number": 1155,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00531\"><he>פטל</he></cite>, v. <cite ref=\"Q00531\">preced.</cite>) <i>wickerwork</i>, esp. <i>a sort of bale</i> for packing dates, figs &c. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 12:15\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:15\">XIII</cite>), 15 <he>פ׳ של גרוגרות מקרע וכ׳</he> you may cut open a bale of figs (on the Sabbath) and eat; Y. ib. XV, beg. 15ᵃ <cite ref=\"Q00514\"><he>פטילייא</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 16:5\">Kel. XVI, 5</cite> <cite ref=\"Q00532\"><he>פְּטַלְיָה</he></cite> ed. Dehr. (ed. <cite ref=\"Q00514\"><he>פּטילייה</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 1:2:3\">Y. Maas. Sh. I, 52ᵈ</cite> <he>פטולייא של תמרים</he> a bale of dates, contrad. fr. <cite ref=\"H00496\"><he>חוֹתָל</he></cite>; a. e.—Pl. <he>פְּטַלְיָאוֹת</he>. ",
+				"<cite ref=\"Tosefta Ma'aser Sheni 1:10\">Tosef. Maas. Sh. I, 10</cite> <he>פ׳ ודרוסות של תמרה</he> ed. Zuck. (ed. omit <he>פ׳</he>) dates packed in bales, and date pomaces."
+			]
+		}
+	]
+}

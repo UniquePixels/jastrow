@@ -1,0 +1,26 @@
+{
+	"id": "G00207",
+	"slug": "זוניתא-1",
+	"headword": {
+		"text": "זוֹנִיתָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "זַוְנִיתָא"
+		}
+	],
+	"page": {
+		"number": 388,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (v. <cite ref=\"G00206\">preced.</cite>) <i>laborer’s apron</i>. Pesik. Haomer, p. 72ᵃ <he>אסר זוֹנִיתֵיה וכ׳</he> (Ar. <cite ref=\"G00211\"><he>זונסתיה</he></cite>, Var. <cite ref=\"G00216\"><he>זוסתיה</he></cite>, a corrupt. of <he>מני מסותיה</he>) he tied his apron around him and went on &c.; <cite ref=\"Pesikta Rabbati 18:1\">Pesik. R. s. 18</cite> <cite ref=\"G00207\"><he>זוניתא</he></cite>. V. <cite ref=\"M01887\"><he>מְסוּתָא</he></cite>.",
+			"units": []
+		}
+	]
+}

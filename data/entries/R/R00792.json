@@ -1,0 +1,31 @@
+{
+	"id": "R00792",
+	"slug": "צרע-2",
+	"headword": {
+		"text": "צְרַע"
+	},
+	"page": {
+		"number": 1303,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִצְטַרַע</he> as <cite ref=\"R00791\">preced.</cite> <i>Hithpa.</i> ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 12:16\">Targ. Y. I Num. XII, 16</cite> (<cite ref=\"Targum Jonathan on Numbers 13:1\">XIII, 1</cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

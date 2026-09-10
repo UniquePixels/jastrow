@@ -1,0 +1,22 @@
+{
+	"id": "E00829",
+	"slug": "הרדופנין",
+	"headword": {
+		"text": "הַרְדּוֹפַנִּין"
+	},
+	"page": {
+		"number": 366,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <cite ref=\"E00808\"><he>הר</he></cite> = <he>חר</he>, a. <cite ref=\"D00313\"><he>דּוֹפָן</he></cite>; v. <cite ref=\"H01652\"><he>חַרְחֲבִינָה</he></cite>) <i>wall-ivy</i>, the leaves of which may be used for bitter herbs on the Passover night. ",
+			"units": [
+				"<cite ref=\"Pesachim 39a\">Pes. 39ᵃ</cite> (Ms. M. <he>הַרְרְּפַ׳</he>). V. <cite ref=\"E00833\"><he>הַרְרַּפְנֵי</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "I00691",
+	"slug": "טצדקא-2",
+	"headword": {
+		"text": "טַצְדְּקָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 549,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>אִסְטַ׳</he>; <he>סדק</he>) <i>split, break, damage</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 56a:23\">B. Kam. 56ᵃ</cite> <he>כל ט׳ וכ׳</he> (Ar. a. Ms. F. <he>טַצְדְּקֵי</he>, pl.) whatever damage there is in the power of the animal (left in the scorching sun) to do, it will do in order to get out."
+			]
+		}
+	]
+}

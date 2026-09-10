@@ -1,0 +1,38 @@
+{
+	"id": "I00295",
+	"slug": "טיב-2",
+	"headword": {
+		"text": "טִיב"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִיבָא"
+		}
+	],
+	"page": {
+		"number": 529,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"I00294\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 7:1\">Targ. Cant. VII, 1</cite> <he>מה טִיבְכוֹן</he> what right have you?—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:20\">Y. Sabb. II, 4ᵈ</cite> top <he>מה הוה טִיבֵיה</he> what sort of a man was he?; <cite ref=\"Jerusalem Talmud Terumot 11:5:11\">Y. Ter. XI, end, 48ᵇ</cite> <he>מה טבייה</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>seal, sign of recognition</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 17:18\">Targ. I Sam. XVII, 18</cite> <cite ref=\"I00371\"><he>טִיבְהוֹן</he></cite> ed. Lag. (oth. ed. <he>טִיבֵיהוֹן</he>, h. text <cite ref=\"P01262\"><he>עֲרֻבָּה</he></cite>). [<cite ref=\"Targum Jonathan on Amos 9:4\">Targ. Am. IX, 4</cite> <he>לטיבא</he>, some ed., read <he>לטָבָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 9:9\">Targ. Is. IX, 9</cite> <he>טיבין</he>, some ed., read <he>טָבִין</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

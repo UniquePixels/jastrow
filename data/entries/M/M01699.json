@@ -1,0 +1,22 @@
+{
+	"id": "M01699",
+	"slug": "מנא-2",
+	"headword": {
+		"text": "מְנָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 796,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (apocop. of <he>מִן אָן</he> = h. <cite ref=\"M01785\"><he>מִנַּיִן</he></cite>; v. <cite ref=\"M01796\"><he>מְנָן</he></cite>) <i>whence?; whence is it proven?</i> <cite ref=\"Bava Kamma 117a:2\">B. Kam. 117ᵃ</cite> <he>ומ׳ תימרא דמקנסא וכ׳</he> but whence will you prove that we draw no analogy from fines? <cite ref=\"Bava Kamma 44a:13\">Ib. 44ᵃ</cite> bot. <he>ומ׳ ידעינן וכ׳</he> and how do we know &c.? <cite ref=\"Sanhedrin 61b:22\">Snh. 61ᵇ</cite> <he>מ׳ אמינא לה</he> whence (on what evidence) do I say so?; a. fr.—<he>מנא הני מילי</he>, <he>מְנָהַנֵּי מילי</he>, v. <cite ref=\"M01165\"><he>מִילָּא</he> II</cite>.—<cite ref=\"M01705\"><he>מְנָאן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 11\">Gen. R. s. 11</cite>, v. <cite ref=\"J00107\"><he>יְדַע</he></cite>.—<he>מנא לן</he>, <cite ref=\"M01793\"><he>מְנָלָן</he></cite> <i>whence do we have this?, how do we know?</i> <cite ref=\"Berakhot 7a:35\">Ber. 7ᵃ</cite>. ",
+				"<cite ref=\"Megillah 2a\">Meg. 2ᵃ</cite> <he>מ׳ מ׳ כדבעינן וכ׳</he> whence do we derive this?—Whence we derive this? (you ask, as if it were a law requiring an intimation in the Biblical text, while it is merely a measure of accommodation,) as we were going to explain further on. ",
+				"<cite ref=\"Megillah 20a\">Ib. 20ᵃ</cite>; a. v. fr."
+			]
+		}
+	]
+}

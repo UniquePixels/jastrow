@@ -1,0 +1,25 @@
+{
+	"id": "Q00333",
+	"slug": "פורגרה",
+	"headword": {
+		"text": "פּוּרְגָּרָה"
+	},
+	"page": {
+		"number": 1146,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (redupl. of <cite ref=\"Q01547\"><he>פְּרַג</he></cite>) <i>a sprouting bulb, seed-onion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 3:3:2\">Y. Peah III, 17ᶜ</cite> (expl. <he>אמהות של בצלים</he>, Mish. ",
+				"<cite ref=\"Mishnah Peah 3:4\">ib. III, 4</cite>) <he>רב אמר פ׳</he> Rab says, it is what we call <i>purgarah</i> (R. S. a. l. <cite ref=\"Q01550\"><he>פּרגד</he></cite>, read: <cite ref=\"Q01153\"><he>פַּרְגַּר</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:4:5\">Y. Maasr. I, 49ᵃ</cite> bot. (expl. <he>משיפקל</he>, Mish. ",
+				"<cite ref=\"Mishnah Maasrot 1:6\">ib. I, 6</cite>) <he>מן דו ירים פ׳</he> (not <he>פוד׳</he>, <cite ref=\"Q00107\"><he>פיד׳</he></cite>) when the seed-onion is separated from the onions, v. <cite ref=\"Q01493\"><he>פָּקַל</he></cite>."
+			]
+		}
+	]
+}

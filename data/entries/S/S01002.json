@@ -1,0 +1,26 @@
+{
+	"id": "S01002",
+	"slug": "קימה",
+	"headword": {
+		"text": "קִימָה"
+	},
+	"page": {
+		"number": 1362,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"S00374\"><he>קוּם</he></cite>)<i>standing up, rising</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 11a:2\">Ber. 11ᵃ</cite> (expl. <he>ובקומך</he>, <cite ref=\"Deuteronomy 6:7\">Deut. VI, 7</cite>) <he>בשעת ק׳ ק׳ ממש</he> at the time of rising, whereby rising in its proper sense is meant (rising from bed, and not in the sense of standing erect at recital). ",
+				"<cite ref=\"Kiddushin 32b:10\">Kidd. 32ᵇ</cite> (ref. to <cite ref=\"Leviticus 19:32\">Lev. XIX, 32</cite>) <he>לא אמרתי ק׳ אלא וכ׳</he> the text means only the rising that is a token of respect, v. <cite ref=\"E00345\"><he>הִידּוּר</he></cite>. ",
+				"<cite ref=\"Leviticus 19:32\">Ib.</cite> <he>מה ק׳ שאין בה וכ׳</he> as rising is something with which no material sacrifice is connected &c. Ib. 33ᵃ, v. <cite ref=\"B00580\"><he>בִּיטּוּל</he></cite>; a. fr.—2) <i>erection, putting up</i>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:4:11\">Y. Ab. Zar. IV, 44ᵃ</cite> (ref. to <cite ref=\"Leviticus 26:1\">Lev. XXVI, 1</cite>) <he>לא היא עשייה לא היא ק׳</he> are ‘making’ and ‘erecting’ not the same? Answ. <he>עשייה בתחילה ק׳ וכ׳</he>, v. <cite ref=\"P01476\"><he>עֲשִׂיָּה</he></cite>; a. e."
+			],
+			"label": "1"
+		}
+	]
+}

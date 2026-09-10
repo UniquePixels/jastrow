@@ -1,0 +1,27 @@
+{
+	"id": "A03063",
+	"slug": "ארחא-1",
+	"headword": {
+		"text": "אָרְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹרְחָא"
+		}
+	],
+	"page": {
+		"number": 118,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A03062\">preced.</cite>) <i>traveler, guest</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 12:4\">Targ. II Sam. XII, 4</cite>.—[<cite ref=\"Jerusalem Talmud Berakhot 1:1:27\">Y. Ber. I, 2ᵈ</cite> top <he>לא הוה ארחא אתיא וכ׳</he>, oth. ed. <he>ארתא</he>, read <cite ref=\"U00712\"><he>שַׁחְרָא</he></cite> with oth. ed.].—Pl. <he>אָרְחִין</he>, <he>אוֹרְחִין</he>. Y. Peah VIII, end, 21ᵇ, (read as) <cite ref=\"Jerusalem Talmud Shekalim 5:4:8\">Y. Shek. V, end, 49ᵇ</cite> <he>הוה ליה א׳</he> he had guests. [<he>אָרְחָא</he> <i>path</i>, v. <cite ref=\"A00873\"><he>אוֹרְחָא</he></cite>.]"
+			]
+		}
+	]
+}

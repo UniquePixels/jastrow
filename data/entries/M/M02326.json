@@ -1,0 +1,20 @@
+{
+	"id": "M02326",
+	"slug": "מציצא-2",
+	"headword": {
+		"text": "מְצִיצָא"
+	},
+	"page": {
+		"number": 826,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. constr. <he>מְצִיצֵי</he> (<cite ref=\"M02350\"><he>מְצַץ</he></cite>) <i>compressed</i>; <he>מ׳ עינא</he> <i>having blinking eyes</i>. ",
+			"units": ["<cite ref=\"Ketubot 60b:15\">Keth. 60ᵇ</cite> bot."]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "Q01839",
+	"slug": "פרישות",
+	"headword": {
+		"text": "פְּרִישׁוּת"
+	},
+	"page": {
+		"number": 1228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>separation, parting</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 70:12\">Gen. R. s. 70</cite>, a. e., v. <cite ref=\"N01317\"><he>נְשִׁיקָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"Q01738\"><he>פָּרוּשׁ</he></cite>) <i>abstinence, restriction, self-restraint, piety</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 74b:13\">Yoma 74ᵇ</cite> <he>פ׳ דרך ארץ</he> the enforced abstinence from marital connection. ",
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite>, a. e., v. <cite ref=\"N00452\"><he>נְזִירוּת</he></cite>. ",
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> <he>משמת … טהרה ופ׳</he> with the death of … ceased the dignity of the Law, and levitical purity and abstinence died out. ",
+				"<cite ref=\"Mishnah Sotah 9:15\">Ib.</cite> <he>טהרה מביאה לידי פ׳ ופ׳ וכ׳</he> levitical cleanness leads to self-control, and self-control to sanctity; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

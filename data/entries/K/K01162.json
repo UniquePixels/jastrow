@@ -1,0 +1,23 @@
+{
+	"id": "K01162",
+	"slug": "כריך-2",
+	"headword": {
+		"text": "כָּרִיךְ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 667,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. (<cite ref=\"K01185\"><he>כָּרַךְ</he></cite>) <he>כָּרִיכִין</he> <i>parasites, lichens, moss</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 15\">Lev. R. s. 15</cite> <he>כל זמן … היא עושה כ׳</he> as long as the well empties into the garden, it will grow lichens (compared to leprous spots on the body, v. <cite ref=\"H00522\"><he>חְזָזִית</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 554:1\">Yalk. Lev. 554</cite> <he>היא עשויה בִּיצִּין</he>)."
+			]
+		}
+	]
+}

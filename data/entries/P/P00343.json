@@ -1,0 +1,76 @@
+{
+	"id": "P00343",
+	"slug": "עור-2",
+	"headword": {
+		"text": "עוּר"
+	},
+	"page": {
+		"number": 1057,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00342\">same</cite>, <i>to stir up, awaken; to awake</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:2\">Targ. Job XLI, 2</cite> <he>יְעוּרִ׳</he> (ed. Lag. a. oth. <he>יְעִרִ׳</he> <i>Af.</i>).—",
+				"<cite ref=\"Taanit 4a:1\">Taan. 4ᵃ</cite> <he>עוּרוּ</he>, v. <cite ref=\"P00361\"><he>עוּרְפִּילָא</he></cite>.—Part. <cite ref=\"P00520\"><he>עָיֵיר</he></cite>, <cite ref=\"P00672\"><he>עָיֵר</he></cite>; f. <cite ref=\"P00521\"><he>עָיְירָא</he></cite>, <cite ref=\"P00932\"><he>עָיְרָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:2\">Targ. Cant. V, 2</cite>.—<i>Part. pass.</i> <cite ref=\"P00673\"><he>עִיר</he></cite>, pl. <he>עִירִין</he>, <cite ref=\"P00688\"><he>עִירֵי</he></cite> <i>awake</i>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:28\">Y. Ber. I, 2ᵈ</cite> <he>עד כדון ברייתא ע׳</he> until then (the end of the first night-watch) men are awake. ",
+				"<cite ref=\"Sanhedrin 29b:3\">Snh. 29ᵇ</cite> <he>ע׳ ושכבי ליהוי וכ׳</he> shall those awake and those asleep be witnesses against thee (i.e. wouldst thou say so within the hearing of &c.)?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָעִיר", "אָעַר"],
+			"senses": [
+				{
+					"gloss": "<i>to stir up, awaken</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 14:9\">Targ. Is. XIV, 9</cite> <he>אֲעִירַת</he> (ed. Lag. <he>אעדת</he>, read <he>אֲעָרַת</he>). ",
+						"<cite ref=\"Targum Jonathan on Zechariah 4:1\">Targ. Zech. IV, 1</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to wake, watch; to wake up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 32:11\">Targ. Y. II, Deut. XXXII, 11</cite> (not <he>מֵעִיד</he>); a. e.—",
+						"<cite ref=\"Midrash Tehillim 22:6\">Midr. Till. to Ps. XXII</cite> (ref. to <cite ref=\"Midrash Tehillim 57:9\">ib. LVII, 9</cite>) <he>אֲעִיר יקרי וכ׳</he> wake up, my dignity (soul), before the dignity of my Maker (v. infra)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["עוֹרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to stir up, awaken</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 80:3\">Targ. Ps. LXXX, 3</cite>. Targ. Y. I Deut. l. c.—Y. Ber. I, 2ᵈ (ref. to <cite ref=\"Psalms 57:9\">Ps. LVII, 9</cite>) <he>אנא הוינא מְעוֹרֵר שחרה וכ׳</he> I am wont to wake up the dawn, the dawn never wakes me up; Pesik. Vayhi, p. 63ᵃ; <cite ref=\"Pesikta Rabbati 17:1\">Pesik. R. s. 17</cite> <he>ושחרה לא עוֹרְרַתְנִי</he>; Midr. Till. l. c.; <cite ref=\"Eichah Rabbah 2:22\">Lam. R. to II, 18</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Polel."
+		},
+		{
+			"forms": ["אִתְעִיר"],
+			"senses": [
+				{
+					"gloss": ", <i>Ittaf.</i> <he>אִתָּעַר</he> <i>to be stirred up; to awake; to bestir one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 14:12\">Targ. Job XIV, 12</cite>. ",
+						"<cite ref=\"Onkelos Genesis 41:4\">Targ. Gen. XLI, 4</cite>. Targ. ",
+						"<cite ref=\"Habakkuk 2:19\">Hab. II, 19</cite>; a. e.—Y. Ber. l. c. <he>אִתְעִיר יקרי</he> wake up, my dignity (v. supra); Pesik. l. c. <he>אִיתְּעַר</he>; Pesik. R. l. c.; Lam. R. l. c.; <cite ref=\"Yalkut Shimoni on Nach 776:1\">Yalk. Ps. 776</cite> <he>יִתָּעַר יקרי וכ׳</he> let my dignity wake up. ",
+						"<cite ref=\"Berakhot 4a:5\">Ber. 4ᵃ</cite> <he>לאִתְעוּרֵי משנתיה</he> (Ms. M. <he>לאִתְעוּרֵיה</he>) for the purpose of (his) being waked up from his sleep; <cite ref=\"Yalkut Shimoni on Torah 186\">Yalk. Ex. 186</cite>. ",
+						"<cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite>, beg. <he>א׳ משנתיה וכ׳</he> when he woke up from his sleep, he saw &c.; a. fr.—",
+						"<cite ref=\"Kohelet Rabbah 1:8\">Koh. R. to I, 8</cite> <he>כיון דא׳ בך חמרא וכ׳</he> since that wicked man’s ass has been stirred up against thee (as it will be a constant reproach to thee that that man has caused thee to ride on the Sabbath), thou canst no longer stay &c.; [Matt. K.: since that wicked man’s ass has <i>brayed</i> at thee, as if from <cite ref=\"N01006\"><he>נער</he></cite>, v. <cite ref=\"N01006\"><he>נָעַר</he> I</cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

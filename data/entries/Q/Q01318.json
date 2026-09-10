@@ -1,0 +1,35 @@
+{
+	"id": "Q01318",
+	"slug": "פסיקיא",
+	"headword": {
+		"text": "פְּסִיקְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסִיקְיָה"
+		},
+		{
+			"text": "פִּסְקְ׳"
+		}
+	],
+	"page": {
+		"number": 1196,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (an adapt. of fascia, as if from <he>פסק</he>) <i>band</i> or <i>fillet</i> worn by women over the breast; <i>girdle; bandage round the legs and feet</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:24\">Targ. Is. III, 24</cite> <cite ref=\"Q01318\"><he>פְּסִיקַיָּא</he></cite> (<i>pl.</i> form).—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:17\">Y. Snh. X, 28ᵈ</cite> bot. <he>נתן את הברזל תחת פ׳ שלו</he> he put the iron point of his spear under his <i>fascia</i>. ",
+				"<cite ref=\"Mishnah Shabbat 15:2\">Sabb. XV, 2</cite> (<cite ref=\"Shabbat 111b:8\">111ᵇ</cite>) <he>ושל פסי׳</he> (Bab. ed. <cite ref=\"Q01359\"><he>פסקיא</he></cite>) and the cords of the breast bandage. ",
+				"<cite ref=\"Shabbat 111b:8\">Ib.</cite> (113ᵃ) <he>קושרין דלי בפ׳ וכ׳</he> (Bab. ed. <he>בפסק׳</he> you may (on the Sabbath) tie up (the broken rope of) a bucket with a <i>fascia</i>, but not with a rope. Ib. 113ᵃ <he>כורך עליו פונדא או פ׳</he> (Ms. M. <cite ref=\"Q01312\"><he>פסיקא</he></cite>) he may wind a <i>funda</i> or a <i>fascia</i> around it; <cite ref=\"Pesachim 11a:13\">Pes. 11ᵃ</cite> <cite ref=\"Q00768\"><he>פיסקיא</he></cite> (Ms. M. <cite ref=\"Q01318\"><he>פסיקיא</he></cite>; early ed. <he>פסקי</he>, v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:4:5\">Y. Kil. IX, end, 32ᵈ</cite> <he>פיסקי</he> (corr. acc.), v. <cite ref=\"P00090\"><he>עֲגַל</he> I</cite>; a. e.—<i>Pl.</i> form <he>פְּסִיקִין</he>. ",
+				"<cite ref=\"Sifrei Bamidbar 131:2\">Sifré Num. 131</cite> <he>והיא מוציאה … מתחת פ׳ שלה</he> (not <he>פסוקין</he>) she took an impression of Peor from under her breast band (<cite ref=\"Sanhedrin 106a:11\">Snh. 106ᵃ</cite> <he>חיקה</he>)."
+			]
+		}
+	]
+}

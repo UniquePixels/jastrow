@@ -1,0 +1,29 @@
+{
+	"id": "C00108",
+	"slug": "גבלא-2",
+	"headword": {
+		"text": "גַּבְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּבָל"
+		},
+		{
+			"text": "גְּבֵל"
+		}
+	],
+	"page": {
+		"number": 207,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. b. h. <cite ref=\"C00105\"><he>גְּבָל</he></cite>) [<i>Highland</i>,] <i>Gabla, Gabalena</i>, a district (and town) South or South West of Jerusalem, occupied by Edomites (v. Graetz Monatsschrift 1875, p. 61 sq.; 1880, p. 481 sq.). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 36:20\">Targ. Y. Gen. XXXVI, 20</cite>; <cite ref=\"I Chronicles 1:38\">I Chr. I, 38</cite> (h. text <cite ref=\"U01660\"><he>שֵׂעִיר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:2\">Targ. Y. I Deut. XXXIII, 2</cite>.—",
+				"<cite ref=\"Avodah Zarah 59a\">Ab. Zar. 59ᵃ</cite>; <cite ref=\"Ketubot 112a:4\">Keth. 112ᵃ</cite> <he>איקלע לג׳</he> came to Gabla. Cmp. <cite ref=\"C00113\"><he>גַּבְלָן</he></cite>."
+			]
+		}
+	]
+}

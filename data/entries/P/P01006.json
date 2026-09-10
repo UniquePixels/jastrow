@@ -1,0 +1,50 @@
+{
+	"id": "P01006",
+	"slug": "ענק-1",
+	"headword": {
+		"text": "עָנַק"
+	},
+	"page": {
+		"number": 1096,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A02285\"><he>אנק</he></cite>, <he>חנק</he>)<i>to be narrow, elongated</i>; denom. <cite ref=\"P01008\"><he>עֲנָק</he></cite>, <cite ref=\"P00304\"><he>עוּנְקָא</he></cite> &c.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to press, force, rule</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 26:7\">Gen. R. s. 26</cite> (expl. <he>עֲנָקִים</he>) <he>שהיו עוֹנְקִים גלגל חמה ואומרים הורד וכ׳</he> they seized the globe of the sun and said, Send us rain down; <cite ref=\"Yalkut Shimoni on Torah 47:1\">Yalk. ib. 47</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 16:13\">Num. R. s. 16</cite> (ref. to <he>ילידי הענק</he>, <cite ref=\"Numbers 13:28\">Num. XIII, 28</cite>) <he>שראוהו שהיה עוֹנֵק את השמש</he> they (the spies) saw him force the sun (to give rain); Tanḥ. Shlaḥ 7."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱנִיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P01005\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Yoma 10a:6\">Yoma 10ᵃ</cite> (ref. to Num. l. c.) <he>שמַעֲנִיקִין החמה בקומתן</he> they lorded it over the sun by virtue of their height; <cite ref=\"Sotah 34b\">Sot. 34ᵇ</cite> (Rashi: they had the appearance of <i>squeezing</i> their heads <i>into</i> the sun)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " [<i>to suspend around the neck, load</i>,] <i>to outfit the emancipated slave with gifts</i> (<cite ref=\"Deuteronomy 15:14\">Deut. XV, 14</cite>). Y. Kidd. I, 59ᶜ bot. <he>אילו שמַעֲנִיקִין להן וכ׳</he> the following are those who must be sent away with gifts; Bab. ",
+					"units": [
+						"<cite ref=\"Kiddushin 16b:15\">Kidd. 16ᵇ</cite>. ",
+						"<cite ref=\"Kiddushin 16b:19\">Ib.</cite> <he>יכול לא יהיו מַעֲנִיקִים וכ׳</he> you might think that only he who is discharged after the expiration of six years of servitude, must be outfitted. ",
+						"<cite ref=\"Sifrei Devarim 119:2\">Sifré Deut. 119</cite> <he>שאם הֶעֱנַקְתָּ … תַּעֲנִיק לו וכ׳</he> that when thou hast outfitted him once, thou must do it again &c. Kidd. l. c. <he>כמה מעניקים לו</he> how much must he be given?; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

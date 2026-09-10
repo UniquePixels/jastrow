@@ -1,0 +1,23 @@
+{
+	"id": "P01181",
+	"slug": "עקימותא",
+	"headword": {
+		"text": "עֲקִימוּתָא"
+	},
+	"page": {
+		"number": 1106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (v. <cite ref=\"P01180\">preced.</cite>) <i>crookedness, perverseness, insincerity</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:12\">Targ. Prov. VI, 12</cite> (h. text <he>עקשות</he>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 7:16\">Targ. Hos. VII, 16</cite> Regia (Bxt. <he>עִקְמוּת</he>), v. <cite ref=\"P00924\"><he>עִמְקוּתָא</he></cite>."
+			]
+		}
+	]
+}

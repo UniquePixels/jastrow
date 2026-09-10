@@ -1,0 +1,25 @@
+{
+	"id": "C00932",
+	"slug": "גליא-2",
+	"headword": {
+		"text": "גַּלְיָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 248,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00926\"><he>גלי</he></cite>) <i>revelation</i>. <he>בית ג׳</he> <i>a place or temple for oracles</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 46a:3\">Ab. Zar. 46ᵃ</cite> <he>היו קורין אותה בית ג׳ קורין אותה בית כריא</he> when they (the idolators) call a place <i>Beth-Galia</i>, Israelites should call it <i>Beth-Kharia</i>, v. <cite ref=\"K01154\"><he>כַּרְיָא</he></cite>; <cite ref=\"Temurah 28b:21\">Tem. 28ᵇ</cite>.—",
+				"<cite ref=\"Megillah 6a:13\">Meg. 6ᵃ</cite> (ref. to <cite ref=\"Zechariah 9:7\">Zech. IX, 7</cite>) <he>זה בית ג׳ שלהן</he> that means their temple. V., however, <cite ref=\"C00156\"><he>גַּדָּא</he></cite> a. <cite ref=\"C00849\"><he>גַּלָּא</he></cite>."
+			]
+		}
+	]
+}

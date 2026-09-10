@@ -1,0 +1,39 @@
+{
+	"id": "N00324",
+	"slug": "נוול-2",
+	"headword": {
+		"text": "נָוֵול"
+	},
+	"page": {
+		"number": 884,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", <cite ref=\"N00362\"><he>נָוֵל</he></cite> (cmp. <cite ref=\"N00089\"><he>נָבֵל</he></cite>) <i>to be disfigured, look repulsive; to degenerate</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 14:7\">Tosef. Sot. XIV, 7</cite> <he>אזלה ונָוְלָה</he> (Var. <he>ונָבְלָה</he>) becomes more and more corrupt."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִוֵּול"],
+			"senses": [
+				{
+					"gloss": "<i>to disfigure; to disgrace</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 154a:8-11\">B. Bath. 154ᵃ</cite> <he>אי … לנַוְּולוֹ</he> you are not permitted to disgrace him (to search a corpse for tokens of maturity). ",
+						"<cite ref=\"Mishnah Sotah 1:6\">Sot. I, 6</cite> <he>מעבירים ממנה כדי לנַוְּולָהּ</he> we divest her (of all jewelry) in order to disgrace her. ",
+						"<cite ref=\"Nedarim 66a:14\">Ned. 66ᵃ</cite> <he>בנות ישראל</he> … <he>שהעניות מְנַוַּולְתָּן</he> Israel’s daughters are handsome, it is only poverty that makes them appear homely. ",
+						"<cite ref=\"Sifrei Devarim 240:3\">Sifré Deut. 240</cite> (ref. to <he>נבלה</he>, <cite ref=\"Deuteronomy 22:21\">Deut. XXII, 21</cite>) <he>לא עצמה בלבד נִוְּולָה וכ׳</he> she has disgraced not only herself but all virgins of Israel; a. e.—Part. pass. <he>מְנוּוָּל</he>; f. <he>מְנוּוֶּלֶת</he>; pl. <cite ref=\"M01737\"><he>מְנוּוָּלִין</he></cite>, <he>מְנוּוָּלוֹת</he>. Y. Pes. VI, 33ᵃ, sq. <he>זבח מ׳</he> (not <cite ref=\"M00708\"><he>מזבח</he></cite>) a repulsive (putrid) sacrifice (<cite ref=\"Shabbat 116b:7\">Sabb. 116ᵇ</cite> <he>מוטלין כנבלה</he>). ",
+						"<cite ref=\"Mishnah Nazir 4:5\">Naz. IV, 5</cite>, a. e., v. <cite ref=\"A02841\"><he>אֶפֶשׁ</he></cite>. ",
+						"<cite ref=\"Tosefta Sotah 2:3\">Tosef. Sot. II, 3</cite> <he>הרי היא בדוקה ומנ׳</he> she (by refusing to drink the searching waters) is already searched and disgraced, i.e. has admitted her guilt. Y. M. Kat. III, beg. 81ᶜ. <he>שלא … מנ׳</he> that they may not enter the Sabbath with neglected hair; a. e.—",
+						"<cite ref=\"Kiddushin 30b:8\">Kidd. 30ᵇ</cite> <he>אם פגע בך מנ׳ זה וכ׳</he> if that ugly one (the tempter) meets thee, drag him to the house of learning, i.e. overcome evil inclinations by study."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

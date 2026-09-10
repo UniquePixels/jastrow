@@ -1,0 +1,23 @@
+{
+	"id": "O00009",
+	"slug": "סאוב",
+	"headword": {
+		"text": "סְאוֹב"
+	},
+	"page": {
+		"number": 947,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְאֵב</he> I) <i>unclean object; uncleanness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 21:1\">Targ. Y. Lev. XXI, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 7:26\">Targ. Y. Deut. VII, 26</cite> <he>ס׳ שקצא</he> (ed. Amst. <cite ref=\"O00014\"><he>סְאִיב</he></cite>, not <cite ref=\"O00890\"><he>סָ׳</he></cite>) what has become unclean through an abomination."
+			]
+		}
+	]
+}

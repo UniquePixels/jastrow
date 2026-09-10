@@ -1,0 +1,38 @@
+{
+	"id": "A01786",
+	"slug": "אלה-7",
+	"headword": {
+		"text": "אֱלָהּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֱלָהָא"
+		},
+		{
+			"text": "אֵילַהּ"
+		}
+	],
+	"page": {
+		"number": 66,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= h. <cite ref=\"A01798\"><he>אֱלוֹהַּ</he></cite>) <i>God</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 3:28\">Dan. III, 28</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Deuteronomy 33:26\">Targ. O. Deut. XXXIII, 26</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 5:3\">Lev. R. s. 5</cite>, end <he>את אלה רב</he> Ar. (ed. <he>אלוה</he>). ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:3\">Y. B. Mets. II, 8ᶜ</cite> <he>אלההון דיהודאי</he> the God of the Jews. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:3\">Y. Snh. X, 28ᵇ</cite>.—<i>Pl.</i> (also plur. majest.) <cite ref=\"A01790\"><he>אֱלָהִין</he></cite>. ",
+				"<cite ref=\"Daniel 2:11\">Dan. II, 11</cite>; a. e.—<he>אֱלָהַיָּא</he>. ",
+				"<cite ref=\"Jeremiah 10:11\">Jer. X, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 136:2\">Targ. Ps. CXXXVI, 2</cite> <he>אלהי אלהיא</he> the God of gods. [<cite ref=\"Bereishit Rabbah 26\">Gen. R. s. 26</cite> <he>כומריא גנבו א׳ וכ׳</he> (read <he>אלהון</he>) when priests rob—who would swear by their god?] <cite ref=\"Bereishit Rabbah 26\">Ib.</cite> (ref. to <cite ref=\"Genesis 6:2\">Gen. VI, 2</cite>).—",
+				"<cite ref=\"Vayikra Rabbah 33\">Lev. R. s. 33</cite> <he>תמן קריין … אֱלָהַיָּיא</he> there (in Rome) they call their kings <i>gods</i>."
+			]
+		}
+	]
+}

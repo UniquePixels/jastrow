@@ -1,0 +1,33 @@
+{
+	"id": "A01633",
+	"slug": "אישתא",
+	"headword": {
+		"text": "אֶישְׁתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶשְׁתָּא"
+		},
+		{
+			"text": "אֶשְׁתָּה"
+		}
+	],
+	"page": {
+		"number": 61,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"U01103\"><he>שִׁיתָּא</he></cite>) <i>six</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 12:24\">Targ. I Chr. XII, 24</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:3:8\">Y. Sot. VIII, 22ᶜ</cite> bot. <he>אמתא א׳</he> a cubit has six handbreadths. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:4:10\">Y. Snh. I, end, 19ᵈ</cite> <he>חד מן א׳</he> <i>one sixth</i>. Ib. X, 28ᵇ top <he>אש׳ ירחין</he> six months.—Pl. <cite ref=\"A03379\"><he>אַשְׁתִּין</he></cite> <i>sixty</i>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 12:16\">Targ. Y. II, Num. XII, 16</cite>. Cmp. <cite ref=\"A03301\"><he>אֲשִׁיתָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "C00007",
+	"slug": "גאוה",
+	"headword": {
+		"text": "גַּאֲוָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּאֲוָוה"
+		}
+	],
+	"page": {
+		"number": 201,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"C00015\"><he>גאי</he></cite>)<i>haughtiness, pride</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 7:3:2\">Y. Yoma VII, 44ᵇ</cite> <he>מפני הג׳</he> to avoid the appearance of pride (on the Day of Atonement)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>glory</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 5b:10\">Ḥag. 5ᵇ</cite> (ref. to <he>גוה</he>, <cite ref=\"Jeremiah 13:17\">Jer. XIII, 17</cite>) <he>מפני גַאֲוָותָן של וכ׳</he> over the glory of Israel that has been taken from him &c. ",
+				"<cite ref=\"Jeremiah 13:17\">Ib.</cite> <he>מפני גַאֲוָותָהּ של מלכות שמים</he> over the (lost) glory of the heavenly kingdom (the destruction of the Temple)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M03051",
+	"slug": "מתיבתא",
+	"headword": {
+		"text": "מְתִיבְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 861,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00142\"><he>תּוּב</he></cite>) <i>answer, argument.—</i>Pl. <cite ref=\"M03050\"><he>מְתִיבָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 8:3:7\">Y. Gitt. VIII, 49ᶜ</cite> top <he>כל אילין מ׳ וכ׳</he> the same arguments which &c."
+			]
+		}
+	]
+}

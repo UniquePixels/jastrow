@@ -1,0 +1,25 @@
+{
+	"id": "D01034",
+	"slug": "דרבנאה",
+	"headword": {
+		"text": "דָּרְבְּנָאָה",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּרְבְּנָאֵי"
+		}
+	],
+	"page": {
+		"number": 320,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"D01033\">preced.</cite>) <i>goad-bearers</i> (an adaptation of δορυφόροι in speaking of Athens), <i>guardsmen</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 8b:8\">Bekh. 8ᵇ</cite> (Ar. <cite ref=\"D01032\"><he>דָּרְבּוֹנֵי</he></cite>)."
+			]
+		}
+	]
+}

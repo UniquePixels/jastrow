@@ -1,0 +1,45 @@
+{
+	"id": "A02448",
+	"slug": "אסיתא",
+	"headword": {
+		"text": "אֲסִיתָא"
+	},
+	"page": {
+		"number": 93,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אסי</he> = <cite ref=\"P01040\"><he>עסי</he></cite>, <cite ref=\"P01049\"><he>עסס</he></cite>; cmp. <cite ref=\"D00242\"><he>דּוּךְ</he></cite> a. <cite ref=\"M00266\"><he>מְדֹכָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mortar</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 77b:10\">Sabb. 77ᵇ</cite> (playful etym.) <he>א׳ חסירתא</he> ed. a. Var. Ar., it is called <i>ăsitha</i> because it is caved out (Ms. M. a. Ar. <cite ref=\"H01373\"><he>חסידתא</he></cite> <i>pious</i>, submitting to blows). ",
+				"<cite ref=\"Chullin 105b:8\">Ḥull. 105ᵇ</cite> <he>א׳ ובוכנא דתבלי</he> mortar and pestle for spices. ",
+				"<cite ref=\"Niddah 36b:73\">Nidd. 36ᵇ</cite> (Issi playing on his name) I am <he>א׳ דנחשא</he> a brazen mortar.—",
+				"<cite ref=\"Ketubot 49b:5\">Keth. 49ᵇ</cite> <he>כפו ליה א׳ וכ׳</he> invert for him a mortar in public (improvise a stand) and let him stand up &c. ",
+				"<cite ref=\"Moed Katan 22b:21\">M. Kat. 22ᵇ</cite> <he>כפי א׳</he> invert thou a mortar &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (from its shape) <i>hip-bone, pelvic bone</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 52a:14\">Ḥull. 52ᵃ</cite> <he>בוכנא וא׳</he> the pestle and the mortar, i.e. the rib sitting in the hip-bone and the hip-bone."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. Nidd. l. c.) trnsf. <i>hard-hearted woman</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite>; <cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>שבוק הדא א׳</he> Ar. (ed. <cite ref=\"A02316\"><he>אנתתא</he></cite>, <he>איתתא בישא</he>; <cite ref=\"Yalkut Shimoni on Torah 665\">Yalk. Lev. 665</cite>; <cite ref=\"Yalkut Shimoni on Nach 352\">Yalk. Is. 352</cite> <he>איתתא</he>) divorce that mean woman."
+			],
+			"label": "3"
+		}
+	]
+}

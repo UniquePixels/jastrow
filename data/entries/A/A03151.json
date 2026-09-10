@@ -1,0 +1,28 @@
+{
+	"id": "A03151",
+	"slug": "ארכיסטראטיגוס",
+	"headword": {
+		"text": "אַרְכִיסְטְרָאטֵיגוֹס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְכִיסְטְרָטֵיגוֹס"
+		}
+	],
+	"page": {
+		"number": 122,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀρχιστρατηγός) <i>commander in chief;</i> also <i>chief magistrate</i> (v. <cite ref=\"A02415\"><he>אִסְטְרָטֵיגוֹס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 58\">Gen. R. s. 58</cite>; (<cite ref=\"Shemot Rabbah 31\">Ex. R. s. 31</cite> <he>אסטרט׳</he>)."
+			]
+		}
+	]
+}

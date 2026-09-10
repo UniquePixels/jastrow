@@ -1,0 +1,27 @@
+{
+	"id": "M01100",
+	"slug": "מיהא",
+	"headword": {
+		"text": "מִיהָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיהַת"
+		}
+	],
+	"page": {
+		"number": 771,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (contr. of <cite ref=\"M01072\"><he>מִי</he></cite> or <cite ref=\"M01696\"><he>מַן</he></cite> a. <cite ref=\"E00180\"><he>הֲוָא</he></cite>, <he>הֲוַת</he>) [<i>whatever it be, be it as it may</i>,] <i>however, at all events</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 106b:2-3\">B. Kam. 106ᵇ</cite> <he>השתא מ׳ הא לא אודי מידי</he> Ms. M. (ed. <he>השתא מ׳ לא אודי</he>) now, however, you see, he has not confessed. ",
+				"<cite ref=\"Bava Metzia 84b:13\">B. Mets. 84ᵇ</cite> <he>בתורה מ׳ גדול ממך לא וכ׳</he> in knowledge, at all events, (even according to thy own admission) he was thy superior, (though) I do not know (cannot judge). ",
+				"<cite ref=\"Shabbat 125a:13\">Sabb. 125ᵃ</cite> <he>אודי לי מ׳ וכ׳</he> do at least admit that &c., v. <cite ref=\"A01197\"><he>אֵיזִי</he></cite>. ",
+				"<cite ref=\"Niddah 6b:15\">Nidd. 6ᵇ</cite> <he>קתני מ׳ ככרות וכ׳</he> at all events it says ‘loaves of T’rumah’; a. v. fr. [Not to be confounded with <cite ref=\"M00342\"><he>מֵהָא</he></cite> <i>from this</i>, v. <cite ref=\"E00005\"><he>הָא</he></cite>.]"
+			]
+		}
+	]
+}

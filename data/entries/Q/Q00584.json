@@ -1,0 +1,33 @@
+{
+	"id": "Q00584",
+	"slug": "פיגמא",
+	"headword": {
+		"text": "פִּיגְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיגְמָה"
+		}
+	],
+	"page": {
+		"number": 1159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"Q00077\"><he>פְּגָמָא</he></cite> q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"Q00046\"><he>פָּגוּם</he></cite> I <i>semicircular turret, Pigma</i>, a suburb of Tiberias. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:1:6\">Y. Erub. V, 22ᵇ</cite> bot. <he>אין תמשח פ׳ וכ׳</he> if you measure (for Sabbath limits) from the Turret &c."
+			],
+			"label": "2"
+		}
+	]
+}

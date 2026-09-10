@@ -1,0 +1,30 @@
+{
+	"id": "N00737",
+	"slug": "ניפלא-1",
+	"headword": {
+		"text": "נִיפְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִפְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 907,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"N01041\"><he>נָפִיל</he></cite>) [<i>giant</i>,] the constellation of <i>Orion</i> (h. <cite ref=\"K00924\"><he>כְּסִיל</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 9:9\">Targ. Job IX, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:31\">Ib. XXXVIII, 31</cite>.—Pl. <cite ref=\"N01041\"><he>נְפִילִין</he></cite>, constr. <he>נְפִילֵי</he>, <cite ref=\"N01061\"><he>נִפְלֵי</he></cite> <cite ref=\"Targum Jonathan on Isaiah 13:10\">Targ. Is. XIII, 10</cite> (h. text <he>וכסיליהם</he>).—",
+				"<cite ref=\"Sanhedrin 96b:15\">Snh. 96ᵇ</cite> <he>בר נפלי</he> <i>son of giants</i> (?), surname of the Messiah (with allus. to <he>הנפלת</he>, <cite ref=\"Amos 9:11\">Am. IX, 11</cite>); Yalk. Am. 549 (some ed. <he>נְפִילֵי</he>)."
+			]
+		}
+	]
+}

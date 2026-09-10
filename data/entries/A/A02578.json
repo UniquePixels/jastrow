@@ -1,0 +1,32 @@
+{
+	"id": "A02578",
+	"slug": "אסתן",
+	"headword": {
+		"text": "אִסְתָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְתָּנָא"
+		},
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 99,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. m. (Ithp. of <cite ref=\"O01154\"><he>סן</he></cite>, v. <he>סנן</he> a. <he>שנן</he>) <i>the clear</i> or <i>cold wind</i>, hence <i>north-wind, North</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 23a:17\">Keth. 23ᵃ</cite>; <cite ref=\"Kiddushin 12b:3\">Kidd. 12ᵇ</cite> <he>עדים בצד אסתן</he> the witnesses are in the North (Babylon; v. Tosaf. ",
+				"<cite ref=\"Kiddushin 12b:3\">ib.</cite> a. v. <he>אוריא</he>).—",
+				"<cite ref=\"Aramaic Targum to Job 37:22\">Targ. Job XXXVII, 22</cite> Ms. (ed. <cite ref=\"A02580\"><he>אִסְתַּנְיָא</he></cite>); h. text <he>זהב</he>).—",
+				"<cite ref=\"Berakhot 59a:14\">Ber. 59ᵃ</cite> <he>אתא אסתנא וכ׳</he> (Ms. <cite ref=\"A02549\"><he>אי׳</he></cite>) the northwind comes and clears the sky. ",
+				"<cite ref=\"Eruvin 65a\">Erub. 65ᵃ</cite> a Talmudic decision must be as clear <he>כיומא דא׳</he> as a northwind day; <cite ref=\"Megillah 28b\">Meg. 28ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 116b\">Sabb. 116ᵇ</cite>. Cmp. <cite ref=\"I00318\"><he>טִיהֲרָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "T01150",
+	"slug": "רתת-3",
+	"headword": {
+		"text": "רֶתֶת"
+	},
+	"page": {
+		"number": 1504,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01149\">preced.</cite>; b. h. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>trembling, awe</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 22a\">Ber. 22ᵃ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 11\">Lev. R. s. 11</cite>. Tanḥ. Lekh. 1; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (from its trepidation; perh. to be read: <cite ref=\"T01148\"><he>רָתָת</he></cite>) <i>sweetbread, pancreas</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 44b\">Ber. 44ᵇ</cite>; <cite ref=\"Berakhot 57b\">57ᵇ</cite>; <cite ref=\"Avodah Zarah 29a\">Ab. Zar. 29ᵃ</cite> <he>ורתת</he> Ar. s. v. <cite ref=\"T01116\"><he>רת</he></cite> (ed. Koh. <he>והָרַתְּ</he>; Ar. in explain. our w. uses <cite ref=\"T00733\"><he>רִית</he></cite>), v. <cite ref=\"E00906\"><he>הֶרֶת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

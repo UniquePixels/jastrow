@@ -1,0 +1,35 @@
+{
+	"id": "T00500",
+	"slug": "רחים-4",
+	"headword": {
+		"text": "רִחִים",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְחִימָא"
+		}
+	],
+	"page": {
+		"number": 1466,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00499\">preced.</cite>) <i>beloved, friend; lovable</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:3\">Targ. Jer. IX, 3</cite> (ed. Wil. <cite ref=\"T00498\"><he>רְחֵים</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 31:19\">Ib. XXXI, 19</cite> (<cite ref=\"Targum Jonathan on Jeremiah 31:20\">20</cite>) <cite ref=\"T00499\"><he>רָחֵים</he></cite>. Targ. O. a. Y. II <cite ref=\"Deuteronomy 33:12\">Deut. XXXIII, 12</cite>; a. fr.—Pl. <cite ref=\"T01134\"><he>רְחִימִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 1:6\">Targ. Hos. I, 6</cite>; <cite ref=\"Targum Jonathan on Hosea 1:8\">8</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 1:23\">Targ. II Sam. I, 23</cite>; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 65:16\">Gen. R. s. 65</cite> [read:] <he>כמה ר׳ הוו ליה וכ׳</he> so many friends had he, and yet he said, (I appoint as my son’s guardian) the scribe; <cite ref=\"Yalkut Shimoni on Torah 115:1\">Yalk. ib. 115</cite> <cite ref=\"T00527\"><he>רַחֲמִין</he></cite>.—<i>Fem.</i> <cite ref=\"T00500\"><he>רְחִימָא</he></cite>, <cite ref=\"T00502\"><he>רְחִימְתָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 11:2\">Targ. Y. Ex. XI, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 3:1\">Targ. Hos. III, 1</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 21:16\">Targ. O. Deut. XXI, 16</cite> <cite ref=\"T00485\"><he>רְחוּמְתָא</he></cite> ed. Berl. (ed. Vien. <cite ref=\"T00522\"><he>רְחֶמְתָּא</he></cite>); Y. <cite ref=\"T00502\"><he>רְחִימְתָּא</he></cite>, <cite ref=\"T00485\"><he>רְחוּמְתָא</he></cite>, <he>רְחִמְ׳</he>."
+			]
+		}
+	]
+}

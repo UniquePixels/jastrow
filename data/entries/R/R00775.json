@@ -1,0 +1,58 @@
+{
+	"id": "R00775",
+	"slug": "צריך-4",
+	"headword": {
+		"text": "צְרִיךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צְרִיכָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1301,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00772\"><he>צָרִיךְ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 28:12\">Targ. I Chr. XXVIII, 12</cite>. ",
+				"<cite ref=\"Onkelos Genesis 16:12\">Targ. O. Gen. XVI, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 53:2\">Targ. Is. LIII, 2</cite>; a. fr.—",
+				"<cite ref=\"Taanit 20b:15\">Taan. 20ᵇ</cite> <he>כל מאן דצ׳ וכ׳</he> whosoever is in need, let him come and eat. ",
+				"<cite ref=\"Taanit 20b:14\">Ib.</cite> <he>כל דצ׳ ליתי וכ׳</he> let whoever needs (to wash his hands) enter &c.; a. fr.—צריכא "
+			],
+			"senses": [
+				{
+					"gloss": " (in Y.) <i>it is doubtful</i>, v. <cite ref=\"R00772\"><he>צָרִיךְ</he></cite>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Gittin 4:7:1\">Y. Gitt. IV, 46ᵃ</cite>, v. <cite ref=\"A02826\"><he>אפרכוריס</he></cite>. Y. Ned. V, end, 54ᵇ <he>תמן צ׳ ליה וכ׳</he> there it was doubtful to him, and here &c., v. <cite ref=\"Q02072\"><he>פְּשִׁיטָא</he></cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (<i>it is</i>) <i>necessary to state it</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 21a\">Ber. 21ᵃ</cite> sq. <he>צ׳</he>: <he>וצ׳ דאי אשמעינן אימא לא</he> and it was necessary (to teach both cases), for, if we had been taught only the first case, we might have thought …, and if we had been taught only the second case, we might have thought …: hence it was necessary. ",
+						"<cite ref=\"Pesachim 21a:12\">Pes. 21ᵃ</cite> <he>למה לי למיתנא … צ׳ דאי … צ׳</he> why was it necessary to say ‘domestic animals’ and ‘beasts of chase’? It was necessary, for if …: hence it was necessary.—<he>לא צריכא ד׳</he> (sub. <cite ref=\"A01770\"><he>אלא</he></cite>) <i>it would not have been necessary but for</i>. ",
+						"<cite ref=\"Taanit 20b:5\">Taan. 20ᵇ</cite> <he>לא צ׳ דנפלו וכ׳</he> it would not have been necessary to use the double expression ‘ruinous’ and ‘liable to fall’, were it not for the sake of intimating a case like that of walls which have fallen in consequence of their height, or which stand on the edga of a river. ",
+						"<cite ref=\"Yoma 83b:4\">Yoma 83ᵇ</cite> <he>פשיטא לא צ׳ בשבת</he> is it not self-evident? It was necessary to state it for the eventuality of its being on the Sabbath. ",
+						"<cite ref=\"Bava Metzia 30b:19\">B. Mets. 30ᵇ</cite> <he>לא צ׳ דהוה וכ׳</he> it means a case, when he saw the animal pasturing &c.; a. v. fr.—Pl. <he>צְרִיכִין</he>, <he>צְרִיכֵי</he>; <cite ref=\"R00772\"><he>צְרִיכָן</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 23:42\">Targ. Y. Lev. XXIII, 42</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 21:4\">Targ. II Sam. XXI, 4</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 31a:24\">B. Mets. 31ᵃ</cite> <he>עומרין דצ׳ לארעא</he> sheaves which need the ground (whereon they lie to ripen). ",
+						"<cite ref=\"Bava Metzia 31a:24\">Ib.</cite> <he>צ׳ דאי וכ׳</he> all these three passages are necessary, for if &c. ",
+						"<cite ref=\"Pesachim 23a:17\">Pes. 23ᵃ</cite> <he>וצ׳</he> and both clauses are necessary; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

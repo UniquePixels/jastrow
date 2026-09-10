@@ -1,0 +1,36 @@
+{
+	"id": "M01950",
+	"slug": "מסכן-4",
+	"headword": {
+		"text": "מִסְכֵּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִסְכֵּנָא"
+		},
+		{
+			"text": "מִסְכֵּי׳"
+		},
+		{
+			"text": "מִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 808,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"M01948\"><he>מִסְכֵּן</he> I</cite> <cite ref=\"Aramaic Targum to Ecclesiastes 4:13\">Targ. Koh. IV, 13</cite>, sq. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 15:11\">Targ. O. Deut. XV, 11</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:3:3\">Y. B. Mets. II, 8ᶜ</cite> top <he>אינש מ׳</he> a poor man. Y. Peah VII, 21ᵇ top; a. fr.—Pl. <he>מִסְכֵּנִין</he>, <he>מִסְכֵּנַיָּא</he>, <cite ref=\"M01950\"><he>מִסְכֵּי׳</he></cite>, <cite ref=\"M01393\"><he>מִי׳</he></cite>. Targ. Y. Deut. l. c. (not <he>מַסְכְּנִין</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:7\">Targ. Prov. XXII, 7</cite>; a. e.—Y. Peah l. c. <he>יהב … דפלג למ׳</he> gave his son Samuel money to distribute among the poor. Y. Ḥag. II, 77ᵈ bot.; <cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> <he>ייתון מ׳ וכ׳</he> let the poor come and eat it, that it may not go to ruin. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 3:4:12\">Y. Sot. III, 19ᵃ</cite>; <cite ref=\"Jerusalem Talmud Peah 8:7:2\">Y. Peah VIII, 21ᵃ</cite> bot. <he>יליף זכי … מעשר מ׳</he> used to give him the tithes of the poor every third year; a. fr.—Denom.:"
+			]
+		}
+	]
+}

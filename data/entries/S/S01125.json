@@ -1,0 +1,37 @@
+{
+	"id": "S01125",
+	"slug": "קיצה-2",
+	"headword": {
+		"text": "קִיצָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1367,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"S01821\"><he>קציצה</he></cite>; <cite ref=\"S01836\"><he>קָצַץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cutting, felling</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 3:14\">Tosef. Shebi. III, 14</cite> <he>שתהא קִיצָתָהּ שוה</he> (ed. Zuck. <he>שיהא קִיצָתוֹ</he>) that the felling be even (the stumps all alike, v. <cite ref=\"D01035\"><he>דָּרַג</he></cite>); Y. ib. IV, 35ᵇ bot. <he>קיצצתן</he> (corr. acc., or <he>קְצִיצָתָן</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"Q01350\"><he>פָּסַק</he></cite>) <i>stipulation, agreement</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ketubot 4:7\">Tosef. Keth. IV, 7</cite> <he>אין כלום לאחר הק׳</he> (ed. Zuck. <he>הקיצא</he>) after this agreement (that she would support herself and her husband) there can be no claim; Y. ib. V, 29ᵈ <cite ref=\"S01586\"><he>קניין</he></cite> (corr. acc.).—Y. ib. IV, 29ᵃ bot.; <cite ref=\"Jerusalem Talmud Bava Batra 9:4:3\">Y. B. Bath. IX, 17ᵃ</cite> top <he>מכה שיש לה ק׳</he> a disease on the treatment of which there is a definite agreement (with the physician as to his charge), v. <cite ref=\"S01786\"><he>קִצְבָה</he></cite>. ",
+				"<cite ref=\"Tosefta Ketubot 6:6\">Tosef. Keth. VI, 6</cite> <he>אם עשתה קִיצָתָהּ</he> if she made her own stipulation, v. <cite ref=\"S01132\"><he>קִיצוּתָא</he></cite>.—",
+				"<cite ref=\"Bava Batra 8b:8\">B. Bath. 8ᵇ</cite> <he>על קִיצָתָן</he>, v. <cite ref=\"N00954\"><he>נָסַע</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

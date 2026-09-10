@@ -1,0 +1,34 @@
+{
+	"id": "I00906",
+	"slug": "טרש-1",
+	"headword": {
+		"text": "טְרַשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 558,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00860\"><he>טרף</he></cite>) <i>to batter</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 98a\">B. Kam. 98ᵃ</cite> <he>מחייה וטַרְשֵׁיה …</he> (Var. <he>טרסיה</he>, v. Rabb. D. S. a. l. note 300) he struck upon the coin with the hammer and battered it (so that the stamp was effaced)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טָרֵישׁ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"I00908\"><he>טֶרֶשׁ</he></cite>) <i>to harden, make brittle</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 46b:3\">Ḥull. 46ᵇ</cite> <he>בקרירי לא דמְטָרְשֵׁי</he> you must not put the lungs in cold water, because it makes the coat of the lungs brittle (so as to crack when you blow them up; [Ar. ed. Koh. <he>בחמימי לא דמט׳</he> not in hot water because ‘it makes strong’]; v. <cite ref=\"K00361\"><he>כְּוַץ</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

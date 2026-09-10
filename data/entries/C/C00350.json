@@ -1,0 +1,24 @@
+{
+	"id": "C00350",
+	"slug": "גוזמא",
+	"headword": {
+		"text": "גּוּזְמָא"
+	},
+	"page": {
+		"number": 220,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00568\"><he>גּזַם</he></cite>) <i>a figure of speech, hyperbole</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 104b:10\">B. Mets. 104ᵇ</cite> <he>ג׳ בעלמא הוא דקגזים</he> he used only a hyperbolical expression (‘a thousand Zuz’). ",
+				"<cite ref=\"Arakhin 11a:5\">Arakh. 11ᵃ</cite> <he>וסימנך מתניתא ג׳</he> and thy mnemotechnical sign (to remember who said a hundred and who a thousand) be: the Boraitha (or Mishnah) frequently uses hyperboles. ",
+				"<cite ref=\"Beitzah 4a:11\">Bets. 4ᵃ</cite>; a. fr.—V. <cite ref=\"E00025\"><he>הֲבַאי</he></cite>."
+			]
+		}
+	]
+}

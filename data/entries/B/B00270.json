@@ -1,0 +1,29 @@
+{
+	"id": "B00270",
+	"slug": "בולס",
+	"headword": {
+		"text": "בּוּלָס"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹלוֹס"
+		}
+	],
+	"page": {
+		"number": 146,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00892\"><he>בלס</he></cite>; cmp. ὕαλος, ὕελος) <i>a shapeless mass, a glass-ball</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 2:13\">Num. R. s. 2</cite> <he>ומוציאו בולים</he> (v. <cite ref=\"B00253\"><he>בּוּל</he> II</cite>, some ed. <cite ref=\"B00268\"><he>בוליס</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:25\">Y. Ber. I, 2ᵈ</cite> top <he>נוסך כלים</he> (corr. acc.); <cite ref=\"Bereishit Rabbah 12:13\">Gen. R. s. 12</cite> <he>מוצק כלים</he> read: <he>נוסך ב׳</he>, v. Ar.) casts a lense; v. <cite ref=\"A02257\"><he>אֲנַנְקֵי</he></cite>.—Pesik. Par. p. 39ᵇ <he>גלויים לכם כהדין ב׳</he>; <cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite>; <cite ref=\"Yalkut Shimoni on Torah 759:9\">Yalk. Num. 759</cite> <he>צפים כהדין ב׳</he> perspicuous (clear) as crystal; cmp. ",
+				"<cite ref=\"Bamidbar Rabbah 19:6\">Num. R. s. 19</cite> <he>כהדין סמיא</he> a. Mat. Keh. a. l."
+			]
+		}
+	]
+}

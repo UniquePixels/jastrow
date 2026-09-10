@@ -1,0 +1,33 @@
+{
+	"id": "Q01043",
+	"slug": "פליגא-1",
+	"headword": {
+		"text": "פְּלִיגָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1181,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00935\"><he>פְּלַג</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>division, discord</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 18:3\">Num. R. s. 18</cite> (ref. to <cite ref=\"Numbers 16:1\">Num. XVI, 1</cite>) <he>אין ויקח אלא לשון פ׳</he> ‘and he took away’ has the meaning of division."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>portion</i>, v. <cite ref=\"Q00938\"><he>פַּלְגָּא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

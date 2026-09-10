@@ -1,0 +1,25 @@
+{
+	"id": "K01220",
+	"slug": "כרכר-3",
+	"headword": {
+		"text": "כַּרְכָּר",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְכָּרָא"
+		}
+	],
+	"page": {
+		"number": 670,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. as <cite ref=\"K01219\">preced.</cite> 1. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:4:8\">Y. Shek. IV, 48ᵇ</cite> bot. <he>שבטא דכדכד ביניהן</he> (Bab. ed. <he>דכדכדא</he>, corr. acc.) the staff of the shuttle (the cane which brings the threads of the web into their place [arundo]), is between them, i.e. there is a great difference between them (cmp. ‘stamen secernit arundo’, Ovid M. 6, 55)."
+			]
+		}
+	]
+}

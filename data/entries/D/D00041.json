@@ -1,0 +1,22 @@
+{
+	"id": "D00041",
+	"slug": "דבב-4",
+	"headword": {
+		"text": "דְּבָב"
+	},
+	"page": {
+		"number": 276,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"D00046\"><he>דִּבָּה</he></cite>, v. <cite ref=\"D00038\"><he>דָּבַב</he></cite>) <i>whisper, evil speech;</i> only in <cite ref=\"B00780\"><he>בַּעַל ד׳</he></cite>, pl. <he>בַּעֲלֵי ד׳</he> <i>man of evil speech</i>, i.e. <i>opponent, informer</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:10:1\">Cant. R. to VII, 10</cite> (play on <i>dobeb</i>, <cite ref=\"Shir HaShirim Rabbah 7:10:1\">ib.</cite>) <he>הייתי נעשה בעל ד׳ וכ׳</he> I should have become an opponent of those (patriarchs) sleeping &c. Sifra B’ḥuck. Par. 2, ch. IV <he>בעלי ד׳ וכ׳</he> informers shall surround you from without; <cite ref=\"Yalkut Shimoni on Torah 673:2\">Yalk. Lev. 673</cite> <he>בעל דבבא</he>. Sifra Emor, Par. 14, ch. XIX the whole congregation shall act <he>כבעלי ד׳ לו</he> as if they were his accusers."
+			]
+		}
+	]
+}

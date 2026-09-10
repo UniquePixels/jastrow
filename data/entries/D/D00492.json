@@ -1,0 +1,23 @@
+{
+	"id": "D00492",
+	"slug": "דידיוני",
+	"headword": {
+		"text": "דִּידְיוֹנִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 295,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (reduplic. of <cite ref=\"D00232\"><he>דוי</he></cite> or <he>דוע</he>; cmp. <cite ref=\"A00562\"><he>אוּדְיָיתָא</he></cite>) <i>the vapor room</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 67a:1\">Nidd. 67ᵃ</cite> <he>אימר בד׳ נפל</he> Ar. s. v. <cite ref=\"A00380\"><he>אדוותא</he></cite> (ed. <cite ref=\"T00254\"><he>רדיוני</he></cite>) I say, it (the mud) fell off in the vapor room (where she entered after the bath)."
+			]
+		}
+	]
+}

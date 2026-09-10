@@ -1,0 +1,55 @@
+{
+	"id": "C01042",
+	"slug": "גמלא-2",
+	"headword": {
+		"text": "גַּמְלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 253,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c., ch. ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"C01039\"><he>גָּמָל</he></cite> <i>camel</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:4\">Targ. Lev. XI, 4</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 106a:16\">Snh. 106ᵃ</cite> (prov.) <he>ג׳ אזלא וכ׳</he> the camel went to ask for horns, and had her ears cut off.—",
+				"<cite ref=\"Makkot 5a:3\">Macc. 5ᵃ</cite> <he>ג׳ פרחא</he> a flying (swift) camel, <i>dromedary;</i> <cite ref=\"Yevamot 116a\">Yeb. 116ᵃ</cite>.—",
+				"<cite ref=\"Yevamot 45a:14\">Ib. 45ᵃ</cite> (prov.) <he>ג׳ במדי וכ׳</he> in Media a camel can dance on a <i>kab</i> (bushel), i.e. in Media everything is possible. ",
+				"<cite ref=\"Sotah 13b:15\">Sot. 13ᵇ</cite>; <cite ref=\"Ketubot 67a:9\">Keth. 67ᵃ</cite>, a. e. (prov.) <he>לפום ג׳ שיחנא</he> according to the camel is his load, i.e. the greater the man, the greater his responsibility.—Pl. <cite ref=\"C01049\"><he>גַּמְלִין</he></cite>, <he>גַּמְלַיָּא</he>, <he>גַּמְלֵי</he>. ",
+				"<cite ref=\"Onkelos Genesis 24:10\">Targ. Gen. XXIV, 10</cite> sq.; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 38:9\">Gen. R. s. 38</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Horayot 3:4:3\">Y. Hor. III, 48ᵃ</cite> bot. <he>אבא יודן דגַמְלוֹי</he> Abba Yudan who is busy among his camels; <cite ref=\"Vayikra Rabbah 5:4\">Lev. R. s. 5</cite> <he>דגמלי</he>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>couple, teaming arrangement</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 11b:12\">M. Kat. 11ᵇ</cite> <he>הוה להו ג׳ דתורא בהדי הדדי</he> (Asheri 33 … <he>עבוד גִּימְלָא</he>) had an arrangement between them to team their oxen for mutual work. ",
+				"<cite ref=\"Moed Katan 11b:12\">Ib.</cite> <he>פסקיה לגַמְלֵיה</he> he broke the arrangement (Ms. M.; as corrected, <he>לגמלא ולא שדריה …</he>, v. Rabb. D. S. a. l. note); v. <cite ref=\"C01037\"><he>גָּמַל</he></cite> Pi."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a small bridge, crossboard</i> (cmp. <cite ref=\"C01423\"><he>גֶּשֶׁר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Moed Katan 6b:16\">M. Kat. 6ᵇ</cite> <he>והוא דליכא גשרא … ג׳</he> provided there is neither bridge nor crossboard. ",
+				"<cite ref=\"Sanhedrin 67b:18\">Snh. 67ᵇ</cite>, v. <cite ref=\"A00795\"><he>אוּסְקָנִיתָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 21a:9\">B. Bath. 21ᵃ</cite> <he>ג׳</he> contrad. fr. <cite ref=\"V00519\"><he>תיתורא</he></cite>. ",
+				"<cite ref=\"Sanhedrin 7a\">Snh. 7ᵃ</cite>, v. <cite ref=\"C00304\"><he>גּוּדָא</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>large-sized</i>, v. <cite ref=\"C01051\"><he>גַּמְלָנָא</he></cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

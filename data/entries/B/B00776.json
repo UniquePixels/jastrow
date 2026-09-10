@@ -1,0 +1,48 @@
+{
+	"id": "B00776",
+	"slug": "בכי-1",
+	"headword": {
+		"text": "בכי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּכָה"
+		}
+	],
+	"page": {
+		"number": 169,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בך</he> <i>to break through, split</i>, v. Ges. H. Dict. s. v.; v. <he>בכר</he>) <i>to weep</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 7b:10\">Ḥull. 7ᵇ</cite>; a. fr. Ohol. XVIII, 4 <he>שדה בּוֹכִין</he> weepers’ field, a place where the funeral cortege disperses; v. ",
+				"<cite ref=\"Moed Katan 5b:14\">M. Kat. 5ᵇ</cite> <he>שדה שמפטירין בה מתים</he> (Ms. M. <he>שמפסידין</he>) where the funeral addresses are held."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּכָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to weep, make cry</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:26\">Lam. R. to I, 2</cite> (ref. to <he>בכה תבכה</he>) <he>בוכה ומְבַכָּה מה״ש עמה</he> she cries and makes the angels cry with her. ",
+						"<cite ref=\"Shemot Rabbah 1:24\">Ex. R. s. 1</cite> <he>היו מְבַכִּין אותו</he> they made it (the Egyptian child) cry."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to mourn, lament</i> (<cite ref=\"Ezekiel 8:14\">Ezek. VIII, 14</cite>). ",
+					"units": [
+						"<cite ref=\"Tosefta Keilim Batra 2:8\">Tosef. Kel. B. Bath. II, 8</cite> <he>מְבַכּוֹת מיתיהן</he> lament their dead."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

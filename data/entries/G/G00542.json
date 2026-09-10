@@ -1,0 +1,45 @@
+{
+	"id": "G00542",
+	"slug": "זמר-4",
+	"headword": {
+		"text": "זְמַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 405,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to sing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:50\">Targ. Ps. XVIII, 50</cite>; a. e.—",
+				"<cite ref=\"Sotah 48a:20\">Sot. 48ᵃ</cite> <he>זַמְּרי גברי וכ׳</he> when men sing and women respond."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to sing a satire, deride</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:14\">Targ. Lam. III, 14</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"G00521\"><he>זַמֵּיר</he></cite> same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

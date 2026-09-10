@@ -1,0 +1,32 @@
+{
+	"id": "D00913",
+	"slug": "דמר",
+	"headword": {
+		"text": "דְּמַר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 314,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְדַּמַּר</he> (v. P. Sm. p. 921) <i>to be stupefied, astonished</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 6:30\">Targ. Prov. VI, 30</cite> <he>לא למִתְדַּמָּרוּ</he> (Ms. a. some ed. <he>למתר׳</he>, corr. acc.) let them not be astonished (h. text <he>יבוזו</he>, v. LXX)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

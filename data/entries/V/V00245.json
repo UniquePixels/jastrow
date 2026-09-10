@@ -1,0 +1,34 @@
+{
+	"id": "V00245",
+	"slug": "תוספאה",
+	"headword": {
+		"text": "תּוֹסְפָאָה"
+	},
+	"page": {
+		"number": 1654,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00469\"><he>יְסַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>one who uses the vowel letters freely, who writes plene</i>, opp. <cite ref=\"B01090\"><he>בַּצִּירָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 9b:1\">Ab. Zar. 9ᵇ</cite>, v. <cite ref=\"B01107\"><he>בְּצַר</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Tos’faah</i>, surname of one Raba or Rabbah; [Neub. Géogr. p. 332: <i>of Thospia</i>, capital of the Armenian district Thospitis]. ",
+			"units": [
+				"<cite ref=\"Yevamot 80b:2\">Yeb. 80ᵇ</cite>; <cite ref=\"Berakhot 50a:15\">Ber. 50ᵃ</cite>; <cite ref=\"Shabbat 95a:5\">Sabb. 95ᵃ</cite>; <cite ref=\"Moed Katan 4a:22\">M. Kat. 4ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

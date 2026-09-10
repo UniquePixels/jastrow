@@ -1,0 +1,33 @@
+{
+	"id": "C00426",
+	"slug": "גון-1",
+	"headword": {
+		"text": "גּוּן"
+	},
+	"page": {
+		"number": 223,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"C01150\"><he>גָּנַן</he></cite> <i>to surround;</i> with <he>על</he>, <i>to cover</i>. Denom. <cite ref=\"C00428\"><he>גַּוָּן</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵגִין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C00425\">same</cite>, <i>to protect</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 1:3\">Midr. Till. to Ps. I</cite> <he>מה המגן הזה מֵגִין את … מֵגִין על וכ׳</he> as the shield surrounds the body, so does the Lord protect man. ",
+						"<cite ref=\"Sotah 10a\">Sot. 10ᵃ</cite> [read:] <he>מה הקב״ה מגין על … אף שמשון ה׳ וכ׳</he> as the Lord protects the whole world, so did Samson in his generation protect Israel; <cite ref=\"Yalkut Shimoni on Nach 69\">Yalk. Jud. 69</cite>. ",
+						"<cite ref=\"Sotah 21a\">Sot. 21ᵃ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

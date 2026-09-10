@@ -1,0 +1,24 @@
+{
+	"id": "B00305",
+	"slug": "בועתא-3",
+	"headword": {
+		"text": "בּוּעֲתָא",
+		"reconstructed": true,
+		"homograph": 3
+	},
+	"page": {
+		"number": 147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00299\"><he>בוע</he></cite>) <i>alarm-post, signal-pole</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:17\">Targ. Is. XXX, 17</cite> Ar. ed. pr. (h. <cite ref=\"V01019\"><he>תֹּרֶן</he></cite>, taken fr. <he>רנן</he>; oth. ed. Ar. <cite ref=\"B00301\"><he>בועדא</he></cite>, Targ. ed. <cite ref=\"B00302\"><he>בּוֹעֲרָא</he></cite> q. v.)."
+			]
+		}
+	]
+}

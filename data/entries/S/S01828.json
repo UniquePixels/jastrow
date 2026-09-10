@@ -1,0 +1,51 @@
+{
+	"id": "S01828",
+	"slug": "קצע-1",
+	"headword": {
+		"text": "קָצַע"
+	},
+	"page": {
+		"number": 1406,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"S01788\"><he>קָצָה</he></cite>)<i>to scrape</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 12:6\">Neg. XII, 6</cite> <he>שניהן … קוֹצְעִין</he> both neighbors must bear the expense for tearing out (the leprous stone) and for scraping (the wall); Sifra M’tsorʿa, Neg., Par. 6, ch. IV; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cut</i>, <i>dry</i>, <i>and pack figs</i> (v. <cite ref=\"S01816\"><he>קְצִיעָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Taanit 28a:7\">Taan. 28ᵃ</cite> <he>קוֹצְעֵי קציעית</he> those pretending to be engaged in packing figs; Tosef. ib. IV (III), 7 (Var. <he>קוֹצְאֵי</he>); Y. ib. IV, 68ᵇ bot."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to trim</i>, v. infra.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִיצֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cut the ends, trim</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 27:4\">Kel. XXVII, 4</cite> <he>המְקַצֵּע מכולם וכ׳</he> if in trimming any of them he cuts off a piece one handbreadth square. ",
+						"<cite ref=\"Zevachim 94a:4\">Zeb. 94ᵃ</cite> <he>עוצבא … לקַצְּעָהּ … עד שיְקַצְּעֶנָּה</he> a fur intended to be trimmed (v. <cite ref=\"P00644\"><he>עיּצְבָּא</he></cite>) remains unsusceptible of uncleanness until it has been trimmed; <cite ref=\"Tosefta Keilim Batra 4:10\">Tosef. Kel. B. Bath. IV, 10</cite>. ",
+						"<cite ref=\"Bava Kamma 66b:11\">B. Kam. 66ᵇ</cite> <he>כגון שקִיצְּעָן</he> (Ar. <he>שקצען</he>) when he trimmed the stolen furs. ",
+						"<cite ref=\"Tosefta Keilim Metsia 11:8\">Tosef. Kel. B. Mets. XI, 8</cite> <he>אם היה גדול וקִיצְּעוֹ</he> (not <he>וקיצעו</he>) if the cloth was large and he shortened it by trimming; <cite ref=\"Tosefta Keilim Metsia 11:9\">ib. 9</cite>. ",
+						"<cite ref=\"Tosefta Keilim Metsia 11:2\">Ib. 2</cite> <he>עד שיְקַצֵּעַ</he> (or <he>שיִקְצַע</he>) until he cuts off (the defective portion). ",
+						"<cite ref=\"Chullin 123b:15\">Ḥull. 123ᵇ</cite> <he>במקצע ובא לו וכ׳</he> when he trimmed (the skin) going all around; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

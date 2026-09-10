@@ -1,0 +1,42 @@
+{
+	"id": "T00243",
+	"slug": "רדי-3",
+	"headword": {
+		"text": "רדי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רָדָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1452,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., cmp. <cite ref=\"J00597\"><he>ירד</he></cite>)<i>to take down; to detach, break off</i>, esp. <i>a</i>) <i>to take honey out of the bee-hive</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 3:10\">Ukts. III, 10</cite> <he>כוורת … והרוֹדֶה ממנה וכ׳</he> a bee-hive … is regarded as landed estate …, and he who breaks honey out of it on the Sabbath &c.; <cite ref=\"Mishnah Sheviit 10:7\">Shebi. X, 7</cite>; <cite ref=\"Bava Batra 66a\">B. Bath. 66ᵃ</cite>; <cite ref=\"Bava Batra 80b\">80ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 64a:7\">B. Mets. 64ᵃ</cite> <he>ההולך … לִרְדוֹת את כוורתו</he> if a person goes to take the honey out of his bee-hive; <he>מה שכוורתי רוֹדָה כך וכך וכ׳</he> whatever my bee-hive may yield shall be thine for such and such an amount; a. fr.—2) <he>ר׳</he> (<cite ref=\"Q02110\"><he>פת</he></cite>) <i>to detach bread</i> from where it sticks to the oven, <i>to shovel out</i>. ",
+				"<cite ref=\"Shabbat 4a:3\">Sabb. 4ᵃ</cite> <he>הדביק … התירו לו לִרְדוֹתָהּ וכ׳</he> if a person stuck a loaf to the wall of an oven (on the Sabbath), would you permit him to take it out (before it is baked) &c.? <cite ref=\"Mishnah Makhshirin 3:3\">Makhsh. III, 3</cite>. ",
+				"<cite ref=\"Yoma 38a\">Yoma 38ᵃ</cite>; <cite ref=\"Tosefta Yoma 2:5\">Tosef. ib. II, 5</cite> <he>אינן בקיעין לִרְדוֹתָם</he> they were not skilled in taking them off (without breaking); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:3:8\">Y. Pes. III, 30ᵃ</cite> bot. <he>יִרְדֶּנָּה</he> let him detach it (the piece dedicated as Ḥallah) from the loaf."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְדֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be detached, taken out of the oven</i>. Tosef. Yoma l. c. <he>והיה נאפה ונ׳ מבפנים</he> (Var. <he>והיא נִרְדֵּית</he>) it was baked in, and taken out from the interior of the oven; <cite ref=\"Shir HaShirim Rabbah 3:6\">Cant. R. to III, 6</cite> <he>נִרְדִּת</he>.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

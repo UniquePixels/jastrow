@@ -1,0 +1,28 @@
+{
+	"id": "A01738",
+	"slug": "אכסנדריא",
+	"headword": {
+		"text": "אַכְסַנְדַּרְיָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַכְסַנְדַרְיָה"
+		}
+	],
+	"page": {
+		"number": 65,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A01897\"><he>אלכסנדרית</he></cite>) <i>an Alexandrian merchantman</i> (Alexandria navis); trnsf. <i>a high mast</i> (satyrically for <i>cross, gallows</i>). Targ. II, <cite ref=\"Esther 7:10\">Esth. VII, 10</cite> the son of Hamdatha wants to ascend <he>לא׳ דבר פנדירא</he> (Ms. <he>לאַלַכְסַ׳</he>) the mast of the son of Pandira (is to be hanged). ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 12:1\">Neg. XII, 1</cite> <he>באכסנדריא</he> (marginal vers. in Mishn. edit., text <cite ref=\"A02546\"><he>אסקריא</he></cite>, Var. <cite ref=\"A02326\"><he>אסדא</he></cite>, <he>אכסדיא</he>, <cite ref=\"A02449\"><he>אסכדיא</he></cite> q. v.) in the <i>rigging</i>"
+			]
+		}
+	]
+}

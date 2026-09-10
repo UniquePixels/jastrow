@@ -1,0 +1,49 @@
+{
+	"id": "S00986",
+	"slug": "קילקול",
+	"headword": {
+		"text": "קִילְקוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִלְ׳"
+		}
+	],
+	"page": {
+		"number": 1361,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01415\"><he>קִלְקֵל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>deterioration, disorder</i>.—Pl. <cite ref=\"S01140\"><he>קִילְקוּלִים</he></cite>, <cite ref=\"S01140\"><he>קִילְקוּלִין</he></cite>, <cite ref=\"S00985\"><he>קִלְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 1:2\">M. Kat. I, 2</cite> (<cite ref=\"Moed Katan 2a:3\">2ᵃ</cite>) <he>ומתקנין את קִילְקוּלֵי המים וכ׳</he> and you may cure the spoiled waters (clean the pools) during the festive week."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>disarrangement</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:5\">Y. Taan. IV, 68ᶜ</cite> <he>ק׳ חשבונות יש כאן</he> there is a disarrangement of dates here (a new era was started with the destruction of the Temple), v. <cite ref=\"S01415\"><he>קִלְקֵל</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:8:13\">Y. Ned. VI, end, 40ᵃ</cite>; Y. Snh. I, 19ᵃ top <he>הן דלא … בק׳</he> where he (R. Judah) did not get (to announce the decision of the Palestinian court on the intercalation), they were guided by the disarrangement (the calendar established by Hananiah)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>moral corruption, degeneracy</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 64a:16\">Ab. Zar. 64ᵃ</cite> <he>שמא יחזור לקִלְקוּלוֹ</he> lest he (the proselyte) may go back to his corruption (idolatry); (<cite ref=\"Kiddushin 17b:17\">Kidd. 17ᵇ</cite> <he>לסורו</he>, v. <cite ref=\"O00412\"><he>סוֹר</he></cite>). ",
+				"<cite ref=\"Bamidbar Rabbah 9:2\">Num. R. s. 9</cite> <he>תחלת קלקולו בעזה וכ׳</he> the beginning of his degeneration took place at Gaza, therefore he was punished at Gaza; <cite ref=\"Tosefta Sotah 3:15\">Tosef. Sot. III, 15</cite>; Mekh. B’shall, Shir., s. 2 <he>קִלְקָלוֹ</he>; Tanḥ. ",
+				"<cite ref=\"Exodus 12\">B’shall. 12</cite> <he>קַלְקָלָתוֹ</he>; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

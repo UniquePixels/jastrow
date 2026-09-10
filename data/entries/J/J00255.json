@@ -1,0 +1,42 @@
+{
+	"id": "J00255",
+	"slug": "יותר-1",
+	"headword": {
+		"text": "יוֹתֵר"
+	},
+	"page": {
+		"number": 572,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00746\"><he>יָתַר</he></cite>)<i>much;</i> (followed by <he>מ־</he>, or <he>מ־</he> implied) <i>more</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:33\">Y. Ber. IV, 7ᵈ</cite> top <he>בן תורה י׳ ממני</he> a greater scholar than I am. ",
+				"<cite ref=\"Ketubot 86a:7\">Keth. 86ᵃ</cite>, a. e. <he>י׳ ממה שהאיש וכ׳</he> more than man desires to marry, does woman desire to be married. ",
+				"<cite ref=\"Pesachim 112a:12\">Pes. 112ᵃ</cite> <he>י׳ ממה שהעגל וכ׳</he> more auxious than the calf is to suck, is the cow to nurse, i.e. the teacher is more anxious to teach than the pupil to learn. ",
+				"<cite ref=\"Moed Katan 27b:15\">M. Kat. 27ᵇ</cite> <he>י׳ מדאי</he> more than enough, <he>י׳ מכשיעור</he> more than the proper measure, <i>too much;</i> a. v. fr.—<he>בי׳</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>in a higher degree, especially</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 31:8\">Sifré Deut. 31</cite> <he>עלינו הוחל שמו בי׳</he> upon us especially has His name been made to rest. ",
+						"<cite ref=\"Vayikra Rabbah 14:6\">Lev. R. s. 14</cite> <he>ובי׳ אם היה זכר</he> and especially so when it is a male; a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>for a higher price, above market value</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Nedarim 3:11\">Ned. III, 11</cite>; a. e.—V. <cite ref=\"J00749\"><he>יֶתֶר</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

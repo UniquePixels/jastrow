@@ -1,0 +1,25 @@
+{
+	"id": "S00111",
+	"slug": "קדד-1",
+	"headword": {
+		"text": "קָדַד"
+	},
+	"page": {
+		"number": 1313,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " b. h.) b. h.) <i>to bow</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 5:13\">Ex. R. s. 5</cite> (ref. to <cite ref=\"Exodus 4:31\">Ex. IV, 31</cite>) <he>וַיּקְּדוּ על הפקידה</he>, v. <cite ref=\"Q01486\"><he>פְּקִידָה</he></cite>.—V. <cite ref=\"S00113\"><he>קָדָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00098\"><he>כַּד</he></cite> a. <cite ref=\"K00146\"><he>כָּדַר</he></cite>) <i>to cave, cut out</i>, v. <cite ref=\"S00168\"><he>קָדַר</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

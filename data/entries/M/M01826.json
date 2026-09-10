@@ -1,0 +1,24 @@
+{
+	"id": "M01826",
+	"slug": "מסא-3",
+	"headword": {
+		"text": "מַסָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 803,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נסא</he>, v. <cite ref=\"N00924\"><he>נְסַח</he></cite>) <i>peel, shovel</i> for taking bread out of the oven. ",
+			"units": [
+				"<cite ref=\"Taanit 25a:2\">Taan. 25ᵃ</cite> <he>אייתי מ׳ וכ׳</he> bring the shovel, for thy bread is getting charred. ",
+				"<cite ref=\"Bekhorot 27a:10\">Bekh. 27ᵃ</cite> <he>שקלה לה בריש מ׳</he> she takes the priest’s gift of the dough on the point of the shovel (to avoid direct contact)."
+			]
+		}
+	]
+}

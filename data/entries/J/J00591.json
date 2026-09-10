@@ -1,0 +1,71 @@
+{
+	"id": "J00591",
+	"slug": "ירא",
+	"headword": {
+		"text": "יָרֵא"
+	},
+	"page": {
+		"number": 593,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to tremble, fear; to revere; to shun</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 88a:6\">Sabb. 88ᵃ</cite> (ref. to <cite ref=\"Psalms 76:9\">Ps. LXXVI, 9</cite>) <he>אם יָרְאָה וכ׳</he> if she (the earth) trembled, how could she be at rest, &c.?—",
+				"<cite ref=\"Berakhot 16b:18\">Ber. 16ᵇ</cite> <he>ליִרְאָה את שמך</he> so as to fear thy name.—(Usu. as participle or adjective) <cite ref=\"J00591\"><he>יָרֵא</he></cite> m. ",
+				"<cite ref=\"Nedarim 8b:5\">Ned. 8ᵇ</cite> (ref. to <cite ref=\"Malachi 3:20\">Mal. III, 20</cite>) <he>אלו … שהן יְרֵאִין להוציא וכ׳</he> who are afraid to utter the name of the Lord in vain.—יְרֵא חֵטא <i>shunning sin, of careful conduct, conscientious</i>. ",
+				"<cite ref=\"Pirkei Avot 2:5\">Ab. II, 5</cite>. ",
+				"<cite ref=\"Pirkei Avot 2:8\">Ib. 8</cite>; a. fr.—יְרֵא שָׁמַיִם <i>God-fearing, pious</i>. ",
+				"<cite ref=\"Berakhot 8a:21\">Ber. 8ᵃ</cite> <he>גדול … יותר מי׳ ש׳</he> he who lives on the (honest) labor of his hand, stands higher than the pious man. ",
+				"<cite ref=\"Sukkah 49b:13\">Succ. 49ᵇ</cite>, v. <cite ref=\"J00650\"><he>יָרַע</he></cite>; a. fr.—<i>Fem.</i> <cite ref=\"J00592\"><he>יְרֵאָה</he></cite>, constr. <he>יְרֵאַת</he>. ",
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 13</cite> (play on <he>י̇ר̇ושׁל̇ם̇</he>) <he>הבת שי̇ר̇אה ומשׁול̇מ̇ת לי</he> the daughter that fears (me) and is at peace with me. ",
+				"<cite ref=\"Eichah Rabbah 2:24\">Ib.</cite> <he>כשאת יְרֵיאָה את מושלמת לי</he> Ar. (missing in ed.) when thou art God-fearing, thou art at peace with me. ",
+				"<cite ref=\"Yevamot 62b\">Yeb. 62ᵇ</cite>.—Part. pass. <cite ref=\"J00593\"><he>יָראוּי</he></cite>. ",
+				"<cite ref=\"Berakhot 33b\">Ber. 33ᵇ</cite>; <cite ref=\"Megillah 25a\">Meg. 25ᵃ</cite> Ms. M. (v. Rabb. D. S. a. l. note)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נוֹרָא"],
+			"senses": [
+				{
+					"gloss": ", fut. <he>יִוָּרֵא</he> <i>to be feared</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 9:7\">Koh. R. to IX, 7</cite>; Pesik. Ul’kaḥ., p. 183ᵇ, a. e. <he>למען תִּוָּרֵא וכ׳</he> (<cite ref=\"Psalms 130:4\">Ps. CXXX, 4</cite>) ‘in order that thou mayest be feared’, that the fear of thee be put on mankind.—Part. <cite ref=\"N00418\"><he>נוֹרָא</he></cite> <i>fearful, awe-inspiring</i>. Ber. l. c. ",
+						"<cite ref=\"Yoma 69b:14\">Yoma 69ᵇ</cite> <he>לא אמר נ׳</he> Jeremiah did not say <i>nora</i> (only <i>gadol</i> a. <i>gibbor</i>, <cite ref=\"Jeremiah 32:18\">Jer. XXXII, 18</cite>).—<i>Fem.</i> <i>pl.</i> <cite ref=\"N00418\"><he>ניֹרָאוֹת</he></cite> <i>awe-inspiring deeds</i>. ",
+						"<cite ref=\"Jeremiah 32:18\">Ib.</cite> <he>אתא … נכרים … איה נוֹרְאוֹתָיו</he> came Jeremiah and said, Strangers dance on His temple ruins, where are His awful deeds?; Y. Ber. VII, 11ᶜ. ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>לזה נאה לקרות נורא בנ׳ וכ׳</he> (Daniel said) Him it is becoming to call awe-inspiring for the awful deeds He performed for us &c.; <cite ref=\"Midrash Tehillim 19:14\">Midr. Till. to Ps. XIX</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְיָירֵא"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְיָירֵא</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be feared, revered</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 115b:15\">Zeb. 115ᵇ</cite> (ref. to <cite ref=\"Psalms 68:36\">Ps. LXVIII, 36</cite>) <he>בשעה … מִתְיָירֵא ומתעלה וכ׳</he> when the Lord executes judgment on His saints, He is feared and praised &c.; <cite ref=\"Yalkut Shimoni on Torah 525\">Yalk. Lev. 525</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be afraid</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 61b:6\">Ber. 61ᵇ</cite> <he>אי אתה מתי׳ מפני וכ׳</he> art thou not afraid of the (Roman) government?—Midr. Till. l. c. <he>שנכנסו … וכא נִתְיָירְאוּ</he> the enemy entered His house and were not afraid (of the Lord). ",
+						"<cite ref=\"Shemot Rabbah 29:9\">Ex. R. s. 29</cite> <he>אם המטרונה מִתְיָירֵאת וכ׳</he> if the queen is afraid, what shall the servants … do?; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

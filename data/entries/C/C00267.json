@@ -1,0 +1,33 @@
+{
+	"id": "C00267",
+	"slug": "גואלקא",
+	"headword": {
+		"text": "גּוּאַלְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּלְקָא"
+		},
+		{
+			"text": "גְּוַולְקָא"
+		}
+	],
+	"page": {
+		"number": 216,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Arab. ḡuwâliḳ, Pers. ḡawâlakh = hippopera, Freytag s. v.) <i>long pouch as a receptacle for grain</i>, thrown over the shoulders or across an animal’s back, <i>haversack</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 23b:10\">Taan. 23ᵇ</cite> <he>הבו לי גוּאַלְקִי וכ׳</he> (Ar. … <he>קא</he>; Ms. M. 2 <he>שקיל גולקא</he>, v. Rabb. D. S. a. l. note 200) get me my haversack, and I shall go and buy &c.—Pl. <cite ref=\"C00267\"><he>גּוֹאַלְקָאן</he></cite>, <he>גּוֹאַלְקֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 5:5\">Targ. Lam. V, 5</cite>.—",
+				"<cite ref=\"Shabbat 154b:10\">Sabb. 154ᵇ</cite>, v. <cite ref=\"H00110\"><he>חֶבֶר</he></cite> (where Var. lect. are quoted). ",
+				"<cite ref=\"Sukkah 20b:5\">Succ. 20ᵇ</cite> <he>חזו לגואלקי</he> Ms. M. (ed. <he>לגולקי</he>) are fit for haversacks."
+			]
+		}
+	]
+}

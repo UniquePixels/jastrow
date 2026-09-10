@@ -1,0 +1,25 @@
+{
+	"id": "Q01150",
+	"slug": "פנגוס",
+	"headword": {
+		"text": "פִּנְגּוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּנְגָּס"
+		}
+	],
+	"page": {
+		"number": 1186,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transp. of pignus) <i>pledge</i> deposited with the creditor, the usufruct of which remained the debtor’s (v. Sm. Ant. s. v. Pignus). Mekh. Yithro, Baḥod., s. 1 (ref. to <cite ref=\"Isaiah 45:19\">Is. XLV, 19</cite>) [read:] <he>לא אמרתי לזרע יעקב לאלו אני נותנה ולא תהו בקשוני לא נתתיה פ׳ וכ׳</he> I did not say, ‘to the seed of Jacob’, to them only will I give the Law (and not to other nations), nor (did I say,) ‘seek me for naught’, I have not given it as a pledge (of which you cannot have the usufruct), … long before I gave you the commands, have I advanced to you the reward for them &c.; <cite ref=\"Yalkut Shimoni on Torah 275:2\">Yalk. Ex. 275</cite>; <cite ref=\"Yalkut Shimoni on Nach 325\">Yalk. Is. 325</cite> (omitting <he>לאלו אני נותנה ולא</he>).",
+			"units": []
+		}
+	]
+}

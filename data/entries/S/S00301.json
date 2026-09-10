@@ -1,0 +1,23 @@
+{
+	"id": "S00301",
+	"slug": "קוטנין",
+	"headword": {
+		"text": "קוּטְנִין"
+	},
+	"page": {
+		"number": 1326,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S00917\"><he>קִיטְנִית</he></cite>) <i>the beans of colocasia</i> (ciborium). ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 5:8\">Maasr. V, 8</cite> <he>אף הק׳ פטורין וכ׳</he> Bab. ed. (Y. ed. <he>הקרטנים</he>; Mish. ed. <cite ref=\"S00302\"><he>קוטנית</he></cite>) the colocasia beans are likewise exempt &c.; Tosef. ib. III, 14 <he>הקִיטִּין שלמטה וכ׳</he> ed. Zuck. (Var. <he>הקִנְטִּין</he>; oth. ed. <he>הקניטין</he>, corr. acc.) the beans beneath them (the colocasia leaves)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "K00241",
+	"slug": "כוחלין",
+	"headword": {
+		"text": "כּוֹחֲלִין"
+	},
+	"page": {
+		"number": 618,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (used as sing.; v. <cite ref=\"K00240\">preced.</cite> wds.; cmp. b. h. <cite ref=\"N01053\"><he>נֹפֶךְ</he></cite> a. <cite ref=\"Q00202\"><he>פּוּךְ</he></cite>) <i>carbuncle</i>, name of a jewel. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 38:8\">Ex. R. s. 38</cite>, end (corresp. to <he>לשם</he>, <cite ref=\"Exodus 28:19\">Ex. XXVIII, 19</cite>). [V., however, <cite ref=\"K00467\"><he>כַּחֲלֵי</he></cite>.]"
+			]
+		}
+	]
+}

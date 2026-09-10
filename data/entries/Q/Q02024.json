@@ -1,0 +1,24 @@
+{
+	"id": "Q02024",
+	"slug": "פרש-5",
+	"headword": {
+		"text": "פֶּרֶשׁ"
+	},
+	"page": {
+		"number": 1243,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>)<i>secretion, excrements</i> (found in the entrails). ",
+			"units": [
+				"<cite ref=\"Pesachim 20a:8\">Pes. 20ᵃ</cite> <he>נמצאת בפ׳</he> if the liquid is found in the excrements of the slaughtered animal. ",
+				"<cite ref=\"Pesachim 20a:8\">Ib.</cite> (in Chald. dict.) <he>וליהדר פ׳ וכ׳</he> why should not the excrements again make the flesh unclean? <cite ref=\"Pesachim 20a:8\">Ib.</cite> <he>פ׳ עבה</he> thick, substantial excrements, <he>פ׳ רכה</he> soft, viscid secretions. ",
+				"<cite ref=\"Avodah Zarah 34b:15\">Ab. Zar. 34ᵇ</cite> <he>פִּרְשׁוֹ מותרת</he> its discharge may be used. Y. ib. II, 41ᶜ bot. <he>פִּירְשָׁהּ גיפה הוא</he> an animal’s discharge is part of its body; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "A02907",
+	"slug": "אקושא",
+	"headword": {
+		"text": "אָקוֹשָׁא"
+	},
+	"page": {
+		"number": 112,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02235\"><he>קשי</he></cite>) <i>hard, hard-baked</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 20:10\">Targ. Y. Lev. XX, 10</cite>.—",
+				"<cite ref=\"Ketubot 39b:3\">Keth. 39ᵇ</cite>. ",
+				"<cite ref=\"Sotah 4b\">Sot. 4ᵇ</cite>, opp. <cite ref=\"T00762\"><he>רכיכא</he></cite>. ",
+				"<cite ref=\"Shabbat 65a:14\">Sabb. 65ᵃ</cite> <he>כל מידי א׳</he> anything hard.—Pl. <he>אָקוֹשֵׁי</he>. ",
+				"<cite ref=\"Shabbat 155a:9\">Sabb. 155ᵃ</cite> <he>חרובין א׳</he> ed. (Ms. M. <he>דאשוני</he>, Ar. <he>דאשינא</he>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 58:10\">Targ. Ps. LVIII, 10</cite> <cite ref=\"A02907\"><he>אָקוֹשָׁן</he></cite> (some ed. <cite ref=\"A02304\"><he>אַקְשׁוּן</he></cite>)."
+			]
+		}
+	]
+}

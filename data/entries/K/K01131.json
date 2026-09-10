@@ -1,0 +1,23 @@
+{
+	"id": "K01131",
+	"slug": "כרושייתא",
+	"headword": {
+		"text": "כְּרוֹשְׁיָיתָא"
+	},
+	"page": {
+		"number": 665,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>כרש</he>, cmp. <cite ref=\"K01243\"><he>כרס</he></cite>) <i>balls, cakes</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite> <he>כ׳ דשערי</he> Ar. (ed. <he>ברושייאתא</he>; Ar. s. v. <cite ref=\"K00804\"><he>כמך</he></cite> :<cite ref=\"S01964\"><he>קְרוֹשְׁיָתָא</he></cite>) barley cakes; <he>כ׳ דחיטי</he> wheat cakes."
+			]
+		}
+	]
+}

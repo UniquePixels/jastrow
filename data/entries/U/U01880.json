@@ -1,0 +1,53 @@
+{
+	"id": "U01880",
+	"slug": "שקף-1",
+	"headword": {
+		"text": "שָׁקַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1625,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; Shaf. of <he>קף</he>, cmp. <he>כפף</he>)<i>to bend, arch</i>.—Denom. <cite ref=\"U01838\"><he>שְׁקוֹף</he></cite>, <cite ref=\"M02962\"><he>מַשְׁקוֹף</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁקַף"],
+			"senses": [
+				{
+					"gloss": " [<i>to be bent towards</i>,] <i>to look out; to face, be seen</i>. Y. M. Kat. III, beg. 81ᶜ (in a riddle) <he>משמים נִשְׁקָפָה</he> she (the soul?) looks down from heaven. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19<sup>26</sup></cite> (ref. to <cite ref=\"Numbers 21:20\">Num. XXI, 20</cite>) <he>העומד … והוא הבאר הנִשְׁקָף וכ׳</he> he that stands on the face (plateau) of Jeshimon sees something in the sea (of Tiberias) …, and this is the well (of Miriam) which is seen from Jeshimon; (v. ",
+						"<cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite>; <cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite>; Y. Kil. IX, 32ᶜ bot.)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשְׁקִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to look, contemplate</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 29a:1\">Ber. 29ᵃ</cite> top <he>ה׳ בה שתים וכ׳</he> he thought over it (trying to recall it) two or three minutes."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"U01838\"><he>שְׁקוֹף</he></cite>) <i>to arch, curve, diminish the width of</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 31:11\">Gen. R. s. 31</cite> <he>והיה מַשְׁקִיף בה ועולה וכ׳</he> and he curved it (the wall of the ark) as he went up &c., v. <cite ref=\"S01498\"><he>קַמְרוֹטוֹן</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 54\">Yalk. ib. 54</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "V01100",
+	"slug": "תשנוק",
+	"headword": {
+		"text": "תַּשְׁנוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּשְׁנִיק"
+		}
+	],
+	"page": {
+		"number": 1704,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01610\"><he>שָׁנַק</he></cite>) <i>strangulation, suffocation;</i> trnsf. <i>anguish</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:20\">Y. Ber. IV, 7ᵇ</cite> bot. (ref. to <cite ref=\"U01606\"><he>שנער</he></cite>, <cite ref=\"Genesis 11:2\">Gen. XI, 2</cite>; v. Targ. O. to <cite ref=\"Exodus 14:27\">Ex. XIV, 27</cite> <he>שַׁנֵּיק</he> for h. text <cite ref=\"N01006\"><he>נִעֵר</he></cite>) <he>שנער שהם מתים בת׳ וכ׳</he> Babylonia is called Shinar, because they (the Babylonians) die in anguish, without light and without baths; <cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite>; Lam. R. introd. (R. Josh. 2) (some ed. <he>בתַשְׁנֵק</he>); <cite ref=\"Kohelet Rabbah 12:7\">Koh. R. to XII, 7</cite>; <cite ref=\"Yalkut Shimoni on Torah 62\">Yalk. Gen. 62</cite>."
+			]
+		}
+	]
+}

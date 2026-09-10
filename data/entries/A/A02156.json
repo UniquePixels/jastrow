@@ -1,0 +1,36 @@
+{
+	"id": "A02156",
+	"slug": "אנחותה",
+	"headword": {
+		"text": "אַנְחוּתָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְחוּתָה"
+		},
+		{
+			"text": "אַנְחוּתָא",
+			"homograph": 2
+		},
+		{
+			"text": "נְחוּתָא"
+		}
+	],
+	"page": {
+		"number": 82,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A02155\">preced.</cite>) <i>tray, board</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 7a:26\">Nidd. 7ᵃ</cite> <he>אנ׳</he> (Ar. a. ",
+				"<cite ref=\"Mishnah Tevul Yom 4:2\">T’bul Yom IV, 2</cite> <cite ref=\"N00002\"><he>נ׳</he></cite>). ",
+				"<cite ref=\"Gittin 62a:3\">Gitt. 62ᵃ</cite>; <cite ref=\"Tosefta Keilim Metsia 6:7\">Tosef. Kel. B. Mets. VI, 7</cite> <cite ref=\"A02155\"><he>אנחותא</he></cite>."
+			]
+		}
+	]
+}

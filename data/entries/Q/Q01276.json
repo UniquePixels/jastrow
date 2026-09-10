@@ -1,0 +1,32 @@
+{
+	"id": "Q01276",
+	"slug": "פסידא",
+	"headword": {
+		"text": "פְּסִידָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסֵי׳"
+		},
+		{
+			"text": "פְּסֵדָא"
+		}
+	],
+	"page": {
+		"number": 1194,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01232\"><he>פְּסַד</he></cite>) <i>loss, disadvantage</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 22:14\">Targ. Y. Ex. XXII, 14</cite>.—",
+				"<cite ref=\"Bava Metzia 3a:8\">B. Mets. 3ᵃ</cite> <he>מאי פ׳ אית ליה דלודי</he> what loss can he suffer (through his false claim) that should induce him to confess the truth? (v. <cite ref=\"Q01231\"><he>פָּסַד</he></cite>). ",
+				"<cite ref=\"Moed Katan 2a:9\">M. Kat. 2ᵃ</cite>, sq. <he>במקום פ׳</he> where there is a loss involved (by the delay); <cite ref=\"Ketubot 60a:12\">Keth. 60ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

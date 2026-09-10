@@ -1,0 +1,51 @@
+{
+	"id": "R00102",
+	"slug": "צדי-3",
+	"headword": {
+		"text": "צדי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צָדָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1262,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"R00101\">preced.</cite>; cmp. meanings of <cite ref=\"O00409\"><he>סוּר</he></cite>)<i>to remove</i> (the inhabitants of), <i>make desolate</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 26:7\">Gen. R. s. 26</cite> (ref. to <he>עוים</he>, <cite ref=\"Deuteronomy 2:23\">Deut. II, 23</cite>, v. ",
+				"<cite ref=\"Ezekiel 21:32\">Ez. XXI, 32</cite>) <he>שצָדוּ את העולם</he> they depopulated the world."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְדָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to become desolate</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:1\">Cant. R. to IV, 1</cite> they offer seventy sacrifices on the Succoth festival in behalf of the nations <he>שלא יִצָּדֶה העולם מהן</he> that the world may not be depopulated of them (through their extinction); <cite ref=\"Yalkut Shimoni on Torah 782:27\">Yalk. Num. 782</cite>; Pesik. Bayom, p. 194ᵃ <he>יצאו</he> (Ms. O. <cite ref=\"J00551\"><he>יצרא</he></cite>; corr. acc.). Gen. R. l. c. <he>גרמו לעולם שיִצּוֹד</he> (from <he>צדד</he> or <cite ref=\"R00161\"><he>צוד</he></cite>) they were the cause that the world was desolated (through the flood)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוּצְדֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be removed</i>. Ib. <he>הוּצְדּוּ מן העולם</he> they were removed from the world.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

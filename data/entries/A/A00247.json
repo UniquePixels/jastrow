@@ -1,0 +1,33 @@
+{
+	"id": "A00247",
+	"slug": "אגדה-1",
+	"headword": {
+		"text": "אַגָּדָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲגָדָה"
+		}
+	],
+	"page": {
+		"number": 10,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A01369\"><he>נגד</he></cite>, <cite ref=\"N00001\"><he>נ</he></cite> absorbed or dropped = <cite ref=\"E00058\"><he>הַגָּדָה</he></cite>) <i>tale, story, lesson</i>, esp. <i>Agadah</i>, that class of Rabb. literature which explains the Bible <i>homiletically</i>, opp. to <i>Halakhah</i> or <i>legal interpretation</i> (<cite ref=\"E00566\"><he>הֲלָכָה</he></cite>, <cite ref=\"U01441\"><he>שְׁמוּעָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Moed Katan 23a\">M. Kat. 23ᵃ</cite> <he>שמ׳ וא׳</he> a legal tradition and an Agadah (homily). ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:6:6\">Y. Yeb. XII, 13ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 6:2:3\">Y. B. Bath. VI, 15ᶜ</cite> <he>מסורת א׳ היא</he> it is a traditional Agadah.—",
+				"<cite ref=\"Jerusalem Talmud Gittin 4:2:4\">Y. Git. IV, 45ᶜ</cite> <he>בא׳ … מאן דייק לן</he> who among us can enter into what thy grandfather said?—<he>בעל א׳</he> a lecturer on Agadah. ",
+				"<cite ref=\"Bereishit Rabbah 94:5\">Gen. R. s. 94</cite>; a. fr.—<he>אֲגָּדַת תלים</he> the Agadah on Psalms. ",
+				"<cite ref=\"Bereishit Rabbah 94:5\">Ib.</cite> s. 33.—Pl. <he>אֲגָדוֹת</he>, <cite ref=\"A01150\"><he>אַגָּ׳</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 22:1\">Lev. R. s. 22</cite>, beg.; a. fr.—Cmp. <cite ref=\"A00253\"><he>אֲגַדְתָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "Q00435",
+	"slug": "פזר-2",
+	"headword": {
+		"text": "פְּזַר"
+	},
+	"page": {
+		"number": 1150,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>פַּזֵּר</he> <cite ref=\"Q00434\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 20:8\">Targ. Prov. XX, 8</cite> (usually <he>בדר</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "E00522",
+	"slug": "הכרזה",
+	"headword": {
+		"text": "הַכְרָזָה"
+	},
+	"page": {
+		"number": 351,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01135\"><he>כָּרַז</he></cite>) <i>public announcement</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 26b:12\">Snh. 26ᵇ</cite> <he>ה׳ בב״ד</he> announcement in court proclaiming a person disqualified as a witness. ",
+				"<cite ref=\"Sanhedrin 89a:6\">Ib. 89ᵃ</cite> <he>צריכין ה׳</he> must be published, as to the nature of the crime for which they are to be executed. ",
+				"<cite ref=\"Devarim Rabbah 11:11\">Deut. R. s. 11</cite> <he>ממונה על הה׳</he> appointed to announce the divine decrees."
+			]
+		}
+	]
+}

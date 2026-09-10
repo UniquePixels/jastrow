@@ -1,0 +1,23 @@
+{
+	"id": "G00432",
+	"slug": "זיתא-2",
+	"headword": {
+		"text": "זֵיתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 397,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"G00430\"><he>זַיִת</he></cite> 1; cmp. Syr. <he>דועתא</he> P. Sm. 933, <cite ref=\"G00740\"><he>זתא</he></cite> 1163) <i>resin</i>, name of <i>an alkali</i> used for cleansing. ",
+			"units": [
+				"<cite ref=\"Niddah 62a\">Nidd. 62ᵃ</cite> (expl. <he>בורית</he>) <he>ז׳</he> Ar. s. v. <cite ref=\"G00740\"><he>זתא</he></cite> (ed. <cite ref=\"K00078\"><he>כבריתא</he></cite>).—Pl. <he>זֵיתַיָּה</he> or <cite ref=\"G00350\"><he>זַיְיתַיָּה</he></cite>, v. <cite ref=\"G00433\">next w.</cite> [R. Hai Gaon to <cite ref=\"Mishnah Niddah 9:6\">Nidd. IX, 6</cite> <he>ואתא</he> read <he>זאתא</he>, v. Löw Pfl. p. 42, sq.]"
+			]
+		}
+	]
+}

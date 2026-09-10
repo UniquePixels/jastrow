@@ -1,0 +1,36 @@
+{
+	"id": "M01434",
+	"slug": "מכר-1",
+	"headword": {
+		"text": "מָכַר"
+	},
+	"page": {
+		"number": 784,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K01095\"><he>כָּרָה</he></cite>)<i>to sell</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 169:3\">Sifré Deut. 169</cite> (ref. to <cite ref=\"Deuteronomy 18:8\">Deut. XVIII, 8</cite>) <he>מה מָכְרוּ וכ׳</he> what have the fathers sold to one another? (Answ. the weekly turns); <cite ref=\"Sukkah 56a:2\">Succ. 56ᵃ</cite>; Y. ib. V, end, 55ᵈ. ",
+				"<cite ref=\"Bava Batra 64b\">B. Bath. 64ᵇ</cite>, a. fr. <he>מוֹכֵר בעין יפה מוכר</he> the seller is presumed to sell liberally, i.e. to sell all except that which is specified as excluded; <he>מ׳ בעיין רעה מ׳</he> he sells only that which is specified as sold. Ib. IV, 1 …<he>המוכר … לא מ׳ וכ׳</he> if one sells …, he has not implicitly sold &c. ",
+				"<cite ref=\"Mishnah Sotah 3:8\">Sot. III, 8</cite> <he>אין האשה מוֹכֶרֶת וכ׳</he> a woman cannot sell her daughter; a. v. fr.—Part. pass. <cite ref=\"M01360\"><he>מָכוּר</he></cite>; f. <cite ref=\"M01361\"><he>מְכוּרָה</he></cite>; <i>pl.</i> <he>מְכוּרִים מְכוּרִין</he>; <cite ref=\"M01362\"><he>מְכוּרוֹת</he></cite>. ",
+				"<cite ref=\"Tosefta Avodah Zarah 3:4\">Tosef. Ab. Zar. III</cite> (<cite ref=\"Tosefta Avodah Zarah 4:18\">IV</cite>), 18 <he>הרי זה מ׳</he> he is sold (the sale is valid). ",
+				"<cite ref=\"Mishnah Bava Batra 4:3\">B. Bath. IV, 3</cite>. ",
+				"<cite ref=\"Tosefta Bava Kamma 7:8\">Tosef. B. Kam. VII, 8</cite> <he>חביות המ׳ וכ׳</he> wine casks which have been sold to the shopkeeper (awaiting delivery); a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְכַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be sold</i>. Sot. l. c. <he>האיש נ׳ … נִמְכֶּרֶת</he> a man can be sold for his theft, but a woman cannot &c. Mekh. Mishp. s. 2; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

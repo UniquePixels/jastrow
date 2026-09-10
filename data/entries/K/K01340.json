@@ -1,0 +1,58 @@
+{
+	"id": "K01340",
+	"slug": "כתב-2",
+	"headword": {
+		"text": "כְּתַב",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּתוֹב"
+		}
+	],
+	"page": {
+		"number": 679,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01339\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 6:9\">Targ. Deut. VI, 9</cite> (v. Berl. Targ. O. II, p. 51). Ib. XXXI, 24. ",
+				"<cite ref=\"Targum Jonathan on Joshua 18:4\">Targ. Josh. XVIII, 4</cite>; a. v. fr.—Part. pass. (<cite ref=\"K01346\"><he>כְּתוּב</he></cite>) <cite ref=\"K01357\"><he>כְּתִיב</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 31:18\">Targ. Ex. XXXI, 18</cite>. ",
+				"<cite ref=\"Onkelos Numbers 11:26\">Targ. O. Num. XI, 26</cite> (Y. <he>כתוביא</he>); a. fr.—",
+				"<cite ref=\"Bava Kamma 88a:21\">B. Kam. 88ᵃ</cite> bot. <he>כְּתַבְתִּינְהוּ לניכסי וכ׳</he> she willed her property to &c. ",
+				"<cite ref=\"Gittin 20a:7\">Gitt. 20ᵃ</cite> <he>איהי קא כָתְבָה ליה</he> she (the wife) had it written (at her expense). ",
+				"<cite ref=\"Bava Batra 168b:8\">B. Bath. 168ᵇ</cite> <he>ולִיכְתּוֹב לן מר וכ׳</he> write for us another document (copy) in addition to this; a. v. fr.—",
+				"<cite ref=\"Shabbat 115b:3\">Sabb. 115ᵇ</cite> <he>היכא דכְתִיבֵי תרגום וכ׳</he> when the books are written in Chaldaic or any other tongue (than Hebrew); a. fr.—Esp. (in arguments on Biblical texts) <he>כ׳</he> or <he>כ׳ רחמנא</he> the Lord has written, <i>the text reads</i>. ",
+				"<cite ref=\"Pesachim 21b:5\">Pes. 21ᵇ</cite> <he>טעמא דכ׳ רחמנא וכ׳</he> this is so because the text reads <he>לא יֵאָכֵל</he> (passive voice), but if it did not read so &c. ",
+				"<cite ref=\"Pesachim 21b:8\">Ib.</cite> <he>לִכְתּוֹב רחמנא וכ׳</he> it ought to read &c. ",
+				"<cite ref=\"Berakhot 3b:14\">Ber. 3ᵇ</cite> <he>א״ה לכתוב מהנשף וכ׳</he> if this were so (that <cite ref=\"N01337\"><he>נשף</he></cite> invariably means <i>evening</i>), it ought to read (<cite ref=\"I Samuel 30:17\">I Sam. XXX, 17</cite>) <he>מהנשף ועד הנשף</he>; a. v. fr.—כְּתִיב <i>it is written, it reads</i> (used also in Hebr. diction). Ib. 13ᵇ <he>דִּכְ׳ לדבר בם</he> for it says (<cite ref=\"Deuteronomy 11:19\">Deut. XI, 19</cite>) ‘to <i>speak</i> thereof’; <he>ה״נ הא כ׳ ודברת בם</he> here, too, (in the first part of the Sh’ma) it says (VI, 7), ‘and thou shalt <i>speak</i> thereof’!—",
+				"<cite ref=\"Megillah 10b:8\">Meg. 10ᵇ</cite> <he>כ׳ הכא ויהי … וכ׳ התם ויהי</he> here (<cite ref=\"Leviticus 9:1\">Lev. IX, 1</cite>) <i>vayhi</i> is used, and there (<cite ref=\"Genesis 1:5\">Gen. I, 5</cite>) <i>vayhi</i> is used. ",
+				"<cite ref=\"Genesis 1:5\">Ib.</cite> <he>והָכְ׳</he>, <he>והא כ׳</he> but does it not also read &c.?—",
+				"<cite ref=\"Bereishit Rabbah 1:5\">Gen. R. s. 1</cite> <he>ומאי כ׳ אחריו</he> and what do we read after this?—<he>הדא הוא דכ׳</he>, v. <cite ref=\"D00003\"><he>דָּא</he> I</cite>.—",
+				"<cite ref=\"Sanhedrin 71a:19\">Snh. 71ᵃ</cite>, a. e. <he>בעינן קרא כְּדִכְ׳</he> we must construe the Biblical text as it is written (literally, e.g. Mish. ",
+				"<cite ref=\"Mishnah Sanhedrin 8:4\">ib. VIII, 4</cite> as an interpretation of <cite ref=\"Deuteronomy 21:19\">Deut. XXI, 19</cite>); a. v. fr.—",
+				"<cite ref=\"Bava Kamma 66a:4\">B. Kam. 66ᵃ</cite> <he>שינוי קונה כְּתִיבָה ותנינא כ׳</he> that a change of form of a stolen object gives possession (compelling the thief to restore in value) is written (intimated in the Biblical text) and has been taught in the Mishnah.—V. <cite ref=\"K01357\"><he>כְּתִיב</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְכְּתִיב", "אִיכְּתִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be written, recorded</i> &c. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 1:19\">Targ. Esth. I, 19</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 40:8\">Targ. Ps. XL, 8</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 87:6\">Ib. LXXXVII, 6</cite> <he>דמִכָּתְבִין</he> Ms. (ed. <he>דמְכַתְּבִין</he> <i>Pa.</i>); a. fr.—",
+						"<cite ref=\"Megillah 7a:5\">Meg. 7ᵃ</cite> <he>דאיבעי איכתיב וכ׳</he> (Ms. M. <he>מאי דבעי כתיב</he>, v. Rabb. D. S. a. l. note; Rashi: <he>דאי בעי כתב</he>) that which was liked was written down &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "I00401",
+	"slug": "טינתא",
+	"headword": {
+		"text": "טִינָתָא"
+	},
+	"page": {
+		"number": 533,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"I00389\"><he>טִינָא</he></cite> <i>moist, muddy soil</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 15:15\">Targ. Jud. XV, 15</cite> <he>בט׳</he> in the mud (h. text <he>טריה</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "L00306",
+	"slug": "לופייני",
+	"headword": {
+		"text": "לוּפְיָינִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בר לוּפְיָינִי"
+		}
+	],
+	"page": {
+		"number": 700,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (prob. corresp. to Joviani, cmp. <cite ref=\"L00281\"><he>לוּלְיָינִי</he></cite>) <i>Bar Lufiani</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite>. Cmp. <cite ref=\"L00253\"><he>לִוְיָאנוֹס</he></cite>."
+			]
+		}
+	]
+}

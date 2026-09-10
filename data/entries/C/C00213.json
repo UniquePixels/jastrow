@@ -1,0 +1,23 @@
+{
+	"id": "C00213",
+	"slug": "גדיר",
+	"headword": {
+		"text": "גָּדֵיר"
+	},
+	"page": {
+		"number": 212,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"C00246\"><he>גָּדֵר</he></cite>; <cite ref=\"C00246\"><he>גדר</he></cite>)<i>fence, guard, precaution against trespassing the law</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 1:2:4\">Y. Dem. I, 21ᵈ</cite> <he>מפני גְדֵירָהּ</he>, <he>מפני גְדֵירוֹ</he> in order to guard it against transgressing. ",
+				"<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite> (<he>גְּדֵרָן</he>) <he>פרצת גְּדֵירָן של וכ׳</he> thou hast broken down the guard (enactment) which the scholars have erected; a. fr."
+			]
+		}
+	]
+}

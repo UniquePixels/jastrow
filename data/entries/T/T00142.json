@@ -1,0 +1,41 @@
+{
+	"id": "T00142",
+	"slug": "רבקא",
+	"headword": {
+		"text": "רִבְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1446,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"T00143\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"M02793\"><he>מַרְבֵּק</he></cite> <i>stall</i> in which cattle are tied. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 46:21\">Targ. Jer. XLVI, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Amos 6:4\">Targ. Am. VI, 4</cite> (ed. Wil. <cite ref=\"T00142\"><he>רָבֵקָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Malachi 3:20\">Targ. Mal. III, 20</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>threshing team</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 50:11\">Targ. Jer. L, 11</cite> (h. text <he>דשה</he>, v. <cite ref=\"T00143\">next w.</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

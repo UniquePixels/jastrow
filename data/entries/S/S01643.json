@@ -1,0 +1,31 @@
+{
+	"id": "S01643",
+	"slug": "קסוסטבן",
+	"headword": {
+		"text": "קסוסטבן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְסוּסְטִין"
+		},
+		{
+			"text": "קְסוּסְטָרִין"
+		}
+	],
+	"page": {
+		"number": 1395,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<i>pl.</i> of ξεστός or of sextarius, transposed) <i>sextarii</i> (one sextarius = 1/16 of a modius). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 5:6:6\">Y. B. Mets. V, 10ᶜ</cite> bot. <he>כגון אילין … מתרתין ק׳ … ק׳</he> as those who advance the money with which to buy to those who sail to (do business at) the races, at a share in the profits of two or three sextarii for each modius; v. <cite ref=\"S01331\"><he>קָלִיט</he></cite>."
+			]
+		}
+	]
+}

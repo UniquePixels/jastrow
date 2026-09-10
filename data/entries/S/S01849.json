@@ -1,0 +1,32 @@
+{
+	"id": "S01849",
+	"slug": "קצרא-2",
+	"headword": {
+		"text": "קַצְרָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "קַצְרָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1408,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"S01653\"><he>קַסְטְרָא</he></cite>, <i>fort, camp</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 9:6\">Arakh. IX, 6</cite>, v. <cite ref=\"R00413\"><he>צִיפּוֹרֵי</he></cite>; <cite ref=\"Jerusalem Talmud Shabbat 16:7:2\">Y. Sabb. XVI, end, 15ᵈ</cite> (not <cite ref=\"S01136\"><he>קיצרה</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 8:1:4\">Y. Shek. VIII, beg. 51ᵃ</cite> <he>קַצְרָן של גוים היה שם</he> (some ed. <cite ref=\"S01852\"><he>קַצְרִין</he></cite>, v. Rabb. D. S. a. l. note 60) a camp of gentiles (Romans) was there, [comment. <i>a fuller</i>, v. <cite ref=\"S01847\"><he>קַצָּר</he></cite>). ",
+				"<cite ref=\"Bamidbar Rabbah 18:23\">Num. R. s. 18</cite> (ref. to <he>הקם על</he>, <cite ref=\"II Samuel 23:1\">II Sam. XXIII, 1</cite> [read:] <he>שהקים עולה של תורה בעולה של קצרה</he> he (David) restored the yoke (rulership) of the Law through the yoke of the camp (used his military power to restore the government of the Law; Midr. Sam. ch. XXIX <he>קיים … בעילה של מלכות</he>).—Pl. <cite ref=\"S01852\"><he>קַצְרִים</he></cite>, <cite ref=\"S01852\"><he>קַצְרִין</he></cite>; Chald. <he>קַצְרַיָּא</he> (with sing. meaning). Y. Erub. V, 22ᵇ bot. <he>את רואה … והק׳ … לאיצטדין ובית מעון … לק׳</he> consider the ruins (near Tiberias, v. <cite ref=\"A01577\"><he>אִיצְטַדִּין</he></cite>) as if they were inhabited buildings, and the fort is within seventy odd cubits near the ruins, and Beth Maon is within seventy odd cubits near the fort (by which calculation Beth Maon and Tiberias may be considered one township, v. <cite ref=\"P00059\"><he>עָבַר</he></cite> <i>Pi.</i> 4). Y. Shek. l. c., v. supra. Y. Shebi. VI, 36ᶜ <he>ק׳ דגליל</he> (not <he>קציריא</he>) the Fort of Gelil (v. Hildesh. Beitr. Geogr. p. 17, sq.); <cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> <cite ref=\"S01804\"><he>קַצְטְרָא</he></cite> (Var. <he>קצטרי</he>); <cite ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</cite> <he>קצרא דגלילא</he>; <cite ref=\"Yalkut Shimoni on Torah 874:3\">Yalk. ib. 874</cite> <he>ק׳ רגליא</he> (corr. acc.).—Trnsf. <cite ref=\"S01852\"><he>קַצְרִים</he></cite> <i>wax-cells in the honeycomb</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:2:8\">Cant. R. to I, 2</cite> <he>מה דבש יש בו ק׳ וכ׳</he> as there are wax-cells (unenjoyable parts) in the honey, so you might think the same was the case with the Law."
+			]
+		}
+	]
+}

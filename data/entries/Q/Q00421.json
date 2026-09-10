@@ -1,0 +1,27 @@
+{
+	"id": "Q00421",
+	"slug": "פזוזא",
+	"headword": {
+		"text": "פְּזוֹזָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּוזּוּזָא"
+		}
+	],
+	"page": {
+		"number": 1150,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00420\">preced.</cite>) <i>made of fine gold</i>.—Pl. <he>פְּזוֹזַיָּא</he>, <cite ref=\"Q00609\"><he>פִּיזּוּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 28:18\">Targ. Job XXVIII, 18</cite> <cite ref=\"Q00172\"><he>פז׳</he></cite> (ed. Lag. <cite ref=\"Q00433\"><he>פיז׳</he></cite>)."
+			]
+		}
+	]
+}

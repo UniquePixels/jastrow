@@ -1,0 +1,40 @@
+{
+	"id": "M00548",
+	"slug": "מוסף",
+	"headword": {
+		"text": "מוּסָף"
+	},
+	"page": {
+		"number": 745,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00468\"><he>יָסַף</he></cite>) [<i>addition</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>attachment, rim</i> (cmp. <cite ref=\"A02350\"><he>אִסְטַגְיוֹת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 5:5\">Kel. V, 5</cite> <he>מוּסַף התנור</he> a chimney-piece; <he>מ׳ היורה</he> the rim around a boiler in the ground. Ib. 11 <he>מ׳ של טיט</he> a moulding of clay around the stove; <cite ref=\"Tosefta Kelim Kamma 4:18\">Tosef. Kel. B. Kam. IV, 18</cite>. ",
+				"<cite ref=\"Tosefta Parah 12:10\">Tosef. Par. XII</cite> (<cite ref=\"Tosefta Parah 11:10\">XI</cite>), 10 <he>מ׳ יורה</he>, v. supra. ",
+				"<cite ref=\"Tosefta Parah 11:10\">Ib.</cite> <he>המוסיף</he> (corr. acc.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"V00829\"><he>תְּפִלַּת</he></cite>, <cite ref=\"S01897\"><he>קָרְבַּן</he></cite>) <i>Musaf, additional offering, additional prayer</i> on Sabbaths and festive (and fast-) days. ",
+			"units": [
+				"<cite ref=\"Tosefta Berakhot 3:10\">Tosef. Ber. III, 10</cite> <he>כל שאין בו מ׳</he> a half-festival on which there is no Musaf (prayer or offering); <he>וכל שיש בו מ׳</he> and one on which there is a Musaf; <cite ref=\"Shabbat 24a:3\">Sabb. 24ᵃ</cite> <he>ימים שיש בהן קרבן מ׳</he>. ",
+				"<cite ref=\"Shabbat 24a:5\">Ib.</cite> <he>כיון דלית ביה מ׳</he> since there is no Musaf appointed for it; a. fr.—<i>Pl.</i> (with sing. sense) <he>מוּסָפִין</he>. ",
+				"<cite ref=\"Shabbat 24a:5\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Berakhot 4:1\">Ber. IV, 1</cite>. ",
+				"<cite ref=\"Berakhot 28a:16\">Ib. 28ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

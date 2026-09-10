@@ -1,0 +1,32 @@
+{
+	"id": "H00075",
+	"slug": "חביצא",
+	"headword": {
+		"text": "חָבִיצָא"
+	},
+	"page": {
+		"number": 419,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H00074\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 37b:10\">Ber. 37ᵇ</cite>; <cite ref=\"Menachot 75b:5\">Men. 75ᵇ</cite> <cite ref=\"H01060\"><he>חֲבִיצָה</he></cite> (fem.; Ms. M. <he>חמעא</he>, v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:1:4\">Y. Ned. VI, beg. 39ᶜ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ח׳ דתמרי <i>a cake of pressed dates</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 99b:2\">B. Mets. 99ᵇ</cite> (Ar. <cite ref=\"H00657\"><he>חִיבּוּצָא</he></cite>, Ms. H. <he>הוצצא</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

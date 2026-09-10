@@ -1,0 +1,23 @@
+{
+	"id": "C00283",
+	"slug": "גובל",
+	"headword": {
+		"text": "גּוֹבֶל"
+	},
+	"page": {
+		"number": 217,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גבל</he>, v. <cite ref=\"C00055\"><he>גְּבוּל</he></cite>) <i>border of the field, balk, ridge</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 3:1\">Kil. III, 1</cite> sq. Ms. M. (ed. <cite ref=\"C00055\"><he>גבול</he></cite>). Y. ib. 28ᶜ (R. S. to <cite ref=\"Mishnah Kilayim 3:1\">Kil. III, 1</cite>, reads: <cite ref=\"C00055\"><he>גבול</he></cite>).—Pl. <he>גּוֹבְלִין</he>. ",
+				"<cite ref=\"Mishnah Kilayim 3:1\">Ib.</cite>"
+			]
+		}
+	]
+}

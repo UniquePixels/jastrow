@@ -1,0 +1,34 @@
+{
+	"id": "N00962",
+	"slug": "נסר-3",
+	"headword": {
+		"text": "נֶסֶר"
+	},
+	"page": {
+		"number": 919,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00961\">preced.</cite>) (<i>planed</i>) <i>board</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:11:1\">Cant. R. to I, 11</cite> <he>שחיפה בין נ׳ לנ׳</he> he put gold on between one board and the other; <cite ref=\"Jerusalem Talmud Shekalim 6:1:13\">Y. Shek. VI, 49ᵈ</cite> bot. Y. Ḥag. II, 78ᵇ bot.—Pl. <he>נְסָרִים</he>, <he>נְסָרִין</he>. ",
+				"<cite ref=\"Mishnah Bava Batra 4:6\">B. Bath. IV, 6</cite> <he>הנ׳</he> the boards in the bath house. ",
+				"<cite ref=\"Bava Batra 67b:7\">Ib. 67ᵇ</cite> <he>בית הנ׳</he> the room in which the boards are stored. ",
+				"<cite ref=\"Bava Batra 67b:2\">Ib.</cite> <he>מכר את נ׳</he> sold (with the press) the boards, v. <cite ref=\"J00539\"><he>יְצִירִין</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 22:10\">Kel. XXII, 10</cite>, v. <cite ref=\"U00230\"><he>שָׁגַם</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:7\">Y. Sabb. III, 6ᵃ</cite> top <he>להיות מגלין את הנ׳</he> to remove the boards (which covered the bathing tank). Bab. ",
+				"<cite ref=\"Shabbat 40a\">Sabb. 40ᵃ</cite>; a. e.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wicker</i>, v. <cite ref=\"N01146\"><he>נֵצֶר</he> III</cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

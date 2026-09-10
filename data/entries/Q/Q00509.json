@@ -1,0 +1,43 @@
+{
+	"id": "Q00509",
+	"slug": "פטי",
+	"headword": {
+		"text": "פְּטֵי"
+	},
+	"page": {
+		"number": 1154,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to break, burst</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 49:22\">Targ. Y. II, Gen. XLIX, 22</cite> <cite ref=\"Q00517\"><he>פַּטִּית</he></cite> (Y. I <he>תברת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to relieve</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 140b:12\">Sabb. 140ᵇ</cite> <he>דמְפַטְּיָא ליה וכ׳</he> when it will relieve him (from buying a new shirt) for a whole year (v. Rashi a. l.; Ms. O. <he>כי היכי דממטיא</he>, v. Rabb. D. S. a. l. note 50)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"Q00509\"><he>פַּטֵּי</he></cite> (cmp. <he>פצע</he>, <cite ref=\"Q00550\"><he>פטר</he></cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

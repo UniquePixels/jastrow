@@ -1,0 +1,35 @@
+{
+	"id": "T01108",
+	"slug": "רשף",
+	"headword": {
+		"text": "רֶשֶׁף"
+	},
+	"page": {
+		"number": 1502,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; רשף <i>to blow, glow</i>; cmp. <cite ref=\"Q00438\"><he>פַּח</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>glow, flame, spark</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 5a:5\">Ber. 5ᵃ</cite> (ref. to <cite ref=\"Job 5:7\">Job V, 7</cite>) <he>אין ר׳ אלא מזיקין</he> <i>reshef</i> means demons (of the hot season, v. <cite ref=\"S00695\"><he>קֶטֶב</he></cite>); <cite ref=\"Job 5:7\">ib.</cite> <he>אין ר׳ אלא יסורין</he> <i>reshef</i> means (burning) pains; <cite ref=\"Yalkut Shimoni on Nach 898:6\">Yalk. Job 898</cite>.—Pl. <he>רְשָׁפִים</he>. ",
+				"<cite ref=\"Midrash Tehillim 2:4\">Midr. Till. to Ps. II</cite> <he>וכמה ר׳ וברקים וכ׳</he> and how many flames, lightnings, and torches have I!; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bird</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 12:4\">Ex. R. s. 12</cite> (ref. to <cite ref=\"Psalms 78:48\">Ps. LXXVIII, 48</cite>) <he>ר׳ אלו העופות</he> <i>r’shafim</i> means birds of prey (by ref. to Job l. c.); Midr. Till. to Ps. l. c."
+			],
+			"label": "2"
+		}
+	]
+}

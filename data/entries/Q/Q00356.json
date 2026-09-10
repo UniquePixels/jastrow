@@ -1,0 +1,29 @@
+{
+	"id": "Q00356",
+	"slug": "פורמא",
+	"headword": {
+		"text": "פּוּרְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרָמָא"
+		}
+	],
+	"page": {
+		"number": 1147,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01868\"><he>פָּרַם</he></cite>) <i>piece of cloth, rag</i> used as a mask, <i>bandage</i> over the eyes. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 19\">Mishp. 19</cite> <he>פ׳ בפניהם כגון חמורים וכ׳</he> they (the demons) have a mask over their faces like the millers’ asses; <he>וכשהעונות גורמין הפ׳ נגלה וכ׳</he> and when man’s sins bring it about, the mask is removed, and man becomes insane; <cite ref=\"Yalkut Shimoni on Nach 772:1\">Yalk. Ps. 772</cite> <he>וכל אחד … פרמא בעיניהם וכ׳</he> (read: <he>בפני ע׳</he>) and every one of them has a bandage over his eyes; <cite ref=\"Midrash Tehillim 17:7\">Midr. Till. to Ps. XVII</cite> <he>פְּרָאמָא נתון לפני עיניהן וכ׳</he> (ed. Bub. <he>נתונה</he>); <cite ref=\"Yalkut Shimoni on Nach 670\">Yalk. Ps. 670</cite> <cite ref=\"Q01609\"><he>פרואמה</he></cite>, <cite ref=\"Q01609\"><he>פרואמי׳</he></cite> (a confusion of <cite ref=\"Q00356\"><he>פורמא</he></cite> and <cite ref=\"Q01540\"><he>פראמא</he></cite>); Y’lamd. to Deut. II, 31, quot. in Ar. <cite ref=\"Q00356\"><he>פורמא</he></cite> ed. Koh. (oth. ed. <cite ref=\"Q00247\"><he>פומאריה</he></cite>, <cite ref=\"Q00247\"><he>פומארים</he></cite>, corr. acc.).—Pl. <cite ref=\"Q00341\"><he>פּוּרְמַיָּא</he></cite>, <he>פּוּרְמֵי</he>, <cite ref=\"Q00837\"><he>פְּרָ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 66b\">Sabb. 66ᵇ</cite>, v. <cite ref=\"Q00106\"><he>פְּדָאמֵי</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 79:6\">Yalk. Gen. 79</cite> <he>עתיד לך פְּרוּמֵי</he> get thyself bandages (as for an ass in the tread-mill); v. <cite ref=\"Q00332\"><he>פּוּרְבִּי</he></cite>."
+			]
+		}
+	]
+}

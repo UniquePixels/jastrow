@@ -1,0 +1,31 @@
+{
+	"id": "A02572",
+	"slug": "אסתומכא",
+	"headword": {
+		"text": "אִסְתּוֹמְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִי׳"
+		},
+		{
+			"text": "אסטומכא"
+		}
+	],
+	"page": {
+		"number": 98,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ithpe. noun of <cite ref=\"O01098\"><he>סמך</he></cite>; cmp. <cite ref=\"O00344\"><he>סוּמְכָא</he></cite>) <i>the thick part</i>, or <i>the protection of an organ of the body, muscle, cartilage</i> &c. ",
+			"units": [
+				"<cite ref=\"Chullin 50b:2\">Ḥull. 50ᵇ</cite> (explaining ‘the inner stomach’) <he>א׳ דכרסא</he> (Ar. <he>אסט׳</he>) the thick portion of the rumen (?). ",
+				"<cite ref=\"Avodah Zarah 29a:4\">Ab. Zar. 29ᵃ</cite> <he>א׳ דליבא</he> the protector of the heart (or of the stomach), <i>the cartilago ensiformis, xiphoides</i>, v. <cite ref=\"A00775\"><he>אוּנְקְלַי</he> I</cite>, 3; (other opinion rejected in Rashi: <i>fleshy walls of the heart</i>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "U00211",
+	"slug": "שגגה",
+	"headword": {
+		"text": "שְׁגָגָה"
+	},
+	"page": {
+		"number": 1521,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U00210\">preced.</cite>) <i>inadvertent act, error</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Keritot 1:2\">Ker. I, 2</cite> <he>על אלו … ועל שִׁגְגָתָם חטאת</he> for the following acts one incurs the punishment of extinction if wilfully committed, and is bound to bring a sin-offering if committed inadvertently. ",
+				"<cite ref=\"Mishnah Keritot 2:2\">Ib. II, 2</cite> <he>אלו … הזדון כש׳</he> the following must offer a sacrifice for their wilful acts as if they were inadvertent ones. ",
+				"<cite ref=\"Shabbat 70a:1\">Sabb. 70ᵃ</cite> (in Chald. dict.) <he>קרבן דחייב רחמנא אמאי אש׳</he> for what act does the Law demand a sacrifice? Only for an inadvertent act. ",
+				"<cite ref=\"Shabbat 69a:2\">Ib. 69ᵃ</cite> <he>שִׁגְגַת קרבן שמה ש׳</he> ignorance as to eventual liability to a sacrifice is called inadvertency; <cite ref=\"Shevuot 26b:3\">Shebu. 26ᵇ</cite>. ",
+				"<cite ref=\"Shevuot 26b:1\">Ib.</cite> <he>איזוהי שגגת שבועת וכ׳</he> how is inadvertency in a vain oath with regard to a past event possible?; a. v. fr.—",
+				"<cite ref=\"Moed Katan 18a\">M. Kat. 18ᵃ</cite>, a. fr. <he>והואי כש׳ שיוצאה מלפני השליט</he> (fr. ",
+				"<cite ref=\"Ecclesiastes 10:5\">Koh. X, 5</cite>) and it was as an error proceeding from the ruler, i.e. his ominous words, although not meant as such, came true.—Pl. <he>שְׁגָגוֹת</he>. ",
+				"<cite ref=\"Shabbat 70a:1\">Sabb. 70ᵃ</cite> (in Chald. dict.) <he>התם חדא שגגה הכא טובא ש׳ הוייו</he> there it is only one error, here there are several. ",
+				"<cite ref=\"Bava Metzia 33b\">B. Mets. 33ᵇ</cite>, v. <he>זָרוֹן</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 1:2:4\">Y. Shebu. I, 33ᵃ</cite> <he>חטאתם אלו הש׳</he> ‘their sins’ (<cite ref=\"Leviticus 16:21\">Lev. XVI, 21</cite>) this refers to inadvertent acts; a. fr."
+			]
+		}
+	]
+}

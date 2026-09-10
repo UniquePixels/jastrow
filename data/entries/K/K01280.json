@@ -1,0 +1,91 @@
+{
+	"id": "K01280",
+	"slug": "כרת-2",
+	"headword": {
+		"text": "כָּרַת"
+	},
+	"page": {
+		"number": 674,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K01095\"><he>כָּרָה</he></cite>)<i>to cut</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16</cite> <he>ונקרא אשכול … לִכְרוֹת וכ׳</he> and he (Abraham’s ally) was named Eshkol (Cluster), on account of the cluster of grapes which the Israelites were destined to cut in his home.—Esp. <i>to cut genitals, mutilate</i>. ",
+				"<cite ref=\"Bekhorot 33b:16\">Bekh. 33ᵇ</cite> <he>נותק אחר כּוֹרֵת</he>, v. <cite ref=\"N01387\"><he>נָתַק</he></cite>.—Part. pass. <cite ref=\"K01133\"><he>כָּרוּת</he></cite>. ",
+				"<cite ref=\"Bekhorot 33b:16\">Ib.</cite>; a. fr.—<he>כְּ׳ שפכה</he> one that is mutilated at his membrum, v. <cite ref=\"U01764\"><he>שָׁפַךְ</he></cite>. ",
+				"<cite ref=\"Tosefta Yevamot 11:2\">Tosef. Yeb. XI, 2</cite>. ",
+				"<cite ref=\"Mishnah Yevamot 8:2\">Yeb. VIII, 2</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to draw a circle, place outside</i>, cmp. meanings of <he>חרם</he>, <cite ref=\"B01237\"><he>ברי</he></cite>,] <i>to cut off, excommunicate</i>, v. <cite ref=\"K01282\"><he>כָּרֵת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 2:1:2\">Y. Bicc. II, beg. 64ᶜ</cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 11:5:2\">Y. Snh. XI, 30ᵇ</cite> <he>צא … עונשין וכוֹרְתִים</he> deduct twenty years up to which age the divine court neither punishes nor decrees excision."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to separate, divorce</i>; <i>to make final</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 21b:9\">Gitt. 21ᵇ</cite>; <cite ref=\"Sukkah 24b:6\">Succ. 24ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 24:3\">Deut. XXIV, 3</cite>) <he>ספר כּוֹרְתָהּ וכ׳</he> the delivery of the deed divorces her and nothing else does. ",
+				"<cite ref=\"Deuteronomy 24:3\">Ib.</cite> <he>דבר הכּוֹרֵת בינו לבינה</he> something (a condition) which (if fulfilled) severs definitely the connection between him and her (e.g. a condition that she will drink no wine for the next thirty days, after the lapse of which time the letter of divorce takes its effect retroactively, opp. to a condition that she will abstain from wine all the rest of her life in which case the letter of divorce cannot take effect).—Part. pass. <cite ref=\"K01133\"><he>כָּרוּת</he></cite> <i>definite</i>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 7:3:5\">Y. Gitt. VII, 48ᵈ</cite> <he>כגט כ׳ הוא</he> it is like a final divorce (taking effect immediately); <cite ref=\"Jerusalem Talmud Bava Batra 8:8:2\">Y. B. Bath. VIII, 16ᶜ</cite> top <he>כ׳ הוא</he>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 3:1:4\">Y. Gitt. III, 44ᵈ</cite> top; IX, 50ᵇ bot. <he>זה כ׳ לשמה ווה כ׳ לשמה</he> (not <he>זו</he>) this letter was definitely made out for this woman, and so was the other for the other woman. Ib. III, beg. 44ᶜ <he>אלא שלא הי׳ לה כ׳ … ראשונה</he> (strike out <cite ref=\"O01410\"><he>לה</he></cite>); a. fr.—3) <i>to decide, make final</i>. ",
+				"<cite ref=\"Berakhot 4a:2\">Ber. 4ᵃ</cite>; <cite ref=\"Sanhedrin 16b:2\">Snh. 16ᵇ</cite> (ref. to <cite ref=\"K01285\"><he>כְּרֵתִי</he></cite> as a symbolical name for the Urim and Tummim, or for the Sanhedrin) <he>שכּוֹרְתִים את דבריהם</he> they give definite and precise decisions; <cite ref=\"Midrash Tehillim 3:3\">Midr. Till. to Ps. III</cite> <he>כּוֹרְתֵי כריתות</he>, v. <cite ref=\"K01181\"><he>כְּרִיתָה</he></cite>; a. e.—<he>כ׳ בְּרִית</he> (v. <cite ref=\"B01282\"><he>בְּרִית</he></cite>) <i>to covenant, make a firm promise</i>. ",
+				"<cite ref=\"Bereishit Rabbah 44:22\">Gen. R. s. 44</cite> <he>כָּרַתָּ ב׳ עם וכ׳</he> thou hast promised to Noah that thou wilt not destroy his descendants; <cite ref=\"Yalkut Shimoni on Torah 76:8\">Yalk. Gen. 76</cite> <cite ref=\"K01283\"><he>כָּרַתָּה</he></cite>.—Part. pass. <cite ref=\"K01133\"><he>כָּרוּת</he></cite>, f. <cite ref=\"K01115\"><he>כְּרוּתָה</he></cite>. ",
+				"<cite ref=\"Moed Katan 18a\">M. Kat. 18ᵃ</cite>, a. fr. <he>ברית כ׳ לשפתים</he>, v. <cite ref=\"B01282\"><he>בְּרִית</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 17b\">R. Hash. 17ᵇ</cite> <he>ב׳ כ׳ לי״ג מדזת וכ׳</he> there is a solemn insurance given that the invocation of the thirteen divine attributes (<cite ref=\"Exodus 34:6\">Ex. XXXIV, 6</cite>, sq.) will never be without effect (ref. to <cite ref=\"Exodus 34:10\">Ex. XXXIV, 10</cite>).—Trnsf. <he>ב׳ כ׳</he> <i>it is a necessity, unavoidable</i>. ",
+				"<cite ref=\"Niddah 58b\">Nidd. 58ᵇ</cite> <he>ב׳ כ׳ לו שכל וכ׳</he> whoever crushes it cannot help smelling it."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְרַת"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut, mutilated</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yevamot 8:2\">Yeb. VIII, 2</cite> (expl. <he>כרות שפכה</he>, <cite ref=\"Deuteronomy 23:2\">Deut. XXIII, 2</cite>) <he>כל שנ׳ הגיד</he> when the membrum is mutilated. Ib. 75ᵇ <he>נִכְרְתוּ ביצים</he> when the testicles are cut out; a. fr.—2) <i>to be covenanted</i>. ",
+						"<cite ref=\"Sotah 37b:6\">Sot. 37ᵇ</cite> <he>שלא נִכְרְתוּ עליה וכ׳</he> upon which were not closed forty eight covenants; <cite ref=\"Tosefta Sotah 8:11\">Tosef. ib. VIII, 11</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be cut off, destroyed</i>. Y. Peah I, 15ᵈ bot. (ref. to <cite ref=\"Numbers 15:31\">Num. XV, 31</cite>) <he>מלמד שהנפש נִכְרָתָה ועונה בה</he> which intimates that (the idolater’s) soul is cut off (through premature death, <cite ref=\"K01282\"><he>כָּרֵת</he></cite>), while her guilt remains with her (unexpiated by death); <cite ref=\"Sanhedrin 64b:20\">Snh. 64ᵇ</cite> (ref. to the emphasized expression <he>הכרת תכ׳</he>, Num. l. c.) <he>הִכָּרֵת בעו״הז וכ׳</he> <i>hiccareth</i> refers to this world &c.; a. fr.—Verbal noun <he>הִיכָּרֵת</he>, v. <cite ref=\"K01282\"><he>כָּרֵת</he></cite>.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִכְרִית"],
+			"senses": [
+				{
+					"gloss": "<i>to destroy, exterminate</i>. Tanḥ. R’eh 7 <he>והַכְרִיתֵם</he> and exterminate them. Ib. <he>כשיַכְרִית וכ׳</he> when the Lord … shall have destroyed …, you will enter. ",
+					"units": [
+						"<cite ref=\"Tosefta Sanhedrin 4:5\">Tosef. Snh. IV, 5</cite> <he>להַכְרִית זרעו וכ׳</he> to exterminate the seed of Amalek; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["כֵּרֵת"],
+			"senses": [
+				{
+					"gloss": "<i>to doom to destruction</i>. ",
+					"units": [
+						"<cite ref=\"Arakhin 15b:56\">Arakh. 15ᵇ</cite> <he>שכבר כֵּרְתוֹ וכ׳</he> for David has doomed him &c. (ref. to <cite ref=\"Psalms 12:4\">Ps. XII, 4</cite>); <cite ref=\"Yalkut Shimoni on Torah 559:1\">Yalk. Lev. 559</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

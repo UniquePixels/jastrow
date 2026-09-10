@@ -1,0 +1,36 @@
+{
+	"id": "A01564",
+	"slug": "איפרכא",
+	"headword": {
+		"text": "אִיפַּרְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיפַּרְכָה"
+		},
+		{
+			"text": "אֶפַּרְכָא"
+		},
+		{
+			"text": "אֶפַּרְכוֹס"
+		}
+	],
+	"page": {
+		"number": 59,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ὕπαρχος, ἔπαρχος) <i>prefect of a province</i> or <i>town; governor, lieutenant</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 11\">Gen. R. s. 11</cite>; a. v. fr.—Pl. <cite ref=\"A01567\"><he>אִיפַּרְכִין</he></cite>, <cite ref=\"A01567\"><he>אִפַּ׳</he></cite>; <cite ref=\"A02827\"><he>אִפַּרְכֵי</he></cite>, <cite ref=\"A01567\"><he>אִיפַּרְכַיָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 11:28\">Targ. Y. Num. XI, 28</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:3\">Targ. Esth. I, 3</cite>; a. e.—",
+				"<cite ref=\"Shevuot 6b:8\">Shebu. 6ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

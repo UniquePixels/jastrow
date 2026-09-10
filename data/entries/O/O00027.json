@@ -1,0 +1,32 @@
+{
+	"id": "O00027",
+	"slug": "סבא-1",
+	"headword": {
+		"text": "סָבָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 948,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. pr. n. m. <i>Saba</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 9:1:2\">Y. Yeb. IX, beg. 10ᵃ</cite> <he>ניחא בר ס׳</he>; <cite ref=\"Jerusalem Talmud Kilayim 9:1:2\">Y. Kil. IX, beg. 31ᵈ</cite> <he>סָבָה</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"O00564\"><he>כְּפַר ס׳</he></cite> pr. n. pl. <i>K’far Saba</i>, in Samaria. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:9\">Y. Dem. II, 22ᶜ</cite> bot. (ed. Krot. <he>כפרסבא</he>, one word). ",
+				"<cite ref=\"Niddah 61a:26\">Nidd. 61ᵃ</cite>; <cite ref=\"Tosefta Niddah 8:5\">Tosef. ib. VIII, 5</cite> (v. Hildesh. Beitr., p. 10)."
+			],
+			"label": "2"
+		}
+	]
+}

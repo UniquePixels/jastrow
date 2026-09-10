@@ -1,0 +1,54 @@
+{
+	"id": "S01690",
+	"slug": "קעקע-2",
+	"headword": {
+		"text": "קִעְקֵעַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1397,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (transpos. of <he>עקעק</he>, v. <cite ref=\"P00326\"><he>עוּק</he></cite>; cmp. <cite ref=\"C01182\"><he>גִּעְגֵּעַ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to engrave</i> (cmp. <cite ref=\"H01563\"><he>חָקַק</he></cite>); <i>to etch in</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:6\">Macc. III, 6</cite> <he>כתב ולא ק׳ ק׳ … וִיקַעְקֵעַ</he> if he writes (on his skin) but makes no impression, or makes an impression but does not write, he is not guilty (of trespassing the law, <cite ref=\"Leviticus 19:28\">Lev. XIX, 28</cite>) until he writes and stamps with ink &c.; Sifra K’doshim, Par. 3, ch. VI; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stamp out, exterminate</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:4:10\">Y. Ab. Zar. IV, 44ᵃ</cite> top, a. e., v. <cite ref=\"B00679\"><he>בֵּיצָה</he></cite>. ",
+				"<cite ref=\"Tosefta Bava Kamma 10:5\">Tosef. B. Kam. X, 5</cite>; <cite ref=\"Jerusalem Talmud Gittin 5:6:5\">Y. Gitt. V, 47ᵃ</cite> bot. <he>יְקַעְקֵעַ כל הבירה וכ׳</he> he must (if necessary) take down the entire group of buildings in order to restore it (the stolen beam). ",
+				"<cite ref=\"Shemot Rabbah 35:5\">Ex. R. s. 35</cite> <he>החריבה אותו אלא שלא קִעְקְעָה אותו וכ׳</he> she (Babylon) laid the Temple in ruins, but she did not stamp it out, whereas of Edom it is written (<cite ref=\"Psalms 137:7\">Ps. CXXXVII, 7</cite>), ‘raze it, raze it &c.’"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְקַעְקֵעַ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְקַעְקֵעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be stamped out</i>, v. <cite ref=\"B00679\"><he>בֵּיצָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 2:10\">Esth. R. to I, 7</cite> <he>מי גרם … שתִּתְקַעְקֵעַ ביצתו וכ׳</he> what was the cause that Belshazzar’s dynasty was entirely exterminated? <cite ref=\"Ruth Rabbah 7:15\">Ruth R. to IV, 14</cite> <he>מברכותיהן … לא נִתְקַעְקְעָה ביצתו וכ׳</he> owing to the blessings of the women, the seed of David was not entirely exterminated in the days of Athaliah. ",
+						"<cite ref=\"Pesikta Rabbati 12:1\">Pesik. R. s. 12</cite> <he>ואימתי שמשו שוקעת וביצתו מִתְקַעְקַעַת וכ׳</he> and when shall his (Amalek’s) sun go down and his egg be stamped out and his seed uprooted?"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

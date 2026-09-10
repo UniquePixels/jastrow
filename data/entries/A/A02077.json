@@ -1,0 +1,20 @@
+{
+	"id": "A02077",
+	"slug": "אמתלאי",
+	"headword": {
+		"text": "אֲמַתְלַאי"
+	},
+	"page": {
+		"number": 80,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Amathlai</i>, legendary name of Abraham’s mother <he>(א׳ בת כרנבו</he>), and of Haman’s mother <he>(א׳ בת עורביתא</he>). ",
+			"units": ["<cite ref=\"Bava Batra 91a:14\">B. Bath. 91ᵃ</cite>"]
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"id": "U00355",
+	"slug": "שוור-1",
+	"headword": {
+		"text": "שְׁוַור"
+	},
+	"page": {
+		"number": 1530,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to stride, leap, run, hasten</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 17:8\">Targ. Y. Ex. XVII, 8</cite> (ed. Vien. <he>ושווד</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Exodus 32:19\">Ib. XXXII, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:8\">Targ. Cant. II, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 37:1\">Targ. Job XXXVII, 1</cite> Var. ",
+				"<cite ref=\"Targum Jonathan on Amos 3:5\">Targ. Am. III, 5</cite> ed. Lag. (oth. ed. <he>יִסַּק</he>); a. fr.—",
+				"<cite ref=\"Bava Metzia 84a:12\">B. Mets. 84ᵃ</cite> <he>וש׳ לירדנא וכ׳</he> he ran into the Jordan after him. ",
+				"<cite ref=\"Bava Batra 73b:1\">B. Bath. 73ᵇ</cite> <he>ושַׁוַּאר מהאי וכ׳</he> (Ms. H. <he>ושוור</he>) and jumped from one mule’s back to the other. ",
+				"<cite ref=\"Bava Batra 96b:1\">Ib. 96ᵇ</cite> <he>חמרא … שואר</he> wine travels on its owner’s shoulder, i.e. if wine turns sour, it is the purchaser’s bad luck, and the seller is not responsible; oth. opin. (Tosaf.) wine turns sour by transport. ",
+				"<cite ref=\"Berakhot 54b:6\">Ber. 54ᵇ</cite> <he>ש׳ עשר אמין</he> he (Moses) jumped ten cubits high. ",
+				"<cite ref=\"Shabbat 110a:2\">Sabb. 110ᵃ</cite> <he>לִישַׁוַּאר נגרא</he> (Ar. <he>לשוור</he>) let him jump over a ditch. ",
+				"<cite ref=\"Pesachim 113a:4\">Pes. 113ᵃ</cite> <he>לא תְשַׁוַּור וכ׳</he>, v. <cite ref=\"N00620\"><he>נִיגְרָא</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cause to jump</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 29:6\">Targ. Ps. XXIX, 6</cite> (Ms. <he>טפז׳</he>).)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. meanings of <he>קפץ</he>) <i>to close up</i>. Ib. CVII, 42 (Ms. <he>שרור׳</he>, corr. acc.; h. text <he>קפצה</he>).",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00356\"><he>שַׁוַּור</he></cite>, <cite ref=\"U00310\"><he>שַׁוַּר</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

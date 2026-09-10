@@ -1,0 +1,32 @@
+{
+	"id": "J00050",
+	"slug": "יבל-3",
+	"headword": {
+		"text": "יָבַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 561,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"J00059\"><he>יִיבֵּל</he></cite> (denom. of <cite ref=\"J00057\"><he>יַבֶּלֶת</he></cite>) <i>to cut off dry twigs, warts</i> &c., <i>to trim</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 2:2\">Shebi. II, 2</cite> <he>מְיַבְּלִין מפרקין</he> (Ms. M. a. Y. ed. <he>מְזַבְּלִין</he>, incorr.); expl. Y. ib. 33ᵈ top, v. <cite ref=\"J00057\"><he>יַבֶּלֶת</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

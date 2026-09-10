@@ -1,0 +1,42 @@
+{
+	"id": "I00749",
+	"slug": "טרחות",
+	"headword": {
+		"text": "טַרְחוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִירְ׳"
+		}
+	],
+	"page": {
+		"number": 552,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"I00748\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:5:3\">Y. Ber. II, 5ᵃ</cite> bot. <he>טַרְחוּתָם מרובה</he> the trouble of climbing them down is very great. Pesik. Bayom, p. 193ᵃ <he>ט׳ הדרכים</he> the trouble of travelling. ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:6:3\">Cant. R. to VIII, 6</cite> <he>שהגשמים … סימן טיר׳</he> for there are those rains which betoken trouble &c.—Pesik. Shek. p. 20ᵇ; <cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite> end; <cite ref=\"Shemot Rabbah 34:1\">Ex. R. s. 34</cite> <he>אין הק״בה בא בט׳ וכ׳</he> the Lord comes not with burdensome laws to be imposed upon &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>necessaries of life, living</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 1:8\">Lev. R. s. 1</cite> <he>משה עסוק בט׳ וכ׳</he> Moses occupied himself with arranging the living of Israel (ordaining dietary laws). ",
+				"<cite ref=\"Bereishit Rabbah 94:5\">Gen. R. s. 94</cite> <he>ט׳ נפש אחת</he> provision for one soul. ",
+				"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> (ref. to <he>מתה עלי</he>, <cite ref=\"Genesis 48:7\">Gen. XLVIII, 7</cite>) <he>עלי היתה טַרְחוּתָהּ</he> mine was the care for her."
+			],
+			"label": "2"
+		}
+	]
+}

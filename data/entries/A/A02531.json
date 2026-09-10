@@ -1,0 +1,29 @@
+{
+	"id": "A02531",
+	"slug": "אסקוטלא-1",
+	"headword": {
+		"text": "אִסְקוּטְלָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיתְקוּטְלָא"
+		}
+	],
+	"page": {
+		"number": 97,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Isp. or Ithpe. of <he>קוטל</he> = <he>גודל</he> <i>thumb</i>) <i>snapping with thumb and middle finger, flipping</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 25a:14\">Taan. 25ᵃ</cite> <he>טרק לי בא׳ אאפותי</he> Ar. (ed. <he>מחיין … אפו׳</he>; Ms. M. <he>אאפותאי</he>) he stirred me up by snapping on my forehead.—Pl. <he>אִסְקוּטְלֵי</he>. ",
+				"<cite ref=\"Avodah Zarah 28a:15\">Ab. Zar. 28ᵃ</cite> <he>מחייה שתין אס׳</he> Ar. (ed. <he>אית׳</he>) snap thereon (on the swelling) sixty times."
+			]
+		}
+	]
+}

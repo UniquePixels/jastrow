@@ -1,0 +1,44 @@
+{
+	"id": "S00988",
+	"slug": "קילקי-1",
+	"headword": {
+		"text": "קִילְקִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִלְ׳"
+		}
+	],
+	"page": {
+		"number": 1361,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S00981\"><he>קִילִיקְיָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Cilician</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 6:1\">Neg. VI, 1</cite>; <cite ref=\"Mishnah Kelim 17:12\">Kel. XVII, 12</cite>, v. <cite ref=\"C01336\"><he>גָּרִיס</he></cite>; a. fr.—Pl. <cite ref=\"S00988\"><he>קִילְקִים</he></cite>, <cite ref=\"S00988\"><he>קִילְקִין</he></cite>, <cite ref=\"S00985\"><he>קִלְ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Maasrot 5:8\">Maasr. V, 8</cite>, a. fr., v. <cite ref=\"C01336\"><he>גָּרִיס</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. κιλίκιον, cilicium, v. Sm. Ant. s. v.) <i>cloth made of Cilician goat’s hair, coarse and shaggy cloth, horse-cover</i> &c. Sifra Sh’mini, Par. 6, ch. VIII (ref. to <cite ref=\"Leviticus 11:32\">Lev. XI, 32</cite>) <he>אין לי … לרבות את הק׳</he> Rabad (ed. <he>הקלקלים</he>) this would mean only sackcloth, whence do we learn to include <i>cilicium?</i>; <cite ref=\"Shabbat 64a:20\">Sabb. 64ᵃ</cite> Ms. O. (ed. <he>הקילקלי</he>, v. Rabb. D. S. a. l. note 3); <cite ref=\"Yalkut Shimoni on Torah 539:1\">Yalk. Lev. 539</cite> (not <he>הקילעין</he>). ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 539:1\">Ib.</cite> <he>והא אפיקתיה לק׳</he> but you have once excepted <i>cilicium</i>. ",
+				"<cite ref=\"Bava Batra 78a:5\">B. Bath. 78ᵃ</cite> <he>חמור וכליו</he> … <he>ואת הק׳</he> Ms. M. (ed. <he>הקילקלי</he>) if a man says, I sell thee the ass and its outfit, he has sold the saddle …, the cover and the saddle band (or the housing); <cite ref=\"Tosefta Bava Batra 4:2\">Tosef. ib. IV, 2</cite>; a. e.—Pl. as ab. ",
+				"<cite ref=\"Mishnah Kelim 29:1\">Kel. XXIX, 1</cite> <he>קלקין</he> ed. Dehr. (Mish. ed. <cite ref=\"S00360\"><he>קולקין</he></cite>; Bab. ed. <cite ref=\"S00362\"><he>קולקלין</he></cite>, corr. acc.).—3) <i>entangled and matted hair</i>.—<i>Pl.</i> as ab. Sifra M’tsorʿa, Zabim, Par. 2, ch. III ‘the flesh’ (<cite ref=\"Leviticus 15:7\">Lev. XV, 7</cite>) <he>ולא בק׳ שעליו</he> but not when touching entangled hair on his body; <cite ref=\"Yalkut Shimoni on Torah 568:7\">Yalk. Lev. 568</cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 9:2\">Mikv. IX, 2</cite> <he>קִלְקי הלב וכ׳</he> matted hair on the chest &c. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 6:3:8\">Y. Naz. VI, 55ᵇ</cite> top <he>קילקין</he> (not <he>קליק׳</he>); Y. Bets. IV, 62ᶜ <cite ref=\"S01411\"><he>קִלְקִים</he></cite> (not <he>ס …</he>); <cite ref=\"Jerusalem Talmud Shekalim 3:2:10\">Y. Shek. III, 47ᶜ</cite>, v. <cite ref=\"Q01345\"><he>פִּסְפֵס</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

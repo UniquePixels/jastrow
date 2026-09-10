@@ -1,0 +1,28 @@
+{
+	"id": "P00881",
+	"slug": "עמידא",
+	"headword": {
+		"text": "עֲמִידָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲמִידָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1087,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָמַד</he> <i>Hif.</i>) [<i>concrete</i>,] <i>urine-soaked dung</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39:15\">Gen. R. s. 39</cite>, end, v. <cite ref=\"D00149\"><he>דָּהוֹן</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 17\">Yalk. Josh. 17</cite> <cite ref=\"P00894\"><he>עמירה</he></cite> (corr. acc.); <cite ref=\"Jerusalem Talmud Shabbat 9:1:3\">Y. Sabb. IX, 11ᵈ</cite>; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:6:3\">Y. Ab. Zar. III, 43ᵃ</cite> bot. (corr. acc. to Yalk. l. c.).—[Ἀμίς, ίδα, which is referred to by Mus. in Ar. corresponds neither in form nor in meaning to our word.]"
+			]
+		}
+	]
+}

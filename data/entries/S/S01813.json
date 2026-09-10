@@ -1,0 +1,23 @@
+{
+	"id": "S01813",
+	"slug": "קציין",
+	"headword": {
+		"text": "קַצְיָין"
+	},
+	"page": {
+		"number": 1405,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"S01806\"><he>קְצֵי</he></cite>) <i>pieces</i> of bread. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 2:6\">Targ. Y. Lev. II, 6</cite> Ar. (ed. <he>ריסוקין</he>)."
+			]
+		}
+	]
+}

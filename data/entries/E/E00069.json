@@ -1,0 +1,23 @@
+{
+	"id": "E00069",
+	"slug": "הגיון",
+	"headword": {
+		"text": "הִגָּיוֹן"
+	},
+	"page": {
+		"number": 331,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"E00068\">preced.</cite> wds.) <i>recitation, reading lesson</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:20\">Y. Snh. X, 28ᵃ</cite> top (ref. to <cite ref=\"L00157\"><he>להג</he></cite>, <cite ref=\"Ecclesiastes 12:12\">Koh. XII, 12</cite>) <he>לה׳ ניתנו וכ׳</he> they are good for recitation, not for painful study, v. <cite ref=\"E00061\"><he>הָגָה</he></cite>. ",
+				"<cite ref=\"Berakhot 28b:7\">Ber. 28ᵇ</cite> <he>מנעו בניכם מן הה׳</he> restrain your children from recitation (parading a superficial knowledge of the Bible by verbal memorizing)."
+			]
+		}
+	]
+}

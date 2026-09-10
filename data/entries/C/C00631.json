@@ -1,0 +1,23 @@
+{
+	"id": "C00631",
+	"slug": "גידוד-1",
+	"headword": {
+		"text": "גִּידּוֹד",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 235,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00166\"><he>גדד</he></cite>) <i>full of incisions, wrinkled</i>, [or <i>acrid</i> (?), v. <cite ref=\"C00153\"><he>גַּד</he> I</cite>]. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:2\">Y. Dem. II, beg. 22ᵇ</cite> <he>ג׳ הוא</he>; v., however, <cite ref=\"C00188\"><he>גְּדוּרָא</he></cite>."
+			]
+		}
+	]
+}

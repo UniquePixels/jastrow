@@ -1,0 +1,27 @@
+{
+	"id": "H00580",
+	"slug": "חטא-2",
+	"headword": {
+		"text": "חֵטְא"
+	},
+	"page": {
+		"number": 447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00579\">preced.</cite>) <i>failure, sin</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 4a:15\">Ber. 4ᵃ</cite> <he>שמא יגרום הח׳</he> perhaps sin is the cause (preventing the fulfillment of divine promise). ",
+				"<cite ref=\"Berakhot 4a:18\">Ib.</cite> <he>אלא שגרם הח׳</he> but for sin that prevented it. ",
+				"<cite ref=\"Shabbat 119b:10\">Sabb. 119ᵇ</cite>, v. <cite ref=\"E00042\"><he>הֶבֶל</he></cite>; a. fr.—<he>יְרֵא ח׳</he>, <he>יִרְאַת ח׳</he>, v. <cite ref=\"J00591\"><he>יָרֵא</he></cite> a. <cite ref=\"J00592\"><he>יִרְאָה</he></cite>.—In Talm. Y. also <cite ref=\"H00575\"><he>חֵט</he></cite>. Y. Sabb. I, 3ᶜ top; a. fr.—Pl. <he>חֲטָאִים</he>. ",
+				"<cite ref=\"Berakhot 10a:2\">Ber. 10ᵃ</cite> (ref. to <he>חַטָּאִים</he>, <cite ref=\"Psalms 104:35\">Ps. CIV, 35</cite>) <he>מי כתיב חוֹטְאִים ח׳ כתיב</he> does the text read <i>ḥot’im</i> (sinners), it may be read <i>ḥătaim</i> (sins). ",
+				"<cite ref=\"Psalms 104:35\">Ib.</cite> <he>כיון דְיִתַּמּוּ ח׳ וכ׳</he> when sins shall cease, the wicked shall be no more. ",
+				"<cite ref=\"Mishnah Yoma 4:2\">Yoma IV, 2</cite>; a. fr."
+			]
+		}
+	]
+}

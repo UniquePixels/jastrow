@@ -1,0 +1,43 @@
+{
+	"id": "H00941",
+	"slug": "חכם-3",
+	"headword": {
+		"text": "חָכָם"
+	},
+	"page": {
+		"number": 463,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. Fl. to Levy Talm. Dict. II, 204<sup>2</sup>) [<i>retentive</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>one who knows</i>. <he>חֲכַם הרזים</he> He who knows the secrets (minds of men). ",
+			"units": [
+				"<cite ref=\"Berakhot 58a:3\">Ber. 58ᵃ</cite>; Tosef. ib. VII (VI), 2; <cite ref=\"Bamidbar Rabbah 21:2\">Num. R. s. 21</cite>, beg."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wise man, scholar;</i> esp. <i>Ḥakham</i>, a scholar’s title, less than Rabbi. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:1\">Ab. IV, 1</cite> <he>איזהו ח׳</he> who is a wise man? <cite ref=\"Sanhedrin 21a:20\">Snh. 21ᵃ</cite> (ref. to <cite ref=\"II Samuel 13:3\">II Sam. XIII, 3</cite>) <he>איש ח׳ לרשעה</he> a man wise for wickedness (artful). ",
+				"<cite ref=\"Gittin 67a:8\">Gitt. 67ᵃ</cite> <he>ח׳ וסופר</he> is a scholar and a scribe; <he>ח׳ לכשירצה</he> might be a scholar, if he wanted. ",
+				"<cite ref=\"Horayot 13b:11\">Hor. 13ᵇ</cite> <he>ר״מ ח׳</he> R. M. was the <i>Ḥakham</i> (counselor); a. v. fr.—Pl. <he>חֲכָמִים</he>, frequ. in the sense of <i>a number of scholars</i>, as opposed to a single authority. ",
+				"<cite ref=\"Chullin 85a:9\">Ḥull. 85ᵃ</cite> <he>ראה רבי</he> … <he>ושנאו בלשון ח׳</he> Rabbi approving of R. Meir’s opinion …, recorded it in the Mishnah as the opinion of ‘scholars’. ",
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite>; a. v. fr.—<he>חַכְמֵי אומות העולם</he> gentile scholars (philosophers), <he>חכמי ישראל</he> Jewish scholars. ",
+				"<cite ref=\"Rosh Hashanah 12a:5\">R. Hash. 12ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 94b:3\">Pes. 94ᵇ</cite>; a. fr.—<he>תַּלְמִיד חָכָם</he> (= <he>תלמיד וח׳</he>, cmp. <cite ref=\"H00109\"><he>חָבֵר</he></cite>, abbr. <he>ת״ח</he>) title of a student, <i>disciple, scholar</i>. ",
+				"<cite ref=\"Chagigah 15b:10\">Ḥag. 15ᵇ</cite> <he>ת״ח אע״פ שסרח וכ׳</he> a scholar’s learning is not to be despised, even if he has gone astray. ",
+				"<cite ref=\"Chullin 9a:6\">Ḥull. 9ᵃ</cite> <he>ת״ח צריך וכ׳</he> in order to be recognised as a <i>Talmid Ḥakham</i>, one must have learned three things &c.; a. v. fr.—Pl. <he>תַּלְמִידֵי חֲכָמִים</he>. ",
+				"<cite ref=\"Berakhot 64a:8\">Ber. 64ᵃ</cite> <he>ת״ה מרבים וכ׳</he> scholars increase the peace of the world; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

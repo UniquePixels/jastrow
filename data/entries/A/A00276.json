@@ -1,0 +1,32 @@
+{
+	"id": "A00276",
+	"slug": "אגוף",
+	"headword": {
+		"text": "אָגוּף"
+	},
+	"page": {
+		"number": 12,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גּוּף</he> I, <he>גפף</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sexual intercourse</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 7:3:5\">Y. Git. VII, 48ᵈ</cite> <he>לשייר לו אֲגוּפָהּ</he> to reserve to himself the right of embracing her; <cite ref=\"Jerusalem Talmud Bava Batra 8:8:2\">Y. B. Bath. VIII, 16ᶜ</cite> top <he>גופה</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>door-stop</i>, v. <cite ref=\"A00331\"><he>אַגַּף</he></cite>.—[<cite ref=\"A00331\"><he>אִגּוּף</he></cite> v. <cite ref=\"A00331\"><he>אַגָּף</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

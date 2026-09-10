@@ -1,0 +1,23 @@
+{
+	"id": "U01516",
+	"slug": "שמעא",
+	"headword": {
+		"text": "שַׁמְּעָא"
+	},
+	"page": {
+		"number": 1600,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01515\">preced.</cite> wds.) <i>servant, attendant</i>, esp. <i>the disciple ministering to the master</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 62a:1-18\">Ber. 62ᵃ</cite> <he>א״ל</he> … <he>לשַׁמְּעֵיה</he> R. Z. said to his attendant; <cite ref=\"Rosh Hashanah 33b\">R. Hash. 33ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 103b:6\">Pes. 103ᵇ</cite> <he>ש׳ מדעתיה וכ׳</he> my attendant did it of his own accord; a. fr."
+			]
+		}
+	]
+}

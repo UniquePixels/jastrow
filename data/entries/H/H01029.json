@@ -1,0 +1,68 @@
+{
+	"id": "H01029",
+	"slug": "חלי-2",
+	"headword": {
+		"text": "חֲלִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלָא"
+		}
+	],
+	"page": {
+		"number": 467,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01028\">same</cite><i>to be soft, sweet</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:7\">Targ. Prov. XXVII, 7</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 2:11\">Targ. Y. II, Lev. II, 11</cite> (h. text <he>דבש</he>); a. e.— "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be sick, grieve</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 22b:10\">Yoma 22ᵇ</cite>; <cite ref=\"Bava Kamma 20b:3\">B. Kam. 20ᵇ</cite> <he>כמה לא ח׳ וכ׳</he> how little does he whom the Lord supports need to grieve or trouble himself!"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to remit</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 86a:1\">Keth. 86ᵃ</cite> top <he>ותִיחֲלָה</he>, v. <cite ref=\"H00319\"><he>חוּל</he></cite> II ch."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַלֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to sweeten</i>.—<i>Part. pass.</i> f. <he>מְחַלְיָא</he>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> <he>בשעת מְחַלְיַית שינתא</he> during the sweetest sleep. ",
+						"<cite ref=\"Avodah Zarah 39a\">Ab. Zar. 39ᵃ</cite> <he>מח׳ שמנוניתא</he> Ms. M. the fatty substance (absorbed in the knife) becomes sweet again (loses its bad taste); ed. <he>מְחַלְּיָּא ליה ש׳</he> (read: <cite ref=\"L00531\"><he>לש׳</he></cite>) it (the strong taste of assa foetida) sweetens &c. [<cite ref=\"Berakhot 6b:10\">Ber. 6ᵇ</cite> <he>קא מחליין</he> ed., Ms. <he>מחללי</he>, v. <cite ref=\"H01074\"><he>חֲלַל</he> I</cite>.]"
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["(אִתַּחֲלִי) אִתְחֲלִי"],
+			"senses": [
+				{
+					"gloss": "<i>to become sweet</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Exodus 15:25\">Targ. Y. II, Ex. XV, 25</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

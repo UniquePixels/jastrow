@@ -1,0 +1,68 @@
+{
+	"id": "J00557",
+	"slug": "יקד-2",
+	"headword": {
+		"text": "יְקַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְקֵיד"
+		}
+	],
+	"page": {
+		"number": 591,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00556\">same</cite>; also <i>to set on fire</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:16\">Targ. Is. X, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 3:2\">Targ. Y. Ex. III, 2</cite> <cite ref=\"J00567\"><he>יָקִיד</he></cite> (Var. <cite ref=\"J00567\"><he>יַקִּיד</he></cite>) being burnt into. ",
+				"<cite ref=\"Targum Jerusalem, Exodus 3:3\">Targ. Y. II ib. 3</cite>.—Y. Yeb. XV, 15ᵃ [read:] <he>ערקתא יקְדַּת וספסלה יקד</he> the strap is on fire (heated) and the bench is on fire. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>לא ערקתא יקדת וכ׳</he> the strap was not heated &c. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite>, v. infra. ",
+				"<cite ref=\"Sanhedrin 33b:12\">Snh. 33ᵇ</cite>, v. <cite ref=\"M00582\"><he>מוֹקְדָא</he> I</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹקִיד", "אוֹקַד"],
+			"senses": [
+				{
+					"gloss": "<i>to set on fire, burn</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 8:17\">Targ. Lev. VIII, 17</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 5:21\">Targ. II Sam. V, 21</cite> (h. text <he>וישאם</he>, v. <cite ref=\"J00560\"><he>יְקוֹד</he></cite>); a. fr.—Pesik. Dibré, p. 112ᵇ <he>וא׳ היכלי</he> he set my Temple on fire. Lam. R. introd., end <he>סליק עפרא יקידא ואוקיד דרעיה</he> glowing dust came up and burnt his arm; Pesik. l. c. p. 114ᵃ; Y. Taan. IV, 69ᵇ <he>וא׳ זרעא</he> and burnt the seed. ",
+						"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 13</cite> <he>קרתא יקידא אוֹקִידְתָּא</he> thou hast set on fire a burning city (v. <cite ref=\"I00271\"><he>טְחַן</he></cite>); <cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> <he>דרא יקידא יַקְּדַּת</he> (<i>Pa.</i>), v. <cite ref=\"D01026\"><he>דָּרָא</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתּוֹקַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be burnt</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 10:16\">Targ. Lev. X, 16</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 23:7\">Targ. II Sam. XXIII, 7</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		},
+		{
+			"forms": ["אִיַּיקַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be on fire</i>. Y. Ḥag. II, 77ᶜ top <he>קבריה דרבך א׳</he> thy teacher’s (Elisha’s) grave is on fire.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

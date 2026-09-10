@@ -1,0 +1,22 @@
+{
+	"id": "K00906",
+	"slug": "כסול",
+	"headword": {
+		"text": "כָּסוּל"
+	},
+	"page": {
+		"number": 652,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"K00941\"><he>כֶּסֶל</he></cite>) <i>an animal with a deformed hip</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:7\">Bekh. VI, 7</cite> (<cite ref=\"Bekhorot 40a:14\">40ᵃ</cite>) <he>כ׳ שאחת מירכותיו גבוהה</he> (Talm. ed. <he>גבוהות</he>, corr. acc.) a <i>kasul</i> is one whose one hip is higher than the other. Ib. 40ᵃ <he>כ׳ שרגלו אחד וכ׳</he> a <i>k.</i> is he whose one foot is seated in the loin and the other over the loin; Tosef. ib. IV, 10 <he>איזהו פסול</he> (corr. acc.)."
+			]
+		}
+	]
+}

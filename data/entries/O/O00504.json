@@ -1,0 +1,41 @@
+{
+	"id": "O00504",
+	"slug": "סטר-3",
+	"headword": {
+		"text": "סְטַר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סִטְרָא"
+		},
+		{
+			"text": "סִי׳"
+		},
+		{
+			"text": "צִ׳"
+		}
+	],
+	"page": {
+		"number": 973,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contract. of <he>צרצר</he>, √<cite ref=\"R00726\"><he>צר</he></cite>, <i>to be near</i>; cmp. forms like <cite ref=\"G00162\"><he>זוטרא</he></cite>, <cite ref=\"K00908\"><he>כסוסטרא</he></cite>, <cite ref=\"C00779\"><he>גיסטרא</he></cite> &c.; cmp. Samar. <he>איצטר</he>, <cite ref=\"A02888\"><he>איצר</he></cite> a. <cite ref=\"R00289\"><he>צטרא</he></cite> for our w.) <i>side, border</i>. [<cite ref=\"Daniel 7:5\">Dan. VII, 5</cite> <cite ref=\"U00766\"><he>שְׂטַר</he></cite>.] <cite ref=\"Onkelos Exodus 25:12\">Targ. O. Ex. XXV, 12</cite> (Y. <cite ref=\"R00030\"><he>צִי׳</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 13:17\">Targ. Y. Num. XIII, 17</cite> <cite ref=\"R00289\"><he>צטרא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:2\">Targ. Y. Ex. XX, 2</cite>, sq.; a. fr.—Y. Snh. VII, 24ᶜ top <he>דין מן דין ס׳ וכ׳</he> one stands on this side (of the culprit) and one on the other side (contrad. to <he>מלפניו</he> a. <he>מלאחריו</he> standing in front and behind). ",
+				"<cite ref=\"Shabbat 134a\">Sabb. 134ᵃ</cite> <he>ליפניה לסִיטְרֵיה וכ׳</he> (v. Rabb. D. S. a. l. note 8) let him turn its hem upwards (outside). ",
+				"<cite ref=\"Niddah 56b:8\">Nidd. 56ᵇ</cite> <he>בס׳</he> in the borders (folds) of the garment. ",
+				"<cite ref=\"Kohelet Rabbah 11:2\">Koh. R. to XI, 2</cite> <he>קמון ליסטר …</he> the two serpents placed themselves by the side (of the cave); Pesik. B’shall., p. 94ᵃ <he>לסיטרא</he>; a. fr.—[<cite ref=\"Aramaic Targum to Psalms 74:6\">Targ. Ps. LXXIV, 6</cite>; <cite ref=\"Aramaic Targum to Psalms 149:6\">CXLIX, 6</cite>, v. <cite ref=\"D00520\"><he>דְּיוֹסְטַר</he></cite>.]—Pl. <he>סִטְרִין</he>, <he>סִטְרַיָּא</he>, <cite ref=\"O00067\"><he>סִי׳</he></cite>, <cite ref=\"O00504\"><he>צִ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 3:24\">Targ. Y. I Gen. III, 24</cite> (Y. II. <he>סטרה</he>, corr. acc.). ",
+				"<cite ref=\"Onkelos Exodus 37:7\">Targ. Ex. XXXVII, 7</cite>, sq. ",
+				"<cite ref=\"Onkelos Exodus 25:14\">Ib. XXV, 14</cite> (Y. <cite ref=\"R00001\"><he>צ׳</he></cite>); a. fr.—[<he>סִטְרָא</he> <i>wages</i>, v. <cite ref=\"O00290\"><he>סוּטְרָא</he></cite>.]"
+			]
+		}
+	]
+}

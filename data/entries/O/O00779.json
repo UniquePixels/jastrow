@@ -1,0 +1,25 @@
+{
+	"id": "O00779",
+	"slug": "סיפא-1",
+	"headword": {
+		"text": "סֵיפָא"
+	},
+	"page": {
+		"number": 985,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O00389\"><he>סוֹפָא</he></cite>) <i>end</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:20\">Y. Snh. X, 29ᵃ</cite> bot. <he>סֵיפֵיה</he> (interch. with <he>סוֹפֵיה</he>). ",
+				"<cite ref=\"Bava Batra 14b\">B. Bath. 14ᵇ</cite>; a. e.—Esp. <i>the last</i> (<i>second</i>) <i>clause of a Biblical verse; the last section of a Mishnah</i> &c. ",
+				"<cite ref=\"Berakhot 60a:16\">Ber. 60ᵃ</cite> <he>כל היכי … מרישיה לסיפיה … מסיפיה לרישיה וכ׳</he> whatever way you interpret that verse, whether from the first to the second clause, it gives sense, or from the second to the first clause, it gives sense. ",
+				"<cite ref=\"Chullin 94b:5\">Ḥull. 94ᵇ</cite>, a. fr. <he>אימא ס׳</he> how will you understand the last (third) clause? <cite ref=\"Shabbat 86a:3\">Sabb. 86ᵃ</cite> <he>ס׳ כר׳ וכ׳</he> the last (second) clause agrees with &c.; a. v. fr."
+			]
+		}
+	]
+}

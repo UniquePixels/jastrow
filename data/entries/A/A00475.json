@@ -1,0 +1,41 @@
+{
+	"id": "A00475",
+	"slug": "אדרכתא",
+	"headword": {
+		"text": "אַדְרַכְתָּא"
+	},
+	"page": {
+		"number": 19,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דְּרַךְ</he> Af.) <i>tracing;</i> (law) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>legal permission to a creditor to trace the debtor’s property for the purpose of having it seized, assessed, offered for public sale, and eventually delivered to him</i>. [Order of documents, acc. to <cite ref=\"Bava Batra 169a:5\">B. Bath. 169ᵃ</cite>, vers. of Maim. a. others: 1) <cite ref=\"A00475\"><he>אדרכתא</he></cite>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"I00453\"><he>טירפא</he></cite> the right of seizure of the debtor’s property sold after the date of the loan (mortgage); ",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " <cite ref=\"U00440\"><he>שומא</he></cite> record of the assessed value for which the creditor took possession;—acc. to vers. in ed. a. Mss. 1) <cite ref=\"I00453\"><he>טירפא</he></cite> right of seizure &c.; 2) <he>א׳</he> authorization to seize the traced property, defining position &c.; 3) <cite ref=\"U00440\"><he>שומא</he></cite>.] <cite ref=\"Bava Batra 169a:5\">B. Bath. 169ᵃ</cite>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 112b:17\">B. Kam. 112ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 16b:10\">B. Mets. 16ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 35b:3\">Ib. 35ᵇ</cite>. ",
+				"<cite ref=\"Ketubot 104b:14\">Keth. 104ᵇ. 2</cite>) <i>private authorization to collect or take possession of one’s debtordeposit; assignment, transfer</i>. ",
+				"<cite ref=\"Bava Kamma 70a\">B. Kam. 70ᵃ</cite> Ms. M., At. (ed. <he>אור׳</he>); <cite ref=\"Shevuot 33b\">Shebu. 33ᵇ</cite> (ed. <he>אור׳</he>, v. Rabb. D. S. a. l.); <cite ref=\"Bekhorot 49a:2\">Bekh. 49ᵃ</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

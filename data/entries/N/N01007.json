@@ -1,0 +1,111 @@
+{
+	"id": "N01007",
+	"slug": "נער-2",
+	"headword": {
+		"text": "נָעַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 921,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>עור</he>, <cite ref=\"P01455\"><he>ערר</he></cite>)<i>to shake, stir</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 1:4\">Makhsh. I, 4</cite> <he>הנוֹעֵר אגודה וכ׳</he> he who shakes (the rain off) a bundle of vegetables. ",
+				"<cite ref=\"Mishnah Makhshirin 5:7\">Ib. V, 7</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>לאיוב נָעַרְתִּי מן האשפה וכ׳</he> I shook Job (making him rise) from the dunghill, and concerning thee (Israel) it is written (<cite ref=\"Isaiah 52:2\">Is. LII, 2</cite>), shake thyself &c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to shake</i>. Pesik. Shek., p. 17ᵃ <he>נַעֲרָהּ קפלה</he> shake it (the garment), fold it; <cite ref=\"Vayikra Rabbah 2\">Lev. R. s. 2</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 2:8\">B. Mets. II, 8</cite> <he>מצא כסות מְנַעֲרָהּ וכ׳</he> if one found a garment (and holds it in charge waiting for the owner to claim it), he must shake it once in thirty days. ",
+						"<cite ref=\"Shabbat 147a\">Sabb. 147ᵃ</cite> top; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to stir</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 8:3\">Ḥull. VIII, 3</cite> <he>נ׳ את הקדרה</he> if he stirred (the meat in) the pot. Y. Ab. Zar. I, 39ᵈ top <he>שמא נ׳ הגוי בקדרה</he> the gentile might have stirred the pot; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to empty; to cause evacuation</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Tahorot 2:1\">Toh. II, 1</cite> <he>מְנָעֶרֶת את הקדרה</he> she may empty (or <i>stir</i>) the dish. ",
+						"<cite ref=\"Mishnah Kelim 28:2\">Kel. XXVIII, 2</cite> <he>לנָעֵר בו וכ׳</he> used for (lifting and) emptying the pot. ",
+						"<cite ref=\"Tosefta Keilim Metsia 2:10\">Tosef. Kel. B. Mets. II, 10</cite> <he>שהחנוני מְנָעֵר וכ׳</he> which the shop-keeper uses when pouring out &c. (or through which he pours for straining), v. <cite ref=\"J00732\"><he>יַתִּיךְ</he></cite>; a. e.—נ׳ את הצאן <i>to use means by which to expedite the discharge of excrements of the flock on the spot to be manured</i> (v. <cite ref=\"D00341\"><he>דּוּר</he> I</cite>, <i>Pi.</i>). ",
+						"<cite ref=\"Tosefta Shevi'it 2:20\">Tosef. Shebi. II, 20</cite>; <cite ref=\"Moed Katan 12a\">M. Kat. 12ᵃ</cite>; Y. Shebi. III, 34ᶜ bot. ",
+						"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>השוכר … לנַעֲרָהּ</he> he who hires a flock (for manuring) is forbidden to use means &c.; expl. ",
+						"<cite ref=\"Yoma 2a\">ib.</cite> <he>מוליכה ממקום וכ׳</he> by driving it from place to place.—<i>Part. pass.</i> <he>מְנוֹעָר</he>; f. <he>מְנוֹעֶרֶת</he>; pl. <he>מְנוֹעָרִים</he>, <he>מְנוֹעָרִין</he>: <he>מְנוֹעָרוֹת</he> <i>empty, vacant</i>. Y. Ber. IV, 7ᵇ bot. (play on <he>שִׁנְ֗עָ֗ר̇</he>) <he>שחם מנ׳ מן המצות וכ׳</he> they (the Babylonians) are vacant of (cannot perform) certain religious observances &c.; <cite ref=\"Kohelet Rabbah 12:7\">Koh. R. to XII, 7</cite>; <cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite> <he>שהיא מנ׳ וכ׳</he> she (Babylonia) is deprived &c. ",
+						"<cite ref=\"Chagigah 14a:13\">Ḥag. 14ᵃ</cite> (play on <he>נערים</he>, <cite ref=\"Isaiah 3:4\">Is. III, 4</cite>) <he>אלו בני אדם שמנ׳ וכ׳</he> that means persons empty of good deeds, opp. <he>ממולא</he>; <cite ref=\"Yalkut Shimoni on Nach 261\">Yalk. Is. 261</cite>.—[<cite ref=\"Bava Batra 74b\">B. Bath. 74ᵇ</cite> <he>ור״י נוער</he> some ed., v. <cite ref=\"P00342\"><he>עוּר</he> I</cite>.—",
+						"<cite ref=\"Chullin 51b:9\">Ḥull. 51ᵇ</cite> <he>ניערה</he>, v. infra.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִנְעַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be stirred up; to bestir one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 74b\">B. Bath. 74ᵇ</cite> <he>וני׳ ר״א</he> and R. El. was stirred up (awoke). ",
+						"<cite ref=\"Sotah 5a:11\">Sot. 5ᵃ</cite> <he>אין עפרו נ׳</he> his dust will not be stirred up (for resurrection). ",
+						"<cite ref=\"Shemot Rabbah 1:13\">Ex. R. s. 1</cite> (play on <he>חלאה ונערה</he>, <cite ref=\"I Chronicles 4:5\">I Chr. IV, 5</cite>) <he>חלתה ונִנְעֲרָה מחליה וכ׳</he> she (Miriam) was sick, but she bestirred herself (arose) from her sickness, and the Lord restored her to youth. Y. Ber. III, 6ᵈ top (play on <he>מנעריו</he>, <cite ref=\"Genesis 8:21\">Gen. VIII, 21</cite>) <he>משעה שהוא נ׳ ויוצא וכ׳</he> from the moment the embryo bestirs itself to come out into the world; <cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite>; <cite ref=\"Yalkut Shimoni on Torah 61:10\">Yalk. ib. 61</cite>. ",
+						"<cite ref=\"Chullin 51b:9\">Ḥull. 51ᵇ</cite> <he>ננערה לעמוד וכ׳</he> Rashi (ed. <he>נִיעֲרָה</he>) if the animal made an effort to get up, although it did not succeed; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (of flax) <i>to be hatcheled</i>. Y. Sabb. II, beg. 4ᶜ (expl. <cite ref=\"H00413\"><he>חוסן</he></cite>, ib. II, 1) <he>פשתן שלא ננערה</he> flax which has not yet been hatcheled.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be emptied, poured out</i>. Y. Ber. l. c. (play on <cite ref=\"U01606\"><he>שנער</he></cite>) <he>ששם נִנְעֲרוּ וכ׳</he> for into that valley the dead of the generation of the flood were dumped; <cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite>; Koh. R. l. c.—",
+					"units": [
+						"<cite ref=\"Sanhedrin 92a:20\">Snh. 92ᵃ</cite> <he>קשתו נִינְעֶרֶת</he> his bow will be empty (his sexual vitality broken)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִנְעִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to stir up, to keep awake</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 53b:14\">Erub. 53ᵇ</cite> (play on <he>נערה</he> &c., v. <cite ref=\"A00513\"><he>אַהֲרוֹנִית</he></cite>) <he>והִנְעִירָתוֹ</he> and she kept him awake."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְנַעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be emptied</i>; trnsf. <i>to be displaced</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 116a:15\">Zeb. 116ᵃ</cite> (ref. to <cite ref=\"Song of Songs 4:16\">Cant. IV, 16</cite>) <he>תִּתְנַעֵר אומה … ותבא וכ׳</he> (v. Rabb. D. S. a. l. note) removed be the (Roman) nation whose sacrifices are slaughtered northward (<cite ref=\"Leviticus 1:11\">Lev. I, 11</cite>, which is entitled only to burnt-offerings), and let the nation enter &c."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

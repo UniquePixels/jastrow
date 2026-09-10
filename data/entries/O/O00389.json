@@ -1,0 +1,26 @@
+{
+	"id": "O00389",
+	"slug": "סוף-6",
+	"headword": {
+		"text": "סוֹף",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סוֹפָא"
+		}
+	],
+	"page": {
+		"number": 968,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00388\">same</cite> <cite ref=\"Aramaic Targum to Job 28:3\">Targ. Job XXVIII, 3</cite>; a. fr.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:20\">Y. Snh. X, 29ᵃ</cite> bot. <he>יהא סוֹפֵיה וכ׳</he>, v. <cite ref=\"H01325\"><he>חֲנַק</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 41a:6\">Ab. Zar. 41ᵃ</cite> <he>מעיקרא … ולבס׳ וכ׳</he> at first …, but finally &c.; a. fr."
+			]
+		}
+	]
+}

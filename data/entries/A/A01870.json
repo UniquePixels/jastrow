@@ -1,0 +1,31 @@
+{
+	"id": "A01870",
+	"slug": "אליס-1",
+	"headword": {
+		"text": "אָלִיס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲלִיס"
+		},
+		{
+			"text": "אִילִיס"
+		}
+	],
+	"page": {
+		"number": 69,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., only in pl. <he>אֲלִיסִים</he>, <cite ref=\"A02236\"><he>אֲלִיסִין</he></cite> &c. (<he>אלס</he>, cmp. <he>אלץ</he> in Hebr. Dict. a. <he>רסס</he>, <he>רצץ</he>) <i>ruins, debris</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19:4\">Lev. R. s. 19</cite> (referring to <cite ref=\"Amos 6:11\">Amos VI, 11</cite>) <he>הדין רסיסה אית מיניה אל׳</he> (read <cite ref=\"T00856\"><he>רסיסא</he></cite>) of what is demolished by making breaches, there remain ruins, <he>והדין בקיעא לית מיניה אי</he> while of what is demolished by chopping, no ruins remain; <cite ref=\"Kohelet Rabbah 10:18:1\">Koh. R. to X, 18</cite> (corr. acc.); <cite ref=\"Shir HaShirim Rabbah 4:14:1\">Cant. R. to IV, 14</cite>. Cmp. <cite ref=\"B00561\"><he>בִּיזָא</he></cite> and <cite ref=\"A01928\"><he>אִלְסִיס</he></cite>."
+			]
+		}
+	]
+}

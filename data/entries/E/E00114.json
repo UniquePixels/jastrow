@@ -1,0 +1,48 @@
+{
+	"id": "E00114",
+	"slug": "הדיא-2",
+	"headword": {
+		"text": "הֲדָיָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲדָיָה"
+		},
+		{
+			"text": "בַּר הֲדָיָא"
+		},
+		{
+			"text": "בֶּן הֲדָיָא"
+		}
+	],
+	"page": {
+		"number": 333,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (corresp. to h. <cite ref=\"D00011\"><he>דָּאָה</he></cite> or <cite ref=\"D00494\"><he>דַּיָּה</he></cite>, v. discussion <cite ref=\"Chullin 63b\">Ḥull. 63ᵇ</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " a bird of the <i>hawk</i> species. Sifra Sh’mini Par. 3, ch. V (ref. to <he>הנץ למינהו</he>, <cite ref=\"Leviticus 11:16\">Lev. XI, 16</cite>) ‘after its kind’ <he>להביא בן ההדייה</he> refers to <i>ben hădaya;</i> <cite ref=\"Chullin 63a:15\">Ḥull. 63ᵃ</cite> <he>בר חיריא</he> ed., Ar. <he>בר הוֹדָיָא</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:4\">Lev. R. s. 5</cite>, beg. <he>הדין בר הדיח וכ׳</he> ed. (Ar. <cite ref=\"E00208\"><he>הודיא</he></cite>, v. ed. Koh. s. v.) this hawk sees its food at a distance of &c. (v. ",
+				"<cite ref=\"Chullin 63b\">Ḥull. 63ᵇ</cite>, ref. to <cite ref=\"T00011\"><he>רָאָה</he></cite> a. <cite ref=\"D00011\"><he>דָּאָה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m. <i>Bar Hădaya</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56a:2\">Ber. 56ᵃ</cite> (an interpreter of dreams). ",
+				"<cite ref=\"Avodah Zarah 30a:9\">Ab. Zar. 30ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "A01663",
+	"slug": "אך-3",
+	"headword": {
+		"text": "אַךְ",
+		"reconstructed": true,
+		"homograph": 3
+	},
+	"page": {
+		"number": 62,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"A01247\"><he>אֵיךְ</he></cite>, only with <cite ref=\"H00172\"><he>חדא</he></cite> <i>together</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 22:18\">Targ. Prov. XXII, 18</cite> (ed. Vien. <cite ref=\"A01247\"><he>אֵיךְ</he></cite>)."
+			]
+		}
+	]
+}

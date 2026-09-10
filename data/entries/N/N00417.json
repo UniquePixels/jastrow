@@ -1,0 +1,32 @@
+{
+	"id": "N00417",
+	"slug": "נור-2",
+	"headword": {
+		"text": "נוּר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נוּרָא"
+		}
+	],
+	"page": {
+		"number": 890,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"N00280\"><he>נְהַר</he></cite>; cmp. <cite ref=\"M00484\"><he>מוּל</he></cite> a. <cite ref=\"M00366\"><he>מָהַל</he></cite>) <i>fire</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 18:5\">Targ. Job XVIII, 5</cite>; a. fr.—",
+				"<cite ref=\"Chagigah 13b\">Ḥag. 13ᵇ</cite>, a. e. <cite ref=\"D00644\"><he>דינור</he></cite>, v. <cite ref=\"D00644\"><he>דִּינוּר</he></cite>. ",
+				"<cite ref=\"Moed Katan 12b\">M. Kat. 12ᵇ</cite>, v. <cite ref=\"M00236\"><he>מַדְבּוּרָא</he></cite>. ",
+				"<cite ref=\"Nedarim 62b:4\">Ned. 62ᵇ</cite> <he>עבדא דנ׳</he> a fire-worshipper (gheber). ",
+				"<cite ref=\"Nedarim 62b:4\">Ib.</cite> <he>בי נ׳</he> fire temple, gheber-service; a. fr.—[<cite ref=\"Vayikra Rabbah 27:6\">Lev. R. s. 27</cite>, a. e. <he>בנור ובזפת</he>, v. <cite ref=\"M02619\"><he>מַרְזוֹבוֹת</he></cite>.]"
+			]
+		}
+	]
+}

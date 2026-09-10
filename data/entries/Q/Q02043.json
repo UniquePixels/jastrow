@@ -1,0 +1,55 @@
+{
+	"id": "Q02043",
+	"slug": "פרת-3",
+	"headword": {
+		"text": "פְּרַת",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1244,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q02042\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פָּרֵית"],
+			"senses": [
+				{
+					"gloss": "<i>to divide, dismember</i> (of the basilisk whose look is believed to cause a person’s limbs to fall apart, v. <cite ref=\"P00746\"><he>עֶכֶס</he></cite>, a. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite>, a. e., quot. s. v. <cite ref=\"N01328\"><he>נָשַׁל</he></cite>; cmp. <he>יַפְרִישׁ</he> <cite ref=\"Proverbs 23:32\">Prov. XXIII, 32</cite>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 14:29\">Targ. Is. XIV, 29</cite> <he>מְפָרֵית</he> (some ed. <he>מַפְרִית</he> <i>Af.</i>; Var. ed. Lag. <he>מפריד</he>; ed. Wil. <he>מפריח</he>; h. text <he>פעופף</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 59:5\">Ib. LIX, 5</cite> <he>מְפָרְתִין</he> ed. Lag. (ed. Wil. <he>מפרחין</he>).—[<cite ref=\"Aramaic Targum to Proverbs 23:32\">Targ. Prov. XXIII, 32</cite> <he>דפריח</he>, ed. Lag. <he>פאריח</he>, prob. to be read: <he>דפָרֵית</he>, Part. <i>Pe.</i>; h. text <he>יפריש</he>, v. supra.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to belittle, make light of</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah, Petichta 7\">Lam. R. to II, 10</cite> <he>הוון חמשא … ומְפָרְתִין ליה בנבוכדנצר וכ׳</he> (read: <cite ref=\"B00537\"><he>ביה</he></cite>; Ar. <he>ופרטין</he>) five kings were sitting and sneering at Nebuchadnezzar in the presence of Zedekiah; <he>אף הוא מְפָרְתֵיה לנב׳ וכ׳</he> (Ar. <he>פרטיה</he>, Var. <cite ref=\"Q00138\"><he>פדרת</he></cite>, corr. acc.) he, likewise, sneered &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיפְּרַת"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken off, separated</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 2a:3\">Bets. 2ᵃ</cite> <he>אוכלא דאִפְּרַת היא</he> the egg is considered as a broken-off piece of food (part of the hen, not as an independent creation). ",
+						"<cite ref=\"Pesachim 85a:14\">Pes. 85ᵃ</cite> <he>כמאן דמִפַּרְתֵי דמי</he> they are to be considered as if they were separated; <cite ref=\"Chullin 73a\">Ḥull. 73ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

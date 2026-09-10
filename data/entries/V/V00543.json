@@ -1,0 +1,24 @@
+{
+	"id": "V00543",
+	"slug": "תכלא-2",
+	"headword": {
+		"text": "תִּכְלָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1668,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"V00547\"><he>תְּכֵלֶת</he></cite>, <i>purple-blue wool</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:4\">Targ. Ex. XXV, 4</cite> (ed. Berl. <he>תַּ׳</he>). Ib. XXVIII, 8. Targ. Y. ib. 28. ",
+				"<cite ref=\"Targum Jonathan on Numbers 15:38\">Targ. Y. Num. XV, 38</cite>; a. fr.—V. <cite ref=\"V00548\"><he>תְּכֶלְתָּא</he></cite>."
+			]
+		}
+	]
+}

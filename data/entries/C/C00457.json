@@ -1,0 +1,55 @@
+{
+	"id": "C00457",
+	"slug": "גוף-3",
+	"headword": {
+		"text": "גּוּף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 225,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"C00458\"><he>גּוּפָה</he></cite>, <cite ref=\"C01195\"><he>גַּף</he></cite>, cmp. <cite ref=\"C00366\"><he>גְּוִיָּה</he></cite>, <he>גֵּוּ</he>)<i>body, person, self</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 20a:6\">Kidd. 20ᵃ</cite> (expl. <i>b’gappo</i> <cite ref=\"Exodus 21:3\">Ex. XXI, 3</cite>) <he>בגוּפוֹ נכנס וכ׳</he> of himself he entered, of himself he shall go out (free, in the seventh year) but not, like a gentile slave, on losing a limb. ",
+				"<cite ref=\"Sanhedrin 91a:17\">Snh. 91ᵃ</cite> <he>ג׳ ונשמה וכ׳</he> the body and the soul may try to escape judgment (shifting the responsibility one on the other). ",
+				"<cite ref=\"Kiddushin 37a\">Kidd. 37ᵃ</cite>, a. fr. <he>חובת הג׳</he> <i>personal duty</i>, contrad. to <he>ה׳ קרקע</he> laws connected with the (Palestinean) soil. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:6:9\">Y. Taan. I, 64ᵈ</cite> top, a. e. <he>אותו הג׳ הקדוש</he> that holy body (saint). ",
+				"<cite ref=\"Rosh Hashanah 17a:3\">R. Hash. 17ᵃ</cite> <he>בגוּפָן</he> by defiling their bodies. ",
+				"<cite ref=\"Pirkei Avot 4:6\">Ab. IV, 6</cite> <he>גּוּפוֹ מכובד וכ׳</he> will himself be honored by men.—Trnsf. <i>Guf</i>, the fictitious storehouse of souls in heaven. ",
+				"<cite ref=\"Yevamot 62a\">Yeb. 62ᵃ</cite>, a. e. the son of David shall not come <he>עד שיכלו … שֶׁבַּגּ׳</he> before all souls in the <i>Guf</i> are exhausted (i.e. sent to live on earth)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>essence, substance</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:4\">Y. Ber. I, 3ᶜ</cite> <he>גּוּפָהּ של שמע</he> an integral portion of the Sh’ma (confession of faith). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:5:3\">Y. Sabb. II, 5ᵃ</cite> top <he>גופה של פתילה</he> the wick itself. ",
+				"<cite ref=\"Mishnah Gittin 9:3\">Gitt. IX, 3</cite> <he>גּוּפוֹ של גט וכ׳</he> the essential formula of a letter of divorce is &c. ",
+				"<cite ref=\"Yoma 74b:15\">Yoma 74ᵇ</cite> <he>גופו של מעשה</he> the deed (of sexual gratification) itself; a. fr.—",
+				"<cite ref=\"Pesachim 112b:11\">Pes. 112ᵇ</cite> <he>מצוה וגוף גדול עושה פירות ולו שכר</he> (Ar. a. Ms. M. 2 a. O., ed. <cite ref=\"F00059\"><he>ולא</he></cite>) a charity and at the same time a good investment is the act of him who helps to produce fruits, while he has the reward (e.g. one who loans money to a husbandman on security, allowing payment in small instalments); <he>מצוה וג׳ טהור וכ׳</he> a religious act by which one preserves his body pure does he perform who marries a wife &c.—Pl. <he>גּוּפִין</he>, constr. <he>גּוּפֵי</he>. ",
+				"<cite ref=\"Bereishit Rabbah 31:14\">Gen. R. s. 31</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:7:2\">Y. Sabb. II, 5ᵇ</cite> bot. <he>ג׳ הלכות</he>; <cite ref=\"Tosefta Shabbat 2:10\">Tosef. ib. II, 10</cite> <he>ג׳ תורה</he> essential parts of the Law; <cite ref=\"Pirkei Avot 3:18\">Ab. III, 18</cite>; <cite ref=\"Mishnah Chagigah 1:8\">Ḥag. I, 8</cite> (<cite ref=\"Chagigah 10a:5\">10ᵃ</cite>); 11ᵇ"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>membrum</i>. ",
+			"units": ["<cite ref=\"Vayikra Rabbah 25:8\">Lev. R. s. 25</cite>, end."],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>surface, color</i> (cmp. <cite ref=\"C00335\"><he>גַּוָּון</he></cite>). ",
+			"units": [
+				"<cite ref=\"Menachot 44a:2\">Men. 44ᵃ</cite> top <he>גופו דומה וכ׳</he> its color resembles that of the Sea, contrad. to <he>ברייה</he> shape; Mass. Tsitsith ed. Kirchheim p. 23."
+			],
+			"label": "4"
+		}
+	]
+}

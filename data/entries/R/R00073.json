@@ -1,0 +1,25 @@
+{
+	"id": "R00073",
+	"slug": "צבת-3",
+	"headword": {
+		"text": "צֶבֶת"
+	},
+	"page": {
+		"number": 1260,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00072\">preced.</cite>) <i>couple, pair, set</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Avodah Zarah 3:8\">Tosef. Ab. Zar. III</cite> (<cite ref=\"Tosefta Avodah Zarah 4:8\">IV</cite>), 8 <he>בצ׳ הראשון</he> of the first pair (of T’fillin); <cite ref=\"Eruvin 97a:15\">Erub. 97ᵃ</cite>; a. e.—Pl. <he>צְבָתִים</he>. ",
+				"<cite ref=\"Mishnah Eruvin 10:1\">Ib. X, 1</cite> <he>מצאן צ׳</he> if he found the T’fillin arranged in sets; expl. ",
+				"<cite ref=\"Eruvin 97a:15\">ib. 97ᵃ</cite>, v. <cite ref=\"G00138\"><he>זָוָוא</he> I</cite>. ",
+				"<cite ref=\"Mishnah Menachot 10:9\">Men. X, 9</cite> (<cite ref=\"Menachot 71a:8\">71ᵃ</cite>) <he>מניחן צ׳</he> (Talm. ed. <he>צְבוּתִים</he>, v. Rabb. D. S. a. l. note 3; Ms. M. <cite ref=\"R00067\"><he>צבצין</he></cite>, corr. acc.) he puts the sheaves down in sets (without tying them). Tosef. Ab. Zar. l. c."
+			]
+		}
+	]
+}

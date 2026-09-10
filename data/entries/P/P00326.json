@@ -1,0 +1,40 @@
+{
+	"id": "P00326",
+	"slug": "עוק-1",
+	"headword": {
+		"text": "עוּק"
+	},
+	"page": {
+		"number": 1056,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H00439\"><he>חוּק</he></cite>)<i>to circle, round</i>.—Denom. <cite ref=\"P00651\"><he>עֲיָק</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P00190\"><he>עוּג</he></cite>) <i>to hollow out</i>.—Denom. <cite ref=\"P00331\"><he>עוּקָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to press</i>.—Denom. <cite ref=\"P01156\"><he>עָקָה</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵעִיק"],
+			"senses": [
+				{
+					"gloss": " (b. h.) <i>to press, make a rut</i> (in the ground).]",
+					"units": []
+				}
+			],
+			"stem": "[."
+		}
+	]
+}

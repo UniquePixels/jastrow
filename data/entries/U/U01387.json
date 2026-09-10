@@ -1,0 +1,114 @@
+{
+	"id": "U01387",
+	"slug": "שלש-2",
+	"headword": {
+		"text": "שָׁלַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁלֵּשׁ",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1588,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"U01386\"><he>שָׁלשׁ</he></cite>)<i>to do</i> or <i>come for the third time</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:9\">Num. R. s. 4<sup>20</sup></cite> <he>לא יצאת אותה שנה ולא שינתה ולא שִׁילְּשָׁה וכ׳</he> not that year passed, nor the second, nor the third, when &c., i.e. within three years these things occurred; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go back to the third generation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 10:7\">B. Bath. X, 7</cite> <he>יְשַׁלְּשׁוּ</he> they should write the grandfather’s name in the document."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to divide into three parts</i>. Ib. III, 4 <he>מְשַׁלְּשִׁין ביניהם</he> the fine is divided between them (the three sets of witnesses convicted of an alibi); <cite ref=\"Mishnah Makkot 1:3\">Macc. I, 3</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 1:3\">Ib.</cite> <he>משלשין בממון ואין מש׳ במכות</he> the monetary fine is divided, but not the punishment (but every one has to undergo the full punishment). ",
+				"<cite ref=\"Avodah Zarah 19b:1\">Ab. Zar. 19ᵇ</cite> <he>לעולם יְשַׁלִּשׁ אדם שנותיו שליש וכ׳</he> a man should always divide his years (his time) into three parts, devoting one third to Bible, one to Mishnah &c.; <cite ref=\"Kiddushin 30a:10\">Kidd. 30ᵃ</cite> <he>יַשְׁלִישׁ</he> (<i>Hif.</i>). ",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15<sup>27</sup></cite> <he>הריני מְשַׁלְּשָׁם</he> I will divide them among us three; a. fr.—<i>Part. pass.</i> <cite ref=\"M02831\"><he>מְשׁוּלָּשׁ</he></cite>; f. <he>מְשׁוּלֶּשֶׁת</he>; pl. <he>מְשׁוּלָּשִׁים</he>, <he>מְשׁוּלָּשִׁין</he>; <he>מְשׁוּלָּשׁוֹת</he> "
+			],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>done for the third time</i>. Ab. Zar. l. c., <he>כתוב … ומש׳ בכתובים</he> stated in the Torah, a second time in the Prophets, and a third time in Hagiographa; <cite ref=\"Megillah 31a:13\">Meg. 31ᵃ</cite>; a. fr.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>divided into three, arranged in three classes, threefold</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 2:30\">Deut. R. s. 2<sup>33</sup></cite> (ref. to <he>והשלשית</he>, <cite ref=\"Zechariah 13:8\">Zech. XIII, 8</cite>) <he>אלו ישראל אנקראו שלישין שהם מש׳ וכ׳</he> that means Israel, who are called ‘thirds’, for they are divided into three classes, priests &c. ",
+						"<cite ref=\"Midrash Mishlei 22:5\">Midr. Prov. to XXII, 20</cite> (ref. to <he>שלשים</he>, <cite ref=\"Midrash Mishlei 22:5\">ib.</cite>) <he>כל מעשי תורה מש׳ היא מש׳ ואותיותיה מש׳ … שבט מש׳ וכ׳</he> all affairs of the Torah are threefold; itself is threefold: Torah, Prophets, and Hagiographa, and its signs are threefold: <cite ref=\"A02072\"><he>אמת</he></cite> (Truth); and it was given through a tribe third in order: Reuben, Shimeon, and Levi; <he>משה מש׳</he> Moses the third born &c. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:1:10\">Cant. R. to I, 1</cite> <he>כל מעשיו … מש׳ היו</he> all the events of that man’s (Solomon’s) life were marked by three stages (rise, fall, and rise).—",
+						"<cite ref=\"Mishnah Bava Batra 10:7\">B. Bath. X, 7</cite> <he>ואם היו מש׳</he> and if the names are alike up to the grandfather (v. supra); a. fr.—",
+						"<cite ref=\"Jerusalem Talmud Sheviit 1:5:5\">Y. Shebi. I, 33ᵇ</cite>, v. <cite ref=\"M02831\"><he>מְשׁוּלָּשׁ</he></cite>.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>developed to one third of the full growth</i>, v. <cite ref=\"M02831\"><he>מְשׁוּלָּשׁ</he></cite>.",
+					"units": [],
+					"label": "c"
+				}
+			]
+		},
+		{
+			"gloss": " (apocop. of <cite ref=\"U01396\"><he>שִׁלְשֵׁל</he></cite>) <i>to let down</i>, v. <cite ref=\"U01398\"><he>שִׁלְשֵׁל</he> I</cite>.",
+			"units": [],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁלִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to divide into three parts</i>. Kidd. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 42a:3\">B. Mets. 42ᵃ</cite> <he>לעולם יַשְׁלִישׁ … שליש וכ׳</he> a man should always have his capital divided into three parts, one-third invested in land, one in merchandise, and one in ready money; <cite ref=\"Yalkut Shimoni on Torah 897:12\">Yalk. Deut. 897</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"U01335\"><he>שָׁלִישׁ</he></cite>) <i>to deposit</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 6:7\">Keth. VI, 7</cite> <he>המַשְׁלִישׁ מעות לבתו … מה שׁהוּשְׁלַשׁ בידו</he> if a father deposits money for the benefit of his daughter, and she says, I trust my husband (and want it to be given to him), the trustee must do that with it for which it was deposited with him; <cite ref=\"Ketubot 69b:5-6\">ib. 69ᵇ</cite> <he>המשליש … לחתנו וכ׳</he> if one deposits money with his son-in-law to buy with it &c.; <cite ref=\"Tosefta Ketubot 6:9\">Tosef. ib. VI, 9</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּשְׁלַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be deposited</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִשְׁתַּלֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to have been at a thing for the third time</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9:48\">Num. R. s. 9</cite>, v. <cite ref=\"M00556\"><he>מוּעָד</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

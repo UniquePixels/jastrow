@@ -1,0 +1,27 @@
+{
+	"id": "A02830",
+	"slug": "אפרכסת",
+	"headword": {
+		"text": "אֲפַרְכֶסֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲפַרְכֵס"
+		}
+	],
+	"page": {
+		"number": 109,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01864\"><he>פרכס</he></cite> q. v.) [the grinder, moving to and back,] <i>the hopper, grain-receiver</i> on top of the millstone. ",
+			"units": [
+				"<cite ref=\"Chagigah 3a\">Ḥag. 3ᵃ</cite>; <cite ref=\"Chullin 89a:5\">Ḥull. 89ᵃ</cite> <he>עשה אזנך כאפ׳</he> (ed. <he>כארפ׳</he>) make thy ear like the hopper to receive the teachings &c.; <cite ref=\"Jerusalem Talmud Kiddushin 1:9:3\">Y. Kidd. I, end, 61ᵈ</cite> <he>נקב אזנך כאפרכס הזו</he> perforate (make open) thy ear &c.; <cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> <he>הרעישה אזנך וכ׳</he> shake thy ear, like a hopper, to receive &c."
+			]
+		}
+	]
+}

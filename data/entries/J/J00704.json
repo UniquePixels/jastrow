@@ -1,0 +1,36 @@
+{
+	"id": "J00704",
+	"slug": "ישר-2",
+	"headword": {
+		"text": "יְשַׁר"
+	},
+	"page": {
+		"number": 601,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00703\">same</cite>.Targ. II Esth. VII, 9 <he>יִישַׁר חילך</he> (Var. <he>יִשַּׁר</he>). [<cite ref=\"Shir HaShirim Rabbah 1:4\">Cant. R. to I, 4</cite> <he>ישריין</he>, v. next w.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְיַשַּׁר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְיְשַׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to be strengthened</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 10:2\">Targ. Y. Deut. X, 2</cite>, v. <cite ref=\"A03349\"><he>אֲשַׁר</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

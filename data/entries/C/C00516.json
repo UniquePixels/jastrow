@@ -1,0 +1,31 @@
+{
+	"id": "C00516",
+	"slug": "גזא-2",
+	"headword": {
+		"text": "גִּזָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּזָּא"
+		}
+	],
+	"page": {
+		"number": 228,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"C01123\"><he>גנזא</he></cite>; <he>גנז</he>; fr. which γάζα) <i>treasure, collection</i>. <he>בי ג׳־</he> <i>treasury</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 63a\">Sabb. 63ᵃ</cite> <he>ומשתכחא בי ג׳ וכ׳</he> Ms. M. a. Ar. (ed. <he>בְּגַזָּאֵי</he>) it is found in the treasury (among the collections) of queen &c. ",
+				"<cite ref=\"Yoma 51a\">Yoma 51ᵃ</cite> <he>בי ג׳ דאהרן</he> Aaron’s (the Highpriest’s) fund. ",
+				"<cite ref=\"Horayot 9a:3\">Hor. 9ᵃ</cite> <he>דיליך או דג׳</he> (Ms. M. <he>דידיך דג׳</he>, insert <cite ref=\"A00516\"><he>או</he></cite>, v. Rabb. D. S. a. l. note) from thy (the Highpriest’s) private money or from the fund?—",
+				"<cite ref=\"Meilah 17b\">Meïl. 17ᵇ</cite> <he>עולו לבי ג׳</he> Ar. (ed. <he>עיילינהו לגניזה</he>) go ye into the treasury (he took them to &c.). ",
+				"<cite ref=\"Chullin 139a:18\">Ḥull. 139ᵃ</cite> wherever the vowed sacrifice stands, <he>בבי ג׳ דרחמנא וכ׳</he> it is in the Lord’s treasury (it is to be considered as if its delivery had taken place).—[<he>גִּזָּא</he> <cite ref=\"Berakhot 40a\">Ber. 40ᵃ</cite>; <cite ref=\"Berakhot 40b\">40ᵇ</cite> Ar., v. <cite ref=\"C00328\"><he>גַּוָּוזָא</he> I</cite>.]"
+			]
+		}
+	]
+}

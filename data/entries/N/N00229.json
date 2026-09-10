@@ -1,0 +1,23 @@
+{
+	"id": "N00229",
+	"slug": "נדל-1",
+	"headword": {
+		"text": "נָדָל"
+	},
+	"page": {
+		"number": 879,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. Syr. <he>נדנדא</he>, <he>דנדלא</he>, P. Sm. 2290, 925) <i>polyp, centipede</i>. Sifra Sh’mini, Par. 10, ch. XII, expl. <he>מרבה רגלים</he> (<cite ref=\"Leviticus 11:42\">Lev. XI, 42</cite>); <cite ref=\"Chullin 67b:14\">Ḥull. 67ᵇ</cite>.—",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 5:3\">Mikv. V, 3</cite> <he>מעין שהוא משוך כנ׳</he> a well the waters of which are conducted in channels radiating like the feet of a centipede. ",
+				"<cite ref=\"Eruvin 8b\">Erub. 8ᵇ</cite>, v. <cite ref=\"M00078\"><he>מָבוֹי</he></cite>."
+			]
+		}
+	]
+}

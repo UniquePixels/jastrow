@@ -1,0 +1,39 @@
+{
+	"id": "I00593",
+	"slug": "טסקא",
+	"headword": {
+		"text": "טַסְקָא"
+	},
+	"page": {
+		"number": 542,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. Freit. Arab. Dict. s. v. task) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a basket</i>, as <i>a measure</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 78a:11\">Gitt. 78ᵃ</cite> <he>לאיתויי ט׳ דאכלא בה וכ׳</he> (Tosaf. to <cite ref=\"Avodah Zarah 14b\">Ab. Zar. 14ᵇ</cite> quotes … <he>ביה</he>) to include the measure in which she measures (or eats) figs (destined) for her particular use. ",
+				"<cite ref=\"Megillah 7b:3\">Meg. 7ᵇ</cite> <he>מלא ט׳ וכ׳</he> (Ms. O. <cite ref=\"I00405\"><he>טיסקא</he></cite>, v. Rabb. D. S. a. l., Var. <he>צנא</he>) a <i>taska</i> full of &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a Persian <i>land-tax</i> (a certain measure for each certain quantity of produces). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 73b:6\">B. Mets. 73ᵇ</cite> <he>ארעא לט׳ וכ׳</he> the land is pledged to the <i>taska</i>, and the king has decreed that he who pays the <i>taska</i> shall have the usufruct of the land; <cite ref=\"Bava Batra 54b:4\">B. Bath. 54ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 110a:9\">B. Mets. 110ᵃ</cite> <he>תקינו … יהיב ט׳</he> the Rabbis have given him a remedy in hand in ordering that the mortgagee shall pay the taxes (and thus secure his ownership against the mortgager’s eventual claims). ",
+				"<cite ref=\"Gittin 58b:10\">Gitt. 58ᵇ</cite> <he>קביל ארעא בט׳</he> rented a piece of land for the taxes on it; <cite ref=\"Nedarim 46b\">Ned. 46ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 55a:6\">B. Bath. 55ᵃ</cite>, v. <cite ref=\"G00296\"><he>זִיהֲרוֹרָא</he></cite>.—",
+				"<cite ref=\"Kiddushin 70b:2\">Kidd. 70ᵇ</cite>, v. <cite ref=\"D00939\"><he>דַּסְקָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "O00077",
+	"slug": "סבני",
+	"headword": {
+		"text": "סִבְנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּבְ׳"
+		},
+		{
+			"text": "סִיבְ׳"
+		}
+	],
+	"page": {
+		"number": 951,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. Arab. <i>sabanu</i>, nomen oppidi … a quo panni nomen acceperunt (Freytag); cmp. σάβανον, sabanum) <i>a cloth</i>, esp. <i>a head-cover which fell down over the shoulders, sibni</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:8\">Y. Sabb. VI, 8ᵃ</cite> bot. <he>כריך סִבְנֵיה עליהון</he> (ed. Zyt. <cite ref=\"O00044\"><he>סבונה</he></cite>, corr. acc.) he tied his <i>sibni</i> around them; <cite ref=\"Jerusalem Talmud Yevamot 12:2:5\">Y. Yeb. XII, 12ᵈ</cite> top <cite ref=\"O00076\"><he>סִבְנֵה</he></cite>. ",
+				"<cite ref=\"Gittin 59a:17\">Gitt. 59ᵃ</cite> <he>סי׳</he> (Ar. <cite ref=\"O00393\"><he>סוּ׳</he></cite>), v. <cite ref=\"H00379\"><he>חוֹמֶס</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:14:3\">Cant. R. to V, 14</cite> <he>אפי׳ סבניה לא הוה יכיל למיסבל וכ׳</he> (he became so weak from studying that) he could not even carry his sibni (in his hand), but others had to take it off for him; v. next w.—Pl. <cite ref=\"O00077\"><he>סִבְנִין</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 19:6\">Gen. R. s. 19</cite> <cite ref=\"O00930\"><he>סכנין</he></cite> (corr. acc.) <i>a female head-cover</i>, corresp. to <he>סדינין</he> for males."
+			]
+		}
+	]
+}

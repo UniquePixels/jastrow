@@ -1,0 +1,40 @@
+{
+	"id": "Q01668",
+	"slug": "פרוטוגמיא",
+	"headword": {
+		"text": "פְּרוֹטוֹגַמְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרוֹטֹגַ׳"
+		}
+	],
+	"page": {
+		"number": 1219,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (πρωτογάμια, cmp. πρωτόγαμος) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>being just married</i>. <he>שבת של פ׳</he> <i>the first Sabbath after a wedding</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 4:1:6\">Y. Dem. IV, 24ᵃ</cite> top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (by confusion with προγάμια) <i>sacrifice before the wedding</i>, in gen. <i>wedding preliminaries</i>; trnsf. <i>preliminary events</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 14\">Midr. Till. to Ps. XIV</cite>, end <he>וקבעו פ׳ ביום פלני</he> (not <he>פרוסט׳</he>) and they appointed a certain day for the <i>progamia</i>; <he>ומי מעכב פ׳</he> and what is the cause of the delay (of the wedding)? The <i>progamia</i>; Yalk. ib. 663 <cite ref=\"Q01662\"><he>פרוזטוגמא</he></cite> (corr. acc.). ",
+				"<cite ref=\"Vayikra Rabbah 11\">Lev. R. s. 11</cite>, beg. (ref. to <cite ref=\"Ezekiel 39:9\">Ez. XXXIX, 9</cite>) <he>ואותן שבע שנים הן הן פ׳</he> (not <he>פרטגמיא</he>) and these seven years (preceding the advent of the Messiah) are the <i>progamia</i> of the righteous in the days to come; <he>וסימנך דעביד פ׳ אכיל משתותא</he> and thy mnemonical sign be, he who prepares (takes part in) the <i>progamia</i> will have a share in the wedding festival; <cite ref=\"Yalkut Shimoni on Nach 944:1\">Yalk. Prov. 944</cite> <cite ref=\"Q01673\"><he>פרוטיגמא</he></cite> (corr. acc.); <he>דאכל פ׳ וכ׳</he> he who eats of the <i>progamia</i> &c.; <cite ref=\"Jerusalem Talmud Sheviit 4:8:4\">Y. Shebi. IV, end, 35ᶜ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

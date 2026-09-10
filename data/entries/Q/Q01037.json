@@ -1,0 +1,82 @@
+{
+	"id": "Q01037",
+	"slug": "פלי-4",
+	"headword": {
+		"text": "פְּלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּלָא"
+		}
+	],
+	"page": {
+		"number": 1181,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (v. <cite ref=\"Q01036\">preced.</cite> wds.) <i>to split, cut open</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 160b:13\">B. Bath. 160ᵇ</cite>; <cite ref=\"Bava Batra 164b:13\">164ᵇ</cite> <he>פּלְיֵיה וחזייה</he> he ripped open the tied-up document and saw it (that the signature was in the folds). ",
+				"<cite ref=\"Chullin 11a:7\">Ḥull. 11ᵃ</cite> <he>דילמא דפ׳ ליה וכ׳</he> may it not be that he (the priest) opened the skull and examined it? <cite ref=\"Yoma 87a:16\">Yoma 87ᵃ</cite> <he>הוה יתיב וקא פָלֵי רישא</he> was sitting and chopping (an animal’s) head. ",
+				"<cite ref=\"Sanhedrin 108b:19\">Snh. 108ᵇ</cite> <he>קא פָאלֵי וכ׳</he> was opening pomegranates; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּלֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to search</i> (garments). Y. M. Kat. III, 82ᵃ top <he>מְפַלֵּא מאנוי</he> searching his garments.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to search after, glean; to remove</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 24:20\">Targ. O. Deut. XXIV, 20</cite> (h. text <he>תפאר</he>). ",
+						"<cite ref=\"Onkelos Deuteronomy 26:13\">Ib. XXVI, 13</cite> (h. text <he>בערתי</he>). ",
+						"<cite ref=\"Targum Jonathan on I Kings 16:3\">Targ. I Kings XVI, 3</cite>. ",
+						"<cite ref=\"Targum Jonathan on Zephaniah 3:15\">Targ. Zeph. III, 15</cite> (h. text <he>פנה</he>); a. fr.—[<cite ref=\"Targum Jonathan on I Samuel 2:25\">Targ. I Sam. II, 25</cite>, v. infra.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to do strange, wonderful things; to go to the extreme of</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 9:5\">Targ. Is. IX, 5</cite> <he>מַפְלֵי</he> ed. Lag. (ed. Wil. <he>מַפְלְיָא</he>; oth. ed. <he>מַפְלִיא</he> Hebraism).—",
+						"<cite ref=\"Avodah Zarah 44a:5\">Ab. Zar. 44ᵃ</cite> <he>מַפְלְיָא</he>, v. <cite ref=\"L00518\"><he>לֵיצָנוּתָא</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to decide, arbitrate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 2:25\">Targ. I Sam. II, 25</cite> (Bxt. <he>וִיפַלֵּי</he>, <i>Pa.</i>; h. text <he>פלל</he>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>; cmp. ",
+					"units": [
+						"<cite ref=\"Isaiah 29:14\">Is. XXIX, 14</cite>) <i>to mystify, perplex, outwit, fool</i>. ",
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 8) <he>חד … והוה מַפְלֵי … סגי</he> an Athenian used to come to Jerusalem and outwit the Jerusalemites frequently. ",
+						"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>מכאן ולהבא לא תַפְלֵי וכ׳</he> henceforth thou shalt not again attempt to outwit &c. ",
+						"<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite>, v. <cite ref=\"M02653\"><he>מְרֵי</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite> <he>למה אַפְלְיַית בי</he> why didst thou mystify (deceive) me?; <he>לא אַפְלְיִית בך</he> I did not deceive thee; <cite ref=\"Kohelet Rabbah 7:11:1\">Koh. R. to VII, 11</cite> <he>אַפְלְיַת</he>, <he>אַפְלִית</he>; Y. Naz. V, end, 54ᵇ <he>אַפְלֵיתָה</he>, <he>אַפְלֵיתִי</he>; Y. Ber. VII, 11ᵇ bot.; <cite ref=\"Yalkut Shimoni on Torah 148\">Yalk. Gen. 148</cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 62:14\">Ib. 62</cite> <he>מה את מַפְלֵי בי</he> (<cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite> <he>מה את מַפְלֶה בי</he>) why wilt thou fool me? Y. Shebi. IX, 38ᵈ, v. <cite ref=\"L00400\"><he>לֵי</he></cite>; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

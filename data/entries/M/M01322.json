@@ -1,0 +1,35 @@
+{
+	"id": "M01322",
+	"slug": "מית-2",
+	"headword": {
+		"text": "מִית",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵיתָא"
+		},
+		{
+			"text": "מֵתָא",
+			"homograph": 1
+		},
+		{
+			"text": "מִיתָא"
+		}
+	],
+	"page": {
+		"number": 780,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"M01321\">preced.</cite>) <i>dead; corpse</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 14:1\">Targ. Deut. XIV, 1</cite>. ",
+				"<cite ref=\"Onkelos Numbers 19:11\">Targ. O. Num. XIX, 11</cite> (ed. Amst. <cite ref=\"M03003\"><he>מֵתָא</he></cite>); a. fr.—Y. Bicc. III, 65ᵇ <he>דקיימין מן קומי מ׳</he> who rise before the dead (being carried to burial); a. fr.—Pl. <he>מֵיתַיָּא</he>, <he>מֵתַיָּא</he>. ",
+				"<cite ref=\"Onkelos Numbers 17:13\">Targ. Num. XVII, 13</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:19\">Y. Kidd. I, 61ᶜ</cite> bot. <he>כד הוויין קיימן על מ׳</he> (not <he>קיימין</he>) when they stand by the dead (lamenting); a. e."
+			]
+		}
+	]
+}

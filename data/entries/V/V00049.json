@@ -1,0 +1,23 @@
+{
+	"id": "V00049",
+	"slug": "תבירותא",
+	"headword": {
+		"text": "תְּבִירוּתָא"
+	},
+	"page": {
+		"number": 1644,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00048\">preced.</cite>) <i>breaking</i>; <he>תְּבִירוּת רוחא</he> breaking of the spirit, <i>disappointment</i>; <he>ת׳ ליבא</he> breaking of the heart, <i>grief</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:14\">Targ. Koh. I, 14</cite>; <cite ref=\"Aramaic Targum to Ecclesiastes 4:6\">IV, 6</cite> (h. text <he>רעות</he>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:65\">Targ. Lam. III, 65</cite> (h. text <cite ref=\"M00198\"><he>מגנת</he></cite>)."
+			]
+		}
+	]
+}

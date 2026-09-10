@@ -1,0 +1,44 @@
+{
+	"id": "U01016",
+	"slug": "שיפולא",
+	"headword": {
+		"text": "שִׁיפּוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁפּ׳"
+		}
+	],
+	"page": {
+		"number": 1566,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01015\">same</cite><i>extremity, bottom, train</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:4\">Targ. Cant. I, 4</cite> <he>בש׳ דטורא</he> at the foot of the mountain.—Pl. <cite ref=\"U01014\"><he>שִׁיפּוּלִין</he></cite>, <cite ref=\"U01015\"><he>שִׁיפּוּלֵי</he></cite>, <cite ref=\"U01011\"><he>שִׁפּ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 19:17\">Targ. O. Ex. XIX, 17</cite> (ed. Vien. <he>שִׁפּוֹ׳</he>; h. text <cite ref=\"V00397\"><he>תחתית</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 5:17\">Targ. Y. Num. V, 17</cite> (O. <he>יסודי</he>; h. text <cite ref=\"S02174\"><he>קרקע</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:9\">Targ. Lam. I, 9</cite>. ",
+				"<cite ref=\"Onkelos Exodus 28:33\">Targ. Ex. XXVIII, 33</cite> (O. ed. Vien. <he>שִׁיפּוֹ׳</he>); a. fr.—",
+				"<cite ref=\"Sanhedrin 102b:4\">Snh. 102ᵇ</cite> <he>הוה נקיטת בש׳ גלימא וכ׳</he> Ms. M. (ed. <he>הות נקיטנא</he>, read <he>נקיט</he>; Rashi <he>הות נקיט ש׳ ג׳</he>; Ar. only <cite ref=\"U01016\"><he>שיפולא</he></cite>, v. Rabb. D. S. a. l. note 3) thou wouldst have taken up the trail of thy cloak and run after me."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the seat of a tree in the ground</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 37b\">B. Bath. 37ᵇ</cite>; <cite ref=\"Arakhin 14b:31\">Arakh. 14ᵇ</cite>, v. <cite ref=\"U01009\"><he>שִׁיפּוּדָא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>moving downwards</i> (sailing with the wind). ",
+			"units": [
+				"<cite ref=\"Bava Batra 73b:6\">B. Bath. 73ᵇ</cite>, v. <cite ref=\"U01031\"><he>שֵׁיצָא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "V00632",
+	"slug": "תלתותא-1",
+	"headword": {
+		"text": "תַּלְתּוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּלְת׳"
+		},
+		{
+			"text": "תִּלְ׳"
+		},
+		{
+			"text": "תִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 1674,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <cite ref=\"V00631\"><he>תַּלְתּוּת</he></cite>, <cite ref=\"V00632\"><he>תַּלְת׳</he></cite>, <cite ref=\"V00632\"><he>תִּלְ׳</he></cite>, <cite ref=\"V00627\"><he>תִּילְ׳</he></cite> = <cite ref=\"V00627\"><he>תִּלְתָּא</he></cite> 1, <i>a third part</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 15:6\">Targ. Num. XV, 6</cite>, sq. ",
+				"<cite ref=\"Onkelos Numbers 28:14\">Ib. XXVIII, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 46:14\">Targ. Ez. XLVI, 14</cite>; a. e.—Pl. <he>תַּלְתּוּתִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:5:2\">Y. Erub. II, 20ᵇ</cite>, v. <cite ref=\"V00517\"><he>תִּישּׁוּעַ</he></cite>."
+			]
+		}
+	]
+}

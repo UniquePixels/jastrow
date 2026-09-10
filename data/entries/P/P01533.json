@@ -1,0 +1,43 @@
+{
+	"id": "P01533",
+	"slug": "עתיק-2",
+	"headword": {
+		"text": "עַתִּיק",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עַתִּיקָא",
+			"homograph": 1
+		},
+		{
+			"text": "עַתִּיקָא"
+		},
+		{
+			"text": "עַתִּיקְתָּא"
+		}
+	],
+	"page": {
+		"number": 1129,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (<cite ref=\"P01532\">preced.</cite>) <i>enduring, strong, old</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 6:3\">Targ. Num. VI, 3</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:11\">Targ. O. Lev. XIII, 11</cite> (Y. <cite ref=\"P01535\"><he>עתיקותא</he></cite>, read: <cite ref=\"P01533\"><he>עַתִּיקְתָּא</he></cite>); a. fr.—",
+				"<cite ref=\"Pesachim 119a:2\">Pes. 119ᵃ</cite> (ref. to <he>ולמכסה עתיק</he>, <cite ref=\"Isaiah 23:18\">Is. XXIII, 18</cite>) <he>דברים שכיסה ע׳ יומין</he> the things which the Ancient of days (<cite ref=\"Daniel 7:22\">Dan. VII, 22</cite>) has hidden. ",
+				"<cite ref=\"Bava Batra 91b:17\">B. Bath. 91ᵇ</cite> (ref. to <cite ref=\"I Chronicles 4:22\">I Chr. IV, 22</cite>, v. <cite ref=\"P01532\">preced.</cite>) <he>דברים הללו ע׳ יומיא אמרן</he> the Ancient of days has said these things; <cite ref=\"Yalkut Shimoni on Nach 600:1\">Yalk. Ruth 600</cite>. ",
+				"<cite ref=\"Bava Kamma 96b:9\">B. Kam. 96ᵇ</cite> <he>גזלנא ע׳</he> an inveterate robber. ",
+				"<cite ref=\"Pesachim 42b:1\">Pes. 42ᵇ</cite> (expl. <he>יין ישן</he>) <he>ע׳ עַתִּיקֵי</he> very old wine. ",
+				"<cite ref=\"Yoma 29a:2\">Yoma 29ᵃ</cite> <he>מיגמר בע׳ וכ׳</he>, v. <cite ref=\"C01064\"><he>גְּמַר</he> II</cite>; a. e.—[<cite ref=\"Bava Batra 91b:17\">B. Bath. 91ᵇ</cite> bot., v. <cite ref=\"P00383\"><he>עוּתְקָא</he></cite>.]—Pl. <he>עַתִּיקִין</he>, <he>עַתִּיקַיָּא</he>, <he>עַתִּיקֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 8:2\">Targ. I Kings VIII, 2</cite> (h. text <he>האתנים</he>).—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 2:1:3\">Y. Shek. II, beg. 46ᶜ</cite> <he>תקלין ע׳</he> old Shekels. Pes. l. c., v. supra; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "P00249",
+	"slug": "עולבן",
+	"headword": {
+		"text": "עוּלְבַּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּלְבָּנָא"
+		}
+	],
+	"page": {
+		"number": 1051,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00766\"><he>עֲלַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"P00767\"><he>עֶלְבּוֹן</he></cite>, <i>humiliation, insult</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zephaniah 3:12\">Targ. Zeph. III, 12</cite> <he>מקבל ע׳</he> submitting to humiliation (h. text <cite ref=\"D00797\"><he>דל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 3:16\">Targ. Y. Ex. III, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 34:8\">Targ. Is. XXXIV, 8</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>assumption of superiority, arrogance</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 36b:11\">Gitt. 36ᵇ</cite> <he>הא פרוסבלא ע׳ דרייני הוא</he> that institution of Prosbol (v. <cite ref=\"Q01703\"><he>פְּרוֹסְבּוֹל</he></cite>) is an <i>ʿulbana</i> of the judges. ",
+				"<cite ref=\"Gittin 36b:11\">Ib.</cite> <he>האי ע׳ לישנא דחוצפא הוא או לישנא דניחותא הוא</he> this <i>‘ulbana</i>, does it mean assumption of power, or does it mean submission (i.e. submission to a law which they at heart disapprove)? [Rashi explains <cite ref=\"N00651\"><he>ניחותא</he></cite> <i>convenience</i>, i.e. an assumption of authority not from arrogance but from a desire to relieve the judges from overwork]."
+			],
+			"label": "2"
+		}
+	]
+}

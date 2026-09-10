@@ -1,0 +1,36 @@
+{
+	"id": "S00163",
+	"slug": "קדמתא-2",
+	"headword": {
+		"text": "קַדְמְתָא"
+	},
+	"page": {
+		"number": 1317,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00162\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>past time</i>; only in <he>מן קַדְמַת דנא</he>, or <he>מִלְּקַ׳</he> <i>before this</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 28:19\">Targ. Y. Gen. XXVIII, 19</cite> (O. <he>בקדמיתא</he>, ed. Berl. <he>מלקדמין</he>; h. text <he>לראשונה</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 38:17\">Targ. Ez. XXXVIII, 17</cite>; a. e.—",
+				"<cite ref=\"Taanit 12a\">Taan. 12ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>early morning</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 30b\">B. Mets. 30ᵇ</cite>.—[<cite ref=\"Yalkut Shimoni on Torah 392:5\">Yalk. Ex. 392</cite> <he>קדמתכון</he>, v. <cite ref=\"S00159\"><he>קדְמוּתָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

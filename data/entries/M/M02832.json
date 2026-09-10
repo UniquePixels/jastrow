@@ -1,0 +1,24 @@
+{
+	"id": "M02832",
+	"slug": "משומד",
+	"headword": {
+		"text": "מְשׁוּמָּד"
+	},
+	"page": {
+		"number": 850,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01419\"><he>שָׁמַד</he></cite>) <i>one deserving extinction</i>; (interch. in edd. a. mss. with <cite ref=\"M00525\"><he>מוּמָר</he></cite> q. v.) <i>open opponent to Jewish law, apostate</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:7:2\">Y. Snh. X, end, 29ᵈ</cite> <he>משום קדשי מ׳</he> it comes under the category of dedicated sacrifices of an apostate (which cannot be offered, but are forbidden for private use). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:7:2\">Y. Pes. VII, 34ᶜ</cite> bot. <he>המ׳ בהורייה</he> a heretic inasmuch as he opposes the decisions of the Supreme Court (v. <cite ref=\"M01680\"><he>מַמְרֵא</he> II</cite>). Y. Hor. III, 48ᵇ bot. <he>גר ומ׳ מ׳ קודם</he> if a proselyte and a (penitent) apostate ask for charity, the apostate has the preference; a. fr.—[<cite ref=\"Jerusalem Talmud Sanhedrin 3:5:8\">Y. Snh. III, 21ᵇ</cite> top <he>חד מ׳</he>, v. <cite ref=\"E00020\"><he>הָאַסְטוּ</he></cite>.]—Pl. <he>מְשׁוּמָּדִים</he>. ",
+				"<cite ref=\"Rosh Hashanah 17a\">R. Hash. 17ᵃ</cite> Ms. M. (missing in ed.). Sifra Vayikra, N’dab., ch. II, Par. 2; a. e."
+			]
+		}
+	]
+}

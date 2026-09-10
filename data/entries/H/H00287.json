@@ -1,0 +1,22 @@
+{
+	"id": "H00287",
+	"slug": "חוזי",
+	"headword": {
+		"text": "חוֹזִי"
+	},
+	"page": {
+		"number": 430,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00525\"><he>חָזָה</he></cite>; formed like <cite ref=\"H00346\"><he>חוֹלִי</he></cite>) <i>aspect, nature</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 15:12\">Tosef. Ohol. XV, 12</cite> <he>איני יודע חוֹזְיוֹ</he> … <he>מהו וכ׳</he> I do not know the nature of the case, but (I do know) that &c."
+			]
+		}
+	]
+}

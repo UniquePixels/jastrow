@@ -1,0 +1,29 @@
+{
+	"id": "M02567",
+	"slug": "מרוא-2",
+	"headword": {
+		"text": "מָרְוָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָרְוָוא"
+		}
+	],
+	"page": {
+		"number": 838,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M02479\"><he>מַר</he> IV</cite>) <i>power, dominion; tyranny</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Nahum 3:14\">Targ. Nah. III, 14</cite> <he>אסגי מ׳ וכ׳</he> increase the yoke of tyranny and force them &c. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:20\">Targ. Is. XXVIII, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 47:2\">Ib. XLVII, 2</cite> Regia (ed. <cite ref=\"M02600\"><he>מְרוֹעָא</he></cite>).—V. <cite ref=\"M02613\"><he>מָרוּתָא</he></cite>."
+			]
+		}
+	]
+}

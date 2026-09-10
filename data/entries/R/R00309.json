@@ -1,0 +1,35 @@
+{
+	"id": "R00309",
+	"slug": "צידא-2",
+	"headword": {
+		"text": "צֵידָא"
+	},
+	"page": {
+		"number": 1274,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00161\"><he>צוּד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hunting, ensnaring</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:30\">Targ. Gen. XXVII, 30</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 10:9\">Targ. Y. I ib. X, 9</cite> (Y. II <cite ref=\"R00336\"><he>צַיְידָּא</he></cite> a. <cite ref=\"R00104\"><he>צַדְיָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>game</i>. Targ. ib. XXVII, 3 (O. ed. Amst. <cite ref=\"R00308\"><he>צִידָא</he></cite>). Ib. 5 (Y. ed. Amst. <cite ref=\"R00310\"><he>צֵידָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 17:13\">Targ. Lev. XVII, 13</cite> (Y. ed. Amst. <cite ref=\"R00080\"><he>צֵדָא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

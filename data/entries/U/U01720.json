@@ -1,0 +1,28 @@
+{
+	"id": "U01720",
+	"slug": "שפוך",
+	"headword": {
+		"text": "שָׁפוֹךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁפוֹכָא"
+		}
+	],
+	"page": {
+		"number": 1614,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01765\"><he>שְׁפַךְ</he></cite>) <i>gutter, slope, spout</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 21:15\">Targ. O. Num. XXI, 15</cite> <he>שָׁ׳ לנחליא</he> ed. Berl. (oth. ed. <he>שָׁפוּךְ נחל׳</he>, read: <cite ref=\"U01720\"><he>שְׁפוּךְ</he></cite>; Ms. <cite ref=\"U01720\"><he>שְׁפוּךְ</he></cite>, <cite ref=\"U01747\"><he>שְׁפִיךְ</he></cite>; h. text <cite ref=\"A03262\"><he>אשד</he></cite>).—",
+				"<cite ref=\"Bava Batra 3b\">B. Bath. 3ᵇ</cite> Ar. ed. Koh., v. <cite ref=\"U01766\"><he>שָׁפְכָא</he></cite>.—V. <cite ref=\"U01769\"><he>שִׁפְכוּתָא</he></cite>."
+			]
+		}
+	]
+}

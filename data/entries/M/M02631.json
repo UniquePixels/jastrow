@@ -1,0 +1,32 @@
+{
+	"id": "M02631",
+	"slug": "מרח-2",
+	"headword": {
+		"text": "מְרַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 841,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"M02630\"><he>מַרַח</he></cite> same, <i>to strike off the pile, finish</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 11b:2\">Bekh. 11ᵇ</cite> <he>דמַרְחִינְהוּ מאן</he> who, do you mean, finished the pile?"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

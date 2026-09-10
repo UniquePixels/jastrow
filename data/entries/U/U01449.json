@@ -1,0 +1,36 @@
+{
+	"id": "U01449",
+	"slug": "שמח-1",
+	"headword": {
+		"text": "שָׂמַח"
+	},
+	"page": {
+		"number": 1593,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be merry, rejoice</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 13b:15\">Meg. 13ᵇ</cite> <he>ש׳ שמחה גדולה</he> he rejoiced exceedingly. ",
+				"<cite ref=\"Moed Katan 18b:16\">M. Kat. 18ᵇ</cite> <he>ראה … וש׳</he> he saw others do wrong and rejoiced over it; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׂימֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to make glad, cheer</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 10b:2\">B. Bath. 10ᵇ</cite> <he>יְשַׂמֵּחַ את אשתו בדבר מצוה</he> Ms. M. (v. Rabb. D. S. a. l.) let him make his wife cheerful by means of a good deed. ",
+						"<cite ref=\"Rosh Hashanah 6b:16\">R. Hash. 6ᵇ</cite> <he>אשה בעלה מְשַׂמְּחָהּ</he> as to a woman’s festive joy, her husband must rejoice her (with dresses &c.); <cite ref=\"Kiddushin 34b\">Kidd. 34ᵇ</cite>. ",
+						"<cite ref=\"Pesachim 109a:3\">Pes. 109ᵃ</cite> <he>חייב אדם לְשַׂמֵּחַ וכ׳</he> man is bound to gladden his children and the members of his household on the festival; <he>במה מְשַׂמְּחָם</he> wherewith should he gladden them? <cite ref=\"Ketubot 8a:4\">Keth. 8ᵃ</cite> (in marriage benedictions) <he>מְשַׂמֵּחַ ציון בבניה</he> who gladdens Zion through (restoring to her) her children; <he>משמח חתן וכלה</he> who gladdens bridegroom and bride; <he>מש׳ חתן עם הכלה</he> who gladdens the bridegroom with the bride; <he>שַׂמֵּח תְּשַׂמַּח … כשַׂמֵּחֲךָ וכ׳</he> mayest thou gladden the beloved friends, as thou didst gladden thy creature (Adam) &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

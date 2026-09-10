@@ -1,0 +1,85 @@
+{
+	"id": "P00393",
+	"slug": "עזב-1",
+	"headword": {
+		"text": "עָזַב"
+	},
+	"page": {
+		"number": 1060,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to cut off</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to relieve an animal broken down under its load</i> (v. <cite ref=\"Q01980\"><he>פָּרַק</he></cite>), <i>help to unload</i>. Mekh. Mishp. s. 20 (ref. to <cite ref=\"Exodus 23:5\">Ex. XXIII, 5</cite>) <he>פעמים שאתה חדל ופעמים שאתה עוֹזֵב</he> at times you may abstain, at times you must help. ",
+			"units": [
+				"<cite ref=\"Exodus 23:5\">Ib.</cite> <he>פריקה מנין ת״ל עָזוֹב וכ׳</he> whence do we derive the duty of unloading? It says (Ex. l. c.), thou must release with him; <cite ref=\"Bava Metzia 32a:17\">B. Mets. 32ᵃ</cite>. Tanḥ. ",
+				"<cite ref=\"Exodus 1\">Mishp. 1</cite> <he>עֲזוֹב קימעה מכאן וכ׳</he> loosen (the load) here a little, raise there &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to leave, abandon</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 12a:2\">Sot. 12ᵃ</cite>; <cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite> (ref. to <cite ref=\"P00400\"><he>עזובה</he></cite>, <cite ref=\"I Chronicles 2:18\">I Chr. II, 18</cite>) <he>עזובה … שהכל עֲזָבוּהָ</he> Azubah is Miriam … for all (young men) left her alone (ignored her on account of her sickliness). ",
+				"<cite ref=\"Midrash Tehillim 10:7\">Midr. Till. to Ps. X</cite> <he>וציון אמרה עֶזָבַנִי וכ׳</he> and Zion said, he has forsaken and forgotten me. ",
+				"<cite ref=\"Midrash Tehillim 92:5\">Midr. Till. to Ps. XCII</cite> <he>מי שמורה … ועוֹזֵב וכ׳</he> he who confesses his sins and forsakes (them, <cite ref=\"Proverbs 28:13\">Prov. XXVIII, 13</cite>); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֶזִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to untie, release; to effect a divorce</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 32b:4\">Gitt. 32ᵇ</cite> <he>גט זה … לא יַעֲזִיב</he> this letter shall have no effect, shall not untie, shall not release, contrad. to <he>אינו מַעֲזִיב</he> does not release, v. <cite ref=\"J00485\"><he>יָעַל</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["עִיזֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to make worth abandoning, make abominable</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 527:1\">Yalk. Hos. 527</cite> (ref. to <cite ref=\"Isaiah 1:4\">Is. I, 4</cite>) <he>אל תיקרי עזבו אלא עִיזְּבוּ</he> read not, ‘they have forsaken’, but, ‘they have made (me) worth abandoning (caused me to be cruel); Tanḥ. B’huck. 2 <he>עוזבו אתי</he> (read <he>עיזבו אותי</he>). ",
+						"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> (ref. to <he>עזבני</he>, <cite ref=\"Isaiah 49:14\">Is. XLIX, 14</cite>) <he>עִיזְּבַנִי</he> he has made me contemptible."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֶעֱזָב"],
+			"senses": [
+				{
+					"gloss": "<i>to be forsaken</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 35\">Lev. R. s. 35</cite> (ref. to <cite ref=\"Psalms 37:25\">Ps. XXXVII, 25</cite>) <he>נ׳ מיראתו וכ׳</he> forsaken of his fear of the Lord."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְעַזֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be abandoned, neglected, hated</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 45:4\">Gen. R. s. 45</cite> <he>ומִתְעַזֶּבֶת</he>, v. <cite ref=\"K00974\"><he>כָּעַר</he></cite>; <cite ref=\"Shir HaShirim Rabbah 2:14:8\">Cant. R. to II, 14</cite> <he>ומתעבת</he>, ed. Wil. <he>מתעובת</he> (corr. acc., or read: <he>מְתוֹעֶבֶת</he>, v. <cite ref=\"V00773\"><he>תָּעַב</he></cite>). Pesik. R. l. c. <he>והיו … ומִתְעַזְּבוֹת בפניהם</he> and they became abominable and hateful in their sight."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

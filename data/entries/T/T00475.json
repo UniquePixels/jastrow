@@ -1,0 +1,30 @@
+{
+	"id": "T00475",
+	"slug": "רחב-3",
+	"headword": {
+		"text": "רָחָב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְחָבָה"
+		}
+	],
+	"page": {
+		"number": 1465,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00474\">preced.</cite>) <i>wide, broad</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 4:7\">Midd. IV, 7</cite> <he>מה ארי צר … ור׳ מלפניו וכ׳</he> (not <he>ורוחב</he>) as the lion’s body is narrow behind and wide in front, so was the Temple &c.; a. fr.—<he>נפש ר׳</he> (wide desire,) <i>ambition, greed</i>, opp. <he>שפלה</he>. ",
+				"<cite ref=\"Pirkei Avot 5:19\">Ab. V, 19</cite>; a. e.—<he>יד ר׳</he>, v. <cite ref=\"J00093\"><he>יָד</he></cite>.—Pl. <he>רְחָבִים</he>, <he>רְחָבִין</he>; <he>רְחָבוֹת</he>. Tanḥ. B’haʿăl. 5 <he>שהיו ר׳ מבחוץ וכ׳</he> they (the Temple windows) were wide without &c., v. <cite ref=\"T00474\">preced.</cite>; Tanḥ. T’tsav. 6; <cite ref=\"Bamidbar Rabbah 15:7\">Num. R. s. 15</cite>, beg. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:6:3\">Y. Sot. IX, 24ᵃ</cite> bot., v. <cite ref=\"R00727\"><he>צַר</he></cite>; a. fr."
+			]
+		}
+	]
+}

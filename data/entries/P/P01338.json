@@ -1,0 +1,38 @@
+{
+	"id": "P01338",
+	"slug": "ערטל-1",
+	"headword": {
+		"text": "עִרְטֵל"
+	},
+	"page": {
+		"number": 1116,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Parel</i> of <cite ref=\"P00457\"><he>עטל</he></cite>; cmp. Arab. <i>ʿaṭal</i>, a. <cite ref=\"P00477\"><he>עֲטַר</he> II</cite>) <i>to strip, denude</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 6:6\">Gen. R. s. 6</cite> <he>מְעַרְטְלוֹ</he>, v. <cite ref=\"N01279\"><he>נַרְתֵּק</he></cite>; <cite ref=\"Kohelet Rabbah 1:5\">Koh. R. to I, 5</cite>, v. <cite ref=\"E00944\"><he>השתק</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְערְטֵל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַרְטֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to be stripped; to denude one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite> (ref. to <he>עירמם</he>, <cite ref=\"Genesis 3:7\">Gen. III, 7</cite>) <he>אפי׳ מצוה … נִתְעַרְטְלוּ הימנה</he> they had stripped themselves even of the merit of obeying the only command given them. [<cite ref=\"Yalkut Shimoni on Nach 913:2\">Yalk. Job 913</cite> <he>והיו רגליו מִתְעַרְטְלוֹת</he> his feet were stripped of their skin (by scalding), v., however, <cite ref=\"P01382\"><he>עִרְכֵּל</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

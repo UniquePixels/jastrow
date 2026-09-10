@@ -1,0 +1,28 @@
+{
+	"id": "A02824",
+	"slug": "אפריקי-2",
+	"headword": {
+		"text": "אַפְרִיקִי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפְרִיקְיָא"
+		}
+	],
+	"page": {
+		"number": 108,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (supposed to be) <i>Phrygia</i>, in Asia Minor. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:2\">Targ. Y. Gen. X, 2</cite> (h. text <he>גֹמֶר</he>); <cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite>, beg.; (Y. Meg. I, 71ᵇ bot.; <cite ref=\"Yoma 10a\">Yoma 10ᵃ</cite> <cite ref=\"C01362\"><he>גרממיא</he></cite>). [<cite ref=\"Jerusalem Talmud Berakhot 9:1:32\">Y. Ber. IX, 13ᶜ</cite> top; <cite ref=\"Rosh Hashanah 26a:18\">R. Hash. 26ᵃ</cite> (of R. Akiba’s journeys)—perh. belonging to preced.]"
+			]
+		}
+	]
+}

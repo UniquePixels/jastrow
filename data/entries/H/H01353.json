@@ -1,0 +1,23 @@
+{
+	"id": "H01353",
+	"slug": "חסוך-2",
+	"headword": {
+		"text": "חֲסוֹךְ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 486,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01374\"><he>חֲסִיךְ</he></cite>) <i>diminution</i>; (adv.) <i>less</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:47\">Targ. Ez. XVI, 47</cite>."
+			]
+		}
+	]
+}

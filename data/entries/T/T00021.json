@@ -1,0 +1,27 @@
+{
+	"id": "T00021",
+	"slug": "ראימא",
+	"headword": {
+		"text": "רְאֵימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רֵימָא"
+		}
+	],
+	"page": {
+		"number": 1437,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = <cite ref=\"T00022\">next w.</cite> ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:17\">Targ. Y. Deut. XXXIII, 17</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 14:5\">Targ. O. ib. XIV, 5</cite> <he>רימא</he> (Y. <he>רימנין</he>; h. text <cite ref=\"D00742\"><he>דישן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 29:6\">Targ. Ps. XXIX, 6</cite> <he>בן ר׳</he> Ms. (ed. <he>בר רֵמַיָּא</he>; ed. Wil. <he>בר רָ׳</he>).—",
+				"<cite ref=\"Bava Batra 73b:2\">B. Bath. 73ᵇ</cite>; <cite ref=\"Zevachim 113b:7\">Zeb. 113ᵇ</cite>, v. <cite ref=\"A00870\"><he>אוּרְזִילָא</he></cite>"
+			]
+		}
+	]
+}

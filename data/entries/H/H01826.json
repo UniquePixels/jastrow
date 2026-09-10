@@ -1,0 +1,25 @@
+{
+	"id": "H01826",
+	"slug": "חשי-1",
+	"headword": {
+		"text": "חשי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָשָׁה"
+		}
+	],
+	"page": {
+		"number": 509,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to whisper</i>,] <i>be silent, quiet</i> (cmp. <he>דום</he>, <cite ref=\"D00903\"><he>דמם</he></cite>). Part. (fr. <cite ref=\"H00488\"><he>חוּשׁ</he></cite>) <cite ref=\"H01800\"><he>חָשׁ</he></cite>, f. <cite ref=\"H01817\"><he>חָשָׁה</he></cite>, pl. <he>חָשׁוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Chagigah 12b:7\">Ḥag. 12ᵇ</cite> <he>אומרות … וחשות ביום וכ׳</he> say praise by night, and are silent by day. ",
+				"<cite ref=\"Chagigah 13b:1\">Ib. 13ᵇ</cite> (play on <he>ח̇ש̇מ̇ל̇</he>) <he>חיות עתים ח̇ש̇ות … ממ̇ל̇לות</he> Ms. M. <i>Ḥayoth</i> (v. <cite ref=\"H00672\"><he>חַיָּה</he></cite> I end) who at times are silent etc."
+			]
+		}
+	]
+}

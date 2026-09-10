@@ -1,0 +1,23 @@
+{
+	"id": "A02532",
+	"slug": "אסקוטלא-2",
+	"headword": {
+		"text": "אִסְקוּטְלָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 97,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (scutella, σκοῦτλον) <i>a salver</i> or <i>waiter of nearlg square form</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 30:1\">Kel. XXX, 1</cite>; <cite ref=\"Mishnah Moed Katan 3:7\">M. Kat. III, 7</cite>."
+			]
+		}
+	]
+}

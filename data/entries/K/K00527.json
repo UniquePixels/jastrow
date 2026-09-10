@@ -1,0 +1,24 @@
+{
+	"id": "K00527",
+	"slug": "כיכלי",
+	"headword": {
+		"text": "כִּיכְלֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 632,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>כלכלי</he>, Assyr. Kulukuku, Kaku-ullu, v. Del. Assyr. Thiernamen, p. 103) <i>partridges</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 75b\">Yoma 75ᵇ</cite> <he>ד׳ מיני שליו</he> … <he>וכ׳</he> Ar. (ed. <cite ref=\"S00861\"><he>קיבלי</he></cite>; Ms. M. 1 <cite ref=\"S01110\"><he>קיפלי</he></cite>, 2 <cite ref=\"S00949\"><he>קיכלי</he></cite>, v. Rabb. D. S. a. l. note) there are four kinds of <i>s’lav</i> &c. (v. Winer Realwörterbuch s. v. Wachtel); <cite ref=\"Yalkut Shimoni on Torah 260\">Yalk. Ex. 260</cite> <cite ref=\"S00861\"><he>קיבלי</he></cite>. [Mus.: κίχλη, <i>thrush</i>.]"
+			]
+		}
+	]
+}

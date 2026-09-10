@@ -1,0 +1,27 @@
+{
+	"id": "P00860",
+	"slug": "עמך-3",
+	"headword": {
+		"text": "עֶמֶך"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָמָך",
+			"homograph": 2
+		},
+		{
+			"text": "עֲמָדָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1086,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " f., v. <cite ref=\"P00276\"><he>עוּמָד</he></cite>",
+			"units": []
+		}
+	]
+}

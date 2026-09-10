@@ -1,0 +1,40 @@
+{
+	"id": "S01576",
+	"slug": "קניגיון",
+	"headword": {
+		"text": "קְנִיגְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִינִ׳"
+		}
+	],
+	"page": {
+		"number": 1392,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κυνήγιον, S.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the contest of wild beasts</i> or <i>of wild beasts with men</i> (ludus bestiarius). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 18b\">Ab. Zar. 18ᵇ</cite> (ref. to <cite ref=\"Psalms 1:1\">Ps. I, 1</cite>) <he>זה שלא עמד בקיניג׳</he> Ms. M. (ed. <he>בקנגיון</he>) that is he who does not stand as a spectator at bestial contests (arranged by the Romans). ",
+				"<cite ref=\"Psalms 1:1\">Ib.</cite> <he>לא עמדתי בק׳</he> I do not attend the shows of &c.; <cite ref=\"Yalkut Shimoni on Nach 613:1\">Yalk. Ps. 613</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the actors in the fights of the arena</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:5\">Cant. R. to II, 5</cite>, v. <cite ref=\"B00852\"><he>בלטוורא</he></cite>.—V. <cite ref=\"S01578\"><he>קְנִיגִין</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

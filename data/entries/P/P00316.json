@@ -1,0 +1,30 @@
+{
+	"id": "P00316",
+	"slug": "עוף-6",
+	"headword": {
+		"text": "עוֹף",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עוֹפָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1055,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00315\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 5:10\">Targ. Y. Lev. V, 10</cite>. ",
+				"<cite ref=\"Onkelos Genesis 1:20\">Targ. Gen. I, 20</cite>; a. fr.—Pl. <he>עוֹפִין</he>, <he>עוֹפַיָּא</he>, <he>עוֹפָן</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 50:11\">Targ. Ps. L, 11</cite> Ms. (ed. sing.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 23:5\">Ib. XXIII, 5</cite> ed. Lag. ",
+				"<cite ref=\"Targum Jonathan on Genesis 25:27\">Targ. Y. Gen. XXV, 27</cite>."
+			]
+		}
+	]
+}

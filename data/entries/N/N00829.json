@@ -1,0 +1,31 @@
+{
+	"id": "N00829",
+	"slug": "נכיס-2",
+	"headword": {
+		"text": "נְכִיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְכִיסָא"
+		},
+		{
+			"text": "נְכִיסְתָּא"
+		}
+	],
+	"page": {
+		"number": 911,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00828\">preced.</cite>) <i>slaughtered</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 14:6\">Targ. Lev. XIV, 6</cite> (O. ed. Amst. <cite ref=\"N00835\"><he>נְכֶסְתָּא</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 14:51\">Ib. 51</cite> (O. ed. Vien. <cite ref=\"N00829\"><he>נְכֵיסְתָּא</he></cite>); a. e."
+			]
+		}
+	]
+}

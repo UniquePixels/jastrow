@@ -1,0 +1,31 @@
+{
+	"id": "J00567",
+	"slug": "יקיד-2",
+	"headword": {
+		"text": "יָקִיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַקִּיד"
+		},
+		{
+			"text": "יְקִידָא"
+		},
+		{
+			"text": "יְקִידְתָּא"
+		}
+	],
+	"page": {
+		"number": 591,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>burning</i>, v. <cite ref=\"J00557\"><he>יְקַד</he></cite>.",
+			"units": []
+		}
+	]
+}

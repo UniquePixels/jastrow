@@ -1,0 +1,45 @@
+{
+	"id": "P00377",
+	"slug": "עות-5",
+	"headword": {
+		"text": "עֲוַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲוַות"
+		}
+	],
+	"page": {
+		"number": 1060,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00376\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַוֵּית", "עַוֵּות"],
+			"senses": [
+				{
+					"gloss": "<i>to offend, oppress</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 119:78\">Targ. Ps. CXIX, 78</cite>. Targ. II Esth. I, 1 <he>מלכא מְעַוְּותָא</he> a tyrannous king."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to do a thing wrong</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 14b:23\">Ber. 14ᵇ</cite> <he>שלוחא הוא דע׳</he> the servant did the wrong thing. ",
+						"<cite ref=\"Ketubot 85a\">Keth. 85ᵃ</cite>, a. fr. <he>לתקוני שדרתיך ולא לעַוּוּתֵי</he> I deputed thee to do the right thing (to benefit me), but not to do it wrong (impair my cause); <cite ref=\"Nedarim 36a\">Ned. 36ᵃ</cite>"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "C00320",
+	"slug": "גודש",
+	"headword": {
+		"text": "גּוֹדֶשׁ"
+	},
+	"page": {
+		"number": 219,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00253\"><he>גדש</he></cite>) <i>the heap, the top over the level of a dry measure</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 62b:2\">Zeb. 62ᵇ</cite> <he>כמחק ג׳ סאה</he> as thick as the instrument for striking off the top of a S’ah. ",
+				"<cite ref=\"Mishnah Menachot 9:5\">Men. IX, 5</cite> (<cite ref=\"Menachot 90a:3\">90ᵃ</cite>) <he>היה גוֹדְשָׁהּ לתוכה</he> (Var. <he>גָדְשָׁהּ</he>) its heap was added to the measure, i.e. the additional quantity forming the top of other measures, was contained in the Highpriest’s measure which was so much larger."
+			]
+		}
+	]
+}

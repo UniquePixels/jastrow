@@ -1,0 +1,28 @@
+{
+	"id": "R00758",
+	"slug": "צרחא",
+	"headword": {
+		"text": "צִרְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1301,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00757\">preced.</cite>) <i>anguish</i>, <he>צ׳ דלבא</he> (prob.) <i>angina pectoris; pain of the heart</i> (Rashi). ",
+			"units": [
+				"<cite ref=\"Gittin 69b:6\">Gitt. 69ᵇ</cite> <he>לצ׳ דל׳</he> a remedy for &c. ",
+				"<cite ref=\"Berakhot 40a\">Ber. 40ᵃ</cite> <he>לצ׳ דל׳</he> Ms. F. a. Ar. (ed. <he>לחולשא</he>; v. Rabb. D. S. a. l. note 400). Cmp. <cite ref=\"R00466\"><he>צִירְתָא</he></cite>."
+			]
+		}
+	]
+}

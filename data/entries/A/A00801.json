@@ -1,0 +1,23 @@
+{
+	"id": "A00801",
+	"slug": "אופיון",
+	"headword": {
+		"text": "אוֹפְיוֹן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 31,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ὄπιον) <i>poppy-juice, opium</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:3\">Y. Ab. Zar. II, 40ᵈ</cite> top <he>אהן א׳ סכנה</he> an opium drink (prepared by a gentile) is dangerous."
+			]
+		}
+	]
+}

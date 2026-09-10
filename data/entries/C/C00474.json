@@ -1,0 +1,58 @@
+{
+	"id": "C00474",
+	"slug": "גור-2",
+	"headword": {
+		"text": "גּוּר"
+	},
+	"page": {
+		"number": 226,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00473\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Taanit 25a:14\">Taan. 25ᵃ</cite> <he>גָרֵי</he> (<cite ref=\"C01298\"><he>גָּרוּ</he></cite>) <he>בך גירי</he> Ar., ed. Ven. a. oth. (v. Rabb. D. S. a. l. note 1, ed. <cite ref=\"C00830\"><he>גָּיְרֵי</he></cite>) proselytes shall dwell with thee (in heaven); (for oth. vers. v. <cite ref=\"C00806\"><he>גִּיר</he> III</cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּיֵּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to convert</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 12:5\">Targ. Y. Gen. XII, 5</cite>, v. <cite ref=\"C00473\">preced.</cite> ",
+						"<cite ref=\"Targum Jonathan on Exodus 18:7\">Targ. Y. Ex. XVIII, 7</cite>; <cite ref=\"Targum Jonathan on Exodus 18:27\">27</cite>; a. e.—",
+						"<cite ref=\"Shabbat 31a:6\">Sabb. 31ᵃ</cite> <he>גַּיְּירֵיה</he> he accepted him for initiation. ",
+						"<cite ref=\"Yevamot 76a:16\">Yeb. 76ᵃ</cite> <he>גּיּיוּרֵי גַּיְּירָהּ</he> he made her an Israelite. ",
+						"<cite ref=\"Bereishit Rabbah 76\">Gen. R. s. 76</cite>, end <he>לאו גַּיַּירְתֵּיה</he> would she not have converted him?; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְגַּיַּיר", "אִיגַּיַּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to reside as a stranger</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 16:29\">Targ. Lev. XVI, 29</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become a Jew, to embrace the Israelitish faith, to be converted</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 18:6\">Targ. Y. Ex. XVIII, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 68:19\">Targ. Ps. LXVIII, 19</cite>; <cite ref=\"Aramaic Targum to Psalms 68:32\">32</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

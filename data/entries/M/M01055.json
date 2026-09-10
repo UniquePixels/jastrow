@@ -1,0 +1,30 @@
+{
+	"id": "M01055",
+	"slug": "מטרונא",
+	"headword": {
+		"text": "מטְרוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַטְרוֹנָה"
+		}
+	],
+	"page": {
+		"number": 769,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (matrona) <i>matron, lady</i> (mostly used of Roman women of quality). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41:10\">Gen. R. s. 41</cite>, beg., a. e., v. <cite ref=\"I00170\"><he>טוֹלְמִיסִין</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 52:13\">Gen. R. s. 52</cite> <he>עשאה מ׳</he> he raised her to the rank of a lady (who is protected from the gaze of men, v. <cite ref=\"K00917\"><he>כָּסָה</he> II</cite>). ",
+				"<cite ref=\"Shemot Rabbah 44:10\">Ex. R. s. 44</cite> <he>נטלה … ועשאה מ׳ וכ׳</he> he took her for wife and made her a lady and gave her a chain &c. ",
+				"<cite ref=\"Bereishit Rabbah 4:7\">Gen. R. s. 4</cite>; a. fr.—Pl. <cite ref=\"M01056\"><he>מַטְרוֹנוֹת</he></cite>, <he>מַטְרוֹנִיּוֹת</he>, v. <cite ref=\"M01056\">next w.</cite>"
+			]
+		}
+	]
+}

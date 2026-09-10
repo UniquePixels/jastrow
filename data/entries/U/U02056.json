@@ -1,0 +1,36 @@
+{
+	"id": "U02056",
+	"slug": "שש-3",
+	"headword": {
+		"text": "שֵׁשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁשָּׁה"
+		}
+	],
+	"page": {
+		"number": 1636,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>six</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 5:1\">Pes. V, 1</cite> (<cite ref=\"Pesachim 58a:1\">58ᵃ</cite>) <he>בששה ומחצה</he> (Y. a. Bab. ed. <cite ref=\"B01375\"><he>בשש</he></cite>) at six hours and a half (from sunrise). Y. ib. IV, beg. 30ᶜ <he>משש שעות ולמעלן</he> after six hours (noon); <he>משש שעות ולמען</he> before noon. ",
+				"<cite ref=\"Yoma 21b:8\">Yoma 21ᵇ</cite> <he>שש אשות הן</he> there are six kinds of fire. ",
+				"<cite ref=\"Pesachim 49b:12\">Pes. 49ᵇ</cite> <he>ש׳ דברים נאמרו וכ׳</he> six things have been said concerning ignorant people; a. v. fr.—Constr. m. <cite ref=\"U02066\"><he>שֵׁשֶׁת</he></cite>. ",
+				"<cite ref=\"Sanhedrin 97a\">Snh. 97ᵃ</cite>; <cite ref=\"Avodah Zarah 9a\">Ab. Zar. 9ᵃ</cite>; v. <cite ref=\"U01571\"><he>שָׁנָה</he> II</cite>; a. fr.—Pl. <cite ref=\"U02059\"><he>שִׁשִּׁים</he></cite> <i>sixty</i>. ",
+				"<cite ref=\"Bava Kamma 58b:8\">B. Kam. 58ᵇ</cite> <he>סאה בש׳ סאין</he> the damage to a field of one S’ah is assessed by calculation from a field of sixty S’ahs (so as to arrive at a fair estimate). ",
+				"<cite ref=\"Bava Kamma 58b\">Ib.</cite> <he>בש׳</he> taking as a basis for calculation sixty times the quantity under dispute; <cite ref=\"Bava Kamma 59a\">ib. 59ᵃ</cite>; a. e.—",
+				"<cite ref=\"Chullin 97b\">Ḥull. 97ᵇ</cite> <he>בש׳</he> (sub. <cite ref=\"B00515\"><he>בטל</he></cite>) is neutralized in a quantity sixty times as large. ",
+				"<cite ref=\"Shemot Rabbah 1:24\">Ex. R. s. 1</cite> <he>ש׳ בכרס אחד</he> sixty at one birth. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:2\">Y. Taan. IV, 68ᶜ</cite> top <he>ש׳ רבוא</he> sixty myriads. ",
+				"<cite ref=\"Sukkah 51b:6\">Succ. 51ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

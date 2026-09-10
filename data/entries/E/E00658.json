@@ -1,0 +1,39 @@
+{
+	"id": "E00658",
+	"slug": "הנדז",
+	"headword": {
+		"text": "הַנְדֵּז"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַנְדֵּס"
+		}
+	],
+	"page": {
+		"number": 357,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"E00135\"><he>הָדַס</he></cite>, <i>Pi.</i>) <i>to mark by means of incisions</i> (cmp. <cite ref=\"K00949\"><he>כָּסַס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 89b:7\">B. Bath. 89ᵇ</cite> <he>באתרא דמְהַנְדְּזֵי</he> Ms. (ed. <he>דמְהַנְדְּסֵי</he>) in a place where the authorities mark vessels used for measuring. ",
+				"<cite ref=\"Bava Batra 89b:10\">Ib.</cite> (<he>כל</he>) <he>כמה דלא מהנדזי לא שקיל</he> Ar. (Ms. H. <he>כל כמה דלא חזי הינדזא</he>; ed. only <he>לית לן בה</he>) what is beyond the mark of the vessel the purchaser will not accept (merely on the faith of the seller as to the quantity)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיהַנְדֵּז"],
+			"senses": [
+				{
+					"gloss": "<i>to be incised</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 43a:12\">Ḥull. 43ᵃ</cite> <he>זימנין דמִיהַנְּדְּזִין וכ׳</he> at times (when the animal stretches its neck) the perforations in the two skins of the oesophagus may just exactly cover each other."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"id": "F00014",
+	"slug": "ודאי",
+	"headword": {
+		"text": "וַדַּאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "וַודַּי"
+		},
+		{
+			"text": "וַדָּאִית"
+		},
+		{
+			"text": "וַדָּיָיה"
+		},
+		{
+			"text": "יַדָּאָה"
+		}
+	],
+	"page": {
+		"number": 372,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ידע</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>well-known, certain; distinct, real</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 33b:3\">Ber. 33ᵇ</cite> <he>הַוַּ׳</he> (v. Rabb. D. S. a. l. note) Thou, the known one!—",
+				"<cite ref=\"Mishnah Arakhin 1:1\">Arakh. I, 1</cite> <he>זכר ו׳</he> a person distinctly male, <he>נקבה ודאית</he> distinctly female (no hermaphrodite &c.). ",
+				"<cite ref=\"Mishnah Yoma 8:8\">Yoma VIII, 8</cite>, a. fr. <he>אשם ו׳</he>, v. <cite ref=\"A03323\"><he>אָשָׁם</he></cite>.—",
+				"<cite ref=\"Mishnah Shabbat 2:7\">Sabb. II, 7</cite> <he>הו׳</he> that which undoubtedly requires the separation of the tithes, opp. <cite ref=\"D00871\"><he>דְּמַאי</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:3:4\">Y. Bets. I, 60ᵇ</cite> <he>וַודָּייוֹ</he>, <cite ref=\"F00014\"><he>וַודָּיָיהּ</he></cite> where there is no doubt about it, opp. <he>ספיקו</he>, <cite ref=\"O01366\"><he>ספיקה</he></cite>. ",
+				"<cite ref=\"Mishnah Kiddushin 4:3\">Kidd. IV, 3</cite> (<cite ref=\"Kiddushin 74a\">74ᵃ</cite>) <cite ref=\"F00013\"><he>וַדָּאָן</he></cite> the sure cases among them.—",
+				"<cite ref=\"Bamidbar Rabbah 2:25\">Num. R. s. 2</cite>, end <he>אכילה וודייה</he> Ar. ed. Koh. (ed. <he>ידאית</he>) the eating (in <cite ref=\"Exodus 24:11\">Ex. XXIV, 11</cite>) was a real one (physical refreshment, no metaphor); a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(gramm.) <i>emphatic form</i> by means of <i>He</i> paragogic. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 3:3\">Ex. R. s. 3</cite> <he>לכה וודאית וכ׳</he> (strike out the gloss <he>הה״א בסוף וכ׳</he>) the word <i>l’khah</i> (<cite ref=\"Exodus 3:3\">Ex. III, 3</cite>) is emphatic (as if = <cite ref=\"L00536\"><he>לְךָ</he></cite> <i>unto thee</i> it belongs), if not thou &c.; <cite ref=\"Jerusalem Talmud Sukkah 4:3:6\">Y. Succ. IV, 54ᶜ</cite> top <he>לך יודייה</he> (read: <he>לכה וו׳</he>) the <i>l’khah</i> (<cite ref=\"Psalms 80:3\">Ps. LXXX, 3</cite>) has the emphatic form (<i>unto thee</i> as well as unto us).—3) (noun) <i>certainty, undisputed fact</i>.—<he>אין ספק מוציא מידי ו׳</he> doubt cannot take a case out of the status of certainty. ",
+				"<cite ref=\"Avodah Zarah 41b:15\">Ab. Zar. 41ᵇ</cite> <he>הוי ספק וּוַ׳ ואין וכ׳</he> here is a doubt (the idolatrous character of an object may have been given up) against a certainty (that it <i>was</i> an idol) and the doubt cannot set aside the certainty. ",
+				"<cite ref=\"Pesachim 9a:11\">Pes. 9ᵃ</cite>; a. fr.—<he>בְּוַ׳</he>, <he>וַ׳</he> (adv.) <i>surely, indeed; in reality</i>. Y. Keth. V, 29ᵈ. ",
+				"<cite ref=\"Bereishit Rabbah 98:4\">Gen. R. s. 98</cite> <he>עלית בו׳</he> ‘thou didst ascend’ thy father’s couch (<cite ref=\"Genesis 49:4\">Gen. XLIX, 4</cite>) means in reality (no metaphor). ",
+				"<cite ref=\"Genesis 49:4\">Ib.</cite> <he>חללת ו׳</he> ‘thou didst defile’ (<cite ref=\"Genesis 49:4\">ib.</cite>) is to be taken literally. Pes. l. c. <he>דו׳ מעשרי</he> for it is sure that they separate the tithes. ",
+				"<cite ref=\"Bereishit Rabbah 55:6\">Gen. R. s. 55</cite> <he>נסה אותו בו׳</he> He tried him in the true sense of the word (gave him time); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

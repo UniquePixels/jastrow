@@ -1,0 +1,31 @@
+{
+	"id": "H00866",
+	"slug": "חיק",
+	"headword": {
+		"text": "חֵיק"
+	},
+	"page": {
+		"number": 459,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00439\"><he>חוּק</he></cite>)<i>lap, bosom, embrace</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 24a\">M. Kat. 24ᵃ</cite> a child <he>יוצא בח׳</he> is carried out in one’s arms (without a coffin); <cite ref=\"Kiddushin 80b\">Kidd. 80ᵇ</cite>; <cite ref=\"Tractate Semachot 3:2\">Treat. S’maḥ. III, 2</cite>.—Y. M. Kat. III, beg. 81ᶜ <he>הניח ה׳ אמו וכ׳</he> left his mother’s lap (Palestine). ",
+				"<cite ref=\"Tosefta Yevamot 9:4\">Tosef. Yeb. IX, 4</cite> <he>מח׳ בעלה</he> directly from the embrace of her husband; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>receptacle, cavity, bottom</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 97b:19\">Men. 97ᵇ</cite>; <cite ref=\"Eruvin 4a:9\">Erub. 4ᵃ</cite> (ref. to <cite ref=\"Ezekiel 43:17\">Ez. XLIII, 17</cite>), v. <cite ref=\"J00456\"><he>יְסוֹד</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

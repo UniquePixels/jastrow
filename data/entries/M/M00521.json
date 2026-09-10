@@ -1,0 +1,27 @@
+{
+	"id": "M00521",
+	"slug": "מומי",
+	"headword": {
+		"text": "מוֹמֵי"
+	},
+	"page": {
+		"number": 743,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"J00409\"><he>יְמָא</he></cite>) <i>oath; imprecation, curse</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 5:21\">Targ. O. Num. V, 21</cite> (Y. <cite ref=\"M01650\"><he>מְמוֹמֵי</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 5:1\">Targ. O. Lev. V, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 8:31\">Targ. I Kings VIII, 31</cite> (not <cite ref=\"M03086\"><he>מוּ׳</he></cite>); a. fr.—",
+				"<cite ref=\"Bava Metzia 85a:10\">B. Mets. 85ᵃ</cite> <he>מ׳ עזובה דא</he> I swear, this (my desire) has been abandoned. ",
+				"<cite ref=\"Vayikra Rabbah 6:3\">Lev. R. s. 6</cite> (prov.) <he>בין זכאי … לידי מ׳ תעול</he> right or wrong, do not run the risk of an oath. Y. Ned. I, 37ᵃ top, v. <cite ref=\"M00426\"><he>מוֹהֶה</he></cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "B01156",
+	"slug": "בר-5",
+	"headword": {
+		"text": "בַּר",
+		"homograph": 4
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּר"
+		}
+	],
+	"page": {
+		"number": 189,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"B01335\"><he>בָּרַר</he></cite>) [<i>sifted</i>] <i>grain</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 55a:16\">Ber. 55ᵃ</cite> <he>כשם שא״א לבר בלא וכ׳</he> as there can be no grain without straw, so there is no dream without idle things; <cite ref=\"Nedarim 8a\">Ned. 8ᵃ</cite>"
+			]
+		}
+	]
+}

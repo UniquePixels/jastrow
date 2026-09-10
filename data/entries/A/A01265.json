@@ -1,0 +1,20 @@
+{
+	"id": "A01265",
+	"slug": "איל-3",
+	"headword": {
+		"text": "אַיָּל"
+	},
+	"page": {
+		"number": 48,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; prob. fr. <cite ref=\"A00658\"><he>אול</he></cite> = <he>עול</he>, cmp. Var. lect. of <cite ref=\"A01315\"><he>אַיֶּלֶת</he> II</cite>; cmp. <he>אלל</he>) [<i>the climber</i>], <i>hart</i>. ",
+			"units": ["<cite ref=\"Chullin 28a\">Ḥull. 28ᵃ</cite>; a. e."]
+		}
+	]
+}

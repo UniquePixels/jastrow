@@ -1,0 +1,30 @@
+{
+	"id": "S02002",
+	"slug": "קרטיס-2",
+	"headword": {
+		"text": "קַרְטֵיס",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְטֵיסָא"
+		},
+		{
+			"text": "סָה"
+		}
+	],
+	"page": {
+		"number": 1416,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " … ch. <cite ref=\"S02001\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:4:5\">Y. Kidd. III, 64ᵃ</cite> <he>חד בר נש … בק׳</he> a man owed his neighbor one hundred denars on a note; <he>אי לא יהב לך ק׳ וכ׳</he> unless he hand thee the note, give him no money. ",
+				"<cite ref=\"Gittin 69a\">Gitt. 69ᵃ</cite> <cite ref=\"S00599\"><he>קוּרְטֵסָא</he></cite> a piece of paper.—Pl. <he>קַרְטִיסַיָּיא</he>. ",
+				"<cite ref=\"Vayikra Rabbah 34:11\">Lev. R. s. 34</cite> <he>הא ק׳ קדמך וכ׳</he> Ar. (ed. <cite ref=\"K01342\"><he>כתבא</he></cite>) the documents (accounts) are before thee, read and count."
+			]
+		}
+	]
+}

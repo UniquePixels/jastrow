@@ -1,0 +1,23 @@
+{
+	"id": "V00770",
+	"slug": "תסקופים",
+	"headword": {
+		"text": "תַּסְקוּפִים"
+	},
+	"page": {
+		"number": 1683,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"V00769\">preced.</cite>) <i>intrigues, false charges</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 954\">Yalk. Deut. 954</cite> <he>ת׳ ניסתקפו לו</he> (not <he>ניסתקפת</he>; some ed. <cite ref=\"V01108\"><he>תַּשְׂקוּפִים</he></cite>) false charges were turned against him (Aaron); v. <cite ref=\"O01492\"><he>סָקַף</he></cite>, a. <cite ref=\"O01480\"><he>סְקִיפַנְטְיָא</he></cite>."
+			]
+		}
+	]
+}

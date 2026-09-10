@@ -1,0 +1,25 @@
+{
+	"id": "K01139",
+	"slug": "כרזבא",
+	"headword": {
+		"text": "כַּרְזְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְזוּבָּא"
+		}
+	],
+	"page": {
+		"number": 665,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " a species of <i>locusts</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:22\">Targ. Y. Lev. XI, 22</cite> (Ar. a. Levita <cite ref=\"K01118\"><he>כרוכא</he></cite>; h. text <cite ref=\"H00137\"><he>חגב</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:47\">Targ. Ps. LXXVIII, 47</cite> (h. text <cite ref=\"H01309\"><he>חנמל</he></cite>). Cmp. <cite ref=\"A03050\"><he>אַרְזְבוֹנִית</he></cite>."
+			]
+		}
+	]
+}

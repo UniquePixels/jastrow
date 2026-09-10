@@ -1,0 +1,27 @@
+{
+	"id": "N01053",
+	"slug": "נפך",
+	"headword": {
+		"text": "נֹפֶךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נוֹ׳"
+		}
+	],
+	"page": {
+		"number": 924,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) name of <i>a jewel</i> in the high priest’s breast plate, <i>emerald</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 38\">Ex. R. s. 38</cite>, end <he>על נ׳ היה כתוב וכ׳</he> on the <i>nofekh</i> the name of Judah was engraven."
+			]
+		}
+	]
+}

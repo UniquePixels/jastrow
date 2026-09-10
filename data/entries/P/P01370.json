@@ -1,0 +1,23 @@
+{
+	"id": "P01370",
+	"slug": "עריסות",
+	"headword": {
+		"text": "עֲרִיסוּת"
+	},
+	"page": {
+		"number": 1118,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"A03112\"><he>אֲרִיסוּת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Challah 2:5\">Tosef. Ḥall. II, 5</cite> <he>פוטר את ע׳ בסוריא</he> ed. (ed. Zuck. <he>האריסין</he>, Var. <he>עריסיו</he>, read <he>העריסין</he>) declared tenancy (tenants) in Syria exempt from priestly gifts.—Pl. <he>עֲרִיסִיּוֹת</he>. ",
+				"<cite ref=\"Tosefta Avodah Zarah 2:8\">Tosef. Ab. Zar. II, 8</cite> <he>עיריס׳</he> ed. Zuck. (corr. acc.; Var. <he>אריס׳</he>)."
+			]
+		}
+	]
+}

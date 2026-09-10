@@ -1,0 +1,27 @@
+{
+	"id": "O01197",
+	"slug": "סנוא",
+	"headword": {
+		"text": "סַנּוֹא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַנָּא"
+		}
+	],
+	"page": {
+		"number": 1005,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01156\"><he>סָנֵא</he></cite> = <cite ref=\"U01559\"><he>שָׂנֵא</he></cite>; cmp. <cite ref=\"S01510\"><he>קַנָּא</he></cite> a. <he>קַנּוֹא</he>) <i>hater</i>.—Pl. <he>סַנּוֹאִין</he>, <cite ref=\"O01163\"><he>סַנָּאִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Zevachim 118b\">Zeb. 118ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 33:16\">Deut. XXXIII, 16</cite>, play on <cite ref=\"O01193\"><he>סְנֶה</he></cite>) <he>עין … מן הס׳ שלו</he> Ms. M. (ed. <he>בין השנואין</he>, v. Rabb. D. S. a. l. note) the eye (of Joseph) which refused to enjoy that which was not its own, shall be permitted to feast on that which belongs to his haters (the brother tribes); <cite ref=\"Yalkut Shimoni on Nach 29:2\">Yalk. Josh. 29</cite>; <cite ref=\"Jerusalem Talmud Megillah 1:12:4\">Y. Meg. I, 72ᵈ</cite> top <he>ששרת שכינה בסַנָּאָיו של יוסף</he> the Divine Presence dwelt among Joseph’s haters."
+			]
+		}
+	]
+}

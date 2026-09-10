@@ -1,0 +1,43 @@
+{
+	"id": "A02514",
+	"slug": "אספקלריא",
+	"headword": {
+		"text": "אִסְפַּקְלַרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 96,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (specularia) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>window-pane made of lapis specularis, window-glass</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 19:17\">Targ. Y. Ex. XIX, 17</cite>; a. e.—",
+				"<cite ref=\"Mishnah Kelim 30:2\">Kel. XXX, 2</cite> <he>תמחוי שעשאו א׳</he> a (glass) plate which is used as window-glass."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " Metaph. <i>prophetic vision</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 45b:5\">Succ. 45ᵇ</cite> <he>דמסתכלי בא׳ וכ׳</he> who contemplate (Deity) through a lucid speculum. ",
+				"<cite ref=\"Bereishit Rabbah 91:6\">Gen. R. s. 91</cite> <he>שראה בא׳ שסברו וכ׳</he> (play on <i>sheber, grain</i>, and <i>seber, hope</i>) he saw in the glass of prophecy that his hope (Joseph) was in Egypt. ",
+				"<cite ref=\"Vayikra Rabbah 1\">Lev. R. s. 1</cite> <he>א׳ מלוכלכת</he> a dim glass (vision); opp. <he>א׳ מצוחצחת</he> polished glass (clear vision).—Pl. <he>אִסְפַּקְלַרְיוֹת</he>. ",
+				"<cite ref=\"Vayikra Rabbah 1\">Ib.</cite>; <cite ref=\"Yalkut Shimoni on Torah 432:1\">Yalk. Lev. 432</cite> <cite ref=\"A01486\"><he>אִיסְפַּקְלַרְיָאוֹת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "M01447",
+	"slug": "מכתב-2",
+	"headword": {
+		"text": "מִכְתָּב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מִכְתָּבָא"
+		}
+	],
+	"page": {
+		"number": 785,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01446\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 9:27\">Targ. Esth. IX, 27</cite>.—Pl. <he>מִכְתָּבִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:8\">Targ. Y. I Deut. XXXII, 8</cite>."
+			]
+		}
+	]
+}

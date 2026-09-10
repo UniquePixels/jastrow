@@ -1,0 +1,30 @@
+{
+	"id": "K01013",
+	"slug": "כפילא",
+	"headword": {
+		"text": "כְּפֵילָא"
+	},
+	"page": {
+		"number": 659,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch.  = h. <cite ref=\"K01028\"><he>כֶּפֶל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 65b:5\">B. Kam. 65ᵇ</cite> <he>כ׳ ד׳ וחומשא זוזא</he> the thief’s fine amounts to four Zuz and the one-fifth-fine (v. <cite ref=\"H00398\"><he>חוּמְשָׁא</he></cite>) to one Zuz; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>twofold condition</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 48b:7\">Ned. 48ᵇ</cite> <he>לאתויי מילתא דשדיא בכ׳</he> Ar. (marg. vers. <cite ref=\"K01014\"><he>כפילה</he></cite>) to include that case (mentioned before) which was decided on the basis of a twofold eventuality (either the son or the grandson becoming a scholar); [ed. <he>הא … דשדיא בכיפי</he> that case which came up in consequence of the son’s roaming about (stealing) sheaves of flax]."
+			],
+			"label": "2"
+		}
+	]
+}

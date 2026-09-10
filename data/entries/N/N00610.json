@@ -1,0 +1,23 @@
+{
+	"id": "N00610",
+	"slug": "ניבזין",
+	"headword": {
+		"text": "נִיבְזִין"
+	},
+	"page": {
+		"number": 902,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"B00429\"><he>בזז</he></cite>; cmp. <cite ref=\"N00050\"><he>נָבוֹז</he></cite>; Samar. <he>נבזה</he>) <i>lots</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:3:2\">Y. Snh. VI, beg. 23ᵇ</cite> <he>אסקון נ׳ וכ׳</he> cast lots between you two, and one of you will at all events be caught."
+			]
+		}
+	]
+}

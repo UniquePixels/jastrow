@@ -1,0 +1,28 @@
+{
+	"id": "C01299",
+	"slug": "גרומי",
+	"headword": {
+		"text": "גְּרוּמֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּרוּמְנֵי"
+		}
+	],
+	"page": {
+		"number": 266,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (γρυμέα, crumena, v. Lidd. a. Scott s. v.; = γρύτη) <i>trumpery, broken pieces of iron, glassware</i> &c. ",
+			"units": [
+				"<cite ref=\"Bava Batra 89b:1\">B. Bath. 89ᵇ</cite> top <he>דיגרומי</he> ed. (Ms. M. <he>דגרומני</he>, Ar. <he>בגרמני</he>) scales used for weighing &c."
+			]
+		}
+	]
+}

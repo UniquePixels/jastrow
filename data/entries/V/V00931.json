@@ -1,0 +1,39 @@
+{
+	"id": "V00931",
+	"slug": "תרביצא",
+	"headword": {
+		"text": "תַּרְבִּיצָא"
+	},
+	"page": {
+		"number": 1695,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"V00933\"><he>תַּרְבֵּץ</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>garden near the house</i> (cultivated by sprinkling). ",
+			"units": [
+				"<cite ref=\"Moed Katan 6b:8\">M. Kat. 6ᵇ</cite> <he>האי ת׳ שרי לתרבוצי וכ׳</he> it is permitted to sprinkle the house garden during the festive week. ",
+				"<cite ref=\"Bava Batra 7a:8\">B. Bath. 7ᵃ</cite> <he>מטייה ת׳</he> got for his share the garden. ",
+				"<cite ref=\"Bava Batra 67a:5\">Ib. 67ᵃ</cite> <he>מר סבר ת׳ משמע</he> Ms. F. a. Rashi (ed. <cite ref=\"V00935\"><he>תרבצא</he></cite>) one says, by <i>darta</i> the court was meant, v. <cite ref=\"D01134\"><he>דַּרְתָּא</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hall</i>, esp. <i>school-hall</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 2:55\">Targ. I Chr. II, 55</cite>.—",
+				"<cite ref=\"Menachot 82b:10\">Men. 82ᵇ</cite> <he>ובת׳ אמור וכ׳</he> and in the school-hall they said &c. (v. Halévy, Doroth, 1897, p. 226). ",
+				"<cite ref=\"Berakhot 57a\">Ber. 57ᵃ</cite> (v. Rashi).—Pl. <cite ref=\"V00930\"><he>תַּרְבִּיצֵי</he></cite>. ",
+				"<cite ref=\"Taanit 6b:12\">Taan. 6ᵇ</cite>, v. <cite ref=\"B00329\"><he>בּוּר</he></cite> I ch."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "U01235",
+	"slug": "שלוה-1",
+	"headword": {
+		"text": "שַׁלְוָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁלְוָוה"
+		}
+	],
+	"page": {
+		"number": 1578,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01234\">preced. art.</cite>) <i>security, ease, contentment, happiness</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite> <he>בשעה … יושבין בש׳ וכ׳</he> when the righteous dwell at ease, and desire to remain at ease in this world, Satan comes &c. ",
+				"<cite ref=\"Pirkei Avot 4:15\">Ab. IV, 15</cite> <he>אין … משַׁלְוַת הרשעים וכ׳</he> it is beyond our power to understand why the wicked are at ease, or why the righteous suffer. ",
+				"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite> <he>עיקר שַׁלְוָותָהּ של סדום וכ׳</he> the real undisturbed prosperity of Sodom lasted only &c. ",
+				"<cite ref=\"Bereishit Rabbah 10:9\">Gen. R. s. 10</cite>, end, v. <cite ref=\"U00039\"><he>שַׁאֲנָן</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12<sup>3</sup></cite> <he>רק בעיניך תביט שַׁלְוָתְךָ</he> ‘thou shalt behold with thine eyes’ (<cite ref=\"Psalms 91:8\">Ps. XCI, 8</cite>) thy happiness. ",
+				"<cite ref=\"Yoma 86b\">Yoma 86ᵇ</cite>, v. <cite ref=\"V00895\"><he>תַּקָּלָה</he></cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "P00742",
+	"slug": "עכן-3",
+	"headword": {
+		"text": "עֶכֶן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָכָן"
+		},
+		{
+			"text": "עַכְנָה"
+		}
+	],
+	"page": {
+		"number": 1079,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00740\"><he>עָכַן</he></cite>; cmp. <cite ref=\"H00922\"><he>חֲכִינָא</he></cite>) <i>annulated snake</i>. [<cite ref=\"Eichah Rabbah 1:29\">Lam. R. to I, 3</cite> <he>אמר עכן בית</he>, read, as <cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>אמרו אעפ״כ מת</he>.]—",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 16:1\">Lev. R. s. 16</cite> (play on <he>תעכסנה</he>, <cite ref=\"Isaiah 3:16\">Is. III, 16</cite>, v. <cite ref=\"P00746\"><he>עֶכֶס</he></cite>) <he>והיה אותו הריח … כארס של ע׳</he> and the scent (of the balsam) permeated them like the venom of a snake; <cite ref=\"Shabbat 62b\">Sabb. 62ᵇ</cite> <he>כארס של ע׳</he> Ms. O. (ed. <he>כארס בכעוס</he>, v. <cite ref=\"K00963\"><he>כָּעוּס</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 1031\">Yalk. Lam. 1031</cite> <he>ונצרר עכנה בהם</he> (a misplaced corrupt. of <he>כארס של ע׳</he>).—Pl. <he>עֲכָנִים</he>, <he>עֲכָנִין</he>. ",
+				"<cite ref=\"Sifrei Devarim 321\">Sifré Deut. 321</cite> (ref. to <he>זחלי עפר</he>, <cite ref=\"Deuteronomy 32:24\">Deut. XXXII, 24</cite>) <he>אלו ע׳ וכ׳</he> (not <he>עשנים</he>, Var. <he>הכינים</he>, read: <he>חֲכִינִים</he>) that means the snakes whose rulership is in the dust; Yalk. ib. 945 <cite ref=\"P00736\"><he>עֲכִינִין</he></cite>."
+			]
+		}
+	]
+}

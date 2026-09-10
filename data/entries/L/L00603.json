@@ -1,0 +1,43 @@
+{
+	"id": "L00603",
+	"slug": "לעז-1",
+	"headword": {
+		"text": "לָעַז"
+	},
+	"page": {
+		"number": 714,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"L00595\"><he>לָעַג</he></cite>) [<i>to talk, babble</i>;] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to speak a foreign tongue</i>, esp. <i>to speak Greek</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 2:1\">Meg. II, 1</cite> <cite ref=\"L00301\"><he>לוֹעֵז</he></cite>, pl. <he>לוֹעֲזוֹת</he>, v. <cite ref=\"L00599\"><he>לָעוֹז</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"L00229\"><he>לוּז</he> IV</cite>) <i>to talk against, criticise, cast suspicion</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 51a:5\">Pes. 51ᵃ</cite> <he>לָעֲזָה עליו כל וכ׳</he> the entire country criticised him; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִלְעִיז"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00602\">same</cite>. Y. Shek. V, 4 in some ed. of Talm. Babli <he>מַלְעִיזִין</he>, v. <cite ref=\"L00229\"><he>לוּז</he> IV</cite>",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

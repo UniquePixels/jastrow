@@ -1,0 +1,55 @@
+{
+	"id": "G00131",
+	"slug": "זוד-2",
+	"headword": {
+		"text": "זְוַד"
+	},
+	"page": {
+		"number": 384,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"G00168\"><he>זַוֵּיד</he></cite>, <cite ref=\"G00141\"><he>זַוִּוִד</he></cite> (cmp. <cite ref=\"G00009\"><he>זבד</he></cite>; = b. h. <cite ref=\"R00161\"><he>צוד</he></cite>) <i>to endow, outfit</i>, esp. for travelling. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 15:14\">Targ. Y. II, Deut. XV, 14</cite> (h. text <cite ref=\"E00720\"><he>הַעֲנֵק</he></cite>).—",
+						"<cite ref=\"Avodah Zarah 17a:11\">Ab. Zar. 17ᵃ</cite> <he>זַוִּידוּ לה זוודתא</he> (editorial insertion; Ms. M. <he>טרחו</he>, v. Rabb. D. S. a. l. note) prepare her shrouds; <cite ref=\"Rosh Hashanah 17a\">R. Hash. 17ᵃ</cite> <he>זוידו</he> Ms. M. (ed. <he>צביתו</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִזְדְּוַד"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִזְדַּיַּוד"],
+			"senses": [
+				{
+					"gloss": "<i>to provide one’s self for a journey, lay in provision</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 9:12\">Targ. Josh. IX, 12</cite> (h. text <he>הִצְטַיַּד־</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to tie up bundles</i>. Ib. 4 (h. text <he>הצטיר</he>, v. <cite ref=\"R00242\"><he>צוּר</he></cite>, <cite ref=\"R00735\"><he>צָרַר</he></cite>).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A02965",
+	"slug": "ארבן",
+	"headword": {
+		"text": "אָרְבָּן"
+	},
+	"page": {
+		"number": 114,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ארב</he> 1) <i>coarse weft</i>, opp. to <he>פשתין</he> fine flax woof. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 12:8\">Parah XII, 8</cite> <he>כוש של א׳</he> (Var. <cite ref=\"T00308\"><he>רוֹבָן</he></cite>) the spindle used for spinning coarse material; [Tosef. ib. XII (XI) 16 <he>כוש הארבלי</he> the spindle used at Arbel; cmp. ",
+				"<cite ref=\"Kohelet Rabbah 1:18\">Koh. R. to I, 18</cite> s. v. <cite ref=\"A02961\"><he>אַרְבֵּל</he> I</cite>]."
+			]
+		}
+	]
+}

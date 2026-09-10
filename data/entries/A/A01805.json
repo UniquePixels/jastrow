@@ -1,0 +1,28 @@
+{
+	"id": "A01805",
+	"slug": "אלוויתא",
+	"headword": {
+		"text": "אַלְוַוְיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַלְוַויְיתָא"
+		}
+	],
+	"page": {
+		"number": 67,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= h. <cite ref=\"L00256\"><he>לְוָיָה</he></cite>) <i>escort, reception on arriving and leaving</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 2:2:4\">Y. Maasr. II, 49ᵈ</cite> other people <he>דלית אלוויתיה שכיחא לון</he> (read … <he>תא</he>) who do not frequently meet with a reception (an offer of refreshments &c.). ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 2:2:4\">Ib.</cite> <he>דַּלְוַויָיתֵיה וכ׳</he> (= <he>דאל</he>) who may fairly expect a reception. Cmp. <cite ref=\"A01279\"><he>אִילַּוָּיוּתָא</he></cite>."
+			]
+		}
+	]
+}

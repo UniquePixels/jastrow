@@ -1,0 +1,32 @@
+{
+	"id": "C00833",
+	"slug": "גירסא-1",
+	"headword": {
+		"text": "גִּירְסָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּרְסָא"
+		}
+	],
+	"page": {
+		"number": 242,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גְּרַס</he> II) <i>acquired learning, tradition, study by heart</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:2\">Targ. Cant. I, 2</cite> <he>בג׳</he> for study by heart (oral tradition).—",
+				"<cite ref=\"Megillah 6b:4\">Meg. 6ᵇ</cite> <he>לאוקומי ג׳ וכ׳</he> to preserve (remember) what one has learned, requires divine assistance. ",
+				"<cite ref=\"Shabbat 21b:2\">Sabb. 21ᵇ</cite> <he>ג׳ דינקותא</he> acquired in early youth (which is better remembered). ",
+				"<cite ref=\"Shabbat 30b:1\">Ib. 30ᵇ</cite> <he>לא … פומיה מג׳</he> did not cease studying by heart; <cite ref=\"Bava Metzia 86a:8\">B. Mets. 86ᵃ</cite> <he>מגִּרְסֵיה</he>.—Pl. <he>גִּירְסַיָּיא</he>. ",
+				"<cite ref=\"Bava Batra 22a\">B. Bath. 22ᵃ</cite> they may be disturbed. <he>מגִּירְסַייְהוּ</he> in their studies. [In later literature <cite ref=\"C00833\"><he>גִּירְסָא</he></cite> <i>version</i>.]"
+			]
+		}
+	]
+}

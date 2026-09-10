@@ -1,0 +1,34 @@
+{
+	"id": "O00723",
+	"slug": "סין",
+	"headword": {
+		"text": "סְיָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִין"
+		},
+		{
+			"text": "סְיָין"
+		}
+	],
+	"page": {
+		"number": 982,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סאן</he> <i>to tread</i>) <i>clay, dirt</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:43\">Targ. Ps. XVIII, 43</cite>; <cite ref=\"Targum Jonathan on II Samuel 22:43\">Targ. II Sam. XXII, 43</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:6\">Targ. Is. X, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 57:20\">Ib. LVII, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Micah 7:10\">Targ. Mic. VII, 10</cite>; <cite ref=\"Targum Jonathan on Zechariah 10:5\">Targ. Zech. X, 5</cite> <cite ref=\"O00723\"><he>סין</he></cite> ed. Lag. (ed. <cite ref=\"I00388\"><he>טִין</he></cite>; Ar. <cite ref=\"O00271\"><he>סְוָון</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 41:22\">Targ. Job XLI, 22</cite>; <cite ref=\"Aramaic Targum to Psalms 40:3\">Targ. Ps. XL, 3</cite>, v. <cite ref=\"K00947\"><he>כְּסָן</he></cite>."
+			]
+		}
+	]
+}

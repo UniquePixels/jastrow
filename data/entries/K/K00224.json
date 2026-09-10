@@ -1,0 +1,23 @@
+{
+	"id": "K00224",
+	"slug": "כוותא-2",
+	"headword": {
+		"text": "כַּוְּותָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 618,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00244\"><he>כְּוִי</he></cite>) <i>searing, blister</i> from a burn. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 84b:14\">Snh. 84ᵇ</cite> ed., v. <cite ref=\"B00303\"><he>בּוּעֲתָא</he> I</cite>."
+			]
+		}
+	]
+}

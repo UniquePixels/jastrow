@@ -1,0 +1,68 @@
+{
+	"id": "V00072",
+	"slug": "תבר-3",
+	"headword": {
+		"text": "תְּבַר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּבְרָא"
+		},
+		{
+			"text": "תְּבָרָא"
+		}
+	],
+	"page": {
+		"number": 1645,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00071\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>break, fracture; breach, misfortune</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 24:20\">Targ. Lev. XXIV, 20</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 21:19\">Targ. O. ib. XXI, 19</cite>, v. <cite ref=\"V00047\"><he>תְּבִיר</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 6:21\">Targ. Job VI, 21</cite>; a. fr.—",
+				"<cite ref=\"Taanit 31a:4\">Taan. 31ᵃ</cite> <he>וקרי ליה יום ת׳ מגל</he> and it is called the day of breaking the axe; Lam. R. introd. (R. Z’ʿera)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>contradiction</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 30:8\">Gen. R. s. 30</cite> <he>אף היא לא ת׳</he> this, too, is no contradiction of the rule; <cite ref=\"Esther Rabbah 6:2\">Esth. R. to II, 5</cite> <cite ref=\"V00074\"><he>תַּבְרָה</he></cite>. ",
+				"<cite ref=\"Shabbat 92b:4\">Sabb. 92ᵇ</cite>; <cite ref=\"Bava Kamma 47b:7\">B. Kam. 47ᵇ</cite>, a. fr. <he>ת׳ מי ששנה זו וכ׳</he> there is a contradiction (between the two clauses of the Mishnah); he that taught the one &c., v. <cite ref=\"U01571\"><he>שָׁנָה</he> I</cite>; [R. Ḥănanel: <i>excommunication</i> (v. infra), meant as an imprecation]."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>refutation, answer</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 74b:2\">Kidd. 74ᵇ</cite> (in Hebr. dict.) <he>א״כ מצידה תַּבְרָהּ</he> (Var. in Ar. s. v. <cite ref=\"R00078\"><he>צד</he></cite>: <he>מצמדה</he>) if this be so, its refutation is taken from what is next to it."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " = h. <cite ref=\"U00331\"><he>שׁוֹבֵר</he></cite>, <i>receipt</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 173a:16\">B. Bath. 173ᵃ</cite> <he>ונחזי ת׳ … דכתיב</he> let us see in whose name the receipt is written."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "pl. <he>תַּבְרֵי</he> = h. <cite ref=\"U01527\"><he>שְׁבָרִים</he></cite> (v. <cite ref=\"U00176\"><he>שֶׁבֶר</he></cite>) <i>the broken sounds of the Shofar</i> on proclaiming the excommunication of a person. ",
+			"units": [
+				"<cite ref=\"Moed Katan 17b:2\">M. Kat. 17ᵇ</cite> <he>מאי ת׳</he> … <he>תברי וכ׳</he> Rashi (ed. incorr. <he>תברא</he>) why is the blowing of the Shofar at excommunications called <i>tabré</i> (breaks)?… They break down high houses."
+			],
+			"label": "5"
+		}
+	]
+}

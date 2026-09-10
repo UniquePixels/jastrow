@@ -1,0 +1,22 @@
+{
+	"id": "P00029",
+	"slug": "עבוף",
+	"headword": {
+		"text": "עַבּוֹף"
+	},
+	"page": {
+		"number": 1036,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עבף</he>, cmp. <cite ref=\"P00011\"><he>עבב</he></cite>) <i>densely covered, thick with leaves</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 12:2\">Targ. O. Deut. XII, 2</cite> (not <he>ענוף</he>); <cite ref=\"Targum Jonathan on Jeremiah 3:13\">Targ. Jer. III, 13</cite> (h. text <cite ref=\"T00913\"><he>רענן</he></cite>); a. fr."
+			]
+		}
+	]
+}

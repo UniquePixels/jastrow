@@ -1,0 +1,46 @@
+{
+	"id": "P01391",
+	"slug": "ערם-2",
+	"headword": {
+		"text": "עָרַם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1120,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P01341\"><he>עָרָה</he> I</cite>)<i>to peel off, strip; to make white, bright</i>; v. <cite ref=\"P01325\"><he>עָרוּם</he></cite>, <cite ref=\"P01326\"><he>עָרוֹם</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱרִים"],
+			"senses": [
+				{
+					"gloss": "<i>to enlighten, inform</i>. Y. Snh. V, beg. 22ᶜ, sq. (ref. to <he>בערמה</he>, <cite ref=\"Exodus 21:14\">Ex. XXI, 14</cite>) <he>שיַעֲרִימוּהוּ באיזו מיתה מת</he> they (the forewarning witnesses) must keep him informed as to what kind of death penalty is expecting him; (Bab. ib. 80ᵇ <he>שיודיעוהו</he>).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to plan, act deliberately</i>. Mekh. Mishp. s. 4 (ref. to <he>בערמה</he>, v. supra) <he>להוציא … שאינן מַעֲרִימִין</he> this is to exclude the deaf and dumb, the insane and the minor (who do not act with premeditation; <he>להוציא מרפא … אינן מערימין</he> to exclude the surgeon …, for although they acted with wilfulness (criminal negligence), they did not plan; <cite ref=\"Yalkut Shimoni on Torah 325\">Yalk. Ex. 325</cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to act with subtlety, to get around a law by an artifice</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 65b:8\">Sabb. 65ᵇ</cite> <he>מערימין בדליקה</he> in case of a conflagration on the Sabbath (when the rabbinical law allows the rescue of a certain number of clothes by putting them on) we may use an artifice (by laying off the clothes saved and going in again to save others); (oth. opin.) <he>אין מערימין בדליקה</he> you dare not &c. ",
+						"<cite ref=\"Shabbat 65b:8\">Ib.</cite> <he>מהו שתַּעֲרִים וכ׳</he> dare a woman use an artifice &c., v. <cite ref=\"Q01953\"><he>פָּרַף</he></cite>. ",
+						"<cite ref=\"Tosefta Beitsah 3:2\">Tosef. Bets. III, 2</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 49:9\">Gen. R. s. 49</cite> <he>מה אתה מַעֲרִים על השבועה מבול וכ׳</he> why wilt thou cunningly evade thy own oath? destruction by water thou wilt not bring, but destruction by fire thou wilt? <cite ref=\"Yalkut Shimoni on Torah 83\">Yalk. ib. 83</cite>; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

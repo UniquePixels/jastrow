@@ -1,0 +1,30 @@
+{
+	"id": "T00574",
+	"slug": "רטע",
+	"headword": {
+		"text": "רָטַע",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1471,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הִרְטִיעַ</he> or <i>Pi.</i> <cite ref=\"T00574\"><he>רִטֵּעַ</he></cite> (= <he>רתע</he>) <i>to be excited</i>. Y’lamd. beg., quot. in Ar. <he>מַרְטַעַת וצווחת</he> (or <he>מְרַטַּעַת</he>) she is excited and cries.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

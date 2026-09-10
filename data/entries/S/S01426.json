@@ -1,0 +1,61 @@
+{
+	"id": "S01426",
+	"slug": "קלש",
+	"headword": {
+		"text": "קְלַשׁ"
+	},
+	"page": {
+		"number": 1383,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>קלף</he>) <i>to plane, make thin, weaken</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 3a\">Erub. 3ᵃ</cite> <he>אמרינן קְלוֹשׁ</he> we say, plane it, i.e. consider it reduced to a fine film. ",
+				"<cite ref=\"Eruvin 3a:18\">Ib.</cite> <he>אי קַלְשַׁה</he> if thou makest it very thin. ",
+				"<cite ref=\"Nedarim 68a:3\">Ned. 68ᵃ</cite> <he>מִיקְלַשׁ קָלֵישׁ</he> does he plane (weaken) it?, v. <cite ref=\"C00338\"><he>גּוּז</he></cite> ch.—<i>Part. pass.</i> <cite ref=\"S01352\"><he>קָלִישׁ</he></cite>, <cite ref=\"S01352\"><he>קְלִישָׁא</he></cite>; f. <cite ref=\"S01352\"><he>קְלִישָׁא</he></cite>, <he>קְלִישְׁתָּא</he> <i>thin, weak</i>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 7:13\">Targ. Y. Num. VII, 13</cite> (ed. Vien. <cite ref=\"S01352\"><he>קַלִּישָׁא</he></cite>); <cite ref=\"Targum Jonathan on Numbers 7:19\">ib. 19</cite> (opp. <he>סמיך</he>); a. e.—",
+				"<cite ref=\"Taanit 9b:6\">Taan. 9ᵇ</cite> <he>עיבא ק׳</he> a light cloud, opp. <cite ref=\"O01094\"><he>סמיכתא</he></cite>. ",
+				"<cite ref=\"Sotah 34b:13\">Sot. 34ᵇ</cite> <he>איידי דק׳ ארעא</he> because the layer of earth (over the rocky soil) is very light. ",
+				"<cite ref=\"Yevamot 113a:18\">Yeb. 113ᵃ</cite> bot. <he>דעתא ק׳ וכ׳</he> his reason is weak, but it is doubtful whether it is equally clear &c., v. <cite ref=\"R00354\"><he>צִילָא</he></cite>; <cite ref=\"Yevamot 113b\">ib. 113ᵇ</cite>. ",
+				"<cite ref=\"Sukkah 48b:10\">Succ. 48ᵇ</cite> <he>חמרא סמיך מיא ק׳</he> wine is thick (does nor run out quickly), water is thin."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְלֵישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to make thin, cover with a thin layer</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 13b:4\">M. Kat. 13ᵇ</cite> <he>מחפין אַקְלוּשֵׁי</he> <i>m’ḥappin</i> (Mish. ",
+						"<cite ref=\"Mishnah Moed Katan 2:5\">ib. II, 5</cite>) means covering lightly, opp. <he>אסמוכי</he>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְקְלִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to become thin, lean</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 21:15\">Targ. Y. Gen. XXI, 15</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become smooth of surface</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 33:25\">Targ. Job XXXIII, 25</cite> Regia (ed. <he>אתחליש</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

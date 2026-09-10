@@ -1,0 +1,46 @@
+{
+	"id": "Q00538",
+	"slug": "פטם-4",
+	"headword": {
+		"text": "פַּטָּם"
+	},
+	"page": {
+		"number": 1156,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00537\">preced.</cite> wds.). m. (<cite ref=\"Q00537\">preced.</cite> wds.). ",
+			"units": []
+		},
+		{
+			"gloss": "<i>druggist, apothecary</i>.—Pl. <he>פַּטָּמִים</he>, <he>פַּטָּמִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 4:5:4\">Y. Yoma IV, 41ᵈ</cite> bot. <he>הפ׳ שבירושלם</he> the druggists of Jerusalem. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:3:5\">Y. Sot. VIII, 22ᶜ</cite> top <he>כדרך שהפ׳ עושין</he> as the apothecaries are in the habit of doing. ",
+				"<cite ref=\"Bereishit Rabbah 16:2\">Gen. R. s. 16</cite>; <cite ref=\"Yalkut Shimoni on Torah 21:4\">Yalk. ib. 21</cite>, v. <cite ref=\"B00120\"><he>בְּדוֹלַח</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>one who fattens animals for sale, dealer in fattened animals</i>, opp. to <cite ref=\"T00418\"><he>רועה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Beitzah 29b:7\">Bets. 29ᵇ</cite>; <cite ref=\"Tosefta Beitsah 3:6\">Tosef. ib. III, 6</cite> <he>הולך … אצל הפ׳ וכ׳</he> a person may go (on the Holy Day) to a dealer whose regular customer he is, and say, give me a dove &c. ",
+				"<cite ref=\"Beitzah 38a:5\">Bets. 38ᵃ</cite> <he>שור של פ׳</he> an ox at the dealer’s stall, contrad. to <he>של רועה</he>. Pesik. Baḥod., p. 104ᵇ <he>אצל הפ׳ … פטומות</he> he took her to the crammer, and filled her lap with crammed birds; <cite ref=\"Yalkut Shimoni on Torah 273\">Yalk. Ex. 273</cite>; a. e.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Mishnah Eruvin 10:9\">Erub. X, 9</cite> (<cite ref=\"Eruvin 101a:12\">101ᵃ</cite>) <he>שוק של פ׳</he> the crammers’ market. ",
+				"<cite ref=\"Tosefta Shevi'it 5:8\">Tosef. Shebi. V, 8</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (sub. <he>שור של</he>) <i>mast-ox</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 20:4\">Sabb. XX, 4</cite>; Y. ib. 17ᶜ bot., v. <cite ref=\"T00893\"><he>רְעִי</he> I</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

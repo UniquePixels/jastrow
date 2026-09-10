@@ -1,0 +1,34 @@
+{
+	"id": "T00100",
+	"slug": "רביעאה",
+	"headword": {
+		"text": "רְבִיעָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְבִיעַאי"
+		},
+		{
+			"text": "רְבִיעַי"
+		}
+	],
+	"page": {
+		"number": 1442,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"T00104\"><he>רְבִיעִי</he></cite>, <i>fourth</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:19\">Targ. Gen. I, 19</cite> (ed. Berl. <he>עָי …</he>). Ib. II, 14; a. fr.—Pl. <cite ref=\"T00106\"><he>רְבִיעִין</he></cite>, <cite ref=\"T00106\"><he>רְבִיעָאִין</he></cite>, <cite ref=\"T00100\"><he>רְבִיעָאֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 10:30\">Targ. II Kings X, 30</cite>; <cite ref=\"Targum Jonathan on II Kings 15:12\">XV, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:5\">Targ. Y. Ex. XX, 5</cite>; a. e.—<i>Fem.</i> <cite ref=\"T00108\"><he>רְבִיעֵיתָא</he></cite>, <cite ref=\"T00108\"><he>רְבִיעָתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 19:24\">Targ. Lev. XIX, 24</cite> ed. Berl. <he>רביעי׳</he>. ",
+				"<cite ref=\"Targum of II Chronicles 28:3\">Targ. II Chr. XXVIII, 3</cite> <he>בר׳</he> the fourth time."
+			]
+		}
+	]
+}

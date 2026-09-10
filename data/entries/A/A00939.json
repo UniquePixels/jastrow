@@ -1,0 +1,37 @@
+{
+	"id": "A00939",
+	"slug": "אות-1",
+	"headword": {
+		"text": "אוֹת",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּת"
+		}
+	],
+	"page": {
+		"number": 36,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אה</he>, v. <he>אוי</he> I; cmp. <cite ref=\"A03397\"><he>אתא</he></cite>, <cite ref=\"A03395\"><he>אֶת</he></cite>, <cite ref=\"A03444\"><he>אתר</he></cite>, a. <cite ref=\"A03401\"><he>אָתָה</he></cite>; v. also Ges. H. Dict. s. v.)<i>to join, fit</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֵאוֹת", "נֵיאוֹת"],
+			"senses": [
+				{
+					"gloss": " (b. h.) <i>to be suited, pleased</i>, whence <i>to be gratified, to enjoy</i>. Y. Ber. III, 6ᶜ top <he>ראה את עצמו נ׳ וכ׳</he> he dreamt he felt sexual gratification; Y. Yoma VII, 44ᵈ bot.; Y. Taan. I, 64ᶜ bot.—Y. Bets. I, 61ᵃ <he>כל שנֵאותין בו בי״ט</he> whatever you are permitted to make use of on Holy Days.—<i>Fut</i>. <cite ref=\"J00011\"><he>יֵאוֹת</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 8:6\">Ber. VIII, 6</cite> <he>עד שיֵאוֹתוּ לאורו</he> until being near enough to enjoy its light. Y. Ab. Zar. I, 39ᶜ top, a. e., differences as to spelling <he>יֵאוֹתוּ</he> or <he>יֵעוּתוּ</he>.—Denom. <cite ref=\"E00678\"><he>הֲנָאָה</he></cite>, <cite ref=\"N00010\"><he>נָאֶה</he></cite>, <cite ref=\"N00013\"><he>נָאוֶה</he></cite>, <cite ref=\"N00354\"><he>נוֹי</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

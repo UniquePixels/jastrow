@@ -1,0 +1,52 @@
+{
+	"id": "O01712",
+	"slug": "סתר-2",
+	"headword": {
+		"text": "סְתַר"
+	},
+	"page": {
+		"number": 1033,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O01714\"><he>סַתֵּר</he></cite> same, <i>to hide</i>.—Part. pass. <cite ref=\"M02042\"><he>מְסַתַּר</he></cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 65:16\">Targ. Is. LXV, 16</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 16:17\">Targ. Jer. XVI, 17</cite> (ed. Wil. <he>מִסַתְּרָן</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּתַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיסְּתַר"],
+			"senses": [
+				{
+					"gloss": "<i>to hide one’s self; to find shelter</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 7:12\">Targ. Koh. VII, 12</cite>.—*<cite ref=\"Targum Jonathan on Deuteronomy 29:5\">Targ. Y. I Deut. XXIX, 5</cite> <he>מִסְתְּרָא וכ׳</he> finding shelter in your schools.—",
+						"<cite ref=\"Berakhot 31b:10\">Ber. 31ᵇ</cite> <he>כיון דמִסְתַּתַּרְנָא</he> when I closet myself (with a stranger), v. <cite ref=\"O01711\">preced.</cite> ",
+						"<cite ref=\"Sotah 2b:23\">Sot. 2ᵇ</cite> <he>זמנין דלא אִיסְתַּתְּרָא ואמר איסתתרא</he> (not <he>איסתתר</he>) it may happen that she did not closet herself with a man, but he (the husband) says that she did &c. ",
+						"<cite ref=\"Sotah 2b:27\">Ib.</cite> <he>ומִסְתַּתְּרָא וליכא וכ׳</he> Rashi (ed. <he>ומיסתתרה</he>) and she may closet herself, and we have in our days no waters … to test her &c.; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

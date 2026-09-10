@@ -1,0 +1,21 @@
+{
+	"id": "O01291",
+	"slug": "סעותא",
+	"headword": {
+		"text": "סְעוּתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1010,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נסע</he>; cmp. <he>נסח</he> a. <he>נסע</he>) = <cite ref=\"O00451\"><he>סְחוּתָא</he></cite>, <i>sweepings</i>. Pesik. ʿAsser, p. 95ᵇ <he>מן סְעוּתֵיה דביתך וכ׳</he> Ar. (ed. Bub. <he>פחותיה</he>) out of the sweepings of thy house thou mightest give me so much; [Tanḥ. R’eh 10 <cite ref=\"O00449\"><he>סחורה</he></cite>; ed. Bub. 4 <he>סחורתא</he> (read: <he>סחותא</he>); Var. in a gloss <cite ref=\"H01620\"><he>חֶרְוָותָא</he></cite>; Var. in Ar. s. v. <cite ref=\"O01291\"><he>סעותא</he></cite>: <he>חֶרְוָותֵיה</he>, <he>חֶרְוָתֵיה</he>, v. <cite ref=\"H01670\"><he>חָרֵי</he></cite>.]",
+			"units": []
+		}
+	]
+}

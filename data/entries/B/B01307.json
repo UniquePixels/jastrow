@@ -1,0 +1,24 @@
+{
+	"id": "B01307",
+	"slug": "ברסם",
+	"headword": {
+		"text": "בַּרְסָם",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 196,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Parel of <he>בסם</he>, cmp. <cite ref=\"B00894\"><he>בַּלְסָם</he></cite>) <i>a dripping like balsam</i>, whence <i>catarrh of the head</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 105b\">Ḥull. 105ᵇ</cite> <he>קשי לב׳</he> Ar. (ed. <he>לכ׳</he>, Mus. <cite ref=\"K01248\"><he>כרסום</he></cite>) is liable to produce catarrh; <he>לב׳ דחמרא וכ׳</he> a remedy for a catarrh contracted from drinking the foam of wine, is beer; for thet from beer &c.—",
+				"<cite ref=\"Gittin 69a:14\">Gitt. 69ᵃ</cite> <he>לב׳</he> a remedy for &c. [Ar.: <i>pleurisy</i>. Pers. <he>ברסאם</he>, v. Fl. to Levy Talm. Dict. I, p. 228ᵇ.]"
+			]
+		}
+	]
+}

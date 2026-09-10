@@ -1,0 +1,25 @@
+{
+	"id": "S01978",
+	"slug": "קרחה-2",
+	"headword": {
+		"text": "קָרְחָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1416,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḳorḥah</i>, father of R. Joshua (v. Fr. Darkhé, p. 178). ",
+			"units": [
+				"<cite ref=\"Megillah 28a:15\">Meg. 28ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 152a:5\">Sabb. 152ᵃ</cite>, v. <cite ref=\"C00351\"><he>גַּוְזַנְיָא</he></cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:5\">Snh. VII, 5</cite>; a. fr."
+			]
+		}
+	]
+}

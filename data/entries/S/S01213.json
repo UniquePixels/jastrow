@@ -1,0 +1,22 @@
+{
+	"id": "S01213",
+	"slug": "קישויא",
+	"headword": {
+		"text": "קִישּׁוּיָא"
+	},
+	"page": {
+		"number": 1370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02236\"><he>קְשֵׁי</he></cite>) <i>objection, argument</i>.—Pl. <cite ref=\"S01212\"><he>קִישּׁוּיֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:11:3\">Y. Pes. VII, 35ᵇ</cite> top <he>לית ליה כאילין ק׳</he> (not <cite ref=\"S01213\"><he>קישויא</he></cite>) does not agree with those arguments (does not consider them convincing)."
+			]
+		}
+	]
+}

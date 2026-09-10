@@ -1,0 +1,24 @@
+{
+	"id": "D00464",
+	"slug": "דיבבא",
+	"headword": {
+		"text": "דִּיבָבָא"
+	},
+	"page": {
+		"number": 294,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"G00016\"><he>זְבוּב</he></cite>) <i>fly</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:1\">Targ. Koh. X, 1</cite> (h. text <he>זבובי מות</he>, ed. Buxt. <he>דבובא</he>).—Pl. <he>רִּיבְבַיָּא</he>, <he>דִּיבְבֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 7:18\">Targ. Is. VII, 18</cite> (ed. Lag. <he>דבב׳</he>, ed. Buxt. <he>דְּבוּבַיָּא</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 11:20\">Targ. Y. Lev. XI, 20</cite> <he>דִּיַבְבֵי</he> (read <cite ref=\"D00763\"><he>דִּי׳</he></cite>); <cite ref=\"Targum Jonathan on Deuteronomy 14:19\">Targ. Y. Deut. XIV, 19</cite>.  v. <cite ref=\"D00491\"><he>דִּידְבָא</he></cite>."
+			]
+		}
+	]
+}

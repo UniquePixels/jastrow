@@ -1,0 +1,31 @@
+{
+	"id": "R00543",
+	"slug": "צלצל-1",
+	"headword": {
+		"text": "צִלְצֵל"
+	},
+	"page": {
+		"number": 1286,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"R00519\"><he>צָלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to vibrate; to have a clear ring</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:6:4\">Y. Succ. V, 55ᶜ</cite> bot. <he>ולא היה מְצַלְצֵל וכ׳</he> and it had not the clear ring as before."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to clap</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 17:5\">Pirké d’R. El. ch. XVII</cite> <he>ומְצַלְצֶלֶת בכפיה</he> she clapped with her hands (in joy); (<cite ref=\"Yalkut Shimoni on Nach 232:2\">Yalk. Kings 232</cite> <he>ומסלסלת בכפי ידיה</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

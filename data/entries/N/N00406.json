@@ -1,0 +1,36 @@
+{
+	"id": "N00406",
+	"slug": "נוקבא-2",
+	"headword": {
+		"text": "נוּקְבָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נוּקְבָה"
+		},
+		{
+			"text": "נוּקְבְתָא"
+		}
+	],
+	"page": {
+		"number": 890,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"N01159\"><he>נְקֵבָה</he></cite> , <i>female</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:27\">Targ. Gen. I, 27</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 27:4\">Targ. Lev. XXVII, 4</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:16\">Y. Taan. IV, 69ᵃ</cite> bot. ",
+				"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite>, v. <cite ref=\"D00793\"><he>דְּכַר</he> II</cite>; a. fr.—Pl. <he>נוּקְבִין</he>, <cite ref=\"N00406\"><he>נוּקְבָן</he></cite>, <cite ref=\"N00406\"><he>נוּקְבֽתָא</he></cite>. ",
+				"<cite ref=\"Mishnah Ketubot 4:11\">Keth. IV, 11</cite>, v. <cite ref=\"B01154\"><he>בַּר</he> II</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:3\">Y. Kil. IX, 32ᵇ</cite>; <cite ref=\"Jerusalem Talmud Ketubot 12:3:3\">Y. Keth. XII, 35ᵃ</cite> bot.; Gen. R. l. c., v. <cite ref=\"D00793\"><he>דְּכַר</he> II</cite>, a. e."
+			]
+		}
+	]
+}

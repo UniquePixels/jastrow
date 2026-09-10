@@ -1,0 +1,24 @@
+{
+	"id": "B00980",
+	"slug": "בסטיא",
+	"headword": {
+		"text": "בֶּסְטְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 178,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (βέστια, pl. = vestes) <i>garments</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 7:3\">Num. R. s. 7</cite> <he>כלים וב׳</he>. [Prob. our w. was a gloss to <he>כלים</he>.]"
+			]
+		}
+	]
+}

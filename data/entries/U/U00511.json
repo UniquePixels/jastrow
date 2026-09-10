@@ -1,0 +1,40 @@
+{
+	"id": "U00511",
+	"slug": "שופרא-2",
+	"headword": {
+		"text": "שׁוּפְרָא"
+	},
+	"page": {
+		"number": 1540,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01799\"><he>שְׁפַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>beauty, grace</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 31:30\">Targ. Prov. XXXI, 30</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 45:3\">Targ. Ps. XLV, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 45:12\">Ib. 12</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 5b:15\">Ber. 5ᵇ</cite>, v. <cite ref=\"B00767\"><he>בְּכָא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 20a:10\">Ab. Zar. 20ᵃ</cite> <he>דהאי ש׳ בלי עפרא</he> (not <cite ref=\"U00514\"><he>שופריא</he></cite>) that the dust should destroy this beauty. ",
+				"<cite ref=\"Bava Metzia 84a:7\">B. Mets. 84ᵃ</cite> <he>שׁוּפְרֵיה דר׳ יוחנן</he> the beauty of R. J.; a. fr.—V. <cite ref=\"U01800\"><he>שֶׁפֶר</he></cite> ch."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>best portion</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 18:29\">Targ. O. Num. XVIII, 29</cite>; <cite ref=\"Onkelos Numbers 18:30\">30</cite>; <cite ref=\"Onkelos Numbers 18:32\">32</cite> (h. text <he>חלב</he>).—Pl. <cite ref=\"U00513\"><he>שׁוּפְרֵי</he></cite>. ",
+				"<cite ref=\"Pesachim 3b:10\">Pes. 3ᵇ</cite> <he>קאכילנא ש׳ ש׳</he> I got the best pieces (of the Passover lamb) to eat."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "E00688",
+	"slug": "הנף",
+	"headword": {
+		"text": "הָנֵף"
+	},
+	"page": {
+		"number": 358,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Inf. Hif. of <cite ref=\"N00387\"><he>נוּף</he></cite>) <i>waving ceremony</i> in the Temple.—<he>יום ה׳</he> (<cite ref=\"Leviticus 23:10-12\">Lev. XXIII, 10—12</cite>) <i>the second day of Passover</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 4:3\">R. Hash. IV, 3</cite>; <cite ref=\"Mishnah Sukkah 3:12\">Succ. III, 12</cite>; <cite ref=\"Jerusalem Talmud Challah 1:1:21\">Y. Ḥall. I, 57ᶜ</cite> top; a. e.—",
+				"<cite ref=\"Tosefta Arakhin 1:11\">Tosef. Arakh. I, 11</cite> <he>ביום ה׳</he> on the same week-day as the second day of Passover; <cite ref=\"Arakhin 9b:17\">Arakh. 9ᵇ</cite>; v. <cite ref=\"P00491\"><he>עִיבּוּר</he></cite>."
+			]
+		}
+	]
+}

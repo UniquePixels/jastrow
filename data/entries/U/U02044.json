@@ -1,0 +1,24 @@
+{
+	"id": "U02044",
+	"slug": "שרשיפא",
+	"headword": {
+		"text": "שַׁרְשִׁיפָא"
+	},
+	"page": {
+		"number": 1635,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>שרשריפא</he>, redupl. of <he>שרף</he>, Shaf. of <he>רפף</he>, v. <cite ref=\"U02015\"><he>שְׁרַפְרַף</he></cite>) <i>camp-stool, chair</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 129a:11\">Sabb. 129ᵃ</cite> <he>לרבה צלחו ליה ש׳</he> (Ms. M. <he>שרשפא</he>) for Rabbah they chopped up a chair (for kindling wood for the preparation of the Sabbath meals). ",
+				"<cite ref=\"Ketubot 61a:11\">Keth. 61ᵃ</cite> <he>רב פפא אש׳</he> for R. P. his wife placed the cup on a chair. ",
+				"<cite ref=\"Berakhot 24a:3\">Ber. 24ᵃ</cite>"
+			]
+		}
+	]
+}

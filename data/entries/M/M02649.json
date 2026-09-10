@@ -1,0 +1,27 @@
+{
+	"id": "M02649",
+	"slug": "מרטקא",
+	"headword": {
+		"text": "מַרְטְקָא"
+	},
+	"page": {
+		"number": 841,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", m.",
+			"units": []
+		},
+		{
+			"gloss": " (transp. of <cite ref=\"M01070\"><he>מַטְרְקָא</he></cite>, q. v.) <i>whip</i>. ",
+			"units": ["<cite ref=\"Yoma 77a\">Yoma 77ᵃ</cite>"],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>withered flesh</i>, v. <cite ref=\"M00625\"><he>מוּרְדְּקָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

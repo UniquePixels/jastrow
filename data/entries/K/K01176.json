@@ -1,0 +1,25 @@
+{
+	"id": "K01176",
+	"slug": "כריש",
+	"headword": {
+		"text": "כָּרֵישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּרֵישָׁא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 667,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>כרש</he>, cmp. <cite ref=\"K01131\"><he>כְּרוֹשְׁיָיתָא</he></cite>) name of a <i>fish</i>, prob. <i>shark</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 74a:8\">B. Bath. 74ᵃ</cite> bot. <cite ref=\"K01176\"><he>כריש</he></cite> Ms. M. (ed. <cite ref=\"K01176\"><he>כרישא</he></cite>, Ar. <cite ref=\"K01273\"><he>כרשא</he></cite>)."
+			]
+		}
+	]
+}

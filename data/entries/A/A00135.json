@@ -1,0 +1,23 @@
+{
+	"id": "A00135",
+	"slug": "אבילין",
+	"headword": {
+		"text": "אֲבֵילִין"
+	},
+	"page": {
+		"number": 6,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Abelin, Abilena</i>, a district of Peræa (v. Graetz, Gesch. d. Jud. II, 2, p. 457). ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 17\">Lev. R. s. 17</cite>; Pesik. Vayhi, p. 66ᵃ <he>האכלון</he> (corr. acc.); <cite ref=\"Pesikta Rabbati 18:1\">Pesik. R. s. 18</cite> (p. 88ᵇ ed. Friedm.) <cite ref=\"A00530\"><he>אובלים</he></cite>; <cite ref=\"Ruth Rabbah 2:10\">Ruth R. to I, 5</cite> <cite ref=\"A00073\"><he>אבולין</he></cite>. ",
+				"<cite ref=\"Tosefta Zevahim 2:3\">Tosef. Zeb. II, 3</cite> ed. Zuck. <cite ref=\"A01130\"><he>אֵיבְלַיִים</he></cite> (Var. <cite ref=\"A00530\"><he>אובלים</he></cite>). Cmp. <cite ref=\"A00068\"><he>אִבּוּל</he></cite> a. <cite ref=\"A00153\"><he>אָבֵל</he></cite> pr. n. pl."
+			]
+		}
+	]
+}

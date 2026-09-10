@@ -1,0 +1,26 @@
+{
+	"id": "T00870",
+	"slug": "רעב-1",
+	"headword": {
+		"text": "רָעֵב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1485,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>hungry</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 56a:8\">Gitt. 56ᵃ</cite> <he>כל … כשהוא ר׳ וכ׳</he> whoever entered his house hungry like a dog came out satisfied. ",
+				"<cite ref=\"Vayikra Rabbah 34:13\">Lev. R. s. 34</cite> (ref. to <cite ref=\"Isaiah 58:10\">Is. LVIII, 10</cite>) <he>אם זכיתם לרְעֵבוֹ של יעקב וכ׳</he> if you do good, you will give to the hungry one of Jacob, if not, to the satisfied one of Esau (to the Roman oppressor); a. fr., v. next w.—Pl. <he>רְעֵבִים</he>. ",
+				"<cite ref=\"Midrash Tehillim 109:13\">Midr. Till. to Ps. CXVIII, 19</cite> <he>מאכיל ר׳ הייתי</he> I have been a feeder of the hungry; <he>זה השער של מאכיל ר׳</he> this is the gate for him who fed the hungry. ",
+				"<cite ref=\"Midrash Tehillim 146:3\">Midr. Till. to Ps. CXLVI, 7</cite> <he>ומי הם הר׳ זה וכ׳</he> and who are the hungry (to whom the Lord gives bread)? Such as Elijah who was hungry &c.; a. e."
+			]
+		}
+	]
+}

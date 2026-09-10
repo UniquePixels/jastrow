@@ -1,0 +1,22 @@
+{
+	"id": "C01009",
+	"slug": "גמולא",
+	"headword": {
+		"text": "גְּמוּלָא"
+	},
+	"page": {
+		"number": 252,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"C01008\">same</cite>.—Pl. <cite ref=\"C01009\"><he>גְּמוּלָן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 116:12\">Targ. Ps. CXVI, 12</cite>."
+			]
+		}
+	]
+}

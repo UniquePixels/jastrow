@@ -1,0 +1,23 @@
+{
+	"id": "J00504",
+	"slug": "יפח",
+	"headword": {
+		"text": "יַפַּח",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 586,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נפח</he>) <i>blowing up</i> (of cheeks). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 18b:12\">Snh. 18ᵇ</cite> (as a rule for appointing the Spring month, v. <cite ref=\"A00109\"><he>אָבִיב</he></cite>) <he>אם קידום … י׳ בלועך נפיק לקיבליה וכ׳</he> (Ms. M. <he>רפח מלועך</he>, corr. acc.; oth. Var. v. Rabb. D. S. a. l. note) when the East wind is ever so strong, and a blow out of thy cheek goes out to meet it (i.e. if a person feels the warmth of thy breath blown against the East wind),—such is Adar (and no Adar Sheni is to be intercalated); Y. ib. I, 18ᶜ bot. <he>פה בלועה יפיק וכ׳</he> (read: <he>פח בלועך</he>); Y. R. Hash. I, 58ᵇ top <he>פוח לוחיך ופוק וכ׳</he> blow up thy cheek &c."
+			]
+		}
+	]
+}

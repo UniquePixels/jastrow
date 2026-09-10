@@ -1,0 +1,36 @@
+{
+	"id": "P01092",
+	"slug": "עצב-2",
+	"headword": {
+		"text": "עֲצַב"
+	},
+	"page": {
+		"number": 1101,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01091\">same</cite>; (intr.) <i>to be grieved</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 34:6\">Targ. Ps. XXXIV, 6</cite> (v. <cite ref=\"H01335\"><he>חֲסַד</he> II</cite>).—<i>Part. pass.</i> <cite ref=\"P01095\"><he>עָצֵב</he></cite>, <he>עָצִיב</he>; f. <cite ref=\"P01116\"><he>עֲצִיבָא</he></cite>; pl. <he>עֲצִיבֵי</he> <i>grieved, sad</i>. ",
+				"<cite ref=\"Aramaic Targum to Esther 4:1\">Targ. Esth. IV, 1</cite>; <cite ref=\"Targum Jonathan on Exodus 12:31\">Targ. Y. Ex. XII, 31</cite> <he>קל ע׳</he> the voice of a mourner.—",
+				"<cite ref=\"Beitzah 16b:7\">Bets. 16ᵇ</cite> <he>חזייה דהוה ע׳</he> he saw that he looked down-hearted; <he>אמאי עֲצִיבַת</he> why art thou grieved? <cite ref=\"Taanit 25a\">Taan. 25ᵃ</cite>. ",
+				"<cite ref=\"Taanit 22a:7\">Ib. 22ᵃ</cite> <he>מבדחינן ע׳</he>, v. <cite ref=\"B00117\"><he>בָּדוֹחָא</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיעֲצִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be grieved</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 31a:1\">Ber. 31ᵃ</cite> <he>ואִעֲצִיבוּ</he> and they grew sad; <cite ref=\"Yalkut Shimoni on Nach 881:1\">Yalk. Ps. 881</cite> <he>ואִיעֲ׳</he>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

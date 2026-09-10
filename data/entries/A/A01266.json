@@ -1,0 +1,37 @@
+{
+	"id": "A01266",
+	"slug": "אילא-1",
+	"headword": {
+		"text": "אֵילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַיְילָא"
+		}
+	],
+	"page": {
+		"number": 48,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"A01264\"><he>אַיִל</he></cite>; trnsf. <i>beak of a ship</i> (a beam to which the head of a ram was attached), <i>prow</i>. ",
+			"units": ["<cite ref=\"Nedarim 50a:6\">Ned. 50ᵃ</cite>"],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>projection from a lateral wall, buttress</i>, &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:48\">Targ. Ezek. XL, 48</cite>; a. e. (Var. <cite ref=\"A01769\"><he>אֵלָא</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A01264\"><he>אַיִּל</he></cite> 2) name of a <i>worm</i> or <i>mite</i> in grapes. ",
+			"units": [
+				"<cite ref=\"Shabbat 90a:3\">Sabb. 90ᵃ</cite> <he>איל</he> (Rashi a. Ms. Oxf. <he>איי׳</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "B00020",
+	"slug": "באטא",
+	"headword": {
+		"text": "בָּאטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּטָא"
+		}
+	],
+	"page": {
+		"number": 135,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (βάτος) <i>prickly roach</i>, a forbidden fish.—Pl. <cite ref=\"B00021\"><he>בָּאטֵי</he></cite>, <cite ref=\"B00503\"><he>בָּטֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 39a:11\">Ab. Zar. 39ᵃ</cite> <he>דהוה קרי ליה בא׳</he> ed. (Ar. <cite ref=\"B00504\"><he>בטי</he></cite>) that he (the Gentile) called the brine <i>baté</i>"
+			]
+		}
+	]
+}

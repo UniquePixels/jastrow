@@ -1,0 +1,23 @@
+{
+	"id": "M00869",
+	"slug": "מחילה",
+	"headword": {
+		"text": "מְחִילָה"
+	},
+	"page": {
+		"number": 760,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00885\"><he>מָחַל</he></cite>) <i>pardon</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 7:1\">Yoma VII, 1</cite>; <cite ref=\"Mishnah Sotah 7:7\">Sot. VII, 7</cite> <he>על מְחִילַת העון</he> the benediction offering praise for forgiveness of guilt. Y. B. Kam. VIII, end, 6ᶜ <he>אין לו מ׳ עולמית</he> will never be forgiven. ",
+				"<cite ref=\"Sanhedrin 44b:11\">Snh. 44ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

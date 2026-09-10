@@ -1,0 +1,24 @@
+{
+	"id": "E00787",
+	"slug": "הצתה",
+	"headword": {
+		"text": "הַצָּתָה"
+	},
+	"page": {
+		"number": 364,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00552\"><he>יָצַת</he></cite>) <i>kindling</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:9\">Y. Sabb. II, beg. 4ᶜ</cite> <he>צריכה הצאתה ברוב וכ׳</he> (corr. acc.) must be kindled so that the larger portion be on fire, v. <cite ref=\"D00858\"><he>דֶּלֶק</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 2:1:4\">Y. Yoma II, 39ᶜ</cite> top; Bab. ",
+				"<cite ref=\"Yoma 24b:9\">ib. 24ᵇ</cite> <he>הַצָּתַת וכ׳</he> kindling of &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "D01060",
+	"slug": "דרומי",
+	"headword": {
+		"text": "דְּרוֹמִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּרוֹמִית"
+		}
+	],
+	"page": {
+		"number": 322,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D01055\"><he>דָּרוֹם</he></cite>) <i>southern; Daromean</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 3:7:6\">Y. Peah III, 17ᵈ</cite> <he>חצייה ד׳</he> its southern half; <cite ref=\"Jerusalem Talmud Kiddushin 1:5:9\">Y. Kidd. I, 60ᵈ</cite> top.—",
+				"<cite ref=\"Bereishit Rabbah 91:8\">Gen. R. s. 91</cite>, v. <cite ref=\"A00152\"><he>אֲבָל</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:4:12\">Y. Sabb. I, 3ᵈ</cite> top, a. e. <he>ר׳ שמלאי הד׳</he> R. Simlai the Daromean.—",
+				"<cite ref=\"Bava Batra 25b:6\">B. Bath. 25ᵇ</cite>, a. fr. <he>רוח ד׳</he> southern wind.—",
+				"<cite ref=\"Mishnah Zevachim 5:3\">Zeb. V, 3</cite>, a. fr. <he>ד׳ מזרחית</he> South-East. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:3:5\">Y. Pes. V, 32ᵃ</cite> bot. <he>לד׳</he> a Daromean (Bab. ",
+				"<cite ref=\"Pesachim 62b\">ib. 62ᵇ</cite> <cite ref=\"L00199\"><he>לודים</he></cite>); a. fr.—Pl. <he>דְּרוֹמִיִּים</he>. ",
+				"<cite ref=\"Mishnah Shekalim 6:3\">Shek. VI, 3</cite> Y. a. Bab. ed. (Mish. <cite ref=\"D01060\"><he>דְּרוֹמִים</he></cite>)."
+			]
+		}
+	]
+}

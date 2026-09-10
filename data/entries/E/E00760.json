@@ -1,0 +1,40 @@
+{
+	"id": "E00760",
+	"slug": "הפקרא",
+	"headword": {
+		"text": "הֶפְקֵרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶפְקֵירָא"
+		}
+	],
+	"page": {
+		"number": 362,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פקר</he>, cmp. <cite ref=\"A02783\"><he>אַפְקָרוּתָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>unbridled lust, lawlessness</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 13a:4\">Gitt. 13ᵃ</cite> <he>עבדא בה׳ ניחא ליה</he> a slave prefers the dissolute life with a slave (to regular marriage with a free woman); <cite ref=\"Ketubot 11a:5\">Keth. 11ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " as <cite ref=\"E00759\">preced.</cite> word. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 115b:3\">B. Kam. 115ᵇ</cite> <he>מה׳ קא זכינא</he> (in securing the honey from a broken vessel on the road) I took possession of renounced goods.—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:5\">Targ. Y. Deut. XXV, 5</cite> <cite ref=\"E00760\"><he>הֶפְקֵרָא</he></cite> (<cite ref=\"E00760\"><he>הֶפְקְרָא</he></cite>) <i>an unprotected woman</i>"
+			],
+			"label": "2"
+		}
+	]
+}

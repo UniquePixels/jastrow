@@ -1,0 +1,34 @@
+{
+	"id": "M01005",
+	"slug": "מטלטלא",
+	"headword": {
+		"text": "מְטַלְטְלָא"
+	},
+	"page": {
+		"number": 767,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00491\"><he>טַלְטֵל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>exile, homeless</i>.—Pl. <he>מְטַלְטְלַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 4:6\">Targ. Mic. IV, 6</cite>, sq.; <cite ref=\"Targum Jonathan on Zephaniah 3:19\">Targ. Zeph. III, 19</cite> (h. text <he>הצלעה</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (mostly pl.) <cite ref=\"M01005\"><he>מְטַלְטְלֵי</he></cite>, <cite ref=\"M00994\"><he>מִיטַּ׳</he></cite> = <cite ref=\"M01006\">next w.</cite> ",
+			"units": [
+				"<cite ref=\"Yevamot 99a:9\">Yeb. 99ᵃ</cite> <he>עבדא מ׳ ומ׳ וכ׳</he> a slave is chattel, and chattel (in R. Meir’s opinion) is seizable for widowhood; <cite ref=\"Ketubot 81b:12\">Keth. 81ᵇ</cite> <he>ומ׳ לכתובה לא וכ׳</he> and chattel is not seizable &c.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

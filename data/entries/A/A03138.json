@@ -1,0 +1,29 @@
+{
+	"id": "A03138",
+	"slug": "ארכונטוס",
+	"headword": {
+		"text": "אַרְכוֹנְטוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְכוֹנְטָס"
+		}
+	],
+	"page": {
+		"number": 121,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἄρχων, -οντος) <i>archont, city-magistrate, prefect</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:14\">Y. Taan. IV, 69ᵃ</cite> top. ",
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite>; <cite ref=\"Eichah Rabbah 4:18\">IV, 18</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 76\">Gen. R. s. 76</cite> <he>ארכוננוס</he> (corr. acc.). [The office of a city mayor or senator in the Roman days was often ruinous to its occupants; v. Sm. Ant. s. v. Senatus.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "U02100",
+	"slug": "שתיה-2",
+	"headword": {
+		"text": "שְׁתִיָּה",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁתִיָּיה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1637,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שָׁתָה</he> II) <i>foundation</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 653:3\">Yalk. Ps. 653</cite> <he>שְׁתִיַּית עולם</he>, v. <cite ref=\"M02997\"><he>מַשְׁתִּית</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 653:3\">Ib.</cite>; <cite ref=\"Mishnah Yoma 5:2\">Yoma V, 2</cite> <he>משניטל הארון … וש׳ וכ׳</he> since the Ark disappeared, there was a stone in its place, … which was called foundation stone; <cite ref=\"Sanhedrin 26b\">Snh. 26ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 5:3:3\">Y. Yoma V, 42ᶜ</cite> <he>למה … אבן ש׳ שממנה הושתה העולם</he> why was it called foundation stone? Because from it was the world founded (or started, v. <cite ref=\"U02093\"><he>שָׁתָה</he> II</cite>); <cite ref=\"Vayikra Rabbah 20:4\">Lev. R. s. 20</cite>; <cite ref=\"Yoma 54b:2\">Yoma 54ᵇ</cite> <he>שממנה הושתת וכ׳</he>; <cite ref=\"Tosefta Yoma 3:8\">Tosef. Yoma III</cite> (<cite ref=\"Tosefta Yoma 2:6\">II</cite>), 6; a. e."
+			]
+		}
+	]
+}

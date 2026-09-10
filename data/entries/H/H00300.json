@@ -1,0 +1,34 @@
+{
+	"id": "H00300",
+	"slug": "חוטבא",
+	"headword": {
+		"text": "חוֹטְבָא"
+	},
+	"page": {
+		"number": 431,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00591\"><he>חֲטַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>embroidery, design</i>.—Pl. <he>חוֹטְבֵי</he>. ",
+			"units": [
+				"<cite ref=\"Nedarim 49b\">Ned. 49ᵇ</cite> <he>גלימא דח׳</he> (Rashi a. Tosaf. <he>דתו׳</he>, Ar. <he>דהִיטְ׳</he>) an embroidered cloak."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"H00589\"><he>חָטַב</he> I</cite>) <i>chiselling;</i> trnsf. <i>design, plot</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 73:7\">Targ. Ps. LXXIII, 7</cite> <he>חוֹטְבֵיהוֹן</he> (Lev. <cite ref=\"H00586\"><he>חָטְ׳</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

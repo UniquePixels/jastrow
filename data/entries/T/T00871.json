@@ -1,0 +1,51 @@
+{
+	"id": "T00871",
+	"slug": "רעב-2",
+	"headword": {
+		"text": "רָעֵב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1485,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be hungry</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 52b:6\">Succ. 52ᵇ</cite> <he>אבר … מַרְעִיבוֹ שבע משביעו ר׳</he> a small organ is in man, when you starve it, it is satisfied, when you satisfy it, it is hungry; <cite ref=\"Sanhedrin 107a:4\">Snh. 107ᵃ</cite>. Mekh. B’shall., s. 4 <he>ר׳ האכילו</he> when the child was hungry, he gave him food; (<cite ref=\"Yalkut Shimoni on Torah 233:5\">Yalk. Ex. 233</cite> <cite ref=\"T00871\"><he>נִרְעָב</he></cite>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְעִיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00870\">same</cite>. Mekh. l. c. <he>ה׳ האכילו</he> when Israel was hungry, he (the Lord) gave him food.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to starve, subject to privation</i>. Succ. l. c. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 65b:14\">Snh. 65ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 18:11\">Deut. XVIII, 11</cite> <he>דורש אל המתים</he>) <he>זה המַרְעִיב עצמו וכ׳</he> that is he who fasts and spends the night in the cemetery in order that the spirit of impurity (unholy inspiration) may rest upon him. Ib. 100ᵃ <he>כל המרעיב עצמו וכ׳</he> him who undergoes privations for the sake of studying the words of the Law in this world, the Lord will satisfy &c. Y. Keth. V, 30ᵇ <he>האבר הזה הִרְעִיבָתוֹ השביעתו … הרעיבתו</he> that certain organ, if she starves it, she makes it satisfied, the more she satisfies it, the more she makes it hungry, v. supra. ",
+						"<cite ref=\"Taanit 11a:3\">Taan. 11ᵃ</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִרְעָב"],
+			"senses": [
+				{
+					"gloss": "<i>to be famished</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

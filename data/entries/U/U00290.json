@@ -1,0 +1,24 @@
+{
+	"id": "U00290",
+	"slug": "שדרייא",
+	"headword": {
+		"text": "שִׁדְרַיָּיא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1526,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (prob. transpos. of <he>שרד׳</he>; <cite ref=\"J00597\"><he>ירד</he></cite>) <i>sediment, lees</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 40b\">B. Mets. 40ᵇ</cite>. Ms. M. a. Ar., and marg. vers. (ed. <cite ref=\"U01466\"><he>שְׁמָרַיָּיא</he></cite>)."
+			]
+		}
+	]
+}

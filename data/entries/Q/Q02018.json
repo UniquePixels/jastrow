@@ -1,0 +1,50 @@
+{
+	"id": "Q02018",
+	"slug": "פרר-2",
+	"headword": {
+		"text": "פְּרַר"
+	},
+	"page": {
+		"number": 1241,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q02017\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפָּרָר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְפְּרַר", "אִיפְּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken, crushed, crumbled</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 22:15\">Targ. Ps. XXII, 15</cite> Ms., v. <cite ref=\"Q01964\"><he>פַּרְפֵּר</he> I</cite>.—",
+						"<cite ref=\"Pesachim 74b:4\">Pes. 74ᵇ</cite> <he>דמִפְּרִיר</he> (Ms. M. <he>דמִיפְּרַךְ</he>; Ms. O. <he>דמִיפְּרַד</he>), v. <cite ref=\"O01082\"><he>סְמִידָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אָפֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to make void, invalidate</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 73a:1\">Ned. 73ᵃ</cite> <he>לכי שמע לֵיפֵר לה הוא</he> when he hears of the vow, why does he not disallow it himself (what need has he of the agent)? <cite ref=\"Nedarim 70a:1\">Ib. 70ᵃ</cite> <he>לא מצי מֵיפַר</he> he has no power to invalidate her vows. ",
+						"<cite ref=\"Nedarim 70b:2\">Ib. 70ᵇ</cite> <he>לא מצי מיפר אב</he> her father has no power &c.; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

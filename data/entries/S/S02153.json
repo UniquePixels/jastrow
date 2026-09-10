@@ -1,0 +1,23 @@
+{
+	"id": "S02153",
+	"slug": "קרצית",
+	"headword": {
+		"text": "קְרָצִית"
+	},
+	"page": {
+		"number": 1425,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S02141\"><he>קָרַץ</he></cite>; cmp. <cite ref=\"S00636\"><he>קוֹרְצִין</he></cite>) <i>a big fly</i> or <i>locust</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 86b:15\">Gitt. 86ᵇ</cite> <he>ק׳ שבעמיר</he>, expl. ",
+				"<cite ref=\"Gittin 86b:15\">ib.</cite> <he>רידבתא דביני כיפי</he> flies among sheaves."
+			]
+		}
+	]
+}

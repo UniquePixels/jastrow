@@ -1,0 +1,44 @@
+{
+	"id": "N00380",
+	"slug": "נוני-1",
+	"headword": {
+		"text": "נוני"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִוְנֶה"
+		}
+	],
+	"page": {
+		"number": 888,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>נונו</he> = <he>נענע</he>, v. <cite ref=\"N00379\">preced.</cite>; cmp. <cite ref=\"R00226\"><he>צִוְצֵי</he></cite>, s. v. <cite ref=\"R00222\"><he>צָוַץ</he></cite>) <i>to be tender, delicate</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְנַוְנֶה"],
+			"senses": [],
+			"stem": "Hithpalp."
+		},
+		{
+			"forms": ["נִתְנַוְנֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to become delicate, be failing, to fall away</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 91a:13\">B. Kam. 91ᵃ</cite> <he>אמדוהו והיה מִתְנַוְנֶה והולך</he> (Ms. M. <he>מִתְנַוְונֶה</he>; ed. Sonc. <he>מִתְנַוֶּה</he>) if the experts declared his injuries as curable (and the court assessed the damages accordingly), but he continues to be falling away. ",
+						"<cite ref=\"Chullin 57b:13\">Ḥull. 57ᵇ</cite> <he>מִתְנַוְונָה והולכת</he> (<cite ref=\"Tosefta Chullin 3:9\">Tosef. ib. III, 9</cite> <he>מכחשת</he>) if the animal loses flesh, opp. <he>משבחת</he>. ",
+						"<cite ref=\"Mishnah Sotah 3:5\">Sot. III, 5</cite>; <cite ref=\"Sotah 6a:14\">ib. 6ᵃ</cite> <he>מתנוונא</he> (corr. acc.). ",
+						"<cite ref=\"Sotah 26a:14\">Ib. 26ᵃ</cite> <he>במתנונה דרך איברים</he> when she is ailing all over the body (not suffering locally as predicted for the faithless woman, <cite ref=\"Numbers 5:27\">Num. V, 27</cite>); Y. ib. III, 19ᵃ bot. <he>המִתְנַוָּוה</he>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

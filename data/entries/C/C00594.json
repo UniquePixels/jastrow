@@ -1,0 +1,23 @@
+{
+	"id": "C00594",
+	"slug": "גחמון",
+	"headword": {
+		"text": "גַּחֲמוּן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 233,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (imper. of a verb <he>גחם</he> <i>to burn</i>, Arab. <i>ġaḥama</i>, adopted for homiletical play on <he>גחם</he>, <cite ref=\"Genesis 22:24\">Gen. XXII, 24</cite>) <i>burn them</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 102:5\">Yalk. Gen. 102</cite>, end (from <cite ref=\"Bereishit Rabbah 57\">Gen. R. s. 57</cite>, end) <he>גחם גחמון</he> Yalk. a. l. [Midr. ed. <cite ref=\"C01018\"><he>גמחון</he></cite>.—The entire passage seems to be a late gloss.]"
+			]
+		}
+	]
+}

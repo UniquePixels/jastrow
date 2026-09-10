@@ -1,0 +1,47 @@
+{
+	"id": "B00150",
+	"slug": "בדל-1",
+	"headword": {
+		"text": "בָּדַל"
+	},
+	"page": {
+		"number": 140,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בד</he>, v. <he>בדד</he>) <i>to separate, divide, distinguish;</i> (neut. v.) <cite ref=\"B00150\"><he>בָּדֵל</he></cite> <i>to keep aloof</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 87b:4\">Pes. 87ᵇ</cite> <he>בְּדוֹל עצמך וכ׳</he> withdraw thyself from (touching) her. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:5:2\">Y. Ḥag. II, 78ᵇ</cite> top <he>כדי שיהא בָּדֵל מן התרומה</he> in order that he may be careful in handling T’rummah. ",
+				"<cite ref=\"Bava Metzia 59b\">B. Mets. 59ᵇ</cite> it seems to me <he>שחברים בְּדֵילִים וכ׳</he> that the colleagues hold themselves aloof from thee (i.e. thou art excommunicated). ",
+				"<cite ref=\"Bava Metzia 89a\">Ib. 89ᵃ</cite> <he>ב׳ בתמרים</he> to separate (with a tool) dates which stick together (cmp. Rashi a. l.); <cite ref=\"Jerusalem Talmud Maasrot 2:4:4\">Y. Maasr. II, 50ᵃ</cite> top <he>הבדיל בתמרים</he> (read <he>הבודל</he>). ",
+				"<cite ref=\"Berakhot 5a:6\">Ber. 5ᵃ</cite> <he>יסורין בְּדֵילִין וכ׳</he> pains will stay away from him; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְדִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to sever, set apart, distinguish</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 21b:4\">Ḥull. 21ᵇ</cite> <he>מולק ואינו מַבְדִּיל</he> he nips the bird’s neck but must not sever a limb or cut with his nail deeper than required (<cite ref=\"Leviticus 1:17\">Lev. I, 17</cite>). Ib. I, 7 <he>המבדיל בין וכ׳</he> He who established distinctions between (the) sanctity (of the Sabbath) and (the) sanctity (of the Festivals); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"A00042\"><he>אַבְדָּלָה</he></cite> or <cite ref=\"E00028\"><he>הַבְדָּלָה</he></cite>) <i>to recite the benediction Hammabdil</i> on the exit of the Sabbath or Festival, <i>to say Habdalah</i>. Ibid. <he>כיצד מבדילין</he> what formula must you use (at the exit of the Sabbath and the simultaneous beginning of a Festival)? a. fr.—Part. Hof. <he>מוּבְדָּל</he> <i>separated, distinguished</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 10:1\">Num. R. s. 10</cite> beg. <he>מוּבְדָּלִים וכ׳</he> are different from the doings of other nations. ",
+						"<cite ref=\"Nazir 7a:9\">Naz. 7ᵃ</cite> <he>מוּבְדָּלוֹת זו מזו</he> are separated one from another. ",
+						"<cite ref=\"Tosefta Peah 3:5\">Tosef. Peah III, 5</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

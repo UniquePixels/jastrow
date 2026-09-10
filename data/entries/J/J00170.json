@@ -1,0 +1,32 @@
+{
+	"id": "J00170",
+	"slug": "יודפת",
+	"headword": {
+		"text": "יוֹדְפָת"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָדְפַת"
+		},
+		{
+			"text": "יָטְבַת"
+		}
+	],
+	"page": {
+		"number": 568,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Yodfath, Yotapata</i>, a fortress in Galilee (v. Jos. B. J. III, 7, 6, sq.; cmp. <he>יָטְבָה</he> <cite ref=\"II Kings 21:19\">II Kings XXI, 19</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 9:6\">Arakh. IX, 6</cite> <he>י׳ הישנה</he> the old fort of J.—",
+				"<cite ref=\"Tosefta Niddah 3:11\">Tosef. Nidd. III, 11</cite> <he>בקעת יטבת</he> the valley of J.; <cite ref=\"Niddah 20a:84\">Nidd. 20ᵃ</cite> <he>יודפ׳</he>.—Denom. <cite ref=\"J00169\"><he>יוֹדְפָאָה</he></cite> m. <i>of J</i>. ",
+				"<cite ref=\"Zevachim 110b\">Zeb. 110ᵇ</cite>; <cite ref=\"Meilah 13b:18\">Meïl. 13ᵇ</cite> <he>יודאפה</he> (corr. acc.); Y. Succ. IV, 54ᶜ bot. <cite ref=\"J00254\"><he>יוֹתְפָיָיה</he></cite>."
+			]
+		}
+	]
+}

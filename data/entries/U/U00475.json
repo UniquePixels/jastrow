@@ -1,0 +1,47 @@
+{
+	"id": "U00475",
+	"slug": "שוע-1",
+	"headword": {
+		"text": "שׁוּעַ"
+	},
+	"page": {
+		"number": 1537,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>שעע</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be smooth, soft;</i> trnsf. <i>to be discouraged, to despair</i> (cmp. <cite ref=\"M01978\"><he>מָסַס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> (ref. to <he>תשתע</he>, <cite ref=\"Isaiah 41:10\">Is. XLI, 10</cite>) <he>היה לבו … אל תשתע … לא תָשׁוּעַ</he> his heart was soft as wax, and the Lord sent him two angels …; to this refers what is written <i>al tishtʿa</i> …, be not soft (despair not); Yalk. ib. 115 <he>אל תָּשׁוּעַ אל יהא לבך לשעוה</he> be not soft, let thy heart not turn into wax (cmp. ",
+				"<cite ref=\"Psalms 22:15\">Ps. XXII, 15</cite>); <cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite>; (<cite ref=\"Yalkut Shimoni on Nach 313\">Yalk. Is. 313</cite> <he>אל תירא ואל תשתע</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to smooth</i>,] <i>to card, hackle</i>.—Part. pass. <cite ref=\"U00475\"><he>שׁוּעַ</he></cite>, pl. <he>שׁוּעִים</he>, <he>שׁוּעִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 9:8\">Kil. IX, 8</cite>, a. e., v. <cite ref=\"N00336\"><he>נוּז</he></cite>. ",
+				"<cite ref=\"Mishnah Kilayim 9:9\">Ib. 9</cite> <he>לבדים … מפני שהן ש׳</he> felt clothes (of mixed material) are forbidden, because they are carded. Y. ib. IX, end, 32ᵈ <he>הוינן אמרין הא שָׁע מותר</he> we might have thought, but if one cards (wool and linen together), it is permitted; v. <cite ref=\"U01650\"><he>שַׁעַטְנֵז</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיַּיע"],
+			"senses": [
+				{
+					"gloss": "<i>to make slippery, cause to slip</i> (cmp. <cite ref=\"H01112\"><he>חָלַק</he></cite>). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 77\">Gen. R. s. 77</cite> end (expl. <he>ותקע</he>, <cite ref=\"Genesis 30:6\">Gen. XXX, 6</cite>) <he>שִׁיְּיעָהּ</he> (or <he>שַׁיְּיעָהּ</he> Chald.; not <he>שייעא</he>; ed. Wil. <cite ref=\"U01655\"><he>שעייא</he></cite>, read: <he>שַׁעֲיָיהּ</he>, v. <cite ref=\"U01653\"><he>שְׁעֵי</he></cite>) he (the angel) made it (the hollow of the thigh) slip (be dislocated); <i>Cant</i>. R. to III, 6; <cite ref=\"Yalkut Shimoni on Torah 132\">Yalk. Gen. 132</cite> <he>שעייה</he> (not <he>שת׳</he>), v. supra."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

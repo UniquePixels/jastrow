@@ -1,0 +1,49 @@
+{
+	"id": "N00184",
+	"slug": "נגר-1",
+	"headword": {
+		"text": "נָגַר"
+	},
+	"page": {
+		"number": 875,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"C01392\"><he>גרר</he></cite>)<i>to carry along, roll</i>, v. <i>Nif.</i>",
+			"units": []
+		},
+		{
+			"gloss": "<i>to scrape, to saw</i>; v. <cite ref=\"N00187\"><he>נַגָּר</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגֵּר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"N00187\"><he>נַגָּר</he></cite>) <i>to do carpenter’s work</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 7:4\">Yalk. Josh. 7</cite> (ref. to <cite ref=\"H01777\"><he>חרש</he></cite>, <cite ref=\"Joshua 2:1\">Josh. II, 1</cite>) <he>בלי נגרות היו בידם מְנַגְּרִין</he> they had with them carpenter’s tools, pretending to be carpenters; <cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> (Par. 2) <he>מרגלים וכ׳</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִגָּר"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"A00335\"><he>אָגַר</he> I</cite>, a. <cite ref=\"M02892\"><he>משך</he></cite>) (of water) <i>to be conducted in gutters; to be stored up</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Parah 9:8\">Tosef. Par. IX</cite> (<cite ref=\"Tosefta Parah 8:8\">VIII</cite>), 8 <he>המים הנמשכין והנגררין</he> Var. (read: <he>והנִגָּרִין</he>; ed. Zuck. <he>והנמרצין</he>, v. <cite ref=\"M02753\"><he>מָרַץ</he></cite>) waters running in channels or stored up.—<he>נִגָּרִים</he>, <he>נִגָּרִין</he> animals <i>in pens</i>, fish <i>in caufs</i> &c. ",
+						"<cite ref=\"Tosefta Beitsah 3:1\">Tosef. Bets. III, 1</cite>; Bab. ",
+						"<cite ref=\"Beitzah 24b\">ib. 24ᵇ</cite>; Y. ib. III, 62ᵃ top; Y. Sabb. XIII, 14ᵃ bot. <he>מן הנ׳</he>, opp. to <he>מן המצודות</he> those found in traps, nets &c."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

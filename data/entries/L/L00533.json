@@ -1,0 +1,42 @@
+{
+	"id": "L00533",
+	"slug": "לית",
+	"headword": {
+		"text": "לַיִת"
+	},
+	"altHeadwords": [
+		{
+			"text": "לֵית"
+		},
+		{
+			"text": "לֵיתָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 710,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>לָא אִית</he>) <i>there is</i> (<i>was</i>) <i>not, none</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:5\">Targ. O. Gen. II, 5</cite> <cite ref=\"L00533\"><he>לַיִת</he></cite> (some ed. <cite ref=\"L00533\"><he>לַיָת</he></cite>; Y. <cite ref=\"L00458\"><he>לַיִית</he></cite>). Ib. XLVII, 13 <cite ref=\"L00533\"><he>לֵית</he></cite>.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:14\">Targ. Prov. XXV, 14</cite> <cite ref=\"L00020\"><he>לָאִית</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 38:4\">Targ. Ps. XXXVIII, 4</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 4a:11\">B. Mets. 4ᵃ</cite> <he>למלוה אית … ללוה ל׳ וכ׳</he> the creditor has witnesses, the debtor has none. ",
+				"<cite ref=\"Bava Metzia 5a:16\">Ib. 5ᵃ</cite> <he>השתא נמי דליתא לדר׳ חייא</he> now, likewise, when R. Ḥiya’s opinion is not adopted. ",
+				"<cite ref=\"Bava Metzia 5a:13\">Ib.</cite> <he>מודה … לית ליה</he> he does not hold the opinion that the admission of the defendent must be of the nature of the claim; a. v. fr.—With suffix: <he>לֵיתֵנָא</he> I (am) not; <he>לֵיתָךְ</he>, <he>לָיְתָךְ</he>, <cite ref=\"L00515\"><he>לַיְי׳</he></cite> thou (art) not; <he>לֵיתיֹהִי</he>, <he>לָיְ׳</he> he (is) not (no more) &c. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:1\">Targ. Y. I Deut. XXXII, 1</cite>. ",
+				"<cite ref=\"Onkelos Genesis 43:5\">Targ. Gen. XLIII, 5</cite>. ",
+				"<cite ref=\"Onkelos Genesis 43:5\">Ib.</cite> O. XLII, 13. ",
+				"<cite ref=\"Onkelos Genesis 39:9\">Ib. XXXIX, 9</cite> (Y. <he>לַיְתֵיה</he>) there is none. Ib. XXXI, 2; 5 <he>לֵיתַנּוּן</he> ed. Berl. (ed. <he>לֵיתָנוּן</he>, <he>לֵיתַנִין</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 59:14\">Targ. Ps. LIX, 14</cite> <he>לֵיתִינוּן</he> ed. Lag. (ed. Wil. <he>לֵיתִנוּן</he>). ",
+				"<cite ref=\"Aramaic Targum to Esther 3:8\">Targ. Esth. III, 8</cite> <he>לֵיתְהוֹן</he>; a. fr.—",
+				"<cite ref=\"Shevuot 48a:11\">Shebu. 48ᵃ</cite> <he>אי אִיתָהּ … איתה אי לֵיתָהּ ליתה</he> if the opinion of … is to be adopted, it must be applied in each case; if rejected, in neither. ",
+				"<cite ref=\"Ketubot 22a:2\">Keth. 22ᵃ</cite> <he>וחד ליתוהי</he> and one (of us judges) is no more. ",
+				"<cite ref=\"Shevuot 14b:12\">Shebu. 14ᵇ</cite> <he>דלֵיתַנְהוּ בכל וכ׳</he> (not … <he>הי</he>) which do not occur in the Torah, opp. <he>דאיתנהו</he>; a. fr."
+			]
+		}
+	]
+}

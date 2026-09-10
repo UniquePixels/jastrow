@@ -1,0 +1,28 @@
+{
+	"id": "Q01255",
+	"slug": "פסח-3",
+	"headword": {
+		"text": "פִּסֵּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1193,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q01254\">preced. art.</cite>) <i>limping, lame</i>. Sifra Emor ch. II, Par. 3 <he>פ׳ בין חגר וכ׳</he> ‘lame’ (<cite ref=\"Leviticus 21:18\">Lev. XXI, 18</cite>), whether lame on both feet or on one. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 126:2\">Sifré Deut. 126</cite>; a. e.—Pl. <he>פִּסְּחִים</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 36:2\">Pirké d’R. El. ch. XXXVI</cite> (ref. to <cite ref=\"II Samuel 5:6\">II Sam. V, 6</cite>) <he>העורים והפ׳ אלו הצלמים</he> ‘the blind and the lame’ means the idols; <cite ref=\"Yalkut Shimoni on Torah 82\">Yalk. Gen. 82</cite> (with ref. to <cite ref=\"Psalms 115:5-7\">Ps. CXV, 5-7</cite>)."
+			]
+		}
+	]
+}

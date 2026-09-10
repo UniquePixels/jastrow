@@ -1,0 +1,25 @@
+{
+	"id": "A00044",
+	"slug": "אבדן-2",
+	"headword": {
+		"text": "אָבְדָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹבְדָּן"
+		}
+	],
+	"page": {
+		"number": 3,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>אבדן</he>, <he>אבד</he>)<i>ruin, destruction</i>. Y. Dem. VII, 26ᵃ bot. <he>או׳ אוכלין</he> waste of eatables; a. fr.",
+			"units": []
+		}
+	]
+}

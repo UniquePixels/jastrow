@@ -1,0 +1,24 @@
+{
+	"id": "H01538",
+	"slug": "חצצות",
+	"headword": {
+		"text": "חֲצָצוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 496,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"H01527\"><he>חֲצִיצָה</he></cite>) <i>intermediate contacts, laws concerning the shaking of an object by an unclean person through a partition</i> (v. <cite ref=\"H01524\"><he>חָצִיץ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:7:3\">Y. Ḥag. II, end, 78ᶜ</cite> (v. emendation in R. S. to <cite ref=\"Mishnah Tahorot 7:5\">Toh. VII, 5</cite>)."
+			]
+		}
+	]
+}

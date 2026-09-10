@@ -1,0 +1,120 @@
+{
+	"id": "I00660",
+	"slug": "טפל-1",
+	"headword": {
+		"text": "טָפַל"
+	},
+	"page": {
+		"number": 547,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00674\"><he>טָפַף</he> I</cite>) [<i>to join, add</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to paste, line</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 3:4\">Kel. III, 4</cite> <he>וטְפָלָן בגללין</he> and lined them (the cracked vessels) with a paste of ordure. ",
+				"<cite ref=\"Mishnah Kelim 3:5\">Ib. 5</cite> <he>הטוֹפֵל וכ׳</he> if one covers with paste a sound vessel. ",
+				"<cite ref=\"Beitzah 34a:9\">Bets. 34ᵃ</cite> <he>אין טוֹפְלִין וכ׳</he> you must not cover (the fowls) with potter’s clay (to get the feathers off); <cite ref=\"Tosefta Beitsah 3:19\">Tosef. ib. III, 19</cite> <he>וטובלין</he> ed. Zuck. (corr. acc.). ",
+				"<cite ref=\"Shabbat 80b:3\">Sabb. 80ᵇ</cite>; <cite ref=\"Pesachim 43a\">Pes. 43ᵃ</cite>; <cite ref=\"Moed Katan 9b:18\">M. Kat. 9ᵇ</cite> <he>טוֹפְלוֹת אותן בסיד</he> dress their skins with lime (to keep them hairless). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:5\">Y. Ab. Zar. II, 40ᵈ</cite> (in Chald. diction) <he>שחוק וטְפוֹל</he> grind it to powder and apply it (as a remedy); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to add, join</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 8a:2\">Ḥag. 8ᵃ</cite> <he>בטוֹפֵל</he> when he combines two different funds. ",
+				"<cite ref=\"Chagigah 8a:3\">Ib.</cite> <he>טוֹפְלִין בהמה לבהמה וכ׳</he> you may use the second tithe money for buying an additional animal to that designated for the pilgrim’s offering (<cite ref=\"H00148\"><he>חֲגִיגָה</he></cite>), but you must not join the two funds (in order to buy a larger animal). ",
+				"<cite ref=\"Avodah Zarah 25b:6\">Ab. Zar. 25ᵇ</cite> <he>טוֹפְלוֹ לימינו</he> lets the gentile walk to his right side, v. <cite ref=\"G00535\"><he>זָמַן</he></cite>; (Tosef. ib. III, 4 <he>נותנו</he>); <cite ref=\"Chullin 91a\">Ḥull. 91ᵃ</cite>.—<i>Part. pass.</i> <he>טָפוּל</he> "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>affixed, attached</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Shabbat 16:2:2\">Y. Sabb. XVI, 15ᶜ</cite> bot. (ref. to Mish. ",
+						"<cite ref=\"Mishnah Shabbat 16:2\">Sabb. XVI, 2</cite>) <he>בשאינו ט׳ לו וכ׳</he> when the casing is not attached to the book, but if it is &c.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>dependent on, supported by</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Demai 2:4:4\">Y. Dem. II, 23ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Peah 4:6:3\">Y. Peah IV, 18ᵇ</cite> bot. <he>טְפוּלִין לאביהן</he> dependent on (living with) their parents (cmp. ",
+						"<cite ref=\"Bava Metzia 12b\">B. Mets. 12ᵇ</cite>, s. v. <cite ref=\"O01097\"><he>סָמַךְ</he></cite>)."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִטְפַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be attached, affixed</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite>; s. 15; <cite ref=\"Yalkut Shimoni on Nach 281\">Yalk. Is. 281</cite> <he>ונִטְפְּלוּ בישעיה</he> and they were embodied in the Book of Isaiah. Tanḥ. Vayḥi 17 <he>נִטְפַּלְתֶּם בעצמי</he> you will be attached to myself (be called sons of Jacob); <cite ref=\"Yalkut Shimoni on Torah 161\">Yalk. Gen. 161</cite>; (<cite ref=\"Bereishit Rabbah 100:1\">Gen. R. s. 100</cite> <he>זכיתם בעצמי</he> you will have a share in me)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"G00118\"><he>זָוַג</he></cite>) <i>to meet, join</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 91a:15\">Ḥull. 91ᵃ</cite> <he>ישראל שנ׳ וכ׳</he>, v. <cite ref=\"G00535\"><he>זָמַן</he></cite>. ",
+						"<cite ref=\"Menachot 65a:12\">Men. 65ᵃ</cite> <he>ניט׳ להם וכ׳</he> R. J. joined their discussions. ",
+						"<cite ref=\"Sanhedrin 9a:4\">Snh. 9ᵃ</cite> <he>הני׳ לעוברי עבירה</he> he who is an accessory to sin. Y. B. Kam. X, 7ᶜ top, <he>שלא … נִטְפָּלִין לגנבים</he> that citizens may not be in conspiracy with thieves (and sell the stolen goods to their owner under the pretence of having bought them)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to attend to, to nurse, tend</i>. Y. Keth. XII, 35ᵃ top <he>מי שני׳ … יִטָּפֵל בי וכ׳</he> those who attended to me (nursed me) in life, shall attend to me in death; Y. Kil. IX, 32ᵇ top; <cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite>; Tanḥ. Vayḥi 3. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 100\">Ib.</cite> a. e. <he>להִטָּפֵל בקבורתו</he> to attend to his funeral; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִיטַּפֵּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00659\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 10b\">B. Kam. 10ᵇ</cite>, a. e. <he>הבעלים מִטַּפְּלִין וכ׳</he> the owner has to attend to the disposal of the carcass. ",
+						"<cite ref=\"Bava Metzia 28b:15\">B. Mets. 28ᵇ</cite> <he>מִטַּפֵּל בהן</he> must take care of them. ",
+						"<cite ref=\"Shemot Rabbah 20\">Ex. R. s. 20</cite>; <cite ref=\"Devarim Rabbah 11:11\">Deut. R. s. 11</cite> <he>אני בעצמי מט׳ וכ׳</he> I myself shall attend to thy burial; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (of lower animals) <i>to breed, increase</i> (v. <cite ref=\"I00662\"><he>טָפֵל</he></cite>). ",
+					"units": [
+						"<cite ref=\"Kiddushin 80a:9\">Kidd. 80ᵃ</cite> <he>ושרצים … מִיטַּפְּלִין שם</he> vermin and frogs breed in the house."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["מְטוּפָּל"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"I00662\"><he>טָפֵל</he></cite>) <i>burdened with a large family</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 16a\">Taan. 16ᵃ</cite>, sq. <he>מט׳ ואין לו</he> one having a large family with no means of support."
+					]
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

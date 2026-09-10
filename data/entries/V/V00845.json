@@ -1,0 +1,32 @@
+{
+	"id": "V00845",
+	"slug": "תפס-3",
+	"headword": {
+		"text": "תְּפַס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1688,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"Q00741\"><he>פִּיס</he></cite>) <i>to break; to desecrate</i>. Targ. TafḳanY. Deut. XXIII, 18 <he>ולא יִתְפַּס … ית גרמיה וכ׳</he> no man … shall desecrate himself &c.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתַּפֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to be desecrated</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 15:20\">Targ. Job XV, 20</cite> <he>מִתַּפֵּס</he> ed. Wil., v. <cite ref=\"Q00741\"><he>פִּיס</he></cite> ch."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

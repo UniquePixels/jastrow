@@ -1,0 +1,23 @@
+{
+	"id": "T00436",
+	"slug": "רוקבא-2",
+	"headword": {
+		"text": "רוּקְבָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1463,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"T01009\"><he>רָקַב</he></cite>) [<i>hollow</i>,] <i>a goat-skin made into a bag, bottle</i> (v. <cite ref=\"H01236\"><he>חֵמֶת</he></cite>).—Pl. <he>רוּקְבָּאוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 32a:9\">Ab. Zar. 32ᵃ</cite> <he>הדרדרין והר׳ וכ׳</he> barrels and leather bottles that have been used (for wine) by gentiles; <cite ref=\"Tosefta Avodah Zarah 4:1\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:9\">V</cite>), 9 <he>והרְקוֹבוֹת</he> ed. Zuck. (Var. <cite ref=\"S01892\"><he>קרבות</he></cite>, corr. acc.). Ab. Zar. l. c. <he>יין הבא בר׳ וכ׳</he> wine carried in bottles belonging to gentiles."
+			]
+		}
+	]
+}

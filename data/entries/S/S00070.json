@@ -1,0 +1,44 @@
+{
+	"id": "S00070",
+	"slug": "קבלה-2",
+	"headword": {
+		"text": "קַבָּלָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1310,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קָבַל</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>receiving, acceptance</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 44:1\">Pesik. R. s. 44</cite> <he>קַבָּלַת שבים</he> the reception (in grace) of the repentant. ",
+				"<cite ref=\"Zevachim 13a:10\">Zeb. 13ᵃ</cite> <he>וק׳ מי פסלה</he> does the receiving (of the sacrificial blood by a non-priest) make the sacrifice unfit? <cite ref=\"Zevachim 13a:11\">Ib.</cite> <he>קבלת הדם</he> receiving the blood in a vessel. ",
+				"<cite ref=\"Mishnah Zevachim 1:4\">Ib. I, 4</cite> <he>שלא בק׳</he> without the act of receiving the blood; a. fr.—",
+				"<cite ref=\"Gittin 62b:4\">Gitt. 62ᵇ</cite> <he>שליח לק׳</he> one deputed by the woman to receive the letter of divorce in her behalf, v. <cite ref=\"E00237\"><he>הוֹלָכָה</he></cite>. ",
+				"<cite ref=\"Gittin 62b:7\">Ib.</cite> <he>אק׳</he> referring to the reception of the letter of divorce in her behalf; a. fr.—",
+				"<cite ref=\"Tosefta Keilim Metsia 5:10\">Tosef. Kel. B. Mets. V, 10</cite> <he>בית ק׳</he> receptacle, v. <cite ref=\"S00850\"><he>קִיבּוּל</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tradition, traditional law; post-Mosaic Scriptures</i>, opp. to <cite ref=\"V00290\"><he>תורה</he></cite> or <he>תורת משה</he>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 7a:8\">R. Hash. 7ᵃ</cite> <he>דבר זה מתורת … מדברי ק׳ למדנו</he> this (that the months are counted from Nisan) we learned not from the Law of Moses, but from the words of tradition (historical accounts, ref. to <cite ref=\"Zechariah 1:7\">Zech. I, 7</cite>; <cite ref=\"Esther 2:16\">Esth. II, 16</cite> &c.). Ib. 19ᵃ <he>גדליה … דברי ק׳ הוא ודברי ק׳ וכ׳</he> the account of Gedaliah, son of A., is traditional (historical, <cite ref=\"Jeremiah 41\">Jer. XLI</cite>), and the words of tradition (post-Mosaic records) are as authoritative as the words of the Torah. ",
+				"<cite ref=\"Chagigah 10b:10\">Ḥag. 10ᵇ</cite> <he>דברי תורה מדברי ק׳ וכ׳</he> we must derive no interpretation of Mosaic laws from analogies of expression in post-Mosaic books (e.g. ",
+				"<cite ref=\"Amos 5:25\">Am. V, 25</cite> as illustrating the sense of <cite ref=\"Exodus 5:1\">Ex. V, 1</cite>); <cite ref=\"Bava Kamma 2b:5\">B. Kam. 2ᵇ</cite>; <cite ref=\"Niddah 23a:23\">Nidd. 23ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Challah 1:1:9\">Y. Ḥall. I, 57ᵇ</cite> top <he>ולמידין מן הק׳</he> can we derive a legal rule from a post-Mosaic book (<cite ref=\"Isaiah 28:25\">Is. XXVIII, 25</cite>)?—",
+				"<cite ref=\"Bereishit Rabbah 7:2\">Gen. R. s. 7</cite> <he>ומן הק׳ אתה מלקני</he> wilt thou condemn me to lashes on an inference from a post-Mosaic book?; Tanḥ. Ḥuck. 6; a. fr.—[<cite ref=\"Berakhot 62a:7\">Ber. 62ᵃ</cite>, v. <cite ref=\"S00066\"><he>קִבְלָא</he> II</cite>.]—[In later Hebrew <he>ק׳</he> <i>Kabbalah, mystic lore</i>.]"
+			],
+			"label": "2"
+		}
+	]
+}

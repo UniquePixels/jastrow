@@ -1,0 +1,50 @@
+{
+	"id": "S01438",
+	"slug": "קמא-2",
+	"headword": {
+		"text": "קָמָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קָמְתָא"
+		}
+	],
+	"page": {
+		"number": 1383,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S01442\"><he>קָמָה</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>standing grain</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 8:7\">Targ. Hos. VIII, 7</cite> (ed. Lag. a. oth. <he>קמה</he>). ",
+				"<cite ref=\"Onkelos Exodus 22:5\">Targ. O. Ex. XXII, 5</cite> <cite ref=\"S01439\"><he>קמא</he></cite> ed. Berl. (oth. ed. <cite ref=\"S01502\"><he>קָמְתָא</he></cite>, <cite ref=\"S01557\"><he>קַ׳</he></cite>).—Pl. <cite ref=\"S01502\"><he>קָמָתָא</he></cite>, constr. <he>קָמַת</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 15:5\">Targ. Jud. XV, 5</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pillar, statue</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 28:18\">Targ. Gen. XXVIII, 18</cite> (h. text <he>מצבה</he>). ",
+				"<cite ref=\"Onkelos Genesis 19:26\">Targ. O. ib. XIX, 26</cite> (h. text <he>נציב</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 22:24\">Targ. Y. Num. XXII, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 9:6\">Targ. Jud. IX, 6</cite> (ed. Wil. <cite ref=\"S01502\"><he>קָמָתָא</he></cite> pl.; h. text <he>מצב</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 10:27\">Targ. II Kings X, 27</cite> <he>קָמַת</he> constr.; a. fr.—Pl. <he>קָמָן</he>, <cite ref=\"S01502\"><he>קָמָתָא</he></cite>, <he>קָמָאתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 17:10\">Ib. XVII, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 18:4\">Ib. XVIII, 4</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 31:1\">Targ. II Chr. XXXI, 1</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Exodus 23:24\">Targ. Y. Ex. XXIII, 24</cite> <he>קָמָתֵי</he> constr."
+			],
+			"label": "2"
+		}
+	]
+}

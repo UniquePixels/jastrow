@@ -1,0 +1,23 @@
+{
+	"id": "A00098",
+	"slug": "אבטיונא",
+	"headword": {
+		"text": "אָבְטְיוֹנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 5,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ὀπτίων, optio; Perl. Et. St. p. 103; D. C. Lat. s. v.) <i>commissary, quartermaster in the Roman army</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:8\">Y. Sabb. VI, 8ᶜ</cite> bot. <he>אתא א׳ וכ׳</he> a Roman quarterm. came and made him stand behind him (in the public convenience)."
+			]
+		}
+	]
+}

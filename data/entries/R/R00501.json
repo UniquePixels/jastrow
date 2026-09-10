@@ -1,0 +1,74 @@
+{
+	"id": "R00501",
+	"slug": "צלח-2",
+	"headword": {
+		"text": "צְלַח"
+	},
+	"page": {
+		"number": 1283,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00500\">same</cite><i>to split, pass through</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 2:54\">Targ. I Chr. II, 54</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 11:18\">Ib. XI, 18</cite> <he>צ׳ ארחא</he> (h. text <he>ויבקעו</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be successful, prosper; to become fit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 20:11\">Targ. Jer. XX, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 28:13\">Targ. Prov. XXVIII, 13</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַלַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to split</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 22:3\">Targ. O. Gen. XXII, 3</cite>. ",
+						"<cite ref=\"Targum of I Chronicles 21:23\">Targ. I Chr. XXI, 23</cite>.—",
+						"<cite ref=\"Bava Metzia 79a:13\">B. Mets. 79ᵃ</cite> <he>נְצַלְּחֵיה לציבי וכ׳</he> let him chop it into chips and use it. ",
+						"<cite ref=\"Bava Kamma 113b:10-11\">B. Kam. 113ᵇ</cite> <he>זבין … לצַלָּחָא</he> bought a palm, in partnership with a gentile, to chop it up (and divide it). ",
+						"<cite ref=\"Shabbat 119a:2-4\">Sabb. 119ᵃ</cite> <he>רבה</he> … <he>מְצַלְּחֵי וכ׳</he> Rabbah and R. J. used to chop wood themselves (in preparation for the Sabbath). Ib. 129ᵃ; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַצְלַח"],
+			"senses": [
+				{
+					"gloss": "<i>to pass through; to do a thing successfully; to prosper</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 28:29\">Targ. O. Deut. XXVIII, 29</cite>. Targ. ib. XXIX, 8 (O. ed. Vien. <i>Pe.</i>). Targ. O. a. Y. I ib. XXXII, 15 <he>אצ׳ תקוף</he> succeeded in gaining strength. ",
+						"<cite ref=\"Targum Jonathan on I Kings 1:34\">Targ. I Kings I, 34</cite> (h. text <cite ref=\"J00283\"><he>יחי</he></cite>); a. fr.—",
+						"<cite ref=\"Menachot 43a\">Men. 43ᵃ</cite> <he>וא׳ עיסקייהו</he> and their business prospered. ",
+						"<cite ref=\"Eruvin 45a:19\">Erub. 45ᵃ</cite> <he>אי מַצְלַח וכ׳</he> whether or not he shall succeed. Y. Snh. VI, 23ᶜ bot. <he>ולא מַצְלְחָא מה דו עבדא</he> (not <he>מצלח</he>) and she will not succeed in what she wants to do. ",
+						"<cite ref=\"Bava Batra 3b:14\">B. Bath. 3ᵇ</cite> <he>כל עבדא … מצלח</he> any slave that will now rebel, shall succeed; <cite ref=\"Yalkut Shimoni on Torah 913\">Yalk. Deut. 913</cite>. ",
+						"<cite ref=\"Rosh Hashanah 16a:4\">R. Hash. 16ᵃ</cite> <he>דמצלח זרעא וכ׳</he> that the winter seed thrives; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to succeed, prosper</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 24:21\">Targ. Gen. XXIV, 21</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 3:19\">Targ. Jer. III, 19</cite> (h. text <he>אשיתך</he>); a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 13:2\">Gen. R. s. 13</cite> <he>תַצְלִיחַ</he>, v. <cite ref=\"P00014\"><he>עֲבַד</he> I</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "N00359",
+	"slug": "נוכרא",
+	"headword": {
+		"text": "נוּכְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נוּכְרָאָה"
+		},
+		{
+			"text": "נוּכְרַי"
+		},
+		{
+			"text": "נוּכְרָיָא"
+		}
+	],
+	"page": {
+		"number": 887,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"N00847\"><he>נָכְרִי</he></cite> , <i>strange; stranger; gentile</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:1\">Targ. Prov. VI, 1</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 17:15\">Targ. O. Deut. XVII, 15</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Proverbs 11:17\">Targ. Prov. XI, 17</cite>; <cite ref=\"Aramaic Targum to Proverbs 17:11\">XVII, 11</cite> <cite ref=\"N00359\"><he>נוכריא</he></cite> some ed., v. <cite ref=\"N00816\"><he>נַכְזְרָיָא</he></cite>.]—",
+				"<cite ref=\"Shabbat 65b:2\">Sabb. 65ᵇ</cite> <he>גופא נוכראה</he> another person’s body, v. <cite ref=\"C00458\"><he>גּוּפָא</he></cite>.—Pl. <he>נוּכְרָאִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 5:2\">Targ. Lam. V, 2</cite>; a. e.—<i>Fem.</i> <cite ref=\"N00359\"><he>נוּכְרָאָה</he></cite>, <cite ref=\"N00359\"><he>נוּכְרָיָיא</he></cite>, <cite ref=\"N00360\"><he>נוּכְרֵיתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 2:22\">Targ. Ex. II, 22</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 19:17\">Targ. Job XIX, 17</cite>; a. e.—Esp. <cite ref=\"N00360\"><he>נוּכְרֵיתָא</he></cite> <i>a gentile woman</i>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:20\">Targ. Prov. V, 20</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Proverbs 27:4\">Ib. XXVII, 4</cite> <he>נוכריתא</he> Ms. <i>abomination</i> (Pesh. <cite ref=\"M02638\"><he>מְרַחַקְתָּא</he></cite>), ed. <cite ref=\"N00817\"><he>נִכְזְרָיוּתָא</he></cite>.]—Pl. <cite ref=\"N00359\"><he>נוּכְרָאָן</he></cite>, <cite ref=\"N00360\"><he>נוּכְרֵיָיתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 31:15\">Targ. Gen. XXXI, 15</cite> (not <cite ref=\"N00360\"><he>נוּכְרֵיתָא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "V01044",
+	"slug": "תרף-2",
+	"headword": {
+		"text": "תְּרַף"
+	},
+	"page": {
+		"number": 1701,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V01043\">same</cite>, <i>to be soft, dissolved, digested</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:6\">Y. Shek. VI, 50ᵃ</cite> bot.; <cite ref=\"Shir HaShirim Rabbah 4:12\">Cant. R. to IV, 12</cite>, v. <cite ref=\"V01049\"><he>תְּרַפְיוֹן</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַתְרִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to use foul language, blaspheme</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 44:7\">Targ. Ps. XLIV, 7</cite> Levita (ed. <he>מגדף</he>)."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

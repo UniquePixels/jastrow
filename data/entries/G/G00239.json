@@ -1,0 +1,27 @@
+{
+	"id": "G00239",
+	"slug": "זוריון",
+	"headword": {
+		"text": "זוּרְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִרְיוֹן"
+		}
+	],
+	"page": {
+		"number": 389,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00696\"><he>זרי</he></cite>, cmp. <cite ref=\"G00737\"><he>זרר</he></cite>) <i>wringing</i>, <he>מי ז׳</he> <i>water flowing from flax when wrung out, flax-water</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 107a:8\">Pes. 107ᵃ</cite> <he>אישתי מי זו׳</he> (Ms. O. <he>זר׳</he>, Ms. M. <cite ref=\"G00235\"><he>זוראן</he></cite>, v. Rabb. D. S. a. l.) I will rather drink flax-water than &c. [Cmp. <he>זורי</he>, P. Sm. 1114.]"
+			]
+		}
+	]
+}

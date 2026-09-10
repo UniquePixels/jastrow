@@ -1,0 +1,42 @@
+{
+	"id": "A03049",
+	"slug": "ארזא",
+	"headword": {
+		"text": "אַרְזָא"
+	},
+	"page": {
+		"number": 117,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"A03048\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 14:4\">Targ. Lev. XIV, 4</cite>; a. e.—",
+				"<cite ref=\"Avodah Zarah 14a\">Ab. Zar. 14ᵃ</cite>. ",
+				"<cite ref=\"Rosh Hashanah 23a:6\">R. Hash. 23ᵃ</cite>; a. e.—Pl. <cite ref=\"A03056\"><he>אַרְזִין</he></cite>, <he>אַרְזַיָּא</he>, <cite ref=\"T00466\"><he>אַרְזֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 24:6\">Targ. Num. XXIV, 6</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:7\">Y. Ab. Zar. III, 42ᶜ</cite> top. ",
+				"<cite ref=\"Shabbat 157a\">Sabb. 157ᵃ</cite>.—",
+				"<cite ref=\"Shabbat 155a:6\">Ib. 155ᵃ</cite> <he>זירין דא׳</he> (Ms. <he>זירין סוכי דא׳</he> <i>Zirin</i> means twigs of cedars (Rashi <he>דארזא</he>); [oth. opin. v. <cite ref=\"A03047\"><he>ארז</he></cite>]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. <he>תֵּל א׳</he> <i>Tel Arza</i> (Cedar-Hill), in Palestine, scene of massacres during the Bar Kokhba war. ",
+			"units": ["<cite ref=\"Mishnah Yevamot 16:7\">Yeb. XVI, 7</cite>."],
+			"label": "2"
+		},
+		{
+			"gloss": " pr. n. m. <i>Arza</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 7:3\">Tam. VII, 3</cite> <he>בן א׳</he>: <cite ref=\"Mishnah Shekalim 5:1\">Shek. V, 1</cite> <cite ref=\"A03052\"><he>ארזה</he></cite>; <cite ref=\"Tosefta Shekalim 2:14\">Tosef. ib. II, 14</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

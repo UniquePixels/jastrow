@@ -1,0 +1,21 @@
+{
+	"id": "C00803",
+	"slug": "גיר-1",
+	"headword": {
+		"text": "גִּיר",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 241,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Syriac <cite ref=\"C00805\"><he>גיר</he></cite>, P. Sm. 709 sq., prob. fr. <cite ref=\"C01392\"><he>גרר</he></cite>, cmp. <cite ref=\"C01396\"><he>גְּרָרָא</he></cite>) <i>as a consequence, for</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 29:19\">Targ. Prov. XXIX, 19</cite> (agreeing with Peshito) <he>ידע ג׳ דלא בליע</he> ed. Lag. (Var. <cite ref=\"F00059\"><he>ולא</he></cite>, ed. <he>דידע ג׳ ולא וכ׳</he>, Peshito … <he>בלע</he>) for he understands (from being spoken to) only that he will receive no blows. [<cite ref=\"Aramaic Targum to Proverbs 23:14\">Ib. XXIII, 14</cite> <he>אנת ביר וכ׳</he> Ms. (missing in ed.), read: <cite ref=\"C00805\"><he>גיר</he></cite> (as in Peshito) thou, therefore, &c.]"
+			]
+		}
+	]
+}

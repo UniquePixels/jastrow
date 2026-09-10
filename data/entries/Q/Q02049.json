@@ -1,0 +1,22 @@
+{
+	"id": "Q02049",
+	"slug": "פרתוניא",
+	"headword": {
+		"text": "פַּרְתּוֹנָיָא"
+	},
+	"page": {
+		"number": 1244,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <he>פַּרְתְּמִים</he>, <i>pl.</i>) <i>nobleman</i>. Targ. II Esth. VI, 9 (ed. Lag. <cite ref=\"Q02048\"><he>פרתוויא</he></cite>, some ed. <cite ref=\"Q02136\"><he>פתוניא</he></cite>, corr. acc.; ed. Amst. <he>פרתונאי</he>, corr. acc.).—Pl. <he>פַּרְתּוֹנָאֵי</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:3\">Targ. Esth. I, 3</cite>."
+			]
+		}
+	]
+}

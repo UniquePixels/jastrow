@@ -1,0 +1,25 @@
+{
+	"id": "Q00562",
+	"slug": "פטריות",
+	"headword": {
+		"text": "פַּטְרָיוֹת"
+	},
+	"page": {
+		"number": 1158,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"Q00547\"><he>פָּטַר</he></cite>) <i>truffles</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:1:7\">Y. Maasr. I, 48ᵈ</cite> top, v. <cite ref=\"K00790\"><he>כְּמֵהוֹת</he></cite>. ",
+				"<cite ref=\"Nedarim 55b:3\">Ned. 55ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Oktzin 3:2\">Ukts. III, 2</cite>; a. fr."
+			]
+		}
+	]
+}

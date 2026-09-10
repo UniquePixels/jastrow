@@ -1,0 +1,23 @@
+{
+	"id": "G00143",
+	"slug": "זוותא",
+	"headword": {
+		"text": "זָוְותָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 385,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"G00138\"><he>זָוָוא</he> I</cite>; cmp. <cite ref=\"K01186\"><he>כְּרַךְ</he></cite>) <i>what is taken with food, relish</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:7\">Targ. Job VI, 7</cite> Ms. (ed. <cite ref=\"D00221\"><he>דָּווּתָא</he></cite> q. v.)."
+			]
+		}
+	]
+}

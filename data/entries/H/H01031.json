@@ -1,0 +1,37 @@
+{
+	"id": "H01031",
+	"slug": "חלי-4",
+	"headword": {
+		"text": "חֳלִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹלִי"
+		}
+	],
+	"page": {
+		"number": 468,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00987\"><he>חָלָה</he></cite>)<i>disease</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 64a:10\">Snh. 64ᵃ</cite> <he>אם תעמוד … מחָלְיָהּ</he> if this woman (I) shall rise from her sickness. ",
+				"<cite ref=\"Sanhedrin 64a:10\">Ib.</cite> <he>מוטב שתחזור … לחוֹלְיָהּ</he> I would rather relapse into my disease; a. fr.—",
+				"<cite ref=\"Bava Metzia 87a:15\">B. Mets. 87ᵃ</cite> <he>דחָלָה ח׳ אחריתי</he> (missing in Mss., v. Rabb. D. S. a. l. note) that he had been sick once before.—Pl. <cite ref=\"H00965\"><he>חֳלָאִים</he></cite>, <cite ref=\"H00965\"><he>חֳלָאִין</he></cite>, <he>חֳלָיִם</he>, <cite ref=\"H00965\"><he>חֳלָיִים</he></cite>. ",
+				"<cite ref=\"Sotah 47a:5\">Sot. 47ᵃ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 56:7\">Gen. R. s. 56</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <he>בעל</he>) <i>patient, sufferer</i>. ",
+			"units": ["<cite ref=\"Chullin 110a:10\">Ḥull. 110ᵃ</cite>; a. fr."],
+			"label": "2"
+		}
+	]
+}

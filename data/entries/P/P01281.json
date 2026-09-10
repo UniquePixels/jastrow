@@ -1,0 +1,33 @@
+{
+	"id": "P01281",
+	"slug": "ערבי-3",
+	"headword": {
+		"text": "עֲרָבי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְבַי"
+		},
+		{
+			"text": "עַרְבָאָה"
+		}
+	],
+	"page": {
+		"number": 1113,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01280\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 13:20\">Targ. Is. XIII, 20</cite> (ed. Lag. <cite ref=\"P01259\"><he>עַרְבַאי</he></cite>). ",
+				"<cite ref=\"Targum of I Chronicles 27:30\">Targ. I Chr. XXVII, 30</cite> (h. text <cite ref=\"J00695\"><he>ישמעאלי</he></cite>).—",
+				"<cite ref=\"Bava Batra 56a:9\">B. Bath. 56ᵃ</cite>, v. next w.—Pl. <cite ref=\"P01259\"><he>עֲרָבָאֵי</he></cite>, <he>עַרְבָ׳</he>, <he>עַרְבָאִין</he>. ",
+				"<cite ref=\"Onkelos Genesis 37:25\">Targ. Gen. XXXVII, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 3:2\">Targ. Jer. III, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 25:24\">Ib. XXV, 24</cite> (h. text <cite ref=\"E00722\"><he>העֶרֶב</he></cite>); a. fr.—",
+				"<cite ref=\"Bava Batra 168b:6\">B. Bath. 168ᵇ</cite> <he>הנהו ע׳ דאתו וכ׳</he> Arabs came to Pumb’ditha and seized land by force."
+			]
+		}
+	]
+}

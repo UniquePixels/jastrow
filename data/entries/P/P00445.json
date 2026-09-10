@@ -1,0 +1,28 @@
+{
+	"id": "P00445",
+	"slug": "עטינים",
+	"headword": {
+		"text": "עֲטִינִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲטִינִין"
+		}
+	],
+	"page": {
+		"number": 1063,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"P00466\"><he>עָטַן</he></cite>) <i>packed olives</i>, beginning to drip. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 2:1:2\">Y. M. Kat. II, beg. 81ᵃ</cite> <he>מתניתן בע׳</he> the Mishnah (<cite ref=\"Mishnah Moed Katan 2:1\">M. Kat. II, 1</cite>) speaks of packed olives, opp. <he>גרגרים</he> loose berries."
+			]
+		}
+	]
+}

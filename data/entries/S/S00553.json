@@ -1,0 +1,28 @@
+{
+	"id": "S00553",
+	"slug": "קוקייאתא",
+	"headword": {
+		"text": "קוּקְיָיאתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּקְיָתָא"
+		}
+	],
+	"page": {
+		"number": 1340,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (used as sing.) <i>ḳuḳyatha</i>, name of a clean bird (passing as forbidden in Palestine). ",
+			"units": [
+				"<cite ref=\"Chullin 63a\">Ḥull. 63ᵃ</cite> <he>קוקייא׳</he> Ms. H., <he>קוּקְיָ׳</he> Ar. (ed. <cite ref=\"S01864\"><he>קַקְוָאתָא</he></cite>, Ms. M. <he>קקאותא</he>; v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

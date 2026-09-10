@@ -1,0 +1,29 @@
+{
+	"id": "O01304",
+	"slug": "סעריא",
+	"headword": {
+		"text": "סְעָרַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְעָרֵי"
+		},
+		{
+			"text": "סְעָרִין"
+		}
+	],
+	"page": {
+		"number": 1010,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>barley</i>, v. <cite ref=\"O01307\"><he>סְעַרְתָּא</he></cite>.",
+			"units": []
+		}
+	]
+}

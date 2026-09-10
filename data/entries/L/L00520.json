@@ -1,0 +1,24 @@
+{
+	"id": "L00520",
+	"slug": "ליקוט",
+	"headword": {
+		"text": "לִיקּוּט"
+	},
+	"page": {
+		"number": 709,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00677\"><he>לָקַט</he></cite>) <i>collection</i>.—Esp. <he>ל׳ עצמות</he>, or <he>לִיקּוּטֵי</he> <i>the gathering of bones</i>, i.e. the transfer of a body from the provisional cave to a permanent burial place, at which certain mourning ceremonies are to be observed by the nearest relatives; v. <cite ref=\"L00677\"><he>לָקַט</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 8:8:6\">Y. Pes. VIII, 36ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Moed Katan 1:5:4\">Y. M. Kat. I, 80ᵈ</cite> top <he>המעביר … אין בו משום ל׳ ע׳</he> he who transfers a coffin from one burial place to another need not observe the ceremonies connected with the transfer of bones. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:5:4\">Ib.</cite> <he>איזיהו ל׳ ע׳ וכ׳</he> what is ‘bone-collection’ in a ritual sense? Carrying a skeleton wrapped &c., v. <cite ref=\"A02789\"><he>אַפְקַרְסִין</he></cite>; a. fr.—Pl. <he>לִיקּוּטִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 4:6:9\">Y. Peah IV, end, 18ᶜ</cite> <he>קל … בל׳</he> the scholars have adopted the lighter (less stringent) practice with reference to the collections (by the poor, v. <cite ref=\"L00679\"><he>לֶקֶט</he></cite>).—<he>לִיקּוּטֵי עצמות</he>, v. supra."
+			]
+		}
+	]
+}

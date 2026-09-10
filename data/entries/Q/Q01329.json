@@ -1,0 +1,34 @@
+{
+	"id": "Q01329",
+	"slug": "פסלא",
+	"headword": {
+		"text": "פִּסְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1198,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01328\">same</cite><i>image</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 97:7\">Targ. Ps. XCVII, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:15\">Targ. Cant. II, 15</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lath, lintel</i>, esp. <i>a lintel placed across a street</i> or <i>a court</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 80a:8\">Sabb. 80ᵃ</cite>; <cite ref=\"Bava Batra 56a:2\">B. Bath. 56ᵃ</cite>. ",
+				"<cite ref=\"Gittin 77b:16\">Gitt. 77ᵇ</cite> <he>נפל בפ׳</he> (the letter of divorce) fell on a cross-board (in the court)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "M01725",
+	"slug": "מנה-2",
+	"headword": {
+		"text": "מָנָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 797,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M01724\">preced.</cite>) <i>share, portion</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 5:1\">Bekh. V, 1</cite> <he>שוקלין מ׳ כנגד מ׳</he> you must weigh one piece (of the meat of the first-born) against another piece (of secular meat of ascertained weight). ",
+				"<cite ref=\"Gittin 59b:9\">Gitt. 59ᵇ</cite>, a. e. <he>ליטול מ׳ מ׳ יפה ראשון</he> that he (the priest) have the privilege of first choice (when a division is made). ",
+				"<cite ref=\"Sifrei Devarim 53:2\">Sifré Deut. 53</cite>; <cite ref=\"Yalkut Shimoni on Torah 875:3\">Yalk. ib. 875</cite> <he>מ׳ יפה</he> the best portion (at the meal). ",
+				"<cite ref=\"Yalkut Shimoni on Torah 765:35\">Yalk. Num. 765</cite>, end <he>מלך שבירר לעצמו מ׳ וכ׳</he> a king who selected a portion for himself, and another came and spoke disparagingly of it; a. fr.—Pl. <he>מָנוֹת</he>. ",
+				"<cite ref=\"Shabbat 149a:6\">Sabb. 149ᵃ</cite>; <cite ref=\"Tosefta Shabbat 17:5\">Tosef. ib. XVII</cite> (<cite ref=\"Tosefta Shabbat 18:5\">XVIII</cite>), 5. ",
+				"<cite ref=\"Tosefta Shabbat 18:4\">Ib. 4</cite> <he>מפיסין על מָנוֹתֵיהֶן</he> cast lots for their portions (at the table); a. e.—V. <cite ref=\"M01820\"><he>מְנָת</he></cite>."
+			]
+		}
+	]
+}

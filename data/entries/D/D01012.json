@@ -1,0 +1,36 @@
+{
+	"id": "D01012",
+	"slug": "דקן",
+	"headword": {
+		"text": "דְּקַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּקְנָא"
+		},
+		{
+			"text": "דִּיקְ׳"
+		}
+	],
+	"page": {
+		"number": 319,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"G00645\"><he>זָקָן</he></cite> , <i>beard, bearded chin, hair-growth</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:29\">Targ. Lev. XIII, 29</cite> sq.; a. fr.—",
+				"<cite ref=\"Bava Batra 58a:8\">B. Bath. 58ᵃ</cite> <he>תפשיה בדִיקְנֵיה</he> seized him by his beard. ",
+				"<cite ref=\"Bereishit Rabbah 72\">Gen. R. s. 72</cite> (prov.) <he>הניאת לסבי מן דִּיקְנִי</he> thou pleasest my grandfather (with hair) from my beard, i.e. you wish to be liberal at other people’s expense; (<cite ref=\"Yalkut Shimoni on Torah 129:2\">Yalk. Gen. 129</cite> <he>הבאת לפני מן דאקני</he>, corr. acc.). ",
+				"<cite ref=\"Nazir 39a\">Naz. 39ᵃ</cite> bot. [read:] <he>כד צבעי סביא דִיקְנֵהוֹן</he> when old men dye their beards. ",
+				"<cite ref=\"Bava Metzia 60b:5\">B. Mets. 60ᵇ</cite> <he>צבעיה לרישיה ולדִיקְנֵיה</he> he dyed the hair of his head and beard; <cite ref=\"Bava Metzia 60b:6\">ib.</cite> <he>חווריה … ולד׳</he> he washed it white again; a. fr.—Pl. <he>דִּקְנִין</he>, <cite ref=\"D00763\"><he>דִּי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 19:27\">Targ. Y. Lev. XIX, 27</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 39a\">B. Mets. 39ᵃ</cite>, v. <cite ref=\"D01013\">next w.</cite>"
+			]
+		}
+	]
+}

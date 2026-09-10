@@ -1,0 +1,27 @@
+{
+	"id": "D00422",
+	"slug": "דחלא-1",
+	"headword": {
+		"text": "דַּחֲלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 292,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00421\">preced.</cite>) <i>fearer, worshipper</i>.—ד׳ דיי׳ <i>God-fearing</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 22:12\">Targ. Gen. XXII, 12</cite>; a. e.—Pl. <he>דַּחֲלַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 135:20\">Targ. Ps. CXXXV, 20</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 55:13\">Targ. Is. LV, 13</cite> <he>דחלי חטאה</he> shunning evil.—Fem. <cite ref=\"D00427\"><he>דַּחְלְתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:30\">Targ. Prov. XXXI, 30</cite> <he>ד׳ דיי׳</he> Ms. (ed. <he>דחלתיה דאלהא</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 4:8\">Targ. II Kings IV, 8</cite>."
+			]
+		}
+	]
+}

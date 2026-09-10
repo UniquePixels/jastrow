@@ -1,0 +1,23 @@
+{
+	"id": "I00146",
+	"slug": "טוטלוותא",
+	"headword": {
+		"text": "טוֹטַלְוָותָא"
+	},
+	"page": {
+		"number": 523,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (= <he>טלטל׳</he>; <cite ref=\"I00509\"><he>טְלַל</he></cite>) <i>branches of the vine, arbor</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 19:10\">Targ. Y. Lev. XIX, 10</cite>; <cite ref=\"Targum Jerusalem, Deuteronomy 24:21\">Targ. Y. II, Deut. XXIV, 21</cite> <he>טוֹטְלָוַותְ׳</he>."
+			]
+		}
+	]
+}

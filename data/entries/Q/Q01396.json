@@ -1,0 +1,49 @@
+{
+	"id": "Q01396",
+	"slug": "פער-1",
+	"headword": {
+		"text": "פָּעַר"
+	},
+	"page": {
+		"number": 1203,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to open wide</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 4:1\">Pesik. R. s. 4</cite>, end <he>פָּעֲרָה החרובית עצמה וכ׳</he> a carob tree opened itself and swallowed him. ",
+				"<cite ref=\"Midrash Tehillim 119:32\">Midr. Till. to Ps. CXIX, 131</cite> <he>פָּעַרְתִּי פי לתורתך</he> I open my mouth for thy Law; <he>כשם שפּוֹעֲרִים … למלקוש</he> as people open their mouth for the late rain (to inhale it); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to uncover</i> (<i>one’s self</i>), esp. <i>to commit a nuisance before the idol Peor</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 7:6\">Snh. VII, 6</cite> <he>הפּוֹעֵר עצמו לבעל פעור וכ׳</he> he who uncovers himself before Baal Peor (is guilty, for) this is the mode of worshipping him. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 526:1\">Yalk. Hos. 526</cite> <he>כלום … אלא שתִּפְעוֹר עצמך לו</he> they ask of thee only that thou uncover thyself before him. ",
+				"<cite ref=\"Sanhedrin 64a:13\">Snh. 64ᵃ</cite> <he>פ׳ בפניו</he> he eased himself before him; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיעֵר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01395\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 131:2\">Sifré Num. 131</cite> <he>המְפַעֵר עצמו לבעל פעור</he>, v. supra. ",
+						"<cite ref=\"Avodah Zarah 44b:8\">Ab. Zar. 44ᵇ</cite> <he>שמְפַעֲרִין לפניו וכ׳</he> before whom they commit a nuisance every day."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

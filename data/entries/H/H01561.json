@@ -1,0 +1,30 @@
+{
+	"id": "H01561",
+	"slug": "חקלאה",
+	"headword": {
+		"text": "חַקְלָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַקְלָיָיא"
+		}
+	],
+	"page": {
+		"number": 497,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01560\">preced.</cite>) <i>field-laborer, peasant;</i> trnsf. <i>boor, ignorant man</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 7b:2\">Meg. 7ᵇ</cite>, v. <cite ref=\"D00700\"><he>דִּיקוּלָא</he></cite>. ",
+				"<cite ref=\"Ketubot 79a:1\">Keth. 79ᵃ</cite> <he>חזי מר נחמן ח׳</he> see, sir, how this ignoramus Naḥman &c.—Pl. <he>חַקְלָאֵי</he>. ",
+				"<cite ref=\"Berakhot 37b\">Ber. 37ᵇ</cite>.—Mixed pl. <he>חַקְלָיָיתָא</he> <i>peasantry</i>. ",
+				"<cite ref=\"Shabbat 12a:8\">Sabb. 12ᵃ</cite> <he>אבל דח׳ וכ׳</he> Ms. M. (ed. <he>דבני חַקְלָיָתָא</he>) but the garments of the peasantry are easily distinguishable (as to men’s or women’s)."
+			]
+		}
+	]
+}

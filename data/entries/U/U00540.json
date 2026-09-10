@@ -1,0 +1,32 @@
+{
+	"id": "U00540",
+	"slug": "שורא-1",
+	"headword": {
+		"text": "שׁוֹרָא"
+	},
+	"page": {
+		"number": 1542,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"U00539\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:4\">Targ. Ez. XIII, 4</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite>, beg. <he>דנקטע שׁוֹרָךְ</he> that we (I) may cut thy cord, v. <cite ref=\"U00539\">preced.</cite>; <cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite>; <cite ref=\"Yalkut Shimoni on Nach 908\">Yalk. Job 908</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00311\"><he>כּוּנְשְׁרָא</he></cite> a. <cite ref=\"K01300\"><he>כָּשׁוֹרָא</he></cite>) <i>joist, beam</i>.—Pl. <he>שׁוֹרַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד בר נש</he>), v. <cite ref=\"U01991\"><he>שָׁרִיתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

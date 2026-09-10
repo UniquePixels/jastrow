@@ -1,0 +1,32 @@
+{
+	"id": "U00049",
+	"slug": "שאר-3",
+	"headword": {
+		"text": "שְׁאַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1509,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00048\"><he>שָׁאֵר</he></cite> (denom. of <cite ref=\"M02802\"><he>מֵשָׁאר</he></cite>, v. <cite ref=\"M01318\"><he>מֵישָׁרָא</he></cite>) <i>to plant in beds</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 81a:8\">B. Kam. 81ᵃ</cite> <he>שַׁאֲרֵיה מֵשָׁארֵי לאדם וכ׳</he> (Ms. M. <he>שדיא משראי לשראי</he>, read: <he>משארי משארי</he>; v. Rabb. D. S. a. l. note) if he planted in beds, it shows that he planted it for human food; if not, it is intended for cattle."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

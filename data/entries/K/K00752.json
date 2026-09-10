@@ -1,0 +1,24 @@
+{
+	"id": "K00752",
+	"slug": "כלכוס",
+	"headword": {
+		"text": "כַּלְכּוּס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 643,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (χαλκός) <i>a copper, caldron</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 100b\">B. Kam. 100ᵇ</cite> (ref. to Mish. ",
+				"<cite ref=\"Mishnah Bava Kamma 9:4\">ib. IX, 4</cite> <he>צבאו כעור</he>) [read:] <he>מאי כעור … שצבעו כ׳</he> (v. Rabb. D. S. a. l. note 50) what does, ‘he dyed it <i>kaʿur’</i> mean?… the copper dyed it (cmp. <he>הקדיח׳ היורה</he> <cite ref=\"Mishnah Bava Kamma 9:4\">ib.</cite>); <he>מאי שצבעו כ׳ כפרא דודי</he> (Ms. H.) what does it mean &c.? The sediment of kettles. [Editions a. Mss. have <cite ref=\"K00683\"><he>כלבוס</he></cite>, <cite ref=\"S01247\"><he>קלבוס</he></cite> with <cite ref=\"B00000\"><he>ב</he></cite>].—Pl. <he>כַּלְקִין</he>. Y. B. Bath. IV, 14ᶜ bot. <cite ref=\"B01002\"><he>בסלקי</he></cite>, (read: <he>בית כלקין</he>, corresp. to <he>בית היורות</he> <cite ref=\"Tosefta Bava Batra 3:3\">Tosef. B. Bath. III, 3</cite>) the copper room."
+			]
+		}
+	]
+}

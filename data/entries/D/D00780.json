@@ -1,0 +1,45 @@
+{
+	"id": "D00780",
+	"slug": "דכך-2",
+	"headword": {
+		"text": "דְּכַךְ"
+	},
+	"page": {
+		"number": 307,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00779\">same</cite>. Part. Peil. <cite ref=\"D00775\"><he>דְּכִיךְ</he></cite>, f. <cite ref=\"D00896\"><he>דְּכִיכְתָּא</he></cite> <i>crushed, melancholy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:22\">Targ. Prov. XVII, 22</cite> (h. text <he>נכאה</he>). [<cite ref=\"Aramaic Targum to Proverbs 6:11\">Ib. VI, 11</cite> <he>ותדכוך</he> some ed., v. <cite ref=\"D01095\"><he>דְּרַךְ</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּכֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to crush</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 4:19\">Targ. Job IV, 19</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְדַּכֵּךְ", "אִדַּכֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 34:25\">Targ. Job XXXIV, 25</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

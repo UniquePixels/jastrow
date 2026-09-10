@@ -1,0 +1,35 @@
+{
+	"id": "G00106",
+	"slug": "זהרא-1",
+	"headword": {
+		"text": "זַהֲרָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "זָהֲרָא"
+		}
+	],
+	"page": {
+		"number": 382,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>זהר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>light</i>. Y. Yoma III, beg. 40ᵇ, v. <cite ref=\"A01128\"><he>אִיבִּירְיָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:3\">Cant. R. to VII, 3</cite> (ref. to <he>הסהר</he> <cite ref=\"Shir HaShirim Rabbah 7:3\">ib.</cite>, v. <cite ref=\"A00444\"><he>אִדַּר</he></cite>) <he>אית … לזהרא סהרא</he> (some ed. <he>לזהרה</he>) there are places where they write and pronounce <i>sahăra</i> for <i>zahăra</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>brightness, splendor; moon</i>, v. <cite ref=\"G00290\"><he>זֵיהוֹרָא</he></cite> a. <cite ref=\"G00293\"><he>זִיהֲרָא</he> I</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "V00122",
+	"slug": "תהי-1",
+	"headword": {
+		"text": "תהי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תָּהָא"
+		},
+		{
+			"text": "תָּהָה"
+		}
+	],
+	"page": {
+		"number": 1648,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"U00294\"><he>שָׁהָא</he></cite>) [<i>to stand still</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to gaze, be astonished; to be confounded, be waste</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 2\">Gen. R. s. 2</cite>, beg., v. <cite ref=\"B00162\"><he>בָּהָא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 2\">Ib.</cite>, end <he>כבר … יושב ותוֹהֵא</he> once R. S. b. Z. sat gazing (deep in thought, absent-minded). ",
+				"<cite ref=\"Taanit 6b:14\">Taan. 6ᵇ</cite> (play on <he>ת̇מ̇ט̇ר̇</he>, <cite ref=\"Amos 4:7\">Am. IV, 7</cite>) <he>ת̇הא מקום מ̇ט̇ר̇</he> the place where the rain fell became waste (through destructive showers); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pause, bethink one’s self, regret</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 3:4:5\">Y. Taan. III, 66ᶜ</cite> bot. <he>שלשה … ות׳ שבראן</he> three things God created, and regretted that he had created them. Ib. I, 65ᵇ bot. (ref. to <cite ref=\"Numbers 23:19\">Num. XXIII, 19</cite>) <he>אם יאמר לך אדם … בן אדם אני סופו לִתְהוֹת בו וכ׳</he> if a man says to thee, I am a God, he lies; (if he says,) I am the son of man, he shall regret it; (and if he says,) I will rise to heaven, he says, but he shall not fulfill it. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:1:14\">Y. Ned. I, 36ᵈ</cite> bot. [read:] <he>מכיון שנודר … סופו לתהות מכיון שהוא תוהא וכ׳</he> when one vows in rashness, he will finally regret it, and when he does regret, his sacrifices are like slaughtering profane beasts in the Temple court. ",
+				"<cite ref=\"Kiddushin 40b:4\">Kidd. 40ᵇ</cite> <he>בתוהא על הראשונות</he> when he is sorry for his good deeds in the past; <cite ref=\"Jerusalem Talmud Peah 1:1:49\">Y. Peah I, 16ᵇ</cite> top. ",
+				"<cite ref=\"Bamidbar Rabbah 10:10\">Num. R. s. 10</cite>, beg. <he>בתוהא על הראשונות</he> (not <he>הרשע</he>; ed. Wil. <he>בתוֹהֶה</he>) when he (the wicked) regrets his doings in the past. ",
+				"<cite ref=\"Shemot Rabbah 20:16\">Ex. R. s. 20<sup>2</sup></cite> <he>התחיל המוכר תוהא</he> the seller was sorry; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

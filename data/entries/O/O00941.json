@@ -1,0 +1,55 @@
+{
+	"id": "O00941",
+	"slug": "סכר-2",
+	"headword": {
+		"text": "סְכַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 992,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00940\">same</cite> <cite ref=\"Gittin 60b:15\">Gitt. 60ᵇ</cite> <he>במִיסְכַּר ואשקויי</he> as to damming (the canal) and using the water for irrigation. ",
+			"units": [
+				"<cite ref=\"Gittin 60b:15\">Ib.</cite> <he>סְכַר מיסכר ואשקי וכ׳</he> dam thou the canal, but &c., v. <cite ref=\"E00659\"><he>הַנְדְּזָא</he></cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַכֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00940\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 21:13\">Targ. Prov. XXI, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 28:9\">Ib. XXVIII, 9</cite> <he>דמְסַכַּר</he> Ms. (ed. <he>מַסְכִּיר</he> <i>Af.</i>).—",
+						"<cite ref=\"Shabbat 109b:7\">Sabb. 109ᵇ</cite> <he>נְסַכְּרִינוּן וכ׳</he> let them stop up his orifices (ears and nose)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּכַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִסְתְּכַר", "אִיסְּכַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be dammed in, closed</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 8:2\">Targ. O. Gen. VIII, 2</cite> (Y. <he>אסתגר</he>).—",
+						"<cite ref=\"Bava Metzia 106b:9\">B. Mets. 106ᵇ</cite> <he>א׳ נהר מלכא סבא</he> the Old King’s Canal became obstructed (and the waters took a different direction). ",
+						"<cite ref=\"Bava Metzia 106b:9\">Ib.</cite> <he>לא עביד דמִסְתַּכַּר</he> Ms. F. a. oth. (ed. <he>דמִיסְּכַר</he>) it is unusual (for this canal) to be obstructed."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

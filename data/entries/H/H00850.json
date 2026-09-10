@@ -1,0 +1,22 @@
+{
+	"id": "H00850",
+	"slug": "חיפוש",
+	"headword": {
+		"text": "חִיפּוּשׂ"
+	},
+	"page": {
+		"number": 459,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01478\"><he>חָפַשׂ</he></cite>) <i>search, use of the root</i> <he>חפש</he>. ",
+			"units": [
+				"<cite ref=\"Pesachim 7b\">Pes. 7ᵇ</cite> we learn <he>מציאה מח׳</he> the meaning of <he>מצא</he> (<cite ref=\"Exodus 12:19\">Ex. XII, 19</cite>) from the expression <he>חפש</he> (connected with <he>מצא</he>, <cite ref=\"Genesis 44:12\">Gen. XLIV, 12</cite>), i.e. you must search after leavened bread before Passover, &c."
+			]
+		}
+	]
+}

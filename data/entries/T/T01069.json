@@ -1,0 +1,29 @@
+{
+	"id": "T01069",
+	"slug": "רשבא",
+	"headword": {
+		"text": "רִשְׁבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִישְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1498,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רשב</he>, cmp. <cite ref=\"T01108\"><he>רשף</he></cite>, v. <cite ref=\"N01289\"><he>נִשְׁבִּים</he></cite>) <i>trap;</i> trnsf. (sub. <he>בעל</he>) <i>fowler</i>; also surname of a family, <i>Rishba</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 130a:10\">Sabb. 130ᵃ</cite>; <cite ref=\"Chullin 116a:15\">Ḥull. 116ᵃ</cite> <he>יוסף ר׳</he> Joseph the fowler.—",
+				"<cite ref=\"Shabbat 146b:8\">Sabb. 146ᵇ</cite>; <cite ref=\"Taanit 10a:13\">Taan. 10ᵃ</cite> Taboth Rishba (the fowler, Rashi; oth. opin. = <he>ריש בי אבא</he> chief of the family). ",
+				"<cite ref=\"Bava Batra 126b:3\">B. Bath. 126ᵇ</cite> <he>מר זוטרא מדר׳</he> (Ms. M. <he>מר בר רושבא</he>; Ms. H. <he>מידרוּשְׁבָּנָא</he>; Ms. R. <he>מדרשיכא</he>; Alf. <he>מדרישכא</he>; Ms. Alf. <he>מדרישבא</he>) Mar Zutra of the house of R."
+			]
+		}
+	]
+}

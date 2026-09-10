@@ -1,0 +1,23 @@
+{
+	"id": "U01384",
+	"slug": "שלקוקיה",
+	"headword": {
+		"text": "שַׁלְקוּקַיָּה"
+	},
+	"page": {
+		"number": 1588,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"U01380\"><he>שָׁלַק</he></cite> <i>Pi.</i>) <i>trimmings, coiled and hairy substances covering gourds</i> &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:4:2\">Y. Maasr. I, 49ᵃ</cite> (expl. <he>משישלק</he>, ib. I, 5) <he>מאן דו ירים ש׳</he> when he removes the trimmings; cmp. <cite ref=\"Q01500\"><he>פַּקְסוּסַיָּה</he></cite>."
+			]
+		}
+	]
+}

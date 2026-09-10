@@ -1,0 +1,23 @@
+{
+	"id": "U02133",
+	"slug": "שתפא",
+	"headword": {
+		"text": "שַׁתְּפָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1640,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U02132\">preced.</cite>; v. <i>šetiptu</i>, Del. Assyr. Handw., p. 696) [<i>attachment,</i>] <i>cord attached to the seal</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 38:18\">Targ. Y. Gen. XXXVIII, 18</cite> <he>שתפך</he> Ar. (Levita <he>שותפך</he>; ed. <he>חוטייך</he>, h. text <he>פתיל׳</he>)."
+			]
+		}
+	]
+}

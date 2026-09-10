@@ -1,0 +1,23 @@
+{
+	"id": "U01147",
+	"slug": "שכיחה",
+	"headword": {
+		"text": "שְׁכִיחָה"
+	},
+	"page": {
+		"number": 1573,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01137\"><he>שָׁכַח</he></cite>) <i>forgetting, use of the root</i> <cite ref=\"U01137\"><he>שָׁכַח</he></cite>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 5\">Lam. R. to V, 20</cite>; <cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite>, v. <cite ref=\"P00408\"><he>עֲזִיבָה</he></cite>; a. e.—",
+				"<cite ref=\"Berakhot 32b:17\">Ber. 32ᵇ</cite> Ms. O., v. <cite ref=\"U01137\"><he>שָׁכַח</he></cite>."
+			]
+		}
+	]
+}

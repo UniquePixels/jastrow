@@ -1,0 +1,28 @@
+{
+	"id": "S02280",
+	"slug": "קתא-2",
+	"headword": {
+		"text": "קָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָאתָא"
+		}
+	],
+	"page": {
+		"number": 1434,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S00022\"><he>קָאָת</he></cite>, <i>pelican</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:18\">Targ. O. Lev. XI, 18</cite> <he>קתא</he> ed. Berl. (oth. ed. <he>קאתא</he>); <cite ref=\"Deuteronomy 14:17\">Deut. XIV, 17</cite> (Y. <he>קקא</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 102:7\">Targ. Ps. CII, 7</cite> (ed. Lag. <he>קקתא</he>)."
+			]
+		}
+	]
+}

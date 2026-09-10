@@ -1,0 +1,23 @@
+{
+	"id": "K00424",
+	"slug": "כותי-1",
+	"headword": {
+		"text": "כּוּתִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 627,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (v. <cite ref=\"K00413\"><he>כּוּת</he></cite>) <i>Kuthi</i>, a Babylonian town. ",
+			"units": [
+				"<cite ref=\"Bava Batra 91a\">B. Bath. 91ᵃ</cite> Abraham was imprisoned <he>שלש בכ׳ וכ׳</he> (v. Rabb. D. S. a. l. note, a. Koh. Ar. Compl. s. v. <cite ref=\"K01090\"><he>כרדו</he></cite>) three years in Kuthi &c.; <cite ref=\"Pirkei DeRabbi Eliezer 26\">Pirké d’R. El. ch. XXVI</cite> <he>כותא</he>."
+			]
+		}
+	]
+}

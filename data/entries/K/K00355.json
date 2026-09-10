@@ -1,0 +1,23 @@
+{
+	"id": "K00355",
+	"slug": "כופש",
+	"headword": {
+		"text": "כּוֹפֶשׁ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 624,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K01022\"><he>כְּפִישָׁה</he></cite>) <i>basket</i> in which olives are kept for softening. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 9:5\">Toh. IX, 5</cite> Var. (ed. <cite ref=\"K00438\"><he>כּוֹתֶשׁ</he></cite>); <cite ref=\"Tosefta Tahorot 10:10\">Tosef. ib. X, 10</cite> <cite ref=\"K00612\"><he>כיפש</he></cite> (R. S. to Toh. l. c. <cite ref=\"K00438\"><he>כותש</he></cite>)."
+			]
+		}
+	]
+}

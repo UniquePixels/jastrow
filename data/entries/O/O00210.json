@@ -1,0 +1,29 @@
+{
+	"id": "O00210",
+	"slug": "סהד-1",
+	"headword": {
+		"text": "סָהֵד"
+	},
+	"page": {
+		"number": 959,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"O00211\">next w.</cite>) <i>to be witness</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַיהֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to provide witnesses for</i>. Tosef. Gitt. VIII (VI), 8 <he>הנותן גט לאשתו ולא סִיהֲדוֹ</he> (ed. Zuck. <cite ref=\"U00295\"><he>שִׂהֲדוֹ</he></cite>) if a man gives his wife a letter of divorce without witnesses.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

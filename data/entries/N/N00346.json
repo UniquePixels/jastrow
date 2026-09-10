@@ -1,0 +1,31 @@
+{
+	"id": "N00346",
+	"slug": "נוט",
+	"headword": {
+		"text": "נוּט"
+	},
+	"page": {
+		"number": 886,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (b. h.; cmp. <cite ref=\"M00458\"><he>מוּט</he></cite> a. <cite ref=\"N00307\"><he>נוּד</he></cite>) <i>to shake</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָנֵיט"],
+			"senses": [
+				{
+					"gloss": "<i>to scare</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 26:6\">Targ. Y. Lev. XXVI, 6</cite>, v. <cite ref=\"N00307\"><he>נוּד</he></cite> ch."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

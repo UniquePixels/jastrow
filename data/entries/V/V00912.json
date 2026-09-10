@@ -1,0 +1,24 @@
+{
+	"id": "V00912",
+	"slug": "תקרה",
+	"headword": {
+		"text": "תִּקְרָה"
+	},
+	"page": {
+		"number": 1694,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קָרָה</he> II) <i>roofing, ceiling, joists</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 10:2\">B. Mets. X, 2</cite>, v. <cite ref=\"M02094\"><he>מַעֲזִיבָה</he></cite>. ",
+				"<cite ref=\"Bava Metzia 117a:11\">Ib. 117ᵃ</cite> <he>בחוזק ת׳ קמפלגי</he> (read: <he>בחַזּוּקֵי</he>) they differ as to whether the cement is for strengthening the ceiling (or for levelling the upper floor). Y. ib. X, beg. 12ᶜ <he>התחתון נותן ת׳ ולווחים</he> the owner of the lower story must furnish the joists and the boards. ",
+				"<cite ref=\"Shemot Rabbah 1:6\">Ex. R. s. 1<sup>6</sup></cite> <he>לפי שהם תִּקְרַת העולם זה שמתקן ת׳ וכ׳</he> because they (the tribes) are the ceiling of the world; he that arranges the joists properly puts the thick side of one beam by the thinner side of the other; Tanḥ. Sh’moth 3 <he>תִּקְרָתוֹ של עולם</he> (not <he>תקרתן</he>); a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"id": "H01740",
+	"slug": "חרף-3",
+	"headword": {
+		"text": "חֲרַף"
+	},
+	"page": {
+		"number": 505,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01739\">same</cite>",
+			"units": []
+		},
+		{
+			"gloss": "<i>to sharpen, grind</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 13:20\">Targ. I Sam. XIII, 20</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Job 16:9\">Targ. Job XVI, 9</cite> (not <cite ref=\"H01686\"><he>חָרִיף</he></cite>; h. text <he>ילטש</he>).—Part. pass. <he>מְחַרַף</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:7\">Targ. Jer. IX, 7</cite> ed. Lag. (oth. ed. <he>מְחָרֵיף</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 5:28\">Targ. Is. V, 28</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to blaspheme, revile</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 24:11\">Targ. Y. Lev. XXIV, 11</cite>.; a. fr.—[<cite ref=\"Targum Jonathan on Leviticus 24:15\">Ib. 15</cite>, sq. <he>יֶחֱרַף</he> <i>Pe.!</i>]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01739\"><he>חָרֵף</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחֲרִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be quick, be early</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 70b:10\">Snh. 70ᵇ</cite> <he>אַחֲרִיפוּ ועולו וכ׳</he> go in early (before sunset), and leave early, that people may take notice of you. ",
+						"<cite ref=\"Shabbat 115a:1\">Sabb. 115ᵃ</cite> <he>דהוו קא מַחְרְפֵי</he> that they did it earlier (than they were told to)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

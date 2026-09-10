@@ -1,0 +1,23 @@
+{
+	"id": "O00232",
+	"slug": "סובין-1",
+	"headword": {
+		"text": "סוֹבִין"
+	},
+	"page": {
+		"number": 960,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. = (<cite ref=\"O00030\"><he>סָבַב</he></cite>) <he>סוֹבְבִין</he> <i>galleries</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 2:8\">Tosef. Kel. B. Mets. II, 8</cite> [read:] <he>הס׳ והסטיוין שלהן</he> (v. <cite ref=\"O00484\"><he>סְטֵיו</he></cite>) the galleries and colonnades on turrets (v. <cite ref=\"A02901\"><he>אֲקוּנְבִּי</he></cite>)."
+			]
+		}
+	]
+}

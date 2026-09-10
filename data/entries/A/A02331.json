@@ -1,0 +1,23 @@
+{
+	"id": "A02331",
+	"slug": "אסוירוס",
+	"headword": {
+		"text": "אַסְוֵירוֹס"
+	},
+	"page": {
+		"number": 89,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Severus</i>, prob. <i>Alexander Severus</i>, Roman emperor. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 10a:14\">Ab. Zar. 10ᵃ</cite>. ",
+				"<cite ref=\"Niddah 45a:20\">Nidd. 45ᵃ</cite>.  v. <cite ref=\"A02169\"><he>אַנְטוֹנִינוֹס</he></cite>."
+			]
+		}
+	]
+}

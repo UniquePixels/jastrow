@@ -1,0 +1,33 @@
+{
+	"id": "S01421",
+	"slug": "(קלקנתום",
+	"headword": {
+		"text": "(קַלְקַנְתּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַלְקַנְתּוֹס"
+		},
+		{
+			"text": "קַנְ׳"
+		}
+	],
+	"page": {
+		"number": 1382,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κάλκανθος, calcanthum) <i>vitriol</i> (also called atramentum sutorum, v. Sm. Ant. s. v.), used as an ingredient of <i>shoe-black</i>, and of <i>ink</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 2:3\">Gitt. II, 3</cite> <he>ובקנ׳</he> and with calcanthum (as writing ink); expl. ",
+				"<cite ref=\"Gittin 19a:6\">ib. 19ᵃ</cite> <he>חרתא דאושכפי</he>, v. <cite ref=\"A00924\"><he>אוּשְׁכָּפָא</he></cite>. ",
+				"<cite ref=\"Eruvin 13a:10-12\">Erub. 13ᵃ</cite> <he>דבר אחד</he> … <he>וק׳ שמו וכ׳</he> I have an ingredient whose name is calcanthum, which I put into the ink. ",
+				"<cite ref=\"Tosefta Shabbat 11:18\">Tosef. Sabb. XI</cite> (<cite ref=\"Tosefta Shabbat 12:18\">XII</cite>), 18 <he>אחד נותן את הדיו … הק׳</he> if one puts in the (dry) ink, another the water, and a third person the calcanthum; a. e."
+			]
+		}
+	]
+}

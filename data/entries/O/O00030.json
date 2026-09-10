@@ -1,0 +1,125 @@
+{
+	"id": "O00030",
+	"slug": "סבב-1",
+	"headword": {
+		"text": "סָבַב"
+	},
+	"page": {
+		"number": 948,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to go around, turn</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 18:10\">Num. R. s. 18</cite> <he>כשהייתי … והולך וסוֹבֵב כל וכ׳</he> when I travelled … and went around all the towns; <he>הייתי סובב והולך מעיר וכ׳</he> I went around from town to town. ",
+				"<cite ref=\"Eruvin 56a:6\">Erub. 56ᵃ</cite> <he>וסובב אל צפון בלילה</he> ‘and turns northward’ (<cite ref=\"Ecclesiastes 1:6\">Koh. I, 6</cite>) by night; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נָסַב"],
+			"senses": [
+				{
+					"gloss": "<i>to take a turn</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> <he>ונָסַבָּה ורחבה למעלה</he> it turned upward and became wider."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["סִיבֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to surround</i>. Erub. l. c.; <cite ref=\"Bava Batra 25b:2\">B. Bath. 25ᵇ</cite> (ref. to Koh. l. c.) <he>פעמים מְסַבַּבְתָּן ופעמים מהלכתן</he> (Rashi <he>סוֹבַבְתָּן</he>, v. Rabb. D. S. a. l. note 4) at seasons the sun goes around them (making a circuitous route), and at seasons it passes straight through (from north-east to south-west). ",
+					"units": [
+						"<cite ref=\"Eruvin 23b\">Erub. 23ᵇ</cite>; <cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13</cite> <he>סַבֵּב</he> tie around; a. e.—Trnsf. <i>to be around a person, to wait upon</i>. ",
+						"<cite ref=\"Devarim Rabbah 1:17\">Deut. R. s. 1</cite> (play on <he>סב את ההר</he>, <cite ref=\"Deuteronomy 2:3\">Deut. II, 3</cite>) <he>הרבה סי׳ עשו את הורו וכ׳</he> a long while has Esau been around his parent &c.—סי׳ על הפתחים <i>to go around from door to door, to beg</i>. ",
+						"<cite ref=\"Tosefta Peah 4:8\">Tosef. Peah IV, 8</cite> <he>המְסַבֵּב על … אין וכ׳</he> for the poor man that goes begging, the public charities are not bound to do anything. Y. ib. I, 15ᵈ top <he>כבד … אפי׳ את מסבב וכ׳</he> ‘honor thy father and thy mother’, even if thou have to go begging (thou must support them); <cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23—24</cite>; a. e.—",
+						"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> <he>עכשיו … מְסַבְּבִין פתחי וכ׳</he> now all Israel will surround my gate …, waiting for distribution of food; <cite ref=\"Yalkut Shimoni on Nach 598:1\">Yalk. ib. 598</cite> <he>יהיו … מְסוּבִּין</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to carry around from place to place</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 1:7\">Kel. I, 7</cite> <he>ומְסַבְּבִין לתוכן וכ׳</he> and you may carry a corpse from one (of the fortified places) to another; <cite ref=\"Tosefta Kelim Kamma 1:14\">Tosef. Kel. B. Kam. I, 14</cite> <he>ומס׳ בתוכן</he>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to place around</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 2:10\">Num. R. s. 2</cite> <he>סי׳ לכסאו וכ׳</he> he placed four angels around his throne.—Part. pass. <he>מְסוּבָּב</he>, f. <he>מְסוּבֶּבֶת</he> <i>surrounded, closed</i>. ",
+						"<cite ref=\"Bava Batra 25b:2\">B. Bath. 25ᵇ</cite>, v. <cite ref=\"A01720\"><he>אַכְסַדְרָא</he></cite>.—Pl. <he>מְסוּבִּים</he>, <he>מְסוּבִּין</he> <i>assembled, arranged around</i>. ",
+						"<cite ref=\"Avodah Zarah 18a:4\">Ab. Zar. 18ᵃ</cite> <he>מס׳ לו וכ׳</he> (Ms. M. <he>מְסוֹבְבִין אותו</he>) (his sins) are arranged around him on the day of judgment (as witnesses). Yalk. Ruth l. c., v. supra.—Esp. <i>reclining on the dining couch around the tables</i> (v. <cite ref=\"M01858\"><he>מְסוּבֶּה</he></cite>). ",
+						"<cite ref=\"Shemot Rabbah 25\">Ex. R. s. 25</cite> <he>מס׳ ואוכלין וכ׳</he> lying on couches and eating and praising &c. ",
+						"<cite ref=\"Pesachim 101b:6\">Pes. 101ᵇ</cite> <he>בני … מס׳ לשתות</he> the members of a party that were assembled for a feast; <cite ref=\"Pesachim 102a:8\">ib. 102ᵃ</cite>. ",
+						"<cite ref=\"Tosefta Pesachim 10:12\">Tosef. ib. X, 12</cite>; a. fr.—[Tanḥ. Ḥayé 3 <he>מסביב</he>, read: <he>מכתיב</he>, v. <cite ref=\"K01339\"><he>כָּתַב</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵסֵב", "הֵסִיב"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"E00696\"><he>הֵיסֵ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": " [<i>to surround the table</i>,] <i>to recline for dining in company</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 6:6\">Ber. VI, 6</cite> (<cite ref=\"Berakhot 42a:10\">42ᵃ</cite>) <he>הֵסֵיבּוּ אחד וכ׳</he> (Bab. ed. <he>הֵסֵבּוּ</he>; Y. ed. <he>הֵיסֵבּוּ</he>) if they lie down for a meal, one says grace in behalf of all, opp. <he>היו יושבין</he>. Tosef. ib. IV, 20 <he>בעל הבית שהיה מֵיסֵב ואוכל וכ׳</he> if a host has been reclining in company and eating, and a neighbor called him away to speak to him. Ib. V, 5; Y. Taan. IV, 68ᵃ bot. <he>בזמן שהן שתי … ומיסב וכ׳</he> when there are two couches, the highest in rank goes up and reclines at the head of the uppermost couch &c., v. <cite ref=\"E00695\"><he>הֶסֵּב</he></cite>. ",
+						"<cite ref=\"Mishnah Pesachim 10:1\">Pes. X, 1</cite> <he>אפי׳ עני … עד שיֵסֵב</he> even the poorest man in Israel must not eat (on the Passover night) without reclining (to indicate that he is a free man); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to recline, to invite</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 25\">Ex. R. s. 25</cite> (ref. to <he>ויסב</he>, <cite ref=\"Exodus 13:18\">Ex. XIII, 18</cite>, a. <cite ref=\"U01278\"><he>שלחן</he></cite>, <cite ref=\"Psalms 78:19\">Ps. LXXVIII, 19</cite>) <he>הסַיבָּן תחת ענני וכ׳</he> he invited them to recline under the clouds of glory (v. <cite ref=\"O00562\"><he>סִיגְמָטִין</he></cite>); a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to turn around</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>עתיד אני להָסֵיב על עולמי וכ׳</he> I shall turn again to my world in mercy."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּסַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be transferred</i> from tribe to tribe (<cite ref=\"Numbers 36:7\">Num. XXXVI, 7</cite>). ",
+					"units": [
+						"<cite ref=\"Bava Batra 112a\">B. Bath. 112ᵃ</cite> <he>כבר הוּסַבָּה</he> the field had been transferred (before the division of the land); <he>שכבר הוסבה לא אמרינן</he> we do not adopt the argument that a transfer before the division made any difference (v. comment., a. Rabb. D. S. a. l. notes 4 a. 5 for Var. Lect.)."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["סוֹבֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to surround</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 18a:4\">Ab. Zar. 18ᵃ</cite>, v. supra."
+					]
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

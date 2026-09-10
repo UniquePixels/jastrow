@@ -1,0 +1,26 @@
+{
+	"id": "S00931",
+	"slug": "קייטינאי",
+	"headword": {
+		"text": "קַיְיטִינָאֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַיְיטְנָאֵי"
+		}
+	],
+	"page": {
+		"number": 1359,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S00890\"><he>קַיְטָא</he></cite>) <i>summer onions</i>, v. <cite ref=\"S00754\"><he>קַטִּינָאֵי</he></cite>.",
+			"units": []
+		}
+	]
+}

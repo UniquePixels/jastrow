@@ -1,0 +1,27 @@
+{
+	"id": "S00124",
+	"slug": "קדושתא",
+	"headword": {
+		"text": "קְדוּשְׁתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְדוּשָּׁא"
+		}
+	],
+	"page": {
+		"number": 1314,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S00123\">same</cite> constr. <cite ref=\"S00122\"><he>קְדוּשַּׁת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:9\">Targ. O. Lev. XXI, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:11\">Targ. Ez. XVI, 11</cite>.—",
+				"<cite ref=\"Megillah 27b:5-13\">Meg. 27ᵇ</cite> <he>בית … דקביע קְדוּשְׁתֵּיה</he> (Ms. M. <cite ref=\"S00124\"><he>קדושתא</he></cite>; sub. <cite ref=\"G00536\"><he>זמן</he></cite>) a synagogue whose sacred character is permanent; <he>ארבע … קְדוּשְׁתַּיְיהוּ</he> the four cubits surrounding a synagogue whose sacredness is not permanent (as it would cease with the removal of the synagogue). ",
+				"<cite ref=\"Bekhorot 3b:12\">Bekh. 3ᵇ</cite> <he>מפקע להו מקדושתייהו</he> he deprives them of their sacred character; a. e."
+			]
+		}
+	]
+}

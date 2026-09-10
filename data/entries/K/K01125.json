@@ -1,0 +1,22 @@
+{
+	"id": "K01125",
+	"slug": "כרומשא",
+	"headword": {
+		"text": "כְּרוּמְשָׁא"
+	},
+	"page": {
+		"number": 665,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>service-tree</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:3\">Pes. 111ᵇ</cite> <he>כרו משא</he> ed. (Ms. M. <cite ref=\"K01210\"><he>כרכמושא</he></cite>, emend. <he>כררמ׳</he>); v. Löw Pfl. p. 287."
+			]
+		}
+	]
+}

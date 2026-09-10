@@ -1,0 +1,37 @@
+{
+	"id": "C00055",
+	"slug": "גבול-1",
+	"headword": {
+		"text": "גְּבוּל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 204,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <he>גבל</he>) [<i>heap, mound</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>landmark, boundary; limit; qualification</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 69b:1\">B. Bath. 69ᵇ</cite> (ref. to <cite ref=\"Genesis 23:17\">Gen. XXIII, 17</cite>) <he>מי שצריך לג׳ סביב</he> such trees as require boundaries (small trees, are included in the sale). ",
+				"<cite ref=\"Avodah Zarah 24b:10\">Ab. Zar. 24ᵇ</cite> <he>ג׳ יש לה</he> this assertion (<he>לוקחין מהן בהמה לקרבן</he>, <cite ref=\"Avodah Zarah 23b\">ib. 23ᵇ</cite>) must be qualified. ",
+				"<cite ref=\"Jerusalem Talmud Challah 1:1:9\">Y. Ḥall. I, 57ᵇ</cite> top (ref. to <cite ref=\"Isaiah 28:25\">Is. XXVIII, 25</cite>) <he>ע״כ גְּבוּלוֹ של לחם</he> so far goes the definition of bread, i.e. only these species can be called <i>leḥem</i>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (in gen.) <i>country</i>, contrad. to the sanctuary (<he>מקדש</he>) and Jerusalem. ",
+			"units": [
+				"<cite ref=\"Ketubot 24b\">Keth. 24ᵇ</cite>, a. fr. <he>קדשי הג׳</he> the sacred gifts (T’rumah &c.) set apart and consumed outside of the Temple and Jerusalem.—Pl. <he>גְּבוּלִים</he>, <he>גְּבוּלִין</he>. ",
+				"<cite ref=\"Bava Batra 56a:7\">B. Bath. 56ᵃ</cite> <he>עיירות העומדות על הג׳</he> border-towns.—",
+				"<cite ref=\"Mishnah Shekalim 7:3\">Shek. VII, 3</cite> <he>נמצא בג׳</he> if found outside of Jerusalem. ",
+				"<cite ref=\"Rosh Hashanah 30a\">R. Hash. 30ᵃ</cite>; a. fr.—V. <cite ref=\"C00283\"><he>גּוֹבֶל</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

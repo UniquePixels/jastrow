@@ -1,0 +1,37 @@
+{
+	"id": "Q01423",
+	"slug": "פצח",
+	"headword": {
+		"text": "פְּצַח"
+	},
+	"page": {
+		"number": 1204,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= b. h. <cite ref=\"Q01423\"><he>פָּצַח</he></cite>) <i>to burst, open</i>, v. <cite ref=\"Q01428\"><he>פְּצִיחַ</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"Q01439\"><he>פָּצַע</he></cite> <i>Hif.</i>; v. Syr. <cite ref=\"Q01423\"><he>פצח</he></cite> P. Sm. 3208) [<i>to spread</i>,] <i>to sparkle, be bright</i>, v. <cite ref=\"Q01430\"><he>פַּצִּיחַ</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּצֵּחַ"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"P00602\"><he>עינא</he></cite>) <i>to brighten the eye-sight</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 28b:12\">Ab. Zar. 28ᵇ</cite> <he>פַּצּוּחֵי עינא</he> to apply a paint (on the Sabbath) for the sake of brightening the eye-sight."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "H01075",
+	"slug": "חלל-3",
+	"headword": {
+		"text": "חֲלַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 470,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>חלחל</he>), (mostly) <i>Pa.</i> <cite ref=\"H01074\"><he>חַלֵּיל</he></cite> (v. <cite ref=\"H01074\">preced.</cite>) [<i>to turn in a hollow space</i>,] <i>to wash, rinse</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 4:6\">Targ. II Chr. IV, 6</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 1:9\">Targ. Lev. I, 9</cite>; a. fr.—",
+				"<cite ref=\"Chullin 113a:10\">Ḥull. 113ᵃ</cite> <he>דחַלְּלֵי בי טבחא</he> when they washed the meat in the slaughter house."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְלִיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01074\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 3:3\">Targ. Ruth III, 3</cite>.—",
+						"<cite ref=\"Chullin 95b\">Ḥull. 95ᵇ</cite> top <he>מַחְלִיל רישא וכ׳</he> (or <he>מְחַלֵּיל</he>) Ar. (ed. <cite ref=\"M00814\"><he>מחוור</he></cite>) he was washing an animal’s head in the river, v. <cite ref=\"H00444\"><he>חֲוַר</he></cite>"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "D00975",
+	"slug": "דפשקא",
+	"headword": {
+		"text": "דִפְשְׁקָא"
+	},
+	"page": {
+		"number": 317,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Dif. of <he>פשק</he>, dial. for <he>פסק</he>, <cite ref=\"Q02196\"><he>פתק</he></cite>, v. <cite ref=\"D00002\"><he>דְּ־</he></cite>; v. Koh. Ar. Compl. s. v. <he>דבשקא</he>; corresp. to <cite ref=\"B01102\"><he>בִּצְעָה</he></cite>) <i>dyke, ditch</i>. Pl. <he>דִּפְשְׁקֵי</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 21a:3\">Sabb. 21ᵃ</cite> <he>ומד׳ רבי</he> ed. (Ar. <he>ובדוב׳</he>, Mus. s. v. <he>פשק</he> quotes <he>ומפִּשְׁקֵי</he> in Rashi, <he>דופש׳</he> in Talm.) and they grow in dykes."
+			]
+		}
+	]
+}

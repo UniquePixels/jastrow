@@ -1,0 +1,26 @@
+{
+	"id": "G00072",
+	"slug": "זדון-2",
+	"headword": {
+		"text": "זָדוֹן"
+	},
+	"page": {
+		"number": 380,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>זוד</he>)<i>premeditated, conscious sin</i>, opp. <cite ref=\"U00211\"><he>שְׁגָגָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:13\">Ab. IV, 13</cite> a scholar’s error in teaching <he>עולה ז׳</he> is accounted for a wilful wrong. ",
+				"<cite ref=\"Keritot 25b:62\">Ker. 25ᵇ</cite>, a. fr. <he>דבר שזְדוֹנוֹ כרת</he> a sin which if wilfully committed, is punished with extinction, <cite ref=\"Shabbat 69a:1\">Sabb. 69ᵃ</cite> <he>דבר שחייבים על ז׳ וכ׳</he>. ",
+				"<cite ref=\"Shabbat 69a:5\">Ib.</cite> <he>בזְדוֹן שבת</he> when he is fully conscious that this is a Sabbath day (whereon certain labors are forbidden); a. fr.—Pl. <he>זְדוֹנוֹת</he>. ",
+				"<cite ref=\"Bava Metzia 33b:3\">B. Mets. 33ᵇ</cite> <he>ששגגות … כז׳</he> to whom errors are accounted &c.—",
+				"<cite ref=\"Yoma 36a\">Yoma 36ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

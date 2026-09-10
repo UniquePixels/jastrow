@@ -1,0 +1,23 @@
+{
+	"id": "B00148",
+	"slug": "בדיקנאה",
+	"headword": {
+		"text": "בְּדִיקְנָאָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 140,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00155\"><he>בְּדַק</he></cite> Pa., end) <i>detective, police officer</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 22a\">Taan. 22ᵃ</cite> <he>ב׳ אנא</he> Ms. M. (ed. <he>זנדוקנא</he>, v. <cite ref=\"G00568\"><he>זַנְדּוּקָא</he></cite>). [The description of that officer’s doings proves the correctness of the version of Ms. M.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "Q01595",
+	"slug": "פרדשנא",
+	"headword": {
+		"text": "פַּרְדַּשְׁנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְדִּישְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1216,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פרדש</he>, enlargement of <cite ref=\"Q01574\"><he>פרד</he></cite>) <i>gift on parting, dismissal, farewell present</i>. Lam. R. introd. (R. Josh. 2) <he>שדר פ׳ לביתיה</he> he sent a souvenir to his house (v. <cite ref=\"Q00635\"><he>פִּיטְרָא</he> II</cite>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 94b:10\">Snh. 94ᵇ</cite> <he>להאי פ׳</he>, v. <cite ref=\"D01149\"><he>דָּשְׁנָא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 235:1\">Yalk. Kings 235</cite> <cite ref=\"Q01595\"><he>פרדיש׳</he></cite>.—Pl. <he>פַּרְרַּשְׁנֵי</he>, <cite ref=\"Q01595\"><he>פַּרְדִּישְׁ׳</he></cite>. ",
+				"<cite ref=\"Megillah 13a:22\">Meg. 13ᵃ</cite> <he>שדר פ׳ ולא גליא ליה</he> he (Ahasverus) sent farewell gifts (for Esther’s friends), but she did not reveal to him (her kindred); <cite ref=\"Yalkut Shimoni on Nach 1053:26\">Yalk. Esth. 1053</cite> <he>פרדשכי</he> (corr. acc.). ",
+				"<cite ref=\"Avodah Zarah 71a:6\">Ab. Zar. 71ᵃ</cite> <he>הני פרסאי משדרי פ׳</he> those Persians send one another farewell gifts, and never reclaim them (considering possession by lifting (<cite ref=\"M02879\"><he>מְשִׁיכָה</he></cite>) final; oth. defin.: send <i>samples</i> &c., considering acceptance of samples final purchase)."
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "S01319",
+	"slug": "קלי-6",
+	"headword": {
+		"text": "קְלֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלָא"
+		}
+	],
+	"page": {
+		"number": 1375,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01318\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 29:22\">Targ. Jer. XXIX, 22</cite>. ",
+				"<cite ref=\"Onkelos Numbers 21:6\">Targ. O. Num. XXI, 6</cite> <he>חיוין קָלָן</he> (h. text <he>הנחשים השרפים</he>); a. fr.—[<cite ref=\"Targum Jonathan on Hosea 9:16\">Targ. Hos. IX, 16</cite> <cite ref=\"D01010\"><he>דקלא</he></cite>, read as ed. Lag. <he>דילְקָא</he>.]—Part. pass. <cite ref=\"S01317\"><he>קְלֵי</he></cite>, <cite ref=\"S01320\"><he>קָלִי</he></cite>; <cite ref=\"S00337\"><he>קַלְיָא</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 2:14\">Targ. Lev. II, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 30:3\">Targ. I Sam. XXX, 3</cite>; a. e.—",
+				"<cite ref=\"Pesachim 75a\">Pes. 75ᵃ</cite> <he>נקיף</he> … <he>ונִיקַלְיָיהּ</he> Ms. M. (ed. <he>ונקלה</he>) (may we not understand the text so) that we put bundles of twigs around her and burn her to death? <cite ref=\"Bava Metzia 74a:13\">B. Mets. 74ᵃ</cite> <he>הא מחוסר מִקְלֵי ואפוקי וכ׳</he> (some ed. <cite ref=\"M02424\"><he>מִקְלֵה</he></cite>) but it (the lime) lacks burning and taking out of the kiln and crushing! <cite ref=\"Sanhedrin 31a:11\">Snh. 31ᵃ</cite>, sq. <he>אי בעיא קלְתֵיה</he> if she wanted, she might have burned it (the document). ",
+				"<cite ref=\"Chullin 52b:17\">Ḥull. 52ᵇ</cite> <he>לא קָלֵי זיהריה</he>, v. <cite ref=\"G00294\"><he>זִיהֲרָא</he> II</cite>. ",
+				"<cite ref=\"Avodah Zarah 28a\">Ab. Zar. 28ᵃ</cite> <he>קְלַנְהִי אמרא וכ׳</he> roast them on a new shovel. ",
+				"<cite ref=\"Sanhedrin 96b:4\">Snh. 96ᵇ</cite> <he>היכלא קליא קְלִית</he> a burnt temple thou didst burn (v. <cite ref=\"I00271\"><he>טְחַן</he></cite>); a. fr.—Trnsf. <i>to expose to the evil eye</i> or <i>to the covetousness of thieves</i>. ",
+				"<cite ref=\"Bava Metzia 30a:5\">B. Mets. 30ᵃ</cite> <he>דמִקְלָא קָלֵי לה וכ׳</he> (by exhibiting the found object) he exposes it to loss through the evil eye or through thieves."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיקְּלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be burnt</i>. Snh. l. c. <he>מטא … היכלא מִיקְּלֵי</he> the time has arrived for the sanctuary to be destroyed and the Temple to be burnt.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "N00452",
+	"slug": "נזירות",
+	"headword": {
+		"text": "נְזִירוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְזִירָה"
+		}
+	],
+	"page": {
+		"number": 891,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"N00447\"><he>נָזִיר</he></cite> or <cite ref=\"N00464\"><he>נָזַר</he></cite>) <i>abstinence</i>, esp. <i>the Nazarite’s vow, nazariteship</i>. Sifra Emor, ch. III, Par. 4 (ref. to <cite ref=\"Leviticus 22:2\">Lev. XXII, 2</cite> <he>וינזרו</he>) <he>אין נזירה אלא הפרשה</he> the verb <i>nazar</i> means to abstain (guard); <cite ref=\"Bamidbar Rabbah 10:25\">Num. R. s. 10</cite> <he>אין נזירות … אלא פרישות</he>; <cite ref=\"Yalkut Shimoni on Torah 632:8\">Yalk. Lev. 632</cite>; Sifra l. c. <he>הא אין נזירות וכ׳</he>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:7\">Num. R. s. 10</cite> <he>אדם קובע עליו נזירות בתוך נְזִירָתוֹ</he> a person may take the Nazarite’s vow within the time of his vow. ",
+				"<cite ref=\"Mishnah Nazir 4:7\">Naz. IV, 7</cite> <he>מגלח על נזירות אביו</he> may cut his hair (and sacrifice at the expiration of his vow) on the nazariteship of his (deceased) father, i.e. use his father’s money set apart for the purpose. ",
+				"<cite ref=\"Mishnah Nazir 4:7\">Ib.</cite> <he>הפריש … לנְזִירָתוֹ</he> (Rashi to ib. 30ᵃ; <cite ref=\"N00452\"><he>נְזִירוּת</he></cite>) he had set apart money for his nazaritic expenses without mentioning special items; Tosef. ib. III, 16; <cite ref=\"Tosefta Meilah 1:9\">Tosef. Meïl. I, 9</cite>. ",
+				"<cite ref=\"Nedarim 3b:1\">Ned. 3ᵇ</cite> <he>הנ׳ חל על הנ׳</he> (sub. <cite ref=\"N00240\"><he>נֵדֶר</he></cite>) one nazaritic vow may take effect on top of another, i.e. a vow taken within the term of another, takes effect when the first expires, v. supra; a. fr.—Pl. (of <cite ref=\"N00452\"><he>נְזִירָה</he></cite>) <cite ref=\"N00452\"><he>נְזִירוֹת</he></cite>, (of <cite ref=\"N00452\"><he>נְזִירוּת</he></cite>) <he>נְזִירִיּוֹת</he>. ",
+				"<cite ref=\"Mishnah Nedarim 1:1\">Ned. I, 1</cite> <he>נ׳ כנ׳</he> (<he>כינויי</he>) the substitutes for <i>nazir</i> are as effective as the word <i>nazir</i> itself. Tosef. Naz. l. c. <he>לשאר נְזִירוֹתָיו</he> for his other nazaritic expenses. ",
+				"<cite ref=\"Nazir 14b:9\">Naz. 14ᵇ</cite> <he>שתי נ׳</he> two nazaritic vows. Y. ib. V, end, 54ᵇ <he>וכולן … נזיריות</he> and all of them must observe nine nazaritic vows in succession; a. fr."
+			]
+		}
+	]
+}

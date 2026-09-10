@@ -1,0 +1,57 @@
+{
+	"id": "B01153",
+	"slug": "בר-2",
+	"headword": {
+		"text": "בַּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּר"
+		},
+		{
+			"text": "בָּרָא"
+		}
+	],
+	"page": {
+		"number": 188,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01152\">same</cite> (= h. <cite ref=\"U00261\"><he>שָׂדֶה</he></cite>, <cite ref=\"J00497\"><he>יַעַר</he></cite>) <i>forest, prairie</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 50:10\">Targ. Ps. L, 10</cite> sq. ",
+				"<cite ref=\"Onkelos Genesis 3:1\">Targ. O. Gen. III, 1</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adj.) <i>living in the forest</i> &c., <i>wild</i>. Targ. Ps. l. c. Var. <he>תרנגול ברא</he>; <cite ref=\"Shabbat 78a:5\">Sabb. 78ᵃ</cite> <he>תרנגולא ב׳</he> Ms. M. (ed. … <he>לת</he>) woodcock (hen of the prairie).",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>peel</i>. Ib. 139ᵇ <he>ב׳ דתומא</he> the peel of garlic; [Rashi, expl. <he>צלע</he>, must have read <he>אברא</he>].",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": " (= h. <cite ref=\"H00429\"><he>חוּץ</he></cite>) <i>outside, outdoors, street</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:31\">Targ. Gen. XXXIV, 31</cite> <he>נפקת ב׳</he> a prostitute, v. <cite ref=\"H00430\"><he>חוּץ</he> II</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:8\">Y. Kil. IX, 32ᵇ</cite> <he>מאן בעי לך לבר</he> who wants thee outside? (an intimation to leave the room). ",
+				"<cite ref=\"Sanhedrin 62a:28\">Snh. 62ᵃ</cite>; <cite ref=\"Sanhedrin 62b\">62ᵇ</cite>; <cite ref=\"Shabbat 106a:6\">Sabb. 106ᵃ</cite>, a. e. <he>פוק תני לברא</he> go out and teach it in the street (i.e. your tradition is rejected).—<he>תנא ברא</he> a Tannai not recorded in the Mishnah, v. <cite ref=\"B01264\"><he>בָּרַיְיתָא</he></cite>. ",
+				"<cite ref=\"Moed Katan 17b:7\">M. Kat. 17ᵇ</cite> (Rashi: <he>האי תנא דברייתא</he>); <cite ref=\"Bava Batra 93b:15\">B. Bath. 93ᵇ</cite> Ar. (ed. <cite ref=\"B01393\"><he>בתרא</he></cite>); cmp. <cite ref=\"B01160\"><he>בָּרָאָה</he></cite>.—4) (prep. a. adv.) <i>outside;</i> <he>בר מן</he> <i>outside of, except, without</i>. ",
+				"<cite ref=\"Onkelos Genesis 14:24\">Targ. O. Gen. XIV, 24</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 38b:10\">Ber. 38ᵇ</cite> <he>ב׳ מן דין וב׳ וכ׳</he> without this and without that, i.e. apart from these two arguments. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 7:10:3\">Y. Erub. VII, end 24ᵈ</cite> <he>ב׳ מדעתיה</he> without his knowledge; a. fr.—",
+				"<cite ref=\"Chullin 62b:4\">Ḥull. 62ᵇ</cite> <he>וסימניך ב̇ר̇ מיניה</he> and thy mnemonical sign (as to <cite ref=\"R00736\"><he>צרדא</he></cite> a. <he>ב̇ר̇דא</he>, the one being forbidden, the other permitted) be: keep aloof from it <he>(ב̇ר̇דא</he>).—Trnsf. <i>restriction</i> (everywhere except …), <i>proviso</i>. ",
+				"<cite ref=\"Sukkah 45b:12\">Succ. 45ᵇ</cite>; <cite ref=\"Sanhedrin 97b:9\">Snh. 97ᵇ</cite> who enter the heavenly courts <he>בב׳</he> with certain qualifications (by special grant), <he>בלא ב׳</he> without any restrictions.—<he>לְבַר</he>, <he>מִלְּבַר</he> <i>apart from, outside, exclusively</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:8:1\">Cant. R. to VII, 8</cite> <he>לב׳ מישראל</he> except the Israelites. ",
+				"<cite ref=\"Chullin 98a:17\">Ḥull. 98ᵃ</cite> sixty one, <he>בהדי דידה או … לב׳ מינה</he> the one (egg) included or excluded? <cite ref=\"Bava Batra 90b:4\">B. Bath. 90ᵇ</cite> <he>שתותא מלב׳</he> the sixth part (as an addition) is outside, i.e. to each five portions one is added, an addition of twenty percent, opp. <he>מִלְגֵו</he>. ",
+				"<cite ref=\"Bava Metzia 53b:5\">B. Mets. 53ᵇ</cite>, v. <cite ref=\"H00398\"><he>חוּמְשָׁא</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

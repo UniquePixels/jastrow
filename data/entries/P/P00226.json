@@ -1,0 +1,42 @@
+{
+	"id": "P00226",
+	"slug": "עוי-2",
+	"headword": {
+		"text": "עֲוֵי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1049,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00225\">same</cite>, <i>to curve</i>. *<cite ref=\"Aramaic Targum to Psalms 59:5\">Targ. Ps. LIX, 5</cite> <he>עד לא עַוְויָן</he> ed. Lag. (oth. ed. <he>על לא עַוְיָן</he>) without making a curve (deviation) (Ms. <cite ref=\"P00228\"><he>עֲוָויָא</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַעֲוֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be wrong</i>. Ib. CVI, 6 (ed. Lag. <he>עותנא</he>, v. <cite ref=\"P00377\"><he>עֲוַת</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְעֲוֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be wronged</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 18:19\">Targ. Prov. XVIII, 19</cite> (v., however, <cite ref=\"P00165\"><he>עֲדַר</he> II</cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

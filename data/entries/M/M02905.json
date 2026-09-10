@@ -1,0 +1,46 @@
+{
+	"id": "M02905",
+	"slug": "משכן-2",
+	"headword": {
+		"text": "מִשְׁכֵּן"
+	},
+	"page": {
+		"number": 854,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"M02900\"><he>מַשְׁכּוֹן</he></cite>) <i>to take a pledge; to seize, levy</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 81b:13\">B. Mets. 81ᵇ</cite> <he>מִשְׁכְּנוֹ בשעת הלואתו</he> he made him give a pledge at the time when the loan was transacted; <he>מ׳ שלא בשעת וכ׳</he> he seized it (through court proceedings) after the transaction of the loan. Ib. 113ᵇ <he>שליח ב״ד שבא למַשְׁכְּנוֹ</he> when the court messenger comes to seize his goods. ",
+				"<cite ref=\"Mishnah Shekalim 1:3\">Shek. I, 3</cite> <he>את מי מְמַשְׁכְּנִין</he> against whom was seizure (for the contribution of the half-Shekel) executed?—Y. ib. II, beg. 46ᶜ <he>מכיון שב״ד ראויין למַשְכֵּן ולא מִישְׁכְּנוּ</he> since the court had a right to seize and did not do so (because the claim was satisfied with another man’s money). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:4\">Cant. R. to I, 4</cite> (play on <he>משכני</he>, <cite ref=\"Shir HaShirim Rabbah 1:4:4\">ib.</cite>) <he>מַשְׁכֵּינְנִי אחריך נרוצה</he> execute levy against me (take my sanctuary, v. <cite ref=\"M02900\"><he>מַשְׁכּוֹן</he></cite>), yet after thee we run. ",
+				"<cite ref=\"Shemot Rabbah 35:4\">Ex. R. s. 35</cite> <he>אני נוטל</he> … <he>ומְמַשְׁכְּנוֹ בעדם</he> I take a righteous man from them and seize him for their guilt; a. fr.—Part. pass. <cite ref=\"M00017\"><he>מְמוּשְׁכָּן</he></cite>; pl. <he>מְמוּשְׁכָּנִים</he>, <he>מְמוּשְׁכָּנִין</he>. Y. Shek. l. c. <he>אין תורמין … ולא על הממ׳</he> in distributing the Temple contributions we do not take into account that which is being collected (and has not yet come in) or that which is to be obtained by seizure. ",
+				"<cite ref=\"Mishnah Peah 8:8\">Peah VIII, 8</cite>. ",
+				"<cite ref=\"Bava Metzia 73b:1\">B. Mets. 73ᵇ</cite>, v. <cite ref=\"M02906\">next w.</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְמַשְׁכֵּן"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְמַשְׁכֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be seized</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 51:7\">Ex. R. s. 51</cite>, beg. <he>שנ׳ שתי פעמים וכ׳</he> it (the sanctuary) was twice seized for their sins, v. <cite ref=\"M02900\"><he>מַשְׁכּוֹן</he></cite>. ",
+						"<cite ref=\"Shemot Rabbah 35:4\">Ex. R. s. 35</cite>; Tanḥ. Vayakh. 9 <he>יהא המשכן מִתְמַשְׁכֵּן עליהם</he>, v. <cite ref=\"M02900\"><he>מַשְׁכּוֹן</he></cite>. ",
+						"<cite ref=\"Shemot Rabbah 35:4\">Ib.</cite> <he>ויהיו מִתְמַשְׁכְּנִין וכ׳</he> and they (the righteous) will be seized &c. ",
+						"<cite ref=\"Bamidbar Rabbah 12:16\">Num. R. s. 12</cite> <he>המשכן והמקדש יִתְמַשְׁכְּנוּ וכ׳</he> the Tabernacle and the Temple shall be seized &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

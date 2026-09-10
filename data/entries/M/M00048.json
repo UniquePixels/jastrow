@@ -1,0 +1,60 @@
+{
+	"id": "M00048",
+	"slug": "מאן-3",
+	"headword": {
+		"text": "מָאן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַאן"
+		},
+		{
+			"text": "מָאנָא"
+		},
+		{
+			"text": "מָן"
+		},
+		{
+			"text": "מָנָא"
+		}
+	],
+	"page": {
+		"number": 723,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M00047\">preced.</cite>) [<i>thing</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>vessel, utensil</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 2:9\">Targ. Ps. II, 9</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 11:33\">Targ. Lev. XI, 33</cite>; a. fr. (interch. with <cite ref=\"M00048\"><he>מָן</he></cite>, <cite ref=\"M01696\"><he>מַן</he></cite>).—",
+				"<cite ref=\"Bava Kamma 17b:19\">B. Kam. 17ᵇ</cite> <he>מ׳ תבירא תבר</he> it was a broken vessel he broke. ",
+				"<cite ref=\"Bava Kamma 17b:21\">Ib.</cite> <he>בתר תבר מ׳ אזלינן</he> we judge by the final cause by which the vessel was broken; a. v. fr.—Pl. <he>מָאנִין</he>, <he>מָאנַיָּא</he>, <cite ref=\"M01771\"><he>מָאנֵי</he></cite>, <cite ref=\"M00539\"><he>מָנ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 11:2\">Targ. Ex. XI, 2</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 105b:12\">Sabb. 105ᵇ</cite> <he>תבר מ׳ תבירי</he> broke broken vessels (pretending to be angry); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00714\"><he>כֶּלִי</he></cite>) <i>garment, dress</i>. Ib. 113ᵇ; <cite ref=\"Sanhedrin 94a:2\">Snh. 94ᵃ</cite> <he>קרי למָאנֵיה וכ׳</he> called his dress (garments) &c., v. <cite ref=\"K00030\"><he>כָּבֵד</he> I</cite>; <cite ref=\"Bava Kamma 91b:12\">B. Kam. 91ᵇ</cite> <he>למאני</he> (corr. acc.; v. Rabb. D. S. a. l.).—",
+			"units": [
+				"<cite ref=\"Bava Metzia 47a:18\">B. Mets. 47ᵃ</cite> <he>במ׳ דכשר למקני ביה</he> (symbolical possession has been given) by means of a garment fit for the purpose; a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Berakhot 6a:5\">Ber. 6ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:5\">Y. Kil. IX, 32ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Ketubot 12:3:5\">Y. Keth. XII, 35ᵃ</cite> top <he>מָאנוֹי</he>, v. <cite ref=\"B00459\"><he>בְּזַע</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (= h. <cite ref=\"S01614\"><he>קַנְקַן</he></cite>) [<i>handle</i>,] <i>coulter of the plough</i>. ",
+			"units": ["<cite ref=\"Bava Metzia 80a:2\">B. Mets. 80ᵃ</cite>"],
+			"label": "3"
+		}
+	]
+}

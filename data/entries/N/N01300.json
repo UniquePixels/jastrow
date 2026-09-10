@@ -1,0 +1,74 @@
+{
+	"id": "N01300",
+	"slug": "נשי-1",
+	"headword": {
+		"text": "נשי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָשָׁה"
+		},
+		{
+			"text": "נָשָׁא"
+		}
+	],
+	"page": {
+		"number": 938,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N01284\"><he>נָשָׂא</he></cite>)<i>to move, slip</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 91a\">Ḥull. 91ᵃ</cite> it is called <i>gid hannasheh</i> (v. <cite ref=\"C00626\"><he>גִּיד</he></cite>), <he>שנ׳ ממקזמו וכ׳</he> because it slipped from its place and went up; <cite ref=\"Yalkut Shimoni on Torah 133:15\">Yalk. Gen. 133</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 133:6\">Ib.</cite> <he>א״ר חנניא … שנשא את מקומו</he> R. Ḥ. said, … because it left its place; <cite ref=\"Bereishit Rabbah 78:6\">Gen. R. s. 78</cite> <he>שנשה ממקומו</he>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to discard, forget</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 50b:9\">Ned. 50ᵇ</cite> <he>אבותינו אמרו נָשִׁינוּ טובה וכ׳</he> our fathers said (<cite ref=\"Lamentations 3:17\">Lam. III, 17</cite>), we have forgotten the good times: we have not even seen them &c. ",
+				"<cite ref=\"Sanhedrin 102b:19\">Snh. 102ᵇ</cite> (play on <he>מנ̇ש̇ה̇</he>) <he>שנ̇ש̇ה יה̇</he> he forgot Yah. ",
+				"<cite ref=\"Pesikta Rabbati 45:1\">Pesik. R. s. 45</cite> (ref. to <he>נְשׂוּי</he>, <cite ref=\"Psalms 32:1\">Ps. XXXII, 1</cite>) <he>אל תהי … ש״ין נְשׁוּי</he> read it not with Samekh (<i>n’suy</i>), but with Shin, <i>n’shuy</i>, whose sin is forgotten; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>, cmp. <cite ref=\"N00958\"><he>נְסַק</he></cite> <i>Af.</i>) [<i>to raise, collect</i>,] <i>to have a claim against; to be a creditor of</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 75b:5\">B. Mets. 75ᵇ</cite> <he>נוֹשֶׁה בחבירו מנה</he> he who has a claim &c., to whom his neighbor owes money. ",
+				"<cite ref=\"Menachot 85b:18\">Men. 85ᵇ</cite> <he>נושה בי וכ׳</he> I owe him &c.; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשִּׁיא"],
+			"senses": [
+				{
+					"gloss": "<i>to carry away; to incite, allure</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 19:7\">Gen. R. s. 19</cite> (expl. <he>השיאני</he>, <cite ref=\"Genesis 3:13\">Gen. III, 13</cite>) <he>הטעני</he> he led me astray; v. <cite ref=\"C01286\"><he>גָּרָה</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make a loan to; to collect, distrain; to pledge</i>. Ib. (expl. <he>השיאני</he>) <he>חייבני</he> he made me a debtor (guilty, v. <cite ref=\"H00231\"><he>חוּב</he></cite>). ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:7:1\">Cant. R. to II, 7</cite> (ref. to <cite ref=\"A03255\"><he>אֶשָּׂא</he></cite>, <cite ref=\"Psalms 25:1\">Ps. XXV, 1</cite>) <he>אַשִּׁיא כתיב</he> it may be read <i>ashshi</i>, I pledge (my soul); <he>שהיו מַשִּׁיאִין נפשם על וכ׳</he> they (the martyrs) pledged their lives for the sanctification &c. (v. ",
+						"<cite ref=\"Midrash Tehillim 25\">Midr. Till. to Ps. XXV</cite> <he>שנתמשכנו וכ׳</he>); <cite ref=\"Midrash Tehillim 25\">ib.</cite> <he>משיאין … מהם</he> they (the torturers) take their lives as pledges; <cite ref=\"Midrash Tehillim 16\">Midr. Till. to Ps. XVI</cite>; <cite ref=\"Yalkut Shimoni on Nach 667:3\">Yalk. Ps. 667</cite> <he>משיחין</he> (corr. acc.)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " הִנְשִׁי <i>to cause to forget</i>. Snh. l. c. (play on <he>מנ̇ש̇ה</he>) <he>שהנ̇ש̇י את ישראל לאביהם וכ׳</he> he made Israel forget their Father in heaven; <cite ref=\"Yalkut Shimoni on Nach 245:4\">Yalk. Kings 245</cite> <he>שהִנְשִׁיא</he>.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "Q02085",
+	"slug": "פשע-1",
+	"headword": {
+		"text": "פָּשַׁע"
+	},
+	"page": {
+		"number": 1247,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to pass beyond</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be wilful, rebellious</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 4:2\">Yoma IV, 2</cite> <he>פָּשַׁעְתִּי</he>; <cite ref=\"Mishnah Yoma 6:2\">ib. VI, 2</cite> <he>פָּשְׁעוּ</he>, v. <cite ref=\"P00206\"><he>עָוָה</he></cite>; a. fr.—פּוֹשֵׁעַ <i>a wilful transgressor, rebel, apostate</i>. ",
+				"<cite ref=\"Gittin 57a\">Gitt. 57ᵃ</cite> <he>פ׳ ישראל</he> a Jewish apostate (the censor’s disguise for Jesus). ",
+				"<cite ref=\"Gittin 57a:4\">Ib.</cite> <he>תא חזי מה בין פּוֹשְׁעֵי ישראל וכ׳</he> come and see the difference between Jewish apostates and gentile prophets. ",
+				"<cite ref=\"Rosh Hashanah 17a:3\">R. Hash. 17ᵃ</cite> <he>פ׳ ישראל בגופן</he> Jewish sinners with their bodies (disregarding the ceremonial laws intended to guard the purity of life); <he>פ׳ אומות העולם בגופן</he> gentile sinners with their bodies (lustful and violent). ",
+				"<cite ref=\"Midrash Tehillim 51:3\">Midr. Till. to Ps. LI</cite> <he>כשאתה אומר לפּוֹשְׁעִים … אם תקבלני כל הפושעים משלימים לך</he> when thou sayest to the sinners, why have you not repented? (they may plead ignorance of thy goodness, but) if thou receivest me, all sinners will make peace with thee; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be faithless</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 52:2\">Gen. R. s. 52</cite> (ref. to <cite ref=\"Proverbs 18:19\">Prov. XVIII, 19</cite>) <he>פָּשַׁעְתָּ באברהם</he> thou (Lot) wast faithless to Abraham; <cite ref=\"Bamidbar Rabbah 18:14\">Num. R. s. 18</cite> <he>זה קרח שפ׳ בתורה וכ׳</he> this refers to Korah who was faithless to the Law, which is called ‘strength’; a. fr.—Esp. (with ref. to <cite ref=\"Exodus 22:8\">Ex. XXII, 8</cite>) <i>to be negligent in guarding a trust</i>. ",
+				"<cite ref=\"Bava Metzia 36b:4\">B. Mets. 36ᵇ</cite> <he>פ׳ בה וכ׳</he> if he was careless in guarding the animal, and it went out &c. ",
+				"<cite ref=\"Bava Metzia 34a:9\">Ib. 34ᵃ</cite> <he>כיון שאמר פשעתי וכ׳</he> as soon as he says, ‘I have been at fault’, he surrenders the eventual fine (of the thief) to the owner. ",
+				"<cite ref=\"Bava Metzia 58a:2\">Ib. 58ᵃ</cite> <he>כי היכי דלא לקרו להו פושעים</he> in order that they may not be called faithless guardians; a. fr.—",
+				"<cite ref=\"Berakhot 28a:14\">Ber. 28ᵃ</cite> <he>ונקרא פושע</he> and he is called negligent (because he delayed his prayers)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְשִׁיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to transgress</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9:47\">Num. R. s. 9</cite> (ref. to <cite ref=\"Exodus 22:8\">Ex. XXII, 8</cite>) <he>מדבר באהרן שה׳ ישראל בדיבור לא יהיה</he> it alludes to Aaron who caused Israel to transgress the commandment, ‘thou shalt have no other gods &c.’ (<cite ref=\"Exodus 20:3\">Ex. XX, 3</cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

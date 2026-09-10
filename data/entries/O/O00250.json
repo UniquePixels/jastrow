@@ -1,0 +1,38 @@
+{
+	"id": "O00250",
+	"slug": "סוגי",
+	"headword": {
+		"text": "סוּגֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּגְאֵי"
+		},
+		{
+			"text": "סוּגְאָה"
+		},
+		{
+			"text": "סוּגְיָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 961,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְגֵי</he> I) <i>multitude, largeness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:21\">Targ. Prov. VII, 21</cite> <he>סוגי</he> Ms. (ed. <cite ref=\"O00251\"><he>סוגיא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:23\">Ib. V, 23</cite> <he>סוגאי</he> (Ms. <cite ref=\"O00251\"><he>סוגיא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:14\">Targ. Ps. LXIX, 14</cite> Ms. (ed. <cite ref=\"O00141\"><he>סגיעי</he></cite>); a. fr.—V. <cite ref=\"O00254\"><he>סוּגְעָא</he></cite>.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<he>שרתי</he>) <he>סוּגֵיהוֹן בישין</he> their masses are bad; <cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite> <he>סוּגַיָּיה בישין</he> the masses of the place are bad; <cite ref=\"Yalkut Shimoni on Torah 84:3\">Yalk. ib. 84</cite> <cite ref=\"O00251\"><he>סוּגַיָּא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:5\">Y. Ab. Zar. I, 39ᶜ</cite> <he>סוגייה שמריין</he> (not <he>סי׳</he>; prob. to be read <he>רומיין</he>) most of the garrison are Samaritans (Romans)."
+			]
+		}
+	]
+}

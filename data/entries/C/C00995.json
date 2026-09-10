@@ -1,0 +1,32 @@
+{
+	"id": "C00995",
+	"slug": "גמא-1",
+	"headword": {
+		"text": "גַּמָּא"
+	},
+	"page": {
+		"number": 251,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Γάμμα) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Gamma</i>, the third letter of the Greek alphabet. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 3:2\">Shek. III, 2</cite> <he>אלפא ביתא ג׳</he> Ms. O. (ed. <cite ref=\"C01045\"><he>גמלא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the shape of a Gamma</i>, Γ, v. <cite ref=\"C00994\">preced.</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "C00205",
+	"slug": "גדיל-3",
+	"headword": {
+		"text": "גְּדִיל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 212,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<he>גדל</he>) <i>liberal, heaped measure</i>, opp. <he>מחיק</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:9:9\">Y. Pes. IV, end, 31ᶜ</cite> (<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite> <cite ref=\"C00218\"><he>גדיש</he></cite>)."
+			]
+		}
+	]
+}

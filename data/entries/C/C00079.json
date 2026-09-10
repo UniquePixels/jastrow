@@ -1,0 +1,23 @@
+{
+	"id": "C00079",
+	"slug": "גביה",
+	"headword": {
+		"text": "גְּבִיהַּ"
+	},
+	"page": {
+		"number": 206,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"C00053\"><he>גָּבוֹהַּ</he></cite> (v. <cite ref=\"C00050\"><he>גְּבַהּ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 113:5\">Targ. Ps. CXIII, 5</cite> (Var. <he>גָּבֵיהַּ</he>).—Pl. <he>גְּבִיהִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 103:11\">Ib. CIII, 11</cite>. [<cite ref=\"Jerusalem Talmud Terumot 10:6:11\">Y. Ter. X, 47ᵇ</cite> bot., v. <cite ref=\"C00050\"><he>גְּבַהּ</he></cite>.]"
+			]
+		}
+	]
+}

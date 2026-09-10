@@ -1,0 +1,33 @@
+{
+	"id": "E00817",
+	"slug": "הרגל",
+	"headword": {
+		"text": "הֶרְגֵּל"
+	},
+	"page": {
+		"number": 365,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רגל</he>, v. <cite ref=\"T00191\"><he>רָגִיל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>habit;</i> <he>ה׳ לשון</he> habit of the tongue, fluency acquired by memorizing. ",
+			"units": ["<cite ref=\"Kohelet Rabbah 6:9\">Koh. R. to VI, 9</cite>."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>leading to, occasion for</i>. <he>מפני ה׳ עבירה</he> because it offers an occasion for sin. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:3\">Sabb. I, 3</cite>; <cite ref=\"Pesachim 30a:9\">Pes. 30ᵃ</cite>; <cite ref=\"Pesachim 36a:11\">36ᵃ</cite>; a. e.—",
+				"<cite ref=\"Avodah Zarah 17a:12\">Ab. Zar. 17ᵃ</cite> <he>ה׳ דבר</he> (euphem.) preliminaries of sexual connection."
+			],
+			"label": "2"
+		}
+	]
+}

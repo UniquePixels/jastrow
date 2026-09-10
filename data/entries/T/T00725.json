@@ -1,0 +1,22 @@
+{
+	"id": "T00725",
+	"slug": "רישיתא",
+	"headword": {
+		"text": "רֵישִׁיתָא"
+	},
+	"page": {
+		"number": 1478,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"T00036\"><he>רֵאשִׁית</he></cite>, <i>firstling</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 18:12\">Targ. O. Num. XVIII, 12</cite> ed. Berl. (oth. ed. <cite ref=\"T00036\"><he>רֵאשִׁית׳</he></cite> ed. Lsb. <he>רֵאשְׁהוֹן</he>)."
+			]
+		}
+	]
+}

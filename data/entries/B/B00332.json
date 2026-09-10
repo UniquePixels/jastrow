@@ -1,0 +1,25 @@
+{
+	"id": "B00332",
+	"slug": "בור-5",
+	"headword": {
+		"text": "בּוֹר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 148,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00328\"><he>בּוּר</he> I</cite>) <i>uncultivated, an uncultured person, mannerless, ruffian</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:5\">Aboth. II, 5</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Mikvaot 9:6\">Mikv. IX, 6</cite> <he>של בור</he>, v. <cite ref=\"B00937\"><he>בַּנָּאִים</he></cite>.—Pl. <he>בּוֹרִים</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 3:1\">Num. R. s. 3</cite>, beg."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "N00988",
+	"slug": "נעל-3",
+	"headword": {
+		"text": "נַעַל"
+	},
+	"page": {
+		"number": 920,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00987\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. Gr. ὑπόδημα) [<i>tied under the foot</i>,] <i>shoe</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 102a:1-9\">Yeb. 102ᵃ</cite> <he>התורה … נַעֲלוֹ ולא מנעלו</he> the Law (<cite ref=\"Deuteronomy 25:9\">Deut. XXV, 9</cite>) says, what is tied to his foot, but not what covers his foot (a full shoe, v. <cite ref=\"M01803\"><he>מִנְעוֹל</he></cite>). ",
+				"<cite ref=\"Sifrei Devarim 291:3\">Sifré Deut. 291</cite> (ref. to Deut. l. c.) <he>נעלו שלו</he> his own shoe; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lock, locking up</i>.—Pl. <he>נְעָלִים</he>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:2:2\">Cant. R. to VII, 2</cite>, v. <cite ref=\"N00979\"><he>נְעִילָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

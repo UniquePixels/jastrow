@@ -1,0 +1,23 @@
+{
+	"id": "N01092",
+	"slug": "נץ-3",
+	"headword": {
+		"text": "נֵץ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 927,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; prob. fr. its far-sightedness, , <i>Hif.</i>) <i>hawk</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite>; <cite ref=\"Tosefta Chullin 3:3\">Tosef. ib. III, 3</cite>; a. e."
+			]
+		}
+	]
+}

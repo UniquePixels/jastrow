@@ -1,0 +1,29 @@
+{
+	"id": "O00136",
+	"slug": "סגילריא",
+	"headword": {
+		"text": "סְגִילָרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגִילָרְיָה"
+		}
+	],
+	"page": {
+		"number": 954,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (sigillaria) <i>Sigillaria, the Image Feast</i>, the last days of the Roman Saturnalia, on which little images were given and received as presents. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:7:2\">Y. Ab. Zar. I, 40ᵃ</cite> <cite ref=\"O00136\"><he>סגילריה</he></cite> (missing or corrupted in Bab. ",
+				"<cite ref=\"Avodah Zarah 18b\">Ab. Zar. 18ᵇ</cite>; Ms. M. <he>סגלוין</he>; v. Rabb. D. S. a. l. note 5); Tosef. ib. II, 6 <he>סגלריא</he>; <cite ref=\"Yalkut Shimoni on Nach 613:1\">Yalk. Ps. 613</cite> <he>סגלין</he> (corr. acc.)."
+			]
+		}
+	]
+}

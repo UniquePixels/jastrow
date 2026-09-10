@@ -1,0 +1,42 @@
+{
+	"id": "D00607",
+	"slug": "דילמא-1",
+	"headword": {
+		"text": "דִּילְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּלְמָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 299,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"D00607\"><he>דִּי לְמָא</he></cite>, v. ",
+			"units": [
+				"<cite ref=\"Ezra 7:23\">Ezra VII, 23</cite>; = h. <cite ref=\"U01409\"><he>שֶׁמָּא</he></cite> = <cite ref=\"U01353\"><he>שַׁלָּמָה</he></cite>) <i>for why</i>, whence "
+			]
+		},
+		{
+			"gloss": "<i>lest, perhaps</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 7:22\">Targ. Deut. VII, 22</cite>; a. v. fr.—",
+				"<cite ref=\"Avodah Zarah 35a:9\">Ab. Zar. 35ᵃ</cite> <he>ד׳ איכא וכ׳</he> lest there may be one who &c. ",
+				"<cite ref=\"Berakhot 29b:8\">Ber. 29ᵇ</cite> <he>מסתפינא ד׳ וכ׳</he> I am afraid, lest I may become confused; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (without the meaning of apprehension) <i>perhaps, it may be</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 3a:2\">R. Hash. 3ᵃ</cite>; a. e. <cite ref=\"K00475\"><he>כִּי</he></cite> has four meanings: <he>אי ד׳ אלא הּא</he> <i>if, perhaps (lest), but, because</i>. ",
+				"<cite ref=\"Berakhot 2b:3\">Ber. 2ᵇ</cite> top <he>ד׳ ביאת וכ׳</he> is it not possible that the word <i>uba</i> indicates the arrival of <i>his</i> sun (the morning of the eighth day)? <cite ref=\"Berakhot 2b:3\">Ib.</cite> <he>או ד׳</he> or may it not be; a. v. fr.—[Pesik. Shek. p. 13ᵃ <he>דד׳</he>, corr. <cite ref=\"D00609\"><he>דילמא</he></cite>, as Tanḥ. Ki Thissa 5.]"
+			],
+			"label": "2"
+		}
+	]
+}

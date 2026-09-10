@@ -1,0 +1,22 @@
+{
+	"id": "B01122",
+	"slug": "בקיעא",
+	"headword": {
+		"text": "בְּקִיעָא"
+	},
+	"page": {
+		"number": 186,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בקע</he>) <i>that which is demolished by chopping</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>, v. <cite ref=\"A01870\"><he>אָלִיס</he></cite>."
+			]
+		}
+	]
+}

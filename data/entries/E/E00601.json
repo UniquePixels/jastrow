@@ -1,0 +1,25 @@
+{
+	"id": "E00601",
+	"slug": "המטליא",
+	"headword": {
+		"text": "הֵמְטַלְיָא"
+	},
+	"page": {
+		"number": 355,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a popular corrupt. of ἡπατόριον, v. Sm. Ant. s. v. Eupatorium) <i>liver-wort</i>, in gen. <i>herbs used for cooling the blood</i> (cmp. <cite ref=\"H00389\"><he>חוּמְצָן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 7:1:5\">Y. Ned. VII, beg. 40ᵇ</cite> <he>במיני אפומליא וכ׳</he> (read: <he>אפוטליא</he> or <he>אימט׳</he>) the various kinds of <i>hepatoria</i>, e.g. Napu, Melissophylon and Colocasia.—",
+				"<cite ref=\"Tosefta Ma'asrot 3:7\">Tosef. Maasr. III, 7</cite> <he>אמיטל׳ נהגו בה וכ׳</he> (Var. <he>המטל׳</he>) for <i>hepatoria</i> the scholars allowed no exemption &c. ",
+				"<cite ref=\"Tosefta Avodah Zarah 4:11\">Tosef. Ab. Zar. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:11\">V</cite>), 11 <he>המיטליא וכ׳</he> (Var. <he>המוט׳</he>) <i>hep</i>. &c. prepared by gentiles; Y. ib. II, 41ᵈ, <cite ref=\"Jerusalem Talmud Shabbat 1:4:7\">Y. Sabb. I, 3ᶜ</cite> bot. <he>הרי מוט׳</he> (read: <he>ההֵימ׳</he>); <cite ref=\"Avodah Zarah 38b:8\">Ab. Zar. 38ᵇ</cite> <he>החמטליא</he> Ms. M. (ed. <he>המט׳</he>). ",
+				"<cite ref=\"Avodah Zarah 38b:8\">Ib.</cite> <he>היא ה׳ וכ׳</he> ed. (Ms. M. <cite ref=\"H00001\"><he>ח׳</he></cite>) <i>hemtalia</i> is (legally) the same as &c., v. <cite ref=\"Q01292\"><he>פְּסִילְיָא</he></cite>. Cmp. <cite ref=\"H00378\"><he>חוּמְטַרְיָא</he></cite>."
+			]
+		}
+	]
+}

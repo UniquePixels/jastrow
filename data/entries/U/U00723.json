@@ -1,0 +1,53 @@
+{
+	"id": "U00723",
+	"slug": "שחת-1",
+	"headword": {
+		"text": "שָׁחַת"
+	},
+	"page": {
+		"number": 1552,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be low, bent</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁחֵת"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"H00083\"><he>חָבַל</he></cite>) <i>to pervert, ruin, do harm</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 8:2\">Ex. R. s. 8</cite> <he>ש׳ לנפשו</he> he did harm to himself; a. e.—Ab. d. R. N. ch. I, end <he>וירדו … לשַׁחֲתוֹ</he> ed. Schechter (ed. <he>לשרתו</he>, corr. acc.) and the ministering angels came down to destroy him (Adam). ",
+						"<cite ref=\"Kiddushin 24b:17\">Kidd. 24ᵇ</cite> (ref. to <cite ref=\"Exodus 21:26\">Ex. XXI, 26</cite>) <he>עד שיתכוין לשַׁחְתָהּ</he> when he intended to destroy it. ",
+						"<cite ref=\"Nazir 4b:14\">Naz. 4ᵇ</cite> <he>לשַׁחֵת</he>, v. <cite ref=\"U01684\"><he>שֵׂעָר</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁחִית"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00722\">same</cite>. Ex. R. l. c. <he>ה׳ לנפשו</he>, v. supra. Tanḥ. Tol’d. 6 <he>לילך … להַשְׁחִיתוֹ</he> to go to Nabal to ruin him; a. fr.—Esp. <he>בַּל תַּשְׁחִית</he> (v. <cite ref=\"B00800\"><he>בַּל</he></cite>) <i>the law forbidding to ruin anything wantonly</i> (derived from <cite ref=\"Deuteronomy 20:19\">Deut. XX, 19</cite>). ",
+					"units": [
+						"<cite ref=\"Shabbat 129a:12\">Sabb. 129ᵃ</cite> <he>והא קעבר מר משום בל ת׳</he> in doing so, do you not disregard the law which forbids wilful destruction? <he>בל ת׳ דגופאי עדיף לי</he> not to do injury to myself is a higher duty to me; <cite ref=\"Shabbat 140b\">ib. 140ᵇ</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to commit a nuisance</i>. Y. Succ. V, 55ᶜ (play on <he>משתחויתם</he>, <cite ref=\"Ezekiel 8:16\">Ez. VIII, 16</cite>) [read:] <he>שהיו משתחוים לחמה ומַשְׁחִיתִים להיכל</he> they prostrated themselves in worship of the sun, and committed nuisance towards the Temple (v. Bab. ",
+					"units": [
+						"<cite ref=\"Sukkah 53b\">Succ. 53ᵇ</cite>; <cite ref=\"Yoma 77a\">Yoma 77ᵃ</cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

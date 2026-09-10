@@ -1,0 +1,61 @@
+{
+	"id": "T01081",
+	"slug": "רשותא",
+	"headword": {
+		"text": "רְשׁוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְשׁוּ"
+		},
+		{
+			"text": "רָ׳"
+		}
+	],
+	"page": {
+		"number": 1499,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T01080\">same</cite><i>power, control, authority</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 26:6\">Targ. Y. Lev. XXVI, 6</cite>. Targ. II <cite ref=\"Deuteronomy 21:14\">Deut. XXI, 14</cite>. ",
+				"<cite ref=\"Onkelos Exodus 21:8\">Targ. Ex. XXI, 8</cite>; a. e.—Y. Gitt. IV, 50ᶜ bot. <he>יהב רשו וכ׳</he> authorized the scribe to write &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>permission, license</i>; <i>leave</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 8:16\">Targ. Esth. VIII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 22:15\">Targ. Y. Deut. XXII, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 15:2\">Ib. XV, 2</cite>; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 7:9:1\">Cant. R. to VII, 9</cite> <he>לית את יהיב לי ר׳ וכ׳</he> would you not give me permission to go up and kiss that image on its mouth? Y. Ber. II, 5ᶜ bot. <he>מה הוה מיזל ליה דלא מיסב ר׳</he> why did he go away without taking leave? <cite ref=\"Sanhedrin 5a:8\">Snh. 5ᵃ</cite> <he>נקיטנא ר׳</he> I hold a license to teach. ",
+				"<cite ref=\"Sanhedrin 5a:10\">Ib.</cite> <he>לשקול ר׳ מבי וכ׳</he> let him take out (a teacher and judge’s) license from the office of the Resh Galutha. ",
+				"<cite ref=\"Sanhedrin 5a:10\">Ib.</cite> <he>מאי ר׳</he> how was the license worded?; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>domain, territory</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 16:29\">Targ. Y. Ex. XVI, 29</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>debt, loan, claim;</i> <he>מרי ר׳</he> <i>creditor;</i> also <i>debtor</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 15:10\">Targ. Jer. XV, 10</cite> <he>לא רשן בי רשו</he> some ed. ",
+				"<cite ref=\"Onkelos Deuteronomy 15:2\">Targ. O. Deut. XV, 2</cite>; a. e.—",
+				"<cite ref=\"Gittin 86a\">Gitt. 86ᵃ</cite> <he>ורשו אינש לית עלוהי</he> Ar. (ed. <he>רשום</he>, v. Tosaf. a. l.) and no man’s loan rests on him (he is not hypothecated). ",
+				"<cite ref=\"Sanhedrin 29b:6\">Snh. 29ᵇ</cite>, v. <cite ref=\"S00025\"><he>קַב</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 8:7:8\">Y. Peah VIII, end, 21ᵇ</cite> <he>ר׳ גבן</he> the alms we receive are a loan with us (for which we are responsible); <cite ref=\"Jerusalem Talmud Shekalim 5:4:5\">Y. Shek. V, 49ᵇ</cite> top <cite ref=\"D01156\"><he>דשתן</he></cite> (corr. acc.). ",
+				"<cite ref=\"Bava Batra 92b:1\">B. Bath. 92ᵇ</cite> <he>מרי רְשׁוּתָיךְ</he> the debtor, v. <cite ref=\"Q00029\"><he>פָּארֵי</he></cite>; a. e.—Pl. <cite ref=\"T00721\"><he>רַשְׁוָותָא</he></cite>. ",
+				"<cite ref=\"Bava Kamma 46b:1\">B. Kam. 46ᵇ</cite> <he>מרי רַשְׁוָותָךְ</he>."
+			],
+			"label": "4"
+		}
+	]
+}

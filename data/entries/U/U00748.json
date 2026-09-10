@@ -1,0 +1,37 @@
+{
+	"id": "U00748",
+	"slug": "שטיותא",
+	"headword": {
+		"text": "שַׁטְיוּתָא"
+	},
+	"page": {
+		"number": 1554,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00747\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>madness, folly</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 13:16\">Targ. Prov. XIII, 16</cite> (ed. Wil. <cite ref=\"O01481\"><he>שקי׳</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:8\">Ib. XIV, 8</cite>; <cite ref=\"Aramaic Targum to Proverbs 14:18\">18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:9\">Ib. XXVI, 9</cite> (some ed. <cite ref=\"U00885\"><he>שיטותא</he></cite>, corr. acc.; h. text <cite ref=\"M02911\"><he>משל</he></cite>!); a. fr.—",
+				"<cite ref=\"Midrash Tehillim 7\">Midr. Till. to Ps. VII</cite>, v. <cite ref=\"U00747\">preced.</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"U00374\"><he>שׁוּט</he> II</cite> ch.) <i>contempt</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 18:3\">Targ. Prov. XVIII, 3</cite>.—V. <cite ref=\"U00740\"><he>שְׁטוּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

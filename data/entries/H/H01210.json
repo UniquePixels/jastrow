@@ -1,0 +1,53 @@
+{
+	"id": "H01210",
+	"slug": "חמע-2",
+	"headword": {
+		"text": "חֲמַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 478,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"H01212\"><he>חָמֵץ</he></cite><i>to be sour; to be leavened</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:34\">Targ. O. Ex. XII, 34</cite>; a. e.; v. <cite ref=\"H01186\"><he>חֲמִיעַ</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:7:6\">Y. Pes. II, end, 29ᶜ</cite> <he>בגין דיִחְמַע</he> that it might turn sour (vinegar)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַמֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to leaven</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 41a:5\">Pes. 41ᵃ</cite> <he>חַמּוּעֵי מְחַמֵּעַ</he> (not <he>מחמעא</he>; Rashi: <he>אַחְמוּעֵי מַחְמַע</he> <i>Af.</i>) (the flour) causes leavening.—<i>Part. pass.</i> <cite ref=\"M00900\"><he>מְחַמַּע</he></cite>, v. infra."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְמַע"],
+			"senses": [
+				{
+					"gloss": "<i>to turn sour, leaven, ferment</i>. Targ. Y. Ex. l. c.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause leavening</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Leviticus 2:11\">Targ. Y. II, Lev. II, 11</cite> <he>דמַחְמַע</he> (Var. <he>דמְחַמַּע</he>); v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

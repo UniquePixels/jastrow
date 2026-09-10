@@ -1,0 +1,25 @@
+{
+	"id": "S01436",
+	"slug": "קמ-2",
+	"headword": {
+		"text": "קָמ־"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָמֵי־"
+		}
+	],
+	"page": {
+		"number": 1383,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"S01439\"><he>קַמָּא</he></cite> a. <cite ref=\"S00390\"><he>קוֹמֵי</he></cite>) <i>before, in the presence of</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 43:9\">Targ. Y. Gen. XLIII, 9</cite> <he>קָמָךְ</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 33:3\">Ib. XXXIII, 3</cite> <he>לקָמֵיהוֹן</he>; a. fr."
+			]
+		}
+	]
+}

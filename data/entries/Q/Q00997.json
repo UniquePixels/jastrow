@@ -1,0 +1,60 @@
+{
+	"id": "Q00997",
+	"slug": "פלט-1",
+	"headword": {
+		"text": "פָּלַט"
+	},
+	"page": {
+		"number": 1178,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to break through</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to discharge, vomit, give out</i>. Y. B. Kam. I, 2ᵇ top [read:] <he>היתה מהלכת ופוֹלֶטֶת על עשבים</he> if the animal walked and discharged on plants. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 10:11\">Ter. X, 11</cite>; <cite ref=\"Chullin 110b\">Ḥull. 110ᵇ</cite>, v. <cite ref=\"B00898\"><he>בָּלַע</he></cite>. ",
+				"<cite ref=\"Mishnah Berakhot 3:6\">Ber. III, 6</cite> <he>שפָּלְטָה שכבת וכ׳</he> who discharged the (conceived) semen virile. ",
+				"<cite ref=\"Pesachim 118b:4\">Pes. 118ᵇ</cite> <he>פְּלוֹט אותן ליבשה</he> throw their bodies out on the dry land; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to escape, be spared</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 61a:63\">Nidd. 61ᵃ</cite> (ref. to <he>הפליט</he>, <cite ref=\"Genesis 14:13\">Gen. XIV, 13</cite>) <he>זה עוג שפ׳ מדור וכ׳</he> that was Og who escaped the fate of the generation of the flood. ",
+				"<cite ref=\"Bamidbar Rabbah 9:18\">Num. R. s. 9</cite> <he>לא פָלְטוּ</he> did not escape (punishment); a. fr.—V. <cite ref=\"Q00999\"><he>פָּלֵט</he></cite>.—3) <i>to save</i>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 27:2\">Pirké d’R. El. ch. XXVII</cite> <he>ופְלָטוֹ הק״בה מידו</he> and the Lord saved him from his (Samael’s) power. ",
+				"<cite ref=\"Sanhedrin 19b:19\">Snh. 19ᵇ</cite> (ref. to <cite ref=\"Q01007\"><he>פלטיאל</he></cite>, <cite ref=\"II Samuel 3:15\">II Sam. III, 15</cite>) <he>שפלטו אל מן וכ׳</he> for God saved him from sin; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to tear off, detach</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 121a:8\">Ḥull. 121ᵃ</cite> <he>בשר שפְּלָטַתּוּ סכין</he> flesh which the knife has taken off, i.e. which came off in flaying, v. <cite ref=\"M00625\"><he>מוּרְדְּקָא</he></cite>; <cite ref=\"Chullin 121a:10\">ib.</cite> <he>מקצתו פלטתו חיה</he> an animal tore one portion of the flesh off; <cite ref=\"Chullin 124a:20\">ib. 124ᵃ</cite>; a. e."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְלָט"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְפַּלֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to be saved</i>. Tanḥ. Sh’moth 17 <he>ויִתְפַּלֵּט ממנו וכ׳</he> and Noah and his children shall be saved from it (the flood).",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

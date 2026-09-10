@@ -1,0 +1,28 @@
+{
+	"id": "A03238",
+	"slug": "ארקוליאני",
+	"headword": {
+		"text": "אַרְקוּלְיָאנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְקוּרְיָאנֵי"
+		}
+	],
+	"page": {
+		"number": 125,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>Herculiani</i>, body of guards instituted by Diocletian, together with the <i>Joviani</i>, to supersede the prætorians (Gibb. I, 434; v. Sachs Beitr. I, 113 sq.). ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite> <he>יכולני ובר ק׳</he> (corr. <he>יוביאני ואר׳</he>)."
+			]
+		}
+	]
+}

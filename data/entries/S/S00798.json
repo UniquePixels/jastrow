@@ -1,0 +1,46 @@
+{
+	"id": "S00798",
+	"slug": "קטנות",
+	"headword": {
+		"text": "קַטְנוּת"
+	},
+	"page": {
+		"number": 1350,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00797\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>youth; inferior position</i>. Lam. R. introd. (R. Joh. 1) <he>אוי … שבקַטְנוּתוֹ וכ׳</he> woe to the king who succeeded when he was young but failed in his old age. ",
+			"units": [
+				"<cite ref=\"Megillah 11a:18\">Meg. 11ᵃ</cite> (ref. to <he>הקטן</he>, <cite ref=\"I Samuel 17:14\">I Sam. XVII, 14</cite>) <he>כשם שבקטנותו הקטין וכ׳</he> as in his inferior position he (David) subordinated himself to one greater …, so when he was king &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>humility, modesty</i>. Ib. <he>הוא בקטנותו</he> he was always the same as to his humility.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"A02041\"><he>אמנה</he></cite>) <i>want of faith, pusillanimity</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 48b:20\">Sot. 48ᵇ</cite> (ref. to <cite ref=\"Zechariah 4:10\">Zech. IV, 10</cite>) <he>מי גרם … ק׳ שהיתה בהן שלא האמינו וכ׳</he> (not <cite ref=\"U00304\"><he>שהיה</he></cite>) what causes the table of the righteous in the hereafter to be contemptible? The pusillanimity that was in them, in that they had no faith in God; <cite ref=\"Yalkut Shimoni on Nach 571:2\">Yalk. Zech. 571</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>the thinner end, tail-end</i> (cmp. <cite ref=\"S00795\"><he>קוֹטֶן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (<cite ref=\"Sotah 49a\">49ᵃ</cite>) Abba José was surnamed <cite ref=\"S00717\"><he>קטונתא</he></cite>, <he>שהיה קַטְנוּתָן של וכ׳</he> (Y. ed. <he>תמצותן</he>; Bab. ed. <cite ref=\"S00802\"><he>קטנתא</he></cite>) because he was the tail-end (the last) of the pious men (v. <cite ref=\"S00796\"><he>קָטֹן</he></cite>, <i>Nithpa.</i>); (ib. 49ᵇ <he>שהיה מקטני חסידים</he>, v. <cite ref=\"S00797\">preced. w.</cite>)."
+			],
+			"label": "4"
+		}
+	]
+}

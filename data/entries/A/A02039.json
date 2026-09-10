@@ -1,0 +1,62 @@
+{
+	"id": "A02039",
+	"slug": "אמן-2",
+	"headword": {
+		"text": "אָמֵן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 77,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>אם</he>, v. <cite ref=\"A01961\"><he>אֵם</he></cite>; cmp. <cite ref=\"A02038\">preced.</cite>) <i>to be strong, enduring;</i> (act. v. <cite ref=\"A02038\"><he>אָמַן</he></cite> <i>to support</i>, v. ",
+			"units": [
+				"<cite ref=\"II Kings 18:16\">II Kings XVIII, 16</cite> <he>אֹמְנוֹת</he>).—<i>Pi.</i> <cite ref=\"A01344\"><he>אִימֵּן</he></cite>, <cite ref=\"A02038\"><he>אִמֵּן</he></cite> <i>to support;</i> trnsf. <i>to confirm, verify, approve</i>. ",
+				"<cite ref=\"Tosefta Terumot 1:4\">Tosef. Ter. I, 4</cite> it is not the minor that made it T’rumah <he>אלא אביו שאִימֵּן אחריו</he> Var. (ed. Zuck. <he>שאומן</he>) but his father who confirmed his act (= <cite ref=\"Tosefta Terumot 1:4\">ib.</cite> <he>קיים על יד</he>); Y. ib. 40ᵇ <he>א׳ על ידו</he>. Ib.ᶜ top <he>מְאַמֵּין</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱמַן"],
+			"senses": [
+				{
+					"gloss": " (b. h.) ",
+					"units": []
+				},
+				{
+					"gloss": " part. <cite ref=\"N00023\"><he>נֶאֱמָן</he></cite> m., <he>נֶאֱמָנֶת</he> f. <i>approved, trustworthy, reliable</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 8:2\">Peah VIII, 2</cite> <he>נֶאֱמָנִים על וכ׳</he> (the poor) may be relied upon concerning garnered fruit &c., i.e. if they declare the fruits to be the poor man’s share, they are exempt from tithes. ",
+						"<cite ref=\"Mishnah Ketubot 1:6\">Keth. I, 6</cite> <he>נאמנת</he> her statement is acted upon as true. ",
+						"<cite ref=\"Avodah Zarah 16b:16\">Ab. Zar. 16ᵇ</cite> <he>נ׳ עלי הדיין</he> my judge is a reliable witness concerning me, i.e. I appeal to thy own judgment that I could not have engaged in such follies.—",
+						"<cite ref=\"Mishnah Demai 2:2\">Dem. II, 2</cite> if one resolves <he>להיות נ׳</he> to be one of the reliable (conscientious in giving tithes); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be confirmed</i>. Y. Sot. II, 18ᵇ top <he>אמן יֵאָמְנוּ הדברים</he> Amen means, May the words (of the oath) be fulfilled.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֶאֱמִין"],
+			"senses": [
+				{
+					"gloss": " (b. h.) <i>to declare trustworthy, to trust, believe in</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Demai 7:1\">Dem. VII, 1</cite> <he>והוא אינו מַאֲמִינוֹ</he> but he (the invited guest) trusts him not in tithe affairs. ",
+						"<cite ref=\"Mishnah Demai 7:3\">Ib. 3</cite>; a. fr.—",
+						"<cite ref=\"Avodah Zarah 16b:16\">Ab. Zar. 16ᵇ</cite> <he>הואיל וְהֶאֱמַנְתַּנִי עליך</he> ed. Pes., En Yak. (v. Rabb. D. S. a. l. note; ed. <he>הָאֳמַנְתִּי</he> <i>Hof.</i>; since thou didst declare me a reliable witness unto thyself (appealing to my judgment), v. supra; [Ms. M. <he>האמנת עלי</he> thou <i>reliedst</i> on me]. Ch., v. <cite ref=\"E00428\"><he>הֵימַן</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

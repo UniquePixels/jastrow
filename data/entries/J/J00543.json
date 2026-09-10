@@ -1,0 +1,23 @@
+{
+	"id": "J00543",
+	"slug": "יצף-1",
+	"headword": {
+		"text": "יָצָף",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 589,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Yatsaf</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:13\">Y. Taan. IV, 68ᵃ</cite> bot. <he>בן י׳ מן דאסף</he> Ben Y. is of the family of Asaph; <cite ref=\"Bereishit Rabbah 98:8\">Gen. R. s. 98</cite> <he>דבית יצאה וכ׳</he> those of the house of Y. &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "A01972",
+	"slug": "אמבורקלון",
+	"headword": {
+		"text": "אִמְבּוּרְקְלוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִמְבּוּרִיקְלוֹן"
+		},
+		{
+			"text": "אִנְבּוּרְקְרָא"
+		}
+	],
+	"page": {
+		"number": 74,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἐμβούρικλον, imburuclum, corrupt. of involucrum, D. C. s. v.) <i>wrapper, cover, bundle</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 4:1:3\">Y. B. Mets. IV, beg. 9ᶜ</cite> <he>המחליף א</he> … <he>ין בא׳</he> Ar. (read … <he>ון</he>; ed. <he>אברוקלון באמבירוקלון</he>, corr. acc.) if one exchanges one bundle for another; cmp. <cite ref=\"R00295\"><he>ציבור</he></cite> ibid.—Pl. <cite ref=\"A02091\"><he>אִנְבּוּרְקְרָאוֹת</he></cite>. ",
+				"<cite ref=\"Bava Kamma 114b:31\">B. Kam. 114ᵇ</cite> ed. (Ar. <cite ref=\"A02096\"><he>אנבקראות</he></cite>, Ms. M. <he>אגבו׳</he>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

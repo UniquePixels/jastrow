@@ -1,0 +1,68 @@
+{
+	"id": "P00601",
+	"slug": "עין-1",
+	"headword": {
+		"text": "עַיִן"
+	},
+	"page": {
+		"number": 1071,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P00291\"><he>עוּן</he></cite>)<i>eye, sight, look</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 24a:6\">Kidd. 24ᵃ</cite> <he>בשן וע׳</he>, v. <cite ref=\"J00515\"><he>יָצָא</he></cite>. ",
+				"<cite ref=\"Kiddushin 24b:1\">Ib. 24ᵇ</cite> <he>הכהו על עֵינוֹ וכ׳</he> if the master struck him on his eye and made it blind. ",
+				"<cite ref=\"Bava Kamma 83b:20\">B. Kam. 83ᵇ</cite> (ref. to <cite ref=\"Exodus 21:24\">Ex. XXI, 24</cite>) <he>אימא ע׳ ממש</he> may not the text mean that he who injures a person’s eye must really suffer the same injury? <cite ref=\"Shabbat 108b:13\">Sabb. 108ᵇ</cite> bot. <he>יד לע׳ וכ׳</he> an unwashed hand (in the morning) touching the eye deserves to be cut off. ",
+				"<cite ref=\"Taanit 8b:13\">Taan. 8ᵇ</cite> <he>סמוי מן הע׳</he>, v. <cite ref=\"O01054\"><he>סָמָא</he></cite>. ",
+				"<cite ref=\"Taanit 8b:13\">Ib.</cite> <he>דבר שאין הע׳ שולטת בו</he> something which the eye cannot look at (being stored away), v. infra; a. v. fr.—[<cite ref=\"Jerusalem Talmud Nedarim 9:8:2\">Y. Ned. IX, end, 41ᶜ</cite> <he>עשה לה ע׳ של זהב</he>, a corrupt dittography of <he>עשה לה שן של זהב</he>.]—<he>ע׳ טובה</he> (also <he>יפה</he>) a benevolent eye, <i>good will, liberality</i>, opp. <he>ע׳ רעה</he> or <he>עֵין הרע</he> (abbr. <he>עה״ר</he>), also <he>ע׳ צרה</he> <i>ill-will, selfishness, envy</i>. ",
+				"<cite ref=\"Pirkei Avot 2:9\">Ab. II, 9</cite>. ",
+				"<cite ref=\"Shabbat 74a:6\">Sabb. 74ᵃ</cite> <he>משום ע׳ יפה וכ׳</he> he intended to show his good will. ",
+				"<cite ref=\"Tosefta Challah 1:7\">Tosef. Ḥall. I, 7</cite> <he>שעינו יפה בעיסתו</he> he is liberal with his dough (is glad to give the priest’s portion), opp. <he>עינו צרה</he>. ",
+				"<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite> <he>היתה עינו צרה בממונו</he> he was jealous of his wealth (unwilling to leave it to his heirs to be enjoyed by them). ",
+				"<cite ref=\"Pirkei Avot 5:13\">Ab. V, 13</cite> <he>עינו רצה בשל אחרים</he> he is illiberal with regard to other people’s money (begrudges them the privilege of giving charity), <he>ע׳ רעה בשלו</he> he is illiberal with his own money (is too greedy to afford himself the pleasure of giving charity). ",
+				"<cite ref=\"Pirkei Avot 2:11\">Ib. II, 11</cite>, v. <cite ref=\"J00550\"><he>יֵצֶר</he></cite>; a. fr.—<he>צַר ע׳</he> (= <he>רַע ע׳</he>) <i>selfish</i>, opp. <he>טוב ע׳</he> <i>liberal, selfless</i>. ",
+				"<cite ref=\"Shabbat 108b:12\">Sabb. 108ᵇ</cite> <he>שדורי</he> … <he>צר ע׳ אנא</he> I send you (the salve), lest you say that I am selfish. ",
+				"<cite ref=\"Sotah 38b:12\">Sot. 38ᵇ</cite> <he>אפי׳ העופות מכירין בצָרֵי ע׳</he> even birds recognize selfish men. ",
+				"<cite ref=\"Sotah 38b:12\">Ib.</cite> <he>כל הנהנה מצרי ע׳ וכ׳</he> he who accepts benefits from self-seeking men, transgresses a law (ref. to <cite ref=\"Proverbs 23:6\">Prov. XXIII, 6</cite>). ",
+				"<cite ref=\"Proverbs 23:6\">Ib.</cite> <he>אין … לטוב ע׳</he> the cup of benediction must be handed to none but an unselfish person (with ref. to <cite ref=\"Proverbs 22:9\">Prov. XXII, 9</cite>); a. e.—Esp. <he>ע׳ רעה</he>, <he>עֵין הרע</he> (abbrev. <he>עה״ר</he>), or only <cite ref=\"P00601\"><he>עַיִן</he></cite>, <i>the evil eye, an envious glance that brings harm to the person looked at, bewitchment</i>. ",
+				"<cite ref=\"Bava Metzia 107b:2\">B. Mets. 107ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 7:15\">Deut. VII, 15</cite>) <he>זו ע׳</he> that means the effect of an evil eye. ",
+				"<cite ref=\"Deuteronomy 7:15\">Ib.</cite> <he>תשעים … בע׳ רעה וכ׳</he> ninety-nine persons die of an evil eye against one in the natural course. ",
+				"<cite ref=\"Bereishit Rabbah 91:6\">Gen. R. s. 91</cite> <he>שלא תשלוט בכם עה״ר</he> that the evil eye may have no power over you. ",
+				"<cite ref=\"Bereishit Rabbah 91:6\">Ib.</cite> <he>לא הייתם … מפני הע׳</he> were you not afraid of the evil eye? <cite ref=\"Berakhot 20a:9\">Ber. 20a</cite> <he>ע׳ שלא … אין עה״ר שולטת בי</he> no evil eye can affect him whose eye refused to feed on what was not his (to look at the charms of a married woman); a. fr.—שקל ע׳ בע׳ <i>to balance the scales exactly, to allow no overweight</i> (v. <cite ref=\"P00291\"><he>עוּן</he></cite>, a. <cite ref=\"K01257\"><he>כָּרַע</he></cite>). ",
+				"<cite ref=\"Mishnah Bava Batra 5:11\">B. Bath. V, 11</cite>; a. fr.—בע׳ <i>visible to the eye, discernible; in natural form</i>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:6\">Y. Ber. VI, 10ᵃ</cite> <he>אע״פ ששחוקין בעֵינָן הן</he> although they are ground, they are still discernible. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:6\">Ib.</cite> <he>אם בעַיְינָן הן</he> if they are in their natural form (not mashed); a. fr.—כְּעֵין <i>like the appearance of, similar to, a sort of</i> (cmp. <cite ref=\"C00335\"><he>גַּוָּון</he></cite>). Ib.ᵇ <he>כל שהוא כע׳ סולת וכ׳</he> whatever resembles a pudding or dumpling. ",
+				"<cite ref=\"Berakhot 58a:11\">Ber. 58ᵃ</cite> (in Chald. dict.) <he>מלכותא דארעא כע׳ וכ׳</he> the government on earth is like the government in heaven (inspires reverence); a. fr.—מֵעֵין <i>a reflection of, of the nature of; an abstract of</i>. ",
+				"<cite ref=\"Sanhedrin 105b:13\">Snh. 105ᵇ</cite> (ref. to the preposition <cite ref=\"M00000\"><he>מ</he></cite> in <cite ref=\"I Kings 1:47\">I Kings I, 47</cite>) <he>מע׳ קאמר ליה</he> he means, ‘as a reflection’ (of thy name, thy throne). ",
+				"<cite ref=\"I Kings 1:47\">Ib.</cite> (ref. to <cite ref=\"Judges 5:24\">Jud. V, 24</cite>) <he>מע׳ קאמר</he> it means ‘similar to’ (the blessings of Sarah &c.). ",
+				"<cite ref=\"Mishnah Berakhot 4:3\">Ber. IV, 3</cite> <he>מע׳ י״ח</he> an abstract of the eighteen benedictions. Y. ib. 8ᵃ bot. <he>שבע מע׳ י״ח</he> seven benedictions embodying the eighteen. Ib. VI, 10ᵇ <he>ברכה אחת מע׳ שלש</he> one benediction embodying the three. ",
+				"<cite ref=\"Bereishit Rabbah 11\">Gen. R. s. 11</cite>, a. e., v. <cite ref=\"D00191\"><he>דּוּגְמַטְרִין</he></cite>.—<i>Du.</i> <he>עֵינַיִים</he>, <he>עֵינַיִם</he>. ",
+				"<cite ref=\"Mishnah Bekhorot 7:4\">Bekh. VII, 4</cite> <he>עֵינָיו גדולות וכ׳</he> if his (the priest’s) eyes are as large as those of a calf. ",
+				"<cite ref=\"Mishnah Bekhorot 7:3\">Ib. 3</cite>. ",
+				"<cite ref=\"Berakhot 58a\">Ber. 58ᵃ</cite>, a. e. <he>נתן עיניו בו וכ׳</he> he put his eyes on him, and he was turned into a heap of bones. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 3:5:14\">Y. Hor. III, end, 48ᶜ</cite> <he>נתנו עֵינֵיהֶן בשמואל וכ׳</he> they directed their attention to Samuel &c.; a. fr.—<he>אחז את הע׳</he>, v. <cite ref=\"A01021\"><he>אָחַז</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>anything resembling the eye, hole, ring</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 8:7\">Kel. VIII, 7</cite> <he>ע׳ של תנור</he> the ‘eye’ of an oven (the fire-place under the oven, Maim.; the opening for the escape of the smoke, which may be closed to retain the heat, R. S.). Ib. IX, 8 <he>תנור שניקב מעינו</he> an oven in the eye of which is a defect. Ib. XXI, 2 <he>ע׳</he> <i>the ring-shaped pad</i> around an animal’s neck (a halter of soft material). Ib. <he>ע׳ של מתכת</he> a metal <i>hame</i> (cmp. <cite ref=\"P00309\"><he>עוֹנָתָא</he></cite>). ",
+				"<cite ref=\"Tosefta Keilim Batra 1:7\">Tosef. Kel. B. Bath. I, 7</cite> <he>העיין שבמצעד</he> the ring attached to an adze; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>spring, well</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 1:10\">Keth. I, 10</cite>; a. fr.—[Frequ. <cite ref=\"P00601\"><he>עֵין</he></cite> in pr. n. pl., as <he>ע׳ סוכר</he>, <cite ref=\"P00553\"><he>ע׳ טב</he></cite>; v. respective determinants]."
+			],
+			"label": "3"
+		}
+	]
+}

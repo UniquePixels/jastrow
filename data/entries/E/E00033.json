@@ -1,0 +1,36 @@
+{
+	"id": "E00033",
+	"slug": "הבטה",
+	"headword": {
+		"text": "הַבָּטָה"
+	},
+	"page": {
+		"number": 329,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00067\"><he>נבט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>looking at, keeping in sight</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44:12\">Gen. R. s. 44</cite> (ref. to <cite ref=\"Genesis 15:5\">Gen. XV, 5</cite>) <he>אין ה׳ אלא מלמעלה וכ׳</he> the use of <i>hibbit</i> indicates a looking down from above. ",
+				"<cite ref=\"Eichah Rabbah 5:1\">Lam. R. to V, 1</cite> <he>ה׳ מקרוב</he> <i>hibbit</i> is used for looking at a near object, contrad. to <he>ראייה</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>superintendence, watching owner-less objects</i>, as fruits of the Sabbatical year, v. <cite ref=\"E00759\"><he>הֶפְקֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 118a:16\">B. Mets. 118ᵃ</cite> <he>כאן בהגבהה כאן בה׳</he> in the one case the laborer was hired for taking up abandoned objects, in the other for watching. ",
+				"<cite ref=\"Bava Metzia 118a:20\">Ib.</cite> <he>ה׳ בהפקר קני</he> watching gives the right of possession of <i>hefker</i>. [Ms. M. has <cite ref=\"H00045\"><he>חֲבָטָה</he></cite>; Ar., s. v. <he>בט</he> 2, hesitates betw. <he>ה׳</he> a. <cite ref=\"H00001\"><he>ח׳</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

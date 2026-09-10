@@ -1,0 +1,23 @@
+{
+	"id": "I00256",
+	"slug": "טחבות",
+	"headword": {
+		"text": "טַחֲבוּת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 527,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00255\">preced.</cite>) <i>dew, vapor</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:11\">Targ. Job XXXVII, 11</cite> Regia (ed. <cite ref=\"B01280\"><he>ברירותא</he></cite>, h. text <cite ref=\"B01237\"><he>ברי</he></cite>)."
+			]
+		}
+	]
+}

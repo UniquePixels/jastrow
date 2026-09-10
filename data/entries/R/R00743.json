@@ -1,0 +1,26 @@
+{
+	"id": "R00743",
+	"slug": "צרה-2",
+	"headword": {
+		"text": "צָרָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1300,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"R00735\"><he>צָרַר</he></cite>) [nearest,] <i>associate wife, rival</i> (cmp. <cite ref=\"T00867\"><he>רֵעַ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 1:2\">Yeb. I, 2</cite> <he>כשם שבתו פטורה כך צָרָתָהּ פטורה</he> as a man’s daughter (who was the wife of his brother that died without issue) is exempt from marrying the <i>yabam</i> (her father), so is her associate exempt. ",
+				"<cite ref=\"Mishnah Yevamot 1:2\">Ib.</cite> <he>הלכה צָרַת בתו … כשם שצָרַת בתו פטורה כך צרת צרתה פטורה</he> if this his daughter’s associate marries a second brother of his who has another wife besides her, and he dies (without issue): as his daughter’s former associate is exempt, so is the latter’s present associate exempt; a. v. fr.—",
+				"<cite ref=\"Sanhedrin 103b:15\">Snh. 103ᵇ</cite>; <cite ref=\"Yoma 9b:5\">Yoma 9ᵇ</cite>; <cite ref=\"Bamidbar Rabbah 7:10\">Num. R. s. 7</cite> <he>מסכה צ׳</he>, v. <cite ref=\"M01943\"><he>מַסֵּכָה</he> I</cite>. ",
+				"<cite ref=\"Midrash Tehillim 101:2\">Midr. Till. to Ps. CI</cite> <he>ועבר בים צ׳ זה צלמו של מיכה</he> ‘and a rival crossed the sea’ (<cite ref=\"Zechariah 10:11\">Zech. X, 11</cite>) , that means the image of Micah; <cite ref=\"Bamidbar Rabbah 16:26\">Num. R. s. 16</cite>, end; Mekh. Bo, s. 14.—",
+				"<cite ref=\"Yoma 19b\">Yoma 19ᵇ</cite>, v. <cite ref=\"R00739\"><he>צְרֵדָה</he></cite>.—Pl. <he>צָרוֹת</he>. ",
+				"<cite ref=\"Mishnah Yevamot 1:1\">Yeb. I, 1</cite> <he>צרותיהן</he>, <he>חמש … פוטרות נָרוֹתֵיהֶן צ׳</he> fifteen women (married severally to the brother of a man with whom marriage is forbidden) cause the exemption from <i>yibbum</i> (<cite ref=\"J00039\"><he>יִבּוּם</he></cite>) of their associates and eventually the associates of their associates. ",
+				"<cite ref=\"Mishnah Yevamot 1:4\">Ib. 4</cite> <he>בית שמאי מתירין הצ׳ לאחים</he> the school of Shammai allows the rivals of a woman forbidden on account of consanguinity to be married to one of the brothers of the deceased (without issue); a. fr."
+			]
+		}
+	]
+}

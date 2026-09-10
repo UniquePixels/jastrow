@@ -1,0 +1,30 @@
+{
+	"id": "A00230",
+	"slug": "אברתא",
+	"headword": {
+		"text": "אַבְרָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבְרָתָה"
+		}
+	],
+	"page": {
+		"number": 10,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"B01237\"><he>ברי</he></cite>, v. <cite ref=\"A01138\"><he>אִיבְרָיָיא</he></cite>, a. <cite ref=\"E00051\"><he>הַבְרָאָה</he></cite>) <i>hyssop</i> (used against indigestion &c.). ",
+			"units": [
+				"<cite ref=\"Shabbat 128a:15\">Sabb. 128ᵃ</cite> (explaining <cite ref=\"A00964\"><he>אֵזוֹב</he></cite>). ",
+				"<cite ref=\"Shabbat 109b:5\">Ib. 109ᵇ</cite> <cite ref=\"A00230\"><he>אברתה</he></cite> (mentioning two species, one named <he>בר־הימג</he> = <cite ref=\"A00964\"><he>אזוב</he></cite>, the other <he>בר־הינג</he> = <he>אזוב יון</he>). ",
+				"<cite ref=\"Avodah Zarah 29a\">Ab. Zar. 29ᵃ</cite> Ms. M. a. Ar. (ed. <cite ref=\"A00047\"><he>אבדתא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "B00424",
+	"slug": "בזוזא-2",
+	"headword": {
+		"text": "בִּזּוּזָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיזּ׳"
+		}
+	],
+	"page": {
+		"number": 152,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00429\"><he>בזז</he></cite>) <i>robbery, plunder</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 24:16\">Targ. Is. XXIV, 16</cite>."
+			]
+		}
+	]
+}

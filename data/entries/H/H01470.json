@@ -1,0 +1,39 @@
+{
+	"id": "H01470",
+	"slug": "חפץ-2",
+	"headword": {
+		"text": "חֵפֶץ"
+	},
+	"page": {
+		"number": 492,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01469\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thing</i> (held in hand), <i>object</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 4:10\">B. Mets. IV, 10</cite> <he>בכמה ח׳ זה</he> how much is this worth? <cite ref=\"Shir HaShirim Rabbah 1:4:8\">Cant. R. to I, 4</cite> <he>כל ח׳ טוב</he> any good thing; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>concern, business; desire, desirable object</i>. Ib.; Pesik. Sos, p. 147ᵃ <he>אין לי ח׳ טוב ממך</he> I have nothing more desirable than thyself. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 5:7\">Koh. R. to V, 7</cite> <he>נעשה חֶפְצוֹ</he> his desire was fulfilled. ",
+				"<cite ref=\"Bamidbar Rabbah 19:15\">Num. R. s. 19</cite> <he>אל תחזירני מן חֶפְצִי וכ׳</he> do not turn me off from (refuse) my desire which &c.; a. fr.—Pl. <he>חֲפָצִים</he>. ",
+				"<cite ref=\"Moed Katan 9b:2\">M. Kat. 9ᵇ</cite> (ref. to <cite ref=\"Proverbs 3:15\">Prov. III, 15</cite>, a. ",
+				"<cite ref=\"Proverbs 8:11\">VIII, 11</cite>) <he>הא חֶפְצֵי שמים</he> but heavenly affairs (religious deeds) are equal to it (the study of the Law). ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:36\">Y. Peah I, 15ᵈ</cite> bot. (ref. to Prov. l. c.) <he>חפצים וכ׳</he> ‘desirable things’, that means jewels and pearls, ‘thy desirable things’, that means &c. Ib. <he>חֲפָצֶיךָ וחֲפָצַי וכ׳</he> thy treasures and my treasures cannot compare to what I sent you; <cite ref=\"Bereishit Rabbah 35:3\">Gen. R. s. 35</cite>, end.—",
+				"<cite ref=\"Shabbat 113a:14\">Sabb. 113ᵃ</cite> (ref. to <cite ref=\"Isaiah 58:13\">Is. LVIII, 13</cite>) <he>חֲפָצֶיךָ אסורין ח׳ שמים וכ׳</he> thy pursuits are forbidden (on the Sabbath), but heavenly affairs (consultation about public welfare, education &c.) are permitted; ib. 150ᵃ; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

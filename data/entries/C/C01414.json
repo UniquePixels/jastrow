@@ -1,0 +1,36 @@
+{
+	"id": "C01414",
+	"slug": "גשיש",
+	"headword": {
+		"text": "גָּשִׁישׁ"
+	},
+	"page": {
+		"number": 273,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00502\"><he>גּוּשׁ</he></cite>, <cite ref=\"C01425\"><he>גָּשַׁשׁ</he></cite>; formed like <cite ref=\"P01119\"><he>עָצִיץ</he></cite>) [",
+			"units": []
+		},
+		{
+			"gloss": "<i>sounding apparatus</i>, v. <cite ref=\"C01412\"><he>גָּשׁוֹשׁ</he></cite>.]",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a frame on which the couch is spread</i> (sponda). ",
+			"units": [
+				"<cite ref=\"Mishnah Zavim 3:1\">Zab. III, 1</cite>; <cite ref=\"Mishnah Zavim 3:3\">3</cite> <he>ג׳ של מטה</he>; <cite ref=\"Tosefta Zavim 4:4\">Tosef. ib. IV, 4</cite>. ",
+				"<cite ref=\"Tosefta Zavim 4:4\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Mikvaot 6:17\">Mikv. VI</cite> (<cite ref=\"Mishnah Mikvaot 7:17\">VII</cite>), 17 <he>הג׳ החיצון</he> the outer frame (of a double bed, sponda exterior, v. Sm. Ant. s. v. Lectus). ",
+				"<cite ref=\"Esther Rabbah 2:7\">Esth. R. to I, 6</cite>.—Pl. <he>גָּשִׁישִׁים</he>, <he>גָּשִׁישִׁין</he>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 8:3\">Tosef. Kel. B. Mets. VIII, 3</cite> <he>הג׳ של קיטליזקי</he> (ed. Zuck. <cite ref=\"S00912\"><he>קיטליאקי</he></cite>, read <cite ref=\"O00000\"><he>ס</he></cite> for <cite ref=\"A00000\"><he>א</he></cite>) the bed-frames of the little bed chambers (κοιτωνίσκοι—which are taken apart or placed against the wall in day time).—*<cite ref=\"Tosefta Mikvaot 6:8\">Tosef. Mikv. VI, 8</cite> <he>ג׳ ע״ג השבר</he> Ar. (ed. <he>קשקשים</he>, <cite ref=\"Shabbat 53a\">Sabb. 53ᵃ</cite> <cite ref=\"S02253\"><he>קשישין</he></cite>) <i>splints</i>"
+			],
+			"label": "2"
+		}
+	]
+}

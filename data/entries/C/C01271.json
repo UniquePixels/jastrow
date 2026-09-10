@@ -1,0 +1,31 @@
+{
+	"id": "C01271",
+	"slug": "גרדא",
+	"headword": {
+		"text": "גַּרְדָּא"
+	},
+	"page": {
+		"number": 265,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01270\">same</cite><i>combing;</i> <he>ג׳ דסרבלא</he> <i>the removal of the woolly surface of a thick cloth</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 99a\">B. Kam. 99ᵃ</cite>; <cite ref=\"Bava Metzia 112a\">B. Mets. 112ᵃ</cite>.—",
+				"<cite ref=\"Moed Katan 23a\">M. Kat. 23ᵃ</cite> went out <he>בג׳ דס׳</he> (Ms. M. 2 <he>בגררא</he>) in a fresh scraped and smoothed cloak."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fringe, thread</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134a:12\">Sabb. 134ᵃ</cite> <he>דילמא מידביק ג׳ מיניה</he> (Var. <he>מדביקא גרדתא</he>, v. Rashi a. l.) lest a thread of it stick to the membrum.—Pl. <cite ref=\"C00195\"><he>גַּרְדַּיָּא</he></cite>, <cite ref=\"C01277\"><he>גַּרְדֵּי</he></cite>, <cite ref=\"C01276\"><he>גַּרְדִּין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 15:38\">Targ. Y. Num. XV, 38</cite> (ref. to <cite ref=\"Menachot 42b\">Men. 42ᵇ</cite>).—",
+				"<cite ref=\"Bekhorot 8b:17\">Bekh. 8ᵇ</cite> <he>כרוכו לי ג׳ מיניה וכ׳</he> twist for me threads pulled out of it, and I will sew it. ",
+				"<cite ref=\"Menachot 31b\">Men. 31ᵇ</cite>. [<cite ref=\"C01271\"><he>גַּרְדָּא</he></cite> or <cite ref=\"C01271\"><he>גְּרָדָא</he></cite> <i>scraping</i>, v. <cite ref=\"C00815\"><he>גִּירְדָּא</he></cite>.—גְּרָדָא <i>cud</i>, v. <cite ref=\"C01396\"><he>גְּרָרָא</he> I</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

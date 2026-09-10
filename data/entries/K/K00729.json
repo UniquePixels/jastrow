@@ -1,0 +1,29 @@
+{
+	"id": "K00729",
+	"slug": "כלייה-1",
+	"headword": {
+		"text": "כַּלַּיָּיה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּלַּיָּא"
+		}
+	],
+	"page": {
+		"number": 642,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"K00691\"><he>כַּלָּה</he></cite>) [<i>crowns, ornaments</i>,] <i>brides</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:7\">Y. Ab. Zar. III, 42ᶜ</cite> top; <cite ref=\"Jerusalem Talmud Peah 1:1:33\">Y. Peah I, 15ᵈ</cite>.—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 24:6\">Targ. Y. Deut. XXIV, 6</cite> <he>חתנין וכַלִּין</he> (h. text <he>רחים ורכב</he>).—[<cite ref=\"Targum Jerusalem, Genesis 18:21\">Targ. Y. II, Gen. XVIII, 21</cite> <cite ref=\"K00729\"><he>כַּלַּיָּיה</he></cite>, v. <cite ref=\"K00731\"><he>כְּלָיָיה</he></cite>.]"
+			]
+		}
+	]
+}

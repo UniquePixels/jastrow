@@ -1,0 +1,93 @@
+{
+	"id": "P00241",
+	"slug": "עול-2",
+	"headword": {
+		"text": "עוּל"
+	},
+	"page": {
+		"number": 1050,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (interch. with <cite ref=\"P00816\"><he>עֲלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to come, come in</i>. Perf. <cite ref=\"P00760\"><he>עָל</he></cite>, <cite ref=\"P00003\"><he>עָאל</he></cite>; part. <cite ref=\"P00760\"><he>עָל</he></cite>, <cite ref=\"P00003\"><he>עָאֵיל</he></cite>, <cite ref=\"P00003\"><he>עָאֵל</he></cite>, <cite ref=\"P00241\"><he>עָיֵיל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 7:23\">Targ. O. Ex. VII, 23</cite> <he>על</he>; Targ. Y. <cite ref=\"P00003\"><he>עאל</he></cite> (ed. Amst. <cite ref=\"A02592\"><he>אָעַל</he></cite>). Targ. Y. ib. XXXIII, 9 <cite ref=\"P00003\"><he>עאיל</he></cite> (ed. Amst. <cite ref=\"P00241\"><he>אָעֵיל</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 23:10\">Targ. O. Gen. XXIII, 10</cite> <he>עָאלֵי</he> (ed. Berl. a. oth. <cite ref=\"P00791\"><he>עָלֵי</he></cite>; Y. <cite ref=\"P00791\"><he>עֲלֵי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 17:10\">Targ. Prov. XVII, 10</cite> <he>עָאלָא</he> ed. Lag. (oth. ed. <cite ref=\"P00565\"><he>עָלָא</he></cite>); a. fr.—Y. Kidd. II, 63ᵃ top <he>דחק סומכוס ועאל</he> S. pressed on and went in. ",
+				"<cite ref=\"Yoma 51b:8\">Yoma 51ᵇ</cite> <he>נֵיעוּל וכ׳</he> (Ms. M. <he>נעביד</he>) let him make his entrance in the way prescribed by R. J. ",
+				"<cite ref=\"Yoma 52a:2\">Ib. 52ᵃ</cite> <he>ניעול בין מנורה וכ׳</he> let him make his entrance between the candlestick and the wall. ",
+				"<cite ref=\"Pesachim 112a\">Pes. 112ᵃ</cite>; <cite ref=\"Bava Batra 21a:12\">B. Bath. 21ᵃ</cite> <he>שבשתא כיון דעל על</he> a mistake once entered (into the mind) remains therein. ",
+				"<cite ref=\"Shabbat 98b:4\">Sabb. 98ᵇ</cite> <he>האי עָיֵיל והאי נפיק</he> one will go in (recede), the other go out (protrude, i.e. form an uneven surface.); a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bring in</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 6:19\">Targ. Y. Gen. VI, 19</cite> <he>תֵעוֹל</he> ed. Vien. (v. <cite ref=\"P00816\"><he>עֲלַל</he></cite>).—",
+				"<cite ref=\"Bereishit Rabbah 67:7\">Gen. R. s. 67</cite> (ref. to <he>ועל חרבך</he> <cite ref=\"Genesis 27:40\">Gen. XXVII, 40</cite>) <he>עול חרבך וכ׳</he> bring thy sword home (into its sheath), and thou shalt live; (Yalk. ib. 115 <he>תטול</he>, read: <he>תֵּעוּל</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַיֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to come in habitually</i>. Inf. <he>מְעַיֵּיל</he>, v. <cite ref=\"M02127\"><he>מֵעֲלָא</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to bring in, insert</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 42b:4\">Ḥull. 42ᵇ</cite> <he>אפיק … ועַיֵּיל</he>, v. <cite ref=\"N01075\"><he>נֽפַק</he></cite>. ",
+						"<cite ref=\"Eruvin 44b:6\">Erub. 44ᵇ</cite> <he>בעי עַיְּילִינְהוּ</he> wanted to bring them in. ",
+						"<cite ref=\"Shabbat 96b:4\">Sabb. 96ᵇ</cite> <he>מה לי אפוקי ומה לי עַיּיוּלֵי</he> what is the difference between carrying out and bringing in? <cite ref=\"Eruvin 38b:8\">Erub. 38ᵇ</cite> <he>ע׳ רב חסדא וכ׳</he> R. Ḥ. brought (the subject) in, in order to show a contradiction &c. ",
+						"<cite ref=\"Ketubot 61a:6\">Keth. 61ᵃ</cite>, <he>עַיְּילִית וכ׳</he>, v. <cite ref=\"H01694\"><he>חֲרִיקָא</he></cite>. ",
+						"<cite ref=\"Ketubot 101a:13\">Ib. 101ᵃ</cite> <he>עַיְּילָא ליה גלימא</he> if she brought him a cloak (as dowry). ",
+						"<cite ref=\"Yoma 47a:4\">Yoma 47ᵃ</cite> <he>נְעַיֵּיל והדר נעייל</he> shall he bring in (one portion) and again bring in (another portion)?; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to produce, develop, ripen</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 13a:1\">R. Hash. 13ᵃ</cite> <he>ודילמא לא ע׳ כלל</he> perhaps it means when it (the growing vegetation) had not yet begun to ripen at all? <cite ref=\"Rosh Hashanah 13a\">Ib.</cite> <he>דע׳ ביד נכרי</he> the barley of which the ‘Omer was brought had ripened while in the possession of a gentile (a Canaanite). ",
+						"<cite ref=\"Rosh Hashanah 13a\">Ib.</cite> <he>דע׳ ריבעא</he> if it has developped one fourth of the full size; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַיֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to insert one’s self; to get in</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 51b:9\">Yoma 51ᵇ</cite> <he>ולא מִתְעַיֵּיל ליה</he> he could not get himself in (between the table and the wall)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אָעֵיל"],
+			"senses": [
+				{
+					"gloss": "; <i>Ittaf.</i> <cite ref=\"P00816\"><he>אִיתָּעַל</he></cite>, <i>Ithpe.</i> <he>אִתְעַל</he>, v. <cite ref=\"P00816\"><he>עֲלַל</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

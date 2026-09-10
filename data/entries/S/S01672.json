@@ -1,0 +1,37 @@
+{
+	"id": "S01672",
+	"slug": "קסמא-1",
+	"headword": {
+		"text": "קַסָּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָסָ׳"
+		},
+		{
+			"text": "קָסְמָא"
+		},
+		{
+			"text": "קוֹ׳"
+		}
+	],
+	"page": {
+		"number": 1397,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְסַם</he> I) <i>diviner, charmer</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 13:22\">Targ. Josh. XIII, 22</cite> (not <he>קִ׳</he>).—",
+				"<cite ref=\"Gittin 68b:2\">Gitt. 68ᵇ</cite>, v. <cite ref=\"S01666\"><he>קְסַם</he> I</cite>.—Pl. <he>קַסָּמַיָּא</he>, <cite ref=\"S01672\"><he>קָסָ׳</he></cite>, <cite ref=\"S00459\"><he>קָסְ׳</he></cite>, <he>קוֹסְ׳</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 18:14\">Targ. O. Deut. XVIII, 14</cite> (Y. II <he>קִסְמֵי</he>, corr. acc.).—",
+				"<cite ref=\"Targum Jonathan on Zechariah 10:2\">Targ. Zech. X, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 6:2\">Targ. I Sam. VI, 2</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M01673",
+	"slug": "ממלל",
+	"headword": {
+		"text": "מַמְלָל"
+	},
+	"page": {
+		"number": 795,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>מְלַל</he> II) <i>speech</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 11:1\">Targ. Gen. XI, 1</cite>. ",
+				"<cite ref=\"Onkelos Exodus 33:11\">Targ. Ex. XXXIII, 11</cite> (h. text <he>פנים</he>); a. fr."
+			]
+		}
+	]
+}

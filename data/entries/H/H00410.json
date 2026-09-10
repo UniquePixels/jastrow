@@ -1,0 +1,22 @@
+{
+	"id": "H00410",
+	"slug": "חוסכא",
+	"headword": {
+		"text": "חוּסָּכָא"
+	},
+	"page": {
+		"number": 437,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01393\"><he>חֲסַךְ</he></cite>) <i>rubbing off, reduction by wear and tear</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 70a:4\">B. Mets. 70ᵃ</cite>; cmp. <cite ref=\"H01353\"><he>חֲסוֹךְ</he> II</cite>."
+			]
+		}
+	]
+}

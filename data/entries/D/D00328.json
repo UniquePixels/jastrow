@@ -1,0 +1,23 @@
+{
+	"id": "D00328",
+	"slug": "דוקא-3",
+	"headword": {
+		"text": "דּוּקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"D00985\"><he>דַּק</he></cite>, <i>a withered spot in the eye</i> (or <i>withered in growth, dwarf</i>). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:20\">Targ. O. Lev. XXI, 20</cite> (Y. II <cite ref=\"Onkelos Leviticus 21:20\">ib.</cite> <he>נניס</he>)."
+			]
+		}
+	]
+}

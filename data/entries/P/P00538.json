@@ -1,0 +1,30 @@
+{
+	"id": "P00538",
+	"slug": "עיטפא",
+	"headword": {
+		"text": "עִיטְפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִטְ׳"
+		}
+	],
+	"page": {
+		"number": 1068,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P00469\"><he>עָטַף</he> I</cite>) <i>bosom, lap</i> (corresp. to h. <he>חֵק</he>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 4:6\">Targ. O. Ex. IV, 6</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:12\">Targ. Lam. II, 12</cite> (<cite ref=\"P00448\"><he>עֲטֵיף</he></cite>) <cite ref=\"P00447\"><he>עֲטִיף</he></cite> constr. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 7:9\">Targ. Koh. VII, 9</cite> <cite ref=\"P00474\"><he>עֲטַף</he></cite>; a. e.—Pl. <he>עִיטְפִין</he>, <cite ref=\"P00538\"><he>עִטְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:27\">Targ. Y. Deut. I, 27</cite>."
+			]
+		}
+	]
+}

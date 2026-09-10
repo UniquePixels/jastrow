@@ -1,0 +1,51 @@
+{
+	"id": "U00794",
+	"slug": "שיבולת",
+	"headword": {
+		"text": "שִׁיבּוֹלֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבּוֹ׳"
+		},
+		{
+			"text": "שִׁבֹּלֶת"
+		}
+	],
+	"page": {
+		"number": 1557,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.;<he>שבל</he> , Shaf. of <cite ref=\"J00049\"><he>יבל</he></cite>; cmp. <cite ref=\"J00038\"><he>יְבוּל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ear of corn, spike</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 5:2\">Peah V, 2</cite> <he>ש׳ שבקציר וכ׳</he> a single ear (that remained uncut when the cutting took place, but) the top of which reached up to the standing corn: if (by its position) it might have been cut with the standing corn &c. ",
+				"<cite ref=\"Midrash Tehillim 2:12\">Midr. Till. to Ps. II</cite> <he>והש׳ בראש הקנה וכ׳</he> and the ear is on top of the stalk, and its stalk boasts and says, for my sake has the field been sown; a. fr.—Midr. Sam. ch. XX <he>שהיתה שִׁבּוֹלְתָּם גבוהה וכ׳</he> (not <he>שמלתם</he>) their spikes were as high as those of barley (v. <cite ref=\"P00944\"><he>עֲנָבָה</he></cite>).—<he>ש׳ שׁוּעָל</he> (<i>fox-tail</i>,) <i>oats</i>. ",
+				"<cite ref=\"Mishnah Kilayim 1:1\">Kil. I, 1</cite> <he>השעורים וש׳ ש׳ וכ׳</he> barley and oats … are not considered heterogeneous; (Maim.: <i>desert</i> (<i>wild</i>) <i>barley</i>). ",
+				"<cite ref=\"Mishnah Pesachim 2:5\">Pes. II, 5</cite> <he>בחטים … בש׳ ש׳</he> with unleavened bread made of wheat, barley, spelt, rye, or oats. ",
+				"<cite ref=\"Pesachim 35a:6\">Ib. 35ᵃ</cite> <he>ש׳ ש׳ ושיפון וכ׳</he> oats and rye are species of barley; <cite ref=\"Pesachim 35a:6\">ib.</cite> <he>ש׳ ש׳ שבולי תעלא</he> Ms. O. (ed. <he>שבילי</he>, corr. acc.) <i>shibboleth shuʿal</i> are (in Chald.) <i>shibbole taʿăla</i> <cite ref=\"Menachot 70b:1\">Men. 70ᵇ</cite>; a. e.—<he>ש׳ נֵרְדְּ</he> (spica nardi) <i>spikenard</i>, a species of <i>Valerian</i>, an ingredient of frankincense in the Temple. ",
+				"<cite ref=\"Keritot 6a:42\">Ker. 6ᵃ</cite>; <cite ref=\"Jerusalem Talmud Yoma 4:5:2\">Y. Yoma IV, 41ᵈ</cite>.—ש׳ זָקָן <i>the pointed ends of the chin, the lower jawbones and the chin proper</i>. ",
+				"<cite ref=\"Makkot 20b:9\">Macc. 20ᵇ</cite>.—Pl. <he>שִׁבֳּלִים</he>, <he>שִׁבָּלִין</he>, <cite ref=\"U00780\"><he>שִׁיבֳּ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 113b:7\">Sabb. 113ᵇ</cite> <he>שתי ש׳ לקטה וכ׳</he> two ears that fell down she (Ruth) picked up, three, she did not; <cite ref=\"Yalkut Shimoni on Nach 601:20\">Yalk. Ruth 601</cite>. ",
+				"<cite ref=\"Tosefta Peah 2:21\">Tosef. Peah II, 21</cite> <he>השי׳</he> (ed. Zuck. <he>השו׳</he>, corr. acc.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"J00051\"><he>יִבְלָא</he> I</cite>) <he>ש׳ הַנָּהָר</he> <i>the current of the river, rapid stream</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 1:6\">Makhsh. I, 6</cite> <he>הנותן … בש׳ הנ׳ וכ׳</he> if a person puts his products on a rapid, that it may float them down. ",
+				"<cite ref=\"Bereishit Rabbah 56:11\">Gen. R. s. 56</cite> [read:] <he>לאחד ששמר את גנו מש׳ הנ׳ והקיף גן בנו עמו</he> like one that guarded his garden from the ravages of the current, and surrounded his son’s garden at the same time."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "Q01621",
+	"slug": "פרוגיתא",
+	"headword": {
+		"text": "פְּרוּגִיתָא"
+	},
+	"page": {
+		"number": 1217,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Pr’ugitha</i>, a place in northern Palestine known for its wine. ",
+			"units": [
+				"<cite ref=\"Shabbat 147b\">Sabb. 147ᵇ</cite> (late ed. <cite ref=\"Q01618\"><he>פרוגייתא</he></cite>); cmp. <cite ref=\"Q00965\"><he>פְּלוּגְתָּא</he> II</cite>."
+			]
+		}
+	]
+}

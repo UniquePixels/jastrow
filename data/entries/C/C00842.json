@@ -1,0 +1,23 @@
+{
+	"id": "C00842",
+	"slug": "גישה",
+	"headword": {
+		"text": "גִּישָׁה"
+	},
+	"page": {
+		"number": 243,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נגש</he>) <i>drawing near</i> the altar (<cite ref=\"Exodus 30:20\">Ex. XXX, 20</cite>). ",
+			"units": [
+				"<cite ref=\"Yoma 32b:10\">Yoma 32ᵇ</cite>. ",
+				"<cite ref=\"Zevachim 19b:22\">Zeb. 19ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

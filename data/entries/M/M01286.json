@@ -1,0 +1,27 @@
+{
+	"id": "M01286",
+	"slug": "מיקם",
+	"headword": {
+		"text": "מֵיקַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵקַם"
+		}
+	],
+	"page": {
+		"number": 778,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00374\"><he>קוּם</he></cite>) <i>standing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 4:3\">Targ. Josh. IV, 3</cite> <he>אתר מ׳</he> (h. text <he>מצב</he>)."
+			]
+		}
+	]
+}

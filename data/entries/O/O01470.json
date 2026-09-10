@@ -1,0 +1,25 @@
+{
+	"id": "O01470",
+	"slug": "סקילא",
+	"headword": {
+		"text": "סקילא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סיקלא"
+		}
+	],
+	"page": {
+		"number": 1019,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", read <he>סְקָלָא</he> (scala) <i>a ship’s ladder</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 13:11\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:11\">XIV</cite>), 11 <he>עשה ס׳ וירד בו</he> (read <cite ref=\"B00165\"><he>בָּהּ</he></cite>) a gentile made (threw out) a ladder and went down on it; [ed. Zuck. <cite ref=\"K00085\"><he>כבש</he></cite>; v. ",
+				"<cite ref=\"Mishnah Shabbat 16:8\">Sabb. XVI, 8</cite>]."
+			]
+		}
+	]
+}

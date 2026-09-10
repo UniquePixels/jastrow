@@ -1,0 +1,45 @@
+{
+	"id": "I00270",
+	"slug": "טחן-1",
+	"headword": {
+		"text": "טָחַן"
+	},
+	"page": {
+		"number": 528,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00263\"><he>טְחִי</he></cite>)<i>to mill, grind</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>הטוֹחֵן</he> he who grinds (on the Sabbath). ",
+				"<cite ref=\"Shemot Rabbah 36\">Ex. R. s. 36</cite>, beg. <he>טוֹחֲנִין אותם</he> (the olives) are crushed. ",
+				"<cite ref=\"Sotah 9b\">Sot. 9ᵇ</cite> … <he>ועקרן וטְחָנָן וכ׳</he> and Samson uprooted them (the mountains) and ground them against one another; <cite ref=\"Sanhedrin 24a\">Snh. 24ᵃ</cite>; a. fr.—Trnsf. <i>to have sexual intercourse</i> (cmp. μύλλω). ",
+				"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite>, end."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to force</i> to menial labor. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23-24</cite> (ed. Fr. p. 122ᵇ) <he>טוֹחֲנוֹ ברחיים</he>, v. infra, a. <cite ref=\"K00142\"><he>כָּדַן</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִטְחִין"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to grind</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 31a:14\">Kidd. 31ᵃ</cite> bot. <he>ויש מַטְחִינוֹ ברחיים</he> and some one may make his father grind in the mill (v. supra, a. <cite ref=\"K00142\"><he>כָּדַן</he></cite>). ",
+						"<cite ref=\"Ketubot 59b:8\">Keth. 59ᵇ</cite> (ref. to <cite ref=\"Mishnah Ketubot 5:5\">ib. V, 5</cite>) <he>טוֹחֶנֶת ס״ד … מַטְחֶנֶת</he> you cannot mean that she must do the grinding?… she must attend to the grinding."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

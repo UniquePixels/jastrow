@@ -1,0 +1,34 @@
+{
+	"id": "A01675",
+	"slug": "אכונגר",
+	"headword": {
+		"text": "אַכְוַנְגַּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲכַנְגַּר"
+		},
+		{
+			"text": "כְּוַאנְגַּר"
+		},
+		{
+			"text": "אַכְוַו׳"
+		}
+	],
+	"page": {
+		"number": 62,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. Khʷangar, Khʷalgar, Fl.) <i>table-steward, seneschal</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 61a\">Keth. 61ᵃ</cite> <he>כו׳</he> Ar. (ed. <cite ref=\"A01076\"><he>אטורנגא</he></cite> read <he>אַכְוַונְגְּרָא</he>; Var. in Ar. <cite ref=\"K00301\"><he>כונדקא</he></cite>, corr. acc.).—Pl. <he>אַכְוַנְגְּרֵי</he>. ",
+				"<cite ref=\"Moed Katan 12a\">M. Kat. 12ᵃ</cite> (Ar. <he>אכנ׳</he>, ed. <he>אבו׳</he>, corr. acc., Ms. M. <he>אכוורנ׳</he>, cmp. Rabb. D. S. a. l., a. vol. VIII, p. 75). [<cite ref=\"Pesachim 40b\">Pes. 40ᵇ</cite> Ms. M. <cite ref=\"B00348\"><he>בורדיקאי</he></cite>, ed. <cite ref=\"B00348\"><he>בורדיקי</he></cite>, Ar. <cite ref=\"K00217\"><he>כוורדקי</he></cite>, prob. corrupt. of our w.]"
+			]
+		}
+	]
+}

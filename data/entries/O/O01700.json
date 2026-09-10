@@ -1,0 +1,24 @@
+{
+	"id": "O01700",
+	"slug": "סתימתאה",
+	"headword": {
+		"text": "סְתִימְתָּאָה"
+	},
+	"page": {
+		"number": 1031,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O01707\"><he>סְתָם</he></cite>) <i>an unnamed authority</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 30a:12\">Bekh. 30ᵃ</cite>; <cite ref=\"Megillah 2a:22\">Meg. 2ᵃ</cite> <he>זו דברי ר״ע ס׳</he> those are the words of R. Akiba whose opinion has been adopted without naming him. ",
+				"<cite ref=\"Megillah 26a:4\">Ib. 26ᵃ</cite> <he>סְתוּמְ׳</he>. ",
+				"<cite ref=\"Ketubot 101b:3\">Keth. 101ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

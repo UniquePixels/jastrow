@@ -1,0 +1,23 @@
+{
+	"id": "V00833",
+	"slug": "תפלוגתא",
+	"headword": {
+		"text": "תַּפְלוּגְתָּא"
+	},
+	"page": {
+		"number": 1687,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"Q00965\"><he>פְּלוּגְתָּא</he> I</cite>, <i>difference of opinion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 1:3:4\">Y. Shebi. I, 33ᵇ</cite> <he>ת׳ דר״ש ורבנן</he> this is a subject of difference between R. S. and the Rabbis. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 4:1:4\">Y. Maasr. IV, beg. 51ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

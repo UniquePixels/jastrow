@@ -1,0 +1,23 @@
+{
+	"id": "A02695",
+	"slug": "אפיסטולי",
+	"headword": {
+		"text": "אֶפִּיסְטוֹלִי"
+	},
+	"page": {
+		"number": 103,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (ἐπιστολαί) <i>message, injunction, last will</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 74:15\">Gen. R. s. 74</cite> end, ed.; v. <he>אִסְטְלִי</he> II. Y’lamd. to Deut. II, 2 (quot. in Ar. ed. pr.; oth. ed. <he>פיסטולי</he>)."
+			]
+		}
+	]
+}

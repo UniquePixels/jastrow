@@ -1,0 +1,32 @@
+{
+	"id": "H01750",
+	"slug": "חרץ-2",
+	"headword": {
+		"text": "חֲרַץ"
+	},
+	"page": {
+		"number": 505,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01749\">same</cite>, <i>to cut into</i>. Part. pass. <cite ref=\"H01690\"><he>חָרִיץ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Gittin 20a:15\">Gitt. 20ᵃ</cite> <he>רושמא מִיחֲרַץ ח׳ וכ׳</he> is the stamp of a coin dug into (are the devices formed with a loss of substance), or is it pressed into (by compressing the substance)?—",
+				"<cite ref=\"Bekhorot 41a:20\">Bekh. 41ᵃ</cite> <he>מיחרץ ח׳</he> (a dry scab is) cut into (deeper than the surface)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיחֲרַץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut into</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

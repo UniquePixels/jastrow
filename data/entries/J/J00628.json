@@ -1,0 +1,34 @@
+{
+	"id": "J00628",
+	"slug": "ירי-2",
+	"headword": {
+		"text": "ירי",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 596,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A00875\"><he>אוֹרִי</he></cite>, <he>הוֹרִי</he> same, <i>to teach</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 16:2\">Targ. Y. Num. XVI, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Micah 6:4\">Targ. Mic. VI, 4</cite>.—",
+						"<cite ref=\"Shabbat 19b:5\">Sabb. 19ᵇ</cite> <he>ההוא תלמידא דא׳ וכ׳</he> there was a student who decided … in favor of R. S.’s opinion. Y. Maasr. I, 49ᵃ <cite ref=\"E00001\"><he>ה׳</he></cite>; a. fr.—<cite ref=\"A01244\"><he>אַיְירִי</he></cite>, v. <cite ref=\"A03078\"><he>אֲרִי</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

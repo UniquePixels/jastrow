@@ -1,0 +1,38 @@
+{
+	"id": "P00517",
+	"slug": "עיון-1",
+	"headword": {
+		"text": "עִיּוּן"
+	},
+	"page": {
+		"number": 1067,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00291\"><he>עוּן</he></cite>) <i>speculation, meditation, deliberation</i>; <he>ע׳ תפלה</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>calculation of the effects of prayer, expectation of the granting of one’s prayer as a due claim</i> (v. <cite ref=\"P00291\"><he>עוּן</he></cite> <i>Pi.</i>). ",
+					"units": [
+						"<cite ref=\"Berakhot 55a:1\">Ber. 55ᵃ</cite> <he>שלשה דברים … וע׳ ת׳ וכ׳</he> three things cause a man’s record of sins to be called up: a threatening wall, calculation on prayer &c., v. <cite ref=\"D00635\"><he>דִּין</he> II</cite>. ",
+						"<cite ref=\"Bava Batra 164b:16\">B. Bath. 164ᵇ</cite> <he>שלש עבירות … וע׳ ת׳ וכ׳</he> three sins man cannot escape every day: impure thought, calculation on prayer &c.; [oth. opin. <i>the lack of devotion</i> in prayer, v. Tosaf. a. l.].—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>devotion</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 127a\">Sabb. 127ᵃ</cite>. ",
+						"<cite ref=\"Shabbat 118b:13\">Ib. 118ᵇ</cite> <he>קיימית ע׳ ת׳</he> I fulfilled (guarded the duty of) devotion in my prayers. B. Bath. l. c., v. supra."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "Q00674",
+	"slug": "פילוג-2",
+	"headword": {
+		"text": "פִּילּוּג",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילּוּגָא"
+		},
+		{
+			"text": "פִּלּ׳"
+		}
+	],
+	"page": {
+		"number": 1163,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q00673\">same</cite><i>distribution</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 10:32\">Targ. Y. Num. X, 32</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>decision, decree</i>; <he>פִּילּוּג דינא</he> <i>judgment</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:7\">Targ. O. Gen. XIV, 7</cite> (h. text <he>עין משפט</he>; v. Targ. Y. ",
+				"<cite ref=\"Onkelos Genesis 14:7\">ib.</cite>) <cite ref=\"Targum Jonathan on Joel 4:2\">Targ. Joel IV, 2</cite> (h. text <cite ref=\"J00137\"><he>יהושפט</he></cite>); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>part</i>, v. <cite ref=\"Q00938\"><he>פְּלַג</he> II</cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

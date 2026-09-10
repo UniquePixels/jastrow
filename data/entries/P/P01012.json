@@ -1,0 +1,23 @@
+{
+	"id": "P01012",
+	"slug": "ענקוקלות",
+	"headword": {
+		"text": "עַנְקוֹקְלוֹת"
+	},
+	"page": {
+		"number": 1096,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (= <he>ענקלקלות</he>; <he>ענקל</he>, dimin. of <cite ref=\"P01008\"><he>עֲנָק</he></cite>; cmp. <cite ref=\"P00305\"><he>עוּנְקְלָא</he></cite>) <i>little beads</i> (of a neclace), a name for <i>undeveloped grapes</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Orlah 1:8\">Orl. I, 8</cite>; expl. Y. ib. 61ᶜ top <he>ענבים שלקו עד וכ׳</he> grapes which were smitten before they had grown to one-third of the normal size; (oth. opin.) <he>אפי׳ לקו משהביאו וכ׳</he> even if they were smitten after having reached one-third of the normal size; ib. (as an abbreviation, <cite ref=\"N00351\"><he>נוטריקון</he></cite>) <he>ע̇נ̇בין דלק̇ו תל̇תיהון</he> grapes smitten in the first of their three stages. Sifra K’dosh., ch. V, Par. 3."
+			]
+		}
+	]
+}

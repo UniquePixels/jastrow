@@ -1,0 +1,30 @@
+{
+	"id": "A02996",
+	"slug": "ארגסטיס",
+	"headword": {
+		"text": "אַרְגֶּסְטֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "ארגסטס"
+		},
+		{
+			"text": "אגריסטיס"
+		}
+	],
+	"page": {
+		"number": 115,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀργέστης) <i>the brightening</i>, epithet of various winds (cmp. <cite ref=\"A02578\"><he>אִסְתָּן</he></cite>); <i>West-North-West, West-South-West</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13:15\">Num. R. s. 13</cite> <he>אני מביא רוח א׳ וכ׳</he> I shall cause to pass over the world an argestes in which both winds (the Northern and the Southern) shall do service; <cite ref=\"Shir HaShirim Rabbah 4:16:1\">Cant. R. to IV, 16</cite> <he>ארג׳</he>; <cite ref=\"Vayikra Rabbah 9:6\">Lev. R. s. 9</cite> <cite ref=\"A02996\"><he>ארגסטס</he></cite>; Ar. Var. <cite ref=\"A00361\"><he>אגרסטיס</he></cite>."
+			]
+		}
+	]
+}

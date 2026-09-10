@@ -1,0 +1,22 @@
+{
+	"id": "Q01863",
+	"slug": "פרכס-2",
+	"headword": {
+		"text": "פִּרִכֵּס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1229,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"Q01862\">preced.</cite>) [<i>to rub, grind</i>,] <i>to move convulsively, to struggle, kick</i>. Ohol. I, 6 <he>הותזו … שמְפַרְכְּסִים וכ׳</he> if their heads have been cut off, they are unclean (as corpses), although they still move convulsively; <he>כגון זנב … שמְפַרְכֶּכֶת</he> like the tail of the lizzard which moves (after being separated); Tosef. ib. II, 1. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 9:1:4\">Y. Sot. IX, beg. 23ᵇ</cite> <he>חלל ולא מְפַרְכֵּס</he> it says ‘slain’ (<cite ref=\"Deuteronomy 21:1\">Deut. XXI, 1</cite>) but not struggling. ",
+				"<cite ref=\"Mishnah Chullin 2:6\">Ḥull. II, 6</cite> <he>עד שתְּפַרְכֵּס ביד וכ׳</he> unless the animal (when slaughtered) kicks with the foreleg and the hindleg (v. <cite ref=\"Q00860\"><he>פִּירְכּוּס</he> II</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 63:6\">Gen. R. s. 63</cite> <he>יעקב מפרכס לצאת</he> Jacob (in his mother’s womb) struggled to come out; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "S00936",
+	"slug": "קיים-5",
+	"headword": {
+		"text": "קְיָים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְיָימָא"
+		},
+		{
+			"text": "קְיָ׳"
+		}
+	],
+	"page": {
+		"number": 1359,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00935\">preced.</cite>) [<i>that which is established</i>,] <i>law, statute; covenant; oath, vow</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 99:7\">Targ. Ps. XCIX, 7</cite>. ",
+				"<cite ref=\"Onkelos Genesis 9:9\">Targ. Gen. IX, 9</cite>; <cite ref=\"Onkelos Genesis 9:11\">11</cite>. ",
+				"<cite ref=\"Onkelos Numbers 30:3\">Targ. Num. XXX, 3</cite> (ed. Amst. <cite ref=\"S01000\"><he>קְיַם</he></cite>; Y. ed. Vien. <cite ref=\"S01000\"><he>קַיָּם</he></cite>, corr. acc.); a. fr.—Pl. <he>קְיָמַיָּיא</he>, <he>קְיָימִין</he>, <cite ref=\"S01000\"><he>קְיָמ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 18:16\">Targ. Ex. XVIII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 27:26\">Targ. Y. Deut. XXVII, 26</cite>; a. fr."
+			]
+		}
+	]
+}

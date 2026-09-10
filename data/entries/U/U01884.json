@@ -1,0 +1,27 @@
+{
+	"id": "U01884",
+	"slug": "שקפא-2",
+	"headword": {
+		"text": "שִׁקְפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁקְפָה"
+		}
+	],
+	"page": {
+		"number": 1625,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"U01867\"><he>שְׁקִיפָא</he></cite>, <i>cleft, overhanging rock</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12:9\">Gen. R. s. 12</cite>; <cite ref=\"Yalkut Shimoni on Nach 862:14\">Yalk. Ps. 862</cite>, v. <cite ref=\"I00635\"><he>טַפְזָא</he></cite>."
+			]
+		}
+	]
+}

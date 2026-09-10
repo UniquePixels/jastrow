@@ -1,0 +1,45 @@
+{
+	"id": "V00488",
+	"slug": "תיקון",
+	"headword": {
+		"text": "תִּיקּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּקּוּן"
+		}
+	],
+	"page": {
+		"number": 1666,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00899\"><he>תָּקַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>preparation</i>, esp. <i>making fruits available by separating the tithes, the priest’s share</i> &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 3:1:7\">Y. Dem. III, beg. 23ᵇ</cite> <he>נותן לו כדי תִיקּוּנוֹ</he> (not <he>תיקולו</he>) we give a quantity large enough for him to separate the tithe, i.e. we give him a larger quantity, so that after deducting the gifts he should have as much as is due to him; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>establishment, institution; amendment, making right</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 4:2\">Gitt. IV, 2</cite>, a. fr. <he>מפני ת׳ העולם</he> for the sake of the social order. ",
+				"<cite ref=\"Mishnah Sukkah 5:2\">Succ. V, 2</cite> <he>ומתקנין שם ת׳ גדול</he> and they introduced a great improvement there; <cite ref=\"Mishnah Sukkah 5:2\">ib.</cite> <he>מאי ת׳ גדול וכ׳</he> what was that great improvement? … The woman’s compartment was open, and they put a railing around it &c. ",
+				"<cite ref=\"Tosefta Nazir 5:2\">Tosef. Naz. V, 2</cite> <he>ת׳ הדבר וכ׳</he> the way to set the thing right, the proper way is &c.; Y. ib. II, end, 52ᵇ <he>תִּקָּן וכ׳</he>. Pesik. shimʿu, p. 118ᵃ <he>על שם שלא … כתִיקּוּנָהּ בא״י</he> because I did not separate one Ḥallah in Palestine as was proper; <cite ref=\"Shir HaShirim Rabbah 1:6:5\">Cant. R. to I, 6</cite> <he>כתִקָּנָהּ</he>; <cite ref=\"Shir HaShirim Rabbah 1:6\">ib.</cite> <he>על שלא … כתִקּוּנוֹ וכ׳</he> because I did not keep one Holy Day in Palestine as I ought to have &c. ",
+				"<cite ref=\"Pesikta Rabbati 28:1\">Pesik. R. s. 28</cite> <he>שאין עושים … כתִיקָּנָם וכ׳</he> my children do not observe the festivals according to their institution, as they were commanded &c. ",
+				"<cite ref=\"Megillah 2a:19\">Meg. 2ᵃ</cite> <he>בזמן שהשנים כתִיקָּנָן וכ׳</he> when the seasons of the year were as they ought to be (when the calendar was regulated by the court), and Israel dwelt in their land; a. fr.—<he>ת׳ סופרים</he> the emendations of Biblical phrases introduced by the Sof’rim (v. <cite ref=\"O00403\"><he>סוֹפֵר</he></cite>) to obviate apparently irreverent expressions. Tanḥ. ",
+				"<cite ref=\"Exodus 16\">B’shall. 16</cite> [where the text is largely interpolated]. ",
+				"<cite ref=\"Bereishit Rabbah 49:7\">Gen. R. s. 49</cite> (ref. to <cite ref=\"Genesis 18:22\">Gen. XVIII, 22</cite>) <he>ת׳ ס׳ הוא זה שהשכינה וכ׳</he> this is a Soferic emendation (for, ‘and the Lord stood yet before Abraham’), for the Shechinah waited for Abraham; <cite ref=\"Midrash Tehillim 18:29\">Midr. Till. to Ps. XVIII</cite>; (<cite ref=\"Vayikra Rabbah 11\">Lev. R. s. 11</cite> <he>תַּקָּנַת ס׳</he>); a. fr.—[A list of these emendations is to be found in Tanḥ. l. c.; <cite ref=\"Sifrei Bamidbar 84\">Sifré Num. 84</cite>; Mekh. B’shall., Shir., s. 6; <cite ref=\"Yalkut Shimoni on Torah 247\">Yalk. Ex. 247</cite>; v. esp. Frensdorff, Ochlah W’ochlah, p. 113.]"
+			],
+			"label": "2"
+		}
+	]
+}

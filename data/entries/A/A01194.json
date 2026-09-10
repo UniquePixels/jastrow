@@ -1,0 +1,28 @@
+{
+	"id": "A01194",
+	"slug": "איזה",
+	"headword": {
+		"text": "אֵיזֶה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵיזֶהוּ"
+		},
+		{
+			"text": "אֵזֶ׳"
+		}
+	],
+	"page": {
+		"number": 46,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"A01195\"><he>אֵיזוּ</he></cite> f. (b. h.) <i>who? what? which?</i> <cite ref=\"Pirkei Avot 4:1\">Ab. IV, 1</cite> <he>איזהו חכם</he> who is wise?; a. v. fr.—<he>באיזה צד</he> in what manner, v. <cite ref=\"K00616\"><he>כֵּיצַד</he></cite>. [Chald. <cite ref=\"A01161\"><he>אֵידֵין</he></cite>, <cite ref=\"A00370\"><he>אֵידָא</he></cite>.]",
+			"units": []
+		}
+	]
+}

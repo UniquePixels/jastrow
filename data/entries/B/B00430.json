@@ -1,0 +1,56 @@
+{
+	"id": "B00430",
+	"slug": "בזז-2",
+	"headword": {
+		"text": "בְּזַז",
+		"homograph": 1
+	},
+	"page": {
+		"number": 152,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"B00406\"><he>בַּז</he></cite>) same. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 7:9\">Targ. Hos. VII, 9</cite>; <cite ref=\"Targum Jonathan on Hosea 10:2\">X, 2</cite>; a. fr.—",
+				"<cite ref=\"Esther Rabbah 3:11\">Esth. R. to I, 10</cite>, v. <cite ref=\"B00220\"><he>בּוּז</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:7\">Cant. R. to VII, 7</cite> (prov.) take presents from an heir <he>ולא מן דבַזִּין ליה</he> but not from one for whom they make spoil (king)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּזֵּיז"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00429\">same</cite>. *<cite ref=\"Bamidbar Rabbah 12:3\">Num. R. s. 12</cite> <he>דהוא בזיז וכ׳</he> he robs (the youths of) the noon-day lessons (transl. <he>ישוד</he> <cite ref=\"Psalms 91:6\">Ps. XCI, 6</cite>); v. <cite ref=\"C00538\"><he>גְּזַז</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַבֵּיז"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to be plundered</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 24:1\">Targ. Is. XXIV, 1</cite> <he>מַבֵּיז</he> (Var. <he>מֵבִיז</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְבְּזִיז"],
+			"senses": [
+				{
+					"gloss": "<i>to be robbed</i>. Ib. 3; a. e.—Ib. 16 <he>מִתְבַּזִּין</he> = <he>מתבזזין</he>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

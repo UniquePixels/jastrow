@@ -1,0 +1,84 @@
+{
+	"id": "G00653",
+	"slug": "זקק-2",
+	"headword": {
+		"text": "זְקַק"
+	},
+	"page": {
+		"number": 410,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00652\">same</cite><i>to refine</i>.—<i>Part. pass.</i> <cite ref=\"G00653\"><he>זָקִיק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 12:7\">Targ. Ps. XII, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:11\">Targ. Cant. I, 11</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to chain</i>. Part. pass. as above. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 60:11\">Targ. Is. LX, 11</cite> <cite ref=\"G00637\"><he>זְקִיקִין</he></cite> led in chains (h. text <he>נהוגים</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to obligate</i>. Part. pass. as ab. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:8\">Y. Ber. I, 3ᶜ</cite> bot. <he>זְקִיקִינָן למברכה</he> we are bound to say the blessing. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 10:1:4\">Y. B. Mets. X, beg. 12ᶜ</cite> <he>ז׳ את וכ׳</he> thou art bound to carry me (the lower story must be kept in repair at the expense of its owner). ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 10:1:4\">Ib.</cite> <he>דאינון זקוקין</he> (read: <he>זקי׳</he>)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַקֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to refine</i>.—Part. pass. <he>מְזוּקַּק</he> (Hebraism). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 1:11\">Targ. Cant. I, 11</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to obligate, tie</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 22b:1\">Yeb. 22ᵇ</cite> top <he>מיזקק נמי זַקִּיקָהּ</he> Rashi (ed. <cite ref=\"G00653\"><he>זקיק</he></cite>) he (the bastard brother) also ties her (prevents her from remarrying)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִזְּדַּקֵּק"],
+			"senses": [
+				{
+					"gloss": ", contr. <he>אִידַּקֵּק</he> <i>to be cleared</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Numbers 5:19\">Targ. Y. II, Num. V, 19</cite> <he>הִדַּקִּי</he> (h. text <he>הִנָּקִי</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיזְדְּקֵיק"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"G00652\">preced.</cite> <i>Nif.</i> ",
+					"units": [
+						"<cite ref=\"Nedarim 77a:5\">Ned. 77ᵃ</cite> <he>איזְדְּקִיקוּ ליה רבנן וכ׳</he> the Rabbis attended to (the absolution from vows of) the son &c. ",
+						"<cite ref=\"Nedarim 77a:5\">Ib.</cite>, sq. <he>א׳ ליה רב וכ׳</he> Rab attended to Rabbah’s vows in a private room of the school-house &c.—Y. Keth. II, 26ᶜ bot. <he>אִיזְדְּקזּקֵי וכ׳</he> to sleep with &c."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "M02868",
+	"slug": "משיזב",
+	"headword": {
+		"text": "מְשֵׁיזֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְשֵׁיזְבָא מְשֵׁיזִיב"
+		}
+	],
+	"page": {
+		"number": 852,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00849\"><he>שִׁיזֵיב</he></cite>) <i>one who has escaped, refugee</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 3:3\">Targ. Deut. III, 3</cite> (Y. <he>מְשֵׁזִיב</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 9:15\">Targ. II Kings IX, 15</cite>; a. fr.—Pl. <he>מְשֵׁיזְבִין</he>, <he>מְשֵׁיזְבַיָּא</he>, <he>מְשֵׁזְ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 66:19\">Targ. Is. LXVI, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 12:4\">Targ. Jud. XII, 4</cite>; a. fr."
+			]
+		}
+	]
+}

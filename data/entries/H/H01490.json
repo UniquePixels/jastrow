@@ -1,0 +1,43 @@
+{
+	"id": "H01490",
+	"slug": "חצב-2",
+	"headword": {
+		"text": "חֲצַב"
+	},
+	"page": {
+		"number": 494,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H01489\">same</cite>.; interch. with <cite ref=\"H01498\"><he>חֲצַד</he></cite> q. v.—Part. pass. <he>חֲצִיב</he>, v. <cite ref=\"H01519\"><he>חֲצִיבָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (used of the Cistus) <i>to cut through the ground, to grow</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:10\">Pes. 111ᵇ</cite>, v. <cite ref=\"H01507\"><he>חֲצוּבָא</he> II</cite>.—[<cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite> <he>ח׳ חצובן</he>, v. <cite ref=\"H01498\"><he>חֲצַד</he> I</cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחֲצַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be hewn</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 51:1\">Targ. Is. LI, 1</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

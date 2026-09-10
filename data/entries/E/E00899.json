@@ -1,0 +1,50 @@
+{
+	"id": "E00899",
+	"slug": "הרצאה",
+	"headword": {
+		"text": "הַרְצָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַרְצָיָה"
+		}
+	],
+	"page": {
+		"number": 368,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00974\"><he>רָצָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (v. ",
+			"units": [
+				"<cite ref=\"Leviticus 1:4\">Lev. I, 4</cite>) <i>acceptability of a sacrifice, gracious reception, qualification for offering, atonement</i>. ",
+				"<cite ref=\"Chullin 81a:3\">Ḥull. 81ᵃ</cite> <he>לילה לקדושה יום לה׳</he> the eve of the eighth day qualifies it for dedication, the morning for an acceptable offering. ",
+				"<cite ref=\"Zevachim 28b:5\">Zeb. 28ᵇ</cite>, a. e. (ref. to <cite ref=\"Leviticus 22:27\">Lev. XXII, 27</cite> a. ",
+				"<cite ref=\"Leviticus 19:7\">XIX, 7</cite>) <he>כהַרְצָאת כשר וכ׳</he> the same ceremonies which are needed for the atoning efficacy of the legally performed offering, are required for making it an unfit offering (the eating of which is punishable with extinction). ",
+				"<cite ref=\"Keritot 9a:12\">Ker. 9ᵃ</cite> <he>הַרְצָאַת דם</he> (<cite ref=\"D00897\"><he>דמים</he></cite>)) reception into the covenant through the sprinkling of blood (<cite ref=\"Exodus 24:5\">Ex. XXIV, 5</cite> sq.).—Sifra Vayikra, N’dabah, Par. 5, ch. VII <he>לאחר הרציה</he> after the sprinkling of the blood. ",
+				"<cite ref=\"Zevachim 45b:5\">Zeb. 45ᵇ</cite> <he>בני ה׳</he> those for whom a sacrifice may effect atonement. Sifra Emor ch. III, Par. 4 <he>מה חילול … ה׳</he> as the desecration <i>there</i> refers to a sacrifice which has an atoning effect; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>making willing, conciliation</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 27a:23\">Men. 27ᵃ</cite> <he>וכן ישראל בה׳ … באגודה אחת</he> (Ms. M. <he>ובן ישׁראל עד … בה׳ אחת</he>) and so is it with Israel’s conciliation (with God), which can be achieved only when they are all one brotherhood; (<cite ref=\"Yalkut Shimoni on Torah 651:12\">Yalk. Lev. 651</cite>: <he>וכן ישראל לא ישובו לארצם עד וכ׳</he>). ",
+				"<cite ref=\"Kiddushin 14b:14\">Kidd. 14ᵇ</cite> <he>להרצאת אדון</he> to make the master willing to dismiss his slave (<cite ref=\"Deuteronomy 15:18\">Deut. XV, 18</cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"T00974\"><he>רָצָה</he></cite> <i>Hif.</i>) <i>discourse</i> (on theosophy).—Pl. <he>הַרְצָאוֹת</he>. ",
+			"units": ["<cite ref=\"Chagigah 14b:7\">Ḥag. 14ᵇ</cite>"],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "K00500",
+	"slug": "כיהון",
+	"headword": {
+		"text": "כִּיהוּן"
+	},
+	"page": {
+		"number": 631,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"K00163\"><he>כֹּהֵן</he></cite>) <i>priestly outfit</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 43a:5\">Yoma 43ᵃ</cite> <he>הכהן בכִיהוּנוֹ</he> ‘the priest’ (as such) in his priestly garments (v. Rabb. D. S. a. l. note 7); <cite ref=\"Yalkut Shimoni on Torah 760\">Yalk. Num. 760</cite>."
+			]
+		}
+	]
+}

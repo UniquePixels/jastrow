@@ -1,0 +1,42 @@
+{
+	"id": "T00508",
+	"slug": "רחיק-3",
+	"headword": {
+		"text": "רָחִיק",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רַחִיקָא"
+		},
+		{
+			"text": "רְ׳"
+		},
+		{
+			"text": "רְחִיקְתָּא"
+		}
+	],
+	"page": {
+		"number": 1466,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00507\">preced.</cite>) <i>far, distant, removed</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 29:21\">Targ. Deut. XXIX, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 12:2\">Targ. Jer. XII, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:25\">Targ. Prov. XXV, 25</cite>; a. fr.—",
+				"<cite ref=\"Sukkah 52a:11\">Succ. 52ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 535:2\">Yalk. Joel 535</cite>, v. <cite ref=\"R00183\"><he>צַוְותָּא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:2:3\">Y. Shebi. IX, 38ᵈ</cite> bot. <he>לארעא דר׳</he> to a distant land; a. e.—Pl. <he>רְחִיקִין</he>; <he>רְחִיקָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 9:22\">Targ. Josh. IX, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 18:7\">Targ. Jud. XVIII, 7</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Nedarim 11:12:3\">Y. Ned. XI, end, 42ᵈ</cite> (expl. <he>שמים ביני לבינך</he> Mish. ",
+				"<cite ref=\"Mishnah Nedarim 11:12\">Ned. XI, 12</cite>) [read:] <he>כמא דשמיא ר׳ … כן האי אתתא רחיקא וכ׳</he> as the heavens are remote from the earth, so is this woman (I) from this man (I cannot live with him); a. e."
+			]
+		}
+	]
+}

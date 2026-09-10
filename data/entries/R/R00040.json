@@ -1,0 +1,31 @@
+{
+	"id": "R00040",
+	"slug": "צביונא",
+	"headword": {
+		"text": "צִבְיוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִבְיָינָא"
+		},
+		{
+			"text": "צִבְיָנָא"
+		},
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1258,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"R00039\">same</cite> <cite ref=\"Aramaic Targum to Proverbs 10:32\">Targ. Prov. X, 32</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:1\">Ib. XI, 1</cite> (ed. Lag. <he>צביי׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:27\">Ib. 27</cite>. Targ. II Esth. III, 3; a. e."
+			]
+		}
+	]
+}

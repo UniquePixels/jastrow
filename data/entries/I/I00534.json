@@ -1,0 +1,23 @@
+{
+	"id": "I00534",
+	"slug": "טמדוריא",
+	"headword": {
+		"text": "טַמְדּוּרְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 539,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Tamduria</i>, in Babylonia (?). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 39a:9\">Ab. Zar. 39ᵃ</cite> (Ms. M. <he>טמו ביריא</he>, v. Neub. Géogr. p. 392)."
+			]
+		}
+	]
+}

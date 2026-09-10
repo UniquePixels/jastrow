@@ -1,0 +1,24 @@
+{
+	"id": "H00185",
+	"slug": "חדויין",
+	"headword": {
+		"text": "חֲדוּיִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 426,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (cmp. <cite ref=\"H00187\"><he>חַדּוּת</he></cite>, a. Syr. <cite ref=\"H00179\"><he>חדוא</he></cite> P. Sm. 1200) <i>subterranean stores</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Tahorot 8:1\">Tosef. Toh. VIII, 1</cite>; <cite ref=\"Tosefta Tahorot 8:6\">6</cite> (Var. <cite ref=\"E00845\"><he>הרויין</he></cite> ed. Zuck., R. S. to <cite ref=\"Mishnah Tahorot 7:1\">Toh. VII, 1</cite> <he>חררין</he>; to <cite ref=\"Mishnah Tahorot 7:6\">ib. 6</cite> <cite ref=\"E00122\"><he>הדיין</he></cite>)."
+			]
+		}
+	]
+}

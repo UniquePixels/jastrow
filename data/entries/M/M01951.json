@@ -1,0 +1,26 @@
+{
+	"id": "M01951",
+	"slug": "מסכן-5",
+	"headword": {
+		"text": "מַסְכֵּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַסְכֵּין"
+		}
+	],
+	"page": {
+		"number": 808,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"M01949\"><he>מִסְכֵּן</he> II</cite>, <i>to make poor, reduce</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 56:8\">Targ. Ps. LVI, 8</cite> (h. text <he>הורד</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 94:5\">Ib. XCIV, 5</cite> (h. text <cite ref=\"P00970\"><he>עִנָּה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 6:9\">Targ. Job VI, 9</cite> (h. text <he>דִּכֵּא</he>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M02519",
+	"slug": "מרגלות",
+	"headword": {
+		"text": "מַרְגְּלוֹת"
+	},
+	"page": {
+		"number": 836,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.(b. h.; denom. of <cite ref=\"T00204\"><he>רֶגֶל</he></cite>)<i>the bottom-part of a bedstead</i>; (also adv.) <i>at the bottom of</i> &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:5:12\">Y. Ber. III, 6ᵈ</cite> bot., v. <cite ref=\"M02490\"><he>מְרַאֲשׁוֹת</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 606:8\">Yalk. Ruth 606</cite> <he>נשתהתה … שוכבת מַרְגְּלוֹתָיו</he> (not <he>שוכב</he>) she tarried six hours lying at his feet."
+			]
+		}
+	]
+}

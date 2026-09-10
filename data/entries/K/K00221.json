@@ -1,0 +1,38 @@
+{
+	"id": "K00221",
+	"slug": "כוורתא",
+	"headword": {
+		"text": "כְּוַורְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּוְורַת"
+		},
+		{
+			"text": "כְּוַרְתָּא"
+		},
+		{
+			"text": "כּוֹרְתָא"
+		}
+	],
+	"page": {
+		"number": 617,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00220\">same</cite><i>bee-hive</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 5:27\">Targ. Jer. V, 27</cite> <he>ככ׳ דמליא זיבורייתא</he> Vers. in ed. Lag. (v. preface to Proph. XXXIV, 13) like a hive full of bees."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ramification</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 9:24\">Num. R. s. 9</cite> <he>כ׳ דחרוביתא</he> the circumference of a carob-tree; <cite ref=\"Jerusalem Talmud Sotah 1:8:7\">Y. Sot. I, 17ᵇ</cite> top ed. Amst. (ed. Krot. <cite ref=\"A00913\"><he>אורתא</he></cite>, corr. acc.); <cite ref=\"Jerusalem Talmud Peah 7:3:8\">Y. Peah VII, 20ᵃ</cite> bot. <he>בירתא</he> (corr. acc.); (Midr. Sam. ch. XIII, v. <cite ref=\"K00220\">preced.</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "G00296",
+	"slug": "זיהרורא-1",
+	"headword": {
+		"text": "זִיהֲרוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיהֲרָרָא"
+		},
+		{
+			"text": "זִהֲ׳"
+		}
+	],
+	"page": {
+		"number": 392,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00295\">preced.</cite>) <i>owner of large estates, rich landlord</i>.—Pl. <cite ref=\"G00296\"><he>זִיהֲרוֹרֵי</he></cite> &c. ",
+			"units": [
+				"<cite ref=\"Bava Batra 55a:3\">B. Bath. 55ᵃ</cite> <he>הנהו ז׳ דזבין ארעא … זבינהו זביני</he> (Ms. O. <he>דזביני ארעייהו</he>, Var. <cite ref=\"G00092\"><he>זהורי</he></cite>, <he>זיארי</he>, <he>זיאהררי</he>, v. Rabb. D. S. a l. note) as to those landlords, whoever sells land to them for the taxes, the sale is valid. [Ar.: ‘<i>land-tax collectors</i>—whosoever buys from them’ &c.]"
+			]
+		}
+	]
+}

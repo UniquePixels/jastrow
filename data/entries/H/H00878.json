@@ -1,0 +1,27 @@
+{
+	"id": "H00878",
+	"slug": "חירזא",
+	"headword": {
+		"text": "חִירְזָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִרְזָא"
+		}
+	],
+	"page": {
+		"number": 460,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01647\"><he>חֲרַז</he></cite>) <i>a thorny shrub</i> used for hedges. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 103b\">B. Mets. 103ᵇ</cite> Ar. Var., v. <cite ref=\"H00702\"><he>חִיזְרָא</he> I</cite>."
+			]
+		}
+	]
+}

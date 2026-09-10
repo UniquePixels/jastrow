@@ -1,0 +1,32 @@
+{
+	"id": "Q01411",
+	"slug": "פפייס",
+	"headword": {
+		"text": "פַּפְּיָיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּפְּיָס"
+		},
+		{
+			"text": "פַּפְּיָאס"
+		}
+	],
+	"page": {
+		"number": 1204,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Παπίας) <i>Papias</i>, name of a Tannai. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 7:5\">Eduy. VII, 5</cite>, sq. (Ms. M. <cite ref=\"Q01404\"><he>פפוס</he></cite>, corr. acc.); <cite ref=\"Rosh Hashanah 6a:17\">R. Hash. 6ᵃ</cite> (v. Rabb. D. S. a. l. note 8); <cite ref=\"Mishnah Temurah 3:1\">Tem. III, 1</cite>. ",
+				"<cite ref=\"Mishnah Shekalim 4:7\">Shek. IV, 7</cite> (early eds. <cite ref=\"Q01404\"><he>פפוס</he></cite>; Ms. O. <he>פפיאס</he>, v. Rabb. D. S. a. l., p. 32, note 90). ",
+				"<cite ref=\"Yalkut Shimoni on Torah 34:7\">Yalk. Gen. 34</cite>; <cite ref=\"Bereishit Rabbah 21\">Gen. R. s. 21</cite> <cite ref=\"Q01404\"><he>פפוס</he></cite> (corr. acc.); <cite ref=\"Shir HaShirim Rabbah 1:9:4\">Cant. R. to I, 9</cite> <he>פפיס</he>. Mekh. Yithro, ʿĂmal., s. 1 <he>פפיס</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"id": "S01230",
+	"slug": "קל-2",
+	"headword": {
+		"text": "קַל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַלָּה"
+		}
+	],
+	"page": {
+		"number": 1371,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"S01229\">preced.</cite>) <i>light</i>; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>unimportant, of minor value; easy to achieve</i>.—<he>קל וחומר</he>, v. <cite ref=\"H00390\"><he>חוֹמֶר</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 12:5\">Ḥull. XII, 5</cite> <he>מצוה ק׳ שהיא כאיסר</he> a slight religious act which is performed at a sacrifice of one Isar. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:14\">Y. Kidd. I, 61ᵇ</cite> bot. <he>השוה הכתוב מצוה ק׳ שבקַלּוֹת וכ׳</he> the Bible put the lightest of the light acts (<cite ref=\"Deuteronomy 22:7\">Deut. XXII, 7</cite>) on the same level with the most serious (<cite ref=\"Exodus 20:12\">Ex. XX, 12</cite>). Tosef. Yoma V (IV), 4 <he>מאכילין אותו הקל הקל</he> you must give him to eat (of forbidden things on hand) that which is of comparatively minor import; a. fr.—Pl. <cite ref=\"S01315\"><he>קַלִּים</he></cite>, <he>קַלִּין</he>; <cite ref=\"S01300\"><he>קַלּוֹת</he></cite>.—<he>קלים וחמורים</he>, v. <cite ref=\"H00390\"><he>חוֹמֶר</he> I</cite>.—",
+				"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite> <he>הק׳ שבדמאי</he> those fruits with which, in cases of doubt as to tithes (v. <cite ref=\"D00871\"><he>דְּמַאי</he></cite>), the law deals most leniently. ",
+				"<cite ref=\"Mishnah Yoma 8:8\">Yoma VIII, 8</cite> <he>על עבירות ק׳</he> for minor transgressions (to which the lowest penalty is attached); <cite ref=\"Yoma 85b:14\">ib. 85ᵇ</cite> <he>אלו הן ק׳ וכ׳</he> these are the minor transgressions: omission of a positive command &c. (v. <cite ref=\"P01466\"><he>עָשָׂה</he></cite>); Tosef. ib. V (IV), 5. ",
+				"<cite ref=\"Rosh Hashanah 25b:2\">R. Hash. 25ᵇ</cite>, a. e. <he>שלשה קַלֵּי עולם</he> the three worthless (chiefs) in Israel’s history, opp. <he>חמורי עולם</he>. ",
+				"<cite ref=\"Rosh Hashanah 25b:2\">Ib.</cite> <he>אפי׳ קל שבק׳ וכ׳</he> (not <he>קלין</he>) even the most worthless of worthless men, if once appointed a leader, should be respected like the strongest &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lowly, poor</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Arakhin 24a:39\">Arakh. 24ᵃ</cite> <he>שלא ישהא מרגלית לק׳</he> one must not delay the valuation of a jewel dedicated for its value by poor men (for the sake of taking it to a large town where a higher price can be obtained, but it must go by its local value); <cite ref=\"Arakhin 18a:39\">ib. 18ᵃ</cite> <he>מרגלית לק׳</he> as to local valuation."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>quick</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 3:12\">Ab. III, 12</cite>, v. <cite ref=\"N00343\"><he>נוֹחַ</he> II</cite>. ",
+				"<cite ref=\"Pirkei Avot 5:20\">Ib. V, 20</cite> <he>הוי … קל כנשר וכ׳</he> be … swift as an eagle, and run like a deer to do the will of thy Father in heaven. ",
+				"<cite ref=\"Mishnah Shabbat 8:5\">Sabb. VIII, 5</cite> <he>ביצה ק׳ שבבצים</he> the lightest of eggs; expl. ",
+				"<cite ref=\"Shabbat 80b:6\">ib. 80ᵇ</cite> <he>ק׳ לבשל</he> quick to boil; Y. ib. VIII, 11ᵇ top. ",
+				"<cite ref=\"Bereishit Rabbah 16:4\">Gen. R. s. 16</cite>, v. <cite ref=\"H00168\"><he>חַד</he> I</cite>. ",
+				"<cite ref=\"Ketubot 112a:14\">Keth. 112ᵃ</cite> (ref. to <cite ref=\"Jeremiah 3:19\">Jer. III, 19</cite> <he>נחלת צבי</he>) <he>מה צבי זה קל … ק׳ לבשל וכ׳</he> as the deer is the swiftest of beasts, so the land of Israel is the swiftest of all lands to ripen its fruits. ",
+				"<cite ref=\"Shemot Rabbah 19:5\">Ex. R. s. 19</cite>, a. fr. <he>לשעה קלה</he> after a short time; a. fr.—<i>Pl.</i> as ab. Gen. R. l. c.; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

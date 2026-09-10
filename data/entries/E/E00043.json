@@ -1,0 +1,45 @@
+{
+	"id": "E00043",
+	"slug": "הבלא",
+	"headword": {
+		"text": "הַבְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶבְלָא"
+		}
+	],
+	"page": {
+		"number": 330,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", constr. <cite ref=\"E00041\"><he>הֲבֵל</he></cite>, <cite ref=\"E00041\"><he>הֲבַל</he></cite> ch. same, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>breath</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 90:9\">Targ. Ps. XC, 9</cite>.—",
+				"<cite ref=\"Bava Metzia 36b:7\">B. Mets. 36ᵇ</cite> <he>ה׳ דאגמא</he> the vapors of the marsh. ",
+				"<cite ref=\"Shabbat 95a:5\">Sabb. 95ᵃ</cite> <he>מצטער מה׳</he> suffering from the close air of the room. ",
+				"<cite ref=\"Chullin 8a:7\">Ḥull. 8ᵃ</cite> <he>ואתי ה׳ וכ׳</he> and the effect of the hot iron comes and removes the traces of the stroke; <he>ה׳ קדים וכ׳</he> the burn takes effect first &c. ",
+				"<cite ref=\"Bekhorot 7a:23\">Bekh. 7ᵃ</cite> bot. <he>ה׳ דבישרא וכ׳</he> it is the exudations of the body (which make the urin thick). ",
+				"<cite ref=\"Bava Kamma 50b:12\">B. Kam. 50ᵇ</cite> <he>דאית ביה ה׳</he> in which the air is injurious (v. <cite ref=\"E00042\">preced.</cite>). ",
+				"<cite ref=\"Bava Kamma 50b:16\">Ib.</cite> <he>אין ה׳ למיתה ויש ה׳ וכ׳</he> the air is not bad enough to cause death, but enough to cause injury; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>vanity</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 27:12\">Targ. Job XXVII, 12</cite> <he>הֶ׳</he>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:2\">Targ. Koh. I, 2</cite>.—Pl. <he>הַבְלַיָּא</he>, <he>הַבְלִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:2\">Ib.</cite>—",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:8\">Ib. XII, 8</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

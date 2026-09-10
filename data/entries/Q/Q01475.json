@@ -1,0 +1,55 @@
+{
+	"id": "Q01475",
+	"slug": "פקח-2",
+	"headword": {
+		"text": "פְּקַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1208,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01474\">same</cite>, <i>to open</i> (<i>the eye</i>); (with <he>על</he>) <i>to guard, care</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 14:3\">Targ. Job XIV, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 27:19\">Ib. XXVII, 19</cite>. Targ. Ps. (XLVI, 8; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּקֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to remove debris</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 3:5\">Targ. Koh. III, 5</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make open-minded, bright</i>. ",
+					"units": [
+						"<cite ref=\"Horayot 13b:4\">Hor. 13ᵇ</cite>; <cite ref=\"Sanhedrin 70a:15\">Snh. 70ᵃ</cite>; <cite ref=\"Yoma 76b:7\">Yoma 76ᵇ</cite> <he>פַּקְחִין</he> (= <he>פקחני</he>) made me open-minded, v. <cite ref=\"T00628\"><he>רֵיחָנָא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְפְּקַח"],
+			"senses": [
+				{
+					"gloss": "<i>to awaken, become sober</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:65\">Targ. Ps. LXXVIII, 65</cite> (h. text <he>מתרונן</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

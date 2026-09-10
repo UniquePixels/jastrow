@@ -1,0 +1,24 @@
+{
+	"id": "M00738",
+	"slug": "מזופיתא-1",
+	"headword": {
+		"text": "מְזוֹפִיתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 754,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00737\">preced.</cite>) <i>loan</i>; <he>מרי מ׳</he> <i>creditor</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 66:12\">Targ. Ps. LXVI, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 15:2\">Targ. Y. Deut. XV, 2</cite> (ed. Amsterd. <cite ref=\"M00740\"><he>מְזוֹפְתָא</he></cite>)."
+			]
+		}
+	]
+}

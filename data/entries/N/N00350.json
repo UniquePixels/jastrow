@@ -1,0 +1,31 @@
+{
+	"id": "N00350",
+	"slug": "נוטרין",
+	"headword": {
+		"text": "נוֹטָרִין"
+	},
+	"page": {
+		"number": 886,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (notaria) <i>indictments</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 31:13\">Ex. R. s. 31</cite> <he>כיון שקרא נ׳ שלו וכ׳</he> and when he read the indictments against him, he said, And he lives yet?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (notarius, -ii) <i>clerks</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 35b:9\">Sot. 35ᵇ</cite> <he>שיגרו נ׳ שלהם וכ׳</he> (not <cite ref=\"N00349\"><he>נוטירין</he></cite>) they sent their clerks who peeled off the lime and copied the inscription; Y. ib. VIII, 21ᵈ <he>משלחין נוֹטָרֵיהֶן</he>, <cite ref=\"Tosefta Sotah 8:6\">Tosef. ib. VIII, 6</cite> <he>ושלחו נוטירין</he> ed. Zuck. (Var. <he>נטורין</he>, corr. acc.).—[<cite ref=\"Sifrei Bamidbar 157:5\">Sifré Num. 157</cite> <he>נוטרים</he>, v. <cite ref=\"N00583\"><he>נָטַר</he></cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

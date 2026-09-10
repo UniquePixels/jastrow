@@ -1,0 +1,25 @@
+{
+	"id": "K01111",
+	"slug": "כרוז-3",
+	"headword": {
+		"text": "כָּרוֹז"
+	},
+	"page": {
+		"number": 664,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01110\">preced.</cite>) <i>public crier</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:3:4\">Y. Succ. V, 55ᵇ</cite> bot. <he>גביני כ׳</he> (not <cite ref=\"C00073\"><he>גבי</he></cite>) G. the Temple crier. ",
+				"<cite ref=\"Pesikta Rabbati 5:1\">Pesik. R. s. 5</cite> <he>שילח את הכ׳</he> he sent the crier forth. ",
+				"<cite ref=\"Esther Rabbah 10:6\">Esth. R. to VI, 12</cite> <cite ref=\"K00375\"><he>כּוֹרֵז</he></cite>, v. <cite ref=\"C00391\"><he>גּוּלְיָיר</he></cite>.—Pl. <he>כָּרוֹזוֹת</he>. ",
+				"<cite ref=\"Devarim Rabbah 4\">Deut. R. s. 4</cite>."
+			]
+		}
+	]
+}

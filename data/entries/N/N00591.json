@@ -1,0 +1,51 @@
+{
+	"id": "N00591",
+	"slug": "נטש-3",
+	"headword": {
+		"text": "נָטַשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 902,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00251\"><he>טוּשׁ</he> II</cite>)<i>to sink, drop</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Numbers 11:31\">Num. XI, 31</cite>); <i>to abandon, let alone</i>, v. infra. ",
+				"<cite ref=\"Bereishit Rabbah 75:11\">Gen. R. s. 75</cite> <he>אם רחקת ונָטַשְׁתָּה וכ׳</he> if thou wert to reject and abandon Jacob &c.; <cite ref=\"Yalkut Shimoni on Nach 653\">Yalk. Ps. 653</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִטֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00590\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 6b:11\">Snh. 6ᵇ</cite> (ref. to <cite ref=\"Proverbs 17:14\">Prov. XVII, 14</cite>) <he>לנַטְּשׁוֹ</he> to drop it (the case, to compromise), v. <cite ref=\"C00974\"><he>גָּלַע</he></cite>; Tanḥ. ",
+						"<cite ref=\"Exodus 6\">Mishp. 6</cite>; Y. Snh. I, 18ᵇ <he>לנוֹטְשׁוֹ</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נוּטָּשׁ"],
+			"senses": [],
+			"stem": "Pu."
+		},
+		{
+			"forms": ["נִיטַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn loose, be released</i>. Pesik. Baḥod., p. 154ᵇ <he>ני׳ מחורש וכ׳</he> (not <he>מחודש</he>) released from one thicket and caught &c.; ib. <he>נו׳</he>; <cite ref=\"Yalkut Shimoni on Torah 782\">Yalk. Num. 782</cite> <he>נו׳ וכ׳</he>; (Y. Taan. II, 65ᵈ top <cite ref=\"N01392\"><he>ניתור</he></cite>, v. <cite ref=\"N01392\"><he>נָתַר</he> I</cite>; <cite ref=\"Vayikra Rabbah 29\">Lev. R. s. 29</cite>, a. e. <cite ref=\"N01398\"><he>ניתש</he></cite>, v. <cite ref=\"N01398\"><he>נָתַשׁ</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

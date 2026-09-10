@@ -1,0 +1,72 @@
+{
+	"id": "H00232",
+	"slug": "חוב-2",
+	"headword": {
+		"text": "חוּב",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 428,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch., perf. a. part. <cite ref=\"H00008\"><he>חָב</he></cite>, <cite ref=\"H00008\"><he>חַב</he></cite> same, esp. <i>to incur guilt, to sin</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:31\">Targ. Ex. XXXII, 31</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 4:22\">Targ. Lev. IV, 22</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Numbers 15:28\">Targ. O. Num. XV, 28</cite> <he>בִּמְחֲבֵיה</he> ed. Berl. (oth. ed. <he>בְּמֵחֲבֵיה</he>, <he>בְּמֶחֲ׳</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַיֵּיב"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"H00231\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 34:17\">Targ. Job XXXIV, 17</cite>; a. fr.—",
+						"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 1</cite> (expl. <he>יָעִיב</he>, <cite ref=\"Eichah Rabbah 2\">ib.</cite>) <he>איך ח׳ וכ׳</he> how did the Lord … condemn &c.; there are places <he>דצווחין לחַיָיבָא עייבא</he> where <i>ḥayaba</i> (the guilty) is pronounced <i>͑ayaba</i>, v. <cite ref=\"P00172\"><he>עוּב</he></cite>.—",
+						"<cite ref=\"Bava Kamma 68b:17\">B. Kam. 68ᵇ</cite> <he>לא לִיחַיְּיבֵיה</he> (omitted in Ms. F.) do not condemn him (to pay a fine). ",
+						"<cite ref=\"Berakhot 20b:9\">Ber. 20ᵇ</cite> <he>וכל מ״ע נְחַיְּיבִינְהוּ וכ׳</he> we might just as well by rabbinical ordinance declare them subject to all positive religious duties; a. fr.—<i>Part. pass.</i> <he>מְחַיַּיב</he> (interch. with <he>מִיחַיַּיב</he>, v. infra)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to induce to sin</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 21:16\">Targ. II Kings XXI, 16</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְחַיַּיב", "אִיחַיַּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to become guilty, to be induced to sin</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 19:5\">Targ. I Sam. XIX, 5</cite> (ed. Lag. <he>את מחייב</he>). ",
+						"<cite ref=\"Targum Jonathan on Leviticus 5:19\">Targ. Y. Lev. V, 19</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be convicted, sentenced</i> &c.; <i>to be amenable to law, be bound</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 34:23\">Targ. Ps. XXXIV, 23</cite>; a. e.—",
+						"<cite ref=\"Ketubot 85a:8-9\">Keth. 85ᵃ</cite> <he>ההיא … דאִיחַיְּיבָא שבועה וכ׳</he> a woman was declared bound to make oath in the court of &c. ",
+						"<cite ref=\"Rosh Hashanah 29a:11\">R. Hash. 29ᵃ</cite> <he>מִיחַיְּיבֵי</he> are bound (subject to the law about Shofar). ",
+						"<cite ref=\"Rosh Hashanah 29a:12\">Ib.</cite> <he>אימא … לא לִיחַיְּיבוּ</he> I might have thought they ought not to be bound. ",
+						"<cite ref=\"Bava Kamma 72b:2\">B. Kam. 72ᵇ</cite> <he>כי קא מְחַיַּיב</he> (v. supra) when does he become responsible; a. v. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "H00688",
+	"slug": "חיוריין",
+	"headword": {
+		"text": "חִיוַּרְיַיִן",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיוְּרַיִן"
+		}
+	],
+	"page": {
+		"number": 452,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(also <he>חיור יין</he>) pr. n. pl. <i>Ḥivvaryayin</i>, <i>Ḥivv’rayin</i>.—<he>חֲמַר ח׳</he> name of a <i>wine</i> of inferior quality and color, cmp. <cite ref=\"B01313\"><he>בָּרַק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 97b:10\">B. Bath. 97ᵇ</cite> <he>חמר חיוריין מהו</he> (Ms. H. <he>חיור יין</he>, v. Rabb. D. S. a. l. note 20) how about the use of Ḥ. wine for religious purposes?—",
+				"<cite ref=\"Keritot 6a:44\">Kerith. 6ᵃ</cite> <he>חמר חיור יין עתיק</he> old Ḥ. wine (used as a substitute of caper wine for soaking onycha); <cite ref=\"Jerusalem Talmud Yoma 4:5:2\">Y. Yoma IV, 41ᵈ</cite> <cite ref=\"H00688\"><he>חיורין</he></cite>."
+			]
+		}
+	]
+}

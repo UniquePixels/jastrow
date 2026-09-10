@@ -1,0 +1,125 @@
+{
+	"id": "P00972",
+	"slug": "עני-3",
+	"headword": {
+		"text": "עני",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עָנָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1093,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A02138\"><he>אָנָה</he></cite>)<i>to press, be pressed; to be detained</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִינָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to detain, postpone</i>, esp. <he>ע׳ דין</he> <i>to delay execution of capital judgment</i> (which should take place on the day of sentence). ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 11:4\">Snh. XI, 4</cite> (<cite ref=\"Sanhedrin 89a:3\">89ᵃ</cite>) <he>אין מְעַנִּין את דינו של וכ׳</he> we must not put off his execution (opp. to the opinion <he>משמרין אותו</he>). Ib. 35ᵃ <he>וליגמריה … נמצא אתה מְעַנֶּה את דינו</he> shall we pass sentence on Friday and put him to death on Sunday? In such a case you would postpone his execution (against the law); v. <cite ref=\"P00612\"><he>עִינּוּי</he> II</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause privation; to cause to fast</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 77b:3\">Yoma 77ᵇ</cite> (ref. to <he>ויענה</he>, <cite ref=\"Genesis 34:2\">Gen. XXXIV, 2</cite>) <he>התם שעִינָּהּ מביאות וכ׳</he> this may be interpreted, that he deprived her of other connections. Ib. VIII, 4 <he>התינוקות אין מענין אותן וכ׳</he> we must not let children fast on the Day of Atonement, v. <cite ref=\"H01302\"><he>חָנַךְ</he></cite>; a. e.—<i>Part. pass.</i> <he>מְעוּנֶּה</he> <i>fasting</i>. ",
+						"<cite ref=\"Tosefta Ta'anit 2:7\">Tosef. Taan. II, 7</cite>; <cite ref=\"Eruvin 41a:1\">Erub. 41ᵃ</cite> <he>כדי שלא יכנס לשבת כשהוא מע׳</he> that he may not begin the Sabbath fasting; Tanḥ. ",
+						"<cite ref=\"Genesis 2\">B’resh. 2</cite>.–"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to afflict, oppress, wrong</i>. Mekh. Mishp., s. 18 (ref. to <cite ref=\"Exodus 22:22\">Ex. XXII, 22</cite>) <he>עד שיְעַנֶּה וישנה</he> until he practices oppression repeatedly; a. e.—Part. pass. <cite ref=\"M02073\"><he>מְעוּנֶּה</he></cite>; pl. <cite ref=\"M02089\"><he>מְעוּנִּין</he></cite>. ",
+					"units": [
+						"<cite ref=\"Yevamot 48b:15\">Yeb. 48ᵇ</cite> <he>מפני מה גרים בזמן הזה מע׳ וכ׳</he> why are the proselytes of our days afflicted and subject to suffering?"
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to violate, outrage</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9:7\">Num. R. s. 9</cite> (ref. to <cite ref=\"Micah 2:9\">Mic. II, 9</cite>) <he>שהיו מְעַנִּים נשי וכ׳</he> they violated married women and caused them to be forbidden to their husbands. ",
+						"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>; a. fr.—Mekh. l. c.; <cite ref=\"Yalkut Shimoni on Torah 349:6\">Yalk. Ex. 349</cite> <he>אם כשלא תְעַנּוּן את הדין וכ׳</he> if your wives will be spared from widowhood and your children from bereavement, because you do not violate justice, how much more, when you execute justice."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נַעֲנֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be afflicted, oppressed</i>. Mekh. l. c. <he>אלמנה … שדרכן לֵעָנוֹת בהן וכ׳</he> widows and orphans who are liable to be oppressed,—of them the text speaks (<cite ref=\"Exodus 22:21\">Ex. XXII, 21</cite>); Yalk. l. c. <he>שדרכן לֵיעָנוֹת</he> (not <he>שדרכו</he>).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to humble one’s self; to submit to a person’s discretion, beg pardon</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 28a:10\">Ber. 28ᵃ</cite> <he>נַעֲנֵיתִי לך מחול לי</he> I submit myself to thee, forgive me. ",
+						"<cite ref=\"Pesikta Rabbati 38:1\">Pesik. R. s. 38</cite> <he>נעניתי לו</he> I beg his pardon. ",
+						"<cite ref=\"Yoma 22b:18\">Yoma 22ᵇ</cite> <he>נעניתי לכם עצמות וכ׳</he> I beg your pardon, bones of Saul!; <cite ref=\"Yalkut Shimoni on Nach 117:3\">Yalk. Sam. 117</cite> <he>נעניתי לך שאול וכ׳</he>. ",
+						"<cite ref=\"Ketubot 67b:7\">Keth. 67ᵇ</cite> <he>נעניתי לך קום אכול</he> I beg of thee, get up and eat. ",
+						"<cite ref=\"Tosefta Ohalot 5:12\">Tosef. Ohol. V, 12</cite> <he>נמיתי לכם עצמות וכ׳</he> ed. Zuck. (oth. ed. <he>נמתי</he>, read <he>נעניתי</he>) I beg your pardon, bones of &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְעַנֶּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַנֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be afflicted, suffer</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 130:5\">Sifré Deut. 130</cite> <he>שנִתְעַנּוּ</he>, v. <cite ref=\"P00612\"><he>עִינּוּי</he> II</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to afflict one’s self, to fast</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 8b:3\">Ber. 8ᵇ</cite> (ref. to <cite ref=\"Leviticus 23:32\">Lev. XXIII, 32</cite>) <he>וכי בתשעה מִתְעַנִּין</he> do men fast on the ninth (of Tishri)? <cite ref=\"Rosh Hashanah 18b\">R. Hash. 18ᵇ</cite> <he>אין גזרת … רצו מתענין</he> when there is no political persecution, but no peace, those who wish may fast &c. ",
+						"<cite ref=\"Eruvin 41a:8\">Erub. 41ᵃ</cite> <he>והִתְעַנִּינוּ בו ולא וכ׳</he> we fasted, but not to the end of the day; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הֶעֱנִי"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"P00976\"><he>עָנִי</he></cite>) <i>to become poor</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 6:6\">Keth. VI, 6</cite>. ",
+						"<cite ref=\"Berakhot 33a:27\">Ber. 33ᵃ</cite> <he>חזרו והֶעֱנוּ</he> when they (the Jews) became poor again. ",
+						"<cite ref=\"Meilah 17a:32\">Meïl. 17ᵃ</cite> <he>מי שיש לו אויב יַעֲנִי או יעשיר</he> if one has an enemy, does one wish him to be poor or rich?; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

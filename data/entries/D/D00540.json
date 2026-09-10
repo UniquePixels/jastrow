@@ -1,0 +1,24 @@
+{
+	"id": "D00540",
+	"slug": "דיוקתא",
+	"headword": {
+		"text": "דְּיוּקְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 297,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דוק</he>) <i>the examination of family records required for pure marriages</i> (v. <cite ref=\"B00154\"><he>בָּדַק</he></cite>); in gen. <i>family record</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 59b:15\">B. Mets. 59ᵇ</cite> (prov.) <he>דזקיף … בדְיוּקְתֵּיה וכ׳</he>, quot. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 349\">Yalk. Ex. 349</cite> (ed. <he>בדיותקיה</he>, Ms. M. <he>בריסתקי</he>, Ms. H. <he>בדוּקְתֵּיה</he>, Ms. F. <he>בדותקיה</he>, &c., v. Rabb. D. S. a. l. note) if there is a case of hanging in one’s family record, say not to him, Hang this fish up for me. [Sh’ilt. d’R. Aḥai s. 41 has three times <he>דוקתא</he>, s. 153 <he>דותקא</he>. For the etymol. of <cite ref=\"D00546\"><he>דיותקא</he></cite>, <he>דות׳</he>, v. Perl. Et. St. p. 80.]"
+			]
+		}
+	]
+}

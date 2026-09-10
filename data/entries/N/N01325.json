@@ -1,0 +1,72 @@
+{
+	"id": "N01325",
+	"slug": "נשך-1",
+	"headword": {
+		"text": "נָשַׁךְ"
+	},
+	"page": {
+		"number": 940,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נשק</he>)<i>to bite</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 74\">Gen. R. s. 74</cite>, beg. <he>שאינן נוֹשְׁכִין ואוכלין וכ׳</he> they do not bite off and eat, but out &c.; Pesik. Par., p. 34ᵃ; <cite ref=\"Kohelet Rabbah 7:23\">Koh. R. to VII, 23</cite>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 37:8\">Pirké d’R. El. ch. XXXVII</cite> <he>אל תהי קורא וישקהו אלא וַיִּשָּׁכֵהוּ</he> read not, ‘and he kissed him’ (<cite ref=\"Genesis 33:4\">Gen. XXXIII, 4</cite>) but, ‘and he bit him.’ <cite ref=\"Tosefta Bava Kamma 1:5\">Tosef. B. Kam. I, 5</cite> <he>אינה מועדת … לִישּׁוֹךְ</he> is not considered as forewarned (v. <cite ref=\"M00556\"><he>מוּעָד</he></cite>) as regards … biting; a. fr.—Part. pass. <he>נָשׁוּךְ</he>, f. <he>נְשׁוּכָה</he> &c. ",
+				"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite> <he>רופא … בלשונו נְשׁוּךְ נחש</he> a physician that comes to heal with his tongue (charm) one bitten by a serpent. ",
+				"<cite ref=\"Mishnah Terumot 8:6\">Ter. VIII, 6</cite> <he>נְשׁוּכַת הנחש וכ׳</he> any food showing traces of being bitten at by a serpent is forbidden &c.; a. fr.—Trnsf. <i>to adhere to, be affixed</i>. ",
+				"<cite ref=\"Pesachim 48b:4\">Pes. 48ᵇ</cite> <he>ככרות</he> … <he>שנוֹשְׁכוֹת זו מזו</he> Babylonian loaves which stick to one another; <cite ref=\"Mishnah Tevul Yom 1:1\">T’bul Yom I, 1</cite> <he>נושכות זו בזו</he>; <cite ref=\"Mishnah Challah 2:4\">Ḥall. II, 4</cite> <he>עד שיִשּׁוֹכוּ</he> (<i>Nif.</i>) until the pieces of dough have grown together in rising, contrad. to <he>נגע</he>. ",
+				"<cite ref=\"Shabbat 17a:9\">Sabb. 17ᵃ</cite> <he>הנושכות</he> clusters of grapes which stick together (and cannot be separated without squeezing some grapes open); a. fr.—Part. pass. as ab. ",
+				"<cite ref=\"Jerusalem Talmud Challah 1:1:14\">Y. Ḥall. I, 57ᵇ</cite> <he>בנ׳</he> if refers to pieces of dough sticking together, contrad. to <cite ref=\"B00830\"><he>בלול</he></cite> kneaded. Ib. III, 59ᶜ top <he>עיסת הנ׳</he> dough made one lump by sticking; <he>נ׳ מאליו</he> sticking together of itself (by rising), opp. <he>הִשִּׁיכוֹ בידו</he> he pasted it together with his hand. Ib. 58ᵇ bot., sq. <he>הנָ׳ תורה</he> the liability to T’rumah, Ḥallah &c. of joined lumps of dough is Biblical law. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:6:6\">Y. Kil. IX, end, 32ᵈ</cite> <he>אין אסור אלא נ׳ בלבד</he> the combination of heterogeneous materials (<cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>) is forbidden only when they are interlaced. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:6:6\">Ib.</cite> <he>וההן נו נ׳</he>, v. <cite ref=\"N00290\"><he>נוּ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"N01326\"><he>נֶשֶׁךְ</he></cite>) <i>to take interest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 5:1\">B. Mets. V, 1</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִישֵּׁךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01324\">same</cite>, <i>to bite</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 78:9\">Gen. R. s. 78</cite> <he>לנַשְּׁכוֹ</he> to bite him. Tanḥ. Vayishl. 4 <he>וינַשְּׁכֶנּוּ</he> and may bite him; a. e.—Part. pass. <he>מְנוּשָּׁךְ</he>. ",
+						"<cite ref=\"Tosefta Bava Kamma 3:6\">Tosef. B. Kam. III, 6</cite> <he>או מ׳</he> or he is found to have been bitten."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשִּׁיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to bite</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 9:1\">Snh. IX, 1</cite> <he>ה׳ בו וכ׳</he> he brought the serpent near him to bite him, contrad. to <cite ref=\"U01618\"><he>שיסה</he></cite> to set on. ",
+						"<cite ref=\"Sanhedrin 78a\">Ib. 78ᵃ</cite>; <cite ref=\"Bava Kamma 23b\">B. Kam. 23ᵇ</cite>, v. <cite ref=\"N00848\"><he>נָכַשׁ</he></cite>. Y. Yeb. VIII, 9ᵇ top [read:] <he>מביא נמלין ומַשִּׁיכָן וקוצץ</he> he gets ants and makes them bite (the open wound) and cuts their bodies off (and so the gap is filled), v. Bab. ",
+						"<cite ref=\"Yevamot 76a\">ib. 76ᵃ</cite>.—Trnsf. <i>to paste or press together</i>. Y. Ḥall. III, 59ᶜ top, v. <he>מביא ארבע רובעין ומַשִּׁיךְ</he> he takes four lumps of dough which joined contain four fourths of a Kab and presses them together into one lump; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to pay interest</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 70b:10\">B. Mets. 70ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 23:21\">Deut. XXIII, 21</cite>) <he>מאי תשיך לאו תִּשּׁוֹךְ לא תַּשִּׁיךְ</he> what is meant by <i>tashshikh?</i> Does it not mean thou mayest (or must) take interest? No, it means, thou mayest (or must) pay him interest."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

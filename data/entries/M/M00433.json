@@ -1,0 +1,24 @@
+{
+	"id": "M00433",
+	"slug": "מוהרין",
+	"headword": {
+		"text": "מוֹהֲרִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 739,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"M00432\">preced.</cite>) <i>exchange</i>, adaptation of a name of a <i>Persian festive season and fair</i> (cmp. <cite ref=\"A02928\"><he>אַקְנַיָּיתָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 11b:7\">Ab. Zar. 11ᵇ</cite> (Ms. M. <cite ref=\"M00432\"><he>מוֹהֲרָן</he></cite>; ed. Ven. a. oth. <he>מהורן</he>, v. Rabb. D. S. a. l. note); Y. ib. I, 39ᶜ <cite ref=\"M00834\"><he>מְחוֹרֵי</he></cite> a Babylonian season."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "C00746",
+	"slug": "גין-2",
+	"headword": {
+		"text": "גִּין",
+		"homograph": 1
+	},
+	"page": {
+		"number": 239,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"C00426\"><he>גּוּן</he></cite>), Af. <he>אָגֵין</he> (with <he>על</he>) <i>to cover, surround with; to protect</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:10\">Targ. Y. I Deut. XXXII, 10</cite> (<cite ref=\"Targum Jonathan on Deuteronomy 2\">II</cite> <he>אקיף</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 20:6\">Targ. II Kings XX, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 27:3\">Targ. Is. XXVII, 3</cite> <cite ref=\"M00160\"><he>מֵגִין</he></cite> (ed. Lag. <he>מגן</he>, v. <cite ref=\"C01151\"><he>גְּנַן</he></cite>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְּגֵין"],
+			"senses": [
+				{
+					"gloss": "<i>to be protected</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Zephaniah 2:3\">Targ. Zeph. II, 3</cite> (ed. Lag. <he>יתגן</he>). V. <cite ref=\"C01151\"><he>גְּנַן</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

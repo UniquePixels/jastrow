@@ -1,0 +1,32 @@
+{
+	"id": "J00331",
+	"slug": "יילא",
+	"headword": {
+		"text": "יָילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָלָא"
+		},
+		{
+			"text": "יָאלָא"
+		}
+	],
+	"page": {
+		"number": 576,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>hedge-hog</i>, believed to suck and injure the udders of cattle. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:30\">Targ. O. Lev. XI, 30</cite> <cite ref=\"J00366\"><he>יַלָא</he></cite> ed. Berl. (Var. <cite ref=\"J00366\"><he>יַלָּא</he></cite>, <cite ref=\"J00366\"><he>יָלָא</he></cite>; Y. <he>מינקת חויא</he>; h. text <cite ref=\"N00031\"><he>אנקה</he></cite>).—Pl. <he>יָילֵי</he> &c. ",
+				"<cite ref=\"Shabbat 54b:19\">Sabb. 54ᵇ</cite> <he>כי</he> … <he>לימצוה יי׳</he> Ar. (ed. <he>יָאלֵי</he>) to prevent hedge-hogs from sucking them. ",
+				"<cite ref=\"Bava Batra 4a:1\">B. Bath. 4ᵃ</cite> top Herod put around Baba’s head <he>כלילא דיי׳</he> (Ms. M. <he>דיא׳</he>, v. Rabb. S. a. l. note) a garland made of skins of hedge-hogs which pricked his eyes out."
+			]
+		}
+	]
+}

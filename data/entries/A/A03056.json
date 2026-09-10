@@ -1,0 +1,25 @@
+{
+	"id": "A03056",
+	"slug": "ארזין",
+	"headword": {
+		"text": "אֲרָזִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 117,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. plur. of <cite ref=\"A03048\"><he>אֶרֶז</he></cite>) <i>box, chest</i> (for collecting bones). ",
+			"units": [
+				"<cite ref=\"Tosefta Sanhedrin 9:8\">Tosef. Snh. IX, 8</cite> (ed. Zuck. <he>בארון</he>, Var. <he>בארזון</he>). ",
+				"<cite ref=\"Tractate Semachot 12:2\">Treat. S’maḥ. ch. XII</cite> <he>בגלוסקמא בא׳</he> (one word inserted by a glossator to explain the other). ",
+				"<cite ref=\"Tractate Semachot 12:2\">Ib.</cite> <he>בידין</he> (corr. acc.). [Tur Y. D. Abeluth 403: <he>ארזים</he>.]"
+			]
+		}
+	]
+}

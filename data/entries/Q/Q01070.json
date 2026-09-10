@@ -1,0 +1,40 @@
+{
+	"id": "Q01070",
+	"slug": "פלך-1",
+	"headword": {
+		"text": "פֶּלֶךְ"
+	},
+	"page": {
+		"number": 1182,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; פלך <i>to cut out, round</i>; cmp. <cite ref=\"Q00992\"><he>פֶּלַח</he></cite>) [<i>circle</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>district</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 21a:3\">B. Bath. 21ᵃ</cite> <he>התקינו … בכל פ׳ ופ׳</he> they ordained that teachers must be appointed, one for each district. ",
+				"<cite ref=\"Makkot 7a:8\">Macc. 7ᵃ</cite>. ",
+				"<cite ref=\"Makkot 12b:9\">Ib. 12ᵇ</cite> <he>בן לוי … גולה מפ׳ לפ׳ … לפִלְכוֹ פִּלְכוֹ קולט</he> a Levite (native of a place of refuge) who has killed a person accidentally flees from one district to another, but if he flees to his own native (juridical) district, his district protects him; <cite ref=\"Zevachim 117a\">Zeb. 117ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 323\">Yalk. Ex. 323</cite>; a. fr.—Pl. <he>פְּלָכִים</he>, <cite ref=\"Q01074\"><he>פְּלָכִין</he></cite>. ",
+				"<cite ref=\"Tosefta Bikkurim 2:8\">Tosef. Bicc. II, 8</cite> <he>לא … יחידים אלא פ׳ פ׳</he> they did not go up (to Jerusalem, with the first-fruits) singly, but by districts."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>ball of tow, wool</i> &c.,] <i>distaff</i> or <i>spindle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 9:4\">Keth. IX, 4</cite> (<cite ref=\"Ketubot 86b:11\">86ᵇ</cite>) <he>על פִּילְכָהּ ועל עיסתה</he> a husband may administer an oath to his wife on her distaff (on what she spins or weaves) and on her dough. ",
+				"<cite ref=\"Yoma 66b:12\">Yoma 66ᵇ</cite> (in answer to a woman’s question) <he>אין חכמה לאשה אלא בפ׳</he> there is no wisdom for woman except at the distaff. ",
+				"<cite ref=\"Bereishit Rabbah 56\">Gen. R. s. 56</cite>, end <he>לאשה שנתעשרה מפִּלְכָהּ … ומן הפ׳ הזה וכ׳</he> (Ar. <he>מפלחה … הפלח</he>) like a woman that became rich through her distaff (or spindle, spinning or weaving), and she says, since I have become rich through this distaff (spindle), it shall not part from &c.; a. fr.—Trnsf. <i>vocation, duty</i>. ",
+				"<cite ref=\"Bereishit Rabbah 71:5\">Gen. R. s. 71</cite>, v. <cite ref=\"E00203\"><he>הוֹדָאָה</he></cite>; <cite ref=\"Bereishit Rabbah 71:5\">ib.</cite> <he>רחל תפסה פ׳ שתיקה</he> Rachel made silence her duty (not to betray her sister when she was substituted for her); Midr. Sam. ch. XXVIII; a. e.—<he>מחזיק בפ׳</he> holding the distaff, <i>being like a woman, forced to stay home, lame</i>. Tanḥ. Masʿé 12 (expl. <he>מחזיק בפ׳</he>, <cite ref=\"II Samuel 3:29\">II Sam. III, 29</cite>, among the curses that fell back on the house of David) <he>שנעשה כאשה שאחזתו פודגרה</he> he (Asa) became like a woman, for podagra seized him; <cite ref=\"Sanhedrin 48b\">Snh. 48ᵇ</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 1:7:3\">Y. Kidd. I, 61ᵃ</cite> bot. <he>ומחזיק בפ׳ זה יואש</he> ‘and holding a distaff’, that means Joash (who was abused like a woman); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

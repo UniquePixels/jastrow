@@ -1,0 +1,53 @@
+{
+	"id": "S00146",
+	"slug": "קדיש",
+	"headword": {
+		"text": "קַדִּישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָדִישׁ"
+		},
+		{
+			"text": "קַדִּישָׁא",
+			"homograph": 1
+		},
+		{
+			"text": "קַדִּישָׁא"
+		},
+		{
+			"text": "קַדִּישְׁתָּא"
+		}
+	],
+	"page": {
+		"number": 1315,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S00119\"><he>קָדוֹשׁ</he></cite>, <i>holy, sacred, pure</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 16:5\">Targ. Num. XVI, 5</cite> (some ed. O. <cite ref=\"S00193\"><he>קַדֵּישׁ</he></cite>, <cite ref=\"S00194\"><he>קַדֵּשׁ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 1:4\">Targ. Is. I, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 57:15\">Ib. LVII, 15</cite>; a. fr.—[<cite ref=\"Targum Jonathan on Numbers 11:7\">Targ. Y. Num. XI, 7</cite>, read: <cite ref=\"S02083\"><he>קַרִישׁ</he></cite>.]—",
+				"<cite ref=\"Midrash Tehillim 109:8\">Midr. Till. to Ps. CXVIII, 8</cite>, v. <cite ref=\"P00673\"><he>עִיר</he> I</cite>. ",
+				"<cite ref=\"Megillah 27b:2-3\">Meg. 27ᵇ</cite> <he>מעיר … מעיקרא ק׳ השתא נמי ק׳</he> if you sell a sacred object to be taken from a large town to a small place, it was sacred (used for public services) before, and is so now. ",
+				"<cite ref=\"Berakhot 9b:16\">Ber. 9ᵇ</cite> <he>העיד</he> … <he>משום קהלא ק׳ וכ׳</he> R. J. … declared in behalf of the holy congregation of Jerusalem; a. fr.—",
+				"<cite ref=\"Sanhedrin 109b:16\">Snh. 109ᵇ</cite> v. infra.—Pl. <he>קַדִּישִׁין</he>, <cite ref=\"S00146\"><he>קַדִּישַׁיָּא</he></cite>, <he>קַדִּישֵׁי</he>; <cite ref=\"S00146\"><he>קַדִּישָּׁתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 16:3\">Targ. Num. XVI, 3</cite>; a. fr.—Snh. l. c. <he>ירענא דכולהו כנישתא קדישי נינהו</he> Ms. M. (ed. <cite ref=\"S00146\"><he>קדישתא</he></cite>, v. Rabb. D. S. a. l. note) I know that the whole congregation are holy. ",
+				"<cite ref=\"Pesachim 113b:1\">Pes. 113ᵇ</cite> <he>בחייהן דרבנן ק׳ וכ׳</he> Ms. M. by the life of the holy (revered) Rabbis in the land of Israel (v. <cite ref=\"S00123\"><he>קְדוּשָּׁה</he></cite> end); a. e.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"S00146\"><he>קַדִּישׁ</he></cite>, <cite ref=\"S00146\"><he>קַדִּישָׁא</he></cite> <i>Ḳaddish</i>, the doxology beginning with <he>יתגדל ויתקדש וכ׳</he> magnified and sanctified be his great name. ",
+			"units": [
+				"<cite ref=\"Tractate Soferim 10:7\">Treat. Sof’rim X, 7</cite>; a. e.]"
+			],
+			"label": "2"
+		}
+	]
+}

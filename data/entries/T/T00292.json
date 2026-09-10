@@ -1,0 +1,24 @@
+{
+	"id": "T00292",
+	"slug": "רואה-1",
+	"headword": {
+		"text": "רוֹאֶה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1454,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00011\"><he>רָאָה</he></cite>) = <cite ref=\"T00012\"><he>רֳאִי</he></cite>, <i>sight, view</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 14:6\">Zeb. XIV, 6</cite> <he>בכל הר׳</he> were permitted to be eaten within the entire range of sight (around Shiloh); (<cite ref=\"Yalkut Shimoni on Torah 881:7\">Yalk. Deut. 881</cite> <he>בכל מקום שאתה רואה</he>); <cite ref=\"Bamidbar Rabbah 14:12\">Num. R. s. 14<sup>7</sup></cite>. ",
+				"<cite ref=\"Zevachim 118b:5\">Zeb. 118ᵇ</cite> <he>ר׳ שאמרו ר׳ כולו וכ׳</he> the range of sight of which they speak means a spot from where you can overlook the entire place with nothing to intercept &c.; <he>לא ר׳ כולו אלא ר׳ מקצתו</he> by <i>roëh</i> is meant the view not only of the entire place but also of a part of it."
+			]
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"id": "J00511",
+	"slug": "יפע-1",
+	"headword": {
+		"text": "יָפַע"
+	},
+	"page": {
+		"number": 586,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"J00500\"><he>יָפֶה</he></cite>)",
+			"units": []
+		},
+		{
+			"gloss": "<i>to join, arrive</i> (cmp. <cite ref=\"A03396\"><he>אָתָא</he></cite>), <i>to come forth, appear</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12:4\">Gen. R. s. 12</cite> <he>כל א׳ וא׳ ה׳ בזמנו</he> each (part of creation) came forth in its due time (though all were created at once)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bring, transfer</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 38a\">B. Kam. 38ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 33:2\">Deut. XXXIII, 2</cite>) <he>מפארן ה׳ ממונם וכ׳</he> from (what occurred at) Paran (the gentiles refusing to receive the Law) he (the Lord) transferred their wealth to Israel."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to bring about, bring to light, reveal</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 90\">Gen. R. s. 90</cite>; <cite ref=\"Yalkut Shimoni on Torah 148:2\">Yalk. ib. 148</cite> (play on <he>צ̇פ̇נ̇ת̇ פ̇ע̇נ̇ח̇</he>) <he>צפ̇ונ̇ות̇ הופ̇יע̇ ונ̇ח̇ות וכ׳</he> he reveals secrets, and it is easy to him to tell them; <he>צ̇פ̇ונ̇ות̇ הופיע̇ בדעת מנ̇יח̇ וכ׳</he> he brings secret things to light through his intelligence; with them he sets mankind at ease. ",
+				"<cite ref=\"Makkot 23b\">Macc. 23ᵇ</cite>; <cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite> <he>בג׳ מקומות ה׳ רוה״ק</he> on three occasions did the holy spirit reveal (the true state of affairs); (oth. opin. v. <cite ref=\"Q00296\"><he>פּוּעַ</he></cite>). ",
+				"<cite ref=\"Kohelet Rabbah 7:1:3\">Koh. R. to VII, 1</cite> (play on <cite ref=\"Q00298\"><he>פועה</he></cite>, <cite ref=\"Exodus 1:15\">Ex. I, 15</cite>) <he>שהוֹפִיעָה את מעשה אחיה</he> she (Miriam) brought about what happened to her brother (she was the cause of Moses’ peculiar career)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to lift up, raise</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1:13\">Ex. R. s. 1</cite> (play on <cite ref=\"Q00298\"><he>פועה</he></cite>, v. supra) <he>שהופיעה את ישראל וכ׳</he> she (Miriam) lifted Israel up to God.—ה׳ פנים כנגד <i>to lift one’s face up against, to have the courage to rebuke</i>. ",
+				"<cite ref=\"Shemot Rabbah 1\">Ib.</cite> <he>שהופיעה פ׳ … וזקפה וכ׳</he> she lifted her face up against Pharaoh and turned her nose up against him (in angry rebuke). ",
+				"<cite ref=\"Shemot Rabbah 1\">Ib.</cite> <he>שה׳ פ׳ כנגד אביה</he> she dared to reprove her father. Y. B. Kam. IV, 4ᵇ top."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הוֹפִיעַ</he> ",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

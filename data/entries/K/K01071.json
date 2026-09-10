@@ -1,0 +1,41 @@
+{
+	"id": "K01071",
+	"slug": "כר-1",
+	"headword": {
+		"text": "כַּר"
+	},
+	"page": {
+		"number": 663,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01272\"><he>כרר</he></cite> , v. <cite ref=\"K01095\"><he>כָּרָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bolster, mattress</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 10:2\">Mikv. X, 2</cite>. ",
+				"<cite ref=\"Mishnah Kelim 26:5\">Kel. XXVI, 5</cite>, v. <cite ref=\"K00961\"><he>כֶּסֶת</he></cite>; a. fr.—Pl. <cite ref=\"K01168\"><he>כָּרִים</he></cite>. ",
+				"<cite ref=\"Mishnah Kilayim 9:2\">Kil. IX, 2</cite>; a. fr.—",
+				"<cite ref=\"Megillah 12a:12\">Meg. 12ᵃ</cite> (expl. <cite ref=\"K01263\"><he>כרפס</he></cite>, <cite ref=\"Esther 1:6\">Esth. I, 6</cite>) <he>כ׳ של פסים</he> mattresses of striped goods."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rounded</i>; (cmp. <cite ref=\"K00083\"><he>כֶּבֶשׂ</he></cite>) <i>fat lamb</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 66b:11\">Men. 66ᵇ</cite>, a. e., v. <cite ref=\"K01233\"><he>כַּרְמֶל</he></cite>.—",
+				"<cite ref=\"Esther Rabbah 4:2\">Esth. R. to I, 14</cite> (play on <he>כ̇ר̇ש̇נ̇א</he>) <he>מי … כ̇ר̇ בן ש̇נ̇ה</he> (not <cite ref=\"Q01526\"><he>פר</he></cite>) who offers unto thee a lamb one year old?—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Megillah 12b:5\">Meg. 12ᵇ</cite> <he>כ׳ בני שנה</he>; <cite ref=\"Yalkut Shimoni on Nach 1051:8\">Yalk. Esth. 1051</cite> <he>פרים</he> (corr. acc.). [<cite ref=\"Jerusalem Talmud Shabbat 5:2:3\">Y. Sabb. V, 7ᵇ</cite> bot. <he>כ׳ יוצאין לבובין</he> ed. Krot., read: <he>זכרים</he>.]—Trnsf. <i>commander</i>.—Pl. as ab. ",
+				"<cite ref=\"Kohelet Rabbah 12:7:1\">Koh. R. to XII, 7</cite>, a. e., v. <cite ref=\"K00746\"><he>כלירכין</he></cite>.—4) <i>runner, roller</i>.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Bereishit Rabbah 69:8\">Gen. R. s. 69</cite> <he>מעבירין כ׳ עליהם</he> pass the paving rollers over them; (<cite ref=\"Bereishit Rabbah 69:8\">ib.</cite> s. 41 <cite ref=\"T00253\"><he>רדיה</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 337:3\">Yalk. Is. 337</cite> <he>דדין</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

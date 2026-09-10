@@ -1,0 +1,22 @@
+{
+	"id": "M01429",
+	"slug": "מכסנא",
+	"headword": {
+		"text": "מַכְסָנָא"
+	},
+	"page": {
+		"number": 784,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00946\"><he>כְּסַן</he></cite>) <i>chastiser</i>.—Pl. <he>מַכְסָנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 24:25\">Targ. Prov. XXIV, 25</cite> (ed. Lag. <cite ref=\"M00041\"><he>מאכסני</he></cite>, Ms. <cite ref=\"M01422\"><he>מכסאני</he></cite>)."
+			]
+		}
+	]
+}

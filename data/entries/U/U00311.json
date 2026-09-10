@@ -1,0 +1,71 @@
+{
+	"id": "U00311",
+	"slug": "שוב-1",
+	"headword": {
+		"text": "שׁוּב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1528,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to go back, come back</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 10b:12\">Sot. 10ᵇ</cite> <he>כל עובר ושָׁב</he> every passer-by (in going or coming back). ",
+				"<cite ref=\"Bereishit Rabbah 48:16\">Gen. R. s. 48</cite>, a. fr. <he>העוברים והשָׁבִים</he> the travellers. ",
+				"<cite ref=\"Vayikra Rabbah 23:3\">Lev. R. s. 23</cite> <he>ושָׁבַת נפשו עליו</he> (not <cite ref=\"P00794\"><he>עליה</he></cite>) and his soul came back (was restored) to him, i.e. he was reconciled; a. fr.—Esp. <i>to return</i> (<i>to God</i>)<i>; to repent</i>. ",
+				"<cite ref=\"Bava Batra 110a:6\">B. Bath. 110ᵃ</cite> (play on <he>ש̇ב̇א̇ל̇</he> <cite ref=\"I Chronicles 26:24\">I Chr. XXVI, 24</cite>) <he>שש̇ב̇ לא̇ל̇ בכל לבו</he> he returned to God with all his heart. ",
+				"<cite ref=\"Horayot 2a:16\">Hor. 2ᵃ</cite> (ref. to <cite ref=\"Leviticus 4:22\">Lev. IV, 22</cite>, sq.) <he>השב … לא שב וכ׳</he> he who repents when he finds out (his wrong) brings a sacrifice for his error; if he does not repent, he is not permitted to sacrifice. ",
+				"<cite ref=\"Pirkei Avot 2:10\">Ab. II, 10</cite> <he>ושׁוּב יום וכ׳</he> repent one day before thy death. ",
+				"<cite ref=\"Shemot Rabbah 42:6\">Ex. R. s. 42</cite> <he>לעולם מקבלים השבים</he> repentant sinners are accepted at all times; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵשִׁיב"],
+			"senses": [
+				{
+					"gloss": "<i>to bring back, return, restore</i>. Y. Yoma VIII, 45ᵃ bot. <he>החומץ מֵשִׁיב את הנפש</he> vinegar restores life, is a refreshing drink. ",
+					"units": [
+						"<cite ref=\"Gittin 51b\">Gitt. 51ᵇ</cite>, a. e. <he>אינו אלא כמשיב … ופטור</he> he is in that case like one who restores a lost object, and therefore is not bound to make oath. ",
+						"<cite ref=\"Gittin 51b:3\">Ib.</cite> <he>לית ליה משיב … פטור</he> he is not of the opinion that he who restores a lost object is exempt from making oath; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to reply; to refute</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 2:14\">Ab. II, 14</cite> <he>ורע מה שתָּשִׁיב וכ׳</he> that you may know how to answer the sceptic. Y. Gitt. IX, beg. 50ᵃ <he>נכנסו … להָשִׁיב על דבריו וכ׳</he> four elders met to refute R. Eliezer’s words; Bab. ",
+						"<cite ref=\"Gittin 83a\">Gitt. 83ᵃ</cite>; Tosef. ib. IX (VII), 1. Y. l. c. <he>אין אתם מְשִׁיבִים את הארי וכ׳</he> are you not going to refute the lion after he is dead?; Bab. ib. l. c. <he>אין מְשִׁיבִין וכ׳</he> you dare not refute &c. Y. l. c. <he>ה׳ ר׳ טרפון</he> R. T. argued &c. (Bab. l. c. <he>נענה</he>; Tosef. l. c. <cite ref=\"A02060\"><he>אמר</he></cite>). ",
+						"<cite ref=\"Shabbat 88b:2\">Sabb. 88ᵇ</cite> <he>שומעין … משיבין</he>, v. <cite ref=\"H01743\"><he>חֶרְפָּה</he></cite>. ",
+						"<cite ref=\"Bava Kamma 63b\">B. Kam. 63ᵇ</cite>, a. e. <he>אין משיבין על הקישא</he> you must not argue against a conclusion from analogy. ",
+						"<cite ref=\"Mishnah Avodah Zarah 3:4\">Ab. Zar. III, 4</cite> <he>אין משיבין במרחץ</he> we must not answer (a religious question) in the bath-house. ",
+						"<cite ref=\"Moed Katan 21b:4\">M. Kat. 21ᵇ</cite> <he>מֵשִׁיב ואינו שואל</he> the mourner may answer (a salutation), but must not salute; <he>שואל ומשיב כדרכו</he> he may salute and answer as usual; a. fr.—[Y. Gitt. VIII, 49ᶜ top, in Chald. dict. <he>משיב</he>, v. <cite ref=\"V00142\"><he>תּוּב</he> I</cite>.]"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to go back with a message</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 15a\">Meg. 15ᵃ</cite>; <cite ref=\"Avodah Zarah 10b:6\">Ab. Zar. 10ᵇ</cite> <he>אין משיבין על הקלקלה</he> you need not go back (to him that sent you) to bring bad news."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּשָׁב"],
+			"senses": [
+				{
+					"gloss": "<i>to be replied; to refer</i>. Y. B. Kam. II, 3ᵃ top <he>על הראשונה הוּשָׁבָה</he> the modification in the Mishnah (<he>במה דברים אמורים</he>) refers to the first clause only; <he>על כולה הושבה</he> it refers to the whole paragraph. Y. Bicc. II, 65ᵃ top; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

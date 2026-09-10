@@ -1,0 +1,46 @@
+{
+	"id": "T00550",
+	"slug": "רטב-2",
+	"headword": {
+		"text": "רְטַב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1470,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00549\">same</cite>; v. <cite ref=\"T00561\"><he>רַטִּיב</he></cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְטִב"],
+			"senses": [
+				{
+					"gloss": "<i>to moisten, give sap to</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:23\">Targ. Y. Deut. XXVIII, 23</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִרְטִיב", "אִירְטַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be green, moist</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Exodus 3:2\">Targ. Y. II, Ex. III, 2</cite> <he>מִרְטִיב</he> (some ed. <he>מֵרְ׳</he>). ",
+						"<cite ref=\"Targum Jerusalem, Exodus 3:3\">Ib. 3</cite> (ed. Vien. <he>מַרְטִיב</he> <i>Af.</i>).—",
+						"<cite ref=\"Sukkah 53b:2\">Succ. 53ᵇ</cite> <he>כמה דמידלי טפי מִירְטַב עלמא</he> (differ. in Ms. M., v. Rabb. D. S. a. l. note) the higher the waters of the deep rise, the more is vegetation moistened."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

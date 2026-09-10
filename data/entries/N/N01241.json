@@ -1,0 +1,63 @@
+{
+	"id": "N01241",
+	"slug": "נקר-1",
+	"headword": {
+		"text": "נָקַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 935,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"S02193\"><he>קָרַר</he> I</cite>)<i>to dig, chisel</i>, esp. <i>to whet a millstone</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 10a:16\">M. Kat. 10ᵃ</cite> <he>נוֹקְרִין ריחים וכ׳</he> you may roughen a millstone during the festive week. ",
+				"<cite ref=\"Sotah 46b:5\">Sot. 46ᵇ</cite> <he>ולִנְקוֹר</he>, v. infra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bore, perforate; to put out</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 130a:16\">Sabb. 130ᵃ</cite> <he>יִקְּרוּ את מוחו</he> they shall perforate (or put out) his brain. ",
+				"<cite ref=\"Mishnah Sotah 1:8\">Sot. I, 8</cite> <he>נָקְרוּ פלשתים וכ׳</he> (or <he>נִקְּרוּ</he>) the Philistines put out his eyes; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (of birds, mice, serpents &c.) <i>to pick, gnaw at</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 7:17\">Tosef. Ter. VII, 17</cite>. Y. ib. III, beg. 42ᵃ <he>בשראו אותו נוֹקֵר</he> when they saw the bird pick; a. fr.—[<cite ref=\"Jerusalem Talmud Yevamot 10:3:5\">Y. Yeb. X, 11ᵃ</cite> top <he>לבי נוקריני</he>, v. <cite ref=\"N01162\"><he>נָקַד</he> I</cite>.]—Part. pass. <cite ref=\"N01185\"><he>נָקוּר</he></cite>; pl. <cite ref=\"N00972\"><he>נְקוּרִים</he></cite>, <he>נְקוּרִין</he>. Y. Ter. l. c. Tosef. l. c. <he>שמא נ׳ היו</he> may be they were already picked at (by birds); a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיקֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01240\">same</cite>. M. Kat. l. c. <he>מְנַקֵּר ריחים</he>, v. supra. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 9:5\">Sot. IX, 5</cite> <he>ולנַקֵּר שם וכ׳</he> (<cite ref=\"Sotah 46b:5\">ib. 46ᵇ</cite> <he>ולנקור</he>) and to chisel stones there.—",
+						"<cite ref=\"Pesachim 8b:7\">Pes. 8ᵇ</cite> <he>תרנגולתך מְנַקֶּרֶת וכ׳</he> (not <he>מנקר</he>) thy hen shall be picking in the dunghill &c. ",
+						"<cite ref=\"Mishnah Tahorot 4:3\">Toh. IV, 3</cite> <he>היו מְנַקְּרִין בהן וכ׳</he> if they have been picking them (the pieces of carrion) on the ground; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִיקַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be picked at</i>. Y. Ter. VIII, 45ᶜ top <he>תאנים שנִיקְּרוּ …</he> figs or grapes which have been picked at.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

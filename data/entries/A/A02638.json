@@ -1,0 +1,31 @@
+{
+	"id": "A02638",
+	"slug": "אפופסין",
+	"headword": {
+		"text": "אַפּוֹפְסִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפּוֹפְסִיס"
+		}
+	],
+	"page": {
+		"number": 101,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀπόφασις, ἀπόφανσις) <i>verdict, dispensation</i>. [Variously corrupted: <cite ref=\"A01545\"><he>איפופסין</he></cite>, <he>איפוספ׳</he>, <he>איפרפס</he> &c.] Y’lamd. to Gen. III, 1 quot. in Ar. (ref. to <cite ref=\"Proverbs 18:7\">Prov. XVIII, 7</cite>) the fools give out <he>האפופסין שלהן</he> their own verdict. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 44:1\">Pesik. R. s. 44</cite> <cite ref=\"A01474\"><he>איספוסין</he></cite>, <cite ref=\"A02633\"><he>אפוספיס</he></cite> (corr. acc.). ",
+				"<cite ref=\"Pesikta Rabbati 46:1\">Pesik. R. s. 46</cite> (ed. Fr. p. 187ᵇ) <he>ניתן פאופרי</he> read <he>נטל א׳</he> he received his verdict (of expulsion from Eden). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:5:2\">Y. Sot. VII, 21ᵈ</cite> bot.; Y. R. Hash. I, 57ᵃ bot. <he>איפ׳</he>; a. fr. [Tanḥ. Sh’moth 13 <he>שנטלו אפופסים</he>, read <cite ref=\"A02619\"><he>אַפּוּכִי</he></cite>.]—",
+				"<cite ref=\"Midrash Tehillim 17\">Midr. Till. to Ps. XVII</cite>; <cite ref=\"Yalkut Shimoni on Nach 670\">Yalk. Ps. 670</cite> two curiosi (v. <cite ref=\"E00660\"><he>הנדיוסין</he></cite>) <he>רצין בהפרכוס</he> (<he>באין באיפרפוס</he>) (read <he>באפופסיס</he>) run (come) each with a verdict; v. <cite ref=\"B00023\"><he>בָּאיָין</he></cite>.—",
+				"<cite ref=\"Vayikra Rabbah 21\">Lev. R. s. 21</cite>, beg. <he>אפופסיות</he> Ar., read with ed. <cite ref=\"A02638\"><he>אפופסיס</he></cite>."
+			]
+		}
+	]
+}

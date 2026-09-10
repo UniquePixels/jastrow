@@ -1,0 +1,26 @@
+{
+	"id": "A03000",
+	"slug": "ארדא-1",
+	"headword": {
+		"text": "אַרְדָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 115,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Syr. <he>ערדא</he>, v. Löw Pfl. p. 303) <i>mushroom, morel</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 61a\">Keth. 61ᵃ</cite> Ar. (ed. <he>אַרְדֵּי</he> pl.)—Pl. <cite ref=\"A00853\"><he>אַרְדַּיָּא</he></cite>, <he>אַרְדֵּי</he>. ",
+				"<cite ref=\"Pesachim 119b\">Pes. 119ᵇ</cite> <he>ארדיא לי</he> Ar. (ed. <cite ref=\"A03007\"><he>אַרְדְּלַיָּיא</he></cite>, <he>אַרְדִּילַיָּא</he>, <cite ref=\"A00854\"><he>אוּרְדִּילָאֵי</he></cite>, Ms. <cite ref=\"A03005\"><he>אַרְדִּילֵי</he></cite>, v. Rabb. D. S. a. l. note); Y. ib. X, end, 37ᵈ <cite ref=\"P01298\"><he>ערדילו</he></cite> (read <cite ref=\"P01299\"><he>עַרְדִּילֵי</he></cite> or <he>עַרְדֵּי לִי</he>). ",
+				"<cite ref=\"Berakhot 47a:12\">Ber. 47ᵃ</cite> <he>ארדיא</he> Ar. (ed. a. Ms. <he>אַרְדִּילַיָּא</he>). ",
+				"<cite ref=\"Avodah Zarah 38a\">Ab. Zar. 38ᵃ</cite> <he>ארדי</he>."
+			]
+		}
+	]
+}

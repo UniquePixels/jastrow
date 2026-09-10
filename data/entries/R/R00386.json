@@ -1,0 +1,24 @@
+{
+	"id": "R00386",
+	"slug": "צינא-1",
+	"headword": {
+		"text": "צִינָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1277,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"R00387\">next w.</cite>) <i>basket</i> (<i>of palm leaves</i>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:25\">Targ. Y. Deut. XXIII, 25</cite> <he>צִינָּךְ</he> (ed. Vien. <he>צְנָךְ</he>).—Pl. <he>צִינַּיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 26:3\">Ib. XXVI, 3</cite> (Bxt. <cite ref=\"R00399\"><he>צְנַ׳</he></cite>).—V. <cite ref=\"R00605\"><he>צַנָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "A02668",
+	"slug": "אפי-3",
+	"headword": {
+		"text": "אָפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲפָא"
+		},
+		{
+			"text": "אֲפָה"
+		}
+	],
+	"page": {
+		"number": 102,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A02667\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:3\">Targ. Gen. XIX, 3</cite>; a. fr.—",
+				"<cite ref=\"Menachot 94a:15\">Men. 94ᵃ</cite> <he>כיון דא׳ לה</he> after he baked it. ",
+				"<cite ref=\"Shabbat 63b:2\">Sabb. 63ᵇ</cite> <he>למֵיפָא</he> to bake.—<he>אָפָן</he>, <he>אָפְיָיתָא</he> <i>baking women, bakers</i>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 8:13\">Targ. I Sam. VIII, 13</cite>.—",
+				"<cite ref=\"Berakhot 58b\">Ber. 58ᵇ</cite> <he>שתין א׳</he> sixty bakers.—",
+				"<cite ref=\"Berakhot 58b:3\">Ib.</cite> <he>ואפיין</he> and they used to bake. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 4:5:3\">Y. Bets. IV, 62ᶜ</cite> bot. <he>אתת מופה</he> (read <he>מֵיפָה</he>) she came in order to bake; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְאָפֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be baked</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 6:10\">Targ. Lev. VI, 10</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

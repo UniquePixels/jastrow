@@ -1,0 +1,79 @@
+{
+	"id": "S01356",
+	"slug": "קלל-4",
+	"headword": {
+		"text": "קְלַל"
+	},
+	"page": {
+		"number": 1377,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01355\">same</cite><i>to be light; to be of light esteem</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 16:4\">Targ. O. Gen. XVI, 4</cite>, sq."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be reduced</i>. Ib. VIII, 8; 11 <he>קַלּוּ</he> ed. Berl. (ed. Vien. <cite ref=\"S01337\"><he>קַלִּיאוּ</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְקוֹלָל"],
+			"senses": [
+				{
+					"gloss": "<i>to be reduced</i>. Targ. Y. ib.",
+					"units": []
+				}
+			],
+			"stem": "Ithpol."
+		},
+		{
+			"forms": ["קַלֵּיל"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"S01335\"><he>קַלִּיל</he></cite>) <i>to be quick, to pass swiftly</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 7:6\">Targ. Job VII, 6</cite>; <cite ref=\"Aramaic Targum to Job 9:25\">IX, 25</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make light</i>; trnsf. <i>to ease, relieve</i>. Pesik. B’shall., p. 93ᵃ <he>קַלֵּיל גרמך וכ׳</he> make thyself light of weight, or I will throw thee off.—Y. Kidd. II, 62ᵈ bot. <he>הוון מחמרין וק׳ עליהון</he> they were strict in their practice, and he lightened their burden (allowed them what they considered forbidden). Y. M. Kat. III, 82ᵃ <he>הן דהוינן סברין דו מְקַלְּלָה חמר</he> he whom we thought to be lenient made it stricter; a. e.—[<cite ref=\"Yalkut Shimoni on Torah 133:15\">Yalk. Gen. 133</cite> <he>ומקללה בשוק</he>, v. <cite ref=\"S01410\"><he>קְלַק</he></cite>.]",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקֵּיל", "אָקֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to disregard, dishonor</i>; also <i>to curse</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 22:27\">Targ. Ex. XXII, 27</cite> (v. <cite ref=\"S00951\"><he>קִיל</he> II</cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 55:13\">Targ. Ps. LV, 13</cite> (h. text <he>חרף</he>); a. e.—Y. Bicc. III, 65ᵈ top <he>ר׳ מני מֵיקיל לאילין וכ׳</he> R. M. spoke with disrespect of those that get appointments to office for money; Midr. Sam. ch. VII <he>ר׳ אמי הוה מֵקֵיל</he> (or <cite ref=\"M02422\"><he>מַקֵּיל</he></cite>). Y. Dem. I, 22ᵃ top, v. <cite ref=\"S00951\"><he>קִיל</he> II</cite>. Y. Peah VIII, 21ᵃ <he>אַקְלוּנָךְ</he> they cursed thee; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to relieve, to favor the more lenient rule</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 18:22\">Targ. Ex. XVIII, 22</cite> (some ed. O. <he>וְיִקְלוּן</he>, read <he>וְיַ׳</he>). ",
+						"<cite ref=\"Targum Jonathan on I Kings 12:4\">Targ. I Kings XII, 4</cite>; <cite ref=\"Targum Jonathan on I Kings 12:9\">9</cite>.—",
+						"<cite ref=\"Eruvin 46a:20\">Erub. 46ᵃ</cite> <he>באבילות הוא דאַקִּילוּ וכ׳</he> (or <he>דַּאֲקִילוּ</he>) only as to mourning ceremonies the Rabbis adopt the more lenient rules. ",
+						"<cite ref=\"Yevamot 88a:10\">Yeb. 88ᵃ</cite> <he>ולא לֵיקֵיל</he>, or <cite ref=\"H01224\"><he>חֲמַר</he> I</cite>; a. fr.—V. <cite ref=\"S01416\"><he>קַלְקֵל</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

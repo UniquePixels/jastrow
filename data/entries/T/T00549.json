@@ -1,0 +1,54 @@
+{
+	"id": "T00549",
+	"slug": "רטב-1",
+	"headword": {
+		"text": "רָטַב"
+	},
+	"page": {
+		"number": 1470,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to drip, be moist, juicy, green</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to moisten, v</i>. <cite ref=\"T00553\"><he>רָטָה</he></cite>.—Part. pass. <cite ref=\"T00554\"><he>רָטוּב</he></cite> (b. h. <cite ref=\"T00550\"><he>רָטֹב</he></cite>); f. <he>רְטוּבָה</he>; pl. <he>רְטוּבִים</he>, <he>רְטוּבִין</he>; <he>רְטוּבוֹת</he> (interch. with <cite ref=\"T00354\"><he>רוֹטֵב</he></cite> &c.). ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 6:6\">Koh. R. to VI, 6</cite>; <cite ref=\"Vayikra Rabbah 4:2\">Lev. R. s. 4</cite>, v. <cite ref=\"O00658\"><he>סִילּוֹן</he> I</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 3:1\">Num. R. s. 3</cite>, beg. <he>תמרים רטובים</he> (some ed. <he>רוֹטְבִין</he>) juicy (good) dates, opp. <he>נובלות</he>; <cite ref=\"Midrash Tehillim 92:8\">Midr. Till. to Ps. XCII, 13</cite>. ",
+				"<cite ref=\"Mishnah Tevul Yom 3:6\">T’bul Yom III, 6</cite> <he>תמרים רטובות</he> (Ar. ed. pr. <he>רוֹטְבוֹת</he>); a. fr.—[<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10<sup>21</sup></cite> <he>ונוטל את הרטוב</he> some ed., read: <he>הרוֹטֶב</he>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְטִיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00548\">same</cite>, <i>to be green, succulent; to thrive</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 23:6\">Lev. R. s. 23</cite> <he>וישראל מַרְטִיבִין והולכים</he> and Israel shall thrive more and more; <cite ref=\"Shir HaShirim Rabbah 2:2\">Cant. R. to II, 2</cite>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:2\">Ib.</cite> <he>כשושנת … שמַרְטֶבֶת והולכת</he> like the lily of the valleys, which is continually green; a. e.—ה׳ מעשים טובים <i>to be succulent with good deeds</i>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1\">Ib. 1</cite> <he>הִרְטַבְתִּי מ׳ ט׳ כשושנה</he> I became filled with the sap of good deeds like the lily; <cite ref=\"Midrash Tehillim 1:17\">Midr. Till. to Ps. I, 3</cite> <he>ה׳ במעשים וכ׳</he>. ",
+						"<cite ref=\"Bereishit Rabbah 81\">Gen. R. s. 81</cite>, end (ref. to <cite ref=\"L00227\"><he>לוז</he></cite>, <cite ref=\"Genesis 35:6\">Gen. XXXV, 6</cite>) <he>כל מי … ה׳ מצות ומ׳ ט׳ כלוז</he> whosoever entered it became filled with pious acts and good deeds like a nut-tree; (<cite ref=\"Genesis 35:6\">ib.</cite> s. 69, a. e. <cite ref=\"I00859\"><he>הטריף</he></cite>, v. <cite ref=\"I00859\"><he>טָרַף</he></cite>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cover with green foliage, to improvise a cover with foliage</i>. Ib. s. 68 <he>מה רטיבה ה׳ וכ׳</he> what was the cover which he (Jacob) prepared? ‘The beams of our house are cedars’ (<cite ref=\"Song of Songs 1:17\">Cant. I, 17</cite>); <cite ref=\"Shir HaShirim Rabbah 1:17\">Cant. R. to I, 17</cite> <he>ומה הרטבה ה׳ מהן</he> (strike out <cite ref=\"M00375\"><he>מהן</he></cite>); (<cite ref=\"Yalkut Shimoni on Torah 119:1\">Yalk. Gen. 119</cite> <he>ומה טריפה הטריף</he>, Var. <he>רטיבה ה׳</he>, v. <cite ref=\"I00859\"><he>טָרַף</he></cite>).—[<cite ref=\"Shir HaShirim Rabbah 6:10:1\">Cant. R. to VI, 10</cite> <he>מרטבת</he>, v. <cite ref=\"U00068\"><he>שָׁבַה</he></cite> <i>Hithpa.</i>]",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

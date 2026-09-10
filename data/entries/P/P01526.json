@@ -1,0 +1,32 @@
+{
+	"id": "P01526",
+	"slug": "עתד-1",
+	"headword": {
+		"text": "עָתַד"
+	},
+	"page": {
+		"number": 1128,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to endure, stand, be ready</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִתֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to make ready, designate</i>.—Part. pass. <cite ref=\"M02082\"><he>מְעוּתָּד</he></cite>, pl. <he>מְעוּתָּדִים</he>, <he>מְעוּתָּדִין</he>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 18:21\">Num. R. s. 18</cite> (ref. to <cite ref=\"Job 15:28\">Job XV, 28</cite>) <he>ולמי הן מע׳ וכ׳</he> and for whom were they (the treasures) designated? For those who were to emigrate (from Egypt) &c. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 264:1\">Yalk. Ex. 264</cite>; Mekh. B’shall., ʿĂmal., s. 1 (ref. to <he>נצב</he>, <cite ref=\"Exodus 17:9\">Ex. XVII, 9</cite>) <he>מחר נהא מעו׳ ועומדים וכ׳</he> (not <he>מעתד׳</he>) to-morrow let us be ready (for battle), and stand on the top of the hill; <he>נגזור תענית ונהא מעו׳ על מעשה אבות</he> let us appoint a fast and be ready (for prayer and meditation) on the merits of the fathers."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

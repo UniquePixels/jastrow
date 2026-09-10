@@ -1,0 +1,27 @@
+{
+	"id": "M00498",
+	"slug": "מוליאר",
+	"headword": {
+		"text": "מוּלְיָאר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוּלְיָיר"
+		}
+	],
+	"page": {
+		"number": 742,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (miliarium, μιλιάριον) <i>a large vessel to boil water in, caldron</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 3:4\">Sabb. III, 4</cite> <he>מ׳ הגרוף</he> <i>a miliarium</i> from under which the coals have been removed; Y. ib. III, 6ᵃ bot."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "K01320",
+	"slug": "כשף-4",
+	"headword": {
+		"text": "כְּשָׁף",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 677,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (supposed to mean) <i>wild plum-tree</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 23a\">Sabb. 23ᵃ</cite> <he>שרף כ׳ וכ׳</he> Ms. M. a. Ar.; copyist’s correction in Ms. M. <he>כטף</he>; ed. <cite ref=\"S00811\"><he>קטף</he></cite>) resin of the plum-tree is the best for making ink."
+			]
+		}
+	]
+}

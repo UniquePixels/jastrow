@@ -1,0 +1,27 @@
+{
+	"id": "E00815",
+	"slug": "הרגוז",
+	"headword": {
+		"text": "הַרְגּוֹז"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַרְגֵּיז"
+		}
+	],
+	"page": {
+		"number": 365,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. = <cite ref=\"A02984\"><he>אַרְגָּז</he></cite> q. v.) euphem. for <i>buttocks</i> (or <i>testicles</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:6\">Bekh. VI, 6</cite> <he>הַרְגִּיזוֹ</he> Maim., Ar. Var. <cite ref=\"E00815\"><he>הַרְגּוֹזוֹ</he></cite>, ed. <cite ref=\"A01672\"><he>אָכוּז</he></cite> q. v."
+			]
+		}
+	]
+}

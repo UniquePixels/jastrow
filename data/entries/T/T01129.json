@@ -1,0 +1,36 @@
+{
+	"id": "T01129",
+	"slug": "רתי",
+	"headword": {
+		"text": "רתי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָתָה"
+		}
+	],
+	"page": {
+		"number": 1503,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"T01148\"><he>רָתַת</he></cite>) [<i>to tremble</i>,] <i>to be lax, lenient</i> (cmp. <cite ref=\"T00931\"><he>רָפָה</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיתָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be indulgent, compassionate, lenient</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite> (ref. to <he>לרוח היום</he>, <cite ref=\"Genesis 3:8\">Gen. III, 8</cite>) <he>ר׳ עליו כל שהיום וכ׳</he> the Lord was lenient to him, for the farther the day sinks, the cooler it grows, opp. <he>הקשה</he>; Yalk. ib. 27 <cite ref=\"T01122\"><he>ריתח</he></cite> (corr. acc.). Sifra Sh’mini, Par. 1, ch. I <he>אלא שר׳ המקום על וכ׳</he> Rabad, a. Ar. (ed. <he>שריחם</he>) but the Lord had pity on Aaron.—V. <cite ref=\"T01120\"><he>רִתּוּי</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

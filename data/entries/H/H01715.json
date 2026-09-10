@@ -1,0 +1,62 @@
+{
+	"id": "H01715",
+	"slug": "חרם-2",
+	"headword": {
+		"text": "חֲרַם"
+	},
+	"page": {
+		"number": 503,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01714\">same</cite>, <i>to perforale</i>. <i>Part. pass.</i> <cite ref=\"H01715\"><he>חֲרִים</he></cite>, <cite ref=\"H01715\"><he>חָרִים</he></cite> <i>flat-nosed</i>, v. <cite ref=\"H01714\">preced.</cite> ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:18\">Targ. O. Lev. XXI, 18</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַרֵים"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחֲרֵים"],
+			"senses": [
+				{
+					"gloss": "<i>to declare</i> <cite ref=\"H01716\"><he>חֵרֶם</he></cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 6:18\">Targ. Josh. VI, 18</cite> <he>תְחַרְמוּן</he> (Var. <he>תַחַרְ׳</he>, read: <he>תַחְרְ׳</he>). ",
+						"<cite ref=\"Targum Jonathan on I Samuel 15:21\">Targ. I Sam. XV, 21</cite> <he>די חַרְמוּן</he> (ed. Lag. a. oth. <he>דיַחְרְמוּן</he>).—",
+						"<cite ref=\"Onkelos Leviticus 27:28\">Targ. O. Lev. XXVII, 28</cite>.—",
+						"<cite ref=\"Arakhin 28a:61\">Arakh. 28ᵃ</cite> <he>כל דאית ליה לא לַחְרֵים … ליחַרְמֵיה כוליה</he> one must not renounce (for sacred purposes) all his property, but of one kind he may renounce all he has."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to excommunicate</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 16a:6\">M. Kat. 16ᵃ</cite> <he>מנלן דמַחְרְמִינָן</he> (or <he>דמְחַרְמִי׳</he>) whence is it proven that we (the court) have a right to excommunicate a recreant person?—Y. ib. III, 81ᵈ top <he>אילולא דלא חַרְמִית … מְחַרֵם וכ׳</he> were it not that I never in my life excommunicated a person, I should have excommunicated that man; a. e.—Part. pass. <he>מְחַרַם</he>, pl. <he>מְחַרְמִין</he>. Ib. bot. <he>ייא ההוא גברא מ׳</he> this man (thou) be excommunicated. ",
+						"<cite ref=\"Moed Katan 16a:9\">Ib.</cite> <he>ליהוון ההיא עמא מח׳</he> those people (you) be excommunicated."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְחֲרַם"],
+			"senses": [
+				{
+					"gloss": "<i>to he declared</i> <cite ref=\"H01716\"><he>חֵרֶם</he></cite>, <i>to be dedicated</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 27:29\">Targ. O. Lev. XXVII, 29</cite> <he>דיִתְחֲ׳</he> ed. Berl. (oth. <he>דיִתַּחֲ׳</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

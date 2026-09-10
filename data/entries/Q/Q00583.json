@@ -1,0 +1,31 @@
+{
+	"id": "Q00583",
+	"slug": "פיגם",
+	"headword": {
+		"text": "פִּיגָּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּגָּם"
+		}
+	],
+	"page": {
+		"number": 1159,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00074\"><he>פָּגַם</he></cite>; cmp. <cite ref=\"Q00046\"><he>פָּגוּם</he> I</cite>, a. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>, quoted bel.; πήγανον would seem to be of Semitic origin) the herb <i>rue</i>. ",
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> <he>שהם דומים לפ׳ וכ׳</he> resembling the leaves of rue, wide below and narrow on top, v. <cite ref=\"A00842\"><he>אוֹר</he> II</cite>, 3. ",
+				"<cite ref=\"Mishnah Kilayim 1:8\">Kil. I, 8</cite> <he>אין מרכיבין פ׳ ע״ג קדה וכ׳</he> you must not graft rue on wild cassia, because it would be a combination of an herb with a tree; <cite ref=\"Eruvin 34b:12\">Erub. 34ᵇ</cite> <he>פגם</he> (some ed. <he>פי׳</he>, v. Rabb. D. S. a. l. note 200). ",
+				"<cite ref=\"Mishnah Oktzin 1:2\">Ukts. I, 2</cite>. ",
+				"<cite ref=\"Shabbat 128a\">Sabb. 128ᵃ</cite>. [<cite ref=\"Q00585\"><he>פִּיגְמָהּ</he></cite>, <cite ref=\"Sanhedrin 73b:1\">Snh. 73ᵇ</cite>, v. <cite ref=\"Q00060\"><he>פְּגִימָה</he></cite> 3]."
+			]
+		}
+	]
+}

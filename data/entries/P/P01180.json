@@ -1,0 +1,37 @@
+{
+	"id": "P01180",
+	"slug": "עקימה-2",
+	"headword": {
+		"text": "עֲקִימָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01197\"><he>עָקַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>curvature, crookedness</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:1:4\">Y. Kil. IV, 29ᵇ</cite> top (in Chald. dict.) <he>ע״י ע׳ תרתיי וכ׳</he> owing to the curvature (of the garden bed) two rows of vines disappear (become indiscernible)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>עֲקִימַת פה</he> or <he>ע׳ שפתים</he> curving the mouth (the lips), <i>speaking sulkily, mumbling</i>, in gen. <i>talk</i>, opp. to <cite ref=\"M02186\"><he>מעשה</he></cite> action. ",
+			"units": [
+				"<cite ref=\"Meilah 17b\">Meïl. 17ᵇ</cite> <he>מֵעֲ׳ שפתיך וכ׳</he> from the argument thou didst utter in an undertone one can tell that thou art a scholar. ",
+				"<cite ref=\"Ketubot 45b:4\">Keth. 45ᵇ</cite> <he>ע׳ שפתיו גרמה לו</he> (not <he>גרמו</he>) his talk (casting suspicion on his wife) brought it (the punishment) upon him. ",
+				"<cite ref=\"Sanhedrin 65a:10\">Snh. 65ᵃ</cite> <he>ע׳ שפתיו הוי מעשה</he> talk (e.g. blasphemy, false testimony) is considered an action (can be punished), <cite ref=\"Sanhedrin 65b\">Ib.ᵇ</cite>; <cite ref=\"Bava Metzia 90b\">B. Mets. 90ᵇ</cite> (in reference to guiding an animal by means of a human voice)."
+			],
+			"label": "2"
+		}
+	]
+}

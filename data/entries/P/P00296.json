@@ -1,0 +1,35 @@
+{
+	"id": "P00296",
+	"slug": "עונה-3",
+	"headword": {
+		"text": "עוֹנָה",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1054,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"P00601\"><he>עַיִן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sight</i> or <i>affliction of the eye</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 64b\">Men. 64ᵇ</cite>, v. <cite ref=\"P00297\">next w.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shade of color, pattern</i> (in weaving, v. Sm. Ant. s. v. Tela).—Pl. <he>עוֹנוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 17:1\">Lev. R. s. 17</cite> [read:] <he>אלו לציבים ולע׳</he> (v. Ar. s. v. <cite ref=\"A02521\"><he>אספריטין</he></cite>, where our w. reads: <he>ולעֵינוֹת</he>) these (the coarse threads) are used for tassels and for producing (raised) patterns; <cite ref=\"Yalkut Shimoni on Nach 808:9\">Yalk. Ps. 808</cite> <he>לצביתים ולעֵנוֹת</he>."
+			],
+			"label": "2"
+		}
+	]
+}

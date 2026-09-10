@@ -1,0 +1,28 @@
+{
+	"id": "H00764",
+	"slug": "חילוי",
+	"headword": {
+		"text": "חִילּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִלּ׳"
+		}
+	],
+	"page": {
+		"number": 456,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00987\"><he>חָלָה</he></cite>, <i>Pi.</i>) <i>sweetening, softening;</i> trnsf. <i>entreaty</i>, <i>ḥilluy</i>, one of the expressions for prayer (v. <cite ref=\"G00614\"><he>זְעָקָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 43\">Ex. R. s. 43</cite> (ref. to <he>ויחל</he>, <cite ref=\"Exodus 32:11\">Ex. XXXII, 11</cite>) <he>לשון ח׳</he> it means <i>sweetening</i>.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 811:1\">Yalk. Deut. 811</cite>; <cite ref=\"Yalkut Shimoni on Nach 157:7\">Yalk. Sam. 157</cite>; (Sifré Deut. s. 26 <cite ref=\"H00765\"><he>חילול</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "N01326",
+	"slug": "נשך-2",
+	"headword": {
+		"text": "נֶשֶׁךְ"
+	},
+	"page": {
+		"number": 940,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N01325\">preced.</cite>) [<i>bite</i>, trnsf., cmp. <cite ref=\"H00028\"><he>חִבּוּלְיָא</he></cite>) <i>usury, interest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 5:1\">B. Mets. V, 1</cite> <he>איזהו נ׳ המלוה וכ׳</he> what is <i>neshekh?</i> If one loans a Sela stipulating the debt at five Denars, contrad. to <cite ref=\"V00932\"><he>תַּרְבִּית</he></cite>. ",
+				"<cite ref=\"Bava Metzia 60b:14\">Ib. 60ᵇ</cite> <he>נ׳ איכא דקא נכית וכ׳</he> in this case it is <i>neshekh</i>, for he bites (injures the debtor) by receiving what he had not given him; a. fr."
+			]
+		}
+	]
+}

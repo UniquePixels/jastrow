@@ -1,0 +1,52 @@
+{
+	"id": "M00251",
+	"slug": "מדד",
+	"headword": {
+		"text": "מָדַד"
+	},
+	"page": {
+		"number": 731,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to stretch</i>,] <i>to measure</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 149b\">Sabb. 149ᵇ</cite> sq. (play on <he>מ̇ד̇ה̇ב̇ה</he>, <cite ref=\"Isaiah 14:4\">Is. XIV, 4</cite>) the nation that said <he>מְ֗ד̇וד̇</he>, <he>וה̇ב̇א</he> measure (the area of thy land) and bring (tribute); <cite ref=\"Vayikra Rabbah 15:9\">Lev. R. s. 15</cite>, end (Ar.: <he>מוֹד והָבָה</he> measure and give). ",
+				"<cite ref=\"Mishnah Eruvin 5:4\">Erub. V, 4</cite> <he>אין מוֹדְדִין וכ׳</he> Sabbath distances must be measured only with a rope of &c. Ib. 5 <he>אין מודדין אלא מן המומחה</he> the measuring must be done only by the best experts. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:4\">Y. Succ. I, 51ᵈ</cite> <he>אם יָמוֹד מן וכ׳</he> if he measures from &c. ",
+				"<cite ref=\"Mishnah Maaser Sheni 5:9\">Maas. Sh. V, 9</cite> <he>עשור שאני עתיד לָמוֹֹד</he> one tenth (as tithe) which I shall measure off (when I come home); a. fr.—",
+				"<cite ref=\"Mishnah Sotah 1:7\">Sot. I, 7</cite> <he>במדה שאדם מוֹדֵד בה מוֹדְדִין לו</he> the measure with which man measures will be measured out to him, i.e. as man deals, he will be dealt with, v. <cite ref=\"A01758\"><he>אַכְרַעְתָּא</he></cite>; <cite ref=\"Tosefta Sotah 3:1\">Tosef. ib. III, 1</cite> <he>מ׳ בסאה</he> he measured by the S’ah (committed great wrong). ",
+				"<cite ref=\"Mishnah Berakhot 9:5\">Ber. IX, 5</cite>, v. next w.—",
+				"<cite ref=\"Berakhot 30b:5\">Ib. 30ᵇ</cite> <he>לעולם יָמוֹד אדם וכ׳</he> man must always measure himself (examine the disposition of his mind; cmp. <cite ref=\"A01984\"><he>אָמַד</he></cite>), if he feels that he can direct his mind, let him pray, if not &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְדַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be measured</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 7:1\">B. Bath. VII, 1</cite> <he>אינן נִמְדָּדִין עמה</he> are not included in the measure. ",
+						"<cite ref=\"Mishnah Arakhin 7:1\">Arakh. VII, 1</cite> <he>נִמְדָּדִים עמה</he> are included &c.; a. fr. "
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["מִדֵּד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M00250\">same</cite>, <i>to stretch</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 3\">Gen. R. s. 3</cite>; <cite ref=\"Midrash Tehillim 24\">Midr. Till. to Ps. XXIV</cite>, a. e. <he>מְמַדֵּד</he>, v. <cite ref=\"M03039\"><he>מָתַח</he></cite>.—[<cite ref=\"Shir HaShirim Rabbah 8:11\">Cant. R. to VIII, 11</cite> <he>ממדדין</he>, v. <cite ref=\"D00131\"><he>דָּדָה</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

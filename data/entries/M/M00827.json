@@ -1,0 +1,29 @@
+{
+	"id": "M00827",
+	"slug": "מחוך-2",
+	"headword": {
+		"text": "מָחוֹךְ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְחוֹכָא"
+		}
+	],
+	"page": {
+		"number": 758,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"H00935\"><he>חָכַךְ</he> I</cite>) <i>gold hooks over the female bosom</i> (h. <cite ref=\"K00286\"><he>כּוּמָז</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 35:22\">Targ. O. Ex. XXXV, 22</cite> (ed. Amst. <cite ref=\"M00826\"><he>מָחוּךְ</he></cite>); <cite ref=\"Numbers 31:50\">Num. XXXI, 50</cite>.—",
+				"<cite ref=\"Shabbat 64a:21\">Sabb. 64ᵃ</cite> <he>היינו דמתרגמינן מ׳</he> that is the reason why the Biblical <cite ref=\"K00286\"><he>כומז</he></cite> is rendered in the Targum with <i>maḥokh</i> (obscenity, v. <cite ref=\"M00826\">preced.</cite>), v. <cite ref=\"C00691\"><he>גִּיחוּךְ</he></cite>.—Pl. <he>מְחוֹכִין</he>, <he>מְחוֹכַיָּא</he>. Targ. Y. Ex. l. c.; Targ. Y. I Num. l. c. (not <cite ref=\"M00349\"><he>מהוכיא</he></cite>; Y. II <cite ref=\"M02080\"><he>מָעוֹכַיָּא</he></cite>)."
+			]
+		}
+	]
+}

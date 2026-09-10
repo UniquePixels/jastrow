@@ -1,0 +1,22 @@
+{
+	"id": "P00109",
+	"slug": "עגרון",
+	"headword": {
+		"text": "עִגְּרוֹן"
+	},
+	"page": {
+		"number": 1042,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עָגַר</he> = <cite ref=\"A00335\"><he>אָגַר</he></cite>) = <cite ref=\"A00344\"><he>אִגְּרוּ</he></cite>, <i>apt for storage, superior</i> (<i>wheat</i>). ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 4:23\">Tosef. Dem. IV, 23</cite> (ed. Zuck. <cite ref=\"A00282\"><he>אֵגֹרִי</he></cite>, v. <cite ref=\"A00282\"><he>אֵגוֹרִי</he></cite>); Y. Naz. V, 54ᵃ <cite ref=\"A00347\"><he>אגרון</he></cite>."
+			]
+		}
+	]
+}

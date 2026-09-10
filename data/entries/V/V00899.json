@@ -1,0 +1,111 @@
+{
+	"id": "V00899",
+	"slug": "תקן-1",
+	"headword": {
+		"text": "תָּקַן"
+	},
+	"page": {
+		"number": 1691,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"S01601\"><he>קָנַן</he></cite> a. <i>to make straight, firm, right</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תִּקֵּן"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00898\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to straighten, mend, repair, set in order, prepare</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 308:3\">Sifré Deut. 308</cite> <he>אחד … לתַקְּנוֹ</he> one that had a crooked staff, and gave it to a mechanic to straighten it; <he>מְתַקְּנוֹ באור</he> he tries to straighten it by heat; Yalk. ib. 942. ",
+						"<cite ref=\"Mishnah Shekalim 1:1\">Shek. I, 1</cite> <he>מְתַקְּנִין את הדרכים וכ׳</he> they put in repair the roads and the open places (stations) &c. ",
+						"<cite ref=\"Pesikta Rabbati 28:1\">Pesik. R. s. 28</cite> <he>מְתַקְּנִים את המועדות</he> they arrange (fix the dates of) the festivals; <cite ref=\"Mishnah Rosh Hashanah 1:4\">R. Hash. I, 4</cite>. ",
+						"<cite ref=\"Beitzah 34a:11\">Bets. 34ᵃ</cite> <he>אין מתקנין את השפוד וכ׳</he> you must not prepare (chip) a spit or sharpen it (on the Holy Day). ",
+						"<cite ref=\"Beitzah 34a:10\">Ib.</cite> <he>מתקנין את הקונדס וכ׳</he> you may dress artichokes &c. ",
+						"<cite ref=\"Mishnah Gittin 4:5\">Gitt. IV, 5</cite> <he>תִּקַּנְתֶּם את רבו וכ׳</he> you have made it right for his master but not for himself; a. fr.—Trnsf. <i>to make things legally fit for use by giving the priestly dues</i>. ",
+						"<cite ref=\"Beitzah 34b:6\">Bets. 34ᵇ</cite> <he>עבר ותִקְּנוֹ מְתוּקָּן</he> if he transgressed (the law forbidding the separation of priestly gifts on the Holy Day) and prepared it for use, it is prepared (the act is valid). Y. Dem. II, 23ᶜ bot. <he>כל אחד ואחד מְתַקֵּן דמאי</he> every one of them gives the priestly dues of his purchase as <i>d’mai</i> (v. <cite ref=\"D00871\"><he>דְּמַאי</he></cite>). ",
+						"<cite ref=\"Tosefta Demai 4:5\">Tosef. Dem. IV, 5</cite> <he>ודאי שתִּיקְּנָהּ דמאי</he> if one gives the dues of what is sure to be untithed, as if it were <i>d’mai</i>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to establish, institute, introduce a legal measure, ordain</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 33b:5\">Sabb. 33ᵇ</cite> <he>תִּקְּנוּ שווקים וכ׳</he>, v. <cite ref=\"U00521\"><he>שׁוּק</he> III</cite>. ",
+						"<cite ref=\"Shabbat 33b:5\">Ib.</cite> bot. (ref. to <cite ref=\"Genesis 33:18\">Gen. XXXIII, 18</cite>) <he>מטבע תי׳ להם</he> he introduced coinage for them. ",
+						"<cite ref=\"Megillah 4a:6\">Meg. 4ᵃ</cite>, a. e. <he>משה ת׳ להם … שיהו וכ׳</he> Moses introduced the custom … of discussing and studying the subject of the day &c. ",
+						"<cite ref=\"Shabbat 14b:5\">Sabb. 14ᵇ</cite> <he>שמעון</he> … <he>ת׳ כתובה וכ׳</he> Simon ben Sheṭaḥ introduced the marriage contract (jointure) for the wife. ",
+						"<cite ref=\"Mishnah Sukkah 5:2\">Succ. V, 2</cite>, v. <cite ref=\"V00488\"><he>תִּיקּוּן</he></cite>; a. v. fr.—<i>Part. pass.</i> <cite ref=\"M03034\"><he>מְתוּקָּן</he></cite>; f. <he>מְתוּקֶּנֶת</he>; pl. <he>מְתוּקָּנִים</he>, <he>מְתוּקָּנִין</he>; <he>מְתוּקָּנוֹת</he> "
+					],
+					"label": "2",
+					"senses": [
+						{
+							"gloss": " <i>properly prepared, proper, good, right</i>. ",
+							"units": [
+								"<cite ref=\"Beitzah 34b\">Bets. 34ᵇ</cite>, v. supra. ",
+								"<cite ref=\"Eruvin 32a\">Erub. 32ᵃ</cite>, a. e. <he>חזקה … דבר שאינו מת׳</he> the presumption is in favor of the Ḥaber (<cite ref=\"H00109\"><he>חָבֵר</he></cite>) that he will not let go out of his hands a thing not ritually prepared (tithed &c.). ",
+								"<cite ref=\"Tosefta Demai 4:8\">Tosef. Dem. IV, 8</cite> <he>הטבל והמת׳ שנתערבו</he> if untithed and tithed things have been mixed up. ",
+								"<cite ref=\"Tosefta Demai 8:13\">Ib. VIII, 13</cite> <he>מעשרותיו מת׳ ופירותיו מקולקלין</he> the tithes he separated are right, but his fruits are wrong (considered untithed). ",
+								"<cite ref=\"Tosefta Demai 6:14\">Ib. VI, 14</cite> <he>מת׳</he> scrupulous guardsmen. ",
+								"<cite ref=\"Sanhedrin 39b\">Snh. 39ᵇ</cite> <he>כמת׳ שבהם וכ׳</he>, v. <cite ref=\"S01415\"><he>קִלְקֵל</he></cite>; a. fr.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>prepared, predestined, designated</i>. ",
+							"units": [
+								"<cite ref=\"Pesikta Rabbati 27:1\">Pesik. R. s. 27-28</cite> <he>לצרה הזו הייתי מת׳</he> am I predestined for such trouble? <cite ref=\"Pesikta Rabbati 27-28\">Ib.</cite> <he>עד … היית מת׳ לדבר</he> (not <he>הייתי</he>) before yet the world was created, thou wast designated for this thing (the prophetic mission). Tanḥ. Ki Thissa 13 <he>שהוא מת׳ מבראשית וכ׳</he> that he (Bezalel) was from the time of creation designated to make the Tabernacle; a. fr."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְקִין"],
+			"senses": [
+				{
+					"gloss": "<i>to prepare, fit</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 2:12\">Ab. II, 12</cite> <he>הַתְקֵן עצמך ללמוד וכ׳</he> fit thyself to study the Law, for it does not come to thee by inheritance. ",
+						"<cite ref=\"Pirkei Avot 4:16\">Ib. IV, 16</cite>, v. <cite ref=\"Q01659\"><he>פְּרוֹזְדוֹר</he></cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to ordain, establish a custom, innovate</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 51b:11\">Succ. 51ᵇ</cite> <he>הִתְקִינוּ שיהו וכ׳</he> they ordained that the women should sit uptairs, and the men below. ",
+						"<cite ref=\"Mishnah Sheviit 10:3\">Shebi. X, 3</cite>, v. <cite ref=\"Q01646\"><he>פְּרוֹזְבּוֹל</he></cite>. Y. R. Hash. IV, 59ᵇ bot. <he>מַתְקִין על דבר תורה</he> introduced a measure extending a Biblical law; <he>מתקין על דבריהן</he> extending a Rabbinical ordinance. ",
+						"<cite ref=\"Mishnah Berakhot 9:5\">Ber. IX, 5</cite> <he>התקינו שיהו וכ׳</he> they ordained that they should say, ‘from everlasting and unto everlasting’; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִתְקַן"],
+			"senses": [
+				{
+					"gloss": "<i>to be straightened, mended, improved</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 1:15:1\">Koh. R. to I, 15</cite> <he>יכול להִתָּקֵן</he> (or <he>להִתַּקֵּן</he> <i>Hithpa.</i>), v. <cite ref=\"P00376\"><he>עָוַת</he></cite>. ",
+						"<cite ref=\"Berakhot 40a:12-14\">Ber. 40ᵃ</cite> <he>בדבר … בו נִתְקְנוּ</he> (or <he>נִתַּקְּנוּ</he> <i>Nithpa.</i>) they were mended (restored) by the same thing by which they were impaired (sinned); <cite ref=\"Sanhedrin 70b\">Snh. 70ᵇ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

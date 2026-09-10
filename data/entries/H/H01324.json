@@ -1,0 +1,75 @@
+{
+	"id": "H01324",
+	"slug": "חנק-1",
+	"headword": {
+		"text": "חָנַק"
+	},
+	"page": {
+		"number": 485,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A02285\"><he>אנק</he></cite>, <cite ref=\"P01008\"><he>ענק</he></cite>) [<i>to press</i>,] <i>to seize by the throat, to choke</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 3:6\">Tosef. Sabb. III</cite> (<cite ref=\"Tosefta Shabbat 4:6\">IV</cite>), 6 <he>ואין חוֹנְקִין בשבת</he> you must not press (the jugular veins, to relieve from belly-ache) on the Sabbath; v. infra <i>Pi.</i>—",
+				"<cite ref=\"Mishnah Bava Batra 10:8\">B. Bath. X, 8</cite> (<cite ref=\"Bava Batra 175b:4\">175ᵇ</cite>) <he>הרי החוֹנֵק את וכ׳</he> if one seizes a debtor by the throat (threatening violence). Ib. 176ᵃ <he>בחָנוּק</he> in the case of one being threatened (and another pledging himself for him). ",
+				"<cite ref=\"Shabbat 57a:16\">Sabb. 57ᵃ</cite> <he>אין אשה חוֹנֶקֶת וכ׳</he> a woman will not choke herself (will not tie a band around her neck so closely that no water could get under it when bathing); <cite ref=\"Shabbat 57b\">ib.ᵇ</cite> <he>אשה ח׳ וכ׳</he> a woman does tie a chain closely in order to appear fleshy. ",
+				"<cite ref=\"Bereishit Rabbah 34:14\">Gen. R. s. 34</cite> (ref. to <he>דם האדם באדם</he>, <cite ref=\"Genesis 9:6\">Gen. IX, 6</cite>) <he>אף החוֹנְקוֹ</he> (the gentile is guilty of bloodshed) even if he only chokes a man (‘shedding the blood of man in man’); <cite ref=\"Jerusalem Talmud Kiddushin 1:1:12\">Y. Kidd. I, 58ᶜ</cite> top <he>בחונקו מפני עצמו</he> (read: <he>ממונו</he>) when he merely chokes him to take his money; a. e.—Esp. <i>to strangle to death</i>. ",
+				"<cite ref=\"Bava Kamma 47b:17\">B. Kam. 47ᵇ</cite> <he>ח׳ את עצמו</he> (the ox) strangled himself (by being caught in a rope). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:2:2\">Y. Sot. IX, 23ᶜ</cite> <he>נמצא חָנוּק</he> if he was found strangled; a. e.—Trnsf. <i>to produce anguish, agony</i>. ",
+				"<cite ref=\"Mishnah Chullin 1:2\">Ḥull. I, 2</cite> <he>מפני שהן חוֹנְקִין</he> because they (a saw &c.) cause agony as if by choking (instead of cutting).—[<cite ref=\"Kiddushin 62a:2\">Kidd. 62ᵃ</cite> (ref. to <cite ref=\"Numbers 5:19-20\">Num. V, 19—20</cite>) according to R. Meïr (who says that a condition is not valid unless both the negative and the positive alternatives are stated) <he>חִנְקִי מיבעי ליה</he> it ought to have been added (to vers 20) ‘die in agony’. <he>א״ר תנחום הנקי כתיב</he> said R. T. it says (verse 19) <i>hnki</i> (which may be read <i>hinnaki</i> for the one alternative and <i>hinki</i> for <i>ḥinki</i> for the other); Ar. reads <he>הנקי</he>, v. <cite ref=\"N01195\"><he>נָקִי</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְנַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be strangled</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 11:1\">Snh. XI, 1</cite> (<cite ref=\"Sanhedrin 84b:4\">84ᵇ</cite>) <he>הנֶחְנָקִין</he> those sentenced to death by strangulation. ",
+						"<cite ref=\"Pesachim 112a:13\">Pes. 112ᵃ</cite> <he>לֵיחָנֵק</he>, v. <cite ref=\"A01306\"><he>אִילָּן</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to feel like choking, to be sorry</i> (cmp. <cite ref=\"A02286\"><he>אָנַק</he></cite>). ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:12\">Cant. R. to IV, 12</cite> <he>התחיל … רואה ונ׳</he> the seller sees it and grieves (over his loss); <cite ref=\"Yalkut Shimoni on Torah 225\">Yalk. Ex. 225</cite> Mekh. B’shall. s. 1 <he>לֵיחָנֵק</he>.—[<cite ref=\"Shabbat 66b\">Sabb. 66ᵇ</cite>, v. infra.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["חִינֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to squeeze in, immure</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 48\">Pirké d’R. El. ch. XLVIII</cite>; <cite ref=\"Yalkut Shimoni on Torah 169\">Yalk. Ex. 169</cite> (<he>היו</he>) <he>מְחַנְּקִין את ישראל וכ׳</he> pressed Israelites between the walls (having mingled their bodies with the clay)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to strangle</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Moed Kattan 1:5\">Tosef. M. Kat. I, 5</cite> <he>מְחַנְּקִין וכ׳</he> (<cite ref=\"Moed Katan 6b:15\">M. Kat. 6ᵇ</cite> <he>חונקין</he>) the aunts choke each other to death."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to press the throat, to squeeze the jugular veins</i> (an operation applied in cases of abdominal affection, Ar. s. v. <he>חנק</he>; <i>to reset a laryngal muscle or ring</i>, Rashi; oth. defin., v. Ar. s. v.). ",
+					"units": [
+						"<cite ref=\"Shabbat 66b:15\">Sabb. 66ᵇ</cite> <he>לְחַנֵּק</he> to perform the operation (Rashi a. Ar. ed. Koh. <he>לֵיחָנֵק</he> to have the operation performed)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

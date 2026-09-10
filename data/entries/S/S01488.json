@@ -1,0 +1,23 @@
+{
+	"id": "S01488",
+	"slug": "קמצא-3",
+	"headword": {
+		"text": "קַמְצָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1386,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḳamtsa</i>; <he>בר ק׳</he> <i>Bar Ḳamtsa</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 55b:16\">Gitt. 55ᵇ</cite> <he>אק׳ ובר ק׳ חריב וכ׳</he> through an affair concerning Ḳ. and Bar Ḳ. Jerusalem was destroyed; <cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite> <he>בין ק׳ ובין בן ק׳ חרב מקדשא</he>."
+			]
+		}
+	]
+}

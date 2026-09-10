@@ -1,0 +1,29 @@
+{
+	"id": "A01152",
+	"slug": "אידא-1",
+	"headword": {
+		"text": "אֵידָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵידָא"
+		},
+		{
+			"text": "עֵדָא"
+		}
+	],
+	"page": {
+		"number": 45,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A01151\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:3\">Targ. Esth. I, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:20\">Targ. Prov. VII, 20</cite>."
+			]
+		}
+	]
+}

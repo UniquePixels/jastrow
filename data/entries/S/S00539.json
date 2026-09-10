@@ -1,0 +1,25 @@
+{
+	"id": "S00539",
+	"slug": "קוצה-2",
+	"headword": {
+		"text": "קוֹצָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1340,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>madder</i>, a plant used in dying red. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:1\">Shebi. VII, 1</cite> (Ms. M. <cite ref=\"S00536\"><he>קוֹצָא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 5:3:11\">Y. Maasr. V, end, 52ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:1:7\">Y. Pes. III, beg. 29ᵈ</cite> (ref. to <he>זומן של צבעים</he>) <he>דו יהב בגויה קוצם וכ׳</he> (corr. acc.) he (the dyer) puts the madder into it to make it adhesive (v. <cite ref=\"G00184\"><he>זוֹמָא</he> I</cite>)."
+			]
+		}
+	]
+}

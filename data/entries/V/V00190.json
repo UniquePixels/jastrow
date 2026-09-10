@@ -1,0 +1,27 @@
+{
+	"id": "V00190",
+	"slug": "תוטני",
+	"headword": {
+		"text": "תּוּטָנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר תּוּטָנִי"
+		}
+	],
+	"page": {
+		"number": 1652,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar-Tuṭani</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Shabbat 71a:7\">Sabb. 71ᵃ</cite> (Ms. M. <he>תָּאטוּנִי</he>); <cite ref=\"Keritot 4b\">Ker. 4ᵇ</cite> <cite ref=\"V00016\"><he>תאוטני</he></cite>; <cite ref=\"Keritot 12b:46\">ib. 12ᵇ</cite> <cite ref=\"V00189\"><he>תוטיני</he></cite>."
+			]
+		}
+	]
+}

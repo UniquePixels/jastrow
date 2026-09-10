@@ -1,0 +1,39 @@
+{
+	"id": "L00541",
+	"slug": "לכד-2",
+	"headword": {
+		"text": "לְכַד"
+	},
+	"page": {
+		"number": 711,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"L00540\">same</cite>, <i>to seize</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 26:17\">Targ. Prov. XXVI, 17</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to contain</i>. Targ. II Esth. I, 8 <he>לָכֵיד</he> ed. Lag. (ed. Amst. <he>למוד</he>).",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְלְכַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be seized, caught</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 7:26\">Targ. Koh. VII, 26</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

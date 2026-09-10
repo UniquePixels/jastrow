@@ -1,0 +1,24 @@
+{
+	"id": "M02762",
+	"slug": "מרקא",
+	"headword": {
+		"text": "מָרְקָא"
+	},
+	"page": {
+		"number": 846,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02761\">preced.</cite>; cmp. <cite ref=\"M02603\"><he>מָרוֹקָא</he></cite>) <i>yellowish, pale</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 80a:2\">Yeb. 80ᵃ</cite> <he>שיכרא מ׳</he> pale (diluted) beer; (Rashi, another opin.: <i>strong</i> beer).—חמרא מ׳ <i>diluted wine</i>. ",
+				"<cite ref=\"Gittin 69b:4\">Gitt. 69ᵇ</cite>, opp. <he>חייא</he>. ",
+				"<cite ref=\"Eruvin 29b:13\">Erub. 29ᵇ</cite>.—[<cite ref=\"Bava Metzia 47b\">B. Mets. 47ᵇ</cite> Ar., v. <cite ref=\"M02603\"><he>מָרוֹקָא</he> I</cite>.]"
+			]
+		}
+	]
+}

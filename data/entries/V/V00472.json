@@ -1,0 +1,41 @@
+{
+	"id": "V00472",
+	"slug": "תינחא",
+	"headword": {
+		"text": "תִּינָחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּינְחֲתָא"
+		},
+		{
+			"text": "תִּנְ׳"
+		},
+		{
+			"text": "תּוּנְחָא"
+		},
+		{
+			"text": "תּוּנַחְתָּא"
+		},
+		{
+			"text": "תְּנַח׳"
+		}
+	],
+	"page": {
+		"number": 1665,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A02153\"><he>אֲנַח</he></cite>) <i>sign, groan</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 31:11\">Targ. Ps. XXXI, 11</cite> <cite ref=\"V00472\"><he>תינחא</he></cite> ed. Lag. (ed. Wil. <cite ref=\"V00741\"><he>תִּנְחֲתָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 38:10\">Ib. XXXVIII, 10</cite> <he>תינחתי</he> (ed. Wil. <cite ref=\"V00472\"><he>תִּנְחֲ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 35:10\">Targ. Is. XXXV, 10</cite> (ed. Wil. <cite ref=\"V00472\"><he>תֵּינְחָתָא</he></cite>, <i>pl.</i>); a. fr."
+			]
+		}
+	]
+}

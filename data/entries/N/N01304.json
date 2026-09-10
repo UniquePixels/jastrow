@@ -1,0 +1,36 @@
+{
+	"id": "N01304",
+	"slug": "נשיא-2",
+	"headword": {
+		"text": "נָשִׂיא"
+	},
+	"page": {
+		"number": 938,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N01284\"><he>נָשָׂא</he></cite>)<i>prince, chief, ruler, officer</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 1:11\">Num. R. s. 1</cite> <he>לנ׳ שנכנס וכ׳</he> like unto a chief that entered a country. ",
+				"<cite ref=\"Bamidbar Rabbah 1:11\">Ib.</cite> <he>שלא מנה נ׳ לשבט וכ׳</he> he appointed no prince for the tribe of Levi. [<cite ref=\"Bamidbar Rabbah 1:11\">Ib.</cite> <he>נשיא שבטים</he>, read <he>נְשִׂיאֵי</he>]. ",
+				"<cite ref=\"Mishnah Horayot 2:6\">Hor. II, 6</cite>; a. v. fr.—Pl. <he>נְשִׂיאִים</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 12:21\">Num. R. s. 12</cite> <he>למה נזדרזו הנ׳ וכ׳</he> why were the princes so anxious to be the first &c.? <cite ref=\"Bamidbar Rabbah 3:11\">Num. R. s. 3</cite>; a. v. fr.—Esp. <i>Nasi</i>, the chief of the Great Sanhedrin in Jerusalem and of its successor in Palestinian places (v. <cite ref=\"A00017\"><he>אָב</he></cite>). ",
+				"<cite ref=\"Mishnah Taanit 2:1\">Taan. II, 1</cite>. ",
+				"<cite ref=\"Pesachim 66a:6\">Pes. 66ᵃ</cite> <he>מינוהו נ׳ עליהם</he> they elected him as their Nasi; a. fr.—R. Judah the Nasi, v. <cite ref=\"T00085\"><he>רַבִּי</he></cite>.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Mishnah Chagigah 2:2\">Ḥag. II, 2</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pl.</i> as ab. <i>clouds</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 32b:7\">Kidd. 32ᵇ</cite> <he>להק״בה … מעלה נ׳ וכ׳</he> the Lord causes the wind to blow and brings up clouds and lets rain come down &c."
+			],
+			"label": "2"
+		}
+	]
+}

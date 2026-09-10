@@ -1,0 +1,41 @@
+{
+	"id": "H00428",
+	"slug": "חוץ-1",
+	"headword": {
+		"text": "חוּץ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 437,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"A00820\"><he>אוּץ</he></cite>), perf. a. part. <cite ref=\"H01487\"><he>חָץ</he></cite> [<i>to squeeze in; to be wedged in</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be tight, immovable</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 3:8\">Makhsh. III, 8</cite> <he>בשביל שיָחוּצוּ</he> that they may become tight (by swelling). ",
+				"<cite ref=\"Mishnah Mikvaot 10:3\">Mikv. X, 3</cite> <he>בזמן שהיא חוֹצָה</he> (cmp. part. fem. <cite ref=\"H00334\"><he>חוֹלָה</he></cite>, fr. <cite ref=\"H00319\"><he>חוּל</he></cite>) if it is tight (immovable)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tighten, tie closely</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 3:1:8\">Y. Ḥag. III, 79ᵃ</cite> top (<he>חָצִין</he>) <he>חָצִים אותה</he> they tie it watertight."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <cite ref=\"H00429\"><he>חוּץ</he></cite> or <he>הָצַץ</he> <i>to wedge in, form a partition; to intervene</i>, esp. (at bathing) <i>to prevent the water from touching the body</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 3:1\">Erub. III, 1</cite> (<cite ref=\"Eruvin 27a:9\">27ᵃ</cite>) <he>יכול לָחוּץ</he> (<he>לָחוֹץ</he>) <he>ולאכול</he> Ms. M. (Bab. ed. <he>לח׳ ולילך וכ׳</he>, Mish. <he>לילך לח׳ ולאכ׳</he>, Y. ed. <he>לח׳ ולוכל</he>, v. Rabb. D. S. a. l. note) he may form a partition (between himself and the uncleanness, by sitting in a vehicle &c.) and eat. ",
+				"<cite ref=\"Zevachim 19a:16\">Zeb. 19ᵃ</cite> <he>מהו שיָחוּץ</he> (<he>שתָּהוּץ</he>) does it form a partition between the body and the water (so as to make the immersion ineffective)?—Y. Sabb. VII, beg. 7ᵈ <he>שהן חָצִין וכ׳</he> for they form an interposition at bathing after menstruation. V. <cite ref=\"H01533\"><he>חָצַץ</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

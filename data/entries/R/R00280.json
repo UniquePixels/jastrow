@@ -1,0 +1,43 @@
+{
+	"id": "R00280",
+	"slug": "צחצוח",
+	"headword": {
+		"text": "צִחְצוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1273,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00283\"><he>צִחְצֵחַ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>glistening</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 8:1\">Sot. VIII, 1</cite> <he>צ׳ חרבות</he> the brandishing of the enemy’s swords. Mekh. B’shall. s. 2 <he>כנגד צ׳ חרבות שלהן</he> this (the lightning) corresponds to their (the Egyptians’) brandishing their swords; <cite ref=\"Yalkut Shimoni on Nach 160:2\">Yalk. Sam. 160</cite> <he>כנגד צ׳ הזין</he>.—Pl. <he>צִחְצוּחִין</he> (or <he>צַחְ׳</he>). ",
+				"<cite ref=\"Midrash Tehillim 18:15\">Midr. Till. to Ps. XVIII, 13</cite> <he>חזר פרעה והביא מיני צ׳ של ברזל … מצוחצחין</he> again Pharaoh brought up various kinds of glistening iron (steel) armor, and the Lord brought lightnings which are glistening."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>clear fluid, dilution</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 105a:19\">Yeb. 105ᵃ</cite> <he>אי אפשר לדם בלא צ׳ רוק</he> it is not possible to spit blood without a solution of saliva in it.—Pl. constr. <he>צִחְצוּחֵי</he>, <cite ref=\"R00030\"><he>צִי׳</he></cite>. ",
+				"<cite ref=\"Bava Kamma 25a:14\">B. Kam. 25ᵃ</cite>; <cite ref=\"Niddah 22a:25\">Nidd. 22ᵃ</cite>, a. e. <he>צ׳ זיבה</he> dilution of the gonorrheal discharge. ",
+				"<cite ref=\"Avodah Zarah 35a:11\">Ab. Zar. 35ᵃ</cite> <he>צ׳ חלב</he> particles of diluted milk (in the holes of cheese). ",
+				"<cite ref=\"Shabbat 144b:10\">Sabb. 144ᵇ</cite> <he>לפי … בלא צ׳ שמן</he> because it is impossible for the serial fluid of olives not to contain particles of diluted oil; <cite ref=\"Tosefta Tahorot 10:3\">Tosef. Toh. X, 3</cite>, v. <cite ref=\"M00456\"><he>מוֹחַל</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "Q02006",
+	"slug": "פרקלימין",
+	"headword": {
+		"text": "פְּרַקְלִימִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרַקְנִימִין"
+		}
+	],
+	"page": {
+		"number": 1241,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (περικνήμια = περικνημίδια: as to <cite ref=\"L00000\"><he>ל</he></cite> for <cite ref=\"N00001\"><he>נ</he></cite>, cmp. <cite ref=\"L00286\"><he>לוּמָּא</he></cite>) <i>leggings, greaves</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:3\">Kel. XXVI, 3</cite> <he>הפרקל׳ וכ׳</he> (R. S. <he>הפרקנ׳</he>) leggings are not subject to uncleanness; (Maim.: <i>gloves</i>; R. S.: <i>head-bands</i>). Ib. XXIV, 15 <he>שלשה פרקלימין הן וכ׳</he> ed. Dehr. (ed. <cite ref=\"Q02001\"><he>פרקילינין</he></cite>) there are three kinds of greaves (with regard to levitical cleanness): those worn by hunters &c. (v. Sm. Ant. s. v. Ocrea); [comment.: <i>gloves</i>); <cite ref=\"Tosefta Keilim Batra 2:11\">Tosef. Kel. B. Bath. II, 11</cite> <cite ref=\"Q01565\"><he>פרגלינין</he></cite> ed. Zuck. (oth. ed. <cite ref=\"Q01560\"><he>פרגילנין</he></cite>, <cite ref=\"Q02007\"><he>פרקלנין</he></cite>)."
+			]
+		}
+	]
+}

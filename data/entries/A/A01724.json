@@ -1,0 +1,23 @@
+{
+	"id": "A01724",
+	"slug": "אכסיומא",
+	"headword": {
+		"text": "אַכְסְיוֹמָא"
+	},
+	"page": {
+		"number": 64,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀξίωμα) <i>request, petition</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 6\">Midr. Till. to Ps. VI</cite>, end <he>אחרים מקבלים אנ׳ וכ׳</he> (corr. <he>אכ׳</he>) others receive the petition presented to him <he>אני איני מבקש אלא אנסיומין שלי</he> (corr. acc., insert <he>שאתה תקבל</he>) I only ask that thou mayest receive my petition thyself. ",
+				"<cite ref=\"Midrash Tehillim 102:3\">Midr. Till. to Ps. CII</cite> <he>אל תתן א׳ שלי בתוכה</he> (read <he>שלו</he>); [the entire passage is obscure and seems out of place]."
+			]
+		}
+	]
+}

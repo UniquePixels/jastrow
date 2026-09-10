@@ -1,0 +1,33 @@
+{
+	"id": "P01514",
+	"slug": "עשש",
+	"headword": {
+		"text": "עֲשַׁשׁ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1127,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A03361\"><he>אָשַׁשׁ</he></cite>) <i>to be strong</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעַשֵּׁשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to exercise one’s strength</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 19\">Midr. Till. to Ps. XIX, 1</cite> <he>מאבנא דהוא מִתְעַשֵּׁשׂ</he> (<he>בה</he>) <he>וכ׳</he> by the stone with which he practices you can tell his strength; [ed. Bub., a. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 672\">Yalk. Ps. 672</cite> <he>מִתְגּוֹשֵׁשׁ</he>, h. form, v. <cite ref=\"C01425\"><he>גָּשַׁשׁ</he></cite>]."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

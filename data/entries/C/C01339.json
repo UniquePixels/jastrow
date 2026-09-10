@@ -1,0 +1,24 @@
+{
+	"id": "C01339",
+	"slug": "גריעותא",
+	"headword": {
+		"text": "גְּרִיעוּתָא"
+	},
+	"page": {
+		"number": 268,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01379\"><he>גרע</he></cite>) <i>diminution; lesser degree; disadvantage</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56a:2\">Ber. 56ᵃ</cite> <he>מפשר ליה לג׳</he> he interpreted his dream unfavourably, opp. <he>למעליותא</he>. ",
+				"<cite ref=\"Bava Kamma 99b:18-19\">B. Kam. 99ᵇ</cite> <he>עביד בך … תרתי לג׳</he> he has doubly injured thee (through his verdict). ",
+				"<cite ref=\"Yevamot 122b:1\">Yeb. 122ᵇ</cite> top <he>מאי ג׳ וכ׳</he> whereon is the inn-keeper’s lower status (lesser trustworthiness) based? <cite ref=\"Chullin 5b:5\">Ḥull. 5ᵇ</cite> wherever the Bible uses <i>b’hemah</i> (beast), <he>ג׳ היא</he> does it necessarily imply contempt?"
+			]
+		}
+	]
+}

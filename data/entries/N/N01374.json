@@ -1,0 +1,43 @@
+{
+	"id": "N01374",
+	"slug": "נתינה-3",
+	"headword": {
+		"text": "נְתִינָה",
+		"homograph": 3
+	},
+	"page": {
+		"number": 943,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01384\"><he>נָתַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>donation</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 21b:9\">Pes. 21ᵇ</cite>, a. e. (ref. to <cite ref=\"Deuteronomy 14:21\">Deut. XIV, 21</cite>) <he>אין לי אלא לגר בנ׳ וכ׳</he> from this I would conclude that it is permitted to give it to the sojourner as a gift &c., contrad. to <cite ref=\"M01382\"><he>מכירה</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>delivery</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 19a:4\">B. Mets. 19ᵃ</cite> <he>עד שעת נ׳</he> up to the time of the delivery (of the letter of divorce). ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:10\">Y. Ḥag. II, 77ᵇ</cite> bot.; <cite ref=\"Shir HaShirim Rabbah 1:10:2\">Cant. R. to I, 10</cite> <he>כנְתִינָתָן מסיני</he>, v. <cite ref=\"U01450\"><he>שָׂמֵח</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>putting on</i>, opp. <cite ref=\"H01060\"><he>חליצה</he></cite> taking off. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:3\">Y. Ber. III, beg. 5ᵈ</cite> <he>הלכה … בנ׳</he> the practice is in accordance with … as regards putting on (the shoes by mourners); <cite ref=\"Jerusalem Talmud Moed Katan 3:5:6\">Y. M. Kat. III, 82ᵇ</cite>; <cite ref=\"Bereishit Rabbah 100:7\">Gen. R. s. 100</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

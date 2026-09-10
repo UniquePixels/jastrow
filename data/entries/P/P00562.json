@@ -1,0 +1,28 @@
+{
+	"id": "P00562",
+	"slug": "עיכול",
+	"headword": {
+		"text": "עִיכּוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִכּ׳"
+		}
+	],
+	"page": {
+		"number": 1069,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00737\"><he>עָכַל</he></cite>); pl. <he>עִיכּוֹלִין</he>, <cite ref=\"P00560\"><he>עִכּ׳</he></cite> <i>things attacked by fire, half-burned pieces</i> which bounded off the altar. ",
+			"units": [
+				"<cite ref=\"Zevachim 83b:6\">Zeb. 83ᵇ</cite> <he>עִיכּוֹלֵי עולה</he> pieces of a burnt-offering; <he>עיכולי קטורת</he> of frankincense; <cite ref=\"Yoma 45b:2\">Yoma 45ᵇ</cite>. ",
+				"<cite ref=\"Chullin 90a:15\">Ḥull. 90ᵃ</cite> <he>ע׳ בשר</he> pieces of flesh; <he>ע׳ גידים ועצמות</he> of sinews and bones."
+			]
+		}
+	]
+}

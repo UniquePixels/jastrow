@@ -1,0 +1,40 @@
+{
+	"id": "V01097",
+	"slug": "תשמיש-1",
+	"headword": {
+		"text": "תַּשְׁמִישׁ"
+	},
+	"page": {
+		"number": 1704,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01539\"><he>שָׁמַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>handling, use</i>; (sub. <cite ref=\"K00715\"><he>כלי</he></cite>) <i>utensil</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 8a:7\">Sabb. 8ᵃ</cite> <he>ת׳ ע״י הדחק לא שמיה ת׳</he> use by force (with inconvenience) is not considered use (such as makes the place so utilized public ground for Sabbath purposes). ",
+				"<cite ref=\"Bamidbar Rabbah 18:12\">Num. R. s. 18<sup>8</sup></cite> (ref. to <cite ref=\"Numbers 16:6\">Num. XVI, 6</cite>) <he>הרי לכם ת׳ החביב וכ׳</he> here is that service for you which is the choicest of all, the offering of frankincense &c.; Tanḥ. Kor. 5. ",
+				"<cite ref=\"Numbers 16:6\">Ib.</cite> <he>בשביל תִּשְׁמִישׁוֹ של עולם</he> for the service (benefit) of the world. ",
+				"<cite ref=\"Megillah 26b:9\">Meg. 26ᵇ</cite> <he>ת׳ קדושה הוא ואסיר</he> it is an object used at a sacred function, and is therefore forbidden for profane use; <cite ref=\"Megillah 26b:10\">ib.</cite> <he>ת׳ דת׳ הוא</he> it is an object subservient to an object which is used at a sacred function (e. g. a thing on which a sacred implement is laid); a. fr.—Pl. <he>תַּשְׁמִישִׁים</he>, <he>תַּשְׁמִישִׁין</he>. ",
+				"<cite ref=\"Megillah 26b:8\">Ib.</cite> <he>תַּשְׁמִישֵׁי מצוה נזרקין</he> things used for a religious ceremony may be thrown away (after having served their purpose); <he>תשמישי קדושה נגנזין</he> implements for sacred things must be stored away (v. <cite ref=\"C01120\"><he>גָּנַז</he></cite>); <he>ואלו הן ת׳ מצוה סוכה וכ׳</he> these are implements for a religious ceremony: the Succah, the Lulab &c.; <he>ואלו הן ת׳ קדושה וכ׳</he> and these are sacred implements: boxes for sacred scrolls &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with or without <he>המטה</he>) <i>marital connection</i>; in gen. <i>copulation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 8:1\">Yoma VIII, 1</cite>. ",
+				"<cite ref=\"Ketubot 65b:5\">Keth. 65ᵇ</cite>. ",
+				"<cite ref=\"Bekhorot 8a:5\">Bekh. 8ᵃ</cite> <he>כל שתַּשְׁמִישׁוֹ ביום</he> all animals which copulate in day time; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

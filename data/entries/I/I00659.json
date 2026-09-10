@@ -1,0 +1,22 @@
+{
+	"id": "I00659",
+	"slug": "טפיתא",
+	"headword": {
+		"text": "טְפִיתָא"
+	},
+	"page": {
+		"number": 547,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טְפֵי</he> III) = <cite ref=\"I00202\"><he>טוּפְיָינָא</he></cite>, <i>surplus, liberal measure</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 73b:5\">B. Mets. 73ᵇ</cite> <he>ושפכו ליה טפי כופיתא</he> (Ms. M. <he>ושפכי כופיתא</he>, read <cite ref=\"I00659\"><he>טפיתא</he></cite>; Alf. <cite ref=\"I00793\"><he>טַפְיָיתָא</he></cite> <i>pl.;</i> Ms. H. <he>טפי טוּפְיָאתָא</he>; Ms. R. <he>טפי טופיתא</he>, v. Rabb. D. S. a. l. note) and they (in delivering the wine) poured a liberal addition to the stipulated quantity."
+			]
+		}
+	]
+}

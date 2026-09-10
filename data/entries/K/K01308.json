@@ -1,0 +1,23 @@
+{
+	"id": "K01308",
+	"slug": "כשכוש",
+	"headword": {
+		"text": "כִּשְׁכּוּשׁ"
+	},
+	"page": {
+		"number": 676,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01310\"><he>כִּשְׁכֵּשׁ</he></cite>) <i>striking</i> (with the tail). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 19b:5\">B. Kam. 19ᵇ</cite> <he>כ׳ יתירא</he> a more than ordinary habit of knocking about. ",
+				"<cite ref=\"Bava Kamma 19b:5\">Ib.</cite> <he>כ׳ באמתא</he> Ms. M. (ed. <he>כשכשה באמתה</he>, v. Rabb. D. S. a. l. note), v. <cite ref=\"K01310\"><he>כִּשְׁכֵּשׁ</he></cite>."
+			]
+		}
+	]
+}

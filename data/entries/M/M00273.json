@@ -1,0 +1,38 @@
+{
+	"id": "M00273",
+	"slug": "מדור-1",
+	"headword": {
+		"text": "מָדוֹר"
+	},
+	"page": {
+		"number": 733,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דּוּר</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dwelling</i>.—<he>מְ׳ עמים</he> (<cite ref=\"P00731\"><he>עכ״ום</he></cite>, <he>מ׳ כותים</he>) <i>a dwelling that has been occupied by gentiles</i> (in Palestine, which is unclean until examined and found free of corpses). ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 18:10\">Tosef. Ohol. XVIII, 10</cite> <he>כיצר בודקין מ׳ הע׳</he> how is a vacated gentile dwelling examined?—",
+				"<cite ref=\"Tosefta Ohalot 18:6\">Ib. 6</cite> <he>כותיים עושים מ׳ הע׳</he> Samaritan inmates make a dwelling subject to the law of <i>m’dor ha‘ammim</i>. Ohol. XVIII, 9; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>story, compartment</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 24b\">R. Hash. 24ᵇ</cite> <he>מ׳ העליון</he> the upper story of the heavens; <he>מ׳ התחתון</he> the lower story (sphere of the heavenly bodies). ",
+				"<cite ref=\"Niddah 31a\">Nidd. 31ᵃ</cite> <he>מ׳ התחתון</he> the lowest compartment of the womb. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 23:2\">Pirké d’R. El. ch. XXIII</cite>; a. fr.—Pl. <cite ref=\"M01362\"><he>מְדוֹרוֹת</he></cite>, <he>מְדוֹרִין</he>. Ohol. XVIII, 7 <he>מ׳ הכותים</he>; <cite ref=\"Pesachim 9a:3\">Pes. 9ᵃ</cite> <he>מ׳ הכושים</he> (v. <cite ref=\"K00402\"><he>כּוּשִׁי</he></cite>); a. e.—",
+				"<cite ref=\"Tosefta Mikvaot 6:1\">Tosef. Mikv. VI, 1</cite> <he>מְדֹרוֹתֶיהָ</he> (R. S. to <cite ref=\"Mishnah Mikvaot 8:1\">Mikv. VIII, 1</cite> <he>מְדוֹרֶיהָ</he>) the dwellings therein.—[<cite ref=\"Tosefta Ma'aser Sheni 1:5\">Tosef. Maas. Sh. I, 5</cite> <he>מטבע מדור</he>, v. <cite ref=\"M02572\"><he>מָרוֹד</he></cite>.]—[<cite ref=\"Midrash Mishlei 6:7\">Midr. Prov. ch. VI</cite>; <cite ref=\"Yalkut Shimoni on Nach 939:5\">Yalk. ib. 939</cite> <he>מדורי</he>, v. <cite ref=\"M00276\"><he>מְדוּרָה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

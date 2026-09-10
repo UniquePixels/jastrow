@@ -1,0 +1,24 @@
+{
+	"id": "S00964",
+	"slug": "קילון",
+	"headword": {
+		"text": "קִילוֹן"
+	},
+	"page": {
+		"number": 1360,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κήλων) <i>swipe and bucket</i> for drawing water. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 1:1\">M. Kat. I, 1</cite> <he>אין משקין … ולא ממי ק׳</he> during the festive week you must not water a field with rain water or with water drawn with the swipe; <cite ref=\"Tosefta Moed Kattan 1:1\">Tosef. ib. I, 1</cite> <he>ואין ממלין הימנו בק׳</he> you must not draw water from it (the well) with the swipe; <he>אפי׳ … בק׳</he> not even from a pond which has been filled with buckets. ",
+				"<cite ref=\"Mishnah Makhshirin 4:9\">Makhsh. IV, 9</cite> <he>הממלא בק׳ עד וכ׳</he> if one draws water with the swipe, up to three days the water remaining in the bucket makes things susceptible of uncleanness, Maim. (differently expl. in Ar. a. R. S.); Tosef. ib. II, 9. ",
+				"<cite ref=\"Bava Batra 99b:4\">B. Bath. 99ᵇ</cite> <he>בית הק׳</he> Ms. M. (ed. <he>הקלון</he>, corr. acc.; Var. in comment. <he>הסילון</he>) a field irrigated by swipe and bucket; v. <cite ref=\"O00658\"><he>סִילּוֹן</he> II</cite>."
+			]
+		}
+	]
+}

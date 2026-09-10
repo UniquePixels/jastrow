@@ -1,0 +1,29 @@
+{
+	"id": "G00300",
+	"slug": "זיו-2",
+	"headword": {
+		"text": "זִיו",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיוָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 392,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"G00299\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 33:11\">Targ. Y. Ex. XXXIII, 11</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on I Kings 6:1\">Targ. I Kings VI, 1</cite>; <cite ref=\"Targum Jonathan on I Kings 6:37\">37</cite> <he>ירח ז׳ ניצניא</he>, v. preced.—",
+				"<cite ref=\"Rosh Hashanah 11a:11\">R. Hash. 11ᵃ</cite> <he>דאית בה ז׳ לאילני</he> for in that month (Ziv) there is the bloom of trees. Y. Yeb. XVI, 15ᶜ bot.; <cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite> <he>זִיוְוהוֹן דאפוי</he> his features.—",
+				"<cite ref=\"Sanhedrin 31b\">Snh. 31ᵇ</cite>, v. <cite ref=\"B01388\"><he>בִּתְיָה</he></cite>; a. e."
+			]
+		}
+	]
+}

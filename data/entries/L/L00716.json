@@ -1,0 +1,23 @@
+{
+	"id": "L00716",
+	"slug": "לתך",
+	"headword": {
+		"text": "לֶתֶךְ"
+	},
+	"page": {
+		"number": 720,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>Lethekh</i>, a dry measure, half a <i>Kor</i> (<cite ref=\"K00362\"><he>כּוֹר</he></cite>); also (= <he>בית ל׳</he>) a land-measure. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 6:3\">Shebu. VI, 3</cite>.—",
+				"<cite ref=\"Bava Metzia 104a:3\">B. Mets. 104ᵃ</cite>; <cite ref=\"Bava Batra 7a:12\">B. Bath. 7ᵃ</cite> <he>האומר בית כור … אע״פ שאין בו אלא ל׳ וכ׳</he> if one said, ‘I sell thee a Beth-kor of land’, although it measures only a L. &c."
+			]
+		}
+	]
+}

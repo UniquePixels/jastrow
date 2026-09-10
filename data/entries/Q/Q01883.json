@@ -1,0 +1,23 @@
+{
+	"id": "Q01883",
+	"slug": "פרנדא",
+	"headword": {
+		"text": "פְּרַנְדָּא"
+	},
+	"page": {
+		"number": 1230,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"Q01882\">preced.</cite>) (<cite ref=\"U01058\"><he>שירא</he></cite>) <he>שירה פ׳</he> <i>p’randa silk</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 48b:15\">Sot. 48ᵇ</cite> <he>משחרב … בטלה ש׳ פ׳ וכ׳</he> when the first Temple was destroyed, the use of <i>p.</i> silk and of white glass was suspended. ",
+				"<cite ref=\"Shabbat 20b:10\">Sabb. 20ᵇ</cite> <he>שירא … וש׳ פ׳ לחוד</he> silk is different from <i>p’randa</i> silk. [Sachs, Beitr. II, p. 185 refers to late Greek πράνδιοι (πράνδιον fillet, S.), from which he derives French <i>frange</i>, Engl. <i>fringe</i>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "Q01036",
+	"slug": "פלי-3",
+	"headword": {
+		"text": "פלי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּלָה"
+		}
+	],
+	"page": {
+		"number": 1181,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"Q01035\">preced.</cite>; cmp. <cite ref=\"B00154\"><he>בָּדַק</he></cite>)<i>to search</i>; (euphem.) <i>to search one’s garment for vermin</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 12a:7\">Sabb. 12ᵃ</cite> <he>אין פּוֹלִין לאור הנר</he> you must not search by lamp light (on the Sabbath); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּילָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01035\">same</cite>. Ib. I, 3 <he>לא יְפַלֶּה את כליו וכ׳</he> (Y. ed. <he>יֲפַלֵּא</he>) one must not examine one’s garments &c. Tosef. ib. XVI (XVII), 22 <he>המְפַלֶּה</he> (ed. Zuck. <he>המְפַלֵּא</he>); Y. ib. II, 3ᵇ <he>המפלא</he>; a. fr.—[Y. Maasr. II, 49ᵈ <he>לפלה</he> ed. Zyt. (ed. Krot. <he>לפנע</he>) read: <he>לפנות</he>, v. <cite ref=\"Q01162\"><he>פָּנָה</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִפְלָה"],
+			"senses": [
+				{
+					"gloss": "<i>to distinguish, speak distinctly</i>, v. <cite ref=\"Q01035\">preced.</cite>",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to mystify</i>, v. <cite ref=\"Q01037\">next w.</cite>",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

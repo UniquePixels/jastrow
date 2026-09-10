@@ -1,0 +1,26 @@
+{
+	"id": "Q01824",
+	"slug": "פריצא-1",
+	"headword": {
+		"text": "פְּרִיצָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1227,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01823\">same</cite><i>unbridled, licentious.—</i>Pl. <he>פְּרִיצֵי</he>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3b\">Ber. 3ᵇ</cite>, opp. <he>כשרי</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wild, vicious</i>. Ib. 54ᵃ <he>גמלא פ׳</he> (some ed. <he>פרצא</he>; Ms. M. <cite ref=\"Q01827\"><he>פריקא</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

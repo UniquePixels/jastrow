@@ -1,0 +1,40 @@
+{
+	"id": "V00773",
+	"slug": "תעב-2",
+	"headword": {
+		"text": "תָּעַב"
+	},
+	"page": {
+		"number": 1683,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"V00250\"><he>תּוֹעֵבָה</he></cite>, <i>to feel nauseous, to loathe</i>. [<cite ref=\"Midrash Tehillim 7:2\">Midr. Till. to Ps. VII</cite> <he>התועב את עצמו</he>, v. <cite ref=\"V00067\"><he>תָּבַע</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תִּעֵב", "תִּיעֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to loathe, abominate</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 104a:10\">Sabb. 104ᵃ</cite> (play on <cite ref=\"A03391\"><he>א״ת</he></cite>) <he>אותי ת׳ אתאוה לו</he> me (the Lord) he loathes, shall I have desire for him?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to declare an abomination, to forbid</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 66a:10\">Ab. Zar. 66ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 14:3\">Deut. XIV, 3</cite>) <he>כל שתִּיעַבְתִּי לך וכ׳</he> whatever I have declared an abomination for thee (whatever I have forbidden thee) comes under the category of ‘thou shalt not eat’ (all kinds of forbidden food come under the same category, hence can be combined to make up the legal quantity); <cite ref=\"Chullin 114b:9\">Ḥull. 114ᵇ</cite> <he>כל שתעבתי וכ׳</he> whatever I have forbidden thee, it is forbidden to eat (even if the text does not say explicitly, ‘thou shalt not eat’); <cite ref=\"Yalkut Shimoni on Torah 891\">Yalk. Deut. 891</cite>; a. e.—Part. pass. <he>מְתוֹעָב</he>; f. <he>מְתוֹעֶבֶת</he>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:14\">Cant. R. to II, 14</cite>, v. <cite ref=\"P00393\"><he>עָזַב</he></cite>"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

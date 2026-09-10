@@ -1,0 +1,27 @@
+{
+	"id": "U00111",
+	"slug": "שבי-3",
+	"headword": {
+		"text": "שְׁבִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֶׁבִי"
+		}
+	],
+	"page": {
+		"number": 1513,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00110\">preced.</cite>) <i>captivity, prison</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Horayot 3:7\">Hor. III, 7</cite> <he>האשה … מבית הש׳</he> a woman has the precedence of a man with regard to clothes and to relief from prison."
+			]
+		}
+	]
+}

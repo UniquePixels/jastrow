@@ -1,0 +1,28 @@
+{
+	"id": "J00201",
+	"slug": "יונאה",
+	"headword": {
+		"text": "יְוָנָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְוָו׳"
+		}
+	],
+	"page": {
+		"number": 569,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"J00206\"><he>יְוָנִי</he></cite>.—Pl. <he>יְוָנָאֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 2:4\">Targ. I Sam. II, 4</cite> (ed. Lag. <cite ref=\"J00174\"><he>יְוָונֵי</he></cite>, ed. Wil. <he>מַקְדּוּנָאֵי</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:24\">Targ. Y. I Deut. XXXII, 24</cite> (ed. Amst. <he>יוֹוָ׳</he>, ed. Vien. <cite ref=\"J00200\"><he>יוֹנָ׳</he></cite>; corr. acc.)."
+			]
+		}
+	]
+}

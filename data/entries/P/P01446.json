@@ -1,0 +1,29 @@
+{
+	"id": "P01446",
+	"slug": "ערקבלין",
+	"headword": {
+		"text": "עַרְקַבְלִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְקַבְנִין"
+		}
+	],
+	"page": {
+		"number": 1123,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (prob. fr. <he>עקב</he>; cmp. <cite ref=\"P01447\">next w.</cite>) <i>prickly creepers</i> on palm-trees, <i>palm-ivy</i> (v. <cite ref=\"H01652\"><he>חַרְחֲבִינָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 2:6\">Erub. II, 6</cite> (<cite ref=\"Eruvin 23a:10\">23ᵃ</cite>) <cite ref=\"P01223\"><he>עקרבנין</he></cite> Mish. (Y. ed. <he>ערקבנ׳</he>; Bab. ed. <he>ערקבל׳</he>); ib. 26ᵇ <cite ref=\"P01446\"><he>ערקבלין</he></cite>, expl. <he>אצוותא חרוזיאתא</he>, v. <cite ref=\"A02859\"><he>אַצְוָוא</he></cite>; <cite ref=\"Pesachim 39a:7\">Pes. 39ᵃ</cite> <he>ערקבל׳</he>. ",
+				"<cite ref=\"Mishnah Sheviit 7:2\">Shebi. VII, 2</cite> <he>ערקבנ׳</he> (Y. ed. <he>ערקבל׳</he>)."
+			]
+		}
+	]
+}

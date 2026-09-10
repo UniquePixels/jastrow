@@ -1,0 +1,41 @@
+{
+	"id": "O00909",
+	"slug": "סכל-1",
+	"headword": {
+		"text": "סָכַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 990,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"U01158\"><he>שָׂכַל</he></cite>; cmp. <cite ref=\"O00874\"><he>סָכָה</he></cite>)<i>to be bright</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְתַּכֵּל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִסְתַּכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to look at, observe; to reflect, keep in mind</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 92a:20\">Snh. 92ᵃ</cite> <he>המִסְתַּכֵּל בערוה</he> he who looks at his nakedness; (oth. opin.: who allows his obscene thoughts to dwell on a woman forbidden to him). ",
+						"<cite ref=\"Berakhot 10a\">Ber. 10ᵃ</cite> <he>נ׳ בכוכבים וכ׳</he> he looked at the stars and planets and recited a song. ",
+						"<cite ref=\"Berakhot 10a:19\">Ib.</cite> <he>נ׳ ביום המיתה</he> he speculated on the day of death. ",
+						"<cite ref=\"Midrash Tehillim 32:1\">Midr. Till. to Ps. XXXII</cite> (ref. to <cite ref=\"Proverbs 15:24\">Prov. XV, 24</cite>) <he>מי שהוא מסתכל למעלה</he> he who looks on high (prays to God); <he>בניו … שנִסְתַּכְּלוּ וכ׳</he> the sons of Korah who looked on high escaped. ",
+						"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> (ref. to <cite ref=\"Psalms 41:2\">Ps. XLI, 2</cite>) <he>אשרי נותן … הוי מסתכל בו וכ׳</he> it does not say, ‘blessed who gives to the poor’, but, ‘blessed who looks at the poor’, speculates how to do him good; a. fr.—V. <cite ref=\"U01158\"><he>שָׂכַל</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

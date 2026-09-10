@@ -1,0 +1,42 @@
+{
+	"id": "G00021",
+	"slug": "זבול",
+	"headword": {
+		"text": "זְבוּל"
+	},
+	"page": {
+		"number": 378,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00044\"><he>זָבַל</he></cite>) [<i>place of offering</i> or <i>entertainment</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>residence</i>, esp. <i>Temple</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 17a:5\">R. Hash. 17ᵃ</cite>; <cite ref=\"Jerusalem Talmud Berakhot 9:1:28\">Y. Ber. IX, 13ᵇ</cite> bot. <he>פשטו ידיהם בז׳</he> they laid hand on the Temple; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Z’bul</i>, name of the fourth heaven. ",
+			"units": [
+				"<cite ref=\"Chagigah 12b:6\">Ḥag. 12ᵇ</cite> <he>ז׳ שבו … ומזבח וכ׳</he> it is called <i>Z.</i>, because there are (the heavenly) Jerusalem and the Sanctuary with the altar erected &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " יום ז׳ <i>festival</i> of a heathen divinity. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> <he>יום ז׳ נילוס היה</he> it was the festival of Nilus; [cacophemistic disguise: <cite ref=\"N00055\"><he>נבול</he></cite>, <cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite>; Cant. R. beg. <he>ניבול וזבול</he>;—",
+				"<cite ref=\"Yalkut Shimoni on Torah 146:3\">Yalk. Gen. 146</cite> <he>גידול</he>; <cite ref=\"Sotah 36b:12\">Sot. 36ᵇ</cite> <he>חַגָּם</he>]. V. <cite ref=\"G00265\"><he>זִיבּוּל</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

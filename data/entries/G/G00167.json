@@ -1,0 +1,35 @@
+{
+	"id": "G00167",
+	"slug": "זוי-2",
+	"headword": {
+		"text": "זְוִי"
+	},
+	"page": {
+		"number": 386,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זהה</he>, cmp. Syr. <he>זוא</he> <i>tumuit</i>, P. Sm. 1092) [<i>breast</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>projection, bay-window</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:4\">Targ. I Kings VII, 4</cite> (h. text <he>מחזה</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a projection of a wall formed by abruptly reducing its thickness</i>, so as to give space for <i>a balcony</i>.—Pl. <cite ref=\"G00166\"><he>זָוֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 42:3\">Targ. Ez. XLII, 3</cite> (Levita <cite ref=\"G00241\"><he>זָזֵי</he></cite>; h. text <he>אתיק</he>).—<he>זיוַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 42:5\">Ib. 5</cite> (ed. Lag. <he>זִיזַיָּא</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

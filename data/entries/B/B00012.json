@@ -1,0 +1,35 @@
+{
+	"id": "B00012",
+	"slug": "באגנא",
+	"headword": {
+		"text": "בָּאגָנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 134,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00009\"><he>בָּאגָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cavity in the field, pool</i>. Pl. <he>בָּאגָנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 61b:1\">B. Kam. 61ᵇ</cite> top, Ms. M. <cite ref=\"N00171\"><he>נָאגָנֵי</he></cite> q. v."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B01120\"><he>בְּקִיעַ</he> I</cite>, a. <he>בקע</he> <cite ref=\"Joshua 9:4\">Josh. IX, 4</cite>) <i>broken</i> or <i>burst water-vessel.—Pl</i>. as above. ",
+			"units": [
+				"<cite ref=\"Berakhot 58a\">Ber. 58ᵃ</cite> <he>באגני גליא</he> Ms. M. (read <cite ref=\"L00403\"><he>לְיֵא</he></cite>, v. <cite ref=\"J00002\"><he>יֵא</he> I</cite>; ed. <cite ref=\"K00097\"><he>כגני</he></cite>, read <he>בָּגָגֵי</he>; Ms. F. <he>כאגני דשיג׳ ניגני</he>, read: <he>ב׳ ויש ג</he>(<he>ורסין</he>) <cite ref=\"N00002\"><he>נ׳</he></cite>, v. <cite ref=\"N00171\"><he>נָאגָנֵי</he></cite>) whither do the broken vessels go? (i.e. what has the blind man to do here?)."
+			],
+			"label": "2"
+		}
+	]
+}

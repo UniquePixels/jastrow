@@ -1,0 +1,29 @@
+{
+	"id": "M01987",
+	"slug": "מספד-2",
+	"headword": {
+		"text": "מִסְפַּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִסְפֵּד"
+		},
+		{
+			"text": "מִסְפְּדָא"
+		}
+	],
+	"page": {
+		"number": 810,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01986\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 50:10\">Targ. Gen. L, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 10:6\">Targ. Y. Deut. X, 6</cite>; a. e.—Pl. <he>מִסְפְּדַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Amos 5:16\">Targ. Am. V, 16</cite> (ed. Lag. a. oth. <i>sing.</i>)."
+			]
+		}
+	]
+}

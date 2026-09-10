@@ -1,0 +1,26 @@
+{
+	"id": "C00905",
+	"slug": "גלוסטרא",
+	"headword": {
+		"text": "גְּלוֹסְטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלוֹסְטְרָא"
+		}
+	],
+	"page": {
+		"number": 246,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (claustra, clostra, pl.) <i>fastening, lock, bar</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 10:10\">Erub. X, 10</cite> <he>נגר שיש בראשו ג׳</he> a door bolt which has on its top a (movable) fastening contrivance (which may occasionally be used as a pestle). ",
+				"<cite ref=\"Shabbat 123b:14\">Sabb. 123ᵇ</cite> <he>ג׳</he> (Ar. <cite ref=\"S00001\"><he>ק׳</he></cite>, Ms. M. repeatedly <he>גלוסקר׳</he>) the law about claustra, ref. to <cite ref=\"Mishnah Kelim 11:4\">Kel. XI, 4</cite> <cite ref=\"S00001\"><he>ק׳</he></cite>. ",
+				"<cite ref=\"Shabbat 124a:2\">Sabb. 124ᵃ</cite> <he>ג׳</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "K01293",
+	"slug": "כרתנין",
+	"headword": {
+		"text": "כְּרַתְנִין"
+	},
+	"page": {
+		"number": 675,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (denom. of <cite ref=\"K01287\"><he>כָּרָתֵי</he></cite>) <i>green material</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:6\">Targ. Esth. I, 6</cite> (h. text <cite ref=\"K01263\"><he>כַּרְפַּס</he></cite>, v. <cite ref=\"K01264\"><he>כַּרְפַּס</he> II</cite>)."
+			]
+		}
+	]
+}

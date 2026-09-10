@@ -1,0 +1,46 @@
+{
+	"id": "I00511",
+	"slug": "טלל-5",
+	"headword": {
+		"text": "טְלַל",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "טְלָלָא"
+		}
+	],
+	"page": {
+		"number": 537,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טְלַל</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": " (= h. <cite ref=\"R00475\"><he>צֵל</he></cite>) <i>shade, shadow</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 8:13\">Targ. Koh. VIII, 13</cite> (some ed. <cite ref=\"I00162\"><he>טול</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 6:12\">Ib. VI, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 91:1\">Targ. Ps. XCI, 1</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"O00903\"><he>סכך</he></cite>, <cite ref=\"O00875\"><he>סֻכָּה</he></cite>, <cite ref=\"M01941\"><he>מָסָךְ</he></cite>) <i>cover of twigs, reeds</i> &c.; in gen. <i>ceiling, cover, screen</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 27:5\">Targ. Ps. XXVII, 5</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 19a:3\">Ber. 19ᵃ</cite> <he>נפל קניא מט׳</he> (Ms. M. <he>משמי ט׳</he>) a reed fell down from the ceiling. ",
+				"<cite ref=\"Berakhot 48a:3\">Ib. 48ᵃ</cite> <he>אחוי לשמי ט׳</he> pointed up to the ceiling. ",
+				"<cite ref=\"Bava Kamma 66b:16\">B. Kam. 66ᵇ</cite> <he>מעיקרא כשורא והשתא ט׳</he> formerly it was named <i>beam</i>, now <i>ceiling</i>, v. <cite ref=\"M02692\"><he>מָרֵישׁ</he></cite>.—Pl. <he>טְלָלַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 40:21\">Targ. Job XL, 21</cite>, sq. (h. text <he>צאלים</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "U00373",
+	"slug": "שוט-2",
+	"headword": {
+		"text": "שׁוּט"
+	},
+	"page": {
+		"number": 1531,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00372\">same</cite>, <i>to roam, fly, swim, row</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:54\">Targ. Lam. III, 54</cite> (h. text <he>צפו</he>); a. e.—Part. <cite ref=\"U00878\"><he>שָׁיט</he></cite>, <cite ref=\"U00021\"><he>שָׁיֵיט</he></cite>; f. <he>שָׁיְיטָא</he>; pl. <he>שָׁיְיטִין</he>; <he>שָׁיְיטָן</he>. ",
+				"<cite ref=\"Onkelos Numbers 11:8\">Targ. O. Num. XI, 8</cite> <he>שָׁיְטִין</he> (ed. Berl. <he>נפקין</he>). ",
+				"<cite ref=\"Targum Jonathan on Jonah 1:13\">Targ. Jon. I, 13</cite>; a. e.—",
+				"<cite ref=\"Bava Kamma 83a:9\">B. Kam. 83ᵃ</cite> <he>מֵישַׁט שייטא טובא וכ׳</he> (a dove) flies (for exercise) farther out, but fills her belly within fifty cubits (from the dove-cote). ",
+				"<cite ref=\"Bava Kamma 83a:10\">Ib.</cite> <he>ומישט שלשים וכ׳</he> for exercise do they fly thirty Rises only and no more? <cite ref=\"Sotah 48b:16\">Sot. 48ᵇ</cite> (transl. ",
+				"<cite ref=\"Deuteronomy 1:44\">Deut. I, 44</cite>) <he>כמא דנתזין דבריאתא ושייטן ברומי וכ׳</he> as bees rush forth and fly about on the heights of the world, and bring honey from the herbs of the mountains; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שׁוֹטֵט"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"P00602\"><he>עינא</he></cite>) <i>to look up and down</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 22:10\">Targ. Y. II, Gen. XXII, 10</cite>."
+					]
+				}
+			],
+			"stem": "Pol."
+		}
+	]
+}

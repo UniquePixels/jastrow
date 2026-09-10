@@ -1,0 +1,28 @@
+{
+	"id": "O00219",
+	"slug": "סהרא",
+	"headword": {
+		"text": "סַהֲרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַהֲרָה"
+		}
+	],
+	"page": {
+		"number": 960,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"O00218\"><he>סהר</he></cite> = <he>זהר</he>) <i>light</i>, esp. <i>moonlight</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:3:1\">Cant. R. to VII, 3</cite>, v. <cite ref=\"G00106\"><he>זַהֲרָא</he> I</cite>. ",
+				"<cite ref=\"Berakhot 53a:22\">Ber. 53ᵃ</cite> <he>דאיכא ס׳</he> (Ms. F. <he>סיהרא</he>) when there is moonshine.—V. <he>סִיהֲרָא</he>."
+			]
+		}
+	]
+}

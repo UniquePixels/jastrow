@@ -1,0 +1,21 @@
+{
+	"id": "N00005",
+	"slug": "נא-3",
+	"headword": {
+		"text": "נָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 865,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>I pray, prithee</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 4:2\">Yoma IV, 2</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 9a:29\">Ber. 9ᵃ</cite>, a. e. <he>אין נא אלא וכ׳</he>, v. <cite ref=\"B01149\"><he>בַּקָּשָׁה</he></cite>."
+			]
+		}
+	]
+}

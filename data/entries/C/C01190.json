@@ -1,0 +1,52 @@
+{
+	"id": "C01190",
+	"slug": "געל-1",
+	"headword": {
+		"text": "גָּעַל"
+	},
+	"page": {
+		"number": 261,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(h. h.; cmp. <he>גאל</he>)<i>to be covered with impurity, be loathsome; to loathe</i>. V. <cite ref=\"C01189\">preced.</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגְעִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to remove impurity by means of hot water, to cleanse</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Avodah Zarah 5:12\">Ab. Zar. V, 12</cite> <he>את שדרכו להַגְעִיל יַגְעִיל</he> a vessel which ordinarily is cleansed with hot water, must be purified for ritual purposes by means of hot water. ",
+						"<cite ref=\"Avodah Zarah 76a:17\">Ib. 76ᵃ</cite> <he>כיצד מַגְעִילָן וכ׳</he> how must one disinfect them? You put a smaller vessel into a larger one &c.; a. fr.—Y. Ter. XI, 48ᵃ <he>מַגְעִילָהּ בחמין</he> removes the soakings of T’rumah &c. [Y. Maasr. I, end, 49ᵇ <he>שיגעיל</he>, read <he>משיעגל</he>, v. <cite ref=\"P00089\"><he>עָגַל</he></cite>.] V. <cite ref=\"E00080\"><he>הַגְעָלָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִגְעַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be removed through boiling</i>. Y. Ter. l. c.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְגָּעַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be soiled</i>. ",
+					"units": ["<cite ref=\"Zevachim 88a\">Zeb. 88ᵃ</cite>"]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "A01108",
+	"slug": "אטרף",
+	"headword": {
+		"text": "אַטְרַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲטְרְפָא"
+		}
+	],
+	"page": {
+		"number": 43,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"I00864\"><he>טַרְפָּא</he></cite>, h. <cite ref=\"I00862\"><he>טֶרֶף</he></cite>) <i>leaf</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:20\">Git. 69ᵇ</cite> (collect.).—Pl. <he>אַטְרְפִין</he>, <he>אַטְרְפֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 1:3\">Targ. Ps. I, 3</cite>. ",
+				"<cite ref=\"Bava Metzia 114b\">B. Mets. 114ᵇ</cite> (Var. <he>טרפי</he>, v. Rabb. D. S. a. l.)."
+			]
+		}
+	]
+}

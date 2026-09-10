@@ -1,0 +1,47 @@
+{
+	"id": "S01553",
+	"slug": "קנט-2",
+	"headword": {
+		"text": "קְנַט"
+	},
+	"page": {
+		"number": 1389,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01552\">same</cite>, <i>to loathe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:4\">Targ. Y. Num. XXI, 4</cite> (h. text <he>קצר</he>); <cite ref=\"Targum Jonathan on Numbers 21:5\">ib. 5</cite> (h. text <cite ref=\"S00529\"><he>קוּץ</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַנֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to vex</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 22:20\">Targ. Y. Ex. XXII, 20</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 19:2\">Targ. Job XIX, 2</cite> Ms. (ed. <he>תנקט׳</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקְנֵיט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01552\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 69:6\">Targ. Ps. LXIX, 6</cite> <he>מַקְנִיטַי</he> (some ed. <he>מקטיני</he>, corr. acc.). ",
+						"<cite ref=\"Aramaic Targum to Ruth 1:15\">Targ. Ruth I, 15</cite> (h. text <cite ref=\"Q00086\"><he>פגע</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

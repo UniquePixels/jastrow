@@ -1,0 +1,24 @@
+{
+	"id": "O00246",
+	"slug": "סוגא-2",
+	"headword": {
+		"text": "סוּגָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 961,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Suga</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 90b\">B. Bath. 90ᵇ</cite> Ms. M. (ed. <cite ref=\"Q00154\"><he>פוגא</he></cite>; v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

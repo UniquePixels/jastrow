@@ -1,0 +1,25 @@
+{
+	"id": "S01077",
+	"slug": "קיסמית",
+	"headword": {
+		"text": "קִיסְמִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִסְ׳"
+		}
+	],
+	"page": {
+		"number": 1365,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"S01071\"><he>קִיסָּם</he></cite>) <i>a mass of chips</i>. ",
+			"units": ["<cite ref=\"Berakhot 15a\">Ber. 15ᵃ</cite>"]
+		}
+	]
+}

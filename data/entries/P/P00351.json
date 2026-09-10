@@ -1,0 +1,22 @@
+{
+	"id": "P00351",
+	"slug": "עורבי",
+	"headword": {
+		"text": "עוֹרְבִי"
+	},
+	"page": {
+		"number": 1058,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>an inhabitant of a place called ‘Oreb</i> (v. <cite ref=\"P01266\"><he>עַרְבוּ</he></cite>).—Pl. <cite ref=\"P00351\"><he>עוֹרְבִים</he></cite>, <he>עוֹרְבִיִּים</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 5a:4\">Ḥull. 5ᵃ</cite> (ref. to <he>הָעֹרְבִים</he>, <cite ref=\"I Kings 17:6\">I Kings XVII, 6</cite>) <he>ודילמא על שם מקומן</he> might it not have been men called ‘Or’bim after their place? <he>אם כן עורביים מיבעי ליה</he> if it were so, it ought to read ‘Or’biyim."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "Q00673",
+	"slug": "פילוג-1",
+	"headword": {
+		"text": "פִּילּוּג"
+	},
+	"page": {
+		"number": 1163,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00934\"><he>פָּלַג</he></cite>) <i>division, separation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:23\">Y. Ber. I, 2ᶜ</cite> bot. <he>וכל פ׳ מי בראשית מתפלגין מתחתיו</he> whatever be the divisions into which the waters of creation parted, they started from under it (the tree of life); (<cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite>, a. e. <he>וכל מימי בראשית מתפלגין מתחתיו</he>)."
+			]
+		}
+	]
+}

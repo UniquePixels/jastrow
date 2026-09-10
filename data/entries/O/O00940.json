@@ -1,0 +1,41 @@
+{
+	"id": "O00940",
+	"slug": "סכר-1",
+	"headword": {
+		"text": "סָכַר"
+	},
+	"page": {
+		"number": 992,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O00903\"><he>סָכַךְ</he> I</cite>)<i>to bar, dam in; to stop, choke</i>; v. <cite ref=\"A02458\"><he>אַסְכָּרָה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְכּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be choked, stopped</i>. Tanḥ. P’kudé 2 <he>יִסָּכֵר פיהם של וכ׳</he> let the mouth of the nations be stopped.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִסְתַּכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be dammed in</i>; trnsf. (cmp. ",
+					"units": [
+						"<cite ref=\"Isaiah 19:4\">Is. XIX, 4</cite>) <i>to be hindered, curbed</i>. Y. Hor. III, 48ᶜ top <he>צפה … להַיסְתַּכֵּר במלכיות וכ׳</he> (Var. <he>להִיסְתַּכֵּךְ</he>) Moses divined that the Israelites would be curbed (oppressed) by foreign governments, and their chiefs would stand by them (protect them)."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

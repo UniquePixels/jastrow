@@ -1,0 +1,40 @@
+{
+	"id": "O01245",
+	"slug": "סנן-2",
+	"headword": {
+		"text": "סְנַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְנֵין"
+		}
+	],
+	"page": {
+		"number": 1008,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01244\">same</cite>; (act. verb) <i>to filter, clear, refine</i> (interch. with <i>Pa.</i>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 105:19\">Targ. Ps. CV, 19</cite> (Ms. <cite ref=\"O01245\"><he>סַנֵּין</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 17:3\">Ib. XVII, 3</cite>; a. fr.—Part. pass. <cite ref=\"O01238\"><he>סְנִין</he></cite>; f. <cite ref=\"O01243\"><he>סְנִינָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 12:7\">Ib. XII, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 68:14\">Ib. LXVIII, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 11:15\">Targ. Job XI, 15</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַנֵּין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01244\">same</cite>, v. supra. Ib. XXVIII, 1; a. e. [<cite ref=\"Targum Jonathan on Deuteronomy 33:28\">Targ. Y. I Deut. XXXIII, 28</cite> <he>דסַיַּין</he> (some ed. <he>דמיין</he>; h. text <he>ערף</he>) prob. to be read: <he>דמְסַנִּין וכ׳</he> (= <he>דמסננין</he>) which let filter down dews &c.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "P01219",
+	"slug": "עקרב",
+	"headword": {
+		"text": "עַקְרָב"
+	},
+	"page": {
+		"number": 1109,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; prob. fr. <he>עקב</he>, with anorg. <cite ref=\"T00000\"><he>ר</he></cite>; cmp. <cite ref=\"P01447\"><he>עַרְקוֹב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>scorpion</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:5\">Ab. V, 5</cite> <he>ולא הזיק נחש וע׳ וכ׳</he> nor did ever a serpent or a scorpion harm anybody in Jerusalem. ",
+				"<cite ref=\"Pirkei Avot 2:10\">Ib. II, 10</cite>, v. <cite ref=\"P01185\"><he>עֲקִיצָה</he></cite>. ",
+				"<cite ref=\"Shabbat 121b:4\">Sabb. 121ᵇ</cite> <he>ע׳ שבחדייב</he> the scorpion of Adiabene; Y. ib. XIV, beg. 14ᵇ. ",
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite> <he>היין משול בע׳</he> (some ed. <he>כע׳</he>) wine is compared to a scorpion; <he>מה ע׳ מכה בעוקצו … סופו</he> as the scorpion wounds with its tail, so wine wounds at the end. Sifra K’dosh., Par. 1, ch. II <he>עקצתו ע׳</he> if a scorpion stung him; a. fr.—Pl. <cite ref=\"P01222\"><he>עַקְרַבִּים</he></cite>, <cite ref=\"P01222\"><he>עַקְרַבִּין</he></cite>. Sabb. l. c. ",
+				"<cite ref=\"Bereishit Rabbah 84:16\">Gen. R. s. 84</cite> (ref. to <cite ref=\"Genesis 37:24\">Gen. XXXVII, 24</cite>) <he>מים אין בו אבל נחשים וע׳ וכ׳</he> water was not, but serpents and scorpion were therein; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the constellation Scorpio</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite>. Num. R. l. c. <he>כל שעה … אין ע׳ וכ׳</he> as long as Kimah (v. <cite ref=\"K00560\"><he>כִּימָה</he></cite>) is visible, Scorpio is invisible; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>bit of a bridle</i>. ",
+			"units": ["<cite ref=\"Mishnah Kelim 11:5\">Kel. XI, 5</cite>."],
+			"label": "3"
+		},
+		{
+			"gloss": " עַקְרַב בית הבד <i>the iron-shod part of the pressbeam</i>. Ib. XII, 3.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

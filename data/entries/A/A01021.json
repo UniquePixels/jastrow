@@ -1,0 +1,55 @@
+{
+	"id": "A01021",
+	"slug": "אחז",
+	"headword": {
+		"text": "אָחַז"
+	},
+	"page": {
+		"number": 39,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <cite ref=\"H00520\"><he>חזז</he></cite>, cmp. <he>אחד</he>)<i>to press, seize, hold, keep; to befall</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 27b\">Snh. 27ᵇ</cite> <he>אוֹחֲזִין מעשה וכ׳</he> holding in their hands the doing of their fathers, i.e. following their father’s example. ",
+				"<cite ref=\"Bekhorot 33b:5\">Bekh. 33ᵇ</cite> <he>אֲחָזוֹ דם</he> he had an attack of congestion. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 1:8:9\">Y. Pes. I, 28ᵇ</cite> <he>אֲחוּזַת הדם</he> the animal attacked with congestion. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:3:6\">Y. Sabb. XIV, 14ᶜ</cite> bot. <he>אֲחָזַתּוֹ עין</he> a pain in the eye seized him. Ib. XIX, end, 17ᵇ <he>אחזתו חמה</he> fever overtook him; a. fr.—אָחַז בְּ־ <i>to have a hold of</i>.—",
+				"<cite ref=\"Mishnah Bava Metzia 1:1\">B. Mets. I, 1</cite>. Y. Yoma II, 39ᶜ top; a. fr.—Part. pass. <he>אָחוּז</he> <i>holding fast, having a firm hold</i>. ",
+				"<cite ref=\"Shemot Rabbah 46\">Ex. R. s. 46</cite> (v. <cite ref=\"A00996\"><he>אֲחַד</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " א׳ את העינים <i>to capture the eyesight, to delude by optical deception</i>. ",
+			"units": ["<cite ref=\"Sanhedrin 65b\">Snh. 65ᵇ</cite>; a. e."],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱחַז"],
+			"senses": [
+				{
+					"gloss": "<i>to be seized</i>. Y. Taan. II, 65ᵈ top; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֶאֱחִיז"],
+			"senses": [
+				{
+					"gloss": "<i>to distribute split wood</i> (<i>kindling chips</i>) <i>in the gaps of a large pile, to ignite with kindling wood</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 1:11\">Sabb. I, 11</cite> (<cite ref=\"Shabbat 19b\">19ᵇ</cite> sq.) <he>ומַאֲחִיזִין</he> ed. (Mss., Ar. a. Y. ",
+						"<cite ref=\"Shabbat 19b\">ib.</cite> beg. 4ᶜ <he>ומחזין</he>, ed. Ven. <he>ומחיזין</he>); v. <cite ref=\"H00525\"><he>חָזָה</he></cite>."
+					]
+				}
+			],
+			"stem": "*Nif."
+		}
+	]
+}

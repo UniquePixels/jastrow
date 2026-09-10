@@ -1,0 +1,47 @@
+{
+	"id": "K01027",
+	"slug": "כפל-2",
+	"headword": {
+		"text": "כְּפַל"
+	},
+	"page": {
+		"number": 660,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01026\">same</cite>. Part. pass. <he>כָּפִיל</he> <i>double</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 8:7\">Targ. Cant. VIII, 7</cite>.—",
+				"<cite ref=\"Gittin 62a:15\">Gitt. 62ᵃ</cite> <he>דכַפְלִינָן שלמא וכ׳</he>, v. <cite ref=\"K01026\">preced.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְכְּפֵיל", "אִיכְּפִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be folded up, doubled</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 38:12\">Targ. Is. XXXVIII, 12</cite> (ed. Lag. <he>אתק׳</he>). ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 21:19\">Targ. Ez. XXI, 19</cite>.—",
+						"<cite ref=\"Bava Metzia 104b:5\">B. Mets. 104ᵇ</cite> <he>אי מקנא לא מִיכְּפֵל</he> if formal obligation is to be entered into (v. <cite ref=\"S01587\"><he>קִנְיָן</he></cite>), the document must not be made out for double the amount, v. <cite ref=\"K01026\">preced.</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be bent upon, take pains</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 5a:12\">Sabb. 5ᵃ</cite> <he>איכ׳ תנא וכ׳</he> was it necessary for the Tannai to take pains to let us hear all this (to be so explicit)?—",
+						"<cite ref=\"Bava Metzia 46a\">B. Mets. 46ᵃ</cite> <he>וא׳ תנא וכ׳</he> should the Tannai have taken the trouble to speak of such an exceptional case as that of a naked man &c.?—",
+						"<cite ref=\"Bava Batra 91a:12\">B. Bath. 91ᵃ</cite> <he>אִיכְּפֵל ואוליד וכ׳</he> apply thyself (Rashi: <i>marry again</i>), and beget &c. ",
+						"<cite ref=\"Shevuot 48b:4\">Shebu. 48ᵇ</cite> <he>אִיכְפְּלִי ואתאי וכ׳</he> have I taken the trouble to come all this distance for the sake of upsetting &c.?; a. e.—[Y. Ter. VIII, 46ᵃ top <he>אכפלן</he> ed. Zyt., v. <cite ref=\"A02728\"><he>אֲפַךְ</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

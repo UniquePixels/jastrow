@@ -1,0 +1,24 @@
+{
+	"id": "C01047",
+	"slug": "גמלון",
+	"headword": {
+		"text": "גַּמְלוֹן"
+	},
+	"page": {
+		"number": 254,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (deriv. of <cite ref=\"C01039\"><he>גָּמָל</he></cite>) <i>large-sized</i> (bean).—Pl. <he>גַּמְלוֹנִים</he>, <he>גַּמְלוֹנִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 2:8\">Shebi. II, 8</cite>; <cite ref=\"Mishnah Kilayim 3:2\">Kil. III, 2</cite>. <he>גמלנים</he> ed., v. <cite ref=\"A02627\"><he>אָפוּן</he></cite>.—",
+				"<cite ref=\"Tosefta Kilaim 2:8\">Tosef. Kil. II, 8</cite> <he>פולין הג׳</he> (v. ed. Zuck. note). ",
+				"<cite ref=\"Tosefta Tevul Yom 1:1\">Tosef. T’bul Yom I, 1</cite>."
+			]
+		}
+	]
+}

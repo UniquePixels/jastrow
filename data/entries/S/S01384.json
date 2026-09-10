@@ -1,0 +1,29 @@
+{
+	"id": "S01384",
+	"slug": "קלסטיר-1",
+	"headword": {
+		"text": "קְלַסְטֵיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלַסְטָר",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1379,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a transpos. of κάρταλλος, v. <cite ref=\"I00855\"><he>טְרַסְקָל</he></cite> a. <cite ref=\"S02120\"><he>קְרַסְטָל</he></cite>) <i>basket</i>, esp. <i>fodder-basket</i> used instead of a muzzle. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 20:1\">Kel. XX, 1</cite> <cite ref=\"S01384\"><he>קלסטר</he></cite> ed. Dehr. a. Ar. (ed. <cite ref=\"S01278\"><he>קלוסטור</he></cite>, <cite ref=\"S01278\"><he>קלוסטר</he></cite>; R. H. G. <cite ref=\"S02120\"><he>קרסטל</he></cite>); Sifra, M’tsorʿa, Zab., Par. 1, ch. II <cite ref=\"S01385\"><he>קְלַסְתָּר</he></cite>.—Pl. <he>קְלַסְטֵירִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:2:2\">Y. Sabb. V, beg. 7ᵇ</cite>"
+			]
+		}
+	]
+}

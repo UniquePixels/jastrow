@@ -1,0 +1,70 @@
+{
+	"id": "U01371",
+	"slug": "שלף-2",
+	"headword": {
+		"text": "שְׁלַף"
+	},
+	"page": {
+		"number": 1587,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01370\">same</cite>, <i>to loosen, pull, draw</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 4:11\">Targ. Hos. IV, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 31:8\">Targ. Y. Num. XXXI, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 3:22\">Targ. Jud. III, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 3:5\">Targ. Y. Ex. III, 5</cite>; a. fr.—",
+				"<cite ref=\"Targum of I Chronicles 1:20\">Targ. I Chr. I, 20</cite> (play on <he>שלף</he>, <cite ref=\"Targum of I Chronicles 1:20\">ib.</cite>) <he>ש׳ … לתחומיה</he> (not <he>לתחומיא</he>) he drew the rivers into his domain.—Part. pass. <cite ref=\"U01330\"><he>שְׁלִיף</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:10\">Targ. Y. I Deut. XXV, 10</cite> (Y. II <he>שְׁלוּפֵי</he> Hebraism, pl., h. text <cite ref=\"H01002\"><he>חלוץ</he></cite>).—V. <cite ref=\"U01331\"><he>שְׁלִיף</he> II</cite>.—",
+				"<cite ref=\"Yevamot 102b:8\">Yeb. 102ᵇ</cite> <he>ממאי דהאי וחלצה … מִישְׁלַף הוא</he> how do we know that this <i>v’ḥal’tsah</i> (<cite ref=\"Deuteronomy 25:9\">Deut. XXV, 9</cite>) means taking off? Y. ib. XII, 13ᵃ top <he>ושַׁלְפַת סיניה</he> and she took off his shoe. ",
+				"<cite ref=\"Shabbat 59b:16\">Sabb. 59ᵇ</cite> <he>דילמא שָׁלְפָא וכ׳</he> she might take off (her jewelry) and show it. ",
+				"<cite ref=\"Shabbat 59b:16\">Ib.</cite> <he>מְשַׁלְּפָא</he> (<i>Pa.</i>). ",
+				"<cite ref=\"Shabbat 82a:13\">Ib. 82ᵃ</cite> <he>ולא שליף ירקא וכ׳</he> and that no vegetable will be pulled, and eaten by you, out of the bunch &c. ",
+				"<cite ref=\"Shevuot 31a:10\">Shebu. 31ᵃ</cite> <he>שְׁלוֹפוּ</he>, v. <cite ref=\"Q00172\"><he>פּוּזְמְקֵי</he></cite>. ",
+				"<cite ref=\"Eruvin 11b:27\">Erub. 11ᵇ</cite> <he>זיל שְׁלוֹף וכ׳</he> go and pull (the reeds) out, and throw them away; a. fr.—Trnsf. (cmp. <cite ref=\"N01392\"><he>נתר</he></cite>, <cite ref=\"U01959\"><he>שרי</he></cite>) <i>to untie, annul</i>. ",
+				"<cite ref=\"Gittin 33b:3\">Gitt. 33ᵇ</cite> <he>מילתא … למִישְׁלְפָהּ</he> an act performed in the presence of ten persons, requires ten for revoking it; a. e.—",
+				"<cite ref=\"Yevamot 109b:4\">Yeb. 109ᵇ</cite> <he>ערבי שלציון דעבדי שְׁלוֹף דוץ</he> the guarantors of Shaltsiyon, where they practice ‘pull and stick in’, release the debtor and seize the guarantor.—",
+				"<cite ref=\"Shabbat 90a:11\">Sabb. 90ᵃ</cite>, a. e. <he>שלוף דוץ</he>, v. <cite ref=\"U01257\"><he>שְׁלוֹף</he></cite>.—[<cite ref=\"Shabbat 98b\">Sabb. 98ᵇ</cite>; Yalk. Ex. 370, v. <cite ref=\"U01279\"><he>שַׁלְחֵף</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁלֵּיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01370\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 14:40\">Targ. O. Lev. XIV, 40</cite> (h. text <he>חלץ</he>). ",
+						"<cite ref=\"Onkelos Leviticus 14:43\">Ib. 43</cite> (some ed. <i>Pe.</i>).—",
+						"<cite ref=\"Yevamot 102b:9\">Yeb. 102ᵇ</cite> (ref. to <he>החלצו</he>, <cite ref=\"Numbers 31:3\">Num. XXXI, 3</cite>) <he>שַׁלּוּפֵי מביתא וכ׳</he> it means tearing away from home to war. ",
+						"<cite ref=\"Moed Katan 4b\">M. Kat. 4ᵇ</cite>, v. <cite ref=\"D00841\"><he>דָּלַל</he></cite>. ",
+						"<cite ref=\"Shabbat 59b:16\">Sabb. 59ᵇ</cite>, v. supra; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּלֵּיף"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּלִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be drawn; to be loosened, to slip</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 21:15\">Targ. Ez. XXI, 15</cite> (h. text <he>הוחדה</he>). ",
+						"<cite ref=\"Targum Jonathan on II Kings 6:5\">Targ. II Kings VI, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 33:20\">Targ. Is. XXXIII, 20</cite> (h. text <he>יסע</he>); a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

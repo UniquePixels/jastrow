@@ -1,0 +1,32 @@
+{
+	"id": "K01003",
+	"slug": "כפות",
+	"headword": {
+		"text": "כָּפוּת"
+	},
+	"page": {
+		"number": 658,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ",
+			"units": []
+		},
+		{
+			"gloss": " part. pass. of <cite ref=\"K01061\"><he>כָּפַת</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bandage</i>.—Pl. <he>כְּפוּתִים</he>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>כְּפוּתֵינוּ חזקים וכ׳</he> our bandages were as strong as iron.—[<he>כְּפוּתִין</he>, <cite ref=\"Tosefta Kelim Kamma 7:7\">Tosef. Kel. B. Kam. VII, 7</cite>, v. <cite ref=\"S00045\"><he>קָבוּת</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

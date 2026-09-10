@@ -1,0 +1,56 @@
+{
+	"id": "M01595",
+	"slug": "מלל-7",
+	"headword": {
+		"text": "מְלַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 792,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"M01542\"><he>מַלֵּיל</he></cite>, <he>מַלֵּל</he> ch. same, in gen. <i>to speak</i> (corresp. to b. h. <cite ref=\"D00478\"><he>דִּבֵּר</he></cite>, <cite ref=\"U00853\"><he>שִׂיחַ</he></cite>). ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 34:3\">Targ. Gen. XXXIV, 3</cite> (O. ed. Berl. <cite ref=\"M01542\"><he>מַלֵּי</he></cite>). Ib. XVII, 22, sq.; a. v. fr.—Part. <cite ref=\"M01673\"><he>מְמַלֵּל</he></cite>, <he>מְמַלְּלָא</he> &c. (in ed. frequ. with one <cite ref=\"M00000\"><he>מ</he></cite>, corr. acc.). ",
+						"<cite ref=\"Aramaic Targum to Job 2:10\">Targ. Job II, 10</cite>; a. fr.—",
+						"<cite ref=\"Kiddushin 50a:14\">Kidd. 50ᵃ</cite> <he>מְמַלֵּי מילי עלוי</he> (= <he>מְמלְּלֵי</he>) they speak against me."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְמַלֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be spoken, said, told</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 87:3\">Targ. Ps. LXXXVII, 3</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 20:16\">Targ. Y. Ex. XX, 16</cite>; a. e.—Y. Shek. VI, 50, top (play on <he>שחו</he>, <cite ref=\"Ezekiel 47:5\">Ez. XLVII, 5</cite>) [read:] <he>מאי מי שחו מיין דמִתְמַלְּלִין וכ׳</he> what is <i>me saḥu?</i> Waters which are spoken of in the world (v. <cite ref=\"U00853\"><he>שִׂיחַ</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to converse</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 33:9\">Targ. Y. Ex. XXXIII, 9</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 2:2\">Targ. Ez. II, 2</cite>; <cite ref=\"Targum Jonathan on Ezekiel 1:28\">I, 28</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "O00561",
+	"slug": "סיגלא",
+	"headword": {
+		"text": "סִיגְלָא"
+	},
+	"page": {
+		"number": 975,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00148\"><he>סְגַל</he></cite>, cmp. <cite ref=\"O00110\"><he>סְגוֹל</he></cite>) [<i>bunch of</i>] <i>violets</i> [Ar. s. v. <he>עפר</he>: <i>root of the Cyperus rotundus</i>, v. Löw Pfl.; p. 269]. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:12\">Targ. Y. Num. XXI, 12</cite>.—",
+				"<cite ref=\"Sanhedrin 99b:9\">Snh. 99ᵇ</cite> (expl. <he>דודאים</he>, <cite ref=\"Genesis 30:14\">Gen. XXX, 14</cite>). ",
+				"<cite ref=\"Shabbat 50b:6\">Sabb. 50ᵇ</cite>, v. <cite ref=\"B01177\"><he>בַּרְדָּא</he> II</cite>. ",
+				"<cite ref=\"Berakhot 43b:2\">Ber. 43ᵇ</cite> (Ar. some ed. <he>סגילי</he>)."
+			]
+		}
+	]
+}

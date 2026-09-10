@@ -1,0 +1,34 @@
+{
+	"id": "H01827",
+	"slug": "חשי-2",
+	"headword": {
+		"text": "חֲשִׁי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשָׁא"
+		}
+	],
+	"page": {
+		"number": 509,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H01826\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:1:3\">Y. Ab. Zar. I, 39ᵇ</cite> top <he>חֲשִׁי דמלכא וכ׳</he> hush, for the king wants it so (desires to be worshipped in the form of a calf)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"H00488\"><he>חוּשׁ</he></cite>) <i>to feel, suffer</i>, v. <cite ref=\"H00488\"><he>חוּשׁ</he></cite> ch.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

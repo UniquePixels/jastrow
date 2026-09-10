@@ -1,0 +1,31 @@
+{
+	"id": "U01095",
+	"slug": "שישורא",
+	"headword": {
+		"text": "שִׁישׁוּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁירְשׁ׳"
+		},
+		{
+			"text": "שִׁרְשׁ׳"
+		}
+	],
+	"page": {
+		"number": 1569,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U02031\"><he>שְׁרַר</he></cite>) <i>rope</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 82a:10\">Pes. 82ᵃ</cite> <he>דקא גדיל שיש׳</he> (Ms. M. <cite ref=\"U01095\"><he>שירש׳</he></cite>) if he (the unclean priest) is a ropemaker (who cannot be suspected of neglecting the Temple service from mercenary motives). ",
+				"<cite ref=\"Bava Kamma 96a:10\">B. Kam. 96ᵃ</cite> <he>חופיא ועבדיה שר׳</he> (Ms. M. <he>ועבדינהו שיש׳</he>) if one stole palm leaves made into a broom, and made them into a rope."
+			]
+		}
+	]
+}

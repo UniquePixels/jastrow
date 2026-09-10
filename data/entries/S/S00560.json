@@ -1,0 +1,23 @@
+{
+	"id": "S00560",
+	"slug": "קור-4",
+	"headword": {
+		"text": "קוֹר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1341,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"S01872\"><he>קֹר</he></cite>; <cite ref=\"S02195\"><he>קָרַר</he> II</cite>)<i>cold, cold season</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 106b:6\">B. Mets. 106ᵇ</cite> (ref. to <cite ref=\"Genesis 8:22\">Gen. VIII, 22</cite>) <he>חצי שבט … ק׳</he> half of Shebat, the whole of the month of Adar, and half of Nisan form the season of <i>Ḳor</i>; <cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite>."
+			]
+		}
+	]
+}

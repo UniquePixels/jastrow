@@ -1,0 +1,34 @@
+{
+	"id": "P00381",
+	"slug": "עותנאי",
+	"headword": {
+		"text": "עַוְתָנַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַוְתָנַי"
+		},
+		{
+			"text": "עַוְו׳"
+		},
+		{
+			"text": "כְּפַר עַוְתָנַאי"
+		}
+	],
+	"page": {
+		"number": 1060,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>K’far Avthanai</i>, in Galilee. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 1:5\">Gitt. I, 5</cite>; <cite ref=\"Tosefta Gittin 1:4\">Tosef. ib. I, 4</cite>. ",
+				"<cite ref=\"Tosefta Gittin 7:9\">Ib. VII</cite> (<cite ref=\"Tosefta Gittin 5:9\">V</cite>), 9; Y. B. Mets. VII, end, 11ᶜ"
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "O01031",
+	"slug": "סלקונדרית",
+	"headword": {
+		"text": "סַלְקוּנְדְרִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַלְקוּנְרִית"
+		}
+	],
+	"page": {
+		"number": 997,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01030\">preced.</cite>) <he>מלח ס׳</he> <i>lumpy salt</i> (used by bakers), for which, it was believed, entrails of unclean animals were used as a condiment or to polish its surface. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 2:6\">Ab. Zar. II, 6</cite> (<cite ref=\"Avodah Zarah 35b\">35ᵇ</cite>) <he>מלח ס׳</he> Ms. M. (Mish. ed. <cite ref=\"O01032\"><he>סלקונטית</he></cite>; Bab. ed. <cite ref=\"U01383\"><he>שלקונדית</he></cite>; Y. ed. <cite ref=\"O00971\"><he>סלוקנרית</he></cite>; Alf. <cite ref=\"O01032\"><he>סלקונתית</he></cite>). Tosef. ib. IV (V), 12 <he>מלח סלקונתית שחורה</he> ed. Zuck. (Var. <he>של קינטית</he>, oth. ed. <he>סלקונט׳</he>) black Salḳundre salt (prepared by pouring saline water over piles of burning wood, v. Lübker Reallex. s. v. Salinae); <he>לבנה …</he> white Salḳ. salt; Y. ib. IV, end, 42ᵃ; Bab. ib. 39ᵇ. Ib. <he>מאי מלח ס׳ מלח שכל סלקונדרי רומי אוכלין אותה</he> (Ar. <he>סלוקתי … בה</he>) what is Salḳ. salt? A salt which all Roman <i>siliginarii</i> use at their meals (R. Niss. to Alf.: which all Roman nobles eat, i.e. those using fine bakery or confections)."
+			]
+		}
+	]
+}

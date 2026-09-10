@@ -1,0 +1,31 @@
+{
+	"id": "Q02200",
+	"slug": "פתר-1",
+	"headword": {
+		"text": "פָּתַר"
+	},
+	"page": {
+		"number": 1255,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"Q02099\"><he>פָּשׁר</he></cite>) [<i>to divide, spread</i>,] <i>to solve; to interpret</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 55b:16\">Ber. 55ᵇ</cite> <he>כ״ר פּוֹתְרֵי חלומות וכ׳</he> twenty-four interpreters of dreams existed in Jerusalem, <he>ומה שפ׳ לי זה לא פ׳ וכ׳</he> and not two of them interpreted my dream alike. Pesik. Par., p. 33ᵃ <he>פ׳ קרא בפרשת פרה</he> explained the verse (<cite ref=\"Psalms 12:7\">Ps. XII, 7</cite>) as referring to the lesson concerning the red cow; <cite ref=\"Bamidbar Rabbah 19:2\">Num. R. s. 19</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְתַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be interpreted, solved</i>. Ber. l. c. <he>חלום שנ׳ וכ׳</he> a dream which was interpreted in a dream. Y. Shek. IV, 48ᵇ <he>תִּיפָּתֵר שפודין וכ׳</he> it may be explained that they redeem unblemished sacrifices, and when afterwards they are blemished, (the money paid for them is secularized). Y. Ber. VII, 11ᵃ bot. <he>תיפתר כר׳ וכ׳</he> the difficulty may be solved in agreement with R. Ishmael’s opinion; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

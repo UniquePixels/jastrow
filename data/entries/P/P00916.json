@@ -1,0 +1,32 @@
+{
+	"id": "P00916",
+	"slug": "עמץ-2",
+	"headword": {
+		"text": "עֲמַץ"
+	},
+	"page": {
+		"number": 1090,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עַמֵּיץ</he> <cite ref=\"P00915\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Beitzah 22a:16\">Bets. 22ᵃ</cite> <he>דקא ע׳ ופתח</he> for you closed and opened your eyes, v. <cite ref=\"O00767\"><he>סִיעַ</he></cite> ch. ",
+						"<cite ref=\"Sanhedrin 110a\">Snh. 110ᵃ</cite> top <he>כל דחזי לה … ע׳ עינוי ואזיל</he> Ar. (differ. in ed.) whoever saw her … closed his eyes and went off."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

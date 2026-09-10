@@ -1,0 +1,41 @@
+{
+	"id": "K00703",
+	"slug": "כלום",
+	"headword": {
+		"text": "כְּלוּם"
+	},
+	"page": {
+		"number": 640,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>כל מ</he>, cmp. <cite ref=\"M00011\"><he>מְאוּם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>anything, something, somebody</i> (Lat. ullus). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:9\">Targ. Koh. I, 9</cite> <he>לית כ׳</he> (h. text <he>אין כל</he>).—",
+				"<cite ref=\"Yalkut Shimoni on Torah 730:1\">Yalk. Num. 730</cite> (ref. to <cite ref=\"Numbers 10:35\">Num. X, 35</cite>) <he>מפניך … ואין אנו כ׳ לפניהם</he> before thee they flee, and are we nothing before them? <he>אלא כשפניך אתנו אנו כ׳ לפניהם וכשאין פניך אתנו אין אנו כ׳ לפניהם</he> but (it means) when thy countenance is with us we are <i>something</i> before them &c.; <cite ref=\"Sifrei Bamidbar 84\">Sifré Num. 84</cite> (corr. acc.).—",
+				"<cite ref=\"Mishnah Kelim 24:1\">Kel. XXIV, 1</cite> <he>טהורה מכ׳</he> is clean from any (of the aforementioned impurities). ",
+				"<cite ref=\"Berakhot 22b\">Ber. 22ᵇ</cite>, a. fr. <he>פטור מכ׳</he> is entirely exempt. ",
+				"<cite ref=\"Mishnah Nedarim 1:1\">Ned. I, 1</cite>, a. fr. <he>לא אמר כ׳</he> he has said nothing, i.e. what he said is void.—לא כ׳ <i>not the least, nothing at all</i>. ",
+				"<cite ref=\"Eruvin 11a:15\">Erub. 11ᵃ</cite> <he>לא עשה ולא כ׳</he> (Rashi <he>לא עשה כ׳</he>) he has done nothing at all, i.e. what he has done has no legal consequences. ",
+				"<cite ref=\"Eruvin 11b:15\">Ib.ᵇ</cite> <he>הכל מודין</he> … <he>לא כ׳ היא</he> Ms. M. all agree that if …, there is nothing at all (to consider; ed. <he>ולא כ׳</he> = <he>פטורה ולא כ׳</he> it is exempt, and there is nothing &c.); <cite ref=\"Yoma 11b:5\">Yoma 11ᵇ</cite> <he>ולא כ׳</he> (<he>ולאו</he>) <he>היא</he> (v. Rabb. D. S. a. l. Ms. M. and note).—",
+				"<cite ref=\"Kohelet Rabbah 9:10:1\">Koh. R. to IX, 10</cite> <he>מאן הוא דכ׳ ודבר בגרמיה כ׳ וכ׳</he> if a person is somebody and comports himself as somebody (is proud of his value), it were better he had not been born; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (interrog.) introducing a question to which a negative answer is expected, <i>is there any? has any?</i> &c. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 105a:3\">Snh. 105ᵃ</cite> <he>כ׳ יש לזה על זה כ׳</he> has the one still any claim on the other? <cite ref=\"Shabbat 31a:9\">Sabb. 31ᵃ</cite> <he>כ׳ מעמידין וכ׳</he> is there ever a king appointed except &c.? <cite ref=\"Mishnah Nedarim 8:7\">Ned. VIII, 7</cite> <he>כ׳ אמרת וכ׳</he> wouldst thou have said it, but for thy wish to honor me?; a. fr.—[<cite ref=\"Tosefta Menahot 13:19\">Tosef. Men. XIII, 19</cite>; <cite ref=\"Tosefta Bava Kamma 7:8\">Tosef. B. Kam. VII, 8</cite>, v. <cite ref=\"D00843\"><he>דֶּלֶם</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

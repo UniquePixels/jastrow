@@ -1,0 +1,31 @@
+{
+	"id": "R00231",
+	"slug": "צוצלא",
+	"headword": {
+		"text": "צוֹצְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צוֹצִילְתָּא"
+		},
+		{
+			"text": "צוֹצַלְ׳"
+		}
+	],
+	"page": {
+		"number": 1270,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>צלצל׳</he>; <cite ref=\"R00544\"><he>צַלְצֵל</he></cite>) <i>a species of-small turtle doves</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 75a:10\">B. Bath. 75ᵃ</cite> <he>השתא כביעתא דצוצלא וכ׳</he> Ar. ed. Koh. (ed. <cite ref=\"R00443\"><he>צִיצְלָא</he></cite>; Rashi <he>צוצילתא</he>; Ms. M. <cite ref=\"R00546\"><he>צִלְצְלָא</he></cite>; Ms. R. <cite ref=\"R00504\"><he>צִילְ׳</he></cite>; Ms. H. <cite ref=\"R00364\"><he>צִילְצוּלָא</he></cite>; v. Rabb. D. S. a. l. note) we do not even find a jewel as large as the egg of a dove, and (you say) we shall find jewels of such sizes?; <cite ref=\"Sanhedrin 100a:7\">Snh. 100ᵃ</cite> <he>צוּלְצְלָא</he> Ms. M. (ed. <cite ref=\"R00366\"><he>צִילְצְלָא</he></cite>; Ms. K. <cite ref=\"R00194\"><he>צִוּלְצִילְתָּא</he></cite>; Ms. F. <he>צוצילתא</he>; Pesik. ʿAniya, p. 137ᵃ <cite ref=\"U01785\"><he>שפנינא</he></cite>). ",
+				"<cite ref=\"Shabbat 80b:9\">Sabb. 80ᵇ</cite> <he>צלצלתא</he> Ms. M. (ed. <he>צילצלא</he>, <he>צִילְצְלֵי</he> pl.; Ms. O. <he>צוצילתא</he>; v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

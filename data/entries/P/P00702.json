@@ -1,0 +1,33 @@
+{
+	"id": "P00702",
+	"slug": "עישור",
+	"headword": {
+		"text": "עִישּׂוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִשּׂוּר"
+		}
+	],
+	"page": {
+		"number": 1077,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01501\"><he>עֶשֶׂר</he></cite>) <i>one tenth</i>; (= <cite ref=\"M02188\"><he>מַעֲשֵׂר</he></cite>) <i>tithe, giving tithes</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 68a:16\">Keth. 68ᵃ</cite> <he>ראשונה נוטלת ע׳ נכסים וכ׳</he> the first daughter gets one-tenth of the estate, the second one-tenth of what is left &c. ",
+				"<cite ref=\"Mishnah Bikkurim 2:6\">Bicc. II, 6</cite> <he>בשעת לקיטתו עִשּׂוּרוֹ</he> the giving of tithes is regulated by the time it (the Ethrog) is plucked, expl. Y. ib. 65ᵃ bot. <he>בשעת לקיטתו עישורו למעשרות ולשביעית</he> this regulation refers to tithes as well as to the Sabbatical year (the time of plucking decides to which year the fruit belongs). ",
+				"<cite ref=\"Mishnah Maaser Sheni 5:9\">Maas. Sh. V, 9</cite>; a. fr.—Trnsf. <i>dedication, sanctification</i>. ",
+				"<cite ref=\"Devarim Rabbah 3:5\">Deut. R. s. 3</cite> (ref. to <cite ref=\"Deuteronomy 7:13\">Deut. VII, 13</cite>) <he>מה פרי אדמתך צריכים ע׳ … צריכים ע׳ וכ׳</he> as the fruit of thy soil requires sanctification by tithes, so the fruit of thy womb requires sanctification, which is circumcision.—Pl. <he>עִישּׂוּרִים</he>, <he>עִישּׂוּרִין</he>, <cite ref=\"P00701\"><he>עִשּׂ׳</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 14a:11\">R. Hash. 14ᵃ</cite> <he>נהג בו שני ע׳</he> he subjected it to two tithes (that of the second and that of the third year). ",
+				"<cite ref=\"Tosefta Demai 8:18\">Tosef. Dem. VIII, 18</cite> <he>תשעים ושלשה חסר שני ע׳</he> ninety-three parts less two-tenths. ",
+				"<cite ref=\"Tosefta Demai 8:15\">Ib. 15</cite> <he>שתי תאנים ושני ע׳ ועִישּׂוּרוֹ של עישור</he> two figs (as Trumah), and two tithes (first and second), and tithe of the tithes (= <he>מעשר מן המעשר</he>); Y. ib. I, end, 22ᵇ <he>ועישורין של עישור</he> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "C00960",
+	"slug": "גלל-2",
+	"headword": {
+		"text": "גְּלַל"
+	},
+	"page": {
+		"number": 249,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00959\">same</cite>, <i>to roll, unfold</i>.—Part. pass. <cite ref=\"C00944\"><he>גְּלִיל</he></cite> <i>unfolded, visible</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:14\">Targ. Cant. V, 14</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּלֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to roll off</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 28:10\">Targ. Y. II, Gen. XXVIII, 10</cite> (some ed. <he>לִגְלָלָא</he> Pe.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְגְּלַל"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"C00870\"><he>גַּלְגֵּל</he></cite>, Ithpalp.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

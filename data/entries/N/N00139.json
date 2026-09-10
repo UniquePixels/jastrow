@@ -1,0 +1,32 @@
+{
+	"id": "N00139",
+	"slug": "נגוון",
+	"headword": {
+		"text": "נַגְוָון"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַגְוָותָא"
+		},
+		{
+			"text": "נַגְוָ׳"
+		}
+	],
+	"page": {
+		"number": 873,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>נגו</he>, cmp. <cite ref=\"N00007\"><he>נָאגָנָא</he></cite>; Assyr. <i>nagû</i>, <i>pl. nagê</i>; cmp. <cite ref=\"B01131\"><he>בִּקְעָה</he></cite>) <i>plains,</i> esp. <i>islands, sea-districts</i>; also <i>inhabitants, colonists</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:3\">Targ. O. Gen. XXV, 3</cite> <he>ולנַ׳</he> (ed. Berl. <he>לִינְגָּוָון</he> = <he>לאִנְגָּ׳</he>; cmp. Nöld. Mand. Gramm. p. 166, note; h. text <he>לאמים</he>). Ib. X, 5 <he>נְגָוַת</he> ed. Berl. (oth. ed. <he>נַגְוַת</he>; h. text <cite ref=\"A01229\"><he>אִיֵּי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 66:19\">Targ. Is. LXVI, 19</cite>; a. fr."
+			]
+		}
+	]
+}

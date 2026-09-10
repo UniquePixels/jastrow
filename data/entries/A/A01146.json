@@ -1,0 +1,31 @@
+{
+	"id": "A01146",
+	"slug": "איגרא-1",
+	"headword": {
+		"text": "אִיגָרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיגְרָא"
+		},
+		{
+			"text": "אִגָרָא"
+		}
+	],
+	"page": {
+		"number": 44,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(also <he>אִיגּ׳</he> with Dagesh) const. <cite ref=\"A01145\"><he>אִיגַר</he></cite> same. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:9\">Targ. Prov. XXI, 9</cite>; a. fr.—Ruth. R. to I, 17 (Par. 3) <he>איגר פלטין</he> roof of the palace. ",
+				"<cite ref=\"Gittin 85b\">Git. 85ᵇ</cite> (Rashi <he>איגרת</he>, corr. acc.), v. <cite ref=\"A00364\"><he>אִגֶּרֶת</he></cite>.—Pl. <he>אִיגָרַיָּא</he>, <he>אִיגָרַיָּיא</he>; <cite ref=\"C01321\"><he>אִיגָרֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 19:26\">Targ. II Kings XIX, 26</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:12:3\">Y. Pes. VII, 35ᵇ</cite> (<cite ref=\"Shir HaShirim Rabbah 2:14\">Cant. R. to II, 14</cite> <cite ref=\"A00221\"><he>אברייאה</he></cite>, corr. acc.); v. <cite ref=\"G00431\"><he>זֵיתָא</he> I</cite>. Lam. R. introd. (R. Yoḥ. 1) <he>ולא׳ סלקין</he> and they ascend the roofs. ",
+				"<cite ref=\"Pesachim 111b:4\">Pes. 111ᵇ</cite> <he>דבי א׳</he> those (demons) dwelling on roofs."
+			]
+		}
+	]
+}

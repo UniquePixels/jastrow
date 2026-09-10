@@ -1,0 +1,28 @@
+{
+	"id": "N00641",
+	"slug": "ניזק",
+	"headword": {
+		"text": "נִיזָּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִזָּק"
+		}
+	],
+	"page": {
+		"number": 903,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"N00459\"><he>נָזַק</he></cite>) <i>one who claims damages;</i> pl. <cite ref=\"N00463\"><he>נִיזָּקִין</he></cite>, <he>נִזָּ׳</he> <i>cases of damage claims</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 5:1\">Gitt. V, 1</cite>; v. <cite ref=\"P00512\"><he>עִידִּית</he></cite>. ",
+				"<cite ref=\"Bava Kamma 83b:15\">B. Kam. 83ᵇ</cite>; a. fr.; v. <cite ref=\"N00461\"><he>נֵזֶק</he></cite>."
+			]
+		}
+	]
+}

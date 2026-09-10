@@ -1,0 +1,33 @@
+{
+	"id": "B01309",
+	"slug": "ברץ-1",
+	"headword": {
+		"text": "בָּרַץ"
+	},
+	"page": {
+		"number": 196,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בר</he>; cmp. <cite ref=\"B01216\"><he>ברז</he></cite>, v. P. Sm. 618) <i>to break through</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בֵּרֵץ"],
+			"senses": [
+				{
+					"gloss": "<i>to cut through</i> from end to end. Part. Pu. <he>מְבוֹרָץ</he>. ",
+					"units": [
+						"<cite ref=\"Tosefta Kilaim 3:10\">Tosef. Kil. III, 10</cite> <he>חריץ המב׳</he> a ditch which is cut through, going from end to end of the vineyard (Mish. ",
+						"<cite ref=\"Mishnah Kilayim 5:3\">ib. V, 3</cite> <cite ref=\"M02199\"><he>מפולש</he></cite>). ",
+						"<cite ref=\"Mishnah Menachot 1:2\">Men. I, 2</cite> <he>קמצו מב׳</he> the priest’s grasp of the meal offering must be coming forth on both sides."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

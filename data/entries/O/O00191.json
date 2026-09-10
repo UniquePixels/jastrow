@@ -1,0 +1,23 @@
+{
+	"id": "O00191",
+	"slug": "סדנא",
+	"headword": {
+		"text": "סַדָּנָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 957,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>block-maker, carpenter</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 28a:4\">Pes. 28ᵃ</cite>, v. <cite ref=\"O00176\"><he>סַדָּאָה</he></cite> a. <cite ref=\"O00175\"><he>סַדָּא</he></cite>."
+			]
+		}
+	]
+}

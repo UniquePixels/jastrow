@@ -1,0 +1,33 @@
+{
+	"id": "A01499",
+	"slug": "איסקונדרי",
+	"headword": {
+		"text": "אִיסְקוּנְדְּרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְק׳"
+		},
+		{
+			"text": "סְקוּנְדּרֵי"
+		}
+	],
+	"page": {
+		"number": 57,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Pers. iskodâr, ἀσκάνδης, σαγγάνδης, ἀστάδης; v. Perles Et. St. p. 113) prop. <i>despatch-bearers</i>, name of a game, <i>a kind of chess</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 21b\">Kidd. 21ᵇ</cite> <he>באי׳ אטללתו</he> Ar. (Var. Ar. <he>בסק׳</he>; ed. <cite ref=\"A01498\"><he>איסקומדרי</he></cite>) you must have played at <i>iskundré</i> (instead of studying). ",
+				"<cite ref=\"Shevuot 29a:10\">Shebu. 29ᵃ</cite> <he>דילמא איס׳ וכ׳</he> (Ms. M. <cite ref=\"A01496\"><he>איסקודרי</he></cite>) perhaps he gave them checkers (tokens in game) and passed them for Zuzé. ",
+				"<cite ref=\"Nedarim 25a:2\">Ned. 25ᵃ</cite>. Cmp. <cite ref=\"A01505\"><he>איסקרנדה</he></cite>."
+			]
+		}
+	]
+}

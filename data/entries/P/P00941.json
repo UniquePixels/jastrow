@@ -1,0 +1,33 @@
+{
+	"id": "P00941",
+	"slug": "ענב-2",
+	"headword": {
+		"text": "עֲנַב"
+	},
+	"page": {
+		"number": 1091,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00940\">same</cite> <cite ref=\"Targum Jonathan on Exodus 28:28\">Targ. Y. Ex. XXVIII, 28</cite> Ar. (ed. <he>ויטכס׳</he>; h. text <he>וירכסו</he>).—",
+			"units": [
+				"<cite ref=\"Eruvin 97a:3\">Erub. 97ᵃ</cite> <he>לִיעַנְבִינְהוּ מִיעֲנַב</he> let him fasten them with a loop. ",
+				"<cite ref=\"Sukkah 33b:13\">Succ. 33ᵇ</cite> <he>לִיעַנְבֵיה מיענב</he> let him tie it (the Lulab) &c. ",
+				"<cite ref=\"Menachot 38b:11\">Men. 38ᵇ</cite> <he>לעַנְבָן כולהו בהדדי</he> (v. Rabb. D. S. a. l. note 40) to make a loop of all of them together; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיעֲנַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be looped</i>. Ib. <he>אלימי דלא מִיעַנְבֵי ואי הוו קטיני מיענבי</he> if the threads are too thick to allow a loop, but long enough to be looped if they were thinner; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

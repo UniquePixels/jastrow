@@ -1,0 +1,27 @@
+{
+	"id": "K00365",
+	"slug": "כור-4",
+	"headword": {
+		"text": "כּוּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 625,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00362\"><he>כור</he></cite>, cmp. <cite ref=\"K00077\"><he>כְּבָרָה</he></cite> a. <cite ref=\"K00220\"><he>כְּוֶורֶת</he></cite>)<i>smelting pot, smelting furnace</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kelim Kamma 6:16\">Tosef. Kel. B. Kam. VI, 16</cite>. ",
+				"<cite ref=\"Mishnah Kelim 8:9\">Kel. VIII, 9</cite> <he>כ׳ … של עושה זכיכית</he> (Var. <he>בור</he>) the glassmaker’s pot. ",
+				"<cite ref=\"Mishnah Shabbat 8:4\">Sabb. VIII, 4</cite> <he>כ׳ של צורפי זהב</he> the gold refiners’ pot. ",
+				"<cite ref=\"Midrash Tehillim 114:3\">Midr. Till. to Ps. CXIV</cite> <he>כאדם … מתוך הכ׳ וכ׳</he> like a man that takes gold out of the smelting pot without tongs &c. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 48\">Pirké d’R. El. ch. XLVIII</cite> <he>כ׳ של אש</he> a burning furnace; a. e."
+			]
+		}
+	]
+}

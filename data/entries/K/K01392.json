@@ -1,0 +1,71 @@
+{
+	"id": "K01392",
+	"slug": "כתש-2",
+	"headword": {
+		"text": "כְּתַשׁ"
+	},
+	"page": {
+		"number": 683,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01391\">same</cite><i>to crush</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 30:36\">Targ. Y. Ex. XXX, 36</cite>.—Part. pass. <cite ref=\"K01362\"><he>כָּתִישׁ</he></cite>, f. <cite ref=\"K01363\"><he>כָּתִישָׁא</he></cite>; pl. <he>כָּתִישִׁין</he>; <he>כָּתִישַׁן</he>. ",
+				"<cite ref=\"Onkelos Exodus 27:20\">Targ. Ex. XXVII, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 22:24\">Targ. Y. Lev. XXII, 24</cite> (h. text <cite ref=\"K01356\"><he>כָּתוּת</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <he>נגע</he>) <i>to touch, strike, afflict</i>. Part. pass. as ab. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 73:14\">Targ. Ps. LXXIII, 14</cite> (ed. Wil. <cite ref=\"K01362\"><he>כַּתִּישׁ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:1\">Targ. Is. XXVIII, 1</cite> (h. text <he>הלומי</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 54:4\">Ib. LIV, 4</cite>; a. e.—Dem. <cite ref=\"M01456\"><he>מַכְתַּשׁ</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְכַּתַּשׁ", "אִכַּתַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to wrestle, fight</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 32:25\">Targ. Y. Gen. XXXII, 25</cite>, sq.—",
+						"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite>, beg. <he>הות מִכַּתְּשָׁא וכ׳</he> was quarrelling with her maid. ",
+						"<cite ref=\"Vayikra Rabbah 9\">Lev. R. s. 9</cite> <he>ולא חמית … מִתְכַּתְּשִׁין וכ׳</he> and I never saw two quarrel with one another without making peace between them. ",
+						"<cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite> <he>פשושין מכתשין</he> Ar. ed. Koh. (ed. <he>ציפרין מתנציין</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " mostly <i>Ithpe.</i> <he>אִתְכְּתַשׁ</he> <i>to be smitten, afflicted</i> (with leprosy). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 73:5\">Targ. Ps. LXXIII, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 2:23\">Targ. Y. Ex. II, 23</cite> (cmp. ",
+						"<cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 16:1\">Targ. Y. Gen. XVI, 1</cite>.—[<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite>; <cite ref=\"Yalkut Shimoni on Torah 77\">Yalk. ib. 77</cite>, v. <cite ref=\"K01333\"><he>כְּשַׁשׁ</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["כַּתַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to press, beg persistently</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 30b\">Shebu. 30ᵇ</cite>; <cite ref=\"Chullin 7b\">Ḥull. 7ᵇ</cite>, v. <cite ref=\"B01397\"><he>בְּתַשׁ</he></cite>."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

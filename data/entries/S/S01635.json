@@ -1,0 +1,31 @@
+{
+	"id": "S01635",
+	"slug": "קסדא",
+	"headword": {
+		"text": "קַסְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַסְדָּה"
+		}
+	],
+	"page": {
+		"number": 1395,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cassis, -idis) <i>casque, helmet</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:2\">Sabb. VI, 2</cite> (expl. ",
+				"<cite ref=\"Shabbat 62a:6\">ib. 62ᵃ</cite> <cite ref=\"O01201\"><he>סַנְוַורְתָּא</he></cite>). ",
+				"<cite ref=\"Mishnah Kelim 11:8\">Kel. XI, 8</cite> (Ar. ed. Koh. <he>קַסִּידָא</he>). ",
+				"<cite ref=\"Tosefta Keilim Metsia 3:1\">Tosef. Kel. B. Mets. III, 1</cite>. ",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite> <he>כדי ללבוש ק׳ ושריון וכ׳</he> strong enough to wear helmet, mail and (carry) arms.—Pl. <he>קַסִּידִין</he>. Y’lamd. to Gen. III, 22, quot. in Ar. (ref. to <he>כרבלתהון</he>) <he>אלו הק׳</he> that means the helmets."
+			]
+		}
+	]
+}

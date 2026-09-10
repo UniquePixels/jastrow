@@ -1,0 +1,29 @@
+{
+	"id": "O00642",
+	"slug": "סיכוי",
+	"headword": {
+		"text": "סִיכּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִכּ׳"
+		}
+	],
+	"page": {
+		"number": 979,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00874\"><he>סָכָה</he></cite>) <i>what is looked for, prospect, hope</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 21b:2\">Erub. 21ᵇ</cite> <he>בטל סִיכּוּיָם</he> their prospect is frustrated. Sifra Aḥăré, Par. 9, ch. XIII <he>סִיכּוּיִי</he>, v. <cite ref=\"O00089\"><he>סֵבֶר</he></cite>. ",
+				"<cite ref=\"Eruvin 21b:2\">Ib.</cite> <he>אני סִכּוּיְיךָ</he> I (the Lord) am thy hope. ",
+				"<cite ref=\"Bava Metzia 33b:5\">B. Mets. 33ᵇ</cite> <cite ref=\"O00643\"><he>סִיכּוּיָם</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 371\">Yalk. Is. 371</cite> <he>שִׂיכּוּיָין</he>; a. e."
+			]
+		}
+	]
+}

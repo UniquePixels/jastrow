@@ -1,0 +1,50 @@
+{
+	"id": "C00877",
+	"slug": "גלד-1",
+	"headword": {
+		"text": "גָּלַד"
+	},
+	"page": {
+		"number": 245,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to form a coating; to congeal, become solid</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:23\">Y. Ber. I, 2ᶜ</cite> bot. <he>יִגְלֹד הרקיע</he> let the (liquid mass of the) firmament solidify; <cite ref=\"Bereishit Rabbah 4\">Gen. R. s. 4</cite>, beg. <he>גָּלְדָה טיפה וכ׳</he> the intermediate layer of water solidified.—<i>Part. pass.</i> <cite ref=\"C01007\"><he>גָּלוּד</he></cite>, f. <he>גְּלוּדָה</he> (denom. of <cite ref=\"C00879\"><he>גֶּלֶד</he></cite>) <i>skinned, flayed</i> in consequence of bruises, scabs &c. Ḥull. III, 2; Tosef. ib. III, 7; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגְלִיד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C00876\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Tosefta Parah 9:8\">Tosef. Par. IX</cite> (<cite ref=\"Tosefta Parah 8:8\">VIII</cite>), 8 <he>הִגְלִידוּ</he> froze. ",
+						"<cite ref=\"Niddah 56b\">Nidd. 56ᵇ</cite>; <cite ref=\"Tosefta Niddah 6:13\">Tosef. ib. VI, 13</cite> <he>מַגְלִיד</he> forms a clodded surface, opp. <he>מקדיר</he> penetrates."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to form a rind, scab;</i> v. infra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּגְלָד"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered with a scab</i> (of a wound). Ḥull. 51ᵃ <he>הו׳ פי המכה</he> Rashi a. Ar. (ed. <cite ref=\"C00877\"><he>הִגְלִיד</he></cite>) if the top of the wound is covered with a crust; <cite ref=\"Ketubot 76b\">Keth. 76ᵇ</cite>; <cite ref=\"Tosefta Chullin 3:11\">Tosef. Ḥull. III, 11</cite> <cite ref=\"C00877\"><he>הגליד</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

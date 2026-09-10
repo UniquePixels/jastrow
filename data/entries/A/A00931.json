@@ -1,0 +1,22 @@
+{
+	"id": "A00931",
+	"slug": "אושפיז",
+	"headword": {
+		"text": "אוּשְׁפֵּיז"
+	},
+	"page": {
+		"number": 35,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01337\"><he>נשף</he></cite>, with <cite ref=\"G00000\"><he>ז</he></cite> format; cmp. <cite ref=\"A01092\"><he>אטליז</he></cite>) <i>night’s lodging, inn.—</i>Pl. <he>אוּשְׁפִּיזִין</he>. <he>בעלי א׳</he> <i>innkeepers</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'aser Sheni 1:13\">Tosef. Maas. Sh. I, 13</cite>; <cite ref=\"Megillah 26a:15\">Meg. 26ᵃ</cite>. [Mand. <he>שפינזא</he>, v. Nœld. Mand. Gr. p. 51.]"
+			]
+		}
+	]
+}

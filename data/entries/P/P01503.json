@@ -1,0 +1,65 @@
+{
+	"id": "P01503",
+	"slug": "עשר-6",
+	"headword": {
+		"text": "עָשַׂר"
+	},
+	"page": {
+		"number": 1127,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to give one-tenth, separate tithes</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 119a:7\">Sabb. 119ᵃ</cite> <he>עַשִּׁר וכ׳</he>, v. <cite ref=\"P01498\"><he>עָשַׁר</he></cite>. ",
+				"<cite ref=\"Mishnah Maasrot 4:2\">Maasr. IV, 2</cite> <he>ושכחו לעַשְּׂרָן</he> but had forgotten to pay the tithe of them. ",
+				"<cite ref=\"Mishnah Shabbat 2:7\">Sabb. II, 7</cite> <he>עִשַּׂרְתֶּם</he> have you set aside tithes (of what you intend to use for the Sabbath)? <cite ref=\"Mishnah Shabbat 2:7\">Ib.</cite> <he>ספק … אין מְעַשְּׂרִין את הודאי</he> if it is doubtful whether or not night has set in, you must not separate the tithes of what is sure to be subject to tithes (v. <cite ref=\"D00871\"><he>דְּמַאי</he></cite>); a. v. fr.—Part. pass. <he>מְעוּשָּׂר</he>; f. <he>מְעוּשֶּׂרֶת</he>; pl. <he>מְעוּשָּׂרִים</he>, <he>מְעוּשָּׂרִין</he>; <he>מְעוּשָּׂרוֹת</he>. ",
+				"<cite ref=\"Mishnah Bekhorot 9:7\">Bekh. IX, 7</cite> (<he>קפץ אחד</he>) <he>מן המע׳ לתוכן</he> if one of those (lambs) which have been set aside as tithe, leaped among the flock. ",
+				"<cite ref=\"Mishnah Bekhorot 9:7\">Ib.</cite> <he>הרי אלו מע׳</he> they (the flock) are considered as tithed; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to reduce to one-tenth</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:11\">Cant. R. to VII, 11</cite>, v. <cite ref=\"P01498\"><he>עָשַׁר</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"P01502\"><he>עִשֵּׂר</he></cite> (b. h.; ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֶעֱשַׂר"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְעַשֵּׂר"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְעַשֵּׂר</he> <i>to be tithed</i>. Maasr. l. c. <he>עד שיֵעָשְׂרוּ</he> (Ms. M. <he>שיִתְעַשְּׂרוּ</he>) until they are tithed. Ib. 5 <he>מִתְעַשֶּׂרֶת זרע וכ׳</he> must be tithed as seed, as vegetables (if the leaves are used) &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 9:1\">Bekh. IX, 1</cite> <he>ואינן מִתְעַשְּׂרִים מזה על זה</he> and they (large cattle and small cattle) cannot be tithed one for the other. ",
+						"<cite ref=\"Bekhorot 53b:16\">Ib. 53ᵇ</cite> <he>אין דין שיִתְעַשְּׂרוּ זה מזה</he> should we not conclude that they may be tithed one for the other?; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

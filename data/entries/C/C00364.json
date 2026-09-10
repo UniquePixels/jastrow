@@ -1,0 +1,41 @@
+{
+	"id": "C00364",
+	"slug": "גויל",
+	"headword": {
+		"text": "גְּוִיל"
+	},
+	"page": {
+		"number": 221,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00368\"><he>גוּל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a rolling stone, rough untrimmed stone, cobble</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 1:1\">B. Bath. I, 1</cite>; expl. ",
+				"<cite ref=\"Bava Batra 3a:20\">ib. 3ᵃ</cite> <he>ג׳ אבני דלא וכ׳</he> untrimmed stones. ",
+				"<cite ref=\"Bava Metzia 117b\">B. Mets. 117ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a roll of parchment</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:11\">Y. M. Kat. III, 83ᵇ</cite> bot. must rend his garments <he>הג׳ בפני עצמו וכ׳</he> once for the burnt parchment and a second times for the writing; Bab. ",
+				"<cite ref=\"Moed Katan 26a:19\">M. Kat. 26ᵃ</cite> <he>אחת על הג׳</he> Ms. M.—",
+				"<cite ref=\"Moed Katan 26a\">Ib.</cite> (ref. to <cite ref=\"Jeremiah 36:27\">Jer. XXXVI, 27</cite>) <he>המגילה זה הג׳</he> Ms. M. (v. Rabb. D. S. a. l.) <i>m’gillah</i> refers to the writing paper, <i>hadd’barim</i> to the writing.—Pl. <he>גְּוִילִין</he>. ",
+				"<cite ref=\"Avodah Zarah 18a\">Ab. Zar. 18ᵃ I</cite> see <he>ג׳ נשרפין וכ׳</he> En Yakob (v. Rabb. D. S. a. l. note 50, ed. incorr. <cite ref=\"C00941\"><he>גליון</he></cite>) the parchment burned but the letters soar upward.—Esp. <i>g’vil</i>, a certain kind of parchment, v. <cite ref=\"D00254\"><he>דּוּכְסוּסְטוֹס</he></cite>. ",
+				"<cite ref=\"Tosefta Bava Batra 4:7\">Tosef. B. Bath. IV, 7</cite> (if one sold) <he>ספר של צבאים … של ג׳</he> a book for deer-skin and it is found to be <i>g’vil</i>. Mass. Sof’rim I, 4. ",
+				"<cite ref=\"Shabbat 79b\">Sabb. 79ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

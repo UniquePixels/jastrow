@@ -1,0 +1,99 @@
+{
+	"id": "T00137",
+	"slug": "רבץ-1",
+	"headword": {
+		"text": "רָבַץ"
+	},
+	"page": {
+		"number": 1445,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>רבע</he>)<i>to lie down</i>, esp. <i>to break down</i> under a load. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 33a:1\">B. Mets. 33ᵃ</cite>, v. <cite ref=\"T00141\"><he>רַבְצָן</he></cite>.—Part. pass. <he>רָבוּץ</he>; f. <cite ref=\"T00799\"><he>רְבוּצָה</he></cite> &c. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>lying</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Bava Kamma 7:4:4\">Y. B. Kam. VII, end, 6ᵃ</cite> <he>שמא ראוהו ר׳</he> perhaps they saw him in the act of slaughtering after the ox was laid down, opp. <he>ראוהו מושך</he> they saw him pull the ox into the woods to kill him. Y. Naz. V, 54ᶜ <he>ר׳</he> lying, opp. <he>עומד</he>. ",
+						"<cite ref=\"Avodah Zarah 54a\">Ab. Zar. 54ᵃ</cite>; <cite ref=\"Chullin 40a:4\">Ḥull. 40ᵃ</cite> <he>היתה … ר׳ וכ׳</he> if his neighbor’s beast was laid down before an idol (to be sacrificed). Y. R. Hash. II, beg. 57ᵈ <he>ראיתיו ר׳ בין וכ׳</he> I saw it (the moon, like an animal) lying between two rocks; Tosef. ib. I, 15 <he>רוֹבֵץ</he>; Bab. ",
+						"<cite ref=\"Rosh Hashanah 22b\">R. Hash. 22ᵇ</cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 1\">Num. R. s. 1</cite>, beg., v. infra.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>horizontal</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite> <he>בהמה … ר׳ וכ׳</he> the quadruped walks with her body in a horizontal position, … but woman walks erect; <cite ref=\"Yalkut Shimoni on Torah 546\">Yalk. Lev. 546</cite>; Tanḥ. Thazr. 3 <he>הבהמה … והולד ר׳ וכ׳</he> the animal walks and her embryo lies horizontally &c., opp. <he>זקוף</he>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיבֵּץ"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"T00101\"><he>רְבִיעָה</he></cite>) <i>to irrigate by sprinkling</i>, contrad. to <he>השקה</he>. Y. Peah V, 19ᵃ top; <cite ref=\"Tosefta Peah 2:20\">Tosef. ib. II, 20</cite> <he>המְרַבֵּץ את שדהו וכ׳</he> (ed. Zuck. <he>המַרְבִּיץ</he>) if one irrigates his field, before the poor have entered it. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 2:10\">Shebi. II, 10</cite> <he>מְרַבְּצִין בעפר לבן</he> Y. ed. (Mish. a. Bab. ed. <he>מַרְבִּיצִין</he>) you may (in the Sabbatical year) irrigate ‘blank’ soil (a vegetable or grain field, v. <cite ref=\"L00099\"><he>לָבָן</he></cite>); Y. ib. 34ᵇ; Y. M. Kat. I, 80ᶜ; Bab. ",
+						"<cite ref=\"Moed Katan 6b:9\">M. Kat. 6ᵇ</cite> <he>מרביצין שדה וכ׳</he>. ",
+						"<cite ref=\"Tosefta Moed Kattan 1:2\">Tosef. ib. I, 2</cite> <he>מרצפין</he> (corr. acc.); a. e.—Esp. <i>to sprinkle</i> (a floor in order to lay the dust &c.). ",
+						"<cite ref=\"Mishnah Sanhedrin 7:6\">Snh. VII, 6</cite> <he>המכבד והמרבץ</he> he who sweeps or sprinkles (before an idol); <cite ref=\"Yalkut Shimoni on Torah 348:2\">Yalk. Ex. 348</cite> <he>והמרביץ</he>. Y. Sabb. II, end, 5ᶜ; Bab. ",
+						"<cite ref=\"Shabbat 95a:6\">Sabb. 95ᵃ</cite> <he>מְרַבֶּצֶת ביתה וכ׳</he> may contrive to sprinkle her room on the Sabbath. ",
+						"<cite ref=\"Shabbat 95a:6\">Ib.</cite> <he>הרוצה לרַבֵּץ וכ׳</he> he who desires to sprinkle &c. Y. Ber. VI, 10ᵈ, v. <cite ref=\"A01819\"><he>אֲלוּנְטִית</he> II</cite>; a. fr.—",
+						"<cite ref=\"Tosefta Avodah Zarah 4:1\">Tosef. Ab. Zar. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:11\">V</cite>), 11 <he>ולא רִיבַּצְתִּי עליהם וכ׳</he> I sprinkled no liquids on them (the herbs, to keep them fresh)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <cite ref=\"V00290\"><he>תורה</he></cite>) <i>to spread the Law, to teach</i>. Y. Keth. XII, 35ᵃ bot. <he>ר׳ … יותר וכ׳</he> he spread the Law more (has had more pupils) than thou; Y. Kil. IX, 32ᵇ bot. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 85b:4\">B. Mets. 85ᵇ</cite> <he>לא רִיבַּצְתָּ</he>, v. <cite ref=\"Q01114\"><he>פִּלְפֵּל</he></cite>. ",
+						"<cite ref=\"Temurah 16a:59\">Tem. 16ᵃ</cite> (play on <he>י̇ע̇ב̇ץ̇</he>, v. <cite ref=\"J00475\"><he>יַעְבֵּץ</he></cite>) <he>שי̇ע̇ץ וריב̇ץ וכ׳</he> he (Othniel) gave advice and taught the Law in Israel. ",
+						"<cite ref=\"Moed Katan 25a:19\">M. Kat. 25ᵃ</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִרְבִּיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to sprinkle</i>, v. supra. Pesik. Par., p. 40ᵇ; <cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite>; Tanḥ. Ḥuck. 6 <he>ומַרְבִּיצִין עליו וכ׳</he> and they sprinkle water upon him, v. <he>תְּזָוִית</he>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to lie down</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> <he>נפל … והִרְבִּיצָם וכ׳</he> he fell upon his face, and made them (his sons) lie down on their faces, and prayed. ",
+						"<cite ref=\"Bereishit Rabbah 41\">Gen. R. s. 41</cite>; s. 69, a. e., v. <cite ref=\"Q01011\"><he>פְּלַטְיָא</he></cite> II h. ",
+						"<cite ref=\"Bamidbar Rabbah 1\">Num. R. s. 1</cite> (expl. <he>ויסב</he>, <cite ref=\"Exodus 13:18\">Ex. XIII, 18</cite>, cmp. <cite ref=\"O00030\"><he>סָבַב</he></cite> <i>Hif.</i>) <he>שהִרְבִּיצָם … רבוצין וכ׳</he> he made them recline (at meals) like kings lying on their couches. ",
+						"<cite ref=\"Exodus 13:18\">Ib.</cite> <he>הִרְבַּצְתִּי וכ׳</he>, v. <cite ref=\"O00562\"><he>סִיגְמָטִין</he></cite>; Tanḥ. B’midbar 2; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְרַבֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be besprinkled</i>. Sabb. l. c. <he>ונמצא … מִתְרַבֵּץ מאליו</he> and thus the room is sprinkled of itself.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

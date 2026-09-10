@@ -1,0 +1,23 @@
+{
+	"id": "M01466",
+	"slug": "מלאי-1",
+	"headword": {
+		"text": "מְלָאִי"
+	},
+	"page": {
+		"number": 785,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>M’laï</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 139a:14\">Sabb. 139ᵃ</cite> (Ms. O. <cite ref=\"U01488\"><he>שמלאי</he></cite>, v. ",
+				"<cite ref=\"Sanhedrin 98a\">Snh. 98ᵃ</cite>)."
+			]
+		}
+	]
+}

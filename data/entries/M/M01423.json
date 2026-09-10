@@ -1,0 +1,33 @@
+{
+	"id": "M01423",
+	"slug": "מכסה",
+	"headword": {
+		"text": "מִכְסֶה"
+	},
+	"page": {
+		"number": 784,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00917\"><he>כָּסָה</he> II)</cite><i>tent-cover</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 28a:4\">Sabb. 28ᵃ</cite>; a. e.—Pl. <he>מִכְסָאוֹת</he>. ",
+				"<cite ref=\"Shabbat 28a:4\">Ib.</cite> ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite>, end; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. ",
+			"units": [
+				"<cite ref=\"Leviticus 3:3\">Lev. III, 3</cite>) <i>the cover of the inwards, peritoneum</i>. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 1:2:5\">Y. Hor. I, 46ᵃ</cite> top <he>ושל מ׳</he> (not <he>ולומ׳</he>) and the fat of the peritoneum."
+			],
+			"label": "2"
+		}
+	]
+}

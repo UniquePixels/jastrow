@@ -1,0 +1,40 @@
+{
+	"id": "P00363",
+	"slug": "עורקמא",
+	"headword": {
+		"text": "עוּרְקָמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְקוּמָא"
+		}
+	],
+	"page": {
+		"number": 1059,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ערקם</he>, <i>Parel</i> of <he>עקם</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>knee</i> (cmp. <cite ref=\"B01268\"><he>בְּרֵכָה</he></cite>), <he>ע׳ דמיא</he> <i>a pool</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 78a:6\">Yoma 78ᵃ</cite> <he>עור׳</he> (Ms. M. 2 <he>ערקו׳</he>; ed. once <cite ref=\"P00362\"><he>עורקומא</he></cite>). ",
+				"<cite ref=\"Megillah 28b:15\">Meg. 28ᵇ</cite> (Ms. O. <he>ערקו׳</he>); <cite ref=\"Kiddushin 71b:3\">Kidd. 71ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hough</i> of an animal’s hindleg. ",
+			"units": [
+				"<cite ref=\"Chullin 76a:12\">Ḥull. 76ᵃ</cite> <he>ערקו׳</he>.—Cmp. <cite ref=\"P01447\"><he>עַרְקוּב</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

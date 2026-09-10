@@ -1,0 +1,45 @@
+{
+	"id": "A02466",
+	"slug": "אסמכתא",
+	"headword": {
+		"text": "אַסְמַכְתָּא"
+	},
+	"page": {
+		"number": 94,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01098\"><he>סְמַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>support, reliance</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 67a:10\">Keth. 67ᵃ</cite> <he>אסמכתייהו אארעא הוא</he> their reliance rests on the landed property."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Scriptural text used as a support for a rabbinical enactment, intimation</i> (<he>אסמכוה אקרא</he> ‘they leaned their enactment against a Bible text’). ",
+			"units": [
+				"<cite ref=\"Chullin 64b:1\">Ḥull. 64ᵇ</cite> <he>מדרבנן וקרא א׳ בעלמא</he> it is actually a rabbinical law, and the Bible text (quoted) is a mere support or mnemotechnical aid. ",
+				"<cite ref=\"Chullin 77a:15\">Ib. 77ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (law) <i>Asmakhta</i> (<i>surety</i>), <i>a promise to submit to a forfeiture of pledged property</i> (<i>or equivalent</i>) <i>without having received a sufficient consideration; collateral security with the condition of forfeiture beyond the amount to be secured;</i> e.g. A pays a portion of his indebtedness to B, leaving the bill of debt as a security in the hands of a third party, and agreeing to pay <i>the full amount</i> on the bill, if, at a stipulated time, he should fail to pay the due balance. ",
+			"units": [
+				"<cite ref=\"Bava Batra 168a:14\">B. Bath. 168ᵃ</cite> <he>א׳ לא קניא</he> <i>asmakhta</i> does not purchase, gives no title, i.e. gives the claimant no rights (because the law presumes that he who made such a promise, could not have meant it seriously but had in view only to give his transaction the character of good faith and solemnity); <cite ref=\"Bava Batra 168a:14\">ibid.</cite> <he>א׳ קניא</he> <i>asm.</i> is a valid legal transfer of property. ",
+				"<cite ref=\"Bava Metzia 66a:12\">B. Mets. 66ᵃ</cite>; <cite ref=\"Bava Metzia 73b:11\">73ᵇ</cite>. ",
+				"<cite ref=\"Nedarim 27b:8\">Ned. 27ᵇ</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 24b:19\">Snh. 24ᵇ</cite> applied to <i>forfeiture of stake in gambling</i> (inasmuch as it makes the gambler an immoral person disqualified for witness or judge in court)."
+			],
+			"label": "3"
+		}
+	]
+}

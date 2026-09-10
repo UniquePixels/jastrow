@@ -1,0 +1,30 @@
+{
+	"id": "B01027",
+	"slug": "בעו",
+	"headword": {
+		"text": "בָּעוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּעוּתָא"
+		}
+	],
+	"page": {
+		"number": 180,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01036\"><he>בעי</he></cite>) <i>prayer</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 7:16\">Targ. Jer. VII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 7:20\">Targ. II Sam. VII, 20</cite>; a. fr.—<cite ref=\"B00068\"><he>בְּבָעוּ</he></cite> (in prayer) <i>I pray</i> (h. <cite ref=\"B00125\"><he>בִּי</he></cite>, <cite ref=\"N00003\"><he>נָא</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 19:7\">Targ. Gen. XIX, 7</cite>. ",
+				"<cite ref=\"Onkelos Genesis 44:18\">Ib. XLIV, 18</cite>; a. v. fr. [<cite ref=\"Aramaic Targum to Psalms 43:4\">Targ. Ps. XLIII, 4</cite>, v. <cite ref=\"B00304\"><he>בּוּעֲתָא</he> II</cite>.]"
+			]
+		}
+	]
+}

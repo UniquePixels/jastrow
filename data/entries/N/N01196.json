@@ -1,0 +1,23 @@
+{
+	"id": "N01196",
+	"slug": "נקי-4",
+	"headword": {
+		"text": "נָקִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 932,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01195\">preced.</cite>) <i>a young lamb</i> (v. Syr. <he>נקיא</he>, P. Sm. 2446). ",
+			"units": [
+				"<cite ref=\"Shabbat 54a:5\">Sabb. 54ᵃ</cite>; <cite ref=\"Shevuot 6b:7\">Shebu. 6ᵇ</cite>, v. <cite ref=\"K00064\"><he>כָּבַן</he></cite>."
+			]
+		}
+	]
+}

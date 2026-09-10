@@ -1,0 +1,24 @@
+{
+	"id": "S00636",
+	"slug": "קורצין-1",
+	"headword": {
+		"text": "קוֹרְצִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1343,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S02141\"><he>קָרַץ</he></cite>; cmp. <cite ref=\"S01959\"><he>קָרוֹצָא</he></cite>) <i>destructive insects, worms</i>. ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 31:3\">Ab. d’R. N. ch. XXXI</cite> <he>ברא ק׳ בעולם וברא ק׳ באדם זה בני מיעיו וכ׳</he> (not <he>זה אזניו</he>; Var. ed. Schechter <he>כִּרְצִים</he>, v. <cite ref=\"K01268\"><he>כִּרְצָא</he></cite>) he created destroyers in the world (vegetable kingdom), and so he did in man, namely the intestinal worms. [The entire passage is a Var. of the <cite ref=\"S00635\">preced.</cite> <he>ברא חיה וכ׳</he>.]"
+			]
+		}
+	]
+}

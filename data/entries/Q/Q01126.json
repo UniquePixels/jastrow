@@ -1,0 +1,63 @@
+{
+	"id": "Q01126",
+	"slug": "פלש-1",
+	"headword": {
+		"text": "פָּלַשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1185,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to divide, go through</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּילֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to penetrate, go from end to end, perforate</i>, v. infra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to search</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14</cite>; Y. Snh. X, 29ᵇ bot. (play on <he>עלי פלשת התרועעי</he>, <cite ref=\"Psalms 60:10\">Ps. LX, 10</cite>) <he>עלי לפַלֵּשׁ להם מעשים טובים לעשותן ריעים וכ׳</he> it is for me to search for their good deeds and make them friendly to wards one another."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (with <he>אחר</he>) [<i>to dig after</i>,] <i>to go to extremes</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>הם לא פִּלְּשׁוּ אחר מדת הדין והיא לא פִלְּשָׁה</he> (<he>היתה</he>) <he>אחריהם</he> (Ar. <he>פִילְּ׳</he>) they (the Israelites) did not go to the extreme of rebellion against Justice, and she (Justice) did not go to the extreme in punishing them; (Var. in Ar. <he>חִיפְּשׁוּ</he>, <he>חִיפְּשָׁה</he>); <cite ref=\"Eichah Rabbah 1:1\">ib.</cite> to II, 4; 5; <cite ref=\"Yalkut Shimoni on Nach 521:1\">Yalk. Hos. 521</cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["פּוּלָּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be perforated</i>. Y. Succ. III, 53ᵈ <he>ניקב ולא פ׳ מבפנים</he> (not <cite ref=\"Q01126\"><he>פילש</he></cite>) if the Ethrog is punctured but not perforated within (all through the skin).—Part. <cite ref=\"M02199\"><he>מְפוּלָּשׁ</he></cite>; f. <he>מְפוּלֶּשֶׁת</he>; pl. <he>מְפוּלָּשִׁים</he>, <he>מְפוּלָּשִׁין</he>; <he>מְפוּלָּשׁוֹת</he>. Bab. ",
+					"units": [
+						"<cite ref=\"Sukkah 36a:2\">Succ. 36ᵃ</cite> <he>נקב מפ׳</he> a puncture going through (into the flesh). ",
+						"<cite ref=\"Mishnah Shabbat 16:1\">Sabb. XVI, 1</cite> <he>מפ׳</he> (<cite ref=\"M00078\"><he>מבוי</he></cite>) an open alley, expl. ",
+						"<cite ref=\"Shabbat 117a:4\">ib. 117ᵃ</cite> an alley opening into a street, not closed by a legally required fictitious partition, v. <cite ref=\"L00342\"><he>לֶחִי</he></cite>. ",
+						"<cite ref=\"Mishnah Eruvin 9:4\">Erub. IX, 4</cite>, a. e. <he>גשרים המפ׳</he>, v. <cite ref=\"C01423\"><he>גֶּשֶׁר</he></cite>. Y. ib. VIII, 25ᵇ top (ref. to <cite ref=\"Q00604\"><he>פִּיוְסָרוֹס</he></cite>) <he>לעולם אין … מפ׳ מסוף העולם וכ׳</he> we never call a road a public area (v. <cite ref=\"T01079\"><he>רָשׁוּת</he></cite>), unless it is cut through from one end of the world to the other, i.e. runs in a straight line. ",
+						"<cite ref=\"Tosefta Kilaim 2:1\">Tosef. Kil. II, 1</cite> <he>תלמים שלשה מפ׳ וכ׳</he> three furrows running from one end of the field to the other. ",
+						"<cite ref=\"Bereishit Rabbah 70\">Gen. R. s. 70</cite>; <cite ref=\"Yalkut Shimoni on Torah 124:7\">Yalk. ib. 124</cite> (play on <cite ref=\"B00941\"><he>בנות</he></cite>, <cite ref=\"Genesis 29:16\">Gen. XXIX, 16</cite> = <he>בונית</he>) <he>כשתי קורות המפ׳ וכ׳</he> like two joists extending from one end of the world to the other, the one reared princes &c. ",
+						"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> (ref. to <he>ומאציליה</he>, <cite ref=\"Isaiah 41:9\">Is. XLI, 9</cite>) <he>ממפ׳ שבה וכ׳</he> from the parts of the world that have been gone through (explored) have I called thee; a. fr."
+					]
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

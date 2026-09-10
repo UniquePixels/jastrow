@@ -1,0 +1,27 @@
+{
+	"id": "S02001",
+	"slug": "קרטיס-1",
+	"headword": {
+		"text": "קַרְטֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְטֵס"
+		}
+	],
+	"page": {
+		"number": 1416,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (χάρτης) <i>paper, document</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 45\">Midr. Till. to Ps. XLV</cite> <he>נטל ק׳</he> (<he>חלק</he>) <he>ונתן וכ׳</he> ed. Bub. (oth. ed. <cite ref=\"S00307\"><he>קוטריס</he></cite>, <cite ref=\"S01907\"><he>קרדום</he></cite>, corr. acc.) he took a blank paper and handed it to the judge; <cite ref=\"Yalkut Shimoni on Nach 749\">Yalk. ib. 749</cite> <cite ref=\"S00438\"><he>קונטרס</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

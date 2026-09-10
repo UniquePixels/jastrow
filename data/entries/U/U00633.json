@@ -1,0 +1,36 @@
+{
+	"id": "U00633",
+	"slug": "שחז-2",
+	"headword": {
+		"text": "שְׁחַז"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁחֵיז"
+		}
+	],
+	"page": {
+		"number": 1546,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00632\">same</cite>; part. pass. <cite ref=\"U00633\"><he>שְׁחִיז</he></cite> <i>whetted</i>, v. infra.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁחֵיז"],
+			"senses": [
+				{
+					"gloss": "<i>to polish, whet</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 7:13\">Targ. Ps. VII, 13</cite> <he>יַשְׁחֵיז</he> Ms. (ed. <cite ref=\"U00633\"><he>שחיז</he></cite>; h. text <he>ילטש</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

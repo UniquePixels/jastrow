@@ -1,0 +1,44 @@
+{
+	"id": "R00664",
+	"slug": "צער-4",
+	"headword": {
+		"text": "צַעַר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צְעַר"
+		},
+		{
+			"text": "צַעֲרָא"
+		}
+	],
+	"page": {
+		"number": 1295,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  (v. <cite ref=\"R00662\"><he>צְעֵר</he></cite>) <i>degradation, disregard, shame</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 3:35\">Targ. Prov. III, 35</cite> (h. text <cite ref=\"S01271\"><he>קלון</he></cite>); a. fr.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:3\">Ib. XIV, 3</cite> <he>זקתא דצ׳</he> rod of humiliation (h. text <he>חטר גאוה</he>).—Pl. <he>צַעֲרֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:33\">Ib. VI 33</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pain, grief, privation</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:16\">Targ. Gen. III, 16</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 4:9\">Targ. I Chr. IV, 9</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 82:9\">Gen. R. s. 82</cite> (transl. <he>בן אוני</he>, <cite ref=\"Genesis 35:18\">Gen. XXXV, 18</cite>) <he>בר צַעֲרִי</he> child of my pain. ",
+				"<cite ref=\"Berakhot 28a:18\">Ber. 28ᵃ</cite> <he>מאי משמע דהאי נוגי לישנא דצ׳ הוא</he> what evidence is there that <i>nugé</i> (<cite ref=\"Zephaniah 3:18\">Zeph. III, 18</cite>) has the meaning of grief? <cite ref=\"Bava Metzia 31a:24\">B. Mets. 31ᵃ</cite> <he>דצ׳ דמרה איתא וצ׳ דידה איתא</he> where both the owner and the animal suffer; a. fr.—Pl. <he>צַעֲרִין</he>, <he>צַעֲרֵי</he>. ",
+				"<cite ref=\"Onkelos Genesis 3:16\">Targ. O. Gen. III, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 9:28\">Targ. Job IX, 28</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 147:3\">Targ. Ps. CXLVII, 3</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

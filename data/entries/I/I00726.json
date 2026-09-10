@@ -1,0 +1,31 @@
+{
+	"id": "I00726",
+	"slug": "טרומיטא",
+	"headword": {
+		"text": "טְרוֹמִיטָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "טַרְמִיטָא"
+		},
+		{
+			"text": "טַרְמִיטָן"
+		}
+	],
+	"page": {
+		"number": 550,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τρῆμα, ατος, τρημάτιον) <i>perforation</i>, also <i>eye of a needle;</i> only in (<cite ref=\"B00679\"><he>בֵּיצָה</he></cite>) <he>בֵּיצַת ט׳</he> <i>an egg boiled down to the size of a pill</i> which, on being swallowed by the patient, passes the body unchanged, carrying with it matter which serves the physician for diagnosis. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 6:1\">Ned. VI, 1</cite> <he>ביצת טרמיטא</he> Mish. (Bab. ed. <he>ביצה טורמוט׳</he>; Y. ed. <he>טרמיטן</he>); ib. 50ᵃ <he>ביצה טורמיטא</he>; Y. ib. VI, 39ᶜ bot. <he>ביצה טרומיטא</he>, expl. <cite ref=\"T00424\"><he>רופיטון</he></cite>."
+			]
+		}
+	]
+}

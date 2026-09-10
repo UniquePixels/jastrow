@@ -1,0 +1,27 @@
+{
+	"id": "V00168",
+	"slug": "תוהותא",
+	"headword": {
+		"text": "תַּוְהוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּוְו׳"
+		}
+	],
+	"page": {
+		"number": 1651,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00162\"><he>תְּוַהּ</he></cite>) <i>perplexity, terror</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:67\">Targ. Deut. XXVIII, 67</cite>."
+			]
+		}
+	]
+}

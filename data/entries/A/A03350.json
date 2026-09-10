@@ -1,0 +1,25 @@
+{
+	"id": "A03350",
+	"slug": "אשר-4",
+	"headword": {
+		"text": "אֶשֶׁר"
+	},
+	"page": {
+		"number": 130,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.), only in plur. constr. <cite ref=\"U01961\"><he>אַשְׁרֵי</he></cite> the <i>happiness of!, happy is he, are they</i> &c. ",
+			"units": [
+				"<cite ref=\"Pesachim 117a\">Pes. 117ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Midrash Tehillim 84:4\">Midr. Till. to Ps. LXXXIV</cite> <cite ref=\"A03353\"><he>אַשְׁרַאי</he></cite> happy am I.—",
+				"<cite ref=\"Mishnah Yoma 8:9\">Yoma VIII, 9</cite> <he>אַשְׁרֵיכֶם</he> happy are ye. ",
+				"<cite ref=\"Yoma 87a:4\">Ib. 87ᵃ</cite> <he>אַשְׁרֵיהֶם לצדיקים</he> happy are the righteous; a. fr."
+			]
+		}
+	]
+}

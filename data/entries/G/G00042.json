@@ -1,0 +1,25 @@
+{
+	"id": "G00042",
+	"slug": "זבינתא",
+	"headword": {
+		"text": "זְבִינְתָּא"
+	},
+	"page": {
+		"number": 379,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00041\">preced.</cite>) <i>goods; bargain</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:9:4\">Y. Ab. Zar. II, 42ᵃ</cite> <he>אלא ע״י עילא ז׳ וכ׳</he> but, I say, through some accident the goods (in the ship) were upset; <cite ref=\"Jerusalem Talmud Terumot 10:5:6\">Y. Ter. X, 47ᵇ</cite> <he>גבינתא</he> (corr. acc.).—",
+				"<cite ref=\"Bava Metzia 51a:14\">B. Mets. 51ᵃ</cite> <he>עד דמתרמי ליה ז׳ כזְבִינְתֵּיה</he> until he strikes upon goods like those he bought. ",
+				"<cite ref=\"Bava Metzia 51a:14\">Ib.</cite> <he>קים ליה בז׳</he> he knew the value of his goods; a. fr.—Pl. <cite ref=\"G00042\"><he>זְבִינָתָא</he></cite>. ",
+				"<cite ref=\"Ruth Rabbah 2:24\">Ruth R. to I, 17</cite> (<cite ref=\"Ruth Rabbah 3:4\">s. 3</cite>) <he>ואילון ז׳ וכ׳</he> what do these purchases (marketing) mean?"
+			]
+		}
+	]
+}

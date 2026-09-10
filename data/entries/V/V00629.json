@@ -1,0 +1,29 @@
+{
+	"id": "V00629",
+	"slug": "תלתול",
+	"headword": {
+		"text": "תִּלְתּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 1674,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>תלל</he>, v. <cite ref=\"D00806\"><he>דִּלְדּוּל</he></cite>) <i>wart</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 40b:14\">Bekh. 40ᵇ</cite> <he>והרי ת׳ בעלמא הוא</he> but (if there is no bone in it,) then it is a mere wart.—Pl. <he>תִּלְתּוּלִין</he>, <cite ref=\"V00627\"><he>תִּילְ׳</he></cite>. ",
+				"<cite ref=\"Bekhorot 40b:14\">Ib.</cite> <he>בעלי הת׳ וכ׳</he> (ed. <he>התִּילּוּלִין</he>) those with warts, if human beings, are unfit (for priesthood), if beasts, are fit (for the altar); <cite ref=\"Mishnah Bekhorot 7:6\">ib. VII, 6</cite> (<cite ref=\"Bekhorot 45b\">45ᵇ</cite>) Rashi (ed. <he>דלדולין</he>). ",
+				"<cite ref=\"Tosefta Negaim 2:12\">Tosef. Neg. II, 12</cite> <cite ref=\"V00639\"><he>תַּלְתַּלִּין</he></cite>.—[<cite ref=\"Jerusalem Talmud Eruvin 2:5:2\">Y. Erub. II, 20ᵇ</cite> <he>תשעה עשר תלתולין</he>, read: <he>תלתותין</he>, v. <cite ref=\"V00632\"><he>תַּלְתּוּתָא</he></cite>.]"
+			]
+		}
+	]
+}

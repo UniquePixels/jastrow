@@ -1,0 +1,38 @@
+{
+	"id": "M02139",
+	"slug": "מעלנא",
+	"headword": {
+		"text": "מַעֲלָנָא"
+	},
+	"page": {
+		"number": 817,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00241\"><he>עוּל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>entrance, gate</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 9:40\">Targ. Jud. IX, 40</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 118:20\">Targ. Ps. CXVIII, 20</cite> (some ed. <cite ref=\"M02134\"><he>מעליא</he></cite>, corr. acc.); a. fr.—",
+				"<cite ref=\"Gittin 56b:14\">Gitt. 56ᵇ</cite> <he>מ׳ אית לה</he> it has an entrance (for taking in food), opp. <cite ref=\"M02239\"><he>מפקנא</he></cite> discharge.—Pl. <he>מַעֲלָנַיָּא</he>. ",
+				"<cite ref=\"Targum of II Chronicles 23:14\">Targ. II Chr. XXIII, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 87:2\">Targ. Ps. LXXXVII, 2</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " mostly pl. (= <cite ref=\"M02127\"><he>מֵעֲלָא</he></cite>) <i>setting</i>. Ib. L, 1. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 1:4\">Targ. Josh. I, 4</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Psalms 19:6\">Targ. Ps. XIX, 6</cite> <he>באורח מעלני בפניא</he> Ms. (read <he>מַעֲלָנֵיה</he>; ed. only <he>באורחא</he>).]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "C00874",
+	"slug": "גלגלין",
+	"headword": {
+		"text": "גִּלְגְּלִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּילְגְּלִין"
+		}
+	],
+	"page": {
+		"number": 245,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (used as sing.; <he>גלל</he>) <i>girdle of net-work, bandage, wrap</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 3:4\">Eduy. III, 4</cite> (Ms. M. <cite ref=\"C01090\"><he>גנגלון</he></cite>, v. infra). ",
+				"<cite ref=\"Mishnah Negaim 11:11\">Neg. XI, 11</cite> <cite ref=\"C00873\"><he>גלגלון</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Nazir 7:2:7\">Y. Naz. VII, 56ᵇ</cite> bot. <he>נקבר אפי׳ ג׳ קטן וכ׳</he> if there is buried with the corpse even a small wrap (or belt), the law concerning decayed corpses (v. <cite ref=\"T01011\"><he>רָקָב</he></cite>) finds no application. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 7:2:7\">Ib.</cite> if two corpses are buried beside each other <he>נעשה ג׳ לזה וכ׳</he> each acts as <i>gilg’lin</i> to the other (suspending the law of <i>rakab</i>); Bab. ",
+				"<cite ref=\"Nazir 51a:4\">Naz. 51ᵃ</cite>; <cite ref=\"Niddah 27b\">Nidd. 27ᵇ</cite> <cite ref=\"C01090\"><he>גנגילון</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 5:9\">Tosef. Kel. B. Bath. V, 9</cite> <he>גנגלין</he>. Sifra Sh’mini ch. XI, Par. 10 <he>גנגלים וגנגיליון</he> (a fusion of two versions); ib. Aḥăré Par. 8, ch. XII <he>גינגליון</he>; a. e. [Var. lect.: <cite ref=\"C01090\"><he>גנגילון</he></cite>, <cite ref=\"C01090\"><he>גנגלון</he></cite>, <cite ref=\"C01091\"><he>גנגלים</he></cite>, influenced by the Latin <i>cingulum</i> to which our w. nearly corresponds.]"
+			]
+		}
+	]
+}

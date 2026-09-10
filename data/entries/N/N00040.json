@@ -1,0 +1,22 @@
+{
+	"id": "N00040",
+	"slug": "נבגא-1",
+	"headword": {
+		"text": "נִבְגָּא"
+	},
+	"page": {
+		"number": 867,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00039\">preced.</cite>) <i>shoot, twig</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 74a:4\">Pes. 74ᵃ</cite> <he>נ׳ בר שתא</he> (Ms. M. <he>נִיבְ׳</he>) a twig (of the pomegranate tree) of this year’s growth."
+			]
+		}
+	]
+}

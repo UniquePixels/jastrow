@@ -1,0 +1,47 @@
+{
+	"id": "O01015",
+	"slug": "סלע",
+	"headword": {
+		"text": "סֶלַע"
+	},
+	"page": {
+		"number": 996,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; Arab. <i>salʿa, to cleave</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rock, clod, boulder</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 1:1\">Tosef. B. Bath. I, 1</cite> <he>בס׳ הבא בידים</he> if there is (between the two pits) a clod which crumbles under one’s hands; <cite ref=\"Bava Batra 17b:14\">B. Bath. 17ᵇ</cite>; <cite ref=\"Bava Batra 19a:13\">19ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Orlah 1:3\">Orl. I, 3</cite> <he>אילן שנעקר והס׳ עמו</he> if a tree has been uprooted with the clod on its roots; a. fr.—Pl. <he>סְלָעִים</he>, <he>סְלָעִין</he>. ",
+				"<cite ref=\"Mishnah Bava Batra 2:1\">B. Bath. II, 1</cite> <he>מרחיקין … את הס׳ וכ׳</he> deposits of stones (or earth) must be kept off the neighbor’s wall &c.; <cite ref=\"Jerusalem Talmud Shabbat 4:1:6\">Y. Sabb. IV, 6ᵈ</cite> bot. <he>לא שהס׳ מרתיחין וכ׳</he> not because they generate heat, but because they generate mould and ruin the wall. B. Bath. l. c. <he>תנא הכא ס׳ והוא הדין לחול</he> the Mishnah mentions stones and implies sand. Tanḥ. Ḥuck. 20 <he>ס׳ כמין שדים</he> rocks protruding like breasts; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pl.</i> as ab. <i>scales</i> on the bodies of serpents. Tanḥ. M’tsorʿa 2 <he>הס׳ שהן על הנחש וכ׳</he> the scales on the serpent’s back are its leprosy.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Sela, a weight</i> and <i>a coin</i> equal to one sacred or two common Shekels (v. Zuckerm. Talm. Münz., pp. 9; 24). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:7\">Kel. XII, 7</cite> <he>ס׳ שנפסלה וכ׳</he> a Sela which has been unfitted (as a coin) and which has been fitted up for use as a weight. ",
+				"<cite ref=\"Bekhorot 50a:4\">Bekh. 50ᵃ</cite> <he>ס׳ של קדש וכ׳</he> the sacred S. contains 48 dupondia. ",
+				"<cite ref=\"Bekhorot 50a:8\">Ib.</cite> <he>כל כסף האמור בתורה סתם ס׳</he> every silver piece mentioned in the Pentateuch without any qualification means a S. ",
+				"<cite ref=\"Bekhorot 50b:10\">Ib.ᵇ</cite> (ref. to <cite ref=\"Mishnah Bava Kamma 8:6\">B. Kam. VIII, 6</cite>) <he>ולא תימא ס׳ ארבע זוזי וכ׳</he> think not that the Mishnah means a S. of four Zuz, but it means half a Zuz, for people call half a Zuz a Sela (split, cmp. <cite ref=\"B01129\"><he>בֶּקַע</he></cite>); <cite ref=\"Bava Kamma 36b:11\">B. Kam. 36ᵇ</cite> <he>ס׳ צורי</he> a Tyrian S.; <he>ס׳ מדינה</he> a country S. (one eighth of a Tyrian S., half a Zuz; v. supra); a. v. fr.—In gen. <i>coin</i>. ",
+				"<cite ref=\"Mishnah Shabbat 6:6\">Sabb. VI, 6</cite> <he>ס׳ שעל הצינית</he> a coin placed on a sore of the foot. ",
+				"<cite ref=\"Avodah Zarah 54b:17\">Ab. Zar. 54ᵇ</cite> <he>ס׳ שלי</he> my (the Lord’s) coin (divine image of man), v. <cite ref=\"Q00249\"><he>פּוּמְבִּי</he></cite>.—Pl. as ab. Y. Sabb. l. c. <he>תיפתר בס׳ של כסף</he> it means <i>s’laʿim</i> (coins) of silver; <he>בשל זהב וכ׳</he> golden, copper <i>s’laʿim</i>. ",
+				"<cite ref=\"Mishnah Ketubot 5:9\">Keth. V, 9</cite> <he>משקל חמשה ס׳ שתי וכ׳</he> warp of the weight of five S. in Judæa which is equal to ten S. in Galilee &c. Y. Kidd. I, 59ᵈ bot., a. e. <he>כל שקלים … ס׳</he> all Shekels mentioned in the Pentateuch mean S., v. supra; a. fr.—[<cite ref=\"Tosefta Uktsin 1:2\">Tosef. Ukts. I, 2</cite> (<cite ref=\"Mishnah Tevul Yom 3\">T’bul Yom III</cite>) <he>ס׳ של שבלים</he>, v. <cite ref=\"M01607\"><he>מֵלַע</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

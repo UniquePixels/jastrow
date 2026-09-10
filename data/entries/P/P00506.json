@@ -1,0 +1,28 @@
+{
+	"id": "P00506",
+	"slug": "עידוי-1",
+	"headword": {
+		"text": "עִידּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִדּ׳"
+		}
+	],
+	"page": {
+		"number": 1067,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P00131\"><he>עֲדֵי</he> I</cite>, <i>Pa.</i>) <i>carrying, going with child</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20:4\">Gen. R. s. 20</cite> <he>הרונך זה צער הע׳</he> <i>heronekh</i> (<cite ref=\"Genesis 3:16\">Gen. III, 16</cite>) means the inconveniences during pregnancy, v. <cite ref=\"P00491\"><he>עִיבּוּר</he></cite>. Yalk. ib. 82 (ref. to <cite ref=\"P00157\"><he>עדנה</he></cite>, <cite ref=\"Genesis 18:12\">Gen. XVIII, 12</cite>) <he>האשה … ע׳ ולדות</he> as long as a woman is young, there is for her a possibility of bearing children; a. e.—Pl. <he>עִידּוּיִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 48:17\">Gen. R. s. 48</cite> (ed. Wil.) <he>האשה הזאת כל זמן שהיא ילדה יש לה עִידּוּיִין וכ׳</he> as long as a woman is young, there is for her a possibility &c., and I, after I am grown old, should have <i>ʿednah</i>?—V. <cite ref=\"P00509\"><he>עִידּוֹן</he></cite>."
+			]
+		}
+	]
+}

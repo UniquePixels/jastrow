@@ -1,0 +1,28 @@
+{
+	"id": "U00928",
+	"slug": "שיכמי",
+	"headword": {
+		"text": "שִׁיכְמִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁכְ׳"
+		}
+	],
+	"page": {
+		"number": 1562,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"U01170\"><he>שְׁכֶם</he></cite>) <i>shikhmi</i>, by-name of a certain class of Pharisees. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:7\">Y. Ber. IX, 14ᵇ</cite> bot. <he>פרוש ש׳</he>, expl. <he>טעין מצוותא וכ׳</he> who carries religious exercises on his shoulder; <cite ref=\"Jerusalem Talmud Sotah 5:5:4\">Y. Sot. V, 20ᶜ</cite> bot.; Bab. ",
+				"<cite ref=\"Sotah 22b:3\">Sot. 22ᵇ</cite>, expl. <he>זה העושה מעשה שכם</he> he who acts like Shechem (who underwent circumcision from an unholy motive)."
+			]
+		}
+	]
+}

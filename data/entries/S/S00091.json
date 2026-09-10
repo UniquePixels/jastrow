@@ -1,0 +1,23 @@
+{
+	"id": "S00091",
+	"slug": "קבעתא",
+	"headword": {
+		"text": "קַבְעָתָא"
+	},
+	"page": {
+		"number": 1312,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>קְבַע</he> II) <i>setting, frame</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 6a:8\">B. Bath. 6ᵃ</cite> <he>ק׳ דכשורי</he> (Ms. R. a. Rashi <he>אַקְבּוּעֵי</he>) the wooden lining of the cavities in the wall in which the beams are fixed."
+			]
+		}
+	]
+}

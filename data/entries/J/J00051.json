@@ -1,0 +1,23 @@
+{
+	"id": "J00051",
+	"slug": "יבלא-1",
+	"headword": {
+		"text": "יִבְלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 561,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יבל</he> I) = h. <cite ref=\"J00049\"><he>יֶבֶל</he></cite>, <i>cut, brook</i>.—Pl. <he>יִבְלִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:48\">Targ. Lam. III, 48</cite> (Levita sing.)"
+			]
+		}
+	]
+}

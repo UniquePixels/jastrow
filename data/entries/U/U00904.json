@@ -1,0 +1,28 @@
+{
+	"id": "U00904",
+	"slug": "שיין",
+	"headword": {
+		"text": "שְׁיָין"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁיָן"
+		}
+	],
+	"page": {
+		"number": 1561,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (cmp. <cite ref=\"A03284\"><he>אַשְׁיָאן</he></cite>) <i>Sh’yan</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:17\">Y. Bicc. III, 65ᵈ</cite> top; (Midr. Sam. ch. VII <cite ref=\"A03284\"><he>אשיין</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:3:2\">Y. Erub. I, 19ᵃ</cite> top <he>שין</he>; ib. 19ᵇ top <cite ref=\"U00904\"><he>שיין</he></cite>."
+			]
+		}
+	]
+}

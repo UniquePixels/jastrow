@@ -1,0 +1,28 @@
+{
+	"id": "A00964",
+	"slug": "אזוב",
+	"headword": {
+		"text": "אֵזוֹב"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵיזוֹב"
+		}
+	],
+	"page": {
+		"number": 37,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00114\"><he>זוּב</he></cite>)<i>hyssop</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 14:6\">Neg. XIV, 6</cite> <he>א׳ יון</he> (Ar. <cite ref=\"A00950\"><he>אזביון</he></cite>) Greek hyssop. ",
+				"<cite ref=\"Mishnah Shabbat 14:3\">Sabb. XIV, 3</cite> (<cite ref=\"Shabbat 109b:4\">109ᵇ</cite>) <he>איזוביון</he>, <cite ref=\"A01189\"><he>איזביון</he></cite> (read two words, Ms. O., v. Rabb. D. S. a. l. note 4); a. fr.—Pl. <he>אֵיזוֹבִים</he> <cite ref=\"Moed Katan 25b:4\">M. Kat. 25ᵇ</cite> <he>אֵיזוֹבֵי קִיר</he> the hyssop (moss) on the wall (common humanity); v. <cite ref=\"A03048\"><he>אֶרֶז</he></cite>."
+			]
+		}
+	]
+}

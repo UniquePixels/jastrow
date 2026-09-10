@@ -1,0 +1,32 @@
+{
+	"id": "B00156",
+	"slug": "בדק-3",
+	"headword": {
+		"text": "בֶּדֶק"
+	},
+	"page": {
+		"number": 141,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., <cite ref=\"B00155\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>breach, defect</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>attendance, repair</i>. <he>ב׳ הבית</he> (<cite ref=\"II Kings 12:8\">II Kings XII, 8</cite>) keeping the Temple in repair. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 8:3:4\">Y. Pes. VIII, 36ᵃ</cite> top. ",
+				"<cite ref=\"Mishnah Temurah 1:6\">Tem. I, 6</cite> <he>קדשי ב׳ הב׳</he> (Mish. <he>קרבנות</he>) offerings for the Temple repair, opp. to <he>קדשי מזבח</he> objects dedicated for sacrifices. ",
+				"<cite ref=\"Mishnah Temurah 7:1\">Ibid. VII, 1</cite>; a. fr.—Pl. <he>בְּדָקִים</he>, constr. <he>בִּדְקֵי</he>. ",
+				"<cite ref=\"Shabbat 32a:7\">Sabb. 32ᵃ</cite> <he>ב׳ מיתה</he> breaches through which death enters, i.e. sins for which one is visited with death; v. <cite ref=\"D00074\"><he>דֶּבֶק</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

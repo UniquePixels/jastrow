@@ -1,0 +1,28 @@
+{
+	"id": "A00084",
+	"slug": "אבזרא",
+	"headword": {
+		"text": "אֲבִזְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲבִיזְרָא"
+		}
+	],
+	"page": {
+		"number": 4,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Arab. bazr, abzār, v. <he>בזר</he>, <he>פזר</he>) <i>anything used for seasoning, spices</i> &c.—Fig. <i>requisites, appurtenances</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 74b:9\">Snh. 74ᵇ</cite> <he>אינהו וכל אבזרייהו</he> they (the commands) and all appertaining thereto. ",
+				"<cite ref=\"Menachot 73b:13\">Men. 73ᵇ</cite> <he>עולה וכל אֲבִיזְרָהָא</he> Ar. a. Rashi to Snh. l. c. (ed. <cite ref=\"H00078\"><he>חבירתא</he></cite> corr. acc.) the burnt-offering and &c."
+			]
+		}
+	]
+}

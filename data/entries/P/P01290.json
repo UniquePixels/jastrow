@@ -1,0 +1,27 @@
+{
+	"id": "P01290",
+	"slug": "ערבתא",
+	"headword": {
+		"text": "עֲרַבְתָּא"
+	},
+	"page": {
+		"number": 1113,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P01262\"><he>עֲרָבָה</he> I</cite>, <i>willow</i>, esp. <i>the willow branches carried in procession on the seventh day of Succoth</i> (v. <cite ref=\"E00289\"><he>הוֹשַׁעְנָא</he></cite>); <he>יומא דע׳</he>, or <he>ע׳</he> (sub. <cite ref=\"J00194\"><he>יום</he></cite>) <i>the seventh day of Succoth</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 34a:9\">Succ. 34ᵃ</cite>, v. <cite ref=\"H01108\"><he>חִלְפְּתָא</he></cite>. ",
+				"<cite ref=\"Eruvin 29b\">Erub. 29ᵇ</cite>, v. <cite ref=\"O00252\"><he>סוּגְיָינָא</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 4:1:3\">Y. Succ. IV, beg. 54ᵇ</cite> <he>דלא תעבדון … ולא ע׳ בשבתא</he> that you do not appoint the blowing of the Shofar (the first day of Tishri) on a Sabbath, nor the day of the ʿĂrabta on a Sabbath. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 4:1:3\">Ib.</cite> <he>ולא תעבדין ע׳</he> omit the procession with the willow-branches. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 4:1:3\">Ib.</cite> <he>עֲרוּבְתָּא דיומא שביעיא</he>, v. <cite ref=\"M02254\"><he>מַפְשׁוּטִיתָא</he></cite>; Y. Ab. Zar. IV, 43ᵈ top <he>ערוב׳</he>; <cite ref=\"Jerusalem Talmud Sheviit 1:3:1\">Y. Shebi. I, 33ᵇ</cite> bot. <he>ערב׳</he>.—Pl. <cite ref=\"P01290\"><he>עַרְבָתָא</he></cite>. ",
+				"<cite ref=\"Shabbat 20b\">Sabb. 20ᵇ</cite> Ms. M. (ed. <cite ref=\"A02974\"><he>ארבתא</he></cite>), v. <cite ref=\"A02974\"><he>אֲרַבְתָּא</he></cite>."
+			]
+		}
+	]
+}

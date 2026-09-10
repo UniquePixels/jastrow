@@ -1,0 +1,23 @@
+{
+	"id": "H01240",
+	"slug": "חמת-5",
+	"headword": {
+		"text": "חֲמָת"
+	},
+	"page": {
+		"number": 481,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (b. h.) <i>Hamath</i>, a Syrian city, near the later Antiochia. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 13:21\">Targ. O. Num. XIII, 21</cite> (Y. <cite ref=\"A02165\"><he>אנטוכיא</he></cite>); ib. XXXIV, 8 (Y. <he>טיבריא</he>, v. <cite ref=\"H01244\"><he>חַמְּתָא</he></cite>); a. fr.—",
+				"<cite ref=\"Bamidbar Rabbah 10:4\">Num. R. s. 10</cite> (ref. to <cite ref=\"Amos 6:2\">Am. VI, 2</cite>) <he>זו חֲמת אנטוכיא</he> that is H. near Antiochia (Yalk. Am. 545 <he>זה אנט׳</he>)."
+			]
+		}
+	]
+}

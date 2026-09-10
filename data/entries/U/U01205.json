@@ -1,0 +1,23 @@
+{
+	"id": "U01205",
+	"slug": "שלבין",
+	"headword": {
+		"text": "שְׁלַבִּין"
+	},
+	"page": {
+		"number": 1577,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h. <cite ref=\"U01205\"><he>שְׁלַבִּים</he></cite>; <cite ref=\"U01204\">preced.</cite>)<i>mortised boards, steps of a ladder</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:4:3\">Y. Taan. IV, 68ᵇ</cite> bot. <he>ועושה אותן כמין ש׳ וכ׳</he> he gave them the form of mortised boards and joined them, so as to make them look like a ladder."
+			]
+		}
+	]
+}

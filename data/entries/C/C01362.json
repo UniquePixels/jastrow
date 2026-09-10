@@ -1,0 +1,41 @@
+{
+	"id": "C01362",
+	"slug": "גרממיא",
+	"headword": {
+		"text": "גִּרְמַמְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּרְמַנְיָא"
+		},
+		{
+			"text": "גִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 270,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Germamia, Germania</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the land of the Cimmerii</i> (v. Schr. KAT p. 428). ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 1:5\">Targ. I Chr. I, 5</cite>; <cite ref=\"Targum Jonathan on Genesis 10:2\">Targ. Y. Gen. X, 2</cite> (for <i>Magog</i>); Y. Meg. I, 71ᵇ bot.; <cite ref=\"Yoma 10a:2\">Yoma 10ᵃ</cite> (for <i>Gomer</i>); <cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite>, beg. (for <i>Magog</i>). ",
+				"<cite ref=\"Bereishit Rabbah 37\">Ib.</cite> (also for <i>Togarmah</i>, v. <cite ref=\"C01367\"><he>גִּרְמַנִיקְיָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>ג׳ של אדום</he> or <he>של רומי</he>) <i>Germania, the Roman province of Germania</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 6a\">Meg. 6ᵃ</cite>; <cite ref=\"Megillah 6b:1\">6ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 888:9\">Yalk. Ps. 888</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite>, v. <cite ref=\"B01172\"><he>בַּרְבַּרְיָא</he></cite>. [<cite ref=\"Jerusalem Talmud Shabbat 6:9:12\">Y. Sabb. VI, 8ᶜ</cite> bot. read <cite ref=\"C01364\"><he>גִּרְמָנִי</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

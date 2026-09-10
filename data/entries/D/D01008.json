@@ -1,0 +1,22 @@
+{
+	"id": "D01008",
+	"slug": "דקיתא-2",
+	"headword": {
+		"text": "דְּקִיתָא"
+	},
+	"page": {
+		"number": 319,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"D01007\">preced.</cite>) <i>the lowest joint of the vertebra</i> (= h. <cite ref=\"P01103\"><he>עָצֶה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 3:9\">Targ. Y. Lev. III, 9</cite>. [<cite ref=\"Targum Jonathan on Deuteronomy 18:3\">Targ. Y. Deut. XVIII, 3</cite> <he>ד׳</he> Ar., v. <cite ref=\"T01037\"><he>רְקִיתָא</he></cite>.]"
+			]
+		}
+	]
+}

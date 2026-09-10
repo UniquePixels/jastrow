@@ -1,0 +1,122 @@
+{
+	"id": "P00342",
+	"slug": "עור-1",
+	"headword": {
+		"text": "עוּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1057,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be stirred up</i>, v. <cite ref=\"P01454\"><he>עָרַר</he></cite>,] <i>to wake</i> (act. a. neut.). [<cite ref=\"Jerusalem Talmud Bava Batra 3:3:8\">Y. B. Bath. III, 14ᵃ</cite> <he>וצריך לעורו</he>, read <he>לעורר</he>, v. infra.]—Part. <cite ref=\"P01235\"><he>עֵר</he></cite>; f. <cite ref=\"P01305\"><he>עֵרָה</he></cite>; pl. <cite ref=\"P01361\"><he>עֵרִים</he></cite>; <he>עֵרוֹת</he>, <cite ref=\"P01089\"><he>עֵי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 2:5\">B. Kam. II, 5</cite> <he>בין ער בין ישן</he> whether awake or asleep. ",
+				"<cite ref=\"Niddah 12a:44\">Nidd. 12ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 55b\">Sabb. 55ᵇ</cite>; <cite ref=\"Sanhedrin 82a:3\">Snh. 82ᵃ</cite> (ref. to <cite ref=\"Malachi 2:12\">Mal. II, 12</cite>) <he>שלא יהיה לו ער … ועונה וכ׳</he> he shall have none awakening (teaching) among the teachers and none responding among the scholars. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:2:1\">Cant. R. to V, 2</cite> <he>אני ישנה מן המצות ולבי ער לגמילת חסדים</he> I am asleep (negligent) in ceremonies, but my heart is awake for charity; <he>אני ישנה מן הצדקות ולבי ער לעשותן</he> I am asleep (careless) about righteous deeds, but my heart awakens me (stirs me up) to do them; <cite ref=\"Shir HaShirim Rabbah 5:2:1\">ib.</cite> <he>ולבו של הקב״ה ער לגאלני</he> but the heart of the Lord, is awake (anxious) to redeem me; Pesik. Haḥod. p. 46ᵇ; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>ולבי ער להקב״ה לגאלני</he> but my heart is awake (waiting) for the Lord to redeem me; <cite ref=\"Yalkut Shimoni on Nach 988:36\">Yalk. Cant. 988</cite>; Tanḥ. ed. Bub., Tol’doth 18. ",
+				"<cite ref=\"Tractate Derekh Eretz Zuta 5:5\">Der. Er. Zuta ch. V</cite> <he>לא יהא אדם ער … בין העי׳</he> one must not be awake among those sleeping, nor asleep among those awake. Nidd. l. c. <he>בין ישנות בין ע׳</he> whether they are asleep or awake; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֵעוֹר", "נֵי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be awake, wake up; to be stirred up, become active</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 74b:3\">B. Bath. 74ᵇ</cite> <he>והוה ר״א ישן ור״י נעור</he> (not <cite ref=\"N01007\"><he>ניער</he></cite>) R. E. was asleep, and R. J. awake. ",
+						"<cite ref=\"Mishnah Gittin 8:2\">Gitt. VIII, 2</cite> (<cite ref=\"Gittin 78a\">78ᵃ</cite>) (<cite ref=\"N01057\"><he>נֵי׳</he></cite>) <he>נֵעוֹרָה קוראה וכ׳</he> when she woke up, she read and found it was her letter of divorce. ",
+						"<cite ref=\"Pirkei Avot 3:4\">Ab. III, 4</cite> <he>הנ׳ בלילה</he> he who is awake by night. ",
+						"<cite ref=\"Sifrei Devarim 314:1\">Sifré Deut. 314</cite> <he>כדי שיעֵוֹרוּ בניו</he> (not <he>שיעירו</he>) that his young brood may wake up; <cite ref=\"Yalkut Shimoni on Torah 944\">Yalk. ib. 944</cite>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:8\">Cant. R. to IV, 8</cite> (read:] <he>בתחלה הוא נעור וכ׳</he> (or <cite ref=\"N01007\"><he>נִנְעַר</he></cite>, v. <cite ref=\"N01007\"><he>נָעַר</he> II</cite>) first he bestirs himself (and proceeds) from the Temple &c.; a. fr.—",
+						"<cite ref=\"Avodah Zarah 73a\">Ab. Zar. 73ᵃ</cite>, a. fr. <he>מצא מין את מינו וניעור</he> kind found its kind and was stirred up, i.e. the two equal elements in the mixture join to become working agents.—V. <cite ref=\"N01007\"><he>נָעַר</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵעִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to wake up; to stir up, instigate</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 43:3\">Gen. R. s. 43</cite> <he>מי הוא זה שה׳ לבם של מזרחיים וכ׳</he> who was he that stirred up the heart of the eastsrn nations that they should come and fall &c.?; <cite ref=\"Yalkut Shimoni on Nach 311\">Yalk. Is. 311</cite> <he>שה׳ בלבם של אזרחיים</he> (corr. acc.). ",
+						"<cite ref=\"Yalkut Shimoni on Nach 311\">Ib.</cite> <he>ישנים … ומי הֵעִירָן לבא וכ׳</he> the nations were too indifferent to come under the wings of the Lord, and who waked them up to come under his wings? <cite ref=\"Sanhedrin 25b:6\">Snh. 25ᵇ</cite> (expl. <he>מפריחי יונים</he>, <cite ref=\"Mishnah Sanhedrin 3:3\">ib. III, 3</cite>) <he>אלו שמְעִירִין וכ׳</he> Ms. M. (ed. <he>שממרין</he>) those who stir up the pigeons (on which they bet), v. <cite ref=\"M02562\"><he>מָרָה</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּעַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be stirred up, be removed</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite> <he>שה׳ מן העולם</he>, v. <cite ref=\"P01236\"><he>עֵר</he> II</cite>; <cite ref=\"Yalkut Shimoni on Torah 145:17\">Yalk. ib. 145</cite>."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["עוֹרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to wake up</i>. Y. Ber. I, 2ᵈ (ref. to <cite ref=\"Psalms 57:9\">Ps. LVII, 9</cite>) <he>דרכן … להיות השחר מְעוֹרְרָן</he> it is usual with kings that the dawn wakes them up; Tanḥ. B’ha‘ăl. 10 <he>דרך השחר מְעוֹרֵר … מעורר וכ׳</he> usually the dawn wakes the sons of man, but I wake the dawn up. Y. Ber. IX, 13ᵈ bot. <he>היודע … הוא יְעוֹרֵר אתכם</he> he that knows your numbers wake you (from death); a. fr.—Y. Ter. V, end, 43ᵈ <he>מעורר את מינו ליאסר</he> stirs up its kind (makes it an agent) to become forbidden, v. supra.—",
+					"units": [
+						"<cite ref=\"Mishnah Maaser Sheni 5:15\">Maas. Sh. V, 15</cite> <he>בטל את המְעוֹרְרִים</he> abolished the wakers; <cite ref=\"Mishnah Sotah 9:10\">Sot. IX, 10</cite>, expl. ",
+						"<cite ref=\"Sotah 48a:7\">ib. 48ᵃ</cite>; <cite ref=\"Tosefta Sotah 13:9\">Tosef. ib. XIII, 9</cite> <he>מעוררין אילו הלוים וכ׳</he> the wakers are the Levites, who … sang, Awake &c. (<cite ref=\"Psalms 44:24\">Ps. XLIV, 24</cite>). ",
+						"<cite ref=\"Vayikra Rabbah 7\">Lev. R. s. 7</cite>, beg. <he>שנאה … היא עוֹרְרָה עליהן דיני דינין</he> hatred … stirred up against them judgment upon judgment; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to excite to lamentation, arrange a memorial service, engage a travelling wailer</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Moed Katan 1:5\">M. Kat. I, 5</cite> <he>לא יְעוֹרֵר וכ׳</he> one must not arrange a memorial service &c., v. <cite ref=\"O01320\"><he>סַפְדָּנָא</he></cite>; <cite ref=\"Moed Katan 8a:17\">ib. 8ᵃ</cite> <he>לא יערער</he>, v. <cite ref=\"P01417\"><he>עִרְעֵר</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to raise an objection; to contest the legality of</i>. Y. B. Bath. III, 14ᵃ (interch. with <cite ref=\"P01454\"><he>עָרַר</he></cite>) <he>מכיון שערר … צריך לעוֹרֵר עליו</he> since he contested the right of possession in three successive years, he need no longer contest. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>צריך לעורו</he> (corr. acc.); v. <cite ref=\"P01454\"><he>עָרַר</he></cite> a. <cite ref=\"P01417\"><he>עִרְעֵר</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Polel."
+		},
+		{
+			"forms": ["הִתְעוֹרֵר"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpol</i>. <he>נִתְעוֹרֵר</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be waked up; to bestir one’s self</i>. Lev. R. l. c. <he>עד שנה שנִתְעוֹרְרָה עליהן וכ׳</he> up to the year when it (hatred) was stirred up against them &c. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 9:6\">Lev. R. s. 9</cite> (ref. to <cite ref=\"Song of Songs 4:16\">Cant. IV, 16</cite>) <he>לכשיִתְעוֹרְרוּ הגליות וכ׳</he> when the exiled colonies in the north are waked up (to be redeemed), they will come &c.; <cite ref=\"Song of Songs 4:16\">ib.</cite> <he>לכשיִתְעוֹרֵר גוג וכ׳</he> when Gog bestirs himself (to war) &c. ",
+						"<cite ref=\"Song of Songs 4:16\">Ib.</cite> <he>דבר שהוא ישן ונתע׳</he> a thing (the daily offering) which was asleep (during the captivity) and has been reawakened (reinstated); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be lively; to enjoy one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 149:3\">Midr. Till. to Ps. CXLIX</cite> <he>הִתְעוֹרְרוּ עלי וכ׳</he> enjoy yourselves with me at your pleasure."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

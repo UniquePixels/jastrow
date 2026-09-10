@@ -1,0 +1,23 @@
+{
+	"id": "I00093",
+	"slug": "טבת-2",
+	"headword": {
+		"text": "טַבָּת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 519,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"I00025\"><he>טָבָאוּת</he></cite>) (<i>in a</i>) <i>good condition, right</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 26:5\">Gen. R. s. 26</cite> (ref. to <he>טֹבֹת</he>, <cite ref=\"Genesis 6:2\">Gen. VI, 2</cite>) <he>טבת כתיב משהיו מטיבין וכ׳</he> you may read <i>tabbath</i> (that they were all right); when people had made the bride ready &c."
+			]
+		}
+	]
+}

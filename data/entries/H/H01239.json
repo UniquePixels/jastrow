@@ -1,0 +1,36 @@
+{
+	"id": "H01239",
+	"slug": "חמת-4",
+	"headword": {
+		"text": "חֲמֵת"
+	},
+	"page": {
+		"number": 481,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"H01242\"><he>חֵמְתָא</he></cite>) <i>to get hot, angry</i>. [<he>חמת־</he>, <i>to see</i>, v. <cite ref=\"H01172\"><he>חֲמִי</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַמֵּית"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְמֵית"],
+			"senses": [
+				{
+					"gloss": "<i>to make angry</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 20:2\">Targ. Prov. XX, 2</cite> <he>מְחַמֵּית</he> (Var. <he>מַחְמֵית</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

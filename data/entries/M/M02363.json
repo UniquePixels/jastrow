@@ -1,0 +1,25 @@
+{
+	"id": "M02363",
+	"slug": "מצרי-1",
+	"headword": {
+		"text": "מִצְרִי",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 828,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M02352\"><he>מָצַר</he> I</cite>) <i>anything twisted</i> of rushes, palm-twigs &c. <he>חבל מ׳</he> a common rope (badge of disgrace worn by the Sotah, v. <cite ref=\"O00286\"><he>סוֹטָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 1:6\">Sot. I, 6</cite>; a. fr.—[Y. ib. I, 17ᵃ top; <cite ref=\"Bamidbar Rabbah 9:14\">Num. R. s. 9</cite> take our w. to mean <i>Egyptian</i>, v. next w.].—<i>Fem.</i> <cite ref=\"M02367\"><he>מִצְרִית</he></cite>. ",
+				"<cite ref=\"Mishnah Sotah 2:1\">Sot. II, 1</cite>, a. fr. <he>כפיפה מ׳</he>, v. <cite ref=\"K01019\"><he>כְּפִיפָה</he></cite>."
+			]
+		}
+	]
+}

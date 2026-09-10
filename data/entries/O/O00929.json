@@ -1,0 +1,34 @@
+{
+	"id": "O00929",
+	"slug": "סכנין-1",
+	"headword": {
+		"text": "סִכְנִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִכְנִי"
+		},
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 992,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Σωγάνη, Jos. Vita 51) <i>Sikhnin</i> (<i>Sukhnin</i>), north of Jotapata in Galilee, seat of R. Ḥănania b. T’radyon, and home of R. Joshua. ",
+			"units": [
+				"<cite ref=\"Taanit 16b\">Taan. 16ᵇ</cite> <he>סיכני</he>. ",
+				"<cite ref=\"Sanhedrin 32b\">Snh. 32ᵇ</cite> <he>לס׳</he> (v. Rabb. D. S. a. l. note 30).—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:22\">Y. Ber. IV, 7ᵇ</cite> bot., a. fr. <he>ר׳ יהושע דס׳</he>. ",
+				"<cite ref=\"Vayikra Rabbah 5:5\">Lev. R. s. 5</cite> (ref. to <he>הסכן</he>, <cite ref=\"Isaiah 22:15\">Is. XXII, 15</cite>) <he>מן הדא ס׳ הוה</he> he came from Sikhnin.—",
+				"<cite ref=\"Tosefta Niddah 3:11\">Tosef. Nidd. III, 11</cite> <he>בקעת סכני</he> the Valley of S.—Cmp. <cite ref=\"O00563\"><he>סִיגְנָא</he> II</cite>."
+			]
+		}
+	]
+}

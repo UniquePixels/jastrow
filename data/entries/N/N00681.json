@@ -1,0 +1,30 @@
+{
+	"id": "N00681",
+	"slug": "נימוס-3",
+	"headword": {
+		"text": "נִימוֹס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 905,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (νόμος) <i>usage, law; religion</i> (v. <cite ref=\"N00371\"><he>נוֹמוֹס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Megillah 12b:18\">Meg. 12ᵇ</cite> <he>מוכתר בנִימוֹסוֹ</he>, v. <cite ref=\"K01386\"><he>כָּתַר</he></cite>. ",
+				"<cite ref=\"Gittin 65b:10\">Gitt. 65ᵇ</cite> <he>עשו לה כנ׳</he> deal with her according to law. ",
+				"<cite ref=\"Shemot Rabbah 15:7\">Ex. R. s. 15</cite> <he>בנ׳ המלכות</he> in accordance with the royal usage of warfare; (Tanḥ. Bo 4, a. e. <he>כטַקְסִין</he>). ",
+				"<cite ref=\"Gittin 43b:10\">Gitt. 43ᵇ</cite> <he>כיון שעשה</he> … <he>נִימוֹסוֹ</he> Ar. (ed. <he>נמוסו</he>) as soon as the gentile did to him (the hypothecated slave) what the law requires (to take possession, v. <cite ref=\"N01344\"><he>נַשְׁקִי</he></cite>); <cite ref=\"Tosefta Avodah Zarah 3:16\">Tosef. Ab. Zar. III</cite> (<cite ref=\"Tosefta Avodah Zarah 4:16\">IV</cite>), 16 <he>נימוסות</he> (corr. acc.). Gitt. l. c. [read:] <he>אע״פ שעשה לה נִימוֹסָהּ</he> although he (the Jew) did what the law requires in regard to the field; a. fr.—Pl. <he>נִימוֹסִין</he>, <he>נִימוֹסוֹת</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 18:8\">Num. R. s. 18</cite> <he>בדרכי הגוים יש נ׳ וכ׳</he> it is the way of the nations to have many religious observances (for various deities) and many priests. ",
+				"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite> <he>בשלשה … בנ׳</he> (Ar. <he>בנַוְוסִין</he>) in three things is Greece in advance of Rome: in codes &c., v. <cite ref=\"Q01203\"><he>פַּנִּיקְטִין</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 67:7\">Gen. R. s. 67</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 8\">Num. R. s. 8</cite> <he>בנ׳ שלנו</he> in our (Roman) law; a. e.—[<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite> <he>הוציא הנמוסין</he> read: <he>הטוֹמוֹסִין</he>, v. <cite ref=\"I00177\"><he>טוֹמוֹס</he></cite>.]"
+			]
+		}
+	]
+}

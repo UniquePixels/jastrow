@@ -1,0 +1,58 @@
+{
+	"id": "H00615",
+	"slug": "חטי-3",
+	"headword": {
+		"text": "חטי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חָטָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 449,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to miss</i>,] <i>to fail, err, sin</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 4:2\">Yoma IV, 2</cite>, sq. ",
+				"<cite ref=\"Berakhot 17a:7\">Ber. 17ᵃ</cite>; a. fr. ",
+				"<cite ref=\"Rosh Hashanah 26a:9\">R. Hash. 26ᵃ</cite> <he>חוֹטֵא בל יקריב</he> he that sinned (with gold by making the golden calf) shall not bring nigh (the gold, enter with gold garments); <he>ח׳ בל יתגאה</he> he that sinned (with gold) shall not parade himself (with it).—",
+				"<cite ref=\"Ketubot 11a:13\">Keth. 11ᵃ</cite> <he>שלא יהא חוטא נשכר</he> that the sinner may not profit by his sin; <cite ref=\"Yevamot 92b\">Yeb. 92ᵇ</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִטֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to expiate</i> (<i>cleanse from sin</i>, v. <cite ref=\"H00582\"><he>חָטָא</he> I</cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 5:5\">Yoma V, 5</cite> (<cite ref=\"Yoma 58b:1\">58ᵇ</cite>) <he>מְחַטֵּא ויורד</he> he expiates (sprinkles) and goes down (sprinkling downward; Rashi: moves his arm downward). ",
+						"<cite ref=\"Yoma 58b:1\">Ib.</cite> <he>במקומו היה עומד ומח׳</he> he remained in his place and sprinkled. ",
+						"<cite ref=\"Zevachim 53a:4\">Zeb. 53ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶחְטִיא"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to sin</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 4:11\">Midr. Till. to Ps. IV, 5</cite>; Pesik. Shubah, p. 158ᵃ. ",
+						"<cite ref=\"Pirkei Avot 5:18\">Ab. V, 18</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

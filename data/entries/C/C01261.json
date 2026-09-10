@@ -1,0 +1,31 @@
+{
+	"id": "C01261",
+	"slug": "גרגרן-1",
+	"headword": {
+		"text": "גַּרְגְּרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּרְגְּרָן"
+		}
+	],
+	"page": {
+		"number": 265,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C01265\"><he>גַּרְגֶּרֶת</he></cite>) <i>glutton, bibber</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:2:4\">Y. Ber. VI, 10ᶜ</cite> top, v. <cite ref=\"C01263\"><he>גַּרְגְּרָנוּת</he></cite>. ",
+				"<cite ref=\"Pesachim 86b:10\">Pes. 86ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Niddah 10:8\">Nidd. X, 8</cite> (of one unable to control his sexual appetite).—Pl. <he>גַּרְגְּרָנִין</he>. ",
+				"<cite ref=\"Yoma 39a\">Yoma 39ᵃ</cite> bot., opp. <he>צנועין</he>.—Fem. <cite ref=\"C01264\"><he>גַּרְגְּרָנִית</he></cite>. Pl. <cite ref=\"C01264\"><he>גַּרְגְּרָנִיּוֹת</he></cite> (unable to resist tasting temptation). ",
+				"<cite ref=\"Bereishit Rabbah 45:5\">Gen. R. s. 45</cite>; <cite ref=\"Devarim Rabbah 6:11\">Deut. R. s. 6</cite> (ref. to <cite ref=\"Genesis 3:6\">Gen. III, 6</cite>)."
+			]
+		}
+	]
+}

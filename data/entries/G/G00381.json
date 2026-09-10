@@ -1,0 +1,28 @@
+{
+	"id": "G00381",
+	"slug": "זינגאי",
+	"headword": {
+		"text": "זִינְגָּאֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִנְ׳"
+		}
+	],
+	"page": {
+		"number": 395,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>Zingaë</i>, name of a Cushite tribe, prob. named from <i>Zeugis, Zeugitana Regio</i> in Africa Propria (cmp. τὰ Ζίγχα or Ζίγγα in Numidia, Strabo XVII, 831). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:7\">Targ. Y. Gen. X, 7</cite>; <cite ref=\"Targum of I Chronicles 1:9\">Targ. I Chr. I, 9</cite> (Var. in ed. Rahmer <he>דנ׳</he>; h. text <he>סבתכא</he>)."
+			]
+		}
+	]
+}

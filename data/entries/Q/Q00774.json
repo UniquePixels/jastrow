@@ -1,0 +1,27 @@
+{
+	"id": "Q00774",
+	"slug": "פיעור",
+	"headword": {
+		"text": "פִּיעוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּעוּר"
+		}
+	],
+	"page": {
+		"number": 1168,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01396\"><he>פָּער</he></cite>) <i>uncovering one’s self</i>, obscene worship of the idol Peor. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 106a:11\">Snh. 106ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 771:17\">Yalk. Num. 771</cite> <he>פעור</he>. V. <cite ref=\"Q01381\"><he>פְּעִירָה</he></cite>."
+			]
+		}
+	]
+}

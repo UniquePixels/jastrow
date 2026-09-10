@@ -1,0 +1,23 @@
+{
+	"id": "A00215",
+	"slug": "אברוסי",
+	"headword": {
+		"text": "אִבְרוֹסִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 9,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. a. geogr. term) <i>ibrosi</i>, name of a species of olive of medium size, also called <cite ref=\"A00282\"><he>אֵגוֹרִי</he></cite> q. v. ",
+			"units": [
+				"<cite ref=\"Berakhot 39a\">Ber. 39ᵃ</cite> its name is not <i>egori</i>, <he>אלא א׳ וכ׳</he> Ms. M. (ed. <cite ref=\"A00212\"><he>אברוטי</he></cite>, Ar. ed. Koh. <he>אברוצי</he>) but its original name is <i>ibrosi</i> or as some say <cite ref=\"O00093\"><he>סִבְרוֹסִי</he></cite> Ms. M. (ed. <cite ref=\"O01141\"><he>סמרוסי</he></cite>); Y. Bicc. I, 63ᵈ bot. (<cite ref=\"A00588\"><he>אוורוס</he></cite>) <he>אווריס</he>."
+			]
+		}
+	]
+}

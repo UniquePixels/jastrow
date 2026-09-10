@@ -1,0 +1,24 @@
+{
+	"id": "M00100",
+	"slug": "מברכתא",
+	"headword": {
+		"text": "מַבְרַכְתָּא"
+	},
+	"page": {
+		"number": 725,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (v. <cite ref=\"M00101\">next w.</cite>) <i>Mabrakhta</i>, a caravan station and market near Maḥoza. ",
+			"units": [
+				"<cite ref=\"Eruvin 47b:16\">Erub. 47ᵇ</cite> <he>דכרי דאתו למ׳</he> rams that came to M. (on a Holy Day). ",
+				"<cite ref=\"Eruvin 47b:16\">Ib.</cite> <he>בני מ׳</he> the inhabitants of M.; <cite ref=\"Eruvin 61b:8\">ib. 61ᵇ</cite>. ",
+				"<cite ref=\"Ketubot 10a:8\">Keth. 10ᵃ</cite>, v. <cite ref=\"H00041\"><he>חֲבַט</he></cite>."
+			]
+		}
+	]
+}

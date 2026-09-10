@@ -1,0 +1,33 @@
+{
+	"id": "I00349",
+	"slug": "טייעא",
+	"headword": {
+		"text": "טַיְיעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַיָּיעָא"
+		}
+	],
+	"page": {
+		"number": 531,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טוע</he>, cmp. <cite ref=\"I00601\"><he>טעי</he></cite>) <i>traveller</i>, esp. <i>Arabian caravan merchant</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73b:10\">B. Bath. 73ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 56b:19\">Ber. 56ᵇ</cite> <he>ט׳ בעלמא</he> dreaming of an Arab in general (not of Ishmael, the son of Abraham). ",
+				"<cite ref=\"Menachot 69b:6\">Men. 69ᵇ</cite> <he>כדעדי ט׳</he> (Ms. M. <he>בר עדי</he>) as in the case of Adi the merchant; <cite ref=\"Avodah Zarah 33a:12\">Ab. Zar. 33ᵃ</cite> <he>בר עדי ט׳</he>. ",
+				"<cite ref=\"Yevamot 102a:14\">Yeb. 102ᵃ</cite> <he>סנדלא דט׳ וכ׳</he> a traveller’s sandal which fits closely.—Pl. <he>טַיָּיעֵי</he>. ",
+				"<cite ref=\"Shabbat 112a\">Sabb. 112ᵃ</cite>, v. <cite ref=\"A00924\"><he>אוּשְׁכָּפָא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 34b\">Ab. Zar. 34ᵇ</cite>, v. <cite ref=\"A00087\"><he>אַבְטָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 36a:12\">B. Bath. 36ᵃ</cite> <he>בנהרדעא ט׳ שכיחי</he> in N. Arabs (stealing cattle) are frequent."
+			]
+		}
+	]
+}

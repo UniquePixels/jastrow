@@ -1,0 +1,23 @@
+{
+	"id": "K00191",
+	"slug": "כובס",
+	"headword": {
+		"text": "כּוֹבֵס"
+	},
+	"page": {
+		"number": 616,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00067\"><he>כָּבַס</he></cite>)<i>washer, fuller</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 28a:11\">Ber. 28ᵃ</cite>; <cite ref=\"Ketubot 103b:4\">Keth. 103ᵇ</cite>; a. e.—Pl. <cite ref=\"K00189\"><he>כּוֹבְסִין</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 3:14\">Tosef. Kel. B. Mets. III, 14</cite> (ed. Zuck. <he>כובשין</he>), v. <cite ref=\"M01624\"><he>מְלַקֵּט</he> II</cite>."
+			]
+		}
+	]
+}

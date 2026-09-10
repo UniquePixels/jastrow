@@ -1,0 +1,24 @@
+{
+	"id": "P00908",
+	"slug": "עממי",
+	"headword": {
+		"text": "עֲמָמִי"
+	},
+	"page": {
+		"number": 1089,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00907\">preced.</cite>) <i>gentile</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 20a:11\">R. Hash. 20ᵃ</cite> <he>אפשר בע׳</he> it may be done through a gentile.—Pl. <cite ref=\"P00908\"><he>עֲמָמִים</he></cite>, <cite ref=\"P00908\"><he>עֲמָמִין</he></cite>. ",
+				"<cite ref=\"Beitzah 6a:1\">Bets. 6ᵃ</cite>; <cite ref=\"Beitzah 22a:17\">22ᵃ</cite>; <cite ref=\"Shabbat 139b:2\">Sabb. 139ᵇ</cite> <he>יתעסקו בו ע׳</he> let gentiles attend to his burial. ",
+				"<cite ref=\"Shabbat 139b:1\">Ib.</cite> (Chald.) <he>יתעסקון ביה עממין</he>."
+			]
+		}
+	]
+}

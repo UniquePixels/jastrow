@@ -1,0 +1,30 @@
+{
+	"id": "A01509",
+	"slug": "איסרא-1",
+	"headword": {
+		"text": "אִיסְרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 57,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. , v. preced.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<cite ref=\"A01509\"><he>אִיסְרָא</he></cite>, <cite ref=\"A01509\"><he>אֵיסְרָא</he></cite>; <cite ref=\"A01516\"><he>אֵיסַרְתָּא</he></cite> f. <i>bundle, bunch, sheaf</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 19:18\">Targ. Y. Num. XIX, 18</cite>. ",
+				"<cite ref=\"Onkelos Genesis 37:7\">Targ. O. Gen. XXXVII, 7</cite>; a. e.—Pl. <he>אֵיסָרָן</he>, <cite ref=\"A01516\"><he>אֵיסָרָתָא</he></cite>. Ibid. (ed. also <he>אֵסרא</he>, <cite ref=\"A02567\"><he>אֵסרתא</he></cite>). <cite ref=\"A02567\"><he>אֱסָרָתָא</he></cite> <cite ref=\"Aramaic Targum to Psalms 2:3\">Targ. Ps. II, 3</cite> (some ed. <he>אֵסָרוּ׳</he>) <i>chains;</i> v. <cite ref=\"A01508\">preced.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

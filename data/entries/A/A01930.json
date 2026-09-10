@@ -1,0 +1,76 @@
+{
+	"id": "A01930",
+	"slug": "אלעזר",
+	"headword": {
+		"text": "אֶלְעָזָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "לָעְזָר"
+		}
+	],
+	"page": {
+		"number": 72,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Elazar</i>. ",
+			"units": []
+		},
+		{
+			"gloss": " E. b. Poïra, counsellor of John Hyrcanus. ",
+			"units": ["<cite ref=\"Kiddushin 66a:12\">Kidd. 66ᵃ</cite>"],
+			"label": "1"
+		},
+		{
+			"gloss": " Several Tanaim: ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " E. b. Azariah; E. b. Arakh. of the second generation; ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " E. b. P’rata; E. of Modim, of the third gener.—",
+					"units": [],
+					"label": "b"
+				},
+				{
+					"gloss": " E. b. Jacob; E. b. Shamua; E. b. Simon (bar Yoḥai); E. b. R. Yose the Galilean, of the fourth gener.",
+					"units": [],
+					"label": "c"
+				}
+			]
+		},
+		{
+			"gloss": " Several Amoraim: ",
+			"units": [],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " E. b. Antigonus; E. b. R. Yannai, of the second gener. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Berakhot 5:2:11\">Y. Ber. V, 9ᵇ</cite> bot.; a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " E. bar Abina. Ib. I, 3ᶜ bot.—",
+					"units": [],
+					"label": "b"
+				},
+				{
+					"gloss": " R. Lazar or E. (in Babli E. b. P’dath) one of the most renowned Amoraim of the third gener. ",
+					"units": ["<cite ref=\"Eruvin 65b:7\">Erub. 65ᵇ</cite>; a. v. fr."],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

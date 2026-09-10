@@ -1,0 +1,31 @@
+{
+	"id": "M02179",
+	"slug": "מערכה",
+	"headword": {
+		"text": "מַעֲרָכָה"
+	},
+	"page": {
+		"number": 819,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P01375\"><he>עָרַךְ</he></cite>)<i>arrangement, order</i>, esp. <i>pile of wood on the altar in the Temple</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 33a:7\">Yoma 33ᵃ</cite> <he>אביי מסדר מ׳</he> … <he>מ׳ גדולה וכ׳</he> Abbayi related the order of the priestly functions in behalf of the college … as follows: the large pile comes before &c. ",
+				"<cite ref=\"Mishnah Tamid 2:3\">Tam. II, 3</cite>, sq. ",
+				"<cite ref=\"Tosefta Yoma 3\">Tosef. Yoma III (II), 3</cite>; <cite ref=\"Yoma 45a:11\">Yoma 45ᵃ</cite>; a. fr.—Pl. <he>מַעֲרָכוֹת</he>. ",
+				"<cite ref=\"Mishnah Yoma 4:6\">Ib. IV, 6</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>line of battle, battle-field</i>. Midr. Sam. ch. XI; Yalk. ib. 102 <he>במ׳ היה</he> he (Saul) was in the battle.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

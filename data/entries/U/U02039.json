@@ -1,0 +1,92 @@
+{
+	"id": "U02039",
+	"slug": "שרש-4",
+	"headword": {
+		"text": "שְׁרַשׁ"
+	},
+	"page": {
+		"number": 1635,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַשְׁרֵישׁ</he> same, <i>to take root</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 68b:24\">Men. 68ᵇ</cite> <he>מהנך דאַשְׁרוּשׁ וכ׳</he> of that barley that has taken root before the ʿOmer time. ",
+						"<cite ref=\"Gittin 22a:6\">Gitt. 22ᵃ</cite> <he>בדאשרוש כולי וכ׳</he> when the planted trees have taken root, all agree (that they are subject to tithes); a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["שָׁרֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to take root, plant</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 80:10\">Targ. Ps. LXXX, 10</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to uproot, tear out</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 3:2\">Targ. Koh. III, 2</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["שָׁרְשִׁי"],
+			"senses": [
+				{
+					"gloss": " (v. P. Sm. 4340) [<i>to expand,</i>] <i>to bring profit, benefit</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 12a:6\">M. Kat. 12ᵃ</cite> <he>כיון … שָׁרָשׁוּיְי … מְשָׁרְשׁוּ ליה וכ׳</he> since they receive no wages, they (by working for him during the festive week) only intend to benefit him."
+					]
+				}
+			],
+			"stem": "Paeli."
+		},
+		{
+			"forms": ["אִישְּׁרִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be uprooted</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 82a:7\">B. Bath. 82ᵃ</cite> <he>למחפר ולמִשְּׁרַשׁ קיימי</he> ed. (Ms. M. <he>לחפור ולשרש</he> Hebr.) they are liable to be dug for and taken out (when they cease to bear fruit). ",
+						"<cite ref=\"Bava Batra 82a:6\">Ib.</cite> <he>למיחפר ולשרש</he> (corr. acc., or <he>לחפור ולשרש</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִשְׁתָּרְשִׁי"],
+			"senses": [
+				{
+					"gloss": "<i>to be profitable</i>; <he>א׳ ל־</he> <i>to profit</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 35a:4\">Gitt. 35ᵃ</cite> <he>א׳ לה מקום דינר</he> (Rashi <he>אשתרש</he>) she saved as much dough (in the bread which she gave away) as would have been in the space which was occupied by the Denar (that came into it). ",
+						"<cite ref=\"Gittin 44a\">Ib. 44ᵃ</cite>; <cite ref=\"Chullin 131a:3\">Ḥull. 131ᵃ</cite> <he>קא מִשְׁתָּרְשֵׁי ליה</he> he is benefited (by being released from a debt). ",
+						"<cite ref=\"Bava Metzia 42b:14\">B. Mets. 42ᵇ</cite> <he>והא קא משתרשי ליה</he> but did he not have the benefit (of using his neighbor’s cuscuta for brewing and saving his own? why, then, should he not indemnify his neighbor?). ",
+						"<cite ref=\"Ketubot 108a:3\">Keth. 108ᵃ</cite> <he>הא קא משתרשי ליה</he> is he (for whom the debt was paid) not benefited? (better <he>הא קא מְשָׁרְשֵׁי ליה</he> does he who pays the debt for him not benefit him?, v. supra)."
+					]
+				}
+			],
+			"stem": "Ithpaeli."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A00949",
+	"slug": "אזא-2",
+	"headword": {
+		"text": "אָזָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַזָּא"
+		}
+	],
+	"page": {
+		"number": 36,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>sea-eagle</i> (cmp. <cite ref=\"P00218\"><he>עוזא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:12\">Targ. Y. Deut. XIV, 12</cite> Ar. (ed. <he>בר גזא</he>, <he>בר גיזא</he>; h. text <he>עזניה</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "S02020",
+	"slug": "קרי-4",
+	"headword": {
+		"text": "קרי",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "קָרָה",
+			"homograph": 1
+		},
+		{
+			"text": "קָרָא"
+		}
+	],
+	"page": {
+		"number": 1418,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to join</i>.—Denom. <cite ref=\"S00586\"><he>קוֹרָה</he> III</cite>.—לִקְרַאת <i>to meet</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 31a:1\">Sabb. 31ᵃ</cite> <he>ויצא לִקְרָאתוֹ</he> and came out to meet him. ",
+				"<cite ref=\"Shabbat 119a\">Ib. 119ᵃ</cite>; <cite ref=\"Bava Kamma 32a\">B. Kam. 32ᵃ</cite> top <he>לקראת כלה</he> to meet the bride (the Sabbath); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִקְרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to meet, join</i>, esp. <he>נִקְרֵי</he>, <he>נִיקְרֵי</he> (denom. of <cite ref=\"S02025\"><he>קֶרִי</he></cite>) <i>to lose semen</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 52:5\">Gen. R. s. 52</cite>; s. 74, a. e. <he>אין הלשון הזה וַיִּקָּר אלא לשון טומאה</he> this expression <i>vayiḳḳar</i> (<cite ref=\"Numbers 23:4\">Num. XXIII, 4</cite>) has the meaning of uncleanness (by analogy from <cite ref=\"Deuteronomy 23:11\">Deut. XXIII, 11</cite>).—",
+						"<cite ref=\"Megillah 15a\">Meg. 15ᵃ</cite>; <cite ref=\"Taanit 5b\">Taan. 5ᵇ</cite>. ",
+						"<cite ref=\"Yevamot 76a:4\">Yeb. 76ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוּקְרָה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02019\">same</cite>, <i>to have</i> (<i>nocturnal</i>) <i>pollution; to lose semen</i>. Y. Snh. II, 20ᵇ top; Midr. Sam. ch. XXIII (ref. to <cite ref=\"I Samuel 25:20\">I Sam. XXV, 20</cite>) <he>ותפגש אותם הוּקְרוּ כולן</he> ‘she struck them’ (with her charms), all of them met with &c.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

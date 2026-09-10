@@ -1,0 +1,35 @@
+{
+	"id": "M01366",
+	"slug": "מכוש-2",
+	"headword": {
+		"text": "מַכּוֹשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 781,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01333\"><he>כָּשַׁשׁ</he></cite>, v. <cite ref=\"K01310\"><he>כִּשְׁכֵּשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>clapper of a bell</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 7:9\">Midr. Till. to Ps. VII, 10</cite> <he>דומה לפעמון … ומַכּוּשׁוֹ של וכ׳</he> like a golden bell whose clapper is made of a jewel."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hammer</i>, <i>striking with the hammer</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 19b:13\">Ab. Zar. 19ᵇ</cite> <he>מ׳ אחרון</he> the last stroke (driving the nail in).—[<cite ref=\"Tosefta Mikvaot 6:1\">Tosef. Mikv. VI</cite> (<cite ref=\"Tosefta Mikvaot 7:17\">VII</cite>), 17 <he>והמכושים</he>, ed. Zuck., read: <he>המכובשים</he>, v. <cite ref=\"K00081\"><he>כָּבַשׁ</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "M03028",
+	"slug": "מתונא",
+	"headword": {
+		"text": "מְתוּנָּא"
+	},
+	"page": {
+		"number": 860,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"V00752\"><he>תְּנַן</he></cite>, v. <cite ref=\"M03085\"><he>מְתַנָּא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>reeky, foul</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 19b:9\">B. Bath. 19ᵇ</cite> <he>במ׳</he> when the straw is foul."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (noun) <he>מ׳</he>, <cite ref=\"M03030\"><he>מְתוּנְתָּא</he></cite> f. <i>reeky, infiltrated earth</i>. Ib. 18ᵃ <he>מ׳ קשה וכ׳</he> ground infiltrated (with urine &c.) is injurious to the wall. Ib. 19ᵃ <he>היזיקא דמ׳</he> the damage caused by &c. ",
+			"units": [
+				"<cite ref=\"Pesachim 47b\">Pes. 47ᵇ</cite> <he>במתונא</he> Ar. a. Ms. M. 2 (ed. <he>במתונתא</he>; Ms. M. 1 <he>במתינה</he>) it means swampy earth (which cannot be crushed to powder)."
+			],
+			"label": "2"
+		}
+	]
+}

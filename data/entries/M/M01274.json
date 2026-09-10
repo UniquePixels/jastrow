@@ -1,0 +1,42 @@
+{
+	"id": "M01274",
+	"slug": "מיצוי",
+	"headword": {
+		"text": "מִיצּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִצּ׳"
+		}
+	],
+	"page": {
+		"number": 778,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02271\"><he>מָצָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>squeezing, wringing out</i> (of the blood of the sacrifice). ",
+			"units": [
+				"<cite ref=\"Zevachim 52a:15\">Zeb. 52ᵃ</cite>. ",
+				"<cite ref=\"Zevachim 65a:16\">Ib. 65ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B00711\"><he>בֵּירוּר</he></cite>) <i>exact measure</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 3:8\">Bets. III, 8</cite> <he>אף בחול … מפני מ׳ המדות</he> in week-days he did the same (filled the measures beforehand) for the sake of exact measure (in order to allow the liquids to settle). ",
+				"<cite ref=\"Beitzah 29a:3\">Ib. 29ᵃ</cite> they collected three hundred <i>garab</i> of oil <he>ממ׳ המדות</he> as the surplus in his accounts realized from the remnants in the measures; <cite ref=\"Tosefta Beitsah 3:8\">Tosef. ib. III, 8</cite> (v. ed. Zuck. Var.).—Trnsf. <he>מ׳ הנפש</he> [<i>the squeezing of the soul out of the body</i>,] <i>agony of death</i>. Tanḥ. Mick. 10 (ref. to <cite ref=\"M02262\"><he>מְצֹא</he></cite>, <cite ref=\"Psalms 32:6\">Ps. XXXII, 6</cite>) <he>יתפלל על מ׳ הנ׳</he> let him pray that he may be spared the agony of death.—<he>מ׳ היום</he> [<i>the pressing through of the day</i>,] <i>sunrise</i> and <i>sunset</i>. ",
+				"<cite ref=\"Bereishit Rabbah 92:9\">Gen. R. s. 92</cite> (ref. to Ps. l. c.) <he>לעת מ׳ היום</he> at evening-time; <cite ref=\"Jerusalem Talmud Berakhot 4:1:19\">Y. Ber. IV, 7ᵇ</cite> bot. <he>לעת מִיצּוּיָו של יום</he> (pl.) at morning and at evening, v. <cite ref=\"D00873\"><he>דִּמְדּוּם</he></cite>.—מ׳ הדין <i>final</i> (<i>exact</i>) <i>judgment</i> (after death); <he>מ׳ החשבון</he> final count (of sins). Gen. R. l. c.—Pl. <he>מִיצּוּיִין</he>, with suffix <he>מִיצּוּיָו</he> (cmp. <he>מְנוּיָו</he> for <he>מְנוּיָיו</he> s. v. <cite ref=\"M01772\"><he>מָנָה</he></cite>); v. supra."
+			],
+			"label": "2"
+		}
+	]
+}

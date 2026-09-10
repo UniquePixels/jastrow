@@ -1,0 +1,29 @@
+{
+	"id": "C00835",
+	"slug": "גירסנא",
+	"headword": {
+		"text": "גִּירְסָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּרְסִינָא"
+		}
+	],
+	"page": {
+		"number": 243,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גְּרַס</he> II; b. h.  ",
+			"units": [
+				"<cite ref=\"Ezekiel 45:9\">Ezek. XLV, 9</cite>) <i>acquisition, saving</i>. ",
+				"<cite ref=\"Yevamot 117a:11\">Yeb. 117ᵃ</cite>. ",
+				"<cite ref=\"Yevamot 117a:11\">Ib.</cite> <cite ref=\"C00835\"><he>גִּירְסָנִי</he></cite> (Rashi <he>גִּירְסְנָאִי</he>) what is accumulated for me."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "A03384",
+	"slug": "אשתמודעותא",
+	"headword": {
+		"text": "אִשְׁתְּמוֹדָעוּתָא"
+	},
+	"page": {
+		"number": 131,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A03383\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>partiality, preferment</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:9\">Targ. Is. III, 9</cite> (h. text <he>הכרת פנים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that by which one is recognized, distinctive feature</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 49:5\">Targ. Y. Gen. XLIX, 5</cite> (h. text <cite ref=\"M01439\"><he>מְכֵרוֹת׳</he></cite> = <he>מַכָּרוֹת׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

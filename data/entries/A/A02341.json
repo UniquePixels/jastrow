@@ -1,0 +1,24 @@
+{
+	"id": "A02341",
+	"slug": "אסורין",
+	"headword": {
+		"text": "אֲסוּרִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 89,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"A02337\"><he>אֱסוּר</he></cite>) prop. <i>bands</i>, esp. <i>certain implements belonging to the wine press</i>. Y. B. Bath. IV, beg. 14ᶜ, for which Bab. ",
+			"units": [
+				"<cite ref=\"Bava Batra 67b:4\">B. Bath. 67ᵇ</cite> <he>נסרים</he>, Var. <he>יצרים</he>; <cite ref=\"Tosefta Bava Batra 3:2\">Tosef. ib. III, 2</cite> <cite ref=\"J00531\"><he>יצידין</he></cite>, Var. <cite ref=\"J00539\"><he>יצירין</he></cite>."
+			]
+		}
+	]
+}

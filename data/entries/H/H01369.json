@@ -1,0 +1,48 @@
+{
+	"id": "H01369",
+	"slug": "חסיד-2",
+	"headword": {
+		"text": "חֲסִיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָסִיד"
+		},
+		{
+			"text": "חֲסִידָא"
+		}
+	],
+	"page": {
+		"number": 487,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H01368\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:26\">Targ. Ps. XVIII, 26</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 30a:18\">B. Kam. 30ᵃ</cite> <he>האי … למיהוי ח׳</he> he who desires to be a conscientious man (in business) let him live up to the laws laid down in <i>N’zikin</i> (v. <cite ref=\"N00462\"><he>נֶזֶק</he></cite>). ",
+				"<cite ref=\"Bava Batra 7b:8\">B. Bath. 7ᵇ</cite>; a. fr.—Frequ. as a distinguishing surname. ",
+				"<cite ref=\"Moed Katan 17a:19\">M. Kat. 17ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 29b:16\">Ber. 29ᵇ</cite>; a. fr.—Pl. <he>חֲסִידַיָּא</he>, <he>חֲסִידֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 145:10\">Targ. Ps. CXLV, 10</cite>; a. e.—",
+				"<cite ref=\"Chullin 122a\">Ḥull. 122ᵃ</cite>, a. e. <he>ח׳ דבבל</he> the meek men of Babylonia, opp. <he>תקיפי</he>. ",
+				"<cite ref=\"Moed Katan 17a:11\">M. Kat. 17ᵃ</cite> <he>למערתא דח׳</he> to the cave where the pious were buried; a. fr.—<i>Fem.</i> <cite ref=\"H01369\"><he>חֲסִידָא</he></cite>, <cite ref=\"H01373\"><he>חֲסִידְתָּא</he></cite>. ",
+				"<cite ref=\"Shabbat 77b\">Sabb. 77ᵇ</cite>, v. <cite ref=\"A02448\"><he>אֲסִיתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>graceful</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:16\">Targ. Prov. XI, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 17:8\">Ib. XVII, 8</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

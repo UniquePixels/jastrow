@@ -1,0 +1,39 @@
+{
+	"id": "K00615",
+	"slug": "כיפתא-2",
+	"headword": {
+		"text": "כֵּיפְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֵּפְתָא"
+		}
+	],
+	"page": {
+		"number": 636,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01044\"><he>כְּפַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stocks</i>, an instrument of torture in the shape of a wooden <i>collar</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 20:2\">Targ. Jer. XX, 2</cite>, sq.; <cite ref=\"Targum Jonathan on Jeremiah 29:26\">ib. XXIX, 26</cite> (h. text <he>מהפכת</he>, which Rashi explains by <he>כיפה</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"K01019\"><he>כְּפִיפָה</he></cite>) <i>muzzle</i> with fodder basket. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 98b\">Snh. 98ᵇ</cite> <he>בטולא דכי׳ דחמריה</he> Ms. M. (ed. <he>דכופיתא</he>, v. <cite ref=\"K01004\"><he>כַּפּוּתָא</he></cite>) in the shadow of the basket of the Messiah’s ass.—Pl. <cite ref=\"K00615\"><he>כֵּיפָתָא</he></cite>, <cite ref=\"K00607\"><he>כֵּפָ׳</he></cite>. Midr. Sam. ch. XXI (expl. <he>ירומו</he>, <cite ref=\"Psalms 140:9\">Ps. CXL, 9</cite>, v. <cite ref=\"G00532\"><he>זְמָם</he></cite>) <he>רומם כֵּפָתוֹי</he> (some ed. <he>כְּפֵפָתוֹי</he>) lift high his muzzle (strengthen his enemies); <cite ref=\"Vayikra Rabbah 21\">Lev. R. s. 21</cite>; <cite ref=\"Yalkut Shimoni on Nach 126:7\">Yalk. Sam. 126</cite> <he>חזק כתפוי</he> (corr. acc.) tighten his muzzle.—[<cite ref=\"Jerusalem Talmud Sheviit 4:7:4\">Y. Shebi. IV, end, 35ᶜ</cite> <cite ref=\"K00615\"><he>כֵּיפָתָא</he></cite>, v. <cite ref=\"K00599\"><he>כֵּיפָא</he> I</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

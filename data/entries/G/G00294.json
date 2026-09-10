@@ -1,0 +1,44 @@
+{
+	"id": "G00294",
+	"slug": "זיהרא-2",
+	"headword": {
+		"text": "זִיהֲרָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זַהֲרָא"
+		}
+	],
+	"page": {
+		"number": 391,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. Ar.) (<he>זהר</he>, cmp. <he>זהה</he> a. <he>זהם</he>) [<i>a glittering substance</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gall</i> (cmp. Syr. <cite ref=\"G00106\"><he>זהרא</he></cite> P. Sm. 1091, <cite ref=\"G00099\"><he>זהירא</he></cite> <i>acerbus</i>, ib. 1090); trnsf. <i>anger, injured pride</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 45b:12\">Gitt. 45ᵇ</cite> <he>אימליא ז׳</he> she was filled with gall (anger). ",
+				"<cite ref=\"Berakhot 51b\">Ber. 51ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>venom, a fatal substance discharged by animals of prey on attacking</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 30b:5\">Ab. Zar. 30ᵇ</cite> <he>זִיהֲרֵיה חליש</he> Ms. M. (ed. <he>זיהרא קליש</he>) its (the serpent’s) poison grows weaker with old age. ",
+				"<cite ref=\"Chullin 53a:9\">Ḥull. 53ᵃ</cite> <he>שדי זיהריה</he> it discharges its venom. ",
+				"<cite ref=\"Chullin 52b:17\">Ib. 52ᵇ</cite> <he>ז׳ אית ליה … זיהריה</he> it issues a fluid but its discharge does not burn. ",
+				"<cite ref=\"Niddah 55b:49\">Nidd. 55ᵇ</cite> <he>נהי דז׳ וכ׳</he> Ar. (ed. <he>דזהי׳</he>, corr. acc.) though the poison is removed from the body (through the secretion of the nose), the fluid itself (put in the eye) is not removed."
+			],
+			"label": "2"
+		}
+	]
+}

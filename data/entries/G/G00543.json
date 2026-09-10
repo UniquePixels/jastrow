@@ -1,0 +1,31 @@
+{
+	"id": "G00543",
+	"slug": "זמר-5",
+	"headword": {
+		"text": "זָמַר",
+		"reconstructed": true,
+		"homograph": 3
+	},
+	"page": {
+		"number": 405,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"G00104\"><he>הִזְמִיר</he></cite> (cmp. <cite ref=\"G00509\"><he>זְמוֹרָא</he></cite>) <i>to look bluish</i>. Y’lamd. to Num. XXV, 14, quot. in Ar. (play on <cite ref=\"G00555\"><he>זִמְרִי</he></cite>) <he>עד שה׳ בשרו כביצה מוזרת</he> until his flesh (through his lewdness) had the color of a smashed (rotten) egg; (cmp. Tanḥ. Pinḥ. 2, <cite ref=\"Bamidbar Rabbah 21\">Num. R. s. 21</cite>, beg., <cite ref=\"Sanhedrin 82b:11\">Snh. 82ᵇ</cite>—where our w. is omitted).",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

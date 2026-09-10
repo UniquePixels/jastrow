@@ -1,0 +1,25 @@
+{
+	"id": "E00782",
+	"slug": "הצלה",
+	"headword": {
+		"text": "הַצָּלָה"
+	},
+	"page": {
+		"number": 363,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>נצל</he>)<i>rescue, relief</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 16b:18\">Meg. 16ᵇ</cite> <he>הצָּלַת נפשות</he> saving of human lives. ",
+				"<cite ref=\"Gittin 56a:15\">Gitt. 56ᵃ</cite> (in Chald. diction) <he>אפשר דהוי ה׳ פורתא</he> may be some little relief (by royal favor) can be had; <cite ref=\"Gittin 56b:6\">ib.ᵇ</cite> <he>וה׳ פורתא נמי וכ׳</he> and even a little favor will not be shown. ",
+				"<cite ref=\"Chullin 52b:17\">Ḥull. 52ᵇ</cite> <he>הצלת עצמה</he> the animal’s own effort to save itself; <he>ה׳ אחרים</he> the human efforts to save the animal. ",
+				"<cite ref=\"Shemot Rabbah 1:1\">Ex. R. s. 1</cite> <he>ה׳ מים</he> saving from drowning; a. fr."
+			]
+		}
+	]
+}

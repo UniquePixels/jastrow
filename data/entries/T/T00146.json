@@ -1,0 +1,45 @@
+{
+	"id": "T00146",
+	"slug": "רברב-2",
+	"headword": {
+		"text": "רַבְרֵב"
+	},
+	"page": {
+		"number": 1446,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00145\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְרַבְרֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to be chief; to lead; to be great</i>. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 15:22\">Targ. I Chr. XV, 22</cite> (h. text <cite ref=\"J00470\"><he>יָסֹר</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Job 33:12\">Targ. Job XXXIII, 12</cite> (Ms. <he>אִתְרָרַב</he>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 8:16\">Targ. Prov. VIII, 16</cite> (Ms. <he>אִתְרוֹרְבְיָין</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to claim superiority; to boast</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 16:3\">Targ. Num. XVI, 3</cite>; <cite ref=\"Onkelos Numbers 16:13\">13</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 5:15\">Targ. Ez. V, 15</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 14:23\">Targ. Y. Gen. XIV, 23</cite>. Targ. II Esth. VIII, 13 (ed. Lag. <he>נִתְרוֹרֵב</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 48:42\">Targ. Jer. XLVIII, 42</cite> (ed. Lag. <he>אִתְרָרְבוּ</he>); a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 89\">Gen. R. s. 89</cite>, v. <cite ref=\"T00147\">next w.</cite>"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

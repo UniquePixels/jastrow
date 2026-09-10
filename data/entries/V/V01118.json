@@ -1,0 +1,44 @@
+{
+	"id": "V01118",
+	"slug": "תתי",
+	"headword": {
+		"text": "תְּתֵי"
+	},
+	"page": {
+		"number": 1705,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"V01118\"><he>תַּתֵּי</he></cite> (denom. of <cite ref=\"V01113\"><he>תַּתָּא</he></cite>) <i>to lower, go down</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 54b:6\">Zeb. 54ᵇ</cite> <he>נִיתַתֵּי ביה קליל</he> let us go down a little with it (build it a little lower; <cite ref=\"Yalkut Shimoni on Torah 910\">Yalk. Deut. 910</cite> <he>ליחתי ליה פורתא</he>; <cite ref=\"Yalkut Shimoni on Nach 24:1\">Yalk. Josh. 24</cite> <he>ניחתא ביה קליל</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתַּתֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be lowered, placed under</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 99a:4\">Men. 99ᵃ</cite> <he>מידלי ליה ומִיתַּתֵּי להו לדידהו פורתא</he> it was lifted over and let down (and placed) a little lower than they (the other tables). ",
+						"<cite ref=\"Pesachim 8a:9\">Pes. 8ᵃ</cite> <he>דמִיתַּתְּיָא</he> (not <he>דמיתתאי</he>) when the bed stands on low legs, opp. <he>דמידליא</he>, v. <cite ref=\"D00828\"><he>דְּלֵי</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

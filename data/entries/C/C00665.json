@@ -1,0 +1,39 @@
+{
+	"id": "C00665",
+	"slug": "גיור",
+	"headword": {
+		"text": "גִּיּוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיּוֹרָא"
+		}
+	],
+	"page": {
+		"number": 236,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"C01225\"><he>גֵּר</he></cite><i>stranger</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 23:9\">Targ. O. Ex. XXIII, 9</cite>; a. fr.—",
+				"<cite ref=\"Eruvin 9a\">Erub. 9ᵃ</cite>; <cite ref=\"Bava Kamma 42a\">B. Kam. 42ᵃ</cite>; <cite ref=\"Yoma 47a:7\">Yoma 47ᵃ</cite> <he>יציבא … וג׳ בשמי שמיא</he> the native below and the stranger on top! i.e. what a paradox is this!"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>proselyte</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 2:12\">Targ. Y. Ex. II, 12</cite>; a. e.—Y. Sabb. VI, 8ᵈ top. Y. Kidd. VII, 64ᶜ bot. <he>ההן ג׳ וכ׳</he>, v. <cite ref=\"C00461\"><he>גּוּפְנָא</he></cite>. ",
+				"<cite ref=\"Sanhedrin 94a:10\">Snh. 94ᵃ</cite>; a. fr.—Pl. <he>גִּיּוֹרִין</he>, <cite ref=\"C00669\"><he>גִּיּוֹרַיָּא</he></cite>. ",
+				"<cite ref=\"Targum of I Chronicles 28:2\">Targ. I Chr. XXVIII, 2</cite>; a. e.—Fem. <cite ref=\"C00669\"><he>גִּיּוֹרְתָּא</he></cite> <i>proselyte</i>. ",
+				"<cite ref=\"Berakhot 8b\">Ber. 8ᵇ</cite>; <cite ref=\"Pesachim 112b\">Pes. 112ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

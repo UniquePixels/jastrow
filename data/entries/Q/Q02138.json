@@ -1,0 +1,40 @@
+{
+	"id": "Q02138",
+	"slug": "פתור-2",
+	"headword": {
+		"text": "פָּתוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּתוֹרָא",
+			"homograph": 1
+		},
+		{
+			"text": "פָּתוֹרְתָּא"
+		}
+	],
+	"page": {
+		"number": 1250,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>פתר</he> <i>to extend</i>, cmp. Assyr. paššaru <i>dish</i>, v. Fränkel, Lexicogr. p. 53) <i>table</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:23\">Targ. Ex. XXV, 23</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 9:2\">Targ. Prov. IX, 2</cite> <he>פתורת׳</he>.—",
+				"<cite ref=\"Targum Jonathan on Genesis 23:16\">Targ. Y. Gen. XXIII, 16</cite> <cite ref=\"Q02138\"><he>פָּתוֹר</he></cite> (ed. Vien. <cite ref=\"Q01427\"><he>פְּ׳</he></cite>) <i>money-changer’s table</i>.—",
+				"<cite ref=\"Shabbat 36a:4\">Sabb. 36ᵃ</cite> <he>פתורה פתורתא פתורתא פתורה</he> what formerly was called <i>pathora</i> (a small table, plate) is now called <i>pathorta</i>, and <i>vice versa</i>. ",
+				"<cite ref=\"Taanit 25a\">Taan. 25ᵃ</cite> <he>פ׳ דדהבא</he> (Ms. M. <he>תכא</he>) a golden table. ",
+				"<cite ref=\"Shabbat 129a:11\">Sabb. 129ᵃ</cite>, v. <cite ref=\"J00207\"><he>יוֹנָס</he></cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 19b:19\">B. Kam. 19ᵇ</cite> bot. <he>בבהמה ופ׳</he> it means a domestic animal eating from the table, v. <cite ref=\"Q02175\"><he>פְּתִיתָה</he></cite>.—Pl. <he>פָּתוֹרִין</he>, <he>פָּתוֹרַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:5\">Targ. Is. XXI, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:43\">Targ. Ez. XL, 43</cite>; a. e.—",
+				"<cite ref=\"Niddah 20a:39\">Nidd. 20ᵃ</cite> <he>הא בפָתוֹרֵי</he> (some ed. <i>sing.</i>) ‘dark clothes coming from abroad’ refers to those worn at the table (<i>vestes cenatoriae</i> or <i>synthesis</i>), v. <cite ref=\"A00684\"><he>אוֹלָרִין</he></cite>."
+			]
+		}
+	]
+}

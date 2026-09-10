@@ -1,0 +1,25 @@
+{
+	"id": "N00794",
+	"slug": "נישדור",
+	"headword": {
+		"text": "נִישְׁדּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִשְׁ׳"
+		}
+	],
+	"page": {
+		"number": 909,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. našâdur. v. Perl. Et. St. p. 48) <i>gum-ammoniac</i>. ",
+			"units": ["<cite ref=\"Gittin 69a:14\">Gitt. 69ᵃ</cite> bot."]
+		}
+	]
+}

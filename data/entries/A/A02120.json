@@ -1,0 +1,27 @@
+{
+	"id": "A02120",
+	"slug": "אנדראי",
+	"headword": {
+		"text": "אַנְדְּרַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר אַנְדְּרַאי"
+		}
+	],
+	"page": {
+		"number": 81,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar Andrai</i> (Andrew). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 9:2:2\">Y. Keth. IX, 33ᵃ</cite> top <he>אילין דבר א׳</he> those of the family of B. A. (who were very rich). V. <cite ref=\"A02132\"><he>אַנְדְּרַיי</he></cite>."
+			]
+		}
+	]
+}

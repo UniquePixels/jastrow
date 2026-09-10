@@ -1,0 +1,35 @@
+{
+	"id": "P01504",
+	"slug": "עשר-7",
+	"headword": {
+		"text": "עֲשַׂר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1127,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"P01502\"><he>עַשֵּׂר</he></cite>, <cite ref=\"P01058\"><he>עַסֵּר</he></cite> same, <i>to tithe</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 14:22\">Targ. Deut. XIV, 22</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 26:12\">Ib. XXVI, 12</cite> (Y. II <he>למַעַשְׂרָא</he> <i>Af.</i>).—",
+						"<cite ref=\"Yevamot 93a:8\">Yeb. 93ᵃ</cite> <he>ע׳ מפירי דביתיה עילויהו</he> he set aside as tithes from the produces in his house on behalf of those (that were to come in). ",
+						"<cite ref=\"Yevamot 93a:9\">Ib.</cite> <he>לעַשּׂוּרֵי ומיכל</he> as regards tithing and eating; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

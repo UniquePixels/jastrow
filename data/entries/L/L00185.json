@@ -1,0 +1,27 @@
+{
+	"id": "L00185",
+	"slug": "לוגא-2",
+	"headword": {
+		"text": "לוֹגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לוֹגָה"
+		}
+	],
+	"page": {
+		"number": 694,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Loga</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Yoma 2:7\">Tosef. Yoma II, 7</cite> <he>שמעון בן ל׳</he>; <cite ref=\"Shir HaShirim Rabbah 3:6:4\">Cant. R. to III, 6</cite> <cite ref=\"L00185\"><he>לוגה</he></cite>; Y. Yoma III, 41ᵃ bot. <cite ref=\"L00144\"><he>לגס</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

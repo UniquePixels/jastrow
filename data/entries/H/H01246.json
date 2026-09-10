@@ -1,0 +1,22 @@
+{
+	"id": "H01246",
+	"slug": "חמתנא",
+	"headword": {
+		"text": "חֶמְתָּנָא"
+	},
+	"page": {
+		"number": 481,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00811\"><he>חֵימְתָא</he></cite>) <i>irascible</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 15:18\">Targ. Prov. XV, 18</cite>; a. e."
+			]
+		}
+	]
+}

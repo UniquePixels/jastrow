@@ -1,0 +1,24 @@
+{
+	"id": "G00083",
+	"slug": "זהה-2",
+	"headword": {
+		"text": "זְהַהּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְחַח"
+		}
+	],
+	"page": {
+		"number": 381,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00082\">same</cite>.—*<i>Pa.</i> <he>זַהֵיהַּ</he>, <he>זַחֵיחַ</he> <i>to make haughty</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 44:19\">Targ. Ps. XLIV, 19</cite> <he>לא זר פליג וזחוחית לבנא</he> (ed. Lag. <he>זחוחין</he>, Ms. <he>זהוהין</he>), read: <he>וזחיח ית וכ׳</he> (or <he>וזהיה</he>) no stranger divided and made haughty our heart."
+			]
+		}
+	]
+}

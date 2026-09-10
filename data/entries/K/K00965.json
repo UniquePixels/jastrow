@@ -1,0 +1,23 @@
+{
+	"id": "K00965",
+	"slug": "כעך",
+	"headword": {
+		"text": "כַּעַךְ"
+	},
+	"page": {
+		"number": 656,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>כַּעֲכִים</he>, <he>כַּעֲכִין</he> (= <cite ref=\"K00967\"><he>כעכע</he></cite>, transpos. of <he>עכעך</he>, formed like <cite ref=\"K00934\"><he>כֶּסֶךְ</he></cite>; cmp. <cite ref=\"K00656\"><he>כַּכָּא</he></cite>) [<i>teeth</i>,] <i>pronged and lengthy unleavened cakes</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Challah 1:7\">Tosef. Ḥall. I, 7</cite> <he>עשאה כ׳</he> if he shaped ‘the dogs’ dough’ into prongs, opp. <cite ref=\"L00480\"><he>לימודין</he></cite>; Y. ib. I, end, 58ᵃ <cite ref=\"K00962\"><he>כעבין</he></cite> (corr. acc.); <cite ref=\"Berakhot 38a\">Ber. 38ᵃ</cite> top <he>כעכים</he> a. <cite ref=\"L00480\"><he>לימודין</he></cite> Ms. M. (ed. <he>כעב׳</he> a. <he>כלימודין</he>). ",
+				"<cite ref=\"Pesachim 48b:4\">Pes. 48ᵇ</cite>"
+			]
+		}
+	]
+}

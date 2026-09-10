@@ -1,0 +1,23 @@
+{
+	"id": "M03092",
+	"slug": "מתניין",
+	"headword": {
+		"text": "מַתְנְיָין"
+	},
+	"page": {
+		"number": 864,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"M03090\"><he>מַתְנֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 1:7:3\">Y. Ḥag. I, 76ᶜ</cite>; <cite ref=\"Midrash Tehillim 127:1\">Midr. Till. to Ps. CXXVII</cite> <he>לא ספר ולא מ׳</he> neither a Bible teacher nor a Mishnah teacher.—Pl. <cite ref=\"M03092\"><he>מַתְנְיָנִין</he></cite>, <he>מַתְנְיָינַיָּא</he>, <he>נַיָיה …</he> Y. Ḥag. l. c.; Midr. Till. l. c. <cite ref=\"M03092\"><he>מַתְנִיִּין</he></cite> (fr. <cite ref=\"M03090\"><he>מַתְנֵי</he></cite>). ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>מַתְנְיָנַיָּה</he>; <cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 3</cite> <he>מַתְנָנַיָּא</he>."
+			]
+		}
+	]
+}

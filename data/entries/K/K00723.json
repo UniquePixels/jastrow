@@ -1,0 +1,42 @@
+{
+	"id": "K00723",
+	"slug": "כליד",
+	"headword": {
+		"text": "כַּלִּיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּלִּידָא"
+		}
+	],
+	"page": {
+		"number": 642,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (χάλις, -ιδος, only in χαλιδοφόρος; κύλιξ, κάλιξ, calix) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cup</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 4:5\">Targ. II Chr. IV, 5</cite>. ",
+				"<cite ref=\"Onkelos Genesis 44:12\">Targ. O. Gen. XLIV, 12</cite>, a. e. (Var. <cite ref=\"S00001\"><he>ק׳</he></cite>, v. Berl. Targ. O. II, p. 16). ",
+				"<cite ref=\"Aramaic Targum to Psalms 11:6\">Targ. Ps. XI, 6</cite>; a. e.—Pl. <he>כַּלִּידִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 35:5\">Targ. Jer. XXXV, 5</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>calyx</i> of flowers. Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:33\">Targ. Ex. XXV, 33</cite>, sq. (Ms. I <cite ref=\"S00001\"><he>ק׳</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

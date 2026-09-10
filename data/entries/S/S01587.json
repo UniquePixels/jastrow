@@ -1,0 +1,44 @@
+{
+	"id": "S01587",
+	"slug": "קנין-1",
+	"headword": {
+		"text": "קִנְיָן"
+	},
+	"page": {
+		"number": 1392,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S01533\"><he>קָנָה</he></cite>)<i>purchase, ownership, right of possession</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 47b:8\">Gitt. 47ᵇ</cite> <he>יש ק׳ לנכרי בא״י וכ׳</he> a gentile has the right of possession in Palestine inasmuch as his produces are exempt from tithes. ",
+				"<cite ref=\"Gittin 47b:8\">Ib.</cite> <he>קִנְיַן פירות כק׳ הגוף דמי</he> the acquisition of usufruct is like the acquisition of the soil itself (and the Jewish owner of the usufruct has to offer the first fruits as if he were the owner of the land). ",
+				"<cite ref=\"Mishnah Gittin 1:6\">Gitt. I, 6</cite> <he>מפני שהוא קִנְיָנוֹ</he> (Y. ed. <he>קִנְיָינוֹ</he>) because he (the slave) is his property. Esth. R. introd. (ref. to <cite ref=\"Leviticus 25:45\">Lev. XXV, 45</cite>) <he>אתם יש לכם ק׳ וכ׳</he> you have the right of possession (of slaves) of the nations, but the nations have no right of possession of you, v. <cite ref=\"S01533\"><he>קָנָה</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>property</i>, esp. <i>cattle</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 22\">Num. R. s. 22</cite> <he>הפרישו … בשביל קִנְיָנָם</he> they separated themselves from their brethren for the sake of their cattle; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>affirmation, making sure; symbolical form of making an agreement binding</i>, by handing over an object from one to the other of the contracting parties (v. <cite ref=\"S01533\"><he>קָנָה</he></cite> 2). ",
+			"units": [
+				"<cite ref=\"Bava Batra 40a:2\">B. Bath. 40ᵃ</cite> <he>ק׳ בפני שנים ואינו … כתיבו</he> an agreement by symbol is made in the presence of two (forming a court), nor is it then necessary to say, ‘write’, i.e. a document is made out without special authorization. ",
+				"<cite ref=\"Bava Batra 40a:5\">Ib.</cite> <he>סתם ק׳ לכתיבה עומד</he> an agreement by symbol, unless otherwise stipulated, is intended to be written out. ",
+				"<cite ref=\"Bava Batra 3a:14\">Ib. 3ᵃ</cite> <he>ק׳ דברים בעלמא חוא</he> it is merely an agreement on words (no transfer of a tangible object being agreed upon); a. fr.—Pl. <cite ref=\"S01589\"><he>קִנְיָנִים</he></cite>, <he>קִנְיָנִין</he>, <cite ref=\"S01588\"><he>קִנְיָי׳</he></cite>. ",
+				"<cite ref=\"Pesachim 87b:5\">Pes. 87ᵇ</cite> <he>אחד מארבעה ק׳ שקניתי בעולמי</he> one of the four possessions which I own in my world. ",
+				"<cite ref=\"Sifrei Devarim 309:5\">Sifré Deut. 309</cite> (ref. to <cite ref=\"Deuteronomy 32:6\">Deut. XXXII, 6</cite>) <he>ק׳ אתם לי וכ׳</he> (not <he>זקנים</he>) you are to me an acquired property, and not an inheritance. ",
+				"<cite ref=\"Pirkei Avot 6:10\">Ab. ch. VI</cite>; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

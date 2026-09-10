@@ -1,0 +1,31 @@
+{
+	"id": "U02099",
+	"slug": "שתיה-1",
+	"headword": {
+		"text": "שְׁתִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁתִיָּיה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1637,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U02091\"><he>שָׁתָה</he> I)</cite><i>drinking, satiety, gratification</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 8:1\">Yoma VIII, 1</cite> <he>יום … באכילה ובש׳ וכ׳</he> on the Day of Atonement it is forbidden to eat, or to drink &c. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:15\">Y. Ab. Zar. II, 41ᵇ</cite> bot. ",
+				"<cite ref=\"Sukkah 49b:5\">Succ. 49ᵇ</cite>; <cite ref=\"Bamidbar Rabbah 21:17\">Num. R. s. 21<sup>17</sup></cite> <he>לשין ש׳ וכ׳</he> (the word <cite ref=\"U01187\"><he>שֵׁכָר</he></cite>) expresses gratification, satiety &c., v. <cite ref=\"U00128\"><he>שְׂבִיעָה</he></cite>, a. <cite ref=\"T00019\"><he>רְוִיָּיה</he></cite>; (<cite ref=\"Jerusalem Talmud Sukkah 4:6:5\">Y. Succ. IV, 54ᵈ</cite> top <he>חיבה</he>, v. <cite ref=\"H00016\"><he>חִבָּה</he></cite>). ",
+				"<cite ref=\"Niddah 24b:58\">Nidd. 24ᵇ</cite> <he>מי ששְׁתִיָּיתוֹ מרובה וכ׳</he> he that drinks more than he eats &c.; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "C01294",
+	"slug": "גרודא",
+	"headword": {
+		"text": "גְּרוּדָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 266,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>G’ruda</i>, near Tiberias. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 79:6\">Gen. R. s. 79</cite>, v. <cite ref=\"C00188\"><he>גְּדוּרָא</he></cite>."
+			]
+		}
+	]
+}

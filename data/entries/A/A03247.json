@@ -1,0 +1,55 @@
+{
+	"id": "A03247",
+	"slug": "ארר-1",
+	"headword": {
+		"text": "אָרַר"
+	},
+	"page": {
+		"number": 126,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אר</he>, sec. r. of <cite ref=\"A00841\"><he>אור</he></cite>, cmp. <cite ref=\"H01770\"><he>חָרַר</he></cite>, <i>to break through, to make holes, meshes</i> &c.; v. <he>ארב</he>, <he>ארג</he>, <he>ארה</he>, <cite ref=\"A03047\"><he>ארז</he></cite>, <he>ארח</he>, <cite ref=\"A03124\"><he>ארך</he></cite> &c.)<i>to dig, stab;</i> v. <cite ref=\"A03249\"><he>אֲרָרָן</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to point out for execration</i>, [or <i>to set outside</i>]; (cmp. <he>חרם</he> a. <he>נקב</he>, a. also <he>ברך</he>); <i>to curse</i>.—Part. pass. <he>אָרוּר</he>, f. <he>אֲרוּרָה</he>, pl. <cite ref=\"A02009\"><he>אֲרוּרִים</he></cite> &c. ",
+			"units": [
+				"<cite ref=\"Shevuot 36a\">Shebu. 36ᵃ</cite>; a. fr.—*<cite ref=\"Jerusalem Talmud Sotah 2:2:6\">Y. Sot. II, 18ᵃ</cite> top <he>מֵי יכול מראה מים ת״ל ארד</he> (read <cite ref=\"A03247\"><he>אָרַר</he></cite>) you might infer from the word <i>mé</i> (<cite ref=\"Numbers 5:18\">Num. V, 18</cite>) that it must have the color of water, therefore the root <i>arar</i> is used in connection therewith (i.e. water in which the curse written with ink has been washed off and is recognizable in the mixture); <he>אי ארד וכ׳</he> (read <he>ארר</he>) from <i>arar</i> again you might infer that the drink must have the color of ink, therefore we read <i>mé</i>, which means the color of water <i>and</i> the color of ink (a colored thin fluid); cmp. Bab. ",
+				"<cite ref=\"Sotah 16b\">Sot. 16ᵇ</cite> (where the same argument is used with reference to blood).—Part. pass. f. <he>אֲרוּרָה</he> cacophem. for <i>idol</i>. ",
+				"<cite ref=\"Avodah Zarah 51a\">Ab. Zar. 51ᵃ</cite> <he>לא׳ זו מיבעיא</he> Ms. M. (ed. <he>לע״ז</he>) so much the more for that cursed (idol)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אֵרַר", "אֵירַר"],
+			"senses": [
+				{
+					"gloss": "<i>to curse</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite>, end <he>מְאָרֵר</he>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:11:1\">Cant. R. to IV, 11</cite> <he>שאֵרְרָהּ וכ׳</he> which Joshuah had cursed. ",
+						"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>שאֵירְרוּ</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֶאֱרַר", "נִתְאָרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be cursed</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14:12\">Num. R. s. 14</cite> <he>לא נֶאֶרְרוּ וכ׳</he> they were not cursed before seventy verses were completed (<cite ref=\"Genesis 1:1\">Gen. I, 1</cite> to III, 14; <cite ref=\"Esther 3:1\">Esth. III, 1</cite> to VII, 10). Y. Sot. IX, 24ᵇ bot.; <cite ref=\"Tosefta Sotah 15:2\">Tosef. ib. XV, 2</cite> <he>נִתְאָרְרוּ</he>."
+					]
+				}
+			],
+			"stem": "Nif. a. Nithpa."
+		}
+	]
+}

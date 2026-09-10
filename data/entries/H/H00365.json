@@ -1,0 +1,31 @@
+{
+	"id": "H00365",
+	"slug": "חולשא",
+	"headword": {
+		"text": "חוּלְשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּלָּשָׁא"
+		}
+	],
+	"page": {
+		"number": 434,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חלש</he>) <i>faintness, weariness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 40:23\">Targ. Is. XL, 23</cite>.—",
+				"<cite ref=\"Bava Metzia 80b:3\">B. Mets. 80ᵇ</cite>. ",
+				"<cite ref=\"Yoma 56b:9\">Yoma 56ᵇ</cite> <he>משום ח׳ דכה״ג וכ׳</he> on account of the faintness of the Highpriest (under the excitement of the services of the Day of Atonement) he may not take notice of it. ",
+				"<cite ref=\"Shabbat 87a:1\">Sabb. 87ᵃ</cite> <he>ח׳ דאורחא</he> weariness from travelling. ",
+				"<cite ref=\"Berakhot 40a:7\">Ber. 40ᵃ</cite> <he>ח׳ דלבא</he> indigestion."
+			]
+		}
+	]
+}

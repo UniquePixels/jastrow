@@ -1,0 +1,36 @@
+{
+	"id": "A01796",
+	"slug": "אלואי",
+	"headword": {
+		"text": "אַלְוַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַלְוַוי"
+		},
+		{
+			"text": "לְוַאי"
+		},
+		{
+			"text": "הַלְוַאי"
+		},
+		{
+			"text": "הַלְוַו׳"
+		}
+	],
+	"page": {
+		"number": 67,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"L00171\"><he>לוּ</he></cite>)<i>oh that!</i> <cite ref=\"Targum Jerusalem, Numbers 23:10\">Targ. Y. II, Num. XXIII, 10</cite>; a. e. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:3\">Targ. Ex. XVI, 3</cite>, a. fr. (<cite ref=\"L00247\"><he>לוי</he></cite>).—",
+				"<cite ref=\"Targum Jonathan on Exodus 32:30\">Targ. Y. ib. XXXII, 30</cite> (h. text <he>אולי</he>)—",
+				"<cite ref=\"Bamidbar Rabbah 2:15\">Num. R. s. 2</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 9:4\">Gen. R. s. 9</cite>; a. fr. *[<cite ref=\"Targum Jerusalem, Numbers 24:23\">Targ. Y. II, Num. XXIV, 23</cite> <cite ref=\"A01796\"><he>אַלְוַוי</he></cite>, Y. I <cite ref=\"F00031\"><he>וַי</he></cite>, <i>woe!</i>]"
+			]
+		}
+	]
+}

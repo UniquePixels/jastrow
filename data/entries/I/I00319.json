@@ -1,0 +1,36 @@
+{
+	"id": "I00319",
+	"slug": "טיהרי",
+	"headword": {
+		"text": "טִיהֲרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִיהֲרִירֵי"
+		},
+		{
+			"text": "טִיהַרְרֵי"
+		},
+		{
+			"text": "טִהֲ׳"
+		}
+	],
+	"page": {
+		"number": 530,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"I00318\">preced.</cite>; v. ",
+			"units": [
+				"<cite ref=\"Psalms 91:6\">Ps. XCI, 6</cite>) <i>midday-demons</i> during the summer. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:6\">Targ. Cant. IV, 6</cite> <cite ref=\"I00104\"><he>טהרי</he></cite> ed. Lag.—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:24\">Targ. Y. I Deut. XXXII, 24</cite> (some ed. incorr. <he>טיהרדי</he>)."
+			]
+		}
+	]
+}

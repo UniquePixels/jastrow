@@ -1,0 +1,33 @@
+{
+	"id": "D00781",
+	"slug": "דכמא",
+	"headword": {
+		"text": "דִּכְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּכְמָה"
+		},
+		{
+			"text": "דִּיכְ׳"
+		}
+	],
+	"page": {
+		"number": 307,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (compound of <cite ref=\"D00442\"><he>דִּי</he></cite>, <he>כְּ</he> a. <cite ref=\"M00003\"><he>מָא</he></cite>, v. <cite ref=\"K00786\"><he>כְּמָא</he></cite> a. <cite ref=\"D00002\"><he>דְּ־</he></cite>) <i>appearance, resemblance, the like of</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:10\">Y. M. Kat. III, 81ᵈ</cite>, v. <cite ref=\"D00764\"><he>דִּכְוָות־</he></cite>. With suffix of pers. pronoun: <he>דִּכְמִי</he>, <he>דִּכְמֵיה</he>, <he>דִּכְמוֹהִי</he> &c. ",
+				"<cite ref=\"Aramaic Targum to Job 1:8\">Targ. Job I, 8</cite>; <cite ref=\"Aramaic Targum to Job 2:3\">II, 3</cite>; a. e.—Constr. <cite ref=\"D00781\"><he>דִּכְמַת</he></cite>, with suffix <he>דִּכְמָתִי</he> &c. ",
+				"<cite ref=\"Targum of II Chronicles 18:3\">Targ. II Chr. XVIII, 3</cite> ed. Lag. ",
+				"<cite ref=\"Aramaic Targum to Job 12:3\">Targ. Job XII, 3</cite>; a. fr.—*<cite ref=\"Aramaic Targum to Psalms 73:15\">Targ. Ps. LXXIII, 15</cite> <he>דִּכְמָתְהוֹן</he> (ed. Lag. <he>דמכמתהון</he>), v. <cite ref=\"K00824\"><he>כְּמָת־</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A00909",
+	"slug": "אורעא",
+	"headword": {
+		"text": "אוֹרָעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹרָעוּתָא"
+		}
+	],
+	"page": {
+		"number": 35,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A03216\"><he>ארע</he></cite>) <i>meeting</i>. <he>לא׳</he> with suff. of pers. pron., <i>to meet—, against</i>—. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:10\">Targ. Prov. VII, 10</cite> (ed. Vien. <he>לְעוּרְ׳</he>); <cite ref=\"Aramaic Targum to Proverbs 7:15\">15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:3\">Targ. Ps. XXXV, 3</cite> <he>לְאוֹרְעוּת</he>."
+			]
+		}
+	]
+}

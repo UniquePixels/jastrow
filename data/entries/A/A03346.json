@@ -1,0 +1,35 @@
+{
+	"id": "A03346",
+	"slug": "אשקק",
+	"headword": {
+		"text": "אִשְׁקָק"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִשְׁקָקָא"
+		},
+		{
+			"text": "אוּשְּׁ׳"
+		},
+		{
+			"text": "אִישְׁ׳"
+		}
+	],
+	"page": {
+		"number": 130,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U01891\"><he>שְׁקָקָא</he></cite>) <i>open place, street</i>. Targ. II Esth. VI, 9; a. e.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 3:4:2\">Y. Taan. III, 66ᶜ</cite> bot.—Pl. <he>אִשְׁקָקֵי</he> &c. ",
+				"<cite ref=\"Aramaic Targum to Esther 9:14\">Targ. Esth. IX, 14</cite> <he>א׳ מלכא</he> the royal markets. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:16\">Targ. Y. I Deut. XXIX, 16</cite>; a. e."
+			]
+		}
+	]
+}

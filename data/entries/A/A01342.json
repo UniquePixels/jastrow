@@ -1,0 +1,23 @@
+{
+	"id": "A01342",
+	"slug": "איממא",
+	"headword": {
+		"text": "אִימָמָא"
+	},
+	"page": {
+		"number": 51,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A01109\"><he>אִי־</he></cite>) <i>day time</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:5:10\">Y. Ber. III, 6ᵈ</cite> top; a. e. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:3\">Y. Ab. Zar. I, 39ᶜ</cite> top <he>א׳ ארך</he> the day growing longer."
+			]
+		}
+	]
+}

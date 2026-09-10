@@ -1,0 +1,36 @@
+{
+	"id": "U01690",
+	"slug": "שערא-3",
+	"headword": {
+		"text": "שַׂעֲרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׂעְרָא"
+		},
+		{
+			"text": "שְׂעַר"
+		},
+		{
+			"text": "שֵׂעָר"
+		}
+	],
+	"page": {
+		"number": 1613,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01679\"><he>שׂעָר</he></cite>, <i>hair</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:25\">Targ. Gen. XXV, 25</cite>, v. <cite ref=\"O01298\"><he>סְעָר</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:3\">Targ. Lev. XIII, 3</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 15\">Lev. R. s. 15</cite>, v. <cite ref=\"U00765\"><he>שִׁטְפָא</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 554\">Yalk. ib. 554</cite> <cite ref=\"U01691\"><he>שַׂעֲרָה</he></cite>. Midr. Sam. ch. II (v. <cite ref=\"M00607\"><he>מוֹרָא</he></cite> I a. <cite ref=\"M00628\"><he>מוֹרָה</he> II</cite>) <he>מה הדין סירא … אף הדין ש׳ וכ׳</he> as the thorn is afraid of nothing but the iron, so is the hair &c.; <cite ref=\"Yalkut Shimoni on Nach 78:11\">Yalk. Sam. 78</cite> (corr. acc.); <cite ref=\"Jerusalem Talmud Nazir 9:6:2\">Y. Naz. IX, end, 58ᵃ</cite> <he>ביזרא … סַעֲרָה</he>; a. e.—Pl. <cite ref=\"U01694\"><he>שַׂעֲרָן</he></cite> (fem.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:5\">Targ. Ps. LXIX, 5</cite> Levita (ed. <cite ref=\"O01305\"><he>סַעֲרָן</he></cite>, <cite ref=\"O01304\"><he>סַעֲרִין</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "I00685",
+	"slug": "טפשות",
+	"headword": {
+		"text": "טִפְּשׁוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִיפְּ׳"
+		}
+	],
+	"page": {
+		"number": 549,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00684\">preced.</cite>) <i>obduracy, folly, stupidity</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 22b:2\">Ned. 22ᵇ</cite> <he>מוסיף ט׳</he> gets more and more foolish. ",
+				"<cite ref=\"Shabbat 152a:10\">Sabb. 152ᵃ</cite> <he>טִפְּשׁוּתָן מתוספת בהן</he> Ms. M. (ed. <he>טפשות ניתוספ׳</he>) their stupidity increases. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 742:9\">Yalk. Num. 742</cite> (expl. <he>כסלם</he>, <cite ref=\"Psalms 78:7\">Ps. LXXVIII, 7</cite>) <he>טיפשותן</he>; a. e."
+			]
+		}
+	]
+}

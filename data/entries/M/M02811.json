@@ -1,0 +1,23 @@
+{
+	"id": "M02811",
+	"slug": "משבשתא",
+	"headword": {
+		"text": "מְשַׁבֶּשְׁתָּא"
+	},
+	"page": {
+		"number": 849,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00186\"><he>שְׁבַשׁ</he></cite>) <i>a faulty version, a rejected Boraitha</i>, opp. <cite ref=\"M03112\"><he>מְתָרַצְתָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Gittin 73a:15\">Gitt. 73ᵃ</cite> (ref. to <cite ref=\"Tosefta Gittin 7:2\">Tosef. ib. VII</cite> (<cite ref=\"Tosefta Gittin 5:2\">V</cite>), 2) <he>כיון דקשיא … ומ׳ היא</he> since there is a contradiction between the first and the second clause, it could not have been discussed at college (or an attempt to harmonize would have been recorded), and (therefore) it is to be rejected. ",
+				"<cite ref=\"Shabbat 121b:5\">Sabb. 121ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

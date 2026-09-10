@@ -1,0 +1,22 @@
+{
+	"id": "M00202",
+	"slug": "מגעורי",
+	"headword": {
+		"text": "מַגְעוּרִי"
+	},
+	"page": {
+		"number": 730,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01192\"><he>גְּעַר</he></cite>) <i>threatening, shouting</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 864:5\">Yalk. Ps. 864</cite>; <cite ref=\"Midrash Tehillim 106:5\">Midr. Till. to Ps. CVI, 9</cite> ed. Bub. (missing in eds.) <he>אפי מ׳ לא הוות וכ׳</he> it was not even a shouting (at the sea) but only a blowing. Yalk. l. c. (missing in Midr. Till. l. c.) <he>לא מ׳ אלא מנהומי</he> not only a shouting but even a roaring."
+			]
+		}
+	]
+}

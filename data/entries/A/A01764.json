@@ -1,0 +1,25 @@
+{
+	"id": "A01764",
+	"slug": "א״ל",
+	"headword": {
+		"text": "א״ל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אלב״ם"
+		}
+	],
+	"page": {
+		"number": 66,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>Albam</i>, a formula of permutation of letters wherein the first interchanges with the twelfth, the second with the thirteenth, &c. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 18:4\">Num. R. s. 18</cite> <he>טבאל באלב״ם רמלא</he> <i>Tabel</i> in <i>Albam</i> reads <i>Ramla</i>. ",
+				"<cite ref=\"Shabbat 104a:13\">Sabb. 104ᵃ</cite>"
+			]
+		}
+	]
+}

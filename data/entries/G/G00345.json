@@ -1,0 +1,23 @@
+{
+	"id": "G00345",
+	"slug": "זייפא",
+	"headword": {
+		"text": "זְיָיפָא"
+	},
+	"page": {
+		"number": 393,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00223\"><he>זוף</he></cite>) <i>forgery, a forged document</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 32b:3\">B. Bath. 32ᵇ</cite> <he>שטרא ז׳ הוא</he> (Ms. H. <he>זיופא</he>) the document is a forgery. ",
+				"<cite ref=\"Ketubot 36b:4\">Keth. 36ᵇ</cite> <he>דז׳ הוא</he> that it is a forged document."
+			]
+		}
+	]
+}

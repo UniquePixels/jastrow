@@ -1,0 +1,48 @@
+{
+	"id": "H00205",
+	"slug": "חדק-1",
+	"headword": {
+		"text": "חָדַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "הָדַק"
+		}
+	],
+	"page": {
+		"number": 426,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to cut into, prick</i>.—<i>Part. pass.</i> <cite ref=\"H00186\"><he>חָדוּק</he></cite>, fem. <he>חֲדוּקָה</he>, pl. <he>חֲדוּקוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 59b\">Ḥull. 59ᵇ</cite> <he>ח׳ בעינן</he> Ar. the horns must be prickly (rough); ed. <he>חרוקות</he>, v. <cite ref=\"H01760\"><he>חָרַק</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִדֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to squeeze into, drive in</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 101a:10\">Erub. 101ᵃ</cite> (play on <he>חדק</he>, <cite ref=\"Micah 7:4\">Mic. VII, 4</cite>, a. <he>והדקות</he>, <cite ref=\"Micah 4:13\">ib. IV, 13</cite>) <he>שמְחַדְּקִין אוה״ע וכ׳</he> Ms. M. (ed. <he>שמְהַ׳ את הרשעים</he>) those who force the nations into Gehenna; <cite ref=\"Yalkut Shimoni on Nach 556:1\">Yalk. Mic. 556</cite>. Y. Sabb. X, end, 12ᵈ <he>להַדֵּיק בה וכ׳</he> to close with it (to stuff it into) defective bags."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַדֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be driven into, to stick to</i>. Tanḥ. Ki Thissa 1; <cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite>, beg. (ref. to <cite ref=\"Proverbs 15:19\">Prov. XV, 19</cite>) as the thorn <he>מִתְחַדֶּקֶת בבגדיו וכ׳</he> sticks to the garments &c.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

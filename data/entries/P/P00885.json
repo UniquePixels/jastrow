@@ -1,0 +1,27 @@
+{
+	"id": "P00885",
+	"slug": "עמילא",
+	"headword": {
+		"text": "עֲמֵילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲמֵלָא"
+		}
+	],
+	"page": {
+		"number": 1088,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00897\"><he>עֲמַל</he></cite>) <i>hard worker</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite>, end <he>תמן … לפועלא טבא ע׳</he> (not <cite ref=\"P00881\"><he>עמידה</he></cite>) there (at a certain) place they call a good working man <i>ʿămela</i>; <cite ref=\"Yalkut Shimoni on Nach 17\">Yalk. Josh. 17</cite>; <cite ref=\"Jerusalem Talmud Shabbat 9:1:4\">Y. Sabb. IX, 11ᵈ</cite>; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:5:5\">Y. Ab. Zar. III, 43ᵃ</cite> bot. (corr. acc.); v. <cite ref=\"D00149\"><he>דָּהוֹן</he></cite>, a. <cite ref=\"P00881\"><he>עֲמידָה</he> I</cite>.—[<cite ref=\"Bava Metzia 15a:16\">B. Mets. 15ᵃ</cite> <he>ועמיליהון</he>, v. <cite ref=\"P00900\"><he>עַמְלָא</he></cite>.]"
+			]
+		}
+	]
+}

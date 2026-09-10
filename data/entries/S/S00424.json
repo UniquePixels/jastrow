@@ -1,0 +1,30 @@
+{
+	"id": "S00424",
+	"slug": "קונה",
+	"headword": {
+		"text": "קוֹנֶה"
+	},
+	"page": {
+		"number": 1334,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S01533\"><he>קָנָה</he></cite>)<i>purchaser</i>, v. <cite ref=\"S01533\"><he>קָנָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>owner, master; the Lord</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> end <he>כעבד לפני קוֹנוֹ</he> like a slave before his master. ",
+				"<cite ref=\"Midrash Tehillim 22:6\">Midr. Till. to Ps. XXII</cite> <he>כבוד קוֹנִי</he> my Master’s honor. ",
+				"<cite ref=\"Sanhedrin 81b:19\">Snh. 81ᵇ</cite> bot. <he>לו ולקוֹנוֹ ולמקנו</he> (a curse) on him (euphem. for thee), thy Owner, and him that gave thee possession, v. <cite ref=\"S00940\"><he>קַיְינָא</he></cite>; a. e.—[Esth. R. introd. <he>מנין של ק׳</he>, read: <he>ד״א ואין קונה</he>.]—[<cite ref=\"Tosefta Bava Kamma 7:6\">Tosef. B. Kam. VII, 6</cite> <he>דבר אחר … להשתעבד לקוניו וכ׳</he> ed. Zuck., read as in oth. ed. <he>דאמרי אינשי לא רצה להשתעבד לבניו יבוא וישתעבד לבנותיו</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

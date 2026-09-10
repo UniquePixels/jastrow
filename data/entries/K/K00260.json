@@ -1,0 +1,71 @@
+{
+	"id": "K00260",
+	"slug": "כול-2",
+	"headword": {
+		"text": "כּוּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיל"
+		}
+	],
+	"page": {
+		"number": 619,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00259\">same</cite>. Perf. <cite ref=\"K00669\"><he>כָּל</he></cite>; part. <cite ref=\"K00015\"><he>כָּאֵיל</he></cite>, <cite ref=\"K00521\"><he>כָּיֵיל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:18\">Targ. O. Ex. XVI, 18</cite> (Y. <he>אָכִילוּ</he> <i>Af.</i>). ",
+				"<cite ref=\"Aramaic Targum to Ruth 3:15\">Targ. Ruth. III, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 27:8\">Targ. Is. XXVII, 8</cite>.—",
+				"<cite ref=\"Menachot 53b:15\">Men. 53ᵇ</cite> <he>כי קא כייל וכ׳</he> when he measures, he measures by &c. ",
+				"<cite ref=\"Avodah Zarah 71b:7\">Ab. Zar. 71ᵇ</cite> <he>אק כ׳ ודמי וכ׳</he> he measures and pours (the wine) into &c. ",
+				"<cite ref=\"Nedarim 51a:3\">Ned. 51ᵃ</cite>, v. <cite ref=\"A01698\"><he>אֲכַל</he> II</cite>.—",
+				"<cite ref=\"Chullin 12a\">Ḥull. 12ᵃ</cite>, a. e. <he>לכי תֵיכוּל עלה כורא דמילחא</he> (I will tell you,) if you will measure out for it a <i>kor</i> of salt (a jesting remark). ",
+				"<cite ref=\"Kiddushin 79b:7\">Kidd. 79ᵇ</cite> <he>כולי עלמא כַּיְילֵי ליה וכ׳</he> to all the world (wisdom) has been measured in a small <i>kab</i>, and to this scholar in a large <i>kab</i>, i.e. he wants to be wiser than all the world."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָכִיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00259\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 16:18\">Targ. Y. Ex. XVI, 18</cite>, v. supra. ",
+						"<cite ref=\"Targum Jerusalem, Genesis 38:26\">Targ. Y. II, Gen. XXXVIII, 26</cite> <he>מָכִיל</he> (not <cite ref=\"M01782\"><he>מְ׳</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["כַּיֵּיל"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"K00761\"><he>כְּלָלָא</he></cite>) <i>to generalize; lay down a rule</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 60a:1\">Keth. 60ᵃ</cite>, v. <cite ref=\"K00761\"><he>כְּלָלָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְכִּיל", "אִתְכַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be measured</i>. Targ. Y. II, Gen. l. c. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 40:12\">Targ. Is. XL, 12</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

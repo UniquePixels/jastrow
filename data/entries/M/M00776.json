@@ -1,0 +1,20 @@
+{
+	"id": "M00776",
+	"slug": "מזנון",
+	"headword": {
+		"text": "מַזְנוֹן"
+	},
+	"page": {
+		"number": 756,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"M00733\"><he>מָזוֹן</he></cite>; cmp. <cite ref=\"A03198\"><he>אַרְנוֹן</he> I</cite>; Hai G.: denom. of <cite ref=\"G00558\"><he>זַן</he></cite>) <he>תמחוי המ׳</he> <i>a plate with many partitions</i> (each of which, if separated, may be a receptacle). ",
+			"units": ["<cite ref=\"Mishnah Kelim 16:1\">Kel. XVI, 1</cite>."]
+		}
+	]
+}

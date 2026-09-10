@@ -1,0 +1,40 @@
+{
+	"id": "A01007",
+	"slug": "אחוונא",
+	"headword": {
+		"text": "אַחְוָונָא"
+	},
+	"page": {
+		"number": 39,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A01000\"><he>אַחְוָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>meadow-grass, grass</i> (as fodder). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:13\">Y. Ber. VI, 10ᵃ</cite>, bot."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>willow-twigs</i> used for kindling, <i>kindling wood</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 20a:8\">Sabb. 20ᵃ</cite> (explain. <cite ref=\"A00988\"><he>אָח</he></cite> <cite ref=\"Jeremiah 36:23\">Jer. XXXVI, 23</cite>; v. <cite ref=\"A01002\"><he>אַחֲוָה</he></cite> 1, end) <cite ref=\"A01007\"><he>אַחְוָונָא</he></cite> (Var. <cite ref=\"A01014\"><he>אַחְוָנָא</he></cite>) willow-fire. ",
+				"<cite ref=\"Jeremiah 36:23\">Ib.</cite> one cried <he>מאן בעי א׳ וכ׳</he> who wants <i>Aḥvana</i>?, and it was found he had willow twigs for sale."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>willow-bast</i>. Ib. 20ᵇ explaining <cite ref=\"A01166\"><he>אִידָּן</he></cite>; Ms. M. (ed. <he>אחוינא</he>, <cite ref=\"A01005\"><he>אחווינא</he></cite>).",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

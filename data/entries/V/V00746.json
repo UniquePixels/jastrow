@@ -1,0 +1,32 @@
+{
+	"id": "V00746",
+	"slug": "תניינות",
+	"headword": {
+		"text": "תִּנְיָינוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּנְיָ׳"
+		},
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1682,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00745\">preced.</cite>) <i>a second time</i> (used adverbially). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 41:5\">Targ. Gen. XLI, 5</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:58\">Targ. Lev. XIII, 58</cite>; a. fr.—",
+				"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite>, beg. <he>תִּנְיָינוּתֵיךְ הוא</he>, v. <cite ref=\"S00159\"><he>קַדְמוּתָא</he></cite>; <cite ref=\"Devarim Rabbah 1\">ib.</cite> <he>תִּנְיָינוּתְכוֹן</he> your second offense."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "M01375",
+	"slug": "מכי-2",
+	"headword": {
+		"text": "מְכֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַכְיָא"
+		},
+		{
+			"text": "מַכְיָה"
+		}
+	],
+	"page": {
+		"number": 782,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01374\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bent, cowed, timid</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 13\">Lev. R. s. 13</cite> [read:] <he>הדא חיותא כי סלקא מן ימא היא מ׳ וכ׳</he> Ar. (ed. <he>ממכיא</he>) an animal coming on land from the water is timid, coming out of the forest, it is not; <cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>low</i>.—Pl. <he>מָכַיָּיא</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 32:10\">Gen. R. s. 32</cite> <he>אי מן מ׳ הוא</he> if it is one of the low mounts; (<cite ref=\"Shir HaShirim Rabbah 4:4:4\">Cant. R. to IV, 4</cite> <he>מַכִּיכַיָּא</he>, v. <cite ref=\"M01376\">next w.</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

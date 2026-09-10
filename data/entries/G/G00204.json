@@ -1,0 +1,29 @@
+{
+	"id": "G00204",
+	"slug": "זונין-3",
+	"headword": {
+		"text": "זוֹנִין",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "זוֹנָן"
+		}
+	],
+	"page": {
+		"number": 388,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Zonin, Zonan</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 5:2\">Ab. Zar. V, 2</cite> (<cite ref=\"Avodah Zarah 65b:6\">65ᵇ</cite>) <cite ref=\"G00201\"><he>זונין</he></cite> Ms. M. a. Y. ed. (v. Rabb. D. S. a. l.; ed. <he>זונן</he>); Y. B. Mets. V, 10ᵇ top, v. <cite ref=\"B00758\"><he>בַּיְתוֹס</he></cite>. ",
+				"<cite ref=\"Shabbat 81a:5\">Sabb. 81ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

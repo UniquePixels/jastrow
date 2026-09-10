@@ -1,0 +1,27 @@
+{
+	"id": "V00094",
+	"slug": "תגרא-3",
+	"headword": {
+		"text": "תִּגְּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1647,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"N00620\"><he>נִיגְרָא</he></cite>) <i>ditch, channel</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 9a:2\">Bekh. 9ᵃ</cite> <he>שדינהו בת׳</he> (some ed. <he>בתִגְּדָא</he>; Rashi <he>בתִיגְּדָא</he>, cmp. <cite ref=\"N00120\"><he>נָגְדָּא</he></cite>; Var. in Rashi <he>בתינארא</he>, read: <he>בתִיגָּארָא</he>) they poured them into a ditch (Rashi: <i>vessel, cask</i>; v., however, Tosaf. a. l.)."
+			]
+		}
+	]
+}

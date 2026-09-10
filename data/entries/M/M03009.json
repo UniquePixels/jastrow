@@ -1,0 +1,23 @@
+{
+	"id": "M03009",
+	"slug": "מתארא",
+	"headword": {
+		"text": "מְתָארָא"
+	},
+	"page": {
+		"number": 860,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>מתחרא</he>, v. <cite ref=\"V00385\"><he>תַּחֲרוּ</he></cite>; <cite ref=\"H01669\"><he>חֲרֵי</he></cite>; Syr. <he>מתרא</he>, <cite ref=\"M03017\"><he>מתוארא</he></cite>, P. Sm. 2256) <i>rake, poker, shovel</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 4b:12\">Ḥag. 4ᵇ</cite>, sq. <he>הות נקיטא מ׳ בידה כ׳</he> (Ar. <he>מתוארה</he>; En Yakob <he>מתחרא</he>) took a shovel in hand and raked &c., v. <cite ref=\"H01669\"><he>חֲרֵי</he></cite>. ",
+				"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite> bot. <he>וניתי מתוארא וכ׳</he> Ar. ed. Koh. (oth. Ar. ed. <he>מתורא</he>; ed. <cite ref=\"Q02140\"><he>פתורא</he></cite>) and let him bring a shovel and put it over them &c. [Ar.: <i>a board</i>.]"
+			]
+		}
+	]
+}

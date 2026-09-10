@@ -1,0 +1,37 @@
+{
+	"id": "K01022",
+	"slug": "כפישה",
+	"headword": {
+		"text": "כְּפִישָׁה"
+	},
+	"page": {
+		"number": 659,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01060\"><he>כָּפַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>an inverted vessel</i>, usu. <i>a vessel divided into two compartments by the bottom between</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tevul Yom 4:2\">T’bul Yom IV, 2</cite> <he>בכ׳ מצרית או וכ׳</he> on an inverted basket of twigs or on a tray (which have no distinct receptacles, <he>בית קבול</he>); <cite ref=\"Tosefta Tevul Yom 2:14\">Tosef. ib. II, 14</cite>; <cite ref=\"Niddah 7a\">Nidd. 7ᵃ</cite>; <cite ref=\"Tosefta Demai 3:1\">Tosef. Dem. III, 1</cite> <he>לפי כפישא</he> ed. Zuck. (Var. <he>לתיך</he>) on the rim of an inverted vessel; <cite ref=\"Gittin 62a:3\">Gitt. 62ᵃ</cite> <he>בכפישא או באנחותא</he>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 5:8\">Tosef. Kel. B. Kam. V, 8</cite> <he>עשויה ככ׳</he> ed. Zuck. (Var. <he>בכפיפה</he>, read <he>ככ׳</he>) formed like a <i>k’fisha</i>, i.e. resting on the projecting sides, not on pegs. Ohol. V, 6 <he>וכ׳ נתונה עליה</he> and an inverted vessel put on it as a tight lid. Ib. 7 <he>כ׳ שהיא … שבתוך הכ׳ וכ׳</he> if a <i>k’fisha</i> is put on pegs … with an unclean object beneath, the things which lie in the (upper compartment of the) <i>k.</i> are clean. Ib. XI, 8 <he>וכ׳ נתונה … וכ׳ עומדת</he> an inverted vessel is so put over it, that it would remain in position if you removed &c. Ib. 9 <he>בין שפתי הכ׳ לבין וכ׳</he> between the sides (the hollow space) of the inverted vessel over the cistern and the sides of the cistern; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 8:3:4\">Y. Shebi. VIII, 38ᵃ</cite> <he>זה שהוא מודד בכ׳ וכ׳</he> one who measures fruits in a <i>k.</i> whose capacities he has found out by using it twice or three times.—Trnsf. <he>מדד בכ׳</he> <i>to deal unfairly</i>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 13:1:12\">Y. Yeb. XIII, 13ᶜ</cite>, v. <cite ref=\"K01060\"><he>כָּפַשׁ</he></cite>. Tanḥ. Thazr. 6 Var.; ed. Bub. 8 <he>אין הקב״ה מודד בכ׳</he> (not <he>בנפישה</he>) the Lord has not two measures for man."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (colloquial expression) <cite ref=\"K01008\"><he>כְּפִי׳</he></cite> or <cite ref=\"K01002\"><he>כְּפוּשָׁה</he></cite> <i>an ungainly woman</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 24\">Midr. Till. to Ps. XXIV</cite> [read as] <cite ref=\"Yalkut Shimoni on Nach 917:2\">Yalk. Job 917</cite> <he>אבוד הבחור הזה על הכ׳ הזו</he> this fine young man has thrown himself away on this &c. [Midr. Till. l. c. <he>באפריון ככ׳ הזאת</he>, ed. Bub. <he>דכ׳</he>, strike out <he>ככ׳ הזאת</he> or <he>דכ׳</he>, v. Yalk. l. c.]"
+			],
+			"label": "2"
+		}
+	]
+}

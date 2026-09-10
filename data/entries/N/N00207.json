@@ -1,0 +1,39 @@
+{
+	"id": "N00207",
+	"slug": "נדבך-1",
+	"headword": {
+		"text": "נִדְבָּךְ"
+	},
+	"page": {
+		"number": 877,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דבך</he> = <cite ref=\"D00242\"><he>דוך</he></cite>; v. Del. Prol., p. 150) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rammed wall</i> (pisé), <i>a mould filled with earth or rubble; a block of a certain size</i> (four handbreadths cubic measure), or <i>a course of bricks</i> &c., used as ‘binder’ (coagmentum); in gen. <i>a course of stones, layer</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 3:4:4\">Y. Shebi. III, 34ᶜ</cite> bot. <he>זה שהוא מקבל נ׳ צריך וכ׳</he> he who contracts to build <i>nidbakh</i>, must build with blocks of four handbreadths as far as the space contracted for (v. infra). ",
+				"<cite ref=\"Shabbat 115a:7\">Sabb. 115ᵃ</cite> <he>אמר לבנאי שקעהו תחת הנ׳</he> he said to the builder, sink it (the translation of the Book of Job) under the rubble; Y. ib. XVI, 15ᶜ top. ",
+				"<cite ref=\"Mishnah Berakhot 2:4\">Ber. II, 4</cite> mechanics at work may read the Sh’ma <he>בראש הנ׳</he> while standing on top of a course of the wall. ",
+				"<cite ref=\"Shabbat 125b:7\">Sabb. 125ᵇ</cite> <he>נ׳ של אבנים</he> a mouldful of stones (v. <cite ref=\"M02505\"><he>מִרְבָּךְ</he></cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a frame</i> carried to the building ground with tools and vessels above and under it. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 7:1\">Tosef. Ohol. VII, 1</cite> <he>ארבעה שהיו נושאין את הנ׳ ואין וכ׳</he> if four persons carry a frame the poles of which have not the size of a plough-handle; Ohol. VI, 1 (ed. Dehr. <cite ref=\"N00216\"><he>נדוד</he></cite>; Ar. <he>נרווד</he>, read: <cite ref=\"D00241\"><he>נִדְוָךְ</he></cite>, <he>נִדְוָוךְ</he>; Maim. <i>a bier</i>). ",
+				"<cite ref=\"Mishnah Zavim 5:2\">Zab. V, 2</cite> <he>אצבעו של זב תחת הנ׳</he> if the gonorrhœist has his finger under the frame (while it is carried).—Pl. <he>נִדְבָּכִין</he>, <he>נִדְבָּכוֹת</he>. Ohol. XIV, 1 <he>שלשה נ׳ וכ׳</he> a distance of three courses of stones which is twelve handbreadths; Tosef. ib. XIV, 8; <cite ref=\"Jerusalem Talmud Sheviit 3:4:4\">Y. Shebi. III, 34ᵈ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 3:4:4\">Ib.</cite> <he>שלשה נ׳ עשרה וכ׳</he> three courses of trimmed stones making ten handbreadths, v. <cite ref=\"O00866\"><he>סִיתּוּת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

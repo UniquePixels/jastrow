@@ -1,0 +1,29 @@
+{
+	"id": "C01432",
+	"slug": "גתית",
+	"headword": {
+		"text": "גִּתִּית",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיתִּ׳"
+		}
+	],
+	"page": {
+		"number": 275,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"C01431\">preced.</cite>) <i>woman engaged in the wine press, wine treader</i>.—Pl. <he>גִּתִּיּוֹת</he>, <cite ref=\"C01432\"><he>גִּיתִּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 71\">Gen. R. s. 71</cite> [read:] <he>אף הג׳ מאחורי הקוריים וכ׳</he> even the wine-treaders behind the beam handlers (of loose character) maligned her. ",
+				"<cite ref=\"Esther Rabbah 3:11\">Esth. R. to I, 10</cite> (play on <he>א̇ב̇ג̇ת̇א</he>) <he>א̇ב̇יא ג̇ית̇' מא׳ ק׳</he> I shall bring the wine treaders &c. (to deride her)."
+			]
+		}
+	]
+}

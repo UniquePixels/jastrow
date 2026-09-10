@@ -1,0 +1,88 @@
+{
+	"id": "T00128",
+	"slug": "רבע-1",
+	"headword": {
+		"text": "רָבַע"
+	},
+	"page": {
+		"number": 1444,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to lie with, copulate with, cover</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:6:6\">Y. Ab. Zar. I, 40ᵃ</cite> top <he>והלא מביא … והוא רוֹבְעָהּ וכ׳</he> but may he not bring (the crippled sire) to her, and he cover her, and she may give birth? <cite ref=\"Jerusalem Talmud Avodah Zarah 1:6:6\">Ib.</cite> <he>והיא רוֹבַעַת ממנו וכ׳</he> and she (the crippled mare) may be fecundated by him.—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " (with ref. to <cite ref=\"Leviticus 20:16\">Lev. XX, 16</cite>) <i>to have connection with a beast</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 1:4\">Snh. I, 4</cite> <he>הרוֹבֵעַ והנִרְבָּע</he> the animal that covered (a woman), and the animal that was covered (by a man). ",
+						"<cite ref=\"Bava Kamma 40b\">B. Kam. 40ᵇ</cite>; a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>to commit pederasty</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 9b:7\">Snh. 9ᵇ</cite> <he>פלוני רְבָעוֹ לאונסו וכ׳</he> (if a man says) such and such a man committed sodomy with him (euphem. for <i>me</i>) against his will, he himself in connection with another witness can testify &c.—Trnsf. <i>to fructify the ground</i>. ",
+						"<cite ref=\"Taanit 6b:7\">Taan. 6ᵇ</cite> <he>דבר שרובע</he>, v. <cite ref=\"T00101\"><he>רְבִיעָה</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְבַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered</i>, esp. <i>to be copulated in an unnatural way</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 1:4\">Snh. I, 4</cite>, v. supra. ",
+						"<cite ref=\"Avodah Zarah 24a:7\">Ab. Zar. 24ᵃ</cite> <he>וולד הנִרְבַּעַת אסורה</he> the issue of a beast that was used for buggery while pregnant is disqualified for the altar; <he>היא וולדה נִירְבְּעוּ</he> for mother and child have been abused; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["רִבֵּעַ"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"T00101\"><he>רְבִיעָה</he></cite>) <i>to inundate</i> for the sake of improving the soil. Y. Peah VII, 20ᵇ (ref. to <he>המרבץ</he>, ib. V, 19ᵃ top) <he>מביון שהוא מְרַבְּעָהּ וכ׳</he> because he inundates it, it will yield so much more next year.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"A02968\"><he>אַרְבַּע</he></cite>) ",
+					"units": [],
+					"label": "2",
+					"senses": [
+						{
+							"gloss": " <i>to do for the fourth time</i>. ",
+							"units": [
+								"<cite ref=\"Sifrei Devarim 306:22\">Sifré Deut. 306</cite> <he>הוי מפטם … ומְרַבֵּע</he> perfume (thyself) with the words of the Law, and do it a second, a third, and a fourth time; <cite ref=\"Yalkut Shimoni on Torah 942:2\">Yalk. ib. 942</cite>.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>to quadrate, make quadrilateral</i>. Part. pass. <cite ref=\"M02570\"><he>מְרוּבָּע</he></cite>; f. <he>מְרוּבַּעַת</he>; pl. <he>מְרוּבָּעִים</he>, <he>מְרוּבָּעִין</he>; <he>מְרוּבָּעוֹת</he>. Y. Maasr. V, end, 52ᵃ <he>אין מר׳ מששת ימי בראשית</he> there is no quadrangular form in natural objects; <cite ref=\"Yoma 2a\">ib.</cite> <he>והתנינן … הקילקי המ׳</he> but do we not read in the Mishnah (<cite ref=\"Mishnah Negaim 6:1\">Neg. VI, 1</cite>) … ‘of the size of a Cilician bean which is quadrilateral’? <he>כל גרמא …</he> (<cite ref=\"D00000\"><he>ד</he></cite>)<he>יְרַבְּעֶנָּהּ הוא</he> this very passage proves that there is nothing quadrangular in nature; and why does the Mishnah say so? It means that he (the priest) should calculate the size of a bean by circumscribing a quadrilateral around it; Y. Ned. III, 37ᵈ bot.; Y. Shebu. III, 34ᵈ <he>די ירבעונה הוא</he> (read: <he>יְרַבְּעֶינָּהּ</he>). ",
+							"units": [
+								"<cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. Maasr. III, 14</cite>, v. <cite ref=\"C01336\"><he>גָּרִיס</he></cite>. Y. Erub. II, 20ᵃ <he>מר׳</he> a quadrilateral stone, opp. <cite ref=\"P00083\"><he>עגולה</he></cite>; Bab. ",
+								"<cite ref=\"Eruvin 19b:21\">Erub. 19ᵇ</cite>; <cite ref=\"Tosefta Eiruvin 2:4\">Tosef. ib. II</cite> (<cite ref=\"Tosefta Eiruvin 1:1\">I</cite>), 1. ",
+								"<cite ref=\"Tosefta Eiruvin 6:19\">Ib. VI</cite> (<cite ref=\"Tosefta Eiruvin 5:10\">V</cite>), 10 <he>ריבע את העיר וכ׳</he> if he squares a town (which is built in a curve) and makes the calculation as if it were a square table (plane); <cite ref=\"Eruvin 56b:1\">Erub. 56ᵇ</cite> <he>המְרַבֵּעַ וכ׳</he>. ",
+								"<cite ref=\"Eruvin 56b:1\">Ib.</cite> <he>וחוזר ומרבע את התחומין</he> and then again he draws a square for the Sabbath limits. ",
+								"<cite ref=\"Eruvin 56b:1\">Ib.</cite> <he>כמה מר׳ יתר וכ׳</he> how much larger is the square than the inscribed circle?; a. fr."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

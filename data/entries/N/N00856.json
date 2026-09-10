@@ -1,0 +1,34 @@
+{
+	"id": "N00856",
+	"slug": "נמא",
+	"headword": {
+		"text": "נָמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָמָה"
+		}
+	],
+	"page": {
+		"number": 912,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"N00671\"><he>נִימָּא</he></cite>, <cite ref=\"N00676\"><he>נִימָּה</he></cite>, v. <cite ref=\"N00365\"><he>נוּם</he> I</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

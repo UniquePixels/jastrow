@@ -1,0 +1,47 @@
+{
+	"id": "Q02083",
+	"slug": "פשל",
+	"headword": {
+		"text": "פָּשַׁל"
+	},
+	"page": {
+		"number": 1247,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q02182\"><he>פָּתַל</he></cite>) <i>to twist, knot</i>, v. infra.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְשִׁיל"],
+			"senses": [
+				{
+					"gloss": "<i>to knot and fasten</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 4:2\">Tosef. Sabb. IV</cite> (<cite ref=\"Tosefta Shabbat 5:2\">V</cite>), 2 <he>ויַפְשִׁיל את הרצועה תחת זנבו</he> and fasten the strap under its tail; Y. ib. V, 7ᵇ bot.; Bab. ",
+						"<cite ref=\"Shabbat 53a\">ib. 53ᵃ</cite> <he>יפשיל</he> Ms. M. (ed. <he>יִפְשׁוֹל</he>). ",
+						"<cite ref=\"Tosefta Shabbat 6:9\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Shabbat 7:9\">VII</cite>), 9 <he>אל תַּפְשִׁיל ידך לאחוריך וכ׳</he> do not twist thy hands on thy back, lest we be prevented from work (a superstitious belief); <cite ref=\"Yalkut Shimoni on Torah 587\">Yalk. Lev. 587</cite>.—Esp. <he>ה׳ לאחוריו</he> <i>to twist or knot a bundle and throw it over one’s shoulder</i>. ",
+						"<cite ref=\"Sukkah 27b:11\">Succ. 27ᵇ</cite> <he>טליתו וכ׳</he> … <he>ה׳</he> R. El. tied up his cloak and threw it over his back and went off; <cite ref=\"Tosefta Sukkah 1:9\">Tosef. ib. I, 9</cite> … <he>רגליו וכ׳ ה׳</he> (read <he>בגדיו</he>, v. infra) R. El. bundled up his garments &c., i.e. went off in an ostentatious manner). ",
+						"<cite ref=\"Tosefta Chullin 8:4\">Tosef. Ḥull. VIII, 4</cite> [read:] <he>נותנן … ומַפְשִׁילָן לאחוריו</he> he may wrap them up with the peddler’s bundle and strike, and cast them over his shoulder. ",
+						"<cite ref=\"Menachot 85b:16\">Men. 85ᵇ</cite> <he>ה׳ כליו לאחוריו</he> he tied up his implements and threw them &c. ",
+						"<cite ref=\"Mishnah Kilayim 9:5\">Kil. IX, 5</cite> Y. ed. <he>הצנועים מַפְשִׁילִין לאחוריהן במקל</he> the scrupulous carry (the garments of mixed material, <cite ref=\"K00674\"><he>כלאים</he></cite>) in bundles over their shoulders. Y. ib. IX, beg. 31ᵈ (ref. to <he>לא יעלה</he>, <cite ref=\"Leviticus 19:19\">Lev. XIX, 19</cite>) I might have thought, <he>לא יפשיל את הקופה וכ׳</he> (not <he>לך</he>) one dare not throw the bundle (containing forbidden garments) over one’s shoulder; <cite ref=\"Sifrei Devarim 232:2\">Sifré Deut. 232</cite> <he>לא יַפְשִׁילֶנּוּ בקופה וכ׳</he> (not <he>לקופה</he>); <cite ref=\"Yalkut Shimoni on Torah 614:1\">Yalk. Lev. 614</cite> <he>לא יִפְשְׁלֶנּוּ בקופה וכ׳</he>; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite>, end; <cite ref=\"Yalkut Shimoni on Torah 38:5\">Yalk. ib. 38</cite> <he>ה׳ דברים לאחוריו וכ׳</he> he (Cain) threw the words (which he had heard) over his shoulder and went off, i.e. was petulant. Pesik. Shub., p. 160ᵃ <he>יצא כמפשיל דברים וכ׳</he> he went off like one that casts the words &c.; <cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <he>ה׳ בגדיו לאחוריו</he>, v. supra.—Part. pass. <he>מוּפְשָׁל</he>; f. <he>מוּפְשֶׁלֶת</he>. Y. B. Kam. II, 3ᵃ <he>היתה קופתו מ׳ וכ׳</he> if his bundle (of grain &c.) was hanging over his back &c. ",
+						"<cite ref=\"Berakhot 62b\">Ber. 62ᵇ</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to twist</i> (<i>wicks</i>), (v. <cite ref=\"Q02167\"><he>פְּתִילָה</he></cite>). Y. Succ. V, 55ᵇ bot. (expl. <he>מפקיעין</he>) <he>מַפְשִׁילִים</he> they make wicks of them, v. <cite ref=\"Q01502\"><he>פָּקַע</he></cite>. ",
+					"units": [
+						"<cite ref=\"Ketubot 75a\">Keth. 75ᵃ</cite> <he>הִפְשִׁילָה דדיה וכ׳</he> she twisted her breasts back of her and gave suck to her child; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "B00034",
+	"slug": "באלי-1",
+	"headword": {
+		"text": "בָּאלֵי"
+	},
+	"page": {
+		"number": 135,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. of <cite ref=\"B00853\"><he>בלי</he></cite>, contr. of <he>בהל</he>, cmp. b. h. <he>בַּלָּהוּת</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hurrying:</i> <cite ref=\"Niddah 26b:35\">Nidd. 26ᵇ</cite> <he>ב׳ ואתי</he> he came in a hurry.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>chasing</i> Ib. 17ᵃ <he>ב׳ דידבי</he> (Tosaf. <cite ref=\"B00855\"><he>בָּלֵי</he></cite>) chased the flies off. [Var. <cite ref=\"K00018\"><he>כאלי</he></cite>, v. <cite ref=\"K00715\"><he>כלי</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"id": "B01067",
+	"slug": "בעת-1",
+	"headword": {
+		"text": "בָּעַת"
+	},
+	"page": {
+		"number": 183,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. √<he>בע</he>, v. <cite ref=\"B01026\"><he>בָּעָה</he></cite> ; interch. with <cite ref=\"B00196\"><he>בָּהַת</he></cite> q. v.) <i>to startle</i>. [Not used in Kal.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְעַת"],
+			"senses": [
+				{
+					"gloss": "<i>to be startled, frightened, confounded</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite>; Tanḥ. Korah 6 <he>נזדעזע אהרן ונ׳</he> Aaron trembled and was alarmed. Y. Shek. I, beg. Bab. ed. <he>נִבָּעֵית</he>, v. <cite ref=\"B00196\"><he>בָּהַת</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִבְעִית"],
+			"senses": [
+				{
+					"gloss": "<i>to frighten, bewilder</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 5:1\">Yoma V, 1</cite> (<cite ref=\"Yoma 52b:9\">52ᵇ</cite>) <he>שלא להַבְעִית וכ׳</he> in order not to alarm the people (by a long delay). Ib. 39ᵇ <he>למה אתה מבעית עצמך</he> why wilt thou be the alarmer thyself (predicting thine own destruction; Ms. M. a. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 578:10\">Yalk. Zech. 578</cite> <he>את עצמך</he>, incorr.; Ms. Oxf. <he>בעצמך</he>; Y. ib. VI, 43ᶜ bot. <he>מבהלינו</he>, v. Rabb. D. S. a. l. note)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְבָּעֵת"],
+			"senses": [
+				{
+					"gloss": "<i>to be agitated, excited</i>. Y. Sabb. VI, 8ᵇ top <he>שהוא מִתְבָּעֵת</he> for he is excited.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

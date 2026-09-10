@@ -1,0 +1,24 @@
+{
+	"id": "A00105",
+	"slug": "אבטליון",
+	"headword": {
+		"text": "אַבְטַלְיוֹן"
+	},
+	"page": {
+		"number": 5,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Abtalion</i> (Greco-Romanized by Josephus Πολλίων, Pollio), name of a Chief Justice of the Sanhedrial court in the days of Hyrcan II and of Herod. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:10\">Aboth I, 10</cite>; <cite ref=\"Pirkei Avot 1:11\">11</cite>. ",
+				"<cite ref=\"Mishnah Eduyot 1:3\">Eduyoth I, 3</cite>. ",
+				"<cite ref=\"Yoma 71b:2\">Yoma 71ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

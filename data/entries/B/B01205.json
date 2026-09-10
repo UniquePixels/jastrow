@@ -1,0 +1,22 @@
+{
+	"id": "B01205",
+	"slug": "ברוקלי",
+	"headword": {
+		"text": "בְּרוּקְלֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 191,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"A01972\"><he>אִמְבּוּרְקְלוֹן</he></cite>) <i>wrapper, cover</i>. Midr. Sam. XXII; Yalk. ib. 129 (expl. <cite ref=\"V01050\"><he>תרפים</he></cite> as if <he>טרפים</he>, v. <cite ref=\"I00859\"><he>טָרַף</he></cite>) <he>ניקורים של ב׳</he> shreds of (horse) covers (corrupt. <cite ref=\"B00122\"><he>בדולקי</he></cite>, Mus. <cite ref=\"B01198\"><he>ברולקי</he></cite>).",
+			"units": []
+		}
+	]
+}

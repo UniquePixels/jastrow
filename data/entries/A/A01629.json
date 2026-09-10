@@ -1,0 +1,25 @@
+{
+	"id": "A01629",
+	"slug": "אישר-1",
+	"headword": {
+		"text": "אַיְשַׁר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַיְישַׁר"
+		}
+	],
+	"page": {
+		"number": 61,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Af. of <cite ref=\"A03349\"><he>אֲשַׁר</he></cite>) <i>good luck!</i> <cite ref=\"Jerusalem Talmud Sheviit 4:3:2\">Y. Shebi. IV, 35ᵇ</cite> what means ‘we salute them’? Ans. (Saying) <cite ref=\"A02549\"><he>אי׳</he></cite> good luck. ",
+			"units": [
+				"<cite ref=\"Yoma 2a:7\">Ib.</cite> <he>איי׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:4:7\">Y. Taan. I, 64ᵇ</cite> bot.; a. e."
+			]
+		}
+	]
+}

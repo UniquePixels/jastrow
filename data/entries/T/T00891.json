@@ -1,0 +1,83 @@
+{
+	"id": "T00891",
+	"slug": "רעי-3",
+	"headword": {
+		"text": "רְעֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְעָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1486,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"T00890\">preced.</cite>; cmp. <cite ref=\"R00034\"><he>צְבֵי</he></cite>) = h. <cite ref=\"T00974\"><he>רָצָה</he></cite>, [<i>to join in</i>,] <i>to desire, take delight in; to welcome</i> (cmp. <cite ref=\"H01469\"><he>חָפֵץ</he></cite> &c.). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 40:7\">Targ. Ps. XL, 7</cite> Ms. (ed. <cite ref=\"R00033\"><he>צבי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 85:2\">Ib. LXXXV, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 20:30\">Targ. I Sam. XX, 30</cite> (h. text <he>בחר</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 26:34\">Targ. Y. Lev. XXVI, 34</cite> (O. <i>Af.</i>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 18:23\">Targ. Ez. XVIII, 23</cite>; a. fr.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 972:11\">Yalk. Koh. 972</cite> <he>מאן דרחמנא רָעֵי ליה</he> whom the Lord favors. Y. Snh. I, 19ᵃ <he>לא רָעֵינָא ביה</he> I do not like him; <cite ref=\"Jerusalem Talmud Moed Katan 3:3:3\">Y. M. Kat. III, 82ᵃ</cite> bot. <he>רעיינא</he> (corr. acc.); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְעֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to favor, welcome</i>. Targ. O. Lev. l. c.—Part. pass. <cite ref=\"M02735\"><he>מַרְעֵי</he></cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 33:24\">Targ. Y. Deut. XXXIII, 24</cite> (h. text <cite ref=\"T00975\"><he>רצוי</he></cite>).—[<cite ref=\"Targum Jerusalem, Exodus 15:9\">Targ. Y. II, Ex. XV, 9</cite> <cite ref=\"T00891\"><he>אַרְעֵי</he></cite>, v. <cite ref=\"A03216\"><he>אֲרַע</he> I</cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to reconcile</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9<sup>20</sup></cite> <he>ומַרְעֲיִין ליה לאינתיה</he> and (we should) have made him live with his wife."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְרְעֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be pleasing, acceptable; to delight in, choose</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 1:4\">Targ. Lev. I, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 9:7\">Targ. Koh. IX, 7</cite>. ",
+						"<cite ref=\"Onkelos Genesis 34:3\">Targ. Gen. XXXIV, 3</cite> (h. text <he>דבק</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 34:4\">Targ. Job XXXIV, 4</cite> <he>נִתְרְעֵי לנא</he> (h. text <he>נבחרה</he>); a. fr.—[<cite ref=\"Targum Jonathan on Leviticus 23:14\">Targ. Y. Lev. XXIII, 14</cite> <he>יתרעון</he>, read: <he>תארעין</he>, v. <cite ref=\"A03218\"><he>אֲרַע</he> II</cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be reconciled</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 77:8\">Targ. Ps. LXXVII, 8</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to offer one’s self willingly, volunteer</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 64:6\">Targ. Is. LXIV, 6</cite> (h. text <he>מתעורר</he>!).—[<cite ref=\"Chullin 10a:12\">Ḥull. 10ᵃ</cite> <he>איתרעאי</he>, v. <cite ref=\"T00915\"><he>רְעַע</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

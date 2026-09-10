@@ -1,0 +1,23 @@
+{
+	"id": "M01398",
+	"slug": "מכללתא",
+	"headword": {
+		"text": "מַכְלַלְתָּא"
+	},
+	"page": {
+		"number": 783,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (<cite ref=\"K00759\"><he>כְּלַל</he></cite>) <i>Makhlalta</i> (<i>Crown</i>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 32:3\">Targ. Y. Num. XXXII, 3</cite>; <cite ref=\"Targum Jonathan on Numbers 32:34\">34</cite> (h. text <cite ref=\"P00481\"><he>עֲטָרוֹת</he></cite>, <cite ref=\"P00481\"><he>עֲטָרֹת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 32:35\">Ib. 35</cite> <he>מַכְלְלַת</he> (Y. II <he>מ׳ ד־</he>; h. text <he>עַטְרֹת</he>)."
+			]
+		}
+	]
+}

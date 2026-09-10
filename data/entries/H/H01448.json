@@ -1,0 +1,25 @@
+{
+	"id": "H01448",
+	"slug": "חפיפה-2",
+	"headword": {
+		"text": "חֲפִיפָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 491,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָפַף</he> II) <i>cleansing the head</i> with a detergent, comb &c. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 82b:1\">B. Kam. 82ᵇ</cite> top. <he>תיקן ח׳</he> ordained (for women before bathing) cleansing &c. ",
+				"<cite ref=\"Niddah 66b\">Nidd. 66ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 2:2:1\">Y. Maas. Sh. II, 53ᶜ</cite> top; <cite ref=\"Tosefta Ma'aser Sheni 2:1\">Tosef. Maas. Sh. II, 1</cite> <he>חֲפִיפָתָהּ</he> when she cleanses her hair."
+			]
+		}
+	]
+}

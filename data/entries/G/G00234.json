@@ -1,0 +1,23 @@
+{
+	"id": "G00234",
+	"slug": "זור-3",
+	"headword": {
+		"text": "זוּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 389,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00233\">preced.</cite> v. <cite ref=\"G00416\"><he>זֵיר</he></cite>) <i>crown, wreath;</i> (bot.) <i>capsule</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. Maasr. III, 14</cite> <he>כל שאין לו אלא ז׳ אחד המקיף וכ׳</he> (ed. Zuck. <cite ref=\"D00725\"><he>דֵּיר</he> I</cite>) (a garlick plant) which has only one capsule of seeds crowning the stem; Y. ib. V, end, 52ᵃ <he>חור</he> (corr. acc.)."
+			]
+		}
+	]
+}

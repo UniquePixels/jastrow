@@ -1,0 +1,23 @@
+{
+	"id": "C00282",
+	"slug": "גוביתא",
+	"headword": {
+		"text": "גּוּבִּיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 217,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. h.  d) <i>a low fence</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Orlah 3:7:8\">Y. Orl. III, end, 63ᵇ</cite> <he>עבר חנן ג׳ וכ׳</he> Ḥanan passed over the fence and tore the mixed seeds out."
+			]
+		}
+	]
+}

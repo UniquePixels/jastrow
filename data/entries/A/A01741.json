@@ -1,0 +1,28 @@
+{
+	"id": "A01741",
+	"slug": "אכסניי",
+	"headword": {
+		"text": "אכסניי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אכסניי פרכא"
+		}
+	],
+	"page": {
+		"number": 65,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (read <he>אכסנופרוכא</he> Xenoparochus) <i>one who provides for strangers</i> or <i>soldiers, quartermaster</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 3:1:4\">Y. B. Kam. III, 3ᶜ</cite> top <he>ההן א׳ פ׳ … שרי למיחשדוניה וכ׳</he> (read <he>למישחדוניה</he>) it is permissible to bribe the quartermaster (to let you off) before the Romans enter (the place), but not after that (when one man’s release from quartering duty is a direct injury to the other inhabitants)."
+			]
+		}
+	]
+}

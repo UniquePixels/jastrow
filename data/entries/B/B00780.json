@@ -1,0 +1,32 @@
+{
+	"id": "B00780",
+	"slug": "בכי-5",
+	"headword": {
+		"text": "בְּכִי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּעַל בְּכִי"
+		},
+		{
+			"text": "עֵין בְּכִי"
+		}
+	],
+	"page": {
+		"number": 169,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Baalbek</i> (<i>En-Bekhi</i>, later <i>Heliopolis</i>), an ancient city of Syria, renowned for its temples and bazaars (<cite ref=\"J00631\"><he>יריד</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 11b:8\">Ab. Zar. 11ᵇ</cite> <he>יריד שבעין ב׳</he> the bazaar at En B. (with its idolatrous rites). ",
+				"<cite ref=\"Mishnah Maasrot 5:8\">Maasr. V, 8</cite> <he>שום ב׳ ב׳</he> Baalbek garlic."
+			]
+		}
+	]
+}

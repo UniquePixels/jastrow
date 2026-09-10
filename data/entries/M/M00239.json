@@ -1,0 +1,24 @@
+{
+	"id": "M00239",
+	"slug": "מדבק",
+	"headword": {
+		"text": "מַדְבַּק"
+	},
+	"page": {
+		"number": 731,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00073\"><he>דְּבַק</he></cite>) <i>junction, welding</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:29\">Targ. I Kings VII, 29</cite>; <cite ref=\"Targum Jonathan on I Kings 7:36\">36</cite> (h. text <he>ליות</he>).—Pl. constr. <he>מַדְבְּקֵי</he>; <he>מ׳ ידין</he> <i>arm-pits</i>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 38:12\">Targ. Jer. XXXVIII, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:18\">Targ. Ez. XIII, 18</cite> ed. Lag. (Var. <he>מרב׳</he>; ed. Wil. <he>מַרְפְּקֵי</he>)."
+			]
+		}
+	]
+}

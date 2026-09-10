@@ -1,0 +1,31 @@
+{
+	"id": "A00500",
+	"slug": "אהל-1",
+	"headword": {
+		"text": "אָהַל"
+	},
+	"page": {
+		"number": 20,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.), <i>Pi.</i> <he>אִיהֵל</he> (deriv. of <cite ref=\"A00501\"><he>אֹהֶל</he></cite>) <i>to spread tent-like, to cover, shade, bend over</i> &c., usu. with refer. to levitical uncleanness arising from being under the same shelter with, or forming a shelter over, a corpse &c. Meïlah 17ᵃ <he>אי׳ על מקצתו</he> if he bent over a portion (of the blood). ",
+			"units": [
+				"<cite ref=\"Shabbat 17a:1\">Sabb. 17ᵃ</cite> <he>אי׳ צדו אחת וכ׳</he> he caused one side of his body <i>to overshadow</i> the grave.—[More freq.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶאֱהִיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"A00499\">same</cite>. Ohol. III, 1; 3 sq. <he>הא׳ על המת</he> he formed a tent, i.e. spread himself, or bent, over a corpse. Ib. <he>הבית מַאֲחִיל עליו</he> the house forms a cover over part of it. Y. Sot. IX, 23ᶜ top; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

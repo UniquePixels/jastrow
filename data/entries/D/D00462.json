@@ -1,0 +1,26 @@
+{
+	"id": "D00462",
+	"slug": "דיבא-2",
+	"headword": {
+		"text": "דִּיבָא"
+	},
+	"page": {
+		"number": 294,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>flux, gonorrhoea</i>, v. <cite ref=\"D00173\"><he>דּוֹבָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>סני דיבא</he> or <he>סניא דיבי</he> <i>a certain part of the maw</i>, v. <cite ref=\"O01222\"><he>סַנֵּי</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "C00619",
+	"slug": "גיבר",
+	"headword": {
+		"text": "גִּיבַּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיבָּרָא"
+		},
+		{
+			"text": "גִּבּ׳"
+		}
+	],
+	"page": {
+		"number": 234,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"C00059\"><he>גִּבּוֹר</he></cite> , <i>strong; hero; giant</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 10:8\">Targ. Gen. X, 8</cite>; a. e.—Pl. <he>גִּיבָּרִין</he>, <he>גִּיבָּרַיָּא</he>, <cite ref=\"C00619\"><he>גִּבָּ׳</he></cite>. Targ. O. a. Y. II <cite ref=\"Genesis 49:5\">Gen. XLIX, 5</cite>; a. e.—",
+				"<cite ref=\"Onkelos Genesis 36:24\">Targ. O. Gen. XXXVI, 24</cite> (Y. <he>כודנייתא</he>, h. text <cite ref=\"J00415\"><he>ימם</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 15:20\">Targ. O. Gen. XV, 20</cite> <he>גִּיבָּרַיָּא</he> ed. Berl. (ed. <cite ref=\"C00132\"><he>גִּבָּרָאֵי</he></cite>, Y. <cite ref=\"C00579\"><he>גְּבָרָאֵי</he></cite>, h. text <he>רפאים</he>); <cite ref=\"Deuteronomy 2:10\">Deut. II, 10</cite>; <cite ref=\"Deuteronomy 2:11\">11</cite> (Y. <he>גִּנְבָּרַיָּא</he>, h. text <he>ענקים</he>). Ib. 20; 21.—",
+				"<cite ref=\"Sanhedrin 100b:6\">Snh. 100ᵇ</cite> <he>גברי גיברין קטל דויא</he> grief kills the strongest man.—Fem. pl. <cite ref=\"C00133\"><he>גִּיבַּרְוָותָא</he></cite>, <cite ref=\"C00619\"><he>גִּבַּ׳</he></cite>. ",
+				"<cite ref=\"Berakhot 31a:27\">Ber. 31ᵃ</cite> <he>כמה הלכתא ג׳ וכ׳</he> (Ms. M. <cite ref=\"C00138\"><he>גִּבָּרָתָא</he></cite>) how many <i>important</i> rules can we learn &c.!"
+			]
+		}
+	]
+}

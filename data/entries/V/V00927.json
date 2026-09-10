@@ -1,0 +1,38 @@
+{
+	"id": "V00927",
+	"slug": "תרבות-1",
+	"headword": {
+		"text": "תַּרְבּוּת"
+	},
+	"page": {
+		"number": 1694,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00058\"><he>רָבָה</he></cite>)<i>growth, education, rearing</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 16b:12\">B. Kam. 16ᵇ</cite> <he>בני ת׳</he> tamed animals. ",
+				"<cite ref=\"Bava Kamma 16b:12\">Ib.</cite> <he>ארי ת׳</he> a tamed lion.—Esp. <he>ת׳ רעה</he> <i>bad manners, depravity; degenerate child</i>. ",
+				"<cite ref=\"Mishnah Niddah 10:8\">Nidd. X, 8</cite> <he>הרי זו ת׳ ר׳</he> this is mischievous conduct. ",
+				"<cite ref=\"Chagigah 15a:8\">Ḥag. 15ᵃ</cite> <he>לאחר שיצא לת׳ ר׳</he> after he (Elisha ben Abuya) had become an infidel. ",
+				"<cite ref=\"Shemot Rabbah 1:1\">Ex. R. s. 1</cite>, beg (ref. to <cite ref=\"Genesis 21:11\">Gen. XXI, 11</cite>) <he>על שיצא לת׳ ר׳</he> (Abraham was displeased because of his son) because of his depravity. ",
+				"<cite ref=\"Genesis 21:11\">Ib.</cite> <he>כל המונע … סוף בא ת׳ ר׳</he> when a man refrains from chastising his son, the latter will in the end turn to mischief. ",
+				"<cite ref=\"Genesis 21:11\">Ib.</cite> <he>ללמוד ממנו ת׳ ר׳</he> to learn bad manner from him. ",
+				"<cite ref=\"Genesis 21:11\">Ib.</cite> <he>קשה ת׳ ר׳ בתוך ביתו וכ׳</he> a degenerate child in a man’s house is worse than the war of Gog and Magog. ",
+				"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>למלך … והוציאו לת׳ ר׳</he> a king that gave his son in charge of a pedagogue, and he led him to a bad life; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fructification</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:24\">Y. Ab. Zar. II, 41ᵇ</cite>, v. <cite ref=\"V00291\"><he>תּוֹרִיב</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

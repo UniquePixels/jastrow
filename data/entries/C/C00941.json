@@ -1,0 +1,47 @@
+{
+	"id": "C00941",
+	"slug": "גליון",
+	"headword": {
+		"text": "גִּלָּיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּלְ׳"
+		},
+		{
+			"text": "גִּיל׳"
+		}
+	],
+	"page": {
+		"number": 248,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"C00941\"><he>גִּלָּיוֹן</he></cite>; <cite ref=\"C00926\"><he>גלי</he></cite>)<i>blank parchment, margin of scrolls</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yadayim 3:4\">Yad. III, 4</cite> <he>ג׳ … שמלמעלן וכ׳</he> the blank portions of a sacred book, the upper, the lower margins and those at the beginning and the end; <cite ref=\"Shabbat 116a:10\">Sabb. 116ᵃ</cite> Ms. M. (ed. pl.). ",
+				"<cite ref=\"Menachot 30a:15\">Men. 30ᵃ</cite>.—Pl. <he>גִּלְיוֹנִין</he>, <cite ref=\"C00864\"><he>גִּילְ׳</he></cite>. Sabb. l. c., v. supra. Ib. <he>הג׳ של ס״ת</he> (Ms. M. sing.) blank parchments of, or intended for, a sacred book."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (a satirical adaptation of ἐυαγγέλιον, v. <cite ref=\"A01360\"><he>אָיֶן</he></cite>) <i>gospel</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 13:5\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:5\">XIV</cite>), 5 <he>הג׳ וספרי מינין</he>; Sabb. l. c. <he>הג׳ וספרי הצדוקים</he> (Ms. M. <he>הגליון … מינין</he>) the gospels and books of heretics; [disputants, Sabb. l. c., take our w. in the sense of <i>blanks</i>]. Ib. sq., v. <cite ref=\"A00716\"><he>אָוֶן</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. ",
+			"units": [
+				"<cite ref=\"Isaiah 3:23\">Is. III, 23</cite>; cmp. <cite ref=\"C00874\"><he>גִּלְגְּלִין</he></cite>) <i>a girdle</i> of fine material. ",
+				"<cite ref=\"Bereishit Rabbah 19:6\">Gen. R. s. 19</cite> (Ar. <he>גליונים</he>; ed. Koh. <he>גולין</he>, corr. acc.)."
+			],
+			"label": "3"
+		}
+	]
+}

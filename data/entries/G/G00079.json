@@ -1,0 +1,33 @@
+{
+	"id": "G00079",
+	"slug": "זהב-1",
+	"headword": {
+		"text": "זָהַב"
+	},
+	"page": {
+		"number": 381,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"G00102\"><he>הִזְהִיב</he></cite> (denom. of <cite ref=\"G00080\"><he>זָהָב</he></cite>) <i>to glitter</i>, contrad. to <cite ref=\"R00130\"><he>הצהיב</he></cite> (v. <cite ref=\"R00130\"><he>צָהַב</he></cite>). ",
+					"units": [
+						"<cite ref=\"Chullin 22b:5\">Ḥull. 22ᵇ</cite> <he>משיַזְהִיבוּ</he> when their plumage is glittering.—<i>Part. Hof</i>. <he>מוּזְהָב</he>, f. <he>מוּזְהֶבֶת</he> <i>gold-embroidered</i>. ",
+						"<cite ref=\"Shabbat 59b:3\">Sabb. 59ᵇ</cite>.—Pl. f. <he>מוּזְהָבוֹת</he>. ",
+						"<cite ref=\"Tosefta Sotah 15:9\">Tosef. Sot. XV, 9</cite>, v. <cite ref=\"G00093\"><he>זְהוֹרִית</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "V00359",
+	"slug": "תחיה",
+	"headword": {
+		"text": "תְּחִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּחִיָּיה"
+		}
+	],
+	"page": {
+		"number": 1661,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00671\"><he>חָיָה</he></cite>) <i>revival</i>; <he>תְּחִיַּית המתים</he> (abbrev. <he>תה״מ</he>) <i>resurrection of the dead</i>; also (= <he>עולם הבא</he>, <he>לעתיר לבוא</he>) <i>hereafter</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 10:1\">Snh. X, 1</cite> <he>האומד אין תה״מ מן התורה</he> he who says, the resurrection of the dead is not intimated in the Torah. ",
+				"<cite ref=\"Kiddushin 39b\">Kidd. 39ᵇ</cite> <he>אין לך כל מצוה … שאין תה״מ תלוייה בה</he> there is no command in the Torah accompanied by a promise of reward to which resurrection is not appended (which does not allude to reward in the hereafter); a. fr."
+			]
+		}
+	]
+}

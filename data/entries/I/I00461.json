@@ -1,0 +1,39 @@
+{
+	"id": "I00461",
+	"slug": "טכס-1",
+	"headword": {
+		"text": "טָכַס"
+	},
+	"page": {
+		"number": 535,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"D00785\"><he>דָּכַס</he></cite>) <i>to stamp, tread upon, press</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:7\">Cant. R. to III, 7</cite> [read:] <he>היו רואין שבע מחיצות של אש טוֹכְסוֹת וכ׳</he> they saw seven partitions of fire one pressing the other; Midr. Sam. ch. XVII <he>טונסות</he> (corr. acc.); (<cite ref=\"Yalkut Shimoni on Torah 362\">Yalk. Ex. 362</cite>; <cite ref=\"Yalkut Shimoni on Nach 795:4\">Yalk. Ps. 795</cite> <he>נוצצות</he>; <cite ref=\"Bamidbar Rabbah 11\">Num. R. s. 11</cite>, <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>, Pesik. Haḥod., p. 45ᵃ, v. <cite ref=\"K00949\"><he>כָּסַס</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טִיכֵּס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00460\">same</cite>.—Part. pass. <he>מְטוּכָּס</he> <i>filled up</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 93:2\">Midr. Till. to Ps. XC, 2</cite> <he>מקום מט׳</he> a filled up place, <i>mound</i> (v. <cite ref=\"I00358\"><he>טִיכּוּס</he></cite>, <cite ref=\"I00361\"><he>טִיכְסָא</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"I00462\">next w.</cite>) <i>to equip</i>, v. <cite ref=\"I00695\"><he>טָקַס</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

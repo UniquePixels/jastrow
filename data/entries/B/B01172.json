@@ -1,0 +1,55 @@
+{
+	"id": "B01172",
+	"slug": "ברבריא",
+	"headword": {
+		"text": "בַּרְבַּרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּרְבַּרְיָה"
+		},
+		{
+			"text": "בַּרְבַּרְיָיא"
+		},
+		{
+			"text": "בַּרְבָּרִיאָה"
+		}
+	],
+	"page": {
+		"number": 190,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (barbaria) <i>foreign</i> (not Roman) <i>country</i>, esp. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Germania Barbara;</i> also <i>Britannia</i> (as hostile to Rome); ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>East African coast, Azania</i>, v. <cite ref=\"B01170\"><he>בַּרְבָּרִי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 10:3\">Targ. Y. II, Gen. X, 3</cite>; <cite ref=\"Targum of I Chronicles 1:6\">Targ. I Chr. I, 6</cite> (for <he>תוגרמה</he>), v. <cite ref=\"C01367\"><he>גרמניקיא</he></cite>.—",
+				"<cite ref=\"Yevamot 63b:9\">Yeb. 63ᵇ</cite> <he>אנשי ב׳</he> … <he>מרטניא</he> Ar. (ed. <cite ref=\"M02648\"><he>מרטנאי</he></cite>, corr. acc.); <cite ref=\"Sifrei Devarim 320:9\">Sifré Deut. 320</cite> … <he>מב׳ ומטונס וממורטניא</he>; <cite ref=\"Yalkut Shimoni on Torah 945:15\">Yalk. ib. 945</cite> <he>מב׳ ומבריטניא</he> those from Barbaria [,Tunes] and Mauretania [Britannia] who go naked &c. (v. Brüll, Trachten d. Jud. p. 4 sq.). ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:8\">Cant. R. to II, 8</cite> <he>אחד מכם גולה לב׳ … לסמרטיה</he> (<cite ref=\"Yalkut Shimoni on Nach 586\">Yalk. ib. 586</cite> … <he>לבריטניא</he>) one of you is exiled to B., another to Sarmatia [Britannia]. ",
+				"<cite ref=\"Midrash Tehillim 109:1\">Midr. Till. to Ps. CIX</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:4\">Y. Shek. VI, 50ᵃ</cite> top; <cite ref=\"Bereishit Rabbah 23:7\">Gen. R. s. 23</cite>, end <he>כיפי ב׳</he> the rocks of B. (Azania).—",
+				"<cite ref=\"Bereishit Rabbah 75:9\">Gen. R. s. 75</cite> <he>בני ב׳ ובני גרמניא</he>.—",
+				"<cite ref=\"Shemot Rabbah 18\">Ex. R. s. 18</cite> a king <he>שהלך בנו לב׳</he> whose son went to a foreign land (conquered province). ",
+				"<cite ref=\"Kohelet Rabbah 2:7\">Koh. R. to II, 7</cite> (ref. to <i>barburim</i> <cite ref=\"I Kings 5\">I Kings V</cite>, "
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " a bird &c. <he>היה בא מב׳ וכ׳</he> came from B. every day. [Ib.; <cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite>; Pesik. Eth. Korb. p. 58ᵇ, <he>מיני ב׳</he>, read with Ar. s. v. <cite ref=\"B01167\"><he>ברבר</he></cite>: <cite ref=\"B00550\"><he>בִּיבָרְיָא</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

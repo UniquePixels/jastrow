@@ -1,0 +1,29 @@
+{
+	"id": "N00396",
+	"slug": "נופת",
+	"headword": {
+		"text": "נוֹפֶת"
+	},
+	"page": {
+		"number": 889,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"N01086\"><he>נֹפֶת</he></cite>; denom. of <cite ref=\"N01036\"><he>נָפָה</he></cite>)<i>sifted flour, flour-dust;</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the net-like honey, honey-comb</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:12\">Sot. IX, 12</cite> <he>בטל … ונ׳ צופים</he> the <i>shamir</i> ceased and the <i>nofeth tsufim</i>; <cite ref=\"Sotah 48b:16\">ib. 48ᵇ</cite> <he>מאי נ׳ צ׳ סולת שצפה ע״ג נפה</he> what is meant by <i>n. ts</i>.? Fine flour which floats on (sticks to) the top of the sieve; (anoth. explan.) <he>שתי ככרות וכ׳</he> two loaves stuck to opposite walls of the oven, which rise so that they touch each other; (anoth. explan.) <he>דבש הבא מן הצופים</he> Rashi (ed. <he>מן הציפיא</he>) honey which comes from Tzofim (v. <cite ref=\"R00220\"><he>צוֹפִים</he></cite>); Y. ib. IX, 24ᵇ bot. <he>דבש הבא בצפייה</he>, v. <cite ref=\"R00421\"><he>צִיפְיָא</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 71:8\">Gen. R. s. 71</cite> (play on <he>נפ̇ת̇ל̇י̇</he>) <he>נ̇פ̇ת̇ עצמה לא של̇י̇ היא</he> (not <he>עצמו</he>) is not mine the honey-comb itself? (allud. to <cite ref=\"Psalms 19:11\">Ps. XIX, 11</cite>); Yalk. ib. 127. Tanḥ. Ekeb 1 … <he>שאין בכל מיני שהיא צפה בנפה וכ׳</he> (not <cite ref=\"B01071\"><he>בפה</he></cite>) for among all kinds of grain flour there is none more precious than the fine wheat flour which sticks to the sieve, but the words of the Law are more precious than it, for we read (Ps. l. c.), ‘sweeter than honey and flour-dust;’ <cite ref=\"Yalkut Shimoni on Nach 676\">Yalk. Ps. 676</cite>.—[Gen. R. l. c. <he>נופתי פיתיתי</he> some ed., v. <cite ref=\"J00472\"><he>יָסַת</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "E00749",
+	"slug": "הפלג",
+	"headword": {
+		"text": "הֶפְלֵג"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶפְלֵיג"
+		}
+	],
+	"page": {
+		"number": 362,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00934\"><he>פָּלַג</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>separation, interruption, interval</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 2:6:2\">Y. B. Kam. II, end, 3ᵃ</cite> <he>בה׳ נגיחות</he> it refers to gorings at intervals (not in three consecutive days). ",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:2:6\">Y. Yoma III, 40ᵇ</cite> bot. <he>אם להפליג</he> if the conversation lasted long enough to be considered a discontinuation of the services, opp. <he>לשעה</he>. ",
+				"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>עשו אותה כה׳</he> they declared it (the going out for easing one’s self, v. <cite ref=\"M01920\"><he>מסיכה</he></cite>) to be like a discontinuation."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>digression</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:4:2\">Y. Ab. Zar. III, 42ᵈ</cite> bot. <he>תשובת ה׳ השיבו</he> he made a reply only to divert his mind (Bab. ",
+				"<cite ref=\"Avodah Zarah 44b:7\">ib. 44ᵇ</cite> <he>תשובה גנובה</he>, v. <cite ref=\"C01078\"><he>גָּנַב</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

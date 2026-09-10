@@ -1,0 +1,34 @@
+{
+	"id": "S01741",
+	"slug": "קפיפה",
+	"headword": {
+		"text": "קְפִיפָה"
+	},
+	"page": {
+		"number": 1401,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קָפַף</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"K01019\"><he>כְּפִיפָה</he></cite>, <i>basket</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:1\">Kel. XXVI, 1</cite> Ar. a. ed. Dehr. (ed. <cite ref=\"K00001\"><he>כ׳</he></cite>); <cite ref=\"Mishnah Shabbat 20:2\">Sabb. XX, 2</cite> (<cite ref=\"Shabbat 139b\">139ᵇ</cite>) Y. ed. (Bab. a. Mish. <cite ref=\"K00001\"><he>כ׳</he></cite>); Y. ib. VIII, 11ᵇ <he>ק׳ מצרית</he>, v. <cite ref=\"K01019\"><he>כְּפִיפָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>קְפִיפִים</he>, <he>קְפִיפִיּוֹת</he> (fr. <he>קְפִיפִית</he>) <i>circular enclosures</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 8:8\">Tosef. Ohol. VIII, 8</cite>; <cite ref=\"Bekhorot 22a\">Bekh. 22ᵃ</cite>, v. <cite ref=\"I00657\"><he>טְפִיפִית</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

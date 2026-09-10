@@ -1,0 +1,26 @@
+{
+	"id": "A03209",
+	"slug": "ארס-2",
+	"headword": {
+		"text": "אֶרֶס",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵירְסָא"
+		}
+	],
+	"page": {
+		"number": 124,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A03208\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:31\">Targ. Y. Deut. I, 31</cite>; <cite ref=\"Genesis 3:14\">Gen. III, 14</cite>, some ed. <cite ref=\"A03109\"><he>אֲרֵיסָא</he></cite>; a. fr.—Pl. <he>אֵירְסִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:24\">Targ. Y. Deut. XXXII, 24</cite> (ed. Vien. <cite ref=\"A03109\"><he>אֲרִיסַן</he></cite>)."
+			]
+		}
+	]
+}

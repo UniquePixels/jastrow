@@ -1,0 +1,69 @@
+{
+	"id": "I00509",
+	"slug": "טלל-3",
+	"headword": {
+		"text": "טְלַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 537,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00508\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"I00163\"><he>טַלֵּיל</he></cite> <i>to make a</i> <cite ref=\"I00511\"><he>טְלָלָא</he></cite>; <i>to cover, screen</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 6:9\">Targ. I Kings VI, 9</cite> (h. text <he>ספן</he>). ",
+						"<cite ref=\"Targum Jonathan on Exodus 40:21\">Targ. Y. Ex. XL, 21</cite> (O. <i>Af;</i> h. text <he>ויסך</he>). ",
+						"<cite ref=\"Targum Jonathan on Exodus 25:20\">Ib. XXV, 20</cite> <he>מְטַלְלִין</he> (O. <he>מַטְּלִין</he>); a. fr.—",
+						"<cite ref=\"Sukkah 31a\">Succ. 31ᵃ</cite> (a beam) <he>דגזלה ומְטַלֵּל עלה</he> Ms. M. (ed. <he>דגזולה</he> only) which one stole and put upon it the covering of the Succah, v. <cite ref=\"M01012\"><he>מְטַלַּלְתָּא</he></cite>.—<i>Part. pass.</i> <cite ref=\"M01000\"><he>מְטַלַּל</he></cite>, f. <cite ref=\"M01011\"><he>מְטַלְּלָא</he></cite>. ",
+						"<cite ref=\"Bava Kamma 50b:13\">B. Kam. 50ᵇ</cite> <he>משום דמט׳</he> because the cave is roofed. ",
+						"<cite ref=\"Bava Kamma 50b:13\">Ib.</cite> <he>דלא מְטַלְּלֵי</he> which are uncovered.—Trnsf. <i>to obscure</i>. ",
+						"<cite ref=\"Shabbat 78a:4\">Sabb. 78ᵃ</cite> <he>מסו ומְטַלְּלֵי</he> they heal (the eye-sore) but dim the eye-sight."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַטְלֵל", "אַטֵּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00508\">same</cite>, <i>to cover</i>, v. supra. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 4:5\">Targ. Is. IV, 5</cite>, sq.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to find shelter</i>. ",
+					"units": ["<cite ref=\"Daniel 4:9\">Dan. IV, 9</cite>."],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיטַּלֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 68:14\">Targ. Ps. LXVIII, 14</cite> <cite ref=\"M00994\"><he>מִיטַּ׳</he></cite> (some ed. <he>מְט׳</he>, v. supra). ",
+						"<cite ref=\"Targum of I Chronicles 2:55\">Targ. I Chr. II, 55</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

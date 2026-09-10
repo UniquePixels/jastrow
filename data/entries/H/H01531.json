@@ -1,0 +1,50 @@
+{
+	"id": "H01531",
+	"slug": "חצף-1",
+	"headword": {
+		"text": "חָצַף"
+	},
+	"page": {
+		"number": 495,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H01405\"><he>חָסַף</he></cite> a. P. Sm. 1353 <he>חצפא</he> = ch. <he>חספא</he>) <i>to peel off, bare;</i> part. pass. <he>חָצוּף</he> (sub. <he>אפיים</he>); f. <he>חֲצוּפָה</he> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>barefaced, impudent, arrogant</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 3a\">Snh. 3ᵃ</cite> <he>ב״ד ח׳</he> an arrogant court (two sitting in judgment instead of three). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:4:6\">Y. Taan. III, 66ᵈ</cite> top <he>אחת ח׳ ואחת כשירה</he> one was unabashed, the other chaste. ",
+				"<cite ref=\"Nedarim 20b\">Ned. 20ᵇ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>undaunted, energetic, strong</i>. Tanḥ. Vayera 23 <he>הנפש ח׳ היא</he> the instinct of life is strong. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 42:9\">Ex. R. s. 42</cite> <he>ג׳ חֲצוּפִים הם ח׳ בחיה וכ׳</he> (<cite ref=\"Beitzah 25b:8\">Bets. 25ᵇ</cite> <he>עז</he>) three (creatures) are persevering (undaunted by failure or opposition), among beasts it is the dog &c. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:21\">Y. Taan. IV, 69ᵇ</cite> <he>מה חציפה וכ׳</he> (read: <he>חצו׳</he>) how irrepressible is the Land of Israel that it still is productive (after all devastations).—Pl. <he>חֲצוּפִים</he>, f. <he>חֲצוּפוֹת</he>. Ex. R. l. c., v. supra.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:6\">Y. Ber. V, 8ᵈ</cite> bot. <he>שעות הח׳ וכ׳</he> those irresistible, hard and evil times."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחֱצִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to bare</i> (one’s face), <i>to act irreverently</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 9:18:3\">Koh. R. to IX, 18</cite> <he>כל המַחֲצִיף פניו וכ׳</he> whoever speaks irreverently of &c. ",
+						"<cite ref=\"Kohelet Rabbah 3:9:1\">Ib. III, 9</cite> <he>מַחֲצִיפִין אתם</he> you embolden yourselves."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

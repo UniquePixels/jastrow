@@ -1,0 +1,38 @@
+{
+	"id": "P01017",
+	"slug": "ענש-2",
+	"headword": {
+		"text": "עֲנַשׁ"
+	},
+	"page": {
+		"number": 1097,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P01016\">same</cite> <cite ref=\"Menachot 41a:13\">Men. 41ᵃ</cite> <he>עַנְשִׁיתוּ אעשה</he> do you (in heaven) punish a sin of omission? <he>בזמן דאיכא ריתחא עַנְשִׁינָן</he> when there is a time of divine anger, we do punish.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיעַנַּשׁ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיעֲנֵישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be punished</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 63a\">Erub. 63ᵃ</cite> <he>ואי׳ רבי וכ׳</he> and R. Elazar … was punished (came to grief). ",
+						"<cite ref=\"Eruvin 63a\">Ib.</cite> bot. <he>אפ״ה אי׳</he> nevertheless he came to grief (was degraded). ",
+						"<cite ref=\"Sukkah 51b:8\">Succ. 51ᵇ</cite> <he>מ״ט אִיעַנְּשׁוּ</he> why were they punished (to suffer execution under Hadrian)? <cite ref=\"Sanhedrin 43b:9\">Snh. 43ᵇ</cite> <he>ועד השתא מ״ט לא אִיעֲנוּשׁ</he> and up to that time why were they (the Israelites) not punished (for Achan’s misdeeds)? <cite ref=\"Sanhedrin 44a:1\">Ib. 44ᵃ</cite> top <he>עכן מ״ט איענוש</he> (supply <cite ref=\"P00794\"><he>עליה</he></cite>) why were they punished for Achan’s (undiscovered) sin?; <cite ref=\"Yalkut Shimoni on Nach 18:5\">Yalk. Josh. 18</cite> <he>עכן מ״ט איענש</he> why was Achan’s sin visited (upon the people)? <cite ref=\"Beitzah 16a:11\">Bets. 16ᵃ</cite> <he>לא לִיעַנְּשׁוּ וכ׳</he> (not <he>לע׳</he>) let gentiles not be punished for neglecting it; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

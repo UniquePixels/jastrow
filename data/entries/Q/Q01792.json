@@ -1,0 +1,25 @@
+{
+	"id": "Q01792",
+	"slug": "פרידתא",
+	"headword": {
+		"text": "פָּרִידְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּרִדְ׳"
+		}
+	],
+	"page": {
+		"number": 1226,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " f. = h. <cite ref=\"Q01589\"><he>פַּרְדָּנִית</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:11\">Targ. Prov. VII, 11</cite> (h. text <he>סררת</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 9:13\">Ib. IX, 13</cite> (h. text <cite ref=\"E00604\"><he>המיה</he></cite>)."
+			]
+		}
+	]
+}

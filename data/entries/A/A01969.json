@@ -1,0 +1,29 @@
+{
+	"id": "A01969",
+	"slug": "אמבוה",
+	"headword": {
+		"text": "אַמְבּוּהָ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַמְבּוּהָא"
+		}
+	],
+	"page": {
+		"number": 74,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. anbûh, Perl. Et. St. p. 18; cmp., however, <he>מבוא עם</he> Ezek. ",
+			"units": [
+				"<cite ref=\"Ezekiel 33:31\">Ezek. XXXIII, 31</cite>) <i>crowd, escort</i>. ",
+				"<cite ref=\"Yoma 87a:1\">Yoma 87ᵃ</cite>; <cite ref=\"Sanhedrin 7b:11\">Snh. 7ᵇ</cite>. ",
+				"<cite ref=\"Sukkah 55a:6\">Succ. 55ᵃ</cite>"
+			]
+		}
+	]
+}

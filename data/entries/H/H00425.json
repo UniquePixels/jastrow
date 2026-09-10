@@ -1,0 +1,35 @@
+{
+	"id": "H00425",
+	"slug": "חופיא",
+	"headword": {
+		"text": "חוּפְיָא"
+	},
+	"page": {
+		"number": 437,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חוּף</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rubbing</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6a:5\">Ber. 6ᵃ</cite> <he>מח׳ דידהו</he> from their (the demons’) rubbing against their clothing."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>broom</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 32a:5\">Succ. 32ᵃ</cite> <he>דעביד כי ח׳</he> it has the shape of a broom. ",
+				"<cite ref=\"Bava Kamma 96a:10\">B. Kam. 96ᵃ</cite> if one stole palm-leaves <he>ועבדינהו ח׳</he> and made a broom of them. [Ar. <cite ref=\"E00731\"><he>הָפְיָא</he></cite>, Var. <cite ref=\"E00256\"><he>הוּפְיָא</he></cite>, v. Rabb. D. S. to Succ. l. c. note 2.]"
+			],
+			"label": "2"
+		}
+	]
+}

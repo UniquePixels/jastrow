@@ -1,0 +1,28 @@
+{
+	"id": "S00953",
+	"slug": "קילא-2",
+	"headword": {
+		"text": "קִילָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִילָה"
+		}
+	],
+	"page": {
+		"number": 1359,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"S00950\"><he>קִיל</he> I</cite>, a. <cite ref=\"S00346\"><he>קוֹלִית</he></cite>) <i>hollow stick</i>, esp. <i>the stem of a withered young palm</i> (<i>cabbage-tree</i>). ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 15:8\">Lev. R. s. 15</cite>; <cite ref=\"Yalkut Shimoni on Nach 1056:13\">Yalk. Esth. 1056</cite> (not <he>קילה</he>), v. <cite ref=\"S00562\"><he>קוֹרָא</he> II</cite>; <cite ref=\"Midrash Tehillim 22\">Midr. Till. to Ps. XXII</cite> <cite ref=\"S00373\"><he>קולתא</he></cite>, read: <cite ref=\"S00998\"><he>קִילְתָא</he></cite>."
+			]
+		}
+	]
+}

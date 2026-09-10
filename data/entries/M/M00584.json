@@ -1,0 +1,28 @@
+{
+	"id": "M00584",
+	"slug": "מוקדון",
+	"headword": {
+		"text": "מוּקְדּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַקְדּוֹן"
+		}
+	],
+	"page": {
+		"number": 747,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Μακεδών) <i>Macedonian</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 1:7\">Targ. I Chr. I, 7</cite> (h. text <he>יון</he>, v. <cite ref=\"M00586\"><he>מוּקְדּוֹנְיָא</he></cite>).—Esp. <he>אלכסנדרוס מ׳</he> Alexander the Macedonian (Alex. the Great), v. <cite ref=\"A01894\"><he>אֲלֶכְסַנְדְּרוֹס</he></cite>. [Mekh. Yithro, Baḥod. s. 9 <he>מ׳</he>, read with ed. Weiss <cite ref=\"T00107\"><he>רביעית</he></cite> or <he>אדום</he> = Rome.]—Pl. <he>מוּקְדּוֹנִין</he>, <cite ref=\"M00586\"><he>מַקְ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite> <he>מ׳ דדהבא</he> Macedonian gilt shoes."
+			]
+		}
+	]
+}

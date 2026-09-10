@@ -1,0 +1,27 @@
+{
+	"id": "V00455",
+	"slug": "תימא-2",
+	"headword": {
+		"text": "תֵּימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תֵּימָה"
+		}
+	],
+	"page": {
+		"number": 1665,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>tema</i>, name of a bird. ",
+			"units": [
+				"<cite ref=\"Chullin 141b:12\">Ḥull. 141ᵇ</cite> <he>תימת</he> (Ms. M. <he>תימא</he>; Mus. <cite ref=\"V00455\"><he>תֵּמָה</he></cite>; Ar. <cite ref=\"V00646\"><he>תֵּמָא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "U01169",
+	"slug": "שכם-2",
+	"headword": {
+		"text": "שָׁכַם"
+	},
+	"page": {
+		"number": 1574,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U01114\"><he>הִשְׁכִּים</he></cite> (b. h.;  [<i>to load</i>, v. Ges. Thes. s. v.,] <i>to rise early; to do a thing early</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 30a:12\">Ber. 30ᵃ</cite> <he>ה׳ לצאת לדרך</he> if one rises early (before sunrise) to go on the road; <cite ref=\"Tosefta Berakhot 3:19\">Tosef. ib. III, 19</cite>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 5:11:1\">Cant. R. to V, 11</cite> (play on <he>שחרות כעורב</he>, <cite ref=\"Shir HaShirim Rabbah 5:11:1\">ib.</cite>; cmp. <cite ref=\"U00705\"><he>שׁחַר</he></cite>) <he>מַשְׁכִּים ומעריב</he> (<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> <he>משחיר</he>), v. <cite ref=\"P01244\"><he>עָרַב</he> II</cite>. ",
+						"<cite ref=\"Mishnah Bava Metzia 7:1\">B. Mets. VII, 1</cite> if one hired working men, <he>ואמר להן להַשְׁכִּים וכ׳</he> and told them that he expected them to come to their work earlier and go later (than the customary time). ",
+						"<cite ref=\"Berakhot 47b:18\">Ber. 47ᵇ</cite> <he>לעולם יַשְׁכִּים אדם וכ׳</he> a man should always go early to the house of prayer, that he may succeed in being counted among the earliest ten &c. ",
+						"<cite ref=\"Berakhot 16b\">Ib. 16ᵇ</cite>; Y. ib. IV, 7ᵈ bot. <he>ונַשְׁכִּים ונמצא וכ׳</he> that we may early (in life) obtain &c., v. <cite ref=\"J00272\"><he>יִחוּל</he></cite>. ",
+						"<cite ref=\"Bava Kamma 92b:2\">B. Kam. 92ᵇ</cite> <he>הַשְׁכֵּם ואכול</he> take an early breakfast. ",
+						"<cite ref=\"Gittin 7a:7\">Gitt. 7ᵃ</cite> <he>הַשְׁכֵּם והערב עליהן והם וכ׳</he> (omit <he>לבה״מ</he>) pray against them (the tormentors) early and late, and they shall cease of themselves; a. fr.—",
+						"<cite ref=\"Mishnah Bikkurim 3:2\">Bicc. III, 2</cite> <he>ולִמַשְׁכִּים היה וכ׳</he> and <i>at rising time</i> &c."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

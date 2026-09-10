@@ -1,0 +1,63 @@
+{
+	"id": "V00071",
+	"slug": "תבר-2",
+	"headword": {
+		"text": "תְּבַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּבֵיר"
+		}
+	],
+	"page": {
+		"number": 1645,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"U00174\"><he>שָׁבַר</he></cite>, <i>to break</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:9\">Targ. Gen. XIX, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 19:10\">Targ. Jer. XIX, 10</cite>; a. fr.—Part. pass. <cite ref=\"V00047\"><he>תְּבִיר</he></cite>; f. <cite ref=\"V00047\"><he>תְּבִירָא</he></cite>; pl. <cite ref=\"V00045\"><he>תְּבִירִין</he></cite>; <he>תְֹּבִירָן</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 31:13\">Targ. Ps. XXXI, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:13\">Targ. Jer. II, 13</cite>; a. fr.; v. <cite ref=\"V00048\"><he>תְּבִירָא</he> II</cite>.—",
+				"<cite ref=\"Bava Kamma 10b:9\">B. Kam. 10ᵇ</cite> <he>בהדי דסמיך בהו ת׳</he> (not <he>דסמוך</he>) while he leaned on them, he broke (the bench)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּבַּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00070\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 9:25\">Targ. Ex. IX, 25</cite> (ed. Vien. <cite ref=\"V00071\"><he>תְּבַר</he></cite>; Y. <cite ref=\"V00047\"><he>תְּבִיר</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 29:5\">Targ. Ps. XXIX, 5</cite> Ms. (ed. <he>מַתְבַּר</he> <i>Af.</i>). ",
+						"<cite ref=\"Onkelos Exodus 23:24\">Targ. Ex. XXIII, 24</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 1:17\">Targ. Jer. I, 17</cite>; a. fr.—",
+						"<cite ref=\"Yoma 78b:7\">Yoma 78ᵇ</cite> <he>תַּבּוּרֵי מאני</he> breaking of vessels (as a child’s pleasure). ",
+						"<cite ref=\"Yoma 78b:7\">Ib.</cite> <he>זבין … ומְתַבְּרֵי להו</he> (v. Rabb. D. S. a. l. note 100) bought defective vessels for his children, and they broke them, v. <cite ref=\"C00538\"><he>גְּזַז</he></cite>; a. e.—[Y. Sabb. VII, 10ᵃ bot. <he>מתברא בצדדיא</he>, read: <he>מבחרא בצרריא</he>, v. <cite ref=\"R00813\"><he>צְרָרָא</he> II</cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתַּבַּר"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <he>אִתְתְּבַר</he>, <cite ref=\"B00329\"><he>אִתְּבַר</he></cite> (<he>אִתְבַּר</he>) <i>to be broken</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jonah 1:4\">Targ. Jon. I, 4</cite>. ",
+						"<cite ref=\"Onkelos Exodus 22:9\">Targ. Ex. XXII, 9</cite> (Y. ed. Vien. <he>אִיתְבִיר</he>). Ib. 12 (h. text <he>יטרף</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 23:9\">Targ. Jer. XXIII, 9</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 14:28\">Targ. Prov. XIV, 28</cite> (h. text <he>מחתת</he>); a. fr.—",
+						"<cite ref=\"Berakhot 22a\">Ber. 22ᵃ</cite>, v. <cite ref=\"H01496\"><he>חַצְבָּא</he></cite>. B. Kam. l. c. <he>דבלאו איהו לא א׳</he> if without him (sitting on it), it would not have been broken. Ib. <he>בלאו איהו הוה מִיתְּבַר וכ׳</he> without him, it would have broken down after two hours; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

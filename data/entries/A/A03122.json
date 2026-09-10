@@ -1,0 +1,33 @@
+{
+	"id": "A03122",
+	"slug": "ארישתא",
+	"headword": {
+		"text": "אֲרִישְׂתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרִישְׁתָּא"
+		},
+		{
+			"text": "אֲרִישׁוּתָא"
+		},
+		{
+			"text": "אֲרִיסוּתָא"
+		}
+	],
+	"page": {
+		"number": 120,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A03250\"><he>ארשׁ</he></cite>, v. <he>ארס</he>) prop. <i>obligation</i>, hence (sub. <he>סעודת</he>) <i>a meal which creates an obligation, a meal which is given in the expectation of receiving invitations from the reciprocating members of a social club</i>, opp. <cite ref=\"Q00373\"><he>פורענא</he></cite> the entertainment in reciprocation for invitations received. ",
+			"units": [
+				"<cite ref=\"Moed Katan 22b:10\">M. Kat. 22ᵇ</cite> <he>אריש׳</he> Ar. (ed. <he>אריסותא</he>, Ms. M. <he>ארשיותא</he>, read <he>ארישו׳</he>)."
+			]
+		}
+	]
+}

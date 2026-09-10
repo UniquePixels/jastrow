@@ -1,0 +1,23 @@
+{
+	"id": "A01182",
+	"slug": "איהי-2",
+	"headword": {
+		"text": "אִיהִי",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 46,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", <he>א׳ דַקִּירָא</he> (<cite ref=\"E00010\"><he>האי</he></cite>) pr. n. pl. <i>Ihi Dakkira</i>, <i>Is</i>, a city on the W. banks of the Euphrates, and upon a little river of the same name; (v. Rapap. Er. Mill. p. 33, a. Sm. Class. Dict. s. v. Is). ",
+			"units": [
+				"<cite ref=\"Kiddushin 72a\">Kidd. 72ᵃ</cite> <he>א׳ ד׳</he> (Ar. <cite ref=\"E00010\"><he>האי</he></cite>). ",
+				"<cite ref=\"Bava Batra 24a\">B. Bath. 24ᵃ</cite> Ms. R. <he>א׳ דקי׳</he> (ed. <he>האי דקרא</he>, v. Rabb. D. S. a. l.). ",
+				"<cite ref=\"Berakhot 59b\">Ber. 59ᵇ</cite> (v. Rabb. D. a. l.)."
+			]
+		}
+	]
+}

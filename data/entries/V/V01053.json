@@ -1,0 +1,72 @@
+{
+	"id": "V01053",
+	"slug": "תרץ",
+	"headword": {
+		"text": "תְּרַץ"
+	},
+	"page": {
+		"number": 1702,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"V00959\"><he>תָּרוּט</he></cite>) <i>to make straight, level</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:128\">Targ. Ps. CXIX, 128</cite> (Ms. <i>Pa.</i>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:6\">Targ. Prov. XI, 6</cite> <he>תִּתְרוֹץ</he> Ms. (ed. <i>Pa.</i>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תָּרֵיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to make straight; to arrange, lead</i>. Ib. III, 6 <he>יְתָרֵץ</he> (some ed. <cite ref=\"V00999\"><he>תָּרֵיץ</he></cite> Part. <i>Pe.</i>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 33:27\">Targ. Job XXXIII, 27</cite> Ms. (ed. Wil. <he>יִתְרִיץ</he>; h. text <cite ref=\"J00703\"><he>יָשֹׁר</he></cite>!). ",
+						"<cite ref=\"Targum Jonathan on Exodus 39:33\">Targ. Y. Ex. XXXIX, 33</cite>; a. e.—",
+						"<cite ref=\"Targum of II Chronicles 29:34\">Targ. II Chr. XXIX, 34</cite> <he>תָּרֵיצוּ</he> ed. Wil. (add.: <he>לבא</he>) they made their heart straight (ready; oth. ed. <he>תְּרִיצֵי לבא</he> were straight of heart; h. text <he>ישרי לב</he>).—",
+						"<cite ref=\"Berakhot 46b\">Ber. 46ᵇ</cite>, v. infra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (mentally) <i>to set aright, settle, harmonize</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 4b:2\">Gitt. 4ᵇ</cite> <he>רבה מְתָרֵץ לטעמיה ורבא מתרץ וכ׳</he> Rabbah settles (explains the differences of opinion in the Mishnah) in accordance with his principle (so that both disputants agree with his principle), and Raba in accordance with his. ",
+						"<cite ref=\"Bava Metzia 14b:14\">B. Mets. 14ᵇ</cite> <he>לאו תָּרוּצֵי קא מְתָרְצַת תָּרֵיץ נמי בבעל חוב</he> must you not (in order to uphold the Boraitha) explain it (that it refers to robbers)? explain it just as well that it refers to a creditor. ",
+						"<cite ref=\"Ketubot 35b:5\">Keth. 35ᵇ</cite> <he>היכי מְתָרֵיץ לה</he> how will he harmonize the Mishnah (with his principle)? <cite ref=\"Shabbat 62a:15\">Sabb. 62ᵃ</cite> <he>תָּרְצַת אשה וכ׳</he> you have explained the case satisfactorily with regard to woman, what have you to say concerning the case of man? <cite ref=\"Moed Katan 13b\">M. Kat. 13ᵇ</cite>; a. v. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתָּרֵיץ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְרִיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to straighten one’s self, sit up</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 46b:7\">Ber. 46ᵇ</cite> <he>מִתְרִיץ תָּרוּצֵי וכ׳</he> he (that reclines at a meal in front of another diner) would have to sit up in order to talk to him."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be set aright, be harmonized</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 170a:3\">B. Bath. 170ᵃ</cite> <he>מתניתא לא מִיתָּרְצָא אלא כדמְתָרְצָהּ מר וכ׳</he> (not <he>כדמתרצא</he>) the Boraitha cannot be satisfactorily explained, except as you explained it, and this being so &c.; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

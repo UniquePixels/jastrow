@@ -1,0 +1,27 @@
+{
+	"id": "T00890",
+	"slug": "רעי-2",
+	"headword": {
+		"text": "רְעֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְעָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1486,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00889\">same</cite>, <i>to feed; to graze</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:31\">Targ. Gen. XXX, 31</cite>; <cite ref=\"Onkelos Genesis 30:36\">36</cite>. ",
+				"<cite ref=\"Onkelos Exodus 34:3\">Targ. Ex. XXXIV, 3</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 56a:1\">Ber. 56ᵃ</cite> <he>ורַעֲיֵי וכ׳</he>, v. <cite ref=\"U01888\"><he>שָׁקְצָא</he></cite>."
+			]
+		}
+	]
+}

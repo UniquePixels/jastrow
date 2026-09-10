@@ -1,0 +1,22 @@
+{
+	"id": "H01453",
+	"slug": "חפיר",
+	"headword": {
+		"text": "חֲפִיר"
+	},
+	"page": {
+		"number": 491,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. pass. of <cite ref=\"H01474\"><he>חֲפַר</he></cite>) <i>one for whom a grave is dug</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 10:7:1\">Koh. R. to X, 7</cite> <he>ח׳ טב וכ׳</he> a dead man is better off than he; <cite ref=\"Shabbat 151b\">Sabb. 151ᵇ</cite> <he>דחפיר וקביר וכ׳</he> one who is dead and buried."
+			]
+		}
+	]
+}

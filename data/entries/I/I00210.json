@@ -1,0 +1,44 @@
+{
+	"id": "I00210",
+	"slug": "טופרא",
+	"headword": {
+		"text": "טוּפְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְפַר"
+		}
+	],
+	"page": {
+		"number": 525,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"R00720\"><he>צִפֹּרֶן</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>nail</i> of the human finger; <i>claw; hoof</i>; trnsf. <i>pencil</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 17:1\">Targ. Jer. XVII, 1</cite>.—",
+				"<cite ref=\"Chullin 17b\">Ḥull. 17ᵇ</cite> the knife must be examined, <he>אבישרא ואט׳ וכ׳</he> on the fleshy top of the finger and on the nail &c.; a. fr.—Pl. <he>טוּפְרִין</he>, <cite ref=\"I00422\"><he>טִפְ׳</he></cite>, <he>טוּפְרַיָּיא</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 5:22\">Targ. Jud. V, 22</cite> (h. text <he>עקבות</he>) <cite ref=\"Onkelos Deuteronomy 21:12\">Targ. O. Deut. XXI, 12</cite> <he>טוֹפְרָהָא</he> ed. Berl. (ed. Vien. <cite ref=\"I00211\"><he>טוּפְרָנָהָא</he></cite>; Y. <he>טוּפְרַיָּיהָא</he>).—",
+				"<cite ref=\"Moed Katan 18a:2\">M. Kat. 18ᵃ</cite> <he>חזנהו לטופריה וכ׳</he> (not <he>לטופרי</he>) saw that his nails were long; a. e.—Midr. Sam. ch. XI, v. <cite ref=\"A02379\"><he>אִסְטְלִי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>onycha</i> (<i>unguis odoratus</i>) a spice. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 30:34\">Targ. O. Ex. XXX, 34</cite>.—[<cite ref=\"Targum Jonathan on Genesis 3:7\">Targ. Y. Gen. III, 7</cite> <he>לבוש טופרא</he>, read: <cite ref=\"U00511\"><he>שׂוּפְרָא</he></cite>.—",
+				"<cite ref=\"Vayikra Rabbah 33:6\">Lev. R. s. 33</cite> <he>טופרין ושער ועצמות</he>, read: <he>טפוסין של צלמים</he>, v. Yalk. Dan. 1061.—",
+				"<cite ref=\"Targum Jonathan on Exodus 32:4\">Targ. Y. Ex. XXXII, 4</cite>, v. <cite ref=\"I00209\"><he>טוּפְסָא</he></cite>.]—V. <cite ref=\"I00211\">next w.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

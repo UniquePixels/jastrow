@@ -1,0 +1,29 @@
+{
+	"id": "E00833",
+	"slug": "הרדפני",
+	"headword": {
+		"text": "הַרְדַּפְנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַרְדוֹפַנֵּי"
+		}
+	],
+	"page": {
+		"number": 366,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Chald. form of <cite ref=\"E00829\"><he>הַרְיּוֹפַנִּין</he></cite>) <i>a creeper</i> the berries of which were known to be injurious to animals. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:5\">Ḥull. III, 5</cite> (<cite ref=\"Chullin 58b:13\">58ᵇ</cite>); Tosef. ib. III, 19.—Mekh. B’shall., Vayassa 1 (ref. to <cite ref=\"Exodus 15:25\">Ex. XV, 25</cite>) <he>זה עץ ה׳</he> it was the trunk of an ivy; <cite ref=\"Shemot Rabbah 50:3\">Ex. R. s. 50</cite>; (<cite ref=\"Shemot Rabbah 50:3\">ib.</cite> s. 23 <cite ref=\"J00598\"><he>ירדינון</he></cite>); Yalk. ib. 256 <cite ref=\"E00832\"><he>הרדפוני</he></cite> (corr. acc.); Tanḥ. ",
+				"<cite ref=\"Exodus 24\">B’shall. 24</cite> <he>ה׳ מר היה</he>; Tanḥ., ed. Bub., ib. 19.—[Var. <cite ref=\"E00489\"><he>הירדופני</he></cite>, v. Koh. Ar. s. v.]—",
+				"<cite ref=\"Targum Jonathan on Exodus 15:25\">Targ. Y. Ex. XV, 25</cite> <cite ref=\"A03009\"><he>אַרְדַּפְנֵי</he></cite>."
+			]
+		}
+	]
+}

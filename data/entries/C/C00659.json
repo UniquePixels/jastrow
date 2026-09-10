@@ -1,0 +1,24 @@
+{
+	"id": "C00659",
+	"slug": "גיווטאי",
+	"headword": {
+		"text": "גִּיוָוטָאֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 236,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>inhabitants of Coptos</i> (Κόπτος) in Upper Egypt. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:13\">Targ. Y. I Gen. X, 13</cite> (some ed. <he>ני׳</he>); <cite ref=\"Targum of I Chronicles 1:11\">Targ. I Chr. I, 11</cite> <he>גיוטאי</he> ed. Rahmer (Var. <he>ניוט׳</he>, ed. Lag. <cite ref=\"N00017\"><he>נאטאי</he></cite>, h. text <cite ref=\"L00199\"><he>לודים</he></cite>). Cmp. <cite ref=\"C00793\"><he>גִּיפְטִי</he></cite>."
+			]
+		}
+	]
+}

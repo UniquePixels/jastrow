@@ -1,0 +1,35 @@
+{
+	"id": "B00253",
+	"slug": "בול-2",
+	"headword": {
+		"text": "בּוּל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 145,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"B00252\">preced.</cite> a. <cite ref=\"B00880\"><he>בָּלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>something kneaded together, a handful, ball, lump</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 67b:13\">Sabb. 67ᵇ</cite>; <cite ref=\"Shabbat 128b:16\">128ᵇ</cite> <he>ב׳ של מלח</he> a lump of salt. ",
+				"<cite ref=\"Bava Metzia 90a:1\">B. Mets. 90ᵃ</cite> <he>ב׳ מאותו המין</he> a handful (fodder) of the same species; v. infra.—Pl. <he>בּוּלוֹת</he>, <cite ref=\"B00268\"><he>בּוּלִים</he></cite>, <he>בּוּלִין</he> <i>clods</i>, v. next w.—",
+				"<cite ref=\"Bereishit Rabbah 13:12\">Gen. R. s. 13</cite> <he>ב׳ ב׳ של אדמה</he> clods of moist ground. ",
+				"<cite ref=\"Bamidbar Rabbah 2:13\">Num. R. s. 2</cite> sand is thrown into the fire <he>ומוציאו בולים</he> and he brings it out as lumps (of glass); v. <cite ref=\"B00270\"><he>בּוּלָס</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fodder</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22:3\">Lev. R. s. 22</cite> (expl. <he>בול הרים</he> <cite ref=\"Job 40:20\">Job XL, 20</cite>); Tanḥ. Pinḥ. 12."
+			],
+			"label": "2"
+		}
+	]
+}

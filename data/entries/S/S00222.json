@@ -1,0 +1,30 @@
+{
+	"id": "S00222",
+	"slug": "קובטאות",
+	"headword": {
+		"text": "קוּבְטָאוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּבְטָיוֹת"
+		}
+	],
+	"page": {
+		"number": 1323,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>קבט</he>, v. <cite ref=\"S00032\"><he>קָבוּט</he></cite>) <i>pressed</i> or <i>pickled substances, sauces</i> &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:5\">Y. Ab. Zar. II, 41ᵈ</cite> <he>ק׳ … שלהן</he> sauces (or pickles) prepared by gentiles; <cite ref=\"Tosefta Avodah Zarah 4:11\">Tosef. Ab. Zar. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:11\">V</cite>), 11 <cite ref=\"S01729\"><he>קַפְטָאוֹת</he></cite> ed. Zuck. (Var. <cite ref=\"S01698\"><he>קפאטיות</he></cite>, missing in oth. eds.); Bab. ",
+				"<cite ref=\"Avodah Zarah 38b\">Ab. Zar. 38ᵇ</cite> <he>קפלוטות</he> (?). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:2:5\">Y. Pes. III, 30ᵃ</cite> <he>ק׳ בירתייות וכ׳</he> sauces from Birtha must be removed before Passover (on account of an admixture of leavened matter); cmp. <cite ref=\"Q00975\"><he>פְּלוּלִינַיָּא</he></cite>."
+			]
+		}
+	]
+}

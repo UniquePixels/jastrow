@@ -1,0 +1,25 @@
+{
+	"id": "C00278",
+	"slug": "גובה",
+	"headword": {
+		"text": "גּוֹבַהּ"
+	},
+	"page": {
+		"number": 217,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"C00048\"><he>גֹּבַהּ</he></cite>; <cite ref=\"C00049\"><he>גָּבַהּ</he></cite>)<i>height, elevation; thick, fleshy part</i> (cmp. <cite ref=\"C00031\"><he>גַּב</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 4:1\">Midd. IV, 1</cite> <he>גָּבְהוֹ</he> <cite ref=\"Mishnah Middot 4:6\">Ib. 6</cite>. <he>גּוֹבְהוֹ</he>; a. fr.—",
+				"<cite ref=\"Menachot 37b:5\">Men. 37ᵇ</cite> <he>ג׳ שביד</he> the thickest part of the upper arm (<cite ref=\"S00858\"><he>קיבורת</he></cite>); <he>ג׳ שבראש</he> the highest point of the forehead. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:1:17\">Y. Yeb. VIII, 9ᵃ</cite>; <cite ref=\"Jerusalem Talmud Shabbat 19:6:2\">Y. Sabb. XIX, end, 17ᵇ</cite>; Bab. ",
+				"<cite ref=\"Shabbat 137b:2\">Sabb. 137ᵇ</cite> <he>גּוֹבְהָהּ של עטרה</he> the thickest part of the apex."
+			]
+		}
+	]
+}

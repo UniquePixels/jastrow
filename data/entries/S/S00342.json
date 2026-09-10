@@ -1,0 +1,23 @@
+{
+	"id": "S00342",
+	"slug": "קולין",
+	"headword": {
+		"text": "קוֹלִין"
+	},
+	"page": {
+		"number": 1328,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S00317\"><he>קוֹלָא</he> I</cite>) <cite ref=\"S00493\"><he>בֵּית ק׳</he></cite> (= b. h. <he>בית הכלא</he>) <i>prison</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 8:13\">Cant. R. to VIII, 13</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "B01081",
+	"slug": "בצוצריות",
+	"headword": {
+		"text": "בְּצוֹצְרִיּוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּצַרְצְרִיּוֹת"
+		}
+	],
+	"page": {
+		"number": 184,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>בצר</he>, v. <cite ref=\"B01080\">preced.</cite>) <i>engines of siege</i> or <i>defence</i> (v. <cite ref=\"A00508\"><he>אָהֳלִית</he></cite>). Pesik. Haḥod. p. 47ᵃ; Shub. p. 163ᵇ (for Var. Lect., v. Bub. notes a. l.); <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 2:6\">Midr. Till. to Ps. II</cite>, end <he>שמא אהליות וב׳ אני צריך</he> do I need camps and engines (for demolishing the world)?; <cite ref=\"Yalkut Shimoni on Nach 623\">Yalk. Ps. 623</cite> <cite ref=\"R00233\"><he>צוצריות</he></cite> (corr. acc.). V. <he>קַסְטְרִיּוֹת</he>."
+			]
+		}
+	]
+}

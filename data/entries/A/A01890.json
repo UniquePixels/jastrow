@@ -1,0 +1,27 @@
+{
+	"id": "A01890",
+	"slug": "אלכסא",
+	"headword": {
+		"text": "אֲלַכְסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיכְסָה"
+		}
+	],
+	"page": {
+		"number": 70,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Alaxa, Lixah</i>, abbrev. of Alexander. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:1:6\">Y. Keth. V, beg. 29ᶜ</cite> R. Al.—Ib. IX, 33ᵇ <he>א׳ אמר לו ר׳ מנא</he> (read <he>לר׳ מנא</he>); <cite ref=\"Jerusalem Talmud Shevuot 7:7:6\">Y. Shebu. VII, 38ᵃ</cite> bot. <he>ליכסה וכ׳</he> name of a gentile judge."
+			]
+		}
+	]
+}

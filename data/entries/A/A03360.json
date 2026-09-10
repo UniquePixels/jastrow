@@ -1,0 +1,40 @@
+{
+	"id": "A03360",
+	"slug": "אשרתא-2",
+	"headword": {
+		"text": "אַשַּׁרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַשָּׁרָא"
+		}
+	],
+	"page": {
+		"number": 130,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אשר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>legal attestation</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 21b:3\">Keth. 21ᵇ</cite>, a. e. <he>א׳ דדייני</he> the attestation by judges (h. <he>אַשָּׁרַת הדיינין</he>, v. <cite ref=\"A03354\"><he>אַשָּׁרָה</he></cite>). ",
+				"<cite ref=\"Bava Batra 163a:7\">B. Bath. 163ᵃ</cite> <he>בין עדים לא׳</he> (Ar. a. Ms. <he>אשרא</he>) the space between the signature of the witnesses and the legal attestation."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A03352\"><he>אַשְּׁרָאֵי</he></cite>) <i>outstanding debts for goods sold</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 14a:17\">Gitt. 14ᵃ</cite> R. S. had <he>א׳ דסרבלי וכ׳</he> money outstanding in Maḥuza for garments sold."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "I00773",
+	"slug": "טריגון-1",
+	"headword": {
+		"text": "טְרִיגוֹן"
+	},
+	"page": {
+		"number": 553,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τρίγωνος) <i>triangular</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 12:1\">Neg. XII, 1</cite>; <cite ref=\"Nazir 8b:11\">Naz. 8ᵇ</cite>; <cite ref=\"Bava Batra 164b:11\">B. Bath. 164ᵇ</cite> (<he>בית</he>) <he>ט׳</he> a triangularly built house; <cite ref=\"Tosefta Negaim 6:3\">Tosef. Neg. VI, 3</cite> <cite ref=\"I00775\"><he>טריגין</he></cite> ed. Zuck. (Var. <cite ref=\"I00709\"><he>טרגיה</he></cite>, corr. acc.);"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (τρίγονος) <i>for the third time</i>. Naz. l. c.; Y. ib. I, 51ᵇ top; Tosef. ib. I, 2 <he>דרגון</he> ed. Zuck. (Var. <he>דיגון</he>, corr. acc.); v. <cite ref=\"D00484\"><he>דִּיגוֹן</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

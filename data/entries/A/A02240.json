@@ -1,0 +1,28 @@
+{
+	"id": "A02240",
+	"slug": "אניץ-2",
+	"headword": {
+		"text": "אָנִיץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָנִיץ"
+		}
+	],
+	"page": {
+		"number": 85,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02284\"><he>אנץ</he></cite>, <he>ענץ</he>, sec. r. of <cite ref=\"A00820\"><he>אוץ</he></cite>, <cite ref=\"P00322\"><he>עוץ</he></cite>) [<i>tight bundle</i>], only in pl. const. (<cite ref=\"P00000\"><he>עֲ</he></cite>) <he>פשתן אֲנִיצֵי</he> <i>flax-stalks after they are soaked, beaten and baked</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 2:1\">B. Mets. II, 1</cite> (<cite ref=\"Bava Metzia 21a\">21ᵃ</cite>). Y. Succ. I, 52ᵇ bot.; Bab. ",
+				"<cite ref=\"Sukkah 12b\">Succ. 12ᵇ</cite> (Ar., Ms. M., Tosef. ib. I, 6 <he>עניצי</he>); a. fr. V. <cite ref=\"A00743\"><he>אוּנִין</he></cite>."
+			]
+		}
+	]
+}

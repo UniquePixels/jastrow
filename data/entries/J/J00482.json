@@ -1,0 +1,40 @@
+{
+	"id": "J00482",
+	"slug": "יעט",
+	"headword": {
+		"text": "יְעַט"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָעַט"
+		}
+	],
+	"page": {
+		"number": 584,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"J00494\"><he>יְעַץ</he></cite>) <i>to counsel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 42:24\">Targ. Y. Gen. XLII, 24</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְיָעֵט"],
+			"senses": [
+				{
+					"gloss": "<i>to take counsel, to deliberate, plan</i>. ",
+					"units": [
+						"<cite ref=\"Daniel 6:8\">Dan. VI, 8</cite>.—",
+						"<cite ref=\"Targum of I Chronicles 13:1\">Targ. I Chr. XIII, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 27:42\">Targ. Y. Gen. XXVII, 42</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

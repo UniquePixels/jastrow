@@ -1,0 +1,27 @@
+{
+	"id": "O00304",
+	"slug": "סוכיא",
+	"headword": {
+		"text": "סוֹכָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוֹכָיָיה"
+		}
+	],
+	"page": {
+		"number": 964,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00301\"><he>סוֹכוֹ</he></cite>) <i>of Sokho</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 8:6:5\">Y. Yoma VIII, 45ᵇ</cite> bot. <he>לוי ס׳</he>; <cite ref=\"Jerusalem Talmud Eruvin 10:2:3\">Y. Erub. X, 26ᵃ</cite> bot. <cite ref=\"O00304\"><he>סוכיא</he></cite> (not <he>סי׳</he>); ib. 26ᶜ bot. <cite ref=\"O00231\"><he>סובייה</he></cite> (corr. acc.); <cite ref=\"Jerusalem Talmud Pesachim 6:1:18\">Y. Pes. VI, 33ᵇ</cite> <he>ר׳ סובייה</he> (read: <he>לוי סוכ׳</he>); <cite ref=\"Jerusalem Talmud Shevuot 1:6:4\">Y. Shebu. I, 33ᵇ</cite> <he>לוי שובדא</he> (read: <he>שׂוֹכָיָא</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "O00978",
+	"slug": "סלי-2",
+	"headword": {
+		"text": "סְלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְלָא"
+		}
+	],
+	"page": {
+		"number": 994,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00977\">same</cite> [<cite ref=\"Aramaic Targum to Job 27:23\">Targ. Job XXVII, 23</cite> <he>ויסלי</he> Ms., read <he>ויַכְלֵי</he>, v. <he>כְּלֵי</he> II.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְלֵי", "אַסְלָא"],
+			"senses": [
+				{
+					"gloss": "<i>to throw away, despise, reject</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 3:11\">Targ. Prov. III, 11</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 5:12\">Ib. V, 12</cite> ed. Lag. (oth. ed. <cite ref=\"U01293\"><he>אַשְׁלֵי</he></cite>); a. fr.—V. <cite ref=\"M01958\"><he>מְסַלְיָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

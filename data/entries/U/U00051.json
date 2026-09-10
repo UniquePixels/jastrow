@@ -1,0 +1,24 @@
+{
+	"id": "U00051",
+	"slug": "שאר-5",
+	"headword": {
+		"text": "שְׁאָר"
+	},
+	"page": {
+		"number": 1509,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00047\"><he>שָׁאַר</he></cite>)<i>remainder, rest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 7:7\">Sot. VII, 7</cite> <he>ועל ש׳ התפלה</he> (Y. ed. <he>וש׳ תפילה</he>) and a special benediction for the remaining (general) prayer; Bab. ed. 40ᵇ <he>והש׳ תפלה</he> and the remainder is a general prayer; ib. 41ᵃ; Y. ib. VII, end, 22ᵃ; <cite ref=\"Yoma 70a:7\">Yoma 70ᵃ</cite> <he>וש׳ התפלה רינה וכ׳</he> and the remaining prayer is song, supplication &c. ",
+				"<cite ref=\"Mishnah Bava Metzia 3:4\">B. Mets. III, 4</cite> <he>והש׳ יהא מונח וכ׳</he> and what is left must be deposited &c., v. <cite ref=\"A01840\"><he>אֵלִיָּהוּ</he></cite>. ",
+				"<cite ref=\"Mishnah Peah 4:3\">Peah IV, 3</cite>; a. fr.—V. <cite ref=\"U00909\"><he>שְׁיָ֫יר</he></cite>."
+			]
+		}
+	]
+}

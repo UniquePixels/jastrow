@@ -1,0 +1,28 @@
+{
+	"id": "O01148",
+	"slug": "סמתורא",
+	"headword": {
+		"text": "סַמְתּוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַמְתָּרָא"
+		}
+	],
+	"page": {
+		"number": 1003,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <cite ref=\"O01049\"><he>סַם</he></cite> a. <cite ref=\"V00277\"><he>תורא</he></cite>, v. <cite ref=\"V00979\"><he>תְּרָא</he> I</cite>; cmp. P. Sm. 2653 <he>סם תרין</he>) <i>an emollient</i>, esp. <i>cosmetics</i>. <he>סַמְתַּר משחא</he>, <he>ס׳ רבותא</he> <i>cosmetic ointments</i> (v. <cite ref=\"M02850\"><he>מִשְׁחָא</he></cite> I a. <cite ref=\"T00078\"><he>רְבוּתָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:3\">Targ. Esth. II, 3</cite>; <cite ref=\"Aramaic Targum to Esther 2:9\">9</cite>.—Pl. constr. <cite ref=\"O01148\"><he>סַמְתּוֹרֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:12\">Ib. 12</cite>."
+			]
+		}
+	]
+}

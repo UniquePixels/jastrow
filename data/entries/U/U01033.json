@@ -1,0 +1,69 @@
+{
+	"id": "U01033",
+	"slug": "שיצי",
+	"headword": {
+		"text": "שֵׁיצֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁצֵי"
+		}
+	],
+	"page": {
+		"number": 1567,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <he>יצא</he>; v. Del. Proleg., p. 140) [to <i>go forth</i>, v. <cite ref=\"U01030\"><he>שֵׁיץ</he></cite>; <i>to cause to go out</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be ended</i> (cmp. <cite ref=\"K00692\"><he>כָּלָה</he></cite>); <i>to cease, to perish</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 2:23\">Targ. Ruth II, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 39:11\">Targ. Ps. XXXIX, 11</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to finish, complete, end</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:2\">Targ. O. Gen. II, 2</cite>. ",
+				"<cite ref=\"Onkelos Genesis 17:22\">Ib. XVII, 22</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to make an end of, destroy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 2:2\">Targ. Lam. II, 2</cite>; <cite ref=\"Aramaic Targum to Lamentations 2:5\">5</cite>. ",
+				"<cite ref=\"Onkelos Genesis 18:23\">Targ. Gen. XVIII, 23</cite>, sq.; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתֵּיצֵי", "אִשְׁתֵּצֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be finished</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 8:16\">Targ. II Chr. VIII, 16</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be made an end of, be consumed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 73:26\">Targ. Ps. LXXIII, 26</cite> Ms. (ed. <cite ref=\"U01033\"><he>אִשְׁתֵּיצָא</he></cite>). ",
+						"<cite ref=\"Onkelos Genesis 34:30\">Targ. Gen. XXXIV, 30</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ishtaf."
+		}
+	]
+}

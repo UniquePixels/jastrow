@@ -1,0 +1,22 @@
+{
+	"id": "M02812",
+	"slug": "משדרתא",
+	"headword": {
+		"text": "מְשַׁדַּרְתָּא"
+	},
+	"page": {
+		"number": 849,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00284\"><he>שְׁדַר</he></cite>) <i>sending</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 9:22\">Targ. Esth. IX, 22</cite> <he>מְשַׁדְּרַת</he> quot. in Levy Targ. Dict. (ed. <he>לשדרא</he>)."
+			]
+		}
+	]
+}

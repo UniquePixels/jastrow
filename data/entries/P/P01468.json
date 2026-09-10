@@ -1,0 +1,22 @@
+{
+	"id": "P01468",
+	"slug": "עשוי",
+	"headword": {
+		"text": "עִשּׂוּי"
+	},
+	"page": {
+		"number": 1124,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01466\"><he>עָשָׂה</he></cite>) <i>force, pressure</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 53a:2\">Keth. 53ᵃ</cite> <he>מעלאי דידי היינו ע׳</he> Tosaf. to ib. 50ᵃ (Rashi <he>עַשּׂוּיֵי</he>; ed. <cite ref=\"P01476\"><he>עשייה</he></cite>) my coming in with you would be equal to forcing (undue influence); v. <cite ref=\"P01475\"><he>עֲשֵׂי</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "R00558",
+	"slug": "צמד-1",
+	"headword": {
+		"text": "צָמַד"
+	},
+	"page": {
+		"number": 1286,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to press together; to join, couple</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 5:7\">Gen. R. s. 5</cite> <he>צְמָדָן בין שני בדי הארון</he> ‘Rashi’ (v. comment. Y’fath Toar a. l.) he matched them (arranged them according to ranks) between the two bars of the Ark (ed., a. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 14:1\">Yalk. Josh. 14</cite> <he>סמכן</he>; <cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <cite ref=\"U01496\"><he>שמן</he></cite>).—Part. pass. <he>צָמוּד</he>; f. <he>צְמוּדָה</he> &c. ",
+				"<cite ref=\"Bamidbar Rabbah 12:17\">Num. R. s. 12</cite> <he>אין צב אלא צְמוּדוֹת</he> <i>tsab</i> (<cite ref=\"Numbers 7:3\">Num. VII, 3</cite>) means well-joined (wagons, by ref. to <cite ref=\"Isaiah 49:22\">Is. XLIX, 22</cite> <he>בחצן</he>, v. <cite ref=\"H00428\"><he>חוּץ</he> I</cite>; v. Targ. a. l.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְמָד"],
+			"senses": [
+				{
+					"gloss": "<i>to be attached, yoked</i>. Tanḥ. Bal. 18 [read:] <he>ונִצְמְדוּ זה לזו וכ׳</he> and they were joined to one another; thus it is written (<cite ref=\"Numbers 25:3\">Num. XXV, 3</cite>), and Israel was joined &c.; ed. Bub. 28 <he>ונִצְמָדִים זה וכ׳</he>.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["צִימֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to crowd, pack</i>.—Part. pass. <he>מְצוּמָּד</he>; pl. <he>מְצוּמָּדִים</he>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:1\">Cant. R. to IV, 1</cite> (play on <he>צמתך</he>, <cite ref=\"Shir HaShirim Rabbah 4:1\">ib.</cite>) [read:] <he>נראין מצ׳ … כהדין סדרא רבה וכ׳</he> they appear to be crowded, and yet are comfortable, as at the great school-hall of Sepphoris (cmp. ",
+						"<cite ref=\"Pirkei Avot 5:5\">Ab. V, 5</cite>)."
+					]
+				}
+			],
+			"stem": "Po."
+		}
+	]
+}

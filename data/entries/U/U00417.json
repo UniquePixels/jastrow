@@ -1,0 +1,42 @@
+{
+	"id": "U00417",
+	"slug": "שול-2",
+	"headword": {
+		"text": "שׁוּל",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1534,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;cmp. <cite ref=\"U01343\"><he>שָׁלַל</he> I</cite> , a. Arab. <i>savila</i>) [<i>that which hangs on, attachment</i>,]<i>;du</i>. <he>שׁוּלַיִם</he>, pl. <he>שׁוּלִים</he>",
+			"units": []
+		},
+		{
+			"gloss": "<i>skirts</i> of a garment. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 829:1\">Yalk. Deut. 829</cite> <he>פעמונים … שׁוּלֵי המעיל</he> the bells which the high priest wore on the skirts of his cloak."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lower part of the body, abdomen, buttock;</i> contrad. to <cite ref=\"Q00143\"><he>פה</he></cite>. Ohol. XI, 7 <he>שהטומאה … שׁוּלָיו</he> for the uncleanness (which the animal swallowed before it died) is assumed to take its way by its abdomen (and not through its mouth).",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>rim at the bottom</i> of a vessel, <i>saucer attached</i> to the vessel; in gen. <i>the bottom, rest</i> of a vessel. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 30:1\">Kel. XXX, 1</cite> <he>שולי קערה וכ׳</he> the lower part of a (broken) vesssel or of a salver of glass, which one made available for use. ",
+				"<cite ref=\"Shabbat 30a:7\">Sabb. 30ᵃ</cite> <he>נהפכו פני … כשולי קדרה</he> the faces of David’s enemies turned (black) like the bottom of a pot; <cite ref=\"Jerusalem Talmud Chagigah 2:2:4\">Y. Ḥag. II, 77ᵈ</cite>, v. <cite ref=\"U00706\"><he>שָׁחַר</he> II</cite>. Ohol. IX, 13 <he>היתה עומדת על שׁוּלֶיהָ והיא כלי</he> if the vessel stands on its rest, and it is available as a vessel (not defective). Tosef. ib. X, 3 <he>היו שׁוּלָיו חדין וכ׳</he> if its rim at the bottom is sharp (not rounded), and there is not a handbreadth between its rim and the ground. Ib. 2 <he>עמוד … שוליה של זו על פיה וכ׳</he> a column of pots …, the bottom of one on the mouth of the other &c. ",
+				"<cite ref=\"Mishnah Demai 7:2\">Dem. VII, 2</cite> <he>מה … בשולי הכוס</he> what I intend to leave (of the wine) at the bottom of the cup; a. v. fr."
+			],
+			"label": "3"
+		}
+	]
+}

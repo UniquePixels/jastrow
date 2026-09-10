@@ -1,0 +1,25 @@
+{
+	"id": "A03265",
+	"slug": "אשה-1",
+	"headword": {
+		"text": "אִשָּׁה"
+	},
+	"page": {
+		"number": 126,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"A01615\"><he>איש</he></cite>, , const. <cite ref=\"A03364\"><he>אֵשֶׁת</he></cite>, <i>woman, wife</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 8:1\">Pes. VIII, 1</cite>. ",
+				"<cite ref=\"Avodah Zarah 25b:3\">Ab. Zar. 25ᵇ</cite> <he>א׳ כלי זיינה עליה</he> woman carries her weapon with her, is protected against murder by gentiles (who would rather assault her innocence). ",
+				"<cite ref=\"Avodah Zarah 25b:4\">Ib.</cite> <he>א׳ חשובה</he> a woman of high rank (influential). ",
+				"<cite ref=\"Avodah Zarah 25b:2\">Ib.</cite> <he>אִשְתּוֹ משמרתו</he> his wife’s presence guards him from wrong-doing; a. fr.—Pl. (<he>נָשׁוֹת</he>) <he>נָשִׁים</he> q. v."
+			]
+		}
+	]
+}

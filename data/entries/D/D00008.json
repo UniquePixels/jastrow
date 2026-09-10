@@ -1,0 +1,20 @@
+{
+	"id": "D00008",
+	"slug": "דאבן",
+	"headword": {
+		"text": "דַּאֲבַן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 275,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"D00007\">preced.</cite>) <i>to make languid</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 18:8\">Targ. Prov. XVIII, 8</cite> <he>מְדַאַבְנָן</he> ed. Lag. (oth. ed. <he>מרכנן</he>, h. text <he>כמתלהמים</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "T00892",
+	"slug": "רעי-4",
+	"headword": {
+		"text": "רְעִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רֵיעִי",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1486,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00881\"><he>רָעָה</he></cite>)<i>a grazing animal</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite> (expl. <cite ref=\"T00889\"><he>רעי</he></cite>, <cite ref=\"I Kings 5:3\">I Kings V, 3</cite>) <he>מן המרעה</he> from the pasture ground; <cite ref=\"Yalkut Shimoni on Nach 176:2\">Yalk. Kings 176</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 20:4\">Sabb. XX, 4</cite> <he>גורפין מלפני הפטם … מפני הר׳</he> (Y. ed. <he>הריעי</he>) you may (on the Sabbath) sweep the crib before the stall-ox, and move (the remnants) aside for the sake of the grazing animal (which is ordinarily fed on the pasture); Y. ib. 17ᶜ bot. <he>מפני</he> (<cite ref=\"U00489\"><he>ש</he></cite>)<he>מה שהפטם מותיר הר׳ אוכל</he> because the grazing animal eats what the stall-ox leaves over.—[Comment. erroneously: <he>מפני הר׳</he> on account of <i>soiled matter</i>, v. next w.]"
+			]
+		}
+	]
+}

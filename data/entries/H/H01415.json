@@ -1,0 +1,40 @@
+{
+	"id": "H01415",
+	"slug": "חסרון",
+	"headword": {
+		"text": "חֶסְרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִסָּרוֹן"
+		},
+		{
+			"text": "חִי׳"
+		}
+	],
+	"page": {
+		"number": 490,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01414\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>want, loss</i>.—<he>ח׳ כיס</he> loss of money. ",
+			"units": [
+				"<cite ref=\"Shabbat 157a:4\">Sabb. 157ᵃ</cite>, a. fr., v. <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>. ",
+				"<cite ref=\"Kiddushin 32b:10\">Kidd. 32ᵇ</cite> <he>שאין בה ח׳ כיס</he> with which no material loss is connected. ",
+				"<cite ref=\"Vayikra Rabbah 5:4\">Lev. R. s. 5</cite> <he>המקום ימלא חֶסְרוֹנְךָ</he> the Lord replace thy deficiency; <cite ref=\"Berakhot 16b\">Ber. 16ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Ta'anit 1:2\">Tosef. Taan. I, 2</cite> <he>נותנין לה חִיסְּרוֹנָהּ</he> the year’s deficiency (of rain) will be supplied to him (who prays); Y. ib. I, 64ᵇ <he>חסרונה</he>. Ib.ᵈ top (ref. to <cite ref=\"Job 30:3\">Job XXX, 3</cite>) <he>אם ראית ח׳ בא וכ׳</he> when thou seest scarcity &c.; (<cite ref=\"Bereishit Rabbah 31:12\">Gen. R. s. 31</cite>; s. 34 <cite ref=\"H00416\"><he>חוֹסֶר</he></cite>), v. <cite ref=\"C00969\"><he>גַּלְמוּד</he></cite>. ",
+				"<cite ref=\"Chullin 47b:13\">Ḥull. 47ᵇ</cite>, a. fr. <he>נקב שיש בו ח׳</he> a perforation connected with a loss of substance. ",
+				"<cite ref=\"Chullin 47b:13\">Ib.</cite>; <cite ref=\"Bekhorot 39a:23\">Bekh. 39ᵃ</cite>, a. e. <he>ח׳ מבפנים … ח׳</he> a deficiency of substance inside of an organ is not considered a defect (in ritual law); a. fr."
+			],
+			"label": "1"
+		}
+	]
+}

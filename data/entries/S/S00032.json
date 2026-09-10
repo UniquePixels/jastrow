@@ -1,0 +1,22 @@
+{
+	"id": "S00032",
+	"slug": "קבוט",
+	"headword": {
+		"text": "קָבוּט"
+	},
+	"page": {
+		"number": 1307,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קבט</he>; cmp. <he>קבץ</he>, v. <cite ref=\"H00042\"><he>חבט</he></cite> a. denomin., esp. <cite ref=\"H00244\"><he>חוּבְטָא</he></cite>) <i>a vessel containing pressed or pickled substances, pressing pot</i>.—Pl. <he>קְבוּטִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 10:2:4\">Y. Ter. X, 47ᵃ</cite> bot. <he>ק׳ של מורייס</he> pots of pickle (v. <cite ref=\"M00650\"><he>מוּרְיָיס</he></cite>).—V. <cite ref=\"S00045\"><he>קָבוּת</he></cite>; <cite ref=\"S00222\"><he>קוּבְטָאוֹת</he></cite>."
+			]
+		}
+	]
+}

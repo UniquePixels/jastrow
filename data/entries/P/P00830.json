@@ -1,0 +1,32 @@
+{
+	"id": "P00830",
+	"slug": "עלע-2",
+	"headword": {
+		"text": "עֲלַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִלְעָא"
+		},
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1085,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00533\"><he>צֵלַע</he></cite>, <i>side, rib</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:22\">Targ. O. Gen. II, 22</cite> (Y. ed. Vien. <cite ref=\"P00569\"><he>עִילָאָה</he></cite>; ib. 21 <cite ref=\"P00764\"><he>עִלָּאָה</he></cite>).—Trnsf. <i>beam, board</i>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 44:19\">Targ. Y. II, Gen. XLIV, 19</cite> <he>ע׳ מן בית אבא</he> a board of my father’s house (a member of the family &c.).—Pl. <he>עִלְעִין</he>, <cite ref=\"P00835\"><he>עִילְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 3:21\">Targ. Gen. III, 21</cite>."
+			]
+		}
+	]
+}

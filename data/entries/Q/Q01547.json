@@ -1,0 +1,32 @@
+{
+	"id": "Q01547",
+	"slug": "פרג-2",
+	"headword": {
+		"text": "פְּרַג",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1213,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (v. <cite ref=\"Q01546\">preced.</cite>) <i>to bloom, be glad</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפָּרָג"],
+			"senses": [
+				{
+					"gloss": "<i>to delight one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 119:16\">Targ. Ps. CXIX, 16</cite> Ar. (ed. <cite ref=\"Q01906\"><he>אתפרנק</he></cite>; h. text <he>אשתעשע</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

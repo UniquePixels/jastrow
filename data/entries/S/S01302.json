@@ -1,0 +1,57 @@
+{
+	"id": "S01302",
+	"slug": "קלח-1",
+	"headword": {
+		"text": "קָלַח"
+	},
+	"page": {
+		"number": 1374,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"S01304\"><he>קֶלַח</he></cite>) <i>to rise in a column</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 61a:10\">B. Kam. 61ᵃ</cite> <he>בקוֹלַחַת</he>, v. <cite ref=\"S00125\"><he>קָדַח</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִילֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to bring forth an uninterrupted jet, cause an uninterrupted flow; to splash</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 12a:9\">Ab. Zar. 12ᵃ</cite> <he>פרצופות המְקַלְּחִין</he>, v. <cite ref=\"Q01976\"><he>פַּרְצוֹף</he></cite>. Tosef. Erub. IX (VI), 23 <he>המְקַלֵּחַ</he>, v. <cite ref=\"R00613\"><he>צִנּוֹר</he></cite>. ",
+						"<cite ref=\"Keritot 22a:31\">Ker. 22ᵃ</cite> <he>כל זמן שמקלח</he> as long as the blood gushes forth, v. <cite ref=\"V00702\"><he>תַּמְצִית</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause gushing forth by interposing an object, to dam in and cause an overflow</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eduyot 7:4\">Eduy. VII, 4</cite>; <cite ref=\"Zevachim 25b:12\">Zeb. 25ᵇ</cite> <he>זוחלין שקִילְּחָן וכ׳</he> dripping liquids caused to overflow in a continuous current by a dam of burs of nuts."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (of locusts) <i>to come in dense columns</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 12:5\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:5\">XIII</cite>), 5; Y. ib. XIV, beg. 14ᵇ; Bab. ",
+						"<cite ref=\"Shabbat 106b:9\">ib. 106ᵇ</cite> <he>אם היו מְקַלְּחוֹת ובאות</he> if they come on in dense columns."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to collect</i> (coins in a tube). ",
+					"units": [
+						"<cite ref=\"Tosefta Shekalim 3:2\">Tosef. Shek. III, 2</cite>; <cite ref=\"Tosefta Shekalim 3:4\">4</cite>, sq. <he>כהנים מקלחין אזתן</he> (Var. <he>מקבלין</he>) the priests collect these moneys (put them in a horn, v. <cite ref=\"U00509\"><he>שׁוֹפָר</he></cite>)."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "R00698",
+	"slug": "צפירא",
+	"headword": {
+		"text": "צְפִירָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צְפִירָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1297,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00697\">preced.</cite>) <i>she-goat; goat’s hair, shag</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 2:11\">Tosef. Kel. B. Bath. II, 11</cite> <he>של צפירא</he> (sandals) of goat’s hair. ",
+				"<cite ref=\"Tosefta Keilim Batra 5:12\">Ib. V, 12</cite> <he>של צפורה</he> (R. S. to <cite ref=\"Mishnah Kelim 28:9\">Kel. XXVIII, 9</cite> <cite ref=\"R00698\"><he>צפירה</he></cite>) (a strainer) of goat’s hair. Ib. IV, 14 <he>של צפור</he> ed. Zuck. (corr. acc.) mats of goat’s hair; <cite ref=\"Sukkah 20b:4\">Succ. 20ᵇ</cite> <he>של סְפִירָא</he> of (loosely woven) shag (v. Rashi in Rabb. D. S. a. l. note 200); [Rashi, fr. <he>ספר</he> <i>to shear: horse-hair</i> from the mane or the tail]."
+			]
+		}
+	]
+}

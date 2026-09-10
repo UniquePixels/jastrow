@@ -1,0 +1,36 @@
+{
+	"id": "V00704",
+	"slug": "תמר-2",
+	"headword": {
+		"text": "תָּמָר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1678,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. f. <i>Tamar</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " Judah’s daughter-in-law. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 4:10\">Meg. IV, 10</cite> (<cite ref=\"Megillah 25a:16\">25ᵃ</cite>) <he>מעשה ת׳ נקרא ומיתרגם</he> the story of Tamar (<cite ref=\"Genesis 38:24\">Gen. XXXVIII</cite>) is read (in the synagogue) and translated. ",
+				"<cite ref=\"Bereishit Rabbah 92:9\">Gen. R. s. 92</cite> (ref. to <cite ref=\"Genesis 44:16\">Gen. XLIV, 16</cite>) <he>מה נאמר לאדני במעשה ת׳ וכ׳</he> what have we to say to my lord (for our justification) about the story of Tamar, what to speak about the story of Bilhah (<cite ref=\"Genesis 35:22\">Gen. XXXV, 22</cite>) ? <cite ref=\"Bereishit Rabbah 85:10\">Gen. R. s. 85</cite>; a. fr.—2) <i>Absalom’s sister</i>. ",
+				"<cite ref=\"Megillah 25b:3\">Meg. 25ᵇ</cite> <he>מעשה אמנון ות׳ וכ׳</he> the story of Amnon and Tamar (<cite ref=\"II Samuel 13:32\">II Sam. XIII</cite>) may be read and translated. ",
+				"<cite ref=\"Pirkei Avot 5:16\">Ab. V, 16</cite> <he>אהבת אמנון ות׳</he> Amnon’s love of T. ",
+				"<cite ref=\"Sanhedrin 21a:24\">Snh. 21ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a woman that informed against the Rabbis before Roman authorities. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 3:2:6\">Y. Meg. III, 74ᵃ</cite> bot., v. <cite ref=\"V00710\"><he>תַּמְרוּרִים</he></cite>"
+			],
+			"label": "3"
+		}
+	]
+}

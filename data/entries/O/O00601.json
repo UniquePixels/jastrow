@@ -1,0 +1,22 @@
+{
+	"id": "O00601",
+	"slug": "סיחוי",
+	"headword": {
+		"text": "סַיחוּי"
+	},
+	"page": {
+		"number": 977,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00442\"><he>סחה</he></cite>, v. <cite ref=\"O00454\"><he>סְחֵי</he></cite>) <i>swimming</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 77b:15\">Yoma 77ᵇ</cite> <he>יכול יעבירנו בס׳</he> you might think one could cross the river by swimming; Yalk. Ez. 381 <he>בשוחי</he> (read: <he>בשֵׂחוּי</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "P00183",
+	"slug": "עוברא-1",
+	"headword": {
+		"text": "עוּבְרָא"
+	},
+	"page": {
+		"number": 1047,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"P00182\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 7:3\">Targ. Cant. VII, 3</cite>.—Pl. <he>עוּבְרַיָּא</he>, <he>עוּבָ׳</he>, <cite ref=\"P00285\"><he>עוֹ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 68:27\">Targ. Ps. LXVIII, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 30:21\">Targ. Y. Gen. XXX, 21</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"P00496\"><he>עִיבְרָא</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

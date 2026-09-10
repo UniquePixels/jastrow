@@ -1,0 +1,27 @@
+{
+	"id": "D00046",
+	"slug": "דבה",
+	"headword": {
+		"text": "דִּבָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיבָּה"
+		}
+	],
+	"page": {
+		"number": 276,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>רבב</he>)<i>evil report, calumny</i>.—Trnsf. <i>an ill-reputed woman</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 87b:1\">Pes. 87ᵇ</cite> (play on <i>Diblayim</i>, <cite ref=\"Hosea 1:3\">Hos. I, 3</cite>) <he>ד׳ רעה בת ד׳ וכ׳</he> an ill-reputed woman daughter of &c.; cmp. <cite ref=\"D00277\"><he>דּוּמָה</he> I</cite>."
+			]
+		}
+	]
+}

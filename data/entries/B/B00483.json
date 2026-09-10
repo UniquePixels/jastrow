@@ -1,0 +1,46 @@
+{
+	"id": "B00483",
+	"slug": "בחר-1",
+	"headword": {
+		"text": "בָּחַר"
+	},
+	"page": {
+		"number": 155,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בח</he> , v. <cite ref=\"B00482\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to try, examine;</i> v. infra.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to choose, select, prefer</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 11\">Mishp. 11</cite> <he>בָּחַרְתָּ ביסורים יותר וכ׳</he> thou didst prefer sufferings to poverty. Mass. Sof’rim XIII, 9; a. e.—Part. <i>Hof.</i> <he>מוּבְחָר</he> <i>chosen</i>. <he>מן המ׳</he> <i>of the best, the best way</i>. ",
+				"<cite ref=\"Mishnah Bikkurim 1:3\">Bicc. I, 3</cite>; a. fr.—<he>מצוה מן המ׳</he> the most preferable way of performing a religious act. ",
+				"<cite ref=\"Bava Kamma 78b\">B. Kam. 78ᵇ</cite>; a. fr.—מ׳ מן המ׳ <i>the very best</i>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:11\">Y. Pes. VI, 33ᵇ</cite> top <he>מ׳ דוחה וכ׳</he> for doing a thing (in the Temple) in the preferable way, you may set aside (the Sabbath law); for doing it in the best way, you dare not &c.; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיחֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to examine</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> (ref. to <cite ref=\"B00484\"><he>אבחר</he></cite> <cite ref=\"Job 29:25\">Job XXIX, 25</cite>) <he>הייתי שואלו וּמְבַחֲרוֹ</he> I was in the habit of investigating and examining it; [ed. Fr. emends <he>ומְבַהֲרוֹ</he>, v. <cite ref=\"B00190\"><he>בָּהַר</he></cite>]."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

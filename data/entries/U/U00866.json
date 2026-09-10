@@ -1,0 +1,24 @@
+{
+	"id": "U00866",
+	"slug": "שיחורין",
+	"headword": {
+		"text": "שִׁיחוֹרִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1559,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. a species of <i>pea</i>, (<i>vetch?</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:8:4\">Y. M. Kat. I, 80ᵈ</cite> bot., v. <cite ref=\"D00251\"><he>דּוֹכְנָה</he></cite>."
+			]
+		}
+	]
+}

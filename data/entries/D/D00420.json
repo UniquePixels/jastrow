@@ -1,0 +1,39 @@
+{
+	"id": "D00420",
+	"slug": "דחיק-2",
+	"headword": {
+		"text": "דָּחִיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּחִיקָא"
+		}
+	],
+	"page": {
+		"number": 292,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"D00435\"><he>דחק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>narrow, pressed</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 22:26\">Targ. Y. Num. XXII, 26</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 8:64\">Targ. I Kings VIII, 64</cite> (not <cite ref=\"T00000\"><he>ר</he></cite>); a. e.—",
+				"<cite ref=\"Taanit 21a:2\">Taan. 21ᵃ</cite> <he>ד׳ להו מילתא טובא</he> they were hard pressed (in great distress); <cite ref=\"Bava Metzia 114b:3\">B. Mets. 114ᵇ</cite>.—Pl. <he>דְּחִיקִין</he>, f. <cite ref=\"D00420\"><he>דְּחִיקַן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 42:5\">Targ. Ez. XLII, 5</cite> sq."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>forced</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 43a:14\">B. Kam. 43ᵃ</cite>, a. e. <he>שינוייא ד׳</he> a forced answer (argument)."
+			],
+			"label": "2"
+		}
+	]
+}

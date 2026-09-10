@@ -1,0 +1,28 @@
+{
+	"id": "A00959",
+	"slug": "אזדקפותא",
+	"headword": {
+		"text": "אִזְדְּקָפוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִזְדַּקָּפוּתָא"
+		}
+	],
+	"page": {
+		"number": 37,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<i>Ithpe.</i> or <i>Ithpa.</i> of <cite ref=\"G00650\"><he>זְקַף</he></cite>) <i>rising</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 13:11\">Targ. Job. XIII, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 41:17\">Ib. XLI, 17</cite> Ms. Var., v. <he>מספיא</he>."
+			]
+		}
+	]
+}

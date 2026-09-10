@@ -1,0 +1,23 @@
+{
+	"id": "S01504",
+	"slug": "קן-1",
+	"headword": {
+		"text": "קַן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1387,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S00412\"><he>קוּן</he></cite>) <i>preparation, arrangement</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 6a:3\">Gitt. 6ᵃ</cite> top <he>קן קולמוסא וקן מגילתא</he> (<cite ref=\"U01512\"><he>שמע</he></cite>) <cite ref=\"A02675\"><he>אפי׳</he></cite> even if the husband ordering a letter of divorce to be written heard only the sound produced by the cutting of the pen and the unfolding of the parchment; [Rashi: <he>קן</he> onomatopoetic: <i>crackling, crepitation</i>; Var. <cite ref=\"S01229\"><he>קַל</he></cite> <i>sound</i>]."
+			]
+		}
+	]
+}

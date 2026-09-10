@@ -1,0 +1,31 @@
+{
+	"id": "Q00731",
+	"slug": "פינך",
+	"headword": {
+		"text": "פִּינָךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּינְכָא"
+		}
+	],
+	"page": {
+		"number": 1165,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πίναξ) <i>dish, plate</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 11:5:6\">Y. Snh. XI, 30ᶜ</cite> top <he>פ׳ דסולת</he> a dish of fine flour. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:4:4\">Y. Sabb. III, 6ᵇ</cite> top. ",
+				"<cite ref=\"Chullin 111b:6\">Ḥull. 111ᵇ</cite> (Ar. ed. pr. <cite ref=\"Q00734\"><he>פִּינְקָא</he></cite>). ",
+				"<cite ref=\"Taanit 24b:10\">Taan. 24ᵇ</cite> (Ar. <cite ref=\"Q00734\"><he>פינקא</he></cite>); a. e.—Pl. <he>פִּינָכֵי</he>. ",
+				"<cite ref=\"Pesachim 49a:20\">Pes. 49ᵃ</cite> <he>מלחיך פ׳</he> (Ar. Var. <he>פִּינָקֵי</he>), v. <cite ref=\"L00355\"><he>לְחַךְ</he></cite>."
+			]
+		}
+	]
+}

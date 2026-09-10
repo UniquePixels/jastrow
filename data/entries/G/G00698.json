@@ -1,0 +1,27 @@
+{
+	"id": "G00698",
+	"slug": "זרי-3",
+	"headword": {
+		"text": "זרי",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "זָרָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 413,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"G00233\"><he>זוּר</he></cite>) <i>to deviate, to do wrong</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 58:1\">Midr. Till. to Ps. LVIII, 4</cite> (ref. to <he>זֹרוּ</he> <cite ref=\"Midrash Tehillim 58:1\">ib.</cite>) <he>מרחם זְרִיתֶם</he> while in the womb you were wrong-doers; <cite ref=\"Yalkut Shimoni on Nach 776\">Yalk. Ps. 776</cite>. ",
+				"<cite ref=\"Midrash Tehillim 90:8\">Midr. Till. to Ps. XC, 5</cite>, v. <cite ref=\"G00232\"><he>זוּר</he> I</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "Q01058",
+	"slug": "פלייא",
+	"headword": {
+		"text": "פַּלִּיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּלִּיָיאָה"
+		}
+	],
+	"page": {
+		"number": 1182,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (παλαιά) <i>old</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 33\">Lev. R. s. 33</cite> (not <he>פיל׳</he>; Ar. <he>פליאה</he>), v. <cite ref=\"B00855\"><he>בְּלֵי</he> I</cite>; Yalk. Dan. 1061 <he>פליא</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4\">Cant. R. to III, 4</cite> <cite ref=\"Q00667\"><he>פילאי</he></cite> (corr. acc.), v. <cite ref=\"B00036\"><he>באמי</he></cite>."
+			]
+		}
+	]
+}

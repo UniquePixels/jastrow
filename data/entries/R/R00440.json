@@ -1,0 +1,38 @@
+{
+	"id": "R00440",
+	"slug": "ציצית-1",
+	"headword": {
+		"text": "צִיצִית"
+	},
+	"page": {
+		"number": 1280,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"R00440\"><he>צִיצִת</he></cite>; <cite ref=\"R00224\"><he>צוּץ</he></cite> , v. <cite ref=\"R00229\"><he>צוּצִיתָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hair-lock</i>. Sifra Aḥăré, Par. 9, ch. XIII (ref. to <cite ref=\"Leviticus 18:3\">Lev. XVIII, 3</cite>) <he>שלא תגדל צ׳</he> that thou must not grow a lock (v. <cite ref=\"B00843\"><he>בְּלוּרִית</he></cite>). ",
+			"units": [
+				"<cite ref=\"Zevachim 26a\">Zeb. 26ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 446:1\">Yalk. Lev. 446</cite> <he>הוא בפנים וצִיצִיתוֹ וכ׳</he> if the sacrifice stands (within the sacred precincts), and its locks (prob. the tuft of its tail) are without."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fringe</i>, esp. <i>the show-fringes</i> (<cite ref=\"Numbers 15:38\">Num. XV, 38</cite>). ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 115:1\">Sifré Num. 115</cite> <he>אין צ׳ אלא דבר היוצא ודבר כל שהוא</he> by <i>tsitsith</i> is meant something that protrudes (hangs over) and is of a minute size; <cite ref=\"Menachot 41b:16\">Men. 41ᵇ</cite>. Sifré l. c. <he>וצ׳ מן הגדילים</he>, v. <cite ref=\"C00208\"><he>גְּדִילָה</he> II</cite>. ",
+				"<cite ref=\"Menachot 39b:8\">Men. 39ᵇ</cite> <he>פטורין מן הצ׳</he> require no show-fringes; <he>חייבין בצ׳</he> require show-fringes; a. fr.—",
+				"<cite ref=\"Mishnah Moed Katan 3:4\">M. Kat. III, 4</cite> (<cite ref=\"Moed Katan 19a\">19ᵃ</cite>), a. e., v. <cite ref=\"R00435\"><he>צִיצָה</he></cite>.—Pl. <he>צִיצִיּוֹת</he>. ",
+				"<cite ref=\"Menachot 44a:6\">Men. 44ᵃ</cite> <he>באו ארבע צִיצִיּוֹתָיו וכ׳</he> the four fringes of his garment came into sight and slapped him in the face (reproached him for his sensuality, reminding him of <cite ref=\"Numbers 15:39\">Num. XV, 39</cite>). Sifré l. c.; <cite ref=\"Mishnah Menachot 3:7\">Men. III, 7</cite> <he>ארבע צ׳ מעכבות וכ׳</he> the four fringes are dependent on one another, v. <cite ref=\"P00712\"><he>עָכַב</he></cite>. ",
+				"<cite ref=\"Menachot 43a:3-9\">Ib. 43ᵃ</cite> <he>אין … עד שיתיר צִיצִיּוֹתֶיהָ</he> you must not sell a fringed cloak to a gentile without removing its show-fringes; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

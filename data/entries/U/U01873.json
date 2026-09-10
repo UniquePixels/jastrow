@@ -1,0 +1,30 @@
+{
+	"id": "U01873",
+	"slug": "שקמא",
+	"headword": {
+		"text": "שִׁקְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1623,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = next w.—Pl. <he>שִׁקְמִין</he>, <he>שִׁקְמַיָּא</he>, <he>שִׁקְמָתָא</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 7:14\">Targ. Am. VII, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 10:27\">Targ. I Kings X, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:47\">Targ. Ps. LXXVIII, 47</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Demai 1:1:15\">Y. Dem. I, 21ᵈ</cite> top, v. <cite ref=\"U01875\"><he>שִׁקְמוֹנָה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "U01486",
+	"slug": "שמיתא",
+	"headword": {
+		"text": "שַׁמִּיתָא"
+	},
+	"page": {
+		"number": 1596,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01552\"><he>שְׁמַת</he></cite>) <i>excommunicated, accursed.—</i>Pl. <he>שַׁמִּיתִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 7:26\">Targ. Y. Deut. VII, 26</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 7:26\">Ib.</cite> <cite ref=\"U01555\"><he>שַׁמְתִּין</he></cite>, v. <cite ref=\"U01553\"><he>שַׁמְתָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A01654",
+	"slug": "איתמל",
+	"headword": {
+		"text": "אִיתְּמָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיתְּמָלֵי"
+		},
+		{
+			"text": "אִתְּמוֹל"
+		}
+	],
+	"page": {
+		"number": 61,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"A03424\"><he>אֶתְמוֹל</he></cite> <i>yesterday</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 4:10\">Targ. Ex. IV, 10</cite>; a. e.—",
+				"<cite ref=\"Eruvin 15a\">Erub. 15ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "S02104",
+	"slug": "קרנא",
+	"headword": {
+		"text": "קַרְנָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1423,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḳarna</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 108a:8\">Sabb. 108ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 89a:10\">B. Bath. 89ᵃ</cite>"
+			]
+		}
+	]
+}

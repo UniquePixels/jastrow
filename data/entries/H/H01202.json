@@ -1,0 +1,69 @@
+{
+	"id": "H01202",
+	"slug": "חמם-3",
+	"headword": {
+		"text": "חֲמַם"
+	},
+	"page": {
+		"number": 478,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01201\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:1\">Targ. O. Gen. XVIII, 1</cite>; a. e.; v. <cite ref=\"H00369\"><he>חוּם</he></cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַמֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to warm, heat</i>.—<i>Part. pass.</i> <cite ref=\"M00902\"><he>מְחַמַּם</he></cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 7:7\">Targ. Hos. VII, 7</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחֵים"],
+			"senses": [
+				{
+					"gloss": "<i>to heat, excite</i>, v. <cite ref=\"H00369\"><he>חוּם</he></cite>.—2) <cite ref=\"A01039\"><he>אַחְמַם</he></cite> <i>to become hot; to have pollution</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 43a:22\">Nidd. 43ᵃ</cite> <he>כל אחְמוּמֵי והדר א׳ וכ׳</he> getting heated once and again immediately after."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְחַמֵּם"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיחֲמַם"],
+			"senses": [
+				{
+					"gloss": "<i>to warm one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 18:1\">Targ. Y. II, Gen. XVIII, 1</cite>.—",
+						"<cite ref=\"Shabbat 110b:5\">Sabb. 110ᵇ</cite> <he>כד איח׳</he> ed. (Ms. M. <cite ref=\"H01761\"><he>אַחְ׳</he></cite>, v. supra) when he had warmed himself.—* "
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to restrain one’s anger</i>. Targ. II Esth. V, 10 [prob. to be read: <he>ואִתְחַמַּס</he>, v. <cite ref=\"H01206\"><he>חֲמַס</he></cite>; cmp. <cite ref=\"H01401\"><he>חֲסַן</he></cite>].",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

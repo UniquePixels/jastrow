@@ -1,0 +1,28 @@
+{
+	"id": "D00454",
+	"slug": "דיאיקיטא",
+	"headword": {
+		"text": "דִּיאִיקִיטָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיאִיקִיטֵיס"
+		}
+	],
+	"page": {
+		"number": 294,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (διοικήτης, dioecetes) <i>overseer of the treasury, treasurer</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> (prov.) unfortunate the district where the physician has the gout, <he>ודאיקוטטא בחד עינא</he> ed. (Mus. <he>ודייקטסא</he>, corr. acc.) and the treasurer only one eye (is unable to examine the coins)."
+			]
+		}
+	]
+}

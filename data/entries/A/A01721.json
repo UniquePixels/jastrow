@@ -1,0 +1,22 @@
+{
+	"id": "A01721",
+	"slug": "אכסוריה",
+	"headword": {
+		"text": "אֶכְסוֹרִיָּה"
+	},
+	"page": {
+		"number": 64,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἐξορία) <i>exile, banishment</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite> <he>אכסי׳</he> (Ar. <cite ref=\"K00910\"><he>כסוריא</he></cite>) (corr. acc.)."
+			]
+		}
+	]
+}

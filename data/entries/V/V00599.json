@@ -1,0 +1,27 @@
+{
+	"id": "V00599",
+	"slug": "תלמא-1",
+	"headword": {
+		"text": "תְּלָמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּלְמָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1672,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00598\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:10\">Targ. Job XXXI, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 126:6\">Targ. Ps. CXXVI, 6</cite> <he>ורעי חזיז מן ת׳</he> ed. Lag. (missing in ed. Wil.) eating the young green of the balk.—Pl. <he>תְּלָמַיָּיא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:38\">Targ. Job XXXI, 38</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "V00282",
+	"slug": "תורבלא",
+	"headword": {
+		"text": "תּוֹרְבָּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹרְבְּלָא"
+		}
+	],
+	"page": {
+		"number": 1656,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00032\"><he>בָּאלָא</he></cite>; = <he>תור ברא</he>, v. <cite ref=\"V00274\"><he>תּוֹר</he> III</cite>) <i>aurochs</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 14:5\">Targ. O. Deut. XIV, 5</cite> (ed. Berl. <cite ref=\"V00314\"><he>תּוּ׳</he></cite>; ed. Vien. <cite ref=\"V00282\"><he>תּוֹר־בָּלָא</he></cite>; h. text <he>תאו</he>; Y. <he>תורי בר</he>).—",
+				"<cite ref=\"Chullin 80a:19\">Ḥull. 80ᵃ</cite> (ref. to <he>תאו</he>, Deut. l. c.) <he>מדמתרגמינן ת׳ וכ׳</he> (Rashi <cite ref=\"V00278\"><he>תּוֹרְבָּאלָא</he></cite>) since we translate it <i>torbala</i> (ox of the desert; Rashi: ‘ox of the Lebanon’?), it proves that it belongs to the class of cattle."
+			]
+		}
+	]
+}

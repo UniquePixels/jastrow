@@ -1,0 +1,23 @@
+{
+	"id": "E00639",
+	"slug": "המר",
+	"headword": {
+		"text": "הֲמַר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 356,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. constr. (<cite ref=\"M00603\"><he>מור</he></cite>) <i>substitute</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 112a\">Ḥull. 112ᵃ</cite> Ar., ed. <he>חמר</he>, v. <cite ref=\"H01222\"><he>חַמְרָא</he> I</cite>."
+			]
+		}
+	]
+}

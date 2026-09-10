@@ -1,0 +1,29 @@
+{
+	"id": "B00921",
+	"slug": "בלשת",
+	"headword": {
+		"text": "בַּלֶּשֶׁת"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹלֶשֶׁת"
+		}
+	],
+	"page": {
+		"number": 175,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בלש</he>) <i>reconnoitring troop, quartermaster’s division, marauders</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 21a:12\">Bets. 21ᵃ</cite>; <cite ref=\"Tosefta Beitsah 2:6\">Tosef. ib. II, 6</cite>. ",
+				"<cite ref=\"Mishnah Avodah Zarah 5:6\">Ab. Zar. V, 6</cite> (Y. ed. <cite ref=\"B01083\"><he>בו׳</he></cite>). Y. ib. 45ᵃ top <he>בשלום בו׳ ובמלחמת בו׳</he> the Mishnah means when the troop comes in peace, or when it comes with hostility. ",
+				"<cite ref=\"Shabbat 145b:14\">Sabb. 145ᵇ</cite> ed. <cite ref=\"B01083\"><he>בו׳</he></cite>, Ar. <he>בל׳</he>."
+			]
+		}
+	]
+}

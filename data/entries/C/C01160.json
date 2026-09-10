@@ -1,0 +1,23 @@
+{
+	"id": "C01160",
+	"slug": "גס-2",
+	"headword": {
+		"text": "גַּס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 260,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C01161\">next w.</cite>) <i>the thick part of the web, border, hem</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 12:1\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:1\">XIII</cite>), 1 <he>ע״ג הגס</he> (Var. <he>הנס</he>; Y. ib. XIII, beg. 14ᵃ <he>הגב</he>, corr. acc.), v. <cite ref=\"C00031\"><he>גַּב</he></cite>; Bab. ib. 105ᵃ <he>על הגס</he> (some ed. <he>הנס</he>)."
+			]
+		}
+	]
+}

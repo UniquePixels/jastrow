@@ -1,0 +1,25 @@
+{
+	"id": "A01980",
+	"slug": "אמגושא",
+	"headword": {
+		"text": "אַמְגּוֹשָׁא"
+	},
+	"page": {
+		"number": 75,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(h. <cite ref=\"M00145\"><he>מָגוֹשׁ</he></cite>)<i>magus, magian</i>, a Persian priest and interpreter of dreams; <i>magician, sorcerer</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 7:15\">Targ. Y. I Ex. VII, 15</cite>; <cite ref=\"Targum Jonathan on Exodus 8:16\">VIII, 16</cite>.—B. Beth. 58ᵃ. ",
+				"<cite ref=\"Yoma 35a:1\">Yoma 35ᵃ</cite> (<cite ref=\"Chullin 62b:8\">Ḥull. 62ᵇ</cite>) <he>פרוה א׳</he> Parvah is the name of a Persian magus after whom the cell in the Temple was named.—",
+				"<cite ref=\"Shabbat 75a:3\">Sabb. 75ᵃ</cite> <he>א׳ רב ושמואל</he> Var. (read <cite ref=\"A01982\"><he>אַמְגּוּשְׁתָּא</he></cite>).—Pl. <cite ref=\"A01981\"><he>אַמְגּוֹשֵׁי</he></cite>. ",
+				"<cite ref=\"Sanhedrin 98a:9\">Snh. 98ᵃ</cite> <he>אי בטלי יהירי בטלי א׳</he> when (in Israel) the haughty shall cease to exist, the magians (among the Persians) shall cease."
+			]
+		}
+	]
+}

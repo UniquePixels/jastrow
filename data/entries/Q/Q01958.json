@@ -1,0 +1,23 @@
+{
+	"id": "Q01958",
+	"slug": "פרפיסא",
+	"headword": {
+		"text": "פַּרְפִּיסָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1236,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. a contraction of <he>פרח פִּיסָא</he>) <i>lump of earth in a bag of palm-leaves</i>, a kind of <i>flower-pot</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 81b:3\">Sabb. 81ᵇ</cite> (Rashi <cite ref=\"Q00384\"><he>פּוּרְפִּיסָא</he></cite>)."
+			]
+		}
+	]
+}

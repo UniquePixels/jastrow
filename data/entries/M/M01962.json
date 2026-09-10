@@ -1,0 +1,33 @@
+{
+	"id": "M01962",
+	"slug": "מסמס-1",
+	"headword": {
+		"text": "מִסְמֵס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 808,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"M01978\"><he>מָסַס</he></cite>) <i>to melt, dissolve</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְמַסְמֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to be molten, to be in a state of dissolution</i> or <i>liquefaction</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 45b:16\">Ḥull. 45ᵇ</cite>, v. <cite ref=\"M00770\"><he>מִזְמֵז</he></cite>. ",
+						"<cite ref=\"Chullin 53b\">Ib. 53ᵇ</cite> <he>נ׳ הבשר</he> if (in one spot of an animal known to have been attacked by a beast of prey) the flesh appears decayed; <cite ref=\"Chullin 53b:14\">ib.</cite> <he>היכי דמי נ׳</he> what do you mean by ‘decayed’ (Answ.) <he>כל שחרופא וכ׳</he> what a physician would peel off, until he comes on sound flesh; <cite ref=\"Chullin 77a:7\">ib. 77ᵃ</cite> <he>מִתְמַסְמֵס</he>. Y. Ter. VIII, 46ᵃ top <he>שנִיתְמַסְמְסוּ בני מעיה</he> (a melon) the core of which is liquefied."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

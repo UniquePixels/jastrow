@@ -1,0 +1,22 @@
+{
+	"id": "U00011",
+	"slug": "שאובתא",
+	"headword": {
+		"text": "שָׁאוּבְתָּא"
+	},
+	"page": {
+		"number": 1505,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U00308\"><he>שׁוֹאֵבָה</he></cite>, <i>ceremony of drawing water</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 16:14\">Targ. Y. Deut. XVI, 14</cite>."
+			]
+		}
+	]
+}

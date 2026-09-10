@@ -1,0 +1,25 @@
+{
+	"id": "C00816",
+	"slug": "גירדונא",
+	"headword": {
+		"text": "גִּירְדּוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּידְרוֹנָא"
+		}
+	],
+	"page": {
+		"number": 242,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"C00703\"><he>גַּיְידּוֹר</he></cite>) <i>a young ass</i>. ",
+			"units": ["<cite ref=\"Nedarim 41a:8\">Ned. 41ᵃ</cite>"]
+		}
+	]
+}

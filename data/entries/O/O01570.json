@@ -1,0 +1,31 @@
+{
+	"id": "O01570",
+	"slug": "סרח-2",
+	"headword": {
+		"text": "סְרַח"
+	},
+	"page": {
+		"number": 1024,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01569\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַסְרַח</he> <i>to clutch</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 28:15\">Targ. Prov. XXVIII, 15</cite> <he>מַסְרִיחַ</he> Ms. (ed. <he>מַצְרִיחַ</he>; h. text <he>שקק</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

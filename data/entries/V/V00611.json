@@ -1,0 +1,27 @@
+{
+	"id": "V00611",
+	"slug": "תלמיון",
+	"headword": {
+		"text": "תְּלַמְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר תְּלַמְיוֹן"
+		}
+	],
+	"page": {
+		"number": 1672,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar T’lamion</i> (Bartholomew). ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite>; <cite ref=\"Pesikta Rabbati 22:1\">Pesik. R. s. 22</cite>; <cite ref=\"Yalkut Shimoni on Nach 571\">Yalk. Zech. 571</cite>; <cite ref=\"Yalkut Shimoni on Torah 471:4\">Yalk. Lev. 471</cite> <he>בר תמליון</he>.—V. <cite ref=\"V00690\"><he>תְּמַלְיוֹן</he></cite>."
+			]
+		}
+	]
+}

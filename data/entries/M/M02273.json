@@ -1,0 +1,24 @@
+{
+	"id": "M02273",
+	"slug": "מצהב",
+	"headword": {
+		"text": "מֻצְהָב"
+	},
+	"page": {
+		"number": 823,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00130\"><he>צָהַב</he></cite>)<i>a bright metal</i>; (<cite ref=\"N00519\"><he>נחש</he></cite>) <he>נחשת מ׳</he> <i>bronze</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 4:16\">Targ. II Chr. IV, 16</cite> <he>נחש מ׳</he> (h. text <he>נחשת מרוק</he>).—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:6:4\">Y. Succ. V, 55ᵈ</cite> top; <cite ref=\"Arakhin 10b:44\">Arakh. 10ᵇ</cite> (quot. fr. ",
+				"<cite ref=\"Ezra 8:27\">Ezra VIII, 27</cite>) <he>נחשת מוּצְהָב</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q00834",
+	"slug": "פירוז",
+	"headword": {
+		"text": "פֵּירוּז"
+	},
+	"page": {
+		"number": 1170,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " <he>פ׳ אנדרפטא</he> name of a <i>bird</i>, v. <cite ref=\"A02137\"><he>אִנְדְרַפְטָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Peruz</i>, name of a (wicked) man. ",
+			"units": ["<cite ref=\"Chullin 62b:8\">Ḥull. 62ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

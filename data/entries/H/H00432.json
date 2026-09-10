@@ -1,0 +1,33 @@
+{
+	"id": "H00432",
+	"slug": "חוצה-1",
+	"headword": {
+		"text": "חוּצָה"
+	},
+	"page": {
+		"number": 438,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"H00430\"><he>חוּץ</he> II</cite>; (followed by <he>ל־</he>) <i>outside of, out of</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 1:4\">Ab. Zar. I, 4</cite> <he>ח׳ לה</he> outside the town limits.—<he>ח׳ לארץ</he> outside of Palestine, <i>foreign territory</i>. ",
+				"<cite ref=\"Mishnah Chullin 5:1\">Ḥull. V, 1</cite> <he>בח׳ לא׳</he> abroad; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an outskirt</i>, not included in the Sabbath community <he>(ערוב</he>). ",
+			"units": ["<cite ref=\"Mishnah Eruvin 5:6\">Erub. V, 6</cite>."],
+			"label": "2"
+		}
+	]
+}

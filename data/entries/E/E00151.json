@@ -1,0 +1,25 @@
+{
+	"id": "E00151",
+	"slug": "הדראה",
+	"headword": {
+		"text": "הַדְרָאָה"
+	},
+	"page": {
+		"number": 335,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>הדר</he>) <i>flour of the second course</i>. <he>פת ה׳</he> bread made of seconds (opp. <he>פת נקייה</he>). ",
+			"units": [
+				"<cite ref=\"Pesachim 37a\">Pes. 37ᵃ</cite> (Ar. <he>הַיְדָּאָה</he> trnsp.). ",
+				"<cite ref=\"Tosefta Shabbat 13:7\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:7\">XIV</cite>), 7. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:4:10\">Y. Pes. II, 29ᵇ</cite> bot.; Bab. ",
+				"<cite ref=\"Pesachim 36b:13\">Pes. 36ᵇ</cite>, opp. <he>מצה של שְׁלֹמֹה</he>."
+			]
+		}
+	]
+}

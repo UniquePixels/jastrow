@@ -1,0 +1,23 @@
+{
+	"id": "C00270",
+	"slug": "גוב-2",
+	"headword": {
+		"text": "גּוֹב"
+	},
+	"page": {
+		"number": 216,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גבב</he>, cmp. <cite ref=\"C00033\"><he>גֶּבֶא</he></cite>) <i>pit;</i> <he>ג׳ אריות</he> <i>lions’den</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 18\">Ex. R. s. 18</cite>, end <he>הציל לדניאל מג׳ א׳</he> He rescued Daniel from the lions’ den. ",
+				"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite>; a. e."
+			]
+		}
+	]
+}

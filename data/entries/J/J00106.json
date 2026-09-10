@@ -1,0 +1,125 @@
+{
+	"id": "J00106",
+	"slug": "ידע-1",
+	"headword": {
+		"text": "יָדַע"
+	},
+	"page": {
+		"number": 564,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"J00096\"><he>יָדָה</he></cite>) [<i>to point out, select, love</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to recognize, know; to find out</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 87b:7\">Pes. 87ᵇ</cite> <he>כיון שי׳ שחטא</he> when he was convinced that he had done wrong. ",
+				"<cite ref=\"Pesachim 87b:20\">Ib.</cite> <he>ואין אתה יוֹדֵעַ אם וכ׳</he> and thou knowest not whether &c. ",
+				"<cite ref=\"Pesachim 87b:20\">Ib.</cite> <he>יודע הקב״ה את ישראל וכ׳</he> the Lord knows that Israel cannot endure the cruel persecutions of Rome (v. Rabb. D. S. a. l. note); <cite ref=\"Yalkut Shimoni on Nach 529:5\">Yalk. Hos. 529</cite>. ",
+				"<cite ref=\"Shevuot 4b:1\">Shebu. 4ᵇ</cite>; <cite ref=\"Shevuot 5a:11\">ib. 5ᵃ</cite> <he>ונעלם מבלל שי׳</he> it says, ‘and it escaped his memory’ (<cite ref=\"Leviticus 5:3\">Lev. V, 3</cite>)—this proves that there was a time when he knew (the nature of his act, v. <cite ref=\"J00104\"><he>יְדִיעָה</he></cite>). ",
+				"<cite ref=\"Zevachim 115b:13\">Zeb. 115ᵇ</cite> <he>דבר זה … ולא יְדָעוֹ וכ׳</he> this word (<cite ref=\"Exodus 29:43\">Ex. XXIX, 43</cite>) the Lord had said to Moses, but he did not understand it, until the sons of Aaron died. ",
+				"<cite ref=\"Exodus 29:43\">Ib.</cite> <he>כיון שי׳ … יְדוּעֵי מקום הן</he> when Aaron learned that his sons were the chosen of the Lord (<cite ref=\"Leviticus 10:3\">Lev. X, 3</cite>); a. v. fr.—<i>Part. pass.</i> <cite ref=\"J00099\"><he>יָדוּעַ</he></cite> "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>chosen</i>. Pl. <he>יְדוּעִים</he>, constr. <he>יְדוּעֵי</he>, v. supra.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>known, special, certain</i>. Sifra Vayikra, Ḥobah, Par. 6, ch. VIII <he>חטא י׳</he> a known (discovered) sin, v. <cite ref=\"J00104\"><he>יְדִיעָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Sotah 1:2:5\">Y. Sot. I, 16ᶜ</cite> <he>טומאה יְדוּעָה</he> (not <he>ידוע</he>) an ascertained levitical uncleanness, opp. <cite ref=\"O01402\"><he>ספק</he></cite>; a. fr.—בְּיָדוּעַ <i>it is sure</i>. ",
+						"<cite ref=\"Rosh Hashanah 20b:3\">R. Hash. 20ᵇ</cite> <he>בי׳ שנראה וכ׳</he> the moon must have been visible &c. ",
+						"<cite ref=\"Sukkah 49b:12\">Succ. 49ᵇ</cite> <he>כל אדם … בי׳ שהוא וכ׳</he> a popular man (v. <cite ref=\"H01249\"><he>חֵן</he></cite>) is, you may be sure, a God-fearing man; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": " (euphem.) <i>to have sexual intercourse with</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 57a:3\">Yeb. 57ᵃ</cite> <he>בלא יְדָעָהּ</he> when he never had connection with her. ",
+				"<cite ref=\"Esther Rabbah 7:11\">Esth. R. to III, 7</cite> <he>שלא יְדָעָהּ איש וכ׳</he> whom no man except her husband touched; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹדִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to make known, inform</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22:2\">Gen. R. s. 22</cite>, beg. (ref. to <cite ref=\"Genesis 4:1\">Gen. IV, 1</cite>, reading <cite ref=\"J00107\"><he>יִדַּע</he></cite> for homiletical purposes) <he>ה׳ דרך ארץ לכל</he> he showed to all the way of the land (propagation, v. <cite ref=\"D01096\"><he>דֶּרֶךְ</he></cite>). ",
+						"<cite ref=\"Mishnah Chullin 5:3\">Ḥull. V, 3</cite> <he>צריך להוֹדִיעַ</he> must inform (the purchaser). ",
+						"<cite ref=\"Pirkei Avot 4:22\">Ab. IV, 22</cite> <he>לֵידַע להודיע ולהִוָּורַע</he> to learn, to proclaim and to be made to feel (be thoroughly convinced). ",
+						"<cite ref=\"Shabbat 10b:5\">Sabb. 10ᵇ</cite> <he>צריך להוֹדִיעוֹ</he> must inform him. ",
+						"<cite ref=\"Shabbat 10b:5\">Ib.</cite> <he>לך והוֹדִיעֵם</he> go and tell them. ",
+						"<cite ref=\"Shabbat 10b:5\">Ib.</cite> <he>הנותן … צריך לה׳ לאמו</he> he who gives bread to a child must inform his mother; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוֹדַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be informed, become conscious; to be made known</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shevuot 1:6\">Shebu. I, 6</cite> <he>ה׳ ולא ה׳</he> whether he became conscious (of his transgression) or not. Sifra Vayikra, Ḥobah, ch. XX, Par. 12 (ref. to <cite ref=\"Leviticus 4:23\">Lev. IV, 23</cite>; <cite ref=\"Leviticus 4:28\">28</cite>) <he>את ה׳ שלהם</he> when they become known; a. fr.—",
+						"<cite ref=\"Bava Batra 113b\">B. Bath. 113ᵇ</cite> <he>הוֹדְעָה</he> Ms. M. (v. <cite ref=\"A03217\"><he>אָרַע</he> II</cite>)."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נוֹדַע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00105\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Horayot 3:3\">Hor. III, 3</cite>. ",
+						"<cite ref=\"Pirkei Avot 4:22\">Ab. IV, 22</cite>, v. supra. ",
+						"<cite ref=\"Shevuot 9b:3\">Shebu. 9ᵇ</cite> <he>שסופו לִיוָּדַע</he> of which he is likely to be informed. ",
+						"<cite ref=\"Chullin 9a:8\">Ḥull. 9ᵃ</cite> <he>עד שיִוָּדַע לך</he>, v. <cite ref=\"H00556\"><he>חֲזָקָה</he></cite>. ",
+						"<cite ref=\"Mishnah Niddah 9:5\">Nidd. IX, 5</cite>, v. infra; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְוַודַּע"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְוַודַּע</he> ",
+					"units": []
+				},
+				{
+					"gloss": " <cite ref=\"J00105\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 25b:12\">Bekh. 25ᵇ</cite> <he>עד שיִתְוַורַּע הטומאה</he> (Nidd. l. c. <he>עד שיודע לך וכ׳</he>) until he ascertains the exact place of uncleanness; <cite ref=\"Pesachim 10a:8\">Pes. 10ᵃ</cite> <he>עד שתִּיוָּדַע לך</he> Ms. M. (v. Rabb. D. S. a. l.). Y. Sabb. III, 6ᵇ <he>נתודע לו וכ׳</he> he found it out after sunset; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <he>מוֹדַע</he>) <i>to force one’s self upon the notice of, to pretend friendship for</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 1:10\">Ab. I, 10</cite> <he>אל תִּתְוַדַּע לרשות</he> do not make thyself a partisan of the (foreign) government."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

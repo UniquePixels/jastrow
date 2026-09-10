@@ -1,0 +1,34 @@
+{
+	"id": "E00624",
+	"slug": "המם-3",
+	"headword": {
+		"text": "הֲמַם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 355,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְהָמַם</he> (denom. of <cite ref=\"M00515\"><he>מוּם</he></cite>) <i>to mutilate one’s self</i> (h. <cite ref=\"C00166\"><he>הִתְגּוֹדֵד</he></cite>). ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 14:1\">Targ. O. Deut. XIV, 1</cite> (ed. Berl. <he>תתח׳</he>, v. Berl. Massor. p. 90). ",
+						"<cite ref=\"Targum Jonathan on I Kings 18:28\">Targ. I Kings XVIII, 28</cite> Kimḥi (some ed. <he>אתח׳</he>); a. e.—Part. <he>מִתְהָמַם</he> <i>mutilated</i>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 41:5\">Targ. Jer. XLI, 5</cite>; <cite ref=\"Targum Jonathan on Jeremiah 48:37\">XLVIII, 37</cite> (some ed. <he>מתח׳</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "N00516",
+	"slug": "נחר-2",
+	"headword": {
+		"text": "נְחַר"
+	},
+	"page": {
+		"number": 896,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00515\">same</cite><i>to stab</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 22:40\">Targ. Y. Num. XXII, 40</cite>.—",
+				"<cite ref=\"Gittin 69a:2\">Gitt. 69ᵃ</cite> <he>ולִיחֲרוּ לכלבא וכ׳</he> and let them stab the dog in the pupil of his eye."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to blow the nose, sneeze, to give a sign by means of a nasal sound</i>. Ib. 68ᵃ <he>נ׳ ליה רב וכ׳</he> R. Ḥ. uttered a sound of warning behind him. ",
+			"units": [
+				"<cite ref=\"Shabbat 152b:9\">Sabb. 152ᵇ</cite> <he>נ׳ בהו וכ׳</he> R. A. (who was buried there) snorted at them (warned them off; Ag. Hatt. <he>נהם</he>). ",
+				"<cite ref=\"Rosh Hashanah 34b:9\">R. Hash. 34ᵇ</cite> <he>כי נְחִירְנָא לך</he> (ed. <he>נהירנא</he>, v. Rabb. D. S. a. l. note 8) when I give thee a sign. ",
+				"<cite ref=\"Berakhot 62b:4\">Ber. 62ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַחֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to rebuke</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 81b:1\">Kidd. 81ᵇ</cite> <he>נַחֲרוּ ביה</he> they rebuked him (for his misbehavior)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

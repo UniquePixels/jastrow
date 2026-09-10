@@ -1,0 +1,23 @@
+{
+	"id": "B00229",
+	"slug": "בוטי",
+	"headword": {
+		"text": "בּוּטֵּי"
+	},
+	"page": {
+		"number": 144,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"B00502\"><he>בטט</he></cite>) <i>the poor</i> (<i>broken ones</i>). ",
+			"units": [
+				"<cite ref=\"Gittin 37a:1\">Gitt. 37ᵃ</cite>; v. <cite ref=\"B00256\"><he>בּוּלְבּוּטֵיס</he></cite>."
+			]
+		}
+	]
+}

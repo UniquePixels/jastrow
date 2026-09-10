@@ -1,0 +1,28 @@
+{
+	"id": "T00249",
+	"slug": "רדיד-1",
+	"headword": {
+		"text": "רַדִּיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַדִּידָא"
+		}
+	],
+	"page": {
+		"number": 1452,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00232\"><he>רְדַד</he></cite>) <i>beaten, hammered metal, foil</i>.—Pl. <cite ref=\"T00260\"><he>רַדִּידִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 17:3\">Targ. O. Num. XVII, 3</cite>, v. <cite ref=\"T00232\"><he>רְדַד</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 17:3\">Targ. Y. ib.</cite> <he>רַדִּידֵי</he> constr."
+			]
+		}
+	]
+}

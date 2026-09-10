@@ -1,0 +1,39 @@
+{
+	"id": "D01003",
+	"slug": "דקיון",
+	"headword": {
+		"text": "דִּקְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיקְ׳"
+		}
+	],
+	"page": {
+		"number": 318,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00995\"><he>דָּקָה</he></cite> = b. h. <cite ref=\"D00771\"><he>דָּכָה</he></cite>; cmp. <cite ref=\"D00325\"><he>דוּק</he></cite>, <he>דקק</he>) <i>crushing; oppression</i>, <i>wrong</i>. <he>תבע ד׳ של־</he> <i>to ask satisfaction for one’s wrongs, to take one’s part;</i> <cite ref=\"Bereishit Rabbah 9\">Gen. R. s. 9</cite>, end <he>תובעת ד׳ של וכ׳</he> protects the wronged; <cite ref=\"Yalkut Shimoni on Torah 15\">Yalk. Gen. 15</cite> <cite ref=\"D00712\"><he>דיקיוס</he></cite> (corr. acc.). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 20:15\">Num. R. s. 20</cite> <he>וכי ד׳ של וכ׳</he> did the angel take up the cause of the ass?; a. e. Cmp. <cite ref=\"P00767\"><he>עְלְבּוֹן</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דְּקִילִין", "דְּקִילָן"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"Targum Jonathan on II Samuel 17:19\">Targ. II Sam. XVII, 19</cite>, prob. to be read <cite ref=\"D01003\"><he>דְּקִיקִין</he></cite> or <cite ref=\"D01003\"><he>דְּקִיקָן</he></cite> (Pesh. <cite ref=\"D00391\"><he>דושא</he></cite>) <i>pounded grits</i>; v. <cite ref=\"D01004\">next w.</cite>",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

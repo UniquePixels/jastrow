@@ -1,0 +1,23 @@
+{
+	"id": "V00066",
+	"slug": "תבנית",
+	"headword": {
+		"text": "תַּבְנִית"
+	},
+	"page": {
+		"number": 1645,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"B00942\"><he>בָּנָה</he></cite>)<i>build, shape, model</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 11\">Tosef. Sabb. XI</cite>, (XII), 8 <he>המקרע … כת׳ הכתב</he> he who traces something like the shape of writing on a hide; Y. ib. XII, 13ᵈ, v. <cite ref=\"T01091\"><he>רָשַׁם</he></cite>. ",
+				"<cite ref=\"Ketubot 8a:3\">Keth. 8ᵃ</cite> <he>אשר יצר … בצלמו בצלם דמות תַּבְנִיתוֹ</he> who created man in his image, in the image of the likeness of his form; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "E00763",
+	"slug": "הפרכא",
+	"headword": {
+		"text": "הִפַּרְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִיפַּ׳"
+		}
+	],
+	"page": {
+		"number": 363,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (not <cite ref=\"Q01459\"><he>הַפַּ׳</he></cite>) m. (ὕπαρχος) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>governor, lieutenant</i>.—Pl. <he>הִפַּרְכִין</he>, <he>הִפַּרְכֵי</he>, <cite ref=\"E00147\"><he>הִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 3:12\">Targ. Esth. III, 12</cite>.—",
+				"<cite ref=\"Avodah Zarah 8b:5\">Ab. Zar. 8ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>subject</i> (<i>land</i>), <i>colony</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 10:1\">Targ. Esth. X, 1</cite> <he>הִפַּרְכֵי ימא</he> (h. text <he>אִיֵי הים</he>); <cite ref=\"Targum Jonathan on Genesis 49:13\">Targ. Y. Gen. XLIX, 13</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

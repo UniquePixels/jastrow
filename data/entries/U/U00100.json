@@ -1,0 +1,27 @@
+{
+	"id": "U00100",
+	"slug": "שבח-5",
+	"headword": {
+		"text": "שַׁבָּח"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁבָּחָא"
+		}
+	],
+	"page": {
+		"number": 1512,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00099\">preced.</cite>) <i>singer</i>.—*<cite ref=\"Aramaic Targum to Psalms 4:1\">Targ. Ps. IV, 1</cite>, a. fr. <he>לשַׁ׳</he> (h. text <he>למנצח</he>), <cite ref=\"U00097\"><he>שְׁבַח</he> I</cite>.—Pl. <he>שַׁבָּחִין</he>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite> end (expl. <he>שירות היכל</he>, <cite ref=\"Amos 8:3\">Am. VIII, 3</cite>) <he>שַׁבָּחוֹי דהיכלא</he> (not <he>שבחות</he>) the singers of the Temple; Yalk. ib. 980."
+			]
+		}
+	]
+}

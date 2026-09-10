@@ -1,0 +1,27 @@
+{
+	"id": "M01393",
+	"slug": "מכלה-1",
+	"headword": {
+		"text": "מִכְלָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 783,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"K00692\"><he>כָּלָה</he></cite>)<i>perfection</i>.—Pl. <he>מִכְלוֹת</he>, <cite ref=\"M01393\"><he>מִי׳</he></cite>; <he>מ׳ זהב</he> (vessels) <i>made of pure gold</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 29a:5\">Men. 29ᵃ</cite> (expl. <he>מ׳ זהב</he>, <cite ref=\"II Chronicles 4:21\">II Chr. IV, 21</cite>) <he>שכילתו לכל זהב וכ׳</he> it used up all the locked up gold of Solomon."
+			]
+		}
+	]
+}

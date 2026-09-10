@@ -1,0 +1,33 @@
+{
+	"id": "B01030",
+	"slug": "בעור",
+	"headword": {
+		"text": "בָּעוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּעוֹרָא"
+		},
+		{
+			"text": "בָּעֵיר"
+		}
+	],
+	"page": {
+		"number": 180,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01063\"><he>בער</he></cite>) <i>torch, fire</i> (h. <cite ref=\"L00634\"><he>לַפִּיד</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:17\">Targ. O. Gen. XV, 17</cite> (Y. <cite ref=\"M00095\"><he>מבעיר</he></cite>); a. e.—Pl. <he>בָּעוּרִין</he>, <he>בְּעוּרַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Nahum 2:5\">Targ. Nah. II, 5</cite> <he>בְּעוּ׳</he> (ed. Vien.). ",
+				"<cite ref=\"Aramaic Targum to Job 41:11\">Targ. Job XLI, 11</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 85b:8\">B. Mets. 85ᵇ</cite> <he>ב׳ דאשא</he> (Ms. M. <he>דנור</he>)."
+			]
+		}
+	]
+}

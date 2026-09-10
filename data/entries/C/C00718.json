@@ -1,0 +1,23 @@
+{
+	"id": "C00718",
+	"slug": "גילא-1",
+	"headword": {
+		"text": "גִּילָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 238,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Gela</i> (<i>Coelia?</i>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 10b\">Ab. Zar. 10ᵇ</cite> Ar., v. <cite ref=\"C00475\"><he>גּוּר</he> II</cite>."
+			]
+		}
+	]
+}

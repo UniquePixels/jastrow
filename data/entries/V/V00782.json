@@ -1,0 +1,33 @@
+{
+	"id": "V00782",
+	"slug": "תעלה-1",
+	"headword": {
+		"text": "תְּעָלָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1684,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00772\"><he>עָלָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>going up, bringing up</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite> <he>שמא תאמר … אין לו ת׳</he> lest you say, when one has gone down to the nether world, there is no coming up for him.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>growth of flesh, healing</i>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

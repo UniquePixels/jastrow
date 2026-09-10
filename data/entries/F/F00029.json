@@ -1,0 +1,28 @@
+{
+	"id": "F00029",
+	"slug": "וטוב",
+	"headword": {
+		"text": "וטוּב",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "וָטִיב"
+		}
+	],
+	"page": {
+		"number": 373,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יטב</he>) <i>sexual gratification</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 18a:10\">Shebu. 18ᵃ</cite> <he>עד שימות וטיב</he> Ar. (read <he>יָטִיבוֹ</he>) until his gratification dies out; [Ar.: membrum virile; Hal. G’dol. <he>אביטו</he>, v. Perl. Et. St. p. 65].—Ed. <he>וָטוּבֵיה</he> Chald. form; [Rashi: <he>וְטוּבֵיה</he> <i>and well is it with him</i>, in which case it must read <he>עד שימות הגיד ו׳</he>, v. Ar. s. v. <cite ref=\"M03002\"><he>מת</he></cite>]."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "A02833",
+	"slug": "אפרסקין",
+	"headword": {
+		"text": "אַפַּרְסְקִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפַּרְסְקִים"
+		},
+		{
+			"text": "פַּרְסְקִין"
+		}
+	],
+	"page": {
+		"number": 109,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (πέρσικα, τὰ) <i>peaches</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 1:2\">Maasr. I, 2</cite>; a. fr. V. <cite ref=\"Q01937\"><he>פַּרְסֵק</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "Q01979",
+	"slug": "פרצידא",
+	"headword": {
+		"text": "פַּרְצִידָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְצִדָא"
+		}
+	],
+	"page": {
+		"number": 1238,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q01427\"><he>פַּצִּידָא</he></cite>; <cite ref=\"T00000\"><he>ר</he></cite> inserted) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cut, trench</i>, v. <cite ref=\"Q01427\"><he>פַּצִּידָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"Q00387\"><he>פּוּרְצָנָא</he></cite>) <i>kernel, stone</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 4a:1\">Taan. 4ᵃ</cite> <he>פ׳ דתותי קלא</he> the kernel under a clod. ",
+				"<cite ref=\"Taanit 4a:1-2\">Ib.</cite> <he>האי צורבא לפ׳ וכ׳ …</he> a young scholar is like the kernel &c. (v. <cite ref=\"N00066\"><he>נְבַט</he></cite>), i.e. when his reputation begins to spread, it spreads wider and wider.—Pl. <he>פַּרְצִידַיָּא</he>, <cite ref=\"Q01979\"><he>פַּרְצִידֵי</he></cite>. ",
+				"<cite ref=\"Bava Metzia 84a:7\">B. Mets. 84ᵃ</cite> <he>פ׳ דרומנא וכ׳</he> the seeds of a red pomegranate. ",
+				"<cite ref=\"Shabbat 21a:3\">Sabb. 21ᵃ</cite> <he>מפַּרְצִידוֹהִי וכ׳</he> from its kernels they produce oil."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "B01375",
+	"slug": "בשש",
+	"headword": {
+		"text": "בְּשַׁשׁ"
+	},
+	"page": {
+		"number": 200,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (√<he>בש</he>, v. <cite ref=\"B01374\">preced. ws.</cite>) <i>seasoning, relishes</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:6\">Targ. Job VI, 6</cite> (h. text <cite ref=\"I00662\"><he>טָפֵל</he></cite>.—",
+				"<cite ref=\"Berakhot 40a:2\">Ber. 40ᵃ</cite> <he>לית דין צריך ב׳</he> this (bread, being well seasoned) requires no seasoning relishes to go with it; v. <cite ref=\"L00512\"><he>לִיפְתָּן</he></cite>."
+			]
+		}
+	]
+}

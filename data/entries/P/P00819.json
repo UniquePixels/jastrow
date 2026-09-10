@@ -1,0 +1,73 @@
+{
+	"id": "P00819",
+	"slug": "עלם-2",
+	"headword": {
+		"text": "עֲלֵם"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲלֵים"
+		}
+	],
+	"page": {
+		"number": 1084,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00818\">same</cite>, <i>to be strong</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 38:20\">Targ. Ps. XXXVIII, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 1:6\">Targ. Josh. I, 6</cite>; a. e.—Denom. <cite ref=\"P00583\"><he>עִילָּם</he></cite>, fr. which imperat. <cite ref=\"P00583\"><he>עִילַּם</he></cite>, <he>עִילַּמוּ</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 31:6\">Targ. O. Deut. XXXI, 6</cite>; <cite ref=\"Onkelos Deuteronomy 31:7\">7</cite>; <cite ref=\"Onkelos Deuteronomy 31:23\">23</cite> ed. Berl. (Regia <cite ref=\"P00819\"><he>עַלֵּים</he></cite>, <he>עַלִּימוּ</he>, v. Berl. Targ. O. II, p. 59). ",
+				"<cite ref=\"Targum of I Chronicles 22:12\">Targ. I Chr. XXII, 12</cite> (<cite ref=\"Targum of I Chronicles 22:13\">13</cite>); a. e., v. <cite ref=\"A01905\"><he>אֲלַם</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַלֵּים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00818\">same</cite> (denom. of <cite ref=\"P00808\"><he>עַלִּים</he></cite>), v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to strengthen</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 27:14\">Targ. Ps. XXVII, 14</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 14:27\">Targ. Y. Ex. XIV, 27</cite> (h. text <he>וינער</he>, v. Mekh. B’shall., s. 6)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַלֵּים"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְעֲלֵים"],
+			"senses": [
+				{
+					"gloss": "<i>to be strengthened</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 31:25\">Targ. Ps. XXXI, 25</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be tied, to join, conspire</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 13:7\">Targ. II Chr. XIII, 7</cite> (h. text <he>ויתאמצו</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

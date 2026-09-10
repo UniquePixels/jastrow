@@ -1,0 +1,49 @@
+{
+	"id": "K00950",
+	"slug": "כסס-2",
+	"headword": {
+		"text": "כְּסַס"
+	},
+	"page": {
+		"number": 655,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00949\">same</cite><i>to cut, chew</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 81b\">Yoma 81ᵇ</cite>; <cite ref=\"Berakhot 36b:14\">Ber. 36ᵇ</cite> <he>כַּס פילפלי וכ׳</he> if one chewed pepper on the Day of Atonement. ",
+				"<cite ref=\"Megillah 7b:4\">Meg. 7ᵇ</cite> <he>בעאי למֵיכַס וכ׳</he> I should have liked to chew the plate after it; <cite ref=\"Yalkut Shimoni on Nach 1059:13\">Yalk. Esth. 1059</cite> <he>דאִיכְסִיסֵיה</he> (not <he>דאיב׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to cut</i> or <i>scratch off, peel, diminish</i>, (v. P. Sm. 1777),] <i>to rebuke, chastise</i> (v. <cite ref=\"K00946\"><he>כְּסַן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 9:8\">Targ. Prov. IX, 8</cite> <he>תִכוּס</he> (ed. Lag. <he>תָכֵיס</he> <i>Af.</i>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַכֵּס", "אָכֵיס"],
+			"senses": [
+				{
+					"gloss": "<i>to give to chew</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 77a:14\">Keth. 77ᵃ</cite> <he>אַכְסוּהוּ שערי וכ׳</he> give El. barley to chew (as to an animal, i.e. he is an ignoramus). ",
+						"<cite ref=\"Ketubot 77a:15\">Ib.</cite> <he>על דא אכסוה וכ׳</he> on account of this (opinion), they gave El. barley to eat in Babylonia."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to rebuke, chastise</i>. Targ. Prov. l. c., v. supra. Ib. XXVIII, 23.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "P00983",
+	"slug": "עניה-3",
+	"headword": {
+		"text": "עֲנִיָּה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲנִיָּה עֲנָתוֹת"
+		}
+	],
+	"page": {
+		"number": 1094,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>‘Ăniya Anathoth</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:30\">Targ. Is. X, 30</cite>."
+			]
+		}
+	]
+}

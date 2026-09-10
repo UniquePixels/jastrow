@@ -1,0 +1,43 @@
+{
+	"id": "M02682",
+	"slug": "מריר-1",
+	"headword": {
+		"text": "מָרִיר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מָרִירָא"
+		},
+		{
+			"text": "מְרִירָא"
+		},
+		{
+			"text": "מְרִירְתָּא"
+		}
+	],
+	"page": {
+		"number": 843,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02774\"><he>מְרַר</he></cite>) <i>bitter</i>; <i>embittered, grieving</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 22:2\">Targ. I Sam. XXII, 2</cite>. ",
+				"<cite ref=\"Onkelos Genesis 27:34\">Targ. O. Gen. XXVII, 34</cite> <he>מָ׳</he> ed. Berl. (ed. <cite ref=\"M01782\"><he>מְ׳</he></cite>); Y. <cite ref=\"M02691\"><he>מְרִירְתָּא</he></cite>. Targ. II Esth. IV, 1; a. fr.—[<cite ref=\"Aramaic Targum to Proverbs 17:11\">Targ. Prov. XVII, 11</cite> <he>גברא מ׳</he> (ed. Wil. <cite ref=\"M02660\"><he>מְרִידָא</he></cite>; h. text <cite ref=\"M02651\"><he>מרי</he></cite>).]—",
+				"<cite ref=\"Berakhot 56a:9\">Ber. 56ᵃ</cite> <he>מ׳ עסקך כי חסא</he> thy business will be bitter (thy goods disliked) like lettuce (v. <cite ref=\"H01331\"><he>חָסָא</he> I</cite>). ",
+				"<cite ref=\"Shabbat 127b:21\">Sabb. 127ᵇ</cite> bot. ",
+				"<cite ref=\"Bava Metzia 113b:8\">B. Mets. 113ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 20a:13\">B. Bath. 20ᵃ</cite> bot. <he>במרירתא</he> bitter (salt) is meant.—Pl. <cite ref=\"M02689\"><he>מְרִירִין</he></cite>, <he>מָרִירַיָּא</he>, <cite ref=\"M01782\"><he>מְ׳</he></cite>; f. <cite ref=\"M02682\"><he>מְרִירָן</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 15:23\">Targ. Ex. XV, 23</cite>. ",
+				"<cite ref=\"Onkelos Numbers 5:18\">Targ. Num. V, 18</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on I Kings 2:8\">Targ. I Kings II, 8</cite> (ed. Lag. <he>מרירא</he>, corr. acc.).—[<cite ref=\"Targum Jonathan on Numbers 5:24\">Targ. Y. Num. V, 24</cite> <cite ref=\"M02690\"><he>מְרִירַיְתָא</he></cite>, read: … <he>רַיָּא</he>].—",
+				"<cite ref=\"Eichah Rabbah 3:23\">Lam. R. to III, 40</cite>, v. <cite ref=\"B00991\"><he>בְּסִימָא</he></cite>."
+			]
+		}
+	]
+}

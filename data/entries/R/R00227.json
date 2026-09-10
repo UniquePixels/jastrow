@@ -1,0 +1,24 @@
+{
+	"id": "R00227",
+	"slug": "צוצייני",
+	"headword": {
+		"text": "צוּצְיָינֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1269,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (denom. of <cite ref=\"R00434\"><he>צִיצָא</he></cite>) <i>provided with a tuft, crested</i>; (Rashi: <i>of Zeizûn</i>). ",
+			"units": [
+				"<cite ref=\"Chullin 62b:3\">Ḥull. 62ᵇ</cite>, v. <cite ref=\"K00356\"><he>כּוּפְשָׁנָא</he></cite>."
+			]
+		}
+	]
+}

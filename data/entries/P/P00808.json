@@ -1,0 +1,28 @@
+{
+	"id": "P00808",
+	"slug": "עלים-2",
+	"headword": {
+		"text": "עַלִּים"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲלִים"
+		}
+	],
+	"page": {
+		"number": 1083,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00807\">preced.</cite>) <i>strong, powerful</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 9:19\">Targ. Job IX, 19</cite>.—Pl. <he>עַלִּימִין</he>, <cite ref=\"P00582\"><he>עֲלִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 54:5\">Targ. Ps. LIV, 5</cite> (ed. Wil. <cite ref=\"P00582\"><he>עֲלֵי׳</he></cite>; h. text <he>עריצים</he>)."
+			]
+		}
+	]
+}

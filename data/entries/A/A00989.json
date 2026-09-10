@@ -1,0 +1,28 @@
+{
+	"id": "A00989",
+	"slug": "אח-2",
+	"headword": {
+		"text": "אַח"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַחָא"
+		},
+		{
+			"text": "אָחָא"
+		}
+	],
+	"page": {
+		"number": 38,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00988\">same</cite>. Targ. fr.—Pl. <he>אָחִין</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 13:8\">Targ. Gen. XIII, 8</cite>; a. e.—<he>אַחֵי</he> <cite ref=\"Yevamot 65b:13\">Yeb. 65ᵇ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 6:4:5\">Y. Yoma VI, 43ᵈ</cite> <he>אֲחֵינָן</he> <i>our brothers</i>"
+			]
+		}
+	]
+}

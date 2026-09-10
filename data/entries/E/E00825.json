@@ -1,0 +1,23 @@
+{
+	"id": "E00825",
+	"slug": "הרדוס",
+	"headword": {
+		"text": "הִרְדּוּס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 365,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transpos. of <he>דרס</he>, v. <cite ref=\"M00326\"><he>מִדְּרָא</he></cite>, <cite ref=\"M00332\"><he>מִדְּרוֹן</he></cite> &c.) <i>the copulation of birds;</i> <he>מעשה ה׳</he> <i>unnatural gratification on a woman’s body</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 66b\">Snh. 66ᵇ</cite> Ar. (ed. <he>חידודין</he>; v. <cite ref=\"E00846\"><he>הֲרוּרִים</he></cite>). [Ar.: <i>doing of Herod</i>, ref. to <cite ref=\"Bava Batra 3b\">B. Bath. 3ᵇ</cite>; v. <cite ref=\"E00274\"><he>הוֹרְדּוֹס</he></cite>.]"
+			]
+		}
+	]
+}

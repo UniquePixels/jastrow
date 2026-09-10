@@ -1,0 +1,24 @@
+{
+	"id": "V00086",
+	"slug": "תגלחת",
+	"headword": {
+		"text": "תַּגְלַחַת"
+	},
+	"page": {
+		"number": 1646,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00921\"><he>גָּלַח</he></cite>) <i>shearing, hair-cutting</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 1:7\">Meg. I, 7</cite> (<cite ref=\"Megillah 8b:17\">8ᵇ</cite>) <he>אין בין … ת׳ וצפרים</he> there is no difference between a leper declared clean after being locked up for trial, and one declared unclean (and cured), except the cutting of the hair and the bird sacrifices (<cite ref=\"Leviticus 14:2-8\">Lev. XIV, 2-8</cite>). Y. ib. 71ᵇ bot. <he>את שהוא טעון ת׳ וכ׳</he> he that requires hair-cutting must also bring a sacrifice &c. ",
+				"<cite ref=\"Mishnah Avodah Zarah 1:3\">Ab. Zar. I, 3</cite> <he>יום ת׳ זקנו וכ׳</he>, v. <cite ref=\"B00843\"><he>בְּלוּרִית</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 13</cite> (play on <he>ציון</he>, <cite ref=\"Eichah Rabbah 2\">ib.</cite>) <he>בנים המצויינין במילה ובת׳ וכ׳</he> sons that are distinguished by laws concerning circumcision, hair-cutting (<cite ref=\"Leviticus 19:27\">Lev. XIX, 27</cite>) and show-fringes; a. e."
+			]
+		}
+	]
+}

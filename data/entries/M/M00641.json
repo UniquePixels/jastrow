@@ -1,0 +1,37 @@
+{
+	"id": "M00641",
+	"slug": "מוריגא",
+	"headword": {
+		"text": "מוֹרִיגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹרֵג"
+		}
+	],
+	"page": {
+		"number": 750,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00640\">same</cite><i>threshing ledge</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 41:15\">Targ. Is. XLI, 15</cite>.—Pl. <he>מוֹרִיגַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 24:22\">Targ. II Sam. XXIV, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:27\">Targ. Is. XXVIII, 27</cite> <he>מוֹרִיגֵי ברזלא</he> (ed. Lag. <he>מורגי</he>; h. text <cite ref=\"H01634\"><he>חָרוּץ</he></cite>).—",
+				"<cite ref=\"Temurah 18a\">Tem. 18ᵃ</cite> <he>אפי׳ ממוֹרִיגַיְיהוּ</he> Ar. (ed. <he>ממוֹרְגַ׳</he>; Rashi <he>ממרג׳</he>) even if you have to take them away from the threshing sledges."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>palate</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 12:11\">Targ. Job XII, 11</cite>; a. fr.—<i>Pl.</i> as ab. (with <i>sing.</i> meaning). ",
+				"<cite ref=\"Aramaic Targum to Psalms 22:16\">Targ. Ps. XXII, 16</cite> (ed. Wil. sing.). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:16\">Targ. Cant. V, 16</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

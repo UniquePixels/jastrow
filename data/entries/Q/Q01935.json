@@ -1,0 +1,46 @@
+{
+	"id": "Q01935",
+	"slug": "פרסם-2",
+	"headword": {
+		"text": "פַּרְסֵם"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְסֵים"
+		}
+	],
+	"page": {
+		"number": 1234,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01934\">same</cite>. Targ. II Esth. I, 12 <he>לא תְפַרְסְמִי וכ׳</he> do not defame thy name &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 16:26\">Targ. Y. Num. XVI, 26</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 28:30\">Targ. Y. Ex. XXVIII, 30</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 6:30\">Targ. II Chr. VI, 30</cite> (differ. in <cite ref=\"I Kings 8:39\">I Kings VIII, 39</cite>); a. fr.—Part. pass. <he>מְפַרְסַם</he>; f. <he>מְפַרְסְמָא</he>; pl. <he>מְפַרְסְמָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 38:25\">Targ. Y. I Gen. XXXVIII, 25</cite> (v. <cite ref=\"Q01909\"><he>פְּרַס</he> I</cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 26:6\">Targ. Job. XXVI, 6</cite> (h. text <he>ערום</he>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:17\">Targ. Cant. II, 17</cite> <he>מפרסמן</he> uncovered (unprotected); a. e.—Y. Snh. VII, end, 25ᵈ <he>אנא מְפַרְסֵם ליך</he> I shall expose (denounce) thee. ",
+				"<cite ref=\"Pesachim 112a:7\">Pes. 112ᵃ</cite> <he>פַּרְסוּמֵי ניסא</he> to make public the wonderful event (by a symbolical act); <cite ref=\"Shabbat 24a\">Sabb. 24ᵃ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפַּרְסֵם", "אִתְפַּרְסֵים"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"Q00742\"><he>אִיפַּ׳</he></cite> <i>to be spread, revealed, exposed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 2:14\">Targ. Y. Ex. II, 14</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 22:41\">Targ. Y. Num. XXII, 41</cite> (v. Targ. Cant. l. c.). ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 12:13\">Targ. Koh. XII, 13</cite>. Targ. II Esth. III, 15; VIII, 14 (v. <cite ref=\"Q01909\"><he>פְּרַס</he> I</cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "M02200",
+	"slug": "מפולת",
+	"headword": {
+		"text": "מַפּוֹלֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַפֹּלֶת"
+		}
+	],
+	"page": {
+		"number": 820,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01054\"><he>נָפַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dropping, throwing seed</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 25a:23\">Arakh. 25ᵃ</cite> <he>כור זרע … במ׳ יד</he> we assess the value of a field by the quantity of seed … which it takes when strewing with the hand, opp. to <he>מ׳ שוורים</he> strewing from a perforated bag or wagon drawn by oxen; <cite ref=\"Bava Metzia 105b\">B. Mets. 105ᵇ</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:4:13\">Y. Ber. III, 6ᶜ</cite> bot. <he>במפלת יד</he> with one and the same throw."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>falling in, debris</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3a:15\">Ber. 3ᵃ</cite>, sq. you must not enter a ruined building for prayer <he>מפני המ׳</he> because it may fall in. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 16:3:3\">Y. Sabb. XVI, 15ᵈ</cite> top <he>מצילין … מיד המ׳</he> we must save (on the Sabbath) … persons buried under debris. ",
+				"<cite ref=\"Mishnah Pesachim 2:3\">Pes. II, 3</cite> <he>חמץ שנפלה עליו מ׳</he> leavened matter covered with debris; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (= <cite ref=\"M02218\"><he>מַפָּלָה</he></cite>) <i>downfall</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:3\">Y. Ber. V, beg. 8ᵈ</cite> <he>במ׳ של מחריביו חתם</he> Jeremiah closed with prophesying the downfall of the destroyers of the Temple; (<cite ref=\"Midrash Tehillim 4:15\">Midr. Till. to Ps. IV</cite> <he>במַפַּלְתָּן</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

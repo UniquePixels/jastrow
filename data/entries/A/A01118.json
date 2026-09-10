@@ -1,0 +1,28 @@
+{
+	"id": "A01118",
+	"slug": "איבא-2",
+	"headword": {
+		"text": "אִיבָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיבָא"
+		}
+	],
+	"page": {
+		"number": 44,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"A00017\"><he>אַבָּא</he></cite> <i>father</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 30:4\">Targ. Y. Num. XXX, 4</cite>; a. fr."
+			]
+		}
+	]
+}

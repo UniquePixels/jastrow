@@ -1,0 +1,46 @@
+{
+	"id": "A00332",
+	"slug": "אגף-3",
+	"headword": {
+		"text": "אֲגַף"
+	},
+	"page": {
+		"number": 13,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " com. (v. <cite ref=\"A00331\">foreg.</cite> = <cite ref=\"C01195\"><he>גַּף</he></cite>; cmp. b. h. <he>אֲגַפִּים</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wing, pinion</i>. Pl. <he>אֲגַפִּים</he>; <i>Du.</i> <he>אֲגַפַּיִים</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 14:1\">Neg. XIV, 1</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 39:16\">Gen. R. s. 39</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>winged animals, poultry</i>. ",
+			"units": ["<cite ref=\"Sukkah 42a:3\">Succ. 42ᵃ</cite>"],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>arms, shoulders of a human being</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:3:2\">Y. Snh. VII, 24ᵇ</cite> bot. <he>יכול יטלינו מבין הא׳</he> you might think the convict must be cut through at the arm-pits. ",
+				"<cite ref=\"Shabbat 129a:21\">Sabb. 129ᵃ</cite> <he>חבירותיה נושאות וכ׳</he> her mates lift her by her arms."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>banks</i> of river &c. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 61a:11\">B. Kam. 61ᵃ</cite> a rivulet which imparts <he>שלל לאֲגַפֶּיהָ</he> booty (alluvium) to its banks. ",
+				"<cite ref=\"Bava Batra 99b:6\">B. Bath. 99ᵇ</cite> <he>שכלו א׳</he> whose embankments have disappeared (washed away)."
+			],
+			"label": "4"
+		}
+	]
+}

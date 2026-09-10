@@ -1,0 +1,34 @@
+{
+	"id": "Q01117",
+	"slug": "פלפל-4",
+	"headword": {
+		"text": "פִּלְפָּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילְ׳"
+		},
+		{
+			"text": "פִּלְפֶּלֶת"
+		}
+	],
+	"page": {
+		"number": 1184,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>פלל</he> <i>to be round, roll</i>) <i>ball, grain</i>, esp. <i>pepper</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:5\">Sabb. VI, 5</cite> (<cite ref=\"Shabbat 64b\">64ᵇ</cite>) <he>בפ׳ ובגרגיר מלח</he> with a grain of pepper (Rashi: a bit of ‘long pepper’) or a grain of salt (in the mouth); ib. 65ᵃ <he>פ׳ לריח הפה</he> pepper (is put in the mouth) to dispel the bad odor &c. Ib. IX, 6 (90ᵃ) <he>פלפלת כל שהו</he> any quantity of (long) pepper; a. e.—Pl. <he>פִּלְפָּלִין</he>, <cite ref=\"Q01111\"><he>פִּילְ׳</he></cite>. ",
+				"<cite ref=\"Berakhot 36b:5\">Ber. 36ᵇ</cite> <he>הפ׳ חייבין בערלה</he> pepper-trees are subject to the law of ʿOrlah. ",
+				"<cite ref=\"Mishnah Beitzah 2:9\">Bets. II, 9</cite> <he>הרחים של פ׳</he> pepper-mill. ",
+				"<cite ref=\"Tractate Soferim 15:8\">Treat. Sof’rim XV, 8</cite> <he>נמשלה … והמשנה כפ׳</he> the Torah is compared to salt, the Mishnah to pepper. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 3:5:9\">Y. Hor. III, 48ᶜ</cite> top <he>מלח בזול פ׳ ביוקר</he> salt is cheap, pepper is dear; <he>איפשר לעולם … בלא פ׳ וכ׳</he> (not <cite ref=\"Q01113\"><he>פלפילין</he></cite>) the world can live without pepper, but not without salt; a. fr.—[<cite ref=\"Kohelet Rabbah 9:13\">Koh. R. to IX, 13</cite>, v. <cite ref=\"Q00679\"><he>פִּילּוֹן</he></cite>.]"
+			]
+		}
+	]
+}

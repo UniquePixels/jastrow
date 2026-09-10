@@ -1,0 +1,28 @@
+{
+	"id": "K00541",
+	"slug": "כילון",
+	"headword": {
+		"text": "כִּילוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּילוֹן"
+		}
+	],
+	"page": {
+		"number": 632,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A00529\"><he>אוּבְלָא</he> II</cite>) <i>one whose head has the shape of a basket</i> (calathus), <i>wedge-shaped</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:1\">Bekh. VII, 1</cite>, expl. ",
+				"<cite ref=\"Bekhorot 43b:3\">ib. 43ᵇ</cite>. [Mus. refers to Lat. cilo.]"
+			]
+		}
+	]
+}

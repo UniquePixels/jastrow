@@ -1,0 +1,23 @@
+{
+	"id": "S01118",
+	"slug": "קיץ-4",
+	"headword": {
+		"text": "קִיץ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1367,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01836\"><he>קָצַץ</he></cite>) <i>a clearly defined subject</i>.—Pl. <he>קִיצִין</he>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 5:11\">Cant. R. to V, 11</cite> <he>אפי׳ דברִים … שהן ק׳ וכ׳</he> even things in the Law which you would consider clearly defined are piles upon piles (contain material for much discussion)."
+			]
+		}
+	]
+}

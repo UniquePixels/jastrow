@@ -1,0 +1,79 @@
+{
+	"id": "E00230",
+	"slug": "הוי-2",
+	"headword": {
+		"text": "הוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "הָוָה"
+		},
+		{
+			"text": "הָיָה"
+		}
+	],
+	"page": {
+		"number": 338,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to exist; to be, become; to occur, come to pass</i>.—With part. <he>ה׳ מביט</he> <i>he looked;</i> <he>ה׳ אומר</he> <i>he said</i>, freq. <i>used to say</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1:11\">Gen. R. s. 1</cite>, beg. <he>אני הָיִיתִי וכ׳</he> I was the implement &c. ",
+				"<cite ref=\"Bereishit Rabbah 1:6\">Ib.</cite> <he>ה׳ הקב״ה מביט וכ׳</he> the Lord looked into the Law (as often as a thing was to be created). ",
+				"<cite ref=\"Pirkei Avot 1:13\">Ab. I, 13</cite> <he>הוא ה׳ אומר</he> the same used to say. ",
+				"<cite ref=\"Bereishit Rabbah 2:4\">Gen. R. s. 2</cite> <he>ה׳ ללמה ולא כלום</he> became a nothing; a. v. fr.—Apocopate forms: <he>אֱהִי</he>, <he>אֱהֵא</he>, <cite ref=\"V00123\"><he>תְּהִי</he></cite>, <cite ref=\"V00114\"><he>תְּהֵא</he></cite>, <cite ref=\"J00139\"><he>יְהִי</he></cite>, <he>יְהֵא</he>; <cite ref=\"V00117\"><he>תְּהוּ</he></cite> (= <he>תִּהְיוּ</he>), <he>יְהוּ</he> (= <he>יִהְיוּ</he>). ",
+				"<cite ref=\"Yoma 66b:3\">Yoma 66ᵇ</cite> <he>אהא בשלום אני נכ׳</he> (<cite ref=\"Tosefta Yoma 4:6\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Yoma 3:14\">III</cite>), 14 <he>נִהְיֶה</he>) may I and you be as well; Y. ib. VI, 43ᶜ bot. <he>כן תהו וכ׳</he> so may ye be well. ",
+				"<cite ref=\"Bava Metzia 35a:11\">B. Mets. 35ᵃ</cite> <he>תהא במאמינו</he> let this be (speak of a case) when he accepts his opponent’s statement; a. v. fr.—Part. <he>הוֶֹה</he>, <he>הוֶוֹה</he> "
+			]
+		},
+		{
+			"gloss": "<i>frequent, usual</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:6\">Sabb. VI, 6</cite> <he>דברו חכמים בה׳</he> the scholars (in using the words ‘Arabian women’) speak of the ordinary custom (not to the exclusion of other people); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>existing, enduring</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite>, end <he>הם הווִֹים ודומים</he> [<he>להקב״ה</he>] they shall be existing for themselves (not merely as an attachment) and resembling [the Lord]; <cite ref=\"Pesikta Rabbati 11:1\">ib.</cite> <he>אף הם הווים אש וכ׳</he> they, too, shall endure as a consuming fire.—",
+				"<cite ref=\"Shir HaShirim Rabbah 2:13:4\">Cant. R. to II, 13</cite> <he>עניות ירבה ויוקר הווה</he> (read <he>תרבה</he>) poverty shall increase, and prices remain high (different in <cite ref=\"Sanhedrin 97a:4\">Snh. 97ᵃ</cite> a. ",
+				"<cite ref=\"Sotah 49b:8\">Sot. 49ᵇ</cite>, v. <cite ref=\"A02062\"><he>אָמַר</he> II</cite>). <i>Imper</i>. <cite ref=\"E00231\"><he>הֱוֵי</he></cite>, <he>הֱוֵא</he>; pl. <cite ref=\"E00218\"><he>הֱווּ</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 1:4\">Ab. I, 4</cite>. ",
+				"<cite ref=\"Pirkei Avot 2:3\">Ib. II, 3</cite>; a. fr.—<he>הֱוֵי אוֹמֵר</he>, also elliptically <cite ref=\"E00231\"><he>הֱוֵי</he></cite> <i>say</i>, i.e. <i>you must admit, this proves, that is meant by saying</i>. ",
+				"<cite ref=\"Taanit 2a:10\">Taan. 2ᵃ</cite> which is the service of the heart? <he>ה׳ אומר זו תפלה</he> you must admit, it is prayer. ",
+				"<cite ref=\"Tosefta Niddah 1:6\">Tosef. Nidd. I, 6</cite> <he>ה׳ לא אמרום וכ׳</he> that is to say, the scholars have spoken &c. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:6:4\">Cant. R. to I, 6</cite> <he>ה׳ כרמי שלי וכ׳</he> this is meant by ‘my vineyard &c.’—Y. Shebu. VII, 38ᶜ top <he>הווי לא צורכה וכ׳</he> it is evident that it would not have been necessary &c.; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִוָּה", "הִיָּה"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"E00232\"><he>הְוָיָה</he></cite>",
+					"units": []
+				},
+				{
+					"gloss": "<i>to change one’s legal status, to dispose of</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 40b:13\">Keth. 40ᵇ</cite> (ref. to <he>תהיה</he> <cite ref=\"Deuteronomy 22:19\">Deut. XXII, 19</cite>) <he>במְהַוָּה עצמה וכ׳</he> the text speaks of a woman who can dispose of herself."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to produce, make</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 58a:7\">Kidd. 58ᵃ</cite> (ref. to <he>והיית</he>, <cite ref=\"Deuteronomy 7:26\">Deut. VII, 26</cite>) <he>כל שאתה מְהַיֶּיה הימנה</he> whatever thou makest out of it; <cite ref=\"Temurah 30b:22\">Tem. 30ᵇ</cite> <he>מְהַיֶּה ממנה</he>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "H00852",
+	"slug": "חיפושית",
+	"headword": {
+		"text": "חִיפּוּשִׂית"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִפּוּשִׂית"
+		}
+	],
+	"page": {
+		"number": 459,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01478\"><he>חָפַשׂ</he></cite>) <i>scarabee, beetle</i>. Sifra Sh’mini, Sh’ratsim, Par. 10, ch. XII; <cite ref=\"Chullin 67b:14\">Ḥull. 67ᵇ</cite>.—",
+			"units": [
+				"<cite ref=\"Mishnah Parah 9:2\">Par. IX, 2</cite> (doubtful; perh. <i>scorpion</i>, v. <cite ref=\"H00853\">next w.</cite>)."
+			]
+		}
+	]
+}

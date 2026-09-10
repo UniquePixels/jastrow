@@ -1,0 +1,28 @@
+{
+	"id": "B00570",
+	"slug": "ביזלי",
+	"headword": {
+		"text": "בִּיזְלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּזַיָּיה"
+		}
+	],
+	"page": {
+		"number": 160,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>בזי</he> II, <cite ref=\"L00000\"><he>ל</he></cite> format.) <i>cuts, rents</i>, whence <i>disconnected outskirts</i> of a community. ",
+			"units": [
+				"<cite ref=\"Bava Batra 68b:3\">B. Bath. 68ᵇ</cite> (expl. <he>שייריה</he>) <cite ref=\"B00570\"><he>ביזלי</he></cite>. What is bizlé? <he>פיסקי בגי</he>, v. <cite ref=\"B00009\"><he>בָּאגָא</he></cite>; Y. ib. IV, 14ᶜ bot. <he>שוריה בזייה</he> (read <he>שְׁיָרֶיהָ</he>)."
+			]
+		}
+	]
+}

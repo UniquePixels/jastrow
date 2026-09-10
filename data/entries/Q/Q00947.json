@@ -1,0 +1,24 @@
+{
+	"id": "Q00947",
+	"slug": "פלגיסא",
+	"headword": {
+		"text": "פַּלְגִּיסָא"
+	},
+	"page": {
+		"number": 1176,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pales of <cite ref=\"Q00935\"><he>פְּלַג</he></cite>; cmp. <cite ref=\"A02522\"><he>אִסְפְּרִיסָא</he></cite>) [<i>that which is to be split</i>,] <i>target for projectiles</i> (cmp. <he>קורת חצים</he> <cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 12</cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 20:20\">Targ. I Sam. XX, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 16:12\">Targ. Job XVI, 12</cite> (ed. Lag. <cite ref=\"Q00953\"><he>פְּלַגְסָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:12\">Targ. Lam. III, 12</cite> (ed. Lag. a. oth. <cite ref=\"Q00950\"><he>פלגליסא</he></cite>)."
+			]
+		}
+	]
+}

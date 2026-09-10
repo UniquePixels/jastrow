@@ -1,0 +1,47 @@
+{
+	"id": "G00440",
+	"slug": "זכאי-1",
+	"headword": {
+		"text": "זַכַּאי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 397,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00443\"><he>זָכָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>clear, guiltless, righteous; deserving, worthy</i> (corresp. to b. h. <cite ref=\"R00113\"><he>צַדִּיק</he></cite>), opp. <cite ref=\"H00722\"><he>חַיָּיב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 32a:5\">Sabb. 32ᵃ</cite>, a. e. <he>מגלגלין זכות ע״י ז׳</he>, v. <cite ref=\"C00869\"><he>גִּלְגֵּל</he></cite>.—<he>יום ז׳</he> a lucky day, anniversary of joyous events. ",
+				"<cite ref=\"Taanit 29a:11\">Taan. 29ᵃ</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 11a:7\">Snh. 11ᵃ</cite> <he>אין דורו ז׳ לכך</he> his generation is not deserving it (<cite ref=\"Sotah 48b:8\">Sot. 48ᵇ</cite> <he>זכאין</he>, pl.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>acquitted, not guilty</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 3:6\">Snh. III, 6</cite> <he>שנים אומרים ז׳</he> if two vote, ‘Not guilty’; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>entitled to possession</i> or <i>disposal, having authority, a right</i> &c.; v. <cite ref=\"G00443\"><he>זָכָה</he></cite>.—",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 4:4\">Keth. IV, 4</cite> <he>האב ז׳ בבתו וכ׳</he> the father has authority over his (minor) daughter to give her away in marriage by receiving a consideration &c.; <he>וז׳ במציאתה וכ׳</he> and has the right of possession of what she finds … and of interference with her vows; a. fr.—Pl. <he>זַכָּאִין</he>. ",
+				"<cite ref=\"Pirkei Avot 1:8\">Ab. I, 8</cite> <he>כז׳</he> as if both (claimant and defendant) had been right. ",
+				"<cite ref=\"Sotah 48b:8\">Sot. 48ᵇ</cite>, v. supra; a. fr.—Fem. <cite ref=\"G00437\"><he>זַכָּאָה</he></cite>. ",
+				"<cite ref=\"Sanhedrin 45a:5\">Snh. 45ᵃ</cite> <he>שמא תצא … ז׳</he> she may be acquitted in court."
+			],
+			"label": "3"
+		}
+	]
+}

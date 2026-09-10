@@ -1,0 +1,25 @@
+{
+	"id": "H01380",
+	"slug": "חסימה-1",
+	"headword": {
+		"text": "חֲסִימָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 487,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָסַם</he> I) <i>muzzling, the law forbidding muzzling</i> (<cite ref=\"Deuteronomy 25:4\">Deut. XXV, 4</cite>). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 88b:9\">B. Mets. 88ᵇ</cite> <he>אתה מצווה על חֲסִימָתוֹ</he> thou art warned not to muzzle him. ",
+				"<cite ref=\"Bava Metzia 89a:1\">Ib. 89ᵃ</cite> <he>כל מילי איתנהו בח׳</he> all things (animals) are implied in the law &c. ",
+				"<cite ref=\"Bava Metzia 90b:6\">Ib. 90ᵇ</cite> <he>ח׳ מעלייתא הוא</he> it is a real case of muzzling; a. fr."
+			]
+		}
+	]
+}

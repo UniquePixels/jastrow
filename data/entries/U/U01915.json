@@ -1,0 +1,39 @@
+{
+	"id": "U01915",
+	"slug": "שרבב-1",
+	"headword": {
+		"text": "שִׁרְבֵּב"
+	},
+	"page": {
+		"number": 1627,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <he>רבב</he>) <i>to enlarge, prolong</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 54b:5\">Ber. 54ᵇ</cite> (ref. to <cite ref=\"Psalms 3:8\">Ps. III, 8</cite>) <he>א״ת שִׁבַּרְתָּ אלא שִׁרְבַּבְתָּ</he> read not <i>shibbarta</i> (thou breakest) but <i>shirbabhta</i> thou prolongest (the teeth of the wicked, referring to Og whose teeth grew into the mountain which he was carrying); <cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1<sup>23</sup></cite>; <cite ref=\"Yalkut Shimoni on Nach 625\">Yalk. Ps. 625</cite>; <cite ref=\"Megillah 15b:10\">Meg. 15ᵇ</cite> <he>שריבבת</he>; <cite ref=\"Sotah 12b:7\">Sot. 12ᵇ</cite> <he>שריבבתה</he> (read: <he>שִׁירְבַּבְ׳</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתַּרְבֵּב"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּרְבֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be enlarged</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 40a:14\">Bekh. 40ᵃ</cite> (expl. <he>שרוע</he>, <cite ref=\"Leviticus 21:18\">Lev. XXI, 18</cite>) <he>שנ׳ לו יריכו</he> (Rashi <he>שנִשְׁתַּרְבְּבָה יריכו</he>) a person whose one hip is enlarged (larger than the other). ",
+						"<cite ref=\"Sotah 35a\">Sot. 35ᵃ</cite> <he>נ׳ לשונם וכ׳</he> their tongues were prolonged so as to reach down to their navel; <cite ref=\"Yalkut Shimoni on Torah 745\">Yalk. Num. 745</cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

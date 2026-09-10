@@ -1,0 +1,25 @@
+{
+	"id": "C00144",
+	"slug": "גבשושית",
+	"headword": {
+		"text": "גַּבְשׁוּשִׁית"
+	},
+	"page": {
+		"number": 209,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גבש</he>) <i>heap of stones, pile, mound</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 73b:5\">Sabb. 73ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 152a:11\">Ib. 152ᵃ</cite> (ref. to <cite ref=\"Ecclesiastes 12:5\">Koh. XII, 5</cite> <he>מגבוה ייראו</he>) <he>שאפי׳ ג׳ קטנה וכ׳</he> even a small mound appears to him (the aged man) like the highest mountains. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:1:6\">Y. Erub. II, 20ᵃ</cite>, opp. <cite ref=\"H01690\"><he>חָרִיץ</he></cite>.—Pl. <cite ref=\"C00144\"><he>גַּבְשׁוּשִׁיּוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:3:2\">Y. Sot. VII, 21ᶜ</cite> <he>שתי ג׳ וכ׳</he> (not … <he>שית</he>) they put up two mounds and named them Mount Gerizim &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "I00125",
+	"slug": "טוגא",
+	"headword": {
+		"text": "טוֹגָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 522,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<i>toga</i>) <i>toga, Roman gown</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 234\">Sifré Deut. 234</cite> <he>פרט ליגא</he>; <cite ref=\"Yalkut Shimoni on Torah 933\">Yalk. Deut. 933</cite> <cite ref=\"L00424\"><he>ליגא</he></cite>; Treat. Tsitsith (ed. Kirchheim p. 22) <he>הטריגון</he> (corr. acc.).—Pl. <he>טוֹגִיּוֹת</he>. Sifré l. c. quot. in Ar., s. v. <he>טג</he>: <he>טגיות אינן וֹכ׳</he> (read: <he>טוג׳</he>) <i>togae</i> are exempt from <i>tsitsith</i>"
+			]
+		}
+	]
+}

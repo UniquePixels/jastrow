@@ -1,0 +1,48 @@
+{
+	"id": "C01107",
+	"slug": "גנון-2",
+	"headword": {
+		"text": "גִּנּוּן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּנוּנָא"
+		},
+		{
+			"text": "גִּינּוּ׳"
+		},
+		{
+			"text": "גְּנָנָא"
+		}
+	],
+	"page": {
+		"number": 258,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01106\">same</cite><i>cover, shade, baldachin;</i> esp. <i>bridal chamber, state-room</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 14:13\">Targ. Y. Gen. XIV, 13</cite> <he>גננא</he> cover. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 4:5\">Targ. Is. IV, 5</cite> <he>בגנון</he> (read <he>כג׳</he>, ed. Lag. <he>כגנין</he>, h. text <he>חפה</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 15:32\">Targ. Job XV, 32</cite> Var. his enclosure (v. <cite ref=\"K00557\"><he>כִּילְּתָא</he></cite>) shall not be <cite ref=\"C01107\"><he>גנונא</he></cite> ed. Lag. (ed. <he>גננא</he>) a (wreathed) state-room (h. text <he>רעננה</he>; cmp. ",
+				"<cite ref=\"Song of Songs 1:16\">Cant. I, 16</cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 2:1\">Targ. Y. Ex. II, 1</cite> <he>גי׳ דהילולא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 19:6\">Targ. Ps. XIX, 6</cite>; a. e.—Y. Yeb. XIII, 13ᶜ bot. <he>עבד לה גנון</he> if a bridal room is prepared for her. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:15\">Y. Ber. II, 5ᵃ</cite> they went <he>מיעבד גְּנוּנֵיה דר׳ וכ׳</he> to prepare the bridal chamber of &c.; Bab. ",
+				"<cite ref=\"Berakhot 16a:3\">Ber. 16ᵃ</cite> <he>קטרין ליה גננא</he> wreathed the bridal chamber of &c. ",
+				"<cite ref=\"Ruth Rabbah 2:24\">Ruth R. to I, 17</cite> (sect. 3) [read:] <he>דיהא גְנוּנָךְ חסר וכ׳</he> that thy state-room in the hereafter have one jewel less than &c., i.e. that the jewel given thee in this world be deducted from thy future reward."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"C01131\"><he>גני</he></cite>) <i>couch, breeding place</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:22\">Targ. Job XL, 22</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 40:31\">Ib. 31</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

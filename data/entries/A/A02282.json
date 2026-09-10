@@ -1,0 +1,26 @@
+{
+	"id": "A02282",
+	"slug": "אנפקינון",
+	"headword": {
+		"text": "אָנְפַּקִּינוֹן"
+	},
+	"page": {
+		"number": 87,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ὀμφάκινον, sub. ἔλαιον) <i>oil made of unripe olives</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:12\">Targ. Esth. II, 12</cite> <he>אַנְפֵּ׳</he>.—",
+				"<cite ref=\"Pesachim 43a\">Pes. 43ᵃ</cite> <cite ref=\"A02278\"><he>אנפיקנין</he></cite> (Ms. M. <cite ref=\"A02278\"><he>אנפיקנון</he></cite>). ",
+				"<cite ref=\"Mishnah Menachot 8:3\">Men. VIII, 3</cite>; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 98:2\">Gen. R. s. 98</cite> <he>טן …</he> (corr. acc.). ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:8\">Cant. R. to IV, 8</cite> <he>איפק׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

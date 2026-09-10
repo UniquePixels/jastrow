@@ -1,0 +1,23 @@
+{
+	"id": "Q00471",
+	"slug": "פחים",
+	"headword": {
+		"text": "פָּחֵים"
+	},
+	"page": {
+		"number": 1152,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פחם</he> <i>to paint</i>, Syr. <i>to compare</i>, cmp. <cite ref=\"C00428\"><he>גַּוָּן</he></cite> a. <cite ref=\"K00096\"><he>כְּגוֹן</he></cite>) <i>equal</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 3:15\">Targ. Prov. III, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:11\">Ib. VIII, 11</cite> (Ms. <cite ref=\"Q00010\"><he>פָּאחֵים</he></cite>, some ed. incorr. <he>פחי</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "U00935",
+	"slug": "שילה",
+	"headword": {
+		"text": "שִׁילֹה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁילוֹ"
+		}
+	],
+	"page": {
+		"number": 1562,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " pr. n. pl. <i>Shilo</i>, the seat of the Tabernacle after the conquest. ",
+			"units": [
+				"<cite ref=\"Megillah 16b:2\">Meg. 16ᵇ</cite> <he>בכה על משכן ש׳ וכ׳</he> he (Benjamin) wept over the Tabernacle of Shiloh, which was to be in the dominion of Joseph &c.; <cite ref=\"Yalkut Shimoni on Torah 152:5\">Yalk. Gen. 152</cite>. ",
+				"<cite ref=\"Makkot 12a:3\">Macc. 12ᵃ</cite> <he>והוא … של ש׳</he> he (Joab) took hold of the altar of Shiloh, opp. to <he>בית עולמים</he>. ",
+				"<cite ref=\"Zevachim 61b:6\">Zeb. 61ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 75b:9\">B. Bath. 75ᵇ</cite> <he>אלף ושני ש׳ וכ׳</he> (Ar. <cite ref=\"U00947\"><he>שִׁילֵי</he></cite> pl.; Ms. M. <he>אלף שתישל</he>, v. Rabb. D. S. a. l. note) an area of one thousand and two times that of Shiloh built up with palaces (v. <cite ref=\"I00337\"><he>טִיטְרַפְלִיּוֹת</he></cite>); [Rashb. <he>שיל״ה</he> the numerical value of Shiloh = 345]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (interchanging with <cite ref=\"U00934\"><he>שילא</he></cite>) <i>Shilo</i>, (<i>Shila</i>), name of a fictitious town, v. <cite ref=\"J00177\"><he>יוֹחָנָא</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 40:6\">Gen. R. s. 40</cite>, beg. <he>שילו</he>; <cite ref=\"Bereishit Rabbah 40:6\">ib.</cite> s. 25, end; ib. s. 64, beg. <cite ref=\"U00934\"><he>שילא</he></cite>; Midr. Sam. ch. XXVIII <he>שילה</he>; <cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> <cite ref=\"U00934\"><he>שילא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " pr. n. m. <i>Shilo</i>, homiletical name of the King Messiah. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:20\">Gen. R. s. 98</cite> (ref. to <cite ref=\"Genesis 49:10\">Gen. XLIX, 10</cite>) <he>עד … ש׳ זה מלך וכ׳</he> ‘until Sh. comes’, this means the King Messiah. ",
+				"<cite ref=\"Sanhedrin 98b:8\">Snh. 98ᵇ</cite> <he>ש׳ שמו</he> his (the Messiah’s) name will be Shiloh.—V. <cite ref=\"U00934\">preced.</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

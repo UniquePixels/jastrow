@@ -1,0 +1,69 @@
+{
+	"id": "M02444",
+	"slug": "מקק-2",
+	"headword": {
+		"text": "מְקַק"
+	},
+	"page": {
+		"number": 832,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M02443\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמַקְמֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to pine away, be weakened</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 31:18\">Targ. Y. Deut. XXXI, 18</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to decay, melt</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 14:10\">Targ. Job XIV, 10</cite> (h. text <he>חלש</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 73:8\">Targ. Ps. LXXIII, 8</cite> (h. text <he>ימיקו</he>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to sneeze</i>, v. infra.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpalp."
+		},
+		{
+			"forms": ["אִיתְמְקַק"],
+			"senses": [
+				{
+					"gloss": " (cmp. <he>מוג</he>, <i>Ithpol.</i>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be languid, to stretch one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 17:21\">Targ. I Kings XVII, 21</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " [<i>to collapse</i>; v. <cite ref=\"M02744\"><he>מַרְפֵּא</he></cite> a. <cite ref=\"P00485\"><he>עָטַשׁ</he></cite>,] <i>to sneeze</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 4:35\">Targ. II Kings IV, 35</cite> ed. Lag. (ed. Ven. I <he>אִתְמוֹקַק</he> <i>Ithpol.</i> of <cite ref=\"M00578\"><he>מוּק</he></cite>; Regia <cite ref=\"M02444\"><he>אִתְמַקְמַק</he></cite>; ed. <he>אתמורק</he>; h. text <he>ויזורר</he>; Pesh. <cite ref=\"Q01515\"><he>אתפקק</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

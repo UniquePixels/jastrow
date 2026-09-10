@@ -1,0 +1,30 @@
+{
+	"id": "C00451",
+	"slug": "גוסס",
+	"headword": {
+		"text": "גּוֹסֵס"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוֹסֶסֶת"
+		}
+	],
+	"page": {
+		"number": 224,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Pol. of <cite ref=\"C00446\"><he>גּוּס</he></cite> = <cite ref=\"C00338\"><he>גּוּז</he></cite>, Syr. <cite ref=\"C00446\"><he>גוס</he></cite> P. Sm. 686) <i>rapidly passing away, sinking, dying</i>. Ohol. I, 6; a. fr.—",
+			"units": [
+				"<cite ref=\"Kiddushin 71b:12\">Kidd. 71ᵇ</cite> <he>עילם ג׳</he> Elam is to be despaired of (with reference to purity of descent, v. <cite ref=\"B01239\"><he>בָּרִי</he></cite>).—Pl. <he>גּוֹסְסִים</he>, <he>גּוֹסְסִין</he>; f. <he>גּוֹסְסוֹת</he>. ",
+				"<cite ref=\"Gittin 28a:7\">Gitt. 28ᵃ</cite>, a. fr. <he>רוב ג׳ למיתה</he> the majority of those believed to be in a dying condition, really die. ",
+				"<cite ref=\"Shevuot 37b:2\">Shebu. 37ᵇ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:6:7\">Y. Yeb. I, 3ᵇ</cite> top (of genealogical descent, v. supra). V. <cite ref=\"C00778\"><he>גִּיסָה</he></cite>, <cite ref=\"C00680\"><he>גִּיזָה</he></cite>."
+			]
+		}
+	]
+}

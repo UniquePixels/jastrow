@@ -1,0 +1,33 @@
+{
+	"id": "S00833",
+	"slug": "קטרון-2",
+	"headword": {
+		"text": "קִטְרוֹן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1353,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a contraction of centurio, κεντυρίων, v. <cite ref=\"S00436\"><he>קוּנְטְרִינִים</he></cite>) <i>commander of a century</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 309:1\">Sifré Deut. 309</cite> <he>אם היה ק׳ שגדול וכ׳</he> if it were a centurio who is more powerful than he (the <i>buleutes</i>) &c.; <cite ref=\"Yalkut Shimoni on Torah 942:24\">Yalk. ib. 942</cite> <cite ref=\"S01994\"><he>קרטון</he></cite> (corr. acc.). ",
+				"<cite ref=\"Tosefta Sotah 15:7\">Tosef. Sot. XV, 7</cite> (two versions confounded, one having <he>בעל זמורה</he>, and the other <cite ref=\"S02049\"><he>קי׳</he></cite>), v. <cite ref=\"G00511\"><he>זְמוֹרָה</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 321\">Yalk. Jer. 321</cite> <cite ref=\"S01994\"><he>קרטון</he></cite> (corr. acc.). ",
+				"<cite ref=\"Tosefta Demai 6:3\">Tosef. Dem. VI, 3</cite> <he>שוקל לאוצר שוקל לק׳ וכ׳</he> he that pays taxes to the (Roman) treasurer or to the Centurio, gives first the tithes and pays his taxes (on the remainder). ",
+				"<cite ref=\"Sifrei Bamidbar 131\">Sifré Num. 131</cite>, v. <cite ref=\"Q00977\"><he>פְּלוֹמוֹפִּילוֹן</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 631\">Yalk. Lev. 631</cite>; <cite ref=\"Yalkut Shimoni on Torah 178\">Yalk. Ex. 178</cite> (not <he>קיטרין</he>).—Pl. <cite ref=\"S00834\"><he>קִטְרוֹנִים</he></cite>. Pesik. R. add. s. 2 (ed. Fr. p. 197ᵃ) <he>הקנטורים</he> (corr. acc.)."
+			]
+		}
+	]
+}

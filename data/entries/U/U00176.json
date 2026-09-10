@@ -1,0 +1,41 @@
+{
+	"id": "U00176",
+	"slug": "שבר-5",
+	"headword": {
+		"text": "שֶׁבֶר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1517,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00174\"><he>שָׁבַר</he> I)</cite><i>break, fracture</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 22:6\">Sabb. XXII, 6</cite> <he>אין מחזירין את הש׳</he> you must not set a fracture (on the Sabbath). ",
+				"<cite ref=\"Mishnah Tevul Yom 4:7\">T’bul Yom IV, 7</cite> <he>שלום מן הש׳ וכ׳</he> (he meant) that it will be brought up in safety without being broken and without being spilt; <cite ref=\"Jerusalem Talmud Terumot 2:1:14\">Y. Ter. II, 41ᶜ</cite> top; a. e.—Trnsf. <i>destruction</i>, <i>calamity</i>. ",
+				"<cite ref=\"Bereishit Rabbah 91:1\">Gen. R. s. 91</cite> (play on <cite ref=\"U00176\"><he>שֶׁבֶר</he></cite>, <cite ref=\"Genesis 42:1\">Gen. XLII, 1</cite>, a. <cite ref=\"O00089\"><he>סֵבֶר</he></cite>) <he>כי יש ש׳ זה הרעב כי יש סבר זה השבע וכ׳</he> ‘that there is a calamity’, that means the famine; ‘that there is brightness’, that means plenty &c. ",
+				"<cite ref=\"Genesis 42:1\">Ib.</cite> <he>והלא כבר נאמר ותרעב … יש ש׳</he> has it not been said before, ‘and all the land of Egypt was hungry’? what is meant by ‘there is a calamity in Egypt’? &c. Pesik. Vattom., p. 129ᵇ (not <he>שכר</he>); <cite ref=\"Yalkut Shimoni on Nach 816:5\">Yalk. Ps. 816</cite>, v. <cite ref=\"U00174\"><he>שָׁבַר</he> I</cite>; a. e.—Pl. <cite ref=\"U01527\"><he>שְׁבָרִים</he></cite>, constr. <cite ref=\"U00146\"><he>שִׁבְרֵי</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 30:10\">Gen. R. s. 30</cite> (ref. to <cite ref=\"Job 12:5\">Job XII, 5</cite>) <he>שהיו מוכנים לשני ש׳ לשבר מלמעלן וכ׳</he> they were predestined for two calamities, for destruction from above (rain), and for destruction from below (rise of the deeps). ",
+				"<cite ref=\"Shemot Rabbah 18:12\">Ex. R. s. 18</cite>, v. <cite ref=\"U00174\"><he>שָׁבַר</he> I</cite>. ",
+				"<cite ref=\"Mishnah Kelim 11:3\">Kel. XI, 3</cite>, a. fr. <he>שברי כלים</he> fragments of vessels, broken vessels. ",
+				"<cite ref=\"Bava Batra 14b:1\">B. Bath. 14ᵇ</cite> <he>שברי לוחות</he> the tablets broken by Moses. ",
+				"<cite ref=\"Berakhot 8b:17\">Ber. 8ᵇ</cite> <he>הזהרו בזקן … לוחות ושברי וכ׳</he> be careful not to despise an old man that has forgotten his learning through no fault of his, for we are told, the (whole) tablets and the broken ones were deposited in the Ark; <cite ref=\"Menachot 99a:11\">Men. 99ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a broken ejaculation, sigh</i>, esp. <i>the broken disconnected sounds produced on the Shofar</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:12\">Y. Taan. II, 65ᵇ</cite> top (play on <cite ref=\"A00368\"><he>אֵד</he></cite>, <cite ref=\"Genesis 2:6\">Gen. II, 6</cite>) <he>עלה ש׳ מלמטן וכ׳</he> when the broken tune (at the prayer meeting) rises from below, at once the rain comes down.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Rosh Hashanah 34a:4\">R. Hash. 34ᵃ</cite> <he>שיעור תרועה כשלשה ש׳</he> the value of a <i>t’ruʿah</i> (a succession of tremulous sounds) is equal to three <i>sh’barim</i>. ",
+				"<cite ref=\"Rosh Hashanah 34a:21\">Ib.</cite> <he>אתקין … שלשה ש׳ תרועה וכ׳</he> R. Abbahu introduced in Cæsaræa (for the New Year’s Day) the blowing of a <i>t’ḳiʿah</i> (a succession of connected notes), three <i>sh’barim</i>, a <i>tr’uʿah</i>, and a <i>t’ḳi‘ah;</i> a. e."
+			],
+			"label": "2"
+		}
+	]
+}

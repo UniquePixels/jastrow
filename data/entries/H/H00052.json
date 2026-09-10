@@ -1,0 +1,45 @@
+{
+	"id": "H00052",
+	"slug": "חביב-3",
+	"headword": {
+		"text": "חָבִיב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבִיבָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 418,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00051\">preced.</cite>) [<i>connected</i>,] <i>uncle, father’s brother</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 10:4\">Targ. Y. Lev. X, 4</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 41b\">B. Bath. 41ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 10:1:5\">Y. B. Kam. X, beg., 7ᵇ</cite>; a. fr.—<i>Fem.</i> <cite ref=\"H00058\"><he>חֲבִיבְתָּא</he></cite> "
+			]
+		},
+		{
+			"gloss": "<i>aunt, father’s brother’s wife</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 6:20\">Targ. Y. Ex. VI, 20</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>mother-in-law</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 27:23\">Targ. Y. II, Deut. XXVII, 23</cite> (h. text <cite ref=\"H01908\"><he>חתנת־</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

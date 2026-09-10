@@ -1,0 +1,50 @@
+{
+	"id": "S00951",
+	"slug": "קיל-2",
+	"headword": {
+		"text": "קִיל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1359,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"S01356\"><he>קְלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be light</i>.—Part. <cite ref=\"S00950\"><he>קִיל</he></cite>; pl. <he>קִילֵי</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 46b:6\">Snh. 46ᵇ</cite>, v. <cite ref=\"S01336\"><he>קַלִּיל</he> II</cite>. ",
+				"<cite ref=\"Gittin 35a:10\">Gitt. 35ᵃ</cite> <he>בשני דרב ק׳ נדרי</he> in Rab’s days vows were lightly treated."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be lenient</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 12:3:5\">Y. Sabb. XII, 13ᵈ</cite> top <he>קָלַת וחמרת</he> (perh. <cite ref=\"S01430\"><he>קַלַּת</he></cite> fr. <cite ref=\"S01356\"><he>קְלַל</he></cite>) thou art more lenient in one respect and more strict in another. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 12:3:5\">Ib.</cite> <he>קלת על דרבנן</he> thou art more lenient than the Rabbis."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָקֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to make light of, treat with contempt</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 21:23\">Targ. Y. Deut. XXI, 23</cite>.—<i>to insult, curse</i>. ",
+						"<cite ref=\"Onkelos Exodus 22:27\">Targ. O. Ex. XXII, 27</cite> <cite ref=\"V00880\"><he>תַקִּיל</he></cite> ed. Berl. (oth. ed. <cite ref=\"V00880\"><he>תְקִיל</he></cite>; Y. <he>תְקִילוּן</he>).—Y. Dem. I, 22ᵃ top <he>מאן דידע בנפשיה דלא א׳ לבר וכ׳</he> he who is sure of himself that he never insulted a man, may cross &c.—3) <i>to be lenient, lax</i>. Y. Shek. VII, 50ᶜ bot. <he>חמתון מְקִילִין</he> (not <cite ref=\"M02418\"><he>מקילון</he></cite>), v. <cite ref=\"H01224\"><he>חֲמַר</he> I</cite>.—V. <cite ref=\"S01356\"><he>קְלַל</he></cite>."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

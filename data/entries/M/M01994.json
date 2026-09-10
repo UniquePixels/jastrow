@@ -1,0 +1,29 @@
+{
+	"id": "M01994",
+	"slug": "מספר-2",
+	"headword": {
+		"text": "מַסְפָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַסֵפְּרָא"
+		}
+	],
+	"page": {
+		"number": 810,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01416\"><he>סְפַר</he></cite>) <i>tool for cutting hair, razor, scissors</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 6:5\">Targ. O. Num. VI, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 5:1\">Targ. Ez. V, 1</cite> (not <cite ref=\"M01905\"><he>מִסְ׳</he></cite>); a. e.—",
+				"<cite ref=\"Sanhedrin 96a:2\">Snh. 96ᵃ</cite> <he>הבו לי מ׳</he> (Ms. F. <cite ref=\"M01997\"><he>מַסְפַּרְתָּא</he></cite>) give me a razor; <cite ref=\"Sanhedrin 96a:2\">ib.</cite> <he>ויהבו ליה מספרתא</he>; <cite ref=\"Yalkut Shimoni on Nach 276\">Yalk. Is. 276</cite> <cite ref=\"M01994\"><he>מספרא</he></cite>."
+			]
+		}
+	]
+}

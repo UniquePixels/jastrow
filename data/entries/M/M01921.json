@@ -1,0 +1,28 @@
+{
+	"id": "M01921",
+	"slug": "מסילה",
+	"headword": {
+		"text": "מְסִילָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסִלָּה"
+		}
+	],
+	"page": {
+		"number": 806,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"O01004\"><he>סָלַל</he> II)</cite><i>path, road</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 907\">Yalk. Deut. 907</cite>, v. <cite ref=\"M01160\"><he>מִיל</he></cite>.—Pl. <cite ref=\"M02318\"><he>מְסִילּוֹת</he></cite>, <he>מְסִלּ׳</he>. ",
+				"<cite ref=\"Berakhot 59b\">Ber. 59ᵇ</cite>; <cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite> <he>ככבים במְסִלּוֹתָם</he> the planets on re-entering their periodical orbits."
+			]
+		}
+	]
+}

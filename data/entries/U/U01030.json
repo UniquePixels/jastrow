@@ -1,0 +1,34 @@
+{
+	"id": "U01030",
+	"slug": "שיץ-2",
+	"headword": {
+		"text": "שֵׁיץ"
+	},
+	"page": {
+		"number": 1567,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U01029\">preced.</cite>; cmp. <cite ref=\"N00399\"><he>נוֹצָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>prickly branch of the date palm.—</i>Pl. <cite ref=\"U01817\"><he>שֵׁיצִים</he></cite>, <cite ref=\"U01817\"><he>שֵׁיצִין</he></cite>, <cite ref=\"U01034\"><he>שֵׁצִ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 7:16\">Tosef. Shebi. VII, 16</cite>; <cite ref=\"Pesachim 53a:6\">Pes. 53ᵃ</cite> <he>על של בין הש׳</he> as long as there are dates on the single branches, opp. <he>כפים</he>, v. <cite ref=\"K00603\"><he>כִּיפָּה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>late</i> (<i>stony</i>) <i>date on the palm-tree</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:7:5\">Y. Sabb. I, 4ᵃ</cite> bot. <he>ש׳ שבכפים</he> the stony dates on the top branches; Y. Bets. III, 62ᵃ (not <he>שבכפיס</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

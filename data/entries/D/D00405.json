@@ -1,0 +1,35 @@
+{
+	"id": "D00405",
+	"slug": "דחוק",
+	"headword": {
+		"text": "דְּחוֹק"
+	},
+	"page": {
+		"number": 291,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00435\"><he>דחק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>oppression</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 6:6\">Targ. Ex. VI, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 43:2\">Targ. Ps. XLIII, 2</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>need, stint</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 18:26\">Targ. II Chr. XVIII, 26</cite>; <cite ref=\"I Kings 22:27\">I Kings XXII, 27</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

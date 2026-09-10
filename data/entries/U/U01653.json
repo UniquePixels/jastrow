@@ -1,0 +1,63 @@
+{
+	"id": "U01653",
+	"slug": "שעי-2",
+	"headword": {
+		"text": "שְׁעֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁעָא"
+		}
+	],
+	"page": {
+		"number": 1610,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>שוע</he>, <he>שעע</he>) <i>to smooth, paste over, daub</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 51b\">Succ. 51ᵇ</cite>; <cite ref=\"Bava Batra 4a:6\">B. Bath. 4ᵃ</cite> <he>סבר למִשְׁעֲיָין בדהבא</he> he (Herod) intended to cover them (the Temple walls) with gold."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁעֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01652\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 5:10\">Targ. Ps. V, 10</cite> <he>מְשַׁעֲיִין</he>. Ms. (ed. <he>משעעין</he>).—Part. pass. <he>מְשָׁעָא</he>. ",
+						"<cite ref=\"Targum Jerusalem, Numbers 19:15\">Targ. Y. II, Num. XIX, 15</cite> <he>מִשְׁעָא</he> (corr. acc., or <he>מַשְׁעָא</he>, Part. pass. <i>Af.</i>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתָּעֵי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּעֵי"],
+			"senses": [
+				{
+					"gloss": " [<i>to make one’s self pleasant</i>,] <i>to converse, talk; to tell a story</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 24:66\">Targ. O. Gen. XXIV, 66</cite>. ",
+						"<cite ref=\"Targum Jonathan on Judges 6:13\">Targ. Jud. VI, 13</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 30:10\">Targ. Is. XXX, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 50:16\">Targ. Ps. L, 16</cite>; <cite ref=\"Aramaic Targum to Psalms 50:19\">19</cite>; a. fr.—",
+						"<cite ref=\"Bava Batra 73a:8\">B. Bath. 73ᵃ</cite> <he>אִשְׁתָּעוּ לי נחותי וכ׳</he> (not <cite ref=\"U01653\"><he>אשתעי</he></cite>) seafarers told me. ",
+						"<cite ref=\"Bava Batra 74a:7\">Ib. 74ᵃ</cite> <he>ר׳ יוחנן מִשְׁתָּעֵי וכ׳</he> R. J. told a story: once upon a time &c. Y. Ber. II, 4ᵈ bot. <he>כמה דאי׳ … אִשְׁתָּעְיָיא וכ׳</he> as the Scripture talks, so does the Mishnah, i.e. the Mishnah applies the Biblical phraseology; a. fr.—א׳ דינא בהדי <i>to talk about the law with, to sue</i>. ",
+						"<cite ref=\"Bava Metzia 14a:10\">B. Mets. 14ᵃ</cite> <he>דינא … ומשתעי דינא בהדיה</he> the law is that R. may go and sue him. ",
+						"<cite ref=\"Bekhorot 47b:2\">Bekh. 47ᵇ</cite> <he>גברא דלא מצית לאִשְׁתָּעוּיֵי וכ׳</he> a man with whom thou canst not go to law; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

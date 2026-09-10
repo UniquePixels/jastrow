@@ -1,0 +1,70 @@
+{
+	"id": "U01628",
+	"slug": "שעבד-1",
+	"headword": {
+		"text": "שִׁעְבֵּד"
+	},
+	"page": {
+		"number": 1608,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Shafel of <cite ref=\"P00013\"><he>עָבַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to subject, subjugate, surrender; to obligate, pledge</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> (ref. to <cite ref=\"Genesis 15:13\">Gen. XV, 13</cite>) <he>ידוע שאני מְשׁעְבְּדָן וכ׳</he> ‘knowing’ means that I will surrender them as slaves, ‘thou shalt know’, that I will redeem them. ",
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>לא כך … שהוא מְשַׁעְבְּדֵינוּ בשבעים וכ׳</he> has not the Lord said, that he will make us the subjects of seventy nations? <cite ref=\"Pesikta Rabbati 15:1\">Ib.</cite> [read:] <he>גותי אחד בא ומְשַׁעְבֵּד באחד ממנו כגון שׁשִׁיעְבְּדָה כל אומתו</he> one Goth comes and enslaves one of us, that is as much as if she (Rome) had enslaved all of us; <cite ref=\"Shir HaShirim Rabbah 2:8\">Cant. R. to II, 8</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite> (ref. to <cite ref=\"Isaiah 66:7\">Is. LXVI, 7</cite>) <he>קודם … מְשַׁעְבֵּד ראשון וכ׳</he> before yet the first oppressor (of Israel) was born, the last redeemer was born. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 3:8\">R. Hash. III, 8</cite> (ref. to <cite ref=\"Numbers 21:8\">Num. XXI, 8</cite>) <he>בזמן … ומְשַׁעְבְּדִין את לבם לאביהם וכ׳</he> when the Israelites looked upward and pledged their hearts to their Father in heaven, they were healed; a. fr.—Part. pass. <he>מְשׁוּעְבָּד</he>; pl. <he>מְשׁוּעְבָּדִים</he>, <he>מְשׁוּעְבָּדִין</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 5\">Num. R. s. 5<sup>8</sup></cite> <he>שלא … אלא מש׳ לפני הארון</he> they were not haughty, but bore themselves like servants before the Ark. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 3:2:8\">Y. Ḥag. III, 79ᵇ</cite> <he>שיהא הכל מש׳ להלכה</he> so that everything be made subject to the law; a. e.—<he>נכסים מש׳</he>, or <he>משועבדין</he> (sub. <cite ref=\"N00841\"><he>נכסים</he></cite>) <i>mortgaged property</i>, i.e. property bought from a person who owes a debt collectible from his landed estate in whatever hands it may be, opp. <he>בני חורין</he> property in the hands of the debtor. ",
+				"<cite ref=\"Bava Metzia 13b:6\">B. Mets. 13ᵇ</cite>. ",
+				"<cite ref=\"Gittin 50b:13\">Gitt. 50ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to vex, persecute, attempt to destroy</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 22\">Ex. R. s. 22</cite> <he>נראה … מְשַׁעְבְּדִין את ישראל בדבר וכ׳</he> (not <he>על ישראל</he>) let us see how we can persecute Israel by means of something which the Lord cannot bring upon us in the same manner; <cite ref=\"Yalkut Shimoni on Torah 208:7\">Yalk. ib. 208</cite> <he>אם מְשַׁעְבְּדִים אנו אותם באש וכ׳</he> if we destroy them through fire, their God can bring fire upon us &c.; <he>בואו ונְשַׁעְבְּדֵם במים</he> (not <he>ונשתעבדם</he>) come, let us destroy them through water; <cite ref=\"Yalkut Shimoni on Nach 786:1\">Yalk. Ps. 786</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתַּעְבֵּד"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּעְבֵּד"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"L00000\"><he>ל</he></cite>) <i>to be subjugated, be the slave</i> or <i>subject of</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 4:4\">Gitt. IV, 4</cite> <he>עבד … אם לשום עבד יִשְׁתַּעְבֵּד וכ׳</he> a slave that was captured and redeemed, if he was redeemed as a slave, remains a slave; if as a freeman, he cannot be made a slave. ",
+						"<cite ref=\"Gittin 37b:11\">Ib. 37ᵇ</cite> <he>ישתעבד לרבו ראשון</he> he is the slave of his first (original) master; <he>לא ישתעבד … לרבו שני</he> he is the slave neither of his first master, nor of his second master (his redeemer). ",
+						"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>במה … או שׁיִשְׁתַּעְבְּדו למלכיות</he> which wilt thou choose? that thy children go down to Gehenna, or that they be subjected to successive empires? <cite ref=\"Shabbat 88b:2-8\">Sabb. 88ᵇ</cite> <he>אמר … לפרעה הִשְׁתַּעְבַּדְתֶּם</he> (Ms. M. <he>נִשְׁתַּעְבַּדְתֶּם</he>) he (Moses) said to them (the angels), did you go down to Egypt? have you been slaves to Pharaoh? <cite ref=\"Midrash Tehillim 78:3\">Midr. Till. to Ps. LXXVIII, 32</cite> (insert from <cite ref=\"Yalkut Shimoni on Nach 819\">Yalk. ib. 819</cite>) <he>זה יעקב … שאילו עלה לא ירד עוד ולא היה לנו להִשְׁתַּעְבֵּד שיעבוד זה שאנו משועבדין</he> (v. ed. Bub.) this refers to Jacob …, for if he had gone up, he would not have gone down again, and we should not have to suffer the servitude to which we are now subjected; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to use as slave, enslave</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 118b:13\">Pes. 118ᵇ</cite> <he>מה הללו שנִשְׁתַּעְבְּדוּ בהן כך אני שלא נִשְׁתַּעְבַּדְתִּי וכ׳</he> if they (the Egyptians) who treated them as slaves, fare thus, I (Cush) who did not enslave them &c. ",
+						"<cite ref=\"Gittin 40a:7\">Gitt. 40ᵃ</cite> <he>פלונית … אל ישתעבדו בה וכ׳</he> that handmaid of mine, they (my heirs) shall not treat her as a slave after my death. ",
+						"<cite ref=\"Ketubot 111a:1-4\">Keth. 111ᵃ</cite> <he>השביע … שלא ישתעבדו בהן וכ׳</he> the Lord adjured the nations not to oppress Israel too hard. ",
+						"<cite ref=\"Menachot 53b\">Men. 53ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 289\">Yalk. Jer. 289</cite> [read:] <he>ישתעבדו בהם ארבע מלכיות וכ׳</he> (v. Rabb. D. S. to Men. l. c., note) four successive empires shall treat them as slaves, each as long &c.; a. fr.—[<cite ref=\"Yalkut Shimoni on Torah 208:7\">Yalk. Ex. 208</cite>, v. supra.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

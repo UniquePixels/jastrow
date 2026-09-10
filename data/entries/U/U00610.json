@@ -1,0 +1,22 @@
+{
+	"id": "U00610",
+	"slug": "שחאתא",
+	"headword": {
+		"text": "שְׁחָאתָא"
+	},
+	"page": {
+		"number": 1545,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שְׁחֵי</he> I; cmp. h. <cite ref=\"U00643\"><he>שֶׁחִי</he></cite>) <i>arm-pit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:24\">Targ. Prov. XIX, 24</cite>; <cite ref=\"Aramaic Targum to Proverbs 26:15\">XXVI, 15</cite> ed. Lag. (ed. Wil. <cite ref=\"U00728\"><he>שַׁחֲתָא</he></cite>; h. text <he>צלחת</he>!)."
+			]
+		}
+	]
+}

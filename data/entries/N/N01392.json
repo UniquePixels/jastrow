@@ -1,0 +1,96 @@
+{
+	"id": "N01392",
+	"slug": "נתר-1",
+	"headword": {
+		"text": "נָתַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 945,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נתק</he>)<i>to sever, loosen</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיתַּר", "נִיתּוֹר"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn loose, be released</i>. Y. Taan. II, 65ᵈ top, v. <cite ref=\"N00589\"><he>נָטַשׁ</he></cite> II a. <cite ref=\"N01398\"><he>נָתשׁ</he></cite>.—Trnsf. <i>to be untied, released from an obligation; to become permitted</i>. Y. Yeb. IV, 6ᵇ bot. (ref. to <cite ref=\"Deuteronomy 25:10\">Deut. XXV, 10</cite>) <he>בית שהוא נִיתָּר וכ׳</he> a house (of several wives) which is released (from the leviratical marriage) by means of one <i>ḥălitsah</i> (performed on one of the wives). Y. Bicc. I, 64ᵇ top <he>כל הביכורים שנראו לִיתּוֹר … אינן נִיתּוֹרִין וכ׳</he> all the first fruits which are to be released (become permitted by being brought to the Temple) in the land (of Palestine), can become so only by reciting the confession (<cite ref=\"Deuteronomy 26:5-10\">Deut. XXVI, 5—10</cite>). ",
+					"units": [
+						"<cite ref=\"Eruvin 10a\">Erub. 10ᵃ</cite>; <cite ref=\"Eruvin 12a:9\">12ᵃ</cite> <he>חצר נִיתֶּרֶת וכ׳</he> a court becomes permitted (for Sabbath purposes) by &c., v. <cite ref=\"Q01223\"><he>פַּס</he></cite>. ",
+						"<cite ref=\"Eruvin 12a:9\">Ib.</cite> <he>שהוא נִיתָּר וכ׳</he> that it is made available &c.; a. e. "
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to loosen, untie, unscrew</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 16:5\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:5\">XVII</cite>), 5 <he>שהִתִּירוֹ</he> which one unscrewed; <cite ref=\"Mishnah Shabbat 20:5\">Sabb. XX, 5</cite> <he>מַתִּירִין</he>, v. <cite ref=\"M01350\"><he>מַכְבֵּשׁ</he></cite>. ",
+						"<cite ref=\"Shabbat 22a\">Ib. 22ᵃ</cite> <he>מתירין</he> (<cite ref=\"R00440\"><he>ציצית</he></cite>) <he>מבגד לבגד</he> you may untie show-fringes from one garment (and put them) on another garment. ",
+						"<cite ref=\"Bereishit Rabbah 5:2\">Gen. R. s. 5</cite> <he>מַתִּירָן ומוציא וכ׳</he> he unties them (opens the bags) and lets the air in them escape; a. fr.—[<cite ref=\"Tosefta Shevi'it 1:7\">Tosef. Shebi. I, 7</cite>, v. <cite ref=\"F00115\"><he>וָתַר</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to permit, declare permitted</i>, opp. <cite ref=\"A02550\"><he>אָסַר</he></cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 4a:9\">Sabb. 4ᵃ</cite> <he>הִתִּירוּ לו וכ׳</he> would they (the scholars) permit him to take it out &c.? <cite ref=\"Mishnah Shabbat 2:4\">Ib. II, 4</cite> <he>ור׳ יהודה מַתִּיר</he> but R. Judah declares it permitted. ",
+						"<cite ref=\"Mishnah Shabbat 2:2\">Ib. 2</cite> <he>וחכמים מַתִּירִין</he>; a. v. fr.—V. <cite ref=\"M03064\"><he>מַתִּיר</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to free, surrender; to outlaw, proscribe</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 40b:19\">Snh. 40ᵇ</cite> <he>ה׳ עצמו למיתה</he> did he surrender himself to death?, i.e. did he declare that he would commit the act in spite of the warning which defined it to be a deadly crime? <cite ref=\"Sanhedrin 41a:9\">Ib. 41ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 17:6\">Deut. XVII, 6</cite>) <he>עד שיַתִּיר וכ׳</he> until he declares himself ready to undergo capital punishment for his act. ",
+						"<cite ref=\"Chullin 41a\">Ḥull. 41ᵃ</cite>. Y. Peah I, 16ᵃ <he>עילא … להַתִּיר דמן וכ׳</he> they wanted a pretext to outlaw the rebels; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּתָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be loosened, untied</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite>, beg., a. fr. <he>הוּתְּרָה הרצועה</he>, v. <cite ref=\"T00977\"><he>רְצוּעָה</he></cite>. ",
+						"<cite ref=\"Mishnah Shabbat 20:5\">Sabb. XX, 5</cite> <he>אם היה מוּתָּר וכ׳</he> if it (the clothes press) was (partly) unscrewed on the eve of the Sabbath, he may unscrew it entirely. ",
+						"<cite ref=\"Bava Kamma 9b\">B. Kam. 9ᵇ</cite> <he>שור מותר</he> an ox that is not tied, opp. <cite ref=\"S02226\"><he>קשור</he></cite>. ",
+						"<cite ref=\"Mishnah Eruvin 2:1\">Erub. II, 1</cite> <he>קשורות אבל לא מוּתָּרוֹת</he> closely tied together, but not tied in a loose way; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be permitted</i>. Y. Sabb. II, 5ᵇ bot. <he>ה׳ הנדר</he>, v. <cite ref=\"N00242\"><he>נֶדֶר</he></cite>; <cite ref=\"Sanhedrin 68a\">Snh. 68ᵃ</cite>. ",
+					"units": [
+						"<cite ref=\"Chullin 17a\">Ḥull. 17ᵃ</cite> <he>בתחילה ה׳ להן וכ׳</he> originally they were permitted to eat the flesh of an animal killed by stabbing (v. <cite ref=\"N00493\"><he>נְחִירָה</he></cite>). ",
+						"<cite ref=\"Chullin 9a:10\">Ib. 9ᵃ</cite> <he>נשחטה הותרה</he> when the animal has been slaughtered according to the ritual, it is (absolutely) permitted. ",
+						"<cite ref=\"Eruvin 93b:12\">Erub. 93ᵇ</cite> <he>שבת כיון שהותרה הותרה</he> as regards Sabbath laws what has been permitted at the entrance of the Sabbath remains permitted the entire day; ib. 70ᵇ <he>כל שה׳ למקצת וכ׳</he> whatever is permitted for one part of the Sabbath &c.; a. v. fr.—Part. <cite ref=\"M00705\"><he>מוּתָּר</he></cite>; f. <he>מוּתֶּרֶת</he>; pl. <he>מוּתָּרִים</he>, <he>מוּתָּרִין</he>; <he>מוּתָּרוֹת</he> (<i>it is, they are</i>) <i>permitted</i> (of things and persons). ",
+						"<cite ref=\"Mishnah Terumot 10:7\">Ter. X, 7</cite>. ",
+						"<cite ref=\"Mishnah Yevamot 1:2\">Yeb. I, 2</cite> <he>צרתה מ׳</he> her rival is permitted (to him as wife). ",
+						"<cite ref=\"Mishnah Yevamot 3:2\">Ib. III, 2</cite> <he>ומ׳ באחותה</he> and he is permitted to marry her sister. ",
+						"<cite ref=\"Mishnah Yevamot 2:10\">Ib. II, 10</cite> <he>מותרות לינשא להן</he> may be married to them; a. v. fr.—",
+						"<cite ref=\"Pesachim 48a\">Pes. 48ᵃ</cite>, a. e. (ref. to <he>ממשקה ישראל</he>, <cite ref=\"Ezekiel 45:15\">Ez. XLV, 15</cite>) <he>מן המותר לישראל</he> of what an Israelite is permitted to drink. ",
+						"<cite ref=\"Shabbat 108a:12\">Sabb. 108ᵃ</cite> (ref. to <he>בפיך</he>, <cite ref=\"Exodus 13:9\">Ex. XIII, 9</cite>) <he>מדבר המותר בפיך</he> the Torah must be written on the skin of an animal which is permitted in thy mouth (a clean animal)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

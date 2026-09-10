@@ -1,0 +1,25 @@
+{
+	"id": "A01510",
+	"slug": "איסרא-2",
+	"headword": {
+		"text": "אִיסְרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 57,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O01507\"><he>סַר</he></cite>) <i>prince, angel, genius</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:13\">Pes. 111ᵇ</cite> <he>א׳ דמזוני וכ׳</he> (Ms. M. <he>שדא</he>, read <he>שרא</he>; v. Rabb. D. S. a. l.) the genius appointed over sustenance is named <i>Cleanliness</i>. ",
+				"<cite ref=\"Pesachim 111b:13\">Ib.</cite> <he>א׳ דעניותא וכ׳</he> (in Ms. our w. omitted) the genius of want is named <i>Filth</i>. ",
+				"<cite ref=\"Yoma 77a\">Yoma 77ᵃ</cite> <he>א׳ דפרסי</he> Ms. M. (ed. <he>שרא</he>, in a passage omitted in many editions, v. Rabb. D. S. a. l.) the genius of the Persians (Pharsees)."
+			]
+		}
+	]
+}

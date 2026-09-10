@@ -1,0 +1,36 @@
+{
+	"id": "K00913",
+	"slug": "כסח-1",
+	"headword": {
+		"text": "כָּסַח"
+	},
+	"page": {
+		"number": 652,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>כסס</he>)<i>to cut down, clear</i> (of thorns, bushes &c.); <i>to trim</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite>; <cite ref=\"Bereishit Rabbah 12:1\">Gen. R. s. 12</cite>; (Koh. R. to II, 12 <he>כיסח</he> <i>Pi.</i>). ",
+				"<cite ref=\"Bereishit Rabbah 49:8\">Gen. R. s. 49</cite> <he>למגל כּוֹסֶחֶת וכ׳</he> like a scythe cutting thorns and not being satisfied &c.; a. fr.—Part. pass. <cite ref=\"K00903\"><he>כָּסוּחַ</he></cite>, pl. <he>כְּסוּחִים</he>, <he>כְּסוּחִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:4:5\">Y. Maasr. III, 50ᵈ</cite> bot. <he>קוצין כ׳ כָּסַחְתִּי</he> (not <he>כסיחין</he>) I cut mowed thorns, i.e. I only put to death doomed culprits; Pesik. B’shall., p. 92ᵃ <he>כוסים כוסחים</he> (corr. acc.), v. <cite ref=\"K00315\"><he>כּוֹס</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיסֵּחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00912\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kilayim 2:5\">Kil. II, 5</cite> <he>אם נכש או כ׳</he> if he weeded or cut. ",
+						"<cite ref=\"Mishnah Sheviit 2:10\">Shebi. II, 10</cite> <he>אין מְכַסְּחִין</he> you must not cut (trim) rice plants (in the Sabbath year). Y. Shek. V, beg. 48ᶜ <he>הראשונים … כִּיסְּחוּ וכ׳</he> our predecessors sowed …, cleared …, yet we have nothing to eat, i.e. they did their utmost for the Law, but we do not profit by their labors. Sifra B’ḥuck. Par. 2, ch. V <he>כיסת</he>, <cite ref=\"K00917\"><he>כיסה</he></cite> ed. Weiss (corr. acc.); a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

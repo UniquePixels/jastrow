@@ -1,0 +1,35 @@
+{
+	"id": "U00925",
+	"slug": "שיכלולא",
+	"headword": {
+		"text": "שִׁיכלוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁכְ׳"
+		},
+		{
+			"text": "שַׁכ׳"
+		}
+	],
+	"page": {
+		"number": 1562,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"U00924\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 7:11\">Targ. Y. Gen. VII, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 22:13\">Ib. XXII, 13</cite>; a. e.—2) <i>perfection, beauty.—</i>Pl. <he>שִׁיכְלוּלִין</he>, <cite ref=\"U00924\"><he>שִׁכְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 22:27\">Targ. Y. I Lev. XXII, 27</cite>, <cite ref=\"Targum Jerusalem, Leviticus 22:27\">Targ. Y. II, Lev. XXII, 27</cite> (some ed. <cite ref=\"U01163\"><he>שַׁכְ׳</he></cite>).—3) <i>foundation.—</i> Pl. as ab. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 22:8\">Targ. II Sam. XXII, 8</cite> <cite ref=\"U01163\"><he>שַׁכְ׳</he></cite> (h. text <he>מוסדות</he>)."
+			],
+			"label": "1"
+		}
+	]
+}

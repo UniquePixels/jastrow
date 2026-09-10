@@ -1,0 +1,27 @@
+{
+	"id": "T01044",
+	"slug": "רקמא",
+	"headword": {
+		"text": "רִקְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1497,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01043\">preced.</cite>) <i>checker, spot</i>.—Pl. <he>רִקְמֵי</he>, <cite ref=\"T00053\"><he>רִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 107b:4\">Sabb. 107ᵇ</cite> (ref. to <cite ref=\"Jeremiah 13:23\">Jer. XIII, 23</cite>) <he>מאי … דקאי ר׳ ר׳ וכ׳</he> what does <i>ḥăbharbarothav</i> mean? shall I say, it means checkered? Then it ought not to read <i>ḥăb</i>., but <i>gavvanav</i> (its colors).—V. <cite ref=\"T01046\"><he>רִקְמְתָא</he></cite>."
+			]
+		}
+	]
+}

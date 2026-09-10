@@ -1,0 +1,23 @@
+{
+	"id": "Q00268",
+	"slug": "פונדקי-1",
+	"headword": {
+		"text": "פּוּנְדְּקִי"
+	},
+	"page": {
+		"number": 1143,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (corrupt. of ποντική = κάρυον ποντικόν) <i>filbert</i>.—Pl. <he>פּוּנְדְּקִיִּין</he>, <he>פּוּנְדְּקָאוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 1:4:2\">Y. Naz. I, end, 51ᶜ</cite> <cite ref=\"Q00274\"><he>פונדקרין</he></cite> (corr. acc.; Ar. <cite ref=\"Q00268\"><he>פּוּנְדְּקִין</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 7:4:2\">Y. Gitt. VII, 48ᵈ</cite> bot. <he>פונדקאות עצמן</he> if he ate the filberts themselves (with their burrs in their green state)."
+			]
+		}
+	]
+}

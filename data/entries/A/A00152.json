@@ -1,0 +1,34 @@
+{
+	"id": "A00152",
+	"slug": "אבל-1",
+	"headword": {
+		"text": "אֲבָל"
+	},
+	"page": {
+		"number": 6,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>indeed, yes</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Eiruvin 5:13\">Tosef. Erub. V</cite> (<cite ref=\"Tosefta Eiruvin 4:1\">IV</cite>), 1 <he>אמרו לו א׳</he> said they to him, <i>yes</i> (we admit). ",
+				"<cite ref=\"Eruvin 30b:14\">Erub. 30ᵇ</cite> top. ",
+				"<cite ref=\"Niddah 3b:42\">Nidd. 3ᵇ</cite>; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 91:8\">Gen. R. s. 91</cite> <he>לשון דרומית וכ׳</he> it is a South Palestine expression where <i>ăbal</i> means <i>bram</i>, v. <cite ref=\"B01299\"><he>בְּרַם</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>but, however</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 7:1\">Ber. VII, 1</cite>; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"id": "A01281",
+	"slug": "אילולא",
+	"headword": {
+		"text": "אִילּוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילּוּלֵי"
+		},
+		{
+			"text": "אִלּ׳"
+		}
+	],
+	"page": {
+		"number": 49,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. (b. h. <cite ref=\"L00275\"><he>לוּלֵי</he></cite> = <cite ref=\"A01281\"><he>אִילּוּ לֹא</he></cite>, ch. <cite ref=\"A01281\"><he>אִילּוּ לָא</he></cite>) <i>were it not, but for</i> (followed by h. <cite ref=\"U00002\"><he>שֶׁ־</he></cite>, ch. <cite ref=\"D00002\"><he>דְּ־</he></cite>, or by a noun without a verb; v. <cite ref=\"A01918\"><he>אִלְמָלֵא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:1\">Targ. Y. Deut. I, 1</cite>; a. e.—Mekh. B’shall., Amalek 1 <he>א׳ שאמר משה</he> but for Moses, who said &c; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (followed by a verb without <he>ש־</he> or <he>ד־</he> = <cite ref=\"A01281\"><he>אִילּוּלֻא</he></cite> h. <cite ref=\"A01276\"><he>אִילּוּ</he></cite>) <i>if indeed, if</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 6:6\">Targ. Koh. VI, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 7:4\">Targ. Esth. VII, 4</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>oh that!</i> <cite ref=\"Bamidbar Rabbah 2:1\">Num. R. s. 2</cite>, beg. <he>א׳ הוא מדגיל וכ׳</he> oh that He would allow His love to be a banner over me! [<cite ref=\"A01796\"><he>אלואי</he></cite> as in preceding lines?]",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>whether</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 6:11\">Targ. Cant. VI, 11</cite> <he>א׳ פשן וכ׳</he> whether the sages among them increase &c."
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M02518",
+	"slug": "מרגלא-2",
+	"headword": {
+		"text": "מַרְגְּלָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 836,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M02523\"><he>מַרְגָּלִיתָא</he></cite>) <i>a jewel</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 28:19\">Targ. Job XXVIII, 19</cite>, v. <cite ref=\"J00658\"><he>יַרְקָא</he></cite>.—Pl. <cite ref=\"M02523\"><he>מַרְגְּלִיתָא</he></cite>"
+			]
+		}
+	]
+}

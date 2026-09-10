@@ -1,0 +1,26 @@
+{
+	"id": "V00002",
+	"slug": "תא-1",
+	"headword": {
+		"text": "תָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1641,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <he>תאו</he>, v. <cite ref=\"A00627\"><he>אָוָה</he> II</cite>; cmp. b. h. <cite ref=\"V00161\"><he>תָּאָה</he></cite>) <i>cell</i>, esp. <i>compartment back of the Holy of Holies</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 4:7\">Midd. IV, 7</cite>; <cite ref=\"Yoma 52a\">Yoma 52ᵃ</cite>.—",
+				"<cite ref=\"Mishnah Middot 4:2\">Midd. IV, 2</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 61a:3\">B. Bath. 61ᵃ</cite> an extension has three names: <he>יציע … תא</he> <i>yatsiʿa, tselʿa, ta.—</i> Pl. <cite ref=\"V00677\"><he>תָּאִים</he></cite>, <he>תָּאִין</he>. ",
+				"<cite ref=\"Midrash Tehillim 18:21\">Midr. Till. to Ps. XVIII, 28</cite> <he>בת׳ היה טמון</he> Joash was kept hidden in the compartments of the Temple."
+			]
+		}
+	]
+}

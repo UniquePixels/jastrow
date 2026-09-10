@@ -1,0 +1,42 @@
+{
+	"id": "H01078",
+	"slug": "חלל-6",
+	"headword": {
+		"text": "חָלָל",
+		"homograph": 3
+	},
+	"page": {
+		"number": 470,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01073\"><he>חָלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cavity, empty space, hollow; throat; inside</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 2:8\">Ukts. II, 8</cite> <he>ממעך את חֲלָלָהּ</he> you squeeze its cavity (compress it); <cite ref=\"Jerusalem Talmud Yoma 8:2:2\">Y. Yoma VIII, 44ᵈ</cite> bot. (v. Löw, Pfl. p. 123). ",
+				"<cite ref=\"Avodah Zarah 28a:1\">Ab. Zar. 28ᵃ</cite> <he>מכה של ח׳</he> an internal sore (as in the mouth, throat &c.). Y. ib. II, 40ᵈ top; <cite ref=\"Jerusalem Talmud Shabbat 14:4:5\">Y. Sabb. XIV, 14ᵈ</cite> top <he>כל שהוא מן הח׳ ולפנים וכ׳</he> whatever is in the throat and farther inside may be cured on the Sabbath, opp. to <he>מן השפה</he>; cmp. ",
+				"<cite ref=\"Sotah 45b:18\">Sot. 45ᵇ</cite> quot. s. v. <cite ref=\"H01076\"><he>חָלָל</he> I</cite>. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> if the heart is perforated <he>לבית חֲלָלוֹ</he> up to its chamber. ",
+				"<cite ref=\"Berakhot 19b:8\">Ber. 19ᵇ</cite> <he>ח׳ טפח</he> a hollow space of one hand-breadth. ",
+				"<cite ref=\"Chullin 44b:1\">Ḥull. 44ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 54a:12\">Pes. 54ᵃ</cite> <cite ref=\"H01080\"><he>חֲלָלָהּ</he></cite> the formation of its interior; a. fr.—Pl. <he>חֲלָלִים</he>. ",
+				"<cite ref=\"Berakhot 60b:1\">Ber. 60ᵇ</cite>, v. <cite ref=\"H00997\"><he>חָלוּל</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H01016\"><he>חַלְחוֹלִית</he></cite>) <i>intricacy, devices</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 11a:5\">Sabb. 11ᵃ</cite> <he>חֲלָלָהּ של רשות</he> the devices of political government."
+			],
+			"label": "2"
+		}
+	]
+}

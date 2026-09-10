@@ -1,0 +1,20 @@
+{
+	"id": "B01256",
+	"slug": "בריחה",
+	"headword": {
+		"text": "בְּרִיחָה"
+	},
+	"page": {
+		"number": 193,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ברח</he>) <i>flight</i>. ",
+			"units": ["<cite ref=\"Bereishit Rabbah 74\">Gen. R. s. 74</cite>; a. e."]
+		}
+	]
+}

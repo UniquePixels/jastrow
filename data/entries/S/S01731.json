@@ -1,0 +1,72 @@
+{
+	"id": "S01731",
+	"slug": "קפי-2",
+	"headword": {
+		"text": "קְפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְפָא"
+		}
+	],
+	"page": {
+		"number": 1400,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01730\">same</cite>, <i>to float, be on top</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 6:6\">Targ. II Kings VI, 6</cite> (h. text <he>ויצף</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:8\">Targ. Y. Ex. XV, 8</cite>.—",
+				"<cite ref=\"Sukkah 53a:13\">Succ. 53ᵃ</cite> <he>ק׳ תהומא וכ׳</he> the waters of the deep came on top and threatened to flood the world; <cite ref=\"Makkot 11a:18\">Macc. 11ᵃ</cite>. ",
+				"<cite ref=\"Chullin 26b:2\">Ḥull. 26ᵇ</cite> <he>איידי דמיא … ק׳ מלעיל</he> because water is heavier, it rests below, and the fruit floats on top. ",
+				"<cite ref=\"Chullin 111b:3\">Ib. 111ᵇ</cite> <he>דמא … דכבדא ק׳</he> the blood of flesh sinks, that of the liver floats. ",
+				"<cite ref=\"Eruvin 53b:10\">Erub. 53ᵇ</cite> <he>ותִיקְפֵּי עלת וכ׳</he> Ms. M. (ed. <he>ותתקפו</he>, Rashi <he>ותתקפי</he>, v. Rabb. D. S. a. l.), v. <cite ref=\"P00845\"><he>עַלַּת</he></cite>; a. e.—2) <i>to coagulate, curdle</i>. ",
+				"<cite ref=\"Onkelos Exodus 15:8\">Targ. O. Ex. XV, 8</cite>.—",
+				"<cite ref=\"Chullin 93b:7\">Ḥull. 93ᵇ</cite> <he>מִיקְפָּא קָפֵי</he> the blood coagulates, opp. <he>דייב</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְפֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to float</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 16b:17\">Ḥag. 16ᵇ</cite> <he>אַקְפּוּ ידייכו</he> let your hands float (rest lightly on the head of the sacrifice). ",
+						"<cite ref=\"Shabbat 128b:9\">Sabb. 128ᵇ</cite> <he>דמַקְפְּיָא נפשה</he> (or <he>דמְקַפְּיָא</he> <i>Pa.</i>) she (the hen) makes herself float (raises her feet and spreads her wings, so that you have to carry her instead of making her walk)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to overflow; to be flooded</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 72a:11\">Kidd. 72ᵃ</cite> <he>א׳ פירא דכוורי וכ׳</he> Ar. (ed. <he>בכוורי</he>) a fish pond overflowed on the Sabbath, and they went and caught fish &c. ",
+						"<cite ref=\"Bava Metzia 12b:7\">B. Mets. 12ᵇ</cite> <he>דא׳ אגמא בכוורי</he> (Rashi a. Ar. <he>דאַקְפָּאִי</he>; Ms. R. 2 <he>קְפָאִי</he>; Ms. R. 1 <he>אכפאי</he>, corr. acc.) when a meadow was flooded with fish (the flood carrying fish over the meadow)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cause coagulation</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 120a:17\">Ḥull. 120ᵃ</cite> <he>כיון דאַקְפֵּיה וכ׳</he> since he took pains to make the blood thick (by boiling), he proved that he had his mind on it."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְקְפֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to float</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

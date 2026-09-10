@@ -1,0 +1,35 @@
+{
+	"id": "T00016",
+	"slug": "ראיה-2",
+	"headword": {
+		"text": "רַאֲיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַאֲיָיה"
+		}
+	],
+	"page": {
+		"number": 1436,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00015\">preced.</cite> wds.) <i>evidence, proof</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 2:2\">Eduy. II, 2</cite> <he>לא ראינו אין ר׳</he> (Bab. ed. <he>אין לא ראינו ר׳</he>) ‘we have not seen’ is no evidence (that an act did not take place); <cite ref=\"Mishnah Zevachim 12:4\">Zeb. XII, 4</cite>; <cite ref=\"Ketubot 23a:5\">Keth. 23ᵃ</cite>. ",
+				"<cite ref=\"Ketubot 15b:9\">Ib. 15ᵇ</cite> (in Chald. dict.) <he>אייתי ר׳ דישראל את</he> produce evidence that thou art an Israelite. ",
+				"<cite ref=\"Mishnah Sanhedrin 3:8\">Snh. III, 8</cite> <he>כל זמן שמביא ר׳</he>, v. <cite ref=\"O01713\"><he>סָתַר</he> II</cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 3:11\">B. Kam. III, 11</cite>, a. fr. <he>עליו הר׳</he> it rests on him to produce evidence, v. <cite ref=\"J00515\"><he>יָצָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 154a:1\">B. Bath. 154ᵃ</cite> top <he>ר׳ במאי</he> wherein must his evidence consist? <he>ר׳ בעדים</he> evidence by producing witnesses; <he>ר׳ בקיום השטר</he> evidence by which the document is identified. ",
+				"<cite ref=\"Pesachim 15a\">Pes. 15ᵃ</cite>, a. e. <he>אין הנדון דומה לר׳</he> the case under discussion is not parallel to the evidence (the case which you cite is not analogous). ",
+				"<cite ref=\"Berakhot 2b:8\">Ber. 2ᵇ</cite>, a. fr. <he>אע״פ שאין ר׳ וכ׳</he>, v. <cite ref=\"G00469\"><he>זֵכֶר</he></cite>; a. v. fr.—Pl. <he>רַאֲיוֹת</he>. Snh. l. c. <he>כל ר׳ שיש לך וכ׳</he> whatever new evidences you may have, you must produce within thirty days. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:2:4\">Y. Shebu. VI, 37ᵃ</cite> top <he>בכופר ברַאֲיוֹתָיו̇</he> when the opponent contests his evidence. ",
+				"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite>, end, v. <cite ref=\"E00525\"><he>הַכְרָעָה</he></cite>; a. e."
+			]
+		}
+	]
+}

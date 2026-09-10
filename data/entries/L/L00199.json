@@ -1,0 +1,34 @@
+{
+	"id": "L00199",
+	"slug": "לודים",
+	"headword": {
+		"text": "לוּדִים"
+	},
+	"page": {
+		"number": 695,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"L00195\"><he>לוּדָאָה</he></cite> 2) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>keepers of gladiators</i>, also <i>gladiators</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 12b:13\">Pes. 12ᵇ</cite>; <cite ref=\"Shabbat 10a:7\">Sabb. 10ᵃ</cite> <he>מאכל ל׳</he> the meal time of the gladiators (to whose diet special attention was paid). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 4:9:2\">Y. Gitt. IV, end, 46ᵇ</cite> <he>מכר עצמו לל׳</he>, v. <cite ref=\"L00195\"><he>לוּדָאָה</he></cite> 2."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= ludi) <i>public games</i>. Tanḥ., ed. Bub., Noah 20 <he>בלעם התחיל בקובה בקוביא בל׳ ובקסמים</he> Bal. introduced sleeping rooms (for prostitution), dice, public games and divinations; Tanḥ. ib. 14 <he>בבלורית בקסמים ובזנות</he>).—[<he>לוּדִין</he>, <cite ref=\"Avodah Zarah 18b\">Ab. Zar. 18ᵇ</cite>, v. <cite ref=\"B00915\"><he>בלרין</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

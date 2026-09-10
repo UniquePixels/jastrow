@@ -1,0 +1,24 @@
+{
+	"id": "D00909",
+	"slug": "דמע-4",
+	"headword": {
+		"text": "דֶּמַע",
+		"homograph": 2
+	},
+	"page": {
+		"number": 314,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"N00603\"><he>נִיב</he></cite>, <cite ref=\"V00723\"><he>תְּנוּבָה</he></cite>)<i>fruits</i>, whence (sub. <cite ref=\"T00036\"><he>רֵאשִׁית</he></cite>, <cite ref=\"M03083\"><he>מַתְּנַת</he></cite>, v. ",
+			"units": [
+				"<cite ref=\"Exodus 22:28\">Ex. XXII, 28</cite>) <i>the priest’s share of the produces, T’rumah</i>. Mekh. Mishp. s. 19; <cite ref=\"Yalkut Shimoni on Torah 351\">Yalk. Ex. 351</cite> T’rumah has three names, <i>Reshith, T’rumah</i> <he>וד׳</he> and <i>Dema;</i> <cite ref=\"Temurah 4a\">Tem. 4ᵃ</cite>. Ohol. XVI, 4 <he>אוכל בדִמְעוֹ</he> he may partake of his priestly share. ",
+				"<cite ref=\"Tosefta Terumot 10:16\">Tosef. Ter. X, 16</cite> <he>בית הד׳</he> place in the barn designated for T’rumah."
+			]
+		}
+	]
+}

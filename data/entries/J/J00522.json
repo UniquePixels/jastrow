@@ -1,0 +1,21 @@
+{
+	"id": "J00522",
+	"slug": "יצול",
+	"headword": {
+		"text": "יָצוּל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 588,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יצל</he>; cmp. <cite ref=\"A02882\"><he>אֵצֶל</he></cite>; v. Wetzst. in Levy Talm. Dict. s. v. <cite ref=\"K00381\"><he>כורך</he></cite>) <i>the cross-piece</i> or <i>handle</i> of a plough. ",
+			"units": ["<cite ref=\"Mishnah Kelim 21:2\">Kel. XXI, 2</cite>."]
+		}
+	]
+}

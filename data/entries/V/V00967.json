@@ -1,0 +1,24 @@
+{
+	"id": "V00967",
+	"slug": "תרועה",
+	"headword": {
+		"text": "תְּרוּעָה"
+	},
+	"page": {
+		"number": 1697,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"T00415\"><he>רוּעַ</he> I)</cite><i>blowing the trumpet</i>, esp. <i>T’ruʿah, a rapid succession of three notes, tremolo</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 4:9\">R. Hash. IV, 9</cite> <he>שיעור ת׳</he>, v. <cite ref=\"J00033\"><he>יַבָּבָה</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 34a:10\">Ib. 34ᵃ</cite> <he>שיעור תקיעה כת׳ שיעור ת׳ וכ׳</he> the value of a T’ḳiʿah is equal to a T’ruʿah, and that of a T’ruʿah is equal to three Sh’barim. ",
+				"<cite ref=\"Rosh Hashanah 34a:6\">Ib.</cite> <he>ת׳ בפני עצמה ות׳ וכ׳</he> t’kiʿah (the verb <he>תקע</he>) means one thing, and t’ruʿah (the verb <cite ref=\"T00415\"><he>הריע</he></cite>) another thing; <he>תקיעה ותר׳ אחת היא</he> they mean the same; a. fr.—Pl. <he>תְּרוּעוֹת</he>. Ib. IV, 9 <he>כשלש ת׳</he>, v. <cite ref=\"V00884\"><he>תְּקִיעָה</he></cite>. Ib. 34ᵃ; a. fr."
+			]
+		}
+	]
+}

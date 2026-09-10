@@ -1,0 +1,35 @@
+{
+	"id": "U01019",
+	"slug": "שיפוע",
+	"headword": {
+		"text": "שִׁיפּוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁפּ׳"
+		}
+	],
+	"page": {
+		"number": 1566,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01786\"><he>שָׁפַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>slanting, slope, skirt</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 69:8\">Gen. R. s. 69</cite> (ref. to <cite ref=\"Genesis 28:12\">Gen. XXVIII, 12</cite>) <he>הסולם הזה … ושִׁיפּוּעוֹ וכ׳</he> that ladder stood on the Temple site, and its slant reached &c.; Yalk. ib. 120. Y. B. Bath. VII, end, 15ᵈ <he>היה עשוי … או ממקום שיפועו מודד</he> if a field has the shape of a chair, is the measuring to begin where the vertical wall begins, or where the slope begins? Ohol. VII, 2 <he>כלים שתחת הש׳</he> vessels which lie under the slope (of a tent, v. <cite ref=\"U01015\"><he>שִׁיפּוּל</he></cite>). ",
+				"<cite ref=\"Eruvin 102a:4\">Erub. 102ᵃ</cite> sq.; <cite ref=\"Shabbat 138b:2\">Sabb. 138ᵇ</cite> <he>שאין בשִׁיפּוּעָהּ טפח</he> when the slanting portion of a tent cover is not so large as a handbreadth, opp. to <cite ref=\"C00148\"><he>גג</he></cite> the horizontal part; a. e.—Pl. <he>שִׁיפּוּעִין</he>, <cite ref=\"U01011\"><he>שִׁפּ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 138b:2\">Ib.</cite>; Ohol. l. c. <he>שִׁיפּוּעֵי אהלים</he> the slanting and flat portions of tent covers; a. e.—2) <i>overflow, over-measure.—</i> Pl. as ab. ",
+				"<cite ref=\"Tosefta Bava Batra 5:4\">Tosef. B. Bath. V, 4</cite> <he>המוכר … כל הש׳ וכ׳</he> if one sells wine by the vessel, all the overflow belongs to the seller."
+			],
+			"label": "1"
+		}
+	]
+}

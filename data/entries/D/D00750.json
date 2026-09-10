@@ -1,0 +1,30 @@
+{
+	"id": "D00750",
+	"slug": "דיתאה",
+	"headword": {
+		"text": "דִּיתְאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּתְ׳"
+		}
+	],
+	"page": {
+		"number": 306,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"D00032\"><he>דאת</he></cite>) = h. <cite ref=\"D01138\"><he>דֶּשֶׁא</he></cite>, <i>sprouting, plants</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:11\">Targ. O. Gen. I, 11</cite>; a. fr.—",
+				"<cite ref=\"Megillah 27b\">Meg. 27ᵇ</cite> Rab. H. <he>אסר די׳</he> Ar. a. Ms. M. 2 (ed. <cite ref=\"T00734\"><he>ריתא</he></cite>, Ag. Hatt. <he>דיתא</he>) had grass tied around (in place of a belt).—Pl. <he>דִּיתְאִין</he>, <he>דִּיתְאֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:5\">Targ. Jer. XIV, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 23:2\">Targ. Ps. XXIII, 2</cite> (some ed. <he>דְּאִיתְאִין</he>). Targ. Y. Gen. l. c."
+			]
+		}
+	]
+}

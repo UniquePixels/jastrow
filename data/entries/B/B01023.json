@@ -1,0 +1,34 @@
+{
+	"id": "B01023",
+	"slug": "בעבע-1",
+	"headword": {
+		"text": "בִּעְבֵּעַ"
+	},
+	"page": {
+		"number": 180,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <cite ref=\"B00299\"><he>בּוּעַ</he></cite>; cmp. <cite ref=\"B01075\"><he>בִּצְבֵּץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cast bubbles, to form protuberances, to bulge</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 10:4\">Mikv. X, 4</cite> <he>עד שיְבַעְבְּעוּ</he> until they (the garments dipped in water) form bulges; v. <cite ref=\"B01022\">preced.</cite> ",
+				"<cite ref=\"Yalkut Shimoni on Nach 157\">Yalk. Sam. 157</cite>; <cite ref=\"Midrash Tehillim 18:8\">Midr. Till. to Ps. XVIII, 3</cite> (read:) <he>שהיה שמן המשחה מְבַעְבֵּעַ ויורד עליו</he> the oil of anointment came bubbling down upon him."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to struggle in the water, swim</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 13:6:2\">Y. Sabb. XIII, 14ᵇ</cite> top.; <cite ref=\"Jerusalem Talmud Sotah 3:4:8\">Y. Sot. III, 19ᵃ</cite> top. <he>תינוק מב׳ וכ׳</he> a child struggling in the river. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:8:9\">Y. Yoma III, 41ᵃ</cite> <he>התחיל מב׳ וכ׳</he> commenced casting up bubbles from under the ship (Bab. ",
+				"<cite ref=\"Yoma 38a:3\">ib. 38ᵃ</cite> <he>מבצבצת</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

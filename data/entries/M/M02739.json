@@ -1,0 +1,29 @@
+{
+	"id": "M02739",
+	"slug": "מרעית-2",
+	"headword": {
+		"text": "מַרְעִית",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְעֵיתָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 845,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"M02734\"><he>מַרְעוּתָא</he></cite>, <i>evil</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 124:4\">Targ. Ps. CXXIV, 4</cite> (h. text <cite ref=\"N00502\"><he>נחלה</he></cite>); a. e., v. <cite ref=\"M02734\"><he>מַרְעוּ</he></cite>."
+			]
+		}
+	]
+}

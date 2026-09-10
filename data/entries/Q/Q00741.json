@@ -1,0 +1,86 @@
+{
+	"id": "Q00741",
+	"slug": "פיס-2",
+	"headword": {
+		"text": "פִּיס"
+	},
+	"page": {
+		"number": 1166,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q01339\"><he>פָּסַס</he></cite>) <i>to split, divide, distribute</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵפִיס"],
+			"senses": [
+				{
+					"gloss": "<i>to penetrate</i>, (cmp. <cite ref=\"B00154\"><he>בָּדַק</he></cite>); <i>to cause abdominal trouble</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 107a:7\">Pes. 107ᵃ</cite> <he>מִיסְרָן ומֵפִיס</he> this drink is a tempter and then gives pain (Ms. M. <he>ומֵיפֵיס</he>; Ms. O. <he>מייסרן ומיפיס</he>, v. <cite ref=\"Q01339\"><he>פָּסַס</he></cite>; ed. <he>ומפייס</he>, v. infra).—[<he>מפיס מורסא</he>, v. <cite ref=\"Q01339\"><he>פָּסַס</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to break a person’s anger</i> or <i>will, to pacify, persuade, comfort</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 45a:17\">Shebu. 45ᵃ</cite> <he>כדי להָפִיס דעתו וכ׳</he> in order to satisfy the mind of the employer (to convince him that he was mistaken). Y. ib. VIII, 38ᵈ top; Y. Snh. III, 21ᶜ bot. <he>מצוה להֲפִיסוֹ</he> it is proper to give him (the owner of the lost animal) satisfaction (by stating the cause of the loss); v. <i>Pi.</i>—",
+						"<cite ref=\"Avodah Zarah 71a:3\">Ab. Zar. 71ᵃ</cite> <he>צא והָפֵס עלי מנת המלך</he> go and satisfy for me the royal taxes (settle for me as best you can), v. <cite ref=\"M01820\"><he>מְנָת</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to arbitrate, decide</i> (cmp. <cite ref=\"Q01350\"><he>פָּסַק</he></cite>). ",
+					"units": [
+						"<cite ref=\"Shabbat 33a:12\">Sabb. 33ᵃ</cite> <he>מי מֵפִיס</he> who will decide (as to the cause of my disease)? <cite ref=\"Shabbat 54a:8\">Ib. 54ᵃ</cite> <he>מי מפיס וכ׳</he> who will decide which udders are tied up for the purpose of drying them up and which for the purpose of preserving the milk?—Esp. <i>to decide by chance, by drawing lots, counting a certain number</i> &c. (v. <cite ref=\"Q00655\"><he>פַּיִיס</he></cite>). ",
+						"<cite ref=\"Mishnah Tamid 1:2\">Tam. I, 2</cite> <he>מי שטבל יבוא ויָפִיס</he> let those who have bathed, come and take part in the count of chance; <he>הֵפִיסוּ זכה וכ׳</he> after they have drawn, he who has won, has won (no appeal is permitted). ",
+						"<cite ref=\"Yoma 24b:14\">Yoma 24ᵇ</cite> <he>למה מְפִיסִין וחוזרין וכ׳</he> why did they draw once and again (why not at once for all the functions to be distributed)? <cite ref=\"Yoma 24b:16\">Ib.</cite> <he>במה מפיסין</he> (Rashi: <he>מפייסין</he>) what garments do they wear when drawing? <cite ref=\"Bereishit Rabbah 84:8\">Gen. R. s. 84</cite> (play on <he>פסים</he>, <cite ref=\"Genesis 37:23\">Gen. XXXVII, 23</cite>) <he>שהפיסו עליה וכ׳</he> they drew lots about it (the coat) as to who should carry it to his father &c. ",
+						"<cite ref=\"Mishnah Shabbat 23:2\">Sabb. XXIII, 2</cite> (<cite ref=\"Shabbat 148b\">148ᵇ</cite>) <he>מפיס</he> (<he>אדם</he>) <he>עם וכ׳</he> a man may decide by lot (on the Sabbath) the shares of honor at the table &c.; ib. 149ᵇ; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["פִּיֵּיס"],
+			"senses": [
+				{
+					"gloss": "<i>to pacify, conciliate, persuade</i>. Pes. l. c. <he>מְיַסְּרָן ומְפַיֵּיס</he> (that drink) chastises us (gives us pain), and yet is so persuasive (tempting). ",
+					"units": [
+						"<cite ref=\"Berakhot 28b:9\">Ber. 28ᵇ</cite> <he>אני יכול לפַיְּיסוֹ בדברים וכ׳</he> I might appease him with words or bribe him with money. ",
+						"<cite ref=\"Bava Batra 9b:8\">B. Bath. 9ᵇ</cite> <he>כל הנותן … והמְפַיְּיסוֹ בדברים וכ׳</he> he who gives a poor man a coin will be blessed with six blessings, but he who speaks kindly to him, will be blessed with eleven blessings. ",
+						"<cite ref=\"Bereishit Rabbah 93:12\">Gen. R. s. 93</cite>, end <he>כשם שלא פ׳ … אלא וכ׳</he> as Joseph pacified his brothers only by weeping &c. Y. Snh. l. c. <he>מצוה להפיסו … ואינו מְפַיְּיסוֹ על שקר</he> it is right to satisfy his mind by stating the truth, but one must not do so by a falsehood; Y. Shebu. l. c. <he>מפייסו … אינו מפייסו וכ׳</he>. ",
+						"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>, end <he>נלך ונְפַיֵּיס לגדלת</he>, v. <cite ref=\"C00230\"><he>גַּדֶּלֶת</he></cite>; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite>, end <he>ופייליה</he>, read: <he>ופִיְּיסוּהוּ</he> and they appeased him (Nebuchadnezzar).—Part. pass. <he>מְפוּיָּיס</he>. ",
+						"<cite ref=\"Shemot Rabbah 51:4\">Ex. R. s. 51</cite> <he>הריני מפ׳ שמחלת וכ׳</he> I am convinced that thou hast forgiven Israel."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְפַּיֵּיס"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּיֵּיס"],
+			"senses": [
+				{
+					"gloss": "<i>to be appeased, satisfied, persuaded</i>. Ib. <he>אותה שעה נֵתְפַּיְּיסוּ … על וכ׳</he> now all Israelites were satisfied with regard to the work of the Tabernacle (that everything was correct). ",
+					"units": [
+						"<cite ref=\"Berakhot 33a:2\">Ber. 33ᵃ</cite> <he>נתפ׳ אותו השר</he> that prince’s anger was appeased. ",
+						"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> <he>הרי הגורן בא והכל מִתְפַּיְּיסִים בשביל וכ׳</he> when harvesting time comes, all (that now are disputing) will be convinced for whose sake the field has been sown. ",
+						"<cite ref=\"Yoma 86b:5\">Yoma 86ᵇ</cite> <he>ספק מִתְפַּיֵּיס הימנו וכ׳</he> it is doubtful whether he will or will not accept his apology; <he>ספק מתפייס בדברים וכ׳</he> it is doubtful whether he will be appeased by mere words (without demanding a fine or public satisfaction) &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

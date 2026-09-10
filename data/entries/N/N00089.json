@@ -1,0 +1,70 @@
+{
+	"id": "N00089",
+	"slug": "נבל-1",
+	"headword": {
+		"text": "נָבֵל"
+	},
+	"page": {
+		"number": 869,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"B00823\"><he>בָּלָה</he></cite>)<i>to fade, shrivel, decay</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:2:2\">Y. R. Hash. I, 56ᵈ</cite> bot. <he>הֶעָלֶה נוֹבֵל</he>, v. <cite ref=\"B00254\"><he>בּוּל</he> III</cite>. ",
+				"<cite ref=\"Eruvin 54a:5\">Erub. 54ᵃ</cite> <he>הללו נוֹבְלִין</he>, v. <cite ref=\"E00536\"><he>הָלָה</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 53:3\">Gen. R. s. 53</cite> (ref. to <cite ref=\"Isaiah 40:7\">Is. XL, 7</cite>) <he>יבש חצירו … ונ׳ ציצו וכ׳</he> Abimelech’s grass is dried up and his flower has faded, but &c.; a. e.—V. <cite ref=\"N00298\"><he>נוֹבֶלֶת</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to cause fading; to ruin, deface; to disgrace</i>. Y. Shebi. I, beg. 33ᵃ <he>מיכן ואילך הוא מְנַבֵּל פירותיו</he> after that time (by ploughing an orchard field after the Feast of Weeks) he causes deterioration of his fruits. Ib. IV, 35ᵇ bot.; Y. Maas. Sh. V, beg. 55ᵈ <he>אילן שהוא מנבל פירותיו</he> a tree which fails to mature its fruits; (<cite ref=\"Chullin 77b\">Ḥull. 77ᵇ</cite>; <cite ref=\"Shabbat 67a:15\">Sabb. 67ᵃ</cite> <he>שמַשִּׁיר</he>, v. <cite ref=\"N01345\"><he>נָשַׁר</he></cite>). Y. Sabb. IX, 11ᵈ; Y. Ab. Zar. III, 43ᵃ bot. <he>צאהו נַבְּלֵיהוּ</he> treat him (the idol) like excrements, make him abominable (change his name cacophemistically). ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 5:16:4\">Cant. R. to V, 16</cite> <he>מנבל את עצמו בטיט</he> he begrimes himself by working in clay. ",
+						"<cite ref=\"Shir HaShirim Rabbah 5:16:4\">Ib.</cite> <he>אל תְּנַבְּלוּ וכ׳</he> do not degrade yourselves by any evil thing (ref. to <cite ref=\"Leviticus 11:43\">Lev. XI, 43</cite>; <cite ref=\"Leviticus 19:28\">XIX, 28</cite>); <cite ref=\"Bamidbar Rabbah 10:5\">Num. R. s. 10</cite>, beg. ",
+						"<cite ref=\"Bamidbar Rabbah 10:5\">Ib.</cite> (ed. Amst. p. 240ᵇ) <he>המְנַבֶּלֶת עצמה</he> who neglects her appearance, opp. <he>מקשטת</he>. ",
+						"<cite ref=\"Berakhot 63b:20\">Ber. 63ᵇ</cite> (ref. to <cite ref=\"Proverbs 30:32\">Prov. XXX, 32</cite> <he>נָבַלְתָּ</he>) <he>כל המנבל עצמו על וכ׳</he> he who lowers himself (exposes his ignorance) for the sake of learning, shall finally be raised; <cite ref=\"Midrash Mishlei 30:8\">Midr. Prov. to ch. XXX</cite> <he>אם נִבֵּל וכ׳</he>; <cite ref=\"Bereishit Rabbah 81:2\">Gen. R. s. 81</cite> <he>אם נִבַּלְתָּ עצמך</he>; <cite ref=\"Avot D'Rabbi Natan 11:2\">Ab. d’R. N. ch. XI</cite> <he>אם מנבל אדם עצמו וכ׳</he> if a man makes himself look offensive (through privations) &c.—Midr. Prov. l. c. (ref. to Prov. l. c.) <he>זו יון שגזרו לנַבֵּל נשותיהן וכ׳</he> (not <he>לבטל</he>) that means the Greeks who decreed to disgrace Israel’s women; a. fr.—<he>נ׳ פיו</he> to make one’s mouth turpid, <i>to talk obscenely</i>. ",
+						"<cite ref=\"Shabbat 33a:8\">Sabb. 33ᵃ</cite>; <cite ref=\"Ketubot 8b:5\">Keth. 8ᵇ</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"N00097\"><he>נְבֵלָה</he></cite>) <i>to make an animal ritually forbidden by unskillful slaughtering</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Kamma 10:10\">Tosef. B. Kam. X, 10</cite> <he>המוסר … ונִיבְּלָהּ</he> if one entrusts his animal to a slaughterer, and he makes it unfit, v. infra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְנַבֵּל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְנַבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be defaced, degraded, disgraced</i>. Y. Yeb. XII, end, 13ᵃ <he>מי גרם לך להִתְנַבֵּל וכ׳</he> what was the cause of thy disgrace (exposure of thy ignorance) in the Law?; Gen. R. l. c. Y. Keth. IV, 28ᵈ top. <he>יִתְנַבְּלוּ הן וכ׳</he> they and their offspring shall be disgraced; a. e.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become ritually forbidden</i> (<cite ref=\"N00097\"><he>נְבֵלָה</he></cite>) <i>by unskillful slaughtering</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 6:2\">Ḥull. VI, 2</cite> <he>השוחט ונִתְנַבְּלָה בידו</he> if one cuts an animal and it becomes unfit under his hand; <cite ref=\"Mishnah Chullin 5:3\">ib. V, 3</cite>; <cite ref=\"Tosefta Chullin 5:3\">Tosef. ib. V</cite> (<cite ref=\"Tosefta Chullin 6:3\">VI</cite>), 3; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

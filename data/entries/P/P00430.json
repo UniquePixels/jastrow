@@ -1,0 +1,26 @@
+{
+	"id": "P00430",
+	"slug": "עזרה-3",
+	"headword": {
+		"text": "עֲזָרָה"
+	},
+	"page": {
+		"number": 1062,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P00424\"><he>עָזַר</he></cite>; cmp. <cite ref=\"C00580\"><he>גִּזְרָה</he></cite>)<i>enclosure</i>, esp. <i>Temple court</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 1:4\">Midd. I, 4</cite> <he>שבעה שערים היו בע׳</he> the Temple court had seven gates. ",
+				"<cite ref=\"Mishnah Middot 2:5\">Ib. II, 5</cite> <he>עֶזְרַת הנשים</he> the women’s compartment in the Temple court; <he>עזרת ישראל</he> the men’s compartment (for non-priests). Ib. 6 <he>כל הע׳ וכ׳</he> the whole ʿĂzarah was one hundred and seventy five cubits long &c.; a. v. fr.—<he>ספר הע׳</he> the copy of the Torah used in the Temple court. ",
+				"<cite ref=\"Mishnah Moed Katan 3:4\">M. Kat. III, 4</cite> (<cite ref=\"Moed Katan 18b\">18ᵇ</cite>) <he>ספר הע׳</he> (Var. <cite ref=\"P00426\"><he>עזרא</he></cite> the copy deposited by Ezra). ",
+				"<cite ref=\"Bava Batra 14b:2\">B. Bath. 14ᵇ</cite> top. ",
+				"<cite ref=\"Mishnah Kelim 15:6\">Kel. XV, 6</cite>; a. fr."
+			]
+		}
+	]
+}

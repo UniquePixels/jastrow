@@ -1,0 +1,24 @@
+{
+	"id": "A01621",
+	"slug": "אישות-1",
+	"headword": {
+		"text": "אִישׁוּת"
+	},
+	"page": {
+		"number": 61,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A01615\"><he>אִישׁ</he></cite>) <i>matrimony, marital state</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 36b:6\">Ab. Zar. 36ᵇ</cite> <he>דאורייתא א׳ דרך חתנות</he> biblically intermarriage with gentiles is forbidden only in the way of legal marriage (opp. concubinage, &c.). ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:25\">Y. Kidd. I, 59ᶜ</cite> bot. <he>שִׁפְחוּת אחר א׳</he> servitude after marriage, i.e. a father selling his daughter after she had been married and had returned to her parental home in widowhood &c. ",
+				"<cite ref=\"Yevamot 76a:9\">Yeb. 76ᵃ</cite>, a. fr. <he>לשום א׳</he> with the intention of establishing a matrimonial relation."
+			]
+		}
+	]
+}

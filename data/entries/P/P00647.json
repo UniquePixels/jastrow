@@ -1,0 +1,50 @@
+{
+	"id": "P00647",
+	"slug": "עיצור-2",
+	"headword": {
+		"text": "עִיצּוּר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיצּוּרָא"
+		},
+		{
+			"text": "עִצּ׳"
+		}
+	],
+	"page": {
+		"number": 1074,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"P01131\"><he>עֲצַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wine pressing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 16:10\">Targ. Is. XVI, 10</cite> (h. text <he>הידד</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>grapes to be pressed</i>.—Pl. <he>עִיצּוּרִין</he>, <cite ref=\"P00645\"><he>עִצּ׳</he></cite>. Ib. ed. Lag. (oth. ed. <he>עָצוֹרִין</he>, v. <cite ref=\"P01110\"><he>עָצוֹרָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:33\">Targ. Jer. XLVIII, 33</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>pl.</i> as ab. <i>grape-shells</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 6:4\">Targ. O. Num. VI, 4</cite> (h. text <cite ref=\"G00054\"><he>זג</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

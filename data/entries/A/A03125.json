@@ -1,0 +1,67 @@
+{
+	"id": "A03125",
+	"slug": "ארך-2",
+	"headword": {
+		"text": "אָרֵךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "ארַךְ"
+		}
+	],
+	"page": {
+		"number": 121,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אר</he> , cmp. Schr. KAT p. 497 <he>ארג</he>; cmp. also <he>גדל</he> to <i>plait</i>,to <i>be tall</i>) to <i>be</i> [<i>pointed, stretched</i>,] <i>long, tall</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶאֱרִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to prolong, be long in doing</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 1:4\">Ber. I, 4</cite> <he>אמרו להַאֲרִיךְ</he> they commended a lengthy benediction. ",
+						"<cite ref=\"Berakhot 34a\">Ib. 34ᵃ</cite>; cmp. <cite ref=\"A03156\"><he>אַרְכָן</he></cite>. ",
+						"<cite ref=\"Yoma 35b\">Yoma 35ᵇ</cite> <he>הֶאֱ׳ בתפלתו</he> staid long in prayer.—הא׳ ימים <i>to live long</i>. ",
+						"<cite ref=\"Megillah 27b\">Meg. 27ᵇ</cite>; a. fr.—",
+						"<cite ref=\"Berakhot 8b\">Ber. 8ᵇ</cite>, a. fr. <he>מַאֲרִיכִין ימיו</he> his life will be prolonged.—<he>פנים</he>, <he>הא׳ רוח</he> <i>to be long-suffering, forbearing</i>. Y. Shebu. IV, beg. 35ᵇ; a. fr.—Y. Taan. II, 65ᵇ bot. when collecting debts (punishing) <he>מאריך וגובה</he> he is slow in collecting (punishes in long intervals, gives extension)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be long, last long</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>, end <he>הא׳ הברזל</he> the point of the spear grew longer, v. infra; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " [<i>to lengthen the carrying pole</i>,] <i>to make heavy</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 16b:14\">Nidd. 16ᵇ</cite> <he>כמה הֶאֱרַכְתָּ עלינו</he> how heavy thou hast made our burden (through restrictive laws)!"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נֶאֱרַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be prolonged, grow longer</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 131\">Sifré Num. 131</cite>; <cite ref=\"Yalkut Shimoni on Torah 771\">Yalk. ib. 771</cite>; (Num. R. l. c. <cite ref=\"A03125\"><he>האריך</he></cite>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

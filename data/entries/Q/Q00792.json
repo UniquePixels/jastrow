@@ -1,0 +1,28 @@
+{
+	"id": "Q00792",
+	"slug": "פיצוליא",
+	"headword": {
+		"text": "פִּיצּוּלַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּצּ׳"
+		}
+	],
+	"page": {
+		"number": 1168,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q01437\"><he>פְּצַל</he></cite>) <i>shrivelled fruit</i>, esp. <i>grapes which fell in an unripe state and were put in the sun to ripen</i> (cmp. <cite ref=\"Q01444\"><he>פַּצְעִילִין</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 4:1:5\">Y. Bets. IV, 62ᵇ</cite> bot. <he>באילין פ׳ הוה עובדא</he> the question turned on the sun-dried grapes; <cite ref=\"Jerusalem Talmud Maasrot 1:5:4\">Y. Maasr. I, end, 49ᵇ</cite> <he>באילין פצולי אילין הוה וכ׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

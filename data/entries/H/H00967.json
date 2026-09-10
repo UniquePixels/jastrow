@@ -1,0 +1,31 @@
+{
+	"id": "H00967",
+	"slug": "חלב-2",
+	"headword": {
+		"text": "חֲלָב"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַלְבָּא"
+		},
+		{
+			"text": "חֶלְ׳"
+		}
+	],
+	"page": {
+		"number": 464,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H00966\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:8\">Targ. Gen. XVIII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 10:10\">Targ. Job X, 10</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:36\">Y. Ter. VIII, 46ᵃ</cite> <he>חַלְבּוּן חֲ׳</he> milked. ",
+				"<cite ref=\"Chullin 109b:13\">Ḥull. 109ᵇ</cite>, v. <cite ref=\"B01372\"><he>בִּשְׂרָא</he> I</cite>. ",
+				"<cite ref=\"Chullin 110a:3\">Ib. 110ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

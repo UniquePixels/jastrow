@@ -1,0 +1,32 @@
+{
+	"id": "P00164",
+	"slug": "עדר-2",
+	"headword": {
+		"text": "עֲדַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1045,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00163\">same</cite>, <i>to hoe</i>; (of chickens) <i>to pick</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 25:5\">Lev. R. s. 25</cite> <he>זיל עֲדוֹר וכ׳</he> go and pick in thy own dunghill; <cite ref=\"Yalkut Shimoni on Nach 925\">Yalk. Job 925</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַדֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00163\">same</cite>. Lev. R. l. c. <he>ומְעַדְּרָה קדמיהון</he> (not <he>ומעדרנה</he>) and she (the mother) picks for them; Yalk. l. c. (not <he>ומעררה</he>).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

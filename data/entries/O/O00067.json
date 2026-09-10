@@ -1,0 +1,27 @@
+{
+	"id": "O00067",
+	"slug": "סבכא",
+	"headword": {
+		"text": "סִבְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 950,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00066\">preced.</cite> wds.) <i>net, head-dress</i>.—Pl. <he>סִבְכַיָּא</he>, <cite ref=\"O00077\"><he>סִיבְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:18\">Targ. Is. III, 18</cite> (h. text <he>שהרנים</he>); v. next w.—[<cite ref=\"Targum Jonathan on Isaiah 7:20\">Ib. VII, 20</cite> <he>סיבכיא</he>, ed. Lag., v. <cite ref=\"O00032\"><he>סִבְבָא</he></cite>.]"
+			]
+		}
+	]
+}

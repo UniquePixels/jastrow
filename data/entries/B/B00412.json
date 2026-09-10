@@ -1,0 +1,36 @@
+{
+	"id": "B00412",
+	"slug": "בזבז-2",
+	"headword": {
+		"text": "בַּזְבֵּז"
+	},
+	"page": {
+		"number": 152,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00411\">same</cite><i>to shatter</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 3:11\">Esth. R. to I, 10</cite>; v. <cite ref=\"B00220\"><he>בּוּז</he></cite> ch."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to give away, to squander</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 3:22\">Targ. Koh. III, 22</cite> <he>למא אנא מְבַ׳ וכ׳</he> why should I waste money in doing charity?—",
+				"<cite ref=\"Ketubot 67b:16\">Keth. 67ᵇ</cite> <he>בַּזְבְּזֵיה וכ׳</he> he gave away (on charity) half of &c. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 3:4:11\">Y. Sot. III, 19ᵃ</cite>, a. e. <he>הוות מְבַזְבְּזָה וכ׳</he> was squandering the estate."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"B00220\"><he>בּוּז</he></cite>) <i>to treat lightly</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 11:5:9\">Y. Ter. XI, 48ᵇ</cite>; <cite ref=\"Jerusalem Talmud Shabbat 2:1:18\">Y. Sabb. II, 4ᵈ</cite> top (read:) <he>וכולא מן הדין שמשא</he> [<he>בביתיה</he>] <he>מְבַזְבְּזָא בהקדישא</he> and all this discussion arose from that servant [in R. Ammi’s house] dealing lightly with sacred property."
+			],
+			"label": "3"
+		}
+	]
+}

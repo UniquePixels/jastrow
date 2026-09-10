@@ -1,0 +1,102 @@
+{
+	"id": "N01235",
+	"slug": "נקף-3",
+	"headword": {
+		"text": "נָקַף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 934,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"S00486\"><he>קוּף</he></cite> a. <cite ref=\"N01155\"><he>נָקַב</he></cite>)<i>to circle; to bore</i>.—Part. pass. <cite ref=\"N01183\"><he>נָקוּף</he></cite>; f. <he>נְקוּפָה</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite>, v. <cite ref=\"N01155\"><he>נָקַב</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקִּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to surround</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 1:8\">Erub. I, 8</cite> (<cite ref=\"Eruvin 15b:22\">15ᵇ</cite>) <he>והִקִּיפוּהָ</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>כלי בהמה</he> and they surrounded it (the camp) with utensils of travel (wagons, saddles &c.). Ib. 9 <he>מַקִּיפִין שלשה וכ׳</he> you may surround the camp with three ropes &c. (for Sabbath purposes). Ib. 53ᵇ <he>מצאתי שמקיפין אותה גנות וכ׳</he> I found that gardens and orchards surrounded the town (making it inaccessible); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to go around</i>. Mekh. B’shall. s. 1 <he>אַקִּיפֵם במדבר וכ׳</he> I shall make them go around in the desert forty years; ib. <he>הריני מַקִּיפָן וכ׳</he>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 8:1\">Snh. VIII, 1</cite> <he>עד שיַקִּיף וכ׳</he> until he has grown hair around &c., v. <cite ref=\"G00642\"><he>זָקֵן</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cut all around</i>, esp. (with ref. to <cite ref=\"Leviticus 19:27\">Lev. XIX, 27</cite>) <i>to cut around the corners of the hair of the head</i>. ",
+					"units": [
+						"<cite ref=\"Nazir 57b:7\">Naz. 57ᵇ</cite> <he>אחד המַקִּיף ואחד הנִיקָּף</he> he who cuts and he whose hair is cut are alike guilty; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to sell on terms</i> (v. <cite ref=\"V00879\"><he>תְּקוּפָה</he></cite>), <i>to lend</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 3:16\">Ab. III, 16</cite> <he>החנוני מַקִּיף</he> the shopkeeper allows credit (the Lord is long-suffering). ",
+						"<cite ref=\"Bava Kamma 79a:1\">B. Kam. 79ᵃ</cite> top <he>גנב וה׳</he> if he stole an animal and sold it on credit (and has received no pay); a. fr.—",
+						"<cite ref=\"Kiddushin 40a:20\">Kidd. 40ᵃ</cite> <he>אין מַקִּיפִין וכ׳</he> no loan on time is granted (no chance for repentance is allowed), when the Name of the Lord is profaned; (oth. interpret., v. <cite ref=\"N01233\"><he>נָקַף</he> I</cite>)."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּקָּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be surrounded</i>. ",
+					"units": [
+						"<cite ref=\"Arakhin 33b\">Arakh. 33ᵇ</cite>; <cite ref=\"Megillah 3b\">Meg. 3ᵇ</cite> <he>שה׳ ולבסוף וכ׳</he> it was surrounded (a fort was built) and then settled; a. fr.—Part. <cite ref=\"M00595\"><he>מוּקָּף</he></cite>; f. <he>מוּקֶּפֶת</he>; pl. <he>מוּקָּפִין</he>; <he>מוּקָּפוֹת</he>. Ib. I, 1 <he>המ׳ חומה וכ׳</he> fortified since the days of Joshua. Ib. 2ᵇ. Ib. 4ᵇ. ",
+						"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite>, v. <cite ref=\"Q02165\"><he>פָּתִיל</he></cite>; a. fr.—Mekh. B’shall., s. 1 <he>מוקפות</he> <i>semicircular</i>"
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִיקָּף"],
+			"senses": [
+				{
+					"gloss": "<i>to have one’s hair cut all around</i>. Naz. l. c., v. supra. Ib. <he>כל היכא דנ׳ מיחייב וכ׳</he> whenever he who has his hair cut &c. is punishable (is not a minor or a woman), the cutter is punishable; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִיקֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to collect fruit which remained in the crown of the tree</i> (v. <cite ref=\"N00769\"><he>נִיקּוּף</he> II</cite>), <i>to glean olives</i> (corresp. to <cite ref=\"Q00023\"><he>פֵּאֵר</he></cite>, <cite ref=\"Deuteronomy 24:20\">Deut. XXIV, 20</cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 5:8\">Gitt. V, 8</cite> <he>עני המְנַקֵּף … מה שתחתיו גזל</he> when the poor man does the gleaning on the top of the olive tree, what falls down under him is forbidden to any other person; Y. ed. <he>המנ׳ בראש הזית גזל</he> (corr. acc.; v. ib. 47ᶜ top)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cut all around, trim</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 119b\">B. Kam. 119ᵇ</cite>; <cite ref=\"Tosefta Bava Kamma 11:18\">Tosef. ib. XI, 18</cite> <he>מְנַקְּפֵי היגין</he> those who trim shrubs. ",
+						"<cite ref=\"Tosefta Bava Kamma 11:18\">Ib.</cite> <he>השוכר … לנַקֵּף עמו וכ׳</he> if one hires a laborer to help him trim &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "M00645",
+	"slug": "מורטינוס",
+	"headword": {
+		"text": "מְוָרִטִינוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַוְורִיאָטִינוֹס"
+		}
+	],
+	"page": {
+		"number": 750,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Mauriatinus</i> (?), eponymous hero of Raamah. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:7\">Targ. Y. Gen. X, 7</cite>; <cite ref=\"Targum of I Chronicles 1:9\">Targ. I Chr. I, 9</cite> (ed. Lag. <he>ממריאט׳</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "A02252",
+	"slug": "אנן-1",
+	"headword": {
+		"text": "אָנַן"
+	},
+	"page": {
+		"number": 85,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <he>און</he> , v. <cite ref=\"A00716\"><he>אָוֶן</he></cite>) <i>to press, oppress, wrong</i>, v. <cite ref=\"A02138\"><he>אָנָה</he></cite>.—אוֹנָן <i>one who feels grieved, mourner</i>, esp. <i>Onan</i>, mourner before the burial of a kinsman, contrad. to <cite ref=\"A00153\"><he>אָבֵל</he></cite>; v. <cite ref=\"A02229\"><he>אֲנִינָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 14b:11\">M. Kat. 14ᵇ</cite> <he>מקדיב א׳</he> may officiate at sacrifices though being an Onan.—Pl. <he>אוֹנָנִין</he>. ",
+				"<cite ref=\"Sanhedrin 47b:3\">Snh. 47ᵇ</cite> <he>לא היו מתאבלין אלא א׳</he> they observed no mourning ceremonies but lived in silent and retired mourning.—Fem. <he>אוֹנֶנֶת</he>. ",
+				"<cite ref=\"Ketubot 53a\">Keth. 53ᵃ</cite>.—Denom. <cite ref=\"A02228\"><he>אָנִין</he></cite> <i>complaining, fastidious, feeble</i>. Pl. <he>אֲנִינֵי הדעת</he> <i>fastidious of taste, easily taking an aversion, delicate</i>. ",
+				"<cite ref=\"Pesachim 113b:7\">Pes. 113ᵇ</cite>. Cmp. <cite ref=\"A01525\"><he>אִיסְתְּנִיס</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְאוֹנֵן"],
+			"senses": [
+				{
+					"gloss": "<i>to feel wronged, complain of being overreached</i>, v. <cite ref=\"A02138\"><he>אָנָה</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

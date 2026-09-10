@@ -1,0 +1,41 @@
+{
+	"id": "L00646",
+	"slug": "לפף-1",
+	"headword": {
+		"text": "לָפַף"
+	},
+	"page": {
+		"number": 715,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"L00633\"><he>לְפֵי</he></cite>) <i>to cling to, to clasp</i>. Tanḥ. B’har 3 (ref. to <he>וילפת</he>, <cite ref=\"Ruth 3:8\">Ruth III, 8</cite>) <he>לְפָפַתּוֹ</he> she clasped him; Ruth R. to l. c. <he>לפפתו כחזזית</he> (some ed. <he>לפתתו</he>), v. <cite ref=\"H00522\"><he>חֲזָזִית</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִפֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00645\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 41a:7\">Bekh. 41ᵃ</cite> (interpret. <cite ref=\"J00399\"><he>יַלֶּפֶת</he></cite>) <he>שמְלַפֶּפֶת והולכת וכ׳</he> it continues to cling (to the body) to the day of death, v. supra. ",
+						"<cite ref=\"Sotah 3b:13\">Sot. 3ᵇ</cite> (play on <he>ילפתו</he>, <cite ref=\"Job 6:18\">Job VI, 18</cite>) <he>מְלַפַּפְתּוֹ והולכת לפניו וכ׳</he> (sin) clings to him and goes before him on the day of judgment."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to wrap, swathe</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 129b:17\">Sabb. 129ᵇ</cite> bot. <he>מְלַפְּפִין את הוולד וכ׳</he> you may swathe a new-born child on the Sabbath.—Part. pass. <he>מְלוּפָּף</he>; f. <he>מְלוּפֶּפֶת</he>. ",
+						"<cite ref=\"Devarim Rabbah 3\">Deut. R. s. 3</cite> <he>התורה … חתומה באש ומל׳ באש</he> the Torah scroll which was given to Moses,—the skin was of white fire, written upon with black fire, sealed with fire and swathed with bands of fire."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

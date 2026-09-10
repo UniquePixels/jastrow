@@ -1,0 +1,29 @@
+{
+	"id": "G00691",
+	"slug": "זרזיר-1",
+	"headword": {
+		"text": "זַרְזִיר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "זַרְזָר"
+		}
+	],
+	"page": {
+		"number": 413,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"G00420\"><he>זִירָה</he></cite>) <i>wrestler, antagonist, gladiator</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:3:4\">Y. R. Hash. I, 57ᵃ</cite> bot. <he>זה … לנצח זַרְזִירוֹ וכ׳</he> each is anxious to defeat his antagonist.—Pl. <cite ref=\"G00694\"><he>זַרְזִירִין</he></cite>, <cite ref=\"G00694\"><he>זַרְזָרִין</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 5:1\">Lam. R. to V, 1</cite> <he>אדם … שני זרזרין … כובש וכ׳</he> (not <cite ref=\"K00046\"><he>כבוש</he></cite>) if a man trains two gladiators in his house, he will restrain the stronger one &c. [Bib. Hebr. <cite ref=\"G00691\"><he>זַרְזִיר</he></cite> <i>quick</i>, or <i>armed</i>, v. <cite ref=\"G00686\"><he>זרז</he></cite>.]"
+			]
+		}
+	]
+}

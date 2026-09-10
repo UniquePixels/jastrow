@@ -1,0 +1,34 @@
+{
+	"id": "P00529",
+	"slug": "עיטא",
+	"headword": {
+		"text": "עֵיטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵיטְתָא"
+		},
+		{
+			"text": "עֵטְ׳"
+		}
+	],
+	"page": {
+		"number": 1068,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00482\"><he>יְעַט</he></cite>) = h. <cite ref=\"P01102\"><he>עֵצָה</he></cite>, <i>counsel, advice, order</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 11:3\">Targ. Koh. XI, 3</cite> (h. text <he>העץ</he>!). ",
+				"<cite ref=\"Targum Jonathan on Genesis 37:14\">Targ. Y. Gen. XXXVII, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:1\">Targ. Esth. I, 1</cite> (ed. Amst. <cite ref=\"P00456\"><he>עֵטִיתָא</he></cite>, cmp. <cite ref=\"P00443\"><he>עֳטִי</he></cite>); a. fr.—",
+				"<cite ref=\"Aramaic Targum to Ruth 4:22\">Targ. Ruth IV, 22</cite> <i>masc.</i>—Pl. <cite ref=\"P00535\"><he>עֵיטְּיַין</he></cite>, <cite ref=\"P00535\"><he>עֵיטְיַן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:28\">Targ. Y. Deut. XXXII, 28</cite> (Y. II <he>עֵיצַן</he>)."
+			]
+		}
+	]
+}

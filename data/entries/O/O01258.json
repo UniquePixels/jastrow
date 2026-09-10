@@ -1,0 +1,31 @@
+{
+	"id": "O01258",
+	"slug": "סנק-2",
+	"headword": {
+		"text": "סְנַק"
+	},
+	"page": {
+		"number": 1008,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סַנֵּק</he> <cite ref=\"O01257\">same</cite>, esp. <i>to stuff</i>; [oth. opin.: <i>to choke, cause loss of breath</i>].—Part. pass. <he>מְסַנַּק</he>, (with <cite ref=\"F00000\"><he>ו</he></cite> emphat.) <he>מְסַנְּקָן</he>. ",
+					"units": [
+						"<cite ref=\"Pesachim 3b:5\">Pes. 3ᵇ</cite> <he>שויתינן … כגדי מס׳</he> you made that subject to us (as savory) as a stuffed kid; <he>כדבר אחר מ׳</he> as a stuffed swine; [Ar. a. Rashi: this lesson made us (as tired) as a breathless kid, swine]."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "N00063",
+	"slug": "נבח-2",
+	"headword": {
+		"text": "נְבַח"
+	},
+	"page": {
+		"number": 868,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00062\">same</cite> <cite ref=\"Onkelos Exodus 11:7\">Targ. Ex. XI, 7</cite> <he>למִנְבַּח</he> (ed. Berl. <he>למִיבַּח</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 56:10\">Targ. Is. LVI, 10</cite> <he>למיבח</he> ed. Lag. (oth. ed. <he>למנ׳</he>).—",
+				"<cite ref=\"Pesachim 113a:2\">Pes. 113ᵃ</cite> do not live in a place <he>דלא נ׳ בה כלבא</he> where no dog barks. ",
+				"<cite ref=\"Eruvin 86a:9\">Erub. 86ᵃ</cite>, v. <cite ref=\"C00496\"><he>גּוּרְיְתָא</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַבֵּחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00062\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 59:12\">Gen. R. s. 59</cite> end <he>ושמע קל כלביא מְנַבְּחִין</he> (not <he>מנבחים</he>) and hears the dogs bark; <cite ref=\"Yalkut Shimoni on Torah 107\">Yalk. ib. 107</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to produce a dull sound</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 57a:17\">Ber. 57ᵃ</cite> <he>ונַבְּחִי בה נַבּוּחֵי</he> v. <cite ref=\"I00068\"><he>טַבְלָא</he> I</cite>.—",
+						"<cite ref=\"Beitzah 14a:10\">Bets. 14ᵃ</cite> <he>נבוחי מְנַבַּח וכ׳</he> the sound produced by pounding spices is a dull one, opp. <cite ref=\"R00518\"><he>צליל</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

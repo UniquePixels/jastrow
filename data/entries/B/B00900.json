@@ -1,0 +1,37 @@
+{
+	"id": "B00900",
+	"slug": "בלע-3",
+	"headword": {
+		"text": "בֶּלַע"
+	},
+	"page": {
+		"number": 175,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00899\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>absorption, natural loss, leakage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 3:8\">B. Mets. III, 8</cite> (<cite ref=\"Bava Metzia 40a:17\">40ᵃ</cite>) <he>לוג ומחצה ב׳</he> a <i>Log</i> and a half is a reasonable leakage (absorbed by new vessels); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m. (b. h.) <i>Bela;</i> v. <cite ref=\"B00898\"><he>בָּלַע</he></cite> a. <cite ref=\"B00873\"><he>בְּלִיעָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " <cite ref=\"B00900\"><he>בֶּלַע</he></cite> or <cite ref=\"B00901\"><he>בַּלַּע</he></cite> (cmp. <cite ref=\"B00857\"><he>בְּלִי</he></cite>) <i>a nothing, a mote</i>. Tanḥ. Vayak. 7 (ref. to <he>כְּבַלַּע</he> <cite ref=\"Numbers 4:20\">Num. IV, 20</cite>) <he>כב׳ הזה שהוא נופל בעין</he>; (<cite ref=\"Bamidbar Rabbah 5:9\">Num. R. s. 5</cite> <he>מן העין</he>) as much as a mote which enters one’s eye.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

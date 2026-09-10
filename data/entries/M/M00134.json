@@ -1,0 +1,42 @@
+{
+	"id": "M00134",
+	"slug": "מגופה",
+	"headword": {
+		"text": "מְגוּפָה"
+	},
+	"page": {
+		"number": 726,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00455\"><he>גּוּף</he> I</cite>), constr. <cite ref=\"M00134\"><he>מְגוּפַת</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bung, stopper</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 9:1\">Kel. IX, 1</cite>. ",
+				"<cite ref=\"Mishnah Kelim 10:3\">Ib. X, 3</cite>, v. <cite ref=\"H01018\"><he>חִלְחֵל</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the clay used for sealing wine vessels, sealing clay</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:20\">Y. Ber. IX, 13ᵈ</cite> bot. <he>כדי שתשרה המ׳</he> so much rain that the sealing clay looks as if dissolving; <cite ref=\"Jerusalem Talmud Taanit 1:3:3\">Y. Taan. I, 64ᵇ</cite> top (not <he>שתשרף</he>); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>an air-tight vessel</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Beitsah 2:14\">Tosef. Bets. II, 14</cite>; Y. ib. II, 61ᶜ bot. <he>היו מכניסין … במ׳</he> they brought the burning perfume (<cite ref=\"M00401\"><he>מוּגְמָר</he></cite>) into the dining room (on a Holy Day) in an air-tight vessel."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A00372",
+	"slug": "אדא-4",
+	"headword": {
+		"text": "אָדָא",
+		"homograph": 4
+	},
+	"page": {
+		"number": 15,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.  <cite ref=\"R00100\"><he>צֹדֶה</he></cite>; cmp. b. h. <cite ref=\"P00111\"><he>עַד</he></cite> <i>prey</i>, a. <cite ref=\"A01151\"><he>אֵיד</he></cite> <i>destruction</i>) <i>fowler, one who puts up baits, snares</i> &c. for other people’s doves. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 25a:16\">Snh. 25ᵃ</cite> (explain. <i>mafriḥe yonim</i>, Mishn.) <he>אמר א׳</he>—<he>ר׳</he> Ms. M. a. Oxf., a. Ar. (ed. <cite ref=\"A02946\"><he>ארא</he></cite>; v. Rabb. D. S. a. l., a. Ar.) R—says, the Mishnah means a fowler (to be disqualified as witness &c.)."
+			]
+		}
+	]
+}

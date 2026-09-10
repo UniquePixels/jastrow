@@ -1,0 +1,24 @@
+{
+	"id": "M01887",
+	"slug": "מסותא",
+	"headword": {
+		"text": "מְסוּתָא"
+	},
+	"page": {
+		"number": 805,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"M01889\"><he>מַסְחוּתָא</he></cite> q. v.) <i>bath</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 62b:15\">Snh. 62ᵇ</cite>; <cite ref=\"Eruvin 27b:4\">Erub. 27ᵇ</cite>, v. <cite ref=\"J00049\"><he>יְבַל</he></cite>. ",
+				"<cite ref=\"Bava Metzia 6a\">B. Mets. 6ᵃ</cite>, sq. <he>ההיא מ׳ … מנצו עלה וכ׳</he> (not <cite ref=\"P00794\"><he>עליה</he></cite>) there was a bath-house which two contested, one saying, it is mine &c. ",
+				"<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite>, end [read:] <he>אסר מני מְסוּתֵיה</he> he put on his bathing apparel, v. <cite ref=\"G00207\"><he>זַוְנִיתָא</he></cite>."
+			]
+		}
+	]
+}

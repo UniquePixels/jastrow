@@ -1,0 +1,36 @@
+{
+	"id": "M02061",
+	"slug": "מעגילה",
+	"headword": {
+		"text": "מַעֲגִילָה"
+	},
+	"page": {
+		"number": 813,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00089\"><he>עָגַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>roller, a slab for rolling over a plastered roof</i>, v. <cite ref=\"M00893\"><he>מַחֲלָץ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 2:1\">Macc. II, 1</cite>; <cite ref=\"Tosefta Makkot 2:3\">Tosef. ib. II, 3</cite>; Y. ib. II, beg. 31ᶜ. ",
+				"<cite ref=\"Mishnah Moed Katan 1:10\">M. Kat. I, 10</cite> <he>במ׳ ביד וברגל</he>, expl. ",
+				"<cite ref=\"Moed Katan 11a:8\">ib. 11ᵃ</cite> <he>כעין מ׳ וכ׳</he> with hands and feet as with a roller."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a press for straightening wood</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 308\">Sifré Deut. 308</cite>, v. <cite ref=\"K00296\"><he>כּוּן</he></cite> <i>Pi.</i>; <cite ref=\"Yalkut Shimoni on Torah 942\">Yalk. ib. 942</cite> <cite ref=\"M02063\"><he>מַעֲגָלָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

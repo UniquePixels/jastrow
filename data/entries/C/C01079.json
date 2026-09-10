@@ -1,0 +1,78 @@
+{
+	"id": "C01079",
+	"slug": "גנב-2",
+	"headword": {
+		"text": "גְּנַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּנֵיב"
+		}
+	],
+	"page": {
+		"number": 256,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01078\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 31:30\">Targ. Y. Gen. XXXI, 30</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 31:20\">Ib. 20</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 24:7\">Targ. O. Deut. XXIV, 7</cite> <cite ref=\"C01079\"><he>גָּנֵיב</he></cite> (Y. <cite ref=\"C01079\"><he>גְּנִיב</he></cite>, corr. acc.); a. fr.—Part. pass. <cite ref=\"C01079\"><he>גְּנִיב</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 40:15\">Targ. O. Gen. XL, 15</cite> <he>גְּנֵיבְנָא</he> ed. Berl. I have been stolen.—Ruth R. introd. 3 (a trial before a Roman court) <he>גְּנַבְתּוּן לא גְנַבְנוּן</he> “Ye have stolen”.—‘We have not’ …; <he>לא גָנַבְתְּ מאן ג׳ עמך</he> “thou hast not stolen? Who has been stealing with thee?”; <cite ref=\"Bereishit Rabbah 37:2\">Gen. R. s. 37</cite>; s. 63. ",
+				"<cite ref=\"Bava Kamma 65b:15\">B. Kam. 65ᵇ</cite> <he>תורא גַנְבִי מינך</he> was it an ox I stole from thee?—",
+				"<cite ref=\"Bava Kamma 67b:14\">Ib. 67ᵇ</cite> <he>עד דגְנֵיב תרי</he> (he is not bound to pay) unless he stole two animals; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּנֵּיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C01078\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 23:30\">Targ. Jer. XXIII, 30</cite>.—2) <cite ref=\"C01078\">same</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to go round about</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 19a:5\">Keth. 19ᵃ</cite> <he>גַנּוֹבָא גַּנּוּבֵי למה לך וכ׳</he> O thou cunning man, what is the use of thy going round about?; <cite ref=\"Yevamot 91a:13\">Yeb. 91ᵃ</cite>; <cite ref=\"Bava Batra 133a:4\">B. Bath. 133ᵃ</cite> <he>גַּנָּבָא גנובי</he> Ms. R. (ed. <he>גנבא גנבי</he>, corr. acc.).—Part. pass. <he>מְגַנַּב</he> <i>crooked</i>. ",
+						"<cite ref=\"Targum Jonathan on Judges 5:6\">Targ. Jud. V, 6</cite> <he>אורחן מְגַנְּבָן</he> (h. text <he>עקלקל׳</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְגַּנַּב"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְגְּנַב", "אִיגְּנַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be stolen</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 22:11\">Targ. Ex. XXII, 11</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 40:15\">Targ. Y. Gen. XL, 15</cite>; a. e.—",
+						"<cite ref=\"Bava Metzia 34a:1\">B. Mets. 34ᵃ</cite> top <he>מי יימר דמִיגַּנְּבָא</he> who can say that it will be stolen? <cite ref=\"Bava Metzia 24a\">Ib. 24ᵃ</cite> <he>אִגְּנִיב כסא וכ׳</he> a silver goblet was stolen from the inn; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sneak away</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 19:4\">Targ. II Sam. XIX, 4</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

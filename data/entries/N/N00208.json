@@ -1,0 +1,28 @@
+{
+	"id": "N00208",
+	"slug": "נדבך-2",
+	"headword": {
+		"text": "נִדְבַּךְ",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "נִידְ׳"
+		}
+	],
+	"page": {
+		"number": 877,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00207\">same</cite>, <i>a course of stones, tier</i>. ",
+			"units": [
+				"<cite ref=\"Ezra 6:4\">Ezra VI, 4</cite> <cite ref=\"N00207\"><he>נִדְבָּךְ</he></cite>.—",
+				"<cite ref=\"Targum Jonathan on Haggai 2:15\">Targ. Hag. II, 15</cite> (h. text <he>אבן</he>).—Pl. <he>נִדְבָּכִין</he>, <he>נִדְבָּכַיָּא</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. Ezra l. c.—",
+				"<cite ref=\"Targum Jonathan on Zechariah 4:10\">Targ. Zech. IV, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 46:23\">Targ. Ez. XLVI, 23</cite> (h. text <cite ref=\"I00214\"><he>טור</he></cite>, <he>טיר׳</he>)."
+			]
+		}
+	]
+}

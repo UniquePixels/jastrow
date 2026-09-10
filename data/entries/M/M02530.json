@@ -1,0 +1,50 @@
+{
+	"id": "M02530",
+	"slug": "מרד-3",
+	"headword": {
+		"text": "מְרַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרֵיד"
+		}
+	],
+	"page": {
+		"number": 836,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  = h. <cite ref=\"M02528\"><he>מָרַד</he> I</cite>, <i>to rebel, run away</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 15:27\">Targ. I Kings XV, 27</cite> (h. text <he>קשר</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 9:14\">Targ. II Kings IX, 14</cite> (ed. Wil. <he>מריד</he>; h. text <he>קשר</he> <i>Hithpa.</i>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 8:5\">Targ. Jer. VIII, 5</cite> <he>למִמְרַד מן</he> ed. Lag. (ed. <he>למרד</he>) to run away from (desert); a. fr.—",
+				"<cite ref=\"Berakhot 44a:4\">Ber. 44ᵃ</cite> <he>עד דמריד</he> until he ran away (bewildered)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " cmp. <cite ref=\"M02531\"><he>מֶרֶד</he></cite> II a. <cite ref=\"T00235\"><he>רָדָה</he></cite>) <i>to rule</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:7\">Targ. Lam. I, 7</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִימְּרִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to become rebellious, run away</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 63b:9\">Keth. 63ᵇ</cite> <he>אִימְּרִידָא</he> Rashi (ed. <he>אִימְרְדָה</he>, Alf. <he>אִימְרְדָא</he>) ran away (from her husband). ",
+						"<cite ref=\"Bava Metzia 84b:3\">B. Mets. 84ᵇ</cite> <he>אימרדה אזלה וכ׳</he> (Ms. M. <he>אימרי׳</he>, v. <cite ref=\"M02651\"><he>מְרִי</he></cite>) she ran away and went to her paternal home."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

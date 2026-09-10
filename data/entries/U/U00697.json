@@ -1,0 +1,66 @@
+{
+	"id": "U00697",
+	"slug": "שחק-3",
+	"headword": {
+		"text": "שָׁחַק"
+	},
+	"page": {
+		"number": 1550,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to rub, grind, pound</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 18:7-14\">Midr. Till. to Ps. XVIII</cite> <he>ולמה … שחקים שהן שׁוֹחֲקִין אלו באלו</he> why are the clouds named <i>sh’ḥaḳim?</i> Because they rub against one another. ",
+				"<cite ref=\"Bereishit Rabbah 13:16\">Gen. R. s. 13</cite>, a. e., v. <cite ref=\"U00700\"><he>שַׁחַק</he> II</cite>. ",
+				"<cite ref=\"Mishnah Beitzah 2:8\">Bets. II, 8</cite> <he>שוחקין את הפלפלין וכ׳</he> you may grind pepper on the pepper-mill (on the Holy Day). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:7\">Y. Ber. VI, 10ᵃ</cite> top <he>שְׁחָקָן וכ׳</he> if he mashed them (the turnips), he must say the benediction &c., opp. <he>אם בעיינן הן</he> if they are in their natural shape; a. fr.—[<cite ref=\"Yalkut Shimoni on Nach 988:40\">Yalk. Cant. 988</cite> <cite ref=\"U00699\"><he>שחק</he></cite>, v. <cite ref=\"U00687\"><he>שָׁחַץ</he></cite>.]—<i>Part. pass.</i> <cite ref=\"U00626\"><he>שָׁחוּק</he></cite>; f. <cite ref=\"U00086\"><he>שְׁחוּקָה</he></cite>; pl. <he>שְׁחוּקִים</he>, <he>שְׁחוּקִין</he>; <he>שְׁחוּקוֹת</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>ground, pounded, mashed</i>. Y. Ber. l. c. <he>ויין לאו ש׳ הוא</he> is wine not a product gained by pounding?; <cite ref=\"Yoma 2a\">ib.</cite> <he>ופת לאו ש׳ היא</he> is not bread a product &c.?; <cite ref=\"Yoma 2a\">ib.</cite> <he>שאר … אע״פ שש׳ הן וכ׳</he> all other things, although produced by pounding (like olive-oil &c.) are ritually treated as if in their natural state; a. e.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"U00679\"><he>שָׁחַף</he></cite>) <i>lean, meagre</i>. Y. Dem. II, beg. 22ᵇ <he>שחוקה היא</he> (R. S. to <cite ref=\"Mishnah Demai 2:1\">Dem. II, 1</cite> <cite ref=\"U00655\"><he>שְׁחִיקָא</he></cite> ch.) the fig of Bozrah is stunted.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיחֵק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00696\">same</cite>; <i>part. pass</i>. <he>מְשׁוּחָק</he>; pl. <he>מְשׁוּחָקִים</he>, <he>מְשׁוּחָקִין</he> <i>rubbed, worn-out, threadbare</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Menahot 1:8\">Tosef. Men. I, 8</cite>; <cite ref=\"Zevachim 18a:11\">Zeb. 18ᵃ</cite>, v. <cite ref=\"T01089\"><he>רָשַׁל</he></cite>; <cite ref=\"Zevachim 18b:14\">ib. 18ᵇ</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to curse the memory of a person</i>, v. <cite ref=\"U00698\">next w.</cite>",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִשְׁחַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be ground</i>. ",
+					"units": [
+						"<cite ref=\"Avot D'Rabbi Natan 1:6\">Ab. d’R. N. ch. I</cite> <he>נִשְׁחֲקוּ עצמותיו</he> his bones were ground, i.e. his memory is cursed, v. <cite ref=\"U00698\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

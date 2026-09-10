@@ -1,0 +1,22 @@
+{
+	"id": "M00195",
+	"slug": "מגניא",
+	"headword": {
+		"text": "מִגַּנְיָא"
+	},
+	"page": {
+		"number": 729,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (part. Ithpe. of <cite ref=\"C01132\"><he>גְּנֵי</he></cite>) = h. <he>מְגוּנֶּה</he> (v. <cite ref=\"C01098\"><he>גָּנָה</he></cite>), <i>blame-worthy</i>; <he>מילתא מ׳</he> <i>blemish, defect</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 60:9\">Gen. R. s. 60</cite> (prov.) <he>מילתא דאית בך מ׳ וכ׳</he> what blemish there be in thee, be the first to tell it; <cite ref=\"Bava Kamma 92b\">B. Kam. 92ᵇ</cite> <he>מילתא דמִיגַּ׳</he> Ms. M. (ed. <cite ref=\"C01075\"><he>גנאה</he></cite>)."
+			]
+		}
+	]
+}

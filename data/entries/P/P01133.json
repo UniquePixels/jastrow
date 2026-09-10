@@ -1,0 +1,23 @@
+{
+	"id": "P01133",
+	"slug": "עצרא-1",
+	"headword": {
+		"text": "עַצְרָא"
+	},
+	"page": {
+		"number": 1103,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01132\">preced.</cite> wds.) <i>wine-press, vat</i>.—Pl. <cite ref=\"P01135\"><he>עַצְרֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86b:6\">B. Mets. 86ᵇ</cite> <he>זגתא … ביני ע׳</he> a black hen … that moves about among the vats. ",
+				"<cite ref=\"Bava Kamma 27b:9\">B. Kam. 27ᵇ</cite> <he>קרנא דע׳</he> (not <he>דעצרא</he>) a corner near the wine-presses."
+			]
+		}
+	]
+}

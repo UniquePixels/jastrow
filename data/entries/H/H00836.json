@@ -1,0 +1,27 @@
+{
+	"id": "H00836",
+	"slug": "חיסכון",
+	"headword": {
+		"text": "חִיסָּכוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִסָּ׳"
+		}
+	],
+	"page": {
+		"number": 459,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01392\"><he>חָסַךְ</he></cite>) <i>sparing, regard to expense</i> in religious laws. ",
+			"units": [
+				"<cite ref=\"Menachot 86b:4\">Men. 86ᵇ</cite> (expl. <he>התורה חסה וכ׳</he>, v. <cite ref=\"H00408\"><he>חוּס</he></cite>); <cite ref=\"Menachot 76b:13\">ib. 76ᵇ</cite> <cite ref=\"H00835\"><he>חיסחון</he></cite> (Ms. Vatic. <he>חיסכ׳</he>); a. e."
+			]
+		}
+	]
+}

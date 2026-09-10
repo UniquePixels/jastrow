@@ -1,0 +1,31 @@
+{
+	"id": "A02995",
+	"slug": "ארגנטריא",
+	"headword": {
+		"text": "אַרְגֶּנְטָרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְגֶּנְטָארְיָיא"
+		},
+		{
+			"text": "אַרְגֶּנְטָרִין"
+		}
+	],
+	"page": {
+		"number": 115,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀργενταρία, argentarium) <i>silver-case, plate, table service</i> (of silver or gold). Pesik. Baḥod. p. 106ᵇ <he>ארגנטין</he> Ar. Var. (<cite ref=\"A02995\"><he>ארגנטרין</he></cite> ed. Koh.; ed. <cite ref=\"A02099\"><he>אנגיטירין</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 271:2\">Yalk. Ex. 271</cite> <he>ארגניטין</he> (cmp. versions ibid. a. Ar. s. v., in order to arrive at a correct reading of the whole passage). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 8:8:4\">Y. Peah VIII, 21ᵇ</cite> <cite ref=\"A00320\"><he>אגנטין</he></cite>, <cite ref=\"A02993\"><he>ארגנטורין</he></cite> (corr. acc.). ",
+				"<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite> <he>ארגוטדיא</he>, <cite ref=\"A02993\"><he>ארגנאטרייא</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

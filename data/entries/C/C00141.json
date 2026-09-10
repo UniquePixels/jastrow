@@ -1,0 +1,29 @@
+{
+	"id": "C00141",
+	"slug": "גבש-1",
+	"headword": {
+		"text": "גָּבַשׁ"
+	},
+	"page": {
+		"number": 209,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be high, piled up;</i> denom. <cite ref=\"C00065\"><he>גָּבוּשׁ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּבֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to fill with piles of stones</i>. Tosef. Oh. XVII, 9 <he>שגִּבְּשׁוֹ בגבושים</he> which he filled up &c.; (Oh. XVIII, 5 <he>רצף באבנים</he>).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

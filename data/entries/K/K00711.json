@@ -1,0 +1,49 @@
+{
+	"id": "K00711",
+	"slug": "כלופסין",
+	"headword": {
+		"text": "כְּלוּפְסִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלוּפְ׳"
+		},
+		{
+			"text": "קְלוּפְ׳"
+		},
+		{
+			"text": "לִבְסִים"
+		},
+		{
+			"text": "לִבְסִין"
+		}
+	],
+	"page": {
+		"number": 640,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Lesbii; v. <cite ref=\"C00907\"><he>גְּלוּסְקָא</he></cite> a. <cite ref=\"C00889\"><he>גְּלוּגְדְּקָא</he></cite>) <i>Lesbians</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a species of <i>figs</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 50b:8\">Ned. 50ᵇ</cite> (quoting <cite ref=\"Mishnah Maasrot 2:8\">Maasr. II, 8</cite>) <he>היה עושה בכ׳</he> if one is doing hired labor among Lesbian figs; Maasr. l. c. <cite ref=\"K00711\"><he>לבסים</he></cite>; Mish. Y. ed. <he>לכסים</he>; Y. ib. II, 50ᵃ <cite ref=\"K00710\"><he>כלוסין</he></cite>. Ned. l. c. <he>מאי כ׳</he> what is K.? Answ. <he>מינא דתאיני וכ׳</he> a species of figs used for cooking purposes. Ib. 49ᵇ (in Chald. dict.) <he>בלוספיין</he>, read <he>כְּלוּסְפִּיִּין</he> (or … <he>פָּיִין</he>); [Ar. reads <cite ref=\"B00838\"><he>בלופסין</he></cite>; Mus. refers to φιβαλέως, a species of <i>early figs</i>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"C00907\"><he>גְּלוּסְקָא</he></cite>) a species of <i>table-olives</i>, opp. <he>זיתי שמן</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 4:3\">Tosef. Ter. IV, 3</cite> <cite ref=\"S01292\"><he>קלופסין</he></cite> ed. Zuck. (Var. <cite ref=\"K00711\"><he>גלופ׳</he></cite>; <cite ref=\"Mishnah Terumot 2:6\">Ter. II, 6</cite> <he>זיתי כבש</he>). Ib. III, 15 <cite ref=\"S00001\"><he>ק׳</he></cite> (Var. <he>קולפ׳</he>, <he>קלפין</he>); Y. ib. I, end, 41ᵃ <cite ref=\"K00701\"><he>כלוכסין</he></cite> (read: <he>כלוב׳</he> or <he>כלופ׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

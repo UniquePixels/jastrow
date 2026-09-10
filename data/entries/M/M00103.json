@@ -1,0 +1,30 @@
+{
+	"id": "M00103",
+	"slug": "מבתא",
+	"headword": {
+		"text": "מְבָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִבְתוּתָא"
+		}
+	],
+	"page": {
+		"number": 725,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00400\"><he>בּוּת</he></cite>) <i>night-lodging</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:8\">Targ. Jer. XIV, 8</cite> (some ed. <cite ref=\"M00103\"><he>מַבָּתָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 1:8\">Targ. Is. I, 8</cite> <he>ערסל מ׳</he> (ed. Wil. <cite ref=\"M00103\"><he>מַבְּתּוּתָא</he></cite>, corr. acc.; Regia <cite ref=\"M00103\"><he>מַבָּתוּתָא</he></cite>; some ed. <he>מכ׳</he>, corr. acc.) the hammock for night-lodging (h. text <he>מלונה</he>).—<cite ref=\"M01502\"><he>בֵּית מ׳</he></cite> (<cite ref=\"B00536\"><he>בֵּי</he></cite>) <i>lodging place</i>. ",
+				"<cite ref=\"Onkelos Genesis 42:27\">Targ. Gen. XLII, 27</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:1\">Targ. Jer. IX, 1</cite> <he>מְבָתָת</he> (<he>מַבָּתַת</he>, constr.)."
+			]
+		}
+	]
+}

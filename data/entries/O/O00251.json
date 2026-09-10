@@ -1,0 +1,42 @@
+{
+	"id": "O00251",
+	"slug": "סוגיא",
+	"headword": {
+		"text": "סוּגְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּגְיָיא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 961,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְגֵי</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>walk</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 66b:1\">Sabb. 66ᵇ</cite> top <he>לתרוצי ס׳ הוא דעביד</he> Ms. M. it (the cane) serves merely to direct the walk (not as a support)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"E00566\"><he>הֲלָכָה</he></cite>) <i>study, lesson, subject; practice, usage</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12:3\">Num. R. s. 12</cite>; <cite ref=\"Eichah Rabbah 1:29\">Lam. R. to I, 3</cite>, v. <cite ref=\"B00430\"><he>בְּזַז</he> I</cite>, a. <cite ref=\"C00538\"><he>גְּזַז</he></cite>. ",
+				"<cite ref=\"Sanhedrin 6a:5\">Snh. 6ᵃ</cite> <he>סוּגְיָין דעלמא</he> (Ms. M. <he>ס׳ דשמעתתא בעלמא</he>) the general practice (as regards that subject).—[<cite ref=\"Yalkut Shimoni on Nach 935\">Yalk. Prov. 935</cite> <he>סגיי סוגייא</he>, v. <cite ref=\"O00243\"><he>סוּג</he></cite> ch.—",
+				"<cite ref=\"Kohelet Rabbah 5:8:1\">Koh. R. to V, 8</cite> <cite ref=\"O00251\"><he>סוּגַיָּא</he></cite>, v. <cite ref=\"O00552\"><he>סִיגָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

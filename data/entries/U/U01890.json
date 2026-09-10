@@ -1,0 +1,23 @@
+{
+	"id": "U01890",
+	"slug": "שקק-2",
+	"headword": {
+		"text": "שָׁקָק"
+	},
+	"page": {
+		"number": 1625,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U00521\"><he>שׁוּק</he> III</cite>) <i>open place</i> surrounded by groups of buildings. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>ועל כל ש׳ וש׳ וכ׳</he> (<cite ref=\"P00342\"><he>העיר</he></cite>) each place (in Jerusalem) had twenty-four courts.—Pl. <he>שְׁקָקִים</he>. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>ועל כל שוק … ש׳</he> each street had twenty-four places."
+			]
+		}
+	]
+}

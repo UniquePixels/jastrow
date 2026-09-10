@@ -1,0 +1,33 @@
+{
+	"id": "R00287",
+	"slug": "צחק-1",
+	"headword": {
+		"text": "צָחַק"
+	},
+	"page": {
+		"number": 1274,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be bright</i>,] <i>to laugh; to jest, sport</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִיחֵק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00286\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Makkot 24b:1\">Macc. 24ᵇ</cite> <he>לכך אני מְצַחֵק</he> (Ms. M. <he>משחק</he>, v. Rabb. D. S. a. l. note) therefore I am glad. ",
+						"<cite ref=\"Bereishit Rabbah 53:8\">Gen. R. s. 53</cite> (ref. to <cite ref=\"Genesis 21:9\">Gen. XXI, 9</cite>) <he>אין מצחק אלא גלוי וכ׳</he> ‘sporting’ alludes to licentiousness, v. <cite ref=\"R00269\"><he>צְחוֹק</he></cite>. ",
+						"<cite ref=\"Genesis 21:9\">Ib.</cite> <he>ועושה … מצחק</he> and pretended to be only jesting; a. e.—V. <cite ref=\"U00695\"><he>שָׂחַק</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "H01764",
+	"slug": "חרר-1",
+	"headword": {
+		"text": "חָרַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 506,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01772\"><he>חֵרֵר</he></cite> (v. <cite ref=\"H00447\"><he>חוֹר</he> I</cite>) <i>to break through, to cave</i>. Ohol. III, 7; <cite ref=\"Sukkah 20b:13\">Succ. 20ᵇ</cite> <he>חור שחֵרְרוּהוּ מים</he> (or <he>שחֲרָרוּהוּ</he>) a cavity made by water, by animals &c.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

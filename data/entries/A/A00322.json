@@ -1,0 +1,23 @@
+{
+	"id": "A00322",
+	"slug": "אגנינה",
+	"headword": {
+		"text": "אַגְנִינָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 13,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (agnina, sc. pellis) <i>lamb-skin</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> Mus. (ed. <cite ref=\"A00321\"><he>אגנייה</he></cite>)."
+			]
+		}
+	]
+}

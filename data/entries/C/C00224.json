@@ -1,0 +1,46 @@
+{
+	"id": "C00224",
+	"slug": "גדל-2",
+	"headword": {
+		"text": "גְּדַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 213,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00223\">same</cite>.",
+			"units": [
+				"<cite ref=\"Kiddushin 71b:5\">Kidd. 71ᵇ</cite> <he>ג׳ ולא נסיב</he> was grown up and not yet married."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּדֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to raise, rear</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 4b:11\">Ḥag. 4ᵇ</cite> <he>מרים מְגַדְּלָא דרדקי</he> Miryam, the childrens’ nurse."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְגַּדַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be exalted</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 104:1\">Targ. Ps. CIV, 1</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

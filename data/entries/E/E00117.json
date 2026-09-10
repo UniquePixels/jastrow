@@ -1,0 +1,35 @@
+{
+	"id": "E00117",
+	"slug": "הדיוט",
+	"headword": {
+		"text": "הֶדְיוֹט"
+	},
+	"page": {
+		"number": 333,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (an adaptation of ἰδιώτης) <i>private man</i> (opp. to priest, officer &c.), <i>commoner; ignoble, ignorant</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 18:23\">Targ. I Sam. XVIII, 23</cite>; a. fr.—",
+				"<cite ref=\"Megillah 12b\">Meg. 12ᵇ</cite>, a. e. (prov.) <he>הה׳ קופץ בראש</he> the lowest man rushes ahead (is the first to give an opinion).—",
+				"<cite ref=\"Yevamot 59a:13\">Yeb. 59ᵃ</cite>, a. fr. <he>כהן ה׳</he> a common priest, opp. <he>כהן גדול</he>. ",
+				"<cite ref=\"Mishnah Moed Katan 1:8\">M. Kat. I, 8</cite> <he>הה׳</he> the untrained tailor, opp. <he>אומן</he> the professional. ",
+				"<cite ref=\"Moed Katan 10a:1\">Ib. 10ᵃ</cite> <he>היכי דמי ה׳</he> when do you call one a <i>hedyot?</i>—",
+				"<cite ref=\"Bava Metzia 104a:12\">B. Mets. 104ᵃ</cite> <he>לשון ה׳</he> the popular terms, v. <cite ref=\"D01129\"><he>דָּרַשׁ</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 96:5\">Gen. R. s. 96</cite> <he>משל ה׳</he> a popular adage; a. fr.—<i>Pl.</i> (Ch.) <he>הֶדְיוֹטִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 30:8\">Targ. Job XXX, 8</cite>; a. e.—(Hebrew) <he>הֶדְיוֹטוֹת</he>. ",
+				"<cite ref=\"Mishnah Sanhedrin 10:2\">Snh. X, 2</cite> (<cite ref=\"Sanhedrin 90a:17\">90ᵃ</cite>) three kings <he>וארבעה ה׳</he> and four private persons. ",
+				"<cite ref=\"Sanhedrin 21b:19\">Snh. 21ᵇ</cite> bot. <he>לה׳</he> for the common people (Samaritans). ",
+				"<cite ref=\"Tosefta Shabbat 13:1\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:1\">XIV</cite>), 1; Y. ib. XVI, 15ᶜ top <he>שטרי ה׳</he> private (not Hebrew) writings; Bab. ",
+				"<cite ref=\"Shabbat 116b:5\">ib. 116ᵇ</cite>; a. fr. ",
+				"<cite ref=\"Bamidbar Rabbah 8:4\">Num. R. s. 8</cite> <he>הֶדְיוֹטִים</he> (some ed.).—Fem. <he>הֶדְיוֹטִית</he>. ",
+				"<cite ref=\"Ruth Rabbah 1:2\">Ruth R. to I, 19</cite> <he>פדה ה׳</he> a cow of common stock (not trained for work)."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "C01067",
+	"slug": "גמרא",
+	"headword": {
+		"text": "גְּמָרָא"
+	},
+	"page": {
+		"number": 255,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"C01064\"><he>גְּמַר</he> II</cite>, 5) <i>memorizing of verbal teachings, tradition</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 19a:19\">Ab. Zar. 19ᵃ</cite> bot. <he>הנ״מ סברא אבל ג׳ מחד רבא וכ׳</he> (v. Rabb. D. S. a. l. note) this refers to reasoning (dialectics), but as to traditional laws (rules &c.), it is better to study only with one teacher, in order not to be confused by varying wording; <cite ref=\"Yalkut Shimoni on Nach 614:6\">Yalk. Ps. 614</cite>.—",
+				"<cite ref=\"Gittin 6b:10\">Gitt. 6ᵇ</cite> <he>הא ג׳ היא וג׳ לא שמיע ליה</he> this is merely a tradition (not to be arrived at by way of reasoning) and one may not have heard that tradition (and yet be an able man). ",
+				"<cite ref=\"Bava Metzia 33a:10\">B. Mets. 33ᵃ</cite>; <cite ref=\"Bava Metzia 33b:10\">33ᵇ</cite> <he>ג׳</he> verbal study (opp. to <cite ref=\"M02939\"><he>משנה</he></cite> which had been put to writing). Arakḥ. 29ᵃ <he>רב גַּמְרֵיה גמיר</he> (not <he>גמור</he>) Rab had his own tradition about it (had it from his teacher that the Mishnah was corrupt). ",
+				"<cite ref=\"Eruvin 60a:17\">Erub. 60ᵃ</cite> <he>ג׳ גמור זמורתא תהא</he> if it is a tradition, learn it by heart, let it be like a song (the wording of which you dare not change); <cite ref=\"Shabbat 106b:7\">Sabb. 106ᵇ</cite>; <cite ref=\"Avodah Zarah 32b:3\">Ab. Zar. 32ᵇ</cite>; <cite ref=\"Beitzah 24a:11\">Bets. 24ᵃ</cite> (variously interpreted in comment.).—",
+				"<cite ref=\"Yoma 14b\">Yoma 14ᵇ</cite>, a. fr. <he>משמיה דג׳</he> as a tradition (without knowing the reasoning process, cmp. ",
+				"<cite ref=\"Yoma 33a:12\">ib. 33ᵃ</cite> bot. <he>ג׳ גמירנא וכ׳</he>); a. fr.—<i>G’mara</i>, that part of the Talmud containing those discussions, decisions &c. which, after the reduction to writing of the Mishnah, were the materials of verbal studies until they, too, were put to writing.—Abbrev. <cite ref=\"C01041\"><he>גמ׳</he></cite>, a clerical mark in the Talmud Babli editions, to indicate where the Mishnah ends, and the G’mara begins."
+			]
+		}
+	]
+}

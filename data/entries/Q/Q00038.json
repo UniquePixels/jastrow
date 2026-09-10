@@ -1,0 +1,23 @@
+{
+	"id": "Q00038",
+	"slug": "פגא-2",
+	"headword": {
+		"text": "פַּגָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1132,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00037\">preced.</cite>; v. <cite ref=\"Q00041\"><he>פַּגָּה</he></cite>) kernel of grapes.—Pl. <cite ref=\"Q00081\"><he>פַּגָּן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 6:4\">Targ. Y. Num. VI, 4</cite> Ar. s. v. <he>פגן</he> (ed. <he>זגין</he>; h. text <cite ref=\"G00054\"><he>זג</he></cite>)."
+			]
+		}
+	]
+}

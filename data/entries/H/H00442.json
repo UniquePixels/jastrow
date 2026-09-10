@@ -1,0 +1,31 @@
+{
+	"id": "H00442",
+	"slug": "חוקה",
+	"headword": {
+		"text": "חוּקָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֻקָּה"
+		}
+	],
+	"page": {
+		"number": 438,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <cite ref=\"H00441\">same</cite>, esp. <i>firmly established distinctive usage, religious observance</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 11a:10\">Ab. Zar. 11ᵃ</cite> <he>שריפה לאו ח׳ היא</he> the burning of costly materials at funerals is not a specific (gentile) religious custom. ",
+				"<cite ref=\"Bamidbar Rabbah 19:8\">Num. R. s. 19</cite>, beg. <he>חקה חקקתי</he> I have ordained a ceremony (without giving a reason). ",
+				"<cite ref=\"Bamidbar Rabbah 19:8\">Ib.</cite> four (laws) <he>דכתיב בהן ח׳</he> in reference to which the word <i>ḥukkah</i> (rule without reason) is used. ",
+				"<cite ref=\"Bamidbar Rabbah 19:8\">Ib.</cite> <he>לך אני מגלה … אבל לאחר ח׳</he> unto thee I reveal the reason …, but to anybody else it is a rule; a. fr.—Pl. <he>חוּקּוֹת</he>, <he>חֻקּוֹת</he>. Tanḥ. ",
+				"<cite ref=\"Leviticus 4\">B’ḥuck. 4</cite> <he>מצותי וחֻקּוֹתַי</he>; a. fr."
+			]
+		}
+	]
+}

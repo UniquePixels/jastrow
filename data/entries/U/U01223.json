@@ -1,0 +1,32 @@
+{
+	"id": "U01223",
+	"slug": "שלחי",
+	"headword": {
+		"text": "שִׁלְחֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1578,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (used as sing.) (<cite ref=\"U01215\"><he>שְׁלָה</he></cite>) <i>tail, end</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 20:16\">Targ. II Chr. XX, 16</cite>.—",
+				"<cite ref=\"Yevamot 115a\">Yeb. 115ᵃ</cite> <he>בש׳ הלוליה</he> (not <he>הלולי</he>) at the end of his wedding (when he was left alone with his bride). ",
+				"<cite ref=\"Yoma 29a:1\">Yoma 29ᵃ</cite> <he>ש׳ … קשיא וכ׳</he> (fem.), v. <cite ref=\"S00890\"><he>קַיְטָא</he></cite>. ",
+				"<cite ref=\"Berakhot 40b\">Ber. 40ᵇ</cite>, v. <cite ref=\"C00460\"><he>גּוֹפָן</he></cite>. ",
+				"<cite ref=\"Bava Metzia 64a\">B. Mets. 64ᵃ</cite>, v. <cite ref=\"Q01983\"><he>פִּרְקָא</he></cite>; a. e."
+			]
+		}
+	]
+}

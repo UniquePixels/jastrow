@@ -1,0 +1,46 @@
+{
+	"id": "A00244",
+	"slug": "אגד-6",
+	"headword": {
+		"text": "אֵגֶד"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיגְדּ־"
+		}
+	],
+	"page": {
+		"number": 10,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אגד</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tie, knot</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 10b\">Succ. 10ᵇ</cite>, a. fr. <he>צריך א׳</he> must be tied together. ",
+				"<cite ref=\"Sukkah 10b\">Ib.</cite> <he>הותר אִגְדּוֹ</he> if the tie of the Lulab became loosened. ",
+				"<cite ref=\"Eruvin 101b\">Erub. 101ᵇ</cite> sq. <he>בניטל באִגְדּוֹ</he> (a. twice <he>אִיגְ׳</he>, Rabb. in D. S. a. l. <he>באוּגְדּוֹ</he>) when the door pin is handled by pulling the cord knotted to it."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bunch</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 2:1:7\">Y. Ter. II, 41ᵇ</cite> <he>א׳ שנטמא</he> a bunch of herbs that became unclean."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " surgical <i>bandage</i>. ",
+			"units": ["<cite ref=\"Shabbat 53a\">Sabb. 53ᵃ</cite>"],
+			"label": "3"
+		}
+	]
+}

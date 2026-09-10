@@ -1,0 +1,23 @@
+{
+	"id": "A01224",
+	"slug": "איטני",
+	"headword": {
+		"text": "אִיטְּנִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 47,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A01223\">foreg.</cite>) <i>pencil, tube</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 48b:14\">Sot. 48ᵇ</cite> <he>א׳ של אבר</he> (<cite ref=\"Jerusalem Talmud Sotah 9:13:5\">Y. Sot. IX, 24ᵇ</cite> bot. a. Ar. <cite ref=\"I00573\"><he>טני</he></cite>) a leaden tube (Rashi = <cite ref=\"C00294\"><he>גּוּבְתָּא</he></cite>). V. <cite ref=\"I00573\"><he>טְנִי</he></cite>."
+			]
+		}
+	]
+}

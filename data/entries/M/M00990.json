@@ -1,0 +1,20 @@
+{
+	"id": "M00990",
+	"slug": "מטחן",
+	"headword": {
+		"text": "מַטְחֵן"
+	},
+	"page": {
+		"number": 766,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00270\"><he>טָחַן</he></cite>) <i>grinding mill</i> for olives. ",
+			"units": ["<cite ref=\"Shemot Rabbah 36\">Ex. R. s. 36</cite>, beg."]
+		}
+	]
+}

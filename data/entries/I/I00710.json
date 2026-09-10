@@ -1,0 +1,29 @@
+{
+	"id": "I00710",
+	"slug": "טרגימא",
+	"headword": {
+		"text": "טְרָגִימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְרוֹגִימָא"
+		}
+	],
+	"page": {
+		"number": 550,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τράγημα, τρῶγμα) <i>sweetmeats, dessert</i> (dried fuits &c.). ",
+			"units": [
+				"<cite ref=\"Pesachim 107b\">Pes. 107ᵇ</cite> … <he>מטביל במיני ט׳</he> Ar. (ed. <he>תרג׳</he>) he may make a luncheon of various sweetmeats. ",
+				"<cite ref=\"Yoma 79b\">Yoma 79ᵇ</cite>; <cite ref=\"Sukkah 27a\">Succ. 27ᵃ</cite> <cite ref=\"V00001\"><he>ת׳</he></cite>. ",
+				"<cite ref=\"Tosefta Berakhot 4:4\">Tosef. Ber. IV, 4</cite> <he>תרגי׳</he> (Var. <cite ref=\"V00941\"><he>תרגומה</he></cite>)."
+			]
+		}
+	]
+}

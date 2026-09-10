@@ -1,0 +1,39 @@
+{
+	"id": "N00560",
+	"slug": "נטילה-1",
+	"headword": {
+		"text": "נְטִילָה"
+	},
+	"page": {
+		"number": 899,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00571\"><he>נָטַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>taking; lifting up; carrying</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 34a\">Zeb. 34ᵃ</cite>; <cite ref=\"Makkot 14b:15\">Macc. 14ᵇ</cite> <he>נְטִילַת נשמה</he> death penalty. Y. Sabb. VII, 10ᶜ <he>נ׳ נשמה</he> taking life (destroying vitality); Bab. ",
+				"<cite ref=\"Shabbat 75a\">Sabb. 75ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Megillah 2:5\">Meg. II, 5</cite> <he>נטילת לולב</he> taking up the festive wreath.—",
+				"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> <he>נטילת ראש</he> lifting up the head (with the ambiguous meaning of ‘taking off the head’ or ‘promotion’). ",
+				"<cite ref=\"Vayikra Rabbah 17\">Lev. R. s. 17</cite>; <cite ref=\"Jerusalem Talmud Berakhot 2:8:9\">Y. Ber. II, 5ᶜ</cite> bot. <he>נטילת רשות</he>, v. <cite ref=\"T01079\"><he>רָשׁוּת</he></cite>.—Y. M. Kat. III, 82ᵃ top, a. e. <he>נטילת צפורנים</he> cutting the nails; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>נטילת ידים</he>, or <he>נ׳</he> <i>washing the hands</i> before and after meals &c. ",
+			"units": [
+				"<cite ref=\"Chullin 106a\">Ḥull. 106ᵃ</cite>, sq. ",
+				"<cite ref=\"Sotah 4b\">Sot. 4ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S02027",
+	"slug": "קריא-2",
+	"headword": {
+		"text": "קַרְיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1419,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. name of <i>a worm in poppy</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 3b:11\">Sot. 3ᵇ</cite> (Ar. s. v. <cite ref=\"K00098\"><he>כד</he></cite>: <cite ref=\"K01154\"><he>כַּרְיָא</he></cite>), v. <cite ref=\"G00575\"><he>זְנוּתָא</he></cite>."
+			]
+		}
+	]
+}

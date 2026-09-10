@@ -1,0 +1,33 @@
+{
+	"id": "H01484",
+	"slug": "חפת-2",
+	"headword": {
+		"text": "חָפַת"
+	},
+	"page": {
+		"number": 493,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to provide with a bosom</i> or <i>border</i>. Part. pass. <he>חָפוּת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 3:2\">Shek. III, 2</cite> <he>אין התורם … בפרגוד ח׳</he> he who takes the money out of the Temple cell must not enter with a bordered cloak (in order not to create suspicion; Ms. M. <he>האפות</he>, Mish. Pes. <he>הֶחָפוּת</he>, v. Rabb. D. S. a. l.).—Pl. <he>חֲפוּתִין</he>. Midr. Sam. ch. XXI <he>נמצאו ח׳ וכ׳</he> the garments were found (to fit David) forming a bosom, not dragging along &c.; (<cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite>, a. e. <he>עשויין לו</he> as if made for him)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיפֵּת"],
+			"senses": [
+				{
+					"gloss": "<i>to fold the bosom</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Berakhot 7:18\">Tosef. Ber. VII, 18</cite> <he>לחַפּוֹת לו חלוק והוא לא הי׳ וכ׳</he> ed. Zuck. (Var. <he>הפך</he>) to form the bosom of his shirt, while he never had &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

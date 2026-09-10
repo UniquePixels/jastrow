@@ -1,0 +1,27 @@
+{
+	"id": "G00330",
+	"slug": "זיטיטוס",
+	"headword": {
+		"text": "זִיטִיטוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיטִיוְטוֹס"
+		}
+	],
+	"page": {
+		"number": 393,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ζητητός or ζητευτός, sub. θανεῖν, cmp. Tobit I, 19, a. <he>מתבקש</he> <cite ref=\"Taanit 29a\">Taan. 29ᵃ</cite>) <i>one who is sought for to be put to death, a fugitive from justice, outlaw</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite>, beg.; s. 38, beg.; (<cite ref=\"Yalkut Shimoni on Nach 631\">Yalk. Ps. 631</cite> <cite ref=\"G00259\"><he>זיאטטווס</he></cite>; Ar. ed. Koh. <he>זיטייטוס</he>, Var. <he>זיטויט׳</he>, <he>זיטיט׳</he>) <he>עשה אותו ז׳</he> declare him an outlaw, and he will be like (legally) dead &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "A02818",
+	"slug": "אפריזא",
+	"headword": {
+		"text": "אַפְרִיזָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 108,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01744\"><he>פרז</he></cite>) [<i>the leader</i>], (archit.) <i>the king-beam, principal</i>. ",
+			"units": ["<cite ref=\"Bava Batra 6a:8\">B. Bath. 6ᵃ</cite>"]
+		}
+	]
+}

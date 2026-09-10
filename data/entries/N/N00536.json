@@ -1,0 +1,32 @@
+{
+	"id": "N00536",
+	"slug": "נחתום-1",
+	"headword": {
+		"text": "נַחְתּוֹם"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַחְתֹּם"
+		}
+	],
+	"page": {
+		"number": 897,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01899\"><he>חָתַם</he></cite>; cmp. <cite ref=\"I00633\"><he>טָפוּס</he></cite>) <i>baker of bread in moulds, professional baker</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Challah 1:7\">Tosef. Ḥall. I, 7</cite> <he>נ׳ אחד מארבעים וכ׳</he> the professional baker has to give one forty-eighth portion of his dough to the priest, opp. <he>בעל הבית</he> a private baker; Y. ib. II, end, 58ᵈ. ",
+				"<cite ref=\"Mishnah Challah 2:7\">Ḥall. II, 7</cite> <he>נ׳ שהוא עושה למכור בשוק</he> the baker that makes bread for sale in the market. ",
+				"<cite ref=\"Jerusalem Talmud Demai 5:4:2\">Y. Dem. V, 24ᵈ</cite> top <he>נ׳ עושה טפוס אחד וכ׳</he> each baker makes his own peculiar form of bread, while the dealer (<cite ref=\"Q01026\"><he>פלטר</he></cite>) deals with many bakers; <cite ref=\"Jerusalem Talmud Demai 5:4:2\">ib.</cite> <he>נ׳ עושה כמה טפוסין וכ׳</he> a baker makes several forms, while the dealer deals with one baker; a. fr.—<he>ר׳ יהודה הנ׳</he> R. Judah, the baker, prob. identical with R. Judah ben Baba. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:10\">Y. Ḥag. II, 77ᵇ</cite> bot. ",
+				"<cite ref=\"Tosefta Ohalot 18:13\">Tosef. Ohol. XVIII, 13</cite>; a. e.—Pl. <he>נַחְתּוּמִים</he>, <he>נַחְתּוּמִין</he>. Y. Ḥall. l. c. ",
+				"<cite ref=\"Mishnah Kelim 15:2\">Kel. XV, 2</cite>, v. <cite ref=\"A03028\"><he>אֲרוּכָה</he> I</cite>; a. fr."
+			]
+		}
+	]
+}

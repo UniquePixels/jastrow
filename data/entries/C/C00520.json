@@ -1,0 +1,33 @@
+{
+	"id": "C00520",
+	"slug": "גזבר",
+	"headword": {
+		"text": "גִּזְבָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיזְ׳"
+		}
+	],
+	"page": {
+		"number": 228,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (late b. h.;, with format. <cite ref=\"T00000\"><he>ר</he></cite>) <i>manager, treasurer</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 21:8\">Ex. R. s. 21</cite> <he>עשיתיך ג׳ עליו</he> I have appointed thee its (the Sea’s) commander. ",
+				"<cite ref=\"Shemot Rabbah 51:2\">Ex. R. s. 51</cite> <he>ג׳ לעצמו</he> sole treasurer. ",
+				"<cite ref=\"Shabbat 31b\">Sabb. 31ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Horayot 2:10\">Tosef. Hor. II, 10</cite> <he>אמרכל קודם לגי׳</he> the <i>Amarkhal</i> in the Temple is of a higher rank than the <i>Gizbar;</i> Y. ib. III, 48ᵇ <he>ליגבר</he> (corr. acc.); a. fr.—Pl. <he>גִּזְבָּרִים</he>, <he>גִּזְבָּרִין</he>, <cite ref=\"C00520\"><he>גִּיזְ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Meilah 3:8\">Meïl. III, 8</cite>. ",
+				"<cite ref=\"Mishnah Shekalim 5:2\">Shek. V, 2</cite>; a. fr.—Fem. <he>גִּזְבָּרִית</he>. ",
+				"<cite ref=\"Shabbat 62a:15\">Sabb. 62ᵃ</cite> <he>אשה ג׳</he> a woman engaged as treasurer (wearing a signet ring)."
+			]
+		}
+	]
+}

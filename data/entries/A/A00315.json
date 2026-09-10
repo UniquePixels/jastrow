@@ -1,0 +1,26 @@
+{
+	"id": "A00315",
+	"slug": "אגמון-2",
+	"headword": {
+		"text": "אַגְמוֹן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַגְמוֹנָא"
+		}
+	],
+	"page": {
+		"number": 13,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00314\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 58:5\">Targ. Is. LVIII, 5</cite>.—",
+				"<cite ref=\"Aramaic Targum to Job 40:26\">Targ. Job. XL, 26</cite> Ms. (ed. <cite ref=\"A00770\"><he>אוּנְקְלָא</he></cite>)."
+			]
+		}
+	]
+}

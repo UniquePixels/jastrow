@@ -1,0 +1,23 @@
+{
+	"id": "M00825",
+	"slug": "מחויאתא",
+	"headword": {
+		"text": "מְחוּיָאתָא"
+	},
+	"page": {
+		"number": 758,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. = <cite ref=\"M00793\"><he>מְחָאָה</he></cite>, <i>protests</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 39b:4\">B. Bath. 39ᵇ</cite> <he>הויא ליה מ׳ למחויי</he> (Ms. R. <he>מחיתא</he>, Ms. H. <cite ref=\"M00793\"><he>מחאה</he></cite>, v. Rabb. D. S. a. l. note 60) had need to deposit a protest."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "H01905",
+	"slug": "חתנא",
+	"headword": {
+		"text": "חַתְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲתָנָא"
+		}
+	],
+	"page": {
+		"number": 514,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01904\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 4:25\">Targ. Ex. IV, 25</cite>, sq. (<cite ref=\"Targum Jerusalem, Exodus 4:26\">Targ. Y. II ib. 26</cite> <cite ref=\"H01908\"><he>חתנת</he></cite>, corr. acc.).—",
+				"<cite ref=\"Targum Jonathan on I Samuel 18:18\">Targ. I Sam. XVIII, 18</cite>.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 62:5\">Targ. Is. LXII, 5</cite>; a. fr.—",
+				"<cite ref=\"Yevamot 52a:9\">Yeb. 52ᵃ</cite> <he>ח׳ דדאיר</he> a son-in-law who resides &c., v. <cite ref=\"D00342\"><he>דּוּר</he></cite>. ",
+				"<cite ref=\"Chullin 83a:10\">Ḥull. 83ᵃ</cite> <cite ref=\"H00285\"><he>בי ח׳</he></cite> in the bridegroom’s family; a. fr.—Pl. <he>חַתְנִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 7:34\">Targ. Jer. VII, 34</cite>; a. e.—",
+				"<cite ref=\"Shabbat 23b\">Sabb. 23ᵇ</cite> <he>חַתְנֵי</he> Ms. O. sons-in-law, v. <cite ref=\"H01907\"><he>חַתְנוּתָא</he></cite>."
+			]
+		}
+	]
+}

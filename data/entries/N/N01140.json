@@ -1,0 +1,40 @@
+{
+	"id": "N01140",
+	"slug": "נצץ-2",
+	"headword": {
+		"text": "נְצַץ"
+	},
+	"page": {
+		"number": 929,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01139\">same</cite>, <i>to sprout, grow forth, bloom</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 92:8\">Targ. Ps. XCII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 72:16\">Ib. LXXII, 16</cite> <he>יִנְצֵץ</he> Ms. (ed. <i>Pa.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַצֵּץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01139\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sparkle</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 1:7\">Targ. Ez. I, 7</cite> Levita (ed. <he>מְנַצְנְצָן</he> <i>Palpel</i>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

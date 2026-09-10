@@ -1,0 +1,31 @@
+{
+	"id": "E00809",
+	"slug": "הרא",
+	"headword": {
+		"text": "הֲרָא"
+	},
+	"page": {
+		"number": 365,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"E00549\"><he>אַהֲרֵי</he></cite> (cmp. <cite ref=\"H01668\"><he>חרי</he></cite>, <he>חרר</he>) <i>to heat, irritate</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 25:20\">Targ. Prov. XXV, 20</cite> <he>מַהֲרָא</he> (Var. <cite ref=\"M00382\"><he>מַהְרָה</he></cite>) ed. Lag. (ed. <cite ref=\"M00936\"><he>מחרא</he></cite>, ed. Wil. <he>מחדא</he>, corr. acc.); v. <cite ref=\"B01252\"><he>בּרְיוּתָא</he></cite>.—Cmp. <cite ref=\"E00840\"><he>הִרְהֵר</he></cite>, <cite ref=\"H01658\"><he>חִרְחֵר</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

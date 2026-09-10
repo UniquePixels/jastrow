@@ -1,0 +1,33 @@
+{
+	"id": "A00878",
+	"slug": "אוריא-3",
+	"headword": {
+		"text": "אוּרְיָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּרְיָה",
+			"homograph": 2
+		},
+		{
+			"text": "אוּרְיָיא"
+		}
+	],
+	"page": {
+		"number": 34,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"A03020\"><he>אֻרְוָה</he></cite> q. v.; <cite ref=\"A03079\"><he>ארי</he></cite>, <cite ref=\"A03013\"><he>אָרָה</he></cite>)<i>pile of plucked plants, stalk, shed containing feed</i> (dist. fr. <cite ref=\"A00825\"><he>אוֹצָר</he></cite> granary).—Pl. <he>אוּרְיָאוֹת</he>, <cite ref=\"A00887\"><he>אוּרְיָי׳</he></cite> (<he>אוּרְיוֹת</he>). ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'asrot 2:20\">Tosef. Maasr. II, 20</cite> ed. Zuck. (Var. <he>אוריות</he>); <cite ref=\"Tosefta Ma'asrot 2:20\">ib.</cite> ",
+				"<cite ref=\"Eruvin 6a\">Erub. V</cite>I (V), 4; <cite ref=\"Eruvin 55b\">Erub. 55ᵇ</cite> Ar. (ed. <he>אוריות</he>, <cite ref=\"A00863\"><he>אורוות</he></cite>, v. Rabb. D. S. a. l. note). [In bibl. h. <cite ref=\"A03020\"><he>אֻרְוָה</he></cite> <i>crib, stable</i> q. v.]"
+			]
+		}
+	]
+}

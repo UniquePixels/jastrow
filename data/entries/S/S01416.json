@@ -1,0 +1,47 @@
+{
+	"id": "S01416",
+	"slug": "קלקל-2",
+	"headword": {
+		"text": "קַלְקֵל"
+	},
+	"page": {
+		"number": 1382,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01415\">same</cite>.<i>to ruin</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:12\">Targ. Is. III, 12</cite> (h. text <he>בלע</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:36\">Targ. Jer. II, 36</cite> (h. text <he>שנה</he>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 15:31\">Targ. II Sam. XV, 31</cite> (h. text <cite ref=\"O00910\"><he>סכל</he></cite>). ",
+				"<cite ref=\"Targum of II Chronicles 27:2\">Targ. II Chr. XXVII, 2</cite> (h. text <cite ref=\"U00723\"><he>השחית</he></cite>).—Part. pass. <he>מְקַלְקַל</he>; f. <he>מְקַלְקְלָא</he>; pl. <he>מְקַלְקְלִין</he>, <he>מְקַלְקְלַיָּא</he>; <he>מְקַלְקְלָתָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Esther 5:1\">Targ. Esth. V, 1</cite> <he>הוות מק׳</he> was soiled. ",
+				"<cite ref=\"Aramaic Targum to Job 29:17\">Targ. Job XXIX, 17</cite> Ms. (ed. <he>מְקַלְקִל</he>; h. text <he>עַוָּל</he>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 4:12\">Targ. Koh. IV, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 1:4\">Targ. Zech. I, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 2:19\">Targ. Jud. II, 19</cite>; a. e.—",
+				"<cite ref=\"Yevamot 119b:15\">Yeb. 119ᵇ</cite>, sq. <he>היא לא מְקַלְקְלָא נפשה</he> she is not likely to injure her own case (by a false statement). ",
+				"<cite ref=\"Yevamot 119b:15\">Ib.</cite> <he>לקַלְקָלָא לצרה היא וכ׳</he> she has the intention of injuring the case of her rival. ",
+				"<cite ref=\"Vayikra Rabbah 37:2\">Lev. R. s. 37</cite> <he>מְקַלְקְלֵי</he> they ruin (play with), v. <cite ref=\"M01217\"><he>מְיַנּוֹק</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְקַלְקֵל", "אִיקַּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be disarranged, corrupted, ruined</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 49:7\">Targ. Jer. XLIX, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 17:13\">Targ. Y. Lev. XVII, 13</cite> <he>מִתְקַלְקְלָא ניכסתיה</he> its slaughtering was ruined (illegal through faulty manipulation). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 14:21\">Targ. Y. Deut. XIV, 21</cite> <he>מִיקּ׳ בניכסא</he> made unfit through faulty slaughtering; a. e.—",
+						"<cite ref=\"Eruvin 49a:22\">Erub. 49ᵃ</cite> bot. <he>אתי עירוב לאִיקַּלְקוּלֶי</he> the practice of ʿErub (v. <cite ref=\"P00680\"><he>עֵירוּב</he></cite>) may come to harm (get into disuse); a. e."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

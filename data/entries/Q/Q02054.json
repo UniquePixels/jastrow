@@ -1,0 +1,66 @@
+{
+	"id": "Q02054",
+	"slug": "פשוט-2",
+	"headword": {
+		"text": "פָּשׁוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּשׁוּטָה"
+		}
+	],
+	"page": {
+		"number": 1244,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (part. pass. of <cite ref=\"Q02063\"><he>פָּשַׁט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>straight, plain, simple</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 3:3\">R. Hash. III, 3</cite> <he>של יעל פ׳</he> a straight horn of the mountain-goat, opp. <he>כפוף</he>. ",
+				"<cite ref=\"Shabbat 104a:6\">Sabb. 104ᵃ</cite>, v. <cite ref=\"K01043\"><he>כָּפַף</he></cite>. ",
+				"<cite ref=\"Shabbat 106a:6\">Ib. 106ᵃ</cite>, v. <cite ref=\"O00603\"><he>סִיט</he></cite>. ",
+				"<cite ref=\"Menachot 35b:5\">Men. 35ᵇ</cite> <he>ר׳ אחא מחוי פ׳</he> Ms. M. (ed. <cite ref=\"A03283\"><he>אשי</he></cite>) R. A. showed the index finger straight, i.e. the strap must reach from the arm to the tip of the index finger, when straightened, opp. <he>כפוף</he> (v. Tosaf. a. l.; Rashi: the strap must be as long as the distance from the thumb to the index finger, stretched as wide as possible, opp. <he>כפוף</he> the distance from the index to the middle finger). Mekh. B’shall. beg. <he>לא הביאן הק״בה דרך פ׳ וכ׳</he> the Lord did not lead them on the direct road to Palestine; <cite ref=\"Yalkut Shimoni on Torah 226:9\">Yalk. Ex. 226</cite> <he>בפשוטה</he> (sub. <he>דרך</he>). Mekh. l. c. <he>לא הביאן המקום בפישוטן</he> (corr. acc.). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:16:1\">Cant. R. to I, 16</cite> <he>בלשון פ׳</he> with a single expression (of praise), opp. <he>כפול</he>. ",
+				"<cite ref=\"Mishnah Bava Batra 10:1\">B. Bath. X, 1</cite>, a. fr. <he>גט פ׳</he> a plain, open document, opp. <he>מקושר</he> folded; Tosef. Gitt. VIII (VI), 9 <he>פ׳</he> ed. Zuck. (Var. <he>גט פ׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 3:3:4\">Y. R. Hash. III, 58ᵈ</cite> top <he>פשוטה</he> (sub. <cite ref=\"V00884\"><he>תקיעה</he></cite>) the plain note (<cite ref=\"V00884\"><he>תקיעה</he></cite>), opp. the tremulous note; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (noun) <cite ref=\"Q02054\"><he>פָּשׁוּט</he></cite> <i>the plain, literal sense</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 63a:14\">Sabb. 63ᵃ</cite>, a. e. <he>אין מקרא יוצא מידי פְשׁוּטוֹ</he>, v. <cite ref=\"M02452\"><he>מִקְרָא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"J00248\"><he>יורש</he></cite>) <i>an heir entitled to a single share</i>, opp. <cite ref=\"B00769\"><he>בְּכוֹר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 52b:9\">Bekh. 52ᵇ</cite> <he>מה חלק פ׳ ירושה וכ׳</he> as the share of the plain heir is an inheritance, so the share of the firstborn is an inheritance (and not a gift affected by the jubilee laws); <cite ref=\"Bava Batra 124a:5\">B. Bath. 124ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 126a:10\">Ib. 126ᵃ</cite> <he>בכור … כפ׳ ויתר</he>, v. <cite ref=\"F00115\"><he>וָתַר</he></cite>; <cite ref=\"Jerusalem Talmud Ketubot 4:12:2\">Y. Keth. IV, end, 29ᵇ</cite> <he>בכור שחלק בפ׳</he> (read <he>בפ׳</he>). ",
+				"<cite ref=\"Bamidbar Rabbah 6:4\">Num. R. s. 6</cite> <cite ref=\"Q00326\"><he>בני פ׳</he></cite> the sons of a plain (not firstborn) man; a. fr.—<i>Fem.</i> <cite ref=\"Q02056\"><he>פְּשׁוּטָה</he></cite> (sub. <cite ref=\"J00616\"><he>ירושה</he></cite>) <i>single share</i>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 8:3:2\">Y. B. Bath. VIII, 16ᵇ</cite> top, opp. <cite ref=\"K01014\"><he>כְּפֵילָה</he></cite>.—Pl. <he>פְּשׁוּטִים</he>, <he>פְּשׁוּטִין</he>; <he>פְּשׁוּטוֹת</he>. ",
+				"<cite ref=\"Shabbat 103b:14\">Sabb. 103ᵇ</cite>, v. <cite ref=\"K01043\"><he>כָּפַף</he></cite>. Num. R. l. c. <he>פְּשׁוּטֵי הלוים וכ׳</he> the plain (not firstborn) Levites took the place of the firstborn Israelites; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>flat, level, without receptacle</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 6:1\">Tosef. Kel. B. Bath. VI, 1</cite> <he>המשנה … מן הפ׳ לקיבול</he> if one changes a leather implement … from a flat surface to a receptacle. ",
+				"<cite ref=\"Tosefta Keilim Batra 4:3\">Ib. IV, 3</cite> <he>פְּשׁוּטוֹ טהור</he> in its flattened condition (when the bag is unrolled), it is not susceptible to uncleanness; a. fr.—Pl. as ab. ",
+				"<cite ref=\"Mishnah Kelim 2:1\">Kel. II, 1</cite> <he>פְּשׁוּטֵיהֶן</he> those of them which are flat, opp. <he>מקבליהן</he> which have receptacles. ",
+				"<cite ref=\"Shabbat 123b:4\">Sabb. 123ᵇ</cite>, a. e. <he>פְּשׁוּטֵי כלי עץ</he> flat wooden implements (boards &c.). Y. ib. X, end, 12ᵈ <he>בפ׳</he> when they are flat, opp. <he>מקופלין</he> folded; a. fr."
+			],
+			"label": "4"
+		}
+	]
+}

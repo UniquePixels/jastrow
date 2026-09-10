@@ -1,0 +1,52 @@
+{
+	"id": "U00158",
+	"slug": "שבע-4",
+	"headword": {
+		"text": "שְׁבַע",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1515,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U01512\"><he>אִשְׁתַּבַּע</he></cite>, <i>Ithpe.</i> <cite ref=\"U01512\"><he>אִשְׁתְּבַע</he></cite>, <he>אִישְּׁבַע</he> as <cite ref=\"U00157\">preced.</cite> <i>Nif.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 5:22\">Targ. Lev. V, 22</cite>; <cite ref=\"Onkelos Leviticus 5:24\">24</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 5:2\">Targ. Jer. V, 2</cite>; a. fr.— ",
+						"<cite ref=\"Shevuot 29a:9-10\">Shebu. 29ᵃ</cite> <he>ודילמא … וכי קא מִשְׁתַּבַּע אדעתא דיריה א׳</he> perhaps that man saw a huge bird and called it <i>gamla</i> (camel), and when he swore (that he saw a camel fly in the air), he swore in his sense. ",
+						"<cite ref=\"Shevuot 29a:10\">Ib.</cite> <he>דכי קא משתבע … קא משתבע</he> so that when he swears (that he has paid the money), he swears to the truth in his sense (having given him tokens, v. <cite ref=\"A01499\"><he>אִיסְקוּנְדְּרֵי</he></cite>). ",
+						"<cite ref=\"Shevuot 32b:3\">Ib. 32ᵇ</cite> <he>אי … הוה מִשְׁתַּבַּעְנָא וכ׳</he> if thou hadst come and testified for me, I should have been assigned an oath and received my claim; <he>מי יימר דמִשְׁתַּבְּעַת</he> who can say that thou wouldst have made oath? <cite ref=\"Shevuot 32b:3\">Ib.</cite> <he>לִישְׁתַּבַּע</he> shall he be admitted to an oath? Ib. 26ᵃ <he>ואנא בשיקרא אִישְׁתַּבְּעִי</he> and have I sworn falsely?; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אַשְׁבַּע"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"U00157\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Exodus 13:19\">Targ. Y. II, Ex. XIII, 19</cite> [read:] <he>מִשְׁבָּע אַשְׁבַּע</he>. ",
+						"<cite ref=\"Aramaic Targum to Song of Songs 2:7\">Targ. Cant. II, 7</cite>. ",
+						"<cite ref=\"Aramaic Targum to Song of Songs 2:4\">Targ. Cant. II, 4</cite>; a. e.—",
+						"<cite ref=\"Shevuot 36a:6\">Shebu. 36ᵃ</cite> <he>אַשְׁבְּעִינְהוּ ולייטינהו</he> he made them swear, and also pronounced a curse upon them. ",
+						"<cite ref=\"Shevuot 41a:11\">Ib. 41ᵃ</cite> <he>לא מַשְׁבְּעִינָן ליה</he> we do not put him to an oath; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

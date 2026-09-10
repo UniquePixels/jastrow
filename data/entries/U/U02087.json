@@ -1,0 +1,29 @@
+{
+	"id": "U02087",
+	"slug": "שתותא",
+	"headword": {
+		"text": "שְׁתוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁתִיתָא"
+		},
+		{
+			"text": "שְׁתּ׳"
+		}
+	],
+	"page": {
+		"number": 1637,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U02086\">same</cite>.",
+			"units": [
+				"<cite ref=\"Bava Batra 90b:1\">B. Bath. 90ᵇ</cite> <he>ש׳ מלבר</he>, v. <cite ref=\"B01156\"><he>בַּר</he> I</cite> ch. ",
+				"<cite ref=\"Bekhorot 50a:2\">Bekh. 50ᵃ</cite> <he>דל זוזא וש׳</he> deduct one Zuz and a sixth. ",
+				"<cite ref=\"Bekhorot 50a:1\">Ib.</cite> <he>דל … שתי׳</he> deduct from them one-sixth; a. e."
+			]
+		}
+	]
+}

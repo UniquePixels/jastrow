@@ -1,0 +1,36 @@
+{
+	"id": "R00719",
+	"slug": "צפרירי",
+	"headword": {
+		"text": "צַפְרִירֵי"
+	},
+	"page": {
+		"number": 1299,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (denom. of <cite ref=\"R00715\"><he>צַפְרָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mornings, every morning</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 73:14\">Targ. Ps. LXXIII, 14</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>morning demons</i>. Ib. CXXI, 6. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:6\">Targ. Cant. IV, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 6:24\">Targ. Y. Num. VI, 24</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

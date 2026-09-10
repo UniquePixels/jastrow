@@ -1,0 +1,24 @@
+{
+	"id": "H01751",
+	"slug": "חרץ-3",
+	"headword": {
+		"text": "חֶרֶץ"
+	},
+	"page": {
+		"number": 505,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01750\">preced.</cite>) <i>incision, groove, mark of a seam</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Niddah 1:3:3\">Y. Nidd. I, 49ᵃ</cite> bot. <he>כל שאין בה ח׳</he> (a virgin soil is) such as shows no grooves. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:2:8\">Y. Maasr. I, 48ᵈ</cite> bot. <he>משיתמלא הח׳</he> from the time the incision in the growing fruits begins to fill up.—",
+				"<cite ref=\"Jerusalem Talmud Beitzah 2:10:2\">Y. Bets. II, end, 61ᵈ</cite>, a. e., v. <cite ref=\"H01690\"><he>חֲרִיץ</he></cite>."
+			]
+		}
+	]
+}

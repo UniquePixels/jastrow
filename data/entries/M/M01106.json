@@ -1,0 +1,25 @@
+{
+	"id": "M01106",
+	"slug": "מיות",
+	"headword": {
+		"text": "מֵיוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 771,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (homiletically = <cite ref=\"M01106\"><he>מֵאוֹת</he></cite>) <i>hundreds</i>, (at least) <i>two hundred</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13:12\">Num. R. s. 13</cite> (play on <he>קוממיות</he>, <cite ref=\"Leviticus 26:13\">Lev. XXVI, 13</cite>) <he>קומה של מ׳</he> a height of hundreds (Tanḥ. ",
+				"<cite ref=\"Genesis 6\">B’resh. 6</cite>; ed. Bub. 18 <he>מאה אמה</he>). Num. R. l. c. <he>ק̇ו̇ם̇ מאה מ̇י̇ו̇ת̇ מאתים</he> (not <cite ref=\"S00487\"><he>קוף</he></cite>) <i>kom</i> (= <cite ref=\"S00382\"><he>קוֹמָה</he></cite>) is one hundred cubits, <i>meyoth</i> is two hundred (which combined makes three hundred); <cite ref=\"Bereishit Rabbah 12:6\">Gen. R. s. 12</cite>; Tanḥ. l. c."
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "B00094",
+	"slug": "בד-2",
+	"headword": {
+		"text": "בַּד",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 138,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"J00037\"><he>אֲבַד</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 21:29\">Targ. Y. II, Num. XXI, 29</cite> <he>ובָדְתוּן</he> (Var. <he>וּבַדְתּוּן</he> = <he>וַאֲ׳</he>). Ithpe. <he>אִתְבִּיד</he>, v. <cite ref=\"J00037\"><he>אֲבַד</he></cite>"
+			]
+		}
+	]
+}

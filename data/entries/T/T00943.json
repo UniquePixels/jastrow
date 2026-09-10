@@ -1,0 +1,74 @@
+{
+	"id": "T00943",
+	"slug": "רפי-1",
+	"headword": {
+		"text": "רפי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָפָא"
+		}
+	],
+	"page": {
+		"number": 1489,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be</i> or <i>make loose, soft</i>,] <i>to be healed, relieved; to heal</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 60a:28\">Ber. 60ᵃ</cite> <he>ותִרְפָּאֵנִי</he> and do thou heal me, v. <cite ref=\"T00933\"><he>רְפוּאָה</he></cite>. Tanḥ. ",
+				"<cite ref=\"Exodus 23\">B’shall. 23</cite> <he>וכשרְפָאָהוּ בסערה רְפָאוֹ</he> and when he came to heal him (Job), he healed him in a windstorm; <cite ref=\"Yalkut Shimoni on Torah 235:4\">Yalk. Ex. 235</cite>. ",
+				"<cite ref=\"Berakhot 55b:11\">Ber. 55ᵇ</cite> <he>ואם צריכים רפואה רְפָאֵם וכ׳</he> and if they (my dreams) need remedy, remedy them as thou didst the waters of Marah &c.; a. fr.—Part. pass. <cite ref=\"T00934\"><he>רָפוּי</he></cite>. Sifra M’tsorʿa, <cite ref=\"Mishnah Negaim 4\">Neg. ch. IV</cite>, Par. 7; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיפֵּא"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00942\">same</cite>. Yalk. Ex. l. c. <he>הוא רי׳ וכ׳</he> he healed Job in a windstorm. Ber. l. c. <he>לפי שאין דרכן … לרַפְּאוֹת וכ׳</he> because it is not for man to cure, but it is the custom (to employ physicians). Ib. <he>שניתנה … לרפאות</he>, v. <cite ref=\"T00422\"><he>רוֹפֵא</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Nedarim 4:4\">Ned. IV, 4</cite> (<cite ref=\"Nedarim 38b:8\">38ᵇ</cite>) <he>ומְרַפְּאֵהוּ רפואת וכ׳</he> (Bab. ed. <he>ומְרַפְּאוֹ</he>) and he may attend to him as a physician to his body &c., v. <cite ref=\"T00678\"><he>רִיפּוּי</he></cite>. ",
+						"<cite ref=\"Pesikta Rabbati 29:1\">Pesik. R. s. 29-30</cite>-30 <he>כל מה דאמר ירמיה ופרע אתא ישעיהו ור׳</he> whatever Jeremiah spoke and tore (prophesied evil), Isaiah came and healed (restored) it; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְרַפֵּא"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְרַפֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to be cured, be treated; to get well</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 22:6\">Sabb. XXII, 6</cite>. ",
+						"<cite ref=\"Pesachim 25a:10\">Pes. 25ᵃ</cite> <he>בכל מִתְרַפְּאִין חוץ מעצי וכ׳</he> you may apply anything (otherwise forbidden) as a remedy, except wood of an <i>ăsherah</i>. ",
+						"<cite ref=\"Pesachim 25a:13\">Ib.</cite> <he>בכל מתרפאין חוץ מעבודת וכ׳</he> you may employ any remedy except idolatrous objects, lawless gratification, and bloodshed. ",
+						"<cite ref=\"Ketubot 105a:15\">Keth. 105ᵃ</cite> <he>ספק מִתְרַפֵּא וכ׳</he> it is doubtful whether or not he will get well. ",
+						"<cite ref=\"Mishnah Avodah Zarah 2:2\">Ab. Zar. II, 2</cite>, v. <cite ref=\"T00678\"><he>רִיפּוּי</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הִרְפָּא"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"T00944\">next w.</cite>) <i>to loosen</i> (the bowels). ",
+					"units": [
+						"<cite ref=\"Shabbat 147b\">Sabb. 147ᵇ</cite> <cite ref=\"M02744\"><he>מַרְפֵּאת</he></cite> (not <he>מרפא</he>), v. <cite ref=\"P00896\"><he>עָמֵל</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

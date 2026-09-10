@@ -1,0 +1,26 @@
+{
+	"id": "R00076",
+	"slug": "צבתא-2",
+	"headword": {
+		"text": "צִבְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1260,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00072\"><he>צְבַת</he></cite>) <i>outfit</i>, esp. <i>cosmetic preparations</i>. Targ. II Esth. II, 12 (h. text <he>מרוק׳</he>).—Denom. <cite ref=\"R00037\"><he>צִבְיָאתָא</he></cite>, <cite ref=\"R00030\"><he>צִי׳</he></cite> f. pl. <i>cosmetics</i>. Ib. 9 (ed. Amst. <he>צָבֵיאָ׳</he>).",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A03158",
+	"slug": "ארכנותא",
+	"headword": {
+		"text": "אַרְכָנוּתָא"
+	},
+	"page": {
+		"number": 122,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אַרְכָן</he> I) <i>office</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 164b\">B. Bath. 164ᵇ</cite> (Var. <he>עַרְכָנ׳</he>, v. <cite ref=\"A03156\"><he>אַרְכָן</he> I</cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,125 @@
+{
+	"id": "H00940",
+	"slug": "חכם-2",
+	"headword": {
+		"text": "חֲכַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲכִים"
+		},
+		{
+			"text": "חַכִּים"
+		}
+	],
+	"page": {
+		"number": 462,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (adj. with verbal inflection) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be wise, shrewd; to be learned</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 5:11\">Targ. I Kings V, 11</cite>. ",
+				"<cite ref=\"Onkelos Exodus 15:8\">Targ. O. Ex. XV, 8</cite> <he>חֲכִימוּ</he> (<he>חַכִּ׳</he>, h. text <he>נערמו</he>!). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 29:16\">Targ. Is. XXIX, 16</cite>; a. fr.—",
+				"<cite ref=\"Gittin 56b:4\">Gitt. 56ᵇ</cite> <he>דחַכְמִיתוּ וכ׳</he> that you are so wise. ",
+				"<cite ref=\"Taanit 23b:14\">Taan. 23ᵇ</cite> <he>דנִיחְכִּים טובא</he> that we may become well-learned; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to recognize, to know, remember</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 37:33\">Targ. Y. II, Gen. XXXVII, 33</cite> (some ed. <cite ref=\"H00939\"><he>חַכַּם</he></cite> <i>Pa.</i>).—Targ. II Esth. II, 18; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 30:6\">Lev. R. s. 30</cite> <he>ח׳ את וכ׳</he> doest thou know anything in favor of this man?—Y. M. Kat. III, 83ᵇ top, v. <cite ref=\"B00042\"><he>בְּאַר</he></cite>—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:3:15\">Y. Ber. II, 4ᵈ</cite> top <he>וחַכְמִין אינון כלום</he> do they (the dead) know anything?—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:8\">Y. Shek. VII, 50ᶜ</cite> bot. <he>יֶחְכְּמוּן שפייא קיטריהון</he> let the wine-dealers identify their knots (marks on the wine bottles). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:6:3\">Y. Keth. V, 30ᵃ</cite> bot. [read:] <he>חֲכִים אנא לחייתא דמילדא לי</he> (or <cite ref=\"H00940\"><he>חַכִּים</he></cite>) I (as an infant) recognized the midwife that assisted at my birth (when she came to nurse my mother). ",
+				"<cite ref=\"Jerusalem Talmud Terumot 11:5:11\">Y. Ter. XI, end, 48ᵇ</cite> <he>לא אנא ח׳ לאבא</he> I never knew my father. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 78ᵃ</cite> top <he>יַחְכּוּם</he> shall select (Y. Snh. VI, 23ᵃ bot. <he>יטול</he>), v. <cite ref=\"G00124\"><he>זוֹגָא</he></cite>.—2) (euphem. = b. h. <cite ref=\"J00106\"><he>יָדַע</he></cite>) <i>to sleep with</i>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 4:1\">Targ. Y. Gen. IV, 1</cite> Ar. (ed. <he>ידע</he>). Targ. Y. II ib. XX, 16; a. e.—Y. Maas. Sh. IV, 55ᵇ bot.; <cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כותאי</he> 1) a.e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be clear, evident</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 42a:15\">Snh. 42ᵃ</cite>, v. <cite ref=\"G00642\"><he>זָקֵן</he> I</cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַכֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to make wise, teach</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 34:10\">Targ. Y. Deut. XXXIV, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 35:11\">Targ. Job XXXV, 11</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to outwit</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 27:36\">Targ. O. Gen. XXVII, 36</cite> (Rashi a. l. quotes <he>וכמני</he>, v. <cite ref=\"K00808\"><he>כְּמַן</he></cite>, v. Berl. Targ. O. II, p. 10)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַכֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to become wise</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 105:22\">Targ. Ps. CV, 22</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be informed, aware; to learn</i>. Ib. XXXV, 8. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 2:4\">Targ. Y. Ex. II, 4</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to hold counsel</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 1:10\">Targ. O. Ex. I, 10</cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to be recognized</i>. Y. Sot. IX, 23ᶜ bot.; Y. Yeb. XVI, 15ᶜ <he>מאן דבעי דלא מִתְחַכְּמָה</he> he who desires to disguise himself; <he>לא מִתְחַכְּמִין</he> they were not recognized, v. <cite ref=\"N00492\"><he>נְחִירָא</he></cite>.",
+					"units": [],
+					"label": "4"
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אַחְכִּים"],
+			"senses": [
+				{
+					"gloss": "<i>to teach, make wise</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 3:2\">Targ. Ez. III, 2</cite>; a. e.—",
+						"<cite ref=\"Bava Batra 158b:4\">B. Bath. 158ᵇ</cite> <he>אוירא דא״י מַהְכּים</he> the climate of Palestine makes wise."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

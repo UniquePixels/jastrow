@@ -1,0 +1,74 @@
+{
+	"id": "G00192",
+	"slug": "זון-2",
+	"headword": {
+		"text": "זוּן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 387,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00191\">same</cite>, <i>to support, nourish</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 47:12\">Targ. Gen. XLVII, 12</cite> (h. text <he>כלכל</he>); a. fr.—",
+				"<cite ref=\"Beitzah 32b\">Bets. 32ᵇ</cite> <he>ומֵיזַן לא זָנוּ ליה</he> Ms. M. (ed. <he>זַיְּנוּהוּ</he> <i>Pa.</i>) and they also refused to assist him (from the charities).—Part. <he>זָיֵין</he>. ",
+				"<cite ref=\"Berakhot 35b:18\">Ber. 35ᵇ</cite> <he>משחא ז׳</he> oil nourishes, contrad. to <cite ref=\"O01276\"><he>סעיד</he></cite> to satisfy. ",
+				"<cite ref=\"Bamidbar Rabbah 9:14\">Num. R. s. 9</cite> <he>אהין זָ׳ ומפרנס</he> this one feeds and supports (his wife). ",
+				"<cite ref=\"Yalkut Shimoni on Torah 665\">Yalk. Lev. 665</cite> <he>והוה ז׳ להון וכ׳</he> (<cite ref=\"Vayikra Rabbah 34:14\">Lev. R. s. 34</cite> <he>מפרנס</he>) and he supported them as long as they lived; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַיֵּין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"G00191\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Beitzah 32b\">Bets. 32ᵇ</cite>, v. supra. Y. Yeb. IV, 6ᵇ <he>אנא מְזַיְּינָנָא ירהי</he> I shall supply the wants of the household during my month (one month every year). Bab. ",
+						"<cite ref=\"Yevamot 65a\">ib. 65ᵃ</cite> <he>אית ליה למְזַיְּינִינְהִי</he> (some ed. <he>למיז׳</he>, read <he>לימז׳</he>) he has the means to support all of them; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to equip, arm, decorate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 14:14\">Targ. Y. Gen. XIV, 14</cite> (O. <he>זריז</he>, h. text <he>וירק</he>).—<i>Part. pass.</i> <cite ref=\"M00753\"><he>מְזַיַּין</he></cite>, <cite ref=\"M00756\"><he>מְזַיַּן</he></cite>. ",
+						"<cite ref=\"Onkelos Genesis 49:19\">Targ. Gen. XLIX, 19</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְּזָן", "אִתְּזִין"],
+			"senses": [
+				{
+					"gloss": "<i>to be supported, managed</i>. Ib. XLI, 40 (h. text <he>ישק</he>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 3:22\">Targ. Koh. III, 22</cite>.—",
+						"<cite ref=\"Mishnah Ketubot 4:11\">Keth. IV, 11</cite> (in a marriage deed) <he>ומִיתַּזְנָן</he> and shall be supported."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִזְדֵּיֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be equipped, armed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joel 2:9\">Targ. Joel II, 9</cite> (h. text <he>ישקו</he>). ",
+						"<cite ref=\"Targum Jerusalem, Numbers 31:3\">Targ. Y. II, Num. XXXI, 3</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

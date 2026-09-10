@@ -1,0 +1,36 @@
+{
+	"id": "J00233",
+	"slug": "יוקר",
+	"headword": {
+		"text": "יוֹקֶר"
+	},
+	"page": {
+		"number": 571,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00580\"><he>יָקַר</he></cite>) [<i>weight, importance</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>high price</i> (opp. <cite ref=\"G00173\"><he>זול</he></cite>); <i>dearth, scarcity</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 4:1\">Maas. Sh. IV, 1</cite> <he>מקום י׳</he> where fruits are dear; <cite ref=\"Bava Metzia 73a\">B. Mets. 73ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 32b:8\">Sabb. 32ᵇ</cite> <he>והי׳ הוה</he> and scarcity is permanent. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 3:5:9\">Y. Hor. III, 48ᶜ</cite> top <he>יין בי׳</he> wine is dear; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>nobility, aristocracy</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite>, a. e.; v. <cite ref=\"A02062\"><he>אָמַר</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

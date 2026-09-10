@@ -1,0 +1,21 @@
+{
+	"id": "A00140",
+	"slug": "אביק-1",
+	"headword": {
+		"text": "אָבִיק",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 6,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בוק</he>, v. <he>בקע</he>; comp. <cite ref=\"A02705\"><he>אָפִיק</he></cite>) <i>outlet</i>, esp. <i>a pot in the bath-tub to which a waste-pipe is attached</i>. ",
+			"units": ["<cite ref=\"Mishnah Mikvaot 6:10\">Mikv. VI, 10</cite>."]
+		}
+	]
+}

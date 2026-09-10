@@ -1,0 +1,33 @@
+{
+	"id": "M01280",
+	"slug": "מיצעא",
+	"headword": {
+		"text": "מִיצָּעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיצְעָא"
+		}
+	],
+	"page": {
+		"number": 778,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"M02321\"><he>מְצִיעָא</he></cite>) <i>central, middle, between extremes</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 14:17\">Targ. Y. Lev. XIV, 17</cite>, v. <cite ref=\"C00214\"><he>גְּדֵירָא</he></cite>.—",
+				"<cite ref=\"Nedarim 31b:1\">Ned. 31ᵇ</cite> top <he>זבינא מ׳</he> (R. N. <cite ref=\"M02321\"><he>מציעא</he></cite>) middle goods (holding the mean between goods which the seller is anxious to get rid of, and such as are sought after eagerly), v. <cite ref=\"H01687\"><he>חְרִיפָא</he></cite>.—Pl. <cite ref=\"M01279\"><he>מִיצְּעָאֵי</he></cite>, <he>מִיצְּעֵי</he>. ",
+				"<cite ref=\"Targum of II Chronicles 6:18\">Targ. II Chr. VI, 18</cite> (ed. Lag. <he>מְצִיעָאֵי</he>).—",
+				"<cite ref=\"Berakhot 18b\">Ber. 18ᵇ</cite>. ",
+				"<cite ref=\"Keritot 6b:60\">Ker. 6ᵇ</cite> <he>במ׳</he> in between (the other ingredients). ",
+				"<cite ref=\"Bava Metzia 108a\">B. Mets. 108ᵃ</cite>, v. preced.—",
+				"<cite ref=\"Nazir 56b:11\">Naz. 56ᵇ</cite> <he>מ׳ לא אמרינן</he> those intermediate in the chain of tradition need not be mentioned (only the first and the last). V. <cite ref=\"M02321\"><he>מְצִיעָא</he></cite>."
+			]
+		}
+	]
+}

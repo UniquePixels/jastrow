@@ -1,0 +1,22 @@
+{
+	"id": "A00303",
+	"slug": "אגלים",
+	"headword": {
+		"text": "אֲגָלִים"
+	},
+	"page": {
+		"number": 12,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>אגל</he>, sec. r. of <cite ref=\"A00535\"><he>אוג</he></cite>, cmp. <he>חוג</he>, <he>עוג</he>)<i>rounded things, rain-drops</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 12b:10\">Ḥag. 12ᵇ</cite> <he>עליית א׳</he> (allus. to <cite ref=\"Job 38:28\">Job XXXVIII, 28</cite>) the upper store in heavens containing the rains. [V. Var. lect. in Rabb. D. S. a. l. note 200.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A01122",
+	"slug": "איבוד",
+	"headword": {
+		"text": "אִיבּוּד"
+	},
+	"page": {
+		"number": 44,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אבד</he>) <i>ruin, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 33a\">Ab. Zar. 33ᵃ</cite> <he>אזיל לא׳</he> is wasted. ",
+				"<cite ref=\"Chullin 11b:6\">Ḥull. 11ᵇ</cite> <he>משום א׳ נשמה</he> to prevent loss of life (to save the convict). ",
+				"<cite ref=\"Beitzah 22a:11\">Bets. 22ᵃ</cite> <he>אִבּוּד ממון</he> pecuniary loss; a. fr."
+			]
+		}
+	]
+}

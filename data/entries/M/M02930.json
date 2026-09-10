@@ -1,0 +1,33 @@
+{
+	"id": "M02930",
+	"slug": "משמר-2",
+	"headword": {
+		"text": "מִשְׁמָר"
+	},
+	"page": {
+		"number": 856,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01525\"><he>שָׁמַר</he></cite>)<i>guard</i>, esp. <i>a division for duty of priests and Levites</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 4:2\">Taan. IV, 2</cite>, v. <cite ref=\"M02143\"><he>מַעֲמָד</he></cite>. ",
+				"<cite ref=\"Horayot 13a:14\">Hor. 13ᵃ</cite> <he>ראש מ׳</he> chief of the guard. Taan. l. c. <he>ישראל שבאותו מ׳</he> the Israelites attached (as <cite ref=\"M02143\"><he>מַעֲמָד</he></cite>) to that division; a. fr.—Pl. <he>מִשְׁמָרוֹת</he>. Ib. ",
+				"<cite ref=\"Bamidbar Rabbah 3:1\">Num. R. s. 3</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"A03329\"><he>אַשְׁמוֹרֶת</he></cite>) <i>watch, a certain portion of the day or the night</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3a:11\">Ber. 3ᵃ</cite> <he>על כל מ׳ ומ׳</he> at the beginning of every watch.—Pl. as ab. ",
+				"<cite ref=\"Berakhot 3a:11\">Ib.</cite>; <cite ref=\"Tosefta Berakhot 1:1\">Tosef. ib. I, 1</cite> <he>שלש מ׳ בלילה</he> the night is divided into three watches."
+			],
+			"label": "2"
+		}
+	]
+}

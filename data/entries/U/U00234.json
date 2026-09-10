@@ -1,0 +1,82 @@
+{
+	"id": "U00234",
+	"slug": "שגר-2",
+	"headword": {
+		"text": "שְׁגַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1522,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00233\">same</cite><i>to run, flow</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 13:17\">Targ. Jer. XIII, 17</cite> (ed. Wil. <he>ותְשַׁגֵּד</he> <i>Pa., shed</i>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:17\">Ib. IX, 17</cite> (ed. Wil. <i>Pa.</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to drag</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 51a:9\">Ḥull. 51ᵃ</cite> <he>דהוו שָׁגְרָן וכ׳</he> Tosaf. (ed. <he>שדרן</he>) they dragged their hind legs."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁגַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to run, shed</i> tears. tears. Targ. Jer. l. c., v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to send</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 23:20\">Targ. Y. Ex. XXIII, 20</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cast;</i> (of beasts) <i>to give birth</i>. Ib. XIII, 12 <he>דמְשַׁגְּרָא</he> (not <he>דמִשַּׁ׳</he>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 22:19\">Targ. Jer. XXII, 19</cite>.—Part. pass. <he>מְשַׁגַּד</he>; f. <he>מְשַׁגְּרָא</he>; pl. <he>מְשַׁגְּרָן</he>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 7:33\">Ib. VII, 33</cite>; <cite ref=\"Targum Jonathan on Jeremiah 36:30\">XXXVI, 30</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 28:26\">Targ. Deut. XXVIII, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 5:25\">Targ. Is. V, 25</cite>, a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַשְׁגַּר"],
+			"senses": [
+				{
+					"gloss": " (neut. verb.) <i>to run over</i>. Y. Sabb. VIII, 9ᵇ bot. <he>אַשְׁגְּרַת עיינה דר׳ וכ׳</he> R. Aḥa’s eye ran over the whole Torah, and he did not find (that the word <cite ref=\"M01472\"><he>מלאכה</he></cite> appeared 39 times).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cast</i> an eye. Y. Kil. IX, 32ᵇ bot.; Y. Keth. XII, 35ᵃ bot. <he>בהיא שעתא אַשְׁגְרִית עיניי וכ׳</he> (not <cite ref=\"P00611\"><he>עינוי</he></cite>) at that moment I let my eyes run (reviewed in my mind) the whole &c., v. <cite ref=\"V00126\"><he>תְּהִלָּה</he></cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to improvise, change the established form of a prayer</i>. Y. Ber. V, 9ᶜ <he>א׳ חד ברכה</he> (read <cite ref=\"H00172\"><he>חדא</he></cite>) he changed one section of the Benedictions. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>א׳ מכניע זדים בסופה</he> he changed the benediction which closes with <i>makhniʿa zedim</i> (the twelfth section) at the end of it."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

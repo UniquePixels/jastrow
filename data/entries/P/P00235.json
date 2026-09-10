@@ -1,0 +1,23 @@
+{
+	"id": "P00235",
+	"slug": "עוירא-2",
+	"headword": {
+		"text": "עֲוִירָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1049,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>ʿĂvira</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Chullin 42b:10\">Ḥull. 42ᵇ</cite>; <cite ref=\"Chullin 55b:2\">55ᵇ</cite>; a. fr.—V. <cite ref=\"P00230\"><he>עִוְיָא</he> II</cite>."
+			]
+		}
+	]
+}

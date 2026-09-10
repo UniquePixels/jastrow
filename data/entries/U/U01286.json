@@ -1,0 +1,32 @@
+{
+	"id": "U01286",
+	"slug": "שלטון-2",
+	"headword": {
+		"text": "שִׁלְטוֹן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁלְטוֹנָא"
+		},
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1582,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01285\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:9\">Targ. O. Gen. XLIX, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Micah 6:9\">Targ. Mic. VI, 9</cite>; a. fr.—Pl. <he>שִׁלְטוֹנִין</he>, <he>שִׁלְטוֹנַיָּא</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 7:20\">Targ. Is. VII, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:8\">Ib. XIV, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 29:4\">Targ. Ez. XXIX, 4</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "O00742",
+	"slug": "סינר",
+	"headword": {
+		"text": "סִינָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִינָּר"
+		}
+	],
+	"page": {
+		"number": 983,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סנר</he>, secr. r. of <cite ref=\"O00408\"><he>סור</he></cite>, cmp. <cite ref=\"I00399\"><he>טִינָּר</he></cite>, <cite ref=\"R00391\"><he>צִינוֹק</he></cite>, <cite ref=\"R00613\"><he>צִנּוֹר</he></cite> &c.) [<i>surrounding, protecting</i>,] <i>a sort of petticoat</i> or <i>breech-cloth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 10:4\">Sabb. X, 4</cite> <he>האשה החוגרת בס׳ בין מלפניה וכ׳</he> a woman that wears a <i>sinnar</i> (and attaches an object to it) whether in front &c. ",
+				"<cite ref=\"Bava Kamma 82a\">B. Kam. 82ᵃ</cite> Ezra ordained <he>שתהא אשה חוגרת בס׳</he> that woman must wear a <i>sinnar</i> (as a matter of chastity); Y. Meg. IV, 75ᵃ. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:2:7\">Y. Sot. I, 16ᶜ</cite> bot. <he>לאחר התרת הס׳</he> after untying the <i>sinnar</i> (for immoral purposes). ",
+				"<cite ref=\"Shabbat 13b:1\">Sabb. 13ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

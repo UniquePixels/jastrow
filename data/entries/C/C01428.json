@@ -1,0 +1,31 @@
+{
+	"id": "C01428",
+	"slug": "גשתא-2",
+	"headword": {
+		"text": "גִּשְׁתָּא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּישְׁ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 274,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01427\">preced.</cite>; cmp. <cite ref=\"C01413\"><he>גָּשׁוֹשָׁא</he></cite>) <i>sounding tube;</i> <he>ג׳ ובת ג׳</he> <i>a large and small tube</i>, i.e. <i>a siphon</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 72b:9\">Ab. Zar. 72ᵇ</cite> <he>אסיק חמרא בג׳</he> brought up wine through the siphon. ",
+				"<cite ref=\"Avodah Zarah 72b:9\">Ib.</cite> a gentile came and put his hand <cite ref=\"A01150\"><he>אג׳</he></cite> on the large tube. ",
+				"<cite ref=\"Avodah Zarah 72b:10\">Ib.</cite> <he>אג׳ … גריר</he>, v. <cite ref=\"C01393\"><he>גְּרַר</he></cite>."
+			]
+		}
+	]
+}

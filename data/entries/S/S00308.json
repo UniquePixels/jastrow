@@ -1,0 +1,61 @@
+{
+	"id": "S00308",
+	"slug": "קוי",
+	"headword": {
+		"text": "קוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָוָה"
+		}
+	],
+	"page": {
+		"number": 1326,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to circle</i>, v. <cite ref=\"S00215\"><he>קַו</he></cite>,] <i>to cave</i> or <i>heap up, gather</i>. Part. pass. <he>קָווּי</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:6:6\">Y. Ber. VI, 10ᵈ</cite> <he>ואפי׳ ק׳ לתוך ידו</he> even when the oil is held in the hollow of his hand."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְוָה", "הִקְוָוה"],
+			"senses": [
+				{
+					"gloss": "<i>to gather, to conduct water courses into a common bed</i>. Y. Kil. IX, 32ᶜ bot.; Y. Keth. XII, 35ᵇ bot. <he>דוקל׳ ה׳ נהרות ועשאו</he> Diocletian united several rivers and made it (the bay of Emesa); <cite ref=\"Midrash Tehillim 24\">Midr. Till. to Ps. XXIV</cite> (corr. acc.), v. <cite ref=\"H01215\"><he>חֲמָץ</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 13:12\">Num. R. s. 13</cite> <he>כשה׳ הקב״ה וכ׳</he> when the Lord, on the third day of creation, gathered all the waters in one place; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to add to the capacity of a bath</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shekalim 1:2\">Tosef. Shek. I, 2</cite> <he>כל מקוה … כשר להַקְווֹת עליו</he> a bath which has the (legally required) capacity of forty S’ah is fit to be added to (by carrying water into it in vessels). ",
+						"<cite ref=\"Tosefta Mikvaot 3:6\">Tosef. Mikv. III, 6</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["קִוָּוה", "קִוָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to look out</i> (cmp. <cite ref=\"S00217\"><he>קַוָּא</he></cite> a. <cite ref=\"K00206\"><he>כַּוָּוא</he></cite>) <i>to wait, hope</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 5\">Gen. R. s. 5</cite> (play on <he>יִקָּווּ</he>, <cite ref=\"Genesis 1:9\">Gen. I, 9</cite>) <he>יְקַוּוּ לי המים מה וכ׳</he> let the waters look out for me (to see) what I shall do &c.; <cite ref=\"Genesis 1:9\">ib.</cite> s. 28; <cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 17</cite>; <cite ref=\"Yalkut Shimoni on Torah 7\">Yalk. Gen. 7</cite>; <cite ref=\"Yalkut Shimoni on Nach 848\">Yalk. Ps. 848</cite>; [perh. to be read <he>יִקָּווּ</he> <i>Nif.</i>]. ",
+						"<cite ref=\"Midrash Tehillim 6:1-4\">Midr. Till. to Ps. VI</cite> <he>והיה … מְקַוֶּה לרופא וכ׳</he> and the patient anxiously waited for the physician (asking), when will he come? &c.; <cite ref=\"Yalkut Shimoni on Nach 635\">Yalk. ib. 635</cite>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:3\">Cant. R. to II, 3</cite>, v. <cite ref=\"S00309\">next w.</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

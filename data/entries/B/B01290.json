@@ -1,0 +1,39 @@
+{
+	"id": "B01290",
+	"slug": "ברך-4",
+	"headword": {
+		"text": "בֶּרֶךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּרְכָּא"
+		},
+		{
+			"text": "בִּירְכָּא"
+		}
+	],
+	"page": {
+		"number": 195,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01289\">same</cite><i>knee</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 45:23\">Targ. Is. XLV, 23</cite>.—Pl. <cite ref=\"B01290\"><he>בִּרְכַּיָא</he></cite>, <cite ref=\"B00960\"><he>בִּרְכֵּי</he></cite>, <cite ref=\"B00125\"><he>בִּי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 7:6\">Targ. Jud. VII, 6</cite>; a. e.—",
+				"<cite ref=\"Berakhot 6a:5\">Ber. 6ᵃ</cite> <he>הנהו ב׳ וכ׳</he> those fatigued knees (of scholars) must be ascribed to them (the demons). ",
+				"<cite ref=\"Pesachim 108a:11\">Pes. 108ᵃ</cite>, v. <cite ref=\"G00056\"><he>זְגָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"B01267\"><he>בְּרִיכָה</he></cite>. Pl. <he>בִּירְכֵּי</he> <i>shoots, branches</i>. ",
+			"units": [
+				"<cite ref=\"Tamid 30a:1\">Tam. 30ᵃ</cite> top (Var. in Rashi <he>בְּרִיכֵי</he>, Ar. <he>בורכי</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

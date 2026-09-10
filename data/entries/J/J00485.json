@@ -1,0 +1,40 @@
+{
+	"id": "J00485",
+	"slug": "יעל-1",
+	"headword": {
+		"text": "יָעַל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 584,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P00772\"><he>עָלָה</he></cite>)<i>to go up</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹעִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to bring up, effect; to profit, accomplish</i>. Y. Sot. VIII, 21ᶜ <he>ולא הוֹעַלְתֶּם לעצמיכם כלום</he> and you have profited nothing for yourselves; (<cite ref=\"Sanhedrin 90b:16\">Snh. 90ᵇ</cite> <he>העליתם בידכם</he>); v. <cite ref=\"G00223\"><he>זוּף</he> I</cite>. ",
+					"units": [
+						"<cite ref=\"Eruvin 24b:8\">Erub. 24ᵇ</cite> <he>לחי מוֹעִיל וכ׳</he> a post helps (has the effect of making the moving about on the Sabbath permitted) for all vineyard paths. Ib. 25ᵃ <cite ref=\"E00001\"><he>ה׳</he></cite> it does good (it serves its purpose). ",
+						"<cite ref=\"Yoma 47a:13\">Yoma 47ᵃ</cite> <he>ולא הוֹעִילוּ</he> and did not succeed (in obtaining distinction). ",
+						"<cite ref=\"Megillah 6a:8\">Meg. 6ᵃ</cite> <he>אינו מועילוכ׳</he> will not succeed in business. ",
+						"<cite ref=\"Ketubot 10a:1\">Keth. 10ᵃ</cite> <he>מה הועילו חכמים וכ׳</he> what have the scholars accomplished with their measure?; <cite ref=\"Gittin 17b\">Gitt. 17ᵇ</cite>, sq. ",
+						"<cite ref=\"Gittin 32b:4\">Ib. 32ᵇ</cite> (if one said) <he>גט זה לא יועיל</he> this letter of divorce <i>shall</i> have no effect, contrad. to <he>אינו מועיל</he> <i>has</i> no effect. ",
+						"<cite ref=\"Gittin 57b:10\">Ib. 57ᵇ</cite> <he>תפלה שמוֹעֶלֶת</he> a prayer which was efficacious. ",
+						"<cite ref=\"Gittin 65b:13\">Ib. 65ᵇ</cite> (if he said, Write ye a letter of divorce and) <he>הוֹעִילוּ לה</he> make it of avail to her. ",
+						"<cite ref=\"Bava Batra 100a:6\">B. Bath. 100ᵃ</cite> <he>אין הילוך מוֹעִיל</he> walking through the field (as a symbol of possession) has no legal effect. ",
+						"<cite ref=\"Chullin 70b:4\">Ḥull. 70ᵇ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

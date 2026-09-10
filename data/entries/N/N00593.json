@@ -1,0 +1,23 @@
+{
+	"id": "N00593",
+	"slug": "נטשא",
+	"headword": {
+		"text": "נְטָשָׁא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 902,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00592\">preced.</cite>) <i>dropping, excrements</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 1:16\">Targ. Y. II, Lev. I, 16</cite> (h. text <cite ref=\"N00399\"><he>נֹצָה</he></cite>)."
+			]
+		}
+	]
+}

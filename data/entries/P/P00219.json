@@ -1,0 +1,38 @@
+{
+	"id": "P00219",
+	"slug": "עוזא-2",
+	"headword": {
+		"text": "עוּזָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּזָּה"
+		},
+		{
+			"text": "עֻזָּ׳"
+		}
+	],
+	"page": {
+		"number": 1049,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Uzza</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " one of the brothers that accompanied the Ark to Gibeah. ",
+			"units": [
+				"<cite ref=\"Sotah 35a:2\">Sot. 35a</cite>; <cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 21:1\">Num. R. s. 21</cite>; a. e.—2) name of a fallen angel. ",
+				"<cite ref=\"Yoma 67b:7\">Yoma 67ᵇ</cite> <he>מעשה ע׳ ועזאל</he> the deed of U. and Azael (who came down and had connection with the daughters of man, v. ",
+				"<cite ref=\"Targum Jonathan on Genesis 6:4\">Targ. Y. Gen. VI, 4</cite>). ",
+				"<cite ref=\"Pesikta Rabbati 34:1\">Pesik. R. s. 34</cite> <he>ומה עזא ועזאל וכ׳</he> when U. a. Azael … sinned on coming down &c. ",
+				"<cite ref=\"Devarim Rabbah 11:11\">Deut. R. s. 11</cite>, end <he>עזה ועזאל</he>.—[<cite ref=\"Yalkut Shimoni on Torah 44:1\">Yalk. Gen. 44</cite> <he>שמחזי ועזאל</he>; <cite ref=\"Targum Jonathan on Genesis 6:4\">Targ. Y. Gen. VI, 4</cite> <he>שמחזי ועוזיאל</he>.]"
+			],
+			"label": "1"
+		}
+	]
+}

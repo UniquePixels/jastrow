@@ -1,0 +1,29 @@
+{
+	"id": "J00069",
+	"slug": "יבש-1",
+	"headword": {
+		"text": "יָבֵשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 562,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"B00047\"><he>בָּאַשׁ</he></cite>, <cite ref=\"B00015\"><he>בְּאוּשָׁה</he></cite>, <cite ref=\"A00534\"><he>אוּבְשִׁין</he></cite>, <cite ref=\"A00231\"><he>אַבְשׁוּנָא</he></cite>)<i>parched, dry, withered</i>, opp. <he>לח</he> moist, green. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 2:3\">Dem. II, 3</cite> <he>לח וי׳</he> fresh or dried fruits. ",
+				"<cite ref=\"Mishnah Demai 2:5\">Ib. 5</cite> <he>בי׳ שלשת קבין</he> wholesale dealing in dried fruits means three Kab. Y. ib. II, end, 23ᵃ <he>נתנו שיעור לי׳</he> for dried fruit they make quantity the standard; a. fr.—Pl. <he>יְבֵשִׁים</he>, <he>יְבֵשִׁין</he>; <he>יְבֵי׳</he>. ",
+				"<cite ref=\"Mishnah Shabbat 4:1\">Sabb. IV, 1</cite>. ",
+				"<cite ref=\"Mishnah Pesachim 2:6\">Pes. II, 6</cite>; a. fr.—<i>Fem.</i> <cite ref=\"J00073\"><he>יְבֵשָׁה</he></cite>, <he>יְבֵי׳</he>. ",
+				"<cite ref=\"Mishnah Oktzin 1:2\">Ukts. I, 2</cite>; a. fr.—",
+				"<cite ref=\"Tosefta Terumot 7:16\">Tosef. Ter. VII, 16</cite> <he>נעשית י׳</he> the date became dry (so as to be called <cite ref=\"J00046\"><he>יְבֵּישָׁה</he></cite>).—Pl. <he>יְבֵשׁוֹת</he>, <he>יְבֵי׳</he>. ",
+				"<cite ref=\"Mishnah Tevul Yom 3:6\">T’bul Yom III, 6</cite> <he>תמרים י׳</he>, opp. <he>רטובות</he>; a. fr."
+			]
+		}
+	]
+}

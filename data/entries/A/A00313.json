@@ -1,0 +1,27 @@
+{
+	"id": "A00313",
+	"slug": "אגמה",
+	"headword": {
+		"text": "אַגְמָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַגְמָה"
+		}
+	],
+	"page": {
+		"number": 13,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A00307\"><he>אֲגַם</he> I</cite>,) esp. <he>אַגְמַת נפש</he> (<cite ref=\"P00101\"><he>עַגְ׳</he></cite>) <i>grief</i> of the soul. ",
+			"units": [
+				"<cite ref=\"Moed Katan 14b\">M. Kat. 14ᵇ</cite>; a. fr. Ms. M., s. Ar. <he>א׳</he> (ed. <cite ref=\"P00000\"><he>ע</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"id": "L00608",
+	"slug": "לעי",
+	"headword": {
+		"text": "לְעִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְעָא"
+		}
+	],
+	"page": {
+		"number": 714,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"L00015\"><he>לְאִי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to labor, work; to study</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 3:18\">Targ. Y. Gen. III, 18</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 16:26\">Targ. Prov. XVI, 26</cite> <he>לָעֲיָא</he>.—",
+				"<cite ref=\"Vayikra Rabbah 32:4\">Lev. R. s. 32</cite> <he>לְעֵי טבאות</he> work right (Tanḥ. Emor 24 <cite ref=\"L00504\"><he>ליענות</he></cite>). ",
+				"<cite ref=\"Vayikra Rabbah 34:15\">Lev. R. s. 34</cite> <he>לית את אזיל לָעֵי ונגיס</he> why doest thou not go working and have something to eat?—Y. Keth. V, 30ᵇ top <he>דא̇ינון לָעֲיֵי</he> because they are working beasts. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:1:10\">Y. Sabb. VI, 7ᵈ</cite> bot. <he>והוא לעי באורייתא</he> that he might be able to study the Law; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:1:18\">Y. Erub. I, 18ᵈ</cite> top <he>ולָעֲתָהּ בתריה וכ׳</he> (cmp. <he>חמת־</he> for <cite ref=\"H01172\"><he>חמי</he></cite>) and he studied (repeated) it after him forty times; <cite ref=\"Jerusalem Talmud Eruvin 1:1:18\">ib.</cite> <he>ולעיתה</he> (read <he>ולָעֲתֵיה</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be tired</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 18:18\">Targ. Y. Ex. XVIII, 18</cite> <he>מִילְעָא תִילְעֵי</he> Ar. (ed. <he>מיתר תנתר</he>; O. <he>מִילְאָה תִלְאֵי</he>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 5:5\">Targ. Lam. V, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:15\">Targ. Prov. XXVI, 15</cite> <cite ref=\"L00026\"><he>לָאעֵי</he></cite> ed. Lag. (oth. <cite ref=\"L00608\"><he>לָעֵי</he></cite>); a. e.—Lam. R. introd. (R. Isaac 3), v. <cite ref=\"I00727\"><he>טָרוֹן</he></cite>.—Y. Gitt. VIII, beg. 48ᶜ; <cite ref=\"Jerusalem Talmud Terumot 1:1:11\">Y. Ter. I, 40ᵇ</cite> <he>והוא לעי</he> and he became tired (ceased from raving)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַלְעֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to tire out, ruin</i>. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 17:9\">Targ. I Chr. XVII, 9</cite> <he>למַלְעֵי</he> (not <he>למִילְעֵי</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

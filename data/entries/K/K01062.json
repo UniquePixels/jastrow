@@ -1,0 +1,47 @@
+{
+	"id": "K01062",
+	"slug": "כפת-2",
+	"headword": {
+		"text": "כְּפַת"
+	},
+	"page": {
+		"number": 663,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01061\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 22:9\">Targ. Y. Gen. XXII, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 118:27\">Targ. Ps. CXVIII, 27</cite>; a. e.—Part. pass. pl. <he>כְּפוּתִין</he> (hebr.) <i>put in stocks</i>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 21:29\">Targ. Y. II, Num. XXI, 29</cite>.—",
+				"<cite ref=\"Tamid 31b:26\">Tam. 31ᵇ</cite> <he>דכַפְתֵיה בשיראי</he> if one tied the sacrifice (hands and feet) with silk ropes. ",
+				"<cite ref=\"Bava Batra 167a:7\">B. Bath. 167ᵃ</cite> <he>כפתיה ואודי</he> he put him in stocks (or in prison), and he confessed. ",
+				"<cite ref=\"Gittin 14a:2\">Gitt. 14ᵃ</cite> <he>דכַפְתֵי ושקלי וכ׳</he> who use force (have him arrested) and collect their due immediately (allowing no time). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 1:5:6\">Y. Gitt. I, end, 43ᵈ</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 3:4:7\">Y. Kidd. III, 64ᵃ</cite> <he>כַּפְתוּן ואפקון מיניה</he> they put him in stocks and forced him to pay; a. e.—[<cite ref=\"Gittin 62a:8\">Gitt. 62ᵃ</cite> <he>מִכְפַּת וכ׳</he>, v. <cite ref=\"A01748\"><he>אִכְפַּת</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּפֵּית"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K01061\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 7:5\">Targ. Cant. VII, 5</cite>.—Y. Kil. IX, end, 32ᵈ <he>דהוא מְכַפֵּת ביה</he> he (the weaver) uses it for tying (or <i>knotting</i>, v. infra)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. P. Sm. 1803) <i>to produce knots, to mature fruits</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 17:23\">Targ. O. Num. XVII, 23</cite> ed. Berl. (Var. <cite ref=\"K01023\"><he>כָּפֵית</he></cite>, <he>כְּפֵית</he>; h. text <he>גמל</he>); cmp <cite ref=\"K01067\"><he>כַּפְתּוֹר</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

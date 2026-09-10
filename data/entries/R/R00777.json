@@ -1,0 +1,23 @@
+{
+	"id": "R00777",
+	"slug": "צריכותא",
+	"headword": {
+		"text": "צְרִיכוּתָא"
+	},
+	"page": {
+		"number": 1302,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00776\">preced.</cite>) <i>need, want</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:15\">Targ. Prov. X, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:34\">Ib. XXIV, 34</cite> (some ed. <he>צְרִיכְתּ׳</he>)."
+			]
+		}
+	]
+}

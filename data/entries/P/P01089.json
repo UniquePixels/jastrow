@@ -1,0 +1,34 @@
+{
+	"id": "P01089",
+	"slug": "עצא-1",
+	"headword": {
+		"text": "עֵצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵצְתָא"
+		},
+		{
+			"text": "עֵי׳"
+		}
+	],
+	"page": {
+		"number": 1101,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P01101\"><he>עֵצָה</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 32:28\">Targ. O. Deut. XXXII, 28</cite> (some ed. <cite ref=\"P01102\"><he>עֵצָה</he></cite>). ",
+				"<cite ref=\"Onkelos Numbers 31:16\">Targ. Num. XXXI, 16</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 24:14\">Targ. Y. II, Num. XXIV, 14</cite> <cite ref=\"P01100\"><he>עצה</he></cite>; a. e.—Pl. <cite ref=\"P01139\"><he>עֵצָתָא</he></cite>, <he>עֵצָן</he>, <cite ref=\"P01089\"><he>עֵי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:20\">Targ. Prov. XXII, 20</cite> (ed. Wil. <cite ref=\"P01139\"><he>עֵצְתָּא</he></cite> sing.). Targ. Y. II, Deut. l. c. (v. <cite ref=\"P00529\"><he>עֵיטָא</he></cite>).—",
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite> <he>בני עיצתא דיליה</he> (not <he>עצתיא</he>) his counsellors; a. e."
+			]
+		}
+	]
+}

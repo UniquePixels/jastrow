@@ -1,0 +1,51 @@
+{
+	"id": "R00402",
+	"slug": "ציפא-2",
+	"headword": {
+		"text": "צִיפָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צֵיפָא"
+		},
+		{
+			"text": "צֵפָא"
+		}
+	],
+	"page": {
+		"number": 1278,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00705\"><he>צפף</he></cite>; cmp. P. Sm. 3428 s. v. <cite ref=\"R00667\"><he>צף</he></cite> a. sq.) [<i>coarse texture</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the fleshy covering of date-stones</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 50b:10\">Ḥull. 50ᵇ</cite> <he>כגון … בצ׳ בדוחקא בלא צ׳ וכ׳</he> when three date-stones can pass the opening, by force with the covering on them, and easily without the covering."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>reed-mat.—</i>Pl. <he>צִיפֵּי</he> or <he>צֵיפֵי</he>. ",
+			"units": [
+				"<cite ref=\"Berakhot 25a:8\">Ber. 25ᵃ</cite> <he>חזו הני צ׳ דבי רב וכ׳</he> look at the mats in the school house, some sleep thereon, while others are studying. ",
+				"<cite ref=\"Bava Batra 8b\">B. Bath. 8ᵇ</cite> <he>צ׳ דבי וכ׳</he> the mats in the synagogue.—[<cite ref=\"Kiddushin 45a:6\">Kidd. 45ᵃ</cite> <he>תותי צ׳</he> under mats spread over their heads, v. preced.]"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>close embrace</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 61a\">Nidd. 61ᵃ</cite> <he>דגניין בצ׳</he> Ar. (ed. <he>במשולבות</he>) when the two women slept embracing each other."
+			],
+			"label": "3"
+		}
+	]
+}

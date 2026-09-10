@@ -1,0 +1,23 @@
+{
+	"id": "Q02050",
+	"slug": "פרתיאין",
+	"headword": {
+		"text": "פַּרְתִּיאִין"
+	},
+	"page": {
+		"number": 1244,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Πάρθια) <i>Parthians</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite> <he>מוקי פ׳</he> Parthian (red) socks (v. Harp. Lat. Dict. s. v. Parthia, a. <cite ref=\"B00347\"><he>בּוּרְדִּיקָא</he></cite>)."
+			]
+		}
+	]
+}

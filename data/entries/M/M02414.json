@@ -1,0 +1,28 @@
+{
+	"id": "M02414",
+	"slug": "מקטיא-2",
+	"headword": {
+		"text": "מִקְטַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַיָּיא"
+		}
+	],
+	"page": {
+		"number": 830,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"N01191\"><he>נְקַט</he></cite>) <i>objects</i> held in the hand while making oath. ",
+			"units": [
+				"<cite ref=\"Tosefta Sanhedrin 5:1\">Tosef. Snh. V, 1</cite> [read:] <he>דור לי … בקיטא ובמ׳ דנקיטי</he> if the contestant says, swear to me by thy life, or by the object or objects which I hold (v. <cite ref=\"S01533\"><he>קָנָה</he></cite>); Y. ib. III, beg. 21ᵃ (corr. acc.)."
+			]
+		}
+	]
+}

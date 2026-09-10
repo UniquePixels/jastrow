@@ -1,0 +1,20 @@
+{
+	"id": "S00081",
+	"slug": "קבס",
+	"headword": {
+		"text": "קְבַס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1310,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>כבס</he>, <cite ref=\"K00085\"><he>כבש</he></cite>) <i>to treat with disrespect</i> (Rashi: <i>to annoy, grieve</i>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 55a:10\">Snh. 55ᵃ</cite>; <cite ref=\"Kiddushin 26b:2\">Kidd. 26ᵇ</cite> <cite ref=\"S00083\"><he>קְבַסְתָּן</he></cite> thou insultest (annoyest) us (with thy scurrilous sophistry); [Ar.: <i>thou disgustest us</i>; oth. opin. <cite ref=\"S00083\"><he>קְבַסְתָּן</he></cite> m. <i>insolent man</i> that thou art!]"
+			]
+		}
+	]
+}

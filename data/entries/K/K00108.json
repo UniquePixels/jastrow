@@ -1,0 +1,29 @@
+{
+	"id": "K00108",
+	"slug": "כדבותא",
+	"headword": {
+		"text": "כַּדָּבוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּדְבוּ׳"
+		},
+		{
+			"text": "כַּדִּיבוּ׳"
+		}
+	],
+	"page": {
+		"number": 612,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " f. <cite ref=\"K00107\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 4:3\">Targ. Ps. IV, 3</cite> <he>כדי׳</he> ed. (Ms. <he>כדב׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 5:7\">Ib. V, 7</cite> (v. <cite ref=\"K00104\"><he>כַּדְבָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:8\">Targ. Prov. XXX, 8</cite> <he>מילתא כ׳</he> (read: <he>דכ׳</he>); a. e."
+			]
+		}
+	]
+}

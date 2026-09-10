@@ -1,0 +1,31 @@
+{
+	"id": "B01310",
+	"slug": "ברץ-2",
+	"headword": {
+		"text": "בְּרַץ"
+	},
+	"page": {
+		"number": 196,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01309\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>בָּרֵץ</he> <i>to bore</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 59b:2\">Ab. Zar. 59ᵇ</cite> <he>ובִירְצוּהָ עד דשייפא</he> Ar. (ed. <he>ובָרצוה</he>) and bore into the keg, until it is emptied (Rashi: bend it towards the bung-hole)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

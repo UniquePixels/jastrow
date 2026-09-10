@@ -1,0 +1,67 @@
+{
+	"id": "M00471",
+	"slug": "מוך-2",
+	"headword": {
+		"text": "מוּךְ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 741,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00470\">same</cite><i>to decline, sink</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 12:42\">Targ. Y. II, Ex. XII, 42</cite>. Targ. ",
+				"<cite ref=\"Habakkuk 3:6\">Hab. III, 6</cite>; a. e. (v. <cite ref=\"M01374\"><he>מְכִי</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to become soft</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 95a:8\">Snh. 95ᵃ</cite> <he>מָכָא ליה ארעא וכ׳</he> the ground under him became soft."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"M00470\"><he>מוךְ</he></cite>) <i>to lay under, make a bed</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 139:8\">Targ. Ps. CXXXIX, 8</cite>.—",
+				"<cite ref=\"Pesachim 49a:20\">Pes. 49ᵃ</cite> <he>בר מָךְ רבע</he> one who lays under (his cloak) and lies down (at any place, a shiftless person). ",
+				"<cite ref=\"Taanit 6b:11\">Taan. 6ᵇ</cite>; <cite ref=\"Berakhot 59a:11\">Ber. 59ᵃ</cite> (prov.) <he>כד מפתח בבי … מוֹךְ שקיך וגני</he> if it rains when the doors are opened (in the morning), lay down thy bag, ass-driver, and sleep (do not export, for provisions will be cheap); a. e.—Part. <cite ref=\"M00036\"><he>מָאֵיךְ</he></cite>, <cite ref=\"M00036\"><he>מָיֵיךְ</he></cite>. ",
+				"<cite ref=\"Bava Metzia 84b:1\">B. Mets. 84ᵇ</cite> <he>הוו מָיְיכֵי ליה וכ׳</he> (Rashi: <he>מָיְיכִין</he>; Var. <cite ref=\"M01146\"><he>מייתי</he></cite>, v. Rabb. D. S. a. l. note 1) they spread for him sixty mattresses. ",
+				"<cite ref=\"Taanit 21b\">Taan. 21ᵇ</cite> bot. <cite ref=\"M00036\"><he>מאיך</he></cite> Ar. (ed. <cite ref=\"M01339\"><he>מך</he></cite>), v. <cite ref=\"B00665\"><he>בִּיסְתַּרְקָא</he></cite>.—V. <cite ref=\"M01341\"><he>מָכָא</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָמֵיךְ", "אַמֵּיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to lower</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 113:6\">Targ. Ps. CXIII, 6</cite> <he>מְמֵיךְ</he> Ms. (ed. <cite ref=\"M00036\"><he>מַמֵיךְ</he></cite>, <he>מֵמִיךְ</he>; h. text <he>המשפילי</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make soft, crush</i>. Ib. XLIV, 20 (h. text <cite ref=\"D00771\"><he>דִּכָּה</he></cite>).",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to lay under, make a bed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 41:22\">Targ. Job XLI, 22</cite> (h. text <he>רפד</he>)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

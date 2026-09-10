@@ -1,0 +1,22 @@
+{
+	"id": "B01224",
+	"slug": "ברזינא",
+	"headword": {
+		"text": "בַּרְזִינָא"
+	},
+	"page": {
+		"number": 191,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B01216\"><he>בְּרַז</he></cite> a. <cite ref=\"B01217\"><he>בִּרְזָא</he> I</cite>) <i>a tap, sample of wine</i>, whence <i>barzina</i>, a liquid measure, one thirty-second of a Log (Ar.). ",
+			"units": [
+				"<cite ref=\"Shabbat 109b:10\">Sabb. 109ᵇ</cite> <he>ב׳ לזיבורא</he> a barzina (of urin) is a remedy for a hornet’s sting."
+			]
+		}
+	]
+}

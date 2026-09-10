@@ -1,0 +1,31 @@
+{
+	"id": "P00011",
+	"slug": "עבב",
+	"headword": {
+		"text": "עָבַב"
+	},
+	"page": {
+		"number": 1034,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be thick, dark</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִיבֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to thicken, darken</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite>, a. e. <he>מְעַבֵּב</he>, v. <cite ref=\"P00008\"><he>עָב</he> II</cite>.—V. <cite ref=\"P00007\"><he>עָבָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

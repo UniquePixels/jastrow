@@ -1,0 +1,38 @@
+{
+	"id": "A01264",
+	"slug": "איל-2",
+	"headword": {
+		"text": "אַיִל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַיִיל"
+		}
+	],
+	"page": {
+		"number": 48,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A00658\"><he>אול</he></cite>)<i>ram</i> (<i>the strong</i>). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 65b:12\">B. Kam. 65ᵇ</cite> if one stole <he>טלה ונעשה א׳</he> a lamb and it grew to be a ram. ",
+				"<cite ref=\"Bava Kamma 65b:17\">Ib.</cite> <he>א׳ בן יומו קרוי א׳</he> a ram one day old is called a ram (<i>ayil</i> is used in a general sense, irrespective of age). ",
+				"<cite ref=\"Rosh Hashanah 16a:16\">R. Hash. 16ᵃ</cite>; a. fr.—[*Pl. <cite ref=\"A01860\"><he>אֵלִים</he></cite>. Tosef. ",
+				"<cite ref=\"Rosh Hashanah 3a:2\">R. Hash. I</cite>II (II), 3 (Var. <he>יעלים</he>).]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>א׳ קמצא</he> [perh. <cite ref=\"A01265\"><he>אַיָּל</he></cite> q. v.] <i>a species of locusts</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite>; <cite ref=\"Pesachim 16a:3\">Pes. 16ᵃ</cite>; <cite ref=\"Avodah Zarah 37a:13\">Ab. Zar. 37ᵃ</cite> <cite ref=\"A01235\"><he>אייל</he></cite> ed. (Ms. M. <cite ref=\"A01187\"><he>אייול</he></cite>), v. <cite ref=\"D00773\"><he>דְּכֵי</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

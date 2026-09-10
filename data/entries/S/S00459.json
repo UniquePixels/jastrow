@@ -1,0 +1,29 @@
+{
+	"id": "S00459",
+	"slug": "קוסדור",
+	"headword": {
+		"text": "קוּסְדּוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִסְ׳"
+		}
+	],
+	"page": {
+		"number": 1336,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (quæstor) <i>quæstor, military adjutant, inquisitor</i> (v. Sm. Ant. s. v.). ",
+			"units": [
+				"<cite ref=\"Shabbat 49a:7\">Sabb. 49ᵃ</cite> <he>ראהו קוס׳ אחד וכ׳</he> Ms. M. (ed. <he>קס׳</he>; Var. in Ar. <he>קוז׳</he>, <he>קז׳</he>) a quæstor saw him (wearing T’fillin), and he fled before him; <cite ref=\"Yalkut Shimoni on Nach 795:5\">Yalk. Ps. 795</cite>. ",
+				"<cite ref=\"Tosefta Eiruvin 8:4\">Tosef. Erub. VIII</cite> (<cite ref=\"Tosefta Eiruvin 5:4\">V</cite>), 4 <he>קצדור הבא לעיר וכ׳</he> ed. Zuck. (Var. <he>קסדר</he>) when a military quæstor (commissary) takes up his station in a town for thirty days; Y. ib. VI, 23ᵇ bot. <he>הקוּסְטוֹר</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 1049:8\">Yalk. Esth. 1049</cite> <he>ולא היית כק׳ וכ׳</he> (some ed. <he>כקיס׳</he>) and thou wast not even so much as a quæstor (worthy) to run before my father’s chariot."
+			]
+		}
+	]
+}

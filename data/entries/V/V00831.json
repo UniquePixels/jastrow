@@ -1,0 +1,36 @@
+{
+	"id": "V00831",
+	"slug": "תפלה-2",
+	"headword": {
+		"text": "תְּפִלָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּפִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1686,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"Q01075\"><he>פָּלַל</he></cite>) [<i>intercession, pleading</i>,] <i>prayer</i>, esp. <i>T’fillah</i>, the Prayer of Benedictions to be said three times every day, four times on the Sabbath and the festivals (v. <cite ref=\"M00548\"><he>מוּסַף</he></cite>), and five times on the Day of Atonement and public fast-days (v. <cite ref=\"N00979\"><he>נְעִילָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Taanit 2a:11\">Taan. 2ᵃ</cite> <he>ומנלן דבת׳</he> and whence do you prove that the mention of, and the prayer for rain must be inserted in the T’fillah? <cite ref=\"Taanit 2a:11\">Ib.</cite> <he>עבודה שבלב זו ת׳</he>, v. <cite ref=\"P00026\"><he>עֲבוֹדָה</he></cite>. ",
+				"<cite ref=\"Mishnah Berakhot 4:1\">Ber. IV, 1</cite> <he>תְּפִלַּת השחר</he> the morning T’fillah, <he>ת׳ המנחה</he> the afternoon T’fillah &c. (v. respective determinants). ",
+				"<cite ref=\"Berakhot 5a:14\">Ib. 5ᵃ</cite> <he>אלו הם יסורין … בטול ת׳</he> sufferings of love are those with which no cessation of prayer is connected. ",
+				"<cite ref=\"Berakhot 6b:6\">Ib. 6ᵇ</cite> <he>הקובע מקום לתְפִלָּתוֹ</he> he that has a regular place for his prayers. ",
+				"<cite ref=\"Berakhot 31b:19\">Ib. 31ᵇ</cite> <he>שאסור לישב … של ת׳</he> that it is forbidden to sit down within four cubits distance from one in prayer; a. v. fr.—",
+				"<cite ref=\"Berakhot 31a:26\">Ib. 31ᵃ</cite>, a. fr. <he>שומע ת׳</he> (abbrev. <he>ש״ת</he>) ‘hearer of prayer’, the fifteenth section of the Prayer of Benedictions which closes with, ‘blessed be thou, O Lord, the hearer of prayer.’—Pl. <cite ref=\"V00834\"><he>תְּפִלּוֹת</he></cite>, <cite ref=\"V00832\"><he>תְּפִי׳</he></cite>. ",
+				"<cite ref=\"Berakhot 26b:4\">Ib. 26ᵇ</cite> <he>ת׳ אבות תקנום</he> the patriarchs introduced regular prayers. ",
+				"<cite ref=\"Berakhot 26b:4\">Ib.</cite> <he>ת׳ כנגד תמידין תקנום</he> prayers (T’filloth) have been instituted so as to correspond to the daily offerings. ",
+				"<cite ref=\"Shabbat 30a:5\">Sabb. 30ᵃ</cite> <he>כמה ת׳ ותחנונים</he> ever so many prayers and supplications; a. v. fr."
+			]
+		}
+	]
+}

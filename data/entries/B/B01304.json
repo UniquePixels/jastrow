@@ -1,0 +1,28 @@
+{
+	"id": "B01304",
+	"slug": "ברנש",
+	"headword": {
+		"text": "בַּרְנֵשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּרְנֵישׁ"
+		}
+	],
+	"page": {
+		"number": 196,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Barnesh</i>, in Babylon, prob. the modern <i>Khar-Birnus</i>, near Helle (Neub. Géogr. p. 345), having in its vicinity a Synagogue named after Daniel. ",
+			"units": [
+				"<cite ref=\"Eruvin 21a\">Erub. 21ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 73b\">B. Mets. 73ᵇ</cite>"
+			]
+		}
+	]
+}

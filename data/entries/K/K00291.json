@@ -1,0 +1,33 @@
+{
+	"id": "K00291",
+	"slug": "כומר-2",
+	"headword": {
+		"text": "כּוֹמֶר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּמָר"
+		}
+	],
+	"page": {
+		"number": 621,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>כְּמָרִים</he>; <cite ref=\"K00817\"><he>כָּמַר</he></cite><i>to guard</i>, cmp. <cite ref=\"K00163\"><he>כֹּהֵן</he></cite>. In Syriac <cite ref=\"K00292\"><he>כומרא</he></cite> interchanges with <cite ref=\"K00165\"><he>כהנא</he></cite>, v. P. Sm. 1757 s. v.) <i>attendant, priest</i>, always used of idolaters. ",
+			"units": [
+				"<cite ref=\"Kiddushin 20b:2\">Kidd. 20ᵇ</cite> <he>נעשה כ׳ לע״ז</he> (<cite ref=\"Arakhin 30b:43\">Arakh. 30ᵇ</cite> <he>משרת</he>) became an attendant of an idolatrous temple. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:5:3\">Y. Ab. Zar. I, 39ᵈ</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 35:1\">Pesik. R. s. 35</cite> <he>יתרו לא כ׳ וכ׳</he> was not Jethro an idolatrous priest?; a. fr.—Pl. <he>כּוּמָרִים</he>, <he>כּוּמָרִין</he>. ",
+				"<cite ref=\"Avodah Zarah 51b:18\">Ab. Zar. 51ᵇ</cite> <he>בטובת כ׳</he> for the benefit of the idolatrous priests, opp. <he>עובדיה</he> worshippers; Y. ib. IV, 43ᵈ bot. ",
+				"<cite ref=\"Eruvin 79b\">Erub. 79ᵇ</cite> bot. Ms. M. (ed. <he>משרתי ע״ז</he>). ",
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite>, beg.; a. fr."
+			]
+		}
+	]
+}

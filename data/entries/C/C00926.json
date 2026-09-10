@@ -1,0 +1,121 @@
+{
+	"id": "C00926",
+	"slug": "גלי-1",
+	"headword": {
+		"text": "גלי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּלָה"
+		}
+	],
+	"page": {
+		"number": 247,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be uncovered</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Mikvaot 3:1\">Tosef. Mikv. III, 1</cite> a pit <he>שגָּלַת</he> ed. Zuck. which was left open.—<i>Part. pass.</i> <cite ref=\"C00897\"><he>גָּלוּי</he></cite> <i>open, revealed</i>. ",
+				"<cite ref=\"Shabbat 55a:8\">Sabb. 55ᵃ</cite> <he>ג׳ וידוע וכ׳</he> it is open and known to me. ",
+				"<cite ref=\"Berakhot 60b\">Ber. 60ᵇ</cite>; a. fr. V. <cite ref=\"C00897\"><he>גָּלוּי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of a place) <i>to become bare of inhabitants</i> (v. ",
+			"units": [
+				"<cite ref=\"Judges 18:30\">Jud. XVIII, 30</cite>; <cite ref=\"Jeremiah 1:3\">Jer. I, 3</cite>); (of the inhabitants) <i>to leave home, go into exile</i>. Y. Taan. I, 64ᵃ top <he>בכ״מ שגָּלוּ … גָּלַת וכ׳</he> whithersoever Israel went as exiles, the Divine Majesty went with them (ref. to <cite ref=\"C00926\"><he>נגלה</he></cite>, <cite ref=\"I Samuel 2:27\">I Sam. II, 27</cite>); <cite ref=\"Megillah 29a\">Meg. 29ᵃ</cite>; a. e.—Pesik. Haḥod. p. 48ᵃ <he>אם ג׳ אחד מכם … כאילו גְּלִיתֶם כולכם</he> if one of you is banished (by the Roman Government) to &c.: … as though ye all had been banished; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>; <cite ref=\"Shir HaShirim Rabbah 2:8\">Cant. R. to II, 8</cite>. ",
+				"<cite ref=\"Arakhin 12a\">Arakh. 12ᵃ</cite>; <cite ref=\"Megillah 11b:8\">Meg. 11ᵇ</cite> <he>גָּלוּ בשבע</he> they were transported to Babylonia in the seventh year (after the subjection of Jojakim). ",
+				"<cite ref=\"Mishnah Makkot 2:1\">Macc. II, 1</cite> <he>אלו הן הַגּוֹלִין</he> the following (involuntary homicides) have to leave for the city of refuge. ",
+				"<cite ref=\"Mishnah Makkot 2:1\">Ib.</cite> <he>אינו גוֹלֶה</he> is not bound to flee to &c. Ib. 3 <he>האב גולה ע״י הבן</he> a father is banished for killing his son; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶגְלָה"],
+			"senses": [
+				{
+					"gloss": "<i>to banish, carry into captivity</i>. ",
+					"units": [
+						"<cite ref=\"Makkot 12b:8\">Macc. 12ᵇ</cite> <he>היו … מַגְלִין וכ׳</he> the Israelites executed the law of banishment in the desert. ",
+						"<cite ref=\"Bamidbar Rabbah 23\">Num. R. s. 23</cite>, end. ",
+						"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> <he>ומַגְלָם מארצם</he> and is the cause of their exile &c.; a. fr.—",
+						"<cite ref=\"Kohelet Rabbah 12:6\">Koh. R. to XII, 6</cite> (play on <he>גלת</he> <cite ref=\"Kohelet Rabbah 12:6\">ib.</cite>) ‘the golden bowl’ is the gullet, <he>שהיא מַגְלָה את הזהב ומריצה וכ׳</he> (not <cite ref=\"U00304\"><he>שהיה</he></cite>; <cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite> <he>שמכלה</he>, corr. acc.) which banishes the gold and makes the silver run, i.e. which impoverishes the glutton."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִגְלָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be discovered, exposed to view; to reveal one’s self, appear</i>. Tanḥ. Sh’moth 19 <he>נ׳ עליו בקולו וכ׳</he> He revealed Himself to Moses with the voice of Amram &c.; <cite ref=\"Shemot Rabbah 3:1\">Ex. R. s. 3</cite>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 2\">Ex. R. s. 2</cite>, end <he>בכ״מ שהשכינה נִגְלֵית</he> wherever the Divine Glory appears. ",
+						"<cite ref=\"Mishnah Sanhedrin 2:1\">Snh. II, 1</cite>, v. <cite ref=\"K00917\"><he>כָּסָה</he> II</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["גִּלָּה", "גִּילָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to uncover, remove; to discover, reveal, publish</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite>, beg. <he>גִּלּוּ הצדיקים וכ׳</he> the righteous uncovered their heads. ",
+						"<cite ref=\"Mishnah Sotah 5:2\">Sot. V, 2</cite>; <cite ref=\"Bereishit Rabbah 21:7\">Gen. R. s. 21</cite> <he>מי יְגַלֶּה עפר וכ׳</he> Oh that one would remove the dust from over thy eyes, i.e. Oh, that thou wouldst resurrect!; Y. Ber. IX, 13ᵈ bot.—",
+						"<cite ref=\"Shabbat 88a:8\">Sabb. 88ᵃ</cite> <he>מי גי׳ וכ׳</he> who revealed this secret to my children? <cite ref=\"Megillah 3a\">Meg. 3ᵃ</cite>; a. fr.—ג׳ משפחות <i>to expose to suspicion</i> the legitimacy of families. ",
+						"<cite ref=\"Tosefta Nazir 1:3\">Tosef. Naz. I, 3</cite>; <cite ref=\"Kiddushin 71a:9\">Kidd. 71ᵃ</cite>.—<he>ג׳ פנים בתורה</he> (<he>שלא כהלכה</he>) "
+					],
+					"senses": [
+						{
+							"gloss": " to interpret the Law in opposition to the adopted sense, <i>tomisinterpret, pervert</i>. ",
+							"units": [
+								"<cite ref=\"Pirkei Avot 3:11\">Ab. III, 11</cite>; a. e. "
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>to put the Law to shame</i> by treating its teachers irreverently. ",
+							"units": [
+								"<cite ref=\"Sanhedrin 99a:4\">Snh. 99ᵃ</cite>; a. e.—<he>ג׳ פנים</he> (in gen.) <i>to expose, put to shame</i>. ",
+								"<cite ref=\"Pirkei DeRabbi Eliezer 44\">Pirké d’R. El. ch. XLIV</cite>, v. <cite ref=\"L00095\"><he>לָבַן</he> II</cite>.—<i>Part. pass.</i> <he>מְגוּלֶּה</he>, f. <he>מְגוּלָּה</he> <i>uncovered</i>. ",
+								"<cite ref=\"Mishnah Parah 11:1\">Par. XI, 1</cite>; <cite ref=\"Chullin 9b:5\">Ḥull. 9ᵇ</cite>; a. fr. Pl. <he>מְגוּלִּין</he>. ",
+								"<cite ref=\"Chullin 9b:5\">Ib.</cite>; a. fr."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְגַּלֶּה", "נִתְגַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be revealed; to be exposed</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 23:12\">Pirké d’R. El. ch. XXIII</cite> <he>ונתגל בתוך האהל</he> his nakedness was exposed &c. ",
+						"<cite ref=\"Yoma 9b:12\">Yoma 9ᵇ</cite> <he>נתג׳ עונם</he> their sins were public (they did not hide them); <he>נתג׳ קיצם</he> the end of their captivity was revealed (through prophecy). ",
+						"<cite ref=\"Nazir 23b\">Naz. 23ᵇ</cite> <he>נ׳ קלונו</he> his disgrace is published.—",
+						"<cite ref=\"Pesachim 119a\">Pes. 119ᵃ</cite>; a. fr.—Tanḥ. ",
+						"<cite ref=\"Exodus 6\">Mishp. 6</cite>; <cite ref=\"Yalkut Shimoni on Nach 956:14\">Yalk. Prov. 956</cite>, v. <cite ref=\"C00974\"><he>גָּלַע</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

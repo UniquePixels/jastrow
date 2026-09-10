@@ -1,0 +1,35 @@
+{
+	"id": "M02272",
+	"slug": "מצה-2",
+	"headword": {
+		"text": "מַצָּה"
+	},
+	"page": {
+		"number": 823,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M02349\"><he>מָצַץ</he></cite>) [<i>dry, pressed bread</i>,] <i>unleavened bread</i>, esp. <i>the bread served at the Passover meal</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 10:3\">Pes. X, 3</cite>. ",
+				"<cite ref=\"Mishnah Pesachim 10:5\">Ib. 5</cite> <he>כל שלא אמר … פסח מ׳ וכ׳</he> whoever does not explain, at the meal, the following three ceremonies, has not done his duty, and these they are: the Passover sacrifice, the eating of <i>matsah</i> and the bitter herbs. ",
+				"<cite ref=\"Mishnah Menachot 5:1\">Men. V, 1</cite> <he>כל המנחות באות מ׳</he> all meal offerings are offered in an unleavened condition, opp. <cite ref=\"H01212\"><he>חָמֵץ</he></cite>. ",
+				"<cite ref=\"Pesachim 35a:14\">Pes. 35ᵃ</cite> <he>דברים הבאים … אדם יוצא בהן ידי חובתו במ׳</he> one performs his duty of eating <i>matsah</i> (on the first Passover night) with such things only as are capable of leavening (the five species of grain); a. fr.—Pl. <cite ref=\"M02299\"><he>מַצּוֹת</he></cite>. Mekh. Bo, s. 8 <he>שומע אני כל מ׳ במשמע</he> I might think anything unleavened is included (may be used for eating on the first Passover night); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>עו̇ר המ׳</he>, or <he>מ׳</he> <i>a hide not tanned by a process of fermentation, untanned hide</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 17:15\">Kel. XVII, 15</cite>. ",
+				"<cite ref=\"Gittin 22a:15\">Gitt. 22ᵃ</cite>; <cite ref=\"Shabbat 79a:8\">Sabb. 79ᵃ</cite> <he>שלשה עורות הן מ׳ וכ׳</he> there are three kinds of hides, <i>matsah</i> &c., v. <cite ref=\"D00686\"><he>דִּיפְתְּרָא</he></cite>. ",
+				"<cite ref=\"Shabbat 79a:8\">Ib.</cite> <he>מ׳ כמשמעו וכ׳</he> <i>m.</i> is what its name implies, not salted and floured nor tanned with gall-nut."
+			],
+			"label": "2"
+		}
+	]
+}

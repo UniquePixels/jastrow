@@ -1,0 +1,69 @@
+{
+	"id": "B01377",
+	"slug": "בת-1",
+	"headword": {
+		"text": "בַּת",
+		"homograph": 1
+	},
+	"page": {
+		"number": 200,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h., contr. of <he>בנת</he>)<i>daughter; maiden, girl; servant-girl</i> (opp. <cite ref=\"U01728\"><he>שפחה</he></cite> slave). ",
+			"units": [
+				"<cite ref=\"Gittin 89a:4\">Gitt. 89ᵃ</cite> <he>בת לא״א</he> a daughter of Abraham our father, a Jewess. ",
+				"<cite ref=\"Bava Batra 109a:9\">B. Bath. 109ᵃ</cite> <he>בן וב׳ כי הדדי נינהו</he> son and daughter are legally the same. ",
+				"<cite ref=\"Mishnah Kiddushin 2:3\">Kidd. II, 3</cite> <he>בת או שפחה גדלת</he> (Bab. ed. <he>מגוד׳</he>) a maid or a slave as hair-dresser; a. fr.—Pl. <cite ref=\"B00941\"><he>בָּנוֹת</he></cite>, constr. <cite ref=\"B00941\"><he>בְּנוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 6:6\">Sabb. VI, 6</cite> <he>הבָּ׳</he> <i>girls</i>. ",
+				"<cite ref=\"Kiddushin 64a:5\">Kidd. 64ᵃ</cite> <he>בְּ׳ ישראל מקוה וכ׳</he> Israelitish daughters (married to a degraded priest, v. <cite ref=\"H01076\"><he>חָלָל</he></cite>) are a well of purification (means of restoration to priestly ranks); a. fr.—Also Ch. <cite ref=\"B01377\"><he>בַּת</he></cite> (v. <cite ref=\"B01154\"><he>בְּרַת</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 15:12\">Targ. Deut. XV, 12</cite>.—Mostly in compounds. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 1:16\">Targ. I Sam. I, 16</cite> <he>ב׳ רשעא</he> (h. text <he>בת בליעל</he>); v. infra.—[<cite ref=\"Jerusalem Talmud Ketubot 2:10:1\">Y. Keth. II, 26ᵈ</cite> bot., read: <he>בתר איתתיה</he>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 9:8:4\">Y. Gitt. IX, 50ᵈ</cite> top <he>כבת יוני</he>, read: <cite ref=\"K01340\"><he>כתב</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּת"],
+			"senses": [
+				{
+					"gloss": " a. <cite ref=\"B00941\"><he>בְּנוֹת</he></cite> (v. <cite ref=\"B00932\"><he>בֵּן</he></cite>, <cite ref=\"B01153\"><he>בַּר</he></cite>): <he>ב׳ אור</he> <i>fuel, fit for fuel</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 25b:4\">Sabb. 25ᵇ</cite>. <he>בנות אזנים</he>, v. <cite ref=\"A00982\"><he>אֹזֶן</he></cite>.—<he>בת ארעא</he> a sore on the foot, v. <cite ref=\"A03221\"><he>אַרְעָא</he></cite>. ",
+						"<cite ref=\"Shabbat 65a:13\">Sabb. 65ᵃ</cite> (Mish. <he>צנים</he>).—<he>ב׳ מזגא חמרא</he> Little Wine-Mixer, name of a clean bird. ",
+						"<cite ref=\"Chullin 63a:1\">Ḥull. 63ᵃ</cite> top.—<he>ב׳ מינא</he> of the same class or size. ",
+						"<cite ref=\"Avodah Zarah 28a:14\">Ab. Zar. 28ᵃ</cite>.—<he>ב׳ מלך</he>, <he>ב׳ חורין</he> King’s, Noblemen’s Daughter, name of a demon. ",
+						"<cite ref=\"Shabbat 109a:1\">Sabb. 109ᵃ</cite>. [<he>ב׳ עין</he>, <cite ref=\"Shemot Rabbah 30:24\">Ex. R. s. 30</cite>, some ed., v. <cite ref=\"B00053\"><he>בָּבָה</he></cite>.]—בת עינא <i>the hole in the millstone through which the grain passes</i>. ",
+						"<cite ref=\"Moed Katan 10a:14\">M. Kat. 10ᵃ</cite> (Ms. M. <he>בית טינא</he>).—<he>בת קבריא</he> a species of raven. ",
+						"<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite>, v. <cite ref=\"C00870\"><he>גַּלְגֵּל</he></cite>.—<he>ב׳ קול</he> "
+					]
+				},
+				{
+					"gloss": "<i>echo, reverberating sound</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 29:9\">Ex. R. s. 29</cite>, end. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:3:2\">Cant. R. to I, 3</cite> as the oil (when poured out) <he>אין לו ב׳ קול</he> gives forth no reverberating sound, so does Israel (suffer silently)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>Bath-Kol, divine voice</i>, a sort of substitute for prophecy. ",
+					"units": [
+						"<cite ref=\"Yoma 9b:16\">Yoma 9ᵇ</cite>; a. fr.—<he>בְּנוֹת שֶׁבַע</he> a species of figs, v. <cite ref=\"B01154\"><he>בְּרַת</he></cite>. ",
+						"<cite ref=\"Mishnah Maasrot 2:8\">Maasr. II, 8</cite>; a. fr.—<he>ב׳ שׁוּחַ</he> a species of white figs. ",
+						"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite>; a. e.—<he>ב׳ שקמה</he> young sycamore-figs. ",
+						"<cite ref=\"Mishnah Demai 1:1\">Ib.</cite>; <cite ref=\"Berakhot 40b:17\">Ber. 40ᵇ</cite>, v. <cite ref=\"D00175\"><he>דּוּבְלָא</he></cite>.—<he>בת תיהא</he> the small bung-hole in the spicket, to be opened for examining the flavor of the wine. ",
+						"<cite ref=\"Avodah Zarah 66b:3\">Ab. Zar. 66ᵇ</cite>.—[For other compounds, v. respective determinants.]—Chald. pl., v. <cite ref=\"B01154\"><he>בְּרַת</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Compounds of ."
+		}
+	]
+}

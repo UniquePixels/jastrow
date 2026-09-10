@@ -1,0 +1,68 @@
+{
+	"id": "J00135",
+	"slug": "יהושוע",
+	"headword": {
+		"text": "יְהוֹשׁוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְהוֹשֻׁעַ"
+		}
+	],
+	"page": {
+		"number": 566,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Joshua</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>J</i>. <i>bin Nun</i>, the successor of Moses. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:1\">Ab. I, 1</cite>. ",
+				"<cite ref=\"Berakhot 4a:18\">Ber. 4ᵃ</cite> bot. ",
+				"<cite ref=\"Bava Kamma 80b:12\">B. Kam. 80ᵇ</cite>, sq. <he>עשרה … התנה י׳ וכ׳</he> J., on conquering the promised land, laid down ten conditions (regulations) &c.; <cite ref=\"Eruvin 17a:17\">Erub. 17ᵃ</cite>; a. v. fr.—",
+				"<cite ref=\"Mishnah Megillah 1:1\">Meg. I, 1</cite>, a. fr. <he>מומות י׳ בן נון</he> <i>dating from the days of the conquest or before</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " the high-priest of the returning Babylonian exiles. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 93a:18\">Snh. 93ᵃ</cite>; a. e.—3) name of several Tannaim; a) J.; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " name of several Tannaim; ",
+			"units": [],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " J. b. Praḥya. ",
+					"units": ["<cite ref=\"Pirkei Avot 1:6\">Ab. I, 6</cite>; a. fr.—"],
+					"label": "a"
+				},
+				{
+					"gloss": " R. J. b. Ḥǎnania, mostly quoted as R. J. only. ",
+					"units": [
+						"<cite ref=\"Mishnah Maaser Sheni 5:9\">Maas. Sh. V, 9</cite>. ",
+						"<cite ref=\"Mishnah Eruvin 4:1\">Erub. IV, 1</cite>; <cite ref=\"Mishnah Eruvin 4:2\">2</cite>. ",
+						"<cite ref=\"Chagigah 5b:5\">Ḥag. 5ᵇ</cite>; a. v. fr.; and others (v. Fr. Darkhé pp. 97; 134; 178; 189)."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": " name of several Amoraim, esp. R. J. b. Levi. ",
+			"units": [
+				"<cite ref=\"Berakhot 3b:17\">Ber. 3ᵇ</cite>; a. v. fr.—R. J. of Sikhnin. Y. ib. IV, 7ᵇ bot.; a. fr.; and others (v. Fr. M’bo p. 91ᵃ, sq.).—(<he>ספר</he>) <he>י׳</he> <i>the Book of Joshua</i>. ",
+				"<cite ref=\"Bava Batra 14b:12\">B. Bath. 14ᵇ</cite>; a. e."
+			],
+			"label": "4"
+		}
+	]
+}

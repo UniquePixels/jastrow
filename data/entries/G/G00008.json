@@ -1,0 +1,35 @@
+{
+	"id": "G00008",
+	"slug": "זב",
+	"headword": {
+		"text": "זָב"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָבָה"
+		}
+	],
+	"page": {
+		"number": 377,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>זוב</he>)<i>faint</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:3\">Y. Kidd. I, 61ᵃ</cite> (expl. <cite ref=\"G00008\"><he>זב</he></cite>, <cite ref=\"II Samuel 3:29\">II Sam. III, 29</cite>) <cite ref=\"V01089\"><he>תָּשִׁישׁ</he></cite> q. v."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>one afflicted with gonorrhœa</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zavim 1:5\">Zab. I, 5</cite> <he>זב גמור</he> a real <i>zabh</i> (subject to all the laws in <cite ref=\"Leviticus 15:1-15\">Lev. XV, 1—15</cite>; <cite ref=\"Leviticus 15:19-24\">19—24</cite>). Ib. V, 6; a. v. fr.—Pl. <he>זָבִים</he>, <he>זָבִין</he>; f. <cite ref=\"G00270\"><he>זָבוֹת</he></cite>. Sifra Metsora, Zabim, Par. 1 <he>מטמאים כז׳</he> (not <he>בז׳</he>) they make unclean like Israelitish <i>zabim;</i> <cite ref=\"Niddah 34a:23\">Nidd. 34ᵃ</cite> <he>שיהו כז׳ וכ׳</he>; a. v. fr. [<cite ref=\"Shabbat 110b\">Sabb. 110ᵇ</cite> <he>מזביך</he>, v. <cite ref=\"G00115\"><he>זוֹב</he></cite>.]—<i>Zabim</i>, name of a treatise of the Mishnah a. Tosefta, and of a section of the Sifra to Metsora."
+			],
+			"label": "2"
+		}
+	]
+}

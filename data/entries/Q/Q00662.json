@@ -1,0 +1,28 @@
+{
+	"id": "Q00662",
+	"slug": "פיל-3",
+	"headword": {
+		"text": "פִּיל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1163,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פלא</he>, cmp. <cite ref=\"N01041\"><he>נָפִיל</he></cite>) <i>elephant</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 8:6\">Kil. VIII, 6</cite>. ",
+				"<cite ref=\"Menachot 69a:14\">Men. 69ᵃ</cite>; <cite ref=\"Bava Batra 22a:7\">B. Bath. 22ᵃ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 6:3\">Lev. R. s. 6</cite>; a. e.—Pl. <he>פִּילִים</he>, <cite ref=\"Q00701\"><he>פִּילִין</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite>, end., v. <cite ref=\"G00511\"><he>זְמוֹרָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 18:2:2\">Y. Sabb. XVIII, 16ᶜ</cite>; <cite ref=\"Tosefta Shabbat 14:8\">Tosef. Sabb. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:8\">XV</cite>), 8; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite>, end <he>בן הפילים</he> some ed., v. <cite ref=\"N01041\"><he>נָפִיל</he></cite>."
+			]
+		}
+	]
+}

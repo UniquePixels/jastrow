@@ -1,0 +1,34 @@
+{
+	"id": "H01383",
+	"slug": "חסין-2",
+	"headword": {
+		"text": "חָסִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲסִינָא"
+		},
+		{
+			"text": "חֲסִינְתָּא"
+		}
+	],
+	"page": {
+		"number": 487,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חֲסַן</he> I) <i>strong; hard</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:31\">Targ. Ez. XXIII, 31</cite> (<cite ref=\"Targum Jonathan on Ezekiel 23:32\">32</cite>). ",
+				"<cite ref=\"Targum Jonathan on Amos 2:9\">Targ. Am. II, 9</cite>; a. e.—Pl. <he>חֲסִינִין</he>, <he>חֲסִינַיָּא</he>; f. <cite ref=\"H01383\"><he>חֲסִינָן</he></cite>, <cite ref=\"H01383\"><he>חֲסִינָתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:23\">Targ. O. Deut. XXVIII, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:2\">Targ. Is. XXVIII, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:1\">Ib. XXI, 1</cite>; <cite ref=\"Onkelos Deuteronomy 10:21\">Targ. Deut. X, 21</cite> <i>mighty deeds</i>"
+			]
+		}
+	]
+}

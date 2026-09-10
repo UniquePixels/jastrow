@@ -1,0 +1,40 @@
+{
+	"id": "A01272",
+	"slug": "אילה-2",
+	"headword": {
+		"text": "אַיָּלָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַיָּילָה"
+		},
+		{
+			"text": "אַיֶּילֶת"
+		}
+	],
+	"page": {
+		"number": 48,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"A01314\"><he>אַיֶּלֶת</he></cite>; v. <cite ref=\"A01265\"><he>אַיָּל</he></cite>)<i>hind, roe</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 16b:2\">B. Bath. 16ᵇ</cite> top <he>א׳ רחמה צר</he> the hind has a narrow womb (vagina)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " mostly <he>אילת השחר</he> <i>the first rays</i> (climber) <i>of the morning dawn</i>; cmp. ",
+			"units": [
+				"<cite ref=\"Yoma 29a:3\">Yoma 29ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:20\">Y. Ber. I, 2ᶜ</cite>; a. fr.; (cmp. ",
+				"<cite ref=\"Genesis 19:15\">Gen. XIX, 15</cite> <he>השחר עלה</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

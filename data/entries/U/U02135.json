@@ -1,0 +1,81 @@
+{
+	"id": "U02135",
+	"slug": "שתק-2",
+	"headword": {
+		"text": "שְׁתֵק"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁתֵיק"
+		}
+	],
+	"page": {
+		"number": 1640,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch., with prefixed <cite ref=\"A00000\"><he>א</he></cite>: <cite ref=\"U02135\"><he>אִשְׁתּיק</he></cite>, <cite ref=\"A03346\"><he>אִישְׁ׳</he></cite> same, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be silent</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 10:3\">Targ. Lev. X, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 13:5\">Targ. Job XIII, 5</cite> <he>מִשְׁתַּק תִּשְׁתְּקוּן</he> (ed. Lag. <cite ref=\"M02991\"><he>מִשְׁתּוֹק</he></cite>; Ms. <he>מַשְׁתּוֹקי</he> <i>Af.</i>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 7:8\">Targ. I Sam. VII, 8</cite> (ed. Wil. <he>תַּשְׁתִּיק</he> <i>Af.</i>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:17\">Targ. Ez. XXIV, 17</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 37b:1\">B. Mets. 37ᵇ</cite> <he>האי דשְׁתִיקִי וכ׳</he> the reason why I was silent at the claim of both &c. ",
+				"<cite ref=\"Ketubot 14b:9\">Keth. 14ᵇ</cite> <he>דקרו ליה ממזר וש׳</he> they called him a bastard, and he kept his peace; <he>והאי דש׳ וכ׳</he> and the reason why he was silent &c. ",
+				"<cite ref=\"Shevuot 40a\">Shebu. 40ᵃ</cite>, a. e. <he>מישהא … וש׳</he>, v. <cite ref=\"U00300\"><he>שְׁהֵי</he></cite>. ",
+				"<cite ref=\"Shevuot 40a:12\">Ib.</cite> <he>איכא דאמרי מישתא … וש׳</he> some say, he was just taking a drink, and kept silence (and in the meanwhile the reporter left). ",
+				"<cite ref=\"Nedarim 77a\">Ned. 77ᵃ</cite> <he>א״ל אי׳</he> he said to him, he (Rab, did not say so, but) was silent (seemed to assent); <he>אי׳ קאמרת או שתי קאמרת</he> dost thou say, he kept silence, or dost thou say, he was taking a drink (and he may have decided differently after thou wast gone)?; [differ. vers., v. infra]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to silence, quiet</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 13:30\">Targ. Y. Num. XIII, 30</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 131:2\">Targ. Ps. CXXXI, 2</cite> (Bxt. <he>שַׁתֵּיק׳</he> <i>Pa.</i>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁתֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be silent</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " intercb. with <i>Pa.</i> <he>שַׁתֵּיק</he> <i>to silence, quiet</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 11:3\">Targ. Job XI, 3</cite> (Ms. <i>Pa.</i>). ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 1:24\">Targ. Ez. I, 24</cite> <he>מְשַׁתְּקָן</he> (not <he>מְשַׁתְ׳</he>; some ed. <i>Af.</i>).—",
+						"<cite ref=\"Ketubot 104b:7\">Keth. 104ᵇ</cite> <he>אַשְׁתִּיקָן קאמרת או אַשְׁקְיָאן קאמרת</he> (some ed. <cite ref=\"A03346\"><he>אִישְׁ׳</he></cite>) (in asking me, ‘did Rab say so’?) didst thou mean to say, ‘I will silence them’ (show them my disapproval), or didst thou mean to say, ‘I will give them to drink’ (show my approval)?; Ned. l. c. (Vers. in Asheri and Tosaf.). ",
+						"<cite ref=\"Berakhot 33b:28\">Ber. 33ᵇ</cite> <he>מגונה … שַׁתּוּקֵי לא מְשַׁתְּקִינָן ליה</he> he is blameworthy, but we do not stop him (in his prayer); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתַּתֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to become mute, still</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 31:18\">Targ. Ps. XXXI, 18</cite> Ms. (ed. <i>Pe.</i>). ",
+						"<cite ref=\"Targum Jonathan on Exodus 15:16\">Targ. Y. I Ex. XV, 16</cite>.—Y. Taan. IV, 68ᵈ bot. <he>ואינון בכיי ומִשְׁתַּתְּקִין וקיימין</he> and they (the old men among his hearers) wept, and they were quieted (by Rabbi), and they (the assembly) rose."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

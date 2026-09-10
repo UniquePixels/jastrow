@@ -1,0 +1,43 @@
+{
+	"id": "R00692",
+	"slug": "צפי-2",
+	"headword": {
+		"text": "צְפֵי"
+	},
+	"page": {
+		"number": 1297,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>צַפֵּי</he> <cite ref=\"R00691\">same</cite>, <i>to look out, wait</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite> <he>והוה מצַפֵּי ליה וכ׳</he> and he looked out for him from the top of the roof."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִצְטְפֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to look out, to face</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Numbers 21:20\">Targ. Y. II, Num. XXI, 20</cite>, v. <cite ref=\"R00216\"><he>צוּף</he></cite> ch."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

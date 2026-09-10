@@ -1,0 +1,34 @@
+{
+	"id": "M00002",
+	"slug": "מ-2",
+	"headword": {
+		"text": "מִ־"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִי־"
+		}
+	],
+	"page": {
+		"number": 721,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (followed by Dagesh forte), <he>מֵ־</he>, <cite ref=\"M01072\"><he>מֵי־</he></cite> (before gutturals) prefix for <cite ref=\"M01692\"><he>מִן</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>from, of</i>, e. g. <he>מִמָּקוֹם</he> <i>from a place;</i> <he>מֵאֵמָתַי</he> <i>from what time</i> &c.—<he>מֵאֵל־</he>, v. <cite ref=\"A01767\"><he>אֶל</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"M00230\"><he>מִדּ־</he></cite>) <i>from the time that, when; from the fact that, since;</i> also separated <cite ref=\"M01072\"><he>מִי</he></cite>, e. g. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:7\">Sot. IX, 7</cite> <he>משנתערפה העגלה</he> after the heifer has been killed; <cite ref=\"Bamidbar Rabbah 2:18\">Num. R. s. 2</cite> <he>מִי שהוא אומר</he> (= <cite ref=\"M02794\"><he>מִשֶּׁ־</he></cite>) after having said; <cite ref=\"Jerusalem Talmud Shekalim 5:4:7\">Y. Shek. V, end, 49ᵇ</cite> <he>מיחזר</he> when I come back; <cite ref=\"Jerusalem Talmud Peah 8:8:5\">Y. Peah VIII, 21ᵇ</cite> top <he>מי חזרון מי חזרון וכ׳</he> when we come back,—when they came back &c.; <cite ref=\"Jerusalem Talmud Berakhot 2:8:10\">Y. Ber. II, 5ᶜ</cite> bot. <he>מִסַּבְרִית</he> ed. Lehm. (ed. <he>מי סברית</he>) because I thought; <cite ref=\"Jerusalem Talmud Taanit 4:5:15\">Y. Taan. IV, 69ᵃ</cite> <he>מנפקין</he> (<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>מן דנפקין</he>) when they came forth; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

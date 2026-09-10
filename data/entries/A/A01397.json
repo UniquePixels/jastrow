@@ -1,0 +1,28 @@
+{
+	"id": "A01397",
+	"slug": "איס-2",
+	"headword": {
+		"text": "אִיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אס",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 53,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (υἱός) <i>son</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15\">Ex. R. s. 15</cite>, v. <cite ref=\"A01289\"><he>אִילִיאוֹס</he></cite>."
+			]
+		}
+	]
+}

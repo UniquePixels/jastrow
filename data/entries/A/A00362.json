@@ -1,0 +1,23 @@
+{
+	"id": "A00362",
+	"slug": "אגרפוס",
+	"headword": {
+		"text": "אַגְרָפוֹס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 15,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἄγραφος) <i>unwritten</i>. Y. R. Hash. I, 57ᵃ bot. <he>פרא בסיליאוס נומס א׳</he>, cmp. Ar. h. v., a. s. v. <cite ref=\"B00985\"><he>בסיליאוס</he></cite> (ed. <he>או נומוס או גריפיס</he>) παρὰ βασιλέως ὁ νόμος ἄγραφος, for the king the law is unwritten (i.e. the king may disregard his own law). ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 35\">Lev. R. s. 35</cite>, beg. quot. in Ar. (missing in ed.)."
+			]
+		}
+	]
+}

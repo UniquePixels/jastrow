@@ -1,0 +1,35 @@
+{
+	"id": "D00964",
+	"slug": "דפן-1",
+	"headword": {
+		"text": "דָּפַן"
+	},
+	"page": {
+		"number": 317,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"D00952\"><he>דַּף</he></cite>) <i>to hammer, force into a groove</i> &c.—Part. pass. <he>דָּפוּן</he>, f. <he>דְּפוּנָה</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:3\">Kel. II, 3</cite> <he>חבית ד׳ וכ׳</he> an attachment in the shape of a jar fitted into the projecting rims of a vessel (to serve as a handle)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דִּפֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to force, enforce the law against</i>. Sifra Emor ch. I <he>מנין אם לא רצה דַּפְּנוֹ</he> whence do we prove the rule, ‘If he refuses (to dismiss her), force him’; <cite ref=\"Yevamot 88b:5\">Yeb. 88ᵇ</cite> <he>מנין שאם וכ׳</he> (read <he>אם</he>). ",
+					"units": [
+						"<cite ref=\"Yevamot 88b:6\">Ib.</cite> <he>צריכא למימר דפנו</he> (not <he>דד׳</he>, v. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 629\">Yalk. Lev. 629</cite>). ",
+						"<cite ref=\"Yalkut Shimoni on Torah 629\">Ib.</cite> <he>דפנו בעדים</he> proceed against him by procuring counter-evidence."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

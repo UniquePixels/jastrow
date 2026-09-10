@@ -1,0 +1,49 @@
+{
+	"id": "R00687",
+	"slug": "צפורן",
+	"headword": {
+		"text": "צִפּוֹרֶן"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיפּ׳"
+		}
+	],
+	"page": {
+		"number": 1296,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>nail</i> (of finger or toe), <i>talon</i> (of a bird). ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 9:2\">Mikv. IX, 2</cite>; <cite ref=\"Mishnah Mikvaot 9:4\">4</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>, end <he>חלקים היו כצ׳</he> they were as smooth as a nail, <cite ref=\"Yalkut Shimoni on Torah 34\">Yalk. ib. 34</cite>. Koh. R. to VI, 7 <he>כצ׳ מתוך הושט</he> (the departure of the soul from the body is) like getting a nail out of the gullet, v. <cite ref=\"R00414\"><he>צִיפּוֹרֵי</he> I</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> <he>צִיפָּרְנָן של אבות ולא וכ׳</he> rather a nail of the fathers than the belly of the sons, i.e. the older generations were better than the latter; <cite ref=\"Yoma 9b:13\">Yoma 9ᵇ</cite> <he>טובה צִפּוֹרְנָן וכ׳</he>.—<i>Du.</i> <he>צִפּוֹרְנַיִים</he>, <he>צִפּוֹרְניִם</he>, <he>צִפָּרְ׳</he>, <cite ref=\"R00030\"><he>צִי׳</he></cite>. ",
+				"<cite ref=\"Tosefta Moed Kattan 2:2\">Tosef. M. Kat. II, 2</cite> <he>ליטול צ׳</he> to cut the nails; <cite ref=\"Moed Katan 17b\">M. Kat. 17ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 2:5:5\">Y. Hor. II, 46ᵈ</cite> <he>בצִיפָּרְנֵי ידיו</he> through his finger nails; <cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> <he>דרך צִפּוֹרְנָיו</he>. Sifra Sh’mini, ch. IV, Par. 3 <he>צפורניים</he> the talons; <cite ref=\"Yalkut Shimoni on Torah 537\">Yalk. Lev. 537</cite>; <cite ref=\"Mishnah Tahorot 1:2\">Toh. I, 2</cite>; <cite ref=\"Chullin 121a\">Ḥull. 121ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a digging tool, spade, mattock</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 14:1\">Tosef. Sabb. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:1\">XV</cite>), 1 <he>צ׳ גדולה</he> a large spade; Y. ib. XVII, beg. 16ᵃ <he>הציפרין</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 8:1:6\">Y. Shek. VIII, beg. 51ᵃ</cite> <he>אבא שאול היה קורא אותו צ׳ וכ׳</he> (not <he>אותן</he>) Abba Saul called it (the <cite ref=\"M02677\"><he>מְרִיצָה</he></cite>) <i>tsipporen</i>, because it resembles a nail. ",
+				"<cite ref=\"Shemot Rabbah 37\">Ex. R. s. 37</cite>, v. <cite ref=\"H01910\"><he>חָתַר</he></cite>; <cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> Ar. (ed. <he>הסייף</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"I00210\"><he>טוּפְרָא</he></cite>) <i>onycha</i> (<i>unguis odoratus</i>), a spice. ",
+			"units": [
+				"<cite ref=\"Keritot 6a\">Ker. 6ᵃ</cite>; <cite ref=\"Jerusalem Talmud Yoma 4:5:3\">Y. Yoma IV, 41ᵈ</cite>; a. e.; v. <cite ref=\"U00671\"><he>שְׁחֵלֶת</he></cite>.—[<cite ref=\"Shemot Rabbah 3\">Ex. R. s. 3</cite>, a. e. <cite ref=\"R00418\"><he>ציפורן</he></cite>, v. <cite ref=\"R00413\"><he>צִיפּוֹרִין</he> II</cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

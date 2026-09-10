@@ -1,0 +1,79 @@
+{
+	"id": "T00202",
+	"slug": "רגל-1",
+	"headword": {
+		"text": "רָגַל"
+	},
+	"page": {
+		"number": 1448,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to move on, run</i>.—[Part. pass., v. <cite ref=\"T00164\"><he>רָגוּל</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְגַּל"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"T00191\"><he>רָגִיל</he></cite>) <i>to be wont to</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 16b:53\">Nidd. 16ᵇ</cite> <he>שרֹ הנִרְגָּל וכ׳</he> a magistrate (a scholar) who is an habitual visitor of drinking houses; v. <cite ref=\"T00173\"><he>רָגַז</he></cite> a. <cite ref=\"T00215\"><he>רָגַן</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִרְגִּיל"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"T00204\"><he>רֶגֶל</he></cite>) <i>to flay an animal from its feet upward</i> (in order to use the skin as a bag, v. <cite ref=\"H01236\"><he>חֵמֶת</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 9:3\">Ḥull. IX, 3</cite> <he>המַרְגִּיל וכ׳</he> if one flays from the feet upward, the entire skin is considered as connected (with the flesh, as long as the process lasts) for purposes of levitical cleanness. ",
+						"<cite ref=\"Tosefta Beitsah 2:11\">Tosef. Bets. II, 11</cite> <he>אין מַרְגִּילִין וכ׳</he> we must not flay from the feet on a Holy Day, nor on a week day when the animal is a firstborn &c.; <cite ref=\"Bekhorot 33a\">Bekh. 33ᵃ</cite>; <cite ref=\"Temurah 24a:2\">Tem. 24ᵃ</cite>"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make familiar, to accustom</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 13a:2\">Sabb. 13ᵃ</cite> <he>שמא יַרְגִּילֶנּוּ אצלו</he> lest he make him accustomed to associate with him. ",
+						"<cite ref=\"Shabbat 13a:3\">Ib.</cite> <he>וכי מַרְגִּילוֹ וכ׳</he> and if he does accustom him, what of it? <cite ref=\"Pirkei Avot 3:13\">Ab. III, 13</cite> <he>שחוק … מַרְגִּילִין וכ׳</he>, v. <cite ref=\"S01300\"><he>קַלּוּת</he></cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to lead; to persuade</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 60b:3\">Ber. 60ᵇ</cite> <he>ותַרְגִּילֵנִי לידי מצוה ואל תרגילני וכ׳</he> and lead me into the power (to the opportunity) of good deeds, and lead me not into the power of sin. ",
+						"<cite ref=\"Berakhot 60b:6\">Ib.</cite> <he>שתרגילני בתורתך</he> that thou mayest lead me by thy Law.—",
+						"<cite ref=\"Yevamot 85b\">Yeb. 85ᵇ</cite> <he>זהו מַרְגִּילוֹ וזוהי מַרְגִּילָתוֹ</he> in the one case he leads (persuades) her to marry him, in the other case she persuades him; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to bring about; cause</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 22a\">Ber. 22ᵃ</cite>, sq. <he>המרגיל</he> (sub. <cite ref=\"S02017\"><he>קרי</he></cite>) who causes an effusion of semen, opp. <he>לאונסו</he>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְרַגֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to accustom one’s self, get used to</i>. Y. Sabb. I, 3ᶜ top <he>שהוא מִתְרַגֵּל עמו וכ׳</he> when he gets used to associate with him when he is unclean himself, he is likely to associate with him when he is clean. Y. Ned. XI, end, 42ᵈ <he>יעשו סעודה והן מִתְרַגְּלִין לַבָּא וכ׳</he> (some ed. <he>לבוא</he>) let a banquet be arranged, and they (the disaffected couple) will get used in future to associate with each other through the influence of the banquet.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

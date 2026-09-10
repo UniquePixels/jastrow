@@ -1,0 +1,25 @@
+{
+	"id": "G00262",
+	"slug": "זיבה-1",
+	"headword": {
+		"text": "זִיבָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 390,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זיּב</he>) <i>gonorrhœa, protracted menstruation, legal condition of one suffering from</i> &c., v. <cite ref=\"G00008\"><he>זָב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zavim 2:2\">Zab. II, 2</cite>; <cite ref=\"Mishnah Nazir 9:4\">Naz. IX, 4</cite> <he>משנזקק לז׳</he> as soon as he is declared a <i>zab</i>. Y. Maas. Sh. II, end, 53ᵈ; a. fr.—",
+				"<cite ref=\"Menachot 64b:10\">Men. 64ᵇ</cite> <he>לזִיבָתִי</he> I offer a sacrifice for my recovery from the condition of a <i>zabah</i> (v. <cite ref=\"G00015\"><he>זָבָה</he></cite>), or from a severe hemorrhage, v. <cite ref=\"G00115\"><he>זוֹב</he></cite>; <cite ref=\"Jerusalem Talmud Shekalim 5:1:10\">Y. Shek. V, 48ᵈ</cite>, v. next w.—Pl. <cite ref=\"G00270\"><he>זִיבוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Keritot 1:7\">Ker. I, 7</cite>; a. fr."
+			]
+		}
+	]
+}

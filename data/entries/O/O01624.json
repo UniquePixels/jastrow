@@ -1,0 +1,52 @@
+{
+	"id": "O01624",
+	"slug": "סריק-2",
+	"headword": {
+		"text": "סָרֵיק",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סְרִיק"
+		},
+		{
+			"text": "סְרִיקָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1027,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. ch. <cite ref=\"O01623\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>empty; hungry</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 37:24\">Targ. Y. Gen. XXXVII, 24</cite> (h. text <cite ref=\"T01006\"><he>רֵק</he></cite>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 107:9\">Targ. Ps. CVII, 9</cite> (h. text <he>שוקקה</he> <i>longing</i>).—",
+				"<cite ref=\"Yevamot 87a\">Yeb. 87ᵃ</cite> sq. <he>גופא ס׳</he> an empty body, opp. <he>מליא</he> pregnant.—Pl. <cite ref=\"O01632\"><he>סְרִיקִין</he></cite>, <he>סְרִיקַיָּא</he>, <he>סְרִיקֵי</he>; f. <cite ref=\"O01627\"><he>סְרִיקַן</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 37b:11\">Ab. Zar. 37ᵇ</cite> <he>בוקי ס׳</he>, v. <cite ref=\"B00321\"><he>בּוּקָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>vain</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:113\">Targ. Ps. CXIX, 113</cite> <he>דחשבין מחשבן סריקן</he> (ed. Wil. <cite ref=\"O01632\"><he>סריקין</he></cite>; h. text <he>סעפים</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>idler, reckless person, robber</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 9:4\">Targ. Jud. IX, 4</cite>; <cite ref=\"Targum Jonathan on Judges 11:3\">XI, 3</cite> (h. text <he>ריקים</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 25:3\">Targ. Ps. XXV, 3</cite> <he>בזוזין וס׳</he> (h. text <he>בגדים רֵיקָם</he>!); a. e.—[<cite ref=\"O01626\"><he>סריקא</he></cite>, <cite ref=\"O01632\"><he>סריקין</he></cite>, part. pass. of <cite ref=\"O01663\"><he>סְרַק</he></cite> q. v.]"
+			],
+			"label": "3"
+		}
+	]
+}

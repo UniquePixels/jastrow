@@ -1,0 +1,22 @@
+{
+	"id": "Q01424",
+	"slug": "פצחא",
+	"headword": {
+		"text": "פַּצְחָא"
+	},
+	"page": {
+		"number": 1204,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01423\">preced.</cite>) <i>open, unwalled place</i>.—Pl. <he>פַּצְחִין</he>, <he>פַּצְחַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 25:31\">Targ. O. Lev. XXV, 31</cite> (some ed. <cite ref=\"Q00794\"><he>פִּצְ׳</he></cite>). [<cite ref=\"Aramaic Targum to Psalms 89:41\">Targ. Ps. LXXXIX, 41</cite> Ms., v. <cite ref=\"Q01428\"><he>פְּצִיחַ</he></cite>.]"
+			]
+		}
+	]
+}

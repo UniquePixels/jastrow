@@ -1,0 +1,34 @@
+{
+	"id": "U01881",
+	"slug": "שקף-2",
+	"headword": {
+		"text": "שָׁקַף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1625,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <cite ref=\"N01233\"><he>נ־קף</he></cite>, cmp. <cite ref=\"O01494\"><he>סְקַף</he> II</cite>) <i>to bring in close contact, to knock</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 55a:9\">Ned. 55ᵃ</cite> (ref. to <cite ref=\"Numbers 21:19\">Num. XXI, 19</cite>) <he>כיון שנחלו אל … ולא עוד אלא ששׁוֹקְפִין אותו בקרקע</he> Ar. (ed. <he>ששוקעין</he>, corr. acc., v. Rashi a. l.) when God gives a man possession (of the Law), he rises to greatness; but if he raises himself, the Lord will lower him, and moreover, they will knock him down in the ground (play on <he>ונשקפה</he> Num. l. c. 20)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁקִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to shut fast</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 11:11\">Deut. R. s. 11</cite> <he>הַשְׁקֵף עיניך זה על גב זה וה׳ וכ׳</he> shut thy eyes, one (eyelid) upon the other. and he did &c.; (Yalk. ib. 940 <he>הַשְׁכֵּב … והִשְׁכִּיב</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

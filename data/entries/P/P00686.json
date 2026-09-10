@@ -1,0 +1,22 @@
+{
+	"id": "P00686",
+	"slug": "עירוקא",
+	"headword": {
+		"text": "עֵירוּקָא"
+	},
+	"page": {
+		"number": 1076,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01442\"><he>עֲרַק</he></cite>) <i>flight</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 37a:5\">Yeb. 37ᵃ</cite> <he>עֵירוּקֵיה מסתייה</he> his flight is enough for him (proving that he will not marry his betrothed before the due time after her first husband’s death)."
+			]
+		}
+	]
+}

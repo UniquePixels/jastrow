@@ -1,0 +1,28 @@
+{
+	"id": "P00560",
+	"slug": "עיכוב",
+	"headword": {
+		"text": "עִיכּוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִכּ׳"
+		}
+	],
+	"page": {
+		"number": 1069,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00712\"><he>עָכַב</he></cite>) <i>keeping back, hinderance, prevention</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 32a:30\">Tem. 32ᵃ</cite> sq. <he>אין בה אלא ע׳ גיזברין בלבד</he> there is nothing to prevent the offering of the sacrifice, except that we must await the appearance of the Temple treasurers (as representatives of the owners).—Esp. <i>hinderance, a circumstance which makes a religious act invalid, indispensable condition, absolute necessity</i>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:2:3\">Y. Pes. VII, 34ᵇ</cite> top (ref. to <he>כי אם צלי אש</he>, <cite ref=\"Exodus 12:9\">Ex. XII, 9</cite>) <he>שינה עליו הכתוב לע׳</he> the text has an extraordinary (emphatic) expression about it to intimate that the roasting of the Passover sacrifice over fire is indispensable. Ib. II, 29ᵇ bot. <he>לע׳ תאמרת</he> the rule that the unleavened bread to be eaten on the Passover night must not contain any fruit juice has been laid down as an indispensable condition, opp. <he>למצוה</he>, v. <cite ref=\"M02284\"><he>מִצְוָה</he></cite>; a. e."
+			]
+		}
+	]
+}

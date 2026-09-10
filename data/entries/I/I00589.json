@@ -1,0 +1,29 @@
+{
+	"id": "I00589",
+	"slug": "טסברא",
+	"headword": {
+		"text": "טִסְבְּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 541,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ispe. noun of <cite ref=\"O00086\"><he>סְבַר</he> II</cite>, cmp. <cite ref=\"I00690\"><he>טַצְדְּקָא</he></cite>) <i>treasure, store, store-house</i>.—Pl. <he>טִסְבְּרִין</he>, <cite ref=\"I00589\"><he>טִיסְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:8\">Targ. Koh. II, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 8:1\">Targ. Esth. VIII, 1</cite>.—",
+				"<cite ref=\"Aramaic Targum to Psalms 68:14\">Targ. Ps. LXVIII, 14</cite> (h. text <cite ref=\"A00219\"><he>אברות־</he></cite>!).—V. <cite ref=\"V00758\"><he>תִּסְבְּרָא</he></cite>."
+			]
+		}
+	]
+}

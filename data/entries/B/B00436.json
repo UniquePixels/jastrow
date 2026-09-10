@@ -1,0 +1,52 @@
+{
+	"id": "B00436",
+	"slug": "בזי-3",
+	"headword": {
+		"text": "בְּזֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּזָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 153,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"B00459\"><he>בְּזַע</he></cite> q. v.) <i>to break, divide</i>. Part. pass. ",
+			"units": [
+				"<cite ref=\"Pesachim 110a:14\">Pes. 110ᵃ</cite> <he>דיקולא בָזְיָיא</he> ed. (Ms. M. 2 <he>דיקולי בזיין</he> pl., v. Rashi a. l. a. Rabb. D. S. a. l. note) a broken basket.—*<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>דהוה בזא וכ׳</he> for he breaks into (compels to interrupt) the lessons of the day (as a ref. to <cite ref=\"S00693\"><he>קטב</he></cite>, v. <cite ref=\"B00430\"><he>בְּזַז</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּוֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to divide, change off</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 37a\">B. Bath. 37ᵃ</cite> <he>דבוִּי בַּזּוּיֵי</he> Ms. M. (ed. <he>דבאזי באזוזי</he>, read with Rashi <he>דבזְּאֵי בזויי</he> or <he>בּזּוּאֵי</he>; v. Rabb. D. S. a. l. note) he divided the usufruct of each year betw. the trees of each division of the orchard (so as to have actually been in undisturbed possession of the entire orchard for three consecutive years."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבְּזֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be divided, cut apart</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 10:1\">Targ. Job X, 1</cite> <he>אתבזיית</he> Ms. Var. (ed. Vien. <he>אתגזרת</he>, Ms. <he>אתכזרית</he>; h. text <he>נקטה</he>)."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "P00433",
+	"slug": "עזת",
+	"headword": {
+		"text": "עַזָּת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1062,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (?) <i>ʿAzzath</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 19a\">Snh. 19ᵃ</cite> Yoḥăsin (ed. <cite ref=\"P00375\"><he>עות</he></cite>; Ms. M. <cite ref=\"A01314\"><he>אילת</he></cite>; Ms. F. <cite ref=\"P00396\"><he>עזה</he></cite>; Ms. K. <he>עזא</he>; v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

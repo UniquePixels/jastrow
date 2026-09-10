@@ -1,0 +1,39 @@
+{
+	"id": "A02266",
+	"slug": "אנפא",
+	"headword": {
+		"text": "אַנְפָּא"
+	},
+	"page": {
+		"number": 86,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (more freq. <cite ref=\"A02598\"><he>אַפָּא</he></cite> q. v.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>face, front;</i> freq. in pl. <he>אַנְפֵּי</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 84:10\">Targ. Ps. LXXXIV, 10</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " with prep. <cite ref=\"B00000\"><he>ב</he></cite>, <i>in sight of, before</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86a:6\">B. Mets. 86ᵃ</cite> <he>לבבא באנפיה …</he> he locked the door before him.—Pl. <he>בְּאַנְפֵּי</he> (Targ. also <he>על א׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 23:10\">Targ. Y. Gen. XXIII, 10</cite>; a. e.—",
+				"<cite ref=\"Chullin 121a:8\">Ḥull. 121ᵃ</cite> <he>בא׳ נפשיח</he> (= h. <he>בפני עצמו</he>) <i>for itself, singly</i>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:6\">Targ. Y. Deut. I, 6</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 22b:12\">B. Mets. 22ᵇ</cite>.—",
+				"<cite ref=\"Ketubot 7b:6\">Keth. 7ᵇ</cite> <he>באנפייהו</he> in their presence; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A00013",
+	"slug": "אב-2",
+	"headword": {
+		"text": "אָב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Assyr. A-bu, Schr. K. A. T., p. 247) <i>Ab,</i> the fifth month of the Jewish calendar (of thirty days) beginning between the eighth of July and the seventh of August, and ending between the sixth of August and the fifth of September. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 1:3\">R. Hash. I, 3</cite>, <he>על אב וכ׳</he> for announcing the beginning of Ab messengers are sent out, for the sake of the fast. ",
+				"<cite ref=\"Rosh Hashanah 18b\">Ib. 18ᵇ</cite> <he>ט׳ באב</he> the ninth of Ab, anniversary of Temple destruction. ",
+				"<cite ref=\"Mishnah Taanit 4:6\">Taan. IV, 6</cite> <he>משנכנס אב</he> with the beginning of Ab. Ib. 29ᵇ <he>לישתמיט מיניה באב</he> let him try to be relieved of (the law-suit) in Ab. ",
+				"<cite ref=\"Megillah 5b:2\">Meg. 5ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

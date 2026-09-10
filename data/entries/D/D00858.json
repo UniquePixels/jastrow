@@ -1,0 +1,24 @@
+{
+	"id": "D00858",
+	"slug": "דלק-3",
+	"headword": {
+		"text": "דֶּלֶק"
+	},
+	"page": {
+		"number": 311,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00857\">preced.</cite>) <i>light, burning material, wick, wood</i> &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:9\">Y. Sabb. II, beg., 4ᶜ</cite> <he>לא הוצת האור ברוב הד׳</he> the larger portion of the burning material was not enkindled (on the entrance of the Sabbath). ",
+				"<cite ref=\"Mishnah Middot 1:4\">Midd. I, 4</cite> <he>שער הד׳</he> the Temple gate by which the burning material was brought in. ",
+				"<cite ref=\"Kohelet Rabbah 5:2:1\">Koh. R. to V, 2</cite>, v. <cite ref=\"D00856\"><he>דָּלַק</he></cite>."
+			]
+		}
+	]
+}

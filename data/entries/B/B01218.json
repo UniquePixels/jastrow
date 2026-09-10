@@ -1,0 +1,29 @@
+{
+	"id": "B01218",
+	"slug": "ברזא-2",
+	"headword": {
+		"text": "בִּרְזָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּרְזָא"
+		}
+	],
+	"page": {
+		"number": 191,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בזא</he> II; v. <cite ref=\"A00220\"><he>אֲבִרְזִין</he></cite>) <i>cut</i> (<i>leather</i>), <i>strap; horse-line</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 9b:12\">Ḥag. 9ᵇ</cite> <he>כי ב׳ סומקא וכ׳</he> as a red line for a white horse (Ms. M. <he>כוַרְדָּא</he>). [<cite ref=\"Berakhot 59a:7\">Ber. 59ᵃ</cite> <he>דברזא</he>, read <he>דברדא</he>, v. <cite ref=\"C00544\"><he>גְּזִיזָא</he></cite>.]—Pl. <he>בִּרְזֵי</he>. ",
+				"<cite ref=\"Shabbat 117a:3\">Sabb. 117ᵃ</cite> <he>שקיל ליה בב׳</he> he stripped the hide strap-wise. Cmp. <cite ref=\"B00570\"><he>בִּיזְלֵי</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "C00116",
+	"slug": "גבן-3",
+	"headword": {
+		"text": "גָּבַן"
+	},
+	"page": {
+		"number": 207,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C00115\"><he>גִּבֵּן</he></cite> (v. <cite ref=\"C00094\"><he>גְּבִינָה</he></cite>) <i>to form cheese</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 95a\">Sabb. 95ᵃ</cite>; <cite ref=\"Tosefta Shabbat 9:13\">Tosef. ib. IX</cite> (<cite ref=\"Tosefta Shabbat 10:13\">X</cite>), 13 <he>המגבין</he>, ed. Zuck. (Var. <he>המגבן</he>); Y. ib. VII, 10ᶜ bot. <he>והמְגַבֵּן</he>, v. <cite ref=\"H00102\"><he>חָבֵץ</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

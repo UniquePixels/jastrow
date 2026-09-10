@@ -1,0 +1,24 @@
+{
+	"id": "R00451",
+	"slug": "ציר-5",
+	"headword": {
+		"text": "צִיר",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1280,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00242\"><he>צוּר</he></cite>; cmp. <cite ref=\"H00088\"><he>חֵבֶל</he></cite>)<i>writhing, agony, throes of birth</i>.—Pl. <he>צִירִים</he>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 36:1\">Pesik. R. s. 36</cite> <he>ויאחוז אותם צ׳ כצִירֵי יולדה</he> and pangs like those of a travailing woman shall seize them (v. ",
+				"<cite ref=\"Isaiah 21:3\">Is. XXI, 3</cite>)."
+			]
+		}
+	]
+}

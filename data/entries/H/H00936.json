@@ -1,0 +1,66 @@
+{
+	"id": "H00936",
+	"slug": "חכך-2",
+	"headword": {
+		"text": "חָכַךְ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 462,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (onomatop.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be rough; to rub, scratch</i>. ",
+			"units": [
+				"<cite ref=\"Nazir 59a:7\">Naz. 59ᵃ</cite> <he>מהו לָחוֹךְ</he> how about (removing the hair by) rubbing (Tosaf.: <he>לחוך ולהִתְחַכֵּךְ</he> about rubbing or being rubbed)?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H01660\"><he>חָרַט</he></cite>, a. <cite ref=\"H00730\"><he>חַיָּיךְ</he></cite>) <i>to hesitate</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 1:1\">Ned. I, 1</cite> <he>היה חוֹכֵךְ בזה להחמיר</he> had some hesitation about deciding in favor of greater stringency (for the expression <he>מנודה</he>; oth. opin. in R. N. to Bab. ",
+				"<cite ref=\"Nedarim 7a\">ib. 7ᵃ</cite>: denom. of <cite ref=\"H00907\"><he>חֵךְ</he></cite>, <i>had a taste for</i> &c.)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְחַכִּךְ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַכֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to rub one’s self against a rough object; to be rubbed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 4:6\">B. Kam. IV, 6</cite> <he>שור שהיה מִתְחַכֵּךְ וכ׳</he> an ox that scratched himself against a wall; <cite ref=\"Tosefta Bava Kamma 4:6\">Tosef. ib. IV, 6</cite>. ",
+						"<cite ref=\"Bava Kamma 3a:14\">B. Kam. 3ᵃ</cite> <he>נִתְחַכְּכָה וכ׳</he> she (the animal) scratched herself against a wall for her gratification (without intention to do injury) &c.—",
+						"<cite ref=\"Nazir 59a\">Naz. 59ᵃ</cite>, v. supra; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["חִיכֵּךְ"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"H00314\"><he>חוּךְ</he> II</cite>) <i>to hawk; to deride</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 67:4\">Gen. R. s. 67</cite> (play on <cite ref=\"E00506\"><he>הכי</he></cite>, <cite ref=\"Genesis 27:36\">Gen. XXVII, 36</cite>) <he>התחיל מְחַכֵּךְ בגרונו וכ׳</he> he began to hawk with his throat (to express contempt), like one that hawks and spits; Tanḥ. Ki Thetsé 10; Pesik. Zakh., p. 27ᵇ, v. <cite ref=\"G00511\"><he>זְמוֹרָה</he></cite>; [Ar. ed. Koh. s. v. <he>זמר</he>: <he>חִיכְחֵךְ</he>, <i>Pilp.</i>]—Cmp. <cite ref=\"K00459\"><he>כָּחַח</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

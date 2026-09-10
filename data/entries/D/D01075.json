@@ -1,0 +1,39 @@
+{
+	"id": "D01075",
+	"slug": "דרור",
+	"headword": {
+		"text": "דְּרוֹר"
+	},
+	"page": {
+		"number": 322,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>דרר</he> , v. <cite ref=\"D00341\"><he>דור</he></cite>) [<i>moving about</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>freedom, privilege, amnesty</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 90:5\">Midr. Till. to Ps. XC</cite> <he>ליטול ד׳</he> to ask a privilege. ",
+				"<cite ref=\"Midrash Tehillim 90:5\">Ib.</cite> <he>שתתן לי ד׳</he>, v. <cite ref=\"M02531\"><he>מֶרֶד</he> I</cite>.—Esp. <i>merchant’s license</i>. ",
+				"<cite ref=\"Megillah 12a:15\">Meg. 12ᵃ</cite> (cmp. <cite ref=\"D00342\"><he>דּוּר</he></cite> ch. <i>Pa.</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " צפור ד׳ <i>a free bird</i>, living in the house as well as in the field. ",
+			"units": [
+				"<cite ref=\"Shabbat 106b:5\">Sabb. 106ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Negaim 14:1\">Neg. XIV, 1</cite> <he>שתי ציפרי ד׳</he> (corresp. to <he>חיות</he>, <cite ref=\"Leviticus 14:4\">Lev. XIV, 4</cite>); <cite ref=\"Tosefta Nazir 6:1\">Tosef. Naz. VI, 1</cite> <he>שני ציפרים ד׳</he>; Y. ib. VIII, 57ᵃ bot. ",
+				"<cite ref=\"Tosefta Negaim 8:3\">Tosef. Neg. VIII, 3</cite> <he>שתי ציפרין ד׳ ואלו וכ׳</he> two free birds which means such as are around in the city. ",
+				"<cite ref=\"Mishnah Negaim 14:5\">Neg. XIV, 5</cite> <he>נמצאת שלא ד׳</he> it is discovered that it is not a free bird; <cite ref=\"Tosefta Negaim 8:7\">Tosef. ib. VIII, 7</cite> [read:] <he>ונמצאת שנייה שלא ד׳</he> (v. R. S. to Neg. l. c.).—[<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:21\">Y. Snh. X, 28ᵃ</cite> top <he>כד׳ נאות</he>, read: <he>כדּוּר בנות</he> like the <i>jewel</i> of girls, v. <cite ref=\"D00348\"><he>דּוּרָא</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "R00099",
+	"slug": "צד״י",
+	"headword": {
+		"text": "צד״י"
+	},
+	"page": {
+		"number": 1261,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>Tsadé</i>, name of the eighteenth letter of the alphabet. ",
+			"units": [
+				"<cite ref=\"Shabbat 104a:6\">Sabb. 104ᵃ</cite> (symbolization of letters) <he>צ׳ כפופה צדיק וכ׳ …</he> Tsadé bent, Tsadé straitened, righteous when bent, righteous when straitened (v. <cite ref=\"K01043\"><he>כָּפַף</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:13\">Y. Meg. I, 71ᵈ</cite> <he>צ׳ צ׳</he> the two forms of Ts. ",
+				"<cite ref=\"Shevuot 35b:4\">Shebu. 35ᵇ</cite> <he>צ׳ בי״ת מצבאות</he> if one wrote Tsadé and Beth, intending to write <cite ref=\"R00021\"><he>צבאות</he></cite>; a. e.—Pl. <he>צָדִין</he>. ",
+				"<cite ref=\"Shabbat 103b:13\">Sabb. 103ᵇ</cite>, v. <cite ref=\"C00743\"><he>גימ״ל</he></cite>."
+			]
+		}
+	]
+}

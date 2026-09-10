@@ -1,0 +1,28 @@
+{
+	"id": "M01839",
+	"slug": "מסב-2",
+	"headword": {
+		"text": "מֵסֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵי׳"
+		}
+	],
+	"page": {
+		"number": 803,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"O00030\"><he>סָבַב</he></cite>)<i>dining couch</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 63a:1\">Sabb. 63ᵃ</cite> top <he>במ׳ רחב וכ׳</he> on a wide couch or on a narrow couch (an obscene disguise for a fat or a lean woman, v. <cite ref=\"C00490\"><he>גּוּרְדְּלִי</he></cite>).—",
+				"<cite ref=\"Shir HaShirim Rabbah 1:12:1\">Cant. R. to I, 12</cite> <he>במְסִבּוֹ ברקיע</he> ‘on his couch’ (<cite ref=\"Shir HaShirim Rabbah 1:12:1\">ib.</cite>), in heaven."
+			]
+		}
+	]
+}

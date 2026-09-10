@@ -1,0 +1,33 @@
+{
+	"id": "M00557",
+	"slug": "מועד-2",
+	"headword": {
+		"text": "מוֹעֵד"
+	},
+	"page": {
+		"number": 745,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00476\"><he>יָעַד</he></cite>)<i>appointed time, appointment</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 1:3\">Pes. I, 3</cite> (<cite ref=\"Pesachim 10b:14\">10ᵇ</cite>) <he>בתוך המ׳</he> within the time appointed for the removal of leavened matter (up to the sixth hour of the day); <he>אחר המ׳</he> after the time (until nightfall), Rashi; (oth. interpret., v. infra).—Pl. <he>מוֹעֲדִים</he>. ",
+				"<cite ref=\"Eruvin 54b:25\">Erub. 54ᵇ</cite> <he>עשה מ׳ לתורה</he> have fixed times for the study of the Law, v. <cite ref=\"M00411\"><he>מוֹדִיעַ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>festive season, festival</i>, esp. = <he>חוֹל הַמּ׳</he>, <i>the week-days intervening between the first and the last days of Passover and of Succoth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 1:1\">M. Kat. I, 1</cite>; a. fr.—Pes. l. c. <he>בתוך המ׳</he> during the festive week of Passover; <he>לאחר המ׳</he> after Passover, Tosaf.; (oth. interpret., v. supra).—Pl. <he>מוֹעֲדִים</he>, <he>מוֹעֲדוֹת</he>. ",
+				"<cite ref=\"Mishnah Pesachim 10:6\">Pes. X, 6</cite> <he>מ׳ ורגלים אחרים</he> other seasons and festivals. ",
+				"<cite ref=\"Shabbat 145b:10\">Sabb. 145ᵇ</cite> <he>מ׳ שבבל שמחים</he> the festivals in Babylonia are joyously celebrated; a. fr.—מ׳ קטן <i>Moʿed Katon</i>, (<i>half-festival</i>) name of a treatise of the Mishnah, Tosefta, Talmud Babli and Y’rushalmi, of the Order of Moʿed.—סדר מ׳ <i>the Order of Moʿed</i>, name of the second order of the Mishnah, Tosefta and Talmud Babli and Y’rushalmi."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"id": "I00490",
+	"slug": "טלטל-1",
+	"headword": {
+		"text": "טִלְטֵל"
+	},
+	"page": {
+		"number": 536,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;<i>Pilp.</i> of <cite ref=\"I00509\"><he>טלל</he></cite>, cmp. <he>דלדל</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to move, carry, handle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 3:6\">Sabb. III, 6</cite> <he>מְטַלְטְלִין וכ׳</he> you may handle (on the Sabbath) a new lamp; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make unsteady, to exile;</i> (with <cite ref=\"D00950\"><he>דעת</he></cite>) <i>to confound</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39:2\">Gen. R. s. 39</cite> <he>טַלְטֵל עצמך וכ׳</he> banish thyself (travel) from place to place. ",
+				"<cite ref=\"Bereishit Rabbah 38:1\">Gen. R. s. 38</cite> (expl. <he>הניעמו</he>, <cite ref=\"Psalms 59:12\">Ps. LIX, 12</cite>) <he>טַלְטְלֵימוֹ</he> make them exiles. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:31\">Y. Peah I, 15ᵈ</cite> top (expl. <he>נעו</he>, <cite ref=\"Proverbs 5:6\">Prov. V, 6</cite>) <he>טי׳ הקב״ה מתן וכ׳</he> the Lord made unsteady (irregular) the reward of the observants, that they might observe the commands in faith. ",
+				"<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite> (ed. Amst. p. 238ᵃ) <he>שהן מְטַלְטְלִין דעתו וכ׳</he> they (carnal pleasures) confound man’s judgment (cmp. <cite ref=\"I00859\"><he>טָרַף</he></cite>).—Part. pass. <he>מְטוּלְטָל</he>, f. <cite ref=\"M00983\"><he>מְטוּלְטֶלֶת</he></cite>. Tanḥ. ed. Bub., Sh’mini 7 <he>והדעת מט׳</he> and the mind becomes confused.—"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְטַלְטֵּל", "הִיטַּ׳"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְטַלְטֵל</he>, <cite ref=\"N00571\"><he>נִיטַּ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be moved, handled; to be made restless</i>. Sabb. l. c. <he>כל הנרות מִטַּלְטְלִין</he> all lamps may be handled. Ib. 35ᵃ <he>מעיין הַמִיטַּלְטֵל</he> a travelling spring (changing its place). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 39:2\">Gen. R. s. 39</cite>. Sifra Sh’mini ch. VII, Par. 6 <he>מִטַּלְטְלִין במלואם</he> are carried with their contents; <cite ref=\"Mishnah Kelim 15:1\">Kel. XV, 1</cite> <he>עשויין לִיטַּלְטֵל וכ׳</he>. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 964\">Yalk. Prov. 964</cite>; <cite ref=\"Midrash Mishlei 30:7\">Midr. Prov. to XXX, 27</cite> Alexander the Macedonian <he>שנ׳ בכל וכ׳</he> who in his unrest drove all over the world like a locust &c.; a. fr.—V. <cite ref=\"M01006\"><he>מִטַּלְטְלִין</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <cite ref=\"D00950\"><he>דעת</he></cite>) <i>to be confounded</i>. Tanḥ. Sh’mini 5 <he>נִתְטַלְטְלָה דעתו וכ׳</he> his mind is confused, and he knows not what he is talking &c. Ib. <he>כדי שלא תִטַּלְטֵל דעתו</he> in order that he may not get mixed up; a. e.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "Q01486",
+	"slug": "פקידה",
+	"headword": {
+		"text": "פְּקִידָה"
+	},
+	"page": {
+		"number": 1209,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01485\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>examination</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 1:1\">Nidd. I, 1</cite>; <cite ref=\"Mishnah Eduyot 1:1\">Eduy. I, 1</cite> <he>מפ׳ לפ׳</he> (her uncleanness dates back) from the present examination to the last one. ",
+				"<cite ref=\"Mishnah Eduyot 1:1\">Ib.</cite> <he>הרי זו כפ׳</he> this is as good as an examination; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>divine visitation</i> (for good or for evil), <i>remembrance, decree; use of the verb</i> <cite ref=\"Q01449\"><he>פָּקַד</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 91b:6\">Snh. 91ᵇ</cite> <he>משעת פ׳</he> from the moment when it is decreed (what the embryonic germ should grow to be). ",
+				"<cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> <he>יש פ׳ לברכה</he> there is a visitation (use of <he>פקד</he>) for blessing; <he>יש פ׳ של גאולה וכ׳</he> there is a visitation for redemption &c.; <cite ref=\"Bamidbar Rabbah 4:4\">Num. R. s. 4</cite>, beg. (interch. with <cite ref=\"Q01457\"><he>פְּקוּדָה</he></cite>). ",
+				"<cite ref=\"Rosh Hashanah 11a:17\">R. Hash. 11ᵃ</cite> <he>אתיא פ׳ פ׳</he> there is an analogy between <i>paḳad</i> (<cite ref=\"I Samuel 2:21\">I Sam. II, 21</cite>) and <i>paḳad</i> (<cite ref=\"Genesis 21:1\">Gen. XXI, 1</cite>). ",
+				"<cite ref=\"Shemot Rabbah 5:13\">Ex. R. s. 5</cite> <he>סימן הפ׳</he> the password <i>paḳad</i> (<cite ref=\"Exodus 3:16\">Ex. III, 16</cite>, ref. to <cite ref=\"Genesis 50:24\">Gen. L, 24</cite>); <he>שמעו הפ׳</he> they heard the announcement of remembrance (<cite ref=\"Exodus 4:31\">Ex. IV, 31</cite>); <he>ויקדו על הפ׳</he> they bowed in gratitude for the announcement of remembrance; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

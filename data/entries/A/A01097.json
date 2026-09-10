@@ -1,0 +1,35 @@
+{
+	"id": "A01097",
+	"slug": "אטם",
+	"headword": {
+		"text": "אָטַם"
+	},
+	"page": {
+		"number": 43,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <he>טמם</he>)<i>to obstruct, close, fill up</i>. Part. pass. <he>אָטוּם</he>, f. <he>אֲטוּמָה</he> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>filled up, solid</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 61b:10\">Zeb. 61ᵇ</cite> <he>א׳ באדמה</he> filled up with earth, opp. <cite ref=\"H00997\"><he>חָלוּל</he></cite>. ",
+				"<cite ref=\"Chullin 47b:8\">Ḥull. 47ᵇ</cite> <he>א׳ בריאה</he> v. <cite ref=\"A00622\"><he>אוֹטֶם</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 2:4:2\">Y. B. Bath. II, 13ᶜ</cite> top <he>כותל א׳</he> a solid wall."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"I00178\"><he>טוּמְטוּם</he></cite>) <i>stumped, shapeless</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 24a:30\">Nidd. 24ᵃ</cite> <he>גוף א׳</he> the stump of a human body (of the embryo). ",
+				"<cite ref=\"Niddah 24a:14\">Ib.</cite> <he>אתּ שגולגלתו א׳</he> an embryo whose scull is a shapeless lump (no scull discernible). Y. ib. III, 50ᵈ top.—<i>Trnsf</i>. ",
+				"<cite ref=\"Sanhedrin 44b\">Snh. 44ᵇ</cite> <he>אוֹטֵם עונות</he> he locks up the sins (makes them invisible, cmp. <cite ref=\"I00556\"><he>טָמַן</he></cite>); v. <cite ref=\"A01222\"><he>אִיטְמוֹן</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

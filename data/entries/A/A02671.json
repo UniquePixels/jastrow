@@ -1,0 +1,23 @@
+{
+	"id": "A02671",
+	"slug": "אפידרא",
+	"headword": {
+		"text": "אַפִּידְרָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 102,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00134\"><he>פדר</he></cite>) <i>stable-floor</i>, or <i>cement formed on the stable-floor by moistening and stamping the dung</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 28a\">Nidd. 28ᵃ</cite> he burned the corpse <he>ע״ג פידרא בא׳</he> Ar. (ed. <he>ע״ג אפודרים</he>) over the dung on the cemented stable-floor. [Oth. opin. <i>marble-plate</i>, meaning <i>a hard cemented substance</i>, cmp. <he>כלי גָּלָל</he>.]"
+			]
+		}
+	]
+}

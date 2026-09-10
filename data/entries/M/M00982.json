@@ -1,0 +1,51 @@
+{
+	"id": "M00982",
+	"slug": "מטול-4",
+	"headword": {
+		"text": "מַטּוּל",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "מַטּוּלָא"
+		},
+		{
+			"text": "מָטוּל",
+			"homograph": 3
+		},
+		{
+			"text": "מָטוּלָא"
+		},
+		{
+			"text": "מְטוֹ׳"
+		}
+	],
+	"page": {
+		"number": 766,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00881\"><he>נְמַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>weight, burden</i> (h. . ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 11:11\">Targ. O. Num. XI, 11</cite> (ed. Amst. <he>מָ׳</he>). Targ. ib. IV, 27 (O. ed. Amst. <he>מַטְלְהוֹן</he>, read: <he>מַטֻּלְ׳</he>). [Ib. 24 <he>למִיטַּל</he> ed. Berl., <he>למֵטוֹל</he> ed. Amst.; Y. <he>למָטוֹל</he>, infin. of <cite ref=\"N00572\"><he>נְטַל</he></cite>.]—Targ. Y. I ib. XXV, 8 <he>מן מְטוֹלָא</he> through the weight (of the two bodies); a. fr.—Y. Ḥag. I, 77ᵇ top <he>הוון מטענין לון מטולין והוון מתכוונין … חד מ׳</he> they (the Romans) made them carry loads (on the Sabbath), and they (the Jews) arranged it so that each two persons should carry one load.—Pl. <he>מַטּוּלִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 46:1\">Targ. Is. XLVI, 1</cite>.—Y. Ḥag. l. c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>burden of prophecy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 21:1\">Targ. Is. XXI, 1</cite> Rashi <cite ref=\"M00979\"><he>מטול</he></cite> (ed. <cite ref=\"M00998\"><he>מטל</he></cite>); <cite ref=\"Jerusalem Talmud Taanit 4:5:19\">Y. Taan. IV, 69ᵇ</cite> top <he>מ׳ רב בערבייא</he> a heavy burden of prophecy (charge) against Arabia. V. <cite ref=\"M00999\"><he>מַטְּלָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "Q01068",
+	"slug": "פליפא",
+	"headword": {
+		"text": "פְּלִיפָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּלִיפָּה"
+		},
+		{
+			"text": "פִּילִיפִּי"
+		},
+		{
+			"text": "פִּילְפִּי"
+		}
+	],
+	"page": {
+		"number": 1182,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (philippus, Philippi) <i>Plippa, Pilippi, Pilpi</i>, name of an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:3:2\">Y. Taan. IV, 68ᵇ</cite> top (ed. Krot. <cite ref=\"Q01050\"><he>פליטה</he></cite>, corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:2:2\">Y. Meg. IV, 75ᵃ</cite> bot. <he>פילפי</he>.—",
+				"<cite ref=\"Bereishit Rabbah 71:9\">Gen. R. s. 71</cite> <he>פליפי</he>; <cite ref=\"Yalkut Shimoni on Nach 208\">Yalk. Kings 208</cite> <cite ref=\"Q01406\"><he>פפי</he></cite>."
+			]
+		}
+	]
+}

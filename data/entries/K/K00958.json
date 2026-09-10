@@ -1,0 +1,28 @@
+{
+	"id": "K00958",
+	"slug": "כספתא",
+	"headword": {
+		"text": "כְּסַפְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּסִיפְ׳"
+		}
+	],
+	"page": {
+		"number": 655,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"K00954\"><he>כַּסְפָּא</he></cite>) <i>money-chest</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 62a:3\">B. Kam. 62ᵃ</cite>. ",
+				"<cite ref=\"Chullin 133b\">Ḥull. 133ᵇ</cite>"
+			]
+		}
+	]
+}

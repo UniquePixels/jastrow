@@ -1,0 +1,23 @@
+{
+	"id": "K00330",
+	"slug": "כוספא",
+	"headword": {
+		"text": "כּוּסְפָּא"
+	},
+	"page": {
+		"number": 623,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00952\"><he>כְּסַף</he></cite>) <i>paring, husk</i>; <he>כ׳ דתמרי</he> <i>substance of ground dates</i> after the juice is pressed out. ",
+			"units": [
+				"<cite ref=\"Taanit 24b:4\">Taan. 24ᵇ</cite> <he>אכ׳ דת׳ קיימי דקא מזדבן</he> they stand around a mass of ground dates which is to be sold (there being a famine). ",
+				"<cite ref=\"Shabbat 50b:5\">Sabb. 50ᵇ</cite> <he>כ׳ דיסמין</he> puppy pomace flavored with jasmin (used for a lotion)."
+			]
+		}
+	]
+}

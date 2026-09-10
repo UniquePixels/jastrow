@@ -1,0 +1,59 @@
+{
+	"id": "H01213",
+	"slug": "חמץ-3",
+	"headword": {
+		"text": "חֲמַץ"
+	},
+	"page": {
+		"number": 479,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"H01212\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be hot</i>, (of color) <i>red</i>, v. <cite ref=\"H00804\"><he>חִימּוּצָא</he></cite>, <cite ref=\"H00806\"><he>חִימּוּצָתָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be sour, salty</i> &c.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַמֵּיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to put to shame</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 10:1\">Targ. Prov. X, 1</cite> (h. text <he>תוגת</he>), v. <cite ref=\"H00804\"><he>חִימּוּצָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְמִיץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01212\">same</cite>. Ib. XXV, 8; XXVIII, 7 (Ms. <i>Pa.</i>; h. text <cite ref=\"K00762\"><he>הכלים</he></cite>).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to degenerate</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 4a:4\">R. Hash. 4ᵃ</cite> <he>מנלן דא׳</he> what evidence have we that he became wicked?, v. <cite ref=\"H01212\">preced.</cite>"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

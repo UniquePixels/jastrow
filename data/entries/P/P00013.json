@@ -1,0 +1,104 @@
+{
+	"id": "P00013",
+	"slug": "עבד-1",
+	"headword": {
+		"text": "עָבַד"
+	},
+	"page": {
+		"number": 1034,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to work</i>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to serve, work for</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 4:5\">Gitt. IV, 5</cite> <he>עוֹבֵד את רבו וכ׳</he> works one day for his master, and one for himself; a. fr. Esp. <i>to do priestly service</i>. ",
+				"<cite ref=\"Chullin 24b:8\">Ḥull. 24ᵇ</cite> <he>אחיו הכהנים … לַעֲבוֹד וכ׳</he> his brother priests allow him not to serve, until he is twenty years of age."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to prepare; to till the ground; to dress</i> (hides). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 22:5\">Gen. R. s. 22</cite> <he>קין עובד אדמה</he> Cain the tiller of the ground. Y. Ab. Zar. II, 41ᵇ bot. <he>גוי עוֹבְדָן</he>; <cite ref=\"Tosefta Avodah Zarah 4:2\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:10\">V</cite>), 10 <he>עוֹבְדוֹ</he>, v. <cite ref=\"D00038\"><he>דָּבַב</he> I</cite>; (Bab. ib. 33ᵃ <he>עיבדן</he>). Y. Sabb. I, 4ᵇ top <he>נתן כלים … ומצאו עובד בו וכ׳</he> if one gave a gentile garments to wash, and found him working at them on the Sabbath; a. fr.—<i>Part. pass.</i> <he>עָבוּד</he>, pl. <he>עֲבוּדִין</he> <i>dressed</i>, v. infra."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"P00026\"><he>עֲבוֹדָה</he></cite>) <i>to use esp. for idolatrous purposes; to worship</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Temurah 6:1\">Tem. VI, 1</cite>, v. infra. ",
+				"<cite ref=\"Mishnah Avodah Zarah 3:7\">Ab. Zar. III, 7</cite> (defining <he>אשרה</he>) <he>כל שעוֹבְדִין אותה</he> a tree which is itself worshipped (not one at which idolatrous rites are performed). ",
+				"<cite ref=\"Mishnah Avodah Zarah 3:7\">Ib.</cite> <he>הואיל … הן עובדין</he> since they worship merely the image (under the tree). ",
+				"<cite ref=\"Mishnah Sanhedrin 7:6\">Snh. VII, 6</cite> <he>העובד ע״ז אחד העובד וכ׳</he> he who worships an idol, whether he goes through the regular forms of that particular worship (v. ",
+				"<cite ref=\"Sanhedrin 60b\">ib. 60ᵇ</cite>), or sacrifices &c. ",
+				"<cite ref=\"Mishnah Avodah Zarah 3:5\">Ab. Zar. III, 5</cite> <he>העכומ״ז העובדין וכ׳</he> as to idolaters that worship mountains and hills (as deities), they (the territories) may be used, but what is on them is forbidden. ",
+				"<cite ref=\"Avodah Zarah 45b:1\">Ib. 45ᵇ</cite> <he>אילן … ולבסוף עֲבָדוֹ</he> if one planted a tree and afterwards made it a subject of worship. ",
+				"<cite ref=\"Avodah Zarah 46a:4\">Ib. 46ᵃ</cite> <he>ועוֹבְדֵיהֶן בסייף</he> and those (Jews) who worship them are put to death by the sword; <cite ref=\"Tosefta Avodah Zarah 6:2\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Avodah Zarah 7:8\">VII</cite>), 8. ",
+				"<cite ref=\"Shabbat 56b:4\">Sabb. 56ᵇ</cite> <he>אילמלי לא … ולא עָבְדוּ ישראל ע״א</he> had David not listened to evil gossip (against Mephibosheth), … Israel would not have worshipped idols (under Jeroboam). ",
+				"<cite ref=\"Shabbat 105b:8\">Ib. 105ᵇ</cite> <he>עד שיאמר לו עֲבוֹד ע״ז</he> until he (the tempter) finally tells him, worship idols; <cite ref=\"Tosefta Bava Kamma 9:31\">Tosef. B. Kam. IX, 31</cite>. ",
+				"<cite ref=\"Chullin 13b:4\">Ḥull. 13ᵇ</cite> <he>נכרים שבח״ל לאו עוֹבְדֵי ע״א הן</he> gentiles outside of Palestine must not be considered as idolaters; a. v. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶעֱבַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be prepared, dressed</i>. Tosef. B. Kam. l. c. <he>עורות שאינן נֶעֱבָדִין</he> ed. Zuck. (oth. ed. <he>עֲבוּדִין</he>) undressed hides; a. e.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be used</i>, esp. for illicit purposes; <i>to be worshipped</i>. Tem. l. c. <he>המוקצה והנ׳</he> the animal designated for idolatrous purposes and the one used; expl. <he>כל שעובדין אותו</he> whatever they may use it for ((e.g. yoking the ox, shearing the sheep for the benefit of idolatrous temples). Ib. 28ᵃ <he>נעבדה בהן עבירה</he> an illicit act has been done with them (by coupling them); ib. <he>לא נֵתְעַבְּדָה בה עבירה</he> no sinful act has been done with it (by which to unfit it for the altar). ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 46b:1\">Ab. Zar. 46ᵇ</cite> <he>יש נ׳ במחובר אצל גבוה</he> does the law forbidding the use in divine worship of objects which have been used for idolatrous purposes include things fixed in the ground? <cite ref=\"Avodah Zarah 46b:10\">Ib.</cite> <he>יש שינוי בנ׳</he> does change of form restore to legitimate use objects otherwise forbidden on account of their use in connection with idolatry? a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נַתְעַבֵּד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00012\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הֶעֱבִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to enslave, oppress</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 162:6\">Yalk. Ex. 162</cite> <he>הֶעֱבִידוֹ בכל וכ׳</he> he (Esau) oppressed him with all sorts of troubles."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["עִיבֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to prepare</i>, esp. <i>to dress hides</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> (among the labors forbidden on the Sabbath) <he>והמְעַבֵּד את עורו</he> dressing the hide of the deer (to fit it for parchment). Ib. 75ᵇ <he>חייב משום מעבד</he> is guilty of a Sabbath offence coming under the category of tanning. ",
+						"<cite ref=\"Gittin 54b:19\">Gitt. 54ᵇ</cite> <he>גוילין</he> … <he>לא עִיבַּדְתִּין לשמן</he> I did not prepare the parchment sheets with the proper intention; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

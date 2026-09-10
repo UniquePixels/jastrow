@@ -1,0 +1,33 @@
+{
+	"id": "H00455",
+	"slug": "חורבא-2",
+	"headword": {
+		"text": "חוּרְבָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חָרְבָּא"
+		}
+	],
+	"page": {
+		"number": 439,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <cite ref=\"H01584\"><he>חָרְבַּת</he></cite> = <cite ref=\"H00456\">next w.</cite> ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 29:9\">Targ. Ez. XXIX, 9</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 13b\">Keth. 13ᵇ</cite> (<cite ref=\"H00456\"><he>חורבה</he></cite>) <he>ח׳ דדברא</he> a ruined building standing in the field. ",
+				"<cite ref=\"Sotah 48a:16\">Sot. 48ᵃ</cite>, v. <cite ref=\"G00548\"><he>זִמְרָא</he> I</cite>; a. e.—Pl. <he>חוֹרְבָתָא</he>, <he>חָרְבָתָא</he>; constr. <he>חָרְבַת</he>. ",
+				"<cite ref=\"Targum Jonathan on Malachi 1:4\">Targ. Mal. I, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 61:4\">Targ. Is. LXI, 4</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 71a:20\">Snh. 71ᵃ</cite> <he>ח׳ סגירתא</he> (<cite ref=\"Tosefta Negaim 6:1\">Tosef. Neg. VI, 1</cite> <he>חוֹרְבָתָה סגירתה</he>) a place named Leprous Debris (deposit of debris of leprous houses)."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "V00904",
+	"slug": "תקנתא",
+	"headword": {
+		"text": "תַּקַּנְתָּא"
+	},
+	"page": {
+		"number": 1693,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00903\">same</cite><i>remedy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 4:19\">Targ. Y. Num. IV, 19</cite>.—",
+				"<cite ref=\"Megillah 3a:14\">Meg. 3ᵃ</cite> <he>מאי תַּקַּנְתֵּיה וכ׳</he> what is his remedy (what shall he do)? Let him read the Sh’mʿa. ",
+				"<cite ref=\"Sanhedrin 7a:4\">Snh. 7ᵃ</cite> <he>ולא הויא ת׳ לעולם</he> and there would never be a remedy for them; <he>אפשר … ת׳ בתשובה</he> there might have been a remedy for them through repentance. ",
+				"<cite ref=\"Zevachim 76a:7\">Zeb. 76ᵃ</cite> <he>אית ליה ת׳ ברעייה</he> there is a remedy for it by letting it go to pasture; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>measure, ordinance, reform</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 2a:6\">Meg. 2ᵃ</cite> <he>אתו רבנן ועקרו ת׳ דתקינו וכ׳</he> will the Rabbis abolish an institution introduced by the men of the Great Assembly? <cite ref=\"Megillah 2a:20\">Ib.</cite> <he>אפי׳ בזמן הזה איתא להאי ת׳</he> this regulation is maintained even in our days (after the destruction of the Temple). ",
+				"<cite ref=\"Bava Kamma 96a:7\">B. Kam. 96ᵃ</cite> <he>ת׳ לעכו״ם וכ׳</he> shall we introduce a measure for the benefit of a gentile (robber, as we do for the benefit of a repentant Jew)? <cite ref=\"Bava Metzia 5a:18\">B. Mets. 5ᵃ</cite> sq. <he>שבועת … ת׳ היא ות׳ לת׳ לא עבדינן</he> R. Naḥman’s oath of equity (v. <cite ref=\"E00475\"><he>הֶיסֵּת</he></cite>) is a reform, and we do not introduce a reform for a reform, i.e. the Rabbinical ordinance that, when one of the litigants is unfit to make oath, the opponent must swear, applies only to cases in which the oath is required by Biblical law, but not to cases in which the oath is itself a Rabbinical requirement; <cite ref=\"Shevuot 41a:6\">Shebu. 41ᵃ</cite>; <cite ref=\"Shevuot 46a:13\">46ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

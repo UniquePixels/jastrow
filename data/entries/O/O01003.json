@@ -1,0 +1,43 @@
+{
+	"id": "O01003",
+	"slug": "סלל-1",
+	"headword": {
+		"text": "סָלַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 995,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O00956\"><he>סָלַד</he></cite>)<i>to swing, be light; to bound</i>. Ab. d’R. N. 2ⁿᵈ vers., ch. XXX (ed. Schechter, p. <cite ref=\"L00030\"><he>לב</he></cite>) <he>אם יעלה … היא סוֹלֶלֶת אחריה</he> if you take an animal to the top of a roof, it will start backward (be afraid).—<i>Part. pass.</i> <cite ref=\"O00964\"><he>סָלוּל</he></cite>; pl. <he>סְלוּלִין</he> <i>swinging, high</i>. Y. Maasr. V, end, 52ᵃ (expl. <he>זרע לוף העליון</he>, ib. V, 8) <he>זרע הס׳ של לוף</he> R. S. to Maasr. l. c. (ed. <he>הסיליון</he>) the seed in the swinging tops of <i>lof</i> (Maim. <he>העֶלְיוֹן</he>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְלַל"],
+			"senses": [
+				{
+					"gloss": "<i>to rebound</i>. Y. Ab. Zar. II, 41ᵇ, v. <cite ref=\"P00089\"><he>עָגַל</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["סִלֵּל"],
+			"senses": [
+				{
+					"gloss": ", <i>Polel</i> <he>סוֹלֵל</he> (fr. <cite ref=\"O00312\"><he>סוּל</he></cite>) <i>to sport</i>; (euphem.) <i>to commit lewdness</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 5:7\">Tosef. Sot. V, 7</cite> <he>המְסַלֶּלֶת בבנה קטן</he> (ed. Zuck. <he>המְסַלְסֶלֶת</he>, Var. <he>המסולס׳</he>) a woman that commits lewdness with her little son; <cite ref=\"Sanhedrin 69b:5\">Snh. 69ᵇ</cite> <he>המְסוֹלֶלֶת</he> (Ms. K. <he>המסלסלת</he>; v. Rabb. D. S. a. l. note 300); Y. Gitt. VIII, 49ᶜ bot. <he>המְסַלֶּדֶת</he>. ",
+						"<cite ref=\"Yevamot 76a:8\">Yeb. 76ᵃ</cite> <he>נשים המְסוֹלְלוֹת זו בזו</he> women that commit lewdness with one another; <cite ref=\"Shabbat 65a\">Sabb. 65ᵃ</cite>; Y. l. c. <he>המְסַלְּדוֹת</he>.—V. <cite ref=\"O01011\"><he>סִלְסֵל</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A01986",
+	"slug": "אמדלא",
+	"headword": {
+		"text": "אַמַּדְלָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַמִּידְלָא"
+		}
+	],
+	"page": {
+		"number": 75,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>על מדלא</he>, <he>על מיד׳</he>; <cite ref=\"D00827\"><he>דלי</he></cite>; cmp. <cite ref=\"D00838\"><he>דָּלִית</he></cite>) <i>watchman’s lodge on top of trees</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 155a:4\">Sabb. 155ᵃ</cite> <he>דרגא דא׳</he> Ar., Ms. M. (ed. <he>דמַדְלָא</he>) ladder for climbing up to the lodge."
+			]
+		}
+	]
+}

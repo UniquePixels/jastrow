@@ -1,0 +1,23 @@
+{
+	"id": "B00384",
+	"slug": "בורסיון",
+	"headword": {
+		"text": "בּוּרְסִיוֹן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 150,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (βυρσεῖον) <i>tannery</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:2:3\">Y. Sabb. V, 7ᵇ</cite> bot. <he>עור מכורסינין</he> (corr. acc.) hide from the tannery."
+			]
+		}
+	]
+}

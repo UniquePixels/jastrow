@@ -1,0 +1,37 @@
+{
+	"id": "L00679",
+	"slug": "לקט-3",
+	"headword": {
+		"text": "לֶקֶט"
+	},
+	"page": {
+		"number": 718,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"L00678\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gleanings; the poor man’s share in the crop</i> (<cite ref=\"Leviticus 19:9\">Lev. XIX, 9</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 4:3\">Peah IV, 3</cite>. ",
+				"<cite ref=\"Mishnah Peah 4:10\">Ib. 10</cite> <he>איזהו ל׳ הנושר וכ׳</he> what is called <i>leḳet</i> (the poor man’s share)? That which drops &c. ",
+				"<cite ref=\"Mishnah Peah 4:11\">Ib. 11</cite> <he>ספק ל׳ ל׳</he> where there is a doubt about <i>leḳet</i>, it is <i>leḳet</i>, i.e. the poor man has the benefit of the doubt. ",
+				"<cite ref=\"Mishnah Peah 5:1\">Ib. V, 1</cite> <he>אומדין אותה כמה ל׳ וכ׳</he> we calculate how much it would ordinarily give out for the poor man. Y. ib. V, beg. 18ᵈ <he>שגדש ע״ג לִיקְטָן של וכ׳</he> for he piled up the stack over the poor man’s share; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pucker, seam</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 26b:2\">M. Kat. 26ᵇ</cite> <he>הקורע … מתוך הל׳</he> he who rends his garment … in a place which has been mended by a pucker (after having been rent for a death)."
+			],
+			"label": "2"
+		}
+	]
+}

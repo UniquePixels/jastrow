@@ -1,0 +1,24 @@
+{
+	"id": "G00520",
+	"slug": "זמינא-2",
+	"headword": {
+		"text": "זְמִינָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 402,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Z’mina</i> (interch. with <cite ref=\"G00039\"><he>זְבִינָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:19\">Y. Bicc. III, 65ᵈ</cite> top <he>ר׳ ז׳</he>.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:4:5\">Y. Kil. IX, 32ᵈ</cite> top <he>אבא בר זבינא</he>; <cite ref=\"Jerusalem Talmud Shekalim 5:1:6\">Y. Shek. V, beg. 48ᶜ</cite> <cite ref=\"G00369\"><he>זמ׳</he></cite>; <cite ref=\"Shabbat 112b:8\">Sabb. 112ᵇ</cite> <he>רבא בר זימונא</he> ed. (Ms. M. <cite ref=\"G00371\"><he>זימנא</he></cite>); a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "E00592",
+	"slug": "המדודי",
+	"headword": {
+		"text": "הַמְדּוּדֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר הַמְדּוּדֵי"
+		}
+	],
+	"page": {
+		"number": 354,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar-Hamdudé</i> (Var. <he>בר הַמְדּוּרֵי</he> <i>Bar-Hamduré</i>). ",
+			"units": [
+				"<cite ref=\"Yoma 87b:7\">Yoma 87ᵇ</cite> (v. Rabb. D. S. a. l. note 8). ",
+				"<cite ref=\"Shabbat 107b\">Sabb. 107ᵇ</cite>; <cite ref=\"Shabbat 125a\">125ᵃ</cite> (<he>מר</he>)<he>בר המדורי</he> ed. (Ms. … <he>די</he>, … <he>דא</he>). ",
+				"<cite ref=\"Yevamot 83b\">Yeb. 83ᵇ</cite> <he>רי</he> … <cite ref=\"Menachot 38b\">Men. 38ᵇ</cite> (v. Rabb. D. S. a. l. note 40)."
+			]
+		}
+	]
+}

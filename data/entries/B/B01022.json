@@ -1,0 +1,23 @@
+{
+	"id": "B01022",
+	"slug": "בעבוע",
+	"headword": {
+		"text": "בִּעְבּוּעַ"
+	},
+	"page": {
+		"number": 180,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B01023\">next w.</cite>) <i>casting bubbles, bulging, bulge</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 10:4\">Mikv. X, 4</cite> (of garments dipped in water until they are soaked through) <he>וינוחו מבִּעְבּוּעָן</he> and cease from bulging. ",
+				"<cite ref=\"Mishnah Tevul Yom 2:8\">T’bul Yom II, 8</cite> <he>ב׳ שבחבית</he> (an imperfection in an earthen jug) <i>a protuberance</i>"
+			]
+		}
+	]
+}

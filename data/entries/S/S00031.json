@@ -1,0 +1,23 @@
+{
+	"id": "S00031",
+	"slug": "קבוותא",
+	"headword": {
+		"text": "קַבְוָותָא"
+	},
+	"page": {
+		"number": 1307,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (= <he>קבב׳</he>; <he>קבב</he>; cmp. <cite ref=\"K00206\"><he>כַּוָּוא</he></cite>), only in <he>ק׳ דדשא</he> <i>frames of the door</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 11a:13\">M. Kat. 11ᵃ</cite> <he>כמאן</he> … <he>ק׳ דדשי</he> Ms. M. (not <he>דרישי</he>; ed. <he>קביותא דדשא</he>; Ms. Rashi <cite ref=\"K00206\"><he>כוותא</he></cite>, v. Rabb. D. S. a. l. note; Ar. <he>קוותא</he> a. <cite ref=\"K00206\"><he>כוותא</he></cite>) whose opinion do we follow now that we are permitted (during the festive week) to raise the framework above the door (to drive the pegs home which fasten the upper beam to the wall)?"
+			]
+		}
+	]
+}

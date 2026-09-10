@@ -1,0 +1,22 @@
+{
+	"id": "I00313",
+	"slug": "טיגנא-2",
+	"headword": {
+		"text": "טִיגָּנָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 530,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τήγανον = πήγανον, v. Löw Pfl. p. 372) <i>rue</i>. ",
+			"units": ["<cite ref=\"Avodah Zarah 28a:14\">Ab. Zar. 28ᵃ</cite> bot."]
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"id": "H01099",
+	"slug": "חלף-2",
+	"headword": {
+		"text": "חֲלַף",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלֵיף"
+		}
+	],
+	"page": {
+		"number": 472,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01098\">same</cite>, <i>to pass by, be gone</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:11\">Targ. Cant. II, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 9:11\">Targ. Job IX, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 9:26\">Ib. 26</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַלֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to pass repeatedly, promenade</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 12b:9\">Kidd. 12ᵇ</cite> <he>ח׳ אבבא וכ׳</he> went up and down in front of the house of his father-in-law (to attract the attention of his mother-in-law)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to exchange</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 27:10\">Targ. O. Lev. XXVII, 10</cite>; a. e.—",
+						"<cite ref=\"Chullin 6b:4\">Ḥull. 6ᵇ</cite> <he>חַלּוּפֵי מבעיא</he> so much the more may she be suspected of exchanging (substituting something of her own). ",
+						"<cite ref=\"Megillah 7b:6\">Meg. 7ᵇ</cite> <he>מְחַלְּפֵי וכ׳</he> (v. Rabb. D. S. a. l. note 8; some ed. <cite ref=\"M00833\"><he>מִיחַ׳</he></cite> <i>Ithpa.</i>) used to exchange their meals (on Purim).—<i>Part. pass.</i> f. <he>מְחַלְּפָא</he>. Y. Peah IV, 18ᵈ bot., a. e. <he>מח׳ שיטתיה</he>, v. <cite ref=\"H01098\">preced.</cite> <i>Hif.</i>"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחֲלִיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01098\">same</cite>. Targ. O. l. c.; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְחַלֵּף", "אִיחַלֵּף"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיחֲלִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be exchanged; to change; to disappear</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 90:5\">Targ. Ps. XC, 5</cite>; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite>, beg. <he>מִתְחַלְּפִין</he> change their names. Ḥull. l. c. <he>ולאִיחַלּוּפֵי לא וכ׳</he> Rashi (ed. <he>לחַלּוּפֵי</he>) and do we not apprehend an exchange?—Meg. l. c., v. supra.—",
+						"<cite ref=\"Bava Metzia 59b\">B. Mets. 59ᵇ</cite>, v. <cite ref=\"H01412\"><he>חָסֵר</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

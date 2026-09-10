@@ -1,0 +1,62 @@
+{
+	"id": "T00329",
+	"slug": "רווח-4",
+	"headword": {
+		"text": "רְוַוח",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְוַח",
+			"homograph": 2
+		},
+		{
+			"text": "רַוְוחָא"
+		},
+		{
+			"text": "רַוְחָא"
+		}
+	],
+	"page": {
+		"number": 1457,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00328\">same</cite><i>open space, room</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 35:2\">Targ. O. Num. XXXV, 2</cite> (ed. Berl. <cite ref=\"T00343\"><he>רַוַח</he></cite>; ed. Vien. <cite ref=\"T00343\"><he>רֶוַח</he></cite>; h. text <cite ref=\"M00227\"><he>מגרש</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 25:34\">Targ. O. Lev. XXV, 34</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 45:2\">Targ. Ez. XLV, 2</cite> (ed. Wil. <cite ref=\"T00330\"><he>רְוָחָא</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 32:17\">Targ. O. Gen. XXXII, 17</cite> (ed. Vien. <he>רְוָ׳</he>); a. fr.—",
+				"<cite ref=\"Megillah 7b:5\">Meg. 7ᵇ</cite>, a. e., v. <cite ref=\"B00976\"><he>בְּסוּמָא</he></cite>. ",
+				"<cite ref=\"Shabbat 146b:10\">Sabb. 146ᵇ</cite> <he>לא הוה ליה ר׳</he> he had no room (to accommodate all his hearers); a. e.—Pl. <he>רַוְוחִין</he>, <he>רַוְוחַיָּא</he>, <cite ref=\"T00330\"><he>רַוְח׳</he></cite>, <cite ref=\"T00330\"><he>רְוָח׳</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 35:4\">Targ. O. Num. XXXV, 4</cite>, sq. (ed. Vien. <he>רְוָ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Joshua 14:4\">Targ. Josh. XIV, 4</cite> (ed. Wil. <he>רְוָ׳</he>); a. fr.—[<cite ref=\"Targum Jonathan on Deuteronomy 32:24\">Targ. Y. I Deut. XXXII, 24</cite> <he>רווחין</he>, read: <he>רוּחִין</he>, v. <cite ref=\"T00329\"><he>רְוַוח</he> I</cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>relief</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 9:28\">Targ. O. Ex. IX, 28</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 4:14\">Targ. Esth. IV, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:15\">Targ. Is. XXXII, 15</cite> (h. text <cite ref=\"T00615\"><he>רוּחַ</he></cite>!); a. e.—",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite> <he>בשעת רַוְוחֵיה</he>, v. <cite ref=\"A02256\"><he>אֲנַנְקָא</he></cite>; <cite ref=\"Kohelet Rabbah 1:12\">Koh. R. to I, 12</cite>; <cite ref=\"Bereishit Rabbah 81:2\">Gen. R. s. 81</cite>, a. e., v. <cite ref=\"P01231\"><he>עַקְתָא</he></cite>. ",
+				"<cite ref=\"Pesachim 112b:16\">Pes. 112ᵇ</cite> <he>שבק לי ר׳ פורתא</he> allow me a little relief (liberty); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>ample provision, comfort</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 69a:8\">Keth. 69ᵃ</cite> <he>דאיכא רְוַוח ביתא</he> there is ample provision in the house (she is sufficiently provided for). ",
+				"<cite ref=\"Ketubot 69a:8\">Ib.</cite> <he>אנא ר׳ ביתא מהני וכ׳</he> I mean ample provision out of that estate. ",
+				"<cite ref=\"Ketubot 80a\">Ib. 80ᵃ</cite> sq. <he>כי … משום ר׳ ביתא וכ׳</he> the scholars allowed the husband the fruition of the wife’s property for the sake of domestic comfort, but not to the extent of selling the products. ",
+				"<cite ref=\"Ketubot 80b:3\">Ib. 80ᵇ</cite> <he>משום ר׳ ביתא הא קא רְוַוח</he> fruition is allowed him for the sake of domestic comfort, and the comfort of the house remains secured; a. e.—",
+				"<cite ref=\"Bava Kamma 116a:11\">B. Kam. 116ᵃ</cite> <he>לר׳ דמילתא הוא דעבד</he> he did it for the convenience of the thing, i.e. as an extraordinary, though not legally necessary, measure, to avoid litigation."
+			],
+			"label": "3"
+		}
+	]
+}

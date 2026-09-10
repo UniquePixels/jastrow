@@ -1,0 +1,29 @@
+{
+	"id": "T00897",
+	"slug": "רעיה",
+	"headword": {
+		"text": "רְעִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְעִיָּיה"
+		}
+	],
+	"page": {
+		"number": 1487,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00896\">preced.</cite> wds.) <i>grazing,</i> esp. <i>grazing until natural death</i> to which sacrificial animals are eventually condemned, v. <cite ref=\"O00003\"><he>סָאַב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Zevachim 5b\">Zeb. 5ᵇ</cite>; <cite ref=\"Zevachim 112a\">112ᵃ</cite>, a. e., v. <cite ref=\"N01387\"><he>נָתַק</he></cite>. ",
+				"<cite ref=\"Yoma 66a:2\">Yoma 66ᵃ</cite> <he>לר׳ אזלא</he> goes to pasture until death; a. e.—Pl. <he>רְעִיּוֹת</he>. ",
+				"<cite ref=\"Yoma 66a:5\">Ib.</cite> <he>כל ר׳</he> all animals condemned to pasture."
+			]
+		}
+	]
+}

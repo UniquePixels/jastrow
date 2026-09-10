@@ -1,0 +1,22 @@
+{
+	"id": "S01691",
+	"slug": "קעקע-3",
+	"headword": {
+		"text": "קַעְקַע"
+	},
+	"page": {
+		"number": 1397,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S01690\">preced.</cite>) <i>impression</i>; <he>כתובת ק׳</he> <i>etched inscription</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:6\">Macc. III, 6</cite>; <cite ref=\"Vayikra Rabbah 19:6\">Lev. R. s. 19</cite>, a. e., v. <cite ref=\"K01351\"><he>כְּתוֹבֶת</he></cite>."
+			]
+		}
+	]
+}

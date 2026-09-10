@@ -1,0 +1,23 @@
+{
+	"id": "C00717",
+	"slug": "גיל-3",
+	"headword": {
+		"text": "גִּיל",
+		"homograph": 3
+	},
+	"page": {
+		"number": 238,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גול</he>) <i>ball, clapper of a bell</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite>, beg.; Tanḥ. Emor 5 <he>גול</he>; ed. Bub. ib. 7 <cite ref=\"C00715\"><he>גיל</he></cite>."
+			]
+		}
+	]
+}

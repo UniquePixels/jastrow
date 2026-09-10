@@ -1,0 +1,31 @@
+{
+	"id": "U01480",
+	"slug": "שמירה-1",
+	"headword": {
+		"text": "שְׁמִירָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1596,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01525\"><he>שָׁמַר</he></cite>) <i>watching, guarding</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 2:3:7\">Y. Maasr. II, 49ᵈ</cite> bot. <he>חצר בית ש׳</he> a well-guarded court (= <he>חצר המשתמרת</he>, v. <cite ref=\"H01544\"><he>חָצֵר</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:6:3\">Y. Sabb. II, 5ᵇ</cite> top <he>אינו צריך ש׳</he> (omit <he>ליה</he>) is not in need of special guard (against dangers). ",
+				"<cite ref=\"Bava Metzia 42a:7\">B. Mets. 42ᵃ</cite>; <cite ref=\"Pesachim 31b:9\">Pes. 31ᵇ</cite>, v. <cite ref=\"K00953\"><he>כֶּסֶף</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:1\">B. Kam. I, 1</cite> <he>שְׁמִירָתָן עליך</he> thou art bound to guard them. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:2\">Ib. 2</cite> <he>כל שחבתי בשְׁמִירָתוֹ</he>, v. <cite ref=\"H00231\"><he>חוּב</he></cite> h. ",
+				"<cite ref=\"Bava Kamma 4a:17\">Ib. 4ᵃ</cite> <he>אדם שְׁמִירת גופו עליו הוא</he> a human being is his own guard (the employer has no responsibility for injury done by the employee).—",
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4<sup>4</sup></cite> <he>יש פקידה לש׳</he> trust (the root <he>פקד</he>) is used in the sense of guarding (taking charge). ",
+				"<cite ref=\"Shemot Rabbah 25\">Ex. R. s. 25</cite>, end <he>על שמירת יום וכ׳</he> the son of David comes as a reward for the observance of one Sabbath day; a. fr.—Pl. <cite ref=\"U01484\"><he>שְׁמִירוֹת</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 816:2\">Yalk. Ps. 816</cite> (ref. to <he>שמרות</he>, <cite ref=\"Psalms 77:5\">Ps. LXXVII, 5</cite>) <he>כל שְׁמִירוֹתַי בלילה</he> all my watchings (waiting for help) are held by night; Midr. Till. to Ps. l. c. <cite ref=\"U01534\"><he>שמרותי</he></cite> (ed. Bub. <he>מידותי</he>, corr. acc.)."
+			]
+		}
+	]
+}

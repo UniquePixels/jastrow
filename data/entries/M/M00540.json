@@ -1,0 +1,27 @@
+{
+	"id": "M00540",
+	"slug": "מוניני",
+	"headword": {
+		"text": "מוֹנִינֵי"
+	},
+	"page": {
+		"number": 744,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a comp. of <cite ref=\"M00469\"><he>מוֹי</he></cite> a. <cite ref=\"N00379\"><he>נוּנָא</he></cite>; Versions vary, betw. <he>מוני׳</he>, <he>מֵינוּ׳</he> a. <he>מֵנוּ׳</he>) <i>fish-brine, small fish in brine</i>; in gen. <i>brine</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 60b:15\">Keth. 60ᵇ</cite> <he>דאכלה מ׳ וכ׳</he> a woman that eats <i>moniné</i> (during pregnancy) will &c. ",
+				"<cite ref=\"Sanhedrin 49a:16\">Snh. 49ᵃ</cite> <he>אפי׳ מ׳ וצחנתא וכ׳</he> (<cite ref=\"Yalkut Shimoni on Nach 172:1\">Yalk. Kings 172</cite> <he>מ׳ דצ׳</he>) even brine and (Yalk.; brine of) hashed fish he used to taste and give to the poor. ",
+				"<cite ref=\"Shabbat 110b:3\">Sabb. 110ᵇ</cite> <he>מ׳ דקמצי</he> brine of locusts. ",
+				"<cite ref=\"Avodah Zarah 29a:2\">Ab. Zar. 29ᵃ</cite> <he>מ׳ לתעניתא</he> (Ms. M. <he>נוניני</he>) <i>m.</i> is good to eat after fasting. ",
+				"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite>"
+			]
+		}
+	]
+}

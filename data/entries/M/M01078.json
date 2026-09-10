@@ -1,0 +1,27 @@
+{
+	"id": "M01078",
+	"slug": "מיאוס",
+	"headword": {
+		"text": "מִיאוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִאוּס"
+		}
+	],
+	"page": {
+		"number": 770,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00049\"><he>מָאַס</he></cite>) <i>repulsiveness, creating aversion</i>.—<he>מחמת מ׳</he>, v. <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 2:1:13\">Y. Maas. Sh. II, 53ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Shabbat 14:3:5\">Y. Sabb. XIV, 14ᶜ</cite> <he>מִאוּס היא</he> it is a nauseous manipulation (and therefore forbidden on the Sabbath, v. <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>)."
+			]
+		}
+	]
+}

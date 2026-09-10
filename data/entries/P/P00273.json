@@ -1,0 +1,28 @@
+{
+	"id": "P00273",
+	"slug": "עולתא",
+	"headword": {
+		"text": "עַוְלְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַוְו׳"
+		}
+	],
+	"page": {
+		"number": 1052,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00245\"><he>עַוְלָא</he></cite>) <i>perversion, wrong</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 92:16\">Targ. Ps. XCII, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 15:16\">Targ. Job XV, 16</cite> Ms. (ed. <cite ref=\"P00581\"><he>עִילִיתָא</he></cite>, <cite ref=\"P00586\"><he>עִילְתָא</he></cite>)."
+			]
+		}
+	]
+}

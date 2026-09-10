@@ -1,0 +1,23 @@
+{
+	"id": "Q01558",
+	"slug": "פרגיא",
+	"headword": {
+		"text": "פְּרַגְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1214,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"Q01547\"><he>פָּרג</he></cite>) <i>sprouting</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 3:6:2\">Y. Taan. III, 66ᵈ</cite> top <he>מתריעין על פ׳ של פשתן</he> we sound the Shofar (for prayer) when the flax in the field is threatened with ruin through sprouting (ref. to <cite ref=\"Jeremiah 5:30\">Jer. V, 30</cite>) (v. Mish. ib. 5)."
+			]
+		}
+	]
+}

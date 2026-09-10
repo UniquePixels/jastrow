@@ -1,0 +1,36 @@
+{
+	"id": "H01292",
+	"slug": "חנינא",
+	"headword": {
+		"text": "חֲנִינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲנִינָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 483,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥănina</i>, name of several Tannaim and Amoraim. <i>Ḥ. b. Antigonos:</i> <cite ref=\"Tosefta Arakhin 1:15\">Tosef. Arakh. I, 15</cite> (ed. Zuck. <cite ref=\"H01316\"><he>חנניא</he></cite>); <cite ref=\"Mishnah Arakhin 2:4\">Arakh. II, 4</cite> (<cite ref=\"Arakhin 10a:14\">10ᵃ</cite>) Talm. ed. (Mish. <cite ref=\"H01316\"><he>חנניא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Temurah 6:5\">Tem. VI, 5</cite> <cite ref=\"H01292\"><he>חנינא</he></cite>.; <cite ref=\"Tosefta Temurah 4:10\">Tosef. ib. IV, 10</cite> <cite ref=\"H01316\"><he>חנניה</he></cite>. ",
+				"<cite ref=\"Niddah 52a:53\">Nidd. 52ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Bekhorot 6:3\">Bekh. VI, 3</cite>; a. fr. (v. Darkhe Mish. p. 128).—<i>Ḥ. b. Gamliel:</i> <cite ref=\"Mishnah Makkot 3:15\">Macc. III, 15</cite> (<cite ref=\"Makkot 23a\">23ᵃ</cite>) Ms. M. (ed. <cite ref=\"H01316\"><he>חנניא</he></cite>). ",
+				"<cite ref=\"Mishnah Bava Batra 10:1\">B. Bath. X, 1</cite>. (<cite ref=\"Tosefta Yoma 1:6\">Tosef. Yoma I, 6</cite> <cite ref=\"H01316\"><he>חנניא</he></cite>; Sifra Emor ch. I, Par. 2, a. e. <cite ref=\"H01316\"><he>חנניה</he></cite>). ",
+				"<cite ref=\"Sanhedrin 111a:12\">Snh. 111ᵃ</cite> <he>ח׳ בן גמלא</he> (v. Rabb. D. S. a. l. note).—",
+				"<cite ref=\"Niddah 8a:52\">Nidd. 8ᵃ</cite> (v. Darkhe Mish. p. 130).—<i>Ḥ. b. Ḥăkhinai:</i> <cite ref=\"Mishnah Kilayim 4:8\">Kil. IV, 8</cite> (Ms. M. a. Y. <cite ref=\"H01316\"><he>חנניה</he></cite>, v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Menachot 62a:15\">Men. 62ᵃ</cite>; a. e. (mostly <cite ref=\"H01316\"><he>חנניא</he></cite>, <he>הנניה</he>).—<i>Ḥ., S’gan hak-Kohanim</i> (v. <cite ref=\"O00154\"><he>סָגָן</he></cite>). ",
+				"<cite ref=\"Mishnah Eduyot 2:1\">Eduy. II, 1</cite>; a. fr. (v. Darkhe Mish. p. 59, sq.).—Rabbi Ḥ.: <cite ref=\"Shabbat 59b:9\">Sabb. 59ᵇ</cite>; a. fr. (v. Frank. M’bo, p. 86ᵇ, sq.).—Other Amoraim by that name, v. Frank. l. c. 87ᵇ, sq.—",
+				"<cite ref=\"Sanhedrin 98b:14\">Snh. 98ᵇ</cite>, v. <cite ref=\"H01293\">next w.</cite>"
+			]
+		}
+	]
+}

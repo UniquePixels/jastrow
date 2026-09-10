@@ -1,0 +1,65 @@
+{
+	"id": "K01151",
+	"slug": "כרי-1",
+	"headword": {
+		"text": "כרי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּרָה"
+		}
+	],
+	"page": {
+		"number": 666,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to round, heap, cave</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to dig</i>. Mekh. Mishp., N’zikin, s. 11 <he>כּוֹרֶה מנין</he> how am I to know that he who digs a pit is responsible?—",
+			"units": [
+				"<cite ref=\"Bava Kamma 51a:16\">B. Kam. 51ᵃ</cite> <he>כורה אחר כורה</he> one who digs after another one, i.e. who completes the pit to its legal size. ",
+				"<cite ref=\"Sukkah 53a\">Succ. 53ᵃ</cite>; <cite ref=\"Makkot 11a:18\">Macc. 11ᵃ</cite> <he>בשעה שכ׳ דוד וכ׳</he> when David dug for the foundations; a. fr.—Part. pass. <he>כָּרוּי</he>, f. <cite ref=\"K01115\"><he>כְּרוּיָה</he></cite> <i>hollowed out</i>. ",
+				"<cite ref=\"Mishnah Kelim 3:5\">Kel. III, 5</cite>, a. e., v. <cite ref=\"H00665\"><he>חִידּוּק</he></cite> a. <cite ref=\"B01191\"><he>בָּרָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to sit in a circle</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to heap, pile</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 100:5\">Gen. R. s. 100</cite> (ref. to <he>כריתי</he>, <cite ref=\"Genesis 50:5\">Gen. L, 5</cite>) <he>הרבה ממון תַּכְרֶה עליה</he> much money shalt thou pile up (give me) for it (the grave); (some ed. <he>הכרה</he> Jacob piled up in settling with Esau). ",
+						"<cite ref=\"Genesis 50:5\">Ib.</cite> <he>הִכְרֵתִי</he> (corr. <he>הִכְרֵיתִי</he>); v. <cite ref=\"K01153\"><he>כְּרִי</he></cite>; <cite ref=\"Pesikta Rabbati 1:1\">Pesik. R. s. 1</cite> <he>וכל ממון שהיה לו ה׳ וכ׳</he> (not <he>מסר לו</he>) and he (Jacob) piled up whatever money he had to place it before Esau &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to invite to a banquet</i>; ",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": " (with play on <he>כרת</he>) <i>to excise, to destroy</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 20a\">Snh. 20ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 142:3\">Yalk. Sam. 142</cite> (ref. to <he>להברות</he>, <cite ref=\"II Samuel 3:35\">II Sam. III, 35</cite>, where Raba had before him a K’thib. <he>להכרות</he>) <he>כתיב להכרות … בתחלה להַכְרוֹתוֹ וכ׳</he> it is written <i>l’hakhroth</i> (to entertain) and read <i>l’habroth</i> (v. <cite ref=\"B01191\"><he>בָּרָה</he></cite>): originally they came with the intention of destroying him (for the murder of Abner), and finally (when convinced of his innocence) they came to comfort him; [Yalk. Ms. to Sam. l. c., quoted in Rabb. D. S. Snh. l. c. note 9: <he>כתיב לִבְרוֹת וקרינן להַבְרוֹת בתחלה לברות וכ׳</he> it is written <i>libroth</i> (<i>to pierce</i>, cmp. ",
+						"<cite ref=\"Ezekiel 23:47\">Ez. XXIII, 47</cite>), and we read <i>l’habroth</i> &c.]."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "K00405",
+	"slug": "כושפא",
+	"headword": {
+		"text": "כּוּשְׁפָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 626,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כשף</he>, cmp. <he>חשב</he>) <i>embroidery, design</i>.—Pl. <he>כּוּשְׁפִּין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:24\">Targ. Ez. XXVII, 24</cite> <he>כ׳ דוורדא וכ׳</he> Ar. (ed. Lag. <he>דיורדא</he>, ed. <cite ref=\"A03049\"><he>ארזא</he></cite>) designs of roses (cedars) on purple cloaks (h. text <cite ref=\"T01045\"><he>רקמה</he></cite>)."
+			]
+		}
+	]
+}

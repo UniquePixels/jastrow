@@ -1,0 +1,28 @@
+{
+	"id": "C00099",
+	"slug": "גביעא",
+	"headword": {
+		"text": "גְּבִיעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּבִיעָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 207,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>G’biah</i> (<i>hump-backed</i>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite> <he>ג׳ בן קוסם</he>; <cite ref=\"Sanhedrin 91a:5\">Snh. 91ᵃ</cite> <he>ג׳ בן פסיסא</he> Ar. (ed. <cite ref=\"C00080\"><he>גְּבִיהָא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "O00790",
+	"slug": "סיפוק-3",
+	"headword": {
+		"text": "סִיפּוּק",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיפּוּקָא"
+		},
+		{
+			"text": "סִפּ׳"
+		}
+	],
+	"page": {
+		"number": 985,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"O00789\">same</cite>, <i>sufficiency, supply</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 31:1\">Targ. Jer. XXXI, 1</cite> (<cite ref=\"Targum Jonathan on Jeremiah 31:2\">2</cite>) <he>ס׳ צרכיהון</he> (ed. Lag. <he>סופיק</he>, corr. acc.) a supply of their wants. ",
+				"<cite ref=\"Aramaic Targum to Job 36:18\">Targ. Job XXXVI, 18</cite> <he>ס׳ הרבה</he> Ms. Var. (ed. <cite ref=\"M01255\"><he>מִיסַת</he></cite>; h. text <cite ref=\"U01796\"><he>שפק</he></cite>).—2) <i>bran mixed with flour</i>, v. <cite ref=\"O00786\"><he>סִיפּוּסְקָא</he></cite>."
+			],
+			"label": "1"
+		}
+	]
+}

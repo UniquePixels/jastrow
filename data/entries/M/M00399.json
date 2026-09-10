@@ -1,0 +1,24 @@
+{
+	"id": "M00399",
+	"slug": "מוגלא",
+	"headword": {
+		"text": "מוּגְלָא"
+	},
+	"page": {
+		"number": 738,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"M00395\"><he>מוּג</he></cite>; cmp. <cite ref=\"M00428\"><he>מוֹהַל</he></cite>) <i>pus, tenacious matter</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 48a:14\">Ḥull. 48ᵃ</cite> <he>מליא מ׳</he> if the abscess in the kidneys is full of matter, opp. <he>מים זכים</he>. ",
+				"<cite ref=\"Chullin 55b:4\">Ib. 55ᵇ</cite>. ",
+				"<cite ref=\"Yevamot 75b:1\">Yeb. 75ᵇ</cite> <he>ונפק מיניה כחוט דמ׳ וכ׳</he> (Ar. <he>ונפק מיניה מ׳</he>) and there came out of the wound something like a thread of pus, and yet he begot children afterwards."
+			]
+		}
+	]
+}

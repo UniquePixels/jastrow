@@ -1,0 +1,27 @@
+{
+	"id": "V00085",
+	"slug": "תגלא",
+	"headword": {
+		"text": "תַּגְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֶּן תַּגְלָא"
+		}
+	],
+	"page": {
+		"number": 1646,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ben Tagla</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 12:12:1\">Koh. R. to XII, 12</cite> <he>ספר בן ת׳</he> the Book of B. T. (an apocryphal book); v. <cite ref=\"L00620\"><he>לַעֲנָה</he> I</cite>."
+			]
+		}
+	]
+}

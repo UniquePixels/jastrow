@@ -1,0 +1,139 @@
+{
+	"id": "O01098",
+	"slug": "סמך-2",
+	"headword": {
+		"text": "סְמַךְ",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "סְמֵיךְ"
+		}
+	],
+	"page": {
+		"number": 1001,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01097\">same</cite><i>to press, lay hands on, lean on</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 5:19\">Targ. Am. V, 19</cite>. ",
+				"<cite ref=\"Onkelos Exodus 29:10\">Targ. Ex. XXIX, 10</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to support, uphold</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 51:14\">Targ. Ps. LI, 14</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to rest on; to rely, feel safe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 1:6\">Targ. II Sam. I, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 88:8\">Targ. Ps. LXXXVIII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 71:6\">Ib. LXXI, 6</cite>; a.fr. fr.—",
+				"<cite ref=\"Chagigah 20b:5\">Ḥag. 20ᵇ</cite> <he>מִיסְמַךְ סָמְכָא דעתייהו</he> their mind is at rest (they feel safe that they cannot be seen). ",
+				"<cite ref=\"Avodah Zarah 71b:14\">Ab. Zar. 71ᵇ</cite> <he>סמכא דעתיה</he> he feels sure (of his bargain); a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to bring close, join</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:2:2\">Y. Sabb. III, 5ᵈ</cite> bot., v. <cite ref=\"A00407\"><he>אֲדֵירָא</he></cite>. ",
+				"<cite ref=\"Yevamot 119a:9\">Yeb. 119ᵃ</cite> <he>סְמוֹךְ מיעוטא וכ׳</he> bring close, i.e. add. &c., v. <cite ref=\"M01260\"><he>מִיעוּטָא</he></cite>; <cite ref=\"Kiddushin 80a\">Kidd. 80ᵃ</cite>; a. e.—Esp. <i>to ordain</i> (v. <cite ref=\"O01097\">preced.</cite>, a. ",
+				"<cite ref=\"Onkelos Deuteronomy 34:9\">Targ. Deut. XXXIV, 9</cite>). ",
+				"<cite ref=\"Sanhedrin 13b:12\">Snh. 13ᵇ</cite> (expl. <he>סמיכת זקנים</he>, v. <cite ref=\"O01092\"><he>סְמִיכוּת</he></cite>) <he>מִיסְמַךְ סבי</he> ordaining of elders. ",
+				"<cite ref=\"Sanhedrin 13b:12\">Ib.</cite> <he>בירֹא ממש סַמְכִין ליה או בשמא סמכין ליה</he> Ms. M. must they ordain him by actually putting a hand on him, or merely by calling his name? <cite ref=\"Sanhedrin 13b:12\">Ib.</cite> <he>וחד לא סָמֵיךְ</he> and one alone cannot ordain? <cite ref=\"Sanhedrin 14a:4\">Ib. 14ᵃ</cite> <he>ור״מ … סַמְכֵיה</he> was it R. J. ben B. that ordained R. Meir? <cite ref=\"Sanhedrin 14a:10\">Ib.</cite> <he>הוה מיטמר מלמיסמכיה</he> Ms. M. was on his guard not to be ordained. ",
+				"<cite ref=\"Sanhedrin 14a:11\">Ib.</cite> <he>סְמוֹכוּ לנא</he> appoint for us as teachers, v. <cite ref=\"H01183\"><he>חֲמִיסִין</he></cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"O01090\"><he>סָמִיךְ</he></cite>, <cite ref=\"O01090\"><he>סְמִיךְ</he></cite> "
+			],
+			"label": "4",
+			"senses": [
+				{
+					"gloss": " <i>ordained</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 49a:16\">Pes. 49ᵃ</cite> <he>תרי בני סְמִיכֵי</he> two sons both of whom were ordained teachers.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>near</i>, <i>adjoining</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 21:14\">Targ. Y. I Num. XXI, 14</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 2:5\">Ib. II, 5</cite>; <cite ref=\"Targum Jonathan on Numbers 2:12\">12</cite>, a. e. (interch. with <he>סְמוּכִין</he>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 6:7\">Targ. Y. Deut. VI, 7</cite>.—",
+						"<cite ref=\"Sanhedrin 7b:8\">Snh. 7ᵇ</cite> <he>וס׳ ליה וכ׳</he> and next to it follows &c.; <cite ref=\"Sanhedrin 107a\">ib. 107ᵃ</cite>; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַמֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to press, stamp, make a thick mass</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 116a:3\">Pes. 116ᵃ</cite> <he>וצריך לסַמּוּכֵיה וכ׳</he> and you must make it a thick mass so as to be emblematical of clay (v. <cite ref=\"H01630\"><he>חֲרוֹסֶת</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to secure</i>, esp. <i>to refer to a depositary for payment; to draw an order for</i>. Y. Kidd. III, 64ᵃ top <he>סַמְּכֵיה גבי לוי</he> he referred him to Levy (as his depositary). ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>סַמְּכוּן … גבי זבונה</he> they secured the teacher by a deposit with a merchant. Y. Shebu. VII, 38ᵃ top, <cite ref=\"K01383\"><he>כַּתָּפָא</he></cite>. Y. B. Mets. IV, beg. 9ᶜ; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַסְמַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to give an order to</i>. Ib. <he>אנא בעי … דאַסְמִיכְתַּנִי</he> I want to collect the money for which thou hast given me an order (at the banker’s).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lean on; to find support; to give support</i>. Y. Ber. II, 4ᶜ <he>כל מילה … מַסְמְכִין לה מן וכ׳</he> whenever a proposition is not evident, they try to support it by a large number of Biblical passages; <cite ref=\"Pesikta Rabbati 22:1\">Pesik. R. s. 22</cite> <he>מַסְמְכִינָן</he>, v. <cite ref=\"A03444\"><he>אֲתַר</he></cite>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 5a:15\">M. Kat. 5ᵃ</cite> <he>אַסְמְכָהּ אקרא</he> gave it support by reference to a Biblical verse. ",
+						"<cite ref=\"Berakhot 19b:11\">Ber. 19ᵇ</cite> <he>כל מילי … אַסְמְכִינְהוּ על וכ׳</he> they lean all rules of the Rabbis on the law, ‘Thou shalt not deviate’, v. <cite ref=\"O00408\"><he>סוּר</he> I</cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to make substantial, put a thick layer on</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 13b:4\">M. Kat. 13ᵇ</cite> <he>מעבין אַסְמוּכֵי</he> <i>mʾʿabbin</i> (Mish. ",
+						"<cite ref=\"Mishnah Moed Katan 2:5\">ib. II, 5</cite>) means covering with a heavy layer, opp. <he>אַקְלוּשֵׁי</he>, v. <cite ref=\"S01426\"><he>קְלַשׁ</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתְּמִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to lean; to rely</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 16:26\">Targ. Jud. XVI, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 50:10\">Targ. Is. L, 10</cite>; a. fr.—",
+						"<cite ref=\"Yevamot 42b:10\">Yeb. 42ᵇ</cite> <he>מִסְתְּמִיךְ ואזיל וכ׳</he> R. A. walked leaning on the shoulder of &c. Y. Ber. II, 4ᵇ; Y. M. Kat. III, 83ᶜ bot. <he>ר׳ יוחנן הוה מיסתמיך וכ׳</he> R. J. was (walking) leaning on &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

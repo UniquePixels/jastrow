@@ -1,0 +1,40 @@
+{
+	"id": "P01515",
+	"slug": "עששית-1",
+	"headword": {
+		"text": "עֲשָׁשִׁית"
+	},
+	"page": {
+		"number": 1127,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A03361\"><he>אָשַׁשׁ</he></cite> a. <cite ref=\"P01518\"><he>עֶשֶׁת</he></cite>)",
+			"units": []
+		},
+		{
+			"gloss": " ע׳ של ברזל <i>wrought iron, bar, ball</i>.—Pl. <he>עֲשָׁשִׁיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Yoma 34b:4\">Yoma 34ᵇ</cite> <he>ע׳ של ברזל וכ׳</he> lumps of wrought iron were heated for the high priest on the eve of the Day of Atonement; <cite ref=\"Tosefta Yoma 1:20\">Tosef. ib. I, 20</cite> (Var. <cite ref=\"P01515\"><he>עששית</he></cite>); Y. ib. III, 40ᶜ <he>עֲשָׁשׁוֹת</he>. ",
+				"<cite ref=\"Avodah Zarah 16a:3\">Ab. Zar. 16ᵃ</cite> <he>אין מוכרין להם ע׳ וכ׳</he> we must not sell them (the Romans) iron bars, … because they forge arms out of them (expl. <he>פרזלא הינדואה</he>, v. <cite ref=\"E00451\"><he>הִינְדָּוָא</he></cite>). ",
+				"<cite ref=\"Sanhedrin 108b:2\">Snh. 108ᵇ</cite> <he>יש לנו ע׳ וכ׳</he> we have iron plates with which we can pave the ground (to prevent water coming up)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"A03362\"><he>אֶשֶׁשׁ</he></cite>) <i>glass ball, crystal, reflector, lantern</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 25b:10\">Ber. 25ᵇ</cite> <he>בע׳</he> covered with a translucent substance. ",
+				"<cite ref=\"Berakhot 53a:2\">Ib. 53ᵃ</cite> <he>ע׳ שהיתה דולקת וכ׳</he> a lantern which has been burning the whole day (of the Sabbath); Y. ib. VI, 12ᵇ bot. ",
+				"<cite ref=\"Rosh Hashanah 24a:5\">R. Hash. 24ᵃ</cite> <he>ראינוהו בע׳</he> we have seen the reflection of the moon in a crystal, v. <cite ref=\"A03362\"><he>אֶשֶׁשׁ</he></cite>; a. e.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Shabbat 154b:2\">Sabb. 154ᵇ</cite> <he>היתה בהמתו … וע׳</he> if his beast is laden with … glass lumps, expl. ",
+				"<cite ref=\"Shabbat 154b:5\">ib.</cite> <he>בבולסא</he>, v. <cite ref=\"B00271\"><he>בּוּלְסָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "K00313",
+	"slug": "כונתא-2",
+	"headword": {
+		"text": "כּוּנְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּנָּתָא"
+		}
+	],
+	"page": {
+		"number": 623,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כתת</he>, with inserted <cite ref=\"N00001\"><he>נ</he></cite>, cmp. <cite ref=\"K00311\"><he>כּוּנְשְׁרָא</he></cite>) [<i>that which is pounded</i>,] <i>spelt</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 13b:7\">M. Kat. 13ᵇ</cite> <he>כי … אמר כ׳</he> when Rab Dimi came (to Babylonia) he defined <i>ḥelka</i> (v. <cite ref=\"H00791\"><he>חֶילְקָא</he> II</cite>) as <i>kunta</i>.—Pl. <he>כּוּנְתַּיָּא</he>, (<he>כּוּנָּתַיָּא</he>) <he>כּוּנְתִּין</he>. ",
+				"<cite ref=\"Onkelos Exodus 9:32\">Targ. Ex. IX, 32</cite> <he>כּוּנָּ׳</he> ed. Berl. (ed. Amst. <cite ref=\"K00299\"><he>כּוּנָ׳</he></cite>; Y. <cite ref=\"K00313\"><he>כּוּנְתַּ׳</he></cite>, Var. <he>כָּנְתַּ׳</he>, <he>כֻּנְתַּ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:25\">Targ. Is. XXVIII, 25</cite>; <cite ref=\"Targum Jonathan on Ezekiel 4:9\">Targ. Ez. IV, 9</cite> (ed. Wil. <he>כּוּנְתִין</he>, oth. ed. <he>כונתּ׳</he>)."
+			]
+		}
+	]
+}

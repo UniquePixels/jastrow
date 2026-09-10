@@ -1,0 +1,23 @@
+{
+	"id": "M00784",
+	"slug": "מזרים",
+	"headword": {
+		"text": "מְזָרִים"
+	},
+	"page": {
+		"number": 756,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>M’zarim</i>, name of a constellation of stars (<i>those scattering the clouds</i>, v. <cite ref=\"G00674\"><he>זָרָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:9\">Targ. Job XXXVII, 9</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M00836",
+	"slug": "מחותא-1",
+	"headword": {
+		"text": "מָחוּתָא"
+	},
+	"page": {
+		"number": 758,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00534\"><he>נְחַת</he></cite>) <i>going down, fall.—</i>Pl. <he>מְחוּתִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:43\">Targ. Y. Deut. XXVIII, 43</cite>. [<he>מחותא</he>, <cite ref=\"Aramaic Targum to Proverbs 20:30\">Targ. Prov. XX, 30</cite> ed. Lag., v. <cite ref=\"M00950\"><he>מַחֲתָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "R00746",
+	"slug": "צרוך",
+	"headword": {
+		"text": "צְרוֹךְ"
+	},
+	"page": {
+		"number": 1300,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00788\"><he>צְרַךְ</he></cite>) <i>need, use, profit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 7:5\">Targ. Y. Num. VII, 5</cite>, v. <cite ref=\"R00293\"><he>צִיבָּא</he> II</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 8:8\">Targ. Hos. VIII, 8</cite> (h. text <he>חפץ</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 54:12\">Targ. Is. LIV, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 35:3\">Targ. Job XXXV, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 5:7\">Targ. II Kings V, 7</cite> <he>הצ׳ אית בי וכ׳</he> does the Lord need me &c.?; a. fr.—[<cite ref=\"Aramaic Targum to Psalms 70:1\">Targ. Ps. LXX, 1</cite>, v. <cite ref=\"R00786\"><he>צְרִירָא</he></cite>.]"
+			]
+		}
+	]
+}

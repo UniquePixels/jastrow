@@ -1,0 +1,55 @@
+{
+	"id": "M01379",
+	"slug": "מכילא",
+	"headword": {
+		"text": "מְכִילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְכִילְתָּא"
+		},
+		{
+			"text": "מְכִל׳"
+		}
+	],
+	"page": {
+		"number": 782,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00259\"><he>כּוּל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>measure of capacity</i>; trnsf. (v. <cite ref=\"M00252\"><he>מִדָּה</he></cite>) <i>retribution, dealing out</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 25:14\">Targ. O. Deut. XXV, 14</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 23:29\">Targ. I Chr. XXIII, 29</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Job 9:22\">Targ. Job IX, 22</cite> <he>חדא מ׳</he> the same destiny.—Pl. <cite ref=\"M01379\"><he>מְכִילָן</he></cite>, <he>מְכִלָן</he>, <cite ref=\"M01379\"><he>מְכִילָתָא</he></cite>, <cite ref=\"M01379\"><he>מְכִלָ׳</he></cite>. Targ. Y. Deut. l. c. ",
+				"<cite ref=\"Onkelos Leviticus 19:36\">Targ. O. Lev. XIX, 36</cite> (Y. <he>מְכִילוּ</he>, read: … <he>לָן</he>). Y. B. Bath. V, end, 15ᵇ <he>הוה מחי על מ׳</he> punished for false measures."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a vessel used in connection with the show-bread</i> in the Temple.—Pl. <cite ref=\"M01379\"><he>מְכִילָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:29\">Targ. Ex. XXV, 29</cite> (h. text <cite ref=\"M01814\"><he>מנקיות</he></cite>); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"M00252\"><he>מִדָּה</he></cite>) <i>a collection of rules of interpretation, treatise, tract</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 44a:10\">Gitt. 44ᵃ</cite> <he>עיין במְכִילְתֵּיךְ</he> read it up in thy collection (Boraitha). ",
+				"<cite ref=\"Pesachim 48a:13\">Pes. 48ᵃ</cite> <he>ואהדר ליה במ׳ וכ׳</he> and his reply is recorded in another collection.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:8:6\">Y. Ab. Zar. IV, 44ᵇ</cite> top <he>אפיק … מ׳</he> R. Y. produced the M’khilta (v. infra; v. Mekh. Mishp. s. 20, ed. Weiss, p. 107, note 100).—Pl. <cite ref=\"M01379\"><he>מְכִילָאן</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 3:1\">Lev. R. s. 3</cite>, beg. <he>רעותיה … בר מ׳</he> he likes to be called a man mastering many Mekhiltas; <cite ref=\"Kohelet Rabbah 4:6:1\">Koh. R. to IV, 6</cite> <he>מרי מ׳</he> (some ed. <cite ref=\"M01151\"><he>מיכיילא</he></cite>, <he>מיכלייאן</he>, v. <cite ref=\"M01154\"><he>מֵיכְלָא</he> II</cite>).—Esp. <i>M’khilta</i>, or <i>M. d’bé R. Yishmael</i>, a <i>Halakhic and Midrashic book</i> on Exodus from ch. XII, to XXXV."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"id": "H01708",
+	"slug": "חרך-2",
+	"headword": {
+		"text": "חֲרַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲרוֹךְ"
+		},
+		{
+			"text": "חֲרֵיךְ"
+		}
+	],
+	"page": {
+		"number": 503,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01707\">same</cite> (neut. verb) <i>to be burnt, blackened</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:30\">Targ. Job XXX, 30</cite> (h. text <he>חרה</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 6:29\">Targ. Jer. VI, 29</cite> <cite ref=\"H01678\"><he>חֲרֵיךְ</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 9:18\">Targ. Is. IX, 18</cite> <cite ref=\"H01625\"><he>חֲרוֹכַת</he></cite> (ed. Lag. <he>חרובת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (act. verb) <i>to burn, roast</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 40a:2\">Pes. 40ᵃ</cite> <he>לא לִיחֲרוֹךְ וכ׳</he> one must not roast two ears &c.—Part. pass. <cite ref=\"H01678\"><he>חֲרִיךְ</he></cite>. ",
+				"<cite ref=\"Bava Metzia 85a:22\">B. Mets. 85ᵃ</cite>; <cite ref=\"Berakhot 46a:1\">Ber. 46ᵃ</cite>, a. e., v. <cite ref=\"H01625\"><he>חֲרוֹכָא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חָרֵיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to burn, singe the hair off</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 41a:4\">Kidd. 41ᵃ</cite> <he>מְחָרֵיךְ רישא</he> he himself singed the hair off the animal’s head (in preparing for the Sabbath). ",
+						"<cite ref=\"Avodah Zarah 38a\">Ab. Zar. 38ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחֲרִיךְ", "אִיחֲ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be burnt</i> &c. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 21:15\">Targ. Y. Gen. XXI, 15</cite> <he>אתח׳</he> he was parched (with fever). ",
+						"<cite ref=\"Targum Jonathan on Exodus 12:37\">Targ. Y. Ex. XII, 37</cite>.—",
+						"<cite ref=\"Bava Metzia 85a:22\">B. Mets. 85ᵃ</cite> <he>אִיחַרְכוּ שקיה</he> (Ar. <he>חרכו</he>) his legs were burnt. ",
+						"<cite ref=\"Bava Batra 74a:5\">B. Bath. 74ᵃ</cite> <he>אִיחֲרַךְ אִיחֲרוּכֵי</he> Ms. M. 2 (ed. … <he>הוה איח׳</he>, v. Rabb. D. S. a. l. note) it (the wool) was singed. ",
+						"<cite ref=\"Niddah 28a\">Nidd. 28ᵃ</cite> <he>איחרך אִיחֲרוּכֵי</he> Rashi (ed. <he>איחרכי</he>, corr. acc.) it (the corpse) was charred (not burnt to ashes)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

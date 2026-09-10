@@ -1,0 +1,31 @@
+{
+	"id": "G00466",
+	"slug": "זכך",
+	"headword": {
+		"text": "זָכַךְ"
+	},
+	"page": {
+		"number": 399,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"G00443\"><he>זָכָה</he></cite>) <i>to be clear</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִכְזֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to make clear</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Niddah 4:11\">Tosef. Nidd. IV, 11</cite> <he>שמן רך ומְזַכְזֵךְ</he> oil is softly flowing and clears (the embryonic mass; <cite ref=\"Niddah 25b:1\">Nidd. 25ᵇ</cite> <he>ומצחצחו</he>)."
+					]
+				}
+			],
+			"stem": "Pilp."
+		}
+	]
+}

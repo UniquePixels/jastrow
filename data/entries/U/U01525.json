@@ -1,0 +1,91 @@
+{
+	"id": "U01525",
+	"slug": "שמר-1",
+	"headword": {
+		"text": "שָׁמַר"
+	},
+	"page": {
+		"number": 1600,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be still,</i>] <i>to watch, guard, wait; to observe; to keep</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 63b:2-5\">Snh. 63ᵇ</cite> <he>לא … שְׁמוֹר לי וכ׳</he> one should not say to his neighbor, wait for me at such and such an idolatrous statue (or temple). ",
+				"<cite ref=\"Bava Metzia 58a:8\">B. Mets. 58ᵃ</cite> <he>השוכר … לִשְׁמוֹר את וכ׳</he> if one hires a workingman to guard a cow, a child &c. ",
+				"<cite ref=\"Shabbat 118b:4\">Sabb. 118ᵇ</cite> <he>אלמלי שָׁמְרוּ ישראל וכ׳</he> if Israel had observed the first Sabbath &c.; a v. fr.—Part. pass. <cite ref=\"U01443\"><he>שָׁמוּר</he></cite>; f. <cite ref=\"U01441\"><he>שְׁמוּרָה</he></cite> &c. Ib. XXII, 4 <he>נותנין … בשביל שיהא ש׳</he> you may put a dish into the well that it be kept (cool); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁמֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01524\">same</cite>. Ib. 118ᵇ <he>אילמלי מְשַׁמְּרִין ישראל וכ׳</he> if Israel would observe two Sabbaths as they ought do, they would at once be redeemed. ",
+					"units": [
+						"<cite ref=\"Ketubot 62b:10\">Keth. 62ᵇ</cite> <he>ענייה זו לשוא שִׁימְּרָה</he> the poor woman has in vain waited (for her husband). ",
+						"<cite ref=\"Mishnah Avodah Zarah 4:11\">Ab. Zar. IV, 11</cite> <he>אין … יושב ומְשַׁמֵּר וכ׳</he> the watchman (guarding wine against idolatrous defilement) need not sit and watch &c. Y. Kidd. I, 58ᵈ top <he>המקום משמר וכ׳</he> God has watched, and such a case has never occurred. Y. M. Kat. III, 82ᶜ <he>שי׳ הקב״ה … שבעה</he> the Lord observed the seven days of mourning for his world (before the flood, ref. to <cite ref=\"Genesis 7:10\">Gen. VII, 10</cite>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"U01527\"><he>שְׁמָרִים</he></cite>) <i>to clear wine from lees, filter, strain</i> (v. <cite ref=\"M02933\"><he>מְשַׁמֶּרֶת</he></cite>). ",
+					"units": [
+						"<cite ref=\"Shabbat 138a:3\">Sabb. 138ᵃ</cite> <he>שי׳ חייב וכ׳</he> if one filtered wine (on the Sabbath), he is bound to bring a sin-offering; Y. ib. XX, 17ᶜ; VII, 10ᵇ, a. e. <he>המשמר חייב שום בורר</he> he who filters is guilty &c., v. <cite ref=\"B01335\"><he>בָּרַר</he></cite>. Ib. <he>המשמר יין למטן וכ׳</he> when one filters, the wine goes down, and the lees remain above (in the filter); a. fr.—Bab. ib. 146ᵇ <he>מקום העשוי לְשַׁמֵּר</he> a place in the keg where a hole has been made for the purpose of letting the wine off, clear of lees (and has been closed again; Ar. s. v. <he>חזק</he>; Rashi: where the hole has been closed in order to <i>preserve</i> the flavor).—<i>Part. pass.</i> <cite ref=\"M02832\"><he>מְשׁוּמָּר</he></cite> "
+					],
+					"label": "2",
+					"senses": [
+						{
+							"gloss": " <i>guarded</i>. ",
+							"units": [
+								"<cite ref=\"Pesachim 109b:5\">Pes. 109ᵇ</cite> (ref. to <cite ref=\"U01527\"><he>שמרים</he></cite>, <cite ref=\"Exodus 12:42\">Ex. XII, 42</cite>) <he>ליל המש׳ ובא מן המזיקין</he> a night which is for all time guarded against dangers (v. <cite ref=\"M00757\"><he>מַזִּיק</he></cite>); <cite ref=\"Rosh Hashanah 11b\">R. Hash. 11ᵇ</cite>.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>kept, preserved, designated</i>. ",
+							"units": [
+								"<cite ref=\"Rosh Hashanah 11b\">Ib.</cite> <he>ליל המש׳ ובא מששת וכ׳</he> a night which has been designated for redemption since the six days of creation. ",
+								"<cite ref=\"Sanhedrin 99a\">Snh. 99ᵃ</cite>; <cite ref=\"Berakhot 34b:24\">Ber. 34ᵇ</cite> <he>יין המש׳ וכ׳</he>, v. <cite ref=\"P00942\"><he>עֵנָב</he></cite>; a. e."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּמֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be on one’s guard, be observant</i>. Mekh. Bo, s. 14 (ref. to <cite ref=\"U01527\"><he>שמרים</he></cite>, v. supra) <he>מגיד … צריכין להִשְׁתַּמֵּר בו</he> this intimates that all Israelites must be careful in it (to observe its ceremonies); <cite ref=\"Yalkut Shimoni on Torah 210\">Yalk. Ex. 210</cite>; Tanḥ. Bo 9.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be guarded</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 11a:8\">B. Mets. 11ᵃ</cite> <he>המִשְׁתַּמֶּרֶת</he>, v. <cite ref=\"H01544\"><he>חָצֵר</he></cite>. ",
+						"<cite ref=\"Eruvin 54b:8\">Erub. 54ᵇ</cite> <he>אם ראשון … מִשְׁתַּמֵּר וכ׳</he> if the fowler breaks the wings of each bird as he catches it, it is kept (from flying off) &c. ",
+						"<cite ref=\"Menachot 99b:6\">Men. 99ᵇ</cite> <he>כל המשמר … נשמתוֹ משתמרת</he> who guards the Law (takes care not to forget it), his soul is guarded; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁמַר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01524\">same</cite>, <i>to be on one’s guard</i>. Ib. <he>כל מקום שנאמר הִשָּׁמֶר פן ואל וכ׳</he> wherever the Scripture has the words, ‘be on thy guard, lest’, or ‘be on thy guard that not’, it is a prohibitive law; ib. <he>השמר ופן וכ׳</he> ‘be on thy guard’ and ‘lest’ make two prohibitions. Ib. 36ᵇ <he>השמר דלאו לאו</he> <i>hishshamer</i> followed by a negative is a prohibitory law; <he>השמר דעשה עשה</he> <i>hishshamer</i> connected with a positive order, is a positive command (v. <cite ref=\"P01466\"><he>עָשָׂה</he></cite>).—[Tanḥ. Vayḥi 13 <he>ומשמירין</he>, v. <cite ref=\"U01798\"><he>שָׁפַר</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

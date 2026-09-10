@@ -1,0 +1,45 @@
+{
+	"id": "A00466",
+	"slug": "אדרייני",
+	"headword": {
+		"text": "אַדְרְיָינִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַדְרְיָינִי"
+		}
+	],
+	"page": {
+		"number": 18,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Hadrianic</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " of the town <i>Adria</i> or <i>Hadria</i> in Venetia. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 2:3\">Ab. Zar. II, 3</cite> <he>חרס ה׳</he> (Y. Mish. a. ",
+				"<cite ref=\"Mishnah Avodah Zarah 2:3\">Ib.</cite> <he>א׳</he>) earthen ware of Adria (forbidden for use on account of some unknown connection with idolatry, perh. suspected to have been used as wine vessels before they were offered for sale; v. infra)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>referring to Hadrian, Hadrianic</i>. Ib. 32ᵃ explain. <he>חרס הד׳</he> ‘earthen vessels soaked with wine, and distributed in pieces, by order of Hadrian, among the soldiers to be diluted with water for drinking’.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (genit. of Hadrianus) <i>Hadrian</i>’s (followers). ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:52\">Lam. R. to I, 17</cite>, v. <he>אספסיינוס</he>."
+			],
+			"label": "3"
+		}
+	]
+}

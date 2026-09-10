@@ -1,0 +1,22 @@
+{
+	"id": "B00557",
+	"slug": "ביהותא",
+	"headword": {
+		"text": "בִּיהוּתָא"
+	},
+	"page": {
+		"number": 159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00196\"><he>בהת</he></cite>) <i>shame</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 32:21\">Targ. II Chr. XXXII, 21</cite>, constr. <he>בִּיהוּת</he>; v. <cite ref=\"B00197\"><he>בַּהֲתָא</he></cite>."
+			]
+		}
+	]
+}

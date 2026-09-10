@@ -1,0 +1,22 @@
+{
+	"id": "U00133",
+	"slug": "שביקותא",
+	"headword": {
+		"text": "שְׁבִיקוּתָא"
+	},
+	"page": {
+		"number": 1514,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00169\"><he>שְׁבַק</he></cite>) <i>remission, forgiveness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 130:4\">Targ. Ps. CXXX, 4</cite> (h. text <cite ref=\"O00984\"><he>סליחה</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "P00886",
+	"slug": "עמילה",
+	"headword": {
+		"text": "עֲמֵילָה"
+	},
+	"page": {
+		"number": 1088,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00899\"><he>עָמַל</he></cite>; v. <cite ref=\"P00884\"><he>עָמִיל</he></cite>) <i>well-worked</i>; <he>פת ע׳</he> <i>well-kneaded bread</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 37a:2\">Pes. 37ᵃ</cite>.—",
+				"<cite ref=\"Shabbat 62b:23\">Sabb. 62ᵇ</cite> (in lascivious language) <he>פת ע׳</he> an old prostitute, v. <cite ref=\"O01275\"><he>סָעַד</he></cite>."
+			]
+		}
+	]
+}

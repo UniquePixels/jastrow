@@ -1,0 +1,24 @@
+{
+	"id": "B00364",
+	"slug": "בורית-1",
+	"headword": {
+		"text": "בּוֹרִית"
+	},
+	"page": {
+		"number": 150,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"B01282\"><he>בֹּרִית</he></cite>, contr. of <he>בהרית</he>, <he>בהר</he>; v. <he>ברר</he>)<i>a sort of soap, lixivium</i>, <cite ref=\"Mishnah Niddah 9:6\">Nidd. IX, 6</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 9:5\">Sabb. IX, 5</cite>. ",
+				"<cite ref=\"Shabbat 90a:4\">Ib. 90ᵃ</cite>; <cite ref=\"Niddah 62a:21\">Nidd. 62ᵃ</cite>, v. <cite ref=\"A00502\"><he>אֳהָל</he></cite>, <cite ref=\"A00504\"><he>אַהֲלָא</he></cite>, <cite ref=\"G00431\"><he>זֵיתָא</he></cite> II a. <cite ref=\"K00079\"><he>כַּבְרִיתָא</he></cite>. ",
+				"<cite ref=\"Keritot 6a:43\">Kerith. 6ᵃ</cite> <he>ב׳ כרשינה</he> a borith won out of a leek."
+			]
+		}
+	]
+}

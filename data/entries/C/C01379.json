@@ -1,0 +1,48 @@
+{
+	"id": "C01379",
+	"slug": "גרע-1",
+	"headword": {
+		"text": "גָּרַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 271,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"C01392\"><he>גרר</he></cite>) <i>to scrape off, to diminish, deduct</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 29a:34\">Snh. 29ᵃ</cite> <he>כל המוסיף גּוֹרֵעַ</he> he who adds (to the truth) diminishes (whoever does too much does too little). ",
+				"<cite ref=\"Rosh Hashanah 28b\">R. Hash. 28ᵇ</cite>, a. fr. <he>עובר על בל תִּגְרַע</he> transgresses the law which prohibits diminishing from what the Law prescribes (<cite ref=\"Deuteronomy 13:1\">Deut. XIII, 1</cite>, v. <cite ref=\"B00800\"><he>בַּל</he></cite>). ",
+				"<cite ref=\"Yoma 48a:7\">Yoma 48ᵃ</cite> <he>גּוֹרְעִין ומוסיפין ודורשין</he> we may take away (one servile letter from one word of the text) and add it to another and thus interpret the law (e.g. <he>מדם הפר</he> explained as: <he>דם מהפר</he>); <cite ref=\"Bava Batra 111b\">B. Bath. 111ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:6:5\">Y. Yeb. VIII, end, 9ᵈ</cite>, v. <cite ref=\"C00974\"><he>גָּלַע</he></cite>.—[<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite>, a. e. <he>גרעה קומתו</he>, v. <cite ref=\"C00454\"><he>גָּוַע</he></cite>.]—<i>Part. pass.</i> <cite ref=\"C01308\"><he>גָּרוּעַ</he></cite> <i>inferior</i>. Pl. <he>גְּרוּעִים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite>. [<cite ref=\"Berakhot 36a:12\">Ber. 36ᵃ</cite> <he>ומי גרע</he>, read with Ms. M. <he>גריעי</he>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגְרִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to deduct from, to calculate the price of redemption in proportion to the years served and those to be served</i>, v. <cite ref=\"C00824\"><he>גֵּירוּעַ</he></cite> <cite ref=\"Kiddushin 11b:9\">Kidd. 11ᵇ</cite> <he>מַגְרַעַת מפדיונה</he> she makes a deduction from her redemption money; <cite ref=\"Kiddushin 14b:4\">ib. 14ᵇ</cite> <he>מגרעת פדיונה</he> she lessens &c.; <cite ref=\"Kiddushin 16a\">ib. 16ᵃ</cite> <he>מגרע פד׳</he> (corr. acc.). Y. Kidd. I, 58ᶜ bot.; Y. Shebu. VI, beg. 36ᵈ <he>מגרעת</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>מעה וכ׳</he> she redeems herself by deducting a M’ah for each year.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִגְרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be deducted, to be redeemed by deducting the compensation for the time served</i>. Y. Kidd. l. c. <he>אם בקשה לִיגָּרֵעַ</he> if the desires a redemption by deduction &c.; Y. Shebu. l. c. <he>למיגרע</he> (read: <he>לֵהִיגָּ׳</he> or <cite ref=\"L00125\"><he>לִיגָּ׳</he></cite>). ",
+					"units": [
+						"<cite ref=\"Kiddushin 11b:10\">Kidd. 11ᵇ</cite> <he>תִּיגָּרֵעַ עד פרוטה</he> she can redeem herself by deductions until she comes down to a P’rutah."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "G00688",
+	"slug": "זרז-4",
+	"headword": {
+		"text": "זְרַז",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זַרְזָא"
+		},
+		{
+			"text": "זָרִיז"
+		}
+	],
+	"page": {
+		"number": 412,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00687\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 18:4\">Targ. I Sam. XVIII, 4</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 5:27\">Targ. Is. V, 27</cite> <cite ref=\"G00703\"><he>זְרִיז</he></cite> (constr., ed. Lag. <cite ref=\"G00686\"><he>זרז</he></cite>).—Pl. <he>זְרָזִין</he>, <he>זַרְזִין</he> <i>garments, equipment</i>. ",
+				"<cite ref=\"Onkelos Genesis 3:7\">Targ. O. Gen. III, 7</cite> (h. text <he>חֲג̇רֹת</he>). ",
+				"<cite ref=\"Targum Jonathan on Judges 14:19\">Targ. Jud. XIV, 19</cite> <he>זרזיהון</he> ed. Lag. (ed. Wil. <he>זְרָזָהוֹן</he>, h. text <he>חליצות׳</he>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 83:15\">Targ. Ps. LXXXIII, 15</cite> <he>זַרְזֵי טוריא</he> the <i>crests</i> of mountains (cmp. <cite ref=\"G00415\"><he>זִיר</he></cite>; Ms. <cite ref=\"D01080\"><he>דָּרֵי</he></cite>, v. <cite ref=\"D01026\"><he>דָּרָא</he> I</cite>)."
+			]
+		}
+	]
+}

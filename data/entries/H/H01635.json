@@ -1,0 +1,23 @@
+{
+	"id": "H01635",
+	"slug": "חרורא",
+	"headword": {
+		"text": "חָרוֹרָא"
+	},
+	"page": {
+		"number": 500,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חור</he>, v. <cite ref=\"H00687\"><he>חִיוַּרְוָרַיָּא</he></cite>; cmp. P. Sm. 1226, sq. s. v. <he>חור</he>) <i>dazzling the eye, deceiver</i>.—Pl. <he>חָרוֹרִין</he>, constr. (<he>חֲרוּ׳</he>) <cite ref=\"H01638\"><he>חֲרוֹרֵי</he></cite>, with <he>עיינין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 18:10\">Targ. Y. I Deut. XVIII, 10</cite> (Y. II ed. Amst. <cite ref=\"H01619\"><he>חָרוֹדֵי</he></cite>, corr. acc.); ib. 14 (h. text <he>מְעֹנֵן</he>, derived fr. <cite ref=\"P00291\"><he>עוּן</he></cite>, v. ",
+				"<cite ref=\"Sanhedrin 65b:15\">Snh. 65ᵇ</cite> quot. s. v. <cite ref=\"G00450\"><he>זְכוּרוּ</he></cite>). [<cite ref=\"Targum Jonathan on Leviticus 19:26\">Targ. Y. Lev. XIX, 26</cite> <he>ולא אחורי סנהדרין עיינין</he>, read: <he>ולא חרורי עיינין</he>, the word <he>סנהדרין</he> being a glossator’s reference to Snh. l. c.]"
+			]
+		}
+	]
+}

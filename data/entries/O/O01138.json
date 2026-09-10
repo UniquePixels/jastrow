@@ -1,0 +1,22 @@
+{
+	"id": "O01138",
+	"slug": "סמר-3",
+	"headword": {
+		"text": "סְמַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1003,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= h. <cite ref=\"U01525\"><he>שָׁמַר</he></cite>), <i>Ithpa.</i> <cite ref=\"O00085\"><he>אִסְתַּמַּר</he></cite>, <he>אִסְטַ׳</he> <i>to take heed, beware</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 23:21\">Targ. O. Ex. XXIII, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 6:18\">Targ. Josh. VI, 18</cite> (some ed. <he>אסט׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 36:21\">Targ. Job XXXVI, 21</cite> (Ms. <he>אסט׳</he>); a. fr.—[<cite ref=\"Aramaic Targum to Job 34:17\">Ib. XXXIV, 17</cite>, v. <cite ref=\"O01151\"><he>סַמְתֵּר</he></cite>.]"
+			]
+		}
+	]
+}

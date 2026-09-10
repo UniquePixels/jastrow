@@ -1,0 +1,34 @@
+{
+	"id": "A01198",
+	"slug": "איזלא",
+	"headword": {
+		"text": "אִיזְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּזְלָא"
+		},
+		{
+			"text": "אוּזַלְתָּא"
+		}
+	],
+	"page": {
+		"number": 46,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אֲזַל</he> II) <i>web, net</i>, &c. ",
+			"units": [
+				"<cite ref=\"Chullin 51b:14\">Ḥull. 51ᵇ</cite> <he>אי׳ ומקרבי קיטרי</he> a net in which the knots are close. ",
+				"<cite ref=\"Eruvin 28b:21\">Erub. 28ᵇ</cite> <he>אוזלתא דאיכרי</he> Ms. M. (ed. <cite ref=\"A00601\"><he>אוזילתא</he></cite>, Ar. <he>איזולתא</he>) the twist (of bunches) of the farmer.—Pl. <he>אִיזְלֵי</he>. ",
+				"<cite ref=\"Moed Katan 11a:2\">M. Kat. 11ᵃ</cite>. ",
+				"<cite ref=\"Gittin 60b\">Git. 60ᵇ</cite> <he>אוּזְלֵי</he>; v. <cite ref=\"A00575\"><he>אוֹהֲרָא</he></cite>.—",
+				"<cite ref=\"Eruvin 8a:13\">Erub. 8ᵃ</cite> <he>פסק ליה לסורא באו׳</he> (ed. Sonc. <cite ref=\"A02549\"><he>אי׳</he></cite>) he separated the court-yards of Sura with nets (<i>hurdles, matting</i>)."
+			]
+		}
+	]
+}

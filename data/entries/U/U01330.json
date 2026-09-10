@@ -1,0 +1,26 @@
+{
+	"id": "U01330",
+	"slug": "שליף-2",
+	"headword": {
+		"text": "שְׁלִיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלִיפָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1584,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01329\">same</cite>.—Pl. <he>שְׁלִיפֵי</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 154b:7\">Sabb. 154ᵇ</cite> <he>ש׳ זוטרי</he> small bags. ",
+				"<cite ref=\"Bava Batra 86b\">B. Bath. 86ᵇ</cite> <he>ש׳ רברבי</he> large bags; a. e."
+			]
+		}
+	]
+}

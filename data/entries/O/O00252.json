@@ -1,0 +1,22 @@
+{
+	"id": "O00252",
+	"slug": "סוגיינא",
+	"headword": {
+		"text": "סוּגְיָינָא"
+	},
+	"page": {
+		"number": 961,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <cite ref=\"O00252\"><he>סוּגְיָינֵי</he></cite> (<he>סְגֵי</he> I, cmp. <cite ref=\"O00159\"><he>סִגְנִיּוֹת</he></cite>) <i>twigs</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 29b:13\">Erub. 29ᵇ</cite> <he>ס׳ דערבתא</he> (some ed. <cite ref=\"O00109\"><he>סְגוּיָינֵי</he></cite>; Ms. M. <he>סוגיתני</he>, corr. acc.; Ms. O. <cite ref=\"O00568\"><he>סִגְנֵי</he></cite>) twigs of a willow."
+			]
+		}
+	]
+}

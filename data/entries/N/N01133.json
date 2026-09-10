@@ -1,0 +1,27 @@
+{
+	"id": "N01133",
+	"slug": "נצל-3",
+	"headword": {
+		"text": "נֵצֶל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נֵי׳"
+		}
+	],
+	"page": {
+		"number": 929,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01132\">preced.</cite> wds.) [<i>that which is thrown away</i>,] <i>decayed matter</i>, esp. (in levitical law) <i>liquid and coagulated portions of a corpse</i>. Ohol. II, 1; <cite ref=\"Mishnah Nazir 7:2\">Naz. VII, 2</cite>. Y. ib. VII, 56ᵇ bot. <he>איזהו נ׳ בשר המת שנתוק ומוהל וכ׳</he> (Ar. <he>שנצל</he>) what is <i>netsel</i> (in levitical law)? A corpse which is dissolving &c., v. <cite ref=\"M00428\"><he>מוֹהַל</he></cite>; Bab. ib. 50ᵃ <he>איזהו נ׳ בשר המת שקרש ומוהל שהרתיח</he> a secretion from a corpse which became coagulated, and a liquid secretion exposed to heat. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 3:6\">Tosef. Ohol. III, 6</cite>; a. e."
+			]
+		}
+	]
+}

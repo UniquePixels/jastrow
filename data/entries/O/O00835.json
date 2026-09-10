@@ -1,0 +1,28 @@
+{
+	"id": "O00835",
+	"slug": "סירוב",
+	"headword": {
+		"text": "סֵירוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "סֵר׳"
+		}
+	],
+	"page": {
+		"number": 987,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01511\"><he>סָרַב</he></cite>) <i>declining an office</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:3:10\">Y. Ber. V, 9ᶜ</cite> bot.; Bab. ",
+				"<cite ref=\"Berakhot 34a\">Ber. 34ᵃ</cite> Ar. (ed. <cite ref=\"O01522\"><he>סַרְבָּנוּת</he></cite>)."
+			]
+		}
+	]
+}

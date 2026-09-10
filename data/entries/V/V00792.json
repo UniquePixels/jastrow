@@ -1,0 +1,29 @@
+{
+	"id": "V00792",
+	"slug": "תער-2",
+	"headword": {
+		"text": "תְּעַר"
+	},
+	"page": {
+		"number": 1684,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00791\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to waken</i>. Y. Bets. V, 63ᵃ bot. <he>אזל בעי מְתַעַרְתָּא וכ׳</he> he went and wanted to wake up (the people) early on a Sabbath morning, and knocked at the gate.—V. <cite ref=\"V00272\"><he>תּוּר</he> II</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

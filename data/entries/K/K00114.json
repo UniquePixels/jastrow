@@ -1,0 +1,23 @@
+{
+	"id": "K00114",
+	"slug": "כדום-1",
+	"headword": {
+		"text": "כַּדּוּם",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 612,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"K00099\"><he>כַּד</he> II</cite>) <i>a sort of lever</i> with which a pitcher is fished out of the well; oth. opin.: <i>a pitcher-stand, watercooler</i>.—Pl. <he>כַּדּוּמִים</he>, <he>כַּדּוּמִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:7\">Kel. XIII, 7</cite>; <cite ref=\"Mishnah Tevul Yom 4:6\">T’bul Yom. IV, 6</cite>, v. <cite ref=\"A03344\"><he>אַשְׁקְלוֹן</he></cite>."
+			]
+		}
+	]
+}

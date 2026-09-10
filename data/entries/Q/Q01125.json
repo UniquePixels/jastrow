@@ -1,0 +1,31 @@
+{
+	"id": "Q01125",
+	"slug": "פלקתא",
+	"headword": {
+		"text": "פִּלַּקְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילַ׳"
+		}
+	],
+	"page": {
+		"number": 1185,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"Q00954\"><he>פִּלֶּגֶשׁ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 36:12\">Targ. Y. Gen. XXXVI, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 22:24\">Ib. XXII, 24</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 1:32\">Targ. I Chr. I, 32</cite> (some ed. <cite ref=\"Q01125\"><he>פַּלְקְתָא</he></cite>); a. e.—Pl. <he>פִּילַּקְתִין</he>, <cite ref=\"Q01125\"><he>פִּילַ׳</he></cite>. ",
+				"<cite ref=\"Targum of I Chronicles 3:9\">Ib. III, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 25:6\">Targ. Y. Gen. XXV, 6</cite> (ed. Vien. <cite ref=\"Q01569\"><he>פְּלַקְ׳</he></cite>); a. e."
+			]
+		}
+	]
+}

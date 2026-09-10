@@ -1,0 +1,30 @@
+{
+	"id": "O01459",
+	"slug": "סקוף",
+	"headword": {
+		"text": "סְקוֹף"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִקּוּף"
+		}
+	],
+	"page": {
+		"number": 1019,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O01460\">next w.</cite>) <i>lintel</i>, <i>threshold</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 9:10\">Targ. Y. Num. IX, 10</cite> (ed. Vien. <cite ref=\"O01476\"><he>סְקִיף</he></cite>); <cite ref=\"Targum Jonathan on Numbers 9:13\">ib. 13</cite> (ed. Vien. <cite ref=\"O00812\"><he>סִיקוּף</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 9:3\">Targ. Ez. IX, 3</cite> Kimḥi (ed. <he>סְקוֹפַת</he>); a. e.—Pl. <he>סְקוֹפַיָּיא</he>. ",
+				"<cite ref=\"Targum of II Chronicles 3:7\">Targ. II Chr. III, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 18:16\">Targ. II Kings XVIII, 16</cite>; a. e.—V. <cite ref=\"O01462\"><he>סְקוּפְתָּא</he></cite>, a. <cite ref=\"U01883\"><he>שַׁקְפָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "H01042",
+	"slug": "חליטר",
+	"headword": {
+		"text": "חֲלִיטָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלִיטְרָא"
+		}
+	],
+	"page": {
+		"number": 468,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"H01038\"><he>חֲלִיטָא</he> III</cite>) <i>seller of pastry, confectioner</i>. Y. B. Bath. II, beg., 13ᵇ, v. <cite ref=\"A01433\"><he>אִיסְטֵיב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Challah 2:3:3\">Y. Ḥall. II, 58ᶜ</cite> bot.; a. e.—Pl. <cite ref=\"H01026\"><he>חֲלִיטְרַיָּא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:17\">Y. Shebi. VII, 37ᶜ</cite> top <cite ref=\"H01026\"><he>חלטריא</he></cite>."
+			]
+		}
+	]
+}

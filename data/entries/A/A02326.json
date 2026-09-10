@@ -1,0 +1,32 @@
+{
+	"id": "A02326",
+	"slug": "אסדא",
+	"headword": {
+		"text": "אַסְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַסְדָּה"
+		},
+		{
+			"text": "סָדָה"
+		}
+	],
+	"page": {
+		"number": 89,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"O00174\"><he>סַד</he></cite>) <i>logs joined together, raft</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 4:6\">Ber. IV, 6</cite> <he>באסדא</he> (Ar. <he>סדה</he>, Ms. F. <he>אסכדרא</he>, read <cite ref=\"A02449\"><he>אסכדיא</he></cite>; v. infra). Y. ib. 8ᶜ <he>היא א׳ היא אסכדיא וכ׳</he> <i>asda, iskhadia</i> (σχεδία) and <i>rafsodoth</i> are the same. ",
+				"<cite ref=\"Mishnah Zavim 3:1\">Zab. III, 1</cite> <cite ref=\"A02326\"><he>אסדה</he></cite>. ",
+				"<cite ref=\"Mishnah Negaim 12:1\">Neg. XII, 1</cite> <he>אסדה</he> Ar. (ed. <he>אסקריה</he>, Var. <cite ref=\"A02449\"><he>אסכדיא</he></cite>; v. <cite ref=\"A01738\"><he>אַכְסַנְדַּרְיָּא</he></cite>)."
+			]
+		}
+	]
+}

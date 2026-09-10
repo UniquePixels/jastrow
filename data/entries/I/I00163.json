@@ -1,0 +1,64 @@
+{
+	"id": "I00163",
+	"slug": "טול-3",
+	"headword": {
+		"text": "טוּל"
+	},
+	"page": {
+		"number": 523,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00162\">same</cite>, <i>to walk about, stride</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 50:11\">Targ. Jer. L, 11</cite> (h. text <he>צהל</he>; cmp. Targ. ib. VIII, 16)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַיֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to walk, travel</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 24:61\">Targ. Y. Gen. XXIV, 61</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 22:20\">Targ. Y. Num. XXII, 20</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 68:8\">Targ. Ps. LXVIII, 8</cite> <cite ref=\"I00351\"><he>טַיַּילְתָּא</he></cite> (ed. Wil. <he>טְיַלְ׳</he>; h. text <he>צעד</he>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " as <cite ref=\"I00162\">preced.</cite> <i>Pi.</i>—",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 3:8\">Targ. Y. Gen. III, 8</cite> (h. text <he>מתהלך</he>).—Y. Ber. III, 6ᵃ, a. fr. <he>הוו מְטַיְּילִין וכ׳</he> were walking about &c. ",
+						"<cite ref=\"Bava Batra 91b:6\">B. Bath. 91ᵇ</cite> <he>כד הוו מְטַיְּילָן וכ׳</he> when boys and girls used to play &c. ",
+						"<cite ref=\"Sukkah 53a:9\">Succ. 53ᵃ</cite> <he>הוה מט׳ קמיה וכ׳</he> (Ar. <he>מטלל</he>) was sporting before &c., v. <cite ref=\"I00509\"><he>טְלַל</he></cite>; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to drive off, send away</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 24:1\">Targ. Y. Deut. XXIV, 1</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 24:3\">3</cite> (ed. pr. <he>ישיל</he>, corr. acc.)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָטֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to travel</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:52\">Targ. Ps. LXXVIII, 52</cite> Ms. (ed. <cite ref=\"I00509\"><he>אַטֵּיל</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "A02588",
+	"slug": "אסתרוקנית",
+	"headword": {
+		"text": "אִסְתְּרוֹקָנִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 99,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Ithp. of <cite ref=\"O01669\"><he>סרק</he></cite>) <he>מלח א׳</he> <i>desert-salt, fossil salt</i>, contrad. to <he>מלח סדומית</he> sea-salt. ",
+			"units": [
+				"<cite ref=\"Bava Batra 20b:4\">B. Bath. 20ᵇ</cite> (Ms. Oxf. <he>אסט׳</he>). ",
+				"<cite ref=\"Beitzah 39a:2\">Bets. 39ᵃ</cite> (Ms. M. <he>אסקלודנית</he>) prob. from confounding with <cite ref=\"O01031\"><he>סלקונדרית</he></cite>). ",
+				"<cite ref=\"Menachot 21a:16\">Men. 21ᵃ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "P00922",
+	"slug": "עמקא-2",
+	"headword": {
+		"text": "עָמְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַמְ׳"
+		}
+	],
+	"page": {
+		"number": 1090,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00889\"><he>עַמִּיק</he> II</cite>) <i>dark</i> (<i>inflamed</i>) <i>spot, rising, swelling</i> (h. . ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:2\">Targ. O. Lev. XIII, 2</cite>; <cite ref=\"Onkelos Leviticus 13:10\">10</cite>; <cite ref=\"Onkelos Leviticus 13:19\">19</cite>; <cite ref=\"Onkelos Leviticus 14:56\">XIV, 56</cite>.—Constr. <cite ref=\"P00598\"><he>עֵימַק</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:28\">Ib. XIII, 28</cite> (Mss. <cite ref=\"P00283\"><he>עוֹמַק</he></cite>, <cite ref=\"P00283\"><he>עוֹמֶק</he></cite>, <cite ref=\"P00918\"><he>עֲמַק</he></cite>).—Pl. <cite ref=\"P00598\"><he>עָמְקְוָון</he></cite> <i>stains</i>. ",
+				"<cite ref=\"Targum Jonathan on Amos 6:4\">Targ. Am. VI, 4</cite> (ed. Lag. <cite ref=\"P00598\"><he>עִימְקְוָון</he></cite>, Ar. <he>עמקיין</he>, <he>עומקיין</he>; ed. Wil. <he>עוּמְקִין</he>; h. text <he>סרוחים</he>; v. ",
+				"<cite ref=\"Shabbat 62b:12\">Sabb. 62ᵇ</cite> <he>ומסריחין ערסותם בשכבת זרע וכ׳</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "E00730",
+	"slug": "הפטרה",
+	"headword": {
+		"text": "הַפְטָרָה"
+	},
+	"page": {
+		"number": 360,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00547\"><he>פָּטַר</he></cite>, v. <cite ref=\"A02663\"><he>אַפְטָרָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>farewell-address, toast on parting</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 69:8\">Gen. R. s. 69</cite>, end."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Haftarah, prophetic lesson</i> read in Synagogue after the reading from the Pentateuch, v. <cite ref=\"A02665\"><he>אַפְטַרְתָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Megillah 30b:4\">Meg. 30ᵇ</cite>.—Pl. <he>הַפְטָרוֹת</he>. ",
+				"<cite ref=\"Megillah 30b:4\">Ib.</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

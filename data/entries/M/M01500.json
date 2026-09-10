@@ -1,0 +1,25 @@
+{
+	"id": "M01500",
+	"slug": "מלוה-2",
+	"headword": {
+		"text": "מִלְוָה"
+	},
+	"page": {
+		"number": 787,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00206\"><he>לָוָה</he></cite>) <i>loan, debt</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 9:2\">Keth. IX, 2</cite> <he>והיה לו פקדון או מ׳ וכ׳</he> and left a trust or a loan in the hands of strangers. ",
+				"<cite ref=\"Ketubot 84a:14\">Ib. 84ᵃ</cite> <he>מ׳ להוצאה ניתנה</he> a loan is made to be spent (opp. to trust). ",
+				"<cite ref=\"Kiddushin 6b:8\">Kidd. 6ᵇ</cite>, a. e. <he>המקדש במ׳ וכ׳</he> if one betroths a woman to himself by remitting her indebtedness to him, she is not betrothed (there being no consideration offered to her at the time); <he>בהנאת מ׳</he> offering as a consideration the benefit of the loan (by extension). Ib. 47ᵇ, a. fr. <he>מ׳ על פה</he> a verbal loan, <he>מ׳ בשטר</he> against a note. Ib. 46ᵃ, a. e. <he>המקדש במ׳ ופרוטה</he> if one betroths a woman with remittance of a loan and the offer of a P’rutah besides.—",
+				"<cite ref=\"Bekhorot 48a:8\">Bekh. 48ᵃ</cite>; a. e. <he>מ׳ הכתובה בתורה</he> an obligation arising from a Biblical law, e.g. the duty of redeeming the first-born; a. fr."
+			]
+		}
+	]
+}

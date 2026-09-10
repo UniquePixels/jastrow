@@ -1,0 +1,30 @@
+{
+	"id": "R00085",
+	"slug": "צדד-3",
+	"headword": {
+		"text": "צְדָד"
+	},
+	"page": {
+		"number": 1261,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"R00078\"><he>צַד</he></cite>; pl. <he>צְדָדִים</he>, <he>צְדָדִין</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 8a:1\">Ḥull. 8ᵃ</cite> <he>והאיכא צ׳</he> but are there not the sides (of the heated knife which burn instead of cutting)? <cite ref=\"Jerusalem Talmud Shabbat 13:7:3\">Y. Sabb. XIII, end, 14ᵇ</cite> <he>צִידְדֵי בהמה</he> the sides of a beast. Bab. ",
+				"<cite ref=\"Shabbat 154b:17\">Sabb. 154ᵇ</cite> <he>צ׳ הן וצ׳ לא וכ׳</he> this is making use of the sides of a beast, and this the Rabbis have not forbidden. ",
+				"<cite ref=\"Shabbat 154b:17\">Ib.</cite> <he>צִדְדֵי צ׳</he> the sides of sides, indirect use of the sides of an object (v. <cite ref=\"R00078\"><he>צַד</he></cite>). ",
+				"<cite ref=\"Sifrei Bamidbar 126:1\">Sifré Num. 126</cite> <he>בכל צְדָדָיו</he> on any of its sides, opp. entrance of the tent. ",
+				"<cite ref=\"Niddah 22b:63\">Nidd. 22ᵇ</cite>, v. <cite ref=\"Q01162\"><he>פָּנָה</he></cite>. ",
+				"<cite ref=\"Shabbat 6a:16\">Sabb. 6ᵃ</cite> <he>צִדֵּי רשות הרבים</he> the sides (the walls &c.) along the public road. ",
+				"<cite ref=\"Shabbat 99a:4\">Ib. 99ᵃ</cite> <he>צידי עגלה</he> the sides of a wagon; <he>עגלות תחתיהן וביניהן וצִידֵּיהֶן</he> the spaces under wagons and between them, and their outsides. ",
+				"<cite ref=\"Jerusalem Talmud Peah 6:2:6\">Y. Peah VI, 19ᶜ</cite> top <he>דבר שהוא חומר משני צ׳</he> where a rule works as a restriction both ways; a. fr.—",
+				"<cite ref=\"Bava Kamma 16b\">B. Kam. 16ᵇ</cite>, a. e. <he>לצ׳ קתני</he> it is meant in either way, i.e. disjunctively, the one or the other. Y. Yeb. IV, 5ᵈ <he>לצ׳ … או וכ׳</he> the Mishnah means the Vav in a disjunctive sense, ‘or’ &c."
+			]
+		}
+	]
+}

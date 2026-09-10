@@ -1,0 +1,52 @@
+{
+	"id": "S01460",
+	"slug": "קמט-1",
+	"headword": {
+		"text": "קָמַט"
+	},
+	"page": {
+		"number": 1384,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to compress</i>; (neut. verb) <i>to contract, curl</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 151:1\">Yalk. Gen. 151</cite> <he>מעי קוֹמְטִין עלי וכ׳</he> (Ar. <cite ref=\"S01503\"><he>קמתין</he></cite>, corr. acc.) my bowels curl themselves within me like a rope (cmp. <cite ref=\"S01453\"><he>קָמַז</he></cite>).—<i>Part. pass.</i> <he>קָמוּט</he> <i>folded, creased</i>. ",
+				"<cite ref=\"Tosefta Negaim 1:8\">Tosef. Neg. I, 8</cite> <he>כק׳ שנפשט</he> like a folded sheet that has been straightened out."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִימֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to fold, wrinkle</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 14a:2\">Ḥag. 14ᵃ</cite> (ref. to <cite ref=\"Job 22:16\">Job XXII, 16</cite> <he>קמטו</he>) <he>אלו … שמְקַמְּטִין עצמן וכ׳</he> that means the students that wrinkle themselves (cause wrinkles on their foreheads) over the words of the Law; <cite ref=\"Yalkut Shimoni on Nach 908:10\">Yalk. Job 908</cite>.—Part. pass. <he>מְקוּמָּט</he>. Tosef. Neg. l. c. <he>סדין המק׳</he> a creased sheet, v. <cite ref=\"Q02063\"><he>פָּשַׁט</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to press, crowd</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 13b\">Ḥag. 13ᵇ</cite> sq. (ref. to Job l. c.) <he>שקִימְּטוּ עצמן להיבראות וכ׳</he> Ms. M. 2 (v. Rabb. D. S. a. l. note 20) who pressed themselves (rushed) forward to be created before the world was created, v. infra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["קוּמָּט"],
+			"senses": [
+				{
+					"gloss": "<i>to be crowded, rushed</i>. Ib. <he>על אשר קוּמְּטוּ בלא עת</he> Ms. M. because they rushed (to be created) before their time; <cite ref=\"Yalkut Shimoni on Nach 304\">Yalk. Jer. 304</cite>.—Part. <he>מְקוּמָּט</he>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

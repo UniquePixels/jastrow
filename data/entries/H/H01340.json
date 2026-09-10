@@ -1,0 +1,31 @@
+{
+	"id": "H01340",
+	"slug": "חסדא-2",
+	"headword": {
+		"text": "חִסְדָּא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חִי׳",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 486,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥisda</i>, name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Berakhot 8a:17\">Ber. 8ᵃ</cite>; Y. ib. IV, 9ᵃ top.—",
+				"<cite ref=\"Chullin 10a:7\">Ḥull. 10ᵃ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Challah 1:1:23\">Y. Ḥall. I, 57ᶜ</cite> top; a. fr. V. Fr. M’bo, p. 89ᵇ, sq."
+			]
+		}
+	]
+}

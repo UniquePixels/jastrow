@@ -1,0 +1,32 @@
+{
+	"id": "A02379",
+	"slug": "אסטלי-2",
+	"headword": {
+		"text": "אִסְטְלִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְטוֹלִי"
+		},
+		{
+			"text": "אִיסְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 90,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a corruption of <cite ref=\"A02695\"><he>אֶפִּיסְטוֹלִי</he></cite> q. v.) <i>letter, dying injunction</i>. Pl. <he>אִסְטְלִיּוֹת</he>. <he>לִיאוֹת …</he> <cite ref=\"Jerusalem Talmud Sotah 7:5:3\">Y. Sot. VII, 21ᵈ</cite> bot. <he>וא׳ שנתן להם משה</he> and (the stones containing) the dying injunctions of Moses (<cite ref=\"Deuteronomy 27:8\">Deut. XXVII, 8</cite>); (cmp. Bab. ",
+			"units": [
+				"<cite ref=\"Sotah 35b\">Sot. 35ᵇ</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 74\">Gen. R. s. 74</cite> end Ar. (ed. a. Var. in Ar. <cite ref=\"A02695\"><he>אפיסטולי</he></cite>). *Midr. Sam. ch. XI (ref. to the five verses <cite ref=\"I Samuel 4:13-17\">I Sam. IV, 13—17</cite>) <he>הכן לא הוה ליה טופרין או חמשה איסטולין</he> (read <he>סופרין</he>?) <he>ממחינון חמשה אלא וכ׳</he> indeed so, not five pencils (writers?) or five messages could kill him, but over the news of the captured ark his neck was broken. [Others read <cite ref=\"A01439\"><he>אִיסְטִילִין</he></cite> (<i>stili</i>) <i>styles</i> used for writing on waxen tablets]."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "Q02065",
+	"slug": "פשטא",
+	"headword": {
+		"text": "פְּשָׁטָא"
+	},
+	"page": {
+		"number": 1246,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02064\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>plain wording; plain sense</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 111b:18\">Keth. 111ᵇ</cite> <he>פְּשָׁטֵיה דקרא במאי כתיב</he> what does the plain text (not homiletically changed) refer to?; <cite ref=\"Eruvin 23b:6\">Erub. 23ᵇ</cite> <he>פשטיה דקרא וכ׳</he> what is the plain sense (not homiletically forced) of the text?; <cite ref=\"Kiddushin 80b\">Kidd. 80ᵇ</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:1:6\">Y. Snh. I, beg. 18ᵃ</cite> <he>פְּשׁוּטֵה דקרייא</he> the plain sense of the text. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 8:1:5\">Y. B. Bath. VIII, 16ᵃ</cite> <he>בעי מימר פְשָׁטֵיה וכ׳</he> (not <cite ref=\"Q01207\"><he>פנסטה</he></cite>) wanted to give the meaning (of the verse) and could not find it."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>extension, natural course</i> (of a river). ",
+			"units": [
+				"<cite ref=\"Gittin 60b\">Gitt. 60ᵇ</cite>; <cite ref=\"Chullin 18b\">Ḥull. 18ᵇ</cite>; <cite ref=\"Chullin 57a\">57ᵃ</cite>, v. <cite ref=\"N00282\"><he>נְהַר</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

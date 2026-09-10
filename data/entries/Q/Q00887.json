@@ -1,0 +1,47 @@
+{
+	"id": "Q00887",
+	"slug": "פישרא",
+	"headword": {
+		"text": "פִּישְׁרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּשְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1172,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02099\"><he>פְּשַׁר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>solution, interpretation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 7:15\">Targ. Jud. VII, 15</cite>. Constr. <cite ref=\"Q02099\"><he>פְּשַׁר</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 8:1\">Targ. Koh. VIII, 1</cite>.—V. <cite ref=\"Q00407\"><he>פּוּשְׁרָנָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dissolved food, cud</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:3\">Targ. Lev. XI, 3</cite>, sq. (h. text <he>גרה</he>); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>thawing snow</i>.—Pl. <he>פִּישְׁרֵי</he>, <cite ref=\"Q00887\"><he>פִּשְׁ׳</he></cite>. Targ. II Esth. III, 8, v. <cite ref=\"H01496\"><he>חַצְבָּא</he></cite>.—",
+			"units": [
+				"<cite ref=\"Kiddushin 73b:4\">Kidd. 73ᵇ</cite>, v. <cite ref=\"Q02058\"><he>פְּשׁוּרָא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

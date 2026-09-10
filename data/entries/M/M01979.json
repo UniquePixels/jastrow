@@ -1,0 +1,31 @@
+{
+	"id": "M01979",
+	"slug": "מסס-2",
+	"headword": {
+		"text": "מְסַס"
+	},
+	"page": {
+		"number": 809,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M01978\">same</cite> <cite ref=\"Targum Jonathan on II Samuel 17:10\">Targ. II Sam. XVII, 10</cite> <he>מִמַס ימסי</he> (ed. Lag. <he>מִמְסָא מסי</he>), v. <cite ref=\"M01911\"><he>מְסֵי</he></cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמְסַס"],
+			"senses": [
+				{
+					"gloss": "<i>to melt, decay</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 75:4\">Targ. Ps. LXXV, 4</cite>.—[<he>אִמִּיס</he>, v. <cite ref=\"M00028\"><he>מְאִיס</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

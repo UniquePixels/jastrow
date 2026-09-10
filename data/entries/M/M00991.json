@@ -1,0 +1,22 @@
+{
+	"id": "M00991",
+	"slug": "מטחתא",
+	"headword": {
+		"text": "מְטַחְתָּא"
+	},
+	"page": {
+		"number": 766,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טוּחַ</he> II; cmp. <he>טחות</he> <cite ref=\"Psalms 51:8\">Ps. LI, 8</cite>) <i>kidney, loin</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:15\">Gitt. 69ᵇ</cite> <he>אהא מְטַחְתֵּיה וכ׳</he> (Ar. ed. Koh. <cite ref=\"M00991\"><he>מטחתא</he></cite>, some ed. <cite ref=\"M00989\"><he>מַטְחָאתָא</he></cite>) on this (his) loin and … on the other loin."
+			]
+		}
+	]
+}

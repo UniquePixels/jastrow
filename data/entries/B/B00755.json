@@ -1,0 +1,26 @@
+{
+	"id": "B00755",
+	"slug": "ביתא-2",
+	"headword": {
+		"text": "בֵּיתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 168,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <cite ref=\"B01377\"><he>בַּת</he></cite>) <i>bath</i>, a measure. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 5:10\">Targ. Is. V, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 45:11\">Targ. Ezek. XLV, 11</cite>; a. e.—Pl. <he>בַּתִּין</he>, <he>בֵּיתִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 45:14\">Ib. 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:26\">Targ. I Kings VII, 26</cite>."
+			]
+		}
+	]
+}

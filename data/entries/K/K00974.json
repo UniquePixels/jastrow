@@ -1,0 +1,80 @@
+{
+	"id": "K00974",
+	"slug": "כער-1",
+	"headword": {
+		"text": "כָּעַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּאַר"
+		}
+	],
+	"page": {
+		"number": 656,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00970\"><he>כָּעַס</he></cite>) <i>to be dark, ugly, repulsive</i> (cmp. <cite ref=\"A00649\"><he>אוּכְמָא</he></cite>).—Part. pass. <he>כָּעוּר</he>, <cite ref=\"K00010\"><he>כָּאוּר</he></cite>; f. <he>כְּעוּרָה</he>; pl. <he>כְּעוּרִים</he>, <he>כְּעוּרִין</he>; <he>כְּעוּרוֹת</he>, <he>כְּא׳</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>ugly, ungainly</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 36:1\">Gen. R. s. 36</cite> <he>לפיכך … כ׳ ומפוחם</he> therefore shall this man (thou) be ugly and black. ",
+						"<cite ref=\"Mishnah Bava Kamma 9:4\">B. Kam. IX, 4</cite> (<cite ref=\"Bava Kamma 100b:2\">100ᵇ</cite>) <he>צבעו כ׳</he>, v. <cite ref=\"K00752\"><he>כַּלְכּוּס</he></cite>. ",
+						"<cite ref=\"Esther Rabbah 3:14\">Esth. R. to I, 12</cite> <he>אם רואין אותי כ׳</he> if they find me ungainly. ",
+						"<cite ref=\"Shir HaShirim Rabbah 5:11:5\">Cant. R. to V, 11</cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>unbecoming, indecent</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Ketubot 7:6:7\">Y. Keth. VII, 31ᶜ</cite> top <he>כא׳ הדבר תצא</he> that is indecent conduct, and cause for divorce; (<cite ref=\"Yevamot 24b\">Yeb. 24ᵇ</cite>, sq. <he>מכוער</he>). ",
+						"<cite ref=\"Bereishit Rabbah 60:5\">Gen. R. s. 60</cite> <he>שכ׳ לאיש וכ׳</he> for it is unbecoming for a man to walk behind a woman.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"H00443\"><he>חָוַר</he></cite>) <i>not evident, strange, implausible</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 115b\">Ḥull. 115ᵇ</cite>; <cite ref=\"Chullin 117a\">117ᵃ</cite>; <cite ref=\"Kiddushin 9b:7\">Kidd. 9ᵇ</cite> <he>כעורה זו ששנה וכ׳</he> is what R. … taught to be rejected?—",
+						"<cite ref=\"Tosefta Keilim Batra 2:2\">Tosef. Kel. B. Bath. II, 2</cite> <he>כ׳ מזו טימא וכ׳</he> something more strange than this (or more inappropriate to be used as a seat) did R. … declare unclean."
+					],
+					"label": "c"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to make</i> or <i>declare repulsive</i>.—Part. pass. <he>מְכוֹעָר</he>, f. <he>מְכוֹעֶרֶת</he>; pl. <he>מְכוֹעָרִין</he>, <he>מְכוֹעָרוֹת</he> = <he>כָּעוּר</he> &c. ",
+					"units": [
+						"<cite ref=\"Ketubot 105a:12\">Keth. 105ᵃ</cite> <he>מ׳ הדיין וכ׳</he> contemptible is the judge who receives fees for giving judgment. ",
+						"<cite ref=\"Yevamot 24b\">Yeb. 24ᵇ</cite>, sq., v. supra. ",
+						"<cite ref=\"Yoma 86a:13\">Yoma 86ᵃ</cite> <he>כמה מכ׳ דרכיו</he> how mean are his ways!; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְכָּעַר"],
+			"senses": [
+				{
+					"gloss": "<i>to appear ugly, become ungainly</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 17:7\">Gen. R. s. 17</cite> <he>הִתְכָּעַרְתִּי בעיניו</he> I appeared repulsive to him. ",
+						"<cite ref=\"Bereishit Rabbah 45:6\">Gen. R. s. 45</cite> <he>מִתְכָּעֶרֶת ומתעזבת</he> she becomes ungainly and is neglected. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:14\">Cant. R. to II, 14</cite> <he>מתכ׳ ומתועבת</he>, v. <cite ref=\"V00773\"><he>תָּעַב</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

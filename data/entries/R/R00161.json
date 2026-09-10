@@ -1,0 +1,43 @@
+{
+	"id": "R00161",
+	"slug": "צוד-1",
+	"headword": {
+		"text": "צוּד"
+	},
+	"page": {
+		"number": 1265,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"R00087\"><he>צָדָה</he></cite>) <i>to lie in wait, hunt, catch</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 66:5\">Gen. R. s. 66</cite> (ref. to <cite ref=\"Genesis 27:30\">Gen. XXVII, 30</cite>) <he>מזויין לָצוּד נפשות</he> (not <he>נפשו</he>) armed to hunt lives (to kill, with ref. to <cite ref=\"Exodus 21:13\">Ex. XXI, 13</cite>, a. ",
+				"<cite ref=\"I Samuel 24:12\">I Sam. XXIV, 12</cite>; v. ‘Rashi’ a. l.). ",
+				"<cite ref=\"Bereishit Rabbah 67:2\">Gen. R. s. 67</cite> <he>היה עשו צָד וכ׳</he> Esau caught deer and tied them. ",
+				"<cite ref=\"Bereishit Rabbah 67:2\">Ib.</cite> s. 63 (ref. to <cite ref=\"Genesis 25:27\">Gen. XXV, 27</cite> sq.) <he>צד את הבריות בפיו</he> he (Esau-Rome) catches men with his mouth (by means of insidious cross-examination in court); <cite ref=\"Genesis 25:27\">ib.</cite> s. 37 <he>צד … בפיהם</he> catches people through their own mouth. ",
+				"<cite ref=\"Devarim Rabbah 1:15\">Deut. R. s. 1</cite> <he>בשעה שיצא לצוד</he> when he went hunting. ",
+				"<cite ref=\"Sotah 4b:9\">Sot. 4ᵇ</cite> (ref. to <cite ref=\"Proverbs 6:26\">Prov. VI, 26</cite>) <he>היא תְצוּדֶנּוּ לדינה וכ׳</he> she will chase him to the judgment of Gehenna. ",
+				"<cite ref=\"Mishnah Shabbat 13:5\">Sabb. XIII, 5</cite> <he>הצד צפור למגדל וכ׳</he> he who chases a bird into the tower or a deer into the house. ",
+				"<cite ref=\"Mishnah Shabbat 14:1\">Ib. XIV, 1</cite> <he>הצָדָן</he> he who catches them (on the Sabbath). ",
+				"<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite> (ref. to Gen. l. c.) <he>צידני צד בבית צד וכ׳</he> a hunter, catching (captivating Isaac’s good opinion) in the house, catching in the field, in the house (by asking), how are tithes given of salt &c.?; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיצּוֹד", "נָצוֹד"],
+			"senses": [
+				{
+					"gloss": "<i>to be hunted, caught</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 106b:9\">Sabb. 106ᵇ</cite> <he>כל שבמינו נ׳</he> an animal which belongs to those that are hunted. ",
+						"<cite ref=\"Mishnah Beitzah 3:2\">Bets. III, 2</cite> <he>יודע שנָצוֹדוּ וכ׳</he> he knows that they have been caught on the eve of the festival. ",
+						"<cite ref=\"Mishnah Shabbat 1:6\">Sabb. I, 6</cite> <he>כדי שיִצּוֹדוּ וכ׳</he> in time to be caught in the net before the Sabbath begins; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

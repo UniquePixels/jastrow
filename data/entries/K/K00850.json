@@ -1,0 +1,58 @@
+{
+	"id": "K00850",
+	"slug": "כני-2",
+	"headword": {
+		"text": "כני",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 648,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K00849\"><he>כַּנֵּי</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 4:26\">Targ. Y. Gen. IV, 26</cite>.—",
+						"<cite ref=\"Shevuot 36a:23\">Shebu. 36ᵃ</cite> <he>לא מְכַנִּינָן</he> we must not modify the (Biblical) expression (to avoid cacophemism).—[<cite ref=\"Beitzah 33b\">Bets. 33ᵇ</cite> <he>מכניא</he>, read: <he>מכניף</he>, v. <cite ref=\"K00872\"><he>כְּנַף</he> I</cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְכַּנֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְכְּנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be surnamed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 1:4\">Targ. Is. I, 4</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to associate one’s self</i> (v. <cite ref=\"K00838\"><he>כַּנְהָא</he></cite>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 29:7\">Targ. Ez. XXIX, 7</cite> <he>באִתְכְּנָיוּתְהוֹן וכ׳</he> when they form an alliance with thee (h. text <he>בתפשם</he>; Kimḥi quotes a Var. <he>באתכנעותהון</he>, v. <cite ref=\"K00866\"><he>כְּנַע</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

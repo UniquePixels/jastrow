@@ -1,0 +1,27 @@
+{
+	"id": "N01239",
+	"slug": "נקפי",
+	"headword": {
+		"text": "נִקְפִּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 935,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01233\"><he>נקף</he></cite>) <i>knocker</i>, or <i>borrower</i>, an opprobrious epithet for a sort of sanctimonious Pharisees. ",
+			"units": [
+				"<cite ref=\"Sotah 22b:3\">Sot. 22ᵇ</cite>, v. <cite ref=\"N01233\"><he>נָקַף</he> I</cite>; Y. ib. V, 20ᶜ bot.; <cite ref=\"Jerusalem Talmud Berakhot 9:5:7\">Y. Ber. IX, 14ᵇ</cite> bot., v. <cite ref=\"N01235\"><he>נְקַף</he> II</cite>."
+			]
+		}
+	]
+}

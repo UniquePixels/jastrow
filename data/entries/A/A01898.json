@@ -1,0 +1,34 @@
+{
+	"id": "A01898",
+	"slug": "אלל-1",
+	"headword": {
+		"text": "אָלַל"
+	},
+	"page": {
+		"number": 71,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"A00658\"><he>אוּל</he></cite>, v. <cite ref=\"A00658\"><he>אֲוַל</he></cite>; cmp. <cite ref=\"P00815\"><he>עלל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to circle</i>. <i>Pi.</i> <he>אִילֵּל</he> <i>to go around; to espy, track</i>. Cant. R. beg. (play on <cite ref=\"V00271\"><he>תּוּר</he></cite> a. <cite ref=\"V00290\"><he>תּוֹרָה</he></cite>) <he>אחר ד״ת אִילַּלְתָּ</he> thou didst search after the words of the Law. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 47:1\">Pesik. R. s. 47</cite> <i>ḥafar</i> (<cite ref=\"Job 39:29\">Job XXXIX, 29</cite>) <he>לשון מְאַלֵּל</he> has the meaning of espying (ed. incorr. <he>יליל</he>, v. ed. Friedm. p. 190ᵇ).—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to point out;</i>",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to tie around; to be strong;</i> v. <cite ref=\"A01768\"><he>אֵל</he></cite>, <cite ref=\"A01833\"><he>אלי</he> I</cite>, <cite ref=\"A01783\"><he>אֵלָה</he></cite>, <cite ref=\"A01306\"><he>אִילָּן</he></cite> &c., a. <he>אלם</he>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

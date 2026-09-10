@@ -1,0 +1,35 @@
+{
+	"id": "M00367",
+	"slug": "מהל-2",
+	"headword": {
+		"text": "מְהַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 737,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"M00366\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Yevamot 71b:19\">Yeb. 71ᵇ</cite> <he>ובמדבר מ״ט לא מָהוּל</he> and why did they not practice circumcision in the desert? <cite ref=\"Yevamot 72a:3\">Ib. 72ᵃ</cite> <he>לא מַהֲלִינָן ביה</he> we do not perform the operation on it (a cloudy day &c.). ",
+				"<cite ref=\"Shabbat 134a:14\">Sabb. 134ᵃ</cite> <he>ולִימְהֲלֵיה</he> Ms. M. (ed. <he>ולִימְהֲלוּהָ</he>, v. Rabb. D. S. a. l. note) and then one (they) shall circumcise him. ",
+				"<cite ref=\"Shabbat 136a:1\">Ib. 136ᵃ</cite> <he>מִימְהַל היכי מַהֲלִינָן ליה</he> how dare we circumcise him (on the Sabbath)? <cite ref=\"Shabbat 136a:1\">Ib.</cite> <he>נִימְהֲלֵיה ממ״נ</he> let us circumcise him at all events (v. <cite ref=\"M00340\"><he>מָה</he></cite> h.); a. fr.—Part. <he>מָהֵיל</he>. ",
+				"<cite ref=\"Shabbat 136a:1\">Ib.</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (neut. verb) <i>to be circumcised</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 39a:10\">Snh. 39ᵃ</cite> <he>אנן דמהלינן וכ׳</he> we who are circumcised cannot become like you; <he>אתון מַהֲלִיתוּ וכ׳</he> (Ms. M. <he>מיהלן</he>, read <he>מְהִילוּ</he>) have yourselves circumcised and be like us."
+			],
+			"label": "2"
+		}
+	]
+}

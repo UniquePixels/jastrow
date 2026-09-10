@@ -1,0 +1,24 @@
+{
+	"id": "R00643",
+	"slug": "צנפא",
+	"headword": {
+		"text": "צְנָפָא"
+	},
+	"page": {
+		"number": 1293,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00642\">preced.</cite>; cmp. <cite ref=\"R00431\"><he>ציץ</he></cite> a. derivatives) <i>uppermost branch; border, fringe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 17:6\">Targ. Is. XVII, 6</cite> ed. Lag. (oth. ed. <cite ref=\"P01005\"><he>ענפא</he></cite>; h. text <cite ref=\"A02025\"><he>אמיר</he></cite>).—",
+				"<cite ref=\"Nazir 22b:2\">Naz. 22ᵇ</cite> <he>בעיקרא</he> … <he>בצ׳</he> Ar. does he seize it by the root or by the top?, v. <cite ref=\"R00637\"><he>צִנְנָא</he></cite>.—Pl. <he>צְנָפָתָא</he>, constr. <he>צְנָפַת</he>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 22:12\">Targ. Y. II, Deut. XXII, 12</cite>; <cite ref=\"Numbers 15:38\">Num. XV, 38</cite> <he>צ׳ גולת׳</he> (not <cite ref=\"D00487\"><he>דג׳</he></cite>)."
+			]
+		}
+	]
+}

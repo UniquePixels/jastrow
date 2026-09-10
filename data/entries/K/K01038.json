@@ -1,0 +1,23 @@
+{
+	"id": "K01038",
+	"slug": "כפנית",
+	"headword": {
+		"text": "כָּפְנִית"
+	},
+	"page": {
+		"number": 660,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01033\"><he>כָּפַן</he></cite>, cmp. <cite ref=\"K00346\"><he>כּוּפְרָא</he></cite> III a. <cite ref=\"C01204\"><he>גפן</he></cite>) <i>the inflorescence of palms, date-berry in its early stage</i>.—Pl. <he>כָּפְניּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Orlah 1:9\">Orl. I, 9</cite>. ",
+				"<cite ref=\"Tosefta Ma'aser Sheni 1:14\">Tosef. Maas. Sh. I, 14</cite> <he>כ׳ הרי הן כפרי וכ׳</he> <i>Kofniyoth</i> are in every respect to be considered as fruits, except &c.; a. fr."
+			]
+		}
+	]
+}

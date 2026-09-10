@@ -1,0 +1,58 @@
+{
+	"id": "Q02152",
+	"slug": "פתי-2",
+	"headword": {
+		"text": "פְּתֵי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּתָא"
+		}
+	],
+	"page": {
+		"number": 1253,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q02151\">same</cite>, <i>to be wide, open</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 60:5\">Targ. Is. LX, 5</cite> (h. text <cite ref=\"T00473\"><he>רחב</he></cite>).—Part. (<cite ref=\"Q00033\"><he>פָּאתֵי</he></cite>) <cite ref=\"Q02152\"><he>פָּתֵי</he></cite>; f. <cite ref=\"Q02155\"><he>פַּתְיָא</he></cite>; pl. <cite ref=\"Q02170\"><he>פַּתְיָן</he></cite>, <cite ref=\"Q02163\"><he>פַּתְיָין</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:25\">Targ. Ps. CIV, 25</cite> <cite ref=\"Q02152\"><he>פְּתֵי</he></cite> constr. (some ed. <he>פָּא׳</he>; ed. Lag. <he>פתאי</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Genesis 34:21\">Targ. Y. Gen. XXXIV, 21</cite> <he>פַּתְיית</he> constr. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:58\">Targ. Jer. LI, 58</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:96\">Targ. Ps. CXIX, 96</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 25:17\">Ib. XXV, 17</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפְתֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to widen</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 9:27\">Targ. O. Gen. IX, 27</cite> <he>יַפְתֵּי</he> (some ed. <cite ref=\"J00513\"><he>יַפְתְּ</he></cite>). ",
+						"<cite ref=\"Onkelos Exodus 34:24\">Targ. Ex. XXXIV, 24</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 12:20\">Targ. Deut. XII, 20</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["פַּתֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to persuade, seduce</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 7:21\">Targ. Prov. VII, 21</cite> <he>תְּפַתֵּיה</he> (some ed. <he>תְּפאתְיֵה</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

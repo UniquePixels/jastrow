@@ -1,8 +1,16 @@
 /**
  * Citation targets (migrate spec §2.3). Internal hrefs resolve through
- * the exact headword map — 32,512 distinct strings, so there is no
- * ambiguity to adjudicate. What does not resolve stays in the text and
- * must be on the reviewed quarantine list (gate 6).
+ * the headword map — 32,512 distinct strings, so there is no ambiguity
+ * to adjudicate. What does not resolve stays in the text and must be on
+ * the reviewed quarantine list (gate 6).
+ *
+ * Lookup is keyed in NFC. Hebrew combining marks carry canonical
+ * combining classes, so the same word can be spelled with dagesh before
+ * or after its vowel — two byte strings, one word, and an exact-string
+ * map answers `undefined` for the spelling it was not built from. NFC
+ * reorders marks into canonical order, which is a comparison detail
+ * only: nothing stored is ever normalized, so gate 2's byte-exact
+ * headword regeneration sees the source spelling untouched.
  */
 import type { SourceEntry } from '../body/types.ts';
 import type { RefResolver } from './markup.ts';
@@ -47,29 +55,35 @@ function internalTarget(href: string): string | undefined {
 		.replaceAll('_', ' ');
 }
 
-/** Headword string to rid, for resolving internal `<cite ref>`
- * targets. THROWS on a duplicate headword: two entries answering to
- * one string would make every reference to it ambiguous, and silently
- * keeping either one would point some citations at the wrong entry. */
+/** Headword string to rid, keyed in NFC, for resolving internal
+ * `<cite ref>` targets. THROWS on a duplicate key: two entries
+ * answering to one word would make every reference to it ambiguous,
+ * and silently keeping either one would point some citations at the
+ * wrong entry. Canonically equivalent headwords count as duplicates —
+ * a reader cannot tell them apart either. */
 function buildHeadwordMap(
 	entries: Iterable<Pick<SourceEntry, 'headword' | 'rid'>>,
 ): Map<string, string> {
 	const map = new Map<string, string>();
 	for (const { headword, rid } of entries) {
-		const seen = map.get(headword);
+		const key = headword.normalize('NFC');
+		const seen = map.get(key);
 		if (seen !== undefined) {
 			throw new Error(
 				`duplicate headword string "${headword}": ${seen} and ${rid}`,
 			);
 		}
-		map.set(headword, rid);
+		map.set(key, rid);
 	}
 	return map;
 }
 
 /** A resolver for one entry: rid for a known internal target, the
  * canonical `data-ref` for an external one, and the bare target —
- * recorded on `unresolved` — for an internal one nothing owns. */
+ * recorded on `unresolved` — for an internal one nothing owns. The
+ * target is normalized to query the map and never otherwise: what
+ * stays in the text, and what reaches the quarantine list, is the
+ * spelling the href actually carried. */
 function createResolver(
 	map: ReadonlyMap<string, string>,
 	rid: string,
@@ -80,7 +94,7 @@ function createResolver(
 		if (target === undefined) {
 			return dataRef === '' ? href : dataRef;
 		}
-		const hit = map.get(target);
+		const hit = map.get(target.normalize('NFC'));
 		if (hit !== undefined) {
 			return hit;
 		}

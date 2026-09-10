@@ -1,0 +1,22 @@
+{
+	"id": "T00164",
+	"slug": "רגול-1",
+	"headword": {
+		"text": "רָגוּל"
+	},
+	"page": {
+		"number": 1447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"T00204\"><he>רֶגֶל</he></cite>) <i>tied by the feet</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:3\">Sabb. V, 3</cite> (<cite ref=\"Shabbat 54a:15\">54ᵃ</cite>), v. <cite ref=\"P01153\"><he>עָקַד</he></cite>; Y. ib. V, 7ᵇ bot. <he>עקיד … ר׳ בשתי רגליו</he> <i>aḳud</i> means tied by one foreleg, <i>ragul</i>, tied by the hindlegs; Tosef. ib. IV (V), 3 (v. Var. in ed. Zuck. note)."
+			]
+		}
+	]
+}

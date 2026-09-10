@@ -1,0 +1,47 @@
+{
+	"id": "G00246",
+	"slug": "זחל-1",
+	"headword": {
+		"text": "זָחַל"
+	},
+	"page": {
+		"number": 390,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to creep</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to flow, run</i>. <he>זוֹחֲלִים</he>, <he>זוֹחֲלִין</he> <i>running waters</i>, opp. to <he>נוטפין</he> dripping water (collected rain water &c.). ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 5:5\">Mikv. V, 5</cite> <he>הז׳ במעין</he> running waters are like a well (for levitical purposes). ",
+				"<cite ref=\"Mishnah Mikvaot 5:5\">Ib.</cite> <he>נוטפין שעשאן ז׳</he> collected rain water which was made running (by causing an overflow into a channel). ",
+				"<cite ref=\"Mishnah Eduyot 7:3\">Eduy. VII, 3</cite>, sq. ",
+				"<cite ref=\"Shabbat 65b\">Sabb. 65ᵇ</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:8:2\">Y. Shebi. IV, end, 35ᶜ</cite> <he>משיִזְחֲלוּ מים</he> when the berries are sufficiently developed to yield running drops when squeezed, v. <cite ref=\"C01381\"><he>גָּרַע</he> II</cite>. [<cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13</cite>, beg. <he>וזוחלות</he>; <cite ref=\"Yalkut Shimoni on Nach 988:37\">Yalk. Cant. 988</cite> <he>זוחלת</he>, read <he>זולח׳</he>, v. <cite ref=\"G00487\"><he>זָלַח</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזְחִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to let collected water run into a channel</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 5:5\">Mikv. V, 5</cite> <he>אין מַזְחִילִין בו</he> you must not use it for &c."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

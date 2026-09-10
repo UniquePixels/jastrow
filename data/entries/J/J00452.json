@@ -1,0 +1,53 @@
+{
+	"id": "J00452",
+	"slug": "יסד-1",
+	"headword": {
+		"text": "יָסַד"
+	},
+	"page": {
+		"number": 582,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"O00174\"><he>סַד</he></cite>) [<i>to join, fasten</i>; denom. <cite ref=\"J00456\"><he>יְסוֹד</he></cite>, whence <cite ref=\"J00452\"><he>יָסַד</he></cite>] <i>to found, establish</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Genesis 1:1\">B’resh. 1</cite> <he>ובה … וי׳ ארץ</he> and with it (the Torah) he stretched the heavens and established the earth. ",
+				"<cite ref=\"Megillah 3a\">Meg. 3ᵃ</cite>; <cite ref=\"Shabbat 104a\">Sabb. 104ᵃ</cite>; <cite ref=\"Sukkah 44a:10\">Succ. 44ᵃ</cite> <he>וחזרו וִיסָדוּם</he> and they reintroduced them. ",
+				"<cite ref=\"Sukkah 20a\">Ib. 20ᵃ</cite>, v. <cite ref=\"P00426\"><he>עֶזְרָא</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִסֵּד", "יִיסֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to establish; to join in between</i>. Y. Erub. V, 22ᶜ <he>שער היסוד ששם היו מְיַיסְּדִין וכ׳</he> the Eastern Gate was named the Foundation Gate, because there they (in their meetings) established the decisions of the Law; a. e.—Part. pass. <he>מְיוּסָּד</he>. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>שער התווך שהוא מי׳ בין וכ׳</he> it was named the Middle Gate because it was fastened in between two gates; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to rebuild</i> (a ruin). ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Metzia 11:4\">Tosef. B. Mets. XI, 4</cite> <he>לא יאמר לו הריני מייסד עמך מכנגד וכ׳</he> (not <he>עמו</he>) he has no right to say, I will help thee rebuild the party wall from where my (higher situated) ground commences and upward, <he>אלא מייסד עמו וכ׳</he> but he must help him build from the bottom (of the neighbor’s ground) &c.; Y. ib. X, beg. 12ᶜ; (<cite ref=\"Bava Batra 6b:12\">B. Bath. 6ᵇ</cite> <he>מסייע מלמטה</he>). [<cite ref=\"Shir HaShirim Rabbah 1:2:6\">Cant. R. to I, 2</cite> <he>שהרי חבירו בא ליַסֵּד עליו כן</he> the next following sentence comes to found upon it a base (thus proving that the reading is <he>דּוֹדֶיךָ</he> and not <he>דּוֹדַיִךְ</he>). Some eds. read <cite ref=\"L00565\"><he>לימד</he></cite>; <cite ref=\"Mishnah Avodah Zarah 2:5\">Ab. Zar. II, 5</cite> <he>חבירו מלמד</he>; <cite ref=\"Yalkut Shimoni on Nach 981:8\">Yalk. Cant. 981</cite> <cite ref=\"M00473\"><he>מוכיח</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְיַסֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be established</i>. Tanḥ. l. c. <he>העולם לא נ׳ וכ׳</he> the world has been founded on nothing but the Law.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

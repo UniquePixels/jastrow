@@ -1,0 +1,89 @@
+{
+	"id": "T00129",
+	"slug": "רבע-2",
+	"headword": {
+		"text": "רְבַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְבִיעַ"
+		}
+	],
+	"page": {
+		"number": 1444,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00128\">same</cite><i>to lie, couch</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 22:27\">Targ. Num. XXII, 27</cite> (h. text <he>רבץ</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 49:25\">Targ. Y. Gen. XLIX, 25</cite>; a. fr.—Part. <cite ref=\"T00099\"><he>רְבִיעַ</he></cite>; f. <cite ref=\"T00101\"><he>רְבִיעָא</he></cite>; pl. <cite ref=\"T00106\"><he>רְבִיעִין</he></cite>; <cite ref=\"T00101\"><he>רְבִיעָן</he></cite>. Ib. IV, 7. ",
+				"<cite ref=\"Onkelos Deuteronomy 22:6\">Targ. Deut. XXII, 6</cite> (O. ed. Vien. <cite ref=\"T00131\"><he>רְבֵעָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:22\">Targ. Ps. CIV, 22</cite>; a. fr.—Y. Ber. VIII, 12ᵇ top <he>לא מיסתך דאת ר׳ וכ׳</he> is it not not enough that thou art lying (on the dining couch), and he stands and attends thee? <cite ref=\"Yoma 2a\">Ib.</cite> <he>גזירנא דהוא ר׳ וכ׳</he> (not <cite ref=\"C00554\"><he>גזירה</he></cite>) I decree that he lie down, and thou stand &c. ",
+				"<cite ref=\"Bereishit Rabbah 7:2\">Gen. R. s. 7</cite> <he>רביע ואנא וכ׳</he> lie down (to be lashed), and I will tell thee; Tanḥ. Ḥuck. 6; <cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 1:8:1\">Koh. R. to I, 8</cite> <he>קם ור׳ ליה על רגלוי</he> he arose and threw himself down at his feet. ",
+				"<cite ref=\"Shevuot 22b\">Shebu. 22ᵇ</cite>, a. fr. <he>אריא הוא דר׳ וכ׳</he>, v. <cite ref=\"A03081\"><he>אַרְיָא</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to commit buggery</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 24a:11\">Ab. Zar. 24ᵃ</cite> <he>דילמא רַבְעוּהָ לאימא דאימא</he> perhaps they (gentiles) had connection with the grandmother (of the animal, while she was pregnant); a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְבַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to lie down, lay down</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 24:11\">Targ. Y. Gen. XXIV, 11</cite> (h. text <he>ויברך</he>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 25:2\">Targ. Y. Deut. XXV, 2</cite> <he>ויַרְבְּעִינֵיה</he> (not <he>ויִרְ׳</he>).—Part. pass. <he>מַרְבַּע</he>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 49:14\">Targ. Y. I Gen. XLIX, 14</cite>.—",
+						"<cite ref=\"Bamidbar Rabbah 19:3\">Num. R. s. 19</cite> <he>אַרְבְּעוּנֵיה דילקי</he> lay him down, that he may receive lashes; Tanḥ. l. c. <he>ארבעתיה</he> (corr. acc.); ib. <he>ארבעונהי</he> (corr. acc.). Pesik. R. l. c. <he>אַרְבְּעִינֵיה</he> lay thou him down. Y. Bicc. I, 64ᵃ <he>אַרְבְּעֵיה על וכ׳</he> he ordered him to be laid on the benches (for punishment). ",
+						"<cite ref=\"Bava Kamma 114a:4\">B. Kam. 114ᵃ</cite> <he>אַרְבְּעֵית לי אריא וכ׳</he> thou didst put a lion at my borders, i.e. you forced a violent neighbor upon me; a. e.—Y. Yeb. IV, 6ᵃ bot. <he>ואנא בעי מַרְבַּעְתָּהּ וכ׳</he> and I want to assist at her lying down (for delivery), before she cools off, v. <cite ref=\"R00636\"><he>צְנַן</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to copulate animals</i>, esp. <i>to hybridize</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 36:24\">Targ. Y. Gen. XXXVI, 24</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 19:19\">Targ. Y. Lev. XIX, 19</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["רַבֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to divide into four parts</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:4\">Targ. Y. Deut. XXXII, 4</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make quadrangular</i>. <i>Part. pass.</i> <he>מְרַבַּע</he> (<he>מְרֻבַּע</he> Hebraism); f. <he>מְרַבְּעָא</he>; pl. <he>מְּרַבְּעִין</he>; <he>מְרַבְּעָן</he>, <cite ref=\"M02508\"><he>מְרַבְּעָתָא</he></cite> <i>quadrate</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 27:1\">Targ. Ex. XXVII, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 45:2\">Targ. Ez. XLV, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 7:5\">Targ. I Kings VII, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 33:7\">Targ. Y. I Num. XXXIII, 7</cite> (not <he>מֵרַבְ׳</he>); <cite ref=\"Targum Jonathan on Exodus 14:2\">Targ. Y. I Ex. XIV, 2</cite> (ed. Vien. <cite ref=\"M02500\"><he>מרביעתא</he></cite>, corr. acc.); a. e.—Y. Sot. V, 20ᵇ bot. <he>מאן דמְרַבַּע ארבע וכ׳</he> he that wants to form four rows of four casks each requires sixteen casks. ",
+						"<cite ref=\"Eruvin 57a:8\">Erub. 57ᵃ</cite> <he>אימור … כמאן דמְרַבְּעָא רַבּוּעֵי ודאי מי מְרַבַּעְנָא</he> we said, we consider it in our calculations as if it were squared; do we, however, really make it a square (by filling the space with buildings)?; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

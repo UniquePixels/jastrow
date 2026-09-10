@@ -1,0 +1,33 @@
+{
+	"id": "A02416",
+	"slug": "אסטרטיוט",
+	"headword": {
+		"text": "אִסְטְרַטְיוֹט"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְטְרַטְיוֹטָא"
+		},
+		{
+			"text": "אִסְטְרַטְיוֹטֵיס"
+		}
+	],
+	"page": {
+		"number": 92,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (στρατιώτης) prop. <i>soldier</i>, later <i>Roman officer</i> (D. C. Gr. s. v.); <i>attendant</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:22\">Y. Shek. V, 49ᵃ</cite>; <cite ref=\"Shir HaShirim Rabbah 3:6\">Cant. R. to III, 6</cite>, end <cite ref=\"A02415\"><he>אסטרטיג</he></cite> (corr. acc.). Y. Keth. I, 25ᶜ top <he>טיוס …</he> (corr. acc.).—Pl. <cite ref=\"A02417\"><he>אִסְטְרַטְיוֹטִין</he></cite>. ",
+				"<cite ref=\"Targum of I Chronicles 18:6\">Targ. I Chr. XVIII, 6</cite> (v. however <cite ref=\"Targum Jonathan on II Samuel 8:6\">Targ. II Sam. VIII, 6</cite>). Tanḥ. Haăz. 2, read: <he>באו א׳</he> the officers came to meet the king.—<he>אִסְטְרַטְיוֹטוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 4:3:3\">Y. B. Kam. IV, 4ᵇ</cite> top <he>ששליח המלכות שני א׳</he> (read <he>ששלחה</he>) the Roman governm. sent two commissioners. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 11:12:2\">Y. Ned. XI, 42ᵈ</cite> bot. <he>אסטרטיות</he>; v. <cite ref=\"A02413\"><he>אִסְטְרַטְיָא</he> II</cite>."
+			]
+		}
+	]
+}

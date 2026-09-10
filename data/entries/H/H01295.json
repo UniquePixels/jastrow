@@ -1,0 +1,41 @@
+{
+	"id": "H01295",
+	"slug": "חניסנסיא",
+	"headword": {
+		"text": "חֲנִיסְנְסַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲנִסְנְ׳"
+		},
+		{
+			"text": "חֲנִיסְסַיָּא"
+		}
+	],
+	"page": {
+		"number": 483,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>gauzy dresses</i> or <i>veils</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:19\">Targ. Is. III, 19</cite> (h. text <he>רעל</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>obscene statutary devoted to the Sun</i> (h. <cite ref=\"H01203\"><he>חַמָּנִים</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 26:30\">Targ. O. Lev. XXVI, 30</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 6:4\">Targ. Ezek. VI, 4</cite>; <cite ref=\"Targum Jonathan on Ezekiel 6:6\">6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 17:8\">Targ. Is. XVII, 8</cite>; a. e. [In various ed. our w. is written <he>חניס נ׳</he> in two words, also <cite ref=\"H01295\"><he>חֲנִיסְסַיָּא</he></cite>. Our w. seems to be a derivative of a stem <he>חסס</he>, with anorganic <cite ref=\"N00001\"><he>נ</he></cite>, having the meaning of <i>nakedness, shame</i>. (cmp <cite ref=\"H01390\"><he>חָסִית</he> I</cite>, <cite ref=\"H01336\"><he>חֲסַד</he></cite>, <cite ref=\"H01405\"><he>חסף</he></cite>).]"
+			],
+			"label": "2"
+		}
+	]
+}

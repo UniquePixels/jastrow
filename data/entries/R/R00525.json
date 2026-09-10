@@ -1,0 +1,31 @@
+{
+	"id": "R00525",
+	"slug": "צלם-1",
+	"headword": {
+		"text": "צְלַם"
+	},
+	"page": {
+		"number": 1284,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>צַלֵּם</he> (denom. of <cite ref=\"R00527\"><he>צַלְמָא</he></cite>) <i>to paint</i> (<i>dark</i>). ",
+					"units": [
+						"<cite ref=\"Bava Metzia 60b:4\">B. Mets. 60ᵇ</cite> <he>שרא לצַלּוּמֵי גירי</he> allowed to paint arrows; <he>לצ׳ דיקולי</he> to paint baskets (in order to improve their appearance)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

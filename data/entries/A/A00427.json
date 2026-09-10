@@ -1,0 +1,27 @@
+{
+	"id": "A00427",
+	"slug": "אדמתא",
+	"headword": {
+		"text": "אֲדַמְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַדְמְתָא"
+		}
+	],
+	"page": {
+		"number": 17,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= h. <cite ref=\"A00422\"><he>אֲדָמָה</he></cite>) <i>earth</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:5\">Targ. O. Gen. II, 5</cite>; a. fr."
+			]
+		}
+	]
+}

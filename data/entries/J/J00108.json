@@ -1,0 +1,22 @@
+{
+	"id": "J00108",
+	"slug": "ידעוני",
+	"headword": {
+		"text": "יִדְעוֹנִי"
+	},
+	"page": {
+		"number": 565,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00106\"><he>יָדַע</he></cite>)<i>sooth-sayer, charmer</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 65b:6\">Snh. 65ᵇ</cite>; <cite ref=\"Tosefta Sanhedrin 10:6\">Tosef. ib. X, 6</cite>, v. <he>יִדּוֹעַ</he>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "C00411",
+	"slug": "גומא-1",
+	"headword": {
+		"text": "גּוֹמֶא"
+	},
+	"page": {
+		"number": 222,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. h. a. ch. (b. h. <cite ref=\"C00411\"><he>גֹּמֶא</he></cite>, cmp. <cite ref=\"A00309\"><he>אגם</he></cite>, <he>אגמא</he>) <i>bulrush, papyrus</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 19:6\">Targ. Is. XIX, 6</cite>. ",
+				"<cite ref=\"Onkelos Exodus 2:3\">Targ. O. Ex. II, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 8:11\">Targ. Job VIII, 11</cite> (some ed. <cite ref=\"C00415\"><he>גומיא</he></cite>). [<cite ref=\"Jerusalem Talmud Shabbat 7:2:23\">Y. Sabb. VII, 10ᵃ</cite> bot.; Y. Bets. IV, 62ᶜ bot., v. <cite ref=\"B00079\"><he>בגומא</he></cite>.]—Pl. <cite ref=\"C00415\"><he>גּוֹמַיָּא</he></cite>, <he>גּוֹמֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 41:2\">Targ. Y. Gen. XLI, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 2:3\">Targ. Y. Ex. II, 3</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:23\">Y. Sabb. VII, 10ᵃ</cite> <he>גומי</he>."
+			]
+		}
+	]
+}

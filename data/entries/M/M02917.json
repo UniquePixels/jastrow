@@ -1,0 +1,29 @@
+{
+	"id": "M02917",
+	"slug": "משליא",
+	"headword": {
+		"text": "מְשִׁלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְשִׁילְיָא"
+		}
+	],
+	"page": {
+		"number": 856,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שְׁלֵי</he> I) <i>fork</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 2:13\">Targ. I Sam. II, 13</cite>, sq. (ed. Wil. <cite ref=\"M02884\"><he>מַשִׁילַיָא</he></cite>).—Pl. <he>מְשִׁלְיָיתָא</he>, <he>מְשִׁלְיָתָא</he>, <he>מְשִׁי׳</he>. ",
+				"<cite ref=\"Targum of I Chronicles 28:17\">Targ. I Chr. XXVIII, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 27:3\">Targ. Y. Ex. XXVII, 3</cite> (some ed. <he>מַ׳</he>).—[<cite ref=\"Tosefta Shabbat 14:3\">Tosef. Sabb. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:3\">XV</cite>), 3, v. next w.]"
+			]
+		}
+	]
+}

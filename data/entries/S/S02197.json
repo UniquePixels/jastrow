@@ -1,0 +1,25 @@
+{
+	"id": "S02197",
+	"slug": "קרש-1",
+	"headword": {
+		"text": "קֶרֶשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1428,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;<cite ref=\"S02199\"><he>קָרַשׁ</he></cite>; cmp. Arab.<i>ḳarash</i> collegit … et partes junxit) <i>board</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 102b:3\">Sabb. 102ᵇ</cite> <he>ק׳ שנפלה וכ׳</he> a board attacked by a worm, v. <cite ref=\"D01111\"><he>דַּרְנָא</he></cite>; a. e.—Pl. <he>קְרָשִׁים</he>. ",
+				"<cite ref=\"Shemot Rabbah 52:4\">Ex. R. s. 52</cite> <he>הרי ק׳ הרי וכ׳</he> here are the boards (for the Tabernacle), here are the bolts &c. ",
+				"<cite ref=\"Mishnah Shabbat 12:3\">Sabb. XII, 3</cite> <he>קַרְשֵׁי המשכן</he> the boards of the Tabernacle; a. fr."
+			]
+		}
+	]
+}

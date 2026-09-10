@@ -1,0 +1,21 @@
+{
+	"id": "B00377",
+	"slug": "בורני-2",
+	"headword": {
+		"text": "בּוּרְנִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 150,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Burni</i>, a place near Lydda. ",
+			"units": ["<cite ref=\"Sanhedrin 32b\">Snh. 32ᵇ</cite>"]
+		}
+	]
+}

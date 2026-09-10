@@ -1,0 +1,31 @@
+{
+	"id": "Q00923",
+	"slug": "פכר-1",
+	"headword": {
+		"text": "פָּכַר"
+	},
+	"page": {
+		"number": 1174,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>פִּיכֵּר</he> (v. <cite ref=\"Q00924\">next w.</cite>) <i>to split, break</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 23\">Gen. R. s. 23</cite> <he>פָּכְרָה רוח … ופְכָרוֹ</he> (or <he>פִּכְּרָה</he>, <he>ופִכְּרוֹ</he>) the wind split (knocked down) one tree, and it fell on its neighbor and knocked it down; (Yalk. ib. 39 <he>פֵּרְכָה … ופֵירְכוֹ</he>).—Part. pass. <he>פָּכוּר</he>, v. <cite ref=\"Q00924\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

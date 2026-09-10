@@ -1,0 +1,24 @@
+{
+	"id": "H01348",
+	"slug": "חסודה-2",
+	"headword": {
+		"text": "חֲסוּדָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 486,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (prob. fr. <cite ref=\"H01335\"><he>חָסַד</he> II</cite>) <i>the vein opened for blood-letting</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 108b\">Sabb. 108ᵇ</cite> bot. (old ed. <he>חסורה</he>); (cmp. ",
+				"<cite ref=\"Taanit 21b\">Taan. 21ᵇ</cite> bot.)."
+			]
+		}
+	]
+}

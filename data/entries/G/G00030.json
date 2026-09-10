@@ -1,0 +1,48 @@
+{
+	"id": "G00030",
+	"slug": "זבח-1",
+	"headword": {
+		"text": "זָבַח"
+	},
+	"page": {
+		"number": 378,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., cmp. <cite ref=\"G00044\"><he>זבל</he></cite>) [<i>to give a feast</i>,] <i>to slaughter, sacrifice</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 2:3\">Ḥull. II, 3</cite> (ref. to <cite ref=\"Deuteronomy 27:7\">Deut. XXVII, 7</cite>) <he>מה שאתה זוֹבֵחַ וכ׳</he> thou mayest eat what <i>thou</i> (a human hand) cuttest. ",
+				"<cite ref=\"Sanhedrin 60b:8\">Snh. 60ᵇ</cite> <he>בזובח לעכו״ם</he> of one sacrificing to an idol; a. fr.—Part. pass. <cite ref=\"G00264\"><he>זָבוּחַ</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> (play on <cite ref=\"M00708\"><he>מזבח</he></cite>, <cite ref=\"Exodus 32:5\">Ex. XXXII, 5</cite>) <he>מֵהַזָּ׳ לפניו וכ׳</he> he was afraid on account of him who lay killed before him (Hur); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִיבֵּחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"G00029\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 62a:5\">Snh. 62ᵃ</cite> <he>ז׳ וקיטר וכ׳</he> if he slaughtered a sacrifice, and burnt &c. (to an idol). ",
+						"<cite ref=\"Mishnah Sanhedrin 7:6\">Ib. VII, 6</cite> (<cite ref=\"Sanhedrin 60b:1\">60ᵇ</cite>) <he>המְזַבֵּחַ</he> Talm. ed. (Mish. <he>הזובח</he>) he who offers an animal (to an idol), a. fr.—V. <cite ref=\"G00044\"><he>זָבַל</he></cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִזְבַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to be sacrificed, to be slaughtered; to die as a martyr</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 1:1\">Zeb. I, 1</cite> <he>שנִזְבְּחוּ שלא לשמן</he> which were offered not for the purpose for which they were dedicated. Y. Snh. X, 29ᶜ top (play on <he>עלי זבח</he>, <cite ref=\"Psalms 50:5\">Ps. L, 5</cite>) <he>שעילו אותי ונזבחו על שמי</he> who raised me and sacrificed themselves for my name’s sake; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

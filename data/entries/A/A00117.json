@@ -1,0 +1,24 @@
+{
+	"id": "A00117",
+	"slug": "אביון",
+	"headword": {
+		"text": "אֶבְיוֹן"
+	},
+	"page": {
+		"number": 5,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h., <cite ref=\"A00107\"><he>אבי</he></cite>)<i>poor, distressed</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 34:9\">Lev. R. s. 34</cite> (etymol.) he is called <i>ebyon</i>, <he>שהוא מתאב לכל</he> (Yalk. a. l. <he>מתאוה</he>) because he longs for everything. ",
+				"<cite ref=\"Bereishit Rabbah 71:1\">Gen. R. s. 71</cite>. ",
+				"<cite ref=\"Bava Metzia 111b:10\">B. Mets. 111ᵇ</cite>"
+			]
+		}
+	]
+}

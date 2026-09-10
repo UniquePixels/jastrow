@@ -1,0 +1,33 @@
+{
+	"id": "M00484",
+	"slug": "מול-3",
+	"headword": {
+		"text": "מוּל"
+	},
+	"page": {
+		"number": 742,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S01356\"><he>אִתְמוֹלַל</he></cite> (v. <he>מלל</he>) <i>to become brittle, fade</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 14:2\">Targ. Job XIV, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 24:24\">Ib. XXIV, 24</cite> Ms. (ed. <he>יתקטפ׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 90:6\">Targ. Ps. XC, 6</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpol."
+		}
+	]
+}

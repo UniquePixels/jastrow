@@ -1,0 +1,23 @@
+{
+	"id": "A02250",
+	"slug": "אנלוגין",
+	"headword": {
+		"text": "אַנְלוֹגִין"
+	},
+	"page": {
+		"number": 85,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀναλογεῖον) <i>reading desk, pulpit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite> Ar. <cite ref=\"A02249\"><he>אנלגין</he></cite> (Var. in R. S. <he>אנליגין</he>, ed. <cite ref=\"A02103\"><he>אנגלין</he></cite>; corr. acc.). Y. Meg. III, 73ᵈ bot. <he>אנג׳</he>, <he>אינג׳</he> (corr. acc.). ",
+				"<cite ref=\"Tosefta Kelim Kamma 2:3\">Tosef. Kel. B. Kam. II, 3</cite> <he>או לולגין פרוס׳ וכ׳</he> ed. Zuck. (Var. <he>אלו לגין</he>, ed. <he>אולו לוגין</he> read <he>אנאלוגין</he>; used as fem.) a reading desk spread out is clean, folded together is unclean (susceptible of levitical uncleanness)."
+			]
+		}
+	]
+}

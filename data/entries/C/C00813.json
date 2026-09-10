@@ -1,0 +1,26 @@
+{
+	"id": "C00813",
+	"slug": "גירדא-1",
+	"headword": {
+		"text": "גִּירְדָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 242,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01269\"><he>גְּרַד</he></cite>) <i>scraping, rind</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite> <he>גי׳ דאסניתא</he> (ed. <he>גו׳ דאסינתא</he>) the paring of &c., v. <cite ref=\"A02471\"><he>אַסְנִיתָא</he></cite>. ",
+				"<cite ref=\"Ketubot 77b:4\">Keth. 77ᵇ</cite>, v. <cite ref=\"A03336\"><he>אַשְׁפָּא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 28a:13\">Ab. Zar. 28ᵃ</cite> <he>גְּרָדָא דיבלא וגי׳ דאסנא</he> (Ms. M. <he>גררא … וגוררא</he>, early ed. <he>וגורדא</he>) scraped root of cynodon and the paring of the bramble. ",
+				"<cite ref=\"Sotah 10b\">Sot. 10ᵇ</cite>; <cite ref=\"Bamidbar Rabbah 9:24\">Num. R. s. 9</cite> (prov.) <he>קמי דשתי חמרא חמרא קמי רפוקא גי׳ דיבלא</he> before wine drinkers, place wine; before a ploughman—a dish of scraped roots &c. V. <cite ref=\"C01271\"><he>גַּרְדָּא</he></cite>."
+			]
+		}
+	]
+}

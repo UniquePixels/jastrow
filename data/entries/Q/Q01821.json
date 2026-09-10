@@ -1,0 +1,49 @@
+{
+	"id": "Q01821",
+	"slug": "פריעה",
+	"headword": {
+		"text": "פְּרִיעָה"
+	},
+	"page": {
+		"number": 1227,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01943\"><he>פָּרַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>letting the hair grow in neglect</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 1:7\">Meg. I, 7</cite>, a. e., v. <cite ref=\"Q01810\"><he>פְּרִימָה</he></cite>. ",
+				"<cite ref=\"Moed Katan 15a:7\">M. Kat. 15ᵃ</cite> <he>אין פ׳ אלא וכ׳</he> <i>p’riʿah</i> (<cite ref=\"Leviticus 13:45\">Lev. XIII, 45</cite>) means, to let the hair grow (opp. to the opinion that <i>parʿa</i> means, <i>to uncover, remove the headdress</i>, v. infra)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>uncovering, removing the mourner’s wrap</i> (v. <cite ref=\"P00449\"><he>עֲטִיפָה</he></cite>). Ib. 24ᵃ <he>פְּרִיעַת הראש</he> taking off the mourner’s wrap (on the Sabbath); <cite ref=\"Bereishit Rabbah 100:7\">Gen. R. s. 100</cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>uncovering the corona at circumcision, splitting the membrane and pulling it down</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 71b:14\">Yeb. 71ᵇ</cite> <he>לא ניתנה פְּרִיעַת מילה וכ׳</he> Abraham was not commanded to tear &c. ",
+				"<cite ref=\"Devarim Rabbah 6\">Deut. R. s. 6</cite>, beg. (ref. to <he>למולות</he>, <cite ref=\"Exodus 4:26\">Ex. IV, 26</cite>) <he>מכאן למילה ומכאן לפ׳</he> from this we derive circumcision and also uncovering. ",
+				"<cite ref=\"Exodus 4:26\">Ib.</cite> (ref. to <he>המול ימול</he> <cite ref=\"Genesis 17:13\">Gen. XVII, 13</cite>) <he>שתי מילות מילה ופ׳</he> two operations, circumcision and uncovering; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>paying a debt</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 174a\">B. Bath. 174ᵃ</cite>, a. e. <he>פריעת בעל חוב מצוה וכ׳</he> paying a creditor is a religious obligation, and minors (the debtor’s children) are not subject to religious obligations (therefore the guarantor who paid for them must wait until they are of age)."
+			],
+			"label": "4"
+		}
+	]
+}

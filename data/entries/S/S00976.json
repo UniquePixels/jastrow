@@ -1,0 +1,23 @@
+{
+	"id": "S00976",
+	"slug": "קילותא",
+	"headword": {
+		"text": "קִילוּתָא"
+	},
+	"page": {
+		"number": 1361,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קִיל</he> II) <i>disregard, disgrace</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:23\">Targ. Y. Deut. XXI, 23</cite> (h. text <he>קללת</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 28:18\">Targ. Job XXVIII, 18</cite>, v. <cite ref=\"G00357\"><he>זִילוּתָא</he></cite>."
+			]
+		}
+	]
+}

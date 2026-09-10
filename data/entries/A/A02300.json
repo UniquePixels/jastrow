@@ -1,0 +1,31 @@
+{
+	"id": "A02300",
+	"slug": "אנקלסיא",
+	"headword": {
+		"text": "אֶנְקְלַסְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אונ׳",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 88,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a corruption of ἐνεχυρασία) <i>taking property in pledge, writ of seizure</i> = <cite ref=\"A00475\"><he>אַדְרַכְתָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 1:7\">Tosef. B. Mets. I, 7</cite> <he>אונקליטיא וכ׳</he> ed. Zuck. (Var. <cite ref=\"A00767\"><he>אונקילוסיא</he></cite>, corr. acc.) when a writ of seizure is found, if the debtor admits its correctness, it must be returned to the creditor; if not, it must be returned to neither. ",
+				"<cite ref=\"Tosefta Bava Metzia 1:7\">Ib.</cite> ",
+				"<cite ref=\"Bava Batra 11a\">B. Bath. XI, </cite>5 <he>אנקלסיא וכ׳</he> (<he>אינ׳</he>, <cite ref=\"A02300\"><he>אונ׳</he></cite>) a writ of seizure may be written out without notifying the creditor, but not without notifying the debtor and giving him time to protest; v. ",
+				"<cite ref=\"Bava Kamma 112b\">B. Kam. 112ᵇ</cite>)."
+			]
+		}
+	]
+}

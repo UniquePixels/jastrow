@@ -1,0 +1,25 @@
+{
+	"id": "A03059",
+	"slug": "ארזפתא-1",
+	"headword": {
+		"text": "אַרְזַפְתָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 117,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רזף</he>) <i>hammer</i>. Targ. ",
+			"units": [
+				"<cite ref=\"Judges 4:26\">Judg. IV, 26</cite>.—",
+				"<cite ref=\"Gittin 56b:15\">Gitt. 56ᵇ</cite>. ",
+				"<cite ref=\"Megillah 25a:13\">Meg. 25ᵃ</cite> (Ms. <cite ref=\"M02629\"><he>מַרְזפְתָּא</he></cite>)."
+			]
+		}
+	]
+}

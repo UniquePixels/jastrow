@@ -1,0 +1,33 @@
+{
+	"id": "K01386",
+	"slug": "כתר-1",
+	"headword": {
+		"text": "כָּתַר"
+	},
+	"page": {
+		"number": 682,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to knot, tie, join closely</i>.—Denom. <cite ref=\"K01388\"><he>כֶּתֶר</he></cite>, <cite ref=\"K00436\"><he>כּוֹתֶרֶת</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְתִּיר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"K01388\"><he>כֶּתֶר</he></cite>) <i>to tie a wreath, to offer a crown</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 24\">Lev. R. s. 24</cite> <he>העליונים מַכְתִּירִין להקב״ה וכ׳</he> the angels wreathe three ‘holies’ to the Lord (<cite ref=\"Isaiah 6:3\">Is. VI, 3</cite>); Yalk. ib. 603 <he>העליונים מַכְתִּירִים לפני וכ׳</he>; <cite ref=\"Yalkut Shimoni on Nach 272\">Yalk. Is. 272</cite> <he>מה״ש מכתירין ג׳ קדושות</he>.—",
+						"<cite ref=\"Eruvin 53b:17\">Erub. 53ᵇ</cite> (in enigmatic speech) <he>נתייעץ במַכְתַּיר</he> he took counsel with the crown-maker (him who ordains the scholars, the Nasi).—[Tanḥ. Ki Thissa 6 <he>שהכתיר</he>, read: <he>שהבחיר</he>, as Pesik. Shek., p. 15ᵇ.]—<i>Part. pass.</i> <he>מוּכְתָּר</he> <i>adorned, distinguished</i>. ",
+						"<cite ref=\"Megillah 12b\">Meg. 12ᵇ</cite> (in being called <i>Jehudi</i>, <cite ref=\"Esther 2:5\">Esth. II, 5</cite>) <he>מרדכי מ׳ בנימוסו היה</he> (<he>כעדי</he>) (v. Rabb. D. S. a. l. note 300) Mordecai was intended to be described as adorned with his faith (as with an ornament), i.e. <i>Jehudi</i> is meant not as a gentile noun but as an epithet of religious devotion (than whom no better Jew was found)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

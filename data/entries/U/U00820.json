@@ -1,0 +1,30 @@
+{
+	"id": "U00820",
+	"slug": "שידא-1",
+	"headword": {
+		"text": "שִׁידָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁדָּא"
+		}
+	],
+	"page": {
+		"number": 1558,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"J00093\"><he>יָד</he></cite>, a. <cite ref=\"U00253\"><he>שְׁדָא</he></cite>) <i>side, corner, shaft</i> (corresp. to h. <he>יֶרֶךְ</he>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 40:22\">Targ. Ex. XL, 22</cite> (Y. ed. Vien. <cite ref=\"U00820\"><he>שִׁידָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 128:3\">Targ. Ps. CXXVIII, 3</cite> (ed. Wil. <cite ref=\"U00254\"><he>שִׁדָא</he></cite>; h. text <he>ירכתי</he>). ",
+				"<cite ref=\"Targum Jonathan on Jonah 1:5\">Targ. Jon. I, 5</cite>. ",
+				"<cite ref=\"Onkelos Exodus 25:31\">Targ. O. Ex. XXV, 31</cite>; <cite ref=\"Onkelos Exodus 37:17\">XXXVII, 17</cite> <cite ref=\"U00822\"><he>שִׁידַּהּ</he></cite> ed. Berl. (ed. Vien. <he>שִׁידהּ</he>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "T00270",
+	"slug": "רהב-1",
+	"headword": {
+		"text": "רָהַב"
+	},
+	"page": {
+		"number": 1453,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be great; to boast</i>,] <i>to acknowledge the authority of, submit to</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 27:9\">Ex. R. s. 27</cite> (ref. to <he>התרפס ורהב</he>, <cite ref=\"Proverbs 6:3\">Prov. VI, 3</cite>) <he>התרפס … והמליכם עליך</he> be trodden in the dust of the feet of those greater than thyself and make them kings over thee; v. <cite ref=\"T00272\"><he>רַהַב</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְהִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to declare great, do homage to</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 6:5:1\">Cant. R. to VI, 5</cite> (expl. <he>הרהיבני</he> <cite ref=\"Shir HaShirim Rabbah 6:5:1\">ib.</cite>) <he>שהם הִרְהִיבוּנִי הם המליכו וכ׳</he> for they (the children at the Red Sea) did me homage, made me king over them, saying (<cite ref=\"Exodus 15:18\">Ex. XV, 18</cite>), ‘the Lord shall reign &c.; <cite ref=\"Exodus 15:18\">ib.</cite> <he>שהם הרהיבוני הם קבלו וכ׳</he> for they (the elders) did me homage, they accepted my rulership over them at Sinai (<cite ref=\"Exodus 24:7\">Ex. XXIV, 7</cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "U01798",
+	"slug": "שפר-1",
+	"headword": {
+		"text": "שָׁפַר"
+	},
+	"page": {
+		"number": 1619,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be smooth, rounded; to be pleasing, good, cheerful</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite> (play on <he>שִׁפְרָה</he>) <he>ששָׁפְרוּ מעשיה וכ׳</he> her deeds were pleasing before God."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁפֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to cleanse, make pleasing; to conciliate, harmonize</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 11b:12\">Sot. 11ᵇ</cite>; Ex. R. l. c. the Lord sent an angel from on high <he>ומנקה אותם ומְשַׁפֵּר אותם … שׁמְשַׁפֶּרֶת וכ׳</he> (not <he>ומשפיר</he>) who cleansed them and made them good-looking, like a midwife that cleanses an infant. Ib. <he>שהיתה משפרת על וכ׳</he> she smoothed over her daughter’s words, and pacified (the king) for her. ",
+						"<cite ref=\"Bereishit Rabbah 98:17\">Gen. R. s. 98</cite> (ref. to <he>אמרי שפר</he>, <cite ref=\"Genesis 49:21\">Gen. XLIX, 21</cite>) <he>אמרי שופר שהן משַׁפְּרִין אמרין וכ׳</he> words of the Shofar, for they harmonize the words that were given with sounding the Shofar &c. (the Torah). ",
+						"<cite ref=\"Genesis 49:21\">Ib.</cite> <he>ורץ … ושי׳ על ידו</he> (not <he>ידן</he>) Naphtali ran like a hind and brought the document (of the purchase of the cave of Machpelah) from Egypt, and through it he pacified (the Hittites). ",
+						"<cite ref=\"Bereishit Rabbah 99:12\">Gen. R. s. 99</cite>, end (ref. to Gen. l. c.) [read:] <he>והם מכבדין … ומשפרין דבריהם</he> they offer kings their fruits and speak pleasing words; Tanḥ. Vayḥi 13 <he>ומשמירין</he> (corr. acc.). ",
+						"<cite ref=\"Vayikra Rabbah 29:6\">Lev. R. s. 29</cite> (ref. to <cite ref=\"Psalms 81:4\">Ps. LXXXI, 4</cite> <cite ref=\"U00509\"><he>שופר</he></cite>) <he>בחדש הזה שַׁפְּרוּ מעשיכם</he> in this month (Tishri) cleanse your deeds; <he>אם שִׁפַּרְתֶּם וכ׳</he> if you cleanse your deeds, I will &c.; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִשְׁפַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be made neat-looking, be adorned</i>. Y. Sabb. X, end, 12ᵈ <he>העושה … לִישָּׁפֵר</he> who makes a strap (for an animal) … to be adorned with it; <cite ref=\"Tosefta Keilim Batra 4:13\">Tosef. Kel. B. Bath. IV, 13</cite> <he>לשַׁפֵּר</he> (<i>Pi.</i>).",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "M02015",
+	"slug": "מסרהבא",
+	"headword": {
+		"text": "מְסַרְהֲבָא"
+	},
+	"page": {
+		"number": 811,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01546\"><he>סַרְהֵב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>impatient, impetuous</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:5\">Targ. Prov. XXI, 5</cite> (h. text <he>אָץ</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rebellious</i>.—Pl. <cite ref=\"M02018\"><he>מְסַרְהֲבִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 31:27\">Targ. Y. Deut. XXXI, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 66:7\">Targ. Ps. LXVI, 7</cite> ed. Wil. (ed. Lag. <cite ref=\"M02018\"><he>מְסַרְהוֹבִין</he></cite>; Ms. <cite ref=\"M02018\"><he>מְסַרְהֲוִוין</he></cite>; h. text <he>סררים</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

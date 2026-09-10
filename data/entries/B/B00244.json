@@ -1,0 +1,38 @@
+{
+	"id": "B00244",
+	"slug": "בוכיא",
+	"headword": {
+		"text": "בּוּכְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 145,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(<cite ref=\"B00242\"><he>בוך</he></cite>; v. P. Sm. I 526 sq.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the weaver’s shuttle;</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the spider</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 52a:5\">Succ. 52ᵃ</cite>; <cite ref=\"Sanhedrin 99b:6\">Snh. 99ᵇ</cite> <he>חוט של ב׳</he> the thread of the shuttle [or spider-web]. [Snh. l. c. <cite ref=\"K00186\"><he>כוביא</he></cite>, Mss. vary betw. <cite ref=\"K00186\"><he>כוביא</he></cite> a. <cite ref=\"K00254\"><he>כוכיא</he></cite> q. v.]—["
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>coal-pan</i>, v. <cite ref=\"B00202\"><he>בּוּבְיָא</he></cite>.]—Cmp. <cite ref=\"B00609\"><he>בִּיכַי</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "H00137",
+	"slug": "חגב",
+	"headword": {
+		"text": "חָגָב"
+	},
+	"page": {
+		"number": 423,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hopper, locust</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 9:7\">Sabb. IX, 7</cite> <he>ח׳ חי טהור</he> a living clean (eatable) locust.—Pl. <he>חֲגָבִים</he>, <he>חֲגָבין</he>. ",
+				"<cite ref=\"Chullin 63b:8\">Ḥull. 63ᵇ</cite> <he>מיני ח׳</he> species of locusts. ",
+				"<cite ref=\"Mishnah Pesachim 3:5\">Pes. III, 5</cite> (spreading apart) <he>כקרני ח׳</he> like the proboscides of locusts. ",
+				"<cite ref=\"Shabbat 106b:9\">Sabb. 106ᵇ</cite>; <cite ref=\"Tosefta Shabbat 12:5\">Tosef. ib. XII</cite> (<cite ref=\"Tosefta Shabbat 13:5\">XIII</cite>), 5. ",
+				"<cite ref=\"Bereishit Rabbah 38:8\">Gen. R. s. 38</cite> the palm-trees appeared to them <he>כאלו ח׳</he> as though they were locusts (v. <cite ref=\"H00146\"><he>חֲגָזָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (metaph.) <i>pudenda</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 152a\">Sabb. 152ᵃ</cite>, v. <cite ref=\"P00078\"><he>עֲגָבָה</he></cite>. V. also <cite ref=\"S02114\"><he>קַרְסוֹל</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

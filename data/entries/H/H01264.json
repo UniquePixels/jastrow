@@ -1,0 +1,34 @@
+{
+	"id": "H01264",
+	"slug": "חנון-3",
+	"headword": {
+		"text": "חָנוּן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 482,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ",
+			"units": []
+		},
+		{
+			"gloss": " part. pass. of <cite ref=\"H01311\"><he>חָנַן</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"H01265\">next w.</cite>) <i>supplied with an application of Henna;</i> [oth. opin.: <i>mercifully protected</i>]; fem. <he>חֲנוּנָה</he>, pl. <he>חֲנוּנוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:4\">Sabb. V, 4</cite> (expl. ",
+				"<cite ref=\"Shabbat 54b\">ib. 54ᵇ</cite> <i>a compress dipped in oil;</i> Y. ib. 7ᶜ top <i>a wool-cap;</i> oth. opin., v. <cite ref=\"H01265\">next w.</cite>). [Ms. Maim. <he>יַחְנוּנוֹת</he>, quot. Löw Pfl. p. 213.]"
+			],
+			"label": "2"
+		}
+	]
+}

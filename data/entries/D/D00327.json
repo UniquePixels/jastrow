@@ -1,0 +1,24 @@
+{
+	"id": "D00327",
+	"slug": "דוקא-2",
+	"headword": {
+		"text": "דּוּקָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דוק</he>) = h. <cite ref=\"D00985\"><he>דַּק</he></cite>, <i>chaff</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 40:15\">Targ. Is. XL, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:28\">Ib. XXVIII, 28</cite>."
+			]
+		}
+	]
+}

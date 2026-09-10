@@ -1,0 +1,33 @@
+{
+	"id": "D00661",
+	"slug": "דיסקנס",
+	"headword": {
+		"text": "דִּיסְקַנְסְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "דיסגנים"
+		},
+		{
+			"text": "דיסגניס"
+		},
+		{
+			"text": "דיסקניס"
+		}
+	],
+	"page": {
+		"number": 302,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a popular corrupt. of <he>דיקסטנס</he>, <he>דיג׳</he>, dextans) <i>dextans</i>, a copper coin, <sup>5</sup>/<sub>6</sub> of an As. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 1:1:19\">Y. Maas. Sh. I, 52ᵈ</cite> top <he>מעות של ד׳</he> money consisting of small coins (<cite ref=\"Tosefta Ma'aser Sheni 1:4\">Tosef. ib. I, 4</cite> <he>פרוטות קטנות וכ׳</he>), v. <cite ref=\"V00303\"><he>תורמסר</he></cite>."
+			]
+		}
+	]
+}

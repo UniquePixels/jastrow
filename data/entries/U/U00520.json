@@ -1,0 +1,24 @@
+{
+	"id": "U00520",
+	"slug": "שוק-3",
+	"headword": {
+		"text": "שׁוּק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1540,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00519\">preced.</cite>) = <cite ref=\"V01077\"><he>תְּשׁוּקָה</he></cite>, <i>desire, longing</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:11:1\">Cant. R. to VII, 11</cite> (ref. to <he>תשוקתו</he>, <cite ref=\"Shir HaShirim Rabbah 7:11:1\">ib.</cite>) <he>שלשה שוקין הן אין שׁוּקָן של ישראל וכ׳</he> there are three kinds of desires: Israel longs for none but for his father in heaven; <he>אין שׁוּקָהּ של אשה וכ׳</he> woman’s desire is for her husband; <he>אין שׁוּקוֹ של יצר וכ׳</he> the evil temptation longs for Cain and the like of him; <he>אין שׁוּקָן של גשמים וכ׳</he> the rains desire the earth (ref. to <he>ותשקקה</he>, <cite ref=\"Psalms 65:10\">Ps. LXV, 10</cite>); v. <cite ref=\"V01077\"><he>תְּשׁוּקָה</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 117:4\">Midr. Till. to Ps. CXVII</cite> (expl. <he>ותשקקה</he>, v. supra) <he>תן לה שׁוּקָהּ</he> ed. Bub. (oth. ed. <he>תשוקתה</he>) grant to her that for which she (the earth) longs.—Pl. <he>שׁוּקִין</he>, v. supra."
+			]
+		}
+	]
+}

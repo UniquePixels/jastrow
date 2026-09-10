@@ -1,0 +1,29 @@
+{
+	"id": "K00638",
+	"slug": "כישוף",
+	"headword": {
+		"text": "כִּישּׁוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּשּׁ׳"
+		}
+	],
+	"page": {
+		"number": 637,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01317\"><he>כָּשַׁף</he></cite>) <i>sorcery, witchcraft</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 56b:1\">Snh. 56ᵇ</cite> <he>אף על הכ׳</he> the prohibition of sorcery is also included in the Noachidic laws (v. <cite ref=\"N00468\"><he>נֹחַ</he></cite>). ",
+				"<cite ref=\"Sanhedrin 56b:2\">Ib.</cite> <he>פרשת כ׳</he> (Ms. M. a. Rashi <cite ref=\"M01443\"><he>מכשף</he></cite>) the passage referring to sorcery (<cite ref=\"Deuteronomy 18:10\">Deut. XVIII, 10</cite>, sq.). ",
+				"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>לא כ׳ ולא כשפים וכ׳</he> I applied neither sorcery nor witchcraft; a. e."
+			]
+		}
+	]
+}

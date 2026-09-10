@@ -1,0 +1,27 @@
+{
+	"id": "H01108",
+	"slug": "חלפתא-2",
+	"headword": {
+		"text": "חִלְפְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלַפְתָּא"
+		}
+	],
+	"page": {
+		"number": 472,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00782\"><he>חִילְפָא</he> II</cite>) a species of <i>willow</i>, corresp. to h. <cite ref=\"R00710\"><he>צַפְצָפָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sukkah 34a:9\">Succ. 34ᵃ</cite> <he>ח׳ ערבתא וכ׳</he> what formerly was called <i>ḥ.</i> is now named <i>ărabta</i> and vice versa; (Rashi reads <cite ref=\"H00781\"><he>חילפא</he></cite>, Ms. M. corrupt vers., v. Rabb. D. S. a. l. note; <cite ref=\"Shabbat 36a:3\">Sabb. 36ᵃ</cite> <he>ערבה צפצפה וכ׳</he>)."
+			]
+		}
+	]
+}

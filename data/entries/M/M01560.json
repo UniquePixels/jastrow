@@ -1,0 +1,25 @@
+{
+	"id": "M01560",
+	"slug": "מלילה",
+	"headword": {
+		"text": "מְלִילָה"
+	},
+	"page": {
+		"number": 790,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M01590\"><he>מָלַל</he> I)</cite><i>ripe ear</i>, esp. <i>parched ear</i>.—Pl. <he>מְלִילוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 4:5\">Maasr. IV, 5</cite> <he>המולל מ׳</he> he who rubs parched ears; <cite ref=\"Tosefta Beitsah 1:20\">Tosef. Bets. I, 20</cite>. ",
+				"<cite ref=\"Tosefta Terumot 3:18\">Tosef. Ter. III, 18</cite> … <he>הכניס שובלין … לעשותן מ׳</he> if one brought ears to his house with the intention of parching them.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:1:12\">Y. Pes. III, beg. 29ᵈ</cite>, v. <cite ref=\"P00884\"><he>עָמִיל</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 43:1\">Pesik. R. s. 43</cite>, a. e., v. <cite ref=\"S01442\"><he>קָמָה</he></cite>; a. fr."
+			]
+		}
+	]
+}

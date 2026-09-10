@@ -1,0 +1,33 @@
+{
+	"id": "Q00760",
+	"slug": "פיסים",
+	"headword": {
+		"text": "פִּיסִּים"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיסִּין"
+		},
+		{
+			"text": "פִּסּ׳"
+		}
+	],
+	"page": {
+		"number": 1167,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q01339\"><he>פָּסַס</he></cite>, v. <cite ref=\"Q01222\"><he>פַּס</he> II</cite>) [<i>distributions</i>, cmp. Lat. tributum,] <i>taxes</i>, esp. <i>pissim, pissin</i>, name of a <i>Roman tax</i> laid on the community and distributed by the latter according to assessments (v. Sm. Ant. s. v. Vectigalia). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:18\">Y. Peah I, 15ᵇ</cite> bot. (ref. to <cite ref=\"Proverbs 3:26\">Prov. III, 26</cite>) <he>אם נתת … משמרך מן הפ׳ וכ׳</he> if thou givest charity out of thy pocket (voluntarily), the Lord will guard thee from tributes, fines &c.; <cite ref=\"Bereishit Rabbah 1\">Gen. R. s. 1</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:10:4\">Y. Ab. Zar. IV, 44ᵇ</cite>; <cite ref=\"Jerusalem Talmud Sheviit 4:3:3\">Y. Shebi. IV, 35ᵇ</cite> <he>אתם מגלגלין עלינו פ׳ וזימיות וכ׳</he> you impose upon us tributes and fines &c. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 312:1\">Yalk. Jer. 312</cite> <he>משתעבדין … בפ׳ ובהוניות וכ׳</he> are oppressed by tributes, confiscations &c.; Pesik. Baḥod. p. 151ᵃ <he>במסים</he> (corr. acc.); a. fr."
+			]
+		}
+	]
+}

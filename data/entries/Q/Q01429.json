@@ -1,0 +1,23 @@
+{
+	"id": "Q01429",
+	"slug": "פציח-2",
+	"headword": {
+		"text": "פְּצִיחַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1205,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>P’tsiaḥ</i> (<i>Open Town</i>). ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 2:23\">Targ. O. Deut. II, 23</cite> ed. Lsb. (oth. ed. <cite ref=\"T00948\"><he>רפיח</he></cite>, <cite ref=\"D00962\"><he>דפיח</he></cite>, v. Berl. Targ. O. II, p. 50; h. text <he>חצרים</he>)."
+			]
+		}
+	]
+}

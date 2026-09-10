@@ -1,0 +1,23 @@
+{
+	"id": "M03024",
+	"slug": "מתולא",
+	"headword": {
+		"text": "מָתוֹלָא"
+	},
+	"page": {
+		"number": 860,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M03073\"><he>מְתַל</he></cite>) <i>poet.—</i>Pl. <he>מְתוֹלַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:27\">Targ. Y. Num. XXI, 27</cite>; O. <he>מָתְלַיָּא</he> (ed. Berl. <he>מְתָלַיָּא</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 24:14\">Targ. I Sam. XXIV, 14</cite> <he>מָתְלַיָּא</he> Bxt., v. <cite ref=\"M03074\"><he>מתְלָא</he></cite>."
+			]
+		}
+	]
+}

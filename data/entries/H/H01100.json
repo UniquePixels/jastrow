@@ -1,0 +1,33 @@
+{
+	"id": "H01100",
+	"slug": "חלף-3",
+	"headword": {
+		"text": "חִלֶף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 472,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01099\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>shoot</i>.—Pl. <he>חֲלָפִים</he>, constr. <he>הֶלְפֵי</he>, <cite ref=\"H01117\"><he>חֶילְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Beitzah 3b:8\">Bets. 3ᵇ</cite>; <cite ref=\"Yevamot 81b\">Yeb. 81ᵇ</cite>; <cite ref=\"Zevachim 72b:1\">Zeb. 72ᵇ</cite> <he>ח׳ תרדין</he> the young shoots of beet growing out of the root; <cite ref=\"Mishnah Orlah 3:7\">Orl. III, 7</cite> Ms. M. (ed. <cite ref=\"H00360\"><he>חוֹלְפוֹת</he></cite>; Y. ed. <cite ref=\"H00784\"><he>חִילְפּוֹת</he></cite>); <cite ref=\"Tosefta Terumot 5:10\">Tosef. Ter. V, 10</cite> <he>חֲלִיפוֹת</he> ed. Zuck. (Var. <cite ref=\"H00784\"><he>חילפות</he></cite>); <cite ref=\"Mishnah Oktzin 1:4\">Ukts. I, 4</cite> <cite ref=\"H01105\"><he>חִלְפּוֹת</he></cite>. V. <cite ref=\"H01058\"><he>חֲלִיפִין</he></cite>, <cite ref=\"H01057\"><he>חֲלִיפָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rush</i>, v. <cite ref=\"H00780\"><he>חֵילֶף</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

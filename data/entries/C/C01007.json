@@ -1,0 +1,22 @@
+{
+	"id": "C01007",
+	"slug": "גמוד",
+	"headword": {
+		"text": "גָּמוּד"
+	},
+	"page": {
+		"number": 252,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <he>גְּמוּדָה</he> f. (<he>גמד</he>) <i>contracted, reduced</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 4:4:4\">Y. Yoma IV, 41ᶜ</cite> bot., v. <cite ref=\"C00231\"><he>גָּדַם</he></cite> a. <cite ref=\"A01989\"><he>אַמָּה</he></cite>."
+			]
+		}
+	]
+}

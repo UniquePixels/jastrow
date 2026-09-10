@@ -1,0 +1,23 @@
+{
+	"id": "B00834",
+	"slug": "בלונקי",
+	"headword": {
+		"text": "בְּלוּנְקֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 171,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>בי אלונקי</he>, v. <cite ref=\"A01924\"><he>אֲלַנְקֵי</he></cite>) <i>poles for carrying burdens to market;</i> cmp. <cite ref=\"A00775\"><he>אוּנְקְלַי</he> I</cite>, 2.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:13\">Y. Dem. II, 22ᶜ</cite> bot. <he>בלוקח מן הב׳</he> when buying from the retailer’s stand, opp. <he>מן הגינה</he> directly from the garden."
+			]
+		}
+	]
+}

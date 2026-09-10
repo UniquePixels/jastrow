@@ -1,0 +1,31 @@
+{
+	"id": "S01465",
+	"slug": "קמטרא",
+	"headword": {
+		"text": "קַמְטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּמְ׳"
+		}
+	],
+	"page": {
+		"number": 1385,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κάμπτρα = κάψα) <i>box, chest</i> (for clothes, books &c.). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite>, contrad. to <cite ref=\"S00518\"><he>קופסא</he></cite>. Ohol. IX, 15. ",
+				"<cite ref=\"Berakhot 25b\">Ber. 25ᵇ</cite> sq. <he>גלימא אק׳</he> a cloak spread over a box (containing sacred books); a. e.—<i>Pl.</i> (ch.) <he>קוּמְטְרַיָּא</he>, <cite ref=\"S00435\"><he>קוּמְטְרִין</he></cite>, <he>קַמְטְרֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 10:22\">Targ. II Kings X, 22</cite> (Regia <cite ref=\"S01008\"><he>קֻמְ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:24\">Targ. Ez. XXVII, 24</cite> (Regia <he>קוּמְטַרְוָן</he>; ed. Lag. <he>קַמְטַרְוָון</he>).—",
+				"<cite ref=\"Megillah 26b:12\">Meg. 26ᵇ</cite> <he>ק׳ דספרי</he> book chests."
+			]
+		}
+	]
+}

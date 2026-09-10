@@ -1,0 +1,24 @@
+{
+	"id": "M02373",
+	"slug": "מקבא",
+	"headword": {
+		"text": "מַקָּבָא"
+	},
+	"page": {
+		"number": 829,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"M02379\"><he>מַקֶּבֶת</he></cite>, <i>mallet</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 43b:4\">Bekh. 43ᵇ</cite> <he>מקבן דדמי רישיה למ׳</he> (not <he>למקבן</he>) a <i>maḳḳaban</i> is one whose head resembles that of a mallet.—Pl. <he>מַקָּבִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 10:4\">Targ. Jer. X, 4</cite> (ed. Lag. <he>מַקּוּבִין</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 44:12\">Targ. Is. XLIV, 12</cite> (ed. Wil. <he>מקובין</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M01370",
+	"slug": "מכותא",
+	"headword": {
+		"text": "מָכוּתָא"
+	},
+	"page": {
+		"number": 782,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Assyr. <i>makua</i>, v. Fränkel Zeitschr. für Assyriol. III, p. 53; Proceed. Soc. for Bibl. Archaeol. 1887, p. 103) a certain kind of <i>boat</i>, (<i>low boat?</i>). ",
+			"units": [
+				"<cite ref=\"Ketubot 69b:11\">Keth. 69ᵇ</cite> <he>אסקריא דמ׳</he>; (<cite ref=\"Taanit 21a:5\">Taan. 21ᵃ</cite> <he>דספינתא</he>, v. Rabb. D. S. a. l. note 300), v. <cite ref=\"A02546\"><he>אִסְקַרְיָא</he></cite>; [Rashi: <i>sail</i>]. ",
+				"<cite ref=\"Bava Batra 161b:3\">B. Bath. 161ᵇ</cite> (<cite ref=\"R00346\"><he>צייר</he></cite>) <he>מ׳</he> drew a ship in place of his name (Rashb. <i>mast</i>); <cite ref=\"Gittin 36a:9\">Gitt. 36ᵃ</cite>; <cite ref=\"Gittin 87b:2\">87ᵇ</cite> (Rashi: <i>sail-yard</i>)."
+			]
+		}
+	]
+}

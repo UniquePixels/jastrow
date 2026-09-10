@@ -1,0 +1,30 @@
+{
+	"id": "O00116",
+	"slug": "סגום",
+	"headword": {
+		"text": "סָגוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "סָגוֹס"
+		}
+	],
+	"page": {
+		"number": 953,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (σάγος, sagus, sagum) <i>a coarse woolen blanket</i>, mostly mentioned as <i>a mattress</i> to sleep on. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 277:3\">Sifré Deut. 277</cite> <he>ס׳ בלילה וכ׳</he> he must give him back the sagum for the night (<cite ref=\"Mishnah Bava Metzia 9:13\">B. Mets. IX, 13</cite> <he>את הכַּר</he>). Sifré ib. 234 (ref. to <cite ref=\"Deuteronomy 22:12\">Deut. XXII, 12</cite>, ‘wherewith thou clothest thyself’) <he>פרט לס׳</he> this excludes the sagum. ",
+				"<cite ref=\"Mishnah Kelim 29:1\">Kel. XXIX, 1</cite>. Ohol. XI, 3; a. fr.—Pl. <he>סָגוֹסִין</he>. ",
+				"<cite ref=\"Tosefta Keilim Batra 7:1\">Tosef. Kel. B. Bath. VII, 1</cite> (ed. Zuck. <he>סגסגין</he>, oth. ed. <he>סגסין</he>, (corr. acc.; v. R. S. to <cite ref=\"Mishnah Kelim 29:1\">Kel. XXIX, 1</cite>). Ib. V, 11 <he>הסנסין</he> (corr. acc.; v. R. S. to <cite ref=\"Mishnah Kelim 28:8\">Kel. XXVIII, 8</cite>); <cite ref=\"Mishnah Kelim 28:8\">ib.</cite> ",
+				"<cite ref=\"Mishnah Negaim 5:14\">Neg. V, 14</cite> <cite ref=\"O01246\"><he>סנסון</he></cite> (corr. acc.).—[Tanḥ. ed. Bub., Vayera 21 <he>הוא מהלך בסגן</he> Ms. R. (Ms. Parma <he>בסגו</he>, printed text <he>פגן</he>; <cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>, a. e. <he>כפגן</he>) read: <he>מהלך בסָגוּן כפגן</he> he travelled in a sagum like a commoner; (v. Sm. Ant. s. v. Sagum.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "Q00914",
+	"slug": "פכח-2",
+	"headword": {
+		"text": "פְּכַח"
+	},
+	"page": {
+		"number": 1174,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q00913\">same</cite> <cite ref=\"Megillah 12b\">Meg. 12ᵇ</cite> <he>למחר פ׳ ליה חמריה</he> Ms. M. (Ms. O. a. L. <cite ref=\"Q01504\"><he>פקע</he></cite>; ed. <he>פסיק</he>; v. Rabb. D. S. a. l. note; Ar. <he>מפכח</he>) by to-morrow his wine will have evaporated (his intoxication will be gone).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מְפַּכְּחָא"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"B00139\"><he>בְּדִיחוּתָא</he></cite>. ",
+					"units": [
+						"<cite ref=\"Taanit 13b\">Taan. 13ᵇ</cite>; <cite ref=\"Bava Metzia 66b:7\">B. Mets. 66ᵇ</cite> <he>לפַכּוּחֵי</he>, v. <cite ref=\"Q00447\"><he>פַּחְדָּא</he></cite>.—Part. pass. <he>מְפַכַּח</he>. ",
+						"<cite ref=\"Niddah 20b:69\">Nidd. 20ᵇ</cite> <he>ומִפְכַּח הוא דקמפכח ואזיל</he> (Ar. <he>פַּכּוּחֵי הוא דפכח ואזיל</he>) it (the blood-stain in drying up) becomes constantly fainter."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

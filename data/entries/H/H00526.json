@@ -1,0 +1,101 @@
+{
+	"id": "H00526",
+	"slug": "חזי-2",
+	"headword": {
+		"text": "חֲזִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲזָא"
+		}
+	],
+	"page": {
+		"number": 443,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00525\">same</cite>, <i>to see, recognize, to decide</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 29:10\">Targ. O. Gen. XXIX, 10</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 45a:2\">Ber. 45ᵃ</cite>; <cite ref=\"Eruvin 14b:20\">Erub. 14ᵇ</cite>, a. e. <he>פוק חֲזִי וכ׳</he>, v. <cite ref=\"D00076\"><he>דְּבַר</he></cite>. ",
+				"<cite ref=\"Eruvin 13b:5\">Ib. 13ᵇ</cite> <he>דחֲזִיתֵיה לר״מ וכ׳</he> (not <he>דחזיתא</he>) because I have seen R. M. &c. ",
+				"<cite ref=\"Chullin 59b:11\">Ḥull. 59ᵇ</cite> <he>בעינא דאֶיחְזֵי וכ׳</he> I want to see your God <cite ref=\"Eruvin 63a:10\">Erub. 63ᵃ</cite> <he>ח׳ לנפשיה</he> may examine the knife for his own use; a. fr.—<i>Part. pass.</i> <he>חָזֵי</he>, <cite ref=\"H00526\"><he>חֲזֵי</he></cite>, f. <cite ref=\"H00527\"><he>חַזְיָא</he></cite> (cmp. <he>רָאוּי</he>) <i>pointed out, fit for, prepared;</i> (<i>it is</i>) <i>proper</i>. ",
+				"<cite ref=\"Aramaic Targum to Job 15:11\">Targ. Job XV, 11</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 5:10\">Targ. O. Lev. V, 10</cite>; a. e.—",
+				"<cite ref=\"Ketubot 21a\">Keth. 21ᵃ</cite> <he>כְּדַחֲ׳</he>, <he>כִּדְחָ׳</he> as it is proper. ",
+				"<cite ref=\"Bava Batra 19b:12\">B. Bath. 19ᵇ</cite> <he>ח׳ לבהמתו</he> fit for his cattle as feed; a. fr.—",
+				"<cite ref=\"Shabbat 90a:8\">Sabb. 90ᵃ</cite>, a. fr. <he>למאי חזיא</he> what is it good for (what use can be made of it)?—Pl. <cite ref=\"H00505\"><he>חָזוּ</he></cite>, <cite ref=\"H00505\"><he>חֲזוּ</he></cite>. ",
+				"<cite ref=\"Shabbat 90a:8\">Ib.</cite> top <he>ח׳ למתק וכ׳</he> they may be used for seasoning &c. ",
+				"<cite ref=\"Beitzah 26b:20\">Bets. 26ᵇ</cite>; a. fr.—<he>חזי לי</he> it was pointed out to me, <i>I saw</i>. ",
+				"<cite ref=\"Gittin 57a:13\">Gitt. 57ᵃ</cite>. ",
+				"<cite ref=\"Taanit 25b:9\">Taan. 25ᵇ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחֲזֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to show, let see, reveal; to lay before a teacher for examination</i> or <i>decision</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 41:28\">Targ. O. Gen. XLI, 28</cite>; a. fr.—",
+						"<cite ref=\"Chullin 59b:9\">Ḥull. 59ᵇ</cite> <he>בעינא דמַחֲזִית וכ׳</he> I want thee to show it to me. Bets. l. c. <he>אַחֲזַיֵיה לחכם וכ׳</he> as soon as he showed it to an expert (and the latter decided favorably) &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["חַזֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00525\">same</cite>. Targ. II Esth. II, 8.—",
+					"units": [
+						"<cite ref=\"Bava Metzia 67a:1\">B. Mets. 67ᵃ</cite> <he>ואודיק חַזִּיתָן איילונית</he> and when he looked at me (and noticed that I was going to object by referring to <cite ref=\"A00722\"><he>אוֹנָאָה</he></cite>), he pointed out to us the case of <cite ref=\"A01283\"><he>אַיְילוֹנִית</he></cite> (v. Rabb. D. S. a. l. note 50; Ms. R. <cite ref=\"H00568\"><he>חַזְּתָן</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְחֲזֵי", "אִיחֲזֵי"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"H00526\"><he>אִחְזֵי</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be seen, to appear</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 13:10\">Targ. Jud. XIII, 10</cite>; a. fr.—",
+						"<cite ref=\"Berakhot 17b:9\">Ber. 17ᵇ</cite> <he>מִיחֲזֵי כיוהרא</he> it looks like assumption; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to look at each other</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 42:1\">Targ. O. Gen. XLII, 1</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to become fit, adapted for use</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 26b:20\">Bets. 26ᵇ</cite> <he>אי דאִחֲזוּ בה״ש א׳</he> if on the entrance of the Sabbath they became fit for use, they have become so (for the entire Sabbath). ",
+						"<cite ref=\"Beitzah 26b:20\">Ib.</cite> <he>אחזו והדר … אחזו</he> they had been fit (on the entrance of the Sabbath), and were unfitted (through rain), and became fit again; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to be shown, to be laid before the scholar for decision</i>. Ib. <he>אתח׳ לחכם וכ׳</he> it had been shown to (and decided upon by) the expert on the eve &c.; a. fr.",
+					"units": [],
+					"label": "4"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

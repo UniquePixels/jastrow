@@ -1,0 +1,38 @@
+{
+	"id": "U00200",
+	"slug": "שבת-5",
+	"headword": {
+		"text": "שַׁבָּת"
+	},
+	"page": {
+		"number": 1520,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U00199\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>day of rest, Sabbath</i>.—<he>שַׁבַּת בראשית</he>, v. <cite ref=\"B01162\"><he>בְּרֵאשִׁית</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:1\">Sabb. I, 1</cite> <he>יציאות הש׳</he> the laws concerning the carrying of objects from one territory (<cite ref=\"T01079\"><he>רָשׁוּת</he></cite>) to another on the Sabbath, v. <cite ref=\"E00266\"><he>הוֹצָאָה</he></cite>. Ib. 2ᵇ <he>הכא דעיקר ש׳ הוא</he> here where the Sabbath law is the main subject. Ib. 10ᵇ <he>מתנה</he> … <he>וש׳ שמה</he> I have a precious gift in my treasury, its name is Sabbath. Ib. 119ᵃ <he>תבלין … וש׳ שמו וכ׳</he> we (Jews) have a certain spice, its name is Sabbath, which we put into it (the Sabbath dish), and its flavor spreads, Ib. 117ᵇ <he>בש׳ חייב אדם לבצוע וכ׳</he> on the Sabbath one must break bread (say the blessing) over two loaves. Ib. <he>לעולם … להוצאת ש׳</he> one should always be early in making the purchases for the Sabbath. Ib. 118ᵃ <he>עשה שַׁבַּתְּךָ וכ׳</he>, v. <cite ref=\"R00787\"><he>צָרַךְ</he></cite>. Ib. 119ᵃ <he>בואו … ש׳ המלכה</he> come ye, and let us go forth to meet queen Sabbath. Ib.ᵇ <he>שני … בערב ש׳ מבית וכ׳</he> two ministering angels escort man on the Sabbath eve from the synagogue to his house; <he>מלאך … שתהא לש׳ אחרת כך וכ׳</he> the good angel says, may it be thus the next Sabbath, and the evil angel says Amen against his will. Ib. <he>לא חרבה … את הש׳</he> Jerusalem was destroyed for no other reason than because they desecrated the Sabbath there. Mekh. Ki Thissa <he>לכם ש׳ מסורה וכ׳</he>, v. <cite ref=\"M02006\"><he>מָסַר</he></cite>. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 4:1\">R. Hash. IV, 1</cite> <he>שחל להיות בש׳</he> which falls on a Sabbath day; a. v. fr.—",
+				"<cite ref=\"Berakhot 28a:13\">Ber. 28ᵃ</cite>, a. e. <he>ש׳ של מי היתה</he> whose Sabbath was it, i.e. whose turn to preach was it?—Pl. <he>שַׁבָּתוֹת</he>. Sabb. l. c. <he>אילמלי … שתי ש׳ וכ׳</he> if Israel were to observe two Sabbaths properly, they would at once be redeemed. ",
+				"<cite ref=\"Yevamot 93a:9\">Yeb. 93ᵃ</cite> <he>ש׳ וימים טובים</he> Sabbaths and festivals; <cite ref=\"Ketubot 110b:5\">Keth. 110ᵇ</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>week</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 8:1\">Ned. VIII, 1</cite> <he>ש׳ זו אסור בכל הש׳ וש׳ שעברה</he> (if one says on a Sabbath day, ‘I vow abstinence from wine) this Sabbath’, he is forbidden to drink wine the whole (incoming) week and the week just expiring. ",
+				"<cite ref=\"Menachot 65b:3\">Men. 65ᵇ</cite> <he>באמצע ש׳</he> during the week, opp. <he>בשבת</he> on the Sabbath day; a. fr.—<i>Pl.</i> as ab. Is. 66ᵃ <he>אימתי … שבע ש׳ תמימות וכ׳</he> when do you find seven complete weeks (between Passover and Shabuoth)? When you begin to count from the evening. Pesik. Haʿom., p. 69ᵇ <he>באלו שבע ש׳ וכ׳</he> during those seven weeks between Passover &c.; a. fr.—שַׁבָּת <i>Sabbath</i>, name of a treatise, of the Order of Moʿed, of the Mishnah, Tosefta, Talmud Babli and Y’rushalmi."
+			],
+			"label": "2"
+		}
+	]
+}

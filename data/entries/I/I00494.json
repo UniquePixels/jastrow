@@ -1,0 +1,28 @@
+{
+	"id": "I00494",
+	"slug": "טלי-3",
+	"headword": {
+		"text": "טֶלִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְלִי"
+		}
+	],
+	"page": {
+		"number": 536,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00493\">preced.</cite> wds.) <i>hanging, covering</i>, esp. <i>table outfit, linen</i>.—Pl. <cite ref=\"I00512\"><he>טֵלִים</he></cite>, constr. <cite ref=\"I00493\"><he>טְלֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 68a:1\">Keth. 68ᵃ</cite> top, will you dine <he>בט׳ כסף או בט׳ זהב</he> with the silver outfit, i.e. with the outfit used in connection with silver vessels, or with the gold outfit?—",
+				"<cite ref=\"Bava Metzia 78b\">B. Mets. 78ᵇ</cite> has the worm come <he>בט׳ כסף או בט׳ זהב</he> in the silver outfit (white linen) &c.?; cmp. <cite ref=\"A00684\"><he>אוֹלָרִין</he></cite>, <cite ref=\"H00806\"><he>חִימּוּצָתָא</he></cite>."
+			]
+		}
+	]
+}

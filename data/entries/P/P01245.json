@@ -1,0 +1,33 @@
+{
+	"id": "P01245",
+	"slug": "ערב-4",
+	"headword": {
+		"text": "עֲרַב",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1110,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִיעְרַב</he> <i>to set</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 2b:10\">Ber. 2ᵇ</cite> <he>אי׳ שמשא וכ׳</he> when the sun is set, the day is gone (v. <cite ref=\"D00772\"><he>דְּכִי</he></cite>). ",
+						"<cite ref=\"Berakhot 2b:10\">Ib.</cite> <he>וכי תימא מכי אי׳ שמשא וכ׳</he> Ms. M. (ed. <he>עַרְבָא שמשא</he>) and if you say, when the sun sets, we call it night &c.; <cite ref=\"Megillah 20b:5\">Meg. 20ᵇ</cite> <he>מכי ערבא וכ׳</he> (missing in Ms. M.)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

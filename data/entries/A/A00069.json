@@ -1,0 +1,28 @@
+{
+	"id": "A00069",
+	"slug": "אבול-2",
+	"headword": {
+		"text": "אִבּוּל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיבּוּל"
+		}
+	],
+	"page": {
+		"number": 4,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00049\"><he>יבל</he></cite>, cmp. <cite ref=\"J00038\"><he>יְבוּל</he></cite>) <i>the gate for carrying grain into the house, wagon-gate, gate-way</i>. Pl. <he>אִבּוּלִים</he>, <he>אִיבּ׳</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 11:10\">Tosef. B. Mets. XI, 10</cite> <he>אין חולקין את אי׳ וכ׳</he> ed. Zuck. (ed. <he>הָאִבּ׳</he>) you dare not divide gate-ways between heirs unless there is the required space for each."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "I00317",
+	"slug": "טיהר",
+	"headword": {
+		"text": "טִיהָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִהָר"
+		}
+	],
+	"page": {
+		"number": 530,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"I00105\"><he>טַהֲרָה</he></cite>) <i>bright sky</i> after rain. ",
+			"units": [
+				"<cite ref=\"Berakhot 59a\">Ber. 59ᵃ</cite> Ms. F.; Y. ib. IX, 13ᵈ; <cite ref=\"Yalkut Shimoni on Nach 335\">Yalk. Is. 335</cite> <he>נראה שמים בטִהֲרוֹ</he> (read: <he>רקיע</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "S00597",
+	"slug": "קורטמי",
+	"headword": {
+		"text": "קוּרְטְמֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִירְ׳"
+		}
+	],
+	"page": {
+		"number": 1342,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S02009\"><he>קִרְטֵם</he></cite>) [<i>thorns</i>, v. P. Sm. 3743,] <i>safflower, bastard saffron</i> (carthamus). ",
+			"units": [
+				"<cite ref=\"Pesachim 42b:11\">Pes. 42ᵇ</cite> <he>תלתא ק׳</he> (Ms. M. 2 <he>קטומי</he>, emended <he>קַרְטוּמֵי</he>) one third portion (of the mixture) safflower. ",
+				"<cite ref=\"Berakhot 38a:6\">Ber. 38ᵃ</cite> (some ed. <cite ref=\"S01151\"><he>קיר׳</he></cite>; Ms. F. <he>קורטני</he>, v. Rabb. D. S. a. l. note 60). ",
+				"<cite ref=\"Gittin 70a:18\">Gitt. 70ᵃ</cite>, v. <cite ref=\"H01670\"><he>חָרֵי</he></cite>."
+			]
+		}
+	]
+}

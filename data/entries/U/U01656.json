@@ -1,0 +1,32 @@
+{
+	"id": "U01656",
+	"slug": "שעיע",
+	"headword": {
+		"text": "שְׁעִיעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁעִיעָא"
+		}
+	],
+	"page": {
+		"number": 1610,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01677\"><he>שְׁעַע</he></cite>) <i>smooth</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:11\">Targ. Gen. XXVII, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:12\">Targ. Cant. V, 12</cite>; a. fr.—Pl. <cite ref=\"U01865\"><he>שְׁעִיעַיָּא</he></cite>, <cite ref=\"U01865\"><he>שְׁעִיעִין</he></cite>; <cite ref=\"U01656\"><he>שְׁעִיעָן</he></cite>, <cite ref=\"U01657\"><he>שְׁעִיעָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:40\">Targ. I Sam. XVII, 40</cite> <he>שְׁעִיעֵי אבניא</he> (h. text <he>חלקי אבנים</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 19:17\">Targ. Y. Lev. XIX, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 12:3\">Targ. Ps. XII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:16\">Ib. XXXV, 16</cite> <he>שעיעתא</he> Ms. (ed. <cite ref=\"U01657\"><he>שעיעותא</he></cite>); a. e."
+			]
+		}
+	]
+}

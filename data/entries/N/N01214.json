@@ -1,0 +1,32 @@
+{
+	"id": "N01214",
+	"slug": "נקירא",
+	"headword": {
+		"text": "נְקִירָא"
+	},
+	"page": {
+		"number": 933,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>נְקִירֵי</he> (<he>נְקַר</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": " name of <i>small birds</i> (<i>pickers</i>). ",
+			"units": [
+				"<cite ref=\"Shabbat 110b:3\">Sabb. 110ᵇ</cite> <he>מוניני דנ׳</he> brine of small birds; v. <cite ref=\"N01200\"><he>נְקִידָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bite</i>, v. <cite ref=\"N00771\"><he>נִיקּוּרָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "H01804",
+	"slug": "חשאי-2",
+	"headword": {
+		"text": "חֲשַׁאי"
+	},
+	"page": {
+		"number": 508,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01817\"><he>חָשָׁה</he></cite>) <i>whispering, stillness, secret</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 56a:8\">Pes. 56ᵃ</cite> <he>להביא בח׳</he> to offer it to her in secret. ",
+				"<cite ref=\"Pesachim 56a:8\">Ib.</cite> <he>שיהו אומרים … בח׳</he> that they say it in a whisper. ",
+				"<cite ref=\"Arakhin 16a:69\">Arakh. 16ᵃ</cite>; <cite ref=\"Zevachim 88b:11\">Zeb. 88ᵇ</cite>; <cite ref=\"Yoma 44a:5\">Yoma 44ᵃ</cite> <he>דבר שבח׳</he> something done in secrecy (the offering of frank-incense on the inner altar); <he>מעשה שבח׳</he> what is committed in secrecy (calumny). ",
+				"<cite ref=\"Berakhot 15b\">Ber. 15ᵇ</cite>; a. fr.—Pl. <he>חֲשָׁאִים</he>. ",
+				"<cite ref=\"Mishnah Shekalim 5:6\">Shek. V, 6</cite> <he>לשכת ח׳</he> the Hall of Secret (donations)."
+			]
+		}
+	]
+}

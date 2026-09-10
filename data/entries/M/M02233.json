@@ -1,0 +1,34 @@
+{
+	"id": "M02233",
+	"slug": "מפסלת",
+	"headword": {
+		"text": "מְפַסֶּלֶת"
+	},
+	"page": {
+		"number": 821,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01325\"><he>פָּסַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>plane</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:4\">Kel. XIII, 4</cite> (ed. Dehr. 5; Mish. ed. <cite ref=\"M02232\"><he>מפסלית</he></cite>; Maim. in comment. <cite ref=\"M02237\"><he>מְפַצֶּלֶת</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sculptor’s chisel</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 13:17\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:17\">XIV</cite>), 17, v. <cite ref=\"M02379\"><he>מַקֶּבֶת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

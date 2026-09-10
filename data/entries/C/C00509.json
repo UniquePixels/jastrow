@@ -1,0 +1,35 @@
+{
+	"id": "C00509",
+	"slug": "גושקרא",
+	"headword": {
+		"text": "גּוּשְׁקְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּשְׁקְרָא"
+		}
+	],
+	"page": {
+		"number": 228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>wheat flour of the second course, dark flour</i>, opp. <cite ref=\"H00689\"><he>חִיוָּרִיתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Gittin 56a:11\">Gitt. 56ᵃ</cite>. [Fl. to Levy Targ. Dict. II, 570ᵇ refers to Arab. <i>ḫushkâr</i>, derived fr. the Persian, <i>bran-bread</i>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a cotton-like plant</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 20b:8\">Sabb. 20ᵇ</cite> (Var. <he>קוש׳</he>); v. <cite ref=\"A00238\"><he>אַגְבִּין</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

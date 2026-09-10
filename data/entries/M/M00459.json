@@ -1,0 +1,55 @@
+{
+	"id": "M00459",
+	"slug": "מוט-2",
+	"headword": {
+		"text": "מוּט",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 740,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M00458\">same</cite> <cite ref=\"Onkelos Leviticus 25:35\">Targ. Lev. XXV, 35</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:35\">Targ. Y. Deut. XXXII, 35</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָמֵיט"],
+			"senses": [
+				{
+					"gloss": "<i>to balance, weigh</i>. Pesik. B’shall., p. 82ᵃ <he>באמטיתא דאֲמִיטוּן</he> (<cite ref=\"M00459\"><he>אִתְּמִיט</he></cite>) <he>אִיתְּמֵט להון</he> with the balances with which they weighed, weighing was done to them; v. <cite ref=\"M00462\"><he>מוֹטָה</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְּמִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to be weighed</i>, v. supra (v. Bub. a. l. note 42).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְמוֹטַט"],
+			"senses": [
+				{
+					"gloss": "<i>to sink, waver, be reduced</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 94:18\">Targ. Ps. XCIV, 18</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 71a:6\">B. Mets. 71ᵃ</cite> <he>דלא מוזפי ומִתְמוֹטְטֵי</he> Ms. R. (v. Rabb. D. S. a. l. note 4) who lend not on interest and yet become poor."
+					]
+				}
+			],
+			"stem": "Ithpol."
+		}
+	]
+}

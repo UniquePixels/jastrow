@@ -1,0 +1,32 @@
+{
+	"id": "N00980",
+	"slug": "נעים-1",
+	"headword": {
+		"text": "נָעִים",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "נְעִימָה"
+		}
+	],
+	"page": {
+		"number": 919,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00990\"><he>נָעֵם</he></cite>)<i>pleasing, lovely</i>. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah 4:6\">Ruth R. to II, 5</cite> <he>כיון שראה אותה נ׳ ומעשיה נאים</he> when he saw that she was lovely and her conduct becoming.—Pl. <he>נְעִימִים</he>; <he>נְעִימוֹת</he>. ",
+				"<cite ref=\"Ruth Rabbah 4:6\">Ib.</cite> <he>מעשיה נאים ונ׳</he> her conduct is becoming and lovely. ",
+				"<cite ref=\"Midrash Tehillim 5:1\">Midr. Till. to Ps. V</cite> <he>כל מה שנתתה לנו טובים ונ׳ הם</he> all the things which thou hast given us are good and pleasing. ",
+				"<cite ref=\"Bereishit Rabbah 23:3\">Gen. R. s. 23</cite>, v. <cite ref=\"N00992\"><he>נַעֲמָה</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:1\">Cant. R. to IV, 4</cite> <he>כולכם נ׳ וחסידים וכ׳</he> all of you are welcome, all of you are pious &c.; a. e."
+			]
+		}
+	]
+}

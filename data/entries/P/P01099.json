@@ -1,0 +1,29 @@
+{
+	"id": "P01099",
+	"slug": "עצבות",
+	"headword": {
+		"text": "עֲצֵבוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲצֵיבוּת"
+		}
+	],
+	"page": {
+		"number": 1101,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01098\">preced.</cite> wds.) <i>grief, sorrow</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 31a:5\">Ber. 31ᵃ</cite> <he>אין … לא מתוך ע׳ וכ׳</he> you must not rise for prayer in a mood of grief or in languor … but in religious joy. ",
+				"<cite ref=\"Pesachim 117a:13\">Pes. 117ᵃ</cite> <he>אין השכינה … מתוך ע׳ וכ׳</he> the Divine Presence (holy inspiration) does not rest upon man in moments of languor or sadness &c. ",
+				"<cite ref=\"Chagigah 5b:11\">Ḥag. 5ᵇ</cite> <he>אין עצי׳ לפני וכ׳</he> there is no sadness before the Lord, for it is written (<cite ref=\"I Chronicles 16:27\">I Chr. XVI, 27</cite>) &c.; <cite ref=\"Yalkut Shimoni on Nach 292\">Yalk. Jer. 292</cite>."
+			]
+		}
+	]
+}

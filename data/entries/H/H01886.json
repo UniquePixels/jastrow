@@ -1,0 +1,35 @@
+{
+	"id": "H01886",
+	"slug": "חתיכה",
+	"headword": {
+		"text": "חֲתִיכָה"
+	},
+	"page": {
+		"number": 512,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01896\"><he>חָתַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cutting</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 103a\">Erub. 103ᵃ</cite>, v. <cite ref=\"J00057\"><he>יַבֶּלֶת</he></cite>. ",
+				"<cite ref=\"Chullin 31b\">Ḥull. 31ᵇ</cite>, v. <cite ref=\"G00034\"><he>זְבִיחָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a piece</i> (<i>of meat</i>), <i>portion</i> (cmp. <cite ref=\"N01364\"><he>נֵתַח</he></cite>, <cite ref=\"M01772\"><he>מָנָה</he></cite>). Ib. VII, 5 <he>ח׳ של דג וכ׳</he> a portion of an unclean fish. Ib. 100ᵃ <he>שאני ח׳ הואיל וכ׳</he> with an entire piece the case is different, because it is fit to be offered to guests; a. fr.—Pl. <he>חֲתִיכוֹת</he>. Ib. VII, 5. ",
+			"units": [
+				"<cite ref=\"Keritot 17b:58\">Kerith. 17ᵇ</cite> <he>חתיכה משתי ח׳</he> a doubt as to one piece out of two (of which one was forbidden and one allowed, and it is unknown which he ate); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

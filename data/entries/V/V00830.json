@@ -1,0 +1,30 @@
+{
+	"id": "V00830",
+	"slug": "תפלה-1",
+	"headword": {
+		"text": "תִּפְלָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1686,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"V00825\"><he>תָּפַל</he></cite>) [<i>mud, slime</i>,] <i>frivolity, trivial cause; impropriety, indecency</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 63b:12\">Ab. Zar. 63ᵇ</cite> (in Chald. dict.) <he>כל למעוטי תי׳ שפיר דמי</he> anything to diminish folly (idolatry) is right. ",
+				"<cite ref=\"Avodah Zarah 64a:4\">Ib. 64ᵃ</cite> <he>ואלו למעט את הת׳ שפיר דמי</he> Ms. M. (ed. <he>ואלו למעוטי ת׳ שרי</he>) but in this case, as it serves to diminish folly (the sin of <cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>), it is right. ",
+				"<cite ref=\"Tosefta Sotah 6:8\">Tosef. Sot. VI, 8</cite> <he>אי אפשר לעמוד על תִּיפְלָתָם</he> Var. (ed. Zuck. <he>התָּפֵל</he>) it is impossible to understand their frivolous ways; a. e.—",
+				"<cite ref=\"Eichah Rabbah 1:54\">Lam. R. to II, 14</cite> <he>נאמר בנביאי שומרון ת׳ … ירושלים ת׳</he> of the prophets of Samaria the word <i>tiflah</i> is used (<cite ref=\"Jeremiah 23:13\">Jer. XXIII, 13</cite>) …, and of the prophets of Jerusalem the word <i>tiflah (tafel)</i> is used (Lam. l. c.)."
+			]
+		}
+	]
+}

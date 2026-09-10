@@ -1,0 +1,82 @@
+{
+	"id": "U01771",
+	"slug": "שפל-1",
+	"headword": {
+		"text": "שָׁפֵל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1617,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; Shaf. of <he>נ־פל</he>)<i>to be low</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁפִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to lower, humble</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 13b:13\">Erub. 13ᵇ</cite> <he>המַשְׁפִּיל עצמו</he>; <he>הקב״ה מַשְׁפִּילוֹ</he>, v. <cite ref=\"C00049\"><he>גָּבַהּ</he></cite>; <cite ref=\"Nedarim 55a\">Ned. 55ᵃ</cite>. ",
+						"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> (ref. to <cite ref=\"Isaiah 2:9\">Is. II, 9</cite>) <he>אימתי שחו ונִשְׁפָּלוּ … הִשְׁפִּילָם הקב״ה</he> when did they sink and were lowered? When they committed that deed (worshipped the golden calf), the Lord lowered them. ",
+						"<cite ref=\"Arakhin 15b:58\">Arakh. 15ᵇ</cite> <he>יַשְׁפִּיל דעתו</he> let him humble his mind (think of his shortcomings). ",
+						"<cite ref=\"Moed Katan 16b:25\">M. Kat. 16ᵇ</cite> (play on <he>ת̇ח̇כ̇מ̇נ̇י̇</he>, <cite ref=\"II Samuel 23:8\">II Sam. XXIII, 8</cite>) <he>הואיל והִשְׁפַּלְתָּ עצמך ת̇ה̇א כ̇מ̇ו̇נ̇י̇</he> because thou didst lower thyself, thou shalt be like myself; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשְׁפַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be lowered</i>. Pesik. R. l. c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוּשְׁפַּל", "הָשְׁפַּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01770\">same</cite>. Pesik. Ki Thissa, p. 11ᵇ (ref. to <cite ref=\"Isaiah 2:9\">Is. II, 9</cite>) <he>יודע … והָשְׁפַּלְתִּי אני והם וכ׳</he> I know that Israel bowed to the golden calf, and I and they have been lowered, but wilt thou not raise (forgive) them?; Tanḥ. Ki Thissa 4 <he>והשפלתי אותי</he> and I myself have been lowered; <cite ref=\"Yalkut Shimoni on Nach 260\">Yalk. Is. 260</cite> <he>והוּשְׁפַּלְתִּי</he>. Tanḥ. l. c. 5 (ref. to <cite ref=\"Psalms 75:8\">Ps. LXXV, 8</cite>) <he>בלשון זה הו׳ וכ׳</he> for the word <i>zeh</i> (<cite ref=\"Exodus 32:24\">Ex. XXXII, 24</cite>) was he (Aaron) lowered, v. <cite ref=\"C00049\"><he>גָּבַהּ</he></cite>; <he>בלשון זה הוּשְׁפָּלוּ וכ׳</he> through <i>zeh</i> (ib. 23) were they lowered, and with <i>zeh</i> (ib. XXX, 13) have they been raised; <cite ref=\"Vayikra Rabbah 8\">Lev. R. s. 8</cite>; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִשְׁתַּפֵּל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּפֵּל"],
+			"senses": [
+				{
+					"gloss": " [<i>to let one’s self drop</i>,] ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be humble, gentle</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> (ref. to <he>שפלות ידים</he>, <cite ref=\"Ecclesiastes 10:18\">Koh. X, 18</cite>) <he>ע״י שנִשְׁתַּפְּלוּ ישראל מלחנות וכ׳</he> because the Israelites were too gentle to encamp (before Sinai) in discord &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be lazy, indolent</i>. Ib. <he>ע״י … מִשְׁתַּפֵּל מלקנח וכ׳</he> (not <he>לקנח</he>) because that man is too careless to wipe his body properly, he gets scabs. Ib. <he>ע״י … מִשְׁתַּפֶּלֶת וכ׳</he> because that woman is too indolent to examine her body properly &c.; a. e.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

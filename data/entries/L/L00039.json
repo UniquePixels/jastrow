@@ -1,0 +1,61 @@
+{
+	"id": "L00039",
+	"slug": "לבב-2",
+	"headword": {
+		"text": "לָבַב"
+	},
+	"page": {
+		"number": 687,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " to <i>join closely; to tie</i>.—Part. Pass. <he>לָבוּב</he>, pl. <he>לְבוּבִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:2\">Sabb. V, 2</cite> (<cite ref=\"Shabbat 52b:19\">52ᵇ</cite>) <he>זכרים יוצאין ל׳</he> wethers may be taken out (on the Sabbath) coupled; expl. ib. 53ᵇ <he>תותרי</he>. Ib. <he>מאי משמע דהאי ל׳ לישנא דקרובי הוא</he> where is the proof that this root <he>לבב</he> has the meaning of bringing close together? Answ. ref. to <he>לבבתני</he> (<cite ref=\"Song of Songs 4:9\">Cant. IV, 9</cite>) ‘thou hast chained me’; <he>עולא אמר עור שקושרין להם כנגד לבם וכ׳</he> Ulla says (<i>l’bubin</i> refers to) the skin which is tied against their chests to protect them from the attacks of wolves; Y. ib. V, 7ᵇ bot. <he>שהוא נותן עור וכ׳</he> (v. <cite ref=\"B00384\"><he>בּוּרְסִיון</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"L00030\"><he>לֵב</he></cite>) part. pass. (<he>עור</he>) <he>לָבוּב</he> <i>a hide showing a hole in the place corresponding to the heart</i>.—Pl. <he>לְבוּבִים</he>, <he>לְבוּבִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 2:3\">Ab. Zar. II, 3</cite> (<cite ref=\"Avodah Zarah 29b:1\">29ᵇ</cite>) <he>עורות ל׳</he> hides with holes &c. (are forbidden, because the heart has been cut out for idolatrous purposes); expl. Tosef. ib. IV (V), 7; Y. ib. II, 41ᵇ; Bab. ib. 32ᵃ"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִלְבַּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be tied around</i>. Y. Sabb. X, end, 12ᵈ <he>העושה … לִילָּבֵב</he> he who makes a strap to be tied around (an animal’s chest &c., v. supra); <cite ref=\"Tosefta Keilim Batra 4:13\">Tosef. Kel. B. Bath. IV, 13</cite> <he>ללַבֵּב</he> Pi.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["לִיבֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to join, tie</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"L00030\"><he>לֵב</he></cite>) <i>to encourage</i>; <i>to strengthen</i>. Tanḥ. Sh’moth 14; <cite ref=\"Shemot Rabbah 2\">Ex. R. s. 2</cite> (play on <he>לַבַּת</he>, <cite ref=\"Exodus 3:2\">Ex. III, 2</cite>) (<he>כדי</he>) <he>לְלַבְּבוֹ וכ׳</he> in order to make him courageous when he comes to Mount Sinai &c. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 77\">Gen. R. s. 77</cite> <he>היה … ומְלַבְּבוֹ בארי</he> the king took his son and made him courageous by making him attack the (tamed) lion; <cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite> <he>זיווג את הארי והיה מלבבו כנגד בנו</he> he attacked the lion and incited him against his son. Pesik. S’liḥ., p. 166ᵃ [read:] <he>יפה כחך לַבֵּב כחך גבור</he> improve thy strength, strengthen thy powers, valiant man! (Ar. ed. Koh. <he>ליבב כח בגבורה</he>, oth. ed. <he>לבב כח בגבורה</he> <i>join</i> physical strength to valor)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

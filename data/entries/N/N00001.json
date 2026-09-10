@@ -1,0 +1,29 @@
+{
+	"id": "N00001",
+	"slug": "נ",
+	"headword": {
+		"text": "נ"
+	},
+	"page": {
+		"number": 865,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>Nun</i>, the fourteenth letter of the alphabet. It interchanges with <cite ref=\"M00000\"><he>מ</he></cite> q. v.; with <cite ref=\"L00000\"><he>ל</he></cite>, q. v.; with <cite ref=\"T00000\"><he>ר</he></cite>, cmp. <cite ref=\"G00695\"><he>זָרַח</he></cite> a. <cite ref=\"D00926\"><he>דְּנַח</he></cite>; <cite ref=\"U01596\"><he>שְׁנַיִם</he></cite> a. <cite ref=\"V00981\"><he>תְּרֵין</he></cite>; with <cite ref=\"J00000\"><he>י</he></cite> as preformative letter, cmp. <he>יצב</he> a. <he>נצב</he>.—<cite ref=\"N00001\"><he>נ</he></cite> frequently inserted, ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " in place of Dagesh forte, e. g. <cite ref=\"M01718\"><he>מַנְדַּע</he></cite> = <cite ref=\"M00316\"><he>מַדַּע</he></cite>; <cite ref=\"M01722\"><he>מִנְדְּרוֹן</he></cite> = <cite ref=\"M00332\"><he>מִדְּרוֹן</he></cite>;—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " to avoid a hiatus, as <cite ref=\"A01374\"><he>אִינְהוּ</he></cite>, <cite ref=\"N00692\"><he>נִינְהוּ</he></cite> &c.—<he>ָ</he><cite ref=\"S00299\"><he>ן</he></cite>, <he>ַ</he><cite ref=\"S00299\"><he>ן</he></cite>, <cite ref=\"N00003\"><he>נָא</he></cite>—afformative, e. g. <cite ref=\"C00563\"><he>גַּזְלָן</he></cite>, <cite ref=\"C00564\"><he>גַּזְלָנָא</he></cite>.—<cite ref=\"S00299\"><he>ן</he></cite>, Nun emphaticum, as <he>אוֹרַיְיתִין</he> = <cite ref=\"A00894\"><he>אוֹרַיְיתִי</he></cite>; esp. epenthetic Nun between verb and suffix, e. g. <he>בְּרָאנוּן</he>, <cite ref=\"Onkelos Genesis 5:2\">Targ. Gen. V, 2</cite>; a. fr.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

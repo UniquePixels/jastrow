@@ -1,0 +1,23 @@
+{
+	"id": "R00213",
+	"slug": "צועה",
+	"headword": {
+		"text": "צוּעָה"
+	},
+	"page": {
+		"number": 1268,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00650\"><he>צעה</he></cite>, denom. of <cite ref=\"J00540\"><he>יָצַע</he></cite>, <i>to lie down, to banquet</i>, v. <cite ref=\"R00647\"><he>צָעָא</he></cite>) <i>banqueting dish, plate.—</i>Pl. <he>צוּעוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 10:3:2\">Y. Keth. X, 33ᵈ</cite> bot. <he>ומן הצ׳</he>, v. <cite ref=\"N00480\"><he>נְחוֹשֶׁת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 10:3:2\">Ib.</cite> <he>ובלבד מן הצ׳ באותו הלילה</he> but you cannot seize plates prepared for use that same night.—[<cite ref=\"Tosefta Ketubot 7:11\">Tosef. Keth. VII, 11</cite> <he>הצועה</he> ed. Zuck., read: <he>הצוֹאָה</he>.]"
+			]
+		}
+	]
+}

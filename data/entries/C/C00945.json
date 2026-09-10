@@ -1,0 +1,30 @@
+{
+	"id": "C00945",
+	"slug": "גלילא-1",
+	"headword": {
+		"text": "גָּלִילָא"
+	},
+	"page": {
+		"number": 249,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00944\">same</cite><i>district, circuit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 47:8\">Targ. Ezek. XLVII, 8</cite>.—Pl. <cite ref=\"C00949\"><he>גְּלִילִין</he></cite>, <cite ref=\"C00949\"><he>גְּלִילֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 22:10\">Targ. Josh. XXII, 10</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Galilee</i>. Ib. XX, 7; a. e.—",
+			"units": [
+				"<cite ref=\"Shabbat 47a\">Sabb. 47ᵃ</cite>; <cite ref=\"Shabbat 78a:4\">78ᵃ</cite> <he>בג׳ שנו</he> it refers only to Galilee.—",
+				"<cite ref=\"Tosefta Sanhedrin 2:5\">Tosef. Snh. II, 5</cite>; <cite ref=\"Jerusalem Talmud Maaser Sheni 5:4:4\">Y. Maas. Sh. V, 56ᶜ</cite> top, a. e. <he>ג׳ עילאה</he> Upper Galilee, <he>ג׳ תיתאה</he> (<cite ref=\"A03226\"><he>ארעיתא</he></cite>) Lower G.; <cite ref=\"Sanhedrin 11b:3\">Snh. 11ᵇ</cite> <cite ref=\"C00947\"><he>גלילאה</he></cite> (corr. acc.).—",
+				"<cite ref=\"Eruvin 53b:24\">Erub. 53ᵇ</cite> <cite ref=\"C00667\"><he>בר ג׳</he></cite> a Galilean."
+			],
+			"label": "2"
+		}
+	]
+}

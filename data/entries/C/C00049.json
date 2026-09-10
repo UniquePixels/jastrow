@@ -1,0 +1,68 @@
+{
+	"id": "C00049",
+	"slug": "גבה-4",
+	"headword": {
+		"text": "גָּבַהּ"
+	},
+	"page": {
+		"number": 204,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <he>גבב</he>; cmp. <he>גאה</he>) <i>to be high; to be elated</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 15a:9\">Meg. 15ᵃ</cite> <he>ג׳ המן וכ׳</he> (Var. <he>ג׳ לבו של המן</he>) Haman is haughtier than Ahasver (he dared what Ah. did not venture); <cite ref=\"Yalkut Shimoni on Nach 1056:6\">Yalk. Esth. 1056</cite>.—",
+				"<cite ref=\"Sotah 5a:8\">Sot. 5ᵃ</cite> <he>ולא ג׳ הר סיני למעלה</he> and Mount Sinai did not rise higher (grow proud)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגְבִּיהַּ"],
+			"senses": [
+				{
+					"gloss": "<i>to raise, elevate; to make elated</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 23a\">Taan. 23ᵃ</cite> a generation which was to be humbled <he>הִגְבַּהְּתּוֹ בתפלתן</he> hast thou lifted up through thy prayer, v. <cite ref=\"C00004\"><he>גָּאָה</he></cite>.—",
+						"<cite ref=\"Eruvin 55a:2\">Erub. 55ᵃ</cite> <he>מי שמַגְבִּיהַּ דעתו עליו כשמים</he> Ms. M. (ed. <cite ref=\"P00794\"><he>עליה</he></cite>, ed. Sonc. <he>מגב׳ עצמו כשמ׳</he>; v. Rabb. D. S. a. l.; <cite ref=\"Yalkut Shimoni on Torah 940:22\">Yalk. Deut. 940</cite> <he>שמגיס דעתו</he>) who exalts his mind in himself as high as the heavens (who considers himself very wise, ed. who considers himself on account of his knowledge of it as high &c.). Ib. 13ᵇ him who lowers himself <he>הק״בה מַגְבִּיהוֹ</he> the Lord will raise, <he>וכל המגביה עצמו וכ׳</he> and whomsoever exalts himself, the Lord will lower; ib. 54ᵃ; <cite ref=\"Nedarim 55a\">Ned. 55ᵃ</cite>. Tanḥ. Ki Thissa 14 <he>מַגְבִּיהִים פניהם</he> lifted their faces up; a. fr.—",
+						"<cite ref=\"Mishnah Challah 3:1\">Ḥall. III, 1</cite> <he>מַגְבַּהַת חלתה</he> she lifts up (dedicates) the priest’s share; v., however, <cite ref=\"C00047\"><he>גָּבָה</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to take up</i> a lost object in order to take possession of it. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 8a:4\">B. Mets. 8ᵃ</cite> <he>המגביה מציאה לחבירו וכ׳</he> if one takes up an object in behalf of his neighbor; <cite ref=\"Bava Metzia 10a:3\">ib. 10ᵃ</cite>; <cite ref=\"Beitzah 39b\">Bets. 39ᵇ</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּגְבַּהּ"],
+			"senses": [
+				{
+					"gloss": "<i>to be raised</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 47b:21\">Sot. 47ᵇ</cite> <he>שפלים הוּגְבָּהוּ</he> the low have been raised. Tanḥ. Ki Thissa 5; <cite ref=\"Vayikra Rabbah 8\">Lev. R. s. 8</cite> <he>בלשון זה ה׳</he> with the word <i>zeh</i> (<cite ref=\"Leviticus 6:13\">Lev. VI, 13</cite>) has he (Aaron) been raised.—<i>Part.</i> <he>מוּגְבַּהּ</he>, f. <he>מוּגְבַּהַת</he>. Y. Shebu. I, 32ᵈ bot. what means <cite ref=\"U00056\"><he>שְׂאֵת</he></cite> (<cite ref=\"Leviticus 13:2\">Lev. XIII, 2</cite>) <he>מוגבהת</he> a raised spot (Sifra Thazr., <cite ref=\"Mishnah Negaim 1\">Neg. ch. I</cite> <he>מובהקת</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְגַּבֵּהּ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְגַּבֵּהַּ</he> <i>to be elated, boastful</i>. Tanḥ. Ḥuck. 1 <he>התחיל מִתְגַּבֵּהַּ והולך</he> he beame more and more overbearing (Tanḥ. ed. Bub. ib.; <cite ref=\"Bamidbar Rabbah 18:12\">Num. R. s. 18</cite> <he>מתגבר</he>). ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 6\">Num. R. s. 6</cite>, beg. <he>נִתְגַּבְּהוּ בעצמם</he> they were proud of their own selves."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

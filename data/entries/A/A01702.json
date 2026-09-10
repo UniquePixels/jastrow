@@ -1,0 +1,24 @@
+{
+	"id": "A01702",
+	"slug": "אכלבא",
+	"headword": {
+		"text": "אַכְלְבָא"
+	},
+	"page": {
+		"number": 63,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כלב</he>; v. Ges. H. Dict. s. v.; cmp. <cite ref=\"K00694\"><he>כְּלוּב</he></cite>, <cite ref=\"K00722\"><he>כְּלִיבָה</he></cite>; Var. lect. <cite ref=\"A01702\"><he>אַכְלְכָא</he></cite>, v. infra) <i>shed, store-room</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 63b:4\">B. Mets. 63ᵇ</cite> <he>חיטי … באַכְלְבָאִי</he> (v. Var. lect. in Rabb. D. S. a. l.; Mss. a. Ar. <he>אכלכא</he>) would my wheat have gone to ruin in my granary? <cite ref=\"Taanit 24a:9\">Taan. 24ᵃ</cite> (v. Rabb. D. S. a. l.).—Pl. <he>אַכְלְבֵי</he>. ",
+				"<cite ref=\"Gittin 56a:9\">Gitt. 56ᵃ</cite> <he>אכלבא … שתין א׳ וכ׳</he> one shed of wheat requires sixty sheds of wood (for baking). ",
+				"<cite ref=\"Bava Metzia 72b:11\">B. Mets. 72ᵇ</cite> <he>חיטי דא׳</he> (Ms. M. <he>באכלכי</he>, v. Rabb. D. S. a. l.) wheat stored in granaries &c."
+			]
+		}
+	]
+}

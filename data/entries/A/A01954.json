@@ -1,0 +1,27 @@
+{
+	"id": "A01954",
+	"slug": "אלריא-1",
+	"headword": {
+		"text": "אִלַּרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילַ׳"
+		}
+	],
+	"page": {
+		"number": 73,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἱλάρια) <i>day of rejoicing</i>, both private and public; esp. <i>days of public rejoicings appointed by a new emperor, consisting of games, masquerades</i> &c. Pesik. Sh’mini p. 193ᵇ while the King is engaged <he>בא׳ שלו וכ׳</he> in his hilaria, ask of him what you need. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:2\">Cant. R. to IV, 4</cite> <he>לא היו עומדין באלירא וכ׳</he> (corr. acc.) (at Mount Sinai) they did not stand (as) in hilaria, but in awe, trembling &c."
+			]
+		}
+	]
+}

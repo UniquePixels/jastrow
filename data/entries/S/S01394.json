@@ -1,0 +1,24 @@
+{
+	"id": "S01394",
+	"slug": "קלע-5",
+	"headword": {
+		"text": "קֶלַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1380,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S01390\"><he>קָלַע</he> I)</cite><i>sling</i>. Sifra Sh’mini, Par. 6, ch. VIII <he>כל כלי לרבות הק׳ וכ׳</he> ‘any receptacle’ (<cite ref=\"Leviticus 11:32\">Lev. XI, 32</cite>), to include the sling &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 3:5\">Eduy. III, 5</cite> <he>הק׳ שבית וכ׳</he> a sling the receptacle of which is of woven material. ",
+				"<cite ref=\"Shabbat 67a:7\">Sabb. 67ᵃ</cite> <he>ק׳ נטושה</he> (fem.), v. <cite ref=\"N00589\"><he>נָטַשׁ</he> I</cite>."
+			]
+		}
+	]
+}

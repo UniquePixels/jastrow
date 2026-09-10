@@ -1,0 +1,47 @@
+{
+	"id": "J00392",
+	"slug": "ילל-3",
+	"headword": {
+		"text": "יְלֵל"
+	},
+	"page": {
+		"number": 579,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00391\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 47:2\">Targ. Jer. XLVII, 2</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַיְלֵיל", "אֵילֵיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00391\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 27:32\">Targ. Ez. XXVII, 32</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 23:1\">Targ. Is. XXIII, 1</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["יַלֵּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00391\">same</cite>. Ib. XV, 4; a. e.—",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>שריית מְיַילְּלָא</he> (<he>חדא אתתא</he>) <cite ref=\"T00152\"><he>רבתי</he></cite> she began to lament. ",
+						"<cite ref=\"Rosh Hashanah 33b:10\">R. Hash. 33ᵇ</cite>, sq. <he>יַלּוּלֵי יַלֵּיל</he>, v. <cite ref=\"C01129\"><he>גְּנַח</he> I</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

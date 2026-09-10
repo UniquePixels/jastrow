@@ -1,0 +1,30 @@
+{
+	"id": "B01005",
+	"slug": "בסם-3",
+	"headword": {
+		"text": "בַּסָּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּשָּׂם"
+		}
+	],
+	"page": {
+		"number": 179,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01004\">preced.</cite>) <i>dealer in</i>, or <i>manufacturer of, spices, perfumes</i> &c.; <i>druggist</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 82b:2\">Kidd. 82ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Kiddushin 2:2\">Tosef. ib. II, 2</cite>; <cite ref=\"Tosefta Kiddushin 2:4\">4</cite>. Y. Ber. IX, 13ᶜ bot. ",
+				"<cite ref=\"Bava Metzia 56b\">B. Mets. 56ᵇ</cite> if one sells his (cancelled) notes <he>לב׳</he> to a druggist (for wrapping paper); a. fr.—[<cite ref=\"Tosefta Berakhot 6:23\">Tosef. Ber. VI</cite> (<cite ref=\"Tosefta Berakhot 5:8\">V</cite>), 8 ed. Zuck. <cite ref=\"B00289\"><he>בושם</he></cite>.]—Pl. <he>בַּסָּמִים</he>, <he>בַּסָּמִין</he>, <cite ref=\"B00289\"><he>בַּשָּׂ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 81a\">Sabb. 81ᵃ</cite>"
+			]
+		}
+	]
+}

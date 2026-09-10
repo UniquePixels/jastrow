@@ -1,0 +1,57 @@
+{
+	"id": "P00471",
+	"slug": "עטף-3",
+	"headword": {
+		"text": "עֲטַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1064,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00470\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 43:12\">Targ. Jer. XLIII, 12</cite> <he>וַעֲטַף</he> Bxt. (ed. <he>וירוקין</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 84:7\">Targ. Ps. LXXXIV, 7</cite> (Ms. <i>Pa.</i>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 109:29\">Ib. CIX, 29</cite>, v. <cite ref=\"P00442\"><he>עֲטֵי</he></cite>.—Part. pass. <cite ref=\"P00447\"><he>עָטִיף</he></cite>, <cite ref=\"P00447\"><he>עֲטִיף</he></cite>; pl. <cite ref=\"P00445\"><he>עֲטִיפִין</he></cite>; <cite ref=\"P00448\"><he>עֲטִיפָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 28:14\">Targ. I Sam. XXVIII, 14</cite>. Targ. II Esth. I, 3.—",
+				"<cite ref=\"Moed Katan 28b:7\">M. Kat. 28ᵇ</cite> (in a funeral dirge) <he>עְטוּף וכסו טורי וכ׳</he> wrap and cover yourselves (in festive garments), ye mountains, for he (the deceased) is &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עטֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to put on, cover</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 61:10\">Targ. Is. LXI, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 89:46\">Targ. Ps. LXXXIX, 46</cite> <he>עַטֵּיפְתָּ</he> (ed. Wil. <he>עִטַפְ׳</he> <i>Pe.</i>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 84:7\">Ib. LXXXIV, 7</cite> (v. supra); a. e.—Part. pass. <he>מְעַטַּף</he>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 13:45\">Targ. Y. Lev. XIII, 45</cite> (ed. Vien. <he>מְעַטֵּף</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַטֵּף", "אִתְעַטֵּיף"],
+			"senses": [
+				{
+					"gloss": ", <he>אִיעַטֵּף</he> <i>to cover one’s self</i>. Targ. O. Lev. l. c. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 24:65\">Targ. Y. I Gen. XXIV, 65</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 38:14\">Ib. XXXVIII, 14</cite> (ed. Vien. <he>אַעַטְפַת</he> <i>Af.</i>, incorr.). ",
+						"<cite ref=\"Aramaic Targum to Psalms 104:2\">Targ. Ps. CIV, 2</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 10a:2\">Sabb. 10ᵃ</cite> <he>לביש ומתכסי ימִתְעַטֵּף וכ׳</he> dressed and put an upper garment on and covered his head with it and prayed. ",
+						"<cite ref=\"Shabbat 119a:2\">Ib. 119ᵃ</cite> <he>מִיעַטֵּף וקאי וכ׳</he> (Rashi <he>מתע׳</he>) was wrapped (in his festive cloak) and stood (ready to receive the Sabbath); <cite ref=\"Bava Kamma 32b\">B. Kam. 32ᵇ</cite> top; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

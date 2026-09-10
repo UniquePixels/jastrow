@@ -1,0 +1,26 @@
+{
+	"id": "Q01280",
+	"slug": "פסיונא",
+	"headword": {
+		"text": "פִּסְיוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיסְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1194,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " m. = h. <cite ref=\"Q01278\"><he>פִּסָּיוֹן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 13:5\">Targ. Y. Lev. XIII, 5</cite>, sq.; a. fr.—Fem. form: <cite ref=\"Q01284\"><he>פִּסְיָינְתָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 13:28\">Ib. 28</cite> (ed. Vien. <cite ref=\"Q01284\"><he>פִּסְיָינָתָא</he></cite>)."
+			]
+		}
+	]
+}

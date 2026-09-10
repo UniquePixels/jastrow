@@ -1,0 +1,104 @@
+{
+	"id": "P01546",
+	"slug": "עתר-1",
+	"headword": {
+		"text": "עֲתַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַתַר"
+		},
+		{
+			"text": "עַתַּר"
+		}
+	],
+	"page": {
+		"number": 1130,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"P01498\"><he>עָשַׁר</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be rich, grow rich</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 32:15\">Targ. Deut. XXXII, 15</cite> <cite ref=\"P01546\"><he>עַתַר</he></cite> ed. Berl. (oth. ed., a. Y. <cite ref=\"P01546\"><he>עַתַּר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:25\">Targ. Ez. XXVII, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 11:5\">Targ. Zech. XI, 5</cite> ed. Lag. (ed. Wil. <i>Af.</i>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:17\">Targ. Prov. XXI, 17</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make rich</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַתֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to make rich</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 14:23\">Targ. Gen. XIV, 23</cite> (ed. Berl. <cite ref=\"P00384\"><he>עֲתַ׳</he></cite>, oth. ed. <cite ref=\"P00384\"><he>עֲתִ׳</he></cite>; Y. I <he>אַעַתָּרִית</he> <i>Af.</i>). ",
+						"<cite ref=\"Targum Jonathan on I Samuel 2:7\">Targ. I Sam. II, 7</cite>; a. fr.—",
+						"<cite ref=\"Yoma 25b\">Yoma 25ᵇ</cite> <he>מְעַתְּרָא</he> it (offering frankincense) makes rich."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to proclaim rich</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 13:7\">Targ. Prov. XIII, 7</cite> (some ed. <i>Af.</i>).—[<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> <he>עתר לך</he> Ar. (ed. <he>עביד</he>), read: <cite ref=\"P01526\"><he>עַתַּד</he></cite>, v. <cite ref=\"P01527\"><he>עֲתַד</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַעְתֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to make rich</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become rich</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 49:17\">Targ. Ps. XLIX, 17</cite> <he>יַעְתִּיר</he> Ms. (ed. <i>Ithpa.</i>). ",
+						"<cite ref=\"Targum Jonathan on Zechariah 11:5\">Targ. Zech. XI, 5</cite> (v. supra); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְעַתַּר", "אִיעַתַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to become rich</i>. Targ. Ps. l. c.—",
+					"units": [
+						"<cite ref=\"Bava Metzia 59a:11\">B. Mets. 59ᵃ</cite> <he>דתִתְעַתְּרוּ</he>, v. <cite ref=\"J00581\"><he>יְקַר</he></cite> <i>Af.</i>; <cite ref=\"Yalkut Shimoni on Torah 68\">Yalk. Gen. 68</cite>. ",
+						"<cite ref=\"Horayot 10b:6\">Hor. 10ᵇ</cite> <he>אִיעַתְּרִיתוּ פורתא</he> have you acquired a little wealth? <cite ref=\"Nedarim 50a\">Ned. 50ᵃ</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to endure, prosper</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 15:29\">Targ. Job XV, 29</cite> <he>יִתְעַתַּר</he> ed. Lag. (oth. ed. <he>יתעתד</he>, v. <cite ref=\"P01527\"><he>עֲתַד</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

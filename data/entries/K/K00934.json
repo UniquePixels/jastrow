@@ -1,0 +1,27 @@
+{
+	"id": "K00934",
+	"slug": "כסך",
+	"headword": {
+		"text": "כֶּסֶךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּסְכַּס"
+		}
+	],
+	"page": {
+		"number": 654,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transpos. of <cite ref=\"O00935\"><he>סכסך</he></cite> q. v.; cmp. <cite ref=\"C01182\"><he>גַּעְגֵּעַ</he></cite>), pl. <he>כְּסָכִים</he>, <he>כַּסְכַּסִּים</he> <i>leather thongs</i> for crosswise fastening (cmp. b. h. <he>שָׂרַךְ</he> a. <he>שְׂרוֹךְ נַעַל</he>). ",
+			"units": [
+				"<cite ref=\"Shabbat 138b\">Sabb. 138ᵇ</cite> <he>הגוד בכְסָכָיו</he> Ar. (Ms. O. <he>בכַסְכַּסָּיו</he>; ed. <he>בכיסנא</he>, read: <he>בכיסכא</he>; Ms. M. <he>חגור בנסבא</he>, read: <he>הגוד בכסכא</he>, v. Rabb. D. S. a. l.) it is permitted to stretch the milk (or wine) bag by its thongs, v. <cite ref=\"C00301\"><he>גּוֹד</he></cite>. Ib. 139ᵇ <he>בכילה ובכְסָכֶיהָ</he> Ar. (ed. <he>ובכַסְכַּסֶּיהָ</he>) wrapt in a bed-curtain with the thongs attached."
+			]
+		}
+	]
+}

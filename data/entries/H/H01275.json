@@ -1,0 +1,31 @@
+{
+	"id": "H01275",
+	"slug": "חנט-3",
+	"headword": {
+		"text": "חֶנֶט"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲנָטָה"
+		}
+	],
+	"page": {
+		"number": 482,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01274\">preced.</cite> wds.) <i>formation of fruits</i> or <i>leaves</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:8:2\">Y. Shebi. IV, end 35ᶜ</cite>, a. e. <he>שלשולן הוא חַנְטָן</he> their formation of chains is what in other trees is the formation of fruits. Ib. V, beg. 35ᵈ <he>עקרתה חַנְטוֹ</he> thou disregardest the time of its formation. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 5:2:6\">Y. Maasr. V, 51ᵈ</cite> bot. <he>בח׳ והשרשה</he> as regards the law regulating the tithes according to the time of the formation of fruits and of taking root.—",
+				"<cite ref=\"Rosh Hashanah 15b:1\">R. Hash. 15ᵇ</cite> <he>אחר חנטה לשביעית</he> for the laws concerning the fruits of the Sabbatical year the formation of fruits is the deciding mark. ",
+				"<cite ref=\"Rosh Hashanah 15a:8\">Ib.ᵃ</cite> (in Chald. diction) <he>זיל בתר ח׳</he> be guided by &c. ",
+				"<cite ref=\"Menachot 69a:2\">Men. 69ᵃ</cite> <he>ח׳ דפירא</he> the formation of the fruit, <he>ח׳ דעלה</he> the formation of the texture of leaves; v. <cite ref=\"E00693\"><he>הֲנָצָה</he></cite>."
+			]
+		}
+	]
+}

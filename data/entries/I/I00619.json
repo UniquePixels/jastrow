@@ -1,0 +1,32 @@
+{
+	"id": "I00619",
+	"slug": "טען-6",
+	"headword": {
+		"text": "טֹעַן"
+	},
+	"page": {
+		"number": 545,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טָעַן</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>requirement</i>, v. <cite ref=\"I00193\"><he>טוֹעַן</he></cite> a. <cite ref=\"I00614\"><he>טָעַן</he> I</cite>. I.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>search, claim</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 28b:4\">B. Mets. 28ᵇ</cite> <he>אבן ט׳</he>, v. <cite ref=\"I00594\"><he>טָעָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

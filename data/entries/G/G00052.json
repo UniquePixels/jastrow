@@ -1,0 +1,59 @@
+{
+	"id": "G00052",
+	"slug": "זבן",
+	"headword": {
+		"text": "זְבַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְבֵין"
+		}
+	],
+	"page": {
+		"number": 379,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"G00536\"><he>זמן</he></cite>, a. Syr. <cite ref=\"G00052\"><he>זבן</he></cite>) [<i>to plan</i>,] <i>to bargain, buy</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 2:8\">Dan. II, 8</cite>.—",
+				"<cite ref=\"Onkelos Genesis 25:10\">Targ. Gen. XXV, 10</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 30a\">B. Bath. 30ᵃ</cite>; <cite ref=\"Bava Batra 30b:3\">30ᵇ</cite> [read:] <he>מפלניא זְבִינְתָּהּ דזַבְנָהּ מינך</he> I bought it of such a person who has bought it of thee. ",
+				"<cite ref=\"Bava Batra 30b:6\">Ib.</cite> <he>אִיזְבּוּן דינאי</he> I will buy what by law belongs to me (to avoid litigation); a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַבֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to sell</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 25:31\">Targ. Gen. XXV, 31</cite>; <cite ref=\"Onkelos Genesis 25:33\">33</cite>; a. fr.—B. Bath. l. c. <he>זַבְּנָהּ ניהלי</he> sell it to me. Ib. 90ᵃ, a. e. (prov.) <he>זְבַן וזַבֵּין … איקרי</he> buy and sell and be called a merchant, i.e. will a man buy and sell without profit?—",
+						"<cite ref=\"Pesachim 113a:6\">Pes. 113ᵃ</cite> <he>מילי דזְבִינֵי וזַבּוּנֵי</he> Ag. hat-Torah (v. Rabb. D. S. a.—l. note 50; ed. <he>מילי דעלמא</he>) rules about buying and selling. ",
+						"<cite ref=\"Pesachim 113a:6\">Ib.</cite> <he>כל מילי זבין וכ׳</he> as regards all things, sell and regret, except wine <he>דתְזַבֵּין ולא וכ׳</he> Ms. M. (ed. <he>דזבין</he>) which you must sell and never regret. ",
+						"<cite ref=\"Megillah 26b\">Meg. 26ᵇ</cite> <cite ref=\"G00025\"><he>זַבּוּנָהּ</he></cite> to sell it. ",
+						"<cite ref=\"Gittin 47a:4\">Gitt. 47ᵃ</cite> <he>ז׳ נפשׁיה וכ׳</he> sold himself to &c.; a. fr.—Y. Taan. I, 64ᵇ bot. <he>זבית ערסי</he> (read: <he>זֵבְּנִית</he>) I sold my bedstead."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִזְדַּבַּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be sold, to be bought; to sell one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 105:17\">Targ. Ps. CV, 17</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 40b:7\">B. Mets. 40ᵇ</cite> <he>הוה מִזְדַּבֵּן לי</he> (Ms. M. <he>הוה זבנתיה</he>) it would have been saleable with me. ",
+						"<cite ref=\"Kiddushin 69a:7\">Kidd. 69ᵃ</cite> <he>ואִיזְדַּבֵּן וכ׳</he> and get thyself sold as a Hebrew slave."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

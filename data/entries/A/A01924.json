@@ -1,0 +1,31 @@
+{
+	"id": "A01924",
+	"slug": "אלנקי",
+	"headword": {
+		"text": "אֲלַנְקֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲלוּנְקֵי"
+		}
+	],
+	"page": {
+		"number": 72,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (= <he>על־ענקא</he> <i>on the neck</i>) <i>poles used to carry burdens on the shoulder of two or more persons</i> (v. Sm. Ant. s. v. <i>Falangæ, phalangæ</i>, which is of Semitic origin). ",
+			"units": [
+				"<cite ref=\"Beitzah 25b:14\">Bets. 25ᵇ</cite> what means ‘provided no carrying on shoulders takes place’? Ans. <he>באלנקי …</he> Ar., Ms. M. (ed. <he>באלו׳</he>) by means of <i>alanke</i> (phalangæ). ",
+				"<cite ref=\"Beitzah 25b:14\">Ib.</cite> <he>למיפק אאלו׳</he> ed. (Ms. <he>באל׳</he>) to be taken out &c. (carried in a sedan chair through which poles are put). ",
+				"<cite ref=\"Beitzah 25b:14\">Ib.</cite> Am. and Mar Zut. allowed themselves to be carried on shoulders of men <he>בשבתא דריגלא באלנ׳</he> Ar., Ms. M. (ed. our w. absent) on a Sabbath during the festive week on phalangæ (to the lecture room). V. <cite ref=\"B00834\"><he>בְּלוּנְקֵי</he></cite>."
+			]
+		}
+	]
+}

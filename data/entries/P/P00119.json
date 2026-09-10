@@ -1,0 +1,23 @@
+{
+	"id": "P00119",
+	"slug": "עדא-4",
+	"headword": {
+		"text": "עָדָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1043,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עֲדֵי</he> II) <i>plunderer</i>.—Pl. <he>עָדַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 30:16\">Targ. Jer. XXX, 16</cite>."
+			]
+		}
+	]
+}

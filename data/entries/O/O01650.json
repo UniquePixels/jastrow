@@ -1,0 +1,32 @@
+{
+	"id": "O01650",
+	"slug": "סרסור-1",
+	"headword": {
+		"text": "סִרְסוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִירְ׳"
+		}
+	],
+	"page": {
+		"number": 1029,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <cite ref=\"O00408\"><he>סור</he></cite>; cmp. Arab. <i>sursûr</i>) <i>going around, examination</i>; (sub. <he>בעל</he>) <i>expert, middleman, broker</i> (cmp. <cite ref=\"O01400\"><he>סַפְסָר</he></cite>, <cite ref=\"O01395\"><he>סַפְסִירָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 5:8\">B. Bath. V, 8</cite> <he>אם היה ס׳ ביניהן … לס׳</he> if a middleman is between them, and the cask is broken (before delivery to the purchaser), the middleman has to suffer the loss; <cite ref=\"Bava Batra 87a:9\">ib. 87ᵃ</cite> <he>במדת ס׳</he> when the vessel belonged to the middleman; <cite ref=\"Devarim Rabbah 3:12\">Deut. R. s. 3</cite> <he>נשברה החבית נשברה לס׳</he>; Tanḥ. Ekeb 11 (corr. acc.). Gen. R. R. s. 8 <he>עשה לו סחורה ע״י ס׳</he> had business done through a commissioner. ",
+				"<cite ref=\"Kohelet Rabbah 10:16\">Koh. R. to X, 16</cite> <he>הדיין יושב … והס׳ מכריע וכ׳</he> the judge is seated, the parties stand, and the mediator tries to compromise between them. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:1:4\">Y. Meg. IV, 74ᵈ</cite> top <he>כשם שנתנה ע״י ס׳ וכ׳</he> as the Law was given through an agent (Moses), so it must be taught through an agent (the Amora, v. <cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite>). Pesik. Haḥod., p. 45ᵃ <he>הס׳</he> the agent (Moses); <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>פני הס׳</he> (strike out <cite ref=\"U01281\"><he>השליט</he></cite> or <he>השליח</he>, as a gloss to <he>הס׳</he>). ",
+				"<cite ref=\"Eichah Rabbah 1:53\">Lam. R. to I, 18</cite> <he>פיהו ופום סִרְסוּרוֹ</he> against his commandment and that of his agent (the prophet); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:9\">Y. Ber. III, 6ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Moed Katan 3:5:24\">Y. M. Kat. III, 83ᵃ</cite> top <he>הס׳</he> the agent of sin, v. <cite ref=\"K01007\"><he>כָּפָה</he></cite>.—Pl. <he>סִרְסוּרִין</he>, <cite ref=\"O01613\"><he>סִירְ׳</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 17:6\">Num. R. s. 17</cite>, end (ref. to <cite ref=\"Numbers 15:39\">Num. XV, 39</cite>) <he>הלב … ס׳ לגוף</he> the heart and the eyes are the body’s agents (panders); Tanḥ.Sh’laḥ 15; a. fr."
+			]
+		}
+	]
+}

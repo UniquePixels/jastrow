@@ -1,0 +1,31 @@
+{
+	"id": "K01079",
+	"slug": "כרבא-2",
+	"headword": {
+		"text": "כְּרָבָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְבָּא"
+		}
+	],
+	"page": {
+		"number": 663,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"K01102\"><he>כְּרוּב</he> II</cite> , <i>cabbage</i>. ",
+			"units": [
+				"<cite ref=\"Makkot 16a\">Macc. 16ᵃ</cite>, v. <cite ref=\"B00650\"><he>בִּינִיתָא</he></cite>; [Tosaf. a. l. <i>a ploughed field</i>, v. preced.]. ",
+				"<cite ref=\"Bava Kamma 92a:17\">B. Kam. 92ᵃ</cite>, v. <cite ref=\"E00264\"><he>הוּצָא</he> I</cite>. ",
+				"<cite ref=\"Shabbat 115a:1\">Sabb. 115ᵃ</cite>; a. e.—Pl. <cite ref=\"K01088\"><he>כַּרְבֵּי</he></cite>. ",
+				"<cite ref=\"Chullin 62b:4\">Ḥull. 62ᵇ</cite> <he>דבי כ׳</he> (Rashi sing.; Ar. <cite ref=\"K00386\"><he>כּוֹרֵי</he></cite>) those (locusts) found among cabbage."
+			]
+		}
+	]
+}

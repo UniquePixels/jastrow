@@ -1,0 +1,41 @@
+{
+	"id": "H00833",
+	"slug": "חיסום-2",
+	"headword": {
+		"text": "חִיסּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִסּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חָסַם</he> II) [<i>finish, polish,</i>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the steel-coating of cutting tools, steel-edge</i> (cmp. <cite ref=\"A02382\"><he>אִסְטְמָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:4\">Kel. XIII, 4</cite> <he>נטל חִיסּוּמָן</he> if their steel-edge is worn off."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>varnish, coating, uppermost layer</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:24\">Y. Ber. IX, 14ᵃ</cite> <he>אין הארץ … לפי חִיסּוּמָה</he> the earth drinks (absorbs the rain) only as far as its upper layer (crust) goes; <cite ref=\"Jerusalem Talmud Taanit 1:3:7\">Y. Taan. I, 64ᵇ</cite>; <cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite>, end; a. e.—",
+				"<cite ref=\"Tosefta Uktsin 2:4\">Tosef. Ukts. II, 4</cite> (T’bul Yom) <he>ח׳ העליון</he> (ed. Zuck. <he>סל</he>) the uppermost layer of the bone."
+			],
+			"label": "2"
+		}
+	]
+}

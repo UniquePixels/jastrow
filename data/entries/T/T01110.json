@@ -1,0 +1,33 @@
+{
+	"id": "T01110",
+	"slug": "רשק",
+	"headword": {
+		"text": "רְשַׁק"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִשְׁקָא"
+		},
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1502,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>spikenard</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:14\">Targ. Cant. IV, 14</cite>.—כורכמא ר׳ <i>garden crocus</i>, v. <cite ref=\"K00385\"><he>כּוּרְכְּמָא</he></cite>. ",
+				"<cite ref=\"Shabbat 110a:8\">Sabb. 110ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 16b\">B. Bath. 16ᵇ</cite> (expl. <cite ref=\"E00727\"><he>הַפּוּךְ</he></cite>, <cite ref=\"Job 42:14\">Job XLII, 14</cite>) <he>ככ׳ דר׳ וכ׳</he> as garden crocus is the best of its kind (of eye-paint); Yalk. Job end <he>כי כוחלא כ׳ ר׳ וכ׳</he> as the eye-paint <i>kurk’ma rishḳa</i>, as it is written (<cite ref=\"Jeremiah 4:30\">Jer. IV, 30</cite>) &c.—Pl. <he>רִשְׁקִין</he>, <cite ref=\"T00053\"><he>רִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:13\">Targ. Cant. IV, 13</cite> (ed. Vien. <cite ref=\"T00086\"><he>רַ׳</he></cite>)."
+			]
+		}
+	]
+}

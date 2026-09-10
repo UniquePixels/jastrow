@@ -1,0 +1,27 @@
+{
+	"id": "G00279",
+	"slug": "זידו",
+	"headword": {
+		"text": "זֵידוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִידוּ"
+		}
+	],
+	"page": {
+		"number": 391,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00278\">preced.</cite>) <i>premeditation, malice</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:7\">Targ. Ez. XXIV, 7</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "Q01077",
+	"slug": "פללגולה",
+	"headword": {
+		"text": "פְּלַלְגוּלָה"
+	},
+	"page": {
+		"number": 1183,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (reduplic. of <cite ref=\"Q00935\"><he>פְּלַג</he></cite>; cmp. pallacana) <i>dwarfonion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:3:2\">Y. Kil. I, 27ᵃ</cite>, expl. <cite ref=\"B01099\"><he>בְּצַלְצוּל</he></cite> q. v."
+			]
+		}
+	]
+}

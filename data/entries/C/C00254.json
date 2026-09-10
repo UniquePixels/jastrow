@@ -1,0 +1,32 @@
+{
+	"id": "C00254",
+	"slug": "גדש-4",
+	"headword": {
+		"text": "גְּדַשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 215,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C00253\"><he>גַּדַּשׁ</he></cite> (cmp. <cite ref=\"N00118\"><he>נְגַד</he></cite> III a. <cite ref=\"N00152\"><he>נָגִיד</he></cite>) <i>to lead a blind man</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite>; <cite ref=\"Kohelet Rabbah 5:8:5\">Koh. R. to V, 8</cite>; <cite ref=\"Yalkut Shimoni on Nach 972:1\">Yalk. ib. 972</cite>; v. <cite ref=\"C00220\"><he>גַּדֵּישׁ</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

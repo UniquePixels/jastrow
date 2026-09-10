@@ -1,0 +1,57 @@
+{
+	"id": "J00409",
+	"slug": "ימי-2",
+	"headword": {
+		"text": "יְמֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְמָא"
+		}
+	],
+	"page": {
+		"number": 580,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to speak</i>; impf. <he>יֵימֵא</he>, <he>יֵימֵי</he>, v. <cite ref=\"A01964\"><he>אֲמָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A02060\"><he>אָמַר</he> I</cite>, 2, a. ",
+			"units": [
+				"<cite ref=\"Psalms 139:20\">Ps. CXXXIX, 20</cite> with Targ. a. l.) <i>to swear</i>. ",
+				"<cite ref=\"Onkelos Exodus 20:7\">Targ. O. Ex. XX, 7</cite> (h. text <he>נשא</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 5:2\">Targ. Jer. V, 2</cite> <he>יֵימָן</he> ed. Lag. (oth. ed. <he>יֵמוּן</he>, <cite ref=\"J00419\"><he>יָמָן</he></cite>, h. text <cite ref=\"A02060\"><he>אמר</he></cite>); a. fr.—",
+				"<cite ref=\"Pesachim 113b\">Pes. 113ᵇ</cite> <he>וכי יַמְיָין וכ׳</he> Ar. s. v. <cite ref=\"M01644\"><he>מם</he></cite> (Ms. M. 2 a. Ar. Ms. Koh. <he>מַיְימָן וכ׳</he>; Ms. M. 1 <he>ומוֹמִי קרו להון</he>; ed. <he>ומומתייהו הכי</he>, v. Rabb. D. S. a. l. note) and when they swear, they swear, ‘by the life &c.’"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹמֵי", "אַיְימֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00408\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 17:2\">Targ. Jud. XVII, 2</cite> (ed. Lag. <he>יֵימַת</he>); a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 26\">Gen. R. s. 26</cite> <cite ref=\"M00521\"><he>מוֹמֵי</he></cite>, v. <cite ref=\"A01786\"><he>אֱלָהּ</he></cite>.—Pes. l. c., v. supra; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to swear</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 8:31\">Targ. I Kings VIII, 31</cite>. ",
+						"<cite ref=\"Onkelos Exodus 13:19\">Targ. O. Ex. XIII, 19</cite> <he>אוֹמָאָה אוֹמֵי</he>; a. fr.—V. <cite ref=\"A00715\"><he>אוֹמָתָא</he></cite>, <cite ref=\"M00521\"><he>מוֹמִי</he></cite>, <cite ref=\"M00527\"><he>מוֹמָתָא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "M00779",
+	"slug": "מזר",
+	"headword": {
+		"text": "מָזַר"
+	},
+	"page": {
+		"number": 756,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"G00233\"><he>זוּר</he></cite>, <cite ref=\"G00737\"><he>זָרַר</he></cite>) <i>to twist yarn</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 6:1\">Sot. VI, 1</cite> <he>עד שישאו … מוֹזְרוֹת בלבנה</he> until the women twisting yarn by moonshine talk of her; <cite ref=\"Sotah 6b\">ib. 6ᵇ</cite>. Y. ib. VI, beg. 20ᵈ <he>אנן תנינן מוֹצְרוֹת אית … מוזרות וכ׳</he> we read <i>mots’roth</i>, some read <i>moz’roth</i>; he who reads <i>mots’roth</i> <he>מַצְרַן עמר</he> means ‘they twist wool’; he who reads <i>moz’roth</i> means, ‘they spin flax yarn’, v. <cite ref=\"U00606\"><he>שְׁזַר</he></cite>.—[<he>מוּזֶרֶת</he>, <he>מוּזָרוֹת</he>, v. <cite ref=\"G00737\"><he>זָרַר</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מִזֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to weave over, cover with a web</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 10:6\">Gen. R. s. 10</cite> (ref. to <cite ref=\"M00781\"><he>מַזָּרוֹת</he></cite>, <cite ref=\"Job 38:32\">Job XXXVIII, 32</cite>) <he>מזל הוא שמְמַזֵּר את הפירות</he> it is the planet that covers the fruits with webs (cmp. <cite ref=\"K00560\"><he>כִּימָה</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "O00584",
+	"slug": "סידקי",
+	"headword": {
+		"text": "סִידְקִי"
+	},
+	"page": {
+		"number": 976,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (interch. with <cite ref=\"O00860\"><he>סִירְקִי</he></cite>) m. (v. <cite ref=\"O00193\"><he>סָדַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>small dealer, retailer</i> in the market, <i>huckster</i>, contrad. to <cite ref=\"Q01026\"><he>פלטר</he></cite> shop-keeper. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 8:1:3\">Y. Shek. VIII, beg. 51ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 28:66\">Deut. XXVIII, 66</cite>) <he>ופחדת … זה שהוא לוקח מן הס׳ וכ׳</he> ‘and thou shalt be in fear day and night’, that is, he who buys from the huckster (who cannot lay in stock for a year), ‘and thou shalt have no assurance of thy life’—that is, he who buys from the shop-keeper; ib. III, 47ᶜ <cite ref=\"R00327\"><he>ציוקי</he></cite> (corr. acc.); <cite ref=\"Jerusalem Talmud Shabbat 8:1:9\">Y. Sabb. VIII, 11ᵃ</cite> bot.; Esth. R. introd., beg.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(also fem., sub. <cite ref=\"U00518\"><he>שוק</he></cite>) <i>market-stand, provision market</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 11:2:2\">Y. Ned. XI, 42ᶜ</cite> bot. <he>והיו שם צבורים בס׳</he> and there were provisions piled up in the market. ",
+				"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> <he>יצתה ועומדת בס׳ …</he> (not <he>מעילת</he>) his maid servant went out and stood in the market (waiting for her turn to buy provision); <cite ref=\"Yalkut Shimoni on Nach 598\">Yalk. Ruth 598</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 3:4:2\">Y. Dem. III, 23ᶜ</cite> <he>ס׳ שהיתה מסתפקת וכ׳</he> a provision stand which was supplied with forbidden fruits one day; ib. II, 22ᶜ top <cite ref=\"K00383\"><he>כורכיא</he></cite> (corr. acc.); Y. Keth. I, 25ᵈ bot. (<cite ref=\"O01613\"><he>סִירְ׳</he></cite>) <cite ref=\"O00585\"><he>סִידְקִית</he></cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:1:4\">Y. Kil. II, beg. 27ᶜ</cite> (in Chald. dict.) <he>בסירקי</he> in the market-stand."
+			],
+			"label": "2"
+		}
+	]
+}

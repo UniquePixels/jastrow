@@ -1,0 +1,43 @@
+{
+	"id": "P00692",
+	"slug": "עיריתא",
+	"headword": {
+		"text": "עִירִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִירְיְתָא"
+		},
+		{
+			"text": "עִירְיְי׳"
+		},
+		{
+			"text": "עִירְיָא"
+		},
+		{
+			"text": "עִירְיָיא"
+		},
+		{
+			"text": "עֶרְ׳"
+		}
+	],
+	"page": {
+		"number": 1076,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P01321\"><he>עֶרְוָה</he></cite>, <cite ref=\"P01351\"><he>עֶרְיָה</he></cite>, <i>nakedness, shame</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:42\">Targ. Ex. XXVIII, 42</cite>. ",
+				"<cite ref=\"Onkelos Genesis 9:22\">Targ. O. Gen. IX, 22</cite>, sq. <he>עִירִי׳</he> ed. Berl. (oth. ed. a. Y. <he>עֶרְיְ׳</he>). ",
+				"<cite ref=\"Onkelos Leviticus 18:7\">Targ. O. Lev. XVIII, 7</cite> <cite ref=\"P00691\"><he>עִירְיַת</he></cite> ed. Berl. (oth. ed. a. Y. <cite ref=\"P00692\"><he>עֶרְ׳</he></cite>); a. v. fr.—Y. Meg. IV, 75ᶜ (expl. <he>המכנה בעריות</he>, Mish. ",
+				"<cite ref=\"Mishnah Megillah 4:9\">Meg. IV, 9</cite>) <he>בעריי׳ דאבוי ובע׳ דאימיה</he> he who modifies the text speaking of the nakedness of one’s father or mother (<cite ref=\"Leviticus 18:7\">Lev. XVIII, 7</cite>, by translating ‘weakness’ or ‘disgrace’; v. Bab. ",
+				"<cite ref=\"Megillah 25a\">Meg. 25ᵃ</cite>), v. <cite ref=\"K00837\"><he>כָּנָה</he></cite>."
+			]
+		}
+	]
+}

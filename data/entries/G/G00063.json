@@ -1,0 +1,23 @@
+{
+	"id": "G00063",
+	"slug": "זגזגאל",
+	"headword": {
+		"text": "זַגְזַגְאֵל"
+	},
+	"page": {
+		"number": 380,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (v. <cite ref=\"G00062\">preced.</cite>) <i>Zagzagel</i> (<i>Divine Clearness</i>, cmp. <cite ref=\"A02514\"><he>אספקלריא</he></cite>), name of an angel. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 11:11\">Deut. R. s. 11</cite>, end. ",
+				"<cite ref=\"Targum Jonathan on Exodus 3:2\">Targ. Y. Ex. III, 2</cite> <cite ref=\"G00068\"><he>זגנוגאל</he></cite> (corr. acc. or <cite ref=\"G00063\"><he>זַגְזוּגְאֵל</he></cite>)."
+			]
+		}
+	]
+}

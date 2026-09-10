@@ -1,0 +1,32 @@
+{
+	"id": "M00951",
+	"slug": "מחתה",
+	"headword": {
+		"text": "מַחְתָּה"
+	},
+	"page": {
+		"number": 765,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01871\"><he>חָתָה</he></cite>)<i>coal-pan</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:3\">Kel. II, 3</cite> <he>מ׳ פרוצה</he> a coal-pan the rims of which are broken off (having a flat plate only), opp. ",
+				"<cite ref=\"Mishnah Kelim 2:7\">ib. 7</cite> <he>מ׳ שלמה</he>. ",
+				"<cite ref=\"Mishnah Yoma 5:1\">Yoma V, 1</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>snuff-dish</i>.—Pl. <he>מַחְתּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Menachot 88b:16\">Men. 88ᵇ</cite> <he>ואין מלקחיה ומַחְתּוֹתֶיהָ מן הככר</he> the tongs and the snuff-dishes of the candlestick were not made out of the <i>Kikkar</i> of gold; <cite ref=\"Yalkut Shimoni on Torah 369\">Yalk. Ex. 369</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

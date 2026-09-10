@@ -1,0 +1,23 @@
+{
+	"id": "S02298",
+	"slug": "קתרוס-3",
+	"headword": {
+		"text": "קַתְרוֹס",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1434,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κιθάρα, κίθαρις, prob. of Semitic origin) a kind of <i>lute</i> or <i>lyre</i>. [<cite ref=\"Daniel 3:5\">Dan. III, 5</cite>, K’thib <cite ref=\"S01228\"><he>קִיתְרֹס</he></cite>] <cite ref=\"Targum Jonathan on Isaiah 5:12\">Targ. Is. V, 12</cite> (some ed. <cite ref=\"S01628\"><he>קנתרוס</he></cite>; h. text <cite ref=\"V00797\"><he>תֹּף</he></cite>!).—Pl. <he>קַתְרוֹסִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:8\">Targ. Koh. II, 8</cite>."
+			]
+		}
+	]
+}

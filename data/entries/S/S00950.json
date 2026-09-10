@@ -1,0 +1,30 @@
+{
+	"id": "S00950",
+	"slug": "קיל-1",
+	"headword": {
+		"text": "קִיל",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "קִילָא"
+		}
+	],
+	"page": {
+		"number": 1359,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"S00317\"><he>קוֹלָא</he> I</cite>, a. <cite ref=\"K00532\"><he>כִּילָה</he></cite>) <i>enclosure, compartment</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 31:11\">Gen. R. s. 31</cite> <he>הקילא עשר אמות וכ׳</he> Ar. (ed. only <he>עשר וכ׳</he>) each compartment (in Noah’s ark) was ten by ten cubits; Yalk. ib. 53 <he>כל קיל וק׳ וכ׳</he>. ",
+				"<cite ref=\"Bereishit Rabbah 31:11\">Ib.</cite> <he>ק׳ מכאן וק׳ מכאן</he> one room on this, and one on the other side (of the aisle).—Pl. <he>קִילִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 31:11\">Ib.</cite>"
+			]
+		}
+	]
+}

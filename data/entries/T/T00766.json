@@ -1,0 +1,31 @@
+{
+	"id": "T00766",
+	"slug": "רכך-1",
+	"headword": {
+		"text": "רָכַךְ"
+	},
+	"page": {
+		"number": 1479,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be soft, tender</i>; denom. <cite ref=\"T00742\"><he>רַךְ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְכִּיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to make soft</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shevi'it 2:10\">Tosef. Shebi. II, 10</cite> <he>מַרְכִּיכִין</he> ed. Zuck., v. <cite ref=\"T00768\"><he>רָכַן</he></cite>.]"
+					]
+				}
+			],
+			"stem": "[."
+		}
+	]
+}

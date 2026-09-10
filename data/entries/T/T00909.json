@@ -1,0 +1,63 @@
+{
+	"id": "T00909",
+	"slug": "רעם-2",
+	"headword": {
+		"text": "רְעַם",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "רְעֵם"
+		}
+	],
+	"page": {
+		"number": 1487,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00908\">same</cite> <cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite> <cite ref=\"T01134\"><he>רְעִימִין</he></cite> (ed. Vien. <he>רַעֲמִין</he>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְעֵים"],
+			"senses": [
+				{
+					"gloss": "<i>to make rebellious</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 14:36\">Targ. Num. XIV, 36</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְרָעַם"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְרְעִים"],
+			"senses": [
+				{
+					"gloss": "<i>to be rebellious, to murmur</i>. Ib. 2. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 24:7\">Targ. Prov. XXIV, 7</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 55:3\">Targ. Ps. LV, 3</cite> (h. text <he>אריד</he>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be in commotion, troubled</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 27:35\">Targ. Ez. XXVII, 35</cite> [prob. to be read:] <cite ref=\"T00909\"><he>אִתְרְעִימוּ</he></cite> (ed. <he>אתרשימו</he>, h. text <he>רעמו</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

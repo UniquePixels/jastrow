@@ -1,0 +1,27 @@
+{
+	"id": "E00504",
+	"slug": "הכחיש",
+	"headword": {
+		"text": "הֶכְחֵישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶכְחֵשׁ"
+		}
+	],
+	"page": {
+		"number": 350,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כחש</he>) <i>contradiction, incongruity in details of legal evidence</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 15:5:4\">Y. Yeb. XV, 15ᵃ</cite> bot. <he>ה׳ עדות בתוך עדות</he> an incongruity in the statements of witnesses concerning the details of the main fact to be ascertained; <he>ה׳ עדות לאחר עדות</he> concerning circumstances subsequent to the main fact."
+			]
+		}
+	]
+}

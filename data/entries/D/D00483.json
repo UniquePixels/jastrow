@@ -1,0 +1,23 @@
+{
+	"id": "D00483",
+	"slug": "דיגון-1",
+	"headword": {
+		"text": "דִּיגּוּן"
+	},
+	"page": {
+		"number": 295,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <he>דגן</he>) <i>storing of grain, piling up</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 47a:10\">Gitt. 47ᵃ</cite> <he>דִּיגּוּנְךָ ולא ד׳ נכרי</he> (the word <he>דגנך</he>, <cite ref=\"Deuteronomy 14:23\">Deut. XIV, 23</cite> means) what thou (the Israelite) storest up (is subject to tithes), but not what the gentile stores up, opp. to <he>דְּגָנְךָ וכ׳</he> the grain growing on thy ground (Palestine). ",
+				"<cite ref=\"Bava Metzia 88b\">B. Mets. 88ᵇ</cite> <he>בני ד׳</he> Ms. F. (ed. <cite ref=\"C00498\"><he>גורן</he></cite>, v. Rabb. D. S. a. l. note 100) adapted for storage."
+			]
+		}
+	]
+}

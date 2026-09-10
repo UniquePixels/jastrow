@@ -1,0 +1,23 @@
+{
+	"id": "H01592",
+	"slug": "חרגא-1",
+	"headword": {
+		"text": "חַרְגָּא"
+	},
+	"page": {
+		"number": 498,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <cite ref=\"H01592\"><he>חַרְגַּת</he></cite> (<cite ref=\"H00459\"><he>חרג</he></cite>, v. P. Sm. 1366) [<i>rough sound, sawing</i>,] <i>dying agony</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 32:25\">Targ. Deut. XXXII, 25</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:20\">Targ. Lam. I, 20</cite> ed. Lag. (oth. ed. <cite ref=\"E00821\"><he>הַרְגַּת</he></cite>)."
+			]
+		}
+	]
+}

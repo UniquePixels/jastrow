@@ -1,0 +1,29 @@
+{
+	"id": "H01483",
+	"slug": "חפת-1",
+	"headword": {
+		"text": "חֵפֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵפָה"
+		}
+	],
+	"page": {
+		"number": 493,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חפף</he> I, v. <cite ref=\"H00841\"><he>חִיפָּא</he></cite>) <i>border</i> of a garment (<i>limbus</i>), a kind of front bosom in which things can be hidden. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 10:3\">Sabb. X, 3</cite> (<cite ref=\"Shabbat 92a\">92ᵃ</cite>) <he>ובח׳ חלוקו</he> Ms. M. (v. Rabb. D. S. a. l. note, ed. <he>ובשפת</he>) in the bosom of his shirt. ",
+				"<cite ref=\"Yoma 77b:11\">Yoma 77ᵇ</cite> <he>ובלבד</he> … <he>מח׳ חלוקו</he> Ms. M. (ed. <he>מתחת ח׳</he>) provided he takes not his hand out of the bosom of his shirt (to throw his cloak over his shoulder). ",
+				"<cite ref=\"Shabbat 96b\">Sabb. 96ᵇ</cite>, v. <cite ref=\"H00841\"><he>חִיפָּא</he></cite>.—Denom."
+			]
+		}
+	]
+}

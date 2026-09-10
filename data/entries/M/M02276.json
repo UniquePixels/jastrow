@@ -1,0 +1,27 @@
+{
+	"id": "M02276",
+	"slug": "מצובה-2",
+	"headword": {
+		"text": "מְצוּבָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי מְצוּבָה"
+		}
+	],
+	"page": {
+		"number": 823,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Pi-M’tsubah</i> (<i>Maasûb</i>, Neub. Géogr. p. 22), in the district of Tyre. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:17\">Y. Dem. II, 22ᵈ</cite> top (ed. Krot. <cite ref=\"M02278\"><he>מְצוֹבֶת</he></cite>; <cite ref=\"Tosefta Shevi'it 4:9\">Tosef. Shebi. IV, 9</cite> <he>פומא ציבא</he>)."
+			]
+		}
+	]
+}

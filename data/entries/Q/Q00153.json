@@ -1,0 +1,72 @@
+{
+	"id": "Q00153",
+	"slug": "פוג-2",
+	"headword": {
+		"text": "פּוּג",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1139,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00152\">same</cite><i>to evaporate, faint</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 38:9\">Targ. Ps. XXXVIII, 9</cite> <he>פָּגִית</he> (ed. Lag. <he>פַּגְיִית</he>, fr. <cite ref=\"Q00054\"><he>פגי</he></cite>; h. text <he>נפוגתי</he>). ",
+				"<cite ref=\"Aramaic Targum to Esther 2:1\">Targ. Esth. II, 1</cite> <cite ref=\"Q00036\"><he>פג</he></cite> ed. Lag. (Var. <cite ref=\"Q00438\"><he>פח</he></cite>). Targ. ",
+				"<cite ref=\"Habakkuk 1:4\">Hab. I, 4</cite> <he>פָּגַת</he> (Levita <he>פֵּיגַת</he>, read: <he>פָּיְגַת</he>); a. e.—Part. <he>פָּיֵג</he>, <cite ref=\"Q00153\"><he>פָּיֵיג</he></cite>; f. <cite ref=\"Q00576\"><he>פָּיְגָא</he></cite>, <he>פָּיְגַת</he>; pl. <he>פָּיְגָן</he>. ",
+				"<cite ref=\"Onkelos Genesis 45:26\">Targ. O. Gen. XLV, 26</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:1:12\">Y. Pes. III, 30ᵃ</cite> top <he>מן דטלא פייגא מנהון</he> (not <he>מה</he>) after the dew upon them has evaporated. ",
+				"<cite ref=\"Megillah 25b:5\">Meg. 25ᵇ</cite> <he>דלמא פייגא דעתייהו וכ׳</he> lest the minds of the congregation be fainting (lose courage, on hearing the curses); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to weaken, mitigate</i>. Part. <he>פָּאֵיג</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:49\">Targ. Lam. III, 49</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּיֵּיג"],
+			"senses": [
+				{
+					"gloss": "<i>to cause relaxation; to slacken</i>. Ib. II, 18. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 14:30\">Targ. Prov. XIV, 30</cite> <he>מפייג</he> ed. Lag. (oth. ed. <he>מפליג</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָפֵיג"],
+			"senses": [
+				{
+					"gloss": "<i>to let</i> (<i>the wine</i>) <i>escape</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 1:14\">Targ. I Sam. I, 14</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפּוֹגָג"],
+			"senses": [
+				{
+					"gloss": "<i>to seek relaxation from anger, trouble</i> &c., <i>seek diversion, sport</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite> <he>לא אתא אלא לאתפוגגה וכ׳</he> he came only to sport with his children (not to argue with them seriously); <cite ref=\"Vayikra Rabbah 27\">ib.</cite> <he>לא אתא אלא מתפגג׳</he> (read: <he>מִתְפּוֹגְגָא</he>); <cite ref=\"Yalkut Shimoni on Nach 554:2\">Yalk. Mic. 554</cite> <he>למתפונגא</he> (corr. acc.); <cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite>; <cite ref=\"Shir HaShirim Rabbah 5:16\">Cant. R. to V, 16</cite> (not <he>להתפ׳</he>); Tanḥ. Emor 10. ",
+						"<cite ref=\"Shir HaShirim Rabbah 5:16\">Ib.</cite> [read:] <he>לא אתת דא אלא למִתְפַּגְּיָיא עם ברה</he> this woman has come to court merely to have some sport with her son."
+					]
+				}
+			],
+			"stem": "Ithpo."
+		}
+	]
+}

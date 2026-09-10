@@ -1,0 +1,37 @@
+{
+	"id": "K00506",
+	"slug": "כיון-3",
+	"headword": {
+		"text": "כֵּיוָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֵּיוָון"
+		}
+	],
+	"page": {
+		"number": 631,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00505\">same</cite><i>firmly established, true, straightforward</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 13:15\">Targ. Deut. XIII, 15</cite> (h. text <cite ref=\"N00812\"><he>נָכוֹן</he></cite>). Targ. ",
+				"<cite ref=\"Habakkuk 1:4\">Hab. I, 4</cite> <he>לא כ׳</he> (h. text <he>מעוקל</he>).—Pl. <he>כֵּיוָנֵי</he> <i>honest men</i>. ",
+				"<cite ref=\"Onkelos Genesis 42:11\">Targ. O. Gen. XLII, 11</cite>; <cite ref=\"Onkelos Genesis 42:19\">19</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (conj. followed by <he>ד־</he>) <i>as soon as, when, since</i> (also <cite ref=\"K00505\"><he>כִּיוָּן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:15\">Targ. Y. Gen. XXI, 15</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 28:10\">Targ. Y. II, Gen. XXVIII, 10</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 8a:19\">Ber. 8ᵃ</cite> <he>כ׳ דאמרי ליה</he> when they told him. ",
+				"<cite ref=\"Berakhot 8a:19\">Ib.</cite> <he>כ׳ דשמענא להא וכ׳</he> when we heard that which &c.; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

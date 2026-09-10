@@ -1,0 +1,29 @@
+{
+	"id": "K01366",
+	"slug": "כתיתא",
+	"headword": {
+		"text": "כְּתִיתָא"
+	},
+	"page": {
+		"number": 681,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01365\">same</cite><i>scab</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 154b:8\">Sabb. 154ᵇ</cite> <he>לכ׳ דגמלי</he> (Rashi: <he>לכתוּתי דגמלא</he>); <cite ref=\"Bava Metzia 38b\">B. Mets. 38ᵇ</cite> (quot. in Rashi to <cite ref=\"Shabbat 76b\">Sabb. 76ᵇ</cite> a. v. <he>הכתית</he>) <he>כתותא</he>, v. <cite ref=\"K01363\"><he>כְּתִישָׁא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pad</i>.—Pl. <he>כְּתִיתִין</he>, <he>כְּתִיתֵי</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134b:22\">Sabb. 134ᵇ</cite>, v. <cite ref=\"N01246\"><he>נִקְרָא</he></cite> 2. ",
+				"<cite ref=\"Yoma 78b:3\">Yoma 78ᵇ</cite> <he>דאית ביה כ׳</he> when the wooden leg has pads. ",
+				"<cite ref=\"Yoma 78b:3\">Ib.</cite> <he>כ׳ משוי ליה מנא</he> (omitted in Ms. M., v. Rabb. D. S. a. l. notes 20, 30, 50) do the pads make it a garment? <cite ref=\"Yevamot 102b:19\">Yeb. 102ᵇ</cite> <he>דאית ביה כ׳</he> when the felt-shoe has pads inside."
+			],
+			"label": "2"
+		}
+	]
+}

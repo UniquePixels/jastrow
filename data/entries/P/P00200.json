@@ -1,0 +1,27 @@
+{
+	"id": "P00200",
+	"slug": "עודדא",
+	"headword": {
+		"text": "עוּדְדָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּדְרָא"
+		}
+	],
+	"page": {
+		"number": 1048,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00122\"><he>עדד</he></cite>, <cite ref=\"P00164\"><he>עדר</he></cite>) = <cite ref=\"A00556\"><he>אוּדְדָא</he></cite>, <i>tow-cotton, wool</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:5:3\">Y. Sabb. VI, 8ᵇ</cite> sq. <he>נפל עוּדְרֵיה דאוניה</he> the cotton in his ear fell out."
+			]
+		}
+	]
+}

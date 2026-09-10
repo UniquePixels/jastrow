@@ -1,0 +1,28 @@
+{
+	"id": "R00767",
+	"slug": "צרידא-2",
+	"headword": {
+		"text": "צְרֵידָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְרֵידָה"
+		}
+	],
+	"page": {
+		"number": 1301,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.(b. h. <cite ref=\"R00739\"><he>צְרֵדָה</he></cite>)<i>Seredah</i>, in Peræa (v. Neub. Géogr. p. 275), home of R. Jose ben Joëzer. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:4\">Ab. I, 4</cite>. ",
+				"<cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite>; <cite ref=\"Avodah Zarah 37a:13\">Ab. Zar. 37ᵃ</cite>; <cite ref=\"Pesachim 16a:3\">Pes. 16ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

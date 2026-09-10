@@ -1,0 +1,39 @@
+{
+	"id": "I00487",
+	"slug": "טלטול-2",
+	"headword": {
+		"text": "טִלְטוּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טִלְטוּלָא"
+		},
+		{
+			"text": "טִילְ׳"
+		}
+	],
+	"page": {
+		"number": 536,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"I00486\">same</cite>.<i>moving, trembling</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 16:5\">Targ. Job XVI, 5</cite> (h. text <he>ניד</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>migration, exile</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 22:17\">Targ. Is. XXII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 18:19\">Targ. Ps. XVIII, 19</cite> (h. text <cite ref=\"A01151\"><he>איד</he></cite>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 56:9\">Ib. LVI, 9</cite> (some ed. pl.; h. text <he>נ̇ד</he>); a. fr.—<he>טִלְטוּלִין</he>, <he>טִלְטוּלֵי</he>, <cite ref=\"I00486\"><he>טִילְ׳</he></cite>. ",
+				"<cite ref=\"Ketubot 28a:7\">Keth. 28ᵃ</cite> (ref. to <cite ref=\"Isaiah 22:17\">Is. XXII, 17</cite>) <he>ט׳ דגברא קשין וכ׳</he> the sufferings of homelessness are harder on man than on woman; (<cite ref=\"Sanhedrin 26a:24\">Snh. 26ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 280:1\">Yalk. Is. 280</cite> <i>sing.</i>)."
+			],
+			"label": "2"
+		}
+	]
+}

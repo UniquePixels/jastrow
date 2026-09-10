@@ -1,0 +1,51 @@
+{
+	"id": "M01969",
+	"slug": "מסמר-1",
+	"headword": {
+		"text": "מַסְמָר"
+	},
+	"page": {
+		"number": 809,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. only in pl.; <cite ref=\"O01136\"><he>סָמַר</he></cite>)<i>a pointed object, nail, pin</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:10\">Sabb. VI, 10</cite> (<cite ref=\"Shabbat 67a:11\">67ᵃ</cite>) <he>מ׳ מן הצלוב</he> (Y. ed. <he>מ׳ הצלוב</he>) a nail from the gallows of an impaled convict (used as an amulet). ",
+				"<cite ref=\"Mishnah Kelim 12:4\">Kel. XII, 4</cite> <he>מ׳ הגרע</he> the blood-letter’s pin (v. infra); <he>מ׳ של אבן השעות</he> the style of the sun-dial; <he>מ׳ הגרדי</he> the weaver’s pin. Ib. 5 <he>מ׳ שהתקינו וכ׳</he>; <cite ref=\"Tosefta Keilim Metsia 2:14\">Tosef. Kel. B. Mets. II, 14</cite> <he>מ׳ שעקמו וכ׳</he> an iron pin which was bent in order to be used as a key. Kel. l. c. <he>מ׳ של שלחני</he> the banker’s pin for fastening the shutters, v. <cite ref=\"V00995\"><he>תְּרִיס</he></cite>.—",
+				"<cite ref=\"Bamidbar Rabbah 14:4\">Num. R. s. 14</cite> <he>מ׳ שיש לו שושנה</he> a nail which has a big knob.—",
+				"<cite ref=\"Tosefta Keilim Metsia 4:3\">Tosef. Kel. B. Mets. IV, 3</cite> <he>מקל שעשה בראשו מ׳ להיות תופס בו וכ׳</he> a staff to the end of which a pin was attached for the sake of taking hold of the threshing floor (of making it stationary); <cite ref=\"Tosefta Keilim Metsia 5:10\">ib. V, 10</cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 5:10\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Bava Batra 7:2\">B. Bath. VII, 2</cite> <he>חוט המ׳ של וכ׳</he> the builder’s cord to which a pin is attached (i.e. plumb-line). ",
+				"<cite ref=\"Mishnah Bava Batra 7:2\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Bava Metzia 2:11\">B. Mets. II, 11</cite> <he>מ׳ הגרוע</he> the scraper’s pin (fastened to the smith’s block); a. fr.—Pl. <he>מַסְמְרִים</he>, <he>מַסְמְרִין</he>, <he>מַסְמְרוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 68:13\">Gen. R. s. 68</cite>, end. ",
+				"<cite ref=\"Bava Batra 7b:12\">B. Bath. 7ᵇ</cite> <he>קבע בה מ׳</he> drive nails into it, i.e. remember it well. ",
+				"<cite ref=\"Tosefta Keilim Metsia 2:11\">Tosef. Kel. B. Mets. II, 11</cite> <he>גולת חנוני שכולה מ׳</he> a store-keeper’s bowl (?) studded all over with nails. Tanḥ. B’haăl. 15 (ref. to <cite ref=\"Ecclesiastes 12:11\">Koh. XII, 11</cite>) <he>כתיב כמשמרות ואנו קורין מ׳ וכ׳</he> it is written <i>k’mishm’roth</i> (like guards) and we read <i>k’masm’roth</i> (like nails) to teach thee, if thou drivest them like a nail into thy heart, they will guard thee; <cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite>. ",
+				"<cite ref=\"Esther Rabbah 10:4\">Esth. R. to VI, 10</cite> <he>אני</he> … <he>חבלים ומ׳</he> I prepared for thee ropes and nails (for impaling); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<i>pl.</i>) <i>cloves</i>. Num. R. l. c. <he>ערבין … כמ׳ נטועים</he> as sweet to their hearers as cloves.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a peg-shaped attachment to a loaf, knob</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tevul Yom 1:3\">T’bul Yom I, 3</cite> <he>מ׳ שאחר הככר</he> the knob on the back of the loaf (supposed to serve as trade-mark)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " a <i>wart</i> or <i>corn</i> (cmp. Lat. clavus).—Pl. <he>מַסְמְרוֹת</he>. Sifra Thazr. Neg., Par. 1, ch. II <he>המ׳</he>; <cite ref=\"Tosefta Negaim 2:12\">Tosef. Neg. II, 12</cite> <he>המַסְמֶרֶת</he> (<i>sing.</i>).",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

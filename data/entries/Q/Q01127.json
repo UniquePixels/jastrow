@@ -1,0 +1,37 @@
+{
+	"id": "Q01127",
+	"slug": "פלש-2",
+	"headword": {
+		"text": "פָּלַשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1185,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"Q01116\"><he>פַּלְפִּל</he> II</cite>, a. <cite ref=\"Q00241\"><he>פּוּלְסָא</he></cite>)<i>to roll in, cover with</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְפַּלֵּשׁ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּלֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to roll one’s self, cover one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 58a:16\">Gitt. 58ᵃ</cite> <he>קרעתו ונִתְפַּלְּשָׁח באפר</he> (not <he>קרעתה</he>) she rent it (the shirt) and rolled herself in the dust; <cite ref=\"Yalkut Shimoni on Nach 276\">Yalk. Jer. 276</cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

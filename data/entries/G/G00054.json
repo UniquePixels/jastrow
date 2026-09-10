@@ -1,0 +1,30 @@
+{
+	"id": "G00054",
+	"slug": "זג",
+	"headword": {
+		"text": "זָג"
+	},
+	"page": {
+		"number": 379,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00057\"><he>זגג</he></cite>)pl. <he>זַגִּים</he>, <he>זַגִּין</he> (cmp. <he>דכך</he>) <i>pomace of grapes, husks</i> or <i>kernels and flesh</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 6:2\">Naz. VI, 2</cite> (<cite ref=\"Nazir 34b:2\">34ᵇ</cite>) <he>חרצנים … הז׳ אלו הפנימים</he> <i>ḥartsannim</i> (<cite ref=\"Numbers 6:4\">Num. VI, 4</cite>) means the exterior, <i>zaggim</i> the interior; (<cite ref=\"Numbers 6:4\">ib.</cite> contrary opinion, v. <cite ref=\"G00124\"><he>זוֹג</he></cite>).—",
+				"<cite ref=\"Tosefta Tahorot 3:1\">Tosef. Toh. III, 1</cite> <he>הגפן והזוּגִּין וכ׳</he> ed. Zuck. (oth. ed. <he>זַגִּין</he>; some ed. <he>זומין</he>, corr. acc.) the grape vine (clusters) and the pomace which have been treated in cleanness. ",
+				"<cite ref=\"Mishnah Shabbat 4:1\">Sabb. IV, 1</cite>.—Naz. l. c. <cite ref=\"G00067\"><he>זַגָּן</he></cite> Mish. (Y. ed. <he>זגין</he>, Bab. ed. <cite ref=\"G00054\"><he>זג</he></cite>; Tosef. ib. IV, 2 <he>זגא</he> ed. Zuck., Var. <cite ref=\"G00054\"><he>זג</he></cite>) <i>the husk</i> (or <i>the interior</i>) of one berry."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bell</i>, v. <cite ref=\"G00124\"><he>זוֹג</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

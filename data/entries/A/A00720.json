@@ -1,0 +1,26 @@
+{
+	"id": "A00720",
+	"slug": "אונא-2",
+	"headword": {
+		"text": "אונא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "נקיס אונא"
+		}
+	],
+	"page": {
+		"number": 28,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Nakis Una</i> (?), a gentile name. ",
+			"units": ["<cite ref=\"Gittin 11a:2\">Git. 11ᵃ</cite>"]
+		}
+	]
+}

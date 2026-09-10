@@ -1,0 +1,25 @@
+{
+	"id": "J00266",
+	"slug": "יזק",
+	"headword": {
+		"text": "יָזֵק"
+	},
+	"page": {
+		"number": 572,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Yazek</i>, name of a Babylonian river or channel. Y. Kidd. IV, 65ᵈ top; Bab. ",
+			"units": [
+				"<cite ref=\"Kiddushin 71b\">Kidd. 71ᵇ</cite> <cite ref=\"P00418\"><he>עָזֵק</he></cite>; Y. Yeb. I, 3ᵇ top <cite ref=\"G00680\"><he>זרוק</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>בית י׳</he>, v. <cite ref=\"J00481\"><he>יַעֲזֵק</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "A00568",
+	"slug": "אודן",
+	"headword": {
+		"text": "אוֹדֶן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּדַן"
+		},
+		{
+			"text": "אוּדָן"
+		},
+		{
+			"text": "אוּדְנָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 22,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= h. <cite ref=\"A00982\"><he>אֹזֶן</he></cite>, v. Ges. H. Dict. s. v.; √<he>אד</he>, v. <cite ref=\"A00441\"><he>אָדַר</he></cite>) <i>ear</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 64:3\">Targ. Is. LXIV, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 18:45\">Targ. Ps. XVIII, 45</cite> <cite ref=\"A00568\"><he>אוּדַן</he></cite> (ed. Vien. <he>אוּדִין</he>?, Ms. <he>אוזן</he>). ",
+				"<cite ref=\"Onkelos Exodus 29:20\">Targ. Ex. XXIX, 20</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:3\">Y. Sabb. VI, 8ᶜ</cite> bot. <he>טב לא׳</he> good for ear-ache; v. Bab. ",
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite>; a. fr.—Pl. <he>אוּדְנִין</he>, <he>אוֹדְנִין</he>, <he>אוּדְנַיָּא</he>, <he>אוּדְנֵי</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 29:3\">Targ. Deut. XXIX, 3</cite>; a. fr. (also <he>אֻדְנִין</he>).—",
+				"<cite ref=\"Sanhedrin 106a:16\">Snh. 106ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:9\">Y. Maas. Sh. IV, 55ᵇ</cite> bot.; <cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<he>חד כותאי</he> 1), v. <cite ref=\"A00569\">next w.</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"id": "O01497",
+	"slug": "סקר-2",
+	"headword": {
+		"text": "סָקַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1021,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"U01892\"><he>שָׂקַר</he></cite>) [<i>to blink, shine</i>; denom. <cite ref=\"O00820\"><he>סִיקְרָא</he></cite>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to look, gaze</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Niddah 3:2:7\">Y. Nidd. III, 50ᶜ</cite> bot. <he>סוֹקְרִין לפניהן כאדם</he> they look forward (have their eyes in front of the head) like human beings (v. Bab. ",
+				"<cite ref=\"Niddah 23a\">Nidd. 23ᵃ</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"O00820\"><he>סִיקְרָא</he></cite>) <i>to paint red, mark with siḳra</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 9:7\">Bekh. IX, 7</cite> (<cite ref=\"Bekhorot 58b:4\">58ᵇ</cite>) <he>היוצא … סוֹקְרוֹ בסיקרא</he> (Talm. ed. <he>סוֹקֵר</he>) he marks every tenth lamb that goes forth; <cite ref=\"Bekhorot 58b:4\">ib.</cite> <he>לא סְקָרוֹ וכ׳</he> (Talm. ed. <he>סוקרו</he>) if he failed to mark it. ",
+				"<cite ref=\"Shabbat 67a:15\">Sabb. 67ᵃ</cite> <he>סוקרו בסיקרא</he> (v. Rabb. D. S. a. l. note 50); <cite ref=\"Chullin 77b\">Ḥull. 77ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיקֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to paint</i> (the eyes). Pesik. Vattom. p. 132ᵃ (ref. to <cite ref=\"Isaiah 3:16\">Is. III, 16</cite>) <he>שהיו מְסַקְּרוֹת וכ׳</he> Ar. (ed. <he>סוֹקְרוֹת</he>) they painted their eyes with <i>siḳra</i>; <cite ref=\"Eichah Rabbah 4:18\">Lam. R. to IV, 15</cite> <he>מְשַׂקְּרוֹת</he>; <cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite>; <cite ref=\"Yalkut Shimoni on Nach 1030\">Yalk. Lam. 1030</cite> <he>מְשַׂקֶּרֶת עיניה וכ׳</he> (not <he>משקרות</he>) she painted her eyes &c.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִסְקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be overlooked, reviewed</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 18a:14\">R. Hash. 18ᵃ</cite> <he>כולן נִסְקָרִין בסקירה אחת</he> they are all reviewed with one glance; v. <cite ref=\"G00655\"><he>זָקַר</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

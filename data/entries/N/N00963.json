@@ -1,0 +1,34 @@
+{
+	"id": "N00963",
+	"slug": "נסרא",
+	"headword": {
+		"text": "נִסְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 919,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"N00962\">same</cite>, <i>board</i>.—Pl. <he>נְסָרִין</he>, <cite ref=\"N00703\"><he>נִסְ׳</he></cite>, <cite ref=\"N00934\"><he>נִיסְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 6:15\">Targ. I Kings VI, 15</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on I Kings 7:30\">Ib. VII, 30</cite> <he>נ׳ דנחש</he> bronze plates (to cover the laver (?); h. text <cite ref=\"O01642\"><he>סרני</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>veneer</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 98b\">Sabb. 98ᵇ</cite> <he>דני׳</he> veneered boards, opp. <he>שלמין</he> solid.—Pl. constr. <he>נִסְרֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 8:6\">Targ. Hos. VIII, 6</cite> <he>נ׳ לווחין</he> gold foils for boards (h. text <he>שבבים</he>; cmp. <cite ref=\"U00780\"><he>שִׁיבָּא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

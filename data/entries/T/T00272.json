@@ -1,0 +1,32 @@
+{
+	"id": "T00272",
+	"slug": "רהב-3",
+	"headword": {
+		"text": "רַהַב"
+	},
+	"page": {
+		"number": 1453,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00271\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pride, greatness, royalty</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 27:9\">Ex. R. s. 27</cite> (v. <cite ref=\"T00270\"><he>רָהַב</he></cite>) <he>אין ר׳ אלא מלכות</he> <i>rahab</i> means rulership (ref. to <cite ref=\"Psalms 87:4\">Ps. LXXXVII, 4</cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Rahab</i>, name of the genius of the sea. Tanḥ. Ḥuck. 1 <he>את מוצא … ר׳ שמו</he> you will find that the chief of the sea is named Rahab (ref. to <cite ref=\"Job 26:12\">Job XXVI, 12</cite>); <cite ref=\"Bamidbar Rabbah 18:22\">Num. R. s. 18</cite>; <cite ref=\"Bava Batra 74b:10\">B. Bath. 74ᵇ</cite>; a. e.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

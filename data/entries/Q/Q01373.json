@@ -1,0 +1,23 @@
+{
+	"id": "Q01373",
+	"slug": "פעוטות",
+	"headword": {
+		"text": "פָּעוֹטוֹת"
+	},
+	"page": {
+		"number": 1201,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>פעט</he> = <cite ref=\"Q00183\"><he>פוט</he></cite>, v. <cite ref=\"Q00598\"><he>פִּיּוּט</he></cite>) [<i>talkers</i>,] <i>children of six or seven years of age</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 5:7\">Gitt. V, 7</cite> (<cite ref=\"Gittin 59a:10\">59ᵃ</cite>) <he>הפ׳ מקחן וכ׳</he> the purchases or sales of movables by minors are valid; Tosef. ib. V (III) 3 (Var. <cite ref=\"Q00007\"><he>פָּאוֹטוֹת</he></cite>); Y. ib. V, 47ᶜ top, v. <cite ref=\"U00883\"><he>שִׁיטָּה</he> III</cite>; <cite ref=\"Jerusalem Talmud Eruvin 7:6:3\">Y. Erub. VII, 24ᶜ</cite> bot. <cite ref=\"Q00645\"><he>פַּיּיוֹטוֹת</he></cite>."
+			]
+		}
+	]
+}

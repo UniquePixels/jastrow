@@ -1,0 +1,32 @@
+{
+	"id": "U01681",
+	"slug": "שער-3",
+	"headword": {
+		"text": "שְׁעַר"
+	},
+	"page": {
+		"number": 1612,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U01653\"><he>שַׁעֵיר</he></cite> same, <i>to measure, calculate</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 26:12\">Targ. O. Gen. XXVI, 12</cite> <he>בדשַׁעֲרוּהִי</he> ed. Berl. (oth. ed. <he>בדשַׁעֲרוֹהִי</he>; Y. <he>בדשַׁעֲרוֹי</he>; h. text <cite ref=\"U01693\"><he>שערים</he></cite>).—",
+						"<cite ref=\"Chullin 97b:9\">Ḥull. 97ᵇ</cite> <he>ולִישַׁעֲרִינְהוּ בפלפלין וכ׳</he> why not use as a standard (for calculation in the case of admixtures of forbidden substances) pepper or spices which are not neutralized in a mass of a thousand times their quantity? <cite ref=\"Chullin 97b:12\">Ib.</cite> <he>בדידיה מְשַׁעֲרִינָן או בדנפיק מיניה משערינן</he> do we calculate the proportions by the actual size of the admixture, or by the quantity that has come out of it (has been absorbed in the dish)? Y. Kil. IX, 32ᵈ top <he>שַׁעֲרוּנָהּ רבנין וכ׳</he> the Rabbis made the calculation, and it (the well of Miriam) was exactly opposite the middle gate &c.; <cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> <he>שערותא</he> (corr. acc.); <cite ref=\"Kohelet Rabbah 5:8:5\">Koh. R. to V, 8</cite> <he>שיערו אותה וכ׳</he> (Hebr.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

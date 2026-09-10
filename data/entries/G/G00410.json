@@ -1,0 +1,26 @@
+{
+	"id": "G00410",
+	"slug": "זיקוקא-1",
+	"headword": {
+		"text": "זִיקוּקָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "זִקּוּקָא"
+		}
+	],
+	"page": {
+		"number": 396,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00409\">same</cite>.—Pl. <he>זִיקוּקִין</he>, <he>זִקּ׳</he>. Targ. ",
+			"units": [
+				"<cite ref=\"Habakkuk 3:4\">Hab. III, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 24:17\">Targ. Y. Ex. XXIV, 17</cite> <he>זִיקוּקֵי אישא</he>.—Y. Ber. V, 9ᵃ <he>תרין ז׳ דנור</he>, v. <cite ref=\"G00409\">preced.</cite>"
+			]
+		}
+	]
+}

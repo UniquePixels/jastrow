@@ -1,0 +1,22 @@
+{
+	"id": "M02251",
+	"slug": "מפרק",
+	"headword": {
+		"text": "מִפְרֵק"
+	},
+	"page": {
+		"number": 822,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01980\"><he>פָּרַק</he></cite>; cmp. <cite ref=\"Q01982\"><he>פֶּרֶק</he></cite>) <i>joint</i>.—Pl. constr. <he>מִפְרְקֵי</he>. ",
+			"units": [
+				"<cite ref=\"Nazir 52b\">Naz. 52ᵇ</cite> <he>מ׳ ידים וכ׳</he> the joints of arms and legs."
+			]
+		}
+	]
+}

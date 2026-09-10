@@ -1,0 +1,24 @@
+{
+	"id": "O01110",
+	"slug": "סממית",
+	"headword": {
+		"text": "סְמָמִית"
+	},
+	"page": {
+		"number": 1002,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"O00068\"><he>שְׂ׳</he></cite>; v. <cite ref=\"O01049\"><he>סַם</he></cite>) [<i>poisonous</i>] <i>spider</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 77b:7\">Sabb. 77ᵇ</cite> <he>ס׳ לעקרב</he> (Ms. O. <cite ref=\"U00001\"><he>ש׳</he></cite>) a (crushed) spider is a remedy for a scorpion’s bite; <cite ref=\"Jerusalem Talmud Berakhot 9:2:5\">Y. Ber. IX, 13ᶜ</cite> bot. Sabb. l. c. <he>אימת ס׳ על וכ׳</he> the fear which the scorpion has of the spider; Yalk. Am. 544 <cite ref=\"U00001\"><he>ש׳</he></cite>. ",
+				"<cite ref=\"Sanhedrin 103b\">Snh. 103ᵇ</cite> <he>העלה ס׳ ע״ג וכ׳</he> Ar. (ed. <cite ref=\"U00001\"><he>ש׳</he></cite>) caused spider-web to cover the altar.—Pl. <he>סְמָמִיּוֹת</he>. ",
+				"<cite ref=\"Sifrei Devarim 354:7\">Sifré Deut. 354</cite> <he>ס׳ מכישות אותו וכ׳</he> (not <he>סמומ׳</he>) spiders bite him, and he dies &c.; <cite ref=\"Yalkut Shimoni on Torah 961:2\">Yalk. ib. 961</cite>.—[LXX a. Vulg. translate <cite ref=\"U01495\"><he>שממית</he></cite> <i>spotted lizard</i>, v. next w.]"
+			]
+		}
+	]
+}

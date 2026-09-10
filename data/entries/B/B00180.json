@@ -1,0 +1,24 @@
+{
+	"id": "B00180",
+	"slug": "בהלה",
+	"headword": {
+		"text": "בֶּהָלָה"
+	},
+	"page": {
+		"number": 142,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>בהל</he>)<i>suddenness, sudden calamity, shock</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 2:1:8\">Y. Bicc. II, 64ᵈ</cite> top; <cite ref=\"Tractate Semachot 3:9\">Treat. S’maḥ. III, 9</cite> <he>לשנים מיתה של ב׳</he> death after two days’ sickness is a shocking death.—",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:11:4\">Y. B. Mets. II, end, 8ᵈ</cite> a rending of garments <he>שאינו של ב׳ וכ׳</he> which is not done under the influence of the first shock (after the sad news) is considered as if not performed at all.—Pl. <he>בֶּהָלוֹת</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 11:1\">Num. R. s. 11</cite>; Tanḥ. Naso, 10 <he>באנגריא ובב׳</he> as a forced duty and in a hurried manner; a. fr."
+			]
+		}
+	]
+}

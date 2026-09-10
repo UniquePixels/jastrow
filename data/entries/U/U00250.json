@@ -1,0 +1,25 @@
+{
+	"id": "U00250",
+	"slug": "שד-2",
+	"headword": {
+		"text": "שַׁד"
+	},
+	"page": {
+		"number": 1523,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00259\"><he>שָׁדָה</he></cite> , v. Ges. Thes. s. v.) <i>female breast</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 4:3\">Tosef. Sot. IV, 3</cite> (ref. to <he>לשד</he>, <cite ref=\"Numbers 11:8\">Num. XI, 8</cite>) <he>מה שד זה עיקר וכ׳</he> ed. Zuck. (Var. <he>דד</he>) as the breast is essential for the child and everything else is of secondary import, so was the manna &c.; <he>מה שד זה אם יונק וכ׳</he> as the breast does not harm the child, even if it suck it an entire day &c.; <cite ref=\"Yoma 75a:20\">Yoma 75ᵃ</cite> <he>מה שד זה תינוק וכ׳</he> as the child finds in the breast all tastes &c.—<i>Du.</i> <he>שָׁדַיִם</he>; pl. constr. <cite ref=\"U00267\"><he>שְׁדֵי</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite>; <cite ref=\"Yalkut Shimoni on Torah 72:5\">Yalk. ib. 72</cite>, v. <cite ref=\"U00249\">preced.</cite> Tanḥ. Sh’moth 25 <he>והיונקים כחלב משרי אמם</he> and the sucklings found in the manna a taste like that of the milk from their mothers’ breast (ref. to Num. l. c.). ",
+				"<cite ref=\"Berakhot 3a\">Ber. 3ᵃ</cite>. ",
+				"<cite ref=\"Sotah 30b\">Sot. 30ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

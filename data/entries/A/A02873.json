@@ -1,0 +1,24 @@
+{
+	"id": "A02873",
+	"slug": "אצטרכיא",
+	"headword": {
+		"text": "אִצְטַרְכַיָּא"
+	},
+	"page": {
+		"number": 111,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>צרך</he>) <i>travelling necessaries, provision</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 60:11\">Gen. R. s. 60</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 11:1\">Koh. R. to XI, 1</cite>."
+			]
+		}
+	]
+}

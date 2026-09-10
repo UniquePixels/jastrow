@@ -1,0 +1,29 @@
+{
+	"id": "J00196",
+	"slug": "יומחרא",
+	"headword": {
+		"text": "יוֹמָחְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוֹמָחֲרָן"
+		}
+	],
+	"page": {
+		"number": 569,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>יומא אוחרא</he>, <he>י׳ אוחרן</he>) <i>tomorrow, next day</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 19:10\">Targ. Y. Ex. XIX, 10</cite> (ed. Amst. <he>יום מחרא</he>). ",
+				"<cite ref=\"Aramaic Targum to Esther 3:4\">Targ. Esth. III, 4</cite> ed. Lag. (ed. Amst. <cite ref=\"J00195\"><he>יומא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 7:16\">Targ. Y. Lev. VII, 16</cite> (ed. Amst. <he>יום מחרן</he>); a. e. [<cite ref=\"Targum of II Chronicles 20:16\">Targ. II Chr. XX, 16</cite> <he>יומא חרא</he>, ed. Lag. <he>יומא אחרא</he>.]—V. <cite ref=\"H01575\"><he>חֲרָא</he></cite>."
+			]
+		}
+	]
+}

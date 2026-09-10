@@ -1,0 +1,28 @@
+{
+	"id": "A00575",
+	"slug": "אוהרא",
+	"headword": {
+		"text": "אוֹהֲרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹהֲרָא"
+		}
+	],
+	"page": {
+		"number": 22,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>חוחרא</he>, redupl. of <cite ref=\"H01668\"><he>חרי</he></cite> Ar.) <i>net-work</i>, esp. <i>loose fisher’s net</i>, contrad. to <cite ref=\"A01198\"><he>אִיזְלָא</he></cite>. Y. M. Kat. III, 81ᵇ top <he>הו׳</he>.—Pl. <he>אוֹהֲרֵי</he>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 11a:2\">M. Kat. 11ᵃ</cite> <he>למיגדל א׳</he> (Alf. <he>אוחרי</he>) to plait nets. ",
+				"<cite ref=\"Gittin 60b\">Git. 60ᵇ</cite> bot."
+			]
+		}
+	]
+}

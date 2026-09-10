@@ -1,0 +1,29 @@
+{
+	"id": "C00765",
+	"slug": "גינין",
+	"headword": {
+		"text": "גִּינִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּונין",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 240,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>גנן</he>) <i>protective armor, cuirass</i> (?). ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:1\">Tosef. Kel. B. Mets. III, 1</cite>. [V. <cite ref=\"C01073\"><he>גַּנָּא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "Q01114",
+	"slug": "פלפל-1",
+	"headword": {
+		"text": "פִּלְפֵּל"
+	},
+	"page": {
+		"number": 1184,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"Q01075\"><he>פָּלַל</he></cite> a. <cite ref=\"Q00207\"><he>פּוּל</he></cite>)",
+			"units": []
+		},
+		{
+			"gloss": "<i>to search</i>. Tanḥ. Vayesheb <he>הוצרך … לפַלְפֵּל בעפר וכ׳</he> (some ed. <he>לפַשְׁפֵּשׁ</he>) the king had need of searching in the dust and among the pebbles to find the pearl. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 7:5\">Tosef. B. Bath. VII, 5</cite> <he>כל דבר שלא פִּלְפְּלוּ בו יתומין וכ׳</he> the first-born gets a double share of whatever the heirs had no need of searching for (being ready on hand at the father’s death). ",
+				"<cite ref=\"Shabbat 31a:11\">Sabb. 31ᵃ</cite> (among the questions which the dead are asked on appearing before the seat of judgment) <he>פִּלְפַּלְתָּה בחכמה</he> hast thou been a searcher after wisdom?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to argue, debate</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 85b:4\">B. Mets. 85ᵇ</cite> <he>לא פִּלְפַּלְתִּי בתורה כמותו</he> Ms. R. (ed. <cite ref=\"V00290\"><he>תורה</he></cite>) did I not argue on the Law like him? <he>תורה כמותו פִּלְפַּלְתָּ וכ׳</he> thou didst argue … like him, but thou didst not spread learning like him; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

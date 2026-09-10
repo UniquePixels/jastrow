@@ -1,0 +1,23 @@
+{
+	"id": "C00305",
+	"slug": "גודא-4",
+	"headword": {
+		"text": "גּוּדָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 218,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Gudda</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 32a:10\">Ab. Zar. 32ᵃ</cite> (Ms. M. <cite ref=\"C00478\"><he>גּוּרָא</he></cite>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

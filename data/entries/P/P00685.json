@@ -1,0 +1,23 @@
+{
+	"id": "P00685",
+	"slug": "עירוע",
+	"headword": {
+		"text": "עֵירוּעַ"
+	},
+	"page": {
+		"number": 1076,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עֲרַע</he> I) <i>accident</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 6:9\">Targ. I Sam. VI, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 20:26\">Ib. XX, 26</cite> (h. text <he>מקרה</he>)."
+			]
+		}
+	]
+}

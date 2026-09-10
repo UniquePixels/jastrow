@@ -1,0 +1,31 @@
+{
+	"id": "B00467",
+	"slug": "בזר-2",
+	"headword": {
+		"text": "בְּזַר"
+	},
+	"page": {
+		"number": 154,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00466\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"B00466\"><he>בַּזַּר</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 73a:9\">B. Bath. 73ᵃ</cite>, v. <cite ref=\"B00462\"><he>בְּזַק</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

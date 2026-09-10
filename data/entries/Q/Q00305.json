@@ -1,0 +1,24 @@
+{
+	"id": "Q00305",
+	"slug": "פועתתא",
+	"headword": {
+		"text": "פּוּעֲתָתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1145,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"Q00296\"><he>פּוּעַ</he></cite> ch.) <i>wounds, bruises</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 20:30\">Targ. Prov. XX, 30</cite>; <cite ref=\"Aramaic Targum to Proverbs 27:6\">XXVII, 6</cite>, a. e.; v. <cite ref=\"Q00165\"><he>פּוּדְעֲתָא</he></cite>."
+			]
+		}
+	]
+}

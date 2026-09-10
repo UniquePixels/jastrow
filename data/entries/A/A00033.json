@@ -1,0 +1,22 @@
+{
+	"id": "A00033",
+	"slug": "אבדא",
+	"headword": {
+		"text": "אַבְדָּא"
+	},
+	"page": {
+		"number": 3,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אבד</he>) <i>destruction</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 28:28\">Targ. Prov. XXVIII, 28</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "O01112",
+	"slug": "סממן",
+	"headword": {
+		"text": "סַמְמָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַמָּן"
+		}
+	],
+	"page": {
+		"number": 1002,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (v. <cite ref=\"O01049\"><he>סַם</he></cite>) <i>drug</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ingredient of frankincense</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 4:5:5\">Y. Yoma IV, 41ᵈ</cite> bot. (expl. <he>חציים</he>) <he>חצי כל ס׳ וס׳</he> a fraction of each ingredient.—Pl. <he>סַמְמָנִים</he>, <he>סַמְמָנִין</he>, <cite ref=\"O00714\"><he>סַמָּנִ׳</he></cite>. Ib. 41ᵈ; <cite ref=\"Keritot 6a:49\">Ker. 6ᵃ</cite> <he>סַמְמָנֶיהָ</he>, v. <cite ref=\"H01410\"><he>חָסַר</he></cite>. ",
+				"<cite ref=\"Keritot 6a:72\">Ib.</cite> <he>אחד מסַמְמָנֵי הקטרת</he> one of the ingredients of the frankincense; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 12:2:2\">Y. Sabb. XII, 13ᶜ</cite> bot. <he>ליטע סִימְמָנִין</he> to plant the spices for the frankincense."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pl.</i> as above: <i>paint, dye, colors</i>; in gen. <i>artist’s material</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1:9\">Gen. R. s. 1</cite> <he>צייר … שמצא ס׳ וכ׳</he> your god is a great artist, but he found good material which helped him. ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite>; <cite ref=\"Shemot Rabbah 35\">Ex. R. s. 35</cite>, a. e. <he>אתה בסַמְמָנֶיךָ וכ׳</he> thou (paint it) with thy materials, but I appear in my glory myself; <cite ref=\"Yalkut Shimoni on Torah 369:8\">Yalk. Ex. 369</cite> <he>בסַמָּנֶיךָ</he>; Pesik. Vayhi, p. 5ᵃ <he>בסימנך</he> (corr. acc.). ",
+				"<cite ref=\"Bava Kamma 101a:4\">B. Kam. 101ᵃ</cite> <he>שבח ס׳</he> the value of the dye (additional to that of the wool); a. fr.—[<cite ref=\"Tosefta Keilim Metsia 3:13\">Tosef. Kel. B. Mets. III, 13</cite> <he>סממנין</he>, v. <cite ref=\"O01105\"><he>סִמְלוֹן</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"id": "C01351",
+	"slug": "גרם-3",
+	"headword": {
+		"text": "גְּרַם",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּרֵים"
+		}
+	],
+	"page": {
+		"number": 269,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"C01354\"><he>גַּרְמָא</he></cite>, cmp. <he>עצם</he>) <i>to be substantial, strong</i>. *<cite ref=\"Aramaic Targum to Proverbs 18:10\">Targ. Prov. XVIII, 10</cite> <he>וניגריס ביה</he> Ms. a. Var. in ed. Lag. (read <he>ונִיגְרִים</he>; ed. <he>ונתרים</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 5:19\">Ib. V, 19</cite> <cite ref=\"V00092\"><he>תִּגְרַם</he></cite> (some ed. <he>תְּגָרֵם</he>, Ms. <he>תגרס</he>) thou shalt grow strong."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גָּרֵים"],
+			"senses": [
+				{
+					"gloss": "<i>to strengthen, comfort</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 35:9\">Targ. Y. II, Gen. XXXV, 9</cite> <he>וגָרִימַת וכ׳</he> (some ed. <he>וגְרִי׳</he> Pe.) and Thou didst strengthen him (in his trouble)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to eat up to the bone, to pick off</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 27:2\">Targ. Ps. XXVII, 2</cite> <he>לְגָּרָמָא</he> (Ms. a. Regia <he>לגַמָּרָא</he>, v. <cite ref=\"C01065\"><he>גְּמַר</he></cite>).—",
+						"<cite ref=\"Bava Batra 22a:9\">B. Bath. 22ᵃ</cite> <he>אדמְגַרְמִיתוּ גרמי וכ׳</he> (Ms. M. <he>מגרדיתו</he> fr. <cite ref=\"C01269\"><he>גְּרַד</he></cite>; Ar. <he>דמגריסתו</he> fr. <cite ref=\"C01374\"><he>גְּרַס</he></cite>; v. Rabb. D. S. a. l. note) in place of picking off bones (receiving scanty instruction) in the school of A., go ye and eat flesh &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַגְרֵים"],
+			"senses": [
+				{
+					"gloss": "<i>to make substantial, harden</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 8:28\">Targ. Prov. VIII, 28</cite> (Var. <he>אוגריס</he>, h. text <cite ref=\"A02055\"><he>אמץ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "A02821",
+	"slug": "אפרים",
+	"headword": {
+		"text": "אֶפְרַיִם"
+	},
+	"page": {
+		"number": 108,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Ephraim</i>. ",
+			"units": []
+		},
+		{
+			"gloss": " son of Joseph, progenitor of the <i>tribe of Ephraim</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of the expected Messiah, also called <i>the Messiah, son of Joseph</i>, in contradist. to the Messiah of the tribe of Judah. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 36:1\">Pesik. R. s. 36</cite>; <cite ref=\"Pesikta Rabbati 37:1\">37</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " a disciple of R. Meïr. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 87a:6\">B. Mets. 87ᵃ</cite>; <cite ref=\"Bereishit Rabbah 85:10\">Gen. R. s. 85</cite> <he>א׳ מקשאה</he> E. the disputant."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " *E. the Scribe, a disciple of Resh Lakish. B. Mets. end (Ms. M. <he>א׳ מקשאה</he>, v. Rabb. D. S. a. l. note).",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

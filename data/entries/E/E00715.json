@@ -1,0 +1,26 @@
+{
+	"id": "E00715",
+	"slug": "העדפה",
+	"headword": {
+		"text": "הַעֲדָפָה"
+	},
+	"page": {
+		"number": 360,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00158\"><he>עָדַף</he></cite>) <i>surplus; addition, increase</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 43a:12\">Keth. 43ᵃ</cite> <he>לה׳</he> concerning the surplus of the value of labor over the cost of sustenance. ",
+				"<cite ref=\"Ketubot 66a:3\">Ib. 66ᵃ</cite> <he>ה׳ ע״י הדחק</he> a surplus gained through an extraordinary exertion. ",
+				"<cite ref=\"Bava Kamma 87b\">B. Kam. 87ᵇ</cite>. ",
+				"<cite ref=\"Gittin 12a:10\">Gitt. 12ᵃ</cite>; a. e.—",
+				"<cite ref=\"Gittin 12b:14\">Ib. 12ᵇ</cite> <he>לה׳</he> for additional support (not included in the sustenance furnished by the master)."
+			]
+		}
+	]
+}

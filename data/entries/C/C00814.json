@@ -1,0 +1,24 @@
+{
+	"id": "C00814",
+	"slug": "גירדא-2",
+	"headword": {
+		"text": "גִּירְדָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 242,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00166\"><he>גדד</he></cite>, with <cite ref=\"T00000\"><he>ר</he></cite> inserted) <i>stump, stem</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b\">Pes. 111ᵇ</cite> top <he>גי׳ דדיקלא</he> (Var. <cite ref=\"C00628\"><he>גידא</he></cite>, <cite ref=\"C00303\"><he>גודא</he></cite>, v. Rabb. D. S. a. l. note 30) the stem of a palm tree (Ar.: <i>rind</i>, v. <cite ref=\"C00813\">preced.</cite>). ",
+				"<cite ref=\"Bava Metzia 86a\">B. Mets. 86ᵃ</cite> (Ms. M. <he>גידרא</he>, Ms. R. 2 <he>גיררא</he>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

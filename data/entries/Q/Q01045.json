@@ -1,0 +1,29 @@
+{
+	"id": "Q01045",
+	"slug": "פליום",
+	"headword": {
+		"text": "פַּלְיוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּלְיוֹן"
+		}
+	],
+	"page": {
+		"number": 1181,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (pallium, πάλλιον) <i>sheet, blanket; mantle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 8:1\">Nidd. VIII, 1</cite>, v. <cite ref=\"A02738\"><he>אַפַּלְיוֹן</he></cite>. Y. Sabb. XVI, 15ᵈ top <cite ref=\"Q00679\"><he>פיליון</he></cite> (corr. acc.); Bab. ",
+				"<cite ref=\"Shabbat 120a\">Sabb. 120ᵃ</cite> <cite ref=\"A02691\"><he>אפיליות</he></cite> (corr. acc., v. <cite ref=\"A02738\"><he>אַפַּלְיוֹן</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:3:11\">Y. Ber. II, 4ᶜ</cite> bot. <he>מעבר ליה בפיליוס</he> (corr. acc.) put a sheet over it; a. e.—Pl. <he>פַּלְיוֹנוֹת</he>. Sifra M’tsorʿa, Neg., Par. 7, ch. V <he>אפי הוא לבוש</he> … <he>ועטוף עשרה פ׳</he> Rabad (ed. <cite ref=\"Q00228\"><he>פולייוניות</he></cite>, corr. acc.) even if he is clothed …, and wrapped in ten pallia."
+			]
+		}
+	]
+}

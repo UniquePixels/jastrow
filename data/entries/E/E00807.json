@@ -1,0 +1,23 @@
+{
+	"id": "E00807",
+	"slug": "הקשה",
+	"headword": {
+		"text": "הַקָּשָׁה"
+	},
+	"page": {
+		"number": 365,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01251\"><he>נָקַשׁ</he></cite>) <i>clapping, knocking together</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 65a:11\">Snh. 65ᵃ</cite> <he>הַקָּשַׁת זרועותיו</he> the clapping of his (the necromancer’s) arms; <cite ref=\"Keritot 3b\">Ker. 3ᵇ</cite>.—Pl. <he>הַקָּשׁוֹת</he>. ",
+				"<cite ref=\"Keritot 3b\">Ib.</cite> (Snh. l. c. always sing.)."
+			]
+		}
+	]
+}

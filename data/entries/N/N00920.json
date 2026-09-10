@@ -1,0 +1,27 @@
+{
+	"id": "N00920",
+	"slug": "נסוחא",
+	"headword": {
+		"text": "נָסוֹחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָסוֹחָה"
+		}
+	],
+	"page": {
+		"number": 915,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00924\"><he>נְסַח</he></cite>) <i>one who removes, sweeper</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:4:3\">Y. Yoma III, 40ᶜ</cite> top, v. <cite ref=\"M00186\"><he>מגְלְיָינָא</he></cite>."
+			]
+		}
+	]
+}

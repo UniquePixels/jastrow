@@ -1,0 +1,32 @@
+{
+	"id": "N01094",
+	"slug": "נצא-2",
+	"headword": {
+		"text": "נָצָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 927,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"N01120\"><he>נְצֵי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (adj.) <i>shrunk, withered</i>.—Pl. f. <cite ref=\"R00635\"><he>נָצַן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 41:23\">Targ. Gen. XLI, 23</cite> (h. text <he>צנמות</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lean</i> (<i>low</i>) <i>ground</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 10b\">M. Kat. 10ᵇ</cite> <cite ref=\"N01093\"><he>נצא</he></cite> (Ms. M. <he>צנא</he>, v. Rabb. D. S. a. l. note); <cite ref=\"Bava Batra 54a\">B. Bath. 54ᵃ</cite>, v. <cite ref=\"M00497\"><he>מוּלְיָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

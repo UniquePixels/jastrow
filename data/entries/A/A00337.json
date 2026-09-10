@@ -1,0 +1,37 @@
+{
+	"id": "A00337",
+	"slug": "אגר-3",
+	"headword": {
+		"text": "אָגַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 14,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>אג</he>, v. <cite ref=\"H00156\"><he>חגר</he></cite>). ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to gird, arm</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Mishlei 30:1\">Midr. Prov. to XXX, 1</cite> <he>שא׳ חלציו</he> who girded his loins for wisdom; Yalk. Prov. a. l. Part. pass. <cite ref=\"A00277\"><he>אָגוּר</he></cite>, v. <cite ref=\"A00335\"><he>אָגַר</he> I</cite>. "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to halt</i>, whence part. f. <cite ref=\"A00552\"><he>אוֹגֶרֶת</he></cite> (sub. <cite ref=\"O00898\"><he>סַכִּין</he></cite>) a knife having indentations which catch the passing nail of the examiner. ",
+			"units": ["<cite ref=\"Chullin 17b\">Ḥull. 17ᵇ</cite>."],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to occupy space</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 14a\">B. Bath. 14ᵃ</cite> (intercharging with <cite ref=\"A01696\"><he>אָכַל</he></cite> q. v.)."
+			],
+			"label": "3"
+		}
+	]
+}

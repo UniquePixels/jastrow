@@ -1,0 +1,35 @@
+{
+	"id": "Q00080",
+	"slug": "פגן-2",
+	"headword": {
+		"text": "פְּגַן"
+	},
+	"page": {
+		"number": 1134,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. Same. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:12\">Targ. Koh. I, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 22:20\">Targ. Y. Gen. XXII, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 9:17\">Targ. Koh. IX, 17</cite> <he>דפָגֵין</he> (not <he>דפַגּ׳</he>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפְגֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to intercede</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 32:10\">Targ. Y. Ex. XXXII, 10</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

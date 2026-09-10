@@ -1,0 +1,87 @@
+{
+	"id": "O01415",
+	"slug": "ספר-1",
+	"headword": {
+		"text": "סָפַר"
+	},
+	"page": {
+		"number": 1017,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to cut; to mark</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to write; to count</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 7:5:2\">Y. Kil. VII, end, 31ᵃ</cite> <he>יִסְפּוֹר</he> he (who is in possession of property bought from an oppressor, v. <cite ref=\"A02261\"><he>אַנָּס</he></cite>) must count (settle with the original owner according to rules, v. <cite ref=\"C00487\"><he>גוֹרְדְּיָינִי</he></cite>), opp. <he>יחזיר</he> he must return the property; <cite ref=\"Jerusalem Talmud Kilayim 7:5:2\">ib.</cite> <he>יִסְפֹּר</he> (or <he>יְסַפֵּר</he> <i>Pi.</i>). ",
+				"<cite ref=\"Kiddushin 30a:14\">Kidd. 30ᵃ</cite> <he>שהיו סוֹפְרִים</he>, v. <cite ref=\"O00403\"><he>סוֹפֵר</he></cite>. ",
+				"<cite ref=\"Niddah 69a:14\">Nidd. 69ᵃ</cite> <he>סוֹפַרְתָּן למנין וכ׳</he> she counts them in with the requisite number of seven days. ",
+				"<cite ref=\"Niddah 31a:69\">Ib. 31ᵃ</cite> <he>יושב וסוֹפֵר וכ׳</he> sits and records the copulations &c. ",
+				"<cite ref=\"Menachot 65b\">Men. 65ᵇ</cite>, v. <cite ref=\"O01378\"><he>סְפִירָה</he></cite>; a. v. fr.—[<cite ref=\"Sifrei Devarim 33\">Sifré Deut. 33</cite> <he>סופרה</he>; read: <he>סופנה</he>, v. <cite ref=\"O01386\"><he>סָפַן</he></cite>.]—Part. pass. <cite ref=\"O01338\"><he>סָפוּר</he></cite>, q. v."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cut, shear</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְפַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be counted</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 45a:8\">Bekh. 45ᵃ</cite> <he>שנִסְפֶּרֶת ע״ג היד</he> when the additional finger is counted (is in a line) with the others; <cite ref=\"Yalkut Shimoni on Nach 156\">Yalk. Sam. 156</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["סִיפֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to cut, shear</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 49b:16\">Sot. 49ᵇ</cite>, a. fr. <he>מְסַפֵּר קומי</he>, v. <cite ref=\"S00391\"><he>קוֹמִי</he> I</cite>. ",
+						"<cite ref=\"Sotah 49b:16\">Ib.</cite> <he>התירו</he> (<he>לו</he>)<he>לסַפֵּר וכ׳</he> they allowed him to cut his hair in gentile fashion, because of his connections with royalty. Sifra Aḥăré, Par. 9, ch. XIII <he>תִּסְפּוֹר</he>, v. <cite ref=\"S00391\"><he>קוֹמִי</he> I</cite>. ",
+						"<cite ref=\"Tosefta Beitsah 3:19\">Tosef. Bets. III, 19</cite> <he>אין מְסַפְּרִין הירק וכ׳</he> you must not no trim vegetables with the clipper (on the Holy Day) &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to tell, speak, count</i>. Y. Kil. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite> (ref. to <he>אברם</he> in place of <he>אברהם</he>, <cite ref=\"Nehemiah 9:7\">Neh. IX, 7</cite>) <he>סיפור הוא מְסַפֵּר וכ׳</he> he states a historical fact, saying &c. Y. Ber. IX, beg. 12ᵈ <he>אם בא אדם לסַפֵּר וכ׳</he> if one were to undertake to count the mighty deeds of the Lord, he would be ruined (ref. to <cite ref=\"Job 37:20\">Job XXXVII, 20</cite>); <he>המספר בשבחו וכ׳</he> he who tells the praise of the Lord more than is becoming. ",
+						"<cite ref=\"Job 37:20\">Ib.</cite> <he>מכאן … אסור לסַפֵּר וכ׳</he> beyond that (which has been adopted in ritual prayers) one must not tell &c. ",
+						"<cite ref=\"Arakhin 16a:10\">Arakh. 16ᵃ</cite> <he>לעולם אל יְסַפֵּר אדם בטובתו וכ׳</he> man should not count up his neighbor’s good qualities, for he may be induced to speak of his shortcomings; <cite ref=\"Bava Batra 164b:15\">B. Bath. 164ᵇ</cite>. ",
+						"<cite ref=\"Sotah 42a:4\">Sot. 42ᵃ</cite> <he>מְספְּרֵי לשון הרע</he> gossipers. ",
+						"<cite ref=\"Sanhedrin 38b:10\">Snh. 38ᵇ</cite> <he>בלשון ארמי סי׳</he> spoke Aramæan; a. v. fr.—",
+						"<cite ref=\"Sanhedrin 52b:1\">Ib. 52ᵇ</cite> <he>סי׳ הימנו</he> if he (the scholar) holds conversation with him."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְתַּפֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to have one’s hair cut</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Avodah Zarah 2:2\">Ab. Zar. II, 2</cite> <he>אין מִסְתַּפְּרִין מהן וכ׳</he> you must not have your hair cut by them in any place (on account of danger to life). ",
+						"<cite ref=\"Tosefta Avodah Zarah 3:5\">Tosef. ib. III, 5</cite> <he>ישראל המִסְתַּפֵּר וכ׳</he> if an Israelite has his hair cut by a gentile, he must look into the mirror; <cite ref=\"Avodah Zarah 29a\">Ab. Zar. 29ᵃ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

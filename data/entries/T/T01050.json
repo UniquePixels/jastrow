@@ -1,0 +1,55 @@
+{
+	"id": "T01050",
+	"slug": "רקק-1",
+	"headword": {
+		"text": "רָקַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוּק"
+		}
+	],
+	"page": {
+		"number": 1497,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to spit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 8:6\">B. Kam. VIII, 6</cite> <he>ר׳ והגיע בו רוקו</he> if a person spat (at his neighbor), and his spittle touched him. ",
+				"<cite ref=\"Sanhedrin 101a:4\">Snh. 101ᵃ</cite> <he>וברוֹקֵק בה … על הרקיקה</he> that is when he spits at it (while reciting a Bible verse as a charm for a wound), for the name of God must not be pronounced in connection with spitting. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:5:17\">Y. Ber. III, 6ᵈ</cite> bot. <he>הרוקק … כרוקק וכ׳</he> he that spits in the synogogue is considered as if spitting at the pupil of his eye (euphem. for God). ",
+				"<cite ref=\"Yevamot 105a:9\">Yeb. 105ᵃ</cite> <he>שרָקְקָה דם</he> who (in spitting before the <i>yabam</i>) spat blood; Y. ib. XII, end, 13ᵃ <cite ref=\"T01023\"><he>רַקָּה</he></cite> (or <cite ref=\"T01023\"><he>רָקָה</he></cite>, fr. <cite ref=\"T00432\"><he>רוּק</he></cite>). ",
+				"<cite ref=\"Chagigah 5a:11\">Ḥag. 5ᵃ</cite> (ref. to <cite ref=\"Ecclesiastes 12:14\">Koh. XII, 14</cite>) <he>זה הרָק בפני חבירו וכ׳</he> this refers to one who spits in his neighbor’s presence and becomes disgusting (v. <cite ref=\"M00049\"><he>מָאַס</he></cite>). ",
+				"<cite ref=\"Tosefta Bava Kamma 9:31\">Tosef. B. Kam. IX, 31</cite>, v. <cite ref=\"I00250\"><he>טוּשׁ</he></cite> h.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִקֵּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01049\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 339\">Yalk. Is. 339</cite> (ref. to <cite ref=\"Psalms 4:3\">Ps. IV, 3</cite>) <he>עד מתי  … מְרַקְּקִין בו וכ׳</he> how long will you put to shame the honor of the (ruined) Temple, spitting in it, committing nuisance in it &c.?"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נָרוֹק"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"T01052\"><he>רָקָק</he></cite>) <i>to be miry</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 7:1\">Mikv. VII, 1</cite> <he>חטיט הנ׳</he> soft, miry clay (in the bath reservoir); <cite ref=\"Zevachim 22a\">Zeb. 22ᵃ</cite> Ms. M. (ed. <he>הנדוק</he>); <cite ref=\"Sukkah 19b\">Succ. 19ᵇ</cite> (v. Rabb. D. S. a. l. note 40)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

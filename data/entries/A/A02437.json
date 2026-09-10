@@ -1,0 +1,23 @@
+{
+	"id": "A02437",
+	"slug": "אסימון",
+	"headword": {
+		"text": "אֲסִימוֹן"
+	},
+	"page": {
+		"number": 93,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἄσημος, -ον) <i>uncoined metal, bulion</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 4:1\">B. Mets. IV, 1</cite> <he>א׳ קונה וכ׳</he> the uncoined metal buys the coined, i.e. by delivering the uncoined, which is considered as goods, the purchase is concluded. ",
+				"<cite ref=\"Bava Metzia 47b:5\">Ib. 47ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

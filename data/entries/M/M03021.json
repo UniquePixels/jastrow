@@ -1,0 +1,28 @@
+{
+	"id": "M03021",
+	"slug": "מתויא",
+	"headword": {
+		"text": "מַתְוָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַתְוָו׳"
+		}
+	],
+	"page": {
+		"number": 860,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A03397\"><he>אֲתָא</he></cite>; cmp. <cite ref=\"M03047\"><he>מַתְיָא</he></cite>) <i>being carried, desire</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 3:16\">Targ. Y. Gen. III, 16</cite> <he>מַתְוִיךְ</he> (h. text <he>תשוקתך</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 4:7\">Ib. IV, 7</cite>; a. e."
+			]
+		}
+	]
+}

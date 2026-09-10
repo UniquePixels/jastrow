@@ -1,0 +1,27 @@
+{
+	"id": "N01072",
+	"slug": "נפצא-1",
+	"headword": {
+		"text": "נַפָּצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַפָּסָא"
+		}
+	],
+	"page": {
+		"number": 925,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01071\">preced.</cite>) <i>flax-beater, carder</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 118b\">Yeb. 118ᵇ</cite>; <cite ref=\"Ketubot 75a:6\">Keth. 75ᵃ</cite> <he>דנ׳ גברא תיקרייה וכ׳</he> though the husband be a carder, his wife will call him out to the threshold and sit down (proud of her husband); [Ar. <he>נפסא</he>: <i>a guardsman in the vegetable garden</i>, denom. of <cite ref=\"N01024\"><he>נָפוֹס</he></cite>.]"
+			]
+		}
+	]
+}

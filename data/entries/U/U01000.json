@@ -1,0 +1,30 @@
+{
+	"id": "U01000",
+	"slug": "שיף-2",
+	"headword": {
+		"text": "שִׁיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁיפָ"
+		},
+		{
+			"text": "ה"
+		}
+	],
+	"page": {
+		"number": 1565,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שׁוּף</he> II) <i>rubbed off, abraded, bright</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 3:8:4\">Y. Gitt. III, end, 45ᵇ</cite> <he>הניחה ש׳ וכ׳</he> if he left it (the pin) bright, and coming back found it rusty; <cite ref=\"Jerusalem Talmud Bava Batra 6:1:7\">Y. B. Bath. VI, 15ᶜ</cite> top <cite ref=\"U00493\"><he>שׁוּפָה</he></cite>; v. <cite ref=\"U00492\"><he>שׁוּף</he> III</cite>."
+			]
+		}
+	]
+}

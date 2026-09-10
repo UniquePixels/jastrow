@@ -1,0 +1,28 @@
+{
+	"id": "N01225",
+	"slug": "נקם-1",
+	"headword": {
+		"text": "נָקַם"
+	},
+	"page": {
+		"number": 933,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"S00374\"><he>קוּם</he></cite>)<i>to take revenge</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 63a:27\">Sabb. 63ᵃ</cite> <he>נוֹקֵם ונוטר כנחש</he> revengeful and grudge-bearing like a serpent. ",
+				"<cite ref=\"Yoma 23a\">Yoma 23ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be hostile, do evil</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 149:4\">Midr. Till. to Ps. CXLIX, 7</cite> <he>מה שנָקְמוּ</he>, v. <cite ref=\"N01228\"><he>נְקָמָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

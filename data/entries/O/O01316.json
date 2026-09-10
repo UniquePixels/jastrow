@@ -1,0 +1,44 @@
+{
+	"id": "O01316",
+	"slug": "ספד-2",
+	"headword": {
+		"text": "סְפַד"
+	},
+	"page": {
+		"number": 1011,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O01315\">same</cite> <cite ref=\"Onkelos Genesis 23:2\">Targ. Gen. XXIII, 2</cite>; a. fr.—",
+			"units": [
+				"<cite ref=\"Yevamot 116b:4\">Yeb. 116ᵇ</cite> <he>סִפְדִי בעליך</he> observe mourning for thy husband. ",
+				"<cite ref=\"Moed Katan 28b\">M. Kat. 28ᵇ</cite> <he>דִּיסְ׳ וִסְפְּדוּנֵוה</he> for him who has mourned for others, others will mourn; <cite ref=\"Ketubot 72a\">Keth. 72ᵃ</cite> <he>דִּסְ׳</he>; <cite ref=\"Tosefta Ketubot 7:6\">Tosef. ib. VII, 6</cite> <he>סְפוֹד דיִסְפְּדוּנָךְ</he> mourn, in order that people may mourn for thee; Y. ib. VII, 31ᵇ bot. (corr. acc.). Meg. Taan. ch. I; <cite ref=\"Shabbat 21b\">Sabb. 21ᵇ</cite>, a. fr. <he>דלא למִסְפֵּד</he> when no lamentations may be held; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְפֵּיד"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"O01315\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 1:18\">Targ. Lam. I, 18</cite>.—",
+						"<cite ref=\"Moed Katan 25b:6\">M. Kat. 25ᵇ</cite> <he>ההוא יומא לא אתו לאַסְפּוּדֵיה</he> that day (when he died), they did not come to mourn for him. ",
+						"<cite ref=\"Megillah 28b:10\">Meg. 28ᵇ</cite> <he>אַכְפְּדָהּ לכלתיה וכ׳</he> held funeral services for his daughter-in-law in the synagogue; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to beat the hip in mourning</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 12:7\">Koh. R. to XII, 7</cite> <he>הוה מַסְפִּיד בחדא ידא וכ׳</he> made the motion of mourning with one hand and of praising (Nebuchadnezzar) with the other; <cite ref=\"Yalkut Shimoni on Nach 364:1-3\">Yalk. Ez. 364</cite> <he>הוון … ומַסְפִּידִין וכ׳</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"id": "A01026",
+	"slug": "אחידה-1",
+	"headword": {
+		"text": "אֲחִידָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 40,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>אחד</he>) <i>taking possession, capture</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 6a:12\">Meg. 6ᵃ</cite> <he>היו קורין אותו אֲחִידַת מגדל צור</he> Ms. (ed. <cite ref=\"U01054\"><he>שיר</he></cite>, Ar. <he>שד</he>) they recorded the act (of taking the place afterwards called Cæsarea) as the capture of Migdal Tsor."
+			]
+		}
+	]
+}

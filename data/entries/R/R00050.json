@@ -1,0 +1,22 @@
+{
+	"id": "R00050",
+	"slug": "צביתה",
+	"headword": {
+		"text": "צְבִיתָה"
+	},
+	"page": {
+		"number": 1259,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"R00074\"><he>צְבָת</he></cite>) <i>handling tongs.—</i>Pl. <he>צְבִיתוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 10:14:6\">Y. Erub. X, end, 26ᵈ</cite>, v. <cite ref=\"R00075\"><he>צַבְתָּא</he></cite>."
+			]
+		}
+	]
+}

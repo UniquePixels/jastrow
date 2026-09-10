@@ -1,0 +1,34 @@
+{
+	"id": "A02988",
+	"slug": "ארגיז",
+	"headword": {
+		"text": "אַרְגִּיז"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְגִּיזָא"
+		},
+		{
+			"text": "אַרְגִּיזָה"
+		},
+		{
+			"text": "ארגז"
+		}
+	],
+	"page": {
+		"number": 115,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Argiz, Argiza</i> (<he>ארזק</he> Schr. KGF 228; <i>Eragiza</i>, Ptol. V, 15, 14; modern <i>Razek</i>, Koh. Ar. s. v.). ",
+			"units": [
+				"<cite ref=\"Shabbat 19b\">Sabb. 19ᵇ</cite>; <cite ref=\"Eruvin 63a\">Erub. 63ᵃ</cite> <he>חדתא דא׳</he> Ms. M. a. oth. (v. Rabb. D. S. a. l. notes, ed. <cite ref=\"H01795\"><he>חרתא</he></cite>) Ḥadta (Newtown) [Ḥarta] near Ar. [Rashi: <i>Argiz</i>, pr. n. m. the builder of the town.] <cite ref=\"Gittin 7a:12\">Gitt. 7ᵃ</cite> <cite ref=\"A02988\"><he>ארגיזה</he></cite>, <cite ref=\"A00121\"><he>בי א׳</he></cite>. ",
+				"<cite ref=\"Zevachim 18b:4\">Zeb. 18ᵇ</cite> <cite ref=\"A02988\"><he>ארגיזא</he></cite> (Ms. M. <he>אגוזיא</he>, Ms. R. <he>ארגיסיא</he>, <he>ארגזיא</he>, Ms. K. <he>ארגיזיא</he>; v. Rabb. D. S. a. l.)."
+			]
+		}
+	]
+}

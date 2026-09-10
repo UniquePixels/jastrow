@@ -1,0 +1,37 @@
+{
+	"id": "E00408",
+	"slug": "הילני-1",
+	"headword": {
+		"text": "הִילְנִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 346,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f. (Ἑλένη) <i>Helen</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " mother of king Munbaz, a convert to Judaism. ",
+			"units": [
+				"<cite ref=\"Sukkah 2b\">Succ. 2ᵇ</cite> (Ms. M. <cite ref=\"E00581\"><he>הלני</he></cite>, Var. <he>הלנית</he>, v. Rabb. D. S. a. l. note); <cite ref=\"Tosefta Sukkah 1:1\">Tosef. ib. I, 1</cite>. ",
+				"<cite ref=\"Mishnah Yoma 3:10\">Yoma III, 10</cite>; <cite ref=\"Tosefta Yoma 2:3\">Tosef. ib. II, 3</cite> (not <he>הילנו</he>). ",
+				"<cite ref=\"Mishnah Nazir 3:6\">Naz. III, 6</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " mother of R. Hillel. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 12:5\">Lev. R. s. 12</cite>, end; <cite ref=\"Yalkut Shimoni on Nach 320:1\">Yalk. Jer. 320</cite> <he>ר׳ הילל בר ה׳</he>; (<cite ref=\"Eichah Rabbah 2:1\">Lam. R. to II, 8</cite> <he>ר׳ אילם</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

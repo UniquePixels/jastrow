@@ -1,0 +1,22 @@
+{
+	"id": "B00960",
+	"slug": "בנכי",
+	"headword": {
+		"text": "בִּנְכֵּי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 177,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (√<he>בך</he>, v. <cite ref=\"B00776\"><he>בכי</he></cite>) <i>cavities</i> dug around the vine to receive the water, = h. <cite ref=\"B00134\"><he>בָּדִיד</he></cite> 2). ",
+			"units": ["<cite ref=\"Moed Katan 4b:4\">M. Kat. 4ᵇ</cite>"]
+		}
+	]
+}

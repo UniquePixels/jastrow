@@ -1,0 +1,27 @@
+{
+	"id": "O00637",
+	"slug": "סיירא",
+	"headword": {
+		"text": "סַיָּירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַיָּיארָא"
+		}
+	],
+	"page": {
+		"number": 979,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סוּר</he> I ch.) <i>spy</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 21b:5\">B. Bath. 21ᵇ</cite> <he>יהבי ס׳</he> (the fish) place spies (to look out for bait)."
+			]
+		}
+	]
+}

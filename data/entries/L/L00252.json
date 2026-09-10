@@ -1,0 +1,33 @@
+{
+	"id": "L00252",
+	"slug": "לויא",
+	"headword": {
+		"text": "לֵוָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לֵוָאָה"
+		},
+		{
+			"text": "לֵי׳"
+		}
+	],
+	"page": {
+		"number": 697,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"L00251\">preced.</cite>) <i>Levite</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 4:14\">Targ. O. Ex. IV, 14</cite> (Y. <he>ליואי</he>, corr. acc.).—",
+				"<cite ref=\"Chullin 131a:4\">Ḥull. 131ᵃ</cite>.—Pl. <cite ref=\"L00252\"><he>לֵוָיֵא</he></cite>, <he>לֵוָאֵי</he>, <cite ref=\"L00252\"><he>לֵי׳</he></cite>. [<cite ref=\"Ezra 6:16\">Ezra VI, 16</cite>.]—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 44:15\">Targ. Ez. XLIV, 15</cite>: a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 5:2:19\">Y. Maas. Sh. V, 56ᵇ</cite> bot.; a. e."
+			]
+		}
+	]
+}

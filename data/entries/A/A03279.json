@@ -1,0 +1,29 @@
+{
+	"id": "A03279",
+	"slug": "אשותא-2",
+	"headword": {
+		"text": "אַשְׁוָתָא"
+	},
+	"page": {
+		"number": 127,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", const. <cite ref=\"A03267\"><he>אַשְׁוַת</he></cite> f. pl. (<cite ref=\"U00391\"><he>שוי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>meshes</i>, trnsf. <i>tricks</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 25:11\">Targ. Is. XXV, 11</cite> (h. text <he>אָרְבּוֹת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"A03300\"><he>אַשְׁיְתָא</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "J00134",
+	"slug": "יהורם",
+	"headword": {
+		"text": "יְהוֹרָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוֹרָם"
+		}
+	],
+	"page": {
+		"number": 566,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Jehoram, Joram</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Ahab, king of Israel. ",
+			"units": [
+				"<cite ref=\"Berakhot 10a\">Ber. 10ᵃ</cite>. ",
+				"<cite ref=\"Shemot Rabbah 31:4\">Ex. R. s. 31</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " son of Joshafat, king of Judah. ",
+			"units": [
+				"<cite ref=\"Horayot 11b:14\">Hor. 11ᵇ</cite>, v. <cite ref=\"J00118\"><he>יֵהוּא</he></cite>"
+			],
+			"label": "2"
+		}
+	]
+}

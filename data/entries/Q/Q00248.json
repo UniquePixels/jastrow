@@ -1,0 +1,29 @@
+{
+	"id": "Q00248",
+	"slug": "פומבדיתא",
+	"headword": {
+		"text": "פּוּמְבְּדִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּם בְּדִיתָא"
+		}
+	],
+	"page": {
+		"number": 1142,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Pumb’ditha</i> (<i>Mouth of B’ditha</i>, v. <cite ref=\"B00149\"><he>בְּדִיתָא</he></cite>), seat of a great Jewish academy, in Babylonia. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 17b\">Snh. 17ᵇ</cite>, a. e. <he>סבי דפ׳</he> the elders (scholars) of P. (Jehudah and ʿEua); <he>חריפי דפ׳</he>, v. <cite ref=\"H01686\"><he>חָרִיף</he></cite>; a. v. fr.—Denom. <cite ref=\"Q00248\"><he>פּוּמְבְּדִיתָאָה</he></cite> m. <i>Pumb’dithean</i>. ",
+				"<cite ref=\"Chullin 127a:15\">Ḥull. 127ᵃ</cite> <he>פ׳ לווייך וכ׳</he> (not <cite ref=\"Q00248\"><he>פומבדיתא</he></cite>) if a Pumb’dithean joins thee (on the road), change thy inn (lest he rob thee).—Pl. <cite ref=\"Q00248\"><he>פוּמְבְּדִיתָאֵי</he></cite>. ",
+				"<cite ref=\"Shabbat 153a:3\">Sabb. 153ᵃ</cite>"
+			]
+		}
+	]
+}

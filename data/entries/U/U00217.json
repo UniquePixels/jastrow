@@ -1,0 +1,22 @@
+{
+	"id": "U00217",
+	"slug": "שגושא",
+	"headword": {
+		"text": "שָׁגוֹשָׁא"
+	},
+	"page": {
+		"number": 1521,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00244\"><he>שְׁגַשׁ</he></cite>) <i>disturber, mischief-maker</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 26:20\">Targ. Prov. XXVI, 20</cite> Ms. (ed. <cite ref=\"U00216\"><he>שִׁגּוּשָׁא</he></cite>; h. text <he>נרגן</he>)."
+			]
+		}
+	]
+}

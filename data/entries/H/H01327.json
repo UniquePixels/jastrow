@@ -1,0 +1,28 @@
+{
+	"id": "H01327",
+	"slug": "חנקא",
+	"headword": {
+		"text": "חֲנָקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲנֵיקָא"
+		}
+	],
+	"page": {
+		"number": 485,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01326\">preced.</cite> wds.), pl. <he>חֲנָקִין</he>, <he>חֲנֵיקִ׳</he> <i>ropes</i> or <i>chains</i> around the neck. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:20\">Targ. Jer. II, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 27:2\">Ib. XXVII, 2</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "U00676",
+	"slug": "שחן-1",
+	"headword": {
+		"text": "שָׁחַן"
+	},
+	"page": {
+		"number": 1549,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>שחם</he>) <i>to be hot, parched</i>. <i>Part. pass.</i> <cite ref=\"U00622\"><he>שָׁחוּן</he></cite>, f. <cite ref=\"U01133\"><he>שְׁחוּנָה</he></cite> (sub. <cite ref=\"A03230\"><he>ארץ</he></cite>) <i>parched, scabby soil</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 5:2:2\">Y. Yoma V, 42ᶜ</cite> top; Bab. ",
+				"<cite ref=\"Yoma 53b\">ib. 53ᵇ</cite>, a. e., v. <cite ref=\"C01415\"><he>גָּשַׁם</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁחִין"],
+			"senses": [
+				{
+					"gloss": "<i>to heat</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 82a:11\">B. Kam. 82ᵃ</cite> <he>משביע ומַשְׁחִין וכ׳</he> it (garlic) satisfies, heats (the body) &c."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

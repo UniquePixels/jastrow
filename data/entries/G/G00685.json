@@ -1,0 +1,71 @@
+{
+	"id": "G00685",
+	"slug": "זרז-1",
+	"headword": {
+		"text": "זָרַז"
+	},
+	"page": {
+		"number": 412,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (reduplic. of <he>זר</he>, v. <cite ref=\"G00737\"><he>זרר</he></cite>; cmp. <he>אזר</he>) <i>to be strong, vigorous, quick</i>, v. <cite ref=\"G00670\"><he>זָרַד</he></cite>.—Part. pass. <cite ref=\"G00677\"><he>זָרוּז</he></cite>, v. <cite ref=\"G00703\"><he>זָרִיז</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זֵירֵז"],
+			"senses": [
+				{
+					"gloss": "<i>to strengthen, to make active and ready, to instigate</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 89a:17\">Pes. 89ᵃ</cite> <he>כדי לזַרְזָן … קאמר</he> he said so in order to awaken their emulation in religious acts. ",
+						"<cite ref=\"Niddah 31a\">Nidd. 31ᵃ</cite>; <cite ref=\"Yoma 47a\">Yoma 47ᵃ</cite> <he>זֵירַזְתָּנִי</he>, v. <cite ref=\"G00696\"><he>זָרָה</he> I</cite>.—<i>Part. pass.</i> <he>מְזוֹרָז</he> "
+					],
+					"label": "1",
+					"senses": [
+						{
+							"gloss": " <i>strong, vigorous</i>. Nidd. l. c.; <cite ref=\"Sanhedrin 70b:4\">Snh. 70ᵇ</cite>; a. e., v. <cite ref=\"L00095\"><he>לָבַן</he> II</cite>.—",
+							"units": [],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>active, zealous to do good, valiant</i>. ",
+							"units": [
+								"<cite ref=\"Makkot 23a:11\">Macc. 23ᵃ</cite> <he>אין מְזָרְזִין אלא למְזוֹרָזִין</he> Ar. (ed. <he>מזורז</he>; some ed. <he>מזרז</he>, corr. acc.) only the strong-minded it is worth encouraging; <cite ref=\"Yalkut Shimoni on Torah 937\">Yalk. Deut. 937</cite>; <cite ref=\"Sifrei Bamidbar 1:2\">Sifré Num. 1</cite> <he>למְזוֹרָזִים</he>; a. e."
+							],
+							"label": "b"
+						}
+					]
+				},
+				{
+					"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to admonish, be severe</i>. Tanḥ. Korah 6 <he>התחיל מְזָרֵז בהן</he> (<cite ref=\"Bamidbar Rabbah 18:9\">Num. R. s. 18</cite> <he>לדבר להם</he>) he began to speak to them earnestly.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזְדָּרֵז"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִזְדָּרֵז"],
+			"senses": [
+				{
+					"gloss": "<i>to be alert, zealous, conscientious</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> (ref. to <cite ref=\"M00381\"><he>מהיר</he></cite>, <cite ref=\"Proverbs 22:29\">Prov. XXII, 29</cite>) <he>נִזְדָּרַזְתָּ במלאכתך</he> thou hast been zealous (conscientious) in thy own occupation. Tanḥ. P’kudé 11; a. fr.—V. <cite ref=\"G00703\"><he>זָרִיז</he></cite>.—3) <i>to be armed</i>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 785\">Yalk. Num. 785</cite>, v. <cite ref=\"G00686\">next w.</cite>"
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

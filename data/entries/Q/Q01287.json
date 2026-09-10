@@ -1,0 +1,33 @@
+{
+	"id": "Q01287",
+	"slug": "פסילא",
+	"headword": {
+		"text": "פְּסִילָא"
+	},
+	"page": {
+		"number": 1195,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. 1) as <cite ref=\"Q01286\">preced.</cite> 1. ch. ",
+			"units": []
+		},
+		{
+			"gloss": " as <cite ref=\"Q01286\">preced.</cite> 1.—Pl. <cite ref=\"Q01292\"><he>פְּסִילַיָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:58\">Targ. Ps. LXXVIII, 58</cite>, v. <cite ref=\"Q01329\"><he>פִּסְלָא</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 38:13\">Gen. R. s. 38</cite>, end <he>ותבריהון לכלהון פ׳</he> (not <cite ref=\"Q01287\"><he>פסילא</he></cite>) and broke all the idols."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"Q01243\"><he>פְּסוּלָא</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:27\">Targ. Ps. XVIII, 27</cite> (Ms. <cite ref=\"Q01287\"><he>פְּסִילָן</he></cite> f. pl.); <cite ref=\"Targum Jonathan on II Samuel 22:27\">Targ. II Sam. XXII, 27</cite> <cite ref=\"Q01243\"><he>פְּסוּלָא</he></cite>.—Pl. as ab. ",
+				"<cite ref=\"Eichah Rabbah 3:23\">Lam. R. to III, 45</cite> <he>מאסייא פ׳</he> (some ed. <he>פְּסִילָאַיָּיא</he>), v. <cite ref=\"M00028\"><he>מְאִיס</he></cite>.—[V. <cite ref=\"Q01292\"><he>פְּסִילְיָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

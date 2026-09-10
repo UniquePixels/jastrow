@@ -1,0 +1,54 @@
+{
+	"id": "A00914",
+	"slug": "אוש-1",
+	"headword": {
+		"text": "אֲוַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲוַושׁ"
+		}
+	],
+	"page": {
+		"number": 35,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to blow vehemently, make noise, shout</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86a:8\">B. Mets. 86ᵃ</cite> <he>נשב זיקא וא׳ וכ׳</he> the wind blew and howled between the branches. ",
+				"<cite ref=\"Berakhot 50a:14\">Ber. 50ᵃ</cite> <he>וכ׳ איידי דאוושו</he> because all shouted, the prayer was not heard. ",
+				"<cite ref=\"Berakhot 50a:16\">Ib.</cite> <he>אוושו כ״ע ברכו</he> they all shouted <i>‘bar’khu’</i>.—",
+				"<cite ref=\"Eruvin 97b:3\">Erub. 97ᵇ</cite> <he>אוושא מילתא</he> the thing grows loud, becomes known. ",
+				"<cite ref=\"Chullin 46b:10\">Ḥull. 46ᵇ</cite> <he>ריאה דא׳</he> lungs which give out a sound when blown up (indicating perforation). ",
+				"<cite ref=\"Berakhot 58a:10\">Ber. 58ᵃ</cite> <he>כי קא אוושא</he> (Ms. M. <he>שמעו קל א׳</he>) when shouting was heard."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to swell, to be large, fulsome, lengthy</i> (in wording). ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 35a:5\">R. Hash. 35ᵃ</cite> <he>משום דאוושי ברכות</he> (Ms. M. <he>קראי …</he>) because the benedictions are numerous and lengthy. ",
+				"<cite ref=\"Nedarim 2b:13\">Ned. 2ᵇ</cite> <he>הלין דא׳ וכ׳ משום</he> because the last named propositions are lengthy, he explained first what he had commenced with."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַוֵּושׁ</he>, (√<he>אוו</he>, v. <cite ref=\"A00577\"><he>אָוָוז</he></cite>; cmp. <cite ref=\"A00796\"><he>אוף</he></cite>, <cite ref=\"A02265\"><he>אנף</he></cite>, <cite ref=\"A02770\"><he>אפף</he></cite>, <he>אופי</he>, <cite ref=\"A00783\"><he>אוסי</he></cite>, <he>אבב</he>) ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

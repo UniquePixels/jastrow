@@ -1,0 +1,67 @@
+{
+	"id": "H00041",
+	"slug": "חבט-2",
+	"headword": {
+		"text": "חֲבַט"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבֵיט"
+		}
+	],
+	"page": {
+		"number": 417,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00040\">same</cite><i>to knock; to strike, punish</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 24:20\">Targ. O. Deut. XXIV, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 6:11\">Targ. Jud. VI, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:27\">Targ. Is. XXVIII, 27</cite> (Regia: <he>מְחַבְּטִין</he> <i>Pa.</i>).—",
+				"<cite ref=\"Aramaic Targum to Proverbs 28:3\">Targ. Prov. XXVIII, 3</cite> <he>מטרא חָבֵיטָא</he> (not <cite ref=\"H00061\"><he>חֲבִיטָא</he></cite>) a prostrating rain (h. text <cite ref=\"O00461\"><he>סחף</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 17:2:3\">Y. Sabb. XVII, 16ᵇ</cite> top <he>דו חָבֵיט ביה</he>; <cite ref=\"Jerusalem Talmud Beitzah 1:6:2\">Y. Bets. I, 60ᶜ</cite> <cite ref=\"H00041\"><he>חֲבַט</he></cite>, v. <cite ref=\"G00349\"><he>זַיָּירָא</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 7\">Gen. R. s. 7</cite>, a. e. <he>חֲבוֹט חבטך</he>, v. <cite ref=\"H00044\"><he>חֲבָטָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 58a:11\">B. Bath. 58ᵃ</cite> <he>חֲבוֹטוּ</he> (not <he>חובטו</he>), v. <cite ref=\"H00061\"><he>חֲבִיטָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to throw down</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:5:2\">Y. Snh. VI, 23ᶜ</cite> top <he>חַבְטִין תורא בחילא</he> Ash. to <cite ref=\"Chullin 51a\">Ḥull. 51ᵃ</cite> (ed. <he>בחייליה</he>) threw an ox down with force (before slaughtering).—<i>Part. pass.</i> <cite ref=\"H00061\"><he>חְבִיט</he></cite>, f. <cite ref=\"H00061\"><he>חֲבִיטָא</he></cite> <i>prostrated</i>. ",
+				"<cite ref=\"Ketubot 10a:8\">Keth. 10ᵃ</cite> <he>מברכתא ח׳ ליה</he> is Mabrakhta (i.e. all the women of ill repute of M.) prostrated before him (so that he is an expert in such matters)? [<cite ref=\"Jerusalem Talmud Shabbat 8:4:4\">Y. Sabb. VIII, 11ᵇ</cite> bot. <he>בחביט</he>, v. preced.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַבֵּיט"],
+			"senses": [
+				{
+					"gloss": "<i>to shake, agitate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. Num. XXV, 8</cite> (ed. Amst. Pe.) he shook (the spear). ",
+						"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite>.—",
+						"<cite ref=\"Sukkah 44b:5\">Succ. 44ᵇ</cite> <he>ח׳ ח׳ ולא וכ׳</he> he shook it repeatedly but said no benediction."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיחַבֵּט"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"H00040\">preced.</cite> <i>Nif.</i> ",
+					"units": [
+						"<cite ref=\"Ketubot 36b:2\">Keth. 36ᵇ</cite> <he>כולהו במי חַבּוּטֵי מִיחַבְּטֵי</he> all girls (even if not blind) may receive a shock by falling."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

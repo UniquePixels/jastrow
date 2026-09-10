@@ -1,0 +1,41 @@
+{
+	"id": "A00870",
+	"slug": "אורזילא",
+	"headword": {
+		"text": "אוּרְזִילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּרְזְלָא"
+		}
+	],
+	"page": {
+		"number": 33,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00973\"><he>אזל</he></cite> with anorg. <cite ref=\"T00000\"><he>ר</he></cite>; Syr. <he>עוזילא</he>)",
+			"units": []
+		},
+		{
+			"gloss": "<i>a slender young animal</i>, esp. <i>the young of the gazelle</i> or any similar animal (Reëm). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:9\">Targ. Cant. II, 9</cite> <he>א׳ דאיילא</he> (h. text <cite ref=\"P01075\"><he>עֹפֶר</he></cite>). ",
+				"<cite ref=\"Zevachim 113b:8\">Zeb. 113ᵇ</cite> <he>א׳ דרימא בת יומא</he> (read <he>בר</he>); <cite ref=\"Bava Batra 73b:2\">B. Bath. 73ᵇ</cite> (corr. as Zeb. l. c.; v. Rabb. D. S. a. l. note) a young antilope one day old. ",
+				"<cite ref=\"Bamidbar Rabbah 11:2\">Num. R. s. 11</cite>; <cite ref=\"Shir HaShirim Rabbah 2:9\">Cant. R. to II, 9</cite>; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>א׳ דאיילתא</he> (<he>עוּרְזִילֵיהוֹן וכ׳</he> pl.) young deer.—Pl. <he>אוּרְזִילִין</he>, <he>אוֹרְ׳</he>; <he>אַרְזִילֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:5\">Targ. Cant. IV, 5</cite>; <cite ref=\"Aramaic Targum to Song of Songs 7:4\">VII, 4</cite>. ",
+				"<cite ref=\"Bava Batra 74b:5\">B. Bath. 74ᵇ</cite> <he>ארזילי דימא</he> (Ms. M. <he>אוזילי</he>) sea-gazelles.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hammock</i>, v. <cite ref=\"A03057\"><he>אַרְזְלָא</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

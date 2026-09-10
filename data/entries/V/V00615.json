@@ -1,0 +1,30 @@
+{
+	"id": "V00615",
+	"slug": "תלסר",
+	"headword": {
+		"text": "תַּלְסַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּלְאָסָר"
+		}
+	],
+	"page": {
+		"number": 1673,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Talsar, Talasar</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 14:1\">Targ. Y. Gen. XIV, 1</cite>; <cite ref=\"Targum Jonathan on Genesis 14:9\">Targ. Y. I ib. 9</cite> (ed. Vien. <cite ref=\"V00615\"><he>תְּלָסַר</he></cite>; h. text <he>אלסר</he>, v. Schr. KAT<sup>2</sup>, p. 135). ",
+				"<cite ref=\"Targum Jonathan on Genesis 10:12\">Targ. Y. ib. X, 12</cite> (h. text <cite ref=\"T00857\"><he>רסן</he></cite>).—",
+				"<cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite> (expl. <cite ref=\"T00857\"><he>רסן</he></cite>) <cite ref=\"V00641\"><he>תלתסר</he></cite> (prob. to be read: <cite ref=\"V00571\"><he>תַּלְאָסָר</he></cite>).—",
+				"<cite ref=\"Targum Jonathan on Isaiah 37:12\">Targ. Is. XXXVII, 12</cite> <cite ref=\"V00615\"><he>תְּלַסָר</he></cite> (ed. Wil. <cite ref=\"V00624\"><he>תְּלַשָׂר</he></cite>; h. text <cite ref=\"V00624\"><he>תְּלַשָּׂר</he></cite>); <cite ref=\"Targum Jonathan on II Kings 19:12\">Targ. II Kings XIX, 12</cite> (h. text <cite ref=\"V00624\"><he>תְּלַאשָׂר</he></cite>; v. Schr. KAT<sup>2</sup>, p. 327)."
+			]
+		}
+	]
+}

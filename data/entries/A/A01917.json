@@ -1,0 +1,23 @@
+{
+	"id": "A01917",
+	"slug": "אלמין",
+	"headword": {
+		"text": "אִלְמֵין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 71,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. corrupt., for <cite ref=\"L00482\"><he>לִימִין</he></cite> λιμὴν) <i>harbor</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 2:4:2\">Y. Succ. II, beg. 52ᵈ</cite> <he>בנתונה בא׳</he> when the ship lies in port."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "J00033",
+	"slug": "יבבה",
+	"headword": {
+		"text": "יַבָּבָה"
+	},
+	"page": {
+		"number": 560,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. h. <cite ref=\"J00032\">same</cite>, esp. <i>trembling, disconnected note</i> (<i>staccato</i>).—Pl. <he>יַבָּבוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 4:9\">R. Hash. IV, 9</cite> the value of a <i>T’ruah</i> <he>כשלש י׳</he> (<cite ref=\"V00967\"><he>תרועה</he></cite>) is equal to three disconnected short notes. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 32:2\">Pirké d’R. El. ch. XXXII</cite>; <cite ref=\"Yalkut Shimoni on Torah 102:11\">Yalk. Gen. 102</cite>."
+			]
+		}
+	]
+}

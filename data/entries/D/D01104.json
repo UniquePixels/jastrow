@@ -1,0 +1,32 @@
+{
+	"id": "D01104",
+	"slug": "דרם-1",
+	"headword": {
+		"text": "דָּרַם"
+	},
+	"page": {
+		"number": 324,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D00903\"><he>הִדְרִים</he></cite> (denom. of <cite ref=\"D01055\"><he>דָּרוֹם</he></cite>) <i>to turn southward</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 25b:8\">B. Bath. 25ᵇ</cite> <he>יַדְרִים</he> shall face South(-East) in prayer.—<i>Part. Hof</i>. <he>מוּדְרָם</he> <i>exposed to the southern sun;</i> pl. f. <he>מוּדְרָמוֹת</he>. ",
+						"<cite ref=\"Menachot 85a\">Men. 85ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

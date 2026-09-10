@@ -1,0 +1,36 @@
+{
+	"id": "E00808",
+	"slug": "הר",
+	"headword": {
+		"text": "הַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶרֶר"
+		}
+	],
+	"page": {
+		"number": 365,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>הרר</he>)<i>mound, mountain;</i> trnsf. <i>eminent person</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 2:1\">Midd. II, 1</cite>, a. fr. <he>הַר הבית</he> the Temple mount. ",
+				"<cite ref=\"Yevamot 17a:7\">Yeb. 17ᵃ</cite> (play on <he>ה̇ר̇פ̇נ̇יא</he>) <he>ה̇ר̇ שהכל פ̇ונ̇ין בו</he> a hill to which all turn (whose spurious descent prevents them from getting wives elsewhere); a. v. fr.—",
+				"<cite ref=\"Chullin 39b:19\">Ḥull. 39ᵇ</cite> (in Chald. diction) <he>רישיך והר</he> here is thy head and here the mountain (a colloquial phrase for compelling one to give up a bargain).—",
+				"<cite ref=\"Shemot Rabbah 28:2\">Ex. R. s. 28</cite> (ref. to <cite ref=\"Exodus 19:3\">Ex. XIX, 3</cite>) <he>בזכות הה׳</he> for the merit of the distinguished one (Abraham), <he>ואין הה׳ אלא אבות</he> <i>har</i> means the patriarchs (ref. to <cite ref=\"Micah 6:2\">Mic. VI, 2</cite>). ",
+				"<cite ref=\"Sanhedrin 107a:2\">Snh. 107ᵃ</cite> <he>ה׳ שבכם</he> the most prominent of you; a. fr.—[For proper nouns composed with <cite ref=\"E00808\"><he>הר</he></cite>, v. respective determinants.]—Pl. <cite ref=\"T00374\"><he>הָרִים</he></cite>, <cite ref=\"E00904\"><he>הֲרָרִים</he></cite>. ",
+				"<cite ref=\"Tamid 32a:72\">Tam. 32ᵃ</cite>, a. e. <he>הָרֵי חושך</he>, v. <cite ref=\"H00490\"><he>חו̇שֶׁךְ</he></cite>.—",
+				"<cite ref=\"Sanhedrin 24a:8\">Snh. 24ᵃ</cite> <he>עוקר הרי הרים</he> uprooting the highest mountains (a figure for dialectical ingenuity). ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:6:4\">Y. Yeb. I, 3ᵃ</cite> bot. <he>בין שני הֶהָ׳ וכ׳</he> between the two high mountains (great scholars). ",
+				"<cite ref=\"Shemot Rabbah 15:1\">Ex. R. s. 15</cite> <he>ואין ה׳ אלא אבות</he>, v. supra.—",
+				"<cite ref=\"Mishnah Chagigah 1:8\">Ḥag. I, 8</cite> <he>כה׳ תלויין בשערה</he> like mountains suspended on a hair (a slender Bible text for numerous Talmudic laws); a. v. fr."
+			]
+		}
+	]
+}

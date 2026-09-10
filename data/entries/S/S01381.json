@@ -1,0 +1,23 @@
+{
+	"id": "S01381",
+	"slug": "קלסא",
+	"headword": {
+		"text": "קַלָּסָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1379,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"S01381\"><he>קַלָּסָה</he></cite> , v. <cite ref=\"S01377\"><he>קָלַס</he></cite>) <i>shouting, derision</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 44:14\">Targ. Ps. XLIV, 14</cite> Ms. (ed. <cite ref=\"S01369\"><he>קלנא</he></cite>)."
+			]
+		}
+	]
+}

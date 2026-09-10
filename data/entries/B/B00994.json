@@ -1,0 +1,23 @@
+{
+	"id": "B00994",
+	"slug": "בסימיא",
+	"headword": {
+		"text": "בַּסִּימַיָּא"
+	},
+	"page": {
+		"number": 178,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>בסם</he>; = h. <he>חֲנֻטִים</he>) <i>embalming process</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 50:3\">Targ. Y. Gen. L, 3</cite>."
+			]
+		}
+	]
+}

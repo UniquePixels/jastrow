@@ -1,0 +1,29 @@
+{
+	"id": "Q01111",
+	"slug": "פלפול",
+	"headword": {
+		"text": "פִּלְפּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 1184,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01114\"><he>פִּלְפֵּל</he></cite>) <i>discussion, debate</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 145b:8\">B. Bath. 145ᵇ</cite> <cite ref=\"Q01377\"><he>בעל פ׳</he></cite> master in dialectics. ",
+				"<cite ref=\"Pirkei Avot 6\">Ab. VI</cite> <he>פ׳ התלמידים</he> the debates among scholars. ",
+				"<cite ref=\"Temurah 16a:39\">Tem. 16ᵃ</cite> <he>החזירן</he> … <he>מתוך פִּילְפּוּלוֹ</he> Othniel … restored them (the lost interpretations of the Law) through his reasoning; a. e."
+			]
+		}
+	]
+}

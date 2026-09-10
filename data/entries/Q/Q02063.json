@@ -1,0 +1,155 @@
+{
+	"id": "Q02063",
+	"slug": "פשט-1",
+	"headword": {
+		"text": "פָּשַׁט"
+	},
+	"page": {
+		"number": 1245,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to stretch, straighten</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:1\">Sabb. I, 1</cite>, sq. <he>פ׳ העני את ידו וכ׳</he> if the recipient puts his hand forth to within (the house). ",
+				"<cite ref=\"Pesachim 118b\">Pes. 118ᵇ</cite>, a. e. <he>שפּוֹשְׁטִין</he>, v. <cite ref=\"Q01222\"><he>פַּס</he> II</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>לא פָשְׁטוּ ידיהם במצות</he> they (the Sodomites) never stretched their hands forth for good deeds (charity); <cite ref=\"Eichah Rabbah 4\">Lam. R. to IV, 6</cite>; <cite ref=\"Yalkut Shimoni on Nach 351:1\">Yalk. Ez. 351</cite>. ",
+				"<cite ref=\"Berakhot 3b\">Ber. 3ᵇ</cite>; <cite ref=\"Sanhedrin 16a:20\">Snh. 16ᵃ</cite> <he>לכו פִשְׁטוּ וכ׳</he>, v. <cite ref=\"C00170\"><he>גְּדוּד</he></cite>. ",
+				"<cite ref=\"Mishnah Menachot 1:2\">Men. I, 2</cite> <he>פושט את אצבעותיו וכ׳</he> he stretches his fingers so as to reach his wrist. ",
+				"<cite ref=\"Vayikra Rabbah 2:9\">Lev. R. s. 2</cite> <he>פושטין לו יד</he> we must reach forth our hands to him, v. <cite ref=\"K00873\"><he>כָּנָף</he></cite>. ",
+				"<cite ref=\"Mishnah Ketubot 13:5\">Keth. XIII, 5</cite> <he>הפוסק … ופ׳ לו את הרגל</he> if a man promises a certain amount to his intended son-in-law, and shows him the foot, i.e. refuses to give it to him; a. v. fr.—",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 3:3:1\">Y. R. Hash. III, 58ᵈ</cite> top (ref. to <he>פשוט</he>, ib. III, 3) <he>כדי שיִפְשְׁטוּ וכ׳</he> (or <he>שיְפַשְּׁטוּ</he>, <i>Pi.</i>) (the horn is straight,) intimating that they must straighten their hearts through repentance.—Part. pass. <cite ref=\"Q02054\"><he>פָּשׁוּט</he></cite>, q. v."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to strip</i>; (sub. <he>בגדיו</he>) <i>to undress</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:4\">Yoma III, 4</cite>; <cite ref=\"Mishnah Yoma 3:6\">6</cite>. ",
+				"<cite ref=\"Yoma 31b:9\">Ib. 31ᵇ</cite> <he>פּוֹשֵׁט … מקדש</he> he (the high priest) undresses first and then sanctifies (washes his hands and feet). ",
+				"<cite ref=\"Yoma 32a:9\">Ib. 32ᵃ</cite> <he>כלום אדם פושט אלא וכ׳</he> can a man put off anything except what he has put on? <cite ref=\"Mishnah Tamid 1:1\">Tam. I, 1</cite>; a. fr.—Part. pass. <cite ref=\"Q02054\"><he>פָּשׁוּט</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:6:3\">Y. Yoma III, 40ᶜ</cite> bot. <he>אחת פ׳ ואחת לבוש וכ׳</he> whether he undresses or dresses, in either case the sanctification follows the act."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to make plain, to explain</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite>; Tanḥ. Ḥuck. 1 <he>היה יושב ופושט וכ׳</he> was sitting at the gate of his town and explaining (teaching); (<cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite> <he>ודורש</he>). ",
+				"<cite ref=\"Shemot Rabbah 47\">Ex. R. s. 47</cite> <he>היה למד … ופושט אותה וכ׳</he> he learned (the Torah) in day-time and explained it to himself at night; a. fr.—Part. pass. as ab. ",
+				"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite> (ref. to <cite ref=\"Psalms 34:13\">Ps. XXXIV, 13</cite>) <he>כל ימי … היכן הוא פ׳</he> all my days I have read this verse (question), but I never knew where it is answered."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (neut. verb) <i>to spread, be published</i>. ",
+			"units": [
+				"<cite ref=\"Horayot 3b:2\">Hor. 3ᵇ</cite> <he>עד שתִּפְשׁוֹט הוראה בכל וכ׳</he> until the decision is spread (adopted) in the whole congregation of Israel. ",
+				"<cite ref=\"Avodah Zarah 36a:11\">Ab. Zar. 36ᵃ</cite>; a. fr."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּישֵּׁט"],
+			"senses": [
+				{
+					"gloss": "<i>to stretch, straighten out</i>. Y. Snh. III, 21ᵃ bot. <he>התחיל מְפַשֵּׁט וכ׳</he> (interch. with <cite ref=\"Q02063\"><he>פישט</he></cite>) he began to put forth his hands and deal in fruits of the Sabbatical year. ",
+					"units": [
+						"<cite ref=\"Tosefta Negaim 1:8\">Tosef. Neg. I, 8</cite> <he>מְפַשְּׁטִין את קומטיו וכ׳</he> the creases are straightened out, and then the leprous spot is examined; a. e.—",
+						"<cite ref=\"Tosefta Niddah 6:4\">Tosef. Nidd. VI, 4</cite>, v. infra.—Part. pass. <he>מְפוּשָּׁט</he>. Y. Naz. IX, 57ᵈ <he>רגליו מְפוּשָּׁטוֹת וידו וכ׳</he> if the corpse is found with its feet stretched and its hands on the heart, opp. <cite ref=\"S01490\"><he>קמצוץ</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to strip, take off</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Kelim Kamma 4:17\">Tosef. Kel. B. Kam. IV, 17</cite> <he>משיְפַשֵּׁט את חלוקו</he> (not <he>חלוקן</he>) from the time that the coat (the plaster of the stove) is taken off."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְשַׁט"],
+			"senses": [
+				{
+					"gloss": "<i>to be straightened out, be unfolded, become flat</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 26:2\">Kel. XXVI, 2</cite> <he>נ׳ טהור</he> when it (the bag) is straightened out (so as to be a plain piece of leather, v. <cite ref=\"Q02054\"><he>פָּשׁוּט</he></cite>), it is not susceptible to uncleanness. Tosef. Neg. l. c. <he>כקמוט שנ׳</he> like a creased garment that has been straightened out; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be stripped</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 14:3\">Pirké d’R. El. ch. XIV</cite> <he>נ׳ עור צפורן וכ׳</he> the horny skin was taken from Adam, and he saw himself naked. ",
+						"<cite ref=\"Midrash Tehillim 92\">Midr. Till. to Ps. XCII</cite>, v. infra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִפְשִׁיט"],
+			"senses": [
+				{
+					"gloss": "<i>to strip, flay</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Pesachim 5:9\">Pes. V, 9</cite> <he>כיצד תולין ומַפְשִׁיטִין</he> how did they suspend and flay (the Passover lamb)? <cite ref=\"Mishnah Pesachim 5:9\">Ib.</cite> <he>מי … ולהַפְשִׁיט</he> he that could find no place where to suspend and flay. ",
+						"<cite ref=\"Mishnah Tamid 4:2\">Tam. IV, 2</cite>. ",
+						"<cite ref=\"Pesikta Rabbati 28:1\">Pesik. R. s. 28</cite> <he>הִפְשִׁיטוּ את עבדיהם וכ׳</he> they undressed their men servants and maid servants and presented them &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to shed</i> the skin. Pirké d’R. El. l. c. <he>שיהא מַפְשִׁיט את עורו וכ׳</he> that it (the serpent) should shed its skin once in seven years. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 92\">Midr. Till. to Ps. XCII</cite> <he>מן העור שה׳ הנחש וכ׳</he> ed. Bub. (oth. ed. <he>שנפשט</he>) of the skin which the serpent shed the Lord made garments of honor &c.; <cite ref=\"Pirkei DeRabbi Eliezer 20:9\">Pirké d’R. El. ch. XX</cite>; <cite ref=\"Yalkut Shimoni on Torah 34\">Yalk. Gen. 34</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּפְשַׁט"],
+			"senses": [
+				{
+					"gloss": "<i>to be stripped</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 11:3\">Zeb. XI, 3</cite> <he>עד שלא ה׳</he> before the hide was taken off. ",
+						"<cite ref=\"Zevachim 93b\">Ib. 93ᵇ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְפַּשֵּׁט"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּשֵּׁט"],
+			"senses": [
+				{
+					"gloss": "<i>to be straightened, become even; to flatten</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 9a:13\">Ḥag. 9ᵃ</cite> <he>חיגר … ונ׳ וכ׳</he> if he was lame on the first day and became straight &c. Y. Yeb. I, 2ᵈ bot. <he>עד שתִּתְפַּשֵּׁט הכף</he>, v. <cite ref=\"K00980\"><he>כַּף</he></cite>; <cite ref=\"Tosefta Niddah 6:4\">Tosef. Nidd. VI, 4</cite> <he>עד שתְּפַשֵּׁט את וכ׳</he>. ",
+						"<cite ref=\"Bava Batra 120a:2\">B. Bath. 120ᵃ</cite> <he>נִתְפַּשְּׁטוּ הקמטין וכ׳</he> the wrinkles became even, and her beauty returned &c.; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

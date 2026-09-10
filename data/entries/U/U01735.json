@@ -1,0 +1,65 @@
+{
+	"id": "U01735",
+	"slug": "שפי-2",
+	"headword": {
+		"text": "שְׁפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁפָא"
+		}
+	],
+	"page": {
+		"number": 1615,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01734\">same</cite><i>to crush, rub, grind</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 56:2\">Targ. Ps. LVI, 2</cite> (h. text <cite ref=\"U00041\"><he>שאף</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 56:3\">Ib. 3</cite>.—Part. pass. <cite ref=\"U00045\"><he>שָׁפֵי</he></cite>; f. <he>שַׁפְיָא</he>; pl. <he>שַׁפְיָין</he>, <he>שַׁפְיָן</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 51:19\">Ib. LI, 19</cite> (h. text <he>נדכה</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 33:21\">Targ. Job XXXIII, 21</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to plane, smooth, paste over</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 75b:16\">Yeb. 75ᵇ</cite> <he>שַׁפְיֵיה וכ׳</he> he trimmed it (cut off the protuberances) like a writing reed. ",
+				"<cite ref=\"Shabbat 98b\">Sabb. 98ᵇ</cite>, v. <cite ref=\"I00780\"><he>טָרִיז</he></cite> (v. <cite ref=\"U00642\"><he>שְׁפֵי</he> II</cite>). ",
+				"<cite ref=\"Bava Kamma 98a\">B. Kam. 98ᵃ</cite> Ms. M., v. <cite ref=\"U00488\"><he>שׁוּף</he></cite> II ch. ",
+				"<cite ref=\"Sanhedrin 109b:9\">Snh. 109ᵇ</cite> <he>שַׁפְיוּהָ דובשא וכ׳</he> they smeared her body with honey, and placed her on the roof &c.; a. e.—<i>Part. pass.</i> as ab, <i>smooth, level</i>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 15:19\">Targ. Prov. XV, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 31:2\">Targ. Y. Gen. XXXI, 2</cite>; <cite ref=\"Targum Jonathan on Genesis 31:5\">5</cite> (<i>friendly</i>).—",
+				"<cite ref=\"Sanhedrin 109a:7\">Snh. 109ᵃ</cite> <he>בור שָׁאפֵי</he>, v. <cite ref=\"U01734\">preced.</cite>"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁפֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to crush</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 1:10\">Targ. Esth. I, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 51:10\">Targ. Ps. LI, 10</cite> <he>דשַׁפְּיֵיתָא</he> Ms. (ed. Lag. <he>דשיפייתא</he>, corr. acc.; ed. Wil. <he>דשָׁפִיתָא</he> <i>Pe.</i>; h. text <he>דכית</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 89:11\">Ib. LXXXIX, 11</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to plane, trim</i>.—Part. pass. <he>מְשַׁפִּי</he>; f. <he>מְשַׁפְּיָא</he>; pl. <he>מְשַׁפְּיָין</he>, <he>מְשַׁפְּיָן</he>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 3a:19\">B. Bath. 3ᵃ</cite> <he>אבני דלא משפיין</he> Ms. M. (ed. <he>משפיא</he>, corr. acc.), v. <cite ref=\"C00364\"><he>גְּוִיל</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

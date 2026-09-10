@@ -1,0 +1,30 @@
+{
+	"id": "M02161",
+	"slug": "מעצרתא-1",
+	"headword": {
+		"text": "מַעְצַרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַעֲצַ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 818,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02160\">preced.</cite>) <i>press-room</i> (= h. <he>בית הגיתות</he>, v. <cite ref=\"C01429\"><he>גַּת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 18:27\">Targ. Num. XVIII, 27</cite> (h. text <he>יקב</he>).—",
+				"<cite ref=\"Avodah Zarah 70a:9\">Ab. Zar. 70ᵃ</cite>. ",
+				"<cite ref=\"Avodah Zarah 74b:4\">Ib. 74ᵇ</cite> <cite ref=\"M02162\"><he>מַעֲצַרְתָּאִי</he></cite> my press-room; a. e."
+			]
+		}
+	]
+}

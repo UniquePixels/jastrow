@@ -1,0 +1,23 @@
+{
+	"id": "A01321",
+	"slug": "אימא-4",
+	"headword": {
+		"text": "אִימָּא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 50,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f. [or <i>title;</i> cmp. <cite ref=\"A00017\"><he>אַבָּא</he></cite>]. <i>Imma</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 1:2:5\">Y. Git. I, 43ᶜ</cite>; <cite ref=\"Mishnah Sheviit 6\">Shebi. VI, 36</cite>ᶜ top <he>א׳ שלום</he> Imma (Mother) Shalom."
+			]
+		}
+	]
+}

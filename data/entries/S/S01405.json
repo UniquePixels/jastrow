@@ -1,0 +1,53 @@
+{
+	"id": "S01405",
+	"slug": "קלפא",
+	"headword": {
+		"text": "קַלְפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִלְ׳"
+		},
+		{
+			"text": "קִילְ׳"
+		}
+	],
+	"page": {
+		"number": 1381,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"S01404\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Menachot 35a:5\">Men. 35ᵃ</cite> <he>קי׳ דתפלין</he> (Ar.  the parchment of the T’fillin.) the parchment of the T’fillin."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>scaly surface, scab</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 13:2\">Targ. Y. II, Lev. XIII, 2</cite>, v. <cite ref=\"S00970\"><he>קִילּוּפָא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>streak made by peeling</i>.—Pl. <he>קִלְפִין</he>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:37\">Targ. O. Gen. XXX, 37</cite> (some ed. <cite ref=\"S01557\"><he>קַ׳</he></cite>; Y. <he>קְלִיפִין</he>, <he>קַלִּיפִ׳</he>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (<i>pl.</i>) <i>scales; scaly shield</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:9\">Targ. O. Lev. XI, 9</cite>; <cite ref=\"Deuteronomy 14:9\">Deut. XIV, 9</cite>, sq. (ed. Berl. <he>ק׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 41:7\">Targ. Job XLI, 7</cite> <he>קְלִפוֹהִי</he> Ms. (missing in ed.; h. text <he>מגנים</he>).—",
+				"<cite ref=\"Sanhedrin 110a\">Snh. 110ᵃ</cite> <he>קִילְפֵי</he> (Ms. M. <he>קוּלְפֵי</he>) the scaly (metal) rims of bags; <cite ref=\"Pesachim 119a\">Pes. 119ᵃ</cite> <cite ref=\"S01347\"><he>קליפא</he></cite> (Rashi <he>קִלּוּפֵי</he>), v. <cite ref=\"S00510\"><he>קוּפְלָא</he> I</cite>. ",
+				"<cite ref=\"Ketubot 65a:10\">Keth. 65ᵃ</cite> <he>מחתא לה בקולפי דשידא</he> she struck her with the metal straps of a chest (v. <cite ref=\"S00359\"><he>קוּלְפָא</he></cite>).—[<cite ref=\"Yalkut Shimoni on Nach 362\">Yalk. Ez. 362</cite> <cite ref=\"S00984\"><he>קילפא</he></cite>, v. <cite ref=\"S00359\"><he>קוּלְפָא</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:24\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>קְלִיפַיָּיא</he>, v. <cite ref=\"S01291\"><he>קְלוּפִיתָא</he></cite>.]"
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "R00756",
+	"slug": "צרח-2",
+	"headword": {
+		"text": "צְרַח",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "צְרֵיחַ"
+		}
+	],
+	"page": {
+		"number": 1301,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"R00755\">same</cite> <cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 3</cite> <he>קם וצ׳ אמר ליה וכ׳</he> (not <he>וצריה</he>) he stood up and screamed (after him), saying to him &c.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַצְרִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to call together;</i> (of the bear) <i>to growl</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 28:15\">Targ. Prov. XXVIII, 15</cite> (Ms. <he>מַסְרִיחַ</he>; h. text <he>שוקק</he>)."
+					]
+				}
+			],
+			"stem": "*."
+		},
+		{
+			"forms": ["אִצְטְרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be called together, be summoned</i>. Targ. O. a. Y. I <cite ref=\"Numbers 24:24\">Num. XXIV, 24</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

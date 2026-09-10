@@ -1,0 +1,30 @@
+{
+	"id": "A03137",
+	"slug": "ארכון",
+	"headword": {
+		"text": "אַרְכוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְכוּנָא"
+		}
+	],
+	"page": {
+		"number": 121,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= h. <cite ref=\"A03156\"><he>אַרְכָן</he></cite> q. v.) <i>ruler, elder</i> <cite ref=\"Targum of I Chronicles 11:2\">Targ. I Chr. XI, 2</cite> (h. text <cite ref=\"N00152\"><he>נגיד</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 21:28\">Targ. Job. XXI, 28</cite> (h. text <he>נדיב</he>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:18\">Y. Ber. V, 9ᵃ</cite> <he>עבר א׳</he> an elder passed by.—Pl. <he>אַרְכוֹנִין</he>. ",
+				"<cite ref=\"Targum of II Chronicles 11:11\">Targ. II Chr. XI, 11</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Peah 8:6:5\">Y. Peah VIII, 21ᵃ</cite> (defective sentence); [h. pl. <he>אַרְכוֹנוֹת</he>, v. <cite ref=\"T00771\"><he>ארְכָן</he></cite>)."
+			]
+		}
+	]
+}

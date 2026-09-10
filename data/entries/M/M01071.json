@@ -1,0 +1,46 @@
+{
+	"id": "M01071",
+	"slug": "מטרתא",
+	"headword": {
+		"text": "מַטַּרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְטַ׳"
+		},
+		{
+			"text": "מַטָּרָא"
+		}
+	],
+	"page": {
+		"number": 770,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00584\"><he>נְטַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (= h. <cite ref=\"M02932\"><he>מִשְׁמֶרֶת</he></cite>, <cite ref=\"M02930\"><he>מִשְׁמָר</he></cite>, <cite ref=\"A03329\"><he>אַשְׁמוֹרָה</he></cite>) <i>service, post, watch, guard</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 3:36\">Targ. O. Num. III, 36</cite> <cite ref=\"M01049\"><he>מַטַּר</he></cite>, v. <cite ref=\"M01220\"><he>מִנְטַר</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:8\">Targ. Is. XXI, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 11:5\">Targ. II Kings XI, 5</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 18:17\">Targ. I Chr. XVIII, 17</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 18:8\">Targ. O. Deut. XVIII, 8</cite> the division on duty (h. text <he>ממכריו</he>). ",
+				"<cite ref=\"Onkelos Exodus 14:24\">Targ. Ex. XIV, 24</cite> (Bxt. <cite ref=\"M01060\"><he>מַטְּרוּת</he></cite>; h. text <he>אשמרת</he>).—בית מ׳ <i>prison</i>. ",
+				"<cite ref=\"Onkelos Genesis 42:17\">Targ. Gen. XLII, 17</cite>; <cite ref=\"Onkelos Genesis 42:19\">19</cite>; a. fr.—Lam. R. introd. (R. Abba 2) <he>ריש מ׳</he> the chief of the city guard.—Pl. <cite ref=\"M01071\"><he>מַטְּרָתָא</he></cite>, <cite ref=\"M01053\"><he>מַטְּרָאתָא</he></cite>, <he>מַטְּרָאן</he>, <he>מַטְּרָן</he>. ",
+				"<cite ref=\"Targum of I Chronicles 9:22\">Targ. I Chr. IX, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 11:18\">Targ. II Kings XI, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 63:7\">Targ. Ps. LXIII, 7</cite> (ed. Wil. <i>sing.</i>; h. text <he>אשמרות</he>); a. e.—V. <cite ref=\"M00994\"><he>מַטַּטְרוֹן</he></cite>.—2) <i>safe, leather bag</i>.—Pl. <cite ref=\"M01071\"><he>מַטָּרָתָא</he></cite>, <cite ref=\"M01053\"><he>מַטָּרָאתָא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 10b:3\">Ab. Zar. 10ᵇ</cite> <he>הוה שדר ליה … במ׳ וכ׳</he> (Rashi in early eds. <cite ref=\"M00962\"><he>מַטָּארָאתָא</he></cite>, <cite ref=\"M00962\"><he>מַטָּארָתָא</he></cite>, v. Rabb. D. S. a. l. note 80) he sent him gold dust in bags and wheat on top. ",
+				"<cite ref=\"Ketubot 110a:9\">Keth. 110ᵃ</cite> <he>הפוכי מ׳ למה לי</he> why change bags (of equal weight from one side of the animal to the other)?, i.e. let the two accounts balance each other."
+			],
+			"label": "1"
+		}
+	]
+}

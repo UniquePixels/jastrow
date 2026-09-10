@@ -1,0 +1,22 @@
+{
+	"id": "K00051",
+	"slug": "כבינה",
+	"headword": {
+		"text": "כְּבֵינָה"
+	},
+	"page": {
+		"number": 608,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00064\"><he>כָּבַן</he></cite>) <i>brooch</i> or <i>buckle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 9:7\">B. Bath. IX, 7</cite> <he>תנו כְבֵינָתִי וכ׳</he> give my brooch to my daughter."
+			]
+		}
+	]
+}

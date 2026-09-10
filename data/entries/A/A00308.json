@@ -1,0 +1,34 @@
+{
+	"id": "A00308",
+	"slug": "אגם-2",
+	"headword": {
+		"text": "אֲגַם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 12,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"A00307\">foreg.</cite> a. <i>anything bending and peeling</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>leek</i>, or <i>leek-like plants</i>, opp. to <cite ref=\"U00725\"><he>שחת</he></cite> young grain &c. ",
+			"units": [
+				"<cite ref=\"Kiddushin 62b:7\">Kidd. 62ᵇ</cite> this refers only to <i>shaḥath</i> <he>אבל בא׳ לא</he> but not to <i>ăgam</i>. ",
+				"<cite ref=\"Kiddushin 62b:7\">Ib.</cite> <he>מאי משמע דהאי א׳ לישנא דבוצלנא הוא</he> (Ar. <he>דבוצלא</he>) what proof have you that <i>ăgam</i> in this case has the meaning of onion-plants? (Answ. ref. to <he>אגמון</he> <cite ref=\"Isaiah 58:5\">Is. LVIII, 5</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>reed, reed-land</i> (juncetum), <i>dwelling places of wild beasts</i>, opp. <cite ref=\"U00261\"><he>שָׂדֶה</he></cite> cultivated land. ",
+			"units": ["<cite ref=\"Taanit 22a\">Taan. 22ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

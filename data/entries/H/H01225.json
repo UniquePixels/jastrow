@@ -1,0 +1,27 @@
+{
+	"id": "H01225",
+	"slug": "חמר-8",
+	"headword": {
+		"text": "חַמָּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 480,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. h. (denom. of <cite ref=\"H01163\"><he>חֲמוֹר</he></cite>) <i>ass-driver, attendant of beasts of burden</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:14\">Kidd. IV, 14</cite>, a. e., v. <cite ref=\"C01040\"><he>גַּמָּל</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 26:5\">Kel. XXVI, 5</cite> (<cite ref=\"Mishnah Kelim 26:6\">6</cite>) <he>עור החמיר ועור הח׳</he> Maim. (v. comment. ed. Dehr.; Mish. ed. <he>עור הח׳</he>, Talm. ed. <he>עור החמור</he>) the ass’ leather cover and the ass-driver’s apron; a. fr.—<he>ח׳ גמל</he>, v. <cite ref=\"C01040\"><he>גַּמָּל</he></cite>.—Pl. <cite ref=\"H01203\"><he>חַמָּרִים</he></cite>, <he>חַמָּרִין</he>. ",
+				"<cite ref=\"Mishnah Demai 4:7\">Dem. IV, 7</cite>. Kidd. l. c. a. fr.—Denom.: <cite ref=\"H01218\"><he>חִמֵּר</he></cite> <i>to direct a loaded beast’s motions by walking behind it, to load a beast</i>. ",
+				"<cite ref=\"Shabbat 153b\">Sabb. 153ᵇ</cite>; <cite ref=\"Avodah Zarah 15a:5\">Ab. Zar. 15ᵃ</cite> <he>המְחַמֵּר אחר וכ׳</he> he who drives his beast of burden by walking behind it. Sabb. l. c. <he>והלא מחמר</he> but does he not violate the Sabbath as a driver (by placing his money bag on the ass)?—",
+				"<cite ref=\"Pesachim 66b:4\">Pes. 66ᵇ</cite> <he>מח׳ כלאחר יד הוא</he> it is an act of driving in an unusual way (the lamb usually not being used as a beast of burden); a. fr."
+			]
+		}
+	]
+}

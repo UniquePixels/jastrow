@@ -1,0 +1,35 @@
+{
+	"id": "U00689",
+	"slug": "שחץ-3",
+	"headword": {
+		"text": "שַׁחַץ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1550,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U00687\"><he>שָׁחַץ</he></cite>, part. pass.) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>separation</i>,] <i>obscenity, abomination, disgrace</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 62b:23\">Sabb. 62ᵇ</cite> <he>אנשי … אנשי ש׳ היו</he> the men of Jerusalem were lovers of obscene talk; (<cite ref=\"Yalkut Shimoni on Nach 264\">Yalk. Is. 264</cite> <he>שחוצים</he>). ",
+				"<cite ref=\"Pesachim 3b:9\">Pes. 3ᵇ</cite> <he>ש׳ פסול</he> (they found in him) obscenity which made him unworthy of the priesthood; (Rashi: <i>pride</i>). Tanḥ. Vaëra 9; <cite ref=\"Shemot Rabbah 8:2\">Ex. R. s. 8</cite> <he>לך ועשה מי שעשה עצמו אלוה ש׳ בעולם</he> go and make him that made himself a god an abomination in the world; <cite ref=\"Shemot Rabbah 8:2\">ib.</cite> <he>וכן … נעשה ש׳ בעולם</he> and so Sennacherib prided himself, and became an abomination &c. ",
+				"<cite ref=\"Shemot Rabbah 8:2\">Ib.</cite> <he>אני ממלא … ומראה שַׁהֲצוֹ לבריות</he> I fill the upper and the lower regions with him (his repute), and let people see his disgrace; Tanḥ. l. c. <he>שבחן</he> (corr. acc.). Ib. <he>הקב״ה מראה ש׳ וכ׳</he> the Lord shows all men the disgrace of the proud; a. e.—Pl. <he>שְׁחָצִים</he>. Ib. (ref. to <cite ref=\"Job 41:26\">Job XLI, 26</cite> <he>בני שחץ</he>) <he>אלו הגיותנין … ש׳ בעולם</he> this means the proud that make themselves gods: the Lord makes them abominations in the world."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>pride</i>, v. supra.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

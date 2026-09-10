@@ -1,0 +1,32 @@
+{
+	"id": "M00770",
+	"slug": "מזמז-1",
+	"headword": {
+		"text": "מִזְמֵז"
+	},
+	"page": {
+		"number": 756,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <cite ref=\"M00744\"><he>מזז</he></cite>) <i>to soften</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְמַזְמֵז"],
+			"senses": [
+				{
+					"gloss": "<i>to be softened</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 45b\">Ḥull. 45ᵇ</cite> <he>נתמסמס פסול נ׳ כשר</he> if the spinal cord is a pulpy mass, the animal is unfit, if merely softened, it is fit for food (<i>Kasher</i>). ",
+						"<cite ref=\"Tosefta Chullin 3:1\">Tosef. ib. III, 1</cite> <he>שנִתְמַזְמְזָה מוחה</he> an animal whose brain is softened; quoted Ḥull. l. c. <he>בהמה שנתמזמז וכ׳</he>, and corrected into <cite ref=\"M01962\"><he>נתמסמס</he></cite>. Ib. (in Chald. dict.) <he>נ׳ מוחיה דדין</he> this man’s brain is softened."
+					]
+				}
+			],
+			"stem": "Nithpalp."
+		}
+	]
+}

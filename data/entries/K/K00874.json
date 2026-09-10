@@ -1,0 +1,41 @@
+{
+	"id": "K00874",
+	"slug": "כנף-4",
+	"headword": {
+		"text": "כְּנַף",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּנְפָא"
+		}
+	],
+	"page": {
+		"number": 651,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00873\">same</cite><i>wing, lap</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 6:24\">Targ. I Kings VI, 24</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Zechariah 8:23\">Targ. Zech. VIII, 23</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 85a:6\">B. Mets. 85ᵃ</cite> <he>בכַנְפֵיה דרבו</he> in the lap of Rabbi’s garment. ",
+				"<cite ref=\"Shabbat 5a:4\">Sabb. 5ᵃ</cite> <he>פשיט כנפיה וכ׳</he> he spread the lap of his garment and received it. ",
+				"<cite ref=\"Bava Batra 12b:6\">B. Bath. 12ᵇ</cite> <he>בכנפיה דאבוה</he> on her father’s lap. ",
+				"<cite ref=\"Bava Batra 58a:3\">Ib. 58ᵃ</cite> <he>בכַנְפָהּ דשרה</he> in Sarah’s lap; a. fr.—[Euphem. ",
+				"<cite ref=\"Onkelos Deuteronomy 23:1\">Targ. Deut. XXIII, 1</cite>, v. preced.]—Trnsf. <i>protection</i>. Targ. II Esth. IX, 14.—Pl. <he>כַּנְפִין</he>, <he>כַּנְפַיָּא</he>, <he>כַּנְפֵי</he>. Ib. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:3\">Targ. Ez. XVII, 3</cite>. ",
+				"<cite ref=\"Onkelos Numbers 15:38\">Targ. O. Num. XV, 38</cite>; a. fr.—[<he>כַּנְפָתָא</he>, constr. <cite ref=\"K00874\"><he>כַּנְפָת</he></cite>. Targ. Y. II <cite ref=\"Onkelos Numbers 15:38\">ib.</cite>, emend. by Bxt., ed. <he>צָנְפַת</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>בַּת כַּנְפָא</he> name of an unclean <i>bird</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 14:13\">Targ. O. Deut. XIV, 13</cite> (h. text <cite ref=\"T00011\"><he>הראה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

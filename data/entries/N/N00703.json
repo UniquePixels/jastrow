@@ -1,0 +1,43 @@
+{
+	"id": "N00703",
+	"slug": "ניסוך-1",
+	"headword": {
+		"text": "נִיסּוּךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִסּ׳"
+		}
+	],
+	"page": {
+		"number": 906,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00946\"><he>נָסַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>libation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 4:1\">Succ. IV, 1</cite> <he>נ׳ המים שבעה</he> the water libation (on the Succoth festival) is continued for seven days. Y. ib. 54ᵈ top; Tosef. ib. III, 15 <he>נִיסּוּכוֹ בקדושה</he> at its libation the laws of sanctity must be observed; (<cite ref=\"Tosefta Meilah 1:16\">Tosef. Meïl. I, 16</cite> <he>נְסִיכָתוֹ</he>). ",
+				"<cite ref=\"Mishnah Zevachim 6:2\">Zeb. VI, 2</cite>. ",
+				"<cite ref=\"Sanhedrin 62a:18\">Snh. 62ᵃ</cite> <he>נ׳</he> libation to idols; a. fr.—Pl. <he>נִיסּוּכִים</he>, <he>נִיסּוּכִין</he>, <cite ref=\"N00703\"><he>נִסּ׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite>, end <he>כמה נ׳ ניסך יעקב</he> how many libations Jacob performed. ",
+				"<cite ref=\"Taanit 2b:16\">Taan. 2ᵇ</cite>, a. e. <he>שני נ׳</he> two kinds of libations."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the manipulation by an idolater</i> by which he causes wine to be forbidden to Jews as <he>יֵין נֶסֶךְ</he> (v. <cite ref=\"N00946\"><he>נָסַךְ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 56b:4\">Ab. Zar. 56ᵇ</cite> (in Chald. dict.) <he>נ׳ דרגל … נ׳</he> operating with the foot is not called a ritual manipulation (does not affect the wine); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

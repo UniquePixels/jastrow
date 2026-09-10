@@ -1,0 +1,24 @@
+{
+	"id": "G00494",
+	"slug": "זלילא",
+	"headword": {
+		"text": "זְלִילָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 401,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00493\">preced.</cite>) <i>common man, humble; low</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:9\">Targ. Prov. XII, 9</cite>.—Pl. <he>זְלִילֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 28:7\">Ib. XXVIII, 7</cite> (some ed. <he>זַלְזִילֵי</he>)."
+			]
+		}
+	]
+}

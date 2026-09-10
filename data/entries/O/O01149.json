@@ -1,0 +1,22 @@
+{
+	"id": "O01149",
+	"slug": "סמתירא",
+	"headword": {
+		"text": "סַמְתֵּירָא"
+	},
+	"page": {
+		"number": 1003,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01148\">preced.</cite>) <i>an emollient</i> put on a sore, <i>plaster</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 5:18\">Targ. Job V, 18</cite> <he>מָעֵל ס׳</he> (Bxt. <cite ref=\"O01153\"><he>סַמְתַּרְתָּא</he></cite>; h. text <he>חבש</he>).—V. <cite ref=\"O01152\"><he>סַמְתְּרֵי</he></cite>."
+			]
+		}
+	]
+}

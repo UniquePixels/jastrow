@@ -1,0 +1,28 @@
+{
+	"id": "S01953",
+	"slug": "קרונתא",
+	"headword": {
+		"text": "קְרוֹנְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרוּנְ׳"
+		}
+	],
+	"page": {
+		"number": 1414,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Κόρυνθος, by adaptation to <cite ref=\"S02103\"><he>קַרְנָא</he></cite>) (<i>Corinthian</i>) <i>capital of a column</i> (v. Sm. Ant. s. v. Columna). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:20\">Targ. I Kings VII, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 25:17\">Targ. II Kings XXV, 17</cite>; a. fr.—Pl. <he>קְרוֹנְתְּוָן</he>. Targ. I Kings l. c.; a. fr.—Ib. 2 <he>קְרוֹנַתְהוֹן דארזיא</he> ed. Lag. (ed. <he>קַרְנַתְהוֹן</he>; h. text <cite ref=\"K01291\"><he>כרתית</he></cite>); ib. 12 <he>קַרְנְוַתְהוֹן</he> Levita (ed. <cite ref=\"M02693\"><he>מרישא</he></cite>)."
+			]
+		}
+	]
+}

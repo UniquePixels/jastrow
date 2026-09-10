@@ -1,0 +1,29 @@
+{
+	"id": "E00459",
+	"slug": "הינומא",
+	"headword": {
+		"text": "הֵינוּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵינוּמָה"
+		}
+	],
+	"page": {
+		"number": 348,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00367\"><he>נוּם</he></cite>, formed like <cite ref=\"E00458\">preced.</cite>) <i>slumbering couch</i>, esp. (a popular adaptation of ὑμέναιος) <i>henuma, a curtained litter on which a virgin bride was carried in procession</i> (cmp. Sm. Ant. s. v. Lectica, about κλίνη a. φορεῖον). ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 2:1\">Keth. II, 1</cite> <he>שיצאת בה׳</he> that she was carried out of her father’s home in a <i>henuma</i> or with loosened hair; Y. ib. I, 25ᵃ top <cite ref=\"E00417\"><he>הימונא</he></cite> (corr. acc.). Bab. ",
+				"<cite ref=\"Ketubot 16b:9\">ib. 16ᵇ</cite> <he>עדי ה׳</he> witnesses testifying to her having been taken out in a <i>h</i>.—",
+				"<cite ref=\"Ketubot 17b:2\">Ib. 17ᵇ</cite> <he>מאי ה׳</he> what is <i>henuma</i>? Answ. <he>תנורא דאסא</he> an oven-shaped (frame) draped with myrtles; oth. opin. <he>קלתא דמנמנמא בה וכ׳</he> (not <he>קריתא דמנמנא</he>, v. Rashbam to <cite ref=\"Bava Batra 92b\">B. Bath. 92ᵇ</cite>) a curtained couch on which the bride reclines as though slumbering. Y. Keth. II, 26ᵃ bot. <he>תמן נמנומא וכ׳</he> there (in Babylon) they call it <i>namnuma</i> (a slumbering couch), the Rabbis here call it <cite ref=\"Q00347\"><he>פוריומא</he></cite> q. v."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "B01078",
+	"slug": "בצה-2",
+	"headword": {
+		"text": "בִּצָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיצָּה"
+		}
+	],
+	"page": {
+		"number": 183,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.,<cite ref=\"B01103\"><he>בצץ</he></cite>; v. <cite ref=\"B01072\"><he>בְּצָא</he></cite> ; cmp. <cite ref=\"B01102\"><he>בִּצְעָה</he></cite>, a. <he>בִּצְאֹת</he> Ezek. ",
+			"units": [
+				"<cite ref=\"Ezekiel 47:11\">Ezek. XLVII, 11</cite>) <i>channel, marsh, pond.—</i> Pl. <cite ref=\"B01086\"><he>בִּצִּים</he></cite>, <cite ref=\"B00125\"><he>בִּי׳</he></cite>. ",
+				"<cite ref=\"Mishnah Parah 8:10\">Par. VIII, 10</cite>. ",
+				"<cite ref=\"Tosefta Mikvaot 1:14\">Tosef. Mikv. I, 14</cite>. ",
+				"<cite ref=\"Sanhedrin 5b:6\">Snh. 5ᵇ</cite> a teacher spoke of <he>מי בֵיצִים</he> the liquid of eggs, and the students understood <cite ref=\"B01086\"><he>בִּצִּים</he></cite> Ar. (Ms. F. <he>ביצים</he>, ed. <he>בצעים</he>, v. <cite ref=\"B01102\"><he>בִּצְעָה</he></cite>). V. <cite ref=\"B00686\"><he>בִּיצִּית</he></cite>."
+			]
+		}
+	]
+}

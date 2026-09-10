@@ -1,0 +1,23 @@
+{
+	"id": "M00400",
+	"slug": "מוגלסא",
+	"headword": {
+		"text": "מוּגְלְסָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 738,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00960\"><he>גְּלַל</he></cite> with format. <cite ref=\"O00000\"><he>ס</he></cite>; cmp. <cite ref=\"C00883\"><he>גִּלָּה</he></cite>, <cite ref=\"O00150\"><he>סְגַלְגַּל</he></cite>) <i>pivot, hinge</i>.—Pl. <he>מוּגְלְסַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:50\">Targ. I Kings VII, 50</cite> (h. text <he>פֹּתוֹת</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "Q02149",
+	"slug": "פתחון",
+	"headword": {
+		"text": "פִּתְחוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1252,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. constr. (b. h.;  <he>פ׳ פֶּה</he> <i>opening of the mouth, point of attack, fault-finding; excuse for wrong-doing</i>. Sifra Vayikra, N’dab., ch. II, Par. 2 <he>שלא ליתן פ׳ פה למינין לרדות</he> in order not to give heretics (believers in plurality) occasion for rebellion. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 8:9\">Gen. R. s. 8</cite> <he>בכל מקום שאתה מוצא פ׳ פה וכ׳</he> wherever (in the Scriptural text) there is an opportunity for heretics (to find pluralistic allusions), you will find the refutation next to it. ",
+				"<cite ref=\"Bereishit Rabbah 8:9\">Ib.</cite> (ref. to <cite ref=\"P01474\"><he>נעשה</he></cite>, <cite ref=\"Genesis 1:26\">Gen. I, 26</cite>) Moses said, Lord of the world, <he>מפני מה אתה נותן פ׳ פה למינים</he> why wilt thou furnish a point of attack to heretics? <cite ref=\"Vayikra Rabbah 20:8\">Lev. R. s. 20</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "O00679",
+	"slug": "סילתא-3",
+	"headword": {
+		"text": "סִילְּתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 980,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"O00311\"><he>סוֹל</he></cite>, <cite ref=\"O00960\"><he>סִלְוָא</he></cite>) <i>rod, thorny twig</i>.—Pl. <cite ref=\"O00678\"><he>סִילָּתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Yevamot 63b\">Yeb. 63ᵇ</cite>, v. <cite ref=\"H00124\"><he>חֲבֶרְתָּא</he></cite>."
+			]
+		}
+	]
+}

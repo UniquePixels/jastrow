@@ -1,0 +1,24 @@
+{
+	"id": "M00613",
+	"slug": "מורבית-1",
+	"headword": {
+		"text": "מוּרְבִּית",
+		"homograph": 1
+	},
+	"page": {
+		"number": 749,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00058\"><he>רָבָה</he></cite>) <i>young tree</i> or <i>bough</i>.—Pl. <cite ref=\"M00612\"><he>מוּרְבִּיּוֹת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 4:5\">Succ. IV, 5</cite> (<cite ref=\"Sukkah 45a:2\">45ᵃ</cite>) <he>מ׳ של ערבה</he> (Mish. a. Ms. M. <cite ref=\"M02699\"><he>מַרְ׳</he></cite>) young willows; <cite ref=\"Yalkut Shimoni on Nach 876:4\">Yalk. Ps. 876</cite>. ",
+				"<cite ref=\"Mishnah Tamid 2:3\">Tam. II, 3</cite> <he>מר׳</he>."
+			]
+		}
+	]
+}

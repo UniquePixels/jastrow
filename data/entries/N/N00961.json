@@ -1,0 +1,33 @@
+{
+	"id": "N00961",
+	"slug": "נסר-2",
+	"headword": {
+		"text": "נְסַר"
+	},
+	"page": {
+		"number": 919,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00960\">same</cite> <cite ref=\"Targum Jonathan on Exodus 14:25\">Targ. Y. I Ex. XIV, 25</cite> (h. text <he>וַיָּסַר</he>; cmp. ",
+			"units": ["<cite ref=\"I Chronicles 20:3\">I Chr. XX, 3</cite>)."]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַסֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00960\">same</cite>, <i>to split</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 29:7\">Targ. Ps. XXIX, 7</cite>.—",
+						"<cite ref=\"Yevamot 49b:8\">Yeb. 49ᵇ</cite> <he>אתיוה לארזא ונַסְּרוּהָ</he> they brought the cedar and sawed it through; <cite ref=\"Yalkut Shimoni on Nach 274\">Yalk. Is. 274</cite>. ",
+						"<cite ref=\"Bava Batra 75a:11\">B. Bath. 75ᵃ</cite> <he>מְנסְּרֵי אבנים וכ׳</he> Ms. M. (ed. <he>מינסרי</he>, corr. acc.) who were cutting precious stones.—V. <cite ref=\"M02008\"><he>מְסר</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

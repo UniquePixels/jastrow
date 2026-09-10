@@ -1,0 +1,22 @@
+{
+	"id": "O01421",
+	"slug": "ספר-7",
+	"headword": {
+		"text": "סָפֵר"
+	},
+	"page": {
+		"number": 1017,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01420\">preced.</cite> wds.) = <cite ref=\"O01378\"><he>סְפִירָה</he></cite>, <i>counting</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 7:3\">Naz. VII, 3</cite> (<cite ref=\"Nazir 54a:9\">54ᵃ</cite>) <he>ימי סְפֵרוֹ</he> (comment. <he>סְפֵירוֹ</he>; Y. ed. <he>ספורו</he>) the days which the cured leper has to count (<cite ref=\"Leviticus 14:8\">Lev. XIV, 8</cite>); Y. ib. 56ᶜ bot. <he>ספירו</he>."
+			]
+		}
+	]
+}

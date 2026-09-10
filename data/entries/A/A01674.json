@@ -1,0 +1,29 @@
+{
+	"id": "A01674",
+	"slug": "אכום",
+	"headword": {
+		"text": "אִכּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "כפר אִכּוּם"
+		}
+	],
+	"page": {
+		"number": 62,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>K’far Iccum</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:5:1\">Y. Snh. X, 29ᶜ</cite> (Bab. ",
+				"<cite ref=\"Sanhedrin 110b\">ib. 110ᵇ</cite> <he>כ׳ עַכּוֹ</he>; Joseph. B. J. II, 20, 6 Καφαρεκχώ); Tanḥ. (ed. Bub.) <cite ref=\"Genesis 25\">B’resh. 25</cite> <cite ref=\"P00724\"><he>עכו</he></cite> (Var. <he>איכוס</he>); <cite ref=\"Chullin 55b\">Ḥull. 55ᵇ</cite> <cite ref=\"P00563\"><he>עִיכּוּם</he></cite>; Y. Sot. VII, 21ᶜ bot. <he>אמוס</he> (corr. acc.; Bab. ",
+				"<cite ref=\"Sotah 37b\">Sot. 37ᵇ</cite> <cite ref=\"P00724\"><he>עכו</he></cite>)."
+			]
+		}
+	]
+}

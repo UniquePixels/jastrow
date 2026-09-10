@@ -1,0 +1,24 @@
+{
+	"id": "M02476",
+	"slug": "מר-2",
+	"headword": {
+		"text": "מַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 834,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"A02061\"><he>אֲמַר</he></cite>, <i>to speak, say</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:2:11\">Y. Sabb. I, 3ᵇ</cite> top <he>חזר ומר</he> again he said. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 10:1:10\">Y. B. Bath. X, 17ᶜ</cite> bot. <he>מְדְּמַר הונא</he> (not <cite ref=\"M02722\"><he>מרמר</he></cite>) from what H. said (we learn). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:6:7\">Y. Snh. III, 21ᵇ</cite> bot. <he>מאן דמר</he> he who said. Ib. X, 27ᵈ bot., v. <cite ref=\"D01159\"><he>דַּתְּ</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:4:3\">Y. Ter. VIII, 46ᵃ</cite> <he>חמון מה אתון מָרִין</he> observe what you say. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:5\">Y. Ber. II, 5ᶜ</cite> top <he>אית דמָרִין</he> (not <he>דמריי</he>) some say; a. fr."
+			]
+		}
+	]
+}

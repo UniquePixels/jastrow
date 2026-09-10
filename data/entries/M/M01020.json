@@ -1,0 +1,24 @@
+{
+	"id": "M01020",
+	"slug": "מטמון",
+	"headword": {
+		"text": "מַטְמוֹן"
+	},
+	"page": {
+		"number": 768,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"I00556\"><he>טָמַן</he></cite>)<i>secret chamber, treasury; treasure</i>.—Pl. <he>מַטְמוֹנִים</he>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 9:1-7\">Num. R. s. 9</cite> <he>התחילו … לתוך המ׳</he> the inhabitants of the city began to put their gold and silver in the secret chambers of the fortress; Tanḥ. Naso 5. ",
+				"<cite ref=\"Vayikra Rabbah 1:13\">Lev. R. s. 1</cite> <he>הולך במ׳</he> he goes (to her) through secret walks (of the palace), v. <cite ref=\"M01021\">next w.</cite> ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite>, v. <cite ref=\"H01478\"><he>חָפַשׂ</he></cite>; a. e."
+			]
+		}
+	]
+}

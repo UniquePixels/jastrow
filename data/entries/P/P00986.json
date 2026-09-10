@@ -1,0 +1,28 @@
+{
+	"id": "P00986",
+	"slug": "עניותא",
+	"headword": {
+		"text": "עֲנִיּוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַנְיוּתָא"
+		}
+	],
+	"page": {
+		"number": 1095,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00985\">same</cite> <cite ref=\"Aramaic Targum to Psalms 88:10\">Targ. Ps. LXXXVIII, 10</cite> ed. Lag. (ed. Wil. <cite ref=\"P00996\"><he>עַנִיתָא</he></cite>; oth. <cite ref=\"P00996\"><he>עַנִּיתָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:16\">Targ. Job XXX, 16</cite>.—",
+				"<cite ref=\"Bava Kamma 92a:24\">B. Kam. 92ᵃ</cite>, a. e. <he>אזלא ע׳</he>, v. <cite ref=\"P00977\"><he>עַנְיָא</he></cite>. ",
+				"<cite ref=\"Chullin 105b:6\">Ḥull. 105ᵇ</cite> <he>משום דקשי לע׳</he> because it is bad, for (it begets) poverty. ",
+				"<cite ref=\"Chullin 105b:10\">Ib.</cite> <he>שרא דע׳</he> the genius of poverty; <cite ref=\"Pesachim 111b:12\">Pes. 111ᵇ</cite>, v. <cite ref=\"A01510\"><he>אִיסְרָא</he> II</cite>. ",
+				"<cite ref=\"Shabbat 140b:7\">Sabb. 140ᵇ</cite> <he>בעֲנִיּוּתִי</he> when I was poor; a. fr."
+			]
+		}
+	]
+}

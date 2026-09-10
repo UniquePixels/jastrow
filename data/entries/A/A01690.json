@@ -1,0 +1,24 @@
+{
+	"id": "A01690",
+	"slug": "אכים",
+	"headword": {
+		"text": "אָכִים",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 63,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01713\"><he>אכם</he></cite>) <i>black</i> (<i>wine</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 7:1:2\">Y. Gitt. VII, beg. 48ᶜ</cite> <he>א׳ גו סמיק</he>, v. <he>סמיק</he>; (<cite ref=\"Jerusalem Talmud Terumot 1:1:11\">Y. Ter. I, 40ᵇ</cite> <cite ref=\"A00077\"><he>אבוס</he></cite> read our w. or <cite ref=\"A01674\"><he>אִכּוּם</he></cite> = <cite ref=\"A01254\"><he>אִיכּוּמָא</he></cite>); cmp. ",
+				"<cite ref=\"Gittin 67b\">Gitt. 67ᵇ</cite>"
+			]
+		}
+	]
+}

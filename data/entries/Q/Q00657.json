@@ -1,0 +1,23 @@
+{
+	"id": "Q00657",
+	"slug": "פייסונא",
+	"headword": {
+		"text": "פַּיְיסוֹנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1163,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"Q00750\"><he>פִּיסוֹן</he></cite>, <i>mason</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:6:6\">Y. Yeb. XII, end, 13ᵃ</cite> <he>הדין פ׳ דפַיְיסַנְתָּךְ</he> (ed. Krot. <he>פייסינא</he>) is this (R. Levy whom you recommended) a mason of thy mason’s guild (a pupil of thy school)?"
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "P00041",
+	"slug": "עבי-3",
+	"headword": {
+		"text": "עָבֵי"
+	},
+	"page": {
+		"number": 1037,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00040\">preced.</cite>) <i>thick</i>, <i>rough</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 79a:11\">Ḥull. 79ᵃ</cite> <he>ע׳ קליה וכ׳</he> if the voice of a mule is rough, its dam is an ass, if shrill <he>(צניף</he>), a horse."
+			]
+		}
+	]
+}

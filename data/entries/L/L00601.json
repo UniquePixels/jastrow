@@ -1,0 +1,31 @@
+{
+	"id": "L00601",
+	"slug": "לעונים",
+	"headword": {
+		"text": "לְעוּנִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְעוּנִין"
+		},
+		{
+			"text": "לְעֵי׳"
+		}
+	],
+	"page": {
+		"number": 714,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>garden-orache</i> (Artiplex Hortensis, v. Löw Pfl. p. 274). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:3\">Kil. I, 3</cite>; Y. ib. 27ᵃ, expl. <he>המעוייו</he> ‘having eyes’ or ‘colors’.—[<cite ref=\"Shabbat 90a\">Sabb. 90ᵃ</cite>; <cite ref=\"Niddah 62a\">Nidd. 62ᵃ</cite>, v. <cite ref=\"J00652\"><he>יַרְעָנָה</he></cite>.]"
+			]
+		}
+	]
+}

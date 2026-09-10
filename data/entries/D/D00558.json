@@ -1,0 +1,41 @@
+{
+	"id": "D00558",
+	"slug": "דיילא-1",
+	"headword": {
+		"text": "דַּיָּילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּיָּאלָא"
+		}
+	],
+	"page": {
+		"number": 298,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דול</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " prop. <i>one who pours water over another person’s hands</i> (cmp. ",
+			"units": [
+				"<cite ref=\"II Kings 3:1\">II Kings III, 1</cite> hence (= <cite ref=\"U01541\"><he>שַׁמָּשׁ</he></cite>) <i>attendant, waiter</i>, esp. <i>attendant of a dining club</i>, serving at the table and collecting assessments, fees &c. ",
+				"<cite ref=\"Shabbat 148a:1\">Sabb. 148ᵃ</cite>; <cite ref=\"Bava Kamma 119a:5\">B. Kam. 119ᵃ</cite> <he>אדא ד׳</he> (<cite ref=\"Jerusalem Talmud Shabbat 2:1:18\">Y. Sabb. II, 4ᵈ</cite> top <he>אדא שמשא</he>) Ada, the waiter. ",
+				"<cite ref=\"Pesachim 86b:11\">Pes. 86ᵇ</cite> <he>והוא דרגש בהו ד׳</he> provided the club-keeper has taken notice of them (Ms. M. 1 <he>דגָשׁ וכ׳</he> the club-keeper knows them well; Ms. M. 2 <he>דהדר בהו ד׳</he> that he went around for them to see whether they are all in)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " in gen. <i>beadle, constable</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 18a:13\">Yoma 18ᵃ</cite> (prov.) <he>אי בר אחתיך ד׳ הוי חזי בשוקא קמיה וכ׳</he> if thy sister’s son has been appointed a constable, look out that thou pass not before him in the street (for he knows thy affairs well and may blackmail thee)."
+			],
+			"label": "2"
+		}
+	]
+}

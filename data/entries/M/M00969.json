@@ -1,0 +1,32 @@
+{
+	"id": "M00969",
+	"slug": "מטה-3",
+	"headword": {
+		"text": "מַטֶּה"
+	},
+	"page": {
+		"number": 765,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00555\"><he>נָטָה</he></cite>)<i>staff</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:6\">Ab. V, 6</cite> <he>המ׳</he> the staff of Moses. ",
+				"<cite ref=\"Shemot Rabbah 3:12\">Ex. R. s. 3</cite> <he>המ׳ שתייסרנו בו</he> the staff with which thou shalt chastise him. ",
+				"<cite ref=\"Shemot Rabbah 3:12\">Ib.</cite> ‘the signs which I placed in thy hands’ (<cite ref=\"Exodus 4:21\">Ex. IV, 21</cite>) <he>זה המ׳</he> that means the staff; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tribe</i>. Tosef. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 3a\">R. Hash. I</cite>II (II), 3 <he>שלש על כל מ׳ ומ׳</he> three notes for each tribe; <cite ref=\"Jerusalem Talmud Sukkah 5:6:2\">Y. Succ. V, 55ᶜ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

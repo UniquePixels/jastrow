@@ -1,0 +1,45 @@
+{
+	"id": "N01393",
+	"slug": "נתר-2",
+	"headword": {
+		"text": "נָתַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 946,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"N01392\"><he>נִתֵּר</he></cite> (b. h.;  [<i>to move</i>.] <i>to leap</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 38a:8\">B. Kam. 38ᵃ</cite> (ref. to <cite ref=\"Habakkuk 3:6\">Hab. III, 6</cite>) <he>מאי משמע דחאי ויתר לישנא דאגלויי הוא</he> what evidence is there that this <i>vayyatter</i> has the meaning of sending into exile (causing to emigrate)? Answ. ref. to <he>לְנַתֵּר</he> (<cite ref=\"Leviticus 11:21\">Lev. XI, 21</cite>). ",
+						"<cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite> (ref. to <cite ref=\"Job 37:1\">Job XXXVII, 1</cite>) <he>מהו וְיִתַּר יקפץ וכ׳</he> what does <i>v’yittar</i> mean? It will leap, as we read (Lev. l. c.) &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to exile</i>. B. Kam. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite>, beg. <he>ומַתִּיר את הגנבים</he> and condemned the thieves to exportation (v., however, <cite ref=\"C00701\"><he>גִּיֵּיד</he></cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

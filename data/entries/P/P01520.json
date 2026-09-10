@@ -1,0 +1,29 @@
+{
+	"id": "P01520",
+	"slug": "עשתור",
+	"headword": {
+		"text": "עַשְׁתּוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר עַשְׁתּוֹר"
+		}
+	],
+	"page": {
+		"number": 1128,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar ʿAshtor</i>, the progenitor of a family of converts. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:4:3\">Y. Bicc. I, 64ᵃ</cite> top <he>אילין דבר ע׳ וכ׳</he> those of the family of B. A. who are converts, sons of converts. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:4:3\">Ib.</cite> <he>קיימה בנימין בר ע׳ וכ׳</he> one Benjamin B. A. stood before us (was admitted as witness) in the case of &c.; <cite ref=\"Jerusalem Talmud Bikkurim 1:4:3\">ib.</cite> <he>בר אשתור</he>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 6:1:5\">Y. Dem. VI, 25ᵇ</cite> top."
+			]
+		}
+	]
+}

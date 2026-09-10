@@ -1,0 +1,57 @@
+{
+	"id": "E00650",
+	"slug": "הן-3",
+	"headword": {
+		"text": "הָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹן"
+		}
+	],
+	"page": {
+		"number": 356,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ה׳ ד־ <i>he who</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:1\">Targ. Prov. XIX, 1</cite>, a. fr. in Ms., ed. Lag. <cite ref=\"E00218\"><he>הֲווֹ</he></cite> q. v.—Pesik. Aḥaré, p. 169ᵇ, v. <cite ref=\"D00404\"><he>דְּחוּכָא</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>this one, that one</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:20\">Y. Meg. I, 72ᵃ</cite> <he>היך … להן וכ׳</he> (<cite ref=\"Jerusalem Talmud Sukkah 3:10:4\">Y. Succ. III, 54ᵃ</cite> top <he>לדין</he>), v. <cite ref=\"E00374\"><he>הֵיךְ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:11\">Y. Kil. IX, 32ᶜ</cite> top [read:] <he>מה הן שאל להן וכ׳</he>; <cite ref=\"Jerusalem Talmud Ketubot 12:3:12\">Y. Keth. XII, 35ᵇ</cite> top <he>מה הין דשאיל להון</he> (corr. acc.) from all that this one asked that one &c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>what?</i> Y. B. Mets. II, 8ᶜ <cite ref=\"L00168\"><he>לְהָן</he></cite>, v. <cite ref=\"A00510\"><he>אֲהָן</he></cite>.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>where</i> (relat.), <i>where?</i> <cite ref=\"Esther Rabbah 3:14\">Esth. R. to I, 12</cite> [read:] <he>הן דליסטאה מקפח וכ׳</he> where the robber waylays, there he is executed. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:33\">Y. Snh. I, 19ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Nedarim 6:8:13\">Y. Ned. VI, 40ᵃ</cite> bot. <he>הן דמטא מטא</he> where he came to, he came to (and his order was obeyed). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:11\">Y. Kil. IX, 32ᶜ</cite> bot. [read:] <he>להן דאשתלחית מינסבינן</he> to the place whither I was sent to take them; <cite ref=\"Jerusalem Talmud Ketubot 12:3:14\">Y. Keth. XII, 35ᵇ</cite> <he>להון דשלחית</he> (read <he>דאשתלחית</he>). ",
+				"<cite ref=\"Bereishit Rabbah 78:3\">Gen. R. s. 78</cite>, v. <cite ref=\"B01154\"><he>בְּרָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:9\">Y. Ber. II, 5ᶜ</cite> bot. <he>להן ייזיל</he> whither shall he go? Ib. II, 5ᵃ top <he>מן הן הוא</he> where is he from?; a. fr.—Pl. <cite ref=\"E00671\"><he>הַנְהוּ</he></cite>, <he>הַנֵּי</he>, <cite ref=\"E00684\"><he>הַנָּךְ</he></cite> <i>those, these</i>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:10\">Targ. Esth. I, 10</cite>; a. e.—",
+				"<cite ref=\"Tamid 32b:36\">Tam. 32ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 117a:6\">B. Mets. 117ᵃ</cite>, v. <cite ref=\"E00174\"><he>הַהוּא</he></cite>.—",
+				"<cite ref=\"Gittin 6a:15-16\">Gitt. 6ᵃ</cite> <he>הנך … דהני והני בדהנך וכ׳</he> those (the inhabitants of Ctesiphon) know the signatures of these (of Ardshir), but the latter do not know &c. ",
+				"<cite ref=\"Beitzah 10b:8\">Bets. 10ᵇ</cite>; a. v. fr.—*<i>Fem.</i> pl. <cite ref=\"E00687\"><he>הַנָּן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:13\">Y. Bets. V, 63ᵇ</cite> top <he>רבנין … מפרשין לה׳</he> the Rabbis of Cæsarea report these (controversies) more explicitly (stating the opinion of each by name; <cite ref=\"Jerusalem Talmud Pesachim 8:3:4\">Y. Pes. VIII, 36ᵃ</cite> top <he>מפרשין להון</he>).—<he>הני מילי</he> (abbrev. <he>הנ״מ</he>) these words (have been said), i.e. <i>this is the case only</i> &c. ",
+				"<cite ref=\"Berakhot 21a:17\">Ber. 21ᵃ</cite> bot. (<he>הוה אמינא</he>) <he>הנ״מ יחיד ויחיד</he> I might have thought this refers only to &c.—",
+				"<cite ref=\"Berakhot 15a:5\">Ib. 15ᵃ</cite> <he>והנ״מ לק״ש</he> but this applies only to &c.; a. v. fr.—<he>מנא הני מילי</he>, v. <cite ref=\"M01699\"><he>מְנָא</he> II</cite>.—Emphatic. <he>הַנָּא</he>, <cite ref=\"E00667\"><he>הַנָּה</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 87:5\">Gen. R. s. 87</cite> <he>הנה טבא וכ׳</he> is this (slave) good? Is the omen favorable?; <cite ref=\"Yalkut Shimoni on Torah 145:11\">Yalk. ib. 145</cite> <he>הא טב וכ׳</he> (corr. acc.)."
+			],
+			"label": "4"
+		}
+	]
+}

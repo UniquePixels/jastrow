@@ -1,0 +1,29 @@
+{
+	"id": "Q00451",
+	"slug": "פחה-1",
+	"headword": {
+		"text": "פֶּחָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֶּי׳"
+		}
+	],
+	"page": {
+		"number": 1151,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <cite ref=\"Q01377\"><he>בעל פ׳</he></cite>, v. Del. Assyr. Handw. p. 519; <cite ref=\"Q00451\"><he>פחה</he></cite> <i>to be large</i>, <i>grandee, high officer, governor</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 4:3:5\">Y. Bets. IV, 62ᶜ</cite> (R. Ḥiya addressing Rab) <he>בן פי׳ אחריהם</he> son of nobility, follow them (the example of thy kindred)!—Pl. <cite ref=\"Q00457\"><he>פַּחוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Bikkurim 3:3\">Bicc. III, 3</cite> <he>הפ׳ הסגנים וכ׳</he> the grandees, the chiefs, and the treasurers (of the Temple) went out to meet them. ",
+				"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14</cite>; a. e."
+			]
+		}
+	]
+}

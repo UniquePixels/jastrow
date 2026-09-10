@@ -1,0 +1,22 @@
+{
+	"id": "M01875",
+	"slug": "מסוסא",
+	"headword": {
+		"text": "מָסוֹסָא"
+	},
+	"page": {
+		"number": 804,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01979\"><he>מְסַס</he></cite>; v. <cite ref=\"E00636\"><he>הֶמְסֵס</he></cite>) <i>stomach</i> (of man). ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 12:4:1\">Koh. R. to XII, 4</cite> (ref. to <cite ref=\"M00904\"><he>מחנה</he></cite>, <cite ref=\"Kohelet Rabbah 12:4:1\">ib.</cite>) <he>ע״י דלית מ׳ טחין</he> because the stomach grinds no more; (<cite ref=\"Shabbat 152a\">Sabb. 152ᵃ</cite> <cite ref=\"S00640\"><he>קורקבן</he></cite>; <cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite> <cite ref=\"E00636\"><he>המסס</he></cite>)."
+			]
+		}
+	]
+}

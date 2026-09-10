@@ -1,0 +1,28 @@
+{
+	"id": "M01226",
+	"slug": "מיניקות",
+	"headword": {
+		"text": "מֵינִיקוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵנִי׳"
+		}
+	],
+	"page": {
+		"number": 777,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00445\"><he>יָנַק</he></cite>) <i>nursing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Niddah 1:3:4\">Y. Nidd. I, 49ᵃ</cite> bot.; ib.ᶜ top <he>ימי מֵינִיקוּתָהּ</he> the time during which she nurses; Bab. ",
+				"<cite ref=\"Niddah 36a\">Nidd. 36ᵃ</cite>; <cite ref=\"Niddah 10b\">10ᵇ</cite>; a. fr.—[<cite ref=\"Tosefta Keilim Metsia 4:5\">Tosef. Kel. B. Mets. IV, 5</cite>, v. <cite ref=\"M01233\"><he>מֵינֶקֶת</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "M01386",
+	"slug": "מכך-1",
+	"headword": {
+		"text": "מָכַךְ"
+	},
+	"page": {
+		"number": 782,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"M00470\"><he>מוּךְ</he></cite>), <i>Hif.</i> <he>הֵימֵךְ</he> <i>to bend, lower</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Nazir 4:7\">Tosef. Naz. IV, 7</cite> <he>הֵימַכְתִּי את וכ׳</he> I bent my head."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נָמַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 296\">Sifré Deut. 296</cite> <he>נָמַכּיּ</he>, v. <cite ref=\"H01857\"><he>חָשַׁל</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְמַכֵּךְ"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"M01403\"><he>מִכְמֵךְ</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

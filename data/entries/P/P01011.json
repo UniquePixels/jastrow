@@ -1,0 +1,45 @@
+{
+	"id": "P01011",
+	"slug": "ענקא",
+	"headword": {
+		"text": "עִנְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳"
+		},
+		{
+			"text": "עוּ׳"
+		}
+	],
+	"page": {
+		"number": 1096,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"P01010\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>neck, throat</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 69:4\">Targ. Ps. LXIX, 4</cite> <he>עִינְקִי</he> (ed. Wil. <cite ref=\"P00604\"><he>עֻנְ׳</he></cite>; Ms. <he>עוּנְ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 115:7\">Ib. CXV, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 149:6\">Ib. CXLIX, 6</cite>; a. e.—",
+				"<cite ref=\"Berakhot 44b\">Ber. 44ᵇ</cite>; <cite ref=\"Shabbat 140b\">Sabb. 140ᵇ</cite>, v. <cite ref=\"A00760\"><he>אוּנְקָא</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>necklace, chain</i>.—Pl. <he>עִנְקַיָּא</he>, <cite ref=\"P00072\"><he>עִי׳</he></cite>, <cite ref=\"P00698\"><he>עוּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 8:21\">Targ. Jud. VIII, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 8:26\">Ib. 26</cite> (ed. Wil. <he>עֲנָקַ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:19\">Targ. Is. III, 19</cite> (h. text <he>הנטפות</he>).—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:15\">Y. Sabb. VI, 8ᵇ</cite> bot. (expl. <he>השהרנים</he>, <cite ref=\"Isaiah 3:18\">Is. III, 18</cite>) <he>עוּנְקַיָּיה</he>."
+			],
+			"label": "2"
+		}
+	]
+}

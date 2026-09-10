@@ -1,0 +1,41 @@
+{
+	"id": "Q00868",
+	"slug": "פירסומי",
+	"headword": {
+		"text": "פִּירְסוּמֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1172,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q01935\"><he>פַּרְסֵם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>uncovering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 18:6\">Targ. Y. Lev. XVIII, 6</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>divulging, betraying</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 19:26\">Targ. Y. Gen. XIX, 26</cite> <he>בפ׳ עניא</he> (ed. Amst. <he>בפִירְסוֹמִי</he>, corr. acc.) by betraying the presence of a poor man in her house (v. ",
+				"<cite ref=\"Bereishit Rabbah 51\">Gen. R. s. 51</cite>).—<he>פרסומי ניסא</he>, v. <cite ref=\"Q01935\"><he>פַּרְסֵם</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

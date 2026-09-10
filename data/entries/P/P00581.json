@@ -1,0 +1,24 @@
+{
+	"id": "P00581",
+	"slug": "עיליתא-1",
+	"headword": {
+		"text": "עִילִיתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1070,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00567\"><he>עִילָא</he> II</cite>) <i>falsehood, wrong</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 24:20\">Targ. Job XXIV, 20</cite> ed. Lag. (ed. Wil. <cite ref=\"P00586\"><he>עִילְתָא</he></cite>; h. text <cite ref=\"P00250\"><he>עַוְלָה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 15:16\">Ib. XV, 16</cite>, v. <cite ref=\"P00273\"><he>עַוְלְתָא</he></cite>."
+			]
+		}
+	]
+}

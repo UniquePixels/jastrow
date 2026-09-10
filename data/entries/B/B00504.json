@@ -1,0 +1,32 @@
+{
+	"id": "B00504",
+	"slug": "בטי-2",
+	"headword": {
+		"text": "בטי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּטָא"
+		},
+		{
+			"text": "בָּטָה"
+		}
+	],
+	"page": {
+		"number": 156,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;√<he>בט</he><i>to be hollow, to swell;</i> v. <he>בטן</he>, <cite ref=\"B00502\"><he>בטט</he></cite>",
+			"units": []
+		},
+		{
+			"gloss": ", <cite ref=\"B00515\"><he>בטל</he></cite> &c.; v. Ges. H. Dict. s. v.) <i>to talk inconsiderately, make hasty vows</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 64b:18\">Erub. 64ᵇ</cite> (ref. to <cite ref=\"Proverbs 12:18\">Prov. XII, 18</cite>) <he>כל הבּוֹטֶה</he> whoever vows or swears inconsiderately.—Denom. <cite ref=\"B00579\"><he>בִּיטּוּי</he></cite>."
+			],
+			"label": "1"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "G00326",
+	"slug": "זיזיון",
+	"headword": {
+		"text": "זִיזְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיזְיָן"
+		},
+		{
+			"text": "זִיזְיָין"
+		}
+	],
+	"page": {
+		"number": 393,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Zizyon, Zizyan</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 4:8\">Tosef. Shebi. IV, 8</cite> <cite ref=\"G00326\"><he>זיזין</he></cite> ed. Zuck. (Var. <cite ref=\"G00326\"><he>זיזיין</he></cite>, ed. <cite ref=\"G00326\"><he>זיזיון</he></cite>); <cite ref=\"Jerusalem Talmud Demai 2:1:19\">Y. Dem. II, 22ᵈ</cite> top <cite ref=\"H00684\"><he>חיויון</he></cite>."
+			]
+		}
+	]
+}

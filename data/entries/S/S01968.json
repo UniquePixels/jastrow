@@ -1,0 +1,58 @@
+{
+	"id": "S01968",
+	"slug": "קרח-3",
+	"headword": {
+		"text": "קָרַח"
+	},
+	"page": {
+		"number": 1415,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be round and smooth</i>,] (denom. of <cite ref=\"S01966\"><he>קֵרֵחַ</he></cite>) <i>to make a bald spot</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:5\">Macc. III, 5</cite> <he>הקוֹרִחַ קרחה וכ׳</he> he that makes a baldness upon his head. ",
+				"<cite ref=\"Makkot 20a:12\">Ib. 20ᵃ</cite> <he>יכול אפי׳ ק׳ … קריחות וכ׳</he> lest you think that even if one makes four or five spots, he is guilty only of one act; <cite ref=\"Kiddushin 36a:9\">Kidd. 36ᵃ</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִקְרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to become bald, hairless, smooth</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:3\">Maasr. I, 3</cite> <he>האגסים … משיִקָּרְהוּ</he> (Y. ed. <he>משׁיַקְרִיחוּ</he>, a. <he>משיקרחו</he>) pears … are subject to tithes when their surface begins to grow smooth, v. infra. ",
+						"<cite ref=\"Mishnah Negaim 8:5\">Neg. VIII, 5</cite> <he>חזר … ונִקְרְחוּ</he> if head and chin changed and became bald; <cite ref=\"Tosefta Negaim 3:10\">Tosef. ib. III, 10</cite> (not <he>שנ׳</he>); a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִקְרִיחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01967\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Tosefta Ma'asrot 1:2\">Tosef. Maasr. I, 2</cite> <he>משיַקְרִיחוּ</he> (not <he>משיקד׳</he>), v. supra. Y. ib. I, 48ᵈ bot. <he>משיקריחו … משיעשו קרחות … לבנות</he> ‘when they get smooth’ (Mish. ",
+						"<cite ref=\"Mishnah Maasrot 1:3\">ib. I, 3</cite>, v. supra) …, that means, when they begin to get white, smooth spots (cmp. <cite ref=\"S01932\"><he>קְרוּחַ</he></cite>). ",
+						"<cite ref=\"Mishnah Maasrot 1:3\">Ib.</cite> <he>וכי מחמת האוכל הן מַקְרִיחִין וכ׳</he> do the fruits get white spots because of the development of the eatable matter (flesh), is it not on account of worms?; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make bare, raze</i>. Y. Kil. IV, beg. 29ᵃ <he>קרחת</he> … <he>מקריחין אותו וכ׳</he> ‘a bald portion of a vineyard’ (Mish. ",
+					"units": [
+						"<cite ref=\"Mishnah Kilayim 4:1\">ib. IV, 1</cite>) is one which is razed in the centre; <he>כרם שחרב מקריחין וכ׳</he> ‘a waste vineyard’ (ib. 2) is one which is razed on all sides. ",
+						"<cite ref=\"Sotah 46b:19\">Sot. 46ᵇ</cite> (play on <cite ref=\"S01971\"><he>קרח</he></cite>, <cite ref=\"II Kings 2:23\">II Kings II, 23</cite>) <he>שהִקְרַחְתָּ עלינו את המקום</he> thou hast made the place bare for us (ruined our water trade by healing the well); a. e.—Part. pass. <he>מוּקְרָח</he>; <i>pl.</i> <he>מוּקְרָחִין</he>. Y. Kil. I, 27ᵇ bot. <he>ששה על ששה מוק׳ וכ׳</he> when one throws mixed seeds into a plot of six (cubits) by six which lies vacant within a field of grains or which is fenced in."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

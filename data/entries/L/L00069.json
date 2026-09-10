@@ -1,0 +1,28 @@
+{
+	"id": "L00069",
+	"slug": "לביאה",
+	"headword": {
+		"text": "לְבִיאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְבִיָיא"
+		}
+	],
+	"page": {
+		"number": 689,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"L00067\"><he>לָבִיא</he></cite>) <i>lioness</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 106a:5\">Snh. 106ᵃ</cite>, v. <cite ref=\"L00067\"><he>לָבִיא</he></cite>.—",
+				"<cite ref=\"Midrash Tehillim 39:2\">Midr. Till. to Ps. XXXIX</cite>; <cite ref=\"Yalkut Shimoni on Nach 721:1\">Yalk. ib. 721</cite>, v. <cite ref=\"K00684\"><he>כִּלְבִּיָּא</he></cite>."
+			]
+		}
+	]
+}

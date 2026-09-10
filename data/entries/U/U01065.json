@@ -1,0 +1,34 @@
+{
+	"id": "U01065",
+	"slug": "שירוי",
+	"headword": {
+		"text": "שֵׁירוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁירוּיָא"
+		},
+		{
+			"text": "שֵׁר׳"
+		}
+	],
+	"page": {
+		"number": 1569,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01961\"><he>שְׁרֵי</he></cite>) <i>beginning; the firstling</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 30:23\">Targ. Y. Ex. XXX, 23</cite> <he>בש׳</he> (h. text <he>ראש</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 9:10\">Targ. Prov. IX, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 49:3\">Targ. Y. Gen. XLIX, 3</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> (ref. to Gen. l. c.) <he>ש׳ חילי וש׳ צערי</he> the beginning of my strength, and the beginning of my trouble.—Pl. <he>שֵׁירוּיִין</he>, <he>שׁירוּיָיתָא שֵׁר׳</he> (<i>fem.</i>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 18:12\">Targ. Y. I Num. XVIII, 12</cite> <he>שֵׁירוּיֵיהוֹן</he>; <cite ref=\"Targum Jonathan on Numbers 2\">II</cite> <he>שֵׁירוּיַיתְהוֹן</he> (ed. Vien. <cite ref=\"U00069\"><he>שִׁי׳</he></cite>)."
+			]
+		}
+	]
+}

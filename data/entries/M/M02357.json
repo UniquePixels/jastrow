@@ -1,0 +1,33 @@
+{
+	"id": "M02357",
+	"slug": "מצר-6",
+	"headword": {
+		"text": "מֵצַר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מִצְרָא"
+		},
+		{
+			"text": "מִיצְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 828,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02356\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 5a:4\">B. Bath. 5ᵃ</cite> <he>זבין ארעא אמ׳ וכ׳</he> bought a field contiguous to the estate of R.—",
+				"<cite ref=\"Bava Batra 5a:4\">Ib.</cite>, a. fr. <he>דינא דבר מ׳</he> the prerogative of the neighbor, the right of preemption. ",
+				"<cite ref=\"Bava Metzia 108b:14\">B. Mets. 108ᵇ</cite>, a. fr. <he>לית בה דינא דבר מ׳</he> the law of preemption does not apply in this case. ",
+				"<cite ref=\"Bava Batra 62b:2\">B. Bath. 62ᵇ</cite>, v. <cite ref=\"Q00938\"><he>פַּלְגָּא</he></cite>; a. fr.—Pl. <cite ref=\"M02363\"><he>מִצְרֵי</he></cite>, <cite ref=\"M01393\"><he>מִי׳</he></cite>. ",
+				"<cite ref=\"Bava Batra 61b:9\">Ib. 61ᵇ</cite>, v. <cite ref=\"M02354\"><he>מְצַר</he> II</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "A01353",
+	"slug": "אימרנא",
+	"headword": {
+		"text": "אִימְרָנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 51,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"M02594\"><he>מָרוֹן</he></cite>; v. <cite ref=\"A01349\"><he>אִימַר</he></cite> a. <cite ref=\"A01352\">preced.</cite>) <i>rebellion</i>. <he>בני א׳</he> <i>rebels</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 18a:13\">R. Hash. 18ᵃ</cite> (translating <he>בני מרון</he> Mish.) (all creatures pass before the Lord for receiving their decrees) <he>כבני א׳</he> like rebels (after surrender brought before a court martial; cmp. ",
+				"<cite ref=\"Midrash Tehillim 17:1\">Midr. Till. to Ps. XVII, 1</cite>, s. v. <cite ref=\"A02638\"><he>אפופסין</he></cite>, a. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:3:6\">Y. R. Hash. I, 57ᵇ</cite>). [Rashi <he>אמרנא</he> = Syr. <he>אֵמרונא</he> ‘like young lambs passing singly to be marked for tithes’.]"
+			]
+		}
+	]
+}

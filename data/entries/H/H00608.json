@@ -1,0 +1,35 @@
+{
+	"id": "H00608",
+	"slug": "חטט-2",
+	"headword": {
+		"text": "חֲטַט",
+		"homograph": 1
+	},
+	"page": {
+		"number": 448,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00607\">same</cite>, <i>to dig, hollow out</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 25a\">Ḥull. 25ᵃ</cite>; <cite ref=\"Shabbat 103a\">Sabb. 103ᵃ</cite> <he>דחַט קפיזא וכ׳</he> Ar. (ed. <cite ref=\"D00435\"><he>דחק</he></cite>) he hollowed out a K’fiza (smaller measure) whereas the material was large enough for a Kab. ",
+				"<cite ref=\"Pesachim 28a:3-4\">Pes. 28ᵃ</cite> (prov.) <he>כפא דחט נגרא בגויה נשרי חרדלא ונישלוף</he> Ms. M. (read: <he>ונישרוף</he>; ed. <he>דחט׳ נגרא בגווה נשרוף וכ׳</he>; Var. <cite ref=\"D00435\"><he>דחק</he></cite>) in the ladle which the artisan hollowed out, he shall have mustard soaked and shall swallow it (man is paid with his own coin)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַטֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to dig after, exhume</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 63b:11\">Yeb. 63ᵇ</cite> <he>קא מְחַטְּטֵי שכבי</he> they (the Guebres) exhume the (Jewish) dead. [<cite ref=\"Bava Batra 58a:8\">B. Bath. 58ᵃ</cite>, v. <cite ref=\"H00626\"><he>חַטֵּיטָא</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "Q01242",
+	"slug": "פסול-4",
+	"headword": {
+		"text": "פְּסוּל"
+	},
+	"page": {
+		"number": 1193,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01241\">preced.</cite>) <i>blemish, disqualification</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 1:1\">Yoma I, 1</cite> <he>שמא יארע בו פ׳</he> because something might happen that would disqualify him for the service of the day. ",
+				"<cite ref=\"Pesachim 56a:7\">Pes. 56ᵃ</cite> <he>שמא … יש במיטתי פ׳</he> is there perhaps, which God forbid, a blemish in my couch (an unworthy person among my descendants)? <cite ref=\"Tosefta Mikvaot 1:19\">Tosef. Mikv. I, 19</cite>, a. e. <he>מקוה פְּסוּלוֹ בעצמו</he> a bath (that has become unfit for ritual purposes) has its unfitness in itself; <he>בן גרושה … שפסולו באחרים</he> whereas the son of a divorced woman (married to a priest) owes his disqualification to others (his parents). ",
+				"<cite ref=\"Tosefta Mikvaot 1:19\">Ib.</cite> <he>פסולו ביחיד</he> his (its) unfitness is caused by a single person; <he>פסולו בבית דין</he> by a court; <cite ref=\"Mishnah Mikvaot 3:1\">Mikv. III, 1</cite> <he>לעולם הוא בפסולו וכ׳</he> it remains in its condition of unfitness until &c. ",
+				"<cite ref=\"Mishnah Zevachim 8:3\">Zeb. VIII, 3</cite> <he>אין מביאין קדשים לבית הפ׳</he> we must not wittingly cause sacred meat to be brought to the place where the unfit things are burnt. ",
+				"<cite ref=\"Mishnah Zevachim 10:7\">Ib. X, 7</cite> <he>שלא יביא … לידי פ׳</he> for one must not cause T’rumah to become unfit; a. v. fr."
+			]
+		}
+	]
+}

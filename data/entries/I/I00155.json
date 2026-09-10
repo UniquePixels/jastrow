@@ -1,0 +1,31 @@
+{
+	"id": "I00155",
+	"slug": "טוי-4",
+	"headword": {
+		"text": "טֳוִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְוָי"
+		},
+		{
+			"text": "טְוָוי"
+		}
+	],
+	"page": {
+		"number": 523,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00152\"><he>טָוָה</he></cite>) <i>spinning, that which is spun</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 26b\">Meg. 26ᵇ</cite>; <cite ref=\"Sanhedrin 48a:12\">Snh. 48ᵃ</cite>, v. <cite ref=\"A03084\"><he>אָרִיג</he></cite>. ",
+				"<cite ref=\"Tosefta Bava Kamma 10:2\">Tosef. B. Kam. X, 2</cite> <cite ref=\"I00005\"><he>טאוי</he></cite> (read <cite ref=\"I00106\"><he>טְוָאי</he></cite>, Var. <cite ref=\"I00132\"><he>טְוָוי</he></cite>)."
+			]
+		}
+	]
+}

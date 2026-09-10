@@ -1,0 +1,55 @@
+{
+	"id": "Q00006",
+	"slug": "פאה",
+	"headword": {
+		"text": "פֵּאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּי׳"
+		}
+	],
+	"page": {
+		"number": 1130,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; פאה <i>to split, divide</i>; v. Ges. H. Dict.<sup>12</sup> s. v.) <i>section, segment, corner</i>.—Pl. <cite ref=\"Q01741\"><he>פֵּאוֹת</he></cite>, <cite ref=\"Q00006\"><he>פֵּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Eruvin 51a:12\">Erub. 51ᵃ</cite> (ref. to <cite ref=\"Numbers 35:5\">Num. XXXV, 5</cite>) <he>פ׳ כתיבן</he> the text speaks of corners (angular additions); <cite ref=\"Numbers 35:5\">ib.</cite> <he>לזה אתה נותן פ׳ אין אתה נותן פ׳ וכ׳</he> for this purpose (the definition of suburbs) you allow corners to be included (i.e. square measurements), but you must not allow corners to those appointing a Sabbath center (<cite ref=\"U00138\"><he>שְׁבִיתָה</he></cite>), i.e. you must allow them to walk only within a circle the radius of which is two thousand cubits. Ib. 11ᵃ <he>בארבע פ׳ השדה</he> Ar. (ed. <he>פינות</he>) in the four corners of the field; a. e.—Esp. "
+			]
+		},
+		{
+			"gloss": " פְּאַת ראש <i>the hair on the temples</i>; <he>פאת זקן</he> <i>the hair on the chin</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 3:5\">Macc. III, 5</cite> <he>המקיף פ׳ ראשו והמשחית פ׳ זקנו</he> (v. ",
+				"<cite ref=\"Leviticus 19:27\">Lev. XIX, 27</cite>) he who cuts off (shaves) the hair of his temples and destroys the hair of his chins; expl. ib. 20ᵇ <he>פאת ראשו סוף ראשו וכ׳</he> the <i>peah</i> of his head means cutting the tail-end of the hair of his head … making his temples as smooth as the spot behind the ear and as the forehead; <he>פאת זקנו סוף זקנו וכ׳</he> the <i>peah</i> of his chin means the pointed ends of his chin &c., v. <cite ref=\"U00794\"><he>שִׁיבּוֹלֶת</he></cite>; Sifra K’dosh., Par. 3, ch. VI; a. e.—In gen. <i>curls</i>; <he>פ׳ נכרית</he> strange (false) curls, <i>wig</i>. ",
+				"<cite ref=\"Mishnah Shabbat 6:5\">Sabb. VI, 5</cite>. ",
+				"<cite ref=\"Nazir 28b\">Naz. 28ᵇ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>פאת שדה</he>) <i>the corner of the field</i>, the <i>portion of the harvest left for the poor, peah</i> (<cite ref=\"Leviticus 19:9\">Lev. XIX, 9</cite> sq.) Sifra K’dosh., Par. 1, ch. I <he>פטור מן הלקט … והפ׳</he> is exempt from the duty of leaving for the poor the gleanings, the forgotten sheaf, and the corner. ",
+			"units": [
+				"<cite ref=\"Leviticus 19:9\">Ib.</cite> <he>חייבים בפ׳</he> are subject to <i>peah</i>. ",
+				"<cite ref=\"Leviticus 19:9\">Ib.</cite> <he>אין פ׳ אלא מחמת הכילוי וכ׳</he> the title of <i>peah</i> comes only through the finishing (of the cutting of the field, i.e. if one left a plot uncut in the middle of a field, the poor cannot take it, before the field is entirely cut), and only when it has a name (has been designated by the owner as the poor man’s share), and the real <i>peah</i> is only that which is left at the end (i.e. he who has left a plot in the middle, must also leave a corner); <cite ref=\"Leviticus 19:9\">ib.</cite> <he>נתן בתחילה הרי זו פ׳</he> if he left a portion on beginning to cut or in the middle, it is <i>peah</i> (belongs to the poor, and is exempt from tithes &c.); <cite ref=\"Mishnah Peah 1:3\">Peah I, 3</cite>; a. v. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (transf.) <i>braid, vines plaited together so as to form a cover or a partition</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 4:5\">Tosef. Kil. IV, 5</cite> <he>אם היו קנים מדוקרנין עושה אותן פ׳ מלמעלה ומותר</he> if forked reeds were standing there, he forms a plait above, and it is permitted (it forms a partition with regard to mixed seeds); <cite ref=\"Eruvin 11b:1\">Erub. 11ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:2:3\">Y. Kil. IV, 29ᵇ</cite> <he>מציל משום פ׳</he> it saves (makes the place marked off by reeds a partitioned field) the same as a garland of vines. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:2:3\">Ib.</cite> <he>הדא פ׳ מה את וכ׳</he> what do you mean by that <i>peah?</i> do you mean overhead, or on the side? <cite ref=\"Jerusalem Talmud Kilayim 4:2:3\">Ib.</cite> bot. <he>הפ׳ אינה וכ׳</he> the ‘plait’ does not save (is not considered a partition), unless it is solidly joined on four sides. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:2:3\">Ib.</cite> <he>פ׳ מהו שתציל בסוכה</he> do intertwined vines form a partition with regard to Succah (to be considered a wall)?; <cite ref=\"Jerusalem Talmud Sukkah 1:1:14\">Y. Succ. I, 52ᵃ</cite> bot. Erub. l. c. top <he>פ׳ מותרת לענין כלאים וכ׳</he> (Ms. M. <he>פ׳ קליעית קליעית</he>, being a gloss to <he>פ׳</he>; v. Rabb. D. S. a. l. note) ‘braids’ form a partition with regard to mixed seeds, but not with regard to Sabbath laws; a. fr.—<i>Peah</i>, name of a treatise of Mishnah, Tosefta and Talmud Y’rushalmi, of the Order of Z’raʿim."
+			],
+			"label": "3"
+		}
+	]
+}

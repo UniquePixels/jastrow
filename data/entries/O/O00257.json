@@ -1,0 +1,51 @@
+{
+	"id": "O00257",
+	"slug": "סוד-1",
+	"headword": {
+		"text": "סוֹד"
+	},
+	"page": {
+		"number": 961,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"O00174\"><he>סַד</he></cite> a. <cite ref=\"J00452\"><he>יָסַד</he></cite>)<i>foundation</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 92b:13\">Snh. 92ᵇ</cite> <he>סוֹדוֹ</he> (Tanḥ. Noah 10 <he>יסודו</he>), v. <cite ref=\"M02443\"><he>מָקַק</he></cite>.—Trnsf. <i>principle</i>. ",
+				"<cite ref=\"Rosh Hashanah 20b:3\">R. Hash. 20ᵇ</cite> <he>ס׳ העיבור</he> the Principle of Intercalation (title of a book). ",
+				"<cite ref=\"Shemot Rabbah 15:27\">Ex. R. s. 15</cite> <he>ס׳ הלבנה</he> the principle of the lunar calendar."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>intimate union, circle, council</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:5\">Y. R. Hash. II, 58ᵇ</cite> (ref. to <cite ref=\"Ezekiel 13:9\">Ez. XIII, 9</cite>) <he>זהו ס׳ העיבור</he> that means the council (of the Sanhedrin) for intercalation; <cite ref=\"Ketubot 112a:16\">Keth. 112ᵃ</cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:14\">Y. Snh. I, 18ᶜ</cite> bot. <he>זה עיבור</he> (corr. acc.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>deliberation, counsel</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 65a:19\">Erub. 65ᵃ</cite> (ref. to the numerical value of <he>י̇י̇ן̇</he> and <he>ס̇ו̇ד̇</he>) <he>נכנס יין יצא ס׳</he> where the wine enters, counsel leaves; <cite ref=\"Sanhedrin 38a:3\">Snh. 38ᵃ</cite>; <cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite>; s. 11. ",
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Ib.</cite> <he>יצא יין נכנס ס׳</he> when the wine has left (where there is abstinence), deliberation enters. ",
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Ib.</cite> (ref. to <cite ref=\"Proverbs 3:32\">Prov. III, 32</cite>) … <he>הוא נוזר זוכה לס׳ החכמה</he> he is abstinent …, therefore he is granted the counsel of divine wisdom. ",
+				"<cite ref=\"Proverbs 3:32\">Ib.</cite> <he>אנשי סוֹדוֹ</he> the men of his (God’s) counsel, i.e. his friends. ",
+				"<cite ref=\"Pesachim 113a:8\">Pes. 113ᵃ</cite> (play on <he>ס̇ו̇דנ̇א̇</he>) <he>ס̇ו̇ד̇ נ̇א̇ה וכ׳</he> (beer-brewing is) a profitable device and a charity (requiring a very small capital); a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>secret</i>. Ib. 49ᵇ <he>אין מגלין להן ס׳</he> we must not entrust a secret to them. ",
+			"units": [
+				"<cite ref=\"Chagigah 14a:2\">Ḥag. 14ᵃ</cite> <he>הקב״ה מגלה להם ס׳ וכ׳</he> the Lord shall reveal a secret (solve mysteries) to them in the hereafter. ",
+				"<cite ref=\"Yevamot 63b:15\">Yeb. 63ᵇ</cite> (fr. Ben Sira) <he>גַּלֵּה ס׳ וכ׳</he> reveal a secret to one out of thousand; a. e."
+			],
+			"label": "4"
+		}
+	]
+}

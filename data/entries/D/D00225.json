@@ -1,0 +1,32 @@
+{
+	"id": "D00225",
+	"slug": "דוח-2",
+	"headword": {
+		"text": "דּוּחַ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 284,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אֲדִיחַ</he> <cite ref=\"D00224\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 4:6\">Targ. II Chr. IV, 6</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,113 @@
+{
+	"id": "O01405",
+	"slug": "ספק-4",
+	"headword": {
+		"text": "סְפַק",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סְפֵיק"
+		}
+	],
+	"page": {
+		"number": 1016,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01404\">same</cite><i>to supply, furnish; to give an opportunity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 24:6\">Targ. Y. II, Num. XXIV, 6</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 28:32\">Targ. Y. II, Deut. XXVIII, 32</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be sufficient; to have enough; to have done</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 20:10\">Targ. I Kings XX, 10</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 27:24\">Targ. I Chr. XXVII, 24</cite>. ",
+				"<cite ref=\"Onkelos Genesis 24:19\">Targ. O. Gen. XXIV, 19</cite> <he>דִּיסָפְקוּן</he> ed. Berl. (oth. <he>דיסַפְּקוּן</he>, <i>Pa.</i>; Y. <he>די ספְקוּן</he>); a. fr.—[<cite ref=\"Aramaic Targum to Lamentations 2:11\">Targ. Lam. II, 11</cite> <he>ספקו בדמען וכ׳</he> my eyes have done shedding tears; prob. to be read: <he>פסקו</he>; h. text <cite ref=\"K00693\"><he>כלו</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַפֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to distribute, supply</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 2:7\">Targ. O. Deut. II, 7</cite> <cite ref=\"O01402\"><he>סַפֶּק</he></cite> (ed. Berl. <cite ref=\"O00395\"><he>סוֹפֵיק</he></cite> <i>Poël</i>; Y. ed. Vien. <cite ref=\"O00395\"><he>סוּפֵיק</he></cite>, read: <cite ref=\"O00290\"><he>סוֹ׳</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Hosea 2:7\">Targ. Hos. II, 7</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be sufficient</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 21:14\">Targ. Jud. XXI, 14</cite>. ",
+						"<cite ref=\"Onkelos Numbers 11:22\">Targ. Num. XI, 22</cite>; a. e.—Esp. (with <cite ref=\"J00094\"><he>ידא</he></cite>; interch. with <i>Pe.</i>) <i>to be able, afford</i>, <cite ref=\"Targum Jonathan on Leviticus 14:21\">Targ. Y. Lev. XIV, 21</cite>, sq.; <cite ref=\"Targum Jonathan on Leviticus 14:30\">30</cite>, sq.—V. <cite ref=\"M01992\"><he>מְסַפְּקָא</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to divide</i>.—Part. pass. <cite ref=\"M01991\"><he>מְסַפַּק</he></cite>, <cite ref=\"M01992\"><he>מְסַפְּקָא</he></cite> <i>divided</i> in opinion, <i>doubtful</i>, <i>questionable</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 5:3\">Targ. Lam. V, 3</cite> <he>מס׳ להון</he> they are in doubt.—",
+						"<cite ref=\"Beitzah 4b:8\">Bets. 4ᵇ</cite> <he>ר׳ אסי סַפּוּקֵי מס׳ ליה</he> R. A. was undecided in his opinion. ",
+						"<cite ref=\"Pesachim 117a:21\">Pes. 117ᵃ</cite> <he>אלמא מס׳ ליה</he> which proves that he was undecided; a. fr.—Hence: "
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to create a doubt, make doubtful, treat as doubtful</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 39a:2\">Kidd. 39ᵃ</cite> (ref. to doubtful ‘Orlah fruit outside of Palestine) <he>סַפֵּק לי וכ׳</he> make them doubtful for me (pluck them in my absence), and I shall eat them. ",
+						"<cite ref=\"Kiddushin 39a:2\">Ib.</cite> <he>מְסַפְּקוּ סַפּוּקֵי להדדי</he> they made (the fruit) doubtful to one another (by exchanging fruit cut by the one in the absence of the other). ",
+						"<cite ref=\"Bekhorot 49a:9\">Bekh. 49ᵃ</cite> <he>מְסַפְּקִינָן ליה</he> we treat it as doubtful."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["סוֹפֵיק", "סוֹפָק"],
+			"senses": [
+				{
+					"gloss": "<i>to supply</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 13:5\">Targ. Hos. XIII, 5</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 2:7\">Targ. Deut. II, 7</cite>, v. supra."
+					]
+				}
+			],
+			"stem": "Poël."
+		},
+		{
+			"forms": ["אַסְפֵּיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01404\">same</cite>, <i>to supply; to be sufficient</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 49:20\">Targ. Y. II, Gen. XLIX, 20</cite>. ",
+						"<cite ref=\"Targum Jonathan on Joshua 17:16\">Targ. Josh. XVII, 16</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to divide, distribute</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 34:37\">Targ. Job XXXIV, 37</cite> (v. ",
+						"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite>, quot. in <cite ref=\"O01404\">preced.</cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

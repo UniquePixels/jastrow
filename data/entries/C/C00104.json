@@ -1,0 +1,63 @@
+{
+	"id": "C00104",
+	"slug": "גבל-2",
+	"headword": {
+		"text": "גְּבַל"
+	},
+	"page": {
+		"number": 207,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"C00103\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:38\">Y. Sabb. VII, 10ᵇ</cite> bot. <he>ההן דִּגְבַל כ׳</he> (or <he>דְּגַבַּל</he>) he who kneads lime dust. ",
+				"<cite ref=\"Gittin 69a:13\">Gitt. 69ᵃ</cite> <he>ונִיגְבּוֹל בדובשא</he> let him knead it with honey. ",
+				"<cite ref=\"Gittin 69a\">Ib.</cite> <he>וניגדול … וניגבול בהדין קיטמא</he> Ar. (Var. v. <cite ref=\"C01238\"><he>גַּרְבֵּל</he></cite>; ed. <he>וניגדבל</he>) let him twist … and mix (the wick) thoroughly with ashes. ",
+				"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite>, end <he>גַּבְלִין ליה וכ׳</he>, v. <cite ref=\"A00421\"><he>אֲדַמְדְּמָנֵי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of parasite worms) <i>to grow</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 67b:10\">Ḥull. 67ᵇ</cite> <he>מיניה קא גַבְלֵי</he> they grow out of it (originate in the body). ",
+				"<cite ref=\"Chullin 67b:10\">Ib.</cite> bot. <he>כי קא גַבְלָן וכ׳</he> when they grew, they grew as permitted food."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּבֵּל"],
+			"senses": [
+				{
+					"gloss": " as Pe. 1).—Y. Maas. Sh. V, 56ᵈ top <he>ומְגַבְּלָא אדמיה וכ׳</he> and to mix its blood with flax-seed. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 69a:6\">B. Mets. 69ᵃ</cite> (prov.) <he>גַּבֵּיל לתורא גביל לתורי</he> mix (fodder) for an ox, mix for oxen, i.e. it is the same trouble. ",
+						"<cite ref=\"Berakhot 40a:1\">Ber. 40ᵃ</cite> <he>גביל לתורי</he> (if he interrupted himself by saying,) ‘Mix fodder for the oxen’. ",
+						"<cite ref=\"Shabbat 156a:3\">Sabb. 156ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְגַּבֵּל", "אִיגַּבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be kneaded</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite> <he>אִיגַּבְּלוּן בלישה</he> the coins were kneaded with the dough."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

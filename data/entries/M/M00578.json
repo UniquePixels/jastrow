@@ -1,0 +1,44 @@
+{
+	"id": "M00578",
+	"slug": "מוק-1",
+	"headword": {
+		"text": "מוּק"
+	},
+	"page": {
+		"number": 747,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"M00470\"><he>מוּךְ</he></cite> a. <he>מקק</he>) <i>to be crushed, stamped upon; to be soft;</i> v. <cite ref=\"M00579\">next w.</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַיֵּיק", "מַיֵּק"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"B01010\"><he>בָּסַר</he> I</cite>; b. h. <i>Hif.</i>) <i>to talk contemptuously, sneer, mock</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 19:28\">Targ. Prov. XIX, 28</cite> (Ms. corruptly <he>ממריק</he>, for <he>מְמַיֵּיק</he>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 3:11\">Ib. III, 11</cite> <he>תמריק</he> (read: <he>תְמַיֵּיק</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָמֵיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M00577\">same</cite>. Ib. IX, 12 (some ed. <he>מֵמִיךְ</he>, v. <cite ref=\"M00470\"><he>מוּךְ</he></cite>).—",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 37:22\">Targ. Is. XXXVII, 22</cite> <he>ממיקא</he> ed. Lag. (oth. ed. <he>מעי׳</he>); <cite ref=\"Targum Jonathan on II Kings 19:21\">Targ. II Kings XIX, 21</cite> <he>ממי׳</he> Bxt. (ed. Lag. <he>מעי׳</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

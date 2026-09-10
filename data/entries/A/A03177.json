@@ -1,0 +1,24 @@
+{
+	"id": "A03177",
+	"slug": "ארמילוס",
+	"headword": {
+		"text": "אַרְמִילוֹס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 123,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (a disguise of Romulus, Ῥώμυλος = Rome) <i>Armilus</i>, a mythical personage, representative of wickedness, answering to the Christian Antichrist. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 11:4\">Targ. Is. XI, 4</cite> <he>א׳ רשיעא</he> A. the wicked. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 34:3\">Targ. Y. Deut. XXXIV, 3</cite> <cite ref=\"A03181\"><he>ארמלגוס</he></cite> (corr. acc.); cmp. <cite ref=\"A03186\"><he>אַרְמַנִּיאָה</he></cite>. [V. Book of Zerub.; Saadia Emunoth VIII, 2; Graetz Gesch. d. Jud. V, p. 496.]"
+			]
+		}
+	]
+}

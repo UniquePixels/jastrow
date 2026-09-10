@@ -1,0 +1,30 @@
+{
+	"id": "D00818",
+	"slug": "דלוחא",
+	"headword": {
+		"text": "דְּלוּחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּלוֹ׳"
+		}
+	],
+	"page": {
+		"number": 309,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00825\"><he>דְּלַּח</he></cite>) <i>fear; object of fright</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:25\">Targ. Job III, 25</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 31:12\">Targ. Ps. XXXI, 12</cite>; a. fr.—Pl. <he>דְּלוֹחַיָּא</he>, <cite ref=\"D00818\"><he>דְּלוּ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:18\">Targ. Y. Deut. XXV, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 15:21\">Targ. Job XV, 21</cite>; a. e."
+			]
+		}
+	]
+}

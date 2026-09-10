@@ -1,0 +1,35 @@
+{
+	"id": "Q01516",
+	"slug": "פקק-3",
+	"headword": {
+		"text": "פֶּקֶק"
+	},
+	"page": {
+		"number": 1212,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01515\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>anything used to fill up a gap</i> (cmp. <cite ref=\"H00207\"><he>חֶדֶק</he></cite>), <i>stop-gap, stopper</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 17:7\">Sabb. XVII, 7</cite> <he>פ׳ החלון</he> the stopper of the sky-light (compluvium), v. <cite ref=\"Q01514\"><he>פָּקַק</he></cite>. Tosef. Erub. XI (VIII), 9 <he>נוטל את הפ׳ וכ׳</he> he may take out the stopper between the two reservoirs &c. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:20\">Y. Ter. VIII, 45ᵈ</cite> <he>אם היה הפ׳ חוצץ</he> (not <cite ref=\"H00429\"><he>חוץ</he></cite>) if the stopper (of the bottle) is tight; <cite ref=\"Tosefta Terumot 7:16\">Tosef. Ter. VII, 16</cite> (correct version in agreement with Y. l. c., v. <cite ref=\"Q01514\"><he>פָּקַק</he></cite>). Y. l. c. <he>כדי שינטל בפִיקְקוֹ</he> so that the bottle can be lifted by its stopper; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the place where a shoot is joined to the trunk or to a branch of the grape vine, knot</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 81a:9\">B. Kam. 81ᵃ</cite> <he>מן הפ׳ ולמעלה</he> (you are permitted to take a shoot from a neighbor’s vine) from the knot and above it."
+			],
+			"label": "2"
+		}
+	]
+}

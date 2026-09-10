@@ -1,0 +1,55 @@
+{
+	"id": "I00154",
+	"slug": "טוי-3",
+	"headword": {
+		"text": "טְוִי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טְוָא"
+		}
+	],
+	"page": {
+		"number": 523,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"I00153\">preced.</cite> wds.) [<i>to turn</i>,] <i>to roast</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 44:16\">Targ. Is. XLIV, 16</cite> (ed. Wil. <cite ref=\"I00152\"><he>טְוָה</he></cite>); a. fr.—Part. pass. <cite ref=\"I00153\"><he>טָוֵי</he></cite>, constr. <cite ref=\"I00153\"><he>טְוֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 12:8\">Targ. Ex. XII, 8</cite>, sq.—",
+				"<cite ref=\"Gittin 69b:12\">Gitt. 69ᵇ</cite> <he>נִיטַוְויֵיה וכ׳</he> let him roast it in a smithy; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַטְוֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00153\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Beitzah 4a\">Bets. 4ᵃ</cite> <he>מהו לאַטְוִוינְהוּ וכ׳</he> is it permitted to roast them to-day &c."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיטְּוִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be roasted</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 76b:10\">Pes. 76ᵇ</cite> <he>דאִיטְּוָוא וכ׳</he> which was roasted together with meat. ",
+						"<cite ref=\"Bava Kamma 19b:19\">B. Kam. 19ᵇ</cite> <he>דמִטְּוֵוי</he> (Ar. <he>בטָוִוי</he>) it means that it was roasted. ",
+						"<cite ref=\"Berakhot 44b:8\">Ber. 44ᵇ</cite> <he>משיתא מִטְּוָויָתָא</he> than six (eggs) roasted."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

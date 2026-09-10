@@ -1,0 +1,46 @@
+{
+	"id": "U01935",
+	"slug": "שרה-2",
+	"headword": {
+		"text": "שָׂרָה",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1628,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>princess</i>, v. <cite ref=\"U01906\"><he>שַׂר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. f. <i>Sarah, </i>",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " wife of Abraham. ",
+					"units": [
+						"<cite ref=\"Berakhot 13a:10\">Ber. 13ᵃ</cite> <he>ש׳ היא שרי</he> Sarah and Sarai have the same meaning. ",
+						"<cite ref=\"Sanhedrin 39b:21\">Snh. 39ᵇ</cite> <he>עדין … יופי של ש׳</he> she had not yet attained to half the beauty of Sarah. ",
+						"<cite ref=\"Bereishit Rabbah 39:15\">Gen. R. s. 39</cite> <he>אברהם</he> … <he>וש׳ וכ׳</he> Abraham convented the men, and Sarah the women; a. v. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " ",
+					"units": [
+						"<cite ref=\"Gittin 34b:6\">Gitt. 34ᵇ</cite> <he>ופורתא ש׳</he>, v. <cite ref=\"Q02047\"><he>פּוֹרְתָּא</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

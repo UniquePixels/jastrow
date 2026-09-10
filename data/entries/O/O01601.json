@@ -1,0 +1,40 @@
+{
+	"id": "O01601",
+	"slug": "סריג-2",
+	"headword": {
+		"text": "סְרִיג"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְרִיגָא"
+		}
+	],
+	"page": {
+		"number": 1026,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"O01600\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hedged in, besieged, cut off</i>.—Pl. <he>סְריגִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 14:5\">Targ. Job XIV, 5</cite> (h. text <he>חרוצים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>net, checker-work</i>. Ib. XIX, 6 (h. text <he>מצוד</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:17\">Targ. I Kings VII, 17</cite> (ed. Lag. <cite ref=\"O01603\"><he>סְרִיגוּ</he></cite>; h. text <cite ref=\"U00139\"><he>שבכה</he></cite>).—Pl. <he>סְרִיגִין</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:17\">Ib.</cite> B. t. (oth. ed. <cite ref=\"O01601\"><he>סְרִיגַן</he></cite>), v. <cite ref=\"O01605\"><he>סְרִיגְתָּא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

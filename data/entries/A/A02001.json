@@ -1,0 +1,25 @@
+{
+	"id": "A02001",
+	"slug": "אמונה",
+	"headword": {
+		"text": "אֱמוּנָה"
+	},
+	"page": {
+		"number": 76,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"A02038\"><he>אמן</he></cite>)<i>firmness, faith, honesty, surety</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 10:8\">B. Bath. X, 8</cite>, a. e. <he>לא על אֱמוּנָתוֹ הלוהו</he> at the time he extended the loan, he did so not because he was relying on his (the friend’s) surety. ",
+				"<cite ref=\"Mishnah Bava Batra 10:8\">Ib.</cite> <he>שכן על א׳ וכ׳</he> for in this case he did &c. ",
+				"<cite ref=\"Avodah Zarah 55a:5\">Ab. Zar. 55ᵃ</cite> <he>אנו נאבד את אֱמוּנָתֵנוּ</he> shall we abandon our honesty? <cite ref=\"Chullin 133b:4\">Ḥull. 133ᵇ</cite> <he>אין א׳ בכותים</he> Samaritans are (usually) not trusted. ",
+				"<cite ref=\"Tamid 28a\">Tam. 28ᵃ</cite> <he>א׳ יתירה</he> scrupulous honesty. V. <cite ref=\"A02041\"><he>אֲמָנָה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "K00664",
+	"slug": "ככר-2",
+	"headword": {
+		"text": "כִּכָּר"
+	},
+	"page": {
+		"number": 638,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; = <he>כרכר</he>, v. <cite ref=\"K01218\"><he>כִּרְכֵּר</he></cite>) [<i>circle</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>district</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41:7\">Gen. R. s. 41</cite> <he>כל ערי הכ׳</he> all the towns of the (Jordan) district."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>loaf</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 8:2\">Erub. VIII, 2</cite>; <cite ref=\"Mishnah Kelim 17:11\">Kel. XVII, 11</cite> <he>מכ׳ בפונדיון וכ׳</he> bread for two meals consists of a loaf bought for a <i>dupondium</i> when four S’ah of wheat are worth one Sela; <cite ref=\"Mishnah Kelim 17:11\">ib.</cite> <he>משתי ידות לכ׳ וכ׳</he> of two thirds of a loaf three of which represent a Kab of grain. ",
+				"<cite ref=\"Sifrei Devarim 40:13\">Sifré Deut. 40</cite> <he>כ׳ ומקל ירדו וכ׳</he> bread and stick (reward and punishment) came down from heaven tied together; a. v. fr.—Pl. <he>כִּכָּרִים</he>, <he>כִּכָּרוֹת</he>. ",
+				"<cite ref=\"Mishnah Tahorot 5:6\">Toh. V, 6</cite> <he>שני כ׳</he>. ",
+				"<cite ref=\"Berakhot 39b:9\">Ber. 39ᵇ</cite> <he>שתי כ׳</he>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Kikkar</i>, a weight of silver or gold, <i>talent</i> (= 3000 Shekel, v. Zuckerm. Talm. Münz. p. 7). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 44a:14\">Ab. Zar. 44ᵃ</cite> <he>שוה כִּכַּר זהב</he> worth a gold talent; a. fr.—Pl. <he>כִּכָּרִים</he>, constr. <he>כִּכְּרֵי</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:3:4\">Y. Shek. VI, 50ᵇ</cite> top."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "N00764",
+	"slug": "ניקוי",
+	"headword": {
+		"text": "נִיקּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִקּ׳"
+		}
+	],
+	"page": {
+		"number": 908,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01193\"><he>נָקָה</he></cite>) <i>cleansing, clearing</i> from sin. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite>, beg. <he>עולמים אין לו נ׳</he> will never be cleared (forgiven)."
+			]
+		}
+	]
+}

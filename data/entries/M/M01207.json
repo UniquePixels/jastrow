@@ -1,0 +1,35 @@
+{
+	"id": "M01207",
+	"slug": "מין-2",
+	"headword": {
+		"text": "מִין",
+		"homograph": 2
+	},
+	"page": {
+		"number": 775,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"M01072\"><he>מִי</he></cite>, <cite ref=\"M00047\"><he>מַאן</he></cite>)<i>kind, genus, species</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 2:5\">Peah II, 5</cite> <he>מ׳ אחד</he> one kind of seed. ",
+				"<cite ref=\"Mishnah Terumot 2:4\">Ter. II, 4</cite> <he>אין תורמין ממ׳ על שאינו מִינוֹ</he> you must not separate T’rumah from one species to redeem fruits of another species. ",
+				"<cite ref=\"Mishnah Terumot 2:6\">Ib. 6</cite>. <he>הקישות … מ׳ אחד</he> cucumbers and melopepons are considered as the same species. ",
+				"<cite ref=\"Mishnah Bikkurim 3:10\">Bicc. III, 10</cite> <he>תוספת הבכורים מ׳ במינו</he> what you add to the legally required quantity of first fruits must be of the same species; what is used for decorating the first fruits, <he>מ׳ בשאינו מינו</he> must be of a different kind.—",
+				"<cite ref=\"Chullin 100a:8\">Ḥull. 100ᵃ</cite>, a. fr. <he>מין במינו לא בטיל</he>, v. <cite ref=\"B00516\"><he>בְּטֵל</he></cite>. ",
+				"<cite ref=\"Chullin 97b:2\">Ib. 97ᵇ</cite>, a. fr. <he>מ׳ בשאינו מינו</he> a heterogeneous mixture (of forbidden, and permitted things); a. v. fr.—Pl. <he>מִינִים</he>, <he>מִינִין</he>, constr. <he>מִינֵי</he>. Peah l. c. <he>זרעה שני מ׳</he> if he planted on it two different seeds. Ib. <he>שני מיני חטים</he> two kinds of wheat. ",
+				"<cite ref=\"Mishnah Nazir 6:1\">Naz. VI, 1</cite> <he>שלשה מ׳ אסורין וכ׳</he> three kinds of prohibitions exist with reference to the nazarite.—<he>שבעת המ׳</he> the seven products of Palestine (<cite ref=\"Deuteronomy 8:8\">Deut. VIII, 8</cite>). ",
+				"<cite ref=\"Mishnah Bikkurim 1:3\">Bicc. I, 3</cite>; a. fr.—<he>חמשת המ׳</he> the five species of grain (wheat, barley, rye, oat and spelt). ",
+				"<cite ref=\"Mishnah Nedarim 7:2\">Ned. VII, 2</cite>; a. fr.—<he>ארבעה מ׳</he> (<he>שבלולב</he>) the four species of the festive wreath, v. <cite ref=\"L00270\"><he>לוּלָב</he></cite>. ",
+				"<cite ref=\"Mishnah Menachot 3:6\">Men. III, 6</cite>; a. fr.—כְּמִין <i>something like, in the shape of, of the nature of</i>. ",
+				"<cite ref=\"Keritot 5b:114\">Ker. 5ᵇ</cite> <he>כמ׳ נזר</he> drawing the shape of a crown; <he>כמ׳ כי יוני</he>, v. <cite ref=\"K00473\"><he>כי</he></cite>. ",
+				"<cite ref=\"Keritot 5b:114\">Ib.</cite> <he>כמ׳ שתי טיפין וכ׳</he> two drops of oil looking like pearls. ",
+				"<cite ref=\"Taanit 8b:1\">Taan. 8ᵇ</cite>; a. v. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "U02016",
+	"slug": "שרץ-1",
+	"headword": {
+		"text": "שָׁרַץ"
+	},
+	"page": {
+		"number": 1633,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"U02017\"><he>שֶׁרֶץ</he></cite>)<i>to bring forth moving creatures</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 117:1\">Midr. Till. to Ps. CXVII</cite> <he>המים … והן שׁוֹרְצִין</he> the waters are the work of his hand, and they beget life."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁרִיץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U02015\">same</cite>, <i>to cast young, breed</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 10:1\">Ex. R. s. 10</cite> <he>צפרדע … הִשְׁרִיצָה וכ׳</he> there was one frog, and it bred and filled the land &c.; <cite ref=\"Sanhedrin 67b\">Snh. 67ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 183\">Yalk. Ex. 183</cite>. ",
+						"<cite ref=\"Vayikra Rabbah 13:5\">Lev. R. s. 13</cite> <he>מה … מַשְׁרֶצֶת וכ׳</he> as the scorpion casts sixty at a time &c.; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

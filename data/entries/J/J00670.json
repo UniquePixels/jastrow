@@ -1,0 +1,47 @@
+{
+	"id": "J00670",
+	"slug": "ירת",
+	"headword": {
+		"text": "יְרֵת"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְרֵית"
+		}
+	],
+	"page": {
+		"number": 598,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00669\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:4\">Targ. Gen. XV, 4</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 9:1\">Targ. Deut. IX, 1</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Ketubot 4:10\">Keth. IV, 10</cite> (in a marriage contract) <he>יֵרְתוּן וכ׳</he> they shall succeed to thy dowry (<cite ref=\"K01350\"><he>כְּתוּבָּה</he></cite>); <cite ref=\"Bava Batra 131a\">B. Bath. 131ᵃ</cite>. ",
+				"<cite ref=\"Yoma 72b:13\">Yoma 72ᵇ</cite> <he>לא תֵירְתוּן</he>, v. <cite ref=\"C00654\"><he>גֵּיהִינָּם</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:7:1\">Cant. R. to VII, 7</cite> <he>מן דיֵירוּת</he>, v. <cite ref=\"B00430\"><he>בְּזַז</he> I</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 44:11\">Gen. R. s. 44</cite> <cite ref=\"J00641\"><he>יֵרֵית</he></cite>, v. <cite ref=\"L00236\"><he>לוֹט</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:9\">Y. Kidd. I, 61ᵇ</cite> <he>ואֵירַת</he>, v. <cite ref=\"J00581\"><he>יְקַר</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹרִית"],
+			"senses": [
+				{
+					"gloss": "<i>to bequeathe, leave, give possession</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 8:21\">Targ. Prov. VIII, 21</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 13:22\">Ib. XIII, 22</cite>; a. e.—",
+						"<cite ref=\"Bava Batra 131a\">B. Bath. 131ᵃ</cite> <he>בר אוֹרוּתֵי</he> one likely to make a will (a sick person). ",
+						"<cite ref=\"Bava Metzia 16a:6\">B. Mets. 16ᵃ</cite> <he>אוֹרְתָהּ</he> if he willed it away; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

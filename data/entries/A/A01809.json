@@ -1,0 +1,25 @@
+{
+	"id": "A01809",
+	"slug": "אלול",
+	"headword": {
+		"text": "אֱלוּל"
+	},
+	"page": {
+		"number": 67,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>Elul</i>, the sixth month of the Hebrew calendar, containing twenty nine days, varying between the seventh of August and the second of October. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 1:1\">R. Hash. I, 1</cite>. ",
+				"<cite ref=\"Rosh Hashanah 19b:5\">Ib. 19ᵇ</cite>; a. fr. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 3:1:4\">Y. Shek. III, beg. 47ᵇ</cite> bot. <he>בני א׳</he> animals born in Elul. ",
+				"<cite ref=\"Targum Jonathan on Numbers 14:37\">Targ. Y. Num. XIV, 37</cite> <cite ref=\"A01280\"><he>אילול</he></cite>. Targ. II Esth. III, 7."
+			]
+		}
+	]
+}

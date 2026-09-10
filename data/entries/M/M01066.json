@@ -1,0 +1,22 @@
+{
+	"id": "M01066",
+	"slug": "מטרפא",
+	"headword": {
+		"text": "מִטַרְפָא"
+	},
+	"page": {
+		"number": 770,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"I00864\"><he>טַרְפָא</he> I</cite>, <i>leaf.—</i>Pl. constr. <he>מִטַרְפֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 3:7\">Targ. Y. Gen. III, 7</cite>."
+			]
+		}
+	]
+}

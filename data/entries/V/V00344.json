@@ -1,0 +1,23 @@
+{
+	"id": "V00344",
+	"slug": "תותרי-2",
+	"headword": {
+		"text": "תּוֹתְרֵי"
+	},
+	"page": {
+		"number": 1660,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>תרתרי</he>; <he>תְּרֵי</he> III; cmp. <cite ref=\"U02047\"><he>שַׁרְשֶׁרֶת</he></cite>) <i>couplings</i>, animals tied together <i>two by two</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 53b:21\">Sabb. 53ᵇ</cite>, v. <cite ref=\"L00039\"><he>לָבַב</he></cite>."
+			]
+		}
+	]
+}

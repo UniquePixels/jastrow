@@ -1,0 +1,23 @@
+{
+	"id": "S00574",
+	"slug": "קורדייקוס",
+	"headword": {
+		"text": "קוּרְדְּיָיקוֹס"
+	},
+	"page": {
+		"number": 1341,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (καρδιακός) <i>delirious</i>; (sub. <he>חולי</he>) <i>delirium</i>. [This meaning of καρδιακός is not recorded in dictionaries.] <cite ref=\"Mishnah Gittin 7:1\">Gitt. VII, 1</cite> <he>מי שאחזו ק׳ וכ׳</he> one who was seized with delirium and said, Give my wife a letter of divorce &c.; <he>אמר … אחזו ק׳ וכ׳</he> if he said, Write &c., and then in a state of delirium said, Do not write &c. Y. ib. 48ᶜ (expl. <cite ref=\"E00611\"><he>הָמִים</he></cite>). Ib. <he>ק׳ שאמרו חכמים פעמים וכ׳</he> the <i>kardiakos</i> of whom the scholars speak, is one who is at times sane and at times insane; <cite ref=\"Jerusalem Talmud Terumot 1:1:11\">Y. Ter. I, 40ᵇ</cite> <he>קונדייקוס</he> (corr. acc.). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 1:1:11\">Ib.</cite> <he>קונדיקוס ק׳</he> (strike out <cite ref=\"S00420\"><he>קונדיקוס</he></cite>, as a corrupt dittography). ",
+				"<cite ref=\"Gittin 67b:11\">Gitt. 67ᵇ</cite> (expl. our w.) <he>דנכתיה חמרא וכ׳</he> one whom new wine from the pit has bitten (given delirium tremens); <he>הא קמ״ל דהא רוחא ק׳ שמיה</he> the Mishnah, in using that word, intended to teach incidentally that that demon (disease) is named k."
+			]
+		}
+	]
+}

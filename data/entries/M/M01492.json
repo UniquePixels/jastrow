@@ -1,0 +1,33 @@
+{
+	"id": "M01492",
+	"slug": "מלוא-1",
+	"headword": {
+		"text": "מְלוֹא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְלֹא"
+		}
+	],
+	"page": {
+		"number": 787,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M01461\"><he>מָלֵא</he></cite>)<i>fulness, contents</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 3:1\">Mikv. III, 1</cite>, sq. <he>עד שיצא ממנו מְלוֹאוֹ ועוד</he> until a quantity equal to its original contents and something besides have run off. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:3\">Y. Succ. I, 51ᵈ</cite> top <he>אכסדרה שנפרצה במְלוֹאָהּ וכ׳</he> an <i>exedra</i> which is (on one side) entirely open towards the public road. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:3\">Ib.</cite> bot. <he>כמְלוֹאוֹ של דלי</he> as far as the bucket is let down into the water (for filling it). ",
+				"<cite ref=\"Mishnah Chullin 2:3\">Ḥull. II, 3</cite> <he>אם יש בסכין מְלֹא צואר</he> if the slaughtering knife has the length of the width of the neck. ",
+				"<cite ref=\"Kiddushin 33a:13\">Kidd. 33ᵃ</cite> <he>מ׳ עיניו</he> as far as his eye can reach. ",
+				"<cite ref=\"Shabbat 30a\">Sabb. 30ᵃ</cite>, a. e. <he>כמ׳ נימא</he> as much as a hair’s breadth. ",
+				"<cite ref=\"Sifrei Bamidbar 160:14\">Sifré Num. 160</cite> (expl. <he>אבן יד</he>, <cite ref=\"Numbers 35:17\">Num. XXXV, 17</cite>) <he>מ׳ יד</he> as large as the grasp of the hand; a. fr.—[<cite ref=\"Tosefta Ohalot 17:3\">Tosef. Ohol. XVII, 3</cite> <he>מ׳ טימיא</he>, v. <cite ref=\"L00383\"><he>לָטוֹמְיָא</he></cite>.]"
+			]
+		}
+	]
+}

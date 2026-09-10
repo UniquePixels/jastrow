@@ -1,0 +1,23 @@
+{
+	"id": "I00038",
+	"slug": "טבות-2",
+	"headword": {
+		"text": "טָבוּת",
+		"homograph": 2
+	},
+	"page": {
+		"number": 516,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Tabuth</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 97a:6\">Snh. 97ᵃ</cite>, v. <cite ref=\"I00051\"><he>טַבְיוֹמִי</he></cite>; <cite ref=\"Bava Metzia 49a:16\">B. Mets. 49ᵃ</cite> (Ms. Alf. <cite ref=\"I00025\"><he>טָאבוּת</he></cite>, v. Rabb. D. S. a. l. note 6)."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "T00107",
+	"slug": "רביעית",
+	"headword": {
+		"text": "רְבִיעִית"
+	},
+	"page": {
+		"number": 1443,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. h. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"T00106\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite> (v. Maim. a. l.).—2) fem. of <cite ref=\"T00104\"><he>רְבִיעִי</he></cite> q. v.—3) <i>square block</i>. ",
+				"<cite ref=\"Mishnah Tamid 3:5\">Tam. III, 5</cite>, v. <cite ref=\"T00098\"><he>רָבִיעַ</he></cite>."
+			],
+			"label": "1"
+		}
+	]
+}

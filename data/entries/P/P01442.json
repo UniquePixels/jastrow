@@ -1,0 +1,59 @@
+{
+	"id": "P01442",
+	"slug": "ערק-2",
+	"headword": {
+		"text": "עֲרַק"
+	},
+	"page": {
+		"number": 1123,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"P01441\">preced.</cite>; cmp. <he>ברח</he>) <i>to flee, run</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:10\">Targ. Gen. XIV, 10</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 84a:2\">B. Mets. 84ᵃ</cite> <he>אבוך ע׳ … ואת עֲרִיק ללודקיא</he> (Ms. M. <he>ברח</he>) thy father fled (from persecution) to A., flee thou to Laodicea; <cite ref=\"Jerusalem Talmud Maasrot 3:4:5\">Y. Maasr. III, 50ᵈ</cite> bot. <he>עד דעַרְקַת וכ׳</he> (I shall call thee so,) until thou runnest away and goest &c. ",
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite> (<cite ref=\"P01450\"><he>עָרְקִין</he></cite>) <he>עֲרִיקִין הוינן מן קומי וכ׳</he> we were fugitives from a (Roman) troop, and living in &c., v. <cite ref=\"B00507\"><he>בְּטִיטָא</he></cite>; <cite ref=\"Jerusalem Talmud Pesachim 1:1:7\">Y. Pes. I, beg. 27ᵃ</cite> <he>כד הוינן ערקין וכ׳</he>. ",
+				"<cite ref=\"Avodah Zarah 16a:2\">Ab. Zar. 16ᵃ</cite> <he>דכי שלים … מֵעֲרַק עַרְקֵי</he> for when their weapons (missiles) are spent, they run away (and do not attack with their shields). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 16:7:2\">Y. Sabb. XVI, end, 15ᵈ</cite> <he>פריס … ונורא עַרְקָא מינה</he> he spread his cloak …, and the fire fled from it (v. <cite ref=\"C00219\"><he>גָּדִישָׁא</he></cite>); a. fr.—[<cite ref=\"Gittin 78a\">Gitt. 78ᵃ</cite>, v. <cite ref=\"P00160\"><he>עֲדַק</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עָרֵק", "עַרֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to put to flight, chase</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 32:30\">Targ. Deut. XXXII, 30</cite> <he>יְעָרְקוּן</he> (not <he>יֶעֶרְ׳</he>, <he>יְעִירְ׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 19:26\">Targ. Prov. XIX, 26</cite> <he>מְעָרֵיק</he> (ed. Wil. <he>מְעַרֵ׳</he>; some ed. <he>מַעֲרִיק</he> <i>Af.</i>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to save</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 6:11\">Targ. Jud. VI, 11</cite> <he>לעָרָקָא</he> (ed. Wil. <he>לַעֲרָ׳</he> <i>Af.</i>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַעֲרִיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P01441\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 41:20\">Targ. Job XLI, 20</cite> <he>יַעֲרִיק׳</he> (ed. <he>יְעַרְק׳</he> <i>Pa.</i>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 16:28\">Targ. Prov. XVI, 28</cite> <he>מַעֲרִיק וכ׳</he> causes his friend to flee (him) (Var. <he>מעדיק</he>, v. <cite ref=\"P00160\"><he>עֲדַק</he></cite>); a. e., v. supra."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

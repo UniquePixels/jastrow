@@ -1,0 +1,23 @@
+{
+	"id": "U00547",
+	"slug": "שוריי",
+	"headword": {
+		"text": "שׁוּרַיי"
+	},
+	"page": {
+		"number": 1542,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01961\"><he>שְׁרֵי</he></cite>) = <cite ref=\"E00495\"><he>הֶיתֵּר</he></cite>, <i>permission; it is permitted</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:9\">Y. Dem. II, 22ᶜ</cite> <he>המיתון נהיגין … ש׳</he> (not <he>נגיחין</he>) I saw them treat the fig-cake as permitted. ",
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:9\">Ib.</cite> <he>כל דחמי מיא ש׳</he> all the land that faces the sea is permitted; a. e."
+			]
+		}
+	]
+}

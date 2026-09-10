@@ -1,0 +1,47 @@
+{
+	"id": "T00247",
+	"slug": "רדיא-2",
+	"headword": {
+		"text": "רִדְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִדְיָיא"
+		},
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1452,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00246\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ploughing, ploughing season</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 34:21\">Targ. Y. I Ex. XXXIV, 21</cite> (ed. Vien. <he>בְּרִידַיָּא</he>; Y. II <he>בִּירִידָא</he>). Ib. XXI, 37 <cite ref=\"T00253\"><he>רַדְיֵה</he></cite> (some ed. <he>דידיה</he>, read <he>רִידְיֵה</he> or <cite ref=\"T00256\"><he>רַדְיֵיה</he></cite>).—",
+				"<cite ref=\"Bava Kamma 46a:12\">B. Kam. 46ᵃ</cite> <he>אי גברא דזבין לר׳ וכ׳</he> whether he is a man that sells cattle for ploughing or for slaughtering; <cite ref=\"Bava Kamma 46a:13\">ib.</cite> <he>אי דמי ר׳ לר׳</he> if the price of a working beast was paid, it was sold for work; <cite ref=\"Bava Batra 92a:5\">B. Bath. 92ᵃ</cite>, v. <cite ref=\"N00838\"><he>נִכְסָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 92b\">Ib. 92ᵇ</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 12a:8\">Ib. 12ᵃ</cite> <he>רָדֵי יומא</he>, v. <cite ref=\"T00236\"><he>רָדוּ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Ridya</i>, name of the angel of rain. ",
+			"units": [
+				"<cite ref=\"Taanit 25b:9\">Taan. 25ᵇ</cite> <he>לדידי חזי לי האי רי׳ וכ׳</he> I saw Ridya, he looks like a calf &c. ",
+				"<cite ref=\"Yoma 21a:1\">Yoma 21ᵃ</cite> top <he>אף ר׳</he> also the voice of Ridya (v. ",
+				"<cite ref=\"Psalms 42:8\">Ps. XLII, 8</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

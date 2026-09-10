@@ -1,0 +1,30 @@
+{
+	"id": "Q00107",
+	"slug": "פדגוג",
+	"headword": {
+		"text": "פְּדָגוֹג"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּידָ׳"
+		}
+	],
+	"page": {
+		"number": 1136,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (παιδάγωγος) <i>pedagogue, tutor, a youth’s governor</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1:1\">Gen. R. s. 1</cite> (expl. <cite ref=\"A01999\"><he>אמון</he></cite>, <cite ref=\"Proverbs 8:30\">Prov. VIII, 30</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 28:6\">Gen. R. s. 28</cite> <he>למלך שמסר את בנו לפ׳ וכ׳</he> like the case of a king that gave his son in charge of a governor, who led him to excesses. Pesik. Baḥod., p. 101ᵇ <he>אמר פִּידָגוֹגוֹ וכ׳</he> said his tutor, let him go to school; a. fr.—Pl. <he>פְּדָגוֹגִין</he>, <cite ref=\"Q00107\"><he>פִּידָ׳</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 1:2\">Num. R. s. 1</cite>, beg. <he>ולא העמדתי לכם שלשה פ׳ וכ׳</he> (not <cite ref=\"L00167\"><he>להם</he></cite>) and did I not assign to you three governors: Moses, Aaron, and Miriam? (<cite ref=\"Vayikra Rabbah 27:6\">Lev. R. s. 27</cite> <he>שלוחין</he>). ",
+				"<cite ref=\"Devarim Rabbah 2:11\">Deut. R. s. 2</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "T00748",
+	"slug": "רכב-4",
+	"headword": {
+		"text": "רֶכֶב"
+	},
+	"page": {
+		"number": 1479,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00747\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wagon, chariot</i>; (collect. noun) <i>chariots</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 22:2\">Ex. R. s. 22</cite> <he>על רִכְבּוֹ ועל פרשיו</he> over his (Pharaoh’s) chariots and over his horsemen; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>upper millstone</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 9:13\">B. Mets. IX, 13</cite>, v. <cite ref=\"T00495\"><he>רֵחַיִים</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 2:1\">B. Bath. II, 1</cite> <he>מרחיקין … מן הר׳</he> you must keep the mill removed (from the neighbor’s wall) three handbreadths counting from the lower millstone, which makes four from the upper millstone; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>branch for inoculation, set</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 1:10\">Tosef. Kil. I, 10</cite> <he>אין מרכיבין זתים בר׳ תמרה</he> you must not inoculate olive trees with a shoot of a palm; Y. ib. I, 27ᵇ"
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "B01359",
+	"slug": "בשל-1",
+	"headword": {
+		"text": "בָּשַׁל"
+	},
+	"page": {
+		"number": 199,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בש</he>, sec. r. of <he>באש</he>, cmp. <he>בשם</he>, <cite ref=\"B01375\"><he>בשש</he></cite>)<i>to ripen, boil, be done</i> (through natural or artificial heat). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:1:2\">Y. Snh. VIII, beg. 26ᵃ</cite> <he>ב׳ הזרע וכ׳</he> when the seed boils inside (maturity of genital organs), the pot outside becomes dark (genitals are covered with hair)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּשֵּׁל", "בִּישֵּׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to mature, cook, roast</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 95b:11\">Snh. 95ᵇ</cite> <he>לבַשֵּׁל פירות</he> to make the fruits ripen. ",
+						"<cite ref=\"Chullin 98b:1\">Ḥull. 98ᵇ</cite>; a. fr.—",
+						"<cite ref=\"Pesachim 112a:14\">Pes. 112ᵃ</cite> <he>לא תְבַשֵּׁל וכ׳</he> cook not in a pot which thy neighbor has used before thee (i.e. marry not a divorced woman).—Part. Pu. <he>מְבוּשָּׁל</he>. ",
+						"<cite ref=\"Mishnah Nedarim 6:1\">Ned. VI, 1</cite> <he>הנודר מן המב׳ וכ׳</he> he who vows abstinence from anything boiled, is permitted to partake of roasts &c. ",
+						"<cite ref=\"Nedarim 49a:4\">Ib. 49ᵃ</cite> <he>באתרא … קרו מב׳</he> in R. J.’s place they call roast likewise <i>m’bushshal</i> (cmp. ",
+						"<cite ref=\"II Chronicles 35:13\">II Chr. XXXV, 13</cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְבַּשֵּׁל"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"B01368\"><he>נִתְבַּשֵּׁל</he></cite> <i>to be boiled, done, ripe</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Terumot 10:11\">Ter. X, 11</cite>. ",
+						"<cite ref=\"Mishnah Chullin 7:4\">Ḥull. VII, 4</cite>; a. fr.—",
+						"<cite ref=\"Chullin 98b:1\">Ib. 98ᵇ</cite> top, v. <cite ref=\"B01361\"><he>בָּשֵׁל</he></cite>.—",
+						"<cite ref=\"Sotah 11a\">Sot. 11ᵃ</cite>; <cite ref=\"Shemot Rabbah 1:9\">Ex. R. s. 1</cite> <he>בקדרה שבשלו וכ׳</he> in the pot they boiled in, they were boiled, (they were done by as they did by others)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

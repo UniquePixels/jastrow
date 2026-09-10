@@ -1,0 +1,47 @@
+{
+	"id": "S01439",
+	"slug": "קמא-3",
+	"headword": {
+		"text": "קַמָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַמָּאָה"
+		}
+	],
+	"page": {
+		"number": 1383,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>קדמא</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>first, former, previous</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 40:2\">Targ. Y. Ex. XL, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 23:11\">Targ. Y. Lev. XXIII, 11</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 13b:21\">Ber. 13ᵇ</cite> <he>בפסוקא ק׳</he> at the recitation of the first verse of the Sh’mʿa; a. fr.—<he>תנא ק׳</he> (abbrev. <he>ת״ק</he>) the first of the quoted authorities. ",
+				"<cite ref=\"Berakhot 48b:4\">Ib. 48ᵇ</cite>; a. fr.—<he>בבא ק׳</he>, v. <cite ref=\"B00050\"><he>בָּב</he> I</cite>.—Pl. <he>קַמָּאֵי</he>. ",
+				"<cite ref=\"Nazir 56b\">Naz. 56ᵇ</cite> Rashi (ed. <he>קדמאי</he>). ",
+				"<cite ref=\"Bereishit Rabbah 38:4\">Gen. R. s. 38</cite> <he>לא הוה להון למילף מן ק׳</he> ought they not to have taken a lesson from (the fate of) their predecessors? <cite ref=\"Berakhot 20a:5\">Ber. 20ᵃ</cite> <he>ק׳ … מסרי וכ׳</he> the former generations gave up their lives &c. ",
+				"<cite ref=\"Bava Batra 46b:2\">B. Bath. 46ᵇ</cite> <he>ק׳ דקמך</he> those who have long preceded thee; a. fr.—<i>Fem</i> <he>קַמַּיְיתָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:14\">Targ. Prov. XXIV, 14</cite> (ed. Lag. a. oth. <he>קדמיתא</he>).—",
+				"<cite ref=\"Kiddushin 66a:2\">Kidd. 66ᵃ</cite> <he>הך ק׳</he> that first clause. ",
+				"<cite ref=\"Bava Batra 89a:16\">B. Bath. 89ᵃ</cite> bot. <he>הך ק׳ דמאי</he> that first described balance, what is it used for?; a. fr.—Pl. <he>קַמְּיָיתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 41:20\">Targ. Y. Gen. XLI, 20</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>before, in presence of</i>, v. <cite ref=\"S01468\"><he>קמֵּי</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "A01394",
+	"slug": "אינש",
+	"headword": {
+		"text": "אֱינָשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵינָשׁ) אִינְשָׁא"
+		},
+		{
+			"text": "אֵינָשָׁא"
+		},
+		{
+			"text": "אִינִישׁ"
+		},
+		{
+			"text": "אֱנַשׁ"
+		}
+	],
+	"page": {
+		"number": 53,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אנש</he>, sec. r. of <cite ref=\"A00915\"><he>אוּשׁ</he></cite>; h. <i>being</i>, esp. <i>human being</i> <cite ref=\"Daniel 2:10\">Dan. II, 10</cite>, a. fr. <he>אנש</he>.—",
+			"units": [
+				"<cite ref=\"Daniel 7:13\">Ib. VII, 13</cite> <cite ref=\"A02006\"><he>בר א׳</he></cite> son of man (in Talm. freq. <he>בר נש</he>). ",
+				"<cite ref=\"Onkelos Leviticus 13:2\">Targ. O. Lev. XIII, 2</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:2:3\">Y. Snh. VIII, 25ᵃ</cite> bot., a. fr. <he>כאי׳ דמר</he> as if one says. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 8:2:13\">Y. Ber. VIII, 12ᵃ</cite> bot. <he>אֲנָשָׁא רבא</he> a great man. ",
+				"<cite ref=\"Shevuot 22b:17\">Shebu. 22ᵇ</cite>; a. fr.—Pl. <he>אֵינָשִׁין</he>, const. <cite ref=\"N01301\"><he>אֵינָשֵׁי</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 6:4\">Targ. O. Gen. VI, 4</cite>; a. e.—<he>אִינְשִׁין</he>, <cite ref=\"N01301\"><he>אִינְשֵׁי</he></cite>. Targ. Y. ibid.; a. e.—In Talm. mostly <cite ref=\"N01301\"><he>אִינְשֵׁי</he></cite> <i>people</i>. ",
+				"<cite ref=\"Bava Kamma 92b:7\">B. Kam. 92ᵇ</cite> <he>אמרי א׳</he> (text <he>רבנן</he>, corr. acc.). ",
+				"<cite ref=\"Sanhedrin 95b:11\">Snh. 95ᵇ</cite> <he>היינו דאמרי א׳</he> (abbr. <he>ה״דא״א</he>) this is what people say, it is a common saying (proverb). ",
+				"<cite ref=\"Sanhedrin 103a:9\">Ibid. 103ᵃ</cite>; a. v. fr.—",
+				"<cite ref=\"Gittin 45a:21\">Git. 45ᵃ</cite> <he>אִינְשִׁין</he> (our people?)."
+			]
+		}
+	]
+}

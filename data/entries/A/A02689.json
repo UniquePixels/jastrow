@@ -1,0 +1,29 @@
+{
+	"id": "A02689",
+	"slug": "אפילון-2",
+	"headword": {
+		"text": "אַפִּילוֹן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפִּילְיוֹן",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 103,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πυλών, πυλεών) <i>gate-way</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 16b:11\">Ber. 16ᵇ</cite> <he>נכנס לאפיליון</he> Ar. (ed. <cite ref=\"A02276\"><he>אנפילון</he></cite>, Ms. F. <he>לבית המרחץ</he>, read <he>לבית החצר</he>, <cite ref=\"Tractate Semachot 1:10\">Treat. S’maḥ. I, 10</cite> <he>לחצר</he>)."
+			]
+		}
+	]
+}

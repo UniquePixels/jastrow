@@ -1,0 +1,48 @@
+{
+	"id": "H00565",
+	"slug": "חזרה",
+	"headword": {
+		"text": "חֲזָרָה"
+	},
+	"page": {
+		"number": 446,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00560\"><he>חָזַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>return; retraction, reconsideration</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 73b:16\">Keth. 73ᵇ</cite> <he>אין חֲזָרָתָהּ ח׳ גמורה</he> her return (as a minor, to her husband after divorce, i.e. her remarriage) is not fully valid. ",
+				"<cite ref=\"Chullin 116b:12\">Ḥull. 116ᵇ</cite> <he>קידם ח׳</he> before the editor of the Mishnah had changed his opinion. ",
+				"<cite ref=\"Yevamot 64b:17\">Yeb. 64ᵇ</cite> <he>אבין ישנו בח׳</he> Abin (being constantly with R. Joh.) is aware of an eventual change of his teacher’s opinion; [oth. explan.: is in the habit of <i>reviewing</i> his traditions)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>restoration, amendment; atonement, repentance</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:7:2\">Y. R. Hash. I, 57ᶜ</cite> top <he>ויבדק ויחזור בו ח׳ גמורה</he> and he is examined and gives evidence of true reformation; <cite ref=\"Jerusalem Talmud Rosh Hashanah 1:7:2\">ib.</cite> <he>חֲזִירַת ממון לא חֲזָרַת דברים</he> (by which is meant) restoration of ill-gotten gain, not a mere return in words; <cite ref=\"Jerusalem Talmud Shevuot 7:4:1\">Y. Shebu. VII, 37ᵈ</cite> bot.; <cite ref=\"Sanhedrin 25b:6\">Snh. 25ᵇ</cite> <he>חֲזָרַת ממון</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>turning backward, turning inside</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 24a:6\">M. Kat. 24ᵃ</cite> <he>חֲזָרַת קרע לאחוריו</he> turning the rent in the mourner’s garment inside (during the Sabbath); <cite ref=\"Bereishit Rabbah 100:7\">Gen. R. s. 100</cite>; <cite ref=\"Jerusalem Talmud Moed Katan 3:5:19\">Y. M. Kat. III, 82ᵈ</cite> bot. <cite ref=\"H00542\"><he>חֲזִירַת</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>going around</i>, v. <cite ref=\"H00565\"><he>חֲזָרָה</he></cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

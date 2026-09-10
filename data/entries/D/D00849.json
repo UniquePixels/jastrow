@@ -1,0 +1,28 @@
+{
+	"id": "D00849",
+	"slug": "דלעת",
+	"headword": {
+		"text": "דְּלַעַת"
+	},
+	"page": {
+		"number": 311,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דלע</he>, cmp. <cite ref=\"D00829\"><he>דֳּלִי</he></cite> a. <cite ref=\"G00481\"><he>זְלוּעַ</he></cite>) [<i>bottle-shaped</i>,] <i>gourd</i>, a general name for <i>cucumbers, pumpkins</i> &c. (v. Sm. Ant. s. vv. Colocynthe a. Colocynthis). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite> <he>ד׳ מצרית וכ׳</he> Ms. M. (ed. <he>המצרי</he>, corr. acc.) Egyptian gourd and the Bitter-gourd may be planted together (v. <cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>). ",
+				"<cite ref=\"Mishnah Nedarim 6:1\">Ned. VI, 1</cite> <he>דלעת הרמוצה</he>, variously explained <cite ref=\"Nedarim 51a:9\">ib. 51ᵃ</cite>; <cite ref=\"Jerusalem Talmud Kilayim 1:2:5\">Y. Kil. I, 27ᵃ</cite> top; a. fr.—",
+				"<cite ref=\"Sotah 16a:10\">Sot. 16ᵃ</cite> <he>מגלחו כד׳</he> he shaves his body as smooth as a gourd; <cite ref=\"Jerusalem Talmud Kiddushin 1:2:29\">Y. Kidd. I, 59ᵈ</cite> top <he>כדלת</he> (corr. acc.). Pl. <he>דִּלּוּעִים</he>, <cite ref=\"D00821\"><he>דִּלּוּעִין</he></cite>, <he>דּילּ׳</he>. ",
+				"<cite ref=\"Mishnah Shabbat 24:4\">Sabb. XXIV, 4</cite>. ",
+				"<cite ref=\"Mishnah Nedarim 7:1\">Ned. VII, 1</cite>; a. fr.—",
+				"<cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. Maasr. III, 14</cite> <he>דִּלּוּעוֹת</he>.—",
+				"<cite ref=\"Eruvin 104a:22\">Erub. 104ᵃ</cite> <he>דְּלָעָיו</he>, v. <cite ref=\"M00307\"><he>מִדְלַעַת</he></cite>."
+			]
+		}
+	]
+}

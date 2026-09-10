@@ -1,0 +1,23 @@
+{
+	"id": "A00196",
+	"slug": "אבקולס",
+	"headword": {
+		"text": "אֶבְקוֹלָס"
+	},
+	"page": {
+		"number": 8,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Εὔκολος) <i>Eucolus</i>, father of R. Zechariah. ",
+			"units": [
+				"<cite ref=\"Gittin 56a:5\">Git. 56ᵃ</cite>; <cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 16:6\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:6\">XVII</cite>), 6 (Var. <he>אבטולס</he>, <cite ref=\"A00143\"><he>אביקלוס</he></cite>). Cmp. <cite ref=\"A02707\"><he>אפיקולוס</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "G00433",
+	"slug": "זיתום",
+	"headword": {
+		"text": "זִיתוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיתוֹס"
+		}
+	],
+	"page": {
+		"number": 397,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ζῦθος, zythum, an adapt. of an Egyptian w.; cmp. <cite ref=\"G00432\">preced. w.</cite>, a. <he>דועתא דחטי</he> sudor tritici, P. Sm. 933, sq.), <he>ז׳ המצרי</he> <i>Egyptian beer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 3:1\">Pes. III, 1</cite> (<cite ref=\"Pesachim 42a\">42ᵃ</cite>; readings vary betw. <he>ם</he> a. <cite ref=\"O00000\"><he>ס</he></cite>, v. Rabb. D. S. a. l. note "
+			]
+		},
+		{
+			"gloss": "; described ib. 42ᵇ; Y. ib. III, beg. 29ᵈ <he>זיתים המצרי</he> (corr. acc.), defined: <cite ref=\"G00350\"><he>זַיְיתַיָּה</he></cite> (v. <cite ref=\"G00432\">preced.</cite>) <i>decocts</i> (sudores tritici &c., v. supra).",
+			"units": [],
+			"label": "1"
+		}
+	]
+}

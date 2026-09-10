@@ -1,0 +1,32 @@
+{
+	"id": "A00622",
+	"slug": "אוטם-1",
+	"headword": {
+		"text": "אוֹטֶם"
+	},
+	"page": {
+		"number": 24,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01097\"><he>אטם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>obstruction; something closed, plugged up</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 47b\">Ḥull. 47ᵇ</cite> <he>א׳ בריאה</he> Ar. (ed. <he>אָטוּם</he>) an obstruction in the lungs, a spot imperviable to air when blown up. Ohol. VI, 5 we regard the levitical uncleanness between the rafters <he>כאילו הוא א׳</he> as if it was locked up (and could not affect what is in the house)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>substructure</i> (filled with earth), <i>foundation</i>. Mid. IV, 6. ",
+			"units": ["<cite ref=\"Mishnah Parah 3:6\">Par. III, 6</cite>."],
+			"label": "2"
+		}
+	]
+}

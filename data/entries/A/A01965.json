@@ -1,0 +1,34 @@
+{
+	"id": "A01965",
+	"slug": "אמא-4",
+	"headword": {
+		"text": "אֲמָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲמִי"
+		}
+	],
+	"page": {
+		"number": 74,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", fut. <he>יֵימָא</he>, imper. <cite ref=\"A01318\"><he>אֵימָא</he></cite> (√<he>אם</he> <i>to join</i>, v. <cite ref=\"A02060\"><he>אמר</he></cite>) <i>to say, speak, think</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 33:10\">Targ. Y. Gen. XXXIII, 10</cite>.—Freq. in Talmud.—<he>אפילו תימא</he> even if you will say, i.e. it may come right even if you assume that &c. ",
+				"<cite ref=\"Sukkah 13b:1\">Succ. 13ᵇ</cite>; a. fr.—<he>מי לֵימָא</he>, (<cite ref=\"M01072\"><he>מי</he></cite>)<cite ref=\"N00672\"><he>נֵימָא</he></cite>, or <cite ref=\"L00478\"><he>לימא</he></cite> must it be said, <i>does it mean to say?</i> <cite ref=\"Sukkah 13b:1\">Ib.</cite>; a. fr.—(<cite ref=\"F00005\"><he>ואי</he></cite>) <he>וכי תימא</he> and if you should object. ",
+				"<cite ref=\"Sukkah 13b:1\">Ib.</cite>; a. fr.—<he>אלא אימא</he> but rather say, i.e. the correct version is. ",
+				"<cite ref=\"Sukkah 13b:1\">Ib.</cite>; a. fr.—<he>אימא סיפא</he> now read the second clause, i.e. how will you understand &c.? <cite ref=\"Berakhot 21b:1\">Ber. 21ᵇ</cite>; a. fr.—<he>אֵימָא</he> I might think. ",
+				"<cite ref=\"Berakhot 21b:1\">Ib.</cite>; a. fr.—<he>הוה אמינא</he> I might have thought, I might have been led to believe. ",
+				"<cite ref=\"Eruvin 74b:5-6\">Erub. 74ᵇ</cite> <he>מאי הוה א׳</he> what might I have been led to believe?; a. fr.—<he>נימא כוותיה</he> let him express his opinion in agreement with his authority, i.e. why does he not say so expressly? <cite ref=\"Taanit 3a:7\">Taan. 3ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 7b:3\">Pes. 7ᵇ</cite> <he>היכי נימא</he> what else should he say? <he>נימא למול</he> should he use the expression <i>lamol?</i>—",
+				"<cite ref=\"Gittin 47b\">Gitt. 47ᵇ</cite>, a. fr. <he>ס״ד אמינא</he> it may occur to you to think; v. <cite ref=\"D00951\"><he>דַּעְתָּא</he></cite>. ",
+				"<cite ref=\"Yoma 85b:3\">Yoma 85ᵇ</cite> <he>אי הואי התם הוה אמינא</he> had I been there, I should have said.—<he>קאמינא</he> = <he>קא אמינא</he> I say, speak of, v. <cite ref=\"S00003\"><he>קָא</he></cite>. ",
+				"<cite ref=\"Gittin 47b\">Gitt. 47ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

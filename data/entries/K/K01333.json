@@ -1,0 +1,41 @@
+{
+	"id": "K01333",
+	"slug": "כשש",
+	"headword": {
+		"text": "כְּשַׁשׁ"
+	},
+	"page": {
+		"number": 678,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"K01310\"><he>כִּשְׁכֵּשׁ</he></cite>) <i>to knock, strike</i>.—Denom. <cite ref=\"M01367\"><he>מַכּוֹשָׁה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַכֵּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to strike, chase away by knocking</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> <he>נסב</he> … <he>והוה מַכֵּישׁ להון</he> … <he>מִתְכַּשִּׁין</he> Ar. (ed. <he>מכתשין</he>) Abraham took a knocker and tried to frighten them away by knocking, but they minded it not; Yalk. ib. 77 <he>והוה מכיש להון ולא הוו מתכתשין</he>.…"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְכְּשַׁשׁ", "אִתְכַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be frightened off by knocking</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

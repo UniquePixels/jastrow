@@ -1,0 +1,28 @@
+{
+	"id": "A02162",
+	"slug": "אנטובין",
+	"headword": {
+		"text": "אַנְטוּבִּין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "הִינְדְּבִי"
+		}
+	],
+	"page": {
+		"number": 82,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἐντύβιον, Arab. hindeb, prob. fr. <he>נדב</he> <i>to flow, curl</i>, cmp. <cite ref=\"A02115\"><he>אַנְדִּיפֵי</he></cite>) <i>endive</i>. Y. Kil. I, 27ᵃ top <cite ref=\"A02166\"><he>אנטוכין</he></cite> (corr. acc.). ",
+			"units": [
+				"<cite ref=\"Pesachim 39a:3\">Pes. 39ᵃ</cite> <he>הינדבי</he> (Rashi <cite ref=\"E00455\"><he>הִינְדִּיבִי</he></cite>, Ms. <cite ref=\"E00656\"><he>הנדבי</he></cite>)."
+			]
+		}
+	]
+}

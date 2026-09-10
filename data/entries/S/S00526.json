@@ -1,0 +1,57 @@
+{
+	"id": "S00526",
+	"slug": "קוץ-1",
+	"headword": {
+		"text": "קָוַץ"
+	},
+	"page": {
+		"number": 1339,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00361\"><he>כְּוֵץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to shrink, be dried up</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 43b:3\">Ḥull. 43ᵇ</cite> <he>שחותכו וקווֵֹץ</he> Ar., v. <cite ref=\"K00361\"><he>כְּוֵץ</he></cite>.—Part. pass. <cite ref=\"S00264\"><he>קָווּץ</he></cite>. ",
+				"<cite ref=\"Sukkah 32a\">Succ. 32ᵃ</cite> top <he>ק׳</he> (<cite ref=\"L00270\"><he>לולב</he></cite>) a Lulab which is shrunk (Rashi: thorn-like, v. <cite ref=\"S00534\"><he>קוֹץ</he></cite>).—V. <cite ref=\"S00264\"><he>קָווּץ</he></cite>.—Denom. <cite ref=\"S00534\"><he>קוֹץ</he></cite>, <cite ref=\"S01116\"><he>קַיִץ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to curl</i>. Denom. <cite ref=\"S00883\"><he>קִיוֵּוץ</he></cite>, <cite ref=\"S00265\"><he>קְווּצּוֹת</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִוֵּוץ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"S00534\"><he>קוֹץ</he></cite>) <i>to clear of thorns, weed</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 6a:11\">M. Kat. 6ᵃ</cite> <he>יוצאין לקַוֵּוץ וכ׳</he> they go out to clear the roads (for the Passover pilgrims). ",
+						"<cite ref=\"Tosefta Shevi'it 3:7\">Tosef. Shebi. III, 7</cite> <he>מְקַוְּצִין וכ׳</he> Var. ed. Zuck. (ed. Zuck. <he>מְקַוְּסִין</he>; oth. ed. <he>מקומין</he>, corr. acc.) you may remove the stones, thorns &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְקַוֵּוץ", "נִתְקַוֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be cleared</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:2\">Shebi. IV, 2</cite> <he>שדה שנִתְקַוְּצה</he> (Y. ed. <he>שנִתְקַוְּו׳</he>) a field that has been cleared; <cite ref=\"Bekhorot 34b\">Bekh. 34ᵇ</cite>; <cite ref=\"Moed Katan 13b\">M. Kat. 13ᵇ</cite>; <cite ref=\"Gittin 44b\">Gitt. 44ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

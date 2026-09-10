@@ -1,0 +1,31 @@
+{
+	"id": "N01032",
+	"slug": "נפט-1",
+	"headword": {
+		"text": "נָפַט"
+	},
+	"page": {
+		"number": 923,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>נִיפֵּט</he> (cmp. <he>נפץ</he>) <i>to beat</i> (<i>cotton</i>). ",
+					"units": [
+						"<cite ref=\"Shabbat 73b:9\">Sabb. 73ᵇ</cite> <he>הדש המנפץ והמְנַפֵּט וכ׳</he> threshing, beating flax and beating cotton are all one kind of labor (threshing). [Ar. s. v. <cite ref=\"Q01418\"><he>פץ</he></cite> reads: <he>והמנפס</he>, v. <cite ref=\"N01063\"><he>נָפַס</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

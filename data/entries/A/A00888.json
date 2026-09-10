@@ -1,0 +1,63 @@
+{
+	"id": "A00888",
+	"slug": "אורייא-2",
+	"headword": {
+		"text": "אוֹרָיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹרַיְיתָא"
+		},
+		{
+			"text": "אוֹרָיָיתָא"
+		},
+		{
+			"text": "אוֹרְיָא"
+		},
+		{
+			"text": "אוֹרַיְתָא"
+		},
+		{
+			"text": "אוֹרְיָה"
+		}
+	],
+	"page": {
+		"number": 34,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00627\"><he>ירי</he></cite>, Af. <cite ref=\"A00875\"><he>אוֹרִי</he></cite> = h. <cite ref=\"V00290\"><he>תּוֹרָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>instruction, the Law, Bible-verse</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 6:7\">Targ. Lev. VI, 7</cite>; a. fr.—<he>מילה דא׳</he> (= <he>דברי תורה</he>) <i>religious discourse, lesson, remarks</i> &c. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 8:2:7\">Y. B. Bath. VIII, 16ᵃ</cite> <he>אורייא</he>; Y. Taan. III, 66ᶜ bot. <he>ייתא …</he>—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:8\">Y. Snh. I, 18ᶜ</cite> <he>אפלגינון במילי דא׳</he> he entertained them with religious discussions. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite> <he>עתיד לך מילה דא׳</he> be prepared for a religious discourse. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 3:2:7\">Y. Shek. III, 47ᶜ</cite> top <he>מאי א׳ חדתא שמעת</he> what novel interpretation hast thou heard? <cite ref=\"Jerusalem Talmud Yevamot 2:6:5\">Y. Yeb. II, 4ᵃ</cite> top <he>מן הדא אורייה</he> from what verse?—",
+				"<cite ref=\"Taanit 4a:15\">Taan. 4ᵃ</cite> <he>ליה א׳ … מרתח׳</he> it is the zeal of study that makes him warm (excited). ",
+				"<cite ref=\"Kiddushin 71b:3\">Kidd. 71ᵇ</cite> <he>אורייתין כשר׳</he> my instruction is acceptable, but my daughters are not desired. ",
+				"<cite ref=\"Shabbat 116b:1\">Sabb. 116ᵇ</cite> <he>א׳ דמשה</he> the Mosaic dispensation (opp. <he>א׳ אחריתי</he> the new dispensation, v. <cite ref=\"A00581\"><he>אָוֶון</he></cite>).—<he>דְּאוֹרַיְיתָא</he> (sub. <cite ref=\"E00566\"><he>הלכה</he></cite> = h. <he>התורה מן</he>) <i>an enactment founded on the Bible text</i>, opp. <he>דרבנן</he>. ",
+				"<cite ref=\"Sukkah 44a:6\">Succ. 44ᵃ</cite> <he>לולב דא׳</he> Lulab, the law concerning which is Biblical &c.; a. fr.—<he>מִדְּאוֹרַיְיתָא</he>, adv. <i>biblically, according to the Biblical law</i>, opp. <he>מדרבנן</he>. ",
+				"<cite ref=\"Pesachim 10a\">Pes. 10ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the Torah, the scroll containing the Pentateuch</i>, used at divine service. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 7:1:5\">Y. Yoma VII, 44ᵇ</cite> top <he>כד היא חדא אוריא</he> when you have no more than one scroll. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:5:6\">Y. Meg. IV, 75ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Sotah 7:6:3\">Y. Sot. VII, end, 22ᵃ</cite> <he>כד חזרא אורייה</he> (corr. as Y. Yoma l. c.). Ib. <he>תא וכ׳</he>—תמן מייבלין א <i>there</i> (in Babylon) the Torah is carried to the Resh Galutha.—בר אוריא <i>a scholar, man of learning</i>. ",
+				"<cite ref=\"Yoma 78a\">Yoma 78ᵃ</cite>. ",
+				"<cite ref=\"Chagigah 14a\">Ḥag. 14ᵃ</cite> <cite ref=\"A03093\"><he>אריא</he></cite> (corr. acc.); v. <cite ref=\"A00889\">next w.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

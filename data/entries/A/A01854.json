@@ -1,0 +1,28 @@
+{
+	"id": "A01854",
+	"slug": "אליית",
+	"headword": {
+		"text": "אַלְיָית"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַלְיָת"
+		}
+	],
+	"page": {
+		"number": 69,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אלי</he> II) <i>female wailer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite> <he>רביעית של א׳</he> the wailer’s musical instrument. ",
+				"<cite ref=\"Mishnah Kelim 15:6\">Ib. XV, 6</cite>.—Ch. <cite ref=\"A01883\"><he>אָלְיְתָא</he></cite> q. v."
+			]
+		}
+	]
+}

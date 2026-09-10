@@ -1,0 +1,37 @@
+{
+	"id": "K01202",
+	"slug": "כרכור",
+	"headword": {
+		"text": "כִּרְכּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 669,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01218\"><he>כִּרְכֵּר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circle, circuit, round about way</i>.—Pl. <he>כִּרְכּוּרִים</he>, <he>רִין …</he>, <cite ref=\"K01202\"><he>כִּירְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20:12\">Gen. R. s. 20</cite>; s. 45, end; s. 63; <cite ref=\"Yalkut Shimoni on Torah 80:1\">Yalk. Gen. 80</cite>; <cite ref=\"Yalkut Shimoni on Torah 82:1\">82</cite> <he>כמה כ׳ כרכר בשביל להסיח וכ׳</he> how many circuits did the Lord make before he addressed Sarah directly (ref. to <cite ref=\"Genesis 18:13\">Gen. XVIII, 13</cite> to 15, and interpreting <he>ויאמר</he>, verse 15, ‘and the Lord said’); <cite ref=\"Jerusalem Talmud Sotah 7:1:3\">Y. Sot. VII, beg. 21ᵇ</cite> [read:] <he>כמה כִּירְכּוּרֵי כ׳ חקב״ה מתאוה בשביל להשיח עם אותה צדקנית</he> how many circles around circles did the Lord draw in order &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>whirl</i>, v. <cite ref=\"K01220\"><he>כַּרְכָּר</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "K01264",
+	"slug": "כרפס-2",
+	"headword": {
+		"text": "כַּרְפַּס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 673,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"K01102\"><he>כְּרוּב</he> II</cite>, <cite ref=\"K01261\"><he>כְּרַף</he></cite>) <i>an umbelliferous plant, celery, parsley</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 9:1\">Shebi. IX, 1</cite> <he>כ׳ שבנהרות</he> (Y. ed. Krot. <he>כוסבר</he>, corr. acc.) water-parsley, expl. Y. ib. 38ᶜ <cite ref=\"Q00639\"><he>פיטרוסילינון</he></cite> (πετροσέλινον), contrad. to garden-parsley; <cite ref=\"Sukkah 39b\">Succ. 39ᵇ</cite> (Rashi: <i>cress</i>, or ‘apium’, <i>parsley</i>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:23\">Y. Sabb. VII, 10ᵃ</cite>; a. e.—[<cite ref=\"Tosefta Kilaim 1:1\">Tosef. Kil. I, 1</cite> <he>הכוסבר והכ׳</he> (ed. Zuck. <he>והכרקם</he>, v. <cite ref=\"K01197\"><he>כַּרְכּוֹם</he> I</cite>.]."
+			]
+		}
+	]
+}

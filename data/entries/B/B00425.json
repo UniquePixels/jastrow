@@ -1,0 +1,28 @@
+{
+	"id": "B00425",
+	"slug": "בזוזיתא",
+	"headword": {
+		"text": "בָּזוֹזִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּזוֹנִיתָא",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 152,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B00423\"><he>בָּזוֹזָא</he></cite>) <i>plunderer</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 137:8\">Targ. Ps. CXXXVII, 8</cite> (Ms. <he>בזונ׳</he>; h. text <he>שְׁדוּדָה</he>!). [<cite ref=\"Aramaic Targum to Job 15:21\">Targ. Job XV, 21</cite> <he>בזוזיתיה</he>, <he>בזוזת׳</he>, <he>בזיזות׳</he>, read <cite ref=\"B00423\"><he>בָּזוֹזָא</he></cite>.]"
+			]
+		}
+	]
+}

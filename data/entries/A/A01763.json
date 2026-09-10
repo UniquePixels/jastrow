@@ -1,0 +1,21 @@
+{
+	"id": "A01763",
+	"slug": "אכתריאל",
+	"headword": {
+		"text": "אַכְתְּרִיאֵל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 66,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כתר</he>) [divine crown], pr. n. <i>Akhtriel</i>, a divine surname (attribute). ",
+			"units": ["<cite ref=\"Berakhot 7a:4\">Ber. 7ᵃ</cite>"]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "L00699",
+	"slug": "לקק",
+	"headword": {
+		"text": "לָֽקַק"
+	},
+	"page": {
+		"number": 719,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>לחך</he>)<i>to lap, lick</i>. Pesik. Zakh. p. 26ᵇ <he>אומה שבאה לָלוֹק וכ׳</he> (not <he>שבא</he>); Tanḥ. Ki Thetse 9; <cite ref=\"Yalkut Shimoni on Torah 938\">Yalk. Deut. 938</cite>, v. <cite ref=\"L00662\"><he>לָק</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִיקֵּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00698\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 68a:5\">Snh. 68ᵃ</cite> <he>ככלב המְלַקֵּק וכ׳</he>, v. <cite ref=\"H01410\"><he>חָסַר</he></cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵלֵק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00698\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 9:3\">Par. IX, 3</cite> <he>מפני שהיא מֵלֶקֶת</he> (ed. Dehr. <he>מְלִקָּה</he>) because it (the weasel) laps (lets the water drip back out of its mouth)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

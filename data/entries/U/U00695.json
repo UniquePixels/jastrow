@@ -1,0 +1,55 @@
+{
+	"id": "U00695",
+	"slug": "שחק-1",
+	"headword": {
+		"text": "שָׂחַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סָחַק"
+		}
+	],
+	"page": {
+		"number": 1550,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; interch. with <cite ref=\"R00287\"><he>צָחַק</he></cite> q. v.)<i>to be bright; to laugh, jest, play</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Kamma 2:2\">Tosef. B. Kam. II, 2</cite> <he>ס׳ בין הבקר וכ׳</he> ed. Zuck. (Var. <he>צחבין</he>, <he>צהבין</he>, read: <he>צחק בין</he>) if he (the ox) sported among the herd three times (doing no harm). ",
+				"<cite ref=\"Devarim Rabbah 3\">Deut. R. s. 3</cite>, end <he>ראה … שׂוֹחַקַת לעבד</he> the king saw her smile at one of his servants. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:2:4\">Y. Kidd. III, 63ᵈ</cite> <he>מימי לא ש׳ וכ׳</he> never did a person have his sport with me, except this man. Tanḥ. Naso 5 <he>באותו שבפנים שָׂחַקְתָּ אבל … לִשְׂחוֹק</he> thou didst fool him (the watchman) that was inside, but thou canst not fool me. ",
+				"<cite ref=\"Tractate Derekh Eretz Zuta 5:5\">Der. Er. Zuṭṭa ch. V</cite> <he>ולא בוכה בין השׂוֹחֲקִים ולא שׂוֹחֵק וכ׳</he> nor should one weep among those who laugh, nor laugh among those who weep; a. fr.—Trnsf. (of fingers) <i>to be spread</i>, opp. <he>עצב</he>. ",
+				"<cite ref=\"Sukkah 7a:3\">Succ. 7ᵃ</cite> <he>טפח שוחק</he> (Ms. M. a. Ar. <cite ref=\"O00001\"><he>ס׳</he></cite>); <cite ref=\"Eruvin 3b:21\">Erub. 3ᵇ</cite> <he>שׂוֹחֲקוֹת</he>, v. <cite ref=\"A01989\"><he>אַמָּה</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׂיחֵק", "סִ׳"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00694\">same</cite>. Tanḥ. l. c. <he>באישך את מְשַׂחֶקֶת וכ׳</he> thou canst fool thy husband, but thou canst not fool me. Ib. <he>ואני יושב ומְשַׂחֵק על וכ׳</he> but I sit laughing at my creatures. ",
+					"units": [
+						"<cite ref=\"Tosefta Ketubot 9:2\">Tosef. Keth. IX, 2</cite> <he>מְסַחֵק הוא בה</he> ed. Zuck. (Var. <he>מְצַ׳</he>) he may laugh at her (and take the sham sale seriously); (<cite ref=\"Ketubot 79a:5\">Keth. 79ᵃ</cite> <he>רצה מצחק</he>), v. <cite ref=\"Q00753\"><he>פִּיסְטִין</he></cite>. Tanḥ. Noah 5 <he>והיו משחקין ממנו</he> they laughed at him (Noah). ",
+						"<cite ref=\"Berakhot 7b\">Ber. 7ᵇ</cite>, a. e. <he>השעה משחקת לו</he> the hour smiles on him, i.e. he is in luck; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׂחִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to laugh, lead to sport</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite> <he>אם בא … להַשְׂחִיקְךָ שמחהו וכ׳</he> if thy inclination comes to incite thee to merriment, rejoice it with words of the Law; <cite ref=\"Yalkut Shimoni on Nach 296\">Yalk. Is. 296</cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

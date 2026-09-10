@@ -1,0 +1,22 @@
+{
+	"id": "M02183",
+	"slug": "מערקא-1",
+	"headword": {
+		"text": "מֶעֶרְקָא"
+	},
+	"page": {
+		"number": 819,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01442\"><he>עֲרַק</he></cite>) <i>run, haste</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 116:11\">Targ. Ps. CXVI, 11</cite>."
+			]
+		}
+	]
+}

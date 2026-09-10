@@ -1,0 +1,33 @@
+{
+	"id": "A03129",
+	"slug": "ארכא-2",
+	"headword": {
+		"text": "אַרְכָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְכָּא"
+		},
+		{
+			"text": "אַרְכָה"
+		}
+	],
+	"page": {
+		"number": 121,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A03124\"><he>ארך</he></cite>) <i>duration, term, limit; extension of time</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 4:24\">Dan. IV, 24</cite> (prolongation). ",
+				"<cite ref=\"Daniel 7:12\">Ib. VII, 12</cite> (set term).—",
+				"<cite ref=\"Onkelos Genesis 6:3\">Targ. Gen. VI, 3</cite>; a. e."
+			]
+		}
+	]
+}

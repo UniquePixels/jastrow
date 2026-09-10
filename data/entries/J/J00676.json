@@ -1,0 +1,31 @@
+{
+	"id": "J00676",
+	"slug": "ישב-2",
+	"headword": {
+		"text": "יְשַׁב"
+	},
+	"page": {
+		"number": 599,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְיַישַּׁב</he>, contr. <he>אִיַּישַּׁב</he> as <cite ref=\"J00675\">preced.</cite> <i>Hithpa.</i> 2. ",
+					"units": [
+						"<cite ref=\"Berakhot 58b:4\">Ber. 58ᵇ</cite> <he>חזייה דלא מִיַּישְּׁבָא דעתיה</he> ed. (Ms. <he>מִתְיַישְּׁבָא</he>) he saw that he was not comforted.—V. <cite ref=\"J00712\"><he>יְתֵב</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

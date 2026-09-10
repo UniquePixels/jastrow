@@ -1,0 +1,29 @@
+{
+	"id": "U00791",
+	"slug": "שיבוחא",
+	"headword": {
+		"text": "שִׁיבּוּחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבּ׳"
+		}
+	],
+	"page": {
+		"number": 1556,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00099\"><he>שְׁבַח</he></cite>) <i>song, praise; pleasure</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 17:1\">Targ. Ps. XVII, 1</cite> (ed. Wil. <cite ref=\"U00791\"><he>שַׁבּ׳</he></cite>).—Pl. <he>שִׁיבּוּחִין</he>, <cite ref=\"U00791\"><he>שִׁבּ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:31\">Targ. Prov. VIII, 31</cite> <cite ref=\"U00073\"><he>שִׁבּוּחַיי</he></cite> ed. Lag. (ed. Wil. <he>שִׁבּוּחֵי</he>, corr. acc.; h. text <he>שַׁעְשֻׁעַי</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:30\">Ib. 30</cite> <he>וכד ש׳ הוית</he> Bxt. (ed. Wil. <he>וכדש׳</he>; ed. Lag. <he>וכד הוה</he>, read: <he>וכד חדי הוה</he>, v. Pesh.)."
+			]
+		}
+	]
+}

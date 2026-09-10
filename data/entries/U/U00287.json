@@ -1,0 +1,43 @@
+{
+	"id": "U00287",
+	"slug": "שדרא",
+	"headword": {
+		"text": "שִׁדְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		},
+		{
+			"text": "שׁוּ׳"
+		}
+	],
+	"page": {
+		"number": 1526,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00289\"><he>שִׁדְרָה</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>twisted rope</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69a\">Gitt. 69ᵃ</cite>, v. <cite ref=\"B01318\"><he>בַּרְקָא</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>spinal column</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 103a:6\">B. Bath. 103ᵃ</cite> <he>הנהו … הנהו ש׳ דארעא מיקרי</he> (Rashi <he>שִׁידְרֵי</he>, <i>pl.</i>) are they named ‘clefts of the field’? they are named ‘the spine of the field’; <cite ref=\"Arakhin 25a:37\">Arakh. 25ᵃ</cite> <he>שידרי</he>; <cite ref=\"Kiddushin 61a:5\">Kidd. 61ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 677:4\">Yalk. Lev. 677</cite> <he>שדרי</he>.—<i>Pl.</i> <he>שִׁדְרָאִין</he>, <he>שִׁדְרֵי</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:7\">Targ. Y. Deut. XIV, 7</cite>.—Arakh. l. c., a. e., v. supra."
+			],
+			"label": "2"
+		}
+	]
+}

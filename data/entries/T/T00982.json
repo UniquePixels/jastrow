@@ -1,0 +1,70 @@
+{
+	"id": "T00982",
+	"slug": "רצי-2",
+	"headword": {
+		"text": "רְצֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְצָא"
+		}
+	],
+	"page": {
+		"number": 1493,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00981\">same</cite>; v. <cite ref=\"T00983\">next w.</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַצֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to appease, to effect atonement</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 33b:19\">Ber. 33ᵇ</cite> <he>כמה ידע … לרַצּוּיֵי למריה</he> how well that scholar knows how to appease his Master! <cite ref=\"Yoma 7a:8\">Yoma 7ᵃ</cite> <he>למה לי לרצויי</he> what need would there be for the atoning power of the priest’s plate?; a. e.—",
+						"<cite ref=\"Eruvin 100b\">Erub. 100ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 31:1\">Yalk. Gen. 31</cite>, v. infra."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַרְצֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be pleasant</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 100b:23\">Erub. 100ᵇ</cite> <he>דמַרְצְיָא אַרְצוּיֵי קמיה</he> (Ms. M. <he>דמרצי רַצּוּיֵי</he>, read: <he>דמְרַצְּיָא</he>, <i>Pa.</i>) she makes herself pleasant (attractive) to him; <cite ref=\"Yalkut Shimoni on Torah 31:1\">Yalk. Gen. 31</cite> <he>דמְרַצְּיָיא רַצּוּיֵיה</he> she tries to please him."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " as <cite ref=\"T00981\">preced.</cite> <i>Hif.</i> 3. ",
+					"units": [
+						"<cite ref=\"Chagigah 14b\">Ḥag. 14ᵇ</cite> <he>דא׳ זאַרְצוּ קמיה וכ׳</he> he mentions only such a one as discoursed (on theosophy), and before whom others discoursed. ",
+						"<cite ref=\"Chagigah 14b:7\">Ib.</cite> <he>דא׳ מיהא קמיה מאן דא׳</he> he at least discoursed before one who again discoursed before others."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְרְצֵי", "אִירְצֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be appeased</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 23b:9\">Taan. 23ᵇ</cite> <he>אפשר דמִירְצֵי הקב״ה וכ׳</he> (Ms. M. 2 <he>דמִתְרְצֵי</he>, v. Rabb. D. S. a. l. note 90) peradventure the Lord will be appeased and send rain."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

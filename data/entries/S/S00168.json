@@ -1,0 +1,78 @@
+{
+	"id": "S00168",
+	"slug": "קדר-1",
+	"headword": {
+		"text": "קָדַר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "קָדַד"
+		}
+	],
+	"page": {
+		"number": 1317,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00146\"><he>כָּדַר</he></cite>, <cite ref=\"C00244\"><he>גָּדַר</he></cite>, <cite ref=\"C00166\"><he>גָּדַד</he></cite>) <i>to cut around, perforate, cut out</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 116a\">Sabb. 116ᵃ</cite>; Y. ib. XVI, 15ᶜ bot. <he>קוֹדֵר</he> (Ar. <he>קוֹדֵד</he>), v. <cite ref=\"A00972\"><he>אַזְכָּרָה</he></cite>. ",
+				"<cite ref=\"Sanhedrin 103b:10\">Snh. 103ᵇ</cite> <he>מנשה ק׳ וכ׳</he> (Ar. <cite ref=\"S00168\"><he>קדר</he></cite>) Manasseh cut the divine names out (of the Scriptures). ",
+				"<cite ref=\"Kiddushin 22b\">Kidd. 22ᵇ</cite> <he>קוֹדֵד ויורד וכ׳</he> Ar. (ed. <he>דוקד והולך</he>) one must bore (through the slave’s ear) until the door is reached. ",
+				"<cite ref=\"Chullin 77a:7\">Ḥull. 77ᵃ</cite> <he>כל שהרופא קוֹדְרוֹ</he> (Ar. a. Ms. M. correct. <he>קוֹדְדוֹ</he>, v. Rabb. D. S. a. l. note) such flesh as the physician cuts out; a. e.—Part. pass. (<he>קָדוּד</he>) <cite ref=\"S00118\"><he>קָדוּר</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 32a:11\">Ab. Zar. 32ᵃ</cite> (expl. <he>עור לבוב</he>) <he>כל שקרוע … וק׳ וכ׳</he> a hide which is slit open opposite the heart and cut out like an air-hole; <cite ref=\"Tosefta Avodah Zarah 4:7\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:7\">V</cite>), 7 <he>כל שק׳ כנגד לבו</he> Var. ed. Zuck. (text <he>שנקוב</he>, oth. ed. <he>שקרוע</he>). ",
+				"<cite ref=\"Mishnah Oktzin 2:4\">Ukts. II, 4</cite> <he>קְדוּרָה</he> (ed. Dehr. <he>קְדוּדָה</he>) cut into, opp. <he>שלמה</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["(קִדֵּד) קִדֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to cut through</i>; (in measuring distances) <i>to estimate the level distance between two places separated by mountains</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 5:4\">Erub. V, 4</cite> (<cite ref=\"Eruvin 58a:2\">58ᵃ</cite>) <he>שמעתי שמְקַדְּרִין בהרים</he> (Y. ed. Ven. <he>שמְקַדְּדִין</he>; v. Rabb. D. S. a. l. note 90) I have heard a tradition that in measuring Sabbath distances elevations are considered as cut through. Ib. 58ᵇ <he>כיצד מְקַדְּרִין וכ׳</he> how is the measuring done to obtain the tunnel distance? He who stands below holds the rope against his heart, while he who stands above holds the other end of the rope against his feet. Ib. <he>אין מקדרין אלא בחבל וכ׳</he> only a rope of four cubits can be used for measuring &c. Ib. <he>אין מקדרין לא בעגלה וכ׳</he> this method of measuring distances is not applied in the case of a slain body found in the field (v. <cite ref=\"P00097\"><he>עֶגְלָה</he></cite>), or for cities of refuge. Tosef. ib. VI (V), 11 <he>מְקַדֵּר ועולה מק׳ ויורד וכ׳</he> we go up measuring the air-line and down again (on the other side), and consider the elevation as if it were cut through before us. ",
+						"<cite ref=\"Eruvin 58a:14\">Erub. 58ᵃ</cite> <he>מַקְדִּיר ועולה וכ׳</he>; Tosef. l. c. 12 <he>מקדר</he>. Y. ib. V, 22ᵈ (repeatedly <he>מְקַדְּדִין</he>). Ib. <he>מקדימין</he> (corr. acc.). Y. Sot. V, 20ᵇ bot. <he>מקדדין</he>; Y. Macc. II, end, 32ᵃ <he>מקדרין</he>; a. fr.—Y. Keth. XIII, 36ᵇ top <he>מקדר ויוצא וכ׳</he> he may cut his way through the vines and get out (v. <cite ref=\"Q01227\"><he>פָּסַג</he></cite>).—[<cite ref=\"Pesachim 11b:3\">Pes. 11ᵇ</cite> <he>מקדרין</he>, read: <he>מקרדין</he>, v. <cite ref=\"S01899\"><he>קָרַד</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"S00174\"><he>קָדֵר</he></cite> or <cite ref=\"S00173\"><he>קַדָּר</he></cite>) <i>to make pots, pretend to be a potter</i>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> (<cite ref=\"Ruth Rabbah 2\">s. 2</cite>), v. <cite ref=\"S00185\"><he>קַדָּרוּת</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִקְדִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to cut through; to penetrate</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 58a\">Erub. 58ᵃ</cite>, v. supra. ",
+						"<cite ref=\"Niddah 56b\">Nidd. 56ᵇ</cite>; <cite ref=\"Tosefta Niddah 6:13\">Tosef. ib. VI, 13</cite> <he>מַקְדִּיר</he>, v. <cite ref=\"C00877\"><he>גָּלַד</he></cite>; [perh. fr. <cite ref=\"S00170\"><he>קָדַר</he> II</cite>, <i>becomes dull</i>]."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִקְדַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut out</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 77a:10\">Ḥull. 77ᵃ</cite> <he>נ׳ כמין טבעת</he> (Ar. <he>נִקְדַּד</he>) if the flesh over a fracture is cut out like a ring. Ib. 57ᵇ <he>רחל … שנ׳ קנה שלה וכ׳</he> a lamb … whose windpipe was perforated, and they inserted a tube of reed, and it recovered."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

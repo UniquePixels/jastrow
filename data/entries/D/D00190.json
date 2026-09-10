@@ -1,0 +1,56 @@
+{
+	"id": "D00190",
+	"slug": "דוגמא",
+	"headword": {
+		"text": "דּוּגְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיגְמָא"
+		},
+		{
+			"text": "דּוּגְמָה"
+		}
+	],
+	"page": {
+		"number": 282,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (δεῖγμα, cmp. παράδειγμα) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>simile, illustration</i> (cmp. <he>מָשָׁל ל־</he>, <he>משל למה הדבר דומה</he>). Cant. R., introd. <he>עד … היתה ד׳</he> up to Solomon’s days the method of argument by illustration was unknown (in Hebrew literature).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>show, exhibition, public appearance</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite> <he>די׳ דידכו דמי וכ׳</he> (prob. to be read <he>דמיא</he>) your appearance resembles that of your Maker. ",
+				"<cite ref=\"Mishnah Eduyot 5:6\">Eduy. V, 6</cite>; <cite ref=\"Berakhot 19a:9\">Ber. 19ᵃ</cite> <he>ד׳ השקוה</he> it was for show that they made her drink, i.e. they merely pretended to give her the real ‘bitter waters’; [oth. opin. they performed the act on one who was, <i>like themselves</i>, a descendant of gentiles; <cite ref=\"Jerusalem Talmud Moed Katan 3:1:13\">Y. M. Kat. III, 81ᵈ</cite> <he>דִּכְמָהּ השקוה</he>, (a popular adaptation of our w.; v. <cite ref=\"D00781\"><he>דִּכְמָא</he></cite>), expl. <he>דִּכְוָותָהּ</he> something like it]. Midr. Sam. ch. XX (expl. <he>תפקד לשלום</he>, <cite ref=\"I Samuel 17:18\">I Sam. XVII, 18</cite>) <he>ד׳ דידהין</he> how they look."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>sample, example, token</i> (corresp. to h. <cite ref=\"A00939\"><he>אוֹת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Chagigah 16a:2\">Ḥag. 16ᵃ</cite> (play on <he>ד̇ג̇ול מ̇רבבה</he>, <cite ref=\"Song of Songs 5:10\">Cant. V, 10</cite>) <he>ד̇וג̇מ̇א הוא ברבבה שלו</he> He is exemplified by His myriad (of angels), i.e. the Divine nature is recognized indirectly from the nature of His ministering messengers, v. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:9\">Cant. R. to V, 9</cite>.—",
+				"<cite ref=\"Ketubot 28b:13\">Keth. 28ᵇ</cite> <he>קחו לכם ד׳ וכ׳</he> take a warning example &c. ",
+				"<cite ref=\"Taanit 23a:2\">Taan. 23ᵃ</cite> <he>ד׳ לדורות</he> a sample (of great fertility) as a lesson for future generations. ",
+				"<cite ref=\"Shabbat 30b\">Sabb. 30ᵇ I</cite> will show thee <he>דּוּגְמָתָן וכ׳</he> (Ms. M. <he>דּוּגְמָתוֹ</he>) the like thereof in this world.—",
+				"<cite ref=\"Shabbat 11b\">Ib. 11ᵇ</cite> the dyer must not go out on the Sabbath <he>בדו׳ שבצוארו</he> (Ar. <he>בדי׳ שבאזנו</he>; Tosef. ib. I, 8 <he>בדו׳ שבאזנו</he>) with the sample of colors around his neck, v. <cite ref=\"A00940\"><he>אוֹת</he> II</cite>.—",
+				"<cite ref=\"Bamidbar Rabbah 6:2\">Num. R. s. 6</cite> (expl. ",
+				"<cite ref=\"Job 36:7\">Job XXXVI, 7</cite> <cite ref=\"P00622\"><he>עיניו</he></cite>) <he>ד׳ דידהו</he> that which is like his own doing, i.e. some realization of his ideal, v. <cite ref=\"P00602\"><he>עֵינָא</he></cite>; Midr. Sam. ch. XXVIII <he>דוגמה דידהון</he>; <cite ref=\"Bereishit Rabbah 71\">Gen. R. s. 71</cite> <he>דוגמת דידיה</he> (corr. acc.), v. <cite ref=\"D00191\">next w.</cite>; a. fr.—Pl. <he>דּוּגְמוֹת</he>. ",
+				"<cite ref=\"Bava Kamma 119b:10\">B. Kam. 119ᵇ</cite>, v. <cite ref=\"A00939\"><he>אוֹת</he></cite> II (Var. Ms. <he>דּוּגְמָאוֹת</he>). [Our w., owing to its phonetic resemblance to <cite ref=\"D00781\"><he>דִּכְמָא</he></cite>, is inflected as though it were a native, whence the forms: <cite ref=\"D00190\"><he>דּוּגְמָה</he></cite>, <he>דּוּגְמת</he>, <he>דוּגְמָת־</he>, <he>דּוּגְמוֹת</he>, and even a Var. to <cite ref=\"Tosefta Shabbat 1:8\">Tosef. Sabb. I, 8</cite> <he>דִּגְמוֹ</he>, as though fr. <cite ref=\"D00115\"><he>דֶּגֶם</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

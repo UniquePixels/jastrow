@@ -1,0 +1,29 @@
+{
+	"id": "S02023",
+	"slug": "קרי-7",
+	"headword": {
+		"text": "קְרֵי",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרִי"
+		}
+	],
+	"page": {
+		"number": 1419,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"S02049\"><he>קִרְיָיא</he></cite>, <i>town, place</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 47:21\">Targ. O. Gen. XLVII, 21</cite> (some ed. <cite ref=\"S02024\"><he>קְרִי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 19:2\">Targ. Is. XIX, 2</cite>; a. e.—Pl., v. <cite ref=\"S02049\"><he>קִרְיָיא</he></cite>"
+			]
+		}
+	]
+}

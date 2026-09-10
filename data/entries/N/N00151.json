@@ -1,0 +1,28 @@
+{
+	"id": "N00151",
+	"slug": "נגיבא",
+	"headword": {
+		"text": "נְגִיבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְגִיבְתָּא"
+		}
+	],
+	"page": {
+		"number": 874,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00150\">preced.</cite>) <i>dry land</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 14:21\">Targ. Y. I Ex. XIV, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:10\">Targ. Y. Gen. I, 10</cite>."
+			]
+		}
+	]
+}

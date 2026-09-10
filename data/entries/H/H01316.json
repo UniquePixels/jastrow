@@ -1,0 +1,45 @@
+{
+	"id": "H01316",
+	"slug": "חנניא",
+	"headword": {
+		"text": "חֲנַנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲנַנְיָה"
+		}
+	],
+	"page": {
+		"number": 484,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.(b. h. <cite ref=\"H01316\"><he>חֲנַנְיָה</he></cite>, <cite ref=\"H01316\"><he>חֲנַנְיָה</he></cite><cite ref=\"F00002\"><he>וּ</he></cite>)<i>Hanania;</i> ",
+			"units": []
+		},
+		{
+			"gloss": " H., one of the Babylonian exiles at the Babylonian court. ",
+			"units": [
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite> <he>אישתא דח׳ וכ׳</he> the fire prepared for H., Mishael and Azariah. ",
+				"<cite ref=\"Sanhedrin 93a:14\">Snh. 93ᵃ</cite> <he>כי היכי … להּ׳ וכ׳</he> as I tested H. &c.; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " several Tannaim and Amoraim (interchanging with <cite ref=\"H01292\"><he>חֲנִינָא</he></cite> q. v.); esp. <i>Ḥ.</i> <i>b. ʿAkashia</i>: <cite ref=\"Mishnah Makkot 3:16\">Macc. III, 16</cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shekalim 3:18\">Tosef. Shek. III, 18</cite>.—<i>H. b. T’radion</i>, a martyr of the Adrianic persecution. ",
+				"<cite ref=\"Tosefta Kelim Kamma 4:17\">Tosef. Kel. B. Kam. IV, 17</cite>. ",
+				"<cite ref=\"Avodah Zarah 17b\">Ab. Zar. 17ᵇ</cite>, sq. (<cite ref=\"H01292\"><he>חנינא</he></cite>). ",
+				"<cite ref=\"Taanit 16b:14\">Taan. 16ᵇ</cite>; a. fr.—<i>H. b. ʿAkabia</i>: <cite ref=\"Moed Katan 21a:9\">M. Kat. 21ᵃ</cite>; (<cite ref=\"Mishnah Ketubot 8:1\">Keth. VIII, 1</cite>, a. fr. <cite ref=\"H01292\"><he>חנינא</he></cite>); a. e.—<i>H.</i>, ‘<i>the Haber of the Rabbis</i>’. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:4\">Y. Ter. VIII, 45ᶜ</cite>; (<cite ref=\"Jerusalem Talmud Berakhot 1:1:16\">Y. Ber. I, 2ᶜ</cite> top. <cite ref=\"H01292\"><he>חנינא</he></cite>); a. fr.—Other Amoraim by that name, v. Frank. M’bo, p. 88ᵇ, sq.—<cite ref=\"H00535\"><he>כְּפַר ח׳</he></cite> pr. n. pl. <i>K’far Hanania</i> in Galilee. ",
+				"<cite ref=\"Mishnah Sheviit 9:2\">Shebi. IX, 2</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

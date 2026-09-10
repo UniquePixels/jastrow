@@ -1,0 +1,28 @@
+{
+	"id": "K00753",
+	"slug": "כלכיד",
+	"headword": {
+		"text": "כַּלְכִּיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּלְכִּידָא"
+		}
+	],
+	"page": {
+		"number": 643,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (χαλκίς, -ίδος) <i>chalkis</i>, a small fish resembling sardines (v. Sm. Ant. s. v.). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:3:3\">Y. Ned. VI, 39ᶜ</cite> bot. if one says, I will taste no <cite ref=\"D00098\"><he>דָּגָה</he></cite>, <he>אינו … אלא בכ׳</he> he is forbidden ony <i>ch</i>. (small fish). Ib.ᵈ top <he>כיל׳ אנא טעים</he> I feel as if I were eating <i>ch</i>.—",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>לית … והוא זבין ליה כ׳</he> is it not often the case when a man says to his neighbor, buy me a fish, that he will buy <i>ch</i>. for him?—Y. Erub. III, 20ᵈ top <cite ref=\"K00682\"><he>כלבודא</he></cite> (corr. acc.); Y. Peah VIII, 21ᵃ top (<he>סלק׳</he>) <cite ref=\"K00777\"><he>כלקורא</he></cite>, read: <cite ref=\"K00780\"><he>כַּלְקִידָא</he></cite>."
+			]
+		}
+	]
+}

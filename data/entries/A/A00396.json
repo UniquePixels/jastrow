@@ -1,0 +1,23 @@
+{
+	"id": "A00396",
+	"slug": "אדיותא",
+	"headword": {
+		"text": "אַדָּיוּתָא"
+	},
+	"page": {
+		"number": 16,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00222\"><he>נדי</he></cite> = h. <cite ref=\"E00291\"><he>הַזָּאָה</he></cite>) <i>sprinkling</i> (for purification). ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 19:13\">Targ. Num. XIX, 13</cite> (Var. <cite ref=\"A00396\"><he>אַדְיוּתָא</he></cite>; h. text <cite ref=\"N00215\"><he>נִדָּה</he></cite>!). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 36:25\">Targ. Ezek. XXXVI, 25</cite> <cite ref=\"A00396\"><he>אַדְיוּתָא</he></cite>."
+			]
+		}
+	]
+}

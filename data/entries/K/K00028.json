@@ -1,0 +1,32 @@
+{
+	"id": "K00028",
+	"slug": "כבב",
+	"headword": {
+		"text": "כְּבַב",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 606,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be thick, hollow, arched</i>.—Denom. <cite ref=\"K00024\"><he>כַּבָּא</he></cite>, <cite ref=\"K00180\"><he>כּוּבָּא</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּבֵּיב"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"K00180\"><he>כּוּבָּא</he></cite>, v. Fl. to Levy Targ. Dict. I, 427ᵇ) <i>to burn thorns, to char</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 29b:13\">Erub. 29ᵇ</cite> <he>ונִיכַּבְּבֵיה</he> and let him char it (the meat; Rashi: let him <i>roast it over the charred thorns</i>; v. <cite ref=\"K00481\"><he>כִּיבָּא</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"id": "H01311",
+	"slug": "חנן-2",
+	"headword": {
+		"text": "חָנַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּן"
+		}
+	],
+	"page": {
+		"number": 484,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>גנן</he>) [<i>to cover, surround</i>,] <i>to caress, grace, favor</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 104a:5\">Sabb. 104ᵃ</cite> (in children’s acrostics) <he>זֹן אותך וחָ֗ן אותך</he> sustains and graces thee. ",
+				"<cite ref=\"Bamidbar Rabbah 11:6\">Num. R. s. 11</cite> (ref. to <cite ref=\"Numbers 6:25\">Num. VI, 25</cite>) <he>יָחוֹן איתך בבנים</he> may He favor thee with (good) children. ",
+				"<cite ref=\"Numbers 6:25\">Ib.</cite> (quot. from daily prayers) <he>אתה חוֹנֵן לאדם דעת</he> thou graciously endowest man with knowledge. ",
+				"<cite ref=\"Numbers 6:25\">Ib.</cite> <he>עתיד הקב״ה לָחוֹן עליהם</he> the Lord will in due time protect them. ",
+				"<cite ref=\"Sifrei Bamidbar 41:1\">Sifré Num. 41</cite> <he>יָחְנְךָ בתלמוד תורה</he> may He grace thee by enabling thee to study the Law. Pesik. Asser, p. 97ᵃ (ref. to <he>מהונך</he>, <cite ref=\"Proverbs 3:9\">Prov. III, 9</cite>) <he>ממה שחֲנָנְךָ</he> out of what He has endowed thee with; a. fr.—[<cite ref=\"Midrash Tehillim 78:14\">Midr. Till. to Ps. LXXVIII</cite> <cite ref=\"H01247\"><he>חָן</he></cite>, v. <cite ref=\"H01254\"><he>חָנָה</he></cite>.]—<i>Part. pass.</i> <cite ref=\"H01290\"><he>חָניּן</he></cite>, pl. <he>חֲנוּנִים</he> "
+			]
+		},
+		{
+			"gloss": "<i>graced, endowed</i>. Num. R. l. c. <he>חֲנוּנֵי</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<cite ref=\"D00950\"><he>דעת</he></cite> endowed with knowledge. ",
+			"units": [
+				"<cite ref=\"Pesachim 87a:13\">Pes. 87ᵃ</cite> <he>בני חֲנוּנֶיךָ</he> children of thy favored ones, Abraham &c. (Ms., v. <cite ref=\"B00481\"><he>בָּחַן</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bandaged</i>. Pl. fem. <he>חֲנוּנוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:4\">Sabb. V, 4</cite>, v. <cite ref=\"H01264\"><he>חָנוּן</he> I</cite>, 2."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחֱנָן"],
+			"senses": [
+				{
+					"gloss": "<i>to be shown favor</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite> (ref. to <cite ref=\"Isaiah 26:10\">Is. XXVI, 10</cite>) <he>אבל אם למד … אינו נ׳</he> but if he has learned …, he will be shown no favor (will not be forgiven)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["מִתְחַנֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to bend one’s self, to supplicate</i> (v. <cite ref=\"V00380\"><he>תְּחִנָּה</he></cite>). ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite>, beg. <cite ref=\"H01311\"><he>מִתְחַנֵּן</he></cite>, v. <cite ref=\"H00040\"><he>חָבַט</he></cite>. ",
+						"<cite ref=\"Devarim Rabbah 2:5\">Ib.</cite> <he>התחיל להִתְחַנֵּן</he> (<he>התחיל מתחנן</he>) he began to pray; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["חוּן"],
+			"senses": [
+				{
+					"gloss": " = <cite ref=\"H01254\"><he>חָנָה</he></cite>) <i>to come to rest, to be collected</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 30b\">Ber. 30ᵇ</cite> (adopting the expression in conformity with <he>ואתחנן</he>, <cite ref=\"Deuteronomy 3:23\">Deut. III, 23</cite>) until his mind be collected again (for prayer), v. <cite ref=\"H00319\"><he>חוּל</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

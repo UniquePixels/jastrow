@@ -1,0 +1,23 @@
+{
+	"id": "M00301",
+	"slug": "מדכנתא",
+	"headword": {
+		"text": "מַדְכַנְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 734,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00784\"><he>דְּכַן</he></cite>) <i>clean fat</i> (permitted to eat). ",
+			"units": [
+				"<cite ref=\"Bekhorot 30a:1\">Bekh. 30ᵃ</cite> Var. in Ar., v. <cite ref=\"M02478\"><he>מַר</he> III</cite>."
+			]
+		}
+	]
+}

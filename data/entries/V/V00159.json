@@ -1,0 +1,35 @@
+{
+	"id": "V00159",
+	"slug": "תודוס",
+	"headword": {
+		"text": "תּוֹדוֹס"
+	},
+	"page": {
+		"number": 1650,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Todos</i> (abbrev. of Theodoros), ",
+			"units": []
+		},
+		{
+			"gloss": " T. of Rome. ",
+			"units": [
+				"<cite ref=\"Tosefta Beitsah 2:15\">Tosef. Bets. II, 15</cite>; <cite ref=\"Beitzah 23a:6\">Bets. 23ᵃ</cite>; <cite ref=\"Pesachim 53a:14\">Pes. 53ᵃ</cite>; <cite ref=\"Berakhot 19a:12\">Ber. 19ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " T. the physician. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 4:4\">Bekh. IV, 4</cite>. ",
+				"<cite ref=\"Tosefta Ohalot 4:2\">Tosef. Ohol. IV, 2</cite> <he>תִּיאוֹדוֹרוֹס הרופא</he>."
+			],
+			"label": "2"
+		}
+	]
+}

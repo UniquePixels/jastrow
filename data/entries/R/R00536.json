@@ -1,0 +1,42 @@
+{
+	"id": "R00536",
+	"slug": "צלע-4",
+	"headword": {
+		"text": "צֵלָע"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַלְעָה"
+		}
+	],
+	"page": {
+		"number": 1285,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"R00534\"><he>צָלַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>side, rib</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 42b:8\">Ḥull. 42ᵇ</cite> <he>נעקרה צ׳ מעיקרה</he> if a rib of an animal is torn loose from its seat. ",
+				"<cite ref=\"Bereishit Rabbah 21\">Gen. R. s. 21</cite> (ref. to <cite ref=\"Genesis 3:22\">Gen. III, 22</cite>) <he>כל זמן … כאחד וכיון שנטלה צַלְעָתוֹ וכ׳</he> as long as he was Adam, he was like one (harmonious in himself), but when his rib was taken from him, he was ‘to know’ (the conflict between) ‘good and evil’; Yalk. ib. 34. ",
+				"<cite ref=\"Kiddushin 6a:3\">Kidd. 6ᵃ</cite> <he>צַלְעָתִי מהו</he> if one says to a woman, ‘be thou my rib’ (alluding to <cite ref=\"Genesis 2:22\">Gen. II, 22</cite>), how is it (is this to be recognized as a betrothal)?; a. fr.—Pl. <he>צְלָעוֹת</he>. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> <he>נשתברו רוב צַלְעוֹתֶיהָ</he> if the larger number of an animal’s ribs are broken. ",
+				"<cite ref=\"Chullin 52a:8\">Ib. 52ᵃ</cite> <he>ובצ׳ גדולות וכ׳</he> and it means the large ribs, those that have marrow in their bones; a. fr.—2) <i>side of a hill or rock</i>.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Mishnah Sheviit 5:4\">Shebi. V, 4</cite>; Y. ib. 36ᵃ top <cite ref=\"R00362\"><he>צִילְעוֹת</he></cite> constr., v. <cite ref=\"Q00151\"><he>פּוּאָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wing of a building</i>. ",
+			"units": ["<cite ref=\"Bava Batra 61a:3\">B. Bath. 61ᵃ</cite>"],
+			"label": "3"
+		}
+	]
+}

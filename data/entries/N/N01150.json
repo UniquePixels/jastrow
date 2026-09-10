@@ -1,0 +1,23 @@
+{
+	"id": "N01150",
+	"slug": "נצרפי",
+	"headword": {
+		"text": "נִצְרְפֵי"
+	},
+	"page": {
+		"number": 930,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (fr. <cite ref=\"R00798\"><he>צרף</he></cite>, a cacophemistic disguise of <he>נוֹצְרָאֵי</he>, v. <cite ref=\"N00403\"><he>נוֹצְרִי</he></cite>); <he>בי נ׳</he> <i>a Christian place of worship</i>, contrad. to <he>בֵּי אֲבֵידָן</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 116a:10\">Sabb. 116ᵃ</cite> (Ms. O. <he>נצרפו</he>, v. Rabb. D. S. a. l. note 30)."
+			]
+		}
+	]
+}

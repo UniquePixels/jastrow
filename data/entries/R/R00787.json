@@ -1,0 +1,90 @@
+{
+	"id": "R00787",
+	"slug": "צרך-1",
+	"headword": {
+		"text": "צָרַךְ"
+	},
+	"page": {
+		"number": 1302,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to be narrow</i>,] <i>to need, want</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:2\">Y. Dem. II, beg. 22ᵇ</cite> <he>לא צָרְכוּ … ליתן וכ׳</he> the scholars had no need to describe them; <he>צרכו … למנותן</he> found it necessary to specify them; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְרָךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be in need, be forced</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 50b\">B. Kam. 50ᵇ</cite> <he>נ׳ למכור וכ׳</he> he was obliged to sell his field; a. fr.—Euphem. <he>נ׳ לנקביו</he> (or sub. <he>לנקביו</he>) <i>to have a human need</i>, v. <cite ref=\"N01157\"><he>נֶקֶב</he></cite>. ",
+						"<cite ref=\"Berakhot 23a\">Ber. 23ᵃ</cite>. ",
+						"<cite ref=\"Shemot Rabbah 9:7\">Ex. R. s. 9</cite> <he>בשעה שהוא נ׳ תפוש אותו</he> surprise him when he is easing himself; a. fr.—<he>לא נִצְרְכָה אלא</he> it would not have been necessary (to mention it) were it not in order to indicate &c. (v. <cite ref=\"R00774\"><he>צְרִיךְ</he></cite>). ",
+						"<cite ref=\"Bava Metzia 30b\">B. Mets. 30ᵇ</cite>; a. fr.—Y. Ber. VII, 11ᵇ top <he>לשני קטנים נצרכה</he> it was necessary (to state the two seemingly contradictory opinions) for two kinds of minors (one sure, and one doubtful); <cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִצְטָרֵךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00786\">same</cite>, (with <he>ל־</he>) <i>to be in need of, depend on</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 22b:13\">Taan. 22ᵇ</cite> an individual must not impose fasts upon himself, <he>שמא יִצְטָרֵךְ וכ׳</he> lest he become dependent on men (become unable to work), and they will have no pity on him. ",
+						"<cite ref=\"Shabbat 118a:4\">Sabb. 118ᵃ</cite> <he>עשה … ואל תִּצְטָרֵךְ וכ׳</he> rather make thy Sabbath a week-day (as regards festive meals) than be dependent on men; <cite ref=\"Pesachim 112a\">Pes. 112ᵃ</cite>. ",
+						"<cite ref=\"Bava Batra 110a:2\">B. Bath. 110ᵃ</cite>, v. <cite ref=\"P00026\"><he>עֲבוֹדָה</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["צֵרֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to have a need</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 927:2\">Yalk. Job 927</cite> <he>המְצָרְכִים</he>, v. <cite ref=\"R00255\"><he>צוֹרֶךְ</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִצְרִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to need, to declare bound, oblige</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 23b:2\">Taan. 23ᵇ</cite> <he>ברוך … שלא ה׳ וכ׳</he> blessed be the Lord that he put you beyond the need of Abba Hilkiah’s prayer. ",
+						"<cite ref=\"Kiddushin 25a:18\">Kidd. 25ᵃ</cite> <he>והִצְרִיכָהּ ר׳ וכ׳</he> Rabbi decided that she must have another immersion; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּצְרַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be needed; to be in need of, be forced</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 79b:2\">Men. 79ᵇ</cite> <he>אם הוּצְרְכוּ הוּצְרָכוּ וכ׳</he> if they shall be needed (for the sacrifice intended), they shall be used; if not, they shall be otherwise employed; <cite ref=\"Ketubot 106b:9\">Keth. 106ᵇ</cite>; <cite ref=\"Shevuot 11a\">Shebu. 11ᵃ</cite>. ",
+						"<cite ref=\"Shevuot 11a\">Ib.</cite> <he>תמידין שלא הוצרכו לצבור</he> animals selected for daily offerings beyond the needed number. ",
+						"<cite ref=\"Yoma 67a:6\">Yoma 67ᵃ</cite> <he>מעולם לא ה׳ אדם לכך</he> it never happened that the messenger sent with the Azazel needed to make use of the offer of food. ",
+						"<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite> <he>לא הוצרכו שיעשיאום וכ׳</he> they had not to be forced &c., v. <cite ref=\"P01466\"><he>עָשָׂה</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

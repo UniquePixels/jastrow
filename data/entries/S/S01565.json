@@ -1,0 +1,30 @@
+{
+	"id": "S01565",
+	"slug": "קנטרן",
+	"headword": {
+		"text": "קַנְטְרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַנְתְּ׳"
+		}
+	],
+	"page": {
+		"number": 1390,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S01564\">preced.</cite> articles) <i>a quarrelsome person, disputatious</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 6:2\">Esth. R. to II, 5</cite> <he>וכי קנת׳ היה ועיבר וכ׳</he> was he (Mordecai) contumacious and one who disregards the king’s decree?—Pl. <he>קַנְטְרָנִים</he>, <he>קַנְטְרָנִין</he>, <cite ref=\"S01565\"><he>קַנְתְּ׳</he></cite>. ",
+				"<cite ref=\"Nedarim 48a:5\">Ned. 48ᵃ</cite> <he>אנשי גליל ק׳ היו וכ׳</he> the Galileans were quarrelsome and wont to forswear enjoying benefits from one another. ",
+				"<cite ref=\"Nazir 49b\">Naz. 49ᵇ</cite> <he>מפני שקנת׳ הן וכ׳</he> because they are disputatious, and do not come to learn &c.; <cite ref=\"Kiddushin 52b\">Kidd. 52ᵇ</cite>.—",
+				"<cite ref=\"Shir HaShirim Rabbah 6:11:1\">Cant. R. to VI, 11</cite> <he>אגוזים ק׳</he>, v. <cite ref=\"S00834\"><he>קִטְּרוֹנִים</he></cite>."
+			]
+		}
+	]
+}

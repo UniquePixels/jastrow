@@ -1,0 +1,28 @@
+{
+	"id": "T00023",
+	"slug": "ראם-2",
+	"headword": {
+		"text": "רָאִם"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָאֵים"
+		}
+	],
+	"page": {
+		"number": 1437,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"T00374\"><he>רוּם</he></cite>, <i>to be high</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 31:10\">Targ. Ez. XXXI, 10</cite> <he>רָאִימְתָּא</he> ed. Lag. (oth. ed. <cite ref=\"T00841\"><he>רָמְתָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 31:10\">Ib.</cite> <he>ראים</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 49:11\">Targ. Is. XLIX, 11</cite> <he>יראמון</he> ed. Lag. (oth. ed. <he>ירומון</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 52:13\">Ib. LII, 13</cite> <he>יראם</he> ed. Lag. (oth. ed. <he>ירום</he>); a. e.—Part. <cite ref=\"T00020\"><he>רָאִים</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 13:6\">Targ. Hos. XIII, 6</cite>; a. e."
+			]
+		}
+	]
+}

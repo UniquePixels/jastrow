@@ -1,0 +1,32 @@
+{
+	"id": "C00502",
+	"slug": "גוש-1",
+	"headword": {
+		"text": "גּוּשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 227,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>גשש</he>) <i>to be hard, thick</i>. V. <cite ref=\"C00841\"><he>גִּישׁ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָגֵישׁ"],
+			"senses": [
+				{
+					"gloss": ", or <cite ref=\"A00366\"><he>אַגַּשׁ</he></cite> (fr. <he>גשש</he>) <i>to harden</i>, (with <cite ref=\"A02598\"><he>אפא</he></cite>) <i>to be bold</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:55\">Lam. R. to I, 21</cite> <he>אָגַשְׁתּוּן אפיכון</he> (or <he>אַגַּשְׁתּוּן</he>) Ar. (ed. a. Var. Ar. <he>אקשיתון</he>) have ye the hardihood (to come back to me)?; Pesik. Anokhi p. 138ᵇ <he>חא אגשתון אפיכון</he> Ms. O. a. Parma (ed. <he>ארגישתון</he>). Ib. <he>אָגִישַׁת אפך</he> Ar. a. Ms. O. a. Parma (ed. <he>ארגשת</he>, Lam. R. l. c. <cite ref=\"S02270\"><he>אקשית</he></cite>) hast thou &c.?"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

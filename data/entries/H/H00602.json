@@ -1,0 +1,28 @@
+{
+	"id": "H00602",
+	"slug": "חטוף",
+	"headword": {
+		"text": "חֲטוֹף"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲטוֹפָא"
+		}
+	],
+	"page": {
+		"number": 448,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00640\"><he>חֲטַף</he></cite>) <i>violence, robbery, robbed goods</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 9:24\">Targ. Jud. IX, 24</cite>; a. fr.—Pl. <he>חֲטוֹפִין</he>, <he>חֲטוֹפַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 72:14\">Targ. Ps. LXXII, 14</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "U01071",
+	"slug": "שירותא-3",
+	"headword": {
+		"text": "שֵׁירוּתָא",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁר׳"
+		},
+		{
+			"text": "שֵׁירוּ"
+		},
+		{
+			"text": "שֵׁרוּ",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1569,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01961\"><he>שְׁרֵי</he></cite>) [<i>rest, encampment,</i>] <i>meal, refreshment</i> (cmp. <cite ref=\"O01284\"><he>סְעוּדָה</he></cite>); <i>ration, sustenance</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 29:22\">Targ. Y. Gen. XXIX, 22</cite> (not <cite ref=\"U01065\"><he>שירוי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 18:5\">Ib. XVIII, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 40:30\">Targ. Job XL, 30</cite>. ",
+				"<cite ref=\"Onkelos Genesis 43:16\">Targ. Gen. XLIII, 16</cite> (<i>dinner time;</i> h. text <he>צהרים</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 25:30\">Targ. II Kings XXV, 30</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 39b:10\">Ber. 39ᵇ</cite> <he>הוה בצע אכולא ש׳</he> used to break bread enough for the entire meal. ",
+				"<cite ref=\"Taanit 11b:2\">Taan. 11ᵇ</cite> <he>האי בר בי רב … ליכול כלבא לשֵׁירוּתֵיה</he> if a student fasts, let a dog eat his meal. ",
+				"<cite ref=\"Pesachim 113a:3\">Pes. 113ᵃ</cite> (prov.) <he>סלקת לאיגרא שֵׁירוּתָךְ בהדך</he> if thou goest up to the roof (on a journey ever so short), take thy provisions with thee; a. e.—Pl. <cite ref=\"U01064\"><he>שֵׁירָוָון</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 4:8\">Targ. Hos. IV, 8</cite> (ed. Wil. <cite ref=\"U01066\"><he>שִׁירְוָן</he></cite>)."
+			]
+		}
+	]
+}

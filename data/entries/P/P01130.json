@@ -1,0 +1,58 @@
+{
+	"id": "P01130",
+	"slug": "עצר-1",
+	"headword": {
+		"text": "עָצַר"
+	},
+	"page": {
+		"number": 1103,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A02888\"><he>אָצַר</he></cite>) [<i>to press</i>,] <i>to close up; to detain; to ward off; to gather, store away</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 38a:1\">Succ. 38ᵃ</cite> <he>עוֹצֶרֶת רוחות וכ׳</he> wards off evil winds and dews (v. infra). ",
+				"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite> <he>היאך יכול … וַעֲצָרוֹ</he> how could the angel of death strike a man that had stood up against the angel of death and warded him off? (ref. to <cite ref=\"Numbers 17:13\">Num. XVII, 13</cite>). ",
+				"<cite ref=\"Sifrei Bamidbar 151:1\">Sifré Num. 151</cite>; <cite ref=\"Yalkut Shimoni on Torah 782:20\">Yalk. ib. 782</cite> (ref. to <cite ref=\"P01136\"><he>עצרת</he></cite>, <cite ref=\"Numbers 29:35\">Num. XXIX, 35</cite>) <he>עֲצָרוֹ הכתוב מלצאת</he> the Scripture keeps him (the pilgrim) from leaving (Jerusalem, on the eighth day). Pesik. R. (ed. Fr.) addit. s. 4; Pesik. Bayom, p. 193ᵇ <he>הק״בה עוֹצֵר וכ׳</he> the Lord locks his Presence up with them, v. infra. ",
+				"<cite ref=\"Avodah Zarah 71a:4\">Ab. Zar. 71ᵃ</cite> <he>עול תחתי לעוֹצֵר</he>, v. <cite ref=\"P00815\"><he>עָלַל</he></cite>; a. fr.—Part. pass. <cite ref=\"P01110\"><he>עָצוּר</he></cite>; f. <cite ref=\"P01108\"><he>עֲצוּרָה</he></cite>; pl. <cite ref=\"P01112\"><he>עֲצוּרִים</he></cite>, <he>עְצוּרִין</he>; <he>עְצוּרוֹת</he>. Sifré l. c. <he>מה זה ע׳ מלצאת אף זה ע׳ וכ׳</he> as on this (the eighth day) one is prohibited to leave, so is one on this (the first day). ",
+				"<cite ref=\"Sifrei Devarim 135:1\">Sifré Deut. 135</cite> (ref. to <cite ref=\"P01136\"><he>עצרת</he></cite>, <cite ref=\"Deuteronomy 16:8\">Deut. XVI, 8</cite>) <he>יכול יהא אדם ע׳ כל וכ׳</he> from this you might infer that one must be confined the whole day in the schoolhouse (for religious exercises). ",
+				"<cite ref=\"Deuteronomy 16:8\">Ib.</cite> <he>מה שביעי ע׳ אף ששי ע׳</he> as the seventh day is under restrictions (as to week-day labor), so is the sixth day (i.e. the days intervening between the first and the seventh day); <he>אי מה שביעי ע׳ מכל מלאכה וכ׳</he> you might infer from this that as the seventh day is under restriction as regards all sorts of labor (even work of necessity), so is the sixth; <cite ref=\"Chagigah 18a:2\">Ḥag. 18ᵃ</cite> <he>השביעי ע׳ בכל מלאכה … ימים ע׳ וכ׳</he> the seventh day is under a general restriction, but the six days are not; <cite ref=\"Yalkut Shimoni on Torah 904:5\">Yalk. Deut. 904</cite>; <cite ref=\"Yalkut Shimoni on Torah 907:1\">ib. 907</cite>. ",
+				"<cite ref=\"Chullin 67a:7\">Ḥull. 67ᵃ</cite> <he>בורות … שהן ע׳ ככלים</he> wells, pits and caves, the waters of which are restrained as in vessels; <cite ref=\"Yalkut Shimoni on Torah 537:6\">Yalk. Lev. 537</cite> <he>עצירים … בכלים</he> (corr. acc.); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶעֱצָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be detained; to be gathered together</i>. Pesik. R. l. c. <he>כל זמן שישראל נֶעֱצָרִין וכ׳</he> as long as Israel holds festive gatherings in synagogues and schoolhouses, the Lord locks up &c. (v. supra); Pesik. l. c.ᵃ <he>מְעַצְּרִין</he> (<i>Pi.</i>). ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 782:25\">Yalk. Num. 782</cite> (ref. to <cite ref=\"P01136\"><he>עצרת</he></cite>, v. supra) <he>למה נֶעֶצְרוּ עיד יום אחד</he> why are they detained one more day? <cite ref=\"Taanit 7b:5\">Taan. 7ᵇ</cite> <he>הגשמים נעצרין</he> the rains are withheld. ",
+						"<cite ref=\"Taanit 8a:18\">Ib. 8ᵃ</cite> <he>השמים נעצרין מלהוריד וכ׳</he> the heavens are locked up so as not to let down rain &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["עִצֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to hold festive gatherings</i>. Pesik. l. c., v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to detain, keep off</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 37b:10\">Succ. 37ᵇ</cite> <he>כדי לעַצֵּר רוחות וכ׳</he> in order to keep off evil winds &c. (v. supra)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

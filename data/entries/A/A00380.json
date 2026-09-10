@@ -1,0 +1,27 @@
+{
+	"id": "A00380",
+	"slug": "אדוותא",
+	"headword": {
+		"text": "אַדְווּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲדוּתָא"
+		}
+	],
+	"page": {
+		"number": 15,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Syr. <he>דועתא דימא</he> P. S. 933, <he>דוע</he> to sweat, drip; cmp. <cite ref=\"A00368\"><he>אֵד</he></cite>) prop. <i>sweat</i>, <he>א׳ דימא</he> <i>foam of the Sea</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 4a:6\">B. Bath. 4ᵃ</cite>; <cite ref=\"Sukkah 51b\">Succ. 51ᵇ</cite> (Ms. M. <cite ref=\"A01158\"><he>אידותא</he></cite>) the Temple building of marble looks like a surging Sea (from a distance). Cmp. <cite ref=\"A00562\"><he>אוּדְיָיתָא</he></cite> a. <cite ref=\"A00968\"><he>אֲזִי</he></cite>."
+			]
+		}
+	]
+}

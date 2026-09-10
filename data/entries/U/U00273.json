@@ -1,0 +1,45 @@
+{
+	"id": "U00273",
+	"slug": "שדך-1",
+	"headword": {
+		"text": "שָׁדַךְ"
+	},
+	"page": {
+		"number": 1525,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>שִׁידֵּךְ</he> (v. <cite ref=\"U00274\">next w.</cite>) <i>to negotiate, stipulate</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 150a:12\">Sabb. 150ᵃ</cite> <he>מְשַׁדְּכִין על … ועל התינוק וכ׳</he> you may stipulate on the Sabbath about girls to be betrothed, and about a boy to be taught reading or a trade. Tosef. ib. XVI (XVII), 22 <he>ואין מְשַׁדְּכִין בין וכ׳</he> you must not negotiate business affairs between a husband and his wife (to reconcile them) on the Sabbath. ",
+						"<cite ref=\"Kiddushin 44b:9\">Kidd. 44ᵇ</cite> <he>והוא ששִׁדְּכוּ</he> provided they have been negotiating (with her father). ",
+						"<cite ref=\"Kiddushin 44b:10\">Ib.</cite> (mixed dict.) <he>אע״ג דשִׁידְּכוּ</he> even if they have been negotiating."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁדִּיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to subdue, quiet</i>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 2\">Esth. R. s. 2</cite>, beg. (ref. to <cite ref=\"Proverbs 29:11\">Prov. XXIX, 11</cite> <he>ישבחנה</he>) <he>זה הקב״ה שהוא מַשְׁדִּיךְ וכ׳</he> this refers to the Lord who quieted Ahasverus (ref. to <he>משביח</he>, <cite ref=\"Psalms 65:8\">Ps. LXV, 8</cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

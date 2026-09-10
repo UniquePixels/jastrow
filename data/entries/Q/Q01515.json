@@ -1,0 +1,50 @@
+{
+	"id": "Q01515",
+	"slug": "פקק-2",
+	"headword": {
+		"text": "פְּקַק"
+	},
+	"page": {
+		"number": 1211,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01514\">same</cite><i>to split, make a breach</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:10\">Y. Snh. II, 20ᵇ</cite> <he>כד תִּיפּוֹק</he> (not <he>כל</he>), v. <cite ref=\"Q01510\"><he>פִּקְפּוּקְתָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stop</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 32:30\">Targ. II Chr. XXXII, 30</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:20\">Y. Ter. VIII, 45ᵈ</cite> <he>פָּקֵיק לה ומכסי לה</he> stops the bottle and covers it."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפְּקַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be split, chipped off</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 30:17\">Targ. Job XXX, 17</cite> <he>מִתְפַּקְּקִין מיני</he> ed. Lag. are chipped off me (h. text <cite ref=\"N01241\"><he>נקר</he></cite>), v. <cite ref=\"Q01512\"><he>פַּקְפֵּק</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be stopped</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 31:19\">Targ. Ps. XXXI, 19</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "R00068",
+	"slug": "צבר-1",
+	"headword": {
+		"text": "צָבַר"
+	},
+	"page": {
+		"number": 1259,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to join; to pile up</i> (cmp. <cite ref=\"H01218\"><he>חָמַר</he> I</cite>); <i>to collect</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 5:1\">Yoma V, 1</cite> <he>צ׳ את הקטורת וכ׳</he> he heaped the frankincense upon the coals. ",
+				"<cite ref=\"Mishnah Tamid 1:4\">Tam. I, 4</cite>. Y. B. Bath. III, beg. 13ᵈ <he>כיון שצ׳ לתוכו וכ׳</he> as soon as he has put into it a pile of fruit, he has taken possession (of the building). ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 11:6\">Pirké d’R. El. ch. XI</cite> <he>צ׳ את עפרו וכ׳</he> God collected the dust out of which to create Adam (v. infra); a. fr.—Part. pass. <cite ref=\"R00027\"><he>צָבוּר</he></cite>; f. <he>צְבוּרָה</he>; pl. <he>צְבוּרִים</he>, <he>צְבוּרִין</he>; <he>צְבוּרוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:4\">Y. Taan. II, beg. 65ᵃ</cite> <he>רואין … כאילו צ׳ וכ׳</he> we look upon it as if the ashes of Isaac were heaped upon the altar. ",
+				"<cite ref=\"Shabbat 127a:3\">Sabb. 127ᵃ</cite> <he>תבואה צ׳</he> fruits piled for storage. ",
+				"<cite ref=\"Bava Batra 69a:1\">B. Bath. 69ᵃ</cite> <he>אבנים צ׳ לגדר</he> stones piled up (but not yet arranged and assorted) to build a fence with, contrad. to <he>סדורות</he> (cmp. ",
+				"<cite ref=\"Tosefta Bava Batra 3:6\">Tosef. ib. III, 6</cite>, quot. s. v. <cite ref=\"O00411\"><he>סָוַר</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְבָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be piled, stored</i>. Y. B. Bath. l. c. <he>פירות ראויין לִיצָּבֵר</he> fruits fit for storage (not only temporarily deposited).",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוּצְבָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be brought together, collected</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 38a\">Snh. 38ᵃ</cite> <he>אדם … ה׳ עפרו</he> the dust of which Adam was made, was collected from all parts of the world; <cite ref=\"Sanhedrin 38b\">ib.ᵇ</cite>; <cite ref=\"Avot D'Rabbi Natan 1\">Ab. d’R. N. ch. I</cite>."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

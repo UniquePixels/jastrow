@@ -1,0 +1,29 @@
+{
+	"id": "Q00995",
+	"slug": "פלחא-3",
+	"headword": {
+		"text": "פָּלְחָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1178,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q00991\"><he>פְּלַח</he></cite> <i>Ithpa.</i>) <i>breaking through, birth</i>.—Pl. constr. <he>פָּלְחֵי</he>, <cite ref=\"Q00095\"><he>פַּ׳</he></cite>; <he>קדמוי פ׳ וולדא</he> <i>first-born</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 34:19\">Targ. Y. II, Ex. XXXIV, 19</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "A03329",
+	"slug": "אשמורה",
+	"headword": {
+		"text": "אַשְׁמוֹרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַשְׁמוֹרֶת"
+		}
+	],
+	"page": {
+		"number": 129,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"A03329\"><he>אַשְׁמֹרָה</he></cite>, <cite ref=\"A03329\"><he>אַשְׁמֹרֶת</he></cite>; <he>שמר</he>)<i>night-watch, watch, a certain portion</i> (three or four hours) <i>of the day, called a watch</i> (v. Sm. Ant. s. v. <i>Castra</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite> <he>סוף הא׳ וכ׳</he> the end of the first watch of the night; a. fr.—Pl. <cite ref=\"A03329\"><he>אַשְׁמוֹרוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:26\">Y. Ber. I, 2ᵈ</cite> top <he>ארבע</he>(<cite ref=\"E00000\"><he>ה</he></cite>) <he>א׳ וכ׳</he> the day is divided into four watches, and so is the night; cmp. Bab. ",
+				"<cite ref=\"Berakhot 3a\">Ber. 3ᵃ</cite>"
+			]
+		}
+	]
+}

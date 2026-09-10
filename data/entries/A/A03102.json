@@ -1,0 +1,30 @@
+{
+	"id": "A03102",
+	"slug": "אריכה",
+	"headword": {
+		"text": "אֲרִיכָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרִיכוּת"
+		}
+	],
+	"page": {
+		"number": 120,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A03124\"><he>ארך</he></cite>) <i>prolongation, length;</i> (sub. <cite ref=\"A02595\"><he>אף</he></cite>, or <he>פנים</he>) <i>forbearance</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 7:8:1\">Koh. R. to VII, 8</cite> <he>א׳ שהאריך וכ׳</he> the forbearance which Samuel showed. ",
+				"<cite ref=\"Bereishit Rabbah 70:5\">Gen. R. s. 70</cite> <he>א׳ פנים</he>. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:10\">Y. Ḥag. II, 77ᵇ</cite> bot.; a. e. <he>א׳ ימים</he> length of days, long life.—",
+				"<cite ref=\"Bereishit Rabbah 64:5\">Gen. R. s. 64</cite> <he>א׳ ימים</he> lapse of time."
+			]
+		}
+	]
+}

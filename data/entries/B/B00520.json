@@ -1,0 +1,23 @@
+{
+	"id": "B00520",
+	"slug": "בטלן",
+	"headword": {
+		"text": "בַּטְלָן"
+	},
+	"page": {
+		"number": 158,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00515\"><he>בטל</he></cite>) <i>unemployed.—</i>Pl. <he>בַּטְלָנִים</he>, <he>בַּטְלָנִין</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 21b:13\">Snh. 21ᵇ</cite> <he>סוסים הב׳</he> horses not needed for the army. Y. ib. II, 20ᶜ. ",
+				"<cite ref=\"Mishnah Megillah 1:3\">Meg. I, 3</cite> <he>עשרה ב׳</he> ten persons having leisure; v. Y. ib. 70ᵇ bot."
+			]
+		}
+	]
+}

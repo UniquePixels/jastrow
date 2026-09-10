@@ -1,0 +1,22 @@
+{
+	"id": "T00716",
+	"slug": "ריש-1",
+	"headword": {
+		"text": "רִישׁ"
+	},
+	"page": {
+		"number": 1477,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"T01061\"><he>רָשׁ</he></cite>) <i>poverty, misery</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:25\">Num. R. s. 10</cite> (ref. to <cite ref=\"Proverbs 31:7\">Prov. XXXI, 7</cite>) <he>על האובד יאמר שישכח המות שהיא רִישׁוֹ ועמלו</he> this refers to the lost (the culprit before execution), (give him to drink,) that he may forget the threatening death which is his misery and trouble."
+			]
+		}
+	]
+}

@@ -1,0 +1,83 @@
+{
+	"id": "O00481",
+	"slug": "סטי-2",
+	"headword": {
+		"text": "סְטֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְטָא"
+		}
+	],
+	"page": {
+		"number": 972,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"O00480\">same</cite> (corresp. to b. h. <cite ref=\"N00555\"><he>נָטָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 38:1\">Targ. Gen. XXXVIII, 1</cite>; <cite ref=\"Onkelos Genesis 38:16\">16</cite> (h. text <he>ויט</he>); a. fr.—Esp. <i>to deviate from the right path, to go astray; to be faithless</i>. ",
+				"<cite ref=\"Onkelos Numbers 5:12\">Targ. Num. V, 12</cite> (h. text <he>תשטה</he>); a. fr.—",
+				"<cite ref=\"Shabbat 104b:5\">Sabb. 104ᵇ</cite> <he>סַטְיַת</he>; <cite ref=\"Sanhedrin 67a:15\">Snh. 67ᵃ</cite> <he>סָטַת</he>, v. <cite ref=\"O00475\"><he>סַטְדָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of the mind) <i>to wander, be mad</i> (cmp. h. <cite ref=\"U00734\"><he>שָׁטָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:15\">Targ. Koh. II, 15</cite> <he>סטא</he> ed. Lag. (ed. Vien. <cite ref=\"O00473\"><he>סַט</he></cite>, v. <cite ref=\"O00283\"><he>סוּט</he></cite>).—<i>Part.</i> <cite ref=\"O00481\"><he>סָטֵי</he></cite>; f. <cite ref=\"O00482\"><he>סָטְיָא</he></cite>; pl. <he>סָטִין</he>, <cite ref=\"O00487\"><he>סָטְיָין</he></cite> "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " (of the mind) <i>distracted</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 21:5\">Targ. I Kings XXI, 5</cite> (h. text <cite ref=\"O01542\"><he>סרה</he></cite>).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>inclining</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 23:2\">Targ. Y. Ex. XXIII, 2</cite> (h. text <he>להטות</he>).—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>deviating from the right path, rebellious</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 21:18\">Targ. O. Deut. XXI, 18</cite>; <cite ref=\"Onkelos Deuteronomy 21:20\">20</cite> (h. text <he>סורר</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 5:23\">Targ. Jer. V, 23</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 101:3\">Targ. Ps. CI, 3</cite> Ms. (ed. <he>שָׂטִין</he>, ed. Wil. <he>שָׂ׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 125:5\">Ib. CXXV, 5</cite>; a. fr."
+					],
+					"label": "c"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְטֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to turn</i> (<i>one’s own way</i>), <i>to deviate</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 14:27\">Targ. Prov. XIV, 27</cite> (h. text <cite ref=\"O00408\"><he>סור</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to turn, direct</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 22:23\">Targ. O. Num. XXII, 23</cite> (h. text <he>להטות׳</he>); a. fr.—Esp. <he>א׳ דינא</he> <i>to divert justice; to oppress</i>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 29:21\">Targ. Is. XXIX, 21</cite>; a. fr.—V. <cite ref=\"M01901\"><he>מִסְטֵי</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

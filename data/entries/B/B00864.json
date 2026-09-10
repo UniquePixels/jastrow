@@ -1,0 +1,29 @@
+{
+	"id": "B00864",
+	"slug": "בלימה",
+	"headword": {
+		"text": "בְּלִימָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּלִי מָה"
+		}
+	],
+	"page": {
+		"number": 173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h., v. <cite ref=\"B00857\"><he>בְּלִי</he></cite>) [<i>nothing</i>,] <i>air</i> (fr. ",
+			"units": [
+				"<cite ref=\"Job 26:7\">Job XXVI, 7</cite>). ",
+				"<cite ref=\"Bamidbar Rabbah 14:12\">Num. R. s. 14</cite> <he>עשר ספירות ב׳</he> (some ed. <cite ref=\"B00864\"><he>בלי מה</he></cite>) the ten heavenly spheres (cmp. Sepher Yetsir. beg.). ",
+				"<cite ref=\"Shemot Rabbah 15:22-23\">Ex. R. s. 15</cite> <he>על אויר העולם על ב׳ …</he> he rested it (the upper story, the sky) on the atmosphere, on b’limah (Tanḥ. Ḥaye 3 <he>על מה על האויר</he>)."
+			]
+		}
+	]
+}

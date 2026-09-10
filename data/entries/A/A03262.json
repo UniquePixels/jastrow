@@ -1,0 +1,29 @@
+{
+	"id": "A03262",
+	"slug": "אשד",
+	"headword": {
+		"text": "אֲשַׁד"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָשַׁד"
+		},
+		{
+			"text": "אֲשֵׁיד"
+		}
+	],
+	"page": {
+		"number": 126,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>שד</he>, v. <he>שדי</he>; v. H. Dict. s. v. <cite ref=\"A03262\"><he>אֶשֶׁד</he></cite>) <i>to pour out, to shed</i> (blood), <i>to deposit</i> (ashes). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 17:4\">Targ. Lev. XVII, 4</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 156a:11\">Sabb. 156ᵃ</cite> <he>אָשֵׁיד דמא</he> a shedder of blood.—Part. pass. <cite ref=\"A03286\"><he>אָשִׁיד</he></cite> <i>shed, spilt</i>. ",
+				"<cite ref=\"Targum Jonathan on Micah 1:4\">Targ. Mic. I, 4</cite>; <cite ref=\"Targum Jonathan on Micah 3:10\">III, 10</cite>; a. e."
+			]
+		}
+	]
+}

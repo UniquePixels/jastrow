@@ -1,0 +1,23 @@
+{
+	"id": "A00951",
+	"slug": "אזגא",
+	"headword": {
+		"text": "אַזְגָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 36,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>glass</i> (v. <cite ref=\"G00058\"><he>זְגָגָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Ketubot 77b:4\">Keth. 77ᵇ</cite> <he>גירדא דא׳</he> Ar. parings of glass (ed. <cite ref=\"A00261\"><he>אגוזא</he></cite>)."
+			]
+		}
+	]
+}

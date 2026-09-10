@@ -1,0 +1,24 @@
+{
+	"id": "U00363",
+	"slug": "שוח-4",
+	"headword": {
+		"text": "שׁוּחַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1530,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00362\">preced.</cite>) <i>bending</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:21\">Ab. V, 21</cite>, v. <cite ref=\"U00361\"><he>שׁוּחַ</he> I</cite>.—<he>בנות ש׳</he> a species of <i>white figs</i>. ",
+				"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite>; a. e., v. <cite ref=\"B01377\"><he>בַּת</he> I</cite>."
+			]
+		}
+	]
+}

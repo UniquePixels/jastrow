@@ -1,0 +1,26 @@
+{
+	"id": "H01221",
+	"slug": "חמר-4",
+	"headword": {
+		"text": "חֲמַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 480,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01220\">same</cite><i>to be hot, parched</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:27\">Targ. Job XXX, 27</cite> <he>חֲמַרוּ</he> (Var. <he>חֲמָרוּ</he>, Ms. <he>חַמָּרוּ</he> <i>Pa.</i>; h. text <he>רתח׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to ferment</i>, v. <cite ref=\"H01222\">next w.</cite>, a. <cite ref=\"H01189\"><he>חֲמִירָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

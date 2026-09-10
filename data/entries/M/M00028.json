@@ -1,0 +1,42 @@
+{
+	"id": "M00028",
+	"slug": "מאיס-2",
+	"headword": {
+		"text": "מְאִיס"
+	},
+	"page": {
+		"number": 722,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"M00050\"><he>מְאַס</he></cite>) <i>to be sticky, soiled; to be repulsive</i> (cmp. <he>זהם</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 38:6\">Targ. Ps. XXXVIII, 6</cite> (Ms. <he>איתימסיו</he>, v. <cite ref=\"M01841\"><he>מְסִי</he></cite>).—",
+				"<cite ref=\"Bava Kamma 18a:3\">B. Kam. 18ᵃ</cite> <he>דמ׳ בלישא</he> (not <he>דמאוס</he>), v. <cite ref=\"F00030\"><he>ווּס</he></cite>.—Part. <cite ref=\"M00028\"><he>מָאִיס</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 58:9\">Targ. Ps. LVIII, 9</cite> (ed. Wil. <cite ref=\"M00049\"><he>מָאַס</he></cite>, read <cite ref=\"M00049\"><he>מָאִס</he></cite>).—",
+				"<cite ref=\"Ketubot 63b:7\">Keth. 63ᵇ</cite> <he>מ׳ עלי</he> he is repulsive to me. ",
+				"<cite ref=\"Yoma 63b:13\">Yoma 63ᵇ</cite> <he>משום דמ׳</he> because it is offensive (on account of blemishes).—",
+				"<cite ref=\"Berakhot 50b:11\">Ber. 50ᵇ</cite> <he>מידי דלא מ׳</he> Ms. M. (ed. <he>מִמְּאִיס</he>) something which is not sticky (the handling of which does not create aversion); a. e.—Pl. <he>מְאִיסִין</he>, <he>מְאִיסֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:13\">Targ. Y. Deut. XXVIII, 13</cite> (opp. <he>מנטלין</he>).—",
+				"<cite ref=\"Yevamot 100a:1\">Yeb. 100ᵃ</cite> <he>משום דמ׳</he> because they (the uncircumcised and the unclean) are rejected on account of their physical condition; a. e.—",
+				"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 45</cite> (transl. <he>סחי ומאוס</he>, <cite ref=\"Eichah Rabbah 3\">ib.</cite>) <he>מְאִסַיָּיא פְּסִילַיָּיא</he> loathsome, outcasts, v. <cite ref=\"Q01287\"><he>פְּסִילָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִמְּאִיס"],
+			"senses": [
+				{
+					"gloss": "<i>to become repulsive, to decay</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 50b\">Ber. 50ᵇ</cite>, v. supra. ",
+						"<cite ref=\"Pesachim 28a:7\">Pes. 28ᵃ</cite> <he>חמץ דמִמְּאִיס</he> Ms. M. 1 (Ms. M. 2 <he>דמאיס</he>; ed. <he>דמִמִּיס</he>) leavened matter which decays in course of time; <cite ref=\"Pesachim 28a\">ib.</cite> <he>ע״א דלא ממאיס</he> Ms. M. 1 (Ms. M. 2 <cite ref=\"M00029\"><he>מאיסה</he></cite>; ed. <he>מִמִּיסָה</he>, v. Rabb. D. S. a. l. note) an idolatrous object which is not subject to decay."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

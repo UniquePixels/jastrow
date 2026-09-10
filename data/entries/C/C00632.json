@@ -1,0 +1,27 @@
+{
+	"id": "C00632",
+	"slug": "גידוד-2",
+	"headword": {
+		"text": "גִּידּוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּדּוּד"
+		}
+	],
+	"page": {
+		"number": 235,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00166\"><he>גדד</he></cite>) <i>a steep</i> or <i>straight embankment</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 93b:9\">Erub. 93ᵇ</cite> (Ms. M. <cite ref=\"C00642\"><he>גִּידּוּר</he></cite>, v. Rabb. D. S. a. l. note 10); <cite ref=\"Gittin 15b:10\">Gitt. 15ᵇ</cite> <he>ג׳ חמשה ומחיצה וכ׳</he> an earth embankment of five cubits and on it a partition wall of five."
+			]
+		}
+	]
+}

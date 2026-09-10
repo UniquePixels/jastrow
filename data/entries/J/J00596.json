@@ -1,0 +1,33 @@
+{
+	"id": "J00596",
+	"slug": "ירבעם",
+	"headword": {
+		"text": "יָרָבְעָם"
+	},
+	"page": {
+		"number": 594,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Jeroboam</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " J. ben Nebat, the first king of Israel. ",
+			"units": [
+				"<cite ref=\"Berakhot 35b\">Ber. 35ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 10:2\">Snh. X, 2</cite> (<cite ref=\"Sanhedrin 90a:17\">90ᵃ</cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " J. ben Joash, king of Israel. ",
+			"units": [
+				"<cite ref=\"Pesachim 87b:12\">Pes. 87ᵇ</cite>. ",
+				"<cite ref=\"Yevamot 98a:11\">Yeb. 98ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

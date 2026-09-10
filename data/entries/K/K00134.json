@@ -1,0 +1,31 @@
+{
+	"id": "K00134",
+	"slug": "כדכדון",
+	"headword": {
+		"text": "כַּדְכְּדוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְכְּדוֹן"
+		},
+		{
+			"text": "כַּדְכְּדָנָא"
+		}
+	],
+	"page": {
+		"number": 614,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (χαλκηδών, v. Fl. to Levy Talm. Dict. II, p. 449ᵇ) <i>chalcedony</i>, Judah’s gem in the high priest’s breastplate. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 28:18\">Targ. Y. I Ex. XXVIII, 18</cite> <cite ref=\"K00137\"><he>כדכודי</he></cite> (incorr. a. misplaced); Y. II <cite ref=\"K00134\"><he>כדכדנא</he></cite> (h. text <cite ref=\"N01053\"><he>נפך</he></cite>). ",
+				"<cite ref=\"Shemot Rabbah 38\">Ex. R. s. 38</cite>, end <cite ref=\"B01181\"><he>ברדינין</he></cite>, <cite ref=\"B01181\"><he>ברדנין</he></cite> (corr. acc.).—Pl. <he>כַּדְכְּדוֹנִין</he>. Pesik. Aniya p. 136ᵃ <he>כדכריינין</he>, <cite ref=\"K00135\"><he>כדכדיינון</he></cite> (corr. acc.). Ib. <he>אבני כַּדְכְּדַיָּיה</he> Ar. (ed. <he>כידכייא</he>, corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 339\">Yalk. Is. 339</cite> <he>כַּדְכּוֹדַיָּיה</he>; <cite ref=\"Pesikta Rabbati 32:1\">Pesik. R. s. 32</cite> <he>אבני כדכדנא</he> Chalcedonian stones; v. <cite ref=\"K00132\"><he>כַּדְכֹּד</he></cite>. Targ. II Esth. I, 2 <cite ref=\"K00137\"><he>כַּדְכּוֹדָנִין</he></cite>"
+			]
+		}
+	]
+}

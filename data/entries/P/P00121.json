@@ -1,0 +1,38 @@
+{
+	"id": "P00121",
+	"slug": "עדבא",
+	"headword": {
+		"text": "עַדְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַדְוָוא"
+		},
+		{
+			"text": "עִ׳"
+		},
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1043,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עדב</he>, <he>עדו</he>; cmp. <cite ref=\"P00158\"><he>עָדַף</he></cite>) [<i>rolling</i>; cmp. <cite ref=\"C00497\"><he>גּוֹרָל</he></cite>] <i>lot</i>, <i>share</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:21\">Targ. O. Gen. XLIX, 21</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:9\">Targ. Deut. XXXII, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 9:24\">Targ. Esth. IX, 24</cite> <he>עדווא</he> ed. Lag. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 8:11\">Targ. Cant. VIII, 11</cite> <he>עִידְבֵיה</he> (Var. <he>עִידְוֵיה</he>).—Pl. <he>עַדְבִין</he>, <he>עַדְבַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 14:42\">Targ. I Sam. XIV, 42</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 18:7\">Targ. Y. Num. XVIII, 7</cite>; a. e."
+			]
+		}
+	]
+}

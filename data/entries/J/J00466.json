@@ -1,0 +1,29 @@
+{
+	"id": "J00466",
+	"slug": "יסם",
+	"headword": {
+		"text": "יָסַם"
+	},
+	"page": {
+		"number": 582,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"O01109\"><he>סָמַם</he></cite>, <cite ref=\"O01054\"><he>סָמָא</he></cite>, <cite ref=\"O00336\"><he>סוּמָא</he></cite>) <i>to close</i> or <i>to be closed</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְיַיסֵּם"],
+			"senses": [
+				{
+					"gloss": " (with <he>בעיניו</he>) <i>to become blind</i>. Tanḥ. Tol’doth 7.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

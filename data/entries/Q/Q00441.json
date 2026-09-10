@@ -1,0 +1,32 @@
+{
+	"id": "Q00441",
+	"slug": "פחא-1",
+	"headword": {
+		"text": "פָּחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוֹחָא"
+		},
+		{
+			"text": "פּוּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1151,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = <cite ref=\"Q00438\"><he>פַּח</he></cite> <cite ref=\"Aramaic Targum to Psalms 119:110\">Targ. Ps. CXIX, 110</cite> (Ms. <cite ref=\"Q02191\"><he>פו׳</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 141:9\">Ib. CXLI, 9</cite> (ed. Wil. <cite ref=\"Q00095\"><he>פַּ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:5\">Targ. Prov. VI, 5</cite> <cite ref=\"Q02191\"><he>פו׳</he></cite>; a. e.—",
+				"<cite ref=\"Arakhin 19a:4\">Arakh. 19ᵃ</cite> (prov.) <he>סבא בביתא פָּאחָא בביתא וכ׳</he> (Var. in Rashi <cite ref=\"Q00466\"><he>פְּחָחָא</he></cite>) an old man in the house is a snare (an obstacle) in the house, an old woman in the house is a treasure in the house.—Pl. <he>פָּחִין</he>, <cite ref=\"Q00468\"><he>פָּחֵי</he></cite>, <cite ref=\"Q02191\"><he>פּוֹ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 22:10\">Targ. Job XXII, 10</cite> (ed. Wil. <cite ref=\"Q00441\"><he>פּוּ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 124:7\">Targ. Ps. CXXIV, 7</cite> (ed. Wil. <cite ref=\"Q00095\"><he>פַּ׳</he></cite>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "S01137",
+	"slug": "קיק-1",
+	"headword": {
+		"text": "קִיק",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1367,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <cite ref=\"S00003\"><he>קא</he></cite>; cmp. <cite ref=\"S00022\"><he>קָאַת</he></cite>) name of <i>a bird, pelican</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 63a:9\">Ḥull. 63ᵃ</cite> <he>קאת זה הק׳</he> Ms. M. (ed. <he>הקוק</he>, v. Rabb. D. S. a. l. note), the Biblical <i>ḳaath</i> is the modern <i>ḳiḳ</i>, v. <cite ref=\"S00022\"><he>קָאַת</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 537:11\">Yalk. Lev. 537</cite> <he>הקוק</he>; <cite ref=\"Jerusalem Talmud Shabbat 2:1:10\">Y. Sabb. II, beg. 4ᶜ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:10\">Ib.</cite> (ref. to <he>שמן קיק</he> Mish. ",
+				"<cite ref=\"Mishnah Shabbat 2:1\">ib. II, 1</cite>) <he>עוף הוא ושמו ק׳</he> it is a bird whose name is <i>ḳiḳ</i>. [For other opinions on the meaning of <he>שמן ק׳</he>, v. <cite ref=\"S00008\"><he>קָאוָא</he></cite>, <cite ref=\"S01062\"><he>קִיסוֹסָא</he></cite>, <cite ref=\"S01141\"><he>קִיקָיוֹן</he></cite>.]"
+			]
+		}
+	]
+}

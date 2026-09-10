@@ -1,0 +1,64 @@
+{
+	"id": "A03397",
+	"slug": "אתא-2",
+	"headword": {
+		"text": "אֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָתָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 132,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (b. h. <cite ref=\"A03401\"><he>אתה</he></cite>, <cite ref=\"A03397\"><he>אתא</he></cite>; sec. r. of <cite ref=\"A00939\"><he>אוֹת</he></cite> I q. v.) [<i>to join</i>,] <i>to come, to arrive; to occur to</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:9\">Targ. Gen. XIX, 9</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Peah 3:7:16\">Y. Peah III, 17ᵈ</cite> bot. <he>אתאי עובדא וכ׳</he> the case came before … <cite ref=\"Bereishit Rabbah 68:10\">Gen. R. s. 68</cite> (ref. to <cite ref=\"Genesis 28:11\">Gen. XXVIII, 11</cite>) <he>א׳ שמשא</he> the Sun (Jacob) has arrived. ",
+				"<cite ref=\"Sanhedrin 98b:3\">Snh. 98ᵇ</cite> <he>יֵיתֵי ולא איחמיניה</he> he (the Messiah) will come, but I do not desire to live to see him (to pass through the trials preceding his arrival).—<he>תֵּיתֵי לי ד־</he> may it come home to me that I did—, i.e. I believe to have merited divine reward. ",
+				"<cite ref=\"Megillah 28a:7\">Meg. 28ᵃ</cite>; a. fr.—<he>ייתי עלי דלא</he> may it come home to me that I did not—; a formula of assurance, <i>surely, indeed</i>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:9\">Y. Ber. II, 5ᶜ</cite> bot.; a. fr.; (v. <he>יבוא עלי</he>, s. v. <cite ref=\"B00199\"><he>בּוֹא</he></cite>).—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 6:1:7\">Y. Shebi. VI, 36ᶜ</cite> top <he>ייתי ד־</he> (sub. <cite ref=\"P00790\"><he>עלי</he></cite>).—<i>Imperat</i>. <cite ref=\"V00003\"><he>תָּא</he></cite> (Y. <cite ref=\"A01640\"><he>אִיתָא</he></cite>). ",
+				"<cite ref=\"Gittin 57a:21\">Gitt. 57ᵃ</cite>, a. fr. <he>תא חזי</he>; <cite ref=\"Jerusalem Talmud Demai 6:1:6\">Y. Dem. VI, 25ᵇ</cite> top <he>איתא חמי</he>; in Bab. usu. <he>תא שמע</he> (abbr. <he>ת״ש</he>) come and see, come and hear, i.e. I will prove it.—<he>אַתְיָא כ־</he> it comes like, i.e. it is in accordance with the opinion of.—",
+				"<cite ref=\"Jerusalem Talmud Nazir 6:1:7\">Y. Naz. VI, 54ᵈ</cite> bot.; a. v. fr.—<cite ref=\"F00104\"><he>וַתְּיָיא</he></cite> = <he>ואתיא</he>. Ibid.ᶜ bot. <he>ותייא כהדא דתני חזקיה</he> (ed. Krot. incorr. <he>ותניא</he>) <cite ref=\"V00399\"><he>תִּי</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 4:4:11\">Y. Keth. IV, 28ᵈ</cite> top <he>ותאיין וכ׳</he> (read <he>ואתיין</he>) and those differences of opinion correspond to …—<he>אתיא פקידה פקידה</he> the expression <i>pakad</i> occurs in two Biblical passages, <he>אתיא זכירה זכירה</he> and the expression <i>zakhar</i> occurs in two passages, i.e. draw an analogy between the respective Bible laws in which the same expressions are used, so as to cast a light upon each other. ",
+				"<cite ref=\"Rosh Hashanah 11a:16\">R. Hash. 11ᵃ</cite>; a. fr. [<he>אתא נסיא</he> <cite ref=\"Jerusalem Talmud Megillah 2:4:5\">Y. Meg. II, 73ᵇ</cite>, a. e., read <cite ref=\"A03399\"><he>אֲתָאנַסְיָא</he></cite> q. v.] [<cite ref=\"Targum Jerusalem, Deuteronomy 33:16\">Targ. Y. II, Deut. XXXIII, 16</cite> <cite ref=\"J00734\"><he>יַתְיַן</he></cite>, 3rd pers. fem. fut.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַיְתִי", "אֵיתִי"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"A03397\"><he>אַיְיתִי</he></cite> <i>to bring, carry, cause to come</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 4:3\">Targ. Gen. IV, 3</cite>; a. fr.—<he>מנא תיתי</he> (<cite ref=\"M00359\"><he>מהיכא</he></cite>, <cite ref=\"M01796\"><he>מנן</he></cite>) whence wilt thou bring (evidence), <i>how will you prove it?</i> Y. B. Mets. III, beg. 9ᵃ; a. v. fr.—<he>מַיְיתָה</he>, <cite ref=\"M01146\"><he>מַיְיתִי</he></cite>, <he>מֵיתֵי</he> <i>bringing, to bring</i>. Y. Peah I, 15ᶜ top <he>בעי מ׳ וכ׳</he> he desired to bring it to them. ",
+						"<cite ref=\"Yoma 2a:3\">Ib.</cite> <he>לא יכילת מייתותי׳</he> I cannot bring it.—<he>לַיְיתֵי</he>, <he>לֵיְתֵי</he> let him bring. ",
+						"<cite ref=\"Shabbat 109b:11\">Sabb. 109ᵇ</cite>; a. fr.—<he>לאַיְתוּיֵי</he>, <he>לַאֲתוּיֵי</he> (cmp. <cite ref=\"A03395\"><he>אֵת</he></cite>) <i>to bring in, to include</i>, opp. <he>לאפוקי</he>; v. <cite ref=\"A02775\"><he>אַפֵּק</he></cite>. <he>לא׳ מאי</he> what is to be implied (in addition to what is explicitly stated)? <cite ref=\"Temurah 2a:2\">Tem. 2ᵃ</cite> <he>הכל לאי׳ מאי</he> what does <i>hakkol</i> (all) come to imply? a. fr.—<i>Haf</i>. <he>הַיְיתִי</he> same. ",
+						"<cite ref=\"Daniel 5:13\">Dan. V, 13</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתֵּיתִי"],
+			"senses": [
+				{
+					"gloss": " (<cite ref=\"V00535\"><he>אִתּוֹתִי</he></cite>, <he>אִתַּתִי</he>) <i>to be brought, offered</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 33:11\">Targ. Gen. XXXIII, 11</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 13:2\">Targ. Lev. XIII, 2</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

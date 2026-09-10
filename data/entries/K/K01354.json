@@ -1,0 +1,34 @@
+{
+	"id": "K01354",
+	"slug": "כתונת",
+	"headword": {
+		"text": "כְּתוֹנֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֻּתּוֹנֶת"
+		},
+		{
+			"text": "כְּתֹנֶת"
+		}
+	],
+	"page": {
+		"number": 680,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"K00651\"><he>כִּיתַּן</he></cite>,  [<i>linen</i>,] <i>shirt, undergarment</i>, esp. <i>the priest’s undercoat</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 7:5\">Yoma VII, 5</cite>. ",
+				"<cite ref=\"Yoma 35b:5\">Ib. 35ᵇ</cite>; <cite ref=\"Tosefta Yoma 1:21\">Tosef. ib. I, 21</cite>. ",
+				"<cite ref=\"Zevachim 88b:6\">Zeb. 88ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 84:19\">Gen. R. s. 84</cite>, v. <cite ref=\"Q01551\"><he>פַּרְגּוֹד</he></cite>; a. e.—Pl. <he>כָּתְנוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 20:12\">Gen. R. s. 20</cite>, v. <cite ref=\"A00842\"><he>אוֹר</he> II</cite>, 3, [Post-biblical <cite ref=\"H01113\"><he>חָלוּק</he></cite>.]"
+			]
+		}
+	]
+}

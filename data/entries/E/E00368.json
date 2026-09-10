@@ -1,0 +1,23 @@
+{
+	"id": "E00368",
+	"slug": "היידן",
+	"headword": {
+		"text": "הַיְידֵּן"
+	},
+	"page": {
+		"number": 344,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>היי דן</he>, v. <cite ref=\"E00363\"><he>הַיְידָּא</he></cite>) <i>which now? who?</i> <cite ref=\"Jerusalem Talmud Peah 8:4:4\">Y. Peah VIII, 21ᵃ</cite> top <he>ה׳ וינון</he> (read <cite ref=\"J00338\"><he>יינון</he></cite> or <cite ref=\"A01377\"><he>אינון</he></cite>) which are they?; [<cite ref=\"Jerusalem Talmud Eruvin 3:1:6\">Y. Erub. III, 20ᵈ</cite> top <he>אילין אינון</he>, read: <cite ref=\"A01236\"><he>אַיְילֵן</he></cite>].—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:4:3\">Y. Dem. II, 23ᵃ</cite> <he>ה׳ ר׳ מאיר</he>, v. <cite ref=\"E00328\"><he>הֵי</he> II</cite>.—Y. Sabb. XIX, 17ᵇ (also <he>היי דין</he>). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 2:1:4\">Y. Gitt. II, 44ᵃ</cite> bot. <he>ה׳ הוא למחר</he> what is meant by ‘to-morrow’ (the next following or the day after the next)?; a. fr."
+			]
+		}
+	]
+}

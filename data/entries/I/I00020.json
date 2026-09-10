@@ -1,0 +1,28 @@
+{
+	"id": "I00020",
+	"slug": "טב-3",
+	"headword": {
+		"text": "טַב",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵין טַב"
+		}
+	],
+	"page": {
+		"number": 515,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>En Tab</i>, a place where the New Moon was proclaimed in the days of Rabbi (v. Neub. Géogr. p. 272). ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 25a:9\">R. Hash. 25ᵃ</cite>; Y. ib. II, 58ᵃ bot.; Y. Taan. II, 66ᵃ bot. <he>עייני טב</he>; <cite ref=\"Pesikta Rabbati 41\">Pesik. R. s. 41</cite> <cite ref=\"P00621\"><he>עֵינְטַב</he></cite>."
+			]
+		}
+	]
+}

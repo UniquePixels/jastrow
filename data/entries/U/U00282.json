@@ -1,0 +1,32 @@
+{
+	"id": "U00282",
+	"slug": "שדפונא",
+	"headword": {
+		"text": "שִׁדְּפוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁידּ׳"
+		},
+		{
+			"text": "שַׁדְּפָנָא"
+		},
+		{
+			"text": "שׁוּדְּ׳"
+		}
+	],
+	"page": {
+		"number": 1526,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00281\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:22\">Targ. Deut. XXVIII, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 8:37\">Targ. I Kings VIII, 37</cite>; <cite ref=\"II Chronicles 6:28\">II Chr. VI, 28</cite>.—",
+				"<cite ref=\"Taanit 6b:12\">Taan. 6ᵇ</cite> <he>דלא שקיל שור׳</he> the grain of that year will not be subject to blast."
+			]
+		}
+	]
+}

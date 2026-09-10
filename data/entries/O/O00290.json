@@ -1,0 +1,32 @@
+{
+	"id": "O00290",
+	"slug": "סוטרא",
+	"headword": {
+		"text": "סוּטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוֹ׳"
+		}
+	],
+	"page": {
+		"number": 963,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Saf. of <he>נטר</he>, cmp. <cite ref=\"O01217\"><he>סַנְטָר</he></cite>) [<i>that which is reserved</i>, cmp. <cite ref=\"N00553\"><he>נְטוֹרָא</he></cite>) <i>reward, wages</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 22:30\">Targ. Y. Ex. XXII, 30</cite> <he>בסוֹטְרֵיה</he> as his reward (for not barking at the Israelites, v. ",
+				"<cite ref=\"Shemot Rabbah 31:13\">Ex. R. s. 31</cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 19:13\">Targ. Y. Lev. XIX, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 24:14\">Targ. Y. Deut. XXIV, 14</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Job 14:6\">Targ. Job XIV, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 7:2\">Ib. VII, 2</cite> <cite ref=\"O00604\"><he>סִטְ׳</he></cite>."
+			]
+		}
+	]
+}

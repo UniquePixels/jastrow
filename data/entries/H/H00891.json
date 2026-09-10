@@ -1,0 +1,28 @@
+{
+	"id": "H00891",
+	"slug": "חישה",
+	"headword": {
+		"text": "חִישָׁה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵישֶׁת"
+		}
+	],
+	"page": {
+		"number": 460,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00486\"><he>חוּשׁ</he> I</cite>) <i>thicket, inaccessible place</i> to be cleared by fire in order to be made arable, v. <cite ref=\"A00309\"><he>אַגָּם</he></cite>.—(<cite ref=\"H00894\"><he>חֵישֶׁת</he></cite>) <he>חִישַׁת קנים</he> <i>reed-thicket</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:19\">Y. Sabb. VII, 10ᵃ</cite> top <he>המצית את האור בח׳ ק׳</he> he who sets fire to a reed-thicket; [<cite ref=\"Jerusalem Talmud Sheviit 4:4:3\">Y. Shebi. IV, 35ᵇ</cite> bot. <he>באִישַׁת</he>; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:10\">Y. Ab. Zar. II, 41ᵈ</cite> bot. <he>באשת</he>, cmp. <cite ref=\"A00915\"><he>אוּשׁ</he></cite> a. <cite ref=\"A03361\"><he>אָשַׁשׁ</he></cite>].—",
+				"<cite ref=\"Tosefta Shevi'it 3:19\">Tosef. Shebi. III, 19</cite>, v. <cite ref=\"H00861\"><he>חִיצָה</he> II</cite>."
+			]
+		}
+	]
+}

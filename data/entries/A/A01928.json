@@ -1,0 +1,29 @@
+{
+	"id": "A01928",
+	"slug": "אלסיס",
+	"headword": {
+		"text": "אִלְסִיס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲלִיסִיס"
+		},
+		{
+			"text": "אילוסיס"
+		}
+	],
+	"page": {
+		"number": 72,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [the final <cite ref=\"O00000\"><he>ס</he></cite> freq. read <he>ם</he> in ed., as <he>אֲלִיסִים</he> &c.] f. (v. <cite ref=\"A01870\"><he>אָלִיס</he></cite>) pr. n. pl. <i>Ilsis</i> &c. (grottoes near Tiberias; v. Jos. B. J. II, 20, 6) <i>ruins</i> of fortified caves. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 3:9\">Koh. R. to III, 9</cite> <he>אלס׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:7:4\">Y. Shebi. IV, 35ᶜ</cite> top <cite ref=\"A01875\"><he>אליפיס</he></cite>; <cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite> <cite ref=\"A01287\"><he>אילטיס</he></cite>; Ruth. R. to I, 17 (<cite ref=\"A01338\"><he>או׳</he></cite>) <cite ref=\"A01284\"><he>אילוסיס</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 351\">Yalk. Ezek. 351</cite> <he>אלפטס</he>; cmp. <cite ref=\"B00507\"><he>בְּטִיטָא</he></cite> a. <cite ref=\"A01577\"><he>אִיצְטַדִּין</he></cite>."
+			]
+		}
+	]
+}

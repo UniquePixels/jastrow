@@ -1,0 +1,23 @@
+{
+	"id": "S01399",
+	"slug": "קלעא-2",
+	"headword": {
+		"text": "קַלָּעָא"
+	},
+	"page": {
+		"number": 1381,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01398\">preced.</cite>) <i>slinger</i>.—Pl. <he>קַלָּעַיָּא</he>, <he>קַלְעַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 3:25\">Targ. II Kings III, 25</cite> (not <he>קִ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 1:38\">Targ. I Kings I, 38</cite>; <cite ref=\"Targum Jonathan on I Kings 1:44\">44</cite> (h. text <cite ref=\"Q01133\"><he>פלתי</he></cite>); a. e."
+			]
+		}
+	]
+}

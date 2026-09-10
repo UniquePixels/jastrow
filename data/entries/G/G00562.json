@@ -1,0 +1,45 @@
+{
+	"id": "G00562",
+	"slug": "זנב-2",
+	"headword": {
+		"text": "זִנֵּב"
+	},
+	"page": {
+		"number": 406,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": " (v. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 1:3\">Ukts. I, 3</cite> quot. in <cite ref=\"G00561\">preced. w.</cite>) <i>to cut off the extreme branches of the vine, to trim</i>. ",
+				"<cite ref=\"Mishnah Sheviit 4:6\">Shebi. IV, 6</cite> <he>המְזַנֵּב בגפנים</he> he who trims grape-vines.—Trnsf. <he>ז׳ באשכולות</he> [<i>to thin the clusters</i>,] <i>to diminish the scholars</i> by persecution (v. <cite ref=\"A03305\"><he>אֶשְׁכּוֹל</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite>; <cite ref=\"Vayikra Rabbah 11\">Lev. R. s. 11</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to attack, force a passage</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 74:15\">Gen. R. s. 74</cite> <he>בקש לזַנְּבָן</he> Joab wanted to force his passage through their territory; <cite ref=\"Yalkut Shimoni on Nach 147\">Yalk. Sam. 147</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "(b. h.) ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

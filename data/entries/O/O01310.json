@@ -1,0 +1,46 @@
+{
+	"id": "O01310",
+	"slug": "ספא-1",
+	"headword": {
+		"text": "סִפָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיפָּא"
+		},
+		{
+			"text": "סִיפָא"
+		},
+		{
+			"text": "סֵי׳"
+		}
+	],
+	"page": {
+		"number": 1011,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O01309\">same</cite><i>door-sill, door-post</i>; also (v. <cite ref=\"O00779\"><he>סֵיפָא</he></cite>) <i>border</i>, <i>bank</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:6\">Targ. Ez. XL, 6</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 1:9\">Targ. I Sam. I, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 10:21\">Targ. II Kings X, 21</cite>; <cite ref=\"Targum Jonathan on II Kings 21:16\">ib. XXI, 16</cite> (<cite ref=\"O00779\"><he>סֵיפָא</he></cite>; h. text <cite ref=\"Q00143\"><he>פה</he></cite>; v. Pesh. ",
+				"<cite ref=\"Joshua 3:15\">Josh. III, 15</cite>); a. fr.—",
+				"<cite ref=\"Gittin 68b\">Gitt. 68ᵇ</cite> bot. <he>בסי׳ דבבא</he> at the door-post.—Pl. <cite ref=\"O00795\"><he>סִפִּין</he></cite>, <cite ref=\"O01352\"><he>סִפַּיָּא</he></cite>, <he>סִפֵּי</he>, <cite ref=\"O00067\"><he>סִי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 12:7\">Targ. Ex. XII, 7</cite> (some ed. <cite ref=\"O01382\"><he>סִיפַ׳</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 6:9\">Targ. Deut. VI, 9</cite>; <cite ref=\"Onkelos Deuteronomy 11:20\">XI, 20</cite> (some ed. <he>סִיפֵי</he>, <cite ref=\"O01310\"><he>סֵי׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:34\">Targ. Prov. VIII, 34</cite> <cite ref=\"O01348\"><he>ספי</he></cite> (Ms. a. some ed. <cite ref=\"Q00916\"><he>פכי</he></cite>, corr. acc.); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"O01309\">preced.</cite> 3) <i>block, a course of blocks, layer</i> (v. <cite ref=\"N00207\"><he>נִדְבָּךְ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 5b\">B. Bath. 5ᵇ</cite> <he>כל ס׳ וס׳ זימניה הוא</he> Ar. (ed. <cite ref=\"U01704\"><he>שפא</he></cite>) every time he finishes a layer, it is his time (to get paid); ib. 6ᵃ (ed. <cite ref=\"U01734\"><he>שפה</he></cite>). Ib. 4ᵃ <he>אפיק ס׳ ועייל ס׳</he> (some ed. <cite ref=\"U01734\"><he>שפה</he></cite>) he let one block protrude (beyond the line) and one block recede; <cite ref=\"Yalkut Shimoni on Torah 913\">Yalk. Deut. 913</cite> <cite ref=\"U01704\"><he>שפא</he></cite>.—Pl. <cite ref=\"O01357\"><he>סְפָיִין</he></cite> (h. form, as if from <cite ref=\"O01351\"><he>סְפָי</he></cite>, v. <cite ref=\"O01348\"><he>סָפָה</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:58\">Y. Sabb. VII, 10ᵈ</cite> top <he>דעבד ס׳</he> who lays a course of blocks; ib. XII, beg. 13ᶜ"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "R00414",
+	"slug": "ציפורי-2",
+	"headword": {
+		"text": "צִיפּוֹרֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיפּוֹרִים"
+		},
+		{
+			"text": "צִיפּוֹרִין"
+		},
+		{
+			"text": "צִפּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1279,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Sepphoris</i> in Upper Galilee. ",
+			"units": [
+				"<cite ref=\"Megillah 6a:9\">Meg. 6ᵃ</cite> <he>קטרון זו צ׳ וכ׳</he> Kitron (<cite ref=\"Judges 1:30\">Jud. I, 30</cite>) is Sepphoris, and why is it named S.? Because it is perched on the top of a mountain like a bird (<i>tsippor</i>). ",
+				"<cite ref=\"Bava Batra 75b:10\">B. Bath. 75ᵇ</cite> <he>אני ראיתי צ׳ בשלותה</he> I have seen S. in her prosperous days. ",
+				"<cite ref=\"Shabbat 121a:5\">Sabb. 121ᵃ</cite>, v. <cite ref=\"C01169\"><he>גַּסְטְרָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:7\">Y. Kil. IX, 32ᵇ</cite> top <he>רבי … בצ׳ וכ׳</he> Rabbi lived in S. seventeen years. ",
+				"<cite ref=\"Mishnah Arakhin 9:6\">Arakh. IX, 6</cite> <he>קצרה … של ציפורים</he> the old castle of S. (a fortification dating from the days of the lsraelitish conquest); Bab. ed. (32ᵃ) <cite ref=\"R00413\"><he>ציפורי</he></cite>; a. fr.—",
+				"<cite ref=\"Shemot Rabbah 3:6\">Ex. R. s. 3</cite>, a. e. <cite ref=\"R00418\"><he>ציפורן</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

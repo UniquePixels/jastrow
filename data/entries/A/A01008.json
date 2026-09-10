@@ -1,0 +1,24 @@
+{
+	"id": "A01008",
+	"slug": "אחוזה",
+	"headword": {
+		"text": "אֲחוּזָה"
+	},
+	"page": {
+		"number": 39,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>אֲחֻזָּה</he>; <cite ref=\"A01021\"><he>אחז</he></cite>)<i>possession, inheritance</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:5:3\">Y. Kidd. I 60ᶜ</cite> top; a. e. ",
+				"<cite ref=\"Jerusalem Talmud Challah 4:4:15\">Y. Ḥall. IV, 60ᵇ</cite>. [<cite ref=\"Jerusalem Talmud Challah 4:4:15\">Ib.</cite> <he>אחיזה עצמה וכ׳</he> strike out the entire sentence.]. ",
+				"<cite ref=\"Chullin 75a\">Ḥull. 75ᵃ</cite> <he>אחוזת עינים</he>, v. <he>אֲחִיזָה</he>."
+			]
+		}
+	]
+}

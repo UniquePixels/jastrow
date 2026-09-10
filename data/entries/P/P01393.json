@@ -1,0 +1,23 @@
+{
+	"id": "P01393",
+	"slug": "ערמה-1",
+	"headword": {
+		"text": "עָרְמָה"
+	},
+	"page": {
+		"number": 1120,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P01392\">preced.</cite>) <i>prudence, deliberation; subtlety</i>. Mekh. B’shall., Shir., s. 6 (ref. to <he>נערמו</he>, <cite ref=\"Exodus 15:8\">Ex. XV, 8</cite>, v. Targ. O. a. l.) <he>הם אמרו הבה נתחכמה … נתת ע׳ למים</he> they had said, Come, let us deal wisely with them (<cite ref=\"Exodus 1:10\">Ex. I, 10</cite>), thou, too, didst place wisdom in the water; (<cite ref=\"Yalkut Shimoni on Torah 248\">Yalk. Ex. 248</cite> <cite ref=\"P01395\"><he>עַרְמוּמִית</he></cite>). Midr. Sam. ch. VII [read:] <he>לפי מה שהיתה עָרְמָתוֹ של נחש כך היתה מכתו</he> in accordance with the serpent’s subtlety was its punishment. ",
+			"units": [
+				"<cite ref=\"Midrash Mishlei 1:4\">Midr. Prov. ch. I</cite>. <he>פתי הייתי ונתן בי הקב״ה ע׳</he> I was simple, and the Lord placed wisdom in me. ",
+				"<cite ref=\"Midrash Mishlei 1:4\">Ib.</cite> <he>מכמה שנים ואילך … להיות בו ע׳</he> from what age and onward is man expected to be deliberate?; <cite ref=\"Yalkut Shimoni on Nach 929:3\">Yalk. ib. 929</cite>; a. e."
+			]
+		}
+	]
+}

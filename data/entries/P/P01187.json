@@ -1,0 +1,22 @@
+{
+	"id": "P01187",
+	"slug": "עקירא",
+	"headword": {
+		"text": "עֲקִירָא"
+	},
+	"page": {
+		"number": 1106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. pass. of <cite ref=\"P01214\"><he>עֲקַר</he></cite>) <i>castrate</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 152a\">Sabb. 152ᵃ</cite>, v. <cite ref=\"A01584\"><he>אִיקָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "E00394",
+	"slug": "הילול",
+	"headword": {
+		"text": "הִילּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִלּוּל"
+		}
+	],
+	"page": {
+		"number": 346,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>הלל</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>recitation of Hallel</i> (v. <cite ref=\"E00573\"><he>הַלֵּל</he></cite>), <i>singing praises</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 3:1\">Num. R. s. 3</cite>, beg. <he>לולבין לה׳</he> the branches are employed (on Succoth) for reciting Hallel with them. [<cite ref=\"Bamidbar Rabbah 3:1\">Ib.</cite>, a. e. <he>להַלֵּל</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>occurrence of the stem</i> <he>הלל</he> <i>in Bible texts</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 35a:5\">Ber. 35ᵃ</cite> (ref. to the plural <he>הלולים</he>, <cite ref=\"Leviticus 19:24\">Lev. XIX, 24</cite>) <he>אייתר ליה חד ה׳ לברכה</he> one <i>hillul</i> is remained over to be employed as an intimation that you must give praise (when drinking wine).—Pl. <he>הִילּוּלִים</he>. ",
+				"<cite ref=\"Rosh Hashanah 32a:17\">R. Hash. 32ᵃ</cite> <he>עשרה ה׳</he> ten times <he>הלל</he> in <cite ref=\"Psalms 150\">Ps. CL</cite>; <cite ref=\"Megillah 21b:6\">Meg. 21ᵇ</cite> (omitted in Ms. M., v. Rabb. D. S. a. l. note).—",
+				"<cite ref=\"Pesachim 117a:13\">Pes. 117ᵃ</cite> <i>hal’luyah</i> means <he>הללוהו בהי׳ הרבה</he> praise him with many praises."
+			],
+			"label": "2"
+		}
+	]
+}

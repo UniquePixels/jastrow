@@ -1,0 +1,27 @@
+{
+	"id": "B01035",
+	"slug": "בעטן",
+	"headword": {
+		"text": "בַּעֲטָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּעֲטָנִית"
+		}
+	],
+	"page": {
+		"number": 181,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01034\">preced.</cite>) <i>habitual kicker, butting</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 80a:3\">B. Mets. 80ᵃ</cite>; <cite ref=\"Tosefta Bava Batra 4:6\">Tosef. B. Bath. IV, 6</cite>."
+			]
+		}
+	]
+}

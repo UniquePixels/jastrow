@@ -1,0 +1,37 @@
+{
+	"id": "A00648",
+	"slug": "אוכם",
+	"headword": {
+		"text": "אוּכָּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּכָּמָא"
+		},
+		{
+			"text": "אוּכַּמְתָּא"
+		}
+	],
+	"page": {
+		"number": 25,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A01713\"><he>אכם</he></cite>) <i>black, dark-complected, freckled, ungainly</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:31\">Targ. Lev. XIII, 31</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 88a:16\">Pes. 88ᵃ</cite>.—",
+				"<cite ref=\"Moed Katan 9b:21\">M. Kat. 9ᵇ</cite> <he>הוה ליה ברתא א׳</he> Ms. M. (ed. our w. omitted) had an ungainly (freckled) daughter; <cite ref=\"Shabbat 80b\">Sabb. 80ᵇ</cite>. Git. 67ᵇ <he>תרנגולתא אוּכַּמְתִּי</he> a black (checkered?) hen. ",
+				"<cite ref=\"Shabbat 68a\">Ib. 68ᵃ</cite><cite ref=\"Gittin 67b:13\">Git. 67ᵇ</cite> <he>תרנגולתא אוּכַּמְתִּי</he> a black (checkered?) hen. ",
+				"<cite ref=\"Gittin 68a:2\">Ib. 68ᵃ</cite> <he>אוכמא בחיורא</he> a black spot on a white skin. Pl. masc. <he>אוּכָּמִין</he>, <he>אוּכָּמֵי</he>, <he>אוּכָּמַיָּא</he>, <he>אוּכְמַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 8:21\">Targ. Jer. VIII, 21</cite>; a. e.—",
+				"<cite ref=\"Chullin 46b:10\">Ḥull. 46ᵇ</cite> <he>א׳ א׳</he> covered with black spots.—Fem. <he>אֻכָּמָתָא</he> <cite ref=\"Shabbat 129a:18\">Sabb. 129ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 20b:12\">Ib. 20ᵇ</cite> <he>אוכמוותא</he> Ar. (ed. <he>אוכמתא</he>) the black (greenish) moss on ships or puddles."
+			]
+		}
+	]
+}

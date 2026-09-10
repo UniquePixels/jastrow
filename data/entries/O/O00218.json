@@ -1,0 +1,35 @@
+{
+	"id": "O00218",
+	"slug": "סהר",
+	"headword": {
+		"text": "סַהַר"
+	},
+	"page": {
+		"number": 960,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>an enclosed place</i>, esp. <i>the enclosure for cattle</i> near a dwelling; <i>stable</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 2:3\">Erub. II, 3</cite> (<cite ref=\"Eruvin 18a:2\">18ᵃ</cite>; Mish. a. Ms. M. everywhere <cite ref=\"O00467\"><he>סַחַר</he></cite>). Ib. 22ᵃ; Y. ib. IV, 21ᵈ bot.; Tosef. ib. III (II), 9. ",
+				"<cite ref=\"Tosefta Shabbat 10:1\">Tosef. Sabb. X</cite> (<cite ref=\"Tosefta Shabbat 11:1\">XI</cite>), 1. ",
+				"<cite ref=\"Mishnah Sheviit 3:4\">Shebi. III, 4</cite> <he>עושה ס׳ וכ׳</he> may put up (in the field) an enclosure covering an area of &c.; <cite ref=\"Tosefta Shevi'it 2:15\">Tosef. ib. II, 15</cite>. ",
+				"<cite ref=\"Tosefta Shevi'it 2:16\">Ib. 16</cite> <he>שׂהר</he>; a. fr.—Tanḥ. Ki Thissa 2 (play on <he>הסהר</he>, <cite ref=\"Song of Songs 7:3\">Cant. VII, 3</cite>) <he>הס׳ שדומה לסוחר וכ׳</he> (the meeting place of the Sanhedrin is called) <i>hassahar</i>, because it resembles a merchant’s store."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"O00219\">next w.</cite>) <i>moon</i>. Ib. ed. Bub. 1 <he>אגן הס׳ כחצי הירח</he> <i>ăgan hassahar</i> means, ‘like a half-moon’ (the semicircular seats of the Sanhedrin), v. <cite ref=\"Q02204\"><he>פִּתְרוֹן</he> I</cite>.—Pl. <he>סְהָרִים</he>, <he>סְהָרִין</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 2:19\">Tosef. Shebi. II, 19</cite>; Y. ib. III, 34ᶜ bot. <he>סיהרין</he> (corr. acc.).—",
+				"<cite ref=\"Tosefta Demai 6:11\">Tosef. Dem. VI, 11</cite> <cite ref=\"G00078\"><he>זה</he></cite> (<cite ref=\"U00489\"><he>ש</he></cite>) <he>הביא שַׂהֲרֵי שבלים וכ׳</he> if one brought (into the partnership) stores of ears of his own crop &c.; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

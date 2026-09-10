@@ -1,0 +1,67 @@
+{
+	"id": "E00147",
+	"slug": "הדר-1",
+	"headword": {
+		"text": "הָדַר"
+	},
+	"page": {
+		"number": 334,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>חדר</he>, <he>חזר</he>)<i>to enclose, go around</i>. <i>Part. pass.</i> <cite ref=\"E00104\"><he>הָדוּר</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rounded</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 59b\">Ḥull. 59ᵇ</cite> <he>הֲדוּרוֹת בעינן</he> Ar. (ed. <he>חֲדוּרוֹת</he>, v. <cite ref=\"H00212\"><he>חָדַר</he></cite>) the horns must de rounded (not flat; Ar.: showing circular layers)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>distinguished, adorned, beautiful</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 60:1\">Gen. R. s. 60</cite> (ref. to <cite ref=\"E00545\"><he>הלזה</he></cite>, <cite ref=\"Genesis 24:25\">Gen. XXIV, 25</cite>) <he>ראתה אותו ה׳</he> she saw his commanding appearance; <cite ref=\"Midrash Tehillim 90:1\">Midr. Till. to Ps. XC</cite>, end."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִדֵּר", "הִי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to crown, adorn, distinguish</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 30:10\">Lev. R. s. 30</cite> <he>שהִדְּרוֹ הקב״ה וכ׳</he> whom the Lord crowned with old age. ",
+						"<cite ref=\"Kiddushin 32b:10\">Kidd. 32ᵇ</cite> <he>יְהַדְּרֶנּוּ בממון</he> that he must show him honor even at a material sacrifice; a. e.—<i>Part. pass.</i> <he>מְהוּדָּר</he>. ",
+						"<cite ref=\"Vayikra Rabbah 3:2\">Lev. R. s. 3</cite> <he>שיהא המזבח מה׳ וכ׳</he> that the altar may appear adorned by the poor man’s offering; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to go around searching</i>, whence <i>to be zealous in religious observances, to look out for the best method of doing good</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 21b:5\">Sabb. 21ᵇ</cite> <he>המְהַדְּרִין</he> the zealous, <he>המה׳ מן המה׳</he> the most zealous. V. <cite ref=\"E00345\"><he>הִידּוּר</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְהַדֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be crowned, glorified</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 1:3\">Gen. R. s. 1</cite> <he>הוא לבדו מִתְהַדֵּר וכ׳</he> He alone is glorified through His world."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

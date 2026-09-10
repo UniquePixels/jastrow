@@ -1,0 +1,47 @@
+{
+	"id": "N01029",
+	"slug": "נפחא-1",
+	"headword": {
+		"text": "נַפָּחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַפְּחָא"
+		}
+	],
+	"page": {
+		"number": 923,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01028\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 44:12\">Targ. Is. XLIV, 12</cite>.—",
+				"<cite ref=\"Gittin 69b:12\">Gitt. 69ᵇ</cite> <he>בנורא דבי נ׳</he> Rashi (ed. only <he>בי נ׳</he>) by the fire of the smithy. ",
+				"<cite ref=\"Gittin 69b:12\">Ib.</cite> <he>מיא דבי נ׳</he> water used in the smithy. ",
+				"<cite ref=\"Shabbat 25b:5\">Sabb. 25ᵇ</cite>, a. fr. <he>ר׳ יצחק נ׳</he> R. Isaac, the smith. ",
+				"<cite ref=\"Chullin 77a:16\">Ḥull. 77ᵃ</cite> <he>יצחק בר נ׳</he> (corr. acc.)—<he>בר נ׳</he> "
+			],
+			"senses": [
+				{
+					"gloss": " the smith’s son, v. <cite ref=\"J00180\"><he>יוֹחָנָן</he></cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 96a:4\">Snh. 96ᵃ</cite> <he>טבא דנ׳ מדבר נ׳</he> better is what the smith (R. Isaac) said, than what the smith’s son (R. Johanan) said. ",
+						"<cite ref=\"Bava Metzia 85b:8\">B. Mets. 85ᵇ</cite>; a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " name of <i>a bird</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 62b:5\">Ḥull. 62ᵇ</cite>.—Pl. <he>נַפָּחִין</he>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 6:29\">Targ. Jer. VI, 29</cite>. ",
+						"<cite ref=\"Targum Jonathan on Judges 5:26\">Targ. Jud. V, 26</cite> <he>נַפְחִין</he>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

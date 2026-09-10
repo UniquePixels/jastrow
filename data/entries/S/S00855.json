@@ -1,0 +1,38 @@
+{
+	"id": "S00855",
+	"slug": "קיבורא",
+	"headword": {
+		"text": "קִיבּוּרָא"
+	},
+	"page": {
+		"number": 1354,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00096\"><he>קְבַר</he></cite>) [<i>something arched</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>coil</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 24b:11\">B. Mets. 24ᵇ</cite>, v. <cite ref=\"A00974\"><he>אֲזַל</he> II</cite>. ",
+				"<cite ref=\"Chullin 95b:19\">Ḥull. 95ᵇ</cite> <he>ק׳ בתכלתא</he> a skein of blue wool.—Pl. <he>קִיבּוּרֵי</he>. ",
+				"<cite ref=\"Avodah Zarah 17b:10\">Ab. Zar. 17ᵇ</cite> <he>אייתו ליה תרי ק׳ וכ׳</he> they brought two coils before him and said to him, which is warp, and which is woof?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cluster</i> of fruit. ",
+			"units": [
+				"<cite ref=\"Shabbat 156b:6\">Sabb. 156ᵇ</cite> <he>פסקיה לק׳ בשיניה</he> he severed a cluster of dates with his teeth. ",
+				"<cite ref=\"Shabbat 67a\">Ib. 67ᵃ</cite>; <cite ref=\"Chullin 78a:3\">Ḥull. 78ᵃ</cite> <he>כמאן תלינן ק׳</he> Ar. a. Ms. H. (v. Rabb. D. S. a. l. note 20; ed. <he>כובסא</he>), v. <cite ref=\"K00070\"><he>כְּבָסָא</he></cite>. ",
+				"<cite ref=\"Sanhedrin 26b:26\">Snh. 26ᵇ</cite> <he>ק׳ דאהיני</he> a cluster of inferior dates."
+			],
+			"label": "2"
+		}
+	]
+}

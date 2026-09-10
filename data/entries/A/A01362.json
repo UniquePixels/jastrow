@@ -1,0 +1,27 @@
+{
+	"id": "A01362",
+	"slug": "אין-3",
+	"headword": {
+		"text": "אַיִן",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַיִין"
+		}
+	],
+	"page": {
+		"number": 52,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"A01111\"><he>אֵי</he></cite>; Nun emphat; cmp. <cite ref=\"A02081\"><he>אָן</he></cite>)<i>where?</i> (only with pref. <cite ref=\"M00000\"><he>מ</he></cite> or <cite ref=\"L00000\"><he>ל</he></cite>). <he>לְאַ׳</he> <i>whither?</i> <he>מֵאַ׳</he> <i>whence</i>? <cite ref=\"Jerusalem Talmud Sanhedrin 10:2:15\">Y. Snh. X, 28ᵈ</cite> bot; <cite ref=\"Jerusalem Talmud Chagigah 2:1:8\">Y. Ḥag. II, 77ᵃ</cite> bot. <he>מא׳ ולא׳</he> whence and whither?—",
+			"units": [
+				"<cite ref=\"Pirkei Avot 3:1\">Aboth III, 1</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 2:4\">Gen. R. s. 2</cite> <he>מא׳ הרגלים</he> whence art thou coming? i.e. where hast thou been staying?—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:5\">Y. Snh. X, 28ᵇ</cite> top <he>היה לו מא׳ ללמוד</he> he had (a precedent) to learn from.—Contr. of <he>מן אין</he>: <cite ref=\"M01785\"><he>מִנַיִן</he></cite>, v. <cite ref=\"M01692\"><he>מִן</he></cite>."
+			]
+		}
+	]
+}

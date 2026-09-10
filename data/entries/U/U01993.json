@@ -1,0 +1,36 @@
+{
+	"id": "U01993",
+	"slug": "שרכא-2",
+	"headword": {
+		"text": "שְׂרָכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1632,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ") m. (<cite ref=\"U01992\">preced.</cite>, v. <cite ref=\"O01634\"><he>סְרַךְ</he></cite>, <cite ref=\"O01637\"><he>סִרְכָא</he></cite>; cmp. b. h. <he>שְׂרוֹךְ</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>long and entangled grass, luxuriant growth</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 100b:12\">Erub. 100ᵇ</cite> <he>דאיכא ש׳</he> (not <he>דאית ליה</he>, v. Rabb. D. S. a. l. note 60; Ms. M. <cite ref=\"U01910\"><he>שְׂרָאכָא</he></cite>; Ar. <he>שדכי</he>, corr. acc.) when the grass luxuriates (grows in long and tangled bands)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>thorn, worthless tree.—</i>Pl. <he>שְׂרָכֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 92b:12\">B. Kam. 92ᵇ</cite> (prov.) <he>מטייל ואזיל דיקלא בישא גבי קינא דש׳</he> (Ar. <he>שייך … בהדי קינא דשדכי</he>, v. Rabb. D. S. a. l. note 6) a bad palm will travel to be in company with shrubs (‘like meets like’); <cite ref=\"Yalkut Shimoni on Nach 67\">Yalk. Jud. 67</cite> <he>דשרכו</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 116\">Yalk. Gen. 116</cite> <he>דסרכי</he>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "M01377",
+	"slug": "מכיכותא",
+	"headword": {
+		"text": "מַכִּיכוּתָא"
+	},
+	"page": {
+		"number": 782,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01376\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lowliness, humilitg</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:6\">Targ. Koh. X, 6</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>languor</i>. Ib. 18 <he>מַכִּיכוּת תפקידתא</he> languor in the observance of the law (h. text <he>שפלות ידים</he>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A02886",
+	"slug": "אצפא-1",
+	"headword": {
+		"text": "אַצְפָּא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אָצְפָא"
+		}
+	],
+	"page": {
+		"number": 111,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אצף</he>, v. <cite ref=\"J00545\"><he>יְצֵף</he></cite>) <i>trouble, labor</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:23\">Targ. Prov. XVI, 23</cite> <he>בכל מן דא׳ לך</he> (h. text <he>עצב</he>) in whatever is a trouble to thee."
+			]
+		}
+	]
+}

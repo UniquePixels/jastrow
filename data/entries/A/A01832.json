@@ -1,0 +1,25 @@
+{
+	"id": "A01832",
+	"slug": "אלטינון",
+	"headword": {
+		"text": "אלטינון",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "טיינון"
+		}
+	],
+	"page": {
+		"number": 68,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", a corruption of <he>יַאנְטִינוֹן</he> for <he>יַאנְתִּינוֹן</he> m. (ἰάνθινον, Aquila <cite ref=\"Exodus 25:5\">Ex. XXV, 5</cite>) <i>violet-colored</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:9:1\">Koh. R. to I, 9</cite> <he>אלט׳</he>; <cite ref=\"Jerusalem Talmud Shabbat 2:3:3\">Y. Sabb. II, 4ᵈ</cite> (expl. bibl. <cite ref=\"V00388\"><he>תחש</he></cite> as a color <he>לשם צבעו</he>, v. Ges. H. Dict. s. v. <cite ref=\"V00388\"><he>תַּחַשׁ</he></cite>). [<cite ref=\"Esther Rabbah 2:7\">Esth. R. to I, 6</cite> <cite ref=\"I00344\"><he>טיינון</he></cite> (Var. <he>סיינון</he>) read <cite ref=\"J00573\"><he>יקינטינון</he></cite>]."
+			]
+		}
+	]
+}

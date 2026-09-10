@@ -1,0 +1,25 @@
+{
+	"id": "I00768",
+	"slug": "טריא-1",
+	"headword": {
+		"text": "טִרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַרְ׳"
+		}
+	],
+	"page": {
+		"number": 552,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>shaking</i>, v. <cite ref=\"I00442\"><he>טִירְיָא</he></cite>.—[In later literature <he>שקלא וטַרְיָא</he> <i>argument</i>, v. <cite ref=\"I00765\"><he>טְרִי</he></cite>.]",
+			"units": []
+		}
+	]
+}

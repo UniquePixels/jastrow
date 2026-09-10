@@ -1,0 +1,24 @@
+{
+	"id": "O01248",
+	"slug": "סנסן-2",
+	"headword": {
+		"text": "סַנְסַן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1008,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.  <he>סַנְסִנִּים</he> pl.; v. ) [<i>prick</i>,] <i>the pointed ribbed leaf of the palm tree</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 93a:7\">Snh. 93ᵃ</cite> (ref. to <cite ref=\"Song of Songs 7:9\">Cant. VII, 9</cite>) <he>לא עלתה בידי אלא ס׳ אחת</he> (v. Rashi) I can claim as mine only one leaf (of the palm Israel) that of Hanania &c.; <cite ref=\"Yalkut Shimoni on Nach 992:43\">Yalk. Cant. 992</cite> <cite ref=\"O01250\"><he>סַנְסִנָּה</he></cite>.—Pl. <he>סַנְסִנִּים</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 3:14\">Num. R. s. 3</cite>, beg.; <cite ref=\"Bereishit Rabbah 41:10\">Gen. R. s. 41</cite>, beg.; <cite ref=\"Yalkut Shimoni on Nach 845:3\">Yalk. Ps. 845</cite> <he>ס׳ לכברה</he> (not <he>לכבד</he>) the leaves (of the palm tree) are used for sieves."
+			]
+		}
+	]
+}

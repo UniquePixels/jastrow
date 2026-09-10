@@ -1,0 +1,59 @@
+{
+	"id": "N00177",
+	"slug": "נגע-2",
+	"headword": {
+		"text": "נְגַע"
+	},
+	"page": {
+		"number": 875,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00176\">same</cite>, <i>to touch</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 19a:6\">Snh. 19ᵃ</cite> <he>לא אתי למִינְגַּע</he> he will not chance to touch (the corpse). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:9:3\">Y. Keth. VII, end, 31ᵈ</cite> <he>טלמסן למִגּע</he> dared to touch, v. <cite ref=\"I00170\"><he>טוֹלְמִיסִין</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַגַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to bring in contact</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 28b:11\">Bekh. 28ᵇ</cite> <he>דא׳ בהו שרץ</he> he (the judge) made the disputed objects touch a reptile; <cite ref=\"Sanhedrin 33b:4\">Snh. 33ᵇ</cite> <he>דאגעי וכ׳</he> (corr. acc.). ",
+						"<cite ref=\"Zevachim 88a:2\">Zeb. 88ᵃ</cite> <he>דמַגַּע להו</he> he brings the blood in immediate contact with the altar; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["נַגַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to afflict</i> with leprosy.—Part. pass. <he>מְנַגַּע</he>. ",
+					"units": [
+						"<cite ref=\"Chullin 60a\">Ḥull. 60ᵃ</cite> they have a custom in Rome <he>דכל דמנ׳ וכ׳</he> to give every one stricken with leprosy a reel &c., v. <cite ref=\"D00268\"><he>דַּוְלָלָא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 862:2\">Yalk. Ps. 862</cite> <he>דמִתְנַגַּע</he>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְנַגַּע", "אִינַּגַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be stricken</i> with leprosy. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 6:1\">Targ. Is. VI, 1</cite>.—Ḥull. l. c. <he>אִינַּגְּעָה</he> she became a leper; Yalk. l. c. <he>אִתְנַגְּעָה</he>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

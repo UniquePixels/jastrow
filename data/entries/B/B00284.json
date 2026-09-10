@@ -1,0 +1,37 @@
+{
+	"id": "B00284",
+	"slug": "בוני",
+	"headword": {
+		"text": "בּוּנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּנַי"
+		}
+	],
+	"page": {
+		"number": 147,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Buni</i> or <i>Bunai;</i> ",
+			"units": []
+		},
+		{
+			"gloss": " name of one of the alleged disciples of Jesus of Nazareth. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 43a:25\">Snh. 43ᵃ</cite> Ms. M. a. ed. Ven. (omitted in later ed., v. Graetz Gesch. d. Jud. III (2ᵈ ed.) p. 243; Rœsch Jesusmythen p. 99)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a pious and liberal man, otherwise named Nakdimon. ",
+			"units": ["<cite ref=\"Taanit 20a:4\">Taan. 20ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

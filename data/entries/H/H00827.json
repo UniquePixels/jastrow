@@ -1,0 +1,32 @@
+{
+	"id": "H00827",
+	"slug": "חיס",
+	"headword": {
+		"text": "חֲיָס"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲיָסָא"
+		},
+		{
+			"text": "חֲיָי׳"
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"H00741\"><he>חַיִיס</he> II</cite> , <i>protection, mercy</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:27\">Targ. Ex. XII, 27</cite> (ed. Amst. <cite ref=\"H00827\"><he>חַיָּס</he></cite>, <cite ref=\"H00742\"><he>חַיְיסָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 4:4\">Targ. Jer. IV, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 1:31\">Targ. Is. I, 31</cite>; a. e. [<cite ref=\"Aramaic Targum to Proverbs 3:25\">Targ. Prov. III, 25</cite>, v. <cite ref=\"H00839\"><he>חֵיפָא</he> I</cite>.]"
+			]
+		}
+	]
+}

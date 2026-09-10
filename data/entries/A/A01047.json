@@ -1,0 +1,60 @@
+{
+	"id": "A01047",
+	"slug": "אחר-4",
+	"headword": {
+		"text": "אַחֵר"
+	},
+	"page": {
+		"number": 41,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"A01046\">foreg.</cite> a.  [back of,] <i>another, the other, stranger</i>. <he>דבר א׳</he> (abbr. <he>ד״א</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>another thing, another explanation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 4:5\">Snh. IV, 5</cite>; a. v. fr. in Midr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " euphem. for <i>idolatry, swine</i> &c., v. <cite ref=\"D00077\"><he>דָּבָר</he></cite>. ",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Aḥer</i>, [apostate,] byname of Elisha ben Abuyah. ",
+			"units": ["<cite ref=\"Chagigah 14b:8\">Ḥag. 14ᵇ</cite>; a. e."],
+			"label": "3"
+		},
+		{
+			"gloss": "—Pl. <cite ref=\"H01715\"><he>אֲחֵרִים</he></cite> <i>others</i>; ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " freq. in Mishn. for anonymous authorities differing in opinion, <he>א׳ אומרים</he>, v. ",
+					"units": [
+						"<cite ref=\"Horayot 13b:18\">Hor. 13ᵇ</cite> <he>אסיקו לר׳ מאיר א׳</he> R. Meïr is quoted under the word <i>aḥerim</i>.—"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " freq. for <i>strangers, gentiles</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 52b:22\">Snh. 52ᵇ</cite> <he>אשת א׳</he> the wife of a non-Israelite. ",
+						"<cite ref=\"Bava Metzia 111b\">B. Mets. 111ᵇ</cite>; a. fr.—Fem. <cite ref=\"A01061\"><he>אֲחֶרֶת</he></cite>. ",
+						"<cite ref=\"Mishnah Yoma 1:1\">Yoma I, 1</cite> <he>אשה א׳</he> a second (additional) wife; a. fr.—",
+						"<cite ref=\"Sanhedrin 104a:8\">Snh. 104ᵃ</cite> <he>זאת ועוד א׳</he> this and something besides (shall happen)."
+					],
+					"label": "2"
+				}
+			]
+		}
+	]
+}

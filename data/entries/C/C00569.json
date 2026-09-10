@@ -1,0 +1,39 @@
+{
+	"id": "C00569",
+	"slug": "גזם-2",
+	"headword": {
+		"text": "גְּזַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּזִים"
+		}
+	],
+	"page": {
+		"number": 231,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00568\">same</cite><i>to cut</i>. Y. Orl. III, 63ᵃ top <he>גָּזֵים וכ׳</he>, v. <cite ref=\"C00545\"><he>גְּזִיזָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to threaten</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:30\">Targ. Prov. XVI, 30</cite> (h. text <cite ref=\"S02142\"><he>קרץ</he></cite>). ",
+				"<cite ref=\"Shevuot 46a:15\">Shebu. 46ᵃ</cite> <he>עביד איניש דגזים וכ׳</he> a man frequently threatens mischief and does not do it. ",
+				"<cite ref=\"Shevuot 46a:15\">Ib.</cite> <he>הכי נמי ג׳ וכ׳</he> (not <he>דג׳</he>, v. Rabb. D. S. a. l.) in this case, too, he may have threatened and not done it."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to speak hyperbolically</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 104b:10\">B. Mets. 104ᵇ</cite>, v. <cite ref=\"C00350\"><he>גּוּזְמָא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

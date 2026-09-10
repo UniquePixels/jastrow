@@ -1,0 +1,28 @@
+{
+	"id": "A02322",
+	"slug": "אסא-4",
+	"headword": {
+		"text": "אָסָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 88,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>אדסא</he>, v. <he>הדס</he>) <i>myrtle</i>. Targ. II, <cite ref=\"Esther 2:7\">Esth. II, 7</cite>; a. e. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 23a:6\">R. Hash. 23ᵃ</cite> <he>הדס א׳</he> <i>hadas</i> (<cite ref=\"Isaiah 41:19\">Is. XLI, 19</cite>) is <i>asa</i>. ",
+				"<cite ref=\"Pesachim 56a:4\">Pes. 56ᵃ</cite> <he>א׳ רדא׳</he> Ar., Ms. O. (ed. <cite ref=\"D01029\"><he>דרא</he></cite>) fresh (moist) myrtle. ",
+				"<cite ref=\"Berakhot 9b:17\">Ber. 9ᵇ</cite> <he>דאמטיית א׳ וכ׳</he> you had to carry a myrtle-tree to the palace (when forced into public labor, v. <cite ref=\"A02108\"><he>אַנְגַרְיָא</he></cite>). ",
+				"<cite ref=\"Sanhedrin 44a:2\">Snh. 44ᵃ</cite> (prov.) <he>א׳ דקאי ביני וכ׳</he> a myrtle between willows still is a myrtle by name, and people call it a myrtle.—Pl. <he>אָסַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite>.—",
+				"<cite ref=\"Niddah 37a:4\">Nidd. 37ᵃ</cite> (Rashi, sing.)"
+			]
+		}
+	]
+}

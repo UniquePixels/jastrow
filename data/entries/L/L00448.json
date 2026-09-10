@@ -1,0 +1,23 @@
+{
+	"id": "L00448",
+	"slug": "ליטרתא",
+	"headword": {
+		"text": "לִיטַרְתָּא"
+	},
+	"page": {
+		"number": 707,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00447\">preced.</cite>) (<i>by the</i>) <i>pound</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:10\">Y. Ber. II, 5ᶜ</cite> bot. <he>בכמה הדין ל׳</he> how much is this (meat) a pound?—",
+				"<cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23</cite> <he>וזבניה … ל׳ דינר</he> and a Jew bought it at a denar a pound."
+			]
+		}
+	]
+}

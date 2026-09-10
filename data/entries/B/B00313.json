@@ -1,0 +1,30 @@
+{
+	"id": "B00313",
+	"slug": "בוצלא",
+	"headword": {
+		"text": "בּוּצְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּצְלָא"
+		}
+	],
+	"page": {
+		"number": 148,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (h. <cite ref=\"B01094\"><he>בָּצֵל</he></cite>, v. <cite ref=\"B01093\"><he>בְּצַל</he></cite>) <i>onion.—</i>Pl. <cite ref=\"B00314\"><he>בּוּצְלַיָּא</he></cite>, <he>בּוּצְלֵי</he>, <he>בָּצְ׳</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 11:5\">Targ. Num. XI, 5</cite>.—",
+				"<cite ref=\"Kiddushin 62a\">Kidd. 62ᵃ</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:6:2\">Y. Shebi. II, 34ᵃ</cite> bot. <he>ב׳ כופריא וכ׳</he> country onions which mature no seeds; <cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite>, v. <cite ref=\"B01094\"><he>בָּצֵל</he></cite>. *<cite ref=\"Bereishit Rabbah 95\">Gen. R. s. 95</cite>, end <he>וקלף ב׳</he> peel the onions (i.e. take all we have); [the passage seems to be corrupt; the explanation beginning with <he>פי׳</he> is a glossator’s note].—",
+				"<cite ref=\"Kiddushin 62b\">Kidd. 62ᵇ</cite>; v. <cite ref=\"B00314\">next w.</cite>"
+			]
+		}
+	]
+}

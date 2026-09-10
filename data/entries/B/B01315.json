@@ -1,0 +1,23 @@
+{
+	"id": "B01315",
+	"slug": "ברק-3",
+	"headword": {
+		"text": "בָּרָק"
+	},
+	"page": {
+		"number": 196,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"B01314\">preced.</cite>) <i>lightning</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 31:9\">Lev. R. s. 31</cite>.—Pl. <he>בְּרָקִים</he>. ",
+				"<cite ref=\"Mishnah Berakhot 9:2\">Ber. IX, 2</cite>; a. fr."
+			]
+		}
+	]
+}

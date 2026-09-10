@@ -1,0 +1,26 @@
+{
+	"id": "S00239",
+	"slug": "קובעתא",
+	"headword": {
+		"text": "קוֹבְעָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹבְעָתָה"
+		}
+	],
+	"page": {
+		"number": 1324,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"S00238\">preced.</cite> wds.; cmp. <cite ref=\"K00195\"><he>כּוֹבְעָה</he></cite>) [<i>caps,</i>] <i>clods covering the field after the first ploughing</i>, which require to be broken by being thrown up and scattered. Y. Shebi. IV, 35ᵃ <he>רמיין ק׳</he> (not <he>דמיין</he>); <cite ref=\"Jerusalem Talmud Sanhedrin 3:5:8\">Y. Snh. III, 21ᵇ</cite> top <cite ref=\"S00240\"><he>קובעתי׳</he></cite>, <cite ref=\"S00238\"><he>קובעת</he></cite> (corr. acc.), v. <cite ref=\"E00020\"><he>הָאַסְטוּ</he></cite>.",
+			"units": []
+		}
+	]
+}

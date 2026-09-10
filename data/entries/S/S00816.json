@@ -1,0 +1,30 @@
+{
+	"id": "S00816",
+	"slug": "קטפורס",
+	"headword": {
+		"text": "קָטָפוֹרַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָטָפְרַס"
+		}
+	],
+	"page": {
+		"number": 1352,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (καταφοράς, acc. pl.) <i>downward strokes</i>, in gen. <i>blows, lashes</i>. Pesik. B’shall. p. 81ᵇ <he>עשר ק׳ אתה לוקה וכ׳</he> thou art doomed to receive ten strokes,—they are the ten Egyptian plagues—, and to pay a fine &c.; <cite ref=\"Yalkut Shimoni on Torah 225:12\">Yalk. Ex. 225</cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 18:5\">Lev. R. s. 18</cite> <he>בו״ר נותן ק׳ וכ׳</he> a human authority decrees lashes, so does the Lord; <cite ref=\"Bamidbar Rabbah 7:3\">Num. R. s. 7</cite> <he>יש לו קטפירס</he> (read: <he>נותן קטפו׳</he>). ",
+				"<cite ref=\"Shemot Rabbah 30:7\">Ex. R. s. 30</cite> [read:] <he>לוקה ק׳</he> (not <he>לקח ה׳ ק׳</he>) receives a certain number of strokes; a. e. ",
+				"<cite ref=\"Shemot Rabbah 30:7\">Ib.</cite> <cite ref=\"S00815\"><he>קטפורוס</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

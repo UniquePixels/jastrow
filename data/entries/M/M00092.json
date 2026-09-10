@@ -1,0 +1,23 @@
+{
+	"id": "M00092",
+	"slug": "מבסרנא",
+	"headword": {
+		"text": "מְבַסְרָנָא"
+	},
+	"page": {
+		"number": 725,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בְּסַר</he> I) <i>despiser; haughty</i>.—Pl. <he>מְבַסְרָנַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 68:17\">Targ. Ps. LXVIII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 123:4\">Ib. CXXIII, 4</cite>."
+			]
+		}
+	]
+}

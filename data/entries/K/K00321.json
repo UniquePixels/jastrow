@@ -1,0 +1,32 @@
+{
+	"id": "K00321",
+	"slug": "כוסבר-2",
+	"headword": {
+		"text": "כּוּסְבַּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּסְבּרָה"
+		},
+		{
+			"text": "כּוּסְבַּרְתָּא"
+		}
+	],
+	"page": {
+		"number": 623,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"K00320\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 16:31\">Targ. Y. Ex. XVI, 31</cite>; <cite ref=\"Targum Jonathan on Numbers 11:7\">Targ. Y. Num. XI, 7</cite> (h. text <cite ref=\"C00151\"><he>גד</he></cite>).—Y. Dem. I, 21ᵈ top <he>כוסבר</he>(<cite ref=\"E00000\"><he>ה</he></cite>) <cite ref=\"K00321\"><he>כוסברתא</he></cite> <i>kusbar</i> (of the Mish.) is <i>kusbarta</i>. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> (derisive play on the word) [read:] <he>כּוּס בְּרָה כּוּס בְּרַתָּה וכ׳</he> ‘chew the son, chew the daughter’, who classed thee among the spices?—",
+				"<cite ref=\"Avodah Zarah 10b:2\">Ab. Zar. 10ᵇ</cite> (expressing an advice symbolically = <he>כוס ברתא</he> put the daughter to death, v. <cite ref=\"N00837\"><he>נְכַס</he></cite>; v. <cite ref=\"C01246\"><he>גַּרְגִּילָא</he></cite>)."
+			]
+		}
+	]
+}

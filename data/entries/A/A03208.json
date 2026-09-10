@@ -1,0 +1,29 @@
+{
+	"id": "A03208",
+	"slug": "ארס-1",
+	"headword": {
+		"text": "אֶרֶס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶירֶס"
+		}
+	],
+	"page": {
+		"number": 124,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (√<he>רס</he>; v. <cite ref=\"T00860\"><he>רְסַס</he></cite>; as to modification of meaning cmp. Lat. <i>virus</i>) prop. <i>drop, fluid</i>. esp. <i>poison</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 3:1:4\">Y. Ter. III, beg. 42ᵃ</cite> the serpent <he>הטיל בו א׳</he> threw a drop (of poison) into it. ",
+				"<cite ref=\"Shabbat 62b:19\">Sabb. 62ᵇ</cite> (play on <i>t’akkasnah</i>, <cite ref=\"Isaiah 3:16\">Is. III, 16</cite>) <he>כארס בכעוס</he> (read <he>כא׳ עכיס</he>; v. Var. Rabb. D. S. a. l. note) like the serpent’s poison; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Maasrot 5:3:7\">Y. Maasr. V, end, 52ᵃ</cite> an onion <he>שאין לו אירם</he> (read <he>אירס</he>) which has no penetrating moisture.—Pl. <he>אֵרְסִין</he>, <he>אֵירְסִין</he>. Y. Ter. VIII, 45ᵉᵈ. Cmp. <cite ref=\"T00654\"><he>רִיס</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "M00762",
+	"slug": "מזל-2",
+	"headword": {
+		"text": "מַזָּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַזָּלָא"
+		}
+	],
+	"page": {
+		"number": 755,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"M00761\">same</cite>, <i>planet, constellation; luck</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 33:45\">Targ. Y. Num. XXXIII, 45</cite> <he>בית מ׳</he> (h. text <cite ref=\"C00151\"><he>גד</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 30:11\">Targ. Y. I Gen. XXX, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 9:3\">Targ. Koh. IX, 3</cite> <he>מ׳ ביש</he> bad luck; a. fr.—",
+				"<cite ref=\"Shabbat 53b:3\">Sabb. 53ᵇ</cite>, a. fr. <he>אדם דאית ליה מ׳</he> man has a guardian angel (chance of recovery from a disease fatal to beasts). ",
+				"<cite ref=\"Taanit 29b:1\">Taan. 29ᵇ</cite> <he>ריע מַזְּלֵיה</he> his luck is shaky (bad), opp. <he>בריא מזליה</he>. ",
+				"<cite ref=\"Kohelet Rabbah 7:15:1\">Koh. R. to VII, 15</cite>, a. e. <he>טמיע מ׳</he>, v. <cite ref=\"I00560\"><he>טְמַע</he></cite>; a. v. fr.—Pl. <he>מַזָּלַיָּיא</he>, <he>מַזָּלָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 7:84\">Targ. Y. Num. VII, 84</cite>.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 47:13\">Targ. Is. XLVII, 13</cite> <cite ref=\"M00762\"><he>מַזָּלַת</he></cite> (constr.; ed. Ven. I <cite ref=\"M00781\"><he>מַזָּלוֹת</he></cite> h. form).—",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 7:15\">Targ. Koh. VII, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 9:2\">Ib. IX, 2</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 146a\">Sabb. 146ᵃ</cite> (<he>מַזָּלַיְהוּ</he>) <he>מַוָּלַיְיהוּ הוו</he> their guardian angels were present (at the giving of the Law)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (Ms. <cite ref=\"M00764\"><he>מֹזְלָא</he></cite>) <i>fortune, possession</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 112:3\">Targ. Ps. CXII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:18\">Targ. Prov. VIII, 18</cite> (ed. Lag. <he>מזליא</he>, pl.); a. e., v. <cite ref=\"M00413\"><he>מוֹדְלָא</he></cite>"
+			],
+			"label": "2"
+		}
+	]
+}

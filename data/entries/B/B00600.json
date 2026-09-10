@@ -1,0 +1,24 @@
+{
+	"id": "B00600",
+	"slug": "בייר-2",
+	"headword": {
+		"text": "בַּיָּיר"
+	},
+	"page": {
+		"number": 161,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"B00700\"><he>בֵּיר</he></cite> or <cite ref=\"B00331\"><he>בּוֹר</he></cite>, cmp. <cite ref=\"B00329\"><he>בּוּר</he></cite> Pi. 2) <i>superintendent of the well</i> in rural communities. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 8:5\">Shebi. VIII, 5</cite> <he>אין נותנין לא לב׳ וכ׳</he> (out of the money realized from the fruits of the Sabbath year) you must not pay the well-master &c.; <he>אבל נותן הוא לב׳ לשתות</he> but you may pay the well-master a fee for giving you water to drink. ",
+				"<cite ref=\"Tosefta Bava Metzia 9:14\">Tosef. B. Mets. IX, 14</cite> <he>הב׳ והבלן וכ׳</he> (Y. ",
+				"<cite ref=\"Tosefta Bava Metzia 9:14\">ib.</cite> beg. 12ᵃ ed. Krot. <cite ref=\"E00377\"><he>הכ׳</he></cite>, corr. acc.) the well-master, the bather &c. when collecting their fees from the owner (individually), may attach only the owner’s share in the produces. Ib. VIII, 11ᵈ top <he>שאלה מן הב׳</he>; [Bab. ib. 97ᵇ <he>למישאל מידי מחבריה</he>, read <he>מבַּיָּירָא</he> ch.]."
+			]
+		}
+	]
+}

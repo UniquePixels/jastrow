@@ -1,0 +1,32 @@
+{
+	"id": "A02676",
+	"slug": "אפיטרופיא",
+	"headword": {
+		"text": "אֶפִּיטְרוֹפְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶפִּיטְרוֹפָּא"
+		},
+		{
+			"text": "אַפּוֹ׳"
+		}
+	],
+	"page": {
+		"number": 102,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>administratrix, guardian</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 9:6\">Keth. IX, 6</cite> (<cite ref=\"Ketubot 86b:6\">86ᵇ</cite>) (Mish. ed. <he>פא …</he>, Talm. ed. <he>פיא …</he>). ",
+				"<cite ref=\"Bava Batra 144a:9\">B. Bath. 144ᵃ</cite> <he>פא</he> … <cite ref=\"Jerusalem Talmud Ketubot 9:4:1\">Y. Keth. IX, 33ᵃ</cite> top <he>אפיטרופא</he>, <he>אפטרפא</he> a. <he>אפטרפוס</he>. ",
+				"<cite ref=\"Tosefta Ketubot 9:3\">Tosef. ib. IX, 3</cite>."
+			]
+		}
+	]
+}

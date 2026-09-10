@@ -1,0 +1,28 @@
+{
+	"id": "Q01554",
+	"slug": "פרגול-2",
+	"headword": {
+		"text": "פִּרְגּוֹל",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּרְגָּל"
+		}
+	],
+	"page": {
+		"number": 1214,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (περίγρα) <i>a pair of compasses</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 29:5\">Kel. XXIX, 5</cite> comment. [prob. <i>whip</i>, v. preced.]."
+			]
+		}
+	]
+}

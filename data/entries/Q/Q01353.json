@@ -1,0 +1,80 @@
+{
+	"id": "Q01353",
+	"slug": "פסקא",
+	"headword": {
+		"text": "פִּסְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1201,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01352\">same</cite><i>cut</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 112a:1\">Ḥull. 112ᵃ</cite> <he>גריר לבי פִסְקֵיה וכ׳</he> he may scrape off the place where it was cut, and eat it. ",
+				"<cite ref=\"Bava Metzia 23b\">B. Mets. 23ᵇ</cite> <he>אית ליה סימנא בפִסְקֵיה</he> Ms. F. (ed. <he>דאיכא … בפסקא</he>, v. Rabb. D. S. a. l. note 5) when he can identify it by his way of chopping.—[<cite ref=\"Chullin 51a:12\">Ḥull. 51ᵃ</cite> <he>מחיי אפסקיה</he>, v. <cite ref=\"Q01362\"><he>פַּסְקִית</he></cite>.]—Pl. <he>פִּסְקֵי</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+				"<cite ref=\"Eruvin 3a:4\">Erub. 3ᵃ</cite> <he>פ׳ דארזא</he> (cmp. <cite ref=\"B01133\"><he>בְּקַעַת</he></cite>) cedar <i>logs</i>.—[<cite ref=\"Jerusalem Talmud Kilayim 9:4:5\">Y. Kil. IX, end, 32ᵈ</cite> <he>פיסקי דעמר</he>, v. <cite ref=\"Q01318\"><he>פְּסִיקְיָא</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>interruption, broken line; space indicating a new section, paragraph.—</i>Pl. <he>פִּסְקִין</he>, <he>פִּסְקֵי</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 26b:2\">R. Hash. 26ᵇ</cite>; <cite ref=\"Megillah 18a:25\">Meg. 18ᵃ</cite> <he>והוו עיילי פ׳ פ׳</he> they came to Rabbi’s house in broken lines (Y. ib. II, beg. 73ᵃ <he>קטעין קטעין</he>), v. <cite ref=\"O00836\"><he>סֵירוּג</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:3:8\">Y. Sabb. I, 3ᵇ</cite> bot. (expl. <he>ראשי פרקים</he>) <he>פ׳</he> the places in the scroll where the portions, into which the Sabbath reading is divided, begin."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>detached part.—Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Bava Batra 68b:3\">B. Bath. 68ᵇ</cite> <he>פיסקי בגי</he>, v. <cite ref=\"B00570\"><he>בִּיזְלֵי</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>decision, decree</i>. Ib. 130ᵇ <he>פ׳ דדינא</he> (Ms. R. <he>פְּסַק דינא</he>, v. Rabb. D. S. a. l. note 40) legal decision, v. <cite ref=\"Q00858\"><he>פִּירְכָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 70a:6\">Kidd. 70ᵃ</cite>, v. <cite ref=\"E00301\"><he>הַזְמָנָא</he></cite>; a. e.; v. <cite ref=\"Q00905\"><he>פִּיתְקָא</he></cite>."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>an absolute, unqualified opinion</i> or <i>statement</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 76b:6\">Keth. 76ᵇ</cite>, a. fr. <he>ומאי פ׳</he> how can you say this without any qualification?"
+			],
+			"label": "5"
+		},
+		{
+			"gloss": "<i>last meal before beginning to fast</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Challah 1:1:20\">Y. Ḥall. I, 57ᶜ</cite> top; <cite ref=\"Jerusalem Talmud Rosh Hashanah 1:4:3\">Y. R. Hash. I, 57ᵇ</cite> bot. <he>אַפְּסַק כרובא</he>, v. <cite ref=\"K01103\"><he>כְּרוּבָּא</he></cite>."
+			],
+			"label": "6"
+		},
+		{
+			"gloss": "<i>donation, collection</i>, v. <cite ref=\"Q01355\"><he>פִּסְקָה</he></cite>.—[<cite ref=\"Q01353\"><he>פסקא</he></cite>, <he>פי׳</he> (abbrev. <he>פיס׳</he>) <i>section, </i>",
+			"units": [],
+			"label": "7",
+			"senses": [
+				{
+					"gloss": " heading in Talm. Y., subordinate to <he>מתני׳</he>.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " headings of sections in P’siḳta.]",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

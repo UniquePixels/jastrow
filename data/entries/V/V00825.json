@@ -1,0 +1,31 @@
+{
+	"id": "V00825",
+	"slug": "תפל-1",
+	"headword": {
+		"text": "תָּפַל"
+	},
+	"page": {
+		"number": 1686,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"I00660\"><he>טָפַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to paste</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Pesachim 5:10\">Tosef. Pes. V, 10</cite> <he>ואין תּוֹפְלִין וכ׳</he> ed. Zuck. (oth. ed. <he>טוֹפְלִין</he>) you must not paste them over with potter’s clay &c. (to take the hair off), v. <cite ref=\"I00660\"><he>טָפַל</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"I00141\"><he>טוּחַ</he></cite>, a. <cite ref=\"I00661\"><he>טְפַל</he></cite>) <i>to denounce, slander</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 1:14\">Sifré Deut. 1</cite> (play on <he>תֹּפֶל</he>, <cite ref=\"Deuteronomy 1:1\">Deut. I, 1</cite>) <he>דברי תפלות שתָּפְלוּ על המן</he> the frivolous words which they cast on the manna; Yalk. ib. 790 <he>שתפלו על המן</he> when they slandered the manna."
+			],
+			"label": "2"
+		}
+	]
+}

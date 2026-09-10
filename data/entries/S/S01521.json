@@ -1,0 +1,32 @@
+{
+	"id": "S01521",
+	"slug": "קנב-2",
+	"headword": {
+		"text": "קְנַב"
+	},
+	"page": {
+		"number": 1388,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>קַנֵּיב</he> ch. same. ",
+					"units": [
+						"<cite ref=\"Shabbat 73b:4\">Sabb. 73ᵇ</cite> <he>האי מאן דקַנֵּיב סלקא</he> (or <he>דקָנֵיב</he>) he who trims beets (in the ground). ",
+						"<cite ref=\"Shabbat 115a:1\">Ib. 115ᵃ</cite> <he>מְקַנְּבֵי כרבא</he> cleaned cabbage (on the Day of Atonement towards evening).—V. <cite ref=\"S00415\"><he>קוּנְבִּיתָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

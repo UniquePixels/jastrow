@@ -1,0 +1,24 @@
+{
+	"id": "S01014",
+	"slug": "קין-1",
+	"headword": {
+		"text": "קַיִן"
+	},
+	"page": {
+		"number": 1362,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (b. h.) <i>Cain</i>, son of Adam. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 4:5\">Snh. IV, 5</cite> <he>שכן מצינו בק׳ וכ׳</he> for so we find with reference to Cain when he had killed his brother &c. ",
+				"<cite ref=\"Sanhedrin 37b:10\">Ib. 37ᵇ</cite> <he>מלמד שעשה ק׳ וכ׳</he> this use of the plural (<cite ref=\"D00891\"><he>דמי</he></cite>, <cite ref=\"Genesis 4:10\">Gen. IV, 10</cite>) shows that C. inflicted many wounds and bruises on his brother &c. ",
+				"<cite ref=\"Bereishit Rabbah 2:3\">Gen. R. s. 2</cite> <he>ובהו זה ק׳ וכ׳</he> ‘and void’ (<cite ref=\"Genesis 1:2\">Gen. I, 2</cite>), this refers to Cain who intended to reduce the world to waste and voidness; a. v. fr."
+			]
+		}
+	]
+}

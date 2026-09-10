@@ -1,0 +1,22 @@
+{
+	"id": "P01222",
+	"slug": "עקרבין",
+	"headword": {
+		"text": "עַקְרַבִּין"
+	},
+	"page": {
+		"number": 1109,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl., <he>מסקנא דע׳</he> <i>the ascent of ʿAḳrabbin</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 34:4\">Targ. O. Num. XXXIV, 4</cite> (ed. Vien. <cite ref=\"P01222\"><he>עַקְרַבִּים</he></cite>; Y. <cite ref=\"P01222\"><he>עַקְרַבִּית</he></cite>); <cite ref=\"Targum Jonathan on Joshua 15:3\">Targ. Josh. XV, 3</cite>; <cite ref=\"Targum Jonathan on Judges 1:36\">Targ. Jud. I, 36</cite> <he>עקרבים</he> (h. text <he>מעלה עקרבים</he>)."
+			]
+		}
+	]
+}

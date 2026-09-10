@@ -1,0 +1,30 @@
+{
+	"id": "A00353",
+	"slug": "אגריאון",
+	"headword": {
+		"text": "אַגְרִיאוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַגְרִיּוֹן"
+		}
+	],
+	"page": {
+		"number": 14,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἄγριος, neut. or. acc.) <i>wild</i> (opp. <cite ref=\"A01340\"><he>אִימִירוֹן</he></cite> q. v.); <i>rough</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 77:3\">Gen. R. s. 77</cite>; <cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite> <he>כלב א׳</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 11:3\">Num. R. s. 11</cite> (refer. to <cite ref=\"Genesis 3:8\">Gen. III, 8</cite>) <he>שומע הקול א׳</he> after sinning, Adam heard the divine voice as a harsh one. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:7:5\">Cant. R. to III, 7</cite> (corr. acc.). ",
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>בזעף א׳ וכ׳ …</he> (leave out hebr. words as glosses to explain the Greek)."
+			]
+		}
+	]
+}

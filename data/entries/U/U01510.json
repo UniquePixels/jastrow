@@ -1,0 +1,23 @@
+{
+	"id": "U01510",
+	"slug": "שמניני",
+	"headword": {
+		"text": "שַׁמְנִינֵי"
+	},
+	"page": {
+		"number": 1598,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U01497\"><he>שְׁמֵן</he></cite>) <i>fat animals</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 4:4\">Targ. O. Gen. IV, 4</cite> ed. Lsb., v. <cite ref=\"U01502\"><he>שְׁמֵנָא</he></cite>."
+			]
+		}
+	]
+}

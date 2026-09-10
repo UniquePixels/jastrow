@@ -1,0 +1,44 @@
+{
+	"id": "N01243",
+	"slug": "נקר-3",
+	"headword": {
+		"text": "נָקַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 935,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (interch. with <cite ref=\"N01162\"><he>נָקַד</he></cite>; cmp. <cite ref=\"N01193\"><he>נָקָה</he></cite>) <i>to be clean</i>. [Sifra Aḥăré, Par. 9, ch. XIII <he>שלא תִנְקוֹר</he> ‘Rabad’, be not <i>foppish</i> in dress in order to attract the admiration of women; v., however, <cite ref=\"N00518\"><he>נָחַשׁ</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִקֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to keep clean</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 41b:5\">Ḥull. 41ᵇ</cite> <he>הרוצה לנַקֵּר וכ׳</he> (Ar. <he>לוַקֵּד</he>) he who wishes to keep his court clean."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִנְקִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to cleanse</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 11b:12\">Sot. 11ᵇ</cite> <he>מנְקִיר</he>, v. <cite ref=\"N01193\"><he>נָקָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

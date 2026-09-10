@@ -1,0 +1,35 @@
+{
+	"id": "E00572",
+	"slug": "הלל-2",
+	"headword": {
+		"text": "הָלַל"
+	},
+	"page": {
+		"number": 353,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be bright, shine.—Pi</i>. <he>הִלֵּל</he> <i>to praise</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 10:5\">Pes. X, 5</cite> <he>לְהַלֵּל</he>. ",
+				"<cite ref=\"Midrash Tehillim 113:2\">Midr. Till. to Ps. CXIII</cite> <he>צריכים אתם להַ׳ לו</he> you must give praise to Him. ",
+				"<cite ref=\"Midrash Tehillim 113:3\">Ib.</cite> <he>מנין הַלְלוּ</he> the numerical value of <i>hal’lu</i> (71)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְהַלֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to praise one’s self, boast</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 284:2\">Yalk. Jer. 284</cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

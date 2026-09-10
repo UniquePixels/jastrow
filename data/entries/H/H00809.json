@@ -1,0 +1,34 @@
+{
+	"id": "H00809",
+	"slug": "חימצא",
+	"headword": {
+		"text": "חִימְצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּמְצָא"
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. a species of <i>small peas</i> (Cicer Arietanus).—Pl. <he>חִימְצֵי</he>. ",
+			"units": [
+				"<cite ref=\"Yevamot 63a:12\">Yeb. 63ᵃ</cite> (Ar. <cite ref=\"H00811\"><he>חוּ׳</he></cite>). ",
+				"<cite ref=\"Chullin 52b\">Ḥull. 52ᵇ</cite> (some ed. <he>חִמְצֵי</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"E00439\"><he>הִימְצָא</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

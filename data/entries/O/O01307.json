@@ -1,0 +1,27 @@
+{
+	"id": "O01307",
+	"slug": "סערתא",
+	"headword": {
+		"text": "סְעַרְתָּא"
+	},
+	"page": {
+		"number": 1010,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (collect. noun) = h. <cite ref=\"U01691\"><he>שְׂעֹרָה</he></cite>, <i>barley</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 9:31\">Targ. Y. Ex. IX, 31</cite> <cite ref=\"O01682\"><he>סַרְתָּא</he></cite> (contr. of <he>סְעַרְ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 31:40\">Targ. Job XXXI, 40</cite> (some ed. <cite ref=\"O01307\"><he>סַעֲרָתָא</he></cite> <i>pl.</i>).—<i>Pl.</i> <cite ref=\"O01304\"><he>סְעָרִין</he></cite>, <cite ref=\"O01304\"><he>סְעָרֵי</he></cite>, <cite ref=\"O01304\"><he>סְעָרַיָּא</he></cite>, <cite ref=\"O01289\"><he>סְעוֹרִין</he></cite>. Targ. O. Ex. l. c. (ed. Vien. <cite ref=\"O01304\"><he>סַעֲרֵי</he></cite>; <cite ref=\"O01306\"><he>סערניא</he></cite>, corr. acc.). ",
+				"<cite ref=\"Onkelos Numbers 5:15\">Targ. O. Num. V, 15</cite> ed. Berl. (oth. ed. <cite ref=\"O00299\"><he>שׂ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:25\">Targ. Is. XXVIII, 25</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 3:15\">Targ. Ruth III, 15</cite>; <cite ref=\"Aramaic Targum to Ruth 3:17\">17</cite>; a. e.—Y. M. Kat. I, beg. 80ᵃ <he>דהוות זריעה ס׳</he> (not <he>דהוון</he>) which was planted with barley. ",
+				"<cite ref=\"Pesachim 42b:4\">Pes. 42ᵇ</cite> <he>דשדי ביה שערי</he> they put barley into it (the grape vinegar); a. e."
+			]
+		}
+	]
+}

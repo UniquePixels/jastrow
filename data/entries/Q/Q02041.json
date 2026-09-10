@@ -1,0 +1,33 @@
+{
+	"id": "Q02041",
+	"slug": "פרת-1",
+	"headword": {
+		"text": "פְּרָת"
+	},
+	"page": {
+		"number": 1244,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. <i>P’rath</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the river <i>Euphrates</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 16:4\">Gen. R. s. 16</cite> <he>פ׳ שפ̇ר̇ה ורבה וכ׳</he> it is named <i>P’rath</i> (the growing), for its waters grow and increase, until people pass it on ships; <he>פ׳ שמימיו פרין ורבין וכ׳</he> P’rath, for its waters are fruitful (fructifying); <he>פ׳ שמפ̇ר̇יד והולך עד שכלה במגריפה</he> ‘Rashi’ (ed. <he>שמפרש</he>) it is named P’rath (v. <cite ref=\"Q02043\"><he>פְּרַת</he></cite>), because it goes on dividing (branching off in channels), until it ends under the (digging) spade; <cite ref=\"Yalkut Shimoni on Torah 801:8\">Yalk. Deut. 801</cite> <he>כמגרפה</he> (corr. acc.); <cite ref=\"Sifrei Devarim 6:5\">Sifré Deut. 6</cite> <he>שמפרה והולך עד שכלה מגריפה לגרפי</he> it goes on fructifying (irrigating), until the spade ceases to dig it; <cite ref=\"Yalkut Shimoni on Torah 22:1\">Yalk. Gen. 22</cite> <he>מפריס והולך עד שהוא כלה ופותחין וכ׳</he> goes on dividing, until it disappears, and they open it with the spade. ",
+				"<cite ref=\"Bekhorot 55a:21\">Bekh. 55ᵃ</cite>; a. fr.—Denom. <he>פְּרָתִי</he>, pl. <he>פְּרָתִים</he>. ",
+				"<cite ref=\"Midrash Tehillim 137:1\">Midr. Till. to Ps. CXXXVII</cite> <he>שתו מים הפ׳ ומתים</he> they drank Euphrates water and died; (<cite ref=\"Pesikta Rabbati 28:1\">Pesik. R. s. 28</cite> <he>מימי הפרת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>P’rath</i>, name of certain districts or towns. ",
+			"units": [
+				"<cite ref=\"Yoma 10a:5\">Yoma 10ᵃ</cite> <he>פ׳ דמישן</he> (= <he>רחנת עיר</he>, <cite ref=\"Genesis 10:11\">Gen. X, 11</cite>): <he>פ׳ דבורסיף</he> (= <he>כלח</he> <cite ref=\"Genesis 10:11\">ib.</cite>); <cite ref=\"Kiddushin 72a:3\">Kidd. 72ᵃ</cite> (expl. <he>חביל ימא</he>) <he>פ׳ דבורסי</he>, v. <cite ref=\"B00386\"><he>בּוֹרְסִיף</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

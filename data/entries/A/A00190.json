@@ -1,0 +1,37 @@
+{
+	"id": "A00190",
+	"slug": "אבק-3",
+	"headword": {
+		"text": "אֲבַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲבֵיק"
+		}
+	],
+	"page": {
+		"number": 8,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<cite ref=\"A00013\"><he>אב</he></cite>, <cite ref=\"P00007\"><he>עב</he></cite>, cmp. <cite ref=\"A00150\"><he>אבך</he></cite>, <he>חבק</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to entangle, twist, twine</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 42a:12\">Men. 42ᵃ</cite> <he>אביק להו מיבק</he> (perh. <he>אַבֵּיק</he> <i>Pa.</i>) he twined (the show-fringes) with loops."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (neut. v.) <i>to be attached to, cling to</i> (idolatry etc.). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 64a\">Snh. 64ᵃ</cite>; <cite ref=\"Avodah Zarah 14b:3\">Ab. Zar. 14ᵇ</cite>. ",
+				"<cite ref=\"Avodah Zarah 17a:15\">Ib. 17ᵃ</cite> <he>א׳ בה טובא</he> he was very deeply attached to sensuality."
+			],
+			"label": "2"
+		}
+	]
+}

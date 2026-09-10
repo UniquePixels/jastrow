@@ -1,0 +1,24 @@
+{
+	"id": "Q00688",
+	"slug": "פילוסין-1",
+	"headword": {
+		"text": "פִּילוּסִין",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1164,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Πηλούσιον) <i>Pelusium</i>, a town in Lower Egypt. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 47:11\">Targ. Y. I Gen. XLVII, 11</cite> <he>ארעא דפ׳</he> (Y. II <he>ופילוסים</he>, corr. acc.; h. text <he>ארץ רעמסס</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 1:11\">Targ. Y. Ex. I, 11</cite> <cite ref=\"Q01464\"><he>פִּלּוּסִין</he></cite> ed. Vien. (II <he>תין …</he>, corr. acc.); a. fr."
+			]
+		}
+	]
+}

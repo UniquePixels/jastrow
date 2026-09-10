@@ -1,0 +1,30 @@
+{
+	"id": "N01276",
+	"slug": "נרתיק",
+	"headword": {
+		"text": "נַרְתֵּיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַרְתֵּק"
+		}
+	],
+	"page": {
+		"number": 937,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (νάρθηξ) [<i>narthex</i>, a small umbelliferous plant with a hollow pithy stalk, which may be used as a receptacle; in gen.] <i>case, casket</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:2:3\">Y. Ber. V, 9ᵇ</cite> top <he>נַרְתֵּיקוֹ של רופא</he> a physician’s medicine chest. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:3:5\">Y. R. Hash. I, 57ᵇ</cite>. [<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 9</cite> <he>נוורתוק</he> Vers. in Ar. (corr. acc.), v. <cite ref=\"L00115\"><he>לַבְרָטוֹן</he></cite>.]—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:7:4\">Y. Erub. I, 19ᵇ</cite> bot. (<he>של קרן</he>) <he>נרתיקו</he> the pithy hollow part of the horn, opp. <cite ref=\"G00471\"><he>זַכְרוּת</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 6:6\">Gen. R. s. 6</cite> <he>גלגל חמה יש לו נ׳</he> the globe of the sun has a sheath; <cite ref=\"Bereishit Rabbah 6:6\">ib.</cite> <he>הקב״ה מערטלו מנרתיקו</he> (Ar. <he>מנושתקו</he>) the Lord will denude it of its sheath; <cite ref=\"Kohelet Rabbah 1:5:2\">Koh. R. to I, 5</cite> (v. <cite ref=\"N01355\"><he>נַשְׁתֵּק</he></cite>); <cite ref=\"Avodah Zarah 3b\">Ab. Zar. 3ᵇ</cite> bot., a. e.—[<cite ref=\"Jerusalem Talmud Yoma 4:4:4\">Y. Yoma IV, 41ᵈ</cite> top, v. <cite ref=\"N01355\"><he>נַשְׁתֵּק</he></cite>.]"
+			]
+		}
+	]
+}

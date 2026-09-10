@@ -1,0 +1,28 @@
+{
+	"id": "C01293",
+	"slug": "גרוד",
+	"headword": {
+		"text": "גָּרוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּרוּר"
+		}
+	],
+	"page": {
+		"number": 266,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. pass. of <cite ref=\"C01268\"><he>גָּרַד</he></cite> or <cite ref=\"C01392\"><he>גָּרֵר</he></cite>) <i>stripped, bare</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 598:1\">Yalk. Ruth 598</cite>, v. <cite ref=\"C01273\"><he>גַּרְדּוּם</he></cite>.—Pl. <he>גְּרוּדִים</he>. ",
+				"<cite ref=\"Avodah Zarah 33a:7\">Ab. Zar. 33ᵃ</cite> <he>גרוד׳</he> wine jars not lined with pitch; <cite ref=\"Tosefta Avodah Zarah 4:10\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:10\">V</cite>), 10 <he>גְּרוּדִין</he>.—Fem. pl. <he>גְּרוּדוֹת</he>. Y. ib. II, 41ᵇ bot."
+			]
+		}
+	]
+}

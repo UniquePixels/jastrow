@@ -1,0 +1,33 @@
+{
+	"id": "A01911",
+	"slug": "אלמוג",
+	"headword": {
+		"text": "אַלְמוּג"
+	},
+	"page": {
+		"number": 71,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>עצי אלמגים</he>, <he>ע׳ אלגומים</he>)<i>red coral</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:13\">Tosef. Kel. B. Mets. III, 13</cite>; <cite ref=\"Mishnah Kelim 13:6\">Kel. XIII, 6</cite>; <cite ref=\"Shabbat 59b:19\">Sabb. 59ᵇ</cite>; Y. ib. VI, 8ᵇ top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pl. <he>אַלְמוּגִים</he>, <he>אַלְמוּגִין</he> <i>a species of cedar-tree</i>, prob. <i>coral-wood</i> (v. infra as to various opinions). ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 23a\">R. Hash. 23ᵃ</cite>; <cite ref=\"Bava Batra 80b:18\">B. Bath. 80ᵇ</cite> sq. <he>א׳ כסיתא</he> <i>almugim</i> is coral (apparently a confusion of <i>coral</i> and <i>coral-wood</i>). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:9:3\">Y. Keth. VII, end, 31ᵈ</cite> <he>א׳ אלוים</he> <i>alm</i>. is the aloe-wood (agallochum); (<cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite> beg. <cite ref=\"A01807\"><he>אלווס</he></cite> Ar., ed. <he>אלוום</he>, <he>אלונים</he> corr. acc.). ",
+				"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> (ref. to <cite ref=\"II Chronicles 2:7\">II Chr. II, 7</cite> a. ",
+				"<cite ref=\"I Kings 10:12\">I Kings X, 12</cite>); v. <he>גלומי</he>."
+			],
+			"label": "2"
+		}
+	]
+}

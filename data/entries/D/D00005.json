@@ -1,0 +1,32 @@
+{
+	"id": "D00005",
+	"slug": "דאב-1",
+	"headword": {
+		"text": "דָּאַב"
+	},
+	"page": {
+		"number": 275,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>דוב</he>, <he>זוב</he>)<i>to melt, pine away, languish</i>.—",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִדְאִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to melt, to cause to languish</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 79a:1\">B. Bath. 79ᵃ</cite> (play on <cite ref=\"M01092\"><he>מידבא</he></cite>, <cite ref=\"Numbers 21:30\">Num. XXI, 30</cite>) <he>עד שתַּדְאִיב נשמתן</he> (Var. <he>תדיב</he>, <he>תדוב</he>, v. Rabb. D. S. a. l. note 2) until it (the fire of Gehenna) shall melt their soul. ",
+						"<cite ref=\"Nedarim 22a:10\">Ned. 22ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 28:65\">Deut. XXVIII, 65</cite>) <he>שמכלה … ומַדְאִיב וכ׳</he> which ruins the eyesight and makes life languid. Ch. <cite ref=\"D00017\"><he>דְּאֵיב</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

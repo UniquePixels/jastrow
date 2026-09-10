@@ -1,0 +1,29 @@
+{
+	"id": "N00592",
+	"slug": "נטש-4",
+	"headword": {
+		"text": "נְטַשׁ"
+	},
+	"page": {
+		"number": 902,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00591\">same</cite> <cite ref=\"Aramaic Targum to Psalms 94:14\">Targ. Ps. XCIV, 14</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַטֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00591\">same</cite>. Y. Shek. V, 48ᵈ top <he>נטשנה דלא תימות גבן נטשת</he> Ms. M. (v. Rabb. D. S. a. l. p. 42), read: <he>נַטְּשׁוּנָהּ נטשונה …</he> let her go, that she may not die while with us; they did let her go (ed. <he>אפקונה</he>).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

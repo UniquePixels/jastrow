@@ -1,0 +1,23 @@
+{
+	"id": "N00719",
+	"slug": "ניע",
+	"headword": {
+		"text": "נִיעַ"
+	},
+	"page": {
+		"number": 906,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00384\"><he>נוּעַ</he></cite>) <i>the effort made to remove phlegm, hawking; the phlegm discharged by hawking</i>, contrad. to <cite ref=\"K00517\"><he>כִּיחַ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 7:1\">Nidd. VII, 1</cite> <he>הנ׳ והרוק</he> the phlegm (of an unclean person) and the spittle. ",
+				"<cite ref=\"Niddah 55b:57\">Ib. 55ᵇ</cite> <he>ונִיעוֹ</he>; <cite ref=\"Bava Kamma 3b:4\">B. Kam. 3ᵇ</cite>, v. <cite ref=\"K00517\"><he>כִּיחַ</he></cite>; a. e."
+			]
+		}
+	]
+}

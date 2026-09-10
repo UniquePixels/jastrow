@@ -1,0 +1,33 @@
+{
+	"id": "G00531",
+	"slug": "זמם-6",
+	"headword": {
+		"text": "זְמַם",
+		"reconstructed": true,
+		"homograph": 3
+	},
+	"page": {
+		"number": 403,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְזְמֵים</he> (cmp. <cite ref=\"D00903\"><he>דמם</he></cite>) <i>to be confounded</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 29:9\">Targ. Is. XXIX, 9</cite> <he>אִתְזְמִימוּ</he> (ed. Wil. <he>אִדְזַמִימוּ</he> fr. <cite ref=\"D00903\"><he>דמם</he></cite>; absent in ed. Lag.; h. text <he>השתעשעו</he>, rendered by <he>אשתגישו</he> a. our w., of which one is a gloss). [For <he>אדז׳</he> cmp. <he>הִדַּקִּי</he> s. v. <cite ref=\"D01015\"><he>דְּקַק</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

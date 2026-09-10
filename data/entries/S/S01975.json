@@ -1,0 +1,28 @@
+{
+	"id": "S01975",
+	"slug": "קרחא-2",
+	"headword": {
+		"text": "קָרָחָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קָרָחָה"
+		}
+	],
+	"page": {
+		"number": 1415,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְרַח</he> I) [<i>scraper, wool-dresser;</i> cmp. <cite ref=\"C01278\"><he>גַּרְדַּי</he></cite>,] <i>common weaver</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 12b:13\">Meg. 12ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 1051:3\">Yalk. Esth. 1051</cite>, v. <cite ref=\"Q01594\"><he>פַּרְדַּשְׁכָּא</he></cite>."
+			]
+		}
+	]
+}

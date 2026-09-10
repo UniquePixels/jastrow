@@ -1,0 +1,83 @@
+{
+	"id": "K00952",
+	"slug": "כסף-2",
+	"headword": {
+		"text": "כְּסַף",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּסִיף"
+		}
+	],
+	"page": {
+		"number": 655,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00951\">same</cite>, <i>to feel ashamed, frightened</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 12:14\">Targ. Y. Num. XII, 14</cite> (h. text <he>הכלם</he>); a. e.—",
+				"<cite ref=\"Arakhin 16b:49\">Arakh. 16ᵇ</cite> <he>דלִיכְסוֹף זרעיה וכ׳</he> that the seed of Rab should be put to shame through me. ",
+				"<cite ref=\"Taanit 22a\">Taan. 22ᵃ</cite> <he>וכְסִיפָא להו מילתא וכ׳</he> Ms. M. 2 a. Rashi (Ms. M. 1 only <he>וכסיפא להו</he>, ed. <he>ואִכְּסִיפוּ</he> <i>Ithpe.</i>) and the gentlemen (you) felt abashed to tell us; a. fr.—[<cite ref=\"Aramaic Targum to Psalms 41:7\">Targ. Ps. XLI, 7</cite> <he>יכסף</he> some ed., read: <he>יכנף</he>, v. <cite ref=\"K00872\"><he>כְּנַף</he> I</cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּסֵּיף"],
+			"senses": [
+				{
+					"gloss": ", <i>Af.</i> <he>אַכְסֵיף</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to frighten; to put to shame</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 44:10\">Targ. Ps. XLIV, 10</cite>; a. fr.—",
+						"<cite ref=\"Kiddushin 81a:12\">Kidd. 81ᵃ</cite> <he>כַּסִּיפְתִּינָן</he> (<he>כַּסַּפְ׳</he>) thou didst frighten us (by a false alarm). ",
+						"<cite ref=\"Chagigah 5a:12\">Ḥag. 5ᵃ</cite> <he>וכַסַּפְתֵּיה</he> and thou didst put him to shame; Koh. R. end <he>וכַסִּיפְתֵּיה</he>. ",
+						"<cite ref=\"Shabbat 3b:1\">Sabb. 3ᵇ</cite> <he>דאי לאו … כספתיה וכ׳</he> for if he were not a great man, thou mightst have put him to shame, for he might have given thee an inappropriate reply. ",
+						"<cite ref=\"Horayot 13b\">Hor. 13ᵇ</cite> <he>מַכְסְפִיתוּ לי</he> Ms. M. (ed. <he>כסיפיתנן</he>, corr. <he>כַּסִּיפְתּוּנָן</he>) you might have put me to shame; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to reduce in value, to cause deterioration</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 104b:17\">Keth. 104ᵇ</cite> <he>מְכַסְּפֵי</he> (or <he>מַכְסְפֵי</he>) they (the heirs) will neglect it (instead of improving).—["
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to feel ashamed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 74:21\">Targ. Ps. LXXIV, 21</cite> <he>מַכְסִיף</he> (prob. to be read: <he>מַכְסַף</he> or <he>מְכַסַּף</he>, part. pass.).]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְכַּסַּף", "אִיכַּ׳"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְכְּסֵף", "אִיכְּסִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be made pale, to be frightened, to be put to shame</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 6:20\">Targ. Job VI, 20</cite>; a. e.—Kidd. l. c. <he>מוטב תִּיכַּסְּפוּ … ולא תיכספו מיני וכ׳</he> it is better that you of the house of Amram be frightened through me in this world, than that you should be ashamed of me (as a sinner) in the world to come. ",
+						"<cite ref=\"Bava Batra 111a\">B. Bath. 111ᵃ</cite>; <cite ref=\"Avodah Zarah 36a:5\">Ab. Zar. 36ᵃ</cite> <he>איכ׳</he> he felt alarmed. ",
+						"<cite ref=\"Taanit 25a:1\">Taan. 25ᵃ</cite> <he>אִיכַּסְּפָא ועיילא וכ׳</he> (missing in Ms. M.) she felt abashed and went &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

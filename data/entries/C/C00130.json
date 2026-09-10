@@ -1,0 +1,38 @@
+{
+	"id": "C00130",
+	"slug": "גבר-3",
+	"headword": {
+		"text": "גֶּבֶר"
+	},
+	"page": {
+		"number": 208,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00129\"><he>גבר</he></cite>)<i>man, master</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 3:13\">Lam. R. to III, 1</cite>. ",
+				"<cite ref=\"Kiddushin 80b:11\">Kidd. 80ᵇ</cite> (ref. to <cite ref=\"Lamentations 3:39\">Lam. III, 39</cite>) <he>וכי ג׳ על הטאיו הוא</he> (Rashi) is man master over his sins (sinless)?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cock</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 1:8\">Yoma I, 8</cite> <he>בקריאת הג׳</he> at the time of the crowing of the cock; <cite ref=\"Yoma 20b:4\">ib. 20ᵇ</cite>; <cite ref=\"Jerusalem Talmud Shekalim 5:1:15\">Y. Shek. V, 48ᵈ</cite> bot.; <cite ref=\"Jerusalem Talmud Sukkah 5:5:2\">Y. Succ. V, 55ᶜ</cite> disputed meaning: <i>man’s</i> (<i>the cryer’s</i>) <i>crying</i>, or <i>the cock’s crowing</i>, v. <cite ref=\"K01113\"><he>כָּרוֹזָא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (euphem.) <i>membrum virile</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:5\">Bekh. VII, 5</cite> (<cite ref=\"Bekhorot 44b:1\">44ᵇ</cite>) <he>בעל ג׳</he> a man with an abnormally large membrum."
+			],
+			"label": "3"
+		}
+	]
+}

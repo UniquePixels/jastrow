@@ -1,0 +1,29 @@
+{
+	"id": "U01072",
+	"slug": "שירטוט",
+	"headword": {
+		"text": "שִׁירְטוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁרְ׳"
+		}
+	],
+	"page": {
+		"number": 1569,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01955\"><he>שִׁרְטֵט</he></cite>) <i>ruling, marking lines</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 32b:4\">Men. 32ᵇ</cite> <he>צריכות ש׳</he> must be written on traced lines; <cite ref=\"Megillah 18b:16\">Meg. 18ᵇ</cite>. ",
+				"<cite ref=\"Gittin 6b:8\">Gitt. 6ᵇ</cite> <he>בלא ש׳</he> without rules. ",
+				"<cite ref=\"Shabbat 75b:2\">Sabb. 75ᵇ</cite> (ref. to <he>המולח והמעבד</he>, <cite ref=\"Mishnah Shabbat 7:2\">ib. VII, 2</cite>) <he>אפיק … ועייל ש׳</he> take out either of the two words, and insert (among the forbidden acts) the tracing of outlines on the hide before cutting."
+			]
+		}
+	]
+}

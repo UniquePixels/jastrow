@@ -1,0 +1,30 @@
+{
+	"id": "E00641",
+	"slug": "המראה-2",
+	"headword": {
+		"text": "הַמְרָאָה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "הַמְרָיָה"
+		}
+	],
+	"page": {
+		"number": 356,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מרי</he> II) <i>rebelliousness, rebellion; contempt of court</i>, v. <cite ref=\"M01680\"><he>מַמְרֵא</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 16a:8\">Snh. 16ᵃ</cite> <he>מהַמְרָאָתוֹ</he> from the Scriptural text treating of his (the elder’s) rebellion. ",
+				"<cite ref=\"Sanhedrin 14b:7\">Ib. 14ᵇ</cite> <he>המראתו ה׳</he> his rebellion is legally punishable; a. fr.—Pl. <he>הַמְרָיוֹת</he>. ",
+				"<cite ref=\"Midrash Tehillim 18:5\">Midr. Till. to Ps. CVI, 7</cite>; <cite ref=\"Yalkut Shimoni on Nach 864:4\">Yalk. ib. 864</cite> <he>שתי ה׳ המרו וכ׳</he> they rebelled twice."
+			]
+		}
+	]
+}

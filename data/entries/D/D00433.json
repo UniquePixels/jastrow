@@ -1,0 +1,36 @@
+{
+	"id": "D00433",
+	"slug": "דחף-2",
+	"headword": {
+		"text": "דְּחַף"
+	},
+	"page": {
+		"number": 293,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00432\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 24:23\">Targ. Y. Lev. XXIV, 23</cite> (v. ",
+				"<cite ref=\"Sanhedrin 45a\">Snh. 45ᵃ</cite> quot. s. v. <cite ref=\"D00408\"><he>דְּחִיָּה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 6:19\">Targ. Y. Deut. VI, 19</cite> (some ed. <cite ref=\"D00406\"><he>דחי</he></cite>; h. text <he>הדף</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 18:18\">Targ. Job XVIII, 18</cite> Ms. Var. (ed. <he>הדף</he>).—<i>Part. pass.</i> <cite ref=\"D00417\"><he>דְּחִיף</he></cite>, pl. <he>דְּחִיפִין</he> <i>hastened, hurried</i>. Targ. II Esth. III, 15; VIII, 14 (Targ. I Esth. <he>סחיפין</he>, cmp. <cite ref=\"D00432\">preced.</cite>). [<cite ref=\"Aramaic Targum to Proverbs 1:26\">Targ. Prov. I, 26</cite>, v. <cite ref=\"D00410\"><he>דְּחֵיךְ</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְדְּחַף", "אִידְּחַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be pressed against, to hold firm</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 19:5\">Targ. Y. I Deut. XIX, 5</cite> Levita <he>תתד׳</he> (ed. <he>תִדְחַף</he>, Pe., Var. <he>תִדְּ׳</he>; Y. II <he>תקף</he>, h. text <cite ref=\"D00406\"><he>נדחה</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

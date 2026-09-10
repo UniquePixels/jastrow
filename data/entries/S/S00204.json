@@ -1,0 +1,66 @@
+{
+	"id": "S00204",
+	"slug": "קהי-2",
+	"headword": {
+		"text": "קְהֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְהִא"
+		}
+	],
+	"page": {
+		"number": 1322,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00203\">same</cite><i>to be blunt</i> (<i>and loose</i>); <i>to be dull, faint</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 33:4\">Targ. Y. II, Gen. XXXIII, 4</cite> (Y. I <he>אתמזמיזו</he>). Ib. XXXII, 26 <he>וקהת</he> (some ed. <he>וקחת</he>, v. <cite ref=\"S00683\"><he>קְחַח</he></cite>; Y. I <he>זעזע</he>; h. text <he>ותקע</he>).—[<cite ref=\"Targum Jonathan on I Kings 14:4\">Targ. I Kings XIV, 4</cite> <he>קהאה</he> (ed. Wil. <he>כהאה</he>; ed. Lag. <cite ref=\"S01439\"><he>קמא</he></cite>; h. text <he>קמו</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be stale, distasteful</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56a\">Ber. 56ᵃ</cite> <he>קהא עסקך וכ׳</he> Ms. F. (ed. <cite ref=\"S00004\"><he>קָאוֵי</he></cite> fr. <cite ref=\"S00217\"><he>קְוָא</he></cite>; Ms. M. <he>פסיד עסקך וקאזיל</he>, read <he>וקאוי</he>) thy business (wine store) will be stale (and taste) like a pomegranate.—Part. pass. <he>קְהִיהַ</he>, <i>pl.</i> <he>קְהִיתִין</he> (cmp. <cite ref=\"H01172\"><he>חֲמִי</he></cite>, a. <he>חַמְת׳</he>). ",
+				"<cite ref=\"Vayikra Rabbah 19:4\">Lev. R. s. 19</cite> <he>הא קהיתין</he> are they (the vessels with wine you have been examining) spoiled?; [Ar. s. v. <he>קה</he>: <he>הָקְהֵיתָה</he> is it spoiled?]."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be unrelenting, rigorous</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 52b:10\">B. Mets. 52ᵇ</cite> <he>דקָהֵי אזוזי מקרי נפש רעה</he> Ar. (ed. <he>דמוקים</he>) he who is rigorous in matters of coins (refusing a coin for slight imperfections) is called ‘a malevolent soul’ (v. <cite ref=\"N01084\"><he>נֶפֶשׁ</he></cite>)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַהֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to give an acrid taste to</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 116a:3\">Pes. 116ᵃ</cite> <he>צריך לְקַהוּיֵיה</he> one must give the pap (<cite ref=\"H01630\"><he>חֲרוֹסֶת</he></cite>) an acrid taste (with apples and wine)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקְהֵי"],
+			"senses": [
+				{
+					"gloss": " [<i>to blunt a person’s teeth</i>,] <i>to refute, argue</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 110b\">Yeb. 110ᵇ</cite> <he>מַקְהוּ</he> Ar. a. Var. in Rashi (ed. <he>מַקְווּ</he>), v. <cite ref=\"A02897\"><he>אַקְוָוא</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

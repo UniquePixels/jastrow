@@ -1,0 +1,24 @@
+{
+	"id": "T00530",
+	"slug": "רחמנות",
+	"headword": {
+		"text": "רַחֲמָנוּת"
+	},
+	"page": {
+		"number": 1468,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00529\">preced.</cite>) <i>love, mercifulness, compassion</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 14a:9\">Succ. 14ᵃ</cite> <he>מדת ר׳</he> divine mercy, opp. <cite ref=\"A01683\"><he>אכזריות</he></cite>. ",
+				"<cite ref=\"Ketubot 50b:9\">Keth. 50ᵇ</cite> <he>יודע אני</he> … <he>אלא מידת ר׳</he> I know that thou decidest so not as a matter of justice but as a matter of humanity. ",
+				"<cite ref=\"Bereishit Rabbah 56\">Gen. R. s. 56</cite> <he>ונופלות … מרַחֲמָנוּתוֹ של אבא</he> and tears of paternal love fell upon Isaac’s eyes; a. e."
+			]
+		}
+	]
+}

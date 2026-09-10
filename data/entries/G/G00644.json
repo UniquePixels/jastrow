@@ -1,0 +1,79 @@
+{
+	"id": "G00644",
+	"slug": "זקן-3",
+	"headword": {
+		"text": "זָקֵן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 409,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00643\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>old man</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39:11\">Gen. R. s. 39</cite>, opp. <cite ref=\"B00472\"><he>בחור</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:14\">Y. Bicc. III, 65ᶜ</cite> bot. <he>עמידת ז׳</he> (<cite ref=\"Yalkut Shimoni on Torah 670:2\">Yalk. Lev. 670</cite> <he>מצות ז׳</he>) the duty of standing up before an old man. ",
+				"<cite ref=\"Chagigah 14a:10\">Ḥag. 14ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>elder, judge, scholar</i>. Ib. (ref. to <cite ref=\"Isaiah 3:2\">Is. III, 2</cite>) <he>ז׳ זה שראוי וכ׳</he> <i>zaken</i> means one fit to sit in college sessions. ",
+			"units": [
+				"<cite ref=\"Berakhot 8b:7\">Ber. 8ᵇ</cite> <he>ז׳ ששכח וכ׳</he> a scholar who forgot what he had learned, &c., v. <cite ref=\"A00753\"><he>אוֹנֶס</he></cite>. ",
+				"<cite ref=\"Kiddushin 32b:15\">Kidd. 32ᵇ</cite> <he>אין ז׳ אלא חכם</he> under <i>zaken</i> (<cite ref=\"Leviticus 19:32\">Lev. XIX, 32</cite>) a scholar is meant; Sifra K’dosh. Par. 3, ch. VII <he>אין ז̇ק̇ן̇ אלא ז̇ה שק̇נ̇ה חכמה</he> a <i>zaken</i> is he who has acquired wisdom (through study).—<he>ז׳ אשמאי</he>, v. <cite ref=\"A03326\"><he>אַשְׁמַאי</he></cite>. ",
+				"<cite ref=\"Yoma 28b:8\">Yoma 28ᵇ</cite> <he>ז׳ ויושב בישיבה</he> a scholar and member of college. Y. M Kat. III, beg. 81ᶜ <he>איני מכירך ז׳</he> I shall not recognize thee as (give thee the diploma of) a <i>zaken;</i> a. fr.—Pl. <he>זְקֵנִים</he>. ",
+				"<cite ref=\"Mishnah Sanhedrin 1:3\">Snh. I, 3</cite>, v. <cite ref=\"O01091\"><he>סְמִיכָה</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 14:1\">Num. R. s. 14</cite> <he>מצות הז׳</he> rabbinical law. ",
+				"<cite ref=\"Berakhot 11a:21\">Ber. 11ᵃ</cite> <he>זִקְנֵי ב״ש</he> the graduates of the Shammai school; a. v. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>grandfather, ancestor</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1:32\">Ex. R. s. 1</cite> <he>מעשה זְקֵנָן</he> the conduct of their ancestor (Abraham). Pesik. Zakh., p. 27ᵇ; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "—Fem. <cite ref=\"G00646\"><he>זְקֵנָה</he></cite>, <cite ref=\"G00631\"><he>זְקֵינָה</he></cite>. ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>old woman</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 39:11\">Gen. R. s. 39</cite>.—",
+						"<cite ref=\"Niddah 9a\">Nidd. 9ᵃ</cite> <he>ז׳</he> <i>one who is past the change of life</i>. ",
+						"<cite ref=\"Niddah 9b\">Ib. 9ᵇ</cite>; a. fr.—"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>grandmother, ancestress</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 31b:5\">Kidd. 31ᵇ</cite> <he>הוה ליה ההיא אמא זקי׳</he> had a grandmother. ",
+						"<cite ref=\"Bereishit Rabbah 93\">Gen. R. s. 93</cite> <he>זְקֵינָתוֹ של זה</he> this man’s (my) ancestress (Sarah); a. e.—"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (sub. <cite ref=\"N00563\"><he>נְטִיעָה</he></cite>) <i>old plantation</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shevi'it 1:2\">Tosef. Shebi. I, 2</cite>; a. e., opp. <cite ref=\"N00563\"><he>נטיעה</he></cite> young plantation.—Pl. <he>זְקֵינוֹת</he>. Y. ib. I, 33ᵇ bot.; a. e."
+					],
+					"label": "3"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "S00129",
+	"slug": "קדחותא",
+	"headword": {
+		"text": "קַדְחוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַדַּחְתָּא"
+		}
+	],
+	"page": {
+		"number": 1315,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00128\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = b. h. <he>קַדַּחַת</he> <i>fever</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 26:16\">Targ. O. Lev. XXVI, 16</cite> <he>קַדַּחְ׳</he> ed. Berl. (ed. Vien. <he>קָדַחְ׳</he>); Y. <he>קַדְחוּ׳</he>; <cite ref=\"Onkelos Deuteronomy 28:22\">Targ. Deut. XXVIII, 22</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>inflammation of the eye</i>, v. preced.—V. <cite ref=\"S00136\"><he>קְדִיחוּתָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

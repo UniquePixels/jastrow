@@ -1,0 +1,24 @@
+{
+	"id": "M00096",
+	"slug": "מברא",
+	"headword": {
+		"text": "מַבָּרָא"
+	},
+	"page": {
+		"number": 725,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>מעברא</he>; <cite ref=\"P00060\"><he>עֲבַר</he></cite>) <i>ferry, ford, crossing board</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 94a:6\">Ḥull. 94ᵃ</cite> <he>עבר במ׳</he> was crossing on a ferry-boat; <cite ref=\"Ketubot 105b:9\">Keth. 105ᵇ</cite> <he>עבר במ׳</he> on a board (cmp. <cite ref=\"C01042\"><he>גַּמְלָא</he></cite>). ",
+				"<cite ref=\"Chullin 95a:12\">Ḥull. 95ᵃ</cite> <he>הוה יתיב במ׳ וכ׳</he> was sitting by the ford of &c., v. <cite ref=\"A01634\"><he>אִישְׁתַּטִּית</he></cite>. ",
+				"<cite ref=\"Chullin 95b:5\">Ib. 95ᵇ</cite> <he>בדיק במ׳</he> made the readiness of a ferry-boat a foreboding test (whether it was auspicious to undertake the journey)."
+			]
+		}
+	]
+}

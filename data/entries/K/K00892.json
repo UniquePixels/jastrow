@@ -1,0 +1,31 @@
+{
+	"id": "K00892",
+	"slug": "כסא-4",
+	"headword": {
+		"text": "כַּסָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 652,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00950\"><he>כְּסַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fodder</i>, v. <cite ref=\"K00594\"><he>כִּיסְתָא</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hash</i>. <he>כ׳ דהרסנא</he>, v. <cite ref=\"E00890\"><he>הַרְסָנָא</he></cite>.—Pl. <cite ref=\"K00918\"><he>כַּסֵּי</he></cite>. ",
+			"units": ["<cite ref=\"Avodah Zarah 38a:4\">Ab. Zar. 38ᵃ</cite> ed."],
+			"label": "2"
+		}
+	]
+}

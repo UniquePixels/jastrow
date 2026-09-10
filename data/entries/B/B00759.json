@@ -1,0 +1,31 @@
+{
+	"id": "B00759",
+	"slug": "ביתוסי",
+	"headword": {
+		"text": "בַּיְתוּסִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּיְי׳"
+		}
+	],
+	"page": {
+		"number": 168,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Boëthusian</i>, v. <cite ref=\"B00758\">preced.</cite> ",
+			"units": [
+				"<cite ref=\"Shabbat 108a:12\">Sabb. 108ᵃ</cite> <he>שאל ב׳ אחד</he> (Mass. ",
+				"<cite ref=\"Tractate Soferim 1:2\">Sof. I, 2</cite> <he>שאל אחד</he>, corr. acc.) a Boëthusian asked. ",
+				"<cite ref=\"Tosefta Yoma 1:8\">Tosef. Yoma I, 8</cite> (<cite ref=\"Yoma 19b:2\">Yoma 19ᵇ</cite> <he>צדוקי</he>).—Pl. <cite ref=\"B00759\"><he>בַּיְתוֹסִים</he></cite>, <cite ref=\"B00759\"><he>בַּיְתוֹסִין</he></cite>, <cite ref=\"B00759\"><he>בַּיי׳</he></cite>. ",
+				"<cite ref=\"Mishnah Menachot 10:3\">Men. X, 3</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:5:3\">Y. Yoma I, 39ᵃ</cite> bot. <he>מפני הב׳</he> (for which <cite ref=\"Jerusalem Talmud Yoma 1:5:3\">ib.</cite> a. Bab. Yoma l. c. <he>הצדוקים</he>); Tosef. l. c. [Ar. ed. pr. <he>בית סי</he>, <he>בית סין</he>, read as one w., like Tosef. l. c. Var.]"
+			]
+		}
+	]
+}

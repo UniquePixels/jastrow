@@ -1,0 +1,24 @@
+{
+	"id": "V00227",
+	"slug": "תומא-2",
+	"headword": {
+		"text": "תּוּמָּא"
+	},
+	"page": {
+		"number": 1654,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"V00224\"><he>תּוֹם</he></cite>, <i>simplicity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 15:11\">Targ. II Sam. XV, 11</cite>.—Pl. <he>תּוּמַּיָּא</he>, <cite ref=\"V00714\"><he>תּוּמַ׳</he></cite> = h. <he>תּוּמִּים</he>. ",
+				"<cite ref=\"Onkelos Exodus 28:30\">Targ. Ex. XXVIII, 30</cite> (O. ed. Vien. <cite ref=\"V00645\"><he>תֻּמַּ׳</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 33:8\">Targ. Deut. XXXIII, 8</cite>; a. e."
+			]
+		}
+	]
+}

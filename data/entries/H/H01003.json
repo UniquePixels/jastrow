@@ -1,0 +1,30 @@
+{
+	"id": "H01003",
+	"slug": "חלוצא",
+	"headword": {
+		"text": "חֲלוּצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלוּצָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 465,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. or district <i>Ḥălutsa</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 16:7\">Targ. Y. II, Gen. XVI, 7</cite>; <cite ref=\"Exodus 15:22\">Ex. XV, 22</cite> (h. text <cite ref=\"U00537\"><he>שׁוּר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 16:14\">Targ. Y. Gen. XVI, 14</cite> (h. text <cite ref=\"B01175\"><he>בָּרֶד</he></cite>).—",
+				"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite>; <cite ref=\"Yalkut Shimoni on Torah 79:6\">Yalk. ib. 79</cite> (expl. <he>בדרך שור</he>, <cite ref=\"Genesis 16:7\">Gen. XVI, 7</cite>) <he>באורחא דח׳</he> on the road of Ḥ.—V. <cite ref=\"H00162\"><he>חַגְרָא</he> I</cite>."
+			]
+		}
+	]
+}

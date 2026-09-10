@@ -1,0 +1,23 @@
+{
+	"id": "H01443",
+	"slug": "חפיא-2",
+	"headword": {
+		"text": "חַפְיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 491,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01466\"><he>חפף</he> II</cite> a. <cite ref=\"H00418\"><he>חוּף</he> I</cite>; cmp. <cite ref=\"J00306\"><he>יָחֵף</he></cite>) <i>barefooted</i> (in mourning). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite> <he>נפיק ח׳</he> (some ed. <cite ref=\"H01440\"><he>חפי</he></cite>) went out barefooted, opp. <he>לביש סנדלוי</he>."
+			]
+		}
+	]
+}

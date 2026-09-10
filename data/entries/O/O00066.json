@@ -1,0 +1,23 @@
+{
+	"id": "O00066",
+	"slug": "סבך-4",
+	"headword": {
+		"text": "סַבָּךְ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 950,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00065\">preced.</cite>) <i>net-weaver</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 72b:14\">Erub. 72ᵇ</cite> top <he>ר׳ יהודה הס׳</he> R. Ḥan. a. Alfasi (ed. <he>הסבר</he>, v. Rabb. D. S. a. l. note 20)."
+			]
+		}
+	]
+}

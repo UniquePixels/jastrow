@@ -1,0 +1,34 @@
+{
+	"id": "O00046",
+	"slug": "סבורא-1",
+	"headword": {
+		"text": "סָבוֹרָא"
+	},
+	"page": {
+		"number": 949,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְבַר</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a reasoner</i> (opp. to learned, v. <cite ref=\"C01064\"><he>גְּמַר</he> II</cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:8\">Y. Sabb. III, 6ᵃ</cite> <he>הדין ס׳ דלא יליף וכ׳</he> that reasoner who has neither studied nor attended scholars."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adj.) <i>imaginative, fanciful</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:2:6\">Y. Kidd. III, 63ᵈ</cite> bot. <he>דחגיי אינשא ס׳ הוא</he> (not <cite ref=\"N01301\"><he>אינשי</he></cite>) for Ḥ. is a fanciful man (whose traditions cannot be relied upon)."
+			],
+			"label": "2"
+		}
+	]
+}

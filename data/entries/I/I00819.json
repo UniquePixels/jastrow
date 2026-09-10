@@ -1,0 +1,23 @@
+{
+	"id": "I00819",
+	"slug": "טריקייא",
+	"headword": {
+		"text": "טְרִיקַיָּיא"
+	},
+	"page": {
+		"number": 554,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>טְרַק</he> I <i>to sting</i>) a sort of <i>wasps</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 7:20\">Targ. Y. Deut. VII, 20</cite> (a gloss to <he>אורעייתא</he>, h text <cite ref=\"R00794\"><he>צרעה</he></cite>)."
+			]
+		}
+	]
+}

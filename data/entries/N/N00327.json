@@ -1,0 +1,35 @@
+{
+	"id": "N00327",
+	"slug": "נוול-5",
+	"headword": {
+		"text": "נְוַול",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "נְוַל",
+			"homograph": 3
+		},
+		{
+			"text": "נַוְולָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 885,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(v. <he>ֵ</he><he>בֶל</he>  ch. 2) <i>loom</i>, also <i>the web on the loom</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 38:12\">Targ. Is. XXXVIII, 12</cite> <he>מנוול גרדאין</he> Var. ed. Lag. (read: <he>כְּמִנְּוַול</he>; ed. <he>נחל</he>, corr. acc.; oth. ed. <he>כִּנְוַל</he>) as from the loom (as the web) of the weavers.—",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 2:3:6\">Y. B. Bath. II, 13ᵇ</cite> bot. <he>מיתן חד נוול וכ׳</he> to place one loom in the space between two neighboring walls. Bab. ",
+				"<cite ref=\"Bava Batra 13b:7\">B. Bath. 13ᵇ</cite> <he>ידעא פילכא ונ׳</he> (v. Rabb. D. S. a. l. note 8) understands the spindle and the loom (spinning and weaving).—Pl. <he>נַוְולַיָּה</he>. Y. l. c. (ed. Krot. <he>דנו ליה</he>, corr. acc.), v. <cite ref=\"M01970\"><he>מַסְמְרָא</he></cite>."
+			]
+		}
+	]
+}

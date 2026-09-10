@@ -1,0 +1,60 @@
+{
+	"id": "A02061",
+	"slug": "אמר-2",
+	"headword": {
+		"text": "אֲמַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָמַר"
+		}
+	],
+	"page": {
+		"number": 79,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. 1) as <cite ref=\"A02060\">preced.</cite> 1). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:3\">Targ. Gen. I, 3</cite>; a. v. fr.—<he>א׳ מר</he> above you quoted an authority, or, it has been stated. ",
+				"<cite ref=\"Berakhot 2a:4\">Ber. 2ᵃ</cite>; a. fr.—<he>א׳ קרא</he> the Scripture says. ",
+				"<cite ref=\"Berakhot 13a:27\">Ib. 13ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Orlah 3:4:3\">Y. Orl. III, end, 63ᵇ</cite>, a. fr. <he>אמרונה בשם …</he> (in Bab. heb. <he>אֲמָרוּהָ</he>) they said it in behalf of … i.e. as a tradition.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:29\">Y. Ber. I, 2ᵈ</cite> <he>מילתיה אמרה</he> his word (statement, opinion &c.) proves.—<he>הדא אמרה</he> = <he>זאת אומרת</he>; v. preced.—<cite ref=\"A02066\"><he>אַמְרֵי</he></cite> (h. <he>אָמְרוּ</he>) <i>they say, it is said</i>. ",
+				"<cite ref=\"Shabbat 19a:4\">Sabb. 19ᵃ</cite> <he>אמרו עליו על … ואמרי לה וכ׳</he> it is told about R. …, and another relation refers this to R.—; a. fr.—<he>קאמר</he>, <he>קאמרי</he> &c. = <he>קא אמר</he> &c. ",
+				"<cite ref=\"Chullin 85a:18\">Ḥull. 85ᵃ</cite>; a. fr.—<he>מנא תימרא</he> whence dost thou prove? <cite ref=\"Shabbat 23a:11\">Sabb. 23ᵃ</cite>; a. fr.—<i>Inf</i>. <cite ref=\"M01203\"><he>מֵימַר</he></cite>, <he>מֵימְרָא</he>. <he>סבר מ׳</he>, <he>סבר למ׳</he> originally he was of the opinion. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:5:3\">Y. Sabb. VI, 8ᶜ</cite> top; <cite ref=\"Ketubot 87b:14\">Keth. 87ᵇ</cite>; a. v. fr.—לְמֵימְרָא <i>does this mean to say?</i> <cite ref=\"Shabbat 15b:8\">Sabb. 15ᵇ</cite>; a. fr. <he>לא אמרן אלא … אבל …</he> this has been said, i.e. this applies only to a case … but if … <cite ref=\"Berakhot 43b:16\">Ber. 43ᵇ</cite>; a. fr.—כְּלוֹמַר <i>as if saying, meaning to say, viz;</i> v. <cite ref=\"K00534\"><he>כִּילּוּ</he></cite>.—Y. Kil. IV, 32ᶜ bot. <he>אימורין לבני וכ׳</he> say ye to &c.—<he>מאי איכא למימר</he>, v. <cite ref=\"A01249\"><he>אִיכָּא</he></cite>; Answ. <cite ref=\"A01333\"><he>אֵימוּר</he></cite> say … <cite ref=\"Shabbat 6a:16\">Sabb. 6ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Horayot 13a:24\">Hor. 13ᵃ</cite> <he>א׳ כולה</he> who orders every thing (as an etymol. of <cite ref=\"A02068\"><he>אֲמַרְכָּל</he></cite>).—2) <i>to praise, proclaim</i>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 8:13\">Targ. Is. VIII, 13</cite>; a. fr.—Part. pass. <cite ref=\"A02025\"><he>אָמִיר</he></cite> q. v."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְאֲמַר"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"B00329\"><he>אִתְּמַר</he></cite>, <cite ref=\"A03443\"><he>אִיתְּ׳</he></cite> <i>it is said, taught</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 34:31\">Targ. Job XXXIV, 31</cite>.—Y. Yoma V, end, 43ᵃ <he>אתאמרת</he>, contr. <he>אִתַּמְרַת</he> it has been said with refer. to the opinion of …—<cite ref=\"A01641\"><he>אִתְּ׳</he></cite>, <cite ref=\"A03443\"><he>אִיתְּ׳</he></cite> <i>it has been said</i> (<i>above</i>)<i>;we have been taught</i>. ",
+						"<cite ref=\"Sukkah 15a:14\">Succ. 15ᵃ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְאַמַּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"A02060\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 22:14\">Targ. Gen. XXII, 14</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

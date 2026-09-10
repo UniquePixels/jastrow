@@ -1,0 +1,29 @@
+{
+	"id": "P01280",
+	"slug": "ערבי-2",
+	"headword": {
+		"text": "עֲרָבִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְבִי"
+		}
+	],
+	"page": {
+		"number": 1113,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>Arab; Arabian</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 71a:10\">Yeb. 71ᵃ</cite> <he>לאיתויי ע׳ מהול</he> to include a circumcised Arab (as forbidden to partake of the Passover meal); a. fr.—<i>Pl.</i> <he>עַרְבִיִּים</he>, <he>עַרְבִיִּין</he>. Ohol. XVIII, 10 <he>אהלי הע׳</he> the tents of the (nomadic) Arabs. ",
+				"<cite ref=\"Mishnah Kelim 24:1\">Kel. XXIV, 1</cite>, v. <cite ref=\"D00691\"><he>דִּיצָה</he></cite>; a. fr.—<i>Fem.</i> <cite ref=\"P01283\"><he>עֲרָבִית</he></cite> or <cite ref=\"P01284\"><he>עַרְבִית</he></cite>; pl. <he>עַרְבִיּוֹת</he>. ",
+				"<cite ref=\"Mishnah Shabbat 6:6\">Sabb. VI, 6</cite> <he>ע׳ יוצאות וכ׳</he> (Jewish) Arabian women may go out (on the Sabbath) veiled."
+			]
+		}
+	]
+}

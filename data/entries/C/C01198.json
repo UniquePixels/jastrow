@@ -1,0 +1,23 @@
+{
+	"id": "C01198",
+	"slug": "גפא-2",
+	"headword": {
+		"text": "גַּפָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 262,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גפף</he>, cmp. <cite ref=\"A00331\"><he>אַגָּף</he></cite>) <i>city-gate</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 8a:7\">B. Bath. 8ᵃ</cite>; <cite ref=\"Bava Metzia 108a:4\">B. Mets. 108ᵃ</cite>, v. <cite ref=\"A00301\"><he>אִגְלָא</he></cite>.—V. <cite ref=\"C01199\">next w.</cite>"
+			]
+		}
+	]
+}

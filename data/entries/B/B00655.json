@@ -1,0 +1,25 @@
+{
+	"id": "B00655",
+	"slug": "בינתא-2",
+	"headword": {
+		"text": "בִּינְתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 163,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. collect. noun, or <cite ref=\"B00654\"><he>בִּינָתָא</he></cite> pl. (v. <cite ref=\"B00653\"><he>בֵּינָת</he></cite>) <i>the inside part</i>, whence <i>the kernel</i> of seeds. ",
+			"units": [
+				"<cite ref=\"Bava Batra 18b:6\">B. Bath. 18ᵇ</cite> bot. <he>אי בב׳</he> as to the grains (of mustard). ",
+				"<cite ref=\"Gittin 69b:8\">Gitt. 69ᵇ</cite> <he>ניזדהר מב׳</he> let him guard against swallowing the seeds. ",
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite> <he>בִּינֵי כמונא</he> Ms. M. (ed. <cite ref=\"B00284\"><he>בוני</he></cite>) cumin seeds."
+			]
+		}
+	]
+}

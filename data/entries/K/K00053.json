@@ -1,0 +1,34 @@
+{
+	"id": "K00053",
+	"slug": "כביסה",
+	"headword": {
+		"text": "כְּבִיסָה"
+	},
+	"page": {
+		"number": 608,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00067\"><he>כָּבַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>washing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 8:5:4\">Y. Shebi. VIII, 38ᵇ</cite> top <he>כְּבִיסָתָן וחיי אחרים וכ׳</he> as between the use of the spring for their (the inhabitants’) washing purposes and for strangers’ living (drinking purposes); a. fr.—[<cite ref=\"Mishnah Mikvaot 8:1\">Mikv. VIII, 1</cite>, v. <cite ref=\"K00056\"><he>כְּבִישָׁה</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(also <cite ref=\"K00044\"><he>כְּבוּסָה</he></cite>) <i>water mixed with alkaline substances, lye-water</i> &c. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 6:25\">Tosef. Shebi. VI, 25</cite> <he>פירות שביעית המשרה ולא לתוך הכ׳ …</he> produces of the Sabbath year must not be used for an infusion nor for preparing lye-water; <cite ref=\"Sukkah 40a\">Succ. 40ᵃ</cite>; <cite ref=\"Bava Kamma 102a\">B. Kam. 102ᵃ</cite>; Y. Shebi. l. c.—Pl. <he>כְּבִיסוֹת</he>. Ib. VII, beg. 37ᵇ <he>מיני כ׳</he> (ed. Krot. <he>כניס׳</he>, corr. acc.) alkaline plants."
+			],
+			"label": "2"
+		}
+	]
+}

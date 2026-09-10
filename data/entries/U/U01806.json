@@ -1,0 +1,34 @@
+{
+	"id": "U01806",
+	"slug": "שפרפרא",
+	"headword": {
+		"text": "שְׁפַרְפָּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁפַרְפֵּרָא"
+		},
+		{
+			"text": "שְׁפַרְפְּ׳"
+		}
+	],
+	"page": {
+		"number": 1620,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01799\"><he>שְׁפַר</he></cite>) <i>brightness</i>; (cmp. <cite ref=\"R00715\"><he>צַפְרָא</he></cite>) <i>early morning, morning light</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 10:3\">Targ. Esth. X, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 3:3\">Targ. Job III, 3</cite> (h. text <he>נהרה</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 7:4\">Ib. VII, 4</cite> (h. text <cite ref=\"N01337\"><he>נשף</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 58:8\">Targ. Is. LVIII, 8</cite> (h. text <he>שחר</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 62:1\">Ib. LXII, 1</cite> (h. text <he>נגה</he>); a. fr."
+			]
+		}
+	]
+}

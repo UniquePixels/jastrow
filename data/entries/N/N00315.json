@@ -1,0 +1,24 @@
+{
+	"id": "N00315",
+	"slug": "נוה-2",
+	"headword": {
+		"text": "נָוֶה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 884,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., (= <cite ref=\"N00010\"><he>נָאֶה</he></cite>) <i>becoming, handsome</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 3:1\">Arakh. III, 1</cite> <he>הנ׳ שבישראל</he> Ar. (ed. <cite ref=\"E00652\"><he>הנָּאֶה</he></cite>) the handsomest in Israel, v. <cite ref=\"K00010\"><he>כָּאוּר</he></cite>. ",
+				"<cite ref=\"Mishnah Nazir 1:1\">Naz. I, 1</cite> <he>אהא נ׳</he> Mish. (Bab. ed. <he>נאה</he>; Y. ed. <cite ref=\"N00013\"><he>נָאוֶה</he></cite>) I will be handsome (like the Nazarite)."
+			]
+		}
+	]
+}

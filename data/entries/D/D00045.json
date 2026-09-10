@@ -1,0 +1,23 @@
+{
+	"id": "D00045",
+	"slug": "דבדבניות",
+	"headword": {
+		"text": "דַּבְדְּבָנִיּוֹת"
+	},
+	"page": {
+		"number": 276,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (reduplic. of <cite ref=\"D00041\"><he>דבב</he></cite>) <i>lumps of dripping grapes</i> (exposed to heat; v. <cite ref=\"D00038\"><he>דָּבַב</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 2:7\">Ab. Zar. II, 7</cite> (<cite ref=\"Avodah Zarah 39b\">39ᵇ</cite>) <he>והדבד׳</he> (Mish. ed. <he>דברניות</he>, Ms. M. <he>דברבנ׳</he>; Y. ed. <he>דכדב׳</he>, corr. acc.; Mish. Nap. <cite ref=\"D00876\"><he>דַּמְדְּמָנִיּוֹת</he></cite>). Y. Sabb. I, 4ᵃ bot.; Y. Bets. II, 62ᵃ top <he>דמדמ׳</he>. Cmp. <cite ref=\"A00421\"><he>אֲדַמְדְּמָנֵי</he></cite>."
+			]
+		}
+	]
+}

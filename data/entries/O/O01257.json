@@ -1,0 +1,33 @@
+{
+	"id": "O01257",
+	"slug": "סנק-1",
+	"headword": {
+		"text": "סָנַק"
+	},
+	"page": {
+		"number": 1008,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Saf. of <cite ref=\"A02285\"><he>אנק</he></cite>, <cite ref=\"P01008\"><he>ענק</he></cite>; cmp. Assyr. <he>סנק</he>, Del. Assyr. Handw.) <i>to press, stuff</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 2:1\">Tam. II, 1</cite> <he>סוֹנְקִין אותן וכ׳</he> (Talm. ed. <he>סוֹלְקִין</he>) they press them against the sides of the altar."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִינֵּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01256\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 2:6\">Mikv. II, 6</cite> <he>המְסַנֵּק את הטיט וכ׳</he> if one presses the mud against the sides of the pool."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

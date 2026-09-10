@@ -1,0 +1,27 @@
+{
+	"id": "U01199",
+	"slug": "שלאהותא",
+	"headword": {
+		"text": "שַׁלְאֲהוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלַאֲ׳"
+		}
+	],
+	"page": {
+		"number": 1577,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01224\"><he>שַׁלְהֵי</he></cite>) <i>weariness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:65\">Targ. Lam. III, 65</cite> (ed. Vien. <he>שלאח׳</he>, corr. acc.; h. text <he>תאל׳</he>)."
+			]
+		}
+	]
+}

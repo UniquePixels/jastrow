@@ -1,0 +1,24 @@
+{
+	"id": "M01026",
+	"slug": "מטמוריתא",
+	"headword": {
+		"text": "מַטְמוֹרִיתָא"
+	},
+	"page": {
+		"number": 768,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01025\">preced.</cite>) <i>hiding place, hidden place</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 22:8\">Targ. Is. XXII, 8</cite> (h. text <cite ref=\"M01938\"><he>מסך</he></cite>).—Pl. <cite ref=\"M01026\"><he>מַטְמוֹרְיָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 23:23\">Targ. I Sam. XXIII, 23</cite> (not <he>מַטְמוֹרִי׳</he>; h. text <he>מחבאים</he>). ",
+				"<cite ref=\"Targum Jonathan on Judges 6:2\">Targ. Jud. VI, 2</cite> (not <he>מַטְמוֹרִי׳</he>; h. text <he>מנהרות</he>)."
+			]
+		}
+	]
+}

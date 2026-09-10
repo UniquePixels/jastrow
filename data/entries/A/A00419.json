@@ -1,0 +1,32 @@
+{
+	"id": "A00419",
+	"slug": "אדם-4",
+	"headword": {
+		"text": "אֲדָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַדְמָא"
+		},
+		{
+			"text": "אִדְמָא"
+		}
+	],
+	"page": {
+		"number": 17,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= <cite ref=\"D00867\"><he>דָּם</he></cite>, <cite ref=\"D00869\"><he>דְּמָא</he></cite>) <i>blood</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 22:7\">Targ. I Chron. XXII, 7</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 5:5:10\">Y. Maas. Sh. V, 56ᵈ</cite> top <he>מגבלא אַדְמֵיה</he> to mix its (the bird’s) blood. ",
+				"<cite ref=\"Gittin 47a:8\">Git. 47ᵃ</cite>; v. <cite ref=\"H00321\"><he>חוּל</he> II</cite>. Pl. <he>אַדְמִין</he>. Targ. I Chr. l. c.; a. e."
+			]
+		}
+	]
+}

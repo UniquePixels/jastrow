@@ -1,0 +1,45 @@
+{
+	"id": "B00795",
+	"slug": "בכר-2",
+	"headword": {
+		"text": "בְּכַר"
+	},
+	"page": {
+		"number": 170,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00794\">same</cite>.—<i>Pa.</i> <cite ref=\"B00789\"><he>בַּכִּר</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to produce, mature</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:14\">Targ. Y. Deut. XXXIII, 14</cite> <he>דמְבַכְּרָא וכ׳</he> which his land produces."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to recognize as first-born</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 21:16\">Targ. O. Deut. XXI, 16</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְבַּכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be dedicated as the first-born</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 27:26\">Targ. O. Lev. XXVII, 26</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

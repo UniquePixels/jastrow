@@ -1,0 +1,47 @@
+{
+	"id": "J00669",
+	"slug": "ירש",
+	"headword": {
+		"text": "יָרַשׁ"
+	},
+	"page": {
+		"number": 598,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to enter into, take the place of</i>,] <i>to conquer; to take possession, to succeed, inherit</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 11:7\">Gen. R. s. 11</cite>, end <he>י׳ את העולם במדה</he> had his worldly share assigned to him with limitation. ",
+				"<cite ref=\"Bereishit Rabbah 44:9\">Gen. R. s. 44</cite> <he>ליוֹרְשֵׁנִי</he> to be my heir. ",
+				"<cite ref=\"Mishnah Bava Batra 8:5\">B. Bath. VIII, 5</cite> <he>איש … לא יִירַשׁ וכ׳</he> this man, my son, shall not be an heir with the rest of his brothers. ",
+				"<cite ref=\"Mishnah Bava Batra 8:5\">Ib.</cite> <he>בתי תִירָֹשֵנִי</he> my daughter shall be my heiress. ",
+				"<cite ref=\"Mishnah Bava Batra 8:5\">Ib.</cite> <he>ראוי ליוֹרְשׁוֹ</he> entitled to succeed him. Ib. IX, 1 (139ᵇ) <he>הבנים יִירְשׁוּ</he> (Bab. ed. <he>יֵרְשׁוּ</he>) the sons take possession of the estate; a. fr.—V. <cite ref=\"J00248\"><he>יוֹרֵשׁ</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹרִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to inherit, to leave</i> by will or by the law of succession; <i>to transmit</i>. Ib. 119ᵇ <he>מוֹרִישִׁין ואינן יורשין</he> they shall leave (the Holy Land to their children) but shall not take possession themselves. ",
+					"units": [
+						"<cite ref=\"Shevuot 47a:7\">Shebu. 47ᵃ</cite> <he>אין אדם מוֹרִישׁ שבועה לבניו</he> a man cannot transmit an oath to his sons, i.e. property to be obtained only by the claimant’s oath cannot be claimed by his heirs. ",
+						"<cite ref=\"Ketubot 43a\">Keth. 43ᵃ</cite>; <cite ref=\"Kiddushin 16b:14\">Kidd. 16ᵇ</cite> <he>אין אדם מוריש זכות בתו וכ׳</he> a man cannot bequeathe his daughter’s privileges to his sons. ",
+						"<cite ref=\"Mishnah Bava Batra 9:8\">B. Bath. IX, 8</cite> if the house fell <he>עליו ועל מוֹרִישָׁיו</he> over himself (the heir) and his ancestors; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to drive out, dispossess</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 51:2\">Sifré Deut. 51</cite> <he>סמוך … לא הוֹרַשְׁתָּ</he> (the Jebusite) who is near thy palace thou hast not driven out; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "B01018",
+	"slug": "בסתקא",
+	"headword": {
+		"text": "בִּסְתְּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בוס׳",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 180,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <he>בסק</he> = <he>בזק</he>; cmp. Mand. <cite ref=\"P01056\"><he>עסקא</he></cite> = <cite ref=\"P00420\"><he>עזקא</he></cite>, Nöld. Mand. Gr. p. 62; Syr. <he>ביסתא</he> = <he>ביזתא</he>, P. Sm. 520) <i>jug, pitcher;</i> cmp. <cite ref=\"B00456\"><he>בָּזָךְ</he></cite>. ",
+			"units": ["<cite ref=\"Chullin 49b:10\">Ḥull. 49ᵇ</cite>"]
+		}
+	]
+}

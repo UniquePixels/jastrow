@@ -1,0 +1,36 @@
+{
+	"id": "M02596",
+	"slug": "מרון-3",
+	"headword": {
+		"text": "מֵרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵירוֹן"
+		}
+	],
+	"page": {
+		"number": 839,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. pr. n. pl. <i>Meron</i>, in Galilee, south of Giscala. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:2:10\">Y. Shebi. IX, 38ᵈ</cite> bot. ",
+				"<cite ref=\"Tosefta Demai 4:13\">Tosef. Dem. IV, 13</cite> <he>מי׳</he> ed. Zuck. (Var. <cite ref=\"M01296\"><he>מירוק</he></cite>). Tanḥ. ed. Bub., P’kudé 7 <he>בקעה שעל פני מ׳ וכ׳</he> the valley in front of M., his native town; <cite ref=\"Shemot Rabbah 52:3\">Ex. R. s. 52</cite> <he>בקעה אחת שעל פגי מרון</he> some ed. (corr. acc.). ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:1:1\">Cant. R. to VIII, 1</cite> <he>מי׳</he>; <cite ref=\"Shemot Rabbah 5:14\">Ex. R. s. 5</cite>, beg. <he>בית מר׳</he> (not <he>מד׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:11\">Y. Taan. IV, 68ᵈ</cite> (in a fragmentary passage) <he>מי׳ קרתה</he> Meron (in connection with Jojarib) designates the place (of the family)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m., v. <cite ref=\"M02589\"><he>מֵרוֹם</he></cite>.—[<cite ref=\"Chullin 60b\">Ḥull. 60ᵇ</cite> <cite ref=\"M02596\"><he>מרון</he></cite>, <he>מירון</he> Ar., v. <cite ref=\"E00618\"><he>הֲמִירָם</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

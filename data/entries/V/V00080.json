@@ -1,0 +1,46 @@
+{
+	"id": "V00080",
+	"slug": "תגא",
+	"headword": {
+		"text": "תָּגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תָּאגָא"
+		}
+	],
+	"page": {
+		"number": 1646,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A00535\"><he>אוג</he></cite> s. v. <cite ref=\"A00544\"><he>אוֹגֶן</he></cite>, <cite ref=\"A00542\"><he>אוּגְיָא</he></cite>, a. <he>עוג</he>, <cite ref=\"P00079\"><he>עגג</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>crown</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 3:11\">Targ. Cant. III, 11</cite> (some ed. <cite ref=\"V00080\"><he>תַּגָּא</he></cite>, <cite ref=\"V00080\"><he>תָּגָּא</he></cite>). Targ. II Esth. II, 17 (ed. Vien. <cite ref=\"V00080\"><he>תַּגָּא</he></cite>); a. e.—",
+				"<cite ref=\"Sanhedrin 105a:15\">Snh. 105ᵃ</cite>, v. <cite ref=\"H00437\"><he>חוֹצַף</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 1:13\">Ab. I, 13</cite>, v. <cite ref=\"U01540\"><he>שְׁמַשׁ</he></cite>. ",
+				"<cite ref=\"Gittin 57a:7\">Gitt. 57ᵃ</cite> <he>שקליה קיסר לתָאגֵיה וכ׳</he> the Cæsar took off his crown and put it on the ground. ",
+				"<cite ref=\"Megillah 6b:2\">Meg. 6ᵇ</cite> <he>תלת מאה מלכי קטירי ת׳ וכ׳</he> Ms. M. three hundred crowned kings &c., a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>crownlet on letters</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 29b:12\">Men. 29ᵇ</cite> <he>מ״ט אית ליה תאגא</he> why has the letter <cite ref=\"E00000\"><he>ה</he></cite> a crownlet?; <cite ref=\"Yalkut Shimoni on Torah 19:2\">Yalk. Gen. 19</cite>. ",
+				"<cite ref=\"Shabbat 104a:4-7\">Sabb. 104ᵃ</cite> <he>מ״ט … תָּגֵיה דקו״ף וכ׳</he> why is the crownlet of the <i>Kof</i> turned towards the <i>Resh</i>?—Pl. <he>תָּגִין</he>, <he>תָּגי</he>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:3\">Targ. Esth. I, 3</cite>.—",
+				"<cite ref=\"Tractate Soferim 9:1\">Treat. Sof’rim IX, 1</cite> <he>ב׳ דבראשית … ת׳</he> the Beth of <i>b’reshith</i> (<cite ref=\"Genesis 1:1\">Gen. I, 1</cite>) requires four crownlets."
+			],
+			"label": "2"
+		}
+	]
+}

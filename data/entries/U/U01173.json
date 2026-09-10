@@ -1,0 +1,53 @@
+{
+	"id": "U01173",
+	"slug": "שכן-1",
+	"headword": {
+		"text": "שָׁכַן"
+	},
+	"page": {
+		"number": 1575,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <he>כון</he>, <i>to dwell, rest</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 65a:5\">Ḥull. 65ᵃ</cite> <he>ש׳ עם הטמאים טמא</he> a bird (of which you do not know whether it is clean or unclean) that nests with unclean birds, is unclean. ",
+				"<cite ref=\"Bava Kamma 92b:13\">B. Kam. 92ᵇ</cite> (quot. from an unknown writing, v. Rabb. D. S. a. l. note 7) <he>כל עוף למינו יִשְׁכּוֹן וכ׳</he> every bird nests with its kind, and man with his like; <cite ref=\"Yalkut Shimoni on Torah 116\">Yalk. Gen. 116</cite>; <cite ref=\"Yalkut Shimoni on Nach 67\">Yalk. Jud. 67</cite>. Tanḥ. Noah 15 <he>אין הקללה שׁוֹכֶנֶת וכ׳</he> (<cite ref=\"Bereishit Rabbah 36:8\">Gen. R. s. 36</cite> <he>הוָֹה</he>) curse does not rest (take effect) where blessing has been pronounced; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיכֵּן", "שִׁכֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to dwell, establish</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 12a:9\">Ber. 12ᵃ</cite> <he>מי שש׳ את שמו הוא יַשְׁכִּין וכ׳</he> may he who caused his name to dwell in this house, let dwell among you love and brotherhood &c. ",
+						"<cite ref=\"Berakhot 16b:18\">Ib. 16ᵇ</cite> <he>שתְּשַׁכֵּן</he> (or <he>שתַּשְׁכֵּן</he>), v. <cite ref=\"Q00328\"><he>פּוּר</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 64:3\">Gen. R. s. 64</cite> (ref. to <cite ref=\"U01174\"><he>שְׁכֹן</he></cite>, <cite ref=\"Genesis 26:2\">Gen. XXVI, 2</cite>) <he>שׁכֵּן השכינה בארץ</he> let the Shechinah rest in the land (do not cause the Shechinah to move with thee to a foreign land); Yalk. ib. 111. ",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 36:13\">Pirké d’R. El. ch. XXXVI</cite> <he>איני יכול לשַׁכֵּן שכינתי עליך וכ׳</he> I cannot let my Shechinah (holy inspiration) rest upon thee in a foreign land; a. fr.—2) <i>to make prosperous</i>. ",
+						"<cite ref=\"Bamidbar Rabbah 14:19\">Num. R. s. 14<sup>3</sup></cite> <he>שבשבילו ש׳ ה׳ לאדוניו</he> because for his (Joseph’s) sake the Lord prospered his master; [Matt. K.; the Lord <i>revealed himself</i> to his master, v. ",
+						"<cite ref=\"Bereishit Rabbah 86\">Gen. R. s. 86</cite>, end].—[<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite> <he>שיכן בזכות</he>, v. <cite ref=\"U00920\"><he>שִׁיכּוּן</he></cite>.]"
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁכִּין"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to dwell</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 5:1:1\">Cant. R. to V, 1</cite> (ref. to <cite ref=\"Psalms 37:29\">Ps. XXXVII, 29</cite>) <he>יַשְׁכִּינוּ לשכינה וכ׳</he> they cause the Shechinah to dwell on earth; <cite ref=\"Psalms 37:29\">ib.</cite> <he>הצדיקים הִשְׁכִּינוּ וכ׳</he> the righteous (Abraham, Isaac etc.) brought the Shechinah down to earth. ",
+						"<cite ref=\"Berakhot 12a\">Ber. 12ᵃ</cite>, v. supra; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

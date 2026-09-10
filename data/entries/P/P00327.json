@@ -1,0 +1,70 @@
+{
+	"id": "P00327",
+	"slug": "עוק-2",
+	"headword": {
+		"text": "עוּק",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1056,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (= h. <cite ref=\"R00237\"><he>צוּק</he></cite>) <i>to be narrow, pressed</i>.—Perf. <he>עָק</he>; part. <he>עָק</he>, <cite ref=\"P00555\"><he>עָיֵיק</he></cite>, (<cite ref=\"P00650\"><he>עִיִק</he></cite>) <cite ref=\"P00650\"><he>עָיק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 49:20\">Targ. Is. XLIX, 20</cite>.—Trnsf. <i>to feel pain, disgust; to be sick of</i>. ",
+				"<cite ref=\"Targum Jonathan on Judges 16:16\">Targ. Jud. XVI, 16</cite> (h. text <he>קצר</he>). ",
+				"<cite ref=\"Onkelos Genesis 27:46\">Targ. O. Gen. XXVII, 46</cite> (Y. <i>Ithpe.</i>; h. text <he>קצתי</he>); a. fr.—V. <cite ref=\"P00652\"><he>עָיְקָא</he></cite>.—<he>ע׳ ל־</he> = (h. <he>צר ל־</he>) <i>to be in distress, fear, anxiety</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 31:10\">Targ. Ps. XXXI, 10</cite>, a. e. <cite ref=\"P00650\"><he>עִיק</he></cite> Ms. (ed. <cite ref=\"P00555\"><he>עַיִק</he></cite>, <cite ref=\"P00651\"><he>עֲיַק</he></cite> noun); v. <cite ref=\"P00651\"><he>עֲיָק</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 22:7\">Targ. II Sam. XXII, 7</cite> <cite ref=\"P00556\"><he>עייקא</he></cite> ed. Lag. (ed. Wil. <cite ref=\"P01141\"><he>עָקָא</he></cite>); <cite ref=\"Aramaic Targum to Psalms 18:7\">Targ. Ps. XVIII, 7</cite> <he>עָקָא</he> Ms. (ed. <cite ref=\"P00652\"><he>עָיְקָא</he></cite>, <cite ref=\"P00652\"><he>עָיְי׳</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 4:30\">Targ. O. Deut. IV, 30</cite> <he>יֵעוֹק</he> (ed. Berl. a. Y. <he>תיעוק</he>). ",
+				"<cite ref=\"Onkelos Numbers 22:3\">Targ. O. Num. XXII, 3</cite> (Y. <he>אתיעקו</he>, v. <cite ref=\"J00495\"><he>יְעַק</he></cite>); a. fr.—[<cite ref=\"Gittin 78a\">Gitt. 78ᵃ</cite> <cite ref=\"P00555\"><he>עייק</he></cite>, <he>עויק</he> Ar., v. <cite ref=\"P00160\"><he>עֲדַק</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָעִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to press, trouble, annoy, distress</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 23:9\">Targ. Ex. XXIII, 9</cite> (h. text <cite ref=\"L00370\"><he>לחץ</he></cite>). ",
+						"<cite ref=\"Onkelos Exodus 23:22\">Ib. 22</cite> (h. text <cite ref=\"R00808\"><he>צרר</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Judges 16:16\">Targ. Jud. XVI, 16</cite>; a. fr.—Y. Kil. IX, 32ᵇ; Y. Keth. XII, 35ᵃ bot. <he>חד שינא מעיקא לי</he> one tooth annoys me. ",
+						"<cite ref=\"Bereishit Rabbah 14\">Gen. R. s. 14</cite> [read:] <he>לא … עקתיה אלא דאתית לאָעָקָא ליה</he> has this man (I) not enough trouble that thou camest to trouble him?; <cite ref=\"Midrash Tehillim 2:11\">Midr. Till. to Ps. II</cite> <he>אלא אף את אתי לאעקא ליה</he> (read: <he>אתית</he>); <cite ref=\"Yalkut Shimoni on Nach 621\">Yalk. ib. 621</cite> <he>אלא דאת מעיקא ליה</he> (read: <he>מְעִיקַת</he>). Y. Ber. II, 4ᵈ top <he>למחר … ואינון מְעִיקִין לון</he> to-morrow they will be with us, and they trouble us (by treading upon our graves); a. e.—<i>Part. pass.</i> <he>מְעִיק</he> <i>troubled, feeling dread</i>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 7:16\">Targ. Is. VII, 16</cite> (h. text <he>קץ</he>). ",
+						"<cite ref=\"Targum Jonathan on I Samuel 22:2\">Targ. I Sam. XXII, 2</cite> (not <cite ref=\"M02118\"><he>מָעִיק</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְעָק"],
+			"senses": [
+				{
+					"gloss": "<i>to be distressed, sick</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 27:46\">Targ. Y. Gen. XXVII, 46</cite> (v. supra).—",
+						"<cite ref=\"Aramaic Targum to Job 36:16\">Targ. Job XXXVI, 16</cite> <he>יִתְּעַק</he>, v. <cite ref=\"V00790\"><he>תְּעַק</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְעַיֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be narrowed in</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 18:7\">Targ. Job XVIII, 7</cite>, v. <cite ref=\"J00495\"><he>יְעַק</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

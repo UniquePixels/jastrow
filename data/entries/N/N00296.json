@@ -1,0 +1,36 @@
+{
+	"id": "N00296",
+	"slug": "נוב-3",
+	"headword": {
+		"text": "נוֹב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 883,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.(b. h. <he>נֹב</he>)<i>Nob</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a town in Benjamin. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 95a:6\">Snh. 95ᵃ</cite> <he>עֲוֹנָהּ של נ׳</he> the (unexpiated) sin committed at Nob (<cite ref=\"I Samuel 22:19\">I Sam. XXII, 19</cite>). ",
+				"<cite ref=\"I Samuel 22:19\">Ib.</cite> <he>על ידך נהרג נ׳ וכ׳</he> on thy account were the inhabitants of Nob, the sacerdotal city, massacred; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a place in the district of Tyre (v. Hildesh. Beitr., p. 22, note 167). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:18\">Y. Dem. II, 22ᵈ</cite> top."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"id": "S00774",
+	"slug": "קטל",
+	"headword": {
+		"text": "קְטַל"
+	},
+	"page": {
+		"number": 1349,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to cut</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 74b\">Snh. 74ᵇ</cite> if a gentile says to a Jew, <he>קְטוֹל אספסתא וכ׳</he> cut grass on the Sabbath and throw it to the cattle, or I shall kill thee, <he>לִיקְטִיל ולא לִיקְטְלֵיה</he> let him cut, that he (the gentile) may not kill him; <he>שדי לנהרא ליקטליה ולא ליקטול</he> but if he says to him, (cut grass and) throw it into the river, let him (the gentile) kill him, but he must not cut, because the gentile’s intention is merely to make him commit a sin; <cite ref=\"Yevamot 121b\">Yeb. 121ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 95a:3\">Sabb. 95ᵃ</cite> <he>רבך קָטֵיל … הוה</he> thy teacher must have been a cutter of reeds in the marsh (an ignorant man); <cite ref=\"Sanhedrin 33a:6\">Snh. 33ᵃ</cite> <he>אטו אנן קַטְלֵי וכ׳</he> are we reed-cutters?; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to kill</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 5:8\">Targ. Gen. V, 8</cite>. ",
+				"<cite ref=\"Onkelos Exodus 4:23\">Targ. Ex. IV, 23</cite>, sq.; a. fr.—Part. pass. <cite ref=\"S00747\"><he>קְטִיל</he></cite>, <cite ref=\"S00748\"><he>קְטִילָא</he></cite>; f. <cite ref=\"S00748\"><he>קְטִילָא</he></cite>; pl. <he>קְטִילִין</he>, <he>קְטִילַיָּא</he>; <cite ref=\"S00748\"><he>קְטִילָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 23:8\">Targ. II Sam. XXIII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:26\">Targ. Prov. VII, 26</cite>; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4\">Cant. R. to III, 4</cite> <he>אריא קטילא קְטִילַת</he> thou hast killed a dead lion; <cite ref=\"Sanhedrin 96b:4\">Snh. 96ᵇ</cite> <he>עמא ק׳ קַטְלַת</he> thou hast killed a dead people, v. <cite ref=\"I00271\"><he>טְחַן</he></cite>. ",
+				"<cite ref=\"Sanhedrin 74a:1-20\">Ib. 74ᵃ</cite> <he>אמר … זיל קַטְלֵיה … ואי לא קַטְלִינָא לן</he> the governor of my place told me, go and kill that man, or I shall kill thee; <he>א״ל לִיקְטְלוּךְ ולא תִיקְטוֹל וכ׳</he> said he (Raba) to him, let them kill thee, but do thou not kill; who tells thee that thy blood is redder &c.? <cite ref=\"Shir HaShirim Rabbah 4:1:2\">Cant. R. to IV, 1</cite> (expl. <cite ref=\"I00860\"><he>טרף</he></cite>, <cite ref=\"Genesis 8:11\">Gen. VIII, 11</cite>) <he>קטיל וכ׳</he> killed, as we read (<cite ref=\"Genesis 37:33\">Gen. XXXVII, 33</cite>) <i>ṭarof</i> &c.; <he>אמר לה אילו לא קְטַלְתִּינֵיה וכ׳</he> he (Noah) said to her (the dove), hadst thou not killed it, it would have become a big tree; <cite ref=\"Vayikra Rabbah 31:10\">Lev. R. s. 31</cite> <he>אילו לא קְטַלְתֵּיה</he>; <cite ref=\"Yalkut Shimoni on Torah 59:1\">Yalk. Gen. 59</cite>; (<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> <he>אילו שבקתה</he>); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַטֵּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00773\">same</cite>, <i>to Kill</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 17:3\">Targ. Ex. XVII, 3</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Kings 17:26\">Targ. II Kings XVII, 26</cite>; a. fr.—Y. Taan. IV, 69ᵃ <he>והוון רומים … ומְקַטְּלִין לון</he> the Romans came and massacred them (the inhabitants); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְקְטִיל", "אִיקְּטִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be killed, put to death</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 21:15\">Targ. Ex. XXI, 15</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 22:13\">Targ. Prov. XXII, 13</cite>; a. fr.—",
+						"<cite ref=\"Ketubot 35b:4\">Keth. 35ᵇ</cite> <he>אע״ג דמִיקְּטִיל משלם</he> although he is to be put to death, he must pay damages; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

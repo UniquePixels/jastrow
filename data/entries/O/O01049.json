@@ -1,0 +1,29 @@
+{
+	"id": "O01049",
+	"slug": "סם",
+	"headword": {
+		"text": "סַם"
+	},
+	"page": {
+		"number": 998,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>סַמִּים</he> cmp. Arab. <i>samma, to penetrate</i>) <i>drug</i> (healing or deleterious); <i>medicine; poison; paint</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 12:4\">Sabb. XII, 4</cite> <he>כתב בדיו בסם וכ׳</he> if one wrote (on the Sabbath) with ink, with a paint (orpiment or sandaracha) &c. ",
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 11</cite>, v. <cite ref=\"D00911\"><he>דִּמְעָה</he></cite>. ",
+				"<cite ref=\"Mishnah Chullin 3:5\">Ḥull. III, 5</cite> <he>אבלה סם המות</he> if the animal is known to have swallowed a deadly poison; <cite ref=\"Chullin 58b:16\">ib. 58ᵇ</cite> <he>סם המות דבהמה</he> what is deadly to animals, <he>דאדם</he> what is deadly to man. ",
+				"<cite ref=\"Bava Kamma 85a:3-6\">B. Kam. 85ᵃ</cite> <he>כמה … בין סייף לסם</he> how much a person condemned by the government to have his hand cut off would pay for the difference (in pain) between the plain operation with the sword and that performed under the influence of a drug (mandrake, v. Plin. H. N. XXV, 150). ",
+				"<cite ref=\"Yoma 72b:6-14\">Yoma 72ᵇ</cite> (play on <cite ref=\"U01406\"><he>שָׂם</he></cite>, <cite ref=\"Deuteronomy 4:44\">Deut. IV, 44</cite>) <he>זכה … סם חיים וכ׳</he> if he applies his learning rightly, it becomes to him a medicine of life, if not, a deadly poison. ",
+				"<cite ref=\"Kiddushin 30b:3\">Kidd. 30ᵇ</cite> (play on <he>ושמתם</he>, <cite ref=\"Deuteronomy 11:18\">Deut. XI, 18</cite>) <he>סם תם</he> an unfailing remedy; <cite ref=\"Sifrei Devarim 45\">Sifré Deut. 45</cite>; a. fr.—Pl. <he>סַמִּים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 10:6\">Gen. R. s. 10</cite> (fr. Ben Sira) <he>אלוה העלה ס׳ וכ׳</he> God made drugs come forth out of the earth, with them the physician heals …, and out of them the druggist produces poisonous drugs. ",
+				"<cite ref=\"Keritot 6b:26\">Ker. 6ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

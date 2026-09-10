@@ -1,0 +1,23 @@
+{
+	"id": "N00295",
+	"slug": "נוב-2",
+	"headword": {
+		"text": "נוֹב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 883,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00294\">preced.</cite>) <i>growth, bud</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 8:7\">Targ. Hos. VIII, 7</cite>; <cite ref=\"Targum Jonathan on Hosea 9:16\">IX, 16</cite>."
+			]
+		}
+	]
+}

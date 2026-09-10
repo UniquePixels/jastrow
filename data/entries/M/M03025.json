@@ -1,0 +1,33 @@
+{
+	"id": "M03025",
+	"slug": "מתון-1",
+	"headword": {
+		"text": "מָתוּן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 860,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Mathun</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " name of an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:5\">Y. M. Kat. III, 83ᵇ</cite> top. ",
+				"<cite ref=\"Bava Kamma 96a:11\">B. Kam. 96ᵃ</cite>, sq.; <cite ref=\"Sukkah 32a\">Succ. 32ᵃ</cite> Ms. M. (ed. <cite ref=\"J00180\"><he>יוחנן</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a woman. ",
+			"units": [
+				"<cite ref=\"Berakhot 20a:5\">Ber. 20ᵃ</cite>, v. <cite ref=\"M03026\">next w.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

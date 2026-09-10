@@ -1,0 +1,42 @@
+{
+	"id": "T00317",
+	"slug": "רוגלית",
+	"headword": {
+		"text": "רוֹגְלִית"
+	},
+	"page": {
+		"number": 1456,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <cite ref=\"T00210\"><he>רוֹגְלִיּוֹת</he></cite> (<cite ref=\"T00204\"><he>רֶגֶל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>routes, directions</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:1:2\">Cant. R. to IV, 1</cite> <he>מה … משוגרת ר׳ הרבה וכ׳</he> as the pigeon is sent out in many directions and always returns &c.; <cite ref=\"Shir HaShirim Rabbah 1:15:2\">ib. to I, 15</cite> (not <he>שוגרת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adj.) <i>familiar</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Berakhot 2:12\">Tosef. Ber. II, 12</cite>, a. e. <he>הלכות ר׳</he>, v. <cite ref=\"T00191\"><he>רָגִיל</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>runners</i>,] <i>grapes growing in a row on isolated vines</i>, opp. <he>דליות</he> (v. <cite ref=\"D00838\"><he>דָּלִית</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 8:6\">Men. VIII, 6</cite> (<cite ref=\"Menachot 86b\">86ᵇ</cite>) <cite ref=\"T00210\"><he>רַגְלִיּוֹת</he></cite>; Tosef. ib. IX, 10 <he>רג׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 7:7:5\">Y. Peah VII, end, 20ᶜ</cite> <he>כל ר׳ ור׳ אומן וכ׳</he> all plants in one row form one bed; <cite ref=\"Jerusalem Talmud Pesachim 4:9:6\">Y. Pes. IV, 31ᵇ</cite> bot. <cite ref=\"T00316\"><he>רוגלות</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

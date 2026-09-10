@@ -1,0 +1,34 @@
+{
+	"id": "Q00622",
+	"slug": "פיטורי",
+	"headword": {
+		"text": "פִּיטּוּרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיטּוּרִין"
+		},
+		{
+			"text": "פִּטּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1161,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q00547\"><he>פָּטַר</he></cite>; cmp. ",
+			"units": [
+				"<cite ref=\"Proverbs 17:14\">Prov. XVII, 14</cite>) <i>water rushing through bars</i>. ",
+				"<cite ref=\"Berakhot 8a:13\">Ber. 8ᵃ</cite> death from croup is <he>כפיטורי בפי ושט</he> like the gushing water at the entrance of a canal (when the sluice-bars are raised); [Ms. B. N. <he>כפרוקי פטורי בפי ושט</he>; Ms. M. marg. Var. <he>כפיטוני לפי ושט</he>, v. Rabb. D. S. a. l. note 4; Rashi ref. to <he>פטורי צצים</he>, <cite ref=\"I Kings 6:18\">I Kings VI, 18</cite>, Targ. <he>אטונין</he>: like <i>ropes</i> pulled through loop-holes in the boards of a ship]. ",
+				"<cite ref=\"Moed Katan 28b\">M. Kat. 28ᵇ</cite>, sq. the departure of the soul from the body is <he>כצפורי בפי</he> (<cite ref=\"E00000\"><he>ה</he></cite>)<he>וושט ר׳ י׳ אמר כפטורי בפי וושט</he> as the whirling waters rushing into the entrance of the channel; R. J. says, as the water rushing through &c.; [Rashi: as the knots of ropes with which two ships are tied together; for Var. Lect. v. Rabb. D. S. a. l. note 60]; <cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite> <he>כפיטורין היוצאין מן הוושט</he> as the rushing waters leaving the channel; Tanḥ. ed. Bub., Mick. 15 <he>כפיטורי היוצאת בפי ושט</he> (Ms. Parma <he>כפיטורין</he>; Ms. R. <he>כקפיטורין</he>); Tanḥ. ib. 10 <he>כקפוטורין יוצאה מתוך הושט</he>; Koh. R. to VI, 7 <he>כקפיטורין מתוך הושט</he>."
+			]
+		}
+	]
+}

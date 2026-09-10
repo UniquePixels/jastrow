@@ -1,0 +1,23 @@
+{
+	"id": "B00661",
+	"slug": "ביסי-2",
+	"headword": {
+		"text": "בִּיסַי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 164,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00286\"><he>בוס</he></cite>, v. <cite ref=\"B00999\"><he>בְּסִיסַי</he></cite>) <i>tray for wine cups</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 17</cite> <he>מן כל ב׳ וב׳ וכ׳</he> Ar. (ed. <cite ref=\"Q00520\"><he>פטיס</he></cite>) from each tray (which was handed around) one cup."
+			]
+		}
+	]
+}

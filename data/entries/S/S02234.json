@@ -1,0 +1,23 @@
+{
+	"id": "S02234",
+	"slug": "קשטנית",
+	"headword": {
+		"text": "קַשְׁטָנִית"
+	},
+	"page": {
+		"number": 1430,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S02233\">preced. art.</cite>) <i>bow-shaped handle of a borer</i>, ‘<i>bow-drill</i>’ (v. Sm. Ant.<sup>3</sup> s. v. Terebra). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 21:3\">Kel. XXI, 3</cite> (ed. Dehr. <cite ref=\"S00663\"><he>קוּשְׁטָ׳</he></cite>). ",
+				"<cite ref=\"Tosefta Shabbat 13:17\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:17\">XIV</cite>), 17 <he>מטלטלין את הקשט׳</he> Ar. (ed. <he>הקַשְׁתָּ׳</he>) you may handle the bow-drill (on the Sabbath); <he>ולא יקדיח בק׳ וכ׳</he> but you must not bore (a wine cask &c.) as you do on week days."
+			]
+		}
+	]
+}

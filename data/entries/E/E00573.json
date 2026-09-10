@@ -1,0 +1,23 @@
+{
+	"id": "E00573",
+	"slug": "הלל-3",
+	"headword": {
+		"text": "הַלֵּל"
+	},
+	"page": {
+		"number": 353,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00572\">preced.</cite>) <i>Hallel</i> (Praise), recitations for Holy Days, consisting of <cite ref=\"Psalms 113\">Ps. CXIII</cite> to CXVIII, called <he>ה׳ המצרי</he> Egyptian H. (with ref. to <cite ref=\"Psalms 114\">Ps. CXIV</cite>), contrad. to <he>ה׳ הגדול</he> the Large H. (v. differ. opinions <cite ref=\"Pesachim 118a:14\">Pes. 118ᵃ</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 10:7\">Pes. X, 7</cite>, v. <cite ref=\"C01061\"><he>גָּמַר</he></cite>. ",
+				"<cite ref=\"Taanit 28b:6\">Taan. 28ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

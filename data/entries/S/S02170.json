@@ -1,0 +1,23 @@
+{
+	"id": "S02170",
+	"slug": "קרקסא-2",
+	"headword": {
+		"text": "קִרְקְסָא"
+	},
+	"page": {
+		"number": 1426,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"S02173\"><he>קִרְקְסָיוֹת</he></cite>) <i>circus, place of amusement</i>.—Pl. <cite ref=\"S00655\"><he>קִרְקְסָתָא</he></cite>, <he>קִרְקְסָוָותָא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:19\">Targ. Y. Deut. XXVIII, 19</cite> <he>בתי קִיאַטְרוֹנֵיכוֹן וקוֹרְקִיסַתְכוֹן</he> (for <he>תיאט׳</he>) ed. Vien. (oth. ed. <cite ref=\"S00655\"><he>קוּרְקְסַתְ׳</he></cite>) your theatres and circuses. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:13\">Targ. Ps. LXIX, 13</cite> <he>בית קִרְקַסְוָון</he> (some ed. <cite ref=\"S00639\"><he>קַרְ׳</he></cite>; Ar. <he>בתי קִרְקְסֵיהוֹן</he>, Var. <he>קרקסוון</he>) (v. Lam. R. introd. 17).—[<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 18</cite> <he>קרקסוון</he>, v. <cite ref=\"S02172\"><he>קִרְקַסְיוֹן</he></cite>.]"
+			]
+		}
+	]
+}

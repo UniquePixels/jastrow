@@ -1,0 +1,131 @@
+{
+	"id": "R00797",
+	"slug": "צרף-1",
+	"headword": {
+		"text": "צָרַף"
+	},
+	"page": {
+		"number": 1303,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"R00731\"><he>צרב</he></cite>) [<i>to press, shrink</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to smelt, melt</i>; trnsf. <i>to refine, purify, try</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:9:2\">Y. Keth. VII, end, 31ᵈ</cite>; <cite ref=\"Tosefta Ketubot 7:11\">Tosef. Keth. VII, 11</cite> <he>צוֹרֵף נחשת</he>, v. infra. ",
+				"<cite ref=\"Yoma 72b:15\">Yoma 72ᵇ</cite> (ref. to <cite ref=\"Psalms 18:31\">Ps. XVIII, 31</cite>) <he>זכה משמחתו … צוֹרַפְתּוֹ</he> if he deserves well, she (the Torah) cheers him; if not, she smelts him (through trials); <he>צורפתו לחיים</he> she steels him for life; <he>צורפתו למיתה</he> she smelts him for death. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 391:14\">Yalk. Ex. 391</cite> <he>דרשתי</he> … <he>צָרַפְתִּי ובחנתי וכ׳</he> I studied and searched, refined and tested &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tighten, harden</i>. Yoma l. c., v. supra. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 16:3:7\">Y. Yeb. XVI, 15ᵈ</cite> top <he>שצְרָפַתּוֹ</he> Var., v. <cite ref=\"R00669\"><he>צָפַד</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to change</i>, v. infra.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צֵרֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to smelt</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 7:10\">Keth. VII, 10</cite> (among the occupations to which a wife may object) <he>מְצָרֵף נחושת</he>, expl. ",
+						"<cite ref=\"Ketubot 77a:13\">ib. 77ᵃ</cite> <he>חשלי דודי</he>, v. <cite ref=\"H01859\"><he>חַשְׁלָא</he></cite>; anoth. opin. <he>מחתך נחושת וכ׳</he>, v. <cite ref=\"H01896\"><he>חָתַךְ</he></cite>; Tosef. ",
+						"<cite ref=\"Ketubot 77a:13\">ib.</cite> l. c. <he>זה מתיך וכ׳</he> he that casts bronze.—Trnsf. <i>to refine</i>. ",
+						"<cite ref=\"Bereishit Rabbah 44:7\">Gen. R. s. 44</cite> (ref. to <he>צרופה</he>, <cite ref=\"Psalms 18:31\">Ps. XVIII, 31</cite>) <he>לא נתנו המצות אלא לצָרֵף וכ׳</he> the (ceremonial) laws have been given for the purpose of refining (disciplining) men through them. ",
+						"<cite ref=\"Psalms 18:31\">Ib.</cite> <he>שצֵרְפוֹ הקב״ה וכ׳</he> (Abraham) whom the Lord tried in the furnace of fire. ",
+						"<cite ref=\"Psalms 18:31\">Ib.</cite> (ref. to <cite ref=\"R00798\"><he>צֹרֵף</he></cite>, <cite ref=\"Isaiah 41:7\">Is. XLI, 7</cite>) <he>זה אברהם שצרפו וכ׳</he> that means Abraham, whom the Lord tried &c.; (<cite ref=\"Yalkut Shimoni on Nach 313\">Yalk. Is. 313</cite> <he>שנִצְרַף</he>, <i>Nif.</i>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to tighten, harden</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makhshirin 5:7\">Makhsh. V, 7</cite> <he>המוליך … לצָרְפָהּ</he> if one takes a ship out to sea for the sake of tightening it; <he>מוציא מסמר … לצָרְפוֹ</he> if one takes a (glowing) nail in the rain for the sake of hardening it; Tosef. ib. II, 16 <he>בשביל לצוֹרְפוֹ</he>. ",
+						"<cite ref=\"Tosefta Kelim Kamma 3:13\">Tosef. Kel. B. Kam. III, 13</cite> <he>צֵרְפָן אפי׳ וכ׳</he> (or <he>צְרָפָן</he>) if he hardened (baked) them (the earthen vessels) even in a peat fire. ",
+						"<cite ref=\"Beitzah 32a:9\">Bets. 32ᵃ</cite> <he>משיְצָרְפוֹ בכבשן</he> (Ms. M. <he>משישרפו</he>) from the time be baked it in the kiln. ",
+						"<cite ref=\"Bava Metzia 84a:14\">B. Mets. 84ᵃ</cite> (of iron weapons) <he>משיְצָרְפֵם בכבשן</he> when he has hardened them in the furnace, v. <cite ref=\"R00283\"><he>צִחְצֵחַ</he></cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " [<i>to melt together, weld</i>,] <i>to combine, join</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 2:5\">Maasr. II, 5</cite> <he>ואם צֵרַף</he> (Y. ed. <he>צירף</he>) if he combined (ate them together). Y. Pes. III, 30ᵃ top <he>שני … אין הבית מְצָרף</he> if two pieces (of leavened matter), each half the size of an olive, are in the same room, the room does not join them (so as to be counted one olive-size); if in one vessel, <he>הכלי מצרף</he> the vessel joins them. ",
+						"<cite ref=\"Kiddushin 40a\">Kidd. 40ᵃ</cite>, a. e. <he>מְצָרְפָהּ למעשה</he>, v. <cite ref=\"M00944\"><he>מַחֲשָׁבָה</he></cite>; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to change small for large coin</i>, opp. <cite ref=\"Q01763\"><he>פָּרַט</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maaser Sheni 4:2\">Maas. Sh. IV, 2</cite> <he>כמות … שהוא מצרף</he> as the banker counts when he gives small change for large coins, not as he counts when giving large coins for small change; <cite ref=\"Tosefta Ma'aser Sheni 3:3\">Tosef. ib. III, 3</cite> <he>המְצָרֵיף … שמצריף</he> ed. Zuck. (Var. <he>המצרף … מצטרף</he>) if one buys a gold Denar for coins designated for second tithes, he must count as the banker would when selling small change, not as he would, when buying large change. ",
+						"<cite ref=\"Mishnah Shekalim 2:1\">Shek. II, 1</cite> <he>מְצָרְפִין</he>, v. <cite ref=\"D01100\"><he>דַּרְכּוֹן</he></cite>. Y. B. Mets. IV, end, 9ᵈ <he>לצוֹרְפָהּ … מְצָרְפָהּ ביפה</he> if he wants to change the defective coin to be spent in Jerusalem, he must exchange it as if it were of full value (v. Bab. ",
+						"<cite ref=\"Bava Metzia 52b\">B. Mets. 52ᵇ</cite>); a. fr.—",
+						"<cite ref=\"Sifrei Devarim 48:3\">Sifré Deut. 48</cite> <he>אחד מצרף דינר ואוכלו ואחד מצ׳ דינר ומניחו</he> one gathers a gold Denar and spends it, and another changes his accumulation for a gold Denar and puts it away; <cite ref=\"Yalkut Shimoni on Torah 873\">Yalk. ib. 873</cite>, v. <cite ref=\"O00147\"><he>סָגַל</he></cite>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִצְרַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be smelted, tried</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 313\">Yalk. Is. 313</cite>, v. supra. ",
+						"<cite ref=\"Midrash Tehillim 119:24\">Midr. Till. to Ps. CXIX, 81</cite> <he>כבר נִצְרַפְנוּ</he> we have already been tried."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be hardened</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 4:4\">Kel. IV, 4</cite> <he>משיִצָרְפוּ בכבשן</he> when they have been baked in the kiln; <cite ref=\"Tosefta Kelim Kamma 3:13\">Tosef. Kel. B. Kam. III, 13</cite> <he>משיִצְטָרְפוּ</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִצְטָרֵף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00796\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be joined, combined, counted in</i>. ",
+					"units": [
+						"<cite ref=\"Nazir 35b\">Naz. 35ᵇ</cite>, a. e. <he>אין היתר מִצְטָרֵף לאיסור</he> a permitted thing is not to be joined to a forbidden thing, i.e. if one ate simultaneously, one half of the legal size each, of a permitted and of a forbidden thing, the two must not be counted together to make up the legal size. ",
+						"<cite ref=\"Nazir 4a:8\">Ib. 4ᵃ</cite> <he>מִצְטָרְפִים זה עם זה</he> they are counted together. ",
+						"<cite ref=\"Mishnah Nazir 6:1\">Ib. VI, 1</cite>. ",
+						"<cite ref=\"Berakhot 47b:16\">Ber. 47ᵇ</cite> <he>תשעה ועבד מִצְטָרְפִין</he> nine freemen and one slave may be combined (to make up the requisite number of ten for prayers). ",
+						"<cite ref=\"Berakhot 47b:20\">Ib.</cite> <he>שנים ושבת מצט׳</he> two persons (at meal) and the Sabbath may be combined (count for three persons); <he>שני ת״ח … מצט׳</he> two scholars (at meal) who are engaged in discussion are counted as three. ",
+						"<cite ref=\"Mishnah Mikvaot 3:4\">Mikv. III, 4</cite> <he>מצט׳</he> are combined to make up the legally required quantity of water; a. fr.—",
+						"<cite ref=\"Tosefta Ma'aser Sheni 3:3\">Tosef. Maas. Sh. III, 3</cite>, v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

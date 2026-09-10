@@ -1,0 +1,28 @@
+{
+	"id": "A00344",
+	"slug": "אגרו",
+	"headword": {
+		"text": "אִגְּרוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיגְּרוּ"
+		}
+	],
+	"page": {
+		"number": 14,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אגר</he> I, Pi; cmp. <cite ref=\"A00282\"><he>אֵגוֹרִי</he></cite>) (<i>grain</i>) <i>fit for storage, of superior quality</i>. Y. Maas. Sh. IV, beg. 54ᵈ <he>מן הא׳ על השמתית וכ׳</he> <i>T’rumah</i> may be taken from the stored-up wheat for the wheat which has to be quickly disposed of, or vice versa. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 2:4:2\">Y. Peah. II, 17ᵃ</cite> <he>חצי איגדו וכ׳</he> (read <cite ref=\"A00344\"><he>איגרו</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 5:1:12\">Y. Naz. V, 54ᵃ</cite> <he>שחתית ונמצאת אגרון</he> (corr. acc.) from dark colored wheat (inferior), and found it was <i>igg’ru</i> (superior). [R. Simson to <cite ref=\"Mishnah Peah 2:5\">Peah II, 5</cite> quotes <cite ref=\"A00282\"><he>אֵגוֹרִי</he></cite>; El. W. in Sh’noth El. ibid. <cite ref=\"A00280\"><he>אֲגוֹרָה</he></cite>.] [<cite ref=\"Mishnah Bava Batra 5:6\">B. Bath. V, 6</cite> has <he>לבנה</he> <i>white, pure</i> for our w.]"
+			]
+		}
+	]
+}

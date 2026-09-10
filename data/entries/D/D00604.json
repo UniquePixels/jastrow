@@ -1,0 +1,28 @@
+{
+	"id": "D00604",
+	"slug": "דילטורא-2",
+	"headword": {
+		"text": "דִּילָטוּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּלָ׳"
+		}
+	],
+	"page": {
+		"number": 299,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (delatura) <i>information, sycophancy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 3:4\">Targ. Y. Gen. III, 4</cite> (corr. acc., v. <cite ref=\"D00603\">preced.</cite>).—",
+				"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> <he>אמר ד׳ על בניי</he> spoke evil of My children."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M03112",
+	"slug": "מתרצתא",
+	"headword": {
+		"text": "מְתָרַצְתָּא"
+	},
+	"page": {
+		"number": 865,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V01053\"><he>תְּרַץ</he></cite>) <i>sustained version, a tradition the objections to which have been met successfully</i>, opp. <cite ref=\"M02811\"><he>מְשַׁבֶּשְׁתָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 121b:5\">Sabb. 121ᵇ</cite>; <cite ref=\"Pesachim 99b\">Pes. 99ᵇ</cite> bot."
+			]
+		}
+	]
+}

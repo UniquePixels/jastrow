@@ -1,0 +1,36 @@
+{
+	"id": "G00730",
+	"slug": "זרעית-2",
+	"headword": {
+		"text": "זַרְעִית",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זַרְעִיתָא"
+		},
+		{
+			"text": "זַרְעִי"
+		}
+	],
+	"page": {
+		"number": 414,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00729\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 29:17\">Targ. O. Deut. XXIX, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 7:14\">Targ. Josh. VII, 14</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:10\">Y. Kil. IX, 32ᶜ</cite> top <he>זַרְעִיתֵיה לא פסיקה וכ׳</he> his race shall never cease; <cite ref=\"Jerusalem Talmud Ketubot 12:3:10\">Y. Keth. XII, 35ᵇ</cite> top <he>זרעייתא</he> (corr. acc.). ",
+				"<cite ref=\"Kohelet Rabbah 4:9:1\">Koh. R. to IV, 9</cite> <he>והא ז׳ ז׳ וכ׳</he> here is the third generation of that family &c.—Pl. <cite ref=\"G00595\"><he>זַרְעֲיָיתָא</he></cite>, <he>זַרְעֲיָין</he>; constr. <he>זַרְעֲיַית</he>. ",
+				"<cite ref=\"Onkelos Genesis 4:10\">Targ. O. Gen. IV, 10</cite> (cmp. ",
+				"<cite ref=\"Mishnah Sanhedrin 4:5\">Snh. IV, 5</cite> quot. in <cite ref=\"G00729\">preced.</cite>; ed. Berl. <he>זְרַעֲיַן</he>). ",
+				"<cite ref=\"Targum Jonathan on Zechariah 12:12\">Targ. Zech. XII, 12</cite>; <cite ref=\"Targum Jonathan on Zechariah 12:14\">14</cite> (not <he>זרעִין</he>). ",
+				"<cite ref=\"Onkelos Exodus 6:14\">Targ. O. Ex. VI, 14</cite> (ed. Berl. <cite ref=\"G00729\"><he>זַרְעַיָת</he></cite>); a. fr.—",
+				"<cite ref=\"Kiddushin 70b:14\">Kidd. 70ᵇ</cite> <he>תרתי ז׳ איכא וכ׳</he> there are two families in N. &c."
+			]
+		}
+	]
+}

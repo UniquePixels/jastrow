@@ -1,0 +1,24 @@
+{
+	"id": "P00018",
+	"slug": "עבדות",
+	"headword": {
+		"text": "עַבְדּוּת"
+	},
+	"page": {
+		"number": 1035,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00017\">preced.</cite> wds.) <i>slavery, servitude; status of a slave</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:32\">Y. Kidd. I, 59ᵈ</cite> <he>אחת בסוף שש עד שהוא בעַבְדּוּתוֹ</he> (not <he>בעבודתו</he>) one declaration at the end of the sixth year, while he is still a slave by law. ",
+				"<cite ref=\"Mishnah Pesachim 10:5\">Pes. X, 5</cite> (in the Passover night service) <he>הוציאנו מע׳ לחרות</he> he led us forth from slavery to freedom; <cite ref=\"Kiddushin 22b:6\">Kidd. 22ᵇ</cite>. ",
+				"<cite ref=\"Horayot 10a:21\">Hor. 10ᵃ</cite> <he>כמדומין אתם ששררה … ע׳ וכ׳</he> you seem to believe that I place a rulership upon you (by appointing you to office), I place servitude upon you (ref. to <cite ref=\"I Kings 12:7\">I Kings XII, 7</cite>); a. fr."
+			]
+		}
+	]
+}

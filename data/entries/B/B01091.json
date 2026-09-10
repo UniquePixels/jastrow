@@ -1,0 +1,23 @@
+{
+	"id": "B01091",
+	"slug": "בצירה",
+	"headword": {
+		"text": "בְּצִירָה"
+	},
+	"page": {
+		"number": 184,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"B01087\"><he>בָּצִיר</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 17a:9\">Sabb. 17ᵃ</cite> <he>בשעת הב׳</he> when they are cut; a. fr.—Pl. <he>בְּצִירוֹת</he>. ",
+				"<cite ref=\"Bava Batra 36b:7\">B. Bath. 36ᵇ</cite> <he>עד שיבצור ג׳ ב׳</he>, v. <cite ref=\"B01087\"><he>בָּצִיר</he></cite>."
+			]
+		}
+	]
+}

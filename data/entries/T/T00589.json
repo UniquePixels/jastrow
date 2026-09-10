@@ -1,0 +1,30 @@
+{
+	"id": "T00589",
+	"slug": "ריבוע-1",
+	"headword": {
+		"text": "רִיבּוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִבּ׳"
+		}
+	],
+	"page": {
+		"number": 1472,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00128\"><he>רָבַע</he></cite>) <i>a square</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 62a:8\">Zeb. 62ᵃ</cite> <he>קרן … ור׳ מעכבין</he> the horn, the ascent, the foundation, and the square shape are indispensable conditions for the altar. ",
+				"<cite ref=\"Zevachim 108b:15\">Ib. 108ᵇ</cite>; a. fr.—ר׳ עולם <i>the cardinal points of the world</i>. ",
+				"<cite ref=\"Tosefta Eiruvin 6:14\">Tosef. Erub. VI (V), 3; Erub. 56</cite><cite ref=\"Eruvin 56a:4\">Erub. 56ᵃ</cite> <he>בא לרבעה מרבעה בר׳ ע׳ וכ׳</he> when you square a town (for Sabbath limits, v. <cite ref=\"T00128\"><he>רָבַע</he></cite>), you must square it in accordance with the cardinal points, and the marks are Charles’s Wain in the north &c. ",
+				"<cite ref=\"Eruvin 56a:4\">Ib.</cite> <he>אם אינו … בר׳ וכ׳</he> if you do not know how to square it in accordance with the cardinal points &c.; a. e."
+			]
+		}
+	]
+}

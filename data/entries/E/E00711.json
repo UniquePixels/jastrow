@@ -1,0 +1,24 @@
+{
+	"id": "E00711",
+	"slug": "הסתה",
+	"headword": {
+		"text": "הַסָּתָה"
+	},
+	"page": {
+		"number": 359,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00472\"><he>יָסַת</he></cite> or <cite ref=\"O00439\"><he>סוּת</he></cite>) <i>seduction, enticement</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 22b:11\">Yoma 22ᵇ</cite> <he>דאוריה ודה׳</he> the sin against Uriah and that of counting the people to which he was enticed (<cite ref=\"II Samuel 24:1\">II Sam. XXIV, 1</cite>). ",
+				"<cite ref=\"Chullin 4b:9\">Ḥull. 4ᵇ</cite> <he>אין ה׳ בדברים</he> <i>enticing</i> (the verb <cite ref=\"J00472\"><he>הסית</he></cite>) never applies to verbal persuasion (but only to sensual influences). ",
+				"<cite ref=\"Sifrei Devarim 87:2\">Sifré Deut. 87</cite> <he>אין ה׳ אלא טעות</he> <i>enticing</i> means leading astray; <he>אין ה׳ אלא גירוי</he> it means instigation."
+			]
+		}
+	]
+}

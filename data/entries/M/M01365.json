@@ -1,0 +1,24 @@
+{
+	"id": "M01365",
+	"slug": "מכוש-1",
+	"headword": {
+		"text": "מַכּוֹשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 781,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00848\"><he>נָכַשׁ</he></cite>) <i>hoe, spud</i>; <i>digging with the spud</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 54a:8\">B. Bath. 54ᵃ</cite> <he>כיון שהכיש בה מ׳ אחד וכ׳</he> (Ms. R. <he>שנכש בה</he>) as soon as he has inserted the spud once, he has taken possession of the entire field. ",
+				"<cite ref=\"Bava Batra 54a:8\">Ib.</cite> <he>מקום מַכּוּשׁוֹ בלבד</he> only the place where he dug.—[<cite ref=\"Jerusalem Talmud Nedarim 4:1:2\">Y. Ned. IV, beg. 38ᶜ</cite> <he>קורדום של מ׳</he>, v. <cite ref=\"N00666\"><he>נִיכּוּשׁ</he></cite>.]"
+			]
+		}
+	]
+}

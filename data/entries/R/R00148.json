@@ -1,0 +1,24 @@
+{
+	"id": "R00148",
+	"slug": "צואה-1",
+	"headword": {
+		"text": "צַוָּאָה"
+	},
+	"page": {
+		"number": 1265,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00165\"><he>צָוָה</he></cite>) <i>command, order, verbal will</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 147a:8\">B. Bath. 147ᵃ</cite> <he>בצ׳ בעלמא</he> by mere expression of his will (without symbolical possession); a. e.—Pl. <he>צַוָּאוֹת</he>. ",
+				"<cite ref=\"Berakhot 15b:26\">Ber. 15ᵇ</cite> <he>וכתבתם</he> … <he>אפי׳ צ׳</he> ‘and thou shalt write them’ (<cite ref=\"Deuteronomy 6:9\">Deut. VI, 9</cite>; <cite ref=\"Deuteronomy 11:20\">XI, 20</cite>) the entire section must be written out (in the T’fillin), including the orders (‘thou shalt write’, ‘ye shall bind’ &c.). ",
+				"<cite ref=\"Deuteronomy 11:20\">Ib.</cite> (ref. to the roll written for the Soṭah, <cite ref=\"Numbers 5:23\">Num. V, 23</cite>) <he>אלות … צ׳ אינו כותב</he> the priest writes the curses but not the instructions; <cite ref=\"Sotah 17a\">Sot. 17ᵃ</cite> <he>צ׳ וקבלות</he> (not <he>צוואת</he>) the instructions and the affirmations (by the woman saying Amen)."
+			]
+		}
+	]
+}

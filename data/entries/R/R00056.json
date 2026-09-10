@@ -1,0 +1,51 @@
+{
+	"id": "R00056",
+	"slug": "צבע-4",
+	"headword": {
+		"text": "צְבַע",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1259,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00055\">same</cite>, <i>to dip; to dye</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 12:22\">Targ. Y. Ex. XII, 22</cite> Ar. (ed. <cite ref=\"I00562\"><he>טמש</he></cite>; h. text <he>טבל</he>). ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 4:6\">Targ. Y. II, Lev. IV, 6</cite> <he>יִצְבּוֹעַ</he>.—Y. Sabb. II, 4ᵈ top, v. <cite ref=\"Q02168\"><he>פְּתִילְתָּא</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:6:5\">Y. Taan. IV, end, 69ᶜ</cite> <he>הוה צ׳ פיסתיה וכ׳</he> dipped his bread in ashes. ",
+				"<cite ref=\"Kohelet Rabbah 7:11:1\">Koh. R. to VII, 11</cite> <he>הוה צ׳ חדא וכ׳</he> dipped one of his fingers in blood of a swine. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 9:5:3\">Y. B. Kam. IX, 6ᵈ</cite> bot. <he>א״ל צִיבְעֵיה סומק וצַבְעֵיה אוכם</he> if he told the dyer, dye it red, and he dyed it black; <he>אילו צְבַעְתֵּיה סומק וכ׳</he> if thou hadst dyed it red, it would have been worth &c. ",
+				"<cite ref=\"Menachot 42b:10\">Men. 42ᵇ</cite> <he>הא … היכי צַבְעִיתוּ לה</he> how do you dye the purple-blue?; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַבַּע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00055\">same</cite>, <i>to dip, immerse</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 13:6\">Targ. O. Lev. XIII, 6</cite> (Y. <he>יִצְכַּע</he> <i>Pe.</i>; h. text <he>כבס</he>). Ib. XIV, 9; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִצְטַבַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be dipped, immersed; to be soaked</i>. Ib. XIII, 58. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 5:2\">Targ. Cant. V, 2</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

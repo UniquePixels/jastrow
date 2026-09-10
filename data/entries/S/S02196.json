@@ -1,0 +1,62 @@
+{
+	"id": "S02196",
+	"slug": "קרר-5",
+	"headword": {
+		"text": "קְרַר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹר"
+		}
+	],
+	"page": {
+		"number": 1428,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S02195\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קָרֵיּר"],
+			"senses": [
+				{
+					"gloss": "<i>to cool</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 8b:7\">Sabb. 8ᵇ</cite> <he>דעבידי אינשי לקָרוּרֵי נפשייהו</he> when people are wont to cool themselves (by walking in pools), v. <cite ref=\"T01052\"><he>רָקָק</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02195\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Pesachim 76a:5\">Pes. 76ᵃ</cite> <he>אַקּוּרי קא מֵיקַר ליה</he> it cools the juice off; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְקָרָר"],
+			"senses": [
+				{
+					"gloss": ", <i>Ithpol.</i> <he>אִתְקוֹרָר</he> <i>to be cooled off, cool one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 2:5\">Targ. Y. Ex. II, 5</cite> <he>לאִתְקַרְרָא</he>. ",
+						"<cite ref=\"Targum Jerusalem, Exodus 7:15\">Targ. Y. II ib. VII, 15</cite> <he>למַתְקוֹרְרָה על מיא</he> (ed. Vien. <he>למתקודרה עלמיא</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"id": "U01139",
+	"slug": "שכח-3",
+	"headword": {
+		"text": "שְׁכַח",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1572,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A03308\"><he>אַשְׁכַּח</he></cite> (<he>הַשְׁכַּח</he>) (<cite ref=\"U01138\">preced.</cite>) [<i>to uncover,</i>] <i>to find</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 36:3\">Targ. Ps. XXXVI, 3</cite> <he>למַשְׁכַּח</he> (ed. Wil. <cite ref=\"L00480\"><he>למִ׳</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 1:17\">Targ. Koh. I, 17</cite> (ed. Vien. <cite ref=\"L00480\"><he>למִ׳</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 8:17\">Ib. VIII, 17</cite> (<i>Pe</i> interch. with <i>Af.</i>). ",
+						"<cite ref=\"Onkelos Genesis 2:20\">Targ. Gen. II, 20</cite>. ",
+						"<cite ref=\"Onkelos Genesis 8:9\">Ib. VIII, 9</cite> (Y. some ed. <he>הַשְׁ׳</he>). Targ. O. ib. XLI, 38 <he>הנַשְׁכַּח</he> ed. Berl. (ed. Vien. a. oth. <cite ref=\"E00911\"><he>היִשְׁ׳</he></cite>, corr. acc.); Y. <he>הנִשְׁ׳</he>; a. fr.—",
+						"<cite ref=\"Gittin 56b:17\">Gitt. 56ᵇ</cite> <he>ליקלויה … דלא לַשְׁכְּחֵיה וכ׳</he> burn this man (me, Titus), and scatter the ashes …, that the God of the Jews may not find him and place him before judgment. ",
+						"<cite ref=\"Jerusalem Talmud Eruvin 1:1:17\">Y. Erub. I, 18ᵈ</cite> top <he>א׳ תני וכ׳</he> he found that it was taught (in the Boraitha), Rabbi says &c. ",
+						"<cite ref=\"Yevamot 110b:12\">Yeb. 110ᵇ</cite> <he>אַשְׁכְּחִתֵיה לרב וכ׳</he> I found Rab A. and &c. ",
+						"<cite ref=\"Avodah Zarah 10a\">Ab. Zar. 10ᵃ</cite>, a. fr. <he>נפק דק וא׳ וכ׳</he> he went forth, investigated, and found that &c. ",
+						"<cite ref=\"Makkot 21b:5\">Macc. 21ᵇ</cite> <he>מי מַשְׁכַּחַת וכ׳</he> wouldst thou have found the jewel beneath?; <cite ref=\"Bava Metzia 17b:3\">B. Mets. 17ᵇ</cite> <he>לא משכחת</he>, v. <cite ref=\"D00828\"><he>דְּלֵי</he></cite>. ",
+						"<cite ref=\"Gittin 68a:11\">Gitt. 68ᵃ</cite> <he>אַשְׁכְּחֵיה חמרא</he> he found it to be wine; <cite ref=\"Midrash Tehillim 78:7\">Midr. Till. to Ps. LXXVIII, 45</cite>; <cite ref=\"Yalkut Shimoni on Nach 182:4\">Yalk. Kings 182</cite> <he>אשכח</he>. ",
+						"<cite ref=\"Jerusalem Talmud Chagigah 2:1:10\">Y. Ḥag. II, 77ᵇ</cite> <he>וי דמובדין ולא מַשְׁכְּחִין</he> woe for those who lose and do not find (who suffer an irretrievable loss)!; a. fr.—Macc. l. c., a. fr. <he>היכי משכחת לה</he> how wilt thou find it, i.e. to what practical case can this be applied? <cite ref=\"Pesachim 7a:3\">Pes. 7ᵃ</cite> <he>בשלמא שבת משכחת לה וכ׳</he> as to the Sabbath, there may be a case, as, for instance, when the fourteenth day occurs on a Sabbath. ",
+						"<cite ref=\"Avodah Zarah 40b\">Ab. Zar. 40ᵇ</cite>; a. v. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתַּכַּח"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּכַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be found</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 21:16\">Targ. Ex. XXI, 16</cite>. ",
+						"<cite ref=\"Onkelos Exodus 22:1\">Ib. XXII, 1</cite>; <cite ref=\"Onkelos Exodus 22:3\">3</cite>; a. fr.—",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 34:8\">Targ. Y. I Deut. XXXIV, 8</cite> <he>הִשְׁתְּכָחוּ אכלין וכ׳</he> (= h. <cite ref=\"M02306\"><he>נמצא</he></cite>) <i>consequently</i> they ate &c., v. <cite ref=\"M02262\"><he>מָצָא</he></cite>.—",
+						"<cite ref=\"Bava Metzia 16b:9\">B. Mets. 16ᵇ</cite> <he>הנהו … דמִשְׁתַּכְּחֵי בשוקא</he> deeds of purchase that were found in the street. ",
+						"<cite ref=\"Shabbat 90a\">Sabb. 90ᵃ</cite>; <cite ref=\"Niddah 62a\">Nidd. 62ᵃ</cite> <he>מִשְׁתַּכַּח</he>, v. <cite ref=\"A03318\"><he>אַשְׁלְגָא</he></cite>. ",
+						"<cite ref=\"Sanhedrin 111a\">Snh. 111ᵃ</cite>; <cite ref=\"Shemot Rabbah 6\">Ex. R. s. 6</cite>, a. e. <he>ולא מִשְׁתַּכְּחִין</he> and are not found again (cannot be replaced), v. <cite ref=\"H00085\"><he>חֲבַל</he> II</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

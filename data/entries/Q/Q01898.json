@@ -1,0 +1,28 @@
+{
+	"id": "Q01898",
+	"slug": "פרנס-3",
+	"headword": {
+		"text": "פַּרְנָס"
+	},
+	"page": {
+		"number": 1231,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01897\">preced.</cite>) <i>manager, administrator, leader of a community, chief</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 92a:6\">Snh. 92ᵃ</cite>, v. <cite ref=\"N00250\"><he>נָהַג</he></cite>. ",
+				"<cite ref=\"Berakhot 28a:9\">Ber. 28ᵃ</cite> <he>אוי לו לדור שאתה פַּרְנָסוֹ</he> woe to the generation whose leader thou art! <cite ref=\"Arakhin 17a:11\">Arakh. 17ᵃ</cite> <he>פ׳ לפי דורו</he> as the generation, so the leader. ",
+				"<cite ref=\"Yoma 22b:19\">Yoma 22ᵇ</cite> <he>אין מעמידין פ׳ וכ׳</he> we should appoint chief of a congregation only one behind whom hangs a mass of reptiles (to whose ancestry some blemish is attached), so that, when he becomes overbearing, we can say to him, turn behind thee; a. v. fr.—Pl. <he>פַּרְנָסִים</he>, <he>פַּרְנָסִין</he>. ",
+				"<cite ref=\"Yoma 86b:15\">Ib. 86ᵇ</cite> <he>שני פ׳ פובים עמדו וכ׳</he> two good leaders have arisen for Israel, Moses and David. ",
+				"<cite ref=\"Jerusalem Talmud Peah 8:6:3\">Y. Peah VIII, 21ᵃ</cite> top <he>אין מעמידין פ׳ מחות משלשה</he> we must never appoint less than three managers (of charities). ",
+				"<cite ref=\"Jerusalem Talmud Peah 8:6:3\">Ib.</cite> <he>אין מעמידין שני אחין פ׳</he> two brothers must not be appointed managers of charity. ",
+				"<cite ref=\"Gittin 60a:1\">Gitt. 60ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

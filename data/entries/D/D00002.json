@@ -1,0 +1,29 @@
+{
+	"id": "D00002",
+	"slug": "ד-2",
+	"headword": {
+		"text": "דְּ־"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּי"
+		}
+	],
+	"page": {
+		"number": 275,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " a prefix, corresp. to h. <cite ref=\"U00002\"><he>שֶׁ־</he></cite>, <i>of, who, which, that</i> (quod). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:42\">Targ. Gen. XXXI, 42</cite>. ",
+				"<cite ref=\"Onkelos Genesis 9:5\">Ib. IX, 5</cite>; a. v. fr.—",
+				"<cite ref=\"Berakhot 2a:8\">Ber. 2ᵃ</cite> <he>זמן ק״ש דשכיבה</he> the time of reading the Sh’ma of bed-time (<cite ref=\"Deuteronomy 6:7\">Deut. VI, 7</cite>). ",
+				"<cite ref=\"Deuteronomy 6:7\">Ib.</cite> <he>ליתני דערבית וכ׳</he> let him first state <i>that of</i> (the law concerning) the evening prayer. ",
+				"<cite ref=\"Deuteronomy 6:7\">Ib.</cite> <he>הא קמ״ל דכפרה וכ׳</he> we are given to understand (by implication) that &c. ",
+				"<cite ref=\"Deuteronomy 6:7\">Ib.</cite> <he>ממאי דהאי וכ׳</he> whence is it proved that this <i>uba</i> &c.? Ib.ᵇ <he>ואינהו דמחשכי וכ׳</he> and it was <i>they</i> who (as an exception) worked late and early; a. v. fr.—[This prefix is used for the formation of what may be named <i>Difel nouns</i>, as <cite ref=\"D00066\"><he>דְּבֵיתָא</he></cite>, <cite ref=\"D00781\"><he>דִּכְמָא</he></cite> &c., a. <i>Dispeel nouns</i> as <cite ref=\"D00664\"><he>דִּיסְקַרְתָּא</he></cite> &c.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "R00259",
+	"slug": "צורעא",
+	"headword": {
+		"text": "צוּרְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צוּרְעֲתָא"
+		},
+		{
+			"text": "צִרְעֲ׳"
+		},
+		{
+			"text": "צִירְ׳"
+		}
+	],
+	"page": {
+		"number": 1272,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00795\"><he>צָרַעַת</he></cite>, <i>leprosy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 13:51\">Targ. Y. Lev. XIII, 51</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:55\">55</cite> (ed. Vien. <he>צוֹ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 14:57\">Ib. XIV, 57</cite>. Targ. Y. I. ",
+				"<cite ref=\"Numbers 12:16\">Num. XII, 16</cite> (<cite ref=\"Numbers 13:1\">XIII, 1</cite>) <he>צִרְעֲתָהּ</he> (ed. Vien. <cite ref=\"R00796\"><he>צָרַעְתָּא</he></cite>, <cite ref=\"R00795\"><he>צָרַעְתָּ</he></cite>; corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 101:5\">Targ. Ps. CI, 5</cite> <cite ref=\"R00464\"><he>צירעתא</he></cite> ed. Lag. (ed. Wil. <cite ref=\"R00796\"><he>צָרַעְתָּא</he></cite>; Ms. <he>צורע׳</he>); a. e.—Pl. <he>צִרְעָן</he>, <he>צִרְעִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 20:4\">Gen. R. s. 20</cite>; <cite ref=\"Yalkut Shimoni on Torah 30:2\">Yalk. ib. 30</cite>; <cite ref=\"Shemot Rabbah 3:13\">Ex. R. s. 3</cite> <he>צ׳ אינון</he> are leprous spots, v. <cite ref=\"O01016\"><he>סִלְעָא</he></cite>."
+			]
+		}
+	]
+}

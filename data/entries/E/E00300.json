@@ -1,0 +1,24 @@
+{
+	"id": "E00300",
+	"slug": "הזמה",
+	"headword": {
+		"text": "הֲזָמָה"
+	},
+	"page": {
+		"number": 342,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זמם</he>) <i>the refutation of witnesses by proving an alibi</i>, contrad. to <cite ref=\"E00505\"><he>הכחשה</he></cite> counterevidence; <i>the conviction of false witnesses</i> (<cite ref=\"Deuteronomy 19:19\">Deut. XIX, 19</cite>). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 4a:10\">B. Mets. 4ᵃ</cite> <he>בתורת ה׳</he> subject to the law of <i>hăzamah</i>. ",
+				"<cite ref=\"Ketubot 20a:5\">Keth. 20ᵃ</cite> <he>ה׳ שלא בפניהן</he> evidence of an alibi taken in the absence of the witnesses concerned. ",
+				"<cite ref=\"Makkot 2a:5\">Macc. 2ᵃ</cite> <he>דין ה׳</he> the punishment for evidence disproved by an alibi (retaliation); a. e."
+			]
+		}
+	]
+}

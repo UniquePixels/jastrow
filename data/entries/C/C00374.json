@@ -1,0 +1,28 @@
+{
+	"id": "C00374",
+	"slug": "גולבינא",
+	"headword": {
+		"text": "גּוּלְבִּינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּילְבּוֹנָה"
+		}
+	],
+	"page": {
+		"number": 221,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>a species of peas</i>, (Vicia sativa, Lathuros cicera, v. Fl. to Levy Talm. Dict. I, 433ᵇ). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:1:7\">Y. Kil. I, 27ᵃ</cite> top, explain. <cite ref=\"Q00389\"><he>פורקדן</he></cite> of Mish. ",
+				"<cite ref=\"Mishnah Kilayim 1:1\">ib. I, 1</cite> (v. quot. in R. S. a. l.)."
+			]
+		}
+	]
+}

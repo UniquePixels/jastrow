@@ -1,0 +1,42 @@
+{
+	"id": "U00433",
+	"slug": "שום-1",
+	"headword": {
+		"text": "שׂוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׂים"
+		}
+	],
+	"page": {
+		"number": 1535,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"O00333\"><he>סוּם</he></cite>) <i>to place, put, appoint, make</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 39b:7\">Ber. 39ᵇ</cite> <he>ששַׂמְתָּ שלום וכ׳</he> thou hast made peace between the scholars. Mekh. B’shall. introd. <he>במקום הזה שָׂמוּהוּ</he> in this place they (the Egyptians) have put him (Joseph). ",
+				"<cite ref=\"Berakhot 28b:5\">Ber. 28ᵇ</cite> <he>מודה</he> … <he>ששמת חלקי וכ׳</he> I thank thee, O Lord, that thou hast appointed my lot to be with those who sit in the school-house, and not with those who abide at the corners (idlers); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵשִׂים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00432\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Yevamot 45b:9\">Yeb. 45ᵇ</cite> <he>שאתה מֵשִׂים</he>, v. <cite ref=\"M02885\"><he>מְשִׂימָה</he></cite>. ",
+						"<cite ref=\"Berakhot 16b:18\">Ber. 16ᵇ</cite> <he>ותָשִׂים חלקנו וכ׳</he> and that thou mayest place our lot in paradise. ",
+						"<cite ref=\"Berakhot 16b:25\">Ib.</cite> <he>שתשים שלום וכ׳</he>, v. <cite ref=\"Q01140\"><he>פַּמִילְיָא</he></cite>. ",
+						"<cite ref=\"Sanhedrin 99b:10\">Snh. 99ᵇ</cite> <he>כל העוסק … משים שלום וכ׳</he> whosoever is engaged in the study of the Law for its own sake, causes peace to reign &c.; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

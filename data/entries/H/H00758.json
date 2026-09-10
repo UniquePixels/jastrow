@@ -1,0 +1,57 @@
+{
+	"id": "H00758",
+	"slug": "חיל-4",
+	"headword": {
+		"text": "חֵיל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵילָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 455,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"H00755\"><he>חַיִל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (adj.) <i>strong</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:2\">Targ. Job VIII, 2</cite> Ms. (ed. <cite ref=\"T00042\"><he>רַבָּא</he></cite>). ",
+				"<cite ref=\"Ketubot 62a\">Keth. 62ᵃ</cite> <he>דחיל מר כולי האי</he> Ar. ed. Koh. (Var. <he>דחֵילָא דמר</he>; ed. <he>דהכי</he>) that you are so strong (that such is your strength)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (noun) <i>strength</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 20:11\">Targ. Job XX, 11</cite> (ed. Lag. <he>חִיּוּל׳</he>; some ed. <cite ref=\"H00827\"><he>חֲיָיל׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:10\">Targ. Prov. V, 10</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 62a\">Keth. 62ᵃ</cite>, v. supra. Y. B. Mets. IV, beg. 9ᶜ <he>עד דהוה חֵילָךְ עלך</he> while thou wast yet in thy strength (of manhood). ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 4:12:3\">Y. Yeb. IV, 6ᵇ</cite> <he>לית בחֲיָילִי</he> I cannot do it. ",
+				"<cite ref=\"Bava Metzia 84a:12\">B. Mets. 84ᵃ</cite> <he>חילך לאורייתא</he> give thy physical strength to the study of the Law; a. fr.—Trnsf. <i>logical support, evidence, argument</i>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:2:7\">Y. Pes. V, 32ᵃ</cite> top <he>נסיב חֲיָילֵיה מן וכ׳</he> borrowed his argument from &c. Y. Maasr. I, 49ᵇ top; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>army, host; service</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 1:3\">Targ. Num. I, 3</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Psalms 68:12\">Targ. Ps. LXVIII, 12</cite> Ms. (ed. <he>חֵילְוַת</he>).—Pl. <cite ref=\"H00776\"><he>חֵילַיָּא</he></cite>, constr. <he>חֵילֵי</he>; <cite ref=\"H00773\"><he>חֵילְוָתָא</he></cite>, constr. <he>חֵילְוַת</he>. ",
+				"<cite ref=\"Onkelos Exodus 12:41\">Targ. Ex. XII, 41</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 22:19\">Targ. I Kings XXII, 19</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Psalms 33:16\">Targ. Ps. XXXIII, 16</cite>; a. fr. Targ. II Esth. I, 4 ed. Amst. <cite ref=\"H01011\"><he>חֶלְוָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 44:10\">Targ. Ps. XLIV, 10</cite> ed. Lag. <cite ref=\"H00773\"><he>חֵילְוָתָנָא</he></cite> (oth. ed. <cite ref=\"H00773\"><he>חֵילְוָנָא</he></cite>, <he>חַלְוָנָא</he>).—",
+				"<cite ref=\"Chullin 60a:2\">Ḥull. 60ᵃ</cite> <he>נפישן חֵילְוָותֵיה</he> (not <he>נפישי</he>) his troops are too numerous."
+			],
+			"label": "3"
+		}
+	]
+}

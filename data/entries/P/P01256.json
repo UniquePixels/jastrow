@@ -1,0 +1,27 @@
+{
+	"id": "P01256",
+	"slug": "ערבא-2",
+	"headword": {
+		"text": "עַרְבָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1111,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P01249\"><he>עָרֵב</he> III</cite>, <i>bondsman, surety</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 173b:5\">B. Bath. 173ᵇ</cite> <he>בתר ע׳ אזלי</he> they (the Persian courts) go for the surety (without suing the debtor at all). ",
+				"<cite ref=\"Bava Batra 174a:13\">Ib. 174ᵃ</cite> <he>ע׳ דיתמי</he> a bondsman for heirs, i.e. one who had gone security for the decedent. ",
+				"<cite ref=\"Sotah 37b:7\">Sot. 37ᵇ</cite> <he>ע׳ וע׳ דע׳ איכא בינייהו</he> the difference between the two opinions lies in the question whether each bondsman (for the entire people at the covenant of Sinai) was also a bondsman for the bondsman, i.e. responsible for those failing to prevent wrongdoing. ",
+				"<cite ref=\"Gittin 28b:3\">Gitt. 28ᵇ</cite> (proverbial expression) <he>עַרְבָיךְ ע׳ צריך</he> thy bondsman requires a bondsman, i.e. he on whom you rely for vigilance might be neglectful himself; <cite ref=\"Sukkah 26a:13\">Succ. 26ᵃ</cite> <he>ערביך ע׳ צריך</he> thy watchman might likewise fall asleep. ",
+				"<cite ref=\"Shabbat 140b:12\">Sabb. 140ᵇ</cite> <he>ואנא ע׳</he> and I vouch for it; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "K00075",
+	"slug": "כבר-5",
+	"headword": {
+		"text": "כְּבַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 609,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K00028\"><he>כַּבֵּיר</he></cite> (denom. of <cite ref=\"K00078\"><he>כַּבָּרִיתָא</he></cite>) <i>to fumigate with sulphur, to bleach</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 27b:5\">Ber. 27ᵇ</cite> <he>לכַבָּרוּיֵי סלי</he> to fumigate baskets. ",
+						"<cite ref=\"Bava Kamma 93b:13\">B. Kam. 93ᵇ</cite> <he>דכַבְּרֵיה כברויי</he> when he (in addition) bleached the wool with sulphur."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

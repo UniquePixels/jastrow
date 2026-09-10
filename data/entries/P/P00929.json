@@ -1,0 +1,21 @@
+{
+	"id": "P00929",
+	"slug": "עמר-3",
+	"headword": {
+		"text": "עֲמַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1090,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Syr. <cite ref=\"P00928\"><he>עמר</he></cite> P. Sm. 2918; Arab. <i>ʿamar</i>; cmp. <cite ref=\"P00859\"><he>עמד</he></cite>) <i>to stay, dwell</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:28\">Targ. Prov. XXX, 28</cite> <cite ref=\"P00932\"><he>עָמְרָא</he></cite> (ed. Lag. a. oth. <he>עמדא</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:24\">Ib. XXV, 24</cite> <he>מעמר</he> ed. Lag. (ed. Wil. <cite ref=\"M02143\"><he>מֶעְמַד</he></cite>)."
+			]
+		}
+	]
+}

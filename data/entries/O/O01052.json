@@ -1,0 +1,29 @@
+{
+	"id": "O01052",
+	"slug": "סמא-3",
+	"headword": {
+		"text": "סַמָּא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 998,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. pr. n. m. <i>Samma</i>, name of several Amoraim (v. Yoḥăsin sub lit. <cite ref=\"O00000\"><he>ס</he></cite>) <cite ref=\"Avodah Zarah 50b:11\">Ab. Zar. 50ᵇ</cite>; a. fr.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"O00564\"><he>כְּפַר ס׳</he></cite> pr. n. pl. <i>K’far Samma</i>, the home of one Jacob, a disciple of Jesus of Nazareth. Tosef.Ḥull. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 2:22\">Ḥull. II, 22</cite>; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:11\">Y. Ab. Zar. II, 40ᵈ</cite> bot.; a. e.; v., however, <cite ref=\"O00928\"><he>סִכְנַיָּא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

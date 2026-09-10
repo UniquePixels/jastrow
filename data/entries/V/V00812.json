@@ -1,0 +1,34 @@
+{
+	"id": "V00812",
+	"slug": "תפח-5",
+	"headword": {
+		"text": "תְּפַח",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1685,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"N01026\"><he>אִתְּפַח</he></cite>, <i>Ithpa.</i> <cite ref=\"N01026\"><he>אִתַּפַּח</he></cite> (v. <cite ref=\"N01026\"><he>נְפַח</he></cite>; cmp. <he>נשם</he>) <i>to breathe, rest; to get well, recover</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 30b:6\">B. Mets. 30ᵇ</cite> <he>אותבנהו וקא מִיתְּפַח</he> he put the bundles down and rested. ",
+						"<cite ref=\"Berakhot 46a:1\">Ber. 46ᵃ</cite> <he>אי מִתְּפַח קטינא וכ׳</he> if Ḳ. … recovers, I will make a feast for &c. ",
+						"<cite ref=\"Bava Metzia 87a\">B. Mets. 87ᵃ</cite> <he>עד אלישׁע</he> … <he>דחליש וא׳ וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note) until Elisha’s days nobody was ever sick and recovered; then Elisha came and prayed, and he recovered; (Ms. F. <he>לא הוה איקצורי ואִיתַּפּוּחֵי</he> there was no such a thing as being sick and recovering; <he>בעי … למיחלש ואיתפוחי</he> Elisha prayed for sickness and recovery); <cite ref=\"Yalkut Shimoni on Torah 105\">Yalk. Gen. 105</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

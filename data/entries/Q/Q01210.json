@@ -1,0 +1,58 @@
+{
+	"id": "Q01210",
+	"slug": "פנק-2",
+	"headword": {
+		"text": "פְּנַק"
+	},
+	"page": {
+		"number": 1190,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>פַּנֵּיק</he> <cite ref=\"Q01209\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 23:4\">Targ. Is. XXIII, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 2:9\">Targ. Esth. II, 9</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 2:12\">Ib. 12</cite>; a. fr.—Part. pass. <cite ref=\"M02225\"><he>מְפַנַּק</he></cite> q. v.—V. <cite ref=\"A02506\"><he>אִסְפְּנִיקָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְפַּנֵּק"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְפְּנֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to delight one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 37:4\">Targ. Ps. XXXVII, 4</cite>; <cite ref=\"Aramaic Targum to Psalms 37:11\">11</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to play the nobleman, be imperious</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 29:21\">Targ. Prov. XXIX, 21</cite> <he>מִתְפְּנֵיק מן וכ׳</he> he who plays the gentleman in his youth, will become a servant and finally be driven out (h. text <cite ref=\"M02225\"><he>מְפַנֵּק</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

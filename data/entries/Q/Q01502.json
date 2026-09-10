@@ -1,0 +1,71 @@
+{
+	"id": "Q01502",
+	"slug": "פקע-1",
+	"headword": {
+		"text": "פָּקַע"
+	},
+	"page": {
+		"number": 1210,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>בקע</he>) <i>to split; to burst; to break forth, escape</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite> <he>אינו מספיק … עד שהיא פוֹקַעַת</he> he scarcely beats it (the bad flax) once, when it bursts; <cite ref=\"Bereishit Rabbah 32\">ib.</cite> s. 34; <cite ref=\"Yalkut Shimoni on Nach 350\">Yalk. Is. 350</cite>. Gen. R. l. c. <he>שאינו מקיש עליהם אחת עד שהיא פוקעת</he> he knocks at them (the bad earthen vessels) scarcely once, and one is cracked (ib. s. 32 <he>עד שהוא שוברם</he>). ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:2:3\">Y. Maasr. III, 50ᵈ</cite> top <he>פעמים שהיא פוקעת וכ׳</he> sometimes it (the fig) bursts under the wheel. ",
+				"<cite ref=\"Mishnah Zevachim 9:6\">Zeb. IX, 6</cite> <he>גחלת שפָּקְעָה מעל וכ׳</he> a coal that sprang from the altar; <he>אברים שפָּקְעוּ וכ׳</he> chips of limbs that sprang off the altar. ",
+				"<cite ref=\"Tosefta Parah 3:7\">Tosef. Par. III</cite> (<cite ref=\"Tosefta Parah 2:11\">II</cite>), 11 <he>פ׳ מעורה וכ׳</he> if a part of her skin … (in burning the red cow) leaped off beyond the pit. ",
+				"<cite ref=\"Tosefta Parah 2:12\">Ib. 12</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 761:4\">Yalk. Num. 761</cite> <he>את הפּוֹקְעִין</he> the portions which spring off, v. <cite ref=\"Q01504\"><he>פֶּקַע</he></cite>; a. fr.—",
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>או שמא תִפְקַע האוזן וכ׳</he> (or <he>תִפָּקַע</he> <i>Nif.</i>) or (I would venture to say it, were I not afraid,) lest the ear of the hearer burst, i.e. it is almost blasphemous to say it; (Mekh. Yithro, Baḥod., s. 2 <he>כדי שתבקע אוזן</he> it is enough for an ear to burst). ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:1:21\">Y. Yeb. I, 2ᶜ</cite> bot. <he>פקעו ממנה קידושין</he> (not <he>ופקעו</he>) the betrothal rebounds from her, i.e. has no legal effect, opp. <he>חלו עליה</he>.—<i>Part. pass.</i> <cite ref=\"Q01466\"><he>פָּקוּעַ</he></cite>; f. <cite ref=\"Q01468\"><he>פְּקוּעָה</he></cite> <i>an animal which is ripped open;</i> <cite ref=\"B00932\"><he>בן</he></cite> (<cite ref=\"E00000\"><he>ה</he></cite>) <he>פ׳</he> an animal taken alive out of the slaughtered mother’s womb. ",
+				"<cite ref=\"Chullin 69a\">Ḥull. 69ᵃ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּקֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause splitting</i>. Y. Pes. VII, 35ᵇ top <he>שלא לפַקֵּעַ תחת הבשר</he> in order not to cause a splitting of the bone under the flesh, v. <cite ref=\"Q01504\"><he>פֶּקַע</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִפְקִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to split, break open</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 3:3\">Sabb. III, 3</cite> (<cite ref=\"Shabbat 38b:10\">38ᵇ</cite>) <he>לא יַפְקִיעֶנָּה בסודרין</he> he must not break it (the egg) over a hot cloth, Rashi (oth. interpret.: he must not cause it to crack by wrapping it in a hot cloth and rolling it; v. Tosaf. Yom Tob a. l.)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to strip, pluck, ravel out</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 31b:9\">Bets. 31ᵇ</cite> <he>מתיר ומַפְקִיעַ וחותך</he> may untie (the knot, v. <cite ref=\"H00498\"><he>חוֹתָם</he></cite>), or ravel out or cut through; <cite ref=\"Shabbat 146a\">Sabb. 146ᵃ</cite>; Y. ib. XV, beg. 15ᵃ, a. e. <he>ומַפְקִיעִין</he>, v. <cite ref=\"Q01511\"><he>פִּקְפֵּק</he></cite>. ",
+						"<cite ref=\"Mishnah Sukkah 5:3\">Succ. V, 3</cite> <he>מהן היו מַפְקִיעִין ובהן היו מדליקין</he> they stripped them (the worn-out belts of priests) and used them for wicks; <cite ref=\"Shabbat 21a:11\">Sabb. 21ᵃ</cite> <he>בגדי … מפקיעין אותן ומהן היו עושין פתילות וכ׳</he> they ravelled out priestly garments and made of them wicks &c.; expl. Y. Succ. V, 55ᵇ bot. <he>מפשילים</he>, v. <cite ref=\"Q02083\"><he>פָּשַׁל</he></cite>. ",
+						"<cite ref=\"Esther Rabbah 2:7\">Esth. R. to I, 6</cite> <he>הכל מפקיעין בחבלי וכ׳</he> all make straps (for their couches) of woolen or flax ropes, and this wicked man uses byssus and purple; a. fr.—2) [<i>to cause breaking loose</i>,] <i>to release, cancel an obligation</i>. ",
+						"<cite ref=\"Yevamot 66b\">Yeb. 66ᵇ</cite> sq., a. fr. <he>הקדש … מפקיעין מידי שעבוד</he> consecration (of a pledged object), leavened matter (on the entrance of Passover), and liberation (of a pledged slave) cause a release from mortgage (cancel the mortgage contract). ",
+						"<cite ref=\"Bekhorot 5a:9\">Bekh. 5ᵃ</cite> <he>אין בכור מפקיע בכור</he> a first-born Levite could not serve as ransom for a first-born Israelite; <he>דיו לבכור שיַפְקִיעַ וכ׳</he> it was enough for the firstborn Levite that he released his own consecration (that he needed no priest to be substituted for him); a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " ה׳ השער <i>to break up, unsettle the market, to raise prices arbitrarily, create a panic</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Taanit 2:9\">Taan. II, 9</cite> <he>שלא להַפְקִיעַ השערים</he> in order not to cause a sudden rise of market prices (by creating the impression of impending scarcity). ",
+						"<cite ref=\"Megillah 17b:15\">Meg. 17ᵇ</cite> <he>כנגד מַפְקִיעֵי שערים</he> a prayer against those who raise prices (speculating on a coming scarcity)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

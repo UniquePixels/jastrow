@@ -1,0 +1,43 @@
+{
+	"id": "L00685",
+	"slug": "לקיחה",
+	"headword": {
+		"text": "לְקִיחָה"
+	},
+	"page": {
+		"number": 719,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00674\"><he>לָקַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>taking, seizing</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 37a:8\">Succ. 37ᵃ</cite> (ref. to <cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>) <he>בעינן ל׳ תמה</he> a real taking in hand is required. ",
+				"<cite ref=\"Leviticus 23:40\">Ib.</cite> <he>ל׳ ע״י דבר אחר</he> an indirect taking (with gloved hand, by a string &c.). Ib. 11ᵇ <he>יליף ל׳ ל׳ וכ׳</he> he compares the expression <he>לקח</he> (in <cite ref=\"Exodus 12:22\">Ex. XII, 22</cite> a. Lev. l. c.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>purchase, acquisition</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 28:1\">Ex. R. s. 28</cite>, beg. (ref. to <cite ref=\"Psalms 68:19\">Ps. LXVIII, 19</cite>) <he>בל׳ נתנה לו</he> he gave the Law to him as an absolute acquisition.—Esp. <i>taking a wife, betrothal</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 9:1:6\">Y. Snh. IX, beg. 26ᵈ</cite>; <cite ref=\"Jerusalem Talmud Yevamot 11:1:5\">Y. Yeb. XI, 11ᵈ</cite> top (ref. to <cite ref=\"Leviticus 20:14\">Lev. XX, 14</cite>) <he>בכולהון כתיב שכיבה וכאן כתיב ל׳ וכ׳</he> in all the other laws of incest the verb <i>shakhab</i> is used, but here <i>lakaḥ</i> is chosen, to intimate that one of the two must have been legally betrothed to him. Y. ib. VI, 7ᵇ bot.; (Bab. ib. 55ᵇ <cite ref=\"S00889\"><he>קִיחָה</he></cite>); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>taking away by death</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 25:1\">Gen. R. s. 25</cite>, beg."
+			],
+			"label": "3"
+		}
+	]
+}

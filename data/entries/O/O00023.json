@@ -1,0 +1,31 @@
+{
+	"id": "O00023",
+	"slug": "סאתא-1",
+	"headword": {
+		"text": "סָאתָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "סָאתָה"
+		}
+	],
+	"page": {
+		"number": 948,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"O00007\"><he>סְאָה</he></cite> , <i>S’ah; measure</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 27:8\">Targ. Is. XXVII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 20:22\">Targ. Job XX, 22</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 10:5:3\">Y. Ter. X, 47ᵇ</cite> top <he>כמה ס׳ עבדא וכ׳</he> how much does a S’ah contain? Twenty four Log. ",
+				"<cite ref=\"Vayikra Rabbah 36:6\">Lev. R. s. 36</cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 10:1:13\">Y. Snh. X, 27ᵈ</cite> <he>כאינש … והא ס׳ וכ׳</he> as if one says, here is the bag, here is the Sela, and here is the measure, rise and measure (said of one who asks immediate reward for a good deed); Ruth R. introd. (some ed. <cite ref=\"O00007\"><he>סאה</he></cite>); a. e.—Pl., v. <cite ref=\"O00007\"><he>סְאָה</he></cite> ch."
+			]
+		}
+	]
+}

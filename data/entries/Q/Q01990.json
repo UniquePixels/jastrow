@@ -1,0 +1,23 @@
+{
+	"id": "Q01990",
+	"slug": "פרקדן-1",
+	"headword": {
+		"text": "פְּרַקְדָּן"
+	},
+	"page": {
+		"number": 1240,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q01985\"><he>פַּרְקֵד</he></cite>) <i>one lying on his back</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 13b:22\">Ber. 13ᵇ</cite>; <cite ref=\"Niddah 14a:9\">Nidd. 14ᵃ</cite>.—",
+				"<cite ref=\"Pesachim 108a:9\">Pes. 108ᵃ</cite> <he>פ׳ לא שמיה הסיבה</he> lying on the back (at the Passover meal) is not called reclining.—V. <cite ref=\"A02834\"><he>אַפַּרְקִיד</he></cite>."
+			]
+		}
+	]
+}

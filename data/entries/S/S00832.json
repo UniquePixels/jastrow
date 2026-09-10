@@ -1,0 +1,26 @@
+{
+	"id": "S00832",
+	"slug": "קטרון-1",
+	"headword": {
+		"text": "קִטְרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1353,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. pl. <i>Kitron</i> (<cite ref=\"Judges 1:30\">Jud. I, 30</cite>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 87:8\">Gen. R. s. 87</cite> end <he>שמעון איש ק׳</he> Simon of K.; Tanḥ. ed. Bub. Naso 34. ",
+				"<cite ref=\"Megillah 6a:1\">Meg. 6ᵃ</cite> <he>ק׳ זו ציפורי</he> K. is the modern Sepphoris; <he>וק׳ … והא ק׳ וכ׳</he> can K. be Sepphoris? was not K. in Zebulun &c.?"
+			]
+		}
+	]
+}

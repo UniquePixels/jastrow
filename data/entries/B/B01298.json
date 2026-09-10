@@ -1,0 +1,22 @@
+{
+	"id": "B01298",
+	"slug": "ברכתא-2",
+	"headword": {
+		"text": "בְּרַכְתָּא"
+	},
+	"page": {
+		"number": 196,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>B’rakhta</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:2:3\">Y. Ber. VI, 10ᵇ</cite> bot.; cmp., however, <cite ref=\"M00100\"><he>מַבְרַכְתָּא</he></cite>."
+			]
+		}
+	]
+}

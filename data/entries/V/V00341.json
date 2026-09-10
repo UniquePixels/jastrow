@@ -1,0 +1,30 @@
+{
+	"id": "V00341",
+	"slug": "תותבותא",
+	"headword": {
+		"text": "תּוֹתָבוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹתַבְתָּא"
+		}
+	],
+	"page": {
+		"number": 1659,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>יְתַב</he>) <i>settlement</i> of the immigrant, <i>temporary residence, sojourn</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:1\">Targ. Gen. XXXVII, 1</cite>. ",
+				"<cite ref=\"Onkelos Genesis 17:8\">Ib. XVII, 8</cite>. ",
+				"<cite ref=\"Onkelos Genesis 47:9\">Ib. XLVII, 9</cite> (ed. Vien. O. <he>תותבותַי</he>, read: <cite ref=\"V00399\"><he>תִי</he></cite>; Y. <cite ref=\"V00314\"><he>תּוּ׳</he></cite>); a. fr.—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:3\">Targ. Ez. XVI, 3</cite> <he>תּוֹתְבַתְכוֹן</he> (h. text <he>מכרתיך</he>)."
+			]
+		}
+	]
+}

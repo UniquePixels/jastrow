@@ -1,0 +1,116 @@
+{
+	"id": "P01213",
+	"slug": "עקר-1",
+	"headword": {
+		"text": "עָקַר"
+	},
+	"page": {
+		"number": 1108,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>עקב</he>) [<i>to be curved, bent</i>; denom. <cite ref=\"P00666\"><he>עִיקָּר</he></cite> <i>root</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to uproot, tear loose, detach, remove; to eradicate, undo, abolish, abrogate</i>. ",
+			"units": [
+				"<cite ref=\"Horayot 14a:3\">Hor. 14ᵃ</cite> <he>עוֹקֵר הרים</he>; <cite ref=\"Sanhedrin 24a:8\">Snh. 24ᵃ</cite> <he>עוקר הרי הרים</he>, v. <cite ref=\"E00808\"><he>הַר</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 3:17\">Ab. III, 17</cite> <he>הרוח באה ועוֹקַרְתּוֹ וכ׳</he> a wind comes and uproots it and turns it &c. Pesik. Ekha, p. 123ᵃ <he>כל מקום שנאמר ארון עוקר דיורין ומכניס וכ׳</he> wherever <i>Adon</i> (Master) is mentioned in the Bible, it means (the landlord) that displaces tenants and imports tenants; ib. <he>עוקר כנענים וכ׳</he> who drives out the Canaanites and brings in the Israelites. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:2:2\">Y. Yeb. I, 2ᵈ</cite>; ib. XIII, beg. 13ᵇ <he>ממאנת … לַעֲקוֹר זיקת המת</he> she may (on arriving at majority) refuse the <i>Yabam</i>, which has the effect of annulling her relation to her deceased husband. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>כל עמה מודיי שהיא עוֹקֶרֶת</he> all agree that by doing so she annuls her marriage to her deceased husband. ",
+				"<cite ref=\"Pesachim 101b:6\">Pes. 101ᵇ</cite> <he>עָקְרוּ רגליהן לצאת</he> when they detached their feet, in order to go. ",
+				"<cite ref=\"Shabbat 5a:14\">Sabb. 5ᵃ</cite> <he>ע׳ ממקומו וכ׳</he> (sub. <he>רגליו</he>) he moved from his place and received it. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:10\">Y. Bets. V, 63ᵃ</cite> bot., v. <cite ref=\"S01104\"><he>קִיפּוּץ</he></cite>. ",
+				"<cite ref=\"Megillah 5b:1\">Meg. 5ᵇ</cite> <he>בקש לעקור תשעה וכ׳</he> wanted to abolish the fast of the Ninth of Ab. ",
+				"<cite ref=\"Pesachim 115b:7\">Pes. 115ᵇ</cite> <he>אין עוֹקְרִין את השלחן</he> we do not remove the table (v. comment.); a. v. fr.—<i>Part. pass.</i> <cite ref=\"P01165\"><he>עָקוּר</he></cite>; f. <he>עֲקוּרָה</he>; pl. <he>עֲקוּרִים</he>, <he>עְקוּרִין</he>; <he>עֲקוּרוֹת</he> "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>uprooted, torn out</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 6:9\">Peah VI, 9</cite> <he>תבואה ע׳</he> loose (cut) grain, <he>שאינה ע׳</he> still in the ground.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " = <cite ref=\"P01216\"><he>עָקָר</he></cite> [<i>rootless</i>,] <i>barren, impotent</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 64a:8\">Yeb. 64ᵃ</cite> <he>יצחק אבינו ע׳ היה</he> Isaac was impotent; <he>שניהם ע׳ היו</he> both of them (Isaac and Rebecca) were impotent. ",
+						"<cite ref=\"Yevamot 64a:8\">Ib.</cite> <he>מפני מה היו אבותינו ע׳</he> wherefore were our ancestors childless (until they prayed)?; a. fr.—",
+						"<cite ref=\"Bekhorot 44b:8\">Bekh. 44ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 7:14\">Deut. VII, 14</cite> <he>ועקרה</he>) <he>שלא תהא תפלתך ע׳ וכ׳</he> that thy prayer shall not be fruitless before the Lord; <cite ref=\"Yalkut Shimoni on Torah 884\">Yalk. Deut. 884</cite> <he>שלא … ע׳ מלפני המקום</he> that thy prayer shall not be removed from before the Lord; <he>שלא יהא ביתך עקור מן התלמידים</he> (not <he>עקורה</he>) that thy house shall not be deprived of scholars."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>to mutilate, hamstring; to make barren</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֱעֶקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be uprooted; to be removed, eradicated, destroyed</i>. Y. Kil. III, 28ᶜ bot. <he>נֶעֶקְרוּ הראשונים</he> if the first seeds have been taken out. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 9:1\">Ber. IX, 1</cite> <he>הרואה … מקום שנֶעֶקְרָה וכ׳</he> he who sees … a place from which an idol has been removed (by destruction). ",
+						"<cite ref=\"Berakhot 12b:27\">Ib. 12ᵇ</cite> <he>לא שתֵּעָקֵר … ממקומה וכ׳</he> not that the memory of the going out from Egypt will be removed from its place (entirely extinct) &c., v. <cite ref=\"P00666\"><he>עִיקָּר</he></cite>. ",
+						"<cite ref=\"Berakhot 12b:27\">Ib.ᵇ</cite> <he>לא שיֵעָקֵר יעקב וכ׳</he> not that the name of Jacob will entirely fall into disuse; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֶעֱקִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to make barren</i> (<cite ref=\"P01216\"><he>עָקָר</he></cite>). ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:14:8\">Cant. R. to II, 14</cite> <he>מפני מה הֶעֱקַרְתִּי אתכן</he> why did I decree that you be childless? Because I desired to hear your prayer; <cite ref=\"Bereishit Rabbah 45:4\">Gen. R. s. 45</cite> <he>עִקּרְתִּי</he> <i>Pi.</i> (or <he>עָקַרְתִּי</he> Kal)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["עִיקֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to uproot; to tear loose</i> &c. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 42:3\">Gen. R. s. 42</cite> <he>מְעַקַּר בגפנים</he> tried to uproot the vines (destroy the entire nation); <cite ref=\"Vayikra Rabbah 11\">Lev. R. s. 11</cite>. ",
+						"<cite ref=\"Vayikra Rabbah 11:1\">Ib.</cite> <he>המן … לעַקֵּר וכ׳</he> Haman … undertook to destroy the vines; Gen. R. l. c. <he>ביקש לַעֲקוֹר הגפן כלה</he>. ",
+						"<cite ref=\"Mishnah Chullin 5:3\">Ḥull. V, 3</cite> <he>המעקר</he> he who tears loose the organs to be cut at slaughtering (v. <cite ref=\"O00710\"><he>סִימָן</he></cite>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to unfit, mutilate, hamstring; to make barren</i>. ",
+					"units": [
+						"<cite ref=\"Tractate Semachot 8:5\">Treat. S’maḥ. ch. VIII</cite> <he>שורפין ומְעַקְּרִין לפני מלכים</he> you may burn (clothes &c.) and hamstring horses at a king’s death; <cite ref=\"Avodah Zarah 11a:13\">Ab. Zar. 11ᵃ</cite> <he>עוֹקְרִין</he>; <cite ref=\"Tosefta Shabbat 7:19\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:19\">VIII</cite>), 19 <he>עוקרין</he>; v. <cite ref=\"P00660\"><he>עִיקּוּר</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite>, v. supra; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְעַקֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be made barren</i>. Ib. <he>למה נִתְעַקְּרוּ האמהות וכ׳</he> why were the Mothers allowed to be childless? Because the Lord desired to hear their prayers; Cant. R. l. c.; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

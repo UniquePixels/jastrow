@@ -1,0 +1,28 @@
+{
+	"id": "S01260",
+	"slug": "קלודיא",
+	"headword": {
+		"text": "קַלּוּדַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קלוריא"
+		}
+	],
+	"page": {
+		"number": 1372,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (calida) <i>hot drink of wine and water</i>, kept in a large bowl (v. Sm. Ant. s. v.); [the spelling <he>קלור׳</he> induced by Latin <i>calor</i>]. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:3\">Lev. R. s. 5</cite> <he>קלוד׳</he> ed. Wil. (oth. eds. <he>קלור׳</he>); <cite ref=\"Bamidbar Rabbah 10:3\">Num. R. s. 10</cite> <he>קלור׳</he>; Yalk. Am. 545 <he>קלור׳</he>."
+			]
+		}
+	]
+}

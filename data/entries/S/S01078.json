@@ -1,0 +1,28 @@
+{
+	"id": "S01078",
+	"slug": "קיסנייתא",
+	"headword": {
+		"text": "קִיסְנְיָיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִסְ׳"
+		}
+	],
+	"page": {
+		"number": 1365,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>קסן</he>, v. <cite ref=\"S01669\"><he>קְסַם</he></cite>) <i>carved</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 61b:8\">Keth. 61ᵇ</cite> <he>דמיטללא בגורייתא ק׳</he> Ar. (Var. <he>בקְסִינְיָי׳ זוטרתי</he>, <he>בקִיסִינְ׳</he>; ed. <cite ref=\"S00916\"><he>קִיטְנְיָיתָא</he></cite> <i>little</i>) she plays with carved (little) cubs."
+			]
+		}
+	]
+}

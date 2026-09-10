@@ -1,0 +1,22 @@
+{
+	"id": "D00979",
+	"slug": "דצוצא",
+	"headword": {
+		"text": "דָּצוֹצָא"
+	},
+	"page": {
+		"number": 317,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דצץ</he>, reduplic. of <cite ref=\"D00323\"><he>דּוּץ</he> II</cite>) <i>a pullet in the egg-shell</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 8b\">Bekh. 8ᵇ</cite> (some ed. <cite ref=\"T00001\"><he>ר׳</he></cite>, Ar. <cite ref=\"T00989\"><he>רציצא</he></cite>; Rashi <he>דַּצְיָיצָא</he>)."
+			]
+		}
+	]
+}

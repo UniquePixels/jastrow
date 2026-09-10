@@ -1,0 +1,25 @@
+{
+	"id": "P00893",
+	"slug": "עמירא",
+	"headword": {
+		"text": "עָמִירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲ׳"
+		}
+	],
+	"page": {
+		"number": 1088,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00892\">same</cite> <cite ref=\"Targum Jonathan on Amos 2:13\">Targ. Am. II, 13</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 4:12\">Targ. Mic. IV, 12</cite>; a. e.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 27:25\">Targ. Prov. XXVII, 25</cite> (h. text <he>חציר</he>; v. Syr. <cite ref=\"P00892\"><he>עמיר</he></cite>, P. Sm. 2921)."
+			]
+		}
+	]
+}

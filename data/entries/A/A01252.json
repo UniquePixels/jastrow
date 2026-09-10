@@ -1,0 +1,27 @@
+{
+	"id": "A01252",
+	"slug": "איכו",
+	"headword": {
+		"text": "אִיכּוּ"
+	},
+	"page": {
+		"number": 48,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>אי כה</he>) <i>if now; oh that</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 4b:1\">Bets. 4ᵇ</cite> top <he>א׳ השתא אשתלאי</he> if I (had given my decision forthwith) I should have made a mistake. ",
+				"<cite ref=\"Yevamot 46a:13\">Yeb. 46ᵃ</cite>.—",
+				"<cite ref=\"Sanhedrin 107a:6\">Snh. 107ᵃ</cite> <he>א׳ זממא וכ׳</he> oh that a muzzle had been put on my enemy’s (euphem. for <i>my</i>) mouth! i.e. oh that I never had said this!"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. f. <i>Ikhu</i>. Taan. 35ᵃ what is thy name? She said, Ikhu.—Said he <he>א׳ נמטו כשוריך</he> oh that thy joists were sufficiently long!",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "K00293",
+	"slug": "כומרא-2",
+	"headword": {
+		"text": "כּוּמְרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 621,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K00290\"><he>כּוֹמֶר</he> I</cite>) <i>withering</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 40b:17\">Ber. 40ᵇ</cite> <he>בושלי כ׳</he> Ms. M. a. oth. (ed. <cite ref=\"K00819\"><he>כמרא</he></cite>, expl. <he>נובלות</he>) dates ripened through withering."
+			]
+		}
+	]
+}

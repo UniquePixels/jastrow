@@ -1,0 +1,28 @@
+{
+	"id": "C00080",
+	"slug": "גביהא",
+	"headword": {
+		"text": "גְּבִיהָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּבִיהָה"
+		}
+	],
+	"page": {
+		"number": 206,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>G’biha</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 91a:15\">Snh. 91ᵃ</cite> ed. (Ar. <cite ref=\"C00099\"><he>גְּבִיעָא</he></cite>).—",
+				"<cite ref=\"Avodah Zarah 22a:6\">Ab. Zar. 22ᵃ</cite>"
+			]
+		}
+	]
+}

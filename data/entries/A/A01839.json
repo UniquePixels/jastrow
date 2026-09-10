@@ -1,0 +1,34 @@
+{
+	"id": "A01839",
+	"slug": "אליה",
+	"headword": {
+		"text": "אַלְיָה"
+	},
+	"page": {
+		"number": 68,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"L00247\"><he>לוי</he></cite>; v. infra)<i>attachment</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"G00561\"><he>זָנָב</he></cite>, <cite ref=\"C01101\"><he>גּוֹנְבָא</he></cite>) <i>tail, fat-tail</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 25a\">Ab. Zar. 25ᵃ</cite> (ref. to <cite ref=\"I Samuel 9:24\">I Sam. IX, 24</cite>) what means <i>v’heãleha</i> (and that which is upon [or by] it)? <he>שוק וא׳</he> that means the leg (with thigh) and the fat-tail. <he>מאי והעליה וכ׳</he> and why is it called ‘and that which is upon it’? Because the leg is near the fat-tail (back). ",
+				"<cite ref=\"Chullin 117a:8\">Ḥull. 117ᵃ</cite>; a. fr.—<he>כלפי א׳</he> (Ar. s. v. <cite ref=\"K00775\"><he>כלפי</he></cite>; ed. <he>כלפי לָיָיא</he>, Mss. <cite ref=\"L00401\"><he>לָיָא</he></cite>) <i>towards the tail!</i> i.e. <i>just the reverse!, reverse it</i>. ",
+				"<cite ref=\"Pesachim 5b\">Pes. 5ᵇ</cite>; <cite ref=\"Shabbat 93b\">Sabb. 93ᵇ</cite>; <cite ref=\"Avodah Zarah 75a\">Ab. Zar. 75ᵃ</cite>; a. fr. [Rashi: <he>כלפי ליֵיא</he> where are you turning to?]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ear-lap</i>. ",
+			"units": ["<cite ref=\"Ketubot 5b:2\">Keth. 5ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

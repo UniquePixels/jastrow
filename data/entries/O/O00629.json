@@ -1,0 +1,41 @@
+{
+	"id": "O00629",
+	"slug": "סייעתא",
+	"headword": {
+		"text": "סַיַּיעְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַיַּעְ׳"
+		}
+	],
+	"page": {
+		"number": 978,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"O00628\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 46:2\">Targ. Ps. XLVI, 2</cite> (ed. Wil. <cite ref=\"O00775\"><he>סִיעֲתָא</he></cite>, read <cite ref=\"O00776\"><he>סַיַּעְתָּא</he></cite>).—<he>ס׳ דשמיא</he>, <he>ס׳ מן שמיא</he> <i>divine assistance, providential grant</i>. ",
+				"<cite ref=\"Bava Batra 55a:8\">B. Bath. 55ᵃ</cite>, v. <cite ref=\"A02113\"><he>אַנְדִּיסְקֵי</he></cite>. ",
+				"<cite ref=\"Megillah 6b:4\">Meg. 6ᵇ</cite> <he>ס׳ מן ש׳ הוא</he> success depends on divine grace (not on man’s work alone); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>support</i> of an argument, <i>confirmation</i>, opp. <he>תיובתא</he> refutation. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 48a:8\">B. Mets. 48ᵃ</cite> <he>קרא לא תיובתא ולא ס׳</he> (Ms. F. a. R. 2 … <he>תיובתיה … סַיַּיעְתֵּיה</he>) no argument either against or in favor of his opinion could be derived from the text."
+			],
+			"label": "2"
+		}
+	]
+}

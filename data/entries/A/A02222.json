@@ -1,0 +1,21 @@
+{
+	"id": "A02222",
+	"slug": "אניגרא-2",
+	"headword": {
+		"text": "אַנִּיגְרָא",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 84,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>על ניגרא</he> <i>by the creek</i>) <i>shore;</i> v. <cite ref=\"N00620\"><he>נִיגְרָא</he></cite>, <cite ref=\"N00191\"><he>נִגְרָא</he></cite>. ",
+			"units": ["<cite ref=\"Bava Metzia 107b:13\">B. Mets. 107ᵇ</cite>; a. e."]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "M02277",
+	"slug": "מצוביתא",
+	"headword": {
+		"text": "מְצוֹבִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְצוֹבְיָיתָא"
+		}
+	],
+	"page": {
+		"number": 823,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"R00291\"><he>צִיב</he></cite>) <i>tufts</i> or <i>thrums</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 105a:13\">Sabb. 105ᵃ</cite> (expl. <cite ref=\"S01172\"><he>קירוס</he></cite>) <he>מ׳</he> (Ms. O. <he>מצוביי׳</he>, v. Rabb. D. S. a. l. note 6) the thrums or slips to which the threads of the warp are attached. ",
+				"<cite ref=\"Shabbat 105b:9\">Ib.ᵇ</cite> <he>שליף מצוביי׳</he> Ms. O. a. Rashi (ed. <cite ref=\"M02266\"><he>מְצַבְיָיתָא</he></cite>; Ms. M. <he>מְצוּבָתָא</he>; Ms. Alf. <cite ref=\"M01859\"><he>מְסוּבִיתָא</he></cite>, v. <cite ref=\"O00524\"><he>סִיב</he></cite>) pulled the thrums (of his garment, to indicate his anger).—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"R00293\"><he>צִיבָּא</he> II</cite>) <i>dry twigs, chips</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 29a:4\">Succ. 29ᵃ</cite> <he>אתא זיקא וקא מבלבל מ׳</he> Ar. (ed. <he>וקא מייתי ציבותא</he>; Ms. M. 1 <cite ref=\"R00044\"><he>צבייתא</he></cite>; 2 <cite ref=\"R00322\"><he>ציוותא</he></cite>; ed. Pes. a. oth. <he>צִיבֵּי</he>) a wind came and stirred up the withered twigs of the covering of the Succah."
+			],
+			"label": "2"
+		}
+	]
+}

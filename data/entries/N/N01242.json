@@ -1,0 +1,36 @@
+{
+	"id": "N01242",
+	"slug": "נקר-2",
+	"headword": {
+		"text": "נְקַר"
+	},
+	"page": {
+		"number": 935,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N01241\">same</cite> <cite ref=\"Targum Jonathan on Numbers 21:35\">Targ. Y. Num. XXI, 35</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 11:2\">Targ. I Sam. XI, 2</cite> <cite ref=\"M01289\"><he>מִיקַּר</he></cite> (ed. Wil. <cite ref=\"M01289\"><he>מֵיקַר</he></cite>); a. e.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 963:2\">Yalk. Prov. 963</cite> <he>דין נָקֵיר וכ׳</he> the one (the raven) picks the eye out, and the other (the eagle) eats it; Midr. Sam. ch. VII <cite ref=\"N00032\"><he>נָאקֵר</he></cite>.—Pesik. B’shall., p. 93ᵇ one worm <he>דעתידא דנַקְרָא וכ׳</he> which shall bite me behind the ear.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 12:1:4\">Y. Sabb. XII, beg. 13ᶜ</cite> <he>ההן דנ׳ כיפין וכ׳</he> he who chisels stones, columns, millstones &c.; a. e.—Part. pass. <he>נְקִיר</he>. ",
+				"<cite ref=\"Kiddushin 80b:2\">Kidd. 80ᵇ</cite> <he>אם איתא דנ׳ וכ׳</he> if it had been picked at (by the hens after drinking of a red liquid), it would have been noticeable."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַקֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01241\">same</cite>. Y. Ter. VIII, 45ᶜ top <he>הוה מְנַקְּרָא בתאינייא</he> a serpent had been biting at figs.—",
+					"units": [
+						"<cite ref=\"Moed Katan 10a:15\">M. Kat. 10ᵃ</cite> <he>דקא מְנַקֵּר ריחיא</he> (Ms. M. <cite ref=\"N01241\"><he>נְקַרִ</he></cite>) whetted millstones &c."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

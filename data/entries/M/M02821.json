@@ -1,0 +1,23 @@
+{
+	"id": "M02821",
+	"slug": "משוורתא",
+	"headword": {
+		"text": "מַשְׁוַורְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 849,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00355\"><he>שְׁוַור</he></cite>) <i>stirrup</i> (for jumping on an animal’s back). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 64b:10\">Snh. 64ᵇ</cite> <he>כמ׳ דפורייא</he> like the stirrup (a ring suspended from a frame) thrust over a bonfire on Purim, Ar. (Rashi: ‘like the children’s <i>leaping</i> over a bonfire’)."
+			]
+		}
+	]
+}

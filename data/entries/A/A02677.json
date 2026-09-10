@@ -1,0 +1,22 @@
+{
+	"id": "A02677",
+	"slug": "אפיטרופסות",
+	"headword": {
+		"text": "אֶפִּיטְרוֹפְסוּת"
+	},
+	"page": {
+		"number": 102,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"A02675\"><he>אפיטרופוס</he></cite>) <i>guardianship, administration</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 2:5\">Tosef. B. Bath. II, 5</cite> (<he>אפיטרוסות</he> ed. Zuck., corr. acc.); <cite ref=\"Tosefta Ketubot 9:3\">Tosef. Keth. IX, 3</cite> <he>יוצא מאפיטרופסותו</he> when he has ceased to be an administrator."
+			]
+		}
+	]
+}

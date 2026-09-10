@@ -1,0 +1,41 @@
+{
+	"id": "E00232",
+	"slug": "הויה",
+	"headword": {
+		"text": "הֲוָיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲוָויָה"
+		},
+		{
+			"text": "הֲוָיָיה"
+		}
+	],
+	"page": {
+		"number": 338,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00231\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>existence, status, condition, stability</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 54b:9\">Ab. Zar. 54ᵇ</cite> (ref. to <he>תהיה</he>, <cite ref=\"Leviticus 25:12\">Lev. XXV, 12</cite>) <he>בהַוְיָיתָהּ תהא</he> it shall remain in its status. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:6\">Y. Ber. II, 4ᵈ</cite> bot. (ref. to <he>והיו</he>, <cite ref=\"Deuteronomy 6:6\">Deut. VI, 6</cite>) <he>כדרך הַוְיָיתָן יהו</he> they shall remain (be read) in the order in which they stand. Y. Shek. IV, 48ᵇ top <he>שתהא ה׳ בקודש</he> that it must retain its sacred character. ",
+				"<cite ref=\"Shir HaShirim Rabbah 6:4:2\">Cant. R. to VI, 4</cite> (ref. to <he>והיו</he>, <cite ref=\"Numbers 7:5\">Num. VII, 5</cite>) <he>נתן להם ה׳</he> he gave them stability; <cite ref=\"Bamidbar Rabbah 12:1\">Num. R. s. 12</cite>, end <he>ניתן להם ה׳</he> (read <he>ניתנה</he>). ",
+				"<cite ref=\"Moed Katan 15a:18\">M. Kat. 15ᵃ</cite> <cite ref=\"E00232\"><he>הויה</he></cite> the use of the word <cite ref=\"E00230\"><he>היה</he></cite> in the Biblical text; <cite ref=\"Menachot 28a:8\">Men. 28ᵃ</cite>; a. e.—Esp. (with ref. to <he>והיתה לאיש</he>, <cite ref=\"Deuteronomy 24:2\">Deut. XXIV, 2</cite>, v. <cite ref=\"E00230\"><he>הָיָה</he></cite> <i>Pi.</i>) <i>legal status of marriage</i>, <cite ref=\"Kiddushin 5a:3\">Kidd. 5ᵃ</cite> <he>מקיש ה׳ ליציאה וכ׳</he> the text puts entrance into marriage on an equality with going out (divorce), as divorce takes place by means of a deed, so may marriage be contracted &c. ",
+				"<cite ref=\"Yevamot 13b:4\">Yeb. 13ᵇ</cite> (ref. to <he>לא תהיה</he>, <cite ref=\"Deuteronomy 25:5\">Deut. XXV, 5</cite>) <he>לא תהיה בה ה׳ לזר</he> she shall have no legal status with another man; Y. ib. I, 2ᶜ bot. <he>לא תהא לה ה׳ וכ׳</he> (not <he>יהא</he>); a. fr.—Pl. <he>הֲוָיוֹת</he>, <cite ref=\"E00247\"><he>הֲוָו׳</he></cite>. ",
+				"<cite ref=\"Ketubot 46b\">Keth. 46ᵇ</cite>, a. e. <he>איתקוש ה׳ להדדי</he> the various modes of entrance into marriage correspond to each other.—2) <he>הֲ׳</he>, or <cite ref=\"E00232\"><he>הַוָּיָה</he></cite> (v. <cite ref=\"E00231\">preced.</cite> <i>Pa.</i>) <i>discussion, argument</i>. Y. Maasr. II, 49ᵈ bot. <he>הוו׳ דר׳ מנא</he> the result of a discussion stated by R. M.—Pl. <he>הֲוָיוֹת</he> or <cite ref=\"E00247\"><he>הַוָּ׳</he></cite>. ",
+				"<cite ref=\"Sukkah 28a:7\">Succ. 28ᵃ</cite> <he>ה׳ דאביי וכ׳</he> (Ms. M. sing.) arguments raised by A. &c.; <cite ref=\"Bava Batra 134a:8\">B. Bath. 134ᵃ</cite> (Ms. H. sing., Ms. R. <he>הַוָּיֵי</he>; v. Rabb. D. S. a. l. note 40)."
+			],
+			"label": "1"
+		}
+	]
+}

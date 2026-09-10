@@ -1,0 +1,75 @@
+{
+	"id": "P01498",
+	"slug": "עשר-1",
+	"headword": {
+		"text": "עָשַׁר"
+	},
+	"page": {
+		"number": 1126,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"P01491\"><he>עֲשַׁן</he></cite>) <i>to be strong, substantial, wealthy</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱשִׁיר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"P01482\"><he>עָשִׁיר</he></cite>) <i>to become wealthy</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 25b:8\">B. Bath. 25ᵇ</cite> <he>ושיַעֲשִׁיר</he> and he who desires to become rich. ",
+						"<cite ref=\"Berakhot 33a:26\">Ber. 33ᵃ</cite> <he>הֶעֱשִׁירוּ קבעוה וכ׳</he> when they became wealthy, they made it a custom to recite the Habdalah over a cup. ",
+						"<cite ref=\"Meilah 17a\">Meïl. 17ᵃ</cite>, v. <cite ref=\"P00972\"><he>עָנָה</he> II</cite>, <i>Hif.</i> ",
+						"<cite ref=\"Nedarim 38a:7\">Ned. 38ᵃ</cite> <he>לא ה׳ משה וכ׳</he> Moses became rich from the chips of the tablets; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make rich</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 48a:12\">Keth. 48ᵃ</cite> <he>לאו כל הימנו שיעשיר וכ׳</he> he is not permitted to enrich his children and throw himself on the charities. ",
+						"<cite ref=\"Chullin 84b:1\">Ḥull. 84ᵇ</cite> (expl. <he>עשתרת</he>, <cite ref=\"Deuteronomy 7:13\">Deut. VII, 13</cite>) <he>שמַעֲשִׁירוֹת את בעליהן</he> Ar. (ed. <he>שמְעַשְּׁרוֹת</he>, <i>Pi.</i>) for they make their owners rich; <cite ref=\"Yalkut Shimoni on Torah 848:5\">Yalk. Deut. 848</cite> <he>שמעשרות</he>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 7:11:1\">Cant. R. to VII, 11</cite> (ref. to <he>תעשרנה</he>, <cite ref=\"Psalms 65:10\">Ps. LXV, 10</cite>) <he>אם זכיתם תַּעֲשִׁיֶרנָּה ואם לאו תְּעַשְּׂרֶנָּה וכ׳</he> if you deserve well (it reads:) ‘thou makest her rich’, if not, ‘thou reducest her to one-tenth’, that she yield you only one-tenth; a. e. "
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["עִישֵּׁר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P01497\">same</cite>; v. supra. B. Bath. l. c., v. infra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַשֵּׁר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַשֵּׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to become rich</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 119a:7\">Sabb. 119ᵃ</cite>; <cite ref=\"Taanit 9a:2\">Taan. 9ᵃ</cite> (play on <he>עשר תעשר</he>, <cite ref=\"Deuteronomy 14:22\">Deut. XIV, 22</cite>) <he>עַשֵּׂר בשביל שתִּתְעַשֵּׂר</he> give tithes in order that thou become rich. B. Bath. l. c. <he>מתוך שמתחכם מִתְעַשֵּׁר</he> for when he grows wise, he will also grow rich; (Ms. M. <he>חכמתו מְעַשַּׁרְתּוֹ</he> his wisdom makes him rich). ",
+						"<cite ref=\"Pesachim 50b:10\">Pes. 50ᵇ</cite> <he>עשרים … שלא יִתְעַשְּׁרוּ שאילמלי מִתְעַשְּׁרִין וכ׳</he> the men of the Great Assembly held twenty-four fasts to pray that the copyists of sacred books &c. might not become rich, for if they grew rich, they would not write; a. fr.—[2) (b. h.) <i>to pretend to be rich, to pass for a rich man</i>. ",
+						"<cite ref=\"Menachot 85b:17\">Men. 85ᵇ</cite>. ",
+						"<cite ref=\"Midrash Tehillim 24:1\">Midr. Till. to Ps. XXIV</cite>.]"
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

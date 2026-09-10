@@ -1,0 +1,41 @@
+{
+	"id": "H00154",
+	"slug": "חגל",
+	"headword": {
+		"text": "חֲגַל"
+	},
+	"page": {
+		"number": 424,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>חגג</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to draw a circle</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 8:27\">Targ. Prov. VIII, 27</cite> Ms., v. <cite ref=\"H00140\"><he>חֲגַג</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go around</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַגֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to go around</i> (visiting, peddling, begging; cmp. P. Sm. 1191). Y. Sot. III, 19ᵃ bot. (expl. <he>שובבית</he>) [read:] <he>מְחַגְּלָה ונסבת וכ׳</he> she goes about visiting and gets a bad reputation. [<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite> <he>והוות חַגְלַת נגידה לה</he> Ar. ed. Koh.; <cite ref=\"Yalkut Shimoni on Nach 352\">Yalk. Is. 352</cite> <he>והוות חגלה נגידא ליה</he> and she (his wife) went around begging, leading him.]",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

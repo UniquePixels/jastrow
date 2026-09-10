@@ -1,0 +1,35 @@
+{
+	"id": "I00607",
+	"slug": "טעינה",
+	"headword": {
+		"text": "טְעִינָה"
+	},
+	"page": {
+		"number": 543,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טָעַן</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>loading, assistance rendered in loading up</i>, opp. <cite ref=\"Q01829\"><he>פְּרִיקָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 31a:23\">B. Mets. 31ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 32a:19\">Ib. 32ᵃ</cite> <he>ט׳ בשכר</he> for assistance in loading one may claim wages; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>carrying</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 6:8\">Num. R. s. 6</cite> <he>לשם טְעִינַת הארון</he> for the office of carrying the Ark."
+			],
+			"label": "2"
+		}
+	]
+}

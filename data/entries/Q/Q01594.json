@@ -1,0 +1,28 @@
+{
+	"id": "Q01594",
+	"slug": "פרדשכא",
+	"headword": {
+		"text": "פַּרְדַּשְׁכָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְדַּכְשָׁא"
+		}
+	],
+	"page": {
+		"number": 1216,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a further corrupt. of <cite ref=\"Q01581\"><he>פַּרְדִּיסְקֵי</he> I</cite>, v. Perl. Et. St. p. 132) <i>officer, policeman</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 12b:13\">Meg. 12ᵇ</cite> (ref. to <cite ref=\"Esther 1:22\">Esth. I, 22</cite>) <he>פשיטא אפי׳ קרחה בביתיה פ׳ ליהוי</he> (Ar. <he>פרדכ׳</he>; Ms. M. <he>פרדנ׳</he>, read <cite ref=\"K00000\"><he>כ</he></cite> for <cite ref=\"N00001\"><he>נ</he></cite>; v. Rabb. D. S. a. l. note) is it not a matter of course? Even a weaver—in his house he must be the police; <cite ref=\"Yalkut Shimoni on Nach 1051:3\">Yalk. Esth. 1051</cite>. ",
+				"<cite ref=\"Shabbat 94a:4\">Sabb. 94ᵃ</cite> <he>ההוא פ׳ דרתח וכ׳</he> (Ms. M. <he>פרשדכא</he>) a certain officer with whom the king was wroth.—[<cite ref=\"Yalkut Shimoni on Nach 1053\">Yalk. Esth. 1053</cite> <he>פרדשכי</he>, v. next w.]"
+			]
+		}
+	]
+}

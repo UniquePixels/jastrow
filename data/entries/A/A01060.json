@@ -1,0 +1,36 @@
+{
+	"id": "A01060",
+	"slug": "אחרן",
+	"headword": {
+		"text": "אָחֳרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹחֲרָן"
+		},
+		{
+			"text": "אוֹחֲרָנָא"
+		}
+	],
+	"page": {
+		"number": 41,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"A01050\"><he>אִחֲרוֹן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 20:3\">Targ. Ex. XX, 3</cite>; a. fr.—Fem. <cite ref=\"A00618\"><he>אוֹחֲרַנְתָּא</he></cite>, <he>אוֹחֲרָנִית</he>, <he>אָחֳרָנִיתָא</he>. ",
+				"<cite ref=\"Onkelos Exodus 21:10\">Targ. O. ib. XXI, 10</cite> (another, additional wife). Ibid. ",
+				"<cite ref=\"Genesis 17:21\">Gen. XVII, 21</cite>.—",
+				"<cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite>.—",
+				"<cite ref=\"Bava Batra 16a:15\">B. Bath. 16ᵃ</cite> <he>אחרניתא</he> a stranger (not his own wife).—Pl. <he>אוּחֲרנְיָן</he>, <he>אוּחֲרַנְיָין</he>. ",
+				"<cite ref=\"Onkelos Genesis 41:3\">Targ. O. Gen. XLI, 3</cite>; a. e. <he>אָחֲרַנְיָיאתָא</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:12\">Cant. R. to IV, 12</cite>.—[<cite ref=\"Targum Jonathan on Genesis 35:8\">Targ. Y. Gen. XXXV, 8</cite> <he>אוֹחֲרַן בכיותא</he> a repetition of weeping, v. <cite ref=\"A01817\"><he>אִלּוֹן</he> II</cite>.]"
+			]
+		}
+	]
+}

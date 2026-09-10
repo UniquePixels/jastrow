@@ -1,0 +1,46 @@
+{
+	"id": "U00220",
+	"slug": "שגח-2",
+	"headword": {
+		"text": "שְׁגַח"
+	},
+	"page": {
+		"number": 1521,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to look</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:9\">Targ. Cant. II, 9</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to care for, mind</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 22:2\">Targ. Job XXII, 2</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 5:1:3\">Y. B. Bath. V, beg. 15ᵃ</cite> <he>בשדה בור דלא מַשְׁגַּח עליה</he> in the case of an uncultivated field, about which the owner does not care (if people gather its spontaneous growth). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:8:8\">Y. Snh. III, 21ᶜ</cite> top, <cite ref=\"C01175\"><he>גְּסַס</he></cite>. Ib. VI, 23ᵈ bot. <he>מַשְׁגְּחִין רבנן מימר וכ׳</he> would the rabbis (you) mind to say a word of the Law? <he>אמרו ליה א׳ מרן</he> said they to him, would you mind? <cite ref=\"Jerusalem Talmud Niddah 2:7:6\">Y. Nidd. II, end, 50ᵇ</cite> <he>מאי חמא רבי משגח עלינן וכ׳</he> what reason had the master (you) to care for us (consult our opinion) this day? <cite ref=\"Sukkah 31a\">Succ. 31ᵃ</cite> <he>ולא א׳ בה</he>, v. <cite ref=\"R00170\"><he>צְוַוח</he></cite>. ",
+				"<cite ref=\"Sukkah 31a:8\">Ib.</cite> <he>ולא אַשְׁגְּחִיתוּ בה</he> and you pay no attention to her? <cite ref=\"Bereishit Rabbah 32:10\">Gen. R. s. 32</cite> <he>לא א׳ ביה קרייה ולא אחשביה כלום</he> the Biblical text paid no attention to it and did not consider it at all; <cite ref=\"Shir HaShirim Rabbah 4:4:4\">Cant. R. to IV, 4</cite> <he>ולא א׳ ביה עילוי קרייה</he> (strike out <he>עילוי</he>); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00234\"><he>אַשְׁגַּח</he></cite> same, ",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

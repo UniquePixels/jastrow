@@ -1,0 +1,31 @@
+{
+	"id": "D01109",
+	"slug": "דרמסקינא",
+	"headword": {
+		"text": "דַּרְמַסְקִינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּרְמַסְקִינִין"
+		}
+	],
+	"page": {
+		"number": 324,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (pl. of δαμασκηνόν) <i>Damascene plums</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:7:5\">Y. Sabb. I, 4ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Beitzah 3:2:5\">Y. Bets. III, 62ᵃ</cite> top <cite ref=\"D00377\"><he>דורמסקנא</he></cite>, <he>נה …</he> <cite ref=\"Berakhot 39a\">Ber. 39ᵃ</cite> <cite ref=\"D00375\"><he>דורמסקין</he></cite> (Ms. M. margin <cite ref=\"D00377\"><he>דורמסקנין</he></cite>; Y. ib. VI, 10ᵇ bot. <cite ref=\"A01015\"><he>אַחְוָנַיָּיא</he></cite>).—",
+				"<cite ref=\"Bava Kamma 116b\">B. Kam. 116ᵇ</cite> top <cite ref=\"D00377\"><he>דורמסקנין</he></cite>. ",
+				"<cite ref=\"Tosefta Terumot 7:13\">Tosef. Ter. VII, 13</cite> <he>דרמסקנין</he>. ",
+				"<cite ref=\"Tosefta Demai 1:9\">Tosef. Dem. I, 9</cite> <he>דורמסקיות</he> ed. Zuck. (Var. <cite ref=\"D00377\"><he>דּוּרְמַסְקְנִיּוֹת</he></cite>)."
+			]
+		}
+	]
+}

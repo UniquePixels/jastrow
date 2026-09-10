@@ -1,0 +1,36 @@
+{
+	"id": "A02053",
+	"slug": "אמפלי",
+	"headword": {
+		"text": "אַמְפְּלַי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַמְפּוֹלַי"
+		},
+		{
+			"text": "אַנְפְּלַי"
+		},
+		{
+			"text": "אִינְפּוֹלַי"
+		}
+	],
+	"page": {
+		"number": 78,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01054\"><he>נָפַל</he></cite>; cmp. <cite ref=\"A00775\"><he>אוּנְקְלַי</he></cite> as to form) <i>the merchant’s money-chest into which receipts are dropped through a slit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 7:6\">Shebu. VII, 6</cite> (<cite ref=\"Shevuot 45a\">45ᵃ</cite>) <cite ref=\"A02053\"><he>אמפלי</he></cite> Mish. Nap. (Ar. <he>אמפו׳</he>, ed. <cite ref=\"A02300\"><he>אונ׳</he></cite>; Y. <he>אנ׳</he>; v. Rabb. D. S. a. l. note 10). ",
+				"<cite ref=\"Tosefta Ma'aser Sheni 4:11\">Tosef. Maas. Sh. IV, 11</cite> ed. Zuck. <he>אינפו׳</he> (ed. <cite ref=\"A00775\"><he>אונקלי</he></cite>, <cite ref=\"A00762\"><he>אונקולין</he></cite>). ",
+				"<cite ref=\"Tosefta Ma'aser Sheni 4:11\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Shevuot 6:4\">Shebu. VI, 4</cite> <cite ref=\"A00748\"><he>אונכלי</he></cite> ed. Zuck. (corr. acc.; oth. ed. <cite ref=\"A00759\"><he>אוּנְפְּלָא</he></cite>). Cmp. <cite ref=\"A00758\"><he>אוּנְפִּיל</he></cite>."
+			]
+		}
+	]
+}

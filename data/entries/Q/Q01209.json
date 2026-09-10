@@ -1,0 +1,40 @@
+{
+	"id": "Q01209",
+	"slug": "פנק-1",
+	"headword": {
+		"text": "פָּנַק"
+	},
+	"page": {
+		"number": 1190,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"Q00314\"><he>פּוּק</he></cite>) [<i>to go out</i>,] <i>to be a freeman; to live in luxury</i> (cmp. <cite ref=\"H00582\"><he>חָטָא</he> I</cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּנֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to treat as a freeman, to indulge, spoil by indulgence</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22:6\">Gen. R. s. 22</cite> (ref. to <cite ref=\"Proverbs 29:21\">Prov. XXIX, 21</cite>) <he>שמְפַנֵּק וכ׳</he>, v. <cite ref=\"M01746\"><he>מָנוֹן</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 962\">Yalk. Prov. 962</cite> (<cite ref=\"Yalkut Shimoni on Nach 961\">ib. 961</cite> <he>ממתק</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to treat tenderly; to cultivate, improve, embellish</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 306:4\">Sifré Deut. 306</cite> <he>מְפַנְּקִים</he>; <cite ref=\"Yalkut Shimoni on Torah 942\">Yalk. ib. 942</cite>, v. <cite ref=\"P00153\"><he>עָדַן</he></cite>; a. e.—<i>Part. pass.</i> <he>מְפוּנָּק</he> <i>delicately reared</i>. Mekh. Mishp. s. 8, v. <cite ref=\"P00153\"><he>עָדַן</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 339\">Yalk. Ex. 339</cite>. ",
+						"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> <he>היה מפ׳ ומת בידם</he> he was delicate (unused to hardship), and died under their hands."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "U01362",
+	"slug": "שלמצה",
+	"headword": {
+		"text": "שְׁלַמְצָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלַמְצוּ"
+		}
+	],
+	"page": {
+		"number": 1587,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f. (abbrev. of <he>שלם ציון</he>) <i>Sh’lamtsa, Sh’lamtsu</i> (Salome Alexandra), wife and successor of king Alexander Jannai. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 35:10\">Lev. R. s. 35</cite>; Sifra B’huck. ch. I; <cite ref=\"Taanit 23a\">Taan. 23ᵃ</cite> quoted in Tosaf. to <cite ref=\"Shabbat 16b\">Sabb. 16ᵇ</cite> <cite ref=\"U01196\"><he>של ציון</he></cite>. ",
+				"<cite ref=\"Shabbat 16b\">Sabb. 16ᵇ</cite> <cite ref=\"U01196\"><he>של ציון</he></cite> (Ms. M. <cite ref=\"U01379\"><he>שלציון</he></cite>, in one wd.). ",
+				"<cite ref=\"Kohelet Rabbah 7:11\">Koh. R. to VII, 11</cite> <cite ref=\"U01364\"><he>שלמתו</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "R00401",
+	"slug": "ציפא-1",
+	"headword": {
+		"text": "צִיפָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1278,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"R00402\">next w.</cite>; cmp. <cite ref=\"R00710\"><he>צַפְצָפָה</he></cite> a. <cite ref=\"P01262\"><he>עֲרָבָה</he></cite>) <i>willow.—</i>Pl. <he>צִיפֵּי</he>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 45a:6\">Kidd. 45ᵃ</cite> <he>קא שתו … תותי צ׳ וכ׳</he> were drinking wine under willows in Babylonia; [oth. opin., v. next w.]"
+			]
+		}
+	]
+}

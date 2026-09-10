@@ -1,0 +1,23 @@
+{
+	"id": "P00410",
+	"slug": "עזיזא",
+	"headword": {
+		"text": "עַזִּיזָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1061,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00409\">preced.</cite>) <i>sting, insult</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 15:1\">Targ. Prov. XV, 1</cite> (h. text <he>עצב</he>)."
+			]
+		}
+	]
+}

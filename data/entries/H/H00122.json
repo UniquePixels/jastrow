@@ -1,0 +1,40 @@
+{
+	"id": "H00122",
+	"slug": "חברותא",
+	"headword": {
+		"text": "חַבָּרוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַבְרוּתָא"
+		}
+	],
+	"page": {
+		"number": 423,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"H00121\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>attachment; companionship, friendship</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 139:2\">Targ. Ps. CXXXIX, 2</cite> (h. text <cite ref=\"T00894\"><he>רֵעִי</he></cite>).—",
+				"<cite ref=\"Taanit 23a:17\">Taan. 23ᵃ</cite> (prov.) <he>או ח׳ או מיתותא</he> (Ms. M. <he>אי חברא אי מותא</he>) either companions or death; <cite ref=\"Bava Batra 16b\">B. Bath. 16ᵇ</cite> (v. Rabb. D. S. a. l. note 90). ",
+				"<cite ref=\"Berakhot 34a:1\">Ber. 34ᵃ</cite> top <he>ח׳ כלפי שמיא</he> (<he>מי איכא</he>) is there a social equality with reference to Heaven (dare man treat prayer as he would a talk with a friend)?; <cite ref=\"Megillah 25a:13\">Meg. 25ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (collect. noun) <i>scholars of the college</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 96b:16\">Yeb. 96ᵇ</cite> <he>ח׳ נמי</he> the fellows (my pupils), too, are quoted against me?—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:2:3\">Y. Shebi. VII, 37ᶜ</cite> top <he>ר׳ יוחנן וחברותיה</he> (v. <cite ref=\"H00036\"><he>חֲבוּרְתָּא</he></cite>).—Pl. <he>חַבְרָוָותָא</he>. ",
+				"<cite ref=\"Chullin 57b:5\">Ḥull. 57ᵇ</cite> Rashi (ed. <cite ref=\"H00020\"><he>חבוורתא</he></cite>, corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "K00690",
+	"slug": "כלה-1",
+	"headword": {
+		"text": "כְּלָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 639,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A00529\"><he>אוּכְלָא</he></cite>, <cite ref=\"P00239\"><he>עוּכְלָא</he></cite>) <i>K’lah</i>, a measure for spices. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 3:9:2\">Y. Bets. III, end, 62ᵇ</cite> <he>תן לי כ׳ וכ׳</he> give me a <i>k’lah</i> of spices, for housekeepers are in the habit of putting a <i>k.</i> of spices &c. Y. Peah VIII, 20ᵈ bot. <he>כולה תבלין</he> a K. is the ordinary quantity for spices; (<cite ref=\"Eruvin 29a:5\">Erub. 29ᵃ</cite>; R. S. to <cite ref=\"Mishnah Peah 8:5\">Peah VIII, 5</cite> <cite ref=\"P00239\"><he>עוכלא</he></cite>)."
+			]
+		}
+	]
+}

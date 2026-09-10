@@ -1,0 +1,23 @@
+{
+	"id": "B00035",
+	"slug": "באלי-2",
+	"headword": {
+		"text": "בָּאלִי"
+	},
+	"page": {
+		"number": 135,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bali</i> (Οὐάλης, Βάλης, <i>Valens</i>). ",
+			"units": [
+				"<cite ref=\"Berakhot 25b:23\">Ber. 25ᵇ</cite>; <cite ref=\"Taanit 18a:12\">Taan. 18ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 17b:4\">Sabb. 17ᵇ</cite>; <cite ref=\"Avodah Zarah 36b:2\">Ab. Zar. 36ᵇ</cite>. Cmp. <cite ref=\"F00064\"><he>וָולִיס</he></cite>."
+			]
+		}
+	]
+}

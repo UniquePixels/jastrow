@@ -1,0 +1,29 @@
+{
+	"id": "B00251",
+	"slug": "בוכריא",
+	"headword": {
+		"text": "בּוּכַּרְיָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּכַּרְיָה"
+		},
+		{
+			"text": "בַּכַּרְיָא"
+		}
+	],
+	"page": {
+		"number": 145,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " Ar.) (m. pl.?) f. (baccar, baccaris; βάκχαρις = ἄσαρον; v. Sm. Ant. s. v. Asaron, Löw Pfl. p. 370) <i>baccar</i>, an aromatic plant supposed to be <i>hazelwort</i> or <i>spike-nard</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:2\">Shebi. VII, 2</cite> (Ms. M. <he>כובריא</he>). ",
+				"<cite ref=\"Tosefta Kilaim 3:12\">Tosef. Kil. III, 12</cite> <cite ref=\"B00368\"><he>בורכייר</he></cite> ed. Zuck. (oth. ed. <cite ref=\"B01293\"><he>ברכוייר</he></cite>, <cite ref=\"B01293\"><he>ברכוייד</he></cite>)."
+			]
+		}
+	]
+}

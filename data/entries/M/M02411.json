@@ -1,0 +1,28 @@
+{
+	"id": "M02411",
+	"slug": "מקטורא",
+	"headword": {
+		"text": "מִקְטוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִקְטוֹרָה"
+		}
+	],
+	"page": {
+		"number": 830,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<he>קְטַר</he> II) <i>the upper garment with the girdle, walking cloak</i> or <i>sheet</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:2:3\">Y. B. Mets. II, beg. 8ᵇ</cite> <he>אשכח … כריך במ׳</he> found a web wrapped up in a cloak. ",
+				"<cite ref=\"Avodah Zarah 58b:8\">Ab. Zar. 58ᵇ</cite> <he>אדמִקְטוֹרָךְ עלך וכ׳</he> before you take off your cloak, go back (and rescind your decision)."
+			]
+		}
+	]
+}

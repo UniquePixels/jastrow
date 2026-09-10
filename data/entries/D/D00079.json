@@ -1,0 +1,22 @@
+{
+	"id": "D00079",
+	"slug": "דבר-5",
+	"headword": {
+		"text": "דַּבָּר"
+	},
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דבר</he>) <i>leader</i>.—Pl. <he>דַּבָּרִין</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 8a:7\">Snh. 8ᵃ</cite> <he>ד׳ אחד וכ׳</he> a generation must have one leader, but not two."
+			]
+		}
+	]
+}

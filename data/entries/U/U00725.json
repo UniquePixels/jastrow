@@ -1,0 +1,23 @@
+{
+	"id": "U00725",
+	"slug": "שחת-3",
+	"headword": {
+		"text": "שַׁחַת",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1552,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U00362\"><he>שׁוּחַ</he></cite>)<i>pit, grave</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> (ref. to <cite ref=\"Psalms 75:8\">Ps. LXXV, 8</cite>) <he>זה שהשפיל לישראל לבאר ש׳ וכ׳</he> as <i>zeh</i> (<cite ref=\"Nehemiah 9:18\">Neh. IX, 18</cite>) brought Israel down to the lowest pit, so did <i>zeh</i> (<cite ref=\"Exodus 30:13\">Ex. XXX, 13</cite>) lift it up &c.; a. e."
+			]
+		}
+	]
+}

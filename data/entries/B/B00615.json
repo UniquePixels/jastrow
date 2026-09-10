@@ -1,0 +1,24 @@
+{
+	"id": "B00615",
+	"slug": "בילה",
+	"headword": {
+		"text": "בִּילָה"
+	},
+	"page": {
+		"number": 161,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"B00862\"><he>בְּלִילָה</he></cite>, fr. <cite ref=\"B00880\"><he>בלל</he></cite>, cmp. <cite ref=\"N00623\"><he>נִידָה</he></cite> <cite ref=\"Lamentations 1:8\">Lam. I, 8</cite>; <cite ref=\"P00571\"><he>עִילָה</he></cite> a. <cite ref=\"P00804\"><he>עֲלִילָה</he></cite>) <i>thorough mixture, even distribution of mixed objects</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 80a:14\">Zeb. 80ᵃ</cite> <he>יש ב׳</he> a mixture is considered evenly distributed in all its parts. ",
+				"<cite ref=\"Rosh Hashanah 13b:11\">R. Hash. 13ᵇ</cite> <he>לכל אין ב׳</he> none of the mixtures named is a real mixture (of even distribution), except wine and oil (being liquid). ",
+				"<cite ref=\"Chullin 83b:10\">Ḥull. 83ᵇ</cite>, a. fr. <he>כל הראוי לב׳ וכ׳</he> wherever from the proportions and properties of the mixture a perfect fusion is possible, the real act of mixing thoroughly is not indispensable."
+			]
+		}
+	]
+}

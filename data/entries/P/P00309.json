@@ -1,0 +1,23 @@
+{
+	"id": "P00309",
+	"slug": "עונתא-2",
+	"headword": {
+		"text": "עוֹנָתָא"
+	},
+	"page": {
+		"number": 1055,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"P00296\"><he>עוֹנָה</he> III</cite>) [<i>eyes</i>,] <i>rings</i> of a yoke (κρίκος). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 10:10\">Targ. Hos. X, 10</cite> (Rashi: <he>עֵינוֹהִי</he>; h. text <he>עינתם</he>, K’ri <he>עונותם</he>). Cmp. <cite ref=\"P00601\"><he>עַיִן</he></cite> 2."
+			]
+		}
+	]
+}

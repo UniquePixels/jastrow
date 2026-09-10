@@ -1,0 +1,30 @@
+{
+	"id": "H01474",
+	"slug": "חפר-2",
+	"headword": {
+		"text": "חֲפַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 493,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01473\">same</cite><i>to dig</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 7:16\">Targ. Ps. VII, 16</cite> (Ms. <he>כרא</he>). ",
+				"<cite ref=\"Onkelos Genesis 26:15\">Targ. Gen. XXVI, 15</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"H01453\"><he>חֲפִיר</he></cite> q. v."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (trnsf.) <i>to plan, espy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:27\">Targ. Prov. XVI, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 39:29\">Targ. Job XXXIX, 29</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

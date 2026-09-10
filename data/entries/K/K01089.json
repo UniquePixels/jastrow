@@ -1,0 +1,31 @@
+{
+	"id": "K01089",
+	"slug": "כרגא",
+	"headword": {
+		"text": "כַּרְגָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרַגָּא"
+		}
+	],
+	"page": {
+		"number": 664,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"H01694\"><he>חֲרִיקָא</he></cite>, a. Arab. ḫaraġ) <i>capitation tax, tax, tribute</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:1\">Targ. Lam. I, 1</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 55a:4\">B. Bath. 55ᵃ</cite> <he>כ׳ אקרקף וכ׳</he> <i>karga</i> rests on the head of man, i.e. is a personal liability, opp. to <cite ref=\"I00593\"><he>טַסְקָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 55a:6\">Ib.</cite> <he>אפי׳ … משתעבדי לכ׳</he> even the barley in the pot is seizable for <i>k.</i>—",
+				"<cite ref=\"Bava Metzia 73b:7\">B. Mets. 73ᵇ</cite> <he>דיהבי זוזי אַכַּ׳ דאינשי וכ׳</he> who pay the taxes for other people and force them to unreasonable services. ",
+				"<cite ref=\"Ketubot 87a\">Keth. 87ᵃ</cite>, v. <cite ref=\"A01756\"><he>אַכְרַזְתָּא</he></cite>."
+			]
+		}
+	]
+}

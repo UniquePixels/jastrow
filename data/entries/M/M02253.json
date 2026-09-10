@@ -1,0 +1,24 @@
+{
+	"id": "M02253",
+	"slug": "מפרש",
+	"headword": {
+		"text": "מְפָרֵשׁ"
+	},
+	"page": {
+		"number": 822,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>) <i>one who undertakes a voyage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 6:5\">Gitt. VI, 5</cite> <he>המ׳ והיוצא וכ׳</he> one who starts for a sea voyage or a caravan journey.—Pl. <he>מְפָרְשִׁים</he>.—<he>מְפָרְשֵׁי הים</he>, <he>מ׳ ימים</he> <i>sea-farers</i>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:4\">Y. Sabb. II, beg. 4ᶜ</cite>, a. e. <he>חיזרתי על כל מ׳ ימים</he> I went around inquiring of all sea-faring people; (Bab. ",
+				"<cite ref=\"Shabbat 20b:8\">ib. 20ᵇ</cite> <he>נחותי ימא</he>).—[In later Hebr. <he>מ׳</he> <i>commentator</i>.]"
+			]
+		}
+	]
+}

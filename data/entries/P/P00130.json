@@ -1,0 +1,36 @@
+{
+	"id": "P00130",
+	"slug": "עדי-3",
+	"headword": {
+		"text": "עדי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עָדָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1044,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P00122\"><he>עָדַד</he></cite>)<i>to strip</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱדָה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00129\">same</cite>, <i>to take off</i>. Lam. R. introd. (R. Ḥan. 1) <he>יום … ה׳ מהן וכ׳</he> on the day Nebuchadnezzar came in conflict with Israel, he deprived them of two garments, the garment of priesthood and the garment of royalty.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

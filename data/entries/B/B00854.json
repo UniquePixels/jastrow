@@ -1,0 +1,57 @@
+{
+	"id": "B00854",
+	"slug": "בלי-2",
+	"headword": {
+		"text": "בלי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּלָה"
+		}
+	],
+	"page": {
+		"number": 172,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בל</he> , v. <cite ref=\"B00880\"><he>בלל</he></cite>; cmp. <cite ref=\"N00091\"><he>נבל</he></cite>) <i>to be crumbled; to be worn out, to fail, decay, perish</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:4:5\">Koh. R. to I, 4</cite> <he>הוא בוֹלֶה</he> it (the generation of man) decays (dies out), <he>אינה בוֹלָה</he> it (the earth) does not grow old. ",
+				"<cite ref=\"Taanit 9a:4\">Taan. 9ᵃ</cite> (play on <he>עד בלי די</he> <cite ref=\"Malachi 3:10\">Mal. III, 10</cite>) <he>עד שיִבְלוּ שפתותיכם מלומר די</he> until your lips grow tired from saying, It is enough; (Y. ib. III, 66ᵈ bot. <he>שיבללו</he>, v. <cite ref=\"B00880\"><he>בָּלַל</he></cite>); a. fr.—Part. pass. <cite ref=\"B00830\"><he>בָּלוּי</he></cite> <i>outworn</i>. Pl. <cite ref=\"B00829\"><he>בְּלוּיִים</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 25:2\">Midr. Till. to Ps. XXV, 1</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּלָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to wear out, outlive, survive</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 4:8\">Lev. R. s. 4</cite> <he>הנפש מְבַלָּה וכ׳</he> the soul survives the body. ",
+						"<cite ref=\"Vayikra Rabbah 19:2\">Lev. R. s. 19</cite> (play on <he>אין בלתך</he>, <cite ref=\"I Samuel 2:2\">I Sam. II, 2</cite>) <he>אין לְבַלּוֹתֶךָ</he> there is none to outlive thee. Koh. R. l. c.; <cite ref=\"Shir HaShirim Rabbah 5:15\">Cant. R. to V, 15</cite> one erects a building <he>ואחר מְבַלֶּה אותו</he> (not <he>מכלה</he>) and another man ruins it. ",
+						"<cite ref=\"Sanhedrin 105a\">Snh. 105ᵃ</cite>, v. <cite ref=\"B00904\"><he>בִּלְעָם</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִבְלָה"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְבַּלָּה</he> <i>to become outworn, fade away</i>. Esth. R. introd. <he>עתידין לְהִבָּלוֹת</he> (<cite ref=\"Bereishit Rabbah 42:3\">Gen. R. s. 42</cite> <he>לִבְלוֹת</he>) are destined to decay. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite>, end <he>נִתְבַּלּוּ</he> (the garments) were worn out. ",
+						"<cite ref=\"Bava Metzia 87a\">B. Mets. 87ᵃ</cite> <he>נ׳ הבשר</he> her body was withered. ",
+						"<cite ref=\"Bava Batra 146a:7\">B. Bath. 146ᵃ</cite> <he>עשויין לִיבָּלוֹת</he> made to be used up."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "K00623",
+	"slug": "כירומניקיא",
+	"headword": {
+		"text": "כִּירוֹמָנִיקְיָא"
+	},
+	"page": {
+		"number": 636,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (χειρομάνικα = μανίκια, S.) [<i>tight sleeves</i>,] <i>handcuffs, manacles</i> (cmp. Lat. manicae). ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 36:6\">Targ. II Chr. XXXVI, 6</cite> (a gloss to <he>שושלון דנחשא</he>). ",
+				"<cite ref=\"Targum of II Chronicles 33:11\">Ib. XXXIII, 11</cite> <he>כירומנק׳</he> ed. Lag. (h. text <he>חחים</he>);—Y. Snh. X, 28ᶜ bot.; Ruth. R. to II, 14 <he>כירומניקאה</he>; Pesik. Shub. p. 162ᵃ <he>כידי ומנקייה</he> (corr. acc.). ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:8\">Cant. R. to IV, 8</cite> (ref. to <he>זקים</he>, <cite ref=\"Isaiah 45:14\">Is. XLV, 14</cite>) <cite ref=\"S02162\"><he>קרקומניקיא</he></cite>, Bxt. <he>כרקומ׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

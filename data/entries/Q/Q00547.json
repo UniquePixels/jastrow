@@ -1,0 +1,130 @@
+{
+	"id": "Q00547",
+	"slug": "פטר-1",
+	"headword": {
+		"text": "פָּטַר"
+	},
+	"page": {
+		"number": 1157,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to break through, open</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 8:1\">Bekh. VIII, 1</cite> (<cite ref=\"Bekhorot 46a:9\">46ᵃ</cite>) (ref. to <cite ref=\"Exodus 13:2\">Ex. XIII, 2</cite>) <he>עד שיִפְטְרוּ רחם מישראל</he> (not <he>שיפטרוה</he>) provided they open the womb when the mother is an Israelite (although she conceived before her conversion); ib. 47ᵃ.—2) <i>to send off, discharge, dismiss</i>. ",
+				"<cite ref=\"Mishnah Ketubot 13:5\">Keth. XIII, 5</cite>, a. fr. <he>או כנוס או פְּטוֹר</he> (the betrothed has a right to say) either marry or release (me by divorce). ",
+				"<cite ref=\"Mishnah Gittin 6:5\">Gitt. VI, 5</cite> <he>פִּטְרוּהָ … לא אמר כלום</he> if one says to friends, ‘release her’ … he has said nothing (they are not authorized to write a letter of divorce, as it might mean, release her of her debts &c.); ib. 65ᵇ <he>ר׳ נתן אומר פַּטְּרוּהָ דבריו קיימין פִּיטְרוּהָ לא אמר כלום</he> R. N. says, if he said <i>paṭṭ’ruha</i> (<i>Pi.</i>), his words stand (a divorce is meant), but if he says <i>piṭruha</i> (<i>Kal</i>) &c. Ib. <he>ר׳ נתן דבבלאה … בין פיטרוה לפטרוה וכ׳</he> R. N. who is a Babylonian, draws a distinction between <i>piṭruha</i> and <i>paṭṭ’ruha</i>; our Tannai (in the Mishnah) being a Palestinian does not &c. Ib. VIII, 4. <he>פּוֹטֵר … בגט ישן</he> a man may divorce his wife with an old letter of divorce (having been closeted with her after he had written it); Tosef. ib. VIII (VI), 3 <he>אינו פוטר וכ׳</he> he must not divorce with an old letter, in order that the letter of divorce may not date farther back than (the conception of) her child; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to dismiss, give leave, let go</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:6\">Sot. IX, 6</cite> <he>ופְטַרְנוּהוּ בלא מזון</he> and we let him (the stranger) go without provision. ",
+				"<cite ref=\"Midrash Tehillim 91:5\">Midr. Till. to Ps. XCI</cite> <he>מי גדול הפּוֹטֵר או הנִפְטָר</he> which is the superior of the two? he who gives leave, or he who takes leave? <cite ref=\"Midrash Tehillim 91:5\">Ib.</cite> (ref. to <cite ref=\"Genesis 32:27\">Gen. XXXII, 27</cite>) <he>הרי יעקב פוטר למלאך</he> behold, Jacob gives leave to the angel; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (law) <i>to discharge, acquit</i>; (ritual) <i>to exempt from obligation, to declare free</i> from punishment, eventually from sacrificial atonement, opp. <cite ref=\"H00231\"><he>חִיֵּיב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Eruvin 65a:1\">Erub. 65ᵃ</cite> <he>יכול אני לִפְטוֹר וכ׳</he> I can (by my plea) release from judgment the whole world (all Israelites) from the destruction of the Temple to the present time, for we read (<cite ref=\"Isaiah 51:21\">Is. LI, 21</cite>), Hear now this, thou afflicted and drunken &c. (a drunken person is irresponsible); <cite ref=\"Isaiah 51:21\">ib.</cite> <he>מאי יכולני לפטור נמי מדין תפלה</he> this ‘I can release’ means also from responsibility for neglect of prayer (the drunken not being permitted to pray). ",
+				"<cite ref=\"Sukkah 45b\">Succ. 45ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 2:5\">Sabb. II, 5</cite> <he>ר׳ יוסי פוטר בכלן וכ׳</he> R. J. declares (him that did it) free from punishment or eventual sacrifice in all those cases, except &c. ",
+				"<cite ref=\"Mishnah Keritot 4:2\">Ker. IV, 2</cite> <he>ר׳ יהושע פוטר</he> R. J. absolves him from bringing a sin-offering, opp. <he>מחייב חטאת</he>. ",
+				"<cite ref=\"Mishnah Sanhedrin 5:5\">Snh. V, 5</cite> <he>אם מצאו לו זכות פְּטָרוּהוּ</he> if they found evidence in his favor, they (the court) acquitted him; a. v. fr.—Trnsf. <i>to cause exemption; to cover, include</i>. ",
+				"<cite ref=\"Mishnah Berakhot 6:5\">Ber. VI, 5</cite> <he>ברך על היין … פ׳ את היין וכ׳</he> if he recited the blessing over wine before the meal, he has therewith exempted the wine offered after the meal (from an additional blessing). ",
+				"<cite ref=\"Mishnah Berakhot 6:7\">Ib. 7</cite> <he>מברך על העיקר ופוטר את הטפלה</he> he says the blessing over the chief dish, and with this he covers that which goes with it (v. <cite ref=\"I00665\"><he>טְפֵלָה</he></cite>). ",
+				"<cite ref=\"Mishnah Yevamot 1:1\">Yeb. I, 1</cite> <he>חמש … פּוֹטְרוֹת צרותיהן</he> fifteen women (of various kinship with the <i>yabam</i>, by which he is prevented from marrying any of them) cover their rivals (making them free from dependence on the <i>yabam</i> for marriage or discharge); a. fr.—Part. pass. <cite ref=\"Q00502\"><he>פָּטוּר</he></cite>; f. <cite ref=\"Q00502\"><he>פְּטוּרָה</he></cite>; pl. <he>פְּטוּרִים</he>, <cite ref=\"Q00505\"><he>פְּטוּרִין</he></cite>; <he>פְּטוּרוֹת</he> (<i>is, are</i>) <i>exempt, free</i>, opp. <cite ref=\"H00722\"><he>חַיָּיב</he></cite>. ",
+				"<cite ref=\"Mishnah Peah 1:6\">Peah I, 6</cite> <he>ופ׳ מן המעשרות וכ׳</he> and he need not give the tithes, until &c. ",
+				"<cite ref=\"Mishnah Bava Metzia 8:1\">B. Mets. VIII, 1</cite> <he>פ׳</he> (sub. <he>מלשלם</he>) he is free from indemnity. ",
+				"<cite ref=\"Mishnah Bava Metzia 7:10\">Ib. VII, 10</cite> <he>מתנה … להיות פ׳ משבועה</he> may have an agreement to be eventually exempt from making oath; <he>להיות פ׳ מלשלם</he> to be exempt from responsibility. ",
+				"<cite ref=\"Mishnah Kiddushin 1:7\">Kidd. I, 7</cite> <he>כל מצות הבן על האב … ונשים פ׳</he> to all paternal duties men are bound, but women (mothers) are exempt from them. ",
+				"<cite ref=\"Mishnah Yevamot 1:2\">Yeb. I, 2</cite> <he>כשם שבתו פ׳ כך צרתה פ׳</he> as well as his (the <i>yabam’s</i>) daughter is exempt (from the law of levirate marriage, because the <i>yabam</i> cannot marry her), so her rival is exempt; a. v. fr."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיטֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to dismiss; to divorce</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 65b:10\">Gitt. 65ᵇ</cite>, v. supra. ",
+						"<cite ref=\"Kiddushin 31b:10\">Kidd. 31ᵇ</cite> <he>פַּטְּרוּנִי</he> dismiss (escort) me; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְטָר"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְפַטֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be exempted, freed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 2:1\">Bekh. II, 1</cite> <he>לא נִפְטְרוּ מבכור וכ׳</he> they (the Levites) have not been exempted from consecrating the firstborn of clean animals, but only from redeeming their firstborn sons and the firstborn of asses; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be dismissed, take leave, depart</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 1:5\">Yoma I, 5</cite> <he>נפטרו והלכו להם</he> they took leave and went. ",
+						"<cite ref=\"Mishnah Sotah 9:5\">Sot. IX, 5</cite>. ",
+						"<cite ref=\"Berakhot 64a\">Ber. 64ᵃ</cite> <he>הנ׳ מחבירו וכ׳</he> he who leaves his friend (after escorting him a distance) must not say, ‘go in peace’, but, ‘go to peace’; <he>הנ׳ מן המת וכ׳</he> he who takes leave of the dead (after burial) &c. Ib. 31ᵃ; <cite ref=\"Eruvin 64a:10\">Erub. 64ᵃ</cite> <he>לא יִפָּטֵר אדם וכ׳</he> one must not leave a friend otherwise than with a word of tradition (on legal or religious subjects), by which he may remember him; a. fr.—Esp. <i>to depart this world, to die</i>. ",
+						"<cite ref=\"Berakhot 17a:6\">Ber. 17ᵃ</cite> <he>גדל בשם טוב ונ׳ בשם טוב מן העולם</he> who grew (lived) with a good name, and left the world with a good name. ",
+						"<cite ref=\"Temurah 16a:26\">Tem. 16ᵃ</cite> <he>בשעה שנ׳ משה רבינו לגן עדן</he> when Moses our teacher was to depart for paradise. ",
+						"<cite ref=\"Bereishit Rabbah 96\">Gen. R. s. 96</cite>; a. fr.—",
+						"<cite ref=\"Yalkut Shimoni on Nach 989:5-10\">Yalk. Koh. 989</cite> <he>בשעה … מִתְפַּטְּרִים וכ׳</he> when the children are dismissed from school."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["הִפְטִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to discard</i>; <he>ה׳ בשפה</he> <i>to discard with the lip, to spurn</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 37:1\">Pesik. R. s. 37</cite> <he>מחרקין … ומַפְטִירִים בשפתותיהם</he> gnashed their teeth … and spurned with their lips (ref. to <cite ref=\"Psalms 22:8\">Ps. XXII, 8</cite>). ",
+						"<cite ref=\"Tractate Derekh Eretz Rabbah 2:3\">Treat. Der. Er. ch. II</cite> <he>מפְטִּירֵי שפה</he> (= <he>מפטירין בשפה</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to dismiss, adjourn a meeting</i>. Y. Ber. IV, 7ᵈ top <he>הַפְטֵר את העם</he> dismiss the people (adjourn the meeting). ",
+					"units": [
+						"<cite ref=\"Moed Katan 5b\">M. Kat. 5ᵇ</cite>, v. <cite ref=\"B00767\"><he>בָּכָה</he></cite>. ",
+						"<cite ref=\"Chullin 51a:5\">Ḥull. 51ᵃ</cite> <he>מַפְטִיר כנסיות</he> one who dismisses the assemblies, janitor, v. <cite ref=\"K00865\"><he>כְּנֶסֶת</he></cite>.—",
+						"<cite ref=\"Mishnah Pesachim 10:8\">Pes. X, 8</cite>, v. <cite ref=\"A02709\"><he>אֶפִּיקוֹמָן</he></cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " [<i>to recite before dismissal</i>,] <i>to conclude the reading from the Law by reading a portion of the Prophets, to read the Hafṭarah</i> (v. <cite ref=\"E00730\"><he>הַפְטָרָה</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Megillah 4:1\">Meg. IV, 1</cite> <he>בשני … ואין מַפְטִירִין בנביא</he> on Mondays, Thursdays and Saturday afternoons three persons read from the Law …, and we do not close with a lesson from the Prophets. ",
+						"<cite ref=\"Mishnah Megillah 4:5\">Ib. 5</cite> <he>המפטיר בנביא הוא וכ׳</he> he who concludes with the prophetic lesson (being the last of those called up) has the privilege of &c., v. <cite ref=\"Q01908\"><he>פָּרַס</he></cite>; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

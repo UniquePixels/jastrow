@@ -1,0 +1,32 @@
+{
+	"id": "T00388",
+	"slug": "רומי-1",
+	"headword": {
+		"text": "רוֹמִי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "רוֹמָא"
+		}
+	],
+	"page": {
+		"number": 1461,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Ῥώμη, Roma) <i>Rome</i>; also <i>the Roman empire</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 34:9\">Targ. Is. XXXIV, 9</cite> ed. Lag. (omitted in oth. ed.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 54:1\">Ib. LIV, 1</cite> ed. Lag. (oth. ed. <he>כרכא</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 108:11\">Targ. Ps. CVIII, 11</cite> <he>כרכא דר׳ רשיעא</he> ed. Lag. (oth. ed. <he>כרכא רשיעא</he>; ed. Wil. <he>כרכא תקיפא</he>; h. text <he>אדום</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 24:19\">Targ. Y. Num. XXIV, 19</cite> Levita (ed. <he>קוסטנטיני</he>, <he>קושט׳</he>); a. fr. (mostly changed through the censor’s influence).—Y. Ab. Zar. I, 39ᶜ <he>יום שנתחתן שלמה … וזהו כרך גדול שבר׳</he> on the day that Solomon was connected by marriage with Pharaoh Necho of Egypt, Michael stuck a reed into the sea …, and this is the origin of the great city of the Roman empire; <cite ref=\"Sanhedrin 21b\">Snh. 21ᵇ</cite>; <cite ref=\"Shabbat 56b:14\">Sabb. 56ᵇ</cite> Ms. M. (ed. <he>שברומי</he> omitted). Y. Ab. Zar. l. c. <he>יום שנסתלק … מלך בר׳</he> on the day that Elijah was removed, a king was installed in Rome. Y. Taan. I, 64ᵃ top <he>בספרו … משא דומה משא ר׳</he> (not <cite ref=\"D00281\"><he>דומי</he></cite>) in R. Meir’s Bible was (a note) written, <i>massa dumah</i> (<cite ref=\"Isaiah 21:11\">Is. XXI, 11</cite>) ‘the burden of Rome.’ <cite ref=\"Isaiah 21:11\">Ib.</cite> <he>אם יאמר לך … בכרך הגדול שבר׳</he> if one should ask thee, where is thy God? tell him, in the great city of Rome; a. v. fr.—",
+				"<cite ref=\"Avodah Zarah 8a:13\">Ab. Zar. 8ᵃ</cite> <he>ר׳ שעשתה קלנדא</he> (Alf. <cite ref=\"P00672\"><he>עיר</he></cite>) a Roman colony which celebrates the Calenda."
+			]
+		}
+	]
+}

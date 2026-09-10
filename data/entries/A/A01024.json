@@ -1,0 +1,32 @@
+{
+	"id": "A01024",
+	"slug": "אחי-2",
+	"headword": {
+		"text": "אחי",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 40,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H00717\"><he>אַחֵי</he></cite> as <cite ref=\"A01023\">foreg.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 3:7\">Targ. Koh. III, 7</cite> <he>לאחאה</he> to sew together."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

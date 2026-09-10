@@ -1,0 +1,26 @@
+{
+	"id": "U01872",
+	"slug": "שקל-3",
+	"headword": {
+		"text": "שֶׁקֶל"
+	},
+	"page": {
+		"number": 1623,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01870\"><he>שָׁקַל</he></cite>) [<i>weight</i>,] <i>Shekel</i>, a coin; <he>ש׳ הקדש</he> the sacred Sh., twenty Gerah or M’ʿah, twice the weight of the common Shekel (v. <cite ref=\"O01015\"><he>סֶלַע</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 8:7\">Bekh. VIII, 7</cite> (<cite ref=\"Bekhorot 49b:11\">49ᵇ</cite>) <he>כולם בש׳ הק׳</he> all these definitions refer to the sacred Sh. Ib. 50ᵃ. ",
+				"<cite ref=\"Bava Batra 9a:12\">B. Bath. 9ᵃ</cite> <he>שלישית הש׳</he> one-third of a Sh. (<cite ref=\"Nehemiah 10:33\">Neh. X, 33</cite>); a. fr.—Esp. (<he>מחצית הש׳</he>, <cite ref=\"Exodus 30:13\">Ex. XXX, 13</cite>) <i>the head-tax</i> for the Temple. ",
+				"<cite ref=\"Mishnah Nedarim 4:2\">Ned. IV, 2</cite> <he>שִׁקְלוֹ</he>, v. <cite ref=\"U01870\"><he>שָׁקַל</he></cite>. ",
+				"<cite ref=\"Mishnah Shekalim 2:3\">Shek. II, 3</cite> <he>הרי אלו לשִׁקְלִי</he> these coins are designated for my contribution as head-tax; <he>שאביא מהן לשקלי</he> that I will offer my head-tax out of them; a. fr.—Pl. <he>שְׁקָלִים</he>. Ib. I, 1, v. <cite ref=\"U01511\"><he>שָׁמַע</he></cite>. Ib. II, 1, v. <cite ref=\"D01100\"><he>דַּרְכּוֹן</he></cite>. ",
+				"<cite ref=\"Megillah 13b:20\">Meg. 13ᵇ</cite> <he>גלוי … לשקול ש׳ … הקדים שִׁקְלֵיהֶן לשְׁקָלָיו וכ׳</he> it was known before God that Haman would, at some future day, pay Shekels for the destruction of Israel, therefore He made their Shekels (contributions to the sanctuary) to precede his Shekels, this is why we are told (<cite ref=\"Mishnah Shekalim 1:1\">Shek. I, 1</cite>), ‘on the first of Adar &c.’; a. fr.—<i>Sh’ḳalim</i> (Shek.), name of a treatise, of the Order of Moʿed, of Mishnah, Tosefta, and Talmud Y’rushalmi."
+			]
+		}
+	]
+}

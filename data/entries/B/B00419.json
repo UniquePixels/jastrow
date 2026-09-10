@@ -1,0 +1,22 @@
+{
+	"id": "B00419",
+	"slug": "בזגא",
+	"headword": {
+		"text": "בַּזְגָּא"
+	},
+	"page": {
+		"number": 152,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בזג</he>, cmp. <cite ref=\"Q02178\"><he>פַּתְכָּא</he></cite>) <i>that which is divided off</i>, whence <i>sheaf, bundle</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 52a:1\">Ḥull. 52ᵃ</cite> straw <he>ועביד ב׳</he> (Ar. ed. Koh. <cite ref=\"B00424\"><he>בִּיזְ׳</he></cite>) made into bunches."
+			]
+		}
+	]
+}

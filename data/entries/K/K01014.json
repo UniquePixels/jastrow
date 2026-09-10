@@ -1,0 +1,45 @@
+{
+	"id": "K01014",
+	"slug": "כפילה",
+	"headword": {
+		"text": "כְּפֵילָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפֵלָה"
+		}
+	],
+	"page": {
+		"number": 659,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01013\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the double share of the first-born</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 8:3:2\">Y. B. Bath. VIII, 16ᵇ</cite> top, opp. <he>פשוטה</he> the single share. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 8:3:2\">Ib.</cite> <he>כְּפֵילַת אביו</he> the double share to which his (deceased) father would have been entitled."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>folding door</i>.—Pl. <he>כְּפֵילוֹת</he>, <he>כְּפֵל׳</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite> <he>כפו׳</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 557:1\">Yalk. Lev. 557</cite>, v. <cite ref=\"K01026\"><he>כָּפַל</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>twofold condition</i>, v. <cite ref=\"K01013\">preced.</cite>",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "C00652",
+	"slug": "גיהיא",
+	"headword": {
+		"text": "גִּיהְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיחְיָא"
+		}
+	],
+	"page": {
+		"number": 236,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00648\"><he>גִּיהַּ</he></cite>) <i>flame-colored</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45b:6\">Bekh. 45ᵇ</cite> (expl. <cite ref=\"C00695\"><he>גיחור</he></cite>) as people say <he>סומקא גיה׳</he> Ar. (ed. <he>גיח׳</he>) flame-red."
+			]
+		}
+	]
+}

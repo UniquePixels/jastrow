@@ -1,0 +1,53 @@
+{
+	"id": "Q01232",
+	"slug": "פסד-2",
+	"headword": {
+		"text": "פְּסַד"
+	},
+	"page": {
+		"number": 1192,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01231\">same</cite><i>to be diminished, scarce</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 47:16\">Targ. Y. Gen. XLVII, 16</cite> (h. text) <he>אפס</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to diminish, destroy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 44:3\">Targ. Ps. XLIV, 3</cite> (ed. Lag. <he>שלח</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to ruin, spoil</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 55b:7\">Pes. 55ᵇ</cite> <he>פַּסְדָא לה ביעי לגמרי</he> she (the hatching hen) has spoiled the eggs entirely (made them unfit to be eaten).—Part. pass. <cite ref=\"Q01275\"><he>פָּסֵיד</he></cite>. ",
+				"<cite ref=\"Pesachim 55b:7\">Ib.</cite> <he>אכתי לא פְסֵידֵי ביעי וכ׳</he> (Ms. M. <he>פסיד לה ביעא</he>; Ms. K. <he>לא פַסְדָּה לה</he>) the eggs are not yet entirely spoiled."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפְסַד", "אַפְסֵיד"],
+			"senses": [
+				{
+					"gloss": "<i>to injure; to spoil, ruin</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 56a\">Keth. 56ᵃ</cite> <he>איהו הוא דא׳ אנפשיה</he> he brought the loss upon himself. ",
+						"<cite ref=\"Bava Batra 139b:5\">B. Bath. 139ᵇ</cite> <he>אינהו אַפְסִידוּ אנפשייהו</he> they brought the loss &c. ",
+						"<cite ref=\"Shabbat 108b:7\">Sabb. 108ᵇ</cite> <he>אַפְסוּדֵי קא מַפְסִידְנָא ליה</he> (by salting the radish) I vitiate it. ",
+						"<cite ref=\"Ketubot 61b:1\">Keth. 61ᵇ</cite> <he>אַפְסְדַת לסעודתא וכ׳</he> (Rashi: <he>אַפְסַדְתָּא</he>) thou hast spoiled the king’s meal. ",
+						"<cite ref=\"Bava Metzia 117b:13\">B. Mets. 117ᵇ</cite> <he>כמה מַפְסְדָה עלייה בבית</he> Ar. (ed. <he>מפסיד</he>, corr. acc.) by how much does the upper story impair (the durability of) the lower story?; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "H01524",
+	"slug": "חציץ",
+	"headword": {
+		"text": "חָצִיץ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 495,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01527\"><he>חֲצִיצָה</he></cite>) <i>intermediate contact, shaking an object between which and the person causing the vibration there is a partition</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Chagigah 3:21\">Tosef. Ḥag. III, 21</cite> <he>וחֲצִיצוֹ</he> ed. Zuck. (missing in oth. editions). V. <cite ref=\"H01538\"><he>חֲצָצוֹת</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "P00300",
+	"slug": "עוני-3",
+	"headword": {
+		"text": "עוֹנִי",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 1055,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>‘Oni</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 16:12\">Tosef. Ohol. XVI, 12</cite> <he>תחום ע׳</he> (R. S. to Ohol. XVI, 5 <cite ref=\"P00724\"><he>עכו</he></cite>); cmp. <cite ref=\"A00737\"><he>אוֹנִי</he> II</cite>."
+			]
+		}
+	]
+}

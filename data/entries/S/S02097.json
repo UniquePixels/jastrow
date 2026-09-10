@@ -1,0 +1,29 @@
+{
+	"id": "S02097",
+	"slug": "קרמית",
+	"headword": {
+		"text": "קַרְמִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרָמִית"
+		}
+	],
+	"page": {
+		"number": 1422,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (from its color; cmp. <cite ref=\"S02093\"><he>קַרְמוּלִין</he></cite>) <i>cow-wheat</i> (Melampyron) of which a coarse bread is made. ",
+			"units": [
+				"<cite ref=\"Tosefta Challah 1:1\">Tosef. Ḥall. I, 1</cite> <he>אף הק׳ חייבת וכ׳</he> (ed. Zuck. <cite ref=\"S01949\"><he>קרומית</he></cite>) ḳ. is also subject to the priest’s gift; Y. ib. I, beg. 57ᵃ; <cite ref=\"Jerusalem Talmud Pesachim 2:4:4\">Y. Pes. II, 29ᵇ</cite> top; Bab. ",
+				"<cite ref=\"Pesachim 35a:11\">Pes. 35ᵃ</cite>, expl. <he>שיצניתא דמשתכחא וכ׳</he> a weed found among Papaver Spinosum. ",
+				"<cite ref=\"Tosefta Pesachim 1:29\">Tosef. ib. I</cite> (<cite ref=\"Tosefta Pesachim 2:29\">II</cite>), 29 <he>אף הק׳ יוצא וכ׳</he> one may comply with the duty of eating <i>matsah</i> (on the first night of Passover) by eating bread made of ḳ.—V. <cite ref=\"S00617\"><he>קוּרָמֵי</he></cite>."
+			]
+		}
+	]
+}

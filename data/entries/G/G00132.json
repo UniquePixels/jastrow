@@ -1,0 +1,41 @@
+{
+	"id": "G00132",
+	"slug": "זודא",
+	"headword": {
+		"text": "זְוָדָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְוָודָא"
+		}
+	],
+	"page": {
+		"number": 384,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"G00131\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"R00310\"><he>צידה</he></cite>, <i>outfit for travelling, provision; dying outfit, shroud;</i> trnsf. <i>good deeds</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 132:15\">Targ. Ps. CXXXII, 15</cite>.—Pl. <he>זְוָודִין</he>, <he>זְוָ׳</he>. ",
+				"<cite ref=\"Onkelos Genesis 42:25\">Targ. O. Gen. XLII, 25</cite>; a. e.—",
+				"<cite ref=\"Ketubot 67b:16\">Keth. 67ᵇ</cite> <he>זַוְודָּאַי קלילי</he> my provision (for the journey of death) is scanty. ",
+				"<cite ref=\"Moed Katan 28b:7\">M. Kat. 28ᵇ</cite> <he>דשלימו זְוָודֵיה</he> whose outfit for death is completed, v. <cite ref=\"A02376\"><he>אִסְטְלָא</he></cite>.—<he>זְוָודָתָא</he>. ",
+				"<cite ref=\"Moed Katan 27b:14\">Ib. 27ᵇ</cite> <he>צבית ז׳ לאידך</he> prepare the burial outfit for another son. ",
+				"<cite ref=\"Rosh Hashanah 17a\">R. Hash. 17ᵃ</cite>; <cite ref=\"Avodah Zarah 17a:3\">Ab. Zar. 17ᵃ</cite>, v. <cite ref=\"G00131\">preced.</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bag, bundle</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 12a\">Kidd. 12ᵃ</cite> <he>ז׳ דאודדי</he> (Ar. ed. Koh. <he>זְוָודֵי</he>, pl.) a bundle of tow cotton (being of small value)."
+			],
+			"label": "2"
+		}
+	]
+}

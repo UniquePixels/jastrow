@@ -1,0 +1,27 @@
+{
+	"id": "O01285",
+	"slug": "סעודונא",
+	"headword": {
+		"text": "סְעוֹדוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְעוֹדִינָא"
+		}
+	],
+	"page": {
+		"number": 1010,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01276\"><he>סְעַד</he></cite>) <i>assistance</i>, <i>help</i>; trnsf. <i>helper</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 69ᵃ</cite>, v. <cite ref=\"O01278\"><he>סַעֲדָא</he> I</cite>."
+			]
+		}
+	]
+}

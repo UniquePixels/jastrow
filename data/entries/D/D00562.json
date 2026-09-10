@@ -1,0 +1,30 @@
+{
+	"id": "D00562",
+	"slug": "דייסא",
+	"headword": {
+		"text": "דַּיְּיסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּיְסָא"
+		}
+	],
+	"page": {
+		"number": 298,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00301\"><he>דוס</he></cite> = <cite ref=\"D00389\"><he>דוש</he></cite>) <i>a dish of pounded grain</i> (wheat or barley), <i>grit</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 24b:10\">Taan. 24ᵇ</cite> <he>פינכא דד׳</he> a plate of grit. ",
+				"<cite ref=\"Berakhot 36b:18\">Ber. 36ᵇ</cite> <he>ד׳ גרידא</he> a plain dish of &c. (without admixture of honey). ",
+				"<cite ref=\"Beitzah 16a:14\">Bets. 16ᵃ</cite>. ",
+				"<cite ref=\"Nedarim 49b:3\">Ned. 49ᵇ</cite>"
+			]
+		}
+	]
+}

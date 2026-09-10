@@ -1,0 +1,40 @@
+{
+	"id": "S02025",
+	"slug": "קרי-9",
+	"headword": {
+		"text": "קְרִי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קֶרִי"
+		}
+	],
+	"page": {
+		"number": 1419,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S02020\"><he>קָרָה</he> I)</cite><i>accident, mishap</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 16a:3\">R. Hash. 16ᵃ</cite> <he>תבואה שאירע בה ק׳ וכ׳</he> a crop to which an accident happened (an injury from natural causes) or a misfortune (through human agencies). ",
+				"<cite ref=\"Rosh Hashanah 16a:3\">Ib.</cite> <he>אדם … ק׳ וכ׳</he> a man whom a mishap befell or &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (euphem.) <i>nocturnal pollution</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:5\">Ab. V, 5</cite>. ",
+				"<cite ref=\"Mishnah Middot 1:9\">Midd. I, 9</cite>. ",
+				"<cite ref=\"Yoma 88a:2\">Yoma 88ᵃ</cite> <he>בעל ק׳</he> one to whom pollution happened; a. fr.—Pl. <cite ref=\"S02056\"><he>קְרָיִין</he></cite>. ",
+				"<cite ref=\"Berakhot 22b:15\">Ber. 22ᵇ</cite>; <cite ref=\"Bava Kamma 82a:3\">B. Kam. 82ᵃ</cite> (Ms. H. <cite ref=\"S01241\"><he>קְרָאִין</he></cite>); <cite ref=\"Jerusalem Talmud Megillah 4:3:3\">Y. Meg. IV, 75ᵃ</cite> top; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

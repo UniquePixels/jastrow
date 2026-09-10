@@ -1,0 +1,23 @@
+{
+	"id": "G00249",
+	"slug": "זחל-4",
+	"headword": {
+		"text": "זַחַל"
+	},
+	"page": {
+		"number": 390,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00248\">preced.</cite>) <i>zaḥal</i>, name of a species of <i>locusts</i> born without legs. ",
+			"units": [
+				"<cite ref=\"Tosefta Chullin 3:25\">Tosef. Ḥull. III</cite> (<cite ref=\"Tosefta Chullin 4:25\">IV</cite>), 25. ",
+				"<cite ref=\"Chullin 65b\">Ḥull. 65ᵇ</cite>, v. <cite ref=\"A02545\"><he>אִסְקְרָא</he></cite>."
+			]
+		}
+	]
+}

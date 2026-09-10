@@ -1,0 +1,33 @@
+{
+	"id": "U00208",
+	"slug": "שגב-2",
+	"headword": {
+		"text": "שְׂגַב"
+	},
+	"page": {
+		"number": 1521,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00207\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׂגֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to elevate, lift up, strengthen</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 20:2\">Targ. Ps. XX, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 91:14\">Ib. XCI, 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 4:6\">Targ. Prov. IV, 6</cite> <he>דִּתְשַׂגְּבִינָךְ</he> ed. Lag. (ed. <he>דְּתֻשְׂגָּבְיָךְ</he>; oth. ed. <he>וּתְשׂוֹגְבִינָךְ</he>); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

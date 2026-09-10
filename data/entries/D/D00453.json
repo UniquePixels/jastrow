@@ -1,0 +1,37 @@
+{
+	"id": "D00453",
+	"slug": "דיאטריטא",
+	"headword": {
+		"text": "דִּיאַטְרִיטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיאַטְרִיטִין"
+		},
+		{
+			"text": "דְּיַי׳"
+		},
+		{
+			"text": "דְּיוֹ׳"
+		}
+	],
+	"page": {
+		"number": 294,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (diatreta, v. Sm. Ant. s. v. Vitrum) <i>cut or engraved glass vessels</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 27:9\">Ex. R. s. 27</cite>, end [read:] <he>ב׳ כוסות הללו ד׳</he> these two cups of cut glass. ",
+				"<cite ref=\"Esther Rabbah 2:10\">Esth. R. to I, 7</cite> <he>כוסות דיוטירי׳</he> (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite> <he>דייטרו׳</he> (corr. acc.). ",
+				"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> <he>כוסות דיוטריטון</he> (corr. acc.); a. fr."
+			]
+		}
+	]
+}

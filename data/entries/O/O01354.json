@@ -1,0 +1,28 @@
+{
+	"id": "O01354",
+	"slug": "ספיח",
+	"headword": {
+		"text": "סָפִיחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "סֶפַח"
+		}
+	],
+	"page": {
+		"number": 1013,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"O01354\"><he>ספיח</he></cite>; <cite ref=\"O01342\"><he>סָפַח</he></cite>)<i>spontaneous growth, after-growth</i>.—Pl. <he>סְפִיחִים</he>, <he>סְפִיחִין</he>, (<cite ref=\"O00788\"><he>סְפָ׳</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 9:1\">Shebi. IX, 1</cite> <he>כל הס׳ מותרין חוץ מסְפִיחֵי כרוב</he> (Y. ed. <he>הספחים … סִפְחֵי</he>) all spontaneous growths (of the Sabbatical year, dating from the sixth year) are permitted, except the after-growth of cabbage; <cite ref=\"Pesachim 51b:2\">Pes. 51ᵇ</cite> <he>כל הס׳ אסורין וכ׳</he> (v. comment.). Sifra B’har, Par. 1, ch. I (ref. to <cite ref=\"Leviticus 25:5\">Lev. XXV, 5</cite>) <he>מכאן סמכו … הס׳ וכ׳</he> from here the scholars found a support for the prohibition of the after-growth. ",
+				"<cite ref=\"Mishnah Shekalim 4:1\">Shek. IV, 1</cite> <he>שומרי ס׳ בשביעית וכ׳</he> those appointed to watch the after-growth (of barley for the ‘Omer) in the Sabbatical year receive their wages &c. Y. ib. 48ᵃ top <cite ref=\"O01344\"><he>ספחית</he></cite> (corr. acc.); a. fr."
+			]
+		}
+	]
+}

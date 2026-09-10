@@ -1,0 +1,29 @@
+{
+	"id": "V00268",
+	"slug": "תוקרבא",
+	"headword": {
+		"text": "תּוּקְרָבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוּקְרַבְתָּא"
+		}
+	],
+	"page": {
+		"number": 1656,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"V00914\"><he>תִּקְרוֹבֶת</he></cite>, <i>offering, gift, tribute</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 3:4\">Targ. II Kings III, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 18:7\">Targ. Is. XVIII, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:59\">Targ. Jer. LI, 59</cite> <cite ref=\"V00269\"><he>תּוּקְרֵיבָא</he></cite> ed. Lag. (ed. Wil. <cite ref=\"V00268\"><he>תוקרבתא</he></cite>; h. text <cite ref=\"M01742\"><he>מנוחה</he></cite>); a. e.—V. <cite ref=\"V00915\"><he>תִּקְרוּבְתָּא</he></cite>."
+			]
+		}
+	]
+}

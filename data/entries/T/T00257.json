@@ -1,0 +1,24 @@
+{
+	"id": "T00257",
+	"slug": "רדייה-2",
+	"headword": {
+		"text": "רְדִיָּיה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1452,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רָדָה</he> II) <i>detaching, taking bread out of the oven</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 29b:9\">R. Hash. 29ᵇ</cite> <he>רְדִיַּית הפת וכ׳</he> the taking out of the bread, which is an art but no labor. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:19\">Y. Shek. V, 48ᵈ</cite> bot. <he>היו בקיאין … וברְדִיָּיתוֹ</he> they were skilled in making the show-bread and in taking it out; Y. Yoma III, 41ᵃ; <cite ref=\"Shir HaShirim Rabbah 3:6\">Cant. R. to III, 6</cite>; a. e."
+			]
+		}
+	]
+}

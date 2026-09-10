@@ -1,0 +1,47 @@
+{
+	"id": "O00277",
+	"slug": "סוח-1",
+	"headword": {
+		"text": "סוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׂוּחַ"
+		}
+	],
+	"page": {
+		"number": 962,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"U00360\"><he>שׂוּחַ</he></cite>) [<i>to think</i>,] <i>to talk; to tell</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 7:3\">Shebu. VII, 3</cite>; <cite ref=\"Mishnah Shevuot 7:6\">6</cite> <he>איני יודע מה אתה סָח</he> (Y. ed. <he>שָׂח</he>) I do not know what you are talking about. ",
+				"<cite ref=\"Berakhot 51a:14\">Ber. 51ᵃ</cite> <he>סח לי</he> told me. ",
+				"<cite ref=\"Sotah 44b:4\">Sot. 44ᵇ</cite> <he>שח בין תפילה וכ׳</he> if one talks between putting on the T’fillin of the arm and of the head; <cite ref=\"Menachot 36a:4\">Men. 36ᵃ</cite> <he>סח</he>; a. fr.—",
+				"<cite ref=\"Chullin 27a\">Ḥull. 27ᵃ</cite>, v. <cite ref=\"H00582\"><he>חָטָא</he> I</cite>.—[<cite ref=\"Yalkut Shimoni on Nach 755\">Yalk. Ps. 755</cite>, read: <he>שָׁח</he>, v. <cite ref=\"U00362\"><he>שׁוּחַ</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵסִיחַ", "הֵשִׂ׳"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00276\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Berakhot 51b:8\">Ber. 51ᵇ</cite> <he>אין מְסִיחִין על כוס וכ׳</he> you must not converse while holding up the cup of benediction. ",
+						"<cite ref=\"Shabbat 13b:1\">Sabb. 13ᵇ</cite> <he>והיתה מְסִיחָה וכ׳</he> and she told (me) all that happened to her. Y. Gitt. IX, end, 50ᵈ <he>מסיחין</he>, <cite ref=\"M01318\"><he>מש׳</he></cite>, v. <cite ref=\"O00600\"><he>סִיחָה</he></cite>. ",
+						"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>עומד ומֵסִיחַ וכ׳</he> (the text, <cite ref=\"Isaiah 49:8\">Is. XLIX, 8</cite> sq.) stands and speaks (is a standing prophecy) of the king Messiah. ",
+						"<cite ref=\"Devarim Rabbah 1:15\">Deut. R. s. 1</cite> <he>מי אתה מסיח עמי וכ׳</he> who art thou that art talking to me &c.?—",
+						"<cite ref=\"Bereishit Rabbah 13:16\">Gen. R. s. 13</cite>, beg. (ref. to <he>שיח</he>, <cite ref=\"Genesis 2:5\">Gen. II, 5</cite>) <he>כל … כאילו מְשִׂיחִין אלו וכ׳</he> all trees speak to one another as it were; <he>מש׳ עם הבריות</he> speak to men; Yalk. ib. 20. ",
+						"<cite ref=\"Shemot Rabbah 1:15\">Ex. R. s. 1</cite> <he>להָשִׂיחַ עלינו</he> to talk against us. Tanḥ. T’rum. 9; <cite ref=\"Yalkut Shimoni on Nach 587\">Yalk. Mal. 587</cite>, v. <cite ref=\"S00084\"><he>קָבַע</he> I</cite>; a. fr.—<he>מסיח לפי תומו</he>, v. <cite ref=\"V00224\"><he>תּוֹם</he></cite>.—",
+						"<cite ref=\"Yoma 75a:2\">Yoma 75ᵃ</cite> (ref. to <he>ישחנה</he>, <cite ref=\"Proverbs 12:25\">Prov. XII, 25</cite>) <he>חד אמר יִשְּׂחֶנָּה מדעתו וחד אמר יְשִׂיחֶנָה לאחרים</he> one says, let him dismiss it (fr. <cite ref=\"N01302\"><he>נָשַׂח</he></cite> = <cite ref=\"N00923\"><he>נָסַח</he></cite>; Ms. M. 2 <he>יַסִּיחֶנָּה</he>) from his mind; the other says, let him speak it out to others; <cite ref=\"Sotah 42b\">Sot. 42ᵇ</cite>; <cite ref=\"Sanhedrin 100b\">Snh. 100ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 950\">Yalk. Prov. 950</cite>; v. <cite ref=\"N00923\"><he>נָסַח</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

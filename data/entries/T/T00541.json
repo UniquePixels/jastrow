@@ -1,0 +1,105 @@
+{
+	"id": "T00541",
+	"slug": "רחש-2",
+	"headword": {
+		"text": "רְחַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְחֵישׁ"
+		}
+	],
+	"page": {
+		"number": 1470,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00540\">same</cite><i>to move, creep; to swarm, bring forth</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:26\">Targ. Gen. I, 26</cite>; <cite ref=\"Onkelos Genesis 1:28\">28</cite>; <cite ref=\"Onkelos Genesis 1:30\">30</cite> (h. text <he>רמש</he>). ",
+				"<cite ref=\"Onkelos Genesis 1:30\">Ib.</cite> O. 20 (Y. <he>יְרַחֲשׁוּן</he> <i>Pa.</i>; h. text <he>שרץ</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 105:30\">Targ. Ps. CV, 30</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to move</i> (the lips); <i>to be moved</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:18\">Targ. Lam. I, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 43:29\">Targ. Y. Gen. XLIII, 29</cite>; a. e.—[<cite ref=\"Aramaic Targum to Psalms 14:7\">Targ. Ps. XIV, 7</cite> <he>יִרְחַשׁ</he> Ms., v. infra.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְחֵישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to bring forth</i> (worms &c.). ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 1:21\">Targ. Gen. I, 21</cite>. ",
+						"<cite ref=\"Onkelos Genesis 9:2\">Ib. IX, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 16:20\">Targ. Y. Ex. XVI, 20</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to come forth, bring about</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 14:7\">Targ. Ps. XIV, 7</cite> (Ms. <i>Pe.</i>). ",
+						"<cite ref=\"Aramaic Targum to Lamentations 3:23\">Targ. Lam. III, 23</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 55:9\">Targ. Ps. LV, 9</cite> (h. text <he>אחישה</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["רַחֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to bring forth</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 1:20\">Targ. Y. Gen. I, 20</cite> (v. supra)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to move</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 3a:4\">Ḥag. 3ᵃ</cite> <he>מניידי … ומְרַחֲשִׁין שפוותייהו</he> (mutes) nodded their heads and moved their lips.—Part. pass. <he>מְרַחַשׁ</he>; f. <cite ref=\"M01763\"><he>מְרַחְשָׁא</he></cite>; pl. f. <he>מְרַחְשָׁן</he>. ",
+						"<cite ref=\"Sanhedrin 67b:19\">Snh. 67ᵇ</cite> <he>חזא דקא מר׳ שפוותה</he> (not <he>שפוותיה</he>) he saw that her lips were moving (she was mumbling a charm). ",
+						"<cite ref=\"Sanhedrin 90b:11\">Ib. 90ᵇ</cite> <he>דילמא רַחוּשֵׁי מר׳ שפוותייהו בעלמא</he> (not <he>שפוותיה</he>) perhaps only their lips moved (in the grave)?, v. <cite ref=\"T00540\">preced.</cite>; (Ms. F. <he>מְרַחֲשִׁין וכ׳</he> they moved their lips). ",
+						"<cite ref=\"Menachot 63a:2\">Men. 63ᵃ</cite> <he>כדאמרי אינשי קמרחשן וכ׳</he> Ms. M. (ed. <he>הוה מר׳ וכ׳</he>) as people say, his lips are moving (he is excited)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרַחֵישׁ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְרְחִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be brought about, to occur</i>. <he>א׳ ניסא</he> <i>a miracle happened</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 18:1\">Targ. Ps. XVIII, 1</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 4:13\">Targ. Koh. IV, 13</cite>.—",
+						"<cite ref=\"Bava Metzia 106a:15\">B. Mets. 106ᵃ</cite> <he>אי הוות חזית לאִתְרַחוּשֵׁי לך ניסא הוה א׳ וכ׳</he> if thou wert worthy of a miracle to happen to thee, a miracle would have happened to thee like that &c. ",
+						"<cite ref=\"Megillah 7b:8\">Meg. 7ᵇ</cite> <he>לא בכל … מִתְרְחִישׁ ניסא</he> not always does a miracle happen. ",
+						"<cite ref=\"Gittin 45a\">Gitt. 45ᵃ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

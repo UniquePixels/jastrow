@@ -1,0 +1,25 @@
+{
+	"id": "L00664",
+	"slug": "לקוחות",
+	"headword": {
+		"text": "לְקוּחוֹת"
+	},
+	"page": {
+		"number": 716,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"L00674\"><he>לָקַח</he></cite>) <i>bought property</i>, esp. <i>mortgaged property sold</i>; trnsf. <i>the purchaser of mortgaged property</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 9:8\">Keth. IX, 8</cite> <he>מכר … והיא נפרעת מן הל׳</he> if her husband sold his property to strangers, and she wants to collect (her K’thubah) from the sold property (sues the purchaser). ",
+				"<cite ref=\"Bava Metzia 12b:22\">B. Mets. 12ᵇ</cite> <he>ואתי למיטרף ל׳ שלא כדין</he> and he might seize the sold property unlawfully.—",
+				"<cite ref=\"Bava Batra 107a:5\">B. Bath. 107ᵃ</cite> <he>האחים שחלקו ל׳ הוו</he> after the heirs have divided up the estate, they are considered as purchasers (from one another, and the brother whose portion has been seized for his father’s debts has no redress), opp. <he>יורשים הן</he> they are heirs (and the estate, minus the seized portion, has to be redivided); a. fr."
+			]
+		}
+	]
+}

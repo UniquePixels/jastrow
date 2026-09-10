@@ -1,0 +1,35 @@
+{
+	"id": "V00423",
+	"slug": "תיו",
+	"headword": {
+		"text": "תָּיו"
+	},
+	"altHeadwords": [
+		{
+			"text": "תָּו"
+		}
+	],
+	"page": {
+		"number": 1663,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"V00161\"><he>תָּוָה</he></cite>)<i>mark</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " תי״ו <i>the letter Tav</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 55a:12\">Sabb. 55ᵃ</cite> (ref. to <cite ref=\"Ezekiel 9:4\">Ez. IX, 4</cite>) <he>לך ורשום … ת׳ של דיו</he> go and make on the foreheads of the righteous a mark (Tav) with ink; <he>ועל … ת׳ של דם</he> and on the foreheads of the wicked a mark (Tav) with blood. ",
+				"<cite ref=\"Ezekiel 9:4\">Ib.</cite> <he>אלו … מאלף עד ת׳</he> those are the men that fulfilled the Law from Alef to Tav. ",
+				"<cite ref=\"Ezekiel 9:4\">Ib.</cite> <he>ומאי שנא ת׳</he> and why a Tav? <cite ref=\"Ezekiel 9:4\">Ib.</cite> <he>ת׳ סוף חותמו של הקב״ה</he> the Tav is the last letter in God’s seal (<cite ref=\"A02072\"><he>אמת</he></cite>). Ib. 104ᵃ <he>תי״ו אמת</he> Tav intimates <i>truth</i>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

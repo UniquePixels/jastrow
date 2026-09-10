@@ -1,0 +1,23 @@
+{
+	"id": "M01901",
+	"slug": "מסטי",
+	"headword": {
+		"text": "מַסְטֵי"
+	},
+	"page": {
+		"number": 806,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00481\"><he>סְטֵי</he></cite>) <i>one who diverts judgment from its straight path</i> (= h. <he>מַטֵּה דִין</he>), <i>prevaricator</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 58:6\">Targ. Is. LVIII, 6</cite> <he>דין מ׳</he> (h. text <cite ref=\"M00462\"><he>מוֹטָה</he></cite>).—",
+				"<cite ref=\"Bereishit Rabbah 50:3\">Gen. R. s. 50</cite> (fictitious name of a Sodomite judge) <he>רב מַסְטֵידִין</he> (= <cite ref=\"M01902\"><he>מַסְטֵי דין</he></cite>, some ed. <cite ref=\"M01905\"><he>מסטירין</he></cite>, corr. acc.) Chief Prevaricator (<cite ref=\"Sanhedrin 109b:3\">Snh. 109ᵇ</cite> <he>מצלי דינא</he>); Yalk. ib. 84 (corr. acc.)."
+			]
+		}
+	]
+}

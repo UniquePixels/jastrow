@@ -1,0 +1,44 @@
+{
+	"id": "I00377",
+	"slug": "טימטם",
+	"headword": {
+		"text": "טִימְטֵם"
+	},
+	"page": {
+		"number": 532,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <cite ref=\"I00554\"><he>טָמַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to knead into a cohesive shapeless mass</i>, contrad. to <he>גלגל</he> to roll and shape the dough. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 3:1\">Ḥall. III, 1</cite> <he>טִימְטְמָהּ בשעורים</he> after one has formed a lump of barley flour; <cite ref=\"Tosefta Challah 1:11\">Tosef. ib. I, 11</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to thicken, obstruct</i>, esp. <i>to blunt the understanding</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 42a:18\">Pes. 42ᵃ</cite> <he>מְטַמְטֵם את הלב</he> obstructs the heart (makes a person dull). ",
+				"<cite ref=\"Yoma 39a:2\">Yoma 39ᵃ</cite> <he>עבירה מְטַמְטֶמֶת</he> … <he>ונְטַמֹּתֶם</he> Ms. (ed. <he>ונטמטם</he>, corr. acc.) sin dulls the heart of man, read not (<cite ref=\"Leviticus 11:43\">Lev. XI, 43</cite>) <i>v’nitmethem</i> (you will be defiled) but <i>un’tammothem</i> (from <cite ref=\"I00554\"><he>טָמַם</he></cite>) (you will become dull-hearted); <cite ref=\"Yalkut Shimoni on Torah 545\">Yalk. Lev. 545</cite>.—Ch. <cite ref=\"I00542\"><he>טַמְטֵם</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִיטַּמְטֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to become a shapeless mass</i>. Ḥall. l. c. <he>ותִטַּמְטֵם</he>; Tosef. ib. l. c. <he>יתִיטַּמְטֵים</he>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpalp."
+		}
+	]
+}

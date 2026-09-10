@@ -1,0 +1,26 @@
+{
+	"id": "S00071",
+	"slug": "קבלה-3",
+	"headword": {
+		"text": "קַבָּלָה",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קְבָלָה"
+		}
+	],
+	"page": {
+		"number": 1310,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ") f. (<he>קָבַל</he> II) <i>outcry, rebuke</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 2:1\">Taan. II, 1</cite> (<cite ref=\"Taanit 15a:5\">15ᵃ</cite>) <he>ובק׳ הוא אומר וכ׳</he> and in his rebuke, he (the prophet) says, ‘Rend your heart &c.’ (<cite ref=\"Joel 2:13\">Joel II, 13</cite>); v. Rashi a. l."
+			]
+		}
+	]
+}

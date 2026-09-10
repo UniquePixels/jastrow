@@ -1,0 +1,33 @@
+{
+	"id": "A00589",
+	"slug": "אוורקסין",
+	"headword": {
+		"text": "אַוְורַקְסִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אברסקין"
+		}
+	],
+	"page": {
+		"number": 23,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (cmp. <cite ref=\"A02789\"><he>אפקרסין</he></cite>, a. <cite ref=\"A00229\"><he>אַבְרְקִין</he></cite>) <i>trowsers</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 28:42\">Targ. Y. I Ex. XXVIII, 42</cite>, a. ",
+				"<cite ref=\"Targum Jerusalem, Exodus 28:42\">Targ. Y. II, Ex. XXVIII, 42</cite>; <cite ref=\"Targum Jonathan on Exodus 39:28\">Targ. Y. I Ex. XXXIX, 28</cite> <he>אוורקסי</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 39:28\">Ib.</cite> ",
+				"<cite ref=\"Targum Jonathan on Leviticus 6:3\">Lev. VI, 3</cite> (ed. Vien. <he>אורקטין</he>, II <cite ref=\"A00228\"><he>אברסקין</he></cite>). ",
+				"<cite ref=\"Leviticus 16:4\">Ib. XVI, 4</cite>. [For <he>וו</he> = <cite ref=\"Q00000\"><he>פ</he></cite> v. <cite ref=\"A00592\"><he>אֶוְושַׁר</he></cite>.]"
+			]
+		}
+	]
+}

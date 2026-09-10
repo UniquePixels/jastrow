@@ -1,0 +1,30 @@
+{
+	"id": "S01186",
+	"slug": "קיריס-2",
+	"headword": {
+		"text": "קִירִיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1369,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (not <cite ref=\"S00030\"><he>קֵי׳</he></cite>) (κύρις = κύριος, S.) <i>lord</i>, as a title, <i>master</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:18\">Targ. Job III, 18</cite> (<cite ref=\"Aramaic Targum to Job 3:19\">19</cite>). Ib. V, 2.—Esp. <i>the Lord</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 53:1\">Targ. Ps. LIII, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 97:10\">Ib. XCVII, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 11:26\">Targ. Y. I Num. XI, 26</cite>; a. e."
+			]
+		}
+	]
+}

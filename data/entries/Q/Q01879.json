@@ -1,0 +1,33 @@
+{
+	"id": "Q01879",
+	"slug": "פרן-2",
+	"headword": {
+		"text": "פָּרַן"
+	},
+	"page": {
+		"number": 1230,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q01868\"><he>פָּרַם</he></cite>, <cite ref=\"Q01908\"><he>פָּרַס</he></cite>) <i>to cut, divide</i>; cmp. <cite ref=\"Q01350\"><he>פָּסַק</he></cite>,] <i>to assign</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְרִין"],
+			"senses": [
+				{
+					"gloss": "<i>to assign, provide, endow</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 5:5\">B. Mets. V, 5</cite> <he>ומַפְרִין על שדהו</he> Var. (v. <cite ref=\"Q01744\"><he>פָּרַז</he></cite>) and may make an arrangement for his field; expl. ",
+						"<cite ref=\"Bava Metzia 69b:9\">ib. 69ᵇ</cite> <he>השוכר … ואומר תן לי מאתים זוז ואפרנסנה וכ׳</he> if one rents a field at a rent of ten Kor of wheat a year, and says, lend me two hundred Zuz and I shall improve the field, and I offer thee twelve Kor a year (v. <cite ref=\"Q01783\"><he>פָּרָה</he></cite> <i>Hif.</i>).—Esp. <i>to endow a bride, to promise a dowry</i>. ",
+						"<cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite> (ref. to <cite ref=\"Genesis 24:60\">Gen. XXIV, 60</cite>) they were poor <he>ולא היו מַפְרִינִים אלא בפה</he> and endowed (the bride) only with their mouth (with a blessing); Yalk. ib. 109 <he>ולא היו מפרינין אותה וכ׳</he> (not <he>אותו</he>); <cite ref=\"Bereishit Rabbah 74:16\">Gen. R. s. 74</cite> end <he>מפרינים</he>; <cite ref=\"Yalkut Shimoni on Torah 130\">Yalk. ib. 130</cite> <he>מפריכין</he> (corr. acc.; Ar. <he>מפריסים</he>, v. <cite ref=\"Q01908\"><he>פָּרַס</he></cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

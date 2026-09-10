@@ -1,0 +1,24 @@
+{
+	"id": "A02229",
+	"slug": "אנינה",
+	"headword": {
+		"text": "אֲנִינָה"
+	},
+	"page": {
+		"number": 85,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A02252\"><he>אָנַן</he></cite>) <i>grief, retired mourning</i>, esp. the status of the mourner between death and burial of a kinsman, contrad. to <cite ref=\"A00131\"><he>אֲבֵילָה</he></cite>, <cite ref=\"A00133\"><he>אֲבֵילוּת</he></cite>. Lam. R. introd. (R. Abbahu 4) <he>א׳ מבפנים</he> <i>ăninah</i> is indoor (retired) grief. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:3:4\">Y. Hor. III, 48ᵃ</cite> top <he>איזהו א׳ וכ׳</he> what is <i>ăninah?</i>—The time from death to &c. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:9:3\">Y. Pes. VII, 35ᵃ</cite> top <he>אֲנִינַת לילה תורה</he> observance of ăninah by night is biblical. ",
+				"<cite ref=\"Bereishit Rabbah 85:4\">Gen. R. s. 85</cite> he is named <i>Onan</i> <he>שהביא א׳ לעצמו</he> because he brought mourning over his early death."
+			]
+		}
+	]
+}

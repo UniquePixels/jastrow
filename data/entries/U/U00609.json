@@ -1,0 +1,30 @@
+{
+	"id": "U00609",
+	"slug": "שזרתא",
+	"headword": {
+		"text": "שֵׁזַרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁ׳"
+		},
+		{
+			"text": "שֵׁי׳"
+		}
+	],
+	"page": {
+		"number": 1545,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00608\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 3:9\">Targ. O. Lev. III, 9</cite> (ed. Ber. <he>שַׁזַּ׳</he>, v. <cite ref=\"U00291\"><he>שַׁדַּרְתָּא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:5\">Targ. Koh. XII, 5</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:35\">Y. Ter. VIII, 46ᵃ</cite> <he>שְׁזַרְתֵּיה דחיוי וכ׳</he> we found in them the skeleton of a serpent. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:3:3\">Y. Sabb. I, 3ᵇ</cite> <he>ש׳</he>, v. <cite ref=\"N00230\"><he>נַדַּל</he></cite>."
+			]
+		}
+	]
+}

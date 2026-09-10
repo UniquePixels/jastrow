@@ -1,0 +1,36 @@
+{
+	"id": "D00841",
+	"slug": "דלל-1",
+	"headword": {
+		"text": "דָּלַל"
+	},
+	"page": {
+		"number": 310,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be thin, swing, hang</i>,] <i>to be poor</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>דַּלּוּ מן המצות</he> they became poor in good deeds."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵדֵל", "הֵידֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to thin, to take off grapes</i>, or <i>take out plants</i> in order to give the remainder more room. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 3:3\">Peah III, 3</cite> <he>המֵדַל</he> (Y. ed. <he>המֵידַל</he>) he who thins the vineyard; Tosef. ib. I, 10. ",
+						"<cite ref=\"Mishnah Peah 7:5\">Peah VII, 5</cite>; a. fr.—",
+						"<cite ref=\"Moed Katan 4a\">M. Kat. 4ᵃ</cite> sq. (a Boraitha quoted by Rabina) <he>והתניא מְדַלִּין לירקות וכ׳</he> (v. <cite ref=\"D00811\"><he>דָּלָה</he></cite>) are we not told, you may irrigate the vegetable garden during the festive week, if you intend to use the vegetables during the festive days? Said Rabbah to him [read:] <he>מי סברת מדלין מדלין מיא מאי מדלין שלופי</he> you think this <i>m’dallin</i> means you may draw water, it means: <i>to pluck</i> (ref. to <cite ref=\"Mishnah Peah 7:5\">Peah VII, 5</cite>).—Said Rabina to him: <he>והתניא מדלין מים לירקות וכ׳</he> But it reads, <i>M’dallin mayim</i> you may sprinkle <i>water</i> &c.—<i>Part. Pual</i> <he>מְדוּלָּל</he>, f. <he>מְדוּלֶּלֶת</he> <i>beggarly</i>. Y. Succ. II, 52ᵈ bot.; v. <cite ref=\"D00069\"><he>דַּבְלוּל</he></cite>."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

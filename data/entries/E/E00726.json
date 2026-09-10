@@ -1,0 +1,23 @@
+{
+	"id": "E00726",
+	"slug": "הערמה",
+	"headword": {
+		"text": "הַעֲרָמָה"
+	},
+	"page": {
+		"number": 360,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01390\"><he>עָרַם</he></cite>) <i>trickery, legal evasion, improper means to avoid a religious duty</i>. Y. Peah V, 19ᵇ bot.; <cite ref=\"Jerusalem Talmud Nedarim 4:10:3\">Y. Ned. IV, end, 38ᵈ</cite> <he>לא חשו לה׳</he> the Rabbis did not apprehend an evasion. Ib. V, end, 39ᵇ a donation like that of Beth-Horon (v. Mish. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 5:7\">ib. V, 7</cite>) <he>שהיתה בה׳</he> which was made for the sake of circumventing (a vow). ",
+				"<cite ref=\"Tosefta Bava Metzia 4:3\">Tosef. B. Mets. IV, 3</cite> <he>הַעֲרָמַת ריבית</he> an evasion of the law of usury; <cite ref=\"Bava Metzia 62b\">B. Mets. 62ᵇ</cite>; Y. ib. V, 10ᵇ top; a. fr."
+			]
+		}
+	]
+}

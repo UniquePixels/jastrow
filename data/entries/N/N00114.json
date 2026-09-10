@@ -1,0 +1,39 @@
+{
+	"id": "N00114",
+	"slug": "נגב-1",
+	"headword": {
+		"text": "נֶגֶב"
+	},
+	"page": {
+		"number": 871,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"N00115\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dry soil</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Kamma 8:19\">Tosef. B. Kam. VIII, 19</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>south</i> (in Talm. <cite ref=\"D01055\"><he>דָּרוֹם</he></cite>).).",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " pr. n. pl. <i>Negeb</i>, in the district of Ascalon. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 18:15\">Tosef. Ohol. XVIII, 15</cite> (Var. <he>גנב</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

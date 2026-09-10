@@ -1,0 +1,32 @@
+{
+	"id": "A01249",
+	"slug": "איכא-2",
+	"headword": {
+		"text": "אִיכָּא"
+	},
+	"page": {
+		"number": 48,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (contr. of <he>אִית־כָּא</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>there is, there are</i> (<i>sunt qui</i>). <he>א׳ דאמרי</he> (abbrev. <he>א״ד</he>.) some say. ",
+			"units": [
+				"<cite ref=\"Chullin 3b\">Ḥull. 3ᵇ</cite>; a. fr. <he>א׳ בינייהו</he> they differ in this &c. ",
+				"<cite ref=\"Chullin 4a:17\">Ib. 4ᵃ</cite>; a. fr.—<he>מאי א׳ למימר</he> what is there to say? how can it be explained? what can you reply? <cite ref=\"Chullin 12a:1\">Ib. 12ᵃ</cite> top; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>he who</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:7\">Targ. Prov. XIX, 7</cite>. [Prob. to be read <cite ref=\"A01366\"><he>אִינָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

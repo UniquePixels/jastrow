@@ -1,0 +1,28 @@
+{
+	"id": "K00169",
+	"slug": "כהנכא",
+	"headword": {
+		"text": "כַּהֲנָכָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּהֲנַכְתָּא"
+		}
+	],
+	"page": {
+		"number": 615,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>כהן</he>, with format. <cite ref=\"K00000\"><he>כ</he></cite>; v. letter <cite ref=\"K00000\"><he>כ</he></cite>) <i>the attendant’s</i> or <i>priest’s lustral basin</i> (v. Sm. Ant. s. v. Chernips).—Pl. <cite ref=\"K00169\"><he>כַּהַנְכָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 31:23\">Targ. Y. Num. XXXI, 23</cite>; cmp. <cite ref=\"K01241\"><he>כַּרְנִיבָּאוֹת</he></cite>."
+			]
+		}
+	]
+}

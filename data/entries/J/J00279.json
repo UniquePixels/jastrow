@@ -1,0 +1,30 @@
+{
+	"id": "J00279",
+	"slug": "יחזקאל",
+	"headword": {
+		"text": "יְחֶזְקֵאל"
+	},
+	"page": {
+		"number": 574,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Ezekiel</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the prophet. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 39a:13\">Snh. 39ᵃ</cite>, v. <cite ref=\"J00470\"><he>יָסַר</he></cite>. ",
+				"<cite ref=\"Chagigah 13b:5\">Ḥag. 13ᵇ</cite> <he>למה י׳ דומה לבן וכ׳</he> to whom is Ez. to be compared? To a villager that saw the king; a. fr.—<he>ספר י׳</he> the Book of Ezekiel. Ib.ᵃ; <cite ref=\"Shabbat 13b:8\">Sabb. 13ᵇ</cite>, v. <cite ref=\"C01120\"><he>גָּנַז</he></cite>; <cite ref=\"Menachot 45a:19\">Men. 45ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " Ez., the father of R. Judah, v. <cite ref=\"J00124\"><he>יְהוּדָה</he></cite>. ",
+			"units": ["<cite ref=\"Kiddushin 70a:12\">Kidd. 70ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

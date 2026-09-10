@@ -1,0 +1,42 @@
+{
+	"id": "M03035",
+	"slug": "מתורגמן-1",
+	"headword": {
+		"text": "מְתוּרְגְּמָן"
+	},
+	"page": {
+		"number": 860,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00943\"><he>תִּרְגֵּם</he></cite>) <i>interpreter</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 13</cite> (ref. to <cite ref=\"Esther 7:5\">Esth. VII, 5</cite>) <he>ויאמר … למ׳ ויאמר המ׳ וכ׳</he> King Ahasver spoke to the interpreter, and the interpreter to Esther; <cite ref=\"Yalkut Shimoni on Nach 1058:8\">Yalk. Esth. 1058</cite>; (<cite ref=\"Megillah 16a:18\">Meg. 16ᵃ</cite> <cite ref=\"V00287\"><he>תורגמן</he></cite>).—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>translator</i> (into Chaldaic or Greek) <i>of the Biblical portion read at services</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Megillah 4:4\">Meg. IV, 4</cite> <he>לא יקרא למ׳ וכ׳</he> one must not read for the translator more than one verse at a time. ",
+						"<cite ref=\"Mishnah Megillah 4:4\">Ib.</cite> <he>עד כדי שלא יפסוק המ׳</he> occupying no more time (in rolling the scroll) than the translator requires for interpreting the verse last read; a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " = <cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite> q. v. ",
+					"units": [
+						"<cite ref=\"Chullin 142a:9\">Ḥull. 142ᵃ</cite> <he>ר׳ חוצפית המ׳</he>. ",
+						"<cite ref=\"Shemot Rabbah 3:13\">Ex. R. s. 3</cite>, end; a. e.—Pl. <he>מְתוּרְגְּמָנִים</he>, <he>נִין …</he> <cite ref=\"Kohelet Rabbah 7:5:1\">Koh. R. to VII, 5</cite>. ",
+						"<cite ref=\"Kohelet Rabbah 9:17:1\">Ib. to IX, 17</cite>. ",
+						"<cite ref=\"Pesachim 50b:8\">Pes. 50ᵇ</cite>; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "C00841",
+	"slug": "גיש",
+	"headword": {
+		"text": "גִּישׁ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 243,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00773\"><he>גִּיס</he> I</cite>) <i>familiar</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 117b:3\">Yeb. 117ᵇ</cite> <he>דג׳ לה וכ׳</he> Ar. (ed. <he>דרגיש</he>) annoyance of family quarrels is familiar to her."
+			]
+		}
+	]
+}

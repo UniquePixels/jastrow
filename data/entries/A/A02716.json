@@ -1,0 +1,31 @@
+{
+	"id": "A02716",
+	"slug": "אפיקירוס",
+	"headword": {
+		"text": "אֲפִיקֵירוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲפִיקֶרֶס"
+		},
+		{
+			"text": "אַפְקֵירוֹס"
+		}
+	],
+	"page": {
+		"number": 104,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Epicærus</i>, a town East of the Jordan (Ptol. V, 16, 9), in Targ. corresp. to h. <he>מַעֲכָה</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 3:14\">Targ. Deut. III, 14</cite>, O. <he>אפקי׳</he>; Y. II <he>קריית אפיק׳</he> (Y. I corrupt <he>קורוי ואנטיקירוס</he>). ",
+				"<cite ref=\"Targum Jonathan on Joshua 12:5\">Targ. Josh. XII, 5</cite>; <cite ref=\"Targum Jonathan on Joshua 13:11\">XIII, 11</cite>; <cite ref=\"Targum Jonathan on Joshua 13:13\">13</cite>."
+			]
+		}
+	]
+}

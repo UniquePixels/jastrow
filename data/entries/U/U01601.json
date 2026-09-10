@@ -1,0 +1,42 @@
+{
+	"id": "U01601",
+	"slug": "שנן-1",
+	"headword": {
+		"text": "שָׁנַן"
+	},
+	"page": {
+		"number": 1607,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be pointed, sharp; to sharpen.—Part. pass</i>. <cite ref=\"U01578\"><he>שָׁנוּן</he></cite>, pl. <he>שְׁנוּנִים</he> <i>sharpened</i>; trnsf. <i>ready, quick</i>. Pesik. Baḥod., p. 108ᵃ, a. e., v. <cite ref=\"U01568\"><he>שִׁנְאָן</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁנֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to sharpen</i>; trnsf. (cmp. <he>חדד</he>) <i>to teach diligently</i>, v. <cite ref=\"U00975\"><he>שִׁינּוּן</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to brighten, cheer</i>. ",
+					"units": [
+						"<cite ref=\"Avot D'Rabbi Natan 18:3\">Ab. d’R. N. ch. XVIII</cite> <he>והיה מְשַׁנֵּן בה כל וכ׳</he> and with this (his disposition) he cheered all Israel’s scholars."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to speak distinctly</i>. Y. Ber. III, 6ᵇ bot. <he>לא מסתברא … משנן בפיו</he> is it not evident that in reading the Sh’mʿa every one must recite it distinctly with his own mouth?",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

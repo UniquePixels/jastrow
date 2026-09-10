@@ -1,0 +1,24 @@
+{
+	"id": "M00669",
+	"slug": "מורסן",
+	"headword": {
+		"text": "מוּרְסָן"
+	},
+	"page": {
+		"number": 751,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00859\"><he>רָסַס</he></cite>) <i>bruised grain, coarse bran</i> (differ. fr. <cite ref=\"O00233\"><he>סוּבִּין</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:8:9\">Y. Sot. I, 17ᵇ</cite>; <cite ref=\"Jerusalem Talmud Peah 7:3:10\">Y. Peah VII, 20ᵃ</cite> bot.; <cite ref=\"Ketubot 112a:11\">Keth. 112ᵃ</cite> <cite ref=\"M00667\"><he>מורסין</he></cite> (corr. acc.). ",
+				"<cite ref=\"Tosefta Shevi'it 5:8\">Tosef. Shebi. V, 8</cite>. ",
+				"<cite ref=\"Mishnah Challah 2:6\">Ḥall. II, 6</cite> <he>מוּרְסָנָן</he> the bran thereof; a. fr."
+			]
+		}
+	]
+}

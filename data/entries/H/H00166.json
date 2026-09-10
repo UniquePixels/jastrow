@@ -1,0 +1,29 @@
+{
+	"id": "H00166",
+	"slug": "חגרתא",
+	"headword": {
+		"text": "חִגַּרְתָּא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיגַּ׳"
+		}
+	],
+	"page": {
+		"number": 425,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00164\"><he>חִגְּרָא</he></cite>) <i>lameness, frailty</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 23\">Gen. R. s. 23</cite>; Tanḥ. ",
+				"<cite ref=\"Genesis 11\">B’resh. 11</cite> <he>אסיא אסי חִיגַּרְתָּךְ</he> (<cite ref=\"Yalkut Shimoni on Nach 38\">Yalk. ib. 38</cite> <he>חֲבוּרְתָּךְ</he>) physician, cure thy own infirmity."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "A03232",
+	"slug": "ארק",
+	"headword": {
+		"text": "אֲרָק"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲדָק"
+		},
+		{
+			"text": "עֲדָק"
+		}
+	],
+	"page": {
+		"number": 125,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A03232\"><he>ארק</he></cite>, cmp. <he>חרק</he>; <he>אדק</he>, <cite ref=\"P00161\"><he>עדק</he></cite>, cmp. <he>חדק</he>) <i>a perforated vessel</i>, a sort of clepsydra used in sick rooms. ",
+			"units": [
+				"<cite ref=\"Eruvin 104a:15\">Erub. 104ᵃ</cite> <he>ומטיפין מארק</he> Mus. a. oth. (ed. <he>מיארק</he> read <he>מי א׳</he>, Ms. M. <cite ref=\"A03095\"><he>אריך</he></cite>, indistinct, Ms. Oxf. <he>ארג</he>, Ar. <he>אדק</he> a. <cite ref=\"A03232\"><he>ארק</he></cite>, v. Ar. ed. Koh.) you may, on the Sabbath, let water drip from the Arak for a sick person; <cite ref=\"Jerusalem Talmud Eruvin 10:13:3\">Y. Erub. X, 26ᵈ</cite> top <he>מוסיפין בעדק</he> (<he>מטיפין</he>); <cite ref=\"Tosefta Shabbat 2:8\">Tosef. Sabb. II, 8</cite> <he>מן אדק</he> ed. Zuck. (Var. <he>האדק</he>)."
+			]
+		}
+	]
+}

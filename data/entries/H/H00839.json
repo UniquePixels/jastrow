@@ -1,0 +1,24 @@
+{
+	"id": "H00839",
+	"slug": "חיפא-1",
+	"headword": {
+		"text": "חֵיפָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 459,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חיּף</he> I, cmp. <cite ref=\"H00425\"><he>חוּפְיָא</he></cite>) [<i>sweep</i>,] <i>impetuous attack</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:4\">Targ. Prov. XXVII, 4</cite> (h. text <he>שטף</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:25\">Ib. III, 25</cite> ed. Lag. (ed. <cite ref=\"H00827\"><he>חיסא</he></cite>, corr. acc.; h. text <cite ref=\"U00056\"><he>שֹׁאַת</he></cite>)."
+			]
+		}
+	]
+}

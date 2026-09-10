@@ -1,0 +1,51 @@
+{
+	"id": "M00817",
+	"slug": "מחוזא",
+	"headword": {
+		"text": "מָחוֹזָא"
+	},
+	"page": {
+		"number": 757,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00816\">same</cite><i>harbor, trading place</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 107:30\">Targ. Ps. CVII, 30</cite>.—Pl. <cite ref=\"M00819\"><he>מָחוֹזִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 34:6\">Targ. Y. I Num. XXXIV, 6</cite> <he>מְחוֹזוֹי</he> (<he>מְחוּ׳</he>) its harbors (or trading places; Y. II <cite ref=\"M00808\"><he>מחדוי</he></cite>, <he>מחרוי</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:19\">Targ. Lam. II, 19</cite>; <cite ref=\"Aramaic Targum to Lamentations 4:1\">IV, 1</cite> (h. text <he>חוצות</he>). ",
+				"<cite ref=\"Onkelos Numbers 22:39\">Targ. O. Num. XXII, 39</cite> <he>קרית מָחוֹזוֹהִי</he> (h. text <cite ref=\"H01515\"><he>חֻצּוֹת</he></cite>) his city of markets. ",
+				"<cite ref=\"Aramaic Targum to Job 5:10\">Targ. Job V, 10</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " in gen. <i>large town</i> (= <cite ref=\"K01186\"><he>כרך</he></cite>). ",
+			"units": [
+				"<cite ref=\"Tamid 32b\">Tam. 32ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 12a:8\">Sabb. 12ᵃ</cite> <he>בני מ׳</he> city people, opp. <he>בני חקליתא</he>. ",
+				"<cite ref=\"Berakhot 37b\">Ber. 37ᵇ</cite>, opp. <he>חקלאי</he>.—Pl. <cite ref=\"M00819\"><he>מָחוֹזֵי</he></cite>. ",
+				"<cite ref=\"Bava Batra 73b:4\">B. Bath. 73ᵇ</cite>.—Esp. pr. n. pl. <i>Maḥoza</i>, "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " a district in Palestine, v. preced.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>Maḥoza</i> (<i>M’ḥuza</i>), a large Jewish trading town on the Tigris. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite> (?).—",
+						"<cite ref=\"Berakhot 59b:5\">Ber. 59ᵇ</cite>. ",
+						"<cite ref=\"Yoma 11a\">Yoma 11ᵃ</cite>. ",
+						"<cite ref=\"Shabbat 95a\">Sabb. 95ᵃ</cite>; a. v. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

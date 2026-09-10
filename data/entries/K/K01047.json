@@ -1,0 +1,69 @@
+{
+	"id": "K01047",
+	"slug": "כפר-2",
+	"headword": {
+		"text": "כְּפַר"
+	},
+	"page": {
+		"number": 662,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01046\">same</cite>, <i>to deny, renounce</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:27\">Targ. Jer. II, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 5:21\">Targ. Y. Lev. V, 21</cite>, sq.; a. fr.—",
+				"<cite ref=\"Bava Kamma 107a:2\">B. Kam. 107ᵃ</cite> <he>בכוליה בעי דנִכְפְּרֵיה</he> ed. (Ms. M. <he>דנכפר ליה</he>, v. Rabb. D. S. a. l.) he would have liked to deny the whole of his indebtedness, <he>והאי דלא כָפְרֵיה</he> and the reason why he did not do so. ",
+				"<cite ref=\"Bava Kamma 105b:1\">Ib. 105ᵇ</cite> <he>ממונא קא כ׳ ליה</he> through his denial he withholds from him value. ",
+				"<cite ref=\"Moed Katan 18b:14\">M. Kat. 18ᵇ</cite> <he>כַּפְרַת בה</he> Ms. M. thou growest a disbeliever through it (when thy prayer is not answered; ed. <he>כ׳ בה׳</he> thou renouncest the Lord); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּפֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to wipe out, efface</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 30:20\">Targ. Prov. XXX, 20</cite>.—",
+						"<cite ref=\"Bava Batra 167a\">B. Bath. 167ᵃ</cite> <he>כ׳ ליה וכ׳</he> Ms. M. (ed. <he>מחקיה</he>) he erased the horizontal lines of the Beth (v. <cite ref=\"K00656\"><he>כַּכָּא</he></cite>). ",
+						"<cite ref=\"Chullin 8b:6\">Ḥull. 8ᵇ</cite> <he>למִיכַפְּרֵיה</he> with which to wipe the knife off. ",
+						"<cite ref=\"Yevamot 115b:7\">Yeb. 115ᵇ</cite> <he>מיכַפַּר הוה כַפֵּר</he> he would have obliterated the mark. ",
+						"<cite ref=\"Gittin 56a\">Gitt. 56ᵃ</cite> <he>ואתי לכַפּוּרֵי וכ׳</he> and wants to wipe his hands off on this man (me), i.e. desires to put the responsibility on me; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to forgive, atone, procure forgiveness</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 16:17\">Targ. Lev. XVI, 17</cite>; a. fr.—",
+						"<cite ref=\"Zevachim 6a:7\">Zeb. 6ᵃ</cite> <he>מקיבעא לא מְכַפְּרָא וכ׳</he> as a specially appointed offering it has no atoning effect, by implication it has; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְכַּפֵּר", "אִיכַּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be wiped out, obliterated</i>. Targ. II Esth. III, 8.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be forgiven, to be expiated</i>. Ib. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 21:8\">Targ. Deut. XXI, 8</cite>; a. fr.—",
+						"<cite ref=\"Yoma 50b:7\">Yoma 50ᵇ</cite> <he>בקביעותא מִתְכַּפְּרֵי וכ׳</he> (Ms. M. 2 <cite ref=\"M01420\"><he>מִיכַּ׳</he></cite>) do they (the high priest’s kindred and fellow priests) obtain forgiveness by special appointment (so as to be considered fellow owners of the sacrifice) or by implication? <cite ref=\"Keritot 24a:6\">Kerith. 24ᵃ</cite> <he>מִיכַּפַּרְנָא באידך חבריה</he> my atonement shall be effected through the other animal; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

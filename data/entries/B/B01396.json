@@ -1,0 +1,23 @@
+{
+	"id": "B01396",
+	"slug": "בתרים",
+	"headword": {
+		"text": "בְּתָרִים"
+	},
+	"page": {
+		"number": 201,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"B01391\"><he>בֶּתֶר</he></cite>) <i>pieces of the covenant-offerings</i>.—<he>ברית בין הב׳</he> the covenant with Abraham (<cite ref=\"Genesis 15:17-18\">Gen. XV, 17—18</cite>). ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:17\">Cant. R. to II, 17</cite>; a. fr."
+			]
+		}
+	]
+}

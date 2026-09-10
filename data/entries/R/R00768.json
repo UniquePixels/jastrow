@@ -1,0 +1,23 @@
+{
+	"id": "R00768",
+	"slug": "צרידתא",
+	"headword": {
+		"text": "צְרֵידָתָא"
+	},
+	"page": {
+		"number": 1301,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"R00764\"><he>צָרִיד</he></cite>) <i>hard and dry</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 96b:9\">Snh. 96ᵇ</cite>, v. <cite ref=\"R00400\"><he>צִינְּתָא</he> II</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "M02776",
+	"slug": "מרר-4",
+	"headword": {
+		"text": "מְרָר"
+	},
+	"page": {
+		"number": 848,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", <cite ref=\"M02775\"><he>מֶרֶר</he></cite>, <cite ref=\"M02709\"><he>מְרָרָא</he></cite> ch. same, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>trouble</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 19a:7\">Snh. 19ᵃ</cite> <he>אגב מְרָרֵיה</he> in his trouble (excitement of mourning).—במ׳ <i>bitterly</i>. ",
+				"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>curse</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 5:24\">Targ. O. Num. V, 24</cite>; <cite ref=\"Onkelos Numbers 5:27\">27</cite>, v. <cite ref=\"M02685\"><he>מְרִירוּ</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>bitter herb</i>.—Pl. <he>מְרָרִין</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:8\">Targ. O. Ex. XII, 8</cite>; a. e.; v. <cite ref=\"M02606\"><he>מְרוֹרָא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

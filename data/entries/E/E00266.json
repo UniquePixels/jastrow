@@ -1,0 +1,61 @@
+{
+	"id": "E00266",
+	"slug": "הוצאה",
+	"headword": {
+		"text": "הוֹצָאָה"
+	},
+	"page": {
+		"number": 340,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>יצא</he>, v. <cite ref=\"J00527\"><he>יְצִיאָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>carrying out</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 30a:22\">B. Kam. 30ᵃ</cite> <he>שעת הוֹצָאַת זבלים</he> the season for carrying out dung; a. fr.—הוֹצָאַת המת <i>funeral escort</i>. ",
+				"<cite ref=\"Megillah 3b\">Meg. 3ᵇ</cite>; a. e.—Esp. (with ref. to Sabbath law) <i>carrying out of the house</i>, in gen. <i>transferring an object from one territory to another</i> (from private to public ground a. vice versa, v. <cite ref=\"T01079\"><he>רָשׁוּת</he></cite>). ",
+				"<cite ref=\"Shabbat 2b:12\">Sabb. 2ᵇ</cite> <he>שתים דה׳</he> two forbidden acts in taking out of the house, opp. <cite ref=\"E00518\"><he>הכנסה</he></cite>, carrying in. ",
+				"<cite ref=\"Shabbat 2b:10\">Ib.</cite> <he>תנא הכנסה נמי ה׳ וכ׳</he> the teacher of the Mishnah calls the carrying in, too, <i>hotsaah</i> (Mish. <cite ref=\"J00527\"><he>יְצִיאָה</he></cite>), <i>transfer</i>. ",
+				"<cite ref=\"Shabbat 2b:12\">Ib.</cite> <he>כל עקירת … ה׳ וכ׳</he> any removal of an object from its place is implied in the term <i>hotsaah</i>. Y. ib. I, 2ᵇ; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bringing forth, sprouting</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:1:6\">Y. Shebi. V, 35ᵈ</cite> bot. <he>מהוצאת עלין</he> from the time that the leaves come forth."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " ה׳ נפש <i>the escape of life, last dying movement</i>. ",
+			"units": ["<cite ref=\"Chullin 38a\">Ḥull. 38ᵃ</cite>"],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>the time consumed by the laborer to go out to the field</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 72:4\">Gen. R. s. 72</cite> <he>ה׳ מִשֶּׁל בעה״ב</he> the time for going out to the place of labor is included in the working hours belonging to the employer (<cite ref=\"Bava Metzia 83b\">B. Mets. 83ᵇ</cite>, a. e. <cite ref=\"J00527\"><he>יציאה</he></cite>)."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>expenditure, outlay, cost; marketing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 4:1:4\">Y. Peah IV, beg. 18ᵃ</cite> <he>ה׳ משל בעה״ב</he> the cost (of cutting the fruits of the tree) must be borne by the owner (and not by the poor). Y. Shek. I, end, 46ᵇ <he>ה׳ דרכים</he> expense for keeping the roads in repair. ",
+				"<cite ref=\"Ketubot 80a:4\">Keth. 80ᵃ</cite> <he>אם הי׳ שבח יתר על הה׳</he> if the income from the improvement exceeds the outlay. ",
+				"<cite ref=\"Shabbat 117b\">Sabb. 117ᵇ</cite> <he>ה׳ שבת</he> the marketing for the Sabbath; a. fr.—Pl. <he>הוֹצָאוֹת</he>. ",
+				"<cite ref=\"Mishnah Ketubot 8:5\">Keth. VIII, 5</cite> <he>המוציא ה׳ על וכ׳</he> if one spends money for improving his wife’s estate. ",
+				"<cite ref=\"Bamidbar Rabbah 14:20\">Num. R. s. 14</cite>, end <he>כמה ה׳ יוצאות וכ׳</he> how large the expenses are for the royal table; a. fr."
+			],
+			"label": "5"
+		}
+	]
+}

@@ -1,0 +1,109 @@
+{
+	"id": "A02260",
+	"slug": "אנס-2",
+	"headword": {
+		"text": "אֲנַס"
+	},
+	"page": {
+		"number": 86,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", fut. <cite ref=\"J00339\"><he>יֵינַס</he></cite> ch. same; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to take by force, snatch, rob</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 23:21\">Targ. II Sam. XXIII, 21</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to oppress, rob</i> (h. <he>עשק</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 12:3\">Targ. I Sam. XII, 3</cite>; <cite ref=\"Targum Jonathan on I Samuel 12:4\">4</cite>; a. fr.—",
+				"<cite ref=\"Arakhin 16a:8\">Arakh. 16ᵃ</cite> <he>ואזלין ואנסין ליה</he> and they (violent men) go and rob him (or force him to feed them, v. Rashi a. l.). ",
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> (<he>אַנְסִינוֹן</he>) <he>אַנְסִינָן אקימנן וכ׳</he> he forced them, made them managers of public charities."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <he>ענש</he>) <i>to distrain, fine</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 4:2\">Targ. Amos. IV, 2</cite>; a. fr.; v. <cite ref=\"A02147\"><he>אָנוֹסָא</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to urge, press; restrain</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 57b\">B. Bath. 57ᵇ</cite> one must <he>למַינַס נפשיה</he> restrain himself (turn his eyes away forcibly). ",
+				"<cite ref=\"Chullin 133a:8\">Ḥull. 133ᵃ</cite> <he>א׳ ליה עידניה</he> time pressed him."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "—Part. pass. <he>אָנִיס</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>wronged</i> &c. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 5:11\">Targ. Hos. V, 11</cite>; a. e.—"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>unavoidably prevented, forced</i>, v. <cite ref=\"A02259\">preced.</cite> ",
+					"units": [
+						"<cite ref=\"Nazir 23a:18\">Naz. 23ᵃ</cite> <he>מינס א׳</he> he had no will of his own (being drunk). ",
+						"<cite ref=\"Nedarim 27b:2\">Ned. 27ᵇ</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹנֵיס"],
+			"senses": [
+				{
+					"gloss": "<i>to oppress</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 7:6\">Targ. Jer. VII, 6</cite> (h. text <he>ינה</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְאֲנֵס", "אִתְאֲנִיס"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"A01657\"><he>אִיתְּנִיס</he></cite>. ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be robbed; to be fined</i>, (of official extortion); &c. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 21:2\">Targ. Is. XXI, 2</cite>. ",
+						"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>דאנון מארסוון</he> (read <he>דאתון מִתְאַנְּסוּן</he> or <he>דאינון מאנסכון</he>; <cite ref=\"Yalkut Shimoni on Torah 665:8\">Yalk. Lev. 665</cite> <he>דאתון מזדמיין</he>, v. <cite ref=\"G00514\"><he>זמי</he></cite>) that you will lose through extortion &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to meet with an accident, be unavoidably prevented</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 27a:6\">Ned. 27ᵃ</cite> <he>איתניס ולא אתא</he> he met with an accident and did not come in time. ",
+						"<cite ref=\"Nedarim 27a:9\">Ib.</cite> <he>והא מֵינַס איתניס</he> was he not unavoidably prevented (since he died during the appointed time)? <cite ref=\"Ketubot 16b:11\">Keth. 16ᵇ</cite> <he>אִתְּנוּסֵי הוא דאתניסו</he> they were prevented from forming the bridal procession [prob. alluding to government interference; Rashi: through excessive drinking]. [<he>איתניס</he> <i>to grow ill</i>, v. <cite ref=\"A01657\"><he>אִיתְנִיס</he></cite> a. <cite ref=\"N00953\"><he>נְסַס</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

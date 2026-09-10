@@ -1,0 +1,30 @@
+{
+	"id": "N00624",
+	"slug": "נידוי",
+	"headword": {
+		"text": "נִידּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִדּ׳"
+		}
+	],
+	"page": {
+		"number": 903,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00214\"><he>נָדָה</he></cite>) <i>banishment, isolation</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite> <he>תהא בנ׳</he> (<cite ref=\"Shabbat 64b\">Sabb. 64ᵇ</cite>, a. e. <he>בנדתה</he>), v. <cite ref=\"N00215\"><he>נִדָּה</he></cite>.—Esp. <i>excommunication</i>, of a higher degree than <cite ref=\"N00442\"><he>נְזִיפָה</he></cite> and lesser than <cite ref=\"H01716\"><he>חֵרֶם</he></cite>. ",
+				"<cite ref=\"Moed Katan 16a:21\">M. Kat. 16ᵃ</cite> <he>אין נ׳ פחות וכ׳</he> <i>nidduy</i> lasts no less than thirty days. ",
+				"<cite ref=\"Moed Katan 16a:18\">Ib.</cite> <he>נִידּוּיוֹ נ׳</he> the excommunication pronounced by him is valid. ",
+				"<cite ref=\"Berakhot 19a:11\">Ber. 19ᵃ</cite> <he>גוזרני עליך נ׳</he> I should have decreed the ban over; a. fr."
+			]
+		}
+	]
+}

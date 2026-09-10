@@ -1,0 +1,83 @@
+{
+	"id": "C01403",
+	"slug": "גרש-1",
+	"headword": {
+		"text": "גָּרַשׁ"
+	},
+	"page": {
+		"number": 273,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to stir up, to set in commotion</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 39\">Sifré Deut. 39</cite>; <cite ref=\"Yalkut Shimoni on Torah 859:2\">Yalk. ib. 859</cite> <he>יכול יהו מים גּוֹרְשִׁין את העפר ממקום בקעה וכ׳</he> you might suppose the (rain) water will stir up the (fat) ground of the valley, and thus the valley will lack (drinking) water."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"I00712\"><he>טָרַד</he></cite>) <i>to banish; to send off, divorce</i> (a wife).—Part. pass. <cite ref=\"C01315\"><he>גָּרוּשׁ</he></cite>, f. <cite ref=\"C01315\"><he>גְּרוּשָׁה</he></cite> q. v.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גֵּירַשׁ", "גֵּרַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to send off, banish</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 21\">Gen. R. s. 21</cite>.—Esp. <i>to give a letter of divorce</i>. ",
+						"<cite ref=\"Mishnah Gittin 9:1\">Gitt. IX, 1</cite> <he>הַמְּגָרֵשׁ וכ׳</he> if one divorces his wife and says, on handing her the letter, &c.; a. v. fr.—",
+						"<cite ref=\"Mishnah Gittin 6:5\">Ib. VI, 5</cite> if one says (to his delegates) … <he>גָּרְשׁוּהָ</he> <i>ga’rshuha</i>, they are authorized to write and deliver to her a letter of divorce (<i>geresh</i> being the colloquial term for divorcing)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["גּוּרָשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be banished</i>, &c. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 19\">Pirké d’R. El. ch. XIX</cite>; <cite ref=\"Pirkei DeRabbi Eliezer 20:1\">XX</cite> <he>ג׳ ויצא וכ׳</he> he was banished and he left paradise.—<i>Part.</i> <he>מְגוּרָשׁ</he>, f. <he>מְגוּרֶשֶׁת</he>. ",
+						"<cite ref=\"Mishnah Gittin 7:4\">Gitt. VII, 4</cite> <he>מג׳ ואינה מג׳</he> she is and is not divorced, i.e. her divorce is doubtful, and she has to suffer the disqualifications of a married and of a divorced woman. ",
+						"<cite ref=\"Mishnah Gittin 7:5\">Ib. 5</cite>; a. v. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["הִתְגָּרֵשׁ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְגָּרֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be banished; to be divorced</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 92:4\">Midr. Till. to Ps. XCII</cite>. ",
+						"<cite ref=\"Gittin 65a:7\">Gitt. 65ᵃ</cite> <he>מִתְגָּרֶשֶׁת בקידושי וכ׳</he> she is entitled to receive a letter of divorce for herself even though her father had contracted the marriage in her behalf; a. v. fr. ["
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be stirred up, become muddy, thick</i>. Midr. d’R. Akiba, Alef (Jellinek Beth Hammidrash III, 13).]",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa"
+		}
+	]
+}

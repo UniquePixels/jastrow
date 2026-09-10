@@ -1,0 +1,31 @@
+{
+	"id": "U00304",
+	"slug": "שהיה",
+	"headword": {
+		"text": "שְׁהִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁהִיָּיה"
+		}
+	],
+	"page": {
+		"number": 1527,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00296\"><he>שָׁהָה</he></cite>) <i>delay, pause</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 16b:7\">Shebu. 16ᵇ</cite> <he>השתחואה דאית בה ש׳</he> a bowing in the Temple with which a delay is connected (spreading hands and feet). ",
+				"<cite ref=\"Shevuot 16b:8\">Ib.</cite> <he>וכמה שיעור ש׳</he> what is the normal time for a delay (in the Temple to be an offense if done by an unclean person)? <cite ref=\"Shevuot 16b:5\">Ib.</cite> <he>צריך ש׳ למלקות וכ׳</he> is tarrying in the Temple required for an unclean person to be punished with stripes or is it not (and only required for the duty of bringing a sacrifice)?; a. e.—Esp. <i>pause in the act of slaughtering</i>. ",
+				"<cite ref=\"Chullin 9a:3\">Ḥull. 9ᵃ</cite> <he>ואלו … שחיטה ש׳ דרסה וכ׳</he> and these are the rules for slaughtering … (guard against) pausing, pressing the knife &c. ",
+				"<cite ref=\"Chullin 27a:6\">Ib. 27ᵃ</cite>; a. e.—Pl. <he>שְׁהִיּוֹת</he>. ",
+				"<cite ref=\"Shevuot 17a:6\">Shebu. 17ᵃ</cite> <he>ש׳ מהו שיצטרפו</he> are moments of staying in the Temple with intervals of moving combined (to make up the normal time)?"
+			]
+		}
+	]
+}

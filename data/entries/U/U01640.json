@@ -1,0 +1,22 @@
+{
+	"id": "U01640",
+	"slug": "שעועית",
+	"headword": {
+		"text": "שְׁעוּעִית"
+	},
+	"page": {
+		"number": 1610,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שעע</he>; cmp. <cite ref=\"U01637\"><he>שַׁעֲוָה</he></cite>) a species of <i>beans</i>, prob. <i>kidney-bean</i> (Phaseolus Vulgaris), v. <cite ref=\"Q01295\"><he>פְּסִילְתָּא</he></cite>, a. <cite ref=\"H01010\"><he>חֲלוּקָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:1\">Kil. I, 1</cite> <he>פול הלבן והש׳ וכ׳</he> Y. ed. a. Ms. M. (Mish. a. Bab. ed. <cite ref=\"U01639\"><he>שעועים</he></cite>, corr. acc.; v. Rabb. D. S. a. l. note) the white bean and the kidney-bean are not heterogeneous. Y. ib. 27ᵃ top expl. (<cite ref=\"Q02169\"><he>פתילתה</he></cite>) <cite ref=\"Q01295\"><he>פסילתא</he></cite>. Ib. <he>למה שמה ש׳ שמשעשעת את הלב וכ׳</he> (some ed. <cite ref=\"U01696\"><he>שעשועית</he></cite>) why is it called <i>sh’ʿuʿith</i> (pasty)? Because it pastes up (dulls) the heart, and loosens the bowels."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "S02265",
+	"slug": "קשר-2",
+	"headword": {
+		"text": "קֶשֶׁר"
+	},
+	"page": {
+		"number": 1432,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S02264\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>knot, band, loop</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 15:1\">Sabb. XV, 1</cite> <he>ק׳ הגמלין</he> a knot like that which the camel drivers make (v. <cite ref=\"G00534\"><he>זְמָמָא</he></cite>); <he>ק׳ הספנין</he> the sailors’ knot (v. <cite ref=\"A01460\"><he>אִיסְטְרִידָא</he></cite>). Ib. 111ᵇ <he>ק׳ שאינו של קיימא</he> a knot which is not intended to be permanent, a temporary knot. ",
+				"<cite ref=\"Berakhot 7a:33\">Ber. 7ᵃ</cite> <he>ק׳ של תפלין</he> the knot in the band of the T’fillin (resting on the back of the head); a. v. fr.—Trnsf. <i>union, conspiracy</i>. ",
+				"<cite ref=\"Sanhedrin 26a:23\">Snh. 26ᵃ</cite> (ref. to <cite ref=\"Isaiah 8:12\">Is. VIII, 12</cite>) <he>ק׳ רשעים הוא וק׳ רשעים אינו וכ׳</he> it is a council of wicked men &c., v. <cite ref=\"M01786\"><he>מִנְיָן</he></cite>.—Pl. <he>קְשָׁרִים</he>, <he>קְשָׁרִין</he>. ",
+				"<cite ref=\"Mishnah Shabbat 15:1\">Sabb. XV, 1</cite>. ",
+				"<cite ref=\"Bekhorot 30b:18\">Bekh. 30ᵇ</cite>; <cite ref=\"Avodah Zarah 39a:18\">Ab. Zar. 39ᵃ</cite> <he>קִשְׁרֵי מוכס</he>, v. <cite ref=\"M00479\"><he>מוֹכֵס</he></cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 10:3\">Mikv. X, 3</cite> <he>קשרי העני</he> the knots in the poor man’s garment. Tanḥ. Korah 12 <he>ח׳ חוטין וה׳ ק׳</he> eight threads (of the show fringe) and five knots; <cite ref=\"Bamidbar Rabbah 18:12\">Num. R. s. 18</cite> <he>ח׳ גרורין וה׳ קִשּׁוּרִין</he>. ",
+				"<cite ref=\"Mishnah Shabbat 6:9\">Sabb. VI, 9</cite> <he>הבנים יוצאין בק׳</he> children may go out (on the Sabbath) with garlands, v. <cite ref=\"Q00151\"><he>פּוּאָה</he></cite>; a. fr.—",
+				"<cite ref=\"Mishnah Sotah 8:5\">Sot. VIII, 5</cite> <he>קשרי המלחמה</he> the joined ranks in battle (Y. ed. <cite ref=\"S01212\"><he>קישוי</he></cite>, corr. acc.); Y. ib. VIII, end, 23ᵃ <he>קִישְׁרֵי המלחמות</he>.—2) <i>protuberance, joint</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 3:1:5\">Y. Shebi. III, 34ᶜ</cite> top, v. <cite ref=\"S02264\">preced.</cite> ",
+				"<cite ref=\"Bereishit Rabbah 10:6\">Gen. R. s. 10</cite> (ref. to <cite ref=\"Job 38:31\">Job XXXVIII, 31</cite>) <he>כסיל מושך בין ק׳ לק׳</he> the planet K’sil draws (the connection) between bud and bud (v. <cite ref=\"P00153\"><he>עָדַן</he></cite> <i>Hif.</i>); a. e.—<i>Pl.</i> as ab. Y. Shebi. l. c., v. <cite ref=\"S02264\">preced.</cite> ",
+				"<cite ref=\"Niddah 52b:8\">Nidd. 52ᵇ</cite> <he>קשרי אצבעותיה של יד</he> the joints of her fingers; <he>של רגל</he> of her toes. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 8:2:10\">Y. Ber. VIII, 12ᵃ</cite> bot. <he>עד קישרי אצבעותיו</he> to the second joints of the fingers, contrad. to <cite ref=\"Q01982\"><he>פֶּרֶק</he></cite>, q. v.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fold</i> of a document, <i>plicature</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 160b:2\">B. Bath. 160ᵇ</cite> <he>בין ק׳ לק׳</he> the witnesses sign between the folds; a. fr.—Pl. as ab. ",
+				"<cite ref=\"Bava Batra 160b:2\">Ib.</cite> <he>מתוך שנתרבה בקְשָׁרָיו וכ׳</he> because it has many folds, it must have many witnesses. ",
+				"<cite ref=\"Mishnah Gittin 8:10\">Gitt. VIII, 10</cite> (expl. <he>גט קרח</he>, v. <cite ref=\"S01966\"><he>קֵרֵחַ</he></cite>) <he>כל שקשריו מרובין וכ׳</he> which has more folds than signatures of witnesses; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

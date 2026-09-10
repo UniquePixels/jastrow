@@ -1,0 +1,47 @@
+{
+	"id": "G00537",
+	"slug": "זמן-3",
+	"headword": {
+		"text": "זְמָן"
+	},
+	"page": {
+		"number": 404,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00536\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>appointed time, term, time</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:7\">Kidd. I, 7</cite>, a. fr. <he>הז׳ גרמא</he>, v. <cite ref=\"C01355\"><he>גְּרָמָא</he></cite>.—",
+				"<cite ref=\"Bava Kamma 113a:5\">B. Kam. 113ᵃ</cite> <he>קובעים ז׳ וכ׳</he> we appoint (in the summons to appear before court) a Monday, Thursday and Monday in succession. ",
+				"<cite ref=\"Gittin 72a\">Gitt. 72ᵃ</cite>, a. fr. <he>זְמַנּוֹ של שטר</he> the date of the document.—",
+				"<cite ref=\"Taanit 14b\">Taan. 14ᵇ</cite>, a. fr. <he>בז׳ הזה</he> in our days (after the dissolution of the Jewish common-wealth). ",
+				"<cite ref=\"Taanit 14b:5\">Ib.</cite> <he>הכל לפי הז׳</he> all depends on the season (whether it is advanced or retarded, v. Rabb. D. S. a. l. note 400). ",
+				"<cite ref=\"Taanit 14b:3\">Ib.</cite> <he>זְמַנָּהּ של רביעה</he> the rainy season; a. v. fr.—Pl. <he>זְמַנִּים</he>. ",
+				"<cite ref=\"Megillah 2a:11\">Meg. 2ᵃ</cite> <he>ז׳ הרבה</he> various dates (for reading the Megillah).—בִּזְמַן שֶׁ־ <i>in the case of, when, if</i>. ",
+				"<cite ref=\"Mishnah Eruvin 6:7\">Erub. VI, 7</cite> <he>אימתי בז׳ וכ׳</he> in what case (is this said)? When they carry &c. ",
+				"<cite ref=\"Mishnah Eruvin 6:6\">Ib. 6</cite> <he>ומודים בז׳ וכ׳</he> they all agree that, if some of them &c.; a. v. fr.—<he>בִּזְמַנּוֹ</he>, <he>בִּזְמַנָהּ</he> &c. <i>in its prescribed</i>, <i>due time;</i> <he>חוּץ לִזְמַנּוֹ</he> &c. <i>out of time</i>, <i>beyond its due time</i>. ",
+				"<cite ref=\"Mishnah Zevachim 1:1\">Zeb. I, 1</cite>. ",
+				"<cite ref=\"Mishnah Zevachim 2:3\">Ib. II, 3</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>festive season</i> (cmp. <cite ref=\"M02452\"><he>מִקְרָא</he></cite>, <cite ref=\"M00068\"><he>מְאַרְעָא</he></cite>); <i>‘Z’man’,that section of the benediction on the entrance of a Festival which refers to the return of the festive season</i> <he>(שהחיינו והגיענו לזמן הזה …</he>). ",
+			"units": [
+				"<cite ref=\"Pesachim 102b:5\">Pes. 102ᵇ</cite> <he>מדלא אמר ז׳</he> since he did not mention the benediction of <i>Z’man</i>, v. <he>יקנה״ז</he>. ",
+				"<cite ref=\"Sukkah 48a:1\">Succ. 48ᵃ</cite> <he>שמיני … ז׳ בפני עצמו</he> the eighth day (of Succoth) … is a festive season for itself, requiring the insertion of <i>Z’man;</i> a. fr.—<i>Pl.</i> as above. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:6\">Y. Ab. Zar. I, 39ᶜ</cite> <he>ג׳ ז׳ בבבל</he> there are three festive seasons (idolatrous fairs) in Babylonia. ",
+				"<cite ref=\"Tosefta Berakhot 3:13\">Tosef. Ber. III, 13</cite> <he>חותם ברוך … והז׳</he> you must close with ‘Blessed be He … who sanctifies the Sabbath, Israel, and the Seasons.—[<cite ref=\"Sanhedrin 101a:12\">Snh. 101ᵃ</cite> <he>הקורא … שלא בזמנו</he> he who cites a Biblical verse at a banquet out of its <i>context</i> (perverting its sense for lascivious purposes); Treat. Kallah beg.]"
+			],
+			"label": "2"
+		}
+	]
+}

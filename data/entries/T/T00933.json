@@ -1,0 +1,39 @@
+{
+	"id": "T00933",
+	"slug": "רפואה",
+	"headword": {
+		"text": "רְפוּאָה"
+	},
+	"page": {
+		"number": 1489,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"T00928\"><he>רְפֻאוֹת</he></cite>; <cite ref=\"T00927\"><he>רָפָא</he></cite>)<i>healing, cure; medicine, remedy</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 17b:9\">R. Hash. 17ᵇ</cite> (ref. to <cite ref=\"Isaiah 6:10\">Is. VI, 10</cite>) <he>איזהו דבר שצריך ר׳ וכ׳</he> what is that which needs to be remedied? It is a divine decree (which may be averted by man’s repentance). ",
+				"<cite ref=\"Megillah 13b:12\">Meg. 13ᵇ</cite> (ref. to <cite ref=\"Esther 3:1\">Esth. III, 1</cite>) <he>אחר … ר׳ למכה</he> after the Lord had prepared the remedy for the wound (the means of delivery from the affliction). ",
+				"<cite ref=\"Esther 3:1\">Ib.</cite> <he>אין הקב״ה … ר׳ תחילה</he> the Lord does not strike Israel, unless he has prepared the remedy in advance. ",
+				"<cite ref=\"Mishnah Shabbat 6:10\">Sabb. VI, 10</cite> <he>משום ר׳</he> as a medicinal amulet. ",
+				"<cite ref=\"Shabbat 67a:14\">Ib. 67ᵃ</cite> <he>כל דבר שיש בו משום ר׳</he> whatever is done for medicinal purposes. ",
+				"<cite ref=\"Shabbat 67a:15\">Ib.</cite> <he>מאי ר׳ קעביד</he> what remedy can he effect by it? <cite ref=\"Berakhot 60a:11-28\">Ber. 60ᵃ</cite> (a prayer before blood-letting) <he>יהי רצון … לר׳ ותרפאני … ורְפוּאָתְךָ אמת</he> may it be thy will, O Lord my God, that this procedure be a cure to me, and heal thou me, for thou art a faithfully healing God, and thy healing is real; a. fr.—<he>רְפוּאַת ממון</he>, <he>רפואת נפש</he>, v. <cite ref=\"T00678\"><he>רִיפּוּי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>R’fuah, prayer for health</i>, name of the eighth section of the Prayer of Benedictions <he>(תפלה</he>). ",
+			"units": [
+				"<cite ref=\"Megillah 17b:11\">Meg. 17ᵇ</cite> <he>לימא ר׳ בתרה דתשובה</he> why not recite R’fuah immediately after T’shubah (prayer for forgiveness)? <cite ref=\"Megillah 17b:10-14\">Ib.</cite> <he>ומה … ר׳ בשמינית</he> what reason had they to make R’fuah the eighth benediction? <cite ref=\"Megillah 17b:12\">Ib.</cite> (ref. to Is. l. c.) <he>ההוא לאו ר׳ … אלא ר׳ דסליחה</he> this is not healing referring to diseases, but a healing (from sin) through forgiveness; a. e.—Pl. <cite ref=\"T00937\"><he>רְפוּאוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Pesachim 4:9\">Pes. IV, 9</cite> (<cite ref=\"Pesachim 56a:2\">56ᵃ</cite>) <he>גנז ספר ר׳</he> he suppressed a book of remedies (charms and incantations). ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:3:5\">Y. R. Hash. I, 57ᵇ</cite> <he>נרתיק של ר׳</he> a medicine chest. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:2:3\">Y. Ber. V, 9ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Taanit 1:1:5\">Y. Taan. I, 63ᵈ</cite> top; a. fr.—",
+				"<cite ref=\"Yoma 86a:14\">Yoma 86ᵃ</cite> <he>גדולה … ר׳ לעולם</he> (some ed. <cite ref=\"T00928\"><he>רִפְאוּת</he></cite>; Ms. O. <cite ref=\"T00933\"><he>רְפוּאָה</he></cite>, v. Rabb. D. S. a. l. note 80) repentance is a great thing, for it brings healing (delivery) to the world; <cite ref=\"Yalkut Shimoni on Nach 269:1\">Yalk. Jer. 269</cite> <cite ref=\"T00933\"><he>רפואה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "T00120",
+	"slug": "רבן-2",
+	"headword": {
+		"text": "רַבָּן"
+	},
+	"page": {
+		"number": 1444,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"T00041\"><he>רַב</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>chief, teacher</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 33b:4\">Sabb. 33ᵇ</cite>, a. fr. <he>תינוקות של בית ר׳</he> school children."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Rabban</i>, a title of scholars. ",
+			"units": [
+				"<cite ref=\"Tosefta Eduyot 3:4\">Tosef. Eduy. III, 4</cite> [read.] <he>מי שיש לו תלמידים ותלמידי תלמידיו קוראין אותו רבי נשתכחו תלמידיו קוראין אותו ר׳ וכ׳</he> if a scholar has disciples and disciples of his disciples, he is quoted (by the latter) as Rabbi; if his direct disciples are forgotten (in tradition), he is quoted as Rabban; if both are forgotten, he is quoted by his name.—Esp. <i>Rabban</i>, title of most of the presidents of Palestinian colleges that succeeded Hillel. ",
+				"<cite ref=\"Pirkei Avot 1:16\">Ab. I, 16</cite>. ",
+				"<cite ref=\"Pirkei Avot 1:18\">Ib. 18</cite>. ",
+				"<cite ref=\"Pirkei Avot 2:8\">Ib. II, 8</cite>; a. fr. (v., respective proper names).—Pl. <he>רַבָּנִים</he>, <he>רַבָּנִין</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:10\">Cant. R. to I, 10</cite> <he>נאוו</he> … <he>אלו הר׳ וכ׳</he> ‘comely are thy cheeks’ &c. (<cite ref=\"Shir HaShirim Rabbah 1:10\">ib.</cite>), this refers to the teachers, ‘thy neck with strings’, refers to the students &c. (v. <cite ref=\"H01646\"><he>חָרַז</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 983:3\">Yalk. ib. 983</cite>; a. e.—[<cite ref=\"Bereishit Rabbah 61:1\">Gen. R. s. 61</cite> <he>כמין שני רבנים</he>, v. <cite ref=\"K00099\"><he>כַּד</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

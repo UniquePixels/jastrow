@@ -1,0 +1,56 @@
+{
+	"id": "G00103",
+	"slug": "זהם-2",
+	"headword": {
+		"text": "זְהַם"
+	},
+	"page": {
+		"number": 382,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"G00102\">same</cite>.Part. pass. <cite ref=\"G00096\"><he>זְהִים</he></cite> q. v.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַהֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to create aversion, to sicken</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite> (to the leper) <he>לא תְזַהֵם ברייתא</he> (ed. Wil. <he>תזהום</he>, read <he>תְזַהֵים</he>) do not sicken people with thy sight."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִזְדְּהַם"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִזְדָּהַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be soiled, to empty the bowels</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 106:20\">Targ. Ps. CVI, 20</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become offensive</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 26a\">Ab. Zar. 26ᵃ</cite> <he>לא מִיזְדְּהַמְנָא וכ׳</he> I do not desire to become offensive to my husband (get ungainly through nursing)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

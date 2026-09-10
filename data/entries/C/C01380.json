@@ -1,0 +1,63 @@
+{
+	"id": "C01380",
+	"slug": "גרע-2",
+	"headword": {
+		"text": "גְּרַע"
+	},
+	"page": {
+		"number": 271,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01379\">same</cite>, esp. <i>to shave, cut the hair</i> (dialectically interchanging with <he>גרד</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 16:19\">Targ. Jud. XVI, 19</cite>; <cite ref=\"II Samuel 10:4\">II Sam. X, 4</cite> Ar. (ed. <he>גדע</he>, ed. Lag. II Sam. l. c. <cite ref=\"C01379\"><he>גרע</he></cite>; cmp. ",
+				"<cite ref=\"Isaiah 15:2\">Is. XV, 2</cite>, <cite ref=\"Jeremiah 48:37\">Jer. XLVIII, 37</cite>).—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>ג׳ רישיה</he> (8 <he>חד מאת׳</he>) <cite ref=\"T00152\"><he>רבתי</he></cite> he shaved his head. ",
+				"<cite ref=\"Sanhedrin 96a\">Snh. 96ᵃ</cite> (prov.) <he>גְּרַעְתֵּיה לארמאה וכ׳</he> Ar. (ed. <he>גרירתיה</he>, Ms. M. <he>גרידתיה</he>) if you shave a gentile, he likes it; hang fire on his beard, and you will get no end of his fun (i.e. if he finds it convenient, he will submit to indignities).—Part. pass. <cite ref=\"C01338\"><he>גְּרִיעַ</he></cite>, f. <cite ref=\"C01338\"><he>גְּרִיעָא</he></cite> "
+			]
+		},
+		{
+			"gloss": "<i>shaved</i>. Lam. R. l. c.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>inferior, less</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 51a\">Yeb. 51ᵃ</cite> <he>ג׳ ממאמר</he> is inferior (as to legal power) to &c., v. <cite ref=\"M00044\"><he>מַאֲמָר</he></cite>. ",
+				"<cite ref=\"Gittin 70a\">Gitt. 70ᵃ</cite> <he>ג׳ דכולהו</he> the worst of all."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַגְרַע"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"C01379\">preced.</cite> <i>Hif.</i> [<cite ref=\"Targum Jerusalem, Genesis 30:11\">Targ. Y. II, Gen. XXX, 11</cite>, read <he>מגדעא</he>.] <cite ref=\"Kiddushin 11b:10\">Kidd. 11ᵇ</cite> <he>מַגְרְעָה ואזלה</he> she deducts more and more every year. ",
+					"units": [
+						"<cite ref=\"Kiddushin 11b:10\">Ib.</cite> [read:] <he>מאי מגרעה</he> what is there for her to deduct from?—",
+						"<cite ref=\"Arakhin 25a\">Arakh. 25ᵃ</cite>, v. infra."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיגְּרַע"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"C01379\">preced.</cite> <i>Nif.</i> ",
+					"units": [
+						"<cite ref=\"Arakhin 30b:33\">Arakh. 30ᵇ</cite> <he>מִיגְּרְעָא ואזלא</he> his obligation grows less (every year, if he chooses to redeem her). ",
+						"<cite ref=\"Arakhin 25a:1\">Ib. 25ᵃ</cite> <he>לא מִגְּרַע ליה</he> (Rashi <cite ref=\"M00148\"><he>מיג׳</he></cite>) no deduction is allowed him (for fractions of a year)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

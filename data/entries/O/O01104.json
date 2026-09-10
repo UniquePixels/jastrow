@@ -1,0 +1,27 @@
+{
+	"id": "O01104",
+	"slug": "סמלא",
+	"headword": {
+		"text": "סְמָלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְמָאלָא"
+		}
+	],
+	"page": {
+		"number": 1002,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"U01412\"><he>שְׂמֹאל</he></cite> , <i>left side</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 22:26\">Targ. O. Num. XXII, 26</cite> <he>סמל׳</he> ed. Berl. (oth. ed. <cite ref=\"O01054\"><he>סְמָא׳</he></cite>; ed. Vien. <cite ref=\"O00068\"><he>שְׂ׳</he></cite>; Y. <cite ref=\"O00068\"><he>שְׂ׳</he></cite>); a. fr. (interch. in editions with <he>שְׂמָא׳</he>).—Pl. <he>סְמָלִין</he>. Targ. II Esth. VI, 11."
+			]
+		}
+	]
+}

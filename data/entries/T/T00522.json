@@ -1,0 +1,35 @@
+{
+	"id": "T00522",
+	"slug": "רחמא-2",
+	"headword": {
+		"text": "רַחֲמָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רַחְ׳",
+			"homograph": 2
+		},
+		{
+			"text": "רַחְמְתָא"
+		}
+	],
+	"page": {
+		"number": 1467,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00516\"><he>רְחַם</he></cite>) <i>love</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 11:4\">Targ. Hos. XI, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 13:15\">Targ. II Sam. XIII, 15</cite> (ed. Wil. <cite ref=\"T00626\"><he>רִיחֲמָתָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 20:17\">Targ. I Sam. XX, 17</cite> <he>רַחֲמַת</he> constr.; a. e.—Pl. <cite ref=\"T00522\"><he>רַחֲמָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:18\">Targ. Prov. VII, 18</cite> (Ms. <he>רַחֲמָאתָא</he>; h. text <he>דדים</he>).—V. <cite ref=\"T00524\"><he>רַחֲמוּ</he></cite>."
+			]
+		}
+	]
+}

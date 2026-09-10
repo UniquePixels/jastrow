@@ -1,0 +1,33 @@
+{
+	"id": "V00004",
+	"slug": "תאב-1",
+	"headword": {
+		"text": "תָּאַב"
+	},
+	"page": {
+		"number": 1641,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;<i>Tafel</i> of <cite ref=\"A00049\"><he>אָבָה</he></cite>) <i>to desire, have an appetite for; to want</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite>, beg. <he>ת׳ מיתת אביו</he> he wished for his father’s death; Tanḥ. Sh’moth 1. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:5\">Y. Snh. II, 20ᵃ</cite> bot. <he>תָּאַבְתָּ דבר … שאני מַתְאִיבְךָ וכ׳</he> thou didst desire something forbidden to thee, I will make thee desire something permitted to thee.—",
+				"<cite ref=\"Yevamot 15a:6\">Yeb. 15ᵃ</cite> <he>תאבני</he>, v. <cite ref=\"V00007\"><he>תָּאֵב</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְאִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to desire</i>. Y. Snh. l. c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

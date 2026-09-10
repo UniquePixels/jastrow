@@ -1,0 +1,22 @@
+{
+	"id": "S00136",
+	"slug": "קדיחותא",
+	"headword": {
+		"text": "קְדִיחוּתָא"
+	},
+	"page": {
+		"number": 1315,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00126\"><he>קְדַח</he></cite>) <i>burning, inflammation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 38:8\">Targ. Ps. XXXVIII, 8</cite> Ms. (ed. <cite ref=\"S00136\"><he>קְדִיחֲתָא</he></cite>; h. text <he>נקלה</he>, v. <cite ref=\"S01258\"><he>קָלָה</he> II</cite>)."
+			]
+		}
+	]
+}

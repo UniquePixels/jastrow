@@ -1,0 +1,32 @@
+{
+	"id": "P01252",
+	"slug": "ערב-11",
+	"headword": {
+		"text": "עֲרָב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1111,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " pr. n. m. <i>ʿÃrab</i>, son of Ishmael. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 25:13\">Targ. Y. Gen. XXV, 13</cite> (h. text <cite ref=\"S00168\"><he>קדר</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Arabia</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 25:24\">Targ. Jer. XXV, 24</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "A00189",
+	"slug": "אבק-2",
+	"headword": {
+		"text": "אָבַק"
+	},
+	"page": {
+		"number": 8,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִבֵּק</he>, <he>אִיבֵּק</he> (denom. of <cite ref=\"A00188\">foreg.</cite>) <i>to cover with powder</i>, esp. plants, for fertilizing. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 2:2\">Shebi. II, 2</cite> <he>מְאַבְּקִין</he> (cmp. Y. ",
+						"<cite ref=\"Mishnah Sheviit 2:2\">Ib.</cite> a. l.). ",
+						"<cite ref=\"Moed Katan 3a\">M. Kat. 3ᵃ</cite>. Y. Sabb. VII, 10ᵃ top.—Part. pass. <he>מְאוּבָּק</he> <i>powdered</i>. ",
+						"<cite ref=\"Jerusalem Talmud Bikkurim 1:3:6\">Y. Bicc. I, 63ᵈ</cite> bot. <he>מאונקות</he> (read <he>מְאוּבָּ׳</he>) grapes fertilized with powder. [Ar. “to remove the dust”(?)]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְאַבֵּק", "נִתְאַ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered</i>, or <i>cover one’s self with dust</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 43\">Gen. R. s. 43</cite>.—Metaph. <i>to sit at one’s feet as a disciple</i>. ",
+						"<cite ref=\"Pirkei Avot 1:4\">Aboth. I, 4</cite>."
+					]
+				}
+			],
+			"stem": "Hithpa. a. Nithpa."
+		}
+	]
+}

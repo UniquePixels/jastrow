@@ -1,0 +1,90 @@
+{
+	"id": "S01730",
+	"slug": "קפי-1",
+	"headword": {
+		"text": "קפי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָפָא"
+		},
+		{
+			"text": "קָפָה"
+		}
+	],
+	"page": {
+		"number": 1400,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to bend, arch, be arched</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be on top, float on the surface</i>. <i>Part. pass.</i> <cite ref=\"S01715\"><he>קָפוּי</he></cite>; f. <he>קְפוּיָה</he>; pl. <he>קְפוּיִים</he>, <he>קְפוּיִין</he>; <cite ref=\"S01941\"><he>קְפוּיוֹת</he></cite> <i>light of weight</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 50a:4\">Pes. 50ᵃ</cite> (ref. to <he>יקרות וקפאון</he>, <cite ref=\"Zechariah 14:6\">Zech. XIV, 6</cite>) <he>אור שיקר בעוה״ז ק׳ הוא וכ׳</he> Ms. M. (ed. <he>וק׳</he>) light which is weighty (precious, rare) in this world shall be light (little esteemed, an ordinary thing) in the world to come; <cite ref=\"Zechariah 14:6\">ib.</cite> <he>נגעים … וקפויין וכ׳</he> (Ms. M. <he>קפויות</he>) the treatises Negaim and Oholoth, which are heavy (difficult, obscure) in this world, shall be light (easily understood) &c., <cite ref=\"Zechariah 14:6\">ib.</cite> <he>אלו בני אדם …</he> (<cite ref=\"F00000\"><he>ו</he></cite>)<he>ק׳ הם וכ׳</he> those who are weighty (important on account of their wealth, though otherwise without merit) in this world, shall be light (disregarded) &c.; <cite ref=\"Yalkut Shimoni on Nach 583\">Yalk. Zech. 583</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to coagulate, be curdled</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 4\">Gen. R. s. 4</cite> <he>כיון שירד … מיד הוא קוֹפֵא ועומד</he> ed. Wil. (oth. ed. <cite ref=\"S00502\"><he>קוֹפֶה</he></cite>) as soon as a drop of <i>m’so</i> (v. <cite ref=\"M01855\"><he>מְסוֹ</he></cite>) is put in, the milk curdles and ‘stands’ (v. <cite ref=\"P00859\"><he>עָמַד</he></cite>); <cite ref=\"Bereishit Rabbah 4\">ib.</cite> s. 14 <he>קופה</he> (ed. Wil. <cite ref=\"S01715\"><he>קָפוּי</he></cite>); <cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite> <cite ref=\"S01730\"><he>נִקְפָּא</he></cite>. Tanḥ. ",
+				"<cite ref=\"Exodus 17\">B’shall. 17</cite>; Mekh. ",
+				"<cite ref=\"Exodus 17\">ib.</cite>, Shirah, s. 6 <he>קפא עליהם וכ׳</he> the sea around them was congealed as far as &c.; <cite ref=\"Yalkut Shimoni on Torah 248:3\">Yalk. Ex. 248</cite> <cite ref=\"S01730\"><he>נִקְפָּה</he></cite>; a. e.—[<cite ref=\"Tosefta Ma'asrot 1:7\">Tosef. Maasr. I, 7</cite>, v. infra.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִיפָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to skim, take off the scum and the substances that gather on wine</i> when it begins to ferment. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:7\">Maasr. I, 7</cite> <he>היין משיְקַפֶּה אע״פ שקי׳ וכ׳</he> Y. ed. (Bab. and Mish. ed. <cite ref=\"U01884\"><he>שקִפָּה</he></cite>) wine is subject to tithes when the manufacturer begins to skim; but although he has skimmed, he may take &c.; Tosef. ib. I, 7 <he>אע״פ שקופה</he> ed. Zuck. (Var. <he>שקיפה</he>); <cite ref=\"Avodah Zarah 56a\">Ab. Zar. 56ᵃ</cite>; Y. B. Mets. VII, beg. 11ᵇ; [Maim. to Maasr. l. c. seems to read <he>משיִקְפֶּה</he>, expl. <i>to form scum</i>]. Tosef. l. c. <he>שולה וקופה</he> ed. Zuck. (Var. <he>שילה וקיפה</he>), v. <cite ref=\"U01214\"><he>שָׁלָה</he></cite>. ",
+						"<cite ref=\"Mishnah Maasrot 4:1\">Maasr. IV, 1</cite> <he>המְקַפֵּא לתבשיל</he> he that skims for the purpose of taking wine for a dish; <cite ref=\"Tosefta Ma'asrot 1:9\">Tosef. ib. I, 9</cite> <he>המְקַפֶּה בעריבה</he> he that skims and takes wine out in a trough; a. fr.—In gen. <i>to take from the top</i>. ",
+						"<cite ref=\"Mishnah Terumot 4:11\">Ter. IV, 11</cite> <he>סאה … וְקִפְּאָהּ</he> if one S’ah of T’rumah fell on top of a pile, and he took it off. ",
+						"<cite ref=\"Mishnah Terumot 4:11\">Ib.</cite> <he>יְקַפְּאֶנָּה</he> Mish. ed. (Bab. ed. <he>יַקְפִּיאֶנָּה</he> <i>Hif.</i>; Y. ed. Krot. <he>ייקפינה</he>, read: <he>יְקַפֶּינָּה</he>; Ms. M. <he>יקיפנה</he>, corr. acc.) let him take it off. Y. ib. 43ᵃ bot. <he>קפה וחזר וק׳</he> if he took from the top once and again; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִקְפִּיא", "הִקְפָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01729\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to float</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 40a:5\">Ber. 40ᵃ</cite> <he>המַקְפֶּה אכילתו במים</he> he that makes his food float in water (who drinks freely after meals). ",
+						"<cite ref=\"Shabbat 21a:7\">Sabb. 21ᵃ</cite> <he>להַקְפּוֹת</he> to keep the wick floating.—3) <i>to curdle, congeal; to cause coagulation; to become thick</i>. ",
+						"<cite ref=\"Chullin 120a:14\">Ḥull. 120ᵃ</cite>; <cite ref=\"Menachot 21a:8\">Men. 21ᵃ</cite> <he>ה׳ את הדם</he> if he made the blood thick (through boiling); <cite ref=\"Menachot 21a\">ib.</cite> <he>הִקְפָּהוּ באור</he> Mss. (v. Rabb. D. S. a. l. note 30) if he made it thick by means of artificial heat; <he>הקפהו בחמה</he> by exposure to the sun. ",
+						"<cite ref=\"Vayikra Rabbah 14:9\">Lev. R. s. 14</cite> (ref. to <cite ref=\"Job 10:10\">Job X, 10</cite>) <he>הִקְפִיאֲתָנִי אינו אומר וכ׳</he> it does not read, thou hast curdled me, but thou wilt &c.; <cite ref=\"Bereishit Rabbah 14:1\">Gen. R. s. 14</cite> <he>הִקְפֵּאתַנִי</he> (some ed. <he>הִקְפֵּתַנִי</he>). ",
+						"<cite ref=\"Bamidbar Rabbah 9:14\">Num. R. s. 9</cite> (ref. to <cite ref=\"Exodus 15:8\">Ex. XV, 8</cite>) <he>ה׳ שלישו של ים</he> he made one-third of the sea thick (v. supra); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִקְפָּא", "נִקְפָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be curdled, made thick</i>. Lev. R. l. c.; <cite ref=\"Yalkut Shimoni on Torah 248:3\">Yalk. Ex. 248</cite>, v. supra.—[Y. Ned. VII, end, 40ᶜ <he>ניקפת</he>, read: <he>נִיכְפֵּית</he>, v. <cite ref=\"K01007\"><he>כָּפָה</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "M02466",
+	"slug": "מקרתא",
+	"headword": {
+		"text": "מְקֵרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְקֵירְתָּא"
+		}
+	],
+	"page": {
+		"number": 833,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"M02449\"><he>מַקַר</he></cite>) <i>cooling place</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:2\">Targ. I Kings VII, 2</cite>, a. e. <he>בית מְקֵרַת מלכיא</he> the royal summer-house (h. text <he>בית יער הלבנון</he>).—<he>מ׳ דצִילַּיָּיא</he> pr. n. <i>M’ḳerta d’Tsillaya</i> (<i>Cooling Shades</i>), name of a field. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:1:2\">Y. M. Kat. I, beg. 80ᵃ</cite> (ed. Krot. <he>מְקֵרַת</he>)."
+			]
+		}
+	]
+}

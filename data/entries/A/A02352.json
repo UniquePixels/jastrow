@@ -1,0 +1,29 @@
+{
+	"id": "A02352",
+	"slug": "אסטגנינא",
+	"headword": {
+		"text": "אִסטַגְנִינָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִצְ׳"
+		},
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 89,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A02351\">same</cite>.—Pl. <cite ref=\"A02352\"><he>אִסְטַגְנִינָן</he></cite> (?), <he>אִסְטַגְנִינַיָּא</he> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 8:3\">Targ. Y. Ex. VIII, 3</cite>; <cite ref=\"Targum Jonathan on Exodus 8:14\">14</cite>; <cite ref=\"Targum Jonathan on Exodus 8:15\">15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:13\">Targ. Job V, 13</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "H01208",
+	"slug": "חמסן",
+	"headword": {
+		"text": "חַמְסָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חומְסָן"
+		}
+	],
+	"page": {
+		"number": 478,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"H01207\">preced.</cite>) <i>violent man, extortioner</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 62a:12\">B. Kam. 62ᵃ</cite> (defining the difference between the <he>ח׳</he> and the <cite ref=\"C00563\"><he>גַּזְלָן</he></cite>) <he>ח׳ יהיב וכ׳</he> the <i>ḥamsan</i> takes by force and pays.—Pl. <he>חַמְסָנִים</he>, <he>חַמְסָנִין</he>. ",
+				"<cite ref=\"Sanhedrin 25b:11\">Snh. 25ᵇ</cite> <he>הוסיפו עליהן … והח׳</he> (Ar. <he>והחוֹ׳</he>) they added to them (the class of persons disqualified for judges or witnesses) the robbers and those taking forcibly (and paying); Y. Shebu. VII, 37ᵈ bot.; Y. R. Hash. I, 57ᶜ top."
+			]
+		}
+	]
+}

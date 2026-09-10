@@ -1,0 +1,52 @@
+{
+	"id": "C00473",
+	"slug": "גור-1",
+	"headword": {
+		"text": "גּוּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 226,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to move around</i> (cmp. <he>סחר</he>),] <i>to be a stranger, sojourn, dwell</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 36b:17\">Sot. 36ᵇ</cite> <he>גֹרֹא שגָֹּרֹ וכ׳</he> he is named Gera (<cite ref=\"Genesis 46:21\">Gen. XLVI, 21</cite>), because he (Joseph) dwells in exile; <cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite>. ",
+				"<cite ref=\"Yevamot 96b\">Yeb. 96ᵇ</cite> is it possible <he>לָגּוּר וכ׳ בשני</he> to dwell (simultaneously) in two worlds? <cite ref=\"Shabbat 104a:11\">Sabb. 104ᵃ</cite>, v. <cite ref=\"C01224\"><he>ג״ר</he></cite>. ",
+				"<cite ref=\"Sifrei Devarim 301:3-4\">Sifré Deut. 301</cite> (ref. to <cite ref=\"Deuteronomy 26:5\">Deut. XXVI, 5</cite>) <he>מלמד … להשתקע אלא לָגוּר שם</he> it proves that he (Jacob) did not go down to be permanently settled, but only to sojourn there; a. fr.—Denom. <cite ref=\"C01225\"><he>גֵּר</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּיֵּיר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"C01225\"><he>גֵּר</he></cite>) <i>to make a proselyte, to initiate into the Jewish faith</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite> (ref. to <cite ref=\"Genesis 12:5\">Gen. XII, 5</cite> ‘the souls which they had made’) <he>אלו הגרים שגִּיְּירוּ</he> that means the proselytes they had made. ",
+						"<cite ref=\"Genesis 12:5\">Ib.</cite> <he>כל מי שמקרב … ומְגַיְּירוֹ וכ׳</he> whoever befriends a gentile and effects his conversion, is considered as though he had created him. ",
+						"<cite ref=\"Shabbat 31a:5\">Sabb. 31ᵃ</cite> <he>גַּיְּירֵנִי וכ׳</he> make me a Jew with the condition &c.; a. fr. [For <cite ref=\"C00713\"><he>גִּיֵּיר</he></cite> <i>to dress with lime</i>, v. <cite ref=\"C00805\"><he>גִּיר</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְגַּיֵּיר"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"C00701\"><he>נִתְגַּיֵּיר</he></cite> <i>to become a proselyte</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 57b:20\">Ber. 57ᵇ</cite> <he>עתידים להִתְגַּיֵּיר</he> they will adopt the Jewish faith. ",
+						"<cite ref=\"Yevamot 47b:5\">Yeb. 47ᵇ</cite> <he>גר שבא להתג׳</he> if a stranger comes (appears before Jewish authorities) desirous to become a Jew. ",
+						"<cite ref=\"Avodah Zarah 3b:3\">Ab. Zar. 3ᵇ</cite> <he>מִתְגַּיְּירִין</he> shall ask to be admitted &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

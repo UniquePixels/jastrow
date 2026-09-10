@@ -1,0 +1,23 @@
+{
+	"id": "S01245",
+	"slug": "קלבא",
+	"headword": {
+		"text": "קַלְבָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1372,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קלב</he> <i>to stick</i>) <i>resin</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 133b:17\">Sabb. 133ᵇ</cite> <he>קירא וק׳</he> (strike out <cite ref=\"T00724\"><he>רישינא</he></cite>, a commentator’s gloss; v. Rabb. D. S. a. l. note; Var. in Mss. <cite ref=\"V00056\"><he>תבלא</he></cite>, <he>קבלא</he>, <he>קילבא</he>, <he>קלאבא</he>, v. Rabb. l. c.) wax and resin (Var. <he>קירא דק׳</he> wax of resin); <cite ref=\"Bava Kamma 85a\">B. Kam. 85ᵃ</cite>. [Ar.: <i>butter</i>]."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "A02386",
+	"slug": "אסטנדרא",
+	"headword": {
+		"text": "אִסְטַנְדְּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְתַּ׳"
+		},
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 91,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. <i>ustâd-dâr, ustadâr</i>, Perl. Et. St. p. 104) <i>major domus, vice-roy</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 80b:2\">Gitt. 80ᵇ</cite> <he>לשום אסט׳ וכ׳</he> ed. (Ar. <cite ref=\"A02403\"><he>אסת׳</he></cite>) in the name of the governor of &c. ",
+				"<cite ref=\"Kiddushin 72b:14\">Kidd. 72ᵇ</cite> <he>איסת׳ דמישן</he> the governor of Meshan."
+			]
+		}
+	]
+}

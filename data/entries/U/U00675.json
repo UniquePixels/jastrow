@@ -1,0 +1,23 @@
+{
+	"id": "U00675",
+	"slug": "שחמתית",
+	"headword": {
+		"text": "שְׁחַמְתִּית"
+	},
+	"page": {
+		"number": 1549,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00674\">preced.</cite> wds.) <i>reddish, dark-colored wheat</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 5:6\">B. Bath. V, 6</cite> <he>ש׳ ונמצאת לבנה … ש׳</he> if he sold wheat as dark-colored, and it is found to be white, as white, and it is found to be dark. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 5:1:12\">Y. Naz. V, 54ᵃ</cite>, v. <cite ref=\"A00344\"><he>אִגְּרוּ</he></cite>. Y. Maas. Sh. IV, beg. 54ᵈ top <cite ref=\"U01555\"><he>שַׁמְתִּית</he></cite>; <cite ref=\"Jerusalem Talmud Terumot 2:3:5\">Y. Ter. II, 41ᵈ</cite> top <he>שמת׳</he>; <cite ref=\"Jerusalem Talmud Peah 2:5:1\">Y. Peah II, 17ᵃ</cite> <cite ref=\"U01447\"><he>שַׁמּוּתִית</he></cite>."
+			]
+		}
+	]
+}

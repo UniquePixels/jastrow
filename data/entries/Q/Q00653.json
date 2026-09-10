@@ -1,0 +1,29 @@
+{
+	"id": "Q00653",
+	"slug": "פיילתא",
+	"headword": {
+		"text": "פְּיַילְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּיְילָתָא"
+		}
+	],
+	"page": {
+		"number": 1162,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"Q00649\"><he>פְּיָילִי</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 7:13\">Targ. Y. II, Num. VII, 13</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 7:85\">Targ. Y. ib. 85</cite>.—Pl. with suffix: <he>פַּיַילְתּוֹי</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 25:29\">Targ. Y. Ex. XXV, 29</cite>.—[<he>פיילת חיוא</he>, v. <cite ref=\"Q01059\"><he>פָּלְיַית</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "M02848",
+	"slug": "משח-3",
+	"headword": {
+		"text": "מָשַׁח",
+		"homograph": 2
+	},
+	"page": {
+		"number": 851,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to stretch, measure</i>. Denom. <cite ref=\"M02823\"><he>מָשׁוֹחַ</he></cite>, <cite ref=\"M02873\"><he>מְשִׁיחָה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִמְשִׁיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to draw the outlines</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 719:12\">Yalk. Num. 719</cite> <he>עומד ומַמְשִׁיחַ בה</he> stood there drawing (the pattern of the candlestick)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

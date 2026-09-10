@@ -1,0 +1,38 @@
+{
+	"id": "M01786",
+	"slug": "מנין-2",
+	"headword": {
+		"text": "מִנְיָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִנְיָין"
+		},
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 801,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M01772\"><he>מָנָה</he></cite>)<i>number, count; ballot, vote</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 6b:10\">B. Mets. 6ᵇ</cite>; <cite ref=\"Bekhorot 59b:6\">Bekh. 59ᵇ</cite>, a. e. <he>מ׳ הראוי פוטר</he> a count properly begun redeems, i.e. if one began to count ten or more animals for tithing purposes, and during the count one animal died or ran off, those which passed the rod are redeemed. ",
+				"<cite ref=\"Bekhorot 59b:6\">Ib.</cite> <he>איפטרו להו במ׳ הראוי</he> they were redeemed by means of the (interrupted) count properly begun.—<he>רוב המ׳</he>, <he>רוב מִנְיָנוֹ</he>, v. <cite ref=\"B00953\"><he>בִּנְיָן</he></cite>.—",
+				"<cite ref=\"Beitzah 3b:9\">Bets. 3ᵇ</cite> <he>דבר שישנו במ׳</he> Ms. M. (ed. <he>דבר שבמ׳</he>); <cite ref=\"Zevachim 73a:1\">Zeb. 73ᵃ</cite> <he>דבר שיש בו מ׳</he> objects sold by the piece.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:34\">Y. Ber. I, 3ᵃ</cite> top <he>נעמוד על המ׳</he> let us decide by vote; <cite ref=\"Tosefta Ohalot 4:2\">Tosef. Ohol. IV, 2</cite> <he>נעמוד למ׳</he>. ",
+				"<cite ref=\"Mishnah Eduyot 1:5\">Eduy. I, 5</cite>, a. fr. <he>גדול … בחכמה ובמ׳</he> superior to a previous meeting of scholars in learning and numbers. ",
+				"<cite ref=\"Beitzah 5a:6\">Bets. 5ᵃ</cite> <he>כל דבר שבמ׳ צריך מ׳ וכ׳</he> a prohibitory measure passed by ballot, requires another ballot to be abrogated (although the reason for the measure has ceased to exist). ",
+				"<cite ref=\"Sanhedrin 26a:19\">Snh. 26ᵃ</cite> <he>קשר … אינו מן המ׳</he> a measure passed in a meeting of wicked men does not count (deserves no consideration on the part of successors). ",
+				"<cite ref=\"Chullin 97b:10\">Ḥull. 97ᵇ</cite> <he>אין … מן המ׳</he> does not count, is not included.—",
+				"<cite ref=\"Bamidbar Rabbah 1:1\">Num. R. s. 1</cite> <he>במִנְיַן ישראל</he> at the census of the Israelites in the desert; a. fr.—[In later Hebrew: <he>מ׳</he> <i>the requisite number of males for congregational worship</i>.]"
+			]
+		}
+	]
+}

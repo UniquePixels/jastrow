@@ -1,0 +1,23 @@
+{
+	"id": "U00389",
+	"slug": "שוטף",
+	"headword": {
+		"text": "שׁוּטָף",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1532,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00762\"><he>שְׁטַף</he></cite>) <i>washed</i>.—Pl. <he>שׁוּטְפִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 59:3\">Targ. Is. LIX, 3</cite> (ed. Lag. <he>שות׳</he>, corr. acc.; h. text <he>נגאלו</he>; cmp. <cite ref=\"C01190\"><he>גָּעַל</he></cite>)."
+			]
+		}
+	]
+}

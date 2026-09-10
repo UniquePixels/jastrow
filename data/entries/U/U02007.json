@@ -1,0 +1,32 @@
+{
+	"id": "U02007",
+	"slug": "שרף-5",
+	"headword": {
+		"text": "שָׂרַף",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1633,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>שֵׂירֵף</he> (denom. of <cite ref=\"U02012\"><he>שְׂרָף</he></cite>) <i>to cover with resin</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Mikvaot 6:5\">Tosef. Mikv. VI</cite> (<cite ref=\"Tosefta Mikvaot 7:21\">VII</cite>), 21 <he>שֵׂירְפָהּ בשרף</he> (not <he>שו׳</he>; Var. <he>סֵירְפָהּ</he>) if he covered it (the handle of a saw) with resin."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

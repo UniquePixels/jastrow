@@ -1,0 +1,22 @@
+{
+	"id": "M03110",
+	"slug": "מתרמרמותא",
+	"headword": {
+		"text": "מִתְרַמְרְמוּתָא"
+	},
+	"page": {
+		"number": 865,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רמרם</he>, <i>Palp.</i> of <cite ref=\"T00374\"><he>רוּם</he></cite>) <i>subject for self-elevation, object of contempt</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 22:7\">Targ. Ps. XXII, 7</cite> (h. text <he>בזוי</he>, cmp. <cite ref=\"M03109\">preced. w.</cite>)."
+			]
+		}
+	]
+}

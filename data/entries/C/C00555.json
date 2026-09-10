@@ -1,0 +1,29 @@
+{
+	"id": "C00555",
+	"slug": "גזיריפטי",
+	"headword": {
+		"text": "גְּזִירִיפַּטֵּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּזִירְפַּטֵּי"
+		}
+	],
+	"page": {
+		"number": 230,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (ἀζαραπατεῖς, Pers. hazâr paiti; v. Perl. Et. St. p. 118, a. authorities quot. ib.) name of a class of oppressive <i>Persian officers</i> (chiliarchi). ",
+			"units": [
+				"<cite ref=\"Taanit 20a:12\">Taan. 20ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 98a:9\">Snh. 98ᵃ</cite>; <cite ref=\"Shabbat 139a:8\">Sabb. 139ᵃ</cite>. [Ar. <he>גאזי דפטי</he>, <he>גזי דפ׳</he>; Var. <he>גזיר פ׳</he>, <he>גזיר דפ׳</he>, <he>גרז דיפטי</he>, <he>גיזרפטי</he>, <he>גוזרפ׳</he> &c., v. Rabb. D. S. a. l. c.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "B00553",
+	"slug": "בידא-2",
+	"headword": {
+		"text": "בִּידָּא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּידּוּ"
+		}
+	],
+	"page": {
+		"number": 159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בְּדִי</he> I; cmp. <cite ref=\"B00144\"><he>בִּדִּין</he></cite>) <i>fiction, false report, information</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 9:3:2\">Y. Sot. IX, 23ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Yevamot 16:3:2\">Y. Yeb. XVI, 15ᶜ</cite> <he>ואתצידו כולהון מן ב׳</he> and they were all taken prisoners owing to the information against them. [Rabad Seder hak-Kabb. a. other chroniclers have erroneously <he>ונתלה ר׳ שרירא מידו אחת</he>, read … <he>מן בידה</he> or <cite ref=\"B00553\"><he>בידו</he></cite>.]"
+			]
+		}
+	]
+}

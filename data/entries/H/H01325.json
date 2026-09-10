@@ -1,0 +1,38 @@
+{
+	"id": "H01325",
+	"slug": "חנק-2",
+	"headword": {
+		"text": "חֲנַק"
+	},
+	"page": {
+		"number": 485,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <i>to strangle</i>. Targ. II Esth. I, 3.—",
+			"units": [
+				"<cite ref=\"Ketubot 60b:10\">Keth. 60ᵇ</cite> <he>וחֲנַקְתֵּיה</he> she choked her child to death; <he>דלא … דחַנְקַן בנייהו</he> for women (of sound mind) will not choke their children (in order to be allowed to marry again before the lapse of a certain time). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:19\">Y. Taan. IV, 69ᵇ</cite> top … <he>הוה והוה ח׳ ליה</he> air burst forth out of the bottle and choked him. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:5\">Y. Ab. Zar. II, 40ᵈ</cite> <he>חַנְקַת גרמה</he> she hanged herself. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:12\">Y. Ber. II, 5ᵃ</cite> top <he>בעייא … מִיחְנְקוּנֵיה</he> I would rather choke him; a. e.—",
+				"<cite ref=\"Gittin 67b:21\">Gitt. 67ᵇ</cite> <he>דחַנְקָא</he>, v. <cite ref=\"D00668\"><he>דִּיסְתָּנָא</he> I</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַנֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to hang one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 17:23\">Targ. II Sam. XVII, 23</cite>.—Y. Snh. X, 29ᵃ bot. <he>כדון דוד מִתְחַנֵּק</he> now David will die in despair (cmp. <cite ref=\"H01324\">preced.</cite> <i>Nif.</i>). ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>יהא סופיה מִתְחַנְּקָא</he> will end his life by suicide."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

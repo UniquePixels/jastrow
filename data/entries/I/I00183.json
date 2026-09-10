@@ -1,0 +1,24 @@
+{
+	"id": "I00183",
+	"slug": "טומרא",
+	"headword": {
+		"text": "טוּמְרָא"
+	},
+	"page": {
+		"number": 524,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00561\"><he>טְמַר</he></cite>, cmp. <cite ref=\"I00182\">preced.</cite>) <i>secret, hiding place</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 13:9\">Targ. Y. Deut. XIII, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 27:15\">Targ. Y. I ib. XXVII, 15</cite>; a. fr.—Pl. <he>טוּמְרַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 10:8\">Targ. Ps. X, 8</cite>; a. e.; v. <cite ref=\"I00179\"><he>טוּמַיָּא</he></cite>."
+			]
+		}
+	]
+}

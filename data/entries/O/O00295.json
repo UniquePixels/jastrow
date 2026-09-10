@@ -1,0 +1,34 @@
+{
+	"id": "O00295",
+	"slug": "סוך-2",
+	"headword": {
+		"text": "סוּךְ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 963,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00294\">same</cite> <cite ref=\"Aramaic Targum to Ruth 3:3\">Targ. Ruth III, 3</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:40\">Targ. O. Deut. XXVIII, 40</cite> <he>תְּסוּךְ</he> (some ed. <he>תְּסִיךְ</he>; ed. Berl. <he>תְּשׁוּף</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְּסָךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be poured</i>. <i>, rubbed</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 30:32\">Targ. O. Ex. XXX, 32</cite> ed. Berl. (ed. Vien. <he>יִתְנַסַּךְ</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "Q01797",
+	"slug": "פריונא",
+	"headword": {
+		"text": "פִּרְיוֹנָא"
+	},
+	"page": {
+		"number": 1226,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01796\">preced.</cite> wds.; cmp. <cite ref=\"Q00350\"><he>פּוּרְיָינָא</he></cite>) <i>litter, wedding couch</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:16\">Targ. Job VIII, 16</cite> <he>פִּרְיוֹנֵיה</he> (h. text <he>גנתו</he>, v. <cite ref=\"C01106\"><he>גִּנּוּן</he></cite>)."
+			]
+		}
+	]
+}

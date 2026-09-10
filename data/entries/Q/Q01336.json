@@ -1,0 +1,23 @@
+{
+	"id": "Q01336",
+	"slug": "פסלקאות",
+	"headword": {
+		"text": "פַּסְלְקָאוֹת"
+	},
+	"page": {
+		"number": 1198,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (βασίλικα, sub. κάρυα, basilicæ, sub. nuces) <i>basilicæ</i>, the best kind of <i>nuts</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 1:9\">Tosef. Dem. I, 9</cite> [read:] <he>האגוזין ודורמסקיות ופ׳</he> (Var. <he>והפסדקאות</he>; <he>ופסליא</he> ed. Zuck., Var. <he>ופסיליה</he>, standing for βασιλεια, a dittography of our w.) nuts, plums, and walnuts."
+			]
+		}
+	]
+}

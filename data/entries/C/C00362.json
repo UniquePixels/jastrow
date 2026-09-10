@@ -1,0 +1,41 @@
+{
+	"id": "C00362",
+	"slug": "גויה-2",
+	"headword": {
+		"text": "גְּוִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּוִיָּיה"
+		},
+		{
+			"text": "גְּוִויָּה"
+		}
+	],
+	"page": {
+		"number": 220,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; cmp. <cite ref=\"C00262\"><he>גֵּו</he></cite>)<i>inner body, creature</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:4:8\">Y. Ber. IV, 8ᵇ</cite> top <he>לכל ג׳ וג׳ וכ׳</he> to each creature its needs. ",
+				"<cite ref=\"Mishnah Mikvaot 10:7\">Mikv. X, 7</cite> <he>לפסול את הג׳</he> to make the inner body unfit (for receiving T’rumah); <cite ref=\"Mishnah Tahorot 1:3\">Toh. I, 3</cite> <he>הגְּוִויָּה</he>; a. fr.—Pl. <he>גְּוִיּוֹת</he>, <he>גְּוִיּיוֹת</he>. ",
+				"<cite ref=\"Yoma 80b:7\">Yoma 80ᵇ</cite> <he>טומאת ג׳</he> some ed. (oth. sing.) the uncleanness of the inner body."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>membrum</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 25a\">Nidd. 25ᵃ</cite>; Y. ib. III, 50ᵈ. ",
+				"<cite ref=\"Kiddushin 25a:6\">Kidd. 25ᵃ</cite>; a. fr.—Pl. <he>גְּוִיּוֹת</he>. Midr. Sam. ch. XX <he>גויית</he> some ed. (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "P00867",
+	"slug": "עמוד-2",
+	"headword": {
+		"text": "עַמּוּד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עַמּוּדָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1087,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00866\">same</cite><i>column, stand</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 19:26\">Targ. Y. Gen. XIX, 26</cite>. ",
+				"<cite ref=\"Onkelos Exodus 13:22\">Targ. Ex. XIII, 22</cite>; a. fr.—<he>עמוד קריצתא</he> = h. <he>עמוד השחר</he>, v. <cite ref=\"P00866\">preced.</cite> ",
+				"<cite ref=\"Targum Jonathan on Genesis 32:25\">Targ. Y. Gen. XXXII, 25</cite>.—",
+				"<cite ref=\"Ketubot 17a:5\">Keth. 17ᵃ</cite> <he>איפסיק ע׳ דנורא וכ׳</he> a column of fire was interposed between him and the rest of the world; <cite ref=\"Ketubot 77b:11\">ib. 77ᵇ</cite>; a. fr.—Pl. <he>עַמּוּדִין</he>, <he>עַמּוּדַיָּא</he>, <he>עַמּוּדֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 42:6\">Targ. Ez. XLII, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 46:28\">Targ. Y. Gen. XLVI, 28</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 8a:20\">Ber. 8ᵃ</cite> <he>לא מצלו אלא ביני ע׳ וכ׳</he> they prayed only between the columns (or stands, of the building) where they used to study; <cite ref=\"Berakhot 30b:4\">ib. 30ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 34:15\">Gen. R. s. 34</cite>, end; <cite ref=\"Yalkut Shimoni on Torah 61:6\">Yalk. ib. 61</cite>, v. <cite ref=\"M00718\"><he>מַזְגָּא</he> II</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>continuous flow, jet</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 73a:8\">Ab. Zar. 73ᵃ</cite> <he>צירצור קטן דלא נפיש עַמּוּדֵיה</he> a small bottle the jet from which is not large; <he>חבית דנפיש עַמּוּדָהּ</he> (not <he>עמודיה</he>, v. Rabb. D. S. a. l. note 400) a jug whose jet is large."
+			],
+			"label": "2"
+		}
+	]
+}

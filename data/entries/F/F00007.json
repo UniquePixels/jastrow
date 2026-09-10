@@ -1,0 +1,22 @@
+{
+	"id": "F00007",
+	"slug": "ואלי",
+	"headword": {
+		"text": "וָאלִי"
+	},
+	"page": {
+		"number": 372,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ואל</he>, cmp. b. h. <cite ref=\"J00485\"><he>יָעַל</he></cite> a. <cite ref=\"E00182\"><he>הוֹאִיל</he></cite>) <i>propriety</i>. <he>לא ו׳</he> <i>it is unbecoming</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 8b\">Ned. 8ᵇ</cite> <he>לא ו׳ למישׁרא וכ׳</he> Ar. (ed. <cite ref=\"U01959\"><he>שרי</he></cite>, Var. <he>יאי</he>; Naḥm. <he>יאלי</he>) it is unbecoming (for a pupil) to absolve from a vow in a place where his teacher lives. Contr. <cite ref=\"F00059\"><he>וָלָא</he></cite>."
+			]
+		}
+	]
+}

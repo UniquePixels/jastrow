@@ -1,0 +1,33 @@
+{
+	"id": "U00112",
+	"slug": "שבי-4",
+	"headword": {
+		"text": "שְׁבִי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבְיָא"
+		},
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1513,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00111\">same</cite>, <i>captivity</i>; (collect. noun) <i>captives</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:29\">Targ. O. Ex. XII, 29</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 20:4\">Targ. Is. XX, 4</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 21:10\">Targ. O. Deut. XXI, 10</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 21:11\">Ib. 11</cite> (ed. Vien. <cite ref=\"U00116\"><he>שִׁבְיָה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 52:2\">Targ. Is. LII, 2</cite> <cite ref=\"U00115\"><he>שְׁבִיָא</he></cite> ed. Wil. (ed. Lag. a. oth. <he>שְׁבוּיֵי</he> or <he>שְׁבוֹיֵי</he>); a. fr.—Pl. <cite ref=\"U01975\"><he>שִׁבְיָין</he></cite>, <cite ref=\"U00803\"><he>שִׁבְיָן</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:42\">Targ. O. Deut. XXXII, 42</cite>, v. <cite ref=\"U00110\"><he>שְׁבֵי</he></cite>.—V. <cite ref=\"U00121\"><he>שִׁבְיְיתָא</he></cite>."
+			]
+		}
+	]
+}

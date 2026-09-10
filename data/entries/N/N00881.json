@@ -1,0 +1,23 @@
+{
+	"id": "N00881",
+	"slug": "נמל",
+	"headword": {
+		"text": "נָמֵל"
+	},
+	"page": {
+		"number": 913,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a popular corrupt. of <cite ref=\"L00574\"><he>לְמֵין</he></cite>, q. v.) <i>haven, bay</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 4:2\">Erub. IV, 2</cite>, v. <cite ref=\"L00574\"><he>לְמֵין</he></cite>. ",
+				"<cite ref=\"Tosefta Yoma 2:4\">Tosef. Yoma II, 4</cite> <he>נְמֵלָהּ של יפו</he> (Var. <he>נְמֵי׳</he>) the harbor of Japho; <cite ref=\"Yoma 38a:3\">Yoma 38ᵃ</cite> <he>נ׳ של עכו</he>; a. e."
+			]
+		}
+	]
+}

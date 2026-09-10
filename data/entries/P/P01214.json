@@ -1,0 +1,71 @@
+{
+	"id": "P01214",
+	"slug": "עקר-2",
+	"headword": {
+		"text": "עֲקַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1108,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01213\">same</cite>, <i>to uproot</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 3:25\">Targ. II Kings III, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 1:10\">Targ. Jer. I, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:5\">Targ. Lam. III, 5</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַקֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to uproot, destroy; to mutilate, hamstring</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 17:13\">Targ. II Sam. XVII, 13</cite>; a. e.—",
+						"<cite ref=\"Targum Jonathan on II Samuel 8:4\">Ib. VIII, 4</cite> (ed. Wil. <cite ref=\"P01214\"><he>עֲקַר</he></cite> <i>Pe.</i>). ",
+						"<cite ref=\"Targum Jonathan on Joshua 11:6\">Targ. Josh. XI, 6</cite>; a. e.—",
+						"<cite ref=\"Pesachim 115b:9\">Pes. 115ᵇ</cite> <he>קא מְעַקְּרֵי תכא וכ׳</he> they want to remove the tray before us. ",
+						"<cite ref=\"Pesachim 113a:4\">Ib. 113ᵃ</cite> <he>לא תְעַקֵּר ככא</he>, v. <cite ref=\"K00656\"><he>כַּכָּא</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַקַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְעֲקַר", "אִיעֲקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be uprooted, detached, removed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 2:22\">Targ. Prov. II, 22</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 24:31\">Ib. XXIV, 31</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 76:7\">Targ. Ps. LXXVI, 7</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 63b\">Sabb. 63ᵇ</cite>, v. <cite ref=\"F00062\"><he>וְלַד</he></cite>. ",
+						"<cite ref=\"Pesachim 101a:5\">Pes. 101ᵃ</cite> <he>ואִיתְעַקְּרָא ליה שרגא</he> his lamp was upset. Y. Ab. Zar. II, 40ᶜ bot. <he>ואִיתְעַקְּרוּן</he> and they were ruined (their trade became extinct), opp. <cite ref=\"S01447\"><he>קמון</he></cite> they remained in the trade. ",
+						"<cite ref=\"Shabbat 147b:11\">Sabb. 147ᵇ</cite> <he>איע׳ תלמודיה</he> his learning was uprooted; i.e. he forgot what he had learned; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become impotent</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 64b:6\">Yeb. 64ᵇ</cite> <he>איע׳ מפרקיה דרב וכ׳</he> became impotent through sitting at the lectures of R. H. (by suppressing his needs). ",
+						"<cite ref=\"Ketubot 62b:10\">Keth. 62ᵇ</cite> <he>אִיעַקְּרָא דביתהו</he> his wife had lost the faculty of conceiving; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

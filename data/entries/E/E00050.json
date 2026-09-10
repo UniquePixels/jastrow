@@ -1,0 +1,29 @@
+{
+	"id": "E00050",
+	"slug": "הברא",
+	"headword": {
+		"text": "הַבְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַבְרָה"
+		}
+	],
+	"page": {
+		"number": 330,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"E00038\"><he>הֲבִירָא</he></cite>; Syr. <he>חברא</he>, P. Sm. 1185) <i>mist, darkness</i>. ",
+			"units": [
+				"<cite ref=\"Tamid 32a:76\">Tam. 32ᵃ</cite> <he>דפרשי בה׳</he> which travel in the dark (fog). ",
+				"<cite ref=\"Keritot 5b\">Ker. 5ᵇ</cite> bot. <he>בביתא דה׳</he> Ar. (ed. <he>דבהתא</he>) in a half-dark house; <cite ref=\"Horayot 12a:2\">Hor. 12ᵃ</cite> <he>דה׳</he> Ar. a. En Yakob (v. Rabb. D. S. a. l. note 1, ed. <he>דח׳</he>). ",
+				"<cite ref=\"Pesachim 112b:10\">Pes. 112ᵇ</cite> <he>לא ליזיל בה׳ בלא מסאני</he> Ms. M. (ed. <cite ref=\"E00520\"><he>הכרא</he></cite> a. oth. differ., v. Rabb. D. S. a. l.) one must not walk without shoes in the dark (twilight)."
+			]
+		}
+	]
+}

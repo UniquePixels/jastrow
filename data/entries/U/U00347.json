@@ -1,0 +1,44 @@
+{
+	"id": "U00347",
+	"slug": "שווחא",
+	"headword": {
+		"text": "שְׁוָוחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁוְוחָא"
+		},
+		{
+			"text": "שַׁוְוחֲתָא"
+		}
+	],
+	"page": {
+		"number": 1530,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00346\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pit, grave</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 33:22\">Targ. Job XXXIII, 22</cite>; <cite ref=\"Aramaic Targum to Job 33:24\">24</cite> (Ms. <he>שחוו׳</he>; ed. Wil. <cite ref=\"U00366\"><he>שׁוּחֲ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 9:16\">Targ. Ps. IX, 16</cite> (ed. Wil. <cite ref=\"U00366\"><he>שׁוּחֲ׳</he></cite>; some ed. <he>שויח׳</he>, read: <he>שוו׳</he>; Ms. <he>שחוו׳</he>).—Pl. <cite ref=\"U00347\"><he>שַׁוְוחָן</he></cite>, <he>שַׁוְחָן</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:85\">Ib. CXIX, 85</cite> (ed. Wil. <he>שׁוּחָן</he>; Ms. <cite ref=\"U00898\"><he>שְׁיָיחָן</he></cite>; h. text <cite ref=\"U00864\"><he>שִׁיחוֹת</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>destruction, waste</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:3\">Targ. Job XXX, 3</cite> Ms. (ed. <cite ref=\"U00364\"><he>שׁוּחָא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"id": "A03216",
+	"slug": "ארע-2",
+	"headword": {
+		"text": "אֲרַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 124,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (in Targ. Y.; in O. usu. <cite ref=\"P01411\"><he>עֲרַע</he></cite> q. v.) same; <i>to join, meet, find; to attack, visit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 19:19\">Targ. Y. Gen. XIX, 19</cite> <he>תִירְעִינַנִי</he> may befall me <cite ref=\"Targum Jonathan on Deuteronomy 32:10\">Targ. Y. Deut. XXXII, 10</cite> (h. text <he>מצא</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 5:3\">Targ. Y. Ex. V, 3</cite> (h. <cite ref=\"Q00086\"><he>פגע</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 4:2\">Ib. IV, 2</cite> (h. <cite ref=\"Q00100\"><he>פגש</he></cite>; ed. Vien. <he>ועַרַע</he> read <he>וַאֲרַע</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 5:7\">Targ. Y. Lev. V, 7</cite> <he>לא תֶאֱרַע ידיה</he> he will not be able, cannot afford (h. text <he>תגיע וכ׳</he>, cmp. <he>תמצא ידו</he>); a. fr. [<cite ref=\"Targum Jerusalem, Exodus 15:9\">Targ. Y. II, Ex. XV, 9</cite> <he>ואַרְעֵי יתהון</he> (I <he>ונָרַע</he>, <he>וגדע</he>) read <he>ואֶירַע</he> and I shall meet them.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְאָרַע"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְרַע", "אִירַע"],
+			"senses": [
+				{
+					"gloss": " or <i>Pa.</i> <cite ref=\"A03219\"><he>אַרַע</he></cite> <i>to be met; to meet</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 23:15\">Targ. Y. I Num. XXIII, 15</cite> <cite ref=\"P01411\"><he>אֶתְעָרַע</he></cite> (h. text <he>אֶקָּרֶה</he>). ",
+						"<cite ref=\"Moed Katan 18a\">M. Kat. 18ᵃ</cite>, a. e. <he>איתרע ביה מילתא</he> an accident befell him (death in the family).—",
+						"<cite ref=\"Vayikra Rabbah 37:2\">Lev. R. s. 37</cite> <he>אַרְעַת שעתא</he> it so happened. ",
+						"<cite ref=\"Kohelet Rabbah 11:1\">Koh. R. to XI, 1</cite> <he>ארעת ענת׳ וכ׳</he> it happened to be the season when the Israelites travelled to Jerusalem. Y. Dem. I, 22ᵃ <he>אירעון</he>, v. <cite ref=\"A03215\">preced.</cite> ",
+						"<cite ref=\"Aramaic Targum to Esther 8:8\">Targ. Esth. VIII, 8</cite> <he>תִתְּרַן</he> = <he>תתארען</he>; <cite ref=\"Targum Jonathan on Genesis 44:34\">Targ. Y. Gen. XLIV, 34</cite> <he>תברז</he> (corr. acc.). [<he>אתרע</he> <i>to be shaken, weakened</i>, v. <he>רעע</he>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אוֹרַע"],
+			"senses": [
+				{
+					"gloss": " = Pe. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 2:3\">Targ. Ruth II, 3</cite>; a. e.—",
+						"<cite ref=\"Aramaic Targum to Psalms 85:11\">Targ. Ps. LXXXV, 11</cite> <he>אוֹרְעוּן</he> (some ed. <he>אָרְעִין</he> Pe.) meet each other."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

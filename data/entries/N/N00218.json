@@ -1,0 +1,27 @@
+{
+	"id": "N00218",
+	"slug": "נדונא",
+	"headword": {
+		"text": "נַדּוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְדוֹ׳"
+		}
+	],
+	"page": {
+		"number": 878,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00212\"><he>נְדַד</he></cite>) [<i>migrant</i>,] name of a species of edible locusts. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:22\">Targ. Y. Lev. XI, 22</cite> (ed. Vien. <cite ref=\"N00218\"><he>נִדּוֹנָא</he></cite>); v. <cite ref=\"N00226\"><he>נַדְיָין</he></cite>."
+			]
+		}
+	]
+}

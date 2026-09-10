@@ -1,0 +1,39 @@
+{
+	"id": "G00643",
+	"slug": "זקן-2",
+	"headword": {
+		"text": "זְקַן"
+	},
+	"page": {
+		"number": 409,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"G00642\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַזְקֵן"],
+			"senses": [
+				{
+					"gloss": "<i>to make old, weaken</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 56a\">Erub. 56ᵃ</cite> <he>הני מולייתא אַזְקְנוּן …</he> those ascents … made us (me) old, v. <cite ref=\"B00702\"><he>בֵּירַאי</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to grow old</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 47a\">Nidd. 47ᵃ</cite> <he>אַזְקְנָא לה</he> (some ed. <he>אזקונא</he>, Asheri <he>אזקנה</he>) this would be a sign that she has entered old age (passed the change of life)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

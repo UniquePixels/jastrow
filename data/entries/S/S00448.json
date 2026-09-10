@@ -1,0 +1,22 @@
+{
+	"id": "S00448",
+	"slug": "קונס",
+	"headword": {
+		"text": "קוֹנָס"
+	},
+	"page": {
+		"number": 1335,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S00449\">next w.</cite>) <i>ḳonas</i>, a substitute for <he>קרבן</he> (v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 1:2\">Ned. I, 2</cite>, v. <cite ref=\"S00446\"><he>קוֹנָם</he></cite>. Y. ib. I, 37ᵃ top, v. <cite ref=\"S00449\">next w.</cite>"
+			]
+		}
+	]
+}

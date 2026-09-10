@@ -1,0 +1,44 @@
+{
+	"id": "Q02072",
+	"slug": "פשיטא",
+	"headword": {
+		"text": "פְּשִׁיטָא"
+	},
+	"page": {
+		"number": 1246,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"Q02071\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>explanation, teaching</i>.—Pl. <he>פְּשִׁיטִין</he>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 665:10\">Yalk. Lev. 665</cite> <he>כיון דחסלין מן פְּשִׁיטֵיהוֹן</he> when they had finished their studies; <cite ref=\"Yalkut Shimoni on Nach 352\">Yalk. Is. 352</cite> <he>מפשוטיהן</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>plain, self-evident truth; is it not a matter of course?</i> <cite ref=\"Megillah 3b:6\">Meg. 3ᵇ</cite>, a. fr. <he>פ׳ לי</he> I have no doubt. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:5:3\">Y. Pes. VII, 34ᵇ</cite> bot. <he>פ׳ דא מילתא וכ׳</he> this is clear, that &c. Y. Sabb. X, end, 12ᵈ <he>מה דצריכא לר׳ י׳ פ׳ לי׳ וכ׳</he> what to R. Jeremiah is doubtful, is clear to Isaac ben U. ",
+				"<cite ref=\"Bava Batra 137a:13\">B. Bath. 137ᵃ</cite> <he>פ׳ מהו דתימא וכ׳</he> is not this a matter of course (what need was there to say it)? (Answ.) I might have thought &c. ",
+				"<cite ref=\"Bava Metzia 16a:6\">B. Mets. 16ᵃ</cite> <he>פ׳ זבנה וכ׳</he> it is undisputed, if he sold it …, but if he made a present of it (to the robber), there is a difference of opinion &c.; a. v. fr.—Pl. <cite ref=\"Q02072\"><he>פְּשִׁיטָן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:3:2\">Y. Bets. I, 60ᵇ</cite> <he>מילין … פ׳ לכון פ׳ וכ׳</he> things doubtful to the Rabbis are clear to you; those clear to the Rabbis, are doubtful to you."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (fem.) <i>Ps’hiṭa</i>, a small coin. ",
+			"units": [
+				"<cite ref=\"Chullin 54b:4\">Ḥull. 54ᵇ</cite> <he>כפ׳ זוטרתי</he> like a small P.—Pl. <he>פְּשִׁיטֵי</he>. ",
+				"<cite ref=\"Chullin 54b:4\">Ib.</cite> <he>פ׳ דפומבדיתא</he> the small coins of Pumb’ditha. ",
+				"<cite ref=\"Bava Metzia 16b:14\">B. Mets. 16ᵇ</cite> <he>פ׳ דספרא</he> the writer’s fee, v. <cite ref=\"G00233\"><he>זוּר</he></cite> ch.—Trnsf. <i>flat and round blisters</i>. ",
+				"<cite ref=\"Gittin 67b:17\">Gitt. 67ᵇ</cite> <he>קאי בישריה פ׳ פ׳</he> his body was full of blisters."
+			],
+			"label": "3"
+		}
+	]
+}

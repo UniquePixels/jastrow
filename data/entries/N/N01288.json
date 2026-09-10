@@ -1,0 +1,29 @@
+{
+	"id": "N01288",
+	"slug": "נשבא",
+	"headword": {
+		"text": "נִשְׁבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 938,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = <cite ref=\"N01289\">next w.</cite> ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:5\">Targ. Prov. VI, 5</cite> (some ed. <he>נשכא</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:5\">Ib. XXII, 5</cite> (some ed. <i>pl.</i>).—<i>Pl.</i> <he>נִשְׁבֵּי</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+				"<cite ref=\"Bava Metzia 85b\">B. Mets. 85ᵇ</cite> <he>גדילנא ני׳ וכ׳</he> I plaited nets and caught deer; <cite ref=\"Ketubot 103b\">Keth. 103ᵇ</cite>"
+			]
+		}
+	]
+}

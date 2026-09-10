@@ -1,0 +1,34 @@
+{
+	"id": "O01168",
+	"slug": "סנבראי",
+	"headword": {
+		"text": "סִנַּבְרַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִנַּ׳"
+		},
+		{
+			"text": "צִנַּבְרַיי"
+		},
+		{
+			"text": "צִינַּ׳"
+		}
+	],
+	"page": {
+		"number": 1004,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Sennabris</i>, near the lake of Tiberias. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:17\">Gen. R. s. 98</cite>; Y. Meg. I, 70ᵃ <he>צי׳</he>; v. <cite ref=\"J00623\"><he>יֶרח</he></cite>. Ib. III, 74ᵃ top Ursicinus burnt <he>אורייתא דצנבראי</he> the Torah scroll (of the synagogue) of S.—Denom. <he>סִנַּבְרָיָא</he>, <cite ref=\"O01168\"><he>צִנַּ׳</he></cite>, <cite ref=\"O01168\"><he>צִינַּ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 6:1:19\">Y. Shebi. VI, 36ᵈ</cite>; ib. IX, 39ᵃ; Y. Ab. Zar. II, end, 42ᵃ <he>לוי צ׳</he>."
+			]
+		}
+	]
+}

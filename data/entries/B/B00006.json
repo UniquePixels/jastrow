@@ -1,0 +1,24 @@
+{
+	"id": "B00006",
+	"slug": "בא-2",
+	"headword": {
+		"text": "בָּא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 134,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"B00754\"><he>בֵּיתָא</he></cite>, <i>house</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 5:8\">Targ. Is. V, 8</cite> ed. Ven., oth. ed. <cite ref=\"B00754\"><he>בֵּיתָא</he></cite>."
+			]
+		}
+	]
+}

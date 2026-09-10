@@ -1,0 +1,28 @@
+{
+	"id": "A02549",
+	"slug": "אסקריטין",
+	"headword": {
+		"text": "אִסְקְרִיטִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אי׳"
+		}
+	],
+	"page": {
+		"number": 97,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Ispe. noun of <he>קרט</he>; cmp. <cite ref=\"H01020\"><he>חָלַט</he></cite> I a. denom.) <i>balls; a kind of paste</i>. Mekh. B’shall. Vayas. 5 <he>כעין אסקריטי</he> (read … <he>טין</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 1:4\">Ḥall. I, 4</cite>; <cite ref=\"Pesachim 37a:5\">Pes. 37ᵃ</cite>. Y. Ḥall. III, 57ᵈ bot. <he>אי׳ חליטין דשוק</he> isk’ritin are &c., v. <cite ref=\"H01038\"><he>חֲלִיטָא</he> III</cite>."
+			]
+		}
+	]
+}

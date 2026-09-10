@@ -1,0 +1,32 @@
+{
+	"id": "Q02182",
+	"slug": "פתל-1",
+	"headword": {
+		"text": "פָּתַל"
+	},
+	"page": {
+		"number": 1254,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"Q02083\"><he>פָּשַׁל</he></cite>)<i>to twist</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 39b:3\">Men. 39ᵇ</cite> <he>עשה גדיל ופוֹתְלֵיהוּ מתוכו</he> make a fringe and twist a part of it; <cite ref=\"Yevamot 5b:2\">Yeb. 5ᵇ</cite> <he>ופָתְלֵהוּ</he>. Tanḥ. Sh’laḥ 15 (expl. <cite ref=\"Q02165\"><he>פתיל</he></cite>, <cite ref=\"Numbers 15:38\">Num. XV, 38</cite>) <he>והוא צריך לפָתְלָן</he> and one must twist them. ",
+				"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> (play on <he>נפתלי</he>) [read:] <he>שהיו מְפוּתָּלִים ד״א שהיו פותלין על ע״ב ניר</he> they (the sons of Naphtali) were perverted; another explanation, they twisted (wove curtains) on seventy two leashes, v. <cite ref=\"N00787\"><he>נִיר</he> IV</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיתֵּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q02181\">same</cite>, trnsf. <i>to pervert</i>. [<cite ref=\"Sifrei Devarim 308\">Sifré Deut. 308</cite> <he>מפתלו</he>, read with <cite ref=\"Yalkut Shimoni on Torah 942:36\">Yalk. ib. 942</cite> <he>מפסלו</he>, v. <cite ref=\"Q01325\"><he>פָּסַל</he></cite>.]—Part. pass. <he>מְפוּתָּל</he>; pl. <he>מְפוּתָּלִים</he>, <he>מְפוּתָּלִין</he>. Gen. R. l. c. (some ed. <he>מוּפְתָּלִים</he> <i>Hof.</i>), v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

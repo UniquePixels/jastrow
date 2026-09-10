@@ -1,0 +1,25 @@
+{
+	"id": "H01509",
+	"slug": "חצובה-2",
+	"headword": {
+		"text": "חֲצוּבָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 494,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H01492\"><he>חָצָב</he></cite>) <i>a stand for a pitcher, tripod</i>.—<he>כח׳</he> in the shape of a tripod, <i>triangulary arranged</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 25a:14\">B. Mets. 25ᵃ</cite> <he>כח׳ מהו</he> (Ms. H. <he>כחוצבא</he>) if coins are found lying in a triangle; (Y. ib. II, 8ᵇ, sq. <he>מצובה</he>, expl. <cite ref=\"S02138\"><he>קרפיפא</he></cite>). ",
+				"<cite ref=\"Bava Batra 83b\">B. Bath. 83ᵇ</cite> (also <he>כחצובא</he>) planted in a triangle. ",
+				"<cite ref=\"Eruvin 85b:4\">Erub. 85ᵇ</cite> <he>דקיימי כח׳</he> (Ms. M. <he>דעבידת כי חציבא</he>, read: <cite ref=\"H01506\"><he>חצובא</he></cite>, v. Rabb. D. S. a. l. note) the three ruins between two buildings stand in a triangle (so as to make only the central ruin equally near to both dwellings)."
+			]
+		}
+	]
+}

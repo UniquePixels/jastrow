@@ -1,0 +1,83 @@
+{
+	"id": "P00153",
+	"slug": "עדן-2",
+	"headword": {
+		"text": "עָדַן"
+	},
+	"page": {
+		"number": 1044,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to turn</i>, v. <cite ref=\"P00198\"><he>עוּד</he></cite>,] <i>to be round, smooth, pliant</i>. <i>Pi.</i> <cite ref=\"P00514\"><he>עִידֵּן</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to make pliant; to bend</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 16b:26\">M. Kat. 16ᵇ</cite> (play on <he>עדינו</he>, <cite ref=\"II Samuel 23:8\">II Sam. XXIII, 8</cite>) <he>כשהיה … היה מְעַדֵּן עצמו וכ׳</he> when sitting and studying the Law, he made himself pliant like a worm, opp. <he>מקשה עצמו</he> stiffening one’s self."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to smooth, lubricate, to improve</i> (the complexion); <i>to refresh, invigorate</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:2\">Cant. R. to I, 2</cite> <he>מה שמן מְעַדֵּן … מְעַדְּנִים וכ׳</he> as oil brightens the appearance of the head and the body, so the words of the Law &c. ",
+				"<cite ref=\"Pesachim 43a:3\">Pes. 43ᵃ</cite> <he>משיר … ומעדן את הבשר</he> makes the hair fall out and improves the complexion. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:18\">Y. Ber. VI, 10ᵇ</cite> top <he>אשר … מעדנים לעַדֵּן בהן וכ׳</he> who created all sorts of delicacies to refresh therewith the soul &c. ",
+				"<cite ref=\"Bereishit Rabbah 16:5\">Gen. R. s. 16</cite> <he>עִדְּנוֹ מכל אילני וכ׳</he> he nursed him (with fruits) of all the trees of the garden of Eden; <cite ref=\"Bereishit Rabbah 16:5\">ib.</cite> <he>לעַדְּנוֹ וכ׳</he> he had intended to nurse him &c. ",
+				"<cite ref=\"Shabbat 33b:5\">Sabb. 33ᵇ</cite> <he>מרחצאות לעַדֵּן בהן עצמן</he> (Ms. M. <he>לֵעָרֵן בהן</he>; Yalk. Ms. <he>להִתְעַדֵּן</he>, v. Rabb. D. S. a. l. note) (the Romans have erected baths) for their own enjoyment (not for the benefit of the people); <cite ref=\"Avodah Zarah 2b:11\">Ab. Zar. 2ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 316\">Yalk. Is. 316</cite>. ",
+				"<cite ref=\"Sifrei Devarim 306:4\">Sifré Deut. 306</cite> <he>כל זמן … היו מערבים ומעדנים ומפנקים וכ׳</he> as long as my son does my will, humor him, nurse him and indulge him and give him to eat and to drink; <cite ref=\"Yalkut Shimoni on Torah 942:1\">Yalk. Deut. 942</cite> <he>היו מְעַדְּנִין וכ׳</he>. Sifré l. c. <he>מה רביבים … ומעדנים וכ׳</he> as the rains come down on the plants and brighten them and embellish them &c.; Yalk. l. c; a. fr.—<i>Part. pass.</i> <he>מְעוּדָּן</he> "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>well-nursed, graceful</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Nedarim 9:9:2\">Y. Ned. IX, end, 41ᶜ</cite> (ref. to <cite ref=\"II Samuel 1:24\">II Sam. I, 24</cite>) <he>אין תכשיט … גוף מע׳</he> ornamentation becomes only a well-nursed (graceful) body.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>indulged, used to luxuries</i>. Mekh. Mishp. s. 8 <he>אם היה מרוכך מע׳ מפונק</he> if the wounded man was delicately reared, used to comfort and luxuries; <cite ref=\"Yalkut Shimoni on Torah 339:2\">Yalk. Ex. 339</cite>.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱדִין"],
+			"senses": [
+				{
+					"gloss": "<i>to surround, bind, connect</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 10:5\">Gen. R. s. 10</cite> (ref. to <cite ref=\"Job 38:31\">Job XXXVIII, 31</cite> <he>מעדנות וכ׳</he>) <he>כימה מַעֲדֶנֶת וכ׳</he> the Kimah binds (gives substance and shape to) the fruits; cmp. <cite ref=\"M00779\"><he>מָזַר</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְעַדֵּן"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַדֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be made smooth, pliable; to be rejuvenated; to be nursed, recover strength</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 120a:2\">B. Bath. 120ᵃ</cite> <he>נ׳ הבשר ונתפשטו וכ׳</he> the body was again made smooth, the wrinkles of age were straightened out, and beauty returned &c.; <cite ref=\"Yalkut Shimoni on Torah 165:1\">Yalk. Ex. 165</cite>. ",
+						"<cite ref=\"Shabbat 33b:6\">Sabb. 33ᵇ</cite>, v. supra. ",
+						"<cite ref=\"Nedarim 8b:6\">Ned. 8ᵇ</cite> <he>מִתְעַדְּנִין בה</he> the righteous will be rejuvenated by it (by basking in the sun). Pesik. Haḥod., p. 102ᵃ <he>יִתְעַדֵּן בני וכ׳</he> let my son be nursed with food and drink for two or three months; <he>יִתְעַדְּנוּ בני וכ׳</he> let my children be nursed &c.; <cite ref=\"Shir HaShirim Rabbah 2:5\">Cant. R. to II, 5</cite>; <cite ref=\"Kohelet Rabbah 3:11\">Koh. R. to III, 11</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

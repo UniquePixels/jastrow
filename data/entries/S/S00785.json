@@ -1,0 +1,50 @@
+{
+	"id": "S00785",
+	"slug": "קטם-1",
+	"headword": {
+		"text": "קָטַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1349,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>גדם</he>) <i>to cut, chop, lop</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 2:4\">Shebi. II, 4</cite> <he>וקוֹטְמִין אותן</he> and trim them; [oth. opin., v. <cite ref=\"S00787\"><he>קָטַם</he> II</cite>]. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:41\">Y. Sabb. VII, 10ᵇ</cite> bot. <he>הקוֹטְמָהּ</he> he that clips it (the wing-feather); <cite ref=\"Tosefta Shabbat 9:20\">Tosef. ib. IX</cite> (<cite ref=\"Tosefta Shabbat 10:20\">X</cite>), 20; Bab. ",
+				"<cite ref=\"Shabbat 74b:7\">Sabb. 74ᵇ</cite> <he>הקוֹטְמוֹ</he>. ",
+				"<cite ref=\"Beitzah 33b:2\">Bets. 33ᵇ</cite> <he>לא יִקְטְמֶנּוּ … ואם קְטָמוֹ וכ׳</he> one must not nip it in order to smell at it, but if one did &c.; a. fr.—Part. pass. <he>קָטוּם</he>; f. <cite ref=\"S00727\"><he>קְטוּמָה</he></cite>; pl. <he>קְטוּמִים</he> &c. ",
+				"<cite ref=\"Mishnah Sukkah 3:4\">Succ. III, 4</cite> <he>שנים ק׳ ואחד אינו ק׳</he> if two (of the three myrtle sprigs) are broken on the top, and one is not. Y. ib. 53ᶜ bot. <he>ק׳ הדר</he> even if the point is broken off, it may still be called <i>hadar</i> (beautiful); ib.ᵈ top <he>ק׳ הדור</he>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִיטֵּם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00784\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Kamma 2:1\">Tosef. B. Kam. II, 1</cite>, v. <cite ref=\"S02009\"><he>קִרְטֵם</he></cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִקְטָם"],
+			"senses": [
+				{
+					"gloss": "<i>to be lopped, nipped</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sukkah 3:1\">Succ. III, 1</cite> <he>נ׳ ראשו</he> if its top is broken off; <cite ref=\"Mishnah Sukkah 3:2\">ib. 2</cite>; <cite ref=\"Mishnah Sukkah 3:3\">3</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

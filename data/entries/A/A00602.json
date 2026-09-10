@@ -1,0 +1,23 @@
+{
+	"id": "A00602",
+	"slug": "אוזינקא",
+	"headword": {
+		"text": "אוּזִּינְקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 23,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>אונז׳</he>; <he>נזק</he>, v. <cite ref=\"A02151\"><he>אַנְזִיקָא</he></cite>) (<i>compensation for</i>) <i>loss, expense</i> of money and time. ",
+			"units": [
+				"<cite ref=\"Bava Batra 6b:7\">B. Bath. 6ᵇ</cite> <he>שקול א׳ וכ׳</he> (Ms. R. <he>עבדיה כוליה ויהיבנא לך א׳</he>) take compensation and do thou the work (do thou it all, and I shall pay &c.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "P01455",
+	"slug": "ערר-2",
+	"headword": {
+		"text": "עֲרַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1123,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01454\">same</cite>, <i>to object</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:6:7\">Y. Keth. VII, 31ᶜ</cite> top <he>הויין קריביה עַרְרִין ואמרין וכ׳</he> the relatives objected (to the verdict) and said &c. Ib. VI, 30ᵈ top <he>אשכחינון עֲרִירִין</he> he found them disputing (about the amount to be allowed for the wife’s toilet)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עָרֵיר"],
+			"senses": [
+				{
+					"gloss": "<i>to stir up, incite</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 9:10\">Targ. Is. IX, 10</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

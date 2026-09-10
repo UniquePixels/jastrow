@@ -1,0 +1,29 @@
+{
+	"id": "O00296",
+	"slug": "סוך-3",
+	"headword": {
+		"text": "סוֹךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׂוֹךְ"
+		}
+	],
+	"page": {
+		"number": 963,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>שוך</he>; <he>סוך</he> = <he>סבך</he>)<i>bough, bush</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 10:2\">B. Kam. X, 2</cite> (<cite ref=\"Bava Kamma 114a:6\">114ᵃ</cite>) <he>לא יקוץ את סוֹכוֹ וכ׳</he> (some ed. <cite ref=\"O00299\"><he>שׂ׳</he></cite>; Y. ed. <he>הסוֹכָה</he>; v. Rabb. D. S. a. l. note 100) he must not cut off the bough of his neighbor’s tree &c. Y. Keth. II, end, 27ᵃ <he>בשׂוֹכוֹ</he> when the bees have settled on his neighbor’s bough (or bush); a. e.—Pl. <he>סוֹכִים</he>, constr. <cite ref=\"O00303\"><he>סוֹכֵי</he></cite>. ",
+				"<cite ref=\"Sukkah 13b:9\">Succ. 13ᵇ</cite>; <cite ref=\"Tosefta Ma'asrot 3:5\">Tosef. Maasr. III, 5</cite> <he>ס׳ תאנים</he> boughs of fig trees. ",
+				"<cite ref=\"Eruvin 101a:6\">Erub. 101ᵃ</cite> <he>ס׳ קוצים וכ׳</he> boughs of thorn-bushes and bundles of twigs of which one made a movable hedge before a breach; Tosef. ib. XI (VIII), 11, <he>חבילי וסיכה של קוצים</he> ed. Zuck. (Var. <he>סוכה</he>); v. <cite ref=\"O00299\"><he>סוֹכָה</he></cite>."
+			]
+		}
+	]
+}

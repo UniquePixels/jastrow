@@ -1,0 +1,23 @@
+{
+	"id": "M02808",
+	"slug": "משבקא-1",
+	"headword": {
+		"text": "מְשַׁבְּקָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 849,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00169\"><he>שְׁבַק</he></cite>) <i>divorcer, former husband</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 11:3:3\">Y. Keth. XI, 34ᵇ</cite> bot. <he>שכונה דמְשַׁבְּקִי</he> the neighborhood of my first husband."
+			]
+		}
+	]
+}

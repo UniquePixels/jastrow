@@ -1,0 +1,32 @@
+{
+	"id": "A00414",
+	"slug": "אדל",
+	"headword": {
+		"text": "אֲדָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲדִיל"
+		},
+		{
+			"text": "עֲדָל"
+		}
+	],
+	"page": {
+		"number": 16,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (√<he>אד</he>, <cite ref=\"P00114\"><he>עד</he></cite> dial. = <cite ref=\"H00168\"><he>חד</he></cite>, <cite ref=\"C00151\"><he>גד</he></cite>; cmp. <cite ref=\"C00153\"><he>גַּד</he> I</cite>, <he>גִּידָּא</he> II, <cite ref=\"H01603\"><he>חַרְדָּל</he></cite>) <i>garden-cress, summer-savory</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 5:11\">Tosef. Shebi. V, 11</cite> (ed. Zuck. <he>אדיל</he>). ",
+				"<cite ref=\"Mishnah Oktzin 3:4\">Ukts. III, 4</cite> <cite ref=\"P00001\"><he>ע׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:2:5\">Y. Shebi. VII, 37ᶜ</cite> bot. <he>ערל</he>; ib. 37ᵇ bot. <cite ref=\"P01387\"><he>ערלה</he></cite> (corr. acc.)"
+			]
+		}
+	]
+}

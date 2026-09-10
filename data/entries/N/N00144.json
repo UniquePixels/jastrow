@@ -1,0 +1,27 @@
+{
+	"id": "N00144",
+	"slug": "נגזל",
+	"headword": {
+		"text": "נִגְזָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִיגְ׳"
+		}
+	],
+	"page": {
+		"number": 873,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00558\"><he>גָּזַל</he></cite>) <i>a complainant in a case of robbery</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 7:1\">Shebu. VII, 1</cite>; a. fr."
+			]
+		}
+	]
+}

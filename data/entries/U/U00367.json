@@ -1,0 +1,33 @@
+{
+	"id": "U00367",
+	"slug": "שוחה-1",
+	"headword": {
+		"text": "שׁוּחָה"
+	},
+	"page": {
+		"number": 1531,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U00362\"><he>שׁוּחַ</he></cite> , v. <cite ref=\"U00347\"><he>שְׁוָוחָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pit, pitfall</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 20:2\">Sifré Deut. 20</cite> <he>אם כשהייתם … וש׳ וכ׳</he> (v. ",
+				"<cite ref=\"Jeremiah 2:6\">Jer. II, 6</cite>) when you were in the land of deserts and pitfalls you wanted no spies, and now &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>low talk, whisper</i>, v. <cite ref=\"U00860\"><he>שִׁיחָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "S01419",
+	"slug": "קלקלה",
+	"headword": {
+		"text": "קַלְקָלָה"
+	},
+	"page": {
+		"number": 1382,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01415\"><he>קִלְקֵל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>degradation, disgrace</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:18\">Ab. IV, 18</cite> <he>אל … בשעת קַלְקָלָתוֹ</he> do not strive to see thy neighbor at the moment of his disgrace. ",
+				"<cite ref=\"Mishnah Horayot 3:7\">Hor. III, 7</cite> (<cite ref=\"Horayot 13a:8\">13ᵃ</cite>) <he>בזמן ששניהם עומדים לק׳</he> (Bab. ed. <he>בק׳</he>) when both (a man and a woman) are exposed to disgrace (prostitution, v. <cite ref=\"S01269\"><he>קָלוֹן</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 20:3\">Gen. R. s. 20</cite> <he>בק׳ מתחילים וכ׳</he> in degradation (punishment) the beginning is made with the lowest, opp. <he>גדולה</he> elevation; Sifra Sh’mini, Milluim; <cite ref=\"Berakhot 61a\">Ber. 61ᵃ</cite> Ms. M. (ed. <he>בקללה</he>); <cite ref=\"Taanit 15b\">Taan. 15ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>corruption, degeneration, sin, mischief</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 12\">B’shall. 12</cite>, v. <cite ref=\"S00986\"><he>קִילְקוּל</he></cite>. ",
+				"<cite ref=\"Sanhedrin 102b:6\">Snh. 102ᵇ</cite> <he>הוא היה תחלה לק׳</he> he (Jeroboam) initiated corruption (idolatry). ",
+				"<cite ref=\"Bava Batra 109b:10\">B. Bath. 109ᵇ</cite> <he>תולין את הק׳ במקולקל</he> every corruption is fastened to the corrupt (is named after him who started it). ",
+				"<cite ref=\"Berakhot 60a:23\">Ber. 60ᵃ</cite> <he>ואל … דבר ק׳ ועון</he> that no mischief or sin may occur through me; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

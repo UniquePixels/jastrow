@@ -1,0 +1,27 @@
+{
+	"id": "G00025",
+	"slug": "זבונא-3",
+	"headword": {
+		"text": "זָבוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָבוֹנָה"
+		}
+	],
+	"page": {
+		"number": 378,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00024\">preced.</cite> wds.) <i>buyer, merchant</i>. Targ. II Esth. III, 11.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:1:4\">Y. Kil. II, beg. 27ᶜ</cite>.—Y. Kidd. II, 64ᵃ top <he>קרן ז׳ וכ׳</he> the merchant packed his goods on his wagon and went off; v. <cite ref=\"D01080\"><he>דֵּרֵּי</he></cite>."
+			]
+		}
+	]
+}

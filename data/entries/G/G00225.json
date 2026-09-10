@@ -1,0 +1,22 @@
+{
+	"id": "G00225",
+	"slug": "זוף-3",
+	"headword": {
+		"text": "זוּף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 389,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>זעף</he>) [<i>to be rough</i>,] <i>to be angry, threaten</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 17:13\">Targ. Is. XVII, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 3:2\">Targ. Zech. III, 2</cite> <cite ref=\"J00260\"><he>יְזֵיף</he></cite> (ed. Lag. <he>יגער</he>). ",
+				"<cite ref=\"Targum Jonathan on Malachi 3:11\">Targ. Mal. III, 11</cite>; a. e. [<i>Af.</i> <cite ref=\"J00264\"><he>אוֹזִיף</he></cite>, v. <cite ref=\"J00263\"><he>יְזַף</he></cite>.]"
+			]
+		}
+	]
+}

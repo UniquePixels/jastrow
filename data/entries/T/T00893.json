@@ -1,0 +1,32 @@
+{
+	"id": "T00893",
+	"slug": "רעי-5",
+	"headword": {
+		"text": "רְעִי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְיעִי",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1487,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רעה</he> = <he>רוה</he>, v. <cite ref=\"T00579\"><he>רֵיאָה</he></cite> a. <cite ref=\"T00013\"><he>רֳאִי</he> II</cite>; cmp. <cite ref=\"D00058\"><he>דִּבְיוֹנִים</he></cite>) <i>secretion, excrements</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 7b:18\">Bekh. 7ᵇ</cite> <he>דרך הר׳</he> (Rashi <he>דרך בית הר׳</he>) in the secretory channel (instead of in the womb). ",
+				"<cite ref=\"Mishnah Kelim 17:2\">Kel. XVII, 2</cite> <he>בית הר׳ … מקבל את הר׳</he> (ed. Dehr. <he>הראי</he>) a night chamber which is too defective to retain liquid matter, although it retains solid excrements. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> <he>בית הר׳</he> <i>privy</i>. ",
+				"<cite ref=\"Tosefta Berakhot 2:16\">Tosef. Ber. II, 16</cite>; <cite ref=\"Berakhot 25b:16\">Ber. 25ᵇ</cite> <he>גרף של ר׳</he> a vessel for excrements; <cite ref=\"Shabbat 47a:4\">Sabb. 47ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

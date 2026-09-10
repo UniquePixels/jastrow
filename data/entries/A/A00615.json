@@ -1,0 +1,23 @@
+{
+	"id": "A00615",
+	"slug": "אוחיין",
+	"headword": {
+		"text": "אוֹחִיִין"
+	},
+	"page": {
+		"number": 24,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h. <cite ref=\"A01035\"><he>אֹחִים</he></cite>)<i>howling animals, owls</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 13:21\">Targ. Is. XIII, 21</cite>."
+			]
+		}
+	]
+}

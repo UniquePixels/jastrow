@@ -1,0 +1,27 @@
+{
+	"id": "K01015",
+	"slug": "כפילתא",
+	"headword": {
+		"text": "כָּפֵילְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּפֶלְתָּא"
+		}
+	],
+	"page": {
+		"number": 659,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01014\">preced.</cite>), <he>מערת כ׳</he> <i>the double cave, Makhpelah</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 23:19\">Targ. Gen. XXIII, 19</cite>; a. fr. [Var. <cite ref=\"K01062\"><he>כַּפֵּי׳</he></cite>, <he>כָּפֶי׳</he>, <he>כַּפֵי׳</he>.]"
+			]
+		}
+	]
+}

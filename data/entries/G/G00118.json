@@ -1,0 +1,103 @@
+{
+	"id": "G00118",
+	"slug": "זוג-1",
+	"headword": {
+		"text": "זָוַג"
+	},
+	"page": {
+		"number": 383,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to join, couple, match; to adjust</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 5:11\">Tosef. Kil. V, 11</cite> <he>המְזַוֵּיג את הכלאים</he> he who harnesses together two heterogeneous animals; <cite ref=\"Bava Metzia 90b\">B. Mets. 90ᵇ</cite> <he>המְזַ׳ בכל׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 3:2:2\">Y. Gitt. III, 44ᵈ</cite> bot. <he>הגע עצמך שזִיוֵּוג</he> but supposed that one matched it, i.e. found a letter of divorce just containing the names of the persons under consideration (though not written for that special transaction). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 3:2:2\">Ib.</cite> <he>כיון שאינו מצוי לזַוֵּוג אפי׳ ז׳ כמי שלא ז׳</he> since it is so rare to find such a matching combination, even if one did, we consider it as if he had not done it, i.e. such rare chances are not taken into consideration. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:3:3\">Y. Shek. V, 49ᵃ</cite> bot. <he>הגע … שז׳ אותו היום</he> supposed somebody produced a ticket with the mark of the same day of the week?—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:3:3\">Ib.</cite> <he>אפי׳ לזויג וכ׳</he> (read as above: <he>כיון שאינו וכ׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:8:2\">Y. M. Kat. I, end, 80ᵈ</cite> bot. <he>מְזַוֵּוג את האומריות</he> one who knots the fringes two by two (instead of making a regular network).—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:16\">Y. Shek. V, 48ᵈ</cite> bot. <he>מְזַיֵּיג את הפתילות</he> (Bab. ed. <he>מְזַוֵּוג</he>) he adjusted the length of the wicks (to the length of the time they had to burn); Y. Yoma II, 39ᵈ bot.—Esp. "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to join in wedlock, to wed</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 2a:8\">Sot. 2ᵃ</cite> <he>אין מְזַוְּוגִין לו לאדם וכ׳</he> a wife is selected (in heaven) for each man according to his deserts. ",
+				"<cite ref=\"Sotah 2a:8\">Ib.</cite> <he>קשין לזַיְּוגָן וכ׳</he> to wed couples is as difficult as the splitting of the Red Sea. ",
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite>; <cite ref=\"Vayikra Rabbah 8:3\">Lev. R. s. 8</cite>, beg. <he>מְזַוֵּוג זִיוּוּגִים וכ׳</he> He joins couples, decrees who should be married to whom. ",
+				"<cite ref=\"Vayikra Rabbah 8:3\">Ib.</cite> <he>אני יכולה לזַיְּוגָם וכ׳</he> I can couple them in one hour. ",
+				"<cite ref=\"Vayikra Rabbah 8:3\">Ib.</cite> <he>זווגן בלילה וכ׳</he> (read: <he>זִוְּוגָתָן</he>); a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to join</i> in a hostile sense, <i>to attack</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite>, v. <cite ref=\"L00039\"><he>לָבַב</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to match in misery, to comfort by pointing out a similar case</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Lamentations 2:13\">Lam. II, 13</cite>). ",
+				"<cite ref=\"Pesikta Rabbati 30:1\">Pesik. R. s. 30</cite> <he>מזדווג בה וכ׳</he> (read <he>מְזַוֵּוג לה</he>) He shows her (the country) a fellow-sufferer to comfort her. ",
+				"<cite ref=\"Pesikta Rabbati 30:1\">Ib.</cite> <he>מזדווג לה אלכסנדריה וכ׳</he> (corr. acc.) he pointed out to her Alexandria. ",
+				"<cite ref=\"Pesikta Rabbati 30:1\">Ib.</cite> <he>בא יואל וזי׳ לה</he> Joel came and comforted her (by pointing to the Lord’s sympathy)."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"G00305\"><he>זִיוֵּוג</he></cite>, <cite ref=\"G00141\"><he>זִוֵּוג</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזְדַּוֵּוג"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִזְדַּוֵּוג</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be joined; to join, meet</i>. Y. Yoma VI, 43ᶜ top <he>שיִזְדַּוֵּוג לו חבירו</he> that the other bullock must be joined to him (they must belong to the same couple). ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 5:5\">Snh. V, 5</cite> (<cite ref=\"Sanhedrin 40a:11\">40ᵃ</cite>) <he>מִזְדַּוְּוגִין זוגות וכ׳</he> they met in couples (for consultation). Y. Taan. I, 64ᵃ top (ref. to <cite ref=\"Isaiah 21:11\">Is. XXI, 11</cite>, play on <cite ref=\"A01835\"><he>אֵלַי</he></cite>) <he>אֶלִי מאיכן נז׳ לי וכ׳</he> whence did my God join me again? From Seir (Rome); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (in a hostile sense) <i>to join in battle, attack</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite>; Tanḥ. Sh’moth 5 <he>בוא ונִזְדַּוֵּוג וכ׳</he> come and let us plan how to get at that nation. ",
+						"<cite ref=\"Vayikra Rabbah 11\">Lev. R. s. 11</cite> <he>נִזְדַּוְּוגוּ לו שלשה וכ׳</he> three enemies attacked it jointly. ",
+						"<cite ref=\"Vayikra Rabbah 11\">Ib.</cite> <he>באו ברבריים נ׳ לו</he> barbarians attacked him; Esth. R. introd.; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be wedded</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:4\">Cant. R. to I, 4</cite> <he>(נגילה</he>); Pesik. Sos, p. 147ᵃ <he>כשם שנִזְדַוַּוגְתֶּם וכ׳</he> as you have been married with festivities."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

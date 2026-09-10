@@ -1,0 +1,43 @@
+{
+	"id": "N00181",
+	"slug": "נגף-1",
+	"headword": {
+		"text": "נָגַף"
+	},
+	"page": {
+		"number": 875,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to strike, push; to injure</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Kamma 1:9\">Tosef. B. Kam. I, 9</cite> <he>נגח נ׳ וכ׳</he> if he gored, pushed, bit &c. ",
+				"<cite ref=\"Bamidbar Rabbah 5:3\">Num. R. s. 5</cite> <he>ונ׳ הקב״ה עושי וכ׳</he> and the Lord struck those who made the golden calf; a. fr.—Part. pass. <he>נָגוּף</he>; pl. <he>נְגוּפִים</he>. ",
+				"<cite ref=\"Midrash Tehillim 109:18\">Midr. Till. to Ps. CXVIII, 23</cite> <he>כשיראו … אינן אלו הנ׳ וכ׳</he> when the nations shall see Israel in prosperity, they shall say, these are not the stricken, these are not the rejected &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיגַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be stricken</i>. ",
+					"units": ["<cite ref=\"Yoma 19b:5\">Yoma 19ᵇ</cite>"]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְנַגֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to strike against</i>. Lam. R. introd. (R. Joḥ. 2) <he>לכשיִתְנַגְּפוּ רגליכם וכ׳</he> when your feet shall strike against the mountains &c. (fr. ",
+					"units": ["<cite ref=\"Jeremiah 13:16\">Jer. XIII, 16</cite>)."]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

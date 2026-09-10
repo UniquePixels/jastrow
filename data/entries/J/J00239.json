@@ -1,0 +1,25 @@
+{
+	"id": "J00239",
+	"slug": "יורה-1",
+	"headword": {
+		"text": "יוֹרֶה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 571,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00601\"><he>יָרָה</he></cite>)<i>a soaking rain, early rain</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 42:5\">Sifré Deut. 42</cite> (ref. to <cite ref=\"Deuteronomy 11:14\">Deut. XI, 14</cite>) <he>י׳ במרחשון וכ׳</he> <i>yoreh</i> (early rain) is the rain of Marḥeshvan, the late rain (<i>malkosh</i>) in Nisan; <cite ref=\"Taanit 5a:4\">Taan. 5ᵃ</cite>. ",
+				"<cite ref=\"Taanit 5a:4\">Ib.</cite> (ref. to Mish. ",
+				"<cite ref=\"Mishnah Taanit 1:2\">ib. I, 2</cite>) <he>י׳ בניסן וכ׳</he> is the <i>yoreh</i> in Nisan? is it not in Marḥeshvan? Ib. 6ᵃ; a. e.—Trnsf. <i>early season, spring</i>. Tanḥ. Ḥayé 6 (ref. to <cite ref=\"Ecclesiastes 11:6\">Koh. XI, 6</cite>) <he>אם זרעת בי׳ וכ׳</he> if thou hast sown in the spring &c.; cmp. <cite ref=\"B00789\"><he>בַּכִּיר</he></cite>.—"
+			]
+		}
+	]
+}

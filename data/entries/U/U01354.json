@@ -1,0 +1,30 @@
+{
+	"id": "U01354",
+	"slug": "שלמאה",
+	"headword": {
+		"text": "שַׁלְמָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁלְמָיָיא"
+		}
+	],
+	"page": {
+		"number": 1587,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Shalmaite</i>, an Arabic tribe. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 24:21\">Targ. O. Num. XXIV, 21</cite> (Y. <cite ref=\"U01359\"><he>שַׁלְמַיָּא</he></cite>, read: <he>מָיָא …</he>; h. text <he>קיני</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 15:6\">Targ. I Sam. XV, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 4:17\">Targ. Jud. IV, 17</cite>; a. e.—Y. Shebi. VI, 36ᵇ bot. (= <he>קנזי</he>, <cite ref=\"Genesis 15:19\">Gen. XV, 19</cite>); <cite ref=\"Jerusalem Talmud Kiddushin 1:8:5\">Y. Kidd. I, 61ᵈ</cite> top <cite ref=\"U01488\"><he>שמלאי</he></cite> (corr. acc.; = <he>קיני</he>); <cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> (= <he>קנזי</he>); <cite ref=\"Bava Batra 56a\">B. Bath. 56ᵃ</cite> (= <he>קדמני</he>).—Pl. <he>שַׁלְמָאֵי</he>. ",
+				"<cite ref=\"Onkelos Genesis 15:19\">Targ. O. Gen. XV, 19</cite> (h. text <he>הקיני</he>; Y. <cite ref=\"U01359\"><he>שַׁלְמַיָּא</he></cite>, read: <cite ref=\"U01359\"><he>שַׁלְמָיָא</he></cite> <i>sing.</i>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,127 @@
+{
+	"id": "P00856",
+	"slug": "עמך-2",
+	"headword": {
+		"text": "עָמַך",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1086,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to stand, stand up, rise; to remain, endure; to be ready</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite> <he>אין עוֹמְדִין להתפלל וכ׳</he> you must not stand up (make ready) for prayer, &c., v. <cite ref=\"K00184\"><he>כּוֹבֶד</he></cite>. ",
+				"<cite ref=\"Mishnah Berakhot 1:2\">Ib. I, 2</cite> <he>שכן דרך … לַעֲמוֹד וכ׳</he> for princes generally rise at three hours. ",
+				"<cite ref=\"Mishnah Berakhot 1:3\">Ib. 3</cite> (expl. <he>ובקומך</he>, <cite ref=\"Deuteronomy 6:7\">Deut. VI, 7</cite>) <he>בשעה שבני אדם עוֹמְדִים</he> at the time when people get up (in the morning). ",
+				"<cite ref=\"Kiddushin 71a:13\">Kidd. 71ᵃ</cite> <he>עוֹמֵד בחצי ימיו</he> a middle-aged man. Y. Snh. VIII, 26ᵇ <he>ע׳ בדין</he> stood before court. ",
+				"<cite ref=\"Bava Metzia 47b:16\">B. Mets. 47ᵇ</cite> <he>מי שאינו עומד בדיבורו</he> who does not stand by (keep) his promise. ",
+				"<cite ref=\"Mishnah Kilayim 4:4\">Kil. IV, 4</cite> <he>העומד</he> that part of the fence which is unimpaired, opp. <he>פרוץ</he>. ",
+				"<cite ref=\"Mishnah Negaim 1:3\">Neg. I, 3</cite>, sq. <he>העומד</he> the leprous spot which remained in its place (<cite ref=\"Leviticus 13:28\">Lev. XIII, 28</cite>). ",
+				"<cite ref=\"Bava Batra 60b:13\">B. Bath. 60ᵇ</cite> <he>יכולין לעמוד בה</he>, v. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 2:5\">Ex. R. s. 2</cite> <he>בקש משה שיַעַמְדּוּ וכו׳</he> Moses prayed that from him should rise priests and kings; a. v. fr.—Esp. uses: <he>ע׳ על</he> "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>to understand</i>. Y. Shek. I, 45ᵈ, v. <cite ref=\"A00799\"><he>אוֹפִי</he></cite>; a. e.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>to insist upon</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 28a:12\">Meg. 28ᵃ</cite> <he>לא עָמַדְתִּי על מדותי</he>, v. <cite ref=\"M00252\"><he>מִדָּה</he></cite>. Kidd. l. c. <he>מְעַמֵּד על מדותיו</he> <i>Pi.</i> (Rashi <cite ref=\"M02144\"><he>מַעֲמִיד</he></cite> <i>Hif.</i>)—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>to be reduced to</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Berakhot 2:8:8\">Y. Ber. II, 5ᶜ</cite> <he>ע׳ על חמשים</he> it came down to fifty; a. fr."
+					],
+					"label": "c"
+				}
+			]
+		},
+		{
+			"gloss": " (of liquids) <i>to settle, become consistent</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 35b:11\">Ab. Zar. 35ᵇ</cite> <he>חלב טהור עומד</he> milk of a clean animal curdles (can be made into cheese or butter)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (of blades) <i>to become dull</i> (without being notched). ",
+			"units": [
+				"<cite ref=\"Beitzah 28b:4\">Bets. 28ᵇ</cite> <he>סכין שעָמְדָה מותר וכ׳</he> a slaughtering knife which has become dull may be sharpened on the Holy Day."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " עוֹמֵד ל־ <i>standing ready, designated for</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 13b\">Pes. 13ᵇ</cite>, a. fr. <he>כל העומד לזרוק וכ׳</he> whatever is ready to be sprinkled, is considered as if it had been sprinkled. ",
+				"<cite ref=\"Ketubot 51a\">Keth. 51ᵃ</cite> top; a. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " ע׳ ב־ <i>to resist</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:8\">Cant. R. to VII, 8</cite> <he>כל … לעמוד בזנות</he> he who can resister the temptation of lust; <he>כאילו עומד בשתיהן</he> as if he resisted both; a. e."
+			],
+			"label": "5"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱמִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to stand, to place; to restore, preserve; to beget, produce</i>. Y. R. Hash. I, 57ᵇ top <he>הַעֲמִידוּ בימה</he> put the dais up (to hold court). ",
+					"units": [
+						"<cite ref=\"Mishnah Tamid 5:6\">Tam. V, 6</cite> <he>היה מַעֲמִיד וכ׳</he> made the unclean priests stand in the eastern gate. ",
+						"<cite ref=\"Yevamot 62b:10\">Yeb. 62ᵇ</cite> <he>הם הם הֶעֱמִידוּ תורה וכ׳</he> it was they who preserved the law (tradition) in those days. ",
+						"<cite ref=\"Pirkei Avot 1:1\">Ab. I, 1</cite> <he>הַעֲמִידוּ תלמידים הרבה</he> rear many scholars. ",
+						"<cite ref=\"Bamidbar Rabbah 14:21\">Num. R. s. 14</cite> <he>ה׳ בנים</he> begot children. ",
+						"<cite ref=\"Kohelet Rabbah 1:4\">Koh. R. to I, 4</cite> <he>מה היא עומדת מַעֲמֶדֶת</he> what does <i>ʿomadeth</i> (<cite ref=\"Kohelet Rabbah 1:4\">ib.</cite>) mean? She (the earth) preserves, v. <cite ref=\"V00850\"><he>תַּפְקִיד</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 90:5\">Gen. R. s. 90</cite> <he>שכל ארץ וארץ מעמדת פירותיה</he> each ground preserves its own fruits (when put into the ground). ",
+						"<cite ref=\"Bereishit Rabbah 90:5\">Ib.</cite> <he>דברים שהן מַעֲמִידִין</he> substances which conserve, v. <cite ref=\"S00792\"><he>קִטְמִית</he></cite>; a. fr.—2) <i>to change the standing of; to enlarge; to reduce</i>. ",
+						"<cite ref=\"Megillah 15b:10\">Meg. 15ᵇ</cite> <he>שתי אמות היה והֶעֱמִידוֹ על וכ׳</he> it was two cubits long, and he extended it to twelve. ",
+						"<cite ref=\"Makkot 24a:3\">Macc. 24ᵃ</cite> (of the 613 laws of the Torah) <he>בא דוד והֶעֱמִידָן על וכ׳</he> David came and brought them down to eleven (<cite ref=\"Psalms 15\">Ps. XV</cite>); <he>בא עמוס והעמידן על אחת</he> Amos came and reduced them to one (<cite ref=\"Amos 5:4\">Am. V, 4</cite>).—3) <cite ref=\"E00001\"><he>ה׳</he></cite> (<he>על</he>) <he>עצמו</he> <i>to contain, check one’s self</i>. ",
+						"<cite ref=\"Sanhedrin 72a:16\">Snh. 72ᵃ</cite> <he>אין אדם מעמיד עצמו על ממונו</he> no one will restrain himself from defending his property. ",
+						"<cite ref=\"Sanhedrin 93b:10\">Ib. 93ᵇ</cite> <he>מַעֲמִידִין על עצמם בשעה וכ׳</he> they restrained themselves when they had a human need.—4) (of liquids) <i>to make consistent, curdle</i>. ",
+						"<cite ref=\"Mishnah Avodah Zarah 2:5\">Ab. Zar. II, 5</cite> <he>מעמידין אותן בקיבת נבלה</he> they make the cheese by putting into the milk rennet from an animal not ritually slaughtered. ",
+						"<cite ref=\"Mishnah Orlah 1:7\">Orl. I, 7</cite> <he>המעמיד בשרף הערלה</he> if one curdles milk by means of a resinous substance (an acid) from an ‘uncircumcised’ tree (v. <cite ref=\"P01387\"><he>עָרְלָה</he></cite>); a. e.—5) <he>ה׳ על חזקתו</he> <i>to let a thing stand on the basis of its presumptive condition, to assume that the ordinary condition has not changed</i>. ",
+						"<cite ref=\"Niddah 2a:15\">Nidd. 2ᵃ</cite> <he>הַעֲמֵד אשה על חזקתה</he> assume that the woman has not changed her presumptive condition (of cleanness); <he>העמד דבר על חזקתו</he> assume everything to remain unchanged (until a change is proven). ",
+						"<cite ref=\"Ketubot 75b\">Keth. 75ᵇ</cite>; a. fr.—6) <he>ה׳ על מדותיו</he> (sub. <he>עצמו</he>), v. supra."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["עִמֵּד"],
+			"senses": [
+				{
+					"gloss": " (sub. <he>עצמו</he>) <i>to insist</i>. ",
+					"units": ["<cite ref=\"Kiddushin 71a\">Kidd. 71ᵃ</cite>, v. supra."],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to place</i>; part. pass. <cite ref=\"M02082\"><he>מְעוּמָּד</he></cite>, q. v.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

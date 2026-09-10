@@ -1,0 +1,34 @@
+{
+	"id": "R00640",
+	"slug": "צנעא",
+	"headword": {
+		"text": "צִנְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִנְעָה"
+		},
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1293,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00639\">preced.</cite>) <i>secrecy</i>; <he>בצ׳</he> <i>privately, in secret, without ostentation</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 12b:19\">M. Kat. 12ᵇ</cite> <he>ובלבד שיכניסם בצ׳ וכ׳</he> provided he brings them into his house with the least publicity possible. ",
+				"<cite ref=\"Moed Katan 12b:21\">Ib.</cite> <he>צ׳ דהני יממא הוא</he> the least publicity in bringing these (joists) in is, if it is done in day-time. ",
+				"<cite ref=\"Sanhedrin 75a\">Snh. 75ᵃ</cite>, opp. <he>בפרהסיא</he>. ",
+				"<cite ref=\"Moed Katan 24a:16\">M. Kat. 24ᵃ</cite> <he>דברים שבצ׳ נוהג</he> one must observe (on Sabbaths or festive days) such customs of mourning as refer to domestic privacy; <cite ref=\"Ketubot 4a:7\">Keth. 4ᵃ</cite> <he>דברים של צ׳</he>. ",
+				"<cite ref=\"Beitzah 16a:10\">Bets. 16ᵃ</cite> <he>כל מצות … בצ׳ וכ׳</he> all commands that God gave to Israel, he gave unto them publicly (for all nations), except the Sabbath which he gave them privately, as we read, between me and &c. (<cite ref=\"Exodus 31:17\">Ex. XXXI, 17</cite>); a. fr."
+			]
+		}
+	]
+}

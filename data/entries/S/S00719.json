@@ -1,0 +1,23 @@
+{
+	"id": "S00719",
+	"slug": "קטוע-1",
+	"headword": {
+		"text": "קָטוֹעַ"
+	},
+	"page": {
+		"number": 1346,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00805\"><he>קְטַע</he></cite>) <i>chopper, hewer</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:10\">Targ. Y. I Deut. XXIX, 10</cite>.—Pl. <he>קָטוֹעַיָּא</he>, constr. <he>קְטוֹעֵי</he>. Targ. Y. II <cite ref=\"Targum Jonathan on Deuteronomy 29:10\">ib.</cite>—",
+				"<cite ref=\"Targum of II Chronicles 2:9\">Targ. II Chr. II, 9</cite> <he>קַטָּעַיָּא</he>."
+			]
+		}
+	]
+}

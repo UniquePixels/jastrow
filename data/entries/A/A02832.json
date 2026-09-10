@@ -1,0 +1,42 @@
+{
+	"id": "A02832",
+	"slug": "אפרסמון",
+	"headword": {
+		"text": "אַפַּרְסָמוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפַּרְסְמוֹן"
+		},
+		{
+			"text": "אפלסמון"
+		}
+	],
+	"page": {
+		"number": 109,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q01934\"><he>פִּרְסֵם</he></cite>, <he>פִּרְצֵם</he>; cmp. also <cite ref=\"B00894\"><he>בלסם</he></cite>, <cite ref=\"B00894\"><he>בלסמון</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>balsamum</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 38b:16\">Yoma 38ᵇ</cite> sq. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:9\">Y. Ab. Zar. III, 42ᶜ</cite> top; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 4:18\">Lam. R. to IV, 15</cite> <he>אפל׳</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>balsam-tree, balsam-wood</i>. ",
+			"units": ["<cite ref=\"Berakhot 43a:15\">Ber. 43ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

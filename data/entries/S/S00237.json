@@ -1,0 +1,27 @@
+{
+	"id": "S00237",
+	"slug": "קובעיא",
+	"headword": {
+		"text": "קוֹבְעַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹבְעַיָּא דְעַיְיתָא"
+		}
+	],
+	"page": {
+		"number": 1324,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ḳobʿaya</i> (<i>Tops</i> or <i>Hollows</i>) <i>of Aitha</i> (v. Hildesh. Beitr. p. 19 sq.). ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> <he>קביא רעיתא</he> ed. Zuck. (Var. <he>קובע׳ דראתון</he>, <he>קובּאיא</he>); <cite ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</cite> <he>קנייא רעייא</he>; <cite ref=\"Yalkut Shimoni on Torah 874\">Yalk. ib. 874</cite> <he>קבייא רעייתא</he>; <cite ref=\"Jerusalem Talmud Sheviit 6:1:9\">Y. Shebi. VI, 36ᶜ</cite> <cite ref=\"S00237\"><he>קובעיא</he></cite> (only)."
+			]
+		}
+	]
+}

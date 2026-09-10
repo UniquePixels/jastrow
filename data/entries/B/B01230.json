@@ -1,0 +1,63 @@
+{
+	"id": "B01230",
+	"slug": "ברח-1",
+	"headword": {
+		"text": "בָּרַח"
+	},
+	"page": {
+		"number": 192,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בר</he> , v. <he>ברר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to break through, pass through</i> (<cite ref=\"Exodus 36:33\">Ex. XXXVI, 33</cite>). Denom. <cite ref=\"B01255\"><he>בָּרִיחַ</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to flee</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 13b:13\">Erub. 13ᵇ</cite> <he>הבּוֹרֵחַ מן הגדולה</he> he who flees office. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 13:1:14\">Y. Yeb. XIII, 13ᶜ</cite>, a. e. <he>בְּרַח מן ג׳ וכ׳</he> shun three things. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:18\">Y. Taan. IV, 69ᵇ</cite> top, v. <cite ref=\"B01128\"><he>בָּקַע</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְרִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to flee, drive out, exclude</i>. Y. Yeb. XV, 15ᵃ top <he>להַבְרִיחוֹ מנכסיו</he> to force him to flee and abandon his property. Y. Gitt. V, 47ᵃ <he>אדם מַבְרִיחַ עצמו מן השבועה</he> one will try to shirk the responsibilities of a guardian on account of the oath (which the court asks of him) but one will not do so on account of payment (to which he may eventually be subjected, v. Tosaf. to <cite ref=\"Bava Kamma 39b\">B. Kam. 39ᵇ</cite>).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to abstract, steal, defraud</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 113a:16\">B. Kam. 113ᵃ</cite> <he>ה׳ את המכס</he> to smuggle. Y. Keth. VI, beg. 30ᶜ <he>שלא תהא מַבְרֶחֶת משל וכ׳</he> that she should not take stealthily something which belongs to her husband."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּבְרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be chased, scattered</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:56\">Lam. R. to I, 21</cite> <he>הוּבְרְחוּ ענני וכ׳</he> the clouds of glory were withdrawn (<cite ref=\"Rosh Hashanah 3a:1\">R. Hash. 3ᵃ</cite> <he>נסתלקו</he>)."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "R00105",
+	"slug": "צדיא-2",
+	"headword": {
+		"text": "צַדְיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1262,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00104\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " name of an unclean <i>bird</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:16\">Targ. Y. Deut. XIV, 16</cite> (h. text <he>תנשמת</he>); [<cite ref=\"Targum Jonathan on Leviticus 11:17\">Targ. Y. Lev. XI, 17</cite> <cite ref=\"R00347\"><he>ציירא</he></cite>, read: <cite ref=\"R00336\"><he>צַיְידָּא</he></cite> (h. text <cite ref=\"K00316\"><he>כוס</he></cite>)]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (in Hebr. dict.) name of a sub-species of <i>locusts</i>. Sifra Sh’mini, Par. 3, ch. V <he>הצ׳</he> (missing in <cite ref=\"Chullin 65a\">Ḥull. 65ᵃ</cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

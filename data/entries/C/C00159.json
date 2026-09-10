@@ -1,0 +1,23 @@
+{
+	"id": "C00159",
+	"slug": "גדברא",
+	"headword": {
+		"text": "גְּדָבְרָא"
+	},
+	"page": {
+		"number": 210,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"C00520\"><he>גִּזְבָּר</he></cite>. . ",
+			"units": [
+				"<cite ref=\"Daniel 3:2\">Dan. III, 2</cite>; <cite ref=\"Daniel 3:3\">3</cite>.—",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:7\">Targ. Koh. II, 7</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A01355",
+	"slug": "אימת-1",
+	"headword": {
+		"text": "אֵימָת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵימָתַי"
+		}
+	],
+	"page": {
+		"number": 51,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"M03046\"><he>מָתַי</he></cite>; v. <cite ref=\"A01111\"><he>אֵי</he></cite>)<i>when?</i> <cite ref=\"Chullin 17a:12\">Ḥull. 17ᵃ</cite>.—",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite>, a. fr. <he>מאימתי</he> from what time (of the day)? <cite ref=\"Mishnah Sheviit 1:1\">Shebi. I, 1</cite>, a. fr. <he>עד אימתי</he>; <cite ref=\"Mishnah Sheviit 2:1\">ib. II, 1</cite> <he>עד אימת</he> how long (until when)?"
+			]
+		}
+	]
+}

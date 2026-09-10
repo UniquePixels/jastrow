@@ -1,0 +1,28 @@
+{
+	"id": "M00108",
+	"slug": "מגביא",
+	"headword": {
+		"text": "מַגַּבְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּבְיָא"
+		}
+	],
+	"page": {
+		"number": 725,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00115\"><he>נְגַב</he></cite>; cmp. Syr. <cite ref=\"M00108\"><he>מגביא</he></cite> coagulum, P. Sm. 2001) [<i>astringent</i>,] <i>alum</i>.—(<cite ref=\"C00002\"><he>ג׳</he></cite>) <he>מ׳ גילא</he> (v. <cite ref=\"C00719\"><he>גִּילָא</he> II</cite>) <i>liquid alum</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110a:8\">Sabb. 110ᵃ</cite> (in a prescription) <he>מתקל זוזא מ׳ ג׳</he> Ar. (ed. <cite ref=\"M00108\"><he>גביא</he></cite>, Ms. M. only <he>מגבי</he>; Ms. O. <cite ref=\"M00108\"><he>מגביא</he></cite>) alum of the weight of a Zuz. ",
+				"<cite ref=\"Menachot 42b:16\">Men. 42ᵇ</cite> bot. <he>מ׳ גילא</he> (Ms. R. 2 <cite ref=\"C00931\"><he>גליא</he></cite>, v. Rabb. D. S. a. l. note 8)."
+			]
+		}
+	]
+}

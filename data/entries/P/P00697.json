@@ -1,0 +1,22 @@
+{
+	"id": "P00697",
+	"slug": "עירניתא",
+	"headword": {
+		"text": "עִירָנִיתָא"
+	},
+	"page": {
+		"number": 1076,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00691\"><he>עִירִית</he></cite>) <i>leaves of mullein</i> used for lamp wicks (φλόμος λυχννῖτις, v. Sm. Ant. s. v. Ellychnium). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:5\">Y. Sabb. II, beg. 4ᶜ</cite> (expl. <cite ref=\"A01166\"><he>אִידָּן</he></cite>); v. <cite ref=\"P00935\"><he>עַמְרָנִיתָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "S00005",
+	"slug": "קאזא",
+	"headword": {
+		"text": "קָאזָא"
+	},
+	"page": {
+		"number": 1306,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (collect. noun) <i>cotton-seed</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 21a:3\">Sabb. 21ᵃ</cite> (expl. <he>שמן קיק</he>) <he>משחא דק׳</he> (Ar. a. Ms. Alf. <he>דקָזָא</he>) cotton-seed oil."
+			]
+		}
+	]
+}

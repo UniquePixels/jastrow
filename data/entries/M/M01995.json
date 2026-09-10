@@ -1,0 +1,29 @@
+{
+	"id": "M01995",
+	"slug": "מספריים",
+	"headword": {
+		"text": "מַסְפָּרַיִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַסְפָּרַיִם"
+		}
+	],
+	"page": {
+		"number": 810,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. (<cite ref=\"M01994\">preced.</cite>) <i>shears, scissors</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:8\">Kel. XVI, 8</cite> <he>תיק מספרת ומ׳</he> the sheath of a shearing knife or of scissors. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:15\">Y. M. Kat. III, 82ᵃ</cite> top <he>במ׳</he> with scissors, contrad. to <he>סכין</he> a. <cite ref=\"M01996\"><he>מספרת</he></cite>; Bab. ",
+				"<cite ref=\"Moed Katan 17b:16\">M. Kat. 17ᵇ</cite>; a. e.—[<cite ref=\"Tosefta Keilim Metsia 4:5\">Tosef. Kel. B. Mets. IV, 5</cite> <cite ref=\"M01995\"><he>מספרים</he></cite> ed. Zuck., read <he>מַסְמְרִים</he>.]"
+			]
+		}
+	]
+}

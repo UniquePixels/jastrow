@@ -1,0 +1,33 @@
+{
+	"id": "U00721",
+	"slug": "שהרר",
+	"headword": {
+		"text": "שַׁהְרֵר"
+	},
+	"page": {
+		"number": 1552,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00720\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 30:4\">Targ. Y. Gen. XXX, 4</cite>; <cite ref=\"Targum Jonathan on Genesis 30:9\">9</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּחְרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be set free</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 21:7\">Targ. Y. Ex. XXI, 7</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

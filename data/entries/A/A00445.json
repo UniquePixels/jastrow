@@ -1,0 +1,38 @@
+{
+	"id": "A00445",
+	"slug": "אדר-5",
+	"headword": {
+		"text": "אֵדֶר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲדַר"
+		},
+		{
+			"text": "אִדְרָא",
+			"homograph": 1
+		},
+		{
+			"text": "אוּדְרָא"
+		}
+	],
+	"page": {
+		"number": 18,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A00441\"><he>אָדַר</he></cite> 3) <i>skin, hide, leather-bag</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:11\">Y. Maas. Sh. IV, 55ᶜ</cite> <he>אדר תורתא</he> hide of a cow. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:11\">Ib.</cite> <he>אדרא</he> (<cite ref=\"B01157\"><he>ברא</he></cite>) <he>דתבנא</he>; <cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<he>חד כותאי</he> 2) <he>אדר דתבן</he> Ar. (ed. <cite ref=\"D00341\"><he>דור</he></cite>) a hide stuffed with straw. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:3:3\">Y. Shebi. V, 36ᵃ</cite> top <he>א׳ דאילין חכימא וכ׳</he> the leather of these bottles is distinguishable from the leather of those.—Pl. <he>אוּדְרְיָיתָא</he>. ",
+				"<cite ref=\"Shevuot 29b\">Shebu. 29ᵇ</cite> <he>תליסר א׳ דתבנא</he> Ar. (ed. <cite ref=\"A00864\"><he>אורוותא</he></cite>; Ms. F. <he>אדידתא</he>, v. Rashi a. l.) thirteen bagfuls of straw; <cite ref=\"Nedarim 25a\">Ned. 25ᵃ</cite>"
+			]
+		}
+	]
+}

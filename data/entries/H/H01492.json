@@ -1,0 +1,23 @@
+{
+	"id": "H01492",
+	"slug": "חצב-4",
+	"headword": {
+		"text": "חָצָב"
+	},
+	"page": {
+		"number": 494,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01491\">preced.</cite> wds.) <i>stone pitcher, earthen jug</i>.—Pl. <he>חֲצָבִים</he>, <he>חֲצָבִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 8:7\">Men. VIII, 7</cite>. ",
+				"<cite ref=\"Mishnah Kelim 2:2\">Kel. II, 2</cite>; <cite ref=\"Tosefta Kelim Kamma 2:2\">Tosef. Kel. B. Kam. II, 2</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "A02247",
+	"slug": "אנך-4",
+	"headword": {
+		"text": "אָנָךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵינָךְ"
+		}
+	],
+	"page": {
+		"number": 85,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02244\"><he>אָנַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": ") <i>Onyx Agate</i>, a semipellucid stone of a fine flinty texture. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 8b:7\">Ab. Zar. 8ᵇ</cite> Ar. <cite ref=\"A02245\"><he>אנך</he></cite> (ed. <he>אינך</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a variety of gypseous alabaster, onyx; a glaze</i>. Ib. 11ᵇ <he>ומחפין</he> … <he>בא׳</he> Ar. (ed. <he>באי׳</he>) the streets are paved with &c. (for the procession). ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 1:3\">Tosef. Kel. B. Mets. I, 3</cite>, v. <cite ref=\"A02244\"><he>אָנַךְ</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 33:2\">Lev. R. s. 33</cite> nothing makes the kettle durable <he>אלא אֲנָכָהּ וכ׳</he> but its glaze lining; so says the Lord <he>אֲנָכְכֶם וכ׳</he> I am your lining (stay) in trials (incorr. in some ed. a. Ar. s. v. <he>נך</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

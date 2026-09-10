@@ -1,0 +1,30 @@
+{
+	"id": "S00668",
+	"slug": "קושיא",
+	"headword": {
+		"text": "קוּשְׁיָא"
+	},
+	"page": {
+		"number": 1345,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00667\">preced.</cite>) <i>difficulty, question, objection, argument</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 75b:16\">Snh. 75ᵇ</cite>, sq. <he>מהאי ק׳ לא נידונה</he> we cannot draw the analogy on account of this argument. ",
+				"<cite ref=\"Bava Kamma 117a:21\">B. Kam. 117ᵃ</cite> <he>אמר להו האי ק׳ והאי ק׳ וכ׳</he> he told them of one difficulty and of another, and how they were solved. ",
+				"<cite ref=\"Menachot 95b:8\">Men. 95ᵇ</cite>, a. fr. <he>מאי ק׳</he> what argument is this?, i.e. this is no argument. ",
+				"<cite ref=\"Menachot 95b:6\">Ib.</cite> <he>מאי קַשְׁיָא</he> (Ms. K. <he>קוש׳</he>). ",
+				"<cite ref=\"Chullin 3b:16\">Ḥull. 3ᵇ</cite> <he>כי קוּשְׁיֵיה</he> in accordance with his argument; a. v. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 19:4:2\">Y. Sabb. XIX, 17ᵇ</cite>; <cite ref=\"Jerusalem Talmud Pesachim 6:5:5\">Y. Pes. VI, 33ᵈ</cite> top <he>מן קוֹשַׁיי מקשי לה וכ׳</he> what was the difficulty that R. J. found (to induce him to say), provided that &c.?—Pl. <cite ref=\"S02248\"><he>קוּשְׁיָיתָא</he></cite>. ",
+				"<cite ref=\"Horayot 13b:16\">Hor. 13ᵇ</cite>, v. <cite ref=\"Q00905\"><he>פִּיתְקָא</he></cite>. ",
+				"<cite ref=\"Yoma 3b:7\">Yoma 3ᵇ</cite> <he>לאפוקי כולי קוּשְׁיָיתִין</he> excluding all the cases which we argued. ",
+				"<cite ref=\"Yevamot 77a:1\">Yeb. 77ᵃ</cite> top, v. <cite ref=\"S02236\"><he>קְשֵׁי</he></cite>; a. fr."
+			]
+		}
+	]
+}

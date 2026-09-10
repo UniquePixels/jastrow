@@ -1,0 +1,22 @@
+{
+	"id": "T00201",
+	"slug": "רגישתא",
+	"headword": {
+		"text": "רְגִישְׁתָּא"
+	},
+	"page": {
+		"number": 1448,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00225\"><he>רְגַשׁ</he></cite>) <i>feeling, sense</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 20:2\">Targ. Job XX, 2</cite> (ed. Lag. <he>רְחִישְׁ׳</he>, v. <cite ref=\"H00893\"><he>חִישׁוּתָא</he></cite>)."
+			]
+		}
+	]
+}

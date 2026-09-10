@@ -1,0 +1,36 @@
+{
+	"id": "V00321",
+	"slug": "תורתא-2",
+	"headword": {
+		"text": "תּוֹרְתָּא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹרְתָא"
+		},
+		{
+			"text": "תּוֹרְתָּה"
+		},
+		{
+			"text": "בֶּן תּוֹרְתָּא"
+		}
+	],
+	"page": {
+		"number": 1658,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (<i>Johanan</i>) <i>ben Torta</i>, a Tannai. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 68ᵈ</cite> bot.; <cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 7:10\">Num. R. s. 7<sup>9</sup></cite>; <cite ref=\"Tosefta Menahot 13:22\">Tosef. Men. XIII, 22</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> (describing the origin of the name) <he>אמר ומה אם פרה … מיד בא ונתגייר … יוחנן בן ת׳</he> he said, if a cow that has no speech and no mind recognized her Creator, should I whom my Maker has created in his image … not go and acknowledge my Creator? He went and became a Jew, and studied and grew efficient in the Law, and they named him Johanan ben T. (son of a cow); and to this day our teachers quote Hălakhah in his name."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "A01936",
+	"slug": "אלפ״א",
+	"headword": {
+		"text": "אלפ״א"
+	},
+	"page": {
+		"number": 73,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  ch. <i>Alfa</i> = Alef. Cant. R. beg. the poet <he>כד עביד א׳ בית״א</he> when writing alphabetical acrostics. Lam. R. introd. (R. Ḥama b. Ḥ.) <he>מן תלתא תלתא פסוקי בא׳ בית״א</he> belonging to the alphab. acrostics (in Lamentations) of three verses for each letter.; a. fr.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (ἄλφα) <i>Alpha</i>, the first letter of the Greek Alphabet. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 3:2\">Shek. III, 2</cite>. ",
+				"<cite ref=\"Mishnah Menachot 8:1\">Men. VIII, 1</cite> <he>א׳ לסולת</he> best quality of flour. ",
+				"<cite ref=\"Mishnah Menachot 8:6\">Ib. 6</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

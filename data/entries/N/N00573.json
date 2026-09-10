@@ -1,0 +1,36 @@
+{
+	"id": "N00573",
+	"slug": "נטלא",
+	"headword": {
+		"text": "נַטְלָא"
+	},
+	"page": {
+		"number": 900,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"N00572\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a ladle</i> or <i>small vessel</i> used for taking liquid out of a larger vessel, esp. for pouring over the hands before and after meals, before prayer &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 40:31\">Targ. Y. Ex. XL, 31</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Exodus 30:21\">Ib. XXX, 21</cite> <cite ref=\"N00559\"><he>נְטִילָא</he></cite> f."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (as a measure) <i>one fourth of a Log</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 107a:9\">Ḥull. 107ᵃ</cite> <he>אתקין</he> … <he>נ׳ בת וכ׳</he> R. J. ordered that a <i>naṭla</i> (to be used for washing hands) must contain one fourth of a Log; (Rashi: had a standard <i>naṭla</i> made, containing &c.). ",
+				"<cite ref=\"Gittin 69a:14\">Gitt. 69ᵃ</cite> bot. <he>נ׳ בת מחוזא</he> a Moḥazean <i>naṭla</i>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:10\">Y. Sabb. III, 6ᵃ</cite> bot. [read:] <he>הבא ע״י נ׳ והיא … כלי שני</he> get the hot water into the basin by means of a ladle, when it (the basin) becomes a ‘secondary vessel’ (v. <cite ref=\"U01589\"><he>שֵׁנִי</he></cite>; cmp. Bab. ",
+				"<cite ref=\"Shabbat 40b:11\">Sabb. 40ᵇ</cite> <he>טול בכלי שני</he>).—Pl. <he>נַטְלֵי</he>. ",
+				"<cite ref=\"Berakhot 51a:19\">Ber. 51ᵃ</cite> <he>מעטר ליה בנ׳</he> surrounded the large cup (over which the benediction was said) with small cups (for distribution)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "I00294",
+	"slug": "טיב-1",
+	"headword": {
+		"text": "טִיב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 529,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00107\"><he>טוב</he></cite>, cmp. <cite ref=\"I00080\"><he>טֶבַע</he></cite>) <i>form, nature, character, peculiarity</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 7:2:5\">Y. Ber. VII, 11ᵇ</cite> <he>ט׳ ברכה</he> the form of a benediction. ",
+				"<cite ref=\"Kiddushin 13a\">Kidd. 13ᵃ</cite> <he>ט׳ גטין וכ׳</he> the legal form of deeds of divorce and of betrothals. ",
+				"<cite ref=\"Bereishit Rabbah 17:4\">Gen. R. s. 17</cite> <he>אדם זה מה טִיבוֹ</he> this man (whom thou art going to create)—what will his nature (distinction) be?—",
+				"<cite ref=\"Mishnah Ketubot 1:8\">Keth. I, 8</cite> <he>מה טיבו של זה</he> what is that man? <cite ref=\"Mishnah Ketubot 1:9\">Ib. 9</cite> <he>מה ט׳ של עובר זה</he> what is this expected child (who is its father)?—",
+				"<cite ref=\"Sanhedrin 108b:4\">Snh. 108ᵇ</cite> <he>מה טִיבָם וכ׳</he> what is the nature of these seven days?—Sifra Emor ch. XVIII, Par. 14 <he>מה טִיבְךָ ליטע וכ׳</he> what art thou (what right hast thou) to put up thy tent &c.?; a. fr."
+			]
+		}
+	]
+}

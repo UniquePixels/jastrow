@@ -1,0 +1,26 @@
+{
+	"id": "B00079",
+	"slug": "בגומא",
+	"headword": {
+		"text": "בגומא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בגומין"
+		}
+	],
+	"page": {
+		"number": 137,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", read <he>בַּרְגִּימִינִין</he> or <he>בַּרְגִּימִינָא</he> m. pl. (farcimen,—ina) <i>stuffings of sausage, sausages</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:28\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>כד מקטע ב׳</he> when cutting the sausages through (dividing them off), v. <cite ref=\"B00037\"><he>באנטרין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 4:5:2\">Y. Bets. IV, 62ᶜ</cite> bot. the sausage-maker is forbidden to work on a Holy Day <he>משום מקטע ב׳</he> because he cuts the sausage-bags apart; v. <cite ref=\"O00813\"><he>סיקורא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A01279",
+	"slug": "אילויותא",
+	"headword": {
+		"text": "אִילַּוָּיוּתָא"
+	},
+	"page": {
+		"number": 49,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00247\"><he>לוי</he></cite>) (<i>lamentation at</i>) <i>funeral escorts</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:7\">Targ. Job. III, 7</cite> Ms. (ed. <cite ref=\"A01848\"><he>אִלְיוּתָא</he></cite>; h. text <cite ref=\"L00262\"><he>לִוְיָתָן</he></cite>)."
+			]
+		}
+	]
+}

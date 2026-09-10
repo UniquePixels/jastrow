@@ -1,0 +1,97 @@
+{
+	"id": "S00873",
+	"slug": "קידוש",
+	"headword": {
+		"text": "קִידּוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִדּ׳"
+		}
+	],
+	"page": {
+		"number": 1355,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00192\"><he>קָדַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sanctification</i>, esp. <he>ק׳ השם</he> the sanctification of the Name (of the Lord, v. <cite ref=\"S00123\"><he>קְדוּשָּׁה</he></cite>), <i>loyalty to the Jewish faith, martyrdom</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:2:6\">Y. Shebi. IV, 35ᵃ</cite> bot. Pesik. B’shall., p. 87ᵃ. ",
+				"<cite ref=\"Devarim Rabbah 2:33\">Deut. R. s. 2</cite> (ref. to <cite ref=\"Proverbs 24:21\">Prov. XXIV, 21</cite>) <he>אמר לו דבר של ק׳ שמי וכ׳</he> (not <he>קידש שמא</he>) the Lord said to Solomon, a thing which concerns the sanctification of my name (the unity of God) dost thou express by a brief allusion? <cite ref=\"Jerusalem Talmud Kiddushin 4:1:8\">Y. Kidd. IV, 65ᶜ</cite> bot. <he>גדול הוא ק׳ השם מחילול השם</he> a positive act of sanctification of the Name is superior to (supersedes) a law which is to prevent profanation of the Name; <he>בחילול השם כתיב … ובק׳ השם מתחלת וכ׳</he> concerning the profanation of the Name it is written (<cite ref=\"Deuteronomy 21:23\">Deut. XXI, 23</cite>), ‘thou shalt not suffer his body to remain (even) over night &c.’, but when the Name was to be sanctified (by an act of retributive justice), it is written (<cite ref=\"II Samuel 21:10\">II Sam. XXI, 10</cite>), ‘from the beginning of the harvest &c.’; <cite ref=\"Jerusalem Talmud Sanhedrin 6:7:4\">Y. Snh. VI, 23ᵈ</cite> (corr. acc.); a. fr.—Pl. <he>קִידּוּשִׁין</he> <i>laws of sanctity</i>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 2:4:3\">Y. Yeb. II, 3ᵈ</cite> top <he>למה סמך … לפרשת ק׳</he> why does the Biblical text join the chapter on sanctity (<cite ref=\"Leviticus 19\">Lev. XIX</cite>) to that on incest (<cite ref=\"Leviticus 18\">Lev. XVIII</cite>)?; (<cite ref=\"Vayikra Rabbah 24:6\">Lev. R. s. 24</cite> <he>לפרשת קְדוֹשִׁים</he>, v. <cite ref=\"S00119\"><he>קָדוֹשׁ</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>proclamation of sanctity; </i>",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>of the New Moon, seasons</i> &c. (by the authorities). ",
+					"units": [
+						"<cite ref=\"Tosefta Sanhedrin 2:1\">Tosef. Snh. II, 1</cite> <he>ק׳ החדש ועיבור וכ׳</he> the proclamation of the New Moon and the intercalation of a month require a court of three. Y. ib. I, 18ᶜ top <he>חבירים … לק׳ הח׳</he> dare untitled scholars (v. <cite ref=\"H00109\"><he>חָבֵר</he></cite>) be admitted to sit on the proclamation of the New Moon?; a. fr.—",
+						"<cite ref=\"Bava Batra 121a:3\">B. Bath. 121ᵃ</cite> <he>מועדי יי׳ צריכין ק׳ בית דין וכ׳</he> the festivals of the Lord require to be regulated by the proclamation of the court, but the weekly Sabbath does not. ",
+						"<cite ref=\"Jerusalem Talmud Rosh Hashanah 3:5:5\">Y. R. Hash. III, 58ᵈ</cite> bot. <he>ק׳ ב״ד</he> the official proclamation of the jubilee; a. fr.—Pl. as ab. ",
+						"<cite ref=\"Shemot Rabbah 15:25\">Ex. R. s. 15</cite> <he>קִדּוּשֵׁי החדשים</he> the proceedings at the proclamation of the New Moon.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>proclamation of the sanctity of the day by special prayer, Ḳiddush</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 100a:10\">Pes. 100ᵃ</cite> <he>מפסיקין לק׳</he> when the Sabbath or Holy Day begins, we must interrupt a meal to recite Ḳiddush. Ib.ᵇ <he>ידי ק׳ יצאו</he> they (that heard the Ḳiddush at synagogue) have complied with the duty of ushering the Sabbath in with Ḳiddush. Ib. 105ᵃ sq. <he>אם אין לו … ק׳ היום מפני שק׳ היום וכ׳</he> he who has only one cup of wine, recites over it the Ḳiddush of the day, because the sanctification of the day takes precedence of honoring the day (by grace after meal with wine). ",
+						"<cite ref=\"Megillah 27b:19\">Meg. 27ᵇ</cite> <he>מכרה … והביאה לי ק׳ היום</he> sold the bonnet on her head and procured for me the wine for the Ḳiddush of the day; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>washing hands and feet prior to a priestly function</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 19b:12\">Zeb. 19ᵇ</cite> <he>כיצד מצות ק׳</he> how is the act of washing done? <cite ref=\"Zevachim 19b:16\">Ib.</cite> <he>לינה מועלת ק׳ וכ׳</he> the intervention of the night has an effect on the sanctification of hands and feet, makes a renewed washing of hands and feet necessary. ",
+				"<cite ref=\"Zevachim 19b:22\">Ib.</cite> <he>ק׳ שני</he> the second sanctification (immediately before approaching the altar); <cite ref=\"Yoma 32b:6\">Yoma 32ᵇ</cite>; a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Mishnah Yoma 3:3\">Ib. III, 3</cite>. ",
+				"<cite ref=\"Yoma 32b:6\">Ib. 32ᵇ</cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (of mixed seeds) <i>condemnation</i> (v. <cite ref=\"S00192\"><he>קָדַשׁ</he></cite> <i>Pi.</i> 7). ",
+			"units": ["<cite ref=\"Yevamot 83a:9\">Yeb. 83ᵃ</cite>"],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>putting ashes in the water of lustration; the ashes put in</i>. Ib. 42ᵃ bot. <he>אסיפת אפרה … וק׳</he> (not <he>לק׳</he>, v. Rabb. D. S. a. l. note 50) the collecting of its ashes, the drawing of water and the putting in of the ashes; ib.ᵇ <cite ref=\"Mishnah Parah 6:1\">Par. VI, 1</cite> <he>ונפל הק׳ וכ׳</he> and ashes fell on his hand. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 6:2\">Ib. 2</cite>. ",
+				"<cite ref=\"Tosefta Parah 6:3\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Parah 5:1\">V</cite>), 1 <he>עוסק עם הק׳</he> is engaged in the act of <i>ḳiddush</i>. ",
+				"<cite ref=\"Tosefta Parah 5:3\">Ib. 3</cite> <he>צריך ק׳ שני</he> requires an additional putting in of ashes; a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Tosefta Parah 5:5\">Ib. 5</cite>; a. e."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": "<i>betrothal</i>. Mekh. Mishp. s. 3 <he>ק׳ אחר ק׳ וכ׳</he> the father of a minor has the authority to give her away in marriage a second time &c., v. <cite ref=\"A01993\"><he>אַמְהוּת</he></cite>; <he>אבל לא אמהות אחר ק׳</he> but he cannot hire her out after having once given her away. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 2:1:11\">Y. Kidd. II, 62ᶜ</cite> top <he>נכללין בק׳ … בשלשה קידושין</he> they (the three objects he gave her, when he said, ‘be betrothed with this, <i>and</i> this <i>and</i> this’) are combined to form one act of betrothal (which is valid, if the three objects combined have the legally prescribed value), and are separated (if he said, ‘be betrothed with this, with this, with this’) to form three acts of betrothal (and one of the objects at least must have the legal value); a. fr.—Pl. as ab. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 2:1:11\">Ib.</cite>—Esp. <i>ḳiddushin, the act of betrothal, legal and legitimate marriage</i> (connubium). ",
+				"<cite ref=\"Mishnah Kiddushin 4:9\">Kidd. IV, 9</cite> <he>קִידּוּשֶׁיהָ ק׳</he> her acceptance of the betrothal is a valid marriage; <he>קִדּוּשָׁיו ק׳</he> his (the authorized messenger’s) acceptance is valid. Ib. III, 12 <he>כל מקום שיש ק׳ ואין עברה וכ׳</he> wherever a betrothal is valid (where there is connubium), and no sin is connected with it, the issue follows the legal status of the male parent; <he>וכל מקום שיש ק׳ ויש עברה וכ׳</he> but where the betrothal, if performed, is valid but sin is connected therewith, the issue has the status of the inferior parent, e. g. a widow married to a high priest. Ib. <he>כל מי שאין לה עליו ק׳ אבל יש לה על אחרים ק׳ וכ׳</he> in a case where a marriage cannot take place with that special person (on account of consanguinity &c.), but may take place with others, the issue is a bastard (<cite ref=\"M01659\"><he>מַמְזֵר</he></cite>); <he>וכל מי שאין לה לא עליו … ק׳ וכ׳</he> where a marriage cannot take place either with that special person or with other Israelites (she having no right of connubium), the issue follows the status of the mother. ",
+				"<cite ref=\"Yevamot 10b:16\">Yeb. 10ᵇ</cite>, a. fr. <he>אין ק׳ תופסין וכ׳</he> betrothal takes no effect in the case of &c. ",
+				"<cite ref=\"Kiddushin 60b:2\">Kidd. 60ᵇ</cite>, a. fr. <he>קִידּוּשֵׁי ודאי</he> an undisputed betrothal; <he>קידושי ספק</he> a legally doubtful betrothal; a. fr.—Trnsf. <he>קִידּוּשִׁים</he>, <he>קִידּוּשִׁין</he>, <cite ref=\"S00871\"><he>קִדּ׳</he></cite> <i>betrothal festivities</i>, contrad. to wedding festivities. ",
+				"<cite ref=\"Bamidbar Rabbah 12:8\">Num. R. s. 12</cite> <he>ועשה לה ק׳ גדולים</he> and arranged for her sake large festivities; <cite ref=\"Bamidbar Rabbah 12:8\">ib.</cite> (ref. to <cite ref=\"Exodus 20:18\">Ex. XX, 18</cite>) <he>ולא היו אלא ק׳</he> and these were merely the solemnities of (Israel’s) betrothal (ref. to <he>וקדשתם</he>, ib. XIX, 10); <cite ref=\"Pesikta Rabbati 5:1\">Pesik. R. s. 5</cite>; Tanḥ. Naso 17.—<i>Ḳiddushin</i>, name of a treatise of the Mishnah, Tosefta, Talmud Babli and Y’rushalmi, of the Order of Nashim. ",
+				"<cite ref=\"Bava Batra 52b:10\">B. Bath. 52ᵇ</cite> (a reference to <cite ref=\"Tosefta Kiddushin 1:5\">Tosef. Kidd. I, 5</cite>) <he>תני רב … בק׳ דבי לוי</he> Rab … taught from the treatise of Ḳiddushin of the school of Levi (v. Rabb. D. S. a. l. note 1)."
+			],
+			"label": "6"
+		}
+	]
+}

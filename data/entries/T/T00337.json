@@ -1,0 +1,24 @@
+{
+	"id": "T00337",
+	"slug": "רווקא-2",
+	"headword": {
+		"text": "רְוָוקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1457,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רוק</he> <i>to be clear</i>, v. Fl. to Levy Talm. Dict. IV, p. 486) <i>straining bag</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 42b:9\">Pes. 42ᵇ</cite> <he>בדר׳</he> when the drink is made by pouring water on the strainer (and the lees contained in it), opp. <he>דפורצנא</he>.—Pl. <he>רְוָוקֵי</he>. ",
+				"<cite ref=\"Avodah Zarah 75a:13\">Ab. Zar. 75ᵃ</cite> <he>הני ר׳ דארמאי וכ׳</he> straining bags which have been used by gentiles, if made of hair &c."
+			]
+		}
+	]
+}

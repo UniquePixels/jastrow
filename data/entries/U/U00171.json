@@ -1,0 +1,29 @@
+{
+	"id": "U00171",
+	"slug": "שבקא-2",
+	"headword": {
+		"text": "שִׁבְקָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1517,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00170\">preced.</cite> wds.) <i>heirloom;</i> (sub. <he>בעל</he>) <i>testator</i>.—Pl. <he>שׁבְקַיָּיא</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Arakhin 22a:86-87\">Arakh. 22ᵃ</cite> <he>יתמי … בתר שִׁיבְקַיְיהוּ</he> heirs that enjoy what is not theirs will follow those who left them the (ill-gotten) goods; <cite ref=\"Bava Metzia 70a:2\">B. Mets. 70ᵃ</cite> <he>שִׁיבְקַיְהוּ</he>."
+			]
+		}
+	]
+}

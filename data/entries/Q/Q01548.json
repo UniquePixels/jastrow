@@ -1,0 +1,36 @@
+{
+	"id": "Q01548",
+	"slug": "פרג-3",
+	"headword": {
+		"text": "פְּרַג",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1213,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to break, divide</i>; (cmp. <he>פרט</he>, <he>פרק</he>, a. <cite ref=\"P01426\"><he>עָרף</he></cite>) <i>to exchange</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 48:14\">Targ. Y. Gen. XLVIII, 14</cite> (h. text <cite ref=\"U01158\"><he>שכל</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 15:4\">Targ. Ps. XV, 4</cite> Ms. (ed. <he>ישלחף</he>; h. text <he>ימיר</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 106:20\">Ib. CVI, 20</cite>; <cite ref=\"Targum Jonathan on Exodus 32:5\">Targ. Y. Ex. XXXII, 5</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פָּרֵג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01547\">same</cite>, <i>to redeem</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite> <he>רחמא … ומְפָרְגָא בדינרין</he> he loves figs and exchanges for denars (pays a denar for each fig); <cite ref=\"Kohelet Rabbah 2:20\">Koh. R. to II, 20</cite> <he>מְמָרְגָה</he>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S00723",
+	"slug": "קטופא-1",
+	"headword": {
+		"text": "קָטוֹפָא"
+	},
+	"page": {
+		"number": 1346,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00811\"><he>קְטַף</he></cite>) <i>cutter, grape-gatherer</i>.—Pl. <he>קָטוֹפִין</he>, <cite ref=\"K01174\"><he>קְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Obadiah 1:5\">Targ. Ob. I, 5</cite>; <cite ref=\"Targum Jonathan on Jeremiah 49:9\">Targ. Jer. XLIX, 9</cite> (some ed. <he>קַטְפִ׳</he>; h. text <he>בצרים</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 4:16\">Ib. IV, 16</cite> (h. text <he>נצרים</he>!)."
+			]
+		}
+	]
+}

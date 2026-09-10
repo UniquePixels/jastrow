@@ -1,0 +1,77 @@
+{
+	"id": "B01105",
+	"slug": "בצר-1",
+	"headword": {
+		"text": "בָּצַר"
+	},
+	"page": {
+		"number": 185,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בץ</he>, cmp. <he>בצע</he>)<i>to cut</i> grapes. ",
+			"units": [
+				"<cite ref=\"Pesachim 3b:6\">Pes. 3ᵇ</cite> <he>בּוֹצְרִין בטהרה</he> one must cut grapes under the rules of levitical cleanness. ",
+				"<cite ref=\"Gittin 57a:23\">Gitt. 57ᵃ</cite> <he>בָּצְרוּ … את כרמיהן וכ׳</he> the gentiles held vintage in vineyards soaked with Israel’s blood; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְצַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30</cite>, beg. <he>עד שתגיע עונתן לִיבָּצֵר</he> until their (the nations’) time has arrived to be cut (ripe for punishment). "
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be cut off, diminished</i>. Tanḥ. Noah 18 <he>נִבְצָרִים מן וכ׳</he> cut off from the world (destroyed). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 38:9\">Gen. R. s. 38</cite> <he>יִבָּצֵר מהם</he> shall be denied them."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["בִּצֵּר", "בִּיצֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to cut off</i>, whence (cmp. <cite ref=\"C00246\"><he>גדר</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to surround, fortify</i>. Part. pass. <he>מְבוּצָּר</he>. Y. Pes. VII, 35ᵇ bot.; Y. Shebu. VIII, beg., 38ᵇ <he>גג מב׳</he> a roof surrounded with railings, v. <cite ref=\"B01080\"><he>בְּצוֹצְרָה</he></cite>.—",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 1:5\">Neg. I, 5</cite> <he>מְבוּצֶּרֶת</he> an eruption surrounded with sound flesh; <cite ref=\"Mishnah Negaim 10:2\">ib. X, 2</cite> sq. <he>מבוצר</he> (of the hair in the flesh affected by the eruption). ",
+						"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite> (ref. to <he>עיר מצור</he> <cite ref=\"Psalms 60:11\">Ps. LX, 11</cite>, a. <he>מבצר</he> <cite ref=\"Psalms 108:11\">ib. CVIII, 11</cite>) <he>עיר שמבוצרת וכ׳</he> the city (of Rome) which is well fortified &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to diminish</i>. Ib. <he>שמצירה ומבצרה לישראל</he> (Mat. K. <he>ומְבַצֶּרֶת</he>, <cite ref=\"Yalkut Shimoni on Nach 779\">Yalk. Ps. 779</cite> <he>מבצרא</he> ch.) the city which troubles and diminishes Israel.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְבַּצֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be railed around, be set apart</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 14a\">Meg. 14ᵃ</cite>; <cite ref=\"Sanhedrin 110a\">Snh. 110ᵃ</cite>; <cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite> <he>מקום נ׳ להם וכ׳</he> a place was set apart for them in Gehenna; <cite ref=\"Kohelet Rabbah 7:2\">Koh. R. to VII, 2</cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

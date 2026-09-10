@@ -1,0 +1,36 @@
+{
+	"id": "A01864",
+	"slug": "אלימא-2",
+	"headword": {
+		"text": "אִלֵּימָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילֵּימָא"
+		}
+	],
+	"page": {
+		"number": 69,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= (= <cite ref=\"A01364\"><he>אִין</he></cite> <i>if</i>; <cite ref=\"L00400\"><he>לי</he></cite> = <cite ref=\"L00004\"><he>לָא</he></cite> <i>not;</i> <he>מא</he> <i>quidem, somehow</i>) <i>unless, but for</i> (followed by <he>ש־</he>; cmp. <cite ref=\"A01918\"><he>אִלְמָלֵא</he> I</cite>). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 18:20\">Num. R. s. 18</cite>, end <he>אי׳ מֵי … שמעמ׳ וכ׳</he> but for the sticky substance in the nose intercepting the evil smell."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>אִילּוּ־מָא</he> if somehow) <i>if</i> (ruling the verb without mediation of a relative; cmp. <cite ref=\"A01918\"><he>אִלְמָלֵא</he></cite> 2). Ib. <he>א׳ תופשת וכ׳</he> if (the harsh ringing sound) should take a permanent hold of his ear, it would be bound up (with his body, sub. <he>בלבו</he> as in Tanḥ. Ḥukkath 1, where our w. is substituted by <cite ref=\"A01918\"><he>אִלְמָלֵא</he></cite>).",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " v. <cite ref=\"A01292\"><he>אִילֵימָא</he></cite>",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

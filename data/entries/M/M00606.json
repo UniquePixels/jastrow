@@ -1,0 +1,31 @@
+{
+	"id": "M00606",
+	"slug": "מור-5",
+	"headword": {
+		"text": "מוֹר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מוּרָא"
+		},
+		{
+			"text": "מֵירָא"
+		}
+	],
+	"page": {
+		"number": 748,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M00605\">same</cite> <cite ref=\"Onkelos Exodus 30:23\">Targ. Ex. XXX, 23</cite> (Var. <cite ref=\"M02483\"><he>מֻרָּא</he></cite>, <cite ref=\"M00606\"><he>מוּרָּא</he></cite>, <cite ref=\"M01290\"><he>מֵירָא</he></cite>, v. Berl. Targ. O. II, p. 29). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:17\">Targ. Prov. VII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 45:9\">Targ. Ps. XLV, 9</cite> <he>מי׳</he>. Targ. II Esth. II, 5 (play on <he>מ̇ר̇ד̇כ̇י̇</he>) <he>מ̇ר̇א ד̇כ̇י̇א</he> ed. Lag. (oth. ed. <he>מי׳</he>).—",
+				"<cite ref=\"Chullin 139b:12\">Ḥull. 139ᵇ</cite> (translating <he>מר דרור</he>, Ex. l. c.) <he>מירא דכיא</he> clear (liquid) myrrh; <cite ref=\"Megillah 10b:21\">Meg. 10ᵇ</cite> <he>מרי דכי</he> (Ms. O. a. L. <he>מירא דכיא</he>, v. Rabb. D. S. a. l. note 20).—",
+				"<cite ref=\"Ketubot 75a\">Keth. 75ᵃ</cite> <he>מוּרָה ומושקין</he> Ar. (missing in ed.) myrrh and musk, v. <cite ref=\"S00880\"><he>קִיּוּהָא</he></cite>."
+			]
+		}
+	]
+}

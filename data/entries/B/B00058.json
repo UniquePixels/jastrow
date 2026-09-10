@@ -1,0 +1,34 @@
+{
+	"id": "B00058",
+	"slug": "בביתא-1",
+	"headword": {
+		"text": "בָּבִיתָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּבְתָּא"
+		},
+		{
+			"text": "בַּבַּיְיתָא"
+		}
+	],
+	"page": {
+		"number": 136,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"B00049\"><he>בָּב</he></cite> a. <cite ref=\"B00753\"><he>בַּיִת</he></cite>) = h. <cite ref=\"B00053\"><he>בָּבָה</he></cite>, [<i>the innermost</i>,] with <cite ref=\"P00602\"><he>עֵינָא</he></cite>, <i>pupil of the eye</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 32:10\">Targ. O. Deut. XXXII, 10</cite> <he>בָּבַת ע׳</he> (plur.) the pupils of <i>their</i> (the Israelites’) eyes; [Targ. Y. <he>בבא דעיוניה</he> Ar. (ed. <he>בָּבֵי</he>) the innermost or the gates of His thought, v. <cite ref=\"B00050\"><he>בָּב</he> I</cite>]. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:2\">Targ. Prov. VII, 2</cite> <he>בבתא</he> (Ms. <cite ref=\"B00058\"><he>בבייתא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:2\">Targ. Koh. XII, 2</cite> <he>בבי עינך</he> (some ed. <cite ref=\"B00942\"><he>בני</he></cite>, <cite ref=\"C00073\"><he>גבי</he></cite>, corr. acc.). ",
+				"<cite ref=\"Gittin 69a:2\">Gitt. 69ᵃ</cite> <cite ref=\"B00058\"><he>בביתא</he></cite>."
+			]
+		}
+	]
+}

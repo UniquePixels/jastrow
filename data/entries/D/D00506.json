@@ -1,0 +1,28 @@
+{
+	"id": "D00506",
+	"slug": "דיוודא",
+	"headword": {
+		"text": "דִּיוָודָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּוָודָא"
+		}
+	],
+	"page": {
+		"number": 296,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <he>דוו</he>, v. <cite ref=\"D00232\"><he>דוי</he></cite>) <i>grief</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 23:29\">Targ. Prov. XXIII, 29</cite> Ms. <he>די׳</he>, ed. Lag. <he>דוו׳</he>; ed. <cite ref=\"D00504\"><he>דֵּיוָא</he></cite> (Var. in ed. Lag. p. XII <cite ref=\"T00612\"><he>ריוא</he></cite>, corr. acc.). [Prob. a corrupt. fr. <cite ref=\"D00507\"><he>דִּיוּוּיָא</he></cite>, v. next w.]"
+			]
+		}
+	]
+}

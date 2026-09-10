@@ -1,0 +1,29 @@
+{
+	"id": "B00787",
+	"slug": "בכיין",
+	"headword": {
+		"text": "בַּכְיָין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּכְיָן"
+		}
+	],
+	"page": {
+		"number": 170,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00786\">preced. ws.</cite>) <i>weeper</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:21\">Targ. Esth. II, 21</cite> (Esth. R. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:21\">ib.</cite> <cite ref=\"B01170\"><he>בַּרְבָּרִי</he></cite>)."
+			]
+		}
+	]
+}

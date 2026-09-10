@@ -1,0 +1,41 @@
+{
+	"id": "I00483",
+	"slug": "טלופחא",
+	"headword": {
+		"text": "טְלוֹפְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְלָפְ׳"
+		}
+	],
+	"page": {
+		"number": 536,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>טְלוֹפְחִין</he>, <he>טְלוֹפְחֵי</he>, <cite ref=\"I00483\"><he>טְלָפְ׳</he></cite> (cmp. <cite ref=\"I00200\"><he>טוֹפַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lentils</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:34\">Targ. Gen. XXV, 34</cite>; a. e.—",
+				"<cite ref=\"Avodah Zarah 38b\">Ab. Zar. 38ᵇ</cite> <he>ט׳ דחלא</he>, <he>ט׳ דמיא</he> lentils boiled in vinegar, … in water. ",
+				"<cite ref=\"Yevamot 63b\">Yeb. 63ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 976:16\">Yalk. Koh. 976</cite> <cite ref=\"I00666\"><he>טַפְלוֹחָאִי</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Lat. lenticula) <i>a trough</i> in the wine or oil press (h. <cite ref=\"P00171\"><he>עדשה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 67b:3\">B. Bath. 67ᵇ</cite>, expl. <cite ref=\"J00403\"><he>יָם</he></cite> (v. <cite ref=\"P00171\"><he>עֲדַשָּׁה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

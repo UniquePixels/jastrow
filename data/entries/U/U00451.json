@@ -1,0 +1,22 @@
+{
+	"id": "U00451",
+	"slug": "שומנית",
+	"headword": {
+		"text": "שׁוּמָנִית"
+	},
+	"page": {
+		"number": 1536,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שׁוּם</he> III) <i>wild garlic</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:3\">Kil. I, 3</cite>, <cite ref=\"Tosefta Kilaim 1:2\">Tosef. ib. I, 2</cite> (Var. <cite ref=\"U01508\"><he>שמנים</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

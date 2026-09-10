@@ -1,0 +1,28 @@
+{
+	"id": "Q00599",
+	"slug": "פיוטות",
+	"headword": {
+		"text": "פַּיּוֹטוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּיּיוֹ׳"
+		}
+	],
+	"page": {
+		"number": 1160,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q00598\">preced.</cite>) [<i>talkers</i>,] <i>children of six or seven years of age</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 7:6:3\">Y. Erub. VII, 24ᶜ</cite> bot. (ref. to <cite ref=\"Mishnah Gittin 5:7\">Gitt. V, 7</cite>), v. <cite ref=\"Q01373\"><he>פָּעוֹטוֹת</he></cite> a. <cite ref=\"A02672\"><he>אִפְיוֹטוֹת</he></cite>."
+			]
+		}
+	]
+}

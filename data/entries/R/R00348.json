@@ -1,0 +1,28 @@
+{
+	"id": "R00348",
+	"slug": "צייתא",
+	"headword": {
+		"text": "צַיְיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַיְתָא"
+		}
+	],
+	"page": {
+		"number": 1276,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00262\"><he>צוּת</he></cite>) <i>listening</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:1\">Targ. Y. Deut. XXXII, 1</cite>.—",
+				"<cite ref=\"Targum of I Chronicles 1:30\">Targ. I Chr. I, 30</cite> (transl. of <he>משמע</he>, pr. n. pl.), v. <cite ref=\"R00580\"><he>צְמִיתָא</he></cite>."
+			]
+		}
+	]
+}

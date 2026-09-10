@@ -1,0 +1,27 @@
+{
+	"id": "C01262",
+	"slug": "גרגרן-2",
+	"headword": {
+		"text": "גַּרְגְּרָן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּרְגְּרָנָא"
+		}
+	],
+	"page": {
+		"number": 265,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01261\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:20\">Targ. Y. Deut. XXI, 20</cite>.—Pl. <cite ref=\"C01261\"><he>גַּרְגְּרָנֵי</he></cite>. ",
+				"<cite ref=\"Ketubot 60b\">Keth. 60ᵇ</cite> Ar. Var. (ed. <he>גירדני</he>, v. <cite ref=\"C01284\"><he>גַּרְדָּנָא</he></cite>).—Fem. <cite ref=\"C01264\"><he>גַּרְגְּרָנִיתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:11\">Targ. Lam. I, 11</cite> (h. text <he>זוללה</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "P00604",
+	"slug": "עינבול-1",
+	"headword": {
+		"text": "עֵינְבּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵנְ׳"
+		}
+	],
+	"page": {
+		"number": 1072,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>‘En-Bul</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 57b:14\">Ḥull. 57ᵇ</cite> <he>מעשה בענב׳</he>; <cite ref=\"Tosefta Ohalot 2:6\">Tosef. Ohol. II, 6</cite> <he>בעין בול</he>. ",
+				"<cite ref=\"Bekhorot 39b:13\">Bekh. 39ᵇ</cite> <he>מעשה בעינבול באחד וכ׳</he> (not <he>בעינבל אחד</he>) it happened at ‘En Bul with one &c.; (Tosef. ib. IV, 6 <he>מעשה באחד</he>). ",
+				"<cite ref=\"Tosefta Niddah 5:14\">Tosef. Nidd. V, 14</cite>."
+			]
+		}
+	]
+}

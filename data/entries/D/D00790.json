@@ -1,0 +1,30 @@
+{
+	"id": "D00790",
+	"slug": "דכסס",
+	"headword": {
+		"text": "דִּכְסָס"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּכְסָס"
+		},
+		{
+			"text": "דִּיכְ׳"
+		}
+	],
+	"page": {
+		"number": 307,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00785\"><he>דָּכַס</he></cite>, cmp. Arab. <i>dakasan</i>) <i>masses stamped upon each other, mounds, piles</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 5\">Gen. R. s. 5</cite> (play on <he>דָּכְיָם</he>, <cite ref=\"Psalms 93:3\">Ps. XCIII, 3</cite>) <he>לד׳ ים</he> <cite ref=\"Yalkut Shimoni on Nach 848\">Yalk. Ps. 848</cite> (ed. Gen. R. <he>לדוכסאים</he>, <he>לדיכ׳</he>) unto the piled up waters of the Sea."
+			]
+		}
+	]
+}

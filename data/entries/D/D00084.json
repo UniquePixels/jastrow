@@ -1,0 +1,27 @@
+{
+	"id": "D00084",
+	"slug": "דברונא",
+	"headword": {
+		"text": "דַּבְרוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דברונה"
+		}
+	],
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דבר</he>) <i>drift, flow, current</i> (cmp. <cite ref=\"D00080\"><he>דַּבָּרָא</he> I</cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 47a:19\">Ab. Zar. 47ᵃ</cite> <he>לד׳ דנהרא וכ׳</he> Ms. M. a. Rashi (ed. <he>לדברונה דמיא</he>) he worships the current of the river (the whole connection from its source to its mouth)."
+			]
+		}
+	]
+}

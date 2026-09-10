@@ -1,0 +1,23 @@
+{
+	"id": "Q00439",
+	"slug": "פח-2",
+	"headword": {
+		"text": "פַּח",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1150,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N01025\"><he>נָפַח</he></cite>, cmp. <cite ref=\"Q00480\"><he>פֶּחָם</he></cite>)<i>coal</i>.—Pl. <cite ref=\"Q00471\"><he>פַּחִים</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 51:3\">Gen. R. s. 51</cite> (expl. <cite ref=\"Q00471\"><he>פחים</he></cite>, <cite ref=\"Psalms 11:6\">Ps. XI, 6</cite>) <he>גימרין ומצדין</he> coals and snares (v. <cite ref=\"Q00438\">preced.</cite>); Yalk. ib. 85."
+			]
+		}
+	]
+}

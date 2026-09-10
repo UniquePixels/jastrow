@@ -1,0 +1,24 @@
+{
+	"id": "U01633",
+	"slug": "שעבזין",
+	"headword": {
+		"text": "שַׁעְבְּזִין"
+	},
+	"page": {
+		"number": 1609,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Shaf. of <he>עבז</he>, v. <cite ref=\"A00064\"><he>אֵבוּז</he></cite>) <i>extremities, testicles, scrotum</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 39:1\">Targ. Y. Gen. XXXIX, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 40:17\">Targ. Job XL, 17</cite> <he>שעבזוהי</he> Ms. a. Ar. (ed. <he>פחדוי</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "S00267",
+	"slug": "קווקיא",
+	"headword": {
+		"text": "קְוַוקְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְוַקְ׳"
+		}
+	],
+	"page": {
+		"number": 1325,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. sing. a. pl. (<cite ref=\"S00549\"><he>קוקו</he></cite>, onomatop., cmp. <cite ref=\"S00549\"><he>קַוְקַו</he></cite> a. <cite ref=\"S00016\"><he>קָאקָא</he></cite>) [<i>bleaters</i>,] <i>flock of sheep</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 74\">Gen. R. s. 74</cite>; <cite ref=\"Yalkut Shimoni on Torah 130:11\">Yalk. ib. 130</cite> <he>אי הוה חמי ק׳ טבא וכ׳</he> when he saw a fine flock, he (Laban) took it for himself. ",
+				"<cite ref=\"Bereishit Rabbah 64\">Gen. R. s. 64</cite> <he>לשעבר הוה לך חדא ק׳ … ק׳ סגין</he> formerly thou hadst one flock only, but now thou hast many of them; <cite ref=\"Yalkut Shimoni on Torah 111:12\">Yalk. ib. 111</cite> <he>קְוַוקְיָה חד … קווקיה סגיאין</he> (masc.).—[<cite ref=\"Aramaic Targum to Proverbs 27:23\">Targ. Prov. XXVII, 23</cite> <he>קְוָוקיִיךְ</he> Ar. (v. Koh. Ar. Compl. s. v. <he>קווק</he> 2); v. <cite ref=\"S00257\"><he>קְוָוטִין</he></cite>.]"
+			]
+		}
+	]
+}

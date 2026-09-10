@@ -1,0 +1,31 @@
+{
+	"id": "N00294",
+	"slug": "נוב-1",
+	"headword": {
+		"text": "נוּב"
+	},
+	"page": {
+		"number": 883,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נבע</he>)<i>to spring forth, flow</i>.—V. <cite ref=\"N00603\"><he>נִיב</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵנִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to flow, be fluent</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite>, end (ref. to <cite ref=\"Isaiah 57:19\">Is. LVII, 19</cite>) <he>אם הֵנִיבוּ וכ׳</he> if one’s lips are fluent in prayer &c. (Y. Ber. V, end, 9ᵈ <he>עשאו … תנובה</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

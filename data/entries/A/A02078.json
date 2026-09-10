@@ -1,0 +1,23 @@
+{
+	"id": "A02078",
+	"slug": "אמתן",
+	"headword": {
+		"text": "אֵמְתָן"
+	},
+	"page": {
+		"number": 80,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"A01325\"><he>אֵימָה</he></cite>; <cite ref=\"J00000\"><he>י</he></cite> absorbed by preceding <cite ref=\"A00000\"><he>א</he></cite>; cmp. <cite ref=\"A02079\">next w.</cite>) <i>one who rules through fear, tyrannical</i>. Pl. <he>אֵמְתָנִין</he>. ",
+			"units": [
+				"<cite ref=\"Tractate Derekh Eretz Rabbah 2\">Der. Er. II</cite>, beg.; cmp. ",
+				"<cite ref=\"Rosh Hashanah 17a\">R. Hash. 17ᵃ</cite>.  v. <cite ref=\"A01359\"><he>אֵימְתָן</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "G00389",
+	"slug": "זיעה",
+	"headword": {
+		"text": "זִיעָה"
+	},
+	"page": {
+		"number": 395,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>זֵעָה</he>; <cite ref=\"G00217\"><he>זוּעַ</he></cite>)<i>moisture, dripping, sweat, vapor</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 2:1\">Makhsh. II, 1</cite> <he>זֵיעַת בתים</he> the drippings of damp walls in houses &c. ",
+				"<cite ref=\"Mishnah Tahorot 9:1\">Toh. IX, 1</cite>, v. <cite ref=\"M02100\"><he>מַעֲטֵן</he></cite>. ",
+				"<cite ref=\"Berakhot 57b:14\">Ber. 57ᵇ</cite>; <cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>; a. fr.—V. <cite ref=\"G00390\">next art.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>commotion, agitation</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite>, v. <cite ref=\"G00217\"><he>זוּעַ</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

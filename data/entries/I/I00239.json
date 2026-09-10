@@ -1,0 +1,24 @@
+{
+	"id": "I00239",
+	"slug": "טורנא",
+	"headword": {
+		"text": "טוּרָנָא"
+	},
+	"page": {
+		"number": 527,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00214\"><he>טוּר</he></cite>, <cite ref=\"N00584\"><he>נְטַר</he></cite>) <i>officer</i>, less than <cite ref=\"U00423\"><he>שׁוּלְטָן</he></cite>.—Pl. <he>טוּרָנִין</he>, <cite ref=\"I00221\"><he>טוּרְנַיָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:17\">Targ. Is. X, 17</cite> (h. text <cite ref=\"U01478\"><he>שמיר</he></cite>!). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 34:7\">Ib. XXXIV, 7</cite>; a. e.—Esp. <i>Philistean magistrates</i>. ",
+				"<cite ref=\"Targum Jonathan on Judges 3:3\">Targ. Jud. III, 3</cite> (h. text <cite ref=\"O01642\"><he>סרני</he></cite>); a. fr."
+			]
+		}
+	]
+}

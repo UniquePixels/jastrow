@@ -1,0 +1,30 @@
+{
+	"id": "P00176",
+	"slug": "עובדתא",
+	"headword": {
+		"text": "עוֹבַדְתָּא"
+	},
+	"page": {
+		"number": 1046,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"P00175\">same</cite>, <i>work</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 11:5:8\">Y. Ter. XI, end, 48ᵇ</cite> <he>הוה עביד ע׳ גבי וכ׳</he> did work for &c.; <cite ref=\"Jerusalem Talmud Shabbat 2:1:17\">Y. Sabb. II, 4ᵈ</cite> top <he>עובידתוה</he> ed. Krot. (read: <he>עוֹבִידְתֵּיה</he> or <he>עִיבִידְתֵּיה</he>) his work, v. <cite ref=\"P00493\"><he>עִיבִידְתָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>service, animals and their attendants, live stock</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 33:14\">Targ. O. Gen. XXXIII, 14</cite> (Y. <cite ref=\"P00493\"><he>עִיבִידְתָּא</he></cite>; h. text <cite ref=\"M01472\"><he>מלאכה</he></cite>).—[<cite ref=\"Targum Jonathan on Genesis 49:22\">Targ. Y. Gen. XLIX, 22</cite> <he>עוּבְדְּתָהָא</he> ed. Amst., v. <cite ref=\"P00186\"><he>עוֹבַרְתָּא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

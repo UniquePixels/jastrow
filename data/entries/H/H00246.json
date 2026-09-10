@@ -1,0 +1,23 @@
+{
+	"id": "H00246",
+	"slug": "חובלנית",
+	"headword": {
+		"text": "חוֹבְלָנִית"
+	},
+	"page": {
+		"number": 429,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00245\">preced.</cite>) <i>a court which does not spare human lives, tyrannical</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 1:10\">Macc. I, 10</cite> (Y. ed. a. ",
+				"<cite ref=\"Makkot 7a:3\">Macc. 7ᵃ</cite> <cite ref=\"H00097\"><he>חַבְלָנִית</he></cite>)."
+			]
+		}
+	]
+}

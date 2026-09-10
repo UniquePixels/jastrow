@@ -1,0 +1,23 @@
+{
+	"id": "N00402",
+	"slug": "נוציציא",
+	"headword": {
+		"text": "נוֹצִיצְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 889,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"N00399\"><he>נוֹצָה</he></cite>) <i>feathers, pinion</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 39:13\">Targ. Job XXXIX, 13</cite> <he>נוֹצִיצְיָיהָא</he> (ed. Lag. <he>נוֹצִצְיָיהָא</he>; Ms. <cite ref=\"N00753\"><he>נִיצוֹצְיָהָא</he></cite>); [ed. Wil. <cite ref=\"N00402\"><he>נוֹצִיצְיֵתָא</he></cite> <i>pelican</i> (?)]."
+			]
+		}
+	]
+}

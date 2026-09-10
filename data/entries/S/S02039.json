@@ -1,0 +1,24 @@
+{
+	"id": "S02039",
+	"slug": "קריה-1",
+	"headword": {
+		"text": "קִרְיָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1419,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"S02020\"><he>קָרָה</he> I</cite>  a. II) <i>town, settlement, fort</i>. Lam. R. introd. (R. Naḥman) (ref. to <cite ref=\"Isaiah 29:1\">Is. XXIX, 1</cite>) <he>ק׳ שחנה וכ׳</he> the town in which David put up his camp; <he>ק׳ דלא חניא וכ׳</he> the place where &c., v. <cite ref=\"H01281\"><he>חַנְיָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Isaiah 29:1\">Ib.</cite> <he>ק׳ שעשה וכ׳</he>, v. <cite ref=\"S01684\"><he>קְסִרְקִיטוֹן</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 302\">Yalk. Is. 302</cite>. Tanḥ. K’dosh. 9 <he>מעשה היה בקִרְיָתֵנוּ</he> it happened in our place; <cite ref=\"Vayikra Rabbah 24\">Lev. R. s. 24</cite>, beg. <he>בקרתני</he> (corr. acc.; <cite ref=\"Yalkut Shimoni on Nach 680:3\">Yalk. Ps. 680</cite> <he>בעירנו</he>).—Pl. <he>קִרְיוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:8\">Y. Snh. I, 18ᶜ</cite> bot. <he>מעשה … ק׳ וכ׳</he> it happened with (representatives of) 24 townships belonging to the house of Rabbi, that they were assembled to proclaim an intercalation at Lydda.—[<cite ref=\"Jerusalem Talmud Bava Batra 9:5:3\">Y. B. Bath. IX, 17ᵃ</cite> <he>קריות</he>, read <he>קרנות</he>, v. <cite ref=\"S01951\"><he>קָרוֹן</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"id": "P01052",
+	"slug": "עסק-1",
+	"headword": {
+		"text": "עָסַק"
+	},
+	"page": {
+		"number": 1098,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. b. h. <cite ref=\"P01495\"><he>עָשַׂק</he></cite>) (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to work at, be engaged in</i>. Sifra K’dosh., ch. VIII, Par. 4 <he>ועוֹסֵק בו</he>; Yalk. Lev. 619 <he>ועוֹסְקֵנִי בו</he> and busy myself with him (to punish him), v. <cite ref=\"P01055\"><he>עֵסֶק</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 11a:4\">Ber. 11ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 6:7\">Deut. VI, 7</cite>, ‘when thou sittest in thy house’) <he>פרט לעוסק במצוה</he> this exempts (from reading the Sh’ma) him who is engaged in a religious work; <cite ref=\"Sukkah 25a:6\">Succ. 25ᵃ</cite>. ",
+				"<cite ref=\"Sukkah 25a:11\">Ib.</cite> <he>והעוסק במצוה פטור מן המצוה מהכא נפקא וכ׳</he> is it from here (Deut. l. c.) that we derive the rule, that he who is engaged in a religious act is exempt from other religious duties? Ib. 26ᵃ. ",
+				"<cite ref=\"Pesachim 50b:5\">Pes. 50ᵇ</cite> <he>לעולם יַעֲסוֹק אדם בתורה וכ׳</he> let man by all means be engaged in the study of the Law and the pursuit of religious work, even if not for their own sake &c., v. <cite ref=\"U01408\"><he>שֵׁם</he></cite>. ",
+				"<cite ref=\"Pesachim 50b:10\">Ib.</cite> <he>וכל העוֹסְקִין במלאכת שמים</he> and all those who make a living of religious work (deal in objects used for religious ceremonies &c.); <cite ref=\"Pesachim 50b:10\">ib.</cite> <he>ואם עוסקין לשמה וכ׳</he> but if they do so from a religious motive &c.; a. fr.—Part. pass. <cite ref=\"P01037\"><he>עָסוּק</he></cite>; pl. <he>עֲסוּקִין</he>. ",
+				"<cite ref=\"Ketubot 103b:17\">Keth. 103ᵇ</cite> <he>ר׳ חייא ע׳ במצות הוה</he> R. Ḥ. was always engaged in some good work (charity). ",
+				"<cite ref=\"Tosefta Bikkurim 2:15\">Tosef. Bicc. II, 15</cite> <he>וכל העסוקין לגבוה</he> all whose business is connected with religion, v. supra. ",
+				"<cite ref=\"Tosefta Bikkurim 2:15\">Ib.</cite> <he>אם היו ע׳ לשום שמים</he>, v. supra. ",
+				"<cite ref=\"Shemot Rabbah 20:5\">Ex. R. s. 20</cite> (ref. to <cite ref=\"Exodus 13:19\">Ex. XIII, 19</cite>) <he>כל ישראל היו ע׳ בכסף וכ׳</he> while all Israel were busy taking along silver and gold, Moses was busy getting the bones of Joseph; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱסִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to engage, keep interested, entertain</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 1:7\">Yoma I, 7</cite> <he>ומַעֲסִיקִין אותו</he> and they entertain him (to keep him awake); <cite ref=\"Yoma 19b:14\">ib. 19ᵇ</cite> <he>לא היו מעסיקין אותו וכ׳</he> they did not entertain him with music, but with their mouth (speech); <cite ref=\"Tosefta Yoma 1:9\">Tosef. ib. I, 9</cite>. ",
+						"<cite ref=\"Tosefta Yoma 1:9\">Ib.</cite> <he>לעַסְּקוֹ בהברה</he> (not <he>בהברא</he>, <i>Pi.</i>) to keep him awake with noise (recitations). ",
+						"<cite ref=\"Midrash Tehillim 7:16\">Midr. Till. to Ps. VII</cite> <he>היו מַעֲסִיקוֹת אותו עד שיבוא שמואל</he> they kept him engaged (in talk) until Samuel came; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["עִיסֵּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P01051\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַסֵּק"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַסֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to occupy one’s self; to attend</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 1:9\">Sot. I, 9</cite> <he>מי לנו גדול מיוסף שלא נ׳ בו אלא משה</he> who is greater than Joseph, to whose body none attended but Moses himself? (v. supra); <he>מי גדול ממשה שלא ני בו וכ׳</he> who is greater than Moses in whose burial none but the Lord himself was engaged? <cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite> <he>מתחלת ברייתו … לא נ׳ וכ׳</he> soon after the creation the Lord was first of all engaged in planting (<cite ref=\"Genesis 2:8\">Gen. II, 8</cite>), <he>אף אתם לא תִתְעַסְּקוּ וכ׳</he> even so, when you enter the land, you shall apply yourselves first of all to planting (<cite ref=\"Leviticus 19:23\">Lev. XIX, 23</cite>). Y. Ḥag. II, 77ᵇ <he>וישבו ונִתְעַסְּקוּ</he>, v. <cite ref=\"P01053\">next w.</cite> Tanḥ. Vaëra 5 (play on <he>הָעשֶׁק</he>, <cite ref=\"Ecclesiastes 7:7\">Koh. VII, 7</cite>) <he>עסק שנ׳ שלמה … הטעהו</he> (not <he>הטעוהו</he>) the occupation with vain things in which Solomon engaged, led him astray; <cite ref=\"Ecclesiastes 7:7\">ib.</cite> <he>כשהחכם מִתְעַסֵּק בדברים הרבה מערבבין וכ׳</he> when a scholar engages in too many affairs, they confound him so that he loses his wisdom; <cite ref=\"Ecclesiastes 7:7\">ib.</cite> <he>חכם המתעסק בצרכי צבור משכחין וכ׳</he> if a scholar busies himself with public affairs, they cause him to forget his learning; a. fr.—",
+						"<cite ref=\"Tosefta Arakhin 4:27\">Tosef. Arakh. IV, 27</cite> <he>מִתְעַסֵּק בירק בקדרה בכל יום</he> may arrange to have vegetables in the pot every day; <he>מתעסק ירק בקדרה ואלפס וכ׳</he> (read: <he>בירק</he>) may have vegetables in the pot and stew &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to do a thing without a direct practical purpose; to practice, experiment</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 157b:2\">Sabb. 157ᵇ</cite> <he>מתעסק בעלמא אנא</he> I was merely playing (without the intention of measuring). ",
+						"<cite ref=\"Mishnah Rosh Hashanah 4:8\">R. Hash. IV, 8</cite> (<cite ref=\"Rosh Hashanah 32b:24\">32ᵇ</cite>) <he>אבל מִתְעַסְּקִין בהם כדי שילמדו</he> Ms. M. (ed. <he>מתע׳ עמהם עד</he>) but you may practice with them that they may learn (to blow the Shofar); <he>והמתעסק לא יצא</he> and he who merely blows for practice, has not done his duty. Ib. 33ᵃ <he>מתע׳ בהן עד שילמדו וכ׳</he> (Tosef. ib. IV (II), 10 <he>מתלמדין לתקוע</he>) you may practice with them …, even on the Sabbath; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to do one thing while intending to do another thing; to miss one’s purpose, choose the wrong thing</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 62b:13\">Snh. 62ᵇ</cite> <he>המתעסק בחלבים וכ׳</he> he that misses his purpose in selecting forbidden fat to eat (intending to reach out for a permitted piece), or in consanguineous connection (by mistaking the person) is bound to bring a sin offering; <he>המתע׳ בשבת</he> who does a forbidden act by mistake on the Sabbath (meaning to do a different though forbidden act); <cite ref=\"Keritot 19b\">Kerith. 19ᵇ</cite>. ",
+						"<cite ref=\"Mishnah Keritot 4:3\">Ib. IV, 3</cite> (<cite ref=\"Keritot 19a:58\">19ᵃ</cite>) (ref. to <he>אשר חטא בה</he>, <cite ref=\"Leviticus 4:23\">Lev. IV, 23</cite>) <he>פרט למתעסק</he> this is to exempt him who sinned by doing the thing which he had not intended to do. Ib. 19ᵇ <he>מתעסק דמאי</he> to what kind of a mistaken act does this refer? Ib. <he>מתע׳ בדבר דלאו מצוה</he> if by mistake he did an act which was not commanded (for that day). Ib. <he>מתע׳ בחבורה</he> making a wound (on the Sabbath) by mistake (circumcising the wrong child), opp. <he>מקלקל בחבורה</he> doing harm by making a wound; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to dispute, argue</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 8:2\">Gen. R. s. 8</cite> <he>עד שמלאכי השרת מדיינין … ומתעסקין אלו עם אלו וכ׳</he> while the ministering angels were arguing with one another, disputing with one another, God created him (Adam); a. e."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

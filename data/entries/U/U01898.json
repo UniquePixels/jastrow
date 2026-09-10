@@ -1,0 +1,37 @@
+{
+	"id": "U01898",
+	"slug": "שקרא",
+	"headword": {
+		"text": "שַׁקָּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁקְרָא"
+		},
+		{
+			"text": "שַׁקְרַאי"
+		}
+	],
+	"page": {
+		"number": 1626,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01895\"><he>שַׁקָּר</he></cite>, <i>liar; faithless, faithless man</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 55b:14\">Yeb. 55ᵇ</cite> <he>או איהו שקראי או אנא שַׁקְרִי</he> either he is a liar, or I lied (misreporting R. Johanan).—Pl. <he>שַׁקָּרִין</he>, <he>שַׁקָּרֵי</he>, <cite ref=\"U01046\"><he>שָׁקְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Zephaniah 3:4\">Targ. Zeph. III, 4</cite> (ed. Wil. <cite ref=\"U01853\"><he>שָׁ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:1\">Targ. Jer. IX, 1</cite> (not <he>שִׁקְרִין</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 26:10\">Targ. Is. XXVI, 10</cite> (ed. Wil. <cite ref=\"U01046\"><he>שַׁקְ׳</he></cite>).—",
+				"<cite ref=\"Vayikra Rabbah 26:7\">Lev. R. s. 26</cite>, v. <cite ref=\"U01897\">preced.</cite> ",
+				"<cite ref=\"Sotah 35a:9\">Sot. 35ᵃ</cite> <he>מרגלים ש׳ הוו</he> the spies were liars (drew on their imagination). ",
+				"<cite ref=\"Sanhedrin 29a:23\">Snh. 29ᵃ</cite> <he>סהדי ש׳ אאוגרייהו זילי</he> false witnesses are despised by their own employers; <cite ref=\"Yalkut Shimoni on Nach 222:2\">Yalk. Kings 222</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 688:1\">Yalk. Ps. 688</cite> <he>מרי סהדי שקרין אנן</he> my lord, we are false witnesses; <cite ref=\"Jerusalem Talmud Sanhedrin 6:3:5\">Y. Snh. VI, 23ᵇ</cite> bot. <he>מרי שיקרין</he> (corr. acc.)."
+			]
+		}
+	]
+}

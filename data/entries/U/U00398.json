@@ -1,0 +1,26 @@
+{
+	"id": "U00398",
+	"slug": "שויה",
+	"headword": {
+		"text": "שְׁוִיָּה",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁוִיָּיה"
+		}
+	],
+	"page": {
+		"number": 1533,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"U00337\"><he>שָׁוָה</he></cite> <i>Pi.</i>2) <i>levelling, overcoming difficulties, achievement</i>. Tanḥ. Naso 28; ed. Bub. 32 (ref. to <he>מצליח</he>, <cite ref=\"Genesis 39:2\">Gen. XXXIX, 2</cite>) <he>אין מצליח אלא ש׳ וכ׳</he> the root <he>צלח</he> means <i>levelling</i>, as we read (<cite ref=\"II Samuel 19:18\">II Sam. XIX, 18</cite>) <he>וצלחו וכ׳</he> they ‘cut through’ the Jordan.",
+			"units": []
+		}
+	]
+}

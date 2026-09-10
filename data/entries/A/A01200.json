@@ -1,0 +1,38 @@
+{
+	"id": "A01200",
+	"slug": "איזמיל",
+	"headword": {
+		"text": "אִיזְמֵיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיזְמֵל"
+		},
+		{
+			"text": "אִזְ׳"
+		},
+		{
+			"text": "אוּזְמֵל"
+		}
+	],
+	"page": {
+		"number": 46,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. h. a. ch. (<he>זמל</he> √<he>מל</he>; cmp. b. h. <he>סמל</he>; cmp. <cite ref=\"A01192\"><he>אִיזְגָּרָא</he></cite>) <i>cutting tool, knife</i>, esp. <i>surgeon’s knife</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 16:9\">Targ. Job XVI, 9</cite>; a. e.—",
+				"<cite ref=\"Chullin 31a:11\">Ḥull. 31ᵃ</cite> <he>א׳ שיש לו קרנים</he> a knife which has hornlike projections as ornaments. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 19:1:6\">Y. Sabb. XIX, beg. 16ᵈ</cite> <he>אנשון מייתי או׳</he> they had forgotten to bring the knife (for circumcision). ",
+				"<cite ref=\"Shemot Rabbah 26\">Ex. R. s. 26</cite> man <he>מכה באי׳ וכ׳</he> wounds with a knife (operating) and heals &c. Pl. Chald. <he>אִזְמֵלַיָּיא</he>; <he>אִזְמַלְוָון</he> (f.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 44:13\">Targ. Is. XLIV, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 5:2\">Targ. Josh. V, 2</cite>."
+			]
+		}
+	]
+}

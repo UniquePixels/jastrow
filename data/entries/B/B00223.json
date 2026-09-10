@@ -1,0 +1,23 @@
+{
+	"id": "B00223",
+	"slug": "בוזנא",
+	"headword": {
+		"text": "בּוֹזָנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 144,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00220\"><he>בוז</he></cite>, <cite ref=\"B00429\"><he>בזז</he></cite>) <i>plunderer</i>. Pl. <he>בּוֹזָנַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 281\">Yalk. Jer. 281</cite> (Lam. R. introd. R. Yits. 1 <he>בָּזוֹזַיָּא</he>)."
+			]
+		}
+	]
+}

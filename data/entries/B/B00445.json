@@ -1,0 +1,30 @@
+{
+	"id": "B00445",
+	"slug": "בזיזא",
+	"headword": {
+		"text": "בְּזִיזָא"
+	},
+	"page": {
+		"number": 153,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. pass. of <cite ref=\"B00430\"><he>בְּזַז</he> I</cite>) <i>despoiled</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 18:3\">Targ. Is. XVIII, 3</cite>; <cite ref=\"Targum Jonathan on Isaiah 18:7\">7</cite> (h. text <cite ref=\"M01750\"><he>מְבוּסָה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sneerer.—</i>Pl. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 137:3\">Targ. Ps. CXXXVII, 3</cite> <he>בְּזִיזָנָא</he> (Ms. <he>בְּזו׳</he>, ed. Vien. <cite ref=\"B00433\"><he>בְּזָזָנָא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

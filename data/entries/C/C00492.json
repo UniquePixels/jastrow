@@ -1,0 +1,24 @@
+{
+	"id": "C00492",
+	"slug": "גוריא-1",
+	"headword": {
+		"text": "גּוּרְיָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 227,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00476\"><he>גּוּר</he> III</cite>) <i>cub, young lion</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 64a:6\">Snh. 64ᵃ</cite> <he>כג׳ דנורא</he> fire in the form of a young lion.—Pl. <cite ref=\"C00495\"><he>גּוּרְיִין</he></cite>. ",
+				"<cite ref=\"Sanhedrin 95a:15\">Ib. 95ᵃ</cite> (play on <cite ref=\"B00765\"><he>בֵּיתְרִי</he></cite> q. v.) when they came to Bethré, they said <he>בין תרי ג׳ קטלין א׳</he> (read <he>קטלן</he>) Ms. M. (ed. <he>בתרי ג׳ קטלוה לאריא</he>, read <he>בי תרי</he> a. <he>קטלן</he>) between (us) two cubs (David and Abishai)—can we kill the lion (Goliath)?"
+			]
+		}
+	]
+}

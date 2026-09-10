@@ -1,0 +1,22 @@
+{
+	"id": "I00847",
+	"slug": "טרסאה",
+	"headword": {
+		"text": "טַרְסָאָה"
+	},
+	"page": {
+		"number": 555,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. nom. gent. <i>of Tarsus</i>.—Pl. <he>טַרְסָאֵי</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:21\">Targ. Esth. II, 21</cite> (ed. Lag. <cite ref=\"I00715\"><he>טִירְ׳</he></cite>), v. <cite ref=\"I00850\"><he>טַרְסִי</he> II</cite>."
+			]
+		}
+	]
+}

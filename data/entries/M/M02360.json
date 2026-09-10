@@ -1,0 +1,41 @@
+{
+	"id": "M02360",
+	"slug": "מצראה-1",
+	"headword": {
+		"text": "מִצְרָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִצְרַאי"
+		},
+		{
+			"text": "מִצְרַי"
+		},
+		{
+			"text": "מִצְרָיָא"
+		},
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 828,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"M02363\"><he>מִצְרִי</he></cite> , <i>Egyptian</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 39:1\">Targ. Gen. XXXIX, 1</cite>; <cite ref=\"Onkelos Genesis 39:2\">2</cite>; <cite ref=\"Onkelos Genesis 39:5\">5</cite> (Y. … <he>רָאֵי</he>, read: … <he>רַאי</he>). ",
+				"<cite ref=\"Onkelos Exodus 2:11\">Targ. O. Ex. II, 11</cite> <cite ref=\"M02365\"><he>מִצְרַי</he></cite> ed. Berl. (oth. ed. … <he>רִי</he>; Y. <cite ref=\"M02360\"><he>מִצְרָאֵי</he></cite>, corr. acc.). Targ. Y. II ib. 12 <cite ref=\"M02360\"><he>מִצְרַיָּא</he></cite> (read … <he>רָיָא</he>); a. e.—Y. Sabb. V, beg. 7ᵇ <he>פולא מִיצְרָיָיא</he>, v. <cite ref=\"L00179\"><he>לוּבִי</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 64:10\">Gen. R. s. 64</cite>, end <he>קורא מיצראה</he> the Egyptian heron; a. e.—Pl. <cite ref=\"M02360\"><he>מִצְרָאֵי</he></cite>, <cite ref=\"M02357\"><he>מִיצְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 43:32\">Targ. Gen. XLIII, 32</cite>; a. fr.—<i>Fem.</i> <cite ref=\"M02367\"><he>מִצְרֵיתָא</he></cite>, <cite ref=\"M02370\"><he>מִצְרֵתָא</he></cite>, <cite ref=\"M01393\"><he>מִי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 16:3\">Ib. XVI, 3</cite>.—Pl. <cite ref=\"M02367\"><he>מִצְרָיָתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 1:19\">Targ. Ex. I, 19</cite> (Y. ed. Vien. … <he>רֵיתָא</he>, corr. acc.)."
+			]
+		}
+	]
+}

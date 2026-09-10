@@ -1,0 +1,34 @@
+{
+	"id": "E00742",
+	"slug": "הפך-3",
+	"headword": {
+		"text": "הֶפֶךְ"
+	},
+	"page": {
+		"number": 361,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"E00741\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>reverse, opposite</i>. <he>לְשׁוֹן ה׳</he> a phrase which means the reverse (euphemism). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 2:2:4\">Y. Naz. II, 51ᵈ</cite> bot. (ed. Krot. <he>הפר</he>, corr. acc.); ib. V, end, 54ᵇ <he>לָשׁוֹן הָפוּךְ</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>upturning</i> (a pile), <i>displacing</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 29b:15\">B. Kam. 29ᵇ</cite> <he>כל ה׳ למטה וכ׳</he> the term ‘upturning’ means a movement within three cubits (Var. v. Rabb. D. S. a. l. note 80)."
+			],
+			"label": "2"
+		}
+	]
+}

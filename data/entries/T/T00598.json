@@ -1,0 +1,39 @@
+{
+	"id": "T00598",
+	"slug": "ריגוג",
+	"headword": {
+		"text": "רִיגּוּג"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִיגּוּגָא"
+		},
+		{
+			"text": "רִגְּ׳"
+		},
+		{
+			"text": "רִגְרוּגָא"
+		}
+	],
+	"page": {
+		"number": 1473,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00158\"><he>רְגַג</he></cite>) <i>desire, desirable thing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 12:20\">Targ. Y. Deut. XII, 20</cite> (not <cite ref=\"T00161\"><he>רְגוּג</he></cite>), sq. ",
+				"<cite ref=\"Targum of II Chronicles 12:9\">Targ. II Chr. XII, 9</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 32:27\">Ib. XXXII, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 10:3\">Targ. Ps. X, 3</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Psalms 5:2\">Ib. V, 2</cite> read: <he>רנוני</he>, v. <cite ref=\"T00651\"><he>רִינּוּנָא</he></cite>.]—Pl. <he>רִיגּוּגִין</he>, <he>רִיגּוּגַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 140:9\">Ib. CXL, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:11\">Targ. Koh. XII, 11</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 20:25\">Targ. II Chr. XX, 25</cite> (some ed. <he>דגרוגין</he>, read: <he>רִגְרוּגִין</he>); a. fr."
+			]
+		}
+	]
+}

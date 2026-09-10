@@ -1,0 +1,29 @@
+{
+	"id": "H00598",
+	"slug": "חטוטרת",
+	"headword": {
+		"text": "חֲטוֹטֶרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲטֶרֶת"
+		}
+	],
+	"page": {
+		"number": 448,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חטר</he>, cmp. <he>חוֹטֶר</he> II) (<i>camel’s</i>) <i>hunch, hump</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 9:2\">Ḥull. IX, 2</cite> (Talm. ed. 122ᵃ <he>חטר׳</he>). ",
+				"<cite ref=\"Shabbat 54a\">Sabb. 54ᵃ</cite>, v. <cite ref=\"H00307\"><he>חוֹטֶרֶת</he></cite>.—Pl. <he>חֲטוֹטָרוֹת</he>, <he>חֲטָרוֹת</he>. ",
+				"<cite ref=\"Mishnah Bekhorot 7:1\">Bekh. VII, 1</cite> (<cite ref=\"Bekhorot 43a:5\">43ᵃ</cite>) <he>בעלי חטוטרות</he> Maim. (Mishn. <i>sing;</i> Talm. ed. <he>חטרות</he>) hump-backed men; Tosef. ib. V, 2."
+			]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"id": "P01188",
+	"slug": "עקירה",
+	"headword": {
+		"text": "עֲקִירָה"
+	},
+	"page": {
+		"number": 1106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01213\"><he>עָקַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tearing loose, plucking</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 68a:7\">Snh. 68ᵃ</cite> <he>למדני עֲקִירָתָן</he> teach me, how to tear them out.—Pl. <he>עֲקִירוֹת</he>. ",
+				"<cite ref=\"Sifrei Devarim 171\">Sifré Deut. 171</cite>, v. <cite ref=\"P00660\"><he>עִיקּוּר</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>removal from place, lifting up</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 2b:12\">Sabb. 2ᵇ</cite> <he>כל עֲקִירַת וכ׳</he>, v. <cite ref=\"E00266\"><he>הוֹצָאָה</he></cite>. ",
+				"<cite ref=\"Shabbat 3a:6\">Ib. 3ᵃ</cite> <he>עקירת גופו כעקירת חפץ וכ׳</he> is moving one’s body (starting to walk) like lifting an object from its place?; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>uprooting, undoing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 1:3:3\">Y. Hor. I, 46ᵃ</cite> <he>עקירת הגוף</he> a decision which abrogates a Biblical law entirely; <cite ref=\"Jerusalem Talmud Yevamot 10:1:6\">Y. Yeb. X, 10ᵈ</cite> bot."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>making childless, extinction</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 47:1\">Pesik. R. s. 47</cite> (ref. to <he>להשמידו</he>, <cite ref=\"Deuteronomy 9:20\">Deut. IX, 20</cite>) <he>עקירת בנים ובנות</he> extinction of sons and daughters (v. <cite ref=\"K00538\"><he>כִּילּוּי</he></cite>)."
+			],
+			"label": "4"
+		}
+	]
+}

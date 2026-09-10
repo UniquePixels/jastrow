@@ -1,0 +1,31 @@
+{
+	"id": "K00508",
+	"slug": "כיונא-2",
+	"headword": {
+		"text": "כֵּיוָנָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כֵּיוַנְתָּא"
+		}
+	],
+	"page": {
+		"number": 631,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00507\">preced.</cite>) <i>propriety, proper thing</i> (h. . ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 42:7\">Targ. Job XLII, 7</cite> (ed. Wil. <cite ref=\"K00173\"><he>כְּוַ׳</he></cite>); <cite ref=\"Aramaic Targum to Job 42:8\">ib. 8</cite> (ed. Lag. <cite ref=\"K00503\"><he>כֵּיוָו׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Micah 3:9\">Targ. Mic. III, 9</cite> (ed. Lag. <cite ref=\"K00503\"><he>כֵּיוָונִיתָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Amos 5:10\">Targ. Am. V, 10</cite> (ed. Lag. <he>בֵּוָונִיתָא</he>; h. text <he>תמים</he>).—Pl. <he>כֵּיוָנָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 33:15\">Targ. Is. XXXIII, 15</cite>; <cite ref=\"Targum Jonathan on Isaiah 45:19\">XLV, 19</cite> (h. text <he>מישרים</he>).—[<cite ref=\"Aramaic Targum to Psalms 32:9\">Targ. Ps. XXXII, 9</cite> <cite ref=\"K00507\"><he>כיונא</he></cite>, some ed., read: <cite ref=\"B00559\"><he>בִּיּוּנָא</he></cite>.]"
+			]
+		}
+	]
+}

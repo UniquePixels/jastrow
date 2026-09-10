@@ -1,0 +1,25 @@
+{
+	"id": "Q00503",
+	"slug": "פטור-2",
+	"headword": {
+		"text": "פְּטוֹר"
+	},
+	"page": {
+		"number": 1154,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00547\"><he>פָּטַר</he></cite>) <i>discharge, exemption</i>, opp. <cite ref=\"H00676\"><he>חִיּוּב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 2b\">Sabb. 2ᵇ</cite>, v. <cite ref=\"H00676\"><he>חִיּוּב</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 2:1:9\">Y. Peah II, beg. 16ᵈ</cite> <he>ומה דמר … בפ׳ פיאה</he> and what R. Johanan said was meant in reference to being exempt from Peah. ",
+				"<cite ref=\"Jerusalem Talmud Challah 3:2:1\">Y. Ḥall. III, 59ᵃ</cite>, v. <cite ref=\"H00676\"><he>חִיּוּב</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:7\">Cant. R. to IV, 4</cite> <he>בין פ׳ לחיוב</he> between exemption and conviction; a. fr."
+			]
+		}
+	]
+}

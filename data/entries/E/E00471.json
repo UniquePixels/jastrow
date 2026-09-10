@@ -1,0 +1,29 @@
+{
+	"id": "E00471",
+	"slug": "היסט",
+	"headword": {
+		"text": "הֶיסֵּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶסֵּט"
+		}
+	],
+	"page": {
+		"number": 348,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00461\"><he>יָסַט</he></cite> or <cite ref=\"O00283\"><he>סוּט</he></cite>) <i>skaking an object so as to move it from its place</i>, differ. fr. <cite ref=\"T00879\"><he>רעדה</he></cite> vibration (v. ",
+			"units": [
+				"<cite ref=\"Tosefta Zavim 4:6\">Tosef. Zab. IV, 6</cite>), esp. <i>hesset</i>, one of the causes of levitical uncleanness. ",
+				"<cite ref=\"Mishnah Tahorot 10:1\">Toh. X, 1</cite> <he>אינן בקיאין בה׳</he> are not familiar with the laws of <i>hesset</i>. ",
+				"<cite ref=\"Megillah 8b:11\">Meg. 8ᵇ</cite> <he>מלטמא … בה׳</he> so as not to make earthen vessels unclean by shaking them; a. fr.—Pl. <cite ref=\"E00473\"><he>הֶיסֵּיטוֹת</he></cite>, <cite ref=\"E00473\"><he>הֶסֵּטוֹת</he></cite> <i>laws concerning hesset</i>. Y. Dem. II, 23ᵃ top. Y. Sot. V, 20ᵃ top."
+			]
+		}
+	]
+}

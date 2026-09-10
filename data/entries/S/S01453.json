@@ -1,0 +1,37 @@
+{
+	"id": "S01453",
+	"slug": "קמז",
+	"headword": {
+		"text": "קָמַז"
+	},
+	"page": {
+		"number": 1384,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>קמץ</he>, <cite ref=\"S00526\"><he>קָוַץ</he></cite>) <i>to squeeze, contract</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִקְמַז"],
+			"senses": [
+				{
+					"gloss": "<i>to be squeezed in</i>. Tosef. Erub. XI (VIII), 18 <he>נגר … נ׳</he> if the bolt is sqeezed into a hole in the ground, opp. <cite ref=\"U01453\"><he>נשמט</he></cite> detached and lying about without a special place assigned to it; <cite ref=\"Eruvin 102a\">Erub. 102ᵃ</cite>; Y. Sabb. XVII, end, 16ᵇ. Y. Kil. VI, end, 30ᶜ <he>עד מקים שהוא נ׳</he> (not <cite ref=\"N01229\"><he>נקמן</he></cite>) as far as the projecting limb is fast (not shaken by the wind).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to contract, curl</i>. Y. Erub. V, 22ᵈ top <he>ולא יתר שהוא נ׳ ומפסיד</he> nor must the measuring rope be longer (than fifty cubits), because then it curls and causes loss of distance in measuring (Bab. ",
+					"units": [
+						"<cite ref=\"Eruvin 58a:6\">ib. 58ᵃ</cite> <he>שממעט</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "U01667",
+	"slug": "שעמום-1",
+	"headword": {
+		"text": "שִׁעֲמוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1611,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01671\"><he>שִׁעֲמֵם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dullness, idiocy</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 5:5\">Keth. V, 5</cite> <he>הבטלה מביאתה לידי ש׳</he> idleness may lead her to idiocy; [corr. acc. quot. s. v. <cite ref=\"B00518\"><he>בַּטָּלָה</he></cite>]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>בעל ש׳</he>) <i>dull-minded man, idiot</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 24a\">Sot. 24ᵃ</cite> sq.; <cite ref=\"Sotah 27a:7\">27ᵃ</cite>; <cite ref=\"Bamidbar Rabbah 9:28\">Num. R. s. 9<sup>28</sup></cite> <he>אשת ש׳</he> the wife of an idiot."
+			],
+			"label": "2"
+		}
+	]
+}

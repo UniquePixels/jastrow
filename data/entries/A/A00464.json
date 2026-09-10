@@ -1,0 +1,27 @@
+{
+	"id": "A00464",
+	"slug": "אדריינוס",
+	"headword": {
+		"text": "אַדְרְיָינוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְדַּרְיָנוֹס"
+		}
+	],
+	"page": {
+		"number": 18,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Hadrian</i>, the Roman emperor (117 to 138) under whom the insurrection of Bar Kokhba occurred; freq. mentioned with the imprecation <he>שחיק עצמות</he>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 3\">Deut. R. s. 3</cite>; a. fr. V. <cite ref=\"A00458\"><he>אַדְרִיאָנוֹס</he></cite>."
+			]
+		}
+	]
+}

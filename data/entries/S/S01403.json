@@ -1,0 +1,65 @@
+{
+	"id": "S01403",
+	"slug": "קלף-2",
+	"headword": {
+		"text": "קְלַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלֵיף"
+		}
+	],
+	"page": {
+		"number": 1381,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S01402\">same</cite> <cite ref=\"Targum Jonathan on Joel 1:7\">Targ. Joel I, 7</cite>; a. e.—Part. pass. <he>קָלִיף</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:11\">Targ. Y. Deut. XIV, 11</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite> (ref. to <cite ref=\"Jeremiah 49:10\">Jer. XLIX, 10</cite>) <he>קַלְפִית בצלייה</he> Ar. (ed. <he>קליפת בצלים</he>, ref. to <cite ref=\"Obadiah 1:6\">Ob. I, 6</cite>, corr. acc.) I stripped the onions (laid bare Esau’s corruption); <cite ref=\"Yalkut Shimoni on Nach 332\">Yalk. Jer. 332</cite> <he>קְלִיפִית</he> (not <he>קליפות</he>); Yalk. Chr. 1073 (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 95:4\">Gen. R. s. 95</cite>, end, v. <cite ref=\"B00313\"><he>בּוּצְלָא</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> (expl. <he>חשפי שבל</he>, <cite ref=\"Isaiah 47:2\">Is. XLVII, 2</cite>) <he>קְלוֹפִי סובלתא דנהרא</he> (v. <cite ref=\"U00325\"><he>שׁוּבַּלְתָּא</he></cite>) lay bare (the bed of) the current of the river (dig channels to divert the river from its course). ",
+				"<cite ref=\"Beitzah 14b:3\">Bets. 14ᵇ</cite> <he>קָלִיף וכ׳</he>, v. <cite ref=\"R00319\"><he>צִיהֲרָא</he></cite>; a. e.—",
+				"<cite ref=\"Bava Batra 4b\">B. Bath. 4ᵇ</cite>, v. <cite ref=\"S01748\"><he>קְפַל</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַלֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01402\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 30:37\">Targ. O. Gen. XXX, 37</cite> (Y. <cite ref=\"S01346\"><he>קְלֵף</he></cite> <i>Pe.</i>). Ib. 38. ",
+						"<cite ref=\"Targum Jonathan on II Kings 18:16\">Targ. II Kings XVIII, 16</cite>; a. e.—Part. pass. <he>מְקַלַּף</he> <i>peeling, flaky</i>. ",
+						"<cite ref=\"Onkelos Exodus 16:14\">Targ. O. Ex. XVI, 14</cite> (h. text <he>מחספס</he>).—",
+						"<cite ref=\"Beitzah 13b:9\">Bets. 13ᵇ</cite> <he>מְקַלְּפָא ליה וכ׳</he> his wife husked (barley) for him by the cupfuls. ",
+						"<cite ref=\"Chullin 62b:3-6\">Ḥull. 62ᵇ</cite> <he>לא … מְקַלַּף וכ׳</he> its craw could not be peeled."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְקַלַּף", "אִיקַּלַּף"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיקְּלִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be peeled, stripped, scraped off</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 11:13\">Targ. Y. Lev. XI, 13</cite> <he>מִקְּלִיף</he> (not <he>מַקְ׳</he>).—Ḥull. l. c. <he>לא מִקְּלִיף וכ׳</he> could be peeled with a knife only. Y. Snh. IV, 22ᵇ top, v. <cite ref=\"M02766\"><he>מַרְקוֹעַ</he> II</cite>. ",
+						"<cite ref=\"Moed Katan 13b:9\">M. Kat. 13ᵇ</cite> <he>כגון דמִיקַּלְּפָּן</he> when the grains are husked; <he>אי לאו … מִיקַּלְּפָא</he> if they had not steeped them in water, the husking could not have been done (differ. in Ms. M., v. Rabb. D. S. a. l.); a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

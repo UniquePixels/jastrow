@@ -1,0 +1,24 @@
+{
+	"id": "O00080",
+	"slug": "סבסטין",
+	"headword": {
+		"text": "סְבַסְטִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 951,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (σεβαστοί) <i>members of the imperial family, princes</i>. Tanḥ. B’midb. 2 [read:] <he>הרבצתי אתכם כס׳ וכ׳</he> I caused you to recline on couches like princes; (ref. to <he>ויסב</he>, <cite ref=\"Exodus 13:8\">Ex. XIII, 8</cite>) <he>כדרך שהמלכים מסובין וכ׳</he> just as kings recline; [Var. <he>בסיגמטין</he>, <he>בסוג׳</he>, taken fr. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 1\">Num. R. s. 1</cite>, beg., v. <cite ref=\"O00562\"><he>סִיגְמָטִין</he></cite>]."
+			]
+		}
+	]
+}

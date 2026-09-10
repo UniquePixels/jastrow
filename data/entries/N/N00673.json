@@ -1,0 +1,55 @@
+{
+	"id": "N00673",
+	"slug": "נימא-3",
+	"headword": {
+		"text": "נִימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִימָה"
+		}
+	],
+	"page": {
+		"number": 904,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00856\"><he>נמא</he></cite>, cmp. <cite ref=\"N00873\"><he>נְמָיָה</he></cite> = <cite ref=\"N00086\"><he>נְבָיָיה</he></cite>, also meanings of <cite ref=\"N00603\"><he>נִיב</he></cite>, <cite ref=\"N00605\"><he>נִיבָא</he></cite>) [<i>hanging over</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fringe, cord, hair</i> (of the eye-brow); <i>bristle; fibre</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 14b:14\">Bets. 14ᵇ</cite> <he>שמא תכרך נ׳ וכ׳</he> lest a fringe (shred of the garment used as mattress) wind itself around his body; <cite ref=\"Jerusalem Talmud Kilayim 9:1:14\">Y. Kil. IX, 32ᵃ</cite> bot. ",
+				"<cite ref=\"Niddah 67a:21\">Nidd. 67ᵃ</cite>, a. e. <he>נ׳ אחת</he> one single thread; Y. Sabb. VII, 7ᵈ top <cite ref=\"N00856\"><he>נמא</he></cite> (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 93:4\">Gen. R. s. 93</cite> <he>קשר חבל בחבל ונ׳ בנ׳</he> (Ar. <he>ניניא</he>) he tied rope to rope, string to string. ",
+				"<cite ref=\"Bereishit Rabbah 93:4\">Ib.</cite> <he>נ׳ אחת היתה לו בלבו</he> he had one bristle on his chest; Yalk. ib. 150. ",
+				"<cite ref=\"Bereishit Rabbah 65:22\">Gen. R. s. 65</cite>, end <he>קשר בה נ׳ וכ׳</he> (Ar. <he>ניניא</he>) he tied a string to it …, and hanged himself. ",
+				"<cite ref=\"Tosefta Sotah 1:2\">Tosef. Sot. I, 2</cite> <he>כדי שיקשור הגרדי נ׳</he> as much time as the weaver needs to knot a fringe; Y. ib. I, 16ᶜ bot.—",
+				"<cite ref=\"Bava Batra 16a:18\">B. Bath. 16ᵃ</cite> (ref. to <cite ref=\"O01303\"><he>סערה</he></cite>, <cite ref=\"Job 38:1\">Job XXXVIII, 1</cite>) <he>וכל נ׳ ונ׳ וכ׳</he> for each hair (of the eye-brow) &c., v. <cite ref=\"C00412\"><he>גּוּמָא</he></cite>. ",
+				"<cite ref=\"Shabbat 30a:9\">Sabb. 30ᵃ</cite>, a. fr. <he>מלא נ׳</he> a thread’s (or hair’s) breadth. ",
+				"<cite ref=\"Mishnah Eruvin 10:13\">Erub. X, 13</cite> <he>קושרין נ׳ במקדש</he> they were permitted to knot a broken string of a musical instrument in the Temple; <cite ref=\"Eruvin 102b:15\">ib. 102ᵇ</cite> <he>נִימַת כינור</he>; a. fr.—Pl. <he>נִימִין</he>. B. Bath. l. c. ",
+				"<cite ref=\"Mishnah Shekalim 8:5\">Shek. VIII, 5</cite> ed. (Ms. M. <he>נִירִין</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"N00603\"><he>נִיב</he></cite>) pl. <he>נִימִין</he> <i>mustache</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 38b:2\">Yoma 38ᵇ</cite> <he>בין הנ׳</he> on the division line between the two parts of the mustache."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>נ׳ של מים</he> (cmp. <cite ref=\"B00641\"><he>בִּינָא</he> III</cite>) <i>leech</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 12b:3\">Ab. Zar. 12ᵇ</cite>. [<cite ref=\"Avodah Zarah 10b:12\">Ib. 10ᵇ</cite>, v. <cite ref=\"N00372\"><he>נוֹמִי</he></cite>.]."
+			],
+			"label": "3"
+		}
+	]
+}

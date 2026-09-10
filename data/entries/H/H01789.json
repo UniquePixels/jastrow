@@ -1,0 +1,36 @@
+{
+	"id": "H01789",
+	"slug": "חרשין",
+	"headword": {
+		"text": "חַרְשִׁין"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַרְשַׁיָּיא"
+		},
+		{
+			"text": "חַרְשֵׁי"
+		},
+		{
+			"text": "חֲרָ׳"
+		}
+	],
+	"page": {
+		"number": 507,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", m. pl. <i>sorcery, witchcraft</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 11:4\">Targ. Koh. XI, 4</cite> (ed. Amst. <cite ref=\"H00475\"><he>חֲרָ׳</he></cite>); a. fr.—",
+				"<cite ref=\"Shabbat 75a:3\">Sabb. 75ᵃ</cite>, v. <cite ref=\"A01982\"><he>אַמְגּוּשְׁתָּא</he></cite>. ",
+				"<cite ref=\"Berakhot 62a:22\">Ber. 62ᵃ</cite> bot., v. <cite ref=\"H01786\"><he>חָרָשָׁא</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite> <he>לית ח׳ מצלחין וכ׳</he> (not <he>חרשון</he>) witchcraft has no effect by night. ",
+				"<cite ref=\"Bereishit Rabbah 86:5\">Gen. R. s. 86</cite> <he>ח׳ במצרים</he> sorcery imported to Egypt!, v. <cite ref=\"H01779\"><he>חֲרַשׁ</he></cite> 3.—",
+				"<cite ref=\"Chullin 84b:2\">Ḥull. 84ᵇ</cite>; <cite ref=\"Bava Metzia 29b:23\">B. Mets. 29ᵇ</cite> <he>כסא דח׳ וכ׳</he> rather drink a cupfull of witchcraft (charmed drink) than of tepid water. ",
+				"<cite ref=\"Pesachim 110a:14\">Pes. 110ᵃ</cite>, v. <cite ref=\"H01790\">next w.</cite>"
+			]
+		}
+	]
+}

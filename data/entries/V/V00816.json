@@ -1,0 +1,25 @@
+{
+	"id": "V00816",
+	"slug": "תפי-2",
+	"headword": {
+		"text": "תְּפֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּפָא"
+		}
+	],
+	"page": {
+		"number": 1685,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"V00818\"><he>תַּפְיָא</he></cite>) <i>to set on for cooking</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 4:38\">Targ. II Kings IV, 38</cite> (h. text <cite ref=\"U01812\"><he>שפת</he></cite>)."
+			]
+		}
+	]
+}

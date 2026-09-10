@@ -1,0 +1,22 @@
+{
+	"id": "M01654",
+	"slug": "ממוש",
+	"headword": {
+		"text": "מְמוּשׁ"
+	},
+	"page": {
+		"number": 794,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00678\"><he>מוּשׁ</he></cite>) <i>touch, feeling</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 27:22\">Targ. Y. II, Gen. XXVII, 22</cite> (Y. I <he>מַמַּשׁ … מֵימַשׁ</he>)."
+			]
+		}
+	]
+}

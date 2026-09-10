@@ -1,0 +1,29 @@
+{
+	"id": "I00754",
+	"slug": "טרטיאות",
+	"headword": {
+		"text": "טַרְטְיָאוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַרְטְרָאוֹת"
+		}
+	],
+	"page": {
+		"number": 552,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (cacophem. perversions of <he>תִּיאַטְרָאוֹת</he>; cmp. meanings of <he>טרט</he> in <cite ref=\"I00724\"><he>טָרוּט</he></cite>, <cite ref=\"I00753\"><he>טִרְטֵט</he></cite>, a. of <cite ref=\"I00767\"><he>טרי</he></cite>, a. similar perversions in <cite ref=\"A02865\"><he>אִצְטַדְיָא</he></cite> &c.) <i>theatres, shows</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 3:3\">Lam. R. to III, 5</cite> <he>ומכניסין את הגמל לבתי ט׳</he> they bring a camel on their stage (<cite ref=\"Eichah Rabbah 3:3\">ib.</cite> also <he>תַּרְטְיָאוֹת</he> a. <cite ref=\"V00404\"><he>תִּיאַטְרוֹן</he></cite>). Yalk.Sam. 158; <cite ref=\"Midrash Tehillim 18:10\">Midr. Till. to Ps. XVIII</cite> <cite ref=\"I00761\"><he>טַרְטִירָאוֹת</he></cite> (ed. Bub. <he>טרטיא׳</he>). ",
+				"<cite ref=\"Ketubot 5a\">Keth. 5ᵃ</cite>; <cite ref=\"Shabbat 150a:12\">Sabb. 150ᵃ</cite> (Ms. O. <he>טַרְטַסְיָי׳</he>, early eds. <cite ref=\"I00754\"><he>טַרְטְרָאוֹת</he></cite>); a. e. [Various forms in eds. a. Mss.: <cite ref=\"I00761\"><he>טַרְטִיסָאוֹת</he></cite>, <he>טַרְטִיּוֹת</he> &c.]—[<cite ref=\"Avodah Zarah 42a:13\">Ab. Zar. 42ᵃ</cite> <he>דרכים וט׳</he> ed., Ms. M. <he>סרטיאות</he>, v. <cite ref=\"O01590\"><he>סְרַטְיָא</he></cite> a. <cite ref=\"A02560\"><he>אִסְרַטְיָא</he></cite>.]"
+			]
+		}
+	]
+}
