@@ -96,8 +96,13 @@ const HEADWORD_FORMS = 76_104;
  *
  * Was 232,579 until `K00081` joined that tranche: one split (+2) and
  * one retag, which writes into an existing number field and adds no
- * mark. Doc 01 deferred that row on 2026-08-05. */
-const TEXT_FIELDS = 232_581;
+ * mark. Doc 01 deferred that row on 2026-08-05.
+ *
+ * Back to 232,579 on review: `E00148`'s OCR marker sat at the very
+ * start of its definition, so splitting at it left a whitespace-only
+ * host sense. That op became a retag, which costs no mark — one split
+ * fewer, -2. */
+const TEXT_FIELDS = 232_579;
 /** 32,512 entries + the head-uniqueness mark + the termination mark. */
 const CHAIN_MARKS = 32_514;
 /** Two marks per entry: patch problems, then finishing problems. */

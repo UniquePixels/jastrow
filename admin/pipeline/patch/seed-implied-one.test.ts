@@ -77,7 +77,15 @@ describe('runMarkers', () => {
 			'—3)',
 			'—4)',
 		]);
-		expect(runMarkers('T99999', 'a.—2) b.—4) c.')).toEqual(['—2)']);
+		// A gap is NOT a short run: splitting at 2 would leave the —4)
+		// inside the numbered sibling, invisible to the census.
+		expect(() => runMarkers('T99999', 'a.—2) b.—4) c.')).toThrow(
+			/sit past the run/u,
+		);
+		// A verse range is not a marker and must not trip that gate.
+		expect(runMarkers('T99999', 'a.—2) b. (Deut. XXXII, 1—43) c.')).toEqual([
+			'—2)',
+		]);
 		expect(runMarkers('T99999', 'a. b.')).toEqual([]);
 	});
 

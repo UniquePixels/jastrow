@@ -51,6 +51,11 @@ const marker = (n: number): string => `—${n})`;
  * locates. A run that continues past it carries `—3)`, `—4)`, … */
 const MARKER = marker(2);
 
+/** Any in-text `—N)` marker. The `(?<![0-9])` guard rejects verse and
+ * note ranges — `Deut. XXXII, 1—43)`, `Rabb. D. S. notes 2—4)` —
+ * which are not sense markers. */
+const RUN_MARKER = /(?<![0-9])—(\d+)\)\s/gu;
+
 /** The number `retag` writes onto the host after the split. */
 const SENSE_ONE = '1)';
 
@@ -206,6 +211,33 @@ function runMarkers(rid: string, definition: string): string[] {
 		}
 		previousAt = at;
 		markers.push(token);
+	}
+	// A run that stops is only safe if nothing follows it. `—2) … —4)`
+	// with no `—3)` would split at 2 and leave the `—4)` inside the
+	// numbered sibling — the exact defect this generator exists to
+	// stop, wearing a numbering gap instead of a short run. The scan
+	// is guarded against verse ranges (`Deut. XXXII, 1—43)`), which
+	// are not markers.
+	const last = markers.length + 1;
+	const beyond = new Set<number>();
+	RUN_MARKER.lastIndex = 0;
+	let found = RUN_MARKER.exec(definition);
+	while (found !== null) {
+		const n = Number(found[1]);
+		if (n > last) {
+			beyond.add(n);
+		}
+		found = RUN_MARKER.exec(definition);
+	}
+	if (beyond.size > 0) {
+		throw new Error(
+			`${rid}: markers ${[...beyond]
+				.sort((a, b) => a - b)
+				.map(marker)
+				.join(
+					', ',
+				)} sit past the run, which stops at ${marker(last)} — a numbering gap this generator cannot split`,
+		);
 	}
 	return markers;
 }

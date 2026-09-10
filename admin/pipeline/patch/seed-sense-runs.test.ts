@@ -11,7 +11,12 @@ import type { SourceEntry } from '../body/types.ts';
 import { parsePatch } from './schema.ts';
 import { SEED_CONFIRMED } from './seed-implied-one.ts';
 import type { RunOp } from './seed-sense-runs.ts';
-import { locate, RUN_ROWS, runPatches } from './seed-sense-runs.ts';
+import {
+	assertNoBlankSenseCreated,
+	locate,
+	RUN_ROWS,
+	runPatches,
+} from './seed-sense-runs.ts';
 
 /** The rids this tranche repairs. `P00816` and `K00081` each appear
  * twice in `RUN_ROWS` because each carries two defects. */
@@ -166,5 +171,36 @@ describe('runPatches', () => {
 			'P000300',
 			'P000301',
 		]);
+	});
+});
+
+describe('assertNoBlankSenseCreated', () => {
+	it('fires on the split that produced E00148\u2019s blank lead', () => {
+		// ' 1) text' split at '1)' leaves a host of one space. This is
+		// the shape that shipped before E00148's row moved to retag.
+		const before = entryWith(' 1) to return, restore.');
+		const row = rowWith(' 1) to return', [
+			{ kind: 'split' as const, marker: '1)' },
+		]);
+		const after = runPatches(row, before, 1).entry;
+		expect(() => assertNoBlankSenseCreated('T99999', before, after)).toThrow(
+			/whitespace-only sense/u,
+		);
+	});
+
+	it('passes the retag that replaced it', () => {
+		const before = entryWith(' to return, restore.');
+		const row = rowWith(' to return', [
+			{ kind: 'retag' as const, number: '1)' },
+		]);
+		const after = runPatches(row, before, 1).entry;
+		expect(() =>
+			assertNoBlankSenseCreated('T99999', before, after),
+		).not.toThrow();
+	});
+
+	it('ignores the empty senses these entries already carry', () => {
+		const same = entryWith('a real sense.', '');
+		expect(() => assertNoBlankSenseCreated('T99999', same, same)).not.toThrow();
 	});
 });

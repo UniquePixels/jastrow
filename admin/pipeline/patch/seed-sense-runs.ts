@@ -92,16 +92,21 @@ interface RunRow {
 const RUN_ROWS: readonly RunRow[] = [
 	{
 		defectClass: 'ocr-marker',
+		// Unlike the other two OCR rows, this marker sits at the very
+		// start of the definition with only a space before it, so
+		// splitting at it would leave a whitespace-only host sense. The
+		// number goes into the sense's own `number` field instead, which
+		// is what an unnumbered host holding its own marker means.
 		opens: ' l) to return, restore;',
 		ops: [
-			{ find: 'l)', kind: 'replace', with: '1)' },
-			{ kind: 'split', marker: '1)' },
+			{ find: ' l)', kind: 'replace', with: '' },
+			{ kind: 'retag', number: '1)' },
 			{ kind: 'split', marker: '—2)' },
 			{ kind: 'split', marker: '—3)' },
 			{ kind: 'split', marker: '—4)' },
 		],
 		rationale:
-			'Doc-08 2026-08-05: not implied, OCR error — l) to return, restore. Correct the glyph, then split the 1)–4) run.',
+			'Doc-08 2026-08-05: not implied, OCR error — l) to return, restore. Lift the glyph out of the text into the sense number, then split the —2)–—4) run.',
 		rid: 'E00148',
 	},
 	{
@@ -302,6 +307,30 @@ function runPatches(
 	return { entry: working, patches };
 }
 
+/** A whitespace-only sense is a sense the reader sees as blank. One
+ * appears when a split addresses a marker with nothing but space
+ * before it — `E00148` produced exactly that before its row moved
+ * from split to retag. Counting rather than diffing, because these
+ * entries legitimately carry empty senses already as stem
+ * separators; only a NEW one is the defect. */
+function assertNoBlankSenseCreated(
+	rid: string,
+	before: SourceEntry,
+	after: SourceEntry,
+): void {
+	const blanks = (entry: SourceEntry): number =>
+		[...walkSenses(entry.content.senses)].filter((sense) => {
+			const definition = sense.definition ?? '';
+			return definition.length > 0 && definition.trim().length === 0;
+		}).length;
+	const gained = blanks(after) - blanks(before);
+	if (gained > 0) {
+		throw new Error(
+			`${rid}: the declared ops create ${gained} whitespace-only sense(s) — retag the host instead of splitting at a marker with nothing before it`,
+		);
+	}
+}
+
 /** Every row's patches, in `RUN_ROWS` order, with ids running from
  * `FIRST_ID`. A rid absent from the corpus throws. */
 async function buildRuns(): Promise<
@@ -341,6 +370,7 @@ async function buildRuns(): Promise<
 			patches.push(...made.patches);
 			working = made.entry;
 		}
+		assertNoBlankSenseCreated(rid, entry, working);
 		rows.push({ patches, rid });
 		id += patches.length;
 	}
@@ -370,4 +400,4 @@ if (import.meta.main) {
 }
 
 export type { RunOp, RunRow };
-export { buildRuns, locate, RUN_ROWS, runPatches };
+export { assertNoBlankSenseCreated, buildRuns, locate, RUN_ROWS, runPatches };

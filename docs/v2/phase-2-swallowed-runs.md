@@ -165,7 +165,7 @@ print. Two tranches carry the work:
 | Tranche | Rows | Patches |
 | --- | --- | --- |
 | `seed-doc-08-implied-one` | 33 | 76 |
-| `seed-doc-08-sense-runs` | 6 | 21 |
+| `seed-doc-08-sense-runs` | 7 | 23 |
 
 `seed-implied-one.ts` addresses one shape and one repair. The six rows
 it cannot express got their own generator, `seed-sense-runs.ts`, whose
@@ -345,29 +345,27 @@ wide. It is **not** a defect count — no one has read those rows, and
 some markers are legitimate — but it says Classes A and B are the near
 edge of a larger surface, not the whole of it.
 
-## Proposed disposition
+## What is left
 
-Nothing here should become a patch before a maintainer confirms the
-rows, the same gate doc 08's Decision column applied.
+Everything reviewed is repaired. Two things remain, and neither is a
+patch.
 
-1. ~~**Hold the two shipping rows.**~~ **Done 2026-09-10** — the
-   generator splits the whole run, so `C00805` and `I00111` are
-   repaired rather than half-repaired.
-2. ~~**Guard the generator.**~~ **Done 2026-09-10** — `runMarkers`
-   walks the run and throws on an ambiguous or out-of-order marker.
-3. **Confirm Class A's other 9 rows** as a review set. None is in
-   `SEED_CONFIRMED`, so none is repaired. 7 are in the sweep and could
-   be left to it; `P00816` and `Q00990` produce no hint and never
-   will, so nothing will reach them but a decision here.
-4. **Confirm Class B's 3 rows** individually. `O01387` will never be
-   swept and needs a decision either way.
-5. **Correct doc 08's `I00661` note** to state the actual reason for
-   the hold, or seed the row.
-6. **Decide whether to commit the generalized census.** The counts
-   above came from a one-off probe. If the class is accepted, the
-   predicate belongs beside `IMPLIED_ONE_CENSUS` with its own
-   committed list, so it cannot drift. Registering it moves no
-   transform baseline, but it is a new corpus-tier assertion.
+1. **The print-check queue (15 rows).** Listed above with the question
+   print has to answer for each. `K00599` and `M02308` are the two
+   whose readings are already written down; the other 13 came out of
+   the number-less-sense measurement.
+2. **Decide whether to commit the generalized census.** The `—N)`
+   counts in this document came from a one-off probe. If the class is
+   accepted as standing, the predicate belongs beside
+   `IMPLIED_ONE_CENSUS` with its own committed list so it cannot
+   drift. It moves no transform baseline, but it is a new corpus-tier
+   assertion.
+
+The generator guards earned along the way are in place rather than
+pending: `runMarkers` throws on an ambiguous marker, an out-of-order
+one, or a numbering gap with markers past it; `seed-sense-runs` throws
+if a row's declared ops would create a whitespace-only sense; and a
+test forbids the two tranches naming the same rid.
 
 Register #16 is not amended here: its "in-text" wording and its 79-row
 count remain accurate for the shape it describes.
