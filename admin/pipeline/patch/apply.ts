@@ -77,6 +77,12 @@ const TRANCHES: readonly { dir: string; stage: CorpusStage }[] = [
 	{ dir: 'batch-04-2026-09-05', stage: 'healed' },
 	{ dir: 'batch-05-2026-09-05', stage: 'healed' },
 	{ dir: 'residue-01', stage: 'healed' },
+	// Not a sweep tranche: doc 08's confirmed implied-`1)` rows, seeded
+	// because 24 of them produce no anomaly hint and so never enter a
+	// sweep chunk (`patch/seed-implied-one.ts`). Authored against the
+	// healed stage, and last so no existing tranche's ingest position
+	// moves.
+	{ dir: 'seed-doc-08-implied-one', stage: 'healed' },
 ];
 /** The pilot directory's stage — swept pre-patch, same as tranche-01
  * (Ruling E). */

@@ -40,8 +40,12 @@ import {
 } from './apply.ts';
 import { computeSnapshot } from './snapshot.ts';
 
-const ACCEPTED_PATCHES = 14;
-const ACCEPTED_RECORDS = 723;
+/** Was 14 patches / 723 records until 2026-09-09. The doc-08 seed
+ * tranche is healed-stage, so all of it is accepted: +56 patches (a
+ * split/retag pair for each of 28 confirmed implied-`1)` rows) and
+ * +28 records. See `patch/seed-implied-one.ts`. */
+const ACCEPTED_PATCHES = 70;
+const ACCEPTED_RECORDS = 751;
 const SUPERSEDED_PATCHES = 10;
 const SUPERSEDED_RECORDS = 327;
 const PRE_PATCH_PATCHES = 67;
@@ -51,8 +55,13 @@ const CARRY_OVER = 66;
 const ABSORBED = 61;
 const CARRIED = 5;
 const CARRIED_IDS = ['P000018', 'P000025', 'P000027', 'P000031', 'P000050'];
-const RAW_PATCHES = 91;
-const RAW_RECORDS = 2760;
+/** Was 91 patches / 2,760 records until 2026-09-09, when the doc-08
+ * seed tranche added a split/retag pair for each of its 28 confirmed
+ * implied-`1)` rows: +56 patches and +28 manifest records, both
+ * arithmetic consequences of `patch/seed-implied-one.ts`'s committed
+ * `SEED_CONFIRMED` list rather than a corpus movement. */
+const RAW_PATCHES = 147;
+const RAW_RECORDS = 2788;
 
 it('loads and consolidates the accepted (healed-stage) corpus, applying it cleanly', async () => {
 	const accepted = await loadAcceptedCorpus();
