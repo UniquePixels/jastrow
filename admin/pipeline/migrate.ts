@@ -335,8 +335,23 @@ async function outputTreeIsEmpty(): Promise<boolean> {
 	return (await scan.next()).done === true;
 }
 
-/** The one write of the whole pipeline: 32,512 files, then the report
- * again so its `written` count is on disk. */
+/** Biome is the one formatter for truth (consolidation spec R5), so
+ * formatting is the write's last step. It runs here rather than as a
+ * second command in the `pipeline:migrate` script: `bun run` appends
+ * extra arguments to the LAST command, so `bun pipeline:migrate
+ * --write` handed `--write` to biome and migrate ran dry (PR #88). */
+function formatTruth(): void {
+	const result = Bun.spawnSync(
+		['node_modules/.bin/biome', 'format', '--write', OUT_DIR],
+		{ stderr: 'inherit', stdout: 'inherit' },
+	);
+	if (result.exitCode !== 0) {
+		throw new Error(`biome format exited ${result.exitCode}`);
+	}
+}
+
+/** The one write of the whole pipeline: 32,512 files, formatted, then
+ * the report again so its `written` count is on disk. */
 async function writeAll(
 	truths: readonly TruthEntry[],
 	report: Report,
@@ -348,6 +363,7 @@ async function writeAll(
 		);
 		report.written++;
 	}
+	formatTruth();
 	await writeReport(report);
 	console.log(`wrote ${report.written} truth files under ${OUT_DIR}`);
 }

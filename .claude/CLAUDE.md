@@ -36,7 +36,7 @@ unit test tier, and `tsc`. CI's Lint job runs `bun qa:ci`
 
 | Tier | Files | Command | Cost |
 |---|---|---|---|
-| Unit | `*.test.ts` | `bun qa:test` | sub-second |
+| Unit | `*.test.ts` | `bun qa:test` | ~2 s (1.3 s is `migrate/truth.test.ts` validating every truth file) |
 | Corpus | `*.corpus.test.ts` | `bun run audit:corpus` | ~7–8 min |
 
 A corpus-tier file streams all 32,512 entries of
