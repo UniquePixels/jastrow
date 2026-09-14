@@ -197,7 +197,8 @@ Invariants. Corpus Audit as a required name goes away with the tier.
 
 ### 5.3 Test tiers after the change
 
-`*.test.ts` (unit, sub-second) and the three invariant files. The
+`*.test.ts` (unit, ~2 s, 1.3 s of it the truth-tree validation) and
+the three invariant files. The
 `*.corpus.test.ts` naming convention and `test-tiers.test.ts` guard
 stay for those three; the other 42 corpus files leave with the
 research code or are deleted where they only pinned counts.
