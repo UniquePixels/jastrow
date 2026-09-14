@@ -1,23 +1,43 @@
 # The Data Pipeline
 
 The auditable, reproducible path from the Sefaria source to the data
-the app serves. Read top to bottom, this is how the dictionary is
-built from scratch: fetch the source, transform it once into the
-truth layer, compile truth into serving artifacts on every deploy
-([design spec](../../docs/specs/2026-07-03-v2-overhaul-design.md)).
+the app serves ([overhaul design spec](../../docs/specs/2026-07-03-v2-overhaul-design.md)).
+Read top to bottom, this is how the dictionary is built from scratch:
+fetch the source, run it through migration into the truth layer,
+compile truth into serving artifacts on every deploy. `migrate.ts` is
+permanent and re-runnable — a run regenerates
+a candidate tree and a report; it never silently overwrites edited
+truth (R1 of the
+[pipeline consolidation design](../../docs/specs/2026-09-13-pipeline-consolidation-design.md),
+which supersedes the one-shot framing of D14 in the
+[data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
+§6).
 
 | Stage | Tool | Status | Runs |
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
-| Print locator index | `page-index/build.ts` | built 2026-08-17, data committed | once (needs the IA hOCR) |
-| Migration (source → truth) | `migrate.ts` | run 2026-09-09 | done; retires at CP-2 |
+| Print locator index | `page-index/build.ts` | built 2026-08-17, data committed | on demand (needs the IA hOCR); admin tool corrects entries afterward |
+| Migration (source → truth) | `migrate.ts` | working, last run 2026-09-09 | on demand, re-runnable |
 | Compile (truth → serving) | `compile.ts` | designed, not built | every deploy |
 
 Migration and compile are specified in the
 [data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
-(§6). One-time examinations of the v1 data — important record, but
+(§6) and the [pipeline consolidation design](../../docs/specs/2026-09-13-pipeline-consolidation-design.md)
+(§3). One-time examinations of the v1 data — important record, but
 **not** steps in this path — live in
 [provenance/](provenance/README.md).
+
+### Inputs
+
+| Directory | Contents | Committed | Who writes it |
+|---|---|---|---|
+| `data/source/` | Sefaria snapshot | yes | `fetch.ts` |
+| `data/page-index/` | print locators (page/column) | yes | `page-index/build.ts`; admin tool corrects |
+| `data/patches/` | per-entry judgments | yes | admin tool appends |
+| `data/quarantine/` | unresolved citation targets | yes | reviewed by hand |
+
+The normal run is `fetch` then `migrate`: pull the current export,
+process it, read the report.
 
 ## Stage 1 — Source acquisition (`fetch.ts`)
 
@@ -74,20 +94,28 @@ bun pipeline:migrate           # dry run: report + docs/v2/migration-blessing.md
 bun pipeline:migrate --write   # after blessing: writes data/entries/
 ```
 
-One-time transform of the source snapshot into the per-entry truth
-layer (`data/entries/`), per the
+Transforms the source snapshot into the per-entry truth layer
+(`data/entries/`), per the
 [data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
 §6: headword decomposition, link typing, markup translation into the
 closed tag vocabulary, refs resolution, slug assignment, and the
 print-locator (`page`/`column`) enrichment — read from the hOCR page
-index (`data/page-index/entries.jsonl`, all 32,512 entries). Gated by
-the nine blessing gates of the
+index (`data/page-index/entries.jsonl`, all 32,512 entries). Its code
+is one of three buckets — rules (detect + fix, general), patches
+(one entry's judged fix, applied when its precondition holds), or
+review detectors (detect only, emit a row) — per the
+[pipeline consolidation design](../../docs/specs/2026-09-13-pipeline-consolidation-design.md)
+§4. Gated by the nine blessing gates of the
 [migrate spec](../../docs/specs/2026-09-06-migrate-design.md) §4.1 —
 round-trips, text conservation, schema, chain agreement, internal
-targets, slugs, pages, composition. Run once on 2026-09-09 with all
-nine green; evidence in
+targets, slugs, pages, composition; a red gate refuses to write.
+`migrate.ts` is re-runnable: it never chokes on the data it is
+given (a failing entry is emitted from source bytes with a review
+row, not dropped), and it never silently overwrites hand edits in
+truth. Every run ends in a report a person reads before the output
+ships — `data/source/migration-report.json`, rendered as
 [docs/v2/migration-blessing.md](../../docs/v2/migration-blessing.md).
-Retires into repo history at the CP-2 layout cleanup.
+Last run 2026-09-09 with all nine gates green.
 
 ## Stage 3 — Compile (`compile.ts`, not yet built)
 

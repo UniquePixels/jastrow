@@ -274,13 +274,17 @@ real-entry corpus is closed (the 1903 print is finished), so:
   chain is derivable (and it stays out of truth); disagreement
   surfaces a rid quirk or upstream error now rather than later.
 
-## 6. Migration (one-time, D14)
+## 6. Migration (D14)
 
 `admin/pipeline/` gains two stages alongside the existing evidence
 tools (`fetch.ts`, `audit.ts`, `mine.ts` are kept as provenance):
 
-- `migrate.ts` — source snapshot → truth files. Runs once, gets
-  blessed, then retires into repo history.
+- ~~`migrate.ts` — source snapshot → truth files. Runs once, gets
+  blessed, then retires into repo history.~~ **Superseded
+  2026-09-13:** `migrate.ts` is permanent and re-runnable, not a
+  one-shot. See the
+  [pipeline consolidation design](2026-09-13-pipeline-consolidation-design.md)
+  §2 (R1).
 - `compile.ts` — truth → serving artifacts, on every deploy, forever.
 
 ### 6.0 Migration prerequisites (design-complete before `migrate.ts` is written)
@@ -464,3 +468,4 @@ Measured 2026-07-07/08 against the 2026-07-04 snapshot:
 | 2026-07-08 | Review round 3: §6.0 reframed around the **entry body model** — origin, sense-1 preamble, senses internals, and quotes are fragments of one printed body, reassembled together (Sefaria fields are inputs, not the model); §2.2 rows for those fields marked provisional |
 | 2026-08-05 | **Entry body model consequences folded in** ([design doc](2026-07-11-entry-body-model-design.md) §8, its §6.0 review complete): §2.2 provisional rows resolved — `origin` rejoins the intro gloss (B2), `quotes` dropped (B8), `refs` dropped with the reference index derived at compile (B7); `senses` becomes the `{label?, gloss, units[], senses[]}` tree with `stems` binyan sections and the `grammar` typed index (B3); example JSON updated to the committed schema shape. §2.3: `<ref rid>`/`<cite ref>` merged into one `<cite ref>` (B10, counts summed 164,807); D7/D8 + migration rules 2–4 reworded to match. §2.5 records the B11 schema deliverable (`admin/pipeline/schema/entry.schema.json`). §3: compile gains the derived reference index + corpus categorization (D11). Register: #1 → derived-index completeness lint; #12 closed; #13 ibid linking, #14 POS enrichment added; #11 notes the future forms index |
 | 2026-09-06 | §6 rule 6 and the render-diff blessing gate superseded by the migrate design. |
+| 2026-09-14 | §6 D14 one-shot wording struck: `migrate.ts` is permanent and re-runnable, per the [pipeline consolidation design](2026-09-13-pipeline-consolidation-design.md) R1. |
