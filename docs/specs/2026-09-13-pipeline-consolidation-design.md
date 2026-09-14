@@ -111,7 +111,7 @@ file. It can tell by rebuilding:
 
 | Term | Meaning |
 |---|---|
-| base | `data/entries/` **as the pipeline last wrote it**: the tree at the commit of the last `--write`. The migration report gains a `writtenAt: <commit>` field so that commit is never guessed (today it records only the file count) |
+| base | `data/entries/` **as the pipeline last wrote it**. After the write, `migrate` computes the git tree object id of `data/entries/` and records it as `writtenTree` in a committed file, `data/source/migration-written.json`. A tree id is content-addressed: it is computable before the commit exists, it does not name the commit that carries it, and it survives rebases and squash merges. Base is recovered with `git read-tree <writtenTree>` into a temporary index (the migration report itself is not committed, D2, so it cannot carry this) |
 | ours | current `data/entries/` |
 | theirs | `migrate` of the *new* snapshot with current rules and patches |
 
@@ -281,4 +281,4 @@ Small PRs into `v2`, in this order; each stands alone.
 |---|---|
 | 2026-09-13 | Initial draft from the review session; rulings R1–R7 recorded |
 | 2026-09-14 | R2 narrowed to the page-index note; R6 reworded: the pipeline runs on the current export and commits the snapshot it used; §3.2 three-way merge as the fresh-vs-update mechanism; §3.3 patch lifecycle (`upstream-fixed` / `upstream-changed`) and the scheduled maintenance dry run; report routing per the maintainer's flow diagram |
-| 2026-09-14 | PR #85 review: §3.2 base is the truth tree at its last write commit, never a rebuild with current rules; §6 biome rationale corrected (`*` does not cross `/`) |
+| 2026-09-14 | PR #85 review: §3.2 base is the truth tree as last written, never a rebuild with current rules; identified by a content-addressed git tree id (`writtenTree`) in a committed file, not by a commit sha; §6 biome rationale corrected (`*` does not cross `/`) |
