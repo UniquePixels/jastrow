@@ -53,9 +53,7 @@ interface TruthFile {
 async function loadTruthFiles(
 	dir = TRUTH_DIR,
 ): Promise<{ files: TruthFile[]; problems: string[] }> {
-	const paths = (
-		await Array.fromAsync(new Bun.Glob('**/*.json').scan(dir))
-	).sort();
+	const paths = await Array.fromAsync(new Bun.Glob('**/*.json').scan(dir));
 	const files: TruthFile[] = [];
 	const problems: string[] = [];
 	await Promise.all(
@@ -68,51 +66,77 @@ async function loadTruthFiles(
 		}),
 	);
 	// Reads settle in any order; the report must not.
-	files.sort((a, b) => (a.path < b.path ? -1 : Number(a.path > b.path)));
-	return { files, problems: problems.sort() };
+	return {
+		files: files.toSorted((a, b) => byCodeUnit(a.path, b.path)),
+		problems: problems.toSorted(byCodeUnit),
+	};
+}
+
+/** Code-unit order: stable across machines, unlike a locale collation. */
+function byCodeUnit(a: string, b: string): number {
+	if (a === b) {
+		return 0;
+	}
+	return a < b ? -1 : 1;
+}
+
+/** What one markup field yields: its problems and its cite refs. */
+interface MarkupFindings {
+	problems: string[];
+	refs: string[];
+}
+
+/** An opening tag is a `<cite ref="…">` (its ref collected) or a bare
+ * vocabulary tag other than `cite`; anything else is a problem. */
+function checkOpenTag(value: string, found: MarkupFindings): void {
+	const cite = CITE_OPEN.exec(value);
+	if (cite !== null) {
+		found.refs.push(cite[1] ?? '');
+		return;
+	}
+	const name = BARE_OPEN.exec(value)?.[1];
+	if (name === undefined || name === 'cite' || !VOCABULARY.has(name)) {
+		found.problems.push(`tag outside the vocabulary: ${value}`);
+	}
+}
+
+/** A closing tag must close the innermost open one. */
+function checkCloseTag(
+	value: string,
+	open: string[],
+	found: MarkupFindings,
+): void {
+	const top = open.pop();
+	if (CLOSE.exec(value)?.[1] !== top) {
+		const closed = top === undefined ? 'nothing' : `<${top}>`;
+		found.problems.push(`${value} closes ${closed}`);
+	}
 }
 
 /** One HTML field against the vocabulary: every open tag is in it with
  * the right attributes, every close matches the innermost open, and
  * nothing is left open. Off-vocabulary opens still go on the stack so
  * their own close is not reported a second time. */
-function markupProblems(html: string): { problems: string[]; refs: string[] } {
-	const problems: string[] = [];
-	const refs: string[] = [];
+function markupProblems(html: string): MarkupFindings {
+	const found: MarkupFindings = { problems: [], refs: [] };
 	const open: string[] = [];
 	for (const token of tokenize(html)) {
 		if (token.kind === 'text') {
 			continue;
 		}
 		if (token.close) {
-			const top = open.pop();
-			if (CLOSE.exec(token.value)?.[1] !== top) {
-				problems.push(
-					`${token.value} closes ${top === undefined ? 'nothing' : `<${top}>`}`,
-				);
-			}
+			checkCloseTag(token.value, open, found);
 			continue;
 		}
-		const cite = CITE_OPEN.exec(token.value);
-		const name = cite === null ? BARE_OPEN.exec(token.value)?.[1] : 'cite';
-		if (cite !== null) {
-			refs.push(cite[1] ?? '');
-		}
-		if (
-			name === undefined || name === 'cite'
-				? cite === null
-				: !VOCABULARY.has(name)
-		) {
-			problems.push(`tag outside the vocabulary: ${token.value}`);
-		}
+		checkOpenTag(token.value, found);
 		if (!token.value.endsWith('/>')) {
 			open.push(token.name);
 		}
 	}
 	if (open.length > 0) {
-		problems.push(`unclosed: ${open.join(',')}`);
+		found.problems.push(`unclosed: ${open.join(',')}`);
 	}
-	return { problems, refs };
+	return found;
 }
 
 /** The HTML fields of a sense tree, with a readable path to each. */
