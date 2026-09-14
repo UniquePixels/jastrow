@@ -111,16 +111,23 @@ file. It can tell by rebuilding:
 
 | Term | Meaning |
 |---|---|
-| base | `migrate` of the *previously committed* snapshot with current rules and patches |
+| base | `data/entries/` **as the pipeline last wrote it**: the tree at the commit of the last `--write`. The migration report gains a `writtenAt: <commit>` field so that commit is never guessed (today it records only the file count) |
 | ours | current `data/entries/` |
-| theirs | `migrate` of the *new* snapshot |
+| theirs | `migrate` of the *new* snapshot with current rules and patches |
 
-`ours − base` is exactly the set of hand edits, because base is
-deterministic. The update run applies a per-entry three-way merge:
-theirs where ours == base, ours where theirs == base, and a review
-row where all three differ. This is why the snapshot must always be
-committed: it is the merge base. No provenance field and no patch
-re-recording is needed.
+`ours − base` is exactly the set of hand edits, because base is the
+pipeline's own output before anyone touched it. Base is *not* rebuilt
+from the old snapshot with current rules: rules and patches may have
+changed since that write, and a rebuilt base would fold those changes
+into "hand edits" (review finding, PR #85). Rule changes belong on the
+theirs side, where they are merged like any source change.
+
+The update run applies a per-entry three-way merge: theirs where
+ours == base, ours where theirs == base, and a review row where all
+three differ. The committed snapshot is still required: it is what
+makes the last write reproducible and auditable, and what the
+maintenance dry run (§3.3) diffs the new export against. No provenance
+field and no patch re-recording is needed.
 
 ### 3.3 Patch lifecycle and the maintenance dry run
 
@@ -199,7 +206,7 @@ research code or are deleted where they only pinned counts.
 
 | Where | Change |
 |---|---|
-| `biome.json` | include `data/entries/**/*.json` explicitly (today it is caught by the top-level-only `!data/*.json` exclude by accident); linter off for that path; drop the four stale overrides (`data/admin/**`, `scripts/*.ts`, `.commitlintrc.ts`, `**/*.js`) |
+| `biome.json` | include `data/entries/**/*.json` deliberately. Today those files are checked only because the `!data/*.json` exclude matches JSON files directly under `data/` and never reaches `data/entries/` (Biome's `*` does not match `/`); the inclusion is a side effect, not a decision. Linter off for that path; drop the four stale overrides (`data/admin/**`, `scripts/*.ts`, `.commitlintrc.ts`, `**/*.js`) |
 | `package.json` | `pipeline:migrate` ends with `biome format --write data/entries` |
 | admin tool | formats every file it writes (biome is a dev dependency) |
 | CI | `biome ci` keeps *checking*; it never rewrites or commits |
@@ -274,3 +281,4 @@ Small PRs into `v2`, in this order; each stands alone.
 |---|---|
 | 2026-09-13 | Initial draft from the review session; rulings R1–R7 recorded |
 | 2026-09-14 | R2 narrowed to the page-index note; R6 reworded: the pipeline runs on the current export and commits the snapshot it used; §3.2 three-way merge as the fresh-vs-update mechanism; §3.3 patch lifecycle (`upstream-fixed` / `upstream-changed`) and the scheduled maintenance dry run; report routing per the maintainer's flow diagram |
+| 2026-09-14 | PR #85 review: §3.2 base is the truth tree at its last write commit, never a rebuild with current rules; §6 biome rationale corrected (`*` does not cross `/`) |
