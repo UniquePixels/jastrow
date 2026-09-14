@@ -6,7 +6,12 @@
 import { describe, expect, it } from 'bun:test';
 import type { PagePlacement } from './page.ts';
 import type { TruthEntry } from './types.ts';
-import { markupProblems, type TruthFile, validateTruth } from './validate.ts';
+import {
+	loadTruthFiles,
+	markupProblems,
+	type TruthFile,
+	validateTruth,
+} from './validate.ts';
 
 function entry(id: string, slug: string, gloss: string): TruthEntry {
 	return {
@@ -101,6 +106,36 @@ describe('validateTruth', () => {
 			'A00001: headword.text: markup in a plain-text field',
 		],
 		[
+			'markup in an alt headword',
+			tree({ ...A(), altHeadwords: [{ text: 'אבא</he>' }] }, B()),
+			'A00001: altHeadwords[0].text: markup in a plain-text field',
+		],
+		[
+			'markup in a slug',
+			tree(A(), { ...B(), slug: '<b>אבא' }),
+			'A00002: slug: markup in a plain-text field',
+		],
+		[
+			'markup in a nested stem sense label',
+			tree(A(), {
+				...B(),
+				stems: [
+					{
+						stem: 'Pi.',
+						forms: [],
+						senses: [
+							{
+								gloss: 'g',
+								units: [],
+								senses: [{ label: '<i>a</i>', gloss: 'n', units: [] }],
+							},
+						],
+					},
+				],
+			}),
+			'A00002: stems[0].senses[0].senses[0].label: markup in a plain-text field',
+		],
+		[
 			'a dangling internal cite',
 			tree(A(), entry('A00002', 'אבא', '<cite ref="A09999">x</cite>')),
 			'A00002: senses[0].gloss: cite ref A09999 names no entry',
@@ -141,6 +176,24 @@ describe('validateTruth', () => {
 	])('reports %s', (_name, files, expected) => {
 		expect(validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual([
 			expected,
+		]);
+	});
+
+	it('reads files at every depth, so a misplaced one is reported', async () => {
+		const { files, problems } = await loadTruthFiles(
+			'admin/pipeline/migrate/fixtures/truth-tree',
+		);
+		expect(problems).toEqual([]);
+		expect(files.map((f) => f.path)).toEqual([
+			'A/A00001.json',
+			'A/old/A00003.json',
+			'A00002.json',
+		]);
+		expect(
+			validateTruth(files, pagesFor('A00001', 'A00002', 'A00003')),
+		).toEqual([
+			'A/old/A00003.json: id A00003 belongs at A/A00003.json',
+			'A00002.json: id A00002 belongs at A/A00002.json',
 		]);
 	});
 

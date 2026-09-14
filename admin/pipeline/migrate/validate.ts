@@ -45,14 +45,16 @@ interface TruthFile {
 	path: string;
 }
 
-/** Every `*\/*.json` under `dir`, in path order. A file that does not
- * parse is a problem, not a thrown error, so one bad hand edit does not
- * hide every other finding. */
+/** Every JSON file at any depth under `dir`, in path order — not just
+ * `<letter>/<file>`, so a file misplaced at the root or one level too
+ * deep is still read and reported away from its home. A file that does
+ * not parse is a problem, not a thrown error, so one bad hand edit does
+ * not hide every other finding. */
 async function loadTruthFiles(
 	dir = TRUTH_DIR,
 ): Promise<{ files: TruthFile[]; problems: string[] }> {
 	const paths = (
-		await Array.fromAsync(new Bun.Glob('*/*.json').scan(dir))
+		await Array.fromAsync(new Bun.Glob('**/*.json').scan(dir))
 	).sort();
 	const files: TruthFile[] = [];
 	const problems: string[] = [];
@@ -139,13 +141,31 @@ function* markupFields(entry: TruthEntry): Generator<[string, string]> {
 	}
 }
 
+/** The sense labels of a sense tree (`1`, `a`, …), with their paths. */
+function* senseLabels(
+	senses: readonly TruthSense[],
+	at: string,
+): Generator<[string, string]> {
+	for (const [i, sense] of senses.entries()) {
+		if (sense.label !== undefined) {
+			yield [`${at}[${i}].label`, sense.label];
+		}
+		yield* senseLabels(sense.senses ?? [], `${at}[${i}].senses`);
+	}
+}
+
 /** Every field that must carry none: the headword forms and the slug
- * are identifiers, and `slug.ts` and the compiler read them as text. */
+ * are identifiers, and `slug.ts` and the compiler read them as text;
+ * sense labels are numbering. */
 function* plainFields(entry: TruthEntry): Generator<[string, string]> {
 	yield ['slug', entry.slug];
 	yield ['headword.text', entry.headword.text];
 	for (const [i, alt] of (entry.altHeadwords ?? []).entries()) {
 		yield [`altHeadwords[${i}].text`, alt.text];
+	}
+	yield* senseLabels(entry.senses, 'senses');
+	for (const [i, stem] of (entry.stems ?? []).entries()) {
+		yield* senseLabels(stem.senses, `stems[${i}].senses`);
 	}
 }
 
@@ -170,18 +190,12 @@ function checkFiles(
 	return entries;
 }
 
-/** Ids and slugs are unique across the tree. */
-function checkIdentity(
-	entries: readonly TruthEntry[],
-	problems: string[],
-): void {
-	const ids = new Set<string>();
+/** Slugs are unique across the tree. Ids need no check of their own:
+ * glob paths are unique and `checkFiles` allows each id one path, so a
+ * second file for an id is already reported as away from its home. */
+function checkSlugs(entries: readonly TruthEntry[], problems: string[]): void {
 	const slugs = new Map<string, string>();
 	for (const { id, slug } of entries) {
-		if (ids.has(id)) {
-			problems.push(`${id}: duplicate id`);
-		}
-		ids.add(id);
 		const owner = slugs.get(slug);
 		if (owner === undefined) {
 			slugs.set(slug, id);
@@ -250,7 +264,7 @@ function validateTruth(
 ): string[] {
 	const problems: string[] = [];
 	const entries = checkFiles(files, problems);
-	checkIdentity(entries, problems);
+	checkSlugs(entries, problems);
 	const ids = new Set(entries.map((e) => e.id));
 	for (const entry of entries) {
 		checkMarkup(entry, ids, problems);
