@@ -32,3 +32,4 @@ data/source/migration-report.json
 
 # corpus-tier shard logs (admin/pipeline/audit-corpus.sh)
 corpus-shard-*.log
+.$*.bkp
