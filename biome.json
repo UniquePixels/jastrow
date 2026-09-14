@@ -15,7 +15,8 @@
 			"!data/source/*.json",
 			"!data/source/*.jsonl",
 			"!docs/superpowers/plans/*.tasks.json",
-			"!**/*.drawio.svg"
+			"!**/*.drawio.svg",
+			"data/entries/**/*.json"
 		]
 	},
 	"assist": {
@@ -244,43 +245,9 @@
 	},
 	"overrides": [
 		{
-			"includes": ["**/*.js"],
+			"includes": ["data/entries/**/*.json"],
 			"linter": {
-				"rules": {
-					"style": {
-						"useConsistentMemberAccessibility": "off"
-					}
-				}
-			}
-		},
-		{
-			"includes": [".commitlintrc.ts"],
-			"linter": {
-				"rules": {
-					"style": {
-						"noDefaultExport": "off"
-					}
-				}
-			}
-		},
-		{
-			"includes": ["data/admin/**"],
-			"linter": {
-				"rules": {
-					"correctness": {
-						"noNodejsModules": "off"
-					},
-					"performance": {
-						"noDelete": "off",
-						"noSyncScripts": "off"
-					},
-					"style": {
-						"noProcessEnv": "off"
-					},
-					"suspicious": {
-						"noAlert": "off"
-					}
-				}
+				"enabled": false
 			}
 		},
 		{
@@ -318,19 +285,6 @@
 					},
 					"suspicious": {
 						"noConsole": "off"
-					}
-				}
-			}
-		},
-		{
-			"includes": ["scripts/*.ts", "!scripts/**/*.test.ts"],
-			"linter": {
-				"rules": {
-					"correctness": {
-						"noNodejsModules": "off"
-					},
-					"style": {
-						"noProcessEnv": "off"
 					}
 				}
 			}
