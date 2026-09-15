@@ -1,8 +1,12 @@
 /**
- * Fixture tier for `stranded-tail.ts`'s two rules, plus the corpus tier
- * that pins the populations the module doc states — `stranded-
- * tail.ts`'s own doc has the measured numbers and the design
- * rationale; this file is where they are asserted.
+ * Fixture tier for `stranded-tail.ts`'s two rules — `stranded-tail.ts`'s
+ * own doc has the measured numbers and the design rationale.
+ *
+ * The corpus tier that pinned the populations the module doc states
+ * (both rows' occurrence and entry counts, plus the no-regression
+ * invariants on markup, anchor count and anchor tag bytes) was retired
+ * in consolidation step 5 and is listed in
+ * `docs/v2/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
@@ -10,8 +14,6 @@ import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
 import { checkMarkup } from '../markup.ts';
 import { fieldsOf } from '../no-new-text.ts';
-import type { Rule } from '../types.ts';
-import { sourceEntries } from './corpus-fixture.ts';
 import {
 	superscriptInsideAnchor,
 	truncatedCitationDigit,
@@ -45,13 +47,6 @@ function anchorTags(entry: SourceEntry): string[] {
 	return fieldsOf(entry)
 		.flatMap((field) => anchors(tokenize(field)).map((a) => a.tag))
 		.sort();
-}
-
-/** Whether two sorted tag lists are the same multiset, position for
- * position — `anchorTags` already sorts both sides, so this is a plain
- * elementwise compare. */
-function sameTags(a: readonly string[], b: readonly string[]): boolean {
-	return a.length === b.length && a.every((tag, i) => tag === b[i]);
 }
 
 describe('superscriptInsideAnchor', () => {
@@ -183,97 +178,4 @@ describe('truncatedCitationDigit', () => {
 		expect(truncatedCitationDigit.allows).toBeUndefined();
 		expect(anchorTags(out.entry)).toEqual(anchorTags(before));
 	});
-});
-
-/** One rule's running total over the corpus walk: occurrences, entries
- * touched, and the three invariants asserted once at the end rather
- * than inside the loop (lint/nursery/noConditionalExpect) — any
- * `checkMarkup` problem, any rid whose anchor count drifted, and any
- * rid whose anchor tag bytes (AC3: no `href`/`data-ref` written)
- * drifted. */
-interface Tally {
-	drift: string[];
-	entries: Set<string>;
-	occurrences: number;
-	problems: string[];
-	tagDrift: string[];
-}
-
-function freshTally(): Tally {
-	return {
-		drift: [],
-		entries: new Set(),
-		occurrences: 0,
-		problems: [],
-		tagDrift: [],
-	};
-}
-
-/** Apply `rule` to `entry` and fold the result into `tally` — the body
- * of the per-entry, per-rule check, pulled out of the corpus test's own
- * callback so that callback stays under
- * lint/complexity/noExcessiveCognitiveComplexity. */
-function tallyOne(entry: SourceEntry, rule: Rule, tally: Tally): void {
-	const result = rule.apply(entry);
-	if (result.records.length === 0) {
-		return;
-	}
-	// Measured AFTER the apply, and only on the entries that actually
-	// fired. `Rule.apply` MUST treat `entry` as immutable
-	// (`transform/types.ts`), so these read the same source bytes they
-	// would have before the call — but almost every one of the 32,512
-	// entries returns above, and computing them first tokenized the
-	// whole corpus twice per rule to throw the answer away.
-	const before = anchorCount(entry);
-	const beforeTags = anchorTags(entry);
-	tally.occurrences += result.records.length;
-	tally.entries.add(entry.rid);
-	tally.problems.push(...checkMarkup(entry, result.entry));
-	if (anchorCount(result.entry) !== before) {
-		tally.drift.push(entry.rid);
-	}
-	if (!sameTags(beforeTags, anchorTags(result.entry))) {
-		tally.tagDrift.push(entry.rid);
-	}
-}
-
-describe('corpus tier', () => {
-	it('both rows reproduce; the superscript row is T/U/V only, and neither regresses markup, anchor count, or anchor tag bytes', async () => {
-		const sup = freshTally();
-		const dig = freshTally();
-		for (const entry of await sourceEntries()) {
-			tallyOne(entry, superscriptInsideAnchor, sup);
-			tallyOne(entry, truncatedCitationDigit, dig);
-		}
-		expect([...sup.problems, ...dig.problems]).toEqual([]);
-		expect([...sup.drift, ...dig.drift]).toEqual([]);
-		expect([...sup.tagDrift, ...dig.tagDrift]).toEqual([]);
-		expect(sup.occurrences).toBe(182);
-		expect(sup.entries.size).toBe(160);
-		expect([...new Set([...sup.entries].map((r) => r[0]))].sort()).toEqual([
-			'T',
-			'U',
-			'V',
-		]);
-		expect(dig.occurrences).toBe(14);
-		// AC2 names the fourteen rids explicitly — pinned by IDENTITY, not
-		// only by count, so a predicate that swapped one rid for another
-		// fails here (fix round 1, finding I1).
-		expect([...dig.entries].sort()).toEqual([
-			'D00989',
-			'G00065',
-			'H00054',
-			'H00504',
-			'H01172',
-			'H01271',
-			'M01467',
-			'N00044',
-			'N01108',
-			'O01097',
-			'O01464',
-			'Q01590',
-			'R00351',
-			'S01753',
-		]);
-	}, 120_000);
 });

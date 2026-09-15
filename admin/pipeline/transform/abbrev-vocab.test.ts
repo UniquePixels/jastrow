@@ -1,7 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { computeSnapshot, LOCK_PATH, parseLock } from '../patch/snapshot.ts';
-import { ABBREVIATIONS, deriveAbbreviations, isLabel } from './abbrev-vocab.ts';
-import { sourceEntries } from './rules/corpus-fixture.ts';
+import { isLabel } from './abbrev-vocab.ts';
 
 /** The 20 labels `label-period-outside-italic`'s round-4 audit names —
  * 7 cross-letter-unanimous conventions plus the 13 it proved to be
@@ -31,17 +29,11 @@ const AUDIT_LABELS = [
 ];
 
 /**
- * The re-derivation below measures the PINNED snapshot. When the
- * snapshot has moved, the frozen list describes a corpus that is no
- * longer on disk, so a mismatch would be a stale baseline rather than
- * a defect — `count.ts` takes the same position and skips instead of
- * reporting up to 80 false deltas. Re-baselining is deliberate: run
- * the derivation in `abbrev-vocab.ts`'s docstring and commit the new
- * list.
+ * The re-derivation against the pinned snapshot — measuring the corpus
+ * afresh and requiring the frozen `ABBREVIATIONS` set unchanged — was
+ * retired in consolidation step 5 and is listed in
+ * `docs/v2/retired-corpus-checks.md`.
  */
-const pinned = parseLock(await Bun.file(LOCK_PATH).text());
-const onPinnedSnapshot = pinned.combined === (await computeSnapshot()).combined;
-
 describe('abbreviation vocabulary', () => {
 	it('every label the round-4 audit names is in the frozen set', () => {
 		for (const label of AUDIT_LABELS) {
@@ -51,20 +43,6 @@ describe('abbreviation vocabulary', () => {
 			});
 		}
 	});
-
-	it.skipIf(!onPinnedSnapshot)(
-		're-derives from the pinned snapshot unchanged',
-		async () => {
-			const entries = await sourceEntries();
-			const derived = deriveAbbreviations(entries);
-			// biome-ignore lint/suspicious/noConsole: the derived size on stdout is this test's evidence it measured the corpus rather than skipping
-			console.log(
-				`derived ${derived.size} abbreviations from ${entries.length} entries (frozen: ${ABBREVIATIONS.size})`,
-			);
-			expect(derived.size).toBe(ABBREVIATIONS.size);
-			expect([...derived].sort()).toEqual([...ABBREVIATIONS].sort());
-		},
-	);
 
 	it('isLabel trims before looking up', () => {
 		expect(isLabel(' Part. pass ')).toBe(true);

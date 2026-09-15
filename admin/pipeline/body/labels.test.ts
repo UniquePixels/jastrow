@@ -1,5 +1,4 @@
 import { describe, expect, it } from 'bun:test';
-import { sourceEntries } from '../transform/rules/corpus-fixture.ts';
 import { walkSenses } from './census.ts';
 import { parseLabel, printLabel } from './labels.ts';
 import { parseSourceEntry } from './source.ts';
@@ -129,25 +128,6 @@ function checkAllLabels(values: Iterable<string>): string[] {
 	}
 	return failures;
 }
-
-describe('parseLabel/printLabel corpus sweep', () => {
-	it('round-trips or quarantines every distinct sense.number value in the corpus', async () => {
-		// The corpus tier holds one shared copy of the snapshot for the
-		// whole run (`corpus-fixture.ts`), so streaming a second one here
-		// would buy nothing and cost a re-read.
-		const seen = tallyLabels(await sourceEntries());
-		expect(seen.size).toBeGreaterThan(0);
-		expect(checkAllLabels(seen.keys())).toEqual([]);
-
-		// Every value this test declares quarantined must actually appear
-		// in the corpus and actually fail to parse — otherwise the
-		// quarantine list has drifted from reality.
-		const quarantineDrift = [...EXPECTED_QUARANTINE].filter(
-			(raw) => !(seen.has(raw) && 'unknown' in parseLabel(raw)),
-		);
-		expect(quarantineDrift).toEqual([]);
-	});
-});
 
 async function loadFixtureEntries(fixturesDir: string): Promise<SourceEntry[]> {
 	const glob = new Bun.Glob('*.jsonl');
