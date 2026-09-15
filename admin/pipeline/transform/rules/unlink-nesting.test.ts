@@ -3,20 +3,14 @@
  * 2026-08-23 in `unlinkMatching` (see that function's docstring in
  * `unlink.ts` for the full mechanism, and `links.ts`'s `anchors`
  * docstring for the corpus-wide nesting counts). Split into its own
- * file rather than folded into `unlink.corpus.test.ts`: this is a property of
- * the SHARED removal machinery, not any one rule, and `unlink.corpus.test.ts`
- * was already at the file's line budget before these two tests.
+ * file rather than folded into `unlink.test.ts`: this is a property of
+ * the SHARED removal machinery, not any one rule. The corpus-wide
+ * tag-balance check that ran this machinery over every entry was
+ * retired in consolidation step 5 and is listed in
+ * `docs/v2/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
-import type { SourceSense } from '../../body/types.ts';
-import { applyTransforms } from '../run.ts';
-import { sourceEntries } from './corpus-fixture.ts';
-import {
-	apparatusCite,
-	ellipsisFragment,
-	rabbiName,
-	unlinkMatching,
-} from './unlink.ts';
+import { unlinkMatching } from './unlink.ts';
 
 /** Count of `<a` opens vs `</a` closes in a string — the tag-balance
  * check the reviewer ran corpus-wide against the reverse-order-
@@ -27,19 +21,6 @@ function tagBalance(text: string): { closes: number; opens: number } {
 		closes: (text.match(/<\/a>/gu) ?? []).length,
 		opens: (text.match(/<a\b/gu) ?? []).length,
 	};
-}
-
-/** Every `definition` in `senses`, recursing through nested senses —
- * the same shape `unlink.ts`'s own `unlinkOverDefinitions` walks. */
-function* definitionsOf(senses: readonly SourceSense[]): Generator<string> {
-	for (const sense of senses) {
-		if (sense.definition !== undefined) {
-			yield sense.definition;
-		}
-		if (sense.senses !== undefined) {
-			yield* definitionsOf(sense.senses);
-		}
-	}
 }
 
 // A00282, verbatim: the reviewer's proof shape, a real nested
@@ -66,29 +47,3 @@ it('removes both members of a nested duplicate anchor pair cleanly (A00282)', ()
 	const balance = tagBalance(result.text);
 	expect(balance.opens).toBe(balance.closes);
 });
-
-// Corpus-wide tag-balance check (maintainer request, 2026-08-23),
-// kept as a permanent test rather than a one-off command so a future
-// rule sharing this machinery gets the same net.
-it('keeps every rewritten definition tag-balanced corpus-wide', async () => {
-	// 32k+ entries read from disk and tokenized; bun's 5s default test
-	// timeout is too tight for a full corpus pass.
-	const broken: string[] = [];
-	for (const source of await sourceEntries()) {
-		const { entry: out, records } = applyTransforms(source, 'text-repairs', [
-			apparatusCite,
-			rabbiName,
-			ellipsisFragment,
-		]);
-		if (records.length === 0) {
-			continue;
-		}
-		for (const definition of definitionsOf(out.content.senses)) {
-			const balance = tagBalance(definition);
-			if (balance.opens !== balance.closes) {
-				broken.push(source.rid);
-			}
-		}
-	}
-	expect(broken).toEqual([]);
-}, 30_000);

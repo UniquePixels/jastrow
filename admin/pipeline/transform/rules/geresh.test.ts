@@ -1,41 +1,21 @@
 /**
  * Discovery queries behind `rules/geresh.ts` (batch-2 task 5). Every
- * number in that module's docstring came from a corpus walk of this
- * shape — a RECURSIVE `content.senses` walk (senses nest; a flat walk
- * loses about a quarter of the population) and
- * `anchors(tokenize(definition))` for the anchors:
- *
- * ```ts
- * for (const entry of await sourceEntries()) {
- *   for (const definition of definitionsOf(entry)) {
- *     for (const anchor of anchors(tokenize(definition))) {
- *       if (bareStubRaw(entry, anchor)) { … }
- *     }
- *   }
- * }
- * ```
+ * number in that module's docstring came from a corpus walk — a
+ * RECURSIVE `content.senses` walk (senses nest; a flat walk loses about
+ * a quarter of the population) and `anchors(tokenize(definition))` for
+ * the anchors.
  *
  * task-5-report.md and `data/patches/catalogue-audit/geresh-abbrev-arms.md`
  * have the runnable scripts, including the ones for the arms these
- * rules deliberately leave alone. The corpus-walking tests at the
- * bottom of this file re-run the two that are load-bearing — the
- * population sizes, and the claim that the rules repair all of them —
- * so a corpus edit or a narrowed predicate fails here, on every
- * `bun qa`, rather than only on a `bun transform:count` someone
- * remembers to run.
+ * rules deliberately leave alone. The corpus-walking tests that re-ran
+ * the two load-bearing claims — the population sizes, and the claim
+ * that the rules repair all of them — were retired in consolidation
+ * step 5 and are listed in `docs/v2/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
-import { tokenize } from '../html.ts';
-import { anchors } from '../links.ts';
 import { applyTransforms } from '../run.ts';
-import { sourceEntries } from './corpus-fixture.ts';
-import {
-	bareStubRaw,
-	gereshLetterNumeral,
-	prefixedGereshAbbrev,
-	prefixedStubRaw,
-} from './geresh.ts';
+import { gereshLetterNumeral, prefixedGereshAbbrev } from './geresh.ts';
 
 /** `headword` is load-bearing for both rules — it is what the stub
  * must abbreviate — and `fieldsOf` reads it when building the gate's
@@ -230,88 +210,3 @@ it('reaches a stub nested inside a sub-sense', () => {
 	);
 	expect(out.records).toHaveLength(2);
 });
-
-/** Add one entry's members to `tally`, per arm. Split out of the
- * corpus census only to keep the nesting the walk needs under the
- * cognitive-complexity budget. */
-function tallyArms(
-	source: SourceEntry,
-	tally: { bare: number; prefixed: number },
-	entries: { bare: Set<string>; prefixed: Set<string> },
-): void {
-	for (const definition of definitionsOf(source)) {
-		for (const anchor of anchors(tokenize(definition))) {
-			if (bareStubRaw(source, anchor)) {
-				tally.bare += 1;
-				entries.bare.add(source.rid);
-			} else if (prefixedStubRaw(source, anchor)) {
-				tally.prefixed += 1;
-				entries.prefixed.add(source.rid);
-			}
-		}
-	}
-}
-
-/** The recursive definition walk the corpus tests use — the same
- * shape `unlinkOverDefinitions` walks. Senses nest, and a flat
- * `content.senses` walk loses about a quarter of this population. */
-function* definitionsOf(source: SourceEntry): Generator<string> {
-	const walk = function* (
-		senses: readonly { definition?: string; senses?: unknown[] }[],
-	): Generator<string> {
-		for (const sense of senses) {
-			if (sense.definition !== undefined) {
-				yield sense.definition;
-			}
-			if (sense.senses !== undefined) {
-				yield* walk(
-					sense.senses as { definition?: string; senses?: unknown[] }[],
-				);
-			}
-		}
-	};
-	yield* walk(source.content.senses);
-}
-
-/** The no-op detector. A predicate that silently stops matching — a
- * character class where a digraph was meant, a niqqud-intolerant stub
- * pattern (which measures 690 where the truth is 707) — passes every
- * other test in this file by doing nothing. These counts are the
- * whole population, measured, and they fail on any predicate that
- * narrows. */
-it('matches the measured corpus population, both arms', async () => {
-	const tally = { bare: 0, prefixed: 0 };
-	const entries = { bare: new Set<string>(), prefixed: new Set<string>() };
-	for (const source of await sourceEntries()) {
-		tallyArms(source, tally, entries);
-	}
-	expect({ entries: entries.bare.size, occurrences: tally.bare }).toEqual({
-		entries: 475,
-		occurrences: 517,
-	});
-	expect({
-		entries: entries.prefixed.size,
-		occurrences: tally.prefixed,
-	}).toEqual({ entries: 173, occurrences: 185 });
-}, 120_000);
-
-/** The other half of the pair above: the population is one number,
- * what the rules actually REMOVE is another, and `transform:count`
- * reports only the second. Pinning both means a member the removal
- * loop skips — an anchor it finds unusable, one buried in a nested
- * pair — shows up as a gap here instead of as a quiet shortfall.
- * Measured: zero gap, all 702 occurrences removed. */
-it('unlinks every member of both populations', async () => {
-	const removed = { bare: 0, prefixed: 0 };
-	const entries = { bare: 0, prefixed: 0 };
-	for (const source of await sourceEntries()) {
-		const bare = gereshLetterNumeral.apply(source);
-		const prefixed = prefixedGereshAbbrev.apply(source);
-		removed.bare += bare.unlinks ?? 0;
-		removed.prefixed += prefixed.unlinks ?? 0;
-		entries.bare += bare.records.length > 0 ? 1 : 0;
-		entries.prefixed += prefixed.records.length > 0 ? 1 : 0;
-	}
-	expect(removed).toEqual({ bare: 517, prefixed: 185 });
-	expect(entries).toEqual({ bare: 475, prefixed: 173 });
-}, 120_000);
