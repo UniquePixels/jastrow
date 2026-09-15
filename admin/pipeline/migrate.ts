@@ -21,6 +21,7 @@ import {
 } from './body/compose.ts';
 import { buildTrace } from './body/dry-run.ts';
 import { evaluateRoundTrip } from './body/dry-run-verify.ts';
+import type { PassName } from './body/repairs.ts';
 import { readSourceEntries } from './body/source.ts';
 import type { BodyEntry, SourceEntry } from './body/types.ts';
 import {
@@ -73,7 +74,7 @@ const SAMPLE_COUNT = 40;
 /** `repairs.ts` pass names (`PassName`), counted as rules alongside
  * the registry (consolidation spec §4.1). A pass missing here still
  * gets a row when it fires — only its zero row would be lost. */
-const REPAIR_PASSES = [
+const REPAIR_PASSES: readonly PassName[] = [
 	'rejoin-chopped',
 	'implied-one',
 	'marker-reinsert',
