@@ -188,14 +188,23 @@ patches still hold. Under R3 (maintainer, 2026-09-14):
 
 - A stale pin is one count in the report header
   (`snapshot.stalePins`). It skips nothing.
-- Each patch is judged by its own precondition: its target must
-  resolve `expected_occurrences` times. If it does not, the patch is
-  skipped and reported `upstream-fixed` (the target is gone and the
-  senses the patch would produce are present) or `upstream-changed`
-  (anything else, including a partial count and a sense-deleting
-  patch, which cannot be told apart from an edit).
-- `--strict` restores both refusals: a stale pin or a drifted patch
-  fails the run.
+- Each ACCEPTED patch is judged by its own precondition: its target
+  must resolve `expected_occurrences` times. If it does not, the
+  patch is skipped and reported `upstream-fixed` (the target is gone
+  and the senses the patch would produce are present) or
+  `upstream-changed` (anything else, including a partial count and a
+  sense-deleting patch, which cannot be told apart from an edit).
+- A carry-over patch is different: `applyCarryOver` resolves its
+  target against the healed entry BEFORE any drift check, and a
+  target resolving 0 times there is recorded `absorbed` — reported
+  `superseded`, not drift-classified — by construction (on the
+  committed snapshot this means a repair or rule absorbed the
+  defect). This is a known gap: on a new export, an upstream rewrite
+  of a carry-over target also reads 0 resolutions and is
+  indistinguishable from an absorbed one, so it too reports
+  `superseded` rather than `upstream-changed`. See §10.
+- `--strict` restores both refusals: a stale pin or a drifted
+  accepted patch fails the run.
 
 Silent skipping is never allowed: every skip is a row and a count in
 the report header.
@@ -286,6 +295,7 @@ folded into migrate; it is the patch engine, not research.
 | `compile.ts` | data-architecture §3 |
 | Port judgment-class detectors from archived research code | ad hoc, one class per PR |
 | Review the 298 low-confidence page placements | review queue |
+| Drift-classify carry-over zero-match (check target on pre-transform source; 3 of 66 carry-overs are exceptions to that test: P000024, P000029, P000027) | after §11 |
 
 ## 11. Sequence
 
@@ -311,3 +321,4 @@ Small PRs into `v2`, in this order; each stands alone.
 | 2026-09-14 | R2 narrowed to the page-index note; R6 reworded: the pipeline runs on the current export and commits the snapshot it used; §3.2 three-way merge as the fresh-vs-update mechanism; §3.3 patch lifecycle (`upstream-fixed` / `upstream-changed`) and the scheduled maintenance dry run; report routing per the maintainer's flow diagram |
 | 2026-09-14 | PR #85 review: §3.2 base is the truth tree as last written, never a rebuild with current rules; identified by a content-addressed git tree id (`writtenTree`) in a committed file, not by a commit sha; §6 biome rationale corrected (`*` does not cross `/`) |
 | 2026-09-14 | Step 4: §4.2 a stale pin is a header count and each patch is judged by its precondition, `--strict` restores refusal; §3.1 row fields and kinds as built, rule counts are composed; §5.2 required checks deferred to near release |
+| 2026-09-14 | Final-fix wave: §5.1 Rebuild runs `--strict`; §4.2 carry-over zero-match documented as `superseded`, not drift-classified, with the gap pinned at §10 |

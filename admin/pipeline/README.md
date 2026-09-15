@@ -120,10 +120,13 @@ run ends in a report a person reads before the output ships —
 The report holds the nine gate tallies, one row per review item,
 patch re-judgment or pipeline fault (`{ rid, bucket, kind, severity,
 detail }`), a composed count per rule, and an outcome per patch
-(`applied`, `superseded`, `upstream-fixed`, `upstream-changed`). A
-stale snapshot pin is a count, not a refusal; `bun pipeline:migrate
---strict` refuses on a stale pin or a drifted patch. Last run
-2026-09-09 with all nine gates green.
+(`applied`, `superseded`, `upstream-fixed`, `upstream-changed`) —
+except a patch that fails its apply gate or targets a missing entry,
+which gets a fault row instead of an outcome, and a carry-over patch
+whose target resolves 0 times, which is `superseded` by construction
+rather than drift-classified. A stale snapshot pin is a count, not a
+refusal; `bun pipeline:migrate --strict` refuses on a stale pin or a
+drifted patch. Last run 2026-09-09 with all nine gates green.
 
 ## Stage 3 — Compile (`compile.ts`, not yet built)
 
