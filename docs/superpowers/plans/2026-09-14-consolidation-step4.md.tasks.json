@@ -1,0 +1,58 @@
+{
+  "planPath": "docs/superpowers/plans/2026-09-14-consolidation-step4.md",
+  "tasks": [
+    {
+      "id": 1,
+      "subject": "Task 1: Patch drift classification",
+      "status": "completed",
+      "description": "**Goal:** A pure function that says whether a patch's precondition holds on an entry and, if not, whether the source already reads as the patch leaves it.\n\n**Files:**\n- Create: `admin/pipeline/patch/drift.ts`\n- Test: `admin/pipeline/patch/drift.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `classifyDrift(entry, patch)` returns `undefined` when the target resolves exactly `expected_occurrences` times.\n- [ ] Returns `'upstream-fixed'` when the target resolves 0 times and a contiguous sibling run at any depth equals (number + definition) the senses the patch produces from its own `expected_before`.\n- [ ] Returns `'upstream-changed'` for every other mismatch, including a partial count (found > 0), a sense-deleting patch, and a patch that cannot apply to its own `expected_before`.\n- [ ] 9 tests in `drift.test.ts` pass.\n\n**Verify:** `bun test admin/pipeline/patch/drift.test.ts` → `9 pass, 0 fail`\n\nFull test and implementation code: plan Task 1.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/drift.ts\", \"admin/pipeline/patch/drift.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/patch/drift.test.ts\", \"acceptanceCriteria\": [\"undefined when precondition holds\", \"upstream-fixed only when target gone and post-state run present\", \"upstream-changed otherwise incl. partial count, sense delete, unapplicable\", \"9 tests pass\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 2,
+      "subject": "Task 2: Opt-in drift mode and pin option",
+      "status": "completed",
+      "blockedBy": [
+        1
+      ],
+      "description": "**Goal:** `applyEntryPatches`, `applyCarryOver` and `composeEntry` can report drift as outcomes instead of problems, and `corpusPreflight` can skip the pin check — all opt-in, defaults unchanged.\n\n**Files:**\n- Modify: `admin/pipeline/patch/apply.ts` (`PreflightOptions` ~l.280, `corpusPreflight` ~l.309, `applyEntryPatches` ~l.488, `applyCarryOver` ~l.541, exports)\n- Modify: `admin/pipeline/body/compose.ts` (`ComposePatches`, `ComposeResult`, `composeEntry` patch-apply phase)\n- Test: `admin/pipeline/patch/apply.test.ts`, `admin/pipeline/body/compose.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `stalePins(patches, pin)` returns the patches whose `snapshot` differs from `pin`.\n- [ ] `corpusPreflight(..., { pins: 'skip' })` reports no `snapshot pin` problem but still reports overlapping patches; omitting `pins` behaves as today.\n- [ ] `applyEntryPatches(entry, patches, 'outcome')` returns `drifted: PatchDrift[]` and no problem for a drifted patch; with no third argument a drifted patch is a problem (existing test at `apply.test.ts:286` passes unchanged) and `drifted` is `[]`.\n- [ ] `applyCarryOver(entry, patches, 'outcome')` reports a wrong-count pre-state as `upstream-changed` drift, not a problem; the existing wrong-count test passes unchanged.\n- [ ] `composeEntry(source, { accepted, drift: 'outcome' })` returns `patchDrift` and excludes drifted patches from `patchesApplied`.\n- [ ] `bun qa:test` passes; no existing test edited.\n\n**Verify:** `bun test admin/pipeline/patch/apply.test.ts admin/pipeline/body/compose.test.ts` → all pass, 0 fail\n\nFull test and implementation code: plan Task 2.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/apply.ts\", \"admin/pipeline/patch/apply.test.ts\", \"admin/pipeline/body/compose.ts\", \"admin/pipeline/body/compose.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/patch/apply.test.ts admin/pipeline/body/compose.test.ts\", \"acceptanceCriteria\": [\"stalePins exported\", \"pins skip option\", \"applyEntryPatches drift outcome mode, default unchanged\", \"applyCarryOver drift outcome mode\", \"composeEntry patchDrift\", \"no existing test edited\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 3,
+      "subject": "Task 3: Structured report rows and counts",
+      "status": "completed",
+      "blockedBy": [
+        1
+      ],
+      "description": "**Goal:** `migrate/report.ts` carries one `ReportRow[]`, per-rule counts, per-patch outcomes and a snapshot header, and the blessing doc renders them while keeping every existing line's text.\n\n**Files:**\n- Modify: `admin/pipeline/migrate/report.ts`\n- Test: `admin/pipeline/migrate/report.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `Report` has `rows`, `rules`, `patchOutcomes`, `snapshot: { pin, stalePins }`, and `patches.{upstreamFixed, upstreamChanged}`; `headwordReview`, `markupCarries`, `nonHighPages` are gone.\n- [ ] `lineRow('A00002: x: y', kind)` → `{ rid: 'A00002', detail: 'x: y', kind, bucket: 'review', severity: 'review' }`; a line without `': '` throws.\n- [ ] `createRuleCounter(names)` gives every named rule a row (0 included), in `names` order, then unregistered names in first-seen order; `entries` counts distinct rids.\n- [ ] `renderBlessing` renders row sections as `- <rid>: <detail>`, a `## Rule counts` table `| rule | fired | entries |`, `## Patches needing re-judgment`, `## Pipeline faults`, and the snapshot line.\n- [ ] `bun test admin/pipeline/migrate/report.test.ts` passes.\n\n**Verify:** `bun test admin/pipeline/migrate/report.test.ts` → all pass, 0 fail\n\nStage only; committed with Task 4. Full code: plan Task 3.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/migrate/report.ts\", \"admin/pipeline/migrate/report.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/migrate/report.test.ts\", \"acceptanceCriteria\": [\"Report shape\", \"lineRow\", \"createRuleCounter\", \"renderBlessing sections\", \"tests pass\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 4,
+      "subject": "Task 4: Wire rows, drift, --strict into migrate",
+      "status": "completed",
+      "blockedBy": [
+        2,
+        3
+      ],
+      "description": "**Goal:** `bun pipeline:migrate` fills the new report, judges patches by precondition, counts stale pins, and refuses on either only under `--strict` — with truth byte-identical and the blessing doc changed by additions plus one header line.\n\n**Files:**\n- Modify: `admin/pipeline/migrate.ts`\n- Modify: `docs/v2/migration-blessing.md` (regenerated by the run, committed)\n\n**Acceptance Criteria:**\n- [ ] `bun qa` passes (format, lint, unit tests, tsc).\n- [ ] Dry run exits 0; all nine gate tallies equal the Global Constraints numbers.\n- [ ] `git diff docs/v2/migration-blessing.md | grep '^-[^-]'` prints exactly one line, the old `Patch corpus: 113 accepted, 118 applied, 61 carry-over absorbed, 5 carried.`\n- [ ] Report JSON: `snapshot.stalePins` 0, `patches.upstreamFixed` 0, `patches.upstreamChanged` 0, `patchOutcomes` = 118 `applied` + 61 `superseded`, 0 `fault` rows, `rules` length = `RULES.length + 7`.\n- [ ] Rebuild: `rm -rf data/entries && bun pipeline:migrate --write` then `git status --porcelain -- data/entries` prints nothing.\n\n**Verify:** `bun pipeline:migrate && jq '{stale: .snapshot.stalePins, fixed: .patches.upstreamFixed, changed: .patches.upstreamChanged, outcomes: (.patchOutcomes | group_by(.outcome) | map({(.[0].outcome): length}) | add), faults: ([.rows[] | select(.severity == \"fault\")] | length), rules: (.rules | length)}' data/source/migration-report.json` → `stale 0, fixed 0, changed 0, outcomes {applied: 118, superseded: 61}, faults 0, rules RULES.length+7`\n\nFull code: plan Task 4.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/migrate.ts\", \"docs/v2/migration-blessing.md\"], \"verifyCommand\": \"bun pipeline:migrate\", \"acceptanceCriteria\": [\"bun qa passes\", \"gate tallies unchanged\", \"blessing diff removes only Patch corpus line\", \"report JSON counts\", \"rebuild leaves data/entries unchanged\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 5,
+      "subject": "Task 5: Planted drift control",
+      "status": "completed",
+      "blockedBy": [
+        4
+      ],
+      "description": "**Goal:** Show end to end that a changed export makes one patch `upstream-fixed`, counts every pin as stale, keeps gates green, and that `--strict` refuses the same input — then restore the snapshot.\n\n**Files:**\n- Create (scratch, not committed): `/private/tmp/claude-501/-Users-brian-Repositories-websites-jastrow/523d3ff6-b89c-4a57-8ad9-a644868521ee/scratchpad/probe-upstream-fixed.ts`\n- Temporarily modify, then restore: `data/source/jastrow-dictionary.jsonl`, `docs/v2/migration-blessing.md`\n\n**Acceptance Criteria:**\n- [ ] Probe run exits 0 with all nine gates green.\n- [ ] `patches.upstreamFixed` is 1, and `patchOutcomes` has an `upstream-fixed` row for exactly the patch id the probe printed.\n- [ ] `snapshot.stalePins` equals `patches.accepted + patches.absorbed + patches.carried` from the same report.\n- [ ] `bun pipeline:migrate --strict` on the probe input exits non-zero and its output contains `snapshot pin`.\n- [ ] After restore, `git status --porcelain` prints nothing.\n\n**Verify:** `jq '{fixed: .patches.upstreamFixed, stale: .snapshot.stalePins, applySet: (.patches.accepted + .patches.absorbed + .patches.carried), row: [.patchOutcomes[] | select(.outcome == \"upstream-fixed\")]}' data/source/migration-report.json` → `fixed 1`, `stale == applySet`, one row naming the probed patch\n\nProbe script and retry rule: plan Task 5.\n\n```json:metadata\n{\"files\": [], \"verifyCommand\": \"bun pipeline:migrate\", \"acceptanceCriteria\": [\"probe run green\", \"upstreamFixed 1 for probed id\", \"stalePins == apply set\", \"--strict exits non-zero with snapshot pin\", \"clean git status after restore\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 6,
+      "subject": "Task 6: Spec rulings, docs, review, PR",
+      "status": "completed",
+      "blockedBy": [
+        5
+      ],
+      "description": "**Goal:** The spec and pipeline README describe what was built and record both 2026-09-14 rulings; the whole branch passes a local review and is opened as a PR into `v2`.\n\n**Files:**\n- Modify: `docs/specs/2026-09-13-pipeline-consolidation-design.md` (§3.1, §4.2, §5.2, §11 step 3, §12)\n- Modify: `admin/pipeline/README.md` (report description near line 116)\n\n**Acceptance Criteria:**\n- [ ] §4.2 states: a stale pin is a header count and skips nothing; each patch is judged by its precondition; `upstream-changed` covers partial counts and sense deletions; `--strict` restores both refusals.\n- [ ] §3.1 lists the `bucket`, `severity` and `kind` values actually emitted and says rule counts are composed.\n- [ ] §5.2 records the deferral of required checks; §11 step 3 points at it; §12 has a 2026-09-14 row for both.\n- [ ] README describes the report as rows + rule counts + patch outcomes and names `--strict`.\n- [ ] `bun qa` passes; a local code review of `git diff origin/v2...HEAD` has no unaddressed high/medium finding.\n- [ ] PR open against `v2` with evidence from Tasks 4 and 5.\n\n**Verify:** `grep -n \"stalePins\\|--strict\\|Deferred\" docs/specs/2026-09-13-pipeline-consolidation-design.md admin/pipeline/README.md` → hits in §3.1/§4.2/§5.2 and the README\n\nExact spec text: plan Task 6.\n\n```json:metadata\n{\"files\": [\"docs/specs/2026-09-13-pipeline-consolidation-design.md\", \"admin/pipeline/README.md\"], \"verifyCommand\": \"bun qa\", \"acceptanceCriteria\": [\"§4.2 reworded\", \"§3.1 fields\", \"§5.2 deferral + §11 + §12\", \"README updated incl. R3 correction\", \"qa + local review\", \"PR open\"], \"modelTier\": \"standard\"}\n```"
+    }
+  ],
+  "lastUpdated": "2026-09-14T21:59:00-05:00"
+}
