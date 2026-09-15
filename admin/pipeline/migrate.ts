@@ -447,9 +447,8 @@ function printGates(report: Report): void {
 	for (const row of report.rows) {
 		kinds.set(row.kind, (kinds.get(row.kind) ?? 0) + 1);
 	}
-	console.log(
-		`unresolved=${report.unresolved.length} ${[...kinds].map(([k, n]) => `${k}=${n}`).join(' ')}`,
-	);
+	const kindCounts = [...kinds].map(([k, n]) => `${k}=${n}`).join(' ');
+	console.log(`unresolved=${report.unresolved.length} ${kindCounts}`);
 	console.log(
 		`stalePins=${report.snapshot.stalePins} upstreamFixed=${report.patches.upstreamFixed} upstreamChanged=${report.patches.upstreamChanged}`,
 	);

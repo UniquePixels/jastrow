@@ -33,9 +33,9 @@ function entryWith(...senses: SourceSense[]): SourceEntry {
 
 describe('classifyDrift', () => {
 	it('is undefined when the precondition holds', () => {
-		expect(classifyDrift(entryWith({ definition: OCR_BEFORE }), patch())).toBe(
-			undefined,
-		);
+		expect(
+			classifyDrift(entryWith({ definition: OCR_BEFORE }), patch()),
+		).toBeUndefined();
 	});
 
 	it('is upstream-fixed when the source already reads as the replace leaves it', () => {
