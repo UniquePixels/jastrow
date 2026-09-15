@@ -6,9 +6,9 @@
  * already holds truth files.
  * Run: bun pipeline:migrate [--write] [--strict]
  *
- * A patch whose precondition no longer holds, or that pins another
- * snapshot, is a report row; `--strict` makes either refuse the run
- * (consolidation spec §4.2).
+ * A stale snapshot pin is one count in the report header; a patch whose
+ * precondition no longer holds is a report row. `--strict` makes either
+ * refuse the run (consolidation spec §4.2).
  */
 import { existsSync } from 'node:fs';
 import process from 'node:process';

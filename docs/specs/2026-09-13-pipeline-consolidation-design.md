@@ -190,10 +190,11 @@ patches still hold. Under R3 (maintainer, 2026-09-14):
   (`snapshot.stalePins`). It skips nothing.
 - Each ACCEPTED patch is judged by its own precondition: its target
   must resolve `expected_occurrences` times. If it does not, the
-  patch is skipped and reported `upstream-fixed` (the target is gone
-  and the senses the patch would produce are present) or
-  `upstream-changed` (anything else, including a partial count and a
-  sense-deleting patch, which cannot be told apart from an edit).
+  patch is skipped and reported `upstream-fixed` (the target is gone,
+  the patch is single-occurrence, and the senses it would produce are
+  present) or `upstream-changed` (anything else, including a partial
+  count, a multi-occurrence patch, and a sense-deleting patch, which
+  cannot be told apart from an edit).
 - A carry-over patch is different: `applyCarryOver` resolves its
   target against the healed entry BEFORE any drift check, and a
   target resolving 0 times there is recorded `absorbed` — reported
