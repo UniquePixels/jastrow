@@ -7,9 +7,10 @@
  * does not touch the pinned snapshot; it runs in about two seconds and
  * is CI's `Test` job. The CORPUS tier is every `*.corpus.test.ts`; it
  * loads all 32,512 entries of `data/source/jastrow-dictionary.jsonl`
- * (~41 MB), runs the transform pipeline over them, and takes minutes.
- * It is CI's separate `Corpus Audit` job and `bun run audit:corpus`
- * locally.
+ * (~41 MB) and takes minutes. It is not CI work (consolidation spec R9):
+ * the two invariant checks in it run locally through `bun run
+ * transform:invariants`, and the last test below fails on a corpus file
+ * that script does not run.
  *
  * The split is by FILENAME, because that is the only thing `bun test`
  * can select on before it evaluates a module. Nothing about a filename
@@ -31,9 +32,9 @@
  *
  * It does NOT see a test that reaches the corpus INDIRECTLY — by calling
  * `census.ts`, `review.ts`, `dry-run.ts`, `migrate-dry.ts`, `count.ts`,
- * `headword-census.ts`, `patch/apply-cli.ts` or
- * `research/corpus-inputs.ts`, each of which holds its own no-argument
- * read. No test does that today, and the measurement says so rather
+ * `patch/apply-cli.ts` or `research/corpus-inputs.ts`, each of which
+ * holds its own no-argument read. No test does that today, and the
+ * measurement says so rather
  * than the grep: with the tiers split, no unit-tier file exceeds
  * 0.11 s, which a 41 MB read cannot fit under — except
  * `migrate/truth.test.ts` (~1.3 s), which reads the 32,512 committed
@@ -130,4 +131,39 @@ it('every corpus-tier file earns the name — none is merely labelled', async ()
 		}
 	}
 	expect(idle).toEqual([]);
+});
+
+/** Corpus-tier files no script runs. Each is a test of research code
+ * and leaves with that code in consolidation step 6 (spec §8); nothing
+ * else may join this list. */
+const AWAITING_ARCHIVE: ReadonlySet<string> = new Set([
+	'admin/pipeline/body/implied-one-census.corpus.test.ts',
+	'admin/pipeline/research/residue-sweep.corpus.test.ts',
+]);
+
+it('every corpus-tier file is run by transform:invariants or awaits the archive', async () => {
+	// CI no longer runs the corpus tier (consolidation spec R9), so a
+	// corpus file no script names is a test nobody runs — the failure
+	// has to name it.
+	const pkg = (await Bun.file('package.json').json()) as {
+		scripts: Record<string, string>;
+	};
+	const script = pkg.scripts['transform:invariants'] ?? '';
+	const named = script
+		.split(/\s+/u)
+		.filter((word) => word.endsWith('.corpus.test.ts'));
+	const onDisk = await Array.fromAsync(
+		new Bun.Glob('admin/**/*.corpus.test.ts').scan({
+			cwd: '.',
+			onlyFiles: true,
+		}),
+	);
+	const unrun = onDisk
+		.filter((path) => !(named.includes(path) || AWAITING_ARCHIVE.has(path)))
+		.sort();
+	expect(unrun).toEqual([]);
+	// And the other direction: a name that matches no file runs nothing.
+	const missing = named.filter((path) => !onDisk.includes(path));
+	expect(missing).toEqual([]);
+	expect(named.length).toBeGreaterThan(0);
 });
