@@ -9,7 +9,10 @@
  * present, number and definition both. Everything else is
  * `upstream-changed` and goes to a person to re-judge — a wrong "fixed"
  * archives a patch that was still needed, a wrong "changed" costs one
- * look.
+ * look. A multi-occurrence patch (`expected_occurrences > 1`) is never
+ * called `upstream-fixed`: a real fix of one occurrence still leaves
+ * `expected − 1` pre-state matches, so `found === 0` there means every
+ * occurrence changed, not that the fix landed.
  */
 import type { SourceEntry, SourceSense } from '../body/types.ts';
 import {
@@ -84,7 +87,7 @@ function classifyDrift(
 	if (found === patch.expected_occurrences) {
 		return;
 	}
-	if (found !== 0) {
+	if (found !== 0 || patch.expected_occurrences !== 1) {
 		return 'upstream-changed';
 	}
 	const after = postState(patch);

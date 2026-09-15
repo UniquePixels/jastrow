@@ -104,4 +104,10 @@ describe('classifyDrift', () => {
 			'upstream-changed',
 		);
 	});
+
+	it('never calls a multi-occurrence patch fixed: found===0 means every occurrence changed', () => {
+		const twice = patch({ expected_occurrences: 2 });
+		const entry = entryWith({ definition: '1) emergency. Nidd. 9b' });
+		expect(classifyDrift(entry, twice)).toBe('upstream-changed');
+	});
 });
