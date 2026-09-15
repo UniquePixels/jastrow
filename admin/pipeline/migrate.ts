@@ -288,17 +288,35 @@ async function composeAll(
 		groups.carryOver.delete(source.rid);
 	}
 	report.rules = rules.rows();
-	// A patch whose rid never streamed past targets a nonexistent entry.
-	// Recorded on gate 9 rather than thrown, so the report lists it
-	// beside every other composition problem.
+	markMissingTargets(groups, report);
+	return composed;
+}
+
+/** A patch whose rid never streamed past targets a nonexistent entry.
+ * Recorded on gate 9 rather than thrown, so the report lists it beside
+ * every other composition problem — and as a `## Pipeline faults` row
+ * too, so a red gate 9 from this cause is never a silent skip
+ * (consolidation spec §3.1, §4.2). Call after the streaming loop, once
+ * `groups` holds only rids that never appeared. */
+function markMissingTargets(groups: PatchGroups, report: Report): void {
 	const missing = new Set([
 		...groups.accepted.keys(),
 		...groups.carryOver.keys(),
 	]);
 	for (const rid of missing) {
 		mark(report.gates.composition, false, `no source entry with rid ${rid}`);
+		const ids = [
+			...(groups.accepted.get(rid) ?? []),
+			...(groups.carryOver.get(rid) ?? []),
+		].map((p) => p.id);
+		report.rows.push({
+			bucket: 'pipeline',
+			detail: `${ids.join(', ')}: no source entry with this rid`,
+			kind: 'patch-target-missing',
+			rid,
+			severity: 'fault',
+		});
 	}
-	return composed;
 }
 
 /** The collision histogram: members per stem → number of such stems.
@@ -556,7 +574,7 @@ if (import.meta.main) {
 	await main();
 }
 
-export type { Composed, Indexes };
+export type { Composed, Indexes, PatchGroups };
 export {
 	buildIndexes,
 	collisionHistogram,
@@ -564,6 +582,7 @@ export {
 	composeOne,
 	finishAll,
 	letterDir,
+	markMissingTargets,
 	outputTreeIsEmpty,
 	preparePatches,
 };
