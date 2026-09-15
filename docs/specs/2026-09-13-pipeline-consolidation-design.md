@@ -49,6 +49,12 @@ Reports (the migration report, the blessing doc, build reports) are
 evidence, not data. Research notes still filed beside the data are
 archive material (§8).
 
+`migrate` is renamed **import**, and the commands that move data between
+forms share a `data:` prefix: `data:fetch`, `data:import`,
+`data:compile`. Until the step-10 sweep, code, scripts and the body of
+this spec keep the old names. The full vocabulary, with old-to-new
+mappings, is [`docs/glossary.md`](../glossary.md).
+
 ## 2. Rulings (maintainer, 2026-09-12/15)
 
 | ID | Ruling |
@@ -60,7 +66,7 @@ archive material (§8).
 | R5 | **One formatter.** Biome formats `data/entries/`. The pipeline formats as its last step, the admin tool formats what it writes, contributors run `bun qa`, CI checks. |
 | R6 | **The pipeline runs on the current Sefaria export.** `fetch` is step 1, not a side path. The snapshot it writes is committed with the entry data it produced, so any run is reproducible afterwards without a download. The update process (a new export against edited truth, §3.2) is designed here in outline and built after the §11 sequence. A Sefaria schema change is a code change and out of scope. |
 | R7 | **Review items become issues** in the tracker the admin tool integrates with (GitHub Issues or similar). Until that tool exists, one consolidated review document stands in. |
-| R8 | **Data terms** (2026-09-15). Source data is Sefaria's export; entry data is `data/entries/` (formerly "truth"); compiled data is what the web app loads; reference data is our lookup input (today the page index); correction data is patches and quarantine. Defined in §1.1. |
+| R8 | **Data terms** (2026-09-15). Source data is Sefaria's export; entry data is `data/entries/` (formerly "truth"); compiled data is what the web app loads; reference data is our lookup input (today the page index); correction data is patches and quarantine. `migrate` becomes import; data commands take a `data:` prefix (`data:fetch`, `data:import`, `data:compile`). Defined in §1.1 and `docs/glossary.md`. |
 | R9 | **`migrate` is not CI work** (2026-09-15). It runs when a person chooses to: a new export or a rule change. That person reads the report and commits the output with the source data it came from. Per-PR CI checks code and validates entry data; it never runs `migrate` and never reads the source data. |
 
 ## 3. Target shape of the pipeline
@@ -365,9 +371,12 @@ Small PRs into `v2`, in this order; each stands alone.
 7. Slug freezing (§7).
 8. `repairs.ts` hand tables → patches (§4.1).
 9. Review-queue doc and Sefaria report refresh (§9).
-10. Terms sweep (§1.1): documents say source, entry, compiled,
-    reference and correction data. Whether code identifiers such as
-    `migrate/truth.test.ts` are renamed is decided then.
+10. Terms sweep (§1.1, `docs/glossary.md`): documents say source,
+    entry, compiled, reference and correction data, and import for
+    migrate; `package.json` scripts become `data:fetch`, `data:import`
+    (and `data:compile` when built). Which other scripts take the
+    `data:` prefix, and whether code identifiers such as `migrate.ts`
+    and `migrate/truth.test.ts` are renamed, is decided then.
 
 ## 12. Changelog
 
@@ -378,4 +387,4 @@ Small PRs into `v2`, in this order; each stands alone.
 | 2026-09-14 | PR #85 review: §3.2 base is the truth tree as last written, never a rebuild with current rules; identified by a content-addressed git tree id (`writtenTree`) in a committed file, not by a commit sha; §6 biome rationale corrected (`*` does not cross `/`) |
 | 2026-09-14 | Step 4: §4.2 a stale pin is a header count and each patch is judged by its precondition, `--strict` restores refusal; §3.1 row fields and kinds as built, rule counts are composed; §5.2 required checks deferred to near release |
 | 2026-09-14 | Final-fix wave: §5.1 Rebuild runs `--strict`; §4.2 carry-over zero-match documented as `superseded`, not drift-classified, with the gap pinned at §10 |
-| 2026-09-15 | R8 data terms (§1.1; "truth" becomes entry data) and R9 `migrate` is not CI work. §5 rewritten: Rebuild, Corpus Audit, the Invariants CI job and `expected-counts.json` withdrawn; invariants run locally; ~190 hand-written example tests move to the unit tier; drift checks become review detectors (§10). §1 corpus-tier measurement corrected; §3.3 scheduling marked open against R9 pending a brainstorm; §11 step 5 rewritten, step 10 added |
+| 2026-09-15 | R8 data terms (§1.1; "truth" becomes entry data) and R9 `migrate` is not CI work. §5 rewritten: Rebuild, Corpus Audit, the Invariants CI job and `expected-counts.json` withdrawn; invariants run locally; ~190 hand-written example tests move to the unit tier; drift checks become review detectors (§10). §1 corpus-tier measurement corrected; §3.3 scheduling marked open against R9 pending a brainstorm; §11 step 5 rewritten, step 10 added. R8 extended: `migrate` becomes import with `data:` command prefix; vocabulary moved to new `docs/glossary.md` |
