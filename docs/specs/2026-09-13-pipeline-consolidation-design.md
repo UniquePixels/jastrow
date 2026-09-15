@@ -185,8 +185,8 @@ report header.
 | Check | Verifies | Where it runs |
 |---|---|---|
 | nine migrate gates | the data | inside `migrate`, every run |
-| rebuild == truth | the committed truth is what the pipeline produces from the committed snapshot | CI job **Rebuild**: `migrate` (no fetch) into a temp dir, `biome format`, `diff -r` against `data/entries/`; ~2 min |
-| data validation (schema, closed tag vocabulary, slug uniqueness, page coverage) | any hand edit to truth | part of `bun qa`; CI job **Test** |
+| rebuild == truth | the committed truth is what the pipeline produces from the committed snapshot | CI job **Rebuild**: delete `data/entries/`, `migrate --write` (no fetch; formats as its last step), then `git status` on the tree and the blessing doc must be empty; ~2 min |
+| data validation (schema, file path, closed tag vocabulary, balanced markup, slug uniqueness, internal cite targets, page == page-index row both ways) | any hand edit to truth | `migrate/validate.ts`, run over the tree by `migrate/truth.test.ts` in `bun qa`; CI job **Test** |
 | commutation, registry order, link-target totals (3 files) | the rule *code* | CI job **Invariants**, path-filtered to `admin/pipeline/transform/**` |
 | ~40 per-rule count pins | that rules fire N times on one snapshot | **retired**: replaced by rule-count rows in the report and an `expected-counts.json` for the committed snapshot that the Rebuild job compares |
 
@@ -197,7 +197,8 @@ Invariants. Corpus Audit as a required name goes away with the tier.
 
 ### 5.3 Test tiers after the change
 
-`*.test.ts` (unit, sub-second) and the three invariant files. The
+`*.test.ts` (unit, ~2 s, 1.3 s of it the truth-tree validation) and
+the three invariant files. The
 `*.corpus.test.ts` naming convention and `test-tiers.test.ts` guard
 stay for those three; the other 42 corpus files leave with the
 research code or are deleted where they only pinned counts.
@@ -207,7 +208,7 @@ research code or are deleted where they only pinned counts.
 | Where | Change |
 |---|---|
 | `biome.json` | include `data/entries/**/*.json` deliberately. Today those files are checked only because the `!data/*.json` exclude matches JSON files directly under `data/` and never reaches `data/entries/` (Biome's `*` does not match `/`); the inclusion is a side effect, not a decision. Linter off for that path; drop the four stale overrides (`data/admin/**`, `scripts/*.ts`, `.commitlintrc.ts`, `**/*.js`) |
-| `package.json` | `pipeline:migrate` ends with `biome format --write data/entries` |
+| `migrate.ts` | `--write` ends with `biome format --write data/entries`, run by `migrate.ts` itself (a second command in the `package.json` script would receive `--write` instead of migrate; PR #88 shipped that bug) |
 | admin tool | formats every file it writes (biome is a dev dependency) |
 | CI | `biome ci` keeps *checking*; it never rewrites or commits |
 | contributors | `bun qa` before every commit, data-only PRs included |

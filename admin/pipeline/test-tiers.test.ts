@@ -4,7 +4,7 @@
  * ## Why this exists
  *
  * `bun test` is split in two. The UNIT tier is every `*.test.ts` that
- * does not touch the pinned snapshot; it runs in well under a second and
+ * does not touch the pinned snapshot; it runs in about two seconds and
  * is CI's `Test` job. The CORPUS tier is every `*.corpus.test.ts`; it
  * loads all 32,512 entries of `data/source/jastrow-dictionary.jsonl`
  * (~41 MB), runs the transform pipeline over them, and takes minutes.
@@ -35,7 +35,10 @@
  * `research/corpus-inputs.ts`, each of which holds its own no-argument
  * read. No test does that today, and the measurement says so rather
  * than the grep: with the tiers split, no unit-tier file exceeds
- * 0.11 s, which a 41 MB read cannot fit under.
+ * 0.11 s, which a 41 MB read cannot fit under — except
+ * `migrate/truth.test.ts` (~1.3 s), which reads the 32,512 committed
+ * TRUTH files, never the snapshot, and belongs in this tier because a
+ * hand edit to truth must meet it in `bun qa`.
  * If that ever stops being true the symptom is a slow unit tier, not a
  * failure here.
  *

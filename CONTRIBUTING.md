@@ -75,7 +75,7 @@ Tests run in two tiers, split by filename:
 
 | Tier | Files | Command | Cost |
 |---|---|---|---|
-| Unit | `*.test.ts` | `bun qa:test` | sub-second |
+| Unit | `*.test.ts` | `bun qa:test` | ~2 seconds (most of it validating every truth file) |
 | Corpus | `*.corpus.test.ts` | `bun run audit:corpus` | ~7–8 minutes |
 
 The corpus tier streams the whole 41 MB source snapshot and runs the
