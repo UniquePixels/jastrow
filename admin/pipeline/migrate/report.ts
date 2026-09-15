@@ -1,5 +1,5 @@
-/** The migration report (migrate spec §4.2): every gate as a tally,
- * the review lists, and the evidence doc the maintainer blesses. */
+/** The migration report (migrate spec §4.2; consolidation spec §3.1): every gate as a tally, structured rows, rule counts, patch outcomes, and the evidence doc the maintainer blesses. */
+import type { DriftOutcome } from '../patch/drift.ts';
 import type { QuarantineRow, Unresolved } from './cite.ts';
 import { tally } from './gates.ts';
 import type { Tally, TruthEntry } from './types.ts';
@@ -20,29 +20,69 @@ const GATE_NAMES = [
 ] as const;
 type GateName = (typeof GATE_NAMES)[number];
 
+type Bucket = 'patch' | 'pipeline' | 'review';
+type Severity = 'fault' | 'review';
+
+/** One report row (consolidation spec §3.1): the one shape every
+ * review item, patch re-judgment and pipeline fault shares, so a later
+ * run can be diffed against this one and the admin tool can route rows
+ * by `bucket`. */
+interface ReportRow {
+	bucket: Bucket;
+	detail: string;
+	kind: string;
+	rid: string;
+	severity: Severity;
+}
+
+/** A rule's tally over one run. COMPOSED: each rule sees the text the
+ * rules before it left, so this is not `transform:count`'s rule-alone
+ * figure. */
+interface RuleCount {
+	entries: number;
+	fired: number;
+	rule: string;
+}
+
+interface RuleCounter {
+	add(rule: string, rid: string): void;
+	rows(): RuleCount[];
+}
+
+type PatchOutcome = 'applied' | 'superseded' | DriftOutcome;
+
+/** What happened to one patch the run offered to an entry (spec §3.3).
+ * A patch that failed its apply gate has no outcome: it is a
+ * `patch-failed` fault row and a red gate 9. */
+interface PatchOutcomeRow {
+	outcome: PatchOutcome;
+	patchId: string;
+	rid: string;
+}
+
 interface Report {
 	entries: number;
 	gates: Record<GateName, Tally>;
-	headwordReview: string[];
-	/** `rid: path: …` lines from `finishEntry` noting an inline tag run
-	 * that crossed a body-unit boundary or was closed at the end of its
-	 * sense sequence (migrate spec §2.2/§4.2, fix round 1). Informational
-	 * — never a gate failure. */
-	markupCarries: string[];
-	nonHighPages: string[];
-	/** Informational patch accounting (Ruling F): the accepted corpus
-	 * size, how many patches applied, and the carry-over split between
-	 * those a transform rule already absorbed and those still carried.
-	 * Not a gate — patch PROBLEMS are gate 9. */
+	/** Patch accounting (Ruling F; consolidation spec §4.2). Every skip
+	 * is counted here as well as listed as a row. */
 	patches: {
 		absorbed: number;
 		accepted: number;
 		applied: number;
 		carried: number;
+		upstreamChanged: number;
+		upstreamFixed: number;
 	};
+	patchOutcomes: PatchOutcomeRow[];
 	quarantine: QuarantineRow[];
+	rows: ReportRow[];
+	rules: RuleCount[];
 	/** collision size → number of stems of that size */
 	slugCollisions: Record<string, number>;
+	/** The snapshot this run read, and how many patches pin another one.
+	 * A stale pin skips nothing; each patch is judged by its own
+	 * precondition (spec §4.2). */
+	snapshot: { pin: string; stalePins: number };
 	unresolved: Unresolved[];
 	written: number;
 }
@@ -63,15 +103,85 @@ function createReport(): Report {
 	return {
 		entries: 0,
 		gates,
-		headwordReview: [],
-		markupCarries: [],
-		nonHighPages: [],
-		patches: { absorbed: 0, accepted: 0, applied: 0, carried: 0 },
+		patchOutcomes: [],
+		patches: {
+			absorbed: 0,
+			accepted: 0,
+			applied: 0,
+			carried: 0,
+			upstreamChanged: 0,
+			upstreamFixed: 0,
+		},
 		quarantine: [],
+		rows: [],
+		rules: [],
 		slugCollisions: {},
+		snapshot: { pin: '', stalePins: 0 },
 		unresolved: [],
 		written: 0,
 	};
+}
+
+/** A `rid: detail` line from `finishEntry` as a row. The rid is the
+ * text before the FIRST `: ` — details themselves contain `: `. */
+function lineRow(
+	line: string,
+	kind: string,
+	bucket: Bucket = 'review',
+	severity: Severity = 'review',
+): ReportRow {
+	const at = line.indexOf(': ');
+	if (at === -1) {
+		throw new Error(`report line has no "rid: " prefix: ${line}`);
+	}
+	return {
+		bucket,
+		detail: line.slice(at + 2),
+		kind,
+		rid: line.slice(0, at),
+		severity,
+	};
+}
+
+/** Per-rule tallies for one run. Every name given up front gets a row
+ * even at 0 — a zero is information ("Sefaria fixed it" or "the rule
+ * is dead", spec §3.1). A name seen but not given still gets a row,
+ * after the given ones, so no firing is ever dropped. */
+function createRuleCounter(names: readonly string[]): RuleCounter {
+	const tallies = new Map<string, { fired: number; rids: Set<string> }>(
+		names.map((name) => [name, { fired: 0, rids: new Set<string>() }]),
+	);
+	return {
+		add(rule: string, rid: string): void {
+			let t = tallies.get(rule);
+			if (t === undefined) {
+				t = { fired: 0, rids: new Set<string>() };
+				tallies.set(rule, t);
+			}
+			t.fired++;
+			t.rids.add(rid);
+		},
+		rows(): RuleCount[] {
+			return [...tallies].map(([rule, t]) => ({
+				entries: t.rids.size,
+				fired: t.fired,
+				rule,
+			}));
+		},
+	};
+}
+
+/** Matching rows as `rid: detail`, in the order the run found them —
+ * the same text the blessing doc rendered before rows existed. */
+function rowLines(
+	report: Report,
+	match: (row: ReportRow) => boolean,
+): string[] {
+	return report.rows.filter(match).map((r) => `${r.rid}: ${r.detail}`);
+}
+
+function ruleRows(report: Report): string[] {
+	return report.rules.map((r) => `| ${r.rule} | ${r.fired} | ${r.entries} |`);
 }
 
 /** Whether `--write` may proceed. A gate must have been REACHED, not
@@ -150,7 +260,9 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 		'',
 		`Generated by \`bun pipeline:migrate\` over ${report.entries} entries. ${isGreen(report) ? 'Every gate is green.' : 'At least one gate is RED.'}`,
 		'',
-		`Patch corpus: ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed, ${report.patches.carried} carried.`,
+		`Snapshot \`${report.snapshot.pin}\`: ${report.snapshot.stalePins} patch(es) pinned to a different snapshot, each judged by its own \`expected_before\`.`,
+		'',
+		`Patch corpus: ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed, ${report.patches.carried} carried, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
 		'',
 		'## Gates',
 		'',
@@ -158,17 +270,48 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 		'|---|---|---|',
 		...gateRows(report),
 		'',
+		'## Pipeline faults',
+		'',
+		list(
+			rowLines(report, (r) => r.severity === 'fault'),
+			'none',
+		),
+		'',
 		'## Headword review',
 		'',
-		list(report.headwordReview, 'none'),
+		list(
+			rowLines(report, (r) => r.kind === 'headword-unparsed'),
+			'none',
+		),
 		'',
 		'## Markup carried across unit boundaries',
 		'',
-		list(report.markupCarries, 'none'),
+		list(
+			rowLines(report, (r) => r.kind === 'markup-carry'),
+			'none',
+		),
 		'',
 		'## Page placements needing review',
 		'',
-		list(report.nonHighPages, 'none'),
+		list(
+			rowLines(report, (r) => r.kind.startsWith('page-confidence-')),
+			'none',
+		),
+		'',
+		'## Patches needing re-judgment',
+		'',
+		list(
+			rowLines(report, (r) => r.bucket === 'patch'),
+			'none',
+		),
+		'',
+		'## Rule counts',
+		'',
+		'Composed counts: each rule sees the text the rules before it left.',
+		'',
+		'| rule | fired | entries |',
+		'|---|---|---|',
+		...ruleRows(report),
 		'',
 		'## Slug collisions',
 		'',
@@ -189,12 +332,23 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 	].join('\n');
 }
 
-export type { GateName, Report, Sample };
+export type {
+	GateName,
+	PatchOutcome,
+	PatchOutcomeRow,
+	Report,
+	ReportRow,
+	RuleCount,
+	RuleCounter,
+	Sample,
+};
 export {
 	BLESSING_PATH,
 	createReport,
+	createRuleCounter,
 	GATE_NAMES,
 	isGreen,
+	lineRow,
 	REPORT_PATH,
 	renderBlessing,
 	writeReport,
