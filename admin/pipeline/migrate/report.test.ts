@@ -3,8 +3,10 @@ import type { QuarantineRow } from './cite.ts';
 import type { GateName, Report, Sample } from './report.ts';
 import {
 	createReport,
+	createRuleCounter,
 	GATE_NAMES,
 	isGreen,
+	lineRow,
 	renderBlessing,
 	writeReport,
 } from './report.ts';
@@ -29,12 +31,20 @@ function greenReport(): Report {
 	return {
 		entries: 1,
 		gates,
-		headwordReview: [],
-		markupCarries: [],
-		nonHighPages: [],
-		patches: { absorbed: 0, accepted: 0, applied: 0, carried: 0 },
+		patchOutcomes: [],
+		patches: {
+			absorbed: 0,
+			accepted: 0,
+			applied: 0,
+			carried: 0,
+			upstreamChanged: 0,
+			upstreamFixed: 0,
+		},
 		quarantine: [],
+		rows: [],
+		rules: [],
 		slugCollisions: {},
+		snapshot: { pin: `sha256:${'a'.repeat(64)}`, stalePins: 0 },
 		unresolved: [],
 		written: 1,
 	};
@@ -85,14 +95,69 @@ describe('isGreen', () => {
 	});
 });
 
+describe('lineRow', () => {
+	it('splits a finishEntry line at the first ": " only', () => {
+		expect(
+			lineRow('A00002: senses[0].gloss: carried i', 'markup-carry'),
+		).toEqual({
+			bucket: 'review',
+			detail: 'senses[0].gloss: carried i',
+			kind: 'markup-carry',
+			rid: 'A00002',
+			severity: 'review',
+		});
+	});
+
+	it('throws on a line with no rid prefix', () => {
+		expect(() => lineRow('no prefix here', 'markup-carry')).toThrow('rid');
+	});
+});
+
+describe('createRuleCounter', () => {
+	it('rows every registered rule, zeros included, then unregistered ones', () => {
+		const counter = createRuleCounter(['a', 'b']);
+		counter.add('b', 'A00001');
+		counter.add('b', 'A00001');
+		counter.add('b', 'A00002');
+		counter.add('z', 'A00003');
+		expect(counter.rows()).toEqual([
+			{ entries: 0, fired: 0, rule: 'a' },
+			{ entries: 2, fired: 3, rule: 'b' },
+			{ entries: 1, fired: 1, rule: 'z' },
+		]);
+	});
+});
+
 describe('renderBlessing', () => {
-	it('renders every required section', () => {
+	it('renders every section, rows as "rid: detail" under their own heading', () => {
 		const report = greenReport();
-		report.headwordReview = ['A00002: ambiguous vocalization'];
-		report.markupCarries = [
-			'A00002: senses[0].gloss: carried i across a unit boundary',
+		report.rows = [
+			lineRow('A00002: ambiguous vocalization', 'headword-unparsed'),
+			lineRow('A00002: senses[0].gloss: carried i', 'markup-carry'),
+			{
+				bucket: 'review',
+				detail: 'p12a (low)',
+				kind: 'page-confidence-low',
+				rid: 'A00003',
+				severity: 'review',
+			},
+			{
+				bucket: 'patch',
+				detail: 'P000001 (ocr-marker): re-judge',
+				kind: 'upstream-changed',
+				rid: 'A00005',
+				severity: 'review',
+			},
+			{
+				bucket: 'pipeline',
+				detail: 'transform: boom',
+				kind: 'composition-failed',
+				rid: 'A00006',
+				severity: 'fault',
+			},
 		];
-		report.nonHighPages = ['A00003: page confidence low'];
+		report.rules = [{ entries: 2, fired: 3, rule: 'bare-rtl-hebrew' }];
+		report.snapshot.stalePins = 4;
 		report.slugCollisions = { '2': 3 };
 		const quarantine: QuarantineRow[] = [
 			{ note: 'no match', rid: 'A00004', target: 'שלום' },
@@ -109,13 +174,30 @@ describe('renderBlessing', () => {
 			} satisfies TruthEntry,
 		};
 		const doc = renderBlessing(report, [sample]);
+		const section = (heading: string): string => {
+			const start = doc.indexOf(`## ${heading}\n`);
+			const end = doc.indexOf('\n## ', start + 1);
+			return doc.slice(start, end === -1 ? undefined : end);
+		};
+		expect(doc).toContain('4 patch(es) pinned to a different snapshot');
 		expect(doc).toContain('| Gate |');
-		expect(doc).toContain('## Headword review');
-		expect(doc).toContain('## Markup carried across unit boundaries');
-		expect(doc).toContain('## Page placements needing review');
+		expect(section('Pipeline faults')).toContain('- A00006: transform: boom');
+		expect(section('Headword review')).toContain(
+			'- A00002: ambiguous vocalization',
+		);
+		expect(section('Headword review')).not.toContain('p12a');
+		expect(section('Markup carried across unit boundaries')).toContain(
+			'- A00002: senses[0].gloss: carried i',
+		);
+		expect(section('Page placements needing review')).toContain(
+			'- A00003: p12a (low)',
+		);
+		expect(section('Patches needing re-judgment')).toContain(
+			'- A00005: P000001 (ocr-marker): re-judge',
+		);
+		expect(section('Rule counts')).toContain('| bare-rtl-hebrew | 3 | 2 |');
 		expect(doc).toContain('## Slug collisions');
 		expect(doc).toContain('## Quarantined internal targets');
-		expect(doc).toContain('## Samples');
 		expect(doc).toContain('### A00013');
 	});
 

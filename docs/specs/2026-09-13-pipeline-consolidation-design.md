@@ -85,17 +85,28 @@ kind:
   "severity": "review", "detail": "?אִיבּוּס — grammar did not parse" }
 ```
 
+| Field | Values |
+|---|---|
+| `bucket` | `review` (a data judgment), `patch` (a patch to re-judge), `pipeline` (a code fault) |
+| `severity` | `review`; `fault` for every `pipeline` row |
+| `kind` | `headword-unparsed`, `page-confidence-low`, `page-confidence-medium`, `markup-carry`, `upstream-fixed`, `upstream-changed`, `composition-failed`, `patch-failed`, `finish-failed`, `patch-target-missing` |
+
+Rule counts are *composed*: each rule sees the text the rules before
+it left, so a count differs from `bun transform:count`'s rule-alone
+figure. Every registered rule and `repairs.ts` pass has a row, zeros
+included.
+
 | Section | Rows | Blocking? |
 |---|---|---|
 | Gates | nine tallies against fixed totals (unchanged) | red gate = run refuses to write |
 | Rule counts | one row per rule: fired N times on M entries | never; a count of 0 is information ("Sefaria fixed it" or "the rule is dead") |
 | Patch outcomes | applied / upstream-fixed / upstream-changed / superseded, per patch (§3.3) | never; the two upstream outcomes are review rows |
-| Review rows | headword-unparsed, page-confidence-low/medium, markup-carry, composition-failed, plus the judgment classes' detectors as they are wired | never |
+| Review rows | headword-unparsed, page-confidence-low/medium, markup-carry, plus the judgment classes' detectors as they are wired | never |
+| Pipeline faults | composition-failed, patch-failed, finish-failed, patch-target-missing | each also fails gate 9 (composition), so a run with any fault refuses to write |
 
 Rows route two ways, as the flow diagram draws it: data judgments
-(review rows, patch re-judgments) go to the admin tool's tracker
-integration; pipeline faults (composition failures, unknown tags,
-schema failures) are ordinary code issues.
+(review rows, the two upstream patch outcomes) go to the admin tool's
+tracker integration; pipeline faults are ordinary code issues.
 
 The blessing doc renders the same report; nothing is hand-written.
 These rows are what the maintenance dry run (§3.3) diffs against,
@@ -170,13 +181,34 @@ from that issue.
 
 ### 4.2 Patch preflight
 
-Today a snapshot-pin mismatch on any patch refuses the whole run.
-Under R3: a patch whose pin or `expected_before` does not match is
-skipped and reported as `upstream-fixed` or `upstream-changed` (§3.3);
-the run continues.
-`--strict` restores refusal for a maintainer who wants it. Silent
-skipping is never allowed: every skip is a row and a count in the
-report header.
+Before this step, a snapshot-pin mismatch on any patch refused the
+whole run. Every patch pins one hash over the whole export, so a new
+export mismatches all of them at once, and the pin cannot say which
+patches still hold. Under R3 (maintainer, 2026-09-14):
+
+- A stale pin is one count in the report header
+  (`snapshot.stalePins`). It skips nothing.
+- Each ACCEPTED patch is judged by its own precondition: its target
+  must resolve `expected_occurrences` times. If it does not, the
+  patch is skipped and reported `upstream-fixed` (the target is gone,
+  the patch is single-occurrence, and the senses it would produce are
+  present) or `upstream-changed` (anything else, including a partial
+  count, a multi-occurrence patch, and a sense-deleting patch, which
+  cannot be told apart from an edit).
+- A carry-over patch is different: `applyCarryOver` resolves its
+  target against the healed entry BEFORE any drift check, and a
+  target resolving 0 times there is recorded `absorbed` — reported
+  `superseded`, not drift-classified — by construction (on the
+  committed snapshot this means a repair or rule absorbed the
+  defect). This is a known gap: on a new export, an upstream rewrite
+  of a carry-over target also reads 0 resolutions and is
+  indistinguishable from an absorbed one, so it too reports
+  `superseded` rather than `upstream-changed`. See §10.
+- `--strict` restores both refusals: a stale pin or a drifted
+  accepted patch fails the run.
+
+Silent skipping is never allowed: every skip is a row and a count in
+the report header.
 
 ## 5. Gates, tests, and CI
 
@@ -185,7 +217,7 @@ report header.
 | Check | Verifies | Where it runs |
 |---|---|---|
 | nine migrate gates | the data | inside `migrate`, every run |
-| rebuild == truth | the committed truth is what the pipeline produces from the committed snapshot | CI job **Rebuild**: delete `data/entries/`, `migrate --write` (no fetch; formats as its last step), then `git status` on the tree and the blessing doc must be empty; ~2 min |
+| rebuild == truth | the committed truth is what the pipeline produces from the committed snapshot | CI job **Rebuild**: delete `data/entries/`, `migrate --write --strict` (no fetch; formats as its last step; `--strict` because on the committed snapshot a stale pin or a drifted patch can only be an authoring mistake, so CI refuses the run rather than merely reporting drift the way the default run does for a new export), then `git status` on the tree and the blessing doc must be empty; ~2 min |
 | data validation (schema, file path, closed tag vocabulary, balanced markup, slug uniqueness, internal cite targets, page == page-index row both ways) | any hand edit to truth | `migrate/validate.ts`, run over the tree by `migrate/truth.test.ts` in `bun qa`; CI job **Test** |
 | commutation, registry order, link-target totals (3 files) | the rule *code* | CI job **Invariants**, path-filtered to `admin/pipeline/transform/**` |
 | ~40 per-rule count pins | that rules fire N times on one snapshot | **retired**: replaced by rule-count rows in the report and an `expected-counts.json` for the committed snapshot that the Rebuild job compares |
@@ -194,6 +226,10 @@ report header.
 
 Enable required status checks: Lint, Type Check, Test, Rebuild,
 Invariants. Corpus Audit as a required name goes away with the tier.
+
+**Deferred (maintainer, 2026-09-14):** revisited near the v2 release.
+A failing check already has to be overridden to merge, so raising the
+setting now adds nothing.
 
 ### 5.3 Test tiers after the change
 
@@ -260,6 +296,7 @@ folded into migrate; it is the patch engine, not research.
 | `compile.ts` | data-architecture §3 |
 | Port judgment-class detectors from archived research code | ad hoc, one class per PR |
 | Review the 298 low-confidence page placements | review queue |
+| Drift-classify carry-over zero-match (check target on pre-transform source; 3 of 66 carry-overs are exceptions to that test: P000024, P000029, P000027) | after §11 |
 
 ## 11. Sequence
 
@@ -268,7 +305,8 @@ Small PRs into `v2`, in this order; each stands alone.
 1. This spec, the D14 strike-through, and the README rewrite (§9).
 2. Biome config and the format step (§6). One mechanical follow-up if
    any committed file changes shape.
-3. Rebuild CI job, data validation in `bun qa`, required checks (§5).
+3. Rebuild CI job and data validation in `bun qa` (§5); required
+   checks deferred (§5.2).
 4. Structured report rows and the patch-preflight change (§3.1, §4.2).
 5. Retire the count-pin corpus tests; path-filtered Invariants job (§5.1).
 6. Archive move and `package.json` reduction (§8).
@@ -283,3 +321,5 @@ Small PRs into `v2`, in this order; each stands alone.
 | 2026-09-13 | Initial draft from the review session; rulings R1–R7 recorded |
 | 2026-09-14 | R2 narrowed to the page-index note; R6 reworded: the pipeline runs on the current export and commits the snapshot it used; §3.2 three-way merge as the fresh-vs-update mechanism; §3.3 patch lifecycle (`upstream-fixed` / `upstream-changed`) and the scheduled maintenance dry run; report routing per the maintainer's flow diagram |
 | 2026-09-14 | PR #85 review: §3.2 base is the truth tree as last written, never a rebuild with current rules; identified by a content-addressed git tree id (`writtenTree`) in a committed file, not by a commit sha; §6 biome rationale corrected (`*` does not cross `/`) |
+| 2026-09-14 | Step 4: §4.2 a stale pin is a header count and each patch is judged by its precondition, `--strict` restores refusal; §3.1 row fields and kinds as built, rule counts are composed; §5.2 required checks deferred to near release |
+| 2026-09-14 | Final-fix wave: §5.1 Rebuild runs `--strict`; §4.2 carry-over zero-match documented as `superseded`, not drift-classified, with the gap pinned at §10 |

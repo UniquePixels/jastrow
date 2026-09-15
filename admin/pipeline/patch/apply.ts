@@ -29,6 +29,7 @@ import {
 	reconcilePatches,
 	replayGate,
 } from '../research/manifest.ts';
+import { classifyDrift, type DriftOutcome } from './drift.ts';
 import { validateNoNewText } from './no-new-text.ts';
 import {
 	applyPatch,
@@ -169,6 +170,30 @@ interface ApplyProblem {
 	rid?: string | undefined;
 }
 
+/** What a patch whose precondition no longer holds becomes
+ * (consolidation spec §4.2). `problem`: an apply problem, as the
+ * research track has always treated it and as `--strict` restores.
+ * `outcome`: a `PatchDrift` row — not a problem; the run continues. */
+type DriftMode = 'outcome' | 'problem';
+
+/** One patch skipped because its precondition no longer holds. */
+interface PatchDrift {
+	outcome: DriftOutcome;
+	patchId: string;
+	rid: string;
+}
+
+/** Patches pinned to a snapshot other than `currentPin`. Every patch
+ * pins one hash over the whole export, so a new export makes this every
+ * patch at once — which is why migrate reports it as a count and judges
+ * each patch by its own `expected_before` instead. */
+function stalePins(
+	patches: readonly SemanticPatch[],
+	currentPin: string,
+): SemanticPatch[] {
+	return patches.filter((patch) => patch.snapshot !== currentPin);
+}
+
 /** Order a set of found tranche-directory names by `TRANCHES`'s ingest
  * order, optionally filtered to one `stage` (Ruling E). Pure over a
  * directory-name list so the ordering/filtering/unknown-directory
@@ -279,6 +304,10 @@ async function loadManifest(
  * spec §8), and migration proceeds without them. */
 interface PreflightOptions {
 	escalations: 'block' | 'defer';
+	/** `block` (default): a stale snapshot pin is a problem. `skip`: it
+	 * is not checked here — migrate counts it with `stalePins` and
+	 * judges each patch by its precondition (consolidation spec §4.2). */
+	pins?: 'block' | 'skip';
 	/** Subset of `patches` the manifest must reconcile against (task-3
 	 * addendum-3, Ruling F): carry-over patches sit outside the accepted
 	 * record set — their manifest rows are pre-patch stage, not accepted
@@ -313,8 +342,8 @@ function corpusPreflight(
 	options?: PreflightOptions,
 ): ApplyProblem[] {
 	const problems: ApplyProblem[] = [];
-	for (const patch of patches) {
-		if (patch.snapshot !== currentPin) {
+	if ((options?.pins ?? 'block') === 'block') {
+		for (const patch of stalePins(patches, currentPin)) {
 			problems.push({
 				patchId: patch.id,
 				reason: `snapshot pin ${patch.snapshot} does not match current ${currentPin} — maintenance-track rebase required (spec §6)`,
@@ -484,14 +513,25 @@ function postApplyAssertions(after: SourceEntry, patch: SemanticPatch): void {
 /** Apply one rid's patches in committed corpus order, chaining state.
  * Every problem is recorded (the failing patch is skipped, later
  * patches still try against the last good state) so a run reports
- * all drift at once. */
+ * all drift at once. Under `drift: 'outcome'` a patch whose
+ * precondition no longer holds is a `drifted` row instead of a
+ * problem. */
 function applyEntryPatches(
 	entry: SourceEntry,
 	patches: readonly SemanticPatch[],
-): { entry: SourceEntry; problems: ApplyProblem[] } {
+	drift: DriftMode = 'problem',
+): { drifted: PatchDrift[]; entry: SourceEntry; problems: ApplyProblem[] } {
 	let current = entry;
+	const drifted: PatchDrift[] = [];
 	const problems: ApplyProblem[] = [];
 	for (const patch of patches) {
+		if (drift === 'outcome') {
+			const outcome = classifyDrift(current, patch);
+			if (outcome !== undefined) {
+				drifted.push({ outcome, patchId: patch.id, rid: patch.rid });
+				continue;
+			}
+		}
 		try {
 			const next = applyPatch(current, patch);
 			postApplyAssertions(next, patch);
@@ -520,7 +560,7 @@ function applyEntryPatches(
 			throw error;
 		}
 	}
-	return { entry: current, problems };
+	return { drifted, entry: current, problems };
 }
 
 /** Apply one rid's carry-over patches (task-3 addendum-3, Ruling F),
@@ -541,15 +581,18 @@ function applyEntryPatches(
 function applyCarryOver(
 	entry: SourceEntry,
 	patches: readonly SemanticPatch[],
+	drift: DriftMode = 'problem',
 ): {
 	entry: SourceEntry;
 	absorbed: string[];
 	carried: string[];
+	drifted: PatchDrift[];
 	problems: ApplyProblem[];
 } {
 	let current = entry;
 	const absorbed: string[] = [];
 	const carried: string[] = [];
+	const drifted: PatchDrift[] = [];
 	const problems: ApplyProblem[] = [];
 	const ordered = [...patches].sort((a, b) => a.id.localeCompare(b.id));
 	for (const patch of ordered) {
@@ -559,6 +602,15 @@ function applyCarryOver(
 			continue;
 		}
 		if (found !== patch.expected_occurrences) {
+			// found > 0 here, so this is never "fixed": some matches remain.
+			if (drift === 'outcome') {
+				drifted.push({
+					outcome: 'upstream-changed',
+					patchId: patch.id,
+					rid: patch.rid,
+				});
+				continue;
+			}
 			problems.push({
 				patchId: patch.id,
 				reason: `carry-over pre-state target ${patch.target} resolves ${found} time(s); expected ${patch.expected_occurrences} — neither absorbed nor safe to apply`,
@@ -571,7 +623,7 @@ function applyCarryOver(
 		current = result.entry;
 		problems.push(...result.problems);
 	}
-	return { entry: current, absorbed, carried, problems };
+	return { absorbed, carried, drifted, entry: current, problems };
 }
 
 /** Group a corpus by rid, preserving committed order within each
@@ -596,6 +648,8 @@ export type {
 	ApplyProblem,
 	ConsolidatedCorpus,
 	CorpusStage,
+	DriftMode,
+	PatchDrift,
 	PhaseName,
 	PreflightOptions,
 };
@@ -615,4 +669,5 @@ export {
 	PhaseViolation,
 	patchesByRid,
 	postApplyAssertions,
+	stalePins,
 };

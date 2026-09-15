@@ -4,7 +4,11 @@
  * then finish and gate every entry. Dry by default; `--write` reruns
  * every gate and refuses on any red one, or on an output tree that
  * already holds truth files.
- * Run: bun pipeline:migrate [--write]
+ * Run: bun pipeline:migrate [--write] [--strict]
+ *
+ * A stale snapshot pin is one count in the report header; a patch whose
+ * precondition no longer holds is a report row. `--strict` makes either
+ * refuse the run (consolidation spec §4.2).
  */
 import { existsSync } from 'node:fs';
 import process from 'node:process';
@@ -13,6 +17,7 @@ import Ajv2020 from 'ajv/dist/2020';
 import { composeEntry, TransformFailure } from './body/compose.ts';
 import { buildTrace } from './body/dry-run.ts';
 import { evaluateRoundTrip } from './body/dry-run-verify.ts';
+import type { PassName } from './body/repairs.ts';
 import { readSourceEntries } from './body/source.ts';
 import type { BodyEntry, SourceEntry } from './body/types.ts';
 import {
@@ -30,13 +35,22 @@ import {
 	mark,
 } from './migrate/gates.ts';
 import { decomposeForm } from './migrate/headword.ts';
+import { type RunOptions, runOptions } from './migrate/options.ts';
 import { loadPageIndex, type PagePlacement } from './migrate/page.ts';
+import {
+	markMissingTargets,
+	type PatchGroups,
+	recordPatchOutcomes,
+} from './migrate/patches.ts';
 import {
 	BLESSING_PATH,
 	createReport,
+	createRuleCounter,
 	isGreen,
+	lineRow,
 	REPORT_PATH,
 	type Report,
+	type RuleCounter,
 	renderBlessing,
 	type Sample,
 	writeReport,
@@ -47,13 +61,27 @@ import {
 	corpusPreflight,
 	loadAcceptedCorpus,
 	patchesByRid,
+	stalePins,
 } from './patch/apply.ts';
-import type { SemanticPatch } from './patch/schema.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
 import entrySchema from './schema/entry.schema.json' with { type: 'json' };
+import { RULES } from './transform/registry.ts';
 
 const OUT_DIR = 'data/entries';
 const SAMPLE_COUNT = 40;
+
+/** `repairs.ts` pass names (`PassName`), counted as rules alongside
+ * the registry (consolidation spec §4.1). A pass missing here still
+ * gets a row when it fires — only its zero row would be lost. */
+const REPAIR_PASSES: readonly PassName[] = [
+	'rejoin-chopped',
+	'implied-one',
+	'marker-reinsert',
+	'label-repair',
+	'binyan-cleanup',
+	'cite-wrap',
+	'refs-removal',
+] as const;
 
 /** One composed entry, kept for pass 2. Only the three things pass 2
  * needs are retained — the composer's records and phase tracker are
@@ -70,12 +98,6 @@ interface Composed {
 	source: SourceEntry;
 }
 
-/** The rid-grouped patch sets `composeOne` applies (Ruling F). */
-interface PatchGroups {
-	accepted: Map<string, SemanticPatch[]>;
-	carryOver: Map<string, SemanticPatch[]>;
-}
-
 /** The corpus-level indexes pass 1 builds and pass 2 finishes against. */
 interface Indexes {
 	headwordMap: ReadonlyMap<string, string>;
@@ -83,20 +105,24 @@ interface Indexes {
 	slugs: ReadonlyMap<string, string>;
 }
 
-/** Preflight the accepted patch corpus and group it by rid — the same
- * contract `body/migrate-dry.ts` runs under: the full apply set
- * (accepted + carry-over, Ruling F) is pin- and corpus-checked
+/** Preflight the accepted patch corpus and group it by rid. The full
+ * apply set (accepted + carry-over, Ruling F) is corpus-checked
  * together, the manifest reconciles against the accepted set only, and
- * every escalation defers to post-go-live (Ruling D; spec §8). */
-async function preparePatches(report: Report): Promise<PatchGroups> {
+ * every escalation defers to post-go-live (Ruling D). A stale snapshot
+ * pin is counted, not refused, unless `--strict` (consolidation §4.2). */
+async function preparePatches(
+	report: Report,
+	options: RunOptions,
+): Promise<PatchGroups> {
 	const accepted = await loadAcceptedCorpus();
+	const applySet = [...accepted.patches, ...accepted.carryOver];
 	const pin = `sha256:${(await computeSnapshot()).combined}`;
-	const preflight = corpusPreflight(
-		[...accepted.patches, ...accepted.carryOver],
-		accepted.records,
-		pin,
-		{ escalations: 'defer', reconcileOnly: accepted.patches },
-	);
+	report.snapshot = { pin, stalePins: stalePins(applySet, pin).length };
+	const preflight = corpusPreflight(applySet, accepted.records, pin, {
+		escalations: 'defer',
+		pins: options.pins,
+		reconcileOnly: accepted.patches,
+	});
 	if (preflight.length > 0) {
 		throw new Error(
 			`patch-corpus preflight failed (${preflight.length} problem(s)):\n${preflight
@@ -108,25 +134,52 @@ async function preparePatches(report: Report): Promise<PatchGroups> {
 	return {
 		accepted: patchesByRid(accepted.patches),
 		carryOver: patchesByRid(accepted.carryOver),
+		drift: options.drift,
 	};
 }
 
 /** One entry through the composer and the body round-trip gate. A
- * composition failure is recorded on gate 9 and the entry is dropped
- * from pass 2 — the walk keeps going so one run lists every failure. */
+ * composition failure is recorded on gate 9 and as a fault row, and the
+ * entry is dropped from pass 2 — the walk keeps going so one run lists
+ * every failure. */
 function composeOne(
 	source: SourceEntry,
 	groups: PatchGroups,
 	report: Report,
+	rules: RuleCounter,
 ): Composed | undefined {
+	const accepted = groups.accepted.get(source.rid);
+	const carryOver = groups.carryOver.get(source.rid);
 	try {
 		const result = composeEntry(source, {
-			accepted: groups.accepted.get(source.rid),
-			carryOver: groups.carryOver.get(source.rid),
+			accepted,
+			carryOver,
+			drift: groups.drift,
 		});
+		for (const record of result.repairRecords) {
+			rules.add(`repairs:${record.pass}`, record.rid);
+		}
+		for (const record of result.transformRecords) {
+			rules.add(record.ruleId, record.rid);
+		}
 		report.patches.applied += result.patchesApplied;
 		report.patches.absorbed += result.carryOver.absorbed.length;
 		report.patches.carried += result.carryOver.carried.length;
+		recordPatchOutcomes(
+			source.rid,
+			[...(accepted ?? []), ...(carryOver ?? [])],
+			result,
+			report,
+		);
+		for (const problem of result.patchProblems) {
+			report.rows.push({
+				bucket: 'pipeline',
+				detail: `${problem.patchId ?? '(no patch id)'}: ${problem.reason}`,
+				kind: 'patch-failed',
+				rid: source.rid,
+				severity: 'fault',
+			});
+		}
 		const patchDetail = result.patchProblems
 			.map((p) => `${p.patchId ?? source.rid}: ${p.reason}`)
 			.join('; ');
@@ -147,38 +200,41 @@ function composeOne(
 		return { body: trace.body, entry: result.entry, source };
 	} catch (error) {
 		const kind = error instanceof TransformFailure ? 'transform' : 'repair';
-		mark(
-			report.gates.composition,
-			false,
-			`${source.rid}: ${kind}: ${error instanceof Error ? error.message : String(error)}`,
-		);
+		const message = error instanceof Error ? error.message : String(error);
+		mark(report.gates.composition, false, `${source.rid}: ${kind}: ${message}`);
+		report.rows.push({
+			bucket: 'pipeline',
+			detail: `${kind}: ${message}`,
+			kind: 'composition-failed',
+			rid: source.rid,
+			severity: 'fault',
+		});
 		return;
 	}
 }
 
 /** Pass 1: compose every entry; composition failures land on gate 9. */
-async function composeAll(report: Report): Promise<Composed[]> {
-	const groups = await preparePatches(report);
+async function composeAll(
+	report: Report,
+	options: RunOptions,
+): Promise<Composed[]> {
+	const groups = await preparePatches(report, options);
+	const rules = createRuleCounter([
+		...RULES.map((rule) => rule.id),
+		...REPAIR_PASSES.map((pass) => `repairs:${pass}`),
+	]);
 	const composed: Composed[] = [];
 	for await (const source of readSourceEntries()) {
 		report.entries++;
-		const one = composeOne(source, groups, report);
+		const one = composeOne(source, groups, report, rules);
 		if (one !== undefined) {
 			composed.push(one);
 		}
 		groups.accepted.delete(source.rid);
 		groups.carryOver.delete(source.rid);
 	}
-	// A patch whose rid never streamed past targets a nonexistent entry.
-	// Recorded on gate 9 rather than thrown, so the report lists it
-	// beside every other composition problem.
-	const missing = new Set([
-		...groups.accepted.keys(),
-		...groups.carryOver.keys(),
-	]);
-	for (const rid of missing) {
-		mark(report.gates.composition, false, `no source entry with rid ${rid}`);
-	}
+	report.rules = rules.rows();
+	markMissingTargets(groups, report);
 	return composed;
 }
 
@@ -254,8 +310,15 @@ function finishAll(
 		// `checkHeadwordRoundTrip`, which compares `c.entry` against this
 		// same `finished.entry`, would fail on every respelled headword.
 		const finished = finishEntry(c.entry, c.body, indexes);
-		report.headwordReview.push(...finished.headwordReview);
-		report.markupCarries.push(...finished.markupCarries);
+		report.rows.push(
+			...finished.headwordReview.map((line) =>
+				lineRow(line, 'headword-unparsed'),
+			),
+			...finished.markupCarries.map((line) => lineRow(line, 'markup-carry')),
+			...finished.problems.map((line) =>
+				lineRow(line, 'finish-failed', 'pipeline', 'fault'),
+			),
+		);
 		report.unresolved.push(...finished.unresolved);
 		mark(
 			report.gates.composition,
@@ -279,9 +342,13 @@ function finishAll(
 		);
 		const page = indexes.pages.get(c.source.rid);
 		if (page !== undefined && page.confidence !== 'high') {
-			report.nonHighPages.push(
-				`${c.source.rid}: p${page.number}${page.column} (${page.confidence})`,
-			);
+			report.rows.push({
+				bucket: 'review',
+				detail: `p${page.number}${page.column} (${page.confidence})`,
+				kind: `page-confidence-${page.confidence}`,
+				rid: c.source.rid,
+				severity: 'review',
+			});
 		}
 		truths.push(finished.entry);
 		if (i % stride === 0 && samples.length < SAMPLE_COUNT) {
@@ -368,16 +435,23 @@ async function writeAll(
 	console.log(`wrote ${report.written} truth files under ${OUT_DIR}`);
 }
 
-/** The run summary on stdout: every gate, then the four
- * informational lists, then where the written evidence went. */
+/** The run summary on stdout: one line per gate, the row-kind counts
+ * alongside the unresolved total, the stale-pin/drift line, and where
+ * the written evidence went. */
 function printGates(report: Report): void {
 	for (const [name, t] of Object.entries(report.gates)) {
 		console.log(
 			`gate ${name}=${t.pass}/${t.total} failures=${t.failures.length}`,
 		);
 	}
+	const kinds = new Map<string, number>();
+	for (const row of report.rows) {
+		kinds.set(row.kind, (kinds.get(row.kind) ?? 0) + 1);
+	}
+	const kindCounts = [...kinds].map(([k, n]) => `${k}=${n}`).join(' ');
+	console.log(`unresolved=${report.unresolved.length} ${kindCounts}`);
 	console.log(
-		`unresolved=${report.unresolved.length} headwordReview=${report.headwordReview.length} nonHighPages=${report.nonHighPages.length} markupCarries=${report.markupCarries.length}`,
+		`stalePins=${report.snapshot.stalePins} upstreamFixed=${report.patches.upstreamFixed} upstreamChanged=${report.patches.upstreamChanged}`,
 	);
 	console.log(`report written to ${REPORT_PATH}; evidence to ${BLESSING_PATH}`);
 }
@@ -388,8 +462,8 @@ function printGates(report: Report): void {
  * because the migration is a one-shot and a second pass over a
  * half-written tree would leave a mix of two runs. */
 async function main(): Promise<void> {
-	const write = process.argv.includes('--write');
-	if (write && !(await outputTreeIsEmpty())) {
+	const options = runOptions(process.argv);
+	if (options.write && !(await outputTreeIsEmpty())) {
 		throw new Error(
 			`${OUT_DIR} already holds truth files; migration writes once`,
 		);
@@ -399,7 +473,7 @@ async function main(): Promise<void> {
 		strict: true,
 	}).compile(entrySchema);
 	const report = createReport();
-	const composed = await composeAll(report);
+	const composed = await composeAll(report, options);
 	const indexes = await buildIndexes(composed, report);
 	const { samples, truths } = finishAll(composed, indexes, report, validate);
 	await gateQuarantine(report);
@@ -409,7 +483,7 @@ async function main(): Promise<void> {
 	if (!isGreen(report)) {
 		throw new Error('at least one gate is red; see the report');
 	}
-	if (write) {
+	if (options.write) {
 		await writeAll(truths, report);
 	}
 }
