@@ -134,8 +134,8 @@ Rows route two ways, as the flow diagram draws it: data judgments
 tracker integration; pipeline faults are ordinary code issues.
 
 The blessing doc renders the same report; nothing is hand-written.
-These rows are what the maintenance dry run (§3.3) diffs against,
-which is why the shape is fixed now.
+These rows are one candidate baseline for the maintenance dry run
+(§3.3; its baseline is open), which is why the shape is fixed now.
 
 ### 3.2 Fresh run vs update run
 
@@ -161,8 +161,8 @@ theirs side, where they are merged like any source change.
 The update run applies a per-entry three-way merge: theirs where
 ours == base, ours where theirs == base, and a review row where all
 three differ. The committed snapshot is still required: it is what
-makes the last write reproducible and auditable, and what the
-maintenance dry run (§3.3) diffs the new export against. No provenance
+makes the last write reproducible and auditable, and it is one
+candidate baseline for the maintenance dry run (§3.3). No provenance
 field and no patch re-recording is needed.
 
 ### 3.3 Patch lifecycle and the maintenance dry run
@@ -178,18 +178,22 @@ outcomes (the research-process spec §6 already asks for this):
 
 A scheduled dry run makes this routine: on a cadence (monthly, or on
 demand), fetch to a temporary directory, run `migrate` dry against it,
-diff the report against the committed report, and open one issue
+compare the result with a baseline (open, below), and open one issue
 listing entries added or removed, rule counts that moved, patches
 flagged `upstream-fixed` or `upstream-changed`, and new review rows.
-Nothing is written. A person decides whether to run the update (§3.2)
-from that issue.
+No entry data is written. A person decides whether to run the update
+(§3.2) from that issue.
 
-**Open (2026-09-15):** a scheduled run may conflict with R9, since it
-runs `migrate` in automation. Whether it is scheduled, on demand, or
-something else is undecided until this process is brainstormed (§10).
-So is its baseline: "the committed report" above does not exist, since
-`migration-report.json` is not committed (D2) and only the blessing doc
-is.
+**Open (2026-09-15), until this process is brainstormed (§10):**
+
+- **Trigger.** A scheduled run may conflict with R9, since it runs
+  `migrate` in automation. Scheduled, on demand, or something else is
+  undecided.
+- **Baseline.** Which committed artifact the result is compared with
+  is undecided. Candidates named elsewhere in this spec are the
+  report rows (§3.1) and the committed snapshot (§3.2). The report
+  file itself is not a candidate as things stand: `migration-report.json`
+  is not committed (D2); only the blessing doc is.
 
 ## 4. The three buckets (R4)
 

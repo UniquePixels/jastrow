@@ -51,7 +51,7 @@ decided in the step-10 sweep.
 | **update run** | an import of a new export into entry data that people have edited. Not built yet; designed as a three-way merge of *base*, *ours* and *theirs* |
 | **base / ours / theirs** | in an update run: entry data as import last wrote it / entry data now / import of the new export |
 | **`writtenTree`** | the git tree id of `data/entries/` right after a write run, recorded so *base* can be recovered later. Planned, not built |
-| **maintenance dry run** | a dry run against a freshly fetched export, compared with the last committed run, to see what a new export would change. Still open: how it is triggered, and what it compares against, since the import report is not committed and the blessing doc is |
+| **maintenance dry run** | a dry run against a freshly fetched export, compared with a baseline, to see what a new export would change. Both the trigger and the baseline are undecided until designed (spec §3.3) |
 
 ## Pipeline code
 
