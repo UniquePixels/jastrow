@@ -20,7 +20,7 @@ This is the list that work starts from.
 | `order` | shows two rules disagree by order; a static direction pin replaces it |
 | `other` | not yet read; none may remain when this file is committed |
 
-191 tests: 125 count, 17 derived-table, 47 no-defect, 2 order.
+191 tests: 125 count, 17 derived-table, 48 no-defect, 1 order.
 
 | Test | Kind |
 |---|---|
@@ -86,7 +86,7 @@ This is the list that work starts from.
 | [`transform/rules/duplication.corpus.test.ts:163`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L163-L182) accounts for the catalogued 59 as the members under a 120-char cap | count |
 | [`transform/rules/duplication.corpus.test.ts:186`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L186-L189) declares every anchor it removes | count |
 | [`transform/rules/duplication.corpus.test.ts:197`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L197-L206) shares exactly one entry, whose two runs are different | count |
-| [`transform/rules/duplication.corpus.test.ts:208`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L208-L217) composes to the same entry in either order on that entry | order |
+| [`transform/rules/duplication.corpus.test.ts:208`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L208-L217) composes to the same entry in either order on that entry | no-defect |
 | [`transform/rules/edge-trim.corpus.test.ts:233`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/edge-trim.corpus.test.ts#L233-L244) corpus tier: emphasisRunEdgeSpace is Class C — a defect-count delta > reproduces the catalogued population and collapses 176 of 179 rendered doubled spaces | count |
 | [`transform/rules/edge-trim.corpus.test.ts:252`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/edge-trim.corpus.test.ts#L252-L256) corpus tier: emphasisRunEdgeSpace is Class C — a defect-count delta > leaves the literal doubled-space population untouched | count |
 | [`transform/rules/edge-trim.corpus.test.ts:265`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/edge-trim.corpus.test.ts#L265-L269) corpus tier: the two field edges emphasisRunEdgeSpace touches > creates no new field-trailing whitespace for the other rule to find | no-defect |
