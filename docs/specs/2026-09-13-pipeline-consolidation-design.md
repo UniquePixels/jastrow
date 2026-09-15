@@ -26,7 +26,7 @@ patches for what cannot be done deterministically).
 | Non-test code under `admin/`, and the share reachable from `migrate.ts` | 36,952 lines; ~77 modules on the migrate path |
 | `research/`, `provenance/`, one-time `body/` tools | 17,746 + 1,174 + 2,822 lines; 2 files needed by migrate |
 | `package.json` scripts | 24: 6 pipeline, 8 QA, 10 research relics |
-| Corpus test tier | 45 files, 14,443 lines, 12–13 min of CI; 3 files check code invariants, ~40 pin per-rule counts to the 2026-07-04 snapshot. **Corrected 2026-09-15:** 2 files are code invariants (`body/pipeline-links`, the third named, is mostly counts), and the count files also hold ~190 hand-written example tests that never read the source data |
+| Corpus test tier | 45 files, 14,443 lines, 12–13 min of CI; 3 files check code invariants, ~40 pin per-rule counts to the 2026-07-04 snapshot. **Corrected 2026-09-15:** 2 files are code invariants (`body/pipeline-links`, the third named, is mostly counts), and the count files also hold ~190 hand-written example tests that never read the source data (estimate: synchronous `it(`/`test(` calls outside the two invariant files, by grep; not verified per test) |
 | Branch protection on `v2` | no required status checks |
 | Biome | 240 info diagnostics, 0 warnings; scans 32,512 data files by accident |
 | SonarCloud | all 82 issues are the v1 app on `main`; no v2 branch exists |
@@ -94,8 +94,9 @@ process it, read the report. The flow is drawn in
 maintainer's sketch `docs/Migrate Flow.drawio`. The snapshot `fetch`
 writes to `data/source/` is committed in the same PR as the entry data
 it produced. That is what makes the run reproducible afterwards: anyone
-with a clone can run `migrate` alone against the committed source data,
-with no download, and get the entry data as that run wrote it. A
+with a clone can empty `data/entries/` (a write run refuses otherwise)
+and run `migrate --write` alone against the committed source data, with
+no download, and get the entry data as that run wrote it. A
 difference is a hand edit, or a rule or patch change, merged since
 (§3.2). Nobody needs to do this routinely, and CI does not (R9).
 
@@ -186,6 +187,9 @@ from that issue.
 **Open (2026-09-15):** a scheduled run may conflict with R9, since it
 runs `migrate` in automation. Whether it is scheduled, on demand, or
 something else is undecided until this process is brainstormed (§10).
+So is its baseline: "the committed report" above does not exist, since
+`migration-report.json` is not committed (D2) and only the blessing doc
+is.
 
 ## 4. The three buckets (R4)
 
@@ -319,7 +323,7 @@ rebuild after an entry is added, and is cheap to do now.
 | research docs: `discovery-round-*`, `transform-batch-*`, `phase-2-*`, `body-*`, `pattern-triage`, `catalogue-audit`, `baseline-audit`, `divergence-audit`, `body-review/` | `docs/archive/` on `v2` | history stays readable and linkable |
 | registry `PENDING` commentary (487 lines inside an empty array) | `docs/archive/registry-history.md` | zero behaviour change |
 | `.superpowers/`, `.claude/worktrees/*`, `.worktrees/` | delete stale entries | two stale worktrees today |
-| research notes filed beside the data: `data/patches/{catalogue-audit,discovery-round-2,discovery-round-3,pilot}/`, `data/source/divergence-report.json` | `docs/archive/` on `v2` | reports, not correction data or source data (§1.1); confirm no file is a `migrate` input before moving |
+| research notes filed beside the data: `data/patches/{catalogue-audit,discovery-round-2,discovery-round-3,checkpoints}/`, `data/source/divergence-report.json` | `docs/archive/` on `v2` | reports, not correction data or source data (§1.1); confirm no file is a `migrate` input before moving. Not `data/patches/pilot/`: `patch/apply.ts` loads it as carry-over patches |
 | `audit:corpus`, `admin/pipeline/audit-corpus.sh` | deleted | leave with the Corpus Audit job (§5.1, step 5) |
 
 `package.json` after the move: `pipeline:fetch`, `pipeline:migrate`,
@@ -357,13 +361,16 @@ folded into migrate; it is the patch engine, not research.
 
 Small PRs into `v2`, in this order; each stands alone.
 
-1. This spec, the D14 strike-through, and the README rewrite (§9).
-2. Biome config and the format step (§6). One mechanical follow-up if
-   any committed file changes shape.
-3. Rebuild CI job and data validation in `bun qa` (§5); required
-   checks deferred (§5.2). *Rebuild withdrawn 2026-09-15 (R9); removed
-   in step 5.*
-4. Structured report rows and the patch-preflight change (§3.1, §4.2).
+Steps 1–4 have shipped and are kept as history.
+
+1. *Shipped (#85, #86).* This spec, the D14 strike-through, and the
+   README rewrite (§9).
+2. *Shipped (#88).* Biome config and the format step (§6).
+3. *Shipped (#89), partly withdrawn.* Data validation in `bun qa`
+   stays. The Rebuild CI job it added is withdrawn by R9 and removed
+   in step 5; required checks deferred (§5.2).
+4. *Shipped (#90).* Structured report rows and the patch-preflight
+   change (§3.1, §4.2).
 5. Remove the Rebuild and Corpus Audit CI jobs; move hand-written
    example tests to the unit tier; delete count pins; the two invariant
    files become a local script (§5.1, §5.3).

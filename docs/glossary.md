@@ -39,8 +39,8 @@ decided in the step-10 sweep.
 
 | Term | Meaning |
 |---|---|
-| **dry run** | an import that checks and reports but writes nothing. The default |
-| **write run** | an import with `--write`: writes entry data, then formats it with Biome. Refuses to write if any gate is red |
+| **dry run** | the default import: checks and reports, and writes no entry data. It does rewrite the import report and the blessing doc |
+| **write run** | an import with `--write`: writes entry data, then formats it with Biome. Refuses unless `data/entries/` is empty, and refuses if any gate is red |
 | **`--strict`** | makes a run refuse on a stale pin or a patch whose precondition no longer holds, instead of reporting them. Right for the committed snapshot, wrong for a new export |
 | **gate** | one of nine pass/total tallies import checks on every run: `bodyRoundTrips`, `headwordRoundTrip`, `textConservation`, `schema`, `chain`, `internalTargets`, `slugs`, `pages`, `composition` |
 | **import report** | the structured result of a run: gate tallies, rule counts, patch outcomes, report rows. Not committed (`data/source/migration-report.json`) |
@@ -51,7 +51,7 @@ decided in the step-10 sweep.
 | **update run** | an import of a new export into entry data that people have edited. Not built yet; designed as a three-way merge of *base*, *ours* and *theirs* |
 | **base / ours / theirs** | in an update run: entry data as import last wrote it / entry data now / import of the new export |
 | **`writtenTree`** | the git tree id of `data/entries/` right after a write run, recorded so *base* can be recovered later. Planned, not built |
-| **maintenance dry run** | a dry run against a freshly fetched export, diffed against the committed report, to see what a new export would change. How it is triggered is still open |
+| **maintenance dry run** | a dry run against a freshly fetched export, compared with the last committed run, to see what a new export would change. Still open: how it is triggered, and what it compares against, since the import report is not committed and the blessing doc is |
 
 ## Pipeline code
 
@@ -66,10 +66,12 @@ Everything import runs is one of three **buckets**:
 | Term | Meaning |
 |---|---|
 | **registry** | the ordered list of rules; the order they run in (`transform/registry.ts`) |
-| **repair pass** | a general fix in `body/repairs.ts` that runs alongside the rules (rejoin, units, lettered, form sections). Counted in the report as `repairs:<name>` |
+| **repair pass** | a fix in `body/repairs.ts` that runs alongside the rules: `rejoin-chopped`, `implied-one`, `marker-reinsert`, `label-repair`, `binyan-cleanup`, `cite-wrap`, `refs-removal`. Counted in the report as `repairs:<name>` |
 | **pattern** | a catalogued kind of defect in `data/patches/patterns.jsonl`, routed to `transform` (a rule handles it), `judgment` (per-entry patches) or `blocked` (no route yet) |
 | **judgment class** | a pattern routed to `judgment`: no rule can decide it, so each entry needs a person's call |
-| **commutation** | whether two rules give the same result in either order. Rules that don't commute must declare their order (`entangledWith` or `ORDERED`) |
+| **commutation** | whether two rules give the same result in either order. A pair that doesn't must be declared, one of two ways below |
+| **`entangledWith`** | a population collision: two patterns own the same records, so their rules must sit next to each other in the registry with nothing between. Declared in `patterns.jsonl` |
+| **`ORDERED`** | a sequence dependency: one rule reads what another writes, so it must run after it. Declares a direction, not adjacency. Declared in `transform/registry.ts` |
 | **research code** | one-time investigation tools that are none of the three buckets. Archived, not run |
 
 ## Patches
@@ -78,8 +80,9 @@ Everything import runs is one of three **buckets**:
 |---|---|
 | **precondition** | what must be true before a patch applies: its target text (`expected_before`) occurs exactly `expected_occurrences` times |
 | **tranche** | one batch of patches produced and reviewed together (`data/patches/tranches/<id>/`) |
-| **accepted patch** | a patch in the current accepted set (the `healed` stage of the tranche manifests), latest per entry |
-| **carry-over patch** | an older patch from the pilot or `tranche-01`, written against the raw source text. Applied after the accepted patches, unless an accepted patch already covers the same entry and target |
+| **stage** | the text a tranche was swept against. `pre-patch`: repaired text before any transform rule existed. `healed`: text after both text and structural repairs, the state patches apply against today |
+| **accepted patch** | a `healed`-stage patch, the latest per entry |
+| **carry-over patch** | a `pre-patch`-stage patch from `pilot/` or `tranche-01`. Applied after the accepted patches, unless an accepted patch already covers the same entry and target |
 | **pin** | the snapshot hash a patch was written against. A **stale pin** names a different snapshot; it is counted in the report header, not refused (except under `--strict`) |
 | **quarantine** | internal link targets that could not be resolved, listed for review rather than silently dropped. Empty today (`data/quarantine/internal-targets.json`) |
 
@@ -88,8 +91,8 @@ What a run reports for each patch:
 | Outcome | Meaning |
 |---|---|
 | **applied** | precondition held; the fix landed |
-| **absorbed** / **superseded** | a carry-over patch whose target is already gone because a rule or repair fixed it first |
-| **upstream-fixed** | Sefaria's text already reads the way the patch would leave it. Archive the patch |
+| **superseded** | a carry-over patch whose target no longer occurs, read as a rule or repair having fixed it first. The report header counts these as *absorbed*. **Known gap:** on a new export, a carry-over target Sefaria rewrote also reads this way, so check before archiving (spec §4.2, §10) |
+| **upstream-fixed** | Sefaria's text already reads the way the patch would leave it, exactly or by a class-specific equivalent. As built: the target is gone, the patch is single-occurrence, and the senses it would produce are present. Archive the patch |
 | **upstream-changed** | the text differs from both the patch's before and after. A person re-judges it |
 
 ## Entries
@@ -110,8 +113,8 @@ What a run reports for each patch:
 |---|---|
 | **unit tier** | every `*.test.ts`: fast (~2 s), run by `bun qa` and CI's **Test** job |
 | **hand-written example test** | a test that feeds a rule a small fixed input and checks its output. Never reads the source data |
-| **entry data validation** | the safeguard over every entry file: schema, file path, allowed tags, balanced markup, unique slugs, internal link targets, page matches the page index. Runs in the unit tier |
-| **invariant check** | a test of rule *code* that needs the whole snapshot: commutation and registry order. Run locally before rule-code PRs, not in CI |
+| **entry data validation** | the safeguard over every entry file: schema, file path, allowed tags, balanced markup, no markup in plain-text fields, unique slugs, internal link targets, page matches the page index both ways. Runs in the unit tier |
+| **invariant check** | a test of rule *code* that needs the whole snapshot: commutation and registry order. After spec step 5, run locally before rule-code PRs; until then still in CI's Corpus Audit job |
 | **corpus tier** | every `*.corpus.test.ts`. Being retired except the two invariant checks (spec step 5) |
 
 ## Retired terms
@@ -124,4 +127,4 @@ What a run reports for each patch:
 | migration report | import report |
 | serving artifacts | compiled data |
 | corpus (meaning the committed export) | snapshot |
-| Rebuild CI job, Corpus Audit CI job | withdrawn 2026-09-15 (spec R9) |
+| Rebuild CI job, Corpus Audit CI job | withdrawn 2026-09-15 (spec R9); still in CI until spec step 5 removes them |
