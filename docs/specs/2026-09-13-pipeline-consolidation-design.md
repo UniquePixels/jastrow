@@ -8,7 +8,7 @@
   [2026-07-08-v2-data-architecture-design.md](2026-07-08-v2-data-architecture-design.md)
   §6 ("`migrate.ts` runs once, gets blessed, then retires into repo
   history"). Amends `admin/pipeline/README.md` accordingly.
-- **Does not change:** the truth schema, the transform rules, the
+- **Does not change:** the entry data schema, the transform rules, the
   compile design (data-architecture §3), or the committed data.
 
 ## 1. Context
@@ -26,7 +26,7 @@ patches for what cannot be done deterministically).
 | Non-test code under `admin/`, and the share reachable from `migrate.ts` | 36,952 lines; ~77 modules on the migrate path |
 | `research/`, `provenance/`, one-time `body/` tools | 17,746 + 1,174 + 2,822 lines; 2 files needed by migrate |
 | `package.json` scripts | 24: 6 pipeline, 8 QA, 10 research relics |
-| Corpus test tier | 45 files, 14,443 lines, 12–13 min of CI; 3 files check code invariants, ~40 pin per-rule counts to the 2026-07-04 snapshot |
+| Corpus test tier | 45 files, 14,443 lines, 12–13 min of CI; 3 files check code invariants, ~40 pin per-rule counts to the 2026-07-04 snapshot. **Corrected 2026-09-15:** 2 files are code invariants (`body/pipeline-links`, the third named, is mostly counts), and the count files also hold ~190 hand-written example tests that never read the source data |
 | Branch protection on `v2` | no required status checks |
 | Biome | 240 info diagnostics, 0 warnings; scans 32,512 data files by accident |
 | SonarCloud | all 82 issues are the v1 app on `main`; no v2 branch exists |
@@ -35,34 +35,50 @@ The pipeline works and reproduces its output. The repository around it
 still records the research process rather than the reproducible path,
 and the July ruling that migrate is a one-shot contradicts the goal.
 
-## 2. Rulings (maintainer, 2026-09-12/13)
+### 1.1 Terms (R8)
+
+| Term | What it is | Where |
+|---|---|---|
+| **source data** | Sefaria's export: the dictionary, lexicons and manifest `fetch` writes | `data/source/` |
+| **entry data** | one JSON file per entry; made by `migrate`, then edited by people and the admin tool. Earlier documents and code call it "truth" | `data/entries/<L>/<rid>.json` |
+| **compiled data** | entry data built for the web app | not built yet (data-architecture §3) |
+| **reference data** | our own lookup inputs the pipeline reads alongside the source data; today the print page/column index, and it may grow | `data/page-index/` |
+| **correction data** | our own per-entry fixes: patches and quarantined link targets | `data/patches/`, `data/quarantine/` |
+
+Reports (the migration report, the blessing doc, build reports) are
+evidence, not data. Research notes still filed beside the data are
+archive material (§8).
+
+## 2. Rulings (maintainer, 2026-09-12/15)
 
 | ID | Ruling |
 |---|---|
 | R1 | **`migrate.ts` is permanent and re-runnable.** D14's "retires into repo history" is withdrawn. A run regenerates a candidate tree and reports; it never silently overwrites edited truth. |
-| R2 | **Truth is the edited layer; the page index is ours to correct.** `data/entries/` is what people and the admin tool edit. Hand edits are *not* re-recorded as pipeline inputs (withdrawn 2026-09-14: that mandate would push the admin tool toward writing patches). The one exception is page/column: we are the source of that data, so when the admin tool changes an entry's page or column it must also update `data/page-index/entries.jsonl`, or a fresh rebuild loses the correction. **Note for the admin-tool build.** Text corrections we hope to see fixed upstream by Sefaria; the rest survive a rebuild by the merge in §3.2. |
+| R2 | **Entry data is the edited layer; the page index is ours to correct.** `data/entries/` is what people and the admin tool edit. Hand edits are *not* re-recorded as pipeline inputs (withdrawn 2026-09-14: that mandate would push the admin tool toward writing patches). The one exception is page/column: we are the source of that data, so when the admin tool changes an entry's page or column it must also update `data/page-index/entries.jsonl`, or a fresh rebuild loses the correction. **Note for the admin-tool build.** Text corrections we hope to see fixed upstream by Sefaria; the rest survive a rebuild by the merge in §3.2. |
 | R3 | **Resilient, not unattended.** The pipeline never chokes on the data it is given: a failing entry is emitted from source bytes with a review row, not dropped. Every run still ends in a report a person reads before the output ships. |
 | R4 | **Three buckets.** Pipeline code is a *rule* (detect + fix, general), a *patch* (one entry's judged fix, applied when its precondition holds), or a *review detector* (detect only, emit a row). Everything else is research and is archived. |
 | R5 | **One formatter.** Biome formats `data/entries/`. The pipeline formats as its last step, the admin tool formats what it writes, contributors run `bun qa`, CI checks. |
-| R6 | **The pipeline runs on the current Sefaria export.** `fetch` is step 1, not a side path. The snapshot it writes is committed with the truth it produced, so any run is reproducible afterwards without a download. The update process (a new export against edited truth, §3.2) is designed here in outline and built after the §11 sequence. A Sefaria schema change is a code change and out of scope. |
+| R6 | **The pipeline runs on the current Sefaria export.** `fetch` is step 1, not a side path. The snapshot it writes is committed with the entry data it produced, so any run is reproducible afterwards without a download. The update process (a new export against edited truth, §3.2) is designed here in outline and built after the §11 sequence. A Sefaria schema change is a code change and out of scope. |
 | R7 | **Review items become issues** in the tracker the admin tool integrates with (GitHub Issues or similar). Until that tool exists, one consolidated review document stands in. |
+| R8 | **Data terms** (2026-09-15). Source data is Sefaria's export; entry data is `data/entries/` (formerly "truth"); compiled data is what the web app loads; reference data is our lookup input (today the page index); correction data is patches and quarantine. Defined in §1.1. |
+| R9 | **`migrate` is not CI work** (2026-09-15). It runs when a person chooses to: a new export or a rule change. That person reads the report and commits the output with the source data it came from. Per-PR CI checks code and validates entry data; it never runs `migrate` and never reads the source data. |
 
 ## 3. Target shape of the pipeline
 
 ```
-data/source/            committed Sefaria snapshot   (input, from fetch)
-data/page-index/        committed print locators      (input, ours; admin tool corrects)
-data/patches/           committed per-entry judgments (input, ours; admin tool appends)
-data/quarantine/        committed unresolved targets  (input, ours)
+data/source/            source data      (Sefaria's export, from fetch)
+data/page-index/        reference data   (print locators, ours; admin tool corrects)
+data/patches/           correction data  (per-entry judgments, ours; admin tool appends)
+data/quarantine/        correction data  (unresolved targets, ours)
         │
         ▼
 bun pipeline:migrate    rules → patches → review detectors → gates → format
         │
-        ├── data/entries/<L>/<rid>.json      truth (committed, derived)
+        ├── data/entries/<L>/<rid>.json      entry data (committed; people edit)
         └── data/source/migration-report.json + docs/v2/migration-blessing.md
         │
         ▼
-bun pipeline:compile    truth → serving artifacts (data-architecture §3, not yet built)
+bun pipeline:compile    entry data → compiled data (data-architecture §3, not yet built)
 ```
 
 The normal run is `fetch` then `migrate`: pull the current export,
@@ -70,10 +86,12 @@ process it, read the report. The flow is drawn in
 [`docs/pipeline-flow.drawio.svg`](../pipeline-flow.drawio.svg)
 (renders on GitHub; opens in draw.io for editing), derived from the
 maintainer's sketch `docs/Migrate Flow.drawio`. The snapshot `fetch`
-writes to `data/source/` is committed in the same PR as the truth it
-produced. That is what makes the run reproducible afterwards: CI, or a
-fresh clone, runs `migrate` alone against the committed snapshot and
-gets the committed truth byte-for-byte, with no download.
+writes to `data/source/` is committed in the same PR as the entry data
+it produced. That is what makes the run reproducible afterwards: anyone
+with a clone can run `migrate` alone against the committed source data,
+with no download, and get the entry data as that run wrote it. A
+difference is a hand edit, or a rule or patch change, merged since
+(§3.2). Nobody needs to do this routinely, and CI does not (R9).
 
 ### 3.1 The report is the review list
 
@@ -115,8 +133,8 @@ which is why the shape is fixed now.
 ### 3.2 Fresh run vs update run
 
 The only difference between the two is whether hand edits exist in
-truth that a new run would overwrite. A fresh fork has none. The
-maintained repo does, and the truth schema carries no edit provenance,
+entry data that a new run would overwrite. A fresh fork has none. The
+maintained repo does, and the entry data schema carries no edit provenance,
 so the run cannot tell an edit from a source change by looking at a
 file. It can tell by rebuilding:
 
@@ -158,6 +176,10 @@ listing entries added or removed, rule counts that moved, patches
 flagged `upstream-fixed` or `upstream-changed`, and new review rows.
 Nothing is written. A person decides whether to run the update (§3.2)
 from that issue.
+
+**Open (2026-09-15):** a scheduled run may conflict with R9, since it
+runs `migrate` in automation. Whether it is scheduled, on demand, or
+something else is undecided until this process is brainstormed (§10).
 
 ## 4. The three buckets (R4)
 
@@ -214,18 +236,39 @@ the report header.
 
 ### 5.1 What verifies what
 
+Under R9, per-PR CI never runs `migrate` and never reads the source
+data. Everything that processes the whole export happens when a person
+runs it.
+
 | Check | Verifies | Where it runs |
 |---|---|---|
-| nine migrate gates | the data | inside `migrate`, every run |
-| rebuild == truth | the committed truth is what the pipeline produces from the committed snapshot | CI job **Rebuild**: delete `data/entries/`, `migrate --write --strict` (no fetch; formats as its last step; `--strict` because on the committed snapshot a stale pin or a drifted patch can only be an authoring mistake, so CI refuses the run rather than merely reporting drift the way the default run does for a new export), then `git status` on the tree and the blessing doc must be empty; ~2 min |
-| data validation (schema, file path, closed tag vocabulary, balanced markup, slug uniqueness, internal cite targets, page == page-index row both ways) | any hand edit to truth | `migrate/validate.ts`, run over the tree by `migrate/truth.test.ts` in `bun qa`; CI job **Test** |
-| commutation, registry order, link-target totals (3 files) | the rule *code* | CI job **Invariants**, path-filtered to `admin/pipeline/transform/**` |
-| ~40 per-rule count pins | that rules fire N times on one snapshot | **retired**: replaced by rule-count rows in the report and an `expected-counts.json` for the committed snapshot that the Rebuild job compares |
+| nine migrate gates | the entry data a run produces | inside `migrate`, every run |
+| migrate report and blessing doc | what a run did: rule counts, patch outcomes, review rows | read by the person who ran `migrate`; the blessing doc is committed in the same PR as the source data and entry data it describes |
+| entry data validation (schema, file path, closed tag vocabulary, balanced markup, slug uniqueness, internal cite targets, page == page-index row both ways) | any change to entry data: by `migrate`, the admin tool, or hand. A safeguard, independent of which export produced the data | `migrate/validate.ts`, run over the tree by `migrate/truth.test.ts` in `bun qa`; CI job **Test** |
+| hand-written example tests | what one rule does to a small, fixed input | unit tier in `bun qa`; CI job **Test**. About 190 of them live today inside `*.corpus.test.ts` files and move to `*.test.ts` |
+| commutation and registry order (`transform/commutation.corpus.test.ts`, `transform/registry.order.corpus.test.ts`) | the rule *code*: rules that edit the same text have a declared, justified order | run locally, by choice, before a PR that changes rule code or registry order, through one `package.json` script; not CI. Each reads the source data and takes 3–4 min |
+
+Withdrawn 2026-09-15:
+
+| Was | Why withdrawn |
+|---|---|
+| CI job **Rebuild** (delete `data/entries/`, `migrate --write --strict`, require an empty diff) | It fails permanently on the first hand edit to entry data, which R2 makes the edited layer; and under R9 `migrate` is not CI work. `--strict` stays as a flag for a person's run on the committed source data |
+| CI job **Corpus Audit** (45 `*.corpus.test.ts` files; ~33 runner-minutes and 12 min wall per push, with a history of timeouts) | ~40 files pin counts measured on one export, so every new export means re-analysing them by hand; on the committed source data the gates and report already cover them |
+| per-rule count pins, and the planned `expected-counts.json` | The blessing doc's rule-count table is regenerated by every `migrate` run and committed with it; a second copy is maintenance with no gain. The file was never built |
+| path-filtered CI job **Invariants** | replaced by the local run above |
+
+The retired corpus files also hold checks that are not counts: some
+re-derive a hand-kept table from the source data (e.g. that the
+linked-headword allowlist is exactly what the export targets), others
+assert a rule creates no new defect across the export. On the
+committed source data the gates make them redundant; on a new export
+they are the only warning. Each one worth keeping becomes a review
+detector (R4) that emits a report row, with no pinned number (§10);
+the rest are deleted with the tier.
 
 ### 5.2 Required checks on `v2`
 
-Enable required status checks: Lint, Type Check, Test, Rebuild,
-Invariants. Corpus Audit as a required name goes away with the tier.
+Enable required status checks: Lint, Type Check, Test.
 
 **Deferred (maintainer, 2026-09-14):** revisited near the v2 release.
 A failing check already has to be overridden to merge, so raising the
@@ -233,11 +276,12 @@ setting now adds nothing.
 
 ### 5.3 Test tiers after the change
 
-`*.test.ts` (unit, ~2 s, 1.3 s of it the truth-tree validation) and
-the three invariant files. The
-`*.corpus.test.ts` naming convention and `test-tiers.test.ts` guard
-stay for those three; the other 42 corpus files leave with the
-research code or are deleted where they only pinned counts.
+One CI tier: `*.test.ts` (unit, ~2 s, 1.3 s of it entry data
+validation). The two invariant files keep the `*.corpus.test.ts` name,
+so `bun qa:test` skips them, and `test-tiers.test.ts` keeps guarding
+that name. Every other corpus file is taken apart: its hand-written
+example tests move to a `*.test.ts` beside the rule, its count pins
+are deleted, and tests of research code leave with that code (§8).
 
 ## 6. Formatting (R5)
 
@@ -256,7 +300,7 @@ form for humans, the tool, and the pipeline.
 
 `migrate/slug.ts` says "assigned once, then frozen" but `assignSlugs`
 takes no prior assignment and renumbers every collision family from
-scratch. Under R1 a rebuild must read the existing truth's slugs first
+scratch. Under R1 a rebuild must read the existing entry data's slugs first
 and only assign to rids that have none. This is required before any
 rebuild after an entry is added, and is cheap to do now.
 
@@ -269,6 +313,8 @@ rebuild after an entry is added, and is cheap to do now.
 | research docs: `discovery-round-*`, `transform-batch-*`, `phase-2-*`, `body-*`, `pattern-triage`, `catalogue-audit`, `baseline-audit`, `divergence-audit`, `body-review/` | `docs/archive/` on `v2` | history stays readable and linkable |
 | registry `PENDING` commentary (487 lines inside an empty array) | `docs/archive/registry-history.md` | zero behaviour change |
 | `.superpowers/`, `.claude/worktrees/*`, `.worktrees/` | delete stale entries | two stale worktrees today |
+| research notes filed beside the data: `data/patches/{catalogue-audit,discovery-round-2,discovery-round-3,pilot}/`, `data/source/divergence-report.json` | `docs/archive/` on `v2` | reports, not correction data or source data (§1.1); confirm no file is a `migrate` input before moving |
+| `audit:corpus`, `admin/pipeline/audit-corpus.sh` | deleted | leave with the Corpus Audit job (§5.1, step 5) |
 
 `package.json` after the move: `pipeline:fetch`, `pipeline:migrate`,
 `pipeline:compile` (when built), `pageindex:verify`, `qa*`, the
@@ -284,18 +330,21 @@ folded into migrate; it is the patch engine, not research.
 | `docs/v2/review-queue.md` (new, interim per R7) | every open review list in one place with a coverage note: 309 unparsed headwords; 2,191 non-high page placements; 487 sweep escalations **measured over letters A–C only**; 72 judgment classes; 4 undecided body-review rows (D00470, K00081, R00519, D00341); `open-paren-in-rtl-span` (89 entries, still `route: blocked`, no rule) |
 | `docs/v2/sefaria-report.md` | add register rows #16 (implied sense 1) and #6b (nested anchors, different targets); then send |
 | `docs/v2/upstream-issues.md` | mark rows reported when sent |
+| `CONTRIBUTING.md`, `.claude/CLAUDE.md`, `docs/v2/test-tiers.md`, `.github/workflows/ci-lint.yml` comments | one CI test tier; no Corpus Audit, no Rebuild; the invariants script is run locally before rule-code PRs (step 5) |
+| every document that calls `data/entries/` "truth", `docs/pipeline-flow.drawio.svg` included | §1.1 terms (step 10) |
 
 ## 10. Later, pinned here so they are not lost
 
 | Item | Owner spec |
 |---|---|
 | Update run: three-way merge of §3.2, conflict rows, then blessing | its own spec, built after §11 (R6) |
-| Maintenance dry run on a schedule (§3.3); the CI egress allowlist must admit `storage.googleapis.com` and the runner must hold a 2.4 GB streamed download | after §11 |
+| Maintenance dry run (§3.3; brainstorm first: scheduling is open against R9); the CI egress allowlist must admit `storage.googleapis.com` and the runner must hold a 2.4 GB streamed download | after §11 |
 | **Admin tool: a page/column edit must also update `data/page-index/entries.jsonl`** (R2) | admin tool spec |
 | Review rows → tracker issues; idempotent on `(rid, kind)`; batching for volume (thousands of rows will not work as one issue each) | admin tool spec |
 | `compile.ts` | data-architecture §3 |
 | Port judgment-class detectors from archived research code | ad hoc, one class per PR |
 | Review the 298 low-confidence page placements | review queue |
+| Drift and "creates no defect" checks from the retired corpus files: each one worth keeping becomes a review detector emitting report rows, with no pinned numbers (§5.1) | ad hoc, one per PR |
 | Drift-classify carry-over zero-match (check target on pre-transform source; 3 of 66 carry-overs are exceptions to that test: P000024, P000029, P000027) | after §11 |
 
 ## 11. Sequence
@@ -306,13 +355,19 @@ Small PRs into `v2`, in this order; each stands alone.
 2. Biome config and the format step (§6). One mechanical follow-up if
    any committed file changes shape.
 3. Rebuild CI job and data validation in `bun qa` (§5); required
-   checks deferred (§5.2).
+   checks deferred (§5.2). *Rebuild withdrawn 2026-09-15 (R9); removed
+   in step 5.*
 4. Structured report rows and the patch-preflight change (§3.1, §4.2).
-5. Retire the count-pin corpus tests; path-filtered Invariants job (§5.1).
+5. Remove the Rebuild and Corpus Audit CI jobs; move hand-written
+   example tests to the unit tier; delete count pins; the two invariant
+   files become a local script (§5.1, §5.3).
 6. Archive move and `package.json` reduction (§8).
 7. Slug freezing (§7).
 8. `repairs.ts` hand tables → patches (§4.1).
 9. Review-queue doc and Sefaria report refresh (§9).
+10. Terms sweep (§1.1): documents say source, entry, compiled,
+    reference and correction data. Whether code identifiers such as
+    `migrate/truth.test.ts` are renamed is decided then.
 
 ## 12. Changelog
 
@@ -323,3 +378,4 @@ Small PRs into `v2`, in this order; each stands alone.
 | 2026-09-14 | PR #85 review: §3.2 base is the truth tree as last written, never a rebuild with current rules; identified by a content-addressed git tree id (`writtenTree`) in a committed file, not by a commit sha; §6 biome rationale corrected (`*` does not cross `/`) |
 | 2026-09-14 | Step 4: §4.2 a stale pin is a header count and each patch is judged by its precondition, `--strict` restores refusal; §3.1 row fields and kinds as built, rule counts are composed; §5.2 required checks deferred to near release |
 | 2026-09-14 | Final-fix wave: §5.1 Rebuild runs `--strict`; §4.2 carry-over zero-match documented as `superseded`, not drift-classified, with the gap pinned at §10 |
+| 2026-09-15 | R8 data terms (§1.1; "truth" becomes entry data) and R9 `migrate` is not CI work. §5 rewritten: Rebuild, Corpus Audit, the Invariants CI job and `expected-counts.json` withdrawn; invariants run locally; ~190 hand-written example tests move to the unit tier; drift checks become review detectors (§10). §1 corpus-tier measurement corrected; §3.3 scheduling marked open against R9 pending a brainstorm; §11 step 5 rewritten, step 10 added |
