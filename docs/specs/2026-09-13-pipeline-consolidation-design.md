@@ -207,7 +207,7 @@ the report header.
 | Check | Verifies | Where it runs |
 |---|---|---|
 | nine migrate gates | the data | inside `migrate`, every run |
-| rebuild == truth | the committed truth is what the pipeline produces from the committed snapshot | CI job **Rebuild**: delete `data/entries/`, `migrate --write` (no fetch; formats as its last step), then `git status` on the tree and the blessing doc must be empty; ~2 min |
+| rebuild == truth | the committed truth is what the pipeline produces from the committed snapshot | CI job **Rebuild**: delete `data/entries/`, `migrate --write --strict` (no fetch; formats as its last step; `--strict` because on the committed snapshot a stale pin or a drifted patch can only be an authoring mistake, so CI refuses the run rather than merely reporting drift the way the default run does for a new export), then `git status` on the tree and the blessing doc must be empty; ~2 min |
 | data validation (schema, file path, closed tag vocabulary, balanced markup, slug uniqueness, internal cite targets, page == page-index row both ways) | any hand edit to truth | `migrate/validate.ts`, run over the tree by `migrate/truth.test.ts` in `bun qa`; CI job **Test** |
 | commutation, registry order, link-target totals (3 files) | the rule *code* | CI job **Invariants**, path-filtered to `admin/pipeline/transform/**` |
 | ~40 per-rule count pins | that rules fire N times on one snapshot | **retired**: replaced by rule-count rows in the report and an `expected-counts.json` for the committed snapshot that the Rebuild job compares |
