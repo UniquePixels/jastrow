@@ -101,12 +101,12 @@ included.
 | Gates | nine tallies against fixed totals (unchanged) | red gate = run refuses to write |
 | Rule counts | one row per rule: fired N times on M entries | never; a count of 0 is information ("Sefaria fixed it" or "the rule is dead") |
 | Patch outcomes | applied / upstream-fixed / upstream-changed / superseded, per patch (§3.3) | never; the two upstream outcomes are review rows |
-| Review rows | headword-unparsed, page-confidence-low/medium, markup-carry, composition-failed, plus the judgment classes' detectors as they are wired | never |
+| Review rows | headword-unparsed, page-confidence-low/medium, markup-carry, plus the judgment classes' detectors as they are wired | never |
+| Pipeline faults | composition-failed, patch-failed, finish-failed, patch-target-missing | each also fails gate 9 (composition), so a run with any fault refuses to write |
 
 Rows route two ways, as the flow diagram draws it: data judgments
-(review rows, patch re-judgments) go to the admin tool's tracker
-integration; pipeline faults (composition failures, unknown tags,
-schema failures) are ordinary code issues.
+(review rows, the two upstream patch outcomes) go to the admin tool's
+tracker integration; pipeline faults are ordinary code issues.
 
 The blessing doc renders the same report; nothing is hand-written.
 These rows are what the maintenance dry run (§3.3) diffs against,
