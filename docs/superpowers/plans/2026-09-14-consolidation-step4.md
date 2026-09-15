@@ -18,7 +18,7 @@
 - **Blessing text is preserved.** Every line the current blessing doc renders is still rendered byte-identically, except the one `Patch corpus:` header line. New content is additions only.
 - **`--strict` = today's behaviour:** a stale pin refuses the run, and a drifted patch is a patch problem (gate 9 red).
 - Every commit: run `bun qa` first; `git commit -s`; subject `<emoji> <type>(<scope>): <description>` ≤ 50 chars; message ends with `Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>`.
-- Work only in `/Users/brian/Repositories/websites/jastrow/.worktrees/consolidation-step4` (branch `feat/consolidation-step4`, off `origin/v2` at `96d87b78`).
+- Work only in `<worktree-root>` (branch `feat/consolidation-step4`, off `origin/v2` at `96d87b78`).
 
 **User decisions (already made):**
 - Pin mismatch → one count in the report header only; each patch is judged by its own `expected_before`; `--strict` restores refusal; spec §4.2 is reworded to say so. (Brian, 2026-09-14)
@@ -1405,7 +1405,7 @@ git commit -s -m "🌈 improve(migrate): report rows, drift, --strict" -m "Co-Au
 **Goal:** Show end to end that a changed export makes one patch `upstream-fixed`, counts every pin as stale, keeps gates green, and that `--strict` refuses the same input — then restore the snapshot.
 
 **Files:**
-- Create (scratch, not committed): `/private/tmp/claude-501/-Users-brian-Repositories-websites-jastrow/523d3ff6-b89c-4a57-8ad9-a644868521ee/scratchpad/probe-upstream-fixed.ts`
+- Create (scratch, not committed): `<scratchpad>/probe-upstream-fixed.ts`
 - Temporarily modify, then restore: `data/source/jastrow-dictionary.jsonl`, `docs/v2/migration-blessing.md`
 
 **Acceptance Criteria:**
@@ -1460,7 +1460,7 @@ process.exit(1);
 - [ ] **Step 2: Plant and run.**
 
 ```bash
-bun /private/tmp/claude-501/-Users-brian-Repositories-websites-jastrow/523d3ff6-b89c-4a57-8ad9-a644868521ee/scratchpad/probe-upstream-fixed.ts
+bun <scratchpad>/probe-upstream-fixed.ts
 bun pipeline:migrate
 ```
 

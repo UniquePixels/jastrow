@@ -35,6 +35,7 @@ import {
 	mark,
 } from './migrate/gates.ts';
 import { decomposeForm } from './migrate/headword.ts';
+import { type RunOptions, runOptions } from './migrate/options.ts';
 import { loadPageIndex, type PagePlacement } from './migrate/page.ts';
 import {
 	markMissingTargets,
@@ -108,10 +109,10 @@ interface Indexes {
  * apply set (accepted + carry-over, Ruling F) is corpus-checked
  * together, the manifest reconciles against the accepted set only, and
  * every escalation defers to post-go-live (Ruling D). A stale snapshot
- * pin is counted, not refused, unless `strict` (consolidation §4.2). */
+ * pin is counted, not refused, unless `--strict` (consolidation §4.2). */
 async function preparePatches(
 	report: Report,
-	strict: boolean,
+	options: RunOptions,
 ): Promise<PatchGroups> {
 	const accepted = await loadAcceptedCorpus();
 	const applySet = [...accepted.patches, ...accepted.carryOver];
@@ -119,7 +120,7 @@ async function preparePatches(
 	report.snapshot = { pin, stalePins: stalePins(applySet, pin).length };
 	const preflight = corpusPreflight(applySet, accepted.records, pin, {
 		escalations: 'defer',
-		pins: strict ? 'block' : 'skip',
+		pins: options.pins,
 		reconcileOnly: accepted.patches,
 	});
 	if (preflight.length > 0) {
@@ -133,7 +134,7 @@ async function preparePatches(
 	return {
 		accepted: patchesByRid(accepted.patches),
 		carryOver: patchesByRid(accepted.carryOver),
-		drift: strict ? 'problem' : 'outcome',
+		drift: options.drift,
 	};
 }
 
@@ -215,9 +216,9 @@ function composeOne(
 /** Pass 1: compose every entry; composition failures land on gate 9. */
 async function composeAll(
 	report: Report,
-	strict: boolean,
+	options: RunOptions,
 ): Promise<Composed[]> {
-	const groups = await preparePatches(report, strict);
+	const groups = await preparePatches(report, options);
 	const rules = createRuleCounter([
 		...RULES.map((rule) => rule.id),
 		...REPAIR_PASSES.map((pass) => `repairs:${pass}`),
@@ -461,9 +462,8 @@ function printGates(report: Report): void {
  * because the migration is a one-shot and a second pass over a
  * half-written tree would leave a mix of two runs. */
 async function main(): Promise<void> {
-	const write = process.argv.includes('--write');
-	const strict = process.argv.includes('--strict');
-	if (write && !(await outputTreeIsEmpty())) {
+	const options = runOptions(process.argv);
+	if (options.write && !(await outputTreeIsEmpty())) {
 		throw new Error(
 			`${OUT_DIR} already holds truth files; migration writes once`,
 		);
@@ -473,7 +473,7 @@ async function main(): Promise<void> {
 		strict: true,
 	}).compile(entrySchema);
 	const report = createReport();
-	const composed = await composeAll(report, strict);
+	const composed = await composeAll(report, options);
 	const indexes = await buildIndexes(composed, report);
 	const { samples, truths } = finishAll(composed, indexes, report, validate);
 	await gateQuarantine(report);
@@ -483,7 +483,7 @@ async function main(): Promise<void> {
 	if (!isGreen(report)) {
 		throw new Error('at least one gate is red; see the report');
 	}
-	if (write) {
+	if (options.write) {
 		await writeAll(truths, report);
 	}
 }
