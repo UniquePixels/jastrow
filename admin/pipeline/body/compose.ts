@@ -11,6 +11,8 @@ import {
 	applyCarryOver,
 	applyEntryPatches,
 	createPhaseTracker,
+	type DriftMode,
+	type PatchDrift,
 } from '../patch/apply.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import { RULES } from '../transform/registry.ts';
@@ -65,6 +67,9 @@ function healAndTransform(
 interface ComposePatches {
 	accepted?: readonly SemanticPatch[] | undefined;
 	carryOver?: readonly SemanticPatch[] | undefined;
+	/** Drift policy for both patch sets (consolidation spec §4.2).
+	 * Omitted: `problem`, the research-track behaviour. */
+	drift?: DriftMode | undefined;
 }
 
 interface ComposeResult {
@@ -76,6 +81,9 @@ interface ComposeResult {
 	/** The entry after text-repairs, structural-repairs and
 	 * patch-apply. */
 	entry: SourceEntry;
+	/** Patches skipped because their precondition no longer holds
+	 * (`drift: 'outcome'` only; always empty otherwise). */
+	patchDrift: PatchDrift[];
 	patchesApplied: number;
 	patchProblems: ApplyProblem[];
 	/** The tracker with three phases recorded, so the caller can run
@@ -117,22 +125,33 @@ function composeEntry(
 	const patched = phases.run('patch-apply', () => {
 		const afterAccepted =
 			accepted === undefined
-				? { entry: structural.entry, problems: [] as ApplyProblem[] }
-				: applyEntryPatches(structural.entry, accepted);
+				? {
+						drifted: [] as PatchDrift[],
+						entry: structural.entry,
+						problems: [] as ApplyProblem[],
+					}
+				: applyEntryPatches(structural.entry, accepted, patches?.drift);
 		const acceptedApplied =
 			accepted === undefined
 				? 0
-				: accepted.length - afterAccepted.problems.length;
+				: accepted.length -
+					afterAccepted.problems.length -
+					afterAccepted.drifted.length;
 		if (carryGroup === undefined) {
 			return {
 				absorbed: [] as string[],
 				applied: acceptedApplied,
 				carried: [] as string[],
+				drifted: afterAccepted.drifted,
 				entry: afterAccepted.entry,
 				problems: afterAccepted.problems,
 			};
 		}
-		const carry = applyCarryOver(afterAccepted.entry, carryGroup);
+		const carry = applyCarryOver(
+			afterAccepted.entry,
+			carryGroup,
+			patches?.drift,
+		);
 		// `carry.problems` mixes two sources: a pre-check problem for a
 		// patch that never joined `carried` at all, and an apply-gate
 		// failure for one that did. Only the second kind should reduce
@@ -147,6 +166,7 @@ function composeEntry(
 			absorbed: carry.absorbed,
 			applied: acceptedApplied + carry.carried.length - carriedFailures,
 			carried: carry.carried,
+			drifted: [...afterAccepted.drifted, ...carry.drifted],
 			entry: carry.entry,
 			problems: [...afterAccepted.problems, ...carry.problems],
 		};
@@ -154,6 +174,7 @@ function composeEntry(
 	return {
 		carryOver: { absorbed: patched.absorbed, carried: patched.carried },
 		entry: patched.entry,
+		patchDrift: patched.drifted,
 		patchesApplied: patched.applied,
 		patchProblems: patched.problems,
 		phases,

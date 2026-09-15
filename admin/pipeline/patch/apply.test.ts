@@ -12,6 +12,7 @@ import {
 	PhaseViolation,
 	patchesByRid,
 	postApplyAssertions,
+	stalePins,
 } from './apply.ts';
 import { applyPatch, contentAnchor, type SemanticPatch } from './schema.ts';
 
@@ -404,5 +405,82 @@ describe('patchesByRid', () => {
 			'P000002',
 		]);
 		expect(groups.get('A00001')?.map((p) => p.id)).toEqual(['P000009']);
+	});
+});
+
+describe('stalePins / corpusPreflight pins option (consolidation §4.2)', () => {
+	const stale = `sha256:${'b'.repeat(64)}`;
+
+	it('lists the patches pinned to a different snapshot', () => {
+		const patches = [ocrPatch({ snapshot: stale }), retagPatch()];
+		expect(stalePins(patches, PIN).map((p) => p.id)).toEqual(['P000001']);
+	});
+
+	it("skips only the pin check under pins: 'skip'", () => {
+		const patches = [
+			ocrPatch({ snapshot: stale }),
+			ocrPatch({ id: 'P000003', snapshot: stale }),
+		];
+		const records = parseManifest(
+			JSON.stringify({
+				disposition: 'repaired',
+				patches: ['P000001', 'P000003'],
+				rid: 'D00436',
+			}),
+		);
+		const reasons = corpusPreflight(patches, records, PIN, {
+			escalations: 'defer',
+			pins: 'skip',
+		}).map((p) => p.reason);
+		expect(reasons.some((r) => r.includes('snapshot pin'))).toBe(false);
+		expect(reasons.some((r) => r.includes('overlapping patches'))).toBe(true);
+	});
+});
+
+describe("applyEntryPatches — drift 'outcome'", () => {
+	it('reports a drifted patch as upstream-changed and still applies the rest', () => {
+		const drifted = ocrPatch({
+			expected_before: 'l) emergency. Nidd. 9a',
+			target: `sense[]:${contentAnchor('l) emergency. Nidd. 9a')}`,
+		});
+		const result = applyEntryPatches(
+			makeEntry(),
+			[drifted, retagPatch()],
+			'outcome',
+		);
+		expect(result.problems).toEqual([]);
+		expect(result.drifted).toEqual([
+			{ outcome: 'upstream-changed', patchId: 'P000001', rid: 'D00436' },
+		]);
+		expect(result.entry.content.senses[1]?.number).toBe('2)');
+	});
+
+	it('reports a patch whose fix is already in the source as upstream-fixed', () => {
+		const fixed = applyPatch(makeEntry(), ocrPatch());
+		const result = applyEntryPatches(fixed, [ocrPatch()], 'outcome');
+		expect(result.problems).toEqual([]);
+		expect(result.drifted.map((d) => d.outcome)).toEqual(['upstream-fixed']);
+		expect(result.entry).toBe(fixed);
+	});
+
+	it('returns no drift in the default mode', () => {
+		const fixed = applyPatch(makeEntry(), ocrPatch());
+		const result = applyEntryPatches(fixed, [ocrPatch()]);
+		expect(result.drifted).toEqual([]);
+		expect(result.problems).toHaveLength(1);
+	});
+});
+
+describe("applyCarryOver — drift 'outcome'", () => {
+	it('reports a wrong-count pre-state as upstream-changed, not a problem', () => {
+		const mismatched = ocrPatch({ expected_occurrences: 2 });
+		const source = makeEntry();
+		const result = applyCarryOver(source, [mismatched], 'outcome');
+		expect(result.problems).toEqual([]);
+		expect(result.drifted).toEqual([
+			{ outcome: 'upstream-changed', patchId: 'P000001', rid: 'D00436' },
+		]);
+		expect(result.carried).toEqual([]);
+		expect(result.entry).toBe(source);
 	});
 });

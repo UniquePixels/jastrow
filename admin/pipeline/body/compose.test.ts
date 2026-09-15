@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'bun:test';
+import { contentAnchor, type SemanticPatch } from '../patch/schema.ts';
 import type { Rule } from '../transform/types.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
 import { readSourceEntries } from './source.ts';
@@ -43,5 +44,38 @@ describe('composeEntry', () => {
 		expect(() => composeEntry(source, undefined, [rogue])).toThrow(
 			TransformFailure,
 		);
+	});
+
+	it("reports a drifted patch as an outcome under drift 'outcome', a problem by default", async () => {
+		const source = await loadFixture('C01331');
+		const missing = 'text this entry does not carry';
+		const drifting = {
+			confidence: 'high',
+			defect_class: 'test-drift',
+			expected_before: missing,
+			expected_occurrences: 1,
+			id: 'P999999',
+			occurrence_index: 1,
+			op: 'replace',
+			payload: { find: 'carry', replace: 'bear' },
+			prompt_version: 'v1',
+			rationale: 'drift fixture',
+			rid: 'C01331',
+			snapshot: `sha256:${'a'.repeat(64)}`,
+			target: `sense[]:${contentAnchor(missing)}`,
+		} as SemanticPatch;
+		const outcome = composeEntry(source, {
+			accepted: [drifting],
+			drift: 'outcome',
+		});
+		expect(outcome.patchProblems).toEqual([]);
+		expect(outcome.patchDrift).toEqual([
+			{ outcome: 'upstream-changed', patchId: 'P999999', rid: 'C01331' },
+		]);
+		expect(outcome.patchesApplied).toBe(0);
+		const byDefault = composeEntry(source, { accepted: [drifting] });
+		expect(byDefault.patchProblems).toHaveLength(1);
+		expect(byDefault.patchDrift).toEqual([]);
+		expect(byDefault.patchesApplied).toBe(0);
 	});
 });
