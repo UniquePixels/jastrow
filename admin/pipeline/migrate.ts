@@ -14,11 +14,7 @@ import { existsSync } from 'node:fs';
 import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
 import Ajv2020 from 'ajv/dist/2020';
-import {
-	type ComposeResult,
-	composeEntry,
-	TransformFailure,
-} from './body/compose.ts';
+import { composeEntry, TransformFailure } from './body/compose.ts';
 import { buildTrace } from './body/dry-run.ts';
 import { evaluateRoundTrip } from './body/dry-run-verify.ts';
 import type { PassName } from './body/repairs.ts';
@@ -41,6 +37,11 @@ import {
 import { decomposeForm } from './migrate/headword.ts';
 import { loadPageIndex, type PagePlacement } from './migrate/page.ts';
 import {
+	markMissingTargets,
+	type PatchGroups,
+	recordPatchOutcomes,
+} from './migrate/patches.ts';
+import {
 	BLESSING_PATH,
 	createReport,
 	createRuleCounter,
@@ -57,13 +58,10 @@ import { assignSlugs, slugStem } from './migrate/slug.ts';
 import type { TruthEntry } from './migrate/types.ts';
 import {
 	corpusPreflight,
-	type DriftMode,
 	loadAcceptedCorpus,
 	patchesByRid,
 	stalePins,
 } from './patch/apply.ts';
-import type { DriftOutcome } from './patch/drift.ts';
-import type { SemanticPatch } from './patch/schema.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
 import entrySchema from './schema/entry.schema.json' with { type: 'json' };
 import { RULES } from './transform/registry.ts';
@@ -84,12 +82,6 @@ const REPAIR_PASSES: readonly PassName[] = [
 	'refs-removal',
 ] as const;
 
-const DRIFT_DETAIL: Record<DriftOutcome, string> = {
-	'upstream-changed': 'the source changed under this patch; re-judge it',
-	'upstream-fixed':
-		'the source already reads as this patch leaves it; archive the patch',
-};
-
 /** One composed entry, kept for pass 2. Only the three things pass 2
  * needs are retained — the composer's records and phase tracker are
  * per-entry bookkeeping already folded into the report, and holding
@@ -103,14 +95,6 @@ interface Composed {
 	/** The pristine snapshot entry — the chain gate is a SOURCE
 	 * artefact and must be walked on source spellings. */
 	source: SourceEntry;
-}
-
-/** The rid-grouped patch sets `composeOne` applies (Ruling F), and the
- * drift policy they apply under. */
-interface PatchGroups {
-	accepted: Map<string, SemanticPatch[]>;
-	carryOver: Map<string, SemanticPatch[]>;
-	drift: DriftMode;
 }
 
 /** The corpus-level indexes pass 1 builds and pass 2 finishes against. */
@@ -151,46 +135,6 @@ async function preparePatches(
 		carryOver: patchesByRid(accepted.carryOver),
 		drift: strict ? 'problem' : 'outcome',
 	};
-}
-
-/** One outcome row per patch this entry was offered (spec §3.3). A
- * drifted patch is also a review row and a header count; a patch that
- * failed its apply gate gets no outcome — it is a fault row instead. */
-function recordPatchOutcomes(
-	rid: string,
-	offered: readonly SemanticPatch[],
-	result: ComposeResult,
-	report: Report,
-): void {
-	const failed = new Set(result.patchProblems.map((p) => p.patchId));
-	const drifted = new Map(result.patchDrift.map((d) => [d.patchId, d.outcome]));
-	const absorbed = new Set(result.carryOver.absorbed);
-	for (const patch of offered) {
-		const drift = drifted.get(patch.id);
-		if (drift !== undefined) {
-			report.patchOutcomes.push({ outcome: drift, patchId: patch.id, rid });
-			report.rows.push({
-				bucket: 'patch',
-				detail: `${patch.id} (${patch.defect_class}): ${DRIFT_DETAIL[drift]}`,
-				kind: drift,
-				rid,
-				severity: 'review',
-			});
-			if (drift === 'upstream-fixed') {
-				report.patches.upstreamFixed++;
-			} else {
-				report.patches.upstreamChanged++;
-			}
-		} else if (absorbed.has(patch.id)) {
-			report.patchOutcomes.push({
-				outcome: 'superseded',
-				patchId: patch.id,
-				rid,
-			});
-		} else if (!failed.has(patch.id)) {
-			report.patchOutcomes.push({ outcome: 'applied', patchId: patch.id, rid });
-		}
-	}
 }
 
 /** One entry through the composer and the body round-trip gate. A
@@ -291,33 +235,6 @@ async function composeAll(
 	report.rules = rules.rows();
 	markMissingTargets(groups, report);
 	return composed;
-}
-
-/** A patch whose rid never streamed past targets a nonexistent entry.
- * Recorded on gate 9 rather than thrown, so the report lists it beside
- * every other composition problem — and as a `## Pipeline faults` row
- * too, so a red gate 9 from this cause is never a silent skip
- * (consolidation spec §3.1, §4.2). Call after the streaming loop, once
- * `groups` holds only rids that never appeared. */
-function markMissingTargets(groups: PatchGroups, report: Report): void {
-	const missing = new Set([
-		...groups.accepted.keys(),
-		...groups.carryOver.keys(),
-	]);
-	for (const rid of missing) {
-		mark(report.gates.composition, false, `no source entry with rid ${rid}`);
-		const ids = [
-			...(groups.accepted.get(rid) ?? []),
-			...(groups.carryOver.get(rid) ?? []),
-		].map((p) => p.id);
-		report.rows.push({
-			bucket: 'pipeline',
-			detail: `${ids.join(', ')}: no source entry with this rid`,
-			kind: 'patch-target-missing',
-			rid,
-			severity: 'fault',
-		});
-	}
 }
 
 /** The collision histogram: members per stem → number of such stems.
@@ -517,8 +434,9 @@ async function writeAll(
 	console.log(`wrote ${report.written} truth files under ${OUT_DIR}`);
 }
 
-/** The run summary on stdout: every gate, then the four
- * informational lists, then where the written evidence went. */
+/** The run summary on stdout: one line per gate, the row-kind counts
+ * alongside the unresolved total, the stale-pin/drift line, and where
+ * the written evidence went. */
 function printGates(report: Report): void {
 	for (const [name, t] of Object.entries(report.gates)) {
 		console.log(
@@ -575,7 +493,7 @@ if (import.meta.main) {
 	await main();
 }
 
-export type { Composed, Indexes, PatchGroups };
+export type { Composed, Indexes };
 export {
 	buildIndexes,
 	collisionHistogram,
@@ -583,7 +501,6 @@ export {
 	composeOne,
 	finishAll,
 	letterDir,
-	markMissingTargets,
 	outputTreeIsEmpty,
 	preparePatches,
 };
