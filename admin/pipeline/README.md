@@ -110,12 +110,20 @@ review detectors (detect only, emit a row) — per the
 round-trips, text conservation, schema, chain agreement, internal
 targets, slugs, pages, composition; a red gate refuses to write.
 `migrate.ts` is re-runnable: it never chokes on the data it is
-given (a failing entry is emitted from source bytes with a review
-row, not dropped), and it never silently overwrites hand edits in
-truth. Every run ends in a report a person reads before the output
-ships — `data/source/migration-report.json`, rendered as
+given, and it never silently overwrites hand edits in truth. A
+composition failure is a `composition-failed` fault row and a red
+gate 9; the entry is dropped, not emitted from source bytes — R3's
+target of resilient, always-emitted output is not yet built. Every
+run ends in a report a person reads before the output ships —
+`data/source/migration-report.json`, rendered as
 [docs/v2/migration-blessing.md](../../docs/v2/migration-blessing.md).
-Last run 2026-09-09 with all nine gates green.
+The report holds the nine gate tallies, one row per review item,
+patch re-judgment or pipeline fault (`{ rid, bucket, kind, severity,
+detail }`), a composed count per rule, and an outcome per patch
+(`applied`, `superseded`, `upstream-fixed`, `upstream-changed`). A
+stale snapshot pin is a count, not a refusal; `bun pipeline:migrate
+--strict` refuses on a stale pin or a drifted patch. Last run
+2026-09-09 with all nine gates green.
 
 ## Stage 3 — Compile (`compile.ts`, not yet built)
 

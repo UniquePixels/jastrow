@@ -85,6 +85,17 @@ kind:
   "severity": "review", "detail": "?אִיבּוּס — grammar did not parse" }
 ```
 
+| Field | Values |
+|---|---|
+| `bucket` | `review` (a data judgment), `patch` (a patch to re-judge), `pipeline` (a code fault) |
+| `severity` | `review`; `fault` for every `pipeline` row |
+| `kind` | `headword-unparsed`, `page-confidence-low`, `page-confidence-medium`, `markup-carry`, `upstream-fixed`, `upstream-changed`, `composition-failed`, `patch-failed`, `finish-failed`, `patch-target-missing` |
+
+Rule counts are *composed*: each rule sees the text the rules before
+it left, so a count differs from `bun transform:count`'s rule-alone
+figure. Every registered rule and `repairs.ts` pass has a row, zeros
+included.
+
 | Section | Rows | Blocking? |
 |---|---|---|
 | Gates | nine tallies against fixed totals (unchanged) | red gate = run refuses to write |
@@ -170,13 +181,24 @@ from that issue.
 
 ### 4.2 Patch preflight
 
-Today a snapshot-pin mismatch on any patch refuses the whole run.
-Under R3: a patch whose pin or `expected_before` does not match is
-skipped and reported as `upstream-fixed` or `upstream-changed` (§3.3);
-the run continues.
-`--strict` restores refusal for a maintainer who wants it. Silent
-skipping is never allowed: every skip is a row and a count in the
-report header.
+Before this step, a snapshot-pin mismatch on any patch refused the
+whole run. Every patch pins one hash over the whole export, so a new
+export mismatches all of them at once, and the pin cannot say which
+patches still hold. Under R3 (maintainer, 2026-09-14):
+
+- A stale pin is one count in the report header
+  (`snapshot.stalePins`). It skips nothing.
+- Each patch is judged by its own precondition: its target must
+  resolve `expected_occurrences` times. If it does not, the patch is
+  skipped and reported `upstream-fixed` (the target is gone and the
+  senses the patch would produce are present) or `upstream-changed`
+  (anything else, including a partial count and a sense-deleting
+  patch, which cannot be told apart from an edit).
+- `--strict` restores both refusals: a stale pin or a drifted patch
+  fails the run.
+
+Silent skipping is never allowed: every skip is a row and a count in
+the report header.
 
 ## 5. Gates, tests, and CI
 
@@ -194,6 +216,10 @@ report header.
 
 Enable required status checks: Lint, Type Check, Test, Rebuild,
 Invariants. Corpus Audit as a required name goes away with the tier.
+
+**Deferred (maintainer, 2026-09-14):** revisited near the v2 release.
+A failing check already has to be overridden to merge, so raising the
+setting now adds nothing.
 
 ### 5.3 Test tiers after the change
 
@@ -268,7 +294,8 @@ Small PRs into `v2`, in this order; each stands alone.
 1. This spec, the D14 strike-through, and the README rewrite (§9).
 2. Biome config and the format step (§6). One mechanical follow-up if
    any committed file changes shape.
-3. Rebuild CI job, data validation in `bun qa`, required checks (§5).
+3. Rebuild CI job and data validation in `bun qa` (§5); required
+   checks deferred (§5.2).
 4. Structured report rows and the patch-preflight change (§3.1, §4.2).
 5. Retire the count-pin corpus tests; path-filtered Invariants job (§5.1).
 6. Archive move and `package.json` reduction (§8).
@@ -283,3 +310,4 @@ Small PRs into `v2`, in this order; each stands alone.
 | 2026-09-13 | Initial draft from the review session; rulings R1–R7 recorded |
 | 2026-09-14 | R2 narrowed to the page-index note; R6 reworded: the pipeline runs on the current export and commits the snapshot it used; §3.2 three-way merge as the fresh-vs-update mechanism; §3.3 patch lifecycle (`upstream-fixed` / `upstream-changed`) and the scheduled maintenance dry run; report routing per the maintainer's flow diagram |
 | 2026-09-14 | PR #85 review: §3.2 base is the truth tree as last written, never a rebuild with current rules; identified by a content-addressed git tree id (`writtenTree`) in a committed file, not by a commit sha; §6 biome rationale corrected (`*` does not cross `/`) |
+| 2026-09-14 | Step 4: §4.2 a stale pin is a header count and each patch is judged by its precondition, `--strict` restores refusal; §3.1 row fields and kinds as built, rule counts are composed; §5.2 required checks deferred to near release |
