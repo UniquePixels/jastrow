@@ -1175,8 +1175,8 @@ const RULES: readonly Rule[] = [
 	//
 	// It is also the only rule in this registry that the loss gate
 	// judges (`no-lost-text.ts`), because gating is phase-scoped — the
-	// 10 `text-repairs` rules that delete text were pinned by count in
-	// a corpus check instead, retired in consolidation step 5
+	// 13 `text-repairs` rules that delete text (4,573 codepoints total)
+	// were pinned by count in a corpus check instead, retired in consolidation step 5
 	// (`docs/v2/retired-corpus-checks.md`). Batch-6b spec §2.3 carries
 	// that argument.
 	stemHeadMarkerChop,

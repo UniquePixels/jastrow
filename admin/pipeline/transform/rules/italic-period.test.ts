@@ -54,8 +54,9 @@ describe('labelPeriodInside', () => {
 	// genuine 10-letter unanimous period-OUTSIDE convention in the
 	// corpus, and house style overrides it: 266 occurrences are
 	// normalised against their own attested usage. Safe only because
-	// both forms strip to byte-identical text — which the corpus tier
-	// below is what actually checks.
+	// both forms strip to byte-identical text — a byte-identical-strip
+	// property that a corpus-tier invariant checked, retired in consolidation
+	// step 5 (`docs/v2/retired-corpus-checks.md`).
 	it('moves Part. pass. too — the accepted cost of the 2026-08-21 ruling', () => {
 		expect(ran(labelPeriodInside, '<i>Part. pass</i>. of')).toBe(
 			'<i>Part. pass.</i> of',

@@ -28,7 +28,7 @@ jobs:
             command: bun qa:ci
           - name: Type Check
             command: echo "::add-matcher::.github/matchers/tsc.json" && bun tsc --noEmit --skipLibCheck --pretty false
-          # Every *.test.ts: code, and validation of every entry data
+          # Every non-corpus *.test.ts: code, and validation of every entry data
           # file, in about two seconds. Never reads data/source/
           # (consolidation spec R9); the two invariant checks run
           # locally with `bun run transform:invariants`.

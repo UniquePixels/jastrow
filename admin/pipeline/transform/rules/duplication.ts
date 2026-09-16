@@ -45,9 +45,10 @@
  *
  * The argument is the gating, not the size. An earlier version of this
  * note set their 6,128 RAW deleted codepoints against the baseline's
- * 4,510 and called it larger — comparing a raw figure to a stripped
- * one. On the baseline's own basis (`textOf`, tags stripped) these two
- * delete **2,738**, well under 4,510. Both figures were pinned by
+ * 4,510 (measured at the time; the retired check's final figure was 4,573)
+ * and called it larger — comparing a raw figure to a stripped one. On the
+ * baseline's own basis (`textOf`, tags stripped) these two delete **2,738**,
+ * well under either figure. Both figures were pinned by
  * corpus checks retired in consolidation step 5
  * (`docs/v2/retired-corpus-checks.md`).
  *

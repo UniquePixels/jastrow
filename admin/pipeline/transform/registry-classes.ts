@@ -510,9 +510,9 @@ function coverageSignatureIn(field: string): [number, number[][]] {
 	const scopes: boolean[] = [];
 	const runs: number[][] = [];
 	let opens = 0;
-	// `offset`, not `at` — the module's `at(id)` is the registry-position
-	// helper every ordering assertion runs through, and shadowing it here
-	// is a `noShadow` warning that `qa:lint --error-on-warnings` fails on.
+	// `offset`, not `at` — `at(id)` (the registry-position helper from
+	// `admin/pipeline/transform/registry.order.test.ts`) would be shadowed
+	// and raise a `noShadow` warning that `qa:lint --error-on-warnings` fails on.
 	let offset = 0;
 	for (const token of tokenize(field)) {
 		if (token.kind === 'text') {
