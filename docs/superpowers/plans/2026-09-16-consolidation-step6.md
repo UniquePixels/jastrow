@@ -223,13 +223,18 @@ that stays, so `census.ts` can be archived.
       `formSectionCandidates`, `classifyOpener`). Task 4 deletes `census.ts`
       and drops the export then (controller Ruling 2, revised)
 - [ ] The three function bodies are byte-identical to the originals
-- [ ] All 6 surviving importers point at `sense-walk.ts`, none at `census.ts`
-- [ ] `bun qa` green
+- [ ] The 6 importers that outlive Task 4 point at `sense-walk.ts`:
+      `body/units.ts`, `body/dry-run-report.ts`, and the `labels`,
+      `form-sections`, `lettered`, `units` body tests
+- [ ] `census.ts`'s export block is **unchanged**, so the five importers Task 4
+      deletes keep compiling untouched (controller Ruling 6)
+- [ ] `bun qa` green — all four stages, including `tsc --noEmit`
 
-**Verify:** `bun qa` → exit 0, and
-`grep -rn "from '\./census.ts'\|from '\.\./body/census.ts'" admin/pipeline --include='*.ts' | grep -v census.test`
-prints only `body/review.ts`, `body/implied-one-census.ts` and
-`patch/seed-sense-runs.ts` (all archived in Task 4)
+**Verify:** `bun qa` → exit 0 (all four stages, `tsc` included), and
+`grep -rn "from '\./census.ts'\|from '\.\./body/census.ts'" admin/pipeline --include='*.ts'`
+prints exactly five files — `body/census.test.ts`, `body/implied-one-census.ts`,
+`body/review.ts`, `patch/seed-sense-runs.ts`, `patch/seed-implied-one.ts` —
+every one of them deleted in Task 4
 
 **Steps:**
 
@@ -322,12 +327,18 @@ In `admin/pipeline/body/census.ts`:
 import { type Boundary, classifyBoundary, stripTags, walkSenses } from './sense-walk.ts';
 ```
 
-3. In the export block at the end, remove `classifyBoundary`, `stripTags`
-   and `walkSenses` from the value export and `Boundary` from the type
-   export. `census.ts` keeps exporting its own
-   `classifyMalformed`, `classifySequenceBreak`, `formSectionCandidates`,
-   `labelSequence`, `letteredRun`, `pluralSection`, and the
-   `BrokenSequenceRow`, `OriginFields`, `SequenceBreakClass` types.
+3. **Leave the export block at the end exactly as it is.** `census.ts` goes
+   on exporting `classifyBoundary`, `stripTags`, `walkSenses` and the
+   `Boundary` type — now as a re-export of what it imported in 2.2, not as
+   its own definitions. This is deliberate (controller Ruling 6): five files
+   still import those symbols from `census.ts`, and all five are deleted in
+   Task 4, so repointing them here would be work thrown away and trimming the
+   export here would break `tsc` for a whole task. The re-export lives for
+   exactly one task and disappears with the file.
+
+   The five: `body/census.test.ts`, `body/implied-one-census.ts`,
+   `body/review.ts`, `patch/seed-sense-runs.ts`, `patch/seed-implied-one.ts`.
+   Do not touch any of them.
 
 - [ ] **Step 3: Repoint the 6 surviving importers**
 
@@ -435,7 +446,8 @@ nothing else changes.
 - Delete: `admin/pipeline/research/` (whole directory, now 12 src + 13 test files)
 - Delete: `admin/pipeline/provenance/` (whole directory)
 - Delete: `admin/pipeline/body/{census,review,migrate-dry,implied-one-census}.ts`
-  and their `.test.ts` / `.corpus.test.ts` siblings
+  and their `.test.ts` / `.corpus.test.ts` siblings — `census.test.ts` included;
+  it and four others still import from `census.ts` by Ruling 6
 - Delete: `admin/pipeline/body/fixtures/extract.ts`
 - Delete: `admin/pipeline/patch/{seed-implied-one,seed-tranche,seed-sense-runs}.ts` and their tests
 - Delete: `admin/pipeline/page-index/{align,bands,build,columns,emit,hocr,layout,monotonic,spine}.ts`

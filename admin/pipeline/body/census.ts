@@ -9,56 +9,11 @@
 import { type CitationHit, findCitations } from './cite.ts';
 import { MARKERS } from './form-sections.ts';
 import { parseLabel } from './labels.ts';
+import { type Boundary, classifyBoundary, stripTags, walkSenses } from './sense-walk.ts';
 import { readSourceEntries } from './source.ts';
 import type { SourceEntry, SourceSense } from './types.ts';
 
 const REPORT_PATH = 'data/source/body-census-report.json';
-
-type Boundary =
-	| 'sense-start'
-	| 'period'
-	| 'dash'
-	| 'semicolon'
-	| 'comma'
-	| 'embedded';
-
-const TAGS = /<[^>]+>/gu;
-// Strips to a fixed point so fragments re-composed by one pass
-// (`<scr<i>ipt>`-style) can't survive (CodeQL js/incomplete-
-// multi-character-sanitization); corpus-verified byte-identical to
-// the single-pass version over all 32,512 entries.
-const stripTags = (text: string): string => {
-	let out = text;
-	let prev: string;
-	do {
-		prev = out;
-		out = out.replace(TAGS, '');
-	} while (out !== prev);
-	return out;
-};
-
-/** Classify the (tag-stripped) text immediately before a citation
- * anchor into the punctuation class it ends on. Empty text means the
- * anchor opens its sense outright. */
-function classifyBoundary(before: string): Boundary {
-	const t = stripTags(before).trimEnd();
-	if (t === '') {
-		return 'sense-start';
-	}
-	if (t.endsWith('—')) {
-		return 'dash';
-	}
-	if (t.endsWith('.')) {
-		return 'period';
-	}
-	if (t.endsWith(';')) {
-		return 'semicolon';
-	}
-	if (t.endsWith(',')) {
-		return 'comma';
-	}
-	return 'embedded';
-}
 
 const SENSE_NUMBER = /(?<digits>\d+)/u;
 
@@ -261,17 +216,6 @@ function formSectionCandidates(text: string): string[] {
 		}
 	}
 	return hits;
-}
-
-/** Depth-first walk over a sense tree, yielding every node including
- * nested sub-senses. Shared with later tasks (grammar/labels/units). */
-function* walkSenses(senses: SourceSense[]): Generator<SourceSense> {
-	for (const sense of senses) {
-		yield sense;
-		if (sense.senses) {
-			yield* walkSenses(sense.senses);
-		}
-	}
 }
 
 type PreambleOpener = 'empty' | 'non-gloss' | 'gloss';
@@ -612,15 +556,12 @@ if (import.meta.main) {
 	console.log(`report written to ${REPORT_PATH}`);
 }
 
-export type { Boundary, BrokenSequenceRow, OriginFields, SequenceBreakClass };
+export type { BrokenSequenceRow, OriginFields, SequenceBreakClass };
 export {
-	classifyBoundary,
 	classifyMalformed,
 	classifySequenceBreak,
 	formSectionCandidates,
 	labelSequence,
 	letteredRun,
 	pluralSection,
-	stripTags,
-	walkSenses,
 };

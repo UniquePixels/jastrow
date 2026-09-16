@@ -11,7 +11,7 @@
       "id": 1,
       "subject": "Task 2: Split sense-walk out of body/census.ts",
       "status": "pending",
-      "description": "**Goal:** `walkSenses` and `classifyBoundary` move to a module that stays (with `stripTags` module-private, per controller Ruling 1/2), so `census.ts` can be archived.\n\n**Files:**\n- Create: `admin/pipeline/body/sense-walk.ts`\n- Modify: `admin/pipeline/body/census.ts`\n- Modify: `body/units.ts:10`, `body/dry-run-report.ts:11`, `body/{labels,form-sections,lettered,units}.test.ts:2`\n\n**Acceptance Criteria:**\n- [ ] `sense-walk.ts` exports `walkSenses`, `classifyBoundary`, `stripTags` and the `Boundary` type; the `stripTags` export is temporary, for census.ts's six own call sites, and Task 4 drops it\n- [ ] The three function bodies are byte-identical to the originals\n- [ ] All 6 surviving importers point at `sense-walk.ts`\n- [ ] `bun qa` green\n\n**Verify:** `bun qa` -> exit 0, and no surviving non-archived file imports from `./census.ts`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/sense-walk.ts\", \"admin/pipeline/body/census.ts\", \"admin/pipeline/body/units.ts\", \"admin/pipeline/body/dry-run-report.ts\", \"admin/pipeline/patch/seed-sense-runs.ts\"], \"verifyCommand\": \"bun qa\", \"acceptanceCriteria\": [\"sense-walk.ts exports walkSenses, classifyBoundary, stripTags, Boundary\", \"bodies byte-identical\", \"6 importers repointed\", \"bun qa green\"], \"modelTier\": \"standard\"}\n```",
+      "description": "**Goal:** `walkSenses` and `classifyBoundary` move to a module that stays (with `stripTags` module-private, per controller Ruling 1/2), so `census.ts` can be archived.\n\n**Files:**\n- Create: `admin/pipeline/body/sense-walk.ts`\n- Modify: `admin/pipeline/body/census.ts`\n- Modify: `body/units.ts:10`, `body/dry-run-report.ts:11`, `body/{labels,form-sections,lettered,units}.test.ts:2`\n\n**Acceptance Criteria:**\n- [ ] `sense-walk.ts` exports `walkSenses`, `classifyBoundary`, `stripTags` and the `Boundary` type; the `stripTags` export is temporary, for census.ts's six own call sites, and Task 4 drops it\n- [ ] The three function bodies are byte-identical to the originals\n- [ ] The 6 importers that outlive Task 4 point at `sense-walk.ts`; `census.ts`'s export block is UNCHANGED so the five Task 4 deletes keep compiling (Ruling 6)\n- [ ] `bun qa` green\n\n**Verify:** `bun qa` -> exit 0, and no surviving non-archived file imports from `./census.ts`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/sense-walk.ts\", \"admin/pipeline/body/census.ts\", \"admin/pipeline/body/units.ts\", \"admin/pipeline/body/dry-run-report.ts\", \"admin/pipeline/patch/seed-sense-runs.ts\"], \"verifyCommand\": \"bun qa\", \"acceptanceCriteria\": [\"sense-walk.ts exports walkSenses, classifyBoundary, stripTags, Boundary\", \"bodies byte-identical\", \"6 surviving importers repointed; census.ts export block unchanged\", \"bun qa green\"], \"modelTier\": \"standard\"}\n```",
       "blockedBy": [
         0
       ]
@@ -80,5 +80,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-16T12:23:36.195169"
+  "lastUpdated": "2026-09-16T12:27:32.992964"
 }

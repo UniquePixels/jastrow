@@ -8,7 +8,7 @@
  * `bun body:dry-run`) imports these helpers to drive its corpus walk.
  */
 import type { ValidateFunction } from 'ajv';
-import { walkSenses } from './census.ts';
+import { walkSenses } from './sense-walk.ts';
 import type { RoundTripResult } from './dry-run-verify.ts';
 import { MARKERS } from './form-sections.ts';
 import { parseMarker } from './grammar.ts';
