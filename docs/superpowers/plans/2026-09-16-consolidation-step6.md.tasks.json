@@ -10,7 +10,7 @@
     {
       "id": 1,
       "subject": "Task 2: Split sense-walk out of body/census.ts",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** `walkSenses` and `classifyBoundary` move to a module that stays (with `stripTags` module-private, per controller Ruling 1/2), so `census.ts` can be archived.\n\n**Files:**\n- Create: `admin/pipeline/body/sense-walk.ts`\n- Modify: `admin/pipeline/body/census.ts`\n- Modify: `body/units.ts:10`, `body/dry-run-report.ts:11`, `body/{labels,form-sections,lettered,units}.test.ts:2`\n\n**Acceptance Criteria:**\n- [ ] `sense-walk.ts` exports `walkSenses`, `classifyBoundary`, `stripTags` and the `Boundary` type; the `stripTags` export is temporary, for census.ts's six own call sites, and Task 4 drops it\n- [ ] The three function bodies are byte-identical to the originals\n- [ ] The 6 importers that outlive Task 4 point at `sense-walk.ts`; `census.ts`'s export block is UNCHANGED so the five Task 4 deletes keep compiling (Ruling 6)\n- [ ] `bun qa` green\n\n**Verify:** `bun qa` -> exit 0, and no surviving non-archived file imports from `./census.ts`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/sense-walk.ts\", \"admin/pipeline/body/census.ts\", \"admin/pipeline/body/units.ts\", \"admin/pipeline/body/dry-run-report.ts\", \"admin/pipeline/patch/seed-sense-runs.ts\"], \"verifyCommand\": \"bun qa\", \"acceptanceCriteria\": [\"sense-walk.ts exports walkSenses, classifyBoundary, stripTags, Boundary\", \"bodies byte-identical\", \"6 surviving importers repointed; census.ts export block unchanged\", \"bun qa green\"], \"modelTier\": \"standard\"}\n```",
       "blockedBy": [
         0
@@ -20,7 +20,7 @@
       "id": 2,
       "subject": "Task 3: Record the archive branch and tag",
       "status": "pending",
-      "description": "**Goal:** A branch and tag hold the research code, so §8's \"stays re-runnable\" is true and nothing is lost.\n\n**Files:**\n- None modified - git refs only: branch and tag `archive/v2-research-2026-09`\n\n**Acceptance Criteria:**\n- [ ] Branch `archive/v2-research-2026-09` exists at current HEAD\n- [ ] Tag of the same name exists at the same commit\n- [ ] Both pushed to `origin`\n- [ ] `git show <ref>:admin/pipeline/page-index/build.ts | head -1` prints the file's first line\n\n**Verify:** `git show archive/v2-research-2026-09:admin/pipeline/research/verify.ts | wc -l` -> `584`\n\n```json:metadata\n{\"files\": [], \"verifyCommand\": \"git show archive/v2-research-2026-09:admin/pipeline/research/verify.ts | wc -l\", \"acceptanceCriteria\": [\"branch exists at HEAD\", \"tag exists at same commit\", \"both pushed to origin\", \"archived tree holds page-index/build.ts\"], \"modelTier\": \"mechanical\"}\n```",
+      "description": "**Goal:** A branch and tag hold the research code, so §8's \"stays re-runnable\" is true and nothing is lost.\n\n**Files:**\n- None modified - git refs only: branch and tag `archive/v2-research-2026-09`\n\n**Acceptance Criteria:**\n- [ ] Branch `archive/v2-research-2026-09` exists at current HEAD\n- [ ] Tag of the same name exists at the same commit\n- [ ] Both refs are LOCAL ONLY — this task does not push (controller Ruling 5)\n- [ ] `git show <ref>:admin/pipeline/page-index/build.ts | head -1` prints the file's first line\n\n**Verify:** `git show archive/v2-research-2026-09:admin/pipeline/research/verify.ts | wc -l` -> `584`\n\n```json:metadata\n{\"files\": [], \"verifyCommand\": \"git show archive/v2-research-2026-09:admin/pipeline/research/verify.ts | wc -l\", \"acceptanceCriteria\": [\"branch exists at HEAD\", \"tag exists at same commit\", \"both refs local only, no push\", \"archived tree holds page-index/build.ts\"], \"modelTier\": \"mechanical\"}\n```",
       "blockedBy": [
         1
       ]
@@ -80,5 +80,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-16T12:27:32.992964"
+  "lastUpdated": "2026-09-16T12:41:36.300304"
 }

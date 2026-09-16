@@ -388,11 +388,16 @@ re-runnable" is true and nothing is lost.
 **Acceptance Criteria:**
 - [ ] Branch `archive/v2-research-2026-09` exists at the current HEAD
 - [ ] Tag `archive/v2-research-2026-09` exists at the same commit
-- [ ] Both are pushed to `origin`
+- [ ] Both refs are **local only** — this task does not push (controller
+      Ruling 5: a push to a shared remote is the maintainer's call, and a local
+      tag is exactly as durable as the branch the work lives on)
 - [ ] `git show archive/v2-research-2026-09:admin/pipeline/page-index/build.ts | head -1`
       prints the file's first line
 
-**Verify:** `git show archive/v2-research-2026-09:admin/pipeline/research/verify.ts | wc -l` → `584`
+**Verify:** `git show archive/v2-research-2026-09:admin/pipeline/research/verify.ts | wc -l` → `584`,
+and `git show archive/v2-research-2026-09:admin/pipeline/body/census.ts | wc -l` → the
+current `census.ts` line count (Task 2 shrank it; the archive must hold the
+post-Task-2 file, since that is the tree Task 4 deletes from)
 
 **Steps:**
 
@@ -422,18 +427,23 @@ git show archive/v2-research-2026-09:admin/pipeline/page-index/build.ts | head -
 
 Expected: `584`, then the first line of `build.ts`.
 
-- [ ] **Step 3: Push both refs**
+- [ ] **Step 3: Do NOT push — confirm the refs are local and stop**
 
-Pushing needs the network; the sandbox blocks DNS for git, so this one
-command runs unsandboxed.
+The plan originally pushed both refs here. That is withdrawn (controller
+Ruling 5): pushing to a shared remote is the maintainer's call, and the
+maintainer will push these alongside the PR branch. A local tag is exactly as
+durable as the branch this work lives on, so Task 4's deletions are safe
+either way.
 
 ```bash
 cd /Users/brian/Repositories/websites/jastrow
-git push origin archive/v2-research-2026-09 refs/tags/archive/v2-research-2026-09
+git branch --list 'archive/*'
+git tag --list 'archive/*'
+git ls-remote --heads origin 'archive/*' 2>/dev/null || true
 ```
 
-Expected: two new refs on `origin`. Confirm with
-`git ls-remote --heads --tags origin 'archive/*'`.
+Expected: the branch and tag exist locally; the remote listing is empty or
+unreachable. Both are correct. Do not run `git push` in this task.
 
 ---
 
