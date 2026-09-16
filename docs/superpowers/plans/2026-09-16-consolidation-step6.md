@@ -216,10 +216,12 @@ that stays, so `census.ts` can be archived.
   `admin/pipeline/body/units.test.ts:2`
 
 **Acceptance Criteria:**
-- [ ] `body/sense-walk.ts` exports `walkSenses`, `classifyBoundary` and the
-      `Boundary` type. `stripTags` is defined but **not** exported — its only
-      surviving caller is `classifyBoundary` inside the same module
-      (controller Ruling 2; `patch/seed-sense-runs.ts` is archived in Task 4)
+- [ ] `body/sense-walk.ts` exports `walkSenses`, `classifyBoundary`,
+      `stripTags` and the `Boundary` type. `stripTags` is exported **for now**
+      because `census.ts` calls it directly at six sites that are not part of
+      this move (`originHead`, `precedingText`, `letteredRun`, `pluralSection`,
+      `formSectionCandidates`, `classifyOpener`). Task 4 deletes `census.ts`
+      and drops the export then (controller Ruling 2, revised)
 - [ ] The three function bodies are byte-identical to the originals
 - [ ] All 6 surviving importers point at `sense-walk.ts`, none at `census.ts`
 - [ ] `bun qa` green
@@ -304,7 +306,7 @@ function* walkSenses(senses: SourceSense[]): Generator<SourceSense> {
 }
 
 export type { Boundary };
-export { classifyBoundary, walkSenses };
+export { classifyBoundary, stripTags, walkSenses };
 ```
 
 - [ ] **Step 2: Remove the three from `census.ts` and import them instead**
@@ -447,6 +449,10 @@ nothing else changes.
 - [ ] `admin/pipeline/page-index/verify.ts` **does** exist and still runs
 - [ ] `admin/pipeline/patch/` retains `apply.ts`, `apply-cli.ts`, `schema.ts`,
       `snapshot.ts`, `patterns.ts`, `manifest.ts` — no `seed-*.ts` remains
+- [ ] `body/sense-walk.ts` no longer exports `stripTags` — with `census.ts`,
+      `implied-one-census.ts`, `review.ts` and `seed-sense-runs.ts` all deleted,
+      its only caller is `classifyBoundary` in the same module (Task 2 exported
+      it solely for `census.ts`'s six call sites)
 - [ ] No surviving `.ts` file imports a deleted module
 - [ ] `bun qa` green; `bun run transform:invariants` green
 - [ ] `bun pipeline:migrate` (dry run) completes with nine gates green
@@ -505,7 +511,29 @@ ls data/patches/tranches/seed-doc-08-sense-runs data/patches/tranches/seed-doc-0
 Expected: both directories list their files. If either is missing, stop —
 deleting a generator whose output is gone loses the patches.
 
-- [ ] **Step 4: Fix the dangling comment in `headword.ts`**
+- [ ] **Step 4: Drop the `stripTags` export from `sense-walk.ts`**
+
+Task 2 exported it only so `census.ts` could import it. That file is now gone,
+and the body-side `stripTags` has one caller left: `classifyBoundary`, in the
+same module. Change the export line to:
+
+```typescript
+export { classifyBoundary, walkSenses };
+```
+
+Then prove nothing else wanted it:
+
+```bash
+cd /Users/brian/Repositories/websites/jastrow
+grep -rn "stripTags" --include='*.ts' admin/pipeline/body admin/pipeline/patch admin/pipeline/migrate
+```
+
+Expected: only `body/sense-walk.ts`'s own definition and the `classifyBoundary`
+call. The many `stripTags` hits under `admin/pipeline/transform/` are a
+**different function** — `transform/no-new-text.ts` defines and exports its
+own. Do not touch it.
+
+- [ ] **Step 5: Fix the dangling comment in `headword.ts`**
 
 ```bash
 cd /Users/brian/Repositories/websites/jastrow/admin/pipeline
@@ -520,7 +548,7 @@ deleted file, for example:
  * `archive/v2-research-2026-09` (consolidation spec §8); it was
 ```
 
-- [ ] **Step 5: Prove nothing dangles**
+- [ ] **Step 6: Prove nothing dangles**
 
 ```bash
 cd /Users/brian/Repositories/websites/jastrow
@@ -530,7 +558,7 @@ cd /Users/brian/Repositories/websites/jastrow
 
 Expected: exit 0. Any hit is a live reference to a deleted file.
 
-- [ ] **Step 6: Run the gates, including a real migrate dry run**
+- [ ] **Step 7: Run the gates, including a real migrate dry run**
 
 `bun qa` cannot see a break in the migrate path that only shows at runtime,
 so run migrate itself.
@@ -544,7 +572,7 @@ Expected: `bun qa` and `transform:invariants` exit 0; `pipeline:migrate`
 finishes in ~2 min reporting nine gates green. A gate that moved means a
 deletion changed behaviour — stop and investigate, do not re-pin.
 
-- [ ] **Step 7: Commit**
+- [ ] **Step 8: Commit**
 
 ```bash
 cd /Users/brian/Repositories/websites/jastrow
