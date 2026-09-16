@@ -1,5 +1,13 @@
 # The two test tiers
 
+> **Superseded 2026-09-15 by consolidation step 5**
+> ([spec §5](../specs/2026-09-13-pipeline-consolidation-design.md)).
+> The corpus tier is no longer CI work. Its 193 tests that do not need
+> the source data moved to the unit tier; the 191 that do were deleted
+> and are listed in [`retired-corpus-checks.md`](retired-corpus-checks.md);
+> the two invariant checks run locally with `bun run transform:invariants`.
+> What follows is the 2026-08-31 record, kept as history.
+
 **Status: in force from 2026-08-31.** Ruled by Brian as a follow-up to
 batch 8 (PR #58), whose `Test` job was SIGTERM'd at 18m39s by CI's fixed
 ~20-minute wall with every assertion it reached passing. The suite was

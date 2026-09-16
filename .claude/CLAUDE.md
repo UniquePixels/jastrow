@@ -34,16 +34,17 @@ unit test tier, and `tsc`. CI's Lint job runs `bun qa:ci`
 `bun test` is split by filename, and the split is enforced by
 `admin/pipeline/test-tiers.test.ts`.
 
-| Tier | Files | Command | Cost |
-|---|---|---|---|
-| Unit | `*.test.ts` | `bun qa:test` | ~2 s (1.3 s is `migrate/truth.test.ts` validating every truth file) |
-| Corpus | `*.corpus.test.ts` | `bun run audit:corpus` | ~7–8 min |
+| Tier | Files | Command | Where | Cost |
+|---|---|---|---|---|
+| Unit | `*.test.ts` | `bun qa:test` | `bun qa`; CI `Test` | ~2 s |
+| Invariants | `transform/{commutation,registry.order}.corpus.test.ts` | `bun run transform:invariants` | local, before rule-code PRs | ~4 min |
 
-A corpus-tier file streams all 32,512 entries of
-`data/source/jastrow-dictionary.jsonl`. If a new test needs the corpus,
-name it `*.corpus.test.ts` and take its stages from
-`admin/pipeline/transform/rules/corpus-fixture.ts` — never re-read the
-snapshot, and never mutate the shared arrays.
+Per-PR CI never reads `data/source/` (consolidation spec R9). Registering,
+reclassifying or reordering a transform rule needs
+`bun run transform:invariants` run locally — `bun qa` cannot see it.
+A new corpus-reading test must be added to that script. Two research
+corpus files (`residue-sweep`, `implied-one-census`) run nowhere and
+leave in step 6.
 
 ## Branching & Commits
 
