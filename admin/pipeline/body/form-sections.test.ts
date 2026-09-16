@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'bun:test';
-import { walkSenses } from './sense-walk.ts';
 import type { FormSectionParts } from './form-sections.ts';
 import { joinFormSection, splitFormSection } from './form-sections.ts';
 import { splitLettered } from './lettered.ts';
+import { walkSenses } from './sense-walk.ts';
 import { readSourceEntries } from './source.ts';
 import type { SourceEntry } from './types.ts';
 

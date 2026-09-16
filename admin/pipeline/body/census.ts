@@ -9,7 +9,12 @@
 import { type CitationHit, findCitations } from './cite.ts';
 import { MARKERS } from './form-sections.ts';
 import { parseLabel } from './labels.ts';
-import { type Boundary, classifyBoundary, stripTags, walkSenses } from './sense-walk.ts';
+import {
+	type Boundary,
+	classifyBoundary,
+	stripTags,
+	walkSenses,
+} from './sense-walk.ts';
 import { readSourceEntries } from './source.ts';
 import type { SourceEntry, SourceSense } from './types.ts';
 
@@ -556,12 +561,15 @@ if (import.meta.main) {
 	console.log(`report written to ${REPORT_PATH}`);
 }
 
-export type { BrokenSequenceRow, OriginFields, SequenceBreakClass };
+export type { Boundary, BrokenSequenceRow, OriginFields, SequenceBreakClass };
 export {
+	classifyBoundary,
 	classifyMalformed,
 	classifySequenceBreak,
 	formSectionCandidates,
 	labelSequence,
 	letteredRun,
 	pluralSection,
+	stripTags,
+	walkSenses,
 };
