@@ -67,7 +67,7 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 					(row.before === y && row.after === x),
 			);
 		const undeclared = pairs.filter(
-			(p) => !(declared(p.ids[0], p.ids[1]) || ordered(p.ids[0], p.ids[1])),
+			(p) => !declared(p.ids[0], p.ids[1]) && !ordered(p.ids[0], p.ids[1]),
 		);
 
 		// The pair counts and wall-clock on stdout are the gate's own
