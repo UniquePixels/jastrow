@@ -64,4 +64,4 @@ function* walkSenses(senses: SourceSense[]): Generator<SourceSense> {
 }
 
 export type { Boundary };
-export { classifyBoundary, stripTags, walkSenses };
+export { classifyBoundary, walkSenses };
