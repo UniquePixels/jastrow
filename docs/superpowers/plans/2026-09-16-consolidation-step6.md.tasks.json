@@ -4,7 +4,7 @@
     {
       "id": 0,
       "subject": "Task 1: Move patterns and manifest to patch/",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** The two research modules the pipeline actually imports leave `research/` so the directory can be deleted whole.\n\n**Files:**\n- Move: `admin/pipeline/research/{patterns,manifest}.ts` and their `.test.ts` -> `admin/pipeline/patch/`\n- Modify (import path only): `body/migrate-dry.ts`, `patch/apply-cli.ts`, `patch/apply.test.ts`, `transform/count.ts`, `transform/registry.ts`, `transform/registry.test.ts`, `transform/registry.order.test.ts`, `transform/commutation.corpus.test.ts`, `transform/rules/sense-marker.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `git mv` was used - file bytes unchanged, not retyped\n- [ ] No string `research/patterns` or `research/manifest` survives under `admin/`\n- [ ] `bun qa` green\n- [ ] `bun run transform:invariants` green\n\n**Verify:** `bun qa && bun run transform:invariants` -> both exit 0\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/patterns.ts\", \"admin/pipeline/patch/manifest.ts\", \"admin/pipeline/transform/registry.ts\", \"admin/pipeline/transform/count.ts\", \"admin/pipeline/patch/apply-cli.ts\"], \"verifyCommand\": \"bun qa && bun run transform:invariants\", \"acceptanceCriteria\": [\"git mv used, bytes unchanged\", \"no research/patterns or research/manifest string under admin/\", \"bun qa green\", \"transform:invariants green\"], \"modelTier\": \"mechanical\"}\n```"
     },
     {
@@ -80,5 +80,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-16T11:44:06.533529"
+  "lastUpdated": "2026-09-16T12:21:10.350935"
 }
