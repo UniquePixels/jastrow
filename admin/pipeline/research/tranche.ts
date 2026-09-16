@@ -38,6 +38,7 @@ import process from 'node:process';
  * tranche.test.ts.
  */
 import type { SourceEntry } from '../body/types.ts';
+import type { EntryResult } from '../patch/manifest.ts';
 import { PATCH_ID, type SemanticPatch } from '../patch/schema.ts';
 import { type AnomalyHint, entryAnomalyHints } from './anomalies.ts';
 import {
@@ -61,7 +62,6 @@ import {
 	senseIndex,
 	writeChunkInput,
 } from './corpus-inputs.ts';
-import type { EntryResult } from './manifest.ts';
 import {
 	buildTables,
 	healedCorpus,

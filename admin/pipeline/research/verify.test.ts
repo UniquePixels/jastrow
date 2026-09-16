@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
+import type { EntryResult } from '../patch/manifest.ts';
 import { contentAnchor, type SemanticPatch } from '../patch/schema.ts';
-import type { EntryResult } from './manifest.ts';
 import {
 	buildPilotReport,
 	type ChunkOutput,

@@ -15,9 +15,9 @@ import {
 	loadAcceptedCorpus,
 	patchesByRid,
 } from '../patch/apply.ts';
+import { unresolvedNeeds } from '../patch/manifest.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import { computeSnapshot } from '../patch/snapshot.ts';
-import { unresolvedNeeds } from '../research/manifest.ts';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
 import { RULES } from '../transform/registry.ts';
 import type { Rule, TransformRecord } from '../transform/types.ts';

@@ -28,6 +28,14 @@
  *   numbers the maintainer sets per-tranche thresholds against.
  */
 import type { SourceEntry } from '../body/types.ts';
+import {
+	type Disposition,
+	type EntryResult,
+	ManifestFormatError,
+	parseManifestLine,
+	reconcilePatches,
+	validateManifest,
+} from '../patch/manifest.ts';
 import { validateNoNewText } from '../patch/no-new-text.ts';
 import {
 	applyPatch,
@@ -38,14 +46,6 @@ import {
 	validateCorpus,
 } from '../patch/schema.ts';
 import { byCodeUnit } from './chunks.ts';
-import {
-	type Disposition,
-	type EntryResult,
-	ManifestFormatError,
-	parseManifestLine,
-	reconcilePatches,
-	validateManifest,
-} from './manifest.ts';
 
 /** Sampler defaults — calibration-tranche scale; the maintainer may
  * override per tranche. */

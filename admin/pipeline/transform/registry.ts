@@ -5,7 +5,7 @@
  * row must be either registered here or named in PENDING; a row that is
  * neither is a silent skip, and the gate fails on it.
  */
-import type { Pattern } from '../research/patterns.ts';
+import type { Pattern } from '../patch/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
 import { unlinkedBareAnaphor } from './rules/anaphora-mint.ts';
 import { continuationMarkerDash } from './rules/continuation-marker.ts';

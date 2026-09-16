@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { type Pattern, parsePatterns } from '../research/patterns.ts';
+import { type Pattern, parsePatterns } from '../patch/patterns.ts';
 import {
 	checkAdjacency,
 	checkOrdered,

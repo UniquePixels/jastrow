@@ -123,7 +123,7 @@
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
-import { parsePatterns } from '../research/patterns.ts';
+import { parsePatterns } from '../patch/patterns.ts';
 import { textOf } from './no-new-text.ts';
 import {
 	checkAdjacency,

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { parsePatterns } from '../research/patterns.ts';
+import { parsePatterns } from '../patch/patterns.ts';
 import { nonCommutingPairs, type PairStats } from './commutation.ts';
 import { ORDERED, RULES } from './registry.ts';
 import { sourceEntries } from './rules/corpus-fixture.ts';
@@ -67,7 +67,7 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 					(row.before === y && row.after === x),
 			);
 		const undeclared = pairs.filter(
-			(p) => !declared(p.ids[0], p.ids[1]) && !ordered(p.ids[0], p.ids[1]),
+			(p) => !(declared(p.ids[0], p.ids[1]) || ordered(p.ids[0], p.ids[1])),
 		);
 
 		// The pair counts and wall-clock on stdout are the gate's own

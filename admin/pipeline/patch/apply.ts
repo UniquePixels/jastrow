@@ -23,13 +23,13 @@
  */
 import { existsSync } from 'node:fs';
 import type { SourceEntry } from '../body/types.ts';
+import { classifyDrift, type DriftOutcome } from './drift.ts';
 import {
 	type EntryResult,
 	parseManifest,
 	reconcilePatches,
 	replayGate,
-} from '../research/manifest.ts';
-import { classifyDrift, type DriftOutcome } from './drift.ts';
+} from './manifest.ts';
 import { validateNoNewText } from './no-new-text.ts';
 import {
 	applyPatch,
