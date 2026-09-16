@@ -1416,8 +1416,6 @@ function checkOrdered(
 	});
 }
 
-/** Catalogued transform rows with no rule yet. Shrinks batch by batch;
- * empty at the end of Phase 2. */
 /** Rows awaiting registration. Empty since transform batch 10; the
  * per-batch history of what left this array is archived at
  * `docs/archive/registry-history.md` (consolidation spec §8). */
