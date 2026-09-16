@@ -35,7 +35,12 @@
  * than passing unremarked. That check is retired in consolidation
  * step 5; on a new export this is a review-detector candidate
  * (consolidation spec §10), listed in `docs/v2/retired-corpus-checks.md`.
- * Spec §2.3 carries the table and the argument.
+ * Spec §2.3 carries the table and the argument. This gate's
+ * `structural-repairs` scope does not substitute for that retired
+ * per-rule accounting: `migrate`'s `checkTextConservation` compares
+ * the composed body against the finished entry, not per rule, so a
+ * TWELFTH `text-repairs` rule that deletes text would pass every gate
+ * and every test unremarked.
  */
 import type { SourceEntry } from '../body/types.ts';
 import { textOf } from './no-new-text.ts';

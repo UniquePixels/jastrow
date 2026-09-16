@@ -1363,7 +1363,7 @@ const ORDERED: readonly Ordered[] = [
 		after: 'unlinked-bare-anaphor',
 		before: 'rabbi-name-linked-as-bible-book',
 		reason:
-			"I00273: the unlink removes an anchor pointing at `Joshua 2`, a rabbi's name misread as a book. Run the mint first and it copies `Joshua 2` onto the `Ib.`; run the unlink first and the mint reaches the real antecedent, `Kohelet Rabbah 12:7:1`. This is rule 1's hazard in `registry.order.corpus.test.ts` — an unlink deleting the antecedent a reader would otherwise read — and that assertion already pins the direction independently.",
+			"I00273: the unlink removes an anchor pointing at `Joshua 2`, a rabbi's name misread as a book. Run the mint first and it copies `Joshua 2` onto the `Ib.`; run the unlink first and the mint reaches the real antecedent, `Kohelet Rabbah 12:7:1`. This is rule 1's hazard in `registry.order.test.ts` — an unlink deleting the antecedent a reader would otherwise read — and that assertion already pins the direction independently.",
 	},
 	{
 		after: 'unlinked-bare-anaphor',

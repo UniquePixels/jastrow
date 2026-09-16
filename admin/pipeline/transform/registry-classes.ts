@@ -428,9 +428,11 @@ const FIELD = new Set([
 	'phrase-alt-headword-stub',
 ]);
 
-/** The ten classifications, named ONCE. Both halves of the
- * classification test read this, so an eleventh class added to one half
- * and forgotten in the other is not a thing that can happen. */
+/** The eleven classifications, named ONCE. Both halves of the
+ * classification test read this — the structural coverage check in
+ * `registry.order.test.ts` and the corpus-earned check in
+ * `registry.order.corpus.test.ts` — so a twelfth class added to one and
+ * forgotten in the other is not a thing that can happen. */
 const CLASSES: ReadonlySet<string>[] = [
 	UNLINK,
 	RETARGET,
@@ -536,7 +538,6 @@ function rtlSpanCoverageOf(entry: SourceEntry): string {
 export {
 	CLASSES,
 	CORROBORATE,
-	coverageSignatureIn,
 	FIELD,
 	GLYPH,
 	MINT,

@@ -177,9 +177,11 @@ describe('the classification is earned, not declared', () => {
 	// 11 of 11 for the adjacent one; measured COMPOSED, 42 of 42.
 	// 0 fully orphaned in either reading.
 	//
-	// THE TOTAL IS 42 HERE, NOT THE 30 + 11 = 41 THAT
-	// `duplication.corpus.test.ts` reports, and the difference is the
-	// composition. That file measures each rule alone on the entry after
+	// THE TOTAL IS 42 HERE, NOT THE 30 + 11 = 41 the retired
+	// corpus-tier count reported — a measurement, not a surviving test
+	// of `duplication.test.ts`, retired in step 5 and listed in
+	// `docs/v2/retired-corpus-checks.md` — and the difference is the
+	// composition. That measurement covered each rule alone on the entry after
 	// `text-repairs`; this one measures after the preceding
 	// `structural-repairs` rules, where `strandedStemHead` exposes the
 	// duplicate at `R00223` and `duplicatedOpeningRun` repairs 89 rather

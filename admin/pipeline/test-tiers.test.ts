@@ -152,12 +152,14 @@ it('every corpus-tier file is run by transform:invariants or awaits the archive'
 	const named = script
 		.split(/\s+/u)
 		.filter((word) => word.endsWith('.corpus.test.ts'));
-	const onDisk = await Array.fromAsync(
-		new Bun.Glob('admin/**/*.corpus.test.ts').scan({
-			cwd: '.',
-			onlyFiles: true,
-		}),
-	);
+	const onDisk = (
+		await Array.fromAsync(
+			new Bun.Glob('**/*.corpus.test.ts').scan({
+				cwd: '.',
+				onlyFiles: true,
+			}),
+		)
+	).filter((path) => !IGNORED.test(`/${path}`));
 	const unrun = onDisk
 		.filter((path) => !(named.includes(path) || AWAITING_ARCHIVE.has(path)))
 		.sort();

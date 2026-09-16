@@ -3,7 +3,9 @@
 Every test deleted from the corpus tier by consolidation step 5 (spec
 [§5.1](../specs/2026-09-13-pipeline-consolidation-design.md), §11 step 5).
 Each link opens the test as it stood at `03167f0d`, the last commit
-that ran it. Nothing here runs.
+that ran it. Nothing here runs. All 191 permalinks resolve against
+`v2` history; if that history is ever rewritten, this table's names
+and kinds — not the links — are the durable record.
 
 **Why this list exists.** On the committed source data the nine
 `migrate` gates and the migration report cover what these tests
@@ -11,6 +13,51 @@ pinned. On a *new* export the `derived-table` and `no-defect` rows
 were the only warning, so each one worth keeping becomes a review
 detector that emits report rows with no pinned number (spec §10).
 This is the list that work starts from.
+
+**Correction data citations.** Step 5 did not touch anything under
+`data/` — that constraint is why this note exists rather than a data
+edit. `data/patches/patterns.jsonl` and several files under
+`data/patches/catalogue-audit/` cite tests this file retires; those
+citations stand as written and are now historical, describing what
+was true when the row was reasoned about, not a guard that still
+runs. Enumerated with
+`git grep -a -n -E '[A-Za-z0-9./-]+\.corpus\.test\.ts' -- data/patches`
+(excluding the still-live `commutation`, `registry.order`,
+`residue-sweep` and `implied-one-census` corpus files): 7
+`patterns.jsonl` row ids — `parenthesized-alt-headword`,
+`vkh-geresh-loss`, `holam-migrated-off-mater-vav`, `impossible-dagesh`,
+`binyan-form-leading-space`, `binyan-form-empty-slot`,
+`shin-sin-dot-drop` — and 10 `catalogue-audit/` files —
+`abbrev-headword-stub.md`, `b-h-field-split.md`,
+`batch-3b-withdrawals.md`, `binyan-form-cleanup.md`,
+`geresh-abbrev-arms.md`, `homograph-roman-stranded.md`,
+`ib-yoma-2a.md`, `plural-label-capture.md`,
+`sense-number-closed-grammar.md`, `stranded-stem-head.md`.
+
+Of those, `binyan-form-leading-space` and its twin
+`binyan-form-empty-slot` are the rows step 6 must re-word (spec §8
+already touches `data/patches/`): both are `discarded` on the
+argument that `cleanBinyanForms`
+(`admin/pipeline/body/repairs.ts:445`) already repairs the defect
+upstream of every transform, an argument that rests on
+`body/binyan-cleanup.corpus.test.ts` — now deleted, and nothing tests
+`cleanBinyanForms` any more. The other five rows cite a test that
+measured a number, not a guard their disposition depends on, so they
+are lower priority. In general: a citation in `patterns.jsonl` or
+`catalogue-audit/` resolving to a test in the table below means the
+guard it named is a review-detector candidate (spec §10) — it does
+not mean the defect the row describes has returned; the entry data
+still carries whatever `migrate`'s gates and report cover today.
+
+**Highest priority.** The three `body/deletion-baseline.corpus.test.ts`
+rows below pinned the per-rule deleted-codepoint counts for the eleven
+`text-repairs` rules that delete text. `checkNoLostText`
+(`transform/no-lost-text.ts`) is wired for `structural-repairs` only,
+and `migrate`'s `checkTextConservation` compares the composed body
+against the finished entry rather than per rule, so of everything in
+this table these three are the review detector to write first: without
+it a twelfth deleting `text-repairs` rule now passes every gate and
+every test unremarked.
 
 | Kind | Meaning |
 |---|---|

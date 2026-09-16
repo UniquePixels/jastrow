@@ -51,8 +51,8 @@ for await (const source of readSourceEntries(FIXTURE_PATH)) {
 }
 
 /** One real entry, by rid. Throws rather than returning `undefined`,
- * so a snapshot that lost an entry fails as a missing fixture instead
- * of as a confusing assertion. */
+ * so a fixture file that lost an entry fails as a missing fixture
+ * instead of as a confusing assertion. */
 function entry(rid: string): SourceEntry {
 	const found = FIXTURES.get(rid);
 	if (found === undefined) {

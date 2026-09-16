@@ -57,7 +57,7 @@ const unlinkAnchor = editDef('unlink-anchor', (s) =>
 const wrapHebrew = editDef('wrap-hebrew', (s) =>
 	s.includes('<a')
 		? s
-		: s.replace(/(?<run>[֐-׿]+)/gu, '<span dir="rtl">$<run></span>'),
+		: s.replace(/(?<run>[\u0590-\u05FF]+)/gu, '<span dir="rtl">$<run></span>'),
 );
 
 /** Returns a fresh entry object and NO record — the second of
