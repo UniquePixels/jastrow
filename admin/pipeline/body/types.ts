@@ -7,8 +7,9 @@
 
 /** Upstream shapes (Sefaria dump, `data/source/jastrow-dictionary.jsonl`),
  * restricted to the fields the body model reads. See
- * `admin/pipeline/provenance/baseline-transform.ts` for the sibling model
- * of the deployed v1 shape these fields fed. */
+ * `admin/pipeline/provenance/baseline-transform.ts`, archived at
+ * `refs/tags/archive/v2-research-2026-09`, for the sibling model of
+ * the deployed v1 shape these fields fed. */
 interface SourceGrammar {
 	binyan_form?: string[];
 	language_code?: string;

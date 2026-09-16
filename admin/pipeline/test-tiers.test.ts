@@ -31,9 +31,8 @@
  *   - naming `SOURCE_PATH` itself.
  *
  * It does NOT see a test that reaches the corpus INDIRECTLY — by calling
- * `census.ts`, `review.ts`, `dry-run.ts`, `migrate-dry.ts`, `count.ts`,
- * `patch/apply-cli.ts` or `research/corpus-inputs.ts`, each of which
- * holds its own no-argument read. No test does that today, and the
+ * `dry-run.ts`, `count.ts` or `patch/apply-cli.ts`, each of which holds
+ * its own no-argument read. No test does that today, and the
  * measurement says so rather
  * than the grep: with the tiers split, no unit-tier file exceeds
  * 0.11 s, which a 41 MB read cannot fit under — except
@@ -100,7 +99,10 @@ it('the tier split covers every test file exactly once', async () => {
 	const files = await testFiles();
 	// A floor, not an equality: it fails if the glob silently stops
 	// matching, without pinning a count every new test file would break.
-	expect(files.length).toBeGreaterThan(80);
+	// Re-derived after consolidation step 6's deletions dropped the
+	// count from ~108 to 83; 70 keeps margin without chasing the exact
+	// number.
+	expect(files.length).toBeGreaterThan(70);
 	expect(files.filter(isCorpusName).length).toBeGreaterThan(0);
 	expect(files.filter((f) => !isCorpusName(f)).length).toBeGreaterThan(0);
 });
@@ -133,14 +135,6 @@ it('every corpus-tier file earns the name — none is merely labelled', async ()
 	expect(idle).toEqual([]);
 });
 
-/** Corpus-tier files no script runs. Each is a test of research code
- * and leaves with that code in consolidation step 6 (spec §8); nothing
- * else may join this list. */
-const AWAITING_ARCHIVE: ReadonlySet<string> = new Set([
-	'admin/pipeline/body/implied-one-census.corpus.test.ts',
-	'admin/pipeline/research/residue-sweep.corpus.test.ts',
-]);
-
 it('every corpus-tier file is run by transform:invariants or awaits the archive', async () => {
 	// CI no longer runs the corpus tier (consolidation spec R9), so a
 	// corpus file no script names is a test nobody runs — the failure
@@ -160,9 +154,7 @@ it('every corpus-tier file is run by transform:invariants or awaits the archive'
 			}),
 		)
 	).filter((path) => !IGNORED.test(`/${path}`));
-	const unrun = onDisk
-		.filter((path) => !(named.includes(path) || AWAITING_ARCHIVE.has(path)))
-		.sort();
+	const unrun = onDisk.filter((path) => !named.includes(path)).sort();
 	expect(unrun).toEqual([]);
 	// And the other direction: a name that matches no file runs nothing.
 	const missing = named.filter((path) => !onDisk.includes(path));

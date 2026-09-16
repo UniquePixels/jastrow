@@ -6,10 +6,11 @@
  * `bun body:migrate-dry` runs it corpus-wide read-only and reports.
  *
  * Every rid-keyed edit here is literal, reviewed code (same policy as
- * fixtures/extract.ts rid lists), transcribed from the review docs'
- * per-row decisions. Edits assert their find-text matches exactly once
- * in the entry — a source-snapshot change that invalidates a repair
- * fails loudly instead of silently skipping (B9).
+ * fixtures/extract.ts rid lists, archived at
+ * `refs/tags/archive/v2-research-2026-09`), transcribed from the
+ * review docs' per-row decisions. Edits assert their find-text matches
+ * exactly once in the entry — a source-snapshot change that
+ * invalidates a repair fails loudly instead of silently skipping (B9).
  *
  * `deviation: true` marks recorded deviations from the printed text
  * (implied sense-1 labels, D00341's bracket move — upstream-issues

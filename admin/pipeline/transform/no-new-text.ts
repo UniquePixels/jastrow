@@ -77,7 +77,8 @@ function stripTags(html: string): string {
  * `language_code` above, despite the shared name: it lives on a
  * sense's `grammar`, not the entry, and holds the same
  * etymology-fragment shape (`'(b. h.;'`) at 3 occurrences
- * corpus-wide (`admin/pipeline/provenance/baseline-transform.ts:101-103`).
+ * corpus-wide (`admin/pipeline/provenance/baseline-transform.ts:101-103`,
+ * archived at `refs/tags/archive/v2-research-2026-09`).
  *
  * This list is exhaustive over `SourceEntry`, `SourceSense`, and
  * `SourceGrammar` by construction. **Two fields are excluded, both

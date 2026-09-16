@@ -43,8 +43,9 @@ import {
 } from './schema.ts';
 
 /** The committed patch corpus (spec §4.4): the pilot's files plus every
- * ingested tranche's, the same set `research/tranche.ts` walks. Absent
- * files mean an empty corpus. `CORPUS_PATH`/`MANIFEST_PATH` were the
+ * ingested tranche's, the same set `research/tranche.ts` walks —
+ * archived at `refs/tags/archive/v2-research-2026-09`. Absent files
+ * mean an empty corpus. `CORPUS_PATH`/`MANIFEST_PATH` were the
  * single-file layout nothing ever wrote; kept exported for callers that
  * pass an explicit path. */
 const PILOT_DIR = 'data/patches/pilot';
@@ -80,14 +81,17 @@ const TRANCHES: readonly { dir: string; stage: CorpusStage }[] = [
 	{ dir: 'residue-01', stage: 'healed' },
 	// Not a sweep tranche: doc 08's confirmed implied-`1)` rows, seeded
 	// because 24 of them produce no anomaly hint and so never enter a
-	// sweep chunk (`patch/seed-implied-one.ts`). Authored against the
+	// sweep chunk (`patch/seed-implied-one.ts`, archived at
+	// `refs/tags/archive/v2-research-2026-09`). Authored against the
 	// healed stage, and last so no existing tranche's ingest position
 	// moves.
 	{ dir: 'seed-doc-08-implied-one', stage: 'healed' },
 	// The doc-08 follow-up: runs the implied-`1)` generator cannot
 	// express — a run inside an already-numbered sense, a sense whose
 	// number token was dropped, and three whose `1)` was OCR'd as `l)`
-	// (`patch/seed-sense-runs.ts`). Last, for the same reason.
+	// (`patch/seed-sense-runs.ts`, archived at
+	// `refs/tags/archive/v2-research-2026-09`). Last, for the same
+	// reason.
 	{ dir: 'seed-doc-08-sense-runs', stage: 'healed' },
 ];
 /** The pilot directory's stage — swept pre-patch, same as tranche-01

@@ -128,7 +128,7 @@ function overAltHeadwords(
  * same array — 52 adjacent, 17 spanning one or two intervening items
  * that are inside the parentheses too. Only 28 are genuinely orphaned.
  * All of it was pinned in `headword-census.ts`, archived at
- * `archive/v2-research-2026-09` (consolidation spec §8); it was
+ * `refs/tags/archive/v2-research-2026-09` (consolidation spec §8); it was
  * asserted by a corpus check retired in consolidation step 5
  * (`docs/v2/retired-corpus-checks.md`).
  *
