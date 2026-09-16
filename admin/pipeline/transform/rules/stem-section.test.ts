@@ -89,8 +89,9 @@ describe('strandedStemHead', () => {
 
 	// Every refusal below is a slice the batch-6c report counts, and
 	// each stays on the queue rather than being half-repaired. Tuples
-	// rather than object literals: see the duplication note in
-	// `punct-seams.corpus.test.ts`.
+	// rather than object literals: the duplication note lived in the
+	// punct-seams corpus tier, retired in consolidation step 5
+	// (`docs/v2/retired-corpus-checks.md`).
 	const refused: [string, string][] = [
 		['"= Label" cross-reference', ` = <i>Pa.</i> ${TAIL}`],
 		['"Label of X" gloss', `, <i>Pi.</i> of <a href="/x">בָּסַם</a>.`],

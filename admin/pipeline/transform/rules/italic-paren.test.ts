@@ -1,11 +1,13 @@
 /**
- * `italicSwallowsCloseParen`, FIXTURE TIER. Corpus tier in
- * `italic-paren.corpus.test.ts`.
+ * `italicSwallowsCloseParen`, FIXTURE TIER. The corpus tier this file
+ * was split from was retired in consolidation step 5; its checks are
+ * listed in `docs/v2/retired-corpus-checks.md`.
  *
  * Every decline below names the catalogued row the case belongs to,
- * and each was mutation-checked: removing the sub-sense-marker guard
- * fails 5 assertions across the two tiers, the anchor decline 1, the
- * empty-head guard 1, and the punctuation-only branch 2.
+ * and each was mutation-checked, when the corpus tier still existed:
+ * removing the sub-sense-marker guard failed 5 assertions across the
+ * two tiers, the anchor decline 1, the empty-head guard 1, and the
+ * punctuation-only branch 2.
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';

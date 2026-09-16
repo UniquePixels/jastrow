@@ -1,5 +1,5 @@
 /**
- * The entangled label pair, fixture tier and corpus tier.
+ * The entangled label pair, fixture tier.
  *
  * The fixture tier states the two polarities and, in its own describe
  * block, the GRANULARITY decision — the one design question the brief
@@ -8,42 +8,19 @@
  * a claim about the data and a hand-written example could not witness
  * it.
  *
- * The corpus tier is spec §6 measure (1), and it is the ONLY gate that
- * can see a Class A rule at all: `checkNoNewText` compares codepoint
- * MULTISETS, so a period moved from one side of a tag to the other is
- * invisible to it by construction, and `checkMarkup` is a delta gate
- * that lets pre-existing damage through. `stripTags` equality is
- * stronger than the sub-multiset test in the way that matters here —
- * it is ORDER-SENSITIVE, so a period landing on the wrong side of the
- * wrong tag fails it even though every codepoint count still balances.
- *
- * The `stripTags` equality runs unconditionally rather than under
- * `it.skipIf(stale)`, unlike `abbrev-vocab.corpus.test.ts`'s re-derivation:
- * what it asserts is a property of the rules, not a count of today's
- * corpus, so a source re-fetch changes how many entries it inspects
- * and never whether it should hold.
- *
- * The two POPULATION figures pinned alongside it — 1,567 and 979
- * entries, this batch's two largest catalogue corrections — ARE
- * counts of today's corpus, and are pinned here for the reason
- * `seam-space.corpus.test.ts` pins its five: they are the numbers
- * written back to `patterns.jsonl`, and nothing else in the tree
- * re-measures them, so an uncorrected drift would otherwise be a
- * discovery rather than a test failure. After a source re-fetch a
- * failure there is a stale baseline, not a defect — re-measure and
- * write the row and the test back together.
+ * The corpus-tier `stripTags`-equality invariant — that neither rule
+ * changes a field's text on any entry it touches, pinned against the
+ * exact populations touched (1,567 and 979 entries) — was retired in
+ * consolidation step 5 and is listed in
+ * `docs/v2/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
-import { fieldsOf, stripTags } from '../no-new-text.ts';
 import type { Rule } from '../types.ts';
-import { sourceEntries } from './corpus-fixture.ts';
 import {
 	italicGlossPeriodOutside,
 	labelPeriodInside,
 } from './italic-period.ts';
-
-const PAIR: readonly Rule[] = [labelPeriodInside, italicGlossPeriodOutside];
 
 /** A minimal single-sense entry: both rules read `definition` and
  * nothing else. */
@@ -77,8 +54,9 @@ describe('labelPeriodInside', () => {
 	// genuine 10-letter unanimous period-OUTSIDE convention in the
 	// corpus, and house style overrides it: 266 occurrences are
 	// normalised against their own attested usage. Safe only because
-	// both forms strip to byte-identical text — which the corpus tier
-	// below is what actually checks.
+	// both forms strip to byte-identical text — a byte-identical-strip
+	// property that a corpus-tier invariant checked, retired in consolidation
+	// step 5 (`docs/v2/retired-corpus-checks.md`).
 	it('moves Part. pass. too — the accepted cost of the 2026-08-21 ruling', () => {
 		expect(ran(labelPeriodInside, '<i>Part. pass</i>. of')).toBe(
 			'<i>Part. pass.</i> of',
@@ -252,59 +230,4 @@ describe('the pair', () => {
 		);
 		expect(defOf(entry)).toBe('see <i>Af</i>. and');
 	});
-});
-
-/** ORDER-SENSITIVE field-by-field text equality — the whole point of
- * using `stripTags` here rather than the gate's codepoint multiset. */
-function sameText(before: SourceEntry, after: SourceEntry): boolean {
-	const was = fieldsOf(before).map(stripTags);
-	const now = fieldsOf(after).map(stripTags);
-	return was.length === now.length && was.every((text, at) => text === now[at]);
-}
-
-/** Whether `rule` touched this entry, pushing a problem when it
- * touched it AND changed its text. */
-function auditEntry(
-	rule: Rule,
-	entry: SourceEntry,
-	problems: string[],
-): boolean {
-	const out = rule.apply(entry);
-	if (out.records.length === 0) {
-		return false;
-	}
-	if (!sameText(entry, out.entry)) {
-		problems.push(`${rule.id} changed text in ${entry.rid}`);
-	}
-	return true;
-}
-
-describe('corpus tier: the Class A invariant', () => {
-	it('changes no field’s text on any entry either rule touches', async () => {
-		const touched = new Map(PAIR.map((rule) => [rule.id, 0]));
-		const problems: string[] = [];
-		for (const entry of await sourceEntries()) {
-			for (const rule of PAIR) {
-				const hit = auditEntry(rule, entry, problems) ? 1 : 0;
-				touched.set(rule.id, (touched.get(rule.id) ?? 0) + hit);
-			}
-		}
-		expect(problems).toEqual([]);
-		// The invariant must not pass vacuously — a predicate narrowed
-		// to nothing satisfies it on an empty population — and the
-		// guard is stated as the EXACT written-back population of each
-		// rule rather than as `> 0`, in the unit `patterns.jsonl`
-		// writes: ENTRIES. These are the batch's two largest
-		// corrections (1,098 -> 1,567 and 945 -> 979) and this is the
-		// only place either is re-measured.
-		expect(Object.fromEntries(touched)).toEqual({
-			'italic-swallowed-terminal-period': 1567,
-			'label-period-outside-italic': 979,
-		});
-		// 180s, matching every other corpus-tier test in the batch
-		// (`seam-space.corpus.test.ts`, `registry.order.corpus.test.ts`). This
-		// walks all 32,512 entries twice over; under bun's 5s default it
-		// would fail on a cold page cache with a timeout naming nothing,
-		// and a timeout here reads as a broken invariant.
-	}, 180_000);
 });

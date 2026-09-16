@@ -6,19 +6,14 @@
  * equivalent. Measured: apparatus 8 (catalogued 8), rabbi 42
  * (catalogued 41 until task 11 corrected it — the widened predicate
  * admits K01198's comma-lead variant per the ruling of 2026-08-23).
+ * The corpus-walking test that observed every `ELLIPSIS_CONVENTION`
+ * exclusion against the live corpus was retired in consolidation step
+ * 5 and is listed in `docs/v2/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
-import { sourceEntries } from './corpus-fixture.ts';
-import {
-	apparatusCite,
-	ELLIPSIS_CONVENTION,
-	ellipsisFragment,
-	ellipsisRaw,
-	rabbiName,
-	unobservedConvention,
-} from './unlink.ts';
+import { apparatusCite, ellipsisFragment, rabbiName } from './unlink.ts';
 
 // `headword` is required on `SourceEntry` and `fieldsOf` (no-new-text.ts)
 // reads it unconditionally when building the gate's text multiset — an
@@ -257,19 +252,6 @@ it('leaves a convention ellipsis glossed by the following English alone (D00702)
 	expect(out.entry.content.senses[0]?.definition).toBe(D00702);
 	expect(out.records).toHaveLength(0);
 });
-
-// Drift check (maintainer ruling, 2026-08-23): every key in
-// ELLIPSIS_CONVENTION must be OBSERVED in the real corpus, or this
-// names it and fails — see unlinkMatching's docstring for why an
-// in-rule check can't do this instead.
-it('observes every ellipsis-fragment convention exclusion in the corpus', async () => {
-	const unmatched = await unobservedConvention(
-		ELLIPSIS_CONVENTION,
-		await sourceEntries(),
-		ellipsisRaw,
-	);
-	expect(unmatched).toEqual([]);
-}, 30_000);
 
 // A02658, excerpt: ellipsis elides quoted text, not a word-head;
 // דוסתאי is the complete name Dostai, glossed right after.

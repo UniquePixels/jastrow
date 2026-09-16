@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import { parseLabel, printLabel } from '../../body/labels.ts';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import { parsePatterns } from '../../research/patterns.ts';
 import { strandedDashStarMarker } from './sense-marker.ts';
 
 /** A minimal entry around the senses under test. */
@@ -135,3 +136,33 @@ describe('strandedDashStarMarker', () => {
 		expect(twice.records).toEqual([]);
 	});
 });
+
+// ---- 7. the entanglement edge does not survive the rule ----
+
+// THE DELETION IS PINNED HERE BECAUSE NEITHER GATE CAN WITNESS IT.
+// `entangledClusters` derives over REGISTERED rules, so an edge whose
+// endpoints are both unregistered — which this one was for the whole of
+// Phase 2 until batch 7 — never enters a cluster, and the pinned cluster
+// list reads 5 clusters with neither row in any of them BOTH before and
+// after the deletion. `unaccountedEdges` excludes both-unregistered
+// edges by design. So `registry.ts`'s "only pinning the cluster set
+// notices" does not hold for this class, and the assertion below is the
+// one thing standing between a measured deletion and a silent one.
+it('records the deleted entanglement edge as deleted', async () => {
+	const rows = parsePatterns(
+		await Bun.file('data/patches/patterns.jsonl').text(),
+	);
+	const edges = (id: string): readonly string[] =>
+		rows.find((row) => row.id === id)?.entangledWith ?? [];
+	// THE ASSERTION IS THE ABSENCE OF THIS EDGE, not the absence of all
+	// edges. A first version pinned `entangledWith` as `undefined` on
+	// both rows, which was stronger than the fact it protects — and the
+	// same batch falsified it, when the commutation gate found
+	// `trailing-em-dash-tail × continuation-marker-em-dash-loss` and that
+	// row correctly gained an edge. Pinning more than the claim needs is
+	// how a gate starts failing for reasons it was never about.
+	expect(edges('trailing-em-dash-tail')).not.toContain(
+		'sense-number-outside-closed-grammar',
+	);
+	expect(edges('sense-number-outside-closed-grammar')).toEqual([]);
+}, 30_000);

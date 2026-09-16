@@ -11,15 +11,17 @@
  *
  * Rather than widen the rule interface (rejected in batch 2 as bigger
  * than the rows are worth), the fact is computed once and pinned. The
- * pinning is falsifiable: `abbrev-vocab.corpus.test.ts` re-derives from the
- * snapshot and requires an exact match, so the list cannot silently
- * drift away from the corpus it claims to describe.
+ * pinning was falsifiable: a corpus check re-derived the list from
+ * the snapshot and required an exact match, so it could not silently
+ * drift away from the corpus it claims to describe. That re-derivation
+ * is retired in consolidation step 5 (`docs/v2/retired-corpus-checks.md`);
+ * on a new export it is a review-detector candidate (consolidation
+ * spec §10) rather than a gate.
  *
- * ON A SOURCE RE-FETCH that test SKIPS rather than fails — the frozen
- * list describes a corpus no longer on disk, which is a stale baseline
- * and not a defect, the same position `count.ts` takes. Re-baseline
- * deliberately: run `deriveAbbreviations` over the new snapshot and
- * commit the new list.
+ * ON A SOURCE RE-FETCH the frozen list describes a corpus no longer
+ * on disk, which is a stale baseline and not a defect, the same
+ * position `count.ts` takes. Re-baseline deliberately: run
+ * `deriveAbbreviations` over the new snapshot and commit the new list.
  *
  * WHAT THE EVIDENCE IS. A period proves an abbreviation when the text
  * CONTINUES past it in a way a sentence-ending period cannot be
@@ -193,14 +195,15 @@ const FROZEN: readonly string[] = [
  * the freeze does not reach. What the freeze does buy is a block on
  * property tacking at runtime. The residual is therefore real but
  * narrow: a caller that casts the type away could still mutate the
- * contents. Nothing in the tree does, and `abbrev-vocab.corpus.test.ts`'s
- * re-derivation check — the whole set rebuilt from the corpus and
- * compared member for member — is the guard that would catch it.
+ * contents. Nothing in the tree does, and a corpus re-derivation
+ * check — the whole set rebuilt from the corpus and compared member
+ * for member — was the guard that would have caught it; that check
+ * is retired in consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
  *
  * The set stays EXPORTED rather than hidden behind membership
  * functions because it is read as a collection, not just queried:
  * `seam-space.ts` calls `.has` on a period-stripped token, and the
- * re-derivation test reads `.size` and iterates it. */
+ * former re-derivation test read `.size` and iterated it. */
 const ABBREVIATIONS: ReadonlySet<string> = Object.freeze(new Set(FROZEN));
 
 /** One italic run's body, as the corpus writes it. */
@@ -240,8 +243,10 @@ const RUN = /<i>(?<body>[^<>]*)<\/i>/gu;
  * over all 960,800 strings of length <= 7 in the alphabet
  * `a A . ␣ , ; )` — every class boundary the pattern can see —
  * comparing offset, whole match AND captured token: 0 disagreements.
- * `abbrev-vocab.corpus.test.ts` re-derives the vocabulary from the corpus and
- * requires it to equal `FROZEN` member for member; it does, at 93.
+ * A corpus check re-derived the vocabulary from the corpus and
+ * required it to equal `FROZEN` member for member; it did, at 93,
+ * measured on the 2026-07-04 export by a check retired in
+ * consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
  */
 const MID_RUN = /(?<![^\s.])(?<token>[^\s.]+)\.\s*(?=[,;)]|\p{Ll})/gu;
 /** The same continuation test applied to the field text following a

@@ -1,29 +1,22 @@
 /**
  * `plural-to-feminine-final-letter-mislink` (batch-2 task 6). Every
- * number in `misc-links.ts`'s module doc came from a corpus walk of
- * this shape — recursive through `sense.senses` (senses nest) and
- * `anchors(tokenize(definition))` for the anchors. This file's
- * corpus-walking tests at the bottom re-run the load-bearing claims
- * (raw population, clean population, retarget reachability) so a
- * corpus edit or a narrowed predicate fails here, on every `bun qa`,
- * rather than only on a `bun transform:count` someone remembers to
- * run.
+ * number in `misc-links.ts`'s module doc came from a corpus walk —
+ * recursive through `sense.senses` (senses nest) and
+ * `anchors(tokenize(definition))` for the anchors. The corpus-walking
+ * tests that re-ran the load-bearing claims (raw population, clean
+ * population, retarget reachability) were retired in consolidation
+ * step 5 and are listed in `docs/v2/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
 import { applyTransforms } from '../run.ts';
-import { sourceEntries } from './corpus-fixture.ts';
 import {
 	inCleanPlSpan,
 	pluralToFeminineFinalLetter,
-	pluralToFeminineMatch,
-	pluralToFeminineRaw,
 	shurukAsYodDisplayCorruption,
 	shurukAsYodMatch,
-	skeleton,
-	targetHeadwordSkeleton,
 } from './misc-links.ts';
 
 /** `headword` and `content.senses` are load-bearing for this row —
@@ -299,236 +292,6 @@ it('a no-op entry returns the same entry reference and produces no records', () 
 	expect(result.records).toHaveLength(0);
 	expect(result.entry).toBe(before);
 });
-
-/** Count of `shurukAsYodMatch` matches across `senses`, recursive
- * through `sense.senses` (senses nest). Restated from
- * `misc-links.ts`'s module doc so a corpus edit or a narrowed
- * predicate fails here, on every `bun qa`, rather than only on a
- * manually-run `bun transform:count`. A top-level recursive function,
- * never a closure declared inside the `for await` loop below — see
- * the note above `countRaw` for why. */
-function countShurukMatches(senses: readonly SourceSense[]): number {
-	let count = 0;
-	for (const sense of senses) {
-		if (sense.definition !== undefined) {
-			for (const anchor of anchors(tokenize(sense.definition))) {
-				if (shurukAsYodMatch(anchor)) {
-					count += 1;
-				}
-			}
-		}
-		if (sense.senses !== undefined) {
-			count += countShurukMatches(sense.senses);
-		}
-	}
-	return count;
-}
-
-it('the population is exactly 12 occurrences across 12 entries, corpus-wide', async () => {
-	let occurrences = 0;
-	const rids = new Set<string>();
-	for (const e of await sourceEntries()) {
-		const n = countShurukMatches(e.content.senses);
-		occurrences += n;
-		if (n > 0) {
-			rids.add(e.rid);
-		}
-	}
-	expect(occurrences).toBe(12);
-	expect([...rids].sort()).toEqual([
-		'B01185',
-		'D00325',
-		'E00186',
-		'H00006',
-		'H01302',
-		'O01237',
-		'P00932',
-		'P01181',
-		'Q01699',
-		'Q01705',
-		'S00833',
-		'S02233',
-	]);
-}, 30_000);
-
-/**
- * Corpus-walking measurements, restated from `misc-links.ts`'s module
- * doc so a corpus edit or a narrowed predicate fails here rather than
- * only on a manually-run `bun transform:count`. Written as plain
- * top-level recursive counters — never a closure declared inside the
- * `for await` loops below — the shape `lint/nursery/noLoopFunc` (and
- * `rules/unlink.ts`'s own note on the same rule) asks for: a closure
- * created fresh every corpus iteration and captured by a `let` outside
- * the loop is exactly what that rule flags, even when — as here — the
- * closure runs and is discarded synchronously before the next
- * iteration.
- */
-
-/** Count of `pluralToFeminineRaw` matches across `senses`, recursive
- * through `sense.senses`. */
-function countRaw(e: SourceEntry, senses: readonly SourceSense[]): number {
-	let count = 0;
-	for (const sense of senses) {
-		if (sense.definition !== undefined) {
-			for (const anchor of anchors(tokenize(sense.definition))) {
-				if (pluralToFeminineRaw(e, anchor)) {
-					count++;
-				}
-			}
-		}
-		if (sense.senses !== undefined) {
-			count += countRaw(e, sense.senses);
-		}
-	}
-	return count;
-}
-
-/** Count of `pluralToFeminineMatch` matches across `senses` — the
- * rule's actual firing set. */
-function countClean(e: SourceEntry, senses: readonly SourceSense[]): number {
-	let count = 0;
-	for (const sense of senses) {
-		if (sense.definition !== undefined) {
-			const tokens = tokenize(sense.definition);
-			for (const anchor of anchors(tokens)) {
-				if (pluralToFeminineMatch(e, tokens, anchor)) {
-					count++;
-				}
-			}
-		}
-		if (sense.senses !== undefined) {
-			count += countClean(e, sense.senses);
-		}
-	}
-	return count;
-}
-
-/** One entry's reachability evidence: `matched` is the count of
- * `pluralToFeminineMatch` occurrences (mirrors `countClean`, computed
- * in the same pass so the matched anchors are known); `ownTargets` is
- * the count of every OTHER anchor whose TARGET-ENTRY IDENTITY
- * (`targetHeadwordSkeleton`) equals `hostSkeleton` — the only thing
- * that would license a retarget under spec §3.2 case 2. The matched
- * anchor is excluded from its own entry's `ownTargets` tally by
- * construction — `pluralToFeminineRaw`'s self-link guard already
- * requires a matched anchor's target skeleton to differ from
- * `hostSkeleton`, so a matched anchor can never contribute to its own
- * evidence, and the `continue` below makes that explicit rather than
- * relying on the guard silently. A prior version of this test compared
- * `data-ref` by STRING PREFIX instead of by skeleton, which both
- * over-counted (a sibling spelled `<headword>+ִית` starts with the
- * host's own headword string, so the MISLINKED anchor counted as its
- * own evidence) and under-counted (a homograph headword's Roman-
- * numeral or superscript suffix rarely appears in a target string the
- * same way) — see `misc-links.ts`'s module doc for the corrected
- * numbers this produces. */
-type Reachability = { matched: number; ownTargets: number };
-
-/** One definition's contribution to `reachabilityOf` — split out as its
- * own function (rather than inlined in the recursive walk below) so
- * neither function's cognitive complexity crosses the lint budget. */
-function reachabilityInDefinition(
-	e: SourceEntry,
-	definition: string,
-	hostSkeleton: string,
-): Reachability {
-	let matched = 0;
-	let ownTargets = 0;
-	const tokens = tokenize(definition);
-	for (const anchor of anchors(tokens)) {
-		if (pluralToFeminineMatch(e, tokens, anchor)) {
-			matched++;
-			continue;
-		}
-		if (targetHeadwordSkeleton(anchor.dataRef) === hostSkeleton) {
-			ownTargets++;
-		}
-	}
-	return { matched, ownTargets };
-}
-
-function reachabilityOf(
-	e: SourceEntry,
-	senses: readonly SourceSense[],
-	hostSkeleton: string,
-): Reachability {
-	let matched = 0;
-	let ownTargets = 0;
-	for (const sense of senses) {
-		if (sense.definition !== undefined) {
-			const here = reachabilityInDefinition(e, sense.definition, hostSkeleton);
-			matched += here.matched;
-			ownTargets += here.ownTargets;
-		}
-		if (sense.senses !== undefined) {
-			const nested = reachabilityOf(e, sense.senses, hostSkeleton);
-			matched += nested.matched;
-			ownTargets += nested.ownTargets;
-		}
-	}
-	return { matched, ownTargets };
-}
-
-it('the raw population is 65 occurrences / 55 entries, corpus-wide', async () => {
-	let occurrences = 0;
-	const rids = new Set<string>();
-	for (const e of await sourceEntries()) {
-		const n = countRaw(e, e.content.senses);
-		occurrences += n;
-		if (n > 0) {
-			rids.add(e.rid);
-		}
-	}
-	expect(occurrences).toBe(65);
-	expect(rids.size).toBe(55);
-}, 30_000);
-
-it('the clean population (the rule’s actual firing set) is 60 occurrences / 50 entries', async () => {
-	let occurrences = 0;
-	const rids = new Set<string>();
-	for (const e of await sourceEntries()) {
-		const n = countClean(e, e.content.senses);
-		occurrences += n;
-		if (n > 0) {
-			rids.add(e.rid);
-		}
-	}
-	expect(occurrences).toBe(60);
-	expect(rids.size).toBe(50);
-}, 30_000);
-
-/** Gate-case-2 reachability: of the clean population, how many
- * OCCURRENCES sit in an entry that carries SOME OTHER anchor whose
- * TARGET-ENTRY IDENTITY is the entry's own headword — the only thing
- * that would license a retarget under spec §3.2 case 2. Measured at
- * 17/60 (28.3%) under `targetHeadwordSkeleton` identity, corrected
- * from an earlier, string-prefix version of this test that measured
- * 10/60 by conflating "starts with the host's headword string" with
- * "targets the host" (see `reachabilityOf`'s doc). The CONCLUSION does
- * not change under the corrected test: 43/60 (71.7%) still have
- * nowhere lawful to point, a majority under both readings, so unlink
- * remains the right repair — see the module doc's "The repair: UNLINK,
- * by measurement". */
-it('retarget is reachable for only 17 of 60 clean occurrences (28.3%) under target-entry identity — still a minority, so unlink is correct', async () => {
-	let total = 0;
-	let reachable = 0;
-	for (const e of await sourceEntries()) {
-		const { matched, ownTargets } = reachabilityOf(
-			e,
-			e.content.senses,
-			skeleton(e.headword),
-		);
-		if (matched === 0) {
-			continue;
-		}
-		total += matched;
-		if (ownTargets > 0) {
-			reachable += matched;
-		}
-	}
-	expect(total).toBe(60);
-	expect(reachable).toBe(17);
-}, 30_000);
 
 it('inCleanPlSpan is exported and agrees with the module doc’s classification', () => {
 	// K00357's variant-reading anchor sits outside the clean span even

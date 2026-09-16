@@ -73,9 +73,11 @@ const HEBREW: string = String.raw`(?:[\u05D0-\u05EA]|\p{Mn})`;
 
 /**
  * Every damaged word the corpus attests a UNIQUE dotted twin for, and
- * that twin. Frozen here because a rule cannot see the corpus;
- * `shin-sin.corpus.test.ts` re-derives the whole table from the live
- * snapshot and fails if it drifts.
+ * that twin. Frozen here because a rule cannot see the corpus; a
+ * corpus check re-derived the whole table from the live snapshot and
+ * would have failed if it drifted. It no longer runs; on a new export
+ * this is a review-detector candidate (consolidation spec §10), listed
+ * in `docs/v2/retired-corpus-checks.md`.
  *
  * 23 rows, 52 occurrences, and no key has a second candidate. Do not
  * add a row by hand: a key with two candidates is a row this rule may

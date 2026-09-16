@@ -1,0 +1,264 @@
+# Retired corpus checks
+
+Every test deleted from the corpus tier by consolidation step 5 (spec
+[§5.1](../specs/2026-09-13-pipeline-consolidation-design.md), §11 step 5).
+Each link opens the test as it stood at `03167f0d`, the last commit
+that ran it. Nothing here runs. All 191 permalinks resolve against
+`v2` history; if that history is ever rewritten, this table's names
+and kinds — not the links — are the durable record.
+
+**Why this list exists.** On the committed source data the nine
+`migrate` gates and the migration report cover what these tests
+pinned. On a *new* export the `derived-table` and `no-defect` rows
+were the only warning, so each one worth keeping becomes a review
+detector that emits report rows with no pinned number (spec §10).
+This is the list that work starts from.
+
+**Correction data citations.** Step 5 did not touch anything under
+`data/` — that constraint is why this note exists rather than a data
+edit. `data/patches/patterns.jsonl` and several files under
+`data/patches/catalogue-audit/` cite tests this file retires; those
+citations stand as written and are now historical, describing what
+was true when the row was reasoned about, not a guard that still
+runs. Enumerated with
+`git grep -a -n -E '[A-Za-z0-9./-]+\.corpus\.test\.ts' -- data/patches`
+(excluding the still-live `commutation`, `registry.order`,
+`residue-sweep` and `implied-one-census` corpus files): 7
+`patterns.jsonl` row ids — `parenthesized-alt-headword`,
+`vkh-geresh-loss`, `holam-migrated-off-mater-vav`, `impossible-dagesh`,
+`binyan-form-leading-space`, `binyan-form-empty-slot`,
+`shin-sin-dot-drop` — and 10 `catalogue-audit/` files —
+`abbrev-headword-stub.md`, `b-h-field-split.md`,
+`batch-3b-withdrawals.md`, `binyan-form-cleanup.md`,
+`geresh-abbrev-arms.md`, `homograph-roman-stranded.md`,
+`ib-yoma-2a.md`, `plural-label-capture.md`,
+`sense-number-closed-grammar.md`, `stranded-stem-head.md`.
+
+Of those, `binyan-form-leading-space` and its twin
+`binyan-form-empty-slot` are the rows step 6 must re-word (spec §8
+already touches `data/patches/`): both are `discarded` on the
+argument that `cleanBinyanForms`
+(`admin/pipeline/body/repairs.ts:445`) already repairs the defect
+upstream of every transform, an argument that rests on
+`body/binyan-cleanup.corpus.test.ts` — now deleted, and nothing tests
+`cleanBinyanForms` any more. The other five rows cite a test that
+measured a number, not a guard their disposition depends on, so they
+are lower priority. In general: a citation in `patterns.jsonl` or
+`catalogue-audit/` resolving to a test in the table below means the
+guard it named is a review-detector candidate (spec §10) — it does
+not mean the defect the row describes has returned; the entry data
+still carries whatever `migrate`'s gates and report cover today.
+
+**Highest priority.** The three `body/deletion-baseline.corpus.test.ts`
+rows below pinned the per-rule deleted-codepoint counts for the thirteen
+`text-repairs` rules that delete text (totaling 4,573 deleted codepoints).
+`checkNoLostText` (`transform/no-lost-text.ts`) is wired for
+`structural-repairs` only, and `migrate`'s `checkTextConservation`
+compares the composed body against the finished entry rather than per
+rule, so of everything in this table these three are the review detector
+to write first: without it a fourteenth deleting `text-repairs` rule now
+passes every gate and every test unremarked.
+
+| Kind | Meaning |
+|---|---|
+| `count` | asserts a number, or a rid list, measured on one export |
+| `derived-table` | re-derives a hand-kept table from the export and requires it unchanged |
+| `no-defect` | asserts a rule creates, loses or leaves no defect across the export |
+| `order` | shows two rules disagree by order; a static direction pin replaces it |
+| `other` | not yet read; none may remain when this file is committed |
+
+191 tests: 125 count, 17 derived-table, 48 no-defect, 1 order.
+
+| Test | Kind |
+|---|---|
+| [`body/binyan-cleanup.corpus.test.ts:199`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/binyan-cleanup.corpus.test.ts#L199-L208) reproduces both discarded rows at their catalogued size | count |
+| [`body/binyan-cleanup.corpus.test.ts:212`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/binyan-cleanup.corpus.test.ts#L212-L214) finds no leading space at index 0 | no-defect |
+| [`body/binyan-cleanup.corpus.test.ts:220`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/binyan-cleanup.corpus.test.ts#L220-L224) finds no trailing whitespace to trim | no-defect |
+| [`body/binyan-cleanup.corpus.test.ts:229`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/binyan-cleanup.corpus.test.ts#L229-L233) leaves neither defect for a transform to own | no-defect |
+| [`body/binyan-cleanup.corpus.test.ts:238`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/binyan-cleanup.corpus.test.ts#L238-L242) emits one binyan-cleanup record per repaired sense | count |
+| [`body/deletion-baseline.corpus.test.ts:148`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/deletion-baseline.corpus.test.ts#L148-L151) finds exactly the thirteen text-repairs rules that delete text | derived-table |
+| [`body/deletion-baseline.corpus.test.ts:153`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/deletion-baseline.corpus.test.ts#L153-L160) holds each of them at its measured deletion | derived-table |
+| [`body/deletion-baseline.corpus.test.ts:164`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/deletion-baseline.corpus.test.ts#L164-L171) totals 4,573 deleted codepoints | count |
+| [`body/labels.corpus.test.ts:134`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/labels.corpus.test.ts#L134-L149) parseLabel/printLabel corpus sweep > round-trips or quarantines every distinct sense.number value in the corpus | derived-table |
+| [`body/pipeline-links.corpus.test.ts:280`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/pipeline-links.corpus.test.ts#L280-L301) the pipeline preserves and repairs link targets > gains exactly 90 resolving targets and loses none | no-defect |
+| [`body/pipeline-links.corpus.test.ts:303`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/pipeline-links.corpus.test.ts#L303-L356) the pipeline preserves and repairs link targets > leaves no escaped quote in the corpus, and one spelling per address | no-defect |
+| [`body/pipeline-links.corpus.test.ts:391`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/pipeline-links.corpus.test.ts#L391-L422) the pipeline preserves and repairs link targets > gives 391 primaries a halakha and loses no address | no-defect |
+| [`body/pipeline-links.corpus.test.ts:424`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/pipeline-links.corpus.test.ts#L424-L448) the pipeline preserves and repairs link targets > gives every repaired orphan refs item an in-body basis | count |
+| [`migrate/gates.corpus.test.ts:220`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/migrate/gates.corpus.test.ts#L220-L358) pins every migration gate at corpus scale | count |
+| [`migrate/headword.corpus.test.ts:34`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/migrate/headword.corpus.test.ts#L34-L55) round-trips every headword and alt, and pins the review list | count |
+| [`patch/apply.corpus.test.ts:81`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/patch/apply.corpus.test.ts#L81-L123) loads and consolidates the accepted (healed-stage) corpus, applying it cleanly | count |
+| [`patch/apply.corpus.test.ts:125`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/patch/apply.corpus.test.ts#L125-L165) carry-over: absorbed patches are dropped, unabsorbed patches carry and apply cleanly (Ruling F) | count |
+| [`patch/apply.corpus.test.ts:167`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/patch/apply.corpus.test.ts#L167-L170) pins the raw (every-stage) corpus and manifest counts | count |
+| [`transform/abbrev-vocab.corpus.test.ts:55`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/abbrev-vocab.corpus.test.ts#L55-L67) abbreviation vocabulary > re-derives from the pinned snapshot unchanged | derived-table |
+| [`transform/links.corpus.test.ts:62`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/links.corpus.test.ts#L62-L91) widening the value class only ever ADDS a value — 452, none changed, none lost | count |
+| [`transform/links.corpus.test.ts:98`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/links.corpus.test.ts#L98-L113) every attribute value in the corpus is double-quoted — 340,360 of them | count |
+| [`transform/links.corpus.test.ts:127`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/links.corpus.test.ts#L127-L148) an anchor tag carries only class, href, data-ref and dir — and one of each | count |
+| [`transform/rules/anaphora-mint.corpus.test.ts:92`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora-mint.corpus.test.ts#L92-L101) the population is 2,819 occurrences across 2,179 entries | count |
+| [`transform/rules/anaphora-mint.corpus.test.ts:103`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora-mint.corpus.test.ts#L103-L128) every one of them is in a sense definition and nowhere else | no-defect |
+| [`transform/rules/anaphora-mint.corpus.test.ts:130`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora-mint.corpus.test.ts#L130-L161) mints 2,118 alone and 2,119 at its registry position | count |
+| [`transform/rules/anaphora-mint.corpus.test.ts:163`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora-mint.corpus.test.ts#L163-L178) the phase arithmetic closes to the digit | count |
+| [`transform/rules/anaphora-mint.corpus.test.ts:180`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora-mint.corpus.test.ts#L180-L206) clears all three gates on every entry it touches | no-defect |
+| [`transform/rules/anaphora-mint.corpus.test.ts:208`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora-mint.corpus.test.ts#L208-L239) writes no target the entry did not already hold | no-defect |
+| [`transform/rules/anaphora.corpus.test.ts:356`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L356-L360) the population is 312 occurrences / 274 entries, reproducing the catalogued corpusCount to the occurrence | count |
+| [`transform/rules/anaphora.corpus.test.ts:362`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L362-L373) the decline census accounts for all 312: 209 fire, 103 decline (23 + 2 + 15 + 63) | count |
+| [`transform/rules/anaphora.corpus.test.ts:386`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L386-L404) the rule moves exactly those 209 anchors, and adds or removes none, over the whole corpus | no-defect |
+| [`transform/rules/anaphora.corpus.test.ts:420`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L420-L436) every bare anaphor with a Jerusalem Talmud antecedent lands on Yoma 2a — all 259, no exception | count |
+| [`transform/rules/anaphora.corpus.test.ts:452`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L452-L470) the control agrees with the antecedent in 997 of 1,880 outside the population | count |
+| [`transform/rules/anaphora.corpus.test.ts:487`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L487-L517) the omitted position-marker cue would trip 178 of the 272 gaps and cost 133 of the 209 fires | count |
+| [`transform/rules/anaphora.corpus.test.ts:537`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L537-L556) 0 of the 312 carry a locus the display or its following text could supply | count |
+| [`transform/rules/anaphora.corpus.test.ts:766`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L766-L770) the Sifré population is 6 occurrences / 6 entries — one more than the catalogued 5 | count |
+| [`transform/rules/anaphora.corpus.test.ts:772`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L772-L779) all 6 land on Yalkut and none on a Sifré work — the row’s null model, refuted | count |
+| [`transform/rules/anaphora.corpus.test.ts:781`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L781-L785) the Sifré decline census accounts for all 6: 1 fires, 5 hold no Sifré anchor | count |
+| [`transform/rules/anaphora.corpus.test.ts:787`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L787-L801) the rule itself moves exactly that 1 anchor over the whole corpus, adding and removing none | no-defect |
+| [`transform/rules/anaphora.corpus.test.ts:808`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L808-L826) every Sifr… target in the corpus starts with SIFRE_WORK | derived-table |
+| [`transform/rules/anaphora.corpus.test.ts:871`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L871-L878) every Sifré compose the corpus produces passes checkLinkTargets | no-defect |
+| [`transform/rules/anaphora.corpus.test.ts:1150`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L1150-L1154) the Targum population is 9 occurrences / 8 entries, reproducing the catalogued count | count |
+| [`transform/rules/anaphora.corpus.test.ts:1156`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L1156-L1171) the Targum census accounts for all 9: 9 fire, 0 decline | count |
+| [`transform/rules/anaphora.corpus.test.ts:1173`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L1173-L1190) 8 of the 9 name a different book from their antecedent — the row’s null model | count |
+| [`transform/rules/anaphora.corpus.test.ts:1192`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L1192-L1206) the rule moves exactly those 9 anchors corpus-wide, adding and removing none | no-defect |
+| [`transform/rules/anaphora.corpus.test.ts:1208`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L1208-L1215) every Targum recombination the corpus produces passes checkLinkTargets | no-defect |
+| [`transform/rules/anaphora.corpus.test.ts:1220`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L1220-L1240) every Targum target in the corpus starts with one of TARGUM_WORKS | derived-table |
+| [`transform/rules/anaphora.corpus.test.ts:1291`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L1291-L1315) tolerate is vacuous for ib-yoma-2a — no member skips a usable citation | count |
+| [`transform/rules/anaphora.corpus.test.ts:1317`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L1317-L1343) the Targum arm skips exactly one anchor corpus-wide, and it is a row member | count |
+| [`transform/rules/anaphora.corpus.test.ts:1345`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/anaphora.corpus.test.ts#L1345-L1382) the Targum population’s 0 declines is partly definitional — 77 of 86 fall outside it | count |
+| [`transform/rules/continuation-marker.corpus.test.ts:99`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/continuation-marker.corpus.test.ts#L99-L101) measures the whole corpus | count |
+| [`transform/rules/continuation-marker.corpus.test.ts:113`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/continuation-marker.corpus.test.ts#L113-L123) splits the dashless markers into their four arms | count |
+| [`transform/rules/continuation-marker.corpus.test.ts:128`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/continuation-marker.corpus.test.ts#L128-L136) ships the 14 witnessed and leaves the 22 unwitnessed | count |
+| [`transform/rules/continuation-marker.corpus.test.ts:143`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/continuation-marker.corpus.test.ts#L143-L151) reproduces four of the six named examples, and not the two bracket ones | count |
+| [`transform/rules/continuation-marker.corpus.test.ts:155`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/continuation-marker.corpus.test.ts#L155-L165) declares one copied dash per repair, always witnessed | no-defect |
+| [`transform/rules/duplication.corpus.test.ts:101`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L101-L103) measures the whole corpus | count |
+| [`transform/rules/duplication.corpus.test.ts:110`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L110-L118) repairs 88 opening runs across 85 entries | count |
+| [`transform/rules/duplication.corpus.test.ts:121`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L121-L128) repairs 65 adjacent runs across 65 entries | count |
+| [`transform/rules/duplication.corpus.test.ts:142`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L142-L153) repairs 89 composed, one more than it can find alone | count |
+| [`transform/rules/duplication.corpus.test.ts:163`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L163-L182) accounts for the catalogued 59 as the members under a 120-char cap | count |
+| [`transform/rules/duplication.corpus.test.ts:186`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L186-L189) declares every anchor it removes | count |
+| [`transform/rules/duplication.corpus.test.ts:197`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L197-L206) shares exactly one entry, whose two runs are different | count |
+| [`transform/rules/duplication.corpus.test.ts:208`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/duplication.corpus.test.ts#L208-L217) composes to the same entry in either order on that entry | no-defect |
+| [`transform/rules/edge-trim.corpus.test.ts:233`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/edge-trim.corpus.test.ts#L233-L244) corpus tier: emphasisRunEdgeSpace is Class C — a defect-count delta > reproduces the catalogued population and collapses 176 of 179 rendered doubled spaces | count |
+| [`transform/rules/edge-trim.corpus.test.ts:252`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/edge-trim.corpus.test.ts#L252-L256) corpus tier: emphasisRunEdgeSpace is Class C — a defect-count delta > leaves the literal doubled-space population untouched | count |
+| [`transform/rules/edge-trim.corpus.test.ts:265`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/edge-trim.corpus.test.ts#L265-L269) corpus tier: the two field edges emphasisRunEdgeSpace touches > creates no new field-trailing whitespace for the other rule to find | no-defect |
+| [`transform/rules/edge-trim.corpus.test.ts:283`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/edge-trim.corpus.test.ts#L283-L287) corpus tier: the two field edges emphasisRunEdgeSpace touches > moves exactly 20 spaces onto a field’s leading edge | count |
+| [`transform/rules/edge-trim.corpus.test.ts:297`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/edge-trim.corpus.test.ts#L297-L304) corpus tier: the two field edges emphasisRunEdgeSpace touches > destroys no word boundary — collapsed rendered text is identical | no-defect |
+| [`transform/rules/edge-trim.corpus.test.ts:314`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/edge-trim.corpus.test.ts#L314-L318) corpus tier: the ordering fact Task 7 must act on > hands italicGlossPeriodOutside 11 entries it could not previously see | count |
+| [`transform/rules/edge-trim.corpus.test.ts:322`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/edge-trim.corpus.test.ts#L322-L332) corpus tier: trailingWhitespaceDefinition is the position filter > reports 10 entries — not the flat walk’s 8, and not the audit’s forbidden 2,352 | count |
+| [`transform/rules/geresh-apostrophe.corpus.test.ts:52`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/geresh-apostrophe.corpus.test.ts#L52-L62) the population is 25 occurrences across 20 entries | count |
+| [`transform/rules/geresh-apostrophe.corpus.test.ts:64`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/geresh-apostrophe.corpus.test.ts#L64-L78) both scoping clauses are free today, and the module says so | count |
+| [`transform/rules/geresh-apostrophe.corpus.test.ts:80`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/geresh-apostrophe.corpus.test.ts#L80-L106) the rule takes all 25, and the composed phase leaves none | no-defect |
+| [`transform/rules/geresh-apostrophe.corpus.test.ts:108`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/geresh-apostrophe.corpus.test.ts#L108-L145) the ambient geresh is untouched, and the delta is attributable | count |
+| [`transform/rules/geresh.corpus.test.ts:282`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/geresh.corpus.test.ts#L282-L296) matches the measured corpus population, both arms | count |
+| [`transform/rules/geresh.corpus.test.ts:304`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/geresh.corpus.test.ts#L304-L317) unlinks every member of both populations | count |
+| [`transform/rules/gershayim.corpus.test.ts:313`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/gershayim.corpus.test.ts#L313-L350) the corpus splits exactly as the spec measures it | count |
+| [`transform/rules/gershayim.corpus.test.ts:356`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/gershayim.corpus.test.ts#L356-L362) the input corpus holds no gershayim of its own | no-defect |
+| [`transform/rules/gershayim.corpus.test.ts:436`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/gershayim.corpus.test.ts#L436-L508) exactly 90 link targets start resolving, and none stop | count |
+| [`transform/rules/gershayim.corpus.test.ts:522`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/gershayim.corpus.test.ts#L522-L539) the pair is order-free against itself, over the whole corpus | no-defect |
+| [`transform/rules/gershayim.corpus.test.ts:560`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/gershayim.corpus.test.ts#L560-L585) the pair is order-free against the rtl trio | no-defect |
+| [`transform/rules/gloss-head-rejoin.corpus.test.ts:138`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/gloss-head-rejoin.corpus.test.ts#L138-L145) finds exactly the four the catalogue names | count |
+| [`transform/rules/gloss-head-rejoin.corpus.test.ts:151`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/gloss-head-rejoin.corpus.test.ts#L151-L159) reads "b. h." contiguously in the BUILT body, all four | derived-table |
+| [`transform/rules/gloss-head-rejoin.corpus.test.ts:164`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/gloss-head-rejoin.corpus.test.ts#L164-L171) rejoins the two fragments contiguously in the gloss head | derived-table |
+| [`transform/rules/gloss-head-rejoin.corpus.test.ts:177`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/gloss-head-rejoin.corpus.test.ts#L177-L184) reads only two under the narrower "= b." predicate | count |
+| [`transform/rules/headword.corpus.test.ts:53`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L53-L77) reproduces every batch-5 catalogued count | count |
+| [`transform/rules/headword.corpus.test.ts:83`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L83-L93) derives the headword-stub count as a stated subtraction | count |
+| [`transform/rules/headword.corpus.test.ts:107`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L107-L123) excludes Roman homograph marks, and records what that excludes | count |
+| [`transform/rules/headword.corpus.test.ts:134`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L134-L158) partitions the 654 paren occurrences into seven shapes | count |
+| [`transform/rules/headword.corpus.test.ts:172`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L172-L188) pairs 69 of 84 open-only items with a later close | count |
+| [`transform/rules/headword.corpus.test.ts:203`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L203-L216) stripping parens creates no duplicate and empties no item | no-defect |
+| [`transform/rules/headword.corpus.test.ts:228`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L228-L236) every starred alt-headword also carries parens, all 18 | count |
+| [`transform/rules/headword.corpus.test.ts:268`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L268-L289) repairs 652 paren occurrences and refuses exactly two | count |
+| [`transform/rules/headword.corpus.test.ts:315`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L315-L340) creates no duplicate and empties no item, on the rule output | no-defect |
+| [`transform/rules/headword.corpus.test.ts:356`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L356-L389) expands 235 phrase stubs alone, refusing nine | count |
+| [`transform/rules/headword.corpus.test.ts:410`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L410-L433) the paren rule must run first, and the orders disagree | order |
+| [`transform/rules/headword.corpus.test.ts:447`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L447-L486) repairs 4 fused headwords and 22 duplicate arrays | count |
+| [`transform/rules/headword.corpus.test.ts:500`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L500-L526) leaves exactly 8 stale prev_hw/next_hw pointers | count |
+| [`transform/rules/headword.corpus.test.ts:539`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/headword.corpus.test.ts#L539-L560) the linked-headword allowlist is exactly what the corpus targets | derived-table |
+| [`transform/rules/holam-mater.corpus.test.ts:72`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/holam-mater.corpus.test.ts#L72-L83) reproduces the row at 1,007 raw and 565 the reader can see | count |
+| [`transform/rules/holam-mater.corpus.test.ts:89`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/holam-mater.corpus.test.ts#L89-L101) measures the defect against 43,664 correct holam males | count |
+| [`transform/rules/holam-mater.corpus.test.ts:107`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/holam-mater.corpus.test.ts#L107-L123) leaves exactly one migrated holam, and it is the refused headword | count |
+| [`transform/rules/holam-mater.corpus.test.ts:128`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/holam-mater.corpus.test.ts#L128-L137) leaves all 32,512 headwords distinct | count |
+| [`transform/rules/holam-mater.corpus.test.ts:147`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/holam-mater.corpus.test.ts#L147-L160) names every headword whose repair would collide, and there is one | count |
+| [`transform/rules/holam-mater.corpus.test.ts:169`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/holam-mater.corpus.test.ts#L169-L197) leaves 25 unresolved internal anchors over 6 distinct targets | count |
+| [`transform/rules/impossible-dagesh.corpus.test.ts:57`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/impossible-dagesh.corpus.test.ts#L57-L70) reproduces the impossible-dagesh row at 19 over 17 entries | count |
+| [`transform/rules/impossible-dagesh.corpus.test.ts:75`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/impossible-dagesh.corpus.test.ts#L75-L81) finds no dagesh at all on aleph or ayin | no-defect |
+| [`transform/rules/impossible-dagesh.corpus.test.ts:95`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/impossible-dagesh.corpus.test.ts#L95-L102) leaves all 1,052 mappiqs standing and adds exactly three | count |
+| [`transform/rules/impossible-dagesh.corpus.test.ts:109`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/impossible-dagesh.corpus.test.ts#L109-L132) corrects 13 and leaves the 6 the mark does not determine | count |
+| [`transform/rules/impossible-dagesh.corpus.test.ts:134`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/impossible-dagesh.corpus.test.ts#L134-L145) reproduces the vkh row at 11 against 17,254 correct | count |
+| [`transform/rules/impossible-dagesh.corpus.test.ts:150`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/impossible-dagesh.corpus.test.ts#L150-L158) restores all 11 geresh and grows the correct population by 11 | count |
+| [`transform/rules/italic-paren.corpus.test.ts:248`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/italic-paren.corpus.test.ts#L248-L260) corpus tier: italicSwallowsCloseParen is a defect-count delta > reproduces the catalogued 10 and takes the shipped 8 to zero | count |
+| [`transform/rules/italic-paren.corpus.test.ts:262`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/italic-paren.corpus.test.ts#L262-L269) corpus tier: italicSwallowsCloseParen is a defect-count delta > leaves exactly the two lettered sub-sense markers standing | count |
+| [`transform/rules/italic-paren.corpus.test.ts:279`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/italic-paren.corpus.test.ts#L279-L285) corpus tier: the row’s own falsifier > finds no italic run anywhere with a surplus open paren | count |
+| [`transform/rules/italic-paren.corpus.test.ts:295`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/italic-paren.corpus.test.ts#L295-L299) corpus tier: the three populations this rule must NOT change > changes the rendered text of none of its 8 entries | count |
+| [`transform/rules/italic-paren.corpus.test.ts:305`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/italic-paren.corpus.test.ts#L305-L309) corpus tier: the three populations this rule must NOT change > creates no new emphasis-run-edge-space member | no-defect |
+| [`transform/rules/italic-paren.corpus.test.ts:318`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/italic-paren.corpus.test.ts#L318-L328) corpus tier: the three populations this rule must NOT change > creates no new paren-tag-no-space seam | no-defect |
+| [`transform/rules/italic-period.corpus.test.ts:283`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/italic-period.corpus.test.ts#L283-L309) corpus tier: the Class A invariant > changes no field’s text on any entry either rule touches | no-defect |
+| [`transform/rules/malformed-href.corpus.test.ts:99`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/malformed-href.corpus.test.ts#L99-L101) unterminatedHref over the corpus > fires on exactly D00478 and J00597, and on no other entry | count |
+| [`transform/rules/malformed-href.corpus.test.ts:113`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/malformed-href.corpus.test.ts#L113-L130) unterminatedHref over the corpus > clears both entries of malformed and interior anchors | no-defect |
+| [`transform/rules/malformed-href.corpus.test.ts:132`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/malformed-href.corpus.test.ts#L132-L141) unterminatedHref over the corpus > passes the text and markup gates on both entries with no allowance | no-defect |
+| [`transform/rules/malformed-href.corpus.test.ts:152`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/malformed-href.corpus.test.ts#L152-L161) unterminatedHref over the corpus > is licensed by the link-target gate on both entries | no-defect |
+| [`transform/rules/malformed-href.corpus.test.ts:170`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/malformed-href.corpus.test.ts#L170-L214) unterminatedHref over the corpus > D00478’s licence is the claim, and goes with it | count |
+| [`transform/rules/malformed-href.corpus.test.ts:224`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/malformed-href.corpus.test.ts#L224-L231) unterminatedHref over the corpus > J00597 declares nothing, and clause 2 would not license it | count |
+| [`transform/rules/misc-links.corpus.test.ts:327`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/misc-links.corpus.test.ts#L327-L352) the population is exactly 12 occurrences across 12 entries, corpus-wide | count |
+| [`transform/rules/misc-links.corpus.test.ts:472`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/misc-links.corpus.test.ts#L472-L484) the raw population is 65 occurrences / 55 entries, corpus-wide | count |
+| [`transform/rules/misc-links.corpus.test.ts:486`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/misc-links.corpus.test.ts#L486-L498) the clean population (the rule’s actual firing set) is 60 occurrences / 50 entries | count |
+| [`transform/rules/misc-links.corpus.test.ts:512`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/misc-links.corpus.test.ts#L512-L531) retarget is reachable for only 17 of 60 clean occurrences (28.3%) under target-entry identity — still a minority, so unlink is correct | count |
+| [`transform/rules/nested-anchor.corpus.test.ts:161`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/nested-anchor.corpus.test.ts#L161-L265) corpus tier > reproduces both rows and loses no trapped text | no-defect |
+| [`transform/rules/nested-anchor.corpus.test.ts:274`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/nested-anchor.corpus.test.ts#L274-L291) corpus tier > passes all three gates on every entry either rule touches | no-defect |
+| [`transform/rules/paren-boundary.corpus.test.ts:251`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/paren-boundary.corpus.test.ts#L251-L284) corpus tier > all three rows reproduce, and no link is lost | count |
+| [`transform/rules/plural-capture.corpus.test.ts:210`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/plural-capture.corpus.test.ts#L210-L218) every declared plural survives into the built body | no-defect |
+| [`transform/rules/plural-capture.corpus.test.ts:236`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/plural-capture.corpus.test.ts#L236-L243) flags 522 entries, not the catalogued 358 | count |
+| [`transform/rules/plural-capture.corpus.test.ts:273`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/plural-capture.corpus.test.ts#L273-L281) is an absent or empty array, and a blank-string slot exactly once | count |
+| [`transform/rules/punct-seams.corpus.test.ts:325`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/punct-seams.corpus.test.ts#L325-L331) corpus tier: italicLonePunctuation is still Class A > changes no field’s text on any entry it touches | no-defect |
+| [`transform/rules/punct-seams.corpus.test.ts:335`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/punct-seams.corpus.test.ts#L335-L341) corpus tier: emDashSectionBreak is Class C — a defect-count delta, not an invariant > the rendered spaced em-dash population (both shapes) goes 278 before to 0 after | count |
+| [`transform/rules/punct-seams.corpus.test.ts:352`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/punct-seams.corpus.test.ts#L352-L361) corpus tier: emDashSectionBreak is Class C — a defect-count delta, not an invariant > creates zero new instances of the tight-dash-then-space shape | no-defect |
+| [`transform/rules/punct-seams.corpus.test.ts:369`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/punct-seams.corpus.test.ts#L369-L373) corpus tier: emDashSectionBreak is Class C — a defect-count delta, not an invariant > at entry granularity, 23 of 270 still get touched elsewhere by italicGlossPeriodOutside | count |
+| [`transform/rules/seam-space.corpus.test.ts:130`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/seam-space.corpus.test.ts#L130-L137) the seam rules over the whole corpus > no rule creates a rendered space before punctuation | no-defect |
+| [`transform/rules/seam-space.corpus.test.ts:143`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/seam-space.corpus.test.ts#L143-L159) the seam rules over the whole corpus > each rule reproduces its written-back population | count |
+| [`transform/rules/section-break.corpus.test.ts:55`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/section-break.corpus.test.ts#L55-L57) measures the whole corpus | count |
+| [`transform/rules/section-break.corpus.test.ts:62`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/section-break.corpus.test.ts#L62-L68) reproduces the convention and all four falsifier controls | count |
+| [`transform/rules/section-break.corpus.test.ts:74`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/section-break.corpus.test.ts#L74-L77) leaves the quotation-closers and ellipses outside the population | count |
+| [`transform/rules/section-break.corpus.test.ts:79`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/section-break.corpus.test.ts#L79-L98) repairs 11, one above the catalogued 10 | count |
+| [`transform/rules/section-break.corpus.test.ts:106`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/section-break.corpus.test.ts#L106-L130) never writes the period inside a tag | no-defect |
+| [`transform/rules/see-particle.corpus.test.ts:183`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/see-particle.corpus.test.ts#L183-L190) takes exactly the four entries the catalogue names | count |
+| [`transform/rules/see-particle.corpus.test.ts:193`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/see-particle.corpus.test.ts#L193-L202) fills a slot that is populated 7,270 times and empty 4 | count |
+| [`transform/rules/see-particle.corpus.test.ts:208`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/see-particle.corpus.test.ts#L208-L219) finds a retained vocabulary, not a single normalised value | derived-table |
+| [`transform/rules/see-particle.corpus.test.ts:224`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/see-particle.corpus.test.ts#L224-L231) refuses the 14 child senses carrying the same string shape | count |
+| [`transform/rules/see-particle.corpus.test.ts:241`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/see-particle.corpus.test.ts#L241-L265) writes the particle outside the anchor on all four | no-defect |
+| [`transform/rules/see-particle.corpus.test.ts:280`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/see-particle.corpus.test.ts#L280-L297) leaves its own output stub-shaped, which is what makes the filter sound | no-defect |
+| [`transform/rules/sense-marker.corpus.test.ts:184`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L184-L186) measures the whole corpus | count |
+| [`transform/rules/sense-marker.corpus.test.ts:190`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L190-L193) reproduces 132 senses / 130 entries under the published predicate | count |
+| [`transform/rules/sense-marker.corpus.test.ts:197`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L197-L201) finds the dash before 101 of the 107 starred markers | count |
+| [`transform/rules/sense-marker.corpus.test.ts:205`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L205-L212) leaves 31 tails with no starred successor, in three shapes | count |
+| [`transform/rules/sense-marker.corpus.test.ts:216`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L216-L219) finds 6 quarantined tokens raw and 0 after applyRepairs | count |
+| [`transform/rules/sense-marker.corpus.test.ts:221`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L221-L233) parses every starred marker rather than quarantining it | derived-table |
+| [`transform/rules/sense-marker.corpus.test.ts:235`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L235-L244) re-scopes the row to its 6 residual markers | count |
+| [`transform/rules/sense-marker.corpus.test.ts:248`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L248-L251) writes a marker the corpus does not already hold | count |
+| [`transform/rules/sense-marker.corpus.test.ts:261`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L261-L267) splits the two spellings exactly by successor | count |
+| [`transform/rules/sense-marker.corpus.test.ts:299`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L299-L317) leaves the two rows’ remainders disjoint, at 0 shared entries | count |
+| [`transform/rules/sense-marker.corpus.test.ts:321`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/sense-marker.corpus.test.ts#L321-L327) records 101 repairs and no more | count |
+| [`transform/rules/shin-sin.corpus.test.ts:77`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/shin-sin.corpus.test.ts#L77-L95) rebuilds all 23 frozen rows from the live snapshot | derived-table |
+| [`transform/rules/shin-sin.corpus.test.ts:103`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/shin-sin.corpus.test.ts#L103-L118) finds no damaged word with a second attested twin | no-defect |
+| [`transform/rules/shin-sin.corpus.test.ts:128`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/shin-sin.corpus.test.ts#L128-L151) measures 102 bare against 32,014 dotted at the pointed comparator | count |
+| [`transform/rules/shin-sin.corpus.test.ts:161`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/shin-sin.corpus.test.ts#L161-L182) repairs 26 of 64 reader-visible occurrences and leaves 38 witnessed by nothing | count |
+| [`transform/rules/stem-section.corpus.test.ts:323`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem-section.corpus.test.ts#L323-L349) derives its 45 labels from the corpus verbal_stem field | derived-table |
+| [`transform/rules/stem-section.corpus.test.ts:354`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem-section.corpus.test.ts#L354-L367) reproduces the population raw, repaired and composed | count |
+| [`transform/rules/stem-section.corpus.test.ts:372`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem-section.corpus.test.ts#L372-L383) attributes the whole raw-to-composed gap to label-period-outside-italic | count |
+| [`transform/rules/stem-section.corpus.test.ts:385`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem-section.corpus.test.ts#L385-L408) repairs 436 of the 561 and refuses the rest by the predicate | count |
+| [`transform/rules/stem-section.corpus.test.ts:412`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem-section.corpus.test.ts#L412-L415) mints no stem name the entry already carries | no-defect |
+| [`transform/rules/stem-section.corpus.test.ts:421`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem-section.corpus.test.ts#L421-L427) leaves an anchor-borne form in the prose for 230 of the 436 | count |
+| [`transform/rules/stem-section.corpus.test.ts:432`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem-section.corpus.test.ts#L432-L437) invents nothing and loses only seam punctuation in the built body | no-defect |
+| [`transform/rules/stem.corpus.test.ts:236`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem.corpus.test.ts#L236-L241) reproduces the chopped-marker population the phase receives | count |
+| [`transform/rules/stem.corpus.test.ts:243`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem.corpus.test.ts#L243-L248) repairs every empty-residue member and no other | count |
+| [`transform/rules/stem.corpus.test.ts:253`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem.corpus.test.ts#L253-L256) leaves every residue-bearing member exactly as it found it | count |
+| [`transform/rules/stem.corpus.test.ts:263`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem.corpus.test.ts#L263-L269) adds exactly 18 sense markers, and writes them nowhere else | count |
+| [`transform/rules/stem.corpus.test.ts:271`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem.corpus.test.ts#L271-L275) repairs the three stray-period stem labels | count |
+| [`transform/rules/stem.corpus.test.ts:281`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stem.corpus.test.ts#L281-L285) leaves all 66 non-binyan labels untouched | count |
+| [`transform/rules/stranded-tail.corpus.test.ts:241`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/stranded-tail.corpus.test.ts#L241-L278) corpus tier > both rows reproduce; the superscript row is T/U/V only, and neither regresses markup, anchor count, or anchor tag bytes | count |
+| [`transform/rules/unlink-nesting.corpus.test.ts:73`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/unlink-nesting.corpus.test.ts#L73-L94) keeps every rewritten definition tag-balanced corpus-wide | no-defect |
+| [`transform/rules/unlink-scope.corpus.test.ts:91`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/unlink-scope.corpus.test.ts#L91-L104) every population built on unlinkOverDefinitions lives wholly in senses[].definition | no-defect |
+| [`transform/rules/unlink.corpus.test.ts:265`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/unlink.corpus.test.ts#L265-L272) observes every ellipsis-fragment convention exclusion in the corpus | derived-table |
+| [`transform/rules/v-sub-twin.corpus.test.ts:137`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/v-sub-twin.corpus.test.ts#L137-L146) vSubRedirectTwin over the corpus > the frozen table is what the live snapshot derives | derived-table |
+| [`transform/rules/v-sub-twin.corpus.test.ts:148`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/v-sub-twin.corpus.test.ts#L148-L159) vSubRedirectTwin over the corpus > EVERY DECLARED TWIN EXISTS — the gate cannot check this | derived-table |
+| [`transform/rules/v-sub-twin.corpus.test.ts:161`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/v-sub-twin.corpus.test.ts#L161-L172) vSubRedirectTwin over the corpus > every host exists and carries the headword the twin test used | derived-table |
+| [`transform/rules/v-sub-twin.corpus.test.ts:174`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/v-sub-twin.corpus.test.ts#L174-L199) vSubRedirectTwin over the corpus > RESIDUE IS ZERO — one candidate per repair, not merely one chosen | no-defect |
+| [`transform/rules/v-sub-twin.corpus.test.ts:201`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/v-sub-twin.corpus.test.ts#L201-L221) vSubRedirectTwin over the corpus > THE PREFIX ALONE WOULD NOT — clause 3 is doing the work | count |
+| [`transform/rules/v-sub-twin.corpus.test.ts:223`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/v-sub-twin.corpus.test.ts#L223-L232) vSubRedirectTwin over the corpus > repairs 50 entries and touches nothing else | count |
+| [`transform/rules/v-sub-twin.corpus.test.ts:234`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/v-sub-twin.corpus.test.ts#L234-L261) vSubRedirectTwin over the corpus > every written target and href carries sense index 1 | no-defect |
+| [`transform/rules/v-sub-twin.corpus.test.ts:263`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/transform/rules/v-sub-twin.corpus.test.ts#L263-L283) vSubRedirectTwin over the corpus > finds nothing left to do once its own phase has run | no-defect |

@@ -116,8 +116,9 @@ describe('registry coverage', () => {
 	//   since the 06 decision. Measured over all 32,512 entries: 523 → 0
 	//   and 486 → 0. A rule for either would have repaired nothing while
 	//   its row claimed hundreds. Ruled by Brian 2026-08-28. See
-	//   data/patches/catalogue-audit/binyan-form-cleanup.md, and
-	//   `body/binyan-cleanup.corpus.test.ts` for the standing gate.
+	//   data/patches/catalogue-audit/binyan-form-cleanup.md; the
+	//   standing gate for this was retired in consolidation step 5
+	//   (`docs/v2/retired-corpus-checks.md`).
 	// - `empty-stem-section` (347 sections / 342 ent), batch 6b — 69 to
 	//   68, and it failed none of the three tests above. It failed a
 	//   fourth: there is nothing to repair. The label and the form both
@@ -310,7 +311,7 @@ describe('checkAdjacency', () => {
 });
 
 /**
- * `entangledClusters` is what `registry.order.corpus.test.ts` asserts the
+ * `entangledClusters` is what `registry.order.test.ts` asserts the
  * live clusters against, so its two failure modes are unit-tested here
  * on synthetic input rather than only exercised through the real
  * catalogue.
@@ -479,7 +480,7 @@ describe('entangledClusters', () => {
  * entanglement touching the registry must produce a validated cluster
  * or a reported problem, never silence.
  *
- * `registry.order.corpus.test.ts` runs this against the live catalogue, where
+ * `registry.order.test.ts` runs this against the live catalogue, where
  * it is currently empty. These four cases are what make that empty
  * result mean something.
  */

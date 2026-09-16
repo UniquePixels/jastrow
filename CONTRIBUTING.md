@@ -71,24 +71,29 @@ All commits must include a sign-off line (`git commit -s`).
 
 ## Tests
 
-Tests run in two tiers, split by filename:
+`bun qa` runs every unit test (`*.test.ts`) in about two seconds, most
+of it validating every entry data file. CI's `Test` job runs the same
+set, and never reads the source data in `data/source/`.
 
-| Tier | Files | Command | Cost |
-|---|---|---|---|
-| Unit | `*.test.ts` | `bun qa:test` | ~2 seconds (most of it validating every truth file) |
-| Corpus | `*.corpus.test.ts` | `bun run audit:corpus` | ~7–8 minutes |
+Two checks of rule *code* need the whole source snapshot and take
+several minutes, so they run on your machine rather than in CI:
 
-The corpus tier streams the whole 41 MB source snapshot and runs the
-transform pipeline over it, so it is a separate CI job (`Corpus Audit`)
-rather than part of `Test`. `bun qa` runs the unit tier only; run
-`bun run audit:corpus` yourself before opening a PR that touches
-`admin/pipeline/`.
+```bash
+bun run transform:invariants
+```
 
-A test that reads the corpus MUST be named `*.corpus.test.ts` and MUST
-take its entries from `admin/pipeline/transform/rules/corpus-fixture.ts`,
-which builds each stage once per run and shares it read-only.
-`admin/pipeline/test-tiers.test.ts` fails the build if the name and the
-behaviour disagree in either direction.
+Run it before opening a PR that registers a transform rule, changes
+what a rule matches, or reorders `admin/pipeline/transform/registry.ts`.
+It checks that rules editing the same text have a declared, justified
+order (commutation) and that each rule's class is earned over the data
+(registry order).
+
+A test that reads the source snapshot MUST be named `*.corpus.test.ts`,
+MUST take its entries from
+`admin/pipeline/transform/rules/corpus-fixture.ts`, and MUST be added to
+`transform:invariants`; `admin/pipeline/test-tiers.test.ts` fails the
+build otherwise. An example built from real entries belongs in a
+`*.test.ts` with the entries in a committed fixture file.
 
 ## Accessibility
 
@@ -101,8 +106,7 @@ focus management, which automated tools don't catch.
 
 - PRs are reviewed by [CodeRabbit](https://coderabbit.ai/) and a
   maintainer
-- All CI checks must pass before merge (`Lint`, `Type Check`, `Test`,
-  `Corpus Audit`)
+- All CI checks must pass before merge (`Lint`, `Type Check`, `Test`)
 - Keep PRs focused — one feature or fix per PR
 
 ## Developer Certificate of Origin

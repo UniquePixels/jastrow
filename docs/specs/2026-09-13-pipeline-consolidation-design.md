@@ -26,7 +26,7 @@ patches for what cannot be done deterministically).
 | Non-test code under `admin/`, and the share reachable from `migrate.ts` | 36,952 lines; ~77 modules on the migrate path |
 | `research/`, `provenance/`, one-time `body/` tools | 17,746 + 1,174 + 2,822 lines; 2 files needed by migrate |
 | `package.json` scripts | 24: 6 pipeline, 8 QA, 10 research relics |
-| Corpus test tier | 45 files, 14,443 lines, 12–13 min of CI; 3 files check code invariants, ~40 pin per-rule counts to the 2026-07-04 snapshot. **Corrected 2026-09-15:** 2 files are code invariants (`body/pipeline-links`, the third named, is mostly counts), and the count files also hold ~190 hand-written example tests that never read the source data (estimate: synchronous `it(`/`test(` calls outside the two invariant files, by grep; not verified per test) |
+| Corpus test tier | 45 files, 14,443 lines, 12–13 min of CI; 3 files check code invariants, ~40 pin per-rule counts to the 2026-07-04 snapshot. **Corrected 2026-09-15:** 2 files are code invariants (`body/pipeline-links`, the third named, is mostly counts), and the count files also hold ~190 hand-written example tests that never read the source data (estimate: synchronous `it(`/`test(` calls outside the two invariant files, by grep; not verified per test) **Measured 2026-09-15 (step 5):** 405 tests; 182 read no source data and 11 read eight fixed entries, so 193 moved to the unit tier; 191 were deleted and 21 remain (plan `docs/superpowers/plans/2026-09-15-consolidation-step5.md`, which also records the classifier and its controls) |
 | Branch protection on `v2` | no required status checks |
 | Biome | 240 info diagnostics, 0 warnings; scans 32,512 data files by accident |
 | SonarCloud | all 82 issues are the v1 app on `main`; no v2 branch exists |
@@ -259,8 +259,8 @@ runs it.
 | nine migrate gates | the entry data a run produces | inside `migrate`, every run |
 | migrate report and blessing doc | what a run did: rule counts, patch outcomes, review rows | read by the person who ran `migrate`; the blessing doc is committed in the same PR as the source data and entry data it describes |
 | entry data validation (schema, file path, closed tag vocabulary, balanced markup, slug uniqueness, internal cite targets, page == page-index row both ways) | any change to entry data: by `migrate`, the admin tool, or hand. A safeguard, independent of which export produced the data | `migrate/validate.ts`, run over the tree by `migrate/truth.test.ts` in `bun qa`; CI job **Test** |
-| hand-written example tests | what one rule does to a small, fixed input | unit tier in `bun qa`; CI job **Test**. About 190 of them live today inside `*.corpus.test.ts` files and move to `*.test.ts` |
-| commutation and registry order (`transform/commutation.corpus.test.ts`, `transform/registry.order.corpus.test.ts`) | the rule *code*: rules that edit the same text have a declared, justified order | run locally, by choice, before a PR that changes rule code or registry order, through one `package.json` script; not CI. Each reads the source data and takes 3–4 min |
+| hand-written example tests | what one rule does to a small, fixed input | unit tier in `bun qa`; CI job **Test**. 193 of them lived inside `*.corpus.test.ts` files and moved to `*.test.ts` in step 5; 11 of those run on eight real entries frozen in `transform/rules/fixtures/gershayim.jsonl` |
+| commutation and registry order's earned classes (`transform/commutation.corpus.test.ts`, `transform/registry.order.corpus.test.ts`) | the rule *code*: rules that edit the same text have a declared, justified order | run locally, by choice, before a PR that changes rule code or registry order: `bun run transform:invariants`; not CI. Each reads the source data and takes 3–4 min. Registry order's static assertions (every rule classified, the direction pins, cluster spans) read no data and run in `bun qa` from `transform/registry.order.test.ts`, sharing `transform/registry-classes.ts` with the corpus half |
 
 Withdrawn 2026-09-15:
 
@@ -278,7 +278,10 @@ assert a rule creates no new defect across the export. On the
 committed source data the gates make them redundant; on a new export
 they are the only warning. Each one worth keeping becomes a review
 detector (R4) that emits a report row, with no pinned number (§10);
-the rest are deleted with the tier.
+the rest are deleted with the tier. Step 5 deleted 191 such tests; each
+is listed with its kind (count, derived-table, no-defect, order) in
+`docs/v2/retired-corpus-checks.md`, which is where that detector work
+starts.
 
 ### 5.2 Required checks on `v2`
 
@@ -296,6 +299,10 @@ so `bun qa:test` skips them, and `test-tiers.test.ts` keeps guarding
 that name. Every other corpus file is taken apart: its hand-written
 example tests move to a `*.test.ts` beside the rule, its count pins
 are deleted, and tests of research code leave with that code (§8).
+Two corpus files test research code (`research/residue-sweep`,
+`body/implied-one-census`); nothing runs them after step 5, and they
+leave with that code in step 6. `test-tiers.test.ts` fails on any other
+corpus file `transform:invariants` does not run.
 
 ## 6. Formatting (R5)
 
@@ -328,7 +335,8 @@ rebuild after an entry is added, and is cheap to do now.
 | registry `PENDING` commentary (487 lines inside an empty array) | `docs/archive/registry-history.md` | zero behaviour change |
 | `.superpowers/`, `.claude/worktrees/*`, `.worktrees/` | delete stale entries | two stale worktrees today |
 | research notes filed beside the data: `data/patches/{catalogue-audit,discovery-round-2,discovery-round-3,checkpoints}/`, `data/source/divergence-report.json` | `docs/archive/` on `v2` | reports, not correction data or source data (§1.1); confirm no file is a `migrate` input before moving. Not `data/patches/pilot/`: `patch/apply.ts` loads it as carry-over patches |
-| `audit:corpus`, `admin/pipeline/audit-corpus.sh` | deleted | leave with the Corpus Audit job (§5.1, step 5) |
+| `audit:corpus`, `admin/pipeline/audit-corpus.sh` | deleted | *Shipped in step 5*, alongside the Corpus Audit job (§5.1) — not step 6 work |
+| `transform/rules/headword-census.ts`; `walkSenses` and `stripTags` in `body/census.ts` | archive with the research code | `headword-census.ts` lost its only importer in step 5. `census.ts` cannot leave with it: nine modules import `walkSenses` today, and six outlive step 6 — `body/dry-run-report.ts`, `patch/seed-sense-runs.ts`, and the `labels`, `form-sections`, `lettered` and `units` body tests. `seed-sense-runs.ts` also imports `stripTags`. Move both helpers into a module that stays before archiving `census.ts` |
 
 `package.json` after the move: `pipeline:fetch`, `pipeline:migrate`,
 `pipeline:compile` (when built), `pageindex:verify`, `qa*`, the
@@ -358,7 +366,7 @@ folded into migrate; it is the patch engine, not research.
 | `compile.ts` | data-architecture §3 |
 | Port judgment-class detectors from archived research code | ad hoc, one class per PR |
 | Review the 298 low-confidence page placements | review queue |
-| Drift and "creates no defect" checks from the retired corpus files: each one worth keeping becomes a review detector emitting report rows, with no pinned numbers (§5.1) | ad hoc, one per PR |
+| Drift and "creates no defect" checks from the retired corpus files: each one worth keeping becomes a review detector emitting report rows, with no pinned numbers (§5.1) | ad hoc, one per PR; start from `docs/v2/retired-corpus-checks.md` |
 | Drift-classify carry-over zero-match (check target on pre-transform source; 3 of 66 carry-overs are exceptions to that test: P000024, P000029, P000027) | after §11 |
 
 ## 11. Sequence
@@ -375,7 +383,7 @@ Steps 1–4 have shipped and are kept as history.
    in step 5; required checks deferred (§5.2).
 4. *Shipped (#90).* Structured report rows and the patch-preflight
    change (§3.1, §4.2).
-5. Remove the Rebuild and Corpus Audit CI jobs; move hand-written
+5. *Shipped (#92).* Remove the Rebuild and Corpus Audit CI jobs; move hand-written
    example tests to the unit tier; delete count pins; the two invariant
    files become a local script (§5.1, §5.3).
 6. Archive move and `package.json` reduction (§8).
@@ -399,3 +407,4 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-14 | Step 4: §4.2 a stale pin is a header count and each patch is judged by its precondition, `--strict` restores refusal; §3.1 row fields and kinds as built, rule counts are composed; §5.2 required checks deferred to near release |
 | 2026-09-14 | Final-fix wave: §5.1 Rebuild runs `--strict`; §4.2 carry-over zero-match documented as `superseded`, not drift-classified, with the gap pinned at §10 |
 | 2026-09-15 | R8 data terms (§1.1; "truth" becomes entry data) and R9 `migrate` is not CI work. §5 rewritten: Rebuild, Corpus Audit, the Invariants CI job and `expected-counts.json` withdrawn; invariants run locally; ~190 hand-written example tests move to the unit tier; drift checks become review detectors (§10). §1 corpus-tier measurement corrected; §3.3 scheduling marked open against R9 pending a brainstorm; §11 step 5 rewritten, step 10 added. R8 extended: `migrate` becomes import with `data:` command prefix; vocabulary moved to new `docs/glossary.md` |
+| 2026-09-15 | Step 5: Rebuild and Corpus Audit jobs removed; 193 corpus-tier tests moved to the unit tier (182 fixed-input, 11 on a committed gershayim fixture), 191 deleted and inventoried in `docs/v2/retired-corpus-checks.md`; registry order split so its static assertions run in `bun qa`; paren→phrase direction pinned statically; `transform:invariants` script and tier guard added; §1, §5.1, §5.3, §8, §10, §11 amended |

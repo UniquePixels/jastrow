@@ -24,8 +24,9 @@
  * Their populations are disjoint and neither can create or destroy the
  * other's, because the substitution never introduces or removes a `<`
  * or a `>` — so composing them in either order gives the same string,
- * and `rules/gershayim.corpus.test.ts` measures that over all 32,512 entries
- * rather than asserting it.
+ * which a corpus check measured over all 32,512 entries rather than
+ * asserting it. That check is retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`).
  *
  * The tag/text split is `html.ts`'s `mapTagsAndText`, so the text
  * locus is exactly the tokenizer's text tokens and the two cannot

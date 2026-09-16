@@ -28,8 +28,9 @@
  * put where it belongs. It is also why `checkNoNewText` is BLIND to
  * this rule: a move preserves the multiset, so that gate returns clean
  * over all 457 touched entries no matter where the mark lands. The
- * safety argument lives in `holam-mater.corpus.test.ts` and in
- * `link-target.ts` case 9, not in the text gate.
+ * safety argument lives in `link-target.ts` case 9, not in the text
+ * gate; a corpus check also made it, retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`).
  *
  * ## It rewrites link targets, and it has to
  *
@@ -54,8 +55,9 @@
  *
  * Two entries spelled alike leave `Jastrow, רִמּוֹן 1` naming neither —
  * [[feedback_headword_is_a_namespace]]. A rule cannot see the corpus,
- * so the exception is frozen here as one headword and re-derived from
- * the live snapshot by `holam-mater.corpus.test.ts`, the way
+ * so the exception is frozen here as one headword; it was re-derived
+ * from the live snapshot by a corpus check retired in consolidation
+ * step 5 (`docs/v2/retired-corpus-checks.md`), the way
  * `vSubRedirectTwin` carries its 50-row table. The entry's other fields
  * are repaired normally: only the namespace key is held back.
  */

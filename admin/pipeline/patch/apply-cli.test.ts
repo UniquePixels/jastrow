@@ -12,12 +12,13 @@
  *
  * This is a TEXT scan, and it is here rather than in a behavioural
  * test for two reasons: the module runs its work at import time and
- * streams the whole 41 MB snapshot, and the behaviour
- * it should produce is already pinned entry-for-entry by
- * `apply.corpus.test.ts`. It sees a reintroduced raw-entry apply, a
- * dropped composer, and a return to the flat every-stage corpus; it
- * does NOT see a composer called on the wrong state, or the
- * accepted/carry-over split going wrong downstream of it.
+ * streams the whole 41 MB snapshot, and the behaviour it should
+ * produce was pinned entry-for-entry by a corpus check retired in
+ * consolidation step 5 (`docs/v2/retired-corpus-checks.md`). That
+ * check saw a reintroduced raw-entry apply, a dropped composer, and a
+ * return to the flat every-stage corpus; it did NOT see a composer
+ * called on the wrong state, or the accepted/carry-over split going
+ * wrong downstream of it.
  */
 import { describe, expect, it } from 'bun:test';
 

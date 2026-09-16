@@ -114,8 +114,8 @@ What a run reports for each patch:
 | **unit tier** | every `*.test.ts`: fast (~2 s), run by `bun qa` and CI's **Test** job |
 | **hand-written example test** | a test that feeds a rule a small fixed input and checks its output. Never reads the source data |
 | **entry data validation** | the safeguard over every entry file: schema, file path, allowed tags, balanced markup, no markup in plain-text fields, unique slugs, internal link targets, page matches the page index both ways. Runs in the unit tier |
-| **invariant check** | a test of rule *code* that needs the whole snapshot: commutation and registry order. After spec step 5, run locally before rule-code PRs; until then still in CI's Corpus Audit job |
-| **corpus tier** | every `*.corpus.test.ts`. Being retired except the two invariant checks (spec step 5) |
+| **invariant check** | a test of rule *code* that needs the whole snapshot: commutation, and registry order's classes earned over the data. Run locally with `bun run transform:invariants` before rule-code PRs; not CI. Registry order's static assertions run in `bun qa` |
+| **corpus tier** | retired by spec step 5. What is still named `*.corpus.test.ts` is the two invariant checks and two research files that leave in step 6 |
 
 ## Retired terms
 
@@ -127,4 +127,4 @@ What a run reports for each patch:
 | migration report | import report |
 | serving artifacts | compiled data |
 | corpus (meaning the committed export) | snapshot |
-| Rebuild CI job, Corpus Audit CI job | withdrawn 2026-09-15 (spec R9); still in CI until spec step 5 removes them |
+| Rebuild CI job, Corpus Audit CI job | withdrawn 2026-09-15 (spec R9); removed from CI in spec step 5 |

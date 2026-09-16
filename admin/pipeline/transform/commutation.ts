@@ -259,8 +259,9 @@ function firstDisagreement(
  * Batch 6c is where this surfaced: `stranded-stem-head` reported four
  * such pairs, one of them `label-period-outside-italic`, whose output
  * the structural rule's population DEPENDS on (360 → 562 occurrences).
- * That dependency is real and is pinned by measurement in
- * `rules/stem-section.corpus.test.ts`; what it is not is a
+ * That dependency is real; the 360 → 562 figure was measured on the
+ * 2026-07-04 export by a corpus check retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`). What it is not is a
  * registry-adjacency constraint, which is the only thing
  * `entangledWith` can express. Batch 6b's single structural rule did
  * not reveal the gap because it happened to commute with all 40.

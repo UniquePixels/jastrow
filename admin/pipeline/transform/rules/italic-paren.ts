@@ -63,11 +63,13 @@ import type { Rule, TransformResult } from '../types.ts';
  * So the defect count is measured where the defect lives, on the
  * MARKUP: italic runs holding a surplus `)` go **10 → 2** corpus-wide
  * (the 2 survivors being the convention members below) and the
- * shipped population goes **8 → 0**. `italic-paren.corpus.test.ts`
- * asserts that as a DELTA, never as an invariant, and pairs the
- * text-equality assertion with `touched.toHaveLength(8)` so a no-op
- * cannot satisfy both — the equality is there to discriminate this
- * construction from the space-inserting one the brief proposed, not
+ * shipped population goes **8 → 0** — measured on the 2026-07-04
+ * export by a corpus check retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`), which asserted that as a
+ * DELTA, never as an invariant, and paired the text-equality assertion
+ * with `touched.toHaveLength(8)` so a no-op could not satisfy both —
+ * the equality is there to discriminate this construction from the
+ * space-inserting one the brief proposed, not
  * to certify that nothing happened.
  *
  * ## TWO OF THE TEN ARE NOT DAMAGE

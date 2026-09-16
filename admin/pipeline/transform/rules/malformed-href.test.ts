@@ -11,11 +11,13 @@
  * between the two is corpus reality and a different (declined)
  * catalogue row.
  *
- * The CORPUS tier lives in `malformed-href.corpus.test.ts`, on the
- * house split (`italic-paren.corpus.test.ts` and friends): it pins the
- * population by rid identity and pins `checkLinkTargets`'s verdict on
- * both real entries. Split out 2026-08-27 (fix/link-target-gate-cases)
- * when case 6's assertions pushed this file past its line budget.
+ * The corpus tier this file was split from, on the house split
+ * (`italic-paren.ts` and friends), pinned the population by rid
+ * identity and pinned `checkLinkTargets`'s verdict on both real
+ * entries; it was retired in consolidation step 5, listed in
+ * `docs/v2/retired-corpus-checks.md`. Split out 2026-08-27
+ * (fix/link-target-gate-cases) when case 6's assertions pushed this
+ * file past its line budget.
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
@@ -166,8 +168,9 @@ describe('unterminatedHref', () => {
 		expect(result.recombined).toBeUndefined();
 		expect(result.glyphCorrected).toBeUndefined();
 		// The reconstruction arm relocates nothing, so it claims nothing.
-		// The reordering arm's claim is asserted in full over the real
-		// entry, in `malformed-href.corpus.test.ts`.
+		// The reordering arm's claim was asserted in full over the real
+		// entry by a corpus check retired in consolidation step 5
+		// (`docs/v2/retired-corpus-checks.md`).
 		expect(result.restored).toBeUndefined();
 	});
 

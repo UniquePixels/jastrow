@@ -21,10 +21,11 @@
  * an `allows`: the text multiset is unchanged by construction, so
  * `checkNoNewText` is structurally blind to everything these rules
  * do, and `checkMarkup` is a delta gate that permits pre-existing
- * damage through. The only thing that can see a mistake here is the
- * corpus-tier `stripTags` invariant in `italic-period.corpus.test.ts`, which
- * is ORDER-sensitive where the gate is a multiset. Read that test as
- * part of the rule.
+ * damage through. The only thing that could see a mistake here was a
+ * corpus-tier `stripTags` invariant, ORDER-sensitive where the gate is
+ * a multiset. That check is retired in consolidation step 5; on a new
+ * export this is a review-detector candidate (consolidation spec
+ * §10), listed in `docs/v2/retired-corpus-checks.md`.
  *
  * ## GRANULARITY: the whole run body, never its final token
  *
@@ -169,9 +170,10 @@ function moveOutside(text: string): string {
  * Neither declares an `allows`: both move a single byte across a tag
  * boundary, so the text multiset is unchanged by construction and
  * there is nothing to declare — and, for the same reason, nothing for
- * `checkNoNewText` to see. The corpus-tier `stripTags` invariant in
- * `italic-period.corpus.test.ts` is the only gate that can, and is part of
- * the rule rather than a check on it. */
+ * `checkNoNewText` to see. A corpus-tier `stripTags` invariant was the
+ * only gate that could, and was part of the rule rather than a check
+ * on it; that check is retired in consolidation step 5, listed in
+ * `docs/v2/retired-corpus-checks.md`. */
 function build(id: string, move: (text: string) => string): Rule {
 	return {
 		apply(entry: SourceEntry): TransformResult {

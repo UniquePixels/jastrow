@@ -34,9 +34,11 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  *
  * Finding the twin needs the whole headword vocabulary and a rule sees
  * one entry. This follows `stem-section.ts`'s pattern: the derived
- * table is a literal here, and `v-sub-twin.corpus.test.ts` re-derives
- * it from the live snapshot so an upstream change fails a test instead
- * of silently changing the population.
+ * table is a literal here, and a corpus check re-derived it from the
+ * live snapshot so an upstream change would have failed a test
+ * instead of silently changing the population. It no longer runs; on
+ * a new export this is a review-detector candidate (consolidation
+ * spec §10), listed in `docs/v2/retired-corpus-checks.md`.
  *
  * THE PREFIX ALONE DOES NOT DETERMINE THE REPAIR and the table is not
  * a shortcut around that: `כֹּר׳` has 223 candidate headwords, and it

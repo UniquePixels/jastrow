@@ -83,9 +83,9 @@ const DASH = '—';
  * in a shape nothing has measured and would hand
  * `trailing-whitespace-definition` (10, still `PENDING`) new members —
  * the sibling-row growth batch 3b found by hand. The row's PUBLISHED
- * predicate is wider (`/—[ \t]*$/u`), and
- * `sense-marker.corpus.test.ts` measures both so the 8 spaced members
- * are counted rather than invisible. */
+ * predicate is wider (`/—[ \t]*$/u`); a corpus check, retired in
+ * consolidation step 5 (`docs/v2/retired-corpus-checks.md`), measured
+ * both so the 8 spaced members were counted rather than invisible. */
 function endsInStrandedDash(definition: string): boolean {
 	return definition.endsWith(DASH);
 }
