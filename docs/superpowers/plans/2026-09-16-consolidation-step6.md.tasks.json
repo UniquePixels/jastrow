@@ -28,7 +28,7 @@
     {
       "id": 3,
       "subject": "Task 4: Delete the archived code from v2",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** The 20 source files and their tests leave the working branch; nothing else changes.\n\n**Files:**\n- Delete: `admin/pipeline/research/`, `admin/pipeline/provenance/` (whole dirs)\n- Delete: `body/{census,review,migrate-dry,implied-one-census}.ts` + tests, `body/fixtures/extract.ts`\n- Delete: `patch/{seed-implied-one,seed-tranche,seed-sense-runs}.ts` + tests\n- Delete: `page-index/{align,bands,build,columns,emit,hocr,layout,monotonic,spine}.ts` + tests\n- Delete: `transform/rules/headword-census.ts`\n- Modify: `transform/rules/headword.ts:130`\n\n**Acceptance Criteria:**\n- [ ] `research/` and `provenance/` do not exist\n- [ ] `page-index/verify.ts` still exists and runs\n- [ ] `patch/` retains apply.ts, apply-cli.ts, schema.ts, snapshot.ts, patterns.ts, manifest.ts - no seed-*.ts remains\n- [ ] No surviving `.ts` imports a deleted module\n- [ ] `bun qa` and `bun run transform:invariants` green\n- [ ] `bun pipeline:migrate` dry run: nine gates green\n\n**Verify:** `bun qa && bun run transform:invariants && bun pipeline:migrate` -> all exit 0, nine gates green\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research\", \"admin/pipeline/provenance\", \"admin/pipeline/body/census.ts\", \"admin/pipeline/page-index/build.ts\", \"admin/pipeline/transform/rules/headword.ts\"], \"verifyCommand\": \"bun qa && bun run transform:invariants && bun pipeline:migrate\", \"acceptanceCriteria\": [\"research/ and provenance/ gone\", \"page-index/verify.ts kept\", \"no seed-*.ts remains in patch/\", \"sense-walk.ts no longer exports stripTags\", \"no dangling imports\", \"nine gates green on migrate dry run\"], \"modelTier\": \"standard\"}\n```",
       "blockedBy": [
         2
@@ -80,5 +80,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-16T12:44:25.878518"
+  "lastUpdated": "2026-09-16T13:34:39.192067"
 }
