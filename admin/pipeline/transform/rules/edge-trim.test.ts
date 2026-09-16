@@ -1,15 +1,17 @@
 /**
- * The two Class C deletion rows, FIXTURE TIER. The corpus tier lives
- * in `edge-trim.corpus.test.ts` — split for the same reason
- * `unlink.corpus.test.ts` is split across three files, to keep each under the
- * repo's 300-line ceiling.
+ * The two Class C deletion rows, FIXTURE TIER. The corpus tier this
+ * file was split from — split for the same reason `unlink.ts`'s
+ * fixture tier is split across two files, to keep each under the
+ * repo's 300-line ceiling — was retired in consolidation step 5; its
+ * checks are listed in `docs/v2/retired-corpus-checks.md`.
  *
  * Both rows are DELETIONS, so neither gets a `stripTags`-equality
  * invariant: the text gate passes any sub-multiset shrink by
- * construction and an equality invariant passes a no-op, which is the
- * failure `punct-seams.corpus.test.ts` documents at length. Every corpus-tier
- * assertion in the sibling file is therefore a DEFECT-COUNT DELTA or a
- * POPULATION FIGURE, never "nothing changed".
+ * construction and an equality invariant passes a no-op, which was a
+ * failure a retired corpus check documented at length
+ * (`docs/v2/retired-corpus-checks.md`). Every corpus-tier assertion in
+ * the sibling file was therefore a DEFECT-COUNT DELTA or a POPULATION
+ * FIGURE, never "nothing changed".
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';

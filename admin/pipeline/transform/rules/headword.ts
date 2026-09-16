@@ -127,8 +127,9 @@ function overAltHeadwords(
  * 69 of the 84 open-only items pair with a later close-only item in the
  * same array — 52 adjacent, 17 spanning one or two intervening items
  * that are inside the parentheses too. Only 28 are genuinely orphaned.
- * All of it is pinned in `headword-census.ts` and asserted in
- * `headword.corpus.test.ts`.
+ * All of it is pinned in `headword-census.ts`; it was asserted by a
+ * corpus check retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`).
  *
  * **RULING (Brian, 2026-08-27): strip the delimiters, add no new
  * form-object mark.** The parens are print's grouping punctuation
@@ -321,8 +322,9 @@ function expandStub(
  * entries / 419 occurrences, and the 175 extra are single-word stubs
  * carrying a homograph numeral (`'אֲמוּ׳ II'`) that belong to the
  * parent's job 1, for which no deterministic expansion exists. A rule
- * that expanded those would be inventing spellings. Pinned in
- * `headword.corpus.test.ts` in the shape of the mistake.
+ * that expanded those would be inventing spellings. Pinned by a corpus
+ * check, retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`), in the shape of the mistake.
  *
  * **THE REGISTRY'S FIRST `copied` USER.** This is the only rule in
  * batch 5 that adds text, and `types.ts` names this exact case on
@@ -407,7 +409,8 @@ const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
  * P00132 anchor  data-ref="Jastrow, עָ׳ עַדְיָא 1"       → P00137
  * ```
  *
- * Found by `body/pipeline-links.corpus.test.ts`, whose absolute pin fell from
+ * Found by a corpus check (retired in consolidation step 5,
+ * `docs/v2/retired-corpus-checks.md`), whose absolute pin fell from
  * 71,385 to 71,383 while its DIFFERENTIAL assertion — "gains 90, loses
  * none" — stayed green, because the rule sits on both sides of that
  * comparison. The differential could not see it; the absolute pin
@@ -421,10 +424,12 @@ const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
  *
  * `LINKED_HEADWORDS` is an enumerated exception and therefore MUST BE
  * LOUD ON DRIFT (`rules/unlink.ts`'s `unobservedConvention`, the ruling
- * of 2026-08-23). The corpus test asserts it equals EXACTLY the fused
- * headwords some anchor targets, so a re-fetch that adds or removes a
- * pointing anchor fails a test rather than silently changing what
- * ships.
+ * of 2026-08-23). A corpus test asserted it equalled EXACTLY the fused
+ * headwords some anchor targets, so a re-fetch that added or removed a
+ * pointing anchor would have failed a test rather than silently
+ * changing what shipped. It no longer runs; on a new export this is a
+ * review-detector candidate (consolidation spec §10), listed in
+ * `docs/v2/retired-corpus-checks.md`.
  *
  * **FORWARD HAZARD, and it compounds one batch 3a already recorded:**
  * the data architecture's §5 gate walks the `prev_hw`/`next_hw` chain
@@ -432,7 +437,8 @@ const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
  * entries diverging that way; this rule rewrites 4 more headwords and
  * leaves every neighbour's pointer untouched. Whoever writes
  * `migrate.ts` must walk the SOURCE chain or de-map both sides. The
- * exact divergence count is asserted in `headword.corpus.test.ts`.
+ * exact divergence count was asserted by a corpus check retired in
+ * consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
  */
 const abbrevFusedHeadword: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {

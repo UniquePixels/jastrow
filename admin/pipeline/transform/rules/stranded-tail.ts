@@ -24,10 +24,12 @@
  * immediately following an anchor's close with no intervening token.
  *
  * **Confined to letters T, U and V.** The catalogue's `reason` claims
- * this; `stranded-tail.corpus.test.ts`'s corpus tier ASSERTS it against a
- * fresh walk rather than assuming it, because a claim the row makes
- * about the corpus is exactly the kind of claim this batch exists to
- * test, not inherit. The predicate itself carries no letter check —
+ * this; a corpus check ASSERTED it against a fresh walk rather than
+ * assuming it, because a claim the row makes about the corpus is
+ * exactly the kind of claim this batch exists to test, not inherit.
+ * That check is retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`). The predicate itself carries
+ * no letter check —
  * confinement is a fact this rule's population happens to have, not a
  * condition it enforces, so a future corpus edit that broke the
  * confinement would show up as a test failure naming the letter, not

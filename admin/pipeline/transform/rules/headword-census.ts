@@ -12,8 +12,13 @@ import { strip } from './headword.ts';
  * sibling row's `reason` rather than by any gate.
  *
  * ONE WALK — a single memoised pass over the 32,512 entries, with the
- * assertions in `headword.corpus.test.ts` arithmetic over the result.
- * Batch 4's review raised three separate redundant-walk findings.
+ * assertions in a corpus check (retired in consolidation step 5,
+ * `docs/v2/retired-corpus-checks.md`) doing arithmetic over the
+ * result. Batch 4's review raised three separate redundant-walk
+ * findings.
+ *
+ * No importer remains after consolidation step 5; archived in step 6
+ * (spec §8).
  */
 
 const GERESH = '׳';
@@ -35,10 +40,11 @@ const WHITESPACE_RUN = /\s+/u;
  * The safety negatives below are measured against `parenAltHeadword`'s
  * ACTUAL strip, imported rather than copied. Task 0 shipped a copy
  * because this module preceded the rule by one commit; Task 2 replaced
- * it with this import, closing the drift hazard
- * `links.corpus.test.ts` records for `NEW_ATTR` — where a production
- * change and a test copy diverge and the test keeps passing while
- * measuring the wrong thing.
+ * it with this import, closing the drift hazard a corpus check
+ * recorded for `NEW_ATTR`, retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`) — where a production change
+ * and a test copy diverge and the test keeps passing while measuring
+ * the wrong thing.
  *
  * NOTE the asymmetry, which is deliberate: the census applies the strip
  * to EVERY item, while the rule refuses two of them (spec §3.4). The

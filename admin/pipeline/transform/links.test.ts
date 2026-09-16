@@ -199,8 +199,9 @@ it('an anchor missing its closing tag is unclosed and refused', () => {
 /** A00016's shape, verbatim. Both attributes are present, and until
  * 2026-08-24 neither PARSED, because `ATTR`'s value class excluded the
  * apostrophe in `Tosefta Ma'asrot 1:4` — 452 anchors across 417 entries
- * were in that state. The lazy value class reads them, and
- * `links.corpus.test.ts` pins that the widening only ever ADDS. */
+ * were in that state. The lazy value class reads them; that the
+ * widening only ever ADDS was pinned by a corpus check retired in
+ * consolidation step 5 (`docs/v2/retired-corpus-checks.md`). */
 const APOSTROPHE =
 	'<a class="refLink" href="/Tosefta_Ma\'asrot.1.4" ' +
 	'data-ref="Tosefta Ma\'asrot 1:4">Tosef. Maasr. I, 4</a>';
@@ -250,8 +251,8 @@ it('retarget refuses an anchor carrying href alone', () => {
  * nothing and `malformed` — which is what actually refuses this anchor
  * — is reached by the same route. Pinned because "cannot newly
  * succeed" is the claim, not the guess that it reads the same
- * non-empty string. The corpus-wide counterpart is in
- * `links.corpus.test.ts`. */
+ * non-empty string. The corpus-wide counterpart was retired in
+ * consolidation step 5; see `docs/v2/retired-corpus-checks.md`. */
 it('the lazy class still reads a damaged tag exactly as before', () => {
 	const [tag] = tokenize(DAMAGED);
 	const tagValue = tag?.kind === 'tag' ? tag.value : '';

@@ -208,10 +208,10 @@ interface TransformResult {
 	 * **NOTHING HERE CHECKS THAT THE REPAIR IS RIGHT.** The gate
 	 * verifies the CLASS of edit against this entry's own input; whether
 	 * the repaired address resolves, and whether repairing it merges two
-	 * entries, is checked by `holam-mater.corpus.test.ts` and
-	 * `shin-sin.corpus.test.ts`. Neither half is sufficient alone — the
-	 * same split case 8 states, and [[feedback_vacuous_gates]] is about
-	 * mistaking one for both. */
+	 * entries, was checked by corpus checks retired in consolidation
+	 * step 5 (`docs/v2/retired-corpus-checks.md`). Neither half is
+	 * sufficient alone — the same split case 8 states, and
+	 * [[feedback_vacuous_gates]] is about mistaking one for both. */
 	/** Anchors this call MINTED around a bare anaphor, targeted by
 	 * COPY (link-target gate case 10, spec
 	 * `docs/specs/2026-09-06-link-target-gate-case-10.md`). `target` is
@@ -448,10 +448,11 @@ interface TransformResult {
 	 * **NOTHING HERE CHECKS THAT THE HEADWORD EXISTS.** `link-target.ts`
 	 * is entry-local by construction; it verifies the target's SHAPE
 	 * against this entry's own headword and display, not the corpus.
-	 * Existence is checked by `v-sub-twin.corpus.test.ts`, which
-	 * re-derives the rule's frozen table from the live snapshot. Neither
-	 * half is sufficient alone, and a reader who takes the gate's
-	 * silence about existence for a guarantee has the wrong model — see
+	 * Existence was checked by a corpus check, retired in consolidation
+	 * step 5 (`docs/v2/retired-corpus-checks.md`), which re-derived the
+	 * rule's frozen table from the live snapshot. Neither half is
+	 * sufficient alone, and a reader who takes the gate's silence about
+	 * existence for a guarantee has the wrong model — see
 	 * [[feedback_vacuous_gates]]. */
 	vouched?: readonly {
 		display: string;

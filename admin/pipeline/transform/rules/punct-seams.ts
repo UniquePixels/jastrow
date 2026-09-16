@@ -90,11 +90,12 @@
  * 0 problems, `checkMarkup` 0 problems, codepoint multiset delta
  * exactly `{" ": −508}` (230 empty-label occurrences × 2 spaces each,
  * plus 48 labelled × 1 space each = 460 + 48 = 508) and nothing else
- * moves. `punct-seams.corpus.test.ts`'s corpus-tier test asserts the 278→0
- * delta and the 2-before/2-after non-creation check directly, rather
- * than an invariant that a no-op rule would also satisfy — see that
- * test's own docstring for why a touch-count vacuity guard alone
- * cannot tell a repair from a reshuffle.
+ * moves. A corpus check, retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`), asserted the 278→0 delta and
+ * the 2-before/2-after non-creation check directly, rather than an
+ * invariant that a no-op rule would also satisfy — that check's own
+ * docstring has why a touch-count vacuity guard alone cannot tell a
+ * repair from a reshuffle.
  *
  * ## `italicLonePunctuation` excludes the em-dash by construction,
  * not by running second
@@ -195,9 +196,11 @@ const LONE_PUNCTUATION = /<i>(?<mark>[.?;])<\/i>/gu;
  * for `italicLonePunctuation` — so neither declares `allows` or
  * `copied`: the sub-multiset gate passes any shrink by construction.
  * That is also why neither can be tested by an equality invariant;
- * see `punct-seams.corpus.test.ts` for the defect-count deltas that replace
- * one. `mapFields` returning `undefined` is what lets a declining
- * call hand back the caller's own entry, as `Rule.apply` requires. */
+ * the defect-count deltas that replaced one were asserted by a corpus
+ * check, retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`). `mapFields` returning
+ * `undefined` is what lets a declining call hand back the caller's
+ * own entry, as `Rule.apply` requires. */
 function build(
 	id: string,
 	repair: (text: string) => string,

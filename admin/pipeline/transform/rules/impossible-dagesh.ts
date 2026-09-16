@@ -78,7 +78,8 @@ const IMPOSSIBLE = /([\u05E8\u05D7])\u05BC/gu;
 /** What makes a dagesh FORTE: a vowel point, or the mater vav that
  * spells one. All 10 forte instances in the corpus are followed by a
  * vav; the class is written for the linguistic fact rather than for
- * that coincidence, and `impossible-dagesh.corpus.test.ts` pins 10. */
+ * that coincidence, and a corpus check pinned 10, retired in
+ * consolidation step 5 (`docs/v2/retired-corpus-checks.md`). */
 const VOWEL_FOLLOWS = /^(?:[\u05B0-\u05BC\u05C7]|\u05D5)/u;
 /** A Hebrew letter or point, reachable past any run of TAGS — what a
  * word-final mark is NOT followed by.

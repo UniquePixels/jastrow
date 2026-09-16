@@ -360,8 +360,8 @@ describe('registry order', () => {
 		);
 	});
 
-	// THE FIFTH DIRECTION PIN, moved here from the retired
-	// `rules/headword.corpus.test.ts:410` (consolidation step 5), which
+	// THE FIFTH DIRECTION PIN, moved here from a retired corpus check
+	// (consolidation step 5, `docs/v2/retired-corpus-checks.md`), which
 	// held it in the shape of the corpus disagreement: composed
 	// paren-first the phrase rule fires 236 times, phrase-first 235
 	// (`B00780`, `A02403`; `registry.ts` carries the mechanism). The pair
@@ -497,9 +497,10 @@ describe('registry order', () => {
 			// Its span is 2 and the two are adjacent, which the span test
 			// below checks. As with the tosefta pair, what that does NOT
 			// check is the DIRECTION, and here the direction is the whole
-			// requirement — pinned in `rules/headword.corpus.test.ts` in
-			// the shape of the disagreement rather than as the winning
-			// order, so a reorder fails with the reason attached.
+			// requirement — pinned by this test, which a retired corpus
+			// check (consolidation step 5, `docs/v2/retired-corpus-checks.md`)
+			// once held in the shape of the disagreement rather than as
+			// the winning order, so a reorder fails with the reason attached.
 			// SEVEN became EIGHT at batch 10, and this one arrived by the
 			// same route as the two batch-7 pairs: the edge was NEVER IN
 			// THE CATALOGUE, and the commutation gate reported it as

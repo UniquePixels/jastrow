@@ -1628,8 +1628,9 @@ function vouchLead(value: string): string {
  * construction and has no corpus to ask. It checks that the written
  * target is structurally a completion of THIS anchor's abbreviation and
  * a spelling twin of THIS host, which is the whole of its contribution.
- * Existence is checked by `rules/v-sub-twin.corpus.test.ts`, which
- * re-derives the rule's frozen table from the live snapshot. Neither
+ * Existence was checked by a corpus check that re-derived the rule's
+ * frozen table from the live snapshot; that check is retired in
+ * consolidation step 5 (`docs/v2/retired-corpus-checks.md`). Neither
  * half is sufficient alone (spec §5), and reading this gate's silence
  * about existence as a guarantee is the mistake
  * [[feedback_vacuous_gates]] is about.
@@ -1792,9 +1793,10 @@ function corroborateFaults(
  *    and FALSE UNDER COMPOSITION — `run.ts` hands each rule the
  *    previous rule's output, so `gershayimInBody` puts 2,125 marks
  *    into the document text before `gershayimRefAttribute` ever runs
- *    (asserted at `rules/gershayim.corpus.test.ts:333`; see that rule's
- *    module doc and batch report §9.4). What holds instead is about
- *    the substitution: `from` is an OPENING TAG, the only writer of
+ *    (measured on the 2026-07-04 export by a corpus check retired in
+ *    consolidation step 5, `docs/v2/retired-corpus-checks.md`; see
+ *    that rule's module doc and batch report §9.4). What holds
+ *    instead is about the substitution: `from` is an OPENING TAG, the only writer of
  *    U+05F4 in the registry is `gershayim.ts`, and its `repairText`
  *    leaves every `<…>` run byte-identical while its `repairTags`
  *    writes into `target`, never into a later rule's `from`. So no

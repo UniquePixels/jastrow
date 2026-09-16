@@ -30,10 +30,12 @@
  * declares it although nothing in that phase reads the declaration.
  * Turning the gate on globally would have meant retrofitting a
  * declaration onto ten shipped rules in the PR that introduces it.
- * All eleven are pinned at their exact counts in
- * `deletion-baseline.corpus.test.ts` instead, so a TWELFTH deleting
- * rule fails a test rather than passing unremarked. Spec §2.3 carries
- * the table and the argument.
+ * All eleven were pinned at their exact counts by a corpus check
+ * instead, so a TWELFTH deleting rule would have failed a test rather
+ * than passing unremarked. That check is retired in consolidation
+ * step 5; on a new export this is a review-detector candidate
+ * (consolidation spec §10), listed in `docs/v2/retired-corpus-checks.md`.
+ * Spec §2.3 carries the table and the argument.
  */
 import type { SourceEntry } from '../body/types.ts';
 import { textOf } from './no-new-text.ts';

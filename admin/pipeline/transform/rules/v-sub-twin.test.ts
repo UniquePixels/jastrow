@@ -1,14 +1,15 @@
 /**
  * `vSubRedirectTwin` and link-target gate case 8, FIXTURE TIER. The
- * corpus tier lives in `v-sub-twin.corpus.test.ts`, and the split is
- * not cosmetic here: **the two halves check different things and
- * neither is sufficient alone** (spec
+ * corpus tier this file was split from is retired in consolidation
+ * step 5 (`docs/v2/retired-corpus-checks.md`); the split was not
+ * cosmetic there: **the two halves checked different things and
+ * neither was sufficient alone** (spec
  * `docs/specs/2026-08-31-link-target-gate-case-8.md` §5).
  *
  * This file checks the gate's five CLAUSES — that each refuses when
  * violated, and that the allowlist refuses on the licence rather than
  * on a clause. It cannot check that any headword exists, because the
- * gate cannot; that is the corpus file's whole job.
+ * gate cannot; that was the retired corpus file's whole job.
  *
  * Every claim below is deliberately well-formed except in the one
  * respect under test. A fixture that fails two clauses at once would
@@ -306,9 +307,11 @@ describe('review regressions', () => {
 		// being repaired — so it belonged to an unrelated entry. It is
 		// now the `SENSE_INDEX` constant, evidenced by the corpus: the
 		// 38 twins anchored elsewhere carry 111 anchors, every one at
-		// index 1. The behavioural guard over all 50 rows is in
-		// `v-sub-twin.corpus.test.ts`; this pins the pair agreeing,
-		// which is what the gate's clause 1 spelling check requires.
+		// index 1. The behavioural guard over all 50 rows was a corpus
+		// check, retired in consolidation step 5
+		// (`docs/v2/retired-corpus-checks.md`); this pins the pair
+		// agreeing, which is what the gate's clause 1 spelling check
+		// requires.
 		const written =
 			vSubRedirectTwin.apply(stubWith(WAS, DISPLAY, HOST)).entry.content
 				.senses[0]?.definition ?? '';

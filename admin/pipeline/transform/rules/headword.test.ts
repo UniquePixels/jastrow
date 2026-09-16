@@ -15,8 +15,9 @@ import {
 /**
  * Fixture tier for the headword-field rules (spec
  * `docs/specs/2026-08-27-headword-field-integrity-design.md`). The
- * corpus tier is `headword.corpus.test.ts`; the split follows
- * `links.test.ts` / `links.corpus.test.ts`.
+ * corpus tier this file was split from — following the same split as
+ * `links.ts` — was retired in consolidation step 5; its checks are
+ * listed in `docs/v2/retired-corpus-checks.md`.
  *
  * Every case runs through `applyTransforms`, not through `apply`
  * directly, so `checkNoNewText` gates each one. That is the real thing
@@ -335,8 +336,9 @@ it('appends to an existing alt_headwords rather than replacing it', () => {
  * old headword string — `K00108` points at `'Jastrow, כִּדְ׳ כַּדְבוּבָא 1'`
  * and `P00132` at `'Jastrow, עָ׳ עַדְיָא 1'`. Rewriting the headword
  * would leave both dangling, and a dead link is worse for a reader than
- * an awkward headword. `body/pipeline-links.corpus.test.ts`'s ABSOLUTE pin is
- * what caught it: its differential assertion stayed green because the
+ * an awkward headword. An ABSOLUTE pin in a corpus check (retired in
+ * consolidation step 5, `docs/v2/retired-corpus-checks.md`) is what
+ * caught it: its differential assertion stayed green because the
  * rule sits on both sides of that comparison.
  */
 it('refuses a headword another entry links to', () => {

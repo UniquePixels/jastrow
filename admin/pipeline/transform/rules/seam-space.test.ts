@@ -10,8 +10,8 @@ import {
 } from './seam-space.ts';
 
 /** A minimal single-sense entry: every rule here reads `definition`
- * and nothing else. Fixture tier — the corpus tier lives in
- * `seam-space.corpus.test.ts`. */
+ * and nothing else. Fixture tier — the corpus tier was retired in
+ * consolidation step 5, listed in `docs/v2/retired-corpus-checks.md`. */
 function entryWith(definition: string): SourceEntry {
 	return {
 		content: { senses: [{ definition }] },
@@ -80,8 +80,8 @@ describe('seam-space rules', () => {
 // population this module deliberately declines (see the module doc's
 // "Two owners, one seam", the translit narrowing, and the geresh
 // `dir="rtl"` scoping). Each pin uses the repo's identity-return idiom
-// (`italic-period.corpus.test.ts`, `gershayim.corpus.test.ts`,
-// `misc-links.corpus.test.ts`): a rule that declines a case must hand
+// (`italic-period.test.ts`, `gershayim.test.ts`,
+// `misc-links.test.ts`): a rule that declines a case must hand
 // back the caller's own object.
 describe('the three narrowings decline their boundary cases', () => {
 	it('anchorItalicSpace declines a paren-adjacent </a><i> seam', () => {

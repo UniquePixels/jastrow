@@ -27,8 +27,9 @@
  *     no residue at all  ← this row              36      36
  *
  * "After" is the whole `structural-repairs` phase with this rule held
- * out, which is what this rule actually receives and what
- * `continuation-marker.corpus.test.ts` asserts. **The first arm
+ * out, which is what this rule actually receives, measured on the
+ * 2026-07-04 export by a corpus check retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`). **The first arm
  * collapses because this same batch repaired it**:
  * `strandedDashStarMarker` and `stemHeadMarkerChop` rejoined 101 of the
  * 109. This row's own population is unaffected either way.

@@ -44,11 +44,12 @@
  * they would be defended only by a pinned total.
  *
  * The argument is the gating, not the size. An earlier version of this
- * note set their 6,128 RAW deleted codepoints against
- * `deletion-baseline.corpus.test.ts`'s 4,510 and called it larger —
- * comparing a raw figure to a stripped one. On the baseline's own basis
- * (`textOf`, tags stripped) these two delete **2,738**, well under
- * 4,510. Both figures are pinned in `duplication.corpus.test.ts`.
+ * note set their 6,128 RAW deleted codepoints against the baseline's
+ * 4,510 and called it larger — comparing a raw figure to a stripped
+ * one. On the baseline's own basis (`textOf`, tags stripped) these two
+ * delete **2,738**, well under 4,510. Both figures were pinned by
+ * corpus checks retired in consolidation step 5
+ * (`docs/v2/retired-corpus-checks.md`).
  *
  * Both also REMOVE ANCHORS, because a duplicated run can contain one:
  * 26 of the 88 opening runs hold 30 anchors between them, and 9 of the

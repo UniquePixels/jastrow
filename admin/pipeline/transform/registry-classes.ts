@@ -85,8 +85,9 @@ const RETARGET = new Set([
  * target" is a claim about markup they demonstrably edit ADJACENT to,
  * not one they are trivially incapable of breaking. Batch 3a's
  * headline finding was a link regression that every per-rule
- * measurement missed. The corpus pass in `registry.order.corpus.test.ts` and
- * `body/pipeline-links.corpus.test.ts` are the two things that can see it.
+ * measurement missed. The corpus pass in `registry.order.corpus.test.ts`
+ * can see it; so could a second corpus check, retired in
+ * consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
  *
  * Rule 1 says nothing about where any of the twelve sit, but plenty
  * else does: four measured constraints order them among THEMSELVES,
@@ -168,11 +169,12 @@ const NEITHER = new Set([
 	// of three of them; the open-paren rule is the opposite polarity in
 	// the opposite tag) — so "removes no anchor and writes no target"
 	// is a claim about markup they demonstrably rewrite INSIDE, not one
-	// they are incapable of breaking. The corpus pass in `registry.order.corpus.test.ts` earns it:
-	// every anchor's parsed
+	// they are incapable of breaking. The corpus pass in
+	// `registry.order.corpus.test.ts` earns it: every anchor's parsed
 	// `href`/`data-ref` pair is compared before and after over all
-	// 32,512 entries, and `stranded-tail.corpus.test.ts` compares the whole
-	// opening-tag multiset besides.
+	// 32,512 entries; a sibling corpus check compared the whole
+	// opening-tag multiset besides, a measurement retired in
+	// consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
 	'anchor-swallows-close-paren',
 	'ascii-quote-as-gershayim-in-body',
 	'citation-number-truncated-outside-anchor',
@@ -396,9 +398,10 @@ const MINT = new Set(['unlinked-bare-anaphor']);
  * DOES read and write these fields, though — `gershayimInBody` is scoped
  * to every field `fieldsOf` walks, `headword` and `alt_headwords`
  * included, and it composes with `phraseAltHeadwordStub` measurably
- * (`body/pipeline-links.corpus.test.ts` pins the corpus gershayim
- * count moving 2,305 → 2,309 because the phrase rule copies a headword
- * that rule already repaired). The ORDER is free and that is measured,
+ * (the corpus gershayim count moving 2,305 → 2,309 because the phrase
+ * rule copies a headword that rule already repaired, measured on the
+ * 2026-07-04 export by a corpus check retired in consolidation step 5,
+ * `docs/v2/retired-corpus-checks.md`). The ORDER is free and that is measured,
  * not assumed: both directions give 92 marks over these two fields and
  * 235 phrase records, since `gershayimInBody` walks every field and
  * repairs the copy too when it runs second. Converging is not the same

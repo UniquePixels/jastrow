@@ -154,8 +154,10 @@ function firstDuplicatePair(
  * read straight off the records rather than re-derived by whoever
  * reads the migration report: `)` 702 / `.` 52 / `,` 1 in
  * `language_reference`, `.` 387 / `)` 68 / nothing 20 in `definition`,
- * pinned in `nested-anchor.corpus.test.ts`. The empty arm is the 20 JT
- * pairs, and it is `''` rather than absent for the same reason —
+ * measured on the 2026-07-04 export by a corpus check retired in
+ * consolidation step 5 (`docs/v2/retired-corpus-checks.md`). The empty
+ * arm is the 20 JT pairs, and it is `''` rather than absent for the
+ * same reason —
  * "trapped nothing" is a census bucket, not a missing measurement.
  *
  * READ THIS BEFORE TREATING THE CENSUS AS A SAFETY CHECK. It is
@@ -332,7 +334,7 @@ function overDefinitions(entry: SourceEntry): {
  * `unaccountedEdges` still REPORTS the mutual edge, and correctly: it
  * asks about execution order, and a row with no rule has no position
  * to be ordered against. That report is pinned in
- * `registry.order.corpus.test.ts` alongside its reason.
+ * `registry.order.test.ts` alongside its reason.
  */
 const nestedAnchorDuplicate: Rule = {
 	apply(entry: SourceEntry): TransformResult {
