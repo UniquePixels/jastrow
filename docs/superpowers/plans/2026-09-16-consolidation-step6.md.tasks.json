@@ -19,7 +19,7 @@
     {
       "id": 2,
       "subject": "Task 3: Record the archive branch and tag",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** A branch and tag hold the research code, so §8's \"stays re-runnable\" is true and nothing is lost.\n\n**Files:**\n- None modified - git refs only: branch and tag `archive/v2-research-2026-09`\n\n**Acceptance Criteria:**\n- [ ] Branch `archive/v2-research-2026-09` exists at current HEAD\n- [ ] Tag of the same name exists at the same commit\n- [ ] Both refs are LOCAL ONLY — this task does not push (controller Ruling 5)\n- [ ] `git show <ref>:admin/pipeline/page-index/build.ts | head -1` prints the file's first line\n\n**Verify:** `git show archive/v2-research-2026-09:admin/pipeline/research/verify.ts | wc -l` -> `584`\n\n```json:metadata\n{\"files\": [], \"verifyCommand\": \"git show archive/v2-research-2026-09:admin/pipeline/research/verify.ts | wc -l\", \"acceptanceCriteria\": [\"branch exists at HEAD\", \"tag exists at same commit\", \"both refs local only, no push\", \"archived tree holds page-index/build.ts\"], \"modelTier\": \"mechanical\"}\n```",
       "blockedBy": [
         1
@@ -80,5 +80,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-16T12:41:36.300304"
+  "lastUpdated": "2026-09-16T12:44:25.878518"
 }
