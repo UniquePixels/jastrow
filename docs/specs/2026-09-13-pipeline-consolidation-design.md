@@ -383,7 +383,7 @@ Steps 1–4 have shipped and are kept as history.
    in step 5; required checks deferred (§5.2).
 4. *Shipped (#90).* Structured report rows and the patch-preflight
    change (§3.1, §4.2).
-5. *Shipped (this PR).* Remove the Rebuild and Corpus Audit CI jobs; move hand-written
+5. *Shipped (#92).* Remove the Rebuild and Corpus Audit CI jobs; move hand-written
    example tests to the unit tier; delete count pins; the two invariant
    files become a local script (§5.1, §5.3).
 6. Archive move and `package.json` reduction (§8).

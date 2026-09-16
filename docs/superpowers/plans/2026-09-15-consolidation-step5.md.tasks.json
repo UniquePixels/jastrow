@@ -4,72 +4,93 @@
     {
       "id": 1,
       "subject": "Task 1: Inventory of retired checks",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** A committed list of the 191 tests this plan deletes, each linked to its source at `03167f0d` and assigned a kind, written before any corpus file changes.\n\n**Files:**\n- Create: `docs/v2/retired-corpus-checks.md`\n\n**Acceptance Criteria:**\n- [ ] The Appendix A classifier prints `TOTAL corpus=217 example=188 files=45/45`.\n- [ ] Appendix B prints `deleted: 191, research: 10, moved: 182, kept: 11, converted: 11`.\n- [ ] `docs/v2/retired-corpus-checks.md` has 191 table rows, and none has the kind `other`.\n- [ ] `rules/headword.corpus.test.ts:410` has the kind `order`.\n\n**Verify:** `grep -c '^| \\[' docs/v2/retired-corpus-checks.md` → `191`; `grep -c '| other |' docs/v2/retired-corpus-checks.md` → `0`\n\nFull steps and the three appendix scripts: plan Task 1, Appendices A and B.\n\n```json:metadata\n{\"files\": [\"docs/v2/retired-corpus-checks.md\"], \"verifyCommand\": \"grep -c '^| \\\\[' docs/v2/retired-corpus-checks.md && grep -c '| other |' docs/v2/retired-corpus-checks.md\", \"acceptanceCriteria\": [\"classifier TOTAL corpus=217 example=188 files=45/45\", \"inventory tally deleted 191 research 10 moved 182 kept 11 converted 11\", \"191 rows, 0 other\", \"headword.corpus.test.ts:410 is order\"], \"modelTier\": \"standard\"}\n```"
     },
     {
       "id": 2,
       "subject": "Task 2: Static registry order into bun qa",
-      "status": "pending",
-      "blockedBy": [1],
+      "status": "completed",
+      "blockedBy": [
+        1
+      ],
       "description": "**Goal:** The 21 registry-order tests that need no source data run in the unit tier, plus one new static pin for the paren→phrase direction. The corpus file keeps only the 10 tests that earn each class over the data.\n\n**Files:**\n- Create: `admin/pipeline/transform/registry-classes.ts`\n- Create: `admin/pipeline/transform/registry.order.test.ts`\n- Modify: `admin/pipeline/transform/registry.order.corpus.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `bun test admin/pipeline/transform/registry.order.test.ts` → `22 pass`, `0 fail`.\n- [ ] Appendix C on the unit file → `21 same, 0 changed, 1 new`. The one `NEW` is `registry order > parenAltHeadword runs STRICTLY BEFORE phraseAltHeadwordStub`.\n- [ ] Appendix C on the corpus file → `10 same, 0 changed, 0 new`.\n- [ ] `bun test admin/pipeline/transform/registry.order.corpus.test.ts` → `10 pass`, `0 fail`.\n- [ ] The new pin fails when its two ids are swapped (negative control, then reverted).\n- [ ] No moved comment says \"this file\", \"below\", \"above\" or \"bottom\" about something that is now in the other file.\n\n**Verify:** `bun test admin/pipeline/transform/registry.order.test.ts` → `22 pass`\n\nFull steps, the base-line range table and code: plan Task 2.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/registry-classes.ts\", \"admin/pipeline/transform/registry.order.test.ts\", \"admin/pipeline/transform/registry.order.corpus.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/registry.order.test.ts\", \"acceptanceCriteria\": [\"unit file 22 pass\", \"verify-moves unit 21 same 0 changed 1 new\", \"verify-moves corpus 10 same 0 changed 0 new\", \"corpus file 10 pass\", \"new pin negative control fails then passes\", \"no stale positional comments\"], \"modelTier\": \"standard\"}\n```"
     },
     {
       "id": 3,
       "subject": "Task 3: Commutation helper tests into bun qa",
-      "status": "pending",
-      "blockedBy": [1],
+      "status": "completed",
+      "blockedBy": [
+        1
+      ],
       "description": "**Goal:** The 8 tests of `changingRids` and `nonCommutingPairs` over hand-built entries run in the unit tier. The corpus file keeps only the registry-wide commutation gate.\n\n**Files:**\n- Create: `admin/pipeline/transform/commutation.test.ts`\n- Modify: `admin/pipeline/transform/commutation.corpus.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `bun test admin/pipeline/transform/commutation.test.ts` → `8 pass`, `0 fail`.\n- [ ] Appendix C → `8 same, 0 changed, 0 new` (unit file), and `1 same, 0 changed, 0 new` (corpus file).\n- [ ] `bun test admin/pipeline/transform/commutation.corpus.test.ts` → `1 pass`, `0 fail`.\n\n**Verify:** `bun test admin/pipeline/transform/commutation.test.ts` → `8 pass`\n\nFull steps and imports: plan Task 3.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/commutation.test.ts\", \"admin/pipeline/transform/commutation.corpus.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/commutation.test.ts\", \"acceptanceCriteria\": [\"unit file 8 pass\", \"verify-moves 8 same and 1 same, 0 changed\", \"corpus file 1 pass\"], \"modelTier\": \"mechanical\"}\n```"
     },
     {
       "id": 4,
       "subject": "Task 4: Gershayim fixtures from a committed file",
-      "status": "pending",
-      "blockedBy": [1],
+      "status": "completed",
+      "blockedBy": [
+        1
+      ],
       "description": "**Goal:** The 11 gershayim tests over eight real entries, and the file's 2 fixed-input tests, run in the unit tier from a committed 8-line JSONL file. The file's 5 corpus measurements are deleted.\n\n**Files:**\n- Create: `admin/pipeline/transform/rules/fixtures/gershayim.jsonl`\n- Create: `admin/pipeline/transform/rules/gershayim.test.ts`\n- Delete: `admin/pipeline/transform/rules/gershayim.corpus.test.ts`\n\n**Acceptance Criteria:**\n- [ ] The fixture holds exactly 8 lines, whose `.rid` values are `A00000 A00009 A00253 A00692 B00752 C01225 M01940 U01408` in that order. Each line is byte-identical to its line in `data/source/jastrow-dictionary.jsonl`.\n- [ ] `bun test admin/pipeline/transform/rules/gershayim.test.ts` → `13 pass`, `0 fail`.\n- [ ] Appendix C → `13 same, 0 changed, 0 new`.\n- [ ] `gershayim.test.ts` carries no corpus signal; `admin/pipeline/test-tiers.test.ts` passes.\n\n**Verify:** `bun test admin/pipeline/transform/rules/gershayim.test.ts` → `13 pass`\n\nFull steps, docstring and loader code: plan Task 4.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/fixtures/gershayim.jsonl\", \"admin/pipeline/transform/rules/gershayim.test.ts\", \"admin/pipeline/transform/rules/gershayim.corpus.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/rules/gershayim.test.ts\", \"acceptanceCriteria\": [\"fixture 8 lines with the named rids in order, byte-identical to source\", \"13 pass\", \"verify-moves 13 same 0 changed 0 new\", \"test-tiers passes\"], \"modelTier\": \"mechanical\"}\n```"
     },
     {
       "id": 5,
       "subject": "Task 5: Link-rule examples into bun qa",
-      "status": "pending",
-      "blockedBy": [1, 2, 3, 4],
+      "status": "completed",
+      "blockedBy": [
+        1,
+        2,
+        3,
+        4
+      ],
       "description": "**Goal:** The 71 fixed-input tests in five link-rule corpus files run in the unit tier, and those files' 27 corpus tests are deleted.\n\n**Files:**\n- Rename + modify: `admin/pipeline/transform/rules/anaphora.corpus.test.ts` → `anaphora.test.ts`\n- Rename + modify: `admin/pipeline/transform/rules/geresh.corpus.test.ts` → `geresh.test.ts`\n- Rename + modify: `admin/pipeline/transform/rules/misc-links.corpus.test.ts` → `misc-links.test.ts`\n- Rename + modify: `admin/pipeline/transform/rules/unlink.corpus.test.ts` → `unlink.test.ts`\n- Rename + modify: `admin/pipeline/transform/rules/unlink-nesting.corpus.test.ts` → `unlink-nesting.test.ts`\n\n**Acceptance Criteria:**\n- [ ] Each destination passes, and Appendix C reports `0 changed, 0 new` with these `same` counts: anaphora 29, geresh 10, misc-links 15, unlink 16, unlink-nesting 1.\n- [ ] No destination imports `corpus-fixture.ts`; `bun test admin/pipeline/test-tiers.test.ts` passes.\n- [ ] `bun qa:test` → `1535 pass`, `0 fail`.\n\n**Verify:** `bun qa:test 2>&1 | grep -E '^ *[0-9]+ (pass|fail)'` → `1535 pass`, `0 fail`\n\nFull steps and the per-file deletion ranges: plan Task 5.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/anaphora.test.ts\", \"admin/pipeline/transform/rules/geresh.test.ts\", \"admin/pipeline/transform/rules/misc-links.test.ts\", \"admin/pipeline/transform/rules/unlink.test.ts\", \"admin/pipeline/transform/rules/unlink-nesting.test.ts\"], \"verifyCommand\": \"bun qa:test\", \"acceptanceCriteria\": [\"verify-moves same counts 29/10/15/16/1, 0 changed 0 new\", \"no corpus-fixture import; test-tiers passes\", \"qa:test 1535 pass 0 fail\"], \"modelTier\": \"mechanical\"}\n```"
     },
     {
       "id": 6,
       "subject": "Task 6: Remaining examples into bun qa",
-      "status": "pending",
-      "blockedBy": [5],
+      "status": "completed",
+      "blockedBy": [
+        5
+      ],
       "description": "**Goal:** The last 80 fixed-input tests leave the corpus tier: 79 from seven files, and 1 appended to an existing unit file. Those files' 32 corpus tests are deleted.\n\n**Files:**\n- Rename + modify: `admin/pipeline/transform/rules/italic-period.corpus.test.ts` → `italic-period.test.ts`\n- Rename + modify: `admin/pipeline/transform/rules/punct-seams.corpus.test.ts` → `punct-seams.test.ts`\n- Rename + modify: `admin/pipeline/transform/rules/stranded-tail.corpus.test.ts` → `stranded-tail.test.ts`\n- Rename + modify: `admin/pipeline/transform/rules/nested-anchor.corpus.test.ts` → `nested-anchor.test.ts`\n- Rename + modify: `admin/pipeline/body/labels.corpus.test.ts` → `labels.test.ts`\n- Rename + modify: `admin/pipeline/transform/abbrev-vocab.corpus.test.ts` → `abbrev-vocab.test.ts`\n- Rename + modify: `admin/pipeline/transform/rules/plural-capture.corpus.test.ts` → `plural-capture.test.ts`\n- Modify: `admin/pipeline/transform/rules/sense-marker.test.ts` (append one test)\n- Delete: `admin/pipeline/transform/rules/sense-marker.corpus.test.ts`\n\n**Acceptance Criteria:**\n- [ ] Appendix C reports `0 changed, 0 new` with these `same` counts: italic-period 19, punct-seams 18, stranded-tail 14, nested-anchor 13, labels 10, abbrev-vocab 4, plural-capture 1, sense-marker 12 (11 existing + 1 appended).\n- [ ] Each destination passes; `labels.test.ts` finishes in under 0.2 s.\n- [ ] `bun qa:test` → `1615 pass`, `0 fail`.\n\n**Verify:** `bun qa:test 2>&1 | grep -E '^ *[0-9]+ (pass|fail)'` → `1615 pass`, `0 fail`\n\nFull steps, deletion ranges and file notes: plan Task 6.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/italic-period.test.ts\", \"admin/pipeline/transform/rules/punct-seams.test.ts\", \"admin/pipeline/transform/rules/stranded-tail.test.ts\", \"admin/pipeline/transform/rules/nested-anchor.test.ts\", \"admin/pipeline/body/labels.test.ts\", \"admin/pipeline/transform/abbrev-vocab.test.ts\", \"admin/pipeline/transform/rules/plural-capture.test.ts\", \"admin/pipeline/transform/rules/sense-marker.test.ts\", \"admin/pipeline/transform/rules/sense-marker.corpus.test.ts\"], \"verifyCommand\": \"bun qa:test\", \"acceptanceCriteria\": [\"verify-moves same counts 19/18/14/13/10/4/1 and sense-marker 12, 0 changed 0 new\", \"labels.test.ts under 0.2 s\", \"qa:test 1615 pass 0 fail\"], \"modelTier\": \"mechanical\"}\n```"
     },
     {
       "id": 7,
       "subject": "Task 7: Delete the all-corpus files",
-      "status": "pending",
-      "blockedBy": [6],
+      "status": "completed",
+      "blockedBy": [
+        6
+      ],
       "description": "**Goal:** The 27 corpus files with no test that runs without the source data are deleted. Their 132 tests are already in the inventory.\n\n**Files:**\n- Delete (`admin/pipeline/`): `body/binyan-cleanup.corpus.test.ts`, `body/deletion-baseline.corpus.test.ts`, `body/pipeline-links.corpus.test.ts`, `migrate/gates.corpus.test.ts`, `migrate/headword.corpus.test.ts`, `patch/apply.corpus.test.ts`, `transform/links.corpus.test.ts`\n- Delete (`admin/pipeline/transform/rules/`): `anaphora-mint`, `continuation-marker`, `duplication`, `edge-trim`, `geresh-apostrophe`, `gloss-head-rejoin`, `headword`, `holam-mater`, `impossible-dagesh`, `italic-paren`, `malformed-href`, `paren-boundary`, `seam-space`, `section-break`, `see-particle`, `shin-sin`, `stem-section`, `stem`, `unlink-scope`, `v-sub-twin` (each `.corpus.test.ts`)\n\n**Acceptance Criteria:**\n- [ ] Exactly 4 `*.corpus.test.ts` files remain: `transform/commutation`, `transform/registry.order`, `research/residue-sweep`, `body/implied-one-census`.\n- [ ] Every deleted file's tests appear in `docs/v2/retired-corpus-checks.md` (the counts per file match).\n- [ ] `bun qa` passes; `bun qa:test` → `1615 pass`.\n\n**Verify:** `git ls-files '*.corpus.test.ts'` → the 4 files above\n\nFull steps and the cross-check command: plan Task 7.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/**/*.corpus.test.ts (27 deleted)\"], \"verifyCommand\": \"git ls-files '*.corpus.test.ts'\", \"acceptanceCriteria\": [\"exactly 4 corpus files remain\", \"inventory cross-check prints 132 0\", \"bun qa passes; qa:test 1615 pass\"], \"modelTier\": \"mechanical\"}\n```"
     },
     {
       "id": 8,
       "subject": "Task 8: Tier guard, invariants script, CI jobs",
-      "status": "pending",
-      "blockedBy": [7],
+      "status": "completed",
+      "blockedBy": [
+        7
+      ],
       "description": "**Goal:**\n- A test fails if a corpus-tier file is run by nothing without being named as awaiting the archive.\n- `bun run transform:invariants` runs the two invariant files.\n- `ci-lint.yml` has no Rebuild or Corpus Audit job.\n\n**Files:**\n- Modify: `admin/pipeline/test-tiers.test.ts`\n- Modify: `package.json`\n- Delete: `admin/pipeline/audit-corpus.sh`\n- Modify: `.gitignore:33-34`\n- Modify: `.github/workflows/ci-lint.yml`\n\n**Acceptance Criteria:**\n- [ ] The new test fails, naming both invariant files, before the script exists, and passes after.\n- [ ] Negative control: removing `registry.order` from the script makes it fail, naming that file.\n- [ ] `bun run transform:invariants` → `11 pass`, `0 fail`; its wall time is recorded for Task 10.\n- [ ] Workflow jobs parse as `[ \"quality\", \"dependency-review\" ]`.\n- [ ] `bun qa:test` → `1616 pass`, `0 fail`.\n\n**Verify:** `bun -e \"console.log(Object.keys(Bun.YAML.parse(await Bun.file('.github/workflows/ci-lint.yml').text()).jobs))\"` → `[ \"quality\", \"dependency-review\" ]`\n\nFull steps, guard test code and YAML comment: plan Task 8.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/test-tiers.test.ts\", \"package.json\", \"admin/pipeline/audit-corpus.sh\", \".gitignore\", \".github/workflows/ci-lint.yml\"], \"verifyCommand\": \"bun -e \\\"console.log(Object.keys(Bun.YAML.parse(await Bun.file('.github/workflows/ci-lint.yml').text()).jobs))\\\"\", \"acceptanceCriteria\": [\"guard fails before script, passes after\", \"negative control names registry.order\", \"transform:invariants 11 pass, time recorded\", \"jobs quality and dependency-review only\", \"qa:test 1616 pass\"], \"modelTier\": \"standard\"}\n```"
     },
     {
       "id": 9,
       "subject": "Task 9: Comments that name retired files",
-      "status": "pending",
-      "blockedBy": [8],
+      "status": "completed",
+      "blockedBy": [
+        8
+      ],
       "description": "**Goal:** No code comment under `admin/` points a reader at a corpus test file that no longer exists, or claims a retired check still runs.\n\n**Files:**\n- Modify (comments only; counts at `03167f0d`):\n  - `admin/pipeline/transform/registry.ts` (36)\n  - `admin/pipeline/transform/rules/anaphora.ts` (6)\n  - `admin/pipeline/transform/rules/unlink.ts` (5)\n  - `admin/pipeline/transform/rules/headword.ts` (4)\n  - `admin/pipeline/transform/abbrev-vocab.ts`, `admin/pipeline/transform/types.ts` (3 each)\n  - two each: `link-target.ts`, `rules/{duplication,geresh,holam-mater,italic-period,misc-links,nested-anchor,punct-seams,stem-section}.ts`, `rules/headword-census.ts`\n  - one each: `commutation.ts`, `gershayim.ts`, `no-lost-text.ts`, `rules/{continuation-marker,edge-trim,impossible-dagesh,italic-paren,paren-boundary,see-particle,sense-marker,shin-sin,stranded-tail,v-sub-twin}.ts`\n- Modify (comments only): `admin/pipeline/patch/apply-cli.test.ts`, `admin/pipeline/transform/{gershayim,links,registry}.test.ts`, `admin/pipeline/transform/rules/{duplication,edge-trim,headword,italic-paren,malformed-href,paren-boundary,seam-space,stem-section,v-sub-twin}.test.ts`\n\n**Acceptance Criteria:**\n- [ ] The stale-name grep below prints nothing.\n- [ ] Every remaining `registry.order.corpus.test.ts` reference is about a class being EARNED over the data. At base those are `registry.ts:120`, `:185`, `:332`. References to a static pin name `registry.order.test.ts`; references to a class set name `registry-classes.ts`.\n- [ ] No comment says a retired check runs \"on every `bun qa`\", \"re-derives … and fails\", or \"is the only thing\" that pins something, unless that check still exists.\n- [ ] `git diff --stat 03167f0d -- admin/pipeline/transform/registry.ts` shows only comment lines changed (reviewed by eye; `bun qa` passes).\n\n**Verify:** `git grep -a -n -E '[A-Za-z0-9./-]+\\.corpus\\.test\\.ts' -- admin | grep -a -v -E '(commutation|registry\\.order|residue-sweep|implied-one-census)\\.corpus\\.test\\.ts|\\*\\.corpus\\.test\\.ts'` → no output\n\nFull steps and the rewrite table: plan Task 9.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/registry.ts\", \"admin/pipeline/transform/rules/*.ts\", \"admin/pipeline/transform/*.ts\", \"admin/pipeline/**/*.test.ts\"], \"verifyCommand\": \"git grep -a -n -E '[A-Za-z0-9./-]+\\\\.corpus\\\\.test\\\\.ts' -- admin | grep -a -v -E '(commutation|registry\\\\.order|residue-sweep|implied-one-census)\\\\.corpus\\\\.test\\\\.ts|\\\\*\\\\.corpus\\\\.test\\\\.ts'\", \"acceptanceCriteria\": [\"stale-name grep empty\", \"remaining registry.order.corpus refs are earned-class only\", \"no retired check described as running\", \"registry.ts comment-only diff\"], \"modelTier\": \"standard\"}\n```"
     },
     {
       "id": 10,
       "subject": "Task 10: Documents, spec amendment, review, PR",
-      "status": "pending",
-      "blockedBy": [9],
+      "status": "completed",
+      "blockedBy": [
+        9
+      ],
       "description": "**Goal:**\n- Contributor docs, the glossary and the spec describe one CI test tier and the local invariants script.\n- The spec records what step 5 measured and shipped.\n- The branch passes the local review battery and is open as a PR into `v2`.\n\n**Files:**\n- Modify: `CONTRIBUTING.md` (Tests section; PR checks line)\n- Modify: `.claude/CLAUDE.md` (Test Tiers section)\n- Modify: `docs/v2/test-tiers.md` (status block at top)\n- Modify: `docs/glossary.md:117,118,130`\n- Modify: `docs/specs/2026-09-13-pipeline-consolidation-design.md` (§1, §5.1, §5.3, §8, §10, §11, §12)\n\n**Acceptance Criteria:**\n- [ ] `git grep -a -n -E 'audit:corpus|Corpus Audit|Rebuild' -- CONTRIBUTING.md .claude/CLAUDE.md docs/glossary.md` prints only the glossary's retired-terms row.\n- [ ] The spec's §11 step 5 reads `*Shipped (#N).*` with the real PR number, and §12 has a step-5 row.\n- [ ] The local CodeRabbit review over the whole diff against `v2` has no unaddressed finding.\n- [ ] The PR is open against `v2`; its checks include no `Rebuild` and no `Corpus Audit`, and `Lint`, `Type Check` and `Test` pass.\n\n**Verify:** `gh pr view --json baseRefName,statusCheckRollup --jq '.baseRefName, ([.statusCheckRollup[] | select(.name | test(\"Rebuild|Corpus Audit\"))] | length), [.statusCheckRollup[] | select(.name | test(\"^(Lint|Type Check|Test)$\")) | .conclusion]'` → `v2`, `0`, `[\"SUCCESS\",\"SUCCESS\",\"SUCCESS\"]`\n\nFull steps, replacement text, spec edits and PR body: plan Task 10.\n\n```json:metadata\n{\"files\": [\"CONTRIBUTING.md\", \".claude/CLAUDE.md\", \"docs/v2/test-tiers.md\", \"docs/glossary.md\", \"docs/specs/2026-09-13-pipeline-consolidation-design.md\"], \"verifyCommand\": \"gh pr view --json baseRefName,statusCheckRollup\", \"acceptanceCriteria\": [\"retired terms only in glossary row 130\", \"spec step 5 shipped with PR number and changelog row\", \"local CodeRabbit review findings addressed\", \"PR against v2 without Rebuild/Corpus Audit checks; Lint, Type Check, Test pass\"], \"modelTier\": \"standard\"}\n```"
     }
   ],
-  "lastUpdated": "2026-09-15T13:30:00-05:00"
+  "lastUpdated": "2026-09-16T02:42:54Z"
 }
