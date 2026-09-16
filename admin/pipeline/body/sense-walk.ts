@@ -53,7 +53,7 @@ function classifyBoundary(before: string): Boundary {
 }
 
 /** Depth-first walk over a sense tree, yielding every node including
- * nested sub-senses. */
+ * nested sub-senses. Shared with later tasks (grammar/labels/units). */
 function* walkSenses(senses: SourceSense[]): Generator<SourceSense> {
 	for (const sense of senses) {
 		yield sense;
