@@ -22,7 +22,7 @@
  *
  * **Scope, and it is deliberate.** `run.ts` enforces this gate for
  * `structural-repairs` rules only. Measured over all 32,512 entries,
- * **11 registered `text-repairs` rules delete text — 4,510 codepoints
+ * **13 registered `text-repairs` rules delete text — 4,573 codepoints
  * between them**: ten that predate this batch (4,504, most of it
  * substitution the multiset reads as a deletion plus an addition, `"`
  * → `״` alone being 2,125), plus batch 6b's own
@@ -30,8 +30,8 @@
  * declares it although nothing in that phase reads the declaration.
  * Turning the gate on globally would have meant retrofitting a
  * declaration onto ten shipped rules in the PR that introduces it.
- * All eleven were pinned at their exact counts by a corpus check
- * instead, so a TWELFTH deleting rule would have failed a test rather
+ * All thirteen were pinned at their exact counts by a corpus check
+ * instead, so a FOURTEENTH deleting rule would have failed a test rather
  * than passing unremarked. That check is retired in consolidation
  * step 5; on a new export this is a review-detector candidate
  * (consolidation spec §10), listed in `docs/v2/retired-corpus-checks.md`.
@@ -39,7 +39,7 @@
  * `structural-repairs` scope does not substitute for that retired
  * per-rule accounting: `migrate`'s `checkTextConservation` compares
  * the composed body against the finished entry, not per rule, so a
- * TWELFTH `text-repairs` rule that deletes text would pass every gate
+ * FOURTEENTH `text-repairs` rule that deletes text would pass every gate
  * and every test unremarked.
  */
 import type { SourceEntry } from '../body/types.ts';
