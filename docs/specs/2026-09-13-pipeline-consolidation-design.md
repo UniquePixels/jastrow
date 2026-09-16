@@ -336,7 +336,7 @@ rebuild after an entry is added, and is cheap to do now.
 | `.superpowers/`, `.claude/worktrees/*`, `.worktrees/` | delete stale entries | two stale worktrees today |
 | research notes filed beside the data: `data/patches/{catalogue-audit,discovery-round-2,discovery-round-3,checkpoints}/`, `data/source/divergence-report.json` | `docs/archive/` on `v2` | reports, not correction data or source data (§1.1); confirm no file is a `migrate` input before moving. Not `data/patches/pilot/`: `patch/apply.ts` loads it as carry-over patches |
 | `audit:corpus`, `admin/pipeline/audit-corpus.sh` | deleted | leave with the Corpus Audit job (§5.1, step 5) |
-| `transform/rules/headword-census.ts`; `walkSenses` in `body/census.ts` | archive with the research code | `headword-census.ts` lost its only importer in step 5. `body/labels.test.ts` still imports `walkSenses` from `census.ts`: move that generator next to `labels.ts` before archiving `census.ts` |
+| `transform/rules/headword-census.ts`; `walkSenses` and `stripTags` in `body/census.ts` | archive with the research code | `headword-census.ts` lost its only importer in step 5. `census.ts` cannot leave with it: nine modules import `walkSenses` today, and six outlive step 6 — `body/dry-run-report.ts`, `patch/seed-sense-runs.ts`, and the `labels`, `form-sections`, `lettered` and `units` body tests. `seed-sense-runs.ts` also imports `stripTags`. Move both helpers into a module that stays before archiving `census.ts` |
 
 `package.json` after the move: `pipeline:fetch`, `pipeline:migrate`,
 `pipeline:compile` (when built), `pageindex:verify`, `qa*`, the
