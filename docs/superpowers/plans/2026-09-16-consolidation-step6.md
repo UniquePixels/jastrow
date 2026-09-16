@@ -52,21 +52,22 @@ corrects the spec.
 
 | Fact | Measured | §8 says |
 |---|---|---|
-| Source files unreachable from any surviving root or test | 20 | — |
+| Source files unreachable from any surviving root or test | 20, plus `seed-sense-runs.ts` by cascade = 21 | — |
 | `research/` | 14 src / 5,058 lines + 15 test / 3,960 lines | part of "17,746" |
 | `provenance/` | 6 src / 800 lines + 3 test / 305 lines | "1,174" |
 | `body/census.ts` helpers needed by survivors | **three** — `walkSenses`, `stripTags`, **`classifyBoundary`** | "both helpers" (two) |
-| `body/census.ts` importers | 10 modules/tests; **7** outlive step 6 | "nine … six outlive" |
+| `body/census.ts` importers | 10 modules/tests; **6** outlive step 6 | "nine … six outlive" |
 | `patch/seed-tranche.ts` | imports `research/{chunks,tranche}.ts`; must archive | **not named in §4.1** |
+| `patch/seed-sense-runs.ts` | imports `./seed-tranche.ts`; **cannot survive** (controller Ruling 1) | called a survivor — wrong |
 | `data/patches/tranches/` | read by production `patch/apply.ts` | not named — correctly not archived |
 | `data/patches/catalogue-audit/` | 41 docs, cited by **11** surviving source files | move named, citation cost not noted |
 | `research/{patterns,manifest}.ts` importers | 11 (incl. `transform/registry.ts`, `transform/count.ts`, `patch/apply-cli.ts`) | "move into `patch/` first" |
 | Registry `PENDING` block | 490 lines | "487 lines" |
 | `.claude/worktrees/` | 6 dirs; only 2 are registered git worktrees | "two stale worktrees today" |
 | `transform/rules/headword-census.ts` | only reference in `headword.ts` is prose at line 130, not an import | "lost its only importer" ✓ |
-| `package.json` scripts | 24 | 24 ✓ |
+| `package.json` scripts | **25** (step 5 added `transform:invariants`) | 24 |
 
-### The archive set (20 source files + their tests)
+### The archive set (21 source files + their tests)
 
 `research/` minus `patterns.ts` and `manifest.ts`: `anomalies.ts`,
 `chunks.ts`, `corpus-inputs.ts`, `headword-index.ts`, `hebrew-anomalies.ts`,
@@ -79,7 +80,8 @@ All of `provenance/`: `audit.ts`, `baseline-audit.ts`, `baseline-transform.ts`,
 `body/`: `census.ts`, `review.ts`, `migrate-dry.ts`, `implied-one-census.ts`,
 `fixtures/extract.ts`.
 
-`patch/`: `seed-implied-one.ts`, `seed-tranche.ts`.
+`patch/`: `seed-implied-one.ts`, `seed-tranche.ts`, `seed-sense-runs.ts` —
+all three fall together via `seed-tranche.ts` → `research/chunks.ts`.
 
 `page-index/` build code: `align.ts`, `bands.ts`, `build.ts`, `columns.ts`,
 `emit.ts`, `hocr.ts`, `layout.ts`, `monotonic.ts`, `spine.ts`
@@ -87,8 +89,7 @@ All of `provenance/`: `audit.ts`, `baseline-audit.ts`, `baseline-transform.ts`,
 
 `transform/rules/headword-census.ts`.
 
-**Stays:** `patch/seed-sense-runs.ts` (§8 names it as a survivor),
-`transform/{commutation,registry-classes}.ts` and
+**Stays:** `transform/{commutation,registry-classes}.ts` and
 `transform/rules/corpus-fixture.ts` (the `transform:invariants` script),
 `migrate/validate.ts` (step 3's data validation, run by `migrate/truth.test.ts`).
 
@@ -209,22 +210,24 @@ that stays, so `census.ts` can be archived.
   definitions and their re-exports)
 - Modify: `admin/pipeline/body/units.ts:10`,
   `admin/pipeline/body/dry-run-report.ts:11`,
-  `admin/pipeline/patch/seed-sense-runs.ts:46`,
   `admin/pipeline/body/labels.test.ts:2`,
   `admin/pipeline/body/form-sections.test.ts:2`,
   `admin/pipeline/body/lettered.test.ts:2`,
   `admin/pipeline/body/units.test.ts:2`
 
 **Acceptance Criteria:**
-- [ ] `body/sense-walk.ts` exports `walkSenses`, `stripTags`,
-      `classifyBoundary` and the `Boundary` type
+- [ ] `body/sense-walk.ts` exports `walkSenses`, `classifyBoundary` and the
+      `Boundary` type. `stripTags` is defined but **not** exported — its only
+      surviving caller is `classifyBoundary` inside the same module
+      (controller Ruling 2; `patch/seed-sense-runs.ts` is archived in Task 4)
 - [ ] The three function bodies are byte-identical to the originals
-- [ ] All 7 surviving importers point at `sense-walk.ts`, none at `census.ts`
+- [ ] All 6 surviving importers point at `sense-walk.ts`, none at `census.ts`
 - [ ] `bun qa` green
 
 **Verify:** `bun qa` → exit 0, and
 `grep -rn "from '\./census.ts'\|from '\.\./body/census.ts'" admin/pipeline --include='*.ts' | grep -v census.test`
-prints only `body/review.ts` and `body/implied-one-census.ts` (both archived in Task 4)
+prints only `body/review.ts`, `body/implied-one-census.ts` and
+`patch/seed-sense-runs.ts` (all archived in Task 4)
 
 **Steps:**
 
@@ -301,7 +304,7 @@ function* walkSenses(senses: SourceSense[]): Generator<SourceSense> {
 }
 
 export type { Boundary };
-export { classifyBoundary, stripTags, walkSenses };
+export { classifyBoundary, walkSenses };
 ```
 
 - [ ] **Step 2: Remove the three from `census.ts` and import them instead**
@@ -324,15 +327,13 @@ import { type Boundary, classifyBoundary, stripTags, walkSenses } from './sense-
    `labelSequence`, `letteredRun`, `pluralSection`, and the
    `BrokenSequenceRow`, `OriginFields`, `SequenceBreakClass` types.
 
-- [ ] **Step 3: Repoint the 7 surviving importers**
+- [ ] **Step 3: Repoint the 6 surviving importers**
 
 ```bash
 cd /Users/brian/Repositories/websites/jastrow/admin/pipeline
 sed -i '' "s|from './census.ts'|from './sense-walk.ts'|" \
   body/units.ts body/dry-run-report.ts \
   body/labels.test.ts body/form-sections.test.ts body/lettered.test.ts body/units.test.ts
-sed -i '' "s|from '../body/census.ts'|from '../body/sense-walk.ts'|" \
-  patch/seed-sense-runs.ts
 ```
 
 Note `body/units.ts` imports `classifyBoundary` — the helper §8 did not
@@ -434,7 +435,7 @@ nothing else changes.
 - Delete: `admin/pipeline/body/{census,review,migrate-dry,implied-one-census}.ts`
   and their `.test.ts` / `.corpus.test.ts` siblings
 - Delete: `admin/pipeline/body/fixtures/extract.ts`
-- Delete: `admin/pipeline/patch/{seed-implied-one,seed-tranche}.ts` and their tests
+- Delete: `admin/pipeline/patch/{seed-implied-one,seed-tranche,seed-sense-runs}.ts` and their tests
 - Delete: `admin/pipeline/page-index/{align,bands,build,columns,emit,hocr,layout,monotonic,spine}.ts`
   and their tests
 - Delete: `admin/pipeline/transform/rules/headword-census.ts`
@@ -444,7 +445,8 @@ nothing else changes.
 **Acceptance Criteria:**
 - [ ] `admin/pipeline/research/` and `admin/pipeline/provenance/` do not exist
 - [ ] `admin/pipeline/page-index/verify.ts` **does** exist and still runs
-- [ ] `admin/pipeline/patch/seed-sense-runs.ts` **does** exist (§8 survivor)
+- [ ] `admin/pipeline/patch/` retains `apply.ts`, `apply-cli.ts`, `schema.ts`,
+      `snapshot.ts`, `patterns.ts`, `manifest.ts` — no `seed-*.ts` remains
 - [ ] No surviving `.ts` file imports a deleted module
 - [ ] `bun qa` green; `bun run transform:invariants` green
 - [ ] `bun pipeline:migrate` (dry run) completes with nine gates green
@@ -466,6 +468,7 @@ git rm --quiet body/census.ts body/census.test.ts \
   body/fixtures/extract.ts \
   patch/seed-implied-one.ts patch/seed-implied-one.test.ts \
   patch/seed-tranche.ts \
+  patch/seed-sense-runs.ts patch/seed-sense-runs.test.ts \
   transform/rules/headword-census.ts
 git rm --quiet page-index/align.ts page-index/bands.ts page-index/build.ts \
   page-index/columns.ts page-index/emit.ts page-index/hocr.ts \
@@ -484,20 +487,23 @@ grep -rln "implied-one-census\|seed-tranche\|/census\.ts\|research/\|provenance/
 ```
 
 Every file this prints imports something now gone. `git rm` each one, then
-re-run until it prints nothing. `patch/seed-sense-runs.test.ts` imports
-`IMPLIED_ONE_CENSUS` from the deleted `body/implied-one-census.ts` — it goes
-too, and `seed-sense-runs.ts`'s own import of it must be checked in Step 3.
+re-run until it prints nothing. The three seeders go together: `seed-sense-runs.ts` and
+`seed-implied-one.ts` both import `./seed-tranche.ts`, which imports
+`../research/chunks.ts`.
 
-- [ ] **Step 3: Check `seed-sense-runs.ts` still compiles**
+- [ ] **Step 3: Confirm the seeders' outputs survive the deletion**
+
+The generators go; their committed output must not. `patch/apply.ts` loads
+`data/patches/tranches/`, which holds `seed-doc-08-sense-runs/` and
+`seed-doc-08-implied-one/`.
 
 ```bash
-cd /Users/brian/Repositories/websites/jastrow/admin/pipeline
-grep -n 'import' patch/seed-sense-runs.ts
+cd /Users/brian/Repositories/websites/jastrow
+ls data/patches/tranches/seed-doc-08-sense-runs data/patches/tranches/seed-doc-08-implied-one
 ```
 
-If it imports `implied-one-census.ts` (deleted in Step 1), `seed-sense-runs.ts`
-cannot survive as §8 assumed. Stop and report: that is a spec finding for
-Task 9, not something to paper over by resurrecting a file.
+Expected: both directories list their files. If either is missing, stop —
+deleting a generator whose output is gone loses the patches.
 
 - [ ] **Step 4: Fix the dangling comment in `headword.ts`**
 
@@ -864,7 +870,7 @@ stale worktree and brainstorm directories go.
 - [ ] Scripts after the change: `pipeline:fetch`, `pipeline:migrate`,
       `pipeline:patches`, `pageindex:verify`, `transform:count`,
       `transform:invariants`, `qa`, `qa:ci`, `qa:format`, `qa:lint`,
-      `qa:test`, `qa:tsc` — 12, down from 24
+      `qa:test`, `qa:tsc` — 12, down from 25
 - [ ] `bun run pipeline:patches --help` (or its no-arg usage output) runs
 - [ ] The two registered git worktrees are removed only if `git worktree list`
       shows them as prunable; `agent-*` directories that are not registered
@@ -877,15 +883,14 @@ stale worktree and brainstorm directories go.
 
 - [ ] **Step 1: Delete the scripts whose entry points are gone**
 
-These 12 go: `body:census`, `body:dry-run`, `body:implied-one-census`,
+These 13 go: `body:census`, `body:dry-run`, `body:implied-one-census`,
 `body:migrate-dry`, `body:review`, `pageindex:build`, `patch:seed-implied-one`,
 `patch:seed-sense-runs`, `provenance:audit`, `provenance:baseline`,
 `provenance:mine`, `research:residue`, `usage`.
 
-`patch:seed-sense-runs`'s module survives (it is imported by nothing but was
-a one-time seeder whose output is committed); the script goes because the
-seeding is done. If Task 4 Step 3 found `seed-sense-runs.ts` could not
-survive, delete the module here too and say so in the commit body.
+`package.json` holds **25** scripts, not the 24 the spec's §1 measured on
+2026-09-11 — step 5 added `transform:invariants` after that count. 25 minus
+these 13 is 12, with `research:apply` renamed in place (controller Ruling 3).
 
 - [ ] **Step 2: Rename `research:apply` to `pipeline:patches`**
 
@@ -952,7 +957,7 @@ bun qa && bun pipeline:migrate
 git add -A
 git commit -s -m "🧺 chore: reduce package.json to the pipeline scripts
 
-24 scripts become 12: the research and one-time seeding entry points
+25 scripts become 12: the research and one-time seeding entry points
 went to archive/v2-research-2026-09 in this step. research:apply is
 renamed pipeline:patches — it is the patch engine, not research.
 
@@ -990,7 +995,11 @@ measurement disagreed with §8.
 
 Add to the `census.ts` row: the helper count is **three**, not two —
 `body/units.ts` imports `classifyBoundary`, and it is on the migrate path.
-Record that 7 modules outlive step 6, not six.
+§8's count of six survivors happens to be right for the wrong reason: it
+counted `patch/seed-sense-runs.ts` (which cannot survive) and missed
+`body/units.ts` (which does). Name the six correctly:
+`body/units.ts`, `body/dry-run-report.ts`, and the `labels`,
+`form-sections`, `lettered` and `units` body tests.
 
 Add a row: `data/patches/tranches/` is a production input read by
 `patch/apply.ts`, alongside `pilot/`; neither is archived.
@@ -1040,8 +1049,8 @@ git add -A
 git commit -s -m "📖 doc(pipeline): record step 6 and correct §8
 
 §8 named two census helpers; classifyBoundary is a third and is on
-the migrate path. seed-tranche.ts joins the §4.1 archive list, and
-data/patches/tranches/ is named as an input that stays.
+the migrate path. Both remaining seeders join the §4.1 archive list
+— seed-sense-runs.ts was not a survivor — and tranches/ is an input.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
 ```
@@ -1050,11 +1059,11 @@ Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
 
 ## Open items for review before the PR
 
-- **`patch/seed-sense-runs.ts`.** §8 lists it as a survivor, but it imports
-  `stripTags`/`walkSenses` (handled by Task 2) *and* its test imports
-  `IMPLIED_ONE_CENSUS` from a module Task 4 deletes. Task 4 Step 3 decides;
-  if it cannot survive, that is a §8 correction for Task 9, not a reason to
-  keep `implied-one-census.ts`.
+- **`patch/seed-sense-runs.ts` — resolved before execution (Ruling 1).** §8
+  lists it as a survivor; it is not one. It imports `./seed-tranche.ts`,
+  which imports `../research/chunks.ts`. All three seeders archive together.
+  Their output is committed under `data/patches/tranches/` and read by
+  `patch/apply.ts`, so nothing is lost. Task 9 records the §8 correction.
 - **`transform:count`.** §8's target script list omits it, but §3.1 cites
   `bun transform:count` as live and it reads `data/patches/patterns.jsonl`.
   This plan keeps it. If §8 meant to drop it, say so before Task 8.
