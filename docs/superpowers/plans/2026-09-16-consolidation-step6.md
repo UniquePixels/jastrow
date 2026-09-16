@@ -354,7 +354,7 @@ means the export block in Step 2.3 was over-trimmed.
 ```bash
 cd /Users/brian/Repositories/websites/jastrow
 git add -A
-git commit -s -m "🧺 chore(pipeline): split sense-walk out of census
+git commit -s -m "🧺 chore(pipeline): split sense-walk from census
 
 census.ts is archived in step 6, but three of its helpers are on the
 migrate path: walkSenses, stripTags, and classifyBoundary, which
@@ -653,7 +653,7 @@ order, so it is not optional here.
 ```bash
 cd /Users/brian/Repositories/websites/jastrow
 git add -A
-git commit -s -m "📖 doc(pipeline): archive registry PENDING history
+git commit -s -m "📖 doc(pipeline): archive PENDING commentary
 
 490 lines of batch-by-batch commentary sat inside an empty array.
 Moved verbatim to docs/archive/registry-history.md; PENDING and its
@@ -842,7 +842,7 @@ run. A changed count means something moved that was an input.
 ```bash
 cd /Users/brian/Repositories/websites/jastrow
 git add -A
-git commit -s -m "📖 doc: archive research reports filed beside the data
+git commit -s -m "📖 doc: archive reports filed beside the data
 
 catalogue-audit, the two discovery rounds, checkpoints and the
 divergence report are evidence, not correction data (spec §1.1).
@@ -955,7 +955,7 @@ list them and confirm before removing.
 cd /Users/brian/Repositories/websites/jastrow
 bun qa && bun pipeline:migrate
 git add -A
-git commit -s -m "🧺 chore: reduce package.json to the pipeline scripts
+git commit -s -m "🧺 chore: cut package.json to pipeline scripts
 
 25 scripts become 12: the research and one-time seeding entry points
 went to archive/v2-research-2026-09 in this step. research:apply is
