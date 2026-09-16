@@ -135,7 +135,7 @@ it('every corpus-tier file earns the name — none is merely labelled', async ()
 	expect(idle).toEqual([]);
 });
 
-it('every corpus-tier file is run by transform:invariants or awaits the archive', async () => {
+it('every corpus-tier file is run by transform:invariants', async () => {
 	// CI no longer runs the corpus tier (consolidation spec R9), so a
 	// corpus file no script names is a test nobody runs — the failure
 	// has to name it.

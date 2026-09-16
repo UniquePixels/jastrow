@@ -190,9 +190,9 @@ function tallyStructure(
 }
 
 /** Independent re-derivation of the label quarantine/regen counts,
- * walking the raw source (via `census.ts`'s shared `walkSenses`) rather
- * than trusting the composition's own bookkeeping — every `sense.number`
- * occurrence in the corpus, known or quarantined. */
+ * walking the raw source (via `sense-walk.ts`'s shared `walkSenses`)
+ * rather than trusting the composition's own bookkeeping — every
+ * `sense.number` occurrence in the corpus, known or quarantined. */
 function tallyLabels(e: SourceEntry, acc: Accumulator): void {
 	for (const sense of walkSenses(e.content.senses)) {
 		if (sense.number === undefined) {

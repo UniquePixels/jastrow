@@ -1,8 +1,9 @@
 /**
  * Sense-tree and tag helpers shared across the body model. Extracted
- * from `census.ts` (consolidation spec §8) so the census tool could be
- * archived without taking its callers with it; the bodies are
- * unchanged from that file.
+ * from `census.ts`, archived at `refs/tags/archive/v2-research-2026-09`
+ * (consolidation spec §8), so the census tool could be archived
+ * without taking its callers with it; the bodies are unchanged from
+ * that file.
  */
 import type { SourceSense } from './types.ts';
 

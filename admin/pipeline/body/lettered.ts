@@ -6,7 +6,8 @@
  * B5/B9): an unsplit block is still readable, a wrongly split one is
  * not. Runs before unit segmentation in the dry-run composition
  * (design §3). `census.ts` carries a separate boolean detector for
- * corpus-wide sizing (`letteredRun`) — this module is the
+ * corpus-wide sizing (`letteredRun`), archived at
+ * `refs/tags/archive/v2-research-2026-09` — this module is the
  * authoritative structural rule and may disagree with it on edge
  * cases.
  */
@@ -25,7 +26,7 @@ interface LetteredParts {
 	items: LetteredItem[];
 }
 
-// Shares census.ts's LETTERED caveat: the lookbehind excludes a
+// Shared census.ts's LETTERED caveat: the lookbehind excludes a
 // preceding '(' or letter but not a digit, so a folio-style "39a)"
 // could in principle be read as marker "a)". Four marker shapes, tried
 // in this order at each position (Task 15, §6.0 review decision 07):

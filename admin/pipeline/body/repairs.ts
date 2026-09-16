@@ -3,7 +3,7 @@
  * maintainer review 2026-08-05, docs/v2/body-review/01–06). Pure: takes a
  * SourceEntry, returns a repaired copy plus a record of every change —
  * `migrate.ts` (later) composes this before the body build; until then
- * `bun body:migrate-dry` runs it corpus-wide read-only and reports.
+ * `bun body:migrate-dry` ran it corpus-wide read-only and reported.
  *
  * Every rid-keyed edit here is literal, reviewed code (same policy as
  * fixtures/extract.ts rid lists, archived at
@@ -125,7 +125,7 @@ const IMPLIED_ONE_TEXT: TextEdit[] = [
 // "source data is missing …" (print HAS the marker; the snapshot lost
 // it — damage repair, not a deviation). Rows where the marker already
 // sits in-text (swallowed boundary, text print-faithful) get no edit —
-// migrate-dry reports them as confirmed-no-change.
+// migrate-dry reported them as confirmed-no-change.
 // ---------------------------------------------------------------------
 const REINSERTS: TextEdit[] = [
 	{
@@ -285,7 +285,7 @@ const REFS_REMOVALS: Record<string, string> = {
 // ---------------------------------------------------------------------
 
 /** Depth-first walk of a source-sense tree (stem children included) —
- * the shared walker migrate-dry imports too. */
+ * the shared walker migrate-dry imported too. */
 function* walkSensesDeep(list: SourceSense[]): Generator<SourceSense> {
 	for (const sense of list) {
 		yield sense;
@@ -528,7 +528,7 @@ function applyRepairs(source: SourceEntry): {
 }
 
 /** Rows the review left to eyes-on — no repair applied; migrate-dry
- * lists them so they stay visible until decided. */
+ * listed them so they stay visible until decided. */
 const DEFERRED: Record<string, string> = {
 	D00470:
 		'implied 1) belongs inside a Pl. section flow (01 note: "Confirm") — structure unresolved',
@@ -563,8 +563,8 @@ const CONFIRMED_NO_CHANGE = [
 ];
 
 /** The orphan refs items each repaired entry's body must now carry an
- * inline citation basis for (migrate-dry's resolution recount). P00331's
- * two finer-grained refs items (Eruvin 88b:17, 88b:22) are absorbed by
+ * inline citation basis for (migrate-dry's former resolution recount).
+ * P00331's two finer-grained refs items (Eruvin 88b:17, 88b:22) are absorbed by
  * the one `Ib. 88ᵇ` wrap — same page citation — and are not expected to
  * match an anchor of their own.
  *

@@ -211,8 +211,9 @@ function checkRejoin(e: SourceEntry): boolean {
  * a split pair carried, or null when no pair in this entry split at all
  * — `dry-run-report.ts`'s `formSectionSplits`/`formSectionSplitsByMarker`
  * counts sum this across the corpus, independent of `census.ts`'s
- * coarser `pluralSections` detector (see form-sections.ts's header
- * comment for why the two counts differ). Corpus-measured: no entry's
+ * coarser `pluralSections` detector (archived at
+ * `refs/tags/archive/v2-research-2026-09`; see form-sections.ts's
+ * header comment for why the two counts differ). Corpus-measured: no entry's
  * pairs carry two different markers' splits, so the last split seen
  * (in pair order) is always the only one. */
 function evaluateRoundTrip(e: SourceEntry, trace: TraceLike): RoundTripResult {

@@ -293,7 +293,7 @@ function replaceAttrValue(
  * change** and **0 are lost**. Both corpus gates are byte-identical across the
  * change — `transform:count` reports the same 13 rules / 11 MATCH /
  * `ib-yoma-2a` −124 / `sifre-ib-resolves-to-yalkut` −5, and
- * `body:migrate-dry`'s report file diffs empty. No shipped rule fires
+ * `body:migrate-dry`'s report file diffed empty. No shipped rule fires
  * differently; what changed is only what the parser can SEE.
  *
  * It did overturn a claim three records carried. O00242's bare `Ib.`
