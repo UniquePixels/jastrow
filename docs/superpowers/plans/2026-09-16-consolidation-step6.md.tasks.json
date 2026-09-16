@@ -37,7 +37,7 @@
     {
       "id": 4,
       "subject": "Task 5: Archive the registry PENDING commentary",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** 490 lines of historical prose inside an empty array move to a document, with zero behaviour change.\n\n**Files:**\n- Create: `docs/archive/registry-history.md`\n- Modify: `admin/pipeline/transform/registry.ts` (the `PENDING` block, ~490 lines)\n\n**Acceptance Criteria:**\n- [ ] `PENDING` still exported, still an empty array; the gate at `registry.ts:1997` still reads it\n- [ ] `docs/archive/registry-history.md` holds the commentary verbatim with source and commit\n- [ ] `registry.ts` keeps a pointer comment\n- [ ] `git diff` on `registry.ts` shows only comment lines removed\n- [ ] `bun qa` and `bun run transform:invariants` green\n\n**Verify:** `bun run transform:invariants` -> exit 0, and `bun test admin/pipeline/transform/registry.test.ts` -> pass\n\n```json:metadata\n{\"files\": [\"docs/archive/registry-history.md\", \"admin/pipeline/transform/registry.ts\"], \"verifyCommand\": \"bun qa && bun run transform:invariants\", \"acceptanceCriteria\": [\"PENDING still exported and empty\", \"commentary verbatim in docs/archive/registry-history.md\", \"only comment lines removed from registry.ts\", \"invariants green\"], \"modelTier\": \"standard\"}\n```",
       "blockedBy": [
         3
@@ -80,5 +80,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-16T13:34:39.192067"
+  "lastUpdated": "2026-09-16T15:53:22.395935"
 }
