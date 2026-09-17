@@ -348,9 +348,12 @@ it correctly, and every citation written into source code uses
 of them.
 
 `package.json` after the move: `pipeline:fetch`, `pipeline:migrate`,
-`pipeline:compile` (when built), `pageindex:verify`, `qa*`, the
-invariants runner. `research:apply` is renamed `pipeline:patches` or
-folded into migrate; it is the patch engine, not research.
+`pipeline:compile` (when built), `pipeline:patches`, `pageindex:verify`,
+`qa*`, the invariants runner, `transform:count` (§3.1's rule-alone
+counter, still live), and `body:dry-run` (survives because
+`migrate.ts` imports `dry-run.ts`'s `buildTrace`). `research:apply` is
+renamed `pipeline:patches`; it is the patch engine, not research, and
+stays runnable on its own.
 
 ## 9. Documents
 
