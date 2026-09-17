@@ -174,13 +174,13 @@ async function writeAliases(
 	await Bun.write(path, serialiseAliases(rows));
 }
 
-/** One entry, as the alias rule sees it. `stem` is the entry's current
- * headword stem; the family a slug belongs to is read off the SLUG, so
- * `stem` is carried for the caller's own use and not used to group. */
+/** One entry, as the alias rule sees it: a rid and the slug it holds.
+ * Deliberately no headword stem — the family a slug belongs to is read
+ * off the SLUG, so a caller holding only index rows can use this rule
+ * as well as one holding entries. */
 interface SlugFact {
 	rid: string;
 	slug: string;
-	stem: string;
 }
 
 /** The stem a slug names, read off the slug's own text — the same rule

@@ -327,6 +327,28 @@ describe('validateTruth against the slug index', () => {
 		).toEqual(["alias אב is also A00001's slug"]);
 	});
 
+	it('reports a collision family with no alias row at all', () => {
+		// The gap a "validate what exists" check cannot see: delete the
+		// alias row and the bare URL disappears while bun qa stays green.
+		const family = tree(
+			entry('A00001', 'גמל-1', 'x'),
+			entry('A00002', 'גמל-2', 'y'),
+		);
+		expect(
+			validateTruth(family, pages(), indexFrom(family), new Map()),
+		).toEqual(['family גמל has no alias row']);
+	});
+
+	it('reports an alias reusing a RETIRED row\u2019s slug', () => {
+		// A retired slug is reserved so nothing else takes it — an alias
+		// no less than an entry.
+		const index = indexFrom(files);
+		index.set('A00009', { rid: 'A00009', slug: 'גמל', status: 'retired' });
+		expect(
+			validateTruth(files, pages(), index, new Map([['גמל', 'A00002']])),
+		).toEqual(["alias גמל is also A00009's slug"]);
+	});
+
 	it('reports an alias pointing at a rid with no entry', () => {
 		expect(
 			validateTruth(

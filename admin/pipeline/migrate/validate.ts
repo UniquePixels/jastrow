@@ -10,7 +10,7 @@ import Ajv2020 from 'ajv/dist/2020';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
 import { tokenize } from '../transform/html.ts';
 import type { PagePlacement } from './page.ts';
-import type { SlugRow } from './slug-index.ts';
+import { auditAliases, type SlugRow } from './slug-index.ts';
 import type { TruthEntry, TruthSense } from './types.ts';
 
 const TRUTH_DIR = 'data/entries';
@@ -312,7 +312,13 @@ function checkSlugIndex(
 			problems.push(`slug-index row ${rid} is live but has no entry`);
 		}
 	}
-	const held = new Map(entries.map((e) => [e.slug, e.id]));
+	// Every slug the index reserves, retired rows included: a retired slug
+	// is held precisely so nothing else can take it, an alias no less than
+	// an entry.
+	const held = new Map([...index.values()].map((row) => [row.slug, row.rid]));
+	for (const family of auditAliases([...index.values()], aliases).add) {
+		problems.push(`family ${family.slug} has no alias row`);
+	}
 	for (const [slug, rid] of aliases) {
 		const row = index.get(rid);
 		const owner = held.get(slug);

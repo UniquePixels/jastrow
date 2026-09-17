@@ -25,6 +25,12 @@ a family and are numbered in rid order.
 4,407 stems are shared this way; 11,626 of the 32,512 entries (36%) are
 numbered members of a family.
 
+**Rid order describes the first assignment, not the rule.** Once slugs
+freeze, a member joining later takes the lowest free number and nobody
+moves — so a family can hold a rid whose number is out of sequence, or
+a gap where a member was retired. That is correct, not corruption: the
+alternative is moving a published URL.
+
 ## `entries.jsonl`
 
 One row per rid, rid-sorted, NFC.

@@ -132,7 +132,11 @@ function assignSlugs(
 		}
 		let next = 1;
 		for (const rid of ordered) {
-			while (taken.has(next)) {
+			// Both: `taken` knows this family's numbers, `heldSlugs` knows
+			// every string spoken for — including one a family processed
+			// earlier in this same call took as its bare slug. Without the
+			// second the result depends on family order.
+			while (taken.has(next) || heldSlugs.has(`${stem}-${next}`)) {
 				next++;
 			}
 			taken.add(next);

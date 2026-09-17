@@ -179,3 +179,17 @@ describe('assignSlugs against a slug that is literally stem-N', () => {
 		expect(slugs.get('B00001')).toBe('אב-1-1');
 	});
 });
+
+describe('assignSlugs across families in one call', () => {
+	it('does not let a bare assignment collide with a later family', () => {
+		// Family `אב-1` (a stem that literally reads that way) and family
+		// `אב` are assigned in the same call. Whichever runs first, the
+		// two must not both produce `אב-1`.
+		const { slugs } = assignSlugs([
+			{ rid: 'A00001', text: 'אב 1' },
+			{ rid: 'A00002', text: 'אָב' },
+			{ rid: 'A00003', text: 'אֵב' },
+		]);
+		expect(new Set(slugs.values()).size).toBe(3);
+	});
+});

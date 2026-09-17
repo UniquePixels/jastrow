@@ -29,9 +29,15 @@ string Sefaria routes on:
 {"_id":{"$oid":"5c4670aa08d98a02694c53b8"},"headword":"אָב I","rid":"A00013"}
 ```
 
-So the mapping is a column added to `data/slug-index/entries.jsonl`
-whenever the route is built. The work is not the data — it is the
-routing layer, the percent-encoding, and deciding the response:
+So the mapping is derivable whenever the route is built. It does **not**
+belong in `data/slug-index/entries.jsonl`: §7.1 keeps that a slug → rid
+routing index and headwords out of it deliberately, and adding a column
+would mean changing the row type, the loader, the seeder, the validator
+and 32,512 committed rows together. A Sefaria-headword → rid index is
+its own file, built the same way the slug index was.
+
+The work is not the data — it is the routing layer, the
+percent-encoding, and deciding the response:
 
 - redirect to our own slug (`/אב-2`), keeping one canonical URL, or
 - serve the entry at both names.

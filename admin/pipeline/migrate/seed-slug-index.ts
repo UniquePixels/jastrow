@@ -19,7 +19,6 @@
  * therefore a record of today's state, not a new decision.
  */
 import { existsSync } from 'node:fs';
-import { slugStem } from './slug.ts';
 import {
 	ALIAS_INDEX_PATH,
 	type AliasRow,
@@ -62,11 +61,7 @@ function buildAliases(entries: readonly Entry[]): {
 	aliases: AliasRow[];
 	problems: string[];
 } {
-	const facts: SlugFact[] = entries.map((e) => ({
-		rid: e.id,
-		slug: e.slug,
-		stem: slugStem(e.headword.text),
-	}));
+	const facts: SlugFact[] = entries.map((e) => ({ rid: e.id, slug: e.slug }));
 	const audit = auditAliases(facts, new Map());
 	return {
 		aliases: audit.add,
@@ -89,6 +84,13 @@ async function main(): Promise<void> {
 	const { aliases, problems } = buildAliases(entries);
 	for (const problem of problems) {
 		console.log(`problem: ${problem}`);
+	}
+	if (problems.length > 0) {
+		// Writing anyway would commit the holes, and the run-once check
+		// would then block the corrected rerun.
+		throw new Error(
+			`seed aborted: ${problems.length} problem(s), none written`,
+		);
 	}
 	await writeSlugIndex(rows);
 	await writeAliases(aliases);

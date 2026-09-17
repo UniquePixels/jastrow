@@ -216,11 +216,12 @@ function composeOne(
 			rid: source.rid,
 			severity: 'fault',
 		});
-		// Not useless despite biome's noUselessReturn: `composeOne`
-		// returns `Composed | undefined`, and tsc's TS7030 rejects the
-		// implicit fall-off. `biome check --write` removes this line;
-		// put it back.
-		return undefined;
+		// Load-bearing: `composeOne` returns `Composed | undefined` and
+		// tsc's TS7030 rejects the implicit fall-off. The directive has to
+		// be the LAST comment before the statement — with explanation
+		// lines after it, `biome check --write` deleted the return.
+		// biome-ignore lint/complexity/noUselessReturn: tsc TS7030 needs it
+		return;
 	}
 }
 
@@ -278,15 +279,15 @@ function collisionHistogram(
  * waits for the atomic write (R11); until then a run reports what the
  * index is missing. On the committed corpus it is missing nothing. */
 async function auditSlugIndex(
-	forms: ReadonlyArray<{ rid: string; text: string }>,
+	rids: readonly string[],
 	slugs: ReadonlyMap<string, string>,
 	report: Report,
 ): Promise<void> {
 	const facts: SlugFact[] = [];
-	for (const { rid, text } of forms) {
+	for (const rid of rids) {
 		const slug = slugs.get(rid);
 		if (slug !== undefined) {
-			facts.push({ rid, slug, stem: slugStem(text) });
+			facts.push({ rid, slug });
 		}
 	}
 	const audit = auditAliases(facts, await loadAliases());
@@ -328,7 +329,11 @@ async function buildIndexes(
 		...assigned.map((rid) => lineRow(`${rid}: ${slugs.get(rid)}`, 'slug-new')),
 		...drift.map((l) => lineRow(l, 'slug-frozen-stem-drift')),
 	);
-	await auditSlugIndex(forms, slugs, report);
+	await auditSlugIndex(
+		forms.map((f) => f.rid),
+		slugs,
+		report,
+	);
 	const pages = await loadPageIndex();
 	report.gates.chain = checkChain(
 		composed.map((c) => c.source),

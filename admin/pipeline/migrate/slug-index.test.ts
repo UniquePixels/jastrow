@@ -122,8 +122,8 @@ describe('loadAliases', () => {
 
 describe('auditAliases', () => {
 	const FAMILY: SlugFact[] = [
-		{ rid: 'A00012', slug: 'אב-1', stem: 'אב' },
-		{ rid: 'A00013', slug: 'אב-2', stem: 'אב' },
+		{ rid: 'A00012', slug: 'אב-1' },
+		{ rid: 'A00013', slug: 'אב-2' },
 	];
 
 	it('proposes the bare stem, pointing at the -1 member', () => {
@@ -141,18 +141,15 @@ describe('auditAliases', () => {
 	});
 
 	it('gives a lone entry no alias', () => {
-		const audit = auditAliases(
-			[{ rid: 'B00001', slug: 'בד', stem: 'בד' }],
-			new Map(),
-		);
+		const audit = auditAliases([{ rid: 'B00001', slug: 'בד' }], new Map());
 		expect(audit.add).toEqual([]);
 	});
 
 	it('reports a family whose bare stem is a real slug', () => {
 		const audit = auditAliases(
 			[
-				{ rid: 'A00012', slug: 'אב', stem: 'אב' },
-				{ rid: 'A00013', slug: 'אב-1', stem: 'אב' },
+				{ rid: 'A00012', slug: 'אב' },
+				{ rid: 'A00013', slug: 'אב-1' },
 			],
 			new Map(),
 		);
@@ -163,8 +160,8 @@ describe('auditAliases', () => {
 	it('reports a family with no -1 member rather than picking one', () => {
 		const audit = auditAliases(
 			[
-				{ rid: 'A00012', slug: 'אב-2', stem: 'אב' },
-				{ rid: 'A00013', slug: 'אב-3', stem: 'אב' },
+				{ rid: 'A00012', slug: 'אב-2' },
+				{ rid: 'A00013', slug: 'אב-3' },
 			],
 			new Map(),
 		);
@@ -178,8 +175,8 @@ describe('auditAliases', () => {
 		// member, and raise a pipeline fault over a review-level drift.
 		const audit = auditAliases(
 			[
-				{ rid: 'A00012', slug: 'אב-1', stem: 'גמל' },
-				{ rid: 'A00013', slug: 'אב-2', stem: 'אב' },
+				{ rid: 'A00012', slug: 'אב-1' },
+				{ rid: 'A00013', slug: 'אב-2' },
 			],
 			new Map(),
 		);
@@ -194,15 +191,13 @@ describe('unsafeSlugs', () => {
 		// uncertain, `=` cross reference, `?` doubtful.
 		expect(
 			unsafeSlugs([
-				{ rid: 'A00610', slug: '*(אוזפיה)', stem: '*(אוזפיה)' },
-				{ rid: 'A01175', slug: 'אידרעא-=-אדרעא', stem: 'אידרעא-=-אדרעא' },
-				{ rid: 'A00013', slug: 'אב-2', stem: 'אב' },
+				{ rid: 'A00610', slug: '*(אוזפיה)' },
+				{ rid: 'A01175', slug: 'אידרעא-=-אדרעא' },
+				{ rid: 'A00013', slug: 'אב-2' },
 			]),
 		).toEqual(['A00610: *(אוזפיה)', 'A01175: אידרעא-=-אדרעא']);
 	});
 	it('leaves a plain Hebrew slug and its family number alone', () => {
-		expect(unsafeSlugs([{ rid: 'A00013', slug: 'אב-2', stem: 'אב' }])).toEqual(
-			[],
-		);
+		expect(unsafeSlugs([{ rid: 'A00013', slug: 'אב-2' }])).toEqual([]);
 	});
 });
