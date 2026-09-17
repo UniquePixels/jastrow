@@ -39,7 +39,7 @@ describe('buildAliases', () => {
 			entry('A00013', 'אב-2', 'אָב'),
 		]);
 		expect(aliases).toEqual([]);
-		expect(problems).toEqual(['slug-bare-held: אב is a real slug; no alias']);
+		expect(problems).toEqual(['A00012: אב is a real slug; no alias']);
 	});
 
 	it('reports a family with no -1 member rather than picking one', () => {
@@ -48,7 +48,7 @@ describe('buildAliases', () => {
 			entry('A00013', 'אב-3', 'אָב'),
 		]);
 		expect(aliases).toEqual([]);
-		expect(problems).toEqual(['no אב-1 among 2 members: A00012,A00013']);
+		expect(problems).toEqual(['A00012: no אב-1 among 2 members']);
 	});
 
 	it('folds pointed homographs onto one family', () => {

@@ -160,14 +160,86 @@ async function writeAliases(
 	await Bun.write(path, serialiseAliases(rows));
 }
 
-export type { AliasRow, SlugRow, SlugStatus };
+/** One entry, as the alias rule sees it. */
+interface SlugFact {
+	rid: string;
+	slug: string;
+	stem: string;
+}
+
+interface AliasAudit {
+	/** Families that should gain an alias. */
+	add: AliasRow[];
+	/** Families whose bare name is a member's real slug, so no alias can
+	 * be given (`slug-bare-held`, spec §7.3). */
+	bareHeld: string[];
+	/** A family with no `stem-1` member: the numbering is not what §7
+	 * describes, reported rather than guessed around. */
+	problems: string[];
+}
+
+/** The alias each collision family should have — its bare stem,
+ * pointing at the member holding `stem-1` (spec §7.2). One rule, used
+ * by the seeder over the committed tree and by `migrate` over a run.
+ *
+ * A stem `existing` already names is left exactly as it is: an alias
+ * is frozen like a slug, so it never re-points, not even when a member
+ * with a lower rid appears. */
+function auditAliases(
+	facts: readonly SlugFact[],
+	existing: ReadonlyMap<string, string>,
+): AliasAudit {
+	const families = new Map<string, SlugFact[]>();
+	for (const fact of facts) {
+		families.set(fact.stem, [...(families.get(fact.stem) ?? []), fact]);
+	}
+	const audit: AliasAudit = { add: [], bareHeld: [], problems: [] };
+	for (const [stem, members] of families) {
+		if (members.length < 2 || existing.has(stem)) {
+			continue;
+		}
+		const incumbent = members.find((m) => m.slug === stem);
+		if (incumbent !== undefined) {
+			audit.bareHeld.push(`${incumbent.rid}: ${stem} is a real slug; no alias`);
+			continue;
+		}
+		const first = members.find((m) => m.slug === `${stem}-1`);
+		if (first === undefined) {
+			audit.problems.push(
+				`${members[0]?.rid}: no ${stem}-1 among ${members.length} members`,
+			);
+			continue;
+		}
+		audit.add.push({ rid: first.rid, slug: stem });
+	}
+	return audit;
+}
+
+/** Characters a slug should not carry into a URL path. Jastrow's own
+ * editorial notation reaches the headword and then the stem: `*` for a
+ * hypothetical form, `(…)` for an uncertain one, `=` for a cross
+ * reference, `?` for a doubtful reading. Twelve slugs hold one as of
+ * the 2026-07-04 export. Reported, never rewritten — a slug is frozen,
+ * and the fix belongs in headword parsing. */
+const UNSAFE = /[()[\]{}<>"'`?#/\\%&=+ *]/u;
+
+/** `rid: slug` for every slug holding an unsafe character. */
+function unsafeSlugs(facts: readonly SlugFact[]): string[] {
+	return facts
+		.filter((f) => UNSAFE.test(f.slug))
+		.map((f) => `${f.rid}: ${f.slug}`);
+}
+
+export type { AliasAudit, AliasRow, SlugFact, SlugRow, SlugStatus };
 export {
 	ALIAS_INDEX_PATH,
+	auditAliases,
 	loadAliases,
 	loadSlugIndex,
 	SLUG_INDEX_PATH,
 	serialiseAliases,
 	serialiseSlugIndex,
+	unsafeSlugs,
 	writeAliases,
 	writeSlugIndex,
 };

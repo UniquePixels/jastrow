@@ -244,28 +244,43 @@ function checkChain(
 	return t;
 }
 
-/** Gate 7: unique slugs; a collided stem has no bare owner. */
+/** Gate 7: unique slugs; a collided stem has no bare owner, unless a
+ * frozen slug put one there.
+ *
+ * Uniqueness is checked for every rid and never relaxed — two entries
+ * on one URL is the failure this gate exists for. The bare-owner
+ * clause is different: once slugs freeze (spec §7.3, R10), a stem
+ * first held by a single entry keeps that entry on the bare slug when
+ * a second one arrives, and no amount of gating should move it. So the
+ * clause applies only to a family with no frozen member; for a frozen
+ * one the condition is a `slug-bare-held` review row, not a failure.
+ * `frozen` is the prior assignment the run was given — on an empty one
+ * this is the pre-step-7 gate exactly. */
 function checkSlugs(
 	forms: ReadonlyArray<{ rid: string; text: string }>,
 	slugs: ReadonlyMap<string, string>,
+	frozen: ReadonlyMap<string, string> = new Map(),
 ): Tally {
 	const t = tally();
 	const seen = new Map<string, string>();
 	const stems = new Map<string, number>();
-	for (const { text } of forms) {
+	const frozenStems = new Set<string>();
+	for (const { rid, text } of forms) {
 		const stem = slugStem(text);
 		stems.set(stem, (stems.get(stem) ?? 0) + 1);
+		if (frozen.has(rid)) {
+			frozenStems.add(stem);
+		}
 	}
 	for (const { rid, text } of forms) {
 		const slug = slugs.get(rid);
+		const stem = slugStem(text);
 		const owner = slug === undefined ? undefined : seen.get(slug);
-		const collided = (stems.get(slugStem(text)) ?? 0) > 1;
+		const collided = (stems.get(stem) ?? 0) > 1 && !frozenStems.has(stem);
 		const takenBy = owner === undefined ? '' : ` taken by ${owner}`;
 		mark(
 			t,
-			slug !== undefined &&
-				owner === undefined &&
-				!(collided && slug === slugStem(text)),
+			slug !== undefined && owner === undefined && !(collided && slug === stem),
 			`${rid}: slug ${slug ?? '(none)'}${takenBy}`,
 		);
 		if (slug !== undefined) {

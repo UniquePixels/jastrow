@@ -19,7 +19,9 @@ import { slugStem } from './slug.ts';
 import {
 	ALIAS_INDEX_PATH,
 	type AliasRow,
+	auditAliases,
 	SLUG_INDEX_PATH,
+	type SlugFact,
 	type SlugRow,
 	writeAliases,
 	writeSlugIndex,
@@ -45,43 +47,27 @@ async function readEntries(dir = ENTRIES_DIR): Promise<Entry[]> {
 	return entries.toSorted((a, b) => (a.id < b.id ? -1 : 1));
 }
 
-/** One alias per shared stem: the bare stem, pointing at the member
- * holding `stem-1`. Two things are reported rather than guessed at —
- * a family with no `-1` member, which would mean the numbering is not
- * what §7 describes, and a bare stem that is already some entry's real
- * slug, which leaves that family no alias to give (`slug-bare-held`,
- * §7.3). Neither occurs in the committed tree; both would be silent if
- * the code chose a member on its own. */
+/** The alias rule, run over committed entries. The rule itself lives
+ * in `slug-index.ts` so the seeder and `migrate` cannot drift apart;
+ * this only turns entries into the facts it takes. Both shapes that
+ * make an alias impossible are reported rather than guessed around:
+ * a family with no `-1` member, and a bare stem that is already some
+ * entry's real slug (`slug-bare-held`, §7.3). Neither occurs in the
+ * committed tree. */
 function buildAliases(entries: readonly Entry[]): {
 	aliases: AliasRow[];
 	problems: string[];
 } {
-	const families = new Map<string, Entry[]>();
-	const taken = new Set(entries.map((e) => e.slug));
-	for (const entry of entries) {
-		const stem = slugStem(entry.headword.text);
-		families.set(stem, [...(families.get(stem) ?? []), entry]);
-	}
-	const aliases: AliasRow[] = [];
-	const problems: string[] = [];
-	for (const [stem, members] of families) {
-		if (members.length < 2) {
-			continue;
-		}
-		if (taken.has(stem)) {
-			problems.push(`slug-bare-held: ${stem} is a real slug; no alias`);
-			continue;
-		}
-		const first = members.find((m) => m.slug === `${stem}-1`);
-		if (first === undefined) {
-			problems.push(
-				`no ${stem}-1 among ${members.length} members: ${members.map((m) => m.id).join(',')}`,
-			);
-			continue;
-		}
-		aliases.push({ rid: first.id, slug: stem });
-	}
-	return { aliases, problems };
+	const facts: SlugFact[] = entries.map((e) => ({
+		rid: e.id,
+		slug: e.slug,
+		stem: slugStem(e.headword.text),
+	}));
+	const audit = auditAliases(facts, new Map());
+	return {
+		aliases: audit.add,
+		problems: [...audit.bareHeld, ...audit.problems],
+	};
 }
 
 async function main(): Promise<void> {

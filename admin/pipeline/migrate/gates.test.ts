@@ -169,6 +169,38 @@ describe('checkSlugs', () => {
 		expect(t.total).toBe(3);
 		expect(t.failures).toEqual(['A00001: slug אב']);
 	});
+
+	it('allows a frozen member to hold its family’s bare slug', () => {
+		// Same shape as the test above, but A00001's slug is frozen. A
+		// stem first held by one entry keeps that entry on the bare slug
+		// when a second arrives (spec §7.3); moving it is the one thing
+		// freezing forbids, so the gate reports rather than fails.
+		const collidedForms = [
+			{ rid: 'A00001', text: 'אָב' },
+			{ rid: 'A00002', text: 'אב' },
+			{ rid: 'A00003', text: 'גד' },
+		];
+		const slugs = new Map([
+			['A00001', 'אב'],
+			['A00002', 'אב-1'],
+			['A00003', 'גד'],
+		]);
+		const t = checkSlugs(collidedForms, slugs, new Map([['A00001', 'אב']]));
+		expect(t.pass).toBe(3);
+		expect(t.failures).toEqual([]);
+	});
+
+	it('still fails a duplicate slug when both rids are frozen', () => {
+		// Uniqueness is never relaxed: two entries on one URL is the
+		// failure this gate exists for, frozen or not.
+		const frozen = new Map([
+			['A00001', 'x'],
+			['A00002', 'x'],
+		]);
+		const t = checkSlugs(forms, new Map([...frozen, ['A00003', 'y']]), frozen);
+		expect(t.pass).toBe(2);
+		expect(t.failures).toEqual(['A00002: slug x taken by A00001']);
+	});
 });
 
 /** The smallest schema-valid truth entry, for tests that care about

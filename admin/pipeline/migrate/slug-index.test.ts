@@ -1,11 +1,14 @@
 import { describe, expect, it } from 'bun:test';
 import {
 	type AliasRow,
+	auditAliases,
 	loadAliases,
 	loadSlugIndex,
+	type SlugFact,
 	type SlugRow,
 	serialiseAliases,
 	serialiseSlugIndex,
+	unsafeSlugs,
 } from './slug-index.ts';
 
 /** Committed fixtures, as `page.test.ts` uses for the page index: the
@@ -100,5 +103,76 @@ describe('loadAliases', () => {
 		await expect(
 			loadAliases(fixture('slug-aliases-duplicate')),
 		).rejects.toThrow('duplicate alias אב');
+	});
+});
+
+describe('auditAliases', () => {
+	const FAMILY: SlugFact[] = [
+		{ rid: 'A00012', slug: 'אב-1', stem: 'אב' },
+		{ rid: 'A00013', slug: 'אב-2', stem: 'אב' },
+	];
+
+	it('proposes the bare stem, pointing at the -1 member', () => {
+		const audit = auditAliases(FAMILY, new Map());
+		expect(audit.add).toEqual([{ rid: 'A00012', slug: 'אב' }]);
+		expect(audit.bareHeld).toEqual([]);
+		expect(audit.problems).toEqual([]);
+	});
+
+	it('leaves an existing alias alone, even pointing at a later rid', () => {
+		// An alias is frozen like a slug: it never re-points, so a member
+		// with a lower rid appearing later does not take it over.
+		const audit = auditAliases(FAMILY, new Map([['אב', 'A00013']]));
+		expect(audit.add).toEqual([]);
+	});
+
+	it('gives a lone entry no alias', () => {
+		const audit = auditAliases(
+			[{ rid: 'B00001', slug: 'בד', stem: 'בד' }],
+			new Map(),
+		);
+		expect(audit.add).toEqual([]);
+	});
+
+	it('reports a family whose bare stem is a real slug', () => {
+		const audit = auditAliases(
+			[
+				{ rid: 'A00012', slug: 'אב', stem: 'אב' },
+				{ rid: 'A00013', slug: 'אב-1', stem: 'אב' },
+			],
+			new Map(),
+		);
+		expect(audit.add).toEqual([]);
+		expect(audit.bareHeld).toEqual(['A00012: אב is a real slug; no alias']);
+	});
+
+	it('reports a family with no -1 member rather than picking one', () => {
+		const audit = auditAliases(
+			[
+				{ rid: 'A00012', slug: 'אב-2', stem: 'אב' },
+				{ rid: 'A00013', slug: 'אב-3', stem: 'אב' },
+			],
+			new Map(),
+		);
+		expect(audit.problems).toEqual(['A00012: no אב-1 among 2 members']);
+	});
+});
+
+describe('unsafeSlugs', () => {
+	it('names a slug carrying Jastrow editorial notation', () => {
+		// Twelve real slugs hold one of these: `*` hypothetical, `(…)`
+		// uncertain, `=` cross reference, `?` doubtful.
+		expect(
+			unsafeSlugs([
+				{ rid: 'A00610', slug: '*(אוזפיה)', stem: '*(אוזפיה)' },
+				{ rid: 'A01175', slug: 'אידרעא-=-אדרעא', stem: 'אידרעא-=-אדרעא' },
+				{ rid: 'A00013', slug: 'אב-2', stem: 'אב' },
+			]),
+		).toEqual(['A00610: *(אוזפיה)', 'A01175: אידרעא-=-אדרעא']);
+	});
+	it('leaves a plain Hebrew slug and its family number alone', () => {
+		expect(unsafeSlugs([{ rid: 'A00013', slug: 'אב-2', stem: 'אב' }])).toEqual(
+			[],
+		);
 	});
 });

@@ -56,6 +56,13 @@ import {
 	writeReport,
 } from './migrate/report.ts';
 import { assignSlugs, slugStem } from './migrate/slug.ts';
+import {
+	auditAliases,
+	loadAliases,
+	loadSlugIndex,
+	type SlugFact,
+	unsafeSlugs,
+} from './migrate/slug-index.ts';
 import type { TruthEntry } from './migrate/types.ts';
 import {
 	corpusPreflight,
@@ -209,7 +216,11 @@ function composeOne(
 			rid: source.rid,
 			severity: 'fault',
 		});
-		return;
+		// Not useless despite biome's noUselessReturn: `composeOne`
+		// returns `Composed | undefined`, and tsc's TS7030 rejects the
+		// implicit fall-off. `biome check --write` removes this line;
+		// put it back.
+		return undefined;
 	}
 }
 
@@ -258,6 +269,37 @@ function collisionHistogram(
 	return Object.fromEntries(collisions);
 }
 
+/** The slug index's review rows (spec §7.2, §7.3): families that
+ * should gain a bare-stem alias, families whose bare name is already a
+ * member's real slug so none can be given, and slugs carrying a
+ * character that does not belong in a URL.
+ *
+ * Nothing is written. Adding an alias row is index maintenance, which
+ * waits for the atomic write (R11); until then a run reports what the
+ * index is missing. On the committed corpus it is missing nothing. */
+async function auditSlugIndex(
+	forms: ReadonlyArray<{ rid: string; text: string }>,
+	slugs: ReadonlyMap<string, string>,
+	report: Report,
+): Promise<void> {
+	const facts: SlugFact[] = [];
+	for (const { rid, text } of forms) {
+		const slug = slugs.get(rid);
+		if (slug !== undefined) {
+			facts.push({ rid, slug, stem: slugStem(text) });
+		}
+	}
+	const audit = auditAliases(facts, await loadAliases());
+	report.rows.push(
+		...audit.add.map((a) => lineRow(`${a.rid}: ${a.slug}`, 'slug-alias-new')),
+		...audit.bareHeld.map((l) => lineRow(l, 'slug-bare-held')),
+		...audit.problems.map((l) =>
+			lineRow(l, 'slug-alias-failed', 'pipeline', 'fault'),
+		),
+		...unsafeSlugs(facts).map((l) => lineRow(l, 'slug-unsafe')),
+	);
+}
+
 /** Pass 1's corpus-level indexes, and gates 5, 7, 8 — the three that
  * are properties of the corpus rather than of one entry.
  *
@@ -275,13 +317,24 @@ async function buildIndexes(
 		rid: c.source.rid,
 		text: decomposeForm(c.entry.headword).form.text,
 	}));
-	const { problems, slugs } = assignSlugs(forms);
+	// The slug index is an INPUT (spec §7.1, R10): a rid it already
+	// names keeps that slug whatever the transforms did to its
+	// headword, and only a rid with no row is assigned. Retired rows
+	// are passed too — they hold their slug without owning an entry.
+	const index = await loadSlugIndex();
+	const prior = new Map([...index].map(([rid, row]) => [rid, row.slug]));
+	const { assigned, drift, problems, slugs } = assignSlugs(forms, prior);
+	report.rows.push(
+		...assigned.map((rid) => lineRow(`${rid}: ${slugs.get(rid)}`, 'slug-new')),
+		...drift.map((l) => lineRow(l, 'slug-frozen-stem-drift')),
+	);
+	await auditSlugIndex(forms, slugs, report);
 	const pages = await loadPageIndex();
 	report.gates.chain = checkChain(
 		composed.map((c) => c.source),
 		sourceHeadwordMap,
 	);
-	report.gates.slugs = checkSlugs(forms, slugs);
+	report.gates.slugs = checkSlugs(forms, slugs, prior);
 	report.gates.slugs.failures.push(...problems);
 	report.gates.pages = checkPages(
 		composed.map((c) => c.source.rid),
@@ -453,6 +506,16 @@ function printGates(report: Report): void {
 	console.log(
 		`stalePins=${report.snapshot.stalePins} upstreamFixed=${report.patches.upstreamFixed} upstreamChanged=${report.patches.upstreamChanged}`,
 	);
+	// Printed even when every count is zero: a run that says nothing
+	// about slugs reads the same as one that never looked.
+	const slugKinds = [
+		'slug-new',
+		'slug-frozen-stem-drift',
+		'slug-alias-new',
+		'slug-bare-held',
+		'slug-unsafe',
+	];
+	console.log(slugKinds.map((k) => `${k}=${kinds.get(k) ?? 0}`).join(' '));
 	console.log(`report written to ${REPORT_PATH}; evidence to ${BLESSING_PATH}`);
 }
 
