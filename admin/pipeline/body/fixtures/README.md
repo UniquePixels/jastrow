@@ -32,12 +32,16 @@ directly by the body-model rule tests.
 
 ## Sanity guarantees
 
-`extract.ts` enforces, on every run (`--check` or not):
+These properties hold of the committed files because `extract.ts`
+enforced them on every run (`--check` or not) before it was archived:
 
-- every requested rid is present in the source (`MISSING: <rid> (class
+- every requested rid was present in the source (`MISSING: <rid> (class
   <cls>)` and exit 1 otherwise);
 - every fixture line JSON-parses and carries a non-empty `.rid`
-  (`verifyBody`, throws otherwise);
-- output is deterministic — re-running with `--check` against
-  unmodified committed files always reports `all fixture files match
+  (`verifyBody`, threw otherwise);
+- output was deterministic — re-running with `--check` against
+  unmodified committed files always reported `all fixture files match
   extraction`.
+
+The guarantees are now historical: nothing re-checks them, because the
+tool that did is archived at `refs/tags/archive/v2-research-2026-09`.
