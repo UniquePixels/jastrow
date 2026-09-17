@@ -111,6 +111,11 @@ function assignSlugs(
 		byStem.set(stem, [...(byStem.get(stem) ?? []), rid]);
 	}
 	const held = heldByStem(prior.values());
+	// Every slug string already spoken for. `held` is keyed by family, so
+	// it cannot answer "is the literal string `אב-1` taken?" — and a new
+	// rid whose stem IS `אב-1` would otherwise take it as its bare slug
+	// and duplicate a frozen one.
+	const heldSlugs = new Set(prior.values());
 	const assigned: string[] = [];
 	for (const [stem, rids] of byStem) {
 		// Rids are fixed-width (`<letter><NNNNN>`), so a plain string
@@ -119,8 +124,9 @@ function assignSlugs(
 		const ordered = [...rids].sort((a, b) => a.localeCompare(b));
 		const taken = held.get(stem) ?? new Set<number>();
 		const only = ordered.length === 1 ? ordered[0] : undefined;
-		if (taken.size === 0 && only !== undefined) {
+		if (taken.size === 0 && only !== undefined && !heldSlugs.has(stem)) {
 			chosen.set(only, stem);
+			heldSlugs.add(stem);
 			assigned.push(only);
 			continue;
 		}
@@ -131,6 +137,7 @@ function assignSlugs(
 			}
 			taken.add(next);
 			chosen.set(rid, `${stem}-${next}`);
+			heldSlugs.add(`${stem}-${next}`);
 			assigned.push(rid);
 		}
 		held.set(stem, taken);

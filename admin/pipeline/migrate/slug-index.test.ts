@@ -170,6 +170,22 @@ describe('auditAliases', () => {
 		);
 		expect(audit.problems).toEqual(['A00012: no אב-1 among 2 members']);
 	});
+
+	it('keeps a drifted entry in the family its SLUG names', () => {
+		// A00012 holds אב-1 while its headword now stems to גמל — the
+		// slug-frozen-stem-drift case the run tolerates. Grouping by the
+		// headword would file it under גמל, leave family אב without a -1
+		// member, and raise a pipeline fault over a review-level drift.
+		const audit = auditAliases(
+			[
+				{ rid: 'A00012', slug: 'אב-1', stem: 'גמל' },
+				{ rid: 'A00013', slug: 'אב-2', stem: 'אב' },
+			],
+			new Map(),
+		);
+		expect(audit.problems).toEqual([]);
+		expect(audit.add).toEqual([{ rid: 'A00012', slug: 'אב' }]);
+	});
 });
 
 describe('unsafeSlugs', () => {

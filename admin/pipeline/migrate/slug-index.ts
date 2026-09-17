@@ -174,11 +174,24 @@ async function writeAliases(
 	await Bun.write(path, serialiseAliases(rows));
 }
 
-/** One entry, as the alias rule sees it. */
+/** One entry, as the alias rule sees it. `stem` is the entry's current
+ * headword stem; the family a slug belongs to is read off the SLUG, so
+ * `stem` is carried for the caller's own use and not used to group. */
 interface SlugFact {
 	rid: string;
 	slug: string;
 	stem: string;
+}
+
+/** The stem a slug names, read off the slug's own text — the same rule
+ * `slug.ts` uses to decide which family a slug reserves a place in. A
+ * frozen slug outlives the headword that produced it, so grouping by
+ * the entry's current stem would file a drifted entry under a family it
+ * has no slug in, and lose it from the one it does. */
+const SLUG_FAMILY = /^(.+)-(\d+)$/u;
+
+function familyOf(slug: string): string {
+	return SLUG_FAMILY.exec(slug)?.[1] ?? slug;
 }
 
 interface AliasAudit {
@@ -205,7 +218,8 @@ function auditAliases(
 ): AliasAudit {
 	const families = new Map<string, SlugFact[]>();
 	for (const fact of facts) {
-		families.set(fact.stem, [...(families.get(fact.stem) ?? []), fact]);
+		const family = familyOf(fact.slug);
+		families.set(family, [...(families.get(family) ?? []), fact]);
 	}
 	const audit: AliasAudit = { add: [], bareHeld: [], problems: [] };
 	for (const [stem, members] of families) {

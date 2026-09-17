@@ -165,3 +165,17 @@ describe('assignSlugs when a frozen headword strips to nothing', () => {
 		expect(slugs.size).toBe(0);
 	});
 });
+
+describe('assignSlugs against a slug that is literally stem-N', () => {
+	it('does not hand out a bare stem some frozen slug already is', () => {
+		// A headword stripping to the literal `אב-1` would otherwise take
+		// that as its bare slug and duplicate A00012's frozen one, because
+		// the family index is keyed on `אב`, not on the whole string.
+		const { slugs } = assignSlugs(
+			[{ rid: 'B00001', text: 'אב 1' }],
+			new Map([['A00012', 'אב-1']]),
+		);
+		expect(slugs.get('B00001')).not.toBe('אב-1');
+		expect(slugs.get('B00001')).toBe('אב-1-1');
+	});
+});
