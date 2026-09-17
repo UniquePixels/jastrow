@@ -10,6 +10,7 @@ import Ajv2020 from 'ajv/dist/2020';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
 import { tokenize } from '../transform/html.ts';
 import type { PagePlacement } from './page.ts';
+import type { SlugRow } from './slug-index.ts';
 import type { TruthEntry, TruthSense } from './types.ts';
 
 const TRUTH_DIR = 'data/entries';
@@ -281,10 +282,49 @@ function checkPages(
 	}
 }
 
+/** Truth's slug is the slug index's row, both ways (R10: the index is
+ * the input a rebuild reads, so a slug edited in truth alone is lost —
+ * and worse, the next run would reassign from the index and move a
+ * published URL back).
+ *
+ * A `retired` row with no entry is the point of the status: the slug
+ * stays reserved. A `retired` row WITH an entry is a contradiction —
+ * the entry is live and its URL is marked gone. */
+function checkSlugIndex(
+	entries: readonly TruthEntry[],
+	index: ReadonlyMap<string, SlugRow>,
+	aliases: ReadonlyMap<string, string>,
+	problems: string[],
+): void {
+	const ids = new Set(entries.map((e) => e.id));
+	for (const { id, slug } of entries) {
+		const row = index.get(id);
+		if (row === undefined) {
+			problems.push(`${id}: no slug-index row (truth has ${slug})`);
+		} else if (row.slug !== slug) {
+			problems.push(`${id}: slug ${slug} but the slug index says ${row.slug}`);
+		} else if (row.status === 'retired') {
+			problems.push(`${id}: slug-index row is retired but the entry exists`);
+		}
+	}
+	for (const [rid, row] of index) {
+		if (row.status === 'live' && !ids.has(rid)) {
+			problems.push(`slug-index row ${rid} is live but has no entry`);
+		}
+	}
+	for (const [slug, rid] of aliases) {
+		if (!ids.has(rid)) {
+			problems.push(`alias ${slug} points at ${rid}, which has no entry`);
+		}
+	}
+}
+
 /** Every truth check over one tree; an empty list is a valid tree. */
 function validateTruth(
 	files: readonly TruthFile[],
 	pages: ReadonlyMap<string, PagePlacement>,
+	index: ReadonlyMap<string, SlugRow>,
+	aliases: ReadonlyMap<string, string> = new Map(),
 ): string[] {
 	const problems: string[] = [];
 	const entries = checkFiles(files, problems);
@@ -294,6 +334,7 @@ function validateTruth(
 		checkMarkup(entry, ids, problems);
 	}
 	checkPages(entries, ids, pages, problems);
+	checkSlugIndex(entries, index, aliases, problems);
 	return problems;
 }
 

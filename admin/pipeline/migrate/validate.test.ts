@@ -5,6 +5,7 @@
  */
 import { describe, expect, it } from 'bun:test';
 import type { PagePlacement } from './page.ts';
+import type { SlugRow } from './slug-index.ts';
 import type { TruthEntry } from './types.ts';
 import {
 	loadTruthFiles,
@@ -34,6 +35,22 @@ function pagesFor(...ids: string[]): Map<string, PagePlacement> {
 	return new Map(
 		ids.map((id) => [id, { column: 'a', confidence: 'high', number: 1 }]),
 	);
+}
+
+/** A slug index that agrees with the tree under test. Derived, not
+ * hand-written: every test here plants ONE defect, and an index listing
+ * fixed slugs would make a planted slug edit disagree with the index
+ * too, so each such test would report two problems instead of one. The
+ * index checks below plant their defect in the index itself. */
+function indexFrom(files: readonly TruthFile[]): Map<string, SlugRow> {
+	const rows = new Map<string, SlugRow>();
+	for (const file of files) {
+		const e = file.entry as Partial<TruthEntry>;
+		if (typeof e.id === 'string' && typeof e.slug === 'string') {
+			rows.set(e.id, { rid: e.id, slug: e.slug, status: 'live' });
+		}
+	}
+	return rows;
 }
 
 const A = (): TruthEntry =>
@@ -73,9 +90,10 @@ describe('markupProblems', () => {
 
 describe('validateTruth', () => {
 	it('a valid tree has no problems', () => {
-		expect(validateTruth(tree(A(), B()), pagesFor('A00001', 'A00002'))).toEqual(
-			[],
-		);
+		const files = tree(A(), B());
+		expect(
+			validateTruth(files, pagesFor('A00001', 'A00002'), indexFrom(files)),
+		).toEqual([]);
 	});
 
 	it('reports a schema failure by path and drops the entry from the corpus checks', () => {
@@ -83,7 +101,11 @@ describe('validateTruth', () => {
 			{ entry: { id: 'A00001' }, path: 'A/A00001.json' },
 			...tree(B()),
 		];
-		const problems = validateTruth(files, pagesFor('A00001', 'A00002'));
+		const problems = validateTruth(
+			files,
+			pagesFor('A00001', 'A00002'),
+			indexFrom(files),
+		);
 		expect(problems).toHaveLength(2);
 		expect(problems[0]).toStartWith('A/A00001.json: schema: ');
 		expect(problems[1]).toBe('page-index row A00001 has no entry');
@@ -174,9 +196,9 @@ describe('validateTruth', () => {
 			'A00002: page p2b but the page index says p1a',
 		],
 	])('reports %s', (_name, files, expected) => {
-		expect(validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual([
-			expected,
-		]);
+		expect(
+			validateTruth(files, pagesFor('A00001', 'A00002'), indexFrom(files)),
+		).toEqual([expected]);
 	});
 
 	it('reads files at every depth, so a misplaced one is reported', async () => {
@@ -190,7 +212,11 @@ describe('validateTruth', () => {
 			'A00002.json',
 		]);
 		expect(
-			validateTruth(files, pagesFor('A00001', 'A00002', 'A00003')),
+			validateTruth(
+				files,
+				pagesFor('A00001', 'A00002', 'A00003'),
+				indexFrom(files),
+			),
 		).toEqual([
 			'A/old/A00003.json: id A00003 belongs at A/A00003.json',
 			'A00002.json: id A00002 belongs at A/A00002.json',
@@ -198,11 +224,75 @@ describe('validateTruth', () => {
 	});
 
 	it('reports page-index coverage both ways', () => {
-		expect(validateTruth(tree(A(), B()), pagesFor('A00001', 'A00003'))).toEqual(
-			[
-				'A00002: no page-index row (truth has p1a)',
-				'page-index row A00003 has no entry',
-			],
-		);
+		expect(
+			validateTruth(
+				tree(A(), B()),
+				pagesFor('A00001', 'A00003'),
+				indexFrom(tree(A(), B())),
+			),
+		).toEqual([
+			'A00002: no page-index row (truth has p1a)',
+			'page-index row A00003 has no entry',
+		]);
+	});
+});
+
+/** The slug-index checks (R10, §7.1). `truth.test.ts` passing on the
+ * committed tree says nothing on its own — these plant one defect in
+ * the index at a time and show each clause names what it found. */
+describe('validateTruth against the slug index', () => {
+	const files = tree(A(), B());
+	const pages = (): Map<string, PagePlacement> => pagesFor('A00001', 'A00002');
+
+	it('reports an entry with no index row', () => {
+		const index = indexFrom(files);
+		index.delete('A00002');
+		expect(validateTruth(files, pages(), index)).toEqual([
+			'A00002: no slug-index row (truth has אבא)',
+		]);
+	});
+
+	it('reports a slug that disagrees with its row', () => {
+		// The dangerous direction: a hand edit changes the slug, the
+		// index still says the old one, and the next run reassigns from
+		// the index and moves the URL back.
+		const index = indexFrom(files);
+		index.set('A00002', { rid: 'A00002', slug: 'גמל', status: 'live' });
+		expect(validateTruth(files, pages(), index)).toEqual([
+			'A00002: slug אבא but the slug index says גמל',
+		]);
+	});
+
+	it('reports a retired row whose entry still exists', () => {
+		const index = indexFrom(files);
+		index.set('A00002', { rid: 'A00002', slug: 'אבא', status: 'retired' });
+		expect(validateTruth(files, pages(), index)).toEqual([
+			'A00002: slug-index row is retired but the entry exists',
+		]);
+	});
+
+	it('reports a live row with no entry', () => {
+		const index = indexFrom(files);
+		index.set('A00009', { rid: 'A00009', slug: 'גמל', status: 'live' });
+		expect(validateTruth(files, pages(), index)).toEqual([
+			'slug-index row A00009 is live but has no entry',
+		]);
+	});
+
+	it('accepts a retired row with no entry: that is what reserving is', () => {
+		const index = indexFrom(files);
+		index.set('A00009', { rid: 'A00009', slug: 'גמל', status: 'retired' });
+		expect(validateTruth(files, pages(), index)).toEqual([]);
+	});
+
+	it('reports an alias pointing at a rid with no entry', () => {
+		expect(
+			validateTruth(
+				files,
+				pages(),
+				indexFrom(files),
+				new Map([['גמל', 'A00009']]),
+			),
+		).toEqual(['alias גמל points at A00009, which has no entry']);
 	});
 });
