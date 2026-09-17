@@ -32,8 +32,8 @@ R11, §1.1, §5.1, §7, §10, §11 step 7.
 | distinct slugs | 32,512 (no duplicate) |
 | collision families | 4,407 (sizes 2–13) |
 | numbered collision members | 11,626 (36%) |
-| prospective `entries.jsonl`, rid-sorted | 1.30 MB |
-| prospective `aliases.jsonl` | 4,407 rows |
+| `entries.jsonl`, rid-sorted | 32,512 rows, 1.73 MB (seeded) |
+| `aliases.jsonl`, slug-sorted | 4,407 rows, 0.15 MB (seeded) |
 | unit tier, `bun qa:test` | 1,297 pass, 0 fail, 81 files, 2.04 s |
 | `migrate` dry run | ~2 min, nine gates green |
 
@@ -117,9 +117,11 @@ freed for reissue: אב-5 held=false
       `{rid, slug, status}` with `status: 'live' | 'retired'`, and
       `{slug, rid}` for an alias. Rid-sorted, NFC, one JSON object per
       line, matching `data/page-index/entries.jsonl`'s style.
-- [ ] Add a one-shot generator behind `bun run slug-index:seed` reading
-      `data/entries/`. It refuses if either file exists — seeding is a
-      one-time act; after this task the pipeline maintains them.
+- [ ] Add a one-shot generator, `bun admin/pipeline/migrate/seed-slug-index.ts`,
+      reading `data/entries/`. It refuses if either file exists — seeding
+      is a one-time act; after this task the pipeline maintains them.
+      Not a `package.json` script: it runs once, and step 6 cut that file
+      from 25 scripts to 13.
 - [ ] Run it; commit `entries.jsonl` (32,512 rows) and `aliases.jsonl`
       (4,407 rows).
 - [ ] Write `data/slug-index/README.md`: what a slug is, that a

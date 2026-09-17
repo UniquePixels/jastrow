@@ -346,7 +346,7 @@ cuts that cord.
 ### 7.1 The slug index (R10)
 
 `data/slug-index/entries.jsonl` records the assignment: one row per rid,
-`{"rid","slug","status"}`, rid-sorted, 32,512 rows and 1.30 MB as the
+`{"rid","slug","status"}`, rid-sorted, 32,512 rows and 1.73 MB as the
 tree stands. It is reference data (§1.1) — the pipeline reads it as an
 input and appends a row for each new rid. `status` is `live` or
 `retired`; a retired row keeps its slug reserved so a URL is never
@@ -370,7 +370,7 @@ them.
 ### 7.2 Bare-stem aliases
 
 `data/slug-index/aliases.jsonl` gives every collision family's bare stem
-a destination: `{"slug","rid"}`, 4,407 rows, the bare stem pointing at
+a destination: `{"rid","slug"}`, 4,407 rows and 0.15 MB, the bare stem pointing at
 the family's first member — the one holding `stem-1`. Typing `אב`
 reaches the start of the run rather than nothing.
 
