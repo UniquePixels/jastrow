@@ -9,6 +9,8 @@ import {
 	transformQueue,
 } from './patterns.ts';
 
+/** Two valid catalogue rows, rebuilt per call so a test that mutates
+ * them cannot leak into the next one. */
 function rows(): [Pattern, Pattern] {
 	return [
 		{

@@ -76,6 +76,8 @@ function parsePatterns(text: string): Pattern[] {
 	return rows;
 }
 
+/** Serialise the catalogue back to JSONL, one row per line and a
+ * trailing newline — the inverse of `parsePatterns`. */
 function renderPatterns(rows: readonly Pattern[]): string {
 	return `${rows.map((r) => JSON.stringify(r)).join('\n')}\n`;
 }

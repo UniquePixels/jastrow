@@ -56,15 +56,16 @@ const stripTagsOnce = (text: string): string => {
 	return kept === 0 ? text : out + text.slice(kept);
 };
 
-// Strips to a fixed point so fragments re-composed by one pass
-// (`<scr<i>ipt>`-style) can't survive (CodeQL js/incomplete-
-// multi-character-sanitization); corpus-verified byte-identical to
-// the single-pass version over all 32,512 entries. The loop is
-// defensive rather than load-bearing: because the match class admits
-// `<`, an earlier `<` always wins the leftmost match, so no pass can
-// hand the next one a tag it didn't already have. That is why the
-// fixed point costs nothing — and it is still what answers the
-// CodeQL rule, so it stays.
+/** Strip tags to a fixed point, so fragments re-composed by one pass
+ * (`<scr<i>ipt>`-style) can't survive — CodeQL
+ * js/incomplete-multi-character-sanitization. Corpus-verified
+ * byte-identical to the single-pass version over all 32,512 entries.
+ *
+ * The loop is defensive rather than load-bearing: because the match
+ * class admits `<`, an earlier `<` always wins the leftmost match, so
+ * no pass can hand the next one a tag it didn't already have. That is
+ * why the fixed point costs nothing — and it is still what answers
+ * the CodeQL rule, so it stays. */
 const stripTags = (text: string): string => {
 	let out = text;
 	let prev: string;

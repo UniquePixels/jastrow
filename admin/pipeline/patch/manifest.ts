@@ -85,10 +85,14 @@ interface ManifestProblem {
 	rids: string[];
 }
 
+/** A plain JSON object — not null, not an array. `typeof null` is
+ * `'object'` and so is an array's, so both need excluding by hand
+ * before a decoded value can be indexed by key. */
 function isRecord(value: unknown): value is Record<string, unknown> {
 	return typeof value === 'object' && value !== null && !Array.isArray(value);
 }
 
+/** Whether a decoded value is one of the four dispositions. */
 function isDisposition(value: unknown): value is Disposition {
 	return (
 		typeof value === 'string' &&
@@ -96,6 +100,9 @@ function isDisposition(value: unknown): value is Disposition {
 	);
 }
 
+/** Whether a disposition is one of the two `needs_*` escalations.
+ * Several rules below branch on it, and it is the only thing that
+ * makes `escalation` and `resolution` legal on a record. */
 function isNeeds(disposition: unknown): boolean {
 	return (
 		disposition === 'needs_print_check' ||
@@ -103,11 +110,10 @@ function isNeeds(disposition: unknown): boolean {
 	);
 }
 
-/** Every check below appends to a shared `reasons` list rather than
- * returning — `parseEntryResult` reports every problem with a record,
- * never just the first, and the call order below is the order the
- * reasons come out in (`manifest.test.ts` pins rid before
- * disposition). */
+/** The two fields that identify a record: a well-formed rid and one
+ * of the four dispositions. Everything else is judged relative to the
+ * disposition, so a record failing here will usually fail again
+ * below — by design, since the report names every problem at once. */
 function checkIdentity(
 	value: Record<string, unknown>,
 	reasons: string[],
@@ -145,6 +151,10 @@ function collectPatches(
 	return patches;
 }
 
+/** `escalation` is required on `needs_*` rows and forbidden on the
+ * others: an entry carrying an unrepaired finding is by definition
+ * neither clean nor repaired, so the field's presence and the
+ * disposition have to agree in both directions. */
 function checkEscalation(
 	value: Record<string, unknown>,
 	reasons: string[],
@@ -163,6 +173,10 @@ function checkEscalation(
 	}
 }
 
+/** `hint_notes` is legal on any disposition — that is the point of
+ * the field (see the interface) — but never as an empty string. An
+ * entry that received no hints omits it; one that records a rejection
+ * has to say what the rejection was. */
 function checkHintNotes(
 	value: Record<string, unknown>,
 	reasons: string[],
@@ -176,6 +190,11 @@ function checkHintNotes(
 	}
 }
 
+/** The maintainer decision, which only a `needs_*` row may carry and
+ * which must be a complete object when present: a non-empty ruling
+ * and a `YYYY-MM-DD` review date. Each failure stops the checks it
+ * makes meaningless — a resolution on a clean row is not then also
+ * reported as the wrong shape. */
 function checkResolution(
 	value: Record<string, unknown>,
 	reasons: string[],
@@ -206,6 +225,11 @@ function checkResolution(
 	}
 }
 
+/** The arity each disposition implies: `clean` carries no patches,
+ * `repaired` carries at least one. `needs_*` is deliberately
+ * unconstrained — an escalated entry may still hold the patches the
+ * sweep was confident about. Reads the ids `collectPatches` accepted,
+ * so a malformed id cannot satisfy `repaired`. */
 function checkDispositionPatches(
 	value: Record<string, unknown>,
 	patches: readonly string[],
@@ -244,7 +268,13 @@ function buildEntryResult(
 }
 
 /** Validate one decoded JSON value as an `EntryResult`, collecting
- * every problem before throwing. */
+ * every problem before throwing.
+ *
+ * Each check appends to one shared `reasons` list rather than
+ * returning, so a bad record is reported in full rather than one
+ * problem at a time. The call order below IS the order the reasons
+ * come out in, and `manifest.test.ts` pins it (rid before
+ * disposition) — reordering these calls is a visible change. */
 function parseEntryResult(value: unknown, context: string): EntryResult {
 	if (!isRecord(value)) {
 		throw new ManifestFormatError(context, ['record must be a JSON object']);

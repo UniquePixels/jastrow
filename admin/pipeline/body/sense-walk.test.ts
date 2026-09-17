@@ -3,12 +3,14 @@ import type { Boundary } from './sense-walk.ts';
 import { classifyBoundary, stripTags, walkSenses } from './sense-walk.ts';
 import type { SourceSense } from './types.ts';
 
-/** The regex `stripTags` used before the linear scanner replaced it
- * (SonarCloud typescript:S8786 — `[^>]+` backtracks). Kept here as the
- * oracle: the scanner's only contract is that it strips to the same
- * fixed point, byte for byte. Deleting this constant deletes the
- * evidence that the S8786 fix changed no behaviour. */
+// The pattern the scanner replaced. `[^>]+` is what backtracks.
 const TAGS = /<[^>]+>/gu;
+/** `stripTags` as it was before the linear scanner replaced it
+ * (SonarCloud typescript:S8786). Kept here as the oracle: the
+ * scanner's only contract is that it strips to the same fixed point,
+ * byte for byte, so every case below is asserted against this as well
+ * as against a literal. Deleting it deletes the evidence that the
+ * S8786 fix changed no behaviour. */
 const stripTagsByRegex = (text: string): string => {
 	let out = text;
 	let prev: string;
