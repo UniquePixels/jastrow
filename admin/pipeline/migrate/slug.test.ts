@@ -145,3 +145,23 @@ describe('assignSlugs with prior assignments', () => {
 		expect(slugs.get('P00225')).toBe('(עוזרד-²-1');
 	});
 });
+
+describe('assignSlugs when a frozen headword strips to nothing', () => {
+	it('keeps the slug and still reports the empty stem', () => {
+		// A published URL is not forfeited because a transform left the
+		// headword as marks only; the defect is reported instead.
+		const { assigned, problems, slugs } = assignSlugs(
+			[{ rid: 'A00013', text: 'ָ' }],
+			new Map([['A00013', 'אב-2']]),
+		);
+		expect(slugs.get('A00013')).toBe('אב-2');
+		expect(problems).toEqual(['A00013: empty stem from "ָ"']);
+		expect(assigned).toEqual([]);
+	});
+
+	it('still drops an UNfrozen rid whose stem is empty', () => {
+		const { problems, slugs } = assignSlugs([{ rid: 'Z00001', text: 'ָ' }]);
+		expect(problems).toEqual(['Z00001: empty stem from "ָ"']);
+		expect(slugs.size).toBe(0);
+	});
+});

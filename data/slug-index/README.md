@@ -80,7 +80,13 @@ bun admin/pipeline/migrate/seed-slug-index.ts
 ```
 
 It refuses if either file exists. It is not a `package.json` script
-because it runs once; after that the pipeline maintains the index.
+because it runs once.
+
+**The pipeline reads this index; it does not yet write to it.** A run
+reports what the index is missing — a rid with no row, a family with no
+alias — as review rows. Persisting those rows is index maintenance and
+ships with the atomic write (consolidation spec R11), so until then a
+new entry means running the update by hand.
 
 Seeding was safe because the assignment is reproducible: re-running
 `assignSlugs` over the committed entries' own headwords returns all

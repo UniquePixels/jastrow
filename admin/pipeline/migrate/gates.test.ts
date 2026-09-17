@@ -190,6 +190,25 @@ describe('checkSlugs', () => {
 		expect(t.failures).toEqual([]);
 	});
 
+	it('fails when a frozen member sits at -1 and another took the bare slug', () => {
+		// The exception belongs to the frozen entry that HOLDS the bare
+		// slug. A frozen `אב-1` must not excuse a second member taking
+		// bare `אב` — that is the collision the clause exists for.
+		const collidedForms = [
+			{ rid: 'A00001', text: 'אָב' },
+			{ rid: 'A00002', text: 'אב' },
+			{ rid: 'A00003', text: 'גד' },
+		];
+		const slugs = new Map([
+			['A00001', 'אב-1'],
+			['A00002', 'אב'],
+			['A00003', 'גד'],
+		]);
+		const t = checkSlugs(collidedForms, slugs, new Map([['A00001', 'אב-1']]));
+		expect(t.pass).toBe(2);
+		expect(t.failures).toEqual(['A00002: slug אב']);
+	});
+
 	it('still fails a duplicate slug when both rids are frozen', () => {
 		// Uniqueness is never relaxed: two entries on one URL is the
 		// failure this gate exists for, frozen or not.

@@ -34,6 +34,18 @@ interface AliasRow {
 
 const RID = /^[A-Z]\d{5}$/u;
 
+/** A slug is a lookup key, so the file holds exactly one spelling of
+ * it. Hebrew combining marks order differently under NFD, so an NFC row
+ * and an NFD row are two Map keys that resolve to one URL — the
+ * duplicate checks below would pass and two entries would share a name
+ * (CodeRabbit, major). `serialise*` writes NFC; anything else is a hand
+ * edit and is refused rather than quietly normalised. */
+function rejectNonNfc(slug: string, path: string): void {
+	if (slug !== slug.normalize('NFC')) {
+		throw new Error(`${path}: slug not in NFC: ${JSON.stringify(slug)}`);
+	}
+}
+
 /** Code-unit order: stable across machines, unlike a locale collation
  * (`migrate/validate.ts` sorts the same way for the same reason). */
 function byCodeUnit(a: string, b: string): number {
@@ -80,6 +92,7 @@ async function loadSlugIndex(
 		) {
 			throw new Error(`${path}: row rejected: ${JSON.stringify(row)}`);
 		}
+		rejectNonNfc(slug, path);
 		if (byRid.has(rid)) {
 			throw new Error(`${path}: duplicate rid ${rid}`);
 		}
@@ -109,6 +122,7 @@ async function loadAliases(
 		) {
 			throw new Error(`${path}: row rejected: ${JSON.stringify(row)}`);
 		}
+		rejectNonNfc(slug, path);
 		if (aliases.has(slug)) {
 			throw new Error(`${path}: duplicate alias ${slug}`);
 		}

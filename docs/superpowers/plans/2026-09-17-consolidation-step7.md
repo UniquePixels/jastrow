@@ -123,9 +123,10 @@ freed for reissue: אב-5 held=false
       line, matching `data/page-index/entries.jsonl`'s style.
 - [x] Add a one-shot generator, `bun admin/pipeline/migrate/seed-slug-index.ts`,
       reading `data/entries/`. It refuses if either file exists — seeding
-      is a one-time act; after this task the pipeline maintains them.
-      Not a `package.json` script: it runs once, and step 6 cut that file
-      from 25 scripts to 13.
+      is a one-time act. Step 7 only *seeds and reads* the index; writing
+      new or retired rows back is index maintenance and goes with R11
+      (see "Not in this step"). Not a `package.json` script: it runs
+      once, and step 6 cut that file from 25 scripts to 13.
 - [x] Run it; commit `entries.jsonl` (32,512 rows) and `aliases.jsonl`
       (4,407 rows).
 - [x] Write `data/slug-index/README.md`: what a slug is, that a

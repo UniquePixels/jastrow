@@ -89,17 +89,23 @@ function assignSlugs(
 	const chosen = new Map<string, string>();
 	for (const { rid, text } of forms) {
 		const stem = slugStem(text);
-		if (stem === '') {
-			problems.push(`${rid}: empty stem from "${text}"`);
-			continue;
-		}
 		const frozen = prior.get(rid);
+		// The frozen lookup comes FIRST. A headword that strips to nothing
+		// is a defect in the headword, not a licence to drop a published
+		// slug: the rid keeps what it was assigned and the empty stem is
+		// still reported (CodeRabbit, major).
 		if (frozen !== undefined) {
 			chosen.set(rid, frozen);
 			const match = NUMBERED.exec(frozen);
-			if ((match?.[1] ?? frozen) !== stem) {
+			if (stem === '') {
+				problems.push(`${rid}: empty stem from "${text}"`);
+			} else if ((match?.[1] ?? frozen) !== stem) {
 				drift.push(`${rid}: slug ${frozen} but stem ${stem}`);
 			}
+			continue;
+		}
+		if (stem === '') {
+			problems.push(`${rid}: empty stem from "${text}"`);
 			continue;
 		}
 		byStem.set(stem, [...(byStem.get(stem) ?? []), rid]);

@@ -91,6 +91,15 @@ describe('loadSlugIndex', () => {
 		const index = await loadSlugIndex(fixture('slug-index-blank-lines'));
 		expect(index.size).toBe(1);
 	});
+	it('rejects a slug that is not in NFC', async () => {
+		// The fixture holds U+FB2A, the precomposed shin-with-dot
+		// presentation form, whose NFC is the decomposed pair. An NFC row
+		// and an NFD row are two Map keys resolving to one URL, so the
+		// duplicate checks would pass and two entries would share a name.
+		await expect(loadSlugIndex(fixture('slug-index-nfd'))).rejects.toThrow(
+			'slug not in NFC',
+		);
+	});
 });
 
 describe('loadAliases', () => {
@@ -103,6 +112,11 @@ describe('loadAliases', () => {
 		await expect(
 			loadAliases(fixture('slug-aliases-duplicate')),
 		).rejects.toThrow('duplicate alias אב');
+	});
+	it('rejects an alias that is not in NFC', async () => {
+		await expect(loadAliases(fixture('slug-aliases-nfd'))).rejects.toThrow(
+			'slug not in NFC',
+		);
 	});
 });
 

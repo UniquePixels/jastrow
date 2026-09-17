@@ -6,8 +6,12 @@
  *     bun admin/pipeline/migrate/seed-slug-index.ts
  *
  * Deliberately not a `package.json` script: it runs once, and step 6
- * cut that file from 25 scripts to 13. After this run the pipeline
- * maintains the index, so the seeder refuses if either file exists.
+ * cut that file from 25 scripts to 13. The seeder refuses if either
+ * file exists.
+ *
+ * After this run the pipeline READS the index and reports what it is
+ * missing; it does not write to it. Persisting new or retired rows is
+ * index maintenance and ships with the atomic write (R11).
  *
  * Safe because the assignment is reproducible: re-running `assignSlugs`
  * over the committed entries' own headwords returns all 32,512

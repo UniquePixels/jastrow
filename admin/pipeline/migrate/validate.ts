@@ -312,9 +312,24 @@ function checkSlugIndex(
 			problems.push(`slug-index row ${rid} is live but has no entry`);
 		}
 	}
+	const held = new Map(entries.map((e) => [e.slug, e.id]));
 	for (const [slug, rid] of aliases) {
-		if (!ids.has(rid)) {
+		const row = index.get(rid);
+		const owner = held.get(slug);
+		if (owner !== undefined) {
+			// `/אב` cannot be both an entry and a redirect. `auditAliases`
+			// reports this family as `slug-bare-held` and gives it no
+			// alias; a hand edit could still add one.
+			problems.push(`alias ${slug} is also ${owner}'s slug`);
+		} else if (!ids.has(rid)) {
 			problems.push(`alias ${slug} points at ${rid}, which has no entry`);
+		} else if (row?.slug !== `${slug}-1`) {
+			// Existing-rid is not enough: an alias resolving to the wrong
+			// member of its own family sends /אב to אב-2 and nothing fails
+			// (CodeRabbit, major).
+			problems.push(
+				`alias ${slug} points at ${rid}, which holds ${row?.slug ?? '(no row)'} not ${slug}-1`,
+			);
 		}
 	}
 }

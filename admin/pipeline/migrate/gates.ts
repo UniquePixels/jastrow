@@ -268,7 +268,11 @@ function checkSlugs(
 	for (const { rid, text } of forms) {
 		const stem = slugStem(text);
 		stems.set(stem, (stems.get(stem) ?? 0) + 1);
-		if (frozen.has(rid)) {
+		// Only a frozen rid that HOLDS the bare slug earns the exception.
+		// `frozen.has(rid)` would also excuse a family whose frozen member
+		// sits at `stem-1` while some other member took the bare name —
+		// the collision the clause exists to catch (CodeRabbit, major).
+		if (frozen.get(rid) === stem && slugs.get(rid) === stem) {
 			frozenStems.add(stem);
 		}
 	}

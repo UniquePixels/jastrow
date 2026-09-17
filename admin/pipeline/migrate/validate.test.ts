@@ -285,6 +285,48 @@ describe('validateTruth against the slug index', () => {
 		expect(validateTruth(files, pages(), index)).toEqual([]);
 	});
 
+	it('reports an alias pointing at the wrong member of its family', () => {
+		// The dangerous shape: the rid exists, so an existence check
+		// passes, while /גמל resolves to a member of another family
+		// entirely. A00002 holds אבא, not גמל-1.
+		expect(
+			validateTruth(
+				files,
+				pages(),
+				indexFrom(files),
+				new Map([['גמל', 'A00002']]),
+			),
+		).toEqual(['alias גמל points at A00002, which holds אבא not גמל-1']);
+	});
+
+	it('accepts an alias pointing at the -1 member', () => {
+		const family = tree(
+			entry('A00001', 'גמל-1', 'x'),
+			entry('A00002', 'גמל-2', 'y'),
+		);
+		expect(
+			validateTruth(
+				family,
+				pages(),
+				indexFrom(family),
+				new Map([['גמל', 'A00001']]),
+			),
+		).toEqual([]);
+	});
+
+	it('reports an alias that is also a live entry\u2019s slug', () => {
+		// `/אב` cannot be both an entry and a redirect. The run calls this
+		// family slug-bare-held and gives it no alias; a hand edit could.
+		expect(
+			validateTruth(
+				files,
+				pages(),
+				indexFrom(files),
+				new Map([['אב', 'A00002']]),
+			),
+		).toEqual(["alias אב is also A00001's slug"]);
+	});
+
 	it('reports an alias pointing at a rid with no entry', () => {
 		expect(
 			validateTruth(
