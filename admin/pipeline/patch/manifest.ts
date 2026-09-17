@@ -147,10 +147,9 @@ function collectPatches(
 
 function checkEscalation(
 	value: Record<string, unknown>,
-	needs: boolean,
 	reasons: string[],
 ): void {
-	if (needs) {
+	if (isNeeds(value['disposition'])) {
 		if (
 			typeof value['escalation'] !== 'string' ||
 			value['escalation'].trim() === ''
@@ -179,14 +178,13 @@ function checkHintNotes(
 
 function checkResolution(
 	value: Record<string, unknown>,
-	needs: boolean,
 	reasons: string[],
 ): void {
 	const resolution = value['resolution'];
 	if (resolution === undefined) {
 		return;
 	}
-	if (!needs) {
+	if (!isNeeds(value['disposition'])) {
 		reasons.push('resolution is only allowed on needs_* rows');
 		return;
 	}
@@ -252,12 +250,11 @@ function parseEntryResult(value: unknown, context: string): EntryResult {
 		throw new ManifestFormatError(context, ['record must be a JSON object']);
 	}
 	const reasons: string[] = [];
-	const needs = isNeeds(value['disposition']);
 	checkIdentity(value, reasons);
 	const patches = collectPatches(value, reasons);
-	checkEscalation(value, needs, reasons);
+	checkEscalation(value, reasons);
 	checkHintNotes(value, reasons);
-	checkResolution(value, needs, reasons);
+	checkResolution(value, reasons);
 	checkDispositionPatches(value, patches, reasons);
 	if (reasons.length > 0) {
 		throw new ManifestFormatError(context, reasons);
@@ -401,13 +398,14 @@ function reconcilePatches(
 	patches: readonly SemanticPatch[],
 ): ManifestProblem[] {
 	const corpus = new Map(patches.map((p) => [p.id, p]));
-	// Populated by the first check and read by the other two, so the
-	// three run in sequence rather than as one spread.
+	// `listedBy` is an out-parameter of the first check and an input to
+	// the other two, so the three are bound in order rather than
+	// composed in one expression.
 	const listedBy = new Map<string, string[]>();
-	const problems = checkListedPatches(records, corpus, listedBy);
-	problems.push(...checkDoubleClaims(listedBy));
-	problems.push(...checkUnlistedPatches(patches, listedBy));
-	return problems;
+	const listed = checkListedPatches(records, corpus, listedBy);
+	const doubleClaimed = checkDoubleClaims(listedBy);
+	const unlisted = checkUnlistedPatches(patches, listedBy);
+	return [...listed, ...doubleClaimed, ...unlisted];
 }
 
 /** The rows blocking replay: every `needs_*` record with no
