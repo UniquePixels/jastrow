@@ -399,7 +399,7 @@ Steps 1–4 have shipped and are kept as history.
    example tests to the unit tier; delete count pins; the two invariant
    files become a local script (§5.1, §5.3).
 6. *Shipped (#NN).* Archive move and `package.json` reduction (§8).
-   21 source files plus their tests archived to branch and tag
+   36 source files and 27 tests archived to branch and tag
    `archive/v2-research-2026-09`; 35 research documents and
    `body-review/` (9 files) moved to `docs/archive/`; 490 lines of
    registry `PENDING` commentary extracted to

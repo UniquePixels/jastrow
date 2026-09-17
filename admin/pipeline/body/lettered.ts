@@ -26,7 +26,7 @@ interface LetteredParts {
 	items: LetteredItem[];
 }
 
-// Shared census.ts's LETTERED caveat: the lookbehind excludes a
+// Shares census.ts's LETTERED caveat: the lookbehind excludes a
 // preceding '(' or letter but not a digit, so a folio-style "39a)"
 // could in principle be read as marker "a)". Four marker shapes, tried
 // in this order at each position (Task 15, §6.0 review decision 07):

@@ -16,7 +16,7 @@ which supersedes the one-shot framing of D14 in the
 | Stage | Tool | Status | Runs |
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
-| Print locator index | `page-index/build.ts` | built 2026-08-17, data committed | on demand (needs the IA hOCR); admin tool corrects entries afterward |
+| Print locator index | `page-index/build.ts` | built 2026-08-17, data committed; tool archived at `refs/tags/archive/v2-research-2026-09` | none — one-time build; admin tool corrects entries afterward |
 | Migration (source → truth) | `migrate.ts` | working, last run 2026-09-09 | on demand, re-runnable |
 | Compile (truth → serving) | `compile.ts` | designed, not built | every deploy |
 
@@ -33,7 +33,7 @@ spec §8).
 | Directory | Contents | Committed | Who writes it |
 |---|---|---|---|
 | `data/source/` | Sefaria snapshot | yes | `fetch.ts` |
-| `data/page-index/` | print locators (page/column) | yes | `page-index/build.ts`; admin tool corrects |
+| `data/page-index/` | print locators (page/column) | yes | `page-index/build.ts` (archived at `refs/tags/archive/v2-research-2026-09`); admin tool corrects |
 | `data/patches/` | per-entry judgments | yes | admin tool appends |
 | `data/quarantine/` | unresolved citation targets | yes | reviewed by hand |
 

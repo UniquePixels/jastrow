@@ -14,7 +14,18 @@ node_modules/
 # sefaria dump cache (pipeline/fetch.ts)
 .cache/
 
-# regenerable pipeline intermediates (data-architecture spec D2)
+# regenerable pipeline intermediates (data-architecture spec D2).
+# Five of these no longer have a live writer — the tool that produced
+# them was archived at `refs/tags/archive/v2-research-2026-09` in the
+# 2026-09 pipeline consolidation, so they cannot be regenerated. Kept
+# ignored anyway (a stale ignore is harmless; untracking them risks
+# committing a leftover local copy):
+#   - data/source/baseline-audit-report.json (baseline-audit tool)
+#   - data/source/body-census-report.json (`body:census`, see
+#     grammar.test.ts:53-58)
+#   - data/source/body-migration-report.json (`migrate-dry.ts`)
+#   - .usage-mark (`admin/pipeline/research/usage-report.ts --mark`)
+#   - .work/ (the page-index build tool)
 data/source/edit-replay.jsonl
 data/source/baseline-audit-report.json
 data/source/body-census-report.json
@@ -24,10 +35,13 @@ data/source/migration-report.json
 .superpowers/
 ~$*.docx
 
-# usage-report baseline stamp (RUNBOOK step 1, bun usage --mark)
+# no-longer-regenerable: usage-report.ts was archived at
+# refs/tags/archive/v2-research-2026-09
 .usage-mark
 
-# local scratch for the page-index build (large IA downloads)
+# local scratch for the page-index build (large IA downloads); the
+# build tool was archived at refs/tags/archive/v2-research-2026-09,
+# so this is also no longer regenerable
 .work/
 
 .$*.bkp

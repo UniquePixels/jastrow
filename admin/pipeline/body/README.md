@@ -12,7 +12,7 @@ feeding Stage 2 (migration).
 | `types.ts` | Shared upstream (`Source*`) and target (`Body*`) type vocabulary | done |
 | `source.ts` | Streaming reader for `data/source/jastrow-dictionary.jsonl` | done |
 | `cite.ts` | Citation detector | done |
-| `census.ts` | Corpus-wide census of sense shapes/markup, to size later rules | done |
+| `census.ts` | Corpus-wide census of sense shapes/markup, to size later rules | archived at `refs/tags/archive/v2-research-2026-09` |
 | `rejoin.ts` | Rejoin split/lettered sense fragments | done |
 | `grammar.ts` | Grammar-node extraction (gender, number, stem) | done |
 | `labels.ts` | Sense label (`number`) parsing | done |
@@ -21,10 +21,10 @@ feeding Stage 2 (migration).
 | `form-sections.ts` | Form-section split (B12: `Pl.`/`Part. pass.`/`Fem.`/`Denom.`) | done |
 | `fixtures/` | Shared golden fixtures for the above | done |
 | `dry-run.ts` | Full-corpus dry run report before migration commits (+ `dry-run-verify.ts`, `dry-run-report.ts`) | done |
-| `review.ts` | Eyes-on review docs over dry-run output (`docs/archive/body-review/`) | done |
+| `review.ts` | Eyes-on review docs over dry-run output (`docs/archive/body-review/`) | archived at `refs/tags/archive/v2-research-2026-09` |
 | `repairs.ts` | Approved §6.0 migration repair passes (Task 16) | done |
-| `compose.ts` | One entry through text-repairs → structural-repairs → patch-apply; shared by `migrate-dry.ts` and `migrate.ts` | done |
-| `migrate-dry.ts` | Repairs + composition + gates over the healed corpus, migration report | done |
+| `compose.ts` | One entry through text-repairs → structural-repairs → patch-apply; shared by `migrate.ts` and `patch/apply-cli.ts` | done |
+| `migrate-dry.ts` | Repairs + composition + gates over the healed corpus, migration report | archived at `refs/tags/archive/v2-research-2026-09` |
 
 ## Source reader (`source.ts`, `types.ts`)
 

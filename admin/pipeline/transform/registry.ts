@@ -313,11 +313,7 @@ const RULES: readonly Rule[] = [
 	// run after every wrap rule and every retarget rule in this list —
 	// the exact inversion `fix/rtl-unlink-order` was written to undo,
 	// and one that rules 1 and 4 in `registry.order.test.ts` exist to
-	// forbid. The phase is also unwired: `migrate-dry.ts:294` runs it
-	// as a no-op and `migrate-dry.ts:144` throws the moment any rule
-	// declares it ("wire it — batch 6") — `migrate-dry.ts` archived at
-	// `refs/tags/archive/v2-research-2026-09`, so a rule placed there
-	// today halts the migration instead of running late.
+	// forbid.
 	//
 	// And the name does not describe these rules anyway. What
 	// `structural-repairs` is reserved for is a pass that changes an
