@@ -42,9 +42,9 @@ unit test tier, and `tsc`. CI's Lint job runs `bun qa:ci`
 Per-PR CI never reads `data/source/` (consolidation spec R9). Registering,
 reclassifying or reordering a transform rule needs
 `bun run transform:invariants` run locally — `bun qa` cannot see it.
-A new corpus-reading test must be added to that script. Two research
-corpus files (`residue-sweep`, `implied-one-census`) run nowhere and
-leave in step 6.
+A new corpus-reading test must be added to that script. The two research
+corpus files that ran nowhere (`residue-sweep`, `implied-one-census`)
+left with the research code in step 6.
 
 ## Branching & Commits
 
