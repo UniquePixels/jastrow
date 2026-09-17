@@ -1,5 +1,9 @@
 # Consolidation Step 7 — Slug Freezing Implementation Plan
 
+> **Complete 2026-09-17.** All five tasks shipped in commits
+> `dadd2396`, `48d44c6b`, `b8c33d5d`, `8ebeaca2`. Outcomes at the foot
+> of this file.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers-extended-cc:subagent-driven-development (recommended) or superpowers-extended-cc:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** A slug, once assigned, never moves and is never handed to a
@@ -112,19 +116,19 @@ freed for reissue: אב-5 held=false
 
 **Goal:** `data/slug-index/` exists, recording today's assignment.
 
-- [ ] Write `admin/pipeline/migrate/slug-index.ts`: `loadSlugIndex()`,
+- [x] Write `admin/pipeline/migrate/slug-index.ts`: `loadSlugIndex()`,
       `writeSlugIndex(rows)`, `loadAliases()`, and the row types —
       `{rid, slug, status}` with `status: 'live' | 'retired'`, and
       `{slug, rid}` for an alias. Rid-sorted, NFC, one JSON object per
       line, matching `data/page-index/entries.jsonl`'s style.
-- [ ] Add a one-shot generator, `bun admin/pipeline/migrate/seed-slug-index.ts`,
+- [x] Add a one-shot generator, `bun admin/pipeline/migrate/seed-slug-index.ts`,
       reading `data/entries/`. It refuses if either file exists — seeding
       is a one-time act; after this task the pipeline maintains them.
       Not a `package.json` script: it runs once, and step 6 cut that file
       from 25 scripts to 13.
-- [ ] Run it; commit `entries.jsonl` (32,512 rows) and `aliases.jsonl`
+- [x] Run it; commit `entries.jsonl` (32,512 rows) and `aliases.jsonl`
       (4,407 rows).
-- [ ] Write `data/slug-index/README.md`: what a slug is, that a
+- [x] Write `data/slug-index/README.md`: what a slug is, that a
       published slug never changes (R10), the `status` values, what an
       alias is, and that these are pipeline inputs rather than derived
       artifacts to regenerate by hand.
@@ -138,29 +142,29 @@ green.
 
 **Goal:** the assigner freezes what it is given and assigns only the rest.
 
-- [ ] Signature becomes
+- [x] Signature becomes
       `assignSlugs(forms, prior: ReadonlyMap<string, string>)`. A rid in
       `prior` keeps that slug, whatever its current stem.
-- [ ] A rid not in `prior` takes the bare stem if unheld, else the
+- [x] A rid not in `prior` takes the bare stem if unheld, else the
       lowest unused number in its family. "Family" means every slug
       whose stem matches, from `prior` and this run together; a reserved
       (`retired`) slug counts as held.
-- [ ] Return new assignments distinctly from frozen ones, so the caller
+- [x] Return new assignments distinctly from frozen ones, so the caller
       emits a row per newly assigned rid without re-deriving which.
-- [ ] Update the module doc comment: "assigned once, then frozen" is
+- [x] Update the module doc comment: "assigned once, then frozen" is
       true only now.
 
 **Tests** (`migrate/slug.test.ts`, unit tier):
 
-- [ ] an empty `prior` reproduces today's behaviour (the existing two
+- [x] an empty `prior` reproduces today's behaviour (the existing two
       tests, bodies unchanged, `new Map()` passed)
-- [ ] a frozen rid keeps its slug when its headword is respelled
-- [ ] a new rid joining a frozen family takes the next free number and
+- [x] a frozen rid keeps its slug when its headword is respelled
+- [x] a new rid joining a frozen family takes the next free number and
       moves nobody
-- [ ] a new rid whose stem is held by one frozen entry takes `stem-1`,
+- [x] a new rid whose stem is held by one frozen entry takes `stem-1`,
       and the incumbent keeps the bare slug
-- [ ] a retired row's slug is not reissued
-- [ ] an empty stem is still reported by rid, never thrown
+- [x] a retired row's slug is not reissued
+- [x] an empty stem is still reported by rid, never thrown
 
 **Verify:** `bun qa:test` green; dry run unmoved.
 
@@ -168,10 +172,10 @@ green.
 
 **Goal:** a run freezes, and says what it did.
 
-- [ ] `buildIndexes` loads the index and passes it to `assignSlugs`.
-- [ ] New rids get an alias when they form a new family; existing
+- [x] `buildIndexes` loads the index and passes it to `assignSlugs`.
+- [x] New rids get an alias when they form a new family; existing
       aliases are never re-pointed.
-- [ ] New report rows, `bucket: 'review'`, `severity: 'review'`:
+- [x] New report rows, `bucket: 'review'`, `severity: 'review'`:
 
 | kind | When |
 |---|---|
@@ -179,8 +183,8 @@ green.
 | `slug-frozen-stem-drift` | a frozen slug whose stem no longer matches its entry's headword |
 | `slug-bare-held` | a family whose bare name is a member's real slug, so no alias is possible |
 
-- [ ] One slug summary line beside the gate lines: new, drifted, aliases.
-- [ ] P00224 (`slug: "(עוזרד-²"` — a leading parenthesis from the source
+- [x] One slug summary line beside the gate lines: new, drifted, aliases.
+- [x] P00224 (`slug: "(עוזרד-²"` — a leading parenthesis from the source
       headword `(עוּזְרָד ²`) gets a review row, not a fix. The `²` is
       Sefaria's own homograph notation, so this is a headword-parsing
       question, not a freezing one.
@@ -191,11 +195,11 @@ exactly (positive control). Non-zero means they have diverged.
 
 ## Task 4 — Relax gate 6 for frozen families
 
-- [ ] `checkSlugs` keeps its uniqueness check for every rid, unchanged.
-- [ ] Its "a collided stem must not hold the bare slug" clause applies
+- [x] `checkSlugs` keeps its uniqueness check for every rid, unchanged.
+- [x] Its "a collided stem must not hold the bare slug" clause applies
       only to families with no frozen member; for a frozen one the
       condition is `slug-bare-held` (Task 3), not a failure.
-- [ ] Pass the loaded index rather than re-deriving which rids are frozen.
+- [x] Pass the loaded index rather than re-deriving which rids are frozen.
 
 **Tests** (`migrate/gates.test.ts`): the two existing slug tests keep
 their bodies and gain the new argument; add one where a frozen incumbent
@@ -208,12 +212,12 @@ where two rids hold the same slug and it still fails.
 
 **Goal:** the duplication is held by a gate, not a promise.
 
-- [ ] In `migrate/validate.ts`, beside the existing page/page-index
+- [x] In `migrate/validate.ts`, beside the existing page/page-index
       check: every entry's `slug` equals its index row's, every entry
       has a row, every `live` row has an entry. A `retired` row with no
       entry is correct; a `retired` row *with* one is a problem. Every
       alias points at an existing rid.
-- [ ] It runs over the committed tree from `migrate/truth.test.ts` in
+- [x] It runs over the committed tree from `migrate/truth.test.ts` in
       `bun qa`, like the page check — so a hand edit or an admin-tool
       write that changes a slug fails CI.
 
@@ -232,3 +236,58 @@ validation gate not seen to fail has not been seen to work.
 | Sefaria URL compatibility route | `docs/v2/url-routes.md` §1 |
 | Bare-stem landing behaviour: redirect or disambiguation page | `docs/v2/url-routes.md` §2 |
 | An independent entry count (Dukhrana) | unscheduled |
+
+## Outcome (2026-09-17)
+
+| Task | Commit | Note |
+|---|---|---|
+| 1 seed the index | `dadd2396` | 32,512 rows + 4,407 aliases, `problems=0` |
+| 2 freeze on prior | `48d44c6b` | empty prior reproduces all 32,512 slugs |
+| 3 migrate reads it | `b8c33d5d` | five review rows; nothing written |
+| 4 gate 6 relaxed | `b8c33d5d` | landed with 3: the wiring needed it to compile |
+| 5 validation gate | `8ebeaca2` | six controls plus an end-to-end plant |
+
+**The control held.** Two dry runs, before and after the validation
+gate:
+
+```text
+gate slugs=32512/32512 failures=0        (nine gates green, 1m 38s)
+slug-new=0 slug-frozen-stem-drift=0 slug-alias-new=0 slug-bare-held=0 slug-unsafe=12
+```
+
+`docs/v2/migration-blessing.md` came back byte-identical both times —
+`git diff` on it empty. Freezing is a no-op on a corpus that has never
+been rebuilt, exactly as predicted.
+
+**The validation gate was seen to fail.** Appending one character to
+A00013's slug:
+
+```text
+A00013: slug אב-2x but the slug index says אב-2
+```
+
+Reverting restored green. A gate not seen to fail has not been seen to
+work.
+
+### Found along the way
+
+| Finding | Disposition |
+|---|---|
+| 12 slugs carry Jastrow's editorial notation (`*` hypothetical, `(…)` uncertain, `=` cross-reference, `?` doubtful) and are not URL-safe | new `slug-unsafe` review row; not rewritten — a slug is frozen and the fix belongs in headword parsing |
+| `biome check --write` deletes a `return;` in `composeOne` that `tsc` requires (TS7030) | restored with a comment naming the conflict |
+| The "11,627 numbered members" figure was 11,626: P00224's slug ends `-²`, and Python's `isdigit()` counts a superscript two | corrected in the spec and this plan; the slug index regex is ASCII-only, with a test |
+
+### Deviations from the plan as written
+
+- **Tasks 3 and 4 shipped in one commit.** Wiring the index into
+  `buildIndexes` needs `checkSlugs` to take the frozen map, so
+  splitting them would have meant a commit that does not compile.
+- **The alias rule moved into `slug-index.ts`.** The seeder and
+  `migrate` both need it and two copies drift. Controlled: re-running
+  the moved rule over the committed tree reproduces `aliases.jsonl`
+  byte for byte.
+- **A fourth and fifth review row** (`slug-alias-new`, `slug-unsafe`)
+  beyond the three the plan named.
+- **`validateTruth` gained two required parameters** rather than
+  optional ones with empty defaults. An empty-map default is a check
+  that silently does nothing.

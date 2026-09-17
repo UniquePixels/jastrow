@@ -493,7 +493,7 @@ Steps 1–4 have shipped and are kept as history.
    `pipeline:patches`; `biome.json` taught to leave `docs/archive`
    alone. Nine migrate gates green throughout, with counts
    byte-identical to `docs/v2/migration-blessing.md`.
-7. Slug freezing (§7): `data/slug-index/` seeded from the committed
+7. *Shipped (#NN).* Slug freezing (§7): `data/slug-index/` seeded from the committed
    tree (32,512 index rows, 4,407 aliases), `assignSlugs` taught to
    take prior assignments, gate 6 relaxed for frozen families, three
    review rows, and the index-agreement check in entry-data
@@ -501,7 +501,14 @@ Steps 1–4 have shipped and are kept as history.
    counts do not move: freezing is a no-op on a corpus that has never
    been rebuilt, so any movement means the logic is wrong. R11's write
    mechanics and index maintenance on write are *not* in this step
-   (§10).
+   (§10). **Outcome:** two dry runs, before and after the validation
+   gate, left `migration-blessing.md` byte-identical and every slug
+   row at zero — freezing is a no-op on a corpus never rebuilt. The
+   validation gate was seen to fail on a planted one-character slug
+   edit. One new row kind beyond the plan, `slug-unsafe`: 12 slugs
+   carry Jastrow's editorial notation (`*`, `(…)`, `=`, `?`) into a
+   URL. Plan and findings:
+   [`docs/superpowers/plans/2026-09-17-consolidation-step7.md`](../superpowers/plans/2026-09-17-consolidation-step7.md).
 8. `repairs.ts` hand tables → patches (§4.1).
 9. Review-queue doc and Sefaria report refresh (§9).
 10. Terms sweep (§1.1, `docs/glossary.md`): documents say source,
@@ -522,6 +529,7 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-14 | Final-fix wave: §5.1 Rebuild runs `--strict`; §4.2 carry-over zero-match documented as `superseded`, not drift-classified, with the gap pinned at §10 |
 | 2026-09-15 | R8 data terms (§1.1; "truth" becomes entry data) and R9 `migrate` is not CI work. §5 rewritten: Rebuild, Corpus Audit, the Invariants CI job and `expected-counts.json` withdrawn; invariants run locally; ~190 hand-written example tests move to the unit tier; drift checks become review detectors (§10). §1 corpus-tier measurement corrected; §3.3 scheduling marked open against R9 pending a brainstorm; §11 step 5 rewritten, step 10 added. R8 extended: `migrate` becomes import with `data:` command prefix; vocabulary moved to new `docs/glossary.md` |
 | 2026-09-15 | Step 5: Rebuild and Corpus Audit jobs removed; 193 corpus-tier tests moved to the unit tier (182 fixed-input, 11 on a committed gershayim fixture), 191 deleted and inventoried in `docs/v2/retired-corpus-checks.md`; registry order split so its static assertions run in `bun qa`; paren→phrase direction pinned statically; `transform:invariants` script and tier guard added; §1, §5.1, §5.3, §8, §10, §11 amended |
+| 2026-09-17 | Step 7: `data/slug-index/` seeded (32,512 rows, 4,407 aliases); `assignSlugs` takes the prior assignment; `migrate` reads the index and emits five review rows; gate 6's bare-slug clause relaxed for frozen families; entry-data validation checks slug against index row both ways. Nine gates green and the blessing doc byte-identical across two dry runs. `slug-unsafe` added as a sixth finding: 12 slugs carry editorial notation into a URL. The "11,627 numbered members" figure corrected to 11,626 — P00224's slug ends `-²`, which a loose digit test counted |
 | 2026-09-17 | Maintainer's challenge to the slug design answered by measurement: the hazard is not Sefaria adding entries (Jastrow is a closed 1903 text, rids are dense and contiguous) but our own headword rules — 6,570 slugs, 20% of the corpus, differ between the source and composed spellings. The rid-renumbering contingency was dropped; §7 rewritten around the measured reason. §7.2 bare-stem aliases added (4,407 rows, frozen like slugs) after the ruling that every family's bare name must reach its first member; Sefaria 404s on both bare forms and exposes the family through `/api/words/` only. `docs/v2/url-routes.md` opened for the Sefaria URL-compatibility route and the landing-behaviour choice; both listed in §10 |
 | 2026-09-17 | R10 (a published slug never changes; the assignment is recorded in `data/slug-index/entries.jsonl`, not inferred from the entry tree) and R11 (the write is atomic; the empty-tree guard is a D14 relic and retires with the update run, and is not replaced by a prompt). §7 rewritten with §7.1 the index and §7.2 the assignment rules; §1.1 reference data, §5.1 validation row and §10 row 1 amended; §11 step 7 spelled out and step 6's PR number backfilled |
 | 2026-09-16 | Step 6: research code archived at `archive/v2-research-2026-09`; docs and research data to `docs/archive/`; registry `PENDING` commentary extracted; `package.json` 25 → 13 scripts (not the 24 → 12 the plan predicted; step 5 had already added `transform:invariants`, and `body:dry-run` survives). §8 corrected: three census helpers, not two (`classifyBoundary` is on the migrate path); `patch/seed-tranche.ts` and `patch/seed-sense-runs.ts` added to the §4.1 archive list; `data/patches/tranches/` named as a production input |
