@@ -64,7 +64,7 @@
     {
       "id": 7,
       "subject": "Task 8: Reduce package.json, clear stale workspaces",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** `package.json` lists only scripts whose entry points still exist; stale worktree and brainstorm directories go.\n\n**Files:**\n- Modify: `package.json`\n- Delete: `.worktrees/`, stale `.superpowers/` entries, unregistered `.claude/worktrees/agent-*` dirs\n- Modify: `.gitignore` if it names a deleted path\n\n**Acceptance Criteria:**\n- [ ] Every remaining script's entry file exists\n- [ ] Scripts after the change: `pipeline:{fetch,migrate,patches}`, `pageindex:verify`, `transform:{count,invariants}`, `qa`, `qa:{ci,format,lint,test,tsc}` - 12, down from 25\n- [ ] `bun run pipeline:patches` runs\n- [ ] Registered git worktrees removed only after checking each is clean; `agent-*` dirs are plain directories and deleted\n- [ ] `bun qa` green\n\n**Verify:** node check over `package.json` script paths -> no `MISSING` output; then `bun qa && bun pipeline:migrate` -> exit 0\n\n```json:metadata\n{\"files\": [\"package.json\", \".worktrees\", \".claude/worktrees\"], \"verifyCommand\": \"bun qa && bun pipeline:migrate\", \"acceptanceCriteria\": [\"every script entry point exists\", \"12 scripts remain, down from 25\", \"research:apply renamed pipeline:patches\", \"stale dirs removed, registered worktrees confirmed clean first\"], \"modelTier\": \"standard\"}\n```",
       "blockedBy": [
         6
@@ -80,5 +80,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-16T22:53:27.515774"
+  "lastUpdated": "2026-09-16T23:10:38.071861"
 }

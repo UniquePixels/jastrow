@@ -1027,6 +1027,17 @@ measurement disagreed with §8.
 - Modify: `admin/pipeline/README.md`, `CONTRIBUTING.md`, `.claude/CLAUDE.md`
   where they name a deleted script or directory
 - Modify: `docs/glossary.md` if it names a moved path
+- Modify: `data/patches/RUNBOOK.md` — two carried-over items from Task 8's
+  review (controller Ruling 15). It is a live operational document about live
+  correction data, not history, so a dead command in it is a defect:
+  - lines ~49-57: a code block still reads `bun usage --mark .usage-mark` and
+    `bun usage --since @.usage-mark --project jastrow`. Task 8 added an
+    accurate parenthetical above it but left the block copy-pasteable.
+    Rewrite the block itself, as `docs/v2/upstream-issues.md` was.
+  - lines ~70 and ~86: both invoke `bun admin/pipeline/research/tranche.ts`
+    (`prep` / `ingest`). That file was archived in Task 4. This is a raw path,
+    not a `package.json` script name, so Task 8's sweep pattern never covered
+    it — a Task 4 gap, found here.
 
 **Acceptance Criteria:**
 - [ ] §11 step 6 reads `*Shipped (#NN).*` with the measured outcome
@@ -1035,6 +1046,8 @@ measurement disagreed with §8.
       `data/patches/tranches/` named as a production input that stays
 - [ ] §12 has a `2026-09-16` changelog row
 - [ ] Every path named in `CONTRIBUTING.md` and `.claude/CLAUDE.md` exists
+- [ ] `data/patches/RUNBOOK.md` contains no runnable-looking command that
+      invokes a deleted script or an archived file path
 - [ ] `bun qa` green
 
 **Verify:** `grep -oE '(admin|data|docs)/[A-Za-z0-9_./-]+' CONTRIBUTING.md .claude/CLAUDE.md | cut -d: -f2 | sort -u | while read p; do test -e "$p" || echo "MISSING $p"; done` → no output
