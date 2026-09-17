@@ -96,37 +96,60 @@ function isDisposition(value: unknown): value is Disposition {
 	);
 }
 
-/** Validate one decoded JSON value as an `EntryResult`, collecting
- * every problem before throwing. */
-function parseEntryResult(value: unknown, context: string): EntryResult {
-	const reasons: string[] = [];
-	if (!isRecord(value)) {
-		throw new ManifestFormatError(context, ['record must be a JSON object']);
-	}
+function isNeeds(disposition: unknown): boolean {
+	return (
+		disposition === 'needs_print_check' ||
+		disposition === 'needs_human_judgment'
+	);
+}
+
+/** Every check below appends to a shared `reasons` list rather than
+ * returning — `parseEntryResult` reports every problem with a record,
+ * never just the first, and the call order below is the order the
+ * reasons come out in (`manifest.test.ts` pins rid before
+ * disposition). */
+function checkIdentity(
+	value: Record<string, unknown>,
+	reasons: string[],
+): void {
 	if (typeof value['rid'] !== 'string' || !RID.test(value['rid'])) {
 		reasons.push(`rid must match ${RID.source}`);
 	}
 	if (!isDisposition(value['disposition'])) {
 		reasons.push(`disposition must be one of: ${DISPOSITIONS.join(', ')}`);
 	}
-	const patches: string[] = [];
-	if (Array.isArray(value['patches'])) {
-		for (const id of value['patches']) {
-			if (typeof id !== 'string' || !PATCH_ID.test(id)) {
-				reasons.push(`patch id "${String(id)}" must match ${PATCH_ID.source}`);
-			} else {
-				patches.push(id);
-			}
-		}
-		if (new Set(patches).size !== patches.length) {
-			reasons.push('patches must not repeat an id');
-		}
-	} else {
+}
+
+/** The well-formed patch ids, in order. Ill-formed ones are reported
+ * and dropped, so later checks (`clean` carries none, `repaired`
+ * carries at least one) see only ids that could be real. */
+function collectPatches(
+	value: Record<string, unknown>,
+	reasons: string[],
+): string[] {
+	if (!Array.isArray(value['patches'])) {
 		reasons.push('patches must be an array of patch ids');
+		return [];
 	}
-	const needs =
-		value['disposition'] === 'needs_print_check' ||
-		value['disposition'] === 'needs_human_judgment';
+	const patches: string[] = [];
+	for (const id of value['patches']) {
+		if (typeof id !== 'string' || !PATCH_ID.test(id)) {
+			reasons.push(`patch id "${String(id)}" must match ${PATCH_ID.source}`);
+		} else {
+			patches.push(id);
+		}
+	}
+	if (new Set(patches).size !== patches.length) {
+		reasons.push('patches must not repeat an id');
+	}
+	return patches;
+}
+
+function checkEscalation(
+	value: Record<string, unknown>,
+	needs: boolean,
+	reasons: string[],
+): void {
 	if (needs) {
 		if (
 			typeof value['escalation'] !== 'string' ||
@@ -139,6 +162,12 @@ function parseEntryResult(value: unknown, context: string): EntryResult {
 			'escalation is only allowed on needs_* rows — an entry with an unrepaired finding is not clean/repaired',
 		);
 	}
+}
+
+function checkHintNotes(
+	value: Record<string, unknown>,
+	reasons: string[],
+): void {
 	if (
 		value['hint_notes'] !== undefined &&
 		(typeof value['hint_notes'] !== 'string' ||
@@ -146,35 +175,59 @@ function parseEntryResult(value: unknown, context: string): EntryResult {
 	) {
 		reasons.push('hint_notes must be a non-empty string when present');
 	}
-	if (value['resolution'] !== undefined) {
-		if (!needs) {
-			reasons.push('resolution is only allowed on needs_* rows');
-		} else if (isRecord(value['resolution'])) {
-			if (
-				typeof value['resolution']['decision'] !== 'string' ||
-				value['resolution']['decision'].trim() === ''
-			) {
-				reasons.push('resolution.decision must be non-empty');
-			}
-			if (
-				typeof value['resolution']['decided_on'] !== 'string' ||
-				!REVIEW_DATE.test(value['resolution']['decided_on'])
-			) {
-				reasons.push('resolution.decided_on must be a YYYY-MM-DD review date');
-			}
-		} else {
-			reasons.push('resolution must be an object');
-		}
+}
+
+function checkResolution(
+	value: Record<string, unknown>,
+	needs: boolean,
+	reasons: string[],
+): void {
+	const resolution = value['resolution'];
+	if (resolution === undefined) {
+		return;
 	}
+	if (!needs) {
+		reasons.push('resolution is only allowed on needs_* rows');
+		return;
+	}
+	if (!isRecord(resolution)) {
+		reasons.push('resolution must be an object');
+		return;
+	}
+	if (
+		typeof resolution['decision'] !== 'string' ||
+		resolution['decision'].trim() === ''
+	) {
+		reasons.push('resolution.decision must be non-empty');
+	}
+	if (
+		typeof resolution['decided_on'] !== 'string' ||
+		!REVIEW_DATE.test(resolution['decided_on'])
+	) {
+		reasons.push('resolution.decided_on must be a YYYY-MM-DD review date');
+	}
+}
+
+function checkDispositionPatches(
+	value: Record<string, unknown>,
+	patches: readonly string[],
+	reasons: string[],
+): void {
 	if (value['disposition'] === 'clean' && patches.length > 0) {
 		reasons.push('a clean entry cannot carry patches');
 	}
 	if (value['disposition'] === 'repaired' && patches.length === 0) {
 		reasons.push('a repaired entry requires at least one patch id');
 	}
-	if (reasons.length > 0) {
-		throw new ManifestFormatError(context, reasons);
-	}
+}
+
+/** Build the record once validation has passed. The optional fields
+ * are assigned rather than spread so an absent one stays absent — the
+ * JSONL round trip must not gain `"escalation": undefined` keys. */
+function buildEntryResult(
+	value: Record<string, unknown>,
+	patches: string[],
+): EntryResult {
 	const result: EntryResult = {
 		disposition: value['disposition'] as Disposition,
 		patches,
@@ -190,6 +243,26 @@ function parseEntryResult(value: unknown, context: string): EntryResult {
 		result.resolution = value['resolution'] as unknown as MaintainerResolution;
 	}
 	return result;
+}
+
+/** Validate one decoded JSON value as an `EntryResult`, collecting
+ * every problem before throwing. */
+function parseEntryResult(value: unknown, context: string): EntryResult {
+	if (!isRecord(value)) {
+		throw new ManifestFormatError(context, ['record must be a JSON object']);
+	}
+	const reasons: string[] = [];
+	const needs = isNeeds(value['disposition']);
+	checkIdentity(value, reasons);
+	const patches = collectPatches(value, reasons);
+	checkEscalation(value, needs, reasons);
+	checkHintNotes(value, reasons);
+	checkResolution(value, needs, reasons);
+	checkDispositionPatches(value, patches, reasons);
+	if (reasons.length > 0) {
+		throw new ManifestFormatError(context, reasons);
+	}
+	return buildEntryResult(value, patches);
 }
 
 /** Parse one JSONL manifest line. */
@@ -252,16 +325,15 @@ function validateManifest(
 	return problems;
 }
 
-/** Cross-check the manifest against the patch corpus: every listed
- * patch exists and belongs to its record's rid; every corpus patch
- * is listed exactly once. */
-function reconcilePatches(
+/** Walk every listed patch id: record which records claim it (into
+ * `listedBy`, which the caller then checks for double claims) and
+ * report the ones the corpus cannot account for. */
+function checkListedPatches(
 	records: readonly EntryResult[],
-	patches: readonly SemanticPatch[],
+	corpus: ReadonlyMap<string, SemanticPatch>,
+	listedBy: Map<string, string[]>,
 ): ManifestProblem[] {
 	const problems: ManifestProblem[] = [];
-	const corpus = new Map(patches.map((p) => [p.id, p]));
-	const listedBy = new Map<string, string[]>();
 	for (const record of records) {
 		for (const id of record.patches) {
 			const rids = listedBy.get(id);
@@ -284,14 +356,32 @@ function reconcilePatches(
 			}
 		}
 	}
+	return problems;
+}
+
+/** Patch ids claimed by more than one record. */
+function checkDoubleClaims(
+	listedBy: ReadonlyMap<string, readonly string[]>,
+): ManifestProblem[] {
+	const problems: ManifestProblem[] = [];
 	for (const [id, rids] of listedBy) {
 		if (rids.length > 1) {
 			problems.push({
 				reason: `patch ${id} is listed by more than one record`,
-				rids,
+				rids: [...rids],
 			});
 		}
 	}
+	return problems;
+}
+
+/** Corpus patches no record accounts for — the other direction of the
+ * same completeness claim. */
+function checkUnlistedPatches(
+	patches: readonly SemanticPatch[],
+	listedBy: ReadonlyMap<string, readonly string[]>,
+): ManifestProblem[] {
+	const problems: ManifestProblem[] = [];
 	for (const patch of patches) {
 		if (!listedBy.has(patch.id)) {
 			problems.push({
@@ -300,6 +390,23 @@ function reconcilePatches(
 			});
 		}
 	}
+	return problems;
+}
+
+/** Cross-check the manifest against the patch corpus: every listed
+ * patch exists and belongs to its record's rid; every corpus patch
+ * is listed exactly once. */
+function reconcilePatches(
+	records: readonly EntryResult[],
+	patches: readonly SemanticPatch[],
+): ManifestProblem[] {
+	const corpus = new Map(patches.map((p) => [p.id, p]));
+	// Populated by the first check and read by the other two, so the
+	// three run in sequence rather than as one spread.
+	const listedBy = new Map<string, string[]>();
+	const problems = checkListedPatches(records, corpus, listedBy);
+	problems.push(...checkDoubleClaims(listedBy));
+	problems.push(...checkUnlistedPatches(patches, listedBy));
 	return problems;
 }
 
