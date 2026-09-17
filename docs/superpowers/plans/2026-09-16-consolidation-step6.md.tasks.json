@@ -46,7 +46,7 @@
     {
       "id": 5,
       "subject": "Task 6: Archive the research documents",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** 35 research documents and `body-review/` leave `docs/v2/`, which keeps only the documents the pipeline's readers need.\n\n**Files:**\n- Move to `docs/archive/`: `docs/v2/{baseline-audit,body-census,body-dryrun,body-migration,catalogue-audit,divergence-audit,pattern-triage}.md`, `discovery-round-*.md`, `phase-2-*.md`, `transform-batch-*.md`, `body-review/`\n- Modify: any document or source file linking to a moved path\n\n**Acceptance Criteria:**\n- [ ] 35 files + `body-review/` under `docs/archive/`\n- [ ] `docs/v2/` retains `migration-blessing.md`, `retired-corpus-checks.md`, `sefaria-report.md`, `test-tiers.md`, `upstream-issues.md`\n- [ ] No surviving file links to a moved `docs/v2/` path\n- [ ] `bun qa` green\n\n**Verify:** grep for `docs/v2/(phase-2|transform-batch|discovery-round|body-review|baseline-audit|catalogue-audit|divergence-audit|pattern-triage|body-census|body-dryrun|body-migration)` outside `docs/archive` -> no output\n\n```json:metadata\n{\"files\": [\"docs/archive\", \"docs/v2\"], \"verifyCommand\": \"bun qa\", \"acceptanceCriteria\": [\"35 files + body-review/ moved\", \"docs/v2 keeps the five reader docs\", \"no dangling links\", \"bun qa green\"], \"modelTier\": \"mechanical\"}\n```",
       "blockedBy": [
         4
@@ -80,5 +80,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-16T15:53:22.395935"
+  "lastUpdated": "2026-09-16T22:32:55.987065"
 }
