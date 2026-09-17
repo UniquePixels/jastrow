@@ -7,7 +7,7 @@
  *
  * The audit is explicit: "Any Phase 2 transform should be written
  * against all three at once, or it will trade one for another"
- * (data/patches/catalogue-audit/bare-rtl-hebrew.md, "Overlap"). The
+ * (docs/archive/catalogue-audit/bare-rtl-hebrew.md, "Overlap"). The
  * catalogue records that entanglement on all three rows and
  * `checkAdjacency()` enforces that they occupy a gap-free span in
  * `RULES`.

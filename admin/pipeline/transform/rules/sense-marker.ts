@@ -1,5 +1,5 @@
 /**
- * `trailing-em-dash-tail` (batch 7, `docs/v2/transform-batch-7.md` §1)
+ * `trailing-em-dash-tail` (batch 7, `docs/archive/transform-batch-7.md` §1)
  * — the second rule to run in the `structural-repairs` phase batch 6b
  * wired.
  *

@@ -221,7 +221,7 @@ person does not rediscover them.
 
 6. **Rewriting file references in dated batch reports has a failure
    mode**, found the hard way in this change.
-   `docs/v2/transform-batch-3a.md` §1233 recorded that a brief had named
+   `docs/archive/transform-batch-3a.md` §1233 recorded that a brief had named
    a NONEXISTENT file, `rules/gershayim.corpus.test.ts`, when the real
    one was `rules/gershayim.test.ts`. The mechanical rewrite turned the
    second into the first and left a sentence naming one path twice. The

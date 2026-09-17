@@ -8,7 +8,7 @@ pin `sha256:75bbc5ee7…`.
 
 **This batch breached the error gate on its first pass and was
 re-swept.** The breach analysis is
-[`docs/v2/phase-2-batch-02-breach.md`](../../../docs/v2/phase-2-batch-02-breach.md);
+[`docs/archive/phase-2-batch-02-breach.md`](../../../docs/archive/phase-2-batch-02-breach.md);
 this report covers the batch as committed.
 
 ## Measured

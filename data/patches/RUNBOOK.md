@@ -18,11 +18,15 @@ recorded go**. Gates (sweep tiering spec, 2026-08-17):
   consecutive rounds add no new systemic pattern class
   (`data/patches/patterns.jsonl`).
 
-Prompts: **read the version out of the code, never out of this
-file.** The sweep version in force is `PROMPT_VERSION` in
-`research/corpus-inputs.ts`, gated by `prompt-version.test.ts`, and
-the document it names is `prompts/sweep-<PROMPT_VERSION>.md`. The
-code wins over every prose line here.
+Prompts: **while the sweep tooling existed, the version was read out
+of the code, never out of this file.** The sweep version in force was
+`PROMPT_VERSION` in `research/corpus-inputs.ts`, gated by
+`prompt-version.test.ts`, and the document it named was
+`prompts/sweep-<PROMPT_VERSION>.md`. All three — `corpus-inputs.ts`,
+`prompt-version.test.ts`, and the `prompts/` directory — are archived
+at `refs/tags/archive/v2-research-2026-09`; there is no live code left
+to win over this prose. The last version reached was v10 (changelog
+items 2–4, referenced below); this file is now the record.
 
 This paragraph used to name the version, and it was **two bumps
 stale** — it said `v8` while v9 ran, and pointed at `sweep-v5.md`
@@ -32,13 +36,15 @@ pinned source instead of a version. A stale premise in an operating
 document is the expensive kind of error: an agent following it
 correctly still reaches the wrong grounds (v10 changelog, items 2–4).
 
-Verification uses the highest `prompts/verify-vN.md` — currently
+Verification used the highest `prompts/verify-vN.md` — the last was
 `verify-v3.md`, which added the `catchable`/`labelOnly` verdict
-fields. Nothing gates that one, so check the directory. Prep attaches
+fields. Nothing gated that one, and the whole `prompts/` directory is
+now archived at `refs/tags/archive/v2-research-2026-09`. Prep attached
 `anomaly_hints` to chunk inputs: corpus-frequency findings from
-`anomalies.ts` plus link-target findings from `link-anomalies.ts`.
-For the tier, read the table in the residue section below — it is
-Sonnet on the batch path and **Opus** on the residue path.
+`anomalies.ts` plus link-target findings from `link-anomalies.ts` —
+both archived at the same tag. For the tier, read the table in the
+residue section below — it was Sonnet on the batch path and **Opus**
+on the residue path.
 
 ## Procedure
 
@@ -46,30 +52,26 @@ Sonnet on the batch path and **Opus** on the residue path.
    size (chunks of 30 entries; 25 chunks ≈ 3–4× pilot spend).
    Record the go (timestamp) in the tranche's report.
 
-   **Mark the usage baseline before dispatching:**
-
-   ```
-   bun usage --mark .usage-mark                      # before step 3
-   bun usage --since @.usage-mark --project jastrow  # after step 4
-   ```
-
-   `admin/pipeline/research/usage-report.ts` reads Claude Code's own per-session
-   transcripts, so a run can be costed from disk afterwards rather
-   than watched live. It reports `main` and `subagent` separately on
-   purpose: sweep agents are `isSidechain` records, and the
-   statusline's window percentage **skips them**, so that figure
-   understates a sweep by whatever the subagent row says. Tokens
-   only — the transcripts carry no billing.
-
-   `--project` matches a substring of the project slug and is worth
-   passing: without it the report spans **every** project on the
-   machine, so unrelated work lands in the sweep's number.
-2. **Prep** — `bun admin/pipeline/research/tranche.ts prep
-   <workdir> <count>`: writes per-chunk input JSON (pre-patch
-   entries + precomputed `sense_index`, pin, `promptVersion` — the
-   `PROMPT_VERSION` named above, never a version hardcoded here) for
-   the next pending chunks; chunk progress lives in
-   `data/patches/checkpoints/`.
+   **Usage baseline marking is no longer available.** The former
+   pair — mark before step 3, then diff since the mark after step 4 —
+   depended on `admin/pipeline/research/usage-report.ts`, archived at
+   `refs/tags/archive/v2-research-2026-09` in the 2026-09 pipeline
+   consolidation. No replacement has been built. That script read
+   Claude Code's own per-session transcripts so a run could be costed
+   from disk afterwards rather than watched live; it reported `main`
+   and `subagent` separately, since sweep agents are `isSidechain`
+   records and the statusline's window percentage skips them, and it
+   took a `--project` filter to keep unrelated work off the sweep's
+   number. Until a replacement exists, cost a sweep by hand from the
+   transcripts or skip this step.
+2. **Prep** — `tranche.ts prep <workdir> <count>` wrote per-chunk
+   input JSON (pre-patch entries + precomputed `sense_index`, pin,
+   `promptVersion` — the `PROMPT_VERSION` named above, never a version
+   hardcoded here) for the next pending chunks; chunk progress lives
+   in `docs/archive/patches-checkpoints/`. `tranche.ts` was archived
+   at `refs/tags/archive/v2-research-2026-09` with the rest of
+   `research/` in the 2026-09 pipeline consolidation, so this step has
+   no runnable tool until one is rebuilt.
 3. **Dispatch sweep agents** — one agent per chunk (waves of ~7).
    **Tier depends on the path: Sonnet on the batch path, Opus on the
    residue path** (tiering spec §4 Phase 2.3, decision T4). Read the
@@ -80,17 +82,18 @@ Sonnet on the batch path and **Opus** on the residue path.
    agents judge their own chunk only — keep session notes outside
    the workdir so they cannot cross-contaminate judgments
    (batch-02 round 1).
-4. **Ingest** — `bun admin/pipeline/research/tranche.ts ingest
-   <workdir>`: validates every chunk output (schema, pin, overlap,
-   chained apply, no-new-text), renumbers ids corpus-unique,
-   appends accepted output to
+4. **Ingest** — `tranche.ts ingest <workdir>` validated every chunk
+   output (schema, pin, overlap, chained apply, no-new-text),
+   renumbered ids corpus-unique, appended accepted output to
    `data/patches/tranches/<tranche>/{patches,manifest,rejects}.jsonl`,
-   marks succeeded chunks complete in the checkpoint, and writes
-   `sample-patches.json` / `sample-clean.json`. Chunk-fatal
-   problems print and stay pending — re-dispatch those chunks.
+   marked succeeded chunks complete in the checkpoint, and wrote
+   `sample-patches.json` / `sample-clean.json`. Same tool as Prep
+   above, archived with `research/`; no runnable replacement exists.
+   Chunk-fatal problems print and stay pending — re-dispatch those
+   chunks.
 5. **Verification** — Opus agents over the sample files (patch
    reviews + clean reviews per the highest `prompts/verify-vN.md` —
-   currently `verify-v3.md`, per the paragraph above), verdicts to
+   the last was `verify-v3.md`, per the paragraph above), verdicts to
    `<workdir>/verdicts-*.jsonl`.
 6. **Report + threshold check** — build the batch report
    (`buildPilotReport`/`renderPilotReport` from `verify.ts`) with
@@ -103,8 +106,11 @@ Sonnet on the batch path and **Opus** on the residue path.
 ## Phase 2.3 item 3 — the residue sweep
 
 Same seven steps, with a different prep command and a different
-population. `admin/pipeline/research/residue-sweep.ts` carries the
-argument; the operational differences are:
+population. `admin/pipeline/research/residue-sweep.ts` carried the
+argument; it and the rest of `research/` (including `tranche.ts` and
+the test files cited below) are archived at
+`refs/tags/archive/v2-research-2026-09`. The operational differences
+were:
 
 | | Batch path | Residue path |
 |---|---|---|
@@ -127,24 +133,25 @@ batches 01 and 02 ran this overlap was near zero, because the rules
 did not exist yet.
 
 **This is not a new contract.** `sweep-v5.md`'s Input table already
-describes the chunk as *"in the exact byte state the patch-apply
+described the chunk as *"in the exact byte state the patch-apply
 phase will see (after the pipeline's deterministic text/structural
-passes)"*. `prep-residue` makes the code meet the promise the prompt
-has been making; `prep` has been quietly breaking it since the first
+passes)"*. `prep-residue` made the code meet the promise the prompt
+had been making; `prep` had been quietly breaking it since the first
 transform rule shipped.
 
-Every chunk input records which state it was built from, in
-`corpusStage` (`pre-patch` | `healed`). `ingest` needs no flag: it
-reads the tranche id out of the input and resolves the matching
+Every chunk input recorded which state it was built from, in
+`corpusStage` (`pre-patch` | `healed`). `ingest` needed no flag: it
+read the tranche id out of the input and resolved the matching
 chunking and fingerprint.
 
 Gates: `residue-sweep.test.ts` (unit) and
-`residue-sweep.corpus.test.ts` (corpus). The corpus one re-derives
-the frozen 61 from the detector and pins the 1,946, so a revert to
-the pre-patch corpus fails rather than passing quietly. Its pinned
-figures have been re-baselined three times, each time with the
-movement audited in the constants' own docstring — a move in them is a change
-to what item 3 sweeps, and reading it is the point.
+`residue-sweep.corpus.test.ts` (corpus), both archived at
+`refs/tags/archive/v2-research-2026-09`. The corpus one re-derived
+the frozen 61 from the detector and pinned the 1,946, so a revert to
+the pre-patch corpus would have failed rather than passing quietly.
+Its pinned figures were re-baselined three times, each time with the
+movement audited in the constants' own docstring — a move in them was
+a change to what item 3 swept, and reading it was the point.
 
 ## Progress is tracked by rid, not by chunk id
 

@@ -7,7 +7,7 @@ text-loss gate, prove both with the two small rules, publish the
 575 ent) to its own PR, where the whole risk is concentrated.
 
 Batch 6a's report is the immediate ancestor:
-[`transform-batch-6a.md`](../v2/transform-batch-6a.md). The transform
+[`transform-batch-6a.md`](../archive/transform-batch-6a.md). The transform
 contract itself is
 [`2026-08-22-transform-module-design.md`](2026-08-22-transform-module-design.md).
 

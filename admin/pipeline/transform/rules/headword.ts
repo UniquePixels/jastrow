@@ -127,8 +127,9 @@ function overAltHeadwords(
  * 69 of the 84 open-only items pair with a later close-only item in the
  * same array — 52 adjacent, 17 spanning one or two intervening items
  * that are inside the parentheses too. Only 28 are genuinely orphaned.
- * All of it is pinned in `headword-census.ts`; it was asserted by a
- * corpus check retired in consolidation step 5
+ * All of it was pinned in `headword-census.ts`, archived at
+ * `refs/tags/archive/v2-research-2026-09` (consolidation spec §8); it was
+ * asserted by a corpus check retired in consolidation step 5
  * (`docs/v2/retired-corpus-checks.md`).
  *
  * **RULING (Brian, 2026-08-27): strip the delimiters, add no new

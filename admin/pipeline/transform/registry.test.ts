@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { type Pattern, parsePatterns } from '../research/patterns.ts';
+import { type Pattern, parsePatterns } from '../patch/patterns.ts';
 import {
 	checkAdjacency,
 	checkOrdered,
@@ -60,7 +60,7 @@ describe('registry coverage', () => {
 	//   linker behaviour produces 2,657 more self-links in definitions, so
 	//   the row is 3.2% of a corpus-wide habit carved out by a field
 	//   boundary. There was no defect to remove. See
-	//   data/patches/catalogue-audit/h-cognate-self-link.md.
+	//   docs/archive/catalogue-audit/h-cognate-self-link.md.
 	// - `homograph-numeral-mismatch`, batch 2 Task 9: there IS a defect —
 	//   the display carries Jastrow's print numeral and is the
 	//   authoritative side in 26 of 40 members read — but no rule can
@@ -71,7 +71,7 @@ describe('registry coverage', () => {
 	//   for 3.5% of the candidate defects. It failed on the DESTINATION,
 	//   where the two above failed on inference and on there being no
 	//   defect at all. See
-	//   data/patches/catalogue-audit/homograph-numeral-mismatch.md.
+	//   docs/archive/catalogue-audit/homograph-numeral-mismatch.md.
 	// - `ascii-gershayim-outside-body-text`, batch 3a pre-PR review: the
 	//   fourth failed none of those tests — it had nothing left to fail
 	//   them with. Batch 3a widened `ascii-quote-as-gershayim-in-body` to
@@ -91,7 +91,7 @@ describe('registry coverage', () => {
 	//   (19) and `citation-quote-seam-period` (43) on new measurements.
 	//   That task's fifth row, `italic-swallows-close-paren`, failed
 	//   neither and shipped at 10 -> 8. See
-	//   data/patches/catalogue-audit/batch-3b-withdrawals.md.
+	//   docs/archive/catalogue-audit/batch-3b-withdrawals.md.
 	// - `post-anchor-numeral-duplication` (11 occ / 11 ent), batch 4 Task 6
 	//   — 73 to 72, NO REPAIR EXISTS; working in registry.ts's `PENDING`.
 	// - `abbrev-headword-stub` (34), batch 5 Task 1 — 72 to 71, NO REPAIR
@@ -104,7 +104,7 @@ describe('registry coverage', () => {
 	//   expansion source exists for 4 of 34 (11.8%) against the 65.5% that
 	//   withdrew the parent, and for 26 the refs name the redirect TARGET,
 	//   a different lemma. Ruled by Brian 2026-08-28. See
-	//   data/patches/catalogue-audit/abbrev-headword-stub.md.
+	//   docs/archive/catalogue-audit/abbrev-headword-stub.md.
 	// - `binyan-form-leading-space` (523 occ / 457 ent) and
 	//   `binyan-form-empty-slot` (486 slots / 446 ent), batch 6a — 71 to
 	//   69, and they are the SECOND and THIRD rows to leave the way
@@ -116,7 +116,7 @@ describe('registry coverage', () => {
 	//   since the 06 decision. Measured over all 32,512 entries: 523 → 0
 	//   and 486 → 0. A rule for either would have repaired nothing while
 	//   its row claimed hundreds. Ruled by Brian 2026-08-28. See
-	//   data/patches/catalogue-audit/binyan-form-cleanup.md; the
+	//   docs/archive/catalogue-audit/binyan-form-cleanup.md; the
 	//   standing gate for this was retired in consolidation step 5
 	//   (`docs/v2/retired-corpus-checks.md`).
 	// - `empty-stem-section` (347 sections / 342 ent), batch 6b — 69 to
@@ -129,7 +129,7 @@ describe('registry coverage', () => {
 	//   show consecutive senseless stem blocks as one run — so the row
 	//   was asserting that a rule was owed before cutover when none is.
 	//   Ruled by Brian 2026-08-28 on that distinction, data vs display.
-	//   See data/patches/catalogue-audit/empty-stem-section.md.
+	//   See docs/archive/catalogue-audit/empty-stem-section.md.
 	// - `empty-lead-sense` (73 `{}` + 11 whitespace = 84) and
 	//   `bracketed-gloss-lead-sense` (49), batch 7 — 68 to 66, and they
 	//   are ONE finding counted twice. Both describe
@@ -158,7 +158,7 @@ describe('registry coverage', () => {
 	//   asserting no defect EXISTS would need the 49 read against print,
 	//   and the 7 bracket-alone leads are the shape that could still be
 	//   wrong. Both ruled by Brian 2026-08-29. See
-	//   data/patches/catalogue-audit/empty-lead-sense.md and
+	//   docs/archive/catalogue-audit/empty-lead-sense.md and
 	//   bracketed-gloss-lead-sense.md.
 	// - FIVE AT ONCE IN BATCH 8 — 66 to 61, the largest single drop, and
 	//   the batch that leaves NO BLOCKING ROW on the transform route.
@@ -188,7 +188,7 @@ describe('registry coverage', () => {
 	//   and still cannot ship: its destination is the `headword`, 17 of
 	//   the 23 rewrites would dangle 37 live anchors, and the anchor-side
 	//   row that would retarget them is itself `judgment`.
-	//   See data/patches/catalogue-audit/plural-label-capture.md,
+	//   See docs/archive/catalogue-audit/plural-label-capture.md,
 	//   b-h-field-split.md, reversed-hebrew-phrase.md,
 	//   homograph-roman-stranded.md and sense-number-closed-grammar.md.
 	// - SEVEN AT ONCE IN BATCH 9 — 61 to 54, larger than batch 8's drop,
@@ -232,7 +232,7 @@ describe('registry coverage', () => {
 	//   a retarget adopts a target some anchor of the entry already
 	//   carries, and this names a headword belonging to another entry.
 	//   `registry.order.corpus.test.ts` carries that distinction.
-	//   See data/patches/catalogue-audit/never-linked-works.md,
+	//   See docs/archive/catalogue-audit/never-linked-works.md,
 	//   midrash-petichta.md, unlinked-v-span.md,
 	//   containment-fallback.md and v-sub-redirect-stub.md.
 	// 56 since 2026-09-06, in two steps and both ARRIVALS:

@@ -455,7 +455,7 @@ Measured 2026-07-07/08 against the 2026-07-04 snapshot:
 - The Phase 0–1 plan's remaining intent (CP-1) is satisfied by this
   spec's evidence plus a checkpoint record; Phase 2 planning happens
   against this document.
-- `docs/v2/divergence-audit.md` stays as the Phase 1 evidence doc;
+- `docs/archive/divergence-audit.md` stays as the Phase 1 evidence doc;
   future intermediates follow D2.
 
 ## 11. Changelog

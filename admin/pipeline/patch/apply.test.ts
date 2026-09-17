@@ -1,7 +1,5 @@
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
-import type { EntryResult } from '../research/manifest.ts';
-import { parseManifest } from '../research/manifest.ts';
 import {
 	applyCarryOver,
 	applyEntryPatches,
@@ -14,6 +12,8 @@ import {
 	postApplyAssertions,
 	stalePins,
 } from './apply.ts';
+import type { EntryResult } from './manifest.ts';
+import { parseManifest } from './manifest.ts';
 import { applyPatch, contentAnchor, type SemanticPatch } from './schema.ts';
 
 const PIN = `sha256:${'a'.repeat(64)}`;

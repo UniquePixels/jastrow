@@ -1,6 +1,6 @@
 /**
  * `ib-yoma-2a` (batch-2 task 7). Every number in `anaphora.ts`'s module
- * doc and in `data/patches/catalogue-audit/ib-yoma-2a.md` came from a
+ * doc and in `docs/archive/catalogue-audit/ib-yoma-2a.md` came from a
  * corpus walk over `sense.senses` (senses nest) and
  * `anchors(tokenize(definition))` for the anchors. The corpus-walking
  * tests that re-ran those load-bearing claims (population, fire count,

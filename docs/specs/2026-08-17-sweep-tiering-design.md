@@ -18,7 +18,7 @@ Three findings from batches 01–02 reframe what the sweep is for.
 composes all 32,512 entries and passes every gate: rejoin, units,
 lettered and form-section round-trips at 32,512/32,512, full-corpus
 schema validation with 0 failures, 0 label quarantines
-(`docs/v2/body-migration.md`). Page and column are solved by
+(`docs/archive/body-migration.md`). Page and column are solved by
 migration rule 6 from the baseline deployed files plus 107 hand
 edits and 289 corrections. Nothing in the sweep gates the
 transform; the sweep improves the *content* flowing through it.

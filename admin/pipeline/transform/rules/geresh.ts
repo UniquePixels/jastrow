@@ -47,7 +47,7 @@
  * ships three rows under.
  *
  * The exception register the ruling asks for is
- * `data/patches/catalogue-audit/geresh-abbrev-arms.md`: every
+ * `docs/archive/catalogue-audit/geresh-abbrev-arms.md`: every
  * population these two rules deliberately do not touch, with its
  * query, its count and its rids, for later human review.
  *
@@ -137,7 +137,7 @@
  * exclusion-of-nothing. All three arms the row's `reason` names fall
  * out of the one condition "the stub abbreviates THIS headword", and
  * all three are written up for review in
- * `data/patches/catalogue-audit/geresh-abbrev-arms.md`:
+ * `docs/archive/catalogue-audit/geresh-abbrev-arms.md`:
  *
  * - **Variant readings, 152 occurrences / 123 entries.** "Ms. K. ב׳",
  *   "ed. Berl. ע׳", "Ar. ע׳" — the stub abbreviates a reading named

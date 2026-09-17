@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { walkSenses } from './census.ts';
+import { walkSenses } from './sense-walk.ts';
 import { segmentUnits } from './units.ts';
 
 const CITE = (ref: string, txt: string): string =>

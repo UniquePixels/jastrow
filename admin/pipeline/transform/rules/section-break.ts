@@ -1,6 +1,6 @@
 /**
  * `section-break-terminator-loss` (batch 7,
- * `docs/v2/transform-batch-7.md` §6) — **the only rule in this registry
+ * `docs/archive/transform-batch-7.md` §6) — **the only rule in this registry
  * that MINTS a byte into the text**, and the reason its `allows` is a
  * maintainer ruling rather than a convenience.
  *

@@ -7,11 +7,13 @@ rule test in Tasks 5–9 runs against real source data without reading
 `SourceEntry` shape, re-serialized deterministically with
 `JSON.stringify`.
 
-Regenerate with `bun admin/pipeline/body/fixtures/extract.ts`. Rid
-lists live as literal, reviewed code inside `extract.ts` — nothing is
-looked up at extraction time except the source entries themselves.
-Verify the committed files still match extraction with
-`bun admin/pipeline/body/fixtures/extract.ts --check`.
+`extract.ts`, the tool that generated and verified these fixtures, is
+archived at `refs/tags/archive/v2-research-2026-09` — there is no
+runnable regenerate or `--check` step. Rid lists lived as literal,
+reviewed code inside `extract.ts`; nothing was looked up at extraction
+time except the source entries themselves. The committed `*.jsonl`
+files below are the surviving artifact and stay live, imported
+directly by the body-model rule tests.
 
 | File | Entries | Exercises | Design doc |
 |---|---|---|---|
@@ -30,12 +32,16 @@ Verify the committed files still match extraction with
 
 ## Sanity guarantees
 
-`extract.ts` enforces, on every run (`--check` or not):
+These properties hold of the committed files because `extract.ts`
+enforced them on every run (`--check` or not) before it was archived:
 
-- every requested rid is present in the source (`MISSING: <rid> (class
+- every requested rid was present in the source (`MISSING: <rid> (class
   <cls>)` and exit 1 otherwise);
 - every fixture line JSON-parses and carries a non-empty `.rid`
-  (`verifyBody`, throws otherwise);
-- output is deterministic — re-running with `--check` against
-  unmodified committed files always reports `all fixture files match
+  (`verifyBody`, threw otherwise);
+- output was deterministic — re-running with `--check` against
+  unmodified committed files always reported `all fixture files match
   extraction`.
+
+The guarantees are now historical: nothing re-checks them, because the
+tool that did is archived at `refs/tags/archive/v2-research-2026-09`.

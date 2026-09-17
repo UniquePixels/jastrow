@@ -43,7 +43,7 @@
  *
  * `A01756 כרּז`, `K00311 שָׁרּ`, `R00344` twice, `R00346 צירּ` and
  * `Q00891 פִּיחּוּחֵי` stay on the row, recorded in
- * `docs/v2/transform-batch-10.md` §3 rather than by a second entry in
+ * `docs/archive/transform-batch-10.md` §3 rather than by a second entry in
  * `PENDING` — a row named in `RULES` and in that list is `duplicated`,
  * which `registry.test.ts` forbids.
  *

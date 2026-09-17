@@ -97,10 +97,9 @@ build otherwise. An example built from real entries belongs in a
 
 ## Accessibility
 
-UI changes must meet **WCAG 2.1 AA**. Run through the
-[Accessibility Checklist](docs/accessibility-checklist.md) before opening
-a PR that touches the interface — especially keyboard operability and
-focus management, which automated tools don't catch.
+UI changes must meet **WCAG 2.1 AA** before opening a PR that touches
+the interface — especially keyboard operability and focus management,
+which automated tools don't catch.
 
 ## Pull Requests
 

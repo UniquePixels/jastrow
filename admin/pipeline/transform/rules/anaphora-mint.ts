@@ -7,7 +7,7 @@
  * (`docs/specs/2026-09-06-link-target-gate-case-10.md`), ruled in by
  * Brian on 2026-09-06 on the precedent that the 2026-08-05 body review
  * approved wrapping unlinked ibid citations
- * (`docs/v2/body-review/02-orphan-refs.md` class 2, "ALL Approved").
+ * (`docs/archive/body-review/02-orphan-refs.md` class 2, "ALL Approved").
  * The "show only what Jastrow linked" principle was written in that
  * review's class 3, about refs with no in-body basis.
  *
@@ -58,7 +58,7 @@
  * NOT used and does not reproduce: its own control (`the` = 65,969)
  * matches an unbounded SUBSTRING count while the `Ib.` halves were
  * taken on something narrower. Full working in
- * `docs/v2/phase-2-unlinked-ib.md` §1.
+ * `docs/archive/phase-2-unlinked-ib.md` §1.
  *
  * ## The predicate
  *

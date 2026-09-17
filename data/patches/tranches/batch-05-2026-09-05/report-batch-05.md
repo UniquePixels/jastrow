@@ -142,7 +142,7 @@ form-level and blind to sense. Two chunks found real mislinks it hides:
 | A03431's `אַתְנָן` → A03435 | the target headword `אֶתְנָן` matches the display at skeleton level, niqqud only. Both forms are in A03431's own `plural_form` `['אַתְנָן','אַתְנֵי']`; the sibling anchor `אַתְנֵי` WAS hinted, this one was not |
 | B00108 | two plural anchors point at the same wrong target; only one was hinted, because the other matched the target headword as an exact string |
 
-`docs/v2/phase-2-inflection-gap.md` predicted this in advance for the
+`docs/archive/phase-2-inflection-gap.md` predicted this in advance for the
 927-anchor bucket: *"No comparison of letters can separate 'links to
 the entry that is this form' from 'links to a homograph that merely
 spells it'."* This is its first field confirmation, on anchors nobody

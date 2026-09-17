@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test';
-import { walkSenses } from './census.ts';
 import type { LetteredParts } from './lettered.ts';
 import { joinLettered, splitLettered } from './lettered.ts';
+import { walkSenses } from './sense-walk.ts';
 import { readSourceEntries } from './source.ts';
 import type { SourceEntry } from './types.ts';
 

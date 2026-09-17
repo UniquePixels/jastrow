@@ -6,7 +6,8 @@
  * B5/B9): an unsplit block is still readable, a wrongly split one is
  * not. Runs before unit segmentation in the dry-run composition
  * (design §3). `census.ts` carries a separate boolean detector for
- * corpus-wide sizing (`letteredRun`) — this module is the
+ * corpus-wide sizing (`letteredRun`), archived at
+ * `refs/tags/archive/v2-research-2026-09` — this module is the
  * authoritative structural rule and may disagree with it on edge
  * cases.
  */

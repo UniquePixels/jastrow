@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { parsePatterns } from '../research/patterns.ts';
+import { parsePatterns } from '../patch/patterns.ts';
 import { nonCommutingPairs, type PairStats } from './commutation.ts';
 import { ORDERED, RULES } from './registry.ts';
 import { sourceEntries } from './rules/corpus-fixture.ts';

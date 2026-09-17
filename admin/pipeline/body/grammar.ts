@@ -2,9 +2,12 @@
  * Grammar index seeding (design doc §2, decision B3 — a typed index
  * annotates the entry without touching its prose). `content.morphology`
  * is a closed vocabulary: the body census (`bun body:census`) measured
- * EXACTLY 8 distinct values corpus-wide (13,162 markers total). VOCAB
- * gives every one of those 8 an explicit row; nothing outside it is
- * guessed (B9) — `parseMarker` reports unknown values instead.
+ * EXACTLY 8 distinct values corpus-wide (13,162 markers total).
+ * `body:census` was archived at `refs/tags/archive/v2-research-2026-09`
+ * in the 2026-09 pipeline consolidation, so this figure cannot be
+ * re-measured. VOCAB gives every one of those 8 an explicit row;
+ * nothing outside it is guessed (B9) — `parseMarker` reports unknown
+ * values instead.
  */
 import type { BodyEntry } from './types.ts';
 

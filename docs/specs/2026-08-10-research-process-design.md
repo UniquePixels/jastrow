@@ -11,7 +11,7 @@
 
 ## 1. Context
 
-Manual entry-by-entry review (docs/v2/body-review) keeps surfacing
+Manual entry-by-entry review (docs/archive/body-review) keeps surfacing
 new defect variations — each review doc catches one class, and each
 session finds classes no detector anticipated. The maintainer ruling
 stands: the pipeline must *correct* the data, not certify that it is

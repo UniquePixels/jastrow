@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 /**
- * `bun research:apply` — the dry, read-only replay of the committed
+ * `bun pipeline:patches` — the dry, read-only replay of the committed
  * patch corpus (research-process plan Task 4; spec
  * docs/specs/2026-08-10-research-process-design.md §5).
  *
@@ -20,7 +20,6 @@
 import process from 'node:process';
 import { composeEntry, TransformFailure } from '../body/compose.ts';
 import { readSourceEntries } from '../body/source.ts';
-import { replayGate } from '../research/manifest.ts';
 import {
 	type AcceptedCorpus,
 	type ApplyProblem,
@@ -29,6 +28,7 @@ import {
 	loadManifest,
 	patchesByRid,
 } from './apply.ts';
+import { replayGate } from './manifest.ts';
 import { computeSnapshot } from './snapshot.ts';
 
 if (import.meta.main) {

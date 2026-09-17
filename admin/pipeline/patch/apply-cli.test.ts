@@ -1,11 +1,11 @@
 /**
- * The `research:apply` entry point, guarded statically.
+ * The `pipeline:patches` entry point, guarded statically.
  *
  * Patch targets are content anchors over the COMPOSED entry —
  * `applyRepairs`, then `text-repairs`, then `structural-repairs`. The
  * CLI used to hand each pristine source entry straight to
  * `applyEntryPatches`, so an anchor whose text a transform rewrites
- * failed to resolve under `bun research:apply` while resolving under
+ * failed to resolve under `bun pipeline:patches` while resolving under
  * `bun pipeline:migrate` (CodeRabbit, PR #83). Measured 2026-09-10
  * against the committed corpus: of 190 raw patches, 81 resolved only
  * on the composed entry and 62 only on the pristine one.
@@ -24,7 +24,7 @@ import { describe, expect, it } from 'bun:test';
 
 const SOURCE: string = await Bun.file(`${import.meta.dir}/apply-cli.ts`).text();
 
-describe('research:apply entry point', () => {
+describe('pipeline:patches entry point', () => {
 	it('composes each source entry before applying its patches', () => {
 		expect(SOURCE).toContain('composeEntry(source, {');
 	});

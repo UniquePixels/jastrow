@@ -7,8 +7,9 @@
  * is under-split: `gloss + units.join('') === text` always, for every
  * definition string this is given.
  */
-import { classifyBoundary } from './census.ts';
+
 import { findCitations } from './cite.ts';
+import { classifyBoundary } from './sense-walk.ts';
 
 interface UnitSplit {
 	gloss: string;

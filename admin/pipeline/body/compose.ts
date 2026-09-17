@@ -2,9 +2,10 @@
  * The per-entry composer (entry-body-model plan Task 4 addendum;
  * migrate spec §5): one corpus entry through the committed phase
  * manifest's first three stages — text-repairs → structural-repairs →
- * patch-apply. `migrate-dry.ts` and `migrate.ts` both walk the same
- * three phases before diverging on what they do with the result (a
- * console report vs. a write), so the composition lives here once.
+ * patch-apply. `migrate-dry.ts` once walked the same three phases
+ * `migrate.ts` still does, diverging only on what each did with the
+ * result (a console report vs. a write) — so the composition lives
+ * here once instead of twice.
  */
 import {
 	type ApplyProblem,
@@ -62,8 +63,8 @@ function healAndTransform(
 /** The rid's patch sets `composeEntry` applies (Ruling F — task-3
  * addendum-3): `accepted` first, then `carryOver` for the same rid,
  * in the same `patch-apply` phase. Either or both may be omitted —
- * `migrate-dry.ts`'s pre-corpus-load callers and `compose.test.ts`'s
- * fixtures both compose with no patches at all. */
+ * `migrate-dry.ts`'s pre-corpus-load callers once composed with no
+ * patches at all, as `compose.test.ts`'s fixtures still do. */
 interface ComposePatches {
 	accepted?: readonly SemanticPatch[] | undefined;
 	carryOver?: readonly SemanticPatch[] | undefined;

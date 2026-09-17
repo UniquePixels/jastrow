@@ -1,5 +1,5 @@
 /**
- * `see-particle-lost` (batch 8, `docs/v2/transform-batch-8.md` §3) — the
+ * `see-particle-lost` (batch 8, `docs/archive/transform-batch-8.md` §3) — the
  * second rule in the registry to MINT text, and the first to mint a
  * word rather than a codepoint.
  *

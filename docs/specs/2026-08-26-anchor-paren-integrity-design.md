@@ -63,7 +63,7 @@ longer a transform row at all). **Two rows remain in `PENDING`**:
 registered because `checkLinkTargets` refuses D00478 and `run.ts` would
 halt the migration on it, and `tosefta-variant-chapter-halakha-loss`,
 never written. Both fold into one follow-up gate PR. See
-[../v2/transform-batch-4.md](../v2/transform-batch-4.md).
+[../archive/transform-batch-4.md](../archive/transform-batch-4.md).
 
 > **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This read *"the
 > batch's real population is 2,122 and its rule count is 9, not 10"*.
@@ -401,7 +401,7 @@ measurement this document has not made — flagged in §7.
 > DESCRIPTION OF A REFUSED EDIT: `checkLinkTargets` rejects it, `run.ts`
 > throws on a gate problem, and registering it would halt the migration
 > rather than repair anything. See
-> [../v2/transform-batch-4.md](../v2/transform-batch-4.md).
+> [../archive/transform-batch-4.md](../archive/transform-batch-4.md).
 
 **Seven rules were designed** (unit: repair mechanisms). Every one is a
 **markup boundary move or a duplicate-layer removal**; none writes

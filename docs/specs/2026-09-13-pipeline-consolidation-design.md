@@ -25,7 +25,7 @@ patches for what cannot be done deterministically).
 | Fresh `--write` vs committed `data/entries/` | identical after `biome format` (2,785 files differ only by array reflow before it) |
 | Non-test code under `admin/`, and the share reachable from `migrate.ts` | 36,952 lines; ~77 modules on the migrate path |
 | `research/`, `provenance/`, one-time `body/` tools | 17,746 + 1,174 + 2,822 lines; 2 files needed by migrate |
-| `package.json` scripts | 24: 6 pipeline, 8 QA, 10 research relics |
+| `package.json` scripts | 24: 6 pipeline, 8 QA, 10 research relics. **Corrected 2026-09-16 (step 6):** 25 at the start of step 6 — step 5 added `transform:invariants` after this row was measured. 25 minus the 12 archived leaves 13, not the 12 step 6 predicted: `body:dry-run` survives because `migrate.ts` imports `dry-run.ts`'s `buildTrace` |
 | Corpus test tier | 45 files, 14,443 lines, 12–13 min of CI; 3 files check code invariants, ~40 pin per-rule counts to the 2026-07-04 snapshot. **Corrected 2026-09-15:** 2 files are code invariants (`body/pipeline-links`, the third named, is mostly counts), and the count files also hold ~190 hand-written example tests that never read the source data (estimate: synchronous `it(`/`test(` calls outside the two invariant files, by grep; not verified per test) **Measured 2026-09-15 (step 5):** 405 tests; 182 read no source data and 11 read eight fixed entries, so 193 moved to the unit tier; 191 were deleted and 21 remain (plan `docs/superpowers/plans/2026-09-15-consolidation-step5.md`, which also records the classifier and its controls) |
 | Branch protection on `v2` | no required status checks |
 | Biome | 240 info diagnostics, 0 warnings; scans 32,512 data files by accident |
@@ -213,7 +213,7 @@ No entry data is written. A person decides whether to run the update
 | 147 accepted patches, quarantine rows | patches | none beyond §4.2 |
 | headword grammar, page confidence, markup carry (in `migrate/`) | review detectors | emit structured rows |
 | 72 judgment classes in `data/patches/patterns.jsonl` | review detectors, where a detector exists in archived research code | port detectors one class at a time; not a prerequisite for anything else |
-| `research/`, `provenance/`, `body/{census,review,migrate-dry,implied-one-census,fixtures/extract}.ts`, `patch/seed-implied-one.ts`, `page-index/` build code | archive (§8) | move |
+| `research/`, `provenance/`, `body/{census,review,migrate-dry,implied-one-census,fixtures/extract}.ts`, `patch/seed-implied-one.ts`, `patch/seed-tranche.ts`, `patch/seed-sense-runs.ts`, `page-index/` build code | archive (§8) | move. **Corrected 2026-09-16 (step 6):** this row named `seed-implied-one.ts` only; `seed-tranche.ts` imports `../research/chunks.ts` and `seed-sense-runs.ts` imports `seed-tranche.ts`, so all three seeders archive together |
 
 ### 4.2 Patch preflight
 
@@ -332,16 +332,28 @@ rebuild after an entry is added, and is cheap to do now.
 | research code (§4.1 last row) and its 4,265 test lines | tag `archive/v2-research-2026-09` + branch of the same name; deleted from `v2` | dead code is not linted, typed, or tested. `research/patterns.ts` and `research/manifest.ts` move into `patch/` first; the pipeline imports them |
 | page-index build code | same archive branch | stays re-runnable; `data/page-index/README.md` already documents the method and is kept with the data |
 | research docs: `discovery-round-*`, `transform-batch-*`, `phase-2-*`, `body-*`, `pattern-triage`, `catalogue-audit`, `baseline-audit`, `divergence-audit`, `body-review/` | `docs/archive/` on `v2` | history stays readable and linkable |
-| registry `PENDING` commentary (487 lines inside an empty array) | `docs/archive/registry-history.md` | zero behaviour change |
+| registry `PENDING` commentary (490 lines inside an empty array) | `docs/archive/registry-history.md` | zero behaviour change |
 | `.superpowers/`, `.claude/worktrees/*`, `.worktrees/` | delete stale entries | two stale worktrees today |
-| research notes filed beside the data: `data/patches/{catalogue-audit,discovery-round-2,discovery-round-3,checkpoints}/`, `data/source/divergence-report.json` | `docs/archive/` on `v2` | reports, not correction data or source data (§1.1); confirm no file is a `migrate` input before moving. Not `data/patches/pilot/`: `patch/apply.ts` loads it as carry-over patches |
+| research notes filed beside the data: `data/patches/{catalogue-audit,discovery-round-2,discovery-round-3,checkpoints}/`, `data/source/divergence-report.json` | `docs/archive/` on `v2` | reports, not correction data or source data (§1.1); confirm no file is a `migrate` input before moving. Not `data/patches/pilot/`: `patch/apply.ts` loads it as carry-over patches. **Cost measured 2026-09-16:** 11 surviving source files cited paths inside `data/patches/catalogue-audit/` and were rewritten to `docs/archive/catalogue-audit/` in the same commit — the maintainer's decision, not an accident |
+| `data/patches/tranches/` | stays | **Added 2026-09-16:** not named above. It is a production input, read by `patch/apply.ts` alongside `pilot/`; neither is archived |
 | `audit:corpus`, `admin/pipeline/audit-corpus.sh` | deleted | *Shipped in step 5*, alongside the Corpus Audit job (§5.1) — not step 6 work |
-| `transform/rules/headword-census.ts`; `walkSenses` and `stripTags` in `body/census.ts` | archive with the research code | `headword-census.ts` lost its only importer in step 5. `census.ts` cannot leave with it: nine modules import `walkSenses` today, and six outlive step 6 — `body/dry-run-report.ts`, `patch/seed-sense-runs.ts`, and the `labels`, `form-sections`, `lettered` and `units` body tests. `seed-sense-runs.ts` also imports `stripTags`. Move both helpers into a module that stays before archiving `census.ts` |
+| `transform/rules/headword-census.ts`; `walkSenses`, `stripTags` and `classifyBoundary` in `body/census.ts` | archive with the research code | `headword-census.ts` lost its only importer in step 5. `census.ts` cannot leave with it: nine modules import `walkSenses` today, and six outlive step 6 — `body/dry-run-report.ts`, `patch/seed-sense-runs.ts`, and the `labels`, `form-sections`, `lettered` and `units` body tests. `seed-sense-runs.ts` also imports `stripTags`. Move both helpers into a module that stays before archiving `census.ts`. **Corrected 2026-09-16 (step 6):** the helper count is three, not two — `body/units.ts` imports a third, `classifyBoundary`, and is on the migrate path. The six-survivor count was right for the wrong reason: it counted `patch/seed-sense-runs.ts`, which could not survive (it imports `./seed-tranche.ts`, which imports `../research/chunks.ts`; all three seeders archived together, their output committed under `data/patches/tranches/` and read by production `patch/apply.ts`, so nothing was lost), and missed `body/units.ts`, which does. The six that actually outlive step 6 are `body/units.ts`, `body/dry-run-report.ts`, and the `labels`, `form-sections`, `lettered` and `units` body tests. All three helpers moved into `body/sense-walk.ts`, which stays, before `census.ts` was archived |
+
+**Wart, unresolved (2026-09-16):** the archive branch and tag share
+the name `archive/v2-research-2026-09`, so a bare
+`archive/v2-research-2026-09` reference is ambiguous to git
+("refname is ambiguous"). Both `refs/heads/` and `refs/tags/` resolve
+it correctly, and every citation written into source code uses
+`refs/tags/`. Left for the maintainer to decide whether to rename one
+of them.
 
 `package.json` after the move: `pipeline:fetch`, `pipeline:migrate`,
-`pipeline:compile` (when built), `pageindex:verify`, `qa*`, the
-invariants runner. `research:apply` is renamed `pipeline:patches` or
-folded into migrate; it is the patch engine, not research.
+`pipeline:compile` (when built), `pipeline:patches`, `pageindex:verify`,
+`qa*`, the invariants runner, `transform:count` (§3.1's rule-alone
+counter, still live), and `body:dry-run` (survives because
+`migrate.ts` imports `dry-run.ts`'s `buildTrace`). `research:apply` is
+renamed `pipeline:patches`; it is the patch engine, not research, and
+stays runnable on its own.
 
 ## 9. Documents
 
@@ -386,7 +398,17 @@ Steps 1–4 have shipped and are kept as history.
 5. *Shipped (#92).* Remove the Rebuild and Corpus Audit CI jobs; move hand-written
    example tests to the unit tier; delete count pins; the two invariant
    files become a local script (§5.1, §5.3).
-6. Archive move and `package.json` reduction (§8).
+6. *Shipped (#NN).* Archive move and `package.json` reduction (§8).
+   36 source files and 27 tests archived to branch and tag
+   `archive/v2-research-2026-09`; 35 research documents and
+   `body-review/` (9 files) moved to `docs/archive/`; 490 lines of
+   registry `PENDING` commentary extracted to
+   `docs/archive/registry-history.md`; four research directories and
+   the divergence report moved out of `data/`; `package.json` cut
+   from 25 scripts to 13 with `research:apply` renamed
+   `pipeline:patches`; `biome.json` taught to leave `docs/archive`
+   alone. Nine migrate gates green throughout, with counts
+   byte-identical to `docs/v2/migration-blessing.md`.
 7. Slug freezing (§7).
 8. `repairs.ts` hand tables → patches (§4.1).
 9. Review-queue doc and Sefaria report refresh (§9).
@@ -408,3 +430,4 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-14 | Final-fix wave: §5.1 Rebuild runs `--strict`; §4.2 carry-over zero-match documented as `superseded`, not drift-classified, with the gap pinned at §10 |
 | 2026-09-15 | R8 data terms (§1.1; "truth" becomes entry data) and R9 `migrate` is not CI work. §5 rewritten: Rebuild, Corpus Audit, the Invariants CI job and `expected-counts.json` withdrawn; invariants run locally; ~190 hand-written example tests move to the unit tier; drift checks become review detectors (§10). §1 corpus-tier measurement corrected; §3.3 scheduling marked open against R9 pending a brainstorm; §11 step 5 rewritten, step 10 added. R8 extended: `migrate` becomes import with `data:` command prefix; vocabulary moved to new `docs/glossary.md` |
 | 2026-09-15 | Step 5: Rebuild and Corpus Audit jobs removed; 193 corpus-tier tests moved to the unit tier (182 fixed-input, 11 on a committed gershayim fixture), 191 deleted and inventoried in `docs/v2/retired-corpus-checks.md`; registry order split so its static assertions run in `bun qa`; paren→phrase direction pinned statically; `transform:invariants` script and tier guard added; §1, §5.1, §5.3, §8, §10, §11 amended |
+| 2026-09-16 | Step 6: research code archived at `archive/v2-research-2026-09`; docs and research data to `docs/archive/`; registry `PENDING` commentary extracted; `package.json` 25 → 13 scripts (not the 24 → 12 the plan predicted; step 5 had already added `transform:invariants`, and `body:dry-run` survives). §8 corrected: three census helpers, not two (`classifyBoundary` is on the migrate path); `patch/seed-tranche.ts` and `patch/seed-sense-runs.ts` added to the §4.1 archive list; `data/patches/tranches/` named as a production input |

@@ -1,0 +1,84 @@
+{
+  "planPath": "docs/superpowers/plans/2026-09-16-consolidation-step6.md",
+  "tasks": [
+    {
+      "id": 0,
+      "subject": "Task 1: Move patterns and manifest to patch/",
+      "status": "completed",
+      "description": "**Goal:** The two research modules the pipeline actually imports leave `research/` so the directory can be deleted whole.\n\n**Files:**\n- Move: `admin/pipeline/research/{patterns,manifest}.ts` and their `.test.ts` -> `admin/pipeline/patch/`\n- Modify (import path only): `body/migrate-dry.ts`, `patch/apply-cli.ts`, `patch/apply.test.ts`, `transform/count.ts`, `transform/registry.ts`, `transform/registry.test.ts`, `transform/registry.order.test.ts`, `transform/commutation.corpus.test.ts`, `transform/rules/sense-marker.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `git mv` was used - file bytes unchanged, not retyped\n- [ ] No string `research/patterns` or `research/manifest` survives under `admin/`\n- [ ] `bun qa` green\n- [ ] `bun run transform:invariants` green\n\n**Verify:** `bun qa && bun run transform:invariants` -> both exit 0\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/patterns.ts\", \"admin/pipeline/patch/manifest.ts\", \"admin/pipeline/transform/registry.ts\", \"admin/pipeline/transform/count.ts\", \"admin/pipeline/patch/apply-cli.ts\"], \"verifyCommand\": \"bun qa && bun run transform:invariants\", \"acceptanceCriteria\": [\"git mv used, bytes unchanged\", \"no research/patterns or research/manifest string under admin/\", \"bun qa green\", \"transform:invariants green\"], \"modelTier\": \"mechanical\"}\n```"
+    },
+    {
+      "id": 1,
+      "subject": "Task 2: Split sense-walk out of body/census.ts",
+      "status": "completed",
+      "description": "**Goal:** `walkSenses` and `classifyBoundary` move to a module that stays (with `stripTags` module-private, per controller Ruling 1/2), so `census.ts` can be archived.\n\n**Files:**\n- Create: `admin/pipeline/body/sense-walk.ts`\n- Modify: `admin/pipeline/body/census.ts`\n- Modify: `body/units.ts:10`, `body/dry-run-report.ts:11`, `body/{labels,form-sections,lettered,units}.test.ts:2`\n\n**Acceptance Criteria:**\n- [ ] `sense-walk.ts` exports `walkSenses`, `classifyBoundary`, `stripTags` and the `Boundary` type; the `stripTags` export is temporary, for census.ts's six own call sites, and Task 4 drops it\n- [ ] The three function bodies are byte-identical to the originals\n- [ ] The 6 importers that outlive Task 4 point at `sense-walk.ts`; `census.ts`'s export block is UNCHANGED so the five Task 4 deletes keep compiling (Ruling 6)\n- [ ] `bun qa` green\n\n**Verify:** `bun qa` -> exit 0, and no surviving non-archived file imports from `./census.ts`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/sense-walk.ts\", \"admin/pipeline/body/census.ts\", \"admin/pipeline/body/units.ts\", \"admin/pipeline/body/dry-run-report.ts\", \"admin/pipeline/patch/seed-sense-runs.ts\"], \"verifyCommand\": \"bun qa\", \"acceptanceCriteria\": [\"sense-walk.ts exports walkSenses, classifyBoundary, stripTags, Boundary\", \"bodies byte-identical\", \"6 surviving importers repointed; census.ts export block unchanged\", \"bun qa green\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "Task 3: Record the archive branch and tag",
+      "status": "completed",
+      "description": "**Goal:** A branch and tag hold the research code, so §8's \"stays re-runnable\" is true and nothing is lost.\n\n**Files:**\n- None modified - git refs only: branch and tag `archive/v2-research-2026-09`\n\n**Acceptance Criteria:**\n- [ ] Branch `archive/v2-research-2026-09` exists at current HEAD\n- [ ] Tag of the same name exists at the same commit\n- [ ] Both refs are LOCAL ONLY — this task does not push (controller Ruling 5)\n- [ ] `git show <ref>:admin/pipeline/page-index/build.ts | head -1` prints the file's first line\n\n**Verify:** `git show archive/v2-research-2026-09:admin/pipeline/research/verify.ts | wc -l` -> `584`\n\n```json:metadata\n{\"files\": [], \"verifyCommand\": \"git show archive/v2-research-2026-09:admin/pipeline/research/verify.ts | wc -l\", \"acceptanceCriteria\": [\"branch exists at HEAD\", \"tag exists at same commit\", \"both refs local only, no push\", \"archived tree holds page-index/build.ts\"], \"modelTier\": \"mechanical\"}\n```",
+      "blockedBy": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "subject": "Task 4: Delete the archived code from v2",
+      "status": "completed",
+      "description": "**Goal:** The 20 source files and their tests leave the working branch; nothing else changes.\n\n**Files:**\n- Delete: `admin/pipeline/research/`, `admin/pipeline/provenance/` (whole dirs)\n- Delete: `body/{census,review,migrate-dry,implied-one-census}.ts` + tests, `body/fixtures/extract.ts`\n- Delete: `patch/{seed-implied-one,seed-tranche,seed-sense-runs}.ts` + tests\n- Delete: `page-index/{align,bands,build,columns,emit,hocr,layout,monotonic,spine}.ts` + tests\n- Delete: `transform/rules/headword-census.ts`\n- Modify: `transform/rules/headword.ts:130`\n\n**Acceptance Criteria:**\n- [ ] `research/` and `provenance/` do not exist\n- [ ] `page-index/verify.ts` still exists and runs\n- [ ] `patch/` retains apply.ts, apply-cli.ts, schema.ts, snapshot.ts, patterns.ts, manifest.ts - no seed-*.ts remains\n- [ ] No surviving `.ts` imports a deleted module\n- [ ] `bun qa` and `bun run transform:invariants` green\n- [ ] `bun pipeline:migrate` dry run: nine gates green\n\n**Verify:** `bun qa && bun run transform:invariants && bun pipeline:migrate` -> all exit 0, nine gates green\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research\", \"admin/pipeline/provenance\", \"admin/pipeline/body/census.ts\", \"admin/pipeline/page-index/build.ts\", \"admin/pipeline/transform/rules/headword.ts\"], \"verifyCommand\": \"bun qa && bun run transform:invariants && bun pipeline:migrate\", \"acceptanceCriteria\": [\"research/ and provenance/ gone\", \"page-index/verify.ts kept\", \"no seed-*.ts remains in patch/\", \"sense-walk.ts no longer exports stripTags\", \"no dangling imports\", \"nine gates green on migrate dry run\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "Task 5: Archive the registry PENDING commentary",
+      "status": "completed",
+      "description": "**Goal:** 490 lines of historical prose inside an empty array move to a document, with zero behaviour change.\n\n**Files:**\n- Create: `docs/archive/registry-history.md`\n- Modify: `admin/pipeline/transform/registry.ts` (the `PENDING` block, ~490 lines)\n\n**Acceptance Criteria:**\n- [ ] `PENDING` still exported, still an empty array; the gate at `registry.ts:1997` still reads it\n- [ ] `docs/archive/registry-history.md` holds the commentary verbatim with source and commit\n- [ ] `registry.ts` keeps a pointer comment\n- [ ] `git diff` on `registry.ts` shows only comment lines removed\n- [ ] `bun qa` and `bun run transform:invariants` green\n\n**Verify:** `bun run transform:invariants` -> exit 0, and `bun test admin/pipeline/transform/registry.test.ts` -> pass\n\n```json:metadata\n{\"files\": [\"docs/archive/registry-history.md\", \"admin/pipeline/transform/registry.ts\"], \"verifyCommand\": \"bun qa && bun run transform:invariants\", \"acceptanceCriteria\": [\"PENDING still exported and empty\", \"commentary verbatim in docs/archive/registry-history.md\", \"only comment lines removed from registry.ts\", \"invariants green\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "subject": "Task 6: Archive the research documents",
+      "status": "completed",
+      "description": "**Goal:** 35 research documents and `body-review/` leave `docs/v2/`, which keeps only the documents the pipeline's readers need.\n\n**Files:**\n- Move to `docs/archive/`: `docs/v2/{baseline-audit,body-census,body-dryrun,body-migration,catalogue-audit,divergence-audit,pattern-triage}.md`, `discovery-round-*.md`, `phase-2-*.md`, `transform-batch-*.md`, `body-review/`\n- Modify: any document or source file linking to a moved path\n\n**Acceptance Criteria:**\n- [ ] 35 files + `body-review/` under `docs/archive/`\n- [ ] `docs/v2/` retains `migration-blessing.md`, `retired-corpus-checks.md`, `sefaria-report.md`, `test-tiers.md`, `upstream-issues.md`\n- [ ] No surviving file links to a moved `docs/v2/` path\n- [ ] `bun qa` green\n\n**Verify:** grep for `docs/v2/(phase-2|transform-batch|discovery-round|body-review|baseline-audit|catalogue-audit|divergence-audit|pattern-triage|body-census|body-dryrun|body-migration)` outside `docs/archive` -> no output\n\n```json:metadata\n{\"files\": [\"docs/archive\", \"docs/v2\"], \"verifyCommand\": \"bun qa\", \"acceptanceCriteria\": [\"35 files + body-review/ moved\", \"docs/v2 keeps the five reader docs\", \"no dangling links\", \"bun qa green\"], \"modelTier\": \"mechanical\"}\n```",
+      "blockedBy": [
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "subject": "Task 7: Archive research data, rewrite 11 citations",
+      "status": "completed",
+      "description": "**Goal:** Reports filed beside the data move to `docs/archive/`; the 11 surviving source files citing `data/patches/catalogue-audit/` are updated in the same commit (user decision).\n\n**Files:**\n- Move to `docs/archive/`: `data/patches/{catalogue-audit,discovery-round-2,discovery-round-3,checkpoints}/`, `data/source/divergence-report.json`\n- Modify: the 11 `admin/pipeline/**/*.ts` citing `data/patches/catalogue-audit` (incl. `transform/html.ts`, `transform/registry.ts`, `transform/rules/{anaphora,geresh,gershayim,rtl,v-sub-twin}.ts`)\n\n**Acceptance Criteria:**\n- [ ] `data/patches/` retains `pilot/`, `tranches/`, `patterns.jsonl`, `snapshot.lock`, `RUNBOOK.md`\n- [ ] No string `data/patches/catalogue-audit` survives under `admin/`\n- [ ] No string `data/patches/checkpoints` survives under `admin/`\n- [ ] `bun pipeline:migrate` dry run: nine gates green, same report counts as the Task 4 run\n- [ ] `bun qa` green\n\n**Verify:** `bun pipeline:migrate && bun qa` -> both exit 0, nine gates green\n\n```json:metadata\n{\"files\": [\"data/patches\", \"docs/archive\", \"admin/pipeline/transform/registry.ts\", \"admin/pipeline/transform/html.ts\"], \"verifyCommand\": \"bun pipeline:migrate && bun qa\", \"acceptanceCriteria\": [\"pilot/ and tranches/ untouched\", \"no data/patches/catalogue-audit string under admin/\", \"nine gates green with unchanged counts\", \"bun qa green\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        5
+      ]
+    },
+    {
+      "id": 7,
+      "subject": "Task 8: Reduce package.json, clear stale workspaces",
+      "status": "completed",
+      "description": "**Goal:** `package.json` lists only scripts whose entry points still exist; stale worktree and brainstorm directories go.\n\n**Files:**\n- Modify: `package.json`\n- Delete: `.worktrees/`, stale `.superpowers/` entries, unregistered `.claude/worktrees/agent-*` dirs\n- Modify: `.gitignore` if it names a deleted path\n\n**Acceptance Criteria:**\n- [ ] Every remaining script's entry file exists\n- [ ] Scripts after the change: `pipeline:{fetch,migrate,patches}`, `pageindex:verify`, `transform:{count,invariants}`, `qa`, `qa:{ci,format,lint,test,tsc}` - 12, down from 25\n- [ ] `bun run pipeline:patches` runs\n- [ ] Registered git worktrees removed only after checking each is clean; `agent-*` dirs are plain directories and deleted\n- [ ] `bun qa` green\n\n**Verify:** node check over `package.json` script paths -> no `MISSING` output; then `bun qa && bun pipeline:migrate` -> exit 0\n\n```json:metadata\n{\"files\": [\"package.json\", \".worktrees\", \".claude/worktrees\"], \"verifyCommand\": \"bun qa && bun pipeline:migrate\", \"acceptanceCriteria\": [\"every script entry point exists\", \"12 scripts remain, down from 25\", \"research:apply renamed pipeline:patches\", \"stale dirs removed, registered worktrees confirmed clean first\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        6
+      ]
+    },
+    {
+      "id": 8,
+      "subject": "Task 9: Amend the spec and contributor docs",
+      "status": "completed",
+      "description": "**Goal:** The spec records what step 6 actually did, including where the measurement disagreed with §8.\n\n**Files:**\n- Modify: `docs/specs/2026-09-13-pipeline-consolidation-design.md` (§1 table, §4.1 last row, §8, §11 step 6, §12 changelog)\n- Modify: `admin/pipeline/README.md`, `CONTRIBUTING.md`, `.claude/CLAUDE.md`\n- Modify: `docs/glossary.md` if it names a moved path\n\n**Acceptance Criteria:**\n- [ ] §11 step 6 reads `*Shipped (#NN).*` with the measured outcome\n- [ ] §8 records four corrections: three census helpers not two; `patch/{seed-tranche,seed-sense-runs}.ts` added to the §4.1 archive list; `data/patches/tranches/` named a production input; package.json held 25 scripts not 24\n- [ ] §12 has a `2026-09-16` changelog row\n- [ ] Every path named in `CONTRIBUTING.md` and `.claude/CLAUDE.md` exists\n- [ ] `bun qa` green\n\n**Verify:** path-existence sweep over `CONTRIBUTING.md` and `.claude/CLAUDE.md` -> no `MISSING` output\n\n```json:metadata\n{\"files\": [\"docs/specs/2026-09-13-pipeline-consolidation-design.md\", \"CONTRIBUTING.md\", \".claude/CLAUDE.md\", \"admin/pipeline/README.md\"], \"verifyCommand\": \"bun qa\", \"acceptanceCriteria\": [\"step 6 marked shipped with measured outcome\", \"four \\u00a78 corrections recorded\", \"changelog row added\", \"every doc path exists\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        7
+      ]
+    }
+  ],
+  "lastUpdated": "2026-09-16T23:34:12.844869"
+}

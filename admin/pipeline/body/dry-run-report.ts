@@ -8,11 +8,11 @@
  * `bun body:dry-run`) imports these helpers to drive its corpus walk.
  */
 import type { ValidateFunction } from 'ajv';
-import { walkSenses } from './census.ts';
 import type { RoundTripResult } from './dry-run-verify.ts';
 import { MARKERS } from './form-sections.ts';
 import { parseMarker } from './grammar.ts';
 import { parseLabel, printLabel } from './labels.ts';
+import { walkSenses } from './sense-walk.ts';
 import type { BodyEntry, BodySense, SourceEntry } from './types.ts';
 
 const REPORT_PATH = 'data/source/body-dryrun-report.json';
@@ -190,9 +190,9 @@ function tallyStructure(
 }
 
 /** Independent re-derivation of the label quarantine/regen counts,
- * walking the raw source (via `census.ts`'s shared `walkSenses`) rather
- * than trusting the composition's own bookkeeping — every `sense.number`
- * occurrence in the corpus, known or quarantined. */
+ * walking the raw source (via `sense-walk.ts`'s shared `walkSenses`)
+ * rather than trusting the composition's own bookkeeping — every
+ * `sense.number` occurrence in the corpus, known or quarantined. */
 function tallyLabels(e: SourceEntry, acc: Accumulator): void {
 	for (const sense of walkSenses(e.content.senses)) {
 		if (sense.number === undefined) {
@@ -272,7 +272,7 @@ function tallySchema(
 	});
 }
 
-/** The one-screen console summary — the numbers docs/v2/body-dryrun.md
+/** The one-screen console summary — the numbers docs/archive/body-dryrun.md
  * transcribes. */
 function printSummary(acc: Accumulator): void {
 	console.log(`entries=${acc.entries}`);
