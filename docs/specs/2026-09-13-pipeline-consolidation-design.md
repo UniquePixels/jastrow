@@ -504,7 +504,7 @@ Steps 1–4 have shipped and are kept as history.
    `pipeline:patches`; `biome.json` taught to leave `docs/archive`
    alone. Nine migrate gates green throughout, with counts
    byte-identical to `docs/v2/migration-blessing.md`.
-7. *Shipped (#NN).* Slug freezing (§7): `data/slug-index/` seeded from the committed
+7. *Shipped (#95).* Slug freezing (§7): `data/slug-index/` seeded from the committed
    tree (32,512 index rows, 4,407 aliases), `assignSlugs` taught to
    take prior assignments, gate 6 relaxed for frozen families, five
    review rows, and the index-agreement check in entry-data
