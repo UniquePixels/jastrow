@@ -69,7 +69,7 @@ Sonnet on the batch path and **Opus** on the residue path.
    entries + precomputed `sense_index`, pin, `promptVersion` — the
    `PROMPT_VERSION` named above, never a version hardcoded here) for
    the next pending chunks; chunk progress lives in
-   `data/patches/checkpoints/`.
+   `docs/archive/patches-checkpoints/`.
 3. **Dispatch sweep agents** — one agent per chunk (waves of ~7).
    **Tier depends on the path: Sonnet on the batch path, Opus on the
    residue path** (tiering spec §4 Phase 2.3, decision T4). Read the

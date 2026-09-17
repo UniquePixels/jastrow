@@ -15,6 +15,7 @@
 			"!data/source/*.json",
 			"!data/source/*.jsonl",
 			"!docs/superpowers/plans/*.tasks.json",
+			"!docs/archive",
 			"!**/*.drawio.svg",
 			"data/entries/**/*.json"
 		]

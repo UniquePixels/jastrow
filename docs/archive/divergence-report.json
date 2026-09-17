@@ -26,21 +26,30 @@
 			"origin/main:data/raw/jastrow-part2.jsonl"
 		]
 	},
-	"strippedBeforeCompare": ["page", "column"],
+	"strippedBeforeCompare": [
+		"page",
+		"column"
+	],
 	"onlyInFresh": [],
 	"onlyInRaw": [],
 	"changed": [
 		{
 			"rid": "P00855",
-			"fields": ["headword"]
+			"fields": [
+				"headword"
+			]
 		},
 		{
 			"rid": "P00856",
-			"fields": ["headword"]
+			"fields": [
+				"headword"
+			]
 		},
 		{
 			"rid": "P00860",
-			"fields": ["headword"]
+			"fields": [
+				"headword"
+			]
 		}
 	]
 }
