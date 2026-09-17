@@ -50,13 +50,34 @@ interface Pattern {
 /** Rounds with no new pattern needed to declare saturation. */
 const SATURATION_ROUNDS = 2;
 
+/** Parse the catalogue, rejecting a repeated id the way `addPattern`
+ * does. Without this the two entry points disagreed: `addPattern`
+ * refused a duplicate, but a file that already held one parsed
+ * cleanly, and `checkEntanglement`'s `byId` map then kept only the
+ * last row while its own loop visited both — so one row's edges were
+ * checked against the other's, and an unregistered or mislinked
+ * pattern could pass unseen. Reports every duplicate, not the first,
+ * since the catalogue is checked as a whole. */
 function parsePatterns(text: string): Pattern[] {
-	return text
+	const rows = text
 		.split('\n')
 		.filter((line) => line.trim() !== '')
 		.map((line) => JSON.parse(line) as Pattern);
+	const counts = new Map<string, number>();
+	for (const row of rows) {
+		counts.set(row.id, (counts.get(row.id) ?? 0) + 1);
+	}
+	const duplicates = [...counts.entries()]
+		.filter(([, n]) => n > 1)
+		.map(([id]) => id);
+	if (duplicates.length > 0) {
+		throw new Error(`duplicate pattern id: ${duplicates.join(', ')}`);
+	}
+	return rows;
 }
 
+/** Serialise the catalogue back to JSONL, one row per line and a
+ * trailing newline — the inverse of `parsePatterns`. */
 function renderPatterns(rows: readonly Pattern[]): string {
 	return `${rows.map((r) => JSON.stringify(r)).join('\n')}\n`;
 }

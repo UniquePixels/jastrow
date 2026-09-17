@@ -9,6 +9,8 @@ import {
 	transformQueue,
 } from './patterns.ts';
 
+/** Two valid catalogue rows, rebuilt per call so a test that mutates
+ * them cannot leak into the next one. */
 function rows(): [Pattern, Pattern] {
 	return [
 		{
@@ -39,6 +41,35 @@ describe('parsePatterns', () => {
 	it('ignores blank lines', () => {
 		const text = `${JSON.stringify(rows()[0])}\n\n`;
 		expect(parsePatterns(text)).toHaveLength(1);
+	});
+
+	// A duplicate id used to parse cleanly even though `addPattern`
+	// refused one. `checkEntanglement` keys rows by id, so the second
+	// row displaced the first and the first's edges were checked
+	// against the second's.
+	it('rejects a repeated id', () => {
+		const [first] = rows();
+		const text = [first, { ...first, corpusCount: 1 }]
+			.map((r) => JSON.stringify(r))
+			.join('\n');
+		expect(() => parsePatterns(text)).toThrow('duplicate pattern id');
+	});
+
+	it('names every repeated id, not just the first', () => {
+		const [first, second] = rows();
+		const text = [first, second, first, second]
+			.map((r) => JSON.stringify(r))
+			.join('\n');
+		expect(() => parsePatterns(text)).toThrow(
+			`duplicate pattern id: ${first.id}, ${second.id}`,
+		);
+	});
+
+	// The shipped catalogue must keep parsing — the check is a guard on
+	// future edits, not a claim that the current file is broken.
+	it('accepts the live catalogue', async () => {
+		const text = await Bun.file('data/patches/patterns.jsonl').text();
+		expect(parsePatterns(text).length).toBeGreaterThan(0);
 	});
 });
 
