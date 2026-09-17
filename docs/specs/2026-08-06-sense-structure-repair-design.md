@@ -82,7 +82,7 @@ Hifil `—4)`, the U01787 `Af.` shape). The splitter takes the same
 
 The in-text census behind `upstream-issues.md` #16 (~78 candidates,
 unreviewed) becomes a generated eyes-on review doc
-(`docs/v2/body-review/08-implied-one-candidates.md`, review.ts
+(`docs/archive/body-review/08-implied-one-candidates.md`, review.ts
 conventions incl. decision-preservation). The census itself is
 **committed as a literal rid list in code**, and a test asserts doc
 08's row set equals that list exactly (count + set) — a generator

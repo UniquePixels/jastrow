@@ -229,7 +229,7 @@ interface TransformResult {
 	 * is retarget only*) rather than a safety property. Ruled in by
 	 * Brian on 2026-09-06, on the precedent that the 2026-08-05 body
 	 * review approved wrapping unlinked ibid citations
-	 * (`docs/v2/body-review/02-orphan-refs.md` class 2, "ALL Approved")
+	 * (`docs/archive/body-review/02-orphan-refs.md` class 2, "ALL Approved")
 	 * — the "show only what Jastrow linked" principle was written in
 	 * that review's class 3, about refs with no in-body basis.
 	 *

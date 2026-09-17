@@ -24,7 +24,7 @@ const b=rows.filter(r=>r.blocking===true); console.log("blocking", b.length, sum
 | Catalogue | `data/patches/patterns.jsonl` — 153 rows, 131 candidate (22 discarded) |
 | Queue helpers | `admin/pipeline/research/patterns.ts` — `transformQueue()`, `blockingWork()`, `checkEntanglement()` |
 | Phase spec | `docs/specs/2026-08-17-sweep-tiering-design.md` §4 |
-| Round 4 reconcile | `docs/v2/discovery-round-4.md` |
+| Round 4 reconcile | `docs/archive/discovery-round-4.md` |
 | 2.2 residue | [phase-2-residue.md](phase-2-residue.md) — 4,047 entries / 5,119 hints after the 54 rules |
 | 2.3 created hints | [phase-2-created-hints.md](phase-2-created-hints.md) — 35 of the 67 retired as one tokenizer defect, leaving 32; + 5 the fixed-table reading could not see = **37 hints on 35 entries, all adjudicated real** |
 | Snapshot | `data/source/jastrow-dictionary.jsonl`, sha256 `4c64ff03…`, pinned in `data/patches/snapshot.lock` |
@@ -720,7 +720,7 @@ after launch unless something else forces the issue.
 4. **Round 5** would clear the saturation gate only if it adds nothing.
    Rounds 3 and 4 both found re-measurement worth more than discovery.
 5. **The repair/transform overlap sweep** — recipe, runnable probe and
-   pinned output in `docs/v2/transform-batch-3a.md` §9.2, parked for
+   pinned output in `docs/archive/transform-batch-3a.md` §9.2, parked for
    **CP-2**. Run each rule on the pristine entry and on
    `applyRepairs(entry).entry`, and assert that the set of rules whose
    record count differs equals a checked-in allowlist (today one row:

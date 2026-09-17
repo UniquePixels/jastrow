@@ -1,6 +1,6 @@
 /**
  * `continuation-marker-em-dash-loss` (batch 7,
- * `docs/v2/transform-batch-7.md` §4, §16) — shipped for its
+ * `docs/archive/transform-batch-7.md` §4, §16) — shipped for its
  * HIGH-CONFIDENCE CORE only, on Brian's ruling 2026-08-29.
  *
  * ## The row, and why it could not ship whole

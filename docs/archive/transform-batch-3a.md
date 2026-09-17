@@ -595,7 +595,7 @@ below carries the table inline and reconstructs it on top of today's
 bun -e '
 // The retired class-1 escape, reconstructed inline so this probe needs no
 // git history. Table and substitution are verbatim from the pass that was
-// removed in `repairs.ts` (see docs/v2/body-migration.md).
+// removed in `repairs.ts` (see docs/archive/body-migration.md).
 const Q = String.fromCharCode(34);
 const CLASS1 = {A01069:"א״ט",A01940:"אלפ״א",B00752:"בי״ת",B00757:"בי״ת",
  C00473:"ג״ר",C01036:"גימ״ל",C01224:"א״ת",C01225:"ג״ר",D00791:"אח״ס",
@@ -717,7 +717,7 @@ time. Nothing about them was wrong; a better mechanism arrived.
 | `repairs.ts` | `REPAIRED_ORPHAN_ITEMS` rewritten: the 21 rids stay, respelled with the gershayim, because **the escape retired and the obligation did not**. If the transform ever stops reaching one of those anchors the recount says so instead of the item quietly going orphan again. |
 | `migrate-dry.ts` | the `&quot;` read-back removed. The corpus holds **zero** `&quot;` of its own and no pass writes one now, so the decode had nothing left to decode. The docstring records that it existed and why it went. |
 | `repairs.test.ts` | the escape's test is **inverted, not deleted** — `applyRepairs` must now leave A01069's anchor byte-identical, carry no `&quot;`, and leave the target truncated for the transform to fix. A re-introduced escape fails it. |
-| `docs/v2/body-migration.md` | the permanent record of those 21 repairs now carries the retirement, the rationale, and the fact that nothing was dropped. |
+| `docs/archive/body-migration.md` | the permanent record of those 21 repairs now carries the retirement, the rationale, and the fact that nothing was dropped. |
 
 ### The result, measured through the pipeline
 
@@ -1182,7 +1182,7 @@ population, in either order.
    `migrate-dry` reports 812 repaired entries where every prior record
    says 832. The 20-entry difference is exactly the retired escapes
    (21 entries, less `C00473` which keeps a `binyan-cleanup` record).
-   `docs/v2/body-migration.md` carries the new figure and the reason.
+   `docs/archive/body-migration.md` carries the new figure and the reason.
 4. **The `allows: ['״']` blast radius is bounded by the predicate, not
    by the corpus.** The reasoning that "U+05F4 occurs 0 times in the
    input" is false under composition — once `gershayimInBody` has run,

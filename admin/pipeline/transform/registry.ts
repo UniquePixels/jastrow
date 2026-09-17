@@ -579,7 +579,7 @@ const RULES: readonly Rule[] = [
 	// measurement above claims is INVARIANCE between
 	// the two orders, and that is unaffected: the absolute is a
 	// timestamp, not the finding. Re-derive with the composed pass in
-	// `docs/v2/transform-batch-2.md` §3 rather than trusting either
+	// `docs/archive/transform-batch-2.md` §3 rather than trusting either
 	// number here.
 	//
 	// So the order is free, and the reason it is free is measured too:
@@ -1039,7 +1039,7 @@ const RULES: readonly Rule[] = [
 	// The last four rows `PENDING` held. Spec for the gate case the two
 	// point rules need:
 	// `docs/specs/2026-09-01-link-target-gate-case-9.md`; report
-	// `docs/v2/transform-batch-10.md`.
+	// `docs/archive/transform-batch-10.md`.
 	//
 	// THEY SIT AT THE END OF `text-repairs` AS A BLOCK, and the reason is
 	// the same for all four: each keys on a Hebrew WORD or MARK, so each

@@ -216,7 +216,7 @@ Until step 3, no full-corpus pass writes anything (spec §6).
 | `data/quarantine/internal-targets.json` | reviewed unresolved internal targets | new |
 
 `migrate-dry.ts` keeps its Phase 2 report and calls `compose.ts`. The
-gate lines transcribed in `docs/v2/body-migration.md` must not move;
+gate lines transcribed in `docs/archive/body-migration.md` must not move;
 the corpus tier asserts that.
 
 ## 6. Testing

@@ -70,7 +70,7 @@ for await (const e of readSourceEntries()) {
 **576 occurrences / 538 entries.** The entry figure is the catalogued
 `corpusCount` to the unit, and it matches round 1's own merge note
 verbatim: *"one rule yields 576 anchors / 538 entries"*
-(`docs/v2/discovery-round-1.md`). `unusable: 0` — none is `malformed`,
+(`docs/archive/discovery-round-1.md`). `unusable: 0` — none is `malformed`,
 `interior` or unclosed, so the anchor view would accept every one and
 both editors could touch them.
 
@@ -529,7 +529,7 @@ addressable place to send it.
 > this row withdrawn, which is what was true when the paragraph was
 > written. `h-cognate-self-link` withdrew afterwards, so batch 2
 > landed **10 rows / 1,166 catalogued instances** (1,131 occurrences
-> repaired) — see `docs/v2/transform-batch-2.md`. Kept rather than
+> repaired) — see `docs/archive/transform-batch-2.md`. Kept rather than
 > silently corrected because this file is a dated audit record; the
 > reasoning above is unaffected, only the total moved.
 

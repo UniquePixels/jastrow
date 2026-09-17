@@ -104,7 +104,7 @@ of the batch, by accident. This one was found before the rule existed,
 by measuring the row's population **after `applyRepairs`** rather than
 on raw source. `transform:count` and every census that predates this
 audit measure raw source, which is precisely the blind spot 3a recorded
-and `docs/v2/transform-batch-3a.md` §9.2 proposed a sweep for; the gate
+and `docs/archive/transform-batch-3a.md` §9.2 proposed a sweep for; the gate
 this audit adds is the first that counts both sides in one walk.
 
 **The generalisable step is one line of probe:** before writing a rule,

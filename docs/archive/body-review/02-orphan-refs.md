@@ -22,7 +22,7 @@ gershayim `״` (U+05F4). Transform batch 3a repairs all 90 damaged
 anchors and the headwords they point at in one pass, so every item
 below resolves today. This section is the audit record of what was
 found, not a description of the live corpus. See
-`docs/v2/body-migration.md` and `docs/v2/transform-batch-3a.md` §7.
+`docs/archive/body-migration.md` and `docs/archive/transform-batch-3a.md` §7.
 
 | Rid | Headword | Orphan refs item | Context | Decision |
 | --- | --- | --- | --- | --- |

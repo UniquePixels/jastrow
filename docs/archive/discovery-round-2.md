@@ -24,7 +24,7 @@ more.
 
 - `data/patches/discovery-round-2/` — 22 manifests, 22 patch files, and the
   shared `agent-brief.md` the sweep agents ran against.
-- `docs/v2/discovery-round-2-candidates.md` — the full per-chunk record: every
+- `docs/archive/discovery-round-2-candidates.md` — the full per-chunk record: every
   candidate raised, every candidate killed, with corpus counts and letter-A
   membership. **This is the input to consolidation.** Round 1 did not preserve
   its equivalent; round 2 does.

@@ -16,7 +16,7 @@ reason.
 | Catalogue | 120 → **149** |
 | Chunks finding no new pattern | **3** (J, K, V) |
 
-Raw per-chunk record: `docs/v2/discovery-round-3-candidates.md`. Shared
+Raw per-chunk record: `docs/archive/discovery-round-3-candidates.md`. Shared
 contract: `data/patches/discovery-round-3/agent-brief.md`.
 
 ## What was different about this round

@@ -90,7 +90,7 @@ assumed uniform):
 disposition — heal at migration by rejoining the phantom sense into the
 preceding text. `numbering-gap` and `unclassified` are genuine eyes-on
 review, no proposed automatic fix. Full breakdown and per-row evidence:
-`docs/v2/body-review/01-broken-sequences.md`.
+`docs/archive/body-review/01-broken-sequences.md`.
 
 ## Finding 3 — same pitfall almost hit `totals.definitions`
 

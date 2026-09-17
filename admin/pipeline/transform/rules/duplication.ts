@@ -1,5 +1,5 @@
 /**
- * The two duplication rules of batch 7 (`docs/v2/transform-batch-7.md`
+ * The two duplication rules of batch 7 (`docs/archive/transform-batch-7.md`
  * §3, §11), kept in one file because **their disjointness is the thing
  * that defines them** and it is easier to keep true side by side than
  * across two.

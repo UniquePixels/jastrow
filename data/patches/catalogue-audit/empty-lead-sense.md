@@ -5,7 +5,7 @@ The row keeps its count (84) and its `blocking` flag is dropped with the
 route, because sitting on the transform queue as blocking asserted that
 a rule was owed before cutover, and none is.
 
-Gate context: `docs/v2/transform-batch-7.md` §9.
+Gate context: `docs/archive/transform-batch-7.md` §9.
 Sibling ruling: `empty-stem-section.md` (batch 6b) — same question,
 one degree stronger here.
 

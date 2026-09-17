@@ -2097,7 +2097,7 @@ Re-measurements:
   are one WALK, not one edit. Round 4 measured the relation as
   containment, and batch 4 shipped the boundary half only — the halakha
   carry is refused by `link-target.ts` and was never written. See
-  `discovery-round-4.md` §2 and `docs/v2/transform-batch-4.md`.)* *(chunk-00576 reached ~558/520 on the same shape from
+  `discovery-round-4.md` §2 and `docs/archive/transform-batch-4.md`.)* *(chunk-00576 reached ~558/520 on the same shape from
   the other side.)*
 - **`geresh-letter-numeral-mislink` (608) — the count is
   reading-dependent and the population does three jobs.** Strict (the

@@ -2,7 +2,7 @@
 
 **Batch 6c, 2026-08-29.** Ruled by Brian the same day. Design:
 [`docs/specs/2026-08-29-stranded-stem-head-design.md`](../../../docs/specs/2026-08-29-stranded-stem-head-design.md).
-Report: [`docs/v2/transform-batch-6c.md`](../../../docs/v2/transform-batch-6c.md).
+Report: [`docs/archive/transform-batch-6c.md`](../../../docs/archive/transform-batch-6c.md).
 
 This audit exists because the row was catalogued at **544 entries with
 no predicate recorded anywhere**, so nothing could reproduce it, confirm

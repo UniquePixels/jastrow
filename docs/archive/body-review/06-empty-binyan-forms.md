@@ -25,7 +25,7 @@ First 10 affected entries (one row per affected stem;
 | A02889 | אֲצַר I | Ithpa. | `["אִתְאַצַּר",""]` |  |
 | A03095 | אֲרִיךְ I | Af. | `["אוֹרֵיךְ",""]` |  |
 
-## Decision (choose one — the two options from docs/v2/body-dryrun.md Finding 3)
+## Decision (choose one — the two options from docs/archive/body-dryrun.md Finding 3)
 
 - [ ] **Accept in schema** — relax `minLength: 1` on stem form
   strings; an empty form is arguably meaningful, marking "no

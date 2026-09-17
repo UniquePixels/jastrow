@@ -21,7 +21,7 @@ Denominators: 44,668 senses with a definition, 42,460 of which contain
 Hebrew; 32,512 entries.
 
 **The catalogued 4,900 is a sense count and reproduces to within 2
-(0.04%).** `docs/v2/pattern-triage.md` independently records "4,924
+(0.04%).** `docs/archive/pattern-triage.md` independently records "4,924
 sense texts (4,570 entries)"; the ~26-sense gap is scope, not error —
 that probe took Hebrew outside *any* `span`/anchor, this one takes
 Hebrew outside any `dir="rtl"` element (only 3 nodes sit inside a

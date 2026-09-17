@@ -41,7 +41,7 @@ reproducible.**
 
 **The row's premise is stale, and that is the headline.** The shipped
 `abbrev-mislink` was already widened to cover inflected forms — round
-1's own recommendation (`docs/v2/discovery-round-1.md`), shipped in
+1's own recommendation (`docs/archive/discovery-round-1.md`), shipped in
 `link-anomalies.ts`'s `abbreviates()`, which tests `own.forms` as well
 as the headword. **28 of 28 hits fire the shipped `abbrevHint`.** The
 population this row describes is now **100% inside** `abbrev-mislink`'s

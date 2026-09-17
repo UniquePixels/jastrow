@@ -272,7 +272,7 @@ function tallySchema(
 	});
 }
 
-/** The one-screen console summary — the numbers docs/v2/body-dryrun.md
+/** The one-screen console summary — the numbers docs/archive/body-dryrun.md
  * transcribes. */
 function printSummary(acc: Accumulator): void {
 	console.log(`entries=${acc.entries}`);

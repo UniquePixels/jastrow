@@ -92,7 +92,7 @@ From `admin/pipeline/research/link-anomalies.ts`:
 
 **4,339, exactly.** A residue measurement whose PRE side did not
 reproduce would be measuring its own predicate, not the corpus. See
-`docs/v2/discovery-round-1.md` §4 for the calibration that figure came
+`docs/archive/discovery-round-1.md` §4 for the calibration that figure came
 from.
 
 The two carve-outs then move PRE to 4,187 and 4,216 by design — they

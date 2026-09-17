@@ -48,7 +48,7 @@ batch 2 ships the twelve entry-local rows, 1,794 instances.
 to `judgment` on audit — §6 predicted both as candidates and §4's table
 below records the outcome per row. The module spec's §7 table has been
 amended accordingly. Full report:
-[docs/v2/transform-batch-2.md](../v2/transform-batch-2.md).
+[docs/archive/transform-batch-2.md](../archive/transform-batch-2.md).
 
 ## 2. The unlink ruling
 
@@ -374,4 +374,4 @@ reason, and only the measurement separated them.
 | 2026-08-23 | **The geresh pair repairs by UNLINK, not retarget** (maintainer ruling, on the measurement): §3.2 case 2 reaches 81 of 517 bare members and 28 of 185 prefixed ones, so a retarget rule declines 84% of both rows. Unlink repairs 702 occurrences across 640 entries against the 109 a retarget could reach. Every arm the predicates leave standing is registered in `data/patches/catalogue-audit/geresh-abbrev-arms.md` for later review — the ruling's own condition |
 | 2026-08-23 | **`ib-yoma-2a` is a pure case-2 copy, not case 3.** §3.2 named it as case 3's first user; compose is unreachable for the whole population (0 of 312 displays carry a locus) and unnecessary. Case 3's first and only user is `sifre-ib-resolves-to-yalkut`. Its 63 intervening-citation members DECLINE rather than copy a neighbouring anchor's different work, and the segment approximation is recorded as a known limit rather than repaired |
 | 2026-08-24 | **`plural-to-feminine-final-letter-mislink` also unlinks**, on the same test the geresh pair used: retarget is reachable for 17 of 60 clean occurrences (28.3%). Six of the batch's ten rows therefore repair by unlink and none by the planned "copy" shape |
-| 2026-08-24 | **Batch 2 closed: ten rows, 1,166 catalogued instances, 1,131 occurrences repaired**, against twelve rows / 1,794 planned. Two rows withdrew to `judgment` (#4, #11), both predicted by §6 and both for a different reason than §6 gave. Composed corpus pass: 32,512 entries, 0 gate throws; the only isolated-vs-composed difference in the whole registry is batch 1's own `bare-rtl-hebrew`, which rises 4,471 → 4,517 records because `redundant-outer-rtl-span` runs first and re-exposes the Hebrew it covered. Report: `docs/v2/transform-batch-2.md` |
+| 2026-08-24 | **Batch 2 closed: ten rows, 1,166 catalogued instances, 1,131 occurrences repaired**, against twelve rows / 1,794 planned. Two rows withdrew to `judgment` (#4, #11), both predicted by §6 and both for a different reason than §6 gave. Composed corpus pass: 32,512 entries, 0 gate throws; the only isolated-vs-composed difference in the whole registry is batch 1's own `bare-rtl-hebrew`, which rises 4,471 → 4,517 records because `redundant-outer-rtl-span` runs first and re-exposes the Hebrew it covered. Report: `docs/archive/transform-batch-2.md` |

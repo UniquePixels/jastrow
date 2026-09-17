@@ -334,7 +334,7 @@ CodeRabbit round 2: under the wider grammar that read accepts — an
 optional roman numeral before the sense number — **288** of the 22,906
 admit a second valid split, and those 288 are exactly the addresses
 the 1,131 divergent anchors carry. Recounted and restated in
-`docs/v2/transform-batch-3a.md` §8.3.
+`docs/archive/transform-batch-3a.md` §8.3.
 
 This is the measurement the whole batch rests on, and it converts the
 audit's warning —

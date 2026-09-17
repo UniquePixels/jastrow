@@ -1,6 +1,6 @@
 /**
  * Approved §6.0 migration repair passes (entry-body-model plan Task 16;
- * maintainer review 2026-08-05, docs/v2/body-review/01–06). Pure: takes a
+ * maintainer review 2026-08-05, docs/archive/body-review/01–06). Pure: takes a
  * SourceEntry, returns a repaired copy plus a record of every change —
  * `migrate.ts` (later) composes this before the body build; until then
  * `bun body:migrate-dry` ran it corpus-wide read-only and reported.
@@ -247,7 +247,7 @@ const DASH_LABELS = new Set(['M02309', 'O00408', 'S02030', 'U00745', 'U00939']);
 // rather than an invention. The 21 rids and their now-repaired items
 // live on in REPAIRED_ORPHAN_ITEMS below, which still gates them.
 // Design: docs/specs/2026-08-24-gershayim-transform-design.md;
-// batch report: docs/v2/transform-batch-3a.md §7.
+// batch report: docs/archive/transform-batch-3a.md §7.
 // ---------------------------------------------------------------------
 
 const CITE_WRAPS: TextEdit[] = [
