@@ -56,12 +56,23 @@ describe('stripTags', () => {
 		expect(stripTags(input)).toBe(stripTagsByRegex(input));
 	});
 
-	// The scanner and the regex differ in how they SEARCH, not in what
-	// they match, so disagreement would show up as an ordering or
-	// restart bug on dense `<`/`>` input. Random strings over that
-	// alphabet hit those paths far more often than hand-written cases.
-	it('agrees with the old regex over random tag-dense input', () => {
-		const alphabet = '<>abc /"';
+	// Two ways the pair could come apart, one alphabet each.
+	//
+	// They differ in how they SEARCH, not in what they match, so an
+	// ordering or restart bug would show on dense `<`/`>` input —
+	// random strings hit those paths far more often than hand-written
+	// cases do. And the regex carried the `u` flag, matching code
+	// POINTS, where `indexOf` works in UTF-16 code units: astral
+	// characters, lone surrogates and combining marks are where that
+	// distinction could bite.
+	it.each([
+		['ascii', ['<', '>', 'a', 'b', 'c', ' ', '/', '"']],
+		[
+			'unicode',
+			['<', '>', 'a', '\u{1F600}', '\uD800', '\uDC00', '\u05B8', 'א'],
+		],
+	])('agrees with the old regex over random tag-dense %s', (_name, chars) => {
+		const alphabet = chars.join('');
 		// Park–Miller, chosen so the product stays inside the exact
 		// integer range — no bitwise masking, and reproducible run to run.
 		let seed = 20_260_917;
