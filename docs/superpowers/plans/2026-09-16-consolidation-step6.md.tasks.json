@@ -55,7 +55,7 @@
     {
       "id": 6,
       "subject": "Task 7: Archive research data, rewrite 11 citations",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** Reports filed beside the data move to `docs/archive/`; the 11 surviving source files citing `data/patches/catalogue-audit/` are updated in the same commit (user decision).\n\n**Files:**\n- Move to `docs/archive/`: `data/patches/{catalogue-audit,discovery-round-2,discovery-round-3,checkpoints}/`, `data/source/divergence-report.json`\n- Modify: the 11 `admin/pipeline/**/*.ts` citing `data/patches/catalogue-audit` (incl. `transform/html.ts`, `transform/registry.ts`, `transform/rules/{anaphora,geresh,gershayim,rtl,v-sub-twin}.ts`)\n\n**Acceptance Criteria:**\n- [ ] `data/patches/` retains `pilot/`, `tranches/`, `patterns.jsonl`, `snapshot.lock`, `RUNBOOK.md`\n- [ ] No string `data/patches/catalogue-audit` survives under `admin/`\n- [ ] No string `data/patches/checkpoints` survives under `admin/`\n- [ ] `bun pipeline:migrate` dry run: nine gates green, same report counts as the Task 4 run\n- [ ] `bun qa` green\n\n**Verify:** `bun pipeline:migrate && bun qa` -> both exit 0, nine gates green\n\n```json:metadata\n{\"files\": [\"data/patches\", \"docs/archive\", \"admin/pipeline/transform/registry.ts\", \"admin/pipeline/transform/html.ts\"], \"verifyCommand\": \"bun pipeline:migrate && bun qa\", \"acceptanceCriteria\": [\"pilot/ and tranches/ untouched\", \"no data/patches/catalogue-audit string under admin/\", \"nine gates green with unchanged counts\", \"bun qa green\"], \"modelTier\": \"standard\"}\n```",
       "blockedBy": [
         5
@@ -80,5 +80,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-16T22:32:55.987065"
+  "lastUpdated": "2026-09-16T22:53:27.515774"
 }
