@@ -75,9 +75,11 @@ describe('stripTags', () => {
 		],
 	])('agrees with the old regex over random tag-dense %s', (_name, chars) => {
 		const alphabet = chars.join('');
-		// Park–Miller, chosen so the product stays inside the exact
-		// integer range — no bitwise masking, and reproducible run to run.
 		let seed = 20_260_917;
+		/** Park–Miller. The multiplier and modulus are chosen so the
+		 * product stays inside the exact-integer range, which keeps this
+		 * free of bitwise masking and identical run to run — a failure
+		 * here names a specific input rather than a lucky one. */
 		const next = (): number => {
 			seed = (seed * 16_807) % 2_147_483_647;
 			return seed;
