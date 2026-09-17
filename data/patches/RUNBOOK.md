@@ -46,7 +46,10 @@ Sonnet on the batch path and **Opus** on the residue path.
    size (chunks of 30 entries; 25 chunks ≈ 3–4× pilot spend).
    Record the go (timestamp) in the tranche's report.
 
-   **Mark the usage baseline before dispatching:**
+   **Mark the usage baseline before dispatching** (script removed;
+   `usage-report.ts` archived at
+   `refs/tags/archive/v2-research-2026-09` in the 2026-09 pipeline
+   consolidation):
 
    ```
    bun usage --mark .usage-mark                      # before step 3

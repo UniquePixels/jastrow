@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 /**
- * `bun research:apply` — the dry, read-only replay of the committed
+ * `bun pipeline:patches` — the dry, read-only replay of the committed
  * patch corpus (research-process plan Task 4; spec
  * docs/specs/2026-08-10-research-process-design.md §5).
  *
