@@ -9,7 +9,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * landed on an unrelated lemma.
  *
  * Batch 9, spec `docs/specs/2026-08-31-link-target-gate-case-8.md`,
- * audit `data/patches/catalogue-audit/v-sub-redirect-stub.md`. It is
+ * audit `docs/archive/catalogue-audit/v-sub-redirect-stub.md`. It is
  * the ONLY rule batch 9 ships; the other seven citation-linking rows
  * withdrew to `judgment`, because the transform route can repair a
  * wrong anchor but cannot build a right one.

@@ -23,7 +23,7 @@ const DIR_RTL = /\bdir\s*=\s*(?<q>["']?)rtl\k<q>/u;
  * A literal `יִ` decomposes to yod + hiriq, and a pasted range built
  * from one silently becomes U+05B4–U+FB4F, which swallows em-dashes,
  * superscript letters and curly quotes (catalogue audit,
- * data/patches/catalogue-audit/bare-rtl-hebrew.md).
+ * docs/archive/catalogue-audit/bare-rtl-hebrew.md).
  *
  * U+0591–U+05C7 points and accents · U+05D0–U+05EA letters (final
  * forms included) · U+05F0–U+05F4 the yod-yod/vav-yod ligatures plus

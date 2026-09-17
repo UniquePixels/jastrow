@@ -1010,7 +1010,7 @@ const RULES: readonly Rule[] = [
 	// ---- `vSubRedirectTwin` — batch 9's only rule ----
 	//
 	// Spec `docs/specs/2026-08-31-link-target-gate-case-8.md`, audit
-	// `data/patches/catalogue-audit/v-sub-redirect-stub.md`. It rewrites
+	// `docs/archive/catalogue-audit/v-sub-redirect-stub.md`. It rewrites
 	// the `data-ref` and `href` of ONE anchor in each of 50 whole-entry
 	// `v. sub` redirect stubs, pointing it at the host's own spelling
 	// twin instead of at an unrelated lemma the abbreviation happened to

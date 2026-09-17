@@ -20,7 +20,7 @@ import { expect, it } from 'bun:test';
  * consolidation step 5 and is listed in
  * `docs/v2/retired-corpus-checks.md`.
  *
- * Audit: `data/patches/catalogue-audit/plural-label-capture.md`.
+ * Audit: `docs/archive/catalogue-audit/plural-label-capture.md`.
  */
 
 const TIMEOUT = 120_000;

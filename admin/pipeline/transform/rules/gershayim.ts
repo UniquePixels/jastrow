@@ -40,7 +40,7 @@
  * with a dominant twin elsewhere in the corpus (`הק"בה` 15 against
  * `הקב"ה` 194) and 45 more are undetermined; all 100 are
  * glyph-corrected in place and recorded in the decline register of
- * `data/patches/catalogue-audit/ascii-quote-as-gershayim-in-body.md`,
+ * `docs/archive/catalogue-audit/ascii-quote-as-gershayim-in-body.md`,
  * because sourcing a repair from a different token elsewhere in the
  * corpus is the inference shape the no-vowel-inference ruling forbids.
  * It would also silently rewrite `עכ"ום`, which the audit flags as

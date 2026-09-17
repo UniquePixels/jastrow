@@ -12,7 +12,7 @@
  * copies a target the input carries (spec §3.2 case 2) and never
  * invents an address. Where it cannot, it DECLINES — a decline is a
  * measurement, not a failure, and the counts are the row's write-back
- * (`data/patches/catalogue-audit/ib-yoma-2a.md`).
+ * (`docs/archive/catalogue-audit/ib-yoma-2a.md`).
  *
  * ## The population
  *

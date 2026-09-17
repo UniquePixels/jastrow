@@ -5,7 +5,7 @@
  * a quarter of the population) and `anchors(tokenize(definition))` for
  * the anchors.
  *
- * task-5-report.md and `data/patches/catalogue-audit/geresh-abbrev-arms.md`
+ * task-5-report.md and `docs/archive/catalogue-audit/geresh-abbrev-arms.md`
  * have the runnable scripts, including the ones for the arms these
  * rules deliberately leave alone. The corpus-walking tests that re-ran
  * the two load-bearing claims — the population sizes, and the claim
