@@ -239,15 +239,39 @@ describe('validateTruth', () => {
 
 /** The slug-index checks (R10, §7.1). `truth.test.ts` passing on the
  * committed tree says nothing on its own — these plant one defect in
- * the index at a time and show each clause names what it found. */
+ * the index at a time and show each clause names what it found.
+ *
+ * Every case runs through `check`, so a test is its planted defect and
+ * its expected message and nothing else. Spelling each call out cost
+ * 35 duplicated lines and failed Sonar's 3% gate on new code. */
 describe('validateTruth against the slug index', () => {
 	const files = tree(A(), B());
-	const pages = (): Map<string, PagePlacement> => pagesFor('A00001', 'A00002');
+	const FAMILY = tree(
+		entry('A00001', 'גמל-1', 'x'),
+		entry('A00002', 'גמל-2', 'y'),
+	);
+
+	/** Validate `on` with its own derived index, after `plant` has had a
+	 * chance to corrupt that index, and with `aliases`. */
+	function check(
+		plant: (index: Map<string, SlugRow>) => void = () => undefined,
+		aliases: Map<string, string> = new Map(),
+		on: TruthFile[] = files,
+	): string[] {
+		const index = indexFrom(on);
+		plant(index);
+		const ids = on.map((f) => (f.entry as TruthEntry).id);
+		return validateTruth(on, pagesFor(...ids), index, aliases);
+	}
+
+	const row =
+		(rid: string, slug: string, status: 'live' | 'retired') =>
+		(index: Map<string, SlugRow>): void => {
+			index.set(rid, { rid, slug, status });
+		};
 
 	it('reports an entry with no index row', () => {
-		const index = indexFrom(files);
-		index.delete('A00002');
-		expect(validateTruth(files, pages(), index)).toEqual([
+		expect(check((index) => index.delete('A00002'))).toEqual([
 			'A00002: no slug-index row (truth has אבא)',
 		]);
 	});
@@ -256,108 +280,68 @@ describe('validateTruth against the slug index', () => {
 		// The dangerous direction: a hand edit changes the slug, the
 		// index still says the old one, and the next run reassigns from
 		// the index and moves the URL back.
-		const index = indexFrom(files);
-		index.set('A00002', { rid: 'A00002', slug: 'גמל', status: 'live' });
-		expect(validateTruth(files, pages(), index)).toEqual([
+		expect(check(row('A00002', 'גמל', 'live'))).toEqual([
 			'A00002: slug אבא but the slug index says גמל',
 		]);
 	});
 
 	it('reports a retired row whose entry still exists', () => {
-		const index = indexFrom(files);
-		index.set('A00002', { rid: 'A00002', slug: 'אבא', status: 'retired' });
-		expect(validateTruth(files, pages(), index)).toEqual([
+		expect(check(row('A00002', 'אבא', 'retired'))).toEqual([
 			'A00002: slug-index row is retired but the entry exists',
 		]);
 	});
 
 	it('reports a live row with no entry', () => {
-		const index = indexFrom(files);
-		index.set('A00009', { rid: 'A00009', slug: 'גמל', status: 'live' });
-		expect(validateTruth(files, pages(), index)).toEqual([
+		expect(check(row('A00009', 'גמל', 'live'))).toEqual([
 			'slug-index row A00009 is live but has no entry',
 		]);
 	});
 
 	it('accepts a retired row with no entry: that is what reserving is', () => {
-		const index = indexFrom(files);
-		index.set('A00009', { rid: 'A00009', slug: 'גמל', status: 'retired' });
-		expect(validateTruth(files, pages(), index)).toEqual([]);
+		expect(check(row('A00009', 'גמל', 'retired'))).toEqual([]);
 	});
 
 	it('reports an alias pointing at the wrong member of its family', () => {
 		// The dangerous shape: the rid exists, so an existence check
 		// passes, while /גמל resolves to a member of another family
 		// entirely. A00002 holds אבא, not גמל-1.
-		expect(
-			validateTruth(
-				files,
-				pages(),
-				indexFrom(files),
-				new Map([['גמל', 'A00002']]),
-			),
-		).toEqual(['alias גמל points at A00002, which holds אבא not גמל-1']);
+		expect(check(undefined, new Map([['גמל', 'A00002']]))).toEqual([
+			'alias גמל points at A00002, which holds אבא not גמל-1',
+		]);
 	});
 
 	it('accepts an alias pointing at the -1 member', () => {
-		const family = tree(
-			entry('A00001', 'גמל-1', 'x'),
-			entry('A00002', 'גמל-2', 'y'),
-		);
-		expect(
-			validateTruth(
-				family,
-				pages(),
-				indexFrom(family),
-				new Map([['גמל', 'A00001']]),
-			),
-		).toEqual([]);
+		expect(check(undefined, new Map([['גמל', 'A00001']]), FAMILY)).toEqual([]);
 	});
 
 	it('reports an alias that is also a live entry\u2019s slug', () => {
 		// `/אב` cannot be both an entry and a redirect. The run calls this
 		// family slug-bare-held and gives it no alias; a hand edit could.
-		expect(
-			validateTruth(
-				files,
-				pages(),
-				indexFrom(files),
-				new Map([['אב', 'A00002']]),
-			),
-		).toEqual(["alias אב is also A00001's slug"]);
+		expect(check(undefined, new Map([['אב', 'A00002']]))).toEqual([
+			"alias אב is also A00001's slug",
+		]);
 	});
 
 	it('reports a collision family with no alias row at all', () => {
 		// The gap a "validate what exists" check cannot see: delete the
 		// alias row and the bare URL disappears while bun qa stays green.
-		const family = tree(
-			entry('A00001', 'גמל-1', 'x'),
-			entry('A00002', 'גמל-2', 'y'),
-		);
-		expect(
-			validateTruth(family, pages(), indexFrom(family), new Map()),
-		).toEqual(['family גמל has no alias row']);
+		expect(check(undefined, new Map(), FAMILY)).toEqual([
+			'family גמל has no alias row',
+		]);
 	});
 
 	it('reports an alias reusing a RETIRED row\u2019s slug', () => {
 		// A retired slug is reserved so nothing else takes it — an alias
 		// no less than an entry.
-		const index = indexFrom(files);
-		index.set('A00009', { rid: 'A00009', slug: 'גמל', status: 'retired' });
 		expect(
-			validateTruth(files, pages(), index, new Map([['גמל', 'A00002']])),
+			check(row('A00009', 'גמל', 'retired'), new Map([['גמל', 'A00002']])),
 		).toEqual(["alias גמל is also A00009's slug"]);
 	});
 
 	it('reports an alias pointing at a rid the index does not name', () => {
-		expect(
-			validateTruth(
-				files,
-				pages(),
-				indexFrom(files),
-				new Map([['גמל', 'A00009']]),
-			),
-		).toEqual(['alias גמל points at A00009, which has no index row']);
+		expect(check(undefined, new Map([['גמל', 'A00009']]))).toEqual([
+			'alias גמל points at A00009, which has no index row',
+		]);
 	});
 
 	it('accepts an alias whose target has retired', () => {
@@ -365,15 +349,12 @@ describe('validateTruth against the slug index', () => {
 		// keeping the alias would fail this check, and deleting it would
 		// fail "family has no alias row". A frozen alias outlives its
 		// target's entry and the retired row keeps it routable.
-		const family = tree(entry('A00002', 'גמל-2', 'y'));
-		const index = indexFrom(family);
-		index.set('A00001', { rid: 'A00001', slug: 'גמל-1', status: 'retired' });
+		const survivor = tree(entry('A00002', 'גמל-2', 'y'));
 		expect(
-			validateTruth(
-				family,
-				pagesFor('A00002'),
-				index,
+			check(
+				row('A00001', 'גמל-1', 'retired'),
 				new Map([['גמל', 'A00001']]),
+				survivor,
 			),
 		).toEqual([]);
 	});
