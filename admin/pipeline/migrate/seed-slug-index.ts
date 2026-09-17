@@ -19,6 +19,7 @@
  * therefore a record of today's state, not a new decision.
  */
 import { existsSync } from 'node:fs';
+import { unlink } from 'node:fs/promises';
 import {
 	ALIAS_INDEX_PATH,
 	type AliasRow,
@@ -92,8 +93,20 @@ async function main(): Promise<void> {
 			`seed aborted: ${problems.length} problem(s), none written`,
 		);
 	}
-	await writeSlugIndex(rows);
-	await writeAliases(aliases);
+	// Two files, one act. A crash between the writes would leave
+	// `entries.jsonl` alone, and the run-once guard above would then
+	// refuse the corrected rerun; clean up so the next run starts fresh.
+	try {
+		await writeSlugIndex(rows);
+		await writeAliases(aliases);
+	} catch (error) {
+		for (const path of [SLUG_INDEX_PATH, ALIAS_INDEX_PATH]) {
+			if (existsSync(path)) {
+				await unlink(path);
+			}
+		}
+		throw new Error('seed failed; wrote nothing', { cause: error });
+	}
 	console.log(
 		`wrote ${rows.length} rows to ${SLUG_INDEX_PATH} and ${aliases.length} aliases to ${ALIAS_INDEX_PATH}; problems=${problems.length}`,
 	);

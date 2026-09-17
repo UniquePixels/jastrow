@@ -349,7 +349,7 @@ describe('validateTruth against the slug index', () => {
 		).toEqual(["alias גמל is also A00009's slug"]);
 	});
 
-	it('reports an alias pointing at a rid with no entry', () => {
+	it('reports an alias pointing at a rid the index does not name', () => {
 		expect(
 			validateTruth(
 				files,
@@ -357,6 +357,24 @@ describe('validateTruth against the slug index', () => {
 				indexFrom(files),
 				new Map([['גמל', 'A00009']]),
 			),
-		).toEqual(['alias גמל points at A00009, which has no entry']);
+		).toEqual(['alias גמל points at A00009, which has no index row']);
+	});
+
+	it('accepts an alias whose target has retired', () => {
+		// The retirement path. Demanding a LIVE target would deadlock:
+		// keeping the alias would fail this check, and deleting it would
+		// fail "family has no alias row". A frozen alias outlives its
+		// target's entry and the retired row keeps it routable.
+		const family = tree(entry('A00002', 'גמל-2', 'y'));
+		const index = indexFrom(family);
+		index.set('A00001', { rid: 'A00001', slug: 'גמל-1', status: 'retired' });
+		expect(
+			validateTruth(
+				family,
+				pagesFor('A00002'),
+				index,
+				new Map([['גמל', 'A00001']]),
+			),
+		).toEqual([]);
 	});
 });

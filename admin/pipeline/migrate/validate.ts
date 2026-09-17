@@ -312,6 +312,12 @@ function checkSlugIndex(
 			problems.push(`slug-index row ${rid} is live but has no entry`);
 		}
 	}
+	// An alias deliberately is NOT required to have a live target. If the
+	// `-1` member retires, the alias is frozen and stays pointed at its
+	// retired row; demanding a live entry would deadlock against the
+	// missing-alias check above — keeping the alias and deleting it would
+	// both fail (spec §7.2). A live row with no entry is already reported
+	// by the loop above, so nothing is lost.
 	// Every slug the index reserves, retired rows included: a retired slug
 	// is held precisely so nothing else can take it, an alias no less than
 	// an entry.
@@ -327,9 +333,9 @@ function checkSlugIndex(
 			// reports this family as `slug-bare-held` and gives it no
 			// alias; a hand edit could still add one.
 			problems.push(`alias ${slug} is also ${owner}'s slug`);
-		} else if (!ids.has(rid)) {
-			problems.push(`alias ${slug} points at ${rid}, which has no entry`);
-		} else if (row?.slug !== `${slug}-1`) {
+		} else if (row === undefined) {
+			problems.push(`alias ${slug} points at ${rid}, which has no index row`);
+		} else if (row.slug !== `${slug}-1`) {
 			// Existing-rid is not enough: an alias resolving to the wrong
 			// member of its own family sends /אב to אב-2 and nothing fails
 			// (CodeRabbit, major).
