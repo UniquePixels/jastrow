@@ -339,7 +339,7 @@ cleaned stem joined an existing family.
 **Frozen at publication, not now** (2026-09-18). Step 7 shipped the
 index as a binding input straight away. That was backwards: R10 is
 about a *published* slug, and nothing is published. Until v2 ships,
-`SLUGS_FROZEN` (`migrate/slug-index.ts`) is `false`. A run assigns from
+`SLUGS_FROZEN` (`admin/pipeline/migrate/slug-index.ts`) is `false`. A run assigns from
 scratch, reports each slug that moved against the committed index as
 `slug-changed`, and `--write` rewrites both index files. The machinery
 below — prior assignment, retired rows, frozen aliases, the relaxed
