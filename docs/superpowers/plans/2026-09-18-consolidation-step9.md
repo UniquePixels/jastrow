@@ -4,7 +4,7 @@
 
 **Goal:** Every import run writes a committed review report that tags each review row `blocks`, `defer` or `note` for v2 publication, and the research leftovers move to one hand-written backlog doc.
 
-**Architecture:** A new `migrate/publication.ts` holds the fixed kind → publication table and stamps every `review`/`patch` row once, after the run and before anything is written; an unclassified kind throws. A new `migrate/review-report.ts` renders `docs/v2/review-report.md` from the stamped rows. `headword.ts`'s lexical check admits a single space between words. `docs/v2/research-backlog.md` replaces the hand-written `docs/v2/review-queue.md`.
+**Architecture:** A new `migrate/publication.ts` holds the fixed kind → publication table and stamps every `review`/`patch` row once, after the run and before anything is written; an unclassified kind throws. A new `migrate/review-report.ts` renders `docs/v2/review-report.md` from the stamped rows. `docs/v2/research-backlog.md` replaces the hand-written `docs/v2/review-queue.md`.
 
 **Tech Stack:** Bun (runtime + `bun:test`), TypeScript, Biome.
 
@@ -16,8 +16,9 @@
 - Pipeline faults (`bucket: 'pipeline'`) carry no `publication` field.
 - A `review` or `patch` row whose kind is not in the table throws — a new kind cannot ship unclassified.
 - Report row fields stay sorted alphabetically in object literals (existing style: `bucket, detail, kind, publication, rid, severity`).
-- Gates and rule counts must not move: the blessing doc changes ONLY in its "Headword review" section (309 rows → 33).
-- Control numbers for the final dry run: `headword-unparsed` 33, `blocks` 35 (33 headword + 2 slug-unsafe), `defer` 2,204 (298 + 1,893 + 10 + 3), `note` 0.
+- `migration-blessing.md` must come out byte-identical: nothing in this plan changes what the run computes.
+- Do NOT edit `admin/pipeline/migrate/headword.ts`: a separate headword effort owns it (maintainer ruling 2026-09-18, headwords perfect or halt).
+- Control numbers for the final dry run: `headword-unparsed` 309, `blocks` 311 (309 headword + 2 slug-unsafe), `defer` 2,204 (298 + 1,893 + 10 + 3), `note` 0.
 - Test tables are one-line tuples, not object literals (Sonar duplication gate).
 - `biome check --write` deletes a load-bearing `return;` unless a `biome-ignore` is the LAST comment before it.
 - Commits: `git commit -s`, message `<emoji> <type>(<scope>): <description>` ≤ 50 chars, ending with `Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>`. Run `biome check .` and `bun qa:test` before every commit.
@@ -27,6 +28,7 @@
 - The blocks/defer/note assignment per kind in spec §3.1.1 — approved "I agree!" (2026-09-18)
 - "the research items are like the rest of the research, we will get it into issues and then it archived" — backlog is hand-written, not pipeline
 - The 32 open blocking research classes are triaged in step 11, NOT in this plan
+- "yes, go with your recommendation" (2026-09-18): headword code is left to the headword session; `headword-unparsed` stays `blocks` until that work makes it a halt
 
 ---
 
@@ -34,7 +36,6 @@
 
 | File | Responsibility |
 |---|---|
-| `admin/pipeline/migrate/headword.ts` (modify) | `reviewReason`: a phrase of lexical words separated by single spaces is clean |
 | `admin/pipeline/migrate/publication.ts` (create) | `Publication` values, the kind table, `publicationOf`, `classifyRows` |
 | `admin/pipeline/migrate/report.ts` (modify) | `ReportRow.publication?` |
 | `admin/pipeline/migrate/review-report.ts` (create) | `REVIEW_REPORT_PATH`, `renderReviewReport` |
@@ -44,91 +45,7 @@
 
 ---
 
-### Task 1: Headword check admits multi-word phrases
-
-**Goal:** `reviewReason` stops flagging a headword whose text is lexical words separated by single spaces.
-
-**Files:**
-- Modify: `admin/pipeline/migrate/headword.ts:153-161`
-- Test: `admin/pipeline/migrate/headword.test.ts:35-47`
-
-**Acceptance Criteria:**
-- [ ] `reviewReason(decomposeForm('בֵּי אֱלִישָׁפָט'))` is `undefined`
-- [ ] `reviewReason(decomposeForm('*כְּפַר א׳ אָמוּס'))` (A02002) is `undefined` — the grammar strips `*` as `reconstructed` before the check
-- [ ] A double space between words (`'בֵּי  אֱלִישָׁפָט'`, which parses) returns `'text carries characters outside the lexical set'`
-- [ ] A comma inside a phrase (`'בֵּי, אֱלִישָׁפָט'`) returns a reason, whichever of the two
-- [ ] `bun qa:test` passes
-
-**Verify:** `bun test admin/pipeline/migrate/headword.test.ts` → all pass
-
-**Steps:**
-
-- [ ] **Step 1: Replace the phrase-lemma test with the new cases**
-
-In `headword.test.ts`, replace the `it('names a phrase lemma', …)` block with:
-
-```ts
-	const CLEAN: ReadonlyArray<readonly [string, string]> = [
-		['a phrase of lexical words', 'בֵּי אֱלִישָׁפָט'],
-		['a reconstructed phrase (A02002)', '*כְּפַר א׳ אָמוּס'],
-	];
-	for (const [label, form] of CLEAN) {
-		it(`is silent on ${label}`, () => {
-			expect(reviewReason(decomposeForm(form))).toBeUndefined();
-		});
-	}
-	it('names a double space between words', () => {
-		expect(reviewReason(decomposeForm('בֵּי  אֱלִישָׁפָט'))).toBe(
-			'text carries characters outside the lexical set',
-		);
-	});
-	it('names a comma inside a phrase', () => {
-		expect(reviewReason(decomposeForm('בֵּי, אֱלִישָׁפָט'))).toBeDefined();
-	});
-```
-
-(Measured 2026-09-18: `decomposeForm` parses both the double-space form and `*כְּפַר א׳ אָמוּס`, the latter as `{ text: 'כְּפַר א׳ אָמוּס', reconstructed: true }`.)
-
-- [ ] **Step 2: Run to see the phrase test fail**
-
-Run: `bun test admin/pipeline/migrate/headword.test.ts`
-Expected: FAIL on both "is silent on …" cases (received the lexical-set reason)
-
-- [ ] **Step 3: Implement**
-
-In `headword.ts`, replace the body's final `return` in `reviewReason`:
-
-```ts
-/** Why a decomposed form belongs on the review list, or `undefined`.
- * A phrase lemma is clean when each word is lexical: the space between
- * words is not a defect (spec §3.1.1; 276 of 309 rows were only that). */
-function reviewReason(decomposed: Decomposed): string | undefined {
-	if (!decomposed.parsed) {
-		return 'grammar did not parse';
-	}
-	return decomposed.form.text.split(' ').every((word) => LEXICAL.test(word))
-		? undefined
-		: 'text carries characters outside the lexical set';
-}
-```
-
-`LEXICAL` requires one or more characters, so an empty word from a double space fails it.
-
-- [ ] **Step 4: Run tests**
-
-Run: `bun test admin/pipeline/migrate/headword.test.ts && bun qa:test`
-Expected: PASS
-
-- [ ] **Step 5: Commit**
-
-```bash
-biome check . && git add admin/pipeline/migrate/headword.ts admin/pipeline/migrate/headword.test.ts
-git commit -s -m "🦠 fix(pipeline): stop flagging multi-word headwords" -m "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
-```
-
----
-
-### Task 2: Classify review rows for publication
+### Task 1: Classify review rows for publication
 
 **Goal:** Every `review`/`patch` row carries `publication` from spec §3.1.1's table, stamped before the report is written.
 
@@ -310,7 +227,7 @@ git commit -s -m "🦄 new(pipeline): tag review rows for publication" -m "Co-Au
 
 ---
 
-### Task 3: Render the review report
+### Task 2: Render the review report
 
 **Goal:** `renderReviewReport(report)` produces `docs/v2/review-report.md`, and `migrate.ts` writes it next to the blessing doc on every run.
 
@@ -484,47 +401,45 @@ git commit -s -m "🦄 new(pipeline): write the review report" -m "Co-Authored-B
 
 ---
 
-### Task 4: Dry run control and generated docs
+### Task 3: Dry run control and generated docs
 
-**Goal:** A dry run regenerates the blessing doc and the new review report with the control numbers, and nothing else moves.
+**Goal:** A dry run writes the new review report with the control numbers, and leaves everything else byte-identical.
 
 **Files:**
-- Modify (generated): `docs/v2/migration-blessing.md`
 - Create (generated): `docs/v2/review-report.md`
 
 **Acceptance Criteria:**
 - [ ] All nine gates green, counts identical to the committed blessing doc
-- [ ] `git diff docs/v2/migration-blessing.md` touches only the "Headword review" section: 276 lines removed, none added
-- [ ] `docs/v2/review-report.md` summary reads blocks 35, defer 2204, note 0
-- [ ] `headword-unparsed` has 33 rows, all `grammar did not parse`
+- [ ] `git diff --quiet docs/v2/migration-blessing.md` exits 0 (byte-identical)
+- [ ] `docs/v2/review-report.md` summary reads blocks 311, defer 2204, note 0
+- [ ] `### headword-unparsed (309)` and `### slug-unsafe (2)` under "Before publication"
 - [ ] `git status --short data/entries data/slug-index` is empty
 
-**Verify:** `bun pipeline:migrate` then `git diff --stat docs/v2/migration-blessing.md` → `1 file changed, 276 deletions(-)`
+**Verify:** `bun pipeline:migrate && git diff --quiet docs/v2/migration-blessing.md` → exit 0
 
 **Steps:**
 
 - [ ] **Step 1: Dry run** (≈ 2 min)
 
 Run: `bun pipeline:migrate 2>&1 | tail -6`
-Expected: last lines include `headword-unparsed=33`, `slug-unsafe=2`, and `review to docs/v2/review-report.md`
+Expected: last lines include `headword-unparsed=309`, `slug-unsafe=2`, and `review to docs/v2/review-report.md`
 
 - [ ] **Step 2: Check the controls**
 
 ```bash
-git diff --stat docs/v2/migration-blessing.md
-git diff docs/v2/migration-blessing.md | grep '^[-+]' | grep -v '^---\|^+++' | grep -vc 'outside the lexical set'
+git diff --quiet docs/v2/migration-blessing.md; echo blessing-exit=$?
 sed -n 1,12p docs/v2/review-report.md
 grep -c '^- ' docs/v2/review-report.md
-grep -c 'outside the lexical set' docs/v2/review-report.md
+grep -n '^### ' docs/v2/review-report.md
 git status --short data/entries data/slug-index
 ```
 
-Expected: `276 deletions(-)`; second command prints `0` (every changed line is a lexical-set row); summary blocks 35 / defer 2204 / note 0; 2239 row lines; `0` lexical-set rows; last command empty. If any expectation misses, STOP and report the difference — do not adjust the numbers.
+Expected: `blessing-exit=0`; summary blocks 311 / defer 2204 / note 0; 2515 row lines; kind headings `headword-unparsed (309)`, `slug-unsafe (2)`, `markup-carry (10)`, `page-confidence-low (298)`, `page-confidence-medium (1893)`, `review-deferred (3)`; last command empty. If any expectation misses, STOP and report the difference — do not adjust the numbers.
 
 - [ ] **Step 3: Commit**
 
 ```bash
-bun qa:format && biome check . && git add docs/v2/migration-blessing.md docs/v2/review-report.md
+bun qa:format && biome check . && git add docs/v2/review-report.md
 git commit -s -m "🧺 chore(pipeline): regenerate reports for step 9" -m "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
 ```
 
@@ -532,7 +447,7 @@ git commit -s -m "🧺 chore(pipeline): regenerate reports for step 9" -m "Co-Au
 
 ---
 
-### Task 5: Research backlog replaces the review queue
+### Task 4: Research backlog replaces the review queue
 
 **Goal:** `docs/v2/research-backlog.md` holds the research leftovers with the 32 cutover-blocking classes in their own section; `review-queue.md` is deleted and every link to it repointed; spec step 9 records the outcome.
 
@@ -547,7 +462,7 @@ git commit -s -m "🧺 chore(pipeline): regenerate reports for step 9" -m "Co-Au
 - [ ] A section "Blocks the v2 cutover (step 11)" lists all 32 open `blocking: true` non-transform classes with route and catalogued count, generated from `data/patches/patterns.jsonl` (not retyped)
 - [ ] A header states: hand-written; imported into the tracker once chosen, then archived with the research (maintainer 2026-09-18)
 - [ ] `grep -rn "review-queue" docs --include=*.md` finds only the spec's history mentions
-- [ ] Spec §11 step 9 "To do" becomes the measured outcome from Task 4
+- [ ] Spec §11 step 9 "To do" becomes the measured outcome from Task 3
 
 **Verify:** `grep -c '^| `' docs/v2/research-backlog.md` ≥ 37 (32 blocking rows + 5 blocked-route rows); `test ! -e docs/v2/review-queue.md`
 
@@ -588,7 +503,7 @@ Expected: only lines in the consolidation spec that describe the withdrawn file.
 
 - [ ] **Step 4: Update the spec**
 
-In §11 step 9, replace the `**To do:**` sentence and the "The control is a dry run…" sentence with the Task 4 outcome as measured (gates, blessing −276 lines, `blocks` 35, `defer` 2,204, `note` 0) and name `research-backlog.md` as shipped. Add a changelog row dated 2026-09-18 for the implementation.
+In §11 step 9, replace the `**To do:**` sentence and the "The control is a dry run…" sentence with the Task 3 outcome as measured (gates, blessing byte-identical, `blocks` 311, `defer` 2,204, `note` 0) and name `research-backlog.md` as shipped. Add a changelog row dated 2026-09-18 for the implementation.
 
 - [ ] **Step 5: Commit**
 

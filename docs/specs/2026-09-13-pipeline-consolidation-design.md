@@ -170,12 +170,14 @@ Pipeline faults are not in this table: they already refuse the write
 (gate 9). A kind with no entry is a code error, so a new review kind
 cannot ship unclassified.
 
-`headword-unparsed`'s lexical check admits a single space between
-words: 276 of its 309 rows today are multi-word headwords that parse
-and carry nothing else outside the lexical set (step 9). The one that
-looks otherwise, `A02002` (`*כְּפַר א׳ אָמוּס`), is clean too: its `*`
-is the reconstructed-form marker, which the grammar strips before the
-check.
+`headword-unparsed` is `blocks` only for now. The maintainer ruled
+the same day that a headword must be perfect or halt the pipeline, and
+that ruling is being built as separate headword work, which owns
+`migrate/headword.ts`. When it lands, a headword defect is a fault that
+refuses the write and the kind leaves this table. Until then every
+headword row blocks publication, including the 276 of today's 309 that
+are multi-word headwords which parse and are flagged only for their
+space; the headword work decides what happens to that check.
 
 **The publication gate.** v2 is published only when the review
 report's `blocks` section is empty **and** §11 step 11 has ruled
@@ -668,12 +670,11 @@ Steps 1–4 have shipped and are kept as history.
    yet reviewed); `upstream-issues.md` rows #6b and #16 carry the same
    counts. Sending the report, and marking rows reported, is the
    maintainer's. **To do:** the `publication` field and
-   `docs/v2/review-report.md` (§3.1.1); `headword-unparsed` stops
-   firing on a space between words; `docs/v2/research-backlog.md`
-   replaces the hand-written queue. The control is a dry run: gates
-   and rule counts unchanged, `headword-unparsed` 309 → 33, and
-   today's report 35 `blocks` (33 headwords, 2 slugs) and 2,204
-   `defer`.
+   `docs/v2/review-report.md` (§3.1.1); `docs/v2/research-backlog.md`
+   replaces the hand-written queue. Headword code is left to the
+   headword work (§3.1.1). The control is a dry run:
+   `migration-blessing.md` byte-identical, and today's report 311
+   `blocks` (309 headwords, 2 slugs) and 2,204 `defer`.
    Measuring the queue corrected four figures §9 had carried: 276 of
    the 309 unparsed headwords parse (all multi-word); `D00341` was repaired in step 8,
    leaving 3 deferred rows, not 4; `patterns.jsonl` has 5 `blocked`
