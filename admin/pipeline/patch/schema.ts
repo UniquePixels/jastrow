@@ -2,14 +2,18 @@
  * Semantic patch schema (research-process plan Task 2; spec
  * docs/specs/2026-08-10-research-process-design.md §4.3).
  *
- * One JSONL record per patch. Five ops — `split`, `retag`, `move`,
- * `delete`, `replace` — each with its own payload shape, addressing a
- * sense by **marker token + content-hash anchor**, never by array
- * index: an earlier structural patch must not shift a later patch's
- * target. `expected_before` (the target sense's exact current
+ * One JSONL record per patch. Six ops — `split`, `join`, `retag`,
+ * `move`, `delete`, `replace` — each with its own payload shape,
+ * addressing a sense by **marker token + content-hash anchor**, never
+ * by array index: an earlier structural patch must not shift a later
+ * patch's target. `expected_before` (the target sense's exact current
  * definition) is the safety mechanism — apply fails loudly on any
  * mismatch, and that same loud mismatch is the maintenance track's
  * worklist when upstream moves.
+ *
+ * `unref` is reserved in the `PatchOp` union for consolidation step 8
+ * Task 3; until that lands, `payloadReasons` reports it as not
+ * implemented and `parsePatch` does not accept it.
  *
  * Corpus preflight rules enforced here (`validateCorpus`):
  * - patch ids are unique;
@@ -38,7 +42,14 @@ const TARGET = /^sense\[(?<token>[^\]]*)\]:(?<anchor>[0-9a-f]{8})$/u;
 const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
 
 type Confidence = 'high' | 'low' | 'med';
-type PatchOp = 'delete' | 'move' | 'replace' | 'retag' | 'split';
+type PatchOp =
+	| 'delete'
+	| 'join'
+	| 'move'
+	| 'replace'
+	| 'retag'
+	| 'split'
+	| 'unref';
 
 /** Split an in-text `—N)` run out of its host sense: the host keeps
  * the text before the marker, a new sibling sense is inserted at
@@ -49,6 +60,14 @@ interface SplitPayload {
 	 * in the host definition and match the closed marker grammar. */
 	marker: string;
 }
+
+/** Fold the target sense back into the text flow it was cut from — the
+ * reverse of `split`, for a sense Sefaria minted at a cross-reference's
+ * own `N)`. Its number token and definition are appended to the
+ * preceding sibling's definition and the sense is removed; a target
+ * with no preceding sibling keeps its place, loses its `number`, and
+ * takes the token as the head of its definition. Byte-conserving. */
+type JoinPayload = Record<string, never>;
 
 /** Set (or add) the target sense's `number` field. The new token must
  * come from the closed marker grammar — retag is how an implied `1)`
@@ -115,6 +134,10 @@ interface DeletePatch extends PatchBase {
 	op: 'delete';
 	payload: DeletePayload;
 }
+interface JoinPatch extends PatchBase {
+	op: 'join';
+	payload: JoinPayload;
+}
 interface MovePatch extends PatchBase {
 	op: 'move';
 	payload: MovePayload;
@@ -134,6 +157,7 @@ interface SplitPatch extends PatchBase {
 
 type SemanticPatch =
 	| DeletePatch
+	| JoinPatch
 	| MovePatch
 	| ReplacePatch
 	| RetagPatch
@@ -248,6 +272,10 @@ function payloadReasons(op: PatchOp, payload: unknown): string[] {
 			}
 			return [];
 		}
+		case 'join':
+			return Object.keys(p).length === 0
+				? []
+				: ['join payload must be an empty object'];
 		case 'move': {
 			const reasons: string[] = [];
 			if (!nonEmptyString(p['segment'])) {
@@ -287,6 +315,9 @@ function payloadReasons(op: PatchOp, payload: unknown): string[] {
 			}
 			return [];
 		}
+		case 'unref':
+			// Reserved for consolidation step 8 Task 3.
+			return ['unref is not implemented'];
 		default:
 			return [`unknown op "${op}"`];
 	}
@@ -315,7 +346,14 @@ function parsePatch(value: unknown): SemanticPatch {
 	if (typeof raw['rid'] !== 'string' || !RID.test(raw['rid'])) {
 		reasons.push('rid must match <letter><5 digits>');
 	}
-	const ops: PatchOp[] = ['delete', 'move', 'replace', 'retag', 'split'];
+	const ops: PatchOp[] = [
+		'delete',
+		'join',
+		'move',
+		'replace',
+		'retag',
+		'split',
+	];
 	if (ops.includes(raw['op'] as PatchOp)) {
 		reasons.push(...payloadReasons(raw['op'] as PatchOp, raw['payload']));
 	} else {
@@ -541,6 +579,23 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 			}
 			break;
 		}
+		case 'join': {
+			const token = position.sense.number ?? '';
+			const previous = position.siblings[position.index - 1];
+			if (position.index === 0) {
+				position.sense.definition = token + definition;
+				// The key must vanish so an unnumbered sense serialises as one
+				// (exactOptionalPropertyTypes forbids assigning undefined).
+				// biome-ignore lint/performance/noDelete: key must vanish
+				delete position.sense.number;
+			} else if (previous === undefined || previous.grammar !== undefined) {
+				throw new PatchApplyError(patch.id, 'no text flow to join into');
+			} else {
+				previous.definition = (previous.definition ?? '') + token + definition;
+				position.siblings.splice(position.index, 1);
+			}
+			break;
+		}
 		case 'move': {
 			const { anchor, position: side, segment } = patch.payload;
 			const at = exactlyOnce(patch, definition, segment, 'move segment');
@@ -601,6 +656,7 @@ export type {
 	Confidence,
 	CorpusProblem,
 	DeletePayload,
+	JoinPayload,
 	MovePayload,
 	PatchOp,
 	PatchTarget,

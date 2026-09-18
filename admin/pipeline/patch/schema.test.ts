@@ -195,6 +195,59 @@ describe('split', () => {
 	});
 });
 
+describe('join', () => {
+	it('folds a phantom sense into the preceding flow', () => {
+		const entry: SourceEntry = {
+			content: {
+				senses: [
+					{ definition: 'see (v. X', number: '1)' },
+					{ definition: ' Y) night', number: '2)' },
+				],
+			},
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch = patchFor(' Y) night', '2)', { op: 'join', payload: {} });
+		const after = applyPatch(entry, patch);
+		expect(after.content.senses).toEqual([
+			{ definition: 'see (v. X2) Y) night', number: '1)' },
+		]);
+	});
+
+	it('unnumbers a phantom that opens the list', () => {
+		const entry: SourceEntry = {
+			content: { senses: [{ definition: ' Y) night', number: '2)' }] },
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch = patchFor(' Y) night', '2)', { op: 'join', payload: {} });
+		const after = applyPatch(entry, patch);
+		expect(after.content.senses).toEqual([{ definition: '2) Y) night' }]);
+		expect('number' in (after.content.senses[0] ?? {})).toBe(false);
+	});
+
+	it('refuses to join into a stem header', () => {
+		const entry: SourceEntry = {
+			content: {
+				senses: [
+					{ definition: '', grammar: { verbal_stem: 'Pi.' } },
+					{ definition: ' x', number: '2)' },
+				],
+			},
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch = patchFor(' x', '2)', { op: 'join', payload: {} });
+		expect(() => applyPatch(entry, patch)).toThrow('no text flow to join into');
+	});
+
+	it('rejects a non-empty payload', () => {
+		expect(() =>
+			patchFor(' x', '2)', { op: 'join', payload: { x: 1 } }),
+		).toThrow('join payload must be an empty object');
+	});
+});
+
 describe('retag', () => {
 	it('applies: adds a number to an unnumbered sense', () => {
 		const def = 'unnumbered sense with l) inside.';
