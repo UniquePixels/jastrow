@@ -87,6 +87,11 @@ interface ReplacePayload {
 }
 
 interface PatchBase {
+	/** Set only by the loader, from the directory a patch was read from:
+	 * `data/patches/reviewed/` holds patches a person wrote from a print
+	 * check, and they may add bytes (maintainer ruling 2026-09-18). A
+	 * record never carries it. */
+	author?: 'human';
 	confidence: Confidence;
 	defect_class: string;
 	/** Exact current definition of the target sense; apply fails
@@ -299,6 +304,11 @@ function parsePatch(value: unknown): SemanticPatch {
 	}
 	const raw = value as Record<string, unknown>;
 	const reasons: string[] = [];
+	if ('author' in raw) {
+		reasons.push(
+			'author is set by the loader from the patch directory, never by the record',
+		);
+	}
 	if (typeof raw['id'] !== 'string' || !PATCH_ID.test(raw['id'])) {
 		reasons.push('id must match P<6 digits>');
 	}

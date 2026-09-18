@@ -138,6 +138,17 @@ describe('parsePatch', () => {
 	it('parsePatchLine reports the line number on bad JSON', () => {
 		expect(() => parsePatchLine('{not json', 7)).toThrow('line 7');
 	});
+
+	it('rejects a record that claims its own author', () => {
+		const valid = patchFor('twin.', '3)', {
+			expected_occurrences: 2,
+			op: 'retag',
+			payload: { number: '3)' },
+		});
+		expect(() => parsePatch({ ...valid, author: 'human' })).toThrow(
+			'author is set by the loader from the patch directory, never by the record',
+		);
+	});
 });
 
 describe('split', () => {

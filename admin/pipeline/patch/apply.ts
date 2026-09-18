@@ -53,6 +53,36 @@ const TRANCHES_DIR = 'data/patches/tranches';
 const CORPUS_PATH = `${PILOT_DIR}/patches.jsonl`;
 const MANIFEST_PATH = `${PILOT_DIR}/manifest.jsonl`;
 
+/** Human-authored patches (consolidation spec §4.2, step 8). Kept out
+ * of `TRANCHES` on purpose: Ruling C keeps one record per rid, and 11
+ * reviewed rids also have agent records. */
+const REVIEWED_DIR = 'data/patches/reviewed';
+
+interface ReviewedCorpus {
+	/** `needs_*` records: items a person has flagged and not repaired. */
+	deferred: EntryResult[];
+	patches: SemanticPatch[];
+}
+
+/** Load the reviewed patch group (consolidation spec §4.2, step 8):
+ * every patch in `<dir>/patches.jsonl`, stamped `author: 'human'` so
+ * `applyEntryPatches` exempts it from the no-new-text floor, and the
+ * `needs_*` rows of `<dir>/manifest.jsonl` as `deferred` — findings a
+ * person flagged but did not repair. A missing directory (the default
+ * today) returns an empty corpus, so this changes no existing run's
+ * behaviour until reviewed patches are committed. */
+async function loadReviewedCorpus(dir = REVIEWED_DIR): Promise<ReviewedCorpus> {
+	const patches = (await loadCorpus(`${dir}/patches.jsonl`)).map((patch) => ({
+		...patch,
+		author: 'human' as const,
+	}));
+	const records = await loadManifest(`${dir}/manifest.jsonl`);
+	return {
+		deferred: records.filter((r) => r.disposition.startsWith('needs_')),
+		patches,
+	};
+}
+
 /** The corpus stage a tranche was swept at (RUNBOOK "Corpus state";
  * task-3 addendum-2, Ruling E). `pre-patch`: swept against
  * `applyRepairs` output only, before any transform rule existed — its
@@ -539,14 +569,16 @@ function applyEntryPatches(
 		try {
 			const next = applyPatch(current, patch);
 			postApplyAssertions(next, patch);
-			const verdict = validateNoNewText(patch, current, next);
-			if (!verdict.ok) {
-				problems.push({
-					patchId: patch.id,
-					reason: `${verdict.reason} — entry re-dispositions ${verdict.redisposition}`,
-					rid: patch.rid,
-				});
-				continue;
+			if (patch.author !== 'human') {
+				const verdict = validateNoNewText(patch, current, next);
+				if (!verdict.ok) {
+					problems.push({
+						patchId: patch.id,
+						reason: `${verdict.reason} — entry re-dispositions ${verdict.redisposition}`,
+						rid: patch.rid,
+					});
+					continue;
+				}
 			}
 			current = next;
 		} catch (error) {
@@ -656,6 +688,7 @@ export type {
 	PatchDrift,
 	PhaseName,
 	PreflightOptions,
+	ReviewedCorpus,
 };
 export {
 	applyCarryOver,
@@ -667,11 +700,13 @@ export {
 	loadAcceptedCorpus,
 	loadCorpus,
 	loadManifest,
+	loadReviewedCorpus,
 	MANIFEST_PATH,
 	orderedDirs,
 	PHASE_MANIFEST,
 	PhaseViolation,
 	patchesByRid,
 	postApplyAssertions,
+	REVIEWED_DIR,
 	stalePins,
 };

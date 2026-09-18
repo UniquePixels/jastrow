@@ -78,4 +78,54 @@ describe('composeEntry', () => {
 		expect(byDefault.patchDrift).toEqual([]);
 		expect(byDefault.patchesApplied).toBe(0);
 	});
+
+	it('applies a reviewed patch before the accepted patch it unblocks', () => {
+		const source: SourceEntry = {
+			content: { senses: [{ definition: 'a b', number: '1)' }] },
+			headword: 'y',
+			rid: 'Y00001',
+		};
+		// Reviewed turns "a b" into "a c" — a byte-adding replace, legal
+		// only because the loader stamps it `author: 'human'`.
+		const reviewedPatch: SemanticPatch = {
+			author: 'human',
+			confidence: 'high',
+			defect_class: 't',
+			expected_before: 'a b',
+			expected_occurrences: 1,
+			id: 'P900001',
+			occurrence_index: 1,
+			op: 'replace',
+			payload: { find: 'a b', replace: 'a c' },
+			prompt_version: 'test',
+			rationale: 't',
+			rid: 'Y00001',
+			snapshot: `sha256:${'0'.repeat(64)}`,
+			target: `sense[1)]:${contentAnchor('a b')}`,
+		};
+		// Accepted's `expected_before` is "a c" — it only resolves once
+		// the reviewed patch above has already landed.
+		const acceptedPatch: SemanticPatch = {
+			confidence: 'high',
+			defect_class: 't',
+			expected_before: 'a c',
+			expected_occurrences: 1,
+			id: 'P900002',
+			occurrence_index: 1,
+			op: 'replace',
+			payload: { find: 'a c', replace: 'c a' },
+			prompt_version: 'test',
+			rationale: 't',
+			rid: 'Y00001',
+			snapshot: `sha256:${'0'.repeat(64)}`,
+			target: `sense[1)]:${contentAnchor('a c')}`,
+		};
+		const result = composeEntry(source, {
+			accepted: [acceptedPatch],
+			reviewed: [reviewedPatch],
+		});
+		expect(result.patchProblems).toEqual([]);
+		expect(result.patchesApplied).toBe(2);
+		expect(result.entry.content.senses[0]?.definition).toBe('c a');
+	});
 });

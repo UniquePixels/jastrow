@@ -71,6 +71,10 @@ interface ComposePatches {
 	/** Drift policy for both patch sets (consolidation spec §4.2).
 	 * Omitted: `problem`, the research-track behaviour. */
 	drift?: DriftMode | undefined;
+	/** Human-authored, applied first (consolidation spec §4.2, step 8):
+	 * a person's print-check repair may be a precondition for an
+	 * accepted patch downstream of it. */
+	reviewed?: readonly SemanticPatch[] | undefined;
 }
 
 interface ComposeResult {
@@ -112,12 +116,29 @@ function applyPatchSets(
 	entry: SourceEntry,
 	patches: ComposePatches | undefined,
 ): PatchedEntry {
+	const reviewed = patches?.reviewed;
 	const accepted = patches?.accepted;
 	const carryGroup = patches?.carryOver;
+	// Reviewed patches apply first: a person's print-check repair can be
+	// the precondition an accepted patch's `expected_before` depends on.
+	const afterReviewed =
+		reviewed === undefined
+			? { drifted: [] as PatchDrift[], entry, problems: [] as ApplyProblem[] }
+			: applyEntryPatches(entry, reviewed, patches?.drift);
+	const reviewedApplied =
+		reviewed === undefined
+			? 0
+			: reviewed.length -
+				afterReviewed.problems.length -
+				afterReviewed.drifted.length;
 	const afterAccepted =
 		accepted === undefined
-			? { drifted: [] as PatchDrift[], entry, problems: [] as ApplyProblem[] }
-			: applyEntryPatches(entry, accepted, patches?.drift);
+			? {
+					drifted: [] as PatchDrift[],
+					entry: afterReviewed.entry,
+					problems: [] as ApplyProblem[],
+				}
+			: applyEntryPatches(afterReviewed.entry, accepted, patches?.drift);
 	const acceptedApplied =
 		accepted === undefined
 			? 0
@@ -127,11 +148,11 @@ function applyPatchSets(
 	if (carryGroup === undefined) {
 		return {
 			absorbed: [],
-			applied: acceptedApplied,
+			applied: reviewedApplied + acceptedApplied,
 			carried: [],
-			drifted: afterAccepted.drifted,
+			drifted: [...afterReviewed.drifted, ...afterAccepted.drifted],
 			entry: afterAccepted.entry,
-			problems: afterAccepted.problems,
+			problems: [...afterReviewed.problems, ...afterAccepted.problems],
 		};
 	}
 	const carry = applyCarryOver(afterAccepted.entry, carryGroup, patches?.drift);
@@ -147,11 +168,23 @@ function applyPatchSets(
 	).length;
 	return {
 		absorbed: carry.absorbed,
-		applied: acceptedApplied + carry.carried.length - carriedFailures,
+		applied:
+			reviewedApplied +
+			acceptedApplied +
+			carry.carried.length -
+			carriedFailures,
 		carried: carry.carried,
-		drifted: [...afterAccepted.drifted, ...carry.drifted],
+		drifted: [
+			...afterReviewed.drifted,
+			...afterAccepted.drifted,
+			...carry.drifted,
+		],
 		entry: carry.entry,
-		problems: [...afterAccepted.problems, ...carry.problems],
+		problems: [
+			...afterReviewed.problems,
+			...afterAccepted.problems,
+			...carry.problems,
+		],
 	};
 }
 

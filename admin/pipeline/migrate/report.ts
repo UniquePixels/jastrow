@@ -70,6 +70,11 @@ interface Report {
 		accepted: number;
 		applied: number;
 		carried: number;
+		/** Human-authored patches loaded from `data/patches/reviewed/`
+		 * (consolidation spec §4.2, step 8) — applied before `accepted`,
+		 * counted separately since Ruling C keeps one manifest row per
+		 * rid and a reviewed rid may also have an agent record. */
+		reviewed: number;
 		upstreamChanged: number;
 		upstreamFixed: number;
 	};
@@ -109,6 +114,7 @@ function createReport(): Report {
 			accepted: 0,
 			applied: 0,
 			carried: 0,
+			reviewed: 0,
 			upstreamChanged: 0,
 			upstreamFixed: 0,
 		},
@@ -262,7 +268,7 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 		'',
 		`Snapshot \`${report.snapshot.pin}\`: ${report.snapshot.stalePins} patch(es) pinned to a different snapshot, each judged by its own \`expected_before\`.`,
 		'',
-		`Patch corpus: ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed, ${report.patches.carried} carried, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
+		`Patch corpus: ${report.patches.reviewed} reviewed, ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed, ${report.patches.carried} carried, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
 		'',
 		'## Gates',
 		'',

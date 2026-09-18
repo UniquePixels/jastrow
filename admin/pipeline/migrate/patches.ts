@@ -14,6 +14,9 @@ interface PatchGroups {
 	accepted: Map<string, SemanticPatch[]>;
 	carryOver: Map<string, SemanticPatch[]>;
 	drift: DriftMode;
+	/** Human-authored patches (consolidation spec §4.2, step 8), applied
+	 * before `accepted`. */
+	reviewed: Map<string, SemanticPatch[]>;
 }
 
 const DRIFT_DETAIL: Record<DriftOutcome, string> = {
@@ -70,12 +73,14 @@ function recordPatchOutcomes(
  * `groups` holds only rids that never appeared. */
 function markMissingTargets(groups: PatchGroups, report: Report): void {
 	const missing = new Set([
+		...groups.reviewed.keys(),
 		...groups.accepted.keys(),
 		...groups.carryOver.keys(),
 	]);
 	for (const rid of missing) {
 		mark(report.gates.composition, false, `no source entry with rid ${rid}`);
 		const ids = [
+			...(groups.reviewed.get(rid) ?? []),
 			...(groups.accepted.get(rid) ?? []),
 			...(groups.carryOver.get(rid) ?? []),
 		].map((p) => p.id);

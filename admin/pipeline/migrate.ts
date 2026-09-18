@@ -74,6 +74,7 @@ import type { TruthEntry } from './migrate/types.ts';
 import {
 	corpusPreflight,
 	loadAcceptedCorpus,
+	loadReviewedCorpus,
 	patchesByRid,
 	stalePins,
 } from './patch/apply.ts';
@@ -140,7 +141,16 @@ async function preparePatches(
 	options: RunOptions,
 ): Promise<PatchGroups> {
 	const accepted = await loadAcceptedCorpus();
-	const applySet = [...accepted.patches, ...accepted.carryOver];
+	const reviewed = await loadReviewedCorpus();
+	// Reviewed patches join the pin/id/target preflight (id uniqueness,
+	// no overlapping targets) but never the manifest reconciliation —
+	// their manifest lives in the reviewed directory, not the accepted
+	// one `reconcileOnly` names.
+	const applySet = [
+		...reviewed.patches,
+		...accepted.patches,
+		...accepted.carryOver,
+	];
 	const pin = `sha256:${(await computeSnapshot()).combined}`;
 	report.snapshot = { pin, stalePins: stalePins(applySet, pin).length };
 	const preflight = corpusPreflight(applySet, accepted.records, pin, {
@@ -156,10 +166,17 @@ async function preparePatches(
 		);
 	}
 	report.patches.accepted = accepted.patches.length;
+	report.patches.reviewed = reviewed.patches.length;
+	report.rows.push(
+		...reviewed.deferred.map((r) =>
+			lineRow(`${r.rid}: ${r.escalation}`, 'review-deferred'),
+		),
+	);
 	return {
 		accepted: patchesByRid(accepted.patches),
 		carryOver: patchesByRid(accepted.carryOver),
 		drift: options.drift,
+		reviewed: patchesByRid(reviewed.patches),
 	};
 }
 
@@ -173,6 +190,7 @@ function composeOne(
 	report: Report,
 	rules: RuleCounter,
 ): Composed | undefined {
+	const reviewed = groups.reviewed.get(source.rid);
 	const accepted = groups.accepted.get(source.rid);
 	const carryOver = groups.carryOver.get(source.rid);
 	try {
@@ -180,6 +198,7 @@ function composeOne(
 			accepted,
 			carryOver,
 			drift: groups.drift,
+			reviewed,
 		});
 		for (const record of result.repairRecords) {
 			rules.add(`repairs:${record.pass}`, record.rid);
@@ -192,7 +211,7 @@ function composeOne(
 		report.patches.carried += result.carryOver.carried.length;
 		recordPatchOutcomes(
 			source.rid,
-			[...(accepted ?? []), ...(carryOver ?? [])],
+			[...(reviewed ?? []), ...(accepted ?? []), ...(carryOver ?? [])],
 			result,
 			report,
 		);
@@ -260,6 +279,7 @@ async function composeAll(
 		if (one !== undefined) {
 			composed.push(one);
 		}
+		groups.reviewed.delete(source.rid);
 		groups.accepted.delete(source.rid);
 		groups.carryOver.delete(source.rid);
 	}
