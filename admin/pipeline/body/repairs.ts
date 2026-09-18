@@ -604,11 +604,36 @@ const REPAIRED_ORPHAN_ITEMS: Record<string, string[]> = {
 	S01230: ['Yoma 85b:14'],
 };
 
-export type { PassName, RepairRecord };
+/** Every rid a rid-keyed table above repairs, sorted — the seeder's
+ * worklist for `data/patches/reviewed/` (consolidation step 8).
+ * `cleanBinyanForms` is corpus-wide, so it names no rid. */
+const REPAIR_RIDS: readonly string[] = [
+	...new Set([
+		...Object.keys(CHOPPED),
+		...Object.keys(IMPLIED_ONE),
+		...IMPLIED_ONE_TEXT.map((e) => e.rid),
+		...REINSERTS.map((e) => e.rid),
+		...DASH_LABELS,
+		...CITE_WRAPS.map((e) => e.rid),
+		...Object.keys(REFS_REMOVALS),
+		'D00341',
+	]),
+].toSorted();
+
+export type { PassName, RepairRecord, TextEdit };
 export {
 	applyRepairs,
+	CHOPPED,
+	CITE_WRAPS,
 	CONFIRMED_NO_CHANGE,
+	cleanBinyanForms,
+	DASH_LABELS,
 	DEFERRED,
+	IMPLIED_ONE,
+	IMPLIED_ONE_TEXT,
+	REFS_REMOVALS,
+	REINSERTS,
+	REPAIR_RIDS,
 	REPAIRED_ORPHAN_ITEMS,
 	walkSensesDeep,
 };
