@@ -28,7 +28,11 @@ const ALIAS_INDEX_PATH = 'data/slug-index/aliases.jsonl';
  *
  * Setting it to `true` is the act of publication: from then the index
  * is an input, a rid keeps the slug it has, and only a new rid is
- * assigned (spec §7.3). */
+ * assigned (spec §7.3).
+ *
+ * Not before index maintenance ships with the atomic write (R11): a
+ * frozen run reports a new rid's slug as `slug-new` but writes nothing
+ * back, so until then the next run would assign that rid afresh. */
 const SLUGS_FROZEN = false;
 
 type SlugStatus = 'live' | 'retired';
