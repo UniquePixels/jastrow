@@ -177,6 +177,9 @@ type SemanticPatch =
 	| SplitPatch
 	| UnrefPatch;
 
+/** Every patch that addresses a sense — all ops but `unref`. */
+type SensePatch = Exclude<SemanticPatch, UnrefPatch>;
+
 /** A parsed `sense[<token>]:<anchor>` address. */
 interface PatchTarget {
 	anchor: string;
@@ -217,7 +220,7 @@ function senseTarget(sense: SourceSense): string {
 
 /** Parse a `sense[<token>]:<anchor>` address. */
 function parseTarget(target: string): PatchTarget {
-	const m = target.match(TARGET);
+	const m = TARGET.exec(target);
 	if (m?.groups?.['anchor'] === undefined || m.groups['token'] === undefined) {
 		throw new PatchFormatError(`target "${target}"`, [
 			'expected sense[<token>]:<8-hex-anchor>',
@@ -228,7 +231,7 @@ function parseTarget(target: string): PatchTarget {
 
 /** Parse a `refs[<item>]:<anchor>` address — `unref`'s target shape. */
 function parseRefsTarget(target: string): PatchTarget {
-	const m = target.match(REFS_TARGET);
+	const m = REFS_TARGET.exec(target);
 	if (m?.groups?.['anchor'] === undefined || m.groups['item'] === undefined) {
 		throw new PatchFormatError(`target "${target}"`, [
 			'unref needs a refs[…] target',
@@ -293,83 +296,122 @@ function payloadReasons(op: PatchOp, payload: unknown): string[] {
 	if (typeof payload !== 'object' || payload === null) {
 		return ['payload must be an object'];
 	}
-	const p = payload as Record<string, unknown>;
-	switch (op) {
-		case 'delete': {
-			if (p['scope'] !== 'segment' && p['scope'] !== 'sense') {
-				return ['delete payload.scope must be "segment" or "sense"'];
-			}
-			if (p['scope'] === 'segment' && !nonEmptyString(p['segment'])) {
-				return ['delete payload.segment required when scope is "segment"'];
-			}
-			if (p['scope'] === 'sense' && p['segment'] !== undefined) {
-				return ['delete payload.segment must be absent when scope is "sense"'];
-			}
-			return [];
-		}
-		case 'join':
-			return Object.keys(p).length === 0
-				? []
-				: ['join payload must be an empty object'];
-		case 'move': {
-			const reasons: string[] = [];
-			if (!nonEmptyString(p['segment'])) {
-				reasons.push('move payload.segment must be a non-empty string');
-			}
-			if (!nonEmptyString(p['anchor'])) {
-				reasons.push('move payload.anchor must be a non-empty string');
-			}
-			if (p['position'] !== 'before' && p['position'] !== 'after') {
-				reasons.push('move payload.position must be "before" or "after"');
-			}
-			return reasons;
-		}
-		case 'replace': {
-			const reasons: string[] = [];
-			if (!nonEmptyString(p['find'])) {
-				reasons.push('replace payload.find must be a non-empty string');
-			}
-			if (typeof p['replace'] !== 'string') {
-				reasons.push('replace payload.replace must be a string');
-			}
-			return reasons;
-		}
-		case 'retag': {
-			if (typeof p['number'] !== 'string' || !CLOSED_MARKER.test(p['number'])) {
-				return [
-					'retag payload.number must match the closed marker grammar (N) / —N))',
-				];
-			}
-			return [];
-		}
-		case 'split': {
-			if (typeof p['marker'] !== 'string' || !CLOSED_MARKER.test(p['marker'])) {
-				return [
-					'split payload.marker must match the closed marker grammar (N) / —N))',
-				];
-			}
-			return [];
-		}
-		case 'unref':
-			return Object.keys(p).length === 0
-				? []
-				: ['unref payload must be an empty object'];
-		default:
-			return [`unknown op "${op}"`];
+	const validate = PAYLOAD_VALIDATORS[op] as PayloadValidator | undefined;
+	if (validate === undefined) {
+		return [`unknown op "${op}"`];
 	}
+	return validate(payload as Record<string, unknown>);
 }
+
+/** One op's payload check over an already-object payload; returns
+ * reasons (empty = ok). */
+type PayloadValidator = (p: Record<string, unknown>) => string[];
+
+/** `delete`: a known scope, with a segment exactly when scope is
+ * `segment`. */
+function deletePayloadReasons(p: Record<string, unknown>): string[] {
+	if (p['scope'] !== 'segment' && p['scope'] !== 'sense') {
+		return ['delete payload.scope must be "segment" or "sense"'];
+	}
+	if (p['scope'] === 'segment' && !nonEmptyString(p['segment'])) {
+		return ['delete payload.segment required when scope is "segment"'];
+	}
+	if (p['scope'] === 'sense' && p['segment'] !== undefined) {
+		return ['delete payload.segment must be absent when scope is "sense"'];
+	}
+	return [];
+}
+
+/** `join`: the payload must be empty. */
+function joinPayloadReasons(p: Record<string, unknown>): string[] {
+	return Object.keys(p).length === 0
+		? []
+		: ['join payload must be an empty object'];
+}
+
+/** `move`: segment, anchor and position, every bad field reported. */
+function movePayloadReasons(p: Record<string, unknown>): string[] {
+	const reasons: string[] = [];
+	if (!nonEmptyString(p['segment'])) {
+		reasons.push('move payload.segment must be a non-empty string');
+	}
+	if (!nonEmptyString(p['anchor'])) {
+		reasons.push('move payload.anchor must be a non-empty string');
+	}
+	if (p['position'] !== 'before' && p['position'] !== 'after') {
+		reasons.push('move payload.position must be "before" or "after"');
+	}
+	return reasons;
+}
+
+/** `replace`: a non-empty find and a string replacement. */
+function replacePayloadReasons(p: Record<string, unknown>): string[] {
+	const reasons: string[] = [];
+	if (!nonEmptyString(p['find'])) {
+		reasons.push('replace payload.find must be a non-empty string');
+	}
+	if (typeof p['replace'] !== 'string') {
+		reasons.push('replace payload.replace must be a string');
+	}
+	return reasons;
+}
+
+/** `retag`: the new number must be a closed-grammar marker. */
+function retagPayloadReasons(p: Record<string, unknown>): string[] {
+	if (typeof p['number'] !== 'string' || !CLOSED_MARKER.test(p['number'])) {
+		return [
+			'retag payload.number must match the closed marker grammar (N) / —N))',
+		];
+	}
+	return [];
+}
+
+/** `split`: the marker must be a closed-grammar marker. */
+function splitPayloadReasons(p: Record<string, unknown>): string[] {
+	if (typeof p['marker'] !== 'string' || !CLOSED_MARKER.test(p['marker'])) {
+		return [
+			'split payload.marker must match the closed marker grammar (N) / —N))',
+		];
+	}
+	return [];
+}
+
+/** `unref`: the payload must be empty. */
+function unrefPayloadReasons(p: Record<string, unknown>): string[] {
+	return Object.keys(p).length === 0
+		? []
+		: ['unref payload must be an empty object'];
+}
+
+/** The payload validator for each op. */
+const PAYLOAD_VALIDATORS: Record<PatchOp, PayloadValidator> = {
+	delete: deletePayloadReasons,
+	join: joinPayloadReasons,
+	move: movePayloadReasons,
+	replace: replacePayloadReasons,
+	retag: retagPayloadReasons,
+	split: splitPayloadReasons,
+	unref: unrefPayloadReasons,
+};
 
 function nonEmptyString(value: unknown): value is string {
 	return typeof value === 'string' && value.length > 0;
 }
 
-/** Parse and validate one patch record. Collects every problem into
- * one PatchFormatError instead of stopping at the first. */
-function parsePatch(value: unknown): SemanticPatch {
-	if (typeof value !== 'object' || value === null) {
-		throw new PatchFormatError('patch', ['record must be an object']);
-	}
-	const raw = value as Record<string, unknown>;
+/** Every op a record may name, in the order the op reason lists them. */
+const PATCH_OPS: PatchOp[] = [
+	'delete',
+	'join',
+	'move',
+	'replace',
+	'retag',
+	'split',
+	'unref',
+];
+
+/** Reasons from the identity fields: no record-set author, id, rid,
+ * op and its payload, expected_before. */
+function identityReasons(raw: Record<string, unknown>): string[] {
 	const reasons: string[] = [];
 	if ('author' in raw) {
 		reasons.push(
@@ -382,44 +424,62 @@ function parsePatch(value: unknown): SemanticPatch {
 	if (typeof raw['rid'] !== 'string' || !RID.test(raw['rid'])) {
 		reasons.push('rid must match <letter><5 digits>');
 	}
-	const ops: PatchOp[] = [
-		'delete',
-		'join',
-		'move',
-		'replace',
-		'retag',
-		'split',
-		'unref',
-	];
-	if (ops.includes(raw['op'] as PatchOp)) {
+	if (PATCH_OPS.includes(raw['op'] as PatchOp)) {
 		reasons.push(...payloadReasons(raw['op'] as PatchOp, raw['payload']));
 	} else {
-		reasons.push(`op must be one of ${ops.join(', ')}`);
+		reasons.push(`op must be one of ${PATCH_OPS.join(', ')}`);
 	}
 	if (typeof raw['expected_before'] !== 'string') {
 		reasons.push('expected_before must be a string');
 	}
-	let target: PatchTarget | undefined;
-	if (typeof raw['target'] === 'string') {
-		try {
-			target =
-				raw['op'] === 'unref'
-					? parseRefsTarget(raw['target'])
-					: parseTarget(raw['target']);
-		} catch (e) {
-			if (raw['op'] !== 'unref' && REFS_TARGET.test(raw['target'])) {
-				reasons.push('refs[…] targets are only for unref');
-			} else {
-				reasons.push((e as Error).message);
-			}
-		}
-	} else {
-		reasons.push('target must be a string');
+	return reasons;
+}
+
+/** Parse the record's target in the shape its op expects: `refs[…]`
+ * for unref, `sense[…]` for every other op. Throws on a bad shape. */
+function parseTargetFor(op: unknown, text: string): PatchTarget {
+	return op === 'unref' ? parseRefsTarget(text) : parseTarget(text);
+}
+
+/** Parse the target field, returning the target when it parses and
+ * the one reason when it does not. */
+function readTarget(raw: Record<string, unknown>): {
+	reasons: string[];
+	target?: PatchTarget;
+} {
+	const text = raw['target'];
+	if (typeof text !== 'string') {
+		return { reasons: ['target must be a string'] };
 	}
+	try {
+		return { reasons: [], target: parseTargetFor(raw['op'], text) };
+	} catch (e) {
+		const misplacedRefs = raw['op'] !== 'unref' && REFS_TARGET.test(text);
+		return {
+			reasons: [
+				misplacedRefs
+					? 'refs[…] targets are only for unref'
+					: (e as Error).message,
+			],
+		};
+	}
+}
+
+/** Reasons the parsed target disagrees with the rest of the record:
+ * anchor vs expected_before, a refs item that is not expected_before,
+ * a join target without a closed-grammar token. */
+function anchorReasons(
+	raw: Record<string, unknown>,
+	target: PatchTarget | undefined,
+): string[] {
+	if (target === undefined) {
+		return [];
+	}
+	const reasons: string[] = [];
 	// Anchor self-consistency: the anchor is derived from the exact
 	// current content, which expected_before claims to be — an
 	// inconsistent pair is rejected before any entry is read.
-	if (target !== undefined && typeof raw['expected_before'] === 'string') {
+	if (typeof raw['expected_before'] === 'string') {
 		const derived = contentAnchor(raw['expected_before']);
 		if (derived !== target.anchor) {
 			reasons.push(
@@ -437,13 +497,16 @@ function parsePatch(value: unknown): SemanticPatch {
 	// A join folds the target's number token back into the text; an
 	// unnumbered target has none, so the join would only erase a sense
 	// boundary.
-	if (
-		raw['op'] === 'join' &&
-		target !== undefined &&
-		!CLOSED_MARKER.test(target.token)
-	) {
+	if (raw['op'] === 'join' && !CLOSED_MARKER.test(target.token)) {
 		reasons.push('join target token must match the closed marker grammar');
 	}
+	return reasons;
+}
+
+/** Reasons from the provenance fields: confidence, rationale,
+ * defect_class, snapshot pin, prompt_version. */
+function metadataReasons(raw: Record<string, unknown>): string[] {
+	const reasons: string[] = [];
 	if (!['high', 'low', 'med'].includes(raw['confidence'] as string)) {
 		reasons.push('confidence must be high, med, or low');
 	}
@@ -462,6 +525,13 @@ function parsePatch(value: unknown): SemanticPatch {
 	if (!nonEmptyString(raw['prompt_version'])) {
 		reasons.push('prompt_version must be a non-empty string');
 	}
+	return reasons;
+}
+
+/** Reasons from expected_occurrences and occurrence_index (each
+ * defaulting to 1). */
+function occurrenceReasons(raw: Record<string, unknown>): string[] {
+	const reasons: string[] = [];
 	const occurrences = raw['expected_occurrences'] ?? 1;
 	if (!Number.isInteger(occurrences) || (occurrences as number) < 1) {
 		reasons.push('expected_occurrences must be a positive integer');
@@ -474,6 +544,26 @@ function parsePatch(value: unknown): SemanticPatch {
 	) {
 		reasons.push('occurrence_index must be in 1..expected_occurrences');
 	}
+	return reasons;
+}
+
+/** Parse and validate one patch record. Collects every problem into
+ * one PatchFormatError instead of stopping at the first. */
+function parsePatch(value: unknown): SemanticPatch {
+	if (typeof value !== 'object' || value === null) {
+		throw new PatchFormatError('patch', ['record must be an object']);
+	}
+	const raw = value as Record<string, unknown>;
+	const { reasons: targetReasons, target } = readTarget(raw);
+	const reasons = [
+		...identityReasons(raw),
+		...targetReasons,
+		...anchorReasons(raw, target),
+		...metadataReasons(raw),
+		...occurrenceReasons(raw),
+	];
+	const occurrences = raw['expected_occurrences'] ?? 1;
+	const index = raw['occurrence_index'] ?? 1;
 	if (reasons.length > 0) {
 		const context =
 			typeof raw['id'] === 'string' ? `patch ${raw['id']}` : 'patch <no id>';
@@ -603,22 +693,34 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 		);
 	}
 	if (patch.op === 'unref') {
-		const copy = structuredClone(entry);
-		const refs = copy.refs ?? [];
-		const hits = refs.flatMap((r, i) =>
-			r === patch.expected_before ? [i] : [],
-		);
-		if (hits.length !== patch.expected_occurrences) {
-			throw new PatchApplyError(
-				patch.id,
-				`refs item resolved ${hits.length} time(s); expected ${patch.expected_occurrences}`,
-			);
-		}
-		const at = hits[patch.occurrence_index - 1] ?? -1;
-		copy.refs = refs.filter((_, i) => i !== at);
-		return copy;
+		return applyUnref(entry, patch);
 	}
 	const copy = structuredClone(entry);
+	const position = locateSense(copy, patch);
+	mutateSense(patch, position, position.sense.definition ?? '');
+	return copy;
+}
+
+/** `unref`: remove the addressed `refs[]` item from a copy of the
+ * entry, after asserting its occurrence count. */
+function applyUnref(entry: SourceEntry, patch: UnrefPatch): SourceEntry {
+	const copy = structuredClone(entry);
+	const refs = copy.refs ?? [];
+	const hits = refs.flatMap((r, i) => (r === patch.expected_before ? [i] : []));
+	if (hits.length !== patch.expected_occurrences) {
+		throw new PatchApplyError(
+			patch.id,
+			`refs item resolved ${hits.length} time(s); expected ${patch.expected_occurrences}`,
+		);
+	}
+	const at = hits[patch.occurrence_index - 1] ?? -1;
+	copy.refs = refs.filter((_, i) => i !== at);
+	return copy;
+}
+
+/** Resolve a sense patch's target in `copy` and assert its pre-state:
+ * resolved count, occurrence index, and expected_before. */
+function locateSense(copy: SourceEntry, patch: SensePatch): SensePosition {
 	const target = parseTarget(patch.target);
 	const matches = resolveTarget(copy, target);
 	// The pre-state gate: `matches.length` already IS the resolved
@@ -644,89 +746,35 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 			'expected_before does not match the target definition — the source moved under the patch (maintenance track, spec §6)',
 		);
 	}
+	return position;
+}
+
+/** Apply a sense patch's edit in place at its located position;
+ * `definition` is the target's (already asserted) current text. */
+function mutateSense(
+	patch: SensePatch,
+	position: SensePosition,
+	definition: string,
+): void {
 	switch (patch.op) {
-		case 'delete': {
-			if (patch.payload.scope === 'sense') {
-				position.siblings.splice(position.index, 1);
-			} else {
-				const segment = patch.payload.segment ?? '';
-				const at = exactlyOnce(patch, definition, segment, 'delete segment');
-				position.sense.definition =
-					definition.slice(0, at) + definition.slice(at + segment.length);
-			}
+		case 'delete':
+			applyDelete(patch, position, definition);
 			break;
-		}
-		case 'join': {
-			const token = position.sense.number ?? '';
-			const previous = position.siblings[position.index - 1];
-			// Only number + definition move; anything else on the target
-			// (grammar, child senses) would be silently dropped, and text
-			// appended to a sibling with children lands after them — out of
-			// document order. Refuse all three rather than lose bytes.
-			if (position.sense.grammar !== undefined) {
-				throw new PatchApplyError(
-					patch.id,
-					'join target carries grammar, which a join would drop',
-				);
-			}
-			if ((position.sense.senses ?? []).length > 0) {
-				throw new PatchApplyError(
-					patch.id,
-					'join target has child senses, which a join would drop',
-				);
-			}
-			if (position.index === 0) {
-				position.sense.definition = token + definition;
-				// The key must vanish so an unnumbered sense serialises as one
-				// (exactOptionalPropertyTypes forbids assigning undefined).
-				// biome-ignore lint/performance/noDelete: key must vanish
-				delete position.sense.number;
-			} else if (previous === undefined || previous.grammar !== undefined) {
-				throw new PatchApplyError(patch.id, 'no text flow to join into');
-			} else if ((previous.senses ?? []).length > 0) {
-				throw new PatchApplyError(
-					patch.id,
-					'preceding sibling has child senses; the joined text would land after them',
-				);
-			} else {
-				previous.definition = (previous.definition ?? '') + token + definition;
-				position.siblings.splice(position.index, 1);
-			}
+		case 'join':
+			applyJoin(patch, position, definition);
 			break;
-		}
-		case 'move': {
-			const { anchor, position: side, segment } = patch.payload;
-			const at = exactlyOnce(patch, definition, segment, 'move segment');
-			const lifted =
-				definition.slice(0, at) + definition.slice(at + segment.length);
-			const anchorAt = exactlyOnce(patch, lifted, anchor, 'move anchor');
-			const insertAt = side === 'before' ? anchorAt : anchorAt + anchor.length;
-			position.sense.definition =
-				lifted.slice(0, insertAt) + segment + lifted.slice(insertAt);
+		case 'move':
+			applyMove(patch, position, definition);
 			break;
-		}
-		case 'replace': {
-			const { find, replace } = patch.payload;
-			const at = exactlyOnce(patch, definition, find, 'replace find');
-			position.sense.definition =
-				definition.slice(0, at) + replace + definition.slice(at + find.length);
+		case 'replace':
+			applyReplace(patch, position, definition);
 			break;
-		}
-		case 'retag': {
+		case 'retag':
 			position.sense.number = patch.payload.number;
 			break;
-		}
-		case 'split': {
-			const { marker } = patch.payload;
-			const at = exactlyOnce(patch, definition, marker, 'split marker');
-			const sibling: SourceSense = {
-				definition: definition.slice(at + marker.length),
-				number: marker,
-			};
-			position.sense.definition = definition.slice(0, at);
-			position.siblings.splice(position.index + 1, 0, sibling);
+		case 'split':
+			applySplit(patch, position, definition);
 			break;
-		}
 		default: {
 			// Exhaustiveness backstop; parsePatch rejects unknown ops.
 			throw new PatchApplyError(
@@ -735,7 +783,112 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 			);
 		}
 	}
-	return copy;
+}
+
+/** `delete`: drop the whole sense, or its one exact segment. */
+function applyDelete(
+	patch: DeletePatch,
+	position: SensePosition,
+	definition: string,
+): void {
+	if (patch.payload.scope === 'sense') {
+		position.siblings.splice(position.index, 1);
+		return;
+	}
+	const segment = patch.payload.segment ?? '';
+	const at = exactlyOnce(patch, definition, segment, 'delete segment');
+	position.sense.definition =
+		definition.slice(0, at) + definition.slice(at + segment.length);
+}
+
+/** `join`: fold the target's number + definition into the preceding
+ * sibling, or into its own head when it is the first sibling. */
+function applyJoin(
+	patch: JoinPatch,
+	position: SensePosition,
+	definition: string,
+): void {
+	const token = position.sense.number ?? '';
+	const previous = position.siblings[position.index - 1];
+	// Only number + definition move; anything else on the target
+	// (grammar, child senses) would be silently dropped, and text
+	// appended to a sibling with children lands after them — out of
+	// document order. Refuse all three rather than lose bytes.
+	if (position.sense.grammar !== undefined) {
+		throw new PatchApplyError(
+			patch.id,
+			'join target carries grammar, which a join would drop',
+		);
+	}
+	if ((position.sense.senses ?? []).length > 0) {
+		throw new PatchApplyError(
+			patch.id,
+			'join target has child senses, which a join would drop',
+		);
+	}
+	if (position.index === 0) {
+		position.sense.definition = token + definition;
+		// The key must vanish so an unnumbered sense serialises as one
+		// (exactOptionalPropertyTypes forbids assigning undefined).
+		// biome-ignore lint/performance/noDelete: key must vanish
+		delete position.sense.number;
+	} else if (previous === undefined || previous.grammar !== undefined) {
+		throw new PatchApplyError(patch.id, 'no text flow to join into');
+	} else if ((previous.senses ?? []).length > 0) {
+		throw new PatchApplyError(
+			patch.id,
+			'preceding sibling has child senses; the joined text would land after them',
+		);
+	} else {
+		previous.definition = (previous.definition ?? '') + token + definition;
+		position.siblings.splice(position.index, 1);
+	}
+}
+
+/** `move`: lift the exact segment out and reinsert it beside the
+ * exact anchor. */
+function applyMove(
+	patch: MovePatch,
+	position: SensePosition,
+	definition: string,
+): void {
+	const { anchor, position: side, segment } = patch.payload;
+	const at = exactlyOnce(patch, definition, segment, 'move segment');
+	const lifted =
+		definition.slice(0, at) + definition.slice(at + segment.length);
+	const anchorAt = exactlyOnce(patch, lifted, anchor, 'move anchor');
+	const insertAt = side === 'before' ? anchorAt : anchorAt + anchor.length;
+	position.sense.definition =
+		lifted.slice(0, insertAt) + segment + lifted.slice(insertAt);
+}
+
+/** `replace`: swap the one exact find for the replacement. */
+function applyReplace(
+	patch: ReplacePatch,
+	position: SensePosition,
+	definition: string,
+): void {
+	const { find, replace } = patch.payload;
+	const at = exactlyOnce(patch, definition, find, 'replace find');
+	position.sense.definition =
+		definition.slice(0, at) + replace + definition.slice(at + find.length);
+}
+
+/** `split`: cut the definition at the marker and insert the tail as a
+ * new sibling numbered by the marker. */
+function applySplit(
+	patch: SplitPatch,
+	position: SensePosition,
+	definition: string,
+): void {
+	const { marker } = patch.payload;
+	const at = exactlyOnce(patch, definition, marker, 'split marker');
+	const sibling: SourceSense = {
+		definition: definition.slice(at + marker.length),
+		number: marker,
+	};
+	position.sense.definition = definition.slice(0, at);
+	position.siblings.splice(position.index + 1, 0, sibling);
 }
 
 /** Flatten the mutable content of an entry — every sense's number

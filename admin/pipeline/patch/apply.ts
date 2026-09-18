@@ -581,37 +581,61 @@ function applyEntryPatches(
 				continue;
 			}
 		}
-		try {
-			const next = applyPatch(current, patch);
-			postApplyAssertions(next, patch);
-			if (patch.author !== 'human') {
-				const verdict = validateNoNewText(patch, current, next);
-				if (!verdict.ok) {
-					problems.push({
-						patchId: patch.id,
-						reason: `${verdict.reason} — entry re-dispositions ${verdict.redisposition}`,
-						rid: patch.rid,
-					});
-					continue;
-				}
-			}
-			current = next;
-		} catch (error) {
-			if (
-				error instanceof PatchApplyError ||
-				error instanceof PatchFormatError
-			) {
-				problems.push({
-					patchId: patch.id,
-					reason: error.message,
-					rid: patch.rid,
-				});
-				continue;
-			}
-			throw error;
+		const result = tryApply(current, patch);
+		if (result.problem === undefined) {
+			current = result.entry;
+		} else {
+			problems.push(result.problem);
 		}
 	}
 	return { drifted, entry: current, problems };
+}
+
+/** Apply one patch to `current` with every gate (post-apply
+ * assertions, no-new-text floor): the next entry, or the problem that
+ * rejected the patch. An unexpected error still throws. */
+function tryApply(
+	current: SourceEntry,
+	patch: SemanticPatch,
+): { entry: SourceEntry; problem?: undefined } | { problem: ApplyProblem } {
+	try {
+		const next = applyPatch(current, patch);
+		postApplyAssertions(next, patch);
+		const problem = newTextProblem(patch, current, next);
+		return problem === undefined ? { entry: next } : { problem };
+	} catch (error) {
+		if (error instanceof PatchApplyError || error instanceof PatchFormatError) {
+			return {
+				problem: {
+					patchId: patch.id,
+					reason: error.message,
+					rid: patch.rid,
+				},
+			};
+		}
+		throw error;
+	}
+}
+
+/** The no-new-text floor for one apply: a problem when a non-human
+ * patch added bytes, else undefined (human patches are exempt). */
+function newTextProblem(
+	patch: SemanticPatch,
+	before: SourceEntry,
+	after: SourceEntry,
+): ApplyProblem | undefined {
+	if (patch.author === 'human') {
+		return undefined;
+	}
+	const verdict = validateNoNewText(patch, before, after);
+	if (verdict.ok) {
+		return undefined;
+	}
+	return {
+		patchId: patch.id,
+		reason: `${verdict.reason} — entry re-dispositions ${verdict.redisposition}`,
+		rid: patch.rid,
+	};
 }
 
 /** Apply one rid's carry-over patches (task-3 addendum-3, Ruling F),
