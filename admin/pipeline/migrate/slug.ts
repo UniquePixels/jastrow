@@ -1,8 +1,15 @@
 /**
- * Slug assignment (migrate spec §2.4, data-architecture §4). The stem
- * is the headword text without points; a unique stem is its own slug,
- * a colliding one numbers every member in rid order and leaves the bare
- * form for the disambiguation page. Assigned once, then frozen.
+ * Slug assignment (migrate spec §2.4, data-architecture §4,
+ * consolidation spec §7). The stem is the headword text without
+ * points; a unique stem is its own slug, a colliding one numbers every
+ * member in rid order. The bare form of a colliding stem is reached
+ * through `data/slug-index/aliases.jsonl`, not by an entry holding it.
+ *
+ * "Assigned once, then frozen" was a comment this file did not keep
+ * until step 7: `assignSlugs` now takes the prior assignment and only
+ * fills in what has none. Before that it renumbered every family from
+ * scratch, so a headword respelling moved published URLs — 20% of
+ * slugs differ between the source and composed spellings.
  */
 // Escapes, never pasted literals: a combining mark typed into a class
 // attaches to its neighbour and the range silently widens (html.ts).
@@ -24,48 +31,170 @@ function slugStem(text: string): string {
 }
 
 interface SlugAssignment {
+	/** rids assigned a slug by THIS call: the `slug-new` report rows. */
+	assigned: string[];
+	/** rids whose frozen slug no longer matches their headword's stem.
+	 * The slug stands — that is what freezing means — and the run says
+	 * so (`slug-frozen-stem-drift`, spec §7.3). */
+	drift: string[];
 	problems: string[];
 	/** rid → slug, in the order the forms were given. */
 	slugs: Map<string, string>;
 }
 
-/** Assign every form a frozen slug: a unique stem gets the bare slug,
- * a colliding stem numbers its members `stem-1`, `stem-2` … in rid
- * order — a function of the corpus, never of the order `forms` lists
- * them in. An empty stem is reported by rid, never thrown. */
+/** A slug split into the stem it belongs to and its number, read off
+ * the slug's own text rather than off any entry's current headword. A
+ * frozen slug outlives the spelling that produced it, so the family a
+ * slug reserves a place in is the one its text names. `\d` is ASCII
+ * here on purpose: P00224's slug ends `-²`, Sefaria's homograph mark,
+ * which is part of the stem and not an index. */
+const NUMBERED = /^(.+)-(\d+)$/u;
+
+/** The numbers already taken in each stem's family, from slugs that
+ * are held — every prior assignment, live or retired, plus whatever
+ * this run has frozen. A bare stem is recorded with index 0 so the
+ * stem itself counts as held without competing for a number. */
+function heldByStem(slugs: Iterable<string>): Map<string, Set<number>> {
+	const held = new Map<string, Set<number>>();
+	for (const slug of slugs) {
+		const match = NUMBERED.exec(slug);
+		const stem = match?.[1] ?? slug;
+		const index = match?.[2];
+		const taken = held.get(stem) ?? new Set<number>();
+		taken.add(index === undefined ? 0 : Number(index));
+		held.set(stem, taken);
+	}
+	return held;
+}
+
+/** What the first pass over `forms` separates out: the slugs already
+ * frozen, the rids still needing one grouped by stem, and what the
+ * headwords themselves got wrong. */
+interface Partitioned {
+	byStem: Map<string, string[]>;
+	chosen: Map<string, string>;
+	drift: string[];
+	problems: string[];
+}
+
+/** One form against the prior assignment. The frozen lookup comes
+ * FIRST: a headword that strips to nothing is a defect in the headword,
+ * not a licence to drop a published slug, so the rid keeps what it was
+ * assigned and the empty stem is still reported. */
+function partitionOne(
+	rid: string,
+	text: string,
+	prior: ReadonlyMap<string, string>,
+	out: Partitioned,
+): void {
+	const stem = slugStem(text);
+	const frozen = prior.get(rid);
+	if (frozen === undefined) {
+		if (stem === '') {
+			out.problems.push(`${rid}: empty stem from "${text}"`);
+			return;
+		}
+		out.byStem.set(stem, [...(out.byStem.get(stem) ?? []), rid]);
+		return;
+	}
+	out.chosen.set(rid, frozen);
+	if (stem === '') {
+		out.problems.push(`${rid}: empty stem from "${text}"`);
+		return;
+	}
+	if ((NUMBERED.exec(frozen)?.[1] ?? frozen) !== stem) {
+		out.drift.push(`${rid}: slug ${frozen} but stem ${stem}`);
+	}
+}
+
+/** What is already spoken for, in the two shapes the assigner needs.
+ * Both, deliberately: `byFamily` knows a family's numbers, `slugs`
+ * knows every slug STRING — including one a family processed earlier in
+ * the same call took as its bare slug. Without the second the result
+ * would depend on family order. */
+interface Reservations {
+	byFamily: Map<string, Set<number>>;
+	slugs: Set<string>;
+}
+
+/** One stem's unassigned rids. A stem nobody holds, claimed by exactly
+ * one rid, gets the bare slug; otherwise each takes the lowest free
+ * number in rid order. */
+function fillFamily(
+	stem: string,
+	rids: readonly string[],
+	reserved: Reservations,
+	out: { assigned: string[]; chosen: Map<string, string> },
+): void {
+	// Rids are fixed-width (`<letter><NNNNN>`), so a plain string sort is
+	// a rid-order sort. `localeCompare` over the default `sort()` per
+	// Sonar S2871 — both agree on this ASCII alphabet.
+	const ordered = [...rids].sort((a, b) => a.localeCompare(b));
+	const taken = reserved.byFamily.get(stem) ?? new Set<number>();
+	const only = ordered.length === 1 ? ordered[0] : undefined;
+	if (taken.size === 0 && only !== undefined && !reserved.slugs.has(stem)) {
+		out.chosen.set(only, stem);
+		reserved.slugs.add(stem);
+		out.assigned.push(only);
+		return;
+	}
+	let next = 1;
+	for (const rid of ordered) {
+		while (taken.has(next) || reserved.slugs.has(`${stem}-${next}`)) {
+			next++;
+		}
+		taken.add(next);
+		out.chosen.set(rid, `${stem}-${next}`);
+		reserved.slugs.add(`${stem}-${next}`);
+		out.assigned.push(rid);
+	}
+	reserved.byFamily.set(stem, taken);
+}
+
+/** Assign a slug to every form that has none, and keep every slug
+ * `prior` already records (spec §7.3, R10).
+ *
+ * `prior` is rid → slug for every row of the slug index, including
+ * `retired` rows: a retired rid has no form here, but its slug stays
+ * held so the URL is never handed to a different word.
+ *
+ * On an empty `prior` this is the old behaviour exactly: unique stems
+ * bare, colliding stems `stem-1`, `stem-2` … in rid order. An empty
+ * stem is reported by rid, never thrown. */
 function assignSlugs(
 	forms: ReadonlyArray<{ rid: string; text: string }>,
+	prior: ReadonlyMap<string, string> = new Map(),
 ): SlugAssignment {
-	const byStem = new Map<string, string[]>();
-	const problems: string[] = [];
+	const part: Partitioned = {
+		byStem: new Map(),
+		chosen: new Map(),
+		drift: [],
+		problems: [],
+	};
 	for (const { rid, text } of forms) {
-		const stem = slugStem(text);
-		if (stem === '') {
-			problems.push(`${rid}: empty stem from "${text}"`);
-			continue;
-		}
-		const list = byStem.get(stem) ?? [];
-		list.push(rid);
-		byStem.set(stem, list);
+		partitionOne(rid, text, prior, part);
 	}
-	const chosen = new Map<string, string>();
-	for (const [stem, rids] of byStem) {
-		// Rids are fixed-width (`<letter><NNNNN>`), so a plain string
-		// sort is a rid-order sort. `localeCompare` over the default
-		// `sort()` per Sonar S2871 — both agree on this ASCII alphabet.
-		const ordered = [...rids].sort((a, b) => a.localeCompare(b));
-		for (const [i, rid] of ordered.entries()) {
-			chosen.set(rid, ordered.length === 1 ? stem : `${stem}-${i + 1}`);
-		}
+	const reserved: Reservations = {
+		byFamily: heldByStem(prior.values()),
+		slugs: new Set(prior.values()),
+	};
+	const fill = { assigned: [] as string[], chosen: part.chosen };
+	for (const [stem, rids] of part.byStem) {
+		fillFamily(stem, rids, reserved, fill);
 	}
 	const slugs = new Map<string, string>();
 	for (const { rid } of forms) {
-		const slug = chosen.get(rid);
+		const slug = part.chosen.get(rid);
 		if (slug !== undefined) {
 			slugs.set(rid, slug);
 		}
 	}
-	return { problems, slugs };
+	return {
+		assigned: fill.assigned,
+		drift: part.drift,
+		problems: part.problems,
+		slugs,
+	};
 }
 
 export type { SlugAssignment };
