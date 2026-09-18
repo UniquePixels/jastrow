@@ -67,6 +67,90 @@ function heldByStem(slugs: Iterable<string>): Map<string, Set<number>> {
 	return held;
 }
 
+/** What the first pass over `forms` separates out: the slugs already
+ * frozen, the rids still needing one grouped by stem, and what the
+ * headwords themselves got wrong. */
+interface Partitioned {
+	byStem: Map<string, string[]>;
+	chosen: Map<string, string>;
+	drift: string[];
+	problems: string[];
+}
+
+/** One form against the prior assignment. The frozen lookup comes
+ * FIRST: a headword that strips to nothing is a defect in the headword,
+ * not a licence to drop a published slug, so the rid keeps what it was
+ * assigned and the empty stem is still reported. */
+function partitionOne(
+	rid: string,
+	text: string,
+	prior: ReadonlyMap<string, string>,
+	out: Partitioned,
+): void {
+	const stem = slugStem(text);
+	const frozen = prior.get(rid);
+	if (frozen === undefined) {
+		if (stem === '') {
+			out.problems.push(`${rid}: empty stem from "${text}"`);
+			return;
+		}
+		out.byStem.set(stem, [...(out.byStem.get(stem) ?? []), rid]);
+		return;
+	}
+	out.chosen.set(rid, frozen);
+	if (stem === '') {
+		out.problems.push(`${rid}: empty stem from "${text}"`);
+		return;
+	}
+	if ((NUMBERED.exec(frozen)?.[1] ?? frozen) !== stem) {
+		out.drift.push(`${rid}: slug ${frozen} but stem ${stem}`);
+	}
+}
+
+/** What is already spoken for, in the two shapes the assigner needs.
+ * Both, deliberately: `byFamily` knows a family's numbers, `slugs`
+ * knows every slug STRING — including one a family processed earlier in
+ * the same call took as its bare slug. Without the second the result
+ * would depend on family order. */
+interface Reservations {
+	byFamily: Map<string, Set<number>>;
+	slugs: Set<string>;
+}
+
+/** One stem's unassigned rids. A stem nobody holds, claimed by exactly
+ * one rid, gets the bare slug; otherwise each takes the lowest free
+ * number in rid order. */
+function fillFamily(
+	stem: string,
+	rids: readonly string[],
+	reserved: Reservations,
+	out: { assigned: string[]; chosen: Map<string, string> },
+): void {
+	// Rids are fixed-width (`<letter><NNNNN>`), so a plain string sort is
+	// a rid-order sort. `localeCompare` over the default `sort()` per
+	// Sonar S2871 — both agree on this ASCII alphabet.
+	const ordered = [...rids].sort((a, b) => a.localeCompare(b));
+	const taken = reserved.byFamily.get(stem) ?? new Set<number>();
+	const only = ordered.length === 1 ? ordered[0] : undefined;
+	if (taken.size === 0 && only !== undefined && !reserved.slugs.has(stem)) {
+		out.chosen.set(only, stem);
+		reserved.slugs.add(stem);
+		out.assigned.push(only);
+		return;
+	}
+	let next = 1;
+	for (const rid of ordered) {
+		while (taken.has(next) || reserved.slugs.has(`${stem}-${next}`)) {
+			next++;
+		}
+		taken.add(next);
+		out.chosen.set(rid, `${stem}-${next}`);
+		reserved.slugs.add(`${stem}-${next}`);
+		out.assigned.push(rid);
+	}
+	reserved.byFamily.set(stem, taken);
+}
+
 /** Assign a slug to every form that has none, and keep every slug
  * `prior` already records (spec §7.3, R10).
  *
@@ -74,86 +158,43 @@ function heldByStem(slugs: Iterable<string>): Map<string, Set<number>> {
  * `retired` rows: a retired rid has no form here, but its slug stays
  * held so the URL is never handed to a different word.
  *
- * A stem nobody holds, claimed by exactly one new rid, gets the bare
- * slug. Otherwise every new rid takes the lowest free number in its
- * family, in rid order — which on an empty `prior` is the old
- * behaviour exactly: unique stems bare, colliding stems `stem-1`,
- * `stem-2` … An empty stem is reported by rid, never thrown. */
+ * On an empty `prior` this is the old behaviour exactly: unique stems
+ * bare, colliding stems `stem-1`, `stem-2` … in rid order. An empty
+ * stem is reported by rid, never thrown. */
 function assignSlugs(
 	forms: ReadonlyArray<{ rid: string; text: string }>,
 	prior: ReadonlyMap<string, string> = new Map(),
 ): SlugAssignment {
-	const byStem = new Map<string, string[]>();
-	const problems: string[] = [];
-	const drift: string[] = [];
-	const chosen = new Map<string, string>();
+	const part: Partitioned = {
+		byStem: new Map(),
+		chosen: new Map(),
+		drift: [],
+		problems: [],
+	};
 	for (const { rid, text } of forms) {
-		const stem = slugStem(text);
-		const frozen = prior.get(rid);
-		// The frozen lookup comes FIRST. A headword that strips to nothing
-		// is a defect in the headword, not a licence to drop a published
-		// slug: the rid keeps what it was assigned and the empty stem is
-		// still reported (CodeRabbit, major).
-		if (frozen !== undefined) {
-			chosen.set(rid, frozen);
-			const match = NUMBERED.exec(frozen);
-			if (stem === '') {
-				problems.push(`${rid}: empty stem from "${text}"`);
-			} else if ((match?.[1] ?? frozen) !== stem) {
-				drift.push(`${rid}: slug ${frozen} but stem ${stem}`);
-			}
-			continue;
-		}
-		if (stem === '') {
-			problems.push(`${rid}: empty stem from "${text}"`);
-			continue;
-		}
-		byStem.set(stem, [...(byStem.get(stem) ?? []), rid]);
+		partitionOne(rid, text, prior, part);
 	}
-	const held = heldByStem(prior.values());
-	// Every slug string already spoken for. `held` is keyed by family, so
-	// it cannot answer "is the literal string `אב-1` taken?" — and a new
-	// rid whose stem IS `אב-1` would otherwise take it as its bare slug
-	// and duplicate a frozen one.
-	const heldSlugs = new Set(prior.values());
-	const assigned: string[] = [];
-	for (const [stem, rids] of byStem) {
-		// Rids are fixed-width (`<letter><NNNNN>`), so a plain string
-		// sort is a rid-order sort. `localeCompare` over the default
-		// `sort()` per Sonar S2871 — both agree on this ASCII alphabet.
-		const ordered = [...rids].sort((a, b) => a.localeCompare(b));
-		const taken = held.get(stem) ?? new Set<number>();
-		const only = ordered.length === 1 ? ordered[0] : undefined;
-		if (taken.size === 0 && only !== undefined && !heldSlugs.has(stem)) {
-			chosen.set(only, stem);
-			heldSlugs.add(stem);
-			assigned.push(only);
-			continue;
-		}
-		let next = 1;
-		for (const rid of ordered) {
-			// Both: `taken` knows this family's numbers, `heldSlugs` knows
-			// every string spoken for — including one a family processed
-			// earlier in this same call took as its bare slug. Without the
-			// second the result depends on family order.
-			while (taken.has(next) || heldSlugs.has(`${stem}-${next}`)) {
-				next++;
-			}
-			taken.add(next);
-			chosen.set(rid, `${stem}-${next}`);
-			heldSlugs.add(`${stem}-${next}`);
-			assigned.push(rid);
-		}
-		held.set(stem, taken);
+	const reserved: Reservations = {
+		byFamily: heldByStem(prior.values()),
+		slugs: new Set(prior.values()),
+	};
+	const fill = { assigned: [] as string[], chosen: part.chosen };
+	for (const [stem, rids] of part.byStem) {
+		fillFamily(stem, rids, reserved, fill);
 	}
 	const slugs = new Map<string, string>();
 	for (const { rid } of forms) {
-		const slug = chosen.get(rid);
+		const slug = part.chosen.get(rid);
 		if (slug !== undefined) {
 			slugs.set(rid, slug);
 		}
 	}
-	return { assigned, drift, problems, slugs };
+	return {
+		assigned: fill.assigned,
+		drift: part.drift,
+		problems: part.problems,
+		slugs,
+	};
 }
 
 export type { SlugAssignment };
