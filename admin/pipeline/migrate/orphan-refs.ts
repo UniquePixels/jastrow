@@ -6,6 +6,7 @@
  * run on the COMPOSED entries after `composeAll` so it sees whatever
  * transforms and reviewed patches left behind.
  */
+import { findCitations } from '../body/cite.ts';
 import { walkSensesDeep } from '../body/repairs.ts';
 import type { SourceEntry } from '../body/types.ts';
 
@@ -72,11 +73,17 @@ function unbasedOrphans(
 			lines.push(`${rid}: (entry missing)`);
 			continue;
 		}
-		const text = [...walkSensesDeep(entry.content.senses)]
-			.map((s) => s.definition ?? '')
-			.join('\n');
+		// Parsed citation anchors only: a `data-ref` on some other element,
+		// or in plain text, is not a citation a reader can follow.
+		const cited = new Set(
+			[...walkSensesDeep(entry.content.senses)].flatMap((s) =>
+				findCitations(s.definition ?? '')
+					.filter((hit) => !hit.malformed)
+					.map((hit) => hit.dataRef),
+			),
+		);
 		for (const item of items) {
-			if (!text.includes(`data-ref="${item}"`)) {
+			if (!cited.has(item)) {
 				lines.push(`${rid}: ${item}`);
 			}
 		}

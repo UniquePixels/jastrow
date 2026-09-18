@@ -141,7 +141,7 @@ if (import.meta.main) {
 		}
 	}
 	console.log(
-		`corpus=${total} manifest=${corpus.records.length} applied=${applied} absorbed=${absorbed} carried=${carried} problems=${problems.length}`,
+		`corpus=${total} manifest=${corpus.records.length + reviewedCorpus.records.length} applied=${applied} absorbed=${absorbed} carried=${carried} problems=${problems.length}`,
 	);
 	if (problems.length > 0) {
 		for (const problem of problems) {

@@ -4,7 +4,11 @@ import { unbasedOrphans } from './orphan-refs.ts';
 
 const withAnchor = (rid: string, ref: string): SourceEntry => ({
 	content: {
-		senses: [{ definition: `<a class="refLink" data-ref="${ref}">Ib.</a>` }],
+		senses: [
+			{
+				definition: `<a class="refLink" href="/x" data-ref="${ref}">Ib.</a>`,
+			},
+		],
 	},
 	headword: 'x',
 	rid,
@@ -22,6 +26,18 @@ describe('unbasedOrphans', () => {
 		expect(
 			unbasedOrphans([withAnchor('P00331', 'Eruvin 88b:1')], ONE_OBLIGATION),
 		).toEqual([]);
+	});
+	it('does not count a non-anchor element carrying the ref', () => {
+		const spanOnly: SourceEntry = {
+			content: {
+				senses: [{ definition: '<span data-ref="Eruvin 88b:1">Ib.</span>' }],
+			},
+			headword: 'x',
+			rid: 'P00331',
+		};
+		expect(unbasedOrphans([spanOnly], ONE_OBLIGATION)).toEqual([
+			'P00331: Eruvin 88b:1',
+		]);
 	});
 	it('ignores entries outside the table', () => {
 		expect(

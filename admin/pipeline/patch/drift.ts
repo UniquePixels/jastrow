@@ -86,19 +86,16 @@ function holdsRun(entry: SourceEntry, run: readonly SourceSense[]): boolean {
 }
 
 /** Whether a join's folded text — its token followed by its
- * definition — already stands inside some sense's definition. */
+ * definition — stands exactly once across the entry's definitions.
+ * Two copies leave it ambiguous which one is the fold, so that reads
+ * as changed, not fixed. */
 function holdsFold(entry: SourceEntry, patch: SemanticPatch): boolean {
 	const folded = parseTarget(patch.target).token + patch.expected_before;
+	let found = 0;
 	for (const { sense } of walkSenses(entry)) {
-		const definition = sense.definition ?? '';
-		if (
-			definition.endsWith(folded) ||
-			countOccurrences(definition, folded) === 1
-		) {
-			return true;
-		}
+		found += countOccurrences(sense.definition ?? '', folded);
 	}
-	return false;
+	return found === 1;
 }
 
 /** `undefined` when the patch's precondition holds on `entry`;

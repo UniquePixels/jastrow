@@ -210,7 +210,7 @@ No entry data is written. A person decides whether to run the update
 | Today | Bucket | Work |
 |---|---|---|
 | 50 registered transform rules | rules | none |
-| `repairs.ts` general passes (rejoin, units, lettered, form sections) | rules | none |
+| `repairs.ts` general pass (`binyan-cleanup`) | rules | none |
 | `repairs.ts` hand tables: `CHOPPED`, `IMPLIED_ONE`, `DASH_LABELS`, `REFS_REMOVALS`, `DEFERRED`, `REPAIRED_ORPHAN_ITEMS` | patches | *Shipped, step 8.* Converted; tables deleted — breakdown below |
 | 147 accepted patches, quarantine rows | patches | none beyond §4.2 |
 | headword grammar, page confidence, markup carry (in `migrate/`) | review detectors | emit structured rows |

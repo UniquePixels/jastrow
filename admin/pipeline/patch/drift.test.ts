@@ -157,6 +157,16 @@ describe('classifyDrift', () => {
 		expect(classifyDrift(entry, join)).toBe('upstream-fixed');
 	});
 
+	it('is upstream-changed when the folded text appears twice', () => {
+		// Two copies, the second ending a definition: which one is the
+		// fold is ambiguous, so it must not read as fixed.
+		const entry = entryWith(
+			{ definition: 'day2) night. Ber. 2a', number: '1)' },
+			{ definition: 'dusk2) night. Ber. 2a', number: '3)' },
+		);
+		expect(classifyDrift(entry, join)).toBe('upstream-changed');
+	});
+
 	it('is upstream-changed for a join whose phantom was rewritten', () => {
 		const entry = entryWith(
 			{ definition: 'day', number: '1)' },
