@@ -88,15 +88,7 @@ const SAMPLE_COUNT = 40;
 /** `repairs.ts` pass names (`PassName`), counted as rules alongside
  * the registry (consolidation spec §4.1). A pass missing here still
  * gets a row when it fires — only its zero row would be lost. */
-const REPAIR_PASSES: readonly PassName[] = [
-	'rejoin-chopped',
-	'implied-one',
-	'marker-reinsert',
-	'label-repair',
-	'binyan-cleanup',
-	'cite-wrap',
-	'refs-removal',
-] as const;
+const REPAIR_PASSES: readonly PassName[] = ['binyan-cleanup'] as const;
 
 /** One composed entry, kept for pass 2. Only the three things pass 2
  * needs are retained — the composer's records and phase tracker are

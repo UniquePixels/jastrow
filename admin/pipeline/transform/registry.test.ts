@@ -110,7 +110,7 @@ describe('registry coverage', () => {
 	//   69, and they are the SECOND and THIRD rows to leave the way
 	//   `ascii-gershayim-outside-body-text` did: not withdrawn to
 	//   `judgment` for want of a mechanism but DISCARDED because a
-	//   mechanism already owns them. `repairs.ts:445 cleanBinyanForms`
+	//   mechanism already owns them. `repairs.ts cleanBinyanForms`
 	//   trims both edges and drops empty slots corpus-wide inside
 	//   `applyRepairs`, upstream of every rule here, and it has done so
 	//   since the 06 decision. Measured over all 32,512 entries: 523 → 0

@@ -17,10 +17,13 @@ async function loadFixture(rid: string): Promise<SourceEntry> {
 }
 
 describe('composeEntry', () => {
-	it('heals C01331 and wraps its Hebrew, in that order', async () => {
+	it("wraps C01331's Hebrew and leaves its heal to the reviewed patch", async () => {
 		const source = await loadFixture('C01331');
 		const result = composeEntry(source, undefined);
-		expect(result.repairRecords.length).toBeGreaterThan(0);
+		// C01331's marker reinsert was a `repairs.ts` REINSERTS row until
+		// consolidation step 8; it is now a reviewed patch, which this
+		// call (no corpus) does not load, so `applyRepairs` records none.
+		expect(result.repairRecords).toEqual([]);
 		expect(
 			result.transformRecords.some((r) => r.ruleId === 'bare-rtl-hebrew'),
 		).toBe(true);
