@@ -111,20 +111,57 @@ describe('classifyDrift', () => {
 		expect(classifyDrift(entry, twice)).toBe('upstream-changed');
 	});
 
-	it('reports upstream-changed for an unref whose item is already gone', () => {
-		const item = 'Yoma 2a';
-		const unref = patch({
-			expected_before: item,
-			op: 'unref',
-			payload: {},
-			target: `refs[${item}]:${contentAnchor(item)}`,
+	const ITEM = 'Yoma 2a';
+	const unref = patch({
+		expected_before: ITEM,
+		op: 'unref',
+		payload: {},
+		target: `refs[${ITEM}]:${contentAnchor(ITEM)}`,
+	});
+	const withRefs = (...refs: string[]): SourceEntry => ({
+		content: { senses: [{ definition: 'x' }] },
+		headword: 'test-word',
+		refs,
+		rid: 'D00436',
+	});
+
+	it('is upstream-fixed for an unref whose item is already gone', () => {
+		expect(classifyDrift(withRefs('Pes. 4b'), unref)).toBe('upstream-fixed');
+	});
+
+	it('is upstream-changed for an unref whose item now appears twice', () => {
+		expect(classifyDrift(withRefs(ITEM, ITEM), unref)).toBe('upstream-changed');
+	});
+
+	const PHANTOM = ' night. Ber. 2a';
+	const join = patch({
+		expected_before: PHANTOM,
+		op: 'join',
+		payload: {},
+		target: `sense[2)]:${contentAnchor(PHANTOM)}`,
+	});
+
+	it('is upstream-fixed for a join whose phantom Sefaria already folded back', () => {
+		const entry = entryWith(
+			{ definition: 'day2) night. Ber. 2a', number: '1)' },
+			{ definition: 'dusk', number: '3)' },
+		);
+		expect(classifyDrift(entry, join)).toBe('upstream-fixed');
+	});
+
+	it('is upstream-fixed for a folded join mid-definition, found exactly once', () => {
+		const entry = entryWith({
+			definition: 'day2) night. Ber. 2a; also dusk',
+			number: '1)',
 		});
-		const entryWithoutItem: SourceEntry = {
-			content: { senses: [{ definition: 'x' }] },
-			headword: 'test-word',
-			refs: ['Pes. 4b'],
-			rid: 'D00436',
-		};
-		expect(classifyDrift(entryWithoutItem, unref)).toBe('upstream-changed');
+		expect(classifyDrift(entry, join)).toBe('upstream-fixed');
+	});
+
+	it('is upstream-changed for a join whose phantom was rewritten', () => {
+		const entry = entryWith(
+			{ definition: 'day', number: '1)' },
+			{ definition: ' night. Ber. 2b', number: '2)' },
+		);
+		expect(classifyDrift(entry, join)).toBe('upstream-changed');
 	});
 });

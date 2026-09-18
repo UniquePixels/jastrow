@@ -13,10 +13,17 @@
  * called `upstream-fixed`: a real fix of one occurrence still leaves
  * `expected − 1` pre-state matches, so `found === 0` there means every
  * occurrence changed, not that the fix landed.
+ *
+ * Two ops leave no sense run to look for, so their post-state is
+ * stated directly: `unref`'s is the item's absence (its target IS the
+ * item, so `found === 0` is the fix), and `join`'s is its token and
+ * text folded into a neighbour — some definition ending with, or
+ * holding exactly once, `token + expected_before`.
  */
 import type { SourceEntry, SourceSense } from '../body/types.ts';
 import {
 	applyPatch,
+	countOccurrences,
 	countTarget,
 	PatchApplyError,
 	parseTarget,
@@ -29,12 +36,9 @@ type DriftOutcome = 'upstream-changed' | 'upstream-fixed';
 /** The senses a patch leaves where its target stood, computed by
  * applying it to an entry holding only that target. `undefined` when
  * the patch removes the sense outright (nothing to look for) or cannot
- * apply even to its own `expected_before`. */
+ * apply even to its own `expected_before`. Not called for `unref` or
+ * `join` — `classifyDrift` states their post-states directly. */
 function postState(patch: SemanticPatch): SourceSense[] | undefined {
-	if (patch.op === 'unref') {
-		// unref addresses refs[…], not a sense — nothing to look for.
-		return;
-	}
 	const { token } = parseTarget(patch.target);
 	const sense: SourceSense =
 		token === ''
@@ -81,6 +85,22 @@ function holdsRun(entry: SourceEntry, run: readonly SourceSense[]): boolean {
 	return false;
 }
 
+/** Whether a join's folded text — its token followed by its
+ * definition — already stands inside some sense's definition. */
+function holdsFold(entry: SourceEntry, patch: SemanticPatch): boolean {
+	const folded = parseTarget(patch.target).token + patch.expected_before;
+	for (const { sense } of walkSenses(entry)) {
+		const definition = sense.definition ?? '';
+		if (
+			definition.endsWith(folded) ||
+			countOccurrences(definition, folded) === 1
+		) {
+			return true;
+		}
+	}
+	return false;
+}
+
 /** `undefined` when the patch's precondition holds on `entry`;
  * otherwise which kind of drift it is. */
 function classifyDrift(
@@ -93,6 +113,12 @@ function classifyDrift(
 	}
 	if (found !== 0 || patch.expected_occurrences !== 1) {
 		return 'upstream-changed';
+	}
+	if (patch.op === 'unref') {
+		return 'upstream-fixed';
+	}
+	if (patch.op === 'join') {
+		return holdsFold(entry, patch) ? 'upstream-fixed' : 'upstream-changed';
 	}
 	const after = postState(patch);
 	return after !== undefined && holdsRun(entry, after)

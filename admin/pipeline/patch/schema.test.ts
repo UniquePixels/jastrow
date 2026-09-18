@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry, SourceSense } from '../body/types.ts';
 import {
 	applyPatch,
 	contentAnchor,
@@ -248,6 +248,83 @@ describe('join', () => {
 			patchFor(' x', '2)', { op: 'join', payload: { x: 1 } }),
 		).toThrow('join payload must be an empty object');
 	});
+
+	/** An entry whose second sense is the join target, with overrides on
+	 * the target and on its preceding sibling. */
+	const joinEntry = (
+		previous: Partial<SourceSense>,
+		target: Partial<SourceSense>,
+	): SourceEntry => ({
+		content: {
+			senses: [
+				{ definition: 'day', number: '1)', ...previous },
+				{ definition: ' night', number: '2)', ...target },
+			],
+		},
+		headword: 'x',
+		rid: 'T00001',
+	});
+	const join = patchFor(' night', '2)', { op: 'join', payload: {} });
+
+	it('refuses a target carrying grammar — joining would drop it', () => {
+		const entry = joinEntry({}, { grammar: { verbal_stem: 'Pi.' } });
+		expect(() => applyPatch(entry, join)).toThrow('grammar');
+	});
+
+	it('refuses a target with child senses — joining would drop them', () => {
+		const entry = joinEntry(
+			{},
+			{ senses: [{ definition: 'child', number: 'a)' }] },
+		);
+		expect(() => applyPatch(entry, join)).toThrow('child senses');
+	});
+
+	it('refuses to join after a sibling with children — the text would land after them', () => {
+		const entry = joinEntry(
+			{ senses: [{ definition: 'child', number: 'a)' }] },
+			{},
+		);
+		expect(() => applyPatch(entry, join)).toThrow('child senses');
+	});
+
+	it('refuses a list-opening target with grammar or children too', () => {
+		const opener = (target: Partial<SourceSense>): SourceEntry => ({
+			content: { senses: [{ definition: ' night', number: '2)', ...target }] },
+			headword: 'x',
+			rid: 'T00001',
+		});
+		expect(() =>
+			applyPatch(opener({ grammar: { verbal_stem: 'Pi.' } }), join),
+		).toThrow('grammar');
+		expect(() =>
+			applyPatch(
+				opener({ senses: [{ definition: 'child', number: 'a)' }] }),
+				join,
+			),
+		).toThrow('child senses');
+	});
+
+	it('joins a nested sense into its preceding nested sibling', () => {
+		const entry: SourceEntry = {
+			content: {
+				senses: [
+					{
+						definition: 'parent',
+						number: '1)',
+						senses: [
+							{ definition: 'day', number: 'a)' },
+							{ definition: ' night', number: '2)' },
+						],
+					},
+				],
+			},
+			headword: 'x',
+			rid: 'T00001',
+		};
+		expect(applyPatch(entry, join).content.senses[0]?.senses).toEqual([
+			{ definition: 'day2) night', number: 'a)' },
+		]);
+	});
 });
 
 describe('retag', () => {
@@ -379,6 +456,16 @@ describe('unref', () => {
 		expect(() => patchFor('x', '1)', { op: 'unref', payload: {} })).toThrow(
 			'unref needs a refs[…] target',
 		);
+	});
+
+	it('rejects a refs target whose item is not expected_before', () => {
+		expect(() =>
+			patchFor('Yoma 2a', '', {
+				op: 'unref',
+				payload: {},
+				target: `refs[Other]:${contentAnchor('Yoma 2a')}`,
+			}),
+		).toThrow('refs[Other] does not name expected_before');
 	});
 
 	it('rejects any other op with a refs[…] target', () => {

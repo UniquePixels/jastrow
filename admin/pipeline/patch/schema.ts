@@ -68,7 +68,10 @@ interface SplitPayload {
  * own `N)`. Its number token and definition are appended to the
  * preceding sibling's definition and the sense is removed; a target
  * with no preceding sibling keeps its place, loses its `number`, and
- * takes the token as the head of its definition. Byte-conserving. */
+ * takes the token as the head of its definition. Byte-conserving over
+ * number + definition only, so apply refuses a target that carries
+ * `grammar` or child `senses` (both would be dropped) and a preceding
+ * sibling with child `senses` (the text would land after them). */
 type JoinPayload = Record<string, never>;
 
 /** Remove one item from the entry's `refs[]` (consolidation step 8
@@ -423,6 +426,13 @@ function parsePatch(value: unknown): SemanticPatch {
 				`target anchor ${target.anchor} does not match expected_before (sha256 → ${derived})`,
 			);
 		}
+		// A refs target names its item in clear; apply matches on
+		// expected_before, so a differing item would be a label that lies.
+		if (raw['op'] === 'unref' && target.token !== raw['expected_before']) {
+			reasons.push(
+				`target refs[${target.token}] does not name expected_before`,
+			);
+		}
 	}
 	if (!['high', 'low', 'med'].includes(raw['confidence'] as string)) {
 		reasons.push('confidence must be high, med, or low');
@@ -639,6 +649,22 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 		case 'join': {
 			const token = position.sense.number ?? '';
 			const previous = position.siblings[position.index - 1];
+			// Only number + definition move; anything else on the target
+			// (grammar, child senses) would be silently dropped, and text
+			// appended to a sibling with children lands after them — out of
+			// document order. Refuse all three rather than lose bytes.
+			if (position.sense.grammar !== undefined) {
+				throw new PatchApplyError(
+					patch.id,
+					'join target carries grammar, which a join would drop',
+				);
+			}
+			if ((position.sense.senses ?? []).length > 0) {
+				throw new PatchApplyError(
+					patch.id,
+					'join target has child senses, which a join would drop',
+				);
+			}
 			if (position.index === 0) {
 				position.sense.definition = token + definition;
 				// The key must vanish so an unnumbered sense serialises as one
@@ -647,6 +673,11 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 				delete position.sense.number;
 			} else if (previous === undefined || previous.grammar !== undefined) {
 				throw new PatchApplyError(patch.id, 'no text flow to join into');
+			} else if ((previous.senses ?? []).length > 0) {
+				throw new PatchApplyError(
+					patch.id,
+					'preceding sibling has child senses; the joined text would land after them',
+				);
 			} else {
 				previous.definition = (previous.definition ?? '') + token + definition;
 				position.siblings.splice(position.index, 1);
