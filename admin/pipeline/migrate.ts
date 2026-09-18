@@ -77,6 +77,7 @@ import {
 	loadAcceptedCorpus,
 	loadReviewedCorpus,
 	patchesByRid,
+	reviewedManifestProblems,
 	stalePins,
 } from './patch/apply.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
@@ -136,9 +137,9 @@ async function preparePatches(
 	const accepted = await loadAcceptedCorpus();
 	const reviewed = await loadReviewedCorpus();
 	// Reviewed patches join the pin/id/target preflight (id uniqueness,
-	// no overlapping targets) but never the manifest reconciliation —
-	// their manifest lives in the reviewed directory, not the accepted
-	// one `reconcileOnly` names.
+	// no overlapping targets); their manifest lives in the reviewed
+	// directory, not the accepted one `reconcileOnly` names, so it is
+	// reconciled separately against the reviewed patches alone.
 	const applySet = [
 		...reviewed.patches,
 		...accepted.patches,
@@ -151,6 +152,7 @@ async function preparePatches(
 		pins: options.pins,
 		reconcileOnly: accepted.patches,
 	});
+	preflight.push(...reviewedManifestProblems(reviewed));
 	if (preflight.length > 0) {
 		throw new Error(
 			`patch-corpus preflight failed (${preflight.length} problem(s)):\n${preflight

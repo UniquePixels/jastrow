@@ -26,6 +26,7 @@ import type { SourceEntry } from '../body/types.ts';
 import { classifyDrift, type DriftOutcome } from './drift.ts';
 import {
 	type EntryResult,
+	isNeeds,
 	parseManifest,
 	reconcilePatches,
 	replayGate,
@@ -61,15 +62,17 @@ interface ReviewedCorpus {
 	/** `needs_*` records: items a person has flagged and not repaired. */
 	deferred: EntryResult[];
 	patches: SemanticPatch[];
+	/** Every manifest record, for `reviewedManifestProblems`. */
+	records: EntryResult[];
 }
 
 /** Load the reviewed patch group (consolidation spec §4.2, step 8):
  * every patch in `<dir>/patches.jsonl`, stamped `author: 'human'` so
  * `applyEntryPatches` exempts it from the no-new-text floor, and the
  * `needs_*` rows of `<dir>/manifest.jsonl` as `deferred` — findings a
- * person flagged but did not repair. A missing directory (the default
- * today) returns an empty corpus, so this changes no existing run's
- * behaviour until reviewed patches are committed. */
+ * person flagged but did not repair — with every row as `records`, for
+ * `reviewedManifestProblems`. A missing directory returns an empty
+ * corpus. */
 async function loadReviewedCorpus(dir = REVIEWED_DIR): Promise<ReviewedCorpus> {
 	const patches = (await loadCorpus(`${dir}/patches.jsonl`)).map((patch) => ({
 		...patch,
@@ -77,9 +80,22 @@ async function loadReviewedCorpus(dir = REVIEWED_DIR): Promise<ReviewedCorpus> {
 	}));
 	const records = await loadManifest(`${dir}/manifest.jsonl`);
 	return {
-		deferred: records.filter((r) => r.disposition.startsWith('needs_')),
+		deferred: records.filter((r) => isNeeds(r.disposition)),
 		patches,
+		records,
 	};
+}
+
+/** Reconcile the reviewed manifest against the reviewed patches: every
+ * patch listed exactly once, under its own rid, and every listed id
+ * present. A reviewed patch applies first and may add bytes, so one
+ * that no record accounts for must not apply unflagged. Shared by
+ * `migrate.ts` and `apply-cli.ts` preflight. */
+function reviewedManifestProblems(corpus: ReviewedCorpus): ApplyProblem[] {
+	return reconcilePatches(corpus.records, corpus.patches).map((problem) => ({
+		reason: `reviewed manifest: ${problem.reason}`,
+		rid: problem.rids[0],
+	}));
 }
 
 /** The corpus stage a tranche was swept at (RUNBOOK "Corpus state";
@@ -707,5 +723,6 @@ export {
 	patchesByRid,
 	postApplyAssertions,
 	REVIEWED_DIR,
+	reviewedManifestProblems,
 	stalePins,
 };

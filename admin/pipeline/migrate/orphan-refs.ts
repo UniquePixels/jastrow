@@ -53,12 +53,23 @@ const REPAIRED_ORPHAN_ITEMS: Record<string, string[]> = {
 };
 
 /** `rid: item` for every obligated refs item its composed entry no
- * longer carries an inline citation for. */
-function unbasedOrphans(entries: readonly SourceEntry[]): string[] {
+ * longer carries an inline citation for, and `rid: (entry missing)`
+ * for an obligated rid absent from `entries` — otherwise a rid that
+ * dropped out of the composed set would pass the gate vacuously.
+ * `obligations` defaults to `REPAIRED_ORPHAN_ITEMS`; tests pass a
+ * smaller table. */
+function unbasedOrphans(
+	entries: readonly SourceEntry[],
+	obligations: Readonly<
+		Record<string, readonly string[]>
+	> = REPAIRED_ORPHAN_ITEMS,
+): string[] {
 	const lines: string[] = [];
-	for (const entry of entries) {
-		const items = REPAIRED_ORPHAN_ITEMS[entry.rid];
-		if (items === undefined) {
+	const byRid = new Map(entries.map((e) => [e.rid, e]));
+	for (const [rid, items] of Object.entries(obligations)) {
+		const entry = byRid.get(rid);
+		if (entry === undefined) {
+			lines.push(`${rid}: (entry missing)`);
 			continue;
 		}
 		const text = [...walkSensesDeep(entry.content.senses)]
@@ -66,7 +77,7 @@ function unbasedOrphans(entries: readonly SourceEntry[]): string[] {
 			.join('\n');
 		for (const item of items) {
 			if (!text.includes(`data-ref="${item}"`)) {
-				lines.push(`${entry.rid}: ${item}`);
+				lines.push(`${rid}: ${item}`);
 			}
 		}
 	}

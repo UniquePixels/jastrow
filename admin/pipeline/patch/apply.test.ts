@@ -11,6 +11,8 @@ import {
 	PhaseViolation,
 	patchesByRid,
 	postApplyAssertions,
+	type ReviewedCorpus,
+	reviewedManifestProblems,
 	stalePins,
 } from './apply.ts';
 import type { EntryResult } from './manifest.ts';
@@ -555,6 +557,47 @@ describe('loadReviewedCorpus', () => {
 		expect(await loadReviewedCorpus('/nonexistent')).toEqual({
 			deferred: [],
 			patches: [],
+			records: [],
 		});
+	});
+	it('returns every manifest record, not only the deferred ones', async () => {
+		const corpus = await loadReviewedCorpus(
+			`${import.meta.dir}/fixtures/reviewed`,
+		);
+		expect(corpus.records.map((r) => r.rid)).toEqual(['A00001', 'D00470']);
+	});
+});
+
+describe('reviewedManifestProblems', () => {
+	const load = (): Promise<ReviewedCorpus> =>
+		loadReviewedCorpus(`${import.meta.dir}/fixtures/reviewed`);
+	it('is empty when manifest and patches reconcile', async () => {
+		expect(reviewedManifestProblems(await load())).toEqual([]);
+	});
+	it('flags a reviewed patch no manifest row lists', async () => {
+		const corpus = await load();
+		const first = corpus.patches[0];
+		if (first === undefined) {
+			throw new Error('fixture broken');
+		}
+		corpus.patches.push({ ...first, id: 'P900002' });
+		expect(reviewedManifestProblems(corpus)).toEqual([
+			{
+				reason:
+					'reviewed manifest: corpus patch P900002 is not listed by any record',
+				rid: 'A00001',
+			},
+		]);
+	});
+	it('flags a manifest row naming a patch that does not exist', async () => {
+		const corpus = await load();
+		corpus.patches = [];
+		expect(reviewedManifestProblems(corpus)).toEqual([
+			{
+				reason:
+					'reviewed manifest: listed patch P900001 does not exist in the corpus',
+				rid: 'A00001',
+			},
+		]);
 	});
 });
