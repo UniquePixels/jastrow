@@ -37,6 +37,7 @@ function greenReport(): Report {
 			accepted: 0,
 			applied: 0,
 			carried: 0,
+			reviewed: 0,
 			upstreamChanged: 0,
 			upstreamFixed: 0,
 		},

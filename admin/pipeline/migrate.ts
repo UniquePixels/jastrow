@@ -36,6 +36,7 @@ import {
 } from './migrate/gates.ts';
 import { decomposeForm } from './migrate/headword.ts';
 import { type RunOptions, runOptions } from './migrate/options.ts';
+import { unbasedOrphans } from './migrate/orphan-refs.ts';
 import { loadPageIndex, type PagePlacement } from './migrate/page.ts';
 import {
 	markMissingTargets,
@@ -74,7 +75,9 @@ import type { TruthEntry } from './migrate/types.ts';
 import {
 	corpusPreflight,
 	loadAcceptedCorpus,
+	loadReviewedCorpus,
 	patchesByRid,
+	reviewedManifestProblems,
 	stalePins,
 } from './patch/apply.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
@@ -87,15 +90,7 @@ const SAMPLE_COUNT = 40;
 /** `repairs.ts` pass names (`PassName`), counted as rules alongside
  * the registry (consolidation spec §4.1). A pass missing here still
  * gets a row when it fires — only its zero row would be lost. */
-const REPAIR_PASSES: readonly PassName[] = [
-	'rejoin-chopped',
-	'implied-one',
-	'marker-reinsert',
-	'label-repair',
-	'binyan-cleanup',
-	'cite-wrap',
-	'refs-removal',
-] as const;
+const REPAIR_PASSES: readonly PassName[] = ['binyan-cleanup'] as const;
 
 /** One composed entry, kept for pass 2. Only the three things pass 2
  * needs are retained — the composer's records and phase tracker are
@@ -140,7 +135,16 @@ async function preparePatches(
 	options: RunOptions,
 ): Promise<PatchGroups> {
 	const accepted = await loadAcceptedCorpus();
-	const applySet = [...accepted.patches, ...accepted.carryOver];
+	const reviewed = await loadReviewedCorpus();
+	// Reviewed patches join the pin/id/target preflight (id uniqueness,
+	// no overlapping targets); their manifest lives in the reviewed
+	// directory, not the accepted one `reconcileOnly` names, so it is
+	// reconciled separately against the reviewed patches alone.
+	const applySet = [
+		...reviewed.patches,
+		...accepted.patches,
+		...accepted.carryOver,
+	];
 	const pin = `sha256:${(await computeSnapshot()).combined}`;
 	report.snapshot = { pin, stalePins: stalePins(applySet, pin).length };
 	const preflight = corpusPreflight(applySet, accepted.records, pin, {
@@ -148,6 +152,7 @@ async function preparePatches(
 		pins: options.pins,
 		reconcileOnly: accepted.patches,
 	});
+	preflight.push(...reviewedManifestProblems(reviewed));
 	if (preflight.length > 0) {
 		throw new Error(
 			`patch-corpus preflight failed (${preflight.length} problem(s)):\n${preflight
@@ -156,10 +161,17 @@ async function preparePatches(
 		);
 	}
 	report.patches.accepted = accepted.patches.length;
+	report.patches.reviewed = reviewed.patches.length;
+	report.rows.push(
+		...reviewed.deferred.map((r) =>
+			lineRow(`${r.rid}: ${r.escalation}`, 'review-deferred'),
+		),
+	);
 	return {
 		accepted: patchesByRid(accepted.patches),
 		carryOver: patchesByRid(accepted.carryOver),
 		drift: options.drift,
+		reviewed: patchesByRid(reviewed.patches),
 	};
 }
 
@@ -173,6 +185,7 @@ function composeOne(
 	report: Report,
 	rules: RuleCounter,
 ): Composed | undefined {
+	const reviewed = groups.reviewed.get(source.rid);
 	const accepted = groups.accepted.get(source.rid);
 	const carryOver = groups.carryOver.get(source.rid);
 	try {
@@ -180,6 +193,7 @@ function composeOne(
 			accepted,
 			carryOver,
 			drift: groups.drift,
+			reviewed,
 		});
 		for (const record of result.repairRecords) {
 			rules.add(`repairs:${record.pass}`, record.rid);
@@ -192,7 +206,7 @@ function composeOne(
 		report.patches.carried += result.carryOver.carried.length;
 		recordPatchOutcomes(
 			source.rid,
-			[...(accepted ?? []), ...(carryOver ?? [])],
+			[...(reviewed ?? []), ...(accepted ?? []), ...(carryOver ?? [])],
 			result,
 			report,
 		);
@@ -260,12 +274,29 @@ async function composeAll(
 		if (one !== undefined) {
 			composed.push(one);
 		}
+		groups.reviewed.delete(source.rid);
 		groups.accepted.delete(source.rid);
 		groups.carryOver.delete(source.rid);
 	}
 	report.rules = rules.rows();
 	markMissingTargets(groups, report);
 	return composed;
+}
+
+/** Gate 9's `orphan-ref-unbased` fault: every `REPAIRED_ORPHAN_ITEMS`
+ * obligation still resolved against the COMPOSED entries — run after
+ * `composeAll` so patches and transforms have already had their say.
+ * A miss is both a row (for the counted kinds line) and a composition
+ * failure, so `isGreen` refuses the run rather than reporting it. */
+function checkOrphanRefs(composed: readonly Composed[], report: Report): void {
+	const lines = unbasedOrphans(composed.map((c) => c.entry));
+	report.rows.push(
+		...lines.map((l) => lineRow(l, 'orphan-ref-unbased', 'pipeline', 'fault')),
+	);
+	// `mark`, not a bare push, so pass/total stay in step with failures.
+	for (const line of lines) {
+		mark(report.gates.composition, false, line);
+	}
 }
 
 /** The collision histogram: members per stem → number of such stems.
@@ -603,6 +634,11 @@ function printGates(report: Report, slugMode: string): void {
 	for (const row of report.rows) {
 		kinds.set(row.kind, (kinds.get(row.kind) ?? 0) + 1);
 	}
+	// Printed even at zero, like the slug kinds below: a gate that found
+	// nothing to flag reads the same as one that never ran.
+	if (!kinds.has('orphan-ref-unbased')) {
+		kinds.set('orphan-ref-unbased', 0);
+	}
 	const kindCounts = [...kinds].map(([k, n]) => `${k}=${n}`).join(' ');
 	console.log(`unresolved=${report.unresolved.length} ${kindCounts}`);
 	console.log(
@@ -641,6 +677,7 @@ async function main(): Promise<void> {
 	}).compile(entrySchema);
 	const report = createReport();
 	const composed = await composeAll(report, options);
+	checkOrphanRefs(composed, report);
 	const indexes = await buildIndexes(composed, report);
 	const { samples, truths } = finishAll(composed, indexes, report, validate);
 	await gateQuarantine(report);

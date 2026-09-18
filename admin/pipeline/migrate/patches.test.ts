@@ -65,6 +65,7 @@ describe('markMissingTargets', () => {
 			accepted: patchesByRid([accepted]),
 			carryOver: patchesByRid([carryOver]),
 			drift: 'outcome',
+			reviewed: new Map(),
 		};
 		const report = createReport();
 		markMissingTargets(groups, report);
@@ -84,11 +85,38 @@ describe('markMissingTargets', () => {
 		]);
 	});
 
+	it('includes reviewed patches in the missing-target report', () => {
+		const reviewed = patch({ id: 'P000003' });
+		const groups: PatchGroups = {
+			accepted: new Map(),
+			carryOver: new Map(),
+			drift: 'outcome',
+			reviewed: patchesByRid([reviewed]),
+		};
+		const report = createReport();
+		markMissingTargets(groups, report);
+		expect(report.gates.composition).toEqual({
+			failures: [`no source entry with rid ${MISSING_RID}`],
+			pass: 0,
+			total: 1,
+		});
+		expect(report.rows).toEqual([
+			{
+				bucket: 'pipeline',
+				detail: 'P000003: no source entry with this rid',
+				kind: 'patch-target-missing',
+				rid: MISSING_RID,
+				severity: 'fault',
+			},
+		]);
+	});
+
 	it('adds nothing for empty groups', () => {
 		const groups: PatchGroups = {
 			accepted: new Map(),
 			carryOver: new Map(),
 			drift: 'outcome',
+			reviewed: new Map(),
 		};
 		const report = createReport();
 		markMissingTargets(groups, report);

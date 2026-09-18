@@ -43,7 +43,9 @@ describe('pipeline:patches entry point', () => {
 	// letting `corpusPreflight` run the gate on them narrows it from 617
 	// escalated rids to 487 — silently, because a narrower gate just
 	// reports fewer blockers.
-	it('runs the replay gate on the every-stage manifest', () => {
-		expect(SOURCE).toContain('replayGate(await loadManifest())');
+	it('runs the replay gate on the every-stage manifest plus reviewed', () => {
+		expect(SOURCE).toMatch(
+			/replayGate\(\[\s*\.\.\.\(await loadManifest\(\)\),\s*\.\.\.reviewedCorpus\.records,\s*\]\)/u,
+		);
 	});
 });

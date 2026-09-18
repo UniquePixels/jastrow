@@ -46,6 +46,15 @@ both archived at the same tag. For the tier, read the table in the
 residue section below — it was Sonnet on the batch path and **Opus**
 on the residue path.
 
+## Reviewed patches
+
+This runbook is for the agent-authored sweep. A separate, human-authored
+patch corpus lives at `data/patches/reviewed/` (consolidation step 8):
+patches a person wrote from a print check, exempt from the no-new-text
+floor, applying first in `patch-apply`. See
+[`data/patches/reviewed/README.md`](reviewed/README.md) for its
+provenance and contract.
+
 ## Procedure
 
 1. **Go/no-go** — maintainer confirms the usage window and batch

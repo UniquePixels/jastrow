@@ -6,15 +6,23 @@ import {
 	consolidate,
 	corpusPreflight,
 	createPhaseTracker,
+	loadReviewedCorpus,
 	orderedDirs,
 	PhaseViolation,
 	patchesByRid,
 	postApplyAssertions,
+	type ReviewedCorpus,
+	reviewedManifestProblems,
 	stalePins,
 } from './apply.ts';
 import type { EntryResult } from './manifest.ts';
 import { parseManifest } from './manifest.ts';
-import { applyPatch, contentAnchor, type SemanticPatch } from './schema.ts';
+import {
+	applyPatch,
+	contentAnchor,
+	type SemanticPatch,
+	senseTarget,
+} from './schema.ts';
 
 const PIN = `sha256:${'a'.repeat(64)}`;
 
@@ -70,6 +78,37 @@ function retagPatch(): SemanticPatch {
 		rid: 'D00436',
 		snapshot: PIN,
 		target: `sense[—2)]:${contentAnchor(expected)}`,
+	} as SemanticPatch;
+}
+
+/** A valid patch against `entry`'s first sense, targeted and anchored
+ * from its live content — the human-authored-patch tests need an
+ * `op`/`payload` of their choosing rather than `ocrPatch`'s fixed
+ * replace. */
+function patchFor(
+	entry: SourceEntry,
+	op: SemanticPatch['op'],
+	payload: SemanticPatch['payload'],
+): SemanticPatch {
+	const sense = entry.content.senses[0];
+	if (sense === undefined) {
+		throw new Error('fixture broken');
+	}
+	const definition = sense.definition ?? '';
+	return {
+		confidence: 'high',
+		defect_class: 't',
+		expected_before: definition,
+		expected_occurrences: 1,
+		id: 'P999999',
+		occurrence_index: 1,
+		op,
+		payload,
+		prompt_version: 'test',
+		rationale: 't',
+		rid: entry.rid,
+		snapshot: `sha256:${'0'.repeat(64)}`,
+		target: senseTarget(sense),
 	} as SemanticPatch;
 }
 
@@ -482,5 +521,83 @@ describe("applyCarryOver — drift 'outcome'", () => {
 		]);
 		expect(result.carried).toEqual([]);
 		expect(result.entry).toBe(source);
+	});
+});
+
+describe('human-authored patches', () => {
+	const entry: SourceEntry = {
+		content: { senses: [{ definition: 'a b', number: '1)' }] },
+		headword: 'x',
+		rid: 'A00001',
+	};
+	const addsBytes = {
+		...patchFor(entry, 'replace', { find: 'a b', replace: 'a (x) b' }),
+	};
+	it('rejects new bytes from an agent patch', () => {
+		expect(applyEntryPatches(entry, [addsBytes]).problems).toHaveLength(1);
+	});
+	it('allows new bytes from a human patch', () => {
+		const result = applyEntryPatches(entry, [
+			{ ...addsBytes, author: 'human' },
+		]);
+		expect(result.problems).toEqual([]);
+		expect(result.entry.content.senses[0]?.definition).toBe('a (x) b');
+	});
+});
+
+describe('loadReviewedCorpus', () => {
+	it('stamps every patch human and returns deferred records', async () => {
+		const corpus = await loadReviewedCorpus(
+			`${import.meta.dir}/fixtures/reviewed`,
+		);
+		expect(corpus.patches.every((p) => p.author === 'human')).toBe(true);
+		expect(corpus.deferred.map((r) => r.rid)).toEqual(['D00470']);
+	});
+	it('is empty when the directory does not exist', async () => {
+		expect(await loadReviewedCorpus('/nonexistent')).toEqual({
+			deferred: [],
+			patches: [],
+			records: [],
+		});
+	});
+	it('returns every manifest record, not only the deferred ones', async () => {
+		const corpus = await loadReviewedCorpus(
+			`${import.meta.dir}/fixtures/reviewed`,
+		);
+		expect(corpus.records.map((r) => r.rid)).toEqual(['A00001', 'D00470']);
+	});
+});
+
+describe('reviewedManifestProblems', () => {
+	const load = (): Promise<ReviewedCorpus> =>
+		loadReviewedCorpus(`${import.meta.dir}/fixtures/reviewed`);
+	it('is empty when manifest and patches reconcile', async () => {
+		expect(reviewedManifestProblems(await load())).toEqual([]);
+	});
+	it('flags a reviewed patch no manifest row lists', async () => {
+		const corpus = await load();
+		const first = corpus.patches[0];
+		if (first === undefined) {
+			throw new Error('fixture broken');
+		}
+		corpus.patches.push({ ...first, id: 'P900002' });
+		expect(reviewedManifestProblems(corpus)).toEqual([
+			{
+				reason:
+					'reviewed manifest: corpus patch P900002 is not listed by any record',
+				rid: 'A00001',
+			},
+		]);
+	});
+	it('flags a manifest row naming a patch that does not exist', async () => {
+		const corpus = await load();
+		corpus.patches = [];
+		expect(reviewedManifestProblems(corpus)).toEqual([
+			{
+				reason:
+					'reviewed manifest: listed patch P900001 does not exist in the corpus',
+				rid: 'A00001',
+			},
+		]);
 	});
 });

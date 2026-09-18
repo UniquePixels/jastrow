@@ -26,6 +26,7 @@ import type { SourceEntry } from '../body/types.ts';
 import { classifyDrift, type DriftOutcome } from './drift.ts';
 import {
 	type EntryResult,
+	isNeeds,
 	parseManifest,
 	reconcilePatches,
 	replayGate,
@@ -33,11 +34,10 @@ import {
 import { validateNoNewText } from './no-new-text.ts';
 import {
 	applyPatch,
+	countTarget,
 	PatchApplyError,
 	PatchFormatError,
 	parsePatchLine,
-	parseTarget,
-	resolveTarget,
 	type SemanticPatch,
 	validateCorpus,
 } from './schema.ts';
@@ -52,6 +52,51 @@ const PILOT_DIR = 'data/patches/pilot';
 const TRANCHES_DIR = 'data/patches/tranches';
 const CORPUS_PATH = `${PILOT_DIR}/patches.jsonl`;
 const MANIFEST_PATH = `${PILOT_DIR}/manifest.jsonl`;
+
+/** Human-authored patches (consolidation spec §4.2, step 8). Kept out
+ * of `TRANCHES` on purpose: Ruling C keeps one record per rid, and 11
+ * reviewed rids also have agent records. */
+const REVIEWED_DIR = 'data/patches/reviewed';
+
+interface ReviewedCorpus {
+	/** `needs_*` records: items a person has flagged and not repaired. */
+	deferred: EntryResult[];
+	patches: SemanticPatch[];
+	/** Every manifest record, for `reviewedManifestProblems`. */
+	records: EntryResult[];
+}
+
+/** Load the reviewed patch group (consolidation spec §4.2, step 8):
+ * every patch in `<dir>/patches.jsonl`, stamped `author: 'human'` so
+ * `applyEntryPatches` exempts it from the no-new-text floor, and the
+ * `needs_*` rows of `<dir>/manifest.jsonl` as `deferred` — findings a
+ * person flagged but did not repair — with every row as `records`, for
+ * `reviewedManifestProblems`. A missing directory returns an empty
+ * corpus. */
+async function loadReviewedCorpus(dir = REVIEWED_DIR): Promise<ReviewedCorpus> {
+	const patches = (await loadCorpus(`${dir}/patches.jsonl`)).map((patch) => ({
+		...patch,
+		author: 'human' as const,
+	}));
+	const records = await loadManifest(`${dir}/manifest.jsonl`);
+	return {
+		deferred: records.filter((r) => isNeeds(r.disposition)),
+		patches,
+		records,
+	};
+}
+
+/** Reconcile the reviewed manifest against the reviewed patches: every
+ * patch listed exactly once, under its own rid, and every listed id
+ * present. A reviewed patch applies first and may add bytes, so one
+ * that no record accounts for must not apply unflagged. Shared by
+ * `migrate.ts` and `apply-cli.ts` preflight. */
+function reviewedManifestProblems(corpus: ReviewedCorpus): ApplyProblem[] {
+	return reconcilePatches(corpus.records, corpus.patches).map((problem) => ({
+		reason: `reviewed manifest: ${problem.reason}`,
+		rid: problem.rids[0],
+	}));
+}
 
 /** The corpus stage a tranche was swept at (RUNBOOK "Corpus state";
  * task-3 addendum-2, Ruling E). `pre-patch`: swept against
@@ -505,11 +550,11 @@ function postApplyAssertions(after: SourceEntry, patch: SemanticPatch): void {
 			'round-trip re-parse changed the entry — non-JSON-safe structure',
 		);
 	}
-	const stale = resolveTarget(after, parseTarget(patch.target));
-	if (stale.length !== patch.expected_occurrences - 1) {
+	const stale = countTarget(after, patch);
+	if (stale !== patch.expected_occurrences - 1) {
 		throw new PatchApplyError(
 			patch.id,
-			`after apply, the pre-state target still resolves ${stale.length} time(s); expected ${patch.expected_occurrences - 1} — the apply did not change its target`,
+			`after apply, the pre-state target still resolves ${stale} time(s); expected ${patch.expected_occurrences - 1} — the apply did not change its target`,
 		);
 	}
 }
@@ -536,35 +581,61 @@ function applyEntryPatches(
 				continue;
 			}
 		}
-		try {
-			const next = applyPatch(current, patch);
-			postApplyAssertions(next, patch);
-			const verdict = validateNoNewText(patch, current, next);
-			if (!verdict.ok) {
-				problems.push({
-					patchId: patch.id,
-					reason: `${verdict.reason} — entry re-dispositions ${verdict.redisposition}`,
-					rid: patch.rid,
-				});
-				continue;
-			}
-			current = next;
-		} catch (error) {
-			if (
-				error instanceof PatchApplyError ||
-				error instanceof PatchFormatError
-			) {
-				problems.push({
-					patchId: patch.id,
-					reason: error.message,
-					rid: patch.rid,
-				});
-				continue;
-			}
-			throw error;
+		const result = tryApply(current, patch);
+		if (result.problem === undefined) {
+			current = result.entry;
+		} else {
+			problems.push(result.problem);
 		}
 	}
 	return { drifted, entry: current, problems };
+}
+
+/** Apply one patch to `current` with every gate (post-apply
+ * assertions, no-new-text floor): the next entry, or the problem that
+ * rejected the patch. An unexpected error still throws. */
+function tryApply(
+	current: SourceEntry,
+	patch: SemanticPatch,
+): { entry: SourceEntry; problem?: undefined } | { problem: ApplyProblem } {
+	try {
+		const next = applyPatch(current, patch);
+		postApplyAssertions(next, patch);
+		const problem = newTextProblem(patch, current, next);
+		return problem === undefined ? { entry: next } : { problem };
+	} catch (error) {
+		if (error instanceof PatchApplyError || error instanceof PatchFormatError) {
+			return {
+				problem: {
+					patchId: patch.id,
+					reason: error.message,
+					rid: patch.rid,
+				},
+			};
+		}
+		throw error;
+	}
+}
+
+/** The no-new-text floor for one apply: a problem when a non-human
+ * patch added bytes, else undefined (human patches are exempt). */
+function newTextProblem(
+	patch: SemanticPatch,
+	before: SourceEntry,
+	after: SourceEntry,
+): ApplyProblem | undefined {
+	if (patch.author === 'human') {
+		return undefined;
+	}
+	const verdict = validateNoNewText(patch, before, after);
+	if (verdict.ok) {
+		return undefined;
+	}
+	return {
+		patchId: patch.id,
+		reason: `${verdict.reason} — entry re-dispositions ${verdict.redisposition}`,
+		rid: patch.rid,
+	};
 }
 
 /** Apply one rid's carry-over patches (task-3 addendum-3, Ruling F),
@@ -600,7 +671,7 @@ function applyCarryOver(
 	const problems: ApplyProblem[] = [];
 	const ordered = [...patches].sort((a, b) => a.id.localeCompare(b.id));
 	for (const patch of ordered) {
-		const found = resolveTarget(current, parseTarget(patch.target)).length;
+		const found = countTarget(current, patch);
 		if (found === 0) {
 			absorbed.push(patch.id);
 			continue;
@@ -656,6 +727,7 @@ export type {
 	PatchDrift,
 	PhaseName,
 	PreflightOptions,
+	ReviewedCorpus,
 };
 export {
 	applyCarryOver,
@@ -667,11 +739,14 @@ export {
 	loadAcceptedCorpus,
 	loadCorpus,
 	loadManifest,
+	loadReviewedCorpus,
 	MANIFEST_PATH,
 	orderedDirs,
 	PHASE_MANIFEST,
 	PhaseViolation,
 	patchesByRid,
 	postApplyAssertions,
+	REVIEWED_DIR,
+	reviewedManifestProblems,
 	stalePins,
 };

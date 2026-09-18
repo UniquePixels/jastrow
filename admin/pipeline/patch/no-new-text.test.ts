@@ -103,6 +103,23 @@ describe('validateNoNewText', () => {
 		);
 		expect(verdict.ok).toBe(true);
 	});
+
+	it('accepts a byte-conserving join (the reverse of split)', () => {
+		const before: SourceEntry = {
+			content: {
+				senses: [
+					{ definition: 'see (v. X', number: '1)' },
+					{ definition: ' Y) night', number: '2)' },
+				],
+			},
+			headword: 'טסט',
+			rid: 'T00001',
+		};
+		const patch = patchFor(' Y) night', '2)', { op: 'join', payload: {} });
+		const after = applyPatch(before, patch);
+		const verdict = validateNoNewText(patch, before, after);
+		expect(verdict.ok).toBe(true);
+	});
 });
 
 describe('validateNoNewText rejections', () => {

@@ -480,11 +480,14 @@ const RULES: readonly Rule[] = [
 	// byte-identical, which is what the 0 / 0 above is reporting.
 	//
 	// This rule also carries a refusal added at registration, for a
-	// case only the PIPELINE can produce: `applyRepairs` runs before
-	// every transform, `rejoin-chopped` folds a phantom `2)` into the
-	// flow directly behind `<a … data-ref="Genesis 4:2">Gen. IV, 2</a>`
-	// in S01040, and the rule read that sense number as a citation tail
-	// and rendered `Gen. IV, 22`. A 15th member of a 14-member
+	// case only the PIPELINE could produce: `applyRepairs` then ran
+	// before every transform, and its `rejoin-chopped` pass folded a
+	// phantom `2)` into the flow directly behind
+	// `<a … data-ref="Genesis 4:2">Gen. IV, 2</a>` in S01040; the rule
+	// read that sense number as a citation tail and rendered
+	// `Gen. IV, 22`. Since consolidation step 8 that rejoin is a
+	// reviewed `join` patch applied AFTER the rules, so the shape no
+	// longer reaches this rule; the refusal stays as a guard. A 15th member of a 14-member
 	// population, manufactured downstream of the snapshot every
 	// measurement here is taken on. See `rules/stranded-tail.ts`,
 	// "THE SENSE-MARKER REFUSAL".

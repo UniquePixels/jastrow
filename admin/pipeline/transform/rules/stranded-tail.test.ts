@@ -105,10 +105,12 @@ describe('superscriptInsideAnchor', () => {
 
 /**
  * THE COMPOSED-PIPELINE CASE is `declines a sense marker` below, and it
- * is the reason `digitMoveAt` has a refusal at all. `applyRepairs` runs
- * before every transform, and `rejoin-chopped` folds a phantom sense
- * number back into the preceding flow — in S01040 landing `2)`
- * immediately behind `<a … data-ref="Genesis 4:2">Gen. IV, 2</a>`.
+ * is the reason `digitMoveAt` has a refusal at all. `applyRepairs` used
+ * to run before every transform, and its `rejoin-chopped` pass folded a
+ * phantom sense number back into the preceding flow — in S01040 landing
+ * `2)` immediately behind `<a … data-ref="Genesis 4:2">Gen. IV, 2</a>`.
+ * (Since consolidation step 8 that rejoin is a reviewed `join` patch
+ * applied after the rules; the refusal stays as a guard.)
  * Without the refusal this rule read that `2` as a truncated citation
  * tail and produced a link displaying `Gen. IV, 22`: a verse the entry
  * does not cite. The raw snapshot holds no such shape at all — 14 of 14

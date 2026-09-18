@@ -1,13 +1,15 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry, SourceSense } from '../body/types.ts';
 import {
 	applyPatch,
 	contentAnchor,
 	countOccurrences,
+	PatchApplyError,
 	parsePatch,
 	parsePatchLine,
 	parseTarget,
 	resolveTarget,
+	type SemanticPatch,
 	senseTarget,
 	validateCorpus,
 	walkSenses,
@@ -138,6 +140,17 @@ describe('parsePatch', () => {
 	it('parsePatchLine reports the line number on bad JSON', () => {
 		expect(() => parsePatchLine('{not json', 7)).toThrow('line 7');
 	});
+
+	it('rejects a record that claims its own author', () => {
+		const valid = patchFor('twin.', '3)', {
+			expected_occurrences: 2,
+			op: 'retag',
+			payload: { number: '3)' },
+		});
+		expect(() => parsePatch({ ...valid, author: 'human' })).toThrow(
+			'author is set by the loader from the patch directory, never by the record',
+		);
+	});
 });
 
 describe('split', () => {
@@ -181,6 +194,144 @@ describe('split', () => {
 			payload: { marker: '—2)' },
 		});
 		expect(() => applyPatch(entry, patch)).toThrow('occurs 2 times');
+	});
+});
+
+describe('join', () => {
+	it('refuses a target with no number token', () => {
+		// An unnumbered sense has no marker to fold back: joining it would
+		// only erase a structural boundary.
+		expect(() => patchFor(' night', '', { op: 'join', payload: {} })).toThrow(
+			'join target token must match the closed marker grammar',
+		);
+	});
+
+	it('folds a phantom sense into the preceding flow', () => {
+		const entry: SourceEntry = {
+			content: {
+				senses: [
+					{ definition: 'see (v. X', number: '1)' },
+					{ definition: ' Y) night', number: '2)' },
+				],
+			},
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch = patchFor(' Y) night', '2)', { op: 'join', payload: {} });
+		const after = applyPatch(entry, patch);
+		expect(after.content.senses).toEqual([
+			{ definition: 'see (v. X2) Y) night', number: '1)' },
+		]);
+	});
+
+	it('unnumbers a phantom that opens the list', () => {
+		const entry: SourceEntry = {
+			content: { senses: [{ definition: ' Y) night', number: '2)' }] },
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch = patchFor(' Y) night', '2)', { op: 'join', payload: {} });
+		const after = applyPatch(entry, patch);
+		expect(after.content.senses).toEqual([{ definition: '2) Y) night' }]);
+		expect('number' in (after.content.senses[0] ?? {})).toBe(false);
+	});
+
+	it('refuses to join into a stem header', () => {
+		const entry: SourceEntry = {
+			content: {
+				senses: [
+					{ definition: '', grammar: { verbal_stem: 'Pi.' } },
+					{ definition: ' x', number: '2)' },
+				],
+			},
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch = patchFor(' x', '2)', { op: 'join', payload: {} });
+		expect(() => applyPatch(entry, patch)).toThrow('no text flow to join into');
+	});
+
+	it('rejects a non-empty payload', () => {
+		expect(() =>
+			patchFor(' x', '2)', { op: 'join', payload: { x: 1 } }),
+		).toThrow('join payload must be an empty object');
+	});
+
+	/** An entry whose second sense is the join target, with overrides on
+	 * the target and on its preceding sibling. */
+	const joinEntry = (
+		previous: Partial<SourceSense>,
+		target: Partial<SourceSense>,
+	): SourceEntry => ({
+		content: {
+			senses: [
+				{ definition: 'day', number: '1)', ...previous },
+				{ definition: ' night', number: '2)', ...target },
+			],
+		},
+		headword: 'x',
+		rid: 'T00001',
+	});
+	const join = patchFor(' night', '2)', { op: 'join', payload: {} });
+
+	it('refuses a target carrying grammar — joining would drop it', () => {
+		const entry = joinEntry({}, { grammar: { verbal_stem: 'Pi.' } });
+		expect(() => applyPatch(entry, join)).toThrow('grammar');
+	});
+
+	it('refuses a target with child senses — joining would drop them', () => {
+		const entry = joinEntry(
+			{},
+			{ senses: [{ definition: 'child', number: 'a)' }] },
+		);
+		expect(() => applyPatch(entry, join)).toThrow('child senses');
+	});
+
+	it('refuses to join after a sibling with children — the text would land after them', () => {
+		const entry = joinEntry(
+			{ senses: [{ definition: 'child', number: 'a)' }] },
+			{},
+		);
+		expect(() => applyPatch(entry, join)).toThrow('child senses');
+	});
+
+	it('refuses a list-opening target with grammar or children too', () => {
+		const opener = (target: Partial<SourceSense>): SourceEntry => ({
+			content: { senses: [{ definition: ' night', number: '2)', ...target }] },
+			headword: 'x',
+			rid: 'T00001',
+		});
+		expect(() =>
+			applyPatch(opener({ grammar: { verbal_stem: 'Pi.' } }), join),
+		).toThrow('grammar');
+		expect(() =>
+			applyPatch(
+				opener({ senses: [{ definition: 'child', number: 'a)' }] }),
+				join,
+			),
+		).toThrow('child senses');
+	});
+
+	it('joins a nested sense into its preceding nested sibling', () => {
+		const entry: SourceEntry = {
+			content: {
+				senses: [
+					{
+						definition: 'parent',
+						number: '1)',
+						senses: [
+							{ definition: 'day', number: 'a)' },
+							{ definition: ' night', number: '2)' },
+						],
+					},
+				],
+			},
+			headword: 'x',
+			rid: 'T00001',
+		};
+		expect(applyPatch(entry, join).content.senses[0]?.senses).toEqual([
+			{ definition: 'day2) night', number: 'a)' },
+		]);
 	});
 });
 
@@ -281,6 +432,58 @@ describe('replace', () => {
 			payload: { find: 'missing', replace: 'x' },
 		});
 		expect(() => applyPatch(entry, patch)).toThrow('occurs 0 times');
+	});
+});
+
+describe('unref', () => {
+	const entry: SourceEntry = {
+		content: { senses: [{ definition: 'x', number: '1)' }] },
+		headword: 'x',
+		refs: ['Yoma 2a', 'Yoma 2a:3', 'Pes. 4b'],
+		rid: 'T00001',
+	};
+	const unref = (item: string): SemanticPatch =>
+		patchFor(item, '', {
+			op: 'unref',
+			payload: {},
+			target: `refs[${item}]:${contentAnchor(item)}`,
+		});
+
+	it('removes exactly the named item', () => {
+		expect(applyPatch(entry, unref('Yoma 2a')).refs).toEqual([
+			'Yoma 2a:3',
+			'Pes. 4b',
+		]);
+	});
+
+	it('throws when the item is gone', () => {
+		expect(() => applyPatch(entry, unref('Git. 9a'))).toThrow(PatchApplyError);
+	});
+
+	it('only pairs unref with a refs target', () => {
+		expect(() => patchFor('x', '1)', { op: 'unref', payload: {} })).toThrow(
+			'unref needs a refs[…] target',
+		);
+	});
+
+	it('rejects a refs target whose item is not expected_before', () => {
+		expect(() =>
+			patchFor('Yoma 2a', '', {
+				op: 'unref',
+				payload: {},
+				target: `refs[Other]:${contentAnchor('Yoma 2a')}`,
+			}),
+		).toThrow('refs[Other] does not name expected_before');
+	});
+
+	it('rejects any other op with a refs[…] target', () => {
+		expect(() =>
+			patchFor('Yoma 2a', '', {
+				op: 'retag',
+				payload: { number: '1)' },
+				target: `refs[Yoma 2a]:${contentAnchor('Yoma 2a')}`,
+			}),
+		).toThrow('refs[…] targets are only for unref');
 	});
 });
 

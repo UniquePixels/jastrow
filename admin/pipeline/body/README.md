@@ -22,7 +22,7 @@ feeding Stage 2 (migration).
 | `fixtures/` | Shared golden fixtures for the above | done |
 | `dry-run.ts` | Full-corpus dry run report before migration commits (+ `dry-run-verify.ts`, `dry-run-report.ts`) | done |
 | `review.ts` | Eyes-on review docs over dry-run output (`docs/archive/body-review/`) | archived at `refs/tags/archive/v2-research-2026-09` |
-| `repairs.ts` | Approved §6.0 migration repair passes (Task 16) | done |
+| `repairs.ts` | General, corpus-wide migration repairs (Task 16); the rid-keyed tables moved to reviewed patches in `data/patches/reviewed/` (consolidation step 8, spec §4.1) | done |
 | `compose.ts` | One entry through text-repairs → structural-repairs → patch-apply; shared by `migrate.ts` and `patch/apply-cli.ts` | done |
 | `migrate-dry.ts` | Repairs + composition + gates over the healed corpus, migration report | archived at `refs/tags/archive/v2-research-2026-09` |
 

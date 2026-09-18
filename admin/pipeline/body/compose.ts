@@ -33,11 +33,13 @@ type PhaseTracker = ReturnType<typeof createPhaseTracker>;
  * guess from a message saying "repair drift". */
 class TransformFailure extends Error {}
 
-/** The `text-repairs` phase body: literal repairs first (on pristine
- * source, so `repairs.ts`'s exactly-once find-text assertions hold),
- * then the corpus-correction transforms second, on the healed entry
- * (transform spec §2 "Placement": "Rules run after `applyRepairs`,
- * within `text-repairs`"). Transform records are pushed onto
+/** The `text-repairs` phase body: the general `applyRepairs` cleanup
+ * first (binyan-form trimming only, corpus-wide — the rid-keyed fixes
+ * that used to run here are reviewed patches applied in `patch-apply`,
+ * consolidation step 8, spec §4.1), then the corpus-correction
+ * transforms second, on the healed entry (transform spec §2
+ * "Placement": "Rules run after `applyRepairs`, within
+ * `text-repairs`"). Transform records are pushed onto
  * `report.transformRecords` directly since `RunResult` and
  * `RepairRecord` don't share a shape the caller could merge
  * generically. `report` only needs a `transformRecords` sink — not
@@ -61,16 +63,21 @@ function healAndTransform(
 }
 
 /** The rid's patch sets `composeEntry` applies (Ruling F — task-3
- * addendum-3): `accepted` first, then `carryOver` for the same rid,
- * in the same `patch-apply` phase. Either or both may be omitted —
- * `migrate-dry.ts`'s pre-corpus-load callers once composed with no
- * patches at all, as `compose.test.ts`'s fixtures still do. */
+ * addendum-3; `reviewed` added in consolidation step 8, spec §4.2):
+ * `reviewed` first, then `accepted`, then `carryOver` for the same
+ * rid, all in the same `patch-apply` phase. Any of the three may be
+ * omitted — `migrate-dry.ts`'s pre-corpus-load callers once composed
+ * with no patches at all, as `compose.test.ts`'s fixtures still do. */
 interface ComposePatches {
 	accepted?: readonly SemanticPatch[] | undefined;
 	carryOver?: readonly SemanticPatch[] | undefined;
 	/** Drift policy for both patch sets (consolidation spec §4.2).
 	 * Omitted: `problem`, the research-track behaviour. */
 	drift?: DriftMode | undefined;
+	/** Human-authored, applied first (consolidation spec §4.2, step 8):
+	 * a person's print-check repair may be a precondition for an
+	 * accepted patch downstream of it. */
+	reviewed?: readonly SemanticPatch[] | undefined;
 }
 
 interface ComposeResult {
@@ -105,19 +112,36 @@ interface PatchedEntry {
 	problems: ApplyProblem[];
 }
 
-/** The `patch-apply` phase: the rid's accepted patches, then its
- * carry-over set, both under the one drift policy. Kept apart from
- * `composeEntry` so each reads as one step. */
+/** The `patch-apply` phase: the rid's reviewed patches, then its
+ * accepted patches, then its carry-over set, all under the one drift
+ * policy. Kept apart from `composeEntry` so each reads as one step. */
 function applyPatchSets(
 	entry: SourceEntry,
 	patches: ComposePatches | undefined,
 ): PatchedEntry {
+	const reviewed = patches?.reviewed;
 	const accepted = patches?.accepted;
 	const carryGroup = patches?.carryOver;
+	// Reviewed patches apply first: a person's print-check repair can be
+	// the precondition an accepted patch's `expected_before` depends on.
+	const afterReviewed =
+		reviewed === undefined
+			? { drifted: [] as PatchDrift[], entry, problems: [] as ApplyProblem[] }
+			: applyEntryPatches(entry, reviewed, patches?.drift);
+	const reviewedApplied =
+		reviewed === undefined
+			? 0
+			: reviewed.length -
+				afterReviewed.problems.length -
+				afterReviewed.drifted.length;
 	const afterAccepted =
 		accepted === undefined
-			? { drifted: [] as PatchDrift[], entry, problems: [] as ApplyProblem[] }
-			: applyEntryPatches(entry, accepted, patches?.drift);
+			? {
+					drifted: [] as PatchDrift[],
+					entry: afterReviewed.entry,
+					problems: [] as ApplyProblem[],
+				}
+			: applyEntryPatches(afterReviewed.entry, accepted, patches?.drift);
 	const acceptedApplied =
 		accepted === undefined
 			? 0
@@ -127,11 +151,11 @@ function applyPatchSets(
 	if (carryGroup === undefined) {
 		return {
 			absorbed: [],
-			applied: acceptedApplied,
+			applied: reviewedApplied + acceptedApplied,
 			carried: [],
-			drifted: afterAccepted.drifted,
+			drifted: [...afterReviewed.drifted, ...afterAccepted.drifted],
 			entry: afterAccepted.entry,
-			problems: afterAccepted.problems,
+			problems: [...afterReviewed.problems, ...afterAccepted.problems],
 		};
 	}
 	const carry = applyCarryOver(afterAccepted.entry, carryGroup, patches?.drift);
@@ -147,21 +171,33 @@ function applyPatchSets(
 	).length;
 	return {
 		absorbed: carry.absorbed,
-		applied: acceptedApplied + carry.carried.length - carriedFailures,
+		applied:
+			reviewedApplied +
+			acceptedApplied +
+			carry.carried.length -
+			carriedFailures,
 		carried: carry.carried,
-		drifted: [...afterAccepted.drifted, ...carry.drifted],
+		drifted: [
+			...afterReviewed.drifted,
+			...afterAccepted.drifted,
+			...carry.drifted,
+		],
 		entry: carry.entry,
-		problems: [...afterAccepted.problems, ...carry.problems],
+		problems: [
+			...afterReviewed.problems,
+			...afterAccepted.problems,
+			...carry.problems,
+		],
 	};
 }
 
 /** One entry through the first three phases of the committed manifest
- * (spec §5): literal repairs then text rules, structural rules, then
- * the accepted and carry-over patches. Throws `TransformFailure` for a
- * rule that tripped its gate, a plain `Error` for a drifted
- * `repairs.ts` find-text — the two are fixed in different files. Patch
- * problems are returned, not thrown: the composition still stands and
- * the caller decides whether a stale patch is fatal. */
+ * (spec §5): the general `applyRepairs` cleanup then text rules,
+ * structural rules, then the reviewed, accepted and carry-over
+ * patches in that order (consolidation step 8, spec §4.2). Throws
+ * `TransformFailure` for a rule that tripped its gate. Patch problems
+ * are returned, not thrown: the composition still stands and the
+ * caller decides whether a stale patch is fatal. */
 function composeEntry(
 	source: SourceEntry,
 	patches: ComposePatches | undefined,
