@@ -17,9 +17,9 @@
 import type { SourceEntry, SourceSense } from '../body/types.ts';
 import {
 	applyPatch,
+	countTarget,
 	PatchApplyError,
 	parseTarget,
-	resolveTarget,
 	type SemanticPatch,
 	walkSenses,
 } from './schema.ts';
@@ -31,6 +31,10 @@ type DriftOutcome = 'upstream-changed' | 'upstream-fixed';
  * the patch removes the sense outright (nothing to look for) or cannot
  * apply even to its own `expected_before`. */
 function postState(patch: SemanticPatch): SourceSense[] | undefined {
+	if (patch.op === 'unref') {
+		// unref addresses refs[…], not a sense — nothing to look for.
+		return;
+	}
 	const { token } = parseTarget(patch.target);
 	const sense: SourceSense =
 		token === ''
@@ -50,7 +54,7 @@ function postState(patch: SemanticPatch): SourceSense[] | undefined {
 		return after.content.senses.length === 0 ? undefined : after.content.senses;
 	} catch (error) {
 		if (error instanceof PatchApplyError) {
-			return undefined;
+			return;
 		}
 		throw error;
 	}
@@ -83,7 +87,7 @@ function classifyDrift(
 	entry: SourceEntry,
 	patch: SemanticPatch,
 ): DriftOutcome | undefined {
-	const found = resolveTarget(entry, parseTarget(patch.target)).length;
+	const found = countTarget(entry, patch);
 	if (found === patch.expected_occurrences) {
 		return;
 	}

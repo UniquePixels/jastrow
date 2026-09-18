@@ -2,18 +2,17 @@
  * Semantic patch schema (research-process plan Task 2; spec
  * docs/specs/2026-08-10-research-process-design.md §4.3).
  *
- * One JSONL record per patch. Six ops — `split`, `join`, `retag`,
- * `move`, `delete`, `replace` — each with its own payload shape,
- * addressing a sense by **marker token + content-hash anchor**, never
- * by array index: an earlier structural patch must not shift a later
- * patch's target. `expected_before` (the target sense's exact current
- * definition) is the safety mechanism — apply fails loudly on any
- * mismatch, and that same loud mismatch is the maintenance track's
- * worklist when upstream moves.
- *
- * `unref` is reserved in the `PatchOp` union for consolidation step 8
- * Task 3; until that lands, `payloadReasons` reports it as not
- * implemented and `parsePatch` does not accept it.
+ * One JSONL record per patch. Seven ops — `split`, `join`, `retag`,
+ * `move`, `delete`, `replace`, `unref` — each with its own payload
+ * shape. The six sense ops address a sense by **marker token +
+ * content-hash anchor**, never by array index: an earlier structural
+ * patch must not shift a later patch's target. `unref` (consolidation
+ * step 8 Task 3) instead addresses one item of the entry's `refs[]`,
+ * by **exact value + content-hash anchor** (`refs[<item>]:<anchor>`).
+ * `expected_before` (the target's exact current text — a sense's
+ * definition, or the `refs[]` item) is the safety mechanism — apply
+ * fails loudly on any mismatch, and that same loud mismatch is the
+ * maintenance track's worklist when upstream moves.
  *
  * Corpus preflight rules enforced here (`validateCorpus`):
  * - patch ids are unique;
@@ -37,6 +36,9 @@ const PATCH_ID = /^P\d{6}$/u;
 const RID = /^[A-Z]\d{5}$/u;
 const SNAPSHOT_PIN = /^sha256:[0-9a-f]{64}$/u;
 const TARGET = /^sense\[(?<token>[^\]]*)\]:(?<anchor>[0-9a-f]{8})$/u;
+/** `refs[<item>]:<anchor>` — the one non-sense target, used by
+ * `unref`. */
+const REFS_TARGET = /^refs\[(?<item>.+)\]:(?<anchor>[0-9a-f]{8})$/u;
 /** The closed sense-marker grammar (`N)` / `—N)`) — the only tokens a
  * patch may synthesize (spec §4.3, no-new-text validator). */
 const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
@@ -68,6 +70,10 @@ interface SplitPayload {
  * with no preceding sibling keeps its place, loses its `number`, and
  * takes the token as the head of its definition. Byte-conserving. */
 type JoinPayload = Record<string, never>;
+
+/** Remove one item from the entry's `refs[]` (consolidation step 8
+ * Task 3) — the one op that addresses `refs[…]` instead of a sense. */
+type UnrefPayload = Record<string, never>;
 
 /** Set (or add) the target sense's `number` field. The new token must
  * come from the closed marker grammar — retag is how an implied `1)`
@@ -154,6 +160,10 @@ interface SplitPatch extends PatchBase {
 	op: 'split';
 	payload: SplitPayload;
 }
+interface UnrefPatch extends PatchBase {
+	op: 'unref';
+	payload: UnrefPayload;
+}
 
 type SemanticPatch =
 	| DeletePatch
@@ -161,7 +171,8 @@ type SemanticPatch =
 	| MovePatch
 	| ReplacePatch
 	| RetagPatch
-	| SplitPatch;
+	| SplitPatch
+	| UnrefPatch;
 
 /** A parsed `sense[<token>]:<anchor>` address. */
 interface PatchTarget {
@@ -212,6 +223,17 @@ function parseTarget(target: string): PatchTarget {
 	return { anchor: m.groups['anchor'], token: m.groups['token'] };
 }
 
+/** Parse a `refs[<item>]:<anchor>` address — `unref`'s target shape. */
+function parseRefsTarget(target: string): PatchTarget {
+	const m = target.match(REFS_TARGET);
+	if (m?.groups?.['anchor'] === undefined || m.groups['item'] === undefined) {
+		throw new PatchFormatError(`target "${target}"`, [
+			'unref needs a refs[…] target',
+		]);
+	}
+	return { anchor: m.groups['anchor'], token: m.groups['item'] };
+}
+
 /** One position in an entry's sense tree: the sense plus the sibling
  * array holding it (what split/delete need to mutate). */
 interface SensePosition {
@@ -251,6 +273,16 @@ function resolveTarget(
 		}
 	}
 	return matches;
+}
+
+/** How many places a patch's target resolves to in `entry`: senses for
+ * every op but `unref`, which counts its item in `refs[]`. The one
+ * count every caller shares, so apply, drift and carry-over agree. */
+function countTarget(entry: SourceEntry, patch: SemanticPatch): number {
+	if (patch.op === 'unref') {
+		return (entry.refs ?? []).filter((r) => r === patch.expected_before).length;
+	}
+	return resolveTarget(entry, parseTarget(patch.target)).length;
 }
 
 /** Validate one op's payload shape, returning reasons (empty = ok). */
@@ -316,8 +348,9 @@ function payloadReasons(op: PatchOp, payload: unknown): string[] {
 			return [];
 		}
 		case 'unref':
-			// Reserved for consolidation step 8 Task 3.
-			return ['unref is not implemented'];
+			return Object.keys(p).length === 0
+				? []
+				: ['unref payload must be an empty object'];
 		default:
 			return [`unknown op "${op}"`];
 	}
@@ -353,6 +386,7 @@ function parsePatch(value: unknown): SemanticPatch {
 		'replace',
 		'retag',
 		'split',
+		'unref',
 	];
 	if (ops.includes(raw['op'] as PatchOp)) {
 		reasons.push(...payloadReasons(raw['op'] as PatchOp, raw['payload']));
@@ -365,9 +399,16 @@ function parsePatch(value: unknown): SemanticPatch {
 	let target: PatchTarget | undefined;
 	if (typeof raw['target'] === 'string') {
 		try {
-			target = parseTarget(raw['target']);
+			target =
+				raw['op'] === 'unref'
+					? parseRefsTarget(raw['target'])
+					: parseTarget(raw['target']);
 		} catch (e) {
-			reasons.push((e as Error).message);
+			if (raw['op'] !== 'unref' && REFS_TARGET.test(raw['target'])) {
+				reasons.push('refs[…] targets are only for unref');
+			} else {
+				reasons.push((e as Error).message);
+			}
 		}
 	} else {
 		reasons.push('target must be a string');
@@ -541,6 +582,22 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 			`patch is for ${patch.rid}, entry is ${entry.rid}`,
 		);
 	}
+	if (patch.op === 'unref') {
+		const copy = structuredClone(entry);
+		const refs = copy.refs ?? [];
+		const hits = refs.flatMap((r, i) =>
+			r === patch.expected_before ? [i] : [],
+		);
+		if (hits.length !== patch.expected_occurrences) {
+			throw new PatchApplyError(
+				patch.id,
+				`refs item resolved ${hits.length} time(s); expected ${patch.expected_occurrences}`,
+			);
+		}
+		const at = hits[patch.occurrence_index - 1] ?? -1;
+		copy.refs = refs.filter((_, i) => i !== at);
+		return copy;
+	}
 	const copy = structuredClone(entry);
 	const target = parseTarget(patch.target);
 	const matches = resolveTarget(copy, target);
@@ -665,12 +722,14 @@ export type {
 	SemanticPatch,
 	SensePosition,
 	SplitPayload,
+	UnrefPayload,
 };
 export {
 	applyPatch,
 	CLOSED_MARKER,
 	contentAnchor,
 	countOccurrences,
+	countTarget,
 	flattenContent,
 	PATCH_ID,
 	PatchApplyError,

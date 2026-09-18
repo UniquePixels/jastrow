@@ -4,10 +4,12 @@ import {
 	applyPatch,
 	contentAnchor,
 	countOccurrences,
+	PatchApplyError,
 	parsePatch,
 	parsePatchLine,
 	parseTarget,
 	resolveTarget,
+	type SemanticPatch,
 	senseTarget,
 	validateCorpus,
 	walkSenses,
@@ -345,6 +347,48 @@ describe('replace', () => {
 			payload: { find: 'missing', replace: 'x' },
 		});
 		expect(() => applyPatch(entry, patch)).toThrow('occurs 0 times');
+	});
+});
+
+describe('unref', () => {
+	const entry: SourceEntry = {
+		content: { senses: [{ definition: 'x', number: '1)' }] },
+		headword: 'x',
+		refs: ['Yoma 2a', 'Yoma 2a:3', 'Pes. 4b'],
+		rid: 'T00001',
+	};
+	const unref = (item: string): SemanticPatch =>
+		patchFor(item, '', {
+			op: 'unref',
+			payload: {},
+			target: `refs[${item}]:${contentAnchor(item)}`,
+		});
+
+	it('removes exactly the named item', () => {
+		expect(applyPatch(entry, unref('Yoma 2a')).refs).toEqual([
+			'Yoma 2a:3',
+			'Pes. 4b',
+		]);
+	});
+
+	it('throws when the item is gone', () => {
+		expect(() => applyPatch(entry, unref('Git. 9a'))).toThrow(PatchApplyError);
+	});
+
+	it('only pairs unref with a refs target', () => {
+		expect(() => patchFor('x', '1)', { op: 'unref', payload: {} })).toThrow(
+			'unref needs a refs[…] target',
+		);
+	});
+
+	it('rejects any other op with a refs[…] target', () => {
+		expect(() =>
+			patchFor('Yoma 2a', '', {
+				op: 'retag',
+				payload: { number: '1)' },
+				target: `refs[Yoma 2a]:${contentAnchor('Yoma 2a')}`,
+			}),
+		).toThrow('refs[…] targets are only for unref');
 	});
 });
 

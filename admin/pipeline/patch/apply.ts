@@ -33,11 +33,10 @@ import {
 import { validateNoNewText } from './no-new-text.ts';
 import {
 	applyPatch,
+	countTarget,
 	PatchApplyError,
 	PatchFormatError,
 	parsePatchLine,
-	parseTarget,
-	resolveTarget,
 	type SemanticPatch,
 	validateCorpus,
 } from './schema.ts';
@@ -535,11 +534,11 @@ function postApplyAssertions(after: SourceEntry, patch: SemanticPatch): void {
 			'round-trip re-parse changed the entry — non-JSON-safe structure',
 		);
 	}
-	const stale = resolveTarget(after, parseTarget(patch.target));
-	if (stale.length !== patch.expected_occurrences - 1) {
+	const stale = countTarget(after, patch);
+	if (stale !== patch.expected_occurrences - 1) {
 		throw new PatchApplyError(
 			patch.id,
-			`after apply, the pre-state target still resolves ${stale.length} time(s); expected ${patch.expected_occurrences - 1} — the apply did not change its target`,
+			`after apply, the pre-state target still resolves ${stale} time(s); expected ${patch.expected_occurrences - 1} — the apply did not change its target`,
 		);
 	}
 }
@@ -632,7 +631,7 @@ function applyCarryOver(
 	const problems: ApplyProblem[] = [];
 	const ordered = [...patches].sort((a, b) => a.id.localeCompare(b.id));
 	for (const patch of ordered) {
-		const found = resolveTarget(current, parseTarget(patch.target)).length;
+		const found = countTarget(current, patch);
 		if (found === 0) {
 			absorbed.push(patch.id);
 			continue;

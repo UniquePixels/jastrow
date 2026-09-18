@@ -110,4 +110,21 @@ describe('classifyDrift', () => {
 		const entry = entryWith({ definition: '1) emergency. Nidd. 9b' });
 		expect(classifyDrift(entry, twice)).toBe('upstream-changed');
 	});
+
+	it('reports upstream-changed for an unref whose item is already gone', () => {
+		const item = 'Yoma 2a';
+		const unref = patch({
+			expected_before: item,
+			op: 'unref',
+			payload: {},
+			target: `refs[${item}]:${contentAnchor(item)}`,
+		});
+		const entryWithoutItem: SourceEntry = {
+			content: { senses: [{ definition: 'x' }] },
+			headword: 'test-word',
+			refs: ['Pes. 4b'],
+			rid: 'D00436',
+		};
+		expect(classifyDrift(entryWithoutItem, unref)).toBe('upstream-changed');
+	});
 });
