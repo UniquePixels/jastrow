@@ -18,6 +18,19 @@
 const SLUG_INDEX_PATH = 'data/slug-index/entries.jsonl';
 const ALIAS_INDEX_PATH = 'data/slug-index/aliases.jsonl';
 
+/** Whether the index binds (R10). `false` until v2 is published.
+ *
+ * While false, a run assigns every slug and alias from the composed
+ * headwords, the way it composes every entry, and `--write` rewrites
+ * both index files to match. A headword rule may move a slug; nothing
+ * has been published for that to break. The run reports each move as
+ * `slug-changed` against the committed index, so a reviewer sees it.
+ *
+ * Setting it to `true` is the act of publication: from then the index
+ * is an input, a rid keeps the slug it has, and only a new rid is
+ * assigned (spec §7.3). */
+const SLUGS_FROZEN = false;
+
 type SlugStatus = 'live' | 'retired';
 
 interface SlugRow {
@@ -254,28 +267,57 @@ function auditAliases(
 	return audit;
 }
 
-/** Characters a slug should not carry into a URL path. Jastrow's own
- * editorial notation reaches the headword and then the stem: `*` for a
- * hypothetical form, `(…)` for an uncertain one, `=` for a cross
- * reference, `?` for a doubtful reading. Twelve slugs hold one as of
- * the 2026-07-04 export. Reported, never rewritten — a slug is frozen,
- * and the fix belongs in headword parsing. */
-const UNSAFE = /[()[\]{}<>"'`?#/\\%&=+ *]/u;
+/** What a slug is made of: Hebrew letters, geresh and gershayim, the
+ * hyphen between words, and ASCII digits for a family number. Anything
+ * else is notation that is not part of the word. An allow-list, because
+ * the deny-list it replaced named URL-hostile characters and so found
+ * 12 of the 22 slugs carrying notation — it had no `,`, Roman numeral
+ * or superscript. After `slugStem` strips notation the rows left are
+ * the two `=` cross references and any frozen slug assigned before. */
+const NOT_WORD = /[^\u05D0-\u05EA\u05F3\u05F4\-0-9]/u;
 
-/** `rid: slug` for every slug holding an unsafe character. */
+/** `rid: slug` for every slug holding notation. */
 function unsafeSlugs(facts: readonly SlugFact[]): string[] {
 	return facts
-		.filter((f) => UNSAFE.test(f.slug))
+		.filter((f) => NOT_WORD.test(f.slug))
 		.map((f) => `${f.rid}: ${f.slug}`);
+}
+
+/** `rid: old → new` for every rid whose slug this run differs from the
+ * committed index on, in the order given, then every indexed rid the run
+ * has no slug for. `(none)` stands for the missing side. The review list
+ * of an unfrozen run: it is how a URL moved by a headword rule is seen
+ * before the write rather than after. */
+function changedSlugs(
+	facts: readonly SlugFact[],
+	committed: ReadonlyMap<string, SlugRow>,
+): string[] {
+	const lines: string[] = [];
+	const seen = new Set<string>();
+	for (const { rid, slug } of facts) {
+		seen.add(rid);
+		const before = committed.get(rid)?.slug;
+		if (before !== slug) {
+			lines.push(`${rid}: ${before ?? '(none)'} → ${slug}`);
+		}
+	}
+	for (const [rid, row] of committed) {
+		if (!seen.has(rid)) {
+			lines.push(`${rid}: ${row.slug} → (none)`);
+		}
+	}
+	return lines;
 }
 
 export type { AliasAudit, AliasRow, SlugFact, SlugRow, SlugStatus };
 export {
 	ALIAS_INDEX_PATH,
 	auditAliases,
+	changedSlugs,
 	loadAliases,
 	loadSlugIndex,
 	SLUG_INDEX_PATH,
+	SLUGS_FROZEN,
 	serialiseAliases,
 	serialiseSlugIndex,
 	unsafeSlugs,

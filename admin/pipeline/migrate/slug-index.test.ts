@@ -2,6 +2,7 @@ import { describe, expect, it } from 'bun:test';
 import {
 	type AliasRow,
 	auditAliases,
+	changedSlugs,
 	loadAliases,
 	loadSlugIndex,
 	type SlugFact,
@@ -200,18 +201,67 @@ describe('auditAliases', () => {
 });
 
 describe('unsafeSlugs', () => {
-	it('names a slug carrying Jastrow editorial notation', () => {
-		// Twelve real slugs hold one of these: `*` hypothetical, `(…)`
-		// uncertain, `=` cross reference, `?` doubtful.
+	it('names a slug carrying anything that is not part of a word', () => {
+		// The old URL-hostile list found 12 of 22: it had no `,`, Roman
+		// numeral or superscript. The rule is now an allow-list.
 		expect(
 			unsafeSlugs([
 				{ rid: 'A00610', slug: '*(אוזפיה)' },
 				{ rid: 'A01175', slug: 'אידרעא-=-אדרעא' },
+				{ rid: 'B00407', slug: 'בזא-I,-II,' },
+				{ rid: 'P00224', slug: '(עוזרד-²' },
 				{ rid: 'A00013', slug: 'אב-2' },
 			]),
-		).toEqual(['A00610: *(אוזפיה)', 'A01175: אידרעא-=-אדרעא']);
+		).toEqual([
+			'A00610: *(אוזפיה)',
+			'A01175: אידרעא-=-אדרעא',
+			'B00407: בזא-I,-II,',
+			'P00224: (עוזרד-²',
+		]);
 	});
-	it('leaves a plain Hebrew slug and its family number alone', () => {
-		expect(unsafeSlugs([{ rid: 'A00013', slug: 'אב-2' }])).toEqual([]);
+	it('leaves Hebrew letters, geresh, gershayim and a family number alone', () => {
+		expect(
+			unsafeSlugs([
+				{ rid: 'A00013', slug: 'אב-2' },
+				{ rid: 'P00137', slug: 'ע׳-עדיא' },
+				{ rid: 'P00731', slug: 'עכ״ום' },
+			]),
+		).toEqual([]);
+	});
+});
+
+describe('changedSlugs', () => {
+	const committed = new Map<string, SlugRow>([
+		['A00012', { rid: 'A00012', slug: 'אב-1', status: 'live' }],
+		['A00013', { rid: 'A00013', slug: 'אב-2', status: 'live' }],
+		['A00020', { rid: 'A00020', slug: 'אבא', status: 'retired' }],
+	]);
+	it('names every rid whose slug differs from the committed index', () => {
+		expect(
+			changedSlugs(
+				[
+					{ rid: 'A00012', slug: 'אב-1' },
+					{ rid: 'A00013', slug: 'אב' },
+					{ rid: 'A00030', slug: 'אבד' },
+				],
+				committed,
+			),
+		).toEqual([
+			'A00013: אב-2 → אב',
+			'A00030: (none) → אבד',
+			'A00020: אבא → (none)',
+		]);
+	});
+	it('is empty when the run reproduces the index', () => {
+		expect(
+			changedSlugs(
+				[
+					{ rid: 'A00012', slug: 'אב-1' },
+					{ rid: 'A00013', slug: 'אב-2' },
+					{ rid: 'A00020', slug: 'אבא' },
+				],
+				committed,
+			),
+		).toEqual([]);
 	});
 });

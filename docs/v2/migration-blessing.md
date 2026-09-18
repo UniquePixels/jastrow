@@ -2620,12 +2620,12 @@ Composed counts: each rule sees the text the rules before it left.
 
 | members per stem | stems |
 |---|---|
-| 1 | 20886 |
-| 2 | 2804 |
-| 3 | 917 |
+| 1 | 20872 |
+| 2 | 2806 |
+| 3 | 920 |
 | 4 | 396 |
-| 5 | 164 |
-| 6 | 67 |
+| 5 | 163 |
+| 6 | 68 |
 | 7 | 32 |
 | 8 | 15 |
 | 9 | 8 |

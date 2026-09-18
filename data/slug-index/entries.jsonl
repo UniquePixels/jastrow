@@ -608,7 +608,7 @@
 {"rid":"A00607","slug":"אוזנא","status":"live"}
 {"rid":"A00608","slug":"אוזניות","status":"live"}
 {"rid":"A00609","slug":"אוזפותא","status":"live"}
-{"rid":"A00610","slug":"*(אוזפיה)","status":"live"}
+{"rid":"A00610","slug":"אוזפיה","status":"live"}
 {"rid":"A00611","slug":"אוזרד","status":"live"}
 {"rid":"A00612","slug":"אוחדנא","status":"live"}
 {"rid":"A00613","slug":"אוחדתא-1","status":"live"}
@@ -881,8 +881,8 @@
 {"rid":"A00880","slug":"אוריא-5","status":"live"}
 {"rid":"A00881","slug":"אוריאל","status":"live"}
 {"rid":"A00882","slug":"אוריאן","status":"live"}
-{"rid":"A00883","slug":"אוריה-I,-II","status":"live"}
-{"rid":"A00884","slug":"אוריה","status":"live"}
+{"rid":"A00883","slug":"אוריה-1","status":"live"}
+{"rid":"A00884","slug":"אוריה-2","status":"live"}
 {"rid":"A00885","slug":"אוריון","status":"live"}
 {"rid":"A00886","slug":"אוריזא","status":"live"}
 {"rid":"A00887","slug":"אורייא-1","status":"live"}
@@ -2354,7 +2354,7 @@
 {"rid":"A02353","slug":"אסטגנינות","status":"live"}
 {"rid":"A02354","slug":"אסטדיה","status":"live"}
 {"rid":"A02355","slug":"אסטו","status":"live"}
-{"rid":"A02356","slug":"אסטווא-I,-II,","status":"live"}
+{"rid":"A02356","slug":"אסטווא","status":"live"}
 {"rid":"A02357","slug":"אסטוונא","status":"live"}
 {"rid":"A02358","slug":"אסטוורא","status":"live"}
 {"rid":"A02359","slug":"אסטולא","status":"live"}
@@ -3553,7 +3553,7 @@
 {"rid":"B00095","slug":"בד-3","status":"live"}
 {"rid":"B00096","slug":"בד-4","status":"live"}
 {"rid":"B00097","slug":"בד-5","status":"live"}
-{"rid":"B00098","slug":"בד-V","status":"live"}
+{"rid":"B00098","slug":"בד-6","status":"live"}
 {"rid":"B00099","slug":"בדא-1","status":"live"}
 {"rid":"B00100","slug":"בדא-2","status":"live"}
 {"rid":"B00101","slug":"בדא-3","status":"live"}
@@ -3862,8 +3862,8 @@
 {"rid":"B00404","slug":"בותניי","status":"live"}
 {"rid":"B00405","slug":"בותרא","status":"live"}
 {"rid":"B00406","slug":"בז","status":"live"}
-{"rid":"B00407","slug":"בזא-I,-II,","status":"live"}
-{"rid":"B00408","slug":"בזא-1","status":"live"}
+{"rid":"B00407","slug":"בזא-1","status":"live"}
+{"rid":"B00408","slug":"בזא-2","status":"live"}
 {"rid":"B00409","slug":"בזאי","status":"live"}
 {"rid":"B00410","slug":"בזבוזא","status":"live"}
 {"rid":"B00411","slug":"בזבז-1","status":"live"}
@@ -3892,13 +3892,13 @@
 {"rid":"B00434","slug":"בזי-1","status":"live"}
 {"rid":"B00435","slug":"בזי-2","status":"live"}
 {"rid":"B00436","slug":"בזי-3","status":"live"}
-{"rid":"B00437","slug":"בזא-2","status":"live"}
+{"rid":"B00437","slug":"בזא-3","status":"live"}
 {"rid":"B00438","slug":"בזה-2","status":"live"}
 {"rid":"B00439","slug":"בזיא","status":"live"}
 {"rid":"B00440","slug":"בזיון","status":"live"}
 {"rid":"B00441","slug":"בזיונא-1","status":"live"}
 {"rid":"B00442","slug":"בזיונא-2","status":"live"}
-{"rid":"B00443","slug":"בזיונא-,-II","status":"live"}
+{"rid":"B00443","slug":"בזיונא-3","status":"live"}
 {"rid":"B00444","slug":"בזיז","status":"live"}
 {"rid":"B00445","slug":"בזיזא","status":"live"}
 {"rid":"B00446","slug":"בזיזי-1","status":"live"}
@@ -4280,7 +4280,7 @@
 {"rid":"B00822","slug":"בלדרסין","status":"live"}
 {"rid":"B00823","slug":"בלה","status":"live"}
 {"rid":"B00824","slug":"בלו","status":"live"}
-{"rid":"B00825","slug":"*(?)בלווטי","status":"live"}
+{"rid":"B00825","slug":"בלווטי","status":"live"}
 {"rid":"B00826","slug":"בלוזמא","status":"live"}
 {"rid":"B00827","slug":"בלוט-1","status":"live"}
 {"rid":"B00828","slug":"בלוט-2","status":"live"}
@@ -5182,8 +5182,8 @@
 {"rid":"C00325","slug":"גוהרקא-2","status":"live"}
 {"rid":"C00326","slug":"גוו","status":"live"}
 {"rid":"C00327","slug":"גווא","status":"live"}
-{"rid":"C00328","slug":"גווזא","status":"live"}
-{"rid":"C00329","slug":"גווזא-,-II","status":"live"}
+{"rid":"C00328","slug":"גווזא-1","status":"live"}
+{"rid":"C00329","slug":"גווזא-2","status":"live"}
 {"rid":"C00330","slug":"גוויה","status":"live"}
 {"rid":"C00331","slug":"גוויתא","status":"live"}
 {"rid":"C00332","slug":"גווכיא","status":"live"}
@@ -7131,7 +7131,7 @@
 {"rid":"D00841","slug":"דלל-1","status":"live"}
 {"rid":"D00842","slug":"דלל-2","status":"live"}
 {"rid":"D00843","slug":"דלם","status":"live"}
-{"rid":"D00844","slug":"דלמא-I,-II,","status":"live"}
+{"rid":"D00844","slug":"דלמא","status":"live"}
 {"rid":"D00845","slug":"דלמטיקיון","status":"live"}
 {"rid":"D00846","slug":"דלמטיקין","status":"live"}
 {"rid":"D00847","slug":"דלס","status":"live"}
@@ -7959,7 +7959,7 @@
 {"rid":"E00505","slug":"הכחשה","status":"live"}
 {"rid":"E00506","slug":"הכי","status":"live"}
 {"rid":"E00507","slug":"הכייה","status":"live"}
-{"rid":"E00508","slug":"הכין-I,-II","status":"live"}
+{"rid":"E00508","slug":"הכין","status":"live"}
 {"rid":"E00509","slug":"הכינה","status":"live"}
 {"rid":"E00510","slug":"הכיני","status":"live"}
 {"rid":"E00511","slug":"הכיצד","status":"live"}
@@ -8903,7 +8903,7 @@
 {"rid":"G00371","slug":"זימנא-1","status":"live"}
 {"rid":"G00372","slug":"זימנא-2","status":"live"}
 {"rid":"G00373","slug":"זימנה","status":"live"}
-{"rid":"G00374","slug":"(זימרא","status":"live"}
+{"rid":"G00374","slug":"זימרא","status":"live"}
 {"rid":"G00375","slug":"זין-1","status":"live"}
 {"rid":"G00376","slug":"זין-2","status":"live"}
 {"rid":"G00377","slug":"זין-3","status":"live"}
@@ -9203,8 +9203,8 @@
 {"rid":"G00671","slug":"זרדא","status":"live"}
 {"rid":"G00672","slug":"זרדן","status":"live"}
 {"rid":"G00673","slug":"זרדתא","status":"live"}
-{"rid":"G00674","slug":"זרה","status":"live"}
-{"rid":"G00675","slug":"זרה-I,-II","status":"live"}
+{"rid":"G00674","slug":"זרה-1","status":"live"}
+{"rid":"G00675","slug":"זרה-2","status":"live"}
 {"rid":"G00676","slug":"זרואי","status":"live"}
 {"rid":"G00677","slug":"זרוז","status":"live"}
 {"rid":"G00678","slug":"זרוע-1","status":"live"}
@@ -14842,7 +14842,7 @@
 {"rid":"L00584","slug":"לננן","status":"live"}
 {"rid":"L00585","slug":"לסוטה","status":"live"}
 {"rid":"L00586","slug":"לסטין","status":"live"}
-{"rid":"L00587","slug":"(לסטם","status":"live"}
+{"rid":"L00587","slug":"לסטם","status":"live"}
 {"rid":"L00588","slug":"לסיטה","status":"live"}
 {"rid":"L00589","slug":"לסת","status":"live"}
 {"rid":"L00590","slug":"לסתא","status":"live"}
@@ -15421,8 +15421,8 @@
 {"rid":"M00444","slug":"מוזחין","status":"live"}
 {"rid":"M00445","slug":"מוזיפא","status":"live"}
 {"rid":"M00446","slug":"מוזיקא","status":"live"}
-{"rid":"M00447","slug":"מוזלא-,-I","status":"live"}
-{"rid":"M00448","slug":"מוזלא","status":"live"}
+{"rid":"M00447","slug":"מוזלא-1","status":"live"}
+{"rid":"M00448","slug":"מוזלא-2","status":"live"}
 {"rid":"M00449","slug":"מוזנוון","status":"live"}
 {"rid":"M00450","slug":"מוזניא","status":"live"}
 {"rid":"M00451","slug":"מוזפו","status":"live"}
@@ -21430,8 +21430,8 @@
 {"rid":"P00220","slug":"עוזיא","status":"live"}
 {"rid":"P00221","slug":"עוזיאל","status":"live"}
 {"rid":"P00222","slug":"עוזיה","status":"live"}
-{"rid":"P00223","slug":"(עוזרד","status":"live"}
-{"rid":"P00224","slug":"(עוזרד-²","status":"live"}
+{"rid":"P00223","slug":"עוזרד-1","status":"live"}
+{"rid":"P00224","slug":"עוזרד-2","status":"live"}
 {"rid":"P00225","slug":"עוי-1","status":"live"}
 {"rid":"P00226","slug":"עוי-2","status":"live"}
 {"rid":"P00227","slug":"עוי-3","status":"live"}
@@ -23128,7 +23128,7 @@
 {"rid":"Q00367","slug":"פורנס","status":"live"}
 {"rid":"Q00368","slug":"פורסא-1","status":"live"}
 {"rid":"Q00369","slug":"פורסא-2","status":"live"}
-{"rid":"Q00370","slug":"(פורסישמנג","status":"live"}
+{"rid":"Q00370","slug":"פורסישמנג","status":"live"}
 {"rid":"Q00371","slug":"פורסן","status":"live"}
 {"rid":"Q00372","slug":"פורסנית","status":"live"}
 {"rid":"Q00373","slug":"פורען-1","status":"live"}
@@ -25895,7 +25895,7 @@
 {"rid":"S00096","slug":"קבר-2","status":"live"}
 {"rid":"S00097","slug":"קבר-3","status":"live"}
 {"rid":"S00098","slug":"קברא","status":"live"}
-{"rid":"S00099","slug":"(קבריא)","status":"live"}
+{"rid":"S00099","slug":"קבריא","status":"live"}
 {"rid":"S00100","slug":"קברין-1","status":"live"}
 {"rid":"S00101","slug":"קברין-2","status":"live"}
 {"rid":"S00102","slug":"קברינט","status":"live"}
@@ -27217,7 +27217,7 @@
 {"rid":"S01418","slug":"קלקל-4","status":"live"}
 {"rid":"S01419","slug":"קלקלה","status":"live"}
 {"rid":"S01420","slug":"קלקלתא","status":"live"}
-{"rid":"S01421","slug":"(קלקנתום","status":"live"}
+{"rid":"S01421","slug":"קלקנתום","status":"live"}
 {"rid":"S01422","slug":"קלקת","status":"live"}
 {"rid":"S01423","slug":"קלרה","status":"live"}
 {"rid":"S01424","slug":"קלרהי","status":"live"}
@@ -27420,7 +27420,7 @@
 {"rid":"S01621","slug":"קנתא","status":"live"}
 {"rid":"S01622","slug":"קנתור-1","status":"live"}
 {"rid":"S01623","slug":"קנתור-2","status":"live"}
-{"rid":"S01624","slug":"(קנתור)","status":"live"}
+{"rid":"S01624","slug":"קנתור-3","status":"live"}
 {"rid":"S01625","slug":"קנתל","status":"live"}
 {"rid":"S01626","slug":"קנתנית","status":"live"}
 {"rid":"S01627","slug":"קנתר","status":"live"}
