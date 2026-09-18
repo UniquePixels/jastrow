@@ -66,7 +66,7 @@ Everything import runs is one of three **buckets**:
 | Term | Meaning |
 |---|---|
 | **registry** | the ordered list of rules; the order they run in (`transform/registry.ts`) |
-| **repair pass** | a fix in `body/repairs.ts` that runs alongside the rules: `rejoin-chopped`, `implied-one`, `marker-reinsert`, `label-repair`, `binyan-cleanup`, `cite-wrap`, `refs-removal`. Counted in the report as `repairs:<name>` |
+| **repair pass** | a fix in `body/repairs.ts` that runs before the rules. One remains, `binyan-cleanup`, counted in the report as `repairs:binyan-cleanup`. The other six (`rejoin-chopped`, `implied-one`, `marker-reinsert`, `label-repair`, `cite-wrap`, `refs-removal`) were rid-keyed and became reviewed patches in consolidation step 8 |
 | **pattern** | a catalogued kind of defect in `data/patches/patterns.jsonl`, routed to `transform` (a rule handles it), `judgment` (per-entry patches) or `blocked` (no route yet) |
 | **judgment class** | a pattern routed to `judgment`: no rule can decide it, so each entry needs a person's call |
 | **commutation** | whether two rules give the same result in either order. A pair that doesn't must be declared, one of two ways below |

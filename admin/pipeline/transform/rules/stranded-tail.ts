@@ -201,10 +201,13 @@ function superscriptMoveAt(
  * printed SENSE NUMBER, not the tail of the citation before it, and
  * swallowing it writes a citation the source never printed.
  *
- * This is not a hypothetical. The rule measures 14 occurrences on the
- * pinned snapshot and the migration composes it AFTER `applyRepairs`,
- * where `rejoin-chopped` folds a phantom `2)` back into the preceding
- * flow — and in S01040 it lands immediately behind
+ * This was not a hypothetical. The rule measures 14 occurrences on the
+ * pinned snapshot, and the migration used to compose it AFTER
+ * `applyRepairs`, whose `rejoin-chopped` pass folded a phantom `2)`
+ * back into the preceding flow (since consolidation step 8 that rejoin
+ * is a reviewed `join` patch applied after the rules, so the shape no
+ * longer reaches this rule; the refusal stays as a guard) — and in
+ * S01040 it landed immediately behind
  * `<a … data-ref="Genesis 4:2">Gen. IV, 2</a>`. Without this refusal
  * the pipeline (never `bun transform:count`, which runs every rule
  * alone against the raw snapshot) produced
