@@ -67,7 +67,10 @@ if (import.meta.main) {
 	// it on `corpus.records` would drop every escalation recorded in a
 	// pre-patch manifest — 130 rids of 617, measured 2026-09-10 — even
 	// though this run still applies 66 pre-patch rows as carry-over.
-	for (const problem of replayGate(await loadManifest())) {
+	for (const problem of replayGate([
+		...(await loadManifest()),
+		...reviewedCorpus.records,
+	])) {
 		problems.push({ reason: `${problem.reason}: ${problem.rids.join(', ')}` });
 	}
 	let applied = 0;

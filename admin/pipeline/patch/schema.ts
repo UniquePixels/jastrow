@@ -434,6 +434,16 @@ function parsePatch(value: unknown): SemanticPatch {
 			);
 		}
 	}
+	// A join folds the target's number token back into the text; an
+	// unnumbered target has none, so the join would only erase a sense
+	// boundary.
+	if (
+		raw['op'] === 'join' &&
+		target !== undefined &&
+		!CLOSED_MARKER.test(target.token)
+	) {
+		reasons.push('join target token must match the closed marker grammar');
+	}
 	if (!['high', 'low', 'med'].includes(raw['confidence'] as string)) {
 		reasons.push('confidence must be high, med, or low');
 	}

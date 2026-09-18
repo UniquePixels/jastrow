@@ -198,6 +198,14 @@ describe('split', () => {
 });
 
 describe('join', () => {
+	it('refuses a target with no number token', () => {
+		// An unnumbered sense has no marker to fold back: joining it would
+		// only erase a structural boundary.
+		expect(() => patchFor(' night', '', { op: 'join', payload: {} })).toThrow(
+			'join target token must match the closed marker grammar',
+		);
+	});
+
 	it('folds a phantom sense into the preceding flow', () => {
 		const entry: SourceEntry = {
 			content: {

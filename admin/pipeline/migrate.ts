@@ -293,7 +293,10 @@ function checkOrphanRefs(composed: readonly Composed[], report: Report): void {
 	report.rows.push(
 		...lines.map((l) => lineRow(l, 'orphan-ref-unbased', 'pipeline', 'fault')),
 	);
-	report.gates.composition.failures.push(...lines);
+	// `mark`, not a bare push, so pass/total stay in step with failures.
+	for (const line of lines) {
+		mark(report.gates.composition, false, line);
+	}
 }
 
 /** The collision histogram: members per stem → number of such stems.

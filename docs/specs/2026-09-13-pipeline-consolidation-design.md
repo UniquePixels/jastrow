@@ -202,7 +202,7 @@ No entry data is written. A person decides whether to run the update
 | Bucket | Contract | On different data |
 |---|---|---|
 | **Rules** (`transform/rules/`, general logic in `body/repairs.ts`) | detect + fix, declared claim, count-independent | fire on whatever matches; report the count |
-| **Patches** (`data/patches/`, `data/quarantine/`, and the rid-keyed tables now in `repairs.ts`) | precondition + one entry's fix | apply when `expected_before` matches; otherwise a review row |
+| **Patches** (`data/patches/` — agent tranches plus `reviewed/`, the rid-keyed repairs `repairs.ts` held until step 8 — and `data/quarantine/`) | precondition + one entry's fix | apply when `expected_before` matches; otherwise a review row |
 | **Review detectors** | detect only | emit rows |
 
 ### 4.1 Where current code goes
