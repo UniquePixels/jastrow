@@ -61,6 +61,7 @@ import {
 	loadAliases,
 	loadSlugIndex,
 	type SlugFact,
+	type SlugRow,
 	unsafeSlugs,
 } from './migrate/slug-index.ts';
 import type { TruthEntry } from './migrate/types.ts';
@@ -281,13 +282,26 @@ function collisionHistogram(
 async function auditSlugIndex(
 	rids: readonly string[],
 	slugs: ReadonlyMap<string, string>,
+	index: ReadonlyMap<string, SlugRow>,
 	report: Report,
 ): Promise<void> {
 	const facts: SlugFact[] = [];
+	const seen = new Set<string>();
 	for (const rid of rids) {
 		const slug = slugs.get(rid);
 		if (slug !== undefined) {
 			facts.push({ rid, slug });
+			seen.add(rid);
+		}
+	}
+	// Reserved rows this run has no form for — a retired member still
+	// counts toward its family's size. Without them a family that has
+	// dropped to one live member reads as a lone entry needing no alias,
+	// and a missing alias goes unreported. `validate.ts` audits the whole
+	// index for the same reason.
+	for (const [rid, row] of index) {
+		if (!seen.has(rid)) {
+			facts.push({ rid, slug: row.slug });
 		}
 	}
 	const audit = auditAliases(facts, await loadAliases());
@@ -332,6 +346,7 @@ async function buildIndexes(
 	await auditSlugIndex(
 		forms.map((f) => f.rid),
 		slugs,
+		index,
 		report,
 	);
 	const pages = await loadPageIndex();

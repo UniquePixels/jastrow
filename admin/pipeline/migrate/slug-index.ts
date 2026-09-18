@@ -55,6 +55,15 @@ function byCodeUnit(a: string, b: string): number {
 	return a < b ? -1 : 1;
 }
 
+/** A row must be a plain object before its fields can be read: `null`
+ * destructures into a TypeError rather than this file's path-aware
+ * refusal, and an array reads every field as undefined. */
+function rejectNonObject(row: unknown, path: string): void {
+	if (typeof row !== 'object' || row === null || Array.isArray(row)) {
+		throw new Error(`${path}: row rejected: ${JSON.stringify(row)}`);
+	}
+}
+
 /** Every non-empty line of a JSONL file, parsed. A parse failure names
  * the offending line rather than throwing a bare SyntaxError. */
 function* rowsOf(text: string, path: string): Generator<unknown> {
@@ -82,6 +91,7 @@ async function loadSlugIndex(
 	const byRid = new Map<string, SlugRow>();
 	const bySlug = new Map<string, string>();
 	for (const row of rowsOf(await Bun.file(path).text(), path)) {
+		rejectNonObject(row, path);
 		const { rid, slug, status } = row as Partial<SlugRow>;
 		if (
 			typeof rid !== 'string' ||
@@ -113,6 +123,7 @@ async function loadAliases(
 ): Promise<Map<string, string>> {
 	const aliases = new Map<string, string>();
 	for (const row of rowsOf(await Bun.file(path).text(), path)) {
+		rejectNonObject(row, path);
 		const { rid, slug } = row as Partial<AliasRow>;
 		if (
 			typeof rid !== 'string' ||

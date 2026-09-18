@@ -322,9 +322,15 @@ function checkSlugIndex(
 	// is held precisely so nothing else can take it, an alias no less than
 	// an entry.
 	const held = new Map([...index.values()].map((row) => [row.slug, row.rid]));
-	for (const family of auditAliases([...index.values()], aliases).add) {
+	const audit = auditAliases([...index.values()], aliases);
+	for (const family of audit.add) {
 		problems.push(`family ${family.slug} has no alias row`);
 	}
+	// A family with rows but no `<stem>-1` has no valid alias target at
+	// all. `auditAliases` returns that as a problem rather than an `add`,
+	// so dropping it would let the tree pass with no canonical bare URL.
+	// `bareHeld` is NOT a problem: that family's bare name is an entry.
+	problems.push(...audit.problems);
 	for (const [slug, rid] of aliases) {
 		const row = index.get(rid);
 		const owner = held.get(slug);

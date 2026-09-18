@@ -348,9 +348,14 @@ cuts that cord.
 `data/slug-index/entries.jsonl` records the assignment: one row per rid,
 `{"rid","slug","status"}`, rid-sorted, 32,512 rows and 1.73 MB as the
 tree stands. It is reference data (§1.1) — the pipeline reads it as an
-input and appends a row for each new rid. `status` is `live` or
-`retired`; a retired row keeps its slug reserved so a URL is never
-handed to a different word.
+input. `status` is `live` or `retired`; a retired row keeps its slug
+reserved so a URL is never handed to a different word.
+
+**Who writes it.** Step 7 only seeds and reads: a run reports the rows
+the index is missing (`slug-new`, `slug-alias-new`) and writes nothing.
+Appending a row for each new rid and retiring the absent ones is index
+maintenance, and it ships with the atomic write (R11, §10). Until then a
+new entry means running that update by hand.
 
 The record lives there rather than being read back off `data/entries/`
 because under R11's atomic swap the old entry tree is gone at the moment

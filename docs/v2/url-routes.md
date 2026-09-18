@@ -66,5 +66,20 @@ What the app does with it is open and reversible:
 | 301 to the first member | what the alias row says today; simplest |
 | a disambiguation page listing the family | better for a 13-member family; needs a page design |
 
+**Decide the retired-target case before picking either.** An alias is
+frozen and may outlive its target's entry (§7.2): when the `stem-1`
+member retires, `/אב` points at a rid with no entry. A plain 301 would
+then lead nowhere. Three answers, none chosen — the v2 app is still a
+placeholder and has no resolver contract to hold one:
+
+| Answer | Cost |
+|---|---|
+| redirect to the lowest-numbered *live* member | the bare URL silently changes destination over time |
+| show the family page | needs the page design above, and makes it the default rather than the option |
+| deliberate 404 | honest, and throws away a URL people may hold |
+
+Whichever is chosen belongs in the resolver contract, not in the index:
+the alias row stays exactly as it is.
+
 Either can be chosen later without a slug moving, which is the point of
 keeping the alias as data rather than as a rule in the slug assigner.

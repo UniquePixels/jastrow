@@ -91,6 +91,13 @@ describe('loadSlugIndex', () => {
 		const index = await loadSlugIndex(fixture('slug-index-blank-lines'));
 		expect(index.size).toBe(1);
 	});
+	it('rejects a null row instead of destructuring it', async () => {
+		// `null` would otherwise throw a bare TypeError, losing the path
+		// and the offending line.
+		await expect(loadSlugIndex(fixture('slug-index-null-row'))).rejects.toThrow(
+			'row rejected',
+		);
+	});
 	it('rejects a slug that is not in NFC', async () => {
 		// The fixture holds U+FB2A, the precomposed shin-with-dot
 		// presentation form, whose NFC is the decomposed pair. An NFC row
@@ -112,6 +119,13 @@ describe('loadAliases', () => {
 		await expect(
 			loadAliases(fixture('slug-aliases-duplicate')),
 		).rejects.toThrow('duplicate alias אב');
+	});
+	it('rejects an array row', async () => {
+		// An array reads every field as undefined, so without this guard
+		// the refusal would name the shape check rather than the row.
+		await expect(
+			loadAliases(fixture('slug-aliases-array-row')),
+		).rejects.toThrow('row rejected');
 	});
 	it('rejects an alias that is not in NFC', async () => {
 		await expect(loadAliases(fixture('slug-aliases-nfd'))).rejects.toThrow(

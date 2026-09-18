@@ -338,6 +338,19 @@ describe('validateTruth against the slug index', () => {
 		).toEqual(["alias גמל is also A00009's slug"]);
 	});
 
+	it('reports a family with rows but no -1 member', () => {
+		// No valid alias target exists at all. auditAliases returns this
+		// as a problem rather than an `add`, so dropping it would let the
+		// tree pass with no canonical bare URL for the family.
+		const orphaned = tree(
+			entry('A00001', 'גמל-2', 'x'),
+			entry('A00002', 'גמל-3', 'y'),
+		);
+		expect(check(undefined, new Map(), orphaned)).toEqual([
+			'A00001: no גמל-1 among 2 members',
+		]);
+	});
+
 	it('reports an alias pointing at a rid the index does not name', () => {
 		expect(check(undefined, new Map([['גמל', 'A00009']]))).toEqual([
 			'alias גמל points at A00009, which has no index row',
