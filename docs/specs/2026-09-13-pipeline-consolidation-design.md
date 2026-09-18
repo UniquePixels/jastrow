@@ -171,10 +171,11 @@ Pipeline faults are not in this table: they already refuse the write
 cannot ship unclassified.
 
 `headword-unparsed`'s lexical check admits a single space between
-words: 275 of its 309 rows today are multi-word headwords that parse
-and carry nothing else outside the lexical set. The 276th, `A02002`
-(`*כְּפַר א׳ אָמוּס`), keeps its row for the `*` inside its text
-(step 9).
+words: 276 of its 309 rows today are multi-word headwords that parse
+and carry nothing else outside the lexical set (step 9). The one that
+looks otherwise, `A02002` (`*כְּפַר א׳ אָמוּס`), is clean too: its `*`
+is the reconstructed-form marker, which the grammar strips before the
+check.
 
 **The publication gate.** v2 is published only when the review
 report's `blocks` section is empty **and** §11 step 11 has ruled
@@ -670,11 +671,11 @@ Steps 1–4 have shipped and are kept as history.
    `docs/v2/review-report.md` (§3.1.1); `headword-unparsed` stops
    firing on a space between words; `docs/v2/research-backlog.md`
    replaces the hand-written queue. The control is a dry run: gates
-   and rule counts unchanged, `headword-unparsed` 309 → 34, and
-   today's report 36 `blocks` (34 headwords, 2 slugs) and 2,204
+   and rule counts unchanged, `headword-unparsed` 309 → 33, and
+   today's report 35 `blocks` (33 headwords, 2 slugs) and 2,204
    `defer`.
    Measuring the queue corrected four figures §9 had carried: 276 of
-   the 309 unparsed headwords parse (275 are only multi-word); `D00341` was repaired in step 8,
+   the 309 unparsed headwords parse (all multi-word); `D00341` was repaired in step 8,
    leaving 3 deferred rows, not 4; `patterns.jsonl` has 5 `blocked`
    classes, not 1; and the earlier chunk sweep (pilot and
    `tranche-01`, on pre-patch text) left 101 escalations the residue
