@@ -402,10 +402,14 @@ async function regeneratedSlugs(
  * Two headword maps, deliberately: citations resolve against the
  * COMPOSED headwords (transforms respell both an anchor and the
  * headword it names — the gershayim family), while the prev/next chain
- * is a source artefact and must be walked on source spellings. */
+ * is a source artefact and must be walked on source spellings.
+ *
+ * `frozen` picks the slug mode (spec §7): `SLUGS_FROZEN` unless a
+ * caller says otherwise. */
 async function buildIndexes(
 	composed: readonly Composed[],
 	report: Report,
+	frozen = SLUGS_FROZEN,
 ): Promise<Indexes> {
 	const headwordMap = buildHeadwordMap(composed.map((c) => c.entry));
 	const sourceHeadwordMap = buildHeadwordMap(composed.map((c) => c.source));
@@ -413,7 +417,7 @@ async function buildIndexes(
 		rid: c.source.rid,
 		text: decomposeForm(c.entry.headword).form.text,
 	}));
-	const { prior, problems, slugIndex, slugs } = SLUGS_FROZEN
+	const { prior, problems, slugIndex, slugs } = frozen
 		? await frozenSlugs(forms, report)
 		: await regeneratedSlugs(forms, report);
 	const pages = await loadPageIndex();
@@ -589,7 +593,7 @@ async function writeAll(
 /** The run summary on stdout: one line per gate, the row-kind counts
  * alongside the unresolved total, the stale-pin/drift line, and where
  * the written evidence went. */
-function printGates(report: Report): void {
+function printGates(report: Report, slugMode: string): void {
 	for (const [name, t] of Object.entries(report.gates)) {
 		console.log(
 			`gate ${name}=${t.pass}/${t.total} failures=${t.failures.length}`,
@@ -614,9 +618,8 @@ function printGates(report: Report): void {
 		'slug-bare-held',
 		'slug-unsafe',
 	];
-	console.log(
-		`slugs=${SLUGS_FROZEN ? 'frozen' : 'regenerated'} ${slugKinds.map((k) => `${k}=${kinds.get(k) ?? 0}`).join(' ')}`,
-	);
+	const slugCounts = slugKinds.map((k) => `${k}=${kinds.get(k) ?? 0}`);
+	console.log(`slugs=${slugMode} ${slugCounts.join(' ')}`);
 	console.log(`report written to ${REPORT_PATH}; evidence to ${BLESSING_PATH}`);
 }
 
@@ -643,7 +646,12 @@ async function main(): Promise<void> {
 	await gateQuarantine(report);
 	await writeReport(report);
 	await Bun.write(BLESSING_PATH, `${renderBlessing(report, samples)}\n`);
-	printGates(report);
+	// Read off what the run did, not the constant: only a regenerating
+	// run returns an index to write.
+	printGates(
+		report,
+		indexes.slugIndex === undefined ? 'frozen' : 'regenerated',
+	);
 	if (!isGreen(report)) {
 		throw new Error('at least one gate is red; see the report');
 	}
