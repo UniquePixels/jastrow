@@ -36,6 +36,7 @@ import {
 } from './migrate/gates.ts';
 import { decomposeForm } from './migrate/headword.ts';
 import { type RunOptions, runOptions } from './migrate/options.ts';
+import { unbasedOrphans } from './migrate/orphan-refs.ts';
 import { loadPageIndex, type PagePlacement } from './migrate/page.ts';
 import {
 	markMissingTargets,
@@ -278,6 +279,19 @@ async function composeAll(
 	report.rules = rules.rows();
 	markMissingTargets(groups, report);
 	return composed;
+}
+
+/** Gate 9's `orphan-ref-unbased` fault: every `REPAIRED_ORPHAN_ITEMS`
+ * obligation still resolved against the COMPOSED entries — run after
+ * `composeAll` so patches and transforms have already had their say.
+ * A miss is both a row (for the counted kinds line) and a composition
+ * failure, so `isGreen` refuses the run rather than reporting it. */
+function checkOrphanRefs(composed: readonly Composed[], report: Report): void {
+	const lines = unbasedOrphans(composed.map((c) => c.entry));
+	report.rows.push(
+		...lines.map((l) => lineRow(l, 'orphan-ref-unbased', 'pipeline', 'fault')),
+	);
+	report.gates.composition.failures.push(...lines);
 }
 
 /** The collision histogram: members per stem → number of such stems.
@@ -615,6 +629,11 @@ function printGates(report: Report, slugMode: string): void {
 	for (const row of report.rows) {
 		kinds.set(row.kind, (kinds.get(row.kind) ?? 0) + 1);
 	}
+	// Printed even at zero, like the slug kinds below: a gate that found
+	// nothing to flag reads the same as one that never ran.
+	if (!kinds.has('orphan-ref-unbased')) {
+		kinds.set('orphan-ref-unbased', 0);
+	}
 	const kindCounts = [...kinds].map(([k, n]) => `${k}=${n}`).join(' ');
 	console.log(`unresolved=${report.unresolved.length} ${kindCounts}`);
 	console.log(
@@ -653,6 +672,7 @@ async function main(): Promise<void> {
 	}).compile(entrySchema);
 	const report = createReport();
 	const composed = await composeAll(report, options);
+	checkOrphanRefs(composed, report);
 	const indexes = await buildIndexes(composed, report);
 	const { samples, truths } = finishAll(composed, indexes, report, validate);
 	await gateQuarantine(report);
