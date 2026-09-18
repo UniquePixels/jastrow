@@ -211,11 +211,29 @@ No entry data is written. A person decides whether to run the update
 |---|---|---|
 | 50 registered transform rules | rules | none |
 | `repairs.ts` general passes (rejoin, units, lettered, form sections) | rules | none |
-| `repairs.ts` hand tables: `CHOPPED`, `IMPLIED_ONE`, `DASH_LABELS`, `REFS_REMOVALS`, `DEFERRED`, `REPAIRED_ORPHAN_ITEMS` | patches | convert each row to a patch; delete the tables |
+| `repairs.ts` hand tables: `CHOPPED`, `IMPLIED_ONE`, `DASH_LABELS`, `REFS_REMOVALS`, `DEFERRED`, `REPAIRED_ORPHAN_ITEMS` | patches | *Shipped, step 8.* Converted; tables deleted — breakdown below |
 | 147 accepted patches, quarantine rows | patches | none beyond §4.2 |
 | headword grammar, page confidence, markup carry (in `migrate/`) | review detectors | emit structured rows |
 | 72 judgment classes in `data/patches/patterns.jsonl` | review detectors, where a detector exists in archived research code | port detectors one class at a time; not a prerequisite for anything else |
 | `research/`, `provenance/`, `body/{census,review,migrate-dry,implied-one-census,fixtures/extract}.ts`, `patch/seed-implied-one.ts`, `patch/seed-tranche.ts`, `patch/seed-sense-runs.ts`, `page-index/` build code | archive (§8) | move. **Corrected 2026-09-16 (step 6):** this row named `seed-implied-one.ts` only; `seed-tranche.ts` imports `../research/chunks.ts` and `seed-sense-runs.ts` imports `seed-tranche.ts`, so all three seeders archive together |
+
+**Where each table went** (step 8; measured 2026-09-18 from the
+seeder's actual output — `data/patches/reviewed/patches.jsonl` and
+`manifest.jsonl` — never from this plan). `admin/pipeline/patch/seed-reviewed.ts`
+ran once and wrote 96 patches, `P000194`–`P000289`, for 66 rids: 36
+`join`, 48 `replace`, 9 `retag`, 3 `unref`. The reviewed manifest
+records 66 `repaired` rids and 3 `needs_human_judgment` (`D00470`,
+`K00081`, `R00519`).
+
+| Table | Went to |
+|---|---|
+| `CHOPPED` (36) | reviewed `join` (36) + `replace` (29) where a rule used to fix spacing or links |
+| `IMPLIED_ONE` (3), `DASH_LABELS` (5), `D00341` | reviewed `retag` (9, including `D00341`) + `replace` (1) for `D00341`'s `[` |
+| `IMPLIED_ONE_TEXT` (1), `REINSERTS` (14), `CITE_WRAPS` (3) | reviewed `replace` (18), byte-adding |
+| `REFS_REMOVALS` (3) | reviewed `unref` (3) |
+| `DEFERRED` (3) | `needs_human_judgment` records in the reviewed manifest → `review-deferred` rows |
+| `CONFIRMED_NO_CHANGE` (19) | listed in `data/patches/reviewed/README.md`; no patch |
+| `REPAIRED_ORPHAN_ITEMS` (24) | `admin/pipeline/migrate/orphan-refs.ts`, a real gate again |
 
 ### 4.2 Patch preflight
 
@@ -247,6 +265,23 @@ patches still hold. Under R3 (maintainer, 2026-09-14):
 
 Silent skipping is never allowed: every skip is a row and a count in
 the report header.
+
+**Who may add bytes** (maintainer, 2026-09-18). A patch a person wrote
+from a print check lives in `data/patches/reviewed/`; the loader
+marks it human and the no-new-text rule does not apply. Agent patches
+are unchanged. Reviewed patches apply first in `patch-apply` and are
+outside Ruling C.
+
+The maintainer's ruling in full: "an agent patch can not add/remove, a
+human patch can." Agent patches are unchanged by this step: the
+no-new-text validator (`patch/no-new-text.ts`) still holds every
+agent-authored patch to a sub-multiset of the original entry's bytes,
+plus the closed-grammar marker allowance on `retag`/`split`/`replace`
+(maintainer ruling, 2026-08-11). **Open, not decided:** an agent patch
+may already *remove* bytes — 7 `delete segment` patches in the
+accepted corpus today, and a `replace` may shorten the text it
+targets — which the "remove" half of the 2026-09-18 ruling would
+forbid if read literally. Left for the maintainer.
 
 ## 5. Gates, tests, and CI
 
@@ -554,7 +589,29 @@ Steps 1–4 have shipped and are kept as history.
    moving 26 slugs and taking `slug-unsafe` from 12 to 2; `unsafeSlugs`
    became an allow-list (it had found 12 of the 22 notation slugs).
    Nine gates green; a second dry run reported `slug-changed=0`.
-8. `repairs.ts` hand tables → patches (§4.1).
+8. *Shipped (step 8).* `repairs.ts` hand tables → patches (§4.1).
+   `seed-reviewed.ts` ran once and wrote 96 patches (`P000194`–
+   `P000289`) for 66 rids: 36 `join`, 48 `replace`, 9 `retag`, 3
+   `unref`; the reviewed manifest records 66 `repaired` and 3
+   `needs_human_judgment` (`D00470`, `K00081`, `R00519`). Before the
+   cut-over, an ordering measurement over the 66 repaired rids found
+   33 identical whether the old repair ran before or after the
+   transforms, 28 differing only in whitespace, 2 differing in real
+   text (`C00062`'s rtl span, `H00871`'s two `Ib.` links), and 3
+   broken outright (`C01169`, `C01331`, `V00765`) — every seeded patch
+   was authored against post-transform text, so all 66 reproduce it
+   exactly regardless. Cut-over (`rm -rf data/entries && bun
+   pipeline:migrate --write && bun qa:format`): `git status --short
+   data/entries data/slug-index` came back empty, so the entry tree
+   is byte-identical; patches applied rose 118 → 214; `bun run
+   transform:invariants` 11/11. Three blessing rule-count rows moved:
+   `paren-tag-no-space` 136 → 108 (the 28 rejoin rids), `bare-rtl-hebrew`
+   5120 → 5121 (`N00327`), `unlinked-bare-anaphor` 1750 → 1749
+   (`H00871`); the six non-binyan `repairs:*` rows are gone. The
+   orphan gate (`migrate/orphan-refs.ts`, row kind
+   `orphan-ref-unbased`) is a real gate again: a green run reports 0,
+   and the positive control (`P00331`'s cite-wrap patch removed)
+   reports 1 and exits 1.
 9. Review-queue doc and Sefaria report refresh (§9).
 10. Terms sweep (§1.1, `docs/glossary.md`): documents say source,
     entry, compiled, reference and correction data, and import for
@@ -579,3 +636,4 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-17 | Maintainer's challenge to the slug design answered by measurement: the hazard is not Sefaria adding entries (Jastrow is a closed 1903 text, rids are dense and contiguous) but our own headword rules — 6,570 slugs, 20% of the corpus, differ between the source and composed spellings. The rid-renumbering contingency was dropped; §7 rewritten around the measured reason. §7.2 bare-stem aliases added (4,407 rows, frozen like slugs) after the ruling that every family's bare name must reach its first member; Sefaria 404s on both bare forms and exposes the family through `/api/words/` only. `docs/v2/url-routes.md` opened for the Sefaria URL-compatibility route and the landing-behaviour choice; both listed in §10 |
 | 2026-09-17 | Step 7: `data/slug-index/` seeded (32,512 rows, 4,407 aliases); `assignSlugs` takes the prior assignment; `migrate` reads the index and emits five review rows; gate 6's bare-slug clause relaxed for frozen families; entry-data validation checks slug against index row both ways. Nine gates green and the blessing doc byte-identical across two dry runs. `slug-unsafe` added as a fifth row kind: 12 slugs carry editorial notation into a URL. The "11,627 numbered members" figure corrected to 11,626 — P00224's slug ends `-²`, which a loose digit test counted |
 | 2026-09-18 | Maintainer overruled step 7's freeze: R10 binds at v2 publication, not during development. `SLUGS_FROZEN = false` until then — runs regenerate slugs and aliases, report `slug-changed`, and `--write` rewrites the index; the frozen path is kept behind the switch. `slugStem` drops `*`, `(…)`, `?`, `,`, Roman numerals and superscripts, keeps `=`: 26 slugs moved, aliases 4,407 → 4,412, numbered members 11,626 → 11,640, `slug-unsafe` 12 → 2. `unsafeSlugs` is now an allow-list. §7, §7.1–7.3 and step 7 amended |
+| 2026-09-18 | Step 8: `repairs.ts`'s rid-keyed hand tables converted to reviewed patches (§4.1) and the tables deleted; §4.2 "Who may add bytes" records the authorship ruling and its open question on agent removals; §11 step 8 spelled out with measured numbers. Rule and helper comments elsewhere that quote a count "measured after `applyRepairs`" are left as dated measurements of that snapshot — `applyRepairs` itself changed (rid-keyed passes moved out) but the count a comment recorded is still what that run measured, so those comments are not edited one by one |

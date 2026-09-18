@@ -105,9 +105,12 @@ if (import.meta.main) {
 				absorbed += result.carryOver.absorbed.length;
 				carried += result.carryOver.carried.length;
 			} catch (error) {
-				// `composeEntry` throws for a tripped transform gate or a
-				// drifted `repairs.ts` find-text — the two are fixed in
-				// different files, so the reason says which.
+				// `composeEntry` throws `TransformFailure` for a tripped
+				// transform gate. `applyRepairs` no longer holds rid-keyed
+				// find-text assertions (those moved to reviewed patches in
+				// consolidation step 8, spec §4.1) and does not throw, so
+				// the `'repair'` label below is dead code today; kept as the
+				// fallback in case a future `applyRepairs` pass throws.
 				problems.push({
 					reason: `${error instanceof TransformFailure ? 'transform' : 'repair'}: ${error instanceof Error ? error.message : String(error)}`,
 					rid: source.rid,
