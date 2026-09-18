@@ -68,7 +68,7 @@ mappings, is [`docs/glossary.md`](../glossary.md).
 | R7 | **Review items become issues** in the tracker the admin tool integrates with (GitHub Issues or similar). Until that tool exists, one consolidated review document stands in. |
 | R8 | **Data terms** (2026-09-15). Source data is Sefaria's export; entry data is `data/entries/` (formerly "truth"); compiled data is what the web app loads; reference data is our lookup input (today the page index); correction data is patches and quarantine. `migrate` becomes import; data commands take a `data:` prefix (`data:fetch`, `data:import`, `data:compile`). Defined in §1.1 and `docs/glossary.md`. |
 | R9 | **`migrate` is not CI work** (2026-09-15). It runs when a person chooses to: a new export or a rule change. That person reads the report and commits the output with the source data it came from. Per-PR CI checks code and validates entry data; it never runs `migrate` and never reads the source data. |
-| R10 | **A published slug never changes** (2026-09-17). A slug, once published, keeps naming the same entry for good, and is never handed to a different one. The assignment is recorded in `data/slug-index/entries.jsonl` and read as an input by every run; it is not inferred from the entry tree, so a deleted entry's slug stays reserved rather than falling free. A collision family's bare stem is a frozen alias to its first member (`data/slug-index/aliases.jsonl`), unless a member already holds the bare stem as its own slug — then the bare name is that entry and the family has no alias (§7.3, `slug-bare-held`). What moves a slug is our own headword rules, not Sefaria: 20% of slugs differ between the source and composed spellings (§7). |
+| R10 | **A published slug never changes** (2026-09-17). A slug, once published, keeps naming the same entry for good, and is never handed to a different one. The assignment is recorded in `data/slug-index/entries.jsonl` and read as an input by every run; it is not inferred from the entry tree, so a deleted entry's slug stays reserved rather than falling free. A collision family's bare stem is a frozen alias to its first member (`data/slug-index/aliases.jsonl`), unless a member already holds the bare stem as its own slug — then the bare name is that entry and the family has no alias (§7.3, `slug-bare-held`). What moves a slug is our own headword rules, not Sefaria: 20% of slugs differ between the source and composed spellings (§7). **Binds at v2 publication, not before** (2026-09-18): nothing is published yet, so until then every run regenerates slugs and aliases the way it regenerates entries, and `--write` rewrites the index. Publication flips `SLUGS_FROZEN`; from then the rest of this ruling holds (§7.1). |
 | R11 | **The write is atomic** (2026-09-17). `import` composes, gates and reports in full before it touches `data/entries/`, and replaces the tree in one move only on a clean run. The "refuse unless the tree is empty" guard goes with it: it is a relic of the withdrawn D14, not a safety property. What the new tree *contains* is decided by §3.2's merge — never a blind overwrite of hand edits — and the guard is not replaced by an interactive prompt: a two-minute run would prompt long after the person walked away, it would block any scripted use, and `data/entries/` is committed, so git already makes a bad write recoverable. Built with the update run (§10), not in §11 step 7. |
 
 ## 3. Target shape of the pipeline
@@ -324,12 +324,29 @@ form for humans, the tool, and the pipeline.
 A slug is an entry's URL name: the headword stripped of points,
 hyphen-joined, and numbered when several headwords strip to the same
 stem — `אַב־`, `אָב` and `אֵב` all stem to `אב`, so A00012–A00016 hold
-`אב-1` … `אב-5`. 4,407 stems are shared, and 11,626 of the 32,512
+`אב-1` … `אב-5`. 4,412 stems are shared, and 11,640 of the 32,512
 entries (36%) are numbered members of such a family.
 
-`migrate/slug.ts` says "assigned once, then frozen", but `assignSlugs`
-takes no prior assignment: it renumbers every collision family from
-scratch on each run, in rid order.
+The stem also drops Jastrow's editorial notation (2026-09-18): `*`,
+`(…)`, `?`, `,`, a Roman homograph numeral and a superscript. A parsed
+headword has lost these already — 1,337, 2,870 and 806 entries for
+`*`, numeral and superscript — so this makes the 20 unparsed headwords
+that kept them agree. `=` is kept: A01175 and A01345 are cross
+references the headword work still owes, and `slug-unsafe` names them.
+The change moved 26 slugs: 20 lost notation, 6 renumbered because a
+cleaned stem joined an existing family.
+
+**Frozen at publication, not now** (2026-09-18). Step 7 shipped the
+index as a binding input straight away. That was backwards: R10 is
+about a *published* slug, and nothing is published. Until v2 ships,
+`SLUGS_FROZEN` (`admin/pipeline/migrate/slug-index.ts`) is `false`. A run assigns from
+scratch, reports each slug that moved against the committed index as
+`slug-changed`, and `--write` rewrites both index files. The machinery
+below — prior assignment, retired rows, frozen aliases, the relaxed
+gate-6 clause — is kept and switches on with that constant. It must
+not be flipped before index maintenance ships with R11: a frozen run
+assigns a new rid a slug but does not write it back, so the next run
+would assign it afresh.
 
 **What actually moves a slug** (measured 2026-09-17). Not a new entry
 from Sefaria: Jastrow is a closed 1903 text, rids come from the export
@@ -347,15 +364,15 @@ cuts that cord.
 
 `data/slug-index/entries.jsonl` records the assignment: one row per rid,
 `{"rid","slug","status"}`, rid-sorted, 32,512 rows and 1.73 MB as the
-tree stands. It is reference data (§1.1) — the pipeline reads it as an
-input. `status` is `live` or `retired`; a retired row keeps its slug
+tree stands. It is reference data (§1.1) — once frozen, the pipeline
+reads it as an input. `status` is `live` or `retired`; a retired row keeps its slug
 reserved so a URL is never handed to a different word.
 
-**Who writes it.** Step 7 only seeds and reads: a run reports the rows
-the index is missing (`slug-new`, `slug-alias-new`) and writes nothing.
-Appending a row for each new rid and retiring the absent ones is index
-maintenance, and it ships with the atomic write (R11, §10). Until then a
-new entry means running that update by hand.
+**Who writes it.** Before publication, `migrate --write`, from the
+run's own assignment. After it, a frozen run reports the rows the index
+is missing (`slug-new`, `slug-alias-new`) and writes nothing; appending
+a row for each new rid and retiring the absent ones is index
+maintenance, and it ships with the atomic write (R11, §10).
 
 The record lives there rather than being read back off `data/entries/`
 because under R11's atomic swap the old entry tree is gone at the moment
@@ -375,16 +392,16 @@ them.
 ### 7.2 Bare-stem aliases
 
 `data/slug-index/aliases.jsonl` gives a collision family's bare stem a
-destination: `{"rid","slug"}`, 4,407 rows and 0.15 MB, the bare stem
+destination: `{"rid","slug"}`, 4,412 rows and 0.15 MB, the bare stem
 pointing at the family's first member — the one holding `stem-1`. Typing
 `אב` reaches the start of the run rather than nothing.
 
 Not *every* family: one whose bare stem is already some member's own slug
 has no alias to give, because a name cannot be both an entry and a
 redirect. That is the `slug-bare-held` row of §7.3, and it arises only
-under freezing. All 4,407 families have an alias as the tree stands.
+under freezing. All 4,412 families have an alias as the tree stands.
 
-An alias is frozen exactly as a slug is. It is assigned once and never
+Once frozen, an alias is frozen exactly as a slug is. It is assigned once and never
 re-points, even if a member with a lower rid arrives later; a name that
 moves is the thing this section exists to prevent.
 
@@ -406,6 +423,9 @@ but it is an API, not a URL. A bare-stem route puts us slightly ahead of
 the source.
 
 ### 7.3 Assignment under freezing
+
+Applies once `SLUGS_FROZEN` is `true`. Before that every rid is a new
+rid in an empty index.
 
 | Case | Result |
 |---|---|
@@ -529,6 +549,11 @@ Steps 1–4 have shipped and are kept as history.
    carrying Jastrow's editorial notation (`*`, `(…)`, `=`, `?`) into a
    URL. Plan and findings:
    [`docs/superpowers/plans/2026-09-17-consolidation-step7.md`](../superpowers/plans/2026-09-17-consolidation-step7.md).
+   **Follow-up (2026-09-18):** the freeze was premature and is switched
+   off until publication (R10, §7); `slugStem` drops editorial notation,
+   moving 26 slugs and taking `slug-unsafe` from 12 to 2; `unsafeSlugs`
+   became an allow-list (it had found 12 of the 22 notation slugs).
+   Nine gates green; a second dry run reported `slug-changed=0`.
 8. `repairs.ts` hand tables → patches (§4.1).
 9. Review-queue doc and Sefaria report refresh (§9).
 10. Terms sweep (§1.1, `docs/glossary.md`): documents say source,
@@ -553,3 +578,4 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-17 | R10 (a published slug never changes; the assignment is recorded in `data/slug-index/entries.jsonl`, not inferred from the entry tree) and R11 (the write is atomic; the empty-tree guard is a D14 relic and retires with the update run, and is not replaced by a prompt). §7 rewritten with §7.1 the index and §7.2 the assignment rules; §1.1 reference data, §5.1 validation row and §10 row 1 amended; §11 step 7 spelled out and step 6's PR number backfilled |
 | 2026-09-17 | Maintainer's challenge to the slug design answered by measurement: the hazard is not Sefaria adding entries (Jastrow is a closed 1903 text, rids are dense and contiguous) but our own headword rules — 6,570 slugs, 20% of the corpus, differ between the source and composed spellings. The rid-renumbering contingency was dropped; §7 rewritten around the measured reason. §7.2 bare-stem aliases added (4,407 rows, frozen like slugs) after the ruling that every family's bare name must reach its first member; Sefaria 404s on both bare forms and exposes the family through `/api/words/` only. `docs/v2/url-routes.md` opened for the Sefaria URL-compatibility route and the landing-behaviour choice; both listed in §10 |
 | 2026-09-17 | Step 7: `data/slug-index/` seeded (32,512 rows, 4,407 aliases); `assignSlugs` takes the prior assignment; `migrate` reads the index and emits five review rows; gate 6's bare-slug clause relaxed for frozen families; entry-data validation checks slug against index row both ways. Nine gates green and the blessing doc byte-identical across two dry runs. `slug-unsafe` added as a fifth row kind: 12 slugs carry editorial notation into a URL. The "11,627 numbered members" figure corrected to 11,626 — P00224's slug ends `-²`, which a loose digit test counted |
+| 2026-09-18 | Maintainer overruled step 7's freeze: R10 binds at v2 publication, not during development. `SLUGS_FROZEN = false` until then — runs regenerate slugs and aliases, report `slug-changed`, and `--write` rewrites the index; the frozen path is kept behind the switch. `slugStem` drops `*`, `(…)`, `?`, `,`, Roman numerals and superscripts, keeps `=`: 26 slugs moved, aliases 4,407 → 4,412, numbered members 11,626 → 11,640, `slug-unsafe` 12 → 2. `unsafeSlugs` is now an allow-list. §7, §7.1–7.3 and step 7 amended |

@@ -5,11 +5,10 @@
  * member in rid order. The bare form of a colliding stem is reached
  * through `data/slug-index/aliases.jsonl`, not by an entry holding it.
  *
- * "Assigned once, then frozen" was a comment this file did not keep
- * until step 7: `assignSlugs` now takes the prior assignment and only
- * fills in what has none. Before that it renumbered every family from
- * scratch, so a headword respelling moved published URLs — 20% of
- * slugs differ between the source and composed spellings.
+ * `assignSlugs` can take a prior assignment and only fill in what has
+ * none — that is freezing (R10). Whether a run passes one is decided by
+ * `SLUGS_FROZEN` (`slug-index.ts`): until v2 is published every run
+ * assigns from scratch, as it composes every entry from scratch.
  */
 // Escapes, never pasted literals: a combining mark typed into a class
 // attaches to its neighbour and the range silently widens (html.ts).
@@ -18,16 +17,29 @@
 // a mark escape sitting next to a base-character escape in one class
 // as ambiguous (headword.ts).
 const MARKS = /(?:[\u0591-\u05C7]|\u0307)/gu;
-const SPACES = /\s+/gu;
+const SPACES = /\s+/u;
+/** Jastrow's editorial notation, which is about the word and not part
+ * of it: `*` hypothetical, `(…)` uncertain, `?` doubtful, `,` between
+ * homograph numerals, and superscript disambiguators (U+00B9/B2/B3 and
+ * U+2070-209F). A parsed headword has already lost `*`, the numeral and
+ * the superscript by the time it reaches here — 1,337, 2,870 and 806
+ * entries — so stripping them from the unparsed rest makes the two
+ * agree. `=` is kept: it marks a cross reference the headword itself
+ * still owes, and the odd slug keeps that visible (A01175, A01345). */
+const NOTATION = /[*()?,\u00B9\u00B2\u00B3\u2070-\u209F]/gu;
+/** A homograph numeral: a whole word, never a run inside one. */
+const ROMAN = /^[IVXLC]+$/u;
 
 /** The unpointed, hyphen-joined stem a headword string slugs to. */
 function slugStem(text: string): string {
 	return text
 		.normalize('NFD')
 		.replace(MARKS, '')
+		.replace(NOTATION, '')
 		.normalize('NFC')
-		.trim()
-		.replace(SPACES, '-');
+		.split(SPACES)
+		.filter((word) => word !== '' && !ROMAN.test(word))
+		.join('-');
 }
 
 interface SlugAssignment {

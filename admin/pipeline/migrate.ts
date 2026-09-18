@@ -57,12 +57,18 @@ import {
 } from './migrate/report.ts';
 import { assignSlugs, slugStem } from './migrate/slug.ts';
 import {
+	type AliasAudit,
+	type AliasRow,
 	auditAliases,
+	changedSlugs,
 	loadAliases,
 	loadSlugIndex,
+	SLUGS_FROZEN,
 	type SlugFact,
 	type SlugRow,
 	unsafeSlugs,
+	writeAliases,
+	writeSlugIndex,
 } from './migrate/slug-index.ts';
 import type { TruthEntry } from './migrate/types.ts';
 import {
@@ -110,6 +116,17 @@ interface Composed {
 interface Indexes {
 	headwordMap: ReadonlyMap<string, string>;
 	pages: ReadonlyMap<string, PagePlacement>;
+	/** What `--write` puts in `data/slug-index/` — only while slugs are
+	 * not frozen; a frozen run writes nothing there (spec §7.1). */
+	slugIndex?: { aliases: AliasRow[]; rows: SlugRow[] };
+	slugs: ReadonlyMap<string, string>;
+}
+
+/** One run's slugs, and the prior assignment gate 6 excuses. */
+interface SlugPlan {
+	prior: ReadonlyMap<string, string>;
+	problems: string[];
+	slugIndex?: Indexes['slugIndex'];
 	slugs: ReadonlyMap<string, string>;
 }
 
@@ -271,10 +288,10 @@ function collisionHistogram(
 	return Object.fromEntries(collisions);
 }
 
-/** The slug index's review rows (spec §7.2, §7.3): families that
- * should gain a bare-stem alias, families whose bare name is already a
- * member's real slug so none can be given, and slugs carrying a
- * character that does not belong in a URL.
+/** The frozen run's slug-index review rows (spec §7.2, §7.3): families
+ * that should gain a bare-stem alias, families whose bare name is
+ * already a member's real slug so none can be given, and slugs carrying
+ * notation that is not part of the word.
  *
  * Nothing is written. Adding an alias row is index maintenance, which
  * waits for the atomic write (R11); until then a run reports what the
@@ -307,6 +324,17 @@ async function auditSlugIndex(
 	const audit = auditAliases(facts, await loadAliases());
 	report.rows.push(
 		...audit.add.map((a) => lineRow(`${a.rid}: ${a.slug}`, 'slug-alias-new')),
+	);
+	aliasRows(audit, facts, report);
+}
+
+/** The alias and notation rows both modes report. */
+function aliasRows(
+	audit: AliasAudit,
+	facts: readonly SlugFact[],
+	report: Report,
+): void {
+	report.rows.push(
 		...audit.bareHeld.map((l) => lineRow(l, 'slug-bare-held')),
 		...audit.problems.map((l) =>
 			lineRow(l, 'slug-alias-failed', 'pipeline', 'fault'),
@@ -315,27 +343,14 @@ async function auditSlugIndex(
 	);
 }
 
-/** Pass 1's corpus-level indexes, and gates 5, 7, 8 — the three that
- * are properties of the corpus rather than of one entry.
- *
- * Two headword maps, deliberately: citations resolve against the
- * COMPOSED headwords (transforms respell both an anchor and the
- * headword it names — the gershayim family), while the prev/next chain
- * is a source artefact and must be walked on source spellings. */
-async function buildIndexes(
-	composed: readonly Composed[],
+/** Frozen (R10, after publication): the slug index is an INPUT (spec
+ * §7.1). A rid it already names keeps that slug whatever the transforms
+ * did to its headword, and only a rid with no row is assigned. Retired
+ * rows are passed too — they hold their slug without owning an entry. */
+async function frozenSlugs(
+	forms: ReadonlyArray<{ rid: string; text: string }>,
 	report: Report,
-): Promise<Indexes> {
-	const headwordMap = buildHeadwordMap(composed.map((c) => c.entry));
-	const sourceHeadwordMap = buildHeadwordMap(composed.map((c) => c.source));
-	const forms = composed.map((c) => ({
-		rid: c.source.rid,
-		text: decomposeForm(c.entry.headword).form.text,
-	}));
-	// The slug index is an INPUT (spec §7.1, R10): a rid it already
-	// names keeps that slug whatever the transforms did to its
-	// headword, and only a rid with no row is assigned. Retired rows
-	// are passed too — they hold their slug without owning an entry.
+): Promise<SlugPlan> {
 	const index = await loadSlugIndex();
 	const prior = new Map([...index].map(([rid, row]) => [rid, row.slug]));
 	const { assigned, drift, problems, slugs } = assignSlugs(forms, prior);
@@ -349,6 +364,62 @@ async function buildIndexes(
 		index,
 		report,
 	);
+	return { prior, problems, slugs };
+}
+
+/** Not frozen (before publication): every slug and alias is assigned
+ * from the composed headwords, as every entry is composed, and becomes
+ * the index `--write` writes. What moved against the committed index is
+ * reported as `slug-changed`; nothing else holds a run back. */
+async function regeneratedSlugs(
+	forms: ReadonlyArray<{ rid: string; text: string }>,
+	report: Report,
+): Promise<SlugPlan> {
+	const { problems, slugs } = assignSlugs(forms);
+	const facts: SlugFact[] = forms.flatMap(({ rid }) => {
+		const slug = slugs.get(rid);
+		return slug === undefined ? [] : [{ rid, slug }];
+	});
+	const audit = auditAliases(facts, new Map());
+	report.rows.push(
+		...changedSlugs(facts, await loadSlugIndex()).map((l) =>
+			lineRow(l, 'slug-changed'),
+		),
+	);
+	aliasRows(audit, facts, report);
+	const rows: SlugRow[] = facts.map((f) => ({ ...f, status: 'live' }));
+	return {
+		prior: new Map(),
+		problems,
+		slugIndex: { aliases: audit.add, rows },
+		slugs,
+	};
+}
+
+/** Pass 1's corpus-level indexes, and gates 5, 7, 8 — the three that
+ * are properties of the corpus rather than of one entry.
+ *
+ * Two headword maps, deliberately: citations resolve against the
+ * COMPOSED headwords (transforms respell both an anchor and the
+ * headword it names — the gershayim family), while the prev/next chain
+ * is a source artefact and must be walked on source spellings.
+ *
+ * `frozen` picks the slug mode (spec §7): `SLUGS_FROZEN` unless a
+ * caller says otherwise. */
+async function buildIndexes(
+	composed: readonly Composed[],
+	report: Report,
+	frozen = SLUGS_FROZEN,
+): Promise<Indexes> {
+	const headwordMap = buildHeadwordMap(composed.map((c) => c.entry));
+	const sourceHeadwordMap = buildHeadwordMap(composed.map((c) => c.source));
+	const forms = composed.map((c) => ({
+		rid: c.source.rid,
+		text: decomposeForm(c.entry.headword).form.text,
+	}));
+	const { prior, problems, slugIndex, slugs } = frozen
+		? await frozenSlugs(forms, report)
+		: await regeneratedSlugs(forms, report);
 	const pages = await loadPageIndex();
 	report.gates.chain = checkChain(
 		composed.map((c) => c.source),
@@ -361,7 +432,9 @@ async function buildIndexes(
 		pages,
 	);
 	report.slugCollisions = collisionHistogram(forms);
-	return { headwordMap, pages, slugs };
+	return slugIndex === undefined
+		? { headwordMap, pages, slugs }
+		: { headwordMap, pages, slugIndex, slugs };
 }
 
 /** Pass 2: finish and gate every composed entry, in corpus order. */
@@ -490,10 +563,12 @@ function formatTruth(): void {
 	}
 }
 
-/** The one write of the whole pipeline: 32,512 files, formatted, then
- * the report again so its `written` count is on disk. */
+/** The one write of the whole pipeline: 32,512 files, formatted, the
+ * slug index when this run assigned it, then the report again so its
+ * `written` count is on disk. */
 async function writeAll(
 	truths: readonly TruthEntry[],
+	slugIndex: Indexes['slugIndex'],
 	report: Report,
 ): Promise<void> {
 	for (const truth of truths) {
@@ -504,6 +579,13 @@ async function writeAll(
 		report.written++;
 	}
 	formatTruth();
+	if (slugIndex !== undefined) {
+		await writeSlugIndex(slugIndex.rows);
+		await writeAliases(slugIndex.aliases);
+		console.log(
+			`wrote ${slugIndex.rows.length} slug rows and ${slugIndex.aliases.length} aliases`,
+		);
+	}
 	await writeReport(report);
 	console.log(`wrote ${report.written} truth files under ${OUT_DIR}`);
 }
@@ -511,7 +593,7 @@ async function writeAll(
 /** The run summary on stdout: one line per gate, the row-kind counts
  * alongside the unresolved total, the stale-pin/drift line, and where
  * the written evidence went. */
-function printGates(report: Report): void {
+function printGates(report: Report, slugMode: string): void {
 	for (const [name, t] of Object.entries(report.gates)) {
 		console.log(
 			`gate ${name}=${t.pass}/${t.total} failures=${t.failures.length}`,
@@ -529,13 +611,15 @@ function printGates(report: Report): void {
 	// Printed even when every count is zero: a run that says nothing
 	// about slugs reads the same as one that never looked.
 	const slugKinds = [
+		'slug-changed',
 		'slug-new',
 		'slug-frozen-stem-drift',
 		'slug-alias-new',
 		'slug-bare-held',
 		'slug-unsafe',
 	];
-	console.log(slugKinds.map((k) => `${k}=${kinds.get(k) ?? 0}`).join(' '));
+	const slugCounts = slugKinds.map((k) => `${k}=${kinds.get(k) ?? 0}`);
+	console.log(`slugs=${slugMode} ${slugCounts.join(' ')}`);
 	console.log(`report written to ${REPORT_PATH}; evidence to ${BLESSING_PATH}`);
 }
 
@@ -562,12 +646,17 @@ async function main(): Promise<void> {
 	await gateQuarantine(report);
 	await writeReport(report);
 	await Bun.write(BLESSING_PATH, `${renderBlessing(report, samples)}\n`);
-	printGates(report);
+	// Read off what the run did, not the constant: only a regenerating
+	// run returns an index to write.
+	printGates(
+		report,
+		indexes.slugIndex === undefined ? 'frozen' : 'regenerated',
+	);
 	if (!isGreen(report)) {
 		throw new Error('at least one gate is red; see the report');
 	}
 	if (options.write) {
-		await writeAll(truths, report);
+		await writeAll(truths, indexes.slugIndex, report);
 	}
 }
 

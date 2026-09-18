@@ -14,6 +14,25 @@ describe('slugStem', () => {
 		// אָב and אֵב differ only in points: same stem, so they collide.
 		expect(slugStem('אֵב')).toBe(slugStem('אָב'));
 	});
+	it('drops the editorial notation a headword carries, not the word', () => {
+		// Real headwords (2026-07-04 export). Parsed entries already lose
+		// `*`, the numeral and the superscript before they reach here;
+		// these are the unparsed ones that kept them.
+		expect(slugStem('*(אוזפיה)')).toBe('אוזפיה');
+		expect(slugStem('*(?)בַּלְוָוטִי')).toBe('בלווטי');
+		expect(slugStem('(עוּזְרָד ²')).toBe('עוזרד');
+		expect(slugStem('בְּזָא  I, II,')).toBe('בזא');
+		expect(slugStem('מוֹזְלָא , I')).toBe('מוזלא');
+		expect(slugStem('בַּד  V')).toBe('בד');
+	});
+	it('keeps `=`, which marks a cross reference the headword owes', () => {
+		expect(slugStem('אִימְנוּן = הֶמְנוּן')).toBe('אימנון-=-המנון');
+	});
+	it('does not strip a Latin run that is inside a word', () => {
+		// Only a whole whitespace-separated token is a numeral.
+		expect(slugStem('אב IX')).toBe('אב');
+		expect(slugStem('אבI')).toBe('אבI');
+	});
 });
 
 describe('assignSlugs', () => {
@@ -135,14 +154,15 @@ describe('assignSlugs with prior assignments', () => {
 	});
 
 	it('treats a non-ASCII trailing marker as stem, not index', () => {
-		// P00224's real slug is `(עוזרד-²`: Sefaria's homograph mark, not
-		// a family number. Reading it as one would reserve index 2 in a
-		// family that does not exist.
+		// P00224's slug was `(עוזרד-²`: Sefaria's homograph mark, not a
+		// family number. `slugStem` no longer produces one, but a frozen
+		// slug from before would still be read. Taking `²` as 2 would
+		// reserve index 2 in family `עוזרד` and push a new member to `-1`.
 		const { slugs } = assignSlugs(
-			[{ rid: 'P00225', text: '(עוּזְרָד ²' }],
-			new Map([['P00224', '(עוזרד-²']]),
+			[{ rid: 'P00225', text: 'עוּזְרָד' }],
+			new Map([['P00224', 'עוזרד-²']]),
 		);
-		expect(slugs.get('P00225')).toBe('(עוזרד-²-1');
+		expect(slugs.get('P00225')).toBe('עוזרד');
 	});
 });
 
