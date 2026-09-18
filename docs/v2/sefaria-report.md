@@ -171,6 +171,28 @@ followed by another `<a` with identical `href`/`data-ref`.
 
 ---
 
+## 6b. Nested anchors with different targets (1 entry)
+
+**Entry:** `O00832` (סִירָה), `language_reference`
+
+An anchor to one entry wraps two anchors to others. The etymology
+reads "b. h. סיר; סור": two words, each linked on its own. Around both
+sits a third anchor, to סִירְסוּר, whose text is nothing but the two
+inner links and the `; ` between them.
+
+```html
+<a … href="/Jastrow,_סִירְסוּר.1" data-ref="Jastrow, סִירְסוּר 1"><a … href="/Jastrow,_סִיר.1" data-ref="Jastrow, סִיר 1">סִיר</a>; <a … href="/Jastrow,_סוּר.1" data-ref="Jastrow, סוּר 1">סוּר</a></a>
+```
+
+**Fix:** drop the outer anchor; the two inner links stand.
+**Detection:** an `<a>` opened while another is still open, with a
+different `href`. Over every string field of all 32,512 entries this
+finds `O00832` and the three malformed anchors of §5, whose
+unterminated `href` makes every following anchor look nested; nothing
+else.
+
+---
+
 ## 7. refLink hrefs missing the leading slash (7,659 anchors)
 
 ```diff
@@ -342,6 +364,40 @@ so `refs` behaves like an incomplete derivation of the body text.)
 
 The full 32,899-row list (rid → missing refs) is machine-generated
 and available on request — happy to attach it when filing.
+
+---
+
+## 16. Sense lists that start at 2 (informational — matches print)
+
+This one is not a transcription error. We raise it because it affects
+anyone who reads the sense numbers as data.
+
+When sense 1 is only a cross-reference right after the grammatical
+label, Jastrow's print leaves out the `1)` and the next sense opens
+`—2)`. Sefaria transcribes this faithfully, so a consumer sees a
+sequence that starts at 2.
+
+**Example — `B01321` (בַּרְקַאי II):**
+
+```json
+{ "definition": ", v. <a … data-ref=\"Jastrow, בּוֹרְקַי II 1\">בּוֹרְקַי II</a>." },
+{ "number": "—2)", "definition": " כְּפַר ב׳ <i>K’far Barkai</i>, in Palestine; …" }
+```
+
+**Size, each confirmed in our review:** 3 entries where it shows in
+the sense list (`B01321`, `C01169`, `U01787`), and 41 more where the
+`—2)` run sits inside the first sense's text, because the unnumbered
+first sense was never split (`D00072` among them). A further 21
+candidates of the in-text shape have not been reviewed yet, so treat
+44 as a floor, not a total.
+
+**What we did:** jastrow.app inserts the `1)` itself and records each
+insertion as a deviation from print. Whether to do the same is your
+call; we only want you to know the shape exists.
+
+**Detection:** a `senses` list whose first numbered sense is `2)`
+(or `—2)`), or an unnumbered sense whose text contains a `—2)` with
+no `1)` before it.
 
 ---
 
