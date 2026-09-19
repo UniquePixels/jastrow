@@ -65,7 +65,7 @@ mappings, is [`docs/glossary.md`](../glossary.md).
 | R4 | **Three buckets.** Pipeline code is a *rule* (detect + fix, general), a *patch* (one entry's judged fix, applied when its precondition holds), or a *review detector* (detect only, emit a row). Everything else is research and is archived. |
 | R5 | **One formatter.** Biome formats `data/entries/`. The pipeline formats as its last step, the admin tool formats what it writes, contributors run `bun qa`, CI checks. |
 | R6 | **The pipeline runs on the current Sefaria export.** `fetch` is step 1, not a side path. The snapshot it writes is committed with the entry data it produced, so any run is reproducible afterwards without a download. The update process (a new export against edited truth, §3.2) is designed here in outline and built after the §11 sequence. A Sefaria schema change is a code change and out of scope. |
-| R7 | **Review items become issues** in the tracker the admin tool integrates with (GitHub Issues or similar). Until that tool exists, one consolidated review document stands in. |
+| R7 | **Review items become issues** in the tracker the admin tool integrates with (GitHub Issues or similar). Until that tool exists, one consolidated review document stands in. *(2026-09-18: two documents — the generated `docs/v2/review-report.md` for pipeline rows and the hand-written `docs/v2/research-backlog.md` for research leftovers, §3.1.1, §9.)* |
 | R8 | **Data terms** (2026-09-15). Source data is Sefaria's export; entry data is `data/entries/` (formerly "truth"); compiled data is what the web app loads; reference data is our lookup input (today the page index); correction data is patches and quarantine. `migrate` becomes import; data commands take a `data:` prefix (`data:fetch`, `data:import`, `data:compile`). Defined in §1.1 and `docs/glossary.md`. |
 | R9 | **`migrate` is not CI work** (2026-09-15). It runs when a person chooses to: a new export or a rule change. That person reads the report and commits the output with the source data it came from. Per-PR CI checks code and validates entry data; it never runs `migrate` and never reads the source data. |
 | R10 | **A published slug never changes** (2026-09-17). A slug, once published, keeps naming the same entry for good, and is never handed to a different one. The assignment is recorded in `data/slug-index/entries.jsonl` and read as an input by every run; it is not inferred from the entry tree, so a deleted entry's slug stays reserved rather than falling free. A collision family's bare stem is a frozen alias to its first member (`data/slug-index/aliases.jsonl`), unless a member already holds the bare stem as its own slug — then the bare name is that entry and the family has no alias (§7.3, `slug-bare-held`). What moves a slug is our own headword rules, not Sefaria: 20% of slugs differ between the source and composed spellings (§7). **Binds at v2 publication, not before** (2026-09-18): nothing is published yet, so until then every run regenerates slugs and aliases the way it regenerates entries, and `--write` rewrites the index. Publication flips `SLUGS_FROZEN`; from then the rest of this ruling holds (§7.1). |
@@ -136,6 +136,8 @@ Rows route two ways, as the flow diagram draws it: data judgments
 tracker integration; pipeline faults are ordinary code issues.
 
 The blessing doc renders the same report; nothing is hand-written.
+These rows are one candidate baseline for the maintenance dry run
+(§3.3; its baseline is open), which is why the shape is fixed now.
 
 ### 3.1.1 The review report and the publication gate (2026-09-18)
 
@@ -167,8 +169,8 @@ The value is fixed per row kind (maintainer, 2026-09-18):
 | `slug-changed`, `slug-new`, `slug-alias-new`, `slug-bare-held`, `slug-frozen-stem-drift` | `note` | slug movement between runs; expected while slugs are unfrozen (R10) |
 
 Pipeline faults are not in this table: they already refuse the write
-(gate 9). A kind with no entry is a code error, so a new review kind
-cannot ship unclassified.
+(gate 9). An unlisted kind throws at run time, so a run that emits a
+new kind refuses to finish, and the table's own test pins its size.
 
 `headword-unparsed` is `blocks` only for now. The maintainer ruled
 the same day that a headword must be perfect or halt the pipeline, and
@@ -181,9 +183,8 @@ space; the headword work decides what happens to that check.
 
 **The publication gate.** v2 is published only when the review
 report's `blocks` section is empty **and** §11 step 11 has ruled
-every research class that still blocks the cutover.
-These rows are one candidate baseline for the maintenance dry run
-(§3.3; its baseline is open), which is why the shape is fixed now.
+every research class that still blocks the cutover. This is a process
+rule: nothing in code refuses a publish while `blocks` rows exist.
 
 ### 3.2 Fresh run vs update run
 
@@ -579,7 +580,7 @@ stays runnable on its own.
 | Review rows → tracker issues; idempotent on `(rid, kind)`; batching for volume (thousands of rows will not work as one issue each) | admin tool spec |
 | `compile.ts` | data-architecture §3 |
 | Port judgment-class detectors from archived research code | ad hoc, one class per PR |
-| Review the 298 low-confidence page placements | review queue |
+| Review the 298 low-confidence page placements | `docs/v2/review-report.md`'s `defer` rows, then the tracker |
 | **Sefaria URL compatibility:** a route where swapping `sefaria.org` for `jastrow.app` finds the word. Their canonical name is `Jastrow,_<headword>` using the export's `headword` string verbatim, so the mapping is a column we already hold; the work is routing and percent-encoding | `docs/v2/url-routes.md`, app work |
 | Drift and "creates no defect" checks from the retired corpus files: each one worth keeping becomes a review detector emitting report rows, with no pinned numbers (§5.1) | ad hoc, one per PR; start from `docs/v2/retired-corpus-checks.md` |
 | Drift-classify carry-over zero-match (check target on pre-transform source; 3 of 66 carry-overs are exceptions to that test: P000024, P000029, P000027) | after §11 |

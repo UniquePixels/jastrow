@@ -17,6 +17,27 @@ function sample(): Report {
 	return report;
 }
 
+/** A patch row (object literal, since `lineRow` only builds `review`
+ * rows), a note row, and two same-kind rows in a known order. */
+function sampleForOrdering(): Report {
+	const report = createReport();
+	report.entries = 4;
+	report.rows = [
+		{
+			bucket: 'patch',
+			detail: 'source now differs from both the before and after',
+			kind: 'upstream-changed',
+			rid: 'A00010',
+			severity: 'review',
+		},
+		lineRow('A00011: bare stem now free', 'slug-new'),
+		lineRow('A00012: p1a (medium)', 'page-confidence-medium'),
+		lineRow('A00013: p2b (medium)', 'page-confidence-medium'),
+	];
+	classifyRows(report);
+	return report;
+}
+
 describe('renderReviewReport', () => {
 	it('renders the exact document', () => {
 		expect(renderReviewReport(sample())).toBe(
@@ -55,5 +76,16 @@ describe('renderReviewReport', () => {
 	});
 	it('never renders a fault', () => {
 		expect(renderReviewReport(sample())).not.toContain('A00004');
+	});
+	it('sections a patch row, a note row, and keeps same-kind run order', () => {
+		const rendered = renderReviewReport(sampleForOrdering());
+		const beforePublication = rendered.slice(
+			rendered.indexOf('## Before publication'),
+			rendered.indexOf('## Deferred'),
+		);
+		expect(beforePublication).toContain('A00010');
+		const notes = rendered.slice(rendered.indexOf('## Notes'));
+		expect(notes).not.toContain('_none_');
+		expect(rendered.indexOf('A00012')).toBeLessThan(rendered.indexOf('A00013'));
 	});
 });

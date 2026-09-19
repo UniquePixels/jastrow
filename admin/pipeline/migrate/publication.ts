@@ -46,4 +46,4 @@ function classifyRows(report: Report): void {
 	}
 }
 
-export { classifyRows, publicationOf };
+export { classifyRows, PUBLICATION, publicationOf };

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { classifyRows, publicationOf } from './publication.ts';
+import { classifyRows, PUBLICATION, publicationOf } from './publication.ts';
 import { createReport, lineRow, type Publication } from './report.ts';
 
 // Spec §3.1.1, one tuple per kind.
@@ -18,6 +18,17 @@ const TABLE: ReadonlyArray<readonly [string, Publication]> = [
 	['slug-bare-held', 'note'],
 	['slug-frozen-stem-drift', 'note'],
 ];
+
+describe('PUBLICATION', () => {
+	it('agrees in size with the test table, so an unlisted kind fails here', () => {
+		expect(PUBLICATION.size).toBe(TABLE.length);
+	});
+	it('maps every table kind to the table value', () => {
+		for (const [kind, expected] of TABLE) {
+			expect(PUBLICATION.get(kind)).toBe(expected);
+		}
+	});
+});
 
 describe('publicationOf', () => {
 	for (const [kind, expected] of TABLE) {
