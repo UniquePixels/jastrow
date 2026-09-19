@@ -18,7 +18,11 @@ function section(title: string, rows: readonly ReportRow[]): string[] {
 	if (rows.length === 0) {
 		return [...head, '_none_'];
 	}
-	const kinds = [...new Set(rows.map((r) => r.kind))].toSorted();
+	// A fixed locale keeps the committed report's order the same on
+	// every machine.
+	const kinds = [...new Set(rows.map((r) => r.kind))].toSorted((a, b) =>
+		a.localeCompare(b, 'en'),
+	);
 	return [
 		...head,
 		...kinds.flatMap((kind, i) => {
