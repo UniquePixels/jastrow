@@ -23,6 +23,10 @@ type GateName = (typeof GATE_NAMES)[number];
 type Bucket = 'patch' | 'pipeline' | 'review';
 type Severity = 'fault' | 'review';
 
+/** Whether a review row must be resolved before v2 is published
+ * (consolidation spec §3.1.1). Faults carry none: they refuse the write. */
+type Publication = 'blocks' | 'defer' | 'note';
+
 /** One report row (consolidation spec §3.1): the one shape every
  * review item, patch re-judgment and pipeline fault shares, so a later
  * run can be diffed against this one and the admin tool can route rows
@@ -31,6 +35,8 @@ interface ReportRow {
 	bucket: Bucket;
 	detail: string;
 	kind: string;
+	/** Stamped by `classifyRows` on `review` and `patch` rows only. */
+	publication?: Publication;
 	rid: string;
 	severity: Severity;
 }
@@ -342,6 +348,7 @@ export type {
 	GateName,
 	PatchOutcome,
 	PatchOutcomeRow,
+	Publication,
 	Report,
 	ReportRow,
 	RuleCount,

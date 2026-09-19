@@ -43,6 +43,7 @@ import {
 	type PatchGroups,
 	recordPatchOutcomes,
 } from './migrate/patches.ts';
+import { classifyRows } from './migrate/publication.ts';
 import {
 	BLESSING_PATH,
 	createReport,
@@ -681,6 +682,7 @@ async function main(): Promise<void> {
 	const indexes = await buildIndexes(composed, report);
 	const { samples, truths } = finishAll(composed, indexes, report, validate);
 	await gateQuarantine(report);
+	classifyRows(report);
 	await writeReport(report);
 	await Bun.write(BLESSING_PATH, `${renderBlessing(report, samples)}\n`);
 	// Read off what the run did, not the constant: only a regenerating
