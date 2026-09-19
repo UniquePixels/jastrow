@@ -669,12 +669,15 @@ Steps 1–4 have shipped and are kept as history.
    and §16 (implied sense 1: 44 entries confirmed in review, 21 not
    yet reviewed); `upstream-issues.md` rows #6b and #16 carry the same
    counts. Sending the report, and marking rows reported, is the
-   maintainer's. **To do:** the `publication` field and
-   `docs/v2/review-report.md` (§3.1.1); `docs/v2/research-backlog.md`
-   replaces the hand-written queue. Headword code is left to the
-   headword work (§3.1.1). The control is a dry run:
-   `migration-blessing.md` byte-identical, and today's report 311
-   `blocks` (309 headwords, 2 slugs) and 2,204 `defer`.
+   maintainer's. `docs/v2/review-report.md` (§3.1.1) is generated on
+   every import run; `docs/v2/research-backlog.md` replaces the
+   hand-written queue, keeping only the research leftovers. Headword
+   code is left to the headword work (§3.1.1). **Shipped:** nine
+   gates green, `migration-blessing.md` byte-identical; the run's
+   review report holds 311 `blocks` (309 `headword-unparsed`, 2
+   `slug-unsafe`), 2,204 `defer` (298 `page-confidence-low`, 1,893
+   `page-confidence-medium`, 10 `markup-carry`, 3 `review-deferred`),
+   0 `note`, 2,515 rows total.
    Measuring the queue corrected four figures §9 had carried: 276 of
    the 309 unparsed headwords parse (all multi-word); `D00341` was repaired in step 8,
    leaving 3 deferred rows, not 4; `patterns.jsonl` has 5 `blocked`
@@ -721,3 +724,4 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-18 | Maintainer overruled step 7's freeze: R10 binds at v2 publication, not during development. `SLUGS_FROZEN = false` until then — runs regenerate slugs and aliases, report `slug-changed`, and `--write` rewrites the index; the frozen path is kept behind the switch. `slugStem` drops `*`, `(…)`, `?`, `,`, Roman numerals and superscripts, keeps `=`: 26 slugs moved, aliases 4,407 → 4,412, numbered members 11,626 → 11,640, `slug-unsafe` 12 → 2. `unsafeSlugs` is now an allow-list. §7, §7.1–7.3 and step 7 amended |
 | 2026-09-18 | Step 8: `repairs.ts`'s rid-keyed hand tables converted to reviewed patches (§4.1) and the tables deleted; §4.2 "Who may add bytes" records the authorship ruling and its open question on agent removals; §11 step 8 spelled out with measured numbers. Rule and helper comments elsewhere that quote a count "measured after `applyRepairs`" are left as dated measurements of that snapshot — `applyRepairs` itself changed (rid-keyed passes moved out) but the count a comment recorded is still what that run measured, so those comments are not edited one by one |
 | 2026-09-18 | Step 9 reworked (maintainer): import writes `docs/v2/review-report.md`, every review row tagged `publication: blocks / defer / note` by kind, and v2 publishes only with no `blocks` rows (§3.1.1); research leftovers go to a hand-written `docs/v2/research-backlog.md`, imported into the tracker then archived — the hand-written `review-queue.md` is withdrawn. Step 11 added: triage the 32 open research classes still flagged as blocking the cutover. Four §9 figures corrected by measurement; `sefaria-report.md` §6b and §16 added, register rows #6b and #16 recounted; step 8's PR number backfilled |
+| 2026-09-18 | Step 9 shipped: `docs/v2/research-backlog.md` replaces `docs/v2/review-queue.md` (deleted, links repointed), carrying the four research lists and a new "Blocks the v2 cutover" section generated from `patterns.jsonl`'s 32 open `blocking` classes for step 11. Nine gates green, `migration-blessing.md` byte-identical; review report 311 `blocks`, 2,204 `defer`, 0 `note`, 2,515 rows |
