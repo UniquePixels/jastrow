@@ -33,7 +33,8 @@ from this repo. The data damage is real either way.
 | 18 | Sense segmentation chopped a parenthesized cross-reference or citation at its own internal `N)` (e.g. `(v. אוֹר 2)`), minting a phantom sense and a numbering sequence that starts at 2 | 36 entries | A00913 (`(v. אוֹר 2)`), B00991 (`(v. preced. 2)`), C00244 (citation, `4)`) | [body-review 01](../archive/body-review/01-broken-sequences.md) crossref/citation-chop classes; healed by v2's migration rejoin pass ([body-migration.md](../archive/body-migration.md)) | to report |
 | 17 | Stray leading/trailing spaces inside `grammar.binyan_form` strings | uncounted (seen alongside #9's empties) | A00996 (`" אִתָּחַד"`), A01697, A02728 | [body-review 06](../archive/body-review/06-empty-binyan-forms.md) forms-verbatim column | to report (v2 trims at migration per 06 decision) |
 
-Counts are as of the 2026-07-04 snapshot; regenerate them against a
-newer dump before filing — `bun body:dry-run` still runs;
+Counts are as of the 2026-07-04 snapshot. Rows #6b and #16 were
+recounted on 2026-09-18, over that same snapshot, so they share its
+date. Regenerate every count against a newer dump before filing — `bun body:dry-run` still runs;
 `body:census` was archived at `refs/tags/archive/v2-research-2026-09`
 in the 2026-09 pipeline consolidation.
