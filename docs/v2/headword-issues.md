@@ -27,16 +27,16 @@ and the open questions live in [headword-design.md](headword-design.md).
 
 | rid | role | text | slug | note | flagged |
 |---|---|---|---|---|---|
-| [A00883](https://jastrow.app/#rid:A00883) | headword | אוּרְיָה  I, II | אוריה-I,-II |  | yes |
-| [A02356](https://jastrow.app/#rid:A02356) | headword | אִסְטְוָוא  I, II, | אסטווא-I,-II, |  | yes |
-| [B00098](https://jastrow.app/#rid:B00098) | headword | בַּד  V | בד-V |  | yes |
-| [B00407](https://jastrow.app/#rid:B00407) | headword | בְּזָא  I, II, | בזא-I,-II, |  | yes |
-| [B00443](https://jastrow.app/#rid:B00443) | headword | בִּזְיוּנָא , II | בזיונא-,-II |  | yes |
-| [C00329](https://jastrow.app/#rid:C00329) | headword | גַּוָּוזָא , II | גווזא-,-II |  | yes |
-| [D00844](https://jastrow.app/#rid:D00844) | headword | דִּלְמָא  I, II, | דלמא-I,-II, |  | yes |
-| [E00508](https://jastrow.app/#rid:E00508) | headword | הָכֵין  I, II | הכין-I,-II |  | yes |
-| [G00675](https://jastrow.app/#rid:G00675) | headword | זָרָה  I, II | זרה-I,-II |  | yes |
-| [M00447](https://jastrow.app/#rid:M00447) | headword | מוֹזְלָא , I | מוזלא-,-I |  | yes |
+| [A00883](https://jastrow.app/#rid:A00883) | headword | אוּרְיָה  I, II | אוריה-I,-II | cross-reference to two homographs | yes |
+| [A02356](https://jastrow.app/#rid:A02356) | headword | אִסְטְוָוא  I, II, | אסטווא-I,-II, | cross-reference to two homographs | yes |
+| [B00407](https://jastrow.app/#rid:B00407) | headword | בְּזָא  I, II, | בזא-I,-II, | cross-reference to two homographs | yes |
+| [D00844](https://jastrow.app/#rid:D00844) | headword | דִּלְמָא  I, II, | דלמא-I,-II, | cross-reference to two homographs | yes |
+| [E00508](https://jastrow.app/#rid:E00508) | headword | הָכֵין  I, II | הכין-I,-II | cross-reference to two homographs | yes |
+| [G00675](https://jastrow.app/#rid:G00675) | headword | זָרָה  I, II | זרה-I,-II | cross-reference to two homographs | yes |
+| [B00098](https://jastrow.app/#rid:B00098) | headword | בַּד  V | בד-V | double space | yes |
+| [B00443](https://jastrow.app/#rid:B00443) | headword | בִּזְיוּנָא , II | בזיונא-,-II | stray comma | yes |
+| [C00329](https://jastrow.app/#rid:C00329) | headword | גַּוָּוזָא , II | גווזא-,-II | stray comma | yes |
+| [M00447](https://jastrow.app/#rid:M00447) | headword | מוֹזְלָא , I | מוזלא-,-I | stray comma | yes |
 
 ## H2 parentheses (11)
 

@@ -67,8 +67,11 @@ search hit, or derive a slug from it.
 2. `display` contains **no Hebrew letters or points**. All Hebrew comes
    from the forms.
 3. Markers agree with the forms: `*` immediately before `{n}` or its
-   group ⇔ `reconstructed`; a numeral beside `{n}` or its group ⇔
-   `homograph`; `m.`/`f.` beside `{n}` ⇔ `gender`.
+   group ⇔ `reconstructed`; a **single** numeral beside `{n}` or its
+   group ⇔ `homograph`; `m.`/`f.` beside `{n}` ⇔ `gender`.
+   **Two or more numerals** beside one form (`{0} I, II`) are a
+   reference to other entries, not a number for this one, and require
+   no `homograph` — see §4.
 4. A form's `text` never contains a comma, parenthesis, `?`, `=` or a
    Latin letter.
 
@@ -81,12 +84,11 @@ search hit, or derive a slug from it.
 | **Roman numerals** | **Never moved.** Each numeral stays on the form it is attached to today and is printed where the source prints it — 10 inside the parentheses, 5 after. |
 | **Gender** | At most one of: the entry's `grammar.gender`, **or** a `gender` on *every* headword of the entry. Never both, and no inheritance. |
 | **A01480 `אִיסְפְּלָנִית(א)`** | An alternate ending of one word, not a separate form. The only headword in the corpus with this notation. |
+| **Numeral lists on cross-references** (H1, 6 rows) | `display` only, **no `homograph`**. All 6 are bare cross-references (`אוּרְיָה I, II, v. אוּרְיָא`) and the numbered forms already exist elsewhere, carrying their own `homograph`: A00877/A00878 hold `אוּרְיָה` 1 and 2, and so on for B00435/B00436, D00607/D00608, E00515/E00516, G00696/G00698. The numerals here point at those entries. |
+| **H1 separator defects** (4 rows) | A doubled space (B00098 `בַּד  V`) or a stray comma (B00443, C00329, M00447 `מוֹזְלָא , I`) in front of a single numeral is a defect: the text corrects to `<word> <numeral>` and then parses. |
 
 ## 5. Open questions
 
-- **H1 group c.** 6 cross-reference entries name two homographs
-  (`אוּרְיָה I, II`). Does `homograph` take a list, or does the entry split
-  in two? `display` shows the line correctly either way.
 - **Parenthesis placement is not trustworthy in the source.** A02823 puts
   them on the wrong form (print reads `(0) 1 I`). About 580 entries carry
   parentheses and would need checking against the hOCR or the print.

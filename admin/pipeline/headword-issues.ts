@@ -39,6 +39,7 @@ const LETTERS = /[\u05D0-\u05EA]+/gu;
 const LEADING_MARK = /^(?:[\u0591-\u05C7]|\u0307)/u;
 const LEXICAL_PLUS_SPACE = /[^\u05D0-\u05EA\u0591-\u05C7\u05F3\u05F4 *]/u;
 const LATIN_OR_DIGIT = /[A-Za-z0-9]/u;
+const ROMAN_NUMERAL = /[IVXLC]+/gu;
 const PAREN_WHOLE = /^\*?\([^()]*\)$/u;
 const GERESH = /[\u05F3\u05F4'"]/u;
 const MAQAF = '\u05BE';
@@ -240,14 +241,29 @@ function flaggedForms(report: MigrationReport): Map<string, Set<string>> {
 	return flagged;
 }
 
-/** What a row's `note` column says: the sub-shape for the two shapes
- * that have sub-shapes, and nothing for the rest. */
+/** Which H1 sub-shape a form is. Two or more numerals is a
+ * cross-reference pointing at other entries (`\u05D0\u05D5\u05BC\u05E8\u05B0\u05D9\u05B8\u05D4  I, II`, gloss
+ * `v. \u05D0\u05D5\u05BC\u05E8\u05B0\u05D9\u05B8\u05D0`); one numeral means the separator in front of
+ * it is wrong, either a stray comma or a doubled space. */
+function homographListNote(text: string): string {
+	const numerals = text.match(ROMAN_NUMERAL) ?? [];
+	if (numerals.length > 1) {
+		return 'cross-reference to two homographs';
+	}
+	return text.includes(',') ? 'stray comma' : 'double space';
+}
+
+/** What a row's `note` column says: the sub-shape for the shapes that
+ * have sub-shapes, and nothing for the rest. */
 function noteFor(
 	shape: string,
 	issue: string,
 	text: string,
 	headword: string,
 ): string {
+	if (shape.startsWith('H1')) {
+		return homographListNote(text);
+	}
 	if (shape.startsWith('H6')) {
 		return multiWordNote(text, headword);
 	}
