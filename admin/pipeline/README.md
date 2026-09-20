@@ -3,11 +3,11 @@
 The auditable, reproducible path from the Sefaria source to the data
 the app serves ([overhaul design spec](../../docs/specs/2026-07-03-v2-overhaul-design.md)).
 Read top to bottom, this is how the dictionary is built from scratch:
-fetch the source, run it through migration into the truth layer,
-compile truth into serving artifacts on every deploy. `migrate.ts` is
+fetch the source, run it through import into entry data, compile
+entry data into compiled data on every deploy. `migrate.ts` is
 permanent and re-runnable — a run regenerates
 a candidate tree and a report; it never silently overwrites edited
-truth (R1 of the
+entry data (R1 of the
 [pipeline consolidation design](../../docs/specs/2026-09-13-pipeline-consolidation-design.md),
 which supersedes the one-shot framing of D14 in the
 [data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
@@ -17,10 +17,10 @@ which supersedes the one-shot framing of D14 in the
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
 | Print locator index | `page-index/build.ts` | built 2026-08-17, data committed; tool archived at `refs/tags/archive/v2-research-2026-09` | none — one-time build; admin tool corrects entries afterward |
-| Migration (source → truth) | `migrate.ts` | working, last run 2026-09-09 | on demand, re-runnable |
-| Compile (truth → serving) | `compile.ts` | designed, not built | every deploy |
+| Import (source data → entry data) | `migrate.ts` | working, last run 2026-09-09 | on demand, re-runnable |
+| Compile (entry data → compiled data) | `compile.ts` | designed, not built | every deploy |
 
-Migration and compile are specified in the
+Import and compile are specified in the
 [data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
 (§6) and the [pipeline consolidation design](../../docs/specs/2026-09-13-pipeline-consolidation-design.md)
 (§3). One-time examinations of the v1 data — important record, but
@@ -33,12 +33,13 @@ spec §8).
 | Directory | Contents | Committed | Who writes it |
 |---|---|---|---|
 | `data/source/` | Sefaria snapshot | yes | `fetch.ts` |
-| `data/page-index/` | print locators (page/column) | yes | `page-index/build.ts` (archived at `refs/tags/archive/v2-research-2026-09`); admin tool corrects |
+| `data/page-index/` | print locators (page/column) — reference data | yes | `page-index/build.ts` (archived at `refs/tags/archive/v2-research-2026-09`); admin tool corrects |
+| `data/slug-index/` | slug and bare-stem alias assignments — reference data | yes | `migrate.ts --write` until publication freezes it (consolidation spec §7.1) |
 | `data/patches/` | per-entry judgments | yes | admin tool appends |
 | `data/quarantine/` | unresolved citation targets | yes | reviewed by hand |
 
-The normal run is `fetch` then `migrate`: pull the current export,
-process it, read the report.
+The normal run is `data:fetch` then `data:import`: pull the current
+export, process it, read the report.
 
 ## Stage 1 — Source acquisition (`fetch.ts`)
 
@@ -88,15 +89,15 @@ this stage, so `data/source/` is a faithful snapshot of the source.
 `word_form.bson` is cached for later use (search word forms) but not
 yet emitted.
 
-## Stage 2 — Migration (`migrate.ts`)
+## Stage 2 — Import (`migrate.ts`)
 
 ```bash
-bun pipeline:migrate           # dry run: report + docs/v2/migration-blessing.md
-bun pipeline:migrate --write   # after blessing: writes data/entries/
+bun data:import           # dry run: report + docs/v2/migration-blessing.md
+bun data:import --write   # after blessing: writes data/entries/
 ```
 
-Transforms the source snapshot into the per-entry truth layer
-(`data/entries/`), per the
+Transforms the source snapshot into entry data, one JSON file per
+entry (`data/entries/`), per the
 [data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
 §6: headword decomposition, link typing, markup translation into the
 closed tag vocabulary, refs resolution, slug assignment, and the
@@ -111,12 +112,13 @@ review detectors (detect only, emit a row) — per the
 round-trips, text conservation, schema, chain agreement, internal
 targets, slugs, pages, composition; a red gate refuses to write.
 `migrate.ts` is re-runnable: it never chokes on the data it is
-given, and it never silently overwrites hand edits in truth. A
+given, and it never silently overwrites hand edits in entry data. A
 composition failure is a `composition-failed` fault row and a red
 gate 9; the entry is dropped, not emitted from source bytes — R3's
 target of resilient, always-emitted output is not yet built. Every
-run ends in a report a person reads before the output ships —
-`data/source/migration-report.json`, rendered as
+run ends in a report a person reads before the output ships — the
+import report `data/source/migration-report.json`, rendered as the
+blessing doc
 [docs/v2/migration-blessing.md](../../docs/v2/migration-blessing.md).
 The report holds the nine gate tallies, one row per review item,
 patch re-judgment or pipeline fault (`{ rid, bucket, kind, severity,
@@ -126,7 +128,7 @@ except a patch that fails its apply gate or targets a missing entry,
 which gets a fault row instead of an outcome, and a carry-over patch
 whose target resolves 0 times, which is `superseded` by construction
 rather than drift-classified. A stale snapshot pin is a count, not a
-refusal; `bun pipeline:migrate --strict` refuses on a stale pin or a
+refusal; `bun data:import --strict` refuses on a stale pin or a
 drifted patch. Last run 2026-09-09 with all nine gates green.
 
 ## Stage 3 — Compile (`compile.ts`, not yet built)

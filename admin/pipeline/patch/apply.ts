@@ -16,10 +16,10 @@
  * consumer-facing output. `createPhaseTracker` asserts that order at
  * runtime; a violated assertion aborts the run (`PhaseViolation`).
  *
- * Run (dry, read-only): bun pipeline:patches, whose entry point is
+ * Run (dry, read-only): bun patch:replay, whose entry point is
  * `patch/apply-cli.ts` — it composes each entry through
  * `body/compose.ts` first, so it judges anchors against the same
- * state `pipeline:migrate` applies them to.
+ * state `data:import` applies them to.
  */
 import { existsSync } from 'node:fs';
 import type { SourceEntry } from '../body/types.ts';

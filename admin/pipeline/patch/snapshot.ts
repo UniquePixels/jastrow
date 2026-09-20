@@ -23,7 +23,7 @@ const LOCK_COMBINED_LINE = /^sha256:(?<hex>[0-9a-f]{64})$/u;
 const LOCK_FILE_LINE = /^(?<path>\S+) sha256:(?<hex>[0-9a-f]{64})$/u;
 
 /**
- * The decoded snapshot: exactly what `pipeline:fetch` emits from the
+ * The decoded snapshot: exactly what `data:fetch` emits from the
  * Sefaria dump, in fixed (alphabetical) order. `manifest.json` is
  * provenance about the fetch, `edit-replay.jsonl` is admin-tool
  * history, and `*-report.json` files are pipeline output — none of

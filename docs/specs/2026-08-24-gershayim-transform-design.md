@@ -141,7 +141,7 @@ this section got wrong. The corpus holds **2,464**, not 2,326: the
 raw walk surfaces `next_hw` and `prev_hw`, two navigation pointers no
 enumeration of this defect had ever named, each mirroring the same 69
 headword occurrences from a neighbour's row. Both are dropped from
-truth for the same kind of reason `refs[]` is — see "The `next_hw` /
+entry data for the same kind of reason `refs[]` is — see "The `next_hw` /
 `prev_hw` mirror" below.
 
 The in-scope entry count reproduces the audit's 1,392 exactly. **The
@@ -190,7 +190,7 @@ two documents.
 spec drops it: *"`refs` | **Dropped — derived at compile** (§5) | B7"*
 ([entry-body-model-design.md:115](2026-07-11-entry-body-model-design.md)).
 The transform gate already excludes it for the same reason — *"`refs[]`
-is dropped from truth (body model spec §5, B7) and holds machine
+is dropped from entry data (body model spec §5, B7) and holds machine
 identifiers"* (`admin/pipeline/transform/no-new-text.ts`). Either
 reason alone is sufficient: a text gate has nothing to say about
 machine identifiers, and a field dropped at compile has no output to
@@ -200,7 +200,7 @@ repair.
 read as one.** The scope is **every field `fieldsOf` walks** — every
 text-bearing field of `SourceEntry`, `SourceSense` and `SourceGrammar`
 — which is a different set. `plural_form` and `quotes` are also
-dropped from v2 truth (B2, B8) — eight discarded catalogue rows rest
+dropped from v2 entry data (B2, B8) — eight discarded catalogue rows rest
 on the first ground and two on the second — and the rules repair them
 anyway, because `fieldsOf` walks them. That is over-coverage, and it
 is the cheap direction of the trade. The expensive direction is the one
@@ -229,7 +229,7 @@ ordering is a compile step and the browse index is emitted in rid
 order.
 
 **One thing to carry forward, because it is not visible from here.**
-§5 of the data architecture states a migration gate: *"walking the
+§5 of the data architecture states an import gate: *"walking the
 source `prev_hw`/`next_hw` chain must equal rid sort order for all
 32,512 entries"*, and discovery round 2 confirmed the chain is perfect
 — every `next_hw` equals the following entry's headword as a STRING.

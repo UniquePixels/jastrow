@@ -7,9 +7,18 @@ ideas, it uses the word here.
 - **Status:** started 2026-09-15 from the consolidation spec's rulings
   R8 and R9
   ([2026-09-13-pipeline-consolidation-design.md](specs/2026-09-13-pipeline-consolidation-design.md)).
-- **Renames in progress:** older documents, code and scripts still say
-  "truth" and "migrate". Step 10 of the spec's sequence sweeps them;
-  until then the [retired terms](#retired-terms) table maps old to new.
+  Swept through the living documents and `package.json` in step 10
+  (2026-09-19).
+- **What still says the old words.** Code identifiers do: the entry
+  point `admin/pipeline/migrate.ts`, the directory
+  `admin/pipeline/migrate/`, the types `TruthEntry`, `TruthFile`,
+  `TruthSense`, the helpers `validateTruth` and `loadTruthFiles`, and
+  the generated `docs/v2/migration-blessing.md`. Renaming them is a
+  change of its own, deliberately not folded into the terms sweep
+  (spec §11 step 10). `docs/superpowers/plans/` and `docs/archive/`
+  are dated records of work as it happened and keep whatever they said
+  at the time. The [retired terms](#retired-terms) table maps old to
+  new throughout.
 
 ## Data
 
@@ -19,21 +28,27 @@ ideas, it uses the word here.
 | **snapshot** | the one version of the source data committed in the repo, the version the committed entry data was imported from | `data/source/` |
 | **entry data** | one JSON file per dictionary entry. `data:import` makes it; people and the admin tool then edit it | `data/entries/<letter>/<rid>.json` |
 | **compiled data** | entry data built into the files the web app loads | not built yet |
-| **reference data** | our own lookup inputs that import reads alongside the source data. Today: the print page and column index. May grow | `data/page-index/` |
+| **reference data** | our own lookup inputs that import reads alongside the source data: the print page and column index, and the slug index. May grow | `data/page-index/`, `data/slug-index/` |
 | **correction data** | our own per-entry fixes that import applies: patches and quarantine | `data/patches/`, `data/quarantine/` |
 | **report** | evidence a run produces, not data: the import report, the blessing doc, build reports | see [The import run](#the-import-run) |
 
 ## Commands
 
-| Name | What it does | Script today |
-|---|---|---|
-| **fetch** (`data:fetch`) | downloads the current Sefaria export into `data/source/` | `pipeline:fetch` |
-| **import** (`data:import`) | turns source data, reference data and correction data into entry data, checks it, and writes a report | `pipeline:migrate` |
-| **compile** (`data:compile`) | turns entry data into compiled data | not built |
+| Name | What it does |
+|---|---|
+| **fetch** (`data:fetch`) | downloads the current Sefaria export into `data/source/` |
+| **import** (`data:import`) | turns source data, reference data and correction data into entry data, checks it, and writes a report |
+| **compile** (`data:compile`) | turns entry data into compiled data. Not built |
 
 The `data:` prefix groups the commands that move data from one form to
-the next. Which other scripts join it (e.g. `pageindex:verify`) is
-decided in the step-10 sweep.
+the next, and only those. Step 10 gave it to `fetch` and `import` and
+reserved it for `compile`; no other script took it. Every other script
+keeps a prefix naming the module it runs — `body:dry-run`,
+`pageindex:verify`, `patch:replay`, `transform:count`,
+`transform:invariants` — or checks the repo (`qa`, `qa:*`).
+`pipeline:patches` became `patch:replay` in the same sweep, leaving no
+lone `pipeline:` prefix: it replays the committed patch corpus
+read-only and moves no data, so `data:` would have misdescribed it.
 
 ## The import run
 
@@ -124,7 +139,10 @@ What a run reports for each patch:
 | truth, truth tree | entry data |
 | migrate, migration (the command and the run) | import |
 | `pipeline:fetch` / `pipeline:migrate` / `pipeline:compile` | `data:fetch` / `data:import` / `data:compile` |
+| `research:apply`, then `pipeline:patches` | `patch:replay` |
 | migration report | import report |
+| truth file, truth tree entry | entry file |
+| migration blessing | blessing doc (the file keeps the name `docs/v2/migration-blessing.md`, and its heading still reads "Migration blessing", until the code sweep: both are emitted by `migrate/report.ts`) |
 | serving artifacts | compiled data |
 | corpus (meaning the committed export) | snapshot |
 | Rebuild CI job, Corpus Audit CI job | withdrawn 2026-09-15 (spec R9); removed from CI in spec step 5 |

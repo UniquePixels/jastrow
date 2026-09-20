@@ -1,5 +1,5 @@
 /**
- * Command-line options for `bun pipeline:migrate` (consolidation spec
+ * Command-line options for `bun data:import` (consolidation spec
  * §4.2). Resolved here rather than inline in `main` so the `--strict`
  * switch is tested: a regression that stopped reading it would let
  * `--write` run with stale pins skipped and drifted patches reported

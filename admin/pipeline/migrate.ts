@@ -4,7 +4,7 @@
  * then finish and gate every entry. Dry by default; `--write` reruns
  * every gate and refuses on any red one, or on an output tree that
  * already holds truth files.
- * Run: bun pipeline:migrate [--write] [--strict]
+ * Run: bun data:import [--write] [--strict]
  *
  * A stale snapshot pin is one count in the report header; a patch whose
  * precondition no longer holds is a report row. `--strict` makes either
@@ -586,8 +586,8 @@ async function outputTreeIsEmpty(): Promise<boolean> {
 
 /** Biome is the one formatter for truth (consolidation spec R5), so
  * formatting is the write's last step. It runs here rather than as a
- * second command in the `pipeline:migrate` script: `bun run` appends
- * extra arguments to the LAST command, so `bun pipeline:migrate
+ * second command in the `data:import` script: `bun run` appends
+ * extra arguments to the LAST command, so `bun data:import
  * --write` handed `--write` to biome and migrate ran dry (PR #88). */
 function formatTruth(): void {
 	const result = Bun.spawnSync(

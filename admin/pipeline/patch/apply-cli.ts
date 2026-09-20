@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 /**
- * `bun pipeline:patches` — the dry, read-only replay of the committed
+ * `bun patch:replay` — the dry, read-only replay of the committed
  * patch corpus (research-process plan Task 4; spec
  * docs/specs/2026-08-10-research-process-design.md §5).
  *
@@ -9,7 +9,7 @@
  * `apply.ts` — an entry point inside `apply.ts` would close an import
  * cycle.
  *
- * What it replays is `pipeline:migrate`'s patch-apply phase, entry for
+ * What it replays is `data:import`'s patch-apply phase, entry for
  * entry: the accepted/carry-over corpus split, then `composeEntry`.
  * The one deliberate difference is the escalation policy —
  * `escalations: 'block'` here, because unresolved `needs_*` rows are

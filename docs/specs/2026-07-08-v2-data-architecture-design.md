@@ -18,23 +18,23 @@ snapshot (`data/source/jastrow-dictionary.jsonl`, 2026-07-04 dump,
 | Layer | Location | Format | Committed? |
 |---|---|---|---|
 | Source | `data/source/` | Sefaria dump, verbatim JSONL | Yes — permanent provenance anchor |
-| Truth | `data/entries/`, `data/pointers/` | Per-entry JSON, v2 schema | Yes — the canonical, human-edited data |
-| Serving | build output | Compiled artifacts | **Never** — built at deploy |
+| Entry data | `data/entries/`, `data/pointers/` | Per-entry JSON, v2 schema | Yes — the canonical, human-edited data |
+| Compiled | build output | Compiled data | **Never** — built at deploy |
 
 **D2 — No intermediate artifacts in git.** Anything derivable from
 committed inputs (divergence reports, edit-replay sets, compiled
 output) is regenerated on demand by the pipeline tools and is not
 committed. The tools themselves are committed and tested.
 
-**D3 — Transform once.** Truth is a purpose-built schema, produced by a
-one-time migration from source (§6), not kept Sefaria-shaped.
+**D3 — Transform once.** Entry data is a purpose-built schema, produced
+by import from source (§6), not kept Sefaria-shaped.
 Rationale: upstream is effectively static (2019→2026 drift: 3
 headwords), contributors should edit what actually renders, and
 compile rules that must forever tolerate both pristine and hand-edited
-content are an ongoing tax. The source snapshot plus the migration
-code remain the permanent provenance record.
+content are an ongoing tax. The source snapshot plus the import code
+remain the permanent provenance record.
 
-## 2. Truth layer
+## 2. Entry data
 
 ### 2.1 Layout (D4)
 
@@ -78,13 +78,13 @@ minimal):
 | Field | Source | Notes |
 |---|---|---|
 | `id` | upstream `rid` | Permanent identity; also the print-order spine (§5) |
-| `slug` | assigned at migration | URL address; stored, frozen, CI-validated unique (§4) |
+| `slug` | assigned at import | URL address; stored, frozen, CI-validated unique (§4) |
 | `headword` | decomposed | **Form object** — `text` (clean: no `*`, no numerals; 27,613 already clean) + optional `homograph` (Roman numeral, 2,871 — Jastrow's printed index, real content), `disambiguator` (superscript, 807 — Sefaria-added technical suffix; display deferred, register #6), `reconstructed` (`*`, 1,339 — evidence flag) |
 | `altHeadwords[]` | upstream, decomposed identically (19,351 entries) | Array of the **same form-object shape** — one schema, one code path for every headword form (alts carry marks too: 529 Roman, 18 starred) |
-| `page` | v1 local enrichment + the 107 hand edits | Grouped object: printed location. Not upstream data |
-| `grammar` | seeded at migration from the 13,162 visible gender markers | **Typed index (body model B3)**: `gender` (`m`/`f`/`c`); `pos` starts null — filled by post-migration enrichment (register #14). A lint checks index ↔ text agreement; the markers themselves stay in the gloss text (B2: prose is truth) |
+| `page` | the hOCR page index (`data/page-index/entries.jsonl`, all 32,512 entries) | Grouped object: printed location. Not upstream data. *(Was "v1 local enrichment + the 107 hand edits"; superseded 2026-09-06 with §6 rule 6 — the v1 locators, the 107 hand edits and the 289 print-locator fixes are a cross-check, not the source.)* |
+| `grammar` | seeded at import from the 13,162 visible gender markers | **Typed index (body model B3)**: `gender` (`m`/`f`/`c`); `pos` starts null — filled by post-import enrichment (register #14). A lint checks index ↔ text agreement; the markers themselves stay in the gloss text (B2: prose is truth) |
 | `senses` | upstream, reassembled per the entry body model | Tree of `{label?, gloss, units[], senses[]}` (body model B2/B4–B6). The first sense is the entry's **intro flow** exactly as printed — the rejoined gloss head (morphology + etymology parenthesis + opening text; heals the K00664-class mid-phrase splits by construction). `label` is normalized (`"—2)"` → `"2"`); print punctuation regenerates by rule, byte-exact, else the entry is quarantined. `units[]` are citation-evidence blocks segmented by the conservative terminator rule. Lettered `a)…b)` runs and form sections (`Pl.`/`Part. pass.`/`Fem.`/`Denom.`, B12) split into child/sibling senses |
-| `stems` | upstream grammar nodes (4,043), restructured | Binyan sections: `stem` from the closed stem set, `forms` (binyan forms, cleaned at migration), own sense tree — v1 flattened these |
+| `stems` | upstream grammar nodes (4,043), restructured | Binyan sections: `stem` from the closed stem set, `forms` (binyan forms, cleaned at import), own sense tree — v1 flattened these |
 
 **Resolved (2026-08-05):** the formerly provisional `origin`, `senses`,
 and `quotes` rows are settled by the
@@ -94,7 +94,7 @@ and `quotes` rows are settled by the
 sense's gloss (B2, byte-gated); `quotes` is dropped entirely (B8 — a
 vestigial importer artifact, unconsumed even by Sefaria's renderer;
 the phrases remain as ordinary body text); `refs` is dropped from
-truth and the complete per-entry reference index is **derived at
+entry data and the complete per-entry reference index is **derived at
 compile** from `<cite>` tags (B7 — measured: the curated field is
 missing 31% of inline citations; derivation beats curation). The
 stable parts of the schema — identity, form objects, slug, page,
@@ -123,15 +123,15 @@ refs — are exactly where Markdown is weakest). A JSON AST was rejected
 |---|---|---|---|
 | `<he>…</he>` | `span dir="rtl"` | 84k | Hebrew/Aramaic run; renderer adds direction + font |
 | `<i>…</i>` | `<i>` | 40k | Italic (glosses/emphasis); kept typographic, semantic refinement is later editor work |
-| `<cite ref="…">…</cite>` | refLink (both `/Jastrow,_…` and other texts) | 164,807 | **One unified citation tag (body model B10)** — internal cross-references (`ref="A01975"`, 68,096) and citations into external texts (`ref="Shabbat 104a"`, 96,711) share it; router/validator dispatch on the unambiguous rid pattern. External refs keyed by canonical Sefaria ref string (never full URLs — D7). `k` optional on internal refs: `see`, `compare`, `read`, `equals`, `plural`, `denom-of`, `from`, `ed`, `ref-to`, `sub-voce`; absent = plain mention. `k` extraction at migration is mechanical, cheap, and fully deferrable (markers stay in the text) — register #2 owns coverage either way |
+| `<cite ref="…">…</cite>` | refLink (both `/Jastrow,_…` and other texts) | 164,807 | **One unified citation tag (body model B10)** — internal cross-references (`ref="A01975"`, 68,096) and citations into external texts (`ref="Shabbat 104a"`, 96,711) share it; router/validator dispatch on the unambiguous rid pattern. External refs keyed by canonical Sefaria ref string (never full URLs — D7). `k` optional on internal refs: `see`, `compare`, `read`, `equals`, `plural`, `denom-of`, `from`, `ed`, `ref-to`, `sub-voce`; absent = plain mention. `k` extraction at import is mechanical, cheap, and fully deferrable (markers stay in the text) — register #2 owns coverage either way |
 | `<sup> <sub>` | same | 281 | Real content — fractions (¹/₂₄ of a denar) and scholarly edition marks (ed. Lag. p. XII⁴, Ges. H. Dict.¹⁰). Kept |
-| `<b>` | same | 20 | Punctuation-bolding residue (`<b>,</b>` after bold refs). All 20 enumerated and resolved in migration prep (§6.0); expected to dissolve |
+| `<b>` | same | 20 | Punctuation-bolding residue (`<b>,</b>` after bold refs). All 20 enumerated and resolved in import prep (§6.0); expected to dissolve |
 | abbr override tags | new | rare | Compiler instructions only: force or suppress an abbreviation tooltip where the detector is provably wrong (§8) |
 
 **D7 — Canonical refs, never URLs.** External references are stored as
-canonical Sefaria ref strings (migration normalizes Sefaria's two
+canonical Sefaria ref strings (import normalizes Sefaria's two
 spellings). URLs are derived at compile. With `refs` dropped from
-truth (B7 — §2.2), the `<cite>` tags are the single source: the
+entry data (B7 — §2.2), the `<cite>` tags are the single source: the
 per-entry reference index is derived from them at compile, and
 register #1's lint checks that derivation's completeness rather than
 reconciling a curated list.
@@ -139,7 +139,7 @@ reconciling a curated list.
 **D8 — No deeper-than-entry addressing (for now).** All 90,688
 internal targets in the source — the 68,096 inline refLinks counted
 above plus the 22,592 curated `refs`-field items (§9 evidence; the
-latter dropped from truth per B7, leaving the inline population as
+latter dropped from entry data per B7, leaving the inline population as
 the data layer's) — are *addressed* at entry level (sense suffix is
 uniformly "1" — Sefaria URL boilerplate); whether a target string
 matches an existing headword is a separate question — 88 do not
@@ -178,11 +178,11 @@ owning entry).
   is guarded by the pipeline's own ajv validation and `bun qa`, not by CI
   schema enforcement.
 - Additive-first: new optional fields never break; breaking changes
-  require a versioned, reviewed migration script.
-- Bulk changes to truth (cleanup passes) are first-class pipeline
+  require a versioned, reviewed import script.
+- Bulk changes to entry data (cleanup passes) are first-class pipeline
   operations: scripted, tested, reviewed as PRs. **No pass touches the
   full word list until the maintainer has blessed the pass** — and
-  never before migration itself is blessed.
+  never before import itself is blessed.
 
 ## 3. Serving layer (compiled, D11)
 
@@ -200,7 +200,7 @@ size vs render cost) inside the deferred serving-shape contract.
 | Route map | slug ↔ rid, for canonicalization and permalinks |
 | Page index | page/column → ordered rids (`/p/2a` routes) |
 | `abbreviations.json` | Tooltip text stored once; markup carries only keys |
-| Reference index | Per-entry reference list **derived from `<cite>` tags** (B7 — truth stores none), categorized by corpus (Talmud/Midrash/Bible/…) for the color-coded reference box and search — regenerates what v1 shipped as the derived `rf` rollup |
+| Reference index | Per-entry reference list **derived from `<cite>` tags** (B7 — entry data stores none), categorized by corpus (Talmud/Midrash/Bible/…) for the color-coded reference box and search — regenerates what v1 shipped as the derived `rf` rollup |
 | Search artifacts | **Deferred contract** — format owned by the search overhaul; pipeline guarantees clean typed inputs |
 | Version manifest | Build id (git sha) + artifact hashes for service-worker diffing |
 
@@ -217,7 +217,7 @@ during compile design (register #10).
 
 **Deferred contracts (Phase 4 owns them):** the entry-body shape
 (single precompiled HTML fragment vs structured JSON vs hybrid) and
-the search-artifact format. Both are compile *outputs*; truth schema
+the search-artifact format. Both are compile *outputs*; entry-data schema
 is unaffected whichever way they land.
 
 Compile stages: **validate** (schema, vocabulary, slug uniqueness,
@@ -236,9 +236,9 @@ violation).
 - rid = permanent internal address. The data layer (internal
   `<cite ref>`) speaks only rids. `/A00015` permalinks work forever
   (redirect).
-- slug = human address, **stored in truth and frozen** (URLs are
+- slug = human address, **stored in entry data and frozen** (URLs are
   promises; a compile-derived slug could renumber on insertion and
-  break shared links). Assigned once by migration: niqqud-stripped
+  break shared links). Assigned once by import: niqqud-stripped
   headword, deterministic suffix on collision. Byte order is
   **word-then-modifier** (headword characters, hyphen, suffix) —
   matching Jastrow's own layout and English readers' intuition; bidi
@@ -269,12 +269,12 @@ real-entry corpus is closed (the 1903 print is finished), so:
 - **Ordering is a compile step.** The browse index is emitted in final
   order; the client never sorts. The collation rule (register #7) runs
   only on the build machine and its output is reviewable.
-- Migration gate: walking the source `prev_hw`/`next_hw` chain must
+- Import gate: walking the source `prev_hw`/`next_hw` chain must
   equal rid sort order for all 32,512 entries. Agreement confirms the
-  chain is derivable (and it stays out of truth); disagreement
+  chain is derivable (and it stays out of entry data); disagreement
   surfaces a rid quirk or upstream error now rather than later.
 
-## 6. Migration (D14)
+## 6. Import (D14)
 
 `admin/pipeline/` gains two stages alongside the existing evidence
 tools (`fetch.ts`, `audit.ts`, `mine.ts` are kept as provenance):
@@ -285,9 +285,9 @@ tools (`fetch.ts`, `audit.ts`, `mine.ts` are kept as provenance):
   one-shot. See the
   [pipeline consolidation design](2026-09-13-pipeline-consolidation-design.md)
   §2 (R1).
-- `compile.ts` — truth → serving artifacts, on every deploy, forever.
+- `compile.ts` — entry data → compiled data, on every deploy, forever.
 
-### 6.0 Migration prerequisites (design-complete before `migrate.ts` is written)
+### 6.0 Import prerequisites (design-complete before `migrate.ts` is written)
 
 > **Status (2026-08-05): complete.** The entry body model is designed,
 > censused, fixtured, and gated (byte round-trips 32,512/32,512 across
@@ -315,16 +315,19 @@ tools (`fetch.ts`, `audit.ts`, `mine.ts` are kept as provenance):
 - **Enumerate and resolve within that work:** all 20 `<b>`
   occurrences; all 301 `quotes` entries (maintainer eyes-on); the
   5,842 `origin` splits.
-- **Scope rule — what belongs in migration vs after:** anything that
+- **Scope rule — what belongs in import vs after:** anything that
   changes the **representation** of existing data (sense internals,
-  origin shape, markup translation) must land in the one-time
-  migration — iterate on these until §6.0 is done. Anything
-  **additive** (gender, word type, richer language semantics,
-  link-kind coverage) is a post-migration enrichment pass under D10
-  and must not delay migration. Iterate on representation; migrate
-  once; enrich forever after.
+  origin shape, markup translation) is import's work — iterate on
+  these until §6.0 is done. Anything **additive** (gender, word type,
+  richer language semantics, link-kind coverage) is a post-import
+  enrichment pass under D10 and must not delay import. Settle
+  representation first; enrich afterwards. *(Reworded 2026-09-19:
+  this rule said the representation work "must land in the one-time
+  import" and closed "import once; enrich forever after" — D14's
+  one-shot framing, which R1 withdrew. Import is re-runnable; what
+  survives is the ordering, not the single shot.)*
 
-Migration rules (each unit-tested; all derived from measured
+Import rules (each unit-tested; all derived from measured
 evidence):
 
 1. Headword decomposition (entry + alts) with the byte-exact
@@ -337,7 +340,7 @@ evidence):
    every reassembled body text (the rejoined gloss head carries
    refLinks too).
 4. ~~`refs` resolution into `{internal, external}`~~ — superseded:
-   `refs` is dropped from truth (B7); the reference index derives at
+   `refs` is dropped from entry data (B7); the reference index derives at
    compile (§3).
 5. Slug assignment, once, then frozen (D12).
 6. ~~`page`/`column` carried from the v1 enrichment, with the 107
@@ -349,7 +352,7 @@ evidence):
 7. Structural: drop `_id`/`parent_lexicon`, keep recursive grammar
    senses, omit empties.
 
-**Blessing gates (all must pass before truth is real):**
+**Blessing gates (all must pass before entry data is real):**
 
 - ~~Golden render-diff of all 32,512 entries against v1 output; every
   difference must be explained by a listed rule.~~ **Replaced
@@ -372,8 +375,8 @@ Until blessing: **no full-corpus pass runs, period.**
 
 ## 7. Cleanup register
 
-Each item is its own reviewed pass after migration; none blocks
-migration; none bundles with another.
+Each item is its own reviewed pass after import; none blocks
+import; none bundles with another.
 
 | # | Item | Size |
 |---|---|---|
@@ -384,27 +387,27 @@ migration; none bundles with another.
 | 5 | Headword divergences vs legacy extraction — report upstream to Sefaria | 3 |
 | 6 | Superscript-disambiguator display decision | 807 (Phase 4 UX call) |
 | 7 | Hebrew collation rule for pointer placement (compile-only) | rule, not data |
-| 8 | prev/next chain verification | resolved by migration gate |
+| 8 | prev/next chain verification | resolved by import gate |
 | 9 | Abbr detector false-positive review after first coverage report | unknown |
 | 10 | Alt browse rows colliding with real entries — fold-into-disambiguation rules + fixture set | 4,195 forms |
 | 11 | Additive enrichments: richer language semantics; a forms index (construct/plural phrasing catalogued by the preamble survey) is future additive work | future passes (§6.0 scope rule) |
 | 12 | ~~`quotes` semantics~~ — **closed**: `quotes` dropped entirely (body model B8; the 8 stragglers reviewed 2026-08-05) | — |
-| 13 | Ibid linking pass — resolve the unlinked ibid citations by chaining from the previous citation in the entry; additive tag wrapping, post-migration | 15,421 ibids, 7,018 unlinked |
-| 14 | POS enrichment — fill `grammar.pos`, seeded for review from v1's derived `g.ps` (7,611 entries) | post-migration |
+| 13 | Ibid linking pass — resolve the unlinked ibid citations by chaining from the previous citation in the entry; additive tag wrapping, post-import | 15,421 ibids, 7,018 unlinked |
+| 14 | POS enrichment — fill `grammar.pos`, seeded for review from v1's derived `g.ps` (7,611 entries) | post-import |
 
 ## 8. Abbreviations (D15)
 
-Truth stays lean: abbreviations are **not** tagged in truth.
+Entry data stays lean: abbreviations are **not** tagged in it.
 Detection runs at compile against the abbreviation list, so shipped
 artifacts carry explicit tags and the client does zero detection.
 Correctness is a CI property, not a runtime hope: golden-corpus
 tests, a per-compile coverage report diffed against the previous
 build, and unit tests on boundary cases (the v1 asterisk bug class).
-Truth-level override tags (§2.3) force or suppress specific tooltips
+Entry-data override tags (§2.3) force or suppress specific tooltips
 where the detector is provably wrong — instructions to the compiler,
 visible and reviewed.
 
-Why detection instead of inlining ~100k tags into truth: PR diffs
+Why detection instead of inlining ~100k tags into entry data: PR diffs
 stay readable; adding one abbreviation to the list propagates
 everywhere at the next compile instead of requiring a 32k-file bulk
 edit; one tested code path instead of 32k hand-maintained instances.
@@ -437,8 +440,10 @@ Measured 2026-07-07/08 against the 2026-07-04 snapshot:
   (11,625 entries; worst 13).
 - Edit mining (main history): 22,164 modifies in 4 commits — 22,057
   scripted (refLink passes, tooltips), 107 hand-made page-number
-  fixes ("Data update: a few page numbers", caf242a). The replay
-  problem reduces to rule 6 of §6.
+  fixes ("Data update: a few page numbers", caf242a). ~~The replay
+  problem reduces to rule 6 of §6.~~ **Superseded 2026-09-06:** rule 6
+  no longer replays them, so there is no replay problem — the page
+  index is the source and these edits are a cross-check.
 - `language_code`/`language_reference`: present on 5,842 entries
   (4,494 both / 1,343 code-only / 5 reference-only); they are crude
   segments of the printed etymology parenthesis (mid-phrase splits:
@@ -450,8 +455,9 @@ Measured 2026-07-07/08 against the 2026-07-04 snapshot:
 
 - Phase 1 task 1.3 (edit mining): the tools (`mine.ts`,
   `parse-jsonl-diff.ts` + tests) land; `data/source/edit-replay.jsonl`
-  is **not committed** (D2) — the 107 real edits are consumed by
-  migration rule 6, regenerated on demand.
+  is **not committed** (D2) — the 107 real edits were to be consumed
+  by rule 6, regenerated on demand. **Superseded 2026-09-06** (§6 rule
+  6): they are a cross-check against the page index, not an input.
 - The Phase 0–1 plan's remaining intent (CP-1) is satisfied by this
   spec's evidence plus a checkpoint record; Phase 2 planning happens
   against this document.
