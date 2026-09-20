@@ -317,12 +317,15 @@ tools (`fetch.ts`, `audit.ts`, `mine.ts` are kept as provenance):
   5,842 `origin` splits.
 - **Scope rule — what belongs in import vs after:** anything that
   changes the **representation** of existing data (sense internals,
-  origin shape, markup translation) must land in the one-time
-  import — iterate on these until §6.0 is done. Anything
-  **additive** (gender, word type, richer language semantics,
-  link-kind coverage) is a post-import enrichment pass under D10
-  and must not delay import. Iterate on representation; import
-  once; enrich forever after.
+  origin shape, markup translation) is import's work — iterate on
+  these until §6.0 is done. Anything **additive** (gender, word type,
+  richer language semantics, link-kind coverage) is a post-import
+  enrichment pass under D10 and must not delay import. Settle
+  representation first; enrich afterwards. *(Reworded 2026-09-19:
+  this rule said the representation work "must land in the one-time
+  import" and closed "import once; enrich forever after" — D14's
+  one-shot framing, which R1 withdrew. Import is re-runnable; what
+  survives is the ordering, not the single shot.)*
 
 Import rules (each unit-tested; all derived from measured
 evidence):

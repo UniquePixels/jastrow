@@ -18,7 +18,8 @@ See CONTRIBUTING.md for the full guidelines.
 ## Data changes (delete this section if no `data/**` files changed)
 
 - [ ] Edited via the **admin tool**, not by hand
-- [ ] `bun run validate:data` passes
+- [ ] `bun qa:test` passes (it validates every entry file: schema, path,
+      tag vocabulary, balanced markup, unique slugs, link targets, page)
 - [ ] Changes are verified against the source (Jastrow / Sefaria)
 - [ ] Scope is one topic, ≈≤ 25–50 entries (larger? coordinate via an issue first)
 

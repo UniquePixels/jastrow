@@ -97,7 +97,7 @@ bun data:import         rules → patches → review detectors → gates → for
         └── data/source/migration-report.json + docs/v2/migration-blessing.md
         │
         ▼
-bun pipeline:compile    entry data → compiled data (data-architecture §3, not yet built)
+bun data:compile        entry data → compiled data (data-architecture §3, not yet built)
 ```
 
 The normal run is `data:fetch` then `data:import`: pull the current export,
