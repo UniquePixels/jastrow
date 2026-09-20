@@ -35,7 +35,10 @@ keeps the notation inside the lookup key or deletes it:
 - `headwords[0]` is always the primary form. Slugs, search and links use
   it. `headwords[1…]` replace today's `altHeadwords`.
 - A form holds only **meaning**: `text` (clean Hebrew), `reconstructed`,
-  `homograph`, `disambiguator`, optional `gender`.
+  `homograph`, `disambiguator`, optional `gender`, optional `partial`.
+- `partial: true` marks a form that is not a whole word — an ending Jastrow
+  prints after an ellipsis. It is shown exactly as printed, and it is
+  **never used for lookup or slugs**.
 - `display` is a template holding **how print set the line**. `{n}`
   inserts form n's bare text. Everything else is literal: commas (or
   their absence), parentheses, `*`, `?`, Roman numerals, superscripts,
@@ -53,6 +56,7 @@ Worked examples, one per variation found:
 | A00610 | star outside the parentheses | `*({0})` |
 | B00825 | `(?)` query | `*(?){0}` |
 | A00883 | cross-reference naming two homographs | `{0} I, II` |
+| O00394 | an ending after an ellipsis (`סוֹפִיסְטָא, … טָה`) | `{0}, … {1}`, form 1 `partial` |
 
 ### Why a template rather than a display string
 
@@ -85,8 +89,9 @@ search hit, or derive a slug from it.
    **Two or more numerals** beside one form (`{0} I, II`) are a
    reference to other entries, not a number for this one, and require
    no `homograph` — see §4.
-4. A form's `text` never contains a comma, parenthesis, `?`, `=` or a
-   Latin letter.
+4. A form's `text` never contains a comma, parenthesis, `?`, `=`, `…` or
+   a Latin letter.
+5. A `partial` form is never a lookup key or a slug source.
 
 ## 4. Decisions taken
 
@@ -102,6 +107,7 @@ search hit, or derive a slug from it.
 | **A01394 `אֵינָשׁ) אִינְשָׁא`** (H2, 1 row) | Same treatment: the alternates need a re-split only the print can settle, so the row is flagged rather than guessed. |
 | **Query mark `?`** (H3, 2 rows) | `display` only, never in `text`. Jastrow is marking the reading as doubtful, which carries nothing the lookup needs. The whole corpus holds two: A00077 alt `(?אִיבּוּס)` inside a paren group, and B00825 `*(?)בַּלְוָוטִי`. If "uncertain" ever becomes something the app filters on, these are the two rows to revisit — `*` is stored as `reconstructed` for the same kind of signal. |
 | **`=` in a headword** (H4, 2 rows) | A source defect, not a shape: `=` introduces a GLOSS cross-reference ("this word = that word, which see"), and 635 entries already open their definition with it. A01148 is the model — headword `איגראנאמון`, definition `= אַגְרוֹנִימוֹס q. v.` — matching the print. A01175 (`אִידְרְעָא = אֶדְרְעָא`) and A01345 (`אִימְנוֹן = הִמְנוֹן`) kept the whole line as the headword; the fix moves `= Y` into the gloss. Both targets resolve: A00477 alt `אֶדְרְעָא` and E00628. `slugStem` therefore needs no `=` case, and 2 of the 22 S1 rows clear. |
+| **Ellipsis endings** (H5, 8 rows) | Jastrow's own notation (confirmed): `… טָה` is an ending that replaces the base form's. Stored as a `partial` form, the `…` in `display`, **not expanded**: joining a fragment means choosing its base and assuming the letters before the seam keep that base's vowels, the inference ruled out for geresh stubs on 2026-08-22. For N01089 and M00997 even the base is unclear. Expansion against the print is [#106](https://github.com/UniquePixels/jastrow/issues/106); not a go-live blocker. |
 | **H1 separator defects** (4 rows) | A doubled space (B00098 `בַּד  V`) or a stray comma (B00443, C00329, M00447 `מוֹזְלָא , I`) in front of a single numeral is a defect: the text corrects to `<word> <numeral>` and then parses. |
 
 ## 5. Open questions
