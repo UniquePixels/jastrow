@@ -49,7 +49,7 @@ Worked examples, one per variation found:
 | A02823 | parentheses on the headword, no comma | `({0}) {1} I` |
 | K01275 | numeral inside the parentheses | `{0} I, ({1} II)` |
 | A00888 | a 1-form group, then a 4-form group | `{0}, ({1}), ({2}, {3}, {4}, {5})` |
-| G00374 | group opens on the headword | `({0}, {1})` |
+| G00374 | group opens on the headword, never closes | **unset** — flagged, see §3 |
 | A00610 | star outside the parentheses | `*({0})` |
 | B00825 | `(?)` query | `*(?){0}` |
 | A00883 | cross-reference naming two homographs | `{0} I, II` |
@@ -61,7 +61,20 @@ correction to a form would have to be made twice, and the app could not
 tell which span is which form — so it could not link a word, highlight a
 search hit, or derive a slug from it.
 
-## 3. Rules the pipeline halts on
+## 3. What halts, and what is only flagged
+
+**Text defects halt. Display uncertainty does not.**
+
+- A form's `text` is a lookup key, a slug and a link target. If it is
+  wrong, torn or unparseable, the pipeline halts — nothing downstream
+  can be trusted.
+- `display` only says how print laid the line out. Where the source
+  cannot settle it, the entry is still written, `display` is left unset,
+  and the row is flagged for review. **This does not block go-live.**
+- A flagged row is a ticket, not a guess. No default template is
+  invented to fill the gap.
+
+## 3.1 Rules the pipeline halts on
 
 1. Every form index appears in `display` exactly once.
 2. `display` contains **no Hebrew letters or points**. All Hebrew comes
@@ -85,6 +98,8 @@ search hit, or derive a slug from it.
 | **Gender** | At most one of: the entry's `grammar.gender`, **or** a `gender` on *every* headword of the entry. Never both, and no inheritance. |
 | **A01480 `אִיסְפְּלָנִית(א)`** | An alternate ending of one word, not a separate form. The only headword in the corpus with this notation. |
 | **Numeral lists on cross-references** (H1, 6 rows) | `display` only, **no `homograph`**. All 6 are bare cross-references (`אוּרְיָה I, II, v. אוּרְיָא`) and the numbered forms already exist elsewhere, carrying their own `homograph`: A00877/A00878 hold `אוּרְיָה` 1 and 2, and so on for B00435/B00436, D00607/D00608, E00515/E00516, G00696/G00698. The numerals here point at those entries. |
+| **Parentheses whose group never closes** (H2, 6 rows: G00374, L00587, P00223, P00224, Q00370, S01421) | The forms are clean and are written; `display` is left **unset** and the row flagged `paren-group-close-unknown`. Verified: no `)` in the headword, the alternates or `morphology` for any of the 6 — the `)` in their definitions closes an etymology. Two readings are possible (`({0}, {1})` or `({0}) {1}`) and A02823 proves Sefaria can place them wrongly, so neither is assumed. |
+| **A01394 `אֵינָשׁ) אִינְשָׁא`** (H2, 1 row) | Same treatment: the alternates need a re-split only the print can settle, so the row is flagged rather than guessed. |
 | **H1 separator defects** (4 rows) | A doubled space (B00098 `בַּד  V`) or a stray comma (B00443, C00329, M00447 `מוֹזְלָא , I`) in front of a single numeral is a defect: the text corrects to `<word> <numeral>` and then parses. |
 
 ## 5. Open questions
@@ -92,6 +107,8 @@ search hit, or derive a slug from it.
 - **Parenthesis placement is not trustworthy in the source.** A02823 puts
   them on the wrong form (print reads `(0) 1 I`). About 580 entries carry
   parentheses and would need checking against the hOCR or the print.
+  Until then, only what the source shows is recorded; see §4 for the 7
+  rows this already reaches.
 - **A02823 and M02007**: is the trailing numeral the entry's own? Not
   resolved — under §4 nothing moves either way.
 - **Lost per-form gender labels.** Sefaria keeps only the last label on
