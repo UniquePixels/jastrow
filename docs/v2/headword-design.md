@@ -108,7 +108,22 @@ search hit, or derive a slug from it.
 | **Query mark `?`** (H3, 2 rows) | `display` only, never in `text`. Jastrow is marking the reading as doubtful, which carries nothing the lookup needs. The whole corpus holds two: A00077 alt `(?אִיבּוּס)` inside a paren group, and B00825 `*(?)בַּלְוָוטִי`. If "uncertain" ever becomes something the app filters on, these are the two rows to revisit — `*` is stored as `reconstructed` for the same kind of signal. |
 | **`=` in a headword** (H4, 2 rows) | A source defect, not a shape: `=` introduces a GLOSS cross-reference ("this word = that word, which see"), and 635 entries already open their definition with it. A01148 is the model — headword `איגראנאמון`, definition `= אַגְרוֹנִימוֹס q. v.` — matching the print. A01175 (`אִידְרְעָא = אֶדְרְעָא`) and A01345 (`אִימְנוֹן = הִמְנוֹן`) kept the whole line as the headword; the fix moves `= Y` into the gloss. Both targets resolve: A00477 alt `אֶדְרְעָא` and E00628. `slugStem` therefore needs no `=` case, and 2 of the 22 S1 rows clear. |
 | **Ellipsis endings** (H5, 8 rows) | Jastrow's own notation (confirmed): `… טָה` is an ending that replaces the base form's. Stored as a `partial` form, the `…` in `display`, **not expanded**: joining a fragment means choosing its base and assuming the letters before the seam keep that base's vowels, the inference ruled out for geresh stubs on 2026-08-22. For N01089 and M00997 even the base is unclear. Expansion against the print is [#106](https://github.com/UniquePixels/jastrow/issues/106); not a go-live blocker. |
+| **Two spellings in one item** (H6, 5 rows) | A defect: Sefaria missed the comma between two forms — I00158 `טְוִיָּיה טְוִיָּה`, I00654 `טְפֵילָה טְפֵילָא`, M02116 `מַעְיָינָא מַעְיָנָא`, A01161 alt `אַיְידָא אֵידָא`, M02868 alt `מְשֵׁיזְבָא מְשֵׁיזִיב`. **Fixed by patch**: split the item at the space into two forms. Relocation only — every letter and vowel is already in the source, so this is inside the 2026-08-22 boundary. 3 of the 5 are primary headwords, so the split also corrects their slugs. Halts until patched. |
+| **Reduplication** (H6, 3 rows) | Legitimate multi-word forms — one expression spoken twice: D00004 `דא דא`, E00007 `הֵא הֵא`, H01657 `חַר חַר`. Kept as is. |
 | **H1 separator defects** (4 rows) | A doubled space (B00098 `בַּד  V`) or a stray comma (B00443, C00329, M00447 `מוֹזְלָא , I`) in front of a single numeral is a defect: the text corrects to `<word> <numeral>` and then parses. |
+
+## 4.1 Fixes queued as patches
+
+Defects the walk-through has settled, to be corrected by patch in one
+batch once the walk-through ends. Each is pipeline-detectable, so the
+generated report keeps listing it until the patch lands.
+
+| Shape | Rows | Patch |
+|---|---|---|
+| H1 separator defects | B00098, B00443, C00329, M00447 | text → `<word> <numeral>` |
+| H1 leaked commas | A02356, B00407, D00844 | trailing `,` back to the gloss |
+| H4 `=` in a headword | A01175, A01345 | `= Y` moves to the gloss |
+| H6 two spellings in one item | I00158, I00654, M02116, A01161, M02868 | split at the space into two forms |
 
 ## 5. Open questions
 
