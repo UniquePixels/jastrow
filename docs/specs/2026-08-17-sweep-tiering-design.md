@@ -19,8 +19,10 @@ composes all 32,512 entries and passes every gate: rejoin, units,
 lettered and form-section round-trips at 32,512/32,512, full-corpus
 schema validation with 0 failures, 0 label quarantines
 (`docs/archive/body-migration.md`). Page and column are solved by
-import rule 6 from the baseline deployed files plus 107 hand
-edits and 289 corrections. Nothing in the sweep gates the
+import rule 6, which since 2026-09-06 reads the hOCR page index
+(`data/page-index/entries.jsonl`); the baseline deployed files, the
+107 hand edits and the 289 corrections are a cross-check against it,
+not its source (data architecture §6 rule 6). Nothing in the sweep gates the
 transform; the sweep improves the *content* flowing through it.
 
 **The miss-rate gate is unreachable by construction.** Four

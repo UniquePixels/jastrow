@@ -161,8 +161,10 @@ forgotten work:
    (design changelog 2026-08-05 "new scope").
 3. **#39** — CP-1 carryovers for `migrate.ts`: the 3 ד-headword
    corrections (manual-correction layer) and the 289 page/column
-   print-locator fixes ("import rule 6", baseline deployed
-   files).
+   print-locator fixes. *(The latter half is superseded 2026-09-06:
+   rule 6 reads the hOCR page index, so the 289 fixes are a
+   cross-check against it rather than a carryover to apply. See data
+   architecture §6 rule 6.)*
 
 ## 4. Non-goals
 

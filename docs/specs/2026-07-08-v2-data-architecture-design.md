@@ -81,7 +81,7 @@ minimal):
 | `slug` | assigned at import | URL address; stored, frozen, CI-validated unique (§4) |
 | `headword` | decomposed | **Form object** — `text` (clean: no `*`, no numerals; 27,613 already clean) + optional `homograph` (Roman numeral, 2,871 — Jastrow's printed index, real content), `disambiguator` (superscript, 807 — Sefaria-added technical suffix; display deferred, register #6), `reconstructed` (`*`, 1,339 — evidence flag) |
 | `altHeadwords[]` | upstream, decomposed identically (19,351 entries) | Array of the **same form-object shape** — one schema, one code path for every headword form (alts carry marks too: 529 Roman, 18 starred) |
-| `page` | v1 local enrichment + the 107 hand edits | Grouped object: printed location. Not upstream data |
+| `page` | the hOCR page index (`data/page-index/entries.jsonl`, all 32,512 entries) | Grouped object: printed location. Not upstream data. *(Was "v1 local enrichment + the 107 hand edits"; superseded 2026-09-06 with §6 rule 6 — the v1 locators, the 107 hand edits and the 289 print-locator fixes are a cross-check, not the source.)* |
 | `grammar` | seeded at import from the 13,162 visible gender markers | **Typed index (body model B3)**: `gender` (`m`/`f`/`c`); `pos` starts null — filled by post-import enrichment (register #14). A lint checks index ↔ text agreement; the markers themselves stay in the gloss text (B2: prose is truth) |
 | `senses` | upstream, reassembled per the entry body model | Tree of `{label?, gloss, units[], senses[]}` (body model B2/B4–B6). The first sense is the entry's **intro flow** exactly as printed — the rejoined gloss head (morphology + etymology parenthesis + opening text; heals the K00664-class mid-phrase splits by construction). `label` is normalized (`"—2)"` → `"2"`); print punctuation regenerates by rule, byte-exact, else the entry is quarantined. `units[]` are citation-evidence blocks segmented by the conservative terminator rule. Lettered `a)…b)` runs and form sections (`Pl.`/`Part. pass.`/`Fem.`/`Denom.`, B12) split into child/sibling senses |
 | `stems` | upstream grammar nodes (4,043), restructured | Binyan sections: `stem` from the closed stem set, `forms` (binyan forms, cleaned at import), own sense tree — v1 flattened these |
@@ -440,8 +440,10 @@ Measured 2026-07-07/08 against the 2026-07-04 snapshot:
   (11,625 entries; worst 13).
 - Edit mining (main history): 22,164 modifies in 4 commits — 22,057
   scripted (refLink passes, tooltips), 107 hand-made page-number
-  fixes ("Data update: a few page numbers", caf242a). The replay
-  problem reduces to rule 6 of §6.
+  fixes ("Data update: a few page numbers", caf242a). ~~The replay
+  problem reduces to rule 6 of §6.~~ **Superseded 2026-09-06:** rule 6
+  no longer replays them, so there is no replay problem — the page
+  index is the source and these edits are a cross-check.
 - `language_code`/`language_reference`: present on 5,842 entries
   (4,494 both / 1,343 code-only / 5 reference-only); they are crude
   segments of the printed etymology parenthesis (mid-phrase splits:
@@ -453,8 +455,9 @@ Measured 2026-07-07/08 against the 2026-07-04 snapshot:
 
 - Phase 1 task 1.3 (edit mining): the tools (`mine.ts`,
   `parse-jsonl-diff.ts` + tests) land; `data/source/edit-replay.jsonl`
-  is **not committed** (D2) — the 107 real edits are consumed by
-  import rule 6, regenerated on demand.
+  is **not committed** (D2) — the 107 real edits were to be consumed
+  by rule 6, regenerated on demand. **Superseded 2026-09-06** (§6 rule
+  6): they are a cross-check against the page index, not an input.
 - The Phase 0–1 plan's remaining intent (CP-1) is satisfied by this
   spec's evidence plus a checkpoint record; Phase 2 planning happens
   against this document.

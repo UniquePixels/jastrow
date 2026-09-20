@@ -193,9 +193,11 @@ is what gate 6 covers.
 4. `bun data:import --write` reruns every gate, refuses on any
    red, then writes the 32,512 files in one pass and the report again.
 5. The write PR carries `data/entries/`, the quarantine list, the
-   report, and — since consolidation step 7, while `SLUGS_FROZEN` is
-   false — the regenerated `data/slug-index/` (`entries.jsonl` and
-   `aliases.jsonl`). Publication freezes the index, and from then a
+   blessing doc `docs/v2/migration-blessing.md` (not the machine
+   report `data/source/migration-report.json`, which §4.2 leaves
+   uncommitted under D2), and — since consolidation step 7, while
+   `SLUGS_FROZEN` is false — the regenerated `data/slug-index/`
+   (`entries.jsonl` and `aliases.jsonl`). Publication freezes the index, and from then a
    write run reads it instead of rewriting it (consolidation spec
    R10, §7.1).
 
