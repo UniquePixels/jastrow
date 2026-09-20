@@ -6,7 +6,7 @@ hand-written; imported into the tracker once one is chosen, then
 archived with the rest of the research (maintainer, 2026-09-18). Every
 review row the pipeline itself emits — headwords that don't parse,
 low-confidence page placements, carried markup, deferred repairs — is
-generated on each `bun pipeline:migrate` run into
+generated on each `bun data:import` run into
 [review-report.md](review-report.md), not here.
 
 Measured 2026-09-18 on `v2` at `08b607af`, over the committed source

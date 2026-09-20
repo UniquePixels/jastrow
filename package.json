@@ -5,10 +5,10 @@
 	"type": "module",
 	"scripts": {
 		"body:dry-run": "bun admin/pipeline/body/dry-run.ts",
+		"data:fetch": "bun admin/pipeline/fetch.ts",
+		"data:import": "bun admin/pipeline/migrate.ts",
 		"pageindex:verify": "bun admin/pipeline/page-index/verify.ts",
-		"pipeline:fetch": "bun admin/pipeline/fetch.ts",
-		"pipeline:migrate": "bun admin/pipeline/migrate.ts",
-		"pipeline:patches": "bun admin/pipeline/patch/apply-cli.ts",
+		"patch:replay": "bun admin/pipeline/patch/apply-cli.ts",
 		"qa": "bun qa:format && bun qa:lint && bun qa:test && bun qa:tsc",
 		"qa:ci": "biome ci --error-on-warnings",
 		"qa:format": "biome format --write",

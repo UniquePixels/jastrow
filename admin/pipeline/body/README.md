@@ -5,7 +5,7 @@ into the structured `BodyEntry` shape the app renders, per the
 [design doc](../../../docs/specs/2026-07-11-entry-body-model-design.md)
 and its [implementation plan](../../../docs/superpowers/plans/2026-07-11-entry-body-model.md).
 Not part of [the pipeline](../README.md) proper — this is prep work
-feeding Stage 2 (migration).
+feeding Stage 2 (import).
 
 | Tool | Job | Status |
 |---|---|---|
@@ -20,11 +20,11 @@ feeding Stage 2 (migration).
 | `units.ts` | Body unit builder (gloss + citation units) | done |
 | `form-sections.ts` | Form-section split (B12: `Pl.`/`Part. pass.`/`Fem.`/`Denom.`) | done |
 | `fixtures/` | Shared golden fixtures for the above | done |
-| `dry-run.ts` | Full-corpus dry run report before migration commits (+ `dry-run-verify.ts`, `dry-run-report.ts`) | done |
+| `dry-run.ts` | Full-corpus dry run report before import commits (+ `dry-run-verify.ts`, `dry-run-report.ts`) | done |
 | `review.ts` | Eyes-on review docs over dry-run output (`docs/archive/body-review/`) | archived at `refs/tags/archive/v2-research-2026-09` |
-| `repairs.ts` | General, corpus-wide migration repairs (Task 16); the rid-keyed tables moved to reviewed patches in `data/patches/reviewed/` (consolidation step 8, spec §4.1) | done |
+| `repairs.ts` | General, corpus-wide import repairs (Task 16); the rid-keyed tables moved to reviewed patches in `data/patches/reviewed/` (consolidation step 8, spec §4.1) | done |
 | `compose.ts` | One entry through text-repairs → structural-repairs → patch-apply; shared by `migrate.ts` and `patch/apply-cli.ts` | done |
-| `migrate-dry.ts` | Repairs + composition + gates over the healed corpus, migration report | archived at `refs/tags/archive/v2-research-2026-09` |
+| `migrate-dry.ts` | Repairs + composition + gates over the healed snapshot, import report | archived at `refs/tags/archive/v2-research-2026-09` |
 
 ## Source reader (`source.ts`, `types.ts`)
 

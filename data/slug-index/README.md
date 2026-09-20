@@ -3,7 +3,7 @@
 The record of which URL name belongs to which entry. **Reference data**
 (consolidation spec §1.1).
 
-**Not frozen yet.** Until v2 is published, `migrate` assigns every slug
+**Not frozen yet.** Until v2 is published, import assigns every slug
 from scratch, the way it composes every entry, and `--write` rewrites
 both files here. A run lists every slug that moved against this index as
 a `slug-changed` review row. Freezing is one switch, `SLUGS_FROZEN` in
@@ -104,7 +104,7 @@ bun admin/pipeline/migrate/seed-slug-index.ts
 It refuses if either file exists. It is not a `package.json` script
 because it runs once.
 
-**Before freezing, `migrate --write` writes this index.** After it, the
+**Before freezing, `data:import --write` writes this index.** After it, the
 pipeline reads the index and reports what it is missing — a rid with no
 row, a family with no alias — as review rows. Persisting those rows is
 index maintenance and ships with the atomic write (consolidation spec

@@ -184,13 +184,13 @@ is what gate 6 covers.
 
 ### 4.3 Blessing protocol
 
-1. `bun pipeline:migrate` runs dry, writes both artifacts, exits
+1. `bun data:import` runs dry, writes both artifacts, exits
    non-zero on any red gate.
 2. The maintainer reads the evidence doc and the sample. Any wanted
    change becomes a transform rule, a repair, or a quarantine row, and
    the dry run repeats.
 3. Blessing is approval of the PR that commits the evidence doc.
-4. `bun pipeline:migrate --write` reruns every gate, refuses on any
+4. `bun data:import --write` reruns every gate, refuses on any
    red, then writes the 32,512 files in one pass and the report again.
 5. The write PR carries only `data/entries/`, the quarantine list and
    the report.

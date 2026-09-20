@@ -21,7 +21,7 @@ patches for what cannot be done deterministically).
 
 | Measured | Result |
 |---|---|
-| `bun pipeline:migrate` dry run | 1 min 57 s, nine gates green |
+| `bun data:import` dry run | 1 min 57 s, nine gates green |
 | Fresh `--write` vs committed `data/entries/` | identical after `biome format` (2,785 files differ only by array reflow before it) |
 | Non-test code under `admin/`, and the share reachable from `migrate.ts` | 36,952 lines; ~77 modules on the migrate path |
 | `research/`, `provenance/`, one-time `body/` tools | 17,746 + 1,174 + 2,822 lines; 2 files needed by migrate |
@@ -33,27 +33,38 @@ patches for what cannot be done deterministically).
 
 The pipeline works and reproduces its output. The repository around it
 still records the research process rather than the reproducible path,
-and the July ruling that migrate is a one-shot contradicts the goal.
+and the July ruling that import is a one-shot contradicts the goal.
 
 ### 1.1 Terms (R8)
 
 | Term | What it is | Where |
 |---|---|---|
 | **source data** | Sefaria's export: the dictionary, lexicons and manifest `fetch` writes | `data/source/` |
-| **entry data** | one JSON file per entry; made by `migrate`, then edited by people and the admin tool. Earlier documents and code call it "truth" | `data/entries/<L>/<rid>.json` |
+| **entry data** | one JSON file per entry; made by import, then edited by people and the admin tool. Code still calls it "truth" (`TruthEntry`, `validateTruth`); documents no longer do, after step 10 | `data/entries/<L>/<rid>.json` |
 | **compiled data** | entry data built for the web app | not built yet (data-architecture §3) |
 | **reference data** | our own lookup inputs the pipeline reads alongside the source data: the print page/column index and the slug index (§7.1), and it may grow | `data/page-index/`, `data/slug-index/` |
 | **correction data** | our own per-entry fixes: patches and quarantined link targets | `data/patches/`, `data/quarantine/` |
 
-Reports (the migration report, the blessing doc, build reports) are
+Reports (the import report, the blessing doc, build reports) are
 evidence, not data. Research notes still filed beside the data are
 archive material (§8).
 
 `migrate` is renamed **import**, and the commands that move data between
 forms share a `data:` prefix: `data:fetch`, `data:import`,
-`data:compile`. Until the step-10 sweep, code, scripts and the body of
-this spec keep the old names. The full vocabulary, with old-to-new
-mappings, is [`docs/glossary.md`](../glossary.md).
+`data:compile`. The full vocabulary, with old-to-new mappings, is
+[`docs/glossary.md`](../glossary.md).
+
+**What step 10's sweep changed, and what it left** (2026-09-19). Live
+prose — anything describing how the pipeline works now — uses the
+glossary's words. Four things keep the old ones, and a reader should
+expect them:
+
+| Kept | Why |
+|---|---|
+| Code identifiers and paths: `admin/pipeline/migrate.ts`, `admin/pipeline/migrate/`, `TruthEntry`, `TruthFile`, `TruthSense`, `validateTruth`, `loadTruthFiles`, and the generated `docs/v2/migration-blessing.md` and `data/source/migration-report.json` | renaming them is a separate change, held back so a run's blessing doc stays comparable byte for byte against steps 7–9 |
+| Attributed or dated text: the rulings in §2, the shipped steps in §11, the changelog in §12, and the dated corrections inside table rows | they record what was ruled or run at the time; rewriting them would make them say something no one said |
+| `docs/superpowers/plans/` and `docs/archive/` | dated records of work as it happened (§8) |
+| `holamMaterMigration`, the rule id `holam-migrated-off-mater-vav`, and "ground truth" for print evidence | different words that only look like these ones: Hebrew vowel migration, and evidence straight from the 1903 page |
 
 ## 2. Rulings (maintainer, 2026-09-12/15)
 
@@ -80,7 +91,7 @@ data/patches/           correction data  (per-entry judgments, ours; admin tool 
 data/quarantine/        correction data  (unresolved targets, ours)
         │
         ▼
-bun pipeline:migrate    rules → patches → review detectors → gates → format
+bun data:import         rules → patches → review detectors → gates → format
         │
         ├── data/entries/<L>/<rid>.json      entry data (committed; people edit)
         └── data/source/migration-report.json + docs/v2/migration-blessing.md
@@ -89,7 +100,7 @@ bun pipeline:migrate    rules → patches → review detectors → gates → for
 bun pipeline:compile    entry data → compiled data (data-architecture §3, not yet built)
 ```
 
-The normal run is `fetch` then `migrate`: pull the current export,
+The normal run is `data:fetch` then `data:import`: pull the current export,
 process it, read the report. The flow is drawn in
 [`docs/pipeline-flow.drawio.svg`](../pipeline-flow.drawio.svg)
 (renders on GitHub; opens in draw.io for editing), derived from the
@@ -198,7 +209,7 @@ file. It can tell by rebuilding:
 |---|---|
 | base | `data/entries/` **as the pipeline last wrote it**. After the write, `migrate` computes the git tree object id of `data/entries/` and records it as `writtenTree` in a committed file, `data/source/migration-written.json`. A tree id is content-addressed: it is computable before the commit exists, it does not name the commit that carries it, and it survives rebases and squash merges. Base is recovered with `git read-tree <writtenTree>` into a temporary index (the migration report itself is not committed, D2, so it cannot carry this) |
 | ours | current `data/entries/` |
-| theirs | `migrate` of the *new* snapshot with current rules and patches |
+| theirs | import of the *new* snapshot with current rules and patches |
 
 `ours − base` is exactly the set of hand edits, because base is the
 pipeline's own output before anyone touched it. Base is *not* rebuilt
@@ -217,7 +228,7 @@ field and no patch re-recording is needed.
 ### 3.3 Patch lifecycle and the maintenance dry run
 
 When Sefaria corrects an entry, the patch that fixed it locally loses
-its precondition. `migrate` reports each such patch as one of two
+its precondition. Import reports each such patch as one of two
 outcomes (the research-process spec §6 already asks for this):
 
 | Outcome | Test | Action |
@@ -226,7 +237,7 @@ outcomes (the research-process spec §6 already asks for this):
 | `upstream-changed` | new source differs from both the patch's before and after | re-judge; review row |
 
 A scheduled dry run makes this routine: on a cadence (monthly, or on
-demand), fetch to a temporary directory, run `migrate` dry against it,
+demand), fetch to a temporary directory, run import dry against it,
 compare the result with a baseline (open, below), and open one issue
 listing entries added or removed, rule counts that moved, patches
 flagged `upstream-fixed` or `upstream-changed`, and new review rows.
@@ -236,7 +247,7 @@ No entry data is written. A person decides whether to run the update
 **Open (2026-09-15), until this process is brainstormed (§10):**
 
 - **Trigger.** A scheduled run may conflict with R9, since it runs
-  `migrate` in automation. Scheduled, on demand, or something else is
+  import in automation. Scheduled, on demand, or something else is
   undecided.
 - **Baseline.** Which committed artifact the result is compared with
   is undecided. Candidates named elsewhere in this spec are the
@@ -334,15 +345,15 @@ forbid if read literally. Left for the maintainer.
 
 ### 5.1 What verifies what
 
-Under R9, per-PR CI never runs `migrate` and never reads the source
+Under R9, per-PR CI never runs import and never reads the source
 data. Everything that processes the whole export happens when a person
 runs it.
 
 | Check | Verifies | Where it runs |
 |---|---|---|
-| nine migrate gates | the entry data a run produces | inside `migrate`, every run |
-| migrate report and blessing doc | what a run did: rule counts, patch outcomes, review rows | read by the person who ran `migrate`; the blessing doc is committed in the same PR as the source data and entry data it describes |
-| entry data validation (schema, file path, closed tag vocabulary, balanced markup, slug uniqueness, slug == slug-index row both ways, internal cite targets, page == page-index row both ways) | any change to entry data: by `migrate`, the admin tool, or hand. A safeguard, independent of which export produced the data | `migrate/validate.ts`, run over the tree by `migrate/truth.test.ts` in `bun qa`; CI job **Test** |
+| nine import gates | the entry data a run produces | inside import, every run |
+| import report and blessing doc | what a run did: rule counts, patch outcomes, review rows | read by the person who ran import; the blessing doc is committed in the same PR as the source data and entry data it describes |
+| entry data validation (schema, file path, closed tag vocabulary, balanced markup, slug uniqueness, slug == slug-index row both ways, internal cite targets, page == page-index row both ways) | any change to entry data: by import, the admin tool, or hand. A safeguard, independent of which export produced the data | `migrate/validate.ts`, run over the tree by `migrate/truth.test.ts` in `bun qa`; CI job **Test** |
 | hand-written example tests | what one rule does to a small, fixed input | unit tier in `bun qa`; CI job **Test**. 193 of them lived inside `*.corpus.test.ts` files and moved to `*.test.ts` in step 5; 11 of those run on eight real entries frozen in `transform/rules/fixtures/gershayim.jsonl` |
 | commutation and registry order's earned classes (`transform/commutation.corpus.test.ts`, `transform/registry.order.corpus.test.ts`) | the rule *code*: rules that edit the same text have a declared, justified order | run locally, by choice, before a PR that changes rule code or registry order: `bun run transform:invariants`; not CI. Each reads the source data and takes 3–4 min. Registry order's static assertions (every rule classified, the direction pins, cluster spans) read no data and run in `bun qa` from `transform/registry.order.test.ts`, sharing `transform/registry-classes.ts` with the corpus half |
 
@@ -450,7 +461,7 @@ tree stands. It is reference data (§1.1) — once frozen, the pipeline
 reads it as an input. `status` is `live` or `retired`; a retired row keeps its slug
 reserved so a URL is never handed to a different word.
 
-**Who writes it.** Before publication, `migrate --write`, from the
+**Who writes it.** Before publication, `data:import --write`, from the
 run's own assignment. After it, a frozen run reports the rows the index
 is missing (`slug-new`, `slug-alias-new`) and writes nothing; appending
 a row for each new rid and retiring the absent ones is index
@@ -554,7 +565,8 @@ of them.
 counter, still live), and `body:dry-run` (survives because
 `migrate.ts` imports `dry-run.ts`'s `buildTrace`). `research:apply` is
 renamed `pipeline:patches`; it is the patch engine, not research, and
-stays runnable on its own.
+stays runnable on its own. *(Step 10 renamed three of these:
+`data:fetch`, `data:import`, `patch:replay`.)*
 
 ## 9. Documents
 
@@ -686,12 +698,42 @@ Steps 1–4 have shipped and are kept as history.
    `tranche-01`, on pre-patch text) left 101 escalations the residue
    sweep never revisited, on top of the 487. It also found 32 open
    research classes still flagged `blocking: true` (step 11).
-10. Terms sweep (§1.1, `docs/glossary.md`): documents say source,
-    entry, compiled, reference and correction data, and import for
-    migrate; `package.json` scripts become `data:fetch`, `data:import`
-    (and `data:compile` when built). Which other scripts take the
-    `data:` prefix, and whether code identifiers such as `migrate.ts`
-    and `migrate/truth.test.ts` are renamed, is decided then.
+10. *Shipped (#TBD).* Terms sweep (§1.1, `docs/glossary.md`):
+    documents say source, entry, compiled, reference and correction
+    data, and import for migrate; `package.json` scripts become
+    `data:fetch`, `data:import` (and `data:compile` when built).
+    **The two questions this step left open are answered.**
+
+    *Which other scripts take the `data:` prefix:* none. The prefix
+    marks the commands that move data from one form to the next, and
+    only `fetch`, `import` and the unbuilt `compile` do. Every other
+    script keeps a prefix naming the module it runs, or checks the
+    repo. `pipeline:patches` became **`patch:replay`** rather than
+    `data:`-anything — it replays the committed patch corpus
+    read-only and moves nothing — which also left no lone `pipeline:`
+    prefix behind.
+
+    *Whether code identifiers are renamed:* not in this step
+    (maintainer, 2026-09-19). `migrate.ts`, `migrate/`,
+    `migrate/truth.test.ts`, `TruthEntry`, `TruthFile`, `TruthSense`,
+    `validateTruth` and `loadTruthFiles` keep their names, and so do
+    the generated `migration-blessing.md` and `migration-report.json`.
+    The reason is the control: steps 7, 8 and 9 each verified
+    themselves by the blessing doc coming back byte-identical, and
+    that doc's prose is emitted by the code these names live in — a
+    rename would have changed it by design and cost this step its
+    strongest check. Renaming them is its own change, with its own
+    control (a run compared modulo a stated token map). §1.1 records
+    the boundary and the three classes of look-alike the sweep must
+    not touch.
+
+    **Measured before the sweep:** "migrate" or "truth" appears in 107
+    and 45 files respectively. Three of those populations are
+    look-alikes that a blind rewrite would have corrupted — 58 entry
+    files where Jastrow's own English gloss is the word *truth* or
+    *migration*; `holamMaterMigration` and the registered rule id
+    `holam-migrated-off-mater-vav`, which are Hebrew vowel migration;
+    and "ground truth" for evidence read straight off the print page.
 
 11. Research backlog triage (added 2026-09-18). The pattern catalogue
     still flags 32 open classes `blocking: true` — 31 on the `judgment`
@@ -725,4 +767,5 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-18 | Maintainer overruled step 7's freeze: R10 binds at v2 publication, not during development. `SLUGS_FROZEN = false` until then — runs regenerate slugs and aliases, report `slug-changed`, and `--write` rewrites the index; the frozen path is kept behind the switch. `slugStem` drops `*`, `(…)`, `?`, `,`, Roman numerals and superscripts, keeps `=`: 26 slugs moved, aliases 4,407 → 4,412, numbered members 11,626 → 11,640, `slug-unsafe` 12 → 2. `unsafeSlugs` is now an allow-list. §7, §7.1–7.3 and step 7 amended |
 | 2026-09-18 | Step 8: `repairs.ts`'s rid-keyed hand tables converted to reviewed patches (§4.1) and the tables deleted; §4.2 "Who may add bytes" records the authorship ruling and its open question on agent removals; §11 step 8 spelled out with measured numbers. Rule and helper comments elsewhere that quote a count "measured after `applyRepairs`" are left as dated measurements of that snapshot — `applyRepairs` itself changed (rid-keyed passes moved out) but the count a comment recorded is still what that run measured, so those comments are not edited one by one |
 | 2026-09-18 | Step 9 reworked (maintainer): import writes `docs/v2/review-report.md`, every review row tagged `publication: blocks / defer / note` by kind, and v2 publishes only with no `blocks` rows (§3.1.1); research leftovers go to a hand-written `docs/v2/research-backlog.md`, imported into the tracker then archived — the hand-written `review-queue.md` is withdrawn. Step 11 added: triage the 32 open research classes still flagged as blocking the cutover. Four §9 figures corrected by measurement; `sefaria-report.md` §6b and §16 added, register rows #6b and #16 recounted; step 8's PR number backfilled |
+| 2026-09-19 | Step 10: `pipeline:fetch` → `data:fetch`, `pipeline:migrate` → `data:import`, `pipeline:patches` → `patch:replay`; the `data:` prefix is closed to the three data-moving commands and no others. Living documents take the glossary's words; code identifiers, attributed and dated text, `docs/superpowers/plans/` and `docs/archive/` keep the old ones, and §1.1 states the rule and names the three look-alike populations a blind sweep would have corrupted. `docs/glossary.md` loses its "Script today" column, gains `patch:replay` and two more retired terms, and its reference-data row gains the slug index step 7 added |
 | 2026-09-18 | Step 9 shipped: `docs/v2/research-backlog.md` replaces `docs/v2/review-queue.md` (deleted, links repointed), carrying the four research lists and a new "Blocks the v2 cutover" section generated from `patterns.jsonl`'s 32 open `blocking` classes for step 11. Nine gates green, `migration-blessing.md` byte-identical; review report 311 `blocks`, 2,204 `defer`, 0 `note`, 2,515 rows |
