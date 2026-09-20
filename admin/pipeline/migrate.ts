@@ -20,6 +20,7 @@ import { evaluateRoundTrip } from './body/dry-run-verify.ts';
 import type { PassName } from './body/repairs.ts';
 import { readSourceEntries } from './body/source.ts';
 import type { BodyEntry, SourceEntry } from './body/types.ts';
+import { biomeBinary } from './migrate/biome.ts';
 import {
 	buildHeadwordMap,
 	checkQuarantine,
@@ -588,12 +589,15 @@ async function outputTreeIsEmpty(): Promise<boolean> {
  * formatting is the write's last step. It runs here rather than as a
  * second command in the `data:import` script: `bun run` appends
  * extra arguments to the LAST command, so `bun data:import
- * --write` handed `--write` to biome and migrate ran dry (PR #88). */
+ * --write` handed `--write` to biome and migrate ran dry (PR #88).
+ * Which biome is `biomeBinary`'s question, not a literal path's:
+ * `main` has already resolved one, so this spawn cannot be the step
+ * that discovers there is none. */
 function formatTruth(): void {
-	const result = Bun.spawnSync(
-		['node_modules/.bin/biome', 'format', '--write', OUT_DIR],
-		{ stderr: 'inherit', stdout: 'inherit' },
-	);
+	const result = Bun.spawnSync([biomeBinary(), 'format', '--write', OUT_DIR], {
+		stderr: 'inherit',
+		stdout: 'inherit',
+	});
 	if (result.exitCode !== 0) {
 		throw new Error(`biome format exited ${result.exitCode}`);
 	}
@@ -673,10 +677,17 @@ function printGates(report: Report, slugMode: string): void {
  * half-written tree would leave a mix of two runs. */
 async function main(): Promise<void> {
 	const options = runOptions(process.argv);
-	if (options.write && !(await outputTreeIsEmpty())) {
-		throw new Error(
-			`${OUT_DIR} already holds truth files; migration writes once`,
-		);
+	if (options.write) {
+		if (!(await outputTreeIsEmpty())) {
+			throw new Error(
+				`${OUT_DIR} already holds truth files; migration writes once`,
+			);
+		}
+		// Resolved before anything is composed, though it is not used
+		// until `formatTruth` at the very end: a run that cannot find a
+		// biome refuses here, rather than after 32,512 unformatted files
+		// are already on disk.
+		biomeBinary();
 	}
 	const validate: ValidateFunction = new Ajv2020({
 		allErrors: true,
