@@ -7,6 +7,7 @@
 		"body:dry-run": "bun admin/pipeline/body/dry-run.ts",
 		"data:fetch": "bun admin/pipeline/fetch.ts",
 		"data:import": "bun admin/pipeline/migrate.ts",
+		"headword:issues": "bun admin/pipeline/headword-issues.ts",
 		"pageindex:verify": "bun admin/pipeline/page-index/verify.ts",
 		"patch:replay": "bun admin/pipeline/patch/apply-cli.ts",
 		"qa": "bun qa:format && bun qa:lint && bun qa:test && bun qa:tsc",
