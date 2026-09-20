@@ -12,7 +12,7 @@
 The 2026-08-06 decision audit (PR #36 review session) found one
 systemic gap behind the Q00997 miss: **every Task 16 numbering repair
 is a text-level byte edit; none restores sense structure.** The
-migration report's own recounts prove it:
+import report's own recounts prove it:
 
 - `brokenTopSequences` after repair: **34** — ~13 marker-reinsert
   rids (their restored `1)` sits inline in sense text), ~18
@@ -66,7 +66,7 @@ in-text):
   preservation alone can't vouch for structural placement, so both
   are asserted. Fixtured per edge shape (top-level and stem-child
   variants both); unprovable cases quarantine to eyes-on, never
-  silently into truth.
+  silently into entry data.
 
 Covers the ~31 non-deferred residue rids (the 01 swallowed-marker
 and reinsert classes), rid-keyed and loud on drift, like every
@@ -161,7 +161,7 @@ forgotten work:
    (design changelog 2026-08-05 "new scope").
 3. **#39** — CP-1 carryovers for `migrate.ts`: the 3 ד-headword
    corrections (manual-correction layer) and the 289 page/column
-   print-locator fixes ("migration rule 6", baseline deployed
+   print-locator fixes ("import rule 6", baseline deployed
    files).
 
 ## 4. Non-goals
@@ -193,7 +193,7 @@ forgotten work:
   every `SIGNED_EXCEPTION`/`REJECTED` approval pointer (S5).
 - Standing gate: maintainer personally reviews doc 08, the split
   diffs, **and every signed-exception and rejection row** before
-  anything is blessed into truth — the approval metadata those
+  anything is blessed into entry data — the approval metadata those
   records carry is written during this review, not before it.
 
 ## 6. Resolved questions (maintainer, 2026-08-06)
@@ -202,7 +202,7 @@ forgotten work:
   asked what the schema and existing senses do; the architecture
   answers it. Source-layer `sense.number` holds raw print tokens
   (`"1)"`, `"—2)"`, `"*2)"` — all 10,186 existing labels); the B11
-  truth schema stores the normalized `label`, and `parseLabel`/
+  entry-data schema stores the normalized `label`, and `parseLabel`/
   `printLabel` (B6, Task 7) convert with a byte-exact regeneration
   proof. New siblings store the verbatim token (e.g. `—3)`) and flow
   through the same machinery as every other sense — storing

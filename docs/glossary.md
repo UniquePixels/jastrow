@@ -142,7 +142,7 @@ What a run reports for each patch:
 | `research:apply`, then `pipeline:patches` | `patch:replay` |
 | migration report | import report |
 | truth file, truth tree entry | entry file |
-| migration blessing | blessing doc (the file keeps the name `docs/v2/migration-blessing.md` until the code sweep) |
+| migration blessing | blessing doc (the file keeps the name `docs/v2/migration-blessing.md`, and its heading still reads "Migration blessing", until the code sweep: both are emitted by `migrate/report.ts`) |
 | serving artifacts | compiled data |
 | corpus (meaning the committed export) | snapshot |
 | Rebuild CI job, Corpus Audit CI job | withdrawn 2026-09-15 (spec R9); removed from CI in spec step 5 |

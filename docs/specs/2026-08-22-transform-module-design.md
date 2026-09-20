@@ -110,7 +110,7 @@ section as the contract, so the two must agree.
 
 **A rule carries no expected count.** It carries a predicate, and
 reports what it changed. `records` is a record in the bookkeeping
-sense — it flows into the migration report and is never compared
+sense — it flows into the import report and is never compared
 against anything at runtime. `records.length > 0` is also how
 `transform:count` reads "this rule fired on this entry".
 
@@ -243,7 +243,7 @@ reports success on unreviewed output. The list is therefore exhaustive
 over `SourceEntry` and `SourceSense` by construction, with **exactly
 two exclusions**, both deliberate:
 
-- **`refs[]`** is dropped from truth (body model §5, B7) and holds
+- **`refs[]`** is dropped from entry data (body model §5, B7) and holds
   machine identifiers rather than text.
 - **`rid`** is the entry's primary key — an identifier, not text. A
   rule that rewrote a `rid` would pass this gate, and correctly so:

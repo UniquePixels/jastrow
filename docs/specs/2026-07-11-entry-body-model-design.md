@@ -3,9 +3,9 @@
 - **Date:** 2026-07-11
 - **Status:** Reviewed — maintainer §6.0 eyes-on review completed
   2026-08-05 (decisions recorded in `docs/archive/body-review/`); B5/B12
-  extensions and approved migration passes implemented (Tasks 14–16)
+  extensions and approved import passes implemented (Tasks 14–16)
 - **Parent:** [2026-07-08-v2-data-architecture-design.md](2026-07-08-v2-data-architecture-design.md)
-  §6.0 (migration prerequisite: "entry body model, the big one").
+  §6.0 (import prerequisite: "entry body model, the big one").
   Resolves the provisional rows of parent §2.2 (`origin`, `senses`,
   `quotes`) and amends parent §2.3 (vocabulary) and §7 (cleanup
   register). Decision IDs here are B1–B12; the parent's D-numbers are
@@ -23,7 +23,7 @@ etymology paren, sometimes split mid-phrase), `content.morphology`
 (the gender marker, 13,162 entries), `plural_form`, a sense-1
 "definition" that opens with entry-level text, `quotes`, and `refs` —
 none of which is the model. This design reassembles the printed body
-into the structure v2 truth actually wants.
+into the structure v2 entry data actually wants.
 
 **Method (B1, maintainer 2026-07-11):** design the ideal form first —
 "if we had no data to import, what structure best represents the
@@ -97,16 +97,16 @@ unchanged by this design.
 
 | Field | Notes |
 |---|---|
-| `id`, `slug`, `page` | Unchanged from parent §2.2 (identity, frozen URL slug, print locator via migration rule 6 — baseline deployed files + the 107 hand edits) |
+| `id`, `slug`, `page` | Unchanged from parent §2.2 (identity, frozen URL slug, print locator via import rule 6 — baseline deployed files + the 107 hand edits) |
 | `headword`, `altHeadwords` | Unchanged form objects (parent §2.2): clean `text` + `homograph` (Roman, 2,871), `disambiguator` (superscript, 807), `reconstructed` (`*`, 1,339); byte-exact regeneration gate. Not re-decided here; restated so this document reads standalone |
-| `grammar` | **The typed index (B3).** `gender` seeded at migration from the 13,162 visible markers; `pos` starts null — not in the export, filled by post-migration enrichment (v1 derived POS onto 7,611 entries — deployed `g.ps` — usable as a review seed, register #11). Lint checks index ↔ text agreement |
-| `senses` | Tree of `{label?, gloss, units[], senses[]}`. The first sense is unlabeled — it is the entry's intro flow, exactly as printed. `label` is normalized (`"—2)"` → `"2"`, `"a)"` → `"a"`); print punctuation regenerates by rule, byte-exact, else the entry is quarantined (B6). **Form sections (B12, maintainer print-verified 2026-07-13; extended 2026-07-14 during study):** Jastrow's `—<marker> <form> 1)…2)…` blocks are separate lemma-level sense sets, not tails of the preceding sense — the upstream data flattens them into the prior sense's text. Originally verified for `Pl.` (plural); a second print pass found the identical convention under `Part. pass.` (passive participle), `Fem.` (feminine), and `Denom.` (denominative) headers. At migration the block is split out into its own **sibling sense node** (gloss = the marker intro, child senses = the restarted numbered items, full nesting allowed), attributed to the nearest preceding marker when a text carries more than one (sections are sequential). Applies only where a marker's block carries its own numbering — 13 entries, censused: `Pl.` 5, `Part. pass.` 6, `Fem.` 1, `Denom.` 1; plain marker prose without a restarted run stays inline. No schema change — `senses` already recurse; form-section-ness stays text-borne (the marker text in the gloss), consistent with B2 |
+| `grammar` | **The typed index (B3).** `gender` seeded at import from the 13,162 visible markers; `pos` starts null — not in the export, filled by post-import enrichment (v1 derived POS onto 7,611 entries — deployed `g.ps` — usable as a review seed, register #11). Lint checks index ↔ text agreement |
+| `senses` | Tree of `{label?, gloss, units[], senses[]}`. The first sense is unlabeled — it is the entry's intro flow, exactly as printed. `label` is normalized (`"—2)"` → `"2"`, `"a)"` → `"a"`); print punctuation regenerates by rule, byte-exact, else the entry is quarantined (B6). **Form sections (B12, maintainer print-verified 2026-07-13; extended 2026-07-14 during study):** Jastrow's `—<marker> <form> 1)…2)…` blocks are separate lemma-level sense sets, not tails of the preceding sense — the upstream data flattens them into the prior sense's text. Originally verified for `Pl.` (plural); a second print pass found the identical convention under `Part. pass.` (passive participle), `Fem.` (feminine), and `Denom.` (denominative) headers. At import the block is split out into its own **sibling sense node** (gloss = the marker intro, child senses = the restarted numbered items, full nesting allowed), attributed to the nearest preceding marker when a text carries more than one (sections are sequential). Applies only where a marker's block carries its own numbering — 13 entries, censused: `Pl.` 5, `Part. pass.` 6, `Fem.` 1, `Denom.` 1; plain marker prose without a restarted run stays inline. No schema change — `senses` already recurse; form-section-ness stays text-borne (the marker text in the gloss), consistent with B2 |
 | `gloss` | Tagged prose. Contains — deliberately unextracted (B2) — the gender marker, the etymology parenthesis (rejoined), construct/plural-form phrases, bracketed archaic/historical meanings, and the defining text |
-| `units` | Citation-evidence blocks (B4): tagged prose, one per citation cluster + its quote/translation prose. Segmented once at migration by the conservative terminator rule (§4); wrong boundaries are per-entry hand fixes afterwards |
+| `units` | Citation-evidence blocks (B4): tagged prose, one per citation cluster + its quote/translation prose. Segmented once at import by the conservative terminator rule (§4); wrong boundaries are per-entry hand fixes afterwards |
 | `stems` | Binyan sections (upstream grammar nodes): `stem` from the closed stem set, `forms` (binyan forms), own sense tree |
 | — | Cross-reference ("v. …") entries need no field: see note above the table. Curated finding aids stay per parent §2.4 |
 
-**Dropped from truth** (source snapshot retains everything):
+**Dropped from entry data** (source snapshot retains everything):
 
 | Upstream field | Fate | Decision |
 |---|---|---|
@@ -155,7 +155,7 @@ Measured: of 98,124 `refs`-field items, 87.8% exactly duplicate an
 inline citation, 12.1% are same-book expansions of one, 29 items
 (0.03%) have no inline basis. The field is a stale, incomplete
 derivation of the body — 31% of inline citations are missing from it.
-Truth therefore stores no reference list. `compile` derives the
+Entry data therefore stores no reference list. `compile` derives the
 complete per-entry index from the `<cite>` tags, categorized by
 corpus (Talmud/Midrash/Bible/…, regenerating what v1 shipped as the
 derived `rf` rollup) for the color-coded reference box and search.
@@ -165,17 +165,17 @@ The 29 orphans, audited 2026-07-11:
 - 21 are internal cross-references to gershayim-abbreviation
   headwords (א"ט, אלפ"א …) whose target text sits unlinked in the
   body — fixed by wrapping the text in `<cite ref>` (hand pass, listed
-  in the migration report).
+  in the import report).
 - 5 are resolved-but-unlinked **ibid** citations (`Ib. 88ᵇ`) — fixed
   the same way, with the resolution taken from the old refs value.
 - 3 are unexplained (D00541 → Yoma 2a, Q00890 → Yoma 2a:3, M01355 →
-  R. Hash. 23b) — maintainer eyes-on at migration review.
+  R. Hash. 23b) — maintainer eyes-on at import review.
 
 **Ibid class (new register item):** the corpus has 15,421 ibid
 citations; 8,403 carry links, 7,018 do not. Resolving the unlinked
 ones (chaining from the previous citation in the entry) is a
-post-migration linking pass — wrapping existing text in tags is
-additive and does not block migration.
+post-import linking pass — wrapping existing text in tags is
+additive and does not block import.
 
 ## 6. Quotes: dropped (B8)
 
@@ -195,7 +195,7 @@ possible later as an additive enrichment.
 
 Maintainer mandate: every parse rule is vetted against enumerated
 edge-case classes before running; anything unprovable goes to eyes-on
-review, never into truth silently.
+review, never into entry data silently.
 
 | Census / fixture set | Size | Purpose |
 |---|---|---|
@@ -204,7 +204,7 @@ review, never into truth silently.
 | Lettered-item shapes | ~190 | Fixture the a)/b)/c) split |
 | Unit-boundary classes | 89k+ citations | Terminator-rule distribution incl. slash-less hrefs, parenthesized cites |
 | Preamble content survey | 5,842 origin + preamble entries | Verify the rejoin order; catalogue const./pl. phrasing for a future forms index |
-| Ibid citations | 15,421 (7,018 unlinked) | Scope the post-migration linking pass |
+| Ibid citations | 15,421 (7,018 unlinked) | Scope the post-import linking pass |
 | Orphan refs | 29 (21 + 5 + 3) | §5 dispositions |
 | Quotes stragglers | 8 | Phrases that don't locate in their body — review before the field is deleted |
 

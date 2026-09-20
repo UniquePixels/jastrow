@@ -19,7 +19,7 @@ composes all 32,512 entries and passes every gate: rejoin, units,
 lettered and form-section round-trips at 32,512/32,512, full-corpus
 schema validation with 0 failures, 0 label quarantines
 (`docs/archive/body-migration.md`). Page and column are solved by
-migration rule 6 from the baseline deployed files plus 107 hand
+import rule 6 from the baseline deployed files plus 107 hand
 edits and 289 corrections. Nothing in the sweep gates the
 transform; the sweep improves the *content* flowing through it.
 
@@ -46,7 +46,7 @@ instances of a known pattern is wasted spend.
 
 Sweep to **discovery saturation**, convert every pattern to a
 deterministic transform, and reserve LLM judgment for the residue
-that no rule can decide. Ship on migration gates plus a golden-file
+that no rule can decide. Ship on import gates plus a golden-file
 render diff. Continue quality work after launch.
 
 ## 3. Decisions

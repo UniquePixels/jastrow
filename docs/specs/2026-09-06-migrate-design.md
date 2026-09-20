@@ -1,16 +1,16 @@
-# Migration — `migrate.ts`, Source to Truth
+# Import — `migrate.ts`, source data to entry data
 
 - **Status:** approved in design 2026-09-06 (maintainer, sections 1–4);
   awaiting written-spec review
 - **Parent:** [data architecture §6](2026-07-08-v2-data-architecture-design.md)
-  (D14, migration rules 1–7, blessing gates)
+  (D14, import rules 1–7, blessing gates)
 - **Consumes:** the entry body model
   ([§6.0](2026-07-11-entry-body-model-design.md)), the repair passes
   (`admin/pipeline/body/repairs.ts`), the transform registry
   ([transform module](2026-08-22-transform-module-design.md)), the
   accepted patch corpus (`data/patches/`), and the hOCR page index
   (branch `worktree-headword-page-index`, §2.5)
-- **Produces:** `data/entries/<L>/<rid>.json`, the truth layer
+- **Produces:** `data/entries/<L>/<rid>.json`, the entry data
 
 ## 1. Context & Problem
 
@@ -82,7 +82,7 @@ A six-row table over `transform/html.ts` tokens. The corpus inventory
 (raw) is `a` 164,808 · `span[dir]` 100,362 · `i` 47,028 · `sup` 311 ·
 `b` 20 · `sub` 10; `a[dir="rtl"]` occurs 59,264 times.
 
-| Source | Truth |
+| Source | Entry data |
 |---|---|
 | `<span dir="rtl">` | `<he>` |
 | `<a class="refLink" href data-ref>` | `<cite ref="…">` (§2.3 decides `ref`) |
@@ -131,7 +131,7 @@ frozen; a later insertion never renumbers.
 `page: { number, column }` copied from `data/page-index/entries.jsonl`
 by rid, for all 32,512 entries (rid sets match exactly). Placement
 confidence is 30,321 high / 1,893 medium / 298 low. All are written
-alike — the schema carries no confidence field and truth should not
+alike — the schema carries no confidence field and entry data should not
 either — and the 2,191 non-high placements are listed in the evidence
 doc for review (§4.2).
 
@@ -180,7 +180,7 @@ is what gate 6 covers.
 | Artifact | Path | Committed |
 |---|---|---|
 | Machine report: every gate tally, every failure line, per-stage counts | `data/source/migration-report.json` | no (D2) |
-| Evidence doc: gate table, unparsed-headword list, non-high page placements, slug collision summary, quarantine list, 40 sampled entries rendered source beside truth | `docs/v2/migration-blessing.md` | yes |
+| Evidence doc: gate table, unparsed-headword list, non-high page placements, slug collision summary, quarantine list, 40 sampled entries rendered source beside entry data | `docs/v2/migration-blessing.md` | yes |
 
 ### 4.3 Blessing protocol
 
@@ -235,7 +235,7 @@ pass under the current biome config before that PR merges.
 ## 7. Sequencing
 
 The branch `research/residue-calibration` holds 44 commits not yet on
-`v2`, and migration needs every one of those transforms. It lands
+`v2`, and import needs every one of those transforms. It lands
 first.
 
 | PR | Off | Content | Merge gate |
@@ -251,23 +251,33 @@ first.
   and the existing dry run.
 - Every PR gets the full local review battery before push (cloud
   CodeRabbit is skipped on this repository).
-- `migrate.ts` retires when `compile.ts` consumes the truth files, at
-  the CP-2 layout cleanup — not at PR 5.
+- ~~`migrate.ts` retires when `compile.ts` consumes the truth files, at
+  the CP-2 layout cleanup — not at PR 5.~~ **Struck 2026-09-19:** a
+  D14 relic this spec kept after the architecture spec's copy was
+  struck. `migrate.ts` is permanent and re-runnable (consolidation
+  spec R1); nothing retires it.
 
 ## 8. Out of scope
 
-- `compile.ts` (truth → serving).
+- `compile.ts` (entry data → compiled data).
 - Link-kind typing `k` (register #2), ibid linking (register #13), POS
-  enrichment (register #14) — additive, post-migration.
+  enrichment (register #14) — additive, post-import.
 - Adjudicating the ~215 page/column disagreements between the index
   and v1's hand columns, and the 2,191 non-high placements. They are
-  listed for review; a correction is an ordinary truth edit after
-  migration.
+  listed for review; a correction is an ordinary entry-data edit
+  after import.
 - The 704 `needs_*` residue escalations — per-entry work via the admin
   tool, post-go-live (maintainer decision 2026-09-06).
 
 ## 9. Changelog
 
+- 2026-09-19 — terms sweep (consolidation spec §11 step 10): the
+  title, the layer names and the prose take the glossary's words.
+  `migrate.ts`, `migrate/`, `migrate-dry.ts` and this file's own
+  name keep theirs — code identifiers are a separate change. §7's
+  "`migrate.ts` retires" bullet struck: it is a D14 relic that
+  outlived the strike applied to the architecture spec's copy, and
+  R1 withdrew it.
 - 2026-09-06 — drafted from the four approved design sections.
   Supersedes data-architecture §6 rule 6 (page source) and the
   render-diff blessing gate.

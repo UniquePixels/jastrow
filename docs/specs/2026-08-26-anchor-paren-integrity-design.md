@@ -61,7 +61,7 @@ of the ten rows** — the six rules' own rows, plus
 longer a transform row at all). **Two rows remain in `PENDING`**:
 `unterminated-href-swallows-closing-tag`, written and tested but NOT
 registered because `checkLinkTargets` refuses D00478 and `run.ts` would
-halt the migration on it, and `tosefta-variant-chapter-halakha-loss`,
+halt the import on it, and `tosefta-variant-chapter-halakha-loss`,
 never written. Both fold into one follow-up gate PR. See
 [../archive/transform-batch-4.md](../archive/transform-batch-4.md).
 
@@ -399,7 +399,7 @@ measurement this document has not made — flagged in §7.
 > and the table below now marks them. **NOTHING HERE LICENSES WRITING A
 > TOSEFTA PRIMARY `data-ref`.** Read row 3's target half as a
 > DESCRIPTION OF A REFUSED EDIT: `checkLinkTargets` rejects it, `run.ts`
-> throws on a gate problem, and registering it would halt the migration
+> throws on a gate problem, and registering it would halt the import
 > rather than repair anything. See
 > [../archive/transform-batch-4.md](../archive/transform-batch-4.md).
 

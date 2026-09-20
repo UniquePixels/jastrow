@@ -8,7 +8,7 @@ that ran it. Nothing here runs. All 191 permalinks resolve against
 and kinds — not the links — are the durable record.
 
 **Why this list exists.** On the committed source data the nine
-`migrate` gates and the migration report cover what these tests
+The import gates and the import report cover what these tests
 pinned. On a *new* export the `derived-table` and `no-defect` rows
 were the only warning, so each one worth keeping becomes a review
 detector that emits report rows with no pinned number (spec §10).
@@ -47,7 +47,7 @@ are lower priority. In general: a citation in `patterns.jsonl` or
 `catalogue-audit/` resolving to a test in the table below means the
 guard it named is a review-detector candidate (spec §10) — it does
 not mean the defect the row describes has returned; the entry data
-still carries whatever `migrate`'s gates and report cover today.
+still carries whatever import's gates and report cover today.
 
 **Highest priority.** The three `body/deletion-baseline.corpus.test.ts`
 rows below pinned the per-rule deleted-codepoint counts for the thirteen
@@ -84,7 +84,7 @@ passes every gate and every test unremarked.
 | [`body/pipeline-links.corpus.test.ts:303`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/pipeline-links.corpus.test.ts#L303-L356) the pipeline preserves and repairs link targets > leaves no escaped quote in the corpus, and one spelling per address | no-defect |
 | [`body/pipeline-links.corpus.test.ts:391`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/pipeline-links.corpus.test.ts#L391-L422) the pipeline preserves and repairs link targets > gives 391 primaries a halakha and loses no address | no-defect |
 | [`body/pipeline-links.corpus.test.ts:424`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/body/pipeline-links.corpus.test.ts#L424-L448) the pipeline preserves and repairs link targets > gives every repaired orphan refs item an in-body basis | count |
-| [`migrate/gates.corpus.test.ts:220`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/migrate/gates.corpus.test.ts#L220-L358) pins every migration gate at corpus scale | count |
+| [`migrate/gates.corpus.test.ts:220`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/migrate/gates.corpus.test.ts#L220-L358) pins every import gate at corpus scale | count |
 | [`migrate/headword.corpus.test.ts:34`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/migrate/headword.corpus.test.ts#L34-L55) round-trips every headword and alt, and pins the review list | count |
 | [`patch/apply.corpus.test.ts:81`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/patch/apply.corpus.test.ts#L81-L123) loads and consolidates the accepted (healed-stage) corpus, applying it cleanly | count |
 | [`patch/apply.corpus.test.ts:125`](https://github.com/UniquePixels/jastrow/blob/03167f0d/admin/pipeline/patch/apply.corpus.test.ts#L125-L165) carry-over: absorbed patches are dropped, unabsorbed patches carry and apply cleanly (Ruling F) | count |

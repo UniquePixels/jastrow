@@ -287,12 +287,12 @@ only one of them matters:
   question the ruling answered was whether the wrap is legitimate at
   all, and `Ib.` is Jastrow's citation either way.
 - **Their resolution came from the old `refs` value.** That source no
-  longer exists — `refs[]` is dropped from v2 truth (body model §5,
+  longer exists — `refs[]` is dropped from v2 entry data (body model §5,
   B7) — which is *why* the antecedent copy is the available method
   now, not a weakening of the precedent. And the antecedent copy is
   strictly more conservative than reading `refs`: it is entry-local
   movement of bytes the entry displays, which is the shape batch 2's
-  §1 ruling permits, where `refs` was an external field the migration
+  §1 ruling permits, where `refs` was an external field the import
   distrusted enough to drop.
 
 ### The residual question, stated as narrowly as it can be
