@@ -108,7 +108,7 @@ maintainer's sketch `docs/Migrate Flow.drawio`. The snapshot `fetch`
 writes to `data/source/` is committed in the same PR as the entry data
 it produced. That is what makes the run reproducible afterwards: anyone
 with a clone can empty `data/entries/` (a write run refuses otherwise)
-and run `migrate --write` alone against the committed source data, with
+and run `data:import --write` alone against the committed source data, with
 no download, and get the entry data as that run wrote it. A
 difference is a hand edit, or a rule or patch change, merged since
 (§3.2). Nobody needs to do this routinely, and CI does not (R9).
@@ -207,7 +207,7 @@ file. It can tell by rebuilding:
 
 | Term | Meaning |
 |---|---|
-| base | `data/entries/` **as the pipeline last wrote it**. After the write, `migrate` computes the git tree object id of `data/entries/` and records it as `writtenTree` in a committed file, `data/source/migration-written.json`. A tree id is content-addressed: it is computable before the commit exists, it does not name the commit that carries it, and it survives rebases and squash merges. Base is recovered with `git read-tree <writtenTree>` into a temporary index (the migration report itself is not committed, D2, so it cannot carry this) |
+| base | `data/entries/` **as the pipeline last wrote it**. After the write, import computes the git tree object id of `data/entries/` and records it as `writtenTree` in a committed file, `data/source/migration-written.json`. A tree id is content-addressed: it is computable before the commit exists, it does not name the commit that carries it, and it survives rebases and squash merges. Base is recovered with `git read-tree <writtenTree>` into a temporary index (the import report itself is not committed, D2, so it cannot carry this) |
 | ours | current `data/entries/` |
 | theirs | import of the *new* snapshot with current rules and patches |
 
