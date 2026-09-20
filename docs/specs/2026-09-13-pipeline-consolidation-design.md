@@ -65,7 +65,7 @@ mappings, is [`docs/glossary.md`](../glossary.md).
 | R4 | **Three buckets.** Pipeline code is a *rule* (detect + fix, general), a *patch* (one entry's judged fix, applied when its precondition holds), or a *review detector* (detect only, emit a row). Everything else is research and is archived. |
 | R5 | **One formatter.** Biome formats `data/entries/`. The pipeline formats as its last step, the admin tool formats what it writes, contributors run `bun qa`, CI checks. |
 | R6 | **The pipeline runs on the current Sefaria export.** `fetch` is step 1, not a side path. The snapshot it writes is committed with the entry data it produced, so any run is reproducible afterwards without a download. The update process (a new export against edited truth, §3.2) is designed here in outline and built after the §11 sequence. A Sefaria schema change is a code change and out of scope. |
-| R7 | **Review items become issues** in the tracker the admin tool integrates with (GitHub Issues or similar). Until that tool exists, one consolidated review document stands in. |
+| R7 | **Review items become issues** in the tracker the admin tool integrates with (GitHub Issues or similar). Until that tool exists, ~~one consolidated review document stands in~~ two documents stand in: the generated `docs/v2/review-report.md` for pipeline rows and the hand-written `docs/v2/research-backlog.md` for research leftovers *(amended 2026-09-18, §3.1.1, §9)*. |
 | R8 | **Data terms** (2026-09-15). Source data is Sefaria's export; entry data is `data/entries/` (formerly "truth"); compiled data is what the web app loads; reference data is our lookup input (today the page index); correction data is patches and quarantine. `migrate` becomes import; data commands take a `data:` prefix (`data:fetch`, `data:import`, `data:compile`). Defined in §1.1 and `docs/glossary.md`. |
 | R9 | **`migrate` is not CI work** (2026-09-15). It runs when a person chooses to: a new export or a rule change. That person reads the report and commits the output with the source data it came from. Per-PR CI checks code and validates entry data; it never runs `migrate` and never reads the source data. |
 | R10 | **A published slug never changes** (2026-09-17). A slug, once published, keeps naming the same entry for good, and is never handed to a different one. The assignment is recorded in `data/slug-index/entries.jsonl` and read as an input by every run; it is not inferred from the entry tree, so a deleted entry's slug stays reserved rather than falling free. A collision family's bare stem is a frozen alias to its first member (`data/slug-index/aliases.jsonl`), unless a member already holds the bare stem as its own slug — then the bare name is that entry and the family has no alias (§7.3, `slug-bare-held`). What moves a slug is our own headword rules, not Sefaria: 20% of slugs differ between the source and composed spellings (§7). **Binds at v2 publication, not before** (2026-09-18): nothing is published yet, so until then every run regenerates slugs and aliases the way it regenerates entries, and `--write` rewrites the index. Publication flips `SLUGS_FROZEN`; from then the rest of this ruling holds (§7.1). |
@@ -138,6 +138,53 @@ tracker integration; pipeline faults are ordinary code issues.
 The blessing doc renders the same report; nothing is hand-written.
 These rows are one candidate baseline for the maintenance dry run
 (§3.3; its baseline is open), which is why the shape is fixed now.
+
+### 3.1.1 The review report and the publication gate (2026-09-18)
+
+Every run also writes `docs/v2/review-report.md`, committed next to
+the blessing doc. It renders **every** row whose bucket is `review` or
+`patch` (the blessing doc does not: `review-deferred` and the `slug-*`
+kinds reached only the uncommitted JSON), in two sections: rows that
+must be resolved before v2 is published, and rows that can wait. The
+deferred rows are what the admin tool's tracker integration opens as
+issues (§10); the review report is that integration's input, so each
+row carries a third field:
+
+| `publication` | Meaning | Becomes an issue? |
+|---|---|---|
+| `blocks` | must be resolved before v2 is published | resolved first; an issue only if it is not |
+| `defer` | can be resolved after publication | yes |
+| `note` | a run observation, not a work item | no |
+
+The value is fixed per row kind (maintainer, 2026-09-18):
+
+| Kind | `publication` | Why |
+|---|---|---|
+| `headword-unparsed` | `blocks` | the headword makes the slug, and slugs freeze at publication (R10) |
+| `slug-unsafe` | `blocks` | same: a slug cannot be corrected once published |
+| `upstream-fixed`, `upstream-changed` | `blocks` | a patch whose precondition moved must be re-judged before the output is trusted |
+| `page-confidence-low`, `page-confidence-medium` | `defer` | the page index is ours and correctable later; no URL depends on it |
+| `markup-carry` | `defer` | the composer already closes the tag; the row records where |
+| `review-deferred` | `defer` | sense-structure questions; the entry renders |
+| `slug-changed`, `slug-new`, `slug-alias-new`, `slug-bare-held`, `slug-frozen-stem-drift` | `note` | slug movement between runs; expected while slugs are unfrozen (R10) |
+
+Pipeline faults are not in this table: they already refuse the write
+(gate 9). An unlisted kind throws at run time, so a run that emits a
+new kind refuses to finish, and the table's own test pins its size.
+
+`headword-unparsed` is `blocks` only for now. The maintainer ruled
+the same day that a headword must be perfect or halt the pipeline, and
+that ruling is being built as separate headword work, which owns
+`migrate/headword.ts`. When it lands, a headword defect is a fault that
+refuses the write and the kind leaves this table. Until then every
+headword row blocks publication, including the 276 of today's 309 that
+are multi-word headwords which parse and are flagged only for their
+space; the headword work decides what happens to that check.
+
+**The publication gate.** v2 is published only when the review
+report's `blocks` section is empty **and** §11 step 11 has ruled
+every research class that still blocks the cutover. This is a process
+rule: nothing in code refuses a publish while `blocks` rows exist.
 
 ### 3.2 Fresh run vs update run
 
@@ -515,8 +562,10 @@ stays runnable on its own.
 |---|---|
 | `admin/pipeline/README.md` | rewrite around §3: inputs, stages, report, buckets; delete every "one-time" and "retires" |
 | `docs/specs/2026-07-08-v2-data-architecture-design.md` §6 | strike D14's one-shot wording with a pointer here; changelog row |
-| `docs/v2/review-queue.md` (new, interim per R7) | every open review list in one place with a coverage note: 309 unparsed headwords; 2,191 non-high page placements; 487 sweep escalations **measured over letters A–C only**; 72 judgment classes; 4 undecided body-review rows (D00470, K00081, R00519, D00341); `open-paren-in-rtl-span` (89 entries, still `route: blocked`, no rule) |
-| `docs/v2/sefaria-report.md` | add register rows #16 (implied sense 1) and #6b (nested anchors, different targets); then send |
+| `docs/v2/review-queue.md` (new, interim per R7) | *Superseded 2026-09-18 by the two rows below.* Planned as one hand-written list of every open review item; measuring it showed half of it is pipeline output, which must be generated, and half is research, which is not pipeline at all |
+| `docs/v2/review-report.md` (new, generated) | every review and patch row of the last run, split by `publication` (§3.1.1) |
+| `docs/v2/research-backlog.md` (new, hand-written) | what the research left open: sweep escalations, the implied-`1)` census, pattern classes with no rule, with the cutover-blocking classes in their own section. Imported into the tracker once one is chosen, then archived with the rest of the research |
+| `docs/v2/sefaria-report.md` | add register rows #16 (implied sense 1) and #6b (nested anchors, different targets); then send. *Sections added, step 9; sending is the maintainer's* |
 | `docs/v2/upstream-issues.md` | mark rows reported when sent |
 | `CONTRIBUTING.md`, `.claude/CLAUDE.md`, `docs/v2/test-tiers.md`, `.github/workflows/ci-lint.yml` comments | one CI test tier; no Corpus Audit, no Rebuild; the invariants script is run locally before rule-code PRs (step 5) |
 | every document that calls `data/entries/` "truth", `docs/pipeline-flow.drawio.svg` included | §1.1 terms (step 10) |
@@ -531,10 +580,11 @@ stays runnable on its own.
 | Review rows → tracker issues; idempotent on `(rid, kind)`; batching for volume (thousands of rows will not work as one issue each) | admin tool spec |
 | `compile.ts` | data-architecture §3 |
 | Port judgment-class detectors from archived research code | ad hoc, one class per PR |
-| Review the 298 low-confidence page placements | review queue |
+| Review the 298 low-confidence page placements | `docs/v2/review-report.md`'s `defer` rows, then the tracker |
 | **Sefaria URL compatibility:** a route where swapping `sefaria.org` for `jastrow.app` finds the word. Their canonical name is `Jastrow,_<headword>` using the export's `headword` string verbatim, so the mapping is a column we already hold; the work is routing and percent-encoding | `docs/v2/url-routes.md`, app work |
 | Drift and "creates no defect" checks from the retired corpus files: each one worth keeping becomes a review detector emitting report rows, with no pinned numbers (§5.1) | ad hoc, one per PR; start from `docs/v2/retired-corpus-checks.md` |
 | Drift-classify carry-over zero-match (check target on pre-transform source; 3 of 66 carry-overs are exceptions to that test: P000024, P000029, P000027) | after §11 |
+| Import `docs/v2/research-backlog.md` into the tracker, then archive it | admin tool spec |
 
 ## 11. Sequence
 
@@ -589,7 +639,7 @@ Steps 1–4 have shipped and are kept as history.
    moving 26 slugs and taking `slug-unsafe` from 12 to 2; `unsafeSlugs`
    became an allow-list (it had found 12 of the 22 notation slugs).
    Nine gates green; a second dry run reported `slug-changed=0`.
-8. *Shipped (step 8).* `repairs.ts` hand tables → patches (§4.1).
+8. *Shipped (#98).* `repairs.ts` hand tables → patches (§4.1).
    `seed-reviewed.ts` ran once and wrote 96 patches (`P000194`–
    `P000289`) for 66 rids: 36 `join`, 48 `replace`, 9 `retag`, 3
    `unref`; the reviewed manifest records 66 `repaired` and 3
@@ -612,13 +662,50 @@ Steps 1–4 have shipped and are kept as history.
    `orphan-ref-unbased`) is a real gate again: a green run reports 0,
    and the positive control (`P00331`'s cite-wrap patch removed)
    reports 1 and exits 1.
-9. Review-queue doc and Sefaria report refresh (§9).
+9. Review report, research backlog, Sefaria report refresh (§3.1.1,
+   §9). *Reworked 2026-09-18.* Planned as one hand-written review
+   queue; measuring it split it in two. **Done:** `sefaria-report.md`
+   gained §6b (`O00832`, the only different-target nesting in all
+   32,512 entries — the outer anchor wraps two inner ones, not one)
+   and §16 (implied sense 1: 44 entries confirmed in review, 21 not
+   yet reviewed); `upstream-issues.md` rows #6b and #16 carry the same
+   counts. Sending the report, and marking rows reported, is the
+   maintainer's. `docs/v2/review-report.md` (§3.1.1) is generated on
+   every import run; `docs/v2/research-backlog.md` replaces the
+   hand-written queue, keeping only the research leftovers. Headword
+   code is left to the headword work (§3.1.1). **Shipped:** nine
+   gates green, `migration-blessing.md` byte-identical; the run's
+   review report holds 311 `blocks` (309 `headword-unparsed`, 2
+   `slug-unsafe`), 2,204 `defer` (298 `page-confidence-low`, 1,893
+   `page-confidence-medium`, 10 `markup-carry`, 3 `review-deferred`),
+   0 `note`, 2,515 rows total.
+   Measuring the queue corrected four figures §9 had carried: 276 of
+   the 309 unparsed headwords parse (all multi-word); `D00341` was repaired in step 8,
+   leaving 3 deferred rows, not 4; `patterns.jsonl` has 5 `blocked`
+   classes, not 1; and the earlier chunk sweep (pilot and
+   `tranche-01`, on pre-patch text) left 101 escalations the residue
+   sweep never revisited, on top of the 487. It also found 32 open
+   research classes still flagged `blocking: true` (step 11).
 10. Terms sweep (§1.1, `docs/glossary.md`): documents say source,
     entry, compiled, reference and correction data, and import for
     migrate; `package.json` scripts become `data:fetch`, `data:import`
     (and `data:compile` when built). Which other scripts take the
     `data:` prefix, and whether code identifiers such as `migrate.ts`
     and `migrate/truth.test.ts` are renamed, is decided then.
+
+11. Research backlog triage (added 2026-09-18). The pattern catalogue
+    still flags 32 open classes `blocking: true` — 31 on the `judgment`
+    route and `open-paren-in-rtl-span` on `blocked`, 6,489 instances
+    as catalogued — under sweep-tiering T6 ("blocking = breaks the
+    render or would be baked in"). The 2026-08-15 triage ruling that
+    no sweep *escalation* blocks shipping does not reach these class
+    flags, and nothing reconciled the two. For each class: recount it
+    on current entry data (some were flagged before later rules
+    changed the text), draft keep-blocking or defer against T6, and
+    the maintainer rules. A class that still blocks is fixed before
+    publication (§3.1.1); the rest go to the tracker with the backlog.
+    The 23 blocking classes on the `transform` route each have a
+    registered rule and are not in scope.
 
 ## 12. Changelog
 
@@ -637,3 +724,5 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-17 | Step 7: `data/slug-index/` seeded (32,512 rows, 4,407 aliases); `assignSlugs` takes the prior assignment; `migrate` reads the index and emits five review rows; gate 6's bare-slug clause relaxed for frozen families; entry-data validation checks slug against index row both ways. Nine gates green and the blessing doc byte-identical across two dry runs. `slug-unsafe` added as a fifth row kind: 12 slugs carry editorial notation into a URL. The "11,627 numbered members" figure corrected to 11,626 — P00224's slug ends `-²`, which a loose digit test counted |
 | 2026-09-18 | Maintainer overruled step 7's freeze: R10 binds at v2 publication, not during development. `SLUGS_FROZEN = false` until then — runs regenerate slugs and aliases, report `slug-changed`, and `--write` rewrites the index; the frozen path is kept behind the switch. `slugStem` drops `*`, `(…)`, `?`, `,`, Roman numerals and superscripts, keeps `=`: 26 slugs moved, aliases 4,407 → 4,412, numbered members 11,626 → 11,640, `slug-unsafe` 12 → 2. `unsafeSlugs` is now an allow-list. §7, §7.1–7.3 and step 7 amended |
 | 2026-09-18 | Step 8: `repairs.ts`'s rid-keyed hand tables converted to reviewed patches (§4.1) and the tables deleted; §4.2 "Who may add bytes" records the authorship ruling and its open question on agent removals; §11 step 8 spelled out with measured numbers. Rule and helper comments elsewhere that quote a count "measured after `applyRepairs`" are left as dated measurements of that snapshot — `applyRepairs` itself changed (rid-keyed passes moved out) but the count a comment recorded is still what that run measured, so those comments are not edited one by one |
+| 2026-09-18 | Step 9 reworked (maintainer): import writes `docs/v2/review-report.md`, every review row tagged `publication: blocks / defer / note` by kind, and v2 publishes only with no `blocks` rows (§3.1.1); research leftovers go to a hand-written `docs/v2/research-backlog.md`, imported into the tracker then archived — the hand-written `review-queue.md` is withdrawn. Step 11 added: triage the 32 open research classes still flagged as blocking the cutover. Four §9 figures corrected by measurement; `sefaria-report.md` §6b and §16 added, register rows #6b and #16 recounted; step 8's PR number backfilled |
+| 2026-09-18 | Step 9 shipped: `docs/v2/research-backlog.md` replaces `docs/v2/review-queue.md` (deleted, links repointed), carrying the four research lists and a new "Blocks the v2 cutover" section generated from `patterns.jsonl`'s 32 open `blocking` classes for step 11. Nine gates green, `migration-blessing.md` byte-identical; review report 311 `blocks`, 2,204 `defer`, 0 `note`, 2,515 rows |

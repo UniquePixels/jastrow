@@ -43,6 +43,7 @@ import {
 	type PatchGroups,
 	recordPatchOutcomes,
 } from './migrate/patches.ts';
+import { classifyRows } from './migrate/publication.ts';
 import {
 	BLESSING_PATH,
 	createReport,
@@ -56,6 +57,10 @@ import {
 	type Sample,
 	writeReport,
 } from './migrate/report.ts';
+import {
+	REVIEW_REPORT_PATH,
+	renderReviewReport,
+} from './migrate/review-report.ts';
 import { assignSlugs, slugStem } from './migrate/slug.ts';
 import {
 	type AliasAudit,
@@ -656,7 +661,9 @@ function printGates(report: Report, slugMode: string): void {
 	];
 	const slugCounts = slugKinds.map((k) => `${k}=${kinds.get(k) ?? 0}`);
 	console.log(`slugs=${slugMode} ${slugCounts.join(' ')}`);
-	console.log(`report written to ${REPORT_PATH}; evidence to ${BLESSING_PATH}`);
+	console.log(
+		`report written to ${REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}`,
+	);
 }
 
 /** The migrate CLI. Without `--write` it is a dry run: everything is
@@ -681,8 +688,10 @@ async function main(): Promise<void> {
 	const indexes = await buildIndexes(composed, report);
 	const { samples, truths } = finishAll(composed, indexes, report, validate);
 	await gateQuarantine(report);
+	classifyRows(report);
 	await writeReport(report);
 	await Bun.write(BLESSING_PATH, `${renderBlessing(report, samples)}\n`);
+	await Bun.write(REVIEW_REPORT_PATH, `${renderReviewReport(report)}\n`);
 	// Read off what the run did, not the constant: only a regenerating
 	// run returns an index to write.
 	printGates(
