@@ -35,6 +35,11 @@ function section(title: string, rows: readonly ReportRow[]): string[] {
 	];
 }
 
+/** The whole review report: a summary row per `publication` value,
+ * then a section for each in `SECTIONS` order — `blocks`, `defer`,
+ * `note`. Every section renders even when empty (`_none_`), so a
+ * missing one is a bug rather than a run with nothing to report, and
+ * the `blocks` count can be read as the publication gate directly. */
 function renderReviewReport(report: Report): string {
 	const by = (p: Publication): ReportRow[] =>
 		report.rows.filter((r) => r.publication === p);
