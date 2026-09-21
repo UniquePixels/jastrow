@@ -20,6 +20,7 @@
  *
  * Run: bun run headword:issues
  */
+import { isHeadwordReviewKind } from './migrate/headword.ts';
 import type { FormObject, TruthEntry } from './migrate/types.ts';
 
 const ENTRIES_DIR = 'data/entries';
@@ -247,7 +248,7 @@ async function loadEntries(): Promise<Map<string, TruthEntry>> {
 function flaggedForms(report: MigrationReport): Map<string, Set<string>> {
 	const flagged = new Map<string, Set<string>>();
 	for (const row of report.rows) {
-		if (row.kind !== 'headword-multiword' && row.kind !== 'headword-unparsed') {
+		if (!isHeadwordReviewKind(row.kind)) {
 			continue;
 		}
 		const marked = UNPARSED_DETAIL.exec(row.detail)?.groups?.['form'];

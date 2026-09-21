@@ -2,6 +2,7 @@
 import type { DriftOutcome } from '../patch/drift.ts';
 import type { QuarantineRow, Unresolved } from './cite.ts';
 import { tally } from './gates.ts';
+import { isHeadwordReviewKind } from './headword.ts';
 import type { Tally, TruthEntry } from './types.ts';
 
 const REPORT_PATH = 'data/source/migration-report.json';
@@ -292,14 +293,12 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 		'## Headword review',
 		'',
 		list(
-			// Both headword kinds: the multi-word split is about how the
-			// review report CLASSIFIES a row, and the evidence doc still
-			// shows every form the detector looked twice at.
-			rowLines(
-				report,
-				(r) =>
-					r.kind === 'headword-multiword' || r.kind === 'headword-unparsed',
-			),
+			// EVERY headword kind, from the detector's own list: the
+			// multi-word split is about how the review report CLASSIFIES a
+			// row, and the evidence doc still shows every form the detector
+			// looked twice at. Naming the kinds here by hand would let a
+			// third one drop out of this document unnoticed.
+			rowLines(report, (r) => isHeadwordReviewKind(r.kind)),
 			'none',
 		),
 		'',

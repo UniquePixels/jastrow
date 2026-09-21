@@ -20,18 +20,21 @@ const SECTIONS: ReadonlyArray<readonly [Publication, string]> = [
 /** Catalogued classes the maintainer ruled blocking that no detector
  * on the import path can see, largest first.
  *
- * `route: transform` is excluded because a transform-routed class is
- * answered by a registered rule that DOES run on the import path; what
- * is left — `judgment` and `blocked` — is work no run performs and no
- * row records. `status: candidate` excludes rows already resolved.
- * The counts are the catalogue's own `corpusCount`, measured when the
- * class was catalogued, not by this run. */
+ * `judgment` and `blocked` are named rather than "not `transform`". A
+ * transform-routed class is answered by a registered rule that DOES
+ * run on the import path, so it is not undetected — but `route` is
+ * optional and absent until a row is triaged, and an UNTRIAGED row has
+ * not been ruled `defer` by anyone. Listing it under a section that
+ * cites that ruling would put words in the maintainer's mouth, so it
+ * waits for its route. `status: candidate` excludes rows already
+ * resolved. The counts are the catalogue's own `corpusCount`, measured
+ * when the class was catalogued, not by this run. */
 function undetectedClasses(rows: readonly Pattern[]): Pattern[] {
 	return rows
 		.filter(
 			(r) =>
 				r.blocking === true &&
-				r.route !== 'transform' &&
+				(r.route === 'judgment' || r.route === 'blocked') &&
 				r.status === 'candidate',
 		)
 		.toSorted(

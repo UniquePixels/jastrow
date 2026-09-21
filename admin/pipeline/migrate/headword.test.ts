@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'bun:test';
-import { decomposeForm, regenerateForm, reviewReason } from './headword.ts';
+import {
+	decomposeForm,
+	isHeadwordReviewKind,
+	regenerateForm,
+	reviewReason,
+} from './headword.ts';
 import type { FormObject } from './types.ts';
 
 const CASES: ReadonlyArray<readonly [string, FormObject, boolean]> = [
@@ -53,6 +58,18 @@ describe('reviewReason', () => {
 			});
 		});
 	}
+	// A doubled space parses (only a LEADING or trailing one is
+	// refused) and is lexical-plus-space, so without its own branch it
+	// would be demoted to a note reading "nothing to do" — while §4
+	// rules it an H1 separator defect.
+	it('refuses to call a doubled space a word gap', () => {
+		const doubled = decomposeForm('אב  גד');
+		expect(doubled.parsed).toBe(true);
+		expect(reviewReason(doubled)).toEqual({
+			kind: 'headword-unparsed',
+			reason: 'text carries a doubled space between words',
+		});
+	});
 	// Unreachable while `FORM`'s class is `LEXICAL` plus a space, which
 	// is why these are asserted on a hand-built `Decomposed` rather than
 	// on a marked string: the branch has to be right the day that widens.
@@ -67,5 +84,18 @@ describe('reviewReason', () => {
 			kind: 'headword-unparsed',
 			reason: 'text carries characters outside the lexical set',
 		});
+	});
+});
+
+describe('isHeadwordReviewKind', () => {
+	it('names both kinds the detector mints', () => {
+		expect(isHeadwordReviewKind('headword-unparsed')).toBe(true);
+		expect(isHeadwordReviewKind('headword-multiword')).toBe(true);
+	});
+	it('refuses another review kind', () => {
+		expect(isHeadwordReviewKind('markup-carry')).toBe(false);
+	});
+	it('does not read an inherited object key as a kind', () => {
+		expect(isHeadwordReviewKind('constructor')).toBe(false);
 	});
 });

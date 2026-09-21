@@ -91,6 +91,20 @@ describe('undetectedClasses', () => {
 		expect(undetectedClasses([{ ...base, blocking: false }])).toEqual([]);
 		expect(undetectedClasses([{ ...base, status: 'discarded' }])).toEqual([]);
 	});
+	it('drops an untriaged row, which no ruling has reached', () => {
+		const { route, ...untriaged } = CATALOGUED[1] as Pattern;
+		expect(route).toBe('judgment');
+		expect(undetectedClasses([untriaged])).toEqual([]);
+	});
+	it('keeps a blocked-route row', () => {
+		const blocked: Pattern = {
+			...(CATALOGUED[1] as Pattern),
+			route: 'blocked',
+		};
+		expect(undetectedClasses([blocked]).map((c) => c.id)).toEqual([
+			'empty-stem-section',
+		]);
+	});
 });
 
 describe('loadUndetectedClasses', () => {
@@ -175,9 +189,13 @@ describe('renderReviewReport', () => {
 		expect(rendered).toContain('## Before publication (1)');
 	});
 	it('says so when the catalogue has nothing undetected left', () => {
+		// Scoped to the section: `## Notes (0)` emits its own `_none_`
+		// into the same string, so an unscoped `toContain` would pass
+		// even with the catalogued placeholder deleted.
 		const rendered = renderReviewReport(sample(), []);
-		expect(rendered).toContain('## Catalogued, not yet detected (0 classes, 0');
-		expect(rendered).toContain('_none_');
+		const catalogued = rendered.slice(rendered.indexOf('## Catalogued'));
+		expect(catalogued).toContain('(0 classes, 0 entries)');
+		expect(catalogued).toContain('_none_');
 	});
 	it('sections a patch row, a note row, and keeps same-kind run order', () => {
 		const rendered = renderReviewReport(sampleForOrdering(), SORTED);
