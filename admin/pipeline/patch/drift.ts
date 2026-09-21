@@ -24,8 +24,8 @@ import type { SourceEntry, SourceSense } from '../body/types.ts';
 import {
 	applyPatch,
 	countOccurrences,
-	formsBlock,
 	countTarget,
+	formsBlock,
 	PatchApplyError,
 	parseTarget,
 	type SemanticPatch,
