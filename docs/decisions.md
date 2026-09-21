@@ -186,25 +186,27 @@ on them.
 | E | 2026-09-09 | **Tranches carry the corpus stage they were swept at, and migration accepts `healed` only.** `pre-patch` = swept against `applyRepairs` output before any transform rule existed, so its anchors are authored against text later batches rewrote. `healed` = swept against both `text-repairs` and `structural-repairs`. `loadCorpus` / `loadManifest` stay raw for the research tools; the ingest order is explicit because directory names do not sort chronologically, and an unlisted tranche directory is an error, not a guess | every pre-patch tranche's work is excluded wholesale from the applied corpus — recovered only through Ruling F | `apply.ts` (`CorpusStage`, `TRANCHES`, `PILOT_STAGE`, `orderedDirs`, `corpusFiles`) | live |
 | F | 2026-09-09 | **A pre-patch patch carries over unless an accepted patch already covers it.** A pre-patch patch whose `${rid} ${target}` no accepted patch targets is carried over and applied after the rid's accepted patches, in patch-id order; where both target the same pair, **the healed one wins** and the pre-patch one counts as `superseded.prePatch.overlapping`. Each carry-over is pre-checked by resolving its target and comparing the exact count: a zero-match means a transform rule already absorbed the defect, so the patch is recorded `absorbed` and never applied; a match at the expected count means it is `carried`. `reconcilePatches` runs only against the accepted set, since carry-overs have no accepted manifest row | overlap is judged by `(rid, target)` identity alone — a pre-patch patch that repairs a *different* defect at the same target is dropped without anyone reading either one | `apply.ts` (`PreflightOptions.reconcileOnly`, `corpusPreflight`, `AcceptedCorpus.carryOver`, `applyCarryOver`) | live |
 
-## 9. R — pipeline consolidation (2026-09-12 / 09-18)
+## 9. R — pipeline consolidation (2026-09-12 / 09-18 / 09-21)
 
 Home: [`specs/2026-09-13-pipeline-consolidation-design.md`](specs/2026-09-13-pipeline-consolidation-design.md) §2
 
 | id | date | decision | drops | home | status |
 |---|---|---|---|---|---|
 | R1 | 2026-09-12 | `migrate.ts` is permanent and re-runnable. D14's "retires into repo history" is withdrawn. A run regenerates a candidate tree and reports; it never silently overwrites edited truth | nothing identified — it recovers reproducibility | §2 | live in prose; the one-shot guard it withdrew still runs — see [§C](#c-reversed-but-still-cited-as-live) |
-| R2 | 2026-09-12 | Entry data is the edited layer. Hand edits are **not** re-recorded as pipeline inputs (that mandate withdrawn 2026-09-14). The one exception is page/column: an admin-tool change must also update `data/page-index/entries.jsonl` | a text correction made by hand survives a rebuild only through the §3.2 merge, not through the source. Text fixes are hoped to land upstream at Sefaria | §2 | live |
+| R2 | 2026-09-12 | Entry data is the edited layer. Hand edits are **not** re-recorded as pipeline inputs (that mandate withdrawn 2026-09-14). The one exception is page/column: an admin-tool change must also update `data/page-index/entries.jsonl` | a text correction made by hand survives a rebuild only through the §3.2 merge, not through the source. Text fixes are hoped to land upstream at Sefaria | §2 | live; reaffirmed and extended 2026-09-21 (admin edits are file edits, never patches) |
 | R3 | 2026-09-12 | Resilient, not unattended: a failing entry is emitted **from source bytes** with a review row, never dropped. Every run still ends in a report a person reads | a source-byte fallback emits an entry that did not pass the finishing stages, so the tree can hold un-composed entries. Not yet a live risk | §2 | not in code: no source-byte fallback in `migrate.ts` |
 | R4 | 2026-09-12 | Three buckets: a *rule* (detect + fix, general), a *patch* (one entry's judged fix), a *review detector* (detect only). Everything else is research and is archived | anything that does not fit one of the three is archived rather than kept — the research code of §4.1–§4.2 and §4.5 went this way | §2, §4 | live |
 | R5 | 2026-09-12 | One formatter. Biome formats `data/entries/`; the pipeline formats last, the admin tool formats what it writes, CI checks | nothing identified | §2, §6 | live |
 | R6 | 2026-09-12 | The pipeline runs on the current Sefaria export; `fetch` is step 1. The snapshot is committed with the entry data it produced. A Sefaria schema change is a code change and out of scope | a schema change upstream halts the pipeline until someone writes code | §2 | live |
-| R7 | 2026-09-12 | Review items become issues in the tracker the admin tool integrates with. Until then, **two** documents stand in: `docs/v2/review-report.md` (generated) and `docs/v2/research-backlog.md` (hand-written) | two registers, neither of them the tracker; a row in the backlog has no state machine | §2, §3.1.1, §9 | amended → 2026-09-18 (one document became two) |
+| R7 | 2026-09-12 | Review items become issues in the tracker the admin tool integrates with. Until then, **two** documents stand in: `docs/v2/review-report.md` (generated) and `docs/v2/research-backlog.md` (hand-written) | two registers, neither of them the tracker; a row in the backlog has no state machine | §2, §3.1.1, §9 | amended → 2026-09-18 (one document became two) and → 2026-09-21 (three umbrella issues stand in for the backlog until the admin tool's import exists) |
 | R8 | 2026-09-15 | Data terms: source / entry / compiled / reference / correction data. `migrate` becomes import; data commands take a `data:` prefix | the old names survive in code identifiers (`TruthSense`, `loadTruthFiles`, `migrate.ts`) — renaming them is deliberately a separate change | §1.1, [`glossary.md`](glossary.md) | live (identifier half deferred to consolidation §11 step 10) |
 | R9 | 2026-09-15 | `migrate` is not CI work. It runs when a person chooses to; per-PR CI never runs it and never reads the source data | **CI cannot see a data regression.** Only a person running import locally can | §2 | live |
 | R10 | 2026-09-17 | A published slug never changes: once published it keeps naming the same entry and is never handed to another. Amended 2026-09-18 — **binds at v2 publication, not before**; `SLUGS_FROZEN` is the switch | as first worded it froze slugs mid-development, before anything was published. The amendment is what unfroze them | §2, §7.1 | superseded → U6 (2026-09-21) |
 | R11 | 2026-09-17 | The write is atomic: import composes, gates and reports in full, then replaces the tree in one move on a clean run. The "refuse unless the tree is empty" guard goes with it — it is a D14 relic, not a safety property, and is not replaced by a prompt | nothing identified | §2 | not in code: the atomic write is unbuilt (`migrate.ts` line 334 says so) and `outputTreeIsEmpty` still refuses |
+| 09-21 admin edits | 2026-09-21 | **Admin edits are not patches.** The admin tool edits the entry file and nothing else; the update run (§3.2) keeps hand edits across a re-import, and R2's withdrawal of re-recording stands. Patches stay the pipeline's channel for source-data defects. Should patches from hand edits ever be wanted, they are generated by diffing entry data against source data — a process to be designed then | stated in the ruling: no new patch ops, so the three [#113](https://github.com/UniquePixels/jastrow/issues/113) rows that need a gloss edit (A01175, A01345, V00518) wait for the update run, which is itself unbuilt (§10 row 1) | [`specs/2026-09-13-pipeline-consolidation-design.md`](specs/2026-09-13-pipeline-consolidation-design.md) changelog 2026-09-21; review §10 Q6 | live (design); recorded as a changelog row, not given an R number |
+| 09-21 backlog tracker | 2026-09-21 | **Option C:** three umbrella issues stand in for `research-backlog.md` until the admin tool's import exists — sense structure, the 16 deferred judgment classes, the 588 sweep escalations. Each links a backlog section and carries **no rid table**. The filing rule is recorded in `CONTRIBUTING.md` § Issues and `.claude/CLAUDE.md`: an issue is one defect class or one decision, never a rid list, and an AI session files or closes none without the maintainer's go in that session | class-level granularity: ~20 individual class issues collapse into 3, so a single class has no issue of its own to carry state. The 298 low-confidence page placements get no issue at all, under the "fix as found, never schedule" ruling | review §10 Q11; drafts in [`archive/review-2026-09-21/issues-to-file.md`](archive/review-2026-09-21/issues-to-file.md) | live; amends R7 |
 
-## 10. HW — headword design (2026-09-20)
+## 10. HW — headword design (2026-09-20 / 09-21)
 
 Home: [`v2/headword-design.md`](v2/headword-design.md) §3–§4. These are the
 newest substantive rulings and the first set taken with the cost
@@ -215,7 +217,7 @@ written down.
 | HW-halt | 2026-09-20 | **Text defects halt, display uncertainty does not.** A form's `text` is a lookup key, a slug and a link target; if it is wrong the pipeline halts. `display` may be left unset and the row flagged — that does not block go-live | an entry with no `display` prints without the layout print gave it. A flagged row is a ticket, not a guess — no default template is invented | §3 | not in code: `headword-unparsed` is a `blocks` review row, not a halt ([`../admin/pipeline/migrate/publication.ts`](../admin/pipeline/migrate/publication.ts)) |
 | HW-rules | 2026-09-20 | Six halt rules on the form/display pair: every index appears once; no Hebrew in `display`; markers agree with the forms; no comma, paren, `?`, `=`, `…` or Latin letter in `text`; a `partial` form is never a lookup key; every comparison normalizes to NFC first | a `partial` form drops out of search entirely, though a slug is still derived from `headwords[0]` with notation stripped | §3.1 | partly live (rule 6 NFC comparison is in `migrate/cite.ts`; the rest await the schema decision) |
 | HW-commas | 2026-09-20 | Commas are never stored in a headword; the leading `,` that opens 10,743 glosses also goes. The app supplies separators | the three headwords carrying one (A02356, B00407, D00844) are defects, patched — nothing else identified | §4 | live (patched 2026-09-20) |
-| **HW-paren** | 2026-09-20 | **The 2026-08-27 paren ruling is reversed in intent.** Grouping is kept as structure in `display` and never inside `text`. A group may span the headword and its alternates | nothing — it *recovers* what 08-27 dropped. Its own cost: `display` must carry structure the source cannot always settle (see HW-paren-open) | §4 | decided; **not in code** — `parenAltHeadword` still strips |
+| **HW-paren** | 2026-09-20 | **The 2026-08-27 paren ruling is reversed in intent.** Grouping is kept as structure in `display` and never inside `text`. A group may span the headword and its alternates | nothing — it *recovers* what 08-27 dropped. Its own cost: `display` must carry structure the source cannot always settle (see HW-paren-open) | §4 | decided; **not in code** — `parenAltHeadword` still strips. **HW-schema (2026-09-21) unregisters it with the §2 adoption** |
 | HW-roman | 2026-09-20 | Roman numerals are never moved. Each stays on the form it is attached to and prints where the source prints it — 10 inside the parens, 5 after | any correction of a numeral the source attached wrongly. A02823 proves Sefaria does that | §4 | decided, not in code |
 | HW-gender | 2026-09-20 | At most one of `grammar.gender` **or** a `gender` on *every* headword. Never both, and no inheritance | per-form gender where only some forms carry a label. Sefaria keeps only the last label on the headword line anyway — 22 known collapses, plus U01000 | §4, §5 | not in code |
 | HW-A01480 | 2026-09-20 | `אִיסְפְּלָנִית(א)` is an alternate ending of one word, not a separate form. The only headword in the corpus with the notation | nothing identified (n=1) | §4 | live as a reading |
@@ -226,13 +228,13 @@ written down.
 | HW-equals | 2026-09-20 | `=` in a headword (2 rows) is a source defect: `= Y` moves into the gloss, matching the print | nothing — the targets resolve (A00477 alt, E00628). `slugStem` needs no `=` case | §4 | decided; blocked in [#113](https://github.com/UniquePixels/jastrow/issues/113) — no op moves text into a gloss |
 | HW-ellipsis | 2026-09-20 | Ellipsis endings (8 rows) are stored as a `partial` form with the `…` in `display`, **not expanded** | those 8 stop being search keys. Expansion would mean choosing a base and assuming its vowels — the inference ruled out on 2026-08-22. For N01089 and M00997 even the base is unclear | §4; [#106](https://github.com/UniquePixels/jastrow/issues/106) | decided, not in code |
 | HW-two-spellings | 2026-09-20 | Two spellings fused into one item (5 rows) is a defect: split at the space into two forms. Relocation only, inside the 2026-08-22 boundary | nothing — every letter and vowel is already in the source. 3 of the 5 are primary headwords, so their slugs correct too | §4 | live (patched 2026-09-20) |
-| HW-redup | 2026-09-20 | Reduplication (3 rows: `דא דא`, `הֵא הֵא`, `חַר חַר`) is a legitimate multi-word form. Kept | nothing identified | §4 | live |
+| HW-redup | 2026-09-20 | Reduplication (3 rows: `דא דא`, `הֵא הֵא`, `חַר חַר`) is a legitimate multi-word form. Kept | nothing identified | §4 | live — implemented 2026-09-21 as the `headword-multiword` `note` kind (#119) |
 | HW-abbrev-alt | 2026-09-20 | Abbreviated phrase alternates (7 rows) are kept as printed and marked `partial` | those alternates stop being search keys until the print work happens | §4; [#107](https://github.com/UniquePixels/jastrow/issues/107) | decided, not in code |
 | HW-abbrev-primary | 2026-09-20 | Abbreviations in a **primary** headword (3 rows) are kept as printed, carried in `display`, form marked `partial`. What the lines mean needs real Jastrow knowledge — two sessions failed | those 3 entries have no unabbreviated lookup key. The slug still derives with notation stripped, so the URL is stable | §4; [#108](https://github.com/UniquePixels/jastrow/issues/108) | decided, not in code |
-| **HW-no-expand** | 2026-09-20 | The shipped rule `phrase-alt-headword-stub` **stops expanding** (~236 alternates). An abbreviated alternate keeps the printed form and is `partial` | stated in the source: *"those alternates stop being search keys."* Nothing halts — `buildHeadwordMap` keys on `headword` alone, so no link resolves through an alternate. The rule's own "no inference" claim is undercut by 2 rows where it doubled a letter | §4; [#109](https://github.com/UniquePixels/jastrow/issues/109) | **contradicted by code:** the rule is still registered — `registry.ts` ~line 951 and [`../admin/pipeline/transform/registry-classes.ts`](../admin/pipeline/transform/registry-classes.ts) line 428 |
-| HW-spaced | 2026-09-20 | Spaced variants (8 rows) are legitimate — the same word written as two words. Kept as multi-word forms | nothing identified | §4 | live |
-| HW-phrase-hw | 2026-09-20 | Phrase headwords (3 rows) are legitimate phrase lemmas. Kept | nothing identified | §4 | live |
-| HW-phrase-alt | 2026-09-20 | Phrase alternates (238 rows) split three ways: 227 revert to the printed abbreviation under HW-no-expand, 9 are genuine multi-word phrases, 2 differ only by the gershayim repair | the 227 raise [#107](https://github.com/UniquePixels/jastrow/issues/107)'s real scope to ~234 | §4 | tied to HW-no-expand |
+| **HW-no-expand** | 2026-09-20 | The shipped rule `phrase-alt-headword-stub` **stops expanding** (~236 alternates). An abbreviated alternate keeps the printed form and is `partial` | stated in the source: *"those alternates stop being search keys."* Nothing halts — `buildHeadwordMap` keys on `headword` alone, so no link resolves through an alternate. The rule's own "no inference" claim is undercut by 2 rows where it doubled a letter | §4; [#109](https://github.com/UniquePixels/jastrow/issues/109) | **contradicted by code:** the rule is still registered — `registry.ts` ~line 951 and [`../admin/pipeline/transform/registry-classes.ts`](../admin/pipeline/transform/registry-classes.ts) line 428. **HW-schema (2026-09-21) unregisters it with the §2 adoption** |
+| HW-spaced | 2026-09-20 | Spaced variants (8 rows) are legitimate — the same word written as two words. Kept as multi-word forms | nothing identified | §4 | live — implemented 2026-09-21 as the `headword-multiword` `note` kind (#119) |
+| HW-phrase-hw | 2026-09-20 | Phrase headwords (3 rows) are legitimate phrase lemmas. Kept | nothing identified | §4 | live — implemented 2026-09-21 as the `headword-multiword` `note` kind (#119) |
+| HW-phrase-alt | 2026-09-20 | Phrase alternates (238 rows) split three ways: 227 revert to the printed abbreviation under HW-no-expand, 9 are genuine multi-word phrases, 2 differ only by the gershayim repair | the 227 raise [#107](https://github.com/UniquePixels/jastrow/issues/107)'s real scope to ~234 | §4 | the 9 genuine phrases are live in the `headword-multiword` `note` kind (#119); the 227 are tied to HW-no-expand |
 | HW-split-hw | 2026-09-20 | Split headwords (5 rows) are adjudicated against the print and **patched, not joined blindly** — V00518 and S01780 come out unpointed by concatenation, so the patch text is the print's | U00489 is the instructive loss: rejoining its torn headword produced a string U00488 already holds and the uniqueness gate refused it, so the entry carries a numeral the tear lost | §4, §4.1; [#105](https://github.com/UniquePixels/jastrow/issues/105) | partly live (2 of 5 patched; 3 blocked in #113) |
 | HW-ocr-dalet | 2026-09-20 | F00009's final-kaf-mid-word is an OCR error; the letter is a **dalet**. A mis-recognised glyph is a correction, not invented text | nothing — it is a correction, and its slug corrects with it | §4 | live (patched) |
 | HW-endings | 2026-09-20 | The two ending entries (J00321, J00327) are entries for a shared **ending**, decided with the prefix entries, not as defects | nothing identified; the two need no searchability | §4 | live as a reading |
@@ -246,6 +248,7 @@ written down.
 | HW-slug-notation | 2026-09-20 | Notation in a slug (22 rows) is no decision of its own — every row is a form whose `text` carries notation H1–H4 already remove | nothing identified | §4 | live |
 | **HW-slug-number** | 2026-09-20 | The slug number vs the printed numeral is **not a defect — by design**. The slug number orders entries sharing a stem; Jastrow's numeral counts homographs of one word | the URL stops corresponding to the printed numeral in 1,184 rows (1,040 mixed families, 144 offset). `אָב` I becomes `אב-2` because a prefix entry took `אב-1`. The URL is an opaque identifier and the page still shows `אָב II` | §4 | superseded → U2 (2026-09-21: the name is the headword, with no numbering of our own) |
 | HW-h1-sep | 2026-09-20 | A doubled space or a stray comma before a single numeral (4 rows) is a defect: correct to `<word> <numeral>`, then it parses | nothing identified | §4 | live (patched) |
+| **HW-schema** | 2026-09-21 | **Entry data adopts headword-design §2 now**, before `compile.ts` is written: `headwords[]` (index 0 primary) replaces `headword`/`altHeadwords`; `display` is an optional template (unset = flagged, never defaulted — 7 rows today); `partial` and per-form `gender` become form fields; the §3.1 rules are enforced in `validate.ts`; every file carries `"schemaVersion": 2`. `sefariaHeadword` (U3) lands in the same rewrite | stated in the ruling: **~2,474 abbreviated alternates (20.2% of 11,080) stop being search keys**, and 1,393 entries have no alternate key until the print work in [#107](https://github.com/UniquePixels/jastrow/issues/107); the 227 alternates `phrase-alt-headword-stub` expanded revert to their printed form. Costs, distinct from drops: a new headword-line parser, gate 2 `headwordRoundTrip` redefined as text conservation plus a notation multiset, two rules unregistered (moving the `transform:invariants` baselines), a re-bless, ~11 test files | [`v2/headword-design.md`](v2/headword-design.md) §2 RULING block; review §10 Q1 (Q10 resolves with it) | live (ruled); not yet in code |
 | HW-paren-open | 2026-09-20 | **Open, not ruled:** parenthesis placement is not trustworthy in the source (~580 entries would need checking); A02823/M02007's trailing numeral is unresolved; the true size of the lost per-form gender class needs the print | recorded as unresolved rather than guessed. Not a go-live blocker | §5 | open |
 
 ## 11. U — URL names (2026-09-21)
@@ -282,15 +285,15 @@ here.)
 | T*n* | sweep tiering, 2026-08-17 | 7 |
 | dated `RULING (Brian, …)` | transform era, 2026-08-11 → 2026-09-20 | 36 |
 | Ruling A–F | patch corpus, 2026-09-09 | 5 — but only C–F are rulings; the first row records that A and B do not exist |
-| R*n* | pipeline consolidation, 2026-09-12 | 11 |
-| HW-* | headword design, 2026-09-20 | 35 |
+| R*n* | pipeline consolidation, 2026-09-12 → 09-21 | 13 (the two 09-21 rulings are recorded as changelog rows, not given R numbers) |
+| HW-* | headword design, 2026-09-20 / 09-21 | 36 |
 | U*n* | URL names, 2026-09-21 | 8 |
-| | **total rows** | **154** |
+| | **total rows** | **157** |
 
 The count is of **rows**, not of rulings. Two rows are not one ruling
 each: the `B2/B3` row holds two ids taken together, and the `A, B` row
 holds none — it records that those two ids have no trace anywhere. So
-154 rows carry 154 rulings; the two adjustments happen to cancel.
+157 rows carry 157 rulings; the two adjustments happen to cancel.
 
 ## B. The same ruling in two places with two wordings
 
@@ -315,7 +318,11 @@ three wholly superseded specs took archive banners, which cover the
 golden render diff (sweep-tiering §2/§3.2), research-process §8 and
 sense-structure §8.
 
-**Four sites still carry a reversed ruling with no pointer:**
+**Four sites still carry a reversed ruling with no pointer.** The
+first two are now scheduled to go: HW-schema (2026-09-21) unregisters
+both rules with the §2 adoption, so they are a dated removal rather
+than an open contradiction.
+
 
 | Site | Cites | Reversed by |
 |---|---|---|
@@ -333,7 +340,7 @@ below are decided and simply unbuilt.
 | Ruling | What is missing |
 |---|---|
 | 08-23 loud on drift | The rule stands; the corpus check that enforced it was retired in consolidation step 5 |
-| 08-27 paren strip | Reversed by HW-paren, but `parenAltHeadword` still strips |
+| 08-27 paren strip | Reversed by HW-paren, but `parenAltHeadword` still strips; HW-schema unregisters it |
 | D9 | No `data/pointers/`, and the derived alt rows need `compile.ts` |
 | D10 | No `bun validate` script; entry-data validation runs in the unit test tier, not as a CI schema gate |
 | D11, D13 (compile half), D15 | `compile.ts` is unwritten — the serving layer, the browse ordering and abbreviation detection all wait on it |
@@ -341,10 +348,12 @@ below are decided and simply unbuilt.
 | R11 | The atomic write is unbuilt (`migrate.ts` line 334 says so), and the guard it withdrew still refuses |
 | S4 | Three rids are still `needs_human_judgment` in `data/patches/reviewed/manifest.jsonl` |
 | HW-halt | `headword-unparsed` is a `blocks` review row in `migrate/publication.ts`, not a halt |
-| HW-no-expand | `phrase-alt-headword-stub` is still registered and still expands. This is the sharpest of the six contradictions below: a shipped rule running against a ruling that stopped it |
-| HW-paren, HW-roman, HW-gender, HW-query, HW-ellipsis, HW-abbrev-* | Wait on the headword schema decision (review §10 Q1); `display` and `partial` are not in `entry.schema.json` |
+| HW-no-expand | `phrase-alt-headword-stub` is still registered and still expands — the sharpest of the six contradictions: a shipped rule running against a ruling that stopped it. HW-schema unregisters it |
+| HW-paren, HW-roman, HW-gender, HW-query, HW-ellipsis, HW-abbrev-* | The headword schema decision they waited on is **made** (HW-schema, 2026-09-21: adopt §2 now). `display` and `partial` are still not in `entry.schema.json` — the rewrite is unwritten |
 | HW-nfc-write | NFC is applied to slugs and to comparisons, not to stored entry text on write |
 | V7 | Only CP-0 and CP-1 were ever minuted |
 | V9 | No `main` → `v2` merge since `v2` began |
 | D2 | `data/page-index/build-report.json` is committed |
+| HW-schema | Ruled 2026-09-21; the parser, the redefined gate 2, the two unregistrations and the `schemaVersion: 2` rewrite are all unwritten |
+| 09-21 admin edits | Depends on the update run (§3.2), which is unbuilt — so the three #113 gloss edits still have nowhere to land |
 | U1–U8 | Design only; the URL-names implementation (that spec §9) has not started |
