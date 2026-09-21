@@ -119,6 +119,9 @@ search hit, or derive a slug from it.
 | **Spaced variants** (H6, 8 rows) | Legitimate: the same word written as two words — Q00248 `פּוּמְבְּדִיתָא` / `פּוּם בְּדִיתָא`, B00864 `בְּלִימָה` / `(בְּלִי מָה)`, plus H01065, I00568, S01240 and B00442's two. Kept as multi-word forms. |
 | **Phrase headwords** (H6, 3 rows) | Legitimate phrase lemmas, each glossing a cross-reference: A00436, A01881, C00517. Kept. |
 | **Phrase alternates** (H6, 238 rows) | Split three ways. **227** exist only because `phrase-alt-headword-stub` expanded an abbreviation (source `בַּר א׳` → `בַּר אַבְיוּ`); with expansion stopped they revert to the printed form and are `partial`, raising [#107](https://github.com/UniquePixels/jastrow/issues/107)'s real scope to ~234. **9** are genuine multi-word phrases in the source (`בֶּן בַּג בַּג`, `בַּב נַהֲרָא`, `עֵין טַב`) — a multi-word phrase IS the headword, nothing to do. **2** differ from the source only in the gershayim repair (A03391, C01224). |
+| **Split headwords** (X1/X3, 5 rows) | Adjudicated against the print by Brian, 2026-09-20: U00489 (`ש` + `ׁוּף` → `שׁוּף`, a PRIMARY headword that was a single letter), V00518 (one headword plus a reference — the fragments belong in the gloss), S01780 (three headwords, the last an abbreviation), U01000 (`שִׁיפָ` + `ה`). Patched, not joined blindly: V00518 and S01780 come out unpointed by concatenation, so the patch text is the print's. Tracked in [#105](https://github.com/UniquePixels/jastrow/issues/105). |
+| **Final letter mid-word** (X2, 1 row) | F00009 `וַארְךּוּנְיָא` is an OCR error; Brian read the print: the letter is a **dalet**. A mis-recognised glyph is a correction, not invented text ([[project_ocr_correction_ruling]]), so it is patched. It is a primary headword, so the slug corrects with it. |
+| **Ending entries** (X1, 2 rows) | J00321 `ַיי` and J00327 `ַיְידָא` are entries for a shared ENDING — the mirror of X5's maqaf prefix entries — and are decided with them, not as defects. |
 | **H1 separator defects** (4 rows) | A doubled space (B00098 `בַּד  V`) or a stray comma (B00443, C00329, M00447 `מוֹזְלָא , I`) in front of a single numeral is a defect: the text corrects to `<word> <numeral>` and then parses. |
 
 ## 4.1 Fixes queued as patches
@@ -133,6 +136,8 @@ generated report keeps listing it until the patch lands.
 | H1 leaked commas | A02356, B00407, D00844 | trailing `,` back to the gloss |
 | H4 `=` in a headword | A01175, A01345 | `= Y` moves to the gloss |
 | H6 two spellings in one item | I00158, I00654, M02116, A01161, M02868 | split at the space into two forms |
+| X1/X3 split headwords | U00489, V00518, S01780, U01000 | rebuild from the print (not by concatenation) |
+| X2 OCR glyph | F00009 | final kaf → dalet |
 
 ## 5. Open questions
 
