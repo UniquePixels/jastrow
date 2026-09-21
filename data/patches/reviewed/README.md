@@ -14,6 +14,31 @@ the unresolved finding as `escalation`.
   one-record-per-rid rule is for agent tranches, and some rids here
   also have agent records.
 
+## Rulings still in force
+
+Lifted verbatim from `data/patches/RUNBOOK.md` when that procedure was
+archived on 2026-09-21 as
+[`docs/archive/runbook-2026-08.md`](../../../docs/archive/runbook-2026-08.md).
+These three rulings outlived the procedure around them.
+
+- **Review cadence (maintainer, 2026-08-15):** per-batch escalation
+  review is waived — batch-01 sampling established that queue items
+  are genuinely human-review-worthy (9 rulings reviewed, 1 false
+  alarm). All `needs_*` rows accumulate into one consolidated report
+  at the end of the sweep.
+- **Triage (maintainer, 2026-08-15):** every escalation defaults to
+  `post-go-live` — these are pre-existing source defects, not
+  pipeline regressions, so none block shipping. `blocking` is a
+  per-item override applied during the consolidated review. Recorded
+  in the resolution text (a structured `triage` field on rows comes
+  with the consolidated-report tooling).
+- **Wrong-reference handling (maintainer, 2026-08-15, A00363/A00571
+  precedents):** transcription-level errors (OCR glyphs) are fixed
+  and confidently relinked; print-level bad references are delinked
+  with an apparatus note (print reading → problem → Sefaria's choice
+  → other candidates → action); pure linker overreach is delinked
+  silently.
+
 ## Provenance
 
 Seeded on 2026-09-18 by `admin/pipeline/patch/seed-reviewed.ts` from
@@ -44,6 +69,9 @@ The three `needs_human_judgment` rows (D00470, K00081, R00519) are the
 review's deferred rows. They carry no patch.
 
 ## Confirmed no change
+
+The name was retired by S6 of the sense-structure spec; it is kept
+here as history.
 
 These 19 rids were reviewed and need no patch. The swallowed sense
 boundary leaves the marker in the text, so the text already matches

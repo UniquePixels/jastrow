@@ -6,7 +6,7 @@
 > task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Implement
-[docs/specs/2026-08-10-research-process-design.md](../../specs/2026-08-10-research-process-design.md):
+[docs/specs/2026-08-10-research-process-design.md](../specs/2026-08-10-research-process-design.md):
 the LLM sweep as a **patch generator** — deterministic substrate
 first (snapshot pin, semantic patch schema, no-new-text validator,
 entry-result manifest, apply engine), then the sweep machinery

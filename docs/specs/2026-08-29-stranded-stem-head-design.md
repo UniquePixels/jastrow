@@ -1,5 +1,9 @@
 # The stranded stem head — a predicate, a corrected count, and the first minted grammar block
 
+> **Batch design record, 2026-08-29; rules shipped.** See
+> [the transform module design](2026-08-22-transform-module-design.md) for the
+> live contract.
+
 **Status: design, 2026-08-29.** Phase 2 batch 6c. Scope ruled by Brian
 the same day: the rule takes every top-level sense-0 head whose run is
 followed by a space and then something — whether a Hebrew form follows

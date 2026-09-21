@@ -28,6 +28,12 @@ Import and compile are specified in the
 research code at `refs/tags/archive/v2-research-2026-09` (consolidation
 spec §8).
 
+The flow is drawn in
+[`docs/pipeline-flow.drawio.svg`](../../docs/pipeline-flow.drawio.svg)
+(renders on GitHub; opens in draw.io for editing). The maintainer's
+original sketch it was derived from was archived 2026-09-21 as
+`docs/archive/migrate-flow-sketch.drawio`.
+
 ### Inputs
 
 | Directory | Contents | Committed | Who writes it |

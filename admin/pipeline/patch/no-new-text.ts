@@ -1,6 +1,6 @@
 /**
  * No-new-text validator (research-process plan Task 2; spec
- * docs/specs/2026-08-10-research-process-design.md §4.3).
+ * docs/archive/specs/2026-08-10-research-process-design.md §4.3).
  *
  * The hard constraint behind the whole patch corpus: agents may
  * rearrange, re-tag, split, or delete existing text — **never

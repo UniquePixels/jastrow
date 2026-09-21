@@ -171,7 +171,7 @@ is written by hand into
   findings neither tier had. Upgrading the model does not close the
   gate.
 - **Acceptance (2026-08-17, maintainer):** accepted under
-  [sweep tiering spec](../../../docs/specs/2026-08-17-sweep-tiering-design.md)
+  [sweep tiering spec](../specs/2026-08-17-sweep-tiering-design.md)
   decision T1 — the catchable-miss-rate gate is retired in favour of a
   pattern-saturation gate. The eight verifier finds are folded in as
   escalations above.

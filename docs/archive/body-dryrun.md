@@ -1,7 +1,7 @@
 # Body Dry Run — §6.0 Blessing-Gate Evidence
 
 The entry-body-model toolkit ([design doc](../specs/2026-07-11-entry-body-model-design.md),
-[implementation plan](../superpowers/plans/2026-07-11-entry-body-model.md))
+[implementation plan](plans/2026-07-11-entry-body-model.md))
 turns each source entry's free-text `content.senses` into the structured
 `BodyEntry` shape the app renders. Tasks 5-9 built and fixtured each rule
 in isolation (gloss-head rejoin, grammar-marker parse, sense-label parse,

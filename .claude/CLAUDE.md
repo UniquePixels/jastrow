@@ -2,19 +2,22 @@
 
 ## Project Overview
 
-A progressive web app for browsing Marcus Jastrow's Dictionary of the
-Targumim, Talmud Babli, Yerushalmi and Midrashic Literature. Deployed as a static site on Cloudflare at jastrow.app.
+Marcus Jastrow's Dictionary of the Targumim, Talmud Babli, Yerushalmi
+and Midrashic Literature, as a static site on Cloudflare at jastrow.app.
 
+This branch (`v2`) is the overhaul, and what exists on it is the data
+pipeline under `admin/pipeline/`. **Neither the public app nor the
+admin tool has been written for v2 yet** — `app/` is a placeholder.
 
 ## Tech Stack
 
-- **Runtime:** Browser
-- **Components:** 
-- **Icons:** Font Awesome Pro
-- **Fonts:** Lexend (headings), Atkinson Hyperlegible Next (body), dyslexia-hebrew-extended (Hebrew)
-- **Data:** 
+- **Runtime:** Bun 1.3.14
+- **Language:** TypeScript
+- **Lint/format:** Biome 2.5.2
 - **Hosting:** Cloudflare
-- **Lint:** Biome
+- **Fonts** (for the app, when it is written): Lexend (headings),
+  Atkinson Hyperlegible Next (body), dyslexia-hebrew-extended (Hebrew)
+- **Icons** (same): Font Awesome Pro
 
 ## Quality Gate
 

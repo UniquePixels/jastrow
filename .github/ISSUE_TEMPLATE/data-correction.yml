@@ -6,8 +6,9 @@ body:
     attributes:
       value: |
         Corrections must be **verifiable against the source** (Jastrow's
-        dictionary / Sefaria). Please cite it. Data is edited through the
-        admin tool — see CONTRIBUTING § Contributing Data.
+        dictionary / Sefaria). Please cite it. Entry data is produced by
+        the pipeline, not hand-edited in a PR — see
+        CONTRIBUTING § Contributing Data.
   - type: input
     id: headword
     attributes:

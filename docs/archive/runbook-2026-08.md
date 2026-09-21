@@ -1,5 +1,12 @@
 # Scaled sweep runbook (Task 8)
 
+> **Archived 2026-09-21 — historical record, not a live procedure.**
+> It was `data/patches/RUNBOOK.md`. The gated corpus sweep it runs is
+> over and no tool implements these steps any more. Its three rulings
+> that are still in force (the 2026-08-15 review cadence, triage
+> default and wrong-reference handling) were lifted verbatim into
+> [`data/patches/reviewed/README.md`](../../data/patches/reviewed/README.md).
+
 Per-batch procedure for the gated corpus sweep (spec §4.5; plan
 Task 8). Every batch is maintainer-gated: **no step 2 without a
 recorded go**. Gates (sweep tiering spec, 2026-08-17):
@@ -52,7 +59,7 @@ This runbook is for the agent-authored sweep. A separate, human-authored
 patch corpus lives at `data/patches/reviewed/` (consolidation step 8):
 patches a person wrote from a print check, exempt from the no-new-text
 floor, applying first in `patch-apply`. See
-[`data/patches/reviewed/README.md`](reviewed/README.md) for its
+[`data/patches/reviewed/README.md`](../../data/patches/reviewed/README.md) for its
 provenance and contract.
 
 ## Procedure
@@ -238,7 +245,7 @@ Two consequences worth knowing before reading a batch report:
   round-1 miss caught, but the miss threshold breached again at
   8.2% on five different entries across three classes with no
   shared root cause. Accepted per the
-  [sweep tiering spec](../../docs/specs/2026-08-17-sweep-tiering-design.md)
+  [sweep tiering spec](specs/2026-08-17-sweep-tiering-design.md)
   — T1 retires the catchable-miss-rate gate in favour of pattern
   saturation, T2 keeps the error gate. Eight verifier finds folded
   in as escalations; post-fold escalation queue 128. Full record in

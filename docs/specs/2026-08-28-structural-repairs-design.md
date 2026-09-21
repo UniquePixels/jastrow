@@ -1,5 +1,9 @@
 # Structural repairs — phase wiring, the loss gate, and batch 6b's two rules
 
+> **Batch design record, 2026-08-28; rules shipped.** See
+> [the transform module design](2026-08-22-transform-module-design.md) for the
+> live contract.
+
 **Status: design, 2026-08-28.** Phase 2 batch 6b. Scope ruled by Brian
 the same day: wire the dormant `structural-repairs` phase and add the
 text-loss gate, prove both with the two small rules, publish the

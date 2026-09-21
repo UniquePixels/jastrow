@@ -11,10 +11,8 @@
 			"**",
 			"!data/*.json",
 			"!data/*.jsonl",
-			"!data/admin/annotations.json",
 			"!data/source/*.json",
 			"!data/source/*.jsonl",
-			"!docs/superpowers/plans/*.tasks.json",
 			"!docs/archive",
 			"!**/*.drawio.svg",
 			"data/entries/**/*.json"
@@ -315,18 +313,6 @@
 		"formatter": {
 			"quoteStyle": "single"
 		},
-		"globals": [
-			"Bun",
-			"Chart",
-			"DOMPurify",
-			"IDB",
-			"InfiniteScroll",
-			"JastrowDataLoader",
-			"SagesData",
-			"SagesGraph",
-			"SagesSidebar",
-			"TalmudSagesExplorer",
-			"d3"
-		]
+		"globals": ["Bun"]
 	}
 }

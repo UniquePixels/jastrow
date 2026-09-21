@@ -1,8 +1,15 @@
 # Sense Structure Repair — §6.0 Follow-up Design
 
+> **Archived 2026-09-21 — historical.** Superseded by the pipeline
+> consolidation
+> ([spec 2026-09-13](../../specs/2026-09-13-pipeline-consolidation-design.md)):
+> step 8 turned S1/S2 into reviewed patches and deleted the `repairs.ts`
+> tables, and step 5 retired the corpus tier S5's gates ran in. S6's
+> retirement of `CONFIRMED_NO_CHANGE` still stands.
+
 - **Date:** 2026-08-06
 - **Status:** Draft — pending maintainer review
-- **Parent:** [2026-07-11-entry-body-model-design.md](2026-07-11-entry-body-model-design.md)
+- **Parent:** [2026-07-11-entry-body-model-design.md](../../specs/2026-07-11-entry-body-model-design.md)
   (§6.0). Supersedes the `CONFIRMED_NO_CHANGE` disposition of the 01
   review and completes the numbering-repair story Task 16 started.
   Decision IDs here are S1–S7; the parent's B-numbers are unchanged.

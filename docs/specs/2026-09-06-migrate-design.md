@@ -9,7 +9,8 @@
   (`admin/pipeline/body/repairs.ts`), the transform registry
   ([transform module](2026-08-22-transform-module-design.md)), the
   accepted patch corpus (`data/patches/`), and the hOCR page index
-  (branch `worktree-headword-page-index`, §2.5)
+  (§2.5; the branch `worktree-headword-page-index` was merged as
+  `data/page-index/`)
 - **Produces:** `data/entries/<L>/<rid>.json`, the entry data
 
 ## 1. Context & Problem
@@ -243,8 +244,9 @@ the corpus tier asserts that.
 | Corpus | `loadCorpus` loads 88 patches; the dry run applies them with 0 problems | `patch/apply.corpus.test.ts` |
 | Corpus | headword regeneration byte-matches on every form | `migrate/headword.corpus.test.ts` |
 
-The page-index tests (5 files) come across with the move and must
-pass under the current biome config before that PR merges.
+The three `Corpus` rows above were deleted in consolidation step 5
+(2026-09-15); only the two unit rows still exist. The page-index
+tests (5 files) came across with the move.
 
 ## 7. Sequencing
 

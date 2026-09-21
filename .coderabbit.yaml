@@ -30,20 +30,10 @@ reviews:
     - path: "**"
       instructions: |
         General project rules:
-        - This is a vanilla JS static site PWA. No bundler, no framework, no npm packages at runtime.
-        - All JS runs in the browser unless under `admin/` (maintainer tooling, which uses Bun).
         - Repo layout (v2): `app/` public app, `admin/` tooling (incl. `admin/pipeline/`), `data/` data only.
+        - `app/` is a placeholder: the v2 frontend has not been written yet.
+        - Everything running today is Bun tooling under `admin/`.
         - Biome enforces lint and formatting.
-        - DOMPurify is loaded via CDN with SRI for XSS sanitization.
-
-    - path: "assets/scripts/**"
-      instructions: |
-        Browser JavaScript. Focus on:
-        - No module bundler — files loaded via `<script>` tags
-        - DOM API usage and event handling patterns
-        - Service worker lifecycle awareness
-        - Accessibility (WCAG 2.1 AA compliance)
-        - No `var` — use `const`/`let`
 
     - path: "admin/**"
       instructions: |

@@ -52,7 +52,7 @@ batch): A01123, A01019
   findings neither tier had. Upgrading the model does not close the
   gate.
 - **Acceptance (2026-08-17, maintainer):** accepted under
-  [sweep tiering spec](../../../../docs/specs/2026-08-17-sweep-tiering-design.md)
+  [sweep tiering spec](../../../../docs/archive/specs/2026-08-17-sweep-tiering-design.md)
   decision T1 — the catchable-miss-rate gate is retired in favour of a
   pattern-saturation gate. The eight verifier finds folded into the
   manifest as escalations (A01264, A01679, A01315, A01123, A01546 →
