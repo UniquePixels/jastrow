@@ -106,48 +106,140 @@ code has a detector (spec §4.1); none is wired yet.
 
 ## Blocks the v2 cutover (step 11)
 
-`data/patches/patterns.jsonl` still flags 32 candidate classes
+`data/patches/patterns.jsonl` flagged 32 candidate classes
 `blocking: true` on a route other than `transform` — 31 `judgment`,
-`open-paren-in-rtl-span` `blocked` — under sweep-tiering T6
-("blocking = breaks the render or would be baked in"; spec §11 step
-11). The 2026-08-15 triage ruling that no sweep *escalation* blocks
-shipping never reconciled with these class flags; each is recounted
-and either kept blocking (fixed before publication) or deferred to
-the tracker with the rest of this backlog. The 23 blocking classes on
-the `transform` route each have a registered rule and are not listed
-here.
+`open-paren-in-rtl-span` `blocked` — under sweep-tiering T6 ("blocking
+= breaks the render **or** would be baked in by the transform"; spec
+§11 step 11). The 2026-08-15 triage ruling that no sweep *escalation*
+blocks shipping never reconciled with these class flags. The 23
+blocking classes on the `transform` route each have a registered rule
+and are not listed here.
 
-| Class | Route | Catalogued |
+**Recounted 2026-09-20** on the 32,512 committed entry files at
+`8503234e`. Each predicate below is one stated sentence over
+`senses[]`, nested `senses[].senses[]` and `stems[].senses[]`, with
+`<[^>]+>` stripped; the script is throwaway (R4: a triage script is
+neither rule, patch nor review detector) and the predicates travel here
+so a count can be taken again instead of trusted. The predicates were
+written from each class's own description, and they do not all
+reproduce it.
+
+### What the recount can and cannot say
+
+| Outcome | Classes | What a count from it is worth |
 |---|---|---|
-| `unmatched-closing-paren` | judgment | 1,604 |
-| `etymology-head-pseudo-sense` | judgment | 1,553 |
-| `preamble-stranded-lead-sense` | judgment | 676 |
-| `citation-tail-truncation` | judgment | 657 |
-| `unmatched-opening-paren` | judgment | 452 |
-| `empty-stem-section` | judgment | 342 |
-| `common-gender-inexpressible` | judgment | 228 |
-| `unnumbered-terminal-homograph` | judgment | 129 |
-| `doubled-space-as-text-loss-locator` | judgment | 108 |
-| `stem-head-in-child-sense` | judgment | 100 |
-| `open-paren-in-rtl-span` | blocked | 89 |
-| `stranded-open-bracket` | judgment | 85 |
-| `bracket-paren-mismatch` | judgment | 67 |
-| `stem-label-not-a-binyan-name` | judgment | 66 |
-| `gloss-space-loss` | judgment | 45 |
-| `self-numbered-intext-marker` | judgment | 35 |
-| `superscript-subsection-contradicts-link-sub-section` | judgment | 33 |
-| `lost-h-equivalent` | judgment | 32 |
-| `reversed-hebrew-phrase` | judgment | 27 |
-| `truncated-read-stub` | judgment | 26 |
-| `homograph-roman-stranded-in-definition` | judgment | 23 |
-| `unclosed-editorial-bracket` | judgment | 18 |
-| `dangling-denom-tail` | judgment | 17 |
-| `lost-hebrew-after-h-marker` | judgment | 13 |
-| `verse-paren-false-sense-split` | judgment | 13 |
-| `inline-inflection-sublist` | judgment | 12 |
-| `chopped-marker-with-residue` | judgment | 10 |
-| `continuation-marker-fully-absent` | judgment | 9 |
-| `sense-number-outside-closed-grammar` | judgment | 6 |
-| `contentless-entry` | judgment | 6 |
-| `first-sense-debris-stranding-language-label` | judgment | 5 |
-| `inflection-sublist-numbering-flattened` | judgment | 3 |
+| **reproduced** — predicate follows the description, \|Δ\| ≤ 25% | 9 | evidence |
+| **resolved** — 0 with a positive control proving the predicate fires | 2 | evidence of closure |
+| **not reproduced** — the predicate needed a clause the description lacks, or vice versa | 15 | *not* evidence; the number measures the predicate |
+| **no predicate** — the class is defined by a model this script does not hold | 6 | nothing; needs its detector ported (§10) |
+
+Two zeros were checked before being believed, because a predicate that
+cannot fire reports a clean nothing:
+
+| Control | Result |
+|---|---|
+| Can the child-sense walk see anything? | 510 child senses in 204 entries; 21 glosses anywhere open with a binyan name, all of them top-level |
+| Do the six rids `sense-number-outside-closed-grammar` names still exist? | all six present; only 3 entries in the corpus carry a `*N)` marker and none is one of the six; 0 senses carry a `*…` label |
+
+Two classes' stated `reason` is stale against the v2 entry schema, and
+neither was caught until the recount:
+
+- `common-gender-inexpressible` reads "content.morphology has a closed
+  9-value vocabulary that never contains it". `grammar.gender`'s enum is
+  `["m","f","c"]` — it *does* contain it. 12,557 entries carry a gender
+  and 0 carry `c`, so the class is a **backfill**, not an
+  impossibility.
+- `stem-head-in-child-sense` and `stem-label-not-a-binyan-name` name
+  `grammar.binyan_form` / `grammar.verbal_stem`. The v2 schema has no
+  such fields: `grammar` holds `gender`, `number`, `pos`, and stems live
+  in `stems[]` as `stem` / `forms` / `senses`. Both were catalogued
+  against the source shape.
+
+### Group A — reproduced, and structural or render-visible
+
+Draft: **keep blocking.** Each turns on a T6 limb that the recount
+confirms is still present in the committed tree.
+
+| Class | Cat. | Now | Predicate | T6 limb |
+|---|---|---|---|---|
+| `empty-stem-section` | 342 | **342** | a `stems[]` element whose `senses` carry no text at all | both: an empty binyan heading renders blank, and the element is written into 342 committed files (e.g. `A00338`, `{"stem":"Ithpa.","senses":[]}`) |
+| `stranded-open-bracket` | 85 | **85** | a sense's text ends with a bare `[` | baked in: the print bracket's scope — which senses it wraps — is not recoverable from the tree (`A00764` ends `.—[`) |
+| `superscript-subsection-contradicts-link-sub-section` | 33 | **33** | `<sup>N</sup>` last inside a `<cite>` whose ref ends `:M`, N ≠ M | render: the link lands on the wrong sub-section (`T00292`: `Num. R. s. 14⁷` against `Bamidbar Rabbah 14:12`) |
+| `homograph-roman-stranded-in-definition` | 23 | **22** | `senses[0].gloss` opens with a Roman numeral and `headword.homograph` is absent | baked in: the homograph number is part of the headword namespace, so it is part of the slug |
+| `open-paren-in-rtl-span` | 89 | **88** | a `<he>` span whose content's `(` and `)` counts differ | render: bidi puts the paren on the wrong side. Already `route: blocked` |
+
+### Group B — reproduced, and text-level
+
+Draft: **defer.** Visible, but a per-entry text fix in the admin tool
+that disturbs no structure and no published identity.
+
+| Class | Cat. | Now | Predicate |
+|---|---|---|---|
+| `unmatched-opening-paren` | 452 | 409 | entry level: `(` count > `)` count |
+| `common-gender-inexpressible` | 228 | 229 | leading `c.` in `senses[0].gloss` with no `grammar.gender` — a backfill, see above |
+| `lost-h-equivalent` | 32 | 36 | bare `(h.` followed straight away by punctuation (not `(b. h.`, which is a complete form) |
+| `truncated-read-stub` | 26 | 26 | a sense's text ends `read:` — the correction can only come from print |
+
+### Group C — resolved, with a control
+
+Draft: **close** (`blocking: false`, `status: resolved`), not defer.
+Neither is outstanding work.
+
+| Class | Cat. | Now | Why it is gone |
+|---|---|---|---|
+| `stem-head-in-child-sense` | 100 | **0** | the body model lifted stem heads into `stems[]` (2,660 entries carry one); no *child* sense opens with a binyan name. Control above |
+| `sense-number-outside-closed-grammar` | 6 | **0** | the transforms consumed the starred `*N)` markers on all six named rids. Control above |
+
+### Group D — the sense-structure family, and why it is the hard one
+
+Draft: **keep blocking, on kind, pending a ported detector.** Every
+class here changes *how many senses an entry has and how they are
+numbered*. Sense structure is what the compiled data, any per-sense
+anchor, and every future hand edit build on, so it is T6's bake-in limb
+in its purest form — and none of these can be recounted here. Where a
+number appears it is the predicate's, not the class's.
+
+| Class | Cat. | Predicate's count | Why the recount is not evidence |
+|---|---|---|---|
+| `etymology-head-pseudo-sense` | 1,553 | 261 | "whole definition is the etymology parenthetical" needs the judgment of *whole*; the predicate demands a single balanced paren and nothing else |
+| `preamble-stranded-lead-sense` | 676 | 1,761 | "no gloss and no citation" is looser as written (`<i>`-absence) than the class, which also requires the real senses to follow as `1)/—2)` |
+| `self-numbered-intext-marker` | 35 | 26 | the in-text marker's own numbering is judged against the sibling run, not matched by regex |
+| `inline-inflection-sublist` | 12 | 76 | the predicate finds any in-text `1)`; the class requires it to sit under an inflection label |
+| `continuation-marker-fully-absent` | 9 | 29 | "the previous sibling carries no marker residue at all" is the judgment; the predicate only sees a missing label |
+| `first-sense-debris-stranding-language-label` | 5 | 21 | requires the duplication of `sense[1]` to be established, which the predicate does not test |
+| `verse-paren-false-sense-split` | 13 | — | a mis-split judged against the print page |
+| `chopped-marker-with-residue` | 10 | — | "residue after a chopped marker" was judged per entry |
+| `inflection-sublist-numbering-flattened` | 3 | — | which siblings belong to the inflected form is judgment |
+
+### Group E — not measurable here, and text-level
+
+Draft: **defer.** The kind is text loss or a diagnostic, so T6 does not
+reach it even though the count is unavailable. Each goes to the tracker
+with a note that its detector is unported.
+
+| Class | Cat. | Predicate's count | Note |
+|---|---|---|---|
+| `citation-tail-truncation` | 657 | 9,861 | ending at a citation is the *normal* shape in Jastrow; the class turns on a truncation judgment, so the predicate is meaningless here |
+| `unmatched-closing-paren` | 1,604 | 525 | the class's own `reason` already records that its unit is unstated and that 40% of candidates are explained by sense markers |
+| `stem-label-not-a-binyan-name` | 66 | 151 | the predicate flags every `stems[].stem` outside a hand-written binyan list, including legitimate ones |
+| `doubled-space-as-text-loss-locator` | 108 | 206 | explicitly a **locator**, not a defect — a review-detector candidate at most |
+| `unclosed-editorial-bracket` | 18 | 83 | "closer absent from the entry entirely" and "contentful" are both judgments; the predicate only counts imbalance |
+| `bracket-paren-mismatch` | 67 | 89 | the predicate's window is one run without nesting |
+| `dangling-denom-tail` | 17 | 10 | needs print to supply the denominative |
+| `lost-hebrew-after-h-marker` | 13 | 9 | needs print to supply the Hebrew |
+| `contentless-entry` | 6 | 4 | four entries with no definitional content anywhere |
+| `unnumbered-terminal-homograph` | 129 | — | needs the family join across headword and altHeadwords |
+| `gloss-space-loss` | 45 | — | defined by corpus bigram frequency |
+| `reversed-hebrew-phrase` | 27 | — | needs the corpus's phrase-order model |
+
+### The ruling this needs
+
+Groups A and C are settled by measurement. Groups B and E are drafted
+as deferrals on kind. **Group D is the decision:** nine sense-structure
+classes whose bake-in risk is the strongest of the 32 and whose counts
+cannot be reproduced without porting their detectors from the archived
+research code (§10, "one class per PR"). Keeping them blocking makes v2
+publication wait on those ports; deferring them accepts whatever sense
+structure the committed tree now carries.
+
+*Awaiting the maintainer's ruling.*
