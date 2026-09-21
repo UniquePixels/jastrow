@@ -146,6 +146,9 @@ doc for review (§4.2).
 directories). Fields in schema order, tab-indented, trailing newline,
 optional fields omitted when empty. Every file validates against
 `admin/pipeline/schema/entry.schema.json`; no schema change is needed.
+*(True when written. The [URL names spec](2026-09-21-url-names-design.md)
+§5.1, 2026-09-21, changes it: `slug` is removed and `sefariaHeadword`
+added.)*
 
 ## 3. Two passes
 
