@@ -37,17 +37,13 @@
  * ref, **all 259 land on `Yoma 2a*`**; the rate for every other
  * antecedent work is 3.2%. There is no exception at all.
  *
- * That sentence used to read "260 … 259 … the one exception is not a
- * rival resolution — O00242's anchor carries no `data-ref` at all",
- * and the exception was an artefact of `links.ts`'s value class, not
- * a corpus fact (corrected 2026-08-24 with the apostrophe fix).
- * O00242's `Ib.` carries `data-ref="Avot D'Rabbi Natan 1:7"`, which
- * the old class could not read; its own nearest antecedent is the
- * `Avot D'Rabbi Natan 1:7` anchor two sentences earlier, so it is not
- * a Yerushalmi case at all and the linker resolved it CORRECTLY. The
- * identification is stronger for it: the falsifier now has zero
- * survivors rather than one explained one. Full null model, frequency
- * argument and falsifiers: the audit's §2.
+ * O00242 reads like an exception only to a parser whose attribute
+ * value class cannot hold an apostrophe: its `Ib.` carries
+ * `data-ref="Avot D'Rabbi Natan 1:7"`, its own nearest antecedent is
+ * the `Avot D'Rabbi Natan 1:7` anchor two sentences earlier, so it is
+ * not a Yerushalmi case at all and the linker resolved it CORRECTLY.
+ * Full null model, frequency argument and falsifiers: the audit's
+ * §2.
  *
  * ## Why COPY and not COMPOSE
  *
@@ -65,7 +61,7 @@
  * the same bytes. This rule therefore declares no `composed` claims.
  *
  * The design named `ib-targum-work-loss` as case 3's first real use.
- * Task 8 measured that and it is wrong twice over: that row cannot
+ * That is wrong twice over: that row cannot
  * use case 3 at all (see the second half of this doc), and the first
  * real use turned out to be `sifre-ib-resolves-to-yalkut` — on a
  * single anchor.
@@ -94,9 +90,9 @@
  *    the text on every corpus pass, with no rid list to go stale, and
  *    deliberately conservative: a Roman numeral in prose costs a
  *    decline, never a mislink. The span it reads is `gapBetween`,
- *    which masks text inside anchors; that was corrected in Task 8 and
- *    changes nothing here (272 of 272 gaps agree, 209 fire either
- *    way), but see its docstring for why the correction was needed.
+ *    which masks text inside anchors — costing nothing here (272 of
+ *    272 gaps agree, 209 fire either way), but see its docstring for
+ *    why the masking is needed.
  *
  * ## The decline census (accounts for the row's 312)
  *
@@ -131,7 +127,7 @@
  * ```
  *
  * Those figures were 996 / 870 / 11 / **3** until the apostrophe fix
- * (2026-08-24). The two extra "different work" rows were the two whose
+ *. The two extra "different work" rows were the two whose
  * anaphor read as an empty `data-ref`, and neither was empty: O00242
  * and S00503 both carry `Avot D'Rabbi Natan …`, unreadable under the
  * old value class. Read, O00242 matches its antecedent exactly and
@@ -153,7 +149,7 @@
  *
  * # `sifre-ib-resolves-to-yalkut` (batch-2 link spec §4 row 10)
  *
- * Task 8's second arm, and the batch's FIRST GENUINE gate case 3.
+ * The second arm, and the first genuine user of gate case 3.
  * Jastrow writes `Sifré ib. N`; the linker reads the `ib. N` and
  * reuses the section number under the work it was already in, giving
  * `Yalkut Shimoni on Torah N`. The work label sits OUTSIDE the anchor,
@@ -176,8 +172,8 @@
  * missed**: all five catalogued rids are preceded by `; Sifré ` and
  * E00476 by `.—Sifré `. It is a member by the row's own description,
  * and it is the only one of the six that can be repaired — so the
- * miss is not cosmetic, it is the whole of this arm's yield. Task 11
- * owns the write-back.
+ * miss is not cosmetic, it is the whole of this arm's yield. The
+ * catalogue write-back is outstanding.
  *
  * ## Why COMPOSE here, where `ib-yoma-2a` copies whole
  *
@@ -220,7 +216,7 @@
  *
  * # `ib-targum-work-loss` (batch-2 link spec §4 row 9)
  *
- * Task 8's third arm, and gate case 4's FIRST USER. Jastrow cites a
+ * The third arm, and gate case 4's first user. Jastrow cites a
  * Targum, then continues `Ib. Lev. IX, 7`; the linker reads the verse
  * correctly and loses the work, landing on the plain Hebrew-Bible book
  * instead of the Targum's rendering of it. Both `Targ.` and `ib.` sit
@@ -263,7 +259,7 @@
  * failed, M00567 decisively: it is the SAME-book member, so the common
  * prefix eats work and book alike and the remainder is `6:22` alone —
  * which still fails, on the characters `6` and `:`. That measurement
- * is what carried the 2026-08-23 ruling adding **case 4,
+ * is what carried the ruling adding **case 4,
  * recombination**. See `repairTargumAnaphor` for why this arm cannot
  * reach the abuses that case's blind-spot list records.
  *
@@ -304,10 +300,10 @@
  * entry-local by §3.3 — and recorded here as support for the ruling
  * rather than as a test.
  *
- * ## DEFERRED: the split seam, named (task 8, carried 2026-08-24)
+ * ## DEFERRED: the split seam, named
  *
  * This file is ~1,250 lines and three rules, and trips
- * `noExcessiveLinesPerFile` (info). Task 8 identified a real seam and
+ * `noExcessiveLinesPerFile` (info). There is a real seam here and
  * deliberately did not cut it mid-batch, because the split moves
  * symbols three other tasks import and the docstrings — which carry
  * the measurements — are the bulk rather than the code. It is
@@ -325,7 +321,7 @@
  * - **the three arms (~850 lines)**, each a predicate, a repairer and
  *   a `Rule`, none of which reads the others.
  *
- * Follow-up for whoever opens batch 3's retarget work — do it BEFORE
+ * Follow-up for whoever opens the next retarget work — do it BEFORE
  * adding a fourth arm, not after.
  */
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
@@ -372,11 +368,11 @@ const TARGUM_RULE_ID = 'ib-targum-work-loss';
  * thing it takes from the antecedent.
  *
  * This is an enumerated list, so it is LOUD ON DRIFT per the
- * maintainer's 2026-08-23 ruling: a corpus check pinned that every one
+ * maintainer's ruling: a corpus check pinned that every one
  * of the corpus's 45 distinct Targum work-and-book combinations begins
  * with one of these five, so a sixth spelling in a re-fetch would have
  * failed the suite instead of quietly shrinking the arm. That check
- * is retired in consolidation step 5; on a new export this is a
+ * is retired; on a new export this is a
  * review-detector candidate (consolidation spec §10), listed in
  * `docs/v2/retired-corpus-checks.md`.
  *
@@ -415,13 +411,13 @@ const BOOK_LOCUS = /^[^\d]+\s\d+:\d+$/u;
  * The Sifré work family as Sefaria spells it.
  *
  * A PREFIX, not an enumerated list of works, and the difference is the
- * 2026-08-23 loud-on-drift ruling: the corpus holds exactly two
+ * loud-on-drift ruling: the corpus holds exactly two
  * (`Sifrei Devarim`, 402 anchors; `Sifrei Bamidbar`, 193) and a corpus
  * check pinned that EVERY `Sifr…` target in the corpus starts with
  * this string. A third work — Sefaria spells the Torat Kohanim
  * `Sifra, …` — appearing in a re-fetch would have failed that test
  * rather than silently sitting outside an arm that would then
- * under-fire. That check is retired in consolidation step 5; on a new
+ * under-fire. That check is retired; on a new
  * export this is a review-detector candidate (consolidation spec §10),
  * listed in `docs/v2/retired-corpus-checks.md`.
  */
@@ -448,9 +444,8 @@ const SIFRE_ANAPHOR = /^[Ii]b\.\s+(?<number>\d+)$/u;
  *
  * The optional `-…` arm is not speculative: 5 of the corpus's 402
  * `Sifrei Devarim` anchors carry a RANGE (`Sifrei Devarim 301:3-4`,
- * `/Sifrei_Devarim.301.3-4`), found on the 2026-07-04 export by the
- * population pin in a corpus check retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`) failing on the narrower pattern.
+ * `/Sifrei_Devarim.301.3-4`), found on the export by the
+ * population pin in a retired corpus check failing on the narrower pattern.
  * No member's antecedent is one today, and `repairSifreAnaphor` would
  * have DECLINED rather than mis-stripped — but declining there would be a
  * silent under-fire, since a range locus leaves the work half every
@@ -482,10 +477,9 @@ const HREF_LOCUS = /\.\d+(?:\.\d+)*(?:-\d+(?:\.\d+)*)?$/u;
  * `</a>`), so treating them as intervening citations would decline
  * members for evidence of the antecedent this rule is about to copy.
  *
- * CORRECTED 2026-08-24 (task 11). This paragraph said "92 of the 272
- * gaps" and "a third of the population"; neither reproduces, and both
- * UNDERSTATE the case. Measured over the same 272 gaps the census
- * uses, with `/\bbeg\.|\bend\.|\btop\b|\bbot\./u`:
+ * A POSITION-MARKER CUE WOULD COST MORE THAN IT BUYS. Measured over
+ * the same 272 gaps the census uses, with
+ * `/\bbeg\.|\bend\.|\btop\b|\bbot\./u`:
  *
  *   178 of 272 gaps carry a position marker
  *   133 of the 209 FIRING members carry one
@@ -493,7 +487,7 @@ const HREF_LOCUS = /\.\d+(?:\.\d+)*(?:-\d+(?:\.\d+)*)?$/u;
  *
  * A corpus check pinned all three on every `bun qa`, so the figure
  * could not drift back into prose; that check is retired in
- * consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
+ * a retired corpus check.
  */
 const INTERVENING_CITATION = /[ᵃᵇᶜᵈ]|\b[IVXLC]+,|\bl\.\s?c\.|\bs\.\s*\d/u;
 
@@ -566,7 +560,7 @@ function textBetween(
  * there would be a false negative produced by the arm's own skipped
  * anchor, not by anything Jastrow left unanchored.
  *
- * Measured before changing it (2026-08-23): over `ib-yoma-2a`'s 312
+ * Measured before changing it: over `ib-yoma-2a`'s 312
  * members and all 272 gaps it measures, this and `textBetween` return
  * the SAME verdict in 272 of 272, and the fire count is 209 either
  * way. So the correction is free for the shipped rule and the code now
@@ -655,7 +649,7 @@ function always(): boolean {
  * reasoned about together: `accept` decides which anchors the walk may
  * step over, and `tolerate` decides which of those steps are lawful.
  * Widening the first without widening the second is the hole the
- * 2026-08-24 review found.
+ * review found.
  */
 interface AntecedentRules {
 	/** Which prior anchor may serve as the antecedent. Defaults to any
@@ -686,7 +680,7 @@ interface AntecedentRules {
  * running text, so only a Sifré anchor will (`isSifreCitation`).
  * Everything else here — the `usable` skip, the spent-anaphor skip,
  * the enclosure refusal, the gap-purity decline — is shared, and was
- * paid for once by Task 7's corpus reading.
+ * paid for once by the corpus reading.
  *
  * The gap test applies to BOTH arms even though the Sifré arm walks
  * past anchors of other works to reach its antecedent. It costs that
@@ -699,7 +693,7 @@ interface AntecedentRules {
  * ## `tolerate`, and the hole it closes
  *
  * `accept` and `gapBetween` are individually sound and jointly unsafe,
- * which is why this parameter exists (reviewer finding, 2026-08-24).
+ * which is why this parameter exists (reviewer finding).
  * Restriction 2 exists because the nearest ANCHOR is not always the
  * nearest CITATION. `INTERVENING_CITATION` finds the UNANCHORED ones;
  * for `ib-yoma-2a` the anchored ones cannot arise, because its
@@ -747,7 +741,7 @@ interface AntecedentRules {
  * in definition text — and `textBetween` over a backwards range
  * quietly returns `''`, so the gap check would pass VACUOUSLY on the
  * one shape it exists to catch. Measured 0 such pairs among all bare
- * anaphors corpus-wide (2026-08-23), so this guards a case the corpus
+ * anaphors corpus-wide, so this guards a case the corpus
  * does not currently hold; it is here because a vacuous pass is worse
  * than a decline, and because `unlinkMatching`'s docstring records
  * what assuming anchors do not nest already cost this module once.
@@ -802,7 +796,7 @@ interface Compose {
 }
 
 /** One declared recombination, mirroring `TransformResult.recombined`'s
- * element shape (spec §3.2 case 4, ruling of 2026-08-23). */
+ * element shape (spec §3.2 case 4, ruling). */
 interface Recombine {
 	head: string;
 	tail: string;
@@ -860,7 +854,7 @@ type Repairer = (
  * as a decline — the arms differ in how they build a target and not in
  * what a no-op means, so the check sits here rather than in each arm.
  *
- * LOAD-BEARING ASSUMPTION, PINNED (noted 2026-08-24, task 11).
+ * LOAD-BEARING ASSUMPTION, PINNED.
  * `anchor.open`/`anchor.close` and the position `at` all index the
  * ORIGINAL `tokens` array, while every edit accumulates into a
  * separate `next`. That is only sound because **`retarget` is
@@ -1004,7 +998,7 @@ const repairBareAnaphor: Repairer = (
  * (`ib. 330`), and the linker did NOT resolve it to a Sifré work.
  *
  * All three conditions are syntactic and re-derived from the text on
- * every corpus pass — no rid list to go stale. Measured 2026-08-23:
+ * every corpus pass — no rid list to go stale. Measured:
  * the first two alone select **6 occurrences / 6 entries** corpus-wide
  * and **all 6** land on `Yalkut Shimoni on Torah`, 0 on any Sifré
  * work. The third condition therefore removes nothing today; it is
@@ -1015,8 +1009,8 @@ const repairBareAnaphor: Repairer = (
  *
  * The catalogued `corpusCount` is **5**, and the sixth (E00476) is a
  * real member the discovery probe missed: all five catalogued rids are
- * preceded by `; Sifré ` and E00476 by `.—Sifré `. Task 11 owns the
- * write-back.
+ * preceded by `; Sifré ` and E00476 by `.—Sifré `. The catalogue
+ * write-back is outstanding.
  */
 function isSifreMember(lead: string, anchor: Anchor): boolean {
 	return (
@@ -1126,7 +1120,7 @@ const sifreAnaphora: Rule = {
  * it to a bare scriptural address carrying no work at all.
  *
  * Four conditions, all syntactic, none of them a list of rids or
- * books. Measured 2026-08-23: they select **9 occurrences / 8
+ * books. Measured: they select **9 occurrences / 8
  * entries** corpus-wide — the catalogued figure reproduced to the
  * occurrence, from the row's `description` read literally.
  *
@@ -1190,8 +1184,7 @@ function isTargumMember(lead: string, anchor: Anchor): boolean {
  *
  * A corpus check pinned both as invariants over every fire
  * (`written === work + tail` and `head.startsWith(work)`), not as
- * prose; that check is retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`).
+ * prose; that check is retired.
  *
  * ## The `href`, derived and then CHECKED
  *

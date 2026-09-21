@@ -1,5 +1,5 @@
 /**
- * `stem-head-marker-chop` (batch 6b, spec
+ * `stem-head-marker-chop` (spec
  * `docs/specs/2026-08-28-structural-repairs-design.md` §3) — and the
  * FIRST rule to run in the `structural-repairs` phase, which stood
  * wired-but-empty from Phase 1 until this batch.
@@ -37,7 +37,7 @@
  * `removes`. Leaving it would end 18 definitions in whitespace and so
  * hand `trailing-whitespace-definition` (10, still `PENDING`) 18 new
  * members — a rule growing a sibling row's population is the failure
- * batch 3b found by hand, and the reason this rule states its deletion
+ * found by hand, and the reason this rule states its deletion
  * instead of tidying quietly.
  *
  * ## The refusal, and it is the point of the row

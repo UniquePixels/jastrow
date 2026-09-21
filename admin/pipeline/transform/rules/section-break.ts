@@ -1,6 +1,5 @@
 /**
- * `section-break-terminator-loss` (batch 7,
- * `docs/archive/transform-batch-7.md` §6) — **the only rule in this registry
+ * `section-break-terminator-loss` (`docs/archive/transform-batch-7.md` §6) — **the only rule in this registry
  * that MINTS a byte into the text**, and the reason its `allows` is a
  * maintainer ruling rather than a convenience.
  *
@@ -35,7 +34,7 @@
  *
  * ## What it writes, and why one codepoint is the whole ruling
  *
- * `allows: ['.']` — Brian's ruling 2026-08-29. The rule inserts exactly
+ * `allows: ['.']`. The rule inserts exactly
  * one period per member, immediately before the em dash, and nothing
  * else. `allows` licenses that codepoint across the rule's whole diff,
  * which is the blast radius `no-new-text.ts` documents; it is
@@ -105,7 +104,7 @@ function restoreStops(
 		// must become `<i>hill</i>.` and not `<i>hill.</i>`: the second is
 		// a fresh member of `italic-swallowed-terminal-period` (1,331,
 		// registered), so writing it would have a rule MANUFACTURE
-		// population for a sibling row. That is the failure batch 3b found
+		// population for a sibling row. That is the failure found
 		// by hand and `stem-head.ts` names in its own deletion note.
 		return `${groups.pre}${groups.tags}${STOP}${groups.head}`;
 	});

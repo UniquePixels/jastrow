@@ -5,8 +5,8 @@ import { stripTags } from '../no-new-text.ts';
 import type { Rule, TransformResult } from '../types.ts';
 
 /**
- * `italic-swallows-close-paren` (Task 6) — 8 genuine of 10 raw
- * occurrences / 10 entries, and the ONE row of batch 3b's four
+ * `italic-swallows-close-paren`  — 8 genuine of 10 raw
+ * occurrences / 10 entries, and the ONE row of the seam batch's four
  * escalation rows that turned out repairable.
  *
  * An italic run swallows the closing paren of a parenthetical opened
@@ -40,7 +40,7 @@ import type { Rule, TransformResult } from '../types.ts';
  * ## Where the defect count lives, and why "text unchanged" is the
  * POINT here rather than the failure
  *
- * Under the ruling of 2026-08-25 (Brian) a repair for a rendered harm
+ * Under the rendered-harm ruling a repair
  * must fix the rendered text, and three rules on this branch shipped
  * green while repairing nothing a reader could see. Read carelessly,
  * "this rule leaves the text byte-identical" is a confession of
@@ -48,7 +48,7 @@ import type { Rule, TransformResult } from '../types.ts';
  * explicit about, because a reviewer who conflates the two will
  * reject this rule for the wrong reason.
  *
- * Task 4's em-dash rule was a TEXT repair whose text output did not
+ * The em-dash rule is a TEXT repair whose text output did not
  * change: it claimed to close a seam a reader could see, fired 278
  * times, and left the rendered output identical — the claim and the
  * effect disagreed. This row's harm was never in the characters. Its
@@ -63,9 +63,8 @@ import type { Rule, TransformResult } from '../types.ts';
  * So the defect count is measured where the defect lives, on the
  * MARKUP: italic runs holding a surplus `)` go **10 → 2** corpus-wide
  * (the 2 survivors being the convention members below) and the
- * shipped population goes **8 → 0** — measured on the 2026-07-04
- * export by a corpus check retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`), which asserted that as a
+ * shipped population goes **8 → 0** — measured on the
+ * export by a retired corpus check, which asserted that as a
  * DELTA, never as an invariant, and paired the text-equality assertion
  * with `touched.toHaveLength(8)` so a no-op could not satisfy both —
  * the equality is there to discriminate this construction from the
@@ -190,7 +189,7 @@ interface Segment {
  * tokenizer's own reading, which every gate shares — and text is the
  * runs between them. This replaced a local scanner with `<[^>]*>`
  * semantics (itself a linear-time replacement for the quadratic
- * `/<[^>]*>|[^<]+/gu`, `typescript:S8786`, PR #49). That reading
+ * `/<[^>]*>|[^<]+/gu`, `typescript:S8786`). That reading
  * ended a tag at the first `>` even inside a quoted attribute value,
  * so a `)` later in the same value counted at depth 0 and
  * `moveParenOut` wrote `</i>)<i>` into the attribute — the one shape

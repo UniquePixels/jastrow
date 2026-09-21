@@ -2,7 +2,7 @@
  * The entangled label pair (batch-3b spec §4) — two rules, one
  * predicate, opposite polarities.
  *
- * House style, ruled by Brian on 2026-08-21 after the round-4
+ * House style, ruled after the
  * reconciliation: a grammatical or abbreviation LABEL takes its
  * terminal period INSIDE the italic, an ordinary word-final gloss
  * takes it OUTSIDE. The two are exhaustive over `<i>…</i>.` and
@@ -23,7 +23,7 @@
  * do, and `checkMarkup` is a delta gate that permits pre-existing
  * damage through. The only thing that could see a mistake here was a
  * corpus-tier `stripTags` invariant, ORDER-sensitive where the gate is
- * a multiset. That check is retired in consolidation step 5; on a new
+ * a multiset. That check is retired; on a new
  * export this is a review-detector candidate (consolidation spec
  * §10), listed in `docs/v2/retired-corpus-checks.md`.
  *
@@ -96,8 +96,8 @@
  *
  * All 21 corpus occurrences are the live catalogue row
  * `italic-lone-punctuation`'s own population (29 occurrences,
- * `. x21, ? x5, ; x2`), which batch 3b Task 4 ships. Claiming them
- * here would put two rules on one population — the failure batch 3a
+ * `. x21, ? x5, ; x2`), which `punct-seams.ts` ships. Claiming them
+ * here would put two rules on one population — the failure the gershayim work
  * was built to prevent — and destroy the other row's evidence on the
  * way past.
  *
@@ -172,8 +172,7 @@ function moveOutside(text: string): string {
  * there is nothing to declare — and, for the same reason, nothing for
  * `checkNoNewText` to see. A corpus-tier `stripTags` invariant was the
  * only gate that could, and was part of the rule rather than a check
- * on it; that check is retired in consolidation step 5, listed in
- * `docs/v2/retired-corpus-checks.md`. */
+ * on it; that check is retired. */
 function build(id: string, move: (text: string) => string): Rule {
 	return {
 		apply(entry: SourceEntry): TransformResult {

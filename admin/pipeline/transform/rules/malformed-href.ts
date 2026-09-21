@@ -1,5 +1,5 @@
 /**
- * `unterminated-href-swallows-closing-tag` (batch-4 task 5).
+ * `unterminated-href-swallows-closing-tag` .
  *
  * Two anchors in the corpus — D00478 and J00597, and no others — open
  * an `href` quote they never close. The `</a>` that should have
@@ -25,26 +25,13 @@
  * the wrong side of every rule that edits an anchor this one frees),
  * so ordering within the phase is the only thing that sequences it.
  *
- * CORRECTED 2026-08-26 (batch 4 task 7). This read "TASK 7 MUST PLACE
- * THIS RULE FIRST", and task 7 did not: **this rule is deliberately
- * NOT registered.** Nothing about the placement argument changed — it
- * still runs first on the day it runs — but the day is not today.
- * `checkLinkTargets` refuses D00478 (see the BLOCKING FINDING section
- * below), `run.ts` throws on a gate problem, and registering it would
- * halt the migration on the first pass over that entry rather than
- * repair anything. The row stays in `PENDING`, this module stays on
- * the branch with its tests green, and the gate ruling is its own PR
- * (Brian, 2026-08-26) — folded together with
- * `tosefta-variant-chapter-halakha-loss`, which is blocked on the same
- * kind of refusal in the same gate.
- *
- * CORRECTED 2026-08-27 (fix/link-target-gate-cases). The day came.
- * `link-target.ts` case 6 licenses the D00478 repair from the tag's
- * own damaged bytes, this rule DECLARES the pair through
- * `TransformResult.restored`, and it is registered FIRST in `RULES` on
- * the argument the section above makes and has always made. The
- * paragraph above is kept because it records what a deferral looked
- * like from the inside; it no longer describes this module.
+ * `link-target.ts` case 6 is what makes that possible: it licenses
+ * the D00478 repair from the tag's own damaged bytes, and this rule
+ * DECLARES the pair through `TransformResult.restored`. Without case
+ * 6 the gate refuses D00478 (see the BLOCKING FINDING section below)
+ * and `run.ts` throws, so registering the rule would halt the
+ * migration on the first pass over that entry rather than repair
+ * anything.
  *
  * ## Two shapes, one defect
  *
@@ -92,7 +79,7 @@
  * - **It does not touch J00597's duplicated run.** That definition
  *   repeats a long passage almost verbatim; that is
  *   `adjacent-verbatim-repetition` / `duplicated-definition-opening-run`,
- *   both declined from batch 4 by the scope ruling of 2026-08-26.
+ *   both declined by the scope ruling.
  *
  * ## The population is two, pinned by IDENTITY
  *
@@ -103,41 +90,28 @@
  *
  * ## The link-target gate licenses D00478 under case 6 — measured, not assumed
  *
- * CORRECTED 2026-08-27 (fix/link-target-gate-cases): this section read
- * "**The link-target gate does NOT license D00478 — measured, not
- * assumed**", and said of the five cases then in force:
+ * CASES 1-5 CANNOT LICENSE THIS REPAIR, and that is why case 6
+ * exists. `link-target.ts` builds its input target set from the
+ * input's PARSED anchors, and the whole nature of this defect is that
+ * the damaged tag's attributes do not parse: D00478's malformed
+ * anchor reads `href: ''`, `data-ref: ''`. So `/Jastrow,_כָּלוּל.1` and
+ * `Jastrow, כָּלוּל 1` — present in the input as raw BYTES, inside the
+ * damaged tag and in the text token behind it — are absent from the
+ * set cases 1 and 2 test membership against, and the repair reads as
+ * a fabrication. Cases 3 and 4 cannot rescue it: the nearest input
+ * target is `Jastrow, כָּלָה 1`, whose common prefix leaves a remainder
+ * (`וּל 1`) holding a space and a `1` that the anchor's display
+ * (`כָּלוּל`) does not, and no input target ends in that remainder.
+ * Case 5 is gershayim-only. `malformed-href.test.ts` PINS the gate's
+ * verdict on both entries, so the gap is a recorded measurement
+ * rather than a surprise at registration time.
  *
- * > `link-target.ts` builds its input target set from the input's
- * > PARSED anchors, and the whole nature of this defect is that the
- * > damaged tag's attributes do not parse: D00478's malformed anchor
- * > reads `href: ''`, `data-ref: ''`. So `/Jastrow,_כָּלוּל.1` and
- * > `Jastrow, כָּלוּל 1` — which are present in the input as raw BYTES,
- * > inside the damaged tag and in the text token behind it — are
- * > absent from the set case 1/2 tests membership against, and the
- * > repair is reported as a fabrication. Cases 3 and 4 cannot rescue
- * > it either: the nearest input target is `Jastrow, כָּלָה 1`, whose
- * > common prefix leaves a remainder (`וּל 1`) holding a space and a `1`
- * > that the anchor's display (`כָּלוּל`) does not, and no input target
- * > ends in that remainder. Case 5 is gershayim-only. This rule
- * > therefore DECLARES NOTHING — a false claim would be worse than an
- * > honest failure — and `malformed-href.test.ts` PINS the gate's
- * > verdict on both entries so the gap is a recorded measurement
- * > rather than a surprise at registration time.
- *
- * Every measurement in it still holds of cases 1-5, and it is quoted
- * rather than deleted because it is the reason case 6 exists. Its last
- * paragraph — "structurally the same gap case 5 was invented to close
- * … closing it needs a gate case, which is a maintainer ruling and not
- * this task's to make" — was answered by Brian on 2026-08-27 and built
- * as **case 6**, spec docs/specs/2026-08-27-link-target-gate-cases.md
- * §2.
- *
- * What changed is one clause of the gate, not one byte of the repair.
+ * Case 6 changes one clause of the gate, not one byte of the repair.
  * Case 6 reads RAW FIELD BYTES rather than parsed targets: the rule
  * declares `{ field, offset, removed: '</a>', written: <the tag it
  * emitted> }`, and the gate re-inserts the run and requires the result
  * to be a byte-exact substring of a field in this entry's own input at
- * exactly one insertion offset — and, since 2026-08-27, to sit at the
+ * exactly one insertion offset — and, now, to sit at the
  * DECLARED offset of the DECLARED field, which must be the input
  * counterpart of the field the repaired anchor came out of. On D00478
  * that insertion offset is 54 and there is no other, so every

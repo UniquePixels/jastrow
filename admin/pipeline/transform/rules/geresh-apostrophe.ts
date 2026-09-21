@@ -2,7 +2,7 @@
  * `geresh-apostrophe-as-gershayim` — a geresh followed by an ASCII
  * apostrophe standing where print sets a single `״`.
  *
- * Found by the residue sweep (batch 04, A02072's `Y. Sabb.` quotation)
+ * Found by the residue sweep (A02072's `Y. Sabb.` quotation)
  * and re-measured here rather than taken from the report.
  *
  * ## The third arm of the gershayim family, and the first that is not
@@ -49,7 +49,7 @@
  *
  * ## Why `allows: ['״']` is safe here
  *
- * The same OCR ruling of 2026-08-11 the gershayim pair cites: a
+ * The same OCR ruling the gershayim pair cites: a
  * mis-recognized glyph never was the source's content, so correcting
  * it is correction and not composition.
  *
@@ -127,7 +127,7 @@ const TOKEN_CHAR = new RegExp(`[${HEBREW}̇]`, 'u');
  * the match's own position — never off the field this rule hands
  * back, and never by re-scanning for `GERSHAYIM` after the fact.
  *
- * That distinction is the fix for CodeRabbit PR #71 comment
+ * That distinction matters because
  * 3951117393: `applyTransforms` feeds each rule the previous rule's
  * output, `gershayimInBody` runs earlier in the same `text-repairs`
  * phase and routinely leaves `״` behind it, and a field this rule
@@ -188,7 +188,7 @@ function recordFor(
 }
 
 const gereshApostropheGershayim: Rule = {
-	// The OCR ruling of 2026-08-11: this call writes a `״` only where it
+	// The OCR ruling: this call writes a `״` only where it
 	// removed a `׳'`, and that is what the allowance covers — what this
 	// call ADDS, not every `״` in the output. `gershayimInBody` runs
 	// earlier in the same phase and its gershayim arrive in this rule's

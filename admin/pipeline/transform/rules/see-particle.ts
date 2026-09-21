@@ -1,5 +1,5 @@
 /**
- * `see-particle-lost` (batch 8, `docs/archive/transform-batch-8.md` §3) — the
+ * `see-particle-lost` (`docs/archive/transform-batch-8.md` §3) — the
  * second rule in the registry to MINT text, and the first to mint a
  * word rather than a codepoint.
  *
@@ -90,7 +90,7 @@ const PARTICLE = 'v.';
  * backtracking sites — `[ \t]+` and `[^<]*` can each take a space from a
  * run, and so can the two `[ \t]*` around the optional period — so a
  * long non-matching input costs quadratic time in each. SonarCloud
- * `typescript:S8786` flagged it on PR #58. The fix is not a cap or a
+ * `typescript:S8786` flags it. The fix is not a cap or a
  * timeout: `,` is outside `[ \t]`, `<` is outside `[^<]`, and the period
  * now sits INSIDE its own optional group, so at every position exactly
  * one branch can match and there is nothing to backtrack over.
@@ -103,8 +103,7 @@ const STUB =
  * not stub-shaped at all.
  *
  * ONE PREDICATE, TWO CALLERS. The rule reads it to decide whether to
- * repair; a corpus check, retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`), read it to census the 7,270
+ * repair; a corpus check, retired, read it to census the 7,270
  * filled slots and the 4 empty ones. Two copies would let the gate
  * count a population the rule does not act on — which is exactly what
  * the required separating space below would have caused. */
@@ -160,7 +159,7 @@ function isWholeEntryStub(senses: readonly SourceSense[]): boolean {
 }
 
 const seeParticleRestore: Rule = {
-	// THE RULING (Brian, 2026-08-30). See the header: a null model of
+	// THE RULING. See the header: a null model of
 	// 7,270 populated slots against 4 empty ones, with a vocabulary of a
 	// dozen distinct particles that was retained everywhere else.
 	allows: ['v', '.', ' '],

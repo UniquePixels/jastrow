@@ -1,5 +1,5 @@
 /**
- * `stranded-stem-head` (batch 6c, spec
+ * `stranded-stem-head` (spec
  * `docs/specs/2026-08-29-stranded-stem-head-design.md`) — the second
  * rule to run in the `structural-repairs` phase, and the first to
  * create a grammar block rather than move a field.
@@ -14,7 +14,7 @@
  * entries hold no `verbal_stem` anywhere at all**, so `buildStem`
  * builds nothing and `stems[]` is absent from the body.
  *
- * `empty-stem-section` (`judgment`, batch 6b) is the same print
+ * `empty-stem-section` (`judgment`) is the same print
  * phenomenon seen from the other side — there the label got a block
  * and the gloss went to the sibling. Neither row reads without the
  * other.
@@ -33,7 +33,7 @@
  * population from 360 to 562 in a single step; `italic-swallowed-
  * terminal-period` then returns one. `applyRepairs` alone changes
  * nothing (360 → 360). A predicate about what is INSIDE an italic run
- * therefore cannot be measured before that rule has run — batch 6a's
+ * therefore cannot be measured before that rule has run — the
  * lesson in its sharpest form.
  *
  * ## What this rule repairs, and what it refuses
@@ -121,9 +121,9 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 /**
  * The stem labels, taken from the corpus's own `verbal_stem` field
  * rather than invented: the 70 distinct values it holds, minus the 19
- * that batch 6b enumerated as not binyan names (`NOT_A_BINYAN`,
- * measured on the 2026-07-04 export by a corpus check retired in
- * consolidation step 5, `docs/v2/retired-corpus-checks.md`), minus the
+ * enumerated as not binyan names (`NOT_A_BINYAN`,
+ * measured on the export by a corpus check retired in
+ * a retired corpus check), minus the
  * six multi-label values (`"Hithpa. a.
  * Nithpa."` and kin), whose heads are a different shape. 45 remain.
  *

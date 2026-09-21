@@ -4,7 +4,7 @@
  *
  * ## Why `copied: [' ']` and never `allows: [' ']`
  *
- * Ruling R2, Brian, 2026-08-25. `Rule.allows` is a SET, not a budget:
+ * Ruling R2. `Rule.allows` is a SET, not a budget:
  * `no-new-text.ts:181` builds `new Set(rule.allows.flatMap(…))` and a
  * codepoint in it is exempted from the count comparison entirely. So
  * `allows: [' ']` would license these rules to insert ANY number of
@@ -57,7 +57,7 @@
  * no character with either of the above and needs no resolution.
  *
  * ## The run that opens with punctuation — 13 seams both rules must
- * DECLINE, found by Task 7's composed run
+ * DECLINE, found by a composed run
  *
  * `anchorItalicSpace` and `parenTagSpace` shipped without this
  * decline, and both MANUFACTURED a rendered defect with it missing.

@@ -8,9 +8,9 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * anchor resolved its geresh abbreviation as a standalone lookup and
  * landed on an unrelated lemma.
  *
- * Batch 9, spec `docs/specs/2026-08-31-link-target-gate-case-8.md`,
+ * Spec `docs/specs/2026-08-31-link-target-gate-case-8.md`,
  * audit `docs/archive/catalogue-audit/v-sub-redirect-stub.md`. It is
- * the ONLY rule batch 9 ships; the other seven citation-linking rows
+ * the ONLY citation-linking rule that ships; the other seven rows
  * withdrew to `judgment`, because the transform route can repair a
  * wrong anchor but cannot build a right one.
  *
@@ -169,7 +169,7 @@ function hrefFor(headword: string): string {
  * review caught all three; SonarCloud then flagged two of the regexes
  * as super-linear (`S8786`). Both problems had one answer, which was
  * already in the tree. Prefer the pipeline's own parser over a regex —
- * the same ruling batch 8 recorded for `stripTags`.
+ * the same ruling recorded for `stripTags`.
  *
  * Fail-closed on anything other than exactly one carrier: a definition
  * reshaped by an earlier rule, or one holding the target twice, is

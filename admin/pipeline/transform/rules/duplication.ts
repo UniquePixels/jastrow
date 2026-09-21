@@ -1,5 +1,5 @@
 /**
- * The two duplication rules of batch 7 (`docs/archive/transform-batch-7.md`
+ * The two duplication rules (`docs/archive/transform-batch-7.md`
  * §3, §11), kept in one file because **their disjointness is the thing
  * that defines them** and it is easier to keep true side by side than
  * across two.
@@ -39,7 +39,7 @@
  *
  * ## What they delete, and what that costs them
  *
- * Both run in `structural-repairs` (Brian's ruling 2026-08-29) so the
+ * Both run in `structural-repairs` so the
  * loss gate judges them PER CALL, rather than in `text-repairs` where
  * they would be defended only by a pinned total.
  *
@@ -49,8 +49,7 @@
  * and called it larger — comparing a raw figure to a stripped one. On the
  * baseline's own basis (`textOf`, tags stripped) these two delete **2,738**,
  * well under either figure. Both figures were pinned by
- * corpus checks retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`).
+ * corpus checks retired.
  *
  * Both also REMOVE ANCHORS, because a duplicated run can contain one:
  * 26 of the 88 opening runs hold 30 anchors between them, and 9 of the
@@ -65,7 +64,7 @@ import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { stripTags } from '../no-new-text.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
-/** Minimum opening run, ruled at batch 7. `k = 4` reproduces the
+/** Minimum opening run. `k = 4` reproduces the
  * catalogued 85 entries exactly (88 occurrences), which is the only
  * evidence there is for what the round-3 detector did — the row records
  * no predicate. Uncapped the thresholds run 2 → 98 entries, 3 → 90,
@@ -227,7 +226,7 @@ function applyDeletion(
 		entry: { ...entry, content: { ...entry.content, senses } },
 		records: out.records,
 		// One declared string per deletion. The gate credits `removes` as
-		// ONE SHARED BUDGET (batch 6b's fix), so a rule that deleted two
+		// ONE SHARED BUDGET, so a rule that deleted two
 		// copies while declaring one still fails.
 		removes: out.deletions.map((d) => d.removed),
 		...(unlinks === 0 ? {} : { unlinks }),

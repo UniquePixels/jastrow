@@ -4,11 +4,10 @@
  *
  * The first rule in the registry to CREATE an anchor. It is licensed
  * by link-target gate case 10
- * (`docs/specs/2026-09-06-link-target-gate-case-10.md`), ruled in by
- * Brian on 2026-09-06 on the precedent that the 2026-08-05 body review
- * approved wrapping unlinked ibid citations
- * (`docs/archive/body-review/02-orphan-refs.md` class 2, "ALL Approved").
- * The "show only what Jastrow linked" principle was written in that
+ * (`docs/specs/2026-09-06-link-target-gate-case-10.md`), on the
+ * precedent that the body review approved wrapping unlinked ibid
+ * citations (`docs/archive/body-review/02-orphan-refs.md` class 2).
+ * The "show only what Jastrow linked" principle belongs to that
  * review's class 3, about refs with no in-body basis.
  *
  * ## What it does, in one line

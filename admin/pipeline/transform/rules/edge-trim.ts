@@ -14,7 +14,7 @@
  * The row's `description` states the harm in the RENDERED text —
  * "space captured inside an italic run's boundary (`<i>␣` or `␣</i>`),
  * rendering a doubled space in extracted text" — and under the ruling
- * of 2026-08-25 (Brian) a repair for a rendered harm must fix the
+ * a repair for a rendered harm must fix the
  * rendered text. A pure MOVE across the tag boundary does not: the
  * doubling is a property of the two spaces' rendered adjacency, and
  * moving one of them from one side of a tag to the other leaves them
@@ -78,7 +78,7 @@
  * `italic-lone-punctuation`'s `<i>.</i>` carries no space at either
  * edge. Neither pattern here can reach one.
  *
- * ORDERING, for Task 7. Four seam rules in `seam-space.ts` INSERT the
+ * ORDERING. Four seam rules in `seam-space.ts` INSERT the
  * space this rule normalises, at shapes this rule also matches: 37
  * leading-edge occurrences follow `)` or `)</a>` (`paren-tag-no-space`),
  * 4 follow `</a>` (`anchor-italic-no-space`), and 12 trailing-edge
@@ -91,7 +91,7 @@
  * occurrences read `<i>gloss.␣</i>`, whose period is hidden from that
  * row by the captured space, and this rule uncovers it. See
  * `edge-trim.test.ts` and task-5-report.md for the measured figure
- * Task 7 needs.
+ * the seam rules need.
  *
  * ## `trailingWhitespaceDefinition` — the position filter IS the rule
  *
@@ -135,7 +135,7 @@
  * The standing check for this row: no other catalogued row claims
  * trailing whitespace on `definition`. `binyan-form-leading-space`
  * (523 occ / 457 ent) was `grammar.binyan_form` — a different field,
- * and the opposite edge — and it is `discarded` since batch 6a, since
+ * and the opposite edge — and it is `discarded`, since
  * `repairs.ts`'s `cleanBinyanForms` already trims that field upstream
  * of every rule here. So the check now holds for a second reason: no
  * ACTIVE catalogued row claims whitespace on ANY field but this one —
@@ -231,7 +231,7 @@ function strippable(text: string | undefined): text is string {
  * forbids in capital letters — 2,352 entries, gloss heads welded onto
  * their sense labels. Both figures, and the widen-to-any-sense 2,340
  * that reconciles with them, were pinned by a corpus check retired in
- * consolidation step 5 (`docs/v2/retired-corpus-checks.md`); see the
+ * a retired corpus check; see the
  * module doc for why each is what it is.
  *
  * Returns `changed: false` for a missing sense or one the filter

@@ -1,15 +1,14 @@
 /**
- * `continuation-marker-em-dash-loss` (batch 7,
- * `docs/archive/transform-batch-7.md` §4, §16) — shipped for its
- * HIGH-CONFIDENCE CORE only, on Brian's ruling 2026-08-29.
+ * `continuation-marker-em-dash-loss` (`docs/archive/transform-batch-7.md` §4, §16) — shipped for its
+ * HIGH-CONFIDENCE CORE only.
  *
  * ## The row, and why it could not ship whole
  *
  * Jastrow writes a continuation sense marker as `—N)`. Some carry no
  * dash. The row is catalogued at 71, and **its own audit already
- * records the residue as unsettled between 19 and 44** — round 2
- * reconstructed 45/26/19, the `stranded-open-bracket` audit 73/29/44.
- * A third reconstruction here lands inside that band and settles
+ * records the residue as unsettled between 19 and 44** — one
+ * reconstruction gives 45/26/19, the `stranded-open-bracket` audit
+ * 73/29/44. A third reconstruction lands inside that band and settles
  * nothing on its own.
  *
  * Over all 32,512 entries the dashless continuation markers decompose
@@ -28,8 +27,7 @@
  *
  * "After" is the whole `structural-repairs` phase with this rule held
  * out, which is what this rule actually receives, measured on the
- * 2026-07-04 export by a corpus check retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`). **The first arm
+ * export by a retired corpus check. **The first arm
  * collapses because this same batch repaired it**:
  * `strandedDashStarMarker` and `stemHeadMarkerChop` rejoined 101 of the
  * 109. This row's own population is unaffected either way.
