@@ -161,6 +161,14 @@ neither was caught until the recount:
 Draft: **keep blocking.** Each turns on a T6 limb that the recount
 confirms is still present in the committed tree.
 
+**Ruled 2026-09-21** (post-consolidation review §10, decision 2): all
+five keep `blocking: true` as a CUTOVER flag, and all five are `defer`
+for *publication* — none moves a URL, and under the URL names spec
+nothing does. `docs/v2/review-report.md` now names them in its
+"Catalogued, not yet detected" section with these counts, because none
+of them has a detector on the import path to emit a row; the detectors
+are consolidation spec §10 work.
+
 | Class | Cat. | Now | Predicate | T6 limb |
 |---|---|---|---|---|
 | `empty-stem-section` | 342 | **342** | a `stems[]` element whose `senses` carry no text at all | both: an empty binyan heading renders blank, and the element is written into 342 committed files (e.g. `A00338`, `{"stem":"Ithpa.","senses":[]}`) |

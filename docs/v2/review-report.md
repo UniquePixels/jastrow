@@ -2574,6 +2574,8 @@ Retiring kinds: `slug-alias-new`, `slug-bare-held`, `slug-changed`, `slug-frozen
 
 No detector for these classes runs on the import path, so they produce no rows above and are counted in neither `blocks` nor `defer`. Counts are the catalogue's own `corpusCount` in `data/patches/patterns.jsonl`, measured when the class was catalogued, not by this run. Detectors are pending — consolidation spec §10, "port judgment-class detectors".
 
+They are `defer` for publication: none moves a URL (post-consolidation review §10, decision 2). The catalogue keeps `blocking: true` on each — that flag gates the CUTOVER, which is a separate question from what a reader can correct after go-live.
+
 **What to do:** write the detector, then let the rows it emits be triaged here like any other kind.
 
 - empty-stem-section — 342 entries — defer
