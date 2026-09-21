@@ -115,7 +115,7 @@ What a run reports for each patch:
 | Term | Meaning |
 |---|---|
 | **rid** | Sefaria's permanent id for an entry (e.g. `A00077`); the entry's identity and print-order spine |
-| **slug** | the entry's URL address, assigned once at import and then frozen; unique |
+| **slug** | the entry's URL address today: the headword stripped of points, numbered on collision. Being replaced by a **name** built from the current headword ([URL names spec](specs/2026-09-21-url-names-design.md)) |
 | **headword** | the word an entry is filed under, stored as a form object: `text`, plus optional `homograph`, `disambiguator`, `reconstructed` |
 | **homograph** | Jastrow's printed Roman numeral separating same-spelled headwords |
 | **disambiguator** | a superscript number Sefaria added to tell same-spelled headwords apart |

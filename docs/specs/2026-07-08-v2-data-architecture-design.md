@@ -236,6 +236,9 @@ violation).
 - rid = permanent internal address. The data layer (internal
   `<cite ref>`) speaks only rids. `/A00015` permalinks work forever
   (redirect).
+- *Superseded 2026-09-21 by the [URL names spec](2026-09-21-url-names-design.md):
+  the slug and its numbering are replaced by a name built from the
+  current headword; the bare-word route survives there as §3.1.*
 - slug = human address, **stored in entry data and frozen** (URLs are
   promises; a compile-derived slug could renumber on insertion and
   break shared links). Assigned once by import: niqqud-stripped

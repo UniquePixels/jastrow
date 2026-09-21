@@ -1,5 +1,10 @@
 # URL routes — future enhancements
 
+> **Superseded 2026-09-21.** Both routes below are folded into the
+> [URL names spec](../specs/2026-09-21-url-names-design.md): Sefaria
+> compatibility is its §3.3, bare-stem landing its §3.1. Kept for the
+> measurements it records.
+
 Not built. This records the shape of two routes the slug index makes
 cheap, so the decision is not re-derived later. The slug design itself
 is [consolidation spec §7](../specs/2026-09-13-pipeline-consolidation-design.md).

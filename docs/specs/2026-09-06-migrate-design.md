@@ -120,6 +120,9 @@ A six-row table over `transform/html.ts` tokens. The corpus inventory
 
 ### 2.4 Slug
 
+*Superseded 2026-09-21 by the [URL names spec](2026-09-21-url-names-design.md):
+import stops writing `slug` and writes `sefariaHeadword` instead.*
+
 Niqqud and marks stripped from `headword.text`. A stem unique across
 the corpus gets the bare slug. A colliding stem gives every member
 `stem-N`, N counted in rid order from 1, and the bare slug is reserved
