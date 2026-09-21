@@ -23,7 +23,9 @@ which supersedes the one-shot framing of D14 in the
 Import and compile are specified in the
 [data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
 (§6) and the [pipeline consolidation design](../../docs/specs/2026-09-13-pipeline-consolidation-design.md)
-(§3). One-time examinations of the v1 data — important record, but
+(§3). Every ruling behind either of them, with what it drops, is
+indexed in [`docs/decisions.md`](../../docs/decisions.md).
+One-time examinations of the v1 data — important record, but
 **not** steps in this path — were archived with the rest of the
 research code at `refs/tags/archive/v2-research-2026-09` (consolidation
 spec §8).

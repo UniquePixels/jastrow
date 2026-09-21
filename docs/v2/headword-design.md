@@ -1,6 +1,6 @@
 # Headword design — proposal, decisions and open questions
 
-**Status: proposed, not final.** Worked through with Brian 2026-09-18–20,
+**Status: §2 shape RULED 2026-09-21 (see the block at the top of §2); the rest proposed.** Worked through with Brian 2026-09-18–20,
 walking every shape in [headword-issues.md](headword-issues.md).
 **All 16 shapes are now settled**; nothing here is implemented yet.
 Open work is tracked in issues #102–#111 and in the patch queue (§4.1).
@@ -24,6 +24,45 @@ keeps the notation inside the lookup key or deletes it:
 | `שִׁיף m., שִׁיפָה f.` | `morphology: "f."`, alts `["שִׁיפָ", "ה"]` | `m.` lost; one form torn in two |
 
 ## 2. Structure
+
+> **RULING (Brian, 2026-09-21).** Entry data adopts this section's
+> shape **now**, before `compile.ts` is written: `headwords[]` (index 0
+> primary) replaces `headword` / `altHeadwords`; `display` is a
+> template and is **optional** (unset = flagged, never defaulted; 7
+> rows today: the 6 H2 rows and A01394); `partial` and per-form
+> `gender` are form fields; the §3.1 rules are enforced in
+> `validate.ts`; every file carries `"schemaVersion": 2`. The
+> `sefariaHeadword` field from the URL-names spec §5.1 lands in the
+> same rewrite.
+>
+> **What it costs:** one new parser (whole headword line → forms +
+> `display` + `partial`; 26,815 entries are trivial, 5,697 carry
+> notation); gate 2 `headwordRoundTrip` is redefined (byte regeneration
+> of Sefaria's split strings is impossible once parentheses live in
+> `display`) as text conservation plus a notation multiset;
+> `parenthesized-alt-headword` and `phrase-alt-headword-stub` are
+> unregistered (post-consolidation review §10 Q10 resolves with this),
+> which moves the `transform:invariants` baselines; the corpus-tier
+> blessing is re-run; the `reform` patch payload becomes forms +
+> `display`; ~11 test files change. The full-tree rewrite is not a
+> cost of this ruling — `sefariaHeadword` and `schemaVersion` already
+> touch all 32,512 files under any option.
+>
+> **What it drops:** ~2,474 abbreviated alternates (20.2% of 11,080)
+> stop being search keys; 1,393 entries have no alternate key until the
+> print work in #107. The 227 alternates the stub rule expanded revert
+> to their printed form.
+>
+> **What it defers:** filling the 23 lost-gender pairs (§5) is print
+> work, now expressible; expansion of partials (#106, #107); the 580
+> parenthesis placements (§5) are recorded as the source shows them.
+>
+> **Rejected:** freezing today's shape under `schemaVersion: 1` (makes
+> compile's emit stage disposable, and no field can hold `partial`,
+> grouping or a second gender label); adopting the fields additively on
+> the old names (saves only a rename, costs a permanent `{0}` =
+> `headword` / `{n}` = `altHeadwords[n-1]` off-by-one and a second
+> migration).
 
 ```json
 "headwords": [
@@ -198,10 +237,6 @@ Not yet enumerated as rows in `headword-issues.md`:
 
 ## 7. Next
 
-A full audit of earlier rulings. The parenthesis ruling above was taken
-when its cost (losing which forms were bracketed) was not stated, and it
-is unlikely to be the only one. Rulings are recorded in three different
-formats — lettered (`Ruling C`–`F` in `admin/pipeline/patch/apply.ts`),
-dated (`RULING (Brian, 2026-08-27)` in rule modules and specs), and
-informal notes in plans — so the audit starts by listing them with what
-each one decided **and what it drops**.
+That audit is done: every ruling on this project, with what it drops,
+is indexed in [`docs/decisions.md`](../decisions.md) — §3 to §5 above
+are its `HW-*` rows.
