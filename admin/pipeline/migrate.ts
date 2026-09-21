@@ -26,6 +26,7 @@ import {
 	checkQuarantine,
 	loadQuarantine,
 } from './migrate/cite.ts';
+import { detectClasses } from './migrate/detectors/classes.ts';
 import { finishEntry } from './migrate/finish.ts';
 import {
 	checkChain,
@@ -500,6 +501,11 @@ function finishAll(
 			// failure or a legitimate multi-word one.
 			...finished.headwordReview.map((r) => lineRow(r.line, r.kind)),
 			...finished.markupCarries.map((line) => lineRow(line, 'markup-carry')),
+			// Catalogued classes, read off the FINISHED entry: these
+			// predicates are written against the truth shape, not the
+			// snapshot's, so they must run after the transforms and the
+			// markup translation rather than beside them.
+			...detectClasses(finished.entry),
 			...finished.problems.map((line) =>
 				lineRow(line, 'finish-failed', 'pipeline', 'fault'),
 			),
@@ -717,8 +723,10 @@ async function main(): Promise<void> {
 	classifyRows(report);
 	await writeReport(report);
 	await Bun.write(BLESSING_PATH, `${renderBlessing(report, samples)}\n`);
-	// Read from the catalogue, not from the run: these classes have no
-	// detector, so no row of this report can stand for them.
+	// Read from the catalogue, not from the run: what comes back is
+	// what no registered detector can see, so no row of this report can
+	// stand for it. A class a detector answers is subtracted here and
+	// appears above as rows of its own kind.
 	const catalogued = await loadUndetectedClasses();
 	await Bun.write(
 		REVIEW_REPORT_PATH,

@@ -5,6 +5,7 @@
  *
  * The bar for `blocks` (maintainer, 2026-09-20): the reader sees a
  * defect that cannot be corrected in the admin tool after go-live. */
+import { CLASS_ACTIONS } from './detectors/classes.ts';
 import type { Publication, Report, ReportRow } from './report.ts';
 
 /** One kind's entry: where it lands in the report, and the one
@@ -15,7 +16,18 @@ interface KindRule {
 	publication: Publication;
 }
 
+/** The catalogued blocking classes `migrate/detectors/` detects, all
+ * `defer` and stated once rather than a row each: `blocking: true` in
+ * the catalogue gates the CUTOVER, while this table answers the
+ * separate question of what a reader can correct after go-live, and
+ * none of the five moves a URL (post-consolidation review §10,
+ * decision 2). Each detector carries its own action sentence. */
+const CLASS_KINDS: ReadonlyArray<readonly [string, KindRule]> = [
+	...CLASS_ACTIONS,
+].map(([kind, action]) => [kind, { action, publication: 'defer' }]);
+
 const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
+	...CLASS_KINDS,
 	[
 		// Split out of `headword-unparsed` 2026-09-21: `FORM` admits a
 		// space and `LEXICAL` does not, so every multi-word headword

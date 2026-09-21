@@ -7,9 +7,9 @@ Retiring kinds: `slug-alias-new`, `slug-bare-held`, `slug-changed`, `slug-frozen
 | Publication | Rows |
 |---|---|
 | blocks | 31 |
-| defer | 2204 |
+| defer | 2774 |
 | note | 278 |
-| catalogued, not yet detected | 0 rows (5 classes, 572 entries) |
+| catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
 ## Before publication (31)
 
@@ -54,7 +54,381 @@ Retiring kinds: `slug-alias-new`, `slug-bare-held`, `slug-changed`, `slug-frozen
 - A01175: אידרעא-=-אדרעא
 - A01345: אימנון-=-המנון
 
-## Deferred (2204)
+## Deferred (2774)
+
+### empty-stem-section (342)
+
+**What to do:** Nothing to correct in the data: the blank stem heading shares the gloss of the block after it, and presenting a run of senseless stems as one is a rendering change (Phase 4).
+
+- A00338: stems[1] "Ithpa." carries no sense text
+- A00481: stems[1] "Pi." carries no sense text
+- A00996: stems[2] "Ithpa." carries no sense text
+- A02427: stems[1] "Ithpa." carries no sense text
+- A02888: stems[0] "Pi." carries no sense text
+- A02889: stems[0] "Ithpa." carries no sense text
+- A03216: stems[0] "Ithpa." carries no sense text
+- B00179: stems[0] "Ithpa." carries no sense text
+- B00196: stems[0] "Pa." carries no sense text; stems[2] "Ithpa." carries no sense text
+- B00435: stems[1] "Ithpa." carries no sense text
+- B00459: stems[1] "Ithpa." carries no sense text
+- B00479: stems[0] "Pi." carries no sense text
+- B00917: stems[1] "Ithpa." carries no sense text
+- B01004: stems[1] "Ithpa." carries no sense text
+- C00050: stems[1] "Ithpa." carries no sense text
+- D00825: stems[0] "Pa." carries no sense text
+- C00259: stems[0] "Pi." carries no sense text
+- E00148: stems[2] "Ithpa." carries no sense text
+- C01321: stems[0] "Ithpa." carries no sense text
+- C01381: stems[0] "Pi." carries no sense text
+- C01403: stems[2] "Hithpa." carries no sense text
+- D00073: stems[1] "Ithpa." carries no sense text
+- D00076: stems[2] "Ithpa." carries no sense text
+- D00407: stems[1] "Ithpa." carries no sense text
+- C01079: stems[1] "Ithpa." carries no sense text
+- E00676: stems[1] "Ithpe." carries no sense text
+- E00741: stems[2] "Ithpa." carries no sense text
+- G00103: stems[1] "Ithpe." carries no sense text
+- G00105: stems[2] "Ithpe." carries no sense text
+- G00131: stems[1] "Ithpe." carries no sense text
+- G00456: stems[1] "Ithpa." carries no sense text
+- H00048: stems[0] "Ithpa." carries no sense text
+- H00107: stems[2] "Hithpa." carries no sense text
+- H01441: stems[2] "Ithpa." carries no sense text
+- H00217: stems[1] "Hithpa." carries no sense text
+- H00231: stems[1] "Hithpa." carries no sense text
+- H01577: stems[1] "Hithpa." carries no sense text
+- H01707: stems[1] "Hithpa." carries no sense text
+- H01715: stems[0] "Pa." carries no sense text
+- H00553: stems[3] "Hithpa." carries no sense text
+- H00554: stems[2] "Ithpa." carries no sense text
+- H00613: stems[1] "Hithpa." carries no sense text
+- H01739: stems[2] "Hithpa." carries no sense text
+- H01806: stems[1] "Hithpa." carries no sense text
+- H01807: stems[1] "Ithpa." carries no sense text
+- H01899: stems[1] "Nif." carries no sense text
+- H01902: stems[0] "Hithpa." carries no sense text
+- H01911: stems[0] "Ithpa." carries no sense text
+- I00525: stems[1] "Ithpa." carries no sense text
+- I00561: stems[1] "Ithpa." carries no sense text
+- I00562: stems[1] "Ithpa." carries no sense text
+- I00622: stems[0] "Ithpa." carries no sense text
+- I00661: stems[0] "Ithpa." carries no sense text
+- I00696: stems[0] "Ithpa." carries no sense text
+- H00936: stems[0] "Hithpa." carries no sense text
+- H00939: stems[1] "Hithpa." carries no sense text
+- H01021: stems[1] "Ithpa." carries no sense text
+- H01073: stems[5] "Hithpa." carries no sense text
+- H01098: stems[2] "Nif." carries no sense text
+- H01099: stems[2] "Ithpa." carries no sense text
+- H01112: stems[4] "Hithpa." carries no sense text
+- H01144: stems[2] "Hithpa." carries no sense text
+- H01145: stems[1] "Ithpa." carries no sense text
+- H01172: stems[2] "Ithpa." carries no sense text
+- G00526: stems[1] "Hof." carries no sense text
+- H01201: stems[4] "Hithpa." carries no sense text
+- H01202: stems[2] "Ithpa." carries no sense text
+- H01219: stems[0] "Pa." carries no sense text
+- G00589: stems[0] "Hithpalp." carries no sense text
+- H01239: stems[0] "Pa." carries no sense text
+- H01302: stems[1] "Pu." carries no sense text
+- G00642: stems[1] "Nif." carries no sense text
+- G00650: stems[1] "Ithpa." carries no sense text
+- G00655: stems[0] "Nif." carries no sense text
+- H01303: stems[0] "Pa." carries no sense text
+- H01336: stems[0] "Pa." carries no sense text
+- G00685: stems[1] "Hithpa." carries no sense text
+- G00686: stems[1] "Ithpa." carries no sense text
+- G00723: stems[0] "Ithpa." carries no sense text
+- H01396: stems[0] "Af." carries no sense text
+- H01397: stems[1] "Hithpa." carries no sense text
+- K00296: stems[2] "Hithpa." carries no sense text
+- K00676: stems[0] "Pi." carries no sense text
+- K00715: stems[1] "Hithpa." carries no sense text
+- K00759: stems[2] "Ithpa." carries no sense text
+- K00763: stems[1] "Ithpa." carries no sense text
+- K00817: stems[0] "Pi." carries no sense text
+- K00850: stems[1] "Ithpa." carries no sense text
+- K00860: stems[3] "Hithpa." carries no sense text
+- K00866: stems[0] "Ithpa." carries no sense text
+- K00872: stems[1] "Ithpa." carries no sense text
+- K00881: stems[2] "Ithpa." carries no sense text
+- K00915: stems[0] "Nif." carries no sense text
+- K00952: stems[1] "Ithpa." carries no sense text
+- K01046: stems[2] "Hithpa." carries no sense text
+- M01461: stems[1] "Hithpa." carries no sense text
+- M01571: stems[2] "Ithpa." carries no sense text
+- M01772: stems[4] "Hithpa." carries no sense text
+- M01773: stems[2] "Ithpa." carries no sense text
+- M01949: stems[0] "Ithpa." carries no sense text
+- I00860: stems[1] "Ithpa." carries no sense text
+- J00107: stems[2] "Ithpe." carries no sense text
+- J00114: stems[0] "Ithpa." carries no sense text
+- J00368: stems[2] "Ithpa." carries no sense text
+- J00704: stems[0] "Ithpa." carries no sense text
+- J00712: stems[2] "Ithpa." carries no sense text
+- K00030: stems[1] "Hithpa." carries no sense text
+- K00081: stems[3] "Hithpa." carries no sense text
+- K01325: stems[0] "Ithpa." carries no sense text
+- L00095: stems[1] "Hithpa." carries no sense text
+- L00247: stems[1] "Hithpa." carries no sense text
+- L00290: stems[0] "Nif." carries no sense text
+- L00553: stems[0] "Hithpa." carries no sense text
+- M02097: stems[2] "Nithpa." carries no sense text
+- M02121: stems[1] "Hithpa." carries no sense text
+- M02309: stems[1] "Ithpa." carries no sense text
+- M02630: stems[2] "Hithpa." carries no sense text
+- M02729: stems[2] "Ithpa." carries no sense text
+- M02761: stems[1] "Ithpa." carries no sense text
+- M02773: stems[2] "Hithpa." carries no sense text
+- M02905: stems[0] "Hithpa." carries no sense text
+- N00018: stems[1] "Nif." carries no sense text
+- N00071: stems[1] "Hithpa." carries no sense text
+- N00089: stems[1] "Hithpa." carries no sense text
+- N00116: stems[1] "Ithpe." carries no sense text
+- N00222: stems[1] "Hithpa." carries no sense text
+- N00380: stems[0] "Hithpalp." carries no sense text
+- N00454: stems[0] "Pi." carries no sense text
+- N00503: stems[1] "Nif." carries no sense text
+- N00534: stems[2] "Ithpe." carries no sense text
+- N00584: stems[1] "Ithpa." carries no sense text
+- N00591: stems[1] "Pu." carries no sense text
+- N00848: stems[2] "Hithpa." carries no sense text
+- O00893: stems[0] "Pa." carries no sense text; stems[2] "Ithpe." carries no sense text
+- O00909: stems[0] "Hithpa." carries no sense text
+- O00941: stems[1] "Ithpa." carries no sense text
+- O00977: stems[0] "Hif." carries no sense text
+- O01025: stems[1] "Hithpa." carries no sense text
+- O01026: stems[1] "Ithpa." carries no sense text
+- O01078: stems[2] "Hithpa." carries no sense text
+- O01097: stems[3] "Hithpa." carries no sense text
+- O01244: stems[1] "Nithpa." carries no sense text
+- O01313: stems[2] "Hithpa." carries no sense text
+- O01492: stems[0] "Hithpa." carries no sense text
+- O01493: stems[1] "Ithpa." carries no sense text
+- N00917: stems[2] "Ithpa." carries no sense text
+- N00926: stems[1] "Hithpa." carries no sense text
+- N00946: stems[2] "Hithpa." carries no sense text
+- N00947: stems[1] "Ithpa." carries no sense text
+- N01026: stems[2] "Ittaf." carries no sense text
+- N01120: stems[0] "Ithpa." carries no sense text
+- N01193: stems[1] "Nif." carries no sense text
+- N01331: stems[0] "Ithpe." carries no sense text
+- O00063: stems[1] "Hithpa." carries no sense text
+- O00164: stems[1] "Ithpa." carries no sense text
+- O00166: stems[1] "Ithpa." carries no sense text
+- O00466: stems[2] "Ithpa." carries no sense text
+- O01581: stems[1] "Nif." carries no sense text
+- O01646: stems[1] "Hithpa." carries no sense text
+- O01705: stems[0] "Nif." carries no sense text
+- O01712: stems[1] "Ithpa." carries no sense text
+- P00014: stems[0] "Af." carries no sense text
+- P00059: stems[2] "Hithpa." carries no sense text
+- P00153: stems[1] "Hithpa." carries no sense text
+- P00469: stems[0] "Hithpa." carries no sense text
+- P00470: stems[0] "Hithpa." carries no sense text
+- P00475: stems[1] "Hithpa." carries no sense text
+- P00485: stems[1] "Hithpa." carries no sense text
+- P00712: stems[1] "Hithpa." carries no sense text
+- P00737: stems[1] "Hithpa." carries no sense text
+- P00766: stems[0] "Ithpa." carries no sense text
+- P00790: stems[3] "Hithpa." carries no sense text
+- Q00434: stems[1] "Nif." carries no sense text
+- Q00444: stems[3] "Hithpa." carries no sense text
+- Q00478: stems[1] "Nif." carries no sense text
+- Q00547: stems[1] "Nif." carries no sense text
+- Q00548: stems[2] "Ithpa." carries no sense text
+- Q00741: stems[2] "Hithpa." carries no sense text
+- Q00935: stems[2] "Ithpa." carries no sense text
+- Q00991: stems[2] "Ithpa." carries no sense text
+- Q00997: stems[0] "Nif." carries no sense text
+- Q01075: stems[1] "Hithpa." carries no sense text
+- Q01127: stems[0] "Hithpa." carries no sense text
+- Q01210: stems[1] "Ithpa." carries no sense text
+- Q01228: stems[0] "Pa." carries no sense text
+- Q01350: stems[3] "Hithpa." carries no sense text
+- Q01387: stems[1] "Nif." carries no sense text
+- Q01426: stems[0] "Pa." carries no sense text
+- R00162: stems[0] "Ithpe." carries no sense text
+- Q01437: stems[0] "Ithpa." carries no sense text
+- Q01439: stems[1] "Nif." carries no sense text
+- Q01449: stems[1] "Nif." carries no sense text
+- Q01450: stems[2] "Ithpa." carries no sense text
+- Q01474: stems[1] "Nif." carries no sense text
+- Q01514: stems[1] "Hithpa." carries no sense text
+- Q01572: stems[3] "Hithpa." carries no sense text
+- R00480: stems[0] "Ithpa." carries no sense text
+- P00791: stems[1] "Ithpa." carries no sense text
+- P00819: stems[1] "Ithpa." carries no sense text
+- P00820: stems[1] "Nef." carries no sense text
+- P00839: stems[0] "Hithpa." carries no sense text
+- P00971: stems[1] "Ithpa." carries no sense text
+- P00972: stems[2] "Hithpa." carries no sense text
+- P01017: stems[0] "Ithpa." carries no sense text
+- P01052: stems[2] "Hithpa." carries no sense text
+- P01086: stems[1] "Hithpa." carries no sense text
+- P01091: stems[2] "Hithpa." carries no sense text
+- P01127: stems[2] "Hithpa." carries no sense text
+- P01214: stems[1] "Ithpa." carries no sense text
+- P01242: stems[1] "Hithpa." carries no sense text
+- P01243: stems[1] "Ithpa." carries no sense text
+- P01338: stems[0] "Hithpa." carries no sense text
+- P01342: stems[3] "Hithpa." carries no sense text
+- P01401: stems[1] "Nif." carries no sense text
+- P01426: stems[0] "Nif." carries no sense text
+- P01491: stems[1] "Ithpa." carries no sense text
+- P01498: stems[2] "Hithpa." carries no sense text
+- P01503: stems[1] "Nif." carries no sense text
+- P01517: stems[0] "Ithpa." carries no sense text
+- P01543: stems[2] "Nif." carries no sense text
+- Q00068: stems[1] "Hithpa." carries no sense text
+- Q00074: stems[0] "Nif." carries no sense text
+- Q00075: stems[0] "Ithpa." carries no sense text
+- Q00097: stems[1] "Hithpa." carries no sense text
+- Q01845: stems[1] "Ithpa." carries no sense text
+- R00602: stems[0] "Pa." carries no sense text; stems[2] "Ithpa." carries no sense text
+- R00635: stems[0] "Hif." carries no sense text; stems[5] "Hithpa." carries no sense text
+- R00639: stems[2] "Ithpa." carries no sense text
+- R00661: stems[2] "Hithpa." carries no sense text
+- Q01908: stems[0] "Nif." carries no sense text
+- Q01934: stems[0] "Hithpa." carries no sense text
+- Q01944: stems[0] "Ithpa." carries no sense text
+- Q01980: stems[1] "Hithpa." carries no sense text
+- Q01981: stems[2] "Ithpa." carries no sense text
+- R00759: stems[1] "Ithpa." carries no sense text
+- R00788: stems[0] "Ithpa." carries no sense text
+- Q02018: stems[0] "Ithpa." carries no sense text
+- Q02021: stems[2] "Hithpa." carries no sense text
+- Q02063: stems[4] "Hithpa." carries no sense text
+- R00791: stems[0] "Hithpa." carries no sense text
+- R00798: stems[1] "Ithpa." carries no sense text
+- S00057: stems[3] "Hithpa." carries no sense text
+- S00092: stems[1] "Nif." carries no sense text
+- S00096: stems[1] "Ithpa." carries no sense text
+- Q02143: stems[2] "Hithpa." carries no sense text
+- Q02144: stems[2] "Ithpa." carries no sense text
+- Q02151: stems[2] "Hithpa." carries no sense text
+- S00192: stems[1] "Hithpa." carries no sense text
+- S00374: stems[1] "Hithpa." carries no sense text
+- S00804: stems[1] "Hithpa." carries no sense text
+- S00810: stems[0] "Nif." carries no sense text
+- T00909: stems[1] "Ithpa." carries no sense text
+- T00914: stems[1] "Hithpa." carries no sense text
+- T00943: stems[1] "Hithpa." carries no sense text
+- T00432: stems[0] "Ittaf." carries no sense text
+- T00517: stems[1] "Ithpa." carries no sense text
+- T00536: stems[0] "Ithpa." carries no sense text
+- T00538: stems[2] "Hithpa." carries no sense text
+- T00541: stems[2] "Ithpa." carries no sense text
+- T00981: stems[4] "Hithp." carries no sense text
+- S01844: stems[1] "Hithpa." carries no sense text
+- S01883: stems[3] "Hithpa." carries no sense text
+- S01884: stems[2] "Ithpa." carries no sense text
+- T00576: stems[2] "Ithpa." carries no sense text
+- T01089: stems[1] "Hithpa." carries no sense text
+- T01123: stems[0] "Af." carries no sense text
+- T00767: stems[1] "Ithpa." carries no sense text
+- T00768: stems[0] "Pi." carries no sense text
+- S02235: stems[3] "Hithpa." carries no sense text
+- S02236: stems[2] "Ithpa." carries no sense text
+- S01317: stems[0] "Pa." carries no sense text
+- S01402: stems[1] "Nif." carries no sense text
+- S01403: stems[1] "Ithpa." carries no sense text
+- S01415: stems[0] "Hithpa." carries no sense text
+- T00212: stems[1] "Ithpe." carries no sense text
+- T00217: stems[0] "Hif." carries no sense text
+- T00221: stems[0] "Ithpe." carries no sense text
+- S01461: stems[0] "Pa." carries no sense text
+- S01559: stems[0] "Hithpa." carries no sense text
+- S01566: stems[1] "Hithpa." carries no sense text
+- S01604: stems[1] "Ithpa." carries no sense text
+- T00326: stems[2] "Hithpa." carries no sense text
+- T00327: stems[2] "Ithpa." carries no sense text
+- S01690: stems[0] "Hithpa." carries no sense text
+- T00359: stems[1] "Ithpa." carries no sense text
+- T00375: stems[1] "Ithpa." carries no sense text
+- U00031: stems[2] "Ithpa." carries no sense text
+- U00048: stems[3] "Ithpa." carries no sense text
+- U00110: stems[0] "Ithpa." carries no sense text
+- U00169: stems[0] "Pa." carries no sense text; stems[2] "Ithpa." carries no sense text
+- U00174: stems[2] "Nif." carries no sense text
+- U00267: stems[2] "Ithpa." carries no sense text
+- U00274: stems[2] "Ithpa." carries no sense text
+- U00279: stems[1] "Nif." carries no sense text
+- U00284: stems[0] "Ithpa." carries no sense text
+- U00285: stems[1] "Ithpa." carries no sense text
+- U00299: stems[2] "Hithpa." carries no sense text
+- U00392: stems[2] "Ithpa." carries no sense text
+- U00677: stems[1] "Ithpa." carries no sense text
+- U00720: stems[0] "Hithpa." carries no sense text
+- U00741: stems[0] "Hithpa." carries no sense text
+- U00742: stems[2] "Ithpa." carries no sense text
+- U00745: stems[0] "Nif." carries no sense text
+- U01765: stems[0] "Ithpa." carries no sense text
+- U01771: stems[3] "Hithpa." carries no sense text
+- U01877: stems[2] "Hithpa." carries no sense text
+- U01878: stems[1] "Ithpa." carries no sense text
+- U01893: stems[1] "Hithpa." carries no sense text
+- U01915: stems[0] "Hithpa." carries no sense text
+- U01961: stems[2] "Ithpa." carries no sense text
+- U02022: stems[1] "Ithpa." carries no sense text
+- U02038: stems[1] "Hithpa." carries no sense text
+- U02131: stems[1] "Hithpa." carries no sense text
+- V00050: stems[1] "Nithpa." carries no sense text
+- V00088: stems[0] "Ithpa." carries no sense text
+- U00762: stems[1] "Nif." carries no sense text
+- U01137: stems[2] "Nif." carries no sense text
+- U01139: stems[1] "Ithpa." carries no sense text
+- U01166: stems[0] "Hithpa." carries no sense text
+- U01182: stems[2] "Hithpa." carries no sense text
+- U01185: stems[1] "Hithpa." carries no sense text
+- U01265: stems[1] "Hithpa." carries no sense text
+- U01281: stems[2] "Hithpa." carries no sense text
+- U01349: stems[2] "Ithpa." carries no sense text
+- U01371: stems[1] "Ithpa." carries no sense text
+- U01454: stems[2] "Ithpa." carries no sense text
+- U01512: stems[2] "Ithpa." carries no sense text
+- U01539: stems[0] "Hithpa." carries no sense text
+- U01559: stems[0] "Nif." carries no sense text
+- U01585: stems[3] "Hithpa." carries no sense text
+- U01586: stems[2] "Ithpa." carries no sense text
+- U01611: stems[2] "Ithpa." carries no sense text
+- U01628: stems[0] "Hithpa." carries no sense text
+- U01653: stems[1] "Ithpa." carries no sense text
+- U01676: stems[1] "Hithpa." carries no sense text
+- U01738: stems[0] "Hithpa." carries no sense text
+- V00625: stems[0] "Ithpa." carries no sense text
+- V00743: stems[2] "Ithpa." carries no sense text
+- V00909: stems[2] "Ithpa." carries no sense text
+- V01007: stems[1] "Ithpa." carries no sense text
+- V01030: stems[1] "Ithpe." carries no sense text
+- V01053: stems[1] "Ithpa." carries no sense text
+
+### homograph-roman-stranded-in-definition (22)
+
+**What to do:** Leave it until the anchor side is settled: moving the numeral into the headword alone would dangle 37 live anchors against the 3 that mis-resolve today.
+
+- C00577: senses[0].gloss opens "I"; headword carries no homograph
+- U00488: senses[0].gloss opens "I"; headword carries no homograph
+- U01775: senses[0].gloss opens "II"; headword carries no homograph
+- U02097: senses[0].gloss opens "I"; headword carries no homograph
+- V00003: senses[0].gloss opens "II"; headword carries no homograph
+- V00006: senses[0].gloss opens "II"; headword carries no homograph
+- V00138: senses[0].gloss opens "III"; headword carries no homograph
+- V00254: senses[0].gloss opens "I"; headword carries no homograph
+- V00522: senses[0].gloss opens "I"; headword carries no homograph
+- U00997: senses[0].gloss opens "II"; headword carries no homograph
+- U00998: senses[0].gloss opens "III"; headword carries no homograph
+- U01004: senses[0].gloss opens "III"; headword carries no homograph
+- U01006: senses[0].gloss opens "I"; headword carries no homograph
+- U01008: senses[0].gloss opens "III"; headword carries no homograph
+- U01138: senses[0].gloss opens "I"; headword carries no homograph
+- U01292: senses[0].gloss opens "II"; headword carries no homograph
+- U01570: senses[0].gloss opens "I"; headword carries no homograph
+- U01634: senses[0].gloss opens "I"; headword carries no homograph
+- V00809: senses[0].gloss opens "II"; headword carries no homograph
+- V00832: senses[0].gloss opens "II"; headword carries no homograph
+- V01060: senses[0].gloss opens "I"; headword carries no homograph
+- V01061: senses[0].gloss opens "II"; headword carries no homograph
 
 ### markup-carry (10)
 
@@ -70,6 +444,99 @@ Retiring kinds: `slug-alias-new`, `slug-bare-held`, `slug-changed`, `slug-frozen
 - J00597: senses[0].units[9]: closed at sequence end: a
 - J00603: senses[0].gloss: carried a across a unit boundary
 - S02102: senses[2].gloss: carried i across a unit boundary
+
+### open-paren-in-rtl-span (88)
+
+**What to do:** Move the paren out of the Hebrew span in the admin tool after go-live so bidi draws it on the side the print page shows.
+
+- A00014: senses[1].units[2]: <he> holds 1 "(" against 0 ")"
+- A00446: senses[1].units[3]: <he> holds 1 "(" against 0 ")"
+- A00456: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- A00684: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- A00935: senses[0].units[5]: <he> holds 1 "(" against 0 ")"
+- A01128: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- A01406: senses[2].units[1]: <he> holds 1 "(" against 0 ")"; senses[2].units[1]: <he> holds 1 "(" against 0 ")"; senses[4].gloss: <he> holds 1 "(" against 0 ")"
+- A02077: senses[0].gloss: <he> holds 1 "(" against 0 ")"; senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- A03043: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- A03399: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- B00478: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- B00771: senses[1].units[3]: <he> holds 1 "(" against 0 ")"
+- B00772: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
+- B00886: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
+- B01153: senses[3].units[7]: <he> holds 1 "(" against 0 ")"
+- C01412: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- D00314: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
+- D00500: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- D00572: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- D00635: senses[2].units[1]: <he> holds 1 "(" against 0 ")"
+- D00664: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- E00203: senses[3].gloss: <he> holds 1 "(" against 0 ")"; senses[3].units[2]: <he> holds 1 "(" against 0 ")"
+- E00475: senses[0].gloss: <he> holds 1 "(" against 0 ")"; senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- C00739: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- C01029: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- C01048: senses[1].senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- E00571: senses[1].gloss: <he> holds 1 "(" against 0 ")"
+- G00118: stems[1].senses[3].units[0]: <he> holds 1 "(" against 0 ")"
+- G00137: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- H00133: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- H00217: stems[2].senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- H00432: senses[2].gloss: <he> holds 1 "(" against 0 ")"
+- H00489: senses[0].units[4]: <he> holds 1 "(" against 0 ")"
+- I00105: senses[2].units[9]: <he> holds 1 "(" against 0 ")"
+- I00512: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
+- G00511: senses[1].units[3]: <he> holds 1 "(" against 0 ")"
+- G00537: senses[2].gloss: <he> holds 1 "(" against 0 ")"
+- H01335: stems[0].senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- K00870: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
+- K00964: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- K01001: senses[2].gloss: <he> holds 1 "(" against 0 ")"
+- K01026: senses[0].units[10]: <he> holds 1 "(" against 0 ")"
+- M01579: senses[1].gloss: <he> holds 1 "(" against 0 ")"
+- M01598: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- J00180: senses[2].gloss: <he> holds 1 "(" against 0 ")"
+- J00537: senses[1].units[2]: <he> holds 1 "(" against 0 ")"
+- J00619: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- J00643: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- K00112: senses[2].gloss: <he> holds 1 "(" against 0 ")"
+- K01181: senses[2].gloss: <he> holds 1 "(" against 0 ")"
+- K01235: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- M02034: senses[0].units[5]: <he> holds 1 "(" against 0 ")"
+- M02284: senses[0].units[19]: <he> holds 1 "(" against 0 ")"
+- M02531: senses[0].units[3]: <he> holds 1 "(" against 0 ")"
+- M02555: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- M00431: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- M00873: senses[2].gloss: <he> holds 1 "(" against 0 ")"
+- M00886: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- M03057: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- N00460: stems[1].senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- N00552: senses[0].units[3]: <he> holds 1 "(" against 0 ")"
+- N00838: senses[0].units[4]: <he> holds 1 "(" against 0 ")"
+- O00603: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- O00071: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- P00041: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- P00680: senses[2].senses[0].gloss: <he> holds 1 "(" against 0 ")"; senses[2].senses[1].gloss: <he> holds 1 "(" against 0 ")"
+- Q00624: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
+- Q00669: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- Q00686: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- Q00883: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- Q00969: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- Q01195: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- Q01543: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- Q01603: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- S00055: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
+- S00810: stems[2].senses[0].units[1]: <he> holds 1 "(" against 0 ")"
+- T00933: senses[1].gloss: <he> holds 1 "(" against 0 ")"
+- T00488: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- S01457: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- U00026: senses[1].units[3]: <he> holds 1 "(" against 0 ")"; senses[1].units[3]: <he> holds 1 "(" against 0 ")"
+- U00047: stems[1].senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- U00210: senses[0].units[5]: <he> holds 1 "(" against 0 ")"
+- U00385: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- U01504: senses[0].units[3]: <he> holds 1 "(" against 0 ")"
+- U01566: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- U01647: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- U01648: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- V00719: senses[0].units[9]: <he> holds 1 "(" against 0 ")"
 
 ### page-confidence-low (298)
 
@@ -2280,6 +2747,134 @@ Retiring kinds: `slug-alias-new`, `slug-bare-held`, `slug-changed`, `slug-frozen
 - K00081: print sense 5 label missing and note is unresolved (01: "does not have the 5 label") — eyes-on
 - R00519: sense 4's "[" attaches to the end of sense 3 (print "—[4)…") — bracket move not yet decided (cmp. D00341)
 
+### stranded-open-bracket (85)
+
+**What to do:** Rejoin the bracketed span against the print page in the admin tool after go-live; deleting the stray bracket would discard the editorial marking it carries.
+
+- A00764: senses[1]: text ends with a bare "["
+- A00870: senses[1]: text ends with a bare "["
+- A00889: senses[2]: text ends with a bare "["
+- A01791: senses[1]: text ends with a bare "["
+- A01898: senses[1]: text ends with a bare "["
+- A02000: senses[0]: text ends with a bare "["
+- A02062: stems[0].senses[0]: text ends with a bare "["
+- A02169: senses[2]: text ends with a bare "["
+- A03185: senses[0]: text ends with a bare "["
+- B00244: senses[2]: text ends with a bare "["
+- B00249: senses[1]: text ends with a bare "["
+- B00411: senses[3]: text ends with a bare "["
+- B01062: stems[0].senses[1]: text ends with a bare "["
+- C00074: senses[0]: text ends with a bare "["
+- D00891: stems[0].senses[0]: text ends with a bare "["
+- E00024: senses[1]: text ends with a bare "["
+- E00051: senses[1]: text ends with a bare "["
+- C01249: senses[1]: text ends with a bare "["
+- C01250: senses[0]: text ends with a bare "["
+- C01257: senses[1]: text ends with a bare "["
+- C01258: senses[0]: text ends with a bare "["
+- C01269: senses[1]: text ends with a bare "["
+- C01277: senses[0]: text ends with a bare "["
+- C01321: senses[2]: text ends with a bare "["
+- C01397: senses[1]: text ends with a bare "["
+- C01403: stems[3].senses[0]: text ends with a bare "["
+- C01414: senses[0]: text ends with a bare "["
+- E00237: senses[1]: text ends with a bare "["
+- C00573: stems[1].senses[0]: text ends with a bare "["
+- E00374: senses[2]: text ends with a bare "["
+- E00410: senses[2]: text ends with a bare "["
+- H00107: senses[3]: text ends with a bare "["
+- H01469: senses[0]: text ends with a bare "["
+- H01714: senses[3]: text ends with a bare "["
+- H00408: senses[1]: text ends with a bare "["
+- H01869: senses[1]: text ends with a bare "["
+- I00189: senses[0]: text ends with a bare "["
+- I00493: senses[1]: text ends with a bare "["
+- I00602: stems[0].senses[2]: text ends with a bare "["
+- I00721: senses[1]: text ends with a bare "["
+- H01112: stems[2].senses[1]: text ends with a bare "["
+- H01144: senses[0]: text ends with a bare "["; stems[0].senses[0]: text ends with a bare "["
+- G00652: stems[0].senses[1]: text ends with a bare "["
+- K00952: stems[0].senses[2]: text ends with a bare "["
+- M01376: senses[1]: text ends with a bare "["
+- M01543: stems[0].senses[1]: text ends with a bare "["
+- I00859: stems[2].senses[0]: text ends with a bare "["; stems[2].senses[2].senses[1]: text ends with a bare "["
+- J00581: stems[1].senses[1]: text ends with a bare "["
+- K01310: senses[0]: text ends with a bare "["
+- M02277: senses[0]: text ends with a bare "["
+- M02318: senses[0]: text ends with a bare "["
+- M02581: senses[2]: text ends with a bare "["
+- M00253: senses[1]: text ends with a bare "["
+- O01011: senses[2]: text ends with a bare "["
+- O01025: senses[0]: text ends with a bare "["
+- O01271: senses[1]: text ends with a bare "["
+- O01386: senses[1]: text ends with a bare "["
+- N00924: senses[0]: text ends with a bare "["
+- N00962: senses[0]: text ends with a bare "["
+- O01620: senses[0]: text ends with a bare "["
+- P00079: senses[1]: text ends with a bare "["
+- Q00426: senses[0]: text ends with a bare "["
+- Q01319: senses[2].senses[2]: text ends with a bare "["
+- R00189: senses[0]: text ends with a bare "["
+- R00241: senses[3]: text ends with a bare "["
+- P01411: stems[1].senses[0]: text ends with a bare "["
+- R00519: senses[1]: text ends with a bare "["
+- Q01783: stems[0].senses[0]: text ends with a bare "["
+- R00715: senses[2]: text ends with a bare "["
+- S00146: senses[0]: text ends with a bare "["
+- S00946: senses[0]: text ends with a bare "["
+- T00914: stems[3].senses[1]: text ends with a bare "["
+- T01080: senses[3]: text ends with a bare "["
+- T00279: senses[3]: text ends with a bare "["
+- T00327: senses[0]: text ends with a bare "["
+- U01998: stems[0].senses[0]: text ends with a bare "["
+- V00054: senses[1]: text ends with a bare "["
+- V00139: senses[0]: text ends with a bare "["
+- V00349: senses[1]: text ends with a bare "["
+- U01243: senses[1]: text ends with a bare "["
+- U01379: senses[2]: text ends with a bare "["
+- V00616: stems[1].senses[0]: text ends with a bare "["
+- V00782: senses[1]: text ends with a bare "["
+- V00905: senses[2].senses[1]: text ends with a bare "["
+- V01081: senses[2]: text ends with a bare "["
+
+### superscript-subsection-contradicts-link-sub-section (33)
+
+**What to do:** Adjudicate the printed superscript against the linked text and correct the losing side in the admin tool after go-live; no offset recovers it.
+
+- T00459: senses[2].units[1]: printed sup 4 against ref "Bamidbar Rabbah 10:1"
+- T01051: senses[0].units[4]: printed sup 20 against ref "Bamidbar Rabbah 9:31"
+- T00692: senses[0].units[3]: printed sup 21 against ref "Bamidbar Rabbah 20:3"
+- T00292: senses[0].units[0]: printed sup 7 against ref "Bamidbar Rabbah 14:12"
+- T00328: senses[2].units[0]: printed sup 41 against ref "Bamidbar Rabbah 9:50"
+- T00357: senses[1].units[0]: printed sup 5 against ref "Bamidbar Rabbah 12:7"
+- U01870: senses[1].units[5]: printed sup 8 against ref "Bamidbar Rabbah 18:20"
+- U01893: stems[0].senses[0].units[4]: printed sup 18 against ref "Bamidbar Rabbah 20:19"
+- U01960: senses[0].units[4]: printed sup 2 against ref "Bamidbar Rabbah 13:4"; stems[0].senses[0].units[3]: printed sup 6 against ref "Bamidbar Rabbah 13:4"
+- U02003: stems[0].senses[0].units[0]: printed sup 6 against ref "Bamidbar Rabbah 23:1"
+- U02008: senses[0].units[1]: printed sup 22 against ref "Bamidbar Rabbah 19:23"
+- V00122: senses[2].units[4]: printed sup 2 against ref "Shemot Rabbah 20:16"
+- V00176: senses[0].units[0]: printed sup 9 against ref "Bamidbar Rabbah 14:7"
+- V00219: senses[0].units[4]: printed sup 13 against ref "Bamidbar Rabbah 4:14"
+- V00271: senses[0].units[0]: printed sup 20 against ref "Bamidbar Rabbah 16:15"
+- V00321: senses[0].units[1]: printed sup 9 against ref "Bamidbar Rabbah 7:10"
+- V00397: senses[0].units[1]: printed sup 4 against ref "Bamidbar Rabbah 18:10"
+- U00909: senses[0].units[0]: printed sup 32 against ref "Bamidbar Rabbah 19:33"; senses[0].units[8]: printed sup 21 against ref "Bamidbar Rabbah 19:33"
+- U01158: stems[0].senses[1].units[0]: printed sup 5 against ref "Bamidbar Rabbah 14:21"
+- U01173: stems[0].senses[0].units[4]: printed sup 3 against ref "Bamidbar Rabbah 14:19"
+- U01175: senses[0].units[3]: printed sup 5 against ref "Bamidbar Rabbah 18:22"
+- U01184: senses[0].units[5]: printed sup 4 against ref "Bamidbar Rabbah 10:8"
+- U01190: senses[2].units[0]: printed sup 2 against ref "Bamidbar Rabbah 10:8"
+- U01195: senses[0].units[1]: printed sup 12 against ref "Bamidbar Rabbah 21:24"
+- U01281: stems[1].senses[0].units[1]: printed sup 6 against ref "Bamidbar Rabbah 14:7"
+- U01335: senses[2].units[3]: printed sup 38 against ref "Bamidbar Rabbah 13:18"
+- U01370: senses[1].units[1]: printed sup 4 against ref "Bamidbar Rabbah 14:1"
+- U01387: senses[0].units[0]: printed sup 20 against ref "Bamidbar Rabbah 4:9"; senses[2].units[2]: printed sup 27 against ref "Shemot Rabbah 15:22"; senses[2].senses[1].units[0]: printed sup 33 against ref "Devarim Rabbah 2:30"
+- U01390: senses[0].units[6]: printed sup 27 against ref "Shemot Rabbah 15:22"
+- U01513: senses[0].units[3]: printed sup 20 against ref "Bamidbar Rabbah 20:21"
+- U01517: senses[1].units[1]: printed sup 7 against ref "Bamidbar Rabbah 2:10"; senses[1].units[2]: printed sup 19 against ref "Bamidbar Rabbah 13:20"
+- V00793: senses[0].units[1]: printed sup 10 against ref "Bamidbar Rabbah 10:11"
+- V01097: senses[1].units[1]: printed sup 8 against ref "Bamidbar Rabbah 18:12"
+
 ## Notes (278)
 
 ### headword-multiword (271)
@@ -2570,16 +3165,12 @@ Retiring kinds: `slug-alias-new`, `slug-bare-held`, `slug-changed`, `slug-frozen
 - Q00752: פ-2 → פיסחא
 - Q00000: פ-1 → פ
 
-## Catalogued, not yet detected (5 classes, 572 entries)
+## Catalogued, not yet detected (0 classes, 0 entries)
 
-No detector for these classes runs on the import path, so they produce no rows above and are counted in neither `blocks` nor `defer`. Counts are the catalogue's own `corpusCount` in `data/patches/patterns.jsonl`, measured when the class was catalogued, not by this run. Detectors are pending — consolidation spec §10, "port judgment-class detectors".
+No detector on the import path can see a class listed here, so it produces no rows above and is counted in neither `blocks` nor `defer`. Counts are the catalogue's own `corpusCount` in `data/patches/patterns.jsonl`, measured when the class was catalogued, not by this run. Porting what is left is consolidation spec §10, "port judgment-class detectors"; an empty list means every catalogued blocking class is now a kind above.
 
 They are `defer` for publication: none moves a URL (post-consolidation review §10, decision 2). The catalogue keeps `blocking: true` on each — that flag gates the CUTOVER, which is a separate question from what a reader can correct after go-live.
 
-**What to do:** write the detector, then let the rows it emits be triaged here like any other kind.
+**What to do:** write the detector under `admin/pipeline/migrate/detectors/` and register it; the class then leaves this list and its rows are triaged above under its own kind.
 
-- empty-stem-section — 342 entries — defer
-- open-paren-in-rtl-span — 89 entries — defer
-- stranded-open-bracket — 85 entries — defer
-- superscript-subsection-contradicts-link-sub-section — 33 entries — defer
-- homograph-roman-stranded-in-definition — 23 entries — defer
+_none_

@@ -1,24 +1,30 @@
 import { describe, expect, it } from 'bun:test';
 import type { Pattern } from '../patch/patterns.ts';
+import { DETECTED_CLASSES } from './detectors/classes.ts';
 import { classifyRows } from './publication.ts';
 import type { Report } from './report.ts';
 import { createReport, lineRow } from './report.ts';
 import {
 	loadUndetectedClasses,
+	PATTERNS_PATH,
 	renderReviewReport,
 	undetectedClasses,
 } from './review-report.ts';
 
-/** Two catalogued classes, deliberately out of count order: the
- * renderer prints what it is handed, and `undetectedClasses` is what
- * puts them in order — so the render tests go through it, as the run
- * does. */
+/** Two catalogued classes with NO detector on the import path,
+ * deliberately out of count order: the renderer prints what it is
+ * handed, and `undetectedClasses` is what puts them in order — so the
+ * render tests go through it, as the run does.
+ *
+ * Both ids are unregistered on purpose. A registered one would be
+ * filtered out and every render assertion below would then be made
+ * against an empty section. */
 const CATALOGUED: readonly Pattern[] = [
 	{
 		blocking: true,
 		corpusCount: 33,
-		description: 'superscript disagrees with the link',
-		id: 'superscript-subsection-contradicts-link-sub-section',
+		description: 'a mis-split judged against the print page',
+		id: 'verse-paren-false-sense-split',
 		round: 3,
 		route: 'judgment',
 		status: 'candidate',
@@ -26,8 +32,8 @@ const CATALOGUED: readonly Pattern[] = [
 	{
 		blocking: true,
 		corpusCount: 342,
-		description: 'stem block with no senses',
-		id: 'empty-stem-section',
+		description: 'the whole definition is the etymology parenthetical',
+		id: 'etymology-head-pseudo-sense',
 		round: 1,
 		route: 'judgment',
 		status: 'candidate',
@@ -74,8 +80,18 @@ function sampleForOrdering(): Report {
 describe('undetectedClasses', () => {
 	it('keeps blocking candidates off the transform route, largest first', () => {
 		expect(undetectedClasses(CATALOGUED).map((c) => c.id)).toEqual([
+			'etymology-head-pseudo-sense',
+			'verse-paren-false-sense-split',
+		]);
+	});
+	it('drops a class once a detector on the import path emits its rows', () => {
+		const base = CATALOGUED[1] as Pattern;
+		const detected: Pattern = { ...base, id: 'empty-stem-section' };
+		expect(undetectedClasses([detected])).toEqual([]);
+		// And the filter is the registry, not a hard-coded id list: the
+		// same row survives when the registry does not name it.
+		expect(undetectedClasses([detected], new Set()).map((c) => c.id)).toEqual([
 			'empty-stem-section',
-			'superscript-subsection-contradicts-link-sub-section',
 		]);
 	});
 	it('drops a class a registered rule already answers', () => {
@@ -102,24 +118,31 @@ describe('undetectedClasses', () => {
 			route: 'blocked',
 		};
 		expect(undetectedClasses([blocked]).map((c) => c.id)).toEqual([
-			'empty-stem-section',
+			'etymology-head-pseudo-sense',
 		]);
 	});
 });
 
 describe('loadUndetectedClasses', () => {
-	// A positive control on the real catalogue: the section would look
-	// exactly the same if the filter matched nothing. Five classes is
-	// today's count (post-consolidation review §2 finding 2); it drops
-	// as each detector ships, and this line moves with it.
-	it('reads five undetected blocking classes from the catalogue', async () => {
-		const classes = await loadUndetectedClasses();
-		expect(classes.length).toBe(5);
-		expect(classes.map((c) => c.id)).toContain('empty-stem-section');
-		for (const c of classes) {
+	// The zero needs a control, or it reads the same as a filter that
+	// matched nothing because it was looking at an empty catalogue.
+	// The control: the same five classes are still in the file, still
+	// blocking, still off the transform route — and every one of them
+	// is now a registered detector kind, which is the only reason the
+	// list is empty (post-consolidation review §2 finding 2).
+	it('reads no undetected blocking class: all five now have detectors', async () => {
+		expect(await loadUndetectedClasses()).toEqual([]);
+		const stillCatalogued = await loadUndetectedClasses(
+			PATTERNS_PATH,
+			new Set(),
+		);
+		expect(stillCatalogued.length).toBe(5);
+		expect(stillCatalogued.map((c) => c.id)).toContain('empty-stem-section');
+		for (const c of stillCatalogued) {
 			expect(c.blocking).toBe(true);
 			expect(c.status).toBe('candidate');
 			expect(c.route).not.toBe('transform');
+			expect(DETECTED_CLASSES.has(c.id)).toBe(true);
 		}
 	});
 });
@@ -169,14 +192,14 @@ describe('renderReviewReport', () => {
 				'',
 				'## Catalogued, not yet detected (2 classes, 375 entries)',
 				'',
-				'No detector for these classes runs on the import path, so they produce no rows above and are counted in neither `blocks` nor `defer`. Counts are the catalogue\'s own `corpusCount` in `data/patches/patterns.jsonl`, measured when the class was catalogued, not by this run. Detectors are pending — consolidation spec §10, "port judgment-class detectors".',
+				'No detector on the import path can see a class listed here, so it produces no rows above and is counted in neither `blocks` nor `defer`. Counts are the catalogue\'s own `corpusCount` in `data/patches/patterns.jsonl`, measured when the class was catalogued, not by this run. Porting what is left is consolidation spec §10, "port judgment-class detectors"; an empty list means every catalogued blocking class is now a kind above.',
 				'',
 				'They are `defer` for publication: none moves a URL (post-consolidation review §10, decision 2). The catalogue keeps `blocking: true` on each — that flag gates the CUTOVER, which is a separate question from what a reader can correct after go-live.',
 				'',
-				'**What to do:** write the detector, then let the rows it emits be triaged here like any other kind.',
+				'**What to do:** write the detector under `admin/pipeline/migrate/detectors/` and register it; the class then leaves this list and its rows are triaged above under its own kind.',
 				'',
-				'- empty-stem-section — 342 entries — defer',
-				'- superscript-subsection-contradicts-link-sub-section — 33 entries — defer',
+				'- etymology-head-pseudo-sense — 342 entries — defer',
+				'- verse-paren-false-sense-split — 33 entries — defer',
 			].join('\n'),
 		);
 	});

@@ -164,10 +164,21 @@ confirms is still present in the committed tree.
 **Ruled 2026-09-21** (post-consolidation review §10, decision 2): all
 five keep `blocking: true` as a CUTOVER flag, and all five are `defer`
 for *publication* — none moves a URL, and under the URL names spec
-nothing does. `docs/v2/review-report.md` now names them in its
-"Catalogued, not yet detected" section with these counts, because none
-of them has a detector on the import path to emit a row; the detectors
-are consolidation spec §10 work.
+nothing does.
+
+**Detected 2026-09-21** (consolidation spec §10, "port judgment-class
+detectors"). Each of the five has a detector under
+`admin/pipeline/migrate/detectors/`, written to the "Now" predicate in
+the table below and run on the finished truth entry, so
+`docs/v2/review-report.md` carries real rows for them instead of the
+catalogue line it used to print — and its "Catalogued, not yet
+detected" section is empty. The run reproduces the "Now" column
+exactly: 342, 85, 33, 22, 88. Where "Now" differs from "Cat." the run
+differs the same way, and for the same reason: the catalogue was
+measured on the pinned snapshot, this is the finished tree. For
+`homograph-roman-stranded-in-definition`, `B00883` and `S01616` no
+longer open with the numeral once the transforms have run, and
+`U00488` — which the row's rid list never named — now does.
 
 | Class | Cat. | Now | Predicate | T6 limb |
 |---|---|---|---|---|
