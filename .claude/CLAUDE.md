@@ -9,6 +9,8 @@ This branch (`v2`) is the overhaul, and what exists on it is the data
 pipeline under `admin/pipeline/`. **Neither the public app nor the
 admin tool has been written for v2 yet** — `app/` is a placeholder.
 
+Rulings live in `docs/decisions.md`; a new ruling is a row there first.
+
 ## Tech Stack
 
 - **Runtime:** Bun 1.3.14

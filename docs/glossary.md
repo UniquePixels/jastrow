@@ -4,6 +4,9 @@ The words this project uses for its data, commands, pipeline and
 checks. When a document, a PR or a code comment needs one of these
 ideas, it uses the word here.
 
+For the *rulings* behind these words — every design decision, its
+date, and what it drops — see [`decisions.md`](decisions.md).
+
 - **Status:** started 2026-09-15 from the consolidation spec's rulings
   R8 and R9
   ([2026-09-13-pipeline-consolidation-design.md](specs/2026-09-13-pipeline-consolidation-design.md)).

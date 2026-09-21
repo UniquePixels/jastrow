@@ -198,10 +198,6 @@ Not yet enumerated as rows in `headword-issues.md`:
 
 ## 7. Next
 
-A full audit of earlier rulings. The parenthesis ruling above was taken
-when its cost (losing which forms were bracketed) was not stated, and it
-is unlikely to be the only one. Rulings are recorded in three different
-formats — lettered (`Ruling C`–`F` in `admin/pipeline/patch/apply.ts`),
-dated (`RULING (Brian, 2026-08-27)` in rule modules and specs), and
-informal notes in plans — so the audit starts by listing them with what
-each one decided **and what it drops**.
+That audit is done: every ruling on this project, with what it drops,
+is indexed in [`docs/decisions.md`](../decisions.md) — §3 to §5 above
+are its `HW-*` rows.
