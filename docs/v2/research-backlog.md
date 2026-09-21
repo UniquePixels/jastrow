@@ -232,14 +232,74 @@ with a note that its detector is unported.
 | `gloss-space-loss` | 45 | — | defined by corpus bigram frequency |
 | `reversed-hebrew-phrase` | 27 | — | needs the corpus's phrase-order model |
 
-### The ruling this needs
+### The ruling (maintainer, 2026-09-20)
 
-Groups A and C are settled by measurement. Groups B and E are drafted
-as deferrals on kind. **Group D is the decision:** nine sense-structure
-classes whose bake-in risk is the strongest of the 32 and whose counts
-cannot be reproduced without porting their detectors from the archived
-research code (§10, "one class per PR"). Keeping them blocking makes v2
-publication wait on those ports; deferring them accepts whatever sense
-structure the committed tree now carries.
+**An issue that does not block publication is recorded and handled
+later.** The bar is what the reader sees on the page, not what a fix
+might cost us afterwards. The catalogue's own field says the same thing:
 
-*Awaiting the maintainer's ruling.*
+> `blocking` … This gates the CUTOVER, not the work. A non-blocking row
+> may still be fixed now … and false is only a promise that shipping
+> need not wait for it.
+
+| Group | Classes | Ruling |
+|---|---|---|
+| A | 5 | **stays `blocking: true`** — each is visibly broken on the page |
+| B, E | 16 | `blocking: false`, recorded here for the tracker |
+| C | 2 | `status: discarded` — resolved by the v2 model or by a shipped rule, with a control |
+| D | 9 | `blocking: false` **with a precondition**, below |
+
+32 → **5** non-`transform` classes hold up the cutover:
+`empty-stem-section`, `stranded-open-bracket`,
+`superscript-subsection-contradicts-link-sub-section`,
+`homograph-roman-stranded-in-definition`, `open-paren-in-rtl-span`. The
+23 `transform`-route blocking classes are untouched and out of scope.
+
+#### Why Group D defers, and what it must wait for
+
+Sense structure is cheap to correct *only while nothing addresses a
+sense*, and today nothing does — by decision, not by luck:
+
+| What could depend on a sense number | State, measured 2026-09-20 |
+|---|---|
+| internal cross-references | 71,376 refs, every one an entry rid; **0** carry a sense pointer |
+| the slug index | rows are `{"rid":…,"slug":…}` — no sense component |
+| compiled data and public URLs | `compile.ts` is not written |
+| hand edits | the admin tool is not built, so there are none |
+
+> **D8 — No deeper-than-entry addressing (for now).** … `<cite>` carries
+> no sense attribute; the vocabulary is additive, so one can be
+> introduced the day an editor needs it.
+> — [data-architecture §2.3](../specs/2026-07-08-v2-data-architecture-design.md)
+
+So deleting a bogus lead sense today costs nothing: nothing anywhere
+names sense 2. The cost appears at one of two future events, and that is
+where these nine bind:
+
+**Precondition.** The nine Group D classes must be examined before
+sense-level addressing is introduced (D8 lifted) **or** the admin tool
+opens hand editing, whichever comes first. After either, a renumbering
+collides with public links and with hand edits, and §3.2's three-way
+merge reconciles it per entry. The precondition is recorded against
+`compile.ts` (data-architecture §3) and the admin-tool spec in the
+consolidation spec's §10.
+
+This is the same shape as the slug freeze: R10 binds at v2 publication,
+not during development. A constraint scoped to a future event must not
+bind before it.
+
+One argument against fixing them early, for the record: the *fix* is the
+dangerous half. `senses[0]` is the gloss head, so dropping an empty lead
+consumes sense 1, and the loss is invisible to text-level gates because
+the entry's total text does not change. A hurried sweep over
+`etymology-head-pseudo-sense`'s 1,553 candidates before launch is
+riskier than a deliberate one after.
+
+#### What a later reader needs to know about these counts
+
+Of the 32, only 11 carry a count that means anything: 9 reproduced and 2
+are controlled zeros. For the other 21 the detector is archived at
+`refs/tags/archive/v2-research-2026-09` and unported, so the numbers in
+Groups D and E measure the stand-in predicate, not the class. Porting a
+detector is §10 work, one class per PR; the number in this file is the
+catalogued one until that happens.
