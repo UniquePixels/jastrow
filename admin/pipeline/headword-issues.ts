@@ -46,7 +46,6 @@ const MAQAF = '\u05BE';
 const DOT_ABOVE = '\u0307';
 const DOUBLE_SPACE = '  ';
 const UNPARSED_DETAIL = /^(?<form>.*) — (?<reason>.*)$/u;
-const SLUG_NUMBER = /-(?<index>\d+)$/u;
 const UNSAFE_SLUG_CHAR = /[^\u05D0-\u05EA0-9-]/gu;
 /** Final letters and the plain forms they answer to, in one order so a
  * `ך` mid-word and a `כ` word-finally are both recognisable. */
@@ -327,9 +326,16 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 	return rows;
 }
 
-/** Slug rows: notation that reached the URL, and slug numbers that
- * contradict the printed homograph numeral. Both are headword
- * consequences — the slug is derived from the headword's text. */
+/** Slug rows: notation that reached the URL — a headword consequence,
+ * since the slug is derived from the headword's text.
+ *
+ * A slug number that differs from the printed homograph numeral is NOT
+ * reported. The two count different things: the slug number orders the
+ * entries sharing a stem (a prefix entry `\u05D0\u05B7\u05D1\u05BE` takes `\u05D0\u05D1-1`, so
+ * `\u05D0\u05B8\u05D1` I becomes `\u05D0\u05D1-2`), while Jastrow's numeral counts homographs
+ * of one word. Brian ruled the slug number an opaque identifier
+ * (2026-09-20), so the 1,184 rows this once emitted were noise, not
+ * defects (`docs/v2/headword-design.md` §4). */
 function slugRows(
 	entries: Map<string, TruthEntry>,
 	unsafe: Set<string>,
@@ -349,19 +355,6 @@ function slugRows(
 				rid,
 				role: 'slug',
 				shape: 'S1 slug carries notation',
-				slug: entry.slug,
-				text: entry.headword.text,
-			});
-		}
-		const printed = entry.headword.homograph;
-		const numbered = SLUG_NUMBER.exec(entry.slug)?.groups?.['index'];
-		if (printed !== undefined && Number(numbered) !== printed) {
-			rows.push({
-				flagged: false,
-				note: `printed ${printed}, slug ${numbered ?? 'bare'}`,
-				rid,
-				role: 'slug',
-				shape: 'S2 slug number ≠ homograph numeral',
 				slug: entry.slug,
 				text: entry.headword.text,
 			});

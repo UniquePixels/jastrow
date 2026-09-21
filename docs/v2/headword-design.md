@@ -1,8 +1,9 @@
 # Headword design — proposal, decisions and open questions
 
-**Status: proposed, not final.** Worked through with Brian on 2026-09-18
-and 2026-09-19 while walking the shapes in
-[headword-issues.md](headword-issues.md). Nothing here is implemented.
+**Status: proposed, not final.** Worked through with Brian 2026-09-18–20,
+walking every shape in [headword-issues.md](headword-issues.md).
+**All 16 shapes are now settled**; nothing here is implemented yet.
+Open work is tracked in issues #102–#111 and in the patch queue (§4.1).
 
 Headwords are load-bearing — lookup, slugs, links all name them — so a
 headword defect **halts the pipeline** rather than joining a review list.
@@ -138,6 +139,8 @@ search hit, or derive a slug from it.
 | **Acronyms and numeral letters** (X7, 99 rows) | Legitimate entries, fully searchable, notation kept in `text` AND in the slug because it is part of the word: 78 gershayim acronyms (`א"ל` *Albam*, `שעטנְז` ) and 21 letters used as numerals (`א׳` — *"as numeral letter, one"*). |
 | **Truncated headwords** (X7, 34 rows) | The entry's only name is an abbreviation (`אנטג׳`, gloss `v. אנטי׳`) — the `abbrev-headword-stub` population of the 2026-08-22 ruling. They stay **lookup keys as printed**, NOT `partial`: only 6 of the 34 have an unabbreviated alternate, so marking them partial would leave 28 entries unfindable. A reader seeing `אנטג׳` in the print must be able to find it. Expansion is print work, with [#107](https://github.com/UniquePixels/jastrow/issues/107). |
 | **Homograph numbering gaps** (X8, 178 families) | Not patchable from the data, flagged for the print: [#111](https://github.com/UniquePixels/jastrow/issues/111). 82 families have one missing numeral and exactly one unnumbered sibling, 52 have no unnumbered sibling at all, 44 have several. This is the A02823 defect at scale — Sefaria mishandling a numeral on the headword line, like [#102](https://github.com/UniquePixels/jastrow/issues/102) and [#103](https://github.com/UniquePixels/jastrow/issues/103). **The detector itself was wrong** and is fixed: keyed on consonants it merged `קַרְחָא` II, `קָרָחָא` II and `קָרְחָא` II into one false clash, and it ignored alternates carrying the missing numeral — 202 reported, 178 real. |
+| **Notation in a slug** (S1, 22 rows) | No decision of its own: every row is a form whose `text` carries notation that H1–H4 already remove (11 parentheses, 8 numerals/commas, 2 `=`, 1 `?`). The slugs regenerate clean once those land, and slugs are unfrozen during development. |
+| **Slug number vs printed numeral** (S2, was 1,184 rows) | **Not a defect — by design** (Brian, 2026-09-20). The slug number orders the entries sharing a stem; Jastrow's numeral counts homographs of one word. They drift apart wherever a family mixes the two (1,040 families) or is offset (144). A prefix entry takes `אב-1`, so `אָב` I becomes `אב-2` — the URL is an opaque identifier and the page still shows `אָב II`. The generator no longer reports these rows. |
 | **H1 separator defects** (4 rows) | A doubled space (B00098 `בַּד  V`) or a stray comma (B00443, C00329, M00447 `מוֹזְלָא , I`) in front of a single numeral is a defect: the text corrects to `<word> <numeral>` and then parses. |
 
 ## 4.1 Fixes queued as patches
