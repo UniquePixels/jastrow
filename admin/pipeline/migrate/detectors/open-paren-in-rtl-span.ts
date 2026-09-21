@@ -19,6 +19,10 @@ import { markupFields } from './senses.ts';
 
 const OPEN_PAREN_IN_RTL_SPAN = 'open-paren-in-rtl-span';
 
+/** What the review report tells a reader to do about these rows. */
+const OPEN_PAREN_IN_RTL_SPAN_ACTION =
+	'Move the paren out of the Hebrew span in the admin tool after go-live so bidi draws it on the side the print page shows.';
+
 const HE_SPAN = /<he>(?<inner>.*?)<\/he>/gsu;
 
 /** How many times `c` occurs in `text`. */
@@ -48,4 +52,8 @@ function detectOpenParenInRtlSpan(entry: TruthEntry): ClassRow[] {
 	return entryRow(entry, OPEN_PAREN_IN_RTL_SPAN, sites);
 }
 
-export { detectOpenParenInRtlSpan, OPEN_PAREN_IN_RTL_SPAN };
+export {
+	detectOpenParenInRtlSpan,
+	OPEN_PAREN_IN_RTL_SPAN,
+	OPEN_PAREN_IN_RTL_SPAN_ACTION,
+};

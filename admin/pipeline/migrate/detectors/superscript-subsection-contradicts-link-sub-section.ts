@@ -23,6 +23,10 @@ import { markupFields } from './senses.ts';
 const SUPERSCRIPT_SUBSECTION_CONTRADICTS =
 	'superscript-subsection-contradicts-link-sub-section';
 
+/** What the review report tells a reader to do about these rows. */
+const SUPERSCRIPT_SUBSECTION_CONTRADICTS_ACTION =
+	'Adjudicate the printed superscript against the linked text and correct the losing side in the admin tool after go-live; no offset recovers it.';
+
 const CITE = /<cite ref="(?<ref>[^"]*)">(?<inner>.*?)<\/cite>/gsu;
 const REF_SUB_SECTION = /:(?<sub>\d+)$/u;
 const TRAILING_SUP = /<sup>(?<printed>\d+)<\/sup>\s*$/u;
@@ -55,4 +59,5 @@ function detectSuperscriptSubsectionContradicts(entry: TruthEntry): ClassRow[] {
 export {
 	detectSuperscriptSubsectionContradicts,
 	SUPERSCRIPT_SUBSECTION_CONTRADICTS,
+	SUPERSCRIPT_SUBSECTION_CONTRADICTS_ACTION,
 };

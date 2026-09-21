@@ -18,6 +18,10 @@ import { fieldsOf, walkSequence } from './senses.ts';
 
 const EMPTY_STEM_SECTION = 'empty-stem-section';
 
+/** What the review report tells a reader to do about these rows. */
+const EMPTY_STEM_SECTION_ACTION =
+	'Nothing to correct in the data: the blank stem heading shares the gloss of the block after it, and presenting a run of senseless stems as one is a rendering change (Phase 4).';
+
 /** Whether nothing under this stem's senses is visible to a reader.
  * An empty `senses` array satisfies it vacuously, which is the shape
  * all 347 sections take; the walk is written over the whole sequence
@@ -42,4 +46,8 @@ function detectEmptyStemSection(entry: TruthEntry): ClassRow[] {
 	return entryRow(entry, EMPTY_STEM_SECTION, sites);
 }
 
-export { detectEmptyStemSection, EMPTY_STEM_SECTION };
+export {
+	detectEmptyStemSection,
+	EMPTY_STEM_SECTION,
+	EMPTY_STEM_SECTION_ACTION,
+};

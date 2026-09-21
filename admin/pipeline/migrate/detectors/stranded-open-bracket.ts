@@ -22,6 +22,10 @@ import { fieldsOf, type SenseAt, walkSenses } from './senses.ts';
 
 const STRANDED_OPEN_BRACKET = 'stranded-open-bracket';
 
+/** What the review report tells a reader to do about these rows. */
+const STRANDED_OPEN_BRACKET_ACTION =
+	'Rejoin the bracketed span against the print page in the admin tool after go-live; deleting the stray bracket would discard the editorial marking it carries.';
+
 /** The visible text of one sense's OWN fields — gloss then units, no
  * child's — which is the unit the class's `[` sits at the end of. */
 function ownText(at: SenseAt): string {
@@ -36,4 +40,8 @@ function detectStrandedOpenBracket(entry: TruthEntry): ClassRow[] {
 	return entryRow(entry, STRANDED_OPEN_BRACKET, sites);
 }
 
-export { detectStrandedOpenBracket, STRANDED_OPEN_BRACKET };
+export {
+	detectStrandedOpenBracket,
+	STRANDED_OPEN_BRACKET,
+	STRANDED_OPEN_BRACKET_ACTION,
+};

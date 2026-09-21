@@ -23,6 +23,10 @@ import { type ClassRow, entryRow } from './row.ts';
 
 const HOMOGRAPH_ROMAN_STRANDED = 'homograph-roman-stranded-in-definition';
 
+/** What the review report tells a reader to do about these rows. */
+const HOMOGRAPH_ROMAN_STRANDED_ACTION =
+	'Leave it until the anchor side is settled: moving the numeral into the headword alone would dangle 37 live anchors against the 3 that mis-resolve today.';
+
 /** A leading Roman numeral, optionally after a comma, refused before
  * a lower-case letter or an apostrophe. */
 const LEADING_ROMAN = /^\s*,?\s*(?<numeral>[IVXLC]+)(?![\p{Ll}'’])/u;
@@ -47,4 +51,8 @@ function detectHomographRomanStranded(entry: TruthEntry): ClassRow[] {
 	);
 }
 
-export { detectHomographRomanStranded, HOMOGRAPH_ROMAN_STRANDED };
+export {
+	detectHomographRomanStranded,
+	HOMOGRAPH_ROMAN_STRANDED,
+	HOMOGRAPH_ROMAN_STRANDED_ACTION,
+};
