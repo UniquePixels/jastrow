@@ -130,6 +130,7 @@ cannot drift from it.
 |---|---|---|
 | Current names unique (NFC) | `bun qa` | a correction that collides with another entry's name |
 | No current name equals another entry's former name | `bun qa` | reusing a name for a different word (U6) |
+| Each former name appears on exactly one entry | `bun qa` | two entries claiming one old name, which would leave the route map with an ambiguous key |
 | `sefariaHeadword` unique | `bun qa` | a hand edit that duplicates one |
 | `sefariaHeadword` equals the source snapshot | import | a hand edit to a field that tracks Sefaria. Import-only because per-PR CI does not read `data/source/` (R9) |
 | Every published name still resolves to the same rid | `bun qa`, after publication | a headword edit that forgot its `formerNames` entry; the failure names the exact line to add |

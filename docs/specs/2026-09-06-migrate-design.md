@@ -121,7 +121,9 @@ A six-row table over `transform/html.ts` tokens. The corpus inventory
 ### 2.4 Slug
 
 *Superseded 2026-09-21 by the [URL names spec](2026-09-21-url-names-design.md):
-import stops writing `slug` and writes `sefariaHeadword` instead.*
+import stops writing `slug` and writes `sefariaHeadword` instead. The
+paragraph below is historical — the slug rule as built, kept until that
+spec's §9 step 3 retires the code — and is not the import contract.*
 
 Niqqud and marks stripped from `headword.text`. A stem unique across
 the corpus gets the bare slug. A colliding stem gives every member
