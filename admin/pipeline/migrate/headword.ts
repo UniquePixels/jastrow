@@ -46,10 +46,33 @@ const ROMAN: ReadonlyArray<readonly [number, string]> = [
 // again would be a duplicate · U+05F3/F4 geresh and gershayim ·
 // U+0307 combining dot above.
 const LEXICAL = /^(?:[\u05D0-\u05EA\u0591-\u05C7\u05F3\u05F4]|\u0307)+$/u;
+/** `LEXICAL` plus the bare space `FORM` admits. A parsed `text` that
+ * matches this and holds a space is a MULTI-WORD form \u2014 one expression
+ * written as several words \u2014 and nothing else is out of the set. */
+const LEXICAL_WITH_SPACE =
+	/^(?:[\u05D0-\u05EA\u0591-\u05C7\u05F3\u05F4 ]|\u0307)+$/u;
 
 interface Decomposed {
 	form: FormObject;
 	parsed: boolean;
+}
+
+/** Which review row a flagged form becomes.
+ *
+ * - `headword-unparsed` \u2014 the grammar could not account for the string,
+ *   or `text` carries something the lexical set has no reading for.
+ * - `headword-multiword` \u2014 `text` is lexical apart from a space it uses
+ *   to separate words. A legitimate form, not a defect
+ *   (`docs/v2/headword-design.md` \u00A74: reduplication, spaced variants,
+ *   phrase headwords and phrase alternates), listed so the count stays
+ *   visible.
+ */
+type HeadwordReviewKind = 'headword-multiword' | 'headword-unparsed';
+
+/** Why a form is on the headword review list, and under which kind. */
+interface HeadwordReview {
+	kind: HeadwordReviewKind;
+	reason: string;
 }
 
 /** A homograph number as the roman numeral Jastrow prints. */
@@ -150,15 +173,35 @@ function decomposeForm(marked: string): Decomposed {
 	return unparsed;
 }
 
-/** Why a decomposed form belongs on the review list, or `undefined`. */
-function reviewReason(decomposed: Decomposed): string | undefined {
+/** Why a decomposed form belongs on the review list, or `undefined`.
+ *
+ * The space is split out from the rest of the non-lexical set rather
+ * than lumped with it. `FORM` admits U+0020 and `LEXICAL` does not, so
+ * every multi-word headword parses and is then flagged for its space
+ * alone — 271 of the 300 rows the report called `headword-unparsed` on
+ * 2026-09-20, each one a form headword-design §4 rules legitimate. The
+ * third branch stays for a `text` that is neither: it cannot arise
+ * while `FORM`'s class is `LEXICAL` + space, and it is the branch that
+ * has to be right the moment that class widens. */
+function reviewReason(decomposed: Decomposed): HeadwordReview | undefined {
 	if (!decomposed.parsed) {
-		return 'grammar did not parse';
+		return { kind: 'headword-unparsed', reason: 'grammar did not parse' };
 	}
-	return LEXICAL.test(decomposed.form.text)
-		? undefined
-		: 'text carries characters outside the lexical set';
+	const { text } = decomposed.form;
+	if (LEXICAL.test(text)) {
+		return;
+	}
+	if (LEXICAL_WITH_SPACE.test(text) && text.includes(' ')) {
+		return {
+			kind: 'headword-multiword',
+			reason: 'multi-word form; the space is its only non-lexical character',
+		};
+	}
+	return {
+		kind: 'headword-unparsed',
+		reason: 'text carries characters outside the lexical set',
+	};
 }
 
-export type { Decomposed };
+export type { Decomposed, HeadwordReview, HeadwordReviewKind };
 export { decomposeForm, regenerateForm, reviewReason };

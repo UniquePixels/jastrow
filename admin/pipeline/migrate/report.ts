@@ -292,7 +292,14 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 		'## Headword review',
 		'',
 		list(
-			rowLines(report, (r) => r.kind === 'headword-unparsed'),
+			// Both headword kinds: the multi-word split is about how the
+			// review report CLASSIFIES a row, and the evidence doc still
+			// shows every form the detector looked twice at.
+			rowLines(
+				report,
+				(r) =>
+					r.kind === 'headword-multiword' || r.kind === 'headword-unparsed',
+			),
 			'none',
 		),
 		'',

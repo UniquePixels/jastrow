@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'bun:test';
-import { classifyRows, PUBLICATION, publicationOf } from './publication.ts';
+import {
+	actionOf,
+	classifyRows,
+	PUBLICATION,
+	publicationOf,
+	RETIRING_KINDS,
+} from './publication.ts';
 import { createReport, lineRow, type Publication } from './report.ts';
 
 // Spec §3.1.1, one tuple per kind.
@@ -12,6 +18,7 @@ const TABLE: ReadonlyArray<readonly [string, Publication]> = [
 	['page-confidence-medium', 'defer'],
 	['markup-carry', 'defer'],
 	['review-deferred', 'defer'],
+	['headword-multiword', 'note'],
 	['slug-changed', 'note'],
 	['slug-new', 'note'],
 	['slug-alias-new', 'note'],
@@ -25,8 +32,29 @@ describe('PUBLICATION', () => {
 	});
 	it('maps every table kind to the table value', () => {
 		for (const [kind, expected] of TABLE) {
-			expect(PUBLICATION.get(kind)).toBe(expected);
+			expect(PUBLICATION.get(kind)?.publication).toBe(expected);
 		}
+	});
+	it('gives every kind a non-empty action ending in a full stop', () => {
+		for (const [kind] of TABLE) {
+			const action = PUBLICATION.get(kind)?.action ?? '';
+			expect(action.length).toBeGreaterThan(0);
+			expect(action.endsWith('.')).toBe(true);
+		}
+	});
+	it('names only kinds the table classifies as retiring', () => {
+		for (const kind of RETIRING_KINDS) {
+			expect(PUBLICATION.has(kind)).toBe(true);
+		}
+	});
+});
+
+describe('actionOf', () => {
+	it('reads the kind row', () => {
+		expect(actionOf('headword-multiword')).toContain('headword-design §4');
+	});
+	it('throws on a kind the table does not name', () => {
+		expect(() => actionOf('new-kind')).toThrow('new-kind');
 	});
 });
 

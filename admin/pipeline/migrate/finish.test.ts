@@ -58,6 +58,28 @@ describe('finishEntry', () => {
 		);
 		expect(entry.stems?.[0]?.forms).toEqual(['נֶאֱבַד']);
 	});
+	it('carries a detector kind on each headword review row', () => {
+		// The split lives in `reviewReason`, so a multi-word alternate and
+		// a torn primary come out of ONE call under two different kinds —
+		// the report never has to re-read the reason text to tell them
+		// apart.
+		const { headwordReview } = finishEntry(
+			{
+				...source,
+				alt_headwords: ['פּוּם בְדִיתָא'],
+				headword: 'אִידְרְעָא = אֶדְרְעָא',
+			},
+			body,
+			context,
+		);
+		expect(headwordReview.map((r) => r.kind)).toEqual([
+			'headword-unparsed',
+			'headword-multiword',
+		]);
+		expect(headwordReview[1]?.line).toBe(
+			'A00014: פּוּם בְדִיתָא — multi-word form; the space is its only non-lexical character',
+		);
+	});
 	it('reports a missing page and keeps going', () => {
 		const { entry, problems } = finishEntry(source, body, {
 			...context,

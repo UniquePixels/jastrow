@@ -1,9 +1,15 @@
 /** The review report (consolidation spec §3.1.1): every review and
- * patch row of a run, split by whether it blocks v2 publication. The
- * admin tool's tracker integration reads the deferred rows. */
+ * patch row of a run, split by whether it blocks v2 publication, plus
+ * the catalogued classes that block by ruling and have no detector to
+ * emit a row. The admin tool's tracker integration reads the deferred
+ * rows. */
+import { type Pattern, parsePatterns } from '../patch/patterns.ts';
+import { actionOf, RETIRING_KINDS } from './publication.ts';
 import type { Publication, Report, ReportRow } from './report.ts';
 
 const REVIEW_REPORT_PATH = 'docs/v2/review-report.md';
+const PATTERNS_PATH = 'data/patches/patterns.jsonl';
+const CATALOGUED_TITLE = 'Catalogued, not yet detected';
 
 const SECTIONS: ReadonlyArray<readonly [Publication, string]> = [
 	['blocks', 'Before publication'],
@@ -11,8 +17,40 @@ const SECTIONS: ReadonlyArray<readonly [Publication, string]> = [
 	['note', 'Notes'],
 ];
 
-/** One section: a `###` block per kind, kinds alphabetical, rows in
- * run order; `_none_` when the section is empty. */
+/** Catalogued classes the maintainer ruled blocking that no detector
+ * on the import path can see, largest first.
+ *
+ * `route: transform` is excluded because a transform-routed class is
+ * answered by a registered rule that DOES run on the import path; what
+ * is left — `judgment` and `blocked` — is work no run performs and no
+ * row records. `status: candidate` excludes rows already resolved.
+ * The counts are the catalogue's own `corpusCount`, measured when the
+ * class was catalogued, not by this run. */
+function undetectedClasses(rows: readonly Pattern[]): Pattern[] {
+	return rows
+		.filter(
+			(r) =>
+				r.blocking === true &&
+				r.route !== 'transform' &&
+				r.status === 'candidate',
+		)
+		.toSorted(
+			(a, b) => b.corpusCount - a.corpusCount || a.id.localeCompare(b.id, 'en'),
+		);
+}
+
+/** The catalogue's undetected blocking classes, read at render time.
+ * These are not report rows — they have no rid — so they are rendered
+ * from the catalogue rather than counted with the run's rows. */
+async function loadUndetectedClasses(
+	path: string = PATTERNS_PATH,
+): Promise<Pattern[]> {
+	return undetectedClasses(parsePatterns(await Bun.file(path).text()));
+}
+
+/** One section: a `###` block per kind, kinds alphabetical, the kind's
+ * one-line action once under its heading, then the rows in run order;
+ * `_none_` when the section is empty. */
 function section(title: string, rows: readonly ReportRow[]): string[] {
 	const head = [`## ${title} (${rows.length})`, ''];
 	if (rows.length === 0) {
@@ -29,30 +67,89 @@ function section(title: string, rows: readonly ReportRow[]): string[] {
 			const lines = rows
 				.filter((r) => r.kind === kind)
 				.map((r) => `- ${r.rid}: ${r.detail}`);
-			const block = [`### ${kind} (${lines.length})`, '', ...lines];
+			const block = [
+				`### ${kind} (${lines.length})`,
+				'',
+				`**What to do:** ${actionOf(kind)}`,
+				'',
+				...lines,
+			];
 			return i === kinds.length - 1 ? block : [...block, ''];
 		}),
 	];
 }
 
-/** The whole review report: a summary row per `publication` value,
- * then a section for each in `SECTIONS` order — `blocks`, `defer`,
- * `note`. Every section renders even when empty (`_none_`), so a
- * missing one is a bug rather than a run with nothing to report, and
- * the `blocks` count can be read as the publication gate directly. */
-function renderReviewReport(report: Report): string {
+/** The catalogued-but-undetected section: one line per class — id,
+ * catalogued count, publication class — and a sentence saying why it
+ * holds no rids. */
+function cataloguedSection(classes: readonly Pattern[]): string[] {
+	const entries = classes.reduce((sum, c) => sum + c.corpusCount, 0);
+	return [
+		`## ${CATALOGUED_TITLE} (${classes.length} classes, ${entries} entries)`,
+		'',
+		'No detector for these classes runs on the import path, so they produce no rows above and are counted in neither `blocks` nor `defer`. Counts are the catalogue\'s own `corpusCount` in `data/patches/patterns.jsonl`, measured when the class was catalogued, not by this run. Detectors are pending — consolidation spec §10, "port judgment-class detectors".',
+		'',
+		'**What to do:** write the detector, then let the rows it emits be triaged here like any other kind.',
+		'',
+		...(classes.length === 0
+			? ['_none_']
+			: classes.map((c) => `- ${c.id} — ${c.corpusCount} entries — defer`)),
+	];
+}
+
+/** Every non-pipeline row must carry a `publication` stamp before the
+ * report renders. `classifyRows` runs once in `migrate.ts`, so a row
+ * pushed after that call would land in no section at all and vanish
+ * from the document without changing a single count. This turns that
+ * into a failed run naming the kind. */
+function assertClassified(report: Report): void {
+	for (const row of report.rows) {
+		if (row.bucket !== 'pipeline' && row.publication === undefined) {
+			throw new Error(
+				`review kind "${row.kind}" reached the review report unclassified; classifyRows must run after the last row is pushed`,
+			);
+		}
+	}
+}
+
+/** The whole review report: a summary row per `publication` value plus
+ * the catalogued classes, then a section for each in `SECTIONS` order
+ * — `blocks`, `defer`, `note` — and the catalogued section last. Every
+ * section renders even when empty (`_none_`), so a missing one is a
+ * bug rather than a run with nothing to report, and the `blocks` count
+ * can be read as the publication gate directly. */
+function renderReviewReport(
+	report: Report,
+	catalogued: readonly Pattern[],
+): string {
+	assertClassified(report);
 	const by = (p: Publication): ReportRow[] =>
 		report.rows.filter((r) => r.publication === p);
+	const cataloguedEntries = catalogued.reduce(
+		(sum, c) => sum + c.corpusCount,
+		0,
+	);
 	return [
 		'# Review report',
 		'',
-		`Generated by \`bun data:import\` over ${report.entries} entries: every review and patch row of the run, by whether it must be resolved before v2 is published (consolidation spec §3.1.1). Deferred rows become tracker issues; notes do not.`,
+		`Generated by \`bun data:import\` over ${report.entries} entries: every review and patch row of the run, by whether it must be resolved before v2 is published (consolidation spec §3.1.1). Deferred rows become tracker issues; notes do not. A row \`blocks\` when the reader sees a defect that cannot be corrected in the admin tool after go-live (maintainer, 2026-09-20).`,
+		'',
+		`Retiring kinds: ${RETIRING_KINDS.map((k) => `\`${k}\``).join(', ')} go away with the URL names work (\`docs/specs/2026-09-21-url-names-design.md\` §7), which also reopens why \`headword-unparsed\` blocks (§8).`,
 		'',
 		'| Publication | Rows |',
 		'|---|---|',
 		...SECTIONS.map(([p]) => `| ${p} | ${by(p).length} |`),
+		`| ${CATALOGUED_TITLE.toLowerCase()} | 0 rows (${catalogued.length} classes, ${cataloguedEntries} entries) |`,
 		...SECTIONS.flatMap(([p, title]) => ['', ...section(title, by(p))]),
+		'',
+		...cataloguedSection(catalogued),
 	].join('\n');
 }
 
-export { REVIEW_REPORT_PATH, renderReviewReport };
+export {
+	loadUndetectedClasses,
+	PATTERNS_PATH,
+	REVIEW_REPORT_PATH,
+	renderReviewReport,
+	undetectedClasses,
+};

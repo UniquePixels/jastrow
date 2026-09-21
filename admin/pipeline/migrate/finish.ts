@@ -5,7 +5,11 @@
  */
 import type { BodyEntry, BodySense, SourceEntry } from '../body/types.ts';
 import { createResolver, type Unresolved } from './cite.ts';
-import { decomposeForm, reviewReason } from './headword.ts';
+import {
+	decomposeForm,
+	type HeadwordReviewKind,
+	reviewReason,
+} from './headword.ts';
 import { type TagCarry, translateMarkup } from './markup.ts';
 import type { PagePlacement } from './page.ts';
 import type { FormObject, TruthEntry, TruthSense } from './types.ts';
@@ -16,10 +20,19 @@ interface FinishContext {
 	slugs: ReadonlyMap<string, string>;
 }
 
+/** One headword review row: the report kind the detector chose, and
+ * the `rid: string — reason` line that renders under it. The kind
+ * travels with the line so the split lives in the detector rather than
+ * in a filter over the finished report. */
+interface HeadwordReviewRow {
+	kind: HeadwordReviewKind;
+	line: string;
+}
+
 interface Finished {
 	entry: TruthEntry;
-	/** `rid: string — reason` lines for the headword review list. */
-	headwordReview: string[];
+	/** Headword review rows, each already carrying its report kind. */
+	headwordReview: HeadwordReviewRow[];
 	/** `rid: path: …` lines noting an inline tag run that crossed a
 	 * body-unit boundary (carried and reopened) or was still open at
 	 * the end of its sense sequence (closed there instead). Neither is
@@ -41,7 +54,7 @@ function finishEntry(
 ): Finished {
 	const problems: string[] = [];
 	const unresolved: Unresolved[] = [];
-	const headwordReview: string[] = [];
+	const headwordReview: HeadwordReviewRow[] = [];
 	const markupCarries: string[] = [];
 	const resolve = createResolver(context.headwordMap, source.rid, unresolved);
 
@@ -51,9 +64,12 @@ function finishEntry(
 	 * rather than at module scope. */
 	const form = (marked: string): FormObject => {
 		const decomposed = decomposeForm(marked);
-		const reason = reviewReason(decomposed);
-		if (reason !== undefined) {
-			headwordReview.push(`${source.rid}: ${marked} — ${reason}`);
+		const review = reviewReason(decomposed);
+		if (review !== undefined) {
+			headwordReview.push({
+				kind: review.kind,
+				line: `${source.rid}: ${marked} — ${review.reason}`,
+			});
 		}
 		return decomposed.form;
 	};
@@ -183,5 +199,5 @@ function finishEntry(
 	return { entry, headwordReview, markupCarries, problems, unresolved };
 }
 
-export type { FinishContext, Finished };
+export type { FinishContext, Finished, HeadwordReviewRow };
 export { finishEntry };
