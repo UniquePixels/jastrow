@@ -47,9 +47,9 @@ const DOT_ABOVE = '\u0307';
 const DOUBLE_SPACE = '  ';
 const UNPARSED_DETAIL = /^(?<form>.*) — (?<reason>.*)$/u;
 const UNSAFE_SLUG_CHAR = /[^\u05D0-\u05EA0-9-]/gu;
-/** Final letters and the plain forms they answer to, in one order so a
- * `ך` mid-word and a `כ` word-finally are both recognisable. */
-const FINAL_LETTERS = '\u05DA\u05DD\u05DF\u05E3\u05E5';
+/** A final letter, which may not stand mid-word (`\u05DA` in
+ * F00009's `\u05D5\u05B7\u05D0\u05E8\u05B0\u05DA\u05BC\u05D5\u05BC\u05E0\u05B0\u05D9\u05B8\u05D0`), and the plain forms that may not end one. */
+const FINAL_LETTER = /[\u05DA\u05DD\u05DF\u05E3\u05E5]/u;
 const NON_FINAL_LETTERS = '\u05DB\u05DE\u05E0\u05E4\u05E6';
 
 interface ReportRow {
@@ -135,7 +135,7 @@ function issuesOf(text: string): string[] {
 		issues.push('leading-mark');
 	}
 	for (const word of consonants(text).match(LETTERS) ?? []) {
-		if ([...word.slice(0, -1)].some((c) => FINAL_LETTERS.includes(c))) {
+		if (FINAL_LETTER.test(word.slice(0, -1))) {
 			issues.push('final-letter-medial');
 		}
 		// A plain letter ending a word is only suspicious in a word that
@@ -213,7 +213,7 @@ async function loadEntries(): Promise<Map<string, TruthEntry>> {
 		new Bun.Glob('*/*.json').scan(ENTRIES_DIR),
 	);
 	const entries = new Map<string, TruthEntry>();
-	for (const path of paths.sort()) {
+	for (const path of paths.toSorted((a, b) => a.localeCompare(b))) {
 		const entry = (await Bun.file(
 			`${ENTRIES_DIR}/${path}`,
 		).json()) as TruthEntry;
@@ -346,7 +346,9 @@ function slugRows(
 	);
 	for (const entry of inRidOrder) {
 		const rid = entry.id;
-		const bad = [...new Set(entry.slug.match(UNSAFE_SLUG_CHAR) ?? [])].sort();
+		const bad = [...new Set(entry.slug.match(UNSAFE_SLUG_CHAR) ?? [])].sort(
+			(a, b) => a.localeCompare(b),
+		);
 		const apostrophes = bad.every((c) => c === '׳' || c === '״');
 		if (bad.length > 0 && !apostrophes) {
 			rows.push({
@@ -474,8 +476,10 @@ function render(rows: IssueRow[]): string {
 		const group = [...(byShape.get(shape) ?? [])].sort(
 			(a, b) => a.note.localeCompare(b.note) || a.rid.localeCompare(b.rid),
 		);
-		lines.push('', `## ${shape} (${group.length})`, '');
 		lines.push(
+			'',
+			`## ${shape} (${group.length})`,
+			'',
 			'| rid | role | text | slug | note | flagged |',
 			'|---|---|---|---|---|---|',
 		);
