@@ -17,6 +17,20 @@ interface KindRule {
 
 const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
 	[
+		// One of the five catalogued blocking classes now detected on the
+		// import path (`migrate/detectors/`). `blocking: true` in the
+		// catalogue gates the CUTOVER; `defer` here answers the separate
+		// question of what a reader can correct after go-live, and none
+		// of the five moves a URL (post-consolidation review §10,
+		// decision 2).
+		'empty-stem-section',
+		{
+			action:
+				'Nothing to correct in the data: the blank stem heading shares the gloss of the block after it, and presenting a run of senseless stems as one is a rendering change (Phase 4).',
+			publication: 'defer',
+		},
+	],
+	[
 		// Split out of `headword-unparsed` 2026-09-21: `FORM` admits a
 		// space and `LEXICAL` does not, so every multi-word headword
 		// parsed and was then flagged for the space alone — 271 of the 300
@@ -45,10 +59,26 @@ const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
 		},
 	],
 	[
+		'homograph-roman-stranded-in-definition',
+		{
+			action:
+				'Leave it until the anchor side is settled: moving the numeral into the headword alone would dangle 37 live anchors against the 3 that mis-resolve today.',
+			publication: 'defer',
+		},
+	],
+	[
 		'markup-carry',
 		{
 			action:
 				'Nothing to do: the composer closed the tag; the row records where the run crossed a unit boundary.',
+			publication: 'defer',
+		},
+	],
+	[
+		'open-paren-in-rtl-span',
+		{
+			action:
+				'Move the paren out of the Hebrew span in the admin tool after go-live so bidi draws it on the side the print page shows.',
 			publication: 'defer',
 		},
 	],
@@ -119,6 +149,22 @@ const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
 			action:
 				'Patch the headword so the derived name carries no URL-unsafe character.',
 			publication: 'blocks',
+		},
+	],
+	[
+		'stranded-open-bracket',
+		{
+			action:
+				'Rejoin the bracketed span against the print page in the admin tool after go-live; deleting the stray bracket would discard the editorial marking it carries.',
+			publication: 'defer',
+		},
+	],
+	[
+		'superscript-subsection-contradicts-link-sub-section',
+		{
+			action:
+				'Adjudicate the printed superscript against the linked text and correct the losing side in the admin tool after go-live; no offset recovers it.',
+			publication: 'defer',
 		},
 	],
 	[

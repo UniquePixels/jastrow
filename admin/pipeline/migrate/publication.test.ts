@@ -18,6 +18,12 @@ const TABLE: ReadonlyArray<readonly [string, Publication]> = [
 	['page-confidence-medium', 'defer'],
 	['markup-carry', 'defer'],
 	['review-deferred', 'defer'],
+	// The five catalogued classes `migrate/detectors/` now detects.
+	['empty-stem-section', 'defer'],
+	['homograph-roman-stranded-in-definition', 'defer'],
+	['open-paren-in-rtl-span', 'defer'],
+	['stranded-open-bracket', 'defer'],
+	['superscript-subsection-contradicts-link-sub-section', 'defer'],
 	['headword-multiword', 'note'],
 	['slug-changed', 'note'],
 	['slug-new', 'note'],
