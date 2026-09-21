@@ -58,3 +58,9 @@ Feature branches off `main`. Never commit directly to `main`.
 **Commit format:** `<emoji> <type>([scope]): <description>` — 50 char
 max, imperative, lowercase. Types: `new` 🦄 / `improve` 🌈 / `fix` 🦠
 / `chore` 🧺 / `release` 🚀 / `doc` 📖 / `ci` 🚦
+
+## Issues
+
+An issue is one defect class or one decision, never a rid list (rid lists
+live in generated docs; link the section). Never create, close, edit or
+comment on an issue without the maintainer's explicit go in that session.

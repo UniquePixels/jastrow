@@ -107,6 +107,22 @@ There is no v2 interface yet. When one exists, UI changes must meet
 **WCAG 2.1 AA** — especially keyboard operability and focus management,
 which automated tools don't catch.
 
+## Issues
+
+- An issue is **one class of defect or one decision**, never a list of
+  entry ids. Per-entry rows live in the generated docs
+  (`docs/v2/review-report.md`, `docs/v2/headword-issues.md`) or in patch
+  manifests; the issue links the section instead of copying it, so it
+  cannot go stale on the next run.
+- One issue per piece of work, not per shape of it. If several shapes are
+  fixed by the same pass (say, one read of the 1903 print), they share an
+  issue with a checklist.
+- A single wrong entry goes through the **Data correction** form, which
+  asks for the headword and its id. That is the one place an entry id
+  belongs in an issue.
+- AI sessions file no issue, and close none, without the maintainer's
+  explicit go in that session.
+
 ## Pull Requests
 
 - PRs are reviewed by [CodeRabbit](https://coderabbit.ai/) and a
