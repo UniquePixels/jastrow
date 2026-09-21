@@ -7,7 +7,7 @@
  *
  * - `data/source/migration-report.json`, for what the CURRENT processor
  *   already flags (`headword-unparsed`, `slug-unsafe`). Run
- *   `bun pipeline:migrate` first if it is stale.
+ *   `bun data:import` first if it is stale.
  * - `data/entries/`, walked independently. The processor's review list
  *   is not the defect list: a form can round-trip through the grammar
  *   and still be wrong (a lost letter, a Sefaria split, a slug whose
