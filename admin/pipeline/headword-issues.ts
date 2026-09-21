@@ -397,7 +397,7 @@ function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 		}
 	}
 	const rows: IssueRow[] = [];
-	for (const family of families.values()) {
+	for (const [text, family] of families) {
 		const members = [...family].sort((a, b) => a.rid.localeCompare(b.rid));
 		// DISTINCT numerals: a family can hold two entries numbered II
 		// (A00014, A00015), told apart by their superscript
@@ -431,10 +431,13 @@ function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 			flagged: false,
 			note: `missing ${missing.join(',')}; ${unnumbered} unnumbered: ${detail}`,
 			rid: first.rid.replace('/alt', ''),
-			role: 'headword',
+			// The family is keyed on the ALTERNATE's spelling when its
+			// first numbered member is an alternate, so the row must name
+			// that form, not the entry's primary headword.
+			role: first.rid.endsWith('/alt') ? 'alt' : 'headword',
 			shape: 'X8 homograph numbering gap',
 			slug: entry.slug,
-			text: entry.headword.text,
+			text,
 		});
 	}
 	return rows;
